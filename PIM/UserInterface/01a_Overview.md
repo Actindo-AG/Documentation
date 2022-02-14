@@ -1,0 +1,48 @@
+# Dashboard
+*PIM > Overview > Tab DASHBOARD*
+
+![Dashboard](/Assets/Screenshots/PIM/Overview/Dashboard.png "[Dashboard]")
+
+## Completeness by Product
+
+In this section, an overview of the completeness regarding the products is displayed in four boxes.   
+Each box presents one degree of completeness. The following degrees of completeness in percent are displayed:
+- completeness less than 30%
+- completeness more than or equal to 30%
+- completeness more than or equal to 80%
+- completeness equal to 100%
+
+In addition to the degree of completeness, the number of products in the corresponding level and the percentage of this number of products measured against the total number of products are displayed in each box.
+
+
+## Completeness by Scopes
+
+In this section, an overview of the completeness regarding the scopes is displayed in several boxes.    
+Each box presents an existing scope. Additionally, one box presents the completeness of products that are not assigned to a specific scope.
+
+In each box the degree of completeness in percent is displayed related to:
+- all products within that scope
+- all single language products within that scope
+- all products in the active languages within that scope (a single percentage for each active language)
+
+
+## Recent Changes
+
+The table displays the recent changes on the products.
+
+- ![Refresh](/Assets/Icons/Refresh01.png "[Refresh]") (Refresh)    
+  Click this button to update the table of recent changes.
+
+The fields in the following columns are display fields only. They cannot be changed.
+
+- *SKU*  
+  Stock Keeping Unit. Identification number for the product.  
+
+- *Date*  
+  Date and time of the change.  
+
+- *Author*   
+  Name and username of the author who made the change.
+
+- *Changed Elements*   
+  Elements that have been changed on the product.
