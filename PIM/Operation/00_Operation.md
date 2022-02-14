@@ -1,14 +1,15 @@
-# Create a product
+# Manage a product
+## Create a product
+## Edit products
+### Edit a single product
+### Mass editing
+## Copy a product
 
 # Create a product variant
 ## Create a product with variants
 ### Create a single variant
 ### Create multiple variants
 ## Create variants to a product
-
-# Edit a product
-## Edit multiple products
-## Copy a product
 
 # Move a product
 ## Archive a product
