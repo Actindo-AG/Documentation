@@ -121,15 +121,17 @@ At least one attribute is created, see [Create an attribute](#create-an-attribut
 ![Attributes](/Assets/Screenshots/PIM/Settings/Attributes/Attributes.png "[Attributes]")
 
 1. Click the attribute you want to edit in the list of attributes.   
-  The *Edit Attribute* view is displayed.
+  The *Edit Attribute* view is displayed. The tab *Data* is preselected.
 
-  ![Edit attribute](/Assets/Screenshots/PIM/Settings/Attributes/EditAttribute.png "[Edit attribute]")
+  ![Edit attribute data](/Assets/Screenshots/PIM/Settings/Attributes/EditAttribute_Data.png "[Edit attribute data]")
 
   > [Info] Be aware that you can only edit the attribute name, description, its status and configuration. All other fields and toggles are locked.
 
 2. Edit the desired data of the attribute in the corresponding fields in the tab *Data*.
 
 3. If desired, click the tab *Attribute Set Assignments* to check to which sets the selected attribute is assigned.
+
+  ![Edit attribute assignments](/Assets/Screenshots/PIM/Settings/Attributes/EditAttribute_Assignments.png "[Edit attribute assignments]")
 
    > [Info] If you want to change the attribute set assignments of the selected attribute, you have to modify the corresponding attribute set.
 
@@ -170,9 +172,9 @@ At least one attribute is created, see [Create an attribute](#create-an-attribut
 ![Attributes](/Assets/Screenshots/PIM/Settings/Attributes/Attributes.png "[Attributes]")
 
 1. Click the attribute you want to deactivate in the list of attributes.   
-  The *Edit Attribute* view is displayed.
+  The *Edit Attribute* view is displayed. The tab *Data* is preselected.
 
-  ![Edit attribute](/Assets/Screenshots/PIM/Settings/Attributes/EditAttribute.png "[Edit attribute]")
+  ![Edit attribute data](/Assets/Screenshots/PIM/Settings/Attributes/EditAttribute_Data.png "[Edit attribute data]")
 
 2. Deactivate the toggle ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Active* in the tab *Data*.
 
@@ -232,6 +234,8 @@ At least one attribute is created, see [Create an attribute](#create-an-attribut
 4. Switch to the tab *DELETED ATTRIBUTES*: *DataHub > Settings > DELETED ATTRIBUTES* .    
   The list of deleted attributes is displayed.
 
+  ![Deleted attributes](/Assets/Screenshots/DataHub/Settings/DeletedAttributes/DeletedAttributes.png "[Deleted attributes]")
+
   > [Info] If the deleted attribute is not yet displayed in the list of deleted attributes, click the button ![Refresh](/Assets/Icons/Refresh01.png "[Refresh]") (Refresh) to update the list.
 
 5. Select the checkbox ![Checkbox](/Assets/Icons/Checkbox.png "[Checkbox]") of the attribute you want to delete in the list of attributes.    
@@ -266,5 +270,4 @@ At least one attribute is created, see [Create an attribute](#create-an-attribut
 
 If you delete an attribute in the *PIM* module, it is not irretrievably deleted. You can still recover the attribute and make the deletion undone.
 
-The procedure to recover a deleted attribute is described in the *DataHub* module:
-[Recover an attribute](/DataHub/to_be_completed#recover-an-attribute)#
+The procedure to recover a deleted attribute is described in the *DataHub* module [Recover an attribute](/DataHub/to_be_completed#recover-an-attribute)

@@ -2,7 +2,7 @@ Attribute set# Attribute Sets
 
 *PIM > Settings > Tab ATTRIBUTE SETS*
 
-![Attribute sets](/Assets/Screenshots/PIM/Settings/ProductTypes/ProductTypes.png "[Attribute sets]")
+![Attribute sets](/Assets/Screenshots/PIM/Settings/AttributeSets/AttributeSets.png "[Attribute sets]")
 
 - [IMPORT]   
   Click this button to import a attribute set and start the import wizard.   
@@ -82,7 +82,7 @@ The table displays all attribute sets.  All fields are read-only. Depending on t
 ## Create attribute set
 *PIM > Settings > Tab ATTRIBUTE SETS > Button Add*
 
-![Create set](/Assets/Screenshots/PIM/Settings/ProductTypes/CreateSet.png "[Create set]")
+![Create set](/Assets/Screenshots/PIM/Settings/AttributeSets/CreateSet.png "[Create set]")
 
 - ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Status*   
   Activate this toggle to set the attribute set status to active. Deactivate the toggle to set the status to inactive. By default, this toggle is active.
@@ -134,7 +134,7 @@ In the *Create Set* view, no attributes are displayed in the list on the right s
 ## Edit attribute set
 *PIM > Settings > Tab ATTRIBUTE SETS > Select attribute set*
 
-![Edit set](/Assets/Screenshots/PIM/Settings/ProductTypes/EditSet.png "[Edit set]")
+![Edit set](/Assets/Screenshots/PIM/Settings/AttributeSets/EditSet.png "[Edit set]")
 
 - ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Status*   
   Activate this toggle to set the attribute set status to active. Deactivate the toggle to set the status to inactive. By default, this toggle is active.
@@ -258,9 +258,12 @@ The table displays all attributes assigned to the selected attribute set. Depend
 
 
 ### Edit attribute for set
+
+[comment]: <> (Not working anymore?)
+
 *PIM > Settings > Tab ATTRIBUTE SETS > Select attribute set > Select attribute*
 
-![Edit Attribute for Set](/Assets/Screenshots/PIM/Settings/ProductTypes/EditAttributeSet.png "[Edit Attribute for  Set]")
+![Edit Attribute for Set](/Assets/Screenshots/PIM/Settings/AttributeSets/EditAttribute.png "[Edit Attribute for  Set]")
 
 - [CANCEL]   
   Click this button to cancel editing the configuration, close the *Edit Attribute for Set* view and return to the *Edit Set* view.
@@ -281,7 +284,7 @@ This wizard helps you to import one or multiple attribute set(s).
 
 ### Step 1
 
-![Import wizard step 1](/Assets/Screenshots/PIM/Settings/ProductTypes/Import01.png "[Import wizard step 1]")
+![Import wizard step 1](/Assets/Screenshots/PIM/Settings/AttributeSets/Import01.png "[Import wizard step 1]")
 
 This wizard window
 
@@ -308,7 +311,7 @@ This wizard window
 
 ### Step 2
 
-![Import wizard step 2](/Assets/Screenshots/PIM/Settings/ProductTypes/Import02.png "[Import wizard step 2]")
+![Import wizard step 2](/Assets/Screenshots/PIM/Settings/AttributeSets/Import02.png "[Import wizard step 2]")
 
 This wizard window displays a summary of the import. When the import was successfull, *Import completed* is displayed.
 
@@ -327,7 +330,7 @@ This wizard helps you to export one or multiple attribute set(s).
 
 ### Step 1
 
-![Export wizard step 1](/Assets/Screenshots/PIM/Settings/ProductTypes/Export01.png "[Export wizard step 1]")
+![Export wizard step 1](/Assets/Screenshots/PIM/Settings/AttributeSets/Export01.png "[Export wizard step 1]")
 
 This wizard window displays all attributes of the selected attribute set(s) for export.
 
@@ -399,7 +402,7 @@ The table displays all attributes assigned to the selected attribute set. All fi
 
 ### Step 2
 
-![Export wizard step 2](/Assets/Screenshots/PIM/Settings/ProductTypes/Export02.png "[Export wizard step 2]")
+![Export wizard step 2](/Assets/Screenshots/PIM/Settings/AttributeSets/Export02.png "[Export wizard step 2]")
 
 This wizard window displays all variant set of the selected attribute set(s) for export. It is only displayed, when the selected attribute set for export includes variant sets.
 
@@ -451,7 +454,7 @@ The table displays all variant sets included to the selected attribute set for e
 
 ### Step 3
 
-![Export wizard step 3](/Assets/Screenshots/PIM/Settings/ProductTypes/Export03.png "[Export wizard step 3]")
+![Export wizard step 3](/Assets/Screenshots/PIM/Settings/AttributeSets/Export03.png "[Export wizard step 3]")
 
 This wizard window displays several tables summarizing the settings for final export. All fields are read-only.
 

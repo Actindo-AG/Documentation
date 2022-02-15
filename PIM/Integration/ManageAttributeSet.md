@@ -19,12 +19,12 @@ The attributes for the attribute set are created, see [Create an attribute](Mana
 ### Procedure
 *PIM > Settings > Tab ATTRIBUTE SETS*
 
-![Attributes](/Assets/Screenshots/PIM/Settings/ProductTypes/ProductTypes.png "[Attributes]")
+![Attribute sets](/Assets/Screenshots/PIM/Settings/AttributeSets/AttributeSets.png "[Attribute sets]")
 
 1. Click the button ![Add](/Assets/Icons/Plus01.png "[Add]") (Add) in the bottom right corner.   
   The *Create Attribute Set* view is displayed.
 
-  ![Create attribute set](/Assets/Screenshots/PIM/Settings/ProductTypes/CreateSet.png "[Create attribute set]")
+  ![Create attribute set](/Assets/Screenshots/PIM/Settings/AttributeSets/CreateAttributeSet.png "[Create attribute set]")
 
 2. Enter a name for the attribute set in the field *Name* and, if desired, add an attribute set description in the field *Description*.
 
@@ -123,17 +123,17 @@ Add a new attribute to an attribute set to define any further specifications.
 
 *PIM > Settings > Tab ATTRIBUTE SETS*
 
-![Attributes](/Assets/Screenshots/PIM/Settings/ProductTypes/ProductTypes.png "[Attributes]")
+![Attributes](/Assets/Screenshots/PIM/Settings/AttributeSets/AttributeSets.png "[Attributes]")
 
 1. Click the attribute set you want to edit in the list of attribute sets.   
   The *Edit Attribute Set* view is displayed.
 
-  ![Edit attribute set](/Assets/Screenshots/PIM/Settings/ProductTypes/EditSet.png "[Edit attribute set]")
+  ![Edit attribute set](/Assets/Screenshots/PIM/Settings/AttributeSets/EditAttributeSet.png "[Edit attribute set]")
 
 2. Click the button ![Add](/Assets/Icons/Plus01.png "[Add]") (Add) in the section *Assigned Attributes*.   
   The *Add attributes* view is displayed. All active attributes that are not yet included in the selected attribute set are displayed in the list.
 
-  ![Add attribute](/Assets/Screenshots/PIM/Settings/ProductTypes/AddAttribute.png "[Edit attribute set]")
+  ![Add attribute](/Assets/Screenshots/PIM/Settings/AttributeSets/AddAttributes.png "[Edit attribute set]")
 
   > [Info] If the message **There are no unassigned attributes.** is displayed in the *Add attributes* view, all active attributes are already included in the selected attribute set. Check, if you have selected the appropriate attribute set, click the button ![Refresh](/Assets/Icons/Refresh01.png "[Refresh]") (Refresh) to update the list or [create a new attribute](to_be_completed).
 
@@ -180,12 +180,12 @@ An attribute set is created, see [Create an attribute set](#create-an-attribute-
 
 *PIM > Settings > Tab ATTRIBUTE SETS*
 
-![Attributes](/Assets/Screenshots/PIM/Settings/ProductTypes/ProductTypes.png "[Attributes]")
+![Attributes](/Assets/Screenshots/PIM/Settings/AttributeSets/AttributeSets.png "[Attributes]")
 
 1. Click the attribute set you want to edit in the list of attribute sets.   
   The *Edit Attribute Set* view is displayed.
 
-  ![Edit attribute set](/Assets/Screenshots/PIM/Settings/ProductTypes/EditSet.png "[Edit attribute set]")
+  ![Edit attribute set](/Assets/Screenshots/PIM/Settings/AttributeSets/EditSet.png "[Edit attribute set]")
 
 2. In the section *Assigned Attributes*, select the checkboxes ![Checkbox](/Assets/Icons/Checkbox.png "[Checkbox]") of the attributes, you want to remove from the attribute set.   
   The editing toolbar is displayed above the list.
@@ -233,17 +233,17 @@ An attribute set is created, see [Create an attribute set](#create-an-attribute-
 
 *PIM > Settings > Tab ATTRIBUTE SETS*
 
-![Attributes](/Assets/Screenshots/PIM/Settings/ProductTypes/ProductTypes.png "[Attributes]")
+![Attributes](/Assets/Screenshots/PIM/Settings/AttributeSets/AttributeSets.png "[Attributes]")
 
 1. Click the attribute set you want to edit in the list of attribute sets.   
   The *Edit Attribtue Set* view is displayed.
 
-  ![Edit attribute set](/Assets/Screenshots/PIM/Settings/ProductTypes/EditSet.png "[Edit attribute set]")
+  ![Edit attribute set](/Assets/Screenshots/PIM/Settings/AttributeSets/EditSet.png "[Edit attribute set]")
 
 2. Click the button ![Settings](/Assets/Icons/Settings01.png "[Settings]") (Settings) in the section *Assigned Attributes* .   
   The column *required* in the list of attributes is unlocked. The color of the button ![Settings](/Assets/Icons/Settings01.png "[Settings]") (Settings) switches to blue.
 
-  ![Required](/Assets/Screenshots/PIM/Settings/ProductTypes/Required.png "[Required]")
+  ![Required](/Assets/Screenshots/PIM/Settings/AttributeSets/Required.png "[Required]")
 
 3. Activate or deactivate the toggle ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *required* in the column *required* to define whether or not an attribute value should be required in the selected attribute set.
 
@@ -289,12 +289,12 @@ At least one attribute set is created, see [Create an attribute set](#create-an-
 
 *PIM > Settings > Tab ATTRIBUTE SETS*
 
-![Attributes](/Assets/Screenshots/PIM/Settings/ProductTypes/ProductTypes.png "[Attributes]")
+![Attributes](/Assets/Screenshots/PIM/Settings/AttributeSets/AttributeSets.png "[Attributes]")
 
 1. Click the attribute set you want to deactivate in the list of attribute sets.   
   The *Edit Attribute Set* view is displayed.
 
-  ![Edit attribute set](/Assets/Screenshots/PIM/Settings/ProductTypes/EditSet.png "[Edit attribute set]")
+  ![Edit attribute set](/Assets/Screenshots/PIM/Settings/AttributeSets/EditSet.png "[Edit attribute set]")
 
 2. Deactivate the toggle ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Active*.
 
@@ -340,12 +340,12 @@ No prerequisites to fulfill.
 ### Procedure
 *PIM > Settings > Tab ATTRIBUTE SETS*
 
-![Attributes](/Assets/Screenshots/PIM/Settings/ProductTypes/ProductTypes.png "[Attributes]")
+![Attributes](/Assets/Screenshots/PIM/Settings/AttributeSets/AttributeSets.png "[Attributes]")
 
 1. Click the button [IMPORT] in the upper left corner.   
   The *Upload file* window of the import wizard is displayed.
 
-  ![Upload file](/Assets/Screenshots/PIM/Settings/ProductTypes/Import01.png "[Upload file]")
+  ![Upload file](/Assets/Screenshots/PIM/Settings/AttributeSets/Import01.png "[Upload file]")
 
 2. Drag the import file from your local folder and drop it in the dashed box ![Upload](/Assets/Icons/Upload.png "[Upload]") *Drop file here...*. Alternatively, click the button [SELECT FILE] and select a file from your local folder in the displayed Explorer window.   
   The selected file is displayed in the dashed box.
@@ -357,7 +357,7 @@ No prerequisites to fulfill.
 4. Click the button [CONTINUE] in the bottom right corner. The button is unlocked if an appropriate file is uploaded.   
   The *Summary* window of the import wizard is displayed.
 
-  ![Summary](/Assets/Screenshots/PIM/Settings/ProductTypes/Import02.png "[Summary]")
+  ![Summary](/Assets/Screenshots/PIM/Settings/AttributeSets/Import02.png "[Summary]")
 
 5. Click the button [FINALIZE] in the bottom right corner.
   The import is completed.
@@ -393,7 +393,7 @@ At least one attribute set is created, see [Create an attribute set](#create-an-
 ### Procedure
 *PIM > Settings > Tab ATTRIBUTE SETS*
 
-![Attributes](/Assets/Screenshots/PIM/Settings/ProductTypes/ProductTypes.png "[Attributes]")
+![Attributes](/Assets/Screenshots/PIM/Settings/AttributeSets/AttributeSets.png "[Attributes]")
 
 1. Select the checkboxes ![Checkbox](/Assets/Icons/Checkbox.png "[Checkbox]") of the attribute sets you want to export.   
   The editing toolbar is displayed above the attribute sets list.
@@ -401,14 +401,14 @@ At least one attribute set is created, see [Create an attribute set](#create-an-
 2. Click the button [EXPORT] in the toolbar.  
   The *Step 1* window of the export wizard is displayed.
 
-  ![Export Step 1](/Assets/Screenshots/PIM/Settings/ProductTypes/Export01.png "[Export Step 1]")
+  ![Export Step 1](/Assets/Screenshots/PIM/Settings/AttributeSets/Export01.png "[Export Step 1]")
 
 3. Select the checkboxes ![Checkbox](/Assets/Icons/Checkbox.png "[Checkbox]") of the attributes you want to exclude from the export.   
 
 4. Click the button [CONTINUE] in the bottom right corner.  
   The *Step 2* window of the export wizard is displayed.
 
-  ![Export Step 2](/Assets/Screenshots/PIM/Settings/ProductTypes/Export02.png "[Export Step 2]")
+  ![Export Step 2](/Assets/Screenshots/PIM/Settings/AttributeSets/Export02.png "[Export Step 2]")
 
   > [Info] If the attributes selected for export are not assigned to an attribute set, the *Step 2* window of the export wizard is skipped and the *Step 3* window is immediately displayed.
 
@@ -417,7 +417,7 @@ At least one attribute set is created, see [Create an attribute set](#create-an-
 6. Click the button [CONTINUE] in the bottom right corner.  
   The *Step 3* window of the export wizard is displayed.
 
-  ![Export Step 3](/Assets/Screenshots/PIM/Settings/ProductTypes/Export03.png "[Export Step 3]")
+  ![Export Step 3](/Assets/Screenshots/PIM/Settings/AttributeSets/Export03.png "[Export Step 3]")
 
 7. Click the button [EXPORT] in the bottom right corner.
   The export is started. By default, the export file is saved in the local download folder.
