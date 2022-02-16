@@ -81,6 +81,42 @@ To understand Git and GitHub, it is important to understand the basic terminolog
 - *merge*   
   Use this command to include all changes from one branch to another branch.
 
+- *clear*   
+  Use this command to clear the terminal.
+
+
+### SSH Key for GitHub
+
+Generate a SSH Key and add it to your GitHub account in order to use it for authentication.
+
+#### Create a new SSH Key
+
+1. Open Git Bash.
+
+2. Enter the following code:   
+        ssh-keygen -t rsa -b 4096 -C "YourGithubEmail@actindo.com"
+
+  The SSH key pair is generated. By default, the key is saved in your user directory in the .ssh directory named *id_rsa* .
+
+3. If desired, enter an alternative filename for the key. Otherwise, push [ENTER].
+
+4. Enter a passphrase for your key to make it more secure. Push [ENTER] to confirm the passphrase.
+
+  > [Info] Nothing is displayed when you enter the passphrase.
+
+5. Enter the same passphrase again and push [ENTER] to confirm the passphrase.
+
+
+#### Add the public key to your account
+
+
+
+#### Add your private key to the ssh-agent
+
+
+
 ### Clone the repository
 
 When you have created your GitHub account and you are invited to the Documentation Repository, you can prepare your GitHub account to clone the repository.
+
+Open your
