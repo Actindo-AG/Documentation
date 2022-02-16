@@ -4,9 +4,9 @@ This documentation covers all (current) modules of the Core1 Platform.
 
 ## Gitub Workflow  
 
-In the following, the setup and configuration of all necessary software as well as the cloning of the GitHub documentation repository and the Git documentation workflow from creating a new branch up to merging the branches is described.
+In the following, the setup of all necessary software as well as the cloning of the GitHub documentation repository and the Git documentation workflow from creating a new branch up to merging the branches is described.
 
-### Software
+### Software setup
 
 The following software needs to be installed and configured:
 - [Code editor](#code-editor)
@@ -31,4 +31,56 @@ If you are working on Windows machine, it is recommended to install Git Bash as 
 
 #### GitHub
 
-Open https://github.com/ in your browser an sign up for a new account using your Actindo email-address. Note your user name and contact Julian Seyfried to invite you to the Actindo documentation project by sending him you user name.
+Github is the website, where Git repositories are hosted. Open https://github.com/ in your browser to sign up for a new account using your Actindo email-address. Note your user name and contact Julian Seyfried to invite you to the Actindo documentation repository by sending him you user name.
+
+
+### Git Basics
+
+To understand Git and GitHub, it is important to understand the basic terminology and commands below.
+
+#### Git Terms
+
+- *Directory*   
+  A directory equals to a folder on your computer.
+
+- *Terminal*   
+  A terminal is an application that runs on your computer, such as Git Bash. It is the interface where you enter the text commands, navigate around files and folders, create files, change updates and so on. Alternatively, the term *Command Line* is used.
+
+- *Repository*   
+  A repository equals to a project or the folder, where a project is stored. The short version *repo* is often used.
+
+- *Branch*   
+  A branch is a parallel version of a repository. By default a repository has a main or master branch representing the initial state. When creating a new branch, this branch copies the current state of the main branch and allows you to make changes on the new branch without affecting the main branch. By merging the branches, the changes can be included into the main branch.
+
+#### Git Commands
+
+- *clone*    
+  Use this command to bring a repository that is hosted somewhere into a folder on your local machine.   
+
+- *status*   
+  Use this command to display changes and untracked files in Git.
+
+- *add*   
+  Use this command to track files and changes in Git.
+
+- *commit*    
+  Use this command to save your files in Git.
+
+- *push*   
+  Use this command to upload your Git commits to a repository in GitHub (opposite of *pull*).
+
+- *pull*   
+  Use this command to download changes from the remote repository in GitHub to your local machine (opposite of *push*).
+
+- *checkout*      
+  Use this command to switch to another branch.
+
+- *branch*   
+  Use this command to show all existing branches in the repo.
+
+- *merge*   
+  Use this command to include all changes from one branch to another branch.
+
+### Clone the repository
+
+When you have created your GitHub account and you are invited to the Documentation Repository, you can prepare your GitHub account to clone the repository.
