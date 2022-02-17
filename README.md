@@ -190,7 +190,7 @@ To run the ssh-agent automatically when you open Git Bash, follow the instructio
 
 3. Open a new file in your code editor.
 
-4. Copy the code below and save the file as *.bash_profile* in your user directory (C:\Users\Username).  
+4. Copy the code below and save the file as *.bash_profile* in your user directory (C:/Users/Username).  
 
         test -f ~/.profile && . ~/.profile
         test -f ~/.bashrc && . ~/.bashrc
@@ -229,3 +229,100 @@ After you have created your SSH Key and configured the Git Bash terminal, you ca
 ## Git workflow in documentation
 
 The following scheme shows the documentation workflow via Git. Each step is described in detail in the following chapters.
+
+![Git workflow](/Assets/GitWorkflow.jpg "[Git workflow]")
+
+To start your documentation, you need to prepare as described below.
+
+1. Open JIRA, navigate to the ticket you will work on and note the ticket-number.
+
+  > [Info] When you start working on a JIRA ticket, switch the workkflow status in JIRA to **IN PROGRESS**.
+
+2. Open your code editor and the repository project.
+
+3. Open Git Bash and navigate to your main repository. Replace *path_directory* in the command with the path of your repository directory.
+
+        cd path_directory
+
+  > [Info] In the command line, **~** equals to your user directory, so instead of entering **cd C:/Users/Username**, you can just enter **cd ~**.
+
+  The path of your repo as well as the git branch you are currently working on are displayed in Git Bash.
+
+
+### Create a branch
+
+The initial documentation is situated in the main branch. When working on a documentation task, you **never** work directly on this main branch, but you create a feature branch for each documentation task you are working on. A documentation task equals to a JIRA ticket and is therefore named like the corresponding JIRA ticket number.
+
+When you start working on a new ticket, you have to create first a new branch for this ticket.
+
+1. Enter the code below in Git Bash to switch from the main branch to the new created feature branch. Replace *feature_branch* in the command with the JIRA ticket number of your documentation task.
+
+        git checkout -b feature_branch
+
+    The new feature branch is displayed in Git Bash after the repo path.
+
+2. Let the Git Bash terminal open and switch to you code editor to start working on the branch.
+
+  > [Info] Note, that every change you are doing from now on will be tracked on the created branch.
+
+
+### Insert changes to GitHub
+
+To get the changes you made on your documentation to GitHub, you have to stage your changes first, commit your changes and finally push your changes. Sometimes, you can combine the staging and committing part.
+
+1. Enter the code below in Git Bash to check if any changes have to be added or committed in your branch.
+
+        git status
+
+      All files to be staged as well as all files to be committed are displayed.
+
+**Add your changes to Git**
+
+It is necessary to track (untracked) files and changes in Git and stage them before you can commit them. You can either add a single file or add all files.
+
+2. Enter the code below in Git Bash to track all files and changes that you made on your current branch in Git. If you want to add only a single file, replace *.* in the command with the file name.
+
+        git add .
+
+    All files are tracked in Git and can be committed.
+
+    > [Info] The changes are not yet saved in Git!
+
+
+**Commit your changes to Git**
+
+All changes must be committed in Git before you can push them to Github. When committing changes, you have to include a commit message which contains of a title and a description. For documentation, the title of the commit message equals to the JIRA ticket number. The description should include some information about the changes done.
+
+3. Enter the code below in Git Bash to save the changes on your current branch in Git. Replace *title* in the command with the corresponding JIRA ticket number and *description* with a information text about your changes.
+
+        git commit -m "title" -m "description"
+
+    All changes are saved in Git and can be pushed to GitHub.   
+
+
+**Push your changes to GitHub**
+
+To upload your changes to GitHub, you have to push them in Git. When pushing your changes, you have to indicate the location of your git repo as well as the branch you are pushing the changes to. You have to be authorized wth your GitHub account to be able to push changes to GitHub.
+
+4. Enter the code below in Git Bash to push the changes on your current branch in Git to GitHub. Replace *feature_branch* in the command with the corresponding JIRA ticket number.
+
+        git push origin feature_branch
+
+    All changes are pushed to GitHub. You can open the repo in your browser and check for your changes.   
+
+
+### Switch the branch
+
+If you want to work on another task, you have to switch the branch. When the branch you want to work on, is not yet created, follow the instructions in the chapter [Create a branch](#create-a-branch). Sometimes, you are working on several existing branches. So you just have to switch the branch without creating a new one.
+
+1. Enter the code below in Git Bash to display all existing branches in your repo.
+
+        git branch
+
+      All existing branches are displayed. The branch you are currently working on is highlighted.
+
+2. Enter the code below to checkout from the current branch and switch to another branch. Replace *branch* in the command with the name of the branch you want to switch to (which is either the JIRA ticket number or *main*).
+
+        git checkout branch
+
+      The branch you switched to is displayed in Git Bash after the repo path.
