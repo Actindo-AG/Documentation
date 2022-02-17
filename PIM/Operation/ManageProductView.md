@@ -155,6 +155,7 @@ No prerequisites to fulfill.
 
 ## Create a view
 
+Create a view with a predefined selection of the language, the scope, the product category, the variant view and the order of columns in the product list.
 
 ### Prerequisites
 
