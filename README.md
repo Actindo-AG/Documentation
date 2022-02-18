@@ -374,3 +374,12 @@ When you have finished a ticket, you need to send your documentation for review.
 ### Review a pull request
 
 When you received a pull request from a team member, you can make the review locally or on GitHub. Regardless where you review the files, it is important, that you do not make changes within the document but comments or remarks so that the author can change the files by himself/herself. You should also make all these comments and remarks directly in GitHub and therefore only use the local review if it is required for some special reason.
+
+
+1. Open the pull request in the tab *Pull requests* in GitHub.   
+  All open pull requests are displayed.
+
+2. Click the pull request you want to review.   
+  The pull request with all commits is displayed.
+
+3.
