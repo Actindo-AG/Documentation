@@ -50,36 +50,53 @@ To understand Git and GitHub, it is important to understand the basic terminolog
 
 ### Git Commands
 
-- *clone*    
+- *git clone*    
   Use this command to bring a repository that is hosted somewhere into a folder on your local machine.   
 
-- *status*   
+- *git status*   
   Use this command to display changes and untracked files in Git.
 
-- *add*   
-  Use this command to track files and changes in Git.
+- *git add .*/*git add [file_name]*   
+  Use this command to track files and changes in Git. You can either track all changes and files using the *git add .* command or you track a single file using the *git add [file_name]* command, by replacing the *[file_name]* with the name of the file you want to track.
 
-- *commit*    
-  Use this command to save your files in Git.
+- *git commit -m "title" -m "description"*    
+  Use this command to save your files in Git. You have to add a commit message to the command. The first message is the title of the message. For documentation purposes, use the JIRA ticket number you are working on for the title. The second message is the description. Add some information about the changes you made in the description.
 
-- *push*   
-  Use this command to upload your Git commits to a repository in GitHub (opposite of *pull*).
+- *git commit -am "title" -m "description"*    
+  Use this command to track and save your files in Git. This command is only possible for modified files. Untracked files have to be added separately with the *git add* command. The commit message rules are the same as for the *git commit* command.  
 
-- *pull*   
+- *git push origin [branch_name]*   
+  Use this command to upload your Git commits to a repository in GitHub by replacing *[branch_name]* with the name of the branch you are working on. The *git push* command is the opposite of the *git pull* command.
+
+- *git pull*   
   Use this command to download changes from the remote repository in GitHub to your local machine (opposite of *push*).
 
-- *checkout*      
+- *git checkout*      
   Use this command to switch to another branch.
 
-- *branch*   
-  Use this command to show all existing branches in the repo.
+- *git checkout -b [branch_name]*      
+  Use this command to create a new branch and switch to it by replacing *[branch_name]* with the name of the new branch. For documentation purposes, use the JIRA ticket number for the branch name. If you are working on a single ticket, use this number, if you are working on a ticket which makes part of an epic, use the epic ticket number as braanch name.
 
-- *merge*   
-  Use this command to include all changes from one branch to another branch.
+- *git branch*   
+  Use this command to show all existing branches in the local repo. The branch you are currently working on is highlighted.
+
+- *git branch -a*   
+  Use this command to show all existing branches in the local repo as well as in the remote repo. The branch you are currently working on is highlighted.
+
+- *git branch -r*   
+  Use this command to show all existing branches in the remote repo. The branch you are currently working on is highlighted.
+
+- *git merge [branch_name]*   
+  Use this command to include all changes from the branch you are indicating in the command into the branch you are currently working on. Replace the *[branch_name]* with the name of the branch from which you want to include the changes. For instance, to include the changes of the main branch into a feature branch, you have to switch to the feature branch and use the command *git merge main*.
+
+- *git fetch*   
+  Use this command to get commits, files, and chagnes from the remote repo into your local repo and see, what other team members has been working on.
 
 - *clear*   
   Use this command to clear the terminal.
 
+- *cd*   
+  Use this command to change the directory.
 
 ## SSH Key for GitHub
 
