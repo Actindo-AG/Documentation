@@ -75,7 +75,8 @@ To understand Git and GitHub, it is important to understand the basic terminolog
   Use this command to switch to another branch.
 
 - *git checkout -b [branch_name]*      
-  Use this command to create a new branch and switch to it by replacing *[branch_name]* with the name of the new branch. For documentation purposes, use the JIRA ticket number for the branch name. If you are working on a single ticket, use this number, if you are working on a ticket which makes part of an epic, use the epic ticket number as branch name.
+  Use this command to create a new branch to the branch you are working on and switch to it by replacing *[branch_name]* with the name of the new branch. The state of changes of the current branch is taken as initial state for the new branch. To take the main branch as base, you have to switch to the main branch before creating a new branch.
+  For documentation purposes, use the JIRA ticket number for the branch name. If you are working on a single ticket, use this number, if you are working on a ticket which makes part of an epic, use the epic ticket number as branch name.
 
 - *git branch*   
   Use this command to show all existing branches in the local repo. The branch you are currently working on is highlighted.
@@ -370,4 +371,6 @@ When you have finished a ticket, you need to send your documentation for review.
   The pull request is sent to the reviewer you selected. To make sure that the reviewer is well informed, additionally wrote a short message to him/her by Teams or e-mail.
 
 
-### Review a pull request 
+### Review a pull request
+
+When you received a pull request from a team member, you can make the review locally or on GitHub. Regardless where you review the files, it is important, that you do not make changes within the document but comments or remarks so that the author can change the files by himself/herself. You should also make all these comments and remarks directly in GitHub and therefore only use the local review if it is required for some special reason.
