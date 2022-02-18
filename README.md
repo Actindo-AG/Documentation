@@ -66,10 +66,10 @@ To understand Git and GitHub, it is important to understand the basic terminolog
   Use this command to track and save your files in Git. This command is only possible for modified files. Untracked files have to be added separately with the *git add* command. The commit message rules are the same as for the *git commit* command.  
 
 - *git push origin [branch_name]*   
-  Use this command to upload your Git commits to a repository in GitHub by replacing *[branch_name]* with the name of the branch you are working on. The *git push* command is the opposite of the *git pull* command.
+  Use this command to upload your Git commits to a repository in GitHub by replacing *[branch_name]* with the name of the branch you want to push to GitHub. The *git push* command is the opposite of the *git pull* command.
 
 - *git pull*   
-  Use this command to download changes from the remote repository in GitHub to your local machine (opposite of *push*).
+  Use this command to download changes from the remote repository in GitHub to your local repo. The changes The *git pull* command is the opposite of the *git push* command.
 
 - *git checkout*      
   Use this command to switch to another branch.
