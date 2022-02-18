@@ -75,7 +75,7 @@ To understand Git and GitHub, it is important to understand the basic terminolog
   Use this command to switch to another branch.
 
 - *git checkout -b [branch_name]*      
-  Use this command to create a new branch and switch to it by replacing *[branch_name]* with the name of the new branch. For documentation purposes, use the JIRA ticket number for the branch name. If you are working on a single ticket, use this number, if you are working on a ticket which makes part of an epic, use the epic ticket number as braanch name.
+  Use this command to create a new branch and switch to it by replacing *[branch_name]* with the name of the new branch. For documentation purposes, use the JIRA ticket number for the branch name. If you are working on a single ticket, use this number, if you are working on a ticket which makes part of an epic, use the epic ticket number as branch name.
 
 - *git branch*   
   Use this command to show all existing branches in the local repo. The branch you are currently working on is highlighted.
@@ -89,14 +89,15 @@ To understand Git and GitHub, it is important to understand the basic terminolog
 - *git merge [branch_name]*   
   Use this command to include all changes from the branch you are indicating in the command into the branch you are currently working on. Replace the *[branch_name]* with the name of the branch from which you want to include the changes. For instance, to include the changes of the main branch into a feature branch, you have to switch to the feature branch and use the command *git merge main*.
 
-- *git fetch*   
-  Use this command to get commits, files, and chagnes from the remote repo into your local repo and see, what other team members has been working on.
+- *git fetch*  
+  Use this command to get all commits and files from the remote repo into your local repo and see what other team members has been working on.
 
 - *clear*   
   Use this command to clear the terminal.
 
 - *cd*   
   Use this command to change the directory.
+
 
 ## SSH Key for GitHub
 
@@ -268,7 +269,7 @@ To start your documentation, you need to prepare as described below.
 
 ### Create a branch
 
-The initial documentation is situated in the main branch. When working on a documentation task, you **never** work directly on this main branch, but you create a feature branch for each documentation task you are working on. A documentation task equals to a JIRA ticket and is therefore named like the corresponding JIRA ticket number.
+The initial documentation is situated in the main branch. When working on a documentation task, you **never** work directly on this main branch, but you create a feature branch for the documentation topic you are working on. A documentation topic equals to a JIRA epic ticket or task ticket and is therefore named like the corresponding JIRA ticket number. If you are working on a single task ticket, use this number, if you are working on a ticket which makes part of an epic, use the epic ticket number as branch name.
 
 When you start working on a new ticket, you have to create first a new branch for this ticket.
 
@@ -283,7 +284,7 @@ When you start working on a new ticket, you have to create first a new branch fo
   > [Info] Note, that every change you are doing from now on will be tracked on the created branch.
 
 
-### Insert changes to GitHub
+### Insert changes into GitHub
 
 To get the changes you made on your documentation to GitHub, you have to stage your changes first, commit your changes and finally push your changes. Sometimes, you can combine the staging and committing part.
 
@@ -343,3 +344,30 @@ If you want to work on another task, you have to switch the branch. When the bra
         git checkout branch
 
       The branch you switched to is displayed in Git Bash after the repo path.
+
+
+### Create a pull request
+
+When you have finished a ticket, you need to send your documentation for review. To do so, you create a pull request in GitHub. All changes you made have to be pushed to the corresponding branch on GitHub.
+
+1. Open the Documentation repo in GitHub.
+
+2. Open the branch to which you want to create a pull request to.
+
+3. Click the button [Contribute] in the branch view.   
+  The buttons [Compare] and [Open pull request] are displayed in a pop-up window.
+
+4. Click the button [Open pull request].   
+  The window *Open a pull request* is displayed.
+
+5. Enter the JIRA ticket number of the documentation task in the field *Title*.
+
+6. In the text area of the tab *Write*, enter a short information about your pull request and add, if necessary, additional information for the reviewer. Also include a link to the corresponding JIRA ticket, so the reviewer can track the review time to this ticket.
+
+7. In the right margin column, click the tool button next to *Reviewers* and select the person in the list that should review your documentation.
+
+8. Click the button [Create pull request].
+  The pull request is sent to the reviewer you selected. To make sure that the reviewer is well informed, additionally wrote a short message to him/her by Teams or e-mail.
+
+
+### Review a pull request 
