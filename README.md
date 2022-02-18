@@ -1,4 +1,4 @@
-# Documentation workflow
+# Documentation Git workflow
 
 In the following, the setup of all necessary software as well as the cloning of the GitHub documentation repository and the Git documentation workflow from creating a new branch up to merging the branches is described.
 
