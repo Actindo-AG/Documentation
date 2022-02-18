@@ -367,6 +367,8 @@ When you have finished a ticket, you need to send your documentation for review.
 
 7. In the right margin column, click the tool button next to *Reviewers* and select the person in the list that should review your documentation.
 
+> [Info] The documentation should be reviewed by at least two persons - one documentation team member who is responsible to check the documentation guidelines, such as the structure, the style, screenshots, languages etc, and a colleague who is an expert for the documented module or topic and responsible to check the correctness of content.
+
 8. Click the button [Create pull request].
   The pull request is sent to the reviewer you selected. To make sure that the reviewer is well informed, additionally wrote a short message to him/her by Teams or e-mail.
 
@@ -379,7 +381,57 @@ When you received a pull request from a team member, you can make the review loc
 1. Open the pull request in the tab *Pull requests* in GitHub.   
   All open pull requests are displayed.
 
-2. Click the pull request you want to review.   
-  The pull request with all commits is displayed.
+2. Click the pull request you want to review and switch to the tab *Files changed* .   
+  All changed files are displayed.
 
-3.
+3. Enter your comments in a file by clicking the plus sign at the beginning of the respective row in the code view of the file.   
+  A pop-up window is displayed. You may enter text or files in the pop-up window.
+
+4. Click the button [Add review comment] in the pop-up window to add the comment.
+
+5. Click the button [Viewed] in the upper right corner of the displayed file when you have finished the review of this file.
+
+> [Info] Repeat the review for each file in the tab.
+
+6. Click the button [Finish the review] in the upper right corner of the tab.   
+  A pop-up window is displayed.
+
+7. Enter a final comment in the pop-up window and click the button [Submit review] to finish the review.
+  Inform the author that you finished the review.
+
+[comment]: <> (Muss ich noch eine pull request stellen? Wenn ja, wie?)
+
+### Apply review changes
+
+When your pull request was reviewed, you have probably some comments and remarks to apply to your documentation.
+
+1. Open the pull request with the review comments in the tab *Pull requests* in GitHub.
+
+2. Open the respective file in your code editor and open the corresponding branch in Git Bash.
+
+3. You can either apply the changes from the review comments or reply to the comments, for instance, because you disagree with the comment or because you did not understand the comment. If you apply the changes of a review comment in your file, click the button [Resolve conversation] for the corresponding comment in GitHub to mark this comment as resolved.
+
+4. Include all changes you applied to your file by following the default workflow described in the chapter [Insert changes into GitHub](#insert-changes-into-github).
+
+> [Info] You do not have to create a new pull request for the same branch. Just inform the reviewer to review the pull request again when you applied all changes and replied to all comments.
+
+
+### Merge a pull request
+
+When a review is finished without further comments, the branch with the pull request can be merged to the main branch. Note that all changes will be included to the initial branch for all feature branches. So make sure, that the merge is allowed and that you are authorized to make a merge. In any case, consult your supervisor before making a merge.
+
+1. Open the pull request in the tab *Pull requests* in GitHub.   
+  All open pull requests are displayed.
+
+2. Click the pull request you want to merge to the main branch.
+  The pull request is displayed.
+
+[comment]: <> (Check the following steps)
+
+3. Click the button [Merge pull request].
+  A pop-up window is displayed.
+
+4. Click the option *Create a merge commit* and enter a commit message.
+  The branch is merged into the main branch.
+
+> [Info] Note that you should merge the changes on your main branch into your other feature branches.
