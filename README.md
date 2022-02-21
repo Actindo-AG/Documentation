@@ -68,8 +68,8 @@ To understand Git and GitHub, it is important to understand the basic terminolog
 - *git push origin [branch_name]*   
   Use this command to upload your Git commits to a repository in GitHub by replacing *[branch_name]* with the name of the branch you want to push to GitHub. The *git push* command is the opposite of the *git pull* command.
 
-- *git pull*   
-  Use this command to download changes from the remote repository in GitHub to your local repo. The changes The *git pull* command is the opposite of the *git push* command.
+- *git pull origin [branch_name]*   
+  Use this command to download changes from the remote repository in GitHub and merge them to your local repo.  Replace the *[branch_name]* with the name of the branch to which you want to include the changes. The *git pull* command is the opposite of the *git push* command.
 
 - *git checkout*      
   Use this command to switch to another branch.
@@ -90,8 +90,8 @@ To understand Git and GitHub, it is important to understand the basic terminolog
 - *git merge [branch_name]*   
   Use this command to include all changes from the branch you are indicating in the command into the branch you are currently working on. Replace the *[branch_name]* with the name of the branch from which you want to include the changes. For instance, to include the changes of the main branch into a feature branch, you have to switch to the feature branch and use the command *git merge main*.
 
-- *git fetch*  
-  Use this command to get all commits and files from the remote repo into your local repo and see what other team members has been working on.
+- *git fetch origin*  
+  Use this command to get all commits and files from the remote repo into your local repo and see what other team members has been working on. To include these changes, you have to use the *git merge* command. Alternatively, you can use the *git pull* command to perform both commands (the *fetch* and the *merge* command) at once.
 
 - *clear*   
   Use this command to clear the terminal.
