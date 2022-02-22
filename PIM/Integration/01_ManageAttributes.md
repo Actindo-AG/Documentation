@@ -92,17 +92,17 @@ An attribute set is created, see [Create an attribute set](ManageAttributeSet.md
 - [Deactivate an attribute](#deactivate-an-attribute)
 - [Delete an attribute](#delete-an-attribute)
 - [Recover an attribute](#recover-an-attribute)
-- [Manage an attribute set](ManageAttributeSet.md)
-- [Manage an attribute group](ManageGroups.md)
-- [Configure the language settings](ConfigureLanguages.md)
-- [Configure the scope settings](ConfigureScopes.md)
-- [Manage a catalog](ManageCatalog.md)
-- [Manage a variant set](ManageVariantSet.md)
+- [Manage the attribute sets](02_ManageAttributeSets.md)
+- [Manage the attribute groups](03_ManageGroups.md)
+- [Configure the language settings](04_ConfigureLanguages.md)
+- [Configure the scope settings](05_ConfigureScopes.md)
+- [Manage the catalogs](06_ManageCatalogs.md)
+- [Manage the variant sets](07_ManageVariantSets.md)
 
 ### See also
 
 - [User Interface PIM](/PIM/UserInterface/00_UserInterface.md)
-- [Manage a product](/PIM/Operation/ManageProduct.md)
+- [Manage the products](/PIM/Operation/01_ManageProducts.md)
 - [Data type list](to_be_completed)
 
 
@@ -143,18 +143,18 @@ At least one attribute is created, see [Create an attribute](#create-an-attribut
 - [Deactivate an attribute](#deactivate-an-attribute)
 - [Delete an attribute](#delete-an-attribute)
 - [Recover an attribute](#recover-an-attribute)
-- [Manage an attribute set](ManageAttributeSet.md)
-- [Manage an attribute group](ManageGroups.md)
-- [Configure the language settings](ConfigureLanguages.md)
-- [Configure the scope settings](ConfigureScopes.md)
-- [Manage a catalog](ManageCatalog.md)
-- [Manage a variant set](ManageVariantSet.md)
+- [Manage the attribute sets](02_ManageAttributeSets.md)
+- [Manage the attribute groups](03_ManageGroups.md)
+- [Configure the language settings](04_ConfigureLanguages.md)
+- [Configure the scope settings](05_ConfigureScopes.md)
+- [Manage the catalogs](06_ManageCatalogs.md)
+- [Manage the variant sets](07_ManageVariantSets.md)
 
 ### See also
 
 - [User Interface PIM](/PIM/UserInterface/00_UserInterface.md)
 - [Create an attribute](#create-an-attribute)
-- [Manage a product](/PIM/Operation/ManageProduct.md)
+- [Manage the products](/PIM/Operation/01_ManageProducts.md)
 
 
 
@@ -189,19 +189,19 @@ At least one attribute is created, see [Create an attribute](#create-an-attribut
 
 - [Delete an attribute](#delete-an-attribute)
 - [Recover an attribute](#recover-an-attribute)
-- [Manage an attribute set](ManageAttributeSet.md)
-- [Manage an attribute group](ManageGroups.md)
-- [Configure the language settings](ConfigureLanguages.md)
-- [Configure the scope settings](ConfigureScopes.md)
-- [Manage a catalog](ManageCatalog.md)
-- [Manage a variant set](ManageVariantSet.md)
+- [Manage the attribute sets](02_ManageAttributeSets.md)
+- [Manage the attribute groups](03_ManageGroups.md)
+- [Configure the language settings](04_ConfigureLanguages.md)
+- [Configure the scope settings](05_ConfigureScopes.md)
+- [Manage the catalogs](06_ManageCatalogs.md)
+- [Manage the variant sets](07_ManageVariantSets.md)
 
 ### See also
 
 - [User Interface PIM](/PIM/UserInterface/00_UserInterface.md)
 - [Create an attribute](#create-an-attribute)
 - [Edit an attribute](#edit-an-attribute)
-- [Manage a product](/PIM/Operation/ManageProduct.md)
+- [Manage the products](/PIM/Operation/01_ManageProducts.md)
 
 
 
@@ -249,12 +249,12 @@ At least one attribute is created, see [Create an attribute](#create-an-attribut
 ### Next steps
 
 - [Recover an attribute](#recover-an-attribute)
-- [Manage an attribute set](ManageAttributeSet.md)
-- [Manage an attribute group](ManageGroups.md)
-- [Configure the language settings](ConfigureLanguages.md)
-- [Configure the scope settings](ConfigureScopes.md)
-- [Manage a catalog](ManageCatalog.md)
-- [Manage a variant set](ManageVariantSet.md)
+- [Manage the attribute sets](02_ManageAttributeSets.md)
+- [Manage the attribute groups](03_ManageGroups.md)
+- [Configure the language settings](04_ConfigureLanguages.md)
+- [Configure the scope settings](05_ConfigureScopes.md)
+- [Manage the catalogs](06_ManageCatalogs.md)
+- [Manage the variant sets](07_ManageVariantSets.md)
 
 ### See also
 
@@ -263,7 +263,7 @@ At least one attribute is created, see [Create an attribute](#create-an-attribut
 - [Create an attribute](#create-an-attribute)
 - [Edit an attribute](#edit-an-attribute)
 - [Deactivate an attribute](#deactivate-an-attribute)
-- [Manage a product](/PIM/Operation/ManageProduct.md)
+- [Manage the products](/PIM/Operation/01_ManageProducts.md)
 
 
 ## Recover an attribute

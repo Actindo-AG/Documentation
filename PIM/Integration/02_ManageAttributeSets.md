@@ -92,17 +92,17 @@ The attributes for the attribute set are created, see [Create an attribute](Mana
 - [Deactivate an attribute set](#deactivate-an-attribute-set)
 - [Import an attribute set](#import-an-attribute-set)
 - [Export an attribute set](#export-an-attribute-set)
-- [Manage an attribute group](ManageGroups.md)
-- [Configure the language settings](ConfigureLanguages.md)
-- [Configure the scope settings](ConfigureScopes.md)
-- [Manage a catalog](ManageCatalog.md)
-- [Manage a variant set](ManageVariantSet.md)
+- [Manage the attribute groups](03_ManageGroups.md)
+- [Configure the language settings](04_ConfigureLanguages.md)
+- [Configure the scope settings](05_ConfigureScopes.md)
+- [Manage the catalogs](06_ManageCatalogs.md)
+- [Manage the variant sets](07_ManageVariantSets.md)
 
 ### See also
 
 - [User Interface PIM](/PIM/UserInterface/00_UserInterface.md)
-- [Manage an attribute](ManageAttribute.md)
-- [Manage a product](/PIM/Operation/ManageProduct.md)
+- [Manage the attributes](01_ManageAttributes.md)
+- [Manage the products](/PIM/Operation/01_ManageProducts.md)
 
 
 
@@ -153,18 +153,18 @@ Add a new attribute to an attribute set to define any further specifications.
 - [Deactivate an attribute set](#deactivate-an-attribute-set)
 - [Import an attribute set](#import-an-attribute-set)
 - [Export an attribute set](#export-an-attribute-set)
-- [Manage an attribute group](ManageGroups.md)
-- [Configure the language settings](ConfigureLanguages.md)
-- [Configure the scope settings](ConfigureScopes.md)
-- [Manage a catalog](ManageCatalog.md)
-- [Manage a variant set](ManageVariantSet.md)
+- [Manage the attribute groups](03_ManageGroups.md)
+- [Configure the language settings](04_ConfigureLanguages.md)
+- [Configure the scope settings](05_ConfigureScopes.md)
+- [Manage the catalogs](06_ManageCatalogs.md)
+- [Manage the variant sets](07_ManageVariantSets.md)
 
 #### See also
 
 - [User Interface PIM](/PIM/UserInterface/00_UserInterface.md)
 - [Create an attribute set](#create-an-attribute-set)
-- [Manage an attribute](ManageAttribute.md)
-- [Manage a product](/PIM/Operation/ManageProduct.md)
+- [Manage the attributes](01_ManageAttributes.md)
+- [Manage the products](/PIM/Operation/01_ManageProducts.md)
 
 
 
@@ -204,19 +204,19 @@ An attribute set is created, see [Create an attribute set](#create-an-attribute-
 - [Deactivate an attribute set](#deactivate-an-attribute-set)
 - [Import an attribute set](#import-an-attribute-set)
 - [Export an attribute set](#export-an-attribute-set)
-- [Manage an attribute group](ManageGroups.md)
-- [Configure the language settings](ConfigureLanguages.md)
-- [Configure the scope settings](ConfigureScopes.md)
-- [Manage a catalog](ManageCatalog.md)
-- [Manage a variant set](ManageVariantSet.md)
+- [Manage the attribute groups](03_ManageGroups.md)
+- [Configure the language settings](04_ConfigureLanguages.md)
+- [Configure the scope settings](05_ConfigureScopes.md)
+- [Manage the catalogs](06_ManageCatalogs.md)
+- [Manage the variant sets](07_ManageVariantSets.md)
 
 #### See also
 
 - [User Interface PIM](/PIM/UserInterface/00_UserInterface.md)
 - [Create an attribute set](#create-an-attribute-set)
 - [Add an attribute to the set](#add-an-attribute-to-the-set)
-- [Manage an attribute](ManageAttribute.md)
-- [Manage a product](/PIM/Operation/ManageProduct.md)
+- [Manage the attributes](01_ManageAttributes.md)
+- [Manage the products](/PIM/Operation/01_ManageProducts.md)
 
 
 
@@ -259,11 +259,11 @@ An attribute set is created, see [Create an attribute set](#create-an-attribute-
 - [Deactivate an attribute set](#deactivate-an-attribute-set)
 - [Import an attribute set](#import-an-attribute-set)
 - [Export an attribute set](#export-an-attribute-set)
-- [Manage an attribute group](ManageGroups.md)
-- [Configure the language settings](ConfigureLanguages.md)
-- [Configure the scope settings](ConfigureScopes.md)
-- [Manage a catalog](ManageCatalog.md)
-- [Manage a variant set](ManageVariantSet.md)
+- [Manage the attribute groups](03_ManageGroups.md)
+- [Configure the language settings](04_ConfigureLanguages.md)
+- [Configure the scope settings](05_ConfigureScopes.md)
+- [Manage the catalogs](06_ManageCatalogs.md)
+- [Manage the variant sets](07_ManageVariantSets.md)
 
 #### See also
 
@@ -272,8 +272,8 @@ An attribute set is created, see [Create an attribute set](#create-an-attribute-
 - [Edit an attribute set](#edit-an-attribute-set)
 - [Add an attribute to the set](#add-an-attribute-to-the-set)
 - [Remove an attribute from the set](#remove-an-attribute-from-the-set)
-- [Manage an attribute](ManageAttribute.md)
-- [Manage a product](/PIM/Operation/ManageProduct.md)
+- [Manage the attributes](01_ManageAttributes.md)
+- [Manage the products](/PIM/Operation/01_ManageProducts.md)
 
 
 
@@ -310,11 +310,12 @@ At least one attribute set is created, see [Create an attribute set](#create-an-
 
 - [Import an attribute set](#import-an-attribute-set)
 - [Export an attribute set](#export-an-attribute-set)
-- [Manage an attribute group](ManageGroups.md)
-- [Configure the language settings](ConfigureLanguages.md)
-- [Configure the scope settings](ConfigureScopes.md)
-- [Manage a catalog](ManageCatalog.md)
-- [Manage a variant set](ManageVariantSet.md)
+- [Manage the attribute groups](03_ManageGroups.md)
+- [Configure the language settings](04_ConfigureLanguages.md)
+- [Configure the scope settings](05_ConfigureScopes.md)
+- [Manage the catalogs](06_ManageCatalogs.md)
+- [Manage the variant sets](07_ManageVariantSets.md)
+
 
 ### See also
 
@@ -324,8 +325,8 @@ At least one attribute set is created, see [Create an attribute set](#create-an-
 - [Add an attribute to the set](#add-an-attribute-to-the-set)
 - [Remove an attribute from the set](#remove-an-attribute-from-the-set)
 - [Change the required attributes in the set](#change-the-required-attributes-in-the-set)
-- [Manage an attribute](ManageAttribute.md)
-- [Manage a product](/PIM/Operation/ManageProduct.md)
+- [Manage the attributes](01_ManageAttributes.md)
+- [Manage the products](/PIM/Operation/01_ManageProducts.md)
 
 
 
@@ -365,11 +366,11 @@ No prerequisites to fulfill.
 ### Next steps
 
 - [Export an attribute set](#export-an-attribute-set)
-- [Manage an attribute group](ManageGroups.md)
-- [Configure the language settings](ConfigureLanguages.md)
-- [Configure the scope settings](ConfigureScopes.md)
-- [Manage a catalog](ManageCatalog.md)
-- [Manage a variant set](ManageVariantSet.md)
+- [Manage the attribute groups](03_ManageGroups.md)
+- [Configure the language settings](04_ConfigureLanguages.md)
+- [Configure the scope settings](05_ConfigureScopes.md)
+- [Manage the catalogs](06_ManageCatalogs.md)
+- [Manage the variant sets](07_ManageVariantSets.md)
 
 ### See also
 
@@ -380,8 +381,8 @@ No prerequisites to fulfill.
 - [Remove an attribute from the set](#remove-an-attribute-from-the-set)
 - [Change the required attributes in the set](#change-the-required-attributes-in-the-set)
 - [Deactivate an attribute set](#deactivate-an-attribute-set)
-- [Manage an attribute](ManageAttribute.md)
-- [Manage a product](/PIM/Operation/ManageProduct.md)
+- [Manage the attributes](01_ManageAttributes.md)
+- [Manage the products](/PIM/Operation/01_ManageProducts.md)
 
 
 
@@ -424,11 +425,11 @@ At least one attribute set is created, see [Create an attribute set](#create-an-
 
 ### Next steps
 
-- [Manage an attribute group](ManageGroups.md)
-- [Configure the language settings](ConfigureLanguages.md)
-- [Configure the scope settings](ConfigureScopes.md)
-- [Manage a catalog](ManageCatalog.md)
-- [Manage a variant set](ManageVariantSet.md)
+- [Manage the attribute groups](03_ManageGroups.md)
+- [Configure the language settings](04_ConfigureLanguages.md)
+- [Configure the scope settings](05_ConfigureScopes.md)
+- [Manage the catalogs](06_ManageCatalogs.md)
+- [Manage the variant sets](07_ManageVariantSets.md)
 
 ### See also
 
@@ -440,5 +441,5 @@ At least one attribute set is created, see [Create an attribute set](#create-an-
 - [Change the required attributes in the set](#change-the-required-attributes-in-the-set)
 - [Deactivate an attribute set](#deactivate-an-attribute-set)
 - [Import an attribute set](#import-an-attribute-set)
-- [Manage an attribute](ManageAttribute.md)
-- [Manage a product](/PIM/Operation/ManageProduct.md)
+- [Manage the attributes](01_ManageAttributes.md)
+- [Manage the products](/PIM/Operation/01_ManageProducts.md)

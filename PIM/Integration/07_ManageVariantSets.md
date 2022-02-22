@@ -53,7 +53,7 @@ An attribute set is created, see [Create an attribute set](ManageAttributeSet.md
 2. Select the checkboxes ![Checkbox](/Assets/Icons/Checkbox.png "[Checkbox]") of the attributes you want to be a defining attribute for the selected variant.   
   The editing toolbar is displayed above the attribute list.
 
-  > [Info] The defining attributes are those attributes that characterize the variant article, so those attributes that are defining the variants of the master article.
+  > [Info] The defining attributes are those attributes that characterize the product variant, so those attributes that are defining the variants of the master product.
 
 3. Click the button [ADD AND GO BACK].     
     The *Add defining attributes* view is closed. The selected attributes are displayed in the area *Defining attributes*. A placeholder for the added attribute is displayed in the section *Formulas*.   
@@ -79,7 +79,7 @@ Otherwise, click the button [SAVE] in the upper right corner.
 2. Select the checkboxes ![Checkbox](/Assets/Icons/Checkbox.png "[Checkbox]") of the attributes you want to be a differing attribute for the selected variant.   
   The editing toolbar is displayed above the attribute list.
 
-  > [Info] Generally, a variant article inherits all attribute values from its master article. These attribute values are locked in the variant article and can only be edited in the master article. Attribute values that differ from the master article and must be maintained individually in the variant article itself must be added to the list of differing attributes.
+  > [Info] Generally, a product variant inherits all attribute values from its master product. These attribute values are locked in the product variant and can only be edited in the master product. Attribute values that differ from the master product and must be maintained individually in the product variant itself must be added to the list of differing attributes.
 
 3. Click the button [ADD AND GO BACK].   
   The *Add differing attributes* view is closed. The selected attributes are displayed in the area *Differing Attributes*.
@@ -97,13 +97,13 @@ Otherwise, click the button [SAVE] in the upper right corner.
 ### See also
 
 - [User Interface PIM](/PIM/UserInterface/00_UserInterface.md)
-- [Manage an attribute](ManageAttribute.md)
-- [Manage an attribute set](ManageAttributeSet.md)
-- [Manage an attribute group](ManageGroups.md)
-- [Configure the language settings](ConfigureLanguages.md)
-- [Configure the scope settings](ConfigureScopes.md)
-- [Manage a catalog](ManageCatalog.md)
-- [Manage a product](/PIM/Operation/ManageProduct.md)
+- [Manage the attributes](01_ManageAttributes.md)
+- [Manage the attribute sets](02_ManageAttributeSets.md)
+- [Manage the attribute groups](03_ManageGroups.md)
+- [Configure the language settings](04_ConfigureLanguages.md)
+- [Configure the scope settings](05_ConfigureScopes.md)
+- [Manage the catalogs](06_ManageCatalogs.md)
+- [Manage the products](/PIM/Operation/01_ManageProducts.md)
 
 
 
@@ -140,13 +140,13 @@ At least one variant set is created, see [Create a variant set](#create-a-varian
 
 - [User Interface PIM](/PIM/UserInterface/00_UserInterface.md)
 - [Create a variant set](#create-a-variant-set)
-- [Manage an attribute](ManageAttribute.md)
-- [Manage an attribute set](ManageAttributeSet.md)
-- [Manage an attribute group](ManageGroups.md)
-- [Configure the language settings](ConfigureLanguages.md)
-- [Configure the scope settings](ConfigureScopes.md)
-- [Manage a catalog](ManageCatalog.md)
-- [Manage a product](/PIM/Operation/ManageProduct.md)
+- [Manage the attributes](01_ManageAttributes.md)
+- [Manage the attribute sets](02_ManageAttributeSets.md)
+- [Manage the attribute groups](03_ManageGroups.md)
+- [Configure the language settings](04_ConfigureLanguages.md)
+- [Configure the scope settings](05_ConfigureScopes.md)
+- [Manage the catalogs](06_ManageCatalogs.md)
+- [Manage the products](/PIM/Operation/01_ManageProducts.md)
 
 
 
@@ -186,10 +186,10 @@ A variant set is created, see [Create a variant set](#create-a-variant-set).
 - [User Interface PIM](/PIM/UserInterface/00_UserInterface.md)
 - [Create a variant set](#create-a-variant-set)
 - [Edit a variant set](#edit-a-variant-set)
-- [Manage an attribute](ManageAttribute.md)
-- [Manage an attribute set](ManageAttributeSet.md)
-- [Manage an attribute group](ManageGroups.md)
-- [Configure the language settings](ConfigureLanguages.md)
-- [Configure the scope settings](ConfigureScopes.md)
-- [Manage a catalog](ManageCatalog.md)
-- [Manage a product](/PIM/Operation/ManageProduct.md)
+- [Manage the attributes](01_ManageAttributes.md)
+- [Manage the attribute sets](02_ManageAttributeSets.md)
+- [Manage the attribute groups](03_ManageGroups.md)
+- [Configure the language settings](04_ConfigureLanguages.md)
+- [Configure the scope settings](05_ConfigureScopes.md)
+- [Manage the catalogs](06_ManageCatalogs.md)
+- [Manage the products](/PIM/Operation/01_ManageProducts.md)

@@ -21,15 +21,15 @@ At least one language has to be created in the DataHub module, see [Create a lan
 
 ## Next steps
 
-- [Configure the scope settings](ConfigureScopes.md)
-- [Manage a catalog](ManageCatalog.md)
-- [Manage a variant set](ManageVariantSet.md)
+- [Configure the scope settings](05_ConfigureScopes.md)
+- [Manage the catalogs](06_ManageCatalogs.md)
+- [Manage the variant sets](07_ManageVariantSets.md)
 
 ## See also
 
 - [User Interface PIM](/PIM/UserInterface/00_UserInterface.md)
 - [Create a language](/DataHub/Integration/CreateLanguage.md)
-- [Manage an attribute](ManageAttribute.md)
-- [Manage an attribute set](ManageAttributeSet.md)
-- [Manage an attribute group](ManageGroups.md)
-- [Manage a product](/PIM/Operation/ManageProduct.md)
+- [Manage the attributes](01_ManageAttributes.md)
+- [Manage the attribute sets](02_ManageAttributeSets.md)
+- [Manage the attribute groups](03_ManageGroups.md)
+- [Manage the products](/PIM/Operation/01_ManageProducts.md)

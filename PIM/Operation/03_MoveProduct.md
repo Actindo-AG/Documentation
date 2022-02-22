@@ -71,10 +71,10 @@ At least one product is created, see [Create a product](#create-a-product).
 
 ### Next steps
 
-  - [To be completed](#to_be_completed)
-  - [To be completed](#to_be_completed)
+- [Manage the product view](04_ManageProductView.md)
 
 ### See also
 
-  - [User Interface PIM](/PIM/UserInterface/00_UserInterface.md)
-  - [To be completed](#to_be_completed)
+- [User Interface PIM](/PIM/UserInterface/00_UserInterface.md)
+- [Manage the products](01_ManageProducts.md)
+- [Create a variant](02_CreateVariant.md)

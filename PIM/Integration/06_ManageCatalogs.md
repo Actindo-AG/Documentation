@@ -66,17 +66,17 @@ No prerequisites to fulfill.
 - [Change the order of categories](#change-the-order-of-categories)
 - [Delete a category](#delete-a-category)
 - [Assign a product to a catalog category](#assign-a-product-to-a-catalog-category)
-- [Manage a variant set](ManageVariantSet.md)
+- [Manage the variant sets](07_ManageVariantSets.md)
 
 ### See also
 
 - [User Interface PIM](/PIM/UserInterface/00_UserInterface.md)
-- [Manage an attribute](ManageAttribute.md)
-- [Manage an attribute set](ManageAttributeSet.md)
-- [Manage an attribute group](ManageGroups.md)
-- [Configure the language settings](ConfigureLanguages.md)
-- [Configure the scope settings](ConfigureScopes.md)
-- [Manage a product](/PIM/Operation/ManageProduct.md)
+- [Manage the attributes](01_ManageAttributes.md)
+- [Manage the attribute sets](02_ManageAttributeSets.md)
+- [Manage the attribute groups](03_ManageGroups.md)
+- [Configure the language settings](04_ConfigureLanguages.md)
+- [Configure the scope settings](05_ConfigureScopes.md)
+- [Manage the products](/PIM/Operation/01_ManageProducts.md)
 
 
 ## Edit a catalog
@@ -137,7 +137,7 @@ At least one catalog with one category is created, see [Create a catalog](#creat
 - [Change the order of categories](#change-the-order-of-categories)
 - [Delete a category](#delete-a-category)
 - [Assign a product to a catalog category](#assign-a-product-to-a-catalog-category)
-- [Manage a variant set](ManageVariantSet.md)
+- [Manage the variant sets](07_ManageVariantSets.md)
 
 
 #### See also
@@ -145,12 +145,12 @@ At least one catalog with one category is created, see [Create a catalog](#creat
 - [User Interface PIM](/PIM/UserInterface/00_UserInterface.md)
 - [Create a catalog](#create-a-catalog)
 - [Create a category](#create-a-category)
-- [Manage an attribute](ManageAttribute.md)
-- [Manage an attribute set](ManageAttributeSet.md)
-- [Manage an attribute group](ManageGroups.md)
-- [Configure the language settings](ConfigureLanguages.md)
-- [Configure the scope settings](ConfigureScopes.md)
-- [Manage a product](/PIM/Operation/ManageProduct.md)
+- [Manage the attributes](01_ManageAttributes.md)
+- [Manage the attribute sets](02_ManageAttributeSets.md)
+- [Manage the attribute groups](03_ManageGroups.md)
+- [Configure the language settings](04_ConfigureLanguages.md)
+- [Configure the scope settings](05_ConfigureScopes.md)
+- [Manage the products](/PIM/Operation/01_ManageProducts.md)
 
 
 
@@ -192,7 +192,7 @@ At least one catalog with one category is created, see [Create a catalog](#creat
 
 - [Delete a category](#delete-a-category)
 - [Assign a product to a catalog category](#assign-a-product-to-a-catalog-category)
-- [Manage a variant set](ManageVariantSet.md)
+- [Manage the variant sets](07_ManageVariantSets.md)
 
 
 #### See also
@@ -201,12 +201,12 @@ At least one catalog with one category is created, see [Create a catalog](#creat
 - [Create a catalog](#create-a-catalog)
 - [Create a category](#create-a-category)
 - [Create a sub-category](#create-a-sub-category)
-- [Manage an attribute](ManageAttribute.md)
-- [Manage an attribute set](ManageAttributeSet.md)
-- [Manage an attribute group](ManageGroups.md)
-- [Configure the language settings](ConfigureLanguages.md)
-- [Configure the scope settings](ConfigureScopes.md)
-- [Manage a product](/PIM/Operation/ManageProduct.md)
+- [Manage the attributes](01_ManageAttributes.md)
+- [Manage the attribute sets](02_ManageAttributeSets.md)
+- [Manage the attribute groups](03_ManageGroups.md)
+- [Configure the language settings](04_ConfigureLanguages.md)
+- [Configure the scope settings](05_ConfigureScopes.md)
+- [Manage the products](/PIM/Operation/01_ManageProducts.md)
 
 
 
@@ -255,7 +255,7 @@ At least one catalog with one category is created, see [Create a catalog](#creat
 #### Next steps
 
 - [Assign a product to a catalog category](#assign-a-product-to-a-catalog-category)
-- [Manage a variant set](ManageVariantSet.md)
+- [Manage the variant sets](07_ManageVariantSets.md)
 
 #### See also
 
@@ -264,12 +264,12 @@ At least one catalog with one category is created, see [Create a catalog](#creat
 - [Create a category](#create-a-category)
 - [Create a sub-category](#create-a-sub-category)
 - [Change the order of categories](#change-the-order-of-categories)
-- [Manage an attribute](ManageAttribute.md)
-- [Manage an attribute set](ManageAttributeSet.md)
-- [Manage an attribute group](ManageGroups.md)
-- [Configure the language settings](ConfigureLanguages.md)
-- [Configure the scope settings](ConfigureScopes.md)
-- [Manage a product](/PIM/Operation/ManageProduct.md)
+- [Manage the attributes](01_ManageAttributes.md)
+- [Manage the attribute sets](02_ManageAttributeSets.md)
+- [Manage the attribute groups](03_ManageGroups.md)
+- [Configure the language settings](04_ConfigureLanguages.md)
+- [Configure the scope settings](05_ConfigureScopes.md)
+- [Manage the products](/PIM/Operation/01_ManageProducts.md)
 
 
 
@@ -316,7 +316,7 @@ At least one catalog with one category is created, see [Create a catalog](#creat
 
 ### Next steps
 
-[Manage a variant set](ManageVariantSet.md)
+[Manage the variant sets](07_ManageVariantSets.md)
 
 ### See also
 
@@ -327,9 +327,9 @@ At least one catalog with one category is created, see [Create a catalog](#creat
 - [Create a sub-category](#create-a-sub-category)
 - [Change the order of categories](#change-the-order-of-categories)
 - [Delete a category](#delete-a-category)
-- [Manage an attribute](ManageAttribute.md)
-- [Manage an attribute set](ManageAttributeSet.md)
-- [Manage an attribute group](ManageGroups.md)
-- [Configure the language settings](ConfigureLanguages.md)
-- [Configure the scope settings](ConfigureScopes.md)
-- [Manage a product](/PIM/Operation/ManageProduct.md)
+- [Manage the attributes](01_ManageAttributes.md)
+- [Manage the attribute sets](02_ManageAttributeSets.md)
+- [Manage the attribute groups](03_ManageGroups.md)
+- [Configure the language settings](04_ConfigureLanguages.md)
+- [Configure the scope settings](05_ConfigureScopes.md)
+- [Manage the products](/PIM/Operation/01_ManageProducts.md)

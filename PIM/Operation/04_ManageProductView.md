@@ -54,7 +54,7 @@ No prerequisites to fulfill.
 1. Click the drop-down list *Scope* in the left column.  
   All scopes that are activated in the *PIM* module are displayed in the list.   
 
-  > [Info] For detailed information about activating a scope in the *PIM* module, see [Configure the scope settings](/PIM/Integration/ConfigureScopes.md).
+  > [Info] For detailed information about activating a scope in the *PIM* module, see [Configure the scope settings](/PIM/Integration/05_ConfigureScopes.md).
 
 2. Select the desired scope in the drop-down list *Scope* .   
   The values in the rows change to the values in the selected scope.
@@ -68,10 +68,9 @@ No prerequisites to fulfill.
 ### See also
 
 - [User Interface PIM](/PIM/UserInterface/00_UserInterface.md)
-- [Configure the scope settings](/PIM/Integration/ConfigureScopes.md)
+- [Configure the scope settings](/PIM/Integration/05_ConfigureScopes.md)
 - [Create a scope](/DataHub/Integration/CreateScope.md)
 - [Select a language](#select-a-language)
-- [Select a scope](#select-a-scope)
 
 
 
@@ -91,7 +90,7 @@ No prerequisites to fulfill.
 1. Click the drop-down list *Product Categories* in the left column.  
   All available catalogs are displayed in the list.   
 
-  > [Info] For detailed information about creating a catalog or categories, see [Manage a catalog](/PIM/Integration/ManageCatalog.md).
+  > [Info] For detailed information about creating a catalog or categories, see [Manage the catalogs](/PIM/Integration/06_ManageCatalogs.md).
 
 1. Select the desired catalog in the drop-down list *Product Categories* .      
   All corresponding categories and sub-categories are displayed below the selected catalog.
@@ -113,7 +112,7 @@ No prerequisites to fulfill.
 ### See also
 
 - [User Interface PIM](/PIM/UserInterface/00_UserInterface.md)
-- [Manage a catalog](/PIM/Integration/ManageCatalog.md)
+- [Manage the catalogs](/PIM/Integration/06_ManageCatalogs.md)
 - [Select a language](#select-a-language)
 - [Select a scope](#select-a-scope)
 
@@ -140,17 +139,17 @@ No prerequisites to fulfill.
 
 ### Next steps
 
-- [Select a product category](#select-a-product-category)
-- [Select a variant view](#select-a-variant-view)
 - [Create a view](#create-a-view)
 
 ### See also
 
 - [User Interface PIM](/PIM/UserInterface/00_UserInterface.md)
-- [Configure the scope settings](/PIM/Integration/ConfigureScopes.md)
+- [Configure the scope settings](/PIM/Integration/05_ConfigureScopes.md)
 - [Create a scope](/DataHub/Integration/CreateScope.md)
 - [Select a language](#select-a-language)
 - [Select a scope](#select-a-scope)
+- [Select a product category](#select-a-product-category)
+
 
 
 ## Create a view
@@ -181,12 +180,13 @@ Create a view with a predefined selection of the language, the scope, the produc
 
 [comment]: <> (Why does the assignment via the mass editing is not working?)
 
-### Next steps
-
-- [To be completed](#to_be_completed)
-- [To be completed](#to_be_completed)
 
 ### See also
 
 - [User Interface PIM](/PIM/UserInterface/00_UserInterface.md)
-- [To be completed](#to_be_completed)
+- [Configure the scope settings](/PIM/Integration/05_ConfigureScopes.md)
+- [Create a scope](/DataHub/Integration/CreateScope.md)
+- [Select a language](#select-a-language)
+- [Select a scope](#select-a-scope)
+- [Select a product category](#select-a-product-category)
+- [Select a variant view](#select-a-variant-view)
