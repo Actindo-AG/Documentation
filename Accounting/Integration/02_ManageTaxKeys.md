@@ -49,9 +49,9 @@ The existing data are cleared. The button [SAVE & NEW] is now activated.
 
 5.  Click the drop-down list *Tax type* and select the appropriate option:
       - **( )Not specified**
-      - **( )Input tax**
-      - **( )VAT**
-      - **( )Input tax and VAT**
+      - **(I)Input tax**
+      - **(V)VAT**
+      - **(IV)Input tax and VAT**
 
 6. Enter the appropriate data in the field *Percent / Factor*.
 
