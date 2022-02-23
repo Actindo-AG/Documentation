@@ -11,7 +11,7 @@ Create a warehouse group to which you can assign all specific warehouses for you
 
 ### Prerequisites
 
-No prerequisites to fulfill.
+The plugin *Warehouse groups* must be installed, see [Install a plugin](to_be_completed).
 
 ### Procedure
 *Lager > Einstellungen > Tab LAGER > Tab Lagerstammdaten*

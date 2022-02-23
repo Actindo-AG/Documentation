@@ -12,6 +12,6 @@ The Actindo Venduo POS module offers the following benefits:
 
 To enable all POS features, ensure that the following prerequisites are fulfilled or click on the respective link to access the corresponding guide:
 
-- The plugin *UCS Sync for POS* is installed, see [Install a module](/Core1/01_ConfigurePlatform.md#install-module).
+- The plugin *UCS Sync for POS* is installed, see [Install a plugin](to_be_completed).
 - The printer client is installed, see [Install the printer client](to_be_completed).
 - An external barcode scanner is connected and configured, see [Connect and configure a barcode scanner](to_be_completed).
