@@ -56,8 +56,8 @@ To understand Git and GitHub, it is important to understand the basic terminolog
 - *git status*   
   Use this command to display changes and untracked files in Git.
 
-- *git add .*/*git add [file_name]*   
-  Use this command to track files and changes in Git. You can either track all changes and files using the *git add .* command or you track a single file using the *git add [file_name]* command, by replacing the *[file_name]* with the name of the file you want to track.
+- *git add .*/*git add [file_path]*   
+  Use this command to track files and changes in Git. You can either track all changes and files using the *git add .* command or you track a single file using the *git add [file_path]* command, by replacing the *[file_path]* with the path of the file you want to track.
 
 - *git commit -m "title" -m "description"*    
   Use this command to save your files in Git. You have to add a commit message to the command. The first message is the title of the message. For documentation purposes, use the JIRA ticket number you are working on for the title. The second message is the description. Add some information about the changes you made in the description.
