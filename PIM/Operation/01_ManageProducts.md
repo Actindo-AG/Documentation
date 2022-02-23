@@ -4,7 +4,7 @@ A product defines everything that can be offered and purchased on a market. All 
 
 ## Create a product
 
-Create a product to offer it on a marketplace. You can create a master product or create product variants, see [Create a variant](CreateVariant.md#create-a-variant-to-a-product). In the following, the procedure to create a master product is described.
+Create a product to offer it on a marketplace. You can create a master product or create product variants, see [Create product variants](02_ManageVariants.md#create-product-variants). In the following, the procedure to create a master product is described.
 
 ### Prerequisites
 
@@ -45,21 +45,21 @@ An attribute set is created, see [Create an attribute set](ManageAttributeSet.md
 - [Mass editing](#mass-editing)
 - [Copy a product](#copy-a-product)
 - [Create an offer in PIM](#create-an-offer-in-PIM)
-- [Create a single scope offer in PIM](#create-a-single-scope-offer-in-PIM)
-- [Create a multi-scope offer in PIM](#create-a-multi-scope-offer-in-PIM)
-- [Create a variant](02_CreateVariant.md)
+- [Create a single connection offer in PIM](#create-a-single-connection-offer-in-PIM)
+- [Create a multi-connection offer in PIM](#create-a-multi-connection-offer-in-PIM)
+- [Manage the variants](02_ManageVariants.md)
 - [Move a product](03_MoveProduct.md)
-- [Manage the product view](04_ManageProductView.md)
+- [Manage the list view](04_ManageListView.md)
 
 ### See also
 
 - [User Interface PIM](/PIM/UserInterface/00_UserInterface.md)
-
+- [Create product variants](02_ManageVariants.md#create-product-variants)
 
 
 ## Edit products
 
-After you have created a product, you can edit it.You can either edit a single product or use the mass editing function to edit the same attribute values in several products using a wizard. Depending on the attribute settings, not all attribute values are editable.
+After you have created a product, you can edit it. You can either edit a single product or use the mass editing function to edit the same attribute values in several products using a wizard. Depending on the attribute settings, not all attribute values are editable.
 
 ### Edit a single product
 
@@ -89,11 +89,11 @@ At least one product is created, see [Create a product](#create-a-product).
 - [Mass editing](#mass-editing)
 - [Copy a product](#copy-a-product)
 - [Create an offer in PIM](#create-an-offer-in-PIM)
-- [Create a single scope offer in PIM](#create-a-single-scope-offer-in-PIM)
-- [Create a multi-scope offer in PIM](#create-a-multi-scope-offer-in-PIM)
-- [Create a variant](02_CreateVariant.md)
+- [Create a single connection offer in PIM](#create-a-single-connection-offer-in-PIM)
+- [Create a multi-connection offer in PIM](#create-a-multi-connection-offer-in-PIM)
+- [Manage the variants](02_ManageVariants.md)
 - [Move a product](03_MoveProduct.md)
-- [Manage the product view](04_ManageProductView.md)
+- [Manage the list view](04_ManageListView.md)
 
 #### See also
 
@@ -157,11 +157,11 @@ The *Applying Changes* window and the message *Mass editing has been triggered* 
 
 - [Copy a product](#copy-a-product)
 - [Create an offer in PIM](#create-an-offer-in-PIM)
-- [Create a single scope offer in PIM](#create-a-single-scope-offer-in-PIM)
-- [Create a multi-scope offer in PIM](#create-a-multi-scope-offer-in-PIM)
-- [Create a variant](02_CreateVariant.md)
+- [Create a single connection offer in PIM](#create-a-single-connection-offer-in-PIM)
+- [Create a multi-connection offer in PIM](#create-a-multi-connection-offer-in-PIM)
+- [Manage the variants](02_ManageVariants.md)
 - [Move a product](03_MoveProduct.md)
-- [Manage the product view](04_ManageProductView.md)
+- [Manage the list view](04_ManageListView.md)
 
 #### See also
 
@@ -208,11 +208,11 @@ At least one product is created, see [Create a product](#create-a-product).
 ### Next steps
 
 - [Create an offer in PIM](#create-an-offer-in-PIM)
-- [Create a single scope offer in PIM](#create-a-single-scope-offer-in-PIM)
-- [Create a multi-scope offer in PIM](#create-a-multi-scope-offer-in-PIM)
-- [Create a variant](02_CreateVariant.md)
+- [Create a single connection offer in PIM](#create-a-single-connection-offer-in-PIM)
+- [Create a multi-connection offer in PIM](#create-a-multi-connection-offer-in-PIM)
+- [Manage the variants](02_ManageVariants.md)
 - [Move a product](03_MoveProduct.md)
-- [Manage the product view](04_ManageProductView.md)
+- [Manage the list view](04_ManageListView.md)
 
 ### See also
 
@@ -225,16 +225,16 @@ At least one product is created, see [Create a product](#create-a-product).
 
 ## Create an offer in PIM
 
-Create an offer to a product so you can sell the product in a selected connection. In the *PIM* module you can  create offers to all PIM products. You can either create an offer for a single scope or a multi-scope offer.
+Create an offer to a product so you can sell the product in a selected connection. In the *PIM* module you can  create offers to all PIM products. You can either create an offer for a single connection or multiple connections.
 
-### Create a single scope offer in PIM
+### Create a single connection offer in PIM
+
+If you want to offer the product on a single connection only or you have just one connection created, it is recommended to create a single connection offer.
 
 #### Prerequisites
 
 - At least one product is created, see [Create a product](#create-a-product).    
-- At least one scope is created, see [Create a scope](/DataHub/Integration/CreateScope.md).
-
-> [Info] By default, the scope *Actindo Basic* is created and activated in the *PIM* module.
+- At least one connection is created, see [Create a connection](/OmniChannel/Integration/CreateConnection.md).
 
 #### Procedure
 *PIM > Products > Tab LIST*
@@ -245,23 +245,23 @@ Create an offer to a product so you can sell the product in a selected connectio
   The *Edit Product* view is displayed.
 
 2. Click the tab *Offers* in the product view.   
-  The tab *Offers* with a list of all existing offers to the product in all scopes is displayed.
+  The tab *Offers* with a list of all existing offers to the product in all connections is displayed.
 
    ![PIM Offers](/Assets/Screenshots/PIM/Products/List/Offers/Offers.png "[PIM Offers]")
 
 3. Click the button ![Add](/Assets/Icons/Plus01.png "[Add]") (Add) in the bottom right corner.   
-   The two buttons [Add to a single scope ![Add to a single scope](/Assets/Icons/Document.png "[Single scope]") ] and [Add to multiple scopes ![Multiple scopes](/Assets/Icons/Documents.png "[Multiple scopes]") ] are displayed.
+   The two buttons [Add to a single connection ![Add to a single connection](/Assets/Icons/Document.png "[Single connection]") ] and [Add to multiple connections ![Multiple connections](/Assets/Icons/Documents.png "[Multiple connections]") ] are displayed.
 
   ![Add Offer](/Assets/Screenshots/PIM/Products/List/Offers/AddEdit.png "[Add Offer]")
 
-4. Click the button [Add to a single scope ![Add to a single scope](/Assets/Icons/Document.png "[Single scope]") ] to create an offer from the selected PIM product to a single scope.   
+4. Click the button [Add to a single connection ![Add to a single connection](/Assets/Icons/Document.png "[Single connection]") ] to create an offer from the selected PIM product to a single connection.   
    The *Create Offer* window is displayed.
 
-   ![Single scope offer](/Assets/Screenshots/PIM/Products/List/Offers/SingleScope.png "[Single scope offer]")
+   ![Single connection offer](/Assets/Screenshots/PIM/Products/List/Offers/SingleConnection.png "[Single connection offer]")
 
 5. Configure the following settings:
 
-  + Click the drop-down list *Select Scope* and select the scope for which you want to create the offer. All active scopes are displayed in the list.    
+  + Click the drop-down list *Select Connection* and select the connection for which you want to create the offer. All active connections are displayed in the list.    
   The drop-down list *Select Attribute Set* is unlocked.
 
   + Click the drop-down list *Select Attribute Set* and select the appropriate attribute set for the offer. All active attribute sets are displayed in the list.   
@@ -270,14 +270,14 @@ Create an offer to a product so you can sell the product in a selected connectio
 
   + Select the appropriate option for change tracking in the section *Change Tracking Mode* :   
    ![Radionbutton](/Assets/Icons/Radiobutton.png "[Radiobutton]") *manual*: Changes in a PIM product must be triggered manually to be applied to the offer. The initial offer is automatically applied.   
-   ![Radionbutton](/Assets/Icons/Radiobutton.png "[Radiobutton]") *semi-automatic*: Changes in a PIM product are automatically applied to the offer after confirmation in the *Omni-scope* module. The initial offer is automatically applied without confirmation.   
+   ![Radionbutton](/Assets/Icons/Radiobutton.png "[Radiobutton]") *semi-automatic*: Changes in a PIM product are automatically applied to the offer after confirmation in the *Omni-Channel* module. The initial offer is automatically applied without confirmation.   
    ![Radionbutton](/Assets/Icons/Radiobutton.png "[Radiobutton]") *semi-automatic, changes must be confirmed by another user*: Changes in a PIM product are automatically applied to the offer after confirmation in the *Omni-Channel* module by another user. The initial offer is only applied after confirmation by another user.    
    ![Radionbutton](/Assets/Icons/Radiobutton.png "[Radiobutton]") *automatic*: Changes in a PIM product are automatically applied to the offer. The initial offer is also automatically applied.
 
   + Click the drop-down list *Offer Status* and select the initial offer status. The statuses below are available:   
-    + *Active*: The offer is active. It is displayed in the selected scope and can be sold there.   
-    + *Inactive*: The offer is inactive. It is not displayed in the selected scope and cannot be sold there.   
-    + *N/A*: The offer is unknown to the selected scope and cannot be sold there.   
+    + *Active*: The offer is active. It is displayed in the selected connection and can be sold there.   
+    + *Inactive*: The offer is inactive. It is not displayed in the selected connection and cannot be sold there.   
+    + *N/A*: The offer is unknown to the selected connection and cannot be sold there.   
 
 
 6. Click the button [SAVE] in the bottom right corner of the *Create Offer* window.   
@@ -293,10 +293,10 @@ The single offer is added to the list of offers. The *Create Offer* window is cl
 
 #### Next steps
 
-- [Create a multi-scope offer in PIM](#create-a-multi-scope-offer-in-PIM)
-- [Create a variant](02_CreateVariant.md)
+- [Create a multi-connection offer in PIM](#create-a-multi-connection-offer-in-PIM)
+- [Manage the variants](02_ManageVariants.md)
 - [Move a product](03_MoveProduct.md)
-- [Manage the product view](04_ManageProductView.md)
+- [Manage the list view](04_ManageListView.md)
 
 #### See also
 
@@ -309,12 +309,15 @@ The single offer is added to the list of offers. The *Create Offer* window is cl
 - [Create an offer in Omni-Channel](to_be_completed)
 
 
-### Create a multi-scope offer in PIM
+### Create a multi-connection offer in PIM
+
+To create offers to a product for several connections at the same time, you can use the multi-connection wizard.  
+
 
 #### Prerequisites
 
 - At least one product is created, see [Create a product](#create-a-product).    
-- At least two scopes are created, see [Create a scope](/DataHub/Integration/CreateScope.md).
+- At least two connections are created, see [Create a connection](/OmniChannel/Integration/CreateConnection.md).
 
 #### Procedure
 *PIM > Products > Tab LIST*
@@ -325,26 +328,26 @@ The single offer is added to the list of offers. The *Create Offer* window is cl
   The *Edit Product* view is displayed.
 
 2. Click the tab *Offers* .   
-  The tab *Offers* with a list of all existing offers of the product in all scopes is displayed.
+  The tab *Offers* with a list of all existing offers of the product in all connections is displayed.
 
    ![PIM Offers](/Assets/Screenshots/PIM/Products/List/Offers/Offers.png "[PIM Offers]")
 
 3. Click the button ![Add](/Assets/Icons/Plus01.png "[Add]") (Add) in the bottom right corner.   
-   The two buttons [Add to a single scope ![Add to a single scope](/Assets/Icons/Document.png "[Single scope]") ] and [Add to multiple scopes ![Multiple scopes](/Assets/Icons/Documents.png "[Multiple scopes]") ] are displayed.
+   The two buttons [Add to a single connection ![Add to a single connection](/Assets/Icons/Document.png "[Single connection]") ] and [Add to multiple connections ![Multiple connections](/Assets/Icons/Documents.png "[Multiple connections]") ] are displayed.
 
   ![Add Offer](/Assets/Screenshots/PIM/Products/List/Offers/AddEdit.png "[Add Offer]")
 
-4. Click the button [Add to multiple scopes ![Multiple scopes](/Assets/Icons/Documents.png "[Multiple scopes]") ] to create an offer from the selected PIM product to multiple scopes.   
-  The wizard window *Select scopes and status* is displayed.
+4. Click the button [Add to multiple connections ![Multiple connections](/Assets/Icons/Documents.png "[Multiple connections]") ] to create an offer from the selected PIM product to multiple connections.   
+  The *Select connections and status* wizard window is displayed.
 
-   ![Select scopes and status](/Assets/Screenshots/PIM/Products/List/Offers/MultipleScopes01.png "[Select scopes and status]")
+   ![Select connections and status](/Assets/Screenshots/PIM/Products/List/Offers/MultipleConnections01.png "[Select connections and status]")
 
 5. Configure the following settings:
 
   + Click the drop-down list *Offer Status* and select the initial offer status. The statuses below are available:   
-    + *Active*: The offer is active. It is displayed in the selected scope and can be sold there.   
-    + *Inactive*: The offer is inactive. It is not displayed in the selected scope and cannot be sold there.   
-    + *N/A*: The offer is unknown to the selected scope and cannot be sold there.   
+    + *Active*: The offer is active. It is displayed in the selected connection and can be sold there.   
+    + *Inactive*: The offer is inactive. It is not displayed in the selected connection and cannot be sold there.   
+    + *N/A*: The offer is unknown to the selected connection and cannot be sold there.   
 
   + Select the appropriate option for the change tracking mode:   
      ![Radionbutton](/Assets/Icons/Radiobutton.png "[Radiobutton]") *manual*: Changes in a PIM product must be triggered manually to be applied to the offer. The initial offer is automatically applied.   
@@ -352,14 +355,14 @@ The single offer is added to the list of offers. The *Create Offer* window is cl
      ![Radionbutton](/Assets/Icons/Radiobutton.png "[Radiobutton]") *semi-automatic, changes must be confirmed by another user*: Changes in a PIM product are automatically applied to the offer after confirmation in the *Omni-Channel* module by another user. The initial offer is only applied after confirmation by another user.    
      ![Radionbutton](/Assets/Icons/Radiobutton.png "[Radiobutton]") *automatic*: Changes in a PIM product are automatically applied to the offer. The initial offer is also automatically applied.
 
-  + Activate the toggles ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") of the scopes for which you want to create offers in the section *Select connections*. If you want to create an offer for all displayed scopes, click the button [SELECT ALL] to activate all toggles. All active scopes are displayed in the list.    
+  + Activate the toggles ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") of the connections for which you want to create offers in the section *Select connections*. If you want to create an offer for all displayed connections, click the button [SELECT ALL] to activate all toggles. All active connections are displayed in the list.    
 
 6. Click the button [CONTINUE] in the bottom right corner of the window.   
   The *Select destination attribute sets* wizard window is displayed.
 
-   ![Select destination attribute sets](/Assets/Screenshots/PIM/Products/List/Offers/MultipleScopes02.png "[Select destination attribute sets]")
+   ![Select destination attribute sets](/Assets/Screenshots/PIM/Products/List/Offers/MultipleConnections02.png "[Select destination attribute sets]")
 
-   > [Info] The attribute destination sets for the selected scopes are automatically selected. You cannot edit the selection.
+   > [Info] The attribute destination sets for the selected connections are automatically selected. You cannot edit the selection.
 
   [comment]: <> (Is that correct? Why does this window exist when I cannot make any changes?)
 
@@ -375,9 +378,9 @@ The *Edit Product* view is closed. The tab *LIST* with the product list is displ
 
 #### Next steps
 
-- [Create a variant](02_CreateVariant.md)
+- [Manage the variants](02_ManageVariants.md)
 - [Move a product](03_MoveProduct.md)
-- [Manage the product view](04_ManageProductView.md)
+- [Manage the list view](04_ManageListView.md)
 
 #### See also
 
@@ -387,4 +390,5 @@ The *Edit Product* view is closed. The tab *LIST* with the product list is displ
 - [Edit a single product](#edit-a-single-product)
 - [Mass editing](#mass-editing)
 - [Copy a product](#copy-a-product)
-- [Create a single scope offer in PIM](#create-a-single-scope-offer-in-PIM)
+- [Create a single connection offer in PIM](#create-a-single-connection-offer-in-PIM)
+- [Create an offer in Omni-Channel](to_be_completed)
