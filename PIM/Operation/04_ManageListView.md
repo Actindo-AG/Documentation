@@ -175,32 +175,57 @@ Create a view with a predefined selection of the language, the scope, the produc
 
 No prerequisites to fulfill.
 
-> [Info]  Depending on the view you want to create, it is necessary to fulfill the corresponding prerequisites in the chapters [Select a language](#select-a-language), [Select a scope](#select-a-scope) or [Select a product category](#select-a-product-category).
+> [Info] Depending on the view you want to create, it is necessary to fulfill the corresponding prerequisites in the chapters [Select a language](#select-a-language), [Select a scope](#select-a-scope) or [Select a product category](#select-a-product-category).
 
 ### Procedure
 *PIM > Products > Tab LIST*
 
 ![Product list](/Assets/Screenshots/PIM/Products/List/Products.png "[Product list]")
 
-1. Select the desired catalog in the drop-down list *Produktkategorie* in the left column.   
-  All available categories and sub-categories are displayed below the selected catalog.
 
-  ![Select catalog](/Assets/Screenshots/PIM/Products/List/SelectCatalog.png "[Select catalog]")
-
-2. Select the desired category or sub-category in the left column.   
-  Only products that are assigned to the selected category or sub-category are displayed in the list of products on the right side.
-
-  ![Select category](/Assets/Screenshots/PIM/Products/List/SelectCategory.png "[Select category]")
+1. Select the desired settings for the view, you want to save:
+  + Click the drop-down list *Language* and select the desired language.
+  + Click the drop-down list *Scope* and select the desired scope.
+  + Click the drop-down list *Catalog* and select the desired catalog and category.
+  + Click the drop-down list *Variants* and select the desired variant view.   
 
 
-[comment]: <> (Why does the assignment via the mass editing is not working?)
+2. If desired adjust the displayed columns in the product list by following the steps below:
+  + Click the button [ ![Columns](/Assets/Icons/Columns.png "[Columns]") Columns].   
+  + Click the drop-down list *Column*, select a column in the list and click the button [ADD COLUMN] to add the column to the columns displayed in the product list.
+  + Click the button ![Remove](/Assets/Icons/Cross03.png "[Remove]") (Remove) next to a column name to remove the corresponding column from the product list.
+  + Click and hold a column name and by using drag and drop, move the selected column to the desired position. The number left to the column name displays the position number of the column in the product list.
+  + Click the button [APPLY] to apply the changes.
 
+
+3. If desired add a filter to the product list by following the steps below:
+  + Click the button [ ![Filter](/Assets/Icons/Filter.png "[Filter]") Filter].   
+  + Click the drop-down list *Column* and select a column to which you want to add a filter.
+  + Click the drop-down list *Relation* and select a filter relation. Depending on the selected column, the filter relations vary.
+  + Click the drop-down list *Value* and enter a value for the filter.
+  + Click the button [ADD FILTER] to apply the filter.
+
+
+4. Click the button ![Points](/Assets/Icons/Points01.png "[Points]") (Points) next to the drop-down list *View* .   
+  The view context menu is displayed.
+
+  ![View context menu](/Assets/Screenshots/PIM/Products/List/ViewContextMenu.png "[View context menu]")
+
+  > [Info] If no view is selected when clicking the button ![Points](/Assets/Icons/Points01.png "[Points]") (Points), only the menu entry *create* is displayed in the context menu.
+
+5. Click the menu entry *+ create* in the context menu.   
+  The *Create view* window is displayed.
+
+6. Enter a name for the view in the field *Name*.
+
+7. Click the button [SAVE].   
+  The view is saved and preselected in the drop-down list.
+
+> [Info] To change the view, click the drop-down list *View* and select the view you want to display. The view changes depending on the saved settings.
 
 ### See also
 
 - [User Interface PIM](/PIM/UserInterface/00_UserInterface.md)
-- [Configure the scope settings](/PIM/Integration/05_ConfigureScopes.md)
-- [Create a scope](/DataHub/Integration/CreateScope.md)
 - [Select a language](#select-a-language)
 - [Select a scope](#select-a-scope)
 - [Select a product category](#select-a-product-category)
