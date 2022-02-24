@@ -123,11 +123,12 @@ You can delete an existing tax key, for example if it is no longer applicable.
 ![Delete a tax key](/Assets/Screenshots/Accounting/Settings/TaxKeys/Delete_TaxKey.png "[Delete a tax key]")
 
 1. Select the tax key to be deleted.
+  > [Warning] Be aware that the existing tax key will be deleted permanently.
 
 2. Click the button [DELETE].  
 The selected tax key will be deleted.
 
-    > [Warning] Be aware that the existing tax key will be deleted permanently.
+
 
 ### Next steps
 
