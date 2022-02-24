@@ -4,7 +4,7 @@ To create a new attribute, you have to define a data type. In the following, all
 
 ## Textfield
 
-![Textfield](/Assets/Screenshots/PIM/Settings/Attributes/Textfield.png "[Textfield]")
+![Textfield](/Assets/Screenshots/PIM/DataTypes/Textfield.png "[Textfield]")
 
 The data type *Textfield* is used for long texts, e. g. for descriptions. You can configure the text length an the editor you use.
 In the PIM basic product set, the following attributes have the data type *Textfield*:
@@ -14,7 +14,7 @@ In the PIM basic product set, the following attributes have the data type *Textf
 
 ### Configuration
 
-![Textfield](/Assets/Screenshots/PIM/Settings/Attributes/Configuration/Textfield.png "[Textfield]")
+![Textfield](/Assets/Screenshots/PIM/DataTypes/Configuration/Textfield.png "[Textfield]")
 
 - *Min length*   
   Enter a minimal length of the textfield.
@@ -34,7 +34,7 @@ In the PIM basic product set, the following attributes have the data type *Textf
 
 ## Checkbox
 
-![Checkbox](/Assets/Screenshots/PIM/Settings/Attributes/Checkbox.png "[Checkbox]")
+![Checkbox](/Assets/Screenshots/PIM/DataTypes/Checkbox.png "[Checkbox]")
 
 The data type *Checkbox* is used to indicate a statement that is either true or false, e. g. if a product is a digital or real product. The checkbox is displayed by a toggle. In the PIM basic product set, the following attributes have the data type *Checkbox*:
 - Sale items
@@ -50,16 +50,18 @@ This data type has no further configuration settings.
 
 ## Floating point number
 
-![Floating point number](/Assets/Screenshots/PIM/Settings/Attributes/FloatingPointNumber.png "[Floating point number]")
+![Floating point number](/Assets/Screenshots/PIM/DataTypes/FloatingPointNumber.png "[Floating point number]")
 
 The data type *Floating point number* is used to indicate decimal numbers without a unit. You can configure the number of decimal places and the number range.
 
 ### Configuration
 
-![Floating point number](/Assets/Screenshots/PIM/Settings/Attributes/Configuration/FloatingPointNumber.png "[Floating point number]")
+![Floating point number](/Assets/Screenshots/PIM/DataTypes/Configuration/FloatingPointNumber.png "[Floating point number]")
 
 - *Precision*   
   Enter the number of decimal places for the floating point number. By default the number of decimals is set to **4**.  
+
+  > [Info] Note that when you enter more than the defined number of decimal places for the attribute value, the number is commercially rounded to the defined number of decimal places after saving.
 
 - *Min value*   
   Enter a minimum value for the floating point number.  
@@ -73,13 +75,13 @@ The data type *Floating point number* is used to indicate decimal numbers withou
 
 ## Integer
 
-![Integer](/Assets/Screenshots/PIM/Settings/Attributes/Integer.png "[Integer]")
+![Integer](/Assets/Screenshots/PIM/DataTypes/Integer.png "[Integer]")
 
 The data type *Integer* is used to indicate whole numbers without a unit. You can configure the number range.
 
 ### Configuration
 
-![Integer](/Assets/Screenshots/PIM/Settings/Attributes/Configuration/Integer.png "[Integer]")
+![Integer](/Assets/Screenshots/PIM/DataTypes/Configuration/Integer.png "[Integer]")
 
 - *Min value*   
   Enter a minimum value for the integer.  
@@ -93,7 +95,7 @@ The data type *Integer* is used to indicate whole numbers without a unit. You ca
 
 ## String
 
-![String](/Assets/Screenshots/PIM/Settings/Attributes/String.png "[String]")
+![String](/Assets/Screenshots/PIM/DataTypes/String.png "[String]")
 
 The data type *String* is used for short texts or alphanumeric information, e. g. keywords. You can configure the string length and define regular expressions for the string. In the PIM basic product set, the following attributes have the data type *String*:
 - Article name
@@ -110,7 +112,7 @@ The data type *String* is used for short texts or alphanumeric information, e. g
 
 ### Configuration
 
-![String](/Assets/Screenshots/PIM/Settings/Attributes/Configuration/String.png "[String]")
+![String](/Assets/Screenshots/PIM/DataTypes/Configuration/String.png "[String]")
 
 - *Min length*   
   Enter a minimal length of the string.
@@ -127,7 +129,7 @@ The data type *String* is used for short texts or alphanumeric information, e. g
 
 ## Currency
 
-![Currency](/Assets/Screenshots/PIM/Settings/Attributes/Currency.png "[Currency]")
+![Currency](/Assets/Screenshots/PIM/DataTypes/Currency.png "[Currency]")
 
 The data type *Currency* is used to indicate a currency. A drop-down list with all currencies in the system is displayed in the product view.
 
@@ -138,7 +140,7 @@ This data type has no further configuration settings.
 
 ## Language
 
-![Language](/Assets/Screenshots/PIM/Settings/Attributes/Language.png "[Language]")
+![Language](/Assets/Screenshots/PIM/DataTypes/Language.png "[Language]")
 
 The data type *Language* is used to indicate a language. A drop-down list with all languages in the system is displayed in the product view.
 
@@ -149,7 +151,7 @@ This data type has no further configuration settings.
 
 ## Country
 
-![Country](/Assets/Screenshots/PIM/Settings/Attributes/Country.png "[Country]")
+![Country](/Assets/Screenshots/PIM/DataTypes/Country.png "[Country]")
 
 The data type *Country* is used to indicate a country. A drop-down list with all countries in the system is displayed in the product view. In the PIM basic product set, the following attributes have the data type *Country*:
 - Country of origin
@@ -165,11 +167,11 @@ The data type *TreeNode* is used for indications with multiple, predefined selec
 
 [comment]: <> (to be edited)
 
-![TreeNode](/Assets/Screenshots/PIM/Settings/Attributes/TreeNode.png "[TreeNode]")
+![TreeNode](/Assets/Screenshots/PIM/DataTypes/TreeNode.png "[TreeNode]")
 
 ### Configuration
 
-![TreeNode](/Assets/Screenshots/PIM/Settings/Attributes/Configuration/TreeNode.png "[TreeNode]")
+![TreeNode](/Assets/Screenshots/PIM/DataTypes/Configuration/TreeNode.png "[TreeNode]")
 
 - ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Multi Select*   
   Activate this toggle to enable a multiple selection of values. Deactivate the toggle to allow only a single selection of values. By default, this toggle is inactive.
@@ -183,7 +185,7 @@ The data type *TreeNode* is used for indications with multiple, predefined selec
 
 ### Add Element
 
-![Add element](/Assets/Screenshots/PIM/Settings/Attributes/Configuration/AddElement.png "[Add element]")
+![Add element](/Assets/Screenshots/PIM/DataTypes/Configuration/AddElement.png "[Add element]")
 
 - *Name*   
   Enter the attribute value name.
@@ -205,9 +207,9 @@ This data type is for internal use only. It is strongly advised not to use this 
 
 ## Number with Unit
 
-![Number with Unit](/Assets/Screenshots/PIM/Settings/Attributes/NumberUnit.png "[Number with Unit]")
+![Number with Unit](/Assets/Screenshots/PIM/DataTypes/NumberUnit.png "[Number with Unit]")
 
-The data type *Number with Unit* is used for numerical specifications of a certain unit of measurement, e. g. weight specifications. You can can define the unit of measurement. In the PIM basic product set, the following attributes have the data type *Number with Unit*:
+The data type *Number with Unit* is used for numerical specifications of a certain unit of measurement, e. g. weight specifications. You can configure the applicable dimension and unit of measurement. Depending on the selected dimension, the options for the unit are adapted. In the PIM basic product set, the following attributes have the data type *Number with Unit*:
 - Length
 - Width
 - Depth
@@ -215,21 +217,25 @@ The data type *Number with Unit* is used for numerical specifications of a certa
 
 ### Configuration
 
-![Number with Unit](/Assets/Screenshots/PIM/Settings/Attributes/Configuration/NumberUnit.png "[Number with Unit]")
+![Number with Unit](/Assets/Screenshots/PIM/DataTypes/Configuration/NumberUnit.png "[Number with Unit]")
 
-[comment]: <> (Configuration missing)
+- *Dimension*   
+  Click the drop-down list to select the dimension to be used. All active dimensions are displayed in the drop-down list.
+
+- *Default unit*   
+  Click the drop-down list to select the dimension to be used. All units that are assigned to the selected dimension are displayed in the drop-down list.
 
 
 ## DateTime
 
-![DateTime](/Assets/Screenshots/PIM/Settings/Attributes/DateTime.png "[DateTime]")
+![DateTime](/Assets/Screenshots/PIM/DataTypes/DateTime.png "[DateTime]")
 
 The data type *DateTime* is used to indicate a date and/or a time. You can configure whether to display or not the date and the time and you can select a date and time format. A calendar widget to select the date is displayed in the product view. In the PIM basic product set, the following attributes have the data type *DateTime*:
 - Expiration date
 
 ### Configuration
 
-![DateTime](/Assets/Screenshots/PIM/Settings/Attributes/Configuration/DateTime.png "[DateTime]")
+![DateTime](/Assets/Screenshots/PIM/DataTypes/Configuration/DateTime.png "[DateTime]")
 
 - *Date*
   Click the drop-down list to select a date format. The formats below are available. By default, the date format **Short** is selected.
@@ -248,7 +254,7 @@ The data type *DateTime* is used to indicate a date and/or a time. You can confi
 
 ## Sales Unit Value
 
-![Sales Unit Value](/Assets/Screenshots/PIM/Settings/Attributes/SalesUnitValue.png "[Sales Unit Value]")
+![Sales Unit Value](/Assets/Screenshots/PIM/DataTypes/SalesUnitValue.png "[Sales Unit Value]")
 
 The data type *Sales Unit Value* is used to define a dimension and a unit. Two drop-down lists to select the applicable dimension and unit are displayed in the product view. Depending on the selected dimension, the options for the unit are adapted. In the PIM basic product set, the following attributes have the data type *Sales Unit Value*:
 - Sales unit
@@ -260,13 +266,13 @@ This data type has no further configuration settings.
 
 ## Simple price field
 
-![Simple price field](/Assets/Screenshots/PIM/Settings/Attributes/SimplePriceField.png "[Simple price field]")
+![Simple price field](/Assets/Screenshots/PIM/DataTypes/SimplePriceField.png "[Simple price field]")
 
 The data type *Simple price field* is used to indicate a price. You can configure the use of gross or net price, the display of an MSRP field and promotion prices and the currency to be used. Additionally, you can create scale prices in the product view. Unlike the data type *Preise*, the data type *Simple price field* requires less information to indicate the price.
 
 ### Configuration
 
-![Simple price field](/Assets/Screenshots/PIM/Settings/Attributes/Configuration/SimplePriceField.png "[Simple price field]")
+![Simple price field](/Assets/Screenshots/PIM/DataTypes/Configuration/SimplePriceField.png "[Simple price field]")
 
 - ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Gross prices*   
   Activate this toggle to display gross prices. Deactivate the toggle to display net prices. By default, this toggle is active.
@@ -280,21 +286,21 @@ The data type *Simple price field* is used to indicate a price. You can configur
   Activate this toggle to enable to enter a promotion period for prices. Deactivate the toggle to not allow promotion prices. By default, this toggle is inactive.
 
 - *Currency*   
-  Click the drop-down list to select the currency to be used. All available currencies are displayed in the drop-down list.
+  Click the drop-down list to select the currency to be used. All available currencies are displayed in the drop-down list. By default, the default currency is preselected.
 
 [comment]: <> (Not working -> MSRP field is displayed even when the toggle is not active -> to be fixed)
 
 
 ## Stock Value
 
-![Stock Value](/Assets/Screenshots/PIM/Settings/Attributes/StockValue.png "[Stock Value]")
+![Stock Value](/Assets/Screenshots/PIM/DataTypes/StockValue.png "[Stock Value]")
 
 The data type *Stock Value* is used to indicate the number of stocks. You can configure the number of decimal places. A new target channel for this stock is created in the *Stock* module for the inventory assignment. In the PIM basic product set, the following attributes have the data type *Stock Value*:
 - Stock  
 
 ### Configuration
 
-![Stock Value](/Assets/Screenshots/PIM/Settings/Attributes/Configuration/StockValue.png "[Stock Value]")
+![Stock Value](/Assets/Screenshots/PIM/DataTypes/Configuration/StockValue.png "[Stock Value]")
 
 - *Precision*
   Enter the number of decimals for the stock value. By default the number of decimals is set to **4**.  
@@ -320,9 +326,14 @@ This data type is for internal use only. It is strongly advised not to use this 
 This data type is for internal use only. It is strongly advised not to use this data type without the required knowledge.
 
 
+## JSON (internal, not editable)
+
+This data type is for internal use only. It is strongly advised not to use this data type without the required knowledge.
+
+
 ## Taxclass
 
-![Taxclass](/Assets/Screenshots/PIM/Settings/Attributes/Taxclass.png "[Taxclass]")
+![Taxclass](/Assets/Screenshots/PIM/DataTypes/Taxclass.png "[Taxclass]")
 
 The data type *Taxclass* is used to indicate the tax class. A drop-down list with all available tax classes is displayed in the product view.
 
@@ -333,16 +344,30 @@ The data type *Taxclass* is used to indicate the tax class. A drop-down list wit
 This data type has no further configuration settings.
 
 
+## Taxzone
+
+![Taxclass](/Assets/Screenshots/PIM/DataTypes/Taxclass.png "[Taxclass]")
+
+The data type *Taxzone* is used to indicate the tax zone. A drop-down list with all available tax zones is displayed in the product view.
+
+  > [Info] For detailed information about creating a tax zone, see [Create a tax zone](to_be_completed_#create-a-tax-zone).
+
+### Configuration
+
+This data type has no further configuration settings.
+
+
+
 ## Images
 
-![Images](/Assets/Screenshots/PIM/Settings/Attributes/Images.png "[Images]")
+![Images](/Assets/Screenshots/PIM/DataTypes/Images.png "[Images]")
 
 The data type *Images* is used to attach images. You can configure the filename prefix of the uploaded image, the allowed number of images and the file extensions. A preview of the uploaded images is displayed in the product view. In the PIM basic product set, the following attributes have the data type *Images*:
 - Images    
 
 ### Configuration
 
-![Images](/Assets/Screenshots/PIM/Settings/Attributes/Configuration/Images.png "[Images]")
+![Images](/Assets/Screenshots/PIM/DataTypes/Configuration/Images.png "[Images]")
 
 - *Field for filename prefix*   
   Enter a fixed field name whose value will be used as filename prefix for the uploaded image, e. g. **id** or **sku**.
@@ -359,14 +384,14 @@ The data type *Images* is used to attach images. You can configure the filename 
 
 ## Files
 
-![Files](/Assets/Screenshots/PIM/Settings/Attributes/Files.png "[Files]")
+![Files](/Assets/Screenshots/PIM/DataTypes/Files.png "[Files]")
 
 The data type *Files* is used to attach files. You can configure the filename prefix of the uploaded file, the allowed number of files and the file extensions. The uploaded files are displayed in a list in the product view. In the PIM basic product set, the following attributes have the data type *Files*:
 - Files    
 
 ### Configuration
 
-![Files](/Assets/Screenshots/PIM/Settings/Attributes/Configuration/Files.png "[Files]")
+![Files](/Assets/Screenshots/PIM/DataTypes/Configuration/Files.png "[Files]")
 
 - *Field for filename prefix*   
   Enter a fixed field name whose value will be used as filename prefix for the uploaded file , e. g. **id** or **sku**.
@@ -397,9 +422,31 @@ This data type is for internal use only. It is strongly advised not to use this 
 This data type is for internal use only. It is strongly advised not to use this data type without the required knowledge.
 
 
-## XML (internal, not editable)
+## Offer bundle
+
+![Offer bundle](/Assets/Screenshots/PIM/DataTypes/OfferBundle.png "[Offer bundle]")
+
+The data type *Offer bundle* is used to
+
+[comment]: <> (For what?)
+
+### Configuration
+
+![Offer bundle](/Assets/Screenshots/PIM/DataTypes/Configuration/OfferBundle.png "[Offer bundle]")
+
+
+- *Min relations*     
+  Enter the minimum number of offers that must be related for an offer bundle.
+
+- *Max relations*    
+  Enter the maximum number of offers that can be related for an offer bundle.
+
+
+## Object (internal, not editable)
 
 This data type is for internal use only. It is strongly advised not to use this data type without the required knowledge.
+
+[comment]: <> (Check this - "No Data" displayed in the field in the product view)
 
 
 ## Encrypted Value (internal, not editable)
@@ -409,14 +456,14 @@ This data type is for internal use only. It is strongly advised not to use this 
 
 ## Related products
 
-![Related products](/Assets/Screenshots/PIM/Settings/Attributes/RelatedProducts.png "[Related products]")
+![Related products](/Assets/Screenshots/PIM/DataTypes/RelatedProducts.png "[Related products]")
 
 The data type *Related products* is used to connect other products to the selected product, e. g. for product recommendations. You can configure the allowed number of related products. You can select each created product as a related product in the product view. In the PIM basic product set, the following attributes have the data type *Related products*:
 - Cross Selling
 
 ### Configuration
 
-![Related products](/Assets/Screenshots/PIM/Settings/Attributes/Configuration/RelatedProducts.png "[Related products]")
+![Related products](/Assets/Screenshots/PIM/DataTypes/Configuration/RelatedProducts.png "[Related products]")
 
 - *Min relations*     
   Enter the minimum number of products that must be related to the selected product.
@@ -425,16 +472,16 @@ The data type *Related products* is used to connect other products to the select
   Enter the maximum number of products that can be related to the selected product.
 
 
-## Preise
+## PIM Price Field
 
-![Preise](/Assets/Screenshots/PIM/Settings/Attributes/Preise.png "[Preise]")
+![PIM Price Field](/Assets/Screenshots/PIM/DataTypes/PIMPriceField.png "[PIM Price Field]")
 
-The data type *Preise* is used to indicate a price. You can configure the number of decimals for the price and the supported currencies. In the product view, you must select a tax class for price calculation. Additionally, you can define a MSRP, scale prices and promotion periods. Unlike the data type *Simple price field*, the data type *Preise* offers more setting options and therefore also a more detailed and extended price specification. In the PIM basic product set, the following attributes have the data type *Preise*:
+The data type *PIM Price Field* is used to indicate a price. You can configure the number of decimals for the price and the supported currencies. In the product view, you must select a tax class for price calculation. Additionally, you can define a MSRP, scale prices and promotion periods. Unlike the data type *Simple price field*, the data type *PIM Price Field* offers more setting options and therefore also a more detailed and extended price specification. In the PIM basic product set, the following attributes have the data type *PIM Price Field*:
 - Price
 
 ### Configuration
 
-![Preise](/Assets/Screenshots/PIM/Settings/Attributes/Configuration/Preise.png "[Preise]")
+![PIM Price Field](/Assets/Screenshots/PIM/DataTypes/Configuration/PIMPriceField.png "[PIM Price Field]")
 
 - *Precision*   
   Enter the number of decimals for the price. By default the number of decimals is set to **2**.  
@@ -451,16 +498,16 @@ The data type *Preise* is used to indicate a price. You can configure the number
   Click this button to add another currency to the list of supported currencies. A new row with the drop-down list *Currency* is displayed below.
 
 
-## Produktvarianten (internal, not editable)
+## Product Variants (internal, not editable)
 
 This data type is for internal use only. It is strongly advised not to use this data type without the required knowledge.
 
 
-## Grundpreisangabe
+## Base price
 
-![Grundpreisangabe](/Assets/Screenshots/PIM/Settings/Attributes/Grundpreisangabe.png "[Grundpreisangabe]")
+![Base price](/Assets/Screenshots/PIM/DataTypes/BasePrice.png "[Base price]")
 
-The data type *Grundpreisangabe* is used to indicate a base price. The base price is necessary to calculate the price per unit which is mandatory in th EU. Two drop-down lists to select the applicable dimension and unit and a field to enter the corresponding amount of the product are displayed in the product view. In the PIM basic product set, the following attributes have the data type *Grundpreisangabe*:
+The data type *Base price* is used to indicate a base price. The base price is necessary to calculate the price per unit which is mandatory in th EU. Two drop-down lists to select the applicable dimension and unit and a field to enter the corresponding amount of the product are displayed in the product view. In the PIM basic product set, the following attributes have the data type *Base price*:
 - Base unit (base price)
 
 ### Configuration
@@ -470,14 +517,14 @@ This data type has no further configuration settings.
 
 ## Product bundle
 
-![Product bundle](/Assets/Screenshots/PIM/Settings/Attributes/ProductBundle.png "[Product bundle]")
+![Product bundle](/Assets/Screenshots/PIM/DataTypes/ProductBundle.png "[Product bundle]")
 
 The data type *Product bundle* is used to define products that can be sold in a bundle with the selected product. In a product bundle, several different products are sold together, e. g. at a promotional price, without forming a packaging unit. That means, that each product has still its own EAN-code and can also be purchased by itself. You can configure the number of allowed products in a product bundle. In the PIM basic product set, the following attributes have the data type *Product bundle*:
 - Bill of materials
 
 ### Configuration
 
-![Product bundle](/Assets/Screenshots/PIM/Settings/Attributes/Configuration/ProductBundle.png "[Product bundle]")
+![Product bundle](/Assets/Screenshots/PIM/DataTypes/Configuration/ProductBundle.png "[Product bundle]")
 
 - *Min relations*     
   Enter the minimum number of products that must be related for a product bundle.
@@ -488,7 +535,7 @@ The data type *Product bundle* is used to define products that can be sold in a 
 
 ## Packaging Unit
 
-![Packaging Unit](/Assets/Screenshots/PIM/Settings/Attributes/PackagingUnit.png "[Packaging Unit]")
+![Packaging Unit](/Assets/Screenshots/PIM/DataTypes/PackagingUnit.png "[Packaging Unit]")
 
 The data type *Packaging Unit* is used to define packaging units. In a packaging unit, several same products are sold together in one fixed package. This package has its own EAN code and is handled as an own product. You can create multiple packaging units for a product in the product view.
 
