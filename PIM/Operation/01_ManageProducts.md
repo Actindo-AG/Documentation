@@ -49,7 +49,7 @@ An attribute set is created, see [Create an attribute set](ManageAttributeSet.md
 - [Create a multi-connection offer in PIM](#create-a-multi-connection-offer-in-PIM)
 - [Manage the variants](02_ManageVariants.md)
 - [Move a product](03_MoveProduct.md)
-- [Manage the list view](04_ManageListView.md)
+- [Manage the view](04_ManageView.md)
 
 ### See also
 
@@ -93,7 +93,7 @@ At least one product is created, see [Create a product](#create-a-product).
 - [Create a multi-connection offer in PIM](#create-a-multi-connection-offer-in-PIM)
 - [Manage the variants](02_ManageVariants.md)
 - [Move a product](03_MoveProduct.md)
-- [Manage the list view](04_ManageListView.md)
+- [Manage the view](04_ManageView.md)
 
 #### See also
 
@@ -161,7 +161,7 @@ The *Applying Changes* window and the message *Mass editing has been triggered* 
 - [Create a multi-connection offer in PIM](#create-a-multi-connection-offer-in-PIM)
 - [Manage the variants](02_ManageVariants.md)
 - [Move a product](03_MoveProduct.md)
-- [Manage the list view](04_ManageListView.md)
+- [Manage the view](04_ManageView.md)
 
 #### See also
 
@@ -212,7 +212,7 @@ At least one product is created, see [Create a product](#create-a-product).
 - [Create a multi-connection offer in PIM](#create-a-multi-connection-offer-in-PIM)
 - [Manage the variants](02_ManageVariants.md)
 - [Move a product](03_MoveProduct.md)
-- [Manage the list view](04_ManageListView.md)
+- [Manage the view](04_ManageView.md)
 
 ### See also
 
@@ -296,7 +296,7 @@ The single offer is added to the list of offers. The *Create Offer* window is cl
 - [Create a multi-connection offer in PIM](#create-a-multi-connection-offer-in-PIM)
 - [Manage the variants](02_ManageVariants.md)
 - [Move a product](03_MoveProduct.md)
-- [Manage the list view](04_ManageListView.md)
+- [Manage the view](04_ManageView.md)
 
 #### See also
 
@@ -380,7 +380,7 @@ The *Edit Product* view is closed. The tab *LIST* with the product list is displ
 
 - [Manage the variants](02_ManageVariants.md)
 - [Move a product](03_MoveProduct.md)
-- [Manage the list view](04_ManageListView.md)
+- [Manage the view](04_ManageView.md)
 
 #### See also
 

@@ -119,14 +119,14 @@ The two buttons [Add single variant ![Add single variant](/Assets/Icons/Document
 8. Click the button [SAVE] in the upper right corner.   
   The variant is saved. The product view is closed. The product variants are displayed in the products list when you enable the **List all products** option in the drop-down list *Variants* at the top of the products list.
 
-  > [Info] For detailed information about the different views, see [Manage the list view](04_ManageListView.md).
+  > [Info] For detailed information about the different views, see [Manage the view](04_ManageView.md).
 
 ### Next steps
 
 - [Add product variants](#add-product-variants)    
 - [Edit a variant](#edit-a-variant)
 - [Move a product](03_MoveProduct.md)
-- [Manage the list view](04_ManageListView.md)
+- [Manage the view](04_ManageView.md)
 
 ### See also
 
@@ -175,7 +175,7 @@ You can add a single or multiple variants to a product directly when you create 
 
 - [Edit a variant](#edit-a-variant)
 - [Move a product](03_MoveProduct.md)
-- [Manage the list view](04_ManageListView.md)
+- [Manage the view](04_ManageView.md)
 
 ### See also
 
@@ -218,7 +218,7 @@ At least one product variant is created, see [Create product variants](#create-p
 ### Next steps
 
 - [Move a product](03_MoveProduct.md)
-- [Manage the list view](04_ManageListView.md)
+- [Manage the view](04_ManageView.md)
 
 ### See also
 

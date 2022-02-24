@@ -36,7 +36,7 @@ At least one product is created, see [Create a product](01_ManageProducts.md#cre
 - [Delete a product](#delete-a-product)
 - [Finally delete a product](#finally-delete-a-product)
 - [Restore a product](#restore-a-product)
-- [Manage the list view](04_ManageListView.md)
+- [Manage the view](04_ManageView.md)
 
 ### See also
 
@@ -79,7 +79,7 @@ At least one product is created, see [Create a product](01_ManageProducts.md#cre
 
 - [Finally delete a product](#finally-delete-a-product)
 - [Restore a product](#restore-a-product)
-- [Manage the list view](04_ManageListView.md)
+- [Manage the view](04_ManageView.md)
 
 ### See also
 
@@ -121,7 +121,7 @@ At least one product is moved to the recycle bin, see [Delete a product](#delete
 ### Next steps
 
 - [Restore a product](#restore-a-product)
-- [Manage the list view](04_ManageListView.md)
+- [Manage the view](04_ManageView.md)
 
 ### See also
 
@@ -164,7 +164,7 @@ At least one product is moved to the archive or the recycle bin, see [Archive a 
 
 ### Next steps
 
-- [Manage the list view](04_ManageListView.md)
+- [Manage the view](04_ManageView.md)
 
 ### See also
 

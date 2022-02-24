@@ -26,9 +26,9 @@
   - [Restore a product](03_MoveProduct.md#restore-a-product)
 
 
-- [Manage the list view](04_ManageListView.md)
-  - [Select a language](04_ManageListView.md#select-a-language)
-  - [Select a scope](04_ManageListView.md#select-a-scope)
-  - [Select a product category](04_ManageListView.md#select-a-product-category)
-  - [Select a variant view](04_ManageListView.md#select-a-variant-view)
-  - [Create a view](04_ManageListView.md#create-a-view)
+- [Manage the view](04_ManageView.md)
+  - [Select a language](04_ManageView.md#select-a-language)
+  - [Select a scope](04_ManageView.md#select-a-scope)
+  - [Select a product category](04_ManageView.md#select-a-product-category)
+  - [Select a variant view](04_ManageView.md#select-a-variant-view)
+  - [Create a view](04_ManageView.md#create-a-view)

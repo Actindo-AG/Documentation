@@ -1,6 +1,6 @@
-# Manage the list view
+# Manage the view
 
-The tab *LIST* is the view where you can see and manage the products. To have a customized view for all purposes, you can modify various settings to adjust the list view to your requirements and save individual views to quickly access the view you need.
+The tab *LIST* is the view where you can see and manage the products. To have a customized view for all purposes, you can modify various settings to adjust the view to your requirements and save individual views to quickly access the view you need.
 
 
 ## Select a language
