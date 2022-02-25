@@ -5,16 +5,17 @@
 ![Products](/Assets/Screenshots/PIM/Products/List/Products.png "[Products]")
 
 - *View*   
-  Click the drop-down list to select the view. All created views are displayed in the drop-down list. For detailed information, see [Create a view](to_be_completed).
+  Click the drop-down list to select the view. All created views are displayed in the drop-down list. CLick the button ![Points](/Assets/Icons/Points01.png "[Points]") (Points) to the right of the drop-down list *View* to display the context menu and create or edit a view. For detailed information, see [Create a view](/PIM/Operation/04_ManageView.md#create-a-view).
 
 - *Language*   
-  Click the drop-down list to select the language. All active languages are displayed in the drop-down list.
+  Click the drop-down list to select the language. All languages, that are active in *PIM* are displayed in the drop-down list. For detailed information, see [Select a language](/PIM/Operation/04_ManageView.md#select-a-language).
 
 - *Scope*   
-  Click the drop-down list to select the scope. All active scopes are displayed in the drop-down list. By default, the scope **Actindo Basic** is preselected.
+  Click the drop-down list to select the scope. All scopes that are active in *PIM* are displayed in the drop-down list. By default, the scope **Actindo Basic** is preselected. For detailed information, see [Select a scope](/PIM/Operation/04_ManageView.md#select-a-scope).
 
-- *Produktkategorie*   
-  Click the drop-down list to select the catalog. All catalogs are displayed in the drop-down list. By default, the catalog **Produktkategorie** is preselected.
+[comment]: <> (List needs title)
+- *Catalog*   
+  Click the drop-down list *Catalog* to select the catalog. All catalogs are displayed in the drop-down list. After having seleted a catalog, all categories and sub-categories of teh selected catalog are displayed. Click a category or sub-category to limit the product list to those products that are assigned to the selected list. By default, the catalog **Product Categories** is preselected. For detailed information, see [Select a product category](/PIM/Operation/04_ManageView.md#select-a-product-category).
 
 
 **Products**
@@ -27,8 +28,9 @@
 
 - *Variants*   
   Click the drop-down list to select the display settings for variants. The following settings are available:
-  - **List all products**
-  - **Hide child products**
+  - **Hide child products**: No product variants are displayed in the product list.
+  - **List all products**: All products and their variants are displayed in the product list.   
+  For detailed information, see [Select a variant view](/PIM/Operation/04_ManageView.md#select-a-variant-view).
 
 
 - ![Columns](/Assets/Icons/Columns.png "[Columns]") Columns (x)   
@@ -41,41 +43,41 @@
   Select the checkbox to display the editing toolbar. If you click the checkbox in the header, all products in the table are selected.
 
 - ![Edit](/Assets/Icons/Edit01.png "[Edit]") (Edit)   
-  Click this button to edit the selected product. This button is only displayed, when the checkbox of a product is selected. Alternatively, you can click directly a row in the table to edit a product.   
-  For detailed information, see [Edit a product](to_be_completed).
+  Click this button to edit the selected product(s). This button is only displayed, when the checkbox of at least one product is selected. Alternatively, you can click directly a row in the table to edit a product.   
+  For detailed information, see [Edit a product](/PIM/Operation/01_ManageProducts.md#edit-a-single-product).
 
 - [COPY PRODUCT]   
   Click this button to copy the selected product. This button is only displayed, when the checkbox of a single product is selected.
-  For detailed information, see [Copy a product](to_be_completed).
+  For detailed information, see [Copy a product](/PIM/Operation/01_ManageProducts.md#copy-a-product).
 
 - [ARCHIVE PRODUCT] / [ARCHIVE PRODUCTS]   
   Click this button to archive the selected product(s). This button is only displayed, when the checkbox of at least one product is selected.
-  For detailed information, see [Archive a product](to_be_completed).
+  For detailed information, see [Archive a product](/PIM/Operation/03_MoveProducts.md#archive-a-product).
 
 - [MOVE TO RECYCLE BIN]   
-  Click this button to move the selected product(s) to recycle bin. This button is only displayed, when the checkbox of at least one product is selected.
-  For detailed information, see [Finally delete a product](to_be_completed).
+  Click this button to move the selected product(s) to the recycle bin. This button is only displayed, when the checkbox of at least one product is selected.
+  For detailed information, see [Delete a product](/PIM/Operation/03_MoveProducts.md#delete-a-product).
 
 - [START MASS EDITING]   
   Click this button to edit the selected products. This button is only displayed, when the checkbox of at least one product is selected. The mass editing is only recommended if you select more that one product.
-  For detailed information, see [Edit multiple products](to_be_completed).
+  For detailed information, see [Mass editing](/PIM/Operation/01_ManageProducts.md#mass-editing).
 
-Depending on the selection in the drop-down list *Variants*, the table displays all products or all products except child products. All fields are read-only. Depending on the settings, the displayed columns may vary.
+Depending on the selection in the drop-down list *Variants*, the table displays all products or just the master products without their product variants. All fields are read-only. Depending on the settings, the displayed columns may vary.
 
-- *Bilder*   
+- *Images*   
   Image of the product.
 
 - *SKU*   
   Stock Keeping Unit. Identification number for the product.  
 
-- *Artikelname*   
+- *Product Name*   
   Name of the product.
 
-- *Produktvarianten*   
+- *Product Variants*   
   Variant type of the product. The following variant types are displayed:
-  - Master entity with *x* children (x indicates the number of child entities for the master entity)
-  - Child entity *Defining Attribute: Value* (the defining attributes and their values are indicated)
-  - no variant type indicated for all products that are neither a master nor a child entity
+  - **Master entity with *x* children** (x indicates the number of child entities for the master entity)
+  - **Child entity *Defining Attribute: Value*** (the defining attributes and their values are indicated)
+  - no variant type indicated for all products that are neither a master product nor a product variant
 
 
 - *Attribute Set*   
@@ -97,11 +99,11 @@ Depending on the selection in the drop-down list *Variants*, the table displays 
   Name and username of the user who created the product.
 
 - Attribute    
-  You can add a column for each attribute that is assigned to the product. The column displays the attribute name, the row displays the corresponding attribute value.
+  You can add a column for each attribute that is assigned to the product. The column displays the attribute name, the row displays the corresponding attribute value of the product.
 
 - ![Add](/Assets/Icons/Plus01.png "[Add]") (Add)   
   Click this button to create a product. The *Create new product* window is displayed.   
-  For detailed information, see [Create a product](to_be_completed).
+  For detailed information, see [Create a product](/PIM/Operation/01_ManageProducts.md#create-a-product).
 
 
 ## Create new product
@@ -113,7 +115,7 @@ Depending on the selection in the drop-down list *Variants*, the table displays 
   Click the drop-down list to select the attribute set for the new product. All available attribute sets are displayed in the drop-down list.
 
 - *SKU*   
-  Enter the SKU (Stock Keeping Unit) of the new product.
+  Enter the SKU (Stock Keeping Unit) of the new product. The SKU (Stock Keeping Unit) is an identification number for the product. Therefore, it should be uniquely assigned to a single product.
 
 
 ## Create product
@@ -127,11 +129,12 @@ Depending on the selection in the drop-down list *Variants*, the table displays 
 - [SAVE]   
   Click this button to save the new product.
 
-- Image box
-  Image of the product. In the *Create product* view, the image box is always empty.
+- Image box   
+  Image of the product. In the *Create product* view, the image box is always empty. When an image is assigned in the corresponding attribute and the product is saved, this image is displayed next time opening the product view.
 
 - *SKU*   
-  Stock Keeping Unit. Identification number for the product.
+  Stock Keeping Unit. Identification number for the product. The SKU (Stock Keeping Unit) is an identification number for the product. Therefore, it should be uniquely assigned to a single product.   
+  Click the button ![Edit](/Assets/Icons/Edit02.png "[Edit]") (Edit) to the right of the SKU to edit it.
 
 - ![Edit](/Assets/Icons/Edit02.png "[Edit]") (Edit)   
   Click this button to edit the SKU.
@@ -140,13 +143,13 @@ Depending on the selection in the drop-down list *Variants*, the table displays 
   Click this button to apply the changes to the SKU. This button is only displayed when you are editing the SKU.
 
 - *Scope*   
-  Click the drop-down list to select a scope for the product. All available scopes are displayed in the drop-down list. By default, the scope **Actindo Basic** is preselected.
+  Click the drop-down list to select a scope for the product. All active scopes are displayed in the drop-down list. By default, the scope **Actindo Basic** is preselected.
 
 - *Language*   
-  Click the drop-down list to select a language for the product. All available languages are displayed in the drop-down list. The default language is preselected.
+  Click the drop-down list to select a language for the product. All active languages are displayed in the drop-down list. The default language is preselected.
 
 - [Completeness: Not available]     
-  Completeness of the product. In the *Create product* view, the completeness cannot be indicated.
+  Completeness of the product. In the *Create product* view, the completeness cannot be indicated. The completeness is indicated once the product have been saved.
 
 
 ### Create product - Attributes
@@ -154,30 +157,34 @@ Depending on the selection in the drop-down list *Variants*, the table displays 
 
 ![Attributes](/Assets/Screenshots/PIM/Products/List/Attributes/AttributesCreate.png "[Attributes]")
 
-In the left margin column, all available groups containing attributes are displayed. Click a (sub-)group to display the attributes that are assigned to this (sub-)group on the right side of the tab *Attributes*. If the product contains attributes that are unassigned, the additional group *Unassigned Group* is automatically displayed in the left margin column.
+In the left margin column, all available attribute groups are displayed. Click a group to display the attributes that are assigned to this group on the right side of the tab *Attributes*. If the product contains attributes that are unassigned, the additional group *Unassigned Group* is automatically displayed in the left margin column.
 
-The right side of the tab *Attributes* displays all attributes that are assigned to the selected group in the left margin column. As the attributes are customized, only those attributes that are predefined by default in the attribute set *PIM Basisprodukttyp* are described below:
+The right side of the tab *Attributes* displays all attributes that are assigned to the selected group in the left margin column. As the attributes are customized, only those attributes that are predefined by default in the attribute set *PIM Basic Set* are described below:
 
--- describe attributes PIM Basisprodukttyp --
+[comment]: <> (should we describe all attributes of the PIM Basic Set?)
 
 
-### Create product - Varianten
-*PIM > Products > Tab LIST > Button Add > Button [CREATE] > Tab Varianten*
+- ![Fade in/out](/Assets/Icons/FadeInOut01.png "[Fade in/out]") (Fade in/out)    
+  Click this button to hide or display the left margin column with the attribute groups. When the left margin is displayed an you click this button, the column is hidden. When the column is hidden and you click this button, the column is displayed again.
 
-![Varianten](/Assets/Screenshots/PIM/Products/List/Varianten/VariantenCreate.png "[Varianten]")
+
+### Create product - Variants
+*PIM > Products > Tab LIST > Button Add > Button [CREATE] > Tab Variants*
+
+![Variants](/Assets/Screenshots/PIM/Products/List/Variants/VariantsCreate.png "[Variants]")
 
 - *Variant set*   
-  Click the drop-down list to select a variant set for the product. All available variant sets are displayed in the drop-down list. The button ![Add](/Assets/Icons/Plus01.png "[Add]") (Add) is displayed in the variants box below if a variant set is selected.
+  Click the drop-down list to select a variant set for the product. All variant sets to the corresponding attribute set of the product are displayed in the drop-down list. The button ![Add](/Assets/Icons/Plus01.png "[Add]") (Add) is displayed in the variants box below if a variant set is selected.
 
 **Variants box**
 
 - ![Refresh](/Assets/Icons/Refresh01.png "[Refresh]") (Refresh)   
-  Click this button to update the table of products.
+  Click this button to update the table of variants.
 
 - ![Columns](/Assets/Icons/Columns.png "[Columns]") Columns (x)   
   Click this button to display the column editing bar and customize the displayed columns and the order of columns in the table. The *x* indicates the number of columns that are currently displayed in the table.
 
-The table displays all variants. All fields are read-only. Depending on the settings, the displayed columns may vary.
+The table displays all variants of the selected product. All fields are read-only. Depending on the settings, the displayed columns may vary.
 
 - *Status*  
   Status of the variant. In the *Create product* view, the status **Created after save** is displayed if you have added a variant.
@@ -186,51 +193,53 @@ The table displays all variants. All fields are read-only. Depending on the sett
   Stock Keeping Unit. Identification number for the variant. The SKU for the variant is created depending on the selected settings.
 
 - *LifeCycle Status*   
-  Status of the ???. The LifeCycle Status is created after saving. In the *Create product* view, no LifeCycle Status is displayed.
+  Lifecycle status of the variant The status is created after saving. In the *Create product* view, no lifecycle status is displayed.
 
 - *ID*   
   Variant identification number. The ID is created after saving. In the *Create product* view, no ID is displayed.
 
-- Attribute    
-  You can add a column for each attribute that is assigned as a defining or differing attribute to the selected variant set. The column displays the attribute name, the row displays the corresponding attribute value.
+- Defining/differing attribute    
+  You can add a column for each attribute that is assigned as a defining or differing attribute to the selected variant set. The column displays the attribute name, the row displays the attribute value.
 
 - ![Add](/Assets/Icons/Plus01.png "[Add]") (Add)   
   Click this button to add a new variant to the product. The two buttons [Add single variant ![Document](/Assets/Icons/Document.png "[Document]") ] and [Add multiple variants ![Documents](/Assets/Icons/Documents.png "[Documents]") ] are displayed.
 
 
 #### Add variant
-*PIM > Products > Tab LIST > Button Add > Button [CREATE] > Tab Varianten > Select variant set > Button Add*
+*PIM > Products > Tab LIST > Button Add > Button [CREATE] > Tab Variants > Select variant set > Button Add*
 
-![Add variant](/Assets/Screenshots/PIM/Products/List/Varianten/AddVariant.png "[Add variant]")
+![Add variant](/Assets/Screenshots/PIM/Products/List/Variants/AddVariantCreate.png "[Add variant]")
 
 - [Add single variant ![Document](/Assets/Icons/Document.png "[Document]") ]    
-  Click this button to add a single variant to the product. The *Add single variant* window is displayed.
+  Click this button to add a single product variant. The *Add single variant* window is displayed.
 
 - [Add multiple variants ![Documents](/Assets/Icons/Documents.png "[Documents]") ]    
-  Click this button to add multiple variants to the product. The *Add multiple variant* wizard window is displayed.
+  Click this button to add multiple product variants. The *Select Values* wizard window is displayed.
 
 - ![Cancel](/Assets/Icons/Cross01.png "[Cancel]") (Cancel)   
-  Click this button to cancel the variant creation and exit the current view.
+  Click this button to hide the buttons and return to the tab *Variants*.
 
 #### Add single variant
-*PIM > Products > Tab LIST > Button Add > Button [CREATE] > Tab Varianten > Select variant set > Button Add > Button Add single variant*
+*PIM > Products > Tab LIST > Button Add > Button [CREATE] > Tab Variants > Select variant set > Button Add > Button Add single variant*
 
-![Add single variant](/Assets/Screenshots/PIM/Products/List/Varianten/AddSingleVariant.png "[Add single variant]")
+![Add single variant](/Assets/Screenshots/PIM/Products/List/Variants/AddSingleVariant.png "[Add single variant]")
 
 **Additional fields**
 
-- *sku*   
-  Stock Keeping Unit. Identification number for the variant.
+- *SKU*   
+  Identification number for the variant. The SKU (Stock Keeping Unit) is an identification number and should be assigned only once. This field is read-only as long as the toggle ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Use formula*  is active. Deactivate the toggle to edit the SKU.
 
 - ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Use formula*   
-  Activate this toggle to apply the formula defined in the settings for the variant sets to the variant SKU. When the toggle is active, the field *sku* is read-only. Deactivate the toggle to enter a different SKU. By default, this toggle is active.
+  Activate this toggle to apply the formula defined in the settings for the variant sets to the variant SKU. When the toggle is active, the field *SKU* is read-only. Deactivate the toggle to enter a different SKU. By default, this toggle is active.
 
 **Defined values**
 
-All defining attributes of the variant are displayed in this section.
+For each defining attribute a single field or box to define the attribute value is displayed.
 
-- Defining attribute
-  Enter or select the appropriate value for the defining attribute.
+> [Info] If more than one defining attribute is assigned to the variant, you have to select a value for each defining attribute to add a variant.
+
+- Defining attribute(s)   
+  Enter or select the appropriate value for the defining attribute(s).
 
 - [CANCEL]   
   Click this button to cancel adding a variant and close the *Add single variant* window.
@@ -240,32 +249,34 @@ All defining attributes of the variant are displayed in this section.
 
 
 #### Add multiple variants
-*PIM > Products > Tab LIST > Button Add > Button [CREATE] > Tab Varianten > Select variant set > Button Add > Button Add multiple variants*
+*PIM > Products > Tab LIST > Button Add > Button [CREATE] > Tab Variants > Select variant set > Button Add > Button Add multiple variants*
 
 ##### Select Values
 
-![Add multiple variants](/Assets/Screenshots/PIM/Products/List/Varianten/AddMultipleVariants01.png "[Add multiple variants]")
+![Add multiple variants](/Assets/Screenshots/PIM/Products/List/Variants/AddMultipleVariants01.png "[Add multiple variants]")
 
 For each defining attribute a single box to define the attribute value is displayed.
 
 > [Info] If more than one defining attribute is assigned to the variant, you have to select a value for each defining attribute to add a variant.
 
 - [ADD ALL VALUES]   
-  Click this button to add all available values to the corresponding attribute. This button is only displayed for attributes with the data type *TreeNode*.
+  Click this button to add all available values in the box for the corresponding defining attribute. This button is only displayed for attributes with the data type *TreeNode*.
 
 - [ADD VALUE]   
-  Click this button to add a further value to the corresponding attribute and enter  or select the desired value.
+  Click this button to add a further row to the corresponding attribute where you can enter or select the desired value.
 
 - [ABORT]   
-  Click this button to cancel adding variants and close the *Select Values* window.
+  Click this button to cancel adding variants and close the *Select Values* wizard window.
 
 - [NEXT]   
-  Click this button to proceed to the next step of adding variants. The *Summary* window is displayed.
+  Click this button to proceed to the next step of adding variants. The *Summary* wizard window is displayed.
 
 
 ##### Summary
 
-![Add multiple variants](/Assets/Screenshots/PIM/Products/List/Varianten/AddMultipleVariants02.png "[Add multiple variants]")
+![Add multiple variants](/Assets/Screenshots/PIM/Products/List/Variants/AddMultipleVariants02.png "[Add multiple variants]")
+
+The box displays all product variants that will be created from the selected attribute values. Fro each possible combination of the selected attributes, a new variant is created. Variants that already exist will not be created even when they are listed in the box.
 
 **Variants that will be created (ignoring duplicated)**
 
@@ -280,20 +291,20 @@ For each defining attribute a single box to define the attribute value is displa
 
 The table displays all selected variants. Depending on the settings, the displayed columns may vary.
 
-- *sku*      
+- *SKU*      
   Stock Keeping Unit. Identification number for the variant. Click this field to edit the SKU of the selected variant.
 
-- Defining attribute
+- Defining attribute   
   You can add a column for each defining attribute. The column displays the attribute name, the row displays the corresponding attribute value. The fields are read-only.
 
 - [< GO BACK]   
-  Click this button to go back to the previous step. The *Select Values* window is displayed.
+  Click this button to go back to the previous step of adding variants. The *Select Values* wizard window is displayed.
 
 - [ABORT]   
-  Click this button to cancel adding variants and close the *Summary* window.
+  Click this button to cancel adding variants and close the *Summary* wizard window.
 
 - [FINISH]   
-  Click this button to save the listed variants and close the *Summary* window.
+  Click this button to save the listed variants and close the *Summary* wizard window.
 
 
 
@@ -302,7 +313,7 @@ The table displays all selected variants. Depending on the settings, the display
 
 ![Dependencies](/Assets/Screenshots/PIM/Products/List/Dependencies/DependenciesCreate.png "[Dependencies]")
 
- In the *Create product* view, *Information about dependencies are not available* is displayed in this tab. The dependencies are displayed only after saving.  
+ In the *Create product* view, the notice *Information about dependencies are not available* is displayed in this tab. Dependencies are displayed only after saving.  
 
 
 ### Create product - Catalogs
@@ -310,14 +321,14 @@ The table displays all selected variants. Depending on the settings, the display
 
 ![Catalogs](/Assets/Screenshots/PIM/Products/List/Catalogs/CatalogsCreate.png "[Catalogs]")
 
-For each catalog a single box to assign the new product to a category is displayed. You can assign a product to several categories at the same time.
+For each catalog a single box to assign the new product to a category is displayed. You can assign a product to several catalogs and categories at the same time.
 
 **Catalog Name**
 
 - [EDIT ATTRIBUTE *CATALOG NAME*]   
   Click this button to assign the product to a category or a sub-category in the selected catalog. The categories window is displayed.
 
-The box displays all selected categories and their level. All fields are read-only. If no category is selected, *No nodes selected* is displayed in the box.
+The catalog box displays all selected categories and their level. All fields are read-only. If no category is selected, the notice *No nodes selected* is displayed in the box.
 
 - *Level 1*    
   Level 1 category name.
@@ -329,10 +340,11 @@ The box displays all selected categories and their level. All fields are read-on
   Level x category name. The field is only displayed, if the product is assigned to a category of level x or lower. The *x* indicates the level number of the assigned category.
 
 - ![Delete](/Assets/Icons/Trash01.png "[Delete]") (Delete)   
-  Click this button to delete the selected category from the box. This button is only displayed, when you hover over a category in the box.
+  Click this button to delete the category next to the button from the box. This button is only displayed, when you hover over a category in the box.
 
 
 #### Categories
+[comment]: <> (window needs title!)
 *PIM > Products > Tab LIST > Button Add > Button [CREATE] > Tab Catalogs > Button [EDIT ATTRIBUTE]*
 
 ![Categories](/Assets/Screenshots/PIM/Products/List/Catalogs/Categories.png "[Categories]")
@@ -340,14 +352,13 @@ The box displays all selected categories and their level. All fields are read-on
 - [x]     
   Select a checkbox to assign the product to the selected category. You can select multiple checkboxes.
 
-> [Info] Categories that are containing sub-categories are displayed with the symbol ![Folders](/Assets/Icons/Folders01.png "[Folders]") (Folders), categories without sub-categories with the symbol ![Folder](/Assets/Icons/Folder01.png "[Folder]") (Folder).    
-Click the button [>] to the left of a category checkbox to display their sub-categories.
+  > [Info] Categories that are containing sub-categories are displayed with the symbol ![Folders](/Assets/Icons/Folders01.png "[Folders]") (Folders), categories without sub-categories with the symbol ![Folder](/Assets/Icons/Folder01.png "[Folder]") (Folder). Click the button [>] to the left of a category checkbox to display all sub-categories.
 
 - [CANCEL]   
-  Click this button to cancel selecting categories and close the categories window.
+  Click this button to cancel selecting categories and close the *Categories* window.
 
 - [SAVE]   
-  Click this button to save the selected categories and close the categories window.
+  Click this button to save the selected categories and close the *Categories* window.
 
 
 
@@ -356,12 +367,15 @@ Click the button [>] to the left of a category checkbox to display their sub-cat
 
 ![Associations](/Assets/Screenshots/PIM/Products/List/Associations/AssociationsCreate.png "[Associations]")
 
-**Cross Selling**
+In this tab, boxes of all attributes with the data type *Related products* are displayed. The box titles differ depending on the corresponding attribute names, but the structure of all boxes is identical.   
+
+> [Info] For detailed information about the data types, see [Data type list](to_be_completed).
+
 
 - [ADD]   
   Click this button to add an associated product for cross selling to the list. The *Filter List of Products* window is displayed.
 
-The box displays all associated product for cross selling. All fields are read-only. If no product is selected, *No associated products selected* is displayed in the box.
+The box displays all associated products. All fields are read-only. If no product is selected, the notice *No associated products selected* is displayed in the box.
 
 - *ID*   
   Product identification number. The ID number is automatically assigned by the system.
@@ -373,11 +387,11 @@ The box displays all associated product for cross selling. All fields are read-o
   Assigned attribute set.
 
 - ![Eye](/Assets/Icons/Eye01.png "[Eye]") (Eye)   
-  Click this button to display ????. This button is only displayed, when you hover over a product in the list.
-  [comment]: <> (what should be displayed? For me, the loading never ends...)
+  Click this button to display ????. The button is only displayed, when you hover over a product in the list.
+  [comment]: <> (what should be displayed? loading never ends...)
 
 - ![Delete](/Assets/Icons/Trash01.png "[Delete]") (Delete)   
-  Click this button to delete the selected product from the list. This button is only displayed, when you hover over a product in the list.
+  Click this button to delete the selected product from the list. The button is only displayed, when you hover over a product in the list.
 
 
 
@@ -390,7 +404,7 @@ The box displays all associated product for cross selling. All fields are read-o
   Click this button to cancel adding products and close the *Filter List of Products* window.
 
 - [SAVE]   
-  Click this button to add the selected poducts to the list and close the *Filter List of Products* window.
+  Click this button to add the selected products to the list and close the *Filter List of Products* window.
 
 - ![Search](/Assets/Icons/Search.png "[Search]") (Search)   
   Click this button to display the search bar and search for a product.
@@ -416,20 +430,20 @@ The table displays all products. All fields are read-only.
   Assigned attribute set.
 
 
-### Create product - UCS Lager
+### Create product - UCS Warehouse
 *PIM > Products > Tab LIST > Button Add > Button [CREATE] > Tab UCS Lager*
 
-![UCS Lager](/Assets/Screenshots/PIM/Products/List/UCSLager/UCSLagerCreate.png "[UCS Lager]")
+![UCS Warehouse](/Assets/Screenshots/PIM/Products/List/UCSWarehouse/UCSWarehouseCreate.png "[UCS Warehouse]")
 
- In the *Create product* view, *Available after saving the product.* is displayed in this tab. The UCS Lager information is displayed only after saving.  
+ In the *Create product* view, the notice *Available after saving the product.* is displayed in this tab. The warehouse information is displayed only after saving.  
 
 
-### Create product - UCS Marktplätze
-*PIM > Products > Tab LIST > Button Add > Button [CREATE] > Tab UCS Marktplätze*
+### Create product - UCS Marketplaces
+*PIM > Products > Tab LIST > Button Add > Button [CREATE] > Tab UCS Marketplaces*
 
-![UCS Marktplätze](/Assets/Screenshots/PIM/Products/List/UCSMarktplätze/UCSMarktplätzeCreate.png "[UCS Marktplätze]")
+![UCS Marketplaces](/Assets/Screenshots/PIM/Products/List/UCSMarketplaces/UCSMarketplacesCreate.png "[UCS Marketplaces]")
 
- In the *Create product* view, *Available after saving the product.* is displayed in this tab. The UCS Marktplätze information is displayed only after saving.  
+ In the *Create product* view, the notice *Available after saving the product.* is displayed in this tab. The marketplaces information is displayed only after saving.  
 
 
 ### Create product - Offers
@@ -437,13 +451,32 @@ The table displays all products. All fields are read-only.
 
 ![Offers](/Assets/Screenshots/PIM/Products/List/Offers/OffersCreate.png "[Offers]")
 
-**Channel Offers**
+**Offers**
 
 - ![Columns](/Assets/Icons/Columns.png "[Columns]") Columns (x)   
   Click this button to display the column editing bar and customize the displayed columns and the order of columns in the table. The *x* indicates the number of columns that are currently displayed in the table.
 
 - [x]     
   Select the checkbox to display the editing toolbar. If you click the checkbox in the header, all offers in the table are selected.
+
+- *Status*   
+  Click the drop-down list to change the offer status. The selected status is displayed in the column *Pending status/Errors*. This drop-down list is only displayed, when the checkbox of at least one offer is selected. The following statuses are available:    
+  - **Active**: The offer is active. It is displayed on the marketplace and can be sold there.
+  - **Inactive**: The offer is inactive. It is not displayed on the marketplace and cannot be sold there.   
+  - **Not available**: The offer is unknown to the marketplace and therefore cannot be sold there.
+
+
+- *Change Tracking*   
+  Click the drop-down list to change the change tracking mode (ETL mode) of the offer. The selected change tracking mode is displayed in the column *ChangeTracking*. This drop-down list is only displayed, when the checkbox of at least one offer is selected. The following change tracking modes are available:    
+  - **manual**: Changes in a PIM product must be triggered manually to be applied to the offer. The initial offer is automatically applied.
+  - **semi-automatic**: Changes in a PIM product are automatically applied to the offer after confirmation in the *Omni-Channel* module. The initial offer is automatically applied without confirmation.   
+  - **semi-automatic, changes must be confirmed by another user**: Changes in a PIM product are automatically applied to the offer after confirmation in the *Omni-Channel* module by another user. The initial offer is only applied after confirmation by another user.       
+  - **Automatic**: Changes in a PIM product are automatically applied to the offer. The initial offer is also automatically applied.
+
+
+
+- ![Delete](/Assets/Icons/Trash03.png "[Delete]") (Delete)   
+  Click this button to delete the selected offer from the list. This button is only displayed, when the checkbox of an offer is selected.
 
 The table displays all created offers to this product. All fields are read-only.
 
@@ -454,14 +487,14 @@ The table displays all created offers to this product. All fields are read-only.
   Connection status of the offer. In the *Create product* view, **Not available** is displayed.
 
 - *Pending status/Errors*   
-  Indication of the pending status or an error for this offer. The pending status is displayed if you have changed the offer status via the editing bar. An error is displayed if ???
-  [comment]: <> (when is an error displayed here?)
+  Indication of the pending status or an error for this offer. The selected status (**Active**/**Inactive**/**Not available**) is displayed if you have changed the offer status via the editing bar. An error is displayed if ???
+  [comment]: <> (when is an error displayed here? what is displayed?)
 
 - *Connection*   
-  Connection name of the offer.
+  Selected connection for the offer.
 
 - *Attribute Set*   
-  Attribute set name of the offer.
+  Selected attribute set for the offer.
 
 - *last edited*   
   Date and time of the last modification. In the *Create product* view, no date is displayed.
@@ -470,9 +503,13 @@ The table displays all created offers to this product. All fields are read-only.
   Name and username of the user who modified the product. In the *Create product* view, no name is displayed.
 
 - *ChangeTracking*   
-  ETL mode of the offer. The following modes are available:
-  - **Initial**: Changes in a PIM product must be triggered manually to be applied to the offers.   
-  - **Automatic**: Changes in a PIM product are automatically applied to the offers.
+  Change tracking mode (ETL mode) of the offer. The following modes can be displayed:
+  - **Initial**
+  - **Semiautomatic**
+  - **blank field**
+  - **Automatic**
+
+[comment]: <> (change ChangeTracking names -> Initial = Manual, Semiautmatic = Semi-automatic, blank = Semi-automatic | another user)
 
 - *ID*   
   Product identification number. The ID number is automatically assigned by the system.
@@ -484,64 +521,51 @@ The table displays all created offers to this product. All fields are read-only.
   Name and username of the user who created the product. In the *Create product* view, no name is displayed.
 
 - ![Add](/Assets/Icons/Plus01.png "[Add]") (Add)   
-  Click this button to add a new variant to the product. The two buttons [Add to a single channel ![Document](/Assets/Icons/Document.png "[Document]") ] and [Add to multiple channels ![Documents](/Assets/Icons/Documents.png "[Documents]") ] are displayed.
-
-- *Status*   
-  Click the drop-down list to change the offer status. The selected status is displayed in the column *Pending status/Errors*. This drop-down list is only displayed, when the checkbox of an offer is selected. The following statuses are available:    
-  - **Active**: The offer is active. It is displayed on the marketplace and can be sold there.
-  - **Inactive**: The offer is inactive. It is not displayed on the marketplace and cannot be sold there.   
-  - **Not available**: The offer is unknown to the marketplace and therefore cannot be sold there.
+  Click this button to create a new offer. The two buttons [Add to a single connection ![Add to a single connection](/Assets/Icons/Document.png "[Single connection]") ] and [Add to multiple connections ![Multiple connections](/Assets/Icons/Documents.png "[Multiple connections]") ] are displayed.
 
 
-- *Change Tracking*   
-  Click the drop-down list to change the ETL mode of the offer. The selected ETL mode is displayed in the column *ChangeTracking*. This drop-down list is only displayed, when the checkbox of an offer is selected. The following ETL modes are available:    
-  - **manual**: Changes in a PIM product must be triggered manually to be applied to the offers.   
-  - **automatic**: Changes in a PIM product are automatically applied to the offers.
-
-
-- ![Delete](/Assets/Icons/Trash03.png "[Delete]") (Delete)   
-  Click this button to delete the selected offer from the list. This button is only displayed, when the checkbox of an offer is selected.
-
-
-#### Add channel
+#### Add an offer in PIM
 *PIM > Products > Tab LIST > Button Add > Button [CREATE] > Tab Offers > Button Add*
 
 ![Add](/Assets/Screenshots/PIM/Products/List/Offers/AddCreate.png "[Add]")
 
-- [Add to a single channel ![Document](/Assets/Icons/Document.png "[Document]") ]    
-  Click this button to add a single variant to the product. The *Add to a single channel* window is displayed.
+- [Add to a single connection ![Document](/Assets/Icons/Document.png "[Document]") ]    
+  Click this button to add a single variant to the product. The *Add to a single connection* window is displayed.
 
-- [Add to multiple channels ![Documents](/Assets/Icons/Documents.png "[Documents]") ]    
-  Click this button to add multiple variants to the product. The *Add to multiple channels* wizard window is displayed.
+- [Add to multiple connections ![Documents](/Assets/Icons/Documents.png "[Documents]") ]    
+  Click this button to add multiple variants to the product. The *Add to multiple connections* wizard window is displayed.
 
 - ![Cancel](/Assets/Icons/Cross01.png "[Cancel]") (Cancel)   
-  Click this button to cancel the channel creation and exit the current view.
+  Click this button to cancel the connection creation and close the current view.
 
 
-#### Add to a single channel
-*PIM > Products > Tab LIST > Button Add > Button [CREATE] > Tab Offers > Button Add > Button Add to a single channel*
+#### Add to a single connection
+*PIM > Products > Tab LIST > Button Add > Button [CREATE] > Tab Offers > Button Add > Button Add to a single connection*
 
-![Add to a single channel](/Assets/Screenshots/PIM/Products/List/Offers/SingleChannel.png "[Add to a single channel]")
+![Add to a single connection](/Assets/Screenshots/PIM/Products/List/Offers/SingleConnection.png "[Add to a single connection]")
 
-**Create Channels Offer**
+**Create Offer**
 
 - *Select Connection*   
   Click the drop-down list to select a connection for the offer. All available connections are displayed in the list.
 
 - *Select Attribute Set*   
-  Click the drop-down list to select an attribute set for the offer. All available attribute sets are displayed in the drop-down list. The drop-down list is locked if no connection is selected.
+  Click the drop-down list to select an attribute set for the offer. All active attribute sets are displayed in the drop-down list. The drop-down list is locked if no connection is selected.
 
 - ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Generate SKU*   
   Activate this toggle to automatically generate a SKU for the offer. Deactivate the toggle to enter a SKU manually. By default, this toggle is active.
 
 - *SKU*    
-  Enter a SKU (Stock Keeping Unit) for the offer.  
-    --> offer or product? how does this work? When I enter a different SKU, The SKU is automatically overwritten.
+  Enter an individual SKU (Stock Keeping Unit) for the offer. The SKU (Stock Keeping Unit) is an identification number and should be assigned only once.
+[comment]: <> (offer or product? how does this work? When I enter a different SKU, The SKU is automatically overwritten)
 
-- *ETL mode*   
-  Select an ETL mode:    
-   ![Radionbutton](/Assets/Icons/Radiobutton.png "[Radiobutton]") *manual*: Changes in a PIM product must be triggered manually to be applied to the offers.   
-   ![Radionbutton](/Assets/Icons/Radiobutton.png "[Radiobutton]") *automatic*: Changes in a PIM product are automatically applied to the offers.
+- *Change Tracking mode*   
+  Select the appropriate option for change tracking (ETL mode). The following options are available:   
+   ![Radionbutton](/Assets/Icons/Radiobutton.png "[Radiobutton]") *manual*: Changes in a PIM product must be triggered manually to be applied to the offer. The initial offer is automatically applied.   
+   ![Radionbutton](/Assets/Icons/Radiobutton.png "[Radiobutton]") *semi-automatic*: Changes in a PIM product are automatically applied to the offer after confirmation in the *Omni-Channel* module. The initial offer is automatically applied without confirmation.   
+   ![Radionbutton](/Assets/Icons/Radiobutton.png "[Radiobutton]") *semi-automatic, changes must be confirmed by another user*: Changes in a PIM product are automatically applied to the offer after confirmation in the *Omni-Channel* module by another user. The initial offer is only applied after confirmation by another user.    
+   ![Radionbutton](/Assets/Icons/Radiobutton.png "[Radiobutton]") *automatic*: Changes in a PIM product are automatically applied to the offer. The initial offer is also automatically applied.
+[comment]: <> (adjust field name!)
 
 - *Status*    
   Click the drop-down list to select the connection status. The following statuses are available:    
@@ -551,18 +575,18 @@ The table displays all created offers to this product. All fields are read-only.
 
 
 - [CANCEL]   
-  Click this button to cancel adding a channel and close the *Create Channels Offer* window.
+  Click this button to cancel adding an offer and close the *Create Offer* window.
 
 - [SAVE]   
-  Click this button to save the channel and close the *Create Channels Offer* window.
+  Click this button to save the offer and close the *Create Offer* window.
 
 
-#### Add to multiple channels
-*PIM > Products > Tab LIST > Button Add > Button [CREATE] > Tab Offers > Button Add > Button Add to multiple channels*
+#### Add to multiple connections
+*PIM > Products > Tab LIST > Button Add > Button [CREATE] > Tab Offers > Button Add > Button Add to multiple connections*
 
-##### Select Channels and status
+##### Select Connections and status
 
-![Add to multiple channels](/Assets/Screenshots/PIM/Products/List/Offers/MultipleChannels1.png "[Add to multiple channels]")
+![Add to multiple connections](/Assets/Screenshots/PIM/Products/List/Offers/MultipleConnections01.png "[Add to multiple connections]")
 
 **Select status and change tracking mode**
 
@@ -573,9 +597,11 @@ The table displays all created offers to this product. All fields are read-only.
   - **Not available**: The offer is unknown to the marketplace and therefore cannot be sold there.
 
 
-- Select an ETL mode:    
- ![Radionbutton](/Assets/Icons/Radiobutton.png "[Radiobutton]") *manual*: Changes in a PIM product must be triggered manually to be applied to the offers.   
- ![Radionbutton](/Assets/Icons/Radiobutton.png "[Radiobutton]") *automatic*: Changes in a PIM product are automatically applied to the offers.
+- Select the appropriate change tracking mode. The following options are available:   
+   ![Radionbutton](/Assets/Icons/Radiobutton.png "[Radiobutton]") *manual*: Changes in a PIM product must be triggered manually to be applied to the offer. The initial offer is automatically applied.   
+   ![Radionbutton](/Assets/Icons/Radiobutton.png "[Radiobutton]") *semi-automatic*: Changes in a PIM product are automatically applied to the offer after confirmation in the *Omni-Channel* module. The initial offer is automatically applied without confirmation.   
+   ![Radionbutton](/Assets/Icons/Radiobutton.png "[Radiobutton]") *semi-automatic, changes must be confirmed by another user*: Changes in a PIM product are automatically applied to the offer after confirmation in the *Omni-Channel* module by another user. The initial offer is only applied after confirmation by another user.    
+   ![Radionbutton](/Assets/Icons/Radiobutton.png "[Radiobutton]") *automatic*: Changes in a PIM product are automatically applied to the offer. The initial offer is also automatically applied.
 
 
 **Select connections**
@@ -583,31 +609,32 @@ The table displays all created offers to this product. All fields are read-only.
 - [SELECT ALL]   
   Click this button to select all available connections.
 
-- ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Connection name*     
-  Activate this toggle to select the channel for creating an offer. All available connections are displayed. By default, all toggles are inactive.
+- ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") Connection name     
+  Activate a toggle to select the corresponding connection to create an offer to. All available connections are displayed. By default, all toggles are inactive.
 
 - [CANCEL]   
-  Click this button to cancel adding a variant and close the *Select Channels and status* window.
+  Click this button to cancel adding multi-connection offers and close the *Select Connections and status* wizard window.
 
 - [CONTINUE]   
-  Click this button to proceed to the next step for adding channels. The *Select destination attribute sets* window is displayed.
+  Click this button to proceed to the next step to add multi-connection offers. The *Select destination attribute sets* wizard window is displayed.
 
 
 ##### Select destination attribute sets
 
-![Add to multiple channels](/Assets/Screenshots/PIM/Products/List/Offers/MultipleChannels2.png "[Add to multiple channels]")
+![Add to multiple connections](/Assets/Screenshots/PIM/Products/List/Offers/MultipleConnections02.png "[Add to multiple connections]")
 
 - *Destination set for connection*   
-  Destination set for the selected connection. The destination set is automatically selected. The field is read-only. A destination set is displayed for each selected connection.
+  Destination attribute set for the selected connection. The attribute set is automatically selected. The field is read-only. An own attribute set is assigned to each selected connection.
 
 - [< BACK]   
-  Click this button to go back to the previous step. The *Select Channels and status* window is displayed.
+  Click this button to go back to the previous step. The *Select Connections and status* wizard window is displayed.
 
 - [CANCEL]   
-  Click this button to cancel adding a variant and close the *Select destination attribute sets* window.
+  Click this button to cancel adding multi-connection offers and close the *Select destination attribute sets* wizard window.
 
 - [FINISH]   
-  Click this button to save the channel(s) and close the *Select destination attribute sets* window.
+  Click this button to save the multi-connection offers and close the *Select destination attribute sets* wizard window.
+
 
 -------------
 
@@ -681,15 +708,15 @@ The table displays all created offers to this product. All fields are read-only.
 
 In the left margin column, all available groups containing attributes are displayed. Click a (sub-)group to display the attributes that are assigned to this (sub-)group on the right side of the tab *Attributes*. If the product contains attributes that are unassigned, the additional group *Unassigned Group* is automatically displayed in the left margin column.
 
-The right side of the tab *Attributes* displays all attributes that are assigned to the selected group in the left margin column. As the attributes are customized, only those attributes that are predefined by default in the attribute set *PIM Basisprodukttyp* are described below:
+The right side of the tab *Attributes* displays all attributes that are assigned to the selected group in the left margin column. As the attributes are customized, only those attributes that are predefined by default in the attribute set *PIM Basic Set* are described below:
 
--- describe attributes PIM Basisprodukttyp --
+-- describe attributes PIM Basic Set --
 
 
 ### Edit product - Varianten
-*PIM > Products > Tab LIST >  Select product > Tab Varianten*
+*PIM > Products > Tab LIST >  Select product > Tab Variants*
 
-![Varianten](/Assets/Screenshots/PIM/Products/List/Varianten/VariantenEdit.png "[Varianten]")
+![Varianten](/Assets/Screenshots/PIM/Products/List/Variants/VariantenEdit.png "[Varianten]")
 
 - *Variant set*   
   Click the drop-down list to select a variant set for the product. All available variant sets are displayed in the drop-down list. The button ![Add](/Assets/Icons/Plus01.png "[Add]") (Add) is displayed in the variants box below if a variant set is selected.
@@ -741,9 +768,9 @@ The table displays all variants. All fields are read-only. Depending on the sett
 
 
 #### Add variant
-*PIM > Products > Tab LIST > Select product > Tab Varianten > Select variant set > Button Add*
+*PIM > Products > Tab LIST > Select product > Tab Variants > Select variant set > Button Add*
 
-![Add variant](/Assets/Screenshots/PIM/Products/List/Varianten/AddVariantEdit.png "[Add variant]")
+![Add variant](/Assets/Screenshots/PIM/Products/List/Variants/AddVariantEdit.png "[Add variant]")
 
 - [Add single variant ![Document](/Assets/Icons/Document.png "[Document]") ]    
   Click this button to add a single variant to the product. The *Add single variant* window is displayed.
@@ -755,17 +782,17 @@ The table displays all variants. All fields are read-only. Depending on the sett
   Click this button to cancel the variant creation and exit the current view.
 
 #### Add single variant
-*PIM > Products > Tab LIST > Select product > Tab Varianten > Select variant set > Button Add > Button Add single variant*
+*PIM > Products > Tab LIST > Select product > Tab Variants > Select variant set > Button Add > Button Add single variant*
 
-![Add single variant](/Assets/Screenshots/PIM/Products/List/Varianten/AddSingleVariant.png "[Add single variant]")
+![Add single variant](/Assets/Screenshots/PIM/Products/List/Variants/AddSingleVariant.png "[Add single variant]")
 
 **Additional fields**
 
-- *sku*   
+- *SKU*   
   Stock Keeping Unit. Identification number for the variant.
 
 - ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Use formula*   
-  Activate this toggle to apply the formula defined in the settings for the variant sets to the variant SKU. When the toggle is active, the field *sku* is read-only. Deactivate the toggle to enter a different SKU. By default, this toggle is active.
+  Activate this toggle to apply the formula defined in the settings for the variant sets to the variant SKU. When the toggle is active, the field *SKU* is read-only. Deactivate the toggle to enter a different SKU. By default, this toggle is active.
 
 **Defined values**
 
@@ -782,11 +809,11 @@ All defining attributes of the variant are displayed in this section.
 
 
 #### Add multiple variants
-*PIM > Products > Tab LIST > Select product > Tab Varianten > Select variant set > Button Add > Button Add multiple variants*
+*PIM > Products > Tab LIST > Select product > Tab Variants > Select variant set > Button Add > Button Add multiple variants*
 
 ##### Select Values
 
-![Add multiple variants](/Assets/Screenshots/PIM/Products/List/Varianten/AddMultipleVariants01.png "[Add multiple variants]")
+![Add multiple variants](/Assets/Screenshots/PIM/Products/List/Variants/AddMultipleVariants01.png "[Add multiple variants]")
 
 For each defining attribute a single box to define the attribute value is displayed.
 
@@ -807,7 +834,7 @@ For each defining attribute a single box to define the attribute value is displa
 
 ##### Summary
 
-![Add multiple variants](/Assets/Screenshots/PIM/Products/List/Varianten/AddMultipleVariants02.png "[Add multiple variants]")
+![Add multiple variants](/Assets/Screenshots/PIM/Products/List/Variants/AddMultipleVariants02.png "[Add multiple variants]")
 
 **Variants that will be created (ignoring duplicated)**
 
@@ -822,7 +849,7 @@ For each defining attribute a single box to define the attribute value is displa
 
 The table displays all selected variants. Depending on the settings, the displayed columns may vary.
 
-- *sku*      
+- *SKU*      
   Stock Keeping Unit. Identification number for the variant. Click this field to edit the SKU of the selected variant.
 
 - Defining attribute
@@ -1459,7 +1486,7 @@ This tab displays the sub-tabs *Lagerverwaltung*, *Lagerhistorie* and *Lieferant
 
 ![Offers](/Assets/Screenshots/PIM/Products/List/Offers/OffersEdit.png "[Offers]")
 
-**Channel Offers**
+**Offers**
 
 - ![Columns](/Assets/Icons/Columns.png "[Columns]") Columns (x)   
   Click this button to display the column editing bar and customize the displayed columns and the order of columns in the table. The *x* indicates the number of columns that are currently displayed in the table.
@@ -1509,7 +1536,7 @@ The table displays all created offers to this product. All fields are read-only.
   Name and username of the user who created the product.
 
 - ![Add](/Assets/Icons/Plus01.png "[Add]") (Add)   
-  Click this button to add a new variant to the product. The two buttons [Add to a single channel ![Document](/Assets/Icons/Document.png "[Document]") ] and [Add to multiple channels ![Documents](/Assets/Icons/Documents.png "[Documents]") ] are displayed.
+  Click this button to add a new variant to the product. The two buttons [Add to a single connection ![Document](/Assets/Icons/Document.png "[Document]") ] and [Add to multiple connections ![Documents](/Assets/Icons/Documents.png "[Documents]") ] are displayed.
 
 - *Status*   
   Click the drop-down list to change the offer status. The selected status is displayed in the column *Pending status/Errors*. This drop-down list is only displayed, when the checkbox of an offer is selected. The following statuses are available:    
@@ -1528,25 +1555,25 @@ The table displays all created offers to this product. All fields are read-only.
   Click this button to delete the selected offer from the list. This button is only displayed, when the checkbox of an offer is selected.
 
 
-#### Add channel
+#### Add connection
 *PIM > Products > Select product > Tab Offers > Button Add*
 
 ![Add](/Assets/Screenshots/PIM/Products/List/Offers/AddEdit.png "[Add]")
 
-- [Add to a single channel ![Document](/Assets/Icons/Document.png "[Document]") ]    
-  Click this button to add a single variant to the product. The *Add to a single channel* window is displayed.
+- [Add to a single connection ![Document](/Assets/Icons/Document.png "[Document]") ]    
+  Click this button to add a single variant to the product. The *Add to a single connection* window is displayed.
 
-- [Add to multiple channels ![Documents](/Assets/Icons/Documents.png "[Documents]") ]    
-  Click this button to add multiple variants to the product. The *Add to multiple channels* wizard window is displayed.
+- [Add to multiple connections ![Documents](/Assets/Icons/Documents.png "[Documents]") ]    
+  Click this button to add multiple variants to the product. The *Add to multiple connections* wizard window is displayed.
 
 - ![Cancel](/Assets/Icons/Cross01.png "[Cancel]") (Cancel)   
-  Click this button to cancel the channel creation and exit the current view.
+  Click this button to cancel the connection creation and exit the current view.
 
 
-#### Add to a single channel
-*PIM > Products > Select product > Tab Offers > Button Add > Button Add to a single channel*
+#### Add to a single connection
+*PIM > Products > Select product > Tab Offers > Button Add > Button Add to a single connection*
 
-![Add to a single channel](/Assets/Screenshots/PIM/Products/List/Offers/SingleChannel.png "[Add to a single channel]")
+![Add to a single connection](/Assets/Screenshots/PIM/Products/List/Offers/SingleConnection.png "[Add to a single connection]")
 
 **Create Channels Offer**
 
@@ -1576,18 +1603,18 @@ The table displays all created offers to this product. All fields are read-only.
 
 
 - [CANCEL]   
-  Click this button to cancel adding a channel and close the *Create Channels Offer* window.
+  Click this button to cancel adding a connection and close the *Create Channels Offer* window.
 
 - [SAVE]   
-  Click this button to save the channel and close the *Create Channels Offer* window.
+  Click this button to save the connection and close the *Create Channels Offer* window.
 
 
-#### Add to multiple channels
-*PIM > Products > Select product > Tab Offers > Button Add > Button Add to multiple channels*
+#### Add to multiple connections
+*PIM > Products > Select product > Tab Offers > Button Add > Button Add to multiple connections*
 
-##### Select Channels and status
+##### Select Connections and status
 
-![Add to multiple channels](/Assets/Screenshots/PIM/Products/List/Offers/MultipleChannels1.png "[Add to multiple channels]")
+![Add to multiple connections](/Assets/Screenshots/PIM/Products/List/Offers/MultipleConnections1.png "[Add to multiple connections]")
 
 **Select status and change tracking mode**
 
@@ -1609,27 +1636,27 @@ The table displays all created offers to this product. All fields are read-only.
   Click this button to select all available connections.
 
 - ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Connection name*     
-  Activate this toggle to select the channel for creating an offer. All available connections are displayed. By default, all toggles are inactive.
+  Activate this toggle to select the connection for creating an offer. All available connections are displayed. By default, all toggles are inactive.
 
 - [CANCEL]   
-  Click this button to cancel adding a variant and close the *Select Channels and status* window.
+  Click this button to cancel adding a variant and close the *Select Connections and status* window.
 
 - [CONTINUE]   
-  Click this button to proceed to the next step for adding channels. The *Select destination attribute sets* window is displayed.
+  Click this button to proceed to the next step for adding connections. The *Select destination attribute sets* window is displayed.
 
 
 ##### Select destination attribute sets
 
-![Add to multiple channels](/Assets/Screenshots/PIM/Products/List/Offers/MultipleChannels2.png "[Add to multiple channels]")
+![Add to multiple connections](/Assets/Screenshots/PIM/Products/List/Offers/MultipleConnections2.png "[Add to multiple connections]")
 
 - *Destination set for connection*   
   Destination set for the selected connection. The destination set is automatically selected. The field is read-only. A destination set is displayed for each selected connection.
 
 - [< BACK]   
-  Click this button to go back to the previous step. The *Select Channels and status* window is displayed.
+  Click this button to go back to the previous step. The *Select Connections and status* window is displayed.
 
 - [CANCEL]   
   Click this button to cancel adding a variant and close the *Select destination attribute sets* window.
 
 - [FINISH]   
-  Click this button to save the channel(s) and close the *Select destination attribute sets* window.
+  Click this button to save the connection(s) and close the *Select destination attribute sets* window.

@@ -28,11 +28,11 @@ An attribute set is created, see [Create an attribute set](ManageAttributeSet.md
 
   > [Info] You need to specify defining and differing attributes for the variant set at a later step. Be aware that only those attributes assigned to the selected attribute set will be available.
 
-  The section *Formulas* with the field *Formula for sku* is displayed.
+  The section *Formulas* with the field *Formula for SKU* is displayed.
 
   ![Formulas](/Assets/Screenshots/PIM/Settings/VariantSets/Formulas.png "[Formulas]")
 
-4. Enter a formula for the product variants SKU in the field *Formula for sku* using the displayed placeholders. By default, you can enter the formula **{master}-{L}**.   
+4. Enter a formula for the product variants SKU in the field *Formula for SKU* using the displayed placeholders. By default, you can enter the formula **{master}-{L}**.   
 
   > [Info] The value of the defining attributes can be included into the SKU formula. When you have added a defining attribute, the corresponding placeholder for this attribute is displayed in the section *Formulas*.
 
@@ -45,7 +45,7 @@ An attribute set is created, see [Create an attribute set](ManageAttributeSet.md
 
 > [Info] You have to select at least one defining attribute to create a variant set. You can only select attributes as defining attributes, that are neither multilingual nor multi-scope and assigned to the selected attribute set.
 
-1. In the area *Defining attributes* click the button ![Add](/Assets/Icons/Plus01.png "[Add]"). This button is only displayed when an attribute set is selected.       
+1. In the box *Defining attributes* click the button ![Add](/Assets/Icons/Plus01.png "[Add]"). This button is only displayed when an attribute set is selected.       
   The *Add defining attributes* view is displayed.
 
   ![Add defining attributes](/Assets/Screenshots/PIM/Settings/VariantSets/AddDefiningAttributes.png "[Add defining attributes]")
@@ -56,11 +56,11 @@ An attribute set is created, see [Create an attribute set](ManageAttributeSet.md
   > [Info] The defining attributes are those attributes that characterize the product variant, so those attributes that are defining the variants of the master product.
 
 3. Click the button [ADD AND GO BACK].     
-    The *Add defining attributes* view is closed. The selected attributes are displayed in the area *Defining attributes*. A placeholder for the added attribute is displayed in the section *Formulas*.   
+    The *Add defining attributes* view is closed. The selected attributes are displayed in the box *Defining attributes*. A placeholder for the added attribute is displayed in the section *Formulas*.   
 
     ![Defining attributes added](/Assets/Screenshots/PIM/Settings/VariantSets/DefiningAttributesAdded.png "[Defining attributes added]")
 
-    > [Info] You can edit the formula in the field *Formula for sku* and include the defining attribute placeholder.
+    > [Info] You can edit the formula in the field *Formula for SKU* and include the defining attribute placeholder.
 
 4. If desired, add differing attributes to the variant set, see [Add differing attributes](#add-differing-attributes) .   
 Otherwise, click the button [SAVE] in the upper right corner.   
@@ -71,7 +71,7 @@ Otherwise, click the button [SAVE] in the upper right corner.
 
 > [Info] You can select differing attributes for a variant set. If you want to define an attribute for the variants which value may differ from its master product value, you have to define this attribute as a differing attribute.
 
-1. In the area *Differing Attributes* click the button ![Add](/Assets/Icons/Plus01.png "[Add]"). This button is only displayed when an attribute set is selected.         
+1. In the box *Differing Attributes* click the button ![Add](/Assets/Icons/Plus01.png "[Add]"). This button is only displayed when an attribute set is selected.         
   The *Add differing attributes* view is displayed.
 
   ![Add differing attributes](/Assets/Screenshots/PIM/Settings/VariantSets/AddDifferingAttributes.png "[Add differing attributes]")
@@ -82,7 +82,7 @@ Otherwise, click the button [SAVE] in the upper right corner.
   > [Info] Generally, a product variant inherits all attribute values from its master product. These attribute values are locked in the product variant and can only be edited in the master product. Attribute values that differ from the master product and must be maintained individually in the product variant itself must be added to the list of differing attributes.
 
 3. Click the button [ADD AND GO BACK].   
-  The *Add differing attributes* view is closed. The selected attributes are displayed in the area *Differing Attributes*.
+  The *Add differing attributes* view is closed. The selected attributes are displayed in the box *Differing Attributes*.
 
   ![Differing attributes added](/Assets/Screenshots/PIM/Settings/VariantSets/DifferingAttributesAdded.png "[Differing attributes added]")
 
@@ -170,7 +170,7 @@ A variant set is created, see [Create a variant set](#create-a-variant-set).
 
   ![Edit variant set](/Assets/Screenshots/PIM/Settings/VariantSets/EditVariantSet.png "[Edit variant set]")
 
-2. In the area *Defining attributes* or *Differing attributes*, select the checkboxes ![Checkbox](/Assets/Icons/Checkbox.png "[Checkbox]") of the attributes you want to remove.     
+2. In the box *Defining attributes* or *Differing attributes*, select the checkboxes ![Checkbox](/Assets/Icons/Checkbox.png "[Checkbox]") of the attributes you want to remove.     
   The button [DELETE] is displayed in the editing toolbar above the attribute list.
 
 3. Click the button [DELETE] in the toolbar.   

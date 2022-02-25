@@ -127,7 +127,9 @@ At least one catalog with one category is created, see [Create a catalog](#creat
 9. Click the button [SAVE].   
   The catalog sub-category is created. The *Add Element* window is closed. The new sub-category is displayed in the sub-category column.
 
-  > [Info] To add an additional sub-category, repeat the steps **4** to **8**. You can create an unlimited number of sub-categories in up to nine levels. The procedure to create a sub-category in another level is identical to creating a sub-category. Just select the category or sub-category to which you want to create another sub-category and click the corresponding plus sign in the column of the respective level.
+  > [Info] To add an additional sub-category, repeat the steps **4** to **8**. You can create an unlimited number of sub-categories in an unlimited number of levels. The procedure to create a sub-category in another level is identical to creating a sub-category. Just select the category or sub-category to which you want to create another sub-category and click the corresponding plus sign in the column of the respective level.
+
+[comment]: <> (number of levels depends on screen size -> should it not be limited to a certain number of level?)
 
 10. Click the button [SAVE] in the upper right corner.  
   The new sub-category is saved. The *Edit catalog* view is closed.

@@ -19,11 +19,11 @@
   - [Edit a variant](02_ManageVariants.md#edit-a-variant)
 
 
-- [Move a product](03_MoveProduct.md)
-  - [Archive a product](03_MoveProduct.md#archive-a-product)
-  - [Delete a product](03_MoveProduct.md#delete-a-product)
-  - [Finally delete a product](03_MoveProduct.md#finally-delete-a-product)
-  - [Restore a product](03_MoveProduct.md#restore-a-product)
+- [Move a product](03_MoveProducts.md)
+  - [Archive a product](03_MoveProducts.md#archive-a-product)
+  - [Delete a product](03_MoveProducts.md#delete-a-product)
+  - [Finally delete a product](03_MoveProducts.md#finally-delete-a-product)
+  - [Restore a product](03_MoveProducts.md#restore-a-product)
 
 
 - [Manage the view](04_ManageView.md)

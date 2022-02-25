@@ -191,7 +191,7 @@ No prerequisites to fulfill.
 
 
 2. If desired adjust the displayed columns in the product list by following the steps below:
-  + Click the button [ ![Columns](/Assets/Icons/Columns.png "[Columns]") Columns].   
+  + Click the button [ ![Columns](/Assets/Icons/Columns.png "[Columns]") Columns (x)].   
   + Click the drop-down list *Column*, select a column in the list and click the button [ADD COLUMN] to add the column to the columns displayed in the product list.
   + Click the button ![Remove](/Assets/Icons/Cross03.png "[Remove]") (Remove) next to a column name to remove the corresponding column from the product list.
   + Click and hold a column name and by using drag and drop, move the selected column to the desired position. The number left to the column name displays the position number of the column in the product list.
@@ -199,7 +199,7 @@ No prerequisites to fulfill.
 
 
 3. If desired add a filter to the product list by following the steps below:
-  + Click the button [ ![Filter](/Assets/Icons/Filter.png "[Filter]") Filter].   
+  + Click the button [ ![Filter](/Assets/Icons/Filter.png "[Filter]") Filter (x)].   
   + Click the drop-down list *Column* and select a column to which you want to add a filter.
   + Click the drop-down list *Relation* and select a filter relation. Depending on the selected column, the filter relations vary.
   + Click the drop-down list *Value* and enter a value for the filter.
