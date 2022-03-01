@@ -4,7 +4,7 @@
 
 The *Accounting* module contains a function to create new customers and suppliers, and to enter all relevant information about them. This function is also available in the *Invoicing* module, see [Invoicing](XX_FileName.md#headingID). This information is needed for both modules to operate.
 
-> [Info] Note that any customer/supplier information created, edited or deleted in the *Accounting* module will be also be created, edited or deleted in the *Invoicing* module, and vice versa. Note that you may need to refresh the page with the  F5 key to see the changes in the Customer/supplier list tab.
+> [Info] Note that any customer/supplier information created, edited or deleted in the *Accounting* module will be also be created, edited or deleted in the *Invoicing* module, and vice versa. Note that you may need to refresh the page with the F5 key to see the changes in the Customer/supplier list tab.
 
 ## Create a customer/supplier
 
@@ -21,21 +21,21 @@ You can create a customer/supplier that is not yet available in the system.
 
 ![Create a customer/supplier](/Assets/Screenshots/Accounting/Settings/CustomerSupplier/Create_CustomerSupplier.png "[Create a customer/supplier")
 
-1.  Click the *Create debtor/creditor* drop-down list and select the appropriate option (**Debtor (customer)/Creditor (supplier)**).
+1. Click the *Create debtor/creditor* drop-down list and select the appropriate option (**Debtor (customer)/Creditor (supplier)**).
 
-2.  Enter a number for the customer/supplier in the *Debtor/creditor no.* field or leave it empty for the next free number.
+2. Enter a number for the customer/supplier in the *Debtor/creditor no.* field or leave it empty for the next free number.
 
   > [Info] Make sure that the number entered is within the valid range (10000-69999 for customers and 70000-99999 for suppliers).
 
-3.  Enter a short name in the *Short name* field. This field is compulsory.
+3. Enter a short name in the *Short name* field. This field is compulsory.
 
-4.  Enter a company name in the *Company* field.
+4. Enter a company name in the *Company* field.
 
 5. Enter a surname in the *Surname* field.
 
   > [Info] Note that either the *Company* or the *Surname* field must be filled out to be able to create a new customer/supplier.
 
-5.  Enter any other relevant customer/supplier information in the corresponding fields.
+5. Enter any other relevant customer/supplier information in the corresponding fields.
 
 6. Click the [SAVE] button.  
 A popup window is displayed to confirm that the customer/supplier has been created. The newly created customer/supplier will be displayed in the Customer/supplier list tab.
@@ -66,7 +66,7 @@ You can edit an existing customer/supplier, for example if a setting must be cha
 
 *Accounting > Select the fiscal year > Settings > Tab DEBTORS/CREDITORS > Tab Customer list*
 
-![Edit a customer/supplier](/Assets/Screenshots/Accounting/Settings/CustomerSupplier/Edit_customerSupplier.png "[Edit a customer/supplier")
+![Edit a customer/supplier](/Assets/Screenshots/Accounting/Settings/CustomerSupplier/Edit_CustomerSupplier.png "[Edit a customer/supplier")
 
 1. Double click on the existing customer/supplier to be edited.   
 A new tab opens with the customer/supplier number. The existing data for the selected customer/supplier are displayed in the corresponding fields in the Address/Contact sub-tab.
@@ -78,7 +78,7 @@ A new tab opens with the customer/supplier number. The existing data for the sel
 3. Click the button [SAVE].   
 A popup window is displayed to confirm that the customer/supplier has been edited. The edited customer/supplier will display the changes in the Customer list tab.
 
-  > [Info] Note that you may need to refresh the page with the  F5 key to see the changes in the Customer list tab.
+  > [Info] Note that you may need to refresh the page with the F5 key to see the changes in the Customer list tab.
 
 ### Next steps
 
