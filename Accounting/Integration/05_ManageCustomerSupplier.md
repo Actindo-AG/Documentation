@@ -17,15 +17,15 @@ You can create a customer/supplier that is not yet available in the system.
 
 ### Procedure
 
-*Accounting > Select the fiscal year > Settings > Tab DEBTORS/CREDITORS > Tab Create customer/supplier*
+*Accounting > Select the fiscal year > Settings > DEBTORS/CREDITORS tab > Create customer/supplier tab*
 
 ![Create a customer/supplier](/Assets/Screenshots/Accounting/Settings/CustomerSupplier/Create_CustomerSupplier.png "[Create a customer/supplier")
 
-1. Click the *Create debtor/creditor* drop-down list and select the appropriate option (**Debtor (customer)/Creditor (supplier)**).
+1. Click the *Create debtor/creditor* drop-down list in the Address/Contact sub-tab and select the appropriate option (**Debtor (customer)/Creditor (supplier)**).
 
 2. Enter a number for the customer/supplier in the *Debtor/creditor no.* field or leave it empty for the next free number.
 
-  > [Info] Make sure that the number entered is within the valid range (10000-69999 for customers and 70000-99999 for suppliers).
+  > [Info] Make sure that the number entered is within the valid range (10000-69999 for customers and 70000-99999 for suppliers). Otherwise, a warning message will be displayed.
 
 3. Enter a short name in the *Short name* field. This field is compulsory.
 
@@ -38,7 +38,7 @@ You can create a customer/supplier that is not yet available in the system.
 5. Enter any other relevant customer/supplier information in the corresponding fields.
 
 6. Click the [SAVE] button.  
-A popup window is displayed to confirm that the customer/supplier has been created. The newly created customer/supplier will be displayed in the Customer/supplier list tab.
+A pop-up window is displayed to confirm that the customer/supplier has been created. The newly created customer/supplier is displayed in the Customer/supplier list tab.
 
 ### Next steps
 
@@ -64,7 +64,7 @@ You can edit an existing customer/supplier, for example if a setting must be cha
 
 ### Procedure
 
-*Accounting > Select the fiscal year > Settings > Tab DEBTORS/CREDITORS > Tab Customer list*
+*Accounting > Select the fiscal year > Settings > DEBTORS/CREDITORS tab > Customer/supplier list tab*
 
 ![Edit a customer/supplier](/Assets/Screenshots/Accounting/Settings/CustomerSupplier/Edit_CustomerSupplier.png "[Edit a customer/supplier")
 
@@ -76,9 +76,9 @@ A new tab opens with the customer/supplier number. The existing data for the sel
 2. Edit the fields as appropriate.
 
 3. Click the button [SAVE].   
-A popup window is displayed to confirm that the customer/supplier has been edited. The edited customer/supplier will display the changes in the Customer list tab.
+A pop-up window is displayed to confirm that the customer/supplier has been edited. The edited customer/supplier displays the changes in the Customer/supplier list tab.
 
-  > [Info] Note that you may need to refresh the page with the F5 key to see the changes in the Customer list tab.
+  > [Info] Note that you may need to refresh the page with the F5 key to see the changes in the Customer/supplier list tab.
 
 ### Next steps
 
@@ -103,7 +103,7 @@ You can delete an existing customer/supplier, for example if it is no longer app
 
 ### Procedure
 
-*Accounting > Select the fiscal year > Settings > Tab DEBTORS/CREDITORS > Tab Customer list*
+*Accounting > Select the fiscal year > Settings > Tab DEBTORS/CREDITORS > Tab Customer/supplier list*
 
 ![Delete a customer/supplier](/Assets/Screenshots/Accounting/Settings/CustomerSupplier/Delete_CustomerSupplier.png "[Delete a customer/supplier")
 
@@ -111,7 +111,7 @@ You can delete an existing customer/supplier, for example if it is no longer app
   > [Warning] Be aware that the existing customer/supplier will be deleted permanently.
 
 2. Click the [DELETE] button.  
-The selected customer/supplier will be deleted.
+The selected customer/supplier is deleted.
 
 [comment]: <> (Schaltfläche heißt nicht genau [LÖSCHEN] sondern [KUNDE (Kundennr.) LÖSCHEN] oder [LIEFERANT (Lieferantnr.) LÖSCHEN]). Gibt es eine bessere Lösung?
 
