@@ -58,4 +58,5 @@ When you open the *Accounting* module for the first time after login or after re
 
   - [User Interface Accounting](/Accounting/UserInterface/00_UserInterface.md)
   - [To be completed](#to_be_completed)
+
   [comment]: <> (Repeat references done within the file, e.g. create a fixed booking?)
