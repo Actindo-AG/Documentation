@@ -27,7 +27,7 @@ When you open the *Accounting* module for the first time after login or after re
   > [Info] The journal number corresponds to the number of the month, so all bookings of the month January can be found in the journal number 1, all bookings of the month February in the journal number 2 and so on.   
   Exceptions to this are special journals, such as the journals 90 to 99, which are defined in the accounting settings for balances carried forward.     
 
-4. If required, select the *Include fixed bookings* checkbox ![checkbox](/Assets/Icons/checkbox.png "[checkbox]") and select a batch in the displayed list.
+4. If required, select the ![checkbox](/Assets/Icons/Checkbox.png "[checkbox]") *Include fixed bookings* checkbox and select a batch in the displayed list.
 
   > [Info] If the *Include fixed bookings* checkbox is selected, all fixed bookings in the selected batch will be automatically booked when opening the selected period in the fiscal year.   
   For detailed information about creating a fixed booking, see [Create a fixed booking](06_ManageFixedBookings.md#create-a-fixed-booking).
