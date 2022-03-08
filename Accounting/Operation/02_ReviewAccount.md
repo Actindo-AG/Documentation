@@ -24,7 +24,7 @@ An account sheet, on the other hand, is a chronologically ordered list of all ac
 
 ![Balances - no account selected](/Assets/Screenshots/Accounting/Book/Balances/Balances_noAccount.png "[Balances - no account selected]")
 
-> [Info] When clicking the BALANCES tab for the first time, a blank tab is displayed. An account or contra account must be selected to display the corresponding details.
+> [Info] When clicking the *BALANCES* tab for the first time, a blank tab is displayed. An account or contra account must be selected to display the corresponding details.
 
 1. Enter an account number in the *Contra account* field.  
 The balance for the selected account is displayed on the left side of the workspace.
@@ -45,7 +45,7 @@ The balance for the selected account is displayed on the right side of the works
 
 ![Account sheet - no account selected](/Assets/Screenshots/Accounting/Book/AccountSheet/AccountSheet_noAccount.png "[Account sheet - no account selected]")
 
-> [Info] When clicking the ACCOUNT SHEET tab for the first time, a blank tab is displayed. An account or contra account must be selected to display the corresponding details.
+> [Info] When clicking the *ACCOUNT SHEET* tab for the first time, a blank tab is displayed. An account or contra account must be selected to display the corresponding details.
 
 1. Enter an account number in the *Contra account* or in the *Account* field.  
 A chronologically ordered list of all account movements is displayed in the workspace.
