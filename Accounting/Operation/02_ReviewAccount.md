@@ -2,25 +2,26 @@
 
 # Review an account
 
-The balance is a figure representing the difference between credits and debits in an account. If the debit/credit totals are equal, the balance is settled. If a difference between them exists, there is an outstanding balance to be settled, for example, a payment must be made to bring the account balance to zero. The *BALANCES* tab offers a clear view of any outstanding balances in a selected account.
+The balance is a figure representing the difference between credits and debits in an account. If the debit/credit totals are equal, the balance is settled. If a difference between them exists, there is an outstanding balance to be settled, for example, a payment must be made to bring the account balance to zero.
 
 An account sheet, on the other hand, is a chronologically ordered list of all account movements in a specific account within a selected period of time. Accounts sheets can be later used for balance sheet calculations and profit and loss statements.
 
-> [Info] When clicking the *BALANCES* and the *ACCOUNT SHEET* tabs for the first time, blank tabs are displayed. An account or contra account must be selected to display the corresponding details.
+> [Info] When clicking the *BALANCES* and the *ACCOUNT SHEET* tabs for the first time, blank tabs are displayed. An account or contra account must be selected to display the corresponding details. If a booking is selected in the *BOOKINGS* tab, the account and contra account details corresponding to the selected booking will be displayed in the *BALANCES* and the *ACCOUNT SHEET* tab.
 
 
-## Prerequisites
+## Access the balance view of an account
+
+ The *BALANCES* tab offers a clear view of any outstanding balances in a selected account.
+
+### Prerequisites
 
 - The accounting is configured via the configuration wizard, see [Run the Accounting Wizard](01_RunAccountingWizard.md).
 - A valid fiscal year is created, see [Create fiscal year](04_ManageFiscalYear.md#create-a-fiscal-year).
 - A fiscal year is selected, see [Select fiscal year](01_SelectFiscalYear.md).
 
+### Procedure
 
-## Procedure
-
-### Access the balance view of an account
-
-*Accounting > Book > BALANCES tab*
+*Accounting > Book > Tab BALANCES*
 
 ![Balances - no account selected](/Assets/Screenshots/Accounting/Book/Balances/Balances_noAccount.png "[Balances - no account selected]")
 
@@ -38,10 +39,40 @@ The balance for the selected account is displayed on the right side of the works
 
   ![Balances](/Assets/Screenshots/Accounting/Book/Balances/Balances_accounts.png "[Balances]")
 
+### Next steps
 
-### Access the account sheet
+  - [Access the account sheet](#access-the-account-sheet)
+  - [Manage the open items](#to_be_completed)
+  - [Create a manual booking](#to_be_completed)
+  - [Cancel a booking](#to_be_completed)
+  - [Delete bookings](#to_be_completed)
+  - [Process bookings](#to_be_completed)
+  - [Lock a period for bookings](#to_be_completed)
+  - [Split a booking](#to_be_completed)
+  - [Manage receipts](#to_be_completed)
+  - [Create a balance carried forward](#to_be_completed)
+  - [Book exchange rate fluctuations](#to_be_completed)
+  - [Access bookings from another period](#to_be_completed)
+  - [Search in accounting](#to_be_completed)
+  - [Provide the accounting data](#to_be_completed)
 
-*Accounting > Book > ACCOUNT SHEET tab*
+### See also
+
+  - [User Interface Accounting](/Accounting/UserInterface/00_UserInterface.md)
+
+
+
+## Access the account sheet
+
+### Prerequisites
+
+- The accounting is configured via the configuration wizard, see [Run the Accounting Wizard](01_RunAccountingWizard.md).
+- A valid fiscal year is created, see [Create fiscal year](04_ManageFiscalYear.md#create-a-fiscal-year).
+- A fiscal year is selected, see [Select fiscal year](01_SelectFiscalYear.md).
+
+### Procedure
+
+*Accounting > Book > Tab ACCOUNT SHEET*
 
 ![Account sheet - no account selected](/Assets/Screenshots/Accounting/Book/AccountSheet/AccountSheet_noAccount.png "[Account sheet - no account selected]")
 
@@ -74,4 +105,3 @@ A chronologically ordered list of all account movements is displayed in the work
 ## See also
 
   - [User Interface Accounting](/Accounting/UserInterface/00_UserInterface.md)
-  - [To be completed](#to_be_completed)
