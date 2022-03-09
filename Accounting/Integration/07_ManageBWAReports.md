@@ -66,7 +66,7 @@ The new report lines have been saved in the report.
 
 ## Edit a BWA report
 
-You can edit an existing BWA report to make any necessary changes.
+You can edit an existing BWA report to make any necessary changes, for example, change the report name and layout, and edit or delete report lines.
 
  > [Warning] Be aware that any changes made to an existing BWA report will overwrite the existing values. If you are taking one of the predefined system reports as a basis, it is highly recommended to make a copy of it first. For detailed information, see [User Interface Accounting BWA ASSIGNMENT](/Accounting/UserInterface/00_UserInterface.md).
 
@@ -100,7 +100,7 @@ The changes will be applied.
 
   > [Info] The width of the individual columns in the table header can also be modified using the mouse.
 
-6. Select the report line to be edited by clicking the checkbox on the left.  
+6. Select any accounting report line to be edited by clicking the checkbox on the left.  
 The toolbar is displayed in the right upper corner.
 
   ![Edit report lines](/Assets/Screenshots/Accounting/Settings/BWAReports/Edit_ReportLines.png "[Edit report lines]")
@@ -110,8 +110,12 @@ The *Edit* section is displayed.
 
   > [Warning] Be aware that any changes made to an existing BWA report will overwrite the existing values.
 
-8. Make any necessary changes and click the [SAVE] button.   
-The existing BWA report has been changed.
+  You can also delete an accounting report line. Click the ![Delete](/Assets/Icons/Trash03.png "[Delete]") (Delete) button in the toolbar to delete the selected accounting report line.  
+
+   > [Warning] Be aware that the existing accounting report line will be deleted permanently.
+
+8. Click the [SAVE] button.   
+The existing BWA report has been edited.
 
 
 [comments]: <> (clear with HG: you can also edit the BWA report/the accounting report lines by clicking on the report name or line name -> same editing options as described above are displayed. Shall we describe it as an alternative or better not?)
@@ -129,19 +133,15 @@ The existing BWA report has been changed.
 
 You can delete an existing BWA report, either one of the predefined system reports or a newly created one.
 
-
 ### Prerequisites
 
 - The accounting is configured via the configuration wizard, see [Run the Accounting Wizard](01_RunAccountingWizard.md).
 - A valid fiscal year is created, see [Create fiscal year](04_ManageFiscalYear.md#create-a-fiscal-year).
 - A BWA report is created, see [Create a BWA report](#create-a-BWA-report).
 
-
 ### Procedure
 
-#### Delete a BWA report
-
-*Accounting > Select the fiscal year > Settings > BWA ASSIGNMENT tab*
+*Accounting > Select the fiscal year > Settings > Tab BWA ASSIGNMENT*
 
 ![Delete a BWA report](/Assets/Screenshots/Accounting/Settings/BWAReports/Delete_BWAReport.png "[Delete a BWA report]")
 
@@ -152,29 +152,6 @@ The toolbar is displayed in the right upper corner.
 
 2. Click the ![Delete](/Assets/Icons/Trash03.png "[Delete]") (Delete) button to delete the BWA report.  
 The selected BWA report is deleted.
-
-
-#### Delete accounting report lines in a BWA report
-
-*Accounting > Select the fiscal year > Settings > Tab BWA ASSIGNMENT*
-
-![Delete a BWA report](/Assets/Screenshots/Accounting/Settings/BWAReports/Delete_BWAReport.png "[Delete a BWA report]")
-
-1. Select the BWA report to be edited by clicking the checkbox on the left.   
-The toolbar is displayed in the right upper corner.
-
-2. Click the ![Edit](/Assets/Icons/Edit01.png "[Add]") (Edit) button to edit the BWA report.  
-The *Accounting report lines* section is displayed.
-
-  ![Delete report lines](/Assets/Screenshots/Accounting/Settings/BWAReports/Delete_ReportLines.png "[Delete report lines]")
-
-3. Select the report line to be edited by clicking the checkbox on the left.  
-The toolbar is displayed in the right upper corner.
-
-  > [Warning] Be aware that the existing fixed booking will be deleted permanently.
-
-4. Click the ![Delete](/Assets/Icons/Trash03.png "[Delete]") (Delete) button to delete the selected accounting report line.  
-The selected accounting report line is deleted.   
 
 
 ### Next steps
