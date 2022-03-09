@@ -7,7 +7,7 @@
 
 In this section, an overview of the completeness regarding the products is displayed in four boxes.   
 Each box presents one degree of completeness. The following degrees of completeness in percent are displayed:
-- *completeness < 30%*:  completeness less than 30%
+- *completeness < 30%*: completeness less than 30%
 - *completeness ≥ 30%*: completeness more than or equal to 30%
 - *completeness ≥ 80%*: completeness more than or equal to 80%
 - *100% complete*: completeness equal to 100%
@@ -28,10 +28,10 @@ In each box the degree of completeness in percent is displayed related to:
 
 ## Recent Changes
 
-The table displays the recent changes on the products.
+The box displays a list of recent changes on the products.
 
 - ![Refresh](/Assets/Icons/Refresh01.png "[Refresh]") (Refresh)    
-  Click this button to update the table of recent changes.
+  Click this button to update the list of recent changes.
 
 The fields in the following columns are display fields only. They cannot be changed.
 

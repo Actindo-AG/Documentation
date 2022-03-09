@@ -5,17 +5,17 @@
 ![Products](/Assets/Screenshots/PIM/Products/List/Products.png "[Products]")
 
 - *View*   
-  Click the drop-down list to select the view. All created views are displayed in the drop-down list. CLick the button ![Points](/Assets/Icons/Points01.png "[Points]") (Points) to the right of the drop-down list *View* to display the context menu and create or edit a view. For detailed information, see [Create a view](/PIM/Operation/04_ManageView.md#create-a-view).
+  Click the drop-down list to select the view. All created views are displayed in the drop-down list. Click the ![Points](/Assets/Icons/Points01.png "[Points]") (Points) button to the right of the *View* drop-down list to display the context menu and create or edit a view. For detailed information, see [Create a view](/PIM/Operation/04_ManageView.md#create-a-view).
 
 - *Language*   
   Click the drop-down list to select the language. All languages, that are active in *PIM* are displayed in the drop-down list. For detailed information, see [Select a language](/PIM/Operation/04_ManageView.md#select-a-language).
 
 - *Scope*   
-  Click the drop-down list to select the scope. All scopes that are active in *PIM* are displayed in the drop-down list. By default, the scope **Actindo Basic** is preselected. For detailed information, see [Select a scope](/PIM/Operation/04_ManageView.md#select-a-scope).
+  Click the drop-down list to select the scope. All scopes that are active in *PIM* are displayed in the drop-down list. By default, the **Actindo Basic** scope is preselected. For detailed information, see [Select a scope](/PIM/Operation/04_ManageView.md#select-a-scope).
 
 [comment]: <> (List needs title)
 - *Catalog*   
-  Click the drop-down list *Catalog* to select the catalog. All catalogs are displayed in the drop-down list. After having seleted a catalog, all categories and sub-categories of teh selected catalog are displayed. Click a category or sub-category to limit the product list to those products that are assigned to the selected list. By default, the catalog **Product Categories** is preselected. For detailed information, see [Select a product category](/PIM/Operation/04_ManageView.md#select-a-product-category).
+  Click the drop-down list to select the catalog. All catalogs are displayed in the drop-down list. After having selected a catalog, all categories and sub-categories of the selected catalog are displayed. Click a category or sub-category to limit the product list to those products that are assigned to the selected category. By default, the **Product Categories** catalog is preselected. For detailed information, see [Select a product category](/PIM/Operation/04_ManageView.md#select-a-product-category).
 
 
 **Products**
@@ -24,26 +24,26 @@
   Click this button to display the search bar and search for a product.
 
 - ![Refresh](/Assets/Icons/Refresh01.png "[Refresh]") (Refresh)   
-  Click this button to update the table of products.
+  Click this button to update the list of products.
 
 - *Variants*   
   Click the drop-down list to select the display settings for variants. The following settings are available:
-  - **Hide child products**: No product variants are displayed in the product list.
   - **List all products**: All products and their variants are displayed in the product list.   
+  - **Hide child products**: No product variants are displayed in the product list.
   For detailed information, see [Select a variant view](/PIM/Operation/04_ManageView.md#select-a-variant-view).
 
 
 - ![Columns](/Assets/Icons/Columns.png "[Columns]") Columns (x)   
-  Click this button to display the column editing bar and customize the displayed columns and the order of columns in the table. The *x* indicates the number of columns that are currently displayed in the table.
+  Click this button to display the columns bar and customize the displayed columns and the order of columns in the list. The *x* indicates the number of columns that are currently displayed in the list.
 
 - ![Filter](/Assets/Icons/Filter.png "[Filter]") Filter (x)   
-  Click this button to display the filter editing bar and customize the active filters. The *x* indicates the number of filters that are currently active.
+  Click this button to display the filter bar and customize the active filters. The *x* indicates the number of filters that are currently active.
 
 - [x]     
-  Select the checkbox to display the editing toolbar. If you click the checkbox in the header, all products in the table are selected.
+  Select the checkbox to display the editing toolbar. If you click the checkbox in the header, all products in the list are selected.
 
 - ![Edit](/Assets/Icons/Edit01.png "[Edit]") (Edit)   
-  Click this button to edit the selected product(s). This button is only displayed, when the checkbox of at least one product is selected. Alternatively, you can click directly a row in the table to edit a product.   
+  Click this button to edit the selected product(s). This button is only displayed, when the checkbox of at least one product is selected. Alternatively, you can click directly a row in the list to edit a product.   
   For detailed information, see [Edit a product](/PIM/Operation/01_ManageProducts.md#edit-a-single-product).
 
 - [COPY PRODUCT]   
@@ -62,7 +62,7 @@
   Click this button to edit the selected products. This button is only displayed, when the checkbox of at least one product is selected. The mass editing is only recommended if you select more that one product.
   For detailed information, see [Mass editing](/PIM/Operation/01_ManageProducts.md#mass-editing).
 
-Depending on the selection in the drop-down list *Variants*, the table displays all products or just the master products without their product variants. All fields are read-only. Depending on the settings, the displayed columns may vary.
+Depending on the selection in the *Variants* drop-down list, the product list displays all products or just the master products without their product variants. All fields are read-only. Depending on the settings, the displayed columns may vary.
 
 - *Images*   
   Image of the product.
@@ -115,11 +115,11 @@ Depending on the selection in the drop-down list *Variants*, the table displays 
   Click the drop-down list to select the attribute set for the new product. All available attribute sets are displayed in the drop-down list.
 
 - *SKU*   
-  Enter the SKU (Stock Keeping Unit) of the new product. The SKU (Stock Keeping Unit) is an identification number for the product. Therefore, it should be uniquely assigned to a single product.
+  Enter the SKU of the new product. The SKU (Stock Keeping Unit) is an identification number for the product. Therefore, it should be uniquely assigned to a single product.
 
 
 ## Create product
-*PIM > Products > Tab LIST > Button Add > Button [CREATE]*
+*PIM > Products > Tab LIST > Button Add > Button CREATE*
 
 ![Create Product](/Assets/Screenshots/PIM/Products/List/CreateProduct.png "[Create Product]")
 
@@ -143,7 +143,7 @@ Depending on the selection in the drop-down list *Variants*, the table displays 
   Click this button to apply the changes to the SKU. This button is only displayed when you are editing the SKU.
 
 - *Scope*   
-  Click the drop-down list to select a scope for the product. All active scopes are displayed in the drop-down list. By default, the scope **Actindo Basic** is preselected.
+  Click the drop-down list to select a scope for the product. All active scopes are displayed in the drop-down list. By default, the **Actindo Basic** scope is preselected.
 
 - *Language*   
   Click the drop-down list to select a language for the product. All active languages are displayed in the drop-down list. The default language is preselected.
@@ -153,13 +153,13 @@ Depending on the selection in the drop-down list *Variants*, the table displays 
 
 
 ### Create product - Attributes
-*PIM > Products > Tab LIST > Button Add > Button [CREATE] > Tab Attributes*
+*PIM > Products > Tab LIST > Button Add > Button CREATE > Tab Attributes*
 
 ![Attributes](/Assets/Screenshots/PIM/Products/List/Attributes/AttributesCreate.png "[Attributes]")
 
-In the left margin column, all available attribute groups are displayed. Click a group to display the attributes that are assigned to this group on the right side of the tab *Attributes*. If the product contains attributes that are unassigned, the additional group *Unassigned Group* is automatically displayed in the left margin column.
+In the left margin column, all available attribute groups are displayed. Click a group to display the attributes that are assigned to this group on the right side of the *Attributes* tab. If the product contains attributes that are unassigned, the *Unassigned Group* group is automatically displayed in the left margin column.
 
-The right side of the tab *Attributes* displays all attributes that are assigned to the selected group in the left margin column. As the attributes are customized, only those attributes that are predefined by default in the attribute set *PIM Basic Set* are described below:
+The right side of the *Attributes* tab displays all attributes that are assigned to the selected group in the left margin column. As the attributes are customized, only those attributes that are predefined by default in the *PIM Basic Set* attribute set are described below:
 
 [comment]: <> (should we describe all attributes of the PIM Basic Set?)
 
@@ -169,25 +169,25 @@ The right side of the tab *Attributes* displays all attributes that are assigned
 
 
 ### Create product - Variants
-*PIM > Products > Tab LIST > Button Add > Button [CREATE] > Tab Variants*
+*PIM > Products > Tab LIST > Button Add > Button CREATE > Tab Variants*
 
 ![Variants](/Assets/Screenshots/PIM/Products/List/Variants/VariantsCreate.png "[Variants]")
 
 - *Variant set*   
-  Click the drop-down list to select a variant set for the product. All variant sets to the corresponding attribute set of the product are displayed in the drop-down list. The button ![Add](/Assets/Icons/Plus01.png "[Add]") (Add) is displayed in the variants box below if a variant set is selected.
+  Click the drop-down list to select a variant set for the product. All variant sets to the corresponding attribute set of the product are displayed in the drop-down list. The ![Add](/Assets/Icons/Plus01.png "[Add]") (Add) button is displayed in the variants box below if a variant set is selected.
 
 **Variants box**
 
 - ![Refresh](/Assets/Icons/Refresh01.png "[Refresh]") (Refresh)   
-  Click this button to update the table of variants.
+  Click this button to update the list of variants.
 
 - ![Columns](/Assets/Icons/Columns.png "[Columns]") Columns (x)   
-  Click this button to display the column editing bar and customize the displayed columns and the order of columns in the table. The *x* indicates the number of columns that are currently displayed in the table.
+  Click this button to display the columns bar and customize the displayed columns and the order of columns in the list. The *x* indicates the number of columns that are currently displayed in the list.
 
-The table displays all variants of the selected product. All fields are read-only. Depending on the settings, the displayed columns may vary.
+The list displays all variants of the selected product. All fields are read-only. Depending on the settings, the displayed columns may vary.
 
 - *Status*  
-  Status of the variant. In the *Create product* view, the status **Created after save** is displayed if you have added a variant.
+  Status of the variant. In the *Create product* view, the **Created after save** status is displayed if you have added a variant.
 
 - *SKU*  
   Stock Keeping Unit. Identification number for the variant. The SKU for the variant is created depending on the selected settings.
@@ -202,11 +202,11 @@ The table displays all variants of the selected product. All fields are read-onl
   You can add a column for each attribute that is assigned as a defining or differing attribute to the selected variant set. The column displays the attribute name, the row displays the attribute value.
 
 - ![Add](/Assets/Icons/Plus01.png "[Add]") (Add)   
-  Click this button to add a new variant to the product. The two buttons [Add single variant ![Document](/Assets/Icons/Document.png "[Document]") ] and [Add multiple variants ![Documents](/Assets/Icons/Documents.png "[Documents]") ] are displayed.
+  Click this button to add a new variant to the product. The [Add single variant ![Document](/Assets/Icons/Document.png "[Document]") ] button and the [Add multiple variants ![Documents](/Assets/Icons/Documents.png "[Documents]") ] button are displayed.
 
 
 #### Add variant
-*PIM > Products > Tab LIST > Button Add > Button [CREATE] > Tab Variants > Select variant set > Button Add*
+*PIM > Products > Tab LIST > Button Add > Button CREATE > Tab Variants > Select variant set > Button Add*
 
 ![Add variant](/Assets/Screenshots/PIM/Products/List/Variants/AddVariantCreate.png "[Add variant]")
 
@@ -217,20 +217,20 @@ The table displays all variants of the selected product. All fields are read-onl
   Click this button to add multiple product variants. The *Select Values* wizard window is displayed.
 
 - ![Cancel](/Assets/Icons/Cross01.png "[Cancel]") (Cancel)   
-  Click this button to hide the buttons and return to the tab *Variants*.
+  Click this button to hide the buttons and return to the *Variants* tab.
 
 #### Add single variant
-*PIM > Products > Tab LIST > Button Add > Button [CREATE] > Tab Variants > Select variant set > Button Add > Button Add single variant*
+*PIM > Products > Tab LIST > Button Add > Button CREATE > Tab Variants > Select variant set > Button Add > Button Add single variant*
 
 ![Add single variant](/Assets/Screenshots/PIM/Products/List/Variants/AddSingleVariant.png "[Add single variant]")
 
 **Additional fields**
 
 - *SKU*   
-  Identification number for the variant. The SKU (Stock Keeping Unit) is an identification number and should be assigned only once. This field is read-only as long as the toggle ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Use formula*  is active. Deactivate the toggle to edit the SKU.
+  Identification number for the variant. The SKU (Stock Keeping Unit) is an identification number and should be assigned only once. This field is read-only as long as the ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Use formula* toggle is active. Deactivate the toggle to edit the SKU.
 
 - ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Use formula*   
-  Activate this toggle to apply the formula defined in the settings for the variant sets to the variant SKU. When the toggle is active, the field *SKU* is read-only. Deactivate the toggle to enter a different SKU. By default, this toggle is active.
+  Activate this toggle to apply the formula defined in the settings for the variant sets to the variant SKU. When the toggle is active, the *SKU* field is read-only. Deactivate the toggle to enter a different SKU. By default, this toggle is active.
 
 **Defined values**
 
@@ -249,7 +249,7 @@ For each defining attribute a single field or box to define the attribute value 
 
 
 #### Add multiple variants
-*PIM > Products > Tab LIST > Button Add > Button [CREATE] > Tab Variants > Select variant set > Button Add > Button Add multiple variants*
+*PIM > Products > Tab LIST > Button Add > Button CREATE > Tab Variants > Select variant set > Button Add > Button Add multiple variants*
 
 ##### Select Values
 
@@ -260,7 +260,7 @@ For each defining attribute a single box to define the attribute value is displa
 > [Info] If more than one defining attribute is assigned to the variant, you have to select a value for each defining attribute to add a variant.
 
 - [ADD ALL VALUES]   
-  Click this button to add all available values in the box for the corresponding defining attribute. This button is only displayed for attributes with the data type *TreeNode*.
+  Click this button to add all available values in the box for the corresponding defining attribute. This button is only displayed for attributes with the *TreeNode* data type.
 
 - [ADD VALUE]   
   Click this button to add a further row to the corresponding attribute where you can enter or select the desired value.
@@ -276,20 +276,20 @@ For each defining attribute a single box to define the attribute value is displa
 
 ![Add multiple variants](/Assets/Screenshots/PIM/Products/List/Variants/AddMultipleVariants02.png "[Add multiple variants]")
 
-The box displays all product variants that will be created from the selected attribute values. Fro each possible combination of the selected attributes, a new variant is created. Variants that already exist will not be created even when they are listed in the box.
+The box displays all product variants that will be created from the selected attribute values. For each possible combination of the selected attributes, a new variant is created. Variants that already exist will not be created even when they are listed in the box.
 
 **Variants that will be created (ignoring duplicated)**
 
 - ![Columns](/Assets/Icons/Columns.png "[Columns]") Columns (x)   
-  Click this button to display the column editing bar and customize the displayed columns and the order of columns in the table. The *x* indicates the number of columns that are currently displayed in the table.
+  Click this button to display the columns bar and customize the displayed columns and the order of columns in the list. The *x* indicates the number of columns that are currently displayed in the list.
 
 - [x]     
-  Select the checkbox to display the editing toolbar. If you click the checkbox in the header, all variants in the table are selected.
+  Select the checkbox to display the editing toolbar. If you click the checkbox in the header, all variants in the list are selected.
 
 - ![Delete](/Assets/Icons/Trash03.png "[Delete]") (Delete)   
   Click this button to delete the selected variant from the list. This button is only displayed, when the checkbox of a variant is selected.
 
-The table displays all selected variants. Depending on the settings, the displayed columns may vary.
+The list displays all selected variants. Depending on the settings, the displayed columns may vary.
 
 - *SKU*      
   Stock Keeping Unit. Identification number for the variant. Click this field to edit the SKU of the selected variant.
@@ -309,7 +309,7 @@ The table displays all selected variants. Depending on the settings, the display
 
 
 ### Create product - Dependencies
-*PIM > Products > Tab LIST > Button Add > Button [CREATE] > Tab Dependencies*
+*PIM > Products > Tab LIST > Button Add > Button CREATE > Tab Dependencies*
 
 ![Dependencies](/Assets/Screenshots/PIM/Products/List/Dependencies/DependenciesCreate.png "[Dependencies]")
 
@@ -317,7 +317,7 @@ The table displays all selected variants. Depending on the settings, the display
 
 
 ### Create product - Catalogs
-*PIM > Products > Tab LIST > Button Add > Button [CREATE] > Tab Catalogs*
+*PIM > Products > Tab LIST > Button Add > Button CREATE > Tab Catalogs*
 
 ![Catalogs](/Assets/Screenshots/PIM/Products/List/Catalogs/CatalogsCreate.png "[Catalogs]")
 
@@ -325,7 +325,7 @@ For each catalog a single box to assign the new product to a category is display
 
 **Catalog Name**
 
-- [EDIT ATTRIBUTE *CATALOG NAME*]   
+- [EDIT ATTRIBUTE *CATALOG NAME* ]   
   Click this button to assign the product to a category or a sub-category in the selected catalog. The categories window is displayed.
 
 The catalog box displays all selected categories and their level. All fields are read-only. If no category is selected, the notice *No nodes selected* is displayed in the box.
@@ -345,7 +345,7 @@ The catalog box displays all selected categories and their level. All fields are
 
 #### Categories
 [comment]: <> (window needs title!)
-*PIM > Products > Tab LIST > Button Add > Button [CREATE] > Tab Catalogs > Button [EDIT ATTRIBUTE]*
+*PIM > Products > Tab LIST > Button Add > Button CREATE > Tab Catalogs > Button EDIT ATTRIBUTE*
 
 ![Categories](/Assets/Screenshots/PIM/Products/List/Catalogs/Categories.png "[Categories]")
 
@@ -363,11 +363,11 @@ The catalog box displays all selected categories and their level. All fields are
 
 
 ### Create product - Associations
-*PIM > Products > Tab LIST > Button Add > Button [CREATE] > Tab Associations*
+*PIM > Products > Tab LIST > Button Add > Button CREATE > Tab Associations*
 
 ![Associations](/Assets/Screenshots/PIM/Products/List/Associations/AssociationsCreate.png "[Associations]")
 
-In this tab, boxes of all attributes with the data type *Related products* are displayed. The box titles differ depending on the corresponding attribute names, but the structure of all boxes is identical.   
+In this tab, boxes of all attributes with the *Related products* data type are displayed. The box titles differ depending on the corresponding attribute names, but the structure of all boxes is identical.   
 
 > [Info] For detailed information about the data types, see [Data type list](to_be_completed).
 
@@ -396,7 +396,7 @@ The box displays all associated products. All fields are read-only. If no produc
 
 
 #### Filter List of Products
-*PIM > Products > Tab LIST > Button Add > Button [CREATE] > Tab Associations > Button [ADD]*
+*PIM > Products > Tab LIST > Button Add > Button CREATE > Tab Associations > Button ADD*
 
 ![Filter List of Products ](/Assets/Screenshots/PIM/Products/List/Associations/FilterListProducts.png "[Filter List of Products]")
 
@@ -410,15 +410,15 @@ The box displays all associated products. All fields are read-only. If no produc
   Click this button to display the search bar and search for a product.
 
 - ![Refresh](/Assets/Icons/Refresh01.png "[Refresh]") (Refresh)   
-  Click this button to update the table of products.
+  Click this button to update the list of products.
 
 - ![Columns](/Assets/Icons/Columns.png "[Columns]") Columns (x)   
-  Click this button to display the column editing bar and customize the displayed columns and the order of columns in the table. The *x* indicates the number of columns that are currently displayed in the table.
+  Click this button to display the columns bar and customize the displayed columns and the order of columns in the list. The *x* indicates the number of columns that are currently displayed in the list.
 
 - [x]     
-  Select the checkbox to display the editing toolbar. If you click the checkbox in the header, all products in the table are selected.
+  Select the checkbox to display the editing toolbar. If you click the checkbox in the header, all products in the list are selected.
 
-The table displays all products. All fields are read-only.
+The list displays all products. All fields are read-only.
 
 - *ID*   
   Product identification number. The ID number is automatically assigned by the system.
@@ -431,7 +431,7 @@ The table displays all products. All fields are read-only.
 
 
 ### Create product - UCS Warehouse
-*PIM > Products > Tab LIST > Button Add > Button [CREATE] > Tab UCS Lager*
+*PIM > Products > Tab LIST > Button Add > Button CREATE > Tab UCS Lager*
 
 ![UCS Warehouse](/Assets/Screenshots/PIM/Products/List/UCSWarehouse/UCSWarehouseCreate.png "[UCS Warehouse]")
 
@@ -439,7 +439,7 @@ The table displays all products. All fields are read-only.
 
 
 ### Create product - UCS Marketplaces
-*PIM > Products > Tab LIST > Button Add > Button [CREATE] > Tab UCS Marketplaces*
+*PIM > Products > Tab LIST > Button Add > Button CREATE > Tab UCS Marketplaces*
 
 ![UCS Marketplaces](/Assets/Screenshots/PIM/Products/List/UCSMarketplaces/UCSMarketplacesCreate.png "[UCS Marketplaces]")
 
@@ -447,27 +447,27 @@ The table displays all products. All fields are read-only.
 
 
 ### Create product - Offers
-*PIM > Products > Tab LIST > Button Add > Button [CREATE] > Tab Offers*
+*PIM > Products > Tab LIST > Button Add > Button CREATE > Tab Offers*
 
 ![Offers](/Assets/Screenshots/PIM/Products/List/Offers/OffersCreate.png "[Offers]")
 
 **Offers**
 
 - ![Columns](/Assets/Icons/Columns.png "[Columns]") Columns (x)   
-  Click this button to display the column editing bar and customize the displayed columns and the order of columns in the table. The *x* indicates the number of columns that are currently displayed in the table.
+  Click this button to display the columns bar and customize the displayed columns and the order of columns in the list. The *x* indicates the number of columns that are currently displayed in the list.
 
 - [x]     
-  Select the checkbox to display the editing toolbar. If you click the checkbox in the header, all offers in the table are selected.
+  Select the checkbox to display the editing toolbar. If you click the checkbox in the header, all offers in the list are selected.
 
 - *Status*   
-  Click the drop-down list to change the offer status. The selected status is displayed in the column *Pending status/Errors*. This drop-down list is only displayed, when the checkbox of at least one offer is selected. The following statuses are available:    
+  Click the drop-down list to change the offer status. The selected status is displayed in the *Pending status/Errors* column. This drop-down list is only displayed, when the checkbox of at least one offer is selected. The following statuses are available:    
   - **Active**: The offer is active. It is displayed on the marketplace and can be sold there.
   - **Inactive**: The offer is inactive. It is not displayed on the marketplace and cannot be sold there.   
   - **Not available**: The offer is unknown to the marketplace and therefore cannot be sold there.
 
 
 - *Change Tracking*   
-  Click the drop-down list to change the change tracking mode (ETL mode) of the offer. The selected change tracking mode is displayed in the column *ChangeTracking*. This drop-down list is only displayed, when the checkbox of at least one offer is selected. The following change tracking modes are available:    
+  Click the drop-down list to change the change tracking mode (ETL mode) of the offer. The selected change tracking mode is displayed in the *ChangeTracking* column. This drop-down list is only displayed, when the checkbox of at least one offer is selected. The following change tracking modes are available:    
   - **manual**: Changes in a PIM product must be triggered manually to be applied to the offer. The initial offer is automatically applied.
   - **semi-automatic**: Changes in a PIM product are automatically applied to the offer after confirmation in the *Omni-Channel* module. The initial offer is automatically applied without confirmation.   
   - **semi-automatic, changes must be confirmed by another user**: Changes in a PIM product are automatically applied to the offer after confirmation in the *Omni-Channel* module by another user. The initial offer is only applied after confirmation by another user.       
@@ -478,7 +478,7 @@ The table displays all products. All fields are read-only.
 - ![Delete](/Assets/Icons/Trash03.png "[Delete]") (Delete)   
   Click this button to delete the selected offer from the list. This button is only displayed, when the checkbox of an offer is selected.
 
-The table displays all created offers to this product. All fields are read-only.
+The list displays all created offers to this product. All fields are read-only.
 
 - *SKU*   
   Stock Keeping Unit. Identification number of the product. In the *Create product* view, **TO BE GENERATED** is displayed.
@@ -496,7 +496,7 @@ The table displays all created offers to this product. All fields are read-only.
 - *Attribute Set*   
   Selected attribute set for the offer.
 
-- *last edited*   
+- *Last edited*   
   Date and time of the last modification. In the *Create product* view, no date is displayed.
 
 - *Modified by*   
@@ -521,11 +521,11 @@ The table displays all created offers to this product. All fields are read-only.
   Name and username of the user who created the product. In the *Create product* view, no name is displayed.
 
 - ![Add](/Assets/Icons/Plus01.png "[Add]") (Add)   
-  Click this button to create a new offer. The two buttons [Add to a single connection ![Add to a single connection](/Assets/Icons/Document.png "[Single connection]") ] and [Add to multiple connections ![Multiple connections](/Assets/Icons/Documents.png "[Multiple connections]") ] are displayed.
+  Click this button to create a new offer. The [Add to a single connection ![Add to a single connection](/Assets/Icons/Document.png "[Single connection]") ] button and the [Add to multiple connections ![Multiple connections](/Assets/Icons/Documents.png "[Multiple connections]") ] button are displayed.
 
 
 #### Add an offer in PIM
-*PIM > Products > Tab LIST > Button Add > Button [CREATE] > Tab Offers > Button Add*
+*PIM > Products > Tab LIST > Button Add > Button CREATE > Tab Offers > Button Add*
 
 ![Add](/Assets/Screenshots/PIM/Products/List/Offers/AddCreate.png "[Add]")
 
@@ -540,7 +540,7 @@ The table displays all created offers to this product. All fields are read-only.
 
 
 #### Add to a single connection
-*PIM > Products > Tab LIST > Button Add > Button [CREATE] > Tab Offers > Button Add > Button Add to a single connection*
+*PIM > Products > Tab LIST > Button Add > Button CREATE > Tab Offers > Button Add > Button Add to a single connection*
 
 ![Add to a single connection](/Assets/Screenshots/PIM/Products/List/Offers/SingleConnection.png "[Add to a single connection]")
 
@@ -556,7 +556,7 @@ The table displays all created offers to this product. All fields are read-only.
   Activate this toggle to automatically generate a SKU for the offer. Deactivate the toggle to enter a SKU manually. By default, this toggle is active.
 
 - *SKU*    
-  Enter an individual SKU (Stock Keeping Unit) for the offer. The SKU (Stock Keeping Unit) is an identification number and should be assigned only once.
+  Enter an individual SKU for the offer. The SKU (Stock Keeping Unit) is an identification number and should be assigned only once.
 [comment]: <> (offer or product? how does this work? When I enter a different SKU, The SKU is automatically overwritten)
 
 - *Change Tracking mode*   
@@ -582,7 +582,7 @@ The table displays all created offers to this product. All fields are read-only.
 
 
 #### Add to multiple connections
-*PIM > Products > Tab LIST > Button Add > Button [CREATE] > Tab Offers > Button Add > Button Add to multiple connections*
+*PIM > Products > Tab LIST > Button Add > Button CREATE > Tab Offers > Button Add > Button Add to multiple connections*
 
 ##### Select Connections and status
 
@@ -650,7 +650,7 @@ The table displays all created offers to this product. All fields are read-only.
   Click this button to save the changes to the product.
 
 - Image box
-  Image of the product. The image is displayed if an image is selected for the product in the tab *Attributes*.
+  Image of the product. The image is displayed if an image is selected for the product in the *Attributes* tab.
 
 - *SKU*   
   Stock Keeping Unit. Identification number for the product.
@@ -668,18 +668,18 @@ The table displays all created offers to this product. All fields are read-only.
   Click the drop-down list to select a language for the product. All available languages are displayed in the drop-down list.
 
 - [Complete]     
-  Completeness of the product for all available scopes and languages. The percentage of completeness is displayed in the button. Click the button to display the *Completeness* window. If the completeness is less than 100%, the number of missing require attributes is displad to the right of the completeness button.
+  Completeness of the product for all available scopes and languages. The percentage of completeness is displayed in the button. Click the button to display the *Completeness* window. If the completeness is less than 100%, the number of missing require attributes is displayed to the right of the completeness button.
   If the completeness cannot be calculated, *Completeness: Not available* is displayed and the button is not clickable.
 
   > [Info] The completeness is calculated by considering the number of missing required fields. As the required fields are defined individually for each attribute set set, it can vary from one product to another.  
 
 - ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *show empty required attributes only*     
-  Activate this toggle to display only the missing required fields in the tab *Attributes* for this product. By default, the toggle is inactive. The toggle is only displayed if at least one required field is missing.
+  Activate this toggle to display only the missing required fields in the *Attributes* tab for this product. By default, the toggle is inactive. The toggle is only displayed if at least one required field is missing.
 
 - *Sets*   
   Click the drop-down list to change the attribute set (attribute set) for the product. All available attribute sets are displayed in the drop-down list. The currently selected attribute set is highlighted in bold.
 
-  > [Info] Changing the attribute set can destroy data. Therefore, an additional message is displayed to confirm the attribute set change. Note, that the change cannot be undone once you have saved the changes.
+  > [Info] Changing the attribute set can destroy data. Therefore, a confirmation window is displayed to confirm the attribute set change. Note, that the change cannot be undone once you have saved the changes.
 
 
 ### Edit product - Completeness
@@ -688,12 +688,12 @@ The table displays all created offers to this product. All fields are read-only.
 ![Completeness](/Assets/Screenshots/PIM/Products/List/Completeness.png "[Completeness]")
 
 - *Scopes*   
-  Click the drop-down list to change the scope for the product completeness calculation. All available scopes, the option **Scopes (All)** and the option **Not multiscope** are displayed in the drop-down list. By default, the option **Scopes (All)** is preselected.
+  Click the drop-down list to change the scope for the product completeness calculation. All available scopes, the **Scopes (All)** option and the **Not multiscope** option are displayed in the drop-down list. By default, the **Scopes (All)** option is preselected.
 
   > [Info] The product completeness for the selected scope is only displayed in the *Completeness* window. The completeness button in the *Edit Product* view is not affected by this change.
 
 - *Languages*   
-  Click the drop-down list to change the language for the product completeness calculation. All available languages, the option **Languages (All)** and the option **Not multilanguage** are displayed in the drop-down list. By default, the option **Languages (All)** is preselected.
+  Click the drop-down list to change the language for the product completeness calculation. All available languages, the **Languages (All)** option and the **Not multilanguage** option are displayed in the drop-down list. By default, the **Languages (All)** option is preselected.
 
   > [Info] The product completeness for the selected language is only displayed in the *Completeness* window. The completeness button in the *Edit Product* view is not affected by this change.
 
@@ -706,40 +706,40 @@ The table displays all created offers to this product. All fields are read-only.
 
 ![Attributes](/Assets/Screenshots/PIM/Products/List/Attributes/AttributesEdit.png "[Attributes]")
 
-In the left margin column, all available groups containing attributes are displayed. Click a (sub-)group to display the attributes that are assigned to this (sub-)group on the right side of the tab *Attributes*. If the product contains attributes that are unassigned, the additional group *Unassigned Group* is automatically displayed in the left margin column.
+In the left margin column, all available groups containing attributes are displayed. Click a (sub-)group to display the attributes that are assigned to this (sub-)group on the right side of the *Attributes* tab. If the product contains attributes that are unassigned, the *Unassigned Group* group is automatically displayed in the left margin column.
 
-The right side of the tab *Attributes* displays all attributes that are assigned to the selected group in the left margin column. As the attributes are customized, only those attributes that are predefined by default in the attribute set *PIM Basic Set* are described below:
+The right side of the *Attributes* tab displays all attributes that are assigned to the selected group in the left margin column. As the attributes are customized, only those attributes that are predefined by default in the *PIM Basic Set* attribute set are described below:
 
--- describe attributes PIM Basic Set --
+[comment]: <> (describe attributes PIM Basic Set?!)
 
 
-### Edit product - Varianten
+### Edit product - Variants
 *PIM > Products > Tab LIST >  Select product > Tab Variants*
 
-![Varianten](/Assets/Screenshots/PIM/Products/List/Variants/VariantenEdit.png "[Varianten]")
+![Variants](/Assets/Screenshots/PIM/Products/List/Variants/VariantsEdit.png "[Variants]")
 
 - *Variant set*   
-  Click the drop-down list to select a variant set for the product. All available variant sets are displayed in the drop-down list. The button ![Add](/Assets/Icons/Plus01.png "[Add]") (Add) is displayed in the variants box below if a variant set is selected.
-  If the product is a master entity, the corresponding variant set is preselected in the drop-down list. The drop-down list is locked. The corresponding child entities  and the button ![Add](/Assets/Icons/Plus01.png "[Add]") (Add) are displayed in the variants box.
-  If the product is a child entity, the drop-down list is not displayed.
+  Click the drop-down list to select a variant set for the product. All available variant sets are displayed in the drop-down list. The ![Add](/Assets/Icons/Plus01.png "[Add]") (Add) button is displayed in the variants box below if a variant set is selected.
+  If the product is a master product, the corresponding variant set is preselected in the drop-down list. The drop-down list is locked. The corresponding product variants and the ![Add](/Assets/Icons/Plus01.png "[Add]") (Add) button are displayed in the variants box.
+  If the product is a variant, the drop-down list is not displayed.
 
-- *Child Entity*
-  Indication that thee selected product is a child entity. This field is read-only. The value can be changed within the tab *Attributes*. The field is only displayed for variant articles.
+- *Child Entity*   
+  Indication that the selected product is a variant. This field is read-only. The value can be changed within the *Attributes* tab. The field is only displayed for product variants.
 
--> how is it possible to change the value of a variant defining attribute in the tab Attributes without changing the variant?
+[comment]: <> (how is it possible to change the value of a variant defining attribute in the tab Attributes without changing the variant?)
 
 
 **Variants box**
 
-> [Info] If the product is a child entity, the variants box is not displayed.
+> [Info] If the product is a variant, the variants box is not displayed.
 
 - ![Refresh](/Assets/Icons/Refresh01.png "[Refresh]") (Refresh)   
-  Click this button to update the table of products.
+  Click this button to update the list of variants.
 
 - ![Columns](/Assets/Icons/Columns.png "[Columns]") Columns (x)   
-  Click this button to display the column editing bar and customize the displayed columns and the order of columns in the table. The *x* indicates the number of columns that are currently displayed in the table.
+  Click this button to display the columns bar and customize the displayed columns and the order of columns in the list. The *x* indicates the number of columns that are currently displayed in the list.
 
-The table displays all variants. All fields are read-only. Depending on the settings, the displayed columns may vary.
+The list displays all variants. All fields are read-only. Depending on the settings, the displayed columns may vary.
 
 - *Status*  
   Status of the variant. The following statuses are available:
@@ -764,7 +764,7 @@ The table displays all variants. All fields are read-only. Depending on the sett
   You can add a column for each attribute that is assigned as a defining or differing attribute to the selected variant set. The column displays the attribute name, the row displays the corresponding attribute value.
 
 - ![Add](/Assets/Icons/Plus01.png "[Add]") (Add)   
-  Click this button to add a new variant to the product. The two buttons [Add single variant ![Document](/Assets/Icons/Document.png "[Document]") ] and [Add multiple variants ![Documents](/Assets/Icons/Documents.png "[Documents]") ] are displayed.
+  Click this button to add a new variant to the product. The [Add single variant ![Document](/Assets/Icons/Document.png "[Document]") ] button and the [Add multiple variants ![Documents](/Assets/Icons/Documents.png "[Documents]") ] button are displayed.
 
 
 #### Add variant
@@ -786,13 +786,15 @@ The table displays all variants. All fields are read-only. Depending on the sett
 
 ![Add single variant](/Assets/Screenshots/PIM/Products/List/Variants/AddSingleVariant.png "[Add single variant]")
 
+[comment]: <> (hier weiter)
+
 **Additional fields**
 
 - *SKU*   
   Stock Keeping Unit. Identification number for the variant.
 
 - ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Use formula*   
-  Activate this toggle to apply the formula defined in the settings for the variant sets to the variant SKU. When the toggle is active, the field *SKU* is read-only. Deactivate the toggle to enter a different SKU. By default, this toggle is active.
+  Activate this toggle to apply the formula defined in the settings for the variant sets to the variant SKU. When the toggle is active, the *SKU* field is read-only. Deactivate the toggle to enter a different SKU. By default, this toggle is active.
 
 **Defined values**
 
@@ -839,15 +841,15 @@ For each defining attribute a single box to define the attribute value is displa
 **Variants that will be created (ignoring duplicated)**
 
 - ![Columns](/Assets/Icons/Columns.png "[Columns]") Columns (x)   
-  Click this button to display the column editing bar and customize the displayed columns and the order of columns in the table. The *x* indicates the number of columns that are currently displayed in the table.
+  Click this button to display the columns bar and customize the displayed columns and the order of columns in the list. The *x* indicates the number of columns that are currently displayed in the list.
 
 - [x]     
-  Select the checkbox to display the editing toolbar. If you click the checkbox in the header, all variants in the table are selected.
+  Select the checkbox to display the editing toolbar. If you click the checkbox in the header, all variants in the list are selected.
 
 - ![Delete](/Assets/Icons/Trash03.png "[Delete]") (Delete)   
   Click this button to delete the selected variant from the list. This button is only displayed when the checkbox of a variant is selected.
 
-The table displays all selected variants. Depending on the settings, the displayed columns may vary.
+The list displays all selected variants. Depending on the settings, the displayed columns may vary.
 
 - *SKU*      
   Stock Keeping Unit. Identification number for the variant. Click this field to edit the SKU of the selected variant.
@@ -874,15 +876,15 @@ The table displays all selected variants. Depending on the settings, the display
 **Dependencies**
 
 - ![Refresh](/Assets/Icons/Refresh01.png "[Refresh]") (Refresh)   
-  Click this button to update the table of product dependencies.
+  Click this button to update the list of product dependencies.
 
 - ![Columns](/Assets/Icons/Columns.png "[Columns]") Columns (x)   
-  Click this button to display the column editing bar and customize the displayed columns and the order of columns in the table. The *x* indicates the number of columns that are currently displayed in the table.
+  Click this button to display the columns bar and customize the displayed columns and the order of columns in the list. The *x* indicates the number of columns that are currently displayed in the list.
 
 - [x]     
-  Select the checkbox to display the editing toolbar. If you click the checkbox in the header, all dependent entities in the table are selected.
+  Select the checkbox to display the editing toolbar. If you click the checkbox in the header, all dependent entities in the list are selected.
 
-The table displays all dependencies of the selected product. All fields are read-only. Depending on the settings, the displayed columns may vary.
+The list displays all dependencies of the selected product. All fields are read-only. Depending on the settings, the displayed columns may vary.
 
 - *Dependent entity id*   
   Identification number of the dependent entity.
@@ -914,7 +916,7 @@ The table displays all dependencies of the selected product. All fields are read
 
 ![Completeness](/Assets/Screenshots/PIM/Products/List/Completeness/Completeness.png "[Completeness]")
 
-The tab *Completeness* is only displayed if the completeness of the product has been calculated and is displayed in the header section of the *Edit product* view. The tab is never displayed in the *Create product* view.
+The *Completeness* tab is only displayed if the completeness of the product has been calculated and is displayed in the header section of the *Edit product* view. The tab is never displayed in the *Create product* view.
 
 - *Not scopable*   
   This box displays the percentage for the product completeness of the selected product without any scope dependency.
@@ -962,7 +964,7 @@ The box displays all selected categories and their level. All fields are read-on
 
 
 #### Categories
-*PIM > Products > Select product > Tab Catalogs > Button [EDIT ATTRIBUTE]*
+*PIM > Products > Select product > Tab Catalogs > Button EDIT ATTRIBUTE*
 
 ![Categories](/Assets/Screenshots/PIM/Products/List/Catalogs/Categories.png "[Categories]")
 
@@ -1011,7 +1013,7 @@ The box displays all associated product for cross selling. All fields are read-o
 
 
 #### Filter List of Products
-*PIM > Products > Select product > Tab Associations > Button [ADD]*
+*PIM > Products > Select product > Tab Associations > Button ADD*
 
 ![Filter List of Products ](/Assets/Screenshots/PIM/Products/List/Associations/FilterListProducts.png "[Filter List of Products]")
 
@@ -1025,15 +1027,15 @@ The box displays all associated product for cross selling. All fields are read-o
   Click this button to display the search bar and search for a product.
 
 - ![Refresh](/Assets/Icons/Refresh01.png "[Refresh]") (Refresh)   
-  Click this button to update the table of products.
+  Click this button to update the list of products.
 
 - ![Columns](/Assets/Icons/Columns.png "[Columns]") Columns (x)   
-  Click this button to display the column editing bar and customize the displayed columns and the order of columns in the table. The *x* indicates the number of columns that are currently displayed in the table.
+  Click this button to display the columns bar and customize the displayed columns and the order of columns in the list. The *x* indicates the number of columns that are currently displayed in the list.
 
 - [x]     
-  Select the checkbox to display the editing toolbar. If you click the checkbox in the header, all products in the table are selected.
+  Select the checkbox to display the editing toolbar. If you click the checkbox in the header, all products in the list are selected.
 
-The table displays all products. All fields are read-only.
+The list displays all products. All fields are read-only.
 
 - *ID*   
   Product identification number. The ID number is automatically assigned by the system.
@@ -1051,7 +1053,7 @@ The table displays all products. All fields are read-only.
 
 ![History](/Assets/Screenshots/PIM/Products/List/History/History.png "[History]")
 
-The tab *History* is only displayed in the *Edit product* view. The tab is never displayed in the *Create product* view.
+The *History* tab is only displayed in the *Edit product* view. The tab is never displayed in the *Create product* view.
 
 **History**
 
@@ -1059,15 +1061,15 @@ The tab *History* is only displayed in the *Edit product* view. The tab is never
   Click this button to display the search bar and search for a change.
 
 - ![Refresh](/Assets/Icons/Refresh01.png "[Refresh]") (Refresh)   
-  Click this button to update the table of changes.
+  Click this button to update the list of changes.
 
 - ![Columns](/Assets/Icons/Columns.png "[Columns]") Columns (x)   
-  Click this button to display the column editing bar and customize the displayed columns and the order of columns in the table. The *x* indicates the number of columns that are currently displayed in the table.
+  Click this button to display the columns bar and customize the displayed columns and the order of columns in the list. The *x* indicates the number of columns that are currently displayed in the list.
 
 - ![Filter](/Assets/Icons/Filter.png "[Filter]") Filter (x)   
-  Click this button to display the filter editing bar and customize the active filters. The *x* indicates the number of filters that are currently active.
+  Click this button to display the filter bar and customize the active filters. The *x* indicates the number of filters that are currently active.
 
-The table displays the change history of the product. All fields are read-only. Depending on the settings, the displayed columns may vary.
+The list displays the change history of the product. All fields are read-only. Depending on the settings, the displayed columns may vary.
 
 - [x]     
   Select the checkbox to display the editing toolbar.
@@ -1085,7 +1087,7 @@ The table displays the change history of the product. All fields are read-only. 
   Identification number of the change. The ID number is automatically assigned by the system.  
 
 - ![Eye](/Assets/Icons/Eye01.png "[Eye02]") (Eye)   
-  Click this button to display the *History (Single Entry)* window. This button is only displayed, when the checkbox of a change is selected. Alternatively, you can click directly a row in the table to display the *History (Single Entry)* window.   
+  Click this button to display the *History (Single Entry)* window. This button is only displayed, when the checkbox of a change is selected. Alternatively, you can click directly a row in the list to display the *History (Single Entry)* window.   
 
 
 #### History (Single Entry)
@@ -1097,21 +1099,21 @@ The table displays the change history of the product. All fields are read-only. 
   Click this button to display the search bar and search for a change entry.
 
 - ![Refresh](/Assets/Icons/Refresh01.png "[Refresh]") (Refresh)   
-  Click this button to update the table of change entries.
+  Click this button to update the list of change entries.
 
 - ![Columns](/Assets/Icons/Columns.png "[Columns]") Columns (x)   
-  Click this button to display the column editing bar and customize the displayed columns and the order of columns in the table. The *x* indicates the number of columns that are currently displayed in the table.
+  Click this button to display the columns bar and customize the displayed columns and the order of columns in the list. The *x* indicates the number of columns that are currently displayed in the list.
 
 - ![Filter](/Assets/Icons/Filter.png "[Filter]") Filter (x)   
-  Click this button to display the filter editing bar and customize the active filters. The *x* indicates the number of filters that are currently active.
+  Click this button to display the filter bar and customize the active filters. The *x* indicates the number of filters that are currently active.
 
 - [x]     
-  Select the checkbox to display the editing toolbar. If you click the checkbox in the header, all change entries in the table are selected.
+  Select the checkbox to display the editing toolbar. If you click the checkbox in the header, all change entries in the list are selected.
 
 - ![Lock](/Assets/Icons/Lock01.png "[Lock]") (Lock)   
   This entry is locked and cannot be undone. It cannot be selected. The corresponding entry row is grayed out.
 
-The table displays the single entries of the selected product change. All fields are read-only. Depending on the settings, the displayed columns may vary.
+The list displays the single entries of the selected product change. All fields are read-only. Depending on the settings, the displayed columns may vary.
 
 - *Attribute name*   
   Name of the attribute to which the change was made.
@@ -1132,7 +1134,7 @@ The table displays the single entries of the selected product change. All fields
   Identification number of the change entry. The ID number is automatically assigned by the system.  
 
 - ![Undo](/Assets/Icons/Undo01.png "[Undo]") (Undo)   
-  Click this button to undo the selected change(s). An additional message is displayed to confirm the change reversion. This button is only displayed, when the checkbox of a change entry is selected.
+  Click this button to undo the selected change(s). A confirmation window is displayed to confirm the change reversion. This button is only displayed, when the checkbox of a change entry is selected.
 
 
 ### Edit product - UCS Lager
@@ -1140,7 +1142,7 @@ The table displays the single entries of the selected product change. All fields
 
 ![UCS Lager](/Assets/Screenshots/PIM/Products/List/UCSLager/UCSLagerEdit.png "[UCS Lager]")
 
-This tab displays the sub-tabs *Basisdaten* and *Lager/Lieferanten*. These sub-tabs are excerpts from the tabs in the *Lager* module: *Lager > SCHNELLBUCHEN > Select article*
+This tab displays the *Basisdaten* and *Lager/Lieferanten* sub-tabs. These sub-tabs are excerpts from the tabs in the *Lager* module: *Lager > SCHNELLBUCHEN > Select article*
 
 - [HILFE]   
 
@@ -1179,7 +1181,7 @@ This tab displays the sub-tabs *Basisdaten* and *Lager/Lieferanten*. These sub-t
 #### UCS Lager - Lager/Lieferanten
 *PIM > Products > Select product > Tab UCS Lager > Tab Lager/Lieferanten*
 
-This tab displays the sub-tabs *Lagerverwaltung*, *Lagerhistorie* and *Lieferantenzuordnung/Bestelloption*. The tab and its sub-tabs are identical to the tab *Lager/Lieferanten* in the *Lager* module: *Lager > SCHNELLBUCHEN > Select article > Tab Lager/Lieferanten*
+This tab displays the *Lagerverwaltung*, *Lagerhistorie* and *Lieferantenzuordnung/Bestelloption* sub-tabs. The tab and its sub-tabs are identical to the *Lager/Lieferanten* tab in the *Lager* module: *Lager > SCHNELLBUCHEN > Select article > Tab Lager/Lieferanten*
 
 ##### Lagerverwaltung
 *PIM > Products > Select product > Tab UCS Lager > Tab Lager/Lieferanten > Tab Lagerverwaltung*
@@ -1189,7 +1191,7 @@ This tab displays the sub-tabs *Lagerverwaltung*, *Lagerhistorie* and *Lieferant
 **Lagerorte**
 
 - [x]     
-  Select the checkbox to display the editing toolbar. If you click the checkbox in the header, all change entries in the table are selected.
+  Select the checkbox to display the editing toolbar. If you click the checkbox in the header, all change entries in the list are selected.
 
 - *Lager-ID.*   
 
@@ -1210,7 +1212,7 @@ This tab displays the sub-tabs *Lagerverwaltung*, *Lagerhistorie* and *Lieferant
 - [LÖSCHEN]   
 
 - ![Refresh](/Assets/Icons/Refresh03.png "[Refresh]") (Refresh)   
-  Click this button to update the table of warehouses.
+  Click this button to update the list of warehouses.
 
 **Hinzufügen**
 
@@ -1311,7 +1313,7 @@ This tab displays the sub-tabs *Lagerverwaltung*, *Lagerhistorie* and *Lieferant
 **Lieferanten**
 
 - [x]     
-  Select the checkbox to display the editing toolbar. If you click the checkbox in the header, all change entries in the table are selected.
+  Select the checkbox to display the editing toolbar. If you click the checkbox in the header, all change entries in the list are selected.
 
 - *Lft.-Nr.*   
 
@@ -1336,7 +1338,7 @@ This tab displays the sub-tabs *Lagerverwaltung*, *Lagerhistorie* and *Lieferant
 - [LÖSCHEN]   
 
 - ![Refresh](/Assets/Icons/Refresh03.png "[Refresh]") (Refresh)   
-  Click this button to update the table of suppliers.
+  Click this button to update the list of suppliers.
 
 
 **Hinzufügen**
@@ -1489,12 +1491,12 @@ This tab displays the sub-tabs *Lagerverwaltung*, *Lagerhistorie* and *Lieferant
 **Offers**
 
 - ![Columns](/Assets/Icons/Columns.png "[Columns]") Columns (x)   
-  Click this button to display the column editing bar and customize the displayed columns and the order of columns in the table. The *x* indicates the number of columns that are currently displayed in the table.
+  Click this button to display the columns bar and customize the displayed columns and the order of columns in the list. The *x* indicates the number of columns that are currently displayed in the list.
 
 - [x]     
-  Select the checkbox to display the editing toolbar. If you click the checkbox in the header, all offers in the table are selected.
+  Select the checkbox to display the editing toolbar. If you click the checkbox in the header, all offers in the list are selected.
 
-The table displays all created offers to this product. All fields are read-only.
+The list displays all created offers to this product. All fields are read-only.
 
 - *SKU*   
   Stock Keeping Unit. Identification number of the product.

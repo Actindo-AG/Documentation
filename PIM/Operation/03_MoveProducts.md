@@ -17,19 +17,19 @@ At least one product is created, see [Create a product](01_ManageProducts.md#cre
 
 ![List and recycle bin](/Assets/Screenshots/PIM/Products/ListRecycleBin.png "[List and recycle bin]")
 
-> [Info] You can archive products from the product list or from the recycle bin. The procedure to archive them is identical. To archive a product from the recycle bin, start in the tab *RECYCLE BIN* instead of in the tab *LIST* and follow the steps described below.
+> [Info] You can archive products from the product list or from the recycle bin. The procedure to archive them is identical. To archive a product from the recycle bin, start in the *RECYCLE BIN* tab instead of in the *LIST* tab and follow the steps described below.
 
 1. Select the checkboxes ![Checkbox](/Assets/Icons/Checkbox.png "[Checkbox]") of the products you want to archive.   
   The editing toolbar is displayed above the products list.
 
-2. Click the button [ARCHIVE PRODUCTS] in the toolbar.   
-  The button changes to [ARCHIVING...]. The message *Product moved to archive* is displayed, indicating the number of archived products.
+2. Click the [ARCHIVE PRODUCTS] button in the toolbar.   
+  The button changes to [ARCHIVING...]. The *Product moved to archive* pop-up window is displayed, indicating the number of archived products.
 
   ![Product moved to archive](/Assets/Screenshots/PIM/Products/List/ProductMovedToArchive.png "[Product moved to archive]")
 
   The selected products are archived.
 
-  > [Info] You find the archived products in the tab *ARCHIVE* where you can either restore or delete them.
+  > [Info] You find the archived products in the *ARCHIVE* tab where you can either restore or delete them.
 
 ### Next steps
 
@@ -61,19 +61,19 @@ At least one product is created, see [Create a product](01_ManageProducts.md#cre
 
 ![List and archive](/Assets/Screenshots/PIM/Products/ListArchive.png "[List and archive]")
 
-> [Info] You can delete products from the product list or from the archive. The procedure to delete them is identical. To delete a product from the archive, start in the tab *ARCHIVE* instead of in the tab *LIST* and follow the steps described below.
+> [Info] You can delete products from the product list or from the archive. The procedure to delete them is identical. To delete a product from the archive, start in the *ARCHIVE* tab instead of in the *LIST* tab and follow the steps described below.
 
 1. Select the checkboxes ![Checkbox](/Assets/Icons/Checkbox.png "[Checkbox]") of the products you want to delete.   
   The editing toolbar is displayed above the products list.
 
-2. Click the button [MOVE TO RECYCLE BIN] in the toolbar.   
-  The button changes to [DELETING...]. The message *Product deleted* is displayed, indicating the number of deleted products.
+2. Click the [MOVE TO RECYCLE BIN] button in the toolbar.   
+  The button changes to [DELETING...]. The *Product deleted* pop-up window is displayed, indicating the number of deleted products.
 
   ![Product deleted](/Assets/Screenshots/PIM/Products/List/ProductDeleted.png "[Product deleted]")
 
   The selected products are moved to the recycle bin.
 
-  > [Info] You find the deleted products in the tab *RECYCLE BIN* where you can either restore or finally delete them.
+  > [Info] You find the deleted products in the *RECYCLE BIN* tab where you can either restore or finally delete them.
 
 ### Next steps
 
@@ -107,14 +107,14 @@ At least one product is moved to the recycle bin, see [Delete a product](#delete
 1. Select the checkboxes ![Checkbox](/Assets/Icons/Checkbox.png "[Checkbox]") of the products you want to delete.   
   The editing toolbar is displayed above the products list.
 
-2. Click the button [FINALLY DELETE PRODUCTS] in the toolbar.   
-  The button changes to [DELETING...]. The message *Products deleted* is displayed, indicating the number of finally deleted products.
+2. Click the [FINALLY DELETE PRODUCTS] button in the toolbar.   
+  The button changes to [DELETING...]. The *Products deleted* pop-up window is displayed, indicating the number of finally deleted products.
 
   ![Product deleted](/Assets/Screenshots/PIM/Products/List/ProductDeleted.png "[Product deleted]")
 
   The selected products are permanently deleted.
 
-  > [Info] If the deletion is not possible, the message *Products deleted* is indicating an error for the number of products unable to delete. An error message with further information is displayed in the notifications.
+  > [Info] If the deletion is not possible, the *Products deleted* pop-up window is indicating an error for the number of products unable to delete. An error message with further information is displayed in the notifications.
 
   ![Product deleted error](/Assets/Screenshots/PIM/Products/List/ProductDeletedError.png "[Product deleted error]")
 
@@ -148,19 +148,19 @@ At least one product is moved to the archive or the recycle bin, see [Archive a 
 
 ![Archive and recycle bin](/Assets/Screenshots/PIM/Products/ArchiveRecycleBin.png "[Archive and recycle bin]")
 
-> [Info] You can restore products from the archive or from the recycle bin. The procedure to restore them is identical. To restore a product from the recycle bin, start in the tab *RECYCLE BIN* instead of in the tab *ARCHIVE* and follow the steps described below.
+> [Info] You can restore products from the archive or from the recycle bin. The procedure to restore them is identical. To restore a product from the recycle bin, start in the *RECYCLE BIN* tab instead of in the *ARCHIVE* tab and follow the steps described below.
 
 1. Select the checkboxes ![Checkbox](/Assets/Icons/Checkbox.png "[Checkbox]") of the products you want to restore.   
   The editing toolbar is displayed above the products list.
 
-2. Click the button [RESTORE PRODUCTS] in the toolbar.   
-  The button changes to [RESTORING ...]. The message *Products restored* is displayed, indicating the number of restored products.
+2. Click the [RESTORE PRODUCTS] button in the toolbar.   
+  The button changes to [RESTORING ...]. The *Products restored* pop-up window is displayed, indicating the number of restored products.
 
   ![Products restored](/Assets/Screenshots/PIM/Products/List/ProductsRestored.png "[Products restored]")
 
   The selected products are restored.
 
-  > [Info] You find the restored products in the tab *LIST*.
+  > [Info] You find the restored products in the *LIST* tab.
 
 ### Next steps
 

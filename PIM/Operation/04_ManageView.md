@@ -1,6 +1,6 @@
 # Manage the view
 
-The tab *LIST* is the view where you can see and manage the products. To have a customized view for all purposes, you can modify various settings to adjust the view to your requirements and save individual views to quickly access the view you need.
+The *LIST* tab is the view where you can see and manage the products. To have a customized view for all purposes, you can modify various settings to adjust the view to your requirements and save individual views to quickly access the view you need.
 
 
 ## Select a language
@@ -18,12 +18,12 @@ At least two languages must be created and activated in the *PIM* module, see [C
 
 ![Product list](/Assets/Screenshots/PIM/Products/List/Products.png "[Product list]")
 
-1. Click the drop-down list *Language* in the left column.  
+1. Click the *Language* drop-down list in the left column.  
   All languages that are activated in the *PIM* module are displayed in the list.   
 
   > [Info] For detailed information about activating a language in the *PIM* module, see [Configure the language settings](/PIM/Integration/04_ConfigureLanguages.md).
 
-2. Select the desired language in the drop-down list *Language* .   
+2. Select the desired language in the *Language* drop-down list.   
   The multi-language values in the columns change to the values in the selected language. All single language values remain unchanged.
 
   > [Info] If a product has no attribute value defined in the selected language, the value in the corresponding columns remains blank.
@@ -59,12 +59,12 @@ At least two scopes must be created and activated in the *PIM* module, see [Crea
 
 ![Product list](/Assets/Screenshots/PIM/Products/List/Products.png "[Product list]")
 
-1. Click the drop-down list *Scope* in the left column.  
+1. Click the *Scope* drop-down list in the left column.  
   All scopes that are activated in the *PIM* module are displayed in the list.   
 
   > [Info] For detailed information about activating a scope in the *PIM* module, see [Configure the scope settings](/PIM/Integration/05_ConfigureScopes.md).
 
-2. Select the desired scope in the drop-down list *Scope* .   
+2. Select the desired scope in the *Scope* drop-down list.   
   The multi-scope values in the columns change to the values in the selected scope. All single scope values remain unchanged.
 
   > [Info]  If a product has no attribute value defined in the selected language, the value in the corresponding column remains blank.
@@ -99,12 +99,12 @@ You can select a product category to limit the number of products to those produ
 
 ![Product list](/Assets/Screenshots/PIM/Products/List/Products.png "[Product list]")
 
-1. Click the drop-down list *Catalog* in the left column.  
+1. Click the *Catalog* drop-down list in the left column.  
   All available catalogs are displayed in the list.   
 
   > [Info] For detailed information about creating a catalog or categories, see [Manage the catalogs](/PIM/Integration/06_ManageCatalogs.md).
 
-2. Select the desired catalog in the drop-down list *Catalog* .      
+2. Select the desired catalog in the *Catalog* drop-down list.      
   All corresponding categories and sub-categories are displayed below the selected catalog.
 
   ![Select catalog](/Assets/Screenshots/PIM/Products/List/SelectCatalog.png "[Select catalog]")
@@ -143,13 +143,13 @@ No prerequisites to fulfill.
 
 ![Product list](/Assets/Screenshots/PIM/Products/List/Products.png "[Product list]")
 
-1. Click the drop-down list *Variants* at the top of the products list.   
+1. Click the *Variants* drop-down list at the top of the products list.   
   The options below are displayed:
   - **Hide child products**: No product variants are displayed in the product list.
   - **List all products**: All products and their variants are displayed in the product list.
 
 
-2. Select the desired variant view in the drop-down list *Variants* .
+2. Select the desired variant view in the *Variants* drop-down list.
   Depending on the selection, the product list displays all products or only the master products.
 
 ### Next steps
@@ -184,44 +184,44 @@ No prerequisites to fulfill.
 
 
 1. Select the desired settings for the view, you want to save:
-  + Click the drop-down list *Language* and select the desired language.
-  + Click the drop-down list *Scope* and select the desired scope.
-  + Click the drop-down list *Catalog* and select the desired catalog and category.
-  + Click the drop-down list *Variants* and select the desired variant view.   
+  + Click the *Language* drop-down list and select the desired language.
+  + Click the *Scope* drop-down list and select the desired scope.
+  + Click the *Catalog* drop-down list and select the desired catalog and category.
+  + Click the *Variants* drop-down list and select the desired variant view.   
 
 
 2. If desired adjust the displayed columns in the product list by following the steps below:
-  + Click the button [ ![Columns](/Assets/Icons/Columns.png "[Columns]") Columns (x)].   
-  + Click the drop-down list *Column*, select a column in the list and click the button [ADD COLUMN] to add the column to the columns displayed in the product list.
-  + Click the button ![Remove](/Assets/Icons/Cross03.png "[Remove]") (Remove) next to a column name to remove the corresponding column from the product list.
+  + Click the [ ![Columns](/Assets/Icons/Columns.png "[Columns]") Columns (x)] button.   
+  + Click the *Column* drop-down list, select a column in the list and click the [ADD COLUMN] button to add the column to the columns displayed in the product list.
+  + Click the ![Remove](/Assets/Icons/Cross03.png "[Remove]") (Remove) button next to a column name to remove the corresponding column from the product list.
   + Click and hold a column name and by using drag and drop, move the selected column to the desired position. The number left to the column name displays the position number of the column in the product list.
-  + Click the button [APPLY] to apply the changes.
+  + Click the [APPLY] button to apply the changes.
 
 
 3. If desired add a filter to the product list by following the steps below:
-  + Click the button [ ![Filter](/Assets/Icons/Filter.png "[Filter]") Filter (x)].   
-  + Click the drop-down list *Column* and select a column to which you want to add a filter.
-  + Click the drop-down list *Relation* and select a filter relation. Depending on the selected column, the filter relations vary.
-  + Click the drop-down list *Value* and enter a value for the filter.
-  + Click the button [ADD FILTER] to apply the filter.
+  + Click the [ ![Filter](/Assets/Icons/Filter.png "[Filter]") Filter (x)] button.   
+  + Click the *Column* drop-down list and select a column to which you want to add a filter.
+  + Click the *Relation* drop-down list and select a filter relation. Depending on the selected column, the filter relations vary.
+  + Click the *Value* drop-down list and enter a value for the filter.
+  + Click the [ADD FILTER] button to apply the filter.
 
 
-4. Click the button ![Points](/Assets/Icons/Points01.png "[Points]") (Points) next to the drop-down list *View* .   
+4. Click the ![Points](/Assets/Icons/Points01.png "[Points]") (Points) button next to the *View* drop-down list.   
   The view context menu is displayed.
 
   ![View context menu](/Assets/Screenshots/PIM/Products/List/ViewContextMenu.png "[View context menu]")
 
-  > [Info] If no view is selected when clicking the button ![Points](/Assets/Icons/Points01.png "[Points]") (Points), only the menu entry *create* is displayed in the context menu.
+  > [Info] If no view is selected when clicking the ![Points](/Assets/Icons/Points01.png "[Points]") (Points) button, only the *+ create* menu entry is displayed in the context menu.
 
-5. Click the menu entry *+ create* in the context menu.   
+5. Click the *+ create* menu entry in the context menu.   
   The *Create view* window is displayed.
 
-6. Enter a name for the view in the field *Name*.
+6. Enter a name for the view in the *Name* field.
 
-7. Click the button [SAVE].   
+7. Click the [SAVE] button.   
   The view is saved and preselected in the drop-down list.
 
-> [Info] To change the view, click the drop-down list *View* and select the view you want to display. The view changes depending on the saved settings.
+> [Info] To change the view, click the *View* drop-down list and select the view you want to display. The view changes depending on the saved settings.
 
 ### See also
 

@@ -7,26 +7,26 @@
 **Tax rates**
 
 - ![Refresh](/Assets/Icons/Refresh01.png "[Refresh]") (Refresh)   
-  Click this button to update the table of tax rates.
+  Click this button to update the list of tax rates.
 
 - ![Columns](/Assets/Icons/Columns.png "[Columns]") Columns (x)   
-  Click this button to display the column editing bar and customize the displayed columns and the order of columns in the table. The *x* indicates the number of columns that are currently displayed in the table.
+  Click this button to display the columns bar and customize the displayed columns and the order of columns in the list. The *x* indicates the number of columns that are currently displayed in the list.
 
 - ![Filter](/Assets/Icons/Filter.png "[Filter]") Filter (x)   
-  Click this button to display the filter editing bar and customize the active filters. The *x* indicates the number of filters that are currently active.
+  Click this button to display the filter bar and customize the active filters. The *x* indicates the number of filters that are currently active.
 
 - [x]     
   Select the checkbox to display the editing toolbar.
 
 - ![Edit](/Assets/Icons/Edit01.png "[Edit]") (Edit)   
-  Click this button to edit the selected tax rate. This button is only displayed, when the checkbox of a tax rate is selected. Alternatively, you can click directly a row in the table to edit a tax rate. The *Edit taxe rate* window is displayed.
+  Click this button to edit the selected tax rate. This button is only displayed, when the checkbox of a tax rate is selected. Alternatively, you can click directly a row in the list to edit a tax rate. The *Edit taxe rate* window is displayed.
   For detailed information, see [Edit tax rate](to_be_completed).
 
 - ![Delete](/Assets/Icons/Trash03.png "[Delete]") (Delete)   
   Click this button to delete the selected variant sets. This button is only displayed, when the checkbox of at least one variant set is selected.       
   For detailed information, see [Delete a variant set](to_be_completed).
 
-The table displays all variant sets.  All fields are read-only. Depending on the settings, the displayed columns may vary.
+The list displays all variant sets.  All fields are read-only. Depending on the settings, the displayed columns may vary.
 
 - *Tax zone*   
   Assigned tax zone.
@@ -54,7 +54,7 @@ The table displays all variant sets.  All fields are read-only. Depending on the
 - [ADD]   
   Click this button to create a tax class. The *Create tax class* window is displayed.
 
-The table displays all tax classes. All fields are read-only.
+The list displays all tax classes. All fields are read-only.
 
 - *Name*   
   Tax class name.
@@ -71,7 +71,7 @@ The table displays all tax classes. All fields are read-only.
 - [ADD]   
   Click this button to create a tax class. The *Create tax zone* window is displayed.
 
-The table displays all tax zones. All fields are read-only.
+The list displays all tax zones. All fields are read-only.
 
 - *Name*   
   Tax zone name.

@@ -19,26 +19,26 @@
 **Attributes**
 
 - ![Sort](/Assets/Icons/Sort02.png "[Sort]") (Sort)   
-  Click this button to display the filter editing bar and customize the active filters. The *x* indicates the number of filters that are currently active. The button is only displayed when a group is selected.
+  Click this button to display the filter bar and customize the active filters. The *x* indicates the number of filters that are currently active. The button is only displayed when a group is selected.
 
 - ![Search](/Assets/Icons/Search.png "[Search]") (Search)   
   Click this button to display the search bar and search for a group. The button is only displayed when a group is selected.
 
 - ![Refresh](/Assets/Icons/Refresh01.png "[Refresh]") (Refresh)   
-  Click this button to update the table of groups. The button is only displayed when a group is selected.
+  Click this button to update the list of groups. The button is only displayed when a group is selected.
 
 - ![Columns](/Assets/Icons/Columns.png "[Columns]") Columns (x)   
-  Click this button to display the column editing bar and customize the displayed columns and the order of columns in the table. The *x* indicates the number of columns that are currently displayed in the table.
+  Click this button to display the columns bar and customize the displayed columns and the order of columns in the list. The *x* indicates the number of columns that are currently displayed in the list.
 
 - [x]     
-  Select the checkbox to display the editing toolbar. If you click the checkbox in the header, all attributes in the table are selected.
+  Select the checkbox to display the editing toolbar. If you click the checkbox in the header, all attributes in the list are selected.
 
 - ![Delete](/Assets/Icons/Trash03.png "[Delete]") (Delete)   
   Click this button to remove the selected attribute from the group. The button is only displayed when the checkbox of an attribute is selected.       
 
   > [Info] If you remove an attribute from the group, the attribute itself is not deleted, but it is unassigned to the selected group.  
 
-The table displays all attributes assigned to the selected group. All fields are read-only. Depending on the settings, the displayed columns may vary. When no group is selected, the table is empty.
+The list displays all attributes assigned to the selected group. All fields are read-only. Depending on the settings, the displayed columns may vary. When no group is selected, the list is empty.
 
 - *Name*   
   Attribute name.
@@ -80,20 +80,20 @@ The table displays all attributes assigned to the selected group. All fields are
   Click this button to display the search bar and search for an attribute.
 
 - ![Refresh](/Assets/Icons/Refresh01.png "[Refresh]") (Refresh)   
-  Click this button to update the table of attributes.
+  Click this button to update the list of attributes.
 
 - ![Columns](/Assets/Icons/Columns.png "[Columns]") Columns (x)   
-  Click this button to display the column editing bar and customize the displayed columns and the order of columns in the table. The *x* indicates the number of columns that are currently displayed in the table.
+  Click this button to display the columns bar and customize the displayed columns and the order of columns in the list. The *x* indicates the number of columns that are currently displayed in the list.
 
 - [x]     
-  Select the checkbox to display the editing toolbar. If you click the checkbox in the header, all attributes in the table are selected. Alternatively, you can click directly a row in the table to select the attribute.
+  Select the checkbox to display the editing toolbar. If you click the checkbox in the header, all attributes in the list are selected. Alternatively, you can click directly a row in the list to select the attribute.
 
 - [ADD]
   Click this button to add the selected attribute to the group. The *Add Attributes to Group* view is closed.
 
   > [Info] If you remove an attribute from the group, the attribute itself is not deleted, but it is unassigned to the selected group.  
 
-The table displays all attributes that are not assigned to the selected group. All fields are read-only. Depending on the settings, the displayed columns may vary.
+The list displays all attributes that are not assigned to the selected group. All fields are read-only. Depending on the settings, the displayed columns may vary.
 
 - *Name*   
   Attribute name.

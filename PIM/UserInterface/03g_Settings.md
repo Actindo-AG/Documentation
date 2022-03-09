@@ -10,26 +10,26 @@
   Click this button to display the search bar and search for an variant set.
 
 - ![Refresh](/Assets/Icons/Refresh01.png "[Refresh]") (Refresh)   
-  Click this button to update the table of variant sets.
+  Click this button to update the list of variant sets.
 
 - ![Columns](/Assets/Icons/Columns.png "[Columns]") Columns (x)   
-  Click this button to display the column editing bar and customize the displayed columns and the order of columns in the table. The *x* indicates the number of columns that are currently displayed in the table.
+  Click this button to display the columns bar and customize the displayed columns and the order of columns in the list. The *x* indicates the number of columns that are currently displayed in the list.
 
 - ![Filter](/Assets/Icons/Filter.png "[Filter]") Filter (x)   
-  Click this button to display the filter editing bar and customize the active filters. The *x* indicates the number of filters that are currently active.
+  Click this button to display the filter bar and customize the active filters. The *x* indicates the number of filters that are currently active.
 
 - [x]     
-  Select the checkbox to display the editing toolbar. If you click the checkbox in the header, all variant sets in the table are selected.
+  Select the checkbox to display the editing toolbar. If you click the checkbox in the header, all variant sets in the list are selected.
 
 - ![Edit](/Assets/Icons/Edit01.png "[Edit]") (Edit)   
-  Click this button to edit the selected variant set. This button is only displayed, when a single checkbox of a variant set is selected. Alternatively, you can click directly a row in the table to edit a variant set. The *Edit variant set* view is displayed.
+  Click this button to edit the selected variant set. This button is only displayed, when a single checkbox of a variant set is selected. Alternatively, you can click directly a row in the list to edit a variant set. The *Edit variant set* view is displayed.
   For detailed information, see [Edit a variant set](to_be_completed).
 
 - ![Delete](/Assets/Icons/Trash03.png "[Delete]") (Delete)   
   Click this button to delete the selected variant sets. This button is only displayed, when the checkbox of at least one variant set is selected.       
   For detailed information, see [Delete a variant set](to_be_completed).
 
-The table displays all variant sets.  All fields are read-only. Depending on the settings, the displayed columns may vary.
+The list displays all variant sets.  All fields are read-only. Depending on the settings, the displayed columns may vary.
 
 - *Name*   
   Variant set name.
@@ -120,7 +120,7 @@ The table displays all variant sets.  All fields are read-only. Depending on the
 - [ADD]   
   Click this button to add a defining attribute to the variant set. The *Defining Attributes* window is displayed.
 
-The table displays all defining attributes to the variant set. All fields are read-only.
+The list displays all defining attributes to the variant set. All fields are read-only.
 
 - *Name*   
   Attribute name.
@@ -139,7 +139,7 @@ The table displays all defining attributes to the variant set. All fields are re
 - [ADD]   
   Click this button to add a differing attribute to the variant set. The *Attributes* window is displayed.
 
-The table displays all differing attributes to the variant set. All fields are read-only.
+The list displays all differing attributes to the variant set. All fields are read-only.
 
 - *Name*   
   Attribute name.
@@ -164,21 +164,21 @@ The table displays all differing attributes to the variant set. All fields are r
   Click this button to display the search bar and search for an attribute.
 
 - ![Refresh](/Assets/Icons/Refresh01.png "[Refresh]") (Refresh)   
-  Click this button to update the table of attributes.
+  Click this button to update the list of attributes.
 
 - ![Columns](/Assets/Icons/Columns.png "[Columns]") Columns (x)   
-  Click this button to display the column editing bar and customize the displayed columns and the order of columns in the table. The *x* indicates the number of columns that are currently displayed in the table.
+  Click this button to display the columns bar and customize the displayed columns and the order of columns in the list. The *x* indicates the number of columns that are currently displayed in the list.
 
 - ![Filter](/Assets/Icons/Filter.png "[Filter]") Filter (x)   
-  Click this button to display the filter editing bar and customize the active filters. The *x* indicates the number of filters that are currently active.
+  Click this button to display the filter bar and customize the active filters. The *x* indicates the number of filters that are currently active.
 
 - [x]     
-  Select the checkbox to display the editing toolbar. Alternatively, you can click directly a row in the table to select the attribute. If you click the checkbox in the header, all attributes in the table are selected.
+  Select the checkbox to display the editing toolbar. Alternatively, you can click directly a row in the list to select the attribute. If you click the checkbox in the header, all attributes in the list are selected.
 
 - [Add x defining attributes to set]   
-  Click this button to add the selected attribute(s) to the variant set. This button is only displayed, when the checkbox of an attribute is selected. The *x* in the button indicates the number of selected attributes. The *Defining Attributes* window is closed. The defining attributes are displayed in the area *Attributes (defining)*.
+  Click this button to add the selected attribute(s) to the variant set. This button is only displayed, when the checkbox of an attribute is selected. The *x* in the button indicates the number of selected attributes. The *Defining Attributes* window is closed. The defining attributes are displayed in the box *Attributes (defining)*.
 
-The table displays all available defining attributes. All fields are read-only. Depending on the settings, the displayed columns may vary.
+The list displays all available defining attributes. All fields are read-only. Depending on the settings, the displayed columns may vary.
 
 - *Name*   
   Attribute name.
@@ -203,21 +203,21 @@ The table displays all available defining attributes. All fields are read-only. 
   Click this button to display the search bar and search for an attribute.
 
 - ![Refresh](/Assets/Icons/Refresh01.png "[Refresh]") (Refresh)   
-  Click this button to update the table of attributes.
+  Click this button to update the list of attributes.
 
 - ![Columns](/Assets/Icons/Columns.png "[Columns]") Columns (x)   
-  Click this button to display the column editing bar and customize the displayed columns and the order of columns in the table. The *x* indicates the number of columns that are currently displayed in the table.
+  Click this button to display the columns bar and customize the displayed columns and the order of columns in the list. The *x* indicates the number of columns that are currently displayed in the list.
 
 - ![Filter](/Assets/Icons/Filter.png "[Filter]") Filter (x)   
-  Click this button to display the filter editing bar and customize the active filters. The *x* indicates the number of filters that are currently active.
+  Click this button to display the filter bar and customize the active filters. The *x* indicates the number of filters that are currently active.
 
 - [x]     
-  Select the checkbox to display the editing toolbar. Alternatively, you can click directly a row in the table to select the attribute. If you click the checkbox in the header, all attributes in the table are selected.
+  Select the checkbox to display the editing toolbar. Alternatively, you can click directly a row in the list to select the attribute. If you click the checkbox in the header, all attributes in the list are selected.
 
 - [Add x differing attributes to set]   
-  Click this button to add the selected attribute(s) to the variant set. This button is only displayed, when the checkbox of an attribute is selected. The *x* in the button indicates the number of selected attributes. The *Attributes* window is closed. The differing attributes are displayed in the area *Attributes (differing)*.
+  Click this button to add the selected attribute(s) to the variant set. This button is only displayed, when the checkbox of an attribute is selected. The *x* in the button indicates the number of selected attributes. The *Attributes* window is closed. The differing attributes are displayed in the box *Attributes (differing)*.
 
-The table displays all available defining attributes. All fields are read-only. Depending on the settings, the displayed columns may vary.
+The list displays all available defining attributes. All fields are read-only. Depending on the settings, the displayed columns may vary.
 
 - *Name*   
   Attribute name.

@@ -15,10 +15,10 @@ Attribute set# Attribute Sets
   Click this button to update the table of attribute sets.
 
 - ![Columns](/Assets/Icons/Columns.png "[Columns]") Columns (x)   
-  Click this button to display the column editing bar and customize the displayed columns and the order of columns in the table. The *x* indicates the number of columns that are currently displayed in the table.
+  Click this button to display the columns bar and customize the displayed columns and the order of columns in the table. The *x* indicates the number of columns that are currently displayed in the table.
 
 - ![Filter](/Assets/Icons/Filter.png "[Filter]") Filter (x)   
-  Click this button to display the filter editing bar and customize the active filters. The *x* indicates the number of filters that are currently active.
+  Click this button to display the filter bar and customize the active filters. The *x* indicates the number of filters that are currently active.
 
 - [x]     
   Select the checkbox to display the editing toolbar. If you click the checkbox in the header, all attribute sets in the table are selected.
@@ -187,10 +187,10 @@ In the *Create Set* view, no attributes are displayed in the list on the right s
   Click this button to update the list of attributes.
 
 - ![Columns](/Assets/Icons/Columns.png "[Columns]") Columns (x)   
-  Click this button to display the column editing bar and customize the displayed columns and the order of columns in the table. The *x* indicates the number of columns that are currently displayed in the table.
+  Click this button to display the columns bar and customize the displayed columns and the order of columns in the table. The *x* indicates the number of columns that are currently displayed in the table.
 
 - ![Filter](/Assets/Icons/Filter.png "[Filter]") Filter (x)   
-  Click this button to display the filter editing bar and customize the active filters. The *x* indicates the number of filters that are currently active.
+  Click this button to display the filter bar and customize the active filters. The *x* indicates the number of filters that are currently active.
 
 - [x]     
   Select the checkbox to display the editing toolbar. If you click the checkbox in the header, all attributes in the table are selected.
@@ -335,10 +335,10 @@ This wizard helps you to export one or multiple attribute set(s).
 This wizard window displays all attributes of the selected attribute set(s) for export.
 
 - ![Columns](/Assets/Icons/Columns.png "[Columns]") Columns (x)   
-  Click this button to display the column editing bar and customize the displayed columns and the order of columns in the table. The *x* indicates the number of columns that are currently displayed in the table.
+  Click this button to display the columns bar and customize the displayed columns and the order of columns in the table. The *x* indicates the number of columns that are currently displayed in the table.
 
 - ![Filter](/Assets/Icons/Filter.png "[Filter]") Filter (x)   
-  Click this button to display the filter editing bar and customize the active filters. The *x* indicates the number of filters that are currently active.
+  Click this button to display the filter bar and customize the active filters. The *x* indicates the number of filters that are currently active.
 
 - [x]     
   Select the checkbox to exclude the selected attribute from the export. If you click the checkbox in the header, all attributes in the table are selected.
@@ -407,10 +407,10 @@ The table displays all attributes assigned to the selected attribute set. All fi
 This wizard window displays all variant set of the selected attribute set(s) for export. It is only displayed, when the selected attribute set for export includes variant sets.
 
 - ![Columns](/Assets/Icons/Columns.png "[Columns]") Columns (x)   
-  Click this button to display the column editing bar and customize the displayed columns and the order of columns in the table. The *x* indicates the number of columns that are currently displayed in the table.
+  Click this button to display the columns bar and customize the displayed columns and the order of columns in the table. The *x* indicates the number of columns that are currently displayed in the table.
 
 - ![Filter](/Assets/Icons/Filter.png "[Filter]") Filter (x)   
-  Click this button to display the filter editing bar and customize the active filters. The *x* indicates the number of filters that are currently active.
+  Click this button to display the filter bar and customize the active filters. The *x* indicates the number of filters that are currently active.
 
 - [x]     
   Select the checkbox to exclude the selected variant sets from the export. If you click the checkbox in the header, all variant sets in the table are selected.

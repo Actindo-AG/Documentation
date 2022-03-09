@@ -8,26 +8,26 @@
   Click this button to display the search bar and search for an attribute.
 
 - ![Refresh](/Assets/Icons/Refresh01.png "[Refresh]") (Refresh)   
-  Click this button to update the table of attributes.
+  Click this button to update the list of attributes.
 
 - ![Columns](/Assets/Icons/Columns.png "[Columns]") Columns (x)   
-  Click this button to display the column editing bar and customize the displayed columns and the order of columns in the table. The *x* indicates the number of columns that are currently displayed in the table.
+  Click this button to display the columns bar and customize the displayed columns and the order of columns in the list. The *x* indicates the number of columns that are currently displayed in the list.
 
 - ![Filter](/Assets/Icons/Filter.png "[Filter]") Filter (x)   
-  Click this button to display the filter editing bar and customize the active filters. The *x* indicates the number of filters that are currently active.
+  Click this button to display the filter bar and customize the active filters. The *x* indicates the number of filters that are currently active.
 
 - [x]     
-  Select the checkbox to display the editing toolbar. If you click the checkbox in the header, all attributes in the table are selected.
+  Select the checkbox to display the editing toolbar. If you click the checkbox in the header, all attributes in the list are selected.
 
 - ![Edit](/Assets/Icons/Edit01.png "[Edit]") (Edit)   
-  Click this button to edit the selected attribute. This button is only displayed, when a single checkbox of an attribute is selected. Alternatively, you can click directly a row in the table to edit an attribute.
+  Click this button to edit the selected attribute. This button is only displayed, when a single checkbox of an attribute is selected. Alternatively, you can click directly a row in the list to edit an attribute.
   For detailed information, see [Edit an attribute](to_be_completed).
 
 - ![Delete](/Assets/Icons/Trash03.png "[Delete]") (Delete)   
   Click this button to delete the selected attribute. This button is only displayed, when the checkbox of an attribute is selected.       
   For detailed information, see [Delete an attribute](to_be_completed).
 
-The table displays all attributes.  All fields are read-only. Depending on the settings, the displayed columns may vary.
+The list displays all attributes.  All fields are read-only. Depending on the settings, the displayed columns may vary.
 
 - *Name*   
   Attribute name.

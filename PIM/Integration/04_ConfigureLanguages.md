@@ -2,7 +2,7 @@
 
 # Configure the language settings
 
-If you want to maintain PIM-products in multiple languages, you have to activate the respective languages in the PIM module. By default, the languages *English (United States)* and *German (Germany)* are predefined and activated. Note that the completeness of products is recalculated when a language is activated or deactivated.
+If you want to maintain PIM products in multiple languages, you have to activate the respective languages in the PIM module. By default, the languages *English (United States)* and *German (Germany)* are predefined and activated. Note that the completeness of products is recalculated when a language is activated or deactivated.
 
 ## Prerequisites
 
@@ -13,7 +13,7 @@ At least one language has to be created in the DataHub module, see [Create a lan
 
 ![Languages](/Assets/Screenshots/PIM/Settings/Languages/Languages.png "[Languages]")
 
-1. Activate the toggle ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Active* in the row of the language you want to switch active in the *PIM* module.
+1. Activate the ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Active* toggle in the row of the language you want to switch active in the *PIM* module.
 
   > [Info] At least one language has to be activated.
 

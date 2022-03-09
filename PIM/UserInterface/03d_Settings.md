@@ -10,12 +10,12 @@
   Click this button to switch to the *DataHub* module to edit the language list or create a language. *DataHub > Settings > Tab LANGUAGES* is displayed.  
 
 - ![Refresh](/Assets/Icons/Refresh01.png "[Refresh]") (Refresh)   
-  Click this button to update the table of languages.
+  Click this button to update the list of languages.
 
 - ![Filter](/Assets/Icons/Filter.png "[Filter]") Filter (x)   
-  Click this button to display the filter editing bar and customize the active filters. The *x* indicates the number of filters that are currently active.
+  Click this button to display the filter bar and customize the active filters. The *x* indicates the number of filters that are currently active.
 
-The table displays all available languages.
+The list displays all available languages.
 
 - *Key*   
   Language key.

@@ -10,16 +10,16 @@
   Click this button to display the search bar and search for a product.
 
 - ![Refresh](/Assets/Icons/Refresh01.png "[Refresh]") (Refresh)   
-  Click this button to update the table of products.
+  Click this button to update the list of products.
 
 - ![Columns](/Assets/Icons/Columns.png "[Columns]") Columns (x)   
-  Click this button to display the column editing bar and customize the displayed columns and the order of columns in the table. The *x* indicates the number of columns that are currently displayed in the table.
+  Click this button to display the columns bar and customize the displayed columns and the order of columns in the list. The *x* indicates the number of columns that are currently displayed in the list.
 
 - ![Filter](/Assets/Icons/Filter.png "[Filter]") Filter (x)   
-  Click this button to display the filter editing bar and customize the active filters. The *x* indicates the number of filters that are currently active.
+  Click this button to display the filter bar and customize the active filters. The *x* indicates the number of filters that are currently active.
 
 - [x]     
-  Select the checkbox to display the editing toolbar. If you click the checkbox in the header, all products in the table are selected.
+  Select the checkbox to display the editing toolbar. If you click the checkbox in the header, all products in the list are selected.
 
 - [ARCHIVE PRODUCT] / [ARCHIVE PRODUCTS]   
   Click this button to archive the selected product(s). This button is only displayed, when the checkbox of at least one product is selected.
@@ -33,7 +33,7 @@
   Click this button to delete the selected product(s) finally. This button is only displayed, when the checkbox of at least one product is selected.
   For detailed information, see [Finally delete a product](to_be_completed).
 
-The table displays all products moved to recycle bin. All fields are read-only. Depending on the settings, the displayed columns may vary.
+The list displays all products moved to recycle bin. All fields are read-only. Depending on the settings, the displayed columns may vary.
 
 - *SKU*   
   Stock Keeping Unit. Identification number for the product.  
