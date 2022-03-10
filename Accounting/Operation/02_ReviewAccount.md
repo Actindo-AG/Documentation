@@ -21,7 +21,7 @@ The *Book* menu entry in the *Accounting* module contains specific functions to 
 
 ### Procedure
 
-*Accounting > Book > Tab BALANCES*
+*Accounting > Select fiscal year > Book > Tab BALANCES*
 
 ![Balances - no account selected](/Assets/Screenshots/Accounting/Book/Balances/Balances_noAccount.png "[Balances - no account selected]")
 
@@ -75,7 +75,7 @@ The *ACCOUNT SHEET* tab displays a chronologically ordered list of all movements
 
 ### Procedure
 
-*Accounting > Book > Tab ACCOUNT SHEET*
+*Accounting > Select fiscal year > Book > Tab ACCOUNT SHEET*
 
 ![Account sheet - no account selected](/Assets/Screenshots/Accounting/Book/AccountSheet/AccountSheet_noAccount.png "[Account sheet - no account selected]")
 
