@@ -2,28 +2,32 @@
 
 # Manage the open items
 
-information about the different views
+The *Open items* tab displays any open items in the system, that is, any business transactions that have not yet been completed. The open items function helps to monitor cash movements and avoid liquidity problems.
 
-Explain briefly what the open items are used for and at what time which view (all open items/certain open items) is displayed.
+There are two view modes:
 
-> [Info]
+- If no account is selected, the *Open items* tab displays all open items in the *Accounting* module.
+- If an account is selected, the *Open items* tab displays only the open items for the selected account.
 
-## Prerequisites
+## Access all open items
+
+You can display all open items recorded in the system.
+
+### Prerequisites
 
 - The accounting is configured via the configuration wizard, see [Run the Accounting Wizard](01_RunAccountingWizard.md).
 - A valid fiscal year is created, see [Create fiscal year](04_ManageFiscalYear.md#create-a-fiscal-year).
 - A fiscal year is selected, see [Select fiscal year](01_SelectFiscalYear.md).
 
+### Procedure
 
-## Procedure
+*Accounting > Select fiscal year > Book > Tab OPEN ITEMS*
 
-### Access all open items
+![Open items - no account selected](/Assets/Screenshots/Accounting/Book/OpenItems/OpenItems_no_OPOS.png "[Open items - no account selected]")
 
-*Accounting > Book > OPEN ITEMS tab*
+[comment]: <> (New screenshots to be done when demo data are uploaded)
 
-![Balances - no account selected](/Assets/Screenshots/Accounting/Book/Balances/.png "[Balances - no account selected]")
-
-> [Info]
+> [Info] If no account is selected, the *Open items* tab displays all open items recorded in the system.
 
 1. Enter an account number in the *Contra account* field.  
 
@@ -35,12 +39,42 @@ Explain briefly what the open items are used for and at what time which view (al
 
   ![Balances](/Assets/Screenshots/Accounting/Book/Balances/Balances_accounts.png "[Balances]")
 
+### Next steps
 
-### Access the open items for an account
+  - [Create a manual booking](04_CreatedManualBooking)
+  - [Cancel a booking](05_CancelBooking)
+  - [Delete bookings](06_DeleteBookings)
+  - [Process bookings](07_ProcessBookings)
+  - [Lock a period for bookings](08_LockPeriodBookings)
+  - [Split a booking](09_SplitBooking)
+  - [Manage receipts](10_ManageReceipts)
+  - [Create a balance carried forward](11_CreateBalanceCarriedForward)
+  - [Book exchange rate fluctuations](12_BookExchangeRateFluctuations)
+  - [Access bookings from another period](13_AccessBookingsAnotherPeriod)
+  - [Search in accounting](14_SearchAccounting)
+  - [Provide the accounting data](15_ProviceAccountingData)
 
-*Accounting > Book > OPEN ITEMS tab*
+### See also
 
-![Account sheet - no account selected](/Assets/Screenshots/Accounting/Book//.png "[Account sheet - no account selected]")
+  - [User Interface Accounting](/Accounting/UserInterface/00_UserInterface.md)
+  - [Zahlungsabwicklung](#to_be_completed)
+
+
+## Access the open items for an account
+
+You can display all open items recorded in a specific account.
+
+### Prerequisites
+
+- The accounting is configured via the configuration wizard, see [Run the Accounting Wizard](01_RunAccountingWizard.md).
+- A valid fiscal year is created, see [Create fiscal year](04_ManageFiscalYear.md#create-a-fiscal-year).
+- A fiscal year is selected, see [Select fiscal year](01_SelectFiscalYear.md).
+
+###Procedure
+
+*Accounting > Select fiscal year > Book > Tab OPEN ITEMS*
+
+![Open items - no account selected](/Assets/Screenshots/Accounting/Book/OpenItems/OpenItens_AccountSelected.png "[Open items - no account selected]")
 
 > [Info]
 
@@ -51,22 +85,22 @@ Explain briefly what the open items are used for and at what time which view (al
   ![Account sheet](/Assets/Screenshots/Accounting/Book/AccountSheet/.png "[Account sheet]")
 
 
-## Next steps
+### Next steps
 
-  - [Create a manual booking](#to_be_completed)
-  - [Cancel a booking](#to_be_completed)
-  - [Delete bookings](#to_be_completed)
-  - [Process bookings](#to_be_completed)
-  - [Lock a period for bookings](#to_be_completed)
-  - [Split a booking](#to_be_completed)
-  - [Manage receipts](#to_be_completed)
-  - [Create a balance carried forward](#to_be_completed)
-  - [Book exchange rate fluctuations](#to_be_completed)
-  - [Access bookings from another period](#to_be_completed)
-  - [Search in accounting](#to_be_completed)
-  - [Provide the accounting data](#to_be_completed)
+  - [Create a manual booking](04_CreatedManualBooking)
+  - [Cancel a booking](05_CancelBooking)
+  - [Delete bookings](06_DeleteBookings)
+  - [Process bookings](07_ProcessBookings)
+  - [Lock a period for bookings](08_LockPeriodBookings)
+  - [Split a booking](09_SplitBooking)
+  - [Manage receipts](10_ManageReceipts)
+  - [Create a balance carried forward](11_CreateBalanceCarriedForward)
+  - [Book exchange rate fluctuations](12_BookExchangeRateFluctuations)
+  - [Access bookings from another period](13_AccessBookingsAnotherPeriod)
+  - [Search in accounting](14_SearchAccounting)
+  - [Provide the accounting data](15_ProviceAccountingData)
 
-## See also
+### See also
 
   - [User Interface Accounting](/Accounting/UserInterface/00_UserInterface.md)
   - [To be completed](#to_be_completed)
