@@ -17,20 +17,21 @@
   Click this button to display the filter bar and customize the active filters. The *x* indicates the number of filters that are currently active.
 
 - [x]     
-  Select the checkbox to display the editing toolbar. If you click the checkbox in the header, all attributes in the list are selected.
+  Select the checkbox to display the editing toolbar.
 
-- ![Edit](/Assets/Icons/Edit01.png "[Edit]") (Edit)   
-  Click this button to edit the selected attribute. This button is only displayed, when a single checkbox of an attribute is selected. Alternatively, you can click directly a row in the list to edit an attribute.
-  For detailed information, see [Edit an attribute](to_be_completed).
+- [EDIT]      
+  Click this button to edit the selected attribute. This button is only displayed, when the checkbox of an attribute is selected. Alternatively, you can click directly a row in the list to edit an attribute.
+  For detailed information, see [Edit an attribute](/PIM/Integration/01_ManageAttributes.md#edit-an-attribute).
 
-- ![Delete](/Assets/Icons/Trash03.png "[Delete]") (Delete)   
+- [DELETE]   
   Click this button to delete the selected attribute. This button is only displayed, when the checkbox of an attribute is selected.       
-  For detailed information, see [Delete an attribute](to_be_completed).
+  For detailed information, see [Delete an attribute](/PIM/Integration/01_ManageAttributes.md#delete-an-attribute).
 
-The list displays all attributes.  All fields are read-only. Depending on the settings, the displayed columns may vary.
+The list displays all attributes. All fields are read-only. Depending on the settings, the displayed columns may vary.
 
 - *Name*   
   Attribute name.
+
 
 - *Status*   
   Attribute status. The following statuses are available:
@@ -39,13 +40,14 @@ The list displays all attributes.  All fields are read-only. Depending on the se
 
 
 - *Key*   
-  Attribute key.
+  Attribute key. The key is required for API access and must be system wide unique.
 
 - *Data Type*   
-  Attribute data type. For detailed information about all data types, see [Data types list](to_be_completed).
+  Attribute data type. For detailed information about all data types, see [Data type list](04_DataTypeList.md).
 
 - *Description*   
   Description to the attribute.
+
 
 - *Multi-language*   
   Indication whether the attribute is multilingual or not:
@@ -54,12 +56,14 @@ The list displays all attributes.  All fields are read-only. Depending on the se
 
 
 - *Multi-channel*   
-  Indication whether the attribute is multi-channel or not:
+  Indication whether the attribute is multi-channel or not:  
   - ![Check](/Assets/Icons/Check.png "[Check]") (Checkmark): The attribute is multi-channel.  
   - ![Cross](/Assets/Icons/Cross02.png "[Cross]") (Cross): The attribute is single channel.
 
+
 - *Plugin*   
-  ???
+  Module or plugin from which the attribute is created. In the *PIM* module, only PIM attributes are displayed.
+  [comment]: <> (Is that correct? What sense has this column in the PIM module when only PIM attributes are displayed?)
 
 - *ID*   
   Attribute identification number. The ID number is automatically assigned by the system.
@@ -76,6 +80,12 @@ The list displays all attributes.  All fields are read-only. Depending on the se
 - *Created by*   
   Name and username of the user who created the attribute.
 
+- *Name (Language)*   
+  Attribute name in the displayed language. For each active language exists one *Name* column.
+
+- *Description (Language)*   
+  Attribute description in the displayed language. For each active language exists one *Description* column.
+
 - ![Add](/Assets/Icons/Plus01.png "[Add]") (Add)   
   Click this button to create an attribute. The *Create Attribute* view is displayed.   
 
@@ -85,84 +95,139 @@ The list displays all attributes.  All fields are read-only. Depending on the se
 
 ![Create attribute](/Assets/Screenshots/PIM/Settings/Attributes/CreateAttribute.png "[Create attribute]")
 
-- [CANCEL]   
-  Click this button to cancel creating an attribute, close the *Create Attribute* view and return to the attributes list.
+- ![Back](/Assets/Icons/Back02.png "[Back]") (Back)   
+  Click this button to close the *Create Attribute* view and return to the attributes list. All changes are rejected.
+
+- Language   
+  Click the drop-down list and select the language in which the *Name (Language)* and *Description (Language)* fields are displayed. All languages, that are active in the *PIM* module are displayed in the drop-down list.
+  [comment]: <> (Is that right? -> language question)
 
 - [SAVE]   
   Click this button to save the attribute, close the *Create Attribute* view and return to the attributes list.
 
 **BASIC DATA**
 
-- *Name*   
-  Attribute name.
+- *Name (Language)*   
+  Enter an attribute name in the selected language.
 
-- *Key*   
-  Attribute key.
+- *Description (Language)*   
+  Enter a description to the attribute in the selected language.
 
 - *Data Type*   
-  Attribute data type. For detailed information about all data types, see [Data type list](to_be_completed).
+  Click the drop-down list and select an attribute data type. For detailed information about all data types, see [Data type list](04_DataTypeList.md).
+
+- *Key*   
+  Attribute key. The key is required for API access and must be system wide unique.
+
 
 - ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Multi-language*   
   Activate this toggle to create a multi-lingual attribute. Deactivate the toggle to create a single language attribute. By default, this toggle is inactive.
 
-- ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Multi-channel*   
-  Activate this toggle to create a multi-channel attribute. Deactivate the toggle to create a single channel attribute. By default, this toggle is inactive.
+- ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Multi-scope*   
+  Activate this toggle to create a multi-scope attribute. Deactivate the toggle to create a single scope attribute. By default, this toggle is inactive.
 
-- *Assigned Sets*
-  - ![Add](/Assets/Icons/Plus05.png "[Add]") (Add)
-  - ![Delete](/Assets/Icons/Trash01.png "[Delete]") (Delete)
-
-
-- ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Status*   
+- ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Active*   
   Activate this toggle to set the attribute status to active. Deactivate the toggle to set the status to inactive. By default, this toggle is active.
 
 
-- *Description*   
-  Description to the attribute.
+- *Assigned Sets*   
+  Click the drop-down list and select an attribute set to which the attribute is assigned after creation. All active attribute sets are displayed. The drop-down list is only displayed after having clicked the ![Add](/Assets/Icons/Plus05.png "[Add]") (Add) button.
+  - ![Add](/Assets/Icons/Plus05.png "[Add]") (Add)    
+    Click this button to add an attribute set drop-down list. You can add an infinite number of attribute sets.
+
+  - ![Delete](/Assets/Icons/Trash01.png "[Delete]") (Delete)   
+    Click this button to delete the corresponding attribute set.
+
+  > [Info] When you assign the attribute to no attribute set in this view, you have to assign the attribute afterwards to an attribute set, see [Add an attribute to the set](/PIM/Integration/02_ManageAttributeSets.md#add-an-attribute-to-the-set).
 
 
 **CONFIGURATION**
 
 The *CONFIGURATION* section displays the additional configuration for the selected data type. The configuration fields differ depending on the selected data type.    
-For detailed information about the different configurations, see [Configuration list](to_be_completed).
+For detailed information about the different configurations of data types, see [Data type list](04_DataTypeList.md).
 
 
 ## Edit attribute
 *PIM > Settings > Tab ATTRIBUTES > Select attribute*
 
-![Edit attribute](/Assets/Screenshots/PIM/Settings/Attributes/EditAttribute.png "[Edit attribute]")
+![Edit attribute](/Assets/Screenshots/PIM/Settings/Attributes/EditAttribute_Data.png "[Edit attribute]")
 
-- [CANCEL]   
-  Click this button to cancel creating an attribute, close the *Edit Attribute* view and return to the attributes list.
+- ![Back](/Assets/Icons/Back02.png "[Back]") (Back)   
+  Click this button to close the *Edit Attribute* view and return to the attributes list. All changes are rejected.
+
+- Language   
+  Click the drop-down list and select the language in which the *Name (Language)* and *Description (Language)* fields are displayed. All languages, that are active in the *PIM* module are displayed in the drop-down list.
+  [comment]: <> (Is that right? -> language question)
 
 - [SAVE]   
   Click this button to save the attribute, close the *Edit Attribute* view and return to the attributes list.
 
-**BASIC DATA**
+### Edit attribute - Data
+*PIM > Settings > Tab ATTRIBUTES > Select attribute > Tab Data*
 
-- *Name*   
-  Attribute name.
+![Data](/Assets/Screenshots/PIM/Settings/Attributes/EditAttribute_Data.png "[Data]")
 
-- *Key*   
-  Attribute key. In the *Edit Attribute* view, this field is locked.
+- *Name (Language)*   
+  Click the field to edit the attribute name in the selected language.
+
+- *Description (Language)*   
+  Click the field to edit the description to the attribute in the selected language.
 
 - *Data Type*   
-  Attribute data type. In the *Edit Attribute* view, this field is locked. For detailed information about all data types, see [Data type list](to_be_completed).
+  Attribute data type. In the *Edit Attribute* view, this field is locked. For detailed information about all data types, see [Data type list](04_DataTypeList.md).
+
+- *Key*   
+  Attribute key. The key is required for API access and must be system wide unique. In the *Edit Attribute* view, this field is locked.
 
 - ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Multi-language*   
   Activate this toggle to create a multi-lingual attribute. Deactivate the toggle to create a single language attribute. In the *Edit Attribute* view, this toggle is read-only.
 
-- ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Multi-channel*   
-  Activate this toggle to create a multi-channel attribute. Deactivate the toggle to create a single channel attribute. In the *Edit Attribute* view, this toggle is read-only.
+- ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Multi-scope*   
+  Activate this toggle to create a multi-scope attribute. Deactivate the toggle to create a single scope attribute. In the *Edit Attribute* view, this toggle is read-only.
 
-- ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Status*   
+- ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Active*   
   Activate this toggle to set the attribute status to active. Deactivate the toggle to set the status to inactive. By default, this toggle is active.
-
-- *Description*   
-  Description to the attribute.
-
 
 **CONFIGURATION**
 
 The *CONFIGURATION* section displays the additional configuration for the selected data type. The configuration fields differ depending on the selected data type.    
-For detailed information about the different configurations, see [Configuration list](to_be_completed).
+For detailed information about the different configurations of data types, see [Data type list](04_DataTypeList.md).
+
+
+### Edit attribute - Attribute Set Assignments
+*PIM > Settings > Tab ATTRIBUTES > Select attribute > Tab Attribute Set Assignments*
+
+![Attribute set assignments](/Assets/Screenshots/PIM/Settings/Attributes/EditAttribute_Assignments.png "[Attribute set assignments]")
+
+**Attribute Set Assignments**
+
+- ![Refresh](/Assets/Icons/Refresh01.png "[Refresh]") (Refresh)   
+  Click this button to update the list of attributes.
+
+- ![Columns](/Assets/Icons/Columns.png "[Columns]") Columns (x)   
+  Click this button to display the columns bar and customize the displayed columns and the order of columns in the list. The *x* indicates the number of columns that are currently displayed in the list.
+
+The list displays all attributes. All fields are read-only. Depending on the settings, the displayed columns may vary.
+
+- *Attribute Set*   
+  Assigned attribute set.
+
+
+- *Required*   
+  Indication whether the attribute is an required field in the attribute set or not:
+  - ![Check](/Assets/Icons/Check.png "[Check]") (Checkmark): The attribute is required.  
+  - ![Cross](/Assets/Icons/Cross02.png "[Cross]") (Cross): The attribute is optional.
+
+
+- *Inherited*   
+  Indication whether the attribute is an inherited attribute to the attribute set or not:
+  - ![Check](/Assets/Icons/Check.png "[Check]") (Checkmark): The attribute is inherited.  
+  - ![Cross](/Assets/Icons/Cross02.png "[Cross]") (Cross): The attribute is not inherited.
+
+
+- *Calculated Field*   
+  Indication whether the attribute is an calculated field or not:
+  - ![Check](/Assets/Icons/Check.png "[Check]") (Checkmark): The attribute is ???.  
+  - ![Cross](/Assets/Icons/Cross02.png "[Cross]") (Cross): The attribute is ???.
+
+  [comment]: <> (What means 'Calculated'? completeness calculation? what field are calculated?)

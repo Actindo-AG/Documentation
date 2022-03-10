@@ -1,8 +1,8 @@
-# Channels
+# Scopes
 
-*PIM > Settings > Tab CHANNELS*
+*PIM > Settings > Tab SCOPES*
 
-![Channels](/Assets/Screenshots/PIM/Settings/Channels/Channels.png "[Channels]")
+![Scopes](/Assets/Screenshots/PIM/Settings/Channels/Channels.png "[Channels]")
 
 **Channels**
 
@@ -18,7 +18,7 @@
 The list displays all available channels.
 
 - *Key*   
-  Channel key.
+  Scope key. The key is required for API access and must be system wide unique.
 
 - *Language*   
   Description to the channel.

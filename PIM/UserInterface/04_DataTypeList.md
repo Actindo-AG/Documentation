@@ -1,6 +1,6 @@
 # Data type list
 
-To create a new attribute, you have to define a data type. In the following, all available data types, their use and their configuration are described in detail.
+To [create an attribute](/PIM/Integration/01_ManageAttributes.md#create-an-attribute), you have to define a data type. In the following, all available data types, their use and their configuration are described in detail.
 
 ## Textfield
 

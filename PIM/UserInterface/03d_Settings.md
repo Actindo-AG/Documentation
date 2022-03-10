@@ -18,7 +18,7 @@
 The list displays all available languages.
 
 - *Key*   
-  Language key.
+  Language key. The key is required for API access and must be system wide unique.
 
 - *Language*   
   Description to the language.

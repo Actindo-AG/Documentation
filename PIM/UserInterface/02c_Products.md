@@ -23,15 +23,15 @@
 
 - [ARCHIVE PRODUCT] / [ARCHIVE PRODUCTS]   
   Click this button to archive the selected product(s). This button is only displayed, when the checkbox of at least one product is selected.
-  For detailed information, see [Archive a product](to_be_completed).
+  For detailed information, see [Archive a product](/PIM/Operation/03_MoveProducts.md#archive-a-product).
 
 - [RESTORE PRODUCT] / [RESTORE PRODUCTS]   
   Click this button to restore the selected product(s). This button is only displayed, when the checkbox of at least one product is selected.
-  For detailed information, see [Restore a product](to_be_completed).
+  For detailed information, see [Restore a product](/PIM/Operation/03_MoveProducts.md#restore-a-product).
 
 - [FINALLY DELETE PRODUCT] / [FINALLY DELETE PRODUCTS]      
   Click this button to delete the selected product(s) finally. This button is only displayed, when the checkbox of at least one product is selected.
-  For detailed information, see [Finally delete a product](to_be_completed).
+  For detailed information, see [Delete a product](/PIM/Operation/03_MoveProducts.md#delete-a-product).
 
 The list displays all products moved to recycle bin. All fields are read-only. Depending on the settings, the displayed columns may vary.
 

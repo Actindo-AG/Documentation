@@ -133,7 +133,7 @@ The following buttons and fields are only displayed when you have added a catego
   Enter a category name.
 
 - *Key*   
-  Enter a category key.
+  Enter a category key. The key is required for API access and must be system wide unique.
 
 - [CANCEL]   
   Click this button to cancel adding a category and close the *Add Element* window.
@@ -154,7 +154,7 @@ The following buttons and fields are only displayed when you have added a catego
   Click the field to edit the category name.
 
 - *Key*   
-  Click the field to edit the category key.
+  Click the field to edit the category key. The key is required for API access and must be system wide unique.
 
 - ![Delete](/Assets/Icons/Trash01.png "[Delete]") (Delete)   
   Click this button to remove the selected category.

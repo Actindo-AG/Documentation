@@ -1,3 +1,5 @@
+[!!PIM](Actindo/PIM)
+
 # Manage a product
 
 A product defines everything that can be offered and purchased on a market. All products are assigned to an attribute set and can be specified by the attributes within this set. You can create master products and [product variants](02_ManageVariants.md#create-product-variants), edit products, archive, delete or restore products and copy products. To offer a product on a marketplace you have to create an offer to the product, see [Create an offer in PIM](#create-an-offer-in-PIM).

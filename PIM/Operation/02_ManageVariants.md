@@ -1,3 +1,5 @@
+[!!PIM](Actindo/PIM)
+
 # Manage the variants
 
 A product variant is product with a special characteristic dependent on its master product. The defining attributes for the product variants are preset in their [variant set](/PIM/Integration/07_ManageVariantSets.md). You can create a variant directly when you create a master product, or you can add variants subsequently for an existing master product. Further, you can create a single variant or multiple variants to a master product.

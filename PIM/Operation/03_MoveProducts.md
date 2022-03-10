@@ -1,3 +1,5 @@
+[!!PIM](Actindo/PIM)
+
 # Move a product
 
 Move a product to either archive it, move it to the recycle bin, delete it finally or restore it.

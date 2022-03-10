@@ -1,3 +1,5 @@
+[!!PIM](Actindo/PIM)
+
 # Manage the view
 
 The *LIST* tab is the view where you can see and manage the products. To have a customized view for all purposes, you can modify various settings to adjust the view to your requirements and save individual views to quickly access the view you need.

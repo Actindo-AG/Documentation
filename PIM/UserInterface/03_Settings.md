@@ -1,7 +1,7 @@
 # Settings  
 *PIM > Setting*
 
-The PIM *Settings* menu entry is used to manage the PIM settings.
+The PIM menu entry *Settings* is used to manage the PIM settings.
 
 The *Settings* User Interface is composed of the following tabs:
   - [ATTRIBUTES](03a_Settings.md)
@@ -11,4 +11,3 @@ The *Settings* User Interface is composed of the following tabs:
   - [CHANNELS](03e_Settings.md)
   - [CATALOGS](03f_Settings.md)
   - [VARIANT SETS](03g_Settings.md)  
-  - [TAXES](03h_Settings.md)

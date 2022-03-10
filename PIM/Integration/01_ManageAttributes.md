@@ -1,4 +1,4 @@
-for instance[!!PIM](Actindo/PIM)
+[!!PIM](Actindo/PIM)
 [!!DataHub](Actindo/DataHub)
 
 # Manage an attribute
@@ -62,7 +62,7 @@ An attribute set is created, see [Create an attribute set](02_ManageAttributeSet
 2. Enter a name for the attribute in the *Name* field and, if desired, add an attribute description in the  *Description* field.
 
 3. Select a data type in the *Data type* drop-down list.   
- For detailed information about all data types, see [Data type list](to_be_completed).
+ For detailed information about all data types, see [Data type list](/PIM/UserInterface/04_DataTypeList.md).
 
    > [Info] The settings displayed in the *CONFIGURATION* section depend on the selected data type.
 
@@ -81,7 +81,7 @@ An attribute set is created, see [Create an attribute set](02_ManageAttributeSet
 
   > [Info] You can assign the attribute to multiple sets. Repeat the steps **7** to **8** to assign the attribute to a further attribute set. To delete the assignment to a selected set, click the ![Delete](/Assets/Icons/Trash01.png "[Delete]") (Delete) button right to the set.
 
-8. If required, configure the settings in the *CONFIGURATION* section. For detailed information about the different configuration settings, see [Data type list](to_be_completed).
+8. If required, configure the settings in the *CONFIGURATION* section. For detailed information about the different configuration settings, see [Data type list](/PIM/UserInterface/04_DataTypeList.md).
 
 9. Click the [SAVE] button in the upper right corner.   
   The new attribute is saved. The *Create Attribute* view is closed.  
@@ -103,7 +103,7 @@ An attribute set is created, see [Create an attribute set](02_ManageAttributeSet
 
 - [User Interface PIM](/PIM/UserInterface/00_UserInterface.md)
 - [Manage the products](/PIM/Operation/01_ManageProducts.md)
-- [Data type list](to_be_completed)
+- [Data type list](/PIM/UserInterface/04_DataTypeList.md)
 
 
 ## Edit an attribute

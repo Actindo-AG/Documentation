@@ -1,31 +1,31 @@
-# Groups
+# Attribute Groups
 
-*PIM > Settings > Tab GROUPS*
+*PIM > Settings > Tab ATTRIBUTE GROUPS*
 
-![Group attributes](/Assets/Screenshots/PIM/Settings/Groups/GroupAttributes.png "[Group attributes]")
+![Groups](/Assets/Screenshots/PIM/Settings/AttributeGroups/Groups.png "[Groups]")
 
 **Groups**
 
 - ![Edit](/Assets/Icons/Edit02.png "[Edit]") (Edit)   
-  Click this button to edit the groups. The *Edit groups* view is displayed.   
-  For detailed information, see [Edit a group](to_be_completed).
+  Click this button to edit the attribute groups. The *Edit groups* view is displayed.   
+  For detailed information, see [Edit an attribute group](/PIM/Integration/03_ManageGroups.md#edit-an-attribute-group).
 
 - ![Folders](/Assets/Icons/Folders01.png "[Folders]") (Folders)  
-  Group that contains sub-groups. Click the group or the arrow *>* left to the group to unfold the group and display the sub-groups.
+  Attribute group that contains sub-groups. Click the group or the arrow *>* left to the group to unfold the group and display the sub-groups.
 
 - ![Folder](/Assets/Icons/Folder01.png "[Folder]") (Folder)  
-  Attribute group. Click the group to display all attributes that are assigned to this group in the right part.
+  Attribute group. Click the group to display all attributes that are assigned to the selected group in the *Assigned Attributes* list.
 
-**Attributes**
+**Assigned Attributes**
 
 - ![Sort](/Assets/Icons/Sort02.png "[Sort]") (Sort)   
-  Click this button to display the filter bar and customize the active filters. The *x* indicates the number of filters that are currently active. The button is only displayed when a group is selected.
+  Click this button to display the filter bar and customize the active filters. The *x* indicates the number of filters that are currently active. The button is only displayed when an attribute group is selected.
 
 - ![Search](/Assets/Icons/Search.png "[Search]") (Search)   
-  Click this button to display the search bar and search for a group. The button is only displayed when a group is selected.
+  Click this button to display the search bar and search for an attribute. The button is only displayed when an attribute group is selected.
 
 - ![Refresh](/Assets/Icons/Refresh01.png "[Refresh]") (Refresh)   
-  Click this button to update the list of groups. The button is only displayed when a group is selected.
+  Click this button to update the list of assigned attributes. The button is only displayed when an attribute group is selected.
 
 - ![Columns](/Assets/Icons/Columns.png "[Columns]") Columns (x)   
   Click this button to display the columns bar and customize the displayed columns and the order of columns in the list. The *x* indicates the number of columns that are currently displayed in the list.
@@ -38,21 +38,23 @@
 
   > [Info] If you remove an attribute from the group, the attribute itself is not deleted, but it is unassigned to the selected group.  
 
-The list displays all attributes assigned to the selected group. All fields are read-only. Depending on the settings, the displayed columns may vary. When no group is selected, the list is empty.
+The list displays all attributes assigned to the selected attribute group. All fields are read-only. Depending on the settings, the displayed columns may vary. When no attribute is assigned to the selected group, the notice *No attribute assigned. Use + button to assign one* is displayed.
 
 - *Name*   
   Attribute name.
 
 - *Key*   
-  Attribute key.
+  Attribute key. The key is required for API access and must be system wide unique.
 
 - *Description*   
   Description to the attribute.
 
 - *Plugin*   
-  ???
+  Module or plugin from which the attribute is created. In the *PIM* module, only PIM attributes are displayed.
+  [comment]: <> (Is that correct?)
 
-- *Read only*   
+
+- *Read-only*   
   Indication whether the attribute is read-only or not:
   - ![Check](/Assets/Icons/Check.png "[Check]") (Checkmark): The attribute is read-only.  
   - ![Cross](/Assets/Icons/Cross02.png "[Cross]") (Cross): The attribute can be edited.
@@ -66,15 +68,17 @@ The list displays all attributes assigned to the selected group. All fields are 
 
 
 ## Add attributes to group
-*PIM > Settings > Tab GROUPS > Button Add*
+*PIM > Settings > Tab ATTRIBUTE GROUPS > Button Add*
 
-![Add attributes](/Assets/Screenshots/PIM/Settings/Groups/AddAttributes.png "[Add attributes]")
+![Add attributes](/Assets/Screenshots/PIM/Settings/AttributeGroups/AddAttributes.png "[Add attributes]")
 
 - ![Back](/Assets/Icons/Back02.png "[Back]") (Back)   
-  Click this button to cancel adding an attribute to the selected group and close the *Add Attribute to Group* view.
+  Click this button to cancel adding an attribute to the selected attribute group and close the *Add Attribute to Group* view.
 
 - ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Only Unassigned Attributes*   
-  Activate this toggle to display only the attributes that are not assigned to any group. Deactivate the toggle to display all attributes. By default, this toggle is inactive.
+  Activate this toggle to display only the attributes that are not yet assigned to any group. Deactivate the toggle to display all attributes. By default, this toggle is inactive.
+
+  > [Info] An attribute can be assigned to one attribute group or sub-group only. When you add an attribute to a group that is already added to another group, it is automatically removed from the former group.
 
 - ![Search](/Assets/Icons/Search.png "[Search]") (Search)   
   Click this button to display the search bar and search for an attribute.
@@ -88,10 +92,8 @@ The list displays all attributes assigned to the selected group. All fields are 
 - [x]     
   Select the checkbox to display the editing toolbar. If you click the checkbox in the header, all attributes in the list are selected. Alternatively, you can click directly a row in the list to select the attribute.
 
-- [ADD]
+- [ADD]   
   Click this button to add the selected attribute to the group. The *Add Attributes to Group* view is closed.
-
-  > [Info] If you remove an attribute from the group, the attribute itself is not deleted, but it is unassigned to the selected group.  
 
 The list displays all attributes that are not assigned to the selected group. All fields are read-only. Depending on the settings, the displayed columns may vary.
 
@@ -99,7 +101,7 @@ The list displays all attributes that are not assigned to the selected group. Al
   Attribute name.
 
 - *Key*   
-  Attribute key.
+  Attribute key. The key is required for API access and must be system wide unique.
 
 - *Current Group*   
   Group to which the attribute is currently assigned.
@@ -113,7 +115,7 @@ The list displays all attributes that are not assigned to the selected group. Al
   - ![Status](/Assets/Icons/Status04.png "[Status]") **Inactive**   
 
 
-- *Read only*   
+- *Read-only*   
   Indication whether the attribute is read-only or not:
   - ![Check](/Assets/Icons/Check.png "[Check]") (Checkmark): The attribute is read-only.  
   - ![Cross](/Assets/Icons/Cross02.png "[Cross]") (Cross): The attribute can be edited.
@@ -122,20 +124,21 @@ The list displays all attributes that are not assigned to the selected group. Al
 - *ID*   
   Attribute identification number. The ID number is automatically assigned by the system.
 
+[comment]: <> (Hier weiter)
 
 ## Edit groups
-*PIM > Settings > Tab GROUPS > Button Edit*
+*PIM > Settings > Tab ATTRIBUTE GROUPS > Button Edit*
 
-![Edit groups](/Assets/Screenshots/PIM/Settings/Groups/EditGroups.png "[Edit groups]")
+![Edit groups](/Assets/Screenshots/PIM/Settings/AttributeGroups/EditGroups.png "[Edit groups]")
 
 - ![Back](/Assets/Icons/Back02.png "[Back]") (Back)   
-  Click this button to cancel editing groups and close the *Edit groups* view.
+  Click this button to close the *Edit groups* view and return to the *Groups* view. All changes are rejected.
 
 - [CANCEL]   
-  Click this button to cancel creating an attribute set, close the *Create Set* view and return to the attribute sets list.
+  Click this button to cancel editing groups and close the *Edit groups* view.
 
 - [SAVE]   
-  Click this button to save the attribute set, close the *Create Set* view and return to the attribute sets list.
+  Click this button to save all changes and close the *Edit groups* view.
 
 - ![Sort](/Assets/Icons/Sort01.png "[Sort]") (Sort)   
   Click and hold this button to move the selected group to another position in the list using drag and drop.
@@ -167,9 +170,9 @@ The list displays all attributes that are not assigned to the selected group. Al
 
 
 ### Add element
-*PIM > Settings > Tab GROUPS > Button Edit > Button Add*
+*PIM > Settings > Tab ATTRIBUTE GROUPS > Button Edit > Button Add*
 
-![Add element](/Assets/Screenshots/PIM/Settings/Groups/AddElement.png "[Add element]")
+![Add element](/Assets/Screenshots/PIM/Settings/AttributeGroups/AddElement.png "[Add element]")
 
 > [Info] The *Add Element* window for groups and sub-groups is identical.
 
@@ -177,7 +180,7 @@ The list displays all attributes that are not assigned to the selected group. Al
   Enter a group name.
 
 - *Key*   
-  Enter a group key.
+  Enter a group key. The key is required for API access and must be system wide unique.
 
 - [CANCEL]   
   Click this button to cancel adding a group, close the *Add Element* window and return to the *Edit groups* view.
@@ -189,15 +192,15 @@ The list displays all attributes that are not assigned to the selected group. Al
 
 
 ### Edit group data
-*PIM > Settings > Tab GROUPS > Button Edit > Hover over group > Button Edit*
+*PIM > Settings > Tab ATTRIBUTE GROUPS > Button Edit > Hover over group > Button Edit*
 
-![Group data](/Assets/Screenshots/PIM/Settings/Groups/GroupData.png "[Group data]")
+![Group data](/Assets/Screenshots/PIM/Settings/AttributeGroups/GroupData.png "[Group data]")
 
 - *Name*   
   Click the field to edit the group name.
 
 - *Key*   
-  Click the field to edit the group key.
+  Click the field to edit the group key. The key is required for API access and must be system wide unique.
 
 - ![Delete](/Assets/Icons/Trash01.png "[Delete]") (Delete)   
   Click this button to remove the selected group.

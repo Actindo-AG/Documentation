@@ -126,10 +126,10 @@ The list displays all defining attributes to the variant set. All fields are rea
   Attribute name.
 
 - *Key*   
-  Attribute key.
+  Attribute key. The key is required for API access and must be system wide unique.
 
 - *Data Type*   
-  Attribute data type. For detailed information about all data types, see [Data types list](to_be_completed).
+  Attribute data type. For detailed information about all data types, see [Data type list](04_DataTypeList.md).
 
 - ![Delete](/Assets/Icons/Trash01.png "[Delete]") (Delete)   
   Click this button to delete the selected attribute from the box. This button is only displayed, when you hover over an attribute in the box.
@@ -145,10 +145,10 @@ The list displays all differing attributes to the variant set. All fields are re
   Attribute name.
 
 - *Key*   
-  Attribute key.
+  Attribute key. The key is required for API access and must be system wide unique.
 
 - *Data Type*   
-  Attribute data type. For detailed information about all data types, see [Data types list](to_be_completed).
+  Attribute data type. For detailed information about all data types, see [Data type list](04_DataTypeList.md).
 
 - ![Delete](/Assets/Icons/Trash01.png "[Delete]") (Delete)   
   Click this button to delete the selected attribute from the box. This button is only displayed, when you hover over an attribute in the box.
@@ -184,10 +184,10 @@ The list displays all available defining attributes. All fields are read-only. D
   Attribute name.
 
 - *Key*   
-  Attribute key.
+  Attribute key. The key is required for API access and must be system wide unique.
 
 - *Data Type*   
-  Attribute data type. For detailed information about all data types, see [Data types list](to_be_completed).
+  Attribute data type. For detailed information about all data types, see [Data type list](04_DataTypeList.md).
 
 - *ID*   
   Attribute identification number. The ID number is automatically assigned by the system.
@@ -223,10 +223,10 @@ The list displays all available defining attributes. All fields are read-only. D
   Attribute name.
 
 - *Key*   
-  Attribute key.
+  Attribute key. The key is required for API access and must be system wide unique.
 
 - *Data Type*   
-  Attribute data type. For detailed information about all data types, see [Data types list](to_be_completed).
+  Attribute data type. For detailed information about all data types, see [Data type list](04_DataTypeList.md).
 
 - *ID*   
   Attribute identification number. The ID number is automatically assigned by the system.

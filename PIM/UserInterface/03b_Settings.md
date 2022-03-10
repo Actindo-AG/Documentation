@@ -1,64 +1,67 @@
-Attribute set# Attribute Sets
+# Attribute Sets
 
 *PIM > Settings > Tab ATTRIBUTE SETS*
 
 ![Attribute sets](/Assets/Screenshots/PIM/Settings/AttributeSets/AttributeSets.png "[Attribute sets]")
 
 - [IMPORT]   
-  Click this button to import a attribute set and start the import wizard.   
-  For detailed information, see [Import a attribute set](to_be_completed).
+  Click this button to import an attribute set and start the import wizard.   
+  For detailed information, see [Import an attribute set](/PIM/Integration/02_ManageAttributeSets.md#import-an-attribute-set).
 
 - ![Search](/Assets/Icons/Search.png "[Search]") (Search)   
   Click this button to display the search bar and search for a attribute sets.
 
 - ![Refresh](/Assets/Icons/Refresh01.png "[Refresh]") (Refresh)   
-  Click this button to update the table of attribute sets.
+  Click this button to update the list of attribute sets.
 
 - ![Columns](/Assets/Icons/Columns.png "[Columns]") Columns (x)   
-  Click this button to display the columns bar and customize the displayed columns and the order of columns in the table. The *x* indicates the number of columns that are currently displayed in the table.
+  Click this button to display the columns bar and customize the displayed columns and the order of columns in the list. The *x* indicates the number of columns that are currently displayed in the list.
 
 - ![Filter](/Assets/Icons/Filter.png "[Filter]") Filter (x)   
   Click this button to display the filter bar and customize the active filters. The *x* indicates the number of filters that are currently active.
 
 - [x]     
-  Select the checkbox to display the editing toolbar. If you click the checkbox in the header, all attribute sets in the table are selected.
-
-- ![Edit](/Assets/Icons/Edit01.png "[Edit]") (Edit)   
-  Click this button to edit the selected attribute set. This button is only displayed, when a single checkbox of a attribute set is selected. Alternatively, you can click directly a row in the table to edit a attribute set.
-  For detailed information, see [Edit a attribute set](to_be_completed).
-
-- ![Delete](/Assets/Icons/Trash03.png "[Delete]") (Delete)   
-  Click this button to delete the selected attribute set. This button is only displayed, when the checkbox of a attribute set is selected.       
-  For detailed information, see [Delete a attribute set](to_be_completed).
+  Select the checkbox to display the editing toolbar. If you click the checkbox in the header, all attribute sets in the list are selected.
 
 - [EXPORT]   
-  Click this button to export the selected attribute set. The [export wizard](#Export-wizard) is displayed.
+  Click this button to export the selected attribute set. The export wizard window is displayed. This button is only displayed, when the checkbox of at least one attribute set is selected. For detailed information, see [Export an attribute set](/PIM/Integration/02_ManageAttributeSets.md#export-an-attribute-set).
 
-The table displays all attribute sets.  All fields are read-only. Depending on the settings, the displayed columns may vary.
+- [EDIT]
+  Click this button to edit the selected attribute set. This button is only displayed, when a single checkbox of an attribute set is selected. Alternatively, you can click directly a row in the list to edit a attribute set.
+  For detailed information, see [Edit an attribute set](/PIM/Integration/02_ManageAttributeSets.md#edit-an-attribute-set).
+
+- [DELETE]
+  Click this button to delete the selected attribute set. This button is only displayed, when the checkbox of at least one attribute set is selected.       
+
+  [comment]: <> (Mostly not possible to delete an attribute set -> no integration procedure to delete an attribute set -> why is the button still existing? Not working... )
+
+
+The list displays all attribute sets. All fields are read-only. Depending on the settings, the displayed columns may vary.
 
 - *Name*   
   Attribute set name.
 
 - *Key*   
-  Attribute set key.
+  Attribute set key. The key is required for API access and must be system wide unique.
 
 - *Description*   
   Description to the attribute set.
 
 - *Status*   
-  Attribute set status. The following statuses are available:
+  Attribute set status. The following statuses are displayed:
   - ![Status](/Assets/Icons/Status01.png "[Status]") **Active**
   - ![Status](/Assets/Icons/Status04.png "[Status]") **Inactive**   
 
 
-- *Read only*   
+- *Read-only*   
   Indication whether the attribute set is read-only or not:
   - ![Check](/Assets/Icons/Check.png "[Check]") (Checkmark): The attribute set is read-only.  
   - ![Cross](/Assets/Icons/Cross02.png "[Cross]") (Cross): The attribute set can be edited.
 
 
 - *Plugin*   
-  ???
+  Module or plugin from which the attribute set is created. In the *PIM* module, only PIM attribute sets are displayed.
+  [comment]: <> (Is that correct?)
 
 - *ID*   
   Attribute set identification number. The ID number is automatically assigned by the system.
@@ -75,6 +78,12 @@ The table displays all attribute sets.  All fields are read-only. Depending on t
 - *Created by*   
   Name and username of the user who created the attribute set.
 
+- *Name (Language)*   
+  Attribute name in the displayed language. For each active language exists one *Name* column.
+
+- *Description (Language)*   
+  Attribute description in the displayed language. For each active language exists one *Description* column.
+
 - ![Add](/Assets/Icons/Plus01.png "[Add]") (Add)   
   Click this button to create a attribute set. The *Create Set* view is displayed.   
 
@@ -82,103 +91,51 @@ The table displays all attribute sets.  All fields are read-only. Depending on t
 ## Create attribute set
 *PIM > Settings > Tab ATTRIBUTE SETS > Button Add*
 
-![Create set](/Assets/Screenshots/PIM/Settings/AttributeSets/CreateSet.png "[Create set]")
+![Create attribute set](/Assets/Screenshots/PIM/Settings/AttributeSets/CreateAttributeSet.png "[Create attribute set]")
 
-- ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Status*   
-  Activate this toggle to set the attribute set status to active. Deactivate the toggle to set the status to inactive. By default, this toggle is active.
+- ![Back](/Assets/Icons/Back02.png "[Back]") (Back)   
+  Click this button to close the *Create Attribute Set* view and return to the attribute set list. All changes are rejected.
 
-**BASIC DATA**
+- Language   
+  Click the drop-down list and select the language in which the *Name (Language)* and *Description (Language)* fields are displayed. All languages, that are active in the *PIM* module are displayed in the drop-down list.
+  [comment]: <> (Is that right? -> language question)
 
-- *Name*   
-  Attribute set name.
+- [SAVE]   
+  Click this button to save the attribute set, close the *Create Attribute Set* view and return to the attribute set list.
 
-- *Description*   
-  Description to the attribute set.
+- *Name (Language)*   
+  Attribute set name in the selected language.
+
+- *Description (Language)*   
+  Description to the attribute set in the selected language.
 
 - *Key*   
-  Attribute set key.
+  Attribute set key. The key is required for API access and must be system wide unique.
 
+- ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Active*   
+  Activate this toggle to set the attribute set status to active. Deactivate the toggle to set the status to inactive. By default, this toggle is active.
 
-**Inheritance**
 
 - *Inherit/Copy Values from*   
   Click the drop-down list to select whether or not the values for the new attribute set should be inherited or copied from an existing attribute set. The following options are available:    
-  - **no inheritance**: The values are neither inherited nor copied from an existing attribute set. The toggle *Inherit Configuration* and the drop-down list *Inherit/Copy Values* are locked.
+  - **No inheritance**: The values are neither inherited nor copied from an existing attribute set. The *Inherit Configuration* toggle and the *Inherit/Copy Values* drop-down list are locked.
   - **Attribute set name**: The values inherited or copied from the selected attribute set. All existing attribute sets are displayed in the drop-down list.  
 
 
 - ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Inherit Configuration*   
-  Activate this toggle to inherit not only the values of the selected attribute set, but also their configuration. Deactivate the toggle to inherit the values without configuration. By default, this toggle is active. This toggle is locked if the option **no inheritance** is selected in the drop-down list *Inherit/Copy Values from*.
+  Activate this toggle to inherit not only the values of the selected attribute set, but also their configuration. Deactivate the toggle to inherit the values without configuration. By default, this toggle is active. This toggle is locked if the **no inheritance** option is selected in the *Inherit/Copy Values from* drop-down list.
 
 
 - *Inherit/Copy Values*   
   Click the drop-down list to select the inheritance type. The following types are available:    
-  - **Einmal kopieren**: The attribute values are applied once from the selected attribute set, but afterwards they are independent of changes in the selected set.
-  - **Vererben**: The attribute values are applied from the selected attribute set and updated each time if the selected set changes.
+  - **Copy once**: The attribute values are applied once from the selected attribute set, but afterwards they are independent of changes in the selected set.
+  - **Inherit**: The attribute values are applied from the selected attribute set and updated each time if the selected set changes.
 
 
-- [CANCEL]   
-  Click this button to cancel creating a attribute set, close the *Create Set* view and return to the attribute sets list.
-
-- [SAVE]   
-  Click this button to save the attribute set, close the *Create Set* view and return to the attribute sets list.
-
-
-**Attribute List**
-
-In the *Create Set* view, no attributes are displayed in the list on the right side of the view. You have to save the attribute set to edit the attribute list.   
-
-[comment]: <> (Is it right that no attributes are displayed on the right side in the *Create Set* view and that the Add button didn't work?)
-
-
-## Edit attribute set
-*PIM > Settings > Tab ATTRIBUTE SETS > Select attribute set*
-
-![Edit set](/Assets/Screenshots/PIM/Settings/AttributeSets/EditSet.png "[Edit set]")
-
-- ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Status*   
-  Activate this toggle to set the attribute set status to active. Deactivate the toggle to set the status to inactive. By default, this toggle is active.
-
-**BASIC DATA**
-
-- *Name*   
-  Attribute set name.
-
-- *Description*   
-  Description to the attribute set.
-
-- *Key*   
-  Attribute set key. In the *Edit Set* view, this field is locked.
-
-
-**Inheritance**
-
-- *Inherit/Copy Values from*   
-  Click the drop-down list to select whether or not the values for the new attribute set should be inherited or copied from an existing attribute set. The following options are available:    
-  - **no inheritance**: The values are neither inherited nor copied from an existing attribute set. The toggle *Inherit Configuration* and the drop-down list *Inherit/Copy Values* are locked.
-  - **Attribute set name**: The values inherited or copied from the selected attribute set. All existing attribute sets are displayed in the drop-down list.  
-
-
-- ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Inherit Configuration*   
-  Activate this toggle to inherit not only the values of the selected attribute set, but also their configuration. Deactivate the toggle to inherit the values without configuration. By default, this toggle is active. This toggle is locked if the option **no inheritance** is selected in the drop-down list *Inherit/Copy Values from*.
-
-
-- *Inherit/Copy Values*   
-  Click the drop-down list to select the inheritance type. The following types are available:    
-  - **Einmal kopieren**: The attribute values are applied once from the selected attribute set, but afterwards they are independent of changes in the selected set.
-  - **Vererben**: The attribute values are applied from the selected attribute set and updated each time if the selected set changes.
-
-
-- [CANCEL]   
-  Click this button to cancel creating a attribute set, close the *Create Set* view and return to the attribute sets list.
-
-- [SAVE]   
-  Click this button to save the attribute set, close the *Create Set* view and return to the attribute sets list.
-
-**Attribute List**
+**Assigned Attributes**
 
 - ![Settings](/Assets/Icons/Settings01.png "[Settings]") (Settings)   
-  Click this button to unlock the column *required* in the below table of attributes. The color of the button switches to blue if the column is unlocked. Click the button again to lock the column *required*. The button color switches back to gray.
+  Click this button to unlock the *required* column in the attributes list. The color of the button switches to blue if the column is unlocked. Click the button again to lock the *required* column. The button color switches back to gray.
 
 - ![Search](/Assets/Icons/Search.png "[Search]") (Search)   
   Click this button to display the search bar and search for an attribute.
@@ -187,50 +144,127 @@ In the *Create Set* view, no attributes are displayed in the list on the right s
   Click this button to update the list of attributes.
 
 - ![Columns](/Assets/Icons/Columns.png "[Columns]") Columns (x)   
-  Click this button to display the columns bar and customize the displayed columns and the order of columns in the table. The *x* indicates the number of columns that are currently displayed in the table.
+  Click this button to display the columns bar and customize the displayed columns and the order of columns in the list. The *x* indicates the number of columns that are currently displayed in the list.
+
+- [x]     
+  Select the checkbox to display the editing toolbar. If you click the checkbox in the header, all attributes in the list are selected.
+
+In the *Create Attribute Set* view, no attributes are displayed in list. You have to save the attribute set to edit the assigned attributes.   
+
+
+## Edit attribute set
+*PIM > Settings > Tab ATTRIBUTE SETS > Select attribute set*
+
+![Edit attribute set](/Assets/Screenshots/PIM/Settings/AttributeSets/EditAttributeSet.png "[Edit attribute set]")
+
+- ![Back](/Assets/Icons/Back02.png "[Back]") (Back)   
+  Click this button to close the *Edit Attribute Set* view and return to the attribute set list. All changes are rejected.
+
+- Language   
+  Click the drop-down list and select the language in which the *Name (Language)* and *Description (Language)* fields are displayed. All languages, that are active in the *PIM* module are displayed in the drop-down list.
+  [comment]: <> (Is that right? -> language question)
+
+- [SAVE]   
+  Click this button to save the attribute set, close the *Edit Attribute Set* view and return to the attribute set list.
+
+- *Name (Language)*   
+  Attribute set name in the selected language.
+
+- *Description (Language)*   
+  Description to the attribute set in the selected language.
+
+- *Key*   
+  Attribute set key. The key is required for API access and must be system wide unique. In the *Edit Attribtue Set* view, this field is locked.
+
+- ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Active*   
+  Activate this toggle to set the attribute set status to active. Deactivate the toggle to set the status to inactive. By default, this toggle is active.
+
+
+- *Inherit/Copy Values from*   
+  Click the drop-down list to select whether or not the values for the new attribute set should be inherited or copied from an existing attribute set. The following options are available:    
+  - **No inheritance**: The values are neither inherited nor copied from an existing attribute set. The *Inherit Configuration* toggle and the *Inherit/Copy Values* drop-down list are locked.
+  - **Attribute set name**: The values inherited or copied from the selected attribute set. All existing attribute sets are displayed in the drop-down list.  
+
+
+- ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Inherit Configuration*   
+  Activate this toggle to inherit not only the values of the selected attribute set, but also their configuration. Deactivate the toggle to inherit the values without configuration. By default, this toggle is active. This toggle is locked if the **no inheritance** option is selected in the *Inherit/Copy Values from* drop-down list.
+
+
+- *Inherit/Copy Values*   
+  Click the drop-down list to select the inheritance type. The following types are available:    
+  - **Copy once**: The attribute values are applied once from the selected attribute set, but afterwards they are independent of changes in the selected set.
+  - **Inherit**: The attribute values are applied from the selected attribute set and updated each time if the selected set changes.
+
+> [Info] For the *PIM Basic Set* which is predefined by the system, the inheritance settings are read-only.
+
+
+**Assigned Attributes**
+
+- ![Settings](/Assets/Icons/Settings01.png "[Settings]") (Settings)   
+  Click this button to unlock the *required* column in the attributes list. The color of the button switches to blue if the column is unlocked. Click the button again to lock the *required* column. The button color switches back to gray.
+
+- ![Search](/Assets/Icons/Search.png "[Search]") (Search)   
+  Click this button to display the search bar and search for an attribute.
+
+- ![Refresh](/Assets/Icons/Refresh01.png "[Refresh]") (Refresh)   
+  Click this button to update the list of attributes.
+
+- ![Columns](/Assets/Icons/Columns.png "[Columns]") Columns (x)   
+  Click this button to display the columns bar and customize the displayed columns and the order of columns in the list. The *x* indicates the number of columns that are currently displayed in the list.
 
 - ![Filter](/Assets/Icons/Filter.png "[Filter]") Filter (x)   
   Click this button to display the filter bar and customize the active filters. The *x* indicates the number of filters that are currently active.
 
 - [x]     
-  Select the checkbox to display the editing toolbar. If you click the checkbox in the header, all attributes in the table are selected.
+  Select the checkbox to display the editing toolbar. If you click the checkbox in the header, all attributes in the list are selected.
 
 - ![Edit](/Assets/Icons/Edit01.png "[Edit]") (Edit)   
-  Click this button to edit the selected attributes configuration. This button is only displayed, when a single checkbox of an attribute is selected and the configuration can be edited. The *Edit attribute for set* view is displayed. Alternatively, you can click directly a row in the table to edit an attribute configuration.
+  Click this button to edit the configuration of the selected attribute. This button is only displayed, when a single checkbox of an attribute with an editable configuration is selected. The *Edit attribute for set* view is displayed. Alternatively, you can click directly a row in the list to edit an attribute configuration.
 
-  [comment]: <> (what attributes configuration can be edited?)
+[comment]: <> (Not working)
 
 - ![Delete](/Assets/Icons/Trash03.png "[Delete]") (Delete)   
-  Click this button to remove the selected attribute from the attribute set. This button is only displayed, when the checkbox of an attribute is selected.       
+  Click this button to remove the selected attribute from the attribute set. This button is only displayed, when at least one checkbox of an attribute is selected.       
 
   > [Info] If you remove an attribute from the attribute set, the attribute itself is not deleted, but it is unassigned to the selected attribute set.   
 
-The table displays all attributes assigned to the selected attribute set. Depending on the settings, the displayed columns may vary.
+- [ADD MAPPING]   
+  Click this button to add a mapping to the selected attribute. The *Add mapping* view is displayed. You can only add a mapping for attribute sets that are not inherited from another attribute set. This button is only displayed, when a single checkbox of an attribute is selected.
+
+
+The list displays all attributes assigned to the selected attribute set. When the ![Settings](/Assets/Icons/Settings01.png "[Settings]") (Settings) button is gray, all fields are read-only.  When the ![Settings](/Assets/Icons/Settings02.png "[Settings]") (Settings) button is blue, the field *required* is editable. Depending on the settings, the displayed columns may vary.
 
 - *Name*   
   Attribute name.
 
+- *Calculated Field*   
+  Indication whether the attribute is an calculated field or not:
+  - ![Check](/Assets/Icons/Check.png "[Check]") (Checkmark): The attribute is ???.  
+  - ![Cross](/Assets/Icons/Cross02.png "[Cross]") (Cross): The attribute is ???.
+
 - *Key*   
-  Attribute key.
+  Attribute key. The key is required for API access and must be system wide unique.
 
 - *Data Type*   
-  Attribute data type. For detailed information about all data types, see [Data types list](to_be_completed).
+  Attribute data type. For detailed information about all data types, see [Data type list](04_DataTypeList.md).
 
 - *inherited from*   
   Inheritance attribute set. The name of the attribute set from which the attribute value is inherited is displayed. If the attribute value is not inherited, the row is empty.
 
 - *Plugin*   
-  ???
-
-- *required*  
-  - Indication whether the attribute value is required or not. The following options are only displayed, when the button ![Settings](/Assets/Icons/Settings01.png "[Settings]") (Settings) is inactive:
-    - ![Check](/Assets/Icons/Check.png "[Check]") (Checkmark): The attribute value is required and considered for completeness.
-    - ![Cross](/Assets/Icons/Cross02.png "[Cross]") (Cross): The attribute value is optional.   
-  - **![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *required***   
-    Activate this toggle to set the attribute value as a mandatory field. Deactivate the toggle to set the attribute value as an optional field. The toggle is only displayed, when the button ![Settings](/Assets/Icons/Settings01.png "[Settings]") (Settings) is active. The toggle is locked when the attribute value is inherited from another attribute set.
+  Module or plugin from which the attribute is created. In the *PIM* module, only PIM attributes are displayed.
+  [comment]: <> (Is that correct?)
 
 
-- *Read only*   
+- *Required*   
+  Indication whether the attribute is an required field in the attribute set or not.
+  When the ![Settings](/Assets/Icons/Settings02.png "[Settings]") (Settings) button is blue, the ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *required* toggle is displayed. Activate the toggle to set the attribute value as a mandatory field. Deactivate the toggle to set the attribute value as an optional field.   
+  When the ![Settings](/Assets/Icons/Settings01.png "[Settings]") (Settings) button is gray, the following options are displayed:
+  - ![Check](/Assets/Icons/Check.png "[Check]") (Checkmark): The attribute is required.  
+  - ![Cross](/Assets/Icons/Cross02.png "[Cross]") (Cross): The attribute is optional.   
+
+
+- *Read-only*   
   Indication whether the attribute value is read-only or not:
   - ![Check](/Assets/Icons/Check.png "[Check]") (Checkmark): The attribute value is read-only.  
   - ![Cross](/Assets/Icons/Cross02.png "[Cross]") (Cross): The attribute value can be edited.
@@ -251,31 +285,74 @@ The table displays all attributes assigned to the selected attribute set. Depend
   - ![Cross](/Assets/Icons/Cross02.png "[Cross]") (Cross): The attribute is single language.
 
 
-- *Multi-channel*   
-  Indication whether the attribute is multi-channel or not:
-  - ![Check](/Assets/Icons/Check.png "[Check]") (Checkmark): The attribute is multi-channel.  
-  - ![Cross](/Assets/Icons/Cross02.png "[Cross]") (Cross): The attribute is single channel.
+- *Multi-scope*   
+  Indication whether the attribute is multi-scope or not:
+  - ![Check](/Assets/Icons/Check.png "[Check]") (Checkmark): The attribute is multi-scope.  
+  - ![Cross](/Assets/Icons/Cross02.png "[Cross]") (Cross): The attribute is single scope.
 
 
 ### Edit attribute for set
 
 [comment]: <> (Not working anymore?)
 
-*PIM > Settings > Tab ATTRIBUTE SETS > Select attribute set > Select attribute*
+*PIM > Settings > Tab ATTRIBUTE SETS > Select attribute set > Select attribute with configuration*
 
-![Edit Attribute for Set](/Assets/Screenshots/PIM/Settings/AttributeSets/EditAttribute.png "[Edit Attribute for  Set]")
+![Edit Attribute for Set](/Assets/Screenshots/PIM/Settings/AttributeSets/EditAttribute.png "[Edit Attribute for Set]")
+
+- ![Back](/Assets/Icons/Back02.png "[Back]") (Back)   
+  Click this button to close the *Edit Attribute for Set* view and return to *Edit Attribute Set* view. All changes are rejected.
 
 - [CANCEL]   
-  Click this button to cancel editing the configuration, close the *Edit Attribute for Set* view and return to the *Edit Set* view.
+  Click this button to cancel editing the configuration, close the *Edit Attribute for Set* view and return to the *Edit Attribute Set* view.
 
 - [SAVE]   
-  Click this button to save the changes, close the *Edit Attribute for Set* view and return to the *Edit Set* view.
+  Click this button to save the changes, close the *Edit Attribute for Set* view and return to the *Edit Attribute Set* view.
 
 **CONFIGURATION**
 
 The *CONFIGURATION* section displays the additional configuration for the data type of the selected attribute. The configuration fields differ depending on the data type of the attribute.    
 For detailed information about the different configurations, see [Configuration list](to_be_completed).
 
+
+### Add mapping
+
+*PIM > Settings > Tab ATTRIBUTE SETS > Select attribute set > Select attribute checkbox > Button ADD MAPPING*
+
+![Add mapping](/Assets/Screenshots/PIM/Settings/AttributeSets/AddMapping.png "[Add mapping]")
+
+**Add Mapping**
+
+This view equals to the attribute mapping in the *DataHub* module: *DataHub > Settings > Tab ETL > Select attribute set mapping > Select mapping line*   
+
+- ![Back](/Assets/Icons/Back02.png "[Back]") (Back)   
+  Click this button to close the *Edit Mapping* view and return to *Edit Attribute Set* view. All changes are rejected.
+
+- Destination attribute   
+  Selected attribute on the right side of the view. The attribute cannot be changed.
+
+- *Language*   
+  Language of the destination attribute. The drop-down list is read-only. The drop-down list is only displayed when the destination attribute is multilingual.
+
+- *Scope*   
+  Scope of the destination attribute. The drop-down list is read-only. The drop-down list is only displayed when the destination attribute is multi-scope.
+
+- *Extension*   
+  Click the drop-down list and select the desired ETL extension for the mapping. The extensions in the list differ depending on the data type of the destination attribute.
+
+- *Override Changetrackingmode*   
+  Change tracking mode (ETL mode) for the mapping. The drop-down list is read-only. The option **use default** is preset.
+
+The fields on the left side differ depending on the selected ETL extension. For detailed information about the ETL extensions and how to create an attribute mapping, see [ETL extensions](to_be_completed) and [Create a mapping](to_be_completed).
+
+
+**Configuration**
+
+The *CONFIGURATION* section displays the additional configuration settings. The configuration fields differ depending on the data type of the source and/or destination attribute.    
+For detailed information about the different configurations of data types, see [Data type list](04_DataTypeList.md).
+
+----------
+
+[comment]: <> (Import/Export will be changed)
 
 ## Import wizard
 *PIM > Settings > Tab ATTRIBUTE SETS > Button IMPORT*
@@ -335,15 +412,15 @@ This wizard helps you to export one or multiple attribute set(s).
 This wizard window displays all attributes of the selected attribute set(s) for export.
 
 - ![Columns](/Assets/Icons/Columns.png "[Columns]") Columns (x)   
-  Click this button to display the columns bar and customize the displayed columns and the order of columns in the table. The *x* indicates the number of columns that are currently displayed in the table.
+  Click this button to display the columns bar and customize the displayed columns and the order of columns in the list. The *x* indicates the number of columns that are currently displayed in the list.
 
 - ![Filter](/Assets/Icons/Filter.png "[Filter]") Filter (x)   
   Click this button to display the filter bar and customize the active filters. The *x* indicates the number of filters that are currently active.
 
 - [x]     
-  Select the checkbox to exclude the selected attribute from the export. If you click the checkbox in the header, all attributes in the table are selected.
+  Select the checkbox to exclude the selected attribute from the export. If you click the checkbox in the header, all attributes in the list are selected.
 
-The table displays all attributes assigned to the selected attribute set. All fields are read-only. Depending on the settings, the displayed columns may vary.
+The list displays all attributes assigned to the selected attribute set. All fields are read-only. Depending on the settings, the displayed columns may vary.
 
 - *Name*   
   Attribute name.
@@ -355,10 +432,10 @@ The table displays all attributes assigned to the selected attribute set. All fi
 
 
 - *Key*   
-  Attribute key.
+  Attribute key. The key is required for API access and must be system wide unique.
 
 - *Data Type*   
-  Attribute data type. For detailed information about all data types, see [Data types list](to_be_completed).
+  Attribute data type. For detailed information about all data types, see [Data type list](04_DataTypeList.md).
 
 - *Description*   
   Description to the attribute.
@@ -375,7 +452,8 @@ The table displays all attributes assigned to the selected attribute set. All fi
   - ![Cross](/Assets/Icons/Cross02.png "[Cross]") (Cross): The attribute is single channel.
 
 - *Plugin*   
-  ???
+  Module or plugin from which the attribute is created. In the *PIM* module, only PIM attributes are displayed.
+  [comment]: <> (Is that correct?)
 
 - *ID*   
   Attribute identification number. The ID number is automatically assigned by the system.
@@ -407,15 +485,15 @@ The table displays all attributes assigned to the selected attribute set. All fi
 This wizard window displays all variant set of the selected attribute set(s) for export. It is only displayed, when the selected attribute set for export includes variant sets.
 
 - ![Columns](/Assets/Icons/Columns.png "[Columns]") Columns (x)   
-  Click this button to display the columns bar and customize the displayed columns and the order of columns in the table. The *x* indicates the number of columns that are currently displayed in the table.
+  Click this button to display the columns bar and customize the displayed columns and the order of columns in the list. The *x* indicates the number of columns that are currently displayed in the list.
 
 - ![Filter](/Assets/Icons/Filter.png "[Filter]") Filter (x)   
   Click this button to display the filter bar and customize the active filters. The *x* indicates the number of filters that are currently active.
 
 - [x]     
-  Select the checkbox to exclude the selected variant sets from the export. If you click the checkbox in the header, all variant sets in the table are selected.
+  Select the checkbox to exclude the selected variant sets from the export. If you click the checkbox in the header, all variant sets in the list are selected.
 
-The table displays all variant sets included to the selected attribute set for export. All fields are read-only. Depending on the settings, the displayed columns may vary.
+The list displays all variant sets included to the selected attribute set for export. All fields are read-only. Depending on the settings, the displayed columns may vary.
 
 - *Name*   
   Variant set name.
@@ -456,11 +534,11 @@ The table displays all variant sets included to the selected attribute set for e
 
 ![Export wizard step 3](/Assets/Screenshots/PIM/Settings/AttributeSets/Export03.png "[Export wizard step 3]")
 
-This wizard window displays several tables summarizing the settings for final export. All fields are read-only.
+This wizard window displays several lists summarizing the settings for final export. All fields are read-only.
 
 **The following attributes will be exported**
 
-The table displays all attributes that will be exported. All fields are read-only.
+The list displays all attributes that will be exported. All fields are read-only.
 
 - *Name*   
   Attribute name.
@@ -472,10 +550,10 @@ The table displays all attributes that will be exported. All fields are read-onl
 
 
 - *Key*   
-  Attribute key.
+  Attribute key. The key is required for API access and must be system wide unique.
 
 - *Data Type*   
-  Attribute data type. For detailed information about all data types, see [Data types list](to_be_completed).
+  Attribute data type. For detailed information about all data types, see [Data type list](04_DataTypeList.md).
 
 - *Description*   
   Description to the attribute.
@@ -492,12 +570,13 @@ The table displays all attributes that will be exported. All fields are read-onl
   - ![Cross](/Assets/Icons/Cross02.png "[Cross]") (Cross): The attribute is single channel.
 
 - *Plugin*   
-  ???
+  Module or plugin from which the attribute is created. In the *PIM* module, only PIM attributes are displayed.
+  [comment]: <> (Is that correct?)
 
 
 **The following attributes cannot be exported**
 
-The table displays all attributes that cannot be exported. All fields are read-only. The table is only displayed when at least one attribute cannot be exported.
+The list displays all attributes that cannot be exported. All fields are read-only. The list is only displayed when at least one attribute cannot be exported.
 
 - *Name*   
   Attribute name.
@@ -509,10 +588,10 @@ The table displays all attributes that cannot be exported. All fields are read-o
 
 
 - *Key*   
-  Attribute key.
+  Attribute key. The key is required for API access and must be system wide unique.
 
 - *Data Type*   
-  Attribute data type. For detailed information about all data types, see [Data types list](to_be_completed).
+  Attribute data type. For detailed information about all data types, see [Data type list](04_DataTypeList.md).
 
 - *Description*   
   Description to the attribute.
@@ -529,12 +608,13 @@ The table displays all attributes that cannot be exported. All fields are read-o
   - ![Cross](/Assets/Icons/Cross02.png "[Cross]") (Cross): The attribute is single channel.
 
 - *Plugin*   
-  ???
+  Module or plugin from which the attribute is created. In the *PIM* module, only PIM attributes are displayed.
+  [comment]: <> (Is that correct?)
 
 
 **The following attributes are excluded from the export**
 
-The table displays all attributes that you selected to be excluded from the export. All fields are read-only. The table is only displayed when at least one attribute is excluded.
+The list displays all attributes that you selected to be excluded from the export. All fields are read-only. The list is only displayed when at least one attribute is excluded.
 
 - *Name*   
   Attribute name.
@@ -546,10 +626,10 @@ The table displays all attributes that you selected to be excluded from the expo
 
 
 - *Key*   
-  Attribute key.
+  Attribute key. The key is required for API access and must be system wide unique.
 
 - *Data Type*   
-  Attribute data type. For detailed information about all data types, see [Data types list](to_be_completed).
+  Attribute data type. For detailed information about all data types, see [Data type list](04_DataTypeList.md).
 
 - *Description*   
   Description to the attribute.
@@ -566,12 +646,13 @@ The table displays all attributes that you selected to be excluded from the expo
   - ![Cross](/Assets/Icons/Cross02.png "[Cross]") (Cross): The attribute is single channel.
 
 - *Plugin*   
-  ???
+  Module or plugin from which the attribute is created. In the *PIM* module, only PIM attributes are displayed.
+  [comment]: <> (Is that correct?)
 
 
 **The following variant sets will be exported**
 
-The table displays all variant sets that will be exported. All fields are read-only. The table is only displayed when at least one variant set will be excluded.
+The list displays all variant sets that will be exported. All fields are read-only. The list is only displayed when at least one variant set will be excluded.
 
 - *Name*   
   Variant set name.
@@ -588,7 +669,7 @@ The table displays all variant sets that will be exported. All fields are read-o
 
 **The following variant sets cannot be exported**
 
-The table displays all variant sets that cannot be exported. All fields are read-only. The table is only displayed when at least one variant set cannot be exported.
+The list displays all variant sets that cannot be exported. All fields are read-only. The list is only displayed when at least one variant set cannot be exported.
 
 - *Name*   
   Variant set name.
@@ -602,12 +683,12 @@ The table displays all variant sets that cannot be exported. All fields are read
 - *Attributes (differing)*   
   Differing attributes of the variant set.
 
-[comment]: <> (Does this table exist?)
+[comment]: <> (Does this list exist?)
 
 
 **The following variant sets are excluded from the export**
 
-The table displays all variant sets that you selected to be excluded from the export. All fields are read-only. The table is only displayed when at least one variant set is excluded.
+The list displays all variant sets that you selected to be excluded from the export. All fields are read-only. The list is only displayed when at least one variant set is excluded.
 
 - *Name*   
   Variant set name.

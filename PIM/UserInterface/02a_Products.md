@@ -123,6 +123,9 @@ Depending on the selection in the *Variants* drop-down list, the product list di
 
 ![Create Product](/Assets/Screenshots/PIM/Products/List/CreateProduct.png "[Create Product]")
 
+- ![Back](/Assets/Icons/Back02.png "[Back]") (Back)   
+  Click this button to close the *Create product* view and return to the product list. All changes are rejected.
+
 - [CANCEL]   
   Click this button to cancel the creation of a product.
 
@@ -352,7 +355,7 @@ The catalog box displays all selected categories and their level. All fields are
 - [x]     
   Select a checkbox to assign the product to the selected category. You can select multiple checkboxes.
 
-  > [Info] Categories that are containing sub-categories are displayed with the symbol ![Folders](/Assets/Icons/Folders01.png "[Folders]") (Folders), categories without sub-categories with the symbol ![Folder](/Assets/Icons/Folder01.png "[Folder]") (Folder). Click the button [>] to the left of a category checkbox to display all sub-categories.
+  > [Info] Categories that are containing sub-categories are displayed with the symbol ![Folders](/Assets/Icons/Folders01.png "[Folders]") (Folders), categories without sub-categories with the symbol ![Folder](/Assets/Icons/Folder01.png "[Folder]") (Folder). Click the [>] button to the left of a category checkbox to display all sub-categories.
 
 - [CANCEL]   
   Click this button to cancel selecting categories and close the *Categories* window.
@@ -369,11 +372,11 @@ The catalog box displays all selected categories and their level. All fields are
 
 In this tab, boxes of all attributes with the *Related products* data type are displayed. The box titles differ depending on the corresponding attribute names, but the structure of all boxes is identical.   
 
-> [Info] For detailed information about the data types, see [Data type list](to_be_completed).
+> [Info] For detailed information about the data types, see [Data type list](04_DataTypeList.md).
 
 
 - [ADD]   
-  Click this button to add an associated product for cross selling to the list. The *Filter List of Products* window is displayed.
+  Click this button to add an associated product to the list. The *Filter List of Products* window is displayed.
 
 The box displays all associated products. All fields are read-only. If no product is selected, the notice *No associated products selected* is displayed in the box.
 
@@ -467,7 +470,7 @@ The list displays all products. All fields are read-only.
 
 
 - *Change Tracking*   
-  Click the drop-down list to change the change tracking mode (ETL mode) of the offer. The selected change tracking mode is displayed in the *ChangeTracking* column. This drop-down list is only displayed, when the checkbox of at least one offer is selected. The following change tracking modes are available:    
+  Click the drop-down list to change the change tracking mode (ETL mode) of the offer. The selected change tracking mode is displayed in the *ChangeTracking* column. This drop-down list is only displayed, when the checkbox of one offer is selected. The following change tracking modes are available:    
   - **manual**: Changes in a PIM product must be triggered manually to be applied to the offer. The initial offer is automatically applied.
   - **semi-automatic**: Changes in a PIM product are automatically applied to the offer after confirmation in the *Omni-Channel* module. The initial offer is automatically applied without confirmation.   
   - **semi-automatic, changes must be confirmed by another user**: Changes in a PIM product are automatically applied to the offer after confirmation in the *Omni-Channel* module by another user. The initial offer is only applied after confirmation by another user.       
@@ -475,8 +478,9 @@ The list displays all products. All fields are read-only.
 
 
 
-- ![Delete](/Assets/Icons/Trash03.png "[Delete]") (Delete)   
-  Click this button to delete the selected offer from the list. This button is only displayed, when the checkbox of an offer is selected.
+- ![Edit](/Assets/Icons/Edit01.png "[Edit]") (Edit)   
+  Click this button to edit the selected offer from the list. This button is only displayed, when the checkbox of at least one offer is selected.
+[comment]: <> (not working -> if I want to edit an offer, a window is displayed loading all the time...)
 
 The list displays all created offers to this product. All fields are read-only.
 
@@ -487,7 +491,7 @@ The list displays all created offers to this product. All fields are read-only.
   Connection status of the offer. In the *Create product* view, **Not available** is displayed.
 
 - *Pending status/Errors*   
-  Indication of the pending status or an error for this offer. The selected status (**Active**/**Inactive**/**Not available**) is displayed if you have changed the offer status via the editing bar. An error is displayed if ???
+  Indication of the pending status or an error for this offer. The selected status (**Active**/**Inactive**/**Not available**) is displayed if you have changed the offer status via the editing toolbar. An error is displayed if ???
   [comment]: <> (when is an error displayed here? what is displayed?)
 
 - *Connection*   
@@ -643,6 +647,9 @@ The list displays all created offers to this product. All fields are read-only.
 
 ![Edit Product](/Assets/Screenshots/PIM/Products/List/EditProduct.png "[Edit Product]")
 
+- ![Back](/Assets/Icons/Back02.png "[Back]") (Back)   
+  Click this button to close the *Edit product* view and return to the product list. All changes are rejected.
+
 - [CANCEL]   
   Click this button to cancel editing the product.
 
@@ -650,10 +657,11 @@ The list displays all created offers to this product. All fields are read-only.
   Click this button to save the changes to the product.
 
 - Image box
-  Image of the product. The image is displayed if an image is selected for the product in the *Attributes* tab.
+  Image of the product. The image is displayed when an image is assigned in the corresponding attribute.
 
 - *SKU*   
-  Stock Keeping Unit. Identification number for the product.
+  Stock Keeping Unit. Identification number for the product.  he SKU (Stock Keeping Unit) is an identification number for the product. Therefore, it should be uniquely assigned to a single product.   
+  Click the button ![Edit](/Assets/Icons/Edit02.png "[Edit]") (Edit) to the right of the SKU to edit it.
 
 - ![Edit](/Assets/Icons/Edit02.png "[Edit]") (Edit)   
   Click this button to edit the SKU.
@@ -662,10 +670,11 @@ The list displays all created offers to this product. All fields are read-only.
   Click this button to apply the changes to the SKU. This button is only displayed when you are editing the SKU.
 
 - *Scope*   
-  Click the drop-down list to select a scope for the product. All available scopes are displayed in the drop-down list.
+  Click the drop-down list to select a scope for the product. All active scopes are displayed in the drop-down list. By default, the **Actindo Basic** scope is preselected.
 
 - *Language*   
-  Click the drop-down list to select a language for the product. All available languages are displayed in the drop-down list.
+  Click the drop-down list to select a language for the product. All active languages are displayed in the drop-down list. The default language is preselected.
+
 
 - [Complete]     
   Completeness of the product for all available scopes and languages. The percentage of completeness is displayed in the button. Click the button to display the *Completeness* window. If the completeness is less than 100%, the number of missing require attributes is displayed to the right of the completeness button.
@@ -710,7 +719,7 @@ In the left margin column, all available groups containing attributes are displa
 
 The right side of the *Attributes* tab displays all attributes that are assigned to the selected group in the left margin column. As the attributes are customized, only those attributes that are predefined by default in the *PIM Basic Set* attribute set are described below:
 
-[comment]: <> (describe attributes PIM Basic Set?!)
+[comment]: <> (describe attributes in PIM Basic Set?!)
 
 
 ### Edit product - Variants
@@ -721,12 +730,10 @@ The right side of the *Attributes* tab displays all attributes that are assigned
 - *Variant set*   
   Click the drop-down list to select a variant set for the product. All available variant sets are displayed in the drop-down list. The ![Add](/Assets/Icons/Plus01.png "[Add]") (Add) button is displayed in the variants box below if a variant set is selected.
   If the product is a master product, the corresponding variant set is preselected in the drop-down list. The drop-down list is locked. The corresponding product variants and the ![Add](/Assets/Icons/Plus01.png "[Add]") (Add) button are displayed in the variants box.
-  If the product is a variant, the drop-down list is not displayed.
+  If the product is a variant, the *Variant set* drop-down list is not displayed, but the *Child Entity* field.
 
 - *Child Entity*   
   Indication that the selected product is a variant. This field is read-only. The value can be changed within the *Attributes* tab. The field is only displayed for product variants.
-
-[comment]: <> (how is it possible to change the value of a variant defining attribute in the tab Attributes without changing the variant?)
 
 
 **Variants box**
@@ -760,8 +767,8 @@ The list displays all variants. All fields are read-only. Depending on the setti
 - *ID*   
   Variant identification number. The ID is automatically assigned by the system after saving.
 
-- Attribute    
-  You can add a column for each attribute that is assigned as a defining or differing attribute to the selected variant set. The column displays the attribute name, the row displays the corresponding attribute value.
+- Defining/differing attribute    
+  You can add a column for each attribute that is assigned as a defining or differing attribute to the selected variant set. The column displays the attribute name, the row displays the attribute value.
 
 - ![Add](/Assets/Icons/Plus01.png "[Add]") (Add)   
   Click this button to add a new variant to the product. The [Add single variant ![Document](/Assets/Icons/Document.png "[Document]") ] button and the [Add multiple variants ![Documents](/Assets/Icons/Documents.png "[Documents]") ] button are displayed.
@@ -781,17 +788,16 @@ The list displays all variants. All fields are read-only. Depending on the setti
 - ![Cancel](/Assets/Icons/Cross01.png "[Cancel]") (Cancel)   
   Click this button to cancel the variant creation and exit the current view.
 
+
 #### Add single variant
 *PIM > Products > Tab LIST > Select product > Tab Variants > Select variant set > Button Add > Button Add single variant*
 
 ![Add single variant](/Assets/Screenshots/PIM/Products/List/Variants/AddSingleVariant.png "[Add single variant]")
 
-[comment]: <> (hier weiter)
-
 **Additional fields**
 
 - *SKU*   
-  Stock Keeping Unit. Identification number for the variant.
+  Identification number for the variant. The SKU (Stock Keeping Unit) is an identification number and should be assigned only once. This field is read-only as long as the ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Use formula* toggle is active. Deactivate the toggle to edit the SKU.
 
 - ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Use formula*   
   Activate this toggle to apply the formula defined in the settings for the variant sets to the variant SKU. When the toggle is active, the *SKU* field is read-only. Deactivate the toggle to enter a different SKU. By default, this toggle is active.
@@ -822,21 +828,23 @@ For each defining attribute a single box to define the attribute value is displa
 > [Info] If more than one defining attribute is assigned to the variant, you have to select a value for each defining attribute to add a variant.
 
 - [ADD ALL VALUES]   
-  Click this button to add all available values to the corresponding attribute. This button is only displayed for attributes with the data type *TreeNode*.
+  Click this button to add all available values in the box for the corresponding defining attribute. This button is only displayed for attributes with the *TreeNode* data type.
 
 - [ADD VALUE]   
-  Click this button to add a further value to the corresponding attribute and enter  or select the desired value.
+  Click this button to add a further row to the corresponding attribute where you can enter or select the desired value.
 
 - [ABORT]   
-  Click this button to cancel adding variants and close the *Select Values* window.
+  Click this button to cancel adding variants and close the *Select Values* wizard window.
 
 - [NEXT]   
-  Click this button to proceed to the next step of adding variants. The *Summary* window is displayed.
+  Click this button to proceed to the next step of adding variants. The *Summary* wizard window is displayed.
 
 
 ##### Summary
 
 ![Add multiple variants](/Assets/Screenshots/PIM/Products/List/Variants/AddMultipleVariants02.png "[Add multiple variants]")
+
+The box displays all product variants that will be created from the selected attribute values. For each possible combination of the selected attributes, a new variant is created. Variants that already exist will not be created even when they are listed in the box.
 
 **Variants that will be created (ignoring duplicated)**
 
@@ -858,13 +866,13 @@ The list displays all selected variants. Depending on the settings, the displaye
   You can add a column for each defining attribute. The column displays the attribute name, the row displays the corresponding attribute value. The fields are read-only.
 
 - [< GO BACK]   
-  Click this button to go back to the previous step. The *Select Values* window is displayed.
+  Click this button to go back to the previous step of adding variants. The *Select Values* wizard window is displayed.
 
 - [ABORT]   
-  Click this button to cancel adding variants and close the *Summary* window.
+  Click this button to cancel adding variants and close the *Summary* wizard window.
 
 - [FINISH]   
-  Click this button to save the listed variants and close the *Summary* window.
+  Click this button to save the listed variants and close the *Summary* wizard window.
 
 
 
@@ -897,17 +905,20 @@ The list displays all dependencies of the selected product. All fields are read-
 
 
 - *Change tracking*   
-  ETL mode of the dependent entity. The following modes can be displayed:
-  - **manual**: Changes in a PIM product must be triggered manually to be applied to the offers.   
-  - **automatic**: Changes in a PIM product are automatically applied to the offers.
-  [comment]: <> (is that right?)
+  Change tracking mode (ETL mode) of the dependent entity. The following modes can be displayed:
+  - **Manual**
+  - **Semiautomatic**
+  - **blank field**
+  - **Automatic**
+
+[comment]: <> (is that right?)
 
 
 - *Dependent entity friendly identifier*   
 [comment]: <> (what id number is that? How is it created?)
 
 - [RERUN MAPPING]   
-  Click this button to rerun the mapping of the product and the selected entity. This button is only displayed when the checkbox of a dependent entity is selected.
+  Click this button to rerun the mapping of the product and the selected entity. This button is only displayed when the checkbox of at least one dependent entity is selected.
 
 
 
@@ -916,24 +927,15 @@ The list displays all dependencies of the selected product. All fields are read-
 
 ![Completeness](/Assets/Screenshots/PIM/Products/List/Completeness/Completeness.png "[Completeness]")
 
-The *Completeness* tab is only displayed if the completeness of the product has been calculated and is displayed in the header section of the *Edit product* view. The tab is never displayed in the *Create product* view.
+The *Completeness* tab displays the completeness of the product for the different languages and scopes. A single box is displayed for each active scope. The tab is only displayed if the completeness of the product has been calculated and is displayed in the header section of the *Edit product* view. Consequently, the tab is never displayed in the *Create product* view.
 
-- *Not scopable*   
-  This box displays the percentage for the product completeness of the selected product without any scope dependency.
-  - *Single Language*   
-    The box displays the percentage for the product completeness of the selected product without any scope dependency and regarding the single default language only.
-  [comment]: <> (is that right?)
-
-
-- Scope name
-  This box displays the percentage for the product completeness of the selected product regarding the assigned scope. A single box is displayed for each scope.
+- Scope name   
+  This box displays the percentage for the product completeness of the selected product regarding the assigned scope.
   - Language   
-    The box displays the percentage for the product completeness of the selected product regarding the assigned scope and language. A single percentage is displayed for each available language.
-  [comment]: <> (is that right?)
+    The box displays the percentage for the product completeness of the selected product regarding the assigned scope and language. A single percentage is displayed for each available language for one scope.
 
-
-- ![Info](/Assets/Icons/Info.png "[Info]") (Info)   
-  Hover over this icon to display a box that is listing the missing attribute values. This icon is only displayed when required attribute values for the product completeness are missing.
+  - ![Info](/Assets/Icons/Info.png "[Info]") (Info)   
+    Hover over this icon to display a box that is listing the missing attribute values. This icon is only displayed when at least one required attribute value for the product completeness is missing.
 
 
 ### Edit product - Catalogs
@@ -948,7 +950,7 @@ For each catalog a single box to assign the new product to a category is display
 - [EDIT ATTRIBUTE *CATALOG NAME*]   
   Click this button to assign the product to a category or a sub-category in the selected catalog. The categories window is displayed.
 
-The box displays all selected categories and their level. All fields are read-only. If no category is selected, *No nodes selected* is displayed in the box.
+The box displays all selected categories and their level. All fields are read-only. If no category is selected, the notice *No nodes selected* is displayed in the box.
 
 - *Level 1*    
   Level 1 category name.
@@ -972,13 +974,13 @@ The box displays all selected categories and their level. All fields are read-on
   Select a checkbox to assign the product to the selected category. You can select multiple checkboxes.
 
 > [Info] Categories that are containing sub-categories are displayed with the symbol ![Folders](/Assets/Icons/Folders01.png "[Folders]") (Folders), categories without sub-categories with the symbol ![Folder](/Assets/Icons/Folder01.png "[Folder]") (Folder).    
-Click the button [>] to the left of a category checkbox to display their sub-categories.
+Click the [>] button to the left of a category checkbox to display their sub-categories.
 
 - [CANCEL]   
-  Click this button to cancel selecting categories and close the categories window.
+  Click this button to cancel selecting categories and close the *Categories* window.
 
 - [SAVE]   
-  Click this button to save the selected categories and close the categories window.
+  Click this button to save the selected categories and close the *Categories* window.
 
 
 
@@ -987,10 +989,12 @@ Click the button [>] to the left of a category checkbox to display their sub-cat
 
 ![Associations](/Assets/Screenshots/PIM/Products/List/Associations/AssociationsEdit.png "[Associations]")
 
-**Cross Selling**
+In this tab, boxes of all attributes with the *Related products* data type are displayed. The box titles differ depending on the corresponding attribute names, but the structure of all boxes is identical.
+
+> [Info] For detailed information about the data types, see [Data type list](04_DataTypeList.md).
 
 - [ADD]   
-  Click this button to add an associated product for cross selling to the list. The *Filter List of Products* window is displayed.
+  Click this button to add an associated product to the list. The *Filter List of Products* window is displayed.
 
 The box displays all associated product for cross selling. All fields are read-only. If no product is selected, *No associated products selected* is displayed in the box.
 
@@ -1087,7 +1091,7 @@ The list displays the change history of the product. All fields are read-only. D
   Identification number of the change. The ID number is automatically assigned by the system.  
 
 - ![Eye](/Assets/Icons/Eye01.png "[Eye02]") (Eye)   
-  Click this button to display the *History (Single Entry)* window. This button is only displayed, when the checkbox of a change is selected. Alternatively, you can click directly a row in the list to display the *History (Single Entry)* window.   
+  Click this button to display the *History (Single Entry)* window. This button is only displayed, when the checkbox of a change entry is selected. Alternatively, you can click directly a row in the list to display the *History (Single Entry)* window.   
 
 
 #### History (Single Entry)
@@ -1137,350 +1141,24 @@ The list displays the single entries of the selected product change. All fields 
   Click this button to undo the selected change(s). A confirmation window is displayed to confirm the change reversion. This button is only displayed, when the checkbox of a change entry is selected.
 
 
-### Edit product - UCS Lager
-*PIM > Products > Select product > Tab UCS Lager*
+### Edit product - UCS Warehouse
+*PIM > Products > Select product > Tab UCS Warehouse*
 
-![UCS Lager](/Assets/Screenshots/PIM/Products/List/UCSLager/UCSLagerEdit.png "[UCS Lager]")
+![UCS Warehouse](/Assets/Screenshots/PIM/Products/List/UCSWarehouse/UCSWarehouseEdit.png "[UCS Warehouse]")
 
-This tab displays the *Basisdaten* and *Lager/Lieferanten* sub-tabs. These sub-tabs are excerpts from the tabs in the *Lager* module: *Lager > SCHNELLBUCHEN > Select article*
+This tab displays the *Basic data* and *Warehouse / Suppliers* sub-tabs. These sub-tabs are excerpts from the tabs in the *Warehouse* module: *Warehouse > Quick Booking > QUICK BOOKING > Select product*
 
-- [HILFE]   
+[comment]: <> (link to the Corresponding warehouse documentation? What about the buttons [HILFE] and [SPEICHERN]?)
 
 
-- [SPEICHERN]
+### Edit product - UCS Marketplaces
+*PIM > Products > Select product > Tab UCS Marketplaces*
 
+![UCS Marketplaces](/Assets/Screenshots/PIM/Products/List/UCSMarketplaces/UCSMarketplacesEdit.png "[UCS Marketplaces]")
 
+This tab displays the *Basic data* and *webshop* sub-tabs. These sub-tabs are excerpts from the tabs in the *Material Management* module: *Material Management > Product > PRODUCT > Select product*
 
-#### UCS Lager - Basisdaten
-*PIM > Products > Select product > Tab UCS Lager > Tab Basisdaten*
-
-![UCS Lager Basisdaten](/Assets/Screenshots/PIM/Products/List/UCSLager/Basisdaten.png "[UCS Lager Basisdaten]")
-
-**Artikeldaten**
-
-- *Lageristik für diesen Artikel aktiv:*   
-  Click the drop-down list to select an option. The following options are available:    
-  - **Ja**:
-  - **Nein**:  
-
-
-- *Streckengeschäft aktiv:*    
-  Click the drop-down list to select an option. The following options are available:    
-  -  **Nein**:  
-  - **Ja**:
-  - **Immer**:  
-
-
-- *Seriennummern-Artikel:*   
-  Click the drop-down list to select an option. The following options are available:    
-  - **Nein**:
-  - **Ja**:  
-
-
-
-#### UCS Lager - Lager/Lieferanten
-*PIM > Products > Select product > Tab UCS Lager > Tab Lager/Lieferanten*
-
-This tab displays the *Lagerverwaltung*, *Lagerhistorie* and *Lieferantenzuordnung/Bestelloption* sub-tabs. The tab and its sub-tabs are identical to the *Lager/Lieferanten* tab in the *Lager* module: *Lager > SCHNELLBUCHEN > Select article > Tab Lager/Lieferanten*
-
-##### Lagerverwaltung
-*PIM > Products > Select product > Tab UCS Lager > Tab Lager/Lieferanten > Tab Lagerverwaltung*
-
-![UCS Lager Lagerverwaltung](/Assets/Screenshots/PIM/Products/List/UCSLager/Lagerverwaltung.png "[UCS Lager Lagerverwaltung]")
-
-**Lagerorte**
-
-- [x]     
-  Select the checkbox to display the editing toolbar. If you click the checkbox in the header, all change entries in the list are selected.
-
-- *Lager-ID.*   
-
-- *Lager-Nr.*    
-
-- *Lager*   
-
-- *Lager-Fach*   
-
-- *ist Primärlager*   
-
-- *(Bestand)*             
-
-- *Sperrlager*   
-
-- [NEU]   
-
-- [LÖSCHEN]   
-
-- ![Refresh](/Assets/Icons/Refresh03.png "[Refresh]") (Refresh)   
-  Click this button to update the list of warehouses.
-
-**Hinzufügen**
-
-- *Lager-Nr.*    
-
-- *Lager-Fach*   
-
-- [BAUMANSICHT]
-
-- *Lager-Fach*   
-
-[comment]: <> (Is the second *Lager-Fach* and the button [BAUMANSICHT] a bug? It's hidden when a warehouse is selected in the drop-down list *Lager-Nr.*...)
-
-- *ist Primärlager* ![checkbox](/Assets/Icons/checkbox.png "[checkbox]")        
-
-- [SPEICHERN]
-
-- *Sperrlager*   
-
-- [LEEREN]
-
-
-**Bestände**
-
-- *Lager*   
-
-- *Bestand*   
-
-- *Reserviert*   
-
-- *Lagerverfügbarkeit*   
-
-- *Bestellt*   
-
-- *Verfügbar*   
-
-- *Gesamt*   
-
-- *Gesamt [SPERRLAGER]*   
-
-- [BESTANDSZUTEILUNG ANZEIGEN]
-
-
-
-##### Lagerhistorie
-*PIM > Products > Select product > Tab UCS Lager > Tab Lager/Lieferanten > Tab Lagerhistorie*
-
-![UCS Lager Lagerhistorie](/Assets/Screenshots/PIM/Products/List/UCSLager/Lagerhistorie.png "[UCS Lager Lagerhistorie]")
-
-- *Lagerort:*   
-
-- *Buchungstyp:*   
-
-- [EXCEL]   
-
-- *Kd-Nr.*    
-
-- *Kunde*   
-
-- *Beleg*   
-
-- *Menge*   
-
-- *Preis*             
-
-- *Preis ges.*   
-
-- *Datum*    
-
-- *Buchungsart*   
-
-- *Lager*   
-
-- *Fachbez. bei Buchung*   
-
-- *Fachbez. aktuell*             
-
-- *Bewegung*
-
-- *Bestand ges.*    
-
-- *Verfügbar ges.*   
-
-- *Bemerkung*   
-
-- ![Refresh](/Assets/Icons/Refresh01.png "[Refresh]") (Refresh)   
-  Click this button to update the warehouse history.
-
-- [ZURÜCKSETZEN]   
-
-
-
-##### Lieferantenzuordnung/Bestelloption
-*PIM > Products > Select product > Tab UCS Lager > Tab Lager/Lieferanten > Tab Lagerverwaltung*
-
-![UCS Lager Lieferantenzuordnung/Bestelloption](/Assets/Screenshots/PIM/Products/List/UCSLager/Lieferantenzuordnung.png "[UCS Lager Lieferantenzuordnung/Bestelloption]")
-
-**Lieferanten**
-
-- [x]     
-  Select the checkbox to display the editing toolbar. If you click the checkbox in the header, all change entries in the list are selected.
-
-- *Lft.-Nr.*   
-
-- *Firma*   
-
-- *Einkaufspreis*    
-
-- *EK-Datum*   
-
-- *Artikel-Nr*   
-
-- *Lieferzeit ⌀*   
-
-- *Lieferbar*             
-
-- *Strecke*   
-
-- *Grundeinkaufspreis*
-
-- [NEU]   
-
-- [LÖSCHEN]   
-
-- ![Refresh](/Assets/Icons/Refresh03.png "[Refresh]") (Refresh)   
-  Click this button to update the list of suppliers.
-
-
-**Hinzufügen**
-
-- *Lieferant:*   
-
-- *Art-Nr. beim Lft:*   
-
-- *Losgröße:*    
-
-- *durchschn. Lieferzeit:*   
-
-- *Datum des EK:*   
-
-- *Lagerstückzahl beim Lft:*   
-
-- *Datum d. LagerstückzahL:*             
-
-- *Nicht lieferbar:*   
-
-- *Lieferbar ab:*   
-
-- *Streckengeschäft möglich:*   
-
-- [SPEICHERN]   
-
-- [LEEREN]   
-
-**Einkaufspreise**
-
-- *EK*   
-
-- *Preisgrp. 1*    
-
-- *Ab Stk*   
-
-- *Preisgrp. 2*    
-
-- *Ab Stk*   
-
-- *Preisgrp. 3*    
-
-- *Ab Stk*   
-
-- *Preisgrp. 4*    
-
-- *Ab Stk*   
-
-**Langtext**
-
-- Schriftart   
-
-- Text vergrößern   
-
-- Text verkleinern   
-
-- Schriftfarbe   
-
-- Text farblich hervorheben   
-
-- Hyperlink   
-
-- Nummerierte Liste   
-
-- Aufzählungsliste   
-
-- Source bearbeiten
-
-- *Als Artikel-Langtext verwenden:*   
-
-
-
-**Bestellwesen**
-
-- *Lagerrichweite - Kalkulationsgrundlage:*   
-
-- *Mindestbestand:*             
-
-- *Mindestbestellmenge:*      
-
-- *insges. eingekaufte Menge:*
-
-- *letzte eingekaufte Menge:*   
-
-- *letzter Einkauf:*   
-
-
-**Offene Bestellungen**
-
-- [EXCEL]   
-
-- *Lft-Nr.*   
-
-- *Lft-Name*             
-
-- *Belegnr*
-
-- *Datum*    
-
-- *Bestellt*   
-
-- *Offen*   
-
-- *Vsl. Lieferdatum*   
-
-- ![Refresh](/Assets/Icons/Refresh01.png "[Refresh]") (Refresh)   
-  Click this button to update the warehouse history.
-
-- [ZURÜCKSETZEN]   
-
-
-### Edit product - UCS Marktplätze
-*PIM > Products > Select product > Tab UCS Marktplätze*
-
-![UCS Marktplätze](/Assets/Screenshots/PIM/Products/List/UCSMarktplätze/UCSMarktplätzeEdit.png "[UCS Marktplätze]")
-
- In the *Create product* view, *Available after saving the product.* is displayed in this tab. The UCS Marktplätze information is displayed only after saving.  
-
-- [HILFE]   
-
-- [SPEICHERN]   
-
-
-
-#### UCS Marktplätze - Basisdaten
-*PIM > Products > Select product > Tab UCS Marktplätze > Tab Basisdaten*
-
-![UCS Marktplätze Basisdaten](/Assets/Screenshots/PIM/Products/List/UCSMarktplätze/Basisdaten.png "[UCS Marktplätze Basisdaten]")
-
-**Artikeldaten**
-
-- *Shop-Artikel:*
-
-[comment]: <> (Shop über Multimarkets muss angebunden sein/Multimarkets-Kanäle müssen angebunden sein)
-
-
-#### UCS Marktplätze - Webshop
-*PIM > Products > Select product > Tab UCS Marktplätze > Tab Webshop*
-
-![UCS Marktplätze Webshop](/Assets/Screenshots/PIM/Products/List/UCSMarktplätze/Webshop.png "[UCS Marktplätze Webshop]")
-
-[comment]: <> (Shop über Multimarkets muss angebunden sein)
+[comment]: <> (link to the Corresponding material management/Artikelverwaltung documentation? What about the buttons [HILFE] and [SPEICHERN]?)
 
 
 ### Edit product - Offers
@@ -1496,6 +1174,26 @@ This tab displays the *Lagerverwaltung*, *Lagerhistorie* and *Lieferantenzuordnu
 - [x]     
   Select the checkbox to display the editing toolbar. If you click the checkbox in the header, all offers in the list are selected.
 
+- *Status*   
+  Click the drop-down list to change the offer status. The selected status is displayed in the *Pending status/Errors* column. This drop-down list is only displayed, when the checkbox of at least one offer is selected. The following statuses are available:    
+  - **Active**: The offer is active. It is displayed on the marketplace and can be sold there.
+  - **Inactive**: The offer is inactive. It is not displayed on the marketplace and cannot be sold there.   
+  - **Not available**: The offer is unknown to the marketplace and therefore cannot be sold there.
+
+
+- *Change Tracking*   
+  Click the drop-down list to change the change tracking mode (ETL mode) of the offer. The selected change tracking mode is displayed in the *ChangeTracking* column. This drop-down list is only displayed, when the checkbox of one offer is selected. The following change tracking modes are available:    
+  - **manual**: Changes in a PIM product must be triggered manually to be applied to the offer. The initial offer is automatically applied.
+  - **semi-automatic**: Changes in a PIM product are automatically applied to the offer after confirmation in the *Omni-Channel* module. The initial offer is automatically applied without confirmation.   
+  - **semi-automatic, changes must be confirmed by another user**: Changes in a PIM product are automatically applied to the offer after confirmation in the *Omni-Channel* module by another user. The initial offer is only applied after confirmation by another user.       
+  - **Automatic**: Changes in a PIM product are automatically applied to the offer. The initial offer is also automatically applied.
+
+
+
+- ![Edit](/Assets/Icons/Edit01.png "[Edit]") (Edit)   
+  Click this button to edit the selected offer from the list. This button is only displayed, when the checkbox of at least one offer is selected.
+[comment]: <> (not working -> if I want to edit an offer, a window is displayed loading all the time...)
+
 The list displays all created offers to this product. All fields are read-only.
 
 - *SKU*   
@@ -1508,14 +1206,14 @@ The list displays all created offers to this product. All fields are read-only.
   - **Not available**: The offer is unknown to the marketplace and therefore cannot be sold there.
 
 - *Pending status/Errors*   
-  Indication of the pending status or an error for this offer. The pending status is displayed if you have changed the offer status via the editing bar. The displayed statuses are identical to the statuses in the column *Status*. An error is displayed if ???
+  Indication of the pending status or an error for this offer. The selected status (**Active**/**Inactive**/**Not available**) is displayed if you have changed the offer status via the editing toolbar. An error is displayed if ???
   [comment]: <> (when is an error displayed here?)
 
 - *Connection*   
-  Connection name of the offer.
+  Selected connection for the offer.
 
 - *Attribute Set*   
-  Attribute set name of the offer.
+  Selected attribute set for the offer.
 
 - *last edited*   
   Date and time of the last modification.
@@ -1524,9 +1222,13 @@ The list displays all created offers to this product. All fields are read-only.
   Name and username of the user who modified the product.
 
 - *ChangeTracking*   
-  ETL mode of the offer. The following modes are available:
-  - **Initial**: Changes in a PIM product must be triggered manually to be applied to the offers.   
-  - **Automatic**: Changes in a PIM product are automatically applied to the offers.
+  Change tracking mode (ETL mode) of the offer. The following modes can be displayed:
+  - **Initial**
+  - **Semiautomatic**
+  - **blank field**   
+  - **Automatic**
+
+[comment]: <> (change ChangeTracking names -> Initial = Manual, Semiautmatic = Semi-automatic, blank = Semi-automatic | another user)
 
 - *ID*   
   Product identification number. The ID number is automatically assigned by the system.
@@ -1538,26 +1240,10 @@ The list displays all created offers to this product. All fields are read-only.
   Name and username of the user who created the product.
 
 - ![Add](/Assets/Icons/Plus01.png "[Add]") (Add)   
-  Click this button to add a new variant to the product. The two buttons [Add to a single connection ![Document](/Assets/Icons/Document.png "[Document]") ] and [Add to multiple connections ![Documents](/Assets/Icons/Documents.png "[Documents]") ] are displayed.
-
-- *Status*   
-  Click the drop-down list to change the offer status. The selected status is displayed in the column *Pending status/Errors*. This drop-down list is only displayed, when the checkbox of an offer is selected. The following statuses are available:    
-  - **Active**: The offer is active. It is displayed on the marketplace and can be sold there.
-  - **Inactive**: The offer is inactive. It is not displayed on the marketplace and cannot be sold there.   
-  - **Not available**: The offer is unknown to the marketplace and therefore cannot be sold there.
+  Click this button to add a new variant to the product. The [Add to a single connection ![Document](/Assets/Icons/Document.png "[Document]") ] button and the [Add to multiple connections ![Documents](/Assets/Icons/Documents.png "[Documents]") ] button are displayed.
 
 
-- *Change Tracking*   
-  Click the drop-down list to change the ETL mode of the offer. The selected ETL mode is displayed in the column *ChangeTracking*. This drop-down list is only displayed, when the checkbox of an offer is selected. The following ETL modes are available:    
-  - **manual**: Changes in a PIM product must be triggered manually to be applied to the offers.   
-  - **automatic**: Changes in a PIM product are automatically applied to the offers.
-
-
-- ![Delete](/Assets/Icons/Trash03.png "[Delete]") (Delete)   
-  Click this button to delete the selected offer from the list. This button is only displayed, when the checkbox of an offer is selected.
-
-
-#### Add connection
+#### Add an offer in PIM
 *PIM > Products > Select product > Tab Offers > Button Add*
 
 ![Add](/Assets/Screenshots/PIM/Products/List/Offers/AddEdit.png "[Add]")
@@ -1577,25 +1263,28 @@ The list displays all created offers to this product. All fields are read-only.
 
 ![Add to a single connection](/Assets/Screenshots/PIM/Products/List/Offers/SingleConnection.png "[Add to a single connection]")
 
-**Create Channels Offer**
+**Create Offer**
 
 - *Select Connection*   
-  Click the drop-down list to select a connection for the offer. All available connections are displayed in the drop-down list.
+  Click the drop-down list to select a connection for the offer. All available connections are displayed in the list.
 
 - *Select Attribute Set*   
-  Click the drop-down list to select an attribute set for the offer. All available attribute sets are displayed in the drop-down list. The drop-down list is locked if no connection is selected.
+  Click the drop-down list to select an attribute set for the offer. All active attribute sets are displayed in the drop-down list. The drop-down list is locked if no connection is selected.
 
 - ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Generate SKU*   
   Activate this toggle to automatically generate a SKU for the offer. Deactivate the toggle to enter a SKU manually. By default, this toggle is active.
 
 - *SKU*    
-  Enter a SKU (Stock Keeping Unit) for the offer.  
-[comment]: <> (offer or product? how does this work? When I enter a different SKU, The SKU is automatically overwritten.)
+  Enter an individual SKU for the offer. The SKU (Stock Keeping Unit) is an identification number and should be assigned only once.
+[comment]: <> (offer or product? how does this work? When I enter a different SKU, The SKU is automatically overwritten)
 
-- *ETL mode*   
-  Select an ETL mode:    
-   ![Radionbutton](/Assets/Icons/Radiobutton.png "[Radiobutton]") *manual*: Changes in a PIM product must be triggered manually to be applied to the offers.   
-   ![Radionbutton](/Assets/Icons/Radiobutton.png "[Radiobutton]") *automatic*: Changes in a PIM product are automatically applied to the offers.
+- *Change Tracking mode*   
+  Select the appropriate option for change tracking (ETL mode). The following options are available:   
+   ![Radionbutton](/Assets/Icons/Radiobutton.png "[Radiobutton]") *manual*: Changes in a PIM product must be triggered manually to be applied to the offer. The initial offer is automatically applied.   
+   ![Radionbutton](/Assets/Icons/Radiobutton.png "[Radiobutton]") *semi-automatic*: Changes in a PIM product are automatically applied to the offer after confirmation in the *Omni-Channel* module. The initial offer is automatically applied without confirmation.   
+   ![Radionbutton](/Assets/Icons/Radiobutton.png "[Radiobutton]") *semi-automatic, changes must be confirmed by another user*: Changes in a PIM product are automatically applied to the offer after confirmation in the *Omni-Channel* module by another user. The initial offer is only applied after confirmation by another user.    
+   ![Radionbutton](/Assets/Icons/Radiobutton.png "[Radiobutton]") *automatic*: Changes in a PIM product are automatically applied to the offer. The initial offer is also automatically applied.
+[comment]: <> (adjust field name!)
 
 - *Status*    
   Click the drop-down list to select the connection status. The following statuses are available:    
@@ -1605,10 +1294,10 @@ The list displays all created offers to this product. All fields are read-only.
 
 
 - [CANCEL]   
-  Click this button to cancel adding a connection and close the *Create Channels Offer* window.
+  Click this button to cancel adding an offer and close the *Create Offer* window.
 
 - [SAVE]   
-  Click this button to save the connection and close the *Create Channels Offer* window.
+  Click this button to save the offer and close the *Create Offer* window.
 
 
 #### Add to multiple connections
@@ -1627,9 +1316,11 @@ The list displays all created offers to this product. All fields are read-only.
   - **Not available**: The offer is unknown to the marketplace and therefore cannot be sold there.
 
 
-- Select an ETL mode:    
- ![Radionbutton](/Assets/Icons/Radiobutton.png "[Radiobutton]") *manual*: Changes in a PIM product must be triggered manually to be applied to the offers.   
- ![Radionbutton](/Assets/Icons/Radiobutton.png "[Radiobutton]") *automatic*: Changes in a PIM product are automatically applied to the offers.
+- Select the appropriate change tracking mode. The following options are available:   
+   ![Radionbutton](/Assets/Icons/Radiobutton.png "[Radiobutton]") *manual*: Changes in a PIM product must be triggered manually to be applied to the offer. The initial offer is automatically applied.   
+   ![Radionbutton](/Assets/Icons/Radiobutton.png "[Radiobutton]") *semi-automatic*: Changes in a PIM product are automatically applied to the offer after confirmation in the *Omni-Channel* module. The initial offer is automatically applied without confirmation.   
+   ![Radionbutton](/Assets/Icons/Radiobutton.png "[Radiobutton]") *semi-automatic, changes must be confirmed by another user*: Changes in a PIM product are automatically applied to the offer after confirmation in the *Omni-Channel* module by another user. The initial offer is only applied after confirmation by another user.    
+   ![Radionbutton](/Assets/Icons/Radiobutton.png "[Radiobutton]") *automatic*: Changes in a PIM product are automatically applied to the offer. The initial offer is also automatically applied.
 
 
 **Select connections**
@@ -1637,28 +1328,27 @@ The list displays all created offers to this product. All fields are read-only.
 - [SELECT ALL]   
   Click this button to select all available connections.
 
-- ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Connection name*     
-  Activate this toggle to select the connection for creating an offer. All available connections are displayed. By default, all toggles are inactive.
+- ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") Connection name     
+  Activate a toggle to select the corresponding connection to create an offer to. All available connections are displayed. By default, all toggles are inactive.
 
 - [CANCEL]   
-  Click this button to cancel adding a variant and close the *Select Connections and status* window.
+  Click this button to cancel adding multi-connection offers and close the *Select Connections and status* wizard window.
 
 - [CONTINUE]   
-  Click this button to proceed to the next step for adding connections. The *Select destination attribute sets* window is displayed.
-
+  Click this button to proceed to the next step to add multi-connection offers. The *Select destination attribute sets* wizard window is displayed.
 
 ##### Select destination attribute sets
 
 ![Add to multiple connections](/Assets/Screenshots/PIM/Products/List/Offers/MultipleConnections2.png "[Add to multiple connections]")
 
 - *Destination set for connection*   
-  Destination set for the selected connection. The destination set is automatically selected. The field is read-only. A destination set is displayed for each selected connection.
+  Destination attribute set for the selected connection. The attribute set is automatically selected. The field is read-only. An own attribute set is assigned to each selected connection.
 
 - [< BACK]   
-  Click this button to go back to the previous step. The *Select Connections and status* window is displayed.
+  Click this button to go back to the previous step. The *Select Connections and status* wizard window is displayed.
 
 - [CANCEL]   
-  Click this button to cancel adding a variant and close the *Select destination attribute sets* window.
+  Click this button to cancel adding multi-connection offers and close the *Select destination attribute sets* wizard window.
 
 - [FINISH]   
-  Click this button to save the connection(s) and close the *Select destination attribute sets* window.
+  Click this button to save the multi-connection offers and close the *Select destination attribute sets* wizard window.
