@@ -29,15 +29,20 @@ You can display all open items recorded in the system.
 
 > [Info] If no account is selected, the *Open items* tab displays all open items recorded in the system.
 
-1. Enter an account number in the *Contra account* field.  
+
+2. Select the *Normale-OPOS-Ansicht* or *Manuell ausgegl. OPOS zeigen* radio button to filter the open items displayed as necessary.
+
+Normale OPOS Ansicht
+
+Manuell ausgeglichene OPOS zeigen
+
+3. MANUELL AUSZIFFERN
+
+4. AUSZIFFERN AUFHEBEN
+
+5. Blättern
 
 
-2. Enter an account number in the *Account* field.  
-
-
-3. Select *All months* or *Only this month* radio button to filter the balances displayed as necessary.
-
-  ![Balances](/Assets/Screenshots/Accounting/Book/Balances/Balances_accounts.png "[Balances]")
 
 ### Next steps
 
@@ -76,11 +81,21 @@ You can display all open items recorded in a specific account.
 
 ![Open items - no account selected](/Assets/Screenshots/Accounting/Book/OpenItems/OpenItens_AccountSelected.png "[Open items - no account selected]")
 
-> [Info]
 
-1. Enter an account number in the *Contra account* or in the *Account* field.  
+1. Enter a personal account number in the *Contra account* or in the *Account* field.  
+The open items recorded in this account are displayed.
 
-2. Select *All months* or *Only this month* radio button to filter the balances displayed as necessary.
+2. Select the *Normale-OPOS-Ansicht* or *Manuell ausgegl. OPOS zeigen* radio button to filter the open items displayed as necessary.
+
+Normale OPOS Ansicht
+
+Manuell ausgeglichene OPOS zeigen
+
+3. MANUELL AUSZIFFERN
+
+4. AUSZIFFERN AUFHEBEN
+
+5. Blättern
 
   ![Account sheet](/Assets/Screenshots/Accounting/Book/AccountSheet/.png "[Account sheet]")
 
