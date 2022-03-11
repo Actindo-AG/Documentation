@@ -80,7 +80,7 @@ At least one group is created, see [Create an attribute group](#create-an-attrib
 
 #### Create an attribute sub-group
 
-Create a sub-group to  organize the attributes in special groups, for instance depending on product-related categories.
+Create a sub-group to organize the attributes in special groups, for instance depending on product-related categories.
 
 *PIM > Settings > Tab GROUPS*
 

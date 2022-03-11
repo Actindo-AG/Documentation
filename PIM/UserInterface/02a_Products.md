@@ -374,7 +374,6 @@ In this tab, boxes of all attributes with the *Related products* data type are d
 
 > [Info] For detailed information about the data types, see [Data type list](04_DataTypeList.md).
 
-
 - [ADD]   
   Click this button to add an associated product to the list. The *Filter List of Products* window is displayed.
 
@@ -398,7 +397,7 @@ The box displays all associated products. All fields are read-only. If no produc
 
 
 
-#### Filter List of Products
+#### Filter list of products
 *PIM > Products > Tab LIST > Button Add > Button CREATE > Tab Associations > Button ADD*
 
 ![Filter List of Products ](/Assets/Screenshots/PIM/Products/List/Associations/FilterListProducts.png "[Filter List of Products]")
@@ -588,7 +587,7 @@ The list displays all created offers to this product. All fields are read-only.
 #### Add to multiple connections
 *PIM > Products > Tab LIST > Button Add > Button CREATE > Tab Offers > Button Add > Button Add to multiple connections*
 
-##### Select Connections and status
+##### Select connections and status
 
 ![Add to multiple connections](/Assets/Screenshots/PIM/Products/List/Offers/MultipleConnections01.png "[Add to multiple connections]")
 
@@ -691,7 +690,7 @@ The list displays all created offers to this product. All fields are read-only.
   > [Info] Changing the attribute set can destroy data. Therefore, a confirmation window is displayed to confirm the attribute set change. Note, that the change cannot be undone once you have saved the changes.
 
 
-### Edit product - Completeness
+### Completeness
 *PIM > Products > Tab LIST > Select product > Button Complete*
 
 ![Completeness](/Assets/Screenshots/PIM/Products/List/Completeness.png "[Completeness]")
@@ -819,7 +818,7 @@ All defining attributes of the variant are displayed in this section.
 #### Add multiple variants
 *PIM > Products > Tab LIST > Select product > Tab Variants > Select variant set > Button Add > Button Add multiple variants*
 
-##### Select Values
+##### Select values
 
 ![Add multiple variants](/Assets/Screenshots/PIM/Products/List/Variants/AddMultipleVariants01.png "[Add multiple variants]")
 
@@ -1016,7 +1015,7 @@ The box displays all associated product for cross selling. All fields are read-o
 
 
 
-#### Filter List of Products
+#### Filter list of products
 *PIM > Products > Select product > Tab Associations > Button ADD*
 
 ![Filter List of Products ](/Assets/Screenshots/PIM/Products/List/Associations/FilterListProducts.png "[Filter List of Products]")
@@ -1303,7 +1302,7 @@ The list displays all created offers to this product. All fields are read-only.
 #### Add to multiple connections
 *PIM > Products > Select product > Tab Offers > Button Add > Button Add to multiple connections*
 
-##### Select Connections and status
+##### Select connections and status
 
 ![Add to multiple connections](/Assets/Screenshots/PIM/Products/List/Offers/MultipleConnections1.png "[Add to multiple connections]")
 
@@ -1336,6 +1335,7 @@ The list displays all created offers to this product. All fields are read-only.
 
 - [CONTINUE]   
   Click this button to proceed to the next step to add multi-connection offers. The *Select destination attribute sets* wizard window is displayed.
+
 
 ##### Select destination attribute sets
 

@@ -81,7 +81,7 @@ The list displays all attributes. All fields are read-only. Depending on the set
   Name and username of the user who created the attribute.
 
 - *Name (Language)*   
-  Attribute name in the displayed language. For each active language exists one *Name* column.
+  Attribute name in the selected language. One *Name (Language)* column is displayed for the system languages *English (United States)* and *Deutsch (Deutschland)*.
 
 - *Description (Language)*   
   Attribute description in the displayed language. For each active language exists one *Description* column.
@@ -99,7 +99,7 @@ The list displays all attributes. All fields are read-only. Depending on the set
   Click this button to close the *Create Attribute* view and return to the attributes list. All changes are rejected.
 
 - Language   
-  Click the drop-down list and select the language in which the *Name (Language)* and *Description (Language)* fields are displayed. All languages, that are active in the *PIM* module are displayed in the drop-down list.
+  Click the drop-down list and select the language in which the *Name (Language)* and *Description (Language)* fields are displayed. The system languages *English (United States)* and *Deutsch (Deutschland)* are available in the drop-down list.
   [comment]: <> (Is that right? -> language question)
 
 - [SAVE]   
@@ -156,7 +156,7 @@ For detailed information about the different configurations of data types, see [
   Click this button to close the *Edit Attribute* view and return to the attributes list. All changes are rejected.
 
 - Language   
-  Click the drop-down list and select the language in which the *Name (Language)* and *Description (Language)* fields are displayed. All languages, that are active in the *PIM* module are displayed in the drop-down list.
+  Click the drop-down list and select the language in which the *Name (Language)* and *Description (Language)* fields are displayed. The system languages *English (United States)* and *Deutsch (Deutschland)* are available in the drop-down list.
   [comment]: <> (Is that right? -> language question)
 
 - [SAVE]   
@@ -194,7 +194,7 @@ The *CONFIGURATION* section displays the additional configuration for the select
 For detailed information about the different configurations of data types, see [Data type list](04_DataTypeList.md).
 
 
-### Edit attribute - Attribute Set Assignments
+### Edit attribute - Attribute set assignments
 *PIM > Settings > Tab ATTRIBUTES > Select attribute > Tab Attribute Set Assignments*
 
 ![Attribute set assignments](/Assets/Screenshots/PIM/Settings/Attributes/EditAttribute_Assignments.png "[Attribute set assignments]")

@@ -79,7 +79,7 @@ The list displays all attribute sets. All fields are read-only. Depending on the
   Name and username of the user who created the attribute set.
 
 - *Name (Language)*   
-  Attribute name in the displayed language. For each active language exists one *Name* column.
+  Attribute name in the selected language. One *Name (Language)* column is displayed for the system languages *English (United States)* and *Deutsch (Deutschland)*.
 
 - *Description (Language)*   
   Attribute description in the displayed language. For each active language exists one *Description* column.
@@ -97,7 +97,7 @@ The list displays all attribute sets. All fields are read-only. Depending on the
   Click this button to close the *Create Attribute Set* view and return to the attribute set list. All changes are rejected.
 
 - Language   
-  Click the drop-down list and select the language in which the *Name (Language)* and *Description (Language)* fields are displayed. All languages, that are active in the *PIM* module are displayed in the drop-down list.
+  Click the drop-down list and select the language in which the *Name (Language)* and *Description (Language)* fields are displayed. The system languages *English (United States)* and *Deutsch (Deutschland)* are available in the drop-down list.
   [comment]: <> (Is that right? -> language question)
 
 - [SAVE]   
@@ -161,7 +161,7 @@ In the *Create Attribute Set* view, no attributes are displayed in list. You hav
   Click this button to close the *Edit Attribute Set* view and return to the attribute set list. All changes are rejected.
 
 - Language   
-  Click the drop-down list and select the language in which the *Name (Language)* and *Description (Language)* fields are displayed. All languages, that are active in the *PIM* module are displayed in the drop-down list.
+  Click the drop-down list and select the language in which the *Name (Language)* and *Description (Language)* fields are displayed. The system languages *English (United States)* and *Deutsch (Deutschland)* are available in the drop-down list.
   [comment]: <> (Is that right? -> language question)
 
 - [SAVE]   
@@ -359,7 +359,7 @@ For detailed information about the different configurations of data types, see [
 
 This wizard helps you to import one or multiple attribute set(s).
 
-### Step 1
+### Import wizard - Step 1
 
 ![Import wizard step 1](/Assets/Screenshots/PIM/Settings/AttributeSets/Import01.png "[Import wizard step 1]")
 
@@ -386,7 +386,7 @@ This wizard window
   Click this button to proceed to the next step. This button is locked until a file is uploaded. The *Step 2* wizard window is displayed.
 
 
-### Step 2
+### Import wizard - Step 2
 
 ![Import wizard step 2](/Assets/Screenshots/PIM/Settings/AttributeSets/Import02.png "[Import wizard step 2]")
 
@@ -405,7 +405,7 @@ This wizard window displays a summary of the import. When the import was success
 
 This wizard helps you to export one or multiple attribute set(s).
 
-### Step 1
+### Export wizard - Step 1
 
 ![Export wizard step 1](/Assets/Screenshots/PIM/Settings/AttributeSets/Export01.png "[Export wizard step 1]")
 
@@ -478,7 +478,7 @@ The list displays all attributes assigned to the selected attribute set. All fie
   Click this button to proceed to the next step. If the selected attribute set for export includes variant sets, the *Step 2* wizard window is displayed. Otherwise, the *Step 2* wizard window is skipped and the *Step 3* wizard window is directly displayed.
 
 
-### Step 2
+### Export wizard - Step 2
 
 ![Export wizard step 2](/Assets/Screenshots/PIM/Settings/AttributeSets/Export02.png "[Export wizard step 2]")
 
@@ -530,7 +530,7 @@ The list displays all variant sets included to the selected attribute set for ex
   Click this button to complete the import. The import wizard window is closed and the attribute sets list is displayed.
 
 
-### Step 3
+### Export wizard - Step 3
 
 ![Export wizard step 3](/Assets/Screenshots/PIM/Settings/AttributeSets/Export03.png "[Export wizard step 3]")
 

@@ -1,5 +1,7 @@
 # Catalogs
 
+[comment]: <> (UI will be changed)
+
 *PIM > Settings > Tab CATALOGS*
 
 ![Catalogs](/Assets/Screenshots/PIM/Settings/Catalogs/Catalogs.png "[Catalogs]")

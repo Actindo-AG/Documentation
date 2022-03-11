@@ -2,26 +2,27 @@
 
 *PIM > Settings > Tab SCOPES*
 
-![Scopes](/Assets/Screenshots/PIM/Settings/Channels/Channels.png "[Channels]")
+![Scopes](/Assets/Screenshots/PIM/Settings/Scopes/Scopes.png "[Scopes]")
 
-**Channels**
+**Scopes**
 
 - [ <u>Edit channel list here</u> ]    
-  Click this button to switch to the *DataHub* module to edit the channel list or create a channel. *DataHub > Settings > Tab SCOPES* is displayed.  
+  Click this button to switch to the *DataHub* module and edit the scope list or create a scope. The *SCOPES* tab is displayed: *DataHub > Settings > Tab SCOPES*    
+  For detailed information, see [Create a scope](/DataHub/Integration/CreateScope.md).
 
 - ![Refresh](/Assets/Icons/Refresh01.png "[Refresh]") (Refresh)   
-  Click this button to update the list of channels.
+  Click this button to update the list of scopes.
 
 - ![Filter](/Assets/Icons/Filter.png "[Filter]") Filter (x)   
   Click this button to display the filter bar and customize the active filters. The *x* indicates the number of filters that are currently active.
 
-The list displays all available channels.
+The list displays all available scopes.
 
 - *Key*   
-  Scope key. The key is required for API access and must be system wide unique.
+  Scope key. The key is required for API access and must be system wide unique. This field is read-only.
 
-- *Language*   
-  Description to the channel.
+- *Description*   
+  Description to the scope. This field is read-only.
 
 - *Active*   
-  Activate the toggle ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") to set the channel active. Deactivate the toggle ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") to set the channel inactive.
+  Activate the toggle to set the scope active. Deactivate the toggle to set the scope inactive.

@@ -126,7 +126,7 @@ The list displays all attributes that are not assigned to the selected group. Al
 
 [comment]: <> (Hier weiter)
 
-## Edit groups
+## Edit attribute groups
 *PIM > Settings > Tab ATTRIBUTE GROUPS > Button Edit*
 
 ![Edit groups](/Assets/Screenshots/PIM/Settings/AttributeGroups/EditGroups.png "[Edit groups]")
@@ -144,29 +144,17 @@ The list displays all attributes that are not assigned to the selected group. Al
   Click and hold this button to move the selected group to another position in the list using drag and drop.
 
 - ![Edit](/Assets/Icons/Edit03.png "[Edit]") (Edit)   
-  Click this button to edit the selected group. The group data is displayed. This button is only displayed, when you hover over the group.
+  Click this button to edit the selected group. The group data window is displayed. This button is only displayed, when you hover over the group.
 
-- First level group   
-  Top level group. Click the group to display the second level column and all assigned sub-groups. Hover over the group to display the button ![Edit](/Assets/Icons/Edit03.png "[Edit]") (Edit).
+- Attribute group   
+  Top attribute group. Click the group to display the sub-group column and all assigned sub-groups. Hover over the group to display the ![Edit](/Assets/Icons/Edit03.png "[Edit]") (Edit) button.
 
-- Second level group   
-  Sub-group to the selected first level group. Click the group to display the third level column and all assigned sub-groups. Hover over the group to display the button ![Edit](/Assets/Icons/Edit03.png "[Edit]") (Edit).
-
-- Third level group   
-  Sub-group to the selected second level group. Click the group to display the fourth level column and all assigned sub-groups. Hover over the group to display the button ![Edit](/Assets/Icons/Edit03.png "[Edit]") (Edit).
-
-- Fourth level group   
-  Sub-group to the selected third level group. Click the group to display the fifth level column and all assigned sub-groups. Hover over the group to display the button ![Edit](/Assets/Icons/Edit03.png "[Edit]") (Edit).
-
-- Fifth level group   
-  Sub-group to the selected fourth level group. Click the group to display the sixth level column and all assigned sub-groups. Hover over the group to display the button ![Edit](/Assets/Icons/Edit03.png "[Edit]") (Edit).
-
-- Sixth level group   
-  Sub-group to the selected fifth level group. The sixth level group is the lowest level group. Hover over the group to display the button ![Edit](/Assets/Icons/Edit03.png "[Edit]") (Edit).
+- Attribute sub-group   
+  Sub-group to the selected attribute group. Hover over the sub-group to display the ![Edit](/Assets/Icons/Edit03.png "[Edit]") (Edit) button.
 
 - ![Add](/Assets/Icons/Plus01.png "[Add]") (Add)   
-  Click this button to add a group. A plus sign is displayed in each displayed column. Click the plus sign in the desired column to add a new group or sub-group to the selected group. The *Add Element* window is displayed.    
-  For detailed information about creating groups aor sub-groups, see [Create a group](to_be_completed) or [Create a sub-group](to_be_completed).
+  Click this button to add an attribute group or sub-group. A plus sign is displayed in each displayed column. Click the plus sign in the desired column to add a new group or sub-group to the selected group. The *Add Element* window is displayed.    
+  For detailed information about creating groups or sub-groups, see [Create an attribute group](/PIM/Integration/03_ManageGroups.md#create-an-attribute-group) or [Create an attribute sub-group](/PIM/Integration/03_ManageGroups.md#create-an-attribute-sub-group).
 
 
 ### Add element
@@ -176,19 +164,23 @@ The list displays all attributes that are not assigned to the selected group. Al
 
 > [Info] The *Add Element* window for groups and sub-groups is identical.
 
-- *Name*   
-  Enter a group name.
+- Language   
+  Click the drop-down list and select the language in which the *Name (Language)* field is displayed. The system languages *English (United States)* and *Deutsch (Deutschland)* are available in the drop-down list.
+  [comment]: <> (Is that right? -> language question)
+
+- *Name (Language)*   
+  Enter an attribute group name in the selected language.
 
 - *Key*   
-  Enter a group key. The key is required for API access and must be system wide unique.
+  Enter an attribute group key. The key is required for API access and must be system wide unique.
 
 - [CANCEL]   
-  Click this button to cancel adding a group, close the *Add Element* window and return to the *Edit groups* view.
+  Click this button to cancel adding an attribute group, close the *Add Element* window and return to the *Edit groups* view.
 
 - [SAVE]   
-  Click this button to add the new group, close the *Add Element* window and return to the *Edit groups* view.
+  Click this button to add the new attribute group, close the *Add Element* window and return to the *Edit groups* view.
 
-  > [Info] You have to click the button [SAVE] in the *Edit groups* view to save the added group.
+  > [Info] You have to click the [SAVE] button in the *Edit groups* view to save the added group.
 
 
 ### Edit group data
@@ -196,23 +188,27 @@ The list displays all attributes that are not assigned to the selected group. Al
 
 ![Group data](/Assets/Screenshots/PIM/Settings/AttributeGroups/GroupData.png "[Group data]")
 
-- *Name*   
-  Click the field to edit the group name.
+- Language   
+  Click the drop-down list and select the language in which the *Name (Language)* field is displayed. The system languages *English (United States)* and *Deutsch (Deutschland)* are available in the drop-down list.
+  [comment]: <> (Is that right? -> language question)
+
+- *Name (Language)*   
+  Click the field to edit the attribute group name in the selected language.
 
 - *Key*   
-  Click the field to edit the group key. The key is required for API access and must be system wide unique.
+  Click the field to edit the attribute group key. The key is required for API access and must be system wide unique.
 
 - ![Delete](/Assets/Icons/Trash01.png "[Delete]") (Delete)   
-  Click this button to remove the selected group.
+  Click this button to remove the selected attribute group.
 
-  > [Info] You have to click the button [SAVE] in the *Edit groups* view to finally delete the group.
+  > [Info] You have to click the [SAVE] button in the *Edit groups* view to finally delete the attribute group.
 
-  > [Warning] Be aware that as soon as you delete a group, you also delete all assigned sub-groups.
+  > [Warning] Be aware that as soon as you delete an attribute group, you also delete all assigned sub-groups.
 
 - [CANCEL]   
-  Click this button to cancel adding a group, close the window and return to the *Edit groups* view.
+  Click this button to cancel adding an attribute group, close the window and return to the *Edit groups* view.
 
 - [SAVE]   
-  Click this button to add the new group, close the window and return to the *Edit groups* view.
+  Click this button to add the new attribute group, close the window and return to the *Edit groups* view.
 
-  > [Info] You have to click the button [SAVE] in the *Edit groups* view to save the changes.
+  > [Info] You have to click the [SAVE] button in the *Edit groups* view to save the changes.
