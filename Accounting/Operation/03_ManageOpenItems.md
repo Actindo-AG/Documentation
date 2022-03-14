@@ -9,9 +9,12 @@ There are two view modes:
 - If no account is selected, the *Open items* tab displays all open items in the *Accounting* module.
 - If an account is selected, the *Open items* tab displays only the open items for the selected account.
 
+> [Info] An account can be selected either by entering an  account number in the *Account* or *Contra account* field, or by clicking on a booking in the *Bookings* tab.  
+
+
 ## Access all open items
 
-You can display all open items recorded in the system.
+You can display all open items recorded in the system within the selected booking period.
 
 ### Prerequisites
 
@@ -23,29 +26,22 @@ You can display all open items recorded in the system.
 
 *Accounting > Select fiscal year > Book > Tab OPEN ITEMS*
 
-![Open items - no account selected](/Assets/Screenshots/Accounting/Book/OpenItems/OpenItems_no_OPOS.png "[Open items - no account selected]")
+![Open items - No account selected](/Assets/Screenshots/Accounting/Book/OpenItems/OpenItens_NoAccountSelected.png "[Open items - No account selected]")
 
 [comment]: <> (New screenshots to be done when demo data are uploaded)
 
-> [Info] If no account is selected, the *Open items* tab displays all open items recorded in the system.
+1. Check that no account number is entered in the *Account* or *Contra account* fields.
 
+2. If the *Account* or *Contra account* fields are filled out, clear the content either with the keyboard delete key or with the [CLEAR] button. Press Enter or the tab key.  
+The *Open items* tab shows all open items available in the *Accounting* module.
 
-2. Select the *Normale-OPOS-Ansicht* or *Manuell ausgegl. OPOS zeigen* radio button to filter the open items displayed as necessary.
+ > [Info] If there are no open items, a blank tab is displayed.
 
-Normale OPOS Ansicht
-
-Manuell ausgeglichene OPOS zeigen
-
-3. MANUELL AUSZIFFERN
-
-4. AUSZIFFERN AUFHEBEN
-
-5. Blättern
-
-
+  ![Open items - No open items](/Assets/Screenshots/Accounting/Book/OpenItems/OpenItems_no_OPOS.png "[Open items - No open items]")
 
 ### Next steps
 
+  - [Access the open items for an account](#access-the-open-items-for-an-account)
   - [Create a manual booking](04_CreatedManualBooking)
   - [Cancel a booking](05_CancelBooking)
   - [Delete bookings](06_DeleteBookings)
@@ -62,12 +58,12 @@ Manuell ausgeglichene OPOS zeigen
 ### See also
 
   - [User Interface Accounting](/Accounting/UserInterface/00_UserInterface.md)
-  - [Zahlungsabwicklung](#to_be_completed)
+  - [Zahlungsabwicklung Offene Posten](#to_be_completed)
 
 
 ## Access the open items for an account
 
-You can display all open items recorded in a specific account.
+You can display all open items recorded in a specific account within the selected booking period.
 
 ### Prerequisites
 
@@ -75,30 +71,31 @@ You can display all open items recorded in a specific account.
 - A valid fiscal year is created, see [Create fiscal year](04_ManageFiscalYear.md#create-a-fiscal-year).
 - A fiscal year is selected, see [Select fiscal year](01_SelectFiscalYear.md).
 
-###Procedure
+### Procedure
 
 *Accounting > Select fiscal year > Book > Tab OPEN ITEMS*
 
-![Open items - no account selected](/Assets/Screenshots/Accounting/Book/OpenItems/OpenItens_AccountSelected.png "[Open items - no account selected]")
+![Open items - Account selected](/Assets/Screenshots/Accounting/Book/OpenItems/OpenItens_AccountSelected.png "[Open items - Account selected]")
 
+1. Enter a personal account number in the *Contra account* or in the *Account* field. Alternatively, click on a booking in the *Bookings* tab.
+The open items recorded in the corresponding account are displayed in the *Open items* tab.
 
-1. Enter a personal account number in the *Contra account* or in the *Account* field.  
-The open items recorded in this account are displayed.
+2. Select the *Normal open items view* or the *Show manually settled open items* radio button to filter the open items displayed as appropriate.
 
-2. Select the *Normale-OPOS-Ansicht* or *Manuell ausgegl. OPOS zeigen* radio button to filter the open items displayed as necessary.
+3. If necessary, you can clear open items manually. To do so, select the bookings to be settled by marking the ![checkbox](/Assets/Icons/Checkbox.png "[checkbox]") checkbox in the *M* column.
+The amount displayed in the *Amount* box on the right-hand side of the workspace equals 0,00.
 
-Normale OPOS Ansicht
+  ![Open items - Account selected](/Assets/Screenshots/Accounting/Book/OpenItems/OpenItems_ClearManually_Checkbox.png "[Open items - Account selected]")
 
-Manuell ausgeglichene OPOS zeigen
+4. Click the [CLEAR MANUALLY] button.  
+ The bookings are settled. The open items disappear from the open items list with the *Normal open items view* radio button selected.
 
-3. MANUELL AUSZIFFERN
+5. If necessary, you can reverse manually cleared bookings that have been incorrectly settled. To do so, click the *Show manually settled open items* radio button to display again all manually cleared bookings for the selected account.
 
-4. AUSZIFFERN AUFHEBEN
+6. Click the [CANCEL CLEARING] button if you need to undo the clearing.  
+The manual clearing has been cancelled.
 
-5. Blättern
-
-  ![Account sheet](/Assets/Screenshots/Accounting/Book/AccountSheet/.png "[Account sheet]")
-
+[comment]: <> (Testen nochmals, evtl. RS Flo Heusel.)
 
 ### Next steps
 
@@ -118,4 +115,4 @@ Manuell ausgeglichene OPOS zeigen
 ### See also
 
   - [User Interface Accounting](/Accounting/UserInterface/00_UserInterface.md)
-  - [To be completed](#to_be_completed)
+  - [Zahlungsabwicklung Offene Posten](#to_be_completed)
