@@ -80,7 +80,7 @@ You can display all open items recorded in a specific account within the selecte
 1. Enter a personal account number in the *Contra account* or in the *Account* field. Alternatively, click on a booking in the *Bookings* tab.
 The open items recorded in the corresponding account are displayed in the *Open items* tab.
 
-2. Select the *Normal open items view* or the *Show manually settled open items* radio button to filter the open items displayed as appropriate.
+2. Select the *Standard open items view* or the *Show manually settled open items* radio button to filter the open items displayed as appropriate.
 
 3. If necessary, you can clear open items manually. To do so, select the bookings to be settled by marking the ![checkbox](/Assets/Icons/Checkbox.png "[checkbox]") checkbox in the *M* column.
 The amount displayed in the *Amount* box on the right-hand side of the workspace equals 0,00.
@@ -88,11 +88,14 @@ The amount displayed in the *Amount* box on the right-hand side of the workspace
   ![Open items - Account selected](/Assets/Screenshots/Accounting/Book/OpenItems/OpenItems_ClearManually_Checkbox.png "[Open items - Account selected]")
 
 4. Click the [CLEAR MANUALLY] button.  
- The bookings are settled. The open items disappear from the open items list with the *Normal open items view* radio button selected.
+ The bookings are settled. The open items disappear from the open items list with the *Standard open items view* radio button selected.
 
-5. If necessary, you can reverse manually cleared bookings that have been incorrectly settled. To do so, click the *Show manually settled open items* radio button to display again all manually cleared bookings for the selected account.
+5. If necessary, you can reverse manually cleared bookings. To do so, click the *Show manually settled open items* radio button to display again all manually cleared bookings for the selected account. The manually cleared bookings are marked with an asterisk next to the checkbox.
 
-6. Click the [CANCEL CLEARING] button if you need to undo the clearing.  
+6. Select the manually cleared bookings to be reversed.  
+The amount displayed in the *Amount* box on the right-hand side of the workspace equals 0,00.
+
+7. Click the [CANCEL CLEARING] button to reverse the clearing.  
 The manual clearing has been cancelled.
 
 [comment]: <> (Testen nochmals, evtl. RS Flo Heusel.)
