@@ -13,7 +13,6 @@ Once an invoice has been issued and booked, it cannot be simply deleted for lega
 - The accounting is configured via the configuration wizard, see [Run the Accounting Wizard](01_RunAccountingWizard.md).
 - A valid fiscal year is created, see [Create fiscal year](04_ManageFiscalYear.md#create-a-fiscal-year).
 - A fiscal year is selected, see [Select fiscal year](01_SelectFiscalYear.md).
-- A manual booking is created, see [Create a manual booking](04_CreateManualBooking.md).
 
 ## Procedure
 
