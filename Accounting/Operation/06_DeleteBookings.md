@@ -69,12 +69,12 @@ A message above the input line confirms that the booking has been deleted. The d
 
 *Accounting > Select fiscal year > Book > Tab BOOKINGS > Context menu EDIT > Menu entry Delete*
 
-![Bookings](/Assets/Screenshots/Accounting/Book/Bookings/Bookings_Delete_MultipleBookings.png "[Bookings]")
+![Delete multiple bookings](/Assets/Screenshots/Accounting/Book/Bookings/Bookings_Delete_MultipleBookings.png "[Delete multiple bookings]")
 
 1. Click the *Delete* menu entry in the *EDIT* context menu.   
 A window opens for you to select the journal and the sequential numbers of the bookings to be deleted.
 
-  ![Bookings](/Assets/Screenshots/Accounting/Book/Bookings/Bookings_Delete_MultipleBookings_Window1.png "[Bookings]")
+  ![Select multiple bookings](/Assets/Screenshots/Accounting/Book/Bookings/Bookings_Delete_MultipleBookings_Window1.png "[Select multiple bookings]")
 
 2. Select the journal where the bookings to be deleted are recorded in the *Journal* drop-down list.
 
@@ -82,7 +82,7 @@ A window opens for you to select the journal and the sequential numbers of the b
 
   > [Warning] Be aware that the existing bookings will be deleted permanently.
 
-  ![Bookings](/Assets/Screenshots/Accounting/Book/Bookings/Bookings_Delete_MultipleBookings_Window2.png "[Bookings]")
+  ![Multiple bookings selected](/Assets/Screenshots/Accounting/Book/Bookings/Bookings_Delete_MultipleBookings_Window2.png "[Multiple bookings selected]")
 
   [comment]: <> (New screenshot needed - Unschärfe!)
 
