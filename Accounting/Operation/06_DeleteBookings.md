@@ -2,13 +2,11 @@
 
 # Delete bookings
 
-The *Accounting* module allows to delete bookings in the *Bookings* tab, for example, if ...
+The *Accounting* module allows to delete bookings in the *Bookings* tab, for example, if content errors are found or if the booking was created for test purposes.
 
-It is possible to delete single bookings or to delete multiple bookings at once.
+It is possible to delete single bookings or multiple bookings at once. Bear in mind, however, that the bookings to be deleted must be unprocessed, that is, cannot have any related document, payment or cancellation running.
 
-[comment]: <> (Info in CancelBooking: Once an invoice has been issued and booked, it cannot be simply deleted for legal reasons. The incorrect invoice must be cancelled, recorded as reverse booking in the system, and a new correct booking must be recorded, if necessary.)
-
- Explain briefly at what time a booking deletion is used and the consequences.
+> [Warning] Be aware that any bookings deleted will no longer be available in the system.
 
 ## Delete a single booking
 
@@ -17,9 +15,7 @@ It is possible to delete single bookings or to delete multiple bookings at once.
 - The accounting is configured via the configuration wizard, see [Run the Accounting Wizard](01_RunAccountingWizard.md).
 - A valid fiscal year is created, see [Create fiscal year](04_ManageFiscalYear.md#create-a-fiscal-year).
 - A fiscal year is selected, see [Select fiscal year](01_SelectFiscalYear.md).
-- A booking has been created [05_Create a manual booking](05_CreateManualBooking).
-
-[comment]: <> (A booking must be created, but not necessarily manually created. Same for Prerequisites in 05_CancelBooking.md)
+- A booking has been created, see [05_Create a manual booking](05_CreateManualBooking).
 
 ### Procedure
 
@@ -32,10 +28,10 @@ It is possible to delete single bookings or to delete multiple bookings at once.
 2. The existing booking details are displayed in the input line fields.
 
 3. Click the *DELETE* button.  
-A window comes up asking for confirmation.
+A confirmation window is displayed.
   > [Warning] Be aware that the existing booking will be deleted permanently.
 
-4. Click the [OK] button to confirm.
+4. Click the [Ok] button to confirm the action.  
 A message above the input line confirms that the booking has been deleted. The deleted booking disappears from the bookings list.
 
   ![Booking deleted](/Assets/Screenshots/Accounting/Book/Bookings/Bookings_Booking_Deleted.png "[Booking deleted]")
@@ -67,29 +63,36 @@ A message above the input line confirms that the booking has been deleted. The d
 - The accounting is configured via the configuration wizard, see [Run the Accounting Wizard](01_RunAccountingWizard.md).
 - A valid fiscal year is created, see [Create fiscal year](04_ManageFiscalYear.md#create-a-fiscal-year).
 - A fiscal year is selected, see [Select fiscal year](01_SelectFiscalYear.md).
-- A booking has been created [05_Create a manual booking](05_CreateManualBooking).
-
-[comment]: <> (A booking must be created, but not necessarily manually created. Same for Prerequisites in 05_CancelBooking.md)
+- Multiple bookings have been created, see [05_Create a manual booking](05_CreateManualBooking).
 
 ### Procedure
 
-*Accounting > Select fiscal year > Book > Tab BOOKINGS*
+*Accounting > Select fiscal year > Book > Tab BOOKINGS > Context menu EDIT > Menu entry Delete*
 
-![Bookings](/Assets/Screenshots/Accounting/Book/Bookings/Bookings_Cancel_Booking.png "[Bookings]")
+![Bookings](/Assets/Screenshots/Accounting/Book/Bookings/Bookings_Delete_MultipleBookings.png "[Bookings]")
 
-1. Select the booking to be cancelled from the list in the *Bookings* tab.
+1. Click the *Delete* menu entry in the *EDIT* context menu.   
+A window opens for you to select the journal and the sequential numbers of the bookings to be deleted.
 
-2. The existing booking details are displayed in the input line fields.
+  ![Bookings](/Assets/Screenshots/Accounting/Book/Bookings/Bookings_Delete_MultipleBookings_Window1.png "[Bookings]")
 
-3. Click the *CANCEL* button.   
-A new  booking is created in the bookings list with a negative turnover value and marked as **Cancel** in the *Booking text* field.
+2. Select the journal where the bookings to be deleted are recorded in the *Journal* drop-down list.
 
-  ![Booking cancelled](/Assets/Screenshots/Accounting/Book/Bookings/Bookings_Booking_Cancelled.png "[Booking cancelled]")
+3. Enter the number range of the bookings to be deleted in the *Seq. numbers* field.
 
+  > [Warning] Be aware that the existing bookings will be deleted permanently.
+
+  ![Bookings](/Assets/Screenshots/Accounting/Book/Bookings/Bookings_Delete_MultipleBookings_Window2.png "[Bookings]")
+
+  [comment]: <> (New screenshot needed - Unschärfe!)
+
+4. Click the [DELETE] button.   
+The selected bookings are deleted and will no longer be displayed in the bookings list.
+
+  [comment]: <> (After clicking DELETE, nothing happens: no confirmation window/confirmation message. Journal/seq. numbers selection window turns blank and no further reaction. Page must be reloaded (F5) to display changes. After reloading the changes have been made, i.e. deleted bookings are actually deleted and do not appear in the list any more. RS FH)
 
 ### Next steps
 
-  - [Delete bookings](06_DeleteBookings)
   - [Process bookings](07_ProcessBookings)
   - [Lock a period for bookings](08_LockPeriodBookings)
   - [Split a booking](09_SplitBooking)
