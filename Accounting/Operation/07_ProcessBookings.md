@@ -28,7 +28,7 @@ Once the bookings have been processed, they cannot be changed or deleted any mor
 1. Click the *Process* menu entry in the *EDIT* context menu.   
 A window opens for you to select the booking period of the bookings to be processed.
 
-  ![Process bookings](/Assets/Screenshots/Accounting/Book/Bookings/Bookings_Process_Bookings_Window.png "[Bookings]")
+  ![Process bookings selection window](/Assets/Screenshots/Accounting/Book/Bookings/Bookings_Process_Bookings_Window.png "[Process bookings selection window]")
 
 2. Select the journal(s) where the bookings to be processed are recorded in the *Journal* drop-down lists.
 
