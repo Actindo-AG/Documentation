@@ -29,11 +29,11 @@ A window opens for you to select the months to be locked for bookings.
 
   ![Lock months window](/Assets/Screenshots/Accounting/Book/Bookings/Bookings_LockMonths_Window.png "[Lock months window]")
 
-3. Lock the month(s) as necessary by selecting *Locked* in the drop-down list of the corresponding month(s).
+2. Lock the month(s) as necessary by selecting *Locked* in the drop-down list of the corresponding month(s).
 
   > [Info] This action can be reversed by selecting the *bookable* option in the drop-down list for the corresponding month(s).
 
-4. Click the [OK] button.  
+3. Click the [OK] button.  
 A pop-up window is displayed shortly to confirm that the change is being saved. The selected month(s) are now locked for bookings.
 
 [comment]: <> (More info/research needed!)
