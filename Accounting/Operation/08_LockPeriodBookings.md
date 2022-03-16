@@ -1,15 +1,13 @@
 [!!Accounting](Actindo/Accounting)
 
-# Process bookings
+# Lock a period for bookings
 
-The *Lock months* menu entry of the *EDIT* context menu in the *BOOKINGS* tab allows to lock or unlock months to process the bookings...
+The *Lock months* menu entry of the *EDIT* context menu in the *BOOKINGS* tab allows to lock months for bookings.
 
-
-[comment]: <> (Unsure, double check info/RS FH)
 
 - information about the consequences of locking a certain period
-- information about how to unlock a certain period
-- information about the difference to process bookings
+- information about how to unlock a certain period - done
+- information about the difference to process bookings - link to process bookings + update 07_ProcessBookings.md if necessary
 
 - Explain why locking a certain period for bookings is important, what it is used for and at what time.
 
@@ -27,20 +25,18 @@ The *Lock months* menu entry of the *EDIT* context menu in the *BOOKINGS* tab al
 ![Lock months](/Assets/Screenshots/Accounting/Book/Bookings/Bookings_LockMonths.png "[Lock months]")
 
 1. Click the *Lock months* menu entry in the *EDIT* context menu.
-A window opens for you to select the booking months to be locked.
+A window opens for you to select the months to be locked for bookings.
 
   ![Lock months window](/Assets/Screenshots/Accounting/Book/Bookings/Bookings_LockMonths_Window.png "[Lock months window]")
 
-2. Select the journal(s) where the bookings to be processed are recorded in the *Journal* drop-down lists.
+3. Lock the month(s) as necessary by selecting *Locked* in the drop-down list of the corresponding month(s).
 
-3. Select the month(s) where the bookings to be processed are recorded in the *Month* drop-down lists.
+  > [Info] This action can be reversed by selecting the *bookable* option in the drop-down list for the corresponding month(s).
 
-  > [Info] Be aware that, once the bookings have been processed, they cannot be changed or deleted any more.
+4. Click the [OK] button.  
+A pop-up window is displayed shortly to confirm that the change is being saved. The selected month(s) are now locked for bookings.
 
-4. Click the [OK] button.
-A confirmation window is displayed. The selected bookings are processed. The [DELETE] button is now greyed out.
-
-[comment]: <> (Where do I see that bookings have been processed? Nothing changes in Bookings tab)
+[comment]: <> (More info/research needed!)
 
 ## Next steps
 
