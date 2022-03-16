@@ -17,7 +17,7 @@ Once the bookings have been processed, they cannot be changed or deleted any mor
 - The accounting is configured via the configuration wizard, see [Run the Accounting Wizard](01_RunAccountingWizard.md).
 - A valid fiscal year is created, see [Create fiscal year](04_ManageFiscalYear.md#create-a-fiscal-year).
 - A fiscal year is selected, see [Select fiscal year](01_SelectFiscalYear.md).
-- A booking or multiple bookings have been created, see [05_Create a manual booking](05_CreateManualBooking).
+- A booking or multiple bookings have been created, see [Create a manual booking](05_CreateManualBooking).
 
 ## Procedure
 
