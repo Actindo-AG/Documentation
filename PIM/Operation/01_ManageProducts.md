@@ -2,11 +2,11 @@
 
 # Manage a product
 
-A product defines everything that can be offered and purchased on a market. All products are assigned to an attribute set and can be specified by the attributes within this set. You can create master products and [product variants](02_ManageVariants.md#create-product-variants), edit products, archive, delete or restore products and copy products. To offer a product on a marketplace you have to create an offer to the product, see [Create an offer in PIM](#create-an-offer-in-PIM).
+A product defines everything that can be offered and purchased on a market. All products are assigned to an attribute set and can be specified by the attributes within this set. You can create master products and [variants](02_ManageVariants.md#create-variants), edit products, archive, delete or restore products and copy products. To offer a product on a marketplace you have to create an offer to the product, see [Create an offer in PIM](#create-an-offer-in-PIM).
 
 ## Create a product
 
-Create a product to offer it on a marketplace. You can create a product or create product variants, see [Create product variants](02_ManageVariants.md#create-product-variants). In the following, the procedure to create a product is described.
+Create a product to offer it on a marketplace. You can create a product or create variants, see [Create variants](02_ManageVariants.md#create-variants). In the following, the procedure to create a product is described.
 
 ### Prerequisites
 
@@ -56,7 +56,7 @@ An attribute set is created, see [Create an attribute set](ManageAttributeSet.md
 ### See also
 
 - [User Interface PIM](/PIM/UserInterface/00_UserInterface.md)
-- [Create product variants](02_ManageVariants.md#create-product-variants)
+- [Create variants](02_ManageVariants.md#create-variants)
 
 
 ## Edit products
@@ -133,11 +133,11 @@ Several products are created, see [Create a product](#create-a-product).
   ![Select attributes](/Assets/Screenshots/PIM/Products/List/MassEditingWizard/SelectAttributes.png "[Select attributes]")
 
 4. Select the checkboxes ![Checkbox](/Assets/Icons/Checkbox.png "[Checkbox]") of the attributes you want to edit and click the [CONTINUE] button in the bottom right corner.   
-  The *Select Scopes and Languages* window is displayed.
+  The *Select Channels and Languages* window is displayed.
 
-  ![Select scopes and languages](/Assets/Screenshots/PIM/Products/List/MassEditingWizard/SelectScopesLanguages.png "[Select scopes and languages]")
+  ![Select channels and languages](/Assets/Screenshots/PIM/Products/List/MassEditingWizard/SelectChannelsLanguages.png "[Select channels and languages]")
 
-5. Select the appropriate scopes and languages by selecting the corresponding checkboxes ![Checkbox](/Assets/Icons/Checkbox.png "[Checkbox]") in the *Select Scopes* and *Select Languages* sections and click the [CONTINUE] button in the bottom right corner.   
+5. Select the appropriate channels and languages by selecting the corresponding checkboxes ![Checkbox](/Assets/Icons/Checkbox.png "[Checkbox]") in the *Select Channels* and *Select Languages* sections and click the [CONTINUE] button in the bottom right corner.   
 
   The *Editing* window with the selected products and their attributes to be edited is displayed.
 

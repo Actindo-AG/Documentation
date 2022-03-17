@@ -32,7 +32,7 @@ An attribute set is created, see [Create an attribute set](ManageAttributeSet.md
 
   ![Formulas](/Assets/Screenshots/PIM/Settings/VariantSets/Formulas.png "[Formulas]")
 
-4. Enter a formula for the product variants SKU in the *Formula for SKU* field using the displayed placeholders. By default, you can enter the formula **{master}-{L}**.   
+4. Enter a formula for the variants SKU in the *Formula for SKU* field using the displayed placeholders. By default, you can enter the formula **{master}-{L}**.   
 
   > [Info] The value of the defining attributes can be included into the SKU formula. When you have added a defining attribute, the corresponding placeholder for this attribute is displayed in the *Formulas* section.
 
@@ -43,7 +43,7 @@ An attribute set is created, see [Create an attribute set](ManageAttributeSet.md
 
 #### Add defining attributes
 
-> [Info] You have to select at least one defining attribute to create a variant set. You can only select attributes as defining attributes, that are neither multilingual nor multi-scope and assigned to the selected attribute set.
+> [Info] You have to select at least one defining attribute to create a variant set. You can only select attributes as defining attributes, that are neither multilingual nor multi-channel and assigned to the selected attribute set.
 
 1. In the *Defining attributes* box click the ![Add](/Assets/Icons/Plus01.png "[Add]") button. This button is only displayed when an attribute set is selected.       
   The *Add defining attributes* view is displayed.
@@ -53,7 +53,7 @@ An attribute set is created, see [Create an attribute set](ManageAttributeSet.md
 2. Select the checkboxes ![Checkbox](/Assets/Icons/Checkbox.png "[Checkbox]") of the attributes you want to be a defining attribute for the selected variant.   
   The editing toolbar is displayed above the attribute list.
 
-  > [Info] The defining attributes are those attributes that characterize the product variant, so those attributes that are defining the variants of the master product.
+  > [Info] The defining attributes are those attributes that characterize the variant, so those attributes that are defining the variants of the master product.
 
 3. Click the [ADD AND GO BACK] button.     
     The *Add defining attributes* view is closed. The selected attributes are displayed in the *Defining attributes* box. A placeholder for the added attribute is displayed in the *Formulas* section.   
@@ -79,7 +79,7 @@ Otherwise, click the [SAVE] button in the upper right corner.
 2. Select the checkboxes ![Checkbox](/Assets/Icons/Checkbox.png "[Checkbox]") of the attributes you want to be a differing attribute for the selected variant.   
   The editing toolbar is displayed above the attribute list.
 
-  > [Info] Generally, a product variant inherits all attribute values from its master product. These attribute values are locked in the product variant and can only be edited in the master product. Attribute values that differ from the master product and must be maintained individually in the product variant itself must be added to the list of differing attributes.
+  > [Info] Generally, a variant inherits all attribute values from its master product. These attribute values are locked in the variant and can only be edited in the master product. Attribute values that differ from the master product and must be maintained individually in the variant itself must be added to the list of differing attributes.
 
 3. Click the [ADD AND GO BACK] button.   
   The *Add differing attributes* view is closed. The selected attributes are displayed in the *Differing Attributes* box.
@@ -101,7 +101,7 @@ Otherwise, click the [SAVE] button in the upper right corner.
 - [Manage the attribute sets](02_ManageAttributeSets.md)
 - [Manage the attribute groups](03_ManageGroups.md)
 - [Configure the language settings](04_ConfigureLanguages.md)
-- [Configure the scope settings](05_ConfigureScopes.md)
+- [Configure the channel settings](05_ConfigureChannels.md)
 - [Manage the catalogs](06_ManageCatalogs.md)
 - [Manage the products](/PIM/Operation/01_ManageProducts.md)
 
@@ -144,7 +144,7 @@ At least one variant set is created, see [Create a variant set](#create-a-varian
 - [Manage the attribute sets](02_ManageAttributeSets.md)
 - [Manage the attribute groups](03_ManageGroups.md)
 - [Configure the language settings](04_ConfigureLanguages.md)
-- [Configure the scope settings](05_ConfigureScopes.md)
+- [Configure the channel settings](05_ConfigureChannels.md)
 - [Manage the catalogs](06_ManageCatalogs.md)
 - [Manage the products](/PIM/Operation/01_ManageProducts.md)
 
@@ -190,6 +190,6 @@ A variant set is created, see [Create a variant set](#create-a-variant-set).
 - [Manage the attribute sets](02_ManageAttributeSets.md)
 - [Manage the attribute groups](03_ManageGroups.md)
 - [Configure the language settings](04_ConfigureLanguages.md)
-- [Configure the scope settings](05_ConfigureScopes.md)
+- [Configure the channel settings](05_ConfigureChannels.md)
 - [Manage the catalogs](06_ManageCatalogs.md)
 - [Manage the products](/PIM/Operation/01_ManageProducts.md)

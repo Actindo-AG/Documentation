@@ -75,7 +75,7 @@ No prerequisites to fulfill.
 - [Manage the attribute sets](02_ManageAttributeSets.md)
 - [Manage the attribute groups](03_ManageGroups.md)
 - [Configure the language settings](04_ConfigureLanguages.md)
-- [Configure the scope settings](05_ConfigureScopes.md)
+- [Configure the channel settings](05_ConfigureChannels.md)
 - [Manage the products](/PIM/Operation/01_ManageProducts.md)
 
 
@@ -151,7 +151,7 @@ At least one catalog with one category is created, see [Create a catalog](#creat
 - [Manage the attribute sets](02_ManageAttributeSets.md)
 - [Manage the attribute groups](03_ManageGroups.md)
 - [Configure the language settings](04_ConfigureLanguages.md)
-- [Configure the scope settings](05_ConfigureScopes.md)
+- [Configure the channel settings](05_ConfigureChannels.md)
 - [Manage the products](/PIM/Operation/01_ManageProducts.md)
 
 
@@ -207,7 +207,7 @@ At least one catalog with one category is created, see [Create a catalog](#creat
 - [Manage the attribute sets](02_ManageAttributeSets.md)
 - [Manage the attribute groups](03_ManageGroups.md)
 - [Configure the language settings](04_ConfigureLanguages.md)
-- [Configure the scope settings](05_ConfigureScopes.md)
+- [Configure the channel settings](05_ConfigureChannels.md)
 - [Manage the products](/PIM/Operation/01_ManageProducts.md)
 
 
@@ -270,7 +270,7 @@ At least one catalog with one category is created, see [Create a catalog](#creat
 - [Manage the attribute sets](02_ManageAttributeSets.md)
 - [Manage the attribute groups](03_ManageGroups.md)
 - [Configure the language settings](04_ConfigureLanguages.md)
-- [Configure the scope settings](05_ConfigureScopes.md)
+- [Configure the channel settings](05_ConfigureChannels.md)
 - [Manage the products](/PIM/Operation/01_ManageProducts.md)
 
 
@@ -333,5 +333,5 @@ At least one catalog with one category is created, see [Create a catalog](#creat
 - [Manage the attribute sets](02_ManageAttributeSets.md)
 - [Manage the attribute groups](03_ManageGroups.md)
 - [Configure the language settings](04_ConfigureLanguages.md)
-- [Configure the scope settings](05_ConfigureScopes.md)
+- [Configure the channel settings](05_ConfigureChannels.md)
 - [Manage the products](/PIM/Operation/01_ManageProducts.md)

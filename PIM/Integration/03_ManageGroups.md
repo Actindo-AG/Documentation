@@ -56,7 +56,7 @@ The attributes for the attribute set are created, see [Create an attribute](01_M
 - [Change the order of attributes within a group](#change-the-order-of-attributes-within-a-group)
 - [Remove attributes from a group](#remove-attributes-from-a-group)
 - [Configure the language settings](04_ConfigureLanguages.md)
-- [Configure the scope settings](05_ConfigureScopes.md)
+- [Configure the channel settings](05_ConfigureChannels.md)
 - [Manage the catalogs](06_ManageCatalogs.md)
 - [Manage the variant sets](07_ManageVariantSets.md)
 
@@ -251,7 +251,7 @@ You can remove an attribute from a group if it is no longer in use. Note, that y
 ### Next steps
 
 - [Configure the language settings](04_ConfigureLanguages.md)
-- [Configure the scope settings](05_ConfigureScopes.md)
+- [Configure the channel settings](05_ConfigureChannels.md)
 - [Manage the catalogs](06_ManageCatalogs.md)
 - [Manage the variant sets](07_ManageVariantSets.md)
 

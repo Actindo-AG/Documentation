@@ -32,7 +32,7 @@
 
 - [Configure the language settings](04_ConfigureLanguages.md)
 
-- [Configure the scope settings](05_ConfigureScopes.md)
+- [Configure the channel settings](05_ConfigureChannels.md)
 
 
 - [Manage the catalogs](06_ManageCatalogs.md)

@@ -15,15 +15,15 @@ Each box presents one degree of completeness. The following degrees of completen
 In addition to the degree of completeness, the number of products in the corresponding level and the percentage of this number of products measured against the total number of products are displayed in each box.
 
 
-## Completeness by Scope
+## Completeness by Channel
 
-In this section, an overview of the completeness regarding the scopes is displayed in several boxes.    
-Each box presents an existing scope. Additionally, one box presents the completeness of products that are not assigned to a specific scope.
+In this section, an overview of the completeness regarding the channels is displayed in several boxes.    
+Each box presents an existing channel. Additionally, one box presents the completeness of products that are not assigned to a specific channel.
 
 In each box the degree of completeness in percent is displayed related to:
-- all products within that scope
-- all single language products within that scope
-- all products in the active languages within that scope (a single percentage for each active language)
+- all products within that channel
+- all single language products within that channel
+- all products in the active languages within that channel (a single percentage for each active language)
 
 
 ## Recent Changes

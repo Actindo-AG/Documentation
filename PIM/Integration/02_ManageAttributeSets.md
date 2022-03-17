@@ -94,7 +94,7 @@ The attributes for the attribute set are created, see [Create an attribute](Mana
 - [Export an attribute set](#export-an-attribute-set)
 - [Manage the attribute groups](03_ManageGroups.md)
 - [Configure the language settings](04_ConfigureLanguages.md)
-- [Configure the scope settings](05_ConfigureScopes.md)
+- [Configure the channel settings](05_ConfigureChannels.md)
 - [Manage the catalogs](06_ManageCatalogs.md)
 - [Manage the variant sets](07_ManageVariantSets.md)
 
@@ -155,7 +155,7 @@ Add a new attribute to an attribute set to define any further specifications.
 - [Export an attribute set](#export-an-attribute-set)
 - [Manage the attribute groups](03_ManageGroups.md)
 - [Configure the language settings](04_ConfigureLanguages.md)
-- [Configure the scope settings](05_ConfigureScopes.md)
+- [Configure the channel settings](05_ConfigureChannels.md)
 - [Manage the catalogs](06_ManageCatalogs.md)
 - [Manage the variant sets](07_ManageVariantSets.md)
 
@@ -206,7 +206,7 @@ An attribute set is created, see [Create an attribute set](#create-an-attribute-
 - [Export an attribute set](#export-an-attribute-set)
 - [Manage the attribute groups](03_ManageGroups.md)
 - [Configure the language settings](04_ConfigureLanguages.md)
-- [Configure the scope settings](05_ConfigureScopes.md)
+- [Configure the channel settings](05_ConfigureChannels.md)
 - [Manage the catalogs](06_ManageCatalogs.md)
 - [Manage the variant sets](07_ManageVariantSets.md)
 
@@ -261,7 +261,7 @@ An attribute set is created, see [Create an attribute set](#create-an-attribute-
 - [Export an attribute set](#export-an-attribute-set)
 - [Manage the attribute groups](03_ManageGroups.md)
 - [Configure the language settings](04_ConfigureLanguages.md)
-- [Configure the scope settings](05_ConfigureScopes.md)
+- [Configure the channel settings](05_ConfigureChannels.md)
 - [Manage the catalogs](06_ManageCatalogs.md)
 - [Manage the variant sets](07_ManageVariantSets.md)
 
@@ -312,7 +312,7 @@ At least one attribute set is created, see [Create an attribute set](#create-an-
 - [Export an attribute set](#export-an-attribute-set)
 - [Manage the attribute groups](03_ManageGroups.md)
 - [Configure the language settings](04_ConfigureLanguages.md)
-- [Configure the scope settings](05_ConfigureScopes.md)
+- [Configure the channel settings](05_ConfigureChannels.md)
 - [Manage the catalogs](06_ManageCatalogs.md)
 - [Manage the variant sets](07_ManageVariantSets.md)
 
@@ -370,7 +370,7 @@ No prerequisites to fulfill.
 - [Export an attribute set](#export-an-attribute-set)
 - [Manage the attribute groups](03_ManageGroups.md)
 - [Configure the language settings](04_ConfigureLanguages.md)
-- [Configure the scope settings](05_ConfigureScopes.md)
+- [Configure the channel settings](05_ConfigureChannels.md)
 - [Manage the catalogs](06_ManageCatalogs.md)
 - [Manage the variant sets](07_ManageVariantSets.md)
 
@@ -429,7 +429,7 @@ At least one attribute set is created, see [Create an attribute set](#create-an-
 
 - [Manage the attribute groups](03_ManageGroups.md)
 - [Configure the language settings](04_ConfigureLanguages.md)
-- [Configure the scope settings](05_ConfigureScopes.md)
+- [Configure the channel settings](05_ConfigureChannels.md)
 - [Manage the catalogs](06_ManageCatalogs.md)
 - [Manage the variant sets](07_ManageVariantSets.md)
 

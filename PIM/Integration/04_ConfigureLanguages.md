@@ -21,7 +21,7 @@ At least one language has to be created in the DataHub module, see [Create a lan
 
 ## Next steps
 
-- [Configure the scope settings](05_ConfigureScopes.md)
+- [Configure the channel settings](05_ConfigureChannels.md)
 - [Manage the catalogs](06_ManageCatalogs.md)
 - [Manage the variant sets](07_ManageVariantSets.md)
 

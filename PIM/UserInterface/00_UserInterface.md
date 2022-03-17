@@ -5,7 +5,7 @@
 
 - [DASHBOARD](01a_Overview.md)
   - [Completeness by Product](01a_Overview.md#completeness-by-product)
-  - [Completeness by Scope](01a_Overview.md#completeness-by-scope)
+  - [Completeness by Channel](01a_Overview.md#completeness-by-channel)
   - [Recent Changes](01a_Overview.md#recent-changes)
 
 
@@ -102,7 +102,7 @@
 - [LANGUAGES](03d_Settings.md)
 
 
-- [SCOPES](03e_Settings.md)
+- [CHANNELS](03e_Settings.md)
 
 
 - [CATALOGS](03f_Settings.md)

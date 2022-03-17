@@ -10,8 +10,8 @@
 - *Language*   
   Click the drop-down list to select the language. All languages, that are active in *PIM* are displayed in the drop-down list. For detailed information, see [Select a language](/PIM/Operation/04_ManageView.md#select-a-language).
 
-- *Scope*   
-  Click the drop-down list to select the scope. All scopes that are active in *PIM* are displayed in the drop-down list. By default, the **Actindo Basic** scope is preselected. For detailed information, see [Select a scope](/PIM/Operation/04_ManageView.md#select-a-scope).
+- *Channel*   
+  Click the drop-down list to select the channel. All channels that are active in *PIM* are displayed in the drop-down list. By default, the **Actindo Basic** channel is preselected. For detailed information, see [Select a channel](/PIM/Operation/04_ManageView.md#select-a-channel).
 
 [comment]: <> (List needs title)
 - *Catalog*   
@@ -29,7 +29,7 @@
 - *Variants*   
   Click the drop-down list to select the display settings for variants. The following settings are available:
   - **List all products**: All products and their variants are displayed in the product list.   
-  - **Hide child products**: No product variants are displayed in the product list.
+  - **Hide child products**: No variants are displayed in the product list.
   For detailed information, see [Select a variant view](/PIM/Operation/04_ManageView.md#select-a-variant-view).
 
 
@@ -62,7 +62,7 @@
   Click this button to edit the selected products. This button is only displayed, when the checkbox of at least one product is selected. The mass editing is only recommended if you select more that one product.
   For detailed information, see [Mass editing](/PIM/Operation/01_ManageProducts.md#mass-editing).
 
-Depending on the selection in the *Variants* drop-down list, the product list displays all products or just the master products without their product variants. All fields are read-only. Depending on the settings, the displayed columns may vary.
+Depending on the selection in the *Variants* drop-down list, the product list displays all products or just the master products without their variants. All fields are read-only. Depending on the settings, the displayed columns may vary.
 
 - *Images*   
   Image of the product.
@@ -77,7 +77,7 @@ Depending on the selection in the *Variants* drop-down list, the product list di
   Variant type of the product. The following variant types are displayed:
   - **Master entity with *x* children** (x indicates the number of child entities for the master entity)
   - **Child entity *Defining Attribute: Value*** (the defining attributes and their values are indicated)
-  - no variant type indicated for all products that are neither a master product nor a product variant
+  - no variant type indicated for all products that are neither a master product nor a variant
 
 
 - *Attribute Set*   
@@ -145,8 +145,8 @@ Depending on the selection in the *Variants* drop-down list, the product list di
 - ![Apply](/Assets/Icons/Check.png "[Apply]") (Apply)   
   Click this button to apply the changes to the SKU. This button is only displayed when you are editing the SKU.
 
-- *Scope*   
-  Click the drop-down list to select a scope for the product. All active scopes are displayed in the drop-down list. By default, the **Actindo Basic** scope is preselected.
+- *Channel*   
+  Click the drop-down list to select a channel for the product. All active channels are displayed in the drop-down list. By default, the **Actindo Basic** channel is preselected.
 
 - *Language*   
   Click the drop-down list to select a language for the product. All active languages are displayed in the drop-down list. The default language is preselected.
@@ -214,10 +214,10 @@ The list displays all variants of the selected product. All fields are read-only
 ![Add variant](/Assets/Screenshots/PIM/Products/List/Variants/AddVariantCreate.png "[Add variant]")
 
 - [Add single variant ![Document](/Assets/Icons/Document.png "[Document]") ]    
-  Click this button to add a single product variant. The *Add single variant* window is displayed.
+  Click this button to add a single variant. The *Add single variant* window is displayed.
 
 - [Add multiple variants ![Documents](/Assets/Icons/Documents.png "[Documents]") ]    
-  Click this button to add multiple product variants. The *Select Values* wizard window is displayed.
+  Click this button to add multiple variants. The *Select Values* wizard window is displayed.
 
 - ![Cancel](/Assets/Icons/Cross01.png "[Cancel]") (Cancel)   
   Click this button to hide the buttons and return to the *Variants* tab.
@@ -279,7 +279,7 @@ For each defining attribute a single box to define the attribute value is displa
 
 ![Add multiple variants](/Assets/Screenshots/PIM/Products/List/Variants/AddMultipleVariants02.png "[Add multiple variants]")
 
-The box displays all product variants that will be created from the selected attribute values. For each possible combination of the selected attributes, a new variant is created. Variants that already exist will not be created even when they are listed in the box.
+The box displays all variants that will be created from the selected attribute values. For each possible combination of the selected attributes, a new variant is created. Variants that already exist will not be created even when they are listed in the box.
 
 **Variants that will be created (ignoring duplicated)**
 
@@ -668,15 +668,15 @@ The list displays all created offers to this product. All fields are read-only.
 - ![Apply](/Assets/Icons/Check.png "[Apply]") (Apply)   
   Click this button to apply the changes to the SKU. This button is only displayed when you are editing the SKU.
 
-- *Scope*   
-  Click the drop-down list to select a scope for the product. All active scopes are displayed in the drop-down list. By default, the **Actindo Basic** scope is preselected.
+- *Channel*   
+  Click the drop-down list to select a channel for the product. All active channels are displayed in the drop-down list. By default, the **Actindo Basic** channel is preselected.
 
 - *Language*   
   Click the drop-down list to select a language for the product. All active languages are displayed in the drop-down list. The default language is preselected.
 
 
 - [Complete]     
-  Completeness of the product for all available scopes and languages. The percentage of completeness is displayed in the button. Click the button to display the *Completeness* window. If the completeness is less than 100%, the number of missing require attributes is displayed to the right of the completeness button.
+  Completeness of the product for all available channels and languages. The percentage of completeness is displayed in the button. Click the button to display the *Completeness* window. If the completeness is less than 100%, the number of missing require attributes is displayed to the right of the completeness button.
   If the completeness cannot be calculated, *Completeness: Not available* is displayed and the button is not clickable.
 
   > [Info] The completeness is calculated by considering the number of missing required fields. As the required fields are defined individually for each attribute set set, it can vary from one product to another.  
@@ -695,10 +695,10 @@ The list displays all created offers to this product. All fields are read-only.
 
 ![Completeness](/Assets/Screenshots/PIM/Products/List/Completeness.png "[Completeness]")
 
-- *Scopes*   
-  Click the drop-down list to change the scope for the product completeness calculation. All available scopes, the **Scopes (All)** option and the **Not multiscope** option are displayed in the drop-down list. By default, the **Scopes (All)** option is preselected.
+- *Channels*   
+  Click the drop-down list to change the channel for the product completeness calculation. All available channels, the **Channels (All)** option and the **Not multichannel** option are displayed in the drop-down list. By default, the **Channels (All)** option is preselected.
 
-  > [Info] The product completeness for the selected scope is only displayed in the *Completeness* window. The completeness button in the *Edit Product* view is not affected by this change.
+  > [Info] The product completeness for the selected channel is only displayed in the *Completeness* window. The completeness button in the *Edit Product* view is not affected by this change.
 
 - *Languages*   
   Click the drop-down list to change the language for the product completeness calculation. All available languages, the **Languages (All)** option and the **Not multilanguage** option are displayed in the drop-down list. By default, the **Languages (All)** option is preselected.
@@ -706,7 +706,7 @@ The list displays all created offers to this product. All fields are read-only.
   > [Info] The product completeness for the selected language is only displayed in the *Completeness* window. The completeness button in the *Edit Product* view is not affected by this change.
 
 - Percentage
-  The current percentage for the product completeness of the selected scope and language is displayed. The percentage is automatically updated when you select a different scope or language.
+  The current percentage for the product completeness of the selected channel and language is displayed. The percentage is automatically updated when you select a different channel or language.
 
 
 ### Edit product - Attributes
@@ -728,11 +728,11 @@ The right side of the *Attributes* tab displays all attributes that are assigned
 
 - *Variant set*   
   Click the drop-down list to select a variant set for the product. All available variant sets are displayed in the drop-down list. The ![Add](/Assets/Icons/Plus01.png "[Add]") (Add) button is displayed in the variants box below if a variant set is selected.
-  If the product is a master product, the corresponding variant set is preselected in the drop-down list. The drop-down list is locked. The corresponding product variants and the ![Add](/Assets/Icons/Plus01.png "[Add]") (Add) button are displayed in the variants box.
+  If the product is a master product, the corresponding variant set is preselected in the drop-down list. The drop-down list is locked. The corresponding variants and the ![Add](/Assets/Icons/Plus01.png "[Add]") (Add) button are displayed in the variants box.
   If the product is a variant, the *Variant set* drop-down list is not displayed, but the *Child Entity* field.
 
 - *Child Entity*   
-  Indication that the selected product is a variant. This field is read-only. The value can be changed within the *Attributes* tab. The field is only displayed for product variants.
+  Indication that the selected product is a variant. This field is read-only. The value can be changed within the *Attributes* tab. The field is only displayed for variants.
 
 
 **Variants box**
@@ -843,7 +843,7 @@ For each defining attribute a single box to define the attribute value is displa
 
 ![Add multiple variants](/Assets/Screenshots/PIM/Products/List/Variants/AddMultipleVariants02.png "[Add multiple variants]")
 
-The box displays all product variants that will be created from the selected attribute values. For each possible combination of the selected attributes, a new variant is created. Variants that already exist will not be created even when they are listed in the box.
+The box displays all variants that will be created from the selected attribute values. For each possible combination of the selected attributes, a new variant is created. Variants that already exist will not be created even when they are listed in the box.
 
 **Variants that will be created (ignoring duplicated)**
 
@@ -926,12 +926,12 @@ The list displays all dependencies of the selected product. All fields are read-
 
 ![Completeness](/Assets/Screenshots/PIM/Products/List/Completeness/Completeness.png "[Completeness]")
 
-The *Completeness* tab displays the completeness of the product for the different languages and scopes. A single box is displayed for each active scope. The tab is only displayed if the completeness of the product has been calculated and is displayed in the header section of the *Edit product* view. Consequently, the tab is never displayed in the *Create product* view.
+The *Completeness* tab displays the completeness of the product for the different languages and channels. A single box is displayed for each active channel. The tab is only displayed if the completeness of the product has been calculated and is displayed in the header section of the *Edit product* view. Consequently, the tab is never displayed in the *Create product* view.
 
-- Scope name   
-  This box displays the percentage for the product completeness of the selected product regarding the assigned scope.
+- Channel name   
+  This box displays the percentage for the product completeness of the selected product regarding the assigned channel.
   - Language   
-    The box displays the percentage for the product completeness of the selected product regarding the assigned scope and language. A single percentage is displayed for each available language for one scope.
+    The box displays the percentage for the product completeness of the selected product regarding the assigned channel and language. A single percentage is displayed for each available language for one channel.
 
   - ![Info](/Assets/Icons/Info.png "[Info]") (Info)   
     Hover over this icon to display a box that is listing the missing attribute values. This icon is only displayed when at least one required attribute value for the product completeness is missing.
@@ -1121,8 +1121,8 @@ The list displays the single entries of the selected product change. All fields 
 - *Attribute name*   
   Name of the attribute to which the change was made.
 
-- *Scope name*   
-  Name of the scope to which the change was made.
+- *Channel name*   
+  Name of the channel to which the change was made.
 
 - *Language name*   
   Name of the language to which the change was made

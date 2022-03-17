@@ -38,7 +38,8 @@ An attribute defines a characteristic to describe a product. By default, the *PI
 - Product Description
 - Sale Item
 
-You can create attributes, edit existing attributes and deactivate or delete attributes that are not in use. Further, you can add attributes to an attribute set or remove them from an attribute set.  
+You can create attributes, edit existing attributes and deactivate or delete attributes that are not in use. Further, you can add attributes to an attribute set or remove them from an attribute set.
+In the *PIM* module, only PIM attributes are displayed.
 
 
 ## Create an attribute
@@ -70,9 +71,9 @@ An attribute set is created, see [Create an attribute set](02_ManageAttributeSet
 
   > [Info] In order to facilitate the assignment of attributes in the further process (for instance in the ETL mapping), it is recommended to add the prefix **pim_** to all attributes created in the *PIM* module.     
 
-5. If desired, activate the ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Multi-language* toggle to assign values in multiple languages to the attribute or activate the ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Multi-scope* toggle to assign different attribute values in different scopes.
+5. If desired, activate the ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Multi-language* toggle to assign values in multiple languages to the attribute or activate the ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Multi-channel* toggle to assign different attribute values in different channels.
 
-  > [Info] Be aware that only attributes which are neither multi-language nor multi-scope can be used as defining attributes for variants. For detailed information, see [Create a variant set](07_ManageVariantSets.md#create-a-variant-set).
+  > [Info] Be aware that only attributes which are neither multi-language nor multi-channel can be used as defining attributes for variants. For detailed information, see [Create a variant set](07_ManageVariantSets.md#create-a-variant-set).
 
 6. Click the ![Add](/Assets/Icons/Plus05.png "[Add]") (Add) button in the *Assigned Sets* field. The button is locked if you have not yet selected a data type.   
   A drop-down list with all active attribute sets is displayed.
@@ -95,7 +96,7 @@ An attribute set is created, see [Create an attribute set](02_ManageAttributeSet
 - [Manage the attribute sets](02_ManageAttributeSets.md)
 - [Manage the attribute groups](03_ManageGroups.md)
 - [Configure the language settings](04_ConfigureLanguages.md)
-- [Configure the scope settings](05_ConfigureScopes.md)
+- [Configure the channel settings](05_ConfigureChannels.md)
 - [Manage the catalogs](06_ManageCatalogs.md)
 - [Manage the variant sets](07_ManageVariantSets.md)
 
@@ -146,7 +147,7 @@ At least one attribute is created, see [Create an attribute](#create-an-attribut
 - [Manage the attribute sets](02_ManageAttributeSets.md)
 - [Manage the attribute groups](03_ManageGroups.md)
 - [Configure the language settings](04_ConfigureLanguages.md)
-- [Configure the scope settings](05_ConfigureScopes.md)
+- [Configure the channel settings](05_ConfigureChannels.md)
 - [Manage the catalogs](06_ManageCatalogs.md)
 - [Manage the variant sets](07_ManageVariantSets.md)
 
@@ -192,7 +193,7 @@ At least one attribute is created, see [Create an attribute](#create-an-attribut
 - [Manage the attribute sets](02_ManageAttributeSets.md)
 - [Manage the attribute groups](03_ManageGroups.md)
 - [Configure the language settings](04_ConfigureLanguages.md)
-- [Configure the scope settings](05_ConfigureScopes.md)
+- [Configure the channel settings](05_ConfigureChannels.md)
 - [Manage the catalogs](06_ManageCatalogs.md)
 - [Manage the variant sets](07_ManageVariantSets.md)
 
@@ -252,7 +253,7 @@ At least one attribute is created, see [Create an attribute](#create-an-attribut
 - [Manage the attribute sets](02_ManageAttributeSets.md)
 - [Manage the attribute groups](03_ManageGroups.md)
 - [Configure the language settings](04_ConfigureLanguages.md)
-- [Configure the scope settings](05_ConfigureScopes.md)
+- [Configure the channel settings](05_ConfigureChannels.md)
 - [Manage the catalogs](06_ManageCatalogs.md)
 - [Manage the variant sets](07_ManageVariantSets.md)
 

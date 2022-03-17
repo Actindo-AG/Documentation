@@ -285,10 +285,10 @@ The list displays all attributes assigned to the selected attribute set. When th
   - ![Cross](/Assets/Icons/Cross02.png "[Cross]") (Cross): The attribute is single language.
 
 
-- *Multi-scope*   
-  Indication whether the attribute is multi-scope or not:
-  - ![Check](/Assets/Icons/Check.png "[Check]") (Checkmark): The attribute is multi-scope.  
-  - ![Cross](/Assets/Icons/Cross02.png "[Cross]") (Cross): The attribute is single scope.
+- *Multi-channel*   
+  Indication whether the attribute is multi-channel or not:
+  - ![Check](/Assets/Icons/Check.png "[Check]") (Checkmark): The attribute is multi-channel.  
+  - ![Cross](/Assets/Icons/Cross02.png "[Cross]") (Cross): The attribute is single channel.
 
 
 ### Edit attribute for set
@@ -333,8 +333,8 @@ This view equals to the attribute mapping in the *DataHub* module: *DataHub > Se
 - *Language*   
   Language of the destination attribute. The drop-down list is read-only. The drop-down list is only displayed when the destination attribute is multilingual.
 
-- *Scope*   
-  Scope of the destination attribute. The drop-down list is read-only. The drop-down list is only displayed when the destination attribute is multi-scope.
+- *Channel*   
+  Channel of the destination attribute. The drop-down list is read-only. The drop-down list is only displayed when the destination attribute is multi-channel.
 
 - *Extension*   
   Click the drop-down list and select the desired ETL extension for the mapping. The extensions in the list differ depending on the data type of the destination attribute.

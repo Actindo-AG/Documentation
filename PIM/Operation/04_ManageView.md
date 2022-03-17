@@ -32,7 +32,7 @@ At least two languages must be created and activated in the *PIM* module, see [C
 
 ### Next steps
 
-- [Select a scope](#select-a-scope)
+- [Select a channel](#select-a-channel)
 - [Select a product category](#select-a-product-category)
 - [Select a variant view](#select-a-variant-view)
 - [Create a view](#create-a-view)
@@ -46,28 +46,28 @@ At least two languages must be created and activated in the *PIM* module, see [C
 
 
 
-## Select a scope
+## Select a channel
 
-You can select the scope for which the attribute values of the products are displayed. Only multi-scope attributes can have different values in different scopes. Otherwise, the value remain the same in all scopes.
+You can select the channel for which the attribute values of the products are displayed. Only multi-channel attributes can have different values in different channels. Otherwise, the value remain the same in all channels.
 
 ### Prerequisites
 
-At least two scopes must be created and activated in the *PIM* module, see [Create a scope](/DataHub/Integration/CreateScope.md) and [Configure the scope settings](/PIM/Integration/05_ConfigureScopes.md).
+At least two channels must be created and activated in the *PIM* module, see [Create a channel](/DataHub/Integration/CreateChannel.md) and [Configure the channel settings](/PIM/Integration/05_ConfigureChannels.md).
 
-> [Info] By default, the scope *Actindo Basic* is created and activated in the *PIM* module.
+> [Info] By default, the channel *Actindo Basic* is created and activated in the *PIM* module.
 
 ### Procedure
 *PIM > Products > Tab LIST*
 
 ![Product list](/Assets/Screenshots/PIM/Products/List/Products.png "[Product list]")
 
-1. Click the *Scope* drop-down list in the left column.  
-  All scopes that are activated in the *PIM* module are displayed in the list.   
+1. Click the *Channel* drop-down list in the left column.  
+  All channels that are activated in the *PIM* module are displayed in the list.   
 
-  > [Info] For detailed information about activating a scope in the *PIM* module, see [Configure the scope settings](/PIM/Integration/05_ConfigureScopes.md).
+  > [Info] For detailed information about activating a channel in the *PIM* module, see [Configure the channel settings](/PIM/Integration/05_ConfigureChannels.md).
 
-2. Select the desired scope in the *Scope* drop-down list.   
-  The multi-scope values in the columns change to the values in the selected scope. All single scope values remain unchanged.
+2. Select the desired channel in the *Channel* drop-down list.   
+  The multi-channel values in the columns change to the values in the selected channel. All single channel values remain unchanged.
 
   > [Info]  If a product has no attribute value defined in the selected language, the value in the corresponding column remains blank.
 
@@ -80,8 +80,8 @@ At least two scopes must be created and activated in the *PIM* module, see [Crea
 ### See also
 
 - [User Interface PIM](/PIM/UserInterface/00_UserInterface.md)
-- [Configure the scope settings](/PIM/Integration/05_ConfigureScopes.md)
-- [Create a scope](/DataHub/Integration/CreateScope.md)
+- [Configure the channel settings](/PIM/Integration/05_ConfigureChannels.md)
+- [Create a channel](/DataHub/Integration/CreateChannel.md)
 - [Select a language](#select-a-language)
 
 
@@ -128,13 +128,13 @@ You can select a product category to limit the number of products to those produ
 - [User Interface PIM](/PIM/UserInterface/00_UserInterface.md)
 - [Manage the catalogs](/PIM/Integration/06_ManageCatalogs.md)
 - [Select a language](#select-a-language)
-- [Select a scope](#select-a-scope)
+- [Select a channel](#select-a-channel)
 
 
 
 ## Select a variant view
 
-Switch the variant view to either display only the master products in the product list or all products including all product variants.
+Switch the variant view to either display only the master products in the product list or all products including all variants.
 
 ### Prerequisites
 
@@ -147,7 +147,7 @@ No prerequisites to fulfill.
 
 1. Click the *Variants* drop-down list at the top of the products list.   
   The options below are displayed:
-  - **Hide child products**: No product variants are displayed in the product list.
+  - **Hide child products**: No variants are displayed in the product list.
   - **List all products**: All products and their variants are displayed in the product list.
 
 
@@ -161,23 +161,23 @@ No prerequisites to fulfill.
 ### See also
 
 - [User Interface PIM](/PIM/UserInterface/00_UserInterface.md)
-- [Configure the scope settings](/PIM/Integration/05_ConfigureScopes.md)
-- [Create a scope](/DataHub/Integration/CreateScope.md)
+- [Configure the channel settings](/PIM/Integration/05_ConfigureChannels.md)
+- [Create a channel](/DataHub/Integration/CreateChannel.md)
 - [Select a language](#select-a-language)
-- [Select a scope](#select-a-scope)
+- [Select a channel](#select-a-channel)
 - [Select a product category](#select-a-product-category)
 
 
 
 ## Create a view
 
-Create a view with a predefined selection of the language, the scope, the product category, the variant view and the order of columns in the product list.
+Create a view with a predefined selection of the language, the channel, the product category, the variant view and the order of columns in the product list.
 
 ### Prerequisites
 
 No prerequisites to fulfill.
 
-> [Info] Depending on the view you want to create, it is necessary to fulfill the corresponding prerequisites in the chapters [Select a language](#select-a-language), [Select a scope](#select-a-scope) or [Select a product category](#select-a-product-category).
+> [Info] Depending on the view you want to create, it is necessary to fulfill the corresponding prerequisites in the chapters [Select a language](#select-a-language), [Select a channel](#select-a-channel) or [Select a product category](#select-a-product-category).
 
 ### Procedure
 *PIM > Products > Tab LIST*
@@ -187,7 +187,7 @@ No prerequisites to fulfill.
 
 1. Select the desired settings for the view, you want to save:
   + Click the *Language* drop-down list and select the desired language.
-  + Click the *Scope* drop-down list and select the desired scope.
+  + Click the *Channel* drop-down list and select the desired channel.
   + Click the *Catalog* drop-down list and select the desired catalog and category.
   + Click the *Variants* drop-down list and select the desired variant view.   
 
@@ -229,6 +229,6 @@ No prerequisites to fulfill.
 
 - [User Interface PIM](/PIM/UserInterface/00_UserInterface.md)
 - [Select a language](#select-a-language)
-- [Select a scope](#select-a-scope)
+- [Select a channel](#select-a-channel)
 - [Select a product category](#select-a-product-category)
 - [Select a variant view](#select-a-variant-view)

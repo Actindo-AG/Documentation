@@ -2,12 +2,12 @@
 
 # Manage the variants
 
-A product variant is product with a special characteristic dependent on its master product. The defining attributes for the product variants are preset in their [variant set](/PIM/Integration/07_ManageVariantSets.md). You can create a variant directly when you create a master product, or you can add variants subsequently for an existing master product. Further, you can create a single variant or multiple variants to a master product.
+A variant is product with a special characteristic dependent on its master product. The defining attributes for the variants are preset in their [variant set](/PIM/Integration/07_ManageVariantSets.md). You can create a variant directly when you create a master product, or you can add variants subsequently for an existing master product. Further, you can create a single variant or multiple variants to a master product.
 
 
-## Create product variants
+## Create variants
 
-You can create a single or multiple product variants to a product directly when you create the master product. To add variants to an existing product, see [Add product variants](#add-product-variants).
+You can create a single or multiple variants to a product directly when you create the master product. To add variants to an existing product, see [Add variants](#add-variants).
 
 ### Prerequisites
 
@@ -71,12 +71,12 @@ The [Add single variant ![Add single variant](/Assets/Icons/Document.png "[Add s
   The selected attribute value is displayed in the box.
 
 4. Click the [SAVE] button in the bottom right corner.   
-  The new variant is added to the product. The *Add single variant* window is closed. The product variant is displayed in the variants list.
+  The new variant is added to the product. The *Add single variant* window is closed. The variant is displayed in the variants list.
 
   ![Variant added](/Assets/Screenshots/PIM/Products/List/Variants/VariantAddedCreate.png "[Variant added]")
 
 5. Click the [SAVE] button in the upper right corner.   
-  The variant is saved. The product view is closed. The product variant is displayed in the products list when you enable the **List all products** option in the *Variants* drop-down list at the top of the products list.
+  The variant is saved. The product view is closed. The variant is displayed in the products list when you enable the **List all products** option in the *Variants* drop-down list at the top of the products list.
 
 
 #### Create multiple variants
@@ -114,18 +114,18 @@ The [Add single variant ![Add single variant](/Assets/Icons/Document.png "[Add s
   > [Info] To remove a variant from the list, select the checkbox ![Checkbox](/Assets/Icons/Checkbox.png "[Checkbox]") of the variant and click the ![Delete](/Assets/Icons/Trash03.png "[Delete]") button in the editing toolbar displayed above the list.
 
 7. Click the [FINISH] button in the bottom right corner.   
-  The new variants are added to the product. The *Summary* wizard window is closed. The product variants are displayed in the variants list.
+  The new variants are added to the product. The *Summary* wizard window is closed. The variants are displayed in the variants list.
 
   ![Variants added](/Assets/Screenshots/PIM/Products/List/Variants/VariantsAddedCreate.png "[Variants added]")
 
 8. Click the [SAVE] button in the upper right corner.   
-  The variant is saved. The product view is closed. The product variants are displayed in the products list when you enable the **List all products** option in the *Variants* drop-down list at the top of the products list.
+  The variant is saved. The product view is closed. The variants are displayed in the products list when you enable the **List all products** option in the *Variants* drop-down list at the top of the products list.
 
   > [Info] For detailed information about the different views, see [Manage the view](04_ManageView.md).
 
 ### Next steps
 
-- [Add product variants](#add-product-variants)    
+- [Add variants](#add-variants)    
 - [Edit a variant](#edit-a-variant)
 - [Move a product](03_MoveProducts.md)
 - [Manage the view](04_ManageView.md)
@@ -138,7 +138,7 @@ The [Add single variant ![Add single variant](/Assets/Icons/Document.png "[Add s
 
 
 
-## Add product variants
+## Add variants
 
 You can add a single or multiple variants to a product directly when you create the master product.
 
@@ -152,7 +152,7 @@ You can add a single or multiple variants to a product directly when you create 
 
 ![Product list](/Assets/Screenshots/PIM/Products/List/Products.png "[Product list]")
 
-1. Click the master product you want to create one or more product variants to.   
+1. Click the master product you want to create one or more variants to.   
   The *Edit Product* view is displayed. The *Attributes* tab is preselected.
 
   ![Attributes](/Assets/Screenshots/PIM/Products/List/Attributes/AttributesEdit.png "[Attributes]")
@@ -164,7 +164,7 @@ You can add a single or multiple variants to a product directly when you create 
 
 3. Click the *Variant set* drop-down list and select a variant set. All active variant sets to the corresponding attribute set of the product are displayed in the list.
 
-  > [Info] If the selected master product has already one ore more product variants, the variant set is selected and read-only. It cannot be edited subsequently.
+  > [Info] If the selected master product has already one ore more variants, the variant set is selected and read-only. It cannot be edited subsequently.
 
 4. Click the ![Add](/Assets/Icons/Plus01.png "[Add]") (Add) button in the variants box.   
   The [Add single variant ![Add single variant](/Assets/Icons/Document.png "[Add single variant]") ] button and the [Add multiple variants ![Add multiple variants](/Assets/Icons/Documents.png "[Add multiple variants]") ] button are displayed.
@@ -182,18 +182,18 @@ You can add a single or multiple variants to a product directly when you create 
 ### See also
 
 - [User Interface PIM](/PIM/UserInterface/00_UserInterface.md)
-- [Create product variants](#create-product-variants)
+- [Create variants](#create-variants)
 - [Manage the products](01_ManageProducts.md)
 - [Create a variant set](/PIM/Integration/07_ManageVariantSets.md#create-a-variant-set)
 
 
 ## Edit a variant
 
-After you have created a product variant, you can edit it. Note that only defining and differing attribute values are editable. All other attribute values are defined by the master product and can only be edited within the master product. Be careful when editing defining attribute values as you are also affecting the variant settings of the master product.
+After you have created a variant, you can edit it. Note that only defining and differing attribute values are editable. All other attribute values are defined by the master product and can only be edited within the master product. Be careful when editing defining attribute values as you are also affecting the variant settings of the master product.
 
 ### Prerequisites
 
-At least one product variant is created, see [Create product variants](#create-product-variants) or [Add product variants](#add-product-variants).
+At least one variant is created, see [Create variants](#create-variants) or [Add variants](#add-variants).
 
 ### Procedure
 *PIM > Products > Tab LIST*
@@ -201,16 +201,16 @@ At least one product variant is created, see [Create product variants](#create-p
 ![Product list](/Assets/Screenshots/PIM/Products/List/Products.png "[Product list]")
 
 1. Click the *Variants* drop-down list at the top of the products list and select the **List all products** option.   
-  All products including the product variants are displayed in the products list.
+  All products including the variants are displayed in the products list.
 
   ![All products](/Assets/Screenshots/PIM/Products/List/AllProducts.png "[All products]")
 
-2. Click the product variant you want to edit.   
+2. Click the variant you want to edit.   
   The *Edit Product* view is displayed. The *Attributes* tab is preselected.
 
   ![Attributes](/Assets/Screenshots/PIM/Products/List/Attributes/AttributesVariant.png "[Attributes]")
 
-3. Go to the attributes that are not defined by the master product and edit the desired data of the product variant.
+3. Go to the attributes that are not defined by the master product and edit the desired data of the variant.
 
   > [Info] Note that changes of the defining attributes are also applied to the variant settings of the master product. Especially when you are using a SKU with the defining attribute values as a placeholder, it is not recommended to modify a defining attribute value.
 
@@ -225,8 +225,8 @@ At least one product variant is created, see [Create product variants](#create-p
 ### See also
 
 - [User Interface PIM](/PIM/UserInterface/00_UserInterface.md)
-- [Create product variants](#create-product-variants)
-- [Add product variants](#add-product-variants)
+- [Create variants](#create-variants)
+- [Add variants](#add-variants)
 - [Create a single variant](#create-a-single-variant)
 - [Create multiple variants](#create-multiple-variants)
 - [Manage the products](01_ManageProducts.md)

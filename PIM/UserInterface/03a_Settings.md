@@ -123,8 +123,8 @@ The list displays all attributes. All fields are read-only. Depending on the set
 - ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Multi-language*   
   Activate this toggle to create a multi-lingual attribute. Deactivate the toggle to create a single language attribute. By default, this toggle is inactive.
 
-- ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Multi-scope*   
-  Activate this toggle to create a multi-scope attribute. Deactivate the toggle to create a single scope attribute. By default, this toggle is inactive.
+- ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Multi-channel*   
+  Activate this toggle to create a multi-channel attribute. Deactivate the toggle to create a single channel attribute. By default, this toggle is inactive.
 
 - ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Active*   
   Activate this toggle to set the attribute status to active. Deactivate the toggle to set the status to inactive. By default, this toggle is active.
@@ -182,8 +182,8 @@ For detailed information about the different configurations of data types, see [
 - ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Multi-language*   
   Activate this toggle to create a multi-lingual attribute. Deactivate the toggle to create a single language attribute. In the *Edit Attribute* view, this toggle is read-only.
 
-- ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Multi-scope*   
-  Activate this toggle to create a multi-scope attribute. Deactivate the toggle to create a single scope attribute. In the *Edit Attribute* view, this toggle is read-only.
+- ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Multi-channel*   
+  Activate this toggle to create a multi-channel attribute. Deactivate the toggle to create a single channel attribute. In the *Edit Attribute* view, this toggle is read-only.
 
 - ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Active*   
   Activate this toggle to set the attribute status to active. Deactivate the toggle to set the status to inactive. By default, this toggle is active.
