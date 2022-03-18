@@ -52,7 +52,7 @@ No prerequisites to fulfill.
 
 ## Edit a channel
 
-After you have created a channel, you can edit its name, description or and key.
+After you have created a channel, you can edit its name, description and key.
 
 ### Prerequisites
 
@@ -68,7 +68,7 @@ At least one channel is created, see [Create a channel](/DataHub/Integration/Cre
 1. Click the channel you want to edit in the list of channels.   
   The *Edit Channel* view is displayed.
 
-  ![Edit attribute data](/Assets/Screenshots/DataHub/Settings/Attributes/EditAttribute_Data.png "[Edit attribute data]")
+  ![Edit channel](/Assets/Screenshots/DataHub/Settings/Channels/EditChannel.png "[Edit channel]")
 
 2. Edit the desired data of the channel in the corresponding fields.
 
@@ -108,7 +108,7 @@ At least one channel is created, see [Create a channel](#create-a-channel).
 1. Click the channel you want to edit in the list of channels.   
   The *Edit Channel* view is displayed.
 
-  ![Edit attribute data](/Assets/Screenshots/DataHub/Settings/Attributes/EditAttribute_Data.png "[Edit attribute data]")
+  ![Edit channel](/Assets/Screenshots/DataHub/Settings/Channels/EditChannel.png "[Edit channel]")
 
 2. Deactivate the ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Active* toggle.
 
