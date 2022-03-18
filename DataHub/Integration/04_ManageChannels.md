@@ -1,0 +1,168 @@
+[!!DataHub](Actindo/DataHub)
+
+# Manage the channels
+
+A channel is needed to create offers for a certain connection. By default, the *Actindo Basic* channel is preset. If you want to maintain multiple channels, you have to create and activate the respective channels.
+
+> [Info] A channel is not equal to a marketplace or web store connection. You can create a channel and use it for another connection. For detailed information about creating a new connection, see [Create a connection](to_be_completed).
+
+## Create a channel
+
+Create a channel to maintain multiple channels or to create a new connection via the new channel.
+
+### Prerequisites
+
+No prerequisites to fulfill.
+
+### Procedure
+*DataHub > Settings > Tab CHANNELS*
+
+![Channel list](/Assets/Screenshots/DataHub/Settings/Channels/ChannelList.png "[Channel list]")
+
+1. Click the ![Add](/Assets/Icons/Plus01.png "[Add]") (Add) button in the bottom right corner.   
+  The *Create Channel* view is displayed.
+
+  ![Create channel](/Assets/Screenshots/DataHub/Settings/Channels/CreateChannel.png "[Create channel]")
+
+2. Enter a name for the channel in the *Name* field and, if desired, add a channel description in the  *Description* field.
+
+3. Enter a key for the channel in the *Key* field. The key is required for API access and must be system wide unique.
+
+4. Activate the ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Active* toggle to switch the channel directly after creation active.
+
+  > [Info] The channel must be activated to be used.
+
+5. Click the [SAVE] button in the upper right corner.   
+  The new channel is saved. The *Create Channel* view is closed.  
+
+### Next steps
+
+- [Edit a channel](#edit-a-channel)
+- [Deactivate a channel](#deactivate-a-channel)
+- [Delete a channel](#delete-a-channel)
+
+### See also
+
+- [User Interface DataHub](/DataHub/UserInterface/00_UserInterface.md)
+- [Manage the attributes](01_ManageAttributes.md)
+- [Manage the attribute sets](02_ManageAttributeSets.md)
+- [Manage the attribute groups](03_ManageGroups.md)
+- [Configure the channel settings](/PIM/Integration/ConfigureChannels.md)
+
+
+## Edit a channel
+
+After you have created a channel, you can edit its name, description or and key.
+
+### Prerequisites
+
+At least one channel is created, see [Create a channel](/DataHub/Integration/CreateChannel.md).
+
+> [Info] By default, the *Actindo Basic* channel is created.
+
+### Procedure
+*DataHub > Settings > Tab CHANNELS*
+
+![Channel list](/Assets/Screenshots/DataHub/Settings/Channels/ChannelList.png "[Channel list]")
+
+1. Click the channel you want to edit in the list of channels.   
+  The *Edit Channel* view is displayed.
+
+  ![Edit attribute data](/Assets/Screenshots/DataHub/Settings/Attributes/EditAttribute_Data.png "[Edit attribute data]")
+
+2. Edit the desired data of the channel in the corresponding fields.
+
+3. Click the [SAVE] button in the upper right corner.   
+  The changes are saved. The *Edit Channel* view is closed.  
+
+### Next steps
+
+- [Deactivate a channel](#deactivate-a-channel)
+- [Delete a channel](#delete-a-channel)
+
+### See also
+
+- [User Interface DataHub](/DataHub/UserInterface/00_UserInterface.md)
+- [Manage the attributes](01_ManageAttributes.md)
+- [Manage the attribute sets](02_ManageAttributeSets.md)
+- [Manage the attribute groups](03_ManageGroups.md)
+- [Create a channel](#create-a-channel)
+- [Configure the channel settings](/PIM/Integration/ConfigureChannels.md)
+
+
+## Deactivate a channel
+
+Deactivate a channel when it should not be used for a certain time. The channel is no longer available for offers when it is inactive. Further, it is recommended to deactivate a channel instead of deleting it to prevent any problems because of existing connections.
+
+### Prerequisites
+
+At least one channel is created, see [Create a channel](#create-a-channel).
+
+> [Info] By default, the *Actindo Basic* channel is created.
+
+### Procedure
+*DataHub > Settings > Tab CHANNELS*
+
+![Channel list](/Assets/Screenshots/DataHub/Settings/Channels/ChannelList.png "[Channel list]")
+
+1. Click the channel you want to edit in the list of channels.   
+  The *Edit Channel* view is displayed.
+
+  ![Edit attribute data](/Assets/Screenshots/DataHub/Settings/Attributes/EditAttribute_Data.png "[Edit attribute data]")
+
+2. Deactivate the ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Active* toggle.
+
+3. Click the [SAVE] button in the upper right corner.   
+  The channel is deactivated. The *Edit Channel* view is closed.
+
+### Next steps
+
+- [Delete a channel](#delete-a-channel)
+
+### See also
+
+- [User Interface DataHub](/DataHub/UserInterface/00_UserInterface.md)
+- [Manage the attributes](01_ManageAttributes.md)
+- [Manage the attribute sets](02_ManageAttributeSets.md)
+- [Manage the attribute groups](03_ManageGroups.md)
+- [Create a channel](#create-a-channel)
+- [Edit a channel](#edit-a-channel)
+- [Configure the channel settings](/PIM/Integration/ConfigureChannels.md)
+
+
+## Delete a channel
+
+You can delete a channel if it is no longer needed. As there are usually existing connections via a channel, it is highly recommended not to delete a channel. Instead, you can deactivate a channel and thus prevent its use.
+
+### Prerequisites
+
+At least one channel is created, see [Create a channel](#create-a-channel).
+
+> [Info] By default, the *Actindo Basic* channel is created. The *Actindo Basic* channel cannot be deleted.
+
+### Procedure
+*DataHub > Settings > Tab CHANNELS*
+
+![Channel list](/Assets/Screenshots/DataHub/Settings/Channels/ChannelList.png "[Channel list]")
+
+1. Select the checkbox of the channel you want to delete in the list of channels.    
+  The editing toolbar is displayed above the channel list.
+
+2. Click the [Delete] button in the toolbar.  
+  The channel is deleted. The deletion cannot be undone.
+
+  > [Info]  If the selected channel cannot be deleted, an error message is displayed in the upper right corner. To prevent the channels use, it is recommended to [deactivate the channel](#deactivate-a-channel) instead of delete it.
+
+### Next steps
+
+
+### See also
+
+- [User Interface DataHub](/DataHub/UserInterface/00_UserInterface.md)
+- [Manage the attributes](01_ManageAttributes.md)
+- [Manage the attribute sets](02_ManageAttributeSets.md)
+- [Manage the attribute groups](03_ManageGroups.md)
+- [Create a channel](#create-a-channel)
+- [Edit a channel](#edit-a-channel)
+- [Deactivate a channel](#deactivate-a-channel)
+- [Configure the channel settings](/PIM/Integration/ConfigureChannels.md)
