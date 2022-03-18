@@ -58,6 +58,7 @@ An attribute set is created, see [Create an attribute set](02_ManageAttributeSet
 - [Deactivate an attribute](#deactivate-an-attribute)
 - [Delete an attribute](#delete-an-attribute)
 - [Recover an attribute](#recover-an-attribute)
+- [Finally delete an attribute](#finally-delete-an-attribute)
 - [Manage the attribute sets](02_ManageAttributeSets.md)
 - [Manage the attribute groups](03_ManageGroups.md)
 - [Manage the languages](ManaggeLanguages.md)
@@ -108,6 +109,7 @@ At least one attribute is created, see [Create an attribute](#create-an-attribut
 - [Deactivate an attribute](#deactivate-an-attribute)
 - [Delete an attribute](#delete-an-attribute)
 - [Recover an attribute](#recover-an-attribute)
+- [Finally delete an attribute](#finally-delete-an-attribute)
 - [Manage the attribute sets](02_ManageAttributeSets.md)
 - [Manage the attribute groups](03_ManageGroups.md)
 
@@ -150,6 +152,7 @@ At least one attribute is created, see [Create an attribute](#create-an-attribut
 
 - [Delete an attribute](#delete-an-attribute)
 - [Recover an attribute](#recover-an-attribute)
+- [Finally delete an attribute](#finally-delete-an-attribute)
 - [Manage the attribute sets](02_ManageAttributeSets.md)
 - [Manage the attribute groups](03_ManageGroups.md)
 
@@ -166,7 +169,7 @@ At least one attribute is created, see [Create an attribute](#create-an-attribut
 
 ## Delete an attribute
 
-You can delete an attribute if it is no longer needed. As there are usually dependencies on an attribute, for example through an attribute set or created products, it is strongly recommended not to delete an attribute permanently. Instead, you can deactivate an attribute and thus prevent its use.
+You can move an attribute to the *DELETED ATTRIBUTES* tab if it is no longer needed. As there are usually dependencies on an attribute, for example through an attribute set or created products, it is strongly recommended not to delete an attribute. Instead, you can deactivate an attribute and thus prevent its use.
 
 ### Prerequisites
 
@@ -177,7 +180,7 @@ At least one attribute is created, see [Create an attribute](#create-an-attribut
 
 ![Attributes](/Assets/Screenshots/DataHub/Settings/Attributes/Attributes.png "[Attributes]")
 
-1. Select the checkbox ![Checkbox](/Assets/Icons/Checkbox.png "[Checkbox]") of the attribute you want to delete in the list of attributes.   
+1. Select the checkbox of the attribute you want to delete in the list of attributes.   
   The editing toolbar is displayed above the attributes list.
 
 2. Click the ![Delete](/Assets/Icons/Trash03.png "[Delete]") (Delete) button in the toolbar. The *Confirm deletion of attribute?* window is displayed.
@@ -187,26 +190,13 @@ At least one attribute is created, see [Create an attribute](#create-an-attribut
 3. Click the [CONFIRM] button in the bottom right corner.   
   The attribute is deleted and moved to the *DELETED ATTRIBUTES* tab in the *DataHub* module. The *Confirm deletion of attribute?* window is closed.
 
-> [Info] The attribute is moved to the *DELETED ATTRIBUTES* tab, but it can still be recovered. To irretrievably delete the attribute, follow the steps **4** to **6**. Otherwise, the deletion process is now completed.
+> [Info] The attribute is moved to the *DELETED ATTRIBUTES* tab, but it can still be recovered. To irretrievably delete the attribute, see [Finally delete an attribute](#finally-delete-an-attribute).
 
-4. Switch to the *DELETED ATTRIBUTES* tab: *DataHub > Settings > DELETED ATTRIBUTES* .    
-  The list of deleted attributes is displayed.
-
-  ![Deleted attributes](/Assets/Screenshots/DataHub/Settings/DeletedAttributes/DeletedAttributes.png "[Deleted attributes]")
-
-  > [Info] If the deleted attribute is not yet displayed in the list of deleted attributes, click the ![Refresh](/Assets/Icons/Refresh01.png "[Refresh]") (Refresh) button to update the list.
-
-5. Select the checkbox ![Checkbox](/Assets/Icons/Checkbox.png "[Checkbox]") of the attribute you want to delete in the list of attributes.    
-  The editing toolbar is displayed above the attributes list.
-
-6. Click the [Delete] button in the toolbar.  
-  The attribute is irretrievably deleted.
-
-   > [Warning] Problems may occur if you delete an attribute with existing dependencies.  
 
 ### Next steps
 
 - [Recover an attribute](#recover-an-attribute)
+- [Finally delete an attribute](#finally-delete-an-attribute)
 - [Manage the attribute sets](02_ManageAttributeSets.md)
 - [Manage the attribute groups](03_ManageGroups.md)
 
@@ -220,4 +210,63 @@ At least one attribute is created, see [Create an attribute](#create-an-attribut
 - [Manage the products](/PIM/Operation/01_ManageProducts.md)
 
 
+
 ## Recover an attribute
+
+If you have moved an attribute to the *DELETED ATTRIBUTES* tab, you can recover the attribute and make the deletion undone.
+
+### Prerequisites
+
+At least one attribute is moved to the *DELETED ATTRIBUTES* tab, see [Delete an attribute](#delete-an-attribute).
+
+### Procedure
+*DataHub > Settings > Tab DELETED ATTRIBUTES*
+
+![Attributes](/Assets/Screenshots/DataHub/Settings/DeletedAttributes/DeletedAttributes.png "[Attributes]")
+
+1. Select the checkbox of the attribute you want to recover in the list of deleted attributes.   
+  The editing toolbar is displayed above the deleted attributes list.
+
+2. Click the [RECOVER] button in the toolbar.   
+  The selected attribute is recovered and removed from the list of deleted attributes.
+
+[comment]: <> (Why can I not recover certain attributes? Is it a bug?)
+
+
+
+## Finally delete an attribute
+
+You can finally delete an attribute if it is no longer needed. As there are usually dependencies on an attribute, for example through an attribute set or created products, it is strongly recommended not to delete an attribute irretrievably. Finally deleted attributes cannot be recovered.
+
+### Prerequisites
+
+At least one attribute is moved to the *DELETED ATTRIBUTES* tab, see [Delete an attribute](#delete-an-attribute).
+
+### Procedure
+*DataHub > Settings > Tab ATTRIBUTES*
+
+![Attributes](/Assets/Screenshots/DataHub/Settings/Attributes/Attributes.png "[Attributes]")
+
+1. Select the checkbox of the attribute you want to finally delete in the list of deleted attributes.    
+  The editing toolbar is displayed above the attributes list.
+
+  > [Info] If the deleted attribute is not yet displayed in the list of deleted attributes, click the ![Refresh](/Assets/Icons/Refresh01.png "[Refresh]") (Refresh) button to update the list.
+
+2. Click the [Delete] button in the toolbar.  
+  The attribute is irretrievably deleted. The deletion cannot be undone.
+
+   > [Warning] Problems may occur if you delete an attribute with existing dependencies.  
+
+### Next steps
+
+- [Manage the attribute sets](02_ManageAttributeSets.md)
+- [Manage the attribute groups](03_ManageGroups.md)
+
+
+### See also
+
+- [User Interface DataHub](/DataHub/UserInterface/00_UserInterface.md)
+- [Create an attribute](#create-an-attribute)
+- [Edit an attribute](#edit-an-attribute)
+- [Deactivate an attribute](#deactivate-an-attribute)
+- [Manage the products](/PIM/Operation/01_ManageProducts.md)
