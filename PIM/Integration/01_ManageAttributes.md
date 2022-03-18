@@ -1,5 +1,4 @@
 [!!PIM](Actindo/PIM)
-[!!DataHub](Actindo/DataHub)
 
 # Manage an attribute
 
@@ -94,7 +93,7 @@ An attribute set is created, see [Create an attribute set](02_ManageAttributeSet
 - [Delete an attribute](#delete-an-attribute)
 - [Recover an attribute](#recover-an-attribute)
 - [Manage the attribute sets](02_ManageAttributeSets.md)
-- [Manage the attribute groups](03_ManageGroups.md)
+- [Manage the attribute groups](03_ManageAttributeGroups.md)
 - [Configure the language settings](04_ConfigureLanguages.md)
 - [Configure the channel settings](05_ConfigureChannels.md)
 - [Manage the catalogs](06_ManageCatalogs.md)
@@ -145,7 +144,7 @@ At least one attribute is created, see [Create an attribute](#create-an-attribut
 - [Delete an attribute](#delete-an-attribute)
 - [Recover an attribute](#recover-an-attribute)
 - [Manage the attribute sets](02_ManageAttributeSets.md)
-- [Manage the attribute groups](03_ManageGroups.md)
+- [Manage the attribute groups](03_ManageAttributeGroups.md)
 - [Configure the language settings](04_ConfigureLanguages.md)
 - [Configure the channel settings](05_ConfigureChannels.md)
 - [Manage the catalogs](06_ManageCatalogs.md)
@@ -191,7 +190,7 @@ At least one attribute is created, see [Create an attribute](#create-an-attribut
 - [Delete an attribute](#delete-an-attribute)
 - [Recover an attribute](#recover-an-attribute)
 - [Manage the attribute sets](02_ManageAttributeSets.md)
-- [Manage the attribute groups](03_ManageGroups.md)
+- [Manage the attribute groups](03_ManageAttributeGroups.md)
 - [Configure the language settings](04_ConfigureLanguages.md)
 - [Configure the channel settings](05_ConfigureChannels.md)
 - [Manage the catalogs](06_ManageCatalogs.md)
@@ -239,7 +238,7 @@ At least one attribute is created, see [Create an attribute](#create-an-attribut
 
 - [Recover an attribute](#recover-an-attribute)
 - [Manage the attribute sets](02_ManageAttributeSets.md)
-- [Manage the attribute groups](03_ManageGroups.md)
+- [Manage the attribute groups](03_ManageAttributeGroups.md)
 - [Configure the language settings](04_ConfigureLanguages.md)
 - [Configure the channel settings](05_ConfigureChannels.md)
 - [Manage the catalogs](06_ManageCatalogs.md)

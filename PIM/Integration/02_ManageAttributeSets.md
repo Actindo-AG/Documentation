@@ -14,7 +14,7 @@ Create an attribute set to define a new product type with different attributes t
 
 ### Prerequisites
 
-The attributes for the attribute set are created, see [Create an attribute](ManageAttribut.md#create-an-attribute).
+The attributes for the attribute set are created, see [Create an attribute](01_ManageAttributes.md#create-an-attribute).
 
 ### Procedure
 *PIM > Settings > Tab ATTRIBUTE SETS*
@@ -92,7 +92,7 @@ The attributes for the attribute set are created, see [Create an attribute](Mana
 - [Deactivate an attribute set](#deactivate-an-attribute-set)
 - [Import an attribute set](#import-an-attribute-set)
 - [Export an attribute set](#export-an-attribute-set)
-- [Manage the attribute groups](03_ManageGroups.md)
+- [Manage the attribute groups](03_ManageAttributeGroups.md)
 - [Configure the language settings](04_ConfigureLanguages.md)
 - [Configure the channel settings](05_ConfigureChannels.md)
 - [Manage the catalogs](06_ManageCatalogs.md)
@@ -141,7 +141,7 @@ Add a new attribute to an attribute set to define any further specifications.
   The editing toolbar is displayed above the list.
 
 4. Click the [ADD] button in the editing toolbar.   
-  The selected attributes are added to the attribute set. The *Add attributes* view is closed. The *Edit Attribue Set* view is displayed again. The added attributes are displayed in the *Assigned Attributes* section.
+  The selected attributes are added to the attribute set. The *Add attributes* view is closed. The *Edit Attribute Set* view is displayed again. The added attributes are displayed in the *Assigned Attributes* section.
 
 5. Click the [SAVE] button.   
   The changes are saved. The *Edit Attribute Set* view is closed.
@@ -153,7 +153,7 @@ Add a new attribute to an attribute set to define any further specifications.
 - [Deactivate an attribute set](#deactivate-an-attribute-set)
 - [Import an attribute set](#import-an-attribute-set)
 - [Export an attribute set](#export-an-attribute-set)
-- [Manage the attribute groups](03_ManageGroups.md)
+- [Manage the attribute groups](03_ManageAttributeGroups.md)
 - [Configure the language settings](04_ConfigureLanguages.md)
 - [Configure the channel settings](05_ConfigureChannels.md)
 - [Manage the catalogs](06_ManageCatalogs.md)
@@ -204,7 +204,7 @@ An attribute set is created, see [Create an attribute set](#create-an-attribute-
 - [Deactivate an attribute set](#deactivate-an-attribute-set)
 - [Import an attribute set](#import-an-attribute-set)
 - [Export an attribute set](#export-an-attribute-set)
-- [Manage the attribute groups](03_ManageGroups.md)
+- [Manage the attribute groups](03_ManageAttributeGroups.md)
 - [Configure the language settings](04_ConfigureLanguages.md)
 - [Configure the channel settings](05_ConfigureChannels.md)
 - [Manage the catalogs](06_ManageCatalogs.md)
@@ -259,7 +259,7 @@ An attribute set is created, see [Create an attribute set](#create-an-attribute-
 - [Deactivate an attribute set](#deactivate-an-attribute-set)
 - [Import an attribute set](#import-an-attribute-set)
 - [Export an attribute set](#export-an-attribute-set)
-- [Manage the attribute groups](03_ManageGroups.md)
+- [Manage the attribute groups](03_ManageAttributeGroups.md)
 - [Configure the language settings](04_ConfigureLanguages.md)
 - [Configure the channel settings](05_ConfigureChannels.md)
 - [Manage the catalogs](06_ManageCatalogs.md)
@@ -310,7 +310,7 @@ At least one attribute set is created, see [Create an attribute set](#create-an-
 
 - [Import an attribute set](#import-an-attribute-set)
 - [Export an attribute set](#export-an-attribute-set)
-- [Manage the attribute groups](03_ManageGroups.md)
+- [Manage the attribute groups](03_ManageAttributeGroups.md)
 - [Configure the language settings](04_ConfigureLanguages.md)
 - [Configure the channel settings](05_ConfigureChannels.md)
 - [Manage the catalogs](06_ManageCatalogs.md)
@@ -368,7 +368,7 @@ No prerequisites to fulfill.
 ### Next steps
 
 - [Export an attribute set](#export-an-attribute-set)
-- [Manage the attribute groups](03_ManageGroups.md)
+- [Manage the attribute groups](03_ManageAttributeGroups.md)
 - [Configure the language settings](04_ConfigureLanguages.md)
 - [Configure the channel settings](05_ConfigureChannels.md)
 - [Manage the catalogs](06_ManageCatalogs.md)
@@ -427,7 +427,7 @@ At least one attribute set is created, see [Create an attribute set](#create-an-
 
 ### Next steps
 
-- [Manage the attribute groups](03_ManageGroups.md)
+- [Manage the attribute groups](03_ManageAttributeGroups.md)
 - [Configure the language settings](04_ConfigureLanguages.md)
 - [Configure the channel settings](05_ConfigureChannels.md)
 - [Manage the catalogs](06_ManageCatalogs.md)

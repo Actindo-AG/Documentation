@@ -13,24 +13,24 @@ Create an attribute group for new attributes you want to assign to a certain gro
 The attributes for the attribute set are created, see [Create an attribute](01_ManageAttributes.md#create-an-attribute).
 
 ### Procedure
-*PIM > Settings > Tab GROUPS*
+*PIM > Settings > Tab ATTRIBUTE GROUPS*
 
-![Groups](/Assets/Screenshots/PIM/Settings/AttributeGroups/Groups.png "[Groups]")
+![Attribute groups](/Assets/Screenshots/PIM/Settings/AttributeGroups/AttributeGroups.png "[Attribute groups]")
 
 1. Click the ![Edit](/Assets/Icons/Edit02.png "[Edit]") (Edit) button to the right of the *Groups* section in the left column.   
   The *Edit groups* view is displayed.
 
-  ![Edit groups](/Assets/Screenshots/PIM/Settings/AttributeGroups/EditGroups.png "[Edit groups]")
+  ![Edit attribute groups](/Assets/Screenshots/PIM/Settings/AttributeGroups/EditAttributeGroups.png "[Edit attribute groups]")
 
 2. Click the ![Add](/Assets/Icons/Plus01.png "[Add]") (Add) button in the bottom right corner.   
   A plus sign is displayed in the group column.
 
-  ![Add group](/Assets/Screenshots/PIM/Settings/AttributeGroups/AddGroup.png "[Add group]")
+  ![Add attribute group](/Assets/Screenshots/PIM/Settings/AttributeGroups/AddAttributeGroup.png "[Add attribute group]")
 
 3. Click the plus sign in the group column.    
   The *Add Element* window is displayed in the group column.
 
-  ![Add element](/Assets/Screenshots/PIM/Settings/AttributeGroups/AddElementTop.png "[Add element]")
+  ![Add element](/Assets/Screenshots/PIM/Settings/AttributeGroups/AddElement.png "[Add element]")
 
 4. Enter a name for the group in the *Name* field.
 
@@ -39,7 +39,7 @@ The attributes for the attribute set are created, see [Create an attribute](01_M
 6. Click the [SAVE] button.   
   The group is created. The *Add Element* window is closed. The new group is displayed in the group column.
 
-  ![Group created](/Assets/Screenshots/PIM/Settings/AttributeGroups/GroupCreated.png "[Group created]")
+  ![Attribute group created](/Assets/Screenshots/PIM/Settings/AttributeGroups/AttributeGroupCreated.png "[Attribute group created]")
 
   > [Info] If you want to change the order of the groups in the list, see [Change the order of groups](#change-the-order-of-groups).
 
@@ -82,29 +82,29 @@ At least one group is created, see [Create an attribute group](#create-an-attrib
 
 Create a sub-group to organize the attributes in special groups, for instance depending on product-related categories.
 
-*PIM > Settings > Tab GROUPS*
+*PIM > Settings > Tab ATTRIBUTE GROUPS*
 
-![Groups](/Assets/Screenshots/PIM/Settings/AttributeGroups/Groups.png "[Groups]")
+![Attribute groups](/Assets/Screenshots/PIM/Settings/AttributeGroups/AttributeGroups.png "[Attribute groups]")
 
 1. Click the ![Edit](/Assets/Icons/Edit02.png "[Edit]") (Edit) button to the right of the *Groups* section in the left column.   
   The *Edit groups* view is displayed.
 
-  ![Edit groups](/Assets/Screenshots/PIM/Settings/AttributeGroups/EditGroups.png "[Edit groups]")
+  ![Edit attribute groups](/Assets/Screenshots/PIM/Settings/AttributeGroups/EditAttributeGroups.png "[Edit attribute groups]")
 
 2. Click the group to which you want to create a sub-group.   
   The existing sub-groups are displayed in the column to the right of the group column.
 
-  ![Sub groups](/Assets/Screenshots/PIM/Settings/AttributeGroups/SubGroups.png "[Sub groups]")
+  ![Attribute sub-groups](/Assets/Screenshots/PIM/Settings/AttributeGroups/AttributeSubGroups.png "[Attribute sub-groups]")
 
 3. Click the ![Add](/Assets/Icons/Plus01.png "[Add]") (Add) button in the bottom right corner.   
   Plus signs are displayed in the group and the sub-group column.
 
-  ![Add sub-group](/Assets/Screenshots/PIM/Settings/AttributeGroups/AddSubGroup.png "[Add sub-group]")
+  ![Add attribute sub-group](/Assets/Screenshots/PIM/Settings/AttributeGroups/AddAttributeSubGroup.png "[Add attribute sub-group]")
 
 4. Click the plus sign in the sub-group column.    
   The *Add Element* window is displayed in the sub-group column.
 
-  ![Add element sub](/Assets/Screenshots/PIM/Settings/AttributeGroups/AddElementSub.png "[Add element sub]")
+  ![Add element](/Assets/Screenshots/PIM/Settings/AttributeGroups/AddElement.png "[Add element]")
 
 5. Enter a name for the sub-group in the *Name* field.
 
@@ -113,7 +113,7 @@ Create a sub-group to organize the attributes in special groups, for instance de
 7. Click the [SAVE] button.   
   The sub-group is created. The *Add Element* window is closed. The new sub-group is displayed in the sub-group column.
 
-  ![Sub-group created](/Assets/Screenshots/PIM/Settings/AttributeGroups/SubGroupCreated.png "[Sub-group created]")
+  ![Attribute sub-group created](/Assets/Screenshots/PIM/Settings/AttributeGroups/SubGroupCreated.png "[Attribute sub-group created]")
 
   > [Info] If you want to change the order of the sub-groups in the list, see [Change the order of groups](#change-the-order-of-groups).
 
@@ -123,17 +123,17 @@ Create a sub-group to organize the attributes in special groups, for instance de
 
 #### Change the order of attribute groups
 
-The order of attribute groups in the *GROUPS* tab equals to the order of attributes groups in the product view. You can change the order to display an attribute group in a different place when creating or editing a product.   
+The order of attribute groups in the *ATTRIBUTE GROUPS* tab equals to the order of attributes groups in the product view. You can change the order to display an attribute group in a different place when creating or editing a product.   
 The procedure to change the order of groups and sub-groups is identical. Just select the sub-group instead of the group and follow the steps described below.
 
-*PIM > Settings > Tab GROUPS*
+*PIM > Settings > Tab ATTRIBUTE GROUPS*
 
-![Groups](/Assets/Screenshots/PIM/Settings/AttributeGroups/Groups.png "[Groups]")
+![Attribute groups](/Assets/Screenshots/PIM/Settings/AttributeGroups/AttributeGroups.png "[Attribute groups]")
 
 1. Click the ![Edit](/Assets/Icons/Edit02.png "[Edit]") (Edit) button to the right of the *Groups* section in the left column.   
   The *Edit groups* view is displayed.
 
-  ![Edit groups](/Assets/Screenshots/PIM/Settings/AttributeGroups/EditGroups.png "[Edit groups]")
+  ![Edit attribute groups](/Assets/Screenshots/PIM/Settings/AttributeGroups/EditAttributeGroups.png "[Edit attribute groups]")
 
 2. Click and hold the ![Sort](/Assets/Icons/Sort01.png "[Sort]") (Sort) button to the left of the group you want to move to another position in the list.
 
@@ -147,19 +147,19 @@ The procedure to change the order of groups and sub-groups is identical. Just se
 
 You can delete an attribute group if it is no longer in use. Note, that you just delete the group but not the attributes within a group. All active attributes that are no longer assigned to a group are automatically assigned to a group with the name *Unassigned Group* which is only displayed in the product view. If you delete an attribute group with sub-groups, also the sub-groups are deleted. The procedure to delete groups and sub-groups is identical. Just select the sub-group instead of the group and follow the steps described below.
 
-*PIM > Settings > Tab GROUPS*
+*PIM > Settings > Tab ATTRIBUTE GROUPS*
 
-![Groups](/Assets/Screenshots/PIM/Settings/AttributeGroups/Groups.png "[Groups]")
+![Attribute groups](/Assets/Screenshots/PIM/Settings/AttributeGroups/AttributeGroups.png "[Attribute groups]")
 
 1. Click the ![Edit](/Assets/Icons/Edit02.png "[Edit]") (Edit) button to the right of the *Groups* section in the left column.   
   The *Edit groups* view is displayed.
 
-  ![Edit groups](/Assets/Screenshots/PIM/Settings/AttributeGroups/EditGroups.png "[Edit groups]")
+  ![Edit attribute groups](/Assets/Screenshots/PIM/Settings/AttributeGroups/EditAttributeGroups.png "[Edit attribute groups]")
 
 2. Click the ![Edit](/Assets/Icons/Edit03.png "[Edit]") (Edit) button to the right of the group you want to delete.   
   The group data is displayed in a window in the group column.
 
-  ![Edit group data](/Assets/Screenshots/PIM/Settings/AttributeGroups/EditGroupData.png "[Edit group data]")
+  ![Edit attribute group data](/Assets/Screenshots/PIM/Settings/AttributeGroups/EditAttributeGroupData.png "[Edit attribute group data]")
 
 3. Click the ![Delete](/Assets/Icons/Trash01.png "[Delete]") (Delete) button in the bottom left corner of the group data window.    
   The selected group is removed from the group column. The group data window is closed.
@@ -172,9 +172,9 @@ You can delete an attribute group if it is no longer in use. Note, that you just
 
 You can add attributes to a group or sub-group. Note that you can add an attribute only to a group without sub-groups. Otherwise, you have to add the attribute to a sub-group. Be aware, that an attribute can be assigned to one group or sub-group only. When you add an attribute to a group that is already added to another group, it is automatically removed from the former group.
 
-*PIM > Settings > Tab GROUPS*
+*PIM > Settings > Tab ATTRIBUTE GROUPS*
 
-![Groups](/Assets/Screenshots/PIM/Settings/AttributeGroups/Groups.png "[Groups]")
+![Attribute groups](/Assets/Screenshots/PIM/Settings/AttributeGroups/AttributeGroups.png "[Attribute groups]")
 
 1. Click the group or sub-group to which you want to add an attribute.   
   The selected group is highlighted. The attributes assigned to the group are displayed on the right side.
@@ -201,12 +201,12 @@ You can add attributes to a group or sub-group. Note that you can add an attribu
 
 #### Change the order of attributes within a group
 
-The order of attributes within a group in the *GROUPS* tab equals to the order of attributes within a group in the product view. You can change the order to display a certain attribute in a different place in the group when creating or editing a product.   
+The order of attributes within a group in the *ATTRIBUTE GROUPS* tab equals to the order of attributes within a group in the product view. You can change the order to display a certain attribute in a different place in the group when creating or editing a product.   
 The procedure to change the order of attributes within groups and sub-groups is identical. Just select the sub-group instead of the group and follow the steps described below.
 
-*PIM > Settings > Tab GROUPS*
+*PIM > Settings > Tab ATTRIBUTE GROUPS*
 
-![Groups](/Assets/Screenshots/PIM/Settings/AttributeGroups/Groups.png "[Groups]")
+![Attribute groups](/Assets/Screenshots/PIM/Settings/AttributeGroups/AttributeGroups.png "[Attribute groups]")
 
 1. Click the group or sub-group where you want to change the order of attributes.   
   The selected group is highlighted. The attributes assigned to the group are displayed on the right side.
@@ -232,9 +232,9 @@ The procedure to change the order of attributes within groups and sub-groups is 
 
 You can remove an attribute from a group if it is no longer in use. Note, that you just remove the attribute from the group but you do not delete the attribute itself. Alternatively, you can [deactivate an attribute](01_ManageAttributes.md#deactivate-an-attribute) so it is no longer displayed in the product view. The procedure to remove attributes from groups or sub-groups is identical. Just select the sub-group instead of the group and follow the steps described below.
 
-*PIM > Settings > Tab GROUPS*
+*PIM > Settings > Tab ATTRIBUTE GROUPS*
 
-![Groups](/Assets/Screenshots/PIM/Settings/AttributeGroups/Groups.png "[Groups]")
+![Attribute groups](/Assets/Screenshots/PIM/Settings/AttributeGroups/AttributeGroups.png "[Attribute groups]")
 
 1. Click the group or sub-group where you want to remove an attribute from.   
   The selected group is highlighted. The attributes assigned to the group are displayed on the right side.

@@ -34,6 +34,6 @@ At least one channel is created, see [Create a channel](/DataHub/Integration/Cre
 - [Create a channel](/DataHub/Integration/CreateChannel.md)
 - [Manage the attributes](01_ManageAttributes.md)
 - [Manage the attribute sets](02_ManageAttributeSets.md)
-- [Manage the attribute groups](03_ManageGroups.md)
+- [Manage the attribute groups](03_ManageAttributeGroups.md)
 - [Configure the language settings](04_ConfigureLanguages.md)
 - [Manage the products](/PIM/Operation/01_ManageProducts.md)

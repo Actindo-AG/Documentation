@@ -31,5 +31,5 @@ At least one language has to be created in the DataHub module, see [Create a lan
 - [Create a language](/DataHub/Integration/CreateLanguage.md)
 - [Manage the attributes](01_ManageAttributes.md)
 - [Manage the attribute sets](02_ManageAttributeSets.md)
-- [Manage the attribute groups](03_ManageGroups.md)
+- [Manage the attribute groups](03_ManageAttributeGroups.md)
 - [Manage the products](/PIM/Operation/01_ManageProducts.md)

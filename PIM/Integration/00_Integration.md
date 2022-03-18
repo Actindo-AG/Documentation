@@ -19,7 +19,7 @@
   - [Export an attribute set](02_ManageAttributeSets.md#export-an-attribute-set)
 
 
-- [Manage the attribute groups](03_ManageGroups.md)
+- [Manage the attribute groups](03_ManageAttributeGroups.md)
   - [Create an attribute group](03_ManageGroups.md#create-an-attribute-group)
   - [Edit an attribute group](03_ManageGroups.md#edit-an-attribute-group)
     - [Create an attribute sub-group](03_ManageGroups.md#create-an-attribute-sub-group)
