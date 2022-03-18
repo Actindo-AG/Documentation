@@ -156,7 +156,7 @@ Add a new attribute to an attribute set to define any further specifications.
 - [Deactivate an attribute set](#deactivate-an-attribute-set)
 - [Import an attribute set](#import-an-attribute-set)
 - [Export an attribute set](#export-an-attribute-set)
-- [Manage the attribute groups](03_ManageGroups.md)
+- [Manage the attribute groups](03_ManageAttributeGroups.md)
 
 
 #### See also
@@ -204,7 +204,7 @@ Remove an attribute from an attribute set to limit the specifications. Inherited
 - [Deactivate an attribute set](#deactivate-an-attribute-set)
 - [Import an attribute set](#import-an-attribute-set)
 - [Export an attribute set](#export-an-attribute-set)
-- [Manage the attribute groups](03_ManageGroups.md)
+- [Manage the attribute groups](03_ManageAttributeGroups.md)
 - [Configure the language settings](04_ConfigureLanguages.md)
 - [Configure the scope settings](05_ConfigureScopes.md)
 - [Manage the catalogs](06_ManageCatalogs.md)
@@ -259,7 +259,7 @@ An attribute set is created, see [Create an attribute set](#create-an-attribute-
 - [Deactivate an attribute set](#deactivate-an-attribute-set)
 - [Import an attribute set](#import-an-attribute-set)
 - [Export an attribute set](#export-an-attribute-set)
-- [Manage the attribute groups](03_ManageGroups.md)
+- [Manage the attribute groups](03_ManageAttributeGroups.md)
 
 #### See also
 
@@ -305,7 +305,7 @@ At least one attribute set is created, see [Create an attribute set](#create-an-
 
 - [Import an attribute set](#import-an-attribute-set)
 - [Export an attribute set](#export-an-attribute-set)
-- [Manage the attribute groups](03_ManageGroups.md)
+- [Manage the attribute groups](03_ManageAttributeGroups.md)
 
 
 ### See also
@@ -358,7 +358,7 @@ No prerequisites to fulfill.
 ### Next steps
 
 - [Export an attribute set](#export-an-attribute-set)
-- [Manage the attribute groups](03_ManageGroups.md)
+- [Manage the attribute groups](03_ManageAttributeGroups.md)
 
 ### See also
 
@@ -412,7 +412,7 @@ At least one attribute set is created, see [Create an attribute set](#create-an-
 
 ### Next steps
 
-- [Manage the attribute groups](03_ManageGroups.md)
+- [Manage the attribute groups](03_ManageAttributeGroups.md)
 
 ### See also
 

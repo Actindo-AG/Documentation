@@ -60,7 +60,7 @@ An attribute set is created, see [Create an attribute set](02_ManageAttributeSet
 - [Recover an attribute](#recover-an-attribute)
 - [Finally delete an attribute](#finally-delete-an-attribute)
 - [Manage the attribute sets](02_ManageAttributeSets.md)
-- [Manage the attribute groups](03_ManageGroups.md)
+- [Manage the attribute groups](03_ManageAttributeGroups.md)
 - [Manage the languages](ManaggeLanguages.md)
 - [Manage the channels](ManageChannels.md)
 
@@ -111,7 +111,7 @@ At least one attribute is created, see [Create an attribute](#create-an-attribut
 - [Recover an attribute](#recover-an-attribute)
 - [Finally delete an attribute](#finally-delete-an-attribute)
 - [Manage the attribute sets](02_ManageAttributeSets.md)
-- [Manage the attribute groups](03_ManageGroups.md)
+- [Manage the attribute groups](03_ManageAttributeGroups.md)
 
 ### See also
 
@@ -154,7 +154,7 @@ At least one attribute is created, see [Create an attribute](#create-an-attribut
 - [Recover an attribute](#recover-an-attribute)
 - [Finally delete an attribute](#finally-delete-an-attribute)
 - [Manage the attribute sets](02_ManageAttributeSets.md)
-- [Manage the attribute groups](03_ManageGroups.md)
+- [Manage the attribute groups](03_ManageAttributeGroups.md)
 
 
 ### See also
@@ -198,7 +198,7 @@ At least one attribute is created, see [Create an attribute](#create-an-attribut
 - [Recover an attribute](#recover-an-attribute)
 - [Finally delete an attribute](#finally-delete-an-attribute)
 - [Manage the attribute sets](02_ManageAttributeSets.md)
-- [Manage the attribute groups](03_ManageGroups.md)
+- [Manage the attribute groups](03_ManageAttributeGroups.md)
 
 
 ### See also
@@ -260,7 +260,7 @@ At least one attribute is moved to the *DELETED ATTRIBUTES* tab, see [Delete an 
 ### Next steps
 
 - [Manage the attribute sets](02_ManageAttributeSets.md)
-- [Manage the attribute groups](03_ManageGroups.md)
+- [Manage the attribute groups](03_ManageAttributeGroups.md)
 
 
 ### See also
