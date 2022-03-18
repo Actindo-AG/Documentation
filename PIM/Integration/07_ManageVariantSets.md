@@ -50,7 +50,7 @@ An attribute set is created, see [Create an attribute set](ManageAttributeSet.md
 
   ![Add defining attributes](/Assets/Screenshots/PIM/Settings/VariantSets/AddDefiningAttributes.png "[Add defining attributes]")
 
-2. Select the checkboxes ![Checkbox](/Assets/Icons/Checkbox.png "[Checkbox]") of the attributes you want to be a defining attribute for the selected variant.   
+2. Select the checkboxes of the attributes you want to be a defining attribute for the selected variant.   
   The editing toolbar is displayed above the attribute list.
 
   > [Info] The defining attributes are those attributes that characterize the variant, so those attributes that are defining the variants of the master product.
@@ -76,7 +76,7 @@ Otherwise, click the [SAVE] button in the upper right corner.
 
   ![Add differing attributes](/Assets/Screenshots/PIM/Settings/VariantSets/AddDifferingAttributes.png "[Add differing attributes]")
 
-2. Select the checkboxes ![Checkbox](/Assets/Icons/Checkbox.png "[Checkbox]") of the attributes you want to be a differing attribute for the selected variant.   
+2. Select the checkboxes of the attributes you want to be a differing attribute for the selected variant.   
   The editing toolbar is displayed above the attribute list.
 
   > [Info] Generally, a variant inherits all attribute values from its master product. These attribute values are locked in the variant and can only be edited in the master product. Attribute values that differ from the master product and must be maintained individually in the variant itself must be added to the list of differing attributes.
@@ -170,7 +170,7 @@ A variant set is created, see [Create a variant set](#create-a-variant-set).
 
   ![Edit variant set](/Assets/Screenshots/PIM/Settings/VariantSets/EditVariantSet.png "[Edit variant set]")
 
-2. In the *Defining attributes* box or *Differing attributes* box, select the checkboxes ![Checkbox](/Assets/Icons/Checkbox.png "[Checkbox]") of the attributes you want to remove.     
+2. In the *Defining attributes* box or *Differing attributes* box, select the checkboxes of the attributes you want to remove.     
   The [DELETE] button is displayed in the editing toolbar above the attribute list.
 
 3. Click the [DELETE] button in the toolbar.   

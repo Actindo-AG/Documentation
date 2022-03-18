@@ -209,7 +209,7 @@ At least one attribute is created, see [Create an attribute](#create-an-attribut
 
 ## Delete an attribute
 
-You can delete an attribute if it is no longer needed. As there are usually dependencies on an attribute, for example through an attribute set or created products, it is strongly recommended not to delete an attribute permanently. Instead, you can deactivate an attribute and thus prevent its use.
+You can delete an attribute from the *PIM* module and move it to the *DELETED ATTRIBUTES* tab in the *DataHub* module if it is no longer needed. As there are usually dependencies on an attribute, for example through an attribute set or created products, it is strongly recommended not to delete an attribute. Instead, you can deactivate an attribute and thus prevent its use.
 
 ### Prerequisites
 
@@ -220,7 +220,7 @@ At least one attribute is created, see [Create an attribute](#create-an-attribut
 
 ![Attributes](/Assets/Screenshots/PIM/Settings/Attributes/Attributes.png "[Attributes]")
 
-1. Select the checkbox ![Checkbox](/Assets/Icons/Checkbox.png "[Checkbox]") of the attribute you want to delete in the list of attributes.   
+1. Select the checkbox of the attribute you want to delete in the list of attributes.   
   The editing toolbar is displayed above the attributes list.
 
 2. Click the ![Delete](/Assets/Icons/Trash03.png "[Delete]") (Delete) button in the toolbar. The *Confirm deletion of attribute?* window is displayed.
@@ -230,22 +230,10 @@ At least one attribute is created, see [Create an attribute](#create-an-attribut
 3. Click the [CONFIRM] button in the bottom right corner.   
   The attribute is deleted and moved to the *DELETED ATTRIBUTES* tab in the *DataHub* module. The *Confirm deletion of attribute?* window is closed.
 
-> [Info] The attribute is deleted in the PIM product, but it can still be recovered. To irretrievably delete the attribute, follow the steps **4** to **6**. Otherwise, the deletion process is now completed.
+  > [Warning] Problems may occur if you delete an attribute with existing dependencies.  
 
-4. Switch to the *DELETED ATTRIBUTES* tab: *DataHub > Settings > DELETED ATTRIBUTES* .    
-  The list of deleted attributes is displayed.
+> [Info] The attribute is deleted in the PIM product, but it can still be recovered. To irretrievably delete the attribute, see [Finally delete an attribute](#finally-delete-an-attribute).
 
-  ![Deleted attributes](/Assets/Screenshots/DataHub/Settings/DeletedAttributes/DeletedAttributes.png "[Deleted attributes]")
-
-  > [Info] If the deleted attribute is not yet displayed in the list of deleted attributes, click the ![Refresh](/Assets/Icons/Refresh01.png "[Refresh]") (Refresh) button to update the list.
-
-5. Select the checkbox ![Checkbox](/Assets/Icons/Checkbox.png "[Checkbox]") of the attribute you want to delete in the list of attributes.    
-  The editing toolbar is displayed above the attributes list.
-
-6. Click the [Delete] button in the toolbar.  
-  The attribute is irretrievably deleted.
-
-   > [Warning] Problems may occur if you delete an attribute with existing dependencies.  
 
 ### Next steps
 
@@ -271,4 +259,11 @@ At least one attribute is created, see [Create an attribute](#create-an-attribut
 
 If you delete an attribute in the *PIM* module, it is not irretrievably deleted. You can still recover the attribute and make the deletion undone.
 
-The procedure to recover a deleted attribute is described in the *DataHub* module [Recover an attribute](/DataHub/to_be_completed#recover-an-attribute)
+The procedure to recover a deleted attribute is described in the *DataHub* module [Recover an attribute](/DataHub/Integration/01_ManageAttribute.md#recover-an-attribute)
+
+
+## Finally delete an attribute
+
+You can finally delete an attribute that has been deleted in the *PIM* module. As there are usually dependencies on an attribute, for example through an attribute set or created products, it is strongly recommended not to delete an attribute irretrievably. Finally deleted attributes cannot be recovered.
+
+The procedure to recover a deleted attribute is described in the *DataHub* module [Finally delete an attribute](/DataHub/Integration/01_ManageAttributes.md#finally-delete-an-attribute)

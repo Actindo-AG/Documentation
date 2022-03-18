@@ -302,7 +302,7 @@ At least one catalog with one category is created, see [Create a catalog](#creat
 
   ![Categories](/Assets/Screenshots/PIM/Products/List/Catalogs/Categories.png "[Categories]")
 
-4. Select the checkbox ![Checkbox](/Assets/Icons/Checkbox.png "[Checkbox]") of the category or sub-category you want to assign the product to.    
+4. Select the checkbox of the category or sub-category you want to assign the product to.    
 
   > [Info] You can assign a product to several categories or sub-categories.
 

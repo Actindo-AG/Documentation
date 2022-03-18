@@ -111,7 +111,7 @@ The [Add single variant ![Add single variant](/Assets/Icons/Document.png "[Add s
 
 6. Check if all variants listed in the *Variants that will be created (ignoring duplicated)* box are correct.
 
-  > [Info] To remove a variant from the list, select the checkbox ![Checkbox](/Assets/Icons/Checkbox.png "[Checkbox]") of the variant and click the ![Delete](/Assets/Icons/Trash03.png "[Delete]") button in the editing toolbar displayed above the list.
+  > [Info] To remove a variant from the list, select the checkbox of the variant and click the ![Delete](/Assets/Icons/Trash03.png "[Delete]") button in the editing toolbar displayed above the list.
 
 7. Click the [FINISH] button in the bottom right corner.   
   The new variants are added to the product. The *Summary* wizard window is closed. The variants are displayed in the variants list.

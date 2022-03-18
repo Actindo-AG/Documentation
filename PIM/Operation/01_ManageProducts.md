@@ -116,7 +116,7 @@ Several products are created, see [Create a product](#create-a-product).
 
 ![Product list](/Assets/Screenshots/PIM/Products/List/Products.png "[Product list]")
 
-1. Select the checkboxes ![Checkbox](/Assets/Icons/Checkbox.png "[Checkbox]") of the products you want to edit.   
+1. Select the checkboxes of the products you want to edit.   
   The editing toolbar is displayed above the products list.
 
 2. Click the [START MASS EDITING] button in the toolbar.   
@@ -124,7 +124,7 @@ Several products are created, see [Create a product](#create-a-product).
 
   ![Mass editing](/Assets/Screenshots/PIM/Products/List/MassEditing.png "[Mass editing]")
 
-  > [Info] You can still add products to the mass editing process when the window is displayed. Just select the checkboxes ![Checkbox](/Assets/Icons/Checkbox.png "[Checkbox]") of the products in the list and click the [MASS EDITING >] button in the editing toolbar to add the selected products to the mass editing list.    
+  > [Info] You can still add products to the mass editing process when the window is displayed. Just select the checkboxes of the products in the list and click the [MASS EDITING >] button in the editing toolbar to add the selected products to the mass editing list.    
   To remove a product from the mass editing list, click the ![Remove](/Assets/Icons/Trash01.png "[Remove]") (Remove) button right to the respective product. The ![Remove](/Assets/Icons/Trash01.png "[Remove]") (Remove) button is only displayed if you hover over a product in the list.
 
 3. Click the [START] button to start the editing wizard.
@@ -132,12 +132,12 @@ Several products are created, see [Create a product](#create-a-product).
 
   ![Select attributes](/Assets/Screenshots/PIM/Products/List/MassEditingWizard/SelectAttributes.png "[Select attributes]")
 
-4. Select the checkboxes ![Checkbox](/Assets/Icons/Checkbox.png "[Checkbox]") of the attributes you want to edit and click the [CONTINUE] button in the bottom right corner.   
+4. Select the checkboxes of the attributes you want to edit and click the [CONTINUE] button in the bottom right corner.   
   The *Select Channels and Languages* window is displayed.
 
   ![Select channels and languages](/Assets/Screenshots/PIM/Products/List/MassEditingWizard/SelectChannelsLanguages.png "[Select channels and languages]")
 
-5. Select the appropriate channels and languages by selecting the corresponding checkboxes ![Checkbox](/Assets/Icons/Checkbox.png "[Checkbox]") in the *Select Channels* and *Select Languages* sections and click the [CONTINUE] button in the bottom right corner.   
+5. Select the appropriate channels and languages by selecting the corresponding checkboxes in the *Select Channels* and *Select Languages* sections and click the [CONTINUE] button in the bottom right corner.   
 
   The *Editing* window with the selected products and their attributes to be edited is displayed.
 
@@ -186,7 +186,7 @@ At least one product is created, see [Create a product](#create-a-product).
 
 ![Product list](/Assets/Screenshots/PIM/Products/List/Products.png "[Product list]")
 
-1. Select the checkbox ![Checkbox](/Assets/Icons/Checkbox.png "[Checkbox]") of the product you want to copy.   
+1. Select the checkbox of the product you want to copy.   
   The editing toolbar is displayed above the products list.
 
 2. Click the [COPY PRODUCT] button in the toolbar.   

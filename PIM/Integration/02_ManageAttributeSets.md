@@ -137,7 +137,7 @@ Add a new attribute to an attribute set to define any further specifications.
 
   > [Info] If the message **There are no unassigned attributes.** is displayed in the *Add attributes* view, all active attributes are already included in the selected attribute set. Check, if you have selected the appropriate attribute set, click the ![Refresh](/Assets/Icons/Refresh01.png "[Refresh]") (Refresh) button to update the list or [create a new attribute](01_ManageAttributes.md#create-an-attribute).
 
-3. Select the checkboxes ![Checkbox](/Assets/Icons/Checkbox.png "[Checkbox]") of the attributes in the list, you want to add to the attribute set.   
+3. Select the checkboxes of the attributes in the list, you want to add to the attribute set.   
   The editing toolbar is displayed above the list.
 
 4. Click the [ADD] button in the editing toolbar.   
@@ -187,7 +187,7 @@ An attribute set is created, see [Create an attribute set](#create-an-attribute-
 
   ![Edit attribute set](/Assets/Screenshots/PIM/Settings/AttributeSets/EditSet.png "[Edit attribute set]")
 
-2. In the *Assigned Attributes* section, select the checkboxes ![Checkbox](/Assets/Icons/Checkbox.png "[Checkbox]") of the attributes, you want to remove from the attribute set.   
+2. In the *Assigned Attributes* section, select the checkboxes of the attributes, you want to remove from the attribute set.   
   The editing toolbar is displayed above the list.
 
 3. Click the ![Delete](/Assets/Icons/Trash03.png "[Delete]") (Delete) button in the editing toolbar.   
@@ -398,7 +398,7 @@ At least one attribute set is created, see [Create an attribute set](#create-an-
 
 ![Attributes](/Assets/Screenshots/PIM/Settings/AttributeSets/AttributeSets.png "[Attributes]")
 
-1. Select the checkboxes ![Checkbox](/Assets/Icons/Checkbox.png "[Checkbox]") of the attribute sets you want to export.   
+1. Select the checkboxes of the attribute sets you want to export.   
   The editing toolbar is displayed above the attribute sets list.
 
 2. Click the [EXPORT] button in the toolbar.  
@@ -406,7 +406,7 @@ At least one attribute set is created, see [Create an attribute set](#create-an-
 
   ![Export Step 1](/Assets/Screenshots/PIM/Settings/AttributeSets/Export01.png "[Export Step 1]")
 
-3. Select the checkboxes ![Checkbox](/Assets/Icons/Checkbox.png "[Checkbox]") of the attributes you want to exclude from the export.   
+3. Select the checkboxes of the attributes you want to exclude from the export.   
 
 4. Click the [CONTINUE] button in the bottom right corner.  
   The *Step 2* window of the export wizard is displayed.
@@ -415,7 +415,7 @@ At least one attribute set is created, see [Create an attribute set](#create-an-
 
   > [Info] If the attributes selected for export are not assigned to an attribute set, the *Step 2* window of the export wizard is skipped and the *Step 3* window is immediately displayed.
 
-5. Select the checkboxes ![Checkbox](/Assets/Icons/Checkbox.png "[Checkbox]") of the variant sets you want to exclude from the export.   
+5. Select the checkboxes of the variant sets you want to exclude from the export.   
 
 6. Click the [CONTINUE] button in the bottom right corner.  
   The *Step 3* window of the export wizard is displayed.

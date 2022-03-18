@@ -188,7 +188,7 @@ You can add attributes to a group or sub-group. Note that you can add an attribu
 
   ![Add attributes](/Assets/Screenshots/PIM/Settings/AttributeGroups/AddAttributes.png "[Add attributes]")
 
-3. Select the checkboxes ![Checkbox](/Assets/Icons/Checkbox.png "[Checkbox]") of the attributes in the list, you want to add to the selected group.   
+3. Select the checkboxes of the attributes in the list, you want to add to the selected group.   
   A toolbar is displayed above the list.
 
   > [Info] Activate the ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Only Unassigned Attributes* toggle above the list to hide all attributes that are already assigned to a group.
@@ -241,7 +241,7 @@ You can remove an attribute from a group if it is no longer in use. Note, that y
 
   ![Group attributes](/Assets/Screenshots/PIM/Settings/AttributeGroups/GroupAttributes.png "[Group attributes]")
 
-2. Select the checkboxes ![Checkbox](/Assets/Icons/Checkbox.png "[Checkbox]") of the attributes in the list, you want to remove from the selected group.   
+2. Select the checkboxes of the attributes in the list, you want to remove from the selected group.   
   A toolbar is displayed above the list.
 
 3. Click the ![Remove](/Assets/Icons/Trash03.png "[Remove]") (Remove) button in the toolbar.   

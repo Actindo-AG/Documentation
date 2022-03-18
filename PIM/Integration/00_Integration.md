@@ -6,7 +6,7 @@
   - [Deactivate an attribute](01_ManageAttributes.md#deactivate-an-attribute)
   - [Delete an attribute](01_ManageAttributes.md#delete-an-attribute)
   - [Recover an attribute](01_ManageAttributes.md#recover-an-attribute)
-
+  - [Finally delete an attribute](01_ManageAttributes.md#finally-delete-an-attribute)
 
 - [Manage the attribute sets](02_ManageAttributeSets.md)  
   - [Create an attribute set](02_ManageAttributeSets.md#create-an-attribute-set)
