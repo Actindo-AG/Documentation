@@ -47,6 +47,8 @@
 
 - [Manage the variant sets](07_ManageVariantSets.md)
   - [Create a variant set](07_ManageVariantSets.md#create-a-variant-set)
+    - [Add defining attributes](07_ManageVariantSets.md#add-defining-attributes)
+    - [Add changeable attributes](07_ManageVariantSets.md#add-changeable-attributes)
   - [Edit a variant set](07_ManageVariantSets.md#edit-a-variant-set)
   - [Remove an attribute from the variant set](07_ManageVariantSets.md#remove-an-attribute-from-the-variant-set)
 

@@ -7,6 +7,34 @@
 - *View*   
   Click the drop-down list to select the view. All created views are displayed in the drop-down list. Click the ![Points](/Assets/Icons/Points01.png "[Points]") (Points) button to the right of the *View* drop-down list to display the context menu and create or edit a view. For detailed information, see [Create a view](/PIM/Operation/04_ManageView.md#create-a-view).
 
+  - View context menu   
+    Click the ![Points](/Assets/Icons/Points01.png "[Points]") (Points) button to the right of the *View* drop-down list to display the context menu. The following menu entries are available:
+
+    - ![Create](/Assets/Icons/Plus06.png "[Create]") create   
+      Click this entry to create a view. The *Create view* window is displayed.
+
+    - ![Rename](/Assets/Icons/Edit02.png "[Rename]") rename    
+      Click this entry to rename the selected view. The *Rename view* window is displayed. This menu entry is only displayed when a view is selected.
+
+    - ![Reset](/Assets/Icons/Reset.png "[Reset]") reset    
+      Click this entry to reset the view to the selected views settings. This menu entry is only displayed when a view is selected and any changes are made to the views settings.
+
+    - ![Publish](/Assets/Icons/Publish.png "[Publish]") publish    
+      Click this entry to publish the view. This menu entry is only displayed when a view is selected and unpublished.
+
+    - ![Unpublish](/Assets/Icons/Unpublish.png "[Unpublish]") unpublish    
+      Click this entry to unpublish the view. This menu entry is only displayed when a view is selected and published.
+
+    - ![Save](/Assets/Icons/Save.png "[Save]") save    
+      Click this entry to save the current view settings in the selected view. This menu entry is only displayed when a view is selected.
+
+      > [Info] When the settings of a view have been changed, an asterisk is displayed behind the views name. The asterisk is hidden as soon as the changes have been saved saved.
+
+    - ![Delete](/Assets/Icons/Trash01.png "[Delete]") delete    
+      Click this entry to delete the selected view. The A confirmation window to confirm the deletion is displayed. This menu entry is only displayed when a view is selected.
+
+[comment]: <> (when can I reset a view? -> cannot track when this entry is displayed; where is a view published?)
+
 - *Language*   
   Click the drop-down list to select the language. All languages, that are active in *PIM* are displayed in the drop-down list. For detailed information, see [Select a language](/PIM/Operation/04_ManageView.md#select-a-language).
 
@@ -106,6 +134,36 @@ Depending on the selection in the *Variants* drop-down list, the product list di
   For detailed information, see [Create a product](/PIM/Operation/01_ManageProducts.md#create-a-product).
 
 
+## Create view
+*PIM > Products > Tab LIST > Button Points > Menu entry create*
+
+![Create view](/Assets/Screenshots/PIM/Products/List/CreateView.png "[Create view]")
+
+- *Name*   
+  Enter a name for the view.
+
+- [CANCEL]   
+  Click this button to cancel creating a view. The *Create view* window is closed.
+
+- [SAVE]   
+  Click this button to save the new view. The *Create view* window is closed. The view is saved and displayed in the *View* drop-down list.
+
+
+## Rename view
+*PIM > Products > Tab LIST > Button Points > Menu entry rename*
+
+![Rename view](/Assets/Screenshots/PIM/Products/List/RenameView.png "[Rename view]")
+
+- *Name*   
+  Click this field to edit the views name.
+
+- [CANCEL]   
+  Click this button to cancel renaming the view. The *Rename view* window is closed.
+
+- [SAVE]   
+  Click this button to save the changes to the views name. The *Rename view* window is closed. The new name for the view is saved and displayed in the *View* drop-down list.
+
+
 ## Create new product
 *PIM > Products > Tab LIST > Button Add*
 
@@ -201,8 +259,8 @@ The list displays all variants of the selected product. All fields are read-only
 - *ID*   
   Variant identification number. The ID is created after saving. In the *Create product* view, no ID is displayed.
 
-- Defining/differing attribute    
-  You can add a column for each attribute that is assigned as a defining or differing attribute to the selected variant set. The column displays the attribute name, the row displays the attribute value.
+- Defining/changeable attribute    
+  You can add a column for each attribute that is assigned as a defining or changeable attribute to the selected variant set. The column displays the attribute name, the row displays the attribute value.
 
 - ![Add](/Assets/Icons/Plus01.png "[Add]") (Add)   
   Click this button to add a new variant to the product. The [Add single variant ![Document](/Assets/Icons/Document.png "[Document]") ] button and the [Add multiple variants ![Documents](/Assets/Icons/Documents.png "[Documents]") ] button are displayed.
@@ -766,8 +824,8 @@ The list displays all variants. All fields are read-only. Depending on the setti
 - *ID*   
   Variant identification number. The ID is automatically assigned by the system after saving.
 
-- Defining/differing attribute    
-  You can add a column for each attribute that is assigned as a defining or differing attribute to the selected variant set. The column displays the attribute name, the row displays the attribute value.
+- Defining/changeable attribute    
+  You can add a column for each attribute that is assigned as a defining or changeable attribute to the selected variant set. The column displays the attribute name, the row displays the attribute value.
 
 - ![Add](/Assets/Icons/Plus01.png "[Add]") (Add)   
   Click this button to add a new variant to the product. The [Add single variant ![Document](/Assets/Icons/Document.png "[Document]") ] button and the [Add multiple variants ![Documents](/Assets/Icons/Documents.png "[Documents]") ] button are displayed.
@@ -1304,7 +1362,7 @@ The list displays all created offers to this product. All fields are read-only.
 
 ##### Select connections and status
 
-![Add to multiple connections](/Assets/Screenshots/PIM/Products/List/Offers/MultipleConnections1.png "[Add to multiple connections]")
+![Add to multiple connections](/Assets/Screenshots/PIM/Products/List/Offers/MultipleConnections01.png "[Add to multiple connections]")
 
 **Select status and change tracking mode**
 
@@ -1339,7 +1397,7 @@ The list displays all created offers to this product. All fields are read-only.
 
 ##### Select destination attribute sets
 
-![Add to multiple connections](/Assets/Screenshots/PIM/Products/List/Offers/MultipleConnections2.png "[Add to multiple connections]")
+![Add to multiple connections](/Assets/Screenshots/PIM/Products/List/Offers/MultipleConnections02.png "[Add to multiple connections]")
 
 - *Destination set for connection*   
   Destination attribute set for the selected connection. The attribute set is automatically selected. The field is read-only. An own attribute set is assigned to each selected connection.

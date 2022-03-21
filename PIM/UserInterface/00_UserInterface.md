@@ -14,6 +14,8 @@
 
 - [LIST](02a_Products.md)
   - [Create new product](02a_Products.md#create-new-product)
+  - [Create view](02a_Products.md#create-view)
+  - [Rename view](02a_Products.md#rename-view)
   - [Create product](02a_Products.md#create-product)
     - [Create product - Attributes](02a_Products.md#create-product-attributes)
     - [Create product - Variants](02a_Products.md#create-product-variants)
