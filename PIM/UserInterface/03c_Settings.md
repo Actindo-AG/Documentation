@@ -2,7 +2,7 @@
 
 *PIM > Settings > Tab ATTRIBUTE GROUPS*
 
-![Groups](/Assets/Screenshots/PIM/Settings/AttributeGroups/Groups.png "[Groups]")
+![Groups](/Assets/Screenshots/PIM/Settings/AttributeGroups/AttributeGroups.png "[Groups]")
 
 **Groups**
 
@@ -124,12 +124,11 @@ The list displays all attributes that are not assigned to the selected group. Al
 - *ID*   
   Attribute identification number. The ID number is automatically assigned by the system.
 
-[comment]: <> (Hier weiter)
 
 ## Edit attribute groups
 *PIM > Settings > Tab ATTRIBUTE GROUPS > Button Edit*
 
-![Edit groups](/Assets/Screenshots/PIM/Settings/AttributeGroups/EditGroups.png "[Edit groups]")
+![Edit attribute groups](/Assets/Screenshots/PIM/Settings/AttributeGroups/EditAttributeGroups.png "[Edit attribute groups]")
 
 - ![Back](/Assets/Icons/Back02.png "[Back]") (Back)   
   Click this button to close the *Edit groups* view and return to the *Groups* view. All changes are rejected.
@@ -186,7 +185,7 @@ The list displays all attributes that are not assigned to the selected group. Al
 ### Edit group data
 *PIM > Settings > Tab ATTRIBUTE GROUPS > Button Edit > Hover over group > Button Edit*
 
-![Group data](/Assets/Screenshots/PIM/Settings/AttributeGroups/GroupData.png "[Group data]")
+![Attribute group data](/Assets/Screenshots/PIM/Settings/AttributeGroups/AttributeGroupData.png "[Attribute group data]")
 
 - Language   
   Click the drop-down list and select the language in which the *Name (Language)* field is displayed. The system languages *English (United States)* and *Deutsch (Deutschland)* are available in the drop-down list.

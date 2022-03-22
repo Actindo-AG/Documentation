@@ -185,7 +185,7 @@ An attribute set is created, see [Create an attribute set](#create-an-attribute-
 1. Click the attribute set you want to edit in the list of attribute sets.   
   The *Edit Attribute Set* view is displayed.
 
-  ![Edit attribute set](/Assets/Screenshots/PIM/Settings/AttributeSets/EditSet.png "[Edit attribute set]")
+  ![Edit attribute set](/Assets/Screenshots/PIM/Settings/AttributeSets/EditAttributeSet.png "[Edit attribute set]")
 
 2. In the *Assigned Attributes* section, select the checkboxes of the attributes, you want to remove from the attribute set.   
   The editing toolbar is displayed above the list.
@@ -238,7 +238,7 @@ An attribute set is created, see [Create an attribute set](#create-an-attribute-
 1. Click the attribute set you want to edit in the list of attribute sets.   
   The *Edit Attribtue Set* view is displayed.
 
-  ![Edit attribute set](/Assets/Screenshots/PIM/Settings/AttributeSets/EditSet.png "[Edit attribute set]")
+  ![Edit attribute set](/Assets/Screenshots/PIM/Settings/AttributeSets/EditAttributeSet.png "[Edit attribute set]")
 
 2. Click the ![Settings](/Assets/Icons/Settings01.png "[Settings]") (Settings) button in the *Assigned Attributes* section.   
   The *required* column in the list of attributes is unlocked. The color of the ![Settings](/Assets/Icons/Settings01.png "[Settings]") (Settings) button switches to blue.
@@ -294,7 +294,7 @@ At least one attribute set is created, see [Create an attribute set](#create-an-
 1. Click the attribute set you want to deactivate in the list of attribute sets.   
   The *Edit Attribute Set* view is displayed.
 
-  ![Edit attribute set](/Assets/Screenshots/PIM/Settings/AttributeSets/EditSet.png "[Edit attribute set]")
+  ![Edit attribute set](/Assets/Screenshots/PIM/Settings/AttributeSets/EditAttributeSet.png "[Edit attribute set]")
 
 2. Deactivate the ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Active* toggle.
 

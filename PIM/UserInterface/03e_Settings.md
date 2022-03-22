@@ -8,7 +8,7 @@
 
 - [ <u>Edit channel list here</u> ]    
   Click this button to switch to the *DataHub* module and edit the channel list or create a channel. The *CHANNELS* tab is displayed: *DataHub > Settings > Tab CHANNELS*    
-  For detailed information, see [Create a channel](/DataHub/Integration/CreateChannel.md).
+  For detailed information, see [Create a channel](/DataHub/Integration/04_ManageChannels.md#create-a-channel).
 
 - ![Refresh](/Assets/Icons/Refresh01.png "[Refresh]") (Refresh)   
   Click this button to update the list of channels.

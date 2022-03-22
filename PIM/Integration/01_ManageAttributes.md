@@ -258,11 +258,11 @@ At least one attribute is created, see [Create an attribute](#create-an-attribut
 
 If you delete an attribute in the *PIM* module, it is not irretrievably deleted. You can still recover the attribute and make the deletion undone.
 
-The procedure to recover a deleted attribute is described in the *DataHub* module [Recover an attribute](/DataHub/Integration/01_ManageAttribute.md#recover-an-attribute)
+The procedure to recover a deleted attribute is described in the *DataHub* module [Recover an attribute](/DataHub/Integration/01_ManageAttribute.md#recover-an-attribute).
 
 
 ## Finally delete an attribute
 
 You can finally delete an attribute that has been deleted in the *PIM* module. As there are usually dependencies on an attribute, for example through an attribute set or created products, it is strongly recommended not to delete an attribute irretrievably. Finally deleted attributes cannot be recovered.
 
-The procedure to recover a deleted attribute is described in the *DataHub* module [Finally delete an attribute](/DataHub/Integration/01_ManageAttributes.md#finally-delete-an-attribute)
+The procedure to recover a deleted attribute is described in the *DataHub* module [Finally delete an attribute](/DataHub/Integration/01_ManageAttributes.md#finally-delete-an-attribute).

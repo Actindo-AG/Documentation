@@ -52,6 +52,7 @@ No prerequisites to fulfill.
 - [User Interface PIM](/PIM/UserInterface/00_UserInterface.md)
 - [Edit an attribute](/PIM/Integration/01_ManageAttributes.md#edit-an-attribute)
 - [Edit a single product](/PIM/Operation/01_ManageProducts.md#edit-a-single-product)
+- [Data type list](/PIM/UserInterface/04_DataTypeList.md)
 
 
 ## Was this chapter helpful?

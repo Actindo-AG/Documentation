@@ -61,6 +61,7 @@ The list displays all attribute sets. All fields are read-only. Depending on the
 
 - *Plugin*   
   Module or plugin from which the attribute set is created. In the *PIM* module, only PIM attribute sets are displayed.
+
   [comment]: <> (Is that correct?)
 
 - *ID*   
@@ -253,8 +254,8 @@ The list displays all attributes assigned to the selected attribute set. When th
 
 - *Plugin*   
   Module or plugin from which the attribute is created. In the *PIM* module, only PIM attributes are displayed.
-  [comment]: <> (Is that correct?)
 
+  [comment]: <> (Is that correct?)
 
 - *Required*   
   Indication whether the attribute is an required field in the attribute set or not.
@@ -453,6 +454,7 @@ The list displays all attributes assigned to the selected attribute set. All fie
 
 - *Plugin*   
   Module or plugin from which the attribute is created. In the *PIM* module, only PIM attributes are displayed.
+
   [comment]: <> (Is that correct?)
 
 - *ID*   
@@ -504,8 +506,8 @@ The list displays all variant sets included to the selected attribute set for ex
 - *Attributes (defining)*   
   Defining attributes of the variant set.
 
-- *Attributes (differing)*   
-  Differing attributes of the variant set.
+- *Attributes (changeable)*   
+  Changeable attributes of the variant set.
 
 - *ID*   
   Attribute set identification number. The ID number is automatically assigned by the system.
@@ -571,6 +573,7 @@ The list displays all attributes that will be exported. All fields are read-only
 
 - *Plugin*   
   Module or plugin from which the attribute is created. In the *PIM* module, only PIM attributes are displayed.
+
   [comment]: <> (Is that correct?)
 
 
@@ -609,6 +612,7 @@ The list displays all attributes that cannot be exported. All fields are read-on
 
 - *Plugin*   
   Module or plugin from which the attribute is created. In the *PIM* module, only PIM attributes are displayed.
+
   [comment]: <> (Is that correct?)
 
 
@@ -647,6 +651,7 @@ The list displays all attributes that you selected to be excluded from the expor
 
 - *Plugin*   
   Module or plugin from which the attribute is created. In the *PIM* module, only PIM attributes are displayed.
+
   [comment]: <> (Is that correct?)
 
 
@@ -663,8 +668,8 @@ The list displays all variant sets that will be exported. All fields are read-on
 - *Attributes (defining)*   
   Defining attributes of the variant set.
 
-- *Attributes (differing)*   
-  Differing attributes of the variant set.
+- *Attributes (changeable)*   
+  Changeable attributes of the variant set.
 
 
 **The following variant sets cannot be exported**
@@ -680,8 +685,8 @@ The list displays all variant sets that cannot be exported. All fields are read-
 - *Attributes (defining)*   
   Defining attributes of the variant set.
 
-- *Attributes (differing)*   
-  Differing attributes of the variant set.
+- *Attributes (changeable)*   
+  Changeable attributes of the variant set.
 
 [comment]: <> (Does this list exist?)
 
@@ -699,8 +704,8 @@ The list displays all variant sets that you selected to be excluded from the exp
 - *Attributes (defining)*   
   Defining attributes of the variant set.
 
-- *Attributes (differing)*   
-  Differing attributes of the variant set.
+- *Attributes (changeable)*   
+  Changeable attributes of the variant set.
 
 - [CANCEL]   
   Click this button to cancel the export, close the export wizard window and return to the attribute sets list.

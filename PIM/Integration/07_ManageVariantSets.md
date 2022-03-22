@@ -24,11 +24,10 @@ An attribute set is created, see [Create an attribute set](ManageAttributeSet.md
 
 2. Enter a name for the variant set in the *Name* field.
 
-3. Select an attribute set in the *Attribute Set* drop-down list. All active attribute sets are displayed in the list.   
+3. Select an attribute set in the *Attribute Set* drop-down list. All active attribute sets are displayed in the list.    
+  The *Formulas* section with the *Formula for SKU* field is displayed.
 
   > [Info] You need to specify defining and changeable attributes for the variant set at a later step. Be aware that only those attributes assigned to the selected attribute set will be available.
-
-  The *Formulas* section with the *Formula for SKU* field is displayed.
 
   ![Formulas](/Assets/Screenshots/PIM/Settings/VariantSets/Formulas.png "[Formulas]")
 
@@ -62,8 +61,7 @@ An attribute set is created, see [Create an attribute set](ManageAttributeSet.md
 
     > [Info] You can edit the formula in the *Formula for SKU* field and include the defining attribute placeholder.
 
-4. If desired, add changeable attributes to the variant set, see [Add changeable attributes](#add-changeable-attributes) .   
-Otherwise, click the [SAVE] button in the upper right corner.   
+4. If desired, add changeable attributes to the variant set, see [Add changeable attributes](#add-changeable-attributes). Otherwise, click the [SAVE] button in the upper right corner.   
   The *Create variant set* view is closed. The new variant set is saved and displayed in the list of variant sets.
 
 
@@ -71,10 +69,10 @@ Otherwise, click the [SAVE] button in the upper right corner.
 
 > [Info] You can select changeable attributes for a variant set. If you want to define an attribute for the variants which value may differ from its master product value, you have to define this attribute as a changeable attribute.
 
-1. In the *Differing Attributes* box click the ![Add](/Assets/Icons/Plus01.png "[Add]") button. This button is only displayed when an attribute set is selected.         
+1. In the *Changeable Attributes* box click the ![Add](/Assets/Icons/Plus01.png "[Add]") button. This button is only displayed when an attribute set is selected.         
   The *Add changeable attributes* view is displayed.
 
-  ![Add changeable attributes](/Assets/Screenshots/PIM/Settings/VariantSets/AddDifferingAttributes.png "[Add changeable attributes]")
+  ![Add changeable attributes](/Assets/Screenshots/PIM/Settings/VariantSets/AddChangeableAttributes.png "[Add changeable attributes]")
 
 2. Select the checkboxes of the attributes you want to be a changeable attribute for the selected variant.   
   The editing toolbar is displayed above the attribute list.
@@ -82,9 +80,9 @@ Otherwise, click the [SAVE] button in the upper right corner.
   > [Info] Generally, a variant inherits all attribute values from its master product. These attribute values are locked in the variant and can only be edited in the master product. Attribute values that differ from the master product and must be maintained individually in the variant itself must be added to the list of changeable attributes.
 
 3. Click the [ADD AND GO BACK] button.   
-  The *Add changeable attributes* view is closed. The selected attributes are displayed in the *Differing Attributes* box.
+  The *Add changeable attributes* view is closed. The selected attributes are displayed in the *Changeable Attributes* box.
 
-  ![Differing attributes added](/Assets/Screenshots/PIM/Settings/VariantSets/DifferingAttributesAdded.png "[Differing attributes added]")
+  ![Changeable attributes added](/Assets/Screenshots/PIM/Settings/VariantSets/ChangeableAttributesAdded.png "[Changeable attributes added]")
 
 4. Click the [SAVE] button in the upper right corner.   
   The *Create variant set* view is closed. The new variant set is saved and displayed in the list of variant sets.
@@ -170,7 +168,7 @@ A variant set is created, see [Create a variant set](#create-a-variant-set).
 
   ![Edit variant set](/Assets/Screenshots/PIM/Settings/VariantSets/EditVariantSet.png "[Edit variant set]")
 
-2. In the *Defining attributes* box or *Differing attributes* box, select the checkboxes of the attributes you want to remove.     
+2. In the *Defining attributes* box or *Changeable attributes* box, select the checkboxes of the attributes you want to remove.     
   The [DELETE] button is displayed in the editing toolbar above the attribute list.
 
 3. Click the [DELETE] button in the toolbar.   

@@ -41,8 +41,8 @@ The list displays all variant sets. All fields are read-only. Depending on the s
 - *Attributes (defining)*   
   Defining attributes of the variant set.
 
-- *Attributes (differing)*   
-  Differing attributes of the variant set.
+- *Attributes (changeable)*   
+  Changeable attributes of the variant set.
 
 - *ID*   
   Attribute set identification number. The ID number is automatically assigned by the system.
@@ -136,7 +136,7 @@ The list displays all defining attributes to the variant set. All fields are rea
   Click this button to add a defining attribute to the variant set. The *Add defining attributes* view is displayed.
 
 
-**Differing attributes**
+**Changeable attributes**
 
 - ![Search](/Assets/Icons/Search.png "[Search]") (Search)   
   Click this button to display the search bar and search for an attribute.
@@ -156,7 +156,7 @@ The list displays all defining attributes to the variant set. All fields are rea
 - [DELETE]   
   Click this button to delete the selected attribute from the box. This button is only displayed, when the checkbox of at least one attribute is selected.
 
-The list displays all differing attributes to the variant set. All fields are read-only.
+The list displays all changeable attributes to the variant set. All fields are read-only.
 
 - *Name*   
   Attribute name.
@@ -171,7 +171,7 @@ The list displays all differing attributes to the variant set. All fields are re
   Attribute identification number. The ID number is automatically assigned by the system.
 
 - ![Add](/Assets/Icons/Plus01.png "[Add]") (Add)   
-  Click this button to add a defining attribute to the variant set. The *Add differing attributes* view is displayed.
+  Click this button to add a defining attribute to the variant set. The *Add changeable attributes* view is displayed.
 
 
 ## Edit variant set
@@ -243,7 +243,7 @@ The list displays all defining attributes to the variant set. All fields are rea
   Click this button to add a defining attribute to the variant set. The *Add defining attributes* view is displayed.
 
 
-**Differing attributes**
+**Changeable attributes**
 
 - ![Search](/Assets/Icons/Search.png "[Search]") (Search)   
   Click this button to display the search bar and search for an attribute.
@@ -263,7 +263,7 @@ The list displays all defining attributes to the variant set. All fields are rea
 - [DELETE]   
   Click this button to delete the selected attribute from the box. This button is only displayed, when the checkbox of at least one attribute is selected.
 
-The list displays all differing attributes to the variant set. All fields are read-only.
+The list displays all changeable attributes to the variant set. All fields are read-only.
 
 - *Name*   
   Attribute name.
@@ -278,7 +278,7 @@ The list displays all differing attributes to the variant set. All fields are re
   Attribute identification number. The ID number is automatically assigned by the system.
 
 - ![Add](/Assets/Icons/Plus01.png "[Add]") (Add)   
-  Click this button to add a defining attribute to the variant set. The *Add differing attributes* view is displayed.
+  Click this button to add a defining attribute to the variant set. The *Add changeable attributes* view is displayed.
 
 
 
@@ -327,11 +327,11 @@ The list displays all available defining attributes. All fields are read-only. D
   Attribute identification number. The ID number is automatically assigned by the system.
 
 
-### Add differing attributes
-*PIM > Settings > Tab VARIANT SETS > Button Add > Button Add variant set > Button Add (differing attributes box)*   
-*PIM > Settings > Tab VARIANT SETS > Select variant set > Button Edit > Button Add (differing attributes box)*
+### Add changeable attributes
+*PIM > Settings > Tab VARIANT SETS > Button Add > Button Add variant set > Button Add (changeable attributes box)*   
+*PIM > Settings > Tab VARIANT SETS > Select variant set > Button Edit > Button Add (changeable attributes box)*
 
-![Differing attributes](/Assets/Screenshots/PIM/Settings/VariantSets/AddDifferingAttributes.png "[Differing attributes]")
+![Changeable attributes](/Assets/Screenshots/PIM/Settings/VariantSets/AddChangeableAttributes.png "[Changeable attributes]")
 
 - ![Back](/Assets/Icons/Back02.png "[Back]") (Back)   
   Click this button to cancel adding defining attributes, close the *Add defining attributes* view and return to the *Edit Variant Set* view. All changes are rejected.
@@ -357,7 +357,7 @@ The list displays all available defining attributes. All fields are read-only. D
 - [ADD AND GO BACK]   
   Click this button to add the selected attribute(s) to the variant set. This button is only displayed, when the checkbox of at least one attribute is selected. The *Add defining attributes* view is closed. The defining attributes are displayed in the box *Attributes (defining)*.
 
-The list displays all available differing attributes. All fields are read-only. Depending on the settings, the displayed columns may vary.
+The list displays all available changeable attributes. All fields are read-only. Depending on the settings, the displayed columns may vary.
 
 - *Name*   
   Attribute name.

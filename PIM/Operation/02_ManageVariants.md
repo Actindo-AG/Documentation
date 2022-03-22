@@ -189,7 +189,7 @@ You can add a single or multiple variants to a product directly when you create 
 
 ## Edit a variant
 
-After you have created a variant, you can edit it. Note that only defining and differing attribute values are editable. All other attribute values are defined by the master product and can only be edited within the master product. Be careful when editing defining attribute values as you are also affecting the variant settings of the master product.
+After you have created a variant, you can edit it. Note that only defining and changeable attribute values are editable. All other attribute values are defined by the master product and can only be edited within the master product. Be careful when editing defining attribute values as you are also affecting the variant settings of the master product.
 
 ### Prerequisites
 

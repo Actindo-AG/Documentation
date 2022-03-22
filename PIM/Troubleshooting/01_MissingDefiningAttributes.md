@@ -1,6 +1,6 @@
 [!!PIM](Actindo/PIM)
 
-# Add a missing defining attribute
+# Missing defining attribute
 
 ## Error Description
 A certain attribute is missing in the list of defining attributes for a variant set.
@@ -69,6 +69,7 @@ No prerequisites to fulfill.
 - [Edit a variant set](/PIM/Integration/07_ManageVariantSets.md#edit-a-variant-set)
 - [Add defining attributes](/PIM/Integration/07_ManageVariantSets.md#add-defining-attributes)
 - [Create an attribute](/PIM/Integration/01_ManageAttributes.md#create-an-attribute)
+- [Data type list](/PIM/UserInterface/04_DataTypeList.md)
 
 
 ## Was this chapter helpful?

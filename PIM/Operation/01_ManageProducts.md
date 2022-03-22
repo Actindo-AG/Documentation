@@ -127,7 +127,7 @@ Several products are created, see [Create a product](#create-a-product).
   > [Info] You can still add products to the mass editing process when the window is displayed. Just select the checkboxes of the products in the list and click the [MASS EDITING >] button in the editing toolbar to add the selected products to the mass editing list.    
   To remove a product from the mass editing list, click the ![Remove](/Assets/Icons/Trash01.png "[Remove]") (Remove) button right to the respective product. The ![Remove](/Assets/Icons/Trash01.png "[Remove]") (Remove) button is only displayed if you hover over a product in the list.
 
-3. Click the [START] button to start the editing wizard.
+3. Click the [START] button to start the editing wizard.   
   The *Select Attributes* window is displayed.
 
   ![Select attributes](/Assets/Screenshots/PIM/Products/List/MassEditingWizard/SelectAttributes.png "[Select attributes]")
@@ -138,7 +138,6 @@ Several products are created, see [Create a product](#create-a-product).
   ![Select channels and languages](/Assets/Screenshots/PIM/Products/List/MassEditingWizard/SelectChannelsLanguages.png "[Select channels and languages]")
 
 5. Select the appropriate channels and languages by selecting the corresponding checkboxes in the *Select Channels* and *Select Languages* sections and click the [CONTINUE] button in the bottom right corner.   
-
   The *Editing* window with the selected products and their attributes to be edited is displayed.
 
   ![Editing](/Assets/Screenshots/PIM/Products/List/MassEditingWizard/Editing.png "[Editing]")

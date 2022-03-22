@@ -171,7 +171,7 @@ At least one catalog with one category is created, see [Create a catalog](#creat
 1. Select the catalog you want to create a sub-category to in the drop-down list in the left column.   
   The catalog name is displayed in the drop-down list.
 
-2. Click the three points ![Points](/Assets/Icons/Points01.png "[Points]") to the right of the selected catalog.   
+2. Click the ![Points](/Assets/Icons/Points01.png "[Points]") (Points) button to the right of the selected catalog.   
   The menu is displayed.
 
   ![Menu](/Assets/Screenshots/PIM/Settings/Catalogs/Menu.png "[Menu]")
@@ -292,7 +292,7 @@ At least one catalog with one category is created, see [Create a catalog](#creat
 
   ![Attributes](/Assets/Screenshots/PIM/Products/List/Attributes/AttributesEdit.png "[Attributes]")
 
-2. Select the *Catalogs* tab.
+2. Select the *Catalogs* tab.   
   The *Catalogs* tab is displayed
 
   ![Catalogs](/Assets/Screenshots/PIM/Products/List/Catalogs/Catalogs.png "[Catalogs]")

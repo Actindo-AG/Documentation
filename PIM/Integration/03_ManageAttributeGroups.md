@@ -113,7 +113,7 @@ Create a sub-group to organize the attributes in special groups, for instance de
 7. Click the [SAVE] button.   
   The sub-group is created. The *Add Element* window is closed. The new sub-group is displayed in the sub-group column.
 
-  ![Attribute sub-group created](/Assets/Screenshots/PIM/Settings/AttributeGroups/SubGroupCreated.png "[Attribute sub-group created]")
+  ![Attribute sub-group created](/Assets/Screenshots/PIM/Settings/AttributeGroups/AttributeSubGroupCreated.png "[Attribute sub-group created]")
 
   > [Info] If you want to change the order of the sub-groups in the list, see [Change the order of groups](#change-the-order-of-groups).
 

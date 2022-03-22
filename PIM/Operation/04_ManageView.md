@@ -134,7 +134,7 @@ You can select a product category to limit the number of products to those produ
 
 ## Select a variant view
 
-Switch the variant view to either display only the master products in the product list or all products including all variants.
+Switch the variant view to either display only the master products and single products in the product list or all products including their variants.
 
 ### Prerequisites
 

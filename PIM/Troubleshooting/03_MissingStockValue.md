@@ -54,6 +54,8 @@ No prerequisites to fulfill.
 - [User Interface PIM](/PIM/UserInterface/00_UserInterface.md)
 - [Edit a single product](/PIM/Operation/01_ManageProducts.md#edit-a-single-product)
 - [Activate the warehouse logistics](to_be_completed)
+- [Data type list](/PIM/UserInterface/04_DataTypeList.md)
+
 
 ## Was this chapter helpful?
 
