@@ -3,67 +3,66 @@
 # Manage receipts
 
 Receipts are used to document all transactions and, therefore, play an indispensable role for a correct accounting. There are many different types of receipts, such as invoice, order confirmation, or credit note. For detailed information about the different types of receipts, see [Invoicing / Types of receipts](#to_be_completed).
-[comments]: <> (See alt_Doku)
 
-The *BOOK RECEIPTS* tab allows to assign manually incoming receipts that have not been registered yet in the *Accounting* module. Providers can upload their invoices in PDF format in the *Documents* module, which will be then registered by the system and displayed in the *BOOK RECEIPTS* tab.
+[comments]: <> (See alt_Doku for reference)
 
-After being uploaded, the receipts are stored in the *New documents* folder in the *Documents* module. Once they are manually booked, they are moved automatically into the *Booked documents* folder and then placed in the appropriate subfolder according to the following structure:
+The *BOOK RECEIPTS* tab allows to assign manually incoming receipts that have not been registered yet in the *Accounting* module. Suppliers can upload their invoices in PDF format in the *Documents* module, which will be then recognized by the system and displayed in the *BOOK RECEIPTS* tab.
+
+[comment]: <> (Check with Heusel: 3 options to manage receipts: BELEGE BUCHEN, BELEG ZUORDNEN und extra Funktion LIEFERANTENBELEGE. ALLE unverbuchten Belege werden werden aber unter BELEGE BUCHE gezeigt, nicht nur externe Belege... Also, was ist der Unterschied zwischen BELEGE BUCHEN und LIEFERANTENBELEGE???)
+
+After being uploaded, the receipts are stored in the *New documents* folder in the *Documents* module. Once they are booked, they are moved automatically into the *Booked documents* folder and then placed in the appropriate subfolder according to the following structure:
 
 - 10000-19999 account numbers in case of a debtors'/customers' document
-- 70000-70999 account numbers in case of a creditors'/providers' document
+- 70000-70999 account numbers in case of a creditors'/suppliers' document
 
-Besides, when the receipt is booked in the *BOOK RECEIPTS* tab, it is linked to a particular booking. A blue B (=Beleg, EN: receipt) will be then displayed next to the booking in the bookings list. When clicking on the blue B, the corresponding receipt is displayed.
+Besides, when a receipt is booked in the *BOOK RECEIPTS* tab, it is linked to the assigned booking. A ![Receipt](/Assets/Icons/Beleg.png "[Receipt]") icon will be then displayed next to the booking in the bookings list. When clicking on the ![Receipt](/Assets/Icons/Beleg.png "[Receipt]") icon, the corresponding receipt is displayed.
 
+[comment]: <> (Viel Info: evtl. zusammenfassen bzw. verteilen)
 
 ## Retrieve a receipt
+
+[comment]: <> (Maybe change name to "Assign a receipt")
+
+The [ASSIGN RECEIPT] button in the *BOOKINGS* tab allows to assign a receipt that has not been registered yet to an existing booking. Any unregistered receipts are displayed in the *BOOK RECEIPTS* tab and can be registered using this option. For detailed information about this procedure, see [Book a receipt](#book-a-receipt).   
+
+[comment]: <> (Rephrase)
 
 ### Prerequisites
 
 - The accounting is configured via the configuration wizard, see [Run the Accounting Wizard](01_RunAccountingWizard.md).
 - A valid fiscal year is created, see [Create fiscal year](04_ManageFiscalYear.md#create-a-fiscal-year).
 - A fiscal year is selected, see [Select fiscal year](01_SelectFiscalYear.md).
-- An incoming receipt is created, see [Invoicing / Manage receipts / Create receipts](#to_be_completed).
+- A manual booking is created, see [Create a manual booking](04_CreateManualBooking.md).
+- A receipt is uploaded, see [Documents / New Documents](#to_be_completed).
 
-## Procedure
+[comments]: <> (Unsure! Does it need to be a manual booking? Probably not. Also, check interaction with Invoicing. Check with Heusel.)
 
-*Accounting > Select fiscal year > Book > Tab BOOK RECEIPTS*
+### Procedure
 
-![Booking receipts](/Assets/Screenshots/Accounting/Book/Bookings/Bookings_BookReceipts_NewDocument.png "[Book receipts]")
+*Accounting > Select fiscal year > Book > Tab BOOKINGS*
 
-1. Select the appropriate currency in the *Currency code* field, if necessary.
+![Assign receipt](/Assets/Screenshots/Accounting/Book/Bookings/Bookings_AssignReceipt.png "[Assign receipt]")
 
-  > [Info] Currency exchange rate can also be adjusted if needed in the *Rate* field. For detailed information, see []
+1. Select the booking to be assigned a receipt from the bookings list in the *Bookings* tab.  
+The existing booking details are displayed in the input line fields.
 
-[comment]: <> (Fremdwährungsassistent zur Automatisierung? Link?)
+2. Click the [ASSIGN RECEIPT] button.  
+The *Attach Document* window is displayed.
 
-2. Enter the total invoice value in the *Turnover* field.
+  ![Attach document](/Assets/Screenshots/Accounting/Book/Bookings/Bookings_AttachDocument_Window.png "[Attach document]")
 
-3. Contra Account
+3. Select the document to be assigned to the booking from the *New documents* folder.
 
-4. Enter the invoice number or reference number in *Receipt1* field.
+  ![Select document](/Assets/Screenshots/Accounting/Book/Bookings/Bookings_AttachDocument_Window2.png "[Select document]")
 
-5. Enter the date for the manual booking in the *Date* field. Date format must be TTMMJJ or TT.MM.JJ.
+4. Click the [ACCEPT DOCUMENT] button.  
+The selected document is now assigned to the booking. A ![Receipt](/Assets/Icons/Beleg.png "[Receipt]") icon (=Beleg, EN: receipt) will be then displayed next to the booking in the bookings list.
 
-6. Enter a personal account number in the *Account* field, that is, a debtor (customer) or a creditor (provider) account number.
+  ![Receipt assigned](/Assets/Screenshots/Accounting/Book/Bookings/Bookings_ReceiptAssigned.png "[Receipt assigned]")
 
-  > [Info] Note that the fields *Date* and *Account* must be filled out to be able to book a receipt. The *Contra Account* field can be specified when splitting the booking.
+  > [Info] When clicking the ![Receipt](/Assets/Icons/Beleg.png "[Receipt]") icon, the corresponding receipt is displayed. Click the [CANCEL ASSIGNMENT] button if the assignment needs to be undone.
 
-  [comment]: <> (Check!)
-
-7. Enter any other relevant fixed booking information in the corresponding fields.
-
-  > [Info] Even though it is not compulsory, it is highly recommended to fill in the *Receipt 1* field, as the system identifies and groups together any subsequent bookings taking this field as reference.
-
-8. Click the [BOOK] button.  
-A message above the entry line confirms that the receipt has been linked to the booking. A new booking is displayed in the bookings list in the *BOOKING* tab. A new open item is created in the *OPEN ITEMS* tab.
-
-
-![Booking receipts](/Assets/Screenshots/Accounting/Book/Bookings/Bookings_BookReceipts_no_receipts.png "[Book receipts]")
-
-> [Info] If there is no receipt left to be booked, the message *No documents left to be registered* is displayed when clicking the *BOOK RECEIPTS* tab.
-
-
-  > [Info]
+  ![Cancel assignment](/Assets/Screenshots/Accounting/Book/Bookings/Bookings_AttachedDocument_Window.png "[Cancel assignment]")
 
 
 ### Next steps
@@ -86,47 +85,53 @@ A message above the entry line confirms that the receipt has been linked to the 
 
 ## Book a receipt
 
+The *BOOK RECEIPTS* tab allows to assign manually incoming receipts that have not been registered yet in the *Accounting* module. Providers can upload their invoices in PDF format in the *Documents* module, which will be then recognized by the system and displayed in the *BOOK RECEIPTS* tab.
+
 ### Prerequisites
 
 - The accounting is configured via the configuration wizard, see [Run the Accounting Wizard](01_RunAccountingWizard.md).
 - A valid fiscal year is created, see [Create fiscal year](04_ManageFiscalYear.md#create-a-fiscal-year).
 - A fiscal year is selected, see [Select fiscal year](01_SelectFiscalYear.md).
+- An incoming receipt is uploaded, see [Documents / New Documents](#to_be_completed).
 
 ### Procedure
 
-*Accounting > Select fiscal year > Book > Tab BOOKINGS*
+*Accounting > Select fiscal year > Book > Tab BOOK RECEIPTS*
 
-![](/Assets/Screenshots/Accounting/Book/Bookings/.png "[]")
+![Book receipts - new receipt](/Assets/Screenshots/Accounting/Book/Bookings/Bookings_BookReceipts_NewDocument.png "[Book receipts - new receipt]")
 
-1.
+  > [Info] The incoming receipts uploaded in the *New documents* folder in the *Documents* module are displayed here. If there are no receipts to be booked, the message *No documents left to be registered* is displayed when clicking the *BOOK RECEIPTS* tab.
 
-  > [Info]
+  ![Book receipts - no receipts](/Assets/Screenshots/Accounting/Book/Bookings/Bookings_BookReceipts_no_receipts.png "[Book receipts - no receipts]")
 
-2. Enter in the ** field.
+1. Select the appropriate currency in the *Currency code* field, if necessary.
 
-3. Enter  in the ** field.
+  > [Info] Currency exchange rate can also be adjusted if needed in the *Rate* field.
 
-4. Enter  in the ** field.
+[comment]: <> (Fremdwährungsassistent zur Automatisierung? Link?)
 
-  > [Info]
+2. Enter the total invoice value in the *Turnover* field.
 
-5. Enter any other relevant fixed booking information in the corresponding fields.
+3. Enter an account number in the *Contra Account* field.
 
-  > [Info]
+4. Enter the date for the manual booking in the *Date* field. Date format must be TTMMJJ or TT.MM.JJ.
 
-6. Click the ** button.
-The ** window is displayed.
+5. Enter the creditor (supplier) account number in the *Account* field.
 
-  ![](/Assets/Screenshots/Accounting/Book/Bookings/.png "[]")
+  > [Info] Note that the fields *Contra Account*, *Date*,  *Account* must be filled out to be able to book a receipt.
 
-7.
+6. Enter any other relevant fixed booking information in the corresponding fields.
 
-8. Click the [] button.
+  > [Info] Even though it is not compulsory, it is highly recommended to fill in the *Receipt 1* field, as the system identifies and groups together any subsequent bookings taking this field as reference.
 
+  ![Booking receipts](/Assets/Screenshots/Accounting/Book/Bookings/Bookings_BookReceipts_NewDocument2.png "[Book receipts - no receipts]")
 
-  ![](/Assets/Screenshots/Accounting/Book/Bookings/.png "[]")
+7. Click the [BOOK] button.  
+A message above the entry line confirms that the receipt has been linked to the booking. A new booking is displayed in the bookings list in the *BOOKING* tab. A ![Receipt](/Assets/Icons/Beleg.png "[Receipt]") icon (=Beleg, EN: receipt) is displayed next to the booking in the bookings list.
 
-  > [Info]
+  ![Bookings - document linked](/Assets/Screenshots/Accounting/Book/Bookings/Bookings_BookReceipts_DocumentLinked2.png "[Booking - Bookings - document linked]")
+
+  > [Info] If there are further unregistered incoming receipts, they will be displayed in the *BOOK RECEIPTS* tab. Otherwise, the message "No documents left to be registered" is displayed.
 
 ### Next steps
 
@@ -148,50 +153,61 @@ The ** window is displayed.
 
 ## Book a supplier receipt
 
+The *Supplier receipts* menu entry of the *EDIT* context menu in the *BOOKINGS* is an enhanced function to book specifically supplier receipts.
+
+Suppliers can upload their invoices in PDF format in the *New supplier documents* folder in the *Documents* module, which will be then recognized by the system and displayed in the *Acquire* tab.
+
 ### Prerequisites
 
 - The accounting is configured via the configuration wizard, see [Run the Accounting Wizard](01_RunAccountingWizard.md).
 - A valid fiscal year is created, see [Create fiscal year](04_ManageFiscalYear.md#create-a-fiscal-year).
 - A fiscal year is selected, see [Select fiscal year](01_SelectFiscalYear.md).
+- The appropriate plug-in is installed, see [Install plug-in XZY](#to_be_completed).
 
 ### Procedure
 
-- information about the wizard for supplier receipts and its features and its availability
-
-- Lieferantenbelege Option - erweiterter Prozess zu Belege buchen, um Lieferantenbelege zu erfassen
-
-*Accounting > Select fiscal year > Book > Tab BOOKINGS*
+*Accounting > Select fiscal year > Book > Tab BOOKINGS > Context menu EDIT > Menu entry Supplier receipts*
 
 ![SupplierBookings](/Assets/Screenshots/Accounting/Book/Bookings/Bookings_Edit_SupplierBookings.png "[SupplierBookings]")
 
+[comment]: <> (Check and add screenshots. RS Nesim)
 
-1.  
+1.  Click the *Supplier receipt* menu entry.  
+The *Supplier receipts* window is displayed.
 
-  > [Info]
+  > [Info] The incoming receipts uploaded in the *New supplier documents* folder in the *Documents* module are displayed here. If there are no receipts to be booked, the message *No documents left to be registered* is displayed.
 
-2. Enter in the ** field.
+2. Enter the total invoice value in the *Turnover* field.
 
-3. Enter  in the ** field.
+  > [Info] Currency exchange rate can also be adjusted if needed in the *Exchange rate* field.
 
-4. Enter  in the ** field.
+3. Enter an account number in the *ContraAcct* field.
 
-  > [Info]
+4. Enter the date for the manual booking in the *Date* field. Date format must be TTMMJJ or TT.MM.JJ.
 
-5. Enter any other relevant fixed booking information in the corresponding fields.
+5. Enter the creditor account number in the *Supplier* field.
 
-  > [Info]
+6. Enter a description account number in the *Posting text* field.
 
-6. Click the ** button.
-The ** window is displayed.
+  > [Info] Note that the fields *ContraAcct*, *Date*,  *Supplier* and *Posting text* must be filled out to be able to acquire a receipt.
 
-  ![Split booking window](/Assets/Screenshots/Accounting/Book/Bookings/.png "[Split booking window]")
+6. Enter any other relevant fixed booking information in the corresponding fields.
 
-7.
+  > [Info] Even though it is not compulsory, it is highly recommended to fill in the *Reference1* field, as the system identifies and groups together any subsequent bookings taking this field as reference.
 
-8. Click the [] button.
+  ![](/Assets/Screenshots/Accounting/Book/Bookings/.png "[Book receipts ]")
+
+7. Select the appropriate payment target for the receipt in the *Payment target* drop-down list.
+
+8. Click the [ACQUIRE] button.  
+
+  ![](/Assets/Screenshots/Accounting/Book/Bookings/.png "[]")
 
 
-  ![Split booking window](/Assets/Screenshots/Accounting/Book/Bookings/.png "[Split booking window]")
+[SPLIT] button
+
+
+  ![](/Assets/Screenshots/Accounting/Book/Bookings/.png "[]")
 
   > [Info]
 
