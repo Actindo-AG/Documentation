@@ -114,7 +114,7 @@ The *BOOK RECEIPTS* tab allows to assign manually incoming receipts that have no
 
 3. Enter an account number in the *Contra Account* field.
 
-4. Enter the date for the manual booking in the *Date* field. Date format must be TTMMJJ or TT.MM.JJ.
+4. Enter the date for the manual booking in the *Date* field. Date format must be DDMMYY or DD.MM.YY.
 
 5. Enter the creditor (supplier) account number in the *Account* field.
 
@@ -183,7 +183,7 @@ The *Supplier receipts* window is displayed.
 
 3. Enter an account number in the *ContraAcct* field.
 
-4. Enter the date for the manual booking in the *Date* field. Date format must be TTMMJJ or TT.MM.JJ.
+4. Enter the date for the manual booking in the *Date* field. Date format must be DDMMYY or DD.MM.YY.
 
 5. Enter the creditor account number in the *Supplier* field.
 
