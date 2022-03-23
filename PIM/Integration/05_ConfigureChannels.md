@@ -1,4 +1,5 @@
 [!!PIM](Actindo/PIM)
+[!!DataHub](Actindo/DataHub)
 
 # Configure the channel settings
 

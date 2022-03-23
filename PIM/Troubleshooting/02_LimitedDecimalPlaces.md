@@ -1,6 +1,6 @@
 [!!PIM](Actindo/PIM)
 
-# Limited decimal places
+# Edit a limited number of decimal places
 
 ## Error Description
 When entering a floating number in a products attribute field with the *Floating point number*, *Stock Value* or *PIM Price Field* data type, the places of decimals are limited.

@@ -251,6 +251,8 @@ At least one catalog with one category is created, see [Create a catalog](#creat
 
   > [Info] If you delete a category containing one or more sub-categories, these sub-categories will be deleted as well.
 
+  > [Warning] Make sure that no product is assigned to the category that will be deleted as problems may occur to products that are still assigned to a deleted category.
+
 6. Click the [SAVE] button in the upper right corner.  
   The category is deleted. The *Edit category* view is closed.
 

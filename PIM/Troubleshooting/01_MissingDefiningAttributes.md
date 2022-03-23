@@ -1,6 +1,6 @@
 [!!PIM](Actindo/PIM)
 
-# Missing defining attribute
+# Add a missing defining attribute
 
 ## Error Description
 A certain attribute is missing in the list of defining attributes for a variant set.

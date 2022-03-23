@@ -1,4 +1,5 @@
 [!!PIM](Actindo/PIM)
+[!!Warehouse](Actindo/Warehouse)
 
 # Missing stock value
 

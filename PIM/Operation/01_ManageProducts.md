@@ -1,4 +1,7 @@
 [!!PIM](Actindo/PIM)
+[!!Omni-Channel](Actindo/Omni-Channel)
+[!!Warehouse](Actindo/Warehouse)
+[!!Material Managment](Actindo/Material Managment)
 
 # Manage a product
 

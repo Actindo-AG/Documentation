@@ -346,7 +346,7 @@ This data type has no further configuration settings.
 
 ## Taxzone
 
-![Taxclass](/Assets/Screenshots/PIM/DataTypes/Taxclass.png "[Taxclass]")
+![Taxzone](/Assets/Screenshots/PIM/DataTypes/Taxzone.png "[Taxzone]")
 
 The data type *Taxzone* is used to indicate the tax zone. A drop-down list with all available tax zones is displayed in the product view.
 
