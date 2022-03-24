@@ -4,9 +4,9 @@
 
 At the turn of the fiscal year, any outstanding balances must be carried forward to the next one. Closing balances will then be transferred as opening balances into the new fiscal year.
 
-The *Balance carried forward* menu entry of the *EDIT* context menu in the *BOOKINGS* allows to transfer outstanding account balances and open items from one fiscal year to the next one. This is possible for both personal (debtors' and creditors') accounts and impersonal accounts, for example bank or tax accounts.
+The *Balance carried forward* menu entry of the *EDIT* context menu in the *BOOKINGS* allows to transfer outstanding account balances and open items from one fiscal year to the next one. This is possible for both personal (debtors and creditors) accounts and impersonal accounts, for example bank or tax accounts.
 
-Special journals are preconfigured in the system to carry  balances and open items forward. For example, journal 98 contains all balances carried forward for debtors' open items. These settings can be completely customized. For detailed information, see [Balance carried forward](#to_be_completed).
+Special journals are preconfigured in the system to carry  balances and open items forward. For example, journal 98 contains all balances carried forward for debtors open items. These settings can be completely customized. For detailed information, see [Balance carried forward](#to_be_completed).
 
 ## Prerequisites
 
@@ -32,12 +32,14 @@ The *Balance carried forward: step 1* wizard window is displayed.
 
 4. Enter the booking date.
 
-  > [Info] By default, the system displays the first date of the new fiscal year. This can be modified simply by typing in the desired booking date.
+  > [Info] By default, the system displays the first day of the new fiscal year. This can be modified simply by typing in the desired booking date.
 
 5. Select the *Delete old balances carried forward from selected FY* checkbox if necessary.
 
 6. Click the [CONTINUE] button.  
 The *Retrieve account balances* window is displayed.
+
+  ![Retrieve account balances](/Assets/Screenshots/Accounting/Book/Bookings/Bookings_BalanceCarriedForward_Wizard2.png "[Retrieve account balances]")
 
 7. Select the account balances to be carried forward in the *Accounts* fields.
 
@@ -45,9 +47,6 @@ The *Retrieve account balances* window is displayed.
 
 8. Click the [CONTINUE] button.  
 A message confirms that the balance is carried forward. The wizard window closes automatically.
-
-  ![Retrieve account balances](/Assets/Screenshots/Accounting/Book/Bookings/Bookings_BalanceCarriedForward_Wizard2.png "[Retrieve account balances]")
-
 
 ## Next steps
 
