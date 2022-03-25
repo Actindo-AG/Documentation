@@ -46,9 +46,9 @@ Attribute sets are created, see [Create an attribute set](02_ManageAttributeSets
 
 ### Next steps
 
-- [Edit an ETL mapping](#edit-an-etl-mapping)
+- [Edit an ETL attribute set mapping](#edit-an-etl-attribute-set-mapping)
 - [Rerun an ETL mapping](#rerun-an-etl-mapping)
-- [Check the ETL processes](#check-the-etl-processes)
+- [Manage the ETL processes](02_ManageETLProcesses.md)
 
 ### See also
 
@@ -114,15 +114,16 @@ At least one ETL attribute set mapping is created, see [Create an ETL mapping](#
 
 #### Next steps
 
+- [Add a custom mapping for a destination attribute](#add-a-custom-mapping-for-a-destination-attribute)
+- [Delete an ETL attribute mapping](#delete-an-etl-attribute-mapping)
 - [Rerun an ETL mapping](#rerun-an-etl-mapping)
-- [Check the ETL processes](#check-the-etl-processes)
+- [Manage the ETL processes](02_ManageETLProcesses.md)
 
 #### See also
 
 - [User Interface DataHub](/DataHub/UserInterface/00_UserInterface.md)
 - [Create an ETL mapping](#create-an-etl-mapping)
 - [Manage an attribute set](/DataHub/Integration/02_ManageAttributeSets.md)
-
 
 
 ### Add a custom mapping for a destination attribute
@@ -182,14 +183,16 @@ When creating an ETL attribute set mapping, you define the language and the chan
 
 #### Next steps
 
+- [Delete an ETL attribute mapping](#delete-an-etl-attribute-mapping)
 - [Rerun an ETL mapping](#rerun-an-etl-mapping)
-- [Check the ETL processes](#check-the-etl-processes)
+- [Manage the ETL processes](02_ManageETLProcesses.md)
 
 
 #### See also
 
 - [User Interface DataHub](/DataHub/UserInterface/00_UserInterface.md)
 - [Create an ETL mapping](#create-an-etl-mapping)
+- [Edit the ETL attribute mappings](#edit-the-etl-attribute-mappings)
 - [Manage an attribute set](/DataHub/Integration/02_ManageAttributeSets.md)
 
 
@@ -222,84 +225,117 @@ At least one ETL attribute set mapping is created, see [Create an ETL mapping](#
 4. Repeat the steps **2** and **3** for all attributes you want to delete.
 
   > [Info] Be aware that you have to [rerun the mapping](#rerun-an-etl-mapping) to apply the changes made to the attribute.
-  
+
 #### Next steps
 
 - [Rerun an ETL mapping](#rerun-an-etl-mapping)
-- [Check the ETL processes](#check-the-etl-processes)
+- [Manage the ETL processes](02_ManageETLProcesses.md)
 
 #### See also
 
 - [User Interface DataHub](/DataHub/UserInterface/00_UserInterface.md)
 - [Create an ETL mapping](#create-an-etl-mapping)
+- [Edit the ETL attribute mappings](#edit-the-etl-attribute-mappings)
+- [Add a custom mapping for a destination attribute](#add-a-custom-mapping-for-a-destination-attribute)
 - [Manage an attribute set](/DataHub/Integration/02_ManageAttributeSets.md)
 
 
 
 ## Rerun an ETL mapping
 
+After having created or changed an attribute mapping within an ETL attribute set mapping, the new mapping is not automatically applied. The mapping is only applied when either a value in the source attribute changes or when you rerun the respective attribute mapping or all mappings within an ETL attribute set mapping.
 
 ### Rerun a single attribute mapping
 
+To apply changes or a new attribute mapping within an attribute set mapping, you can trigger the rerun of a single attribute mapping. It is recommended to use this function when only one or a few attribute mappings are affected. When a higher number of changes or new attribute mappings within an attribute set mapping was made, it is recommended to rerun all attribute mappings within the attribute set mapping, see [Rerun an attribute set mapping](#rerun-an-attribute-set-mapping).
 
 #### Prerequisites
 
+At least one ETL attribute set mapping is created, see [Create an ETL mapping](#create-an-ETL-mapping).
 
 #### Procedure
 *DataHub > Settings > Tab ETL*
 
+1. Click the attribute set mapping to which you have made the changes or created new attribute mappings.   
+  The *Mapping from source set to destination set* view is displayed.
+
+  ![Mapping](/Assets/Screenshots/DataHub/Settings/ETL/Mapping.png "[Mapping]")
+
+2. Select the checkbox of the attribute mapping you want to rerun.   
+  The editing toolbar is displayed above the attribute mappings.
+
+  ![Mapping selected](/Assets/Screenshots/DataHub/Settings/ETL/MappingSelected.png "[Mapping selected]")
+
+3. Click the [RERUN SELECTED MAPPING] button in the editing toolbar.   
+  The *Rerun single mapping* window is displayed.
+
+  ![Rerun single mapping](/Assets/Screenshots/DataHub/Settings/ETL/RerunSingleMapping.png "[Rerun single mapping]")
+
+4. If desired, activate the *Also rerun mapping for entities with manual change tracking (or if the change-tracking override of this mapping is manual)?* toggle.
+
+  > [Info] If you activate the *Also rerun mapping for entities with manual change tracking (or if the change-tracking override of this mapping is manual)?* toggle, the mapping is rerun regardless of the selected change tracking mode.     
+
+5. Click the [SAVE] button in the *Rerun single mapping* window.   
+  The mapping rerun is started. A pop-up window is displayed to inform that the job has been triggered.
+
+  ![Job triggered](/Assets/Screenshots/DataHub/Settings/ETL/JobMappingTriggered.png "[Job triggered]")
+
+  The current status of the job is displayed in the *ETL PROCESSES* tab. For detailed information, see [Check the ETL processes](02_ManageETLProcesses.md#check-the-etl-processes).
 
 #### Next steps
 
-- [Check the ETL processes](#check-the-etl-processes)
+- [Rerun an attribute set mapping](#rerun-an-attribute-set-mapping)
+- [Manage the ETL processes](02_ManageETLProcesses.md)
 
 #### See also
 
 - [User Interface DataHub](/DataHub/UserInterface/00_UserInterface.md)
 - [Create an ETL mapping](#create-an-etl-mapping)
-- [Edit an ETL mapping](#edit-an-etl-mapping)
+- [Edit an ETL attribute set mapping](#edit-an-etl-attribute-set-mapping)
 - [Manage an attribute set](/DataHub/Integration/02_ManageAttributeSets.md)
 
 
-### Rerun a whole attribute set mapping
+### Rerun an attribute set mapping
 
+To apply changes or a new attribute mapping within an attribute set mapping, you can trigger the rerun of all attribute mappings within an attribute set mapping. It is recommended to use this function when a higher number of changes or new attribute mappings within an attribute set mapping was made. When only one or a few attribute mappings are affected, it is recommended to rerun the respective attribute mappings separately, see [Rerun a single attribute mapping](#rerun-a-single-attribute-mapping).
 
 #### Prerequisites
 
+At least one ETL attribute set mapping is created, see [Create an ETL mapping](#create-an-ETL-mapping).
 
 #### Procedure
 *DataHub > Settings > Tab ETL*
 
+1. Click the attribute set mapping to which you have made the changes or created new attribute mappings.   
+  The *Mapping from source set to destination set* view is displayed.
+
+  ![Mapping](/Assets/Screenshots/DataHub/Settings/ETL/Mapping.png "[Mapping]")
+
+2. Select the button [RERUN MAAPPINGS] in the upper right corner.   
+  The *Rerun all mappings* window is displayed.
+
+  ![Rerun all mapping](/Assets/Screenshots/DataHub/Settings/ETL/RerunSingleMapping.png "[Rerun single mapping]")
+
+4. If desired, activate the *Also rerun mapping for entities with manual change tracking (or if the change-tracking override of this mapping is manual)?* toggle.
+
+  > [Info] If you activate the *Also rerun mapping for entities with manual change tracking (or if the change-tracking override of this mapping is manual)?* toggle, the mapping is rerun regardless of the selected change tracking mode.     
+
+5. Click the [SAVE] button in the *Rerun single mapping* window.   
+  The mapping rerun is started. A pop-up window is displayed to inform that the job has been triggered.
+
+  ![Job triggered](/Assets/Screenshots/DataHub/Settings/ETL/JobMappingTriggered.png "[Job triggered]")
+
+  The current status of the job is displayed in the *ETL PROCESSES* tab. For detailed information, see [Check the ETL processes](02_ManageETLProcesses.md#check-the-etl-processes).
+
 
 #### Next steps
 
-- [Check the ETL processes](#check-the-etl-processes)
+- [Manage the ETL processes](02_ManageETLProcesses.md)
 
 #### See also
 
 - [User Interface DataHub](/DataHub/UserInterface/00_UserInterface.md)
 - [Create an ETL mapping](#create-an-etl-mapping)
-- [Edit an ETL mapping](#edit-an-etl-mapping)
-- [Manage an attribute set](/DataHub/Integration/02_ManageAttributeSets.md)
-
-
-## Check the ETL processes
-
-
-### Prerequisites
-
-
-### Procedure
-*DataHub > Settings > Tab ETL*
-
-
-### Next steps
-
-
-### See also
-
-- [User Interface DataHub](/DataHub/UserInterface/00_UserInterface.md)
-- [Create an ETL mapping](#create-an-etl-mapping)
-- [Edit an ETL mapping](#edit-an-etl-mapping)
-- [Rerun an ETL mapping](#rerun-an-etl-mapping)
+- [Edit an ETL attribute set mapping](#edit-an-etl-attribute-set-mapping)
+- [Rerun a single attribute mapping](#rerun-a-single-attribute-mapping)
 - [Manage an attribute set](/DataHub/Integration/02_ManageAttributeSets.md)
