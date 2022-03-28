@@ -47,7 +47,7 @@ The *Foreign currency wizard* window is displayed.
 5. Click the [CONTINUE] button.  
 The next wizard window is displayed.
 
-  ![Account selection](/Assets/Screenshots/Accounting/Book/Bookings/Bookings_ForeignCurrencyWizard_AccountSelection.png "[Account selection]")
+  ![Account selection](/Assets/Screenshots/Accounting/Book/Bookings/Bookings_ForeignCurrencyWizard_AccountSelection2.png "[Account selection]")
 
   > [Info] The system checks the relevant accounts within the selected range and fiscal year. If no accounts are find, the following message is displayed:
 
