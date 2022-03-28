@@ -2,6 +2,11 @@
 
 # Manage the units and dimensions
 
-The units and dimensions are used for the values of attributes with different datatypes. The predefined units and dimensions can be selected within dropdown-lists. By default, a wide range of dimensions and corresponding units is preset.
+The units and dimensions are used for the values of attributes with different data types. The predefined units and dimensions can be selected within drop-down lists. The dimensions and corresponding units are preset by the system. You can activate or deactivate the single units within a dimension or a whole dimension.
 
-[comment]: <> (What can I do with the units and dimensions? Currently, no action is possible...)
+[comment]: <> (Not yet possible - should change)
+
+## Deactivate a unit
+
+
+## Deactivate a dimension
