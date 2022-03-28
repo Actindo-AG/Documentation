@@ -96,9 +96,10 @@ At least one ETL attribute set mapping is created, see [Create an ETL mapping](#
 
 4. Select the appropriate tracking mode in the *Override Change tracking mode* drop-down list . By default, the **use default** option is preselected. The following modes are available:
   - **use default**: ---
-  - **automatic**: The attribute value is automatically adopted for the mapping. The mapping is rerun automatically when a value changes.  
-  - **semi-automatic**: The attribute value is adopted for the mapping after confirmation. The mapping is rerun automatically after it has been confirmed.
-  - **manual**: The attribute value is adopted one time for the mapping. Afterwards, the mapping is only rerun if it is started manually.
+  - **automatic**: The initial mapping is automatically applied. All value changes or reruns are applied automatically in the mapping.  
+  - **semi-automatic**: The initial mapping is automatically applied. Values changes or reruns are applied after confirmation in the *Omni-Channel* module.
+  - **semi-automatic, changes must be confirmed by another user**: The initial mapping as well as values changes or reruns are applied after confirmation by another user in the *Omni-Channel* module.
+  - **manual**: The initial mapping is automatically applied. Afterwards, the changes in the mapping must be triggered manually to be applied.
 
 
 5. Select the appropriate attribute that you want to assign to the destination attribute in the *Source attribute* drop-down list. All attributes with a data type that matches to the selected ETL extension are displayed in the drop-down list.
@@ -136,6 +137,9 @@ When creating an ETL attribute set mapping, you define the language and the chan
 - The destination attribute is multi-language/multi-channel.
 
 #### Procedure
+*DataHub > Settings > Tab ETL*
+
+![Attribute set mappings](/Assets/Screenshots/DataHub/Settings/ETL/AttributeSetMappings.png "[Attribute set mappings]")
 
 1. Click the attribute set mapping you want to add a differing language or channel attribute mapping for a certain destination attribute.   
   The *Mapping from source set to destination set* view is displayed.
@@ -256,6 +260,8 @@ At least one ETL attribute set mapping is created, see [Create an ETL mapping](#
 #### Procedure
 *DataHub > Settings > Tab ETL*
 
+![Attribute set mappings](/Assets/Screenshots/DataHub/Settings/ETL/AttributeSetMappings.png "[Attribute set mappings]")
+
 1. Click the attribute set mapping to which you have made the changes or created new attribute mappings.   
   The *Mapping from source set to destination set* view is displayed.
 
@@ -305,6 +311,8 @@ At least one ETL attribute set mapping is created, see [Create an ETL mapping](#
 
 #### Procedure
 *DataHub > Settings > Tab ETL*
+
+![Attribute set mappings](/Assets/Screenshots/DataHub/Settings/ETL/AttributeSetMappings.png "[Attribute set mappings]")
 
 1. Click the attribute set mapping to which you have made the changes or created new attribute mappings.   
   The *Mapping from source set to destination set* view is displayed.
