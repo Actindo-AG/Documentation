@@ -2,7 +2,7 @@
 
 # Manage the ETL mappings
 
-An ETL attribute set mapping is used to extract the data from an source attribute set, transform it according to a specified method, and load it into a destination attribute set. You can create mappings, edit existing mappings, rerun mappings and check the current ETL processes.
+An ETL attribute set mapping is used to extract the data from a source attribute set, transform it according to a specified method, and load it into a destination attribute set. You can create mappings, edit existing mappings and rerun mappings.
 
 [comment]: <> (ETL mapping description -> what is it used for)
 
@@ -58,11 +58,11 @@ Attribute sets are created, see [Create an attribute set](02_ManageAttributeSets
 
 ## Edit an ETL attribute set mapping
 
-After you have created an attribute set mapping, you can edit it. You can edit the
-
-[comment]: <> (to_be_completed)
+After you have created an attribute set mapping, you can edit it. You can edit the attribute mappings within an attribute set mapping, add a custom mapping for a certain destination attribute, delete an existing attribute mapping or rerun a single or all attribute mappings within an attribute set mapping.
 
 ### Edit the ETL attribute mappings
+
+When editing an ETL attribute mapping, you can create a mapping to an unmapped destination attribute, change the source attribute or the change tracking mode of an existing mapping.  
 
 #### Prerequisites
 
@@ -201,6 +201,8 @@ When creating an ETL attribute set mapping, you define the language and the chan
 
 
 ### Delete an ETL attribute mapping
+
+Delete an attribute set mapping to cancel the transfer of data to the destination attribute of the selected mapping.
 
 #### Prerequisites
 
