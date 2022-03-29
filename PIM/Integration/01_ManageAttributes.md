@@ -70,7 +70,7 @@ An attribute set is created, see [Create an attribute set](02_ManageAttributeSet
 
   > [Info] In order to facilitate the assignment of attributes in the further process (for instance in the ETL mapping), it is recommended to add the prefix **pim_** to all attributes created in the *PIM* module.     
 
-5. If desired, activate the ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Multi-language* toggle to assign values in multiple languages to the attribute or activate the ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Multi-channel* toggle to assign different attribute values in different channels.
+5. If desired, activate the *Multi-language* toggle to assign values in multiple languages to the attribute or activate the *Multi-channel* toggle to assign different attribute values in different channels.
 
   > [Info] Be aware that only attributes which are neither multi-language nor multi-channel can be used as defining attributes for variants. For detailed information, see [Create a variant set](07_ManageVariantSets.md#create-a-variant-set).
 
@@ -81,7 +81,8 @@ An attribute set is created, see [Create an attribute set](02_ManageAttributeSet
 
   > [Info] You can assign the attribute to multiple sets. Repeat the steps **7** to **8** to assign the attribute to a further attribute set. To delete the assignment to a selected set, click the ![Delete](/Assets/Icons/Trash01.png "[Delete]") (Delete) button right to the set.
 
-8. If required, configure the settings in the *CONFIGURATION* section. For detailed information about the different configuration settings, see [Data type list](/PIM/UserInterface/04_DataTypeList.md).
+8. If required, configure the settings in the *CONFIGURATION* section.   
+For detailed information about the different configuration settings, see [Data type list](/PIM/UserInterface/04_DataTypeList.md).
 
 9. Click the [SAVE] button in the upper right corner.   
   The new attribute is saved. The *Create Attribute* view is closed.  
@@ -92,6 +93,7 @@ An attribute set is created, see [Create an attribute set](02_ManageAttributeSet
 - [Deactivate an attribute](#deactivate-an-attribute)
 - [Delete an attribute](#delete-an-attribute)
 - [Recover an attribute](#recover-an-attribute)
+- [Finally delete an attribute](#finally-delete-an-attribute)
 - [Manage the attribute sets](02_ManageAttributeSets.md)
 - [Manage the attribute groups](03_ManageAttributeGroups.md)
 - [Configure the language settings](04_ConfigureLanguages.md)
@@ -109,7 +111,7 @@ An attribute set is created, see [Create an attribute set](02_ManageAttributeSet
 ## Edit an attribute
 
 After you have created an attribute, you can edit it. However, only some attribute properties are editable. For instance, the data type and the attribute key cannot be subsequently modified. The assignment of an attribute to an attribute set must be changed in the [attribute set](ManageAttributeSet.md) itself.   
-There are also some attributes that are automatically created by the system, for instance when installing a plugin or module. These system attributes are read-only and cannot be edited. It is highly recommended not to deactivate these attributes to avoid interfering with the functioning of the Core1 Platform.
+There are also some attributes that are automatically created by the system, for instance when installing a plugin or module. These system attributes are read-only and cannot be edited. It is highly recommended not to deactivate these attributes to avoid interfering with the functioning of the Core 1 Platform.
 
 ### Prerequisites
 
@@ -143,6 +145,7 @@ At least one attribute is created, see [Create an attribute](#create-an-attribut
 - [Deactivate an attribute](#deactivate-an-attribute)
 - [Delete an attribute](#delete-an-attribute)
 - [Recover an attribute](#recover-an-attribute)
+- [Finally delete an attribute](#finally-delete-an-attribute)
 - [Manage the attribute sets](02_ManageAttributeSets.md)
 - [Manage the attribute groups](03_ManageAttributeGroups.md)
 - [Configure the language settings](04_ConfigureLanguages.md)
@@ -176,19 +179,20 @@ At least one attribute is created, see [Create an attribute](#create-an-attribut
 
   ![Edit attribute data](/Assets/Screenshots/PIM/Settings/Attributes/EditAttribute_Data.png "[Edit attribute data]")
 
-2. Deactivate the ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Active* toggle in the *Data* tab.
+2. Deactivate the *Active* toggle in the *Data* tab.
 
-   > [Info] If you want to reactivate an attribute, activate the ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Active* toggle.
+   > [Info] If you want to reactivate an attribute, activate the *Active* toggle.
 
 3. Click the [SAVE] button in the upper right corner.   
   The attribute is deactivated. The *Edit Attribute* view is closed.
 
-4. Press **F5** to initialize the Core1 Platform and to apply the changes.   
+4. Press **F5** to initialize the Core 1 Platform and to apply the changes.   
 
 ### Next steps
 
 - [Delete an attribute](#delete-an-attribute)
 - [Recover an attribute](#recover-an-attribute)
+- [Finally delete an attribute](#finally-delete-an-attribute)
 - [Manage the attribute sets](02_ManageAttributeSets.md)
 - [Manage the attribute groups](03_ManageAttributeGroups.md)
 - [Configure the language settings](04_ConfigureLanguages.md)
@@ -237,6 +241,7 @@ At least one attribute is created, see [Create an attribute](#create-an-attribut
 ### Next steps
 
 - [Recover an attribute](#recover-an-attribute)
+- [Finally delete an attribute](#finally-delete-an-attribute)
 - [Manage the attribute sets](02_ManageAttributeSets.md)
 - [Manage the attribute groups](03_ManageAttributeGroups.md)
 - [Configure the language settings](04_ConfigureLanguages.md)
@@ -258,11 +263,11 @@ At least one attribute is created, see [Create an attribute](#create-an-attribut
 
 If you delete an attribute in the *PIM* module, it is not irretrievably deleted. You can still recover the attribute and make the deletion undone.
 
-The procedure to recover a deleted attribute is described in the *DataHub* module [Recover an attribute](/DataHub/Integration/01_ManageAttribute.md#recover-an-attribute).
+The procedure to recover a deleted attribute is described in the *DataHub* module, see [Recover an attribute](/DataHub/Integration/01_ManageAttribute.md#recover-an-attribute).
 
 
 ## Finally delete an attribute
 
 You can finally delete an attribute that has been deleted in the *PIM* module. As there are usually dependencies on an attribute, for example through an attribute set or created products, it is strongly recommended not to delete an attribute irretrievably. Finally deleted attributes cannot be recovered.
 
-The procedure to recover a deleted attribute is described in the *DataHub* module [Finally delete an attribute](/DataHub/Integration/01_ManageAttributes.md#finally-delete-an-attribute).
+The procedure to recover a deleted attribute is described in the *DataHub* module, see [Finally delete an attribute](/DataHub/Integration/01_ManageAttributes.md#finally-delete-an-attribute).

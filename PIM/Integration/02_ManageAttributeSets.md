@@ -43,7 +43,7 @@ The attributes for the attribute set are created, see [Create an attribute](01_M
 > [Info]  When you create an attribute set without inheritance, you have to add all attributes manually to the created attribute set. Neither attributes nor configurations are applied from another attribute set. In exchange, you can define individually which attributes are required and customize their configuration.
 
 1. Select the **no inheritance** option in the *Inherit/Copy Values from* drop-down list.   
-  The ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Inherit Configuration* toggle and the *Inherit/Copy Values* drop-down list are locked.
+  The *Inherit Configuration* toggle and the *Inherit/Copy Values* drop-down list are locked.
 
 2. Click the [SAVE] button.   
   The new attribute set is saved. The *Edit Attribute Set* view is displayed.  
@@ -57,7 +57,7 @@ The attributes for the attribute set are created, see [Create an attribute](01_M
 
 1. Select an attribute set in the *Inherit/Copy Values from* drop-down list.
 
-2. Activate the ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Inherit Configuration* toggle if you also want to adopt the configuration to the new attribute set.
+2. Activate the *Inherit Configuration* toggle if you also want to adopt the configuration to the new attribute set.
 
 3. Select the **Inherit** option in the *Inherit/Copy Values* drop-down list.
 
@@ -73,7 +73,7 @@ The attributes for the attribute set are created, see [Create an attribute](01_M
 
 1. Select an attribute set in the *Inherit/Copy Values from* drop-down list.
 
-2. Activate the ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Inherit Configuration* toggle if you also want to adopt the configuration to the new attribute set.
+2. Activate the *Inherit Configuration* toggle if you also want to adopt the configuration to the new attribute set.
 
 3. Select the **Copy once** option in the *Inherit/Copy Values* drop-down list.
 
@@ -245,7 +245,7 @@ An attribute set is created, see [Create an attribute set](#create-an-attribute-
 
   ![Required](/Assets/Screenshots/PIM/Settings/AttributeSets/Required.png "[Required]")
 
-3. Activate or deactivate the ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *required* toggle in the *required* column to define whether or not an attribute value should be required in the selected attribute set.
+3. Activate or deactivate the *required* toggle in the *required* column to define whether or not an attribute value should be required in the selected attribute set.
 
   > [Info] Be aware that you can only edit the *required* option for attributes that are not inherited.
 
@@ -296,14 +296,14 @@ At least one attribute set is created, see [Create an attribute set](#create-an-
 
   ![Edit attribute set](/Assets/Screenshots/PIM/Settings/AttributeSets/EditAttributeSet.png "[Edit attribute set]")
 
-2. Deactivate the ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Active* toggle.
+2. Deactivate the *Active* toggle.
 
-     > [Info] If you want to reactivate an attribute set, activate the ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Active* toggle.
+     > [Info] If you want to reactivate an attribute set, activate the *Active* toggle.
 
 3. Click the [SAVE] button.   
   The attribute set is deactivated. The *Edit Attribute Set* view is closed.
 
-4. Press **F5** to initialize the Core1 Platform and to apply the changes.
+4. Press **F5** to initialize the Core 1 Platform and to apply the changes.
 
 
 ### Next steps
@@ -330,15 +330,19 @@ At least one attribute set is created, see [Create an attribute set](#create-an-
 
 
 
---------
+
 [comment]: <> (Import/Export will be changed)
 
 ## Import an attribute set
 
 ### Prerequisites
-No prerequisites to fulfill.
+
+An import file of an attribute set is available.
+
+[comment]: <> (What file types are supported? What requirements?)
 
 ### Procedure
+
 *PIM > Settings > Tab ATTRIBUTE SETS*
 
 ![Attributes](/Assets/Screenshots/PIM/Settings/AttributeSets/AttributeSets.png "[Attributes]")
@@ -351,9 +355,9 @@ No prerequisites to fulfill.
 2. Drag the import file from your local folder and drop it in the dashed box ![Upload](/Assets/Icons/Upload.png "[Upload]") *Drop file here...*. Alternatively, click the [SELECT FILE] button and select a file from your local folder in the displayed Explorer window.   
   The selected file is displayed in the dashed box.
 
-  > [Info] What file types are supported? What requirements?
+  [comment]: <> (What file types are supported? What requirements?)
 
-3. Activate the ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Move existing attributes into attribute groups specified in the file* toggle if you want to ???
+3. Activate the *Move existing attributes into attribute groups specified in the file* toggle if you want to ???
 
 [comment]: <> (---> what is this setting doing?)
 
@@ -362,7 +366,7 @@ No prerequisites to fulfill.
 
   ![Summary](/Assets/Screenshots/PIM/Settings/AttributeSets/Import02.png "[Summary]")
 
-5. Click the [FINALIZE] button in the bottom right corner.
+5. Click the [FINALIZE] button in the bottom right corner.   
   The import is completed.
 
 ### Next steps
@@ -391,9 +395,11 @@ No prerequisites to fulfill.
 ## Export an attribute set
 
 ### Prerequisites
+
 At least one attribute set is created, see [Create an attribute set](#create-an-attribute-set).
 
 ### Procedure
+
 *PIM > Settings > Tab ATTRIBUTE SETS*
 
 ![Attributes](/Assets/Screenshots/PIM/Settings/AttributeSets/AttributeSets.png "[Attributes]")
@@ -422,7 +428,7 @@ At least one attribute set is created, see [Create an attribute set](#create-an-
 
   ![Export Step 3](/Assets/Screenshots/PIM/Settings/AttributeSets/Export03.png "[Export Step 3]")
 
-7. Click the [EXPORT] button in the bottom right corner.
+7. Click the [EXPORT] button in the bottom right corner.   
   The export is started. By default, the export file is saved in the local download folder.
 
 ### Next steps

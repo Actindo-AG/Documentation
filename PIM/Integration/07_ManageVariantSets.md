@@ -40,6 +40,9 @@ An attribute set is created, see [Create an attribute set](ManageAttributeSet.md
       - [Add changeable attributes](#add-changeable-attributes)
 
 
+  > [Info] At least one defining attribute is required to create a variant set. Changeable attributes can be selected optionally.
+
+
 #### Add defining attributes
 
 > [Info] You have to select at least one defining attribute to create a variant set. You can only select attributes as defining attributes, that are neither multilingual nor multi-channel and assigned to the selected attribute set.

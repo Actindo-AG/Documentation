@@ -42,6 +42,7 @@
   Click the drop-down list to select the channel. All channels that are active in *PIM* are displayed in the drop-down list. By default, the **Actindo Basic** channel is preselected. For detailed information, see [Select a channel](/PIM/Operation/04_ManageView.md#select-a-channel).
 
 [comment]: <> (List needs title)
+
 - *Catalog*   
   Click the drop-down list to select the catalog. All catalogs are displayed in the drop-down list. After having selected a catalog, all categories and sub-categories of the selected catalog are displayed. Click a category or sub-category to limit the product list to those products that are assigned to the selected category. By default, the **Product Categories** catalog is preselected. For detailed information, see [Select a product category](/PIM/Operation/04_ManageView.md#select-a-product-category).
 
@@ -56,8 +57,8 @@
 
 - *Variants*   
   Click the drop-down list to select the display settings for variants. The following settings are available:
-  - **List all products**: All products and their variants are displayed in the product list.   
-  - **Hide child products**: No variants are displayed in the product list.
+  - **All products**: All products and their variants are displayed in the product list.   
+  - **Hide variants**: No variants are displayed in the product list.
   For detailed information, see [Select a variant view](/PIM/Operation/04_ManageView.md#select-a-variant-view).
 
 
@@ -103,8 +104,8 @@ Depending on the selection in the *Variants* drop-down list, the product list di
 
 - *Product Variants*   
   Variant type of the product. The following variant types are displayed:
-  - **Master entity with *x* children** (x indicates the number of child entities for the master entity)
-  - **Child entity *Defining Attribute: Value*** (the defining attributes and their values are indicated)
+  - **Master product with *x* variants** (x indicates the number of variants for the master product)
+  - **Variant *Defining Attribute: Value*** (the defining attributes and their values are indicated)
   - no variant type indicated for all products that are neither a master product nor a variant
 
 
@@ -288,7 +289,7 @@ The list displays all variants of the selected product. All fields are read-only
 **Additional fields**
 
 - *SKU*   
-  Identification number for the variant. The SKU (Stock Keeping Unit) is an identification number and should be assigned only once. This field is read-only as long as the ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Use formula* toggle is active. Deactivate the toggle to edit the SKU.
+  Identification number for the variant. The SKU (Stock Keeping Unit) is an identification number and should be assigned only once. This field is read-only as long as the *Use formula* toggle is active. Deactivate the toggle to edit the SKU.
 
 - ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Use formula*   
   Activate this toggle to apply the formula defined in the settings for the variant sets to the variant SKU. When the toggle is active, the *SKU* field is read-only. Deactivate the toggle to enter a different SKU. By default, this toggle is active.
@@ -355,7 +356,7 @@ The list displays all selected variants. Depending on the settings, the displaye
 - *SKU*      
   Stock Keeping Unit. Identification number for the variant. Click this field to edit the SKU of the selected variant.
 
-- Defining attribute   
+- Defining attribute     
   You can add a column for each defining attribute. The column displays the attribute name, the row displays the corresponding attribute value. The fields are read-only.
 
 - [< GO BACK]   
@@ -405,7 +406,9 @@ The catalog box displays all selected categories and their level. All fields are
 
 
 #### Categories
+
 [comment]: <> (window needs title!)
+
 *PIM > Products > Tab LIST > Button Add > Button CREATE > Tab Catalogs > Button EDIT ATTRIBUTE*
 
 ![Categories](/Assets/Screenshots/PIM/Products/List/Catalogs/Categories.png "[Categories]")
@@ -447,7 +450,8 @@ The box displays all associated products. All fields are read-only. If no produc
   Assigned attribute set.
 
 - ![Eye](/Assets/Icons/Eye01.png "[Eye]") (Eye)   
-  Click this button to display ????. The button is only displayed, when you hover over a product in the list.
+  The button is only displayed, when you hover over a product in the list.  
+
   [comment]: <> (what should be displayed? loading never ends...)
 
 - ![Delete](/Assets/Icons/Trash01.png "[Delete]") (Delete)   
@@ -491,7 +495,7 @@ The list displays all products. All fields are read-only.
 
 
 ### Create product - UCS Warehouse
-*PIM > Products > Tab LIST > Button Add > Button CREATE > Tab UCS Lager*
+*PIM > Products > Tab LIST > Button Add > Button CREATE > Tab UCS Warehouse*
 
 ![UCS Warehouse](/Assets/Screenshots/PIM/Products/List/UCSWarehouse/UCSWarehouseCreate.png "[UCS Warehouse]")
 
@@ -523,20 +527,21 @@ The list displays all products. All fields are read-only.
   Click the drop-down list to change the offer status. The selected status is displayed in the *Pending status/Errors* column. This drop-down list is only displayed, when the checkbox of at least one offer is selected. The following statuses are available:    
   - **Active**: The offer is active. It is displayed on the marketplace and can be sold there.
   - **Inactive**: The offer is inactive. It is not displayed on the marketplace and cannot be sold there.   
-  - **Not available**: The offer is unknown to the marketplace and therefore cannot be sold there.
+  - **Offline**: The offer is unknown to the marketplace and therefore cannot be sold there.
 
 
-- *Change Tracking*   
-  Click the drop-down list to change the change tracking mode (ETL mode) of the offer. The selected change tracking mode is displayed in the *ChangeTracking* column. This drop-down list is only displayed, when the checkbox of one offer is selected. The following change tracking modes are available:    
+- *Change tracking mode*   
+  Click the drop-down list to change the change tracking mode (ETL mode) of the offer. The selected change tracking mode is displayed in the *Change tracking mode* column. This drop-down list is only displayed, when the checkbox of one offer is selected. The following change tracking modes are available:    
   - **manual**: Changes in a PIM product must be triggered manually to be applied to the offer. The initial offer is automatically applied.
   - **semi-automatic**: Changes in a PIM product are automatically applied to the offer after confirmation in the *Omni-Channel* module. The initial offer is automatically applied without confirmation.   
   - **semi-automatic, changes must be confirmed by another user**: Changes in a PIM product are automatically applied to the offer after confirmation in the *Omni-Channel* module by another user. The initial offer is only applied after confirmation by another user.       
-  - **Automatic**: Changes in a PIM product are automatically applied to the offer. The initial offer is also automatically applied.
+  - **automatic**: Changes in a PIM product are automatically applied to the offer. The initial offer is also automatically applied.
 
 
 
 - ![Edit](/Assets/Icons/Edit01.png "[Edit]") (Edit)   
   Click this button to edit the selected offer from the list. This button is only displayed, when the checkbox of at least one offer is selected.
+
 [comment]: <> (not working -> if I want to edit an offer, a window is displayed loading all the time...)
 
 The list displays all created offers to this product. All fields are read-only.
@@ -545,11 +550,12 @@ The list displays all created offers to this product. All fields are read-only.
   Stock Keeping Unit. Identification number of the product. In the *Create product* view, **TO BE GENERATED** is displayed.
 
 - *Status*   
-  Connection status of the offer. In the *Create product* view, **Not available** is displayed.
+  Connection status of the offer. In the *Create product* view, **Offline** is displayed.
 
 - *Pending status/Errors*   
-  Indication of the pending status or an error for this offer. The selected status (**Active**/**Inactive**/**Not available**) is displayed if you have changed the offer status via the editing toolbar. An error is displayed if ???
-  [comment]: <> (when is an error displayed here? what is displayed?)
+  Indication of the pending status or an error for this offer. The selected status (**Active**/**Inactive**/**Offline**) is displayed if you have changed the offer status via the editing toolbar.
+
+  [comment]: <> (when is an error displayed here? what is displayed? The Error code or message?)
 
 - *Connection*   
   Selected connection for the offer.
@@ -563,14 +569,13 @@ The list displays all created offers to this product. All fields are read-only.
 - *Modified by*   
   Name and username of the user who modified the product. In the *Create product* view, no name is displayed.
 
-- *ChangeTracking*   
+- *Change tracking mode*   
   Change tracking mode (ETL mode) of the offer. The following modes can be displayed:
-  - **Initial**
-  - **Semiautomatic**
-  - **blank field**
-  - **Automatic**
+  - **manual**
+  - **semi-automatic**
+  - **semi-automatic, changes must be confirmed by another user**   
+  - **automatic**
 
-[comment]: <> (change ChangeTracking names -> Initial = Manual, Semiautmatic = Semi-automatic, blank = Semi-automatic | another user)
 
 - *ID*   
   Product identification number. The ID number is automatically assigned by the system.
@@ -618,6 +623,7 @@ The list displays all created offers to this product. All fields are read-only.
 
 - *SKU*    
   Enter an individual SKU for the offer. The SKU (Stock Keeping Unit) is an identification number and should be assigned only once.
+
 [comment]: <> (offer or product? how does this work? When I enter a different SKU, The SKU is automatically overwritten)
 
 - *Change Tracking mode*   
@@ -626,13 +632,14 @@ The list displays all created offers to this product. All fields are read-only.
    ![Radionbutton](/Assets/Icons/Radiobutton.png "[Radiobutton]") *semi-automatic*: Changes in a PIM product are automatically applied to the offer after confirmation in the *Omni-Channel* module. The initial offer is automatically applied without confirmation.   
    ![Radionbutton](/Assets/Icons/Radiobutton.png "[Radiobutton]") *semi-automatic, changes must be confirmed by another user*: Changes in a PIM product are automatically applied to the offer after confirmation in the *Omni-Channel* module by another user. The initial offer is only applied after confirmation by another user.    
    ![Radionbutton](/Assets/Icons/Radiobutton.png "[Radiobutton]") *automatic*: Changes in a PIM product are automatically applied to the offer. The initial offer is also automatically applied.
+
 [comment]: <> (adjust field name!)
 
 - *Status*    
   Click the drop-down list to select the connection status. The following statuses are available:    
   - **Active**: The offer is active. It is displayed on the marketplace and can be sold there.
   - **Inactive**: The offer is inactive. It is not displayed on the marketplace and cannot be sold there.   
-  - **N/A**: The offer is unknown to the marketplace and therefore cannot be sold there.
+  - **Offline**: The offer is unknown to the marketplace and therefore cannot be sold there.
 
 
 - [CANCEL]   
@@ -655,7 +662,7 @@ The list displays all created offers to this product. All fields are read-only.
   Click the drop-down list to select the connection status. The following statuses are available:    
   - **Active**: The offer is active. It is displayed on the marketplace and can be sold there.
   - **Inactive**: The offer is inactive. It is not displayed on the marketplace and cannot be sold there.   
-  - **Not available**: The offer is unknown to the marketplace and therefore cannot be sold there.
+  - **Offline**: The offer is unknown to the marketplace and therefore cannot be sold there.
 
 
 - Select the appropriate change tracking mode. The following options are available:   
@@ -697,7 +704,6 @@ The list displays all created offers to this product. All fields are read-only.
   Click this button to save the multi-connection offers and close the *Select destination attribute sets* wizard window.
 
 
--------------
 
 ## Edit product
 *PIM > Products > Tab LIST > Select product*
@@ -754,16 +760,16 @@ The list displays all created offers to this product. All fields are read-only.
 ![Completeness](/Assets/Screenshots/PIM/Products/List/Completeness.png "[Completeness]")
 
 - *Channels*   
-  Click the drop-down list to change the channel for the product completeness calculation. All available channels, the **Channels (All)** option and the **Not multichannel** option are displayed in the drop-down list. By default, the **Channels (All)** option is preselected.
+  Click the drop-down list to change the channel for the product completeness calculation. All available channels, the **Channels (All)** option and the **Not multi-channel** option are displayed in the drop-down list. By default, the **Channels (All)** option is preselected.
 
   > [Info] The product completeness for the selected channel is only displayed in the *Completeness* window. The completeness button in the *Edit Product* view is not affected by this change.
 
 - *Languages*   
-  Click the drop-down list to change the language for the product completeness calculation. All available languages, the **Languages (All)** option and the **Not multilanguage** option are displayed in the drop-down list. By default, the **Languages (All)** option is preselected.
+  Click the drop-down list to change the language for the product completeness calculation. All available languages, the **Languages (All)** option and the **Not multi-language** option are displayed in the drop-down list. By default, the **Languages (All)** option is preselected.
 
   > [Info] The product completeness for the selected language is only displayed in the *Completeness* window. The completeness button in the *Edit Product* view is not affected by this change.
 
-- Percentage
+- Percentage   
   The current percentage for the product completeness of the selected channel and language is displayed. The percentage is automatically updated when you select a different channel or language.
 
 
@@ -787,9 +793,9 @@ The right side of the *Attributes* tab displays all attributes that are assigned
 - *Variant set*   
   Click the drop-down list to select a variant set for the product. All available variant sets are displayed in the drop-down list. The ![Add](/Assets/Icons/Plus01.png "[Add]") (Add) button is displayed in the variants box below if a variant set is selected.
   If the product is a master product, the corresponding variant set is preselected in the drop-down list. The drop-down list is locked. The corresponding variants and the ![Add](/Assets/Icons/Plus01.png "[Add]") (Add) button are displayed in the variants box.
-  If the product is a variant, the *Variant set* drop-down list is not displayed, but the *Child Entity* field.
+  If the product is a variant, the *Variant set* drop-down list is not displayed, but the *Variant* field.
 
-- *Child Entity*   
+- *Variant*   
   Indication that the selected product is a variant. This field is read-only. The value can be changed within the *Attributes* tab. The field is only displayed for variants.
 
 
@@ -854,7 +860,7 @@ The list displays all variants. All fields are read-only. Depending on the setti
 **Additional fields**
 
 - *SKU*   
-  Identification number for the variant. The SKU (Stock Keeping Unit) is an identification number and should be assigned only once. This field is read-only as long as the ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Use formula* toggle is active. Deactivate the toggle to edit the SKU.
+  Identification number for the variant. The SKU (Stock Keeping Unit) is an identification number and should be assigned only once. This field is read-only as long as the *Use formula* toggle is active. Deactivate the toggle to edit the SKU.
 
 - ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Use formula*   
   Activate this toggle to apply the formula defined in the settings for the variant sets to the variant SKU. When the toggle is active, the *SKU* field is read-only. Deactivate the toggle to enter a different SKU. By default, this toggle is active.
@@ -863,7 +869,7 @@ The list displays all variants. All fields are read-only. Depending on the setti
 
 All defining attributes of the variant are displayed in this section.
 
-- Defining attribute
+- Defining attribute   
   Enter or select the appropriate value for the defining attribute.
 
 - [CANCEL]   
@@ -919,7 +925,7 @@ The list displays all selected variants. Depending on the settings, the displaye
 - *SKU*      
   Stock Keeping Unit. Identification number for the variant. Click this field to edit the SKU of the selected variant.
 
-- Defining attribute
+- Defining attribute   
   You can add a column for each defining attribute. The column displays the attribute name, the row displays the corresponding attribute value. The fields are read-only.
 
 - [< GO BACK]   
@@ -956,26 +962,26 @@ The list displays all dependencies of the selected product. All fields are read-
 
 - *Dependent entity type*   
   Type of the dependent entity. The following types can be displayed:
-  - **Channels Offer**
-  - **UCS Artikel**
+  - **Omni-Channel Offer**
+  - **UCS Product**
+
   [comment]: <> (what else?)
 
 
-- *Change tracking*   
+- *Change tracking mode*   
   Change tracking mode (ETL mode) of the dependent entity. The following modes can be displayed:
-  - **Manual**
-  - **Semiautomatic**
-  - **blank field**
-  - **Automatic**
-
-[comment]: <> (is that right?)
+  - **manual**
+  - **semi-automatic**
+  - **semi-automatic, changes must be confirmed by another user**   
+  - **automatic**
 
 
 - *Dependent entity friendly identifier*   
+
 [comment]: <> (what id number is that? How is it created?)
 
 - [RERUN MAPPING]   
-  Click this button to rerun the mapping of the product and the selected entity. This button is only displayed when the checkbox of at least one dependent entity is selected.
+  Click this button to rerun the mapping of the selected entity. This button is only displayed when the checkbox of at least one dependency is selected.
 
 
 
@@ -1065,8 +1071,9 @@ The box displays all associated product for cross selling. All fields are read-o
   Assigned attribute set.
 
 - ![Eye](/Assets/Icons/Eye01.png "[Eye]") (Eye)   
-  Click this button to display ????. This button is only displayed, when you hover over a product in the list.
-  [comment]: <> (what should be displayed? For me, the loading never ends...)
+  The button is only displayed, when you hover over a product in the list.
+
+  [comment]: <> (what should be displayed? loading never ends...)
 
 - ![Delete](/Assets/Icons/Trash01.png "[Delete]") (Delete)   
   Click this button to delete the selected product from the list. This button is only displayed, when you hover over a product in the list.
@@ -1235,20 +1242,21 @@ This tab displays the *Basic data* and *webshop* sub-tabs. These sub-tabs are ex
   Click the drop-down list to change the offer status. The selected status is displayed in the *Pending status/Errors* column. This drop-down list is only displayed, when the checkbox of at least one offer is selected. The following statuses are available:    
   - **Active**: The offer is active. It is displayed on the marketplace and can be sold there.
   - **Inactive**: The offer is inactive. It is not displayed on the marketplace and cannot be sold there.   
-  - **Not available**: The offer is unknown to the marketplace and therefore cannot be sold there.
+  - **Offline**: The offer is unknown to the marketplace and therefore cannot be sold there.
 
 
-- *Change Tracking*   
-  Click the drop-down list to change the change tracking mode (ETL mode) of the offer. The selected change tracking mode is displayed in the *ChangeTracking* column. This drop-down list is only displayed, when the checkbox of one offer is selected. The following change tracking modes are available:    
+- *Change tracking mode*   
+  Click the drop-down list to change the change tracking mode (ETL mode) of the offer. The selected change tracking mode is displayed in the *Change tracking mode* column. This drop-down list is only displayed, when the checkbox of one offer is selected. The following change tracking modes are available:    
   - **manual**: Changes in a PIM product must be triggered manually to be applied to the offer. The initial offer is automatically applied.
   - **semi-automatic**: Changes in a PIM product are automatically applied to the offer after confirmation in the *Omni-Channel* module. The initial offer is automatically applied without confirmation.   
   - **semi-automatic, changes must be confirmed by another user**: Changes in a PIM product are automatically applied to the offer after confirmation in the *Omni-Channel* module by another user. The initial offer is only applied after confirmation by another user.       
-  - **Automatic**: Changes in a PIM product are automatically applied to the offer. The initial offer is also automatically applied.
+  - **automatic**: Changes in a PIM product are automatically applied to the offer. The initial offer is also automatically applied.
 
 
 
 - ![Edit](/Assets/Icons/Edit01.png "[Edit]") (Edit)   
   Click this button to edit the selected offer from the list. This button is only displayed, when the checkbox of at least one offer is selected.
+
 [comment]: <> (not working -> if I want to edit an offer, a window is displayed loading all the time...)
 
 The list displays all created offers to this product. All fields are read-only.
@@ -1260,10 +1268,11 @@ The list displays all created offers to this product. All fields are read-only.
   Connection status of the offer. The following statuses are available:
   - **Active**: The offer is active. It is displayed on the marketplace and can be sold there.
   - **Inactive**: The offer is inactive. It is not displayed on the marketplace and cannot be sold there.   
-  - **Not available**: The offer is unknown to the marketplace and therefore cannot be sold there.
+  - **Offline**: The offer is unknown to the marketplace and therefore cannot be sold there.
 
 - *Pending status/Errors*   
-  Indication of the pending status or an error for this offer. The selected status (**Active**/**Inactive**/**Not available**) is displayed if you have changed the offer status via the editing toolbar. An error is displayed if ???
+  Indication of the pending status or an error for this offer. The selected status (**Active**/**Inactive**/**Offline**) is displayed if you have changed the offer status via the editing toolbar.
+
   [comment]: <> (when is an error displayed here?)
 
 - *Connection*   
@@ -1278,14 +1287,13 @@ The list displays all created offers to this product. All fields are read-only.
 - *Modified by*   
   Name and username of the user who modified the product.
 
-- *ChangeTracking*   
+- *Change tracking mode*   
   Change tracking mode (ETL mode) of the offer. The following modes can be displayed:
-  - **Initial**
-  - **Semiautomatic**
-  - **blank field**   
-  - **Automatic**
+  - **manual**
+  - **semi-automatic**
+  - **semi-automatic, changes must be confirmed by another user**   
+  - **automatic**
 
-[comment]: <> (change ChangeTracking names -> Initial = Manual, Semiautmatic = Semi-automatic, blank = Semi-automatic | another user)
 
 - *ID*   
   Product identification number. The ID number is automatically assigned by the system.
@@ -1333,6 +1341,7 @@ The list displays all created offers to this product. All fields are read-only.
 
 - *SKU*    
   Enter an individual SKU for the offer. The SKU (Stock Keeping Unit) is an identification number and should be assigned only once.
+
 [comment]: <> (offer or product? how does this work? When I enter a different SKU, The SKU is automatically overwritten)
 
 - *Change Tracking mode*   
@@ -1341,13 +1350,14 @@ The list displays all created offers to this product. All fields are read-only.
    ![Radionbutton](/Assets/Icons/Radiobutton.png "[Radiobutton]") *semi-automatic*: Changes in a PIM product are automatically applied to the offer after confirmation in the *Omni-Channel* module. The initial offer is automatically applied without confirmation.   
    ![Radionbutton](/Assets/Icons/Radiobutton.png "[Radiobutton]") *semi-automatic, changes must be confirmed by another user*: Changes in a PIM product are automatically applied to the offer after confirmation in the *Omni-Channel* module by another user. The initial offer is only applied after confirmation by another user.    
    ![Radionbutton](/Assets/Icons/Radiobutton.png "[Radiobutton]") *automatic*: Changes in a PIM product are automatically applied to the offer. The initial offer is also automatically applied.
+
 [comment]: <> (adjust field name!)
 
 - *Status*    
   Click the drop-down list to select the connection status. The following statuses are available:    
   - **Active**: The offer is active. It is displayed on the marketplace and can be sold there.
   - **Inactive**: The offer is inactive. It is not displayed on the marketplace and cannot be sold there.   
-  - **N/A**: The offer is unknown to the marketplace and therefore cannot be sold there.
+  - **Offline**: The offer is unknown to the marketplace and therefore cannot be sold there.
 
 
 - [CANCEL]   
@@ -1370,7 +1380,7 @@ The list displays all created offers to this product. All fields are read-only.
   Click the drop-down list to select the connection status. The following statuses are available:    
   - **Active**: The offer is active. It is displayed on the marketplace and can be sold there.
   - **Inactive**: The offer is inactive. It is not displayed on the marketplace and cannot be sold there.   
-  - **Not available**: The offer is unknown to the marketplace and therefore cannot be sold there.
+  - **Offline**: The offer is unknown to the marketplace and therefore cannot be sold there.
 
 
 - Select the appropriate change tracking mode. The following options are available:   

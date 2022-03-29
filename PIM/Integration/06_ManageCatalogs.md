@@ -131,7 +131,7 @@ At least one catalog with one category is created, see [Create a catalog](#creat
 
 [comment]: <> (number of levels depends on screen size -> should it not be limited to a certain number of level?)
 
-10. Click the [SAVE] button in the upper right corner.  
+10. Click the [SAVE] button in the upper right corner.   
   The new sub-category is saved. The *Edit catalog* view is closed.
 
 #### Next steps
@@ -297,7 +297,7 @@ At least one catalog with one category is created, see [Create a catalog](#creat
 2. Select the *Catalogs* tab.   
   The *Catalogs* tab is displayed
 
-  ![Catalogs](/Assets/Screenshots/PIM/Products/List/Catalogs/Catalogs.png "[Catalogs]")
+  ![Catalogs](/Assets/Screenshots/PIM/Products/List/Catalogs/CatalogsEdit.png "[Catalogs]")
 
 3. Click the [EDIT ATTRIBUTE] button in the section of the catalog to which you want to assign the selected product.   
   A window with all categories and sub-categories of the selected catalog is displayed.

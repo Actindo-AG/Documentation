@@ -38,7 +38,7 @@ No prerequisites to fulfill.
 5. Click the [SAVE] button in the upper right corner to save any changes.   
   The changes are applied. The *Edit Attribute* view is closed.
 
-6. Press **F5** to initialize the Core1 Platform.
+6. Press **F5** to initialize the Core 1 Platform.
 
 7. Click again the product to which the stock was not displayed in the product list.   
   The *Edit Product* view is displayed.

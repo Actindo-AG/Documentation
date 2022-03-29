@@ -80,7 +80,7 @@ The list displays all attribute sets. All fields are read-only. Depending on the
   Name and username of the user who created the attribute set.
 
 - *Name (Language)*   
-  Attribute name in the selected language. One *Name (Language)* column is displayed for the system languages *English (United States)* and *Deutsch (Deutschland)*.
+  Attribute name in the selected language. A single *Name (Language)* column is displayed for the languages *English (United States)* and *Deutsch (Deutschland)*.
 
 - *Description (Language)*   
   Attribute description in the displayed language. For each active language exists one *Description* column.
@@ -98,7 +98,8 @@ The list displays all attribute sets. All fields are read-only. Depending on the
   Click this button to close the *Create Attribute Set* view and return to the attribute set list. All changes are rejected.
 
 - Language   
-  Click the drop-down list and select the language in which the *Name (Language)* and *Description (Language)* fields are displayed. The system languages *English (United States)* and *Deutsch (Deutschland)* are available in the drop-down list.
+  Click the drop-down list and select the language in which the *Name (Language)* and *Description (Language)* fields are displayed. The languages *English (United States)* and *Deutsch (Deutschland)* are available in the drop-down list.
+
   [comment]: <> (Is that right? -> language question)
 
 - [SAVE]   
@@ -162,7 +163,8 @@ In the *Create Attribute Set* view, no attributes are displayed in list. You hav
   Click this button to close the *Edit Attribute Set* view and return to the attribute set list. All changes are rejected.
 
 - Language   
-  Click the drop-down list and select the language in which the *Name (Language)* and *Description (Language)* fields are displayed. The system languages *English (United States)* and *Deutsch (Deutschland)* are available in the drop-down list.
+  Click the drop-down list and select the language in which the *Name (Language)* and *Description (Language)* fields are displayed. The languages *English (United States)* and *Deutsch (Deutschland)* are available in the drop-down list.
+
   [comment]: <> (Is that right? -> language question)
 
 - [SAVE]   
@@ -175,7 +177,7 @@ In the *Create Attribute Set* view, no attributes are displayed in list. You hav
   Description to the attribute set in the selected language.
 
 - *Key*   
-  Attribute set key. The key is required for API access and must be system wide unique. In the *Edit Attribtue Set* view, this field is locked.
+  Attribute set key. The key is required for API access and must be system wide unique. In the *Edit Attribute Set* view, this field is locked.
 
 - ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Active*   
   Activate this toggle to set the attribute set status to active. Deactivate the toggle to set the status to inactive. By default, this toggle is active.
@@ -240,8 +242,10 @@ The list displays all attributes assigned to the selected attribute set. When th
 
 - *Calculated Field*   
   Indication whether the attribute is an calculated field or not:
-  - ![Check](/Assets/Icons/Check.png "[Check]") (Checkmark): The attribute is ???.  
-  - ![Cross](/Assets/Icons/Cross02.png "[Cross]") (Cross): The attribute is ???.
+  - ![Check](/Assets/Icons/Check.png "[Check]") (Checkmark): The attribute is a calculated field.  
+  - ![Cross](/Assets/Icons/Cross02.png "[Cross]") (Cross): The attribute is no calculated field.
+
+[comment]: <> (What means 'Calculated'? completeness calculation? what field are calculated?)
 
 - *Key*   
   Attribute key. The key is required for API access and must be system wide unique.
@@ -259,7 +263,7 @@ The list displays all attributes assigned to the selected attribute set. When th
 
 - *Required*   
   Indication whether the attribute is an required field in the attribute set or not.
-  When the ![Settings](/Assets/Icons/Settings02.png "[Settings]") (Settings) button is blue, the ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *required* toggle is displayed. Activate the toggle to set the attribute value as a mandatory field. Deactivate the toggle to set the attribute value as an optional field.   
+  When the ![Settings](/Assets/Icons/Settings02.png "[Settings]") (Settings) button is blue, the *required* toggle is displayed. Activate the toggle to set the attribute value as a mandatory field. Deactivate the toggle to set the attribute value as an optional field.   
   When the ![Settings](/Assets/Icons/Settings01.png "[Settings]") (Settings) button is gray, the following options are displayed:
   - ![Check](/Assets/Icons/Check.png "[Check]") (Checkmark): The attribute is required.  
   - ![Cross](/Assets/Icons/Cross02.png "[Cross]") (Cross): The attribute is optional.   
@@ -351,7 +355,7 @@ The fields on the left side differ depending on the selected ETL extension. For 
 The *CONFIGURATION* section displays the additional configuration settings. The configuration fields differ depending on the data type of the source and/or destination attribute.    
 For detailed information about the different configurations of data types, see [Data type list](04_DataTypeList.md).
 
-----------
+
 
 [comment]: <> (Import/Export will be changed)
 
@@ -368,6 +372,7 @@ This wizard window
 
 - [SELECT FILE]   
   Click this button to select a file for import. The explorer is displayed for file selection. Only .json-files are allowed. The selected file is displayed below the button when uploaded. Alternatively, you can select a file using drag & drop.
+
   [comment]: <> (Is that right?)
 
 - ![Upload](/Assets/Icons/Upload.png "[Upload]") *Drop file here...*   

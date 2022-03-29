@@ -9,7 +9,7 @@ If you want to maintain PIM products in multiple channels, you have to activate 
 
 ## Prerequisites
 
-At least one channel is created, see [Create a channel](/DataHub/Integration/CreateChannel.md).
+At least one channel is created in the *DataHub* module, see [Create a channel](/DataHub/Integration/04_ManageChannels.md#create-a-channel).
 
 > [Info] By default, the *Actindo Basic* channel is created and activated in the *PIM* module.
 
@@ -18,11 +18,12 @@ At least one channel is created, see [Create a channel](/DataHub/Integration/Cre
 
 ![Channels](/Assets/Screenshots/PIM/Settings/Channels/Channels.png "[Channels]")
 
-1. Activate the ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Active* toggle in the row of the channel you want to switch active in the *PIM* module.
+1. Activate the *Active* toggle in the row of the channel you want to switch active in the *PIM* module.
 
   > [Info] At least one channel has to be activated.
 
-2. Press **F5** to initialize the Core1 Platform.
+2. Press **F5** to initialize the Core 1 Platform.   
+  The selected channel is active in the *PIM* module.
 
 ## Next steps
 
@@ -32,7 +33,7 @@ At least one channel is created, see [Create a channel](/DataHub/Integration/Cre
 ## See also
 
 - [User Interface PIM](/PIM/UserInterface/00_UserInterface.md)
-- [Create a channel](/DataHub/Integration/CreateChannel.md)
+- [Create a channel](/DataHub/Integration/04_ManageChannels.md#create-a-channel)
 - [Manage the attributes](01_ManageAttributes.md)
 - [Manage the attribute sets](02_ManageAttributeSets.md)
 - [Manage the attribute groups](03_ManageAttributeGroups.md)

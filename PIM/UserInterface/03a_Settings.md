@@ -63,7 +63,8 @@ The list displays all attributes. All fields are read-only. Depending on the set
 
 - *Plugin*   
   Module or plugin from which the attribute is created. In the *PIM* module, only PIM attributes are displayed.
-  [comment]: <> (Is that correct? What sense has this column in the PIM module when only PIM attributes are displayed?)
+
+  [comment]: <> (What sense has this column in the PIM module when only PIM attributes are displayed?)
 
 - *ID*   
   Attribute identification number. The ID number is automatically assigned by the system.
@@ -81,7 +82,7 @@ The list displays all attributes. All fields are read-only. Depending on the set
   Name and username of the user who created the attribute.
 
 - *Name (Language)*   
-  Attribute name in the selected language. One *Name (Language)* column is displayed for the system languages *English (United States)* and *Deutsch (Deutschland)*.
+  Attribute name in the selected language. A single *Name (Language)* column is displayed for the languages *English (United States)* and *Deutsch (Deutschland)*.
 
 - *Description (Language)*   
   Attribute description in the displayed language. For each active language exists one *Description* column.
@@ -98,8 +99,9 @@ The list displays all attributes. All fields are read-only. Depending on the set
 - ![Back](/Assets/Icons/Back02.png "[Back]") (Back)   
   Click this button to close the *Create Attribute* view and return to the attributes list. All changes are rejected.
 
-- Language   
-  Click the drop-down list and select the language in which the *Name (Language)* and *Description (Language)* fields are displayed. The system languages *English (United States)* and *Deutsch (Deutschland)* are available in the drop-down list.
+- Language      
+  Click the drop-down list and select the language in which the *Name (Language)* and *Description (Language)* fields are displayed. The languages *English (United States)* and *Deutsch (Deutschland)* are available in the drop-down list.
+
   [comment]: <> (Is that right? -> language question)
 
 - [SAVE]   
@@ -156,7 +158,8 @@ For detailed information about the different configurations of data types, see [
   Click this button to close the *Edit Attribute* view and return to the attributes list. All changes are rejected.
 
 - Language   
-  Click the drop-down list and select the language in which the *Name (Language)* and *Description (Language)* fields are displayed. The system languages *English (United States)* and *Deutsch (Deutschland)* are available in the drop-down list.
+  Click the drop-down list and select the language in which the *Name (Language)* and *Description (Language)* fields are displayed. The languages *English (United States)* and *Deutsch (Deutschland)* are available in the drop-down list.
+
   [comment]: <> (Is that right? -> language question)
 
 - [SAVE]   
@@ -227,7 +230,7 @@ The list displays all attributes. All fields are read-only. Depending on the set
 
 - *Calculated Field*   
   Indication whether the attribute is an calculated field or not:
-  - ![Check](/Assets/Icons/Check.png "[Check]") (Checkmark): The attribute is ???.  
-  - ![Cross](/Assets/Icons/Cross02.png "[Cross]") (Cross): The attribute is ???.
+  - ![Check](/Assets/Icons/Check.png "[Check]") (Checkmark): The attribute is a calculated field.  
+  - ![Cross](/Assets/Icons/Cross02.png "[Cross]") (Cross): The attribute is no calculated field.
 
   [comment]: <> (What means 'Calculated'? completeness calculation? what field are calculated?)

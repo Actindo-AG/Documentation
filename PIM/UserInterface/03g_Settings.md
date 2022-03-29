@@ -60,7 +60,7 @@ The list displays all variant sets. All fields are read-only. Depending on the s
   Name and username of the user who created the variant set.
 
 - *Name (Language)*   
-  Attribute set name in the selected language. One *Name (Language)* column is displayed for the system languages *English (United States)* and *Deutsch (Deutschland)*.
+  Attribute set name in the selected language. A single *Name (Language)* column is displayed for the languages *English (United States)* and *Deutsch (Deutschland)*.
 
 - ![Add](/Assets/Icons/Plus01.png "[Add]") (Add)   
   Click this button to create a variant set. The *Create variant Set* window is displayed.   
@@ -75,7 +75,8 @@ The list displays all variant sets. All fields are read-only. Depending on the s
   Click this button to cancel creating a variant set, close the *Create Variant Set* view and return to the variant sets list. All changes are rejected.
 
 - Language   
-  Click the drop-down list and select the language in which the *Name (Language)* fields are displayed. The system languages *English (United States)* and *Deutsch (Deutschland)* are available in the drop-down list.
+  Click the drop-down list and select the language in which the *Name (Language)* fields are displayed. The languages *English (United States)* and *Deutsch (Deutschland)* are available in the drop-down list.
+
   [comment]: <> (Is that right? -> language question)
 
 - [SAVE]   
@@ -184,7 +185,8 @@ The list displays all changeable attributes to the variant set. All fields are r
   Click this button to cancel editing the variant set, close the *Edit Variant Set* view and return to the variant sets list. All changes are rejected.
 
 - Language   
-  Click the drop-down list and select the language in which the *Name (Language)* fields are displayed. The system languages *English (United States)* and *Deutsch (Deutschland)* are available in the drop-down list.
+  Click the drop-down list and select the language in which the *Name (Language)* fields are displayed. The languages *English (United States)* and *Deutsch (Deutschland)* are available in the drop-down list.
+
   [comment]: <> (Is that right? -> language question)
 
 - [SAVE]   

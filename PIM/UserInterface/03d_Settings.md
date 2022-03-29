@@ -8,8 +8,7 @@
 
 - [ <u>Edit language list here</u> ]    
   Click this button to switch to the *DataHub* module and edit the language list or create a language.    
-  The *LANGUAGES* tab is displayed (*DataHub > Settings > Tab LANGUAGES*).  
-  For detailed information, see [Create a language](/DataHub/Integration/05_ManageLanguages.md#create-a-language).
+  The *LANGUAGES* tab is displayed (*DataHub > Settings > Tab LANGUAGES*). For detailed information, see [Create a language](/DataHub/Integration/05_ManageLanguages.md#create-a-language).
 
 - ![Refresh](/Assets/Icons/Refresh01.png "[Refresh]") (Refresh)   
   Click this button to update the list of languages.

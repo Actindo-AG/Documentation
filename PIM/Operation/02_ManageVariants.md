@@ -36,7 +36,7 @@ The *Create Product* view is displayed. The *Attributes* tab is preselected.
 
 5. Enter the data for the product in the *Attributes* tab. You must at least complete the *Product Name*, *Price* and *Tax class* fields.   
 
-  > [Info] All fields marked with the note *(required)* are used for the completeness calculation of product attributes. You can activate the ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *show empty required attributes only* toggle to display only the incomplete required attribute fields for the selected product.
+  > [Info] All fields marked with the note *(required)* are used for the completeness calculation of product attributes. You can activate the *show empty required attributes only* toggle to display only the incomplete required attribute fields for the selected product.
 
 6. Click the *Variants* tab.   
 The *Variants* tab is displayed.
@@ -65,7 +65,7 @@ The [Add single variant ![Add single variant](/Assets/Icons/Document.png "[Add s
 
   ![Add single variant](/Assets/Screenshots/PIM/Products/List/Variants/AddSingleVariant.png "[Add single variant]")
 
-2. If desired, deactivate the ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Use formula* toggle and change the SKU in the *SKU* field. By default, the toggle is activated and the predefined SKU is displayed.   
+2. If desired, deactivate the *Use formula* toggle and change the SKU in the *SKU* field. By default, the toggle is activated and the predefined SKU is displayed.   
 
 3. Select a value for the displayed attributes in the *Defined values* section. The fields differ depending on the selection of defining attributes for the variant set.  
   The selected attribute value is displayed in the box.
@@ -111,7 +111,7 @@ The [Add single variant ![Add single variant](/Assets/Icons/Document.png "[Add s
 
 6. Check if all variants listed in the *Variants that will be created (ignoring duplicated)* box are correct.
 
-  > [Info] To remove a variant from the list, select the checkbox of the variant and click the ![Delete](/Assets/Icons/Trash03.png "[Delete]") button in the editing toolbar displayed above the list.
+  > [Info] To remove a variant from the list, select the checkbox of the variant and click the ![Delete](/Assets/Icons/Trash03.png "[Delete]") (Delete) button in the editing toolbar displayed above the list.
 
 7. Click the [FINISH] button in the bottom right corner.   
   The new variants are added to the product. The *Summary* wizard window is closed. The variants are displayed in the variants list.

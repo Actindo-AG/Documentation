@@ -1,7 +1,7 @@
-[!!PIM](Actindo/PIM)
-[!!Omni-Channel](Actindo/Omni-Channel)
-[!!Warehouse](Actindo/Warehouse)
-[!!Material Managment](Actindo/Material Managment)
+[!!PIM](Actindo/PIM)   
+[!!OmniChannel](Actindo/OmniChannel)   
+[!!Warehouse](Actindo/Warehouse)   
+[!!MaterialManagement](Actindo/MaterialManagement)   
 
 # Manage a product
 
@@ -38,7 +38,7 @@ An attribute set is created, see [Create an attribute set](ManageAttributeSet.md
 
 5. Enter the data for the product in the *Attributes* tab. You must at least complete the *Product Name*, *Price* and *Tax class* field.   
 
-  > [Info] All fields marked with the note *(required)* are used for the completeness calculation of product attributes. You can activate the *![Toggle](/Assets/Icons/Toggle.png "[Toggle]") show empty required attributes only* toggle to display only the incomplete required attribute fields for the selected product.
+  > [Info] All fields marked with the note *(required)* are used for the completeness calculation of product attributes. You can activate the *show empty required attributes only* toggle to display only the incomplete required attribute fields for the selected product.
 
 6. Click the [SAVE] button in the upper right corner.   
   The new product is saved. The *Create product* view is closed. The product list with the new product is displayed.
@@ -204,7 +204,7 @@ At least one product is created, see [Create a product](#create-a-product).
 
 5. Add or edit the data for the product in the *Attributes* tab. You must at least complete the *Product Name*, *Price* and *Tax class* fields.   
 
-  > [Info] All fields marked with the note *(required)* are used for the completeness calculation of product attributes. You can activate the ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *show empty required attributes only* toggle to display only the incomplete required attribute fields for the selected product.
+  > [Info] All fields marked with the note *(required)* are used for the completeness calculation of product attributes. You can activate the *show empty required attributes only* toggle to display only the incomplete required attribute fields for the selected product.
 
 6. Click the [SAVE] button in the upper right corner.   
   The product is saved. The *Edit Product (Copy)* view is closed. The product list with the new product is displayed.
@@ -251,7 +251,7 @@ If you want to offer the product on a single connection only or you have just on
 2. Click the *Offers* tab in the product view.   
   The *Offers* tab with a list of all existing offers to the product in all connections is displayed.
 
-   ![PIM Offers](/Assets/Screenshots/PIM/Products/List/Offers/Offers.png "[PIM Offers]")
+   ![Offers](/Assets/Screenshots/PIM/Products/List/Offers/OffersEdit.png "[Offers]")
 
 3. Click the ![Add](/Assets/Icons/Plus01.png "[Add]") (Add) button in the bottom right corner.   
    The [Add to a single connection ![Add to a single connection](/Assets/Icons/Document.png "[Single connection]") ] button and the [Add to multiple connections ![Multiple connections](/Assets/Icons/Documents.png "[Multiple connections]") ] button are displayed.
@@ -270,7 +270,7 @@ If you want to offer the product on a single connection only or you have just on
 
   + Click the *Select Attribute Set* drop-down list and select the appropriate attribute set for the offer. All active attribute sets are displayed in the list.   
 
-  + Activate the *![Toggle](/Assets/Icons/Toggle.png "[Toggle]") Generate SKU* toggle to automatically create a SKU for the product offer.   
+  + Activate the *Generate SKU* toggle to automatically create a SKU for the product offer.   
 
   + Select the appropriate option for change tracking in the *Change Tracking Mode* section:   
    ![Radionbutton](/Assets/Icons/Radiobutton.png "[Radiobutton]") *manual*: Changes in a PIM product must be triggered manually to be applied to the offer. The initial offer is automatically applied.   
@@ -334,7 +334,7 @@ To create offers to a product for several connections at the same time, you can 
 2. Click the *Offers* tab.   
   The *Offers* tab with a list of all existing offers of the product in all connections is displayed.
 
-   ![PIM Offers](/Assets/Screenshots/PIM/Products/List/Offers/Offers.png "[PIM Offers]")
+   ![Offers](/Assets/Screenshots/PIM/Products/List/Offers/OffersEdit.png "[Offers]")
 
 3. Click the ![Add](/Assets/Icons/Plus01.png "[Add]") (Add) button in the bottom right corner.   
    The [Add to a single connection ![Add to a single connection](/Assets/Icons/Document.png "[Single connection]") ] button and the [Add to multiple connections ![Multiple connections](/Assets/Icons/Documents.png "[Multiple connections]") ] button are displayed.
@@ -359,7 +359,7 @@ To create offers to a product for several connections at the same time, you can 
      ![Radionbutton](/Assets/Icons/Radiobutton.png "[Radiobutton]") *semi-automatic, changes must be confirmed by another user*: Changes in a PIM product are automatically applied to the offer after confirmation in the *Omni-Channel* module by another user. The initial offer is only applied after confirmation by another user.    
      ![Radionbutton](/Assets/Icons/Radiobutton.png "[Radiobutton]") *automatic*: Changes in a PIM product are automatically applied to the offer. The initial offer is also automatically applied.
 
-  + Activate the ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") toggles of the connections for which you want to create offers in the *Select connections* section. If you want to create an offer for all displayed connections, click the [SELECT ALL] button to activate all toggles. All active connections are displayed in the list.    
+  + Activate the toggles of the connections for which you want to create offers in the *Select connections* section. If you want to create an offer for all displayed connections, click the [SELECT ALL] button to activate all toggles. All active connections are displayed in the list.    
 
 6. Click the [CONTINUE] button in the bottom right corner of the window.   
   The *Select destination attribute sets* wizard window is displayed.

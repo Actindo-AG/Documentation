@@ -9,7 +9,7 @@
 **Catalogs**
 
 - Catalog name
-  Click the drop-down list to select a catalog. All available catalogs are displayed in the drop-down list. By default, the catalog **Produktkategorie** is preselected.
+  Click the drop-down list to select a catalog. All available catalogs are displayed in the drop-down list. By default, the catalog **Product Categories** is preselected.
 
 - ![Points](/Assets/Icons/Points01.png "[Points]") (Points)  
   Click this button to display the context menu and either create a catalog or edit the selected catalog.
@@ -47,7 +47,7 @@
   Click this button to add a category to the catalog. A plus sign is displayed in each column. Click the plus sign to add a category or sub-category. The *Add Element* window is displayed.
   For detailed information about creating categories or sub-categories, see [Create a category](to_be_completed) or [Create a sub-category](to_be_completed).
 
-  > [Info] If you add a category, a second column is displayed. When you click the button ![Add](/Assets/Icons/Plus01.png "[Add]") (Add) again, you can also create a sub-category in the second column. Each time, you add a new sub-category, the next column is displayed. Like this, you can add up to sixth level categories to a catalog.
+  > [Info] If you add a category, a second column is displayed. When you click the button ![Add](/Assets/Icons/Plus01.png "[Add]") (Add) again, you can also create a sub-category in the second column. Each time, you add a new sub-category, the next column is displayed. You can add an unlimited number of sub-categories in an unlimited number of levels.
 
 The following buttons and fields are only displayed when you have added a category.
 
@@ -63,17 +63,8 @@ The following buttons and fields are only displayed when you have added a catego
 - Second level category   
   Sub-category to the selected first level category. Click the category to display the third level column and all assigned sub-categories. Hover over the category to display the button ![Edit](/Assets/Icons/Edit03.png "[Edit]") (Edit).
 
-- Third level category   
-  Sub-category to the selected second level category. Click the category to display the fourth level column and all assigned sub-categories. Hover over the category to display the button ![Edit](/Assets/Icons/Edit03.png "[Edit]") (Edit).
-
-- Fourth level category   
-  Sub-category to the selected third level category. Click the category to display the fifth level column and all assigned sub-categories. Hover over the category to display the button ![Edit](/Assets/Icons/Edit03.png "[Edit]") (Edit).
-
-- Fifth level category   
-  Sub-category to the selected fourth level category. Click the category to display the sixth level column and all assigned sub-categories. Hover over the category to display the button ![Edit](/Assets/Icons/Edit03.png "[Edit]") (Edit).
-
-- Sixth level category   
-  Sub-category to the selected fifth level category. The sixth level category is the lowest level category. Hover over the category to display the button ![Edit](/Assets/Icons/Edit03.png "[Edit]") (Edit).
+- x level category   
+  Sub-category to the selected category. Click the category to display the next lower level column and all assigned sub-categories. Hover over the category to display the button ![Edit](/Assets/Icons/Edit03.png "[Edit]") (Edit).
 
 
 ## Edit catalog
@@ -105,17 +96,8 @@ The following buttons and fields are only displayed when you have added a catego
 - Second level category   
   Sub-category to the selected first level category. Click the category to display the third level column and all assigned sub-categories. Hover over the category to display the button ![Edit](/Assets/Icons/Edit03.png "[Edit]") (Edit).
 
-- Third level category   
-  Sub-category to the selected second level category. Click the category to display the fourth level column and all assigned sub-categories. Hover over the category to display the button ![Edit](/Assets/Icons/Edit03.png "[Edit]") (Edit).
-
-- Fourth level category   
-  Sub-category to the selected third level category. Click the category to display the fifth level column and all assigned sub-categories. Hover over the category to display the button ![Edit](/Assets/Icons/Edit03.png "[Edit]") (Edit).
-
-- Fifth level category   
-  Sub-category to the selected fourth level category. Click the category to display the sixth level column and all assigned sub-categories. Hover over the category to display the button ![Edit](/Assets/Icons/Edit03.png "[Edit]") (Edit).
-
-- Sixth level category   
-  Sub-category to the selected fifth level category. The sixth level category is the lowest level category. Hover over the category to display the button ![Edit](/Assets/Icons/Edit03.png "[Edit]") (Edit).
+- x level category   
+  Sub-category to the selected category. Click the category to display the next level column and all assigned sub-categories. Hover over the category to display the button ![Edit](/Assets/Icons/Edit03.png "[Edit]") (Edit).
 
 - ![Add](/Assets/Icons/Plus01.png "[Add]") (Add)   
   Click this button to add a category to the catalog. A plus sign is displayed in each column. Click the plus sign to add a category or sub-category. The *Add Element* window is displayed.
