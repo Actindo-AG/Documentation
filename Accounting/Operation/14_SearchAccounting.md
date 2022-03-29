@@ -31,7 +31,7 @@ An account can be searched for by account number or by description.
 1. Click the *QUICK SEARCH* button.  
 The *QUICK SEARCH* context menu is displayed.
 
-  ![Search for an account](/Assets/Screenshots/Accounting/Book/Search/BookExtrasAccounts.png "[Search for an account]")
+  ![Search for an account](/Assets/Screenshots/Accounting/Book/Search/Search01.png "[Search for an account]")
 
 2. Unselect the *Acc. no.* or *Description* checkbox if you want your search text to apply only to the account number or to the description field.
 
