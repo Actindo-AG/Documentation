@@ -1,4 +1,4 @@
-[!!Einstellungen](Actindo/Einstellungen)
+[!!Settings](Settings)
 
 # Assign users to the POS groups
 
@@ -24,49 +24,39 @@ The users that belong to a POS group must be assigned to a pay desk or store in 
 
 ### Procedure
 
-*Einstellungen > Benutzer und Gruppen > Tab GRUPPENVERWALTUNG*
+*settings > Users and Groups > Tab GROUP MANAGEMENT*
 
-  ![Gruppenverwaltung](/Assets/Screenshots/Einstellungen/BenutzerGruppen/Gruppenverwaltung/Gruppenverwaltung01.png "[Gruppenverwaltung]")
+  ![Gruppenverwaltung](/Assets/Screenshots/Einstellungen/BenutzerGruppen/Gruppenverwaltung/Gruppenverwaltung.png "[Gruppenverwaltung]")
 
-  | (1) | **Group checkboxes** |
-  |-----|---------------------|
-  |**(2)**| **Button Edit** |
-
-1. Select the checkbox ![Checkbox Active](/Assets/Icons/Checkbox.png "[Checkbox Active]") of the group you want to assign the users to in the list of groups.   
+1. Select the checkbox of the group you want to assign the users to in the list of groups.   
   The editing toolbar is displayed above the list.
 
-2. Click the button ![Icon Edit](/Assets/Icons/Edit01.png "[Icon Edit]") (Edit) in the editing toolbar.   
+2. Click the ![Icon Edit](/Assets/Icons/Edit01.png "[Icon Edit]") (Edit) button in the editing toolbar.   
   The *Edit group* view of the selected group is displayed.
 
   ![Gruppe](/Assets/Screenshots/Einstellungen/BenutzerGruppen/Gruppenverwaltung/EditGroup01.png "[Gruppe]")
 
-3. Click the button ![Add](/Assets/Icons/Plus01.png "[Add]") (Add) in the bottom right corner.   
-    The window *Add User* is displayed.
+3. Click the ![Add](/Assets/Icons/Plus01.png "[Add]") (Add) button in the bottom right corner.   
+    The *Add User* window is displayed.
 
-    ![Add User](/Assets/Screenshots/Einstellungen/BenutzerGruppen/Gruppenverwaltung/AddUser01.png "[Add User]")
+    ![Add User](/Assets/Screenshots/Einstellungen/BenutzerGruppen/Gruppenverwaltung/AddUser.png "[Add User]")
 
-  | (1) | **Button Add** |
-  |-----|---------------------|
-  |**(2)**| **Date field *Valid From*** |
-  |**(2)**| **Date field *End Date*** |
-  |**(2)**| **Button [SAVE]** |
+4. Click the ![Add](/Assets/Icons/Plus05.png "[Add]") (Add) button below the *Add Users* section.   
+  The *Select User* drop-down list is displayed.
 
-4. Click the button ![Add](/Assets/Icons/Plus05.png "[Add]") (Add) below the section *Add Users* .   
-  The drop-down list *Select User* is displayed.
-
-5. Click the drop-down list *Select User* and select the user you want to assign to the group from the displayed list of users.
+5. Click the *Select User* drop-down listand select the user you want to assign to the group from the displayed list of users.
 
   > [Info]  All registered users that are not yet assigned to the group are displayed in the drop-down list.  
 
 6. Repeat step **4** and **5** for all users you want to assign to the selected group.
 
-7. If desired, you can activate the selected users in the group only for a certain period of time. To do so, select the start and end dates of the period in the date fields *Valid From* and *End Date*.
+7. If desired, you can activate the selected users in the group only for a certain period of time. To do so, select the start and end dates of the period in the date *Valid From* and *End Date* fields.
 
-8. Click the button [SAVE] in the upper right corner of the window.   
-  The window *Add User* is closed. The selected users are displayed in the list of users.
+8. Click the [SAVE] button in the upper right corner of the window.   
+  The *Add User* window is closed. The selected users are displayed in the list of users.
 
-9. Click the button [SAVE] in the upper right corner of the group edit view.   
-  The *Edit group* view is closed. The message *Gruppe gespeichert* is displayed. The new user assignments to the group are saved.
+9. Click the [SAVE] button in the upper right corner of the group edit view.   
+  The *Edit group* view is closed. The *Group has been saved* message is displayed. The new user assignments to the group are saved.
 
     ![Gruppe gespeichert](/Assets/Screenshots/Einstellungen/BenutzerGruppen/Gruppenverwaltung/GruppeGespeichert.png "[Gruppe gespeichert]")
 
@@ -80,7 +70,7 @@ The users that belong to a POS group must be assigned to a pay desk or store in 
 
 ## See also
 
-- [User Interface Einstellungen](/Einstellungen/UserInterface/00_UserInterface.md)
+- [User Interface Settings](/Settings/UserInterface/00_UserInterface.md)
 - [Register a user](to_be_completed)
 - [Configure the warehouse for POS](01_ConfigureWarehouse.md)
 - [Manage the accounts for POS](02_ManageAccounts.md)

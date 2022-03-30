@@ -1,12 +1,12 @@
-[!!Venduo POS](Actindo/Venduo POS)
-[!!Fakturierung](Actindo/Fakturierung)
-[!!DataHub](Actindo/DataHub)
+[!!Venduo POS](POS)
+[!!Invoicing](Invoicing)
+[!!DataHub](DataHub)
 
 # Configure the global settings for POS
 
 Venduo POS provides many settings to  configure the POS system individually.
 
-For detailed information about the specific settings, see [User Interface Venduo POS/Management](VenduoPOS/UserInterface/02a_Management.md#global-settings).
+For detailed information about the specific settings, see [Global Settings](/VenduoPOS/UserInterface/02a_Management.md#global-settings).
 
 Before creating a new store in the POS system, you should configure the following settings:
 
@@ -29,16 +29,16 @@ No prerequisites to fulfill.
 
   ![Default Customer](/Assets/Screenshots/VenduoPOS/Management/GlobalSettings/GS27.png "[Default Customer]")
 
-1. Select the entry *Standard-Kunde* in the list of settings in the left column.
+1. Select the *Default Customer* entry in the list of settings in the left column.
 
-  The section *Standard-Kunde* is displayed on the right side.
+  The *Default Customer* view is displayed on the right side.
 
 2. Enter the fields for the default customer.
 
   > [Info] You must at least enter the country and an e-mail address for the default customer.
 
-3. Click the button [Speichern] in the upper right corner.   
-  The message *Saving successful* is displayed. The default customer is saved for all stores.
+3. Click the [Save] button in the upper right corner.   
+  The *Saving successful* message is displayed. The default customer is saved for all stores.
 
   ![Saving successful](/Assets/Screenshots/SavingSuccessful.png "[Saving successful]")
 
@@ -52,7 +52,7 @@ No prerequisites to fulfill.
 
 ### See also
 
-- [User Interface Venduo POS](VenduoPOS/UserInterface/00_UserInterface.md)
+- [User Interface Venduo POS](/VenduoPOS/UserInterface/00_UserInterface.md)
 - [Configure the warehouse for POS](01_ConfigureWarehouse.md)
 - [Manage the accounts for POS](02_ManageAccounts.md)
 - [Configure the printer for POS](03_ConfigurePrinter.md)
@@ -73,13 +73,13 @@ No prerequisites to fulfill.
 
   ![VAT-ID](/Assets/Screenshots/VenduoPOS/Management/GlobalSettings/GS08.png "[VAT-ID]")
 
-1. Select the entry *USt-ID* in the list of settings in the left column.   
-  The section *USt-ID* is displayed on the right side.
+1. Select the *VAT-ID* entry in the list of settings in the left column.   
+  The *VAT-ID* view is displayed on the right side.
 
-2. Enter the VAT-ID in the field *USt-ID*.
+2. Enter the VAT-ID in the *VAT-ID* field.
 
-3. Click the button [Speichern] in the upper right corner.   
-  The message *Saving successful* is displayed. The VAT-ID is saved for all stores.
+3. Click the [Save] button in the upper right corner.   
+  The *Saving successful* message is displayed. The VAT-ID is saved for all stores.
 
   ![Saving successful](/Assets/Screenshots/SavingSuccessful.png "[Saving successful]")
 
@@ -92,7 +92,7 @@ No prerequisites to fulfill.
 
 ### See also
 
-- [User Interface Venduo POS](VenduoPOS/UserInterface/00_UserInterface.md)
+- [User Interface Venduo POS](/VenduoPOS/UserInterface/00_UserInterface.md)
 - [Configure a default customer](#configure-a-default-customer)
 - [Configure the warehouse for POS](01_ConfigureWarehouse.md)
 - [Manage the accounts for POS](02_ManageAccounts.md)
@@ -111,25 +111,25 @@ No prerequisites to fulfill.
 ### Procedure
 
 #### Create a payment method in Invoicing
-*Fakturierung > Einstellungen > Tab ZAHLARTEN*
+*Invoicing > Settings > Tab PAYMENT METHOD(S)*
 
-![Zahlarten](/Assets/Screenshots/Fakturierung/Einstellungen/Zahlarten/Zahlarten01.png "[Zahlarten]")
+![Payment method](/Assets/Screenshots/Invoicing/Settings/PaymentMethods/PaymentMethods.png "[Payment methods]")
 
-1. Click the button [NEU].   
-  The *Zahlart bearbeiten* window is displayed.
+1. Click the [NEW] button.   
+  The *Edit payment method* window is displayed.
 
-  ![Zahlart bearbeiten](/Assets/Screenshots/Fakturierung/Einstellungen/Zahlarten/ZahlartBearbeiten.png "[Zahlart bearbeiten]")
+  ![Edit payment method](/Assets/Screenshots/Invoicing/Settings/PaymentMethods/EditPaymentMethod.png "[Edit payment method]")
 
-2. Enter a name for the payment method in the field *Titel*.   
+2. Enter a name for the payment method in the *Title* field.   
 
-3. Enter an ID for the payment method in the field *ID*.   
+3. Enter an ID for the payment method in the *ID* field.   
 
-4. Click the button [SPEICHERN] in the bottom right corner of the window.   
-  The *Speichere...* window is displayed.
+4. Click the [SAVE] button in the bottom right corner of the window.   
+  The *Saving...* window is displayed.
 
-  ![Speichere](/Assets/Screenshots/Fakturierung/Einstellungen/Zahlarten/Speichere.png "[Speichere]")
+  ![Saving](/Assets/Screenshots/Invoicing/Settings/PaymentMethods/Saving.png "[Saving]")
 
-  When the window is closed, the new payment method is saved in Invoicing. The new payment method is displayed in the list of payment methods in the tab *ZAHLARTEN*.
+  When the window is closed, the new payment method is saved in Invoicing. The new payment method is displayed in the list of payment methods in the *PAYMENT METHOD(S)* tab.
 
 
 #### Create a payment method in POS
@@ -137,21 +137,21 @@ No prerequisites to fulfill.
 
 ![GlobalSettings](/Assets/Screenshots/VenduoPOS/Management/GlobalSettings/GlobalSettings.png "[GlobalSettings]")
 
-1. Click the setting *Zahlungsweisen (manuelle Zahlung Terminal)* in the list of settings.   
-  The *Zahlungsweisen (manuelle Zahlung Terminal)* view is displayed.
+1. Click the *Payment Methods (manual terminal payment)* setting in the list of settings.   
+  The *Payment Methods (manual terminal payment)* view is displayed.
 
-  ![Zahlungsweisen](/Assets/Screenshots/VenduoPOS/Management/GlobalSettings/GS04.png "[Zahlungsweisen]")
+  ![Payment methods](/Assets/Screenshots/VenduoPOS/Management/GlobalSettings/GS04.png "[Payment methods]")
 
-2. Click the button ![Add](/Assets/Icons/Plus04.png "[Add]") (Add).
+2. Click the ![Add](/Assets/Icons/Plus04.png "[Add]") (Add) button.
   A new row for a payment method is displayed.
 
-3. Enter the key of the new payment method in the field *Key*.
+3. Enter the key of the new payment method in the *Key* field.
 
-4. Enter a name for the payment method in POS in the field *Name*.   
+4. Enter a name for the payment method in POS in the *Name* field.   
 
     > [Info] The name of the payment method in POS can differ from the name of the payment method in the *Invoicing* module. It is only necessary that the ID of the payment method in *Venduo POS* and *Invoicing* match.
 
-5. Click the button [Speichern] in the upper right corner.   
+5. Click the [Save] button in the upper right corner.   
     The new payment method is saved in POS.
 
 
@@ -160,23 +160,23 @@ No prerequisites to fulfill.
 
 ![ETL](/Assets/Screenshots/DataHub/Settings/ETL/ETL.png "[ETL]")
 
-1. Click the attribute set mapping **Orders POS Store** of the corresponding store in the column *Source Attribute Set* .   
+1. Click the **Orders POS Store** attribute set mapping of the corresponding store in the *Source Attribute Set* column.   
   The *Mapping* view of the selected attribute set is displayed.
 
-2. Click the attribute mapping with the attribute **Zahlungsweise** in the column *Destination Attribute* .   
-  The section *Settings* is displayed in the right part of the tab.
+2. Click the attribute mapping with the **Payment method** attribute in the *Destination Attribute* column.   
+  The *Settings* section is displayed in the right part of the tab.
 
   ![Mapping](/Assets/Screenshots/DataHub/Settings/ETL/MappingSettings.png "[Mapping]")
 
-3. Click the drop-down list *Extension* in the section *Settings* and select the option **Mapping table**.
+3. Click the *Extension* drop-down list in the *Settings* section and select the **Mapping table** option.
 
-4. Click the drop-down list *Source attribute* in the section *Settings* and select the option **Zahlungsweisen** .   
-    The mapping table for the selected mapping is displayed in the section *Configuration*.
+4. Click the *Source attribute* drop-down list in the *Settings* section and select the **Payment methods** option.   
+    The mapping table for the selected mapping is displayed in the *Configuration* section.
 
-5. Search for the invoicing name of the new payment method in the column *Source Value*, click the drop-down list in the same row in the column *Destination Value* and select the Venduo POS name of the new payment method.
+5. Search for the invoicing name of the new payment method in the *Source Value* column, click the drop-down list in the same row in the *Destination Value* column and select the Venduo POS name of the new payment method.
 
-6. Click the button [SAVE] in the upper right corner.   
-    *Submitting data...* is displayed in the right part of the *Mapping* view. The mapping is saved, when nothing is displayed in the right part of the *Mapping* view.
+6. Click the [SAVE] button in the upper right corner.   
+    The *Submitting data...* message is displayed in the right part of the *Mapping* view. The mapping is saved, when nothing is displayed in the right part of the *Mapping* view.
 
 
 ### Next Steps
@@ -187,7 +187,7 @@ No prerequisites to fulfill.
 
 ### See also
 
-- [User Interface Venduo POS](VenduoPOS/UserInterface/00_UserInterface.md)
+- [User Interface Venduo POS](/VenduoPOS/UserInterface/00_UserInterface.md)
 - [Configure a default customer](#configure-a-default-customer)
 - [Configure the VAT-ID in POS](#configure-the-VAT-ID-in-POS)
 - [Configure the warehouse for POS](01_ConfigureWarehouse.md)

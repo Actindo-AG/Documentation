@@ -1,4 +1,4 @@
-[!!Omni-Channel](Actindo/Omni-Channel)
+[!!Omni-Channel](Channels)
 
 # Restart a faulty export
 
@@ -19,7 +19,7 @@ The cause of the export error is fixed.
 
 ![Orders](/Assets/Screenshots/OmniChannel/OrdersReturns/Orders/Orders.png "[Orders]")
 
-1. Select the checkbox ![Checkbox](/Assets/Icons/Checkbox.png "[Checkbox]") of the order of which the export failed and click the button [EXPORT TO OMS] in the editing toolbar at the top.     
+1. Select the checkbox of the order of which the export failed and click the button [EXPORT TO OMS] in the editing toolbar at the top.     
 The order export is restarted. During the export, the status **Being exported** is displayed in the column *Status of Export to OMS*.
 
 > [Info] The export can take several minutes. Click the button ![Process](/Assets/Icons/Process.png "[Process]") (Process) in the upper right corner to display the process window with the current state of export.

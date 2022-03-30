@@ -1,4 +1,4 @@
-[!!Venduo POS](Actindo/Venduo POS)
+[!!Venduo POS](POS)
 
 # Remove an inactive cashier from the pay desk
 

@@ -1,4 +1,4 @@
-[!!Drucken](Actindo/Drucken)
+[!!Printing](Printing)
 
 # Configure the printer client for POS
 
@@ -16,15 +16,15 @@ The current APS is installed and has been started including a successful login.
 
 *Printing > Settings > Tab ASSIGN PRINTERS*
 
-  ![Printing Settings](/Assets/Screenshots/Printing/Settings/AssignPrinters01.png "[Printing Settings]")
+  ![Printing Settings](/Assets/Screenshots/Printing/Settings/AssignPrinters.png "[Printing Settings]")
 
-1. Click the printer *Global (für alle Gruppen)* .   
+1. Click the *Global (for all groups)* printer in the list of printers.   
   The *Settings for group Global* view is displayed.
 
   ![Settings Group](/Assets/Screenshots/Printing/Settings/SettingsGroup01.png "[Settings Group]")
 
-2. Click the button ![Add](/Assets/Icons/Plus01.png "[Add]") (Add) in the bottom right corner.   
-  The window *Print Settings* is displayed.
+2. Click the ![Add](/Assets/Icons/Plus01.png "[Add]") (Add) button in the bottom right corner.   
+  The *Print Settings* window is displayed.
 
   ![Add Print Settings](/Assets/Screenshots/Printing/Settings/PrintSettings01.png "[Add Print Settings]")
 
@@ -38,23 +38,23 @@ The current APS is installed and has been started including a successful login.
   |**(7)**| **drop-down list *Format*** |
   |**(8)**| **Button [SAVE]** |
 
-3. Click the drop-down list *Client* and select the appropriate client.
+3. Click the *Client* drop-down list and select the appropriate client.
 
-4. Click the drop-down list *Printer* and select the appropriate printer, e. g. for receipts.
+4. Click the *Printer* drop-down list and select the appropriate printer, for instance for receipts.
 
-5. If necessary, click the drop-down list *Tray* and select the appropriate tray. By default, the tray is automatically selected.
+5. If necessary, click the *Tray* drop-down list and select the appropriate tray. By default, the tray is automatically selected.
 
-6. Select the portrait or the landscape format in the section *LAYOUT*.
+6. Select the portrait or the landscape format in the *LAYOUT* section.
 
 > [Info] For receipt printers always select portrait format.
 
-7. Click the drop-down list *Format* and select the appropriate width of the receipt.
+7. Click the *Format* drop-down list and select the appropriate width of the receipt.
 
-8. Click the drop-down list *Module* and select **POS** in the list of modules.
+8. Click the *Module* drop-down list and select **POS** in the list of modules.
 
-9. Click the drop-down list *Event* and select the appropriate pay desk and store in the list of pay desks.
+9. Click the *Event* drop-down list and select the appropriate pay desk and store in the list of pay desks.
 
-10. Click the button [SAVE] in the bottom right corner of the window.   
+10. Click the [SAVE] button in the bottom right corner of the window.   
   The printer is configured for the selected pay desk. The *Print Settings* window is closed. The *Settings for group Global* view is displayed again. The new setting is displayed in the list of settings.
 
 [comment]: <> (Is that right? Check it, when APS is installed)
@@ -69,7 +69,7 @@ The current APS is installed and has been started including a successful login.
 
 ## See also
 
-- [User Interface Printing](VenduoPOS/UserInterface/00_UserInterface.md)
+- [User Interface Printing](/VenduoPOS/UserInterface/00_UserInterface.md)
 - [Install the APS](to_be_completed)
 - [Select a printer](06_CreateStore.md)
 - [Configure the warehouse for POS](01_ConfigureWarehouse.md)

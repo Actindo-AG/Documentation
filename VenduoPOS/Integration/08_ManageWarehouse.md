@@ -1,48 +1,48 @@
-[!!Lager](Actindo/Lager)
+[!!Warehouse](Warehouse)
 
 # Manage the POS warehouse
 
 Manage the warehouse settings to assign one or more specific warehouses to the POS from which the stock is taken and booked. The warehouse specifies where exactly the stock is booked out when a product is sold.
 
-## Check the inventory assignment
+## Check the stock allocation
 
-Check if the inventory assignment is correctly configured so that the store inventory is correctly assigned to the warehouse. The inventory source specifies how the inventory available in the POS system is calculated. In most cases, the inventory source and the warehouse are identical, but they can also differ.   
+Check if the stock allocation is correctly configured so that the store stock is correctly assigned to the warehouse. The stock source specifies how the stock available in the POS system is calculated. In most cases, the stock source and the warehouse are identical, but they can also differ.   
 
 ### Prerequisites
 
 - A POS store is created, see [Create a store](06_CreateStore.md).
-- The inventory assignment is configured, see [Configure the inventory assignment](06_CreateStore.md#configure-the-inventory-assignment).
+- The stock allocation is configured, see [Configure the stock allocation](06_CreateStore.md#configure-the-stock-allocation).
 
 ### Procedure
 
-*Lager > Einstellungen > Tab LAGER > Tab Bestandszuteilung*
+*Warehouse > Settings > Tab WAREHOUSE > Tab Stock allocation*
 
-![Bestandszuteilung](/Assets/Screenshots/Lager/Einstellungen/Lager/Bestandszuteilung/Bestandszuteilung.png "[Bestandszuteilung]")
+![Bestandszuteilung](/Assets/Screenshots/Warehouse/Settings/Warehouse/StockAllocation/StockAllocation.png "[Bestandszuteilung]")
 
-1.  Search for the target channel of the appropriate POS store in the column *Zielkanal*  and check the settings in the corresponding row.
+1.  Search for the target channel of the appropriate POS store in the *Target channel* column and check the settings in the corresponding row.
 
 2. If necessary, edit the settings as described in the following:
-  - Select the option **Berechnung, Lagerbestand** in the drop-down list in the column *Bestandsberechnung* .   
+  - Select the **Calculation, Stock** option in the drop-down list in the *Stock calculation* column.   
     The fields in the warehouse columns are unlocked.
 
   - Double-click the option in a warehouse column to display the drop-down list.
 
-  - Select the option **Yes** in the drop-down list to include the corresponding warehouse in the inventory calculation or select the option **No** to exclude it.
+  - Select the **Yes** option in the drop-down list to include the corresponding warehouse in the stock calculation or select the **No** option to exclude it.
 
   > [Info] Select for each warehouse whether it should be included or not.
 
-3. Click the button [SPEICHERN] in the bottom right corner.   
-  The inventory assignment is saved. The stock is calculated from all selected warehouses.
+3. Click the [SAVE] button in the bottom right corner.   
+  The stock allocation is saved. The stock is calculated from all selected warehouses.
 
 ### Next steps
 
-- [Check the stock source matrix](#check-the-stock-source-matrix)
+- [Check the stock withdrawal matrix](#check-the-stock-withdrawal-matrix)
 - [Manage the warehouse logistics for POS products](#manage-the-warehouse-logistics-for-pos-products)
 - [Manage the stock for POS products](#manage-the-stock-for-pos-products)
 
 ### See also
 
-- [User Interface Lager](/Lager/UserInterface/00_UserInterface.md)
+- [User Interface Warehouse](/Warehouse/UserInterface/00_UserInterface.md)
 - [Create a warehouse](to_be_completed)
 - [Configure the warehouse for POS](01_ConfigureWarehouse.md)
 - [Manage the accounts for POS](02_ManageAccounts.md)
@@ -53,37 +53,37 @@ Check if the inventory assignment is correctly configured so that the store inve
 - [Manage offers for POS](07_ManageOffers.md)
 
 
-## Check the stock source matrix
+## Check the stock withdrawal matrix
 
-Check if the stock source matrix is correctly configured so that a specific warehouse is assigned to a specific store in POS.
+Check if the stock withdrawal matrix is correctly configured so that a specific warehouse is assigned to a specific store in POS.
 
 ### Prerequisites
 
 - A POS store is created, see [Create a store](06_CreateStore.md).
-- The stock source matrix is configured, see [Configure the stock source matrix](06_CreateStore.md#configure-the-stock-source-matrix).
+- The stock withdrawal matrix is configured, see [Configure the stock withdrawal matrix](06_CreateStore.md#configure-the-stock-withdrawal-matrix).
 
 ### Procedure
 
-*Lager > Einstellungen > Tab LAGER > Tab Lagerentnahme-Matrix*
+*Warehouse > Settings > Tab WAREHOUSE > Tab Stock withdrawal matrix*
 
-![Lagerentnahme-Matrix](/Assets/Screenshots/Lager/Einstellungen/Lager/LagerentnahmeMatrix/LagerentnahmeMatrix.png "[Lagerentnahme-Matrix]")
+![Stock withdrawal matrix](/Assets/Screenshots/Warehouse/Settings/Warehouse/StockWithdrawalMatrix/StockWithdrawalMatrix.png "[Stock withdrawal matrix]")
 
 1. Search for the appropriate POS store in the column *Account* and check the settings in the corresponding row.   
 
 2. If necessary, edit the settings as described in the following:
 
-  + Select the option **--alle--** in the drop-down list in the column *Produkt-Warengruppe*.
+  + Select the option **--all--** in the drop-down list in the *Product group* column.
 
-  + Select the output channel via which you want to create offers in the drop-down list in the column *Marktplatz*.
+  + Select the output channel via which you want to create offers in the drop-down list in the *Marketplace* column.
 
-  + Select the option **--alle--** in the drop-down list in the column *Sub-Account*.
+  + Select the option **--all--** in the drop-down list in the *Sub-account* column.
 
-  + Select the option **--alle--** in the drop-down list in the column *Versandanbieter*.
+  + Select the option **--all--** in the drop-down list in the *Shipping provider* column.
 
-  + Select the warehouse from which you want to take the stock in the drop-down list in the column *Lager*.
+  + Select the warehouse from which you want to take the stock in the drop-down list in the *Warehouse* column.
 
-3. Click the button [ZUORDNUNGEN SPEICHERN] in the bottom right corner.   
-  The new assignment in the stock source matrix is saved.
+3. Click the button [SAVE ASSIGNMENTS] in the bottom right corner.   
+  The new assignment in the stock withdrawal matrix is saved.
 
 ### Next steps
 
@@ -92,9 +92,9 @@ Check if the stock source matrix is correctly configured so that a specific ware
 
 ### See also
 
-- [User Interface Lager](/Lager/UserInterface/00_UserInterface.md)
+- [User Interface Warehouse](/Warehouse/UserInterface/00_UserInterface.md)
 - [Create a warehouse](to_be_completed)
-- [Check the inventory assignment](#check-the-inventory-assignment)
+- [Check the stock allocation](#check-the-stock-allocation)
 - [Configure the warehouse for POS](01_ConfigureWarehouse.md)
 - [Manage the accounts for POS](02_ManageAccounts.md)
 - [Configure the printer for POS](03_ConfigurePrinter.md)
@@ -115,22 +115,22 @@ Manage the warehouse logistics for POS product to ensure that products are activ
 
 ### Procedure
 
-*Lager > Schnellbuchen > Tab SCHNELLBUCHEN > Tab Artikelliste*
+*Warehouse > Quick Booking > Tab QUICK BOOKING > Tab Product list*
 
-![Artikelliste](/Assets/Screenshots/Lager/Schnellbuchen/Artikelliste.png "[Artikelliste]")
+![Product list](/Assets/Screenshots/Warehouse/QuickBooking/ProducList.png "[Product list]")
 
-1.  Double click the article in the article list that you want to check. Alternatively, first right click the article and click then the entry **Öffnen** in the displayed context menu.    
-  The article details are displayed on several tabs below the article list. The tab *Basisdaten* is preselected.
+1.  Double click the article in the article list that you want to check. Alternatively, first right click the article and click then the **Open** entry in the displayed context menu.    
+  The article details are displayed on several tabs below the article list. The *Basic data* tab is preselected.
 
-  ![Artikel Basisdaten](/Assets/Screenshots/Lager/Schnellbuchen/Basisdaten/Basisdaten.png "[Artikel Basisdaten]")
+  ![Basic data](/Assets/Screenshots/Warehouse/QuickBooking/BasicData/BasicData.png "[Basic data]")
 
-2. Click the drop-down list *Lageristik für diesen Artikel aktiv* on the right side of the tab *Basisdaten* and select the option **JA**.
+2. Click the *Warehouse logistics active for this product* drop-down list on the right side of the *Basic data* tab and select the **YES** option.
 
 
-3. Click the button [SPEICHERN] in the bottom right corner of the tab *Basisdaten* .   
-  The message *Erfolgreich gespeichert* is displayed at the top. The active warehouse logistics for this article is saved.
+3. Click the [Save] button in the bottom right corner of the *Basic data* tab.   
+  The *Saving successful* message is displayed at the top. The active warehouse logistics for this article is saved.
 
-  ![Erfolgreich gespeichert](/Assets/Screenshots/Lager/Schnellbuchen/ErfolgreichGespeichert.png "[Erfolgreich gespeichert]")
+  ![Saving successful](/Assets/Screenshots/Warehouse/QuickBooking/SavingSuccessful.png "[Saving successful]")
 
 ### Next steps
 
@@ -138,10 +138,10 @@ Manage the warehouse logistics for POS product to ensure that products are activ
 
 ### See also
 
-- [User Interface Lager](/Lager/UserInterface/00_UserInterface.md)
+- [User Interface Warehouse](/Warehouse/UserInterface/00_UserInterface.md)
 - [Create a warehouse](to_be_completed)
-- [Check the inventory assignment](#check-the-inventory-assignment)
-- [Check the stock source matrix](#check-the-stock-source-matrix)
+- [Check the stock allocation](#check-the-stock-allocation)
+- [Check the stock withdrawal matrix](#check-the-stock-withdrawal-matrix)
 - [Configure the warehouse for POS](01_ConfigureWarehouse.md)
 - [Manage the accounts for POS](02_ManageAccounts.md)
 - [Configure the printer for POS](03_ConfigurePrinter.md)
@@ -153,7 +153,7 @@ Manage the warehouse logistics for POS product to ensure that products are activ
 
 ## Manage the stock for POS products
 
-You can adjust the stock quantity of your POS products, e. g. because of an inventory, a purchasing or an ordering.
+You can adjust the stock quantity of your POS products, for instance because of a stock, a purchasing or an ordering.
 
 ### Prerequisites
 
@@ -164,56 +164,57 @@ You can adjust the stock quantity of your POS products, e. g. because of an inve
 
 ### Procedure
 
-*Lager > Schnellbuchen > Tab SCHNELLBUCHEN > Tab Artikelliste*
+*Warehouse > Quick Booking > Tab QUICK BOOKING > Tab Product list*
 
-![Artikelliste](/Assets/Screenshots/Lager/Schnellbuchen/Artikelliste.png "[Artikelliste]")
+![Product list](/Assets/Screenshots/Warehouse/QuickBooking/ProducList.png "[Product list]")
 
-1.  Double click the article in the article list that you want to check. Alternatively, first right click the article and click then the entry **Öffnen** in the displayed context menu.    
+1.  Double click the article in the article list that you want to check. Alternatively, first right click the article and click then the **Open** entry in the displayed context menu.    
 
-  ![Kontextmenu](/Assets/Screenshots/Lager/Schnellbuchen/Kontextmenu.png "[Kontextmenu]")   
+  ![Context menu](/Assets/Screenshots/Warehouse/QuickBooking/ContextMenu.png "[Context menu]")   
 
   The article details are displayed on several tabs below the article list. The tab *Basisdaten* is preselected.
 
-  ![Artikel Basisdaten](/Assets/Screenshots/Lager/Schnellbuchen/Basisdaten/Basisdaten.png "[Artikel Basisdaten]")
+  ![Basic data](/Assets/Screenshots/Warehouse/QuickBooking/BasicData/BasicData.png "[Basic data]")
 
-2. Click the tab *Lager/Lieferanten* .   
-  The tab *Lager/Lieferanten* is displayed. The sub tab *Lagerverwaltung* is preselected.
+2. Click the *Warehouse / Suppliers* tab.   
+  The the *Warehouse / Suppliers* tab is displayed. The *Warehouse management* sub-tab is preselected.
 
-  ![Artikel Lager](/Assets/Screenshots/Lager/Schnellbuchen/LagerLieferanten/Lagerverwaltung/Lagerverwaltung.png "[Artikel Lager]")
+  ![Warehouse management](/Assets/Screenshots/Warehouse/QuickBooking/WarehouseSuppliers/WarehouseManagement/WarehouseManagement.png "[Warehouse management]")
 
-  > [Info] Check if a warehouse is displayed in the section *Lagerorte*. You can only change the stock for the POS article, if a warehouse is assigned.
+  > [Info] Check if a warehouse is displayed in the *Storage locations* section. You can only change the stock for the POS article, if a warehouse is assigned.
 
-3. Click the button [BUCHUNG HINZUFÜGEN] at the bottom of the section *Bestände* .   
+3. Click the [ADD BOOKING] button at the bottom of the *Stocks* section.   
   A window to enter the booking is displayed.
 
-  ![Buchung hinzufügen](/Assets/Screenshots/Lager/Schnellbuchen/LagerLieferanten/Lagerverwaltung/BuchungHinzufuegen.png "[Buchung hinzufügen]")
+  ![Add booking](/Assets/Screenshots/Warehouse/QuickBooking/WarehouseSuppliers/WarehouseManagement/AddBooking.png "[Add booking]")
 
 4. Configure the following settings:
 
-  + Click the drop-down list *Lager* and select the appropriate warehouse from which you want to adjust the stock.
+  + Click the *Stock location* drop-down list and select the appropriate warehouse from which you want to adjust the stock.
 
-  + Click the drop-down list *Buchungsart* and select the appropriate reason for the booking. The following options are available:
-      - **Reservierung**
-      - **Verkauf**
-      - **Bestellung**
-      - **Einkauf**
-      - **Inventurbuchung**
-      - **Lagerumbuchung**
-      - **Retoure**
+  + Click the *Posting type* drop-down list and select the appropriate reason for the booking. The following options are available:
+      - **Reservation**
+      - **Sale**
+      - **Order**
+      - **Purchase**
+      - **Stocktaking entry**
+      - **Stock transfer**
+      - **Return**
       - **Problem**
+      - **Pre-reserve**
 
-      > [Info] For detailed information, see [User Interface Lager](/Lager/UserInterface/00_UserInterface.md).
+      > [Info] For detailed information, see [User Interface Warehouse](/Warehouse/UserInterface/00_UserInterface.md).
 
-  + Enter the number by which the stock should be changed in the field *Änderung*.
+  + Enter the number by which the stock should be changed in the *Change* field.
 
     > [Info] For a stock increase, enter a positive number. For a stock decrease, enter a negative number with a minus sign as a prefix. In the right column of the window, the old stock and a preview of the new stock are displayed.  
 
-  + If desired, select the date on which the stock change will be booked in the field *Buchungsdatum*. By default, the current date is preselected.
+  + If desired, select the date on which the stock change will be booked in the *Posting date* field. By default, the current date is preselected.
 
-  + If desired, enter a comment in the text field *Bemerkung*.
+  + If desired, enter a comment in the *Comment* field.
 
-5. Click the button [SPEICHERN & NEU] in the bottom right corner of the window.   
-    The window is closed. The new stock is displayed in the section *Bestände*.
+5. Click the [SAVE & NEW] button in the bottom right corner of the window.   
+  The window is closed. The new stock is displayed in the *Stocks* section.
 
 ### Next Steps
 
@@ -221,10 +222,10 @@ You can adjust the stock quantity of your POS products, e. g. because of an inve
 
 ### See also
 
-- [User Interface Lager](/Lager/UserInterface/00_UserInterface.md)
+- [User Interface Warehouse](/Warehouse/UserInterface/00_UserInterface.md)
 - [Create a warehouse](to_be_completed)
-- [Check the inventory assignment](#check-the-inventory-assignment)
-- [Check the stock source matrix](#check-the-stock-source-matrix)
+- [Check the stock allocation](#check-the-stock-allocation)
+- [Check the stock withdrawal matrix](#check-the-stock-withdrawal-matrix)
 - [Manage the warehouse logistics for POS products](#manage-the-warehouse-logistics-for-pos-products)
 - [Configure the warehouse for POS](01_ConfigureWarehouse.md)
 - [Manage the accounts for POS](02_ManageAccounts.md)

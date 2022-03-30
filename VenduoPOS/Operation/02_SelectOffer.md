@@ -1,4 +1,4 @@
-[!!Venduo POS](Actindo/Venduo POS)
+[!!Venduo POS](POS)
 
 # Select an offer
 
@@ -16,8 +16,8 @@ The QuickSelect option offers you the possibility to select an offer by clicking
 
 ### Prerequisites
 
-- Offers for POS are created, see [Manage offers for POS](VenduoPOS/Integration/07_ManageOffers.md).
-- A QuickSelect Category for POS is created, see [Create a QuickSelect Category](VenduoPOS/Integration/07_ManageOffers.md#create-a-quickselect-category).
+- Offers for POS are created, see [Manage offers for POS](/VenduoPOS/Integration/07_ManageOffers.md).
+- A QuickSelect Category for POS is created, see [Create a QuickSelect Category](/VenduoPOS/Integration/07_ManageOffers.md#create-a-quickselect-category).
 
 ### Procedure
 
@@ -43,8 +43,8 @@ The QuickSelect option offers you the possibility to select an offer by clicking
 
 ### See also
 
-- [User Interface Venduo POS](VenduoPOS/UserInterface/00_UserInterface.md)
-- [Manage offers for POS](VenduoPOS/Integration/07_ManageOffers.md)
+- [User Interface Venduo POS](/VenduoPOS/UserInterface/00_UserInterface.md)
+- [Manage offers for POS](/VenduoPOS/Integration/07_ManageOffers.md)
 - [Open a pay desk](01_OpenPayDesk.md)
 
 
@@ -55,7 +55,7 @@ You may select an offer or search for it by entering its name in the search bar.
 
 ### Prerequisites
 
-Offers for POS are created, see [Manage offers for POS](VenduoPOS/Integration/07_ManageOffers.md).
+Offers for POS are created, see [Manage offers for POS](/VenduoPOS/Integration/07_ManageOffers.md).
 
 ### Procedure
 
@@ -63,7 +63,7 @@ Offers for POS are created, see [Manage offers for POS](VenduoPOS/Integration/07
 
 ![Cashpoint](/Assets/Screenshots/VenduoPOS/Sales/Cashpoint/Cashpoint.png "[Cashpoint]")
 
-1. Click the search bar *Find offer by nam...* in the upper left part of the tab.  
+1. Click the *Find offer by nam...* search bar in the upper left part of the tab.  
   The cursor is displayed in the search bar.
 
 2. Enter the name of the offer or the keyword you are searching for in the search bar.
@@ -89,9 +89,9 @@ Offers for POS are created, see [Manage offers for POS](VenduoPOS/Integration/07
 
 ### See also
 
-- [User Interface Venduo POS](VenduoPOS/UserInterface/00_UserInterface.md)
+- [User Interface Venduo POS](/VenduoPOS/UserInterface/00_UserInterface.md)
 - [Select by QuickSelect](#select-by-quickselect)
-- [Manage offers for POS](VenduoPOS/Integration/07_ManageOffers.md)
+- [Manage offers for POS](/VenduoPOS/Integration/07_ManageOffers.md)
 - [Open a pay desk](01_OpenPayDesk.md)
 
 
@@ -101,7 +101,7 @@ You may select an offer or search for it by entering its offer number in the sea
 
 ### Prerequisites
 
-Offers for POS are created, see [Manage offers for POS](VenduoPOS/Integration/07_ManageOffers.md).
+Offers for POS are created, see [Manage offers for POS](/VenduoPOS/Integration/07_ManageOffers.md).
 
 ### Procedure
 
@@ -109,7 +109,7 @@ Offers for POS are created, see [Manage offers for POS](VenduoPOS/Integration/07
 
 ![Cashpoint](/Assets/Screenshots/VenduoPOS/Sales/Cashpoint/Cashpoint.png "[Cashpoint]")
 
-1. Click the search bar *Find offer by nam...* in the upper left part of the tab.  
+1. Click the *Find offer by nam...* search bar in the upper left part of the tab.  
   The cursor is displayed in the search bar.
 
 2. Enter the number of the offer you are searching for in the search bar.
@@ -133,20 +133,20 @@ Offers for POS are created, see [Manage offers for POS](VenduoPOS/Integration/07
 
 ### See also
 
-- [User Interface Venduo POS](VenduoPOS/UserInterface/00_UserInterface.md)
+- [User Interface Venduo POS](/VenduoPOS/UserInterface/00_UserInterface.md)
 - [Select by QuickSelect](#select-by-quickselect)
 - [Select by name](#select-by-name)
-- [Manage offers for POS](VenduoPOS/Integration/07_ManageOffers.md)
+- [Manage offers for POS](/VenduoPOS/Integration/07_ManageOffers.md)
 - [Open a pay desk](01_OpenPayDesk.md)
 
 
 ## Use single scan
 
-If the same offer is selected more than once, it is displayed in the bill list as one product with the corresponding quantity indication. By using the single scan feature, each offer is listed as a single product in the bill list, even if it is the same offer. This allows you to treat each product in the booking individually, e. g. to apply an individual discount.
+If the same offer is selected more than once, it is displayed in the bill list as one product with the corresponding quantity indication. By using the single scan feature, each offer is listed as a single product in the bill list, even if it is the same offer. This allows you to treat each product in the booking individually, for instance to apply an individual discount.
 
 ### Prerequisites
 
-Offers for POS are created, see [Manage offers for POS](VenduoPOS/Integration/07_ManageOffers.md).
+Offers for POS are created, see [Manage offers for POS](/VenduoPOS/Integration/07_ManageOffers.md).
 
 ### Procedure
 
@@ -154,7 +154,7 @@ Offers for POS are created, see [Manage offers for POS](VenduoPOS/Integration/07
 
 ![Cashpoint](/Assets/Screenshots/VenduoPOS/Sales/Cashpoint/Cashpoint.png "[Cashpoint]")
 
-1. Activate the toggle ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Single Scan* in the bill list on the right side of the pay desk interface.   
+1. Activate the *Single Scan* toggle in the bill list on the right side of the pay desk interface.   
 
 > [Info] The single scan works from the moment it is toggled on. It does not apply backwards to products that were already on the bill list at the time of activation.   
 Even if the single scan function is active, you can edit the quantity of products manually in the bill list, see [Edit the quantity of a product](03_EditBillList.md#edit-the-quantity-of-a-product).
@@ -174,9 +174,9 @@ Even if the single scan function is active, you can edit the quantity of product
 
 ### See also
 
-- [User Interface Venduo POS](VenduoPOS/UserInterface/00_UserInterface.md)
+- [User Interface Venduo POS](/VenduoPOS/UserInterface/00_UserInterface.md)
 - [Select by QuickSelect](#select-by-quickselect)
 - [Select by name](#select-by-name)
 - [Select by number](#select-by-number)
-- [Manage offers for POS](VenduoPOS/Integration/07_ManageOffers.md)
+- [Manage offers for POS](/VenduoPOS/Integration/07_ManageOffers.md)
 - [Open a pay desk](01_OpenPayDesk.md)

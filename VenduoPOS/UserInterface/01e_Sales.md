@@ -24,13 +24,19 @@ The table displays all returns. Depending on the settings, the displayed columns
   Number of items that are returned. This field is read-only.
 
 - *Price*   
-  ???
+  Price of items that are returned. This field is read-only.
+
+[comment]: <> (Is that right?)
 
 - *Store*   
-  ???
+  Store to which the items are returned. This field is read-only.
+
+[comment]: <> (Is that right?)
 
 - *Print*   
-  ???
+  Click this button to print a list of return.
+
+[comment]: <> (Is that right?)
 
 - *ID*   
   ID number of the return. This field is read-only.
@@ -55,7 +61,8 @@ The table displays all returns. Depending on the settings, the displayed columns
   Click this button to cancel the process and close the *Add Return* view.
 
 - [SUMMARY]   
-  Click this button to ???
+  Click this button to display a summary of all returns.
 
+[comment]: <> (Is that right?)
 
   [comment]: <> (to be completed)

@@ -1,7 +1,7 @@
-[!!PIM](Actindo/PIM)
-[!!Venduo POS](Actindo/Venduo POS)
-[!!DataHub](Actindo/DataHub)
-[!!Omni-Channel](Actindo/Omni-Channel)
+[!!PIM](PIM)
+[!!Venduo POS](POS)
+[!!DataHub](DataHub)
+[!!Omni-Channel](Channels)
 
 
 # Manage offers for POS
@@ -117,7 +117,7 @@ All not mapped PIM product types are displayed in the list.
 
    ![Mapping from PIM](/Assets/Screenshots/VenduoPOS/Management/MappingFromPIM/MappingFromPIM02.png "[Mapping from PIM]")
 
-2. Select the checkboxes ![Checkbox](/Assets/Icons/Checkbox.png "[Checkbox]") of the product types you want to map.   
+2. Select the checkboxes of the product types you want to map.   
 A toolbar is displayed at the bottom.
 
 3. Click the button [CREATE MAPPINGS] in the toolbar.    
@@ -133,7 +133,7 @@ The selected mappings are removed from the list when the mappings are created.
 
 ### See also
 
-- [User Interface Venduo POS](VenduoPOS/UserInterface/00_UserInterface.md)
+- [User Interface Venduo POS](/VenduoPOS/UserInterface/00_UserInterface.md)
 - [Create products for POS](#create-products-for-pos)
 - [Create a product type](#create-a-product-type)
 - [Configure the warehouse for POS](01_ConfigureWarehouse.md)
@@ -264,7 +264,7 @@ No prerequisites to fulfill.
   > [Info] If you have not created a new product type, the only available product type is **PIM Basisprodukt** .   
   For detailed information on how to create a product type for POS, see [Create a product type](#create-a-product-type).
 
-3. Enter a SKU in the field *SKU*, e. g. **Voucher**.
+3. Enter a SKU in the field *SKU*, for instance **Voucher**.
 
 > [Info] The SKU (Stock Keeping Unit) is an identification number for the article. Therefore, it has to be uniquely assigned to a single article and should not be changed once assigned.
 
@@ -293,7 +293,7 @@ No prerequisites to fulfill.
 
    ![Edit offer](/Assets/Screenshots/OmniChannel/Offers/Offers/EditOffer.png "[Edit offer]")
 
-2. Scroll down in the attributes and activate the toggle ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Voucher*.
+2. Scroll down in the attributes and activate the toggle *Voucher*.
 
 3. Click the button [SAVE] in the upper right corner.
 The voucher is saved. The *Edit offer* view is closed.
@@ -353,11 +353,11 @@ At least one product has been created, see [Create products for POS](#create-pro
     + *All products*:  Offers for all existing PIM products are created.
     + *Select Products*: Select manually the products you want to create an offer for.    
 
-  + Select the marketplace for which you want to create the offers in the drop-down list *Connection*, e. g. the appropriate POS Store.
+  + Select the marketplace for which you want to create the offers in the drop-down list *Connection*, for instance the appropriate POS Store.
 
     > [Info] A POS Store is handled like a marketplace in Omni-Channel.
 
-  + Activate the toggle ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Do not create duplicates* to automatically exclude offers that already exist from the creation process.  
+  + Activate the toggle *Do not create duplicates* to automatically exclude offers that already exist from the creation process.  
 
     > [Info] Be aware that, if you deactivate the toggle ![Toggle Inactive](/Assets/Icons/Toggle.png "[Toggle]") *Do not create duplicates*, existing offers are created again, an automatically generated SKU is assigned to them and they exist in addition to the original offers.
 
@@ -368,7 +368,7 @@ At least one product has been created, see [Create products for POS](#create-pro
 
    ![Select Products](/Assets/Screenshots/OmniChannel/Offers/Offers/PIMOffer/PO02.png "[Select Products]")
 
-5. Select the checkboxes ![Checkbox](/Assets/Icons/Checkbox.png "[Checkbox]") of all products to which you want to create an offer for.   
+5. Select the checkboxes of all products to which you want to create an offer for.   
   A toolbar is displayed above the product list.
 
 6. Click the button [ADD TO SELECTION >] in the toolbar.   
@@ -419,7 +419,7 @@ At least one product has been created, see [Create products for POS](#create-pro
 
 > [Info] The SKU (Stock Keeping Unit) is an identification number for the article. Therefore, it has to be uniquely assigned to a single article and should not be changed once assigned.
 
-4. Click the drop-down list *Select Connection* and select the marketplace for which you want to create the offers, e. g. the appropriate POS Store.   
+4. Click the drop-down list *Select Connection* and select the marketplace for which you want to create the offers, for instance the appropriate POS Store.   
   The drop-down list *Select Attribute Set* is unlocked.
 
 5. Click the drop-down list *Select Attribute Set* and select the appropriate attribute set for the offer.
@@ -463,12 +463,12 @@ At least one product has been created, see [Create products for POS](#create-pro
 
 5. Configure the following settings:
 
-  + Select the marketplace for which you want to create the offers in the drop-down list *Connection*, e. g. the appropriate POS Store.   
+  + Select the marketplace for which you want to create the offers in the drop-down list *Connection*, for instance the appropriate POS Store.   
   The drop-down list *Select Attribute Set* is unlocked.
 
   + Select the appropriate attribute set for the offer in the drop-down list *Select Attribute Set*.
 
-  + Activate the toggle ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") to automatically generate a SKU for the product in the offer.   
+  + Activate the toggle to automatically generate a SKU for the product in the offer.   
 
   + Select one of the radio buttons for the *ETL mode* :   
    ![Radionbutton](/Assets/Icons/Radiobutton.png "[Radiobutton]") *manual*: Changes in a PIM product must be triggered manually to be applied to the offers.   
@@ -523,7 +523,7 @@ At least one product has been created, see [Create products for POS](#create-pro
    ![Radionbutton](/Assets/Icons/Radiobutton.png "[Radiobutton]") *automatic*: Changes in a PIM product are automatically applied to the offers.
 
 
-  + Activate the toggles ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") of the marketplaces for which you want to create the offers in the section *Select connections*. If you want to create an offer for all channels, click the button [SELECT ALL] to activate all toggles.
+  + Activate the toggles of the marketplaces for which you want to create the offers in the section *Select connections*. If you want to create an offer for all channels, click the button [SELECT ALL] to activate all toggles.
 
 6. Click the button [FINISH] in the bottom right corner of the window.   
   The *Select destination attribute sets* wizard window is displayed.
@@ -578,7 +578,7 @@ At least one offer has been created, see [Create an offer for POS](#create-an-of
 
 ![OC Offers Inactive](/Assets/Screenshots/OmniChannel/Offers/Offers/OffersInactive.png "[OC Offers Inactive]")
 
-1. Select the checkboxes ![Checkbox](/Assets/Icons/Checkbox.png "[Checkbox]") of the offers you want to activate.   
+1. Select the checkboxes of the offers you want to activate.   
   A toolbar is displayed above the offer list.
 
 2. Click the drop-down list *Change Status to* in the right side of the toolbar and select the option **Active** .   

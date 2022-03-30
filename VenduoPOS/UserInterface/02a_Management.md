@@ -552,7 +552,7 @@ Define the width of the receipt, as it may vary depending on the printer.
   > [Info] So-called monospaced fonts are used For receipt printing. This means that each character has the same width.
 
 - *Breite in Pixel*   
-  Define the width of the receipt in pixels. This size is needed to calculate the width for images, e. g. logos.
+  Define the width of the receipt in pixels. This size is needed to calculate the width for images, for instance logos.
 
 - *Von Default übernehmen* ![Toggle](/Assets/Icons/Toggle.png "[Toggle]")     
   Activate this toggle to apply the default settings or deactivate this toggle to specify custom settings. When the toggle is active, all fields in the view are locked. By default, this toggle is active.
@@ -683,7 +683,8 @@ Define a shelf in the quarantine warehouse for returns with defects.
 - *Lager ID*   
   Enter the number of the quarantine warehouse.
 
-[comment]: <> (Is shelf name right? Not number of the shelf???)
+[comment]: <> (Is shelf name right? Not number of the shelf?)
+
 - *Fachname*   
   Enter the name of the shelf for the defect returns.
 
