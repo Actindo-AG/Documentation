@@ -30,7 +30,7 @@ The configuration process starts. The *Fiscal years* wizard window is displayed.
 
 In the first step you have to configure the fiscal years.
 
-![Fiscal Year](/Assets/Screenshots/Accounting/AccountingWizard/FiscalYear.png "[Fiscal Year]")
+![Fiscal years](/Assets/Screenshots/Accounting/AccountingWizard/FiscalYears.png "[Fiscal years]")
 
  1. Enter a description for the fiscal year in the *Description* field. The system shows the current year by default.  
 
