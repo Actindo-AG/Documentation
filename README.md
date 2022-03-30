@@ -245,17 +245,17 @@ After you have created your SSH Key and configured the Git Bash terminal, you ca
 7. Add the directory where you cloned the repository as a project folder.
 
 
-## Git workflow in documentation
+## Git and JIRA workflow in documentation
 
-The following scheme shows the documentation workflow via Git. Each step is described in detail in the following chapters.
+The following scheme shows the documentation workflow via Git and JIRA. Each step is described in detail in the following chapters.
 
-![Git workflow](/Assets/GitWorkflow.jpg "[Git workflow]")
+![Git and JIRA workflow](/Assets/GitJIRAWorkflow.jpg "[Git and JIRA workflow]")
 
 To start your documentation, you need to prepare as described below.
 
 1. Open JIRA, navigate to the ticket you will work on and note the ticket-number.
 
-  > [Info] When you start working on a JIRA ticket, switch the workkflow status in JIRA to **IN PROGRESS**.
+  > [Info] When you start working on a JIRA ticket, switch the workflow status in JIRA to **IN PROGRESS**.
 
 2. Open your code editor and the repository project.
 
