@@ -34,9 +34,9 @@ An ETL process has been triggered, for instance by a rerun of mapping, see [Reru
   - **Todo**: All pending ETL processes are displayed.
   - **Error**: All faulty ETL processes are displayed.
   - **Done**: All completed ETL processes are displayed.
-  - **Destination frozen**: ???
+  - **Destination frozen**: All ETL processes, whose destination attribute is blocked because the corresponding entity is opened by a user, are displayed.
   - **Awaiting confirmation**: All ETL processes that must be confirmed are displayed.
-  - **Synchronous**: ???
+  - **Synchronous**: All ETL processes that are executed synchronously are displayed for the duration of processing.
   - **Awaiting confirmation different user**: All ETL processes that must be confirmed by another user than the creator are displayed.
   - **Semi-automatic accepted**: All ETL processes have been confirmed are displayed.   
 
@@ -136,6 +136,7 @@ An ETL process has been canceled because of an error. When the error has been fi
   ![Process retried](/Assets/Screenshots/DataHub/Settings/ETLProcesses/ProcessRetried.png "[Process retried]")
 
   If the rerun is successful, the mapping status changes to **Done** and it is removed from the list of mappings with the **Error** status.
+
 ### See also
 
 - [User Interface DataHub](/DataHub/UserInterface/00_UserInterface.md)
