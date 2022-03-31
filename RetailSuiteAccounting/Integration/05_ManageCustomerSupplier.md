@@ -1,10 +1,11 @@
-[!!Accounting](Actindo/Accounting)
+[!!Accounting](RetailSuiteAccounting)
 
 # Manage the customer/supplier
 
 The *Accounting* module contains a function to create new customers and suppliers, and to enter all relevant information about them. This function is also available in the *Invoicing* module, see [Invoicing](XX_FileName.md#headingID). This information is needed for both modules to operate.
 
-> [Info] Note that any customer/supplier information created, edited or deleted in the *Accounting* module will be also be created, edited or deleted in the *Invoicing* module, and vice versa. Note that you may need to refresh the page with the F5 key to see the changes in the Customer/supplier list tab.
+> [Info] Any customer/supplier information created, edited or deleted in the *Accounting* module will be also be created, edited or deleted in the *Invoicing* module, and vice versa. It may be necessary to refresh the page with the F5 key, though, to see the changes in the *Customer/supplier list* tab.
+
 
 ## Create a customer/supplier
 
@@ -17,11 +18,11 @@ You can create a customer/supplier that is not yet available in the system.
 
 ### Procedure
 
-*Accounting > Select the fiscal year > Settings > DEBTORS/CREDITORS tab > Create customer/supplier tab*
+*Accounting > Select the fiscal year > Settings > Tab DEBTORS/CREDITORS > Tab Create customer/supplier*
 
-![Create a customer/supplier](/Assets/Screenshots/Accounting/Settings/CustomerSupplier/Create_CustomerSupplier.png "[Create a customer/supplier")
+![Create a customer/supplier](/Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/CreateCustomerSupplier.png "[Create a customer/supplier]")
 
-1. Click the *Create debtor/creditor* drop-down list in the Address/Contact sub-tab and select the appropriate option (**Debtor (customer)/Creditor (supplier)**).
+1. Click the *Create debtor/creditor* drop-down list in the *Address/Contact* sub-tab and select the appropriate option (**Debtor (customer)/Creditor (supplier)**).
 
 2. Enter a number for the customer/supplier in the *Debtor/creditor no.* field or leave it empty for the next free number.
 
@@ -35,10 +36,10 @@ You can create a customer/supplier that is not yet available in the system.
 
   > [Info] Note that either the *Company* or the *Surname* field must be filled out to be able to create a new customer/supplier.
 
-5. Enter any other relevant customer/supplier information in the corresponding fields.
+6. Enter any other relevant customer/supplier information in the corresponding fields.
 
-6. Click the [SAVE] button.  
-A pop-up window is displayed to confirm that the customer/supplier has been created. The newly created customer/supplier is displayed in the Customer/supplier list tab.
+7. Click the [SAVE] button.  
+A pop-up window is displayed to confirm that the customer/supplier has been created. The newly created customer/supplier is displayed in the *Customer/supplier list* tab.
 
 ### Next steps
 
@@ -49,7 +50,10 @@ A pop-up window is displayed to confirm that the customer/supplier has been crea
 
 ### See also
 
-- [User Interface Accounting](/Accounting/UserInterface/00_UserInterface.md)
+- [Deb/Kred.](/RetailSuiteAccounting/UserInterface/00_UserInterface.md)
+- [DEB./KREDITOREN](/RetailSuiteAccounting/UserInterface/00_UserInterface.md)
+- [Adresse/Kontakt](/RetailSuiteAccounting/UserInterface/00_UserInterface.md)
+- [Lieferadressen / Weitere Adressen](/RetailSuiteAccounting/UserInterface/00_UserInterface.md)
 
 
 ## Edit a customer/supplier
@@ -64,21 +68,21 @@ You can edit an existing customer/supplier, for example if a setting must be cha
 
 ### Procedure
 
-*Accounting > Select the fiscal year > Settings > DEBTORS/CREDITORS tab > Customer/supplier list tab*
+*Accounting > Select the fiscal year > Settings > Tab DEBTORS/CREDITORS > Tab Customer/supplier list*
 
-![Edit a customer/supplier](/Assets/Screenshots/Accounting/Settings/CustomerSupplier/Edit_CustomerSupplier.png "[Edit a customer/supplier")
+![Edit a customer/supplier](/Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/EditCustomerSupplier.png "[Edit a customer/supplier]")
 
 1. Double click on the existing customer/supplier to be edited.   
-A new tab opens with the customer/supplier number. The existing data for the selected customer/supplier are displayed in the corresponding fields in the Address/Contact sub-tab.
+A new tab opens with the customer/supplier number. The existing data for the selected customer/supplier are displayed in the corresponding fields in the *Address/Contact* sub-tab.
 
   > [Warning] Be aware that any changes made to an existing customer/supplier will overwrite the existing values.
 
 2. Edit the fields as appropriate.
 
-3. Click the button [SAVE].   
-A pop-up window is displayed to confirm that the customer/supplier has been edited. The edited customer/supplier displays the changes in the Customer/supplier list tab.
+3. Click the [SAVE] button.   
+A pop-up window is displayed to confirm that the customer/supplier has been edited. The edited customer/supplier displays the changes in the *Customer/supplier list* tab.
 
-  > [Info] Note that you may need to refresh the page with the F5 key to see the changes in the Customer/supplier list tab.
+  > [Info] It may be necessary to refresh the page with the F5 key to see the changes in the *Customer/supplier list* tab.
 
 ### Next steps
 
@@ -88,7 +92,10 @@ A pop-up window is displayed to confirm that the customer/supplier has been edit
 
 ### See also
 
-- [User Interface Accounting](/Accounting/UserInterface/00_UserInterface.md)
+- [Deb/Kred.](/RetailSuiteAccounting/UserInterface/00_UserInterface.md)
+- [DEB./KREDITOREN](/RetailSuiteAccounting/UserInterface/00_UserInterface.md)
+- [Adresse/Kontakt](/RetailSuiteAccounting/UserInterface/00_UserInterface.md)
+- [Lieferadressen / Weitere Adressen](/RetailSuiteAccounting/UserInterface/00_UserInterface.md)
 
 
 ## Delete a customer/supplier
@@ -105,7 +112,7 @@ You can delete an existing customer/supplier, for example if it is no longer app
 
 *Accounting > Select the fiscal year > Settings > Tab DEBTORS/CREDITORS > Tab Customer/supplier list*
 
-![Delete a customer/supplier](/Assets/Screenshots/Accounting/Settings/CustomerSupplier/Delete_CustomerSupplier.png "[Delete a customer/supplier")
+![Delete a customer/supplier](/Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/DeleteCustomerSupplier.png "[Delete a customer/supplier]")
 
 1. Double click on the existing customer/supplier to be deleted.
   > [Warning] Be aware that the existing customer/supplier will be deleted permanently.
@@ -122,4 +129,7 @@ The selected customer/supplier is deleted.
 
 ### See also
 
-- [User Interface Accounting](/Accounting/UserInterface/00_UserInterface.md)
+- [Deb/Kred.](/RetailSuiteAccounting/UserInterface/00_UserInterface.md)
+- [DEB./KREDITOREN](/RetailSuiteAccounting/UserInterface/00_UserInterface.md)
+- [Adresse/Kontakt](/RetailSuiteAccounting/UserInterface/00_UserInterface.md)
+- [Lieferadressen / Weitere Adressen](/RetailSuiteAccounting/UserInterface/00_UserInterface.md)
