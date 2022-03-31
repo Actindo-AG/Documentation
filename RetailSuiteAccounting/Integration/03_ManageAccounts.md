@@ -9,7 +9,7 @@ The accounts are set up during the configuration process via the accounting wiza
 
 ## Check the account availability
 
-You may check the availability of a certain account number before creating it as account numbers can only be assigned once.    
+You may check the availability of a certain account number before creating it, as account numbers can only be assigned once.    
 Each account number is assigned to a specific number range, which indicates the account class.    
 For detailed information about the account classes, see [User Interface Accounting](/RetailSuiteAccounting/UserInterface/00_UserInterface.md).
 
@@ -22,9 +22,9 @@ For detailed information about the account classes, see [User Interface Accounti
 
 *Accounting > Select the fiscal year > Settings > Tab ACCOUNTS*
 
-![Account availability](/Assets/Screenshots/RetailSuiteAccounting/Settings/Accounts/Account_availability.png "[Account availability]")
+![Account availability](/Assets/Screenshots/RetailSuiteAccounting/Settings/Accounts/AccountAvailability.png "[Account availability]")
 
-1. Select the corresponding number range in the drop-down list *Account class*.   
+1. Select the corresponding number range in the *Account class* drop-down list.   
   All accounts of the selected account class are displayed in the list.
 
 2. Check which account numbers are still available by navigating through the list.
@@ -34,7 +34,6 @@ For detailed information about the account classes, see [User Interface Accounti
 - [Create an account](#create-an-account)
 - [Edit an account](#edit-an-account)
 - [Delete an account](#delete-an-account)
-- [Manage the accounts](03_ManageAccounts.md)
 - [Manage the fiscal year](04_ManageFiscalYear.md)
 - [Manage the customer/supplier](05_ManageCustomerSupplier.md)
 - [Manage the fixed bookings](06_ManageFixedBookings.md)
@@ -43,6 +42,8 @@ For detailed information about the account classes, see [User Interface Accounti
 ### See also
 
 - [User Interface Accounting](/RetailSuiteAccounting/UserInterface/00_UserInterface.md)
+- [Chart of accounts](/RetailSuiteAccounting/UserInterface/00_UserInterface.md)
+- [Accounts](/RetailSuiteAccounting/UserInterface/00_UserInterface.md)
 
 
 ## Create an account
@@ -54,31 +55,32 @@ You can create an account that is not yet available in the system.
 - The accounting is configured via the configuration wizard, see [Run the Accounting Wizard](01_RunAccountingWizard.md).
 - A valid fiscal year is created, see [Manage the fiscal year](04_ManageFiscalYear.md).
 - The account availability is checked, see [Check the account availability](#check-the-account-availability).
-- The tax key validity is checked and, if necessary, updated, see [Edit a tax key](#edit-a-tax-key).
+- The tax key validity is checked and, if necessary, updated, see [Edit a tax key](02_ManageTaxKeys.md#edit-a-tax-key).
 
 ### Procedure
 
 *Accounting > Select the fiscal year > Settings > Tab ACCOUNTS*
 
-![Create an account](/Assets/Screenshots/RetailSuiteAccounting/Settings/Accounts/Create_account.png "[Create an account]")
+![Create an account](/Assets/Screenshots/RetailSuiteAccounting/Settings/Accounts/CreateAccount.png "[Create an account]")
 
-1. Enter an available account number in the field *Account number*.
+1. Enter an available account number in the *Account number* field.
 
-2. Enter an account name in the field *Description*.
+2. Enter an account name in the *Description* field.
 
-3. Click the drop-down list *Tax type* and select the appropriate option:
+3. Click the *Tax type* drop-down list and select the appropriate option:
 
-      - **( )Not tax**
+      - **( )No tax**
       - **(I)Input tax**
       - **(V)VAT**
       - **(IV)Input tax and VAT**
       - **(NV)No VAT possible**
 
 
-4. Click the drop-down list *Tax key/auto* and select the appropriate option.
-  > [Info] Before creating an account, it is recommended to check the validity of the tax rate in the corresponding country in the tab TAX KEYS.
+4. Click the *Tax key/auto* drop-down list and select the appropriate option.
 
-5. Click the drop-down list *Special features* and select the appropriate option:
+  > [Info] Before creating an account, it is recommended to check the validity of the tax rate in the corresponding country in the *TAX KEYS* tab.
+
+5. Click the *Special features* drop-down list and select the appropriate option:
 
      - **( )Normal**
      - **(L)Locked**
@@ -87,15 +89,12 @@ You can create an account that is not yet available in the system.
      - **(MT)Money transit account**
 
 
-6. Select the corresponding function for the account in the drop-down list *Function* .   
-  For detailed information, see [User Interface Accounting](/RetailSuiteAccounting/UserInterface/00_UserInterface.md).
+6. Select the corresponding function for the account in the *Function* drop-down list. For detailed information, see [User Interface Accounting](/RetailSuiteAccounting/UserInterface/00_UserInterface.md).
 
-[comment]: <> (If reference to UserInterface is made and all drop-down list options explained there, maybe delete drop-down list options in points 3 and 4 too?)
+7. Click the *Currency* drop-down list and select the appropriate option.
 
-7. Click the drop-down list *Currency* and select the appropriate option.
-
-8. Click the button [SAVE & NEW].   
-  The new account is displayed in the account list.
+8. Click the [SAVE & NEW] button.   
+  The account has been saved. The new account is displayed in the account list.
 
 ### Next steps
 
@@ -109,6 +108,8 @@ You can create an account that is not yet available in the system.
 ### See also
 
 - [User Interface Accounting](/RetailSuiteAccounting/UserInterface/00_UserInterface.md)
+- [Chart of accounts](/RetailSuiteAccounting/UserInterface/00_UserInterface.md)
+- [Accounts](/RetailSuiteAccounting/UserInterface/00_UserInterface.md)
 
 
 ## Edit an account
@@ -124,9 +125,9 @@ You can edit an existing account, for example if a tax rate needs to be updated.
 
 *Accounting > Select the fiscal year > Settings > Tab ACCOUNTS*
 
-![Edit an account](/Assets/Screenshots/RetailSuiteAccounting/Settings/Accounts/Edit_account.png "[Edit an account]")
+![Edit an account](/Assets/Screenshots/RetailSuiteAccounting/Settings/Accounts/EditAccount.png "[Edit an account]")
 
-1. Select the corresponding number range in the drop-down list *Account class*.   
+1. Select the corresponding number range in the *Account class* drop-down list.   
   All accounts of the selected account class are displayed in the list.
 
 2. Select the account to be edited.
@@ -134,7 +135,7 @@ You can edit an existing account, for example if a tax rate needs to be updated.
 
 3. Edit the fields as appropriate.
 
-4. Click the button [SAVE].   
+4. Click the [SAVE] button.   
 The account has been edited. The edited account is displayed in the list.
 
 
@@ -148,7 +149,9 @@ The account has been edited. The edited account is displayed in the list.
 
 ### See also
 
-  - [User Interface Accounting](/RetailSuiteAccounting/UserInterface/00_UserInterface.md)
+- [User Interface Accounting](/RetailSuiteAccounting/UserInterface/00_UserInterface.md)
+- [Chart of accounts](/RetailSuiteAccounting/UserInterface/00_UserInterface.md)
+- [Accounts](/RetailSuiteAccounting/UserInterface/00_UserInterface.md)
 
 
 ## Delete an account
@@ -164,12 +167,12 @@ You can delete an existing account, for example if it is no longer applicable.
 
 *Accounting > Select the fiscal year > Settings > Tab ACCOUNTS*
 
-![Delete an account](/Assets/Screenshots/RetailSuiteAccounting/Settings/Accounts/Delete_account.png "[Delete an account]")
+![Delete an account](/Assets/Screenshots/RetailSuiteAccounting/Settings/Accounts/DeleteAccount.png "[Delete an account]")
 
 1. Select the account to be deleted.
-  > [Warning] Be aware that the existing tax key will be deleted permanently.
+  > [Warning] Be aware that the existing account will be deleted permanently.
 
-2. Click the button [DELETE].  
+2. Click the [DELETE] button.  
 The selected account has been deleted.
 
 ### Next steps
@@ -182,3 +185,5 @@ The selected account has been deleted.
 ### See also
 
 - [User Interface Accounting](/RetailSuiteAccounting/UserInterface/00_UserInterface.md)
+- [Chart of accounts](/RetailSuiteAccounting/UserInterface/00_UserInterface.md)
+- [Accounts](/RetailSuiteAccounting/UserInterface/00_UserInterface.md)
