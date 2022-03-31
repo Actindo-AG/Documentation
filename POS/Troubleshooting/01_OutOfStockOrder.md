@@ -1,4 +1,4 @@
-[!!Warehouse](Warehouse)
+[!!Warehouse](RetailSuiteWarehousing)
 [!!Omni-Channel](Channels)
 
 # Handle an out-of-stock order
@@ -12,24 +12,24 @@ Follow the instructions below if this error message is displayed.
 ## Procedure
 *Warehouse > Quick Booking > Tab QUICK BOOKING > Tab Product list*
 
-![Product list](/Assets/Screenshots/Warehouse/QuickBooking/ProductList.png "[Product list]")
+![Product list](/Assets/Screenshots/RetailSuiteWarehousing/QuickBooking/ProductList.png "[Product list]")
 
 1.  Double click the article in the article list that you want to check. Alternatively, first right click the article and click then the **Open** entry in the displayed context menu.    
     The article details are displayed on several tabs below the article list. The *Basic data* tab is preselected.
 
-  ![Basic data](/Assets/Screenshots/Warehouse/QuickBooking/BasicData/BasicData.png "[Basic data]")
+  ![Basic data](/Assets/Screenshots/RetailSuiteWarehousing/QuickBooking/BasicData/BasicData.png "[Basic data]")
 
 2. Click the *Warehouse / Supplier* tab.   
   The *Warehouse / Supplier* tab is displayed. The *Warehouse management* sub-tab is preselected.
 
-  ![Warehouse management](/Assets/Screenshots/Warehouse/QuickBooking/WarehouseSuppliers/WarehouseManagement/WarehouseManagement.png "[Warehouse management]")
+  ![Warehouse management](/Assets/Screenshots/RetailSuiteWarehousing/QuickBooking/WarehouseSuppliers/WarehouseManagement/WarehouseManagement.png "[Warehouse management]")
 
   > [Info] Check if a warehouse is displayed in the *Storage locations* section. You can only change the stock for the POS article, if a warehouse is assigned.
 
 3. Click the [ADD BOOKING] button at the bottom of the *Stocks* section.   
   A window to enter the booking is displayed.
 
-  ![Add booking](/Assets/Screenshots/Warehouse/QuickBooking/WarehouseSuppliers/WarehouseManagement/AddBooking.png "[Add booking]")
+  ![Add booking](/Assets/Screenshots/RetailSuiteWarehousing/QuickBooking/WarehouseSuppliers/WarehouseManagement/AddBooking.png "[Add booking]")
 
 4. Configure the following settings:
 
@@ -46,7 +46,7 @@ Follow the instructions below if this error message is displayed.
           - **Problem**
           - **Pre-reserve**
 
-      > [Info] For detailed information, see [User Interface Warehouse](/Warehouse/UserInterface/00_UserInterface.md).
+      > [Info] For detailed information, see [User Interface Warehouse](/RetailSuiteWarehousing/UserInterface/00_UserInterface.md).
 
   + Enter the number by which the stock should be changed in the *Change* field.
 
@@ -62,7 +62,7 @@ Follow the instructions below if this error message is displayed.
 6. Switch to the *Omni-Channel* module: *Omni-Channel > Orders and Returns > Tab ORDERS* .    
   The *ORDERS* tab is displayed.
 
-  ![Orders](/Assets/Screenshots/OmniChannel/OrdersReturns/Orders/Orders.png "[Orders]")
+  ![Orders](/Assets/Screenshots/Channels/OrdersReturns/Orders/Orders.png "[Orders]")
 
 7. Select the checkbox of the order that was out-of-order and click the [EXPORT TO OMS] button in the editing toolbar at the top.     
   The order export is restarted. During the export, the **Being exported** status is displayed in the *Status of Export to OMS* column.
@@ -74,8 +74,8 @@ Follow the instructions below if this error message is displayed.
 
 ## See also
 
-- [User Interface Warehouse](/Warehouse/UserInterface/00_UserInterface.md)
-- [User Interface Omni-Channel](/OmniChannel/UserInterface/00_UserInterface.md)
+- [User Interface Warehouse](/RetailSuiteWarehousing/UserInterface/00_UserInterface.md)
+- [User Interface Omni-Channel](/Channels/UserInterface/00_UserInterface.md)
 
 ## Was this chapter helpful?
 

@@ -1,7 +1,7 @@
 # Buchhaltungs-Sync
 *Venduo POS > Management > Tab BUCHHALTUNGS-SYNC*
 
-![Buchhaltungs-Sync](/Assets/Screenshots/VenduoPOS/Management/BuchhaltungsSync/BuchhaltungsSync.png "[Buchhaltungs-Sync]")
+![Buchhaltungs-Sync](/Assets/Screenshots/POS/Management/BuchhaltungsSync/BuchhaltungsSync.png "[Buchhaltungs-Sync]")
 
 - [KICK JOB]   
   Click this button to kick a job.
@@ -74,7 +74,7 @@ The table displays the list of jobs in Venduo POS and their current status. Depe
 ## Buchhaltungs-Sync Details
 *Venduo POS > Management > Tab BUCHHALTUNGS-SYNC > Button Show Details*
 
-![Buchhaltungs-Sync Details](/Assets/Screenshots/VenduoPOS/Management/BuchhaltungsSync/ShowDetails.png "[Buchhaltungs-Sync Details]")
+![Buchhaltungs-Sync Details](/Assets/Screenshots/POS/Management/BuchhaltungsSync/ShowDetails.png "[Buchhaltungs-Sync Details]")
 
 - [BACK]   
   Click this button to close the detail view.

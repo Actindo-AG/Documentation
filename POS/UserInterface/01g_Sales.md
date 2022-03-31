@@ -4,7 +4,7 @@ This tab is only displayed, when the global setting *Shop-Lieferungen aktiv* is 
 
 *Venduo POS > Sales > Select Store and Pay Desk > Tab WARENEINGANG*
 
-![Wareneingang](/Assets/Screenshots/VenduoPOS/Sales/Wareneingang/Wareneingang.png "[Wareneingang]")
+![Wareneingang](/Assets/Screenshots/POS/Sales/Wareneingang/Wareneingang.png "[Wareneingang]")
 
 **Wareneingang Liste**
 

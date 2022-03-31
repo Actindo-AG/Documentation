@@ -26,7 +26,7 @@ The users that belong to a POS group must be assigned to a pay desk or store in 
 
 *settings > Users and Groups > Tab GROUP MANAGEMENT*
 
-  ![Gruppenverwaltung](/Assets/Screenshots/Einstellungen/BenutzerGruppen/Gruppenverwaltung/Gruppenverwaltung.png "[Gruppenverwaltung]")
+  ![Groups](/Assets/Screenshots/Settings/UsersGroups/GroupManagement/Groups.png "[Groups]")
 
 1. Select the checkbox of the group you want to assign the users to in the list of groups.   
   The editing toolbar is displayed above the list.
@@ -34,12 +34,12 @@ The users that belong to a POS group must be assigned to a pay desk or store in 
 2. Click the ![Icon Edit](/Assets/Icons/Edit01.png "[Icon Edit]") (Edit) button in the editing toolbar.   
   The *Edit group* view of the selected group is displayed.
 
-  ![Gruppe](/Assets/Screenshots/Einstellungen/BenutzerGruppen/Gruppenverwaltung/EditGroup01.png "[Gruppe]")
+  ![Edit group](/Assets/Screenshots/Settings/UsersGroups/GroupManagement/EditGroup.png "[Edit group]")
 
 3. Click the ![Add](/Assets/Icons/Plus01.png "[Add]") (Add) button in the bottom right corner.   
     The *Add User* window is displayed.
 
-    ![Add User](/Assets/Screenshots/Einstellungen/BenutzerGruppen/Gruppenverwaltung/AddUser.png "[Add User]")
+    ![Add User](/Assets/Screenshots/Settings/UsersGroups/GroupManagement/AddUser.png "[Add User]")
 
 4. Click the ![Add](/Assets/Icons/Plus05.png "[Add]") (Add) button below the *Add Users* section.   
   The *Select User* drop-down list is displayed.
@@ -58,7 +58,7 @@ The users that belong to a POS group must be assigned to a pay desk or store in 
 9. Click the [SAVE] button in the upper right corner of the group edit view.   
   The *Edit group* view is closed. The *Group has been saved* message is displayed. The new user assignments to the group are saved.
 
-    ![Gruppe gespeichert](/Assets/Screenshots/Einstellungen/BenutzerGruppen/Gruppenverwaltung/GruppeGespeichert.png "[Gruppe gespeichert]")
+    ![Group saved](/Assets/Screenshots/Settings/UsersGroups/GroupManagement/GroupSaved.png "[Group saved]")
 
 
 ## Next Steps

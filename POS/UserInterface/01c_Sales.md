@@ -2,7 +2,7 @@
 
 *Venduo POS > Sales > Select Store and Pay Desk > Tab CASH REGISTER*
 
-![Cash Register](/Assets/Screenshots/VenduoPOS/Sales/CashRegister/CashRegister.png "[Cash Register]")
+![Cash Register](/Assets/Screenshots/POS/Sales/CashRegister/CashRegister.png "[Cash Register]")
 
 The tab *Cash Register* is divided into two parts:
 - [Payment Tally](#payment-tally)
@@ -10,7 +10,7 @@ The tab *Cash Register* is divided into two parts:
 
 ## Payment Tally
 
-![Payment Tally](/Assets/Screenshots/VenduoPOS/Sales/CashRegister/PaymentTally.png "[Payment Tally]")
+![Payment Tally](/Assets/Screenshots/POS/Sales/CashRegister/PaymentTally.png "[Payment Tally]")
 
 - ![Drawer](/Assets/Icons/Drawer.png "[Drawer]") (Open Drawer)  
   Click this button to open the cash drawer.
@@ -41,7 +41,7 @@ The tab *Cash Register* is divided into two parts:
 
 *Venduo POS > Sales > Select Store and Pay Desk > Tab CASH REGISTER > Button Calculator*
 
-![Count Cash](/Assets/Screenshots/VenduoPOS/Sales/CashRegister/CountCash.png "[Count Cash]")
+![Count Cash](/Assets/Screenshots/POS/Sales/CashRegister/CountCash.png "[Count Cash]")
 
 - ![Back](/Assets/Icons/Back02.png "[Back]") (Back)   
   Click this button to cancel the cash counting and close the *Count cash* view.
@@ -73,7 +73,7 @@ The tab *Cash Register* is divided into two parts:
 
 ## Cash In/Out
 
-![Cash In/Out](/Assets/Screenshots/VenduoPOS/Sales/CashRegister/CashInOut.png "[Cash In/Out]")
+![Cash In/Out](/Assets/Screenshots/POS/Sales/CashRegister/CashInOut.png "[Cash In/Out]")
 
 - [ ![Drawer](/Assets/Icons/Drawer.png "[Drawer]") Open Drawer]  
   Click this button to open the cash drawer.
@@ -101,7 +101,7 @@ The tab *Cash Register* is divided into two parts:
 
 *Venduo POS > Sales > Select Store and Pay Desk > Tab CASH REGISTER > Button Cash in*
 
-![Cash In](/Assets/Screenshots/VenduoPOS/Sales/CashRegister/CashIn.png "[Cash In]")
+![Cash In](/Assets/Screenshots/POS/Sales/CashRegister/CashIn.png "[Cash In]")
 
 - *Description*   
   Enter a short description for the cash in.
@@ -123,7 +123,7 @@ The tab *Cash Register* is divided into two parts:
 
 *Venduo POS > Sales > Select Store and Pay Desk > Tab CASH REGISTER > Button Cash out*
 
-![Cash Out](/Assets/Screenshots/VenduoPOS/Sales/CashRegister/CashOut.png "[Cash Out]")
+![Cash Out](/Assets/Screenshots/POS/Sales/CashRegister/CashOut.png "[Cash Out]")
 
 - *Description*   
   Enter a short description for the cash out.

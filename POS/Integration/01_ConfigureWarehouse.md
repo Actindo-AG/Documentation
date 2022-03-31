@@ -1,4 +1,4 @@
-[!!Warehouse](Warehouse)
+[!!Warehouse](RetailSuiteWarehousing)
 
 # Configure the warehouse for POS
 
@@ -17,7 +17,7 @@ The *Warehouse groups* plugin must be installed, see [Install a plugin](to_be_co
 ### Procedure
 *Warehouse > Settings > Tab WAREHOUSE > Tab Warehouse master data*
 
-![Neue Lagergruppe](/Assets/Screenshots/Lager/Einstellungen/Lager/Lagerstammdaten/NeueGruppe_Basisdaten.png "[Neue Lagergruppe]")
+![Warehouse group basic data](/Assets/Screenshots/RetailSuiteWarehousing/Settings/Warehouse/WarehouseMasterData/GroupBasicData.png "[Warehouse group basic data]")
 
 1. Click the button [NEW GROUP].   
   The *Basic data* tab is displayed on the right side.
@@ -26,8 +26,8 @@ The *Warehouse groups* plugin must be installed, see [Install a plugin](to_be_co
 
 3. Enter a name for the new warehouse group in the *Designation* field.
 
-4. Select a group type in the *Group type* drop-down list.   
-  For detailed information, see [User Interface Warehouse](/Warehouse/UserInterface/00_UserInterface.md).
+4. Click the *Group type* drop-down list and select a group type.  
+  For detailed information, see [User Interface Warehouse](/RetailSuiteWarehousing/UserInterface/00_UserInterface.md).
 
 5. Click the [SAVE] button.
 
@@ -47,8 +47,8 @@ The *Warehouse groups* plugin must be installed, see [Install a plugin](to_be_co
 
 ### See also
 
-  - [User Interface Warehouse](/Warehouse/UserInterface/00_UserInterface.md)
-  - [Handle an out-of-stock order](/VenduoPOS/Troubleshooting/01_OutOfStockOrder.md)
+  - [User Interface Warehouse](/RetailSuiteWarehousing/UserInterface/00_UserInterface.md)
+  - [Handle an out-of-stock order](/POS/Troubleshooting/01_OutOfStockOrder.md)
 
 
 ## Create a warehouse
@@ -61,7 +61,7 @@ A warehouse group is created, see [Create a warehouse group](#create-a-warehouse
 ### Procedure
 *Warehouse > Settings > Tab WAREHOUSE > Tab Warehouse master data*
 
-![Neues Lager](/Assets/Screenshots/Lager/Einstellungen/Lager/Lagerstammdaten/NeuesLager_Basisdaten.png "[Neues Lager]")
+![Warehouse basic data](/Assets/Screenshots/RetailSuiteWarehousing/Settings/Warehouse/WarehouseMasterData/WarehouseBasicData.png "[Warehouse basic data]")
 
 1. Click the button [NEW WAREHOUSE].   
   The *Basic data* tab is displayed on the right side.
@@ -77,7 +77,7 @@ A warehouse group is created, see [Create a warehouse group](#create-a-warehouse
 5. Select the products per shelf in the *Products per shelf* drop-down list.
 
   > [Info] If you create a warehouse for POS, it is recommended to select the option **Multiple items per shelf** .   
-  For detailed information, see [User Interface Warehouse](/Warehouse/UserInterface/00_UserInterface.md).
+  For detailed information, see [User Interface Warehouse](/RetailSuiteWarehousing/UserInterface/00_UserInterface.md).
 
 6. Click the [SAVE] button.
 
@@ -96,5 +96,5 @@ A warehouse group is created, see [Create a warehouse group](#create-a-warehouse
 
 ### See also
 
-- [User Interface Warehouse](/Warehouse/UserInterface/00_UserInterface.md)
-- [Handle an out-of-stock order](/VenduoPOS/Troubleshooting/01_OutOfStockOrder.md)
+- [User Interface Warehouse](/RetailSuiteWarehousing/UserInterface/00_UserInterface.md)
+- [Handle an out-of-stock order](/POS/Troubleshooting/01_OutOfStockOrder.md)

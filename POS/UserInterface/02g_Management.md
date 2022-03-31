@@ -4,7 +4,7 @@ This tab is only displayed, when the global setting *Shop-Lieferungen aktiv* is 
 
 *Venduo POS > Management > Tab WARENEINGANGS-SYNC*
 
-![Wareneingangs-Sync](/Assets/Screenshots/VenduoPOS/Management/WareneingangsSync/WareneingangsSync.png "[Wareneingangs-Sync]")
+![Wareneingangs-Sync](/Assets/Screenshots/POS/Management/WareneingangsSync/WareneingangsSync.png "[Wareneingangs-Sync]")
 
 - ![Refresh](/Assets/Icons/Refresh01.png "[Refresh]") (Refresh)   
   Click this button to update the delivery list.

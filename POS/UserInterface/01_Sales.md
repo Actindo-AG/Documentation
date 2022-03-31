@@ -21,7 +21,7 @@ To access the tabs (except for the tab *VOUCHERS*), you first have to select a s
 ## Select Store and Pay Desk
 *Venduo POS > Sales*
 
-![Sales](/Assets/Screenshots/VenduoPOS/Sales/Select.png "[Sales]")
+![Sales](/Assets/Screenshots/POS/Sales/Select.png "[Sales]")
 
 - *Select store*   
   Click the drop-down list to display all available stores and select one. When you select a store, the drop-down list *Select pay desk* is unlocked.
@@ -36,7 +36,7 @@ To access the tabs (except for the tab *VOUCHERS*), you first have to select a s
 
 *Venduo POS > Sales > Select Store and Pay Desk*
 
-![Sales](/Assets/Screenshots/VenduoPOS/Sales/OpeningFloat.png "[Sales]")
+![Sales](/Assets/Screenshots/POS/Sales/OpeningFloat.png "[Sales]")
 
 - *Opening float*   
   Enter an opening amount for each currency used in the selected pay desk. The [used currencies](02a_Management.md#verwendete-währungen) are defined in the global settings. By default, the skimming amount of the last pay desk closing is preset.   

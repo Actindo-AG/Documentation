@@ -2,7 +2,7 @@
 
 *Venduo POS > Sales > Select Store and Pay Desk > Tab CASHPOINT*
 
-![Cashpoint](/Assets/Screenshots/VenduoPOS/Sales/Cashpoint/Cashpoint.png "[Cashpoint]")
+![Cashpoint](/Assets/Screenshots/POS/Sales/Cashpoint/Cashpoint.png "[Cashpoint]")
 
 - *Find offer by nam... ![Search](/Assets/Icons/Search.png "[Search]")*   
   Enter the product name, the keyword or the (EAN) number you search for in the search bar. Click a product in the list of search results to add it to the bill list.
@@ -20,7 +20,7 @@
 
 ## Bill List
 
-![Bill List](/Assets/Screenshots/VenduoPOS/Sales/Cashpoint/BillList/BillList.png "[Bill List]")
+![Bill List](/Assets/Screenshots/POS/Sales/Cashpoint/BillList/BillList.png "[Bill List]")
 
 - ![Add Customer](/Assets/Icons/Customer02.png "[Add Customer]") (Add Customer)   
   Click this button to assign the bill to a certain customer. The *Add Customer* view is displayed.
@@ -77,7 +77,7 @@
 ## Pay Bill List
 *Venduo POS > Sales > Select Store and Pay Desk > Tab CASHPOINT > [PAY]*
 
-![Pay](/Assets/Screenshots/VenduoPOS/Sales/Cashpoint/BillList/Pay.png "[Pay]")   
+![Pay](/Assets/Screenshots/POS/Sales/Cashpoint/BillList/Pay.png "[Pay]")   
 
 - *Customer Name and Address*   
   The customer name and address is displayed, when the bill list is assigned to a customer. This field is read-only.
@@ -143,7 +143,7 @@ This section is only displayed when no voucher has been redeemed.
 ## Cash Payment
 *Venduo POS > Sales > Select Store and Pay Desk > Tab CASHPOINT > [PAY] > [CASH]*
 
-![Cash payment](/Assets/Screenshots/VenduoPOS/Sales/Cashpoint/BillList/CashPayment.png "[Cash payment]")
+![Cash payment](/Assets/Screenshots/POS/Sales/Cashpoint/BillList/CashPayment.png "[Cash payment]")
 
 - *Amount*   
   Enter the cash amount given by the customer using the number buttons or typing the amount directly into the field.
@@ -169,7 +169,7 @@ This section is only displayed when no voucher has been redeemed.
 
 The *Payment Pending* view is displayed when the cash payment has been confirmed. When the cash payment process has been completed, the *Payment Successful* view is automatically displayed.
 
-![Payment Pending](/Assets/Screenshots/VenduoPOS/Sales/Cashpoint/BillList/PaymentPending.png "[Payment Pending]")
+![Payment Pending](/Assets/Screenshots/POS/Sales/Cashpoint/BillList/PaymentPending.png "[Payment Pending]")
 
 - *Total*   
   Total bill amount. This field is read-only.
@@ -185,7 +185,7 @@ The *Payment Pending* view is displayed when the cash payment has been confirmed
 
 The *Payment Successful* view is automatically displayed when the cash payment process has been successfully completed.
 
-![Payment Successful](/Assets/Screenshots/VenduoPOS/Sales/Cashpoint/BillList/PaymentSuccessful.png "[Payment Successful]")
+![Payment Successful](/Assets/Screenshots/POS/Sales/Cashpoint/BillList/PaymentSuccessful.png "[Payment Successful]")
 
 - *Total*   
   Total bill amount. This field is read-only.
@@ -203,7 +203,7 @@ The *Payment Successful* view is automatically displayed when the cash payment p
 ## Cashless Payment
 *Venduo POS > Sales > Select Store and Pay Desk > Tab CASHPOINT > [PAY] > [MANUELLES ZAHLEN AM TERMINAL]*
 
-![Cashless payment](/Assets/Screenshots/VenduoPOS/Sales/Cashpoint/BillList/CashlessPayment.png "[Cashless payment]")  
+![Cashless payment](/Assets/Screenshots/POS/Sales/Cashpoint/BillList/CashlessPayment.png "[Cashless payment]")  
 
 - *Card type*   
   Click the drop-down list to select the used card type or payment method. By default, the payment methods below are available. Additional cashless payment methods can be defined in the Global Settings, see [Zahlungsweisen (manuelle Zahlung Terminal)](02a_Management.md#zahlungsweisen-manuelle-zahlung-terminal).  
@@ -223,7 +223,7 @@ The *Payment Successful* view is automatically displayed when the cash payment p
 
 The *Payment at terminal* view is automatically displayed when the cash payment process has been successfully completed.
 
-![Payment at terminal](/Assets/Screenshots/VenduoPOS/Sales/Cashpoint/BillList/PaymentTerminal.png "[Payment at terminal]")
+![Payment at terminal](/Assets/Screenshots/POS/Sales/Cashpoint/BillList/PaymentTerminal.png "[Payment at terminal]")
 
 - *Total*   
   Total bill amount. This field is read-only.
@@ -242,7 +242,7 @@ The *Payment at terminal* view is automatically displayed when the cash payment 
 ## Add Customer
 *Venduo POS > Sales > Select Store and Pay Desk > Tab CASHPOINT > Button Add Customer*
 
-![Add Customer](/Assets/Screenshots/VenduoPOS/Sales/Cashpoint/BillList/AddCustomer01.png "[Add Customer]")
+![Add Customer](/Assets/Screenshots/POS/Sales/Cashpoint/BillList/AddCustomer01.png "[Add Customer]")
 
 - ![Cancel](/Assets/Icons/Cross02.png "[Cancel]") (Cancel)   
   Click this button to cancel the operation and close the *Add Customer* view.
@@ -257,7 +257,7 @@ The *Payment at terminal* view is automatically displayed when the cash payment 
 ## Create Customer
 *Venduo POS > Sales > Select Store and Pay Desk > Tab CASHPOINT > Button Add Customer > Button Create Customer*
 
-![Create Customer](/Assets/Screenshots/VenduoPOS/Sales/Cashpoint/BillList/AddCustomer02.png "[Create Customer]")
+![Create Customer](/Assets/Screenshots/POS/Sales/Cashpoint/BillList/AddCustomer02.png "[Create Customer]")
 
 - ![Cancel](/Assets/Icons/Cross02.png "[Cancel]") (Cancel)   
   Click this button to cancel the operation and close the *Add Customer* view.
@@ -303,7 +303,7 @@ The *Payment at terminal* view is automatically displayed when the cash payment 
 ## Discount on bill
 *Venduo POS > Sales > Select Store and Pay Desk > Tab CASHPOINT > [PAY] > [+ DISCOUNT]*
 
-![Discount on bill](/Assets/Screenshots/VenduoPOS/Sales/Cashpoint/BillList/DiscountBill.png "[Discount on bill]")
+![Discount on bill](/Assets/Screenshots/POS/Sales/Cashpoint/BillList/DiscountBill.png "[Discount on bill]")
 
 - ![Percent](/Assets/Icons/Percent.png "[Percent]") (Percent)   
   Click this button to select percentage as the type of discount. By default, the percentage discount is preselected.
@@ -335,7 +335,7 @@ The *Payment at terminal* view is automatically displayed when the cash payment 
 ## Product Details
 *Venduo POS > Sales > Select Store and Pay Desk > Tab CASHPOINT > Select Product in the Bill List*
 
-![Product Details](/Assets/Screenshots/VenduoPOS/Sales/Cashpoint/BillList/ProductDetails.png "[Product Details]")
+![Product Details](/Assets/Screenshots/POS/Sales/Cashpoint/BillList/ProductDetails.png "[Product Details]")
 
 - *Quantity*
   Quantity of the selected product in the bill list.

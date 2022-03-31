@@ -2,7 +2,7 @@
 
 *Venduo POS > Sales > Tab VOUCHERS*
 
-![Vouchers](/Assets/Screenshots/VenduoPOS/Sales/Vouchers/Vouchers.png "[Vouchers]")
+![Vouchers](/Assets/Screenshots/POS/Sales/Vouchers/Vouchers.png "[Vouchers]")
 
 **Vouchers**
 

@@ -6,7 +6,7 @@ In the tab *GLOBAL SETTINGS*, you define basic settings for all your stores.
   > [Info] Global settings are valid for all stores as long as no different settings are defined for the respective stores or pay desks.
   In principle, the more specific setting always overrides the more general setting.
 
-![Global Settings](/Assets/Screenshots/VenduoPOS/Management/GlobalSettings/GlobalSettings.png "[Global Settings]")
+![Global Settings](/Assets/Screenshots/POS/Management/GlobalSettings/GlobalSettings.png "[Global Settings]")
 
 | (1) | **Selection list *Settings**|
 |-----|---------------------|
@@ -34,7 +34,7 @@ In this section, you define all pay desk and payment settings.
 
 Configure the details of the POS specific cash receipt number. The cash receipt number is independent of the receipt number in invoicing and is therefore selected from a different number range to be defined here.
 
-![Format laufende Nummer](/Assets/Screenshots/VenduoPOS/Management/GlobalSettings/GS01.png "[Format laufende Nummer]")
+![Format laufende Nummer](/Assets/Screenshots/POS/Management/GlobalSettings/GS01.png "[Format laufende Nummer]")
 
 - *Format*   
   Define the format of the sequential number. It is mandatory to include the store identifier (S) and the sequential number (L). The place holders are indicated on the right side.
@@ -59,7 +59,7 @@ Configure the details of the POS specific cash receipt number. The cash receipt 
 
 Activate or deactivate the option to print the cash receipt.
 
- ![Bon immer ausdrucken](/Assets/Screenshots/VenduoPOS/Management/GlobalSettings/GS02.png "[Bon immer ausdrucken]")
+ ![Bon immer ausdrucken](/Assets/Screenshots/POS/Management/GlobalSettings/GS02.png "[Bon immer ausdrucken]")
 
  - [x] *Bon immer ausrdrucken*   
    Choose whether or not to print the cash receipt for each transaction. If the receipt printing is deactivated, you can still initiate the receipt printing manually via the order history.
@@ -78,7 +78,7 @@ Activate or deactivate the option to print the cash receipt.
 
 Define how many vouchers may be redeemed per order.
 
-![Anzahl Gutscheine pro Bestellung](/Assets/Screenshots/VenduoPOS/Management/GlobalSettings/GS03.png "[Anzahl Gutscheine pro Bestellung]")
+![Anzahl Gutscheine pro Bestellung](/Assets/Screenshots/POS/Management/GlobalSettings/GS03.png "[Anzahl Gutscheine pro Bestellung]")
 
 - *Anzahl Gutscheine pro Bestellung*   
   Enter the number of vouchers that can be redeemed per order. By default, one voucher per order is set.
@@ -97,7 +97,7 @@ Define how many vouchers may be redeemed per order.
 If you use an external terminal that is not connected to Venduo POS, cashless payment is completed manually through that terminal.
 In Venduo POS, you can specify for statistical purposes which payment method was used for the cashless payment. You define the different payment methods in this setting.
 
-![Zahlungsweisen](/Assets/Screenshots/VenduoPOS/Management/GlobalSettings/GS04.png "[Zahlungsweisen]")
+![Zahlungsweisen](/Assets/Screenshots/POS/Management/GlobalSettings/GS04.png "[Zahlungsweisen]")
 
 > [Info] By default, the payments methods *debit card*, *credit card* and *PayPal* are preset.
 
@@ -123,7 +123,7 @@ In Venduo POS, you can specify for statistical purposes which payment method was
 
 Define a discount that is automatically applied above a certain amount.
 
-![automatischer Discount](/Assets/Screenshots/VenduoPOS/Management/GlobalSettings/GS05.png "[automatischer Discount]")
+![automatischer Discount](/Assets/Screenshots/POS/Management/GlobalSettings/GS05.png "[automatischer Discount]")
 
 - *ab Betrag*   
   Enter the amount from which the discount is granted.
@@ -151,7 +151,7 @@ Define a discount that is automatically applied above a certain amount.
 
 Activate or deactivate the option to open the cash drawer for cash payment.
 
-![Kasse öffnen bei Barzahlung](/Assets/Screenshots/VenduoPOS/Management/GlobalSettings/GS06.png "[Kasse öffnen bei Barzahlung]")
+![Kasse öffnen bei Barzahlung](/Assets/Screenshots/POS/Management/GlobalSettings/GS06.png "[Kasse öffnen bei Barzahlung]")
 
 - [x] *Kassenschublade öffnen bei Barzahlung*   
   Choose whether or not to open the cash drawer for cash payment. By default, this option is active.
@@ -168,7 +168,7 @@ Activate or deactivate the option to open the cash drawer for cash payment.
 
 Activate or deactivate the option to open the cash drawer for cashless payment.
 
-![Kasse öffnen nach bargeldlosem Zahlen](/Assets/Screenshots/VenduoPOS/Management/GlobalSettings/GS07.png "[Kasse öffnen nach bargeldlosem Zahlen]")
+![Kasse öffnen nach bargeldlosem Zahlen](/Assets/Screenshots/POS/Management/GlobalSettings/GS07.png "[Kasse öffnen nach bargeldlosem Zahlen]")
 
 - [x] *Kasse öffnen*    
   Choose whether or not to open the cash drawer for cashless payment. By default, this option is active.
@@ -185,7 +185,7 @@ Activate or deactivate the option to open the cash drawer for cashless payment.
 
 Define the VAT ID, which is mandatory to be indicated on receipts in some countries.
 
-![USt-ID](/Assets/Screenshots/VenduoPOS/Management/GlobalSettings/GS08.png "[USt-ID]")
+![USt-ID](/Assets/Screenshots/POS/Management/GlobalSettings/GS08.png "[USt-ID]")
 
 - *USt-ID*   
   Enter your VAT ID. By default, The VAT-ID is printed on your receipts.
@@ -199,7 +199,7 @@ Define the VAT ID, which is mandatory to be indicated on receipts in some countr
 
 Activate or deactivate the options for cashless payment.
 
-![Bargeldloses Zahlen](/Assets/Screenshots/VenduoPOS/Management/GlobalSettings/GS09.png "[Bargeldloses Zahlen]")
+![Bargeldloses Zahlen](/Assets/Screenshots/POS/Management/GlobalSettings/GS09.png "[Bargeldloses Zahlen]")
 
 - [x] ![Voucher](/Assets/Icons/Voucher.png "Voucher") *Refund auf Gutschein (refund only)*   
   Choose whether or not to refund cashless payments only on vouchers. By default, this option is inactive.
@@ -219,7 +219,7 @@ Activate or deactivate the options for cashless payment.
 
 When a pay desk is opened, it is linked to a specific user. This user is the only one who can use the pay desk until he closes it again. To allow that several users can access the same pay desk without closing it, you can deactivate the option to link the cash register to a specific user.
 
-![Kassenjournal auf User binden](/Assets/Screenshots/VenduoPOS/Management/GlobalSettings/GS10.png "[Kassenjournal auf User binden]")
+![Kassenjournal auf User binden](/Assets/Screenshots/POS/Management/GlobalSettings/GS10.png "[Kassenjournal auf User binden]")
 
 - [x] *Kassenbuch auf User gebunden*   
   Choose whether or not to link the cash register to a special user. By default, this option is active.
@@ -238,7 +238,7 @@ When a pay desk is opened, it is linked to a specific user. This user is the onl
 
 Define an amount up to which the pay desk is skimmed after the pay desk closes. The amount is automatically entered in the cash register and taken as the opening float.
 
-![Abschöpfen bis Betrag](/Assets/Screenshots/VenduoPOS/Management/GlobalSettings/GS11.png "[Abschöpfen bis Betrag]")
+![Abschöpfen bis Betrag](/Assets/Screenshots/POS/Management/GlobalSettings/GS11.png "[Abschöpfen bis Betrag]")
 
 - *Abschöpfen bis Betrag*    
   Enter the amount up to which the pay desk is skimmed after the pay desk closing.
@@ -252,7 +252,7 @@ Define an amount up to which the pay desk is skimmed after the pay desk closes. 
 
 By default, the expected amount in the pay desk is indicated. deactivate this option to hide the expected amount from the cashier in order to prevent the concealment of shortfalls.
 
-![Erwarteten Betrag verbergen](/Assets/Screenshots/VenduoPOS/Management/GlobalSettings/GS12.png "[Erwarteten Betrag verbergen]")
+![Erwarteten Betrag verbergen](/Assets/Screenshots/POS/Management/GlobalSettings/GS12.png "[Erwarteten Betrag verbergen]")
 
 - [x] *Erwarteten Betrag verbergen*   
   Choose whether or not to hide the expected amount in the pay desk from the cashier. By default, this option is inactive.
@@ -275,7 +275,7 @@ Define the currencies that are available in your POS system as well as the coins
 
 [comment]: <> (is that right?)
 
-![Verfügbare Währungen](/Assets/Screenshots/VenduoPOS/Management/GlobalSettings/GS13.png "[Verfügbare Währungen]")
+![Verfügbare Währungen](/Assets/Screenshots/POS/Management/GlobalSettings/GS13.png "[Verfügbare Währungen]")
 
 **AvailableCurrencies**
 
@@ -318,7 +318,7 @@ The table displays all available currencies. All fields are read-only. Depending
 
 Add a new currency to the list of available currencies and define the coins and notes of the new currency.
 
-![Währung anlegen](/Assets/Screenshots/VenduoPOS/Management/GlobalSettings/GS13b.png "[Währung anlegen]")
+![Währung anlegen](/Assets/Screenshots/POS/Management/GlobalSettings/GS13b.png "[Währung anlegen]")
 
 **DESCRIPTION**
 - *Name*   
@@ -360,7 +360,7 @@ Add a new currency to the list of available currencies and define the coins and 
 
 Edit the settings of an existing currency.
 
-![Währung bearbeiten](/Assets/Screenshots/VenduoPOS/Management/GlobalSettings/GS13c.png "[Währung bearbeiten]")
+![Währung bearbeiten](/Assets/Screenshots/POS/Management/GlobalSettings/GS13c.png "[Währung bearbeiten]")
 
 **DESCRIPTION**
 - *Name*   
@@ -402,7 +402,7 @@ Edit the settings of an existing currency.
 
 Select all currencies that are used in your POS system and define a default currency.
 
-![Verwendete Währungen](/Assets/Screenshots/VenduoPOS/Management/GlobalSettings/GS14.png "[Verwendete Währungen]")
+![Verwendete Währungen](/Assets/Screenshots/POS/Management/GlobalSettings/GS14.png "[Verwendete Währungen]")
 
 - [x] *Currency Name*   
   Choose whether or not to use this currency in your POS system.
@@ -426,7 +426,7 @@ In this section, you define all settings concerning returns.
 
 Define the return reasons that are available in the POS system.
 
-![Retouren-Gründe](/Assets/Screenshots/VenduoPOS/Management/GlobalSettings/GS15.png "[Retouren-Gründe]")
+![Retouren-Gründe](/Assets/Screenshots/POS/Management/GlobalSettings/GS15.png "[Retouren-Gründe]")
 
 - *Schlüssel*   
   Enter the return reason key. The following keys are available:
@@ -453,7 +453,7 @@ Define the return reasons that are available in the POS system.
 
 Activate or deactivate the refund to the same payment method for returns.
 
-![Refund Zahlungsmittel](/Assets/Screenshots/VenduoPOS/Management/GlobalSettings/GS16.png "[Refund Zahlungsmittel]")
+![Refund Zahlungsmittel](/Assets/Screenshots/POS/Management/GlobalSettings/GS16.png "[Refund Zahlungsmittel]")
 
 - [x] *nur auf gleiches Zahlungsmittel*   
   Choose whether or not a refund for a return can only be made to the same payment method. By default, this option is active.
@@ -470,7 +470,7 @@ Activate or deactivate the refund to the same payment method for returns.
 
 Activate or deactivate the return to the same store.
 
-![Retoure Store](/Assets/Screenshots/VenduoPOS/Management/GlobalSettings/GS17.png "[Retoure Store]")
+![Retoure Store](/Assets/Screenshots/POS/Management/GlobalSettings/GS17.png "[Retoure Store]")
 
 - [x] *Retoure nur in gleichem Store*   
   Choose whether or not a return can only be made in the same store. By default, this option is inactive.
@@ -491,7 +491,7 @@ In this section, you define all settings concerning the receipt printing.
 
 Activate or deactivate the printing of a merchant receipt for cashless payment.
 
-![Händler-Beleg drucken](/Assets/Screenshots/VenduoPOS/Management/GlobalSettings/GS18.png "[Händler-Beleg drucken]")
+![Händler-Beleg drucken](/Assets/Screenshots/POS/Management/GlobalSettings/GS18.png "[Händler-Beleg drucken]")
 
 - [x] *Händler-Beleg drucken*   
   Choose whether or not to print a merchant receipt in addition to the customer receipt for cashless payments. By default, this option is active.
@@ -508,7 +508,7 @@ Activate or deactivate the printing of a merchant receipt for cashless payment.
 
 Activate or deactivate the native receipt printing.
 
-![Nativer Bon-Druck](/Assets/Screenshots/VenduoPOS/Management/GlobalSettings/GS19.png "[Nativer Bon-Druck]")
+![Nativer Bon-Druck](/Assets/Screenshots/POS/Management/GlobalSettings/GS19.png "[Nativer Bon-Druck]")
 
 - [x] *Nativer Bon-Druck*   
   Choose whether or not to use the native receipt print. By default, this option is active.
@@ -527,7 +527,7 @@ Activate or deactivate the native receipt printing.
 
 Activate or deactivate the compatibility mode for logo printing. As some receipt printer have issues with printing logos, it may help to activate this option.
 
-![Logo-Druck](/Assets/Screenshots/VenduoPOS/Management/GlobalSettings/GS20.png "[Logo-Druck]")
+![Logo-Druck](/Assets/Screenshots/POS/Management/GlobalSettings/GS20.png "[Logo-Druck]")
 
 - [x] *Logo-Druck Kompatibilitätsmodus*   
   Choose whether or not to use the compatibility mode for logo printing. By default, this option is inactive.
@@ -544,7 +544,7 @@ Activate or deactivate the compatibility mode for logo printing. As some receipt
 
 Define the width of the receipt, as it may vary depending on the printer.
 
-![Logo-Druck](/Assets/Screenshots/VenduoPOS/Management/GlobalSettings/GS21.png "[Logo-Druck]")
+![Logo-Druck](/Assets/Screenshots/POS/Management/GlobalSettings/GS21.png "[Logo-Druck]")
 
 - *Breite in Zeichen*   
   Define the width of the receipt in characters. This size is needed to calculate the width for the text.
@@ -566,7 +566,7 @@ Define the width of the receipt, as it may vary depending on the printer.
 
 Define the number format on the receipt.
 
-![Zahlenformat](/Assets/Screenshots/VenduoPOS/Management/GlobalSettings/GS22.png "[Zahlenformat]")
+![Zahlenformat](/Assets/Screenshots/POS/Management/GlobalSettings/GS22.png "[Zahlenformat]")
 
 - *Decimal separator*   
   Enter the decimal separator for the numbers on your receipt. You can use any separator including a blank space. This field is mandatory.
@@ -591,7 +591,7 @@ Define the number format on the receipt.
 
 Upload a logo for your receipts.
 
-![Logo](/Assets/Screenshots/VenduoPOS/Management/GlobalSettings/GS23.png "[Logo]")
+![Logo](/Assets/Screenshots/POS/Management/GlobalSettings/GS23.png "[Logo]")
 
   >  [Info] The png format is the only image format supported for logo images. So make sure that your image logo is also saved in the png format before uploading it.
 
@@ -621,7 +621,7 @@ For more information, see [Admin Settings - Store](02b_Management.md#admin-setti
 
 The number of accounts to be assigned depends on the number of available currencies.
 
-![Zahlenformat](/Assets/Screenshots/VenduoPOS/Management/GlobalSettings/GS24.png "[Zahlenformat]")
+![Zahlenformat](/Assets/Screenshots/POS/Management/GlobalSettings/GS24.png "[Zahlenformat]")
 
 - *Type*   
   In this column, the account type is indicated. Six accounts are displayed per currency. The currency of the account is indicated in brackets after the account type name. The fields are display fields only. They cannot be changed.
@@ -656,7 +656,7 @@ The number of accounts to be assigned depends on the number of available currenc
 
 Activate or deactivate the reverse booking to the original warehouse. Any discrepancies in store deliveries are automatically booked back to the original warehouse.   
 
-![Korrekturbuchung](/Assets/Screenshots/VenduoPOS/Management/GlobalSettings/GS25.png "[Korrekturbuchung]")
+![Korrekturbuchung](/Assets/Screenshots/POS/Management/GlobalSettings/GS25.png "[Korrekturbuchung]")
 
 - [x] *Korrekturbuchung auf Ursprungslager*    
   Choose whether or not to book discrepancies between the delivery receipt and the delivery are automatically booked back to the original warehouse. By default, this option is active.
@@ -678,7 +678,7 @@ Activate or deactivate the reverse booking to the original warehouse. Any discre
 
 Define a shelf in the quarantine warehouse for returns with defects.
 
-![Retourenlager](/Assets/Screenshots/VenduoPOS/Management/GlobalSettings/GS26.png "[Retourenlager]")
+![Retourenlager](/Assets/Screenshots/POS/Management/GlobalSettings/GS26.png "[Retourenlager]")
 
 - *Lager ID*   
   Enter the number of the quarantine warehouse.
@@ -697,7 +697,7 @@ Define a shelf in the quarantine warehouse for returns with defects.
 
 Define an invoice address for a default customer to connect the POS system with the invoicing. The invoice address of this default customer is used for all occasion customers.
 
-![Standard-Kunde](/Assets/Screenshots/VenduoPOS/Management/GlobalSettings/GS27.png "[Standard-Kunde]")
+![Standard-Kunde](/Assets/Screenshots/POS/Management/GlobalSettings/GS27.png "[Standard-Kunde]")
 
 - *Title*   
   Enter the customer title.
@@ -744,7 +744,7 @@ Activate or deactivate the store deliveries. If the store deliveries are active,
 
 >  [Info] Deliveries to the store can only be added if a delivery receipt for this delivery exists in invoicing.
 
-![Shop-Lieferungen aktiv](/Assets/Screenshots/VenduoPOS/Management/GlobalSettings/GS28.png "[Shop-Lieferungen aktiv]")
+![Shop-Lieferungen aktiv](/Assets/Screenshots/POS/Management/GlobalSettings/GS28.png "[Shop-Lieferungen aktiv]")
 
 - [x] *Shop-Lieferung aktiv*   
   Choose whether or not to activate deliveries from the store. By default, this option is inactive.   
@@ -762,7 +762,7 @@ Activate or deactivate the store deliveries. If the store deliveries are active,
 
 Activate or deactivate the application of customer data from RetailSuite.
 
-![Kundendaten RetailSuite](/Assets/Screenshots/VenduoPOS/Management/GlobalSettings/GS29.png "[Kundendaten RetailSuite]")
+![Kundendaten RetailSuite](/Assets/Screenshots/POS/Management/GlobalSettings/GS29.png "[Kundendaten RetailSuite]")
 
 - [x] *Kundendaten aus RetailSuite uebernehmen*   
   Choose whether or not to apply customer data from RetailSuite when receipts are linked to a customer. By default, this option is active.

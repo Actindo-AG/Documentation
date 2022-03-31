@@ -17,7 +17,7 @@ The cause of the export error is fixed.
 
 *Omni-Channel > Orders and Returns > Tab ORDERS*
 
-![Orders](/Assets/Screenshots/OmniChannel/OrdersReturns/Orders/Orders.png "[Orders]")
+![Orders](/Assets/Screenshots/Channels/OrdersReturns/Orders/Orders.png "[Orders]")
 
 1. Select the checkbox of the order of which the export failed and click the button [EXPORT TO OMS] in the editing toolbar at the top.     
 The order export is restarted. During the export, the status **Being exported** is displayed in the column *Status of Export to OMS*.
@@ -29,7 +29,7 @@ The order status in the column *Status of Export to OMS* changed to **Exported**
 
 ## See also
 
-- [User Interface Omni-Channel](/OmniChannel/UserInterface/00_UserInterface.md)
+- [User Interface Omni-Channel](/Channels/UserInterface/00_UserInterface.md)
 
 
 ## Was this chapter helpful?

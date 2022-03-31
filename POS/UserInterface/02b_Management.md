@@ -4,7 +4,7 @@
 In the tab *STORES*, you select a store and define the settings of the selected store and its pay desks.
 To define the settings of a store and its pay desk, you have to select the corresponding store first.
 
-![Select Store](/Assets/Screenshots/VenduoPOS/Management/Stores/Stores.png "[Select Store]")
+![Select Store](/Assets/Screenshots/POS/Management/Stores/Stores.png "[Select Store]")
 
 **Stores**
 
@@ -51,7 +51,7 @@ The table displays all created stores. All fields are read-only. Depending on th
 ## Create Store
 *Venduo POS > Management > Tab STORES > Button Add*
 
-![Create Store](/Assets/Screenshots/VenduoPOS/Management/Stores/Add.png "[Create Store]")
+![Create Store](/Assets/Screenshots/POS/Management/Stores/Add.png "[Create Store]")
 
 - [Create store via wizard (recommended) ![Store Wizard](/Assets/Icons/Tool.png "[Store Wizard]") ]   
   Click this button to create a store via wizard.
@@ -68,7 +68,7 @@ The table displays all created stores. All fields are read-only. Depending on th
 
 
 #### Step 1 - Create Store
-![Create Store](/Assets/Screenshots/VenduoPOS/Management/Stores/StoreWizard/SW01.png "[Create Store]")
+![Create Store](/Assets/Screenshots/POS/Management/Stores/StoreWizard/SW01.png "[Create Store]")
 
 - *Store-Name*   
   Enter the store name.
@@ -108,7 +108,7 @@ The table displays all available users. All fields are read-only. Depending on t
   Click this button to create the store and proceed to the next step in the store wizard. The *Creating Store* window is displayed. When the store is created, the *Pay desks* wizard window is displayed.
 
 #### Step 2 - Pay desks
-![Create Store](/Assets/Screenshots/VenduoPOS/Management/Stores/StoreWizard/SW02.png "[Create Store]")
+![Create Store](/Assets/Screenshots/POS/Management/Stores/StoreWizard/SW02.png "[Create Store]")
 
 - *PayDesk1*   
   Enter the pay desk name.
@@ -157,7 +157,7 @@ The table displays all available users. All fields are read-only. Depending on t
   Click this button to create the pay desks and proceed to the next step in the store wizard. The *Printing* wizard window is displayed.
 
 #### Step 3 - Printing
-![Create Store](/Assets/Screenshots/VenduoPOS/Management/Stores/StoreWizard/SW03.png "[Create Store]")
+![Create Store](/Assets/Screenshots/POS/Management/Stores/StoreWizard/SW03.png "[Create Store]")
 
 For each pay desk, a tab with the printer settings below is displayed.
 
@@ -198,7 +198,7 @@ For each pay desk, a tab with the printer settings below is displayed.
   Click this button to save the printer settings for the pay desks and proceed to the next step in the store wizard.  The *Store Address* wizard window is displayed. The *Saving successful* message is displayed in the upper right corner of the wizard window.
 
 #### Step 4 - Store Address
-![Create Store](/Assets/Screenshots/VenduoPOS/Management/Stores/StoreWizard/SW04.png "[Create Store]")
+![Create Store](/Assets/Screenshots/POS/Management/Stores/StoreWizard/SW04.png "[Create Store]")
 
 - *Owner*   
   Enter the name of the store owner.
@@ -235,7 +235,7 @@ For each pay desk, a tab with the printer settings below is displayed.
 
 
 #### Step 5 - Stock
-![Create Store](/Assets/Screenshots/VenduoPOS/Management/Stores/StoreWizard/SW05.png "[Create Store]")
+![Create Store](/Assets/Screenshots/POS/Management/Stores/StoreWizard/SW05.png "[Create Store]")
 
 - *Warehouse*   
   Click the drop-down list and select the warehouse you want to take the stock from. By default, you can select the warehouses **Verkaufslager**, **Eigenlager** and **Außenlager**. Further, you can create your own warehouses, that are displayed in this drop-down list.   
@@ -263,7 +263,7 @@ For each pay desk, a tab with the printer settings below is displayed.
 
 
 #### Step 6 - Inventory assignment
-![Create Store](/Assets/Screenshots/VenduoPOS/Management/Stores/StoreWizard/SW06a.png "[Create Store]")
+![Create Store](/Assets/Screenshots/POS/Management/Stores/StoreWizard/SW06a.png "[Create Store]")
 
 - ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Create new inventory source*   
   Activate this toggle to add a new inventory source that only considers the stock of the warehouse selected in the previous step for calculating the warehouse stock. Deactivate this toggle to select an existing inventory source in the drop-down list *Select existing inventory Source* or to add no inventory source. When you activate this toggle, the drop-down list *Select existing inventory Source* is hidden.
@@ -286,7 +286,7 @@ For each pay desk, a tab with the printer settings below is displayed.
 
 
 #### Step 7 - Accounting
-![Create Store](/Assets/Screenshots/VenduoPOS/Management/Stores/StoreWizard/SW07b.png "[Create Store]")
+![Create Store](/Assets/Screenshots/POS/Management/Stores/StoreWizard/SW07b.png "[Create Store]")
 
 - ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Account per pay desk*   
   Activate this toggle to assign the accounts to each pay desk individually. Deactivate the toggle to assign the accounts for the entire store. When you activate this toggle, the drop-down list *Select Pay Desk* is hidden. By default, this toggle is active.
@@ -335,7 +335,7 @@ The list of accounts is displayed either when you deactivate the toggle *Account
 
 
 #### Step 8 - Summary
-![Create Store](/Assets/Screenshots/VenduoPOS/Management/Stores/StoreWizard/SW08.png "[Create Store]")
+![Create Store](/Assets/Screenshots/POS/Management/Stores/StoreWizard/SW08.png "[Create Store]")
 
 The wizard window displays a summary of the store configuration. Missing data or problems that can lead to restrictions when using the POS store are indicated with a yellow warning triangle.    
 
@@ -353,7 +353,7 @@ The wizard window displays a summary of the store configuration. Missing data or
 ### Create store manually
 *Venduo POS > Management > Tab STORES > Button Add > Button Create Store*
 
-![Create Store](/Assets/Screenshots/VenduoPOS/Management/Stores/CreateStore.png "[Create Store]")
+![Create Store](/Assets/Screenshots/POS/Management/Stores/CreateStore.png "[Create Store]")
 
 - *Name*   
   Enter the store name.
@@ -368,7 +368,7 @@ The wizard window displays a summary of the store configuration. Missing data or
 ## Store
 *Venduo POS > Management > Tab STORES > Select Store*
 
-![Store Basic Data](/Assets/Screenshots/VenduoPOS/Management/Stores/Store/BasicData/BasicData.png "[Store Basic Data]")
+![Store Basic Data](/Assets/Screenshots/POS/Management/Stores/Store/BasicData/BasicData.png "[Store Basic Data]")
 
 - *Name*   
   Name of the store.
@@ -395,7 +395,7 @@ The wizard window displays a summary of the store configuration. Missing data or
 ### Basic Data - Store
 *Venduo POS > Management > Tab STORES > Select Store > Tab Basic Data*
 
-![Store Basic Data](/Assets/Screenshots/VenduoPOS/Management/Stores/Store/BasicData/BasicData.png "[Store Basic Data]")
+![Store Basic Data](/Assets/Screenshots/POS/Management/Stores/Store/BasicData/BasicData.png "[Store Basic Data]")
 
 - *Short Description*   
   Enter a short description to the store.
@@ -441,7 +441,7 @@ The wizard window displays a summary of the store configuration. Missing data or
 #### Store Managers
 *Venduo POS > Management > Tab STORES > Select Store > Tab Basic Data > Add Store Manager*
 
-![Store Managers](/Assets/Screenshots/VenduoPOS/Management/Stores/Store/BasicData/StoreManagers.png "[Store Managers]")
+![Store Managers](/Assets/Screenshots/POS/Management/Stores/Store/BasicData/StoreManagers.png "[Store Managers]")
 
 - ![Refresh](/Assets/Icons/Refresh01.png "[Refresh]") (Refresh)    
   Click this button to update the list of store managers.
@@ -473,7 +473,7 @@ The table displays all available store managers. All fields are read-only. Depen
 #### Create Pay Desk
 *Venduo POS > Management > Tab STORES > Select Store > Tab Basic Data > Add Pay Desk*
 
-![Create pay desk](/Assets/Screenshots/VenduoPOS/Management/Stores/Store/BasicData/CreatePayDesk.png "[Create pay desk]")
+![Create pay desk](/Assets/Screenshots/POS/Management/Stores/Store/BasicData/CreatePayDesk.png "[Create pay desk]")
 
 - *Name*   
   Enter the name of the new pay desk.
@@ -489,7 +489,7 @@ The table displays all available store managers. All fields are read-only. Depen
 ### Settings
 *Venduo POS > Management > Tab STORES > Select Store > Tab Settings*
 
-![Settings Store](/Assets/Screenshots/VenduoPOS/Management/Stores/Store/Settings/Settings.png "[Settings Store]")
+![Settings Store](/Assets/Screenshots/POS/Management/Stores/Store/Settings/Settings.png "[Settings Store]")
 
 #### UNKNOWN SECTION
 
@@ -499,7 +499,7 @@ In this section, you define all pay desk and payment settings.
 
 Activate or deactivate the option to print the cash receipt.
 
-![Bon immer ausdrucken](/Assets/Screenshots/VenduoPOS/Management/Stores/Store/Settings/Settings01.png "[Bon immer ausdrucken]")
+![Bon immer ausdrucken](/Assets/Screenshots/POS/Management/Stores/Store/Settings/Settings01.png "[Bon immer ausdrucken]")
 
  - [x] *Bon immer ausdrucken*   
    Choose whether or not to print the cash receipt for each transaction. If the receipt printing is deactivated, you can still initiate the receipt printing manually via the order history.
@@ -517,7 +517,7 @@ Activate or deactivate the option to print the cash receipt.
 
 Activate or deactivate the option to open the cash drawer for cash payment.
 
-![Kasse öffnen bei Barzahlung](/Assets/Screenshots/VenduoPOS/Management/Stores/Store/Settings/Settings02.png "[Kasse öffnen bei Barzahlung]")
+![Kasse öffnen bei Barzahlung](/Assets/Screenshots/POS/Management/Stores/Store/Settings/Settings02.png "[Kasse öffnen bei Barzahlung]")
 
 - [x] *Kassenschublade öffnen bei Barzahlung*   
   Choose whether or not to open the cash drawer for cash payment. By default, this option is active.
@@ -533,7 +533,7 @@ Activate or deactivate the option to open the cash drawer for cash payment.
 
 Activate or deactivate the option to open the cash drawer for cashless payment.
 
-![Kasse öffnen bei Barzahlung](/Assets/Screenshots/VenduoPOS/Management/Stores/Store/Settings/Settings03.png "[Kasse öffnen bei Barzahlung]")
+![Kasse öffnen bei Barzahlung](/Assets/Screenshots/POS/Management/Stores/Store/Settings/Settings03.png "[Kasse öffnen bei Barzahlung]")
 
 - [x] *Kasse öffnen*    
   Choose whether or not to open the cash drawer for cashless payment. By default, this option is active.
@@ -549,7 +549,7 @@ Activate or deactivate the option to open the cash drawer for cashless payment.
 
 Define the VAT ID, which is mandatory to be indicated on receipts in some countries.
 
-![USt-ID](/Assets/Screenshots/VenduoPOS/Management/Stores/Store/Settings/Settings04.png "[USt-ID]")
+![USt-ID](/Assets/Screenshots/POS/Management/Stores/Store/Settings/Settings04.png "[USt-ID]")
 
 - *USt-ID*   
   Enter your VAT ID. By default, The VAT-ID is printed on your receipts.
@@ -562,7 +562,7 @@ Define the VAT ID, which is mandatory to be indicated on receipts in some countr
 
 Define the store address which is used as invoice address.
 
-![Store Address](/Assets/Screenshots/VenduoPOS/Management/Stores/Store/Settings/Settings05.png "[Store Address]")
+![Store Address](/Assets/Screenshots/POS/Management/Stores/Store/Settings/Settings05.png "[Store Address]")
 
 - *Owner*   
   Enter the name of the store owner.
@@ -592,7 +592,7 @@ Define the store address which is used as invoice address.
 
 Define an amount up to which the pay desk is skimmed after the pay desk closes. The amount is automatically entered in the cash register and taken as the opening float.
 
-![Abschöpfen bis Betrag](/Assets/Screenshots/VenduoPOS/Management/Stores/Store/Settings/Settings06.png "[Abschöpfen bis Betrag]")
+![Abschöpfen bis Betrag](/Assets/Screenshots/POS/Management/Stores/Store/Settings/Settings06.png "[Abschöpfen bis Betrag]")
 
 - *Abschöpfen bis Betrag*    
   Enter the amount up to which the pay desk is skimmed after the pay desk closing.
@@ -605,7 +605,7 @@ Define an amount up to which the pay desk is skimmed after the pay desk closes. 
 
 By default, the expected amount in the pay desk is indicated. deactivate this option to hide the expected amount from the cashier in order to prevent the concealment of shortfalls.
 
-![Erwarteten Betrag verbergen](/Assets/Screenshots/VenduoPOS/Management/Stores/Store/Settings/Settings07.png "[Erwarteten Betrag verbergen]")
+![Erwarteten Betrag verbergen](/Assets/Screenshots/POS/Management/Stores/Store/Settings/Settings07.png "[Erwarteten Betrag verbergen]")
 
 - [x] *Erwarteten Betrag verbergen*   
   Choose whether or not to hide the expected amount in the pay desk from the cashier. By default, this option is inactive.
@@ -623,7 +623,7 @@ By default, the expected amount in the pay desk is indicated. deactivate this op
 
 Activate or deactivate the printing of a merchant receipt for cashless payment.
 
-![Händler-Beleg drucken](/Assets/Screenshots/VenduoPOS/Management/Stores/Store/Settings/Settings08.png "[Händler-Beleg drucken]")
+![Händler-Beleg drucken](/Assets/Screenshots/POS/Management/Stores/Store/Settings/Settings08.png "[Händler-Beleg drucken]")
 
 - [x] *Händler-Beleg drucken*   
   Choose whether or not to print a merchant receipt in addition to the customer receipt for cashless payments. By default, this option is active.
@@ -639,7 +639,7 @@ Activate or deactivate the printing of a merchant receipt for cashless payment.
 
 Activate or deactivate the native receipt printing.
 
-![Nativer Bon-Druck](/Assets/Screenshots/VenduoPOS/Management/Stores/Store/Settings/Settings09.png "[Nativer Bon-Druck]")
+![Nativer Bon-Druck](/Assets/Screenshots/POS/Management/Stores/Store/Settings/Settings09.png "[Nativer Bon-Druck]")
 
 - [x] *Nativer Bon-Druck*   
   Choose whether or not to use the native receipt print. By default, this option is active.
@@ -657,7 +657,7 @@ Activate or deactivate the native receipt printing.
 
 Activate or deactivate the compatibility mode for logo printing. As some receipt printer have issues with printing logos, it may help to activate this option.
 
-![Logo-Druck](/Assets/Screenshots/VenduoPOS/Management/Stores/Store/Settings/Settings10.png "[Logo-Druck]")
+![Logo-Druck](/Assets/Screenshots/POS/Management/Stores/Store/Settings/Settings10.png "[Logo-Druck]")
 
 - [x] *Logo-Druck Kompatibilitätsmodus*   
   Choose whether or not to use the compatibility mode for logo printing. By default, this option is inactive.
@@ -673,7 +673,7 @@ Activate or deactivate the compatibility mode for logo printing. As some receipt
 
 Define the width of the receipt, as it may vary depending on the printer.
 
-![Logo-Druck](/Assets/Screenshots/VenduoPOS/Management/Stores/Store/Settings/Settings11.png "[Logo-Druck]")
+![Logo-Druck](/Assets/Screenshots/POS/Management/Stores/Store/Settings/Settings11.png "[Logo-Druck]")
 
 - *Breite in Zeichen*   
   Define the width of the receipt in characters. This size is needed to calculate the width for the text.
@@ -695,7 +695,7 @@ Define the width of the receipt, as it may vary depending on the printer.
 ### Admin Settings - Store
 *Venduo POS > Management > Tab STORES > Select Store > Tab Admin Settings*
 
-![Admin Settings Store](/Assets/Screenshots/VenduoPOS/Management/Stores/Store/AdminSettings/AdminSettings.png "[Admin Settings Store]")
+![Admin Settings Store](/Assets/Screenshots/POS/Management/Stores/Store/AdminSettings/AdminSettings.png "[Admin Settings Store]")
 
 #### UNKNOWN SECTION
 
@@ -705,7 +705,7 @@ In this section, you define all pay desk and payment settings.
 
 Activate or deactivate the option to open the cash drawer for cash payment.
 
-![Kasse öffnen bei Barzahlung](/Assets/Screenshots/VenduoPOS/Management/Stores/Store/AdminSettings/AdminSettings01.png "[Kasse öffnen bei Barzahlung]")
+![Kasse öffnen bei Barzahlung](/Assets/Screenshots/POS/Management/Stores/Store/AdminSettings/AdminSettings01.png "[Kasse öffnen bei Barzahlung]")
 
 - [x] *Kassenschublade öffnen bei Barzahlung*   
   Choose whether or not to open the cash drawer for cash payment. By default, this option is active.
@@ -721,7 +721,7 @@ Activate or deactivate the option to open the cash drawer for cash payment.
 
 Activate or deactivate the option to open the cash drawer for cashless payment.
 
-![Kasse öffnen nach bargeldlosem Zahlen](/Assets/Screenshots/VenduoPOS/Management/Stores/Store/AdminSettings/AdminSettings02.png "[Kasse öffnen nach bargeldlosem Zahlen]")
+![Kasse öffnen nach bargeldlosem Zahlen](/Assets/Screenshots/POS/Management/Stores/Store/AdminSettings/AdminSettings02.png "[Kasse öffnen nach bargeldlosem Zahlen]")
 
 - [x] *Kasse öffnen*    
   Choose whether or not to open the cash drawer for cashless payment. By default, this option is active.
@@ -737,7 +737,7 @@ Activate or deactivate the option to open the cash drawer for cashless payment.
 
 When a pay desk is opened, it is linked to a specific user. This user is the only one who can use the pay desk until he closes it again. To allow that several users can access the same pay desk without closing it, you can deactivate the option to link the cash register to a specific user.
 
-![Kassenjournal auf User binden](/Assets/Screenshots/VenduoPOS/Management/Stores/Store/AdminSettings/AdminSettings03.png "[Kassenjournal auf User binden]")
+![Kassenjournal auf User binden](/Assets/Screenshots/POS/Management/Stores/Store/AdminSettings/AdminSettings03.png "[Kassenjournal auf User binden]")
 
 - [x] *Kassenbuch auf User gebunden*   
   Choose whether or not to link the cash register to a special user. By default, this option is active.
@@ -757,7 +757,7 @@ When a pay desk is opened, it is linked to a specific user. This user is the onl
 
 Select all currencies that are used in your POS system and define a default currency.
 
-![Verwendete Währungen](/Assets/Screenshots/VenduoPOS/Management/Stores/Store/AdminSettings/AdminSettings04.png "[Verwendete Währungen]")
+![Verwendete Währungen](/Assets/Screenshots/POS/Management/Stores/Store/AdminSettings/AdminSettings04.png "[Verwendete Währungen]")
 
 - [x] *Currency Name*   
   Choose whether or not to use this currency in your POS system.
@@ -778,7 +778,7 @@ Select all currencies that are used in your POS system and define a default curr
 
 Define the number format on the receipt.
 
-![Zahlenformat](/Assets/Screenshots/VenduoPOS/Management/Stores/Store/AdminSettings/AdminSettings05.png "[Zahlenformat]")
+![Zahlenformat](/Assets/Screenshots/POS/Management/Stores/Store/AdminSettings/AdminSettings05.png "[Zahlenformat]")
 
 - *Decimal separator*   
   Enter the decimal separator for the numbers on your receipt. You can use any separator including a blank space. This field is mandatory.
@@ -802,7 +802,7 @@ Define the number format on the receipt.
 
 Upload a logo for your receipts.
 
-![Logo](/Assets/Screenshots/VenduoPOS/Management/Stores/Store/AdminSettings/AdminSettings06.png "[Logo]")
+![Logo](/Assets/Screenshots/POS/Management/Stores/Store/AdminSettings/AdminSettings06.png "[Logo]")
 
   >  [Info] The png format is the only image format supported for logo images. So make sure that your image logo is also saved in the png format before uploading it.
 
@@ -829,7 +829,7 @@ For detailed information, see [Admin Settings - Store](#admin-settings-store) or
 
 The number of accounts to be assigned depends on the number of available currencies.
 
-![Zahlenformat](/Assets/Screenshots/VenduoPOS/Management/Stores/Store/AdminSettings/AdminSettings07.png "[Zahlenformat]")
+![Zahlenformat](/Assets/Screenshots/POS/Management/Stores/Store/AdminSettings/AdminSettings07.png "[Zahlenformat]")
 
 - *Type*   
   In this column, the account type is indicated. Six accounts are displayed per currency. The currency of the account is indicated in brackets after the account type name. The fields are display fields only. They cannot be changed.
@@ -863,7 +863,7 @@ The number of accounts to be assigned depends on the number of available currenc
 
 Define a customer ID for the store to restrict the reorder query to the selected store.
 
-![Shop-Kundennummer](/Assets/Screenshots/VenduoPOS/Management/Stores/Store/AdminSettings/AdminSettings08.png "[Shop-Kundennummer]")
+![Shop-Kundennummer](/Assets/Screenshots/POS/Management/Stores/Store/AdminSettings/AdminSettings08.png "[Shop-Kundennummer]")
 
 - *Kundennummer*   
   Enter a customer ID for the store. Only orders assigned to this ID can be queried. If you leave the field blank, all orders can be queried.
@@ -877,7 +877,7 @@ Define a customer ID for the store to restrict the reorder query to the selected
 
 Define a shelf in the quarantine warehouse for returns with defects.
 
-![Retourenlager](/Assets/Screenshots/VenduoPOS/Management/Stores/Store/AdminSettings/AdminSettings09.png "[Retourenlager]")
+![Retourenlager](/Assets/Screenshots/POS/Management/Stores/Store/AdminSettings/AdminSettings09.png "[Retourenlager]")
 
 - *Lager ID*   
   Enter an identification number for the quarantine warehouse.
@@ -895,7 +895,7 @@ Define a shelf in the quarantine warehouse for returns with defects.
 
 Change or define the warehouse from which to take the stock.
 
-![Lagerzuordnung](/Assets/Screenshots/VenduoPOS/Management/Stores/Store/AdminSettings/AdminSettings10.png "[Lagerzuordnung]")
+![Lagerzuordnung](/Assets/Screenshots/POS/Management/Stores/Store/AdminSettings/AdminSettings10.png "[Lagerzuordnung]")
 
 - *Warehouse*   
   Click the drop-down list and select the warehouse you want to take the stock from. By default, you can select the warehouses **Verkaufslager**, **Eigenlager** and **Außenlager**. Further, you can create your own warehouses, that are displayed in this drop-down list.   
@@ -917,7 +917,7 @@ Change or define the warehouse from which to take the stock.
 ## Pay Desk
 *Venduo POS > Management > Tab STORES > Select Store > Edit Pay Desk*
 
-![Pay Desk Basic Data](/Assets/Screenshots/VenduoPOS/Management/Stores/PayDesk/BasicData/BasicData.png "[Pay Desk Basic Data]")
+![Pay Desk Basic Data](/Assets/Screenshots/POS/Management/Stores/PayDesk/BasicData/BasicData.png "[Pay Desk Basic Data]")
 
 - *Name*   
   Name of the pay desk.
@@ -953,7 +953,7 @@ Change or define the warehouse from which to take the stock.
 ### Basic Data - Pay Desk
 *Venduo POS > Management > Tab STORES > Select Store > Edit Pay Desk > Tab Basic Data*
 
-![Pay Desk Basic Data](/Assets/Screenshots/VenduoPOS/Management/Stores/PayDesk/BasicData/BasicData.png "[Pay Desk Basic Data]")
+![Pay Desk Basic Data](/Assets/Screenshots/POS/Management/Stores/PayDesk/BasicData/BasicData.png "[Pay Desk Basic Data]")
 
 - *Short Description*   
   Enter a short description to the pay desk.
@@ -981,7 +981,7 @@ Change or define the warehouse from which to take the stock.
 #### Cashiers
 *Venduo POS > Management > Tab STORES > Select Store > Edit Pay Desk > Tab Basic Data > Add Cashier*
 
-![Cashiers](/Assets/Screenshots/VenduoPOS/Management/Stores/PayDesk/BasicData/Cashiers.png "[Cashiers]")
+![Cashiers](/Assets/Screenshots/POS/Management/Stores/PayDesk/BasicData/Cashiers.png "[Cashiers]")
 
 - ![Refresh](/Assets/Icons/Refresh01.png "[Refresh]") (Refresh)   
   Click this button to update the list of cashiers.
@@ -1013,7 +1013,7 @@ The table displays all available cashiers. All fields are read-only. Depending o
 ### Admin Settings - Pay Desk
 *Venduo POS > Management > Tab STORES > Select Store > Edit Pay Desk > Tab Admin Settings*
 
-![Admin Settings Pay Desk](/Assets/Screenshots/VenduoPOS/Management/Stores/PayDesk/AdminSettings/AdminSettings.png "[Admin Settings Pay Desk]")
+![Admin Settings Pay Desk](/Assets/Screenshots/POS/Management/Stores/PayDesk/AdminSettings/AdminSettings.png "[Admin Settings Pay Desk]")
 
 #### UNKNOWN SECTION
 
@@ -1023,7 +1023,7 @@ In this section, you define all pay desk and payment settings.
 
 Activate or deactivate the option to open the cash drawer for cash payment.
 
-![Kasse öffnen bei Barzahlung](/Assets/Screenshots/VenduoPOS/Management/Stores/PayDesk/AdminSettings/AdminSettings01.png "[Kasse öffnen bei Barzahlung]")
+![Kasse öffnen bei Barzahlung](/Assets/Screenshots/POS/Management/Stores/PayDesk/AdminSettings/AdminSettings01.png "[Kasse öffnen bei Barzahlung]")
 
 - [x] *Kassenschublade öffnen bei Barzahlung*   
   Choose whether or not to open the cash drawer for cash payment. By default, this option is active.
@@ -1039,7 +1039,7 @@ Activate or deactivate the option to open the cash drawer for cash payment.
 
 Activate or deactivate the option to open the cash drawer for cashless payment.
 
-![Kasse öffnen nach bargeldlosem Zahlen](/Assets/Screenshots/VenduoPOS/Management/Stores/PayDesk/AdminSettings/AdminSettings02.png "[Kasse öffnen nach bargeldlosem Zahlen]")
+![Kasse öffnen nach bargeldlosem Zahlen](/Assets/Screenshots/POS/Management/Stores/PayDesk/AdminSettings/AdminSettings02.png "[Kasse öffnen nach bargeldlosem Zahlen]")
 
 - [x] *Kasse öffnen*    
   Choose whether or not to open the cash drawer for cashless payment. By default, this option is active.
@@ -1057,7 +1057,7 @@ Activate or deactivate the option to open the cash drawer for cashless payment.
 
 Activate or deactivate the printing of a merchant receipt for cashless payment.
 
-![Händler-Beleg drucken](/Assets/Screenshots/VenduoPOS/Management/Stores/PayDesk/AdminSettings/AdminSettings03.png "[Händler-Beleg drucken]")
+![Händler-Beleg drucken](/Assets/Screenshots/POS/Management/Stores/PayDesk/AdminSettings/AdminSettings03.png "[Händler-Beleg drucken]")
 
 - [x] *Händler-Beleg drucken*   
   Choose whether or not to print a merchant receipt in addition to the customer receipt for cashless payments. By default, this option is active.
@@ -1073,7 +1073,7 @@ Activate or deactivate the printing of a merchant receipt for cashless payment.
 
 Activate or deactivate the native receipt printing.
 
-![Nativer Bon-Druck](/Assets/Screenshots/VenduoPOS/Management/Stores/PayDesk/AdminSettings/AdminSettings04.png "[Nativer Bon-Druck]")
+![Nativer Bon-Druck](/Assets/Screenshots/POS/Management/Stores/PayDesk/AdminSettings/AdminSettings04.png "[Nativer Bon-Druck]")
 
 - [x] *Nativer Bon-Druck*   
   Choose whether or not to use the native receipt print. By default, this option is active.
@@ -1091,7 +1091,7 @@ Activate or deactivate the native receipt printing.
 
 Activate or deactivate the compatibility mode for logo printing. As some receipt printer have issues with printing logos, it may help to activate this option.
 
-![Logo-Druck](/Assets/Screenshots/VenduoPOS/Management/Stores/PayDesk/AdminSettings/AdminSettings05.png "[Logo-Druck]")
+![Logo-Druck](/Assets/Screenshots/POS/Management/Stores/PayDesk/AdminSettings/AdminSettings05.png "[Logo-Druck]")
 
 - [x] *Logo-Druck Kompatibilitätsmodus*   
   Choose whether or not to use the compatibility mode for logo printing. By default, this option is inactive.
@@ -1107,7 +1107,7 @@ Activate or deactivate the compatibility mode for logo printing. As some receipt
 
 Define the width of the receipt, as it may vary depending on the printer.
 
-![Logo-Druck](/Assets/Screenshots/VenduoPOS/Management/Stores/PayDesk/AdminSettings/AdminSettings06.png "[Logo-Druck]")
+![Logo-Druck](/Assets/Screenshots/POS/Management/Stores/PayDesk/AdminSettings/AdminSettings06.png "[Logo-Druck]")
 
 - *Breite in Zeichen*   
   Define the width of the receipt in characters. This size is needed to calculate the width for the text.
@@ -1133,7 +1133,7 @@ For detailed information, see [Admin Settings - Store](#admin-settings-store) or
 
 The number of accounts to be assigned depends on the number of available currencies.
 
-![Zahlenformat](/Assets/Screenshots/VenduoPOS/Management/Stores/PayDesk/AdminSettings/AdminSettings07.png "[Zahlenformat]")
+![Zahlenformat](/Assets/Screenshots/POS/Management/Stores/PayDesk/AdminSettings/AdminSettings07.png "[Zahlenformat]")
 
 - *Type*   
   In this column, the account type is indicated. Six accounts are displayed per currency. The currency of the account is indicated in brackets after the account type name. The fields are display fields only. They cannot be changed.
@@ -1167,7 +1167,7 @@ The number of accounts to be assigned depends on the number of available currenc
 ### Transactions
 *Venduo POS > Management > Tab STORES > Select Store > Edit Pay Desk > Tab Transactions*
 
-![Transactions](/Assets/Screenshots/VenduoPOS/Management/Stores/PayDesk/Transactions/Transactions.png "[Transactions]")
+![Transactions](/Assets/Screenshots/POS/Management/Stores/PayDesk/Transactions/Transactions.png "[Transactions]")
 
 **Shifts**
 
@@ -1221,7 +1221,7 @@ The table displays the shift summaries of all shifts on the selected pay desk. D
 #### Transactions Details
 *Venduo POS > Management > Tab STORES > Select Store > Edit Pay Desk > Tab Transactions > Select Shift*
 
-![Transactions](/Assets/Screenshots/VenduoPOS/Management/Stores/PayDesk/Transactions/Details.png "[Transactions]")
+![Transactions](/Assets/Screenshots/POS/Management/Stores/PayDesk/Transactions/Details.png "[Transactions]")
 
 - ![Refresh](/Assets/Icons/Refresh01.png "[Refresh]") (Refresh)   
   Click this button to update the list of transactions.

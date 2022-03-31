@@ -17,12 +17,12 @@ The pay desk is open, see [Open a pay desk](01_OpenPayDesk.md).
 
 *Venduo POS > Sales > Tab CASH REGISTER > Select Store and Pay Desk*
 
-![Cash Register](/Assets/Screenshots/VenduoPOS/Sales/CashRegister/CashRegister.png "[Cash Register]")
+![Cash Register](/Assets/Screenshots/POS/Sales/CashRegister/CashRegister.png "[Cash Register]")
 
 1. Click the button [Cash in] in the upper right corner of the *Cash In/Out* section.   
   The *Cash in* view is displayed.
 
-  ![Cash In](/Assets/Screenshots/VenduoPOS/Sales/CashRegister/CashIn.png "[Cash In]")
+  ![Cash In](/Assets/Screenshots/POS/Sales/CashRegister/CashIn.png "[Cash In]")
 
 2. Enter a descriptive name for the deposit in the *Description* field.
 
@@ -42,7 +42,7 @@ The pay desk is open, see [Open a pay desk](01_OpenPayDesk.md).
 
 ### See also
 
-- [User Interface Venduo POS](/VenduoPOS/UserInterface/00_UserInterface.md)
+- [User Interface Venduo POS](/POS/UserInterface/00_UserInterface.md)
 - [Open the drawer](04_CompletePurchase.md#open-the-drawer)
 
 
@@ -59,12 +59,12 @@ The pay desk is open, see [Open a pay desk](01_OpenPayDesk.md).
 
 *Venduo POS > Sales > Tab CASH REGISTER > Select Store and Pay Desk*
 
-![Cash Register](/Assets/Screenshots/VenduoPOS/Sales/CashRegister/CashRegister.png "[Cash Register]")
+![Cash Register](/Assets/Screenshots/POS/Sales/CashRegister/CashRegister.png "[Cash Register]")
 
 1. Click the button [Cash out] in the upper right corner of the *Cash In/Out* section.   
   The *Cash out* view is displayed.
 
-  ![Cash Out](/Assets/Screenshots/VenduoPOS/Sales/CashRegister/CashOut.png "[Cash Out]")
+  ![Cash Out](/Assets/Screenshots/POS/Sales/CashRegister/CashOut.png "[Cash Out]")
 
 2. Enter a descriptive name for the withdrawal in the text *Description* field.
 
@@ -83,7 +83,7 @@ The pay desk is open, see [Open a pay desk](01_OpenPayDesk.md).
 
 ### See also
 
-- [User Interface Venduo POS](/VenduoPOS/UserInterface/00_UserInterface.md)
+- [User Interface Venduo POS](/POS/UserInterface/00_UserInterface.md)
 - [Open the drawer](04_CompletePurchase.md#open-the-drawer)
 - [Cash in the register](#cash-in-the-register)
 
@@ -101,12 +101,12 @@ The pay desk is open, see [Open a pay desk](01_OpenPayDesk.md).
 
 *Venduo POS > Sales > Tab CASH REGISTER > Select Store and Pay Desk*
 
-![Cash Register](/Assets/Screenshots/VenduoPOS/Sales/CashRegister/CashRegister.png "[Cash Register]")
+![Cash Register](/Assets/Screenshots/POS/Sales/CashRegister/CashRegister.png "[Cash Register]")
 
 1. Click the ![Calculator](/Assets/Icons/Calculator01.png "[Calculator]") (Calculator) button in the field of the *Counted* column in the *Payment Tally* section.   
   The *Count cash* view is displayed.
 
-  ![Count Cash](/Assets/Screenshots/VenduoPOS/Sales/CashRegister/CountCash.png "[Count Cash]")
+  ![Count Cash](/Assets/Screenshots/POS/Sales/CashRegister/CountCash.png "[Count Cash]")
 
 2. Enter the number of coins or banknotes in the field of the *Amount* column. The amount of money is specified in the same row in the *Type* column.
 
@@ -126,7 +126,7 @@ The pay desk is open, see [Open a pay desk](01_OpenPayDesk.md).
 6. Click the button [Close Register] in the upper right corner of the *Payment Tally* section.   
   A confirmation message whether the pay desk should really be closed is displayed.
 
-  ![Close Register](/Assets/Screenshots/VenduoPOS/Sales/CashRegister/CloseRegister.png "[Close Register]")
+  ![Close Register](/Assets/Screenshots/POS/Sales/CashRegister/CloseRegister.png "[Close Register]")
 
 7. Click the [Ok] button.   
   The pay desk is closed. The view to select a store and a pay desk is displayed, see [Open a pay desk](01_OpenPayDesk.md).
@@ -138,7 +138,7 @@ The pay desk is open, see [Open a pay desk](01_OpenPayDesk.md).
 
 ### See also
 
-- [User Interface Venduo POS](/VenduoPOS/UserInterface/00_UserInterface.md)
+- [User Interface Venduo POS](/POS/UserInterface/00_UserInterface.md)
 - [Open the drawer](04_CompletePurchase.md#open-the-drawer)
 - [Cash in the register](#cash-in-the-register)
 - [Cash out the register](#cash-out-the-register)
@@ -158,12 +158,12 @@ At least one shift has ended and the pay desk has been closed, see [Close a pay 
 *Venduo POS > Management > Tab STORES > Select Store > Tab Basic Data > Select Pay Desk > Tab Transactions*
 
 
-![Transactions](/Assets/Screenshots/VenduoPOS/Management/Stores/PayDesk/Transactions/Transactions.png "[Transactions]")
+![Transactions](/Assets/Screenshots/POS/Management/Stores/PayDesk/Transactions/Transactions.png "[Transactions]")
 
 1. Click anywhere in the row with the shift you want to check (except in the *Print Shift Summary* field).   
   The *Transactions* window is displayed.
 
-  ![Transactions Details](/Assets/Screenshots/VenduoPOS/Management/Stores/PayDesk/Transactions/Details.png "[Transactions Details]")
+  ![Transactions Details](/Assets/Screenshots/POS/Management/Stores/PayDesk/Transactions/Details.png "[Transactions Details]")
 
  > [Info] The *Transactions* window displays the detailed transactions of the selected shift.
 
@@ -181,7 +181,7 @@ At least one shift has ended and the pay desk has been closed, see [Close a pay 
 
 ### See also
 
-- [User Interface Venduo POS](/VenduoPOS/UserInterface/00_UserInterface.md)
+- [User Interface Venduo POS](/POS/UserInterface/00_UserInterface.md)
 - [Open the drawer](04_CompletePurchase.md#open-the-drawer)
 - [Cash in the register](#cash-in-the-register)
 - [Cash out the register](#cash-out-the-register)

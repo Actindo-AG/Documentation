@@ -1,7 +1,7 @@
 # History
 *Venduo POS > Sales > Tab HISTORY*
 
-![History](/Assets/Screenshots/VenduoPOS/Sales/History/History.png "[History]")
+![History](/Assets/Screenshots/POS/Sales/History/History.png "[History]")
 
 **List of sales**
 

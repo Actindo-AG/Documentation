@@ -1,12 +1,12 @@
 [!!Venduo POS](POS)
-[!!Invoicing](Invoicing)
+[!!Invoicing](RetailSuiteFaktBase)
 [!!DataHub](DataHub)
 
 # Configure the global settings for POS
 
 Venduo POS provides many settings to  configure the POS system individually.
 
-For detailed information about the specific settings, see [Global Settings](/VenduoPOS/UserInterface/02a_Management.md#global-settings).
+For detailed information about the specific settings, see [Global Settings](/POS/UserInterface/02a_Management.md#global-settings).
 
 Before creating a new store in the POS system, you should configure the following settings:
 
@@ -27,7 +27,7 @@ No prerequisites to fulfill.
 
 *Venduo POS > Management > Tab GLOBAL SETTINGS > Entry Default Customer*
 
-  ![Default Customer](/Assets/Screenshots/VenduoPOS/Management/GlobalSettings/GS27.png "[Default Customer]")
+  ![Default Customer](/Assets/Screenshots/POS/Management/GlobalSettings/GS27.png "[Default Customer]")
 
 1. Select the *Default Customer* entry in the list of settings in the left column.
 
@@ -52,7 +52,7 @@ No prerequisites to fulfill.
 
 ### See also
 
-- [User Interface Venduo POS](/VenduoPOS/UserInterface/00_UserInterface.md)
+- [User Interface Venduo POS](/POS/UserInterface/00_UserInterface.md)
 - [Configure the warehouse for POS](01_ConfigureWarehouse.md)
 - [Manage the accounts for POS](02_ManageAccounts.md)
 - [Configure the printer for POS](03_ConfigurePrinter.md)
@@ -71,7 +71,7 @@ No prerequisites to fulfill.
 
 *Venduo POS > Management > Tab GLOBAL SETTINGS > Entry VAT-ID*
 
-  ![VAT-ID](/Assets/Screenshots/VenduoPOS/Management/GlobalSettings/GS08.png "[VAT-ID]")
+  ![VAT-ID](/Assets/Screenshots/POS/Management/GlobalSettings/GS08.png "[VAT-ID]")
 
 1. Select the *VAT-ID* entry in the list of settings in the left column.   
   The *VAT-ID* view is displayed on the right side.
@@ -92,7 +92,7 @@ No prerequisites to fulfill.
 
 ### See also
 
-- [User Interface Venduo POS](/VenduoPOS/UserInterface/00_UserInterface.md)
+- [User Interface Venduo POS](/POS/UserInterface/00_UserInterface.md)
 - [Configure a default customer](#configure-a-default-customer)
 - [Configure the warehouse for POS](01_ConfigureWarehouse.md)
 - [Manage the accounts for POS](02_ManageAccounts.md)
@@ -113,12 +113,12 @@ No prerequisites to fulfill.
 #### Create a payment method in Invoicing
 *Invoicing > Settings > Tab PAYMENT METHOD(S)*
 
-![Payment method](/Assets/Screenshots/Invoicing/Settings/PaymentMethods/PaymentMethods.png "[Payment methods]")
+![Payment method](/Assets/Screenshots/RetailSuiteFaktBase/Settings/PaymentMethods/PaymentMethods.png "[Payment methods]")
 
 1. Click the [NEW] button.   
   The *Edit payment method* window is displayed.
 
-  ![Edit payment method](/Assets/Screenshots/Invoicing/Settings/PaymentMethods/EditPaymentMethod.png "[Edit payment method]")
+  ![Edit payment method](/Assets/Screenshots/RetailSuiteFaktBase/Settings/PaymentMethods/EditPaymentMethod.png "[Edit payment method]")
 
 2. Enter a name for the payment method in the *Title* field.   
 
@@ -127,7 +127,7 @@ No prerequisites to fulfill.
 4. Click the [SAVE] button in the bottom right corner of the window.   
   The *Saving...* window is displayed.
 
-  ![Saving](/Assets/Screenshots/Invoicing/Settings/PaymentMethods/Saving.png "[Saving]")
+  ![Saving](/Assets/Screenshots/RetailSuiteFaktBase/Settings/PaymentMethods/Saving.png "[Saving]")
 
   When the window is closed, the new payment method is saved in Invoicing. The new payment method is displayed in the list of payment methods in the *PAYMENT METHOD(S)* tab.
 
@@ -135,12 +135,12 @@ No prerequisites to fulfill.
 #### Create a payment method in POS
 *Venduo POS > Management > Tab GLOBAL SETTINGS*
 
-![GlobalSettings](/Assets/Screenshots/VenduoPOS/Management/GlobalSettings/GlobalSettings.png "[GlobalSettings]")
+![GlobalSettings](/Assets/Screenshots/POS/Management/GlobalSettings/GlobalSettings.png "[GlobalSettings]")
 
 1. Click the *Payment Methods (manual terminal payment)* setting in the list of settings.   
   The *Payment Methods (manual terminal payment)* view is displayed.
 
-  ![Payment methods](/Assets/Screenshots/VenduoPOS/Management/GlobalSettings/GS04.png "[Payment methods]")
+  ![Payment methods](/Assets/Screenshots/POS/Management/GlobalSettings/GS04.png "[Payment methods]")
 
 2. Click the ![Add](/Assets/Icons/Plus04.png "[Add]") (Add) button.
   A new row for a payment method is displayed.
@@ -187,7 +187,7 @@ No prerequisites to fulfill.
 
 ### See also
 
-- [User Interface Venduo POS](/VenduoPOS/UserInterface/00_UserInterface.md)
+- [User Interface Venduo POS](/POS/UserInterface/00_UserInterface.md)
 - [Configure a default customer](#configure-a-default-customer)
 - [Configure the VAT-ID in POS](#configure-the-VAT-ID-in-POS)
 - [Configure the warehouse for POS](01_ConfigureWarehouse.md)

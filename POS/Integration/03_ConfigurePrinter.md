@@ -59,7 +59,7 @@ The current APS is installed and has been started including a successful login.
 
 ## See also
 
-- [User Interface Printing](/VenduoPOS/UserInterface/00_UserInterface.md)
+- [User Interface Printing](/POS/UserInterface/00_UserInterface.md)
 - [Install the APS](to_be_completed)
 - [Select a printer](06_CreateStore.md)
 - [Configure the warehouse for POS](01_ConfigureWarehouse.md)

@@ -4,7 +4,7 @@ This tab is only displayed, when the global setting *Shop-Lieferungen aktiv* is 
 
 *Venduo POS > Management > Tab OFFENE LIEFERSCHEINE*
 
-![Offene Lieferscheine](/Assets/Screenshots/VenduoPOS/Management/OffeneLieferscheine/OffeneLieferscheine.png "[Offene Lieferscheine]")
+![Offene Lieferscheine](/Assets/Screenshots/POS/Management/OffeneLieferscheine/OffeneLieferscheine.png "[Offene Lieferscheine]")
 
 **Unprocessed Bills**
 

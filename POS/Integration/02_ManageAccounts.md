@@ -15,7 +15,7 @@ The accounts are all created in the same way. The account creation is explained 
 
 You may check the availability of a certain account number before creating it as account numbers can only be assigned once.    
 Each account number is assigned to a specific number range, which indicates the account class.    
-For detailed information about the account classes, see [User Interface Accounting](/Accounting/UserInterface/00_UserInterface.md).
+For detailed information about the account classes, see [User Interface Accounting](/RetailSuiteAccounting/UserInterface/00_UserInterface.md).
 
 ### Prerequisites
 
@@ -26,7 +26,7 @@ For detailed information about the account classes, see [User Interface Accounti
 
 *Accounting > Select the fiscal year > Settings > Tab ACCOUNTS*
 
-![Account availability](/Assets/Screenshots/Accounting/Settings/Accounts/AccountAvailability.png "[Account availability]")
+![Account availability](/Assets/Screenshots/RetailSuiteAccounting/Settings/Accounts/AccountAvailability.png "[Account availability]")
 
 1. Select the corresponding number range in the *Account class* drop-down list.   
   All accounts of the selected account class are displayed in the list.
@@ -45,10 +45,10 @@ For detailed information about the account classes, see [User Interface Accounti
 
 ### See also
 
-- [User Interface Accounting](/Accounting/UserInterface/00_UserInterface.md)
+- [User Interface Accounting](/RetailSuiteAccounting/UserInterface/00_UserInterface.md)
 - [Configure the warehouse for POS](01_ConfigureWarehouse.md)
 - [Assign the accounts](06_CreateStore.md#assign-the-accounts)
-- [Manage the POS order process](/VenduoPOS/Operation/06_ManageOrderProcess.md)
+- [Manage the POS order process](/POS/Operation/06_ManageOrderProcess.md)
 
 
 ## Create an account
@@ -63,14 +63,7 @@ The account availability is checked, see [Check the account availability](#check
 
 *Accounting > Select the fiscal year > Settings > Tab ACCOUNTS*
 
-![Create Account](/Assets/Screenshots/Accounting/Settings/Accounts/CreateAccount.png "[CreateAccount]")
-
-| (1) | **Field *Account number*** |
-|-----|---------------------|
-|**(2)**| **Field *Account name*** |
-|**(3)**| **drop-down list *Tax type*** |
-|**(4)**| **drop-down list *Function*** |
-|**(5)**| **Button [SPEICHERN & NEU]** |
+![Create Account](/Assets/Screenshots/RetailSuiteAccounting/Settings/Accounts/CreateAccount.png "[CreateAccount]")
 
 1. Enter an available account number in the *Account number* field.
 
@@ -79,7 +72,7 @@ The account availability is checked, see [Check the account availability](#check
 3. Select a tax type for the account in the *Tax type* drop-down list .
 
 4. Select the corresponding function for the account in the *Function* drop-down list .   
-  For detailed information, see [User Interface Accounting](/Accounting/UserInterface/00_UserInterface.md).
+  For detailed information, see [User Interface Accounting](/RetailSuiteAccounting/UserInterface/00_UserInterface.md).
 
 5. Click the [SPEICHERN & NEU] button.   
   The new account is displayed in the account list.
@@ -97,7 +90,7 @@ The account availability is checked, see [Check the account availability](#check
 
 ### See also
 
-- [User Interface Accounting](/Accounting/UserInterface/00_UserInterface.md)
+- [User Interface Accounting](/RetailSuiteAccounting/UserInterface/00_UserInterface.md)
 - [Configure the warehouse for POS](01_ConfigureWarehouse.md)
 - [Assign the accounts](06_CreateStore.md#assign-the-accounts)
-- [Manage the POS order process](/VenduoPOS/Operation/06_ManageOrderProcess.md)
+- [Manage the POS order process](/POS/Operation/06_ManageOrderProcess.md)

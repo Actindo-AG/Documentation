@@ -15,12 +15,12 @@ You have at least store manager rights in the respective store.
 
 *Venduo POS > Management > Tab STORES > Select Store*
 
-![Pay Desk Used](/Assets/Screenshots/VenduoPOS/Management/Stores/Store/PayDeskUsed.png "[Pay Desk Used]")
+![Pay Desk Used](/Assets/Screenshots/POS/Management/Stores/Store/PayDeskUsed.png "[Pay Desk Used]")
 
 1. Hover over the pay desk in use and click the button ![Edit](/Assets/Icons/Edit02.png "[Edit]") (Edit).   
   The *Pay desk* view of the selected pay desk is displayed.
 
-  ![Remove Cashier](/Assets/Screenshots/VenduoPOS/Management/Stores/PayDesk/RemoveCashier.png "[Remove Cashier]")
+  ![Remove Cashier](/Assets/Screenshots/POS/Management/Stores/PayDesk/RemoveCashier.png "[Remove Cashier]")
 
   > [Info] The name of the cashier who is currently using the pay desk is displayed in the upper part of the view, directly under the name of the pay desk.
 
@@ -33,7 +33,7 @@ You have at least store manager rights in the respective store.
 
 ## See also
 
-- [User Interface Omni-Channel](/OmniChannel/UserInterface/00_UserInterface.md)
+- [User Interface Venduo POS](/POS/UserInterface/00_UserInterface.md)
 
 
 ## Was this chapter helpful?

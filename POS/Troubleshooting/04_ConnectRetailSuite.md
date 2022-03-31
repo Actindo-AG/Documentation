@@ -44,7 +44,7 @@ You have the rights to install a plugin in the *Platform Manager*.
   6. Click the [APPLY] button in the upper right corner of the *Installed modules* section.   
     The *Apply changes* window is displayed. The *Set sequence* tab is preselected. The *UCS Sync for POS* plugin is displayed in the list.
 
-    ![Set sequence](/Assets/Screenshots/Settings/PlatformManager/SetSequence.png "[Set sequence]")
+    ![Set sequence](/Assets/Screenshots/Settings/PlatformManager/SetSequenceInstall.png "[Set sequence]")
 
   7. Click the [APPLY] button in the bottom right corner of the window.   
     The *Apply changes* tab is displayed.
@@ -70,7 +70,7 @@ You have the rights to install a plugin in the *Platform Manager*.
     5. Click the [APPLY] button in the upper right corner of the *Installed modules* section.   
       The *Apply changes* window is displayed. The *Set sequence* tab is preselected. The *UCS Sync for POS* plugin is displayed in the list.
 
-      ![Set sequence](/Assets/Screenshots/Settings/PlatformManager/SetSequence.png "[Set sequence]")
+      ![Set sequence](/Assets/Screenshots/Settings/PlatformManager/SetSequenceRerun.png "[Set sequence]")
 
     6. Click the [APPLY] button in the bottom right corner of the window.   
       The *Apply changes* tab is displayed. The plugin is updated when the progress bar displays **100%**.

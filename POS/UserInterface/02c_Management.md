@@ -1,7 +1,7 @@
 # Mapping from PIM
 *Venduo POS > Management > Tab MAPPING FROM PIM*
 
-![Mapping from PIM](/Assets/Screenshots/VenduoPOS/Management/MappingFromPIM/MappingFromPIM02.png "[Mapping from PIM]")
+![Mapping from PIM](/Assets/Screenshots/POS/Management/MappingFromPIM/MappingFromPIM02.png "[Mapping from PIM]")
 
 **Not mapped PIM product types**
 

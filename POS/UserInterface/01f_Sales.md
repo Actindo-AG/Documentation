@@ -2,7 +2,7 @@
 
 *Venduo POS > Sales > Select Store and Pay Desk > Tab SETTINGS*
 
-![Settings](/Assets/Screenshots/VenduoPOS/Sales/Settings/Settings.png "[Settings]")
+![Settings](/Assets/Screenshots/POS/Sales/Settings/Settings.png "[Settings]")
 
 In this tab you can configure the settings for the cash drawer:
 - [Kasse öffnen bei Barzahlung](#kasse-öffnen-bei-barzahlung)
@@ -13,7 +13,7 @@ In this tab you can configure the settings for the cash drawer:
 
 Activate or deactivate the option to open the cash drawer for cash payment.
 
-![Kasse öffnen bei Barzahlung](/Assets/Screenshots/VenduoPOS/Sales/Settings/Settings01.png "[Kasse öffnen bei Barzahlung]")
+![Kasse öffnen bei Barzahlung](/Assets/Screenshots/POS/Sales/Settings/Settings01.png "[Kasse öffnen bei Barzahlung]")
 
 - [x] *Kassenschublade öffnen bei Barzahlung*   
   Select this checkbox to open the cash drawer for cash payment.
@@ -29,7 +29,7 @@ Activate or deactivate the option to open the cash drawer for cash payment.
 
 Activate or deactivate the option to open the cash drawer for cashless payment.
 
-![Kasse öffnen nach bargeldlosem Zahlen](/Assets/Screenshots/VenduoPOS/Sales/Settings/Settings02.png "[Kasse öffnennach bargeldlosem Zahlen]")
+![Kasse öffnen nach bargeldlosem Zahlen](/Assets/Screenshots/POS/Sales/Settings/Settings02.png "[Kasse öffnennach bargeldlosem Zahlen]")
 
 - [x] *Kasse öffnen*    
 Select this checkbox to open the cash drawer for cashless payment.
