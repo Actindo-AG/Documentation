@@ -11,7 +11,7 @@ The accounts are set up during the configuration process via the accounting wiza
 
 You may check the availability of a certain account number before creating it as account numbers can only be assigned once.    
 Each account number is assigned to a specific number range, which indicates the account class.    
-For detailed information about the account classes, see [User Interface Accounting](/Accounting/UserInterface/00_UserInterface.md).
+For detailed information about the account classes, see [User Interface Accounting](/RetailSuiteAccounting/UserInterface/00_UserInterface.md).
 
 ### Prerequisites
 
@@ -22,7 +22,7 @@ For detailed information about the account classes, see [User Interface Accounti
 
 *Accounting > Select the fiscal year > Settings > Tab ACCOUNTS*
 
-![Account availability](/Assets/Screenshots/Accounting/Settings/Accounts/Account_availability.png "[Account availability]")
+![Account availability](/Assets/Screenshots/RetailSuiteAccounting/Settings/Accounts/Account_availability.png "[Account availability]")
 
 1. Select the corresponding number range in the drop-down list *Account class*.   
   All accounts of the selected account class are displayed in the list.
@@ -42,7 +42,7 @@ For detailed information about the account classes, see [User Interface Accounti
 
 ### See also
 
-- [User Interface Accounting](/Accounting/UserInterface/00_UserInterface.md)
+- [User Interface Accounting](/RetailSuiteAccounting/UserInterface/00_UserInterface.md)
 
 
 ## Create an account
@@ -60,7 +60,7 @@ You can create an account that is not yet available in the system.
 
 *Accounting > Select the fiscal year > Settings > Tab ACCOUNTS*
 
-![Create an account](/Assets/Screenshots/Accounting/Settings/Accounts/Create_account.png "[Create an account]")
+![Create an account](/Assets/Screenshots/RetailSuiteAccounting/Settings/Accounts/Create_account.png "[Create an account]")
 
 1. Enter an available account number in the field *Account number*.
 
@@ -88,7 +88,7 @@ You can create an account that is not yet available in the system.
 
 
 6. Select the corresponding function for the account in the drop-down list *Function* .   
-  For detailed information, see [User Interface Accounting](/Accounting/UserInterface/00_UserInterface.md).
+  For detailed information, see [User Interface Accounting](/RetailSuiteAccounting/UserInterface/00_UserInterface.md).
 
 [comment]: <> (If reference to UserInterface is made and all drop-down list options explained there, maybe delete drop-down list options in points 3 and 4 too?)
 
@@ -108,7 +108,7 @@ You can create an account that is not yet available in the system.
 
 ### See also
 
-- [User Interface Accounting](/Accounting/UserInterface/00_UserInterface.md)
+- [User Interface Accounting](/RetailSuiteAccounting/UserInterface/00_UserInterface.md)
 
 
 ## Edit an account
@@ -124,7 +124,7 @@ You can edit an existing account, for example if a tax rate needs to be updated.
 
 *Accounting > Select the fiscal year > Settings > Tab ACCOUNTS*
 
-![Edit an account](/Assets/Screenshots/Accounting/Settings/Accounts/Edit_account.png "[Edit an account]")
+![Edit an account](/Assets/Screenshots/RetailSuiteAccounting/Settings/Accounts/Edit_account.png "[Edit an account]")
 
 1. Select the corresponding number range in the drop-down list *Account class*.   
   All accounts of the selected account class are displayed in the list.
@@ -148,7 +148,7 @@ The account has been edited. The edited account is displayed in the list.
 
 ### See also
 
-  - [User Interface Accounting](/Accounting/UserInterface/00_UserInterface.md)
+  - [User Interface Accounting](/RetailSuiteAccounting/UserInterface/00_UserInterface.md)
 
 
 ## Delete an account
@@ -164,7 +164,7 @@ You can delete an existing account, for example if it is no longer applicable.
 
 *Accounting > Select the fiscal year > Settings > Tab ACCOUNTS*
 
-![Delete an account](/Assets/Screenshots/Accounting/Settings/Accounts/Delete_account.png "[Delete an account]")
+![Delete an account](/Assets/Screenshots/RetailSuiteAccounting/Settings/Accounts/Delete_account.png "[Delete an account]")
 
 1. Select the account to be deleted.
   > [Warning] Be aware that the existing tax key will be deleted permanently.
@@ -181,4 +181,4 @@ The selected account has been deleted.
 
 ### See also
 
-- [User Interface Accounting](/Accounting/UserInterface/00_UserInterface.md)
+- [User Interface Accounting](/RetailSuiteAccounting/UserInterface/00_UserInterface.md)
