@@ -1,4 +1,4 @@
-[!!Accounting](Accounting)
+[!!Accounting](RetailSuiteAccounting)
 
 # Run the accounting wizard
 
