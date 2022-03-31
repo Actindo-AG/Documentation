@@ -1,12 +1,10 @@
-[!!Accounting](Actindo/Accounting)
+[!!Accounting](RetailSuiteAccounting)
 
 # Manage the accounts
 
 The accounts are set up during the configuration process via the accounting wizard, see [Charts of accounts](01_RunAccountingWizard.md#chart-of-accounts). However, you can create, edit or delete an account if necessary in the *Accounting* module, for example if a specific account is not yet available in the system or the settings of an existing one need to be adjusted.
 
 > [Warning] Any modifications in the accounts have far-reaching consequences for the *Accounting* module and the system automatic bookings. It is highly recommended not to make any changes in the accounts, unless you have an in-depth knowledge of their functions. In case of doubt, contact our support team.
-
-[comment]: <> (Check team name: customer support/success/solutions?)
 
 
 ## Check the account availability
@@ -63,8 +61,6 @@ You can create an account that is not yet available in the system.
 *Accounting > Select the fiscal year > Settings > Tab ACCOUNTS*
 
 ![Create an account](/Assets/Screenshots/Accounting/Settings/Accounts/Create_account.png "[Create an account]")
-
-[comment]: <> (Originally text taken from VenduoPOS/Integration/02_ManageAccounts.md but a few details changed/added to make it consistent with Accounting/Integration/02_ManageTaxKeys)
 
 1. Enter an available account number in the field *Account number*.
 
