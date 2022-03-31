@@ -117,4 +117,6 @@ The accounting wizard closes and the system loads all data. This may take a few 
 
 ### See also
 
-- [User interface Fiscal year](#headingID)
+- [General information](/UserInterface/XX_GeneralInformation.md)
+- [Fiscal year](/UserInterface/XX_FiscalYear.md)
+- [Chart of accounts](/UserInterface/XX_ChartAccounts.md)
