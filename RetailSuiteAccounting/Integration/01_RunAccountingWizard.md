@@ -18,7 +18,7 @@ No prerequisites to fulfill.
 
 *Accounting*
 
-![Accounting wizard](/Assets/Screenshots/Accounting/AccountingWizard/AccountingWizard.png "[Accounting wizard]")
+![Accounting wizard](/Assets/Screenshots/RetailSuiteAccounting/AccountingWizard/AccountingWizard.png "[Accounting wizard]")
 
 Click the [START] button.   
 The configuration process starts. The *Fiscal years* wizard window is displayed.
@@ -30,7 +30,7 @@ The configuration process starts. The *Fiscal years* wizard window is displayed.
 
 In the first step you have to configure the fiscal years.
 
-![Fiscal years](/Assets/Screenshots/Accounting/AccountingWizard/FiscalYears.png "[Fiscal years]")
+![Fiscal years](/Assets/Screenshots/RetailSuiteAccounting/AccountingWizard/FiscalYears.png "[Fiscal years]")
 
  1. Enter a description for the fiscal year in the *Description* field. The system shows the current year by default.  
 
@@ -65,7 +65,7 @@ A small pop-up window and a green check mark confirm that the new fiscal year ha
 
 In this second step, you must select a chart of accounts and an accounting system.
 
-![Chart of Accounts](/Assets/Screenshots/Accounting/AccountingWizard/ChartAccounts.png "[Chart of Accounts]")
+![Chart of Accounts](/Assets/Screenshots/RetailSuiteAccounting/AccountingWizard/ChartAccounts.png "[Chart of Accounts]")
 
 
 1. Select the appropriate option in the *Chart of accounts* drop-down list:
@@ -101,7 +101,7 @@ The *Installation completed* wizard window is displayed.
 
 In the *Installation completed* wizard window all three progress steps are now checked.
 
-![Installation completed](/Assets/Screenshots/Accounting/AccountingWizard/InstallationCompleted.png "[Installation completed]")
+![Installation completed](/Assets/Screenshots/RetailSuiteAccounting/AccountingWizard/InstallationCompleted.png "[Installation completed]")
 
 Now click the [FINALIZE] button.     
 The accounting wizard closes and the system loads all data. This may take a few seconds. Then, the fiscal year selection window is displayed.
@@ -117,6 +117,6 @@ The accounting wizard closes and the system loads all data. This may take a few 
 
 ### See also
 
-- [General information](/UserInterface/XX_GeneralInformation.md)
-- [Fiscal year](/UserInterface/XX_FiscalYear.md)
-- [Chart of accounts](/UserInterface/XX_ChartAccounts.md)
+- [General information](/RetailSuiteAccounting/UserInterface/XX_GeneralInformation.md)
+- [Fiscal year](/RetailSuiteAccounting/UserInterface/XX_FiscalYear.md)
+- [Chart of accounts](/RetailSuiteAccounting/UserInterface/XX_ChartAccounts.md)
