@@ -21,22 +21,12 @@ The current APS is installed and has been started including a successful login.
 1. Click the *Global (for all groups)* printer in the list of printers.   
   The *Settings for group Global* view is displayed.
 
-  ![Settings Group](/Assets/Screenshots/Printing/Settings/SettingsGroup01.png "[Settings Group]")
+  ![Settings Group](/Assets/Screenshots/Printing/Settings/SettingsGroup.png "[Settings Group]")
 
 2. Click the ![Add](/Assets/Icons/Plus01.png "[Add]") (Add) button in the bottom right corner.   
   The *Print Settings* window is displayed.
 
-  ![Add Print Settings](/Assets/Screenshots/Printing/Settings/PrintSettings01.png "[Add Print Settings]")
-
-  | (1) | **drop-down list *Client*** |
-  |-----|---------------------|
-  |**(2)**| **drop-down list *Module*** |
-  |**(3)**| **drop-down list *Printer*** |
-  |**(4)**| **drop-down list *Event*** |
-  |**(5)**| **drop-down list *Tray*** |
-  |**(6)**| **Layout format selection** |
-  |**(7)**| **drop-down list *Format*** |
-  |**(8)**| **Button [SAVE]** |
+  ![Add Print Settings](/Assets/Screenshots/Printing/Settings/PrintSettings.png "[Add Print Settings]")
 
 3. Click the *Client* drop-down list and select the appropriate client.
 
