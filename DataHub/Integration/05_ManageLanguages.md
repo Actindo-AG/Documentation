@@ -1,4 +1,4 @@
-[!!DataHub](Actindo/DataHub)
+[!!DataHub](DataHub)
 
 # Manage the languages
 

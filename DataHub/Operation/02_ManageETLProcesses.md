@@ -1,5 +1,5 @@
-[!!DataHub](Actindo/DataHub)
-[!!Omni-Channel](Actindo/Omni-Channel)
+[!!DataHub](DataHub)
+[!!Omni-Channel](Channels)
 
 # Manage the ETL processes
 
@@ -83,7 +83,7 @@ If the selected change tracking mode of an ETL mapping equals **semi-automatic**
 3. Click the ![Refresh](/Assets/Icons/Refresh01.png "[Refresh]") (Refresh) button to update the list of pending mappings.   
   The list is updated and all pending mappings are displayed.
 
-  ![Semi automatic mapping](/Assets/Screenshots/OmniChannel/Offers/SemiAutomaticMapping/SemiAutomaticMapping.png "[Semi automatic mapping]")
+  ![Semi automatic mapping](/Assets/Screenshots/Channels/Offers/SemiAutomaticMapping/SemiAutomaticMapping.png "[Semi automatic mapping]")
 
 4. Select the checkboxes of the mappings in the list, you want to confirm.   
   The editing toolbar is displayed above the list.
@@ -102,6 +102,7 @@ If the selected change tracking mode of an ETL mapping equals **semi-automatic**
 ### See also
 
 - [User Interface DataHub](/DataHub/UserInterface/00_UserInterface.md)
+- [User Interface Omni-Channel](/Channels/UserInterface/00_UserInterface.md)
 - [Check the ETL process status](#check-the-etl-process-status)
 - [Manage the ETL mappings](01_ManageETLMappings.md)
 
