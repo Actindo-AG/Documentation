@@ -1,5 +1,5 @@
-[!!PIM](Actindo/PIM)
-[!!Warehouse](Actindo/Warehouse)
+[!!PIM](PIM)
+[!!Warehouse](RetailSuiteWarehousing)
 
 # Missing stock value
 
@@ -52,7 +52,8 @@ No prerequisites to fulfill.
 
 ## See also
 
-- [User Interface PIM](/PIM/UserInterface/00_UserInterface.md)
+- [User Interface PIM](/PIM/UserInterface/00_UserInterface.md)s
+- [User Interface Warehouse](/RetailSuiteWarehousing/UserInterface/00_UserInterface.md)
 - [Edit a single product](/PIM/Operation/01_ManageProducts.md#edit-a-single-product)
 - [Activate the warehouse logistics](to_be_completed)
 - [Data type list](/PIM/UserInterface/04_DataTypeList.md)

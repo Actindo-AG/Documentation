@@ -1,11 +1,9 @@
-[!!PIM](Actindo/PIM)   
-[!!OmniChannel](Actindo/OmniChannel)   
-[!!Warehouse](Actindo/Warehouse)   
-[!!MaterialManagement](Actindo/MaterialManagement)   
+[!!PIM](PIM)   
+[!!Omni-Channel](Channels)   
 
 # Manage a product
 
-A product defines everything that can be offered and purchased on a market. All products are assigned to an attribute set and can be specified by the attributes within this set. You can create master products and [variants](02_ManageVariants.md#create-variants), edit products, archive, delete or restore products and copy products. To offer a product on a marketplace you have to create an offer to the product, see [Create an offer in PIM](#create-an-offer-in-PIM).
+A product defines everything that can be offered and purchased on a market. All products are assigned to an attribute set and can be specified by the attributes within this set. You can create master products and [variants](02_ManageVariants.md#create-variants), edit and copy products. To offer a product on a marketplace you have to create an offer to the product, see [Create an offer in PIM](#create-an-offer-in-PIM).
 
 ## Create a product
 
@@ -238,7 +236,7 @@ If you want to offer the product on a single connection only or you have just on
 #### Prerequisites
 
 - At least one product is created, see [Create a product](#create-a-product).    
-- At least one connection is created, see [Create a connection](/OmniChannel/Integration/CreateConnection.md).
+- At least one connection is created, see [Create a connection](/Channels/Integration/CreateConnection.md).
 
 #### Procedure
 *PIM > Products > Tab LIST*
@@ -321,7 +319,7 @@ To create offers to a product for several connections at the same time, you can 
 #### Prerequisites
 
 - At least one product is created, see [Create a product](#create-a-product).    
-- At least two connections are created, see [Create a connection](/OmniChannel/Integration/CreateConnection.md).
+- At least two connections are created, see [Create a connection](/Channels/Integration/CreateConnection.md).
 
 #### Procedure
 *PIM > Products > Tab LIST*

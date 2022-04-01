@@ -1,4 +1,4 @@
-[!!PIM](Actindo/PIM)
+[!!PIM](PIM)
 
 # Add a missing defining attribute
 

@@ -1,4 +1,4 @@
-[!!PIM](Actindo/PIM)
+[!!PIM](PIM)
 
 # Edit a limited number of decimal places
 

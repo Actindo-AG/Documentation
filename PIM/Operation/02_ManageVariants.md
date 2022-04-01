@@ -1,4 +1,4 @@
-[!!PIM](Actindo/PIM)
+[!!PIM](PIM)
 
 # Manage the variants
 
