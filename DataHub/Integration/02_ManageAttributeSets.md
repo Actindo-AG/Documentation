@@ -116,6 +116,7 @@ After you have created an attribute set, you can edit it. Depending on the selec
 ### Add an attribute to the set
 
 Add a new attribute to an attribute set to define any further specifications.
+In the *DataHub* module all available attributes can be added to the different attribute sets. Thus it is possible to add a random attribute to a PIM attribute set whereas in the *PIM* module, it is only possible to add PIM attributes to a PIM attribute set.
 
 #### Prerequisites
 
