@@ -14,7 +14,7 @@ You can create a fixed booking batch that is not yet available in the system.
 ### Prerequisites
 
 - The accounting is configured via the configuration wizard, see [Run the accounting wizard](01_RunAccountingWizard.md).
-- A valid fiscal year is created, see [Create fiscal year](04_ManageFiscalYear.md#create-a-fiscal-year).
+- A valid fiscal year is created, see [Create a fiscal year](04_ManageFiscalYear.md#create-a-fiscal-year).
 
 ### Procedure
 
@@ -51,7 +51,7 @@ You can delete an existing fixed booking batch if it is no longer applicable.
 ### Prerequisites
 
 - The accounting is configured via the configuration wizard, see [Run the accounting wizard](01_RunAccountingWizard.md).
-- A valid fiscal year is created, see [Create fiscal year](04_ManageFiscalYear.md#create-a-fiscal-year).
+- A valid fiscal year is created, see [Create a fiscal year](04_ManageFiscalYear.md#create-a-fiscal-year).
 - A fixed booking batch is created, see [Create a fixed booking batch](#create-a-fixed-booking-batch).
 
 ### Procedure
@@ -88,7 +88,7 @@ You add fixed bookings to an existing or a newly created fixed booking batch.
 ### Prerequisites
 
 - The accounting is configured via the configuration wizard, see [Run the accounting wizard](01_RunAccountingWizard.md).
-- A valid fiscal year is created, see [Create fiscal year](04_ManageFiscalYear.md#create-a-fiscal-year).
+- A valid fiscal year is created, see [Create a fiscal year](04_ManageFiscalYear.md#create-a-fiscal-year).
 - A fixed booking batch is created, see [Create a fixed booking batch](#create-a-fixed-booking-batch).
 
 ### Procedure
@@ -146,7 +146,7 @@ You can edit existing fixed bookings registered in a fixed booking batch.
 ### Prerequisites
 
 - The accounting is configured via the configuration wizard, see [Run the accounting wizard](01_RunAccountingWizard.md).
-- A valid fiscal year is created, see [Create fiscal year](04_ManageFiscalYear.md#create-a-fiscal-year).
+- A valid fiscal year is created, see [Create a fiscal year](04_ManageFiscalYear.md#create-a-fiscal-year).
 - A fixed booking batch is created, see [Create a fixed booking batch](#create-a-fixed-booking-batch).
 - A fixed booking is created, see [Create a fixed booking](#create-a-fixed-booking).
 
@@ -193,7 +193,7 @@ You can delete an existing fixed booking in a fixed booking batch.
 ### Prerequisites
 
 - The accounting is configured via the configuration wizard, see [Run the accounting wizard](01_RunAccountingWizard.md).
-- A valid fiscal year is created, see [Create fiscal year](04_ManageFiscalYear.md#create-a-fiscal-year).
+- A valid fiscal year is created, see [Create a fiscal year](04_ManageFiscalYear.md#create-a-fiscal-year).
 - A fixed booking batch is created, see [Create a fixed booking batch](#create-a-fixed-booking-batch).
 - A fixed booking is created, see [Create a fixed booking](#create-a-fixed-booking).
 
