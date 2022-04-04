@@ -1,4 +1,4 @@
-[!!Accounting](Actindo/Accounting)
+[!!Accounting](RetailSuiteAccounting)
 
 # Manage the open items
 
@@ -7,28 +7,26 @@ The *Open items* tab displays any open items in the system, that is, any busines
 There are two view modes:
 
 - If no account is selected, the *Open items* tab displays all open items in the *Accounting* module.
-- If an account is selected, the *Open items* tab displays only the open items for the selected account.
+- If a personal account is selected, the *Open items* tab displays only the open items for the selected account.
 
 > [Info] An account can be selected either by entering an  account number in the *Account* or *Contra account* field, or by clicking on a booking in the *Bookings* tab.  
 
 
 ## Access all open items
 
-You can display all open items recorded in the system within the selected booking period.
+You can display all open items recorded in the system.
 
 ### Prerequisites
 
-- The accounting is configured via the configuration wizard, see [Run the Accounting Wizard](01_RunAccountingWizard.md).
-- A valid fiscal year is created, see [Create fiscal year](04_ManageFiscalYear.md#create-a-fiscal-year).
+- The accounting is configured via the configuration wizard, see [Run the accounting wizard](01_RunAccountingWizard.md).
+- A valid fiscal year is created, see [Create a fiscal year](04_ManageFiscalYear.md#create-a-fiscal-year).
 - A fiscal year is selected, see [Select fiscal year](01_SelectFiscalYear.md).
 
 ### Procedure
 
 *Accounting > Select fiscal year > Book > Tab OPEN ITEMS*
 
-![Open items - No account selected](/Assets/Screenshots/Accounting/Book/OpenItems/OpenItens_NoAccountSelected.png "[Open items - No account selected]")
-
-[comment]: <> (New screenshots to be done when demo data are uploaded)
+![All open items](/Assets/Screenshots/RetailSuiteAccounting/Book/OpenItems/NoAccountSelected.png "[All open items]")
 
 1. Check that no account number is entered in the *Account* or *Contra account* fields.
 
@@ -37,60 +35,64 @@ The *Open items* tab shows all open items available in the *Accounting* module.
 
  > [Info] If there are no open items, a blank tab is displayed.
 
-  ![Open items - No open items](/Assets/Screenshots/Accounting/Book/OpenItems/OpenItems_no_OPOS.png "[Open items - No open items]")
+  ![No open items](/Assets/Screenshots/RetailSuiteAccounting/Book/OpenItems/NoOPOS.png "[No open items]")
 
 ### Next steps
 
   - [Access the open items for an account](#access-the-open-items-for-an-account)
-  - [Create a manual booking](04_CreatedManualBooking)
-  - [Cancel a booking](05_CancelBooking)
-  - [Delete bookings](06_DeleteBookings)
-  - [Process bookings](07_ProcessBookings)
-  - [Lock a period for bookings](08_LockPeriodBookings)
-  - [Split a booking](09_SplitBooking)
-  - [Manage receipts](10_ManageReceipts)
-  - [Create a balance carried forward](11_CreateBalanceCarriedForward)
-  - [Book exchange rate fluctuations](12_BookExchangeRateFluctuations)
-  - [Access bookings from another period](13_AccessBookingsAnotherPeriod)
-  - [Search in accounting](14_SearchAccounting)
-  - [Provide the accounting data](15_ProviceAccountingData)
+  - [Create a manual booking](04_CreateManualBooking.md)
+  - [Cancel a booking](05_CancelBooking.md)
+  - [Delete bookings](06_DeleteBookings.md)
+  - [Process bookings](07_ProcessBookings.md)
+  - [Lock a period for bookings](08_LockPeriodBookings.md)
+  - [Split a booking](09_SplitBooking.md)
+  - [Manage receipts](10_ManageReceipts.md)
+  - [Create a balance carried forward](11_CreateBalanceCarriedForward.md)
+  - [Book exchange rate fluctuations](12_BookExchangeRateFluctuations.md)
+  - [Access bookings from another period](13_AccessBookingsPeriod.md)
+  - [Search in accounting](14_SearchAccounting.md)
+  - [Provide the accounting data](15_ProviceAccountingData.md)
 
 ### See also
 
-  - [User Interface Accounting](/Accounting/UserInterface/00_UserInterface.md)
+  - [OPOS](/RetailSuiteAccounting/UserInterface/00_UserInterface.md)
+  - [OPEN ITEMS](/RetailSuiteAccounting/UserInterface/00_UserInterface.md)
   - [Zahlungsabwicklung Offene Posten](#to_be_completed)
 
 
 ## Access the open items for an account
 
-You can display all open items recorded in a specific account within the selected booking period.
+You can display all open items recorded in a specific personal account, that is, a creditor or debtor account.
 
 ### Prerequisites
 
-- The accounting is configured via the configuration wizard, see [Run the Accounting Wizard](01_RunAccountingWizard.md).
-- A valid fiscal year is created, see [Create fiscal year](04_ManageFiscalYear.md#create-a-fiscal-year).
+- The accounting is configured via the configuration wizard, see [Run the accounting wizard](01_RunAccountingWizard.md).
+- A valid fiscal year is created, see [Create a fiscal year](04_ManageFiscalYear.md#create-a-fiscal-year).
 - A fiscal year is selected, see [Select fiscal year](01_SelectFiscalYear.md).
 
 ### Procedure
 
 *Accounting > Select fiscal year > Book > Tab OPEN ITEMS*
 
-![Open items - Account selected](/Assets/Screenshots/Accounting/Book/OpenItems/OpenItens_AccountSelected.png "[Open items - Account selected]")
+![Open items for an account](/Assets/Screenshots/RetailSuiteAccounting/Book/OpenItems/AccountSelected.png "[Open items for an account]")
 
 1. Enter a personal account number in the *Contra account* or in the *Account* field. Alternatively, click on a booking in the *Bookings* tab.
 The open items recorded in the corresponding account are displayed in the *Open items* tab.
 
-2. Select the *Standard open items view* or the *Show manually settled open items* radio button to filter the open items displayed as appropriate.
+2. Select the *Standard open items view* or the *Show manually cleared open items* radio button to filter the open items displayed as appropriate.
 
-3. If necessary, you can clear open items manually. To do so, select the bookings to be settled by marking the ![checkbox](/Assets/Icons/Checkbox.png "[checkbox]") checkbox in the *M* column.
+3. If necessary, you can clear open items manually. To do so, select the bookings to be settled by marking the ![checkbox](/Assets/Icons/Checkbox.png "[checkbox]") checkbox in the *M* column.  
 The amount displayed in the *Amount* box on the right-hand side of the workspace equals 0,00.
 
-  ![Open items - Account selected](/Assets/Screenshots/Accounting/Book/OpenItems/OpenItems_ClearManually_Checkbox.png "[Open items - Account selected]")
+  ![Clear manually](/Assets/Screenshots/RetailSuiteAccounting/Book/OpenItems/ClearManually.png "[Clear manually]")
 
 4. Click the [CLEAR MANUALLY] button.  
- The bookings are settled. The open items disappear from the open items list with the *Standard open items view* radio button selected.
+ The bookings are cleared. The open items disappear from the open items list with the *Standard open items view* radio button selected.
 
-5. If necessary, you can reverse manually cleared bookings. To do so, click the *Show manually settled open items* radio button to display again all manually cleared bookings for the selected account. The manually cleared bookings are marked with an asterisk next to the checkbox.
+5. If necessary, you can reverse manually cleared bookings. To do so, click the *Show manually cleared open items* radio button.   
+ All manually cleared bookings for the selected account are displayed. The manually cleared bookings are marked with an asterisk next to the checkbox.
+
+   ![Manually cleared open items](/Assets/Screenshots/RetailSuiteAccounting/Book/OpenItems/ManuallyClearedOPOS.png "[Manually cleared open items]")
 
 6. Select the manually cleared bookings to be reversed.  
 The amount displayed in the *Amount* box on the right-hand side of the workspace equals 0,00.
@@ -98,24 +100,23 @@ The amount displayed in the *Amount* box on the right-hand side of the workspace
 7. Click the [CANCEL CLEARING] button to reverse the clearing.  
 The manual clearing has been cancelled.
 
-[comment]: <> (Testen nochmals, evtl. RS Flo Heusel.)
-
 ### Next steps
 
-  - [Create a manual booking](04_CreatedManualBooking)
-  - [Cancel a booking](05_CancelBooking)
-  - [Delete bookings](06_DeleteBookings)
-  - [Process bookings](07_ProcessBookings)
-  - [Lock a period for bookings](08_LockPeriodBookings)
-  - [Split a booking](09_SplitBooking)
-  - [Manage receipts](10_ManageReceipts)
-  - [Create a balance carried forward](11_CreateBalanceCarriedForward)
-  - [Book exchange rate fluctuations](12_BookExchangeRateFluctuations)
-  - [Access bookings from another period](13_AccessBookingsAnotherPeriod)
-  - [Search in accounting](14_SearchAccounting)
-  - [Provide the accounting data](15_ProviceAccountingData)
+ - [Create a manual booking](04_CreateManualBooking.md)
+ - [Cancel a booking](05_CancelBooking.md)
+ - [Delete bookings](06_DeleteBookings.md)
+ - [Process bookings](07_ProcessBookings.md)
+ - [Lock a period for bookings](08_LockPeriodBookings.md)
+ - [Split a booking](09_SplitBooking.md)
+ - [Manage receipts](10_ManageReceipts.md)
+ - [Create a balance carried forward](11_CreateBalanceCarriedForward.md)
+ - [Book exchange rate fluctuations](12_BookExchangeRateFluctuations.md)
+ - [Access bookings from another period](13_AccessBookingsPeriod.md)
+ - [Search in accounting](14_SearchAccounting.md)
+ - [Provide the accounting data](15_ProviceAccountingData.md)
 
 ### See also
 
-  - [User Interface Accounting](/Accounting/UserInterface/00_UserInterface.md)
-  - [Zahlungsabwicklung Offene Posten](#to_be_completed)
+ - [OPOS](/RetailSuiteAccounting/UserInterface/00_UserInterface.md)
+ - [OPEN ITEMS](/RetailSuiteAccounting/UserInterface/00_UserInterface.md)
+ - [Zahlungsabwicklung Offene Posten](#to_be_completed)
