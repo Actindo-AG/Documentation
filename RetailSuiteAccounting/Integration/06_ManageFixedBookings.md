@@ -13,7 +13,7 @@ You can create a fixed booking batch that is not yet available in the system.
 
 ### Prerequisites
 
-- The accounting is configured via the configuration wizard, see [Run the Accounting Wizard](01_RunAccountingWizard.md).
+- The accounting is configured via the configuration wizard, see [Run the accounting wizard](01_RunAccountingWizard.md).
 - A valid fiscal year is created, see [Create fiscal year](04_ManageFiscalYear.md#create-a-fiscal-year).
 
 ### Procedure
@@ -24,7 +24,7 @@ You can create a fixed booking batch that is not yet available in the system.
 
 1. Click the *Fixed booking batch* drop-down list and select the *New batch* option.
 
-> [Info] Per default, the drop-down list displays the *New batch* option.
+  > [Info] Per default, the drop-down list displays the *New batch* option.
 
 2. Enter a batch name in the *Name* field.  
 
@@ -50,7 +50,7 @@ You can delete an existing fixed booking batch if it is no longer applicable.
 
 ### Prerequisites
 
-- The accounting is configured via the configuration wizard, see [Run the Accounting Wizard](01_RunAccountingWizard.md).
+- The accounting is configured via the configuration wizard, see [Run the accounting wizard](01_RunAccountingWizard.md).
 - A valid fiscal year is created, see [Create fiscal year](04_ManageFiscalYear.md#create-a-fiscal-year).
 - A fixed booking batch is created, see [Create a fixed booking batch](#create-a-fixed-booking-batch).
 
@@ -67,7 +67,7 @@ You can delete an existing fixed booking batch if it is no longer applicable.
 2. Click the [DELETE] button.  
 A window comes up asking for confirmation. The selected fixed booking batch is deleted.
 
-  > [Info] Note that you may need to refresh the page with the F5 key to see the changes in the Fixed booking batch drop-down list.
+  > [Info] You may need to refresh the page with the F5 key to see the changes in the Fixed booking batch drop-down list.
 
 ### Next steps
 
@@ -87,7 +87,7 @@ You add fixed bookings to an existing or a newly created fixed booking batch.
 
 ### Prerequisites
 
-- The accounting is configured via the configuration wizard, see [Run the Accounting Wizard](01_RunAccountingWizard.md).
+- The accounting is configured via the configuration wizard, see [Run the accounting wizard](01_RunAccountingWizard.md).
 - A valid fiscal year is created, see [Create fiscal year](04_ManageFiscalYear.md#create-a-fiscal-year).
 - A fixed booking batch is created, see [Create a fixed booking batch](#create-a-fixed-booking-batch).
 
@@ -98,7 +98,7 @@ You add fixed bookings to an existing or a newly created fixed booking batch.
 ![Select a fixed booking batch](/Assets/Screenshots/RetailSuiteAccounting/Settings/FixedBookings/EditFixedBookingBatch.png "[Select a fixed booking batch]")
 
 1. Click the *Fixed booking batch* drop-down list and select the fixed booking batch where the fixed booking must be created.   
-The fixed booking window opens automatically. If it does not, click the [MODIFY] button.
+The fixed booking window opens automatically. If it does not, click the [EDIT] button.
 
   ![Create a fixed booking](/Assets/Screenshots/RetailSuiteAccounting/Settings/FixedBookings/CreateFixedBooking.png "[Create a fixed booking]")
 
@@ -145,7 +145,7 @@ You can edit existing fixed bookings registered in a fixed booking batch.
 
 ### Prerequisites
 
-- The accounting is configured via the configuration wizard, see [Run the Accounting Wizard](01_RunAccountingWizard.md).
+- The accounting is configured via the configuration wizard, see [Run the accounting wizard](01_RunAccountingWizard.md).
 - A valid fiscal year is created, see [Create fiscal year](04_ManageFiscalYear.md#create-a-fiscal-year).
 - A fixed booking batch is created, see [Create a fixed booking batch](#create-a-fixed-booking-batch).
 - A fixed booking is created, see [Create a fixed booking](#create-a-fixed-booking).
@@ -156,8 +156,8 @@ You can edit existing fixed bookings registered in a fixed booking batch.
 
 ![Select a fixed booking batch](/Assets/Screenshots/RetailSuiteAccounting/Settings/FixedBookings/EditFixedBookingBatch.png "[Select a fixed booking batch]")
 
-1. Click the *Fixed booking batch* drop-down list and select the fixed booking batch where the fixed booking to be edited is registered.  
-The fixed booking window opens automatically. If it does not, click the [MODIFY] button.
+1. Click the *Fixed booking batch* drop-down list and select the fixed booking batch where the fixed booking to be edited is registered.   
+The fixed booking window opens automatically. If it does not, click the [EDIT] button.
 
 2. Click on the existing fixed booking to be edited.
 The existing fixed booking details are displayed in the fields.
@@ -192,7 +192,7 @@ You can delete an existing fixed booking in a fixed booking batch.
 
 ### Prerequisites
 
-- The accounting is configured via the configuration wizard, see [Run the Accounting Wizard](01_RunAccountingWizard.md).
+- The accounting is configured via the configuration wizard, see [Run the accounting wizard](01_RunAccountingWizard.md).
 - A valid fiscal year is created, see [Create fiscal year](04_ManageFiscalYear.md#create-a-fiscal-year).
 - A fixed booking batch is created, see [Create a fixed booking batch](#create-a-fixed-booking-batch).
 - A fixed booking is created, see [Create a fixed booking](#create-a-fixed-booking).
@@ -204,7 +204,7 @@ You can delete an existing fixed booking in a fixed booking batch.
 ![Select an existing batch](/Assets/Screenshots/RetailSuiteAccounting/Settings/FixedBookings/EditFixedBookingBatch.png "[Select an existing batch]")
 
 1. Click the *Fixed booking batch* drop-down list and select the batch where the fixed booking to be deleted is registered.    
-The fixed booking window opens automatically. If it does not, click the [MODIFY] button.
+The fixed booking window opens automatically. If it does not, click the [EDIT] button.
 
   ![Delete a fixed booking](/Assets/Screenshots/RetailSuiteAccounting/Settings/FixedBookings/DeleteFixedBooking.png "[Delete a fixed booking]")
 
