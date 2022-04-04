@@ -11,8 +11,8 @@ You can create a tax key that is not yet available in the list.
 
 ### Prerequisites
 
-- The accounting is configured via the configuration wizard, see [Run the Accounting Wizard](01_RunAccountingWizard.md).
-- A valid fiscal year is created, see [Manage the fiscal year](04_ManageFiscalYear.md).
+- The accounting is configured via the configuration wizard, see [Run the accounting wizard](01_RunAccountingWizard.md).
+- A valid fiscal year is created, see [Create a fiscal year](04_ManageFiscalYear.md#create-a-fiscal-year).
 
 ### Procedure
 
@@ -73,8 +73,8 @@ You can edit an available tax key, for example if a tax rate needs to be updated
 
 ### Prerequisites
 
-- The accounting is configured via the configuration wizard, see [Run the Accounting Wizard](01_RunAccountingWizard.md).
-- A valid fiscal year is created, see [Manage the fiscal year](04_ManageFiscalYear.md).
+- The accounting is configured via the configuration wizard, see [Run the accounting wizard](01_RunAccountingWizard.md).
+- A valid fiscal year is created, see [Create a fiscal year](04_ManageFiscalYear.md#create-a-fiscal-year).
 
 ### Procedure
 
@@ -115,8 +115,8 @@ You can delete an existing tax key, for example if it is no longer applicable.
 
 ### Prerequisites
 
-- The accounting is configured via the configuration wizard, see [Run the Accounting Wizard](01_RunAccountingWizard.md).
-- A valid fiscal year is created, see [Manage the fiscal year](04_ManageFiscalYear.md).
+- The accounting is configured via the configuration wizard, see [Run the accounting wizard](01_RunAccountingWizard.md).
+- A valid fiscal year is created, see [Create a fiscal year](04_ManageFiscalYear.md#create-a-fiscal-year).
 
 ### Procedure
 
