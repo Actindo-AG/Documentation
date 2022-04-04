@@ -13,7 +13,7 @@ You can create a customer/supplier that is not yet available in the system.
 
 ### Prerequisites
 
-- The accounting is configured via the configuration wizard, see [Run the Accounting Wizard](01_RunAccountingWizard.md).
+- The accounting is configured via the configuration wizard, see [Run the accounting wizard](01_RunAccountingWizard.md).
 - A valid fiscal year is created, see [Create fiscal year](04_ManageFiscalYear.md#create-a-fiscal-year).
 
 ### Procedure
@@ -62,7 +62,7 @@ You can edit an existing customer/supplier, for example if a setting must be cha
 
 ### Prerequisites
 
-- The accounting is configured via the configuration wizard, see [Run the Accounting Wizard](01_RunAccountingWizard.md).
+- The accounting is configured via the configuration wizard, see [Run the accounting wizard](01_RunAccountingWizard.md).
 - A valid fiscal year is created, see [Create fiscal year](04_ManageFiscalYear.md#create-a-fiscal-year).
 - A customer/supplier is created, see [Create a customer/supplier](#create-a-customer-supplier).
 
@@ -104,7 +104,7 @@ You can delete an existing customer/supplier, for example if it is no longer app
 
 ### Prerequisites
 
-- The accounting is configured via the configuration wizard, see [Run the Accounting Wizard](01_RunAccountingWizard.md).
+- The accounting is configured via the configuration wizard, see [Run the accounting wizard](01_RunAccountingWizard.md).
 - A valid fiscal year is created, see [Create fiscal year](04_ManageFiscalYear.md#create-a-fiscal-year).
 - A customer/supplier is created, see [Create a customer/supplier](#create-a-customer-supplier).
 
