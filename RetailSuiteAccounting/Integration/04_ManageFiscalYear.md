@@ -12,7 +12,7 @@ You can create a fiscal year that is not yet available in the system.
 
 ### Prerequisites
 
-- The accounting is configured via the configuration wizard, see [Run the Accounting Wizard](01_RunAccountingWizard.md).
+- The accounting is configured via the configuration wizard, see [Run the accounting wizard](01_RunAccountingWizard.md).
 
 ### Procedure
 
@@ -66,10 +66,8 @@ You can edit an available fiscal year, for example if a setting must be changed.
 
 ### Prerequisites
 
-- The accounting is configured via the configuration wizard, see [Run the Accounting Wizard](01_RunAccountingWizard.md).
+- The accounting is configured via the configuration wizard, see [Run the accounting wizard](01_RunAccountingWizard.md).
 - A valid fiscal year is created, see [Create a fiscal year](#create-a-fiscal-year).
-
-[comment]: <> (Evtl. Verweise in 02_ManageTaxKeys and 03_ManageAccounts ändern?)
 
 ### Procedure
 
@@ -107,7 +105,7 @@ You can delete an existing fiscal year, for example if it is no longer applicabl
 
 ### Prerequisites
 
-- The accounting is configured via the configuration wizard, see [Run the Accounting Wizard](01_RunAccountingWizard.md).
+- The accounting is configured via the configuration wizard, see [Run the accounting wizard](01_RunAccountingWizard.md).
 - A valid fiscal year is created, see [Create a fiscal year](#create-a-fiscal-year).
 
 ### Procedure
