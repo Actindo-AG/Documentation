@@ -15,8 +15,8 @@ For detailed information about the account classes, see [User Interface Accounti
 
 ### Prerequisites
 
-- The accounting is configured via the configuration wizard, see [Run the Accounting Wizard](01_RunAccountingWizard.md).
-- A valid fiscal year is created, see [Manage the fiscal year](04_ManageFiscalYear.md).
+- The accounting is configured via the configuration wizard, see [Run the accounting wizard](01_RunAccountingWizard.md).
+- A valid fiscal year is created, see [Create a fiscal year](04_ManageFiscalYear.md#create-a-fiscal-year).
 
 ### Procedure
 
@@ -52,8 +52,8 @@ You can create an account that is not yet available in the system.
 
 ### Prerequisites
 
-- The accounting is configured via the configuration wizard, see [Run the Accounting Wizard](01_RunAccountingWizard.md).
-- A valid fiscal year is created, see [Manage the fiscal year](04_ManageFiscalYear.md).
+- The accounting is configured via the configuration wizard, see [Run the accounting wizard](01_RunAccountingWizard.md).
+- A valid fiscal year is created, see [Create a fiscal year](04_ManageFiscalYear.md#create-a-fiscal-year).
 - The account availability is checked, see [Check the account availability](#check-the-account-availability).
 - The tax key validity is checked and, if necessary, updated, see [Edit a tax key](02_ManageTaxKeys.md#edit-a-tax-key).
 
@@ -118,8 +118,8 @@ You can edit an existing account, for example if a tax rate needs to be updated.
 
 ### Prerequisites
 
-- The accounting is configured via the configuration wizard, see [Run the Accounting Wizard](01_RunAccountingWizard.md).
-- A valid fiscal year is created, see [Manage the fiscal year](04_ManageFiscalYear.md).
+- The accounting is configured via the configuration wizard, see [Run the accounting wizard](01_RunAccountingWizard.md).
+- A valid fiscal year is created, see [Create a fiscal year](04_ManageFiscalYear.md#create-a-fiscal-year).
 
 ### Procedure
 
@@ -160,8 +160,8 @@ You can delete an existing account, for example if it is no longer applicable.
 
 ### Prerequisites
 
-- The accounting is configured via the configuration wizard, see [Run the Accounting Wizard](01_RunAccountingWizard.md).
-- A valid fiscal year is created, see [Manage the fiscal year](04_ManageFiscalYear.md).
+- The accounting is configured via the configuration wizard, see [Run the accounting wizard](01_RunAccountingWizard.md).
+- A valid fiscal year is created, see [Create a fiscal year](04_ManageFiscalYear.md#create-a-fiscal-year).
 
 ### Procedure
 
