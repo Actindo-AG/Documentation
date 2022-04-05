@@ -2,11 +2,11 @@
 
 # Cancel a booking
 
-The *Accounting* module allows to cancel bookings in the *Bookings* tab, for example, if an invoice has been mistakenly booked to a wrong account or a booking must be corrected.
+The *Accounting* module allows to cancel bookings in the *BOOKINGS* tab, for example, if an invoice has been mistakenly booked to a wrong account or a booking must be corrected.
 
 Once an invoice has been issued and booked, it cannot be simply deleted for legal reasons. The incorrect invoice must be cancelled, recorded as reverse booking in the system, and a new correct booking must be recorded, if necessary.
 
- The [CANCEL] button in the *Bookings* tab creates a copy of the original booking, the turnover amount is recorded with a negative sign, and, therefore, the open item created by the original booking is automatically cleared in the *Open items* tab.
+ The [CANCEL] button in the *BOOKINGS* tab creates a copy of the original booking, the turnover amount is recorded with a negative sign, and, therefore, the open item created by the original booking is automatically cleared in the *OPEN ITEMS* tab.
 
 ## Prerequisites
 
@@ -20,7 +20,7 @@ Once an invoice has been issued and booked, it cannot be simply deleted for lega
 
 ![Cancel a booking](/Assets/Screenshots/RetailSuiteAccounting/Book/Bookings/CancelBooking.png "[Cancel a booking]")
 
-1. Select the booking to be cancelled from the list in the *Bookings* tab.
+1. Select the booking to be cancelled from the list in the *BOOKINGS* tab.
 
 2. The existing booking details are displayed in the input line fields.
 
@@ -40,7 +40,7 @@ A new  booking is created in the bookings list with a negative turnover value an
  - [Book exchange rate fluctuations](12_BookExchangeRateFluctuations.md)
  - [Access bookings from another period](13_AccessBookingsPeriod.md)
  - [Search in accounting](14_SearchAccounting.md)
- - [Provide the accounting data](15_ProviceAccountingData.md)
+ - [Provide the accounting data](15_ProvideAccountingData.md)
 
 ## See also
 
