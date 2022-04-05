@@ -50,7 +50,7 @@ When you open the *Accounting* module for the first time after login or after re
   - [Book exchange rate fluctuations](12_BookExchangeRateFluctuations.md)
   - [Access bookings from another period](13_AccessBookingsPeriod.md)
   - [Search in accounting](14_SearchAccounting.md)
-  - [Provide the accounting data](15_ProviceAccountingData.md)
+  - [Provide the accounting data](15_ProvideAccountingData.md)
 
 ## See also
 
