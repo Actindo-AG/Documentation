@@ -2,14 +2,14 @@
 
 # Manage the open items
 
-The *Open items* tab displays any open items in the system, that is, any business transactions that have not yet been completed. The open items function helps to monitor cash movements and avoid liquidity problems.
+The *OPEN ITEMS* tab displays any open items in the system, that is, any business transactions that have not yet been completed. The open items function helps to monitor cash movements and avoid liquidity problems.
 
 There are two view modes:
 
-- If no account is selected, the *Open items* tab displays all open items in the *Accounting* module.
-- If a personal account is selected, the *Open items* tab displays only the open items for the selected account.
+- If no account is selected, the *OPEN ITEMS* tab displays all open items in the *Accounting* module.
+- If a personal account is selected, the *OPEN ITEMS* tab displays only the open items for the selected account.
 
-> [Info] An account can be selected either by entering an  account number in the *Account* or *Contra account* field, or by clicking on a booking in the *Bookings* tab.  
+> [Info] An account can be selected either by entering an  account number in the *Account* or *Contra account* field, or by clicking on a booking in the *BOOKINGS* tab.  
 
 
 ## Access all open items
@@ -31,7 +31,7 @@ You can display all open items recorded in the system.
 1. Check that no account number is entered in the *Account* or *Contra account* fields.
 
 2. If the *Account* or *Contra account* fields are filled out, clear the content either with the keyboard delete key or with the [CLEAR] button. Press Enter or the tab key.  
-The *Open items* tab shows all open items available in the *Accounting* module.
+The *OPEN ITEMS* tab shows all open items available in the *Accounting* module.
 
  > [Info] If there are no open items, a blank tab is displayed.
 
@@ -51,7 +51,7 @@ The *Open items* tab shows all open items available in the *Accounting* module.
   - [Book exchange rate fluctuations](12_BookExchangeRateFluctuations.md)
   - [Access bookings from another period](13_AccessBookingsPeriod.md)
   - [Search in accounting](14_SearchAccounting.md)
-  - [Provide the accounting data](15_ProviceAccountingData.md)
+  - [Provide the accounting data](15_ProvideAccountingData.md)
 
 ### See also
 
@@ -76,8 +76,8 @@ You can display all open items recorded in a specific personal account, that is,
 
 ![Open items for an account](/Assets/Screenshots/RetailSuiteAccounting/Book/OpenItems/AccountSelected.png "[Open items for an account]")
 
-1. Enter a personal account number in the *Contra account* or in the *Account* field. Alternatively, click on a booking in the *Bookings* tab.
-The open items recorded in the corresponding account are displayed in the *Open items* tab.
+1. Enter a personal account number in the *Contra account* or in the *Account* field. Alternatively, click on a booking in the *BOOKINGS* tab.
+The open items recorded in the corresponding account are displayed in the *OPEN ITEMS* tab.
 
 2. Select the *Standard open items view* or the *Show manually cleared open items* radio button to filter the open items displayed as appropriate.
 
@@ -113,7 +113,7 @@ The manual clearing has been cancelled.
  - [Book exchange rate fluctuations](12_BookExchangeRateFluctuations.md)
  - [Access bookings from another period](13_AccessBookingsPeriod.md)
  - [Search in accounting](14_SearchAccounting.md)
- - [Provide the accounting data](15_ProviceAccountingData.md)
+ - [Provide the accounting data](15_ProvideAccountingData.md)
 
 ### See also
 
