@@ -55,7 +55,7 @@ A message above the input line confirms that the booking is recorded. The newly 
  - [Book exchange rate fluctuations](12_BookExchangeRateFluctuations.md)
  - [Access bookings from another period](13_AccessBookingsPeriod.md)
  - [Search in accounting](14_SearchAccounting.md)
- - [Provide the accounting data](15_ProviceAccountingData.md)
+ - [Provide the accounting data](15_ProvideAccountingData.md)
 
 ## See also
 
