@@ -54,7 +54,7 @@ The balance for all months (entire fiscal year) or for the current month is disp
   - [Book exchange rate fluctuations](12_BookExchangeRateFluctuations.md)
   - [Access bookings from another period](13_AccessBookingsPeriod.md)
   - [Search in accounting](14_SearchAccounting.md)
-  - [Provide the accounting data](15_ProviceAccountingData.md)
+  - [Provide the accounting data](15_ProvideAccountingData.md)
 
 ### See also
 
@@ -107,7 +107,7 @@ The bookings for all months (entire fiscal year) or for the current month are di
  - [Book exchange rate fluctuations](12_BookExchangeRateFluctuations.md)
  - [Access bookings from another period](13_AccessBookingsPeriod.md)
  - [Search in accounting](14_SearchAccounting.md)
- - [Provide the accounting data](15_ProviceAccountingData.md)
+ - [Provide the accounting data](15_ProvideAccountingData.md)
 
 ### See also
 
