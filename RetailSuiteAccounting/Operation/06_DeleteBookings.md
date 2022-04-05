@@ -2,7 +2,7 @@
 
 # Delete bookings
 
-The *Accounting* module allows to delete bookings in the *Bookings* tab, for example, if content errors are found or if the booking was created for test purposes.
+The *Accounting* module allows to delete bookings in the *BOOKINGS* tab, for example, if content errors are found or if the booking was created for test purposes.
 
 It is possible to delete single bookings or multiple bookings at once. Bear in mind, however, that the bookings to be deleted must be unprocessed. For detailed information, see [Process bookings](07_ProcessBookings.md). In fact, a booking that has already been processed cannot be deleted, as the [DELETE] button will change to inactive (greyed out) when clicking on a unprocessed booking.
 
@@ -21,7 +21,7 @@ It is possible to delete single bookings or multiple bookings at once. Bear in m
 
 ![Delete booking](/Assets/Screenshots/RetailSuiteAccounting/Book/Bookings/DeleteBooking.png "[Delete booking]")
 
-1. Select the booking to be deleted from the list in the *Bookings* tab.
+1. Select the booking to be deleted from the list in the *BOOKINGS* tab.
 
 2. The existing booking details are displayed in the input line fields.
 
@@ -46,7 +46,7 @@ A message above the input line confirms that the booking has been deleted. The d
  - [Book exchange rate fluctuations](12_BookExchangeRateFluctuations.md)
  - [Access bookings from another period](13_AccessBookingsPeriod.md)
  - [Search in accounting](14_SearchAccounting.md)
- - [Provide the accounting data](15_ProviceAccountingData.md)
+ - [Provide the accounting data](15_ProvideAccountingData.md)
 
 ### See also
 
@@ -86,7 +86,7 @@ A window opens for you to select the journal and the sequential numbers of the b
 4. Click the [DELETE] button.   
 The selected bookings are deleted and will no longer be displayed in the bookings list.
 
-> [Info] It may be necessary to click on a different tab and switch back the *Bookings* tab to display the changes in the bookings list.
+> [Info] It may be necessary to click on a different tab and switch back the *BOOKINGS* tab to display the changes in the bookings list.
 
 ### Next steps
 
@@ -98,8 +98,8 @@ The selected bookings are deleted and will no longer be displayed in the booking
  - [Book exchange rate fluctuations](12_BookExchangeRateFluctuations.md)
  - [Access bookings from another period](13_AccessBookingsPeriod.md)
  - [Search in accounting](14_SearchAccounting.md)
- - [Provide the accounting data](15_ProviceAccountingData.md)
+ - [Provide the accounting data](15_ProvideAccountingData.md)
 
 ### See also
 
-  - [Delete](/RetailSuiteAccounting/UserInterface/00_UserInterface.md)
+  - [Delete](/RetailSuiteAccounting/UserInterface/XX_Delete.md)
