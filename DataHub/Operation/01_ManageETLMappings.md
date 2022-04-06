@@ -27,15 +27,15 @@ Attribute sets are created, see [Create an attribute set](02_ManageAttributeSets
 2. Select a source attribute set in the *Source attribute set* drop-down list. All active attribute sets are displayed in the drop-down list.
 
 3. Select a destination attribute set in the *Destination attribute set* drop-down list. All active attribute sets are displayed in the drop-down list.
-  If any attribute set with the selected destination attribute set already exists, the *Copy ETL Attribute Set Mapping* drop-down list is unlocked.
+  If any attribute set mapping with the selected destination attribute set already exists, the *Copy ETL Attribute Set Mapping* drop-down list is unlocked.
 
 4. Select a language in the *Language* drop-down list. All active languages are displayed in the drop-down list.
 
-  > [Info] The selected language defines the language from which the value of an multilingual attribute is taken when mapping it to a single language attribute.
+  > [Info] The selected language defines the language from which the value of a multilingual attribute is taken when mapping it to a single language attribute.
 
 5. Select a channel in the *Channel* drop-down list. All active channels are displayed in the drop-down list.
 
-  > [Info] The selected channel defines the channel from which the value of an multi-channel attribute is taken when mapping it to a single channel attribute.
+  > [Info] The selected channel defines the channel from which the value of a multi-channel attribute is taken when mapping it to a single channel attribute.
 
 6. If desired, select an existing ETL attribute set mapping in the *Copy ETL Attribute Set Mapping* drop-down list. All attribute set mappings whose destination attribute set matches or has inheritance relations to the selected destination attribute set are displayed in the drop-down list.
 
@@ -94,7 +94,7 @@ At least one ETL attribute set mapping is created, see [Create an ETL mapping](#
   > [Info] For detailed information about the data types, see [Data type list](/PIM/UserInterface/04_DataTypeList.md).   
   For detailed information about the ETL extensions, see [ETL extensions list](/DataHub/UserInterface/ETLExtensions.md).
 
-4. Select the appropriate tracking mode in the *Override Change tracking mode* drop-down list . By default, the **use default** option is preselected. The following modes are available:
+4. Select the appropriate tracking mode in the *Override Change tracking mode* drop-down list. By default, the **use default** option is preselected. The following modes are available:
   - **use default**: ---
   - **automatic**: The initial mapping is automatically applied. All value changes or reruns are applied automatically in the mapping.  
   - **semi-automatic**: The initial mapping is automatically applied. Values changes or reruns are applied after confirmation in the *Omni-Channel* module.
@@ -202,7 +202,7 @@ When creating an ETL attribute set mapping, you define the language and the chan
 
 ### Delete an ETL attribute mapping
 
-Delete an attribute set mapping to cancel the transfer of data to the destination attribute of the selected mapping.
+Delete an attribute mapping to cancel the transfer of data to the destination attribute of the selected mapping.
 
 #### Prerequisites
 
@@ -321,7 +321,7 @@ At least one ETL attribute set mapping is created, see [Create an ETL mapping](#
 
   ![Mapping](/Assets/Screenshots/DataHub/Settings/ETL/Mapping.png "[Mapping]")
 
-2. Select the button [RERUN MAAPPINGS] in the upper right corner.   
+2. Click the [RERUN MAAPPINGS] button in the upper right corner.   
   The *Rerun all mappings* window is displayed.
 
   ![Rerun all mapping](/Assets/Screenshots/DataHub/Settings/ETL/RerunSingleMapping.png "[Rerun single mapping]")
