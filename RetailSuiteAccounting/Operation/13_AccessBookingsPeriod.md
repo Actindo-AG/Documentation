@@ -1,4 +1,4 @@
-[!!Accounting](Actindo/Accounting)
+[!!Accounting](RetailSuiteAccounting)
 
 # Access bookings from another period
 
@@ -17,8 +17,6 @@ A journal is a chronological record of all accounting transactions of a business
 
 [comment]: <> (Taken from old documentation. Still up to date? Relevant here or better somewhere else, e.g. /ACD-451?)  
 
-[comment]:<> (Table in markdown not possible without header?)
-
 [comment]: <> (See table in old documentation about months - 0-Saldovorträge, 1-12 booking months, 13-15-Subsequent entries...)
 
 The booking month is also relevant for the arrangement of bookings within a booking period. Calendar months, irrespectively of whether or not the fiscal year coincides with the calendar year, are matched per default with the journals 1 to 12. This means, that the first month of a fiscal year will coincide with the journal 1, the second one with the journal 2 and so on.
@@ -31,34 +29,36 @@ Moreover, when opening the *Accounting* module for the first time after login or
 
 ## Prerequisites
 
-- The accounting is configured via the configuration wizard, see [Run the Accounting Wizard](01_RunAccountingWizard.md).
-- A valid fiscal year is created, see [Create fiscal year](04_ManageFiscalYear.md#create-a-fiscal-year).
+- The accounting is configured via the configuration wizard, see [Run the accounting wizard](/RetailSuiteAccounting/Integration/01_RunAccountingWizard.md).
+- A valid fiscal year is created, see [Create a fiscal year](RetailSuiteAccounting/Integration/04_ManageFiscalYear.md#create-a-fiscal-year).
 - A fiscal year is selected, see [Select fiscal year](01_SelectFiscalYear.md).
 
 ## Procedure
 
 *Accounting > Select fiscal year > Book > Tab BOOKINGS > Button FY/MONTH/JOURNAL*
 
-![FY/MONTH/JOURNAL button](/Assets/Screenshots/Accounting/Book/Bookings/Bookings_FYMonthJournal_Button.png "[FY/MONTH/JOURNAL button]")
+![FY/MONTH/JOURNAL button](/Assets/Screenshots/RetailSuiteAccounting/Book/FYMonthJournalButton.png "[FY/MONTH/JOURNAL button]")
 
 1. Click the *FY/MONTH/JOURNAL* button.  
 The *Select fiscal year* window is displayed.  
 
-  ![Select fiscal year view](/Assets/Screenshots/Accounting/Book/Bookings/Bookings_SelectFiscalYear_View.png "[Select fiscal year view]")
+  ![Select fiscal year view](/Assets/Screenshots/RetailSuiteAccounting/Book/SelectFiscalYearView.png "[Select fiscal year view]")
 
 2. Select the appropriate fiscal year in the *Fiscal year* field.
 > [Info] The *Period* date fields are filled in automatically.
 
-  ![Select fiscal year window](/Assets/Screenshots/Accounting/Book/Bookings/Bookings_SelectFiscalYear_Window.png "[Select fiscal year window]")
+  ![Select fiscal year window](/Assets/Screenshots/RetailSuiteAccounting/Book/SelectFiscalYearWindow.png "[Select fiscal year window]")
 
 3. Select the appropriate month in the *Month* drop-down list.
 
 4. Enter the appropriate journal number in the *Journal* field. Alternatively, click the [LIST] button.  
-A new window with the available journals and their bookings is displayed.
+A new window specifying the available journals and the number of bookings contained in each of them is displayed.
 
-  ![Select journal window](/Assets/Screenshots/Accounting/Book/Bookings/Bookings_SelectFiscalYear_Window_Journals.png "[Select journal window]")
+  ![Select journal window](/Assets/Screenshots/RetailSuiteAccounting/Book/SelectFiscalYearJournals.png "[Select journal window]")
 
 5. Select the appropriate journal.
+
+> [Info] Journals 1-12 are matched with the corresponding months, irrespectively of whether or not the fiscal year coincides with the calendar year. Make sure that the month and the journal selected match before clicking the [OK] button.
 
 6. Click the [OK] button.  
 The bookings recorded in the selected booking period are displayed.
@@ -66,10 +66,10 @@ The bookings recorded in the selected booking period are displayed.
 ## Next steps
 
   - [Search in accounting](14_SearchAccounting.md)
-  - [Provide the accounting data](15_ProviceAccountingData.md)
+  - [Provide the accounting data](15_ProvideAccountingData.md)
 
 ## See also
 
-  - [User Interface Accounting](/Accounting/UserInterface/00_UserInterface.md)
-  - [Create fiscal year](04_ManageFiscalYear.md#create-a-fiscal-year)
+  - [BUCHUNGEN](/RetailSuiteAccounting/UserInterface/XX_Buchungen.md)
+  - [Create fiscal year](/RetailSuiteAccounting/Integration/04_ManageFiscalYear.md#create-a-fiscal-year)
   - [Select fiscal year](01_SelectFiscalYear.md)
