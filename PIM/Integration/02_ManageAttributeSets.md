@@ -10,7 +10,7 @@ Further, you can import or export attribute sets.
 
 ## Create an attribute set
 
-Create an attribute set to define a new product type with different attributes to the PIM Basic Set.
+Create an attribute set to define a new product type with different attributes to the *PIM Basic Set*.
 
 ### Prerequisites
 
@@ -135,7 +135,7 @@ Add a new attribute to an attribute set to define any further specifications.
 
   ![Add attribute](/Assets/Screenshots/PIM/Settings/AttributeSets/AddAttributes.png "[Edit attribute set]")
 
-  > [Info] If the message **There are no unassigned attributes.** is displayed in the *Add attributes* view, all active attributes are already included in the selected attribute set. Check, if you have selected the appropriate attribute set, click the ![Refresh](/Assets/Icons/Refresh01.png "[Refresh]") (Refresh) button to update the list or [create a new attribute](01_ManageAttributes.md#create-an-attribute).
+  > [Info] If the **There are no unassigned attributes.** message is displayed in the *Add attributes* view, all active attributes are already included in the selected attribute set. Check, if you have selected the appropriate attribute set, click the ![Refresh](/Assets/Icons/Refresh01.png "[Refresh]") (Refresh) button to update the list or [create a new attribute](01_ManageAttributes.md#create-an-attribute).
 
 3. Select the checkboxes of the attributes in the list, you want to add to the attribute set.   
   The editing toolbar is displayed above the list.

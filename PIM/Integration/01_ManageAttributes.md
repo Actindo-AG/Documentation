@@ -47,7 +47,7 @@ Create an attribute to specify a new property for a product.
 
 ### Prerequisites
 
-An attribute set is created, see [Create an attribute set](02_ManageAttributeSets.md#Create-an-attribute-set).
+No prerequisites to fulfill.
 
 ### Procedure
 *PIM > Settings > Tab ATTRIBUTES*
