@@ -1,4 +1,4 @@
-[!!Accounting](Actindo/Accounting)
+[!!Accounting](RetailSuiteAccounting)
 
 # Provide the accounting data
 
@@ -6,7 +6,6 @@ The *Accounting* module offers an export function to export data in different fo
 
 Exporting data may be necessary to perform an external audit, create a balance sheet or prepare the annual accounts. These tasks are usually performed at the end of a fiscal year. The system also includes a reporting functionality to create different report types and export them in PDF format.
 
-[comment]: <> (Mention that the *Accounting* module does not offer the possibility to create balance sheet/annual accounts?)
 
 ## Export the data for DATEV
 
@@ -14,54 +13,58 @@ Accounting data can be exported into a DATEV CSV compatible file to be later imp
 
 ### Prerequisites
 
-- The accounting is configured via the configuration wizard, see [Run the Accounting Wizard](01_RunAccountingWizard.md).
-- A fiscal year is selected, see [Select fiscal year](01_SelectFiscalYear.md).
+ - The accounting is configured via the configuration wizard, see [Run the accounting wizard](/RetailSuiteAccounting/Integration/01_RunAccountingWizard.md).
+ - A fiscal year is selected, see [Select a fiscal year](01_SelectFiscalYear.md).
 
 ### Procedure
 
 *Accounting > Select fiscal year > Extras > Tab EXPORT*
 
-![Export](/Assets/Screenshots/Accounting/Extras/Export.png "[Export]")
+![Export](/Assets/Screenshots/RetailSuiteAccounting/Extras/Export.png "[Export]")
 
 1. Click the [DATEV CSV] button.    
 The *Export: DATEV CSV: Step 1* window is displayed.
 
-  ![Export DATEV CVS Step 1](/Assets/Screenshots/Accounting/Extras/ExportDatevCVS01.png "[Export DATEV CVS Step 1]")
+  ![Export DATEV CVS: Step 1](/Assets/Screenshots/RetailSuiteAccounting/Extras/ExportDatevCVS01.png "[Export DATEV CVS: Step 1]")
 
 2. Select the fiscal year to be exported in the *Fiscal year* drop-down list.
 
 3. Enter the months and journals to be exported in the *Period* field.
 
-4. Select the appropriate radio button in the *Selection* field. Mark the *Set the marker to export time* checkbox, if necessary.
+4. Select the appropriate radio button (**Export all/All from last export on (if last export exists, otherwise all)**) in the *Selection* field. Mark the *Set marker to export time* checkbox, if necessary.
 
 5. Select the appropriate options in the *Impersonal accounts* and *Personal accounts* drop-down lists.
 
   > [Info] When selecting the *Custom* option, additional fields are displayed to customized your export.
 
-  ![Export DATEV CVS custom](/Assets/Screenshots/Accounting/Extras/ExportDatevCVS01cust.png "[Export DATEV CVS custom]")
+  ![Export DATEV CVS Custom](/Assets/Screenshots/RetailSuiteAccounting/Extras/ExportDatevCVS01cust.png "[Export DATEV CVS Custom]")
 
 6. Select the appropriate option in the *Export only booking-relevant master data records* drop-down list.
 
-7. Select the corresponding document in the *Remove Receipt 2 in the export document* drop-down list.
+7. Select the appropriate option in the *Take Receipt 2 field in the export document from booking record field* drop-down list.
 
-[comment]: <> (Unsure about effect of this setting)
+  > [Info] Here it can be determined which value will be displayed in the *Receipt 2* field in the export file.
 
-8. Click the [CONTINUE] button.  
+8. Select the appropriate option in the *Saved personal accounts length* drop-down list.
+
+  > [Info] This field displays automatically the personal account length preconfigured in the system. This is used to make sure that the personal account numbers are exported in full length.
+
+9. Enter the applicable information in the *DATEV advisor number* and *DATEV client number*, if necessary.
+
+10. Click the [CONTINUE] button.  
 A new window confirms the ongoing export process. When finished, a confirmation window is displayed.
 
-  ![Export Datev CSV Step 2](/Assets/Screenshots/Accounting/Extras/ExportDatevCVS02.png "[Export Datev CSV Step 2]")
+  ![Export Datev CSV: Step 2](/Assets/Screenshots/RetailSuiteAccounting/Extras/ExportDatevCVS02.png "[Export Datev CSV: Step 2]")
 
-9. Click the [OK] button.  
+11. Click the [OK] button.  
 The confirmation window closes. A new window shows the exported file(s) as a zip file.
 
-10. Click the zip file name.  
-The zip file is downloaded into your computer.   
+12. Click the zip file name.  
+The zip file is downloaded in your computer.   
 
-  ![Export Datev CSV Step 3](/Assets/Screenshots/Accounting/Extras/ExportDatevCVS03.png "[Export Datev CSV Step 3]")
+  ![Export Datev CSV: Step 3](/Assets/Screenshots/RetailSuiteAccounting/Extras/ExportDatevCVS03.png "[Export Datev CSV: Step 3]")
 
   > [Info] Per default, the downloaded export file is saved in the Downloads folder of your computer.
-
-[comment]: <> (Kann man den Speicherort einstellen?)
 
 ### Next steps
 
@@ -71,9 +74,8 @@ The zip file is downloaded into your computer.
 
 ### See also
 
-  - [User Interface Accounting](/Accounting/UserInterface/00_UserInterface.md)
+  - [EXPORT](/RetailSuiteAccounting/UserInterface/XX_Export.md)
   - [Einstellungen Export?](#to-be-completed)
-  - [Select fiscal year](01_SelectFiscalYear.md)
 
 
 ## Export the data GDPdU-compliant
@@ -82,19 +84,19 @@ Accounting data can be exported into a GDPdU-compliant audit file format, a lega
 
 ### Prerequisites
 
-  - The accounting is configured via the configuration wizard, see [Run the Accounting Wizard](01_RunAccountingWizard.md).
-  - A fiscal year is selected, see [Select fiscal year](01_SelectFiscalYear.md).
+  - The accounting is configured via the configuration wizard, see [Run the accounting wizard](/RetailSuiteAccounting/Integration/01_RunAccountingWizard.md).
+  - A fiscal year is selected, see [Select a fiscal year](01_SelectFiscalYear.md).
 
 ### Procedure
 
 *Accounting > Select fiscal year > Extras > Tab EXPORT*
 
-  ![Export](/Assets/Screenshots/Accounting/Extras/Export.png "[Export]")
+  ![Export](/Assets/Screenshots/RetailSuiteAccounting/Extras/Export.png "[Export]")
 
 1. Click the [GDPdU EXPORT] button.    
 The *Export: GDPdU Export: Step 1* window is displayed.
 
-  ![Export GDPdU Step 1](/Assets/Screenshots/Accounting/Extras/ExportGDPdU01.png "[Export GDPdU Step 1]")
+  ![Export GDPdU: Step 1](/Assets/Screenshots/RetailSuiteAccounting/Extras/ExportGDPdU01.png "[Export GDPdU: Step 1]")
 
 2. Select the fiscal year to be exported in the *Fiscal year* drop-down list.
 
@@ -106,19 +108,19 @@ The *Export: GDPdU Export: Step 1* window is displayed.
 
 6. Select the appropriate option in the *Saved personal accounts length* drop-down list.
 
-[comment]: <> (Unsure of effect of this setting)
+  > [Info] This field displays automatically the personal account length preconfigured in the system. This is used to make sure that the personal account numbers are exported in full length.
 
-7. Enter the applicable information in the *DATEV advisor number* and *DATEV client number*.
+7. Enter the applicable information in the *DATEV advisor number* and *DATEV client number*, if necessary.
 
 8. Click the [CONTINUE] button.  
   A new window confirms the ongoing export process. When finished, a confirmation window is displayed.
 
-  ![Export GDPdU Step 2](/Assets/Screenshots/Accounting/Extras/ExportGDPdU02.png "[Export GDPdU Step 2]")
+  ![Export GDPdU: Step 2](/Assets/Screenshots/RetailSuiteAccounting/Extras/ExportGDPdU02.png "[Export GDPdU: Step 2]")
 
 9. Click the [OK] button.  
   The confirmation window closes. A new window shows the exported file(s) as a zip file.
 
-  ![Export GDPdU Step 3](/Assets/Screenshots/Accounting/Extras/ExportGDPdU03.png "[Export GDPdU Step 3]")
+  ![Export GDPdU: Step 3](/Assets/Screenshots/RetailSuiteAccounting/Extras/ExportGDPdU03.png "[Export GDPdU: Step 3]")
 
 ### Next steps
 
@@ -127,58 +129,57 @@ The *Export: GDPdU Export: Step 1* window is displayed.
 
 ### See also
 
-  - [User Interface Accounting](/Accounting/UserInterface/00_UserInterface.md)
-  - [Create fiscal year](04_ManageFiscalYear.md#create-a-fiscal-year)
-  - [Select fiscal year](01_SelectFiscalYear.md)
+ - [EXPORT](/RetailSuiteAccounting/UserInterface/XX_Export.md)
+ - [Einstellungen Export?](#to-be-completed)
 
 
 ## Create a PDF evaluation
 
-Accounting data can be exported for business evaluation  purposes. The system offers a functionality to create and customize BWA reports. For detailed information, see [Manage reports](07_ManageBWAReports.md).
+Accounting data can be exported for business evaluation  purposes. The system offers a functionality to create and customize BWA reports. For detailed information, see [Manage reports](/RetailSuiteAccounting/Integration/07_ManageBWAReports.md).
 
 ### Prerequisites
 
-  - The accounting is configured via the configuration wizard, see [Run the Accounting Wizard](01_RunAccountingWizard.md).
-  - A fiscal year is selected, see [Select fiscal year](01_SelectFiscalYear.md).
+  - The accounting is configured via the configuration wizard, see [Run the accounting wizard](/RetailSuiteAccounting/Integration/01_RunAccountingWizard.md).
+  - A fiscal year is selected, see [Select a fiscal year](01_SelectFiscalYear.md).
 
 ### Procedure
 
 *Accounting > Select fiscal year > Book > Context menu ASSESSMENTS > Menu entry BWA*
 
-  ![Assessments](/Assets/Screenshots/Accounting/Book/AssessmentsBWA.png "[Assessments]")
+  ![Assessments](/Assets/Screenshots/RetailSuiteAccounting/Book/AssessmentsBWA.png "[Assessments]")
 
 1. Click the *BWA* menu entry.  
 The window *BWA* is displayed.  
 
-  ![BWA](/Assets/Screenshots/Accounting/Book/BWA.png "[BWA]")
+  ![BWA](/Assets/Screenshots/RetailSuiteAccounting/Book/BWA.png "[BWA]")
 
 2. Select the appropriate option in the *Sorting* drop-down list.
 
-3. If necessary, mark the *Print cost center allocation* checkbox.
+3. If necessary, mark the *Print cost centre allocation* checkbox.
 
-4. Select the months to be printed in the *Accounting moth* drop-down lists.
+4. Select the months to be included in the *Accounting month* drop-down lists.
 
 5. If applicable, select the years to be compared in the BWA report in the *Comparison year* and *Comparison year 2* drop-down lists.
 
 6. Select the BWA report in the *BWA number* drop-down list.
 
-  > [Info] There are different preconfigured evaluation report types available in the system. They can be used as provided or completely customized.
+  > [Info] There are different preconfigured evaluation report types available in the system. They can be used as provided or completely customized. For detailed information, see [Manage reports](/RetailSuiteAccounting/Integration/07_ManageBWAReports.md).
 
 7. Select one of the layout options in the *Layout* drop-down list.
 
 8. Select the appropriate option in the *Show account* field.
 
 9. Click the [PRINT] button.  
-A new window confirms the ongoing PDF creation process. When finished, the PDF file opens automatically. 
+A new window confirms the ongoing PDF creation process. When finished, the PDF file opens automatically.
 
-  ![Print BWA](/Assets/Screenshots/Accounting/Book/PrintBWA.png "[Print BWA]")
+  ![Print BWA](/Assets/Screenshots/RetailSuiteAccounting/Book/PrintBWA.png "[Print BWA]")
 
 ### Next steps
 
-  - [User Interface](#to-be-completed)
+  - [User Interface](/RetailSuiteAccounting/UserInterface/#to-be-completed)
 
 ### See also
 
-  - [User Interface Accounting](/Accounting/UserInterface/00_UserInterface.md)
-  - [Create fiscal year](04_ManageFiscalYear.md#create-a-fiscal-year)
-  - [Select fiscal year](01_SelectFiscalYear.md)
+  - [BWA](/RetailSuiteAccounting/UserInterface/XX_BWA.md)
+  - [BWA ASSIGNMENT](/RetailSuiteAccounting/UserInterface/XX_BWAAssignment.md)
+  - [Manage reports](/RetailSuiteAccounting/Integration/07_ManageBWAReports.md)
