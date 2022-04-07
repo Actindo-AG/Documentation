@@ -4,26 +4,15 @@
 
 A fiscal year is the period over which a company's accounts are calculated, which generally lasts 12 months and which may or may not coincide with the calendar year.
 
-A journal is a chronological record of all accounting transactions of a business within a specified period of time. There are two main types: general journals and special journals. Special journals are specialized lists of transactions records and can be freely determined by the bookkeeper. However, it is highly recommended to use the special journals configured in the system:
+A journal is a chronological record of all accounting transactions within a specified period of time. There are two main types of journals preconfigured in the system:
 
-| Journal number | Definition |   
-| ------------- | ------------- |
-| Journals 1-12 | Bookings for months 1-12 |  
-| Journal 90 | Balances carried forward bookings for financial accounts |  
-| Journal 92 | Impersonal accounts, such as input tax and VAT balances |  
-| Journal 93 | Carry forwards for P&L accounts |  
-| Journal 98 | Debtors open items |  
-| Journal 99 | Creditors open items |
+  - General journals (1-12) are matched with the fiscal year months, irrespectively of whether or not the fiscal year coincides with the calendar year. That means, the first fiscal year month corresponds to journal 1, the second to journal 2 and so on.
 
-[comment]: <> (Taken from old documentation. Still up to date? Relevant here or better somewhere else, e.g. /ACD-451?)  
+  - Special journals (90-99) are specialized lists of transactions records preconfigured in the system for the balances carried forward. Further journals can be created.
 
-[comment]: <> (See table in old documentation about months - 0-Saldovorträge, 1-12 booking months, 13-15-Subsequent entries...)
+Special months are also preconfigured for in the system for special business transactions, such as balances carried forward or subsequent bookings.
 
-The booking month is also relevant for the arrangement of bookings within a booking period. Calendar months, irrespectively of whether or not the fiscal year coincides with the calendar year, are matched per default with the journals 1 to 12. This means, that the first month of a fiscal year will coincide with the journal 1, the second one with the journal 2 and so on.
-
-Journal and months are used to arrange a company's business transactions within a fiscal year. A particular booking period, that is, a fiscal year and a journal, will only contain the bookings recorded in that specific period. Accessing bookings from other periods may be necessary, for example, if a booking from a previous booking period needs to be adjusted or if a transaction performed at a later stage must be manually booked in a specific period.
-
-[comment]: <> (Unsure! Wissentransfer/Jessi fragen)
+Journal and months are used to arrange a company's business transactions within a fiscal year. A particular booking period will only contain the bookings recorded in that specific period. Accessing bookings from other periods may be necessary, for example, if a booking from a previous booking period needs to be adjusted or if a transaction performed at a later stage must be manually booked in a specific period.
 
 Moreover, when opening the *Accounting* module for the first time after login or after reloading the system, the window to select a fiscal year is displayed. For detailed information, see [Select fiscal year](01_SelectFiscalYear.md).
 
@@ -58,7 +47,7 @@ A new window specifying the available journals and the number of bookings contai
 
 5. Select the appropriate journal.
 
-> [Info] Journals 1-12 are matched with the corresponding months, irrespectively of whether or not the fiscal year coincides with the calendar year. Make sure that the month and the journal selected match before clicking the [OK] button.
+  > [Info] Journals 1-12 are matched with the corresponding months, irrespectively of whether or not the fiscal year coincides with the calendar year. Make sure that the month and the journal selected match before clicking the [OK] button.
 
 6. Click the [OK] button.  
 The bookings recorded in the selected booking period are displayed.
