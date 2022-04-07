@@ -144,9 +144,9 @@ The selected mappings are removed from the list when the mappings are created.
 - [Create a store in POS](06_CreateStore.md)
 
 
-## Create a QuickSelect Category
+## Create a QuickSelect category
 
-Create a QuickSelect Category for POS for faster access to favorite products.
+Create a QuickSelect category for POS for faster access to favorite products.
 
 ### Prerequisites
 

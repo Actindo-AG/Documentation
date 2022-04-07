@@ -18,7 +18,7 @@
   - [Edit the price of a product](03_EditBillList.md#edit-the-price-of-a-product)
   - [Edit the quantity of a product](03_EditBillList.md#edit-the-quantity-of-a-product)
   - [Delete a product from the bill list](03_EditBillList.md#delete-a-product-from-the-bill-list)
-  - [Add a Sale Note](03_EditBillList.md#add-a-sale-note)
+  - [Add a sale note](03_EditBillList.md#add-a-sale-note)
   - [Assign a purchase to a customer](03_EditBillList.md#assign-a-purchase-to-a-customer)
     - [Assign a purchase to an existing customer](03_EditBillList.md#assign-a-purchase-to-an-existing-customer)
     - [Register a customer](03_EditBillList.md#register-a-customer)

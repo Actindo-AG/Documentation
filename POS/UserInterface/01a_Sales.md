@@ -18,7 +18,7 @@
   > [Info] For detailed information, see [Create a QuickSelect Category](VenduoPOS/Integration/07_ManageOffers.md#create-a-quickselect-category).
 
 
-## Bill List
+## Bill list
 
 ![Bill List](/Assets/Screenshots/POS/Sales/Cashpoint/BillList/BillList.png "[Bill List]")
 
@@ -74,7 +74,7 @@
   Click this button to start the payment process. The payment view is displayed in the bill list. The total net amount of the purchase is displayed at the right of the [PAY] button.
 
 
-## Pay Bill List
+## Pay bill list
 *Venduo POS > Sales > Select Store and Pay Desk > Tab CASHPOINT > [PAY]*
 
 ![Pay](/Assets/Screenshots/POS/Sales/Cashpoint/BillList/Pay.png "[Pay]")   
@@ -140,7 +140,7 @@ This section is only displayed when no voucher has been redeemed.
 - [ ![Terminal](/Assets/Icons/Terminal.png "[Terminal]") MANUELLES ZAHLEN AM TERMINAL]   
   Click this button to pay cashless. The *Cashless payment* view is displayed.
 
-## Cash Payment
+## Cash payment
 *Venduo POS > Sales > Select Store and Pay Desk > Tab CASHPOINT > [PAY] > [CASH]*
 
 ![Cash payment](/Assets/Screenshots/POS/Sales/Cashpoint/BillList/CashPayment.png "[Cash payment]")
@@ -165,7 +165,7 @@ This section is only displayed when no voucher has been redeemed.
   If an amount smaller than the bill amount or no amount at all is entered, an error message is displayed.
 
 
-### Payment Pending   
+### Payment pending   
 
 The *Payment Pending* view is displayed when the cash payment has been confirmed. When the cash payment process has been completed, the *Payment Successful* view is automatically displayed.
 
@@ -181,7 +181,7 @@ The *Payment Pending* view is displayed when the cash payment has been confirmed
   Amount of change to be given to the customer. This field is read-only.
 
 
-### Payment Successful   
+### Payment successful   
 
 The *Payment Successful* view is automatically displayed when the cash payment process has been successfully completed.
 
@@ -200,7 +200,7 @@ The *Payment Successful* view is automatically displayed when the cash payment p
   Click this button to confirm the completion of the payment process and return to the bill list.
 
 
-## Cashless Payment
+## Cashless payment
 *Venduo POS > Sales > Select Store and Pay Desk > Tab CASHPOINT > [PAY] > [MANUELLES ZAHLEN AM TERMINAL]*
 
 ![Cashless payment](/Assets/Screenshots/POS/Sales/Cashpoint/BillList/CashlessPayment.png "[Cashless payment]")  
@@ -219,7 +219,7 @@ The *Payment Successful* view is automatically displayed when the cash payment p
   Click this button to finalize the cashless payment process. The *Payment at terminal* view is displayed.   
   The payment can be finalized only if a payment method is selected in the drop-down list *Card type*.
 
-### Payment at Terminal   
+### Payment at terminal   
 
 The *Payment at terminal* view is automatically displayed when the cash payment process has been successfully completed.
 
@@ -239,7 +239,7 @@ The *Payment at terminal* view is automatically displayed when the cash payment 
 
 
 
-## Add Customer
+## Add customer
 *Venduo POS > Sales > Select Store and Pay Desk > Tab CASHPOINT > Button Add Customer*
 
 ![Add Customer](/Assets/Screenshots/POS/Sales/Cashpoint/BillList/AddCustomer01.png "[Add Customer]")
@@ -254,7 +254,7 @@ The *Payment at terminal* view is automatically displayed when the cash payment 
   Click this button to register a customer. The *Create Customer* view is displayed.
 
 
-## Create Customer
+## Create customer
 *Venduo POS > Sales > Select Store and Pay Desk > Tab CASHPOINT > Button Add Customer > Button Create Customer*
 
 ![Create Customer](/Assets/Screenshots/POS/Sales/Cashpoint/BillList/AddCustomer02.png "[Create Customer]")
@@ -332,7 +332,7 @@ The *Payment at terminal* view is automatically displayed when the cash payment 
   Click this button to apply the entered discount. The payment view with the entered discount is displayed.
 
 
-## Product Details
+## Product details
 *Venduo POS > Sales > Select Store and Pay Desk > Tab CASHPOINT > Select Product in the Bill List*
 
 ![Product Details](/Assets/Screenshots/POS/Sales/Cashpoint/BillList/ProductDetails.png "[Product Details]")

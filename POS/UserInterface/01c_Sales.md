@@ -1,4 +1,4 @@
-# Cash Register
+# Cash register
 
 *Venduo POS > Sales > Select Store and Pay Desk > Tab CASH REGISTER*
 
@@ -8,7 +8,7 @@ The tab *Cash Register* is divided into two parts:
 - [Payment Tally](#payment-tally)
 - [Cash In/Out](#cash-in-out)
 
-## Payment Tally
+## Payment tally
 
 ![Payment Tally](/Assets/Screenshots/POS/Sales/CashRegister/PaymentTally.png "[Payment Tally]")
 
@@ -37,7 +37,7 @@ The tab *Cash Register* is divided into two parts:
   Enter a cash amount up to which the pay desk is skimmed after closing. If you have predefined a [skimming amount](02a_Management.md#abschöpfen-bis-betrag) in the global settings, the field is preset with this amount.
 
 
-### Count Cash
+### Count cash
 
 *Venduo POS > Sales > Select Store and Pay Desk > Tab CASH REGISTER > Button Calculator*
 
@@ -71,7 +71,7 @@ The tab *Cash Register* is divided into two parts:
   Click this button to confirm the counted cash amount and close the *Count cash* view.
 
 
-## Cash In/Out
+## Cash in/out
 
 ![Cash In/Out](/Assets/Screenshots/POS/Sales/CashRegister/CashInOut.png "[Cash In/Out]")
 

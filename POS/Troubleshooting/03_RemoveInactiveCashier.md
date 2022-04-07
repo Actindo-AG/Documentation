@@ -2,7 +2,7 @@
 
 # Remove an inactive cashier from the pay desk
 
-## Error Description
+## Error description
 A cashier forgot to unassign form a pay desk. The pay desk is locked and cannot be operated by other cashiers.
 
 Follow the instructions below to remove the inactive cashier from the pay desk and unlock the pay desk for the other cashiers.

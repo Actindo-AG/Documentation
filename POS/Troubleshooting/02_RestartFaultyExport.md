@@ -2,7 +2,7 @@
 
 # Restart a faulty export
 
-## Error Description
+## Error description
 An error occurred while trying to export an offer to OMS.
 
 Follow the instructions below to restart the export to OMS after you fix the cause of the error.

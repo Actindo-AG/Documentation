@@ -3,7 +3,7 @@
 
 # Handle an out-of-stock order
 
-## Error Message
+## Error message
 
 Error booking bill: [stage: lager_book] Fehler beim Erzeugen der Lagerbuchungen: Der Bestand für Artikel *x* im Lager *x* ist nur 0.00, benötigt würden *x*.
 

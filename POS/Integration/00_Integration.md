@@ -58,7 +58,7 @@
   - [Create products for POS](07_ManageOffers.md#create-products-for-pos)
   - [Create a POS specific product type](07_ManageOffers.md#create-a-pos-specific-product-type)
   - [Map a new product type in POS](07_ManageOffers.md#map-a-new-product-type-in-pos)
-  - [Create a QuickSelect Category](07_ManageOffers.md#create-a-quickselect-category)
+  - [Create a QuickSelect category](07_ManageOffers.md#create-a-quickselect-category)
     - [Create a QuickSelect attribute](07_ManageOffers.md#create-a-quickselect-attribute)
     - [Select the QuickSelect attribute](07_ManageOffers.md#select-the-quickselect-attribute)
   - [Create a voucher](07_ManageOffers.md#create-a-voucher)

@@ -1,4 +1,4 @@
-# Key Features
+# Key features
 
 Successfully Digitize Your Point of Sale:
 - Complete Checkout System   

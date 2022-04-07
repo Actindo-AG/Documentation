@@ -1,4 +1,4 @@
-# Global Settings
+# Global settings
 *Venduo POS > Management > Tab GLOBAL SETTINGS*
 
 In the tab *GLOBAL SETTINGS*, you define basic settings for all your stores.
@@ -268,7 +268,7 @@ By default, the expected amount in the pay desk is indicated. deactivate this op
 
 In this section, you define all settings concerning the currencies in your POS system.
 
-## Available Currencies
+## Available currencies
 *Venduo POS > Management > Tab GLOBAL SETTINGS > Entry Available Currencies*
 
 Define the currencies that are available in your POS system as well as the coins and bills that exist in each currency. By default, the four currencies Euro, Swiss Franc, US Dollar and British Pound are predefined.

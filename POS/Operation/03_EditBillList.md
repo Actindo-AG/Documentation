@@ -224,7 +224,7 @@ You can delete a product from your bill list, for instance if you accidentally a
 - [Manage offers for POS](/POS/Integration/07_ManageOffers.md)
 
 
-## Add a Sale Note
+## Add a sale note
 
 You can add a note to the purchase in your bill list to indicate if you have made any changes to the products or want to save any other information about the purchase.
 

@@ -1,8 +1,8 @@
 [!!Settings](Settings)
 
-# Establish the RetailSuite Connection
+# Establish the RetailSuite connection
 
-## Error Description
+## Error description
 The RetailSuite is not connected to Venduo POS. The *DATA TRANSFER RETAILSUITE INVOICING* section is not displayed in the global settings.
 
 Follow the instructions below to establish the connection to the RetailSuite.

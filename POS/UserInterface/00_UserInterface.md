@@ -1,23 +1,23 @@
 # User Interface
 
 - [Sales](01_Sales.md)
-  - [Select Store and Pay Desk](01_Sales.md#select-store-and-pay-desk)
-  - [Select Opening Float](01_Sales.md#select-opening-float)
+  - [Select store and pay desk](01_Sales.md#select-store-and-pay-desk)
+  - [Select opening float](01_Sales.md#select-opening-float)
 
 
 
 - [CASHPOINT](01a_Sales.md)
-  - [Bill List](01a_Sales.md#bill-list)
-  - [Pay Bill List](01a_Sales.md#pay-bill-list)
-  - [Cash Payment](01a_Sales.md#cash-payment)
-    - [Payment Pending](01a_Sales.md#payment-pending)   
-    - [Payment Successful](01a_Sales.md#payment-successful)
-  - [Cashless Payment](01a_Sales.md#cashless-payment)
-    - [Payment at Terminal](01a_Sales.md#payment-at-terminal)   
-  - [Add Customer](01a_Sales.md#add-customer)
-  - [Create Customer](01a_Sales.md#create-customer)
+  - [Bill list](01a_Sales.md#bill-list)
+  - [Pay bill list](01a_Sales.md#pay-bill-list)
+  - [Cash payment](01a_Sales.md#cash-payment)
+    - [Payment pending](01a_Sales.md#payment-pending)   
+    - [Payment successful](01a_Sales.md#payment-successful)
+  - [Cashless payment](01a_Sales.md#cashless-payment)
+    - [Payment at terminal](01a_Sales.md#payment-at-terminal)   
+  - [Add customer](01a_Sales.md#add-customer)
+  - [Create customer](01a_Sales.md#create-customer)
   - [Discount on bill](01a_Sales.md#discount-on-bill)
-  - [Product Details](01a_Sales.md#product-details)
+  - [Product details](01a_Sales.md#product-details)
 
 
 
@@ -26,9 +26,9 @@
 
 
 - [CASH REGISTER](01c_Sales.md)
-  - [Payment Tally](01c_Sales.md#payment-tally)
-    - [Count Cash](01c_Sales.md#count-cash)
-  - [Cash In/Out](01c_Sales.md#cash-in-out)
+  - [Payment tally](01c_Sales.md#payment-tally)
+    - [Count cash](01c_Sales.md#count-cash)
+  - [Cash in/out](01c_Sales.md#cash-in-out)
     - [Cash in](01c_Sales.md#cash-in)
     - [Cash out](01c_Sales.md#cash-out)
 
@@ -39,7 +39,7 @@
 
 
 - [RETOUREN](01e_Sales.md)
-  - [Add Return](01e_Sales.md#add-return)
+  - [Add return](01e_Sales.md#add-return)
 
 
 
@@ -97,11 +97,11 @@
 
 
 - [STORES](02b_Management.md)
-  - [Create Store](02b_Management.md#create-store)
+  - [Create store](02b_Management.md#create-store)
   - [Store](02b_Management.md#store)
-    - [Basic Data - Store](02b_Management.md#basic-data-store)
-      - [Store Managers](02b_Management.md#store-managers)
-      - [Create Pay Desk](02b_Management.md#create-pay-desk)
+    - [Basic data - Store](02b_Management.md#basic-data-store)
+      - [Store managers](02b_Management.md#store-managers)
+      - [Create pay desk](02b_Management.md#create-pay-desk)
     - [Settings](02b_Management.md#settings)
       - [UNKNOWN SECTION](02b_Management.md#unknown-section-1)
         - [Bon immer ausdrucken](02b_Management.md#bon-immer-ausdrucken)
@@ -116,7 +116,7 @@
         - [Nativer Bon-Druck](02b_Management.md#nativer-bon-druck-1)
         - [Logo-Druck Kompatibilitätsmodus](02b_Management.md#logo-druck-kompatibilitätsmodus-1)
         - [Bon-Format](02b_Management.md#bon-format-1)
-    - [Admin Settings - Store](02b_Management.md#admin-settings-store)
+    - [Admin settings - Store](02b_Management.md#admin-settings-store)
       - [UNKNOWN SECTION](02b_Management.md#unknown-section-2)
         - [Kasse öffnen bei Barzahlung](02b_Management.md#kasse-öffnen-bei-barzahlung-1)
         - [Kasse öffnen nach bargeldlosem Zahlen](02b_Management.md#kasse-öffnen-nach-bargeldlosem-zahlen-1)
@@ -131,10 +131,10 @@
         - [Shop-Kundennummer für Nachbestellung](02b_Management.md#shop-kundennummer-für-nachbestellung)
         - [Retourenlager (Sperrlager)](02b_Management.md#retourenlager-sperrlager)
         - [Lagerzuordnung Bestellungen](02b_Management.md#lagerzuordnung-bestellungen)
-  - [Pay Desk](02b_Management.md#pay-desk)
-    - [Basic Data - Pay Desk](02b_Management.md#basic-data-pay-desk)
+  - [Pay desk](02b_Management.md#pay-desk)
+    - [Basic data - Pay desk](02b_Management.md#basic-data-pay-desk)
       - [Cashiers](02b_Management.md#cashiers)
-    - [Admin Settings - Pay Desk](02b_Management.md#admin-settings-pay-desk)
+    - [Admin settings - Pay desk](02b_Management.md#admin-settings-pay-desk)
       - [UNKNOWN SECTION](0Ba_Management.md#unknown-section-3)
         - [Kasse öffnen bei Barzahlung](02b_Management.md##kasse-öffnen-bei-barzahlung-2)
         - [Kasse öffnen nach bargeldlosem Zahlen](02b_Management.md##kasse-öffnen-nach-bargeldlosem-zahlen-2)
@@ -146,7 +146,7 @@
       - [DATENÜBERTRAGUNG RETAILSUITE FAKTURA](02b_Management.md#datenübertragung-retailsuite-faktura-2)
         - [Kontenzuteilung Buchhaltung](02b_Management.md#kontenzuteilung-buchhaltung-2)
     - [Transactions](02b_Management.md#transactions)
-      - [Transactions Details](02b_Management.md#transactions-details)
+      - [Transactions details](02b_Management.md#transactions-details)
 
 
 
