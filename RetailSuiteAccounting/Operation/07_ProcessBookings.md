@@ -21,12 +21,12 @@ Nevertheless, new bookings can be entered in a booking period that has already b
 
 *Accounting > Select fiscal year > Book > Tab BOOKINGS > Context menu EDIT > Menu entry Process*
 
-![Process bookings](/Assets/Screenshots/RetailSuiteAccounting/Book/Bookings/Bookings_Process_Bookings.png "[Process bookings]")
+![Process bookings](/Assets/Screenshots/RetailSuiteAccounting/Book/Bookings/ProcessBookings.png "[Process bookings]")
 
 1. Click the *Process* menu entry in the *EDIT* context menu.   
 A window opens for you to select the booking period (journal and month range) of the bookings to be processed.
 
-  ![Process bookings selection window](/Assets/Screenshots/RetailSuiteAccounting/Book/Bookings/Bookings_Process_Bookings_Window.png "[Process bookings selection window]")
+  ![Process bookings selection window](/Assets/Screenshots/RetailSuiteAccounting/Book/Bookings/ProcessBookings01.png "[Process bookings selection window]")
 
 2. Select the journal(s) where the bookings to be processed are recorded in the *Journal* drop-down lists.
 
