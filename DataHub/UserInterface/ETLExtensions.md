@@ -5,33 +5,48 @@ The ETL extensions are used to define how the data is transformed from the sourc
 The list below describes in detail all available ETL extensions and, if available, their specific configurations.
 
 
-## Add prefix/suffix -
+## Add prefix/suffix
 
+![Add prefix suffix](/Assets/Screenshots/DataHub/Settings/ETL/Extensions/AddPrefixSuffix.png "[Add prefix suffix]")
 
-
-### Configuration
-- Prefix
-- Suffix
-
-
-## Arithmetic Extension -
+This extension is used to add a specific prefix and/or suffix to the destination attribute. The prefix and/or suffix to be added is defined in the configuration.
 
 ### Configuration
-- Equation 1
-- Equation x (possible to add modifiers)
+- *Prefix*    
+  Enter the prefix to be added before the value of the destination attribute.
+
+- *Suffix*   
+  Enter the suffix to be added after the value of the destination attribute.
 
 
-## Basic Mapping -
-The basic mapping adopts the value from the source attribute to the destination attribute without any change.
+## Arithmetic Extension
 
-Example:
-- Source attribute: String with the value **abc**
-- Destination attribute: String with the value **abc**
+![Arithmetic extension](/Assets/Screenshots/DataHub/Settings/ETL/Extensions/ArithmeticExtension.png "[Arithmetic extension]")
+
+This mapping is used to specify one or more fallback attributes to be mapped if the first attribute is not available. At least one source attribute must be selected in the *x1* drop-down list. Up to eight attributes can be selected in the drop-down lists. Enter the function to be applied in the configuration.  
+
+### Configuration
+- *Equation 1*   
+  Enter the function to be applied to the selected source attributes. You have to follow the syntax below: ???
+
+[comment]: <> (funktioniert nicht - welche Syntax muss in der Equation genutzt werden? Muss immer eine Equation angegeben sein? )
+
+- ![Add](/Assets/Icons/Plus03.png "[Add]") (Add)   
+  Click this button to add another equation. You can add an unlimited number of equations.
+
+[comment]: <> (pro modifier nur ein wert ändern? oder warum brauche ich davon mehrere?)
+
+
+## Basic Mapping
+
+![Basic mapping](/Assets/Screenshots/DataHub/Settings/ETL/Extensions/NumberToString.png "[Basic mapping]")
+
+This mapping is used to adopt the value from a source attribute to a destination attribute without any change. The basic mapping is the most commonly used mapping and can be applied to all data types.
+
+[comment]: <> (stimmt das?)
 
 ### Configuration
 This ETL extension has no further configuration settings.
-
--> 1 zu 1 Übertragung; keine Transformation
 
 
 ## Boolean-To-String
@@ -64,7 +79,7 @@ Nintendo spezifisch
 
 ![Constant value](/Assets/Screenshots/DataHub/Settings/ETL/Extensions/ConstantValue.png "[Constant value]")
 
-This extension is used to map a constant value to a random destination attribute. The fixed source value is defined in the configurations and never changes. This extension is often used according to receipts, for instance to define the receipt type.
+This extension is used to map a constant value to a destination attribute of a random data type. The fixed source value is defined in the configurations and never changes. This extension is often used according to receipts, for instance to define the receipt type.
 
 [comment]: <> (Is that right? random destination attribute? or only string?)
 
@@ -79,7 +94,13 @@ This extension is used to map a constant value to a random destination attribute
 This ETL extension has no further configuration settings.
 
 
-## Country-To-X -
+## Country-To-X
+
+![Country to X](/Assets/Screenshots/DataHub/Settings/ETL/Extensions/CountryToX.png "[Country to X]")
+
+This extension is used to map a country attribute to a string attribute. It is mainly used to map the Actindo *Country of Origin* attribute.
+
+[comment]: <> (Is that right? only string?)
 
 ### Configuration
 This ETL extension has no further configuration settings.
@@ -89,7 +110,7 @@ This ETL extension has no further configuration settings.
 
 ![Date Converter](/Assets/Screenshots/DataHub/Settings/ETL/Extensions/DateConverter.png "[Date Converter]")
 
-This extension is used to map a date attribute to another date attribute of a different format or to a string attribute. The destination date format is defined in the configuration. Further, modifiers can be defined to change the date by a defined time value.
+This extension is used to map a date attribute to another date attribute of a different format or to a string attribute. The destination date format is defined in the configuration. Further, additional modifiers can be defined to change the date by a defined time value.
 
 [comment]: <> (Is that right? destination = string or date?)
 
@@ -100,7 +121,7 @@ This extension is used to map a date attribute to another date attribute of a di
 - *Modifier 1*   
   Enter a value for the modifier to change the source date by a certain time value. For instance, enter **+ 7 days** to predate the date in the source attribute always by 7 days in the destination attribute. You can predate a date by using a plus sign, or backdate a date by using a minus sign.
 
-  [comment]: <> (modifier format? ausgeschrieben oder abkürzungen wie in destination format feld?)
+  [comment]: <> (modifier format? ausgeschrieben oder abkürzungen wie in destination format feld? What format is taken if nothing is defined in the configuration?)
 
 - ![Add](/Assets/Icons/Plus03.png "[Add]") (Add)   
   Click this button to add another modifier. You can add an unlimited number of modifiers.
@@ -130,11 +151,17 @@ This ETL extension has no further configuration settings.
 
 
 
-## Html-Template -
+## Html-Template
+
+![HTML template](/Assets/Screenshots/DataHub/Settings/ETL/Extensions/HTMLTemplate.png "[HTML template]")
+
+This extension is used to map a HTML template attribute to a random destination attribute. The HTML template to be applied is selected in the configuration. Mainly, this extension is selected for mappings requiring more logical assignments which cannot be mapped with the other extensions. This extension is only available when the *HTML Templates for ETL* plugin is installed.  
+For detailed information about HTML templates, see [Manage the HTML templates](/PIM/Operation/03_ManageHTMLTemplates.md).
 
 ### Configuration
 
-- *Html-Template*
+- *Html-Template*   
+  Select the HTML template to be applied to the mapping. The HTML templates can be created in the *HTML TEMPLATES* tab.
 
 -> plugin installieren!
 
@@ -374,7 +401,31 @@ This extension is often used for csv-imports where only data input as string dat
 This ETL extension has no further configuration settings.
 
 
-## String Date Converter -
+## String Date Converter
+
+This extension is used to map a string attribute containing a date to another string attribute or a date attribute. The source as well as the destination date format are defined in the configuration. Further, additional modifiers can be defined to change the date by a defined time value.
+
+[comment]: <> (Is that right? destination = string or date?)
+
+### Configuration
+
+- *Source Format*   
+  Enter the source format of the date, for instance **Y-m-d**. The date must be entered in the php format, see https://www.php.net/manual/de/datetime.format.php.
+
+- *Destination Format*   
+  Enter the destination format of the date, for instance **Y-m-d**. The date must be entered in the php format, see https://www.php.net/manual/de/datetime.format.php.
+
+- *Modifier 1*   
+  Enter a value for the modifier to change the source date by a certain time value. For instance, enter **+ 7 days** to predate the date in the source attribute always by 7 days in the destination attribute. You can predate a date by using a plus sign, or backdate a date by using a minus sign.
+
+  [comment]: <> (modifier format? ausgeschrieben oder abkürzungen wie in destination format feld? What format is taken if nothing is defined in the configuration?)
+
+- ![Add](/Assets/Icons/Plus03.png "[Add]") (Add)   
+  Click this button to add another modifier. You can add an unlimited number of modifiers.
+
+  [comment]: <> (pro modifier nur ein wert ändern? oder warum brauche ich davon mehrere?)
+
+
 
 ### Configuration
 - Destination Format
@@ -388,10 +439,18 @@ This ETL extension has no further configuration settings.
 This ETL extension has no further configuration settings.
 
 
-## String-Concat-To-String -
+## String-Concat-To-String
+
+![String concat to string](/Assets/Screenshots/DataHub/Settings/ETL/Extensions/StringConcatToString.png "[String concat to string]")
+
+This extension is used to map multiple string attributes to a single string attribute. This extension is often used in the receipt management, for instance to combine the receipt type and the number number, which are stored in different source attributes, in a single destination attribute. At least two source attributes must be selected and up to ten attributes can be selected. The source attribute values are written one after the other in the destination attribute without separation. Define a connector in the configuration.
 
 ### Configuration
-- Glue
+
+- *Glue*   
+  Enter a connector which is added before each source attribute value.
+
+  [comment]: <> (Glue - warum wird das auch vors erste attribut geschrieben? Ist das nicht sinnfrei?)
 
 
 ## String-To-Absolute-Number
@@ -549,7 +608,7 @@ This extension is used to map an unit attribute to a string attribute. A unit at
   - **Suffix Empty**
 
 
-- *Separator*
+- *Separator* zwischen Zahl und Einheit
 - *Decimal Separator*
 - *Decimal Places*
 
@@ -565,12 +624,19 @@ This extension is used to map an unit attribute to a string attribute. A unit at
 - Configured unit (if option **Configured Unit** is selected): dropdown with all available units
 
 
-## Variant-To-String -
+## Variant-To-String
+
+![Variant to string](/Assets/Screenshots/DataHub/Settings/ETL/Extensions/VariantToString.png "[Variant to string]")
+
+This extension is used to map a variant attribute to a string attribute, for instance to provide the product information. The values of the defining attributes of a variant are mapped to the destination attribute. Define if certain attributes should be excluded and if the attribute names should be included in the configuration.
 
 ### Configuration
-![Toggle](/Assets/Icons/Toggle.png "[Toggle]") Include attribute name
 
--> Produktinformationen übergeben
+- ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Include attribute name*     
+  Activate the toggle to map both, the attribute names and their values. Deactivate the toggle to map the attribute values only.
+
+- *Excluded Attribute Keys*  
+  Enter the attribute keys of those attributes that should not be mapped to the destination attribute.
 
 
 ## Variant-Value-To-Master-Sku ???
