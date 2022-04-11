@@ -6,14 +6,14 @@ Receipts are used to document all transactions and, therefore, play an indispens
 
 The *Accounting* module offers three possible ways to manage and assign receipts to bookings:
 
-- Clicking the [ASSIGN RECEIPT] button in the *BOOKING* tab to assign a receipt to an already existing booking in the bookings list;
-- Clicking the *BOOK RECEIPTS* tab to assign a receipt available as a PDF and create a booking manually;
-- Clicking the *Supplier receipts* menu entry in the *EDI* context menu to specifically assign a supplier receipt.
+- Clicking the [ASSIGN RECEIPT] button in the *BOOKING* tab to assign a receipt to an already existing booking in the bookings list; see [Retrieve a receipt](#retrieve-a-receipt).
+- Clicking the *BOOK RECEIPTS* tab to assign a receipt available as a PDF and create a booking manually; see [Book a receipt](#book-a-receipt).
+- Clicking the *Supplier receipts* menu entry in the *EDI* context menu to specifically assign a supplier receipt; see [Book a supplier receipt](#book-a-supplier-receipt)
 
-> [Info] *Supplier receipts* is a special feature that works together to the *Purchasing*, *Invoicing* and *Payment processing* modules, and therefore the appropriate settings must be configured first.
+> [Info] *Supplier receipts* is a special feature that interacts with the *Purchasing* and *Payment processing* modules, and therefore the appropriate settings must be configured first.
 
 
-Besides, when a receipt is booked in the *BOOK RECEIPTS* tab, it is linked to the assigned booking. A ![Receipt](/Assets/Icons/Beleg.png "[Receipt]") icon will be then displayed next to the booking in the bookings list. When clicking the ![Receipt](/Assets/Icons/Beleg.png "[Receipt]") icon, the corresponding receipt is displayed.
+When a receipt is booked in the *BOOK RECEIPTS* tab, it is linked to the assigned booking. A ![Receipt](/Assets/Icons/Beleg.png "[Receipt]") icon will be then displayed next to the booking in the bookings list. When clicking the ![Receipt](/Assets/Icons/Beleg.png "[Receipt]") icon, the corresponding receipt is displayed.
 
 [comment]: <> (Work in progress!)
 
@@ -30,7 +30,6 @@ After being uploaded, the receipts are stored in the *New documents* folder in t
 ### Prerequisites
 
 - The accounting is configured via the configuration wizard, see [Run the accounting wizard](01_RunAccountingWizard.md).
-- A valid fiscal year is created, see [Create a fiscal year](04_ManageFiscalYear.md#create-a-fiscal-year).
 - A fiscal year is selected, see [Select fiscal year](01_SelectFiscalYear.md).
 - A manual booking is created, see [Create a manual booking](04_CreateManualBooking.md).
 - A receipt is uploaded in PDF format, see [New Documents](#to_be_completed).
@@ -75,10 +74,9 @@ The selected document is now assigned to the booking. A ![Receipt](/Assets/Icons
 
 ### See also
 
-  - [Book](/RetailSuiteAccounting/UserInterface/XX_Book.md)
+  - [Assign booking](/RetailSuiteAccounting/UserInterface/XX_AssignBooking.md)
   - [Bookings](/RetailSuiteAccounting/UserInterface/XX_Bookings.md)
-  - [Invocing/Details](#to_be_completed)
-  - [Documents/New documents](#to_be_completed)
+  - [New documents](#to_be_completed)
 
 
 ## Book a receipt
@@ -88,9 +86,8 @@ The *BOOK RECEIPTS* tab allows to assign manually external receipts uploaded in 
 ### Prerequisites
 
 - The accounting is configured via the configuration wizard, see [Run the accounting wizard](01_RunAccountingWizard.md).
-- A valid fiscal year is created, see [Create a fiscal year](04_ManageFiscalYear.md#create-a-fiscal-year).
 - A fiscal year is selected, see [Select fiscal year](01_SelectFiscalYear.md).
-- An incoming receipt is uploaded, see [Documents / New Documents](#to_be_completed).
+- A receipt is uploaded in PDF format, see [New Documents](#to_be_completed).
 
 ### Procedure
 
@@ -140,26 +137,27 @@ A message above the entry line confirms that the receipt has been linked to the 
 
 ### See also
 
-  - [User Interface Accounting](/RetailSuiteAccounting/UserInterface/00_UserInterface.md)
-  - [Manage receipts](10_ManageReceipts.md)
-  - [Dokumente - Neue / Verbuchte Dokumnete](#to_be_completed)
-  - [Manage open items](03_ManageOpenItems.md)
-  - [Zahlungsabwicklung Offene Posten](#to_be_completed)
+  - [Book receipts](/RetailSuiteAccounting/UserInterface/XX_BookReceipts.md)
+  - [New documents/Booked documents](#to_be_completed)
 
 
 ## Book a supplier receipt
 
 The *Supplier receipts* menu entry of the *EDIT* context menu in the *BOOKINGS* is an enhanced function to book specifically supplier receipts.
 
-Suppliers' invoices can be uploaded in PDF format in the *New supplier receipts* folder in the *Documents* module, which will be then recognized by the system and displayed in the *Acquire* tab in the *Supplier receipts* window.
+Suppliers' invoices can be uploaded in PDF format in the *New supplier receipts* folder in the *Documents* module, which will be then recognized by the system and displayed in the *Acquire* tab in the *Supplier receipts* window. Once they are booked, they are moved automatically into the *Acquired documents* folder.
+
+ Moreover, this function interacts with the *Purchasing* and *Payment processing* modules, and allows to check supplier receipts before booking them in the system and to automatize payment conditions.
+
+[comment]: <> (ACQUIRE probably "enter" -ERFASSEN- or "park" -vorerfassen", SAP Terminology)
 
 ### Prerequisites
 
 - The accounting is configured via the configuration wizard, see [Run the accounting wizard](01_RunAccountingWizard.md).
-- A valid fiscal year is created, see [Create a fiscal year](04_ManageFiscalYear.md#create-a-fiscal-year).
 - A fiscal year is selected, see [Select fiscal year](01_SelectFiscalYear.md).
-- The appropriate plug-in is installed, see [Install plug-in XZY](#to_be_completed).
-- Supplier receipts are uploaded in the corresponding folder, see [New supplier receipts](#to_be_completed).  
+- The appropriate plug-in is installed, see [Install plug-in Checking of supplier receipts + Payment proposal list](#to_be_completed).
+- The corresponding folder is created in the *Documents* module, see [New documents](#to_be_completed).
+- Supplier receipts are uploaded in the *New supplier receipts* folder, see [New supplier receipts](#to_be_completed).
 
 ### Procedure
 
@@ -168,11 +166,13 @@ Suppliers' invoices can be uploaded in PDF format in the *New supplier receipts*
 ![Supplier receipts](/Assets/Screenshots/RetailSuiteAccounting/Book/SupplierReceipts.png "[Supplier receipts]")
 
 1.  Click the *Supplier receipt* menu entry.  
-The *Supplier receipts* window is displayed.
+The *Supplier receipts* window is displayed. The external receipts uploaded in the *New supplier receipts* folder in the *Documents* module are displayed in the *Acquire* tab.
 
-  > [Info] The external receipts uploaded in the *New supplier receipts* folder in the *Documents* module are displayed in the *Acquire* tab. If there are no receipts to be booked, the message *No documents left to be registered* is displayed.
+    ![Acquire supplier receipts](/Assets/Screenshots/RetailSuiteAccounting/Book/SupplierReceiptsAcquire.png "[Acquire supplier receipts]")
 
-  ![Supplier bookings](/Assets/Screenshots/RetailSuiteAccounting/Book/SupplierReceiptsNoDocument.png "[Supplier bookings]")
+    > [Info] If there are no receipts to be booked, the message *No documents left to be registered* is displayed.
+
+  [comment]: <> (They do not appear in Acquire if located in New supplier receipts folder, but in the New documents. Check why/if correct/if it is a bug? Try with new sandbox!)
 
 2. Enter the total invoice value in the *Turnover* field.
 
@@ -192,21 +192,23 @@ The *Supplier receipts* window is displayed.
 
 7. Select the appropriate payment target for the receipt in the *Payment target* drop-down list.
 
-8. Click the [ACQUIRE] button.  
-The supplier receipts are acquired and displayed in the *Overview* tab.  
+  ![Acquire supplier receipts](/Assets/Screenshots/RetailSuiteAccounting/Book/SupplierReceiptsAcquire02.png "[Acquire supplier receipts]")
 
-  > [Info] A split booking can also be performed with the [SPLIT] button, if necessary.
+8. A split booking can also be performed with the [SPLIT] button, if necessary.
 
-9. The acquired receipts can be searched for using the *QUICK SEARCH* or the *ACTIVE FILTER* context menus.
+9. Click the [ACQUIRE] button.  
+The supplier receipt is acquired and displayed in the *Overview* tab.  
 
-  > [Info] To be able to enter the supplier receipt in the system, they need to be released in the *Purchasing*  module. For detailed information, see [Einkauf/Lieferantenbelege prüfen].
+  ![Overview](/Assets/Screenshots/RetailSuiteAccounting/Book/SupplierReceiptsOverview.png "[Overview]")
 
+10. The acquired receipts can be searched for using the *QUICK SEARCH* or the *ACTIVE FILTER* context menus.
 
-[comment]: <> (ACQUIRE probably "enter" -ERFASSEN- or "park" -vorerfassen", SAP Terminology)
+  > [Info] To be able to enter the supplier receipt in the system, they need to be released in the *Purchasing* module first. For detailed information, see [Check supplier receipts](#to-be-completed). Once they have been released in the *Purchasing* module, the status changes to **released** (colour yellow-green) in the *Status* column.
 
+11. Click the *Financial accounting takeover* tab and select the receipt to be entered in the system. Double check all booking details. Click the [TAKE OVER SELECTED ONES] button.   
+The receipt is now registered in the *Accounting* module. The booking is displayed in the bookings list. An open item for the corresponding supplier (creditor) is created.
 
-10. Select the receipts to be entered in the system und click the [ACQUIRE] button.   
-The receipts are now registered in the system. An open item for the corresponding supplier (creditor) is created.
+  ![Financial accounting takeover](/Assets/Screenshots/RetailSuiteAccounting/Book/SupplierReceiptsTakeover.png "[Financial accounting takeover]")
 
 ### Next steps
 
@@ -218,8 +220,7 @@ The receipts are now registered in the system. An open item for the correspondin
 
 ### See also
 
-  - [User Interface Accounting](/RetailSuiteAccounting/UserInterface/00_UserInterface.md)
-  - [Manage receipts](10_ManageReceipts.md)
-  - [Dokumente - Neue / Verbuchte Dokumnete](#to_be_completed)
-  - [Manage open items](03_ManageOpenItems.md)
-  - [Zahlungsabwicklung Offene Posten](#to_be_completed)
+  - [Supplier receipts](/RetailSuiteAccounting/UserInterface/XX_SupplierReceipts.md)
+  - [Check supplier receipts](#to_be_completed)
+  - [New supplier receipts](#to_be_completed)
+  - [Payment proposal list](#to_be_completed)
