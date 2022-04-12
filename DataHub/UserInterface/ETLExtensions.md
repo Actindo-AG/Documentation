@@ -69,10 +69,18 @@ This ETL extension has no further configuration settings.
 
 
 
-## Cloudinary-to-String -
+## Cloudinary-to-String
 
-Nintendo spezifisch
+This extension is used to map a Cloudinary attribute to a string attribute. Select at least one and up to four Cloudinary source attributes in the *Image* drop-down lists. If required, you can select a transformation.
 
+[comment]: <> (wofür ist die Liste Transformation? Was mache ich damit?)
+
+### Configuration
+
+- ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Export public ID*   
+  Activate the toggle to export both, the Cloudinary URL but also its public ID. Deactivate the toggle to export only the Cloudinary URL.
+
+  [comment]: <> (wozu ist die public ID gut?)
 
 
 ## Constant value
@@ -86,6 +94,14 @@ This extension is used to map a constant value to a destination attribute of a r
 ### Configuration
 - *Destination attribute name*   
    Enter a value that is always mapped to the destination attribute.
+
+
+## Copy cloudinary image value
+destination attribute: Cloudinary images
+
+### Configuration
+
+This ETL extension has no further configuration settings.
 
 
 ## Copy packaging units
@@ -126,13 +142,21 @@ This extension is used to map a date attribute to another date attribute of a di
 - ![Add](/Assets/Icons/Plus03.png "[Add]") (Add)   
   Click this button to add another modifier. You can add an unlimited number of modifiers.
 
-  [comment]: <> (pro modifier nur ein wert ändern? oder warum brauche ich davon mehrere?)
+  [comment]: <> (pro modifier nur ein wert ändern? oder warum brauche ich davon mehrere? Fehler in UI?)
 
 
 ## EAN zu Artikelnummer ???
 
+### Configuration
+
 
 ## Entity Id to Generic Property Extension -
+
+![Entity ID to generic property extension](/Assets/Screenshots/DataHub/Settings/ETL/Extensions/EntityIDToGenericPropertyExtension.png "[Entity ID to generic property extension]")
+
+This extension is used to map the generic property of an entity attribute to a string attribute. It is often used for the data export.
+
+[comment]: <> (Finde kein Source attribut bei dme die Konfiguration angezeigt wird. Anwendungsfall aufzeigen!)
 
 ### Configuration
 - *Empty drop-down list*
@@ -141,7 +165,9 @@ This extension is used to map a date attribute to another date attribute of a di
   - Kunde
 
 
-- Field Name
+- *Field Name*   
+  Enter the name of the field assigned to the entity attribute whose value should be mapped to the destination attribute.
+
 
 
 ## ETLPIMToUCSBundleExtension
@@ -155,15 +181,13 @@ This ETL extension has no further configuration settings.
 
 ![HTML template](/Assets/Screenshots/DataHub/Settings/ETL/Extensions/HTMLTemplate.png "[HTML template]")
 
-This extension is used to map a HTML template attribute to a random destination attribute. The HTML template to be applied is selected in the configuration. Mainly, this extension is selected for mappings requiring more logical assignments which cannot be mapped with the other extensions. This extension is only available when the *HTML Templates for ETL* plugin is installed.  
+This extension is used to map a HTML template attribute to a random destination attribute. The HTML template to be applied is selected in the configuration. This extension is selected for mappings requiring more logical assignments which cannot be mapped with the other extensions, for instance it is often used for the document export. This extension is only available when the *HTML Templates for ETL* plugin is installed.  
 For detailed information about HTML templates, see [Manage the HTML templates](/PIM/Operation/03_ManageHTMLTemplates.md).
 
 ### Configuration
 
 - *Html-Template*   
   Select the HTML template to be applied to the mapping. The HTML templates can be created in the *HTML TEMPLATES* tab.
-
--> plugin installieren!
 
 
 ## Identity-Mapping
@@ -173,19 +197,43 @@ For detailed information about HTML templates, see [Manage the HTML templates](/
 This ETL extension has no further configuration settings.
 
 
+## Image-To-Download-Link
 
-## Image-To-Download-Link -
+![Image to download link](/Assets/Screenshots/DataHub/Settings/ETL/Extensions/ImageToDownloadLink.png "[Image to download link]")
 
-### Configuration
-- Enter the image number
-- Enter image validity (days)
-- ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") Is the image downloadable only once?
-
-
-## Image-To-ImageTags -
+This extension is used to map the download link of an image attribute to a string attribute, for instance for csv exports. The image number must be indicated in the configuration.
 
 ### Configuration
-- Enter the image number
+
+- *Enter the image number*    
+  Enter the number of the image whose download link should be mapped. The image number must be entered regardless of whether one or more images are assigned to the image attribute.
+
+- *Enter image validity (days)*   
+  Enter the period in days for which the image can be downloaded by the link. If the field is left empty, the link will be valid for an unlimited period of time.  
+
+- ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Is the image downloadable only once?*   
+  Activate the toggle to allow only a single download of the image. After that, the link will be invalid. Deactivate the toggle to allow an unlimited number of downloads.  
+
+
+
+## Image-To-ImageTags
+
+![Image to image tags](/Assets/Screenshots/DataHub/Settings/ETL/Extensions/ImageToImageTags.png "[Image to image tags]")
+
+This extension is used to map the image tags of an image attribute to a string attribute. The image number must be indicated in the configuration.
+
+### Configuration
+
+- *Enter the image number*   
+  Enter the number of the image whose tags should be mapped. The image number must be entered regardless of whether one or more images are assigned to the image attribute.
+
+
+## Import from cloudinary folder
+destination attribute: Cloudinary images
+
+### Configuration
+
+- *Folder*
 
 
 ## Import special price
@@ -194,33 +242,56 @@ This ETL extension has no further configuration settings.
 This ETL extension has no further configuration settings.
 
 
-## Language-To-X -
+## Language-To-X
+
+![Language to x](/Assets/Screenshots/DataHub/Settings/ETL/Extensions/LanguageToX.png "[Language to x]")
+
+This extension is used to map a language attribute to a string attribute. It is mainly used to map the Actindo language attributes.
+
+[comment]: <> (Is that right? only string?)
 
 ### Configuration
-- languageValue:
-  - 3 digit code
-  - 2 digit code
-  - Name (english)
-  - Name (french)
-  - Name (german)
+
+- *languageValue*   
+  Select the appropriate display type for the language attribute. The following types are available:
+  - **3 digit code**: The three-letter language code according to ISO 639-2 is used. For languages with a bibliographic (B) and a terminological (T) code, both codes are indicated, for instance *ger (B), deu (T)*.
+  - **2 digit code**: The two-letter language code according to ISO 639-1 is used, for instance *de*.
+  - **Name (english)**: The english language name is used, for instance *german*.
+  - **Name (french)**: The french language name is used, for instance *allemand*.
+  - **Name (german)**: The german language name is used, for instance *deutsch*.
 
 
-## Mapping Table -
+## Mapping Table
+
+![Mapping table](/Assets/Screenshots/DataHub/Settings/ETL/Extensions/MappingTable.png "[Mapping table]")
+
+This extension is used to map a fixed set of source attribute values to fixed destination attribute values differing from the source values. The destination values are assigned in the configuration. This extension is often used in the order import, for instance with the different shipping providers names in the store and Actindo.
 
 ### Configuration
 
 | Source Value   | Destination Value     |
 |----------------|-----------------------|
-|to be completed |  to be completed      |
+| All available values for the selected source attribute are automatically displayed in this column. | Click the row in this column to enter or select a destination value for the corresponding source value. When a tree node attribute is selected as a destination attribute, all predefined values for this attribute are available in a drop-down list. |
 
-possible to add more source values
+- ![Add](/Assets/Icons/Plus01.png "[Add]") (Add)    
+  Click this button to manually add a source value to the mapping table.
 
 
-## Mysql query -
+## Mysql query
+
+![MySQL query](/Assets/Screenshots/DataHub/Settings/ETL/Extensions/MySQLQuery.png "[MySQL query]")
+
+This extension is used to map a MySQL query to a random destination attribute. The MySQL query to be applied is selected in the configuration. Mainly, this extension is selected for mappings requiring more logical assignments which cannot be mapped with the other extensions. This extension is only available when the *Database and Reporting* module is installed.  
 
 ### Configuration
 
--> sehr neu
+- *Query*   
+  Select the MySQL query to be applied to the mapping. The MySQL query can be created in the *DB and Reporting* module: *DB and Reporting > Managed queries > Tab QUERIES*.
+
+- *Column*   
+  ???
+
+  [comment]: <> (was wird hier gewählt? Bild fehlt! Modul installieren? TEST button -> wofür? No change tracking?)
 
 
 ## Next Promotion Base Price to Float
@@ -240,19 +311,25 @@ possible to add more source values
 
 ## Null Coalescence Extension
 
-nimm wert x0 - wenn nicht gefüllt, nimm wert x1 etc.
+![Null coalescence extension](/Assets/Screenshots/DataHub/Settings/ETL/Extensions/NullCoalescenceExtension.png "[Null coalescence extension]")
+
+This extension is used to specify one or more fallback attributes to be mapped if the first attribute is not available. At least one source attribute must be selected in the *x0* drop-down list and one fallback attribute in the *x1* drop-down list. If the value of the source attribute in the *x0* drop-down list is empty, the value of the source attribute in the *x1* drop-down list is applied and so on. Up to four source attributes can be selected in the drop-down lists. Note that a blank space is also considered as an input.
+
+[comment]: <> (Unterschied zu Arithmetic Extension?)
 
 ### Configuration
 
-- Relevant Language
+- *Relevant Language*   
+  Select the language of the attribute value used for the mapping. This setting only applies when a tree node attribute is mapped to a single language attribute. All active languages are displayed in the drop-down list.
 
+  [comment]: <> (Was ist, wenn ich keine Sprache wähle?)
 
 
 ## Number-To-String
 
 ![Number to String](/Assets/Screenshots/DataHub/Settings/ETL/Extensions/NumberToString.png "[Number to String]")
 
-This extension is used to map a number attribute to a string attribute.
+This extension is used to map a number attribute to a string attribute. The value is mapped unchanged, only the data type of the attribute changes.
 
 ### Configuration
 This ETL extension has no further configuration settings.
@@ -327,27 +404,50 @@ This ETL extension has no further configuration settings.
 This ETL extension has no further configuration settings.
 
 
-## Pricing to float -
+## Pricing to float
+
+![Pricing to float](/Assets/Screenshots/DataHub/Settings/ETL/Extensions/PricingToFloat.png "[Pricing to float]")
+
+This extension is used to map a price field attribute to a string attribute. A discount to the price can be entered in the *Discount in percent* drop-down list. Further price settings are defined in the configuration.
 
 ### Configuration
-- Country: dropdown with all available countries
-- Currency: dropdown with all available currencies
-- ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") Destination gross
+
+- *Country*     
+  Select the appropriate country in the drop-down list to apply the correct tax rate to the price. All available countries are displayed in the list.
+
+- *Currency*   
+  Select the appropriate currency in the drop-down list. Only those currencies that are defined as a supported currency in the price attribute configuration are mapped. in All available currencies are displayed in the list.
+
+  [comment]: <> (Is that right? what currencies are mapped?)
+
+- ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Destination gross*   
+  Activate the toggle to map the gross price of the source attribute. Deactivate the toggle to map the net price.
 
 
 ## Pricing to float with fallback price
 
 ### Configuration
-- Country: dropdown with all available countries
-- Currency: dropdown with all available currencies
-- ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") Destination gross
+
+- *Country*     
+  Select the appropriate country in the drop-down list to apply the correct tax rate to the price. All available countries are displayed in the list.
+
+- *Currency*   
+  Select the appropriate currency in the drop-down list. Only those currencies that are defined as a supported currency in the price attribute configuration are mapped. in All available currencies are displayed in the list.
+
+  [comment]: <> (Is that right? what currencies are mapped?)
+
+- ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Destination gross*   
+  Activate the toggle to map the gross price of the source attribute. Deactivate the toggle to map the net price.
 
 
 ## RMA-Extension ???
 
+### Configuration
+
 
 ## RMAExtension PosId Extensions ???
 
+### Configuration
 
 
 ## Simple-Pricing-To-Float
@@ -375,7 +475,7 @@ This ETL extension has no further configuration settings.
 ![StringTree to StringTree](/Assets/Screenshots/DataHub/Settings/ETL/Extensions/StringTreeToStringTree.png "[StringTree to StringTree]")
 
 This extension is used to either map a string to a tree node attribute or a tree node to string attribute.
-This extension is often used for csv-imports where only data input as string data type is allowed but the data should result in a tree node data type.  
+This extension is often used for csv imports where only data input as string data type is allowed but the data should result in a tree node data type.  
 
 ### Configuration
 
@@ -389,7 +489,7 @@ This extension is often used for csv-imports where only data input as string dat
 
 
 - *Relevant locale (applies for single language attributes)*   
-  Select the language of the attribute whose value will be used for the mapping. This setting only applies to single language attributes.
+  Select the language of the attribute value used for the mapping. This setting only applies to single language attributes. All active languages are displayed in the drop-down list.
 
   [comment]: <> (Anwendungsbeispiel? Verstehe den Einsatz nicht so richtig...)
 
@@ -638,6 +738,11 @@ This extension is used to map a variant attribute to a string attribute, for ins
 - *Excluded Attribute Keys*  
   Enter the attribute keys of those attributes that should not be mapped to the destination attribute.
 
+- *Language for values from a tree node*   
+  Select the language of the source attribute value used for the mapping. This setting only applies to values from a tree node. All active languages are displayed in the drop-down list.
+
+[comment]: <> (when is the language setting displayed?)
+
 
 ## Variant-Value-To-Master-Sku ???
 
@@ -645,14 +750,37 @@ This extension is used to map a variant attribute to a string attribute, for ins
 This ETL extension has no further configuration settings.
 
 
-## Variante auf Variante (Variant to variant) -
+## Variante auf Variante (Variant to variant)
+
+![Variant to variant](/Assets/Screenshots/DataHub/Settings/ETL/Extensions/VariantToVariant.png "[Variant to variant]")
+
+This extension is used to map a variant attribute to a variant attribute. The variant mapping is used to define the handling of product variants in relation to their master product. The settings about the variant handling are defined in the configuration.
 
 ### Configuration
-- ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") Automatically generate all child entities when main entity is created
-- ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") Automatically map variant sets
-- Source variant sets (when toggle *Automatically map variant sets* is inactive): dropdown of all available variant sets.
-- ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") Automatically create variant set if no suiting variant set can be found
-- ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") Automatically add not mapped defining attributes to destination set when creating variant set
+- ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Automatically generate all child entities when main entity is created*   
+  All variants to a master product are automatically created in the destination when the master product is created. This toggle is read-only.
+
+  [comment]: <> (Welchen Sinn ergibt ein Toggle, der nicht umgeschaltet werden kann?)
+
+- ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Automatically map variant sets*   
+  Activate the toggle to automatically map the assigned variant sets of the source variant attribute and the destination variant attribute. It is recommended to Activate the toggle. Otherwise, the variant sets must be mapped manually. By default, the toggle is active.
+
+- ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Automatically create variant set if no suiting variant set can be found*   
+  Activate the toggle to automatically create a variant set if the assigned variant sets of the source variant attribute and the destination variant attribute do not match. It is recommended to Activate the toggle. Otherwise, the variant set must be created manually. By default, the toggle is active. This toggle is only displayed when the *Automatically map variant sets* toggle is active.
+
+- ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Automatically add not mapped defining attributes to destination set when creating variant set*   
+  Activate the toggle to automatically add unmapped defining attributes to the created destination variant set. It is recommended to Activate the toggle. Otherwise, the defining attributes must be added manually to the attribute set. By default, the toggle is active. This toggle is only displayed when the *Automatically map variant sets* toggle is active.
+
+- ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Sync variant set in case they do not match to each other*   
+  Activate the toggle to sync the source variant set and the destination variant set if they do not match. By default, the toggle is inactive. This toggle is only displayed when the *Automatically map variant sets* toggle is inactive.
+
+  [comment]: <> (Verstehe ich nicht, was diese Option macht...)
+
+- ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Status des Hauptartikels nicht auf Kindartikel übertragen*      
+  Activate the toggle to apply the status of the main product to all variants in the destination attribute. Deactivate the toggle to manage the status of all variants independently of their master product. By default, the toggle is inactive.
+
+
+  [comment]: <> (Existiert der letzte Toggle noch?)
 
 
 -------
