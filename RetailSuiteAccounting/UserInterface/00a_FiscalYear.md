@@ -4,38 +4,49 @@
 
 *Accounting > Select fiscal year*
 
-![Search](/Assets/Screenshots/RetailSuiteAccounting/FiscalYear.png "[Search]")
+![Select fiscal year](/Assets/Screenshots/RetailSuiteAccounting/FiscalYear.png "[Select fiscal year]")
 
-When you open the *Accounting* module for the first time after login or after reloading the system, the fiscal year window is displayed. The following fields are displayed:
+When opening the *Accounting* module for the first time after logging in or after reloading the system, the fiscal year window is displayed. Select the appropriate values to display the corresponding period. For detailed information, see [Select fiscal year](/RetailSuiteAccounting/Operation/01_SelectFiscalYear.md).
 
-- Fiscal year: Click the drop-down list to select the fiscal year where the bookings are to be recorded.
+The following fields are displayed:
 
-- Period: The period fields are filled in automatically and correspond to the selected calendar year. The period can be manually adjusted if necessary, for example, if the fiscal year does not match the calendar year. Enter the corresponding period starting and end date.
+- Fiscal Year  
+  Click the drop-down list to select the fiscal year.
 
-- Month: Click the drop-down list to select the month where the bookings are to be recorded. The following months can be selected:
+- Period (DD.MM.YYYY) to (DD.MM.YYYY)  
+  The period fields are filled in automatically and correspond to the selected fiscal year. These fields are read-only.
 
-  - Months 1 to 12 correspond to the fiscal year months.
-  - Month 0 is used to book balances carried forward from the previous fiscal year.
-  - Months 13-15 are used for subsequent bookings.
-  - Months 16-19 are used for closing bookings.
+- Month  
+  Click the drop-down list to select the month. The following months can be selected:
 
-- Journal:
-
-- [LIST] button:
-
-- [X]  
-
-
-Select the fiscal year, month and journal to display the bookings in the corresponding period. For detailed information, see [Select fiscal year](/RetailSuiteAccounting/Operation/01_SelectFiscalYear.md).
+  - 0 - Balances carried forward  
+  - 1 - (Month) to 12 - (Month)   
+  - 13-15 - Subsequent bookings
+  - 16-19 - Closing bookings
 
 
-- description and explanation of all fields and UI elements
-- appropriate screenshots
-- compliant to the style guide
-- reference to the operation procedure
+- Journal  
+  Enter the journal number. There are two main types of journals preconfigured in the system:
 
-Describe the user interface of the financial year window in compliance with the editorial style guide.
+ - General journals (1-12)  
+ They match with the fiscal year months, irrespectively of whether or not the fiscal year coincides with the calendar year. That means, the first fiscal year month corresponds to journal 1, the second to journal 2 and so on.
 
- Explain the content and function of all fields and UI elements.
+ - Special journals (90-99)  
+ They are specialized lists of transactions records preconfigured in the system. Further journals can be created up to 99. To do so, simply enter a new journal number in the *Journal* field.
 
- Include screenshots and, if appropriate, refer to the integration/operating procedures.
+- [LIST] button  
+Click this button to display all available journals and the number of bookings contained in each of them is displayed. Click the appropriate journal in the *Journals* window to select it.
+
+  ![Select journal](/Assets/Screenshots/RetailSuiteAccounting/Book/SelectFiscalYearJournals.png "[Select journal]")
+
+- [X]
+  Include fixed bookings  
+  Select the checkbox to display the available fixed booking batches. Click the appropriate batch to select it. For detailed information, see [Manage fixed bookings](/RetailSuiteAccounting/Integration/06_ManageFixedBookings.md).
+
+    ![Select journal](/Assets/Screenshots/RetailSuiteAccounting/SelectFiscalYear03.png "[Select journal]")
+
+- [OK] button  
+  Click this button to confirm the set values.
+
+- [CANCEL] button  
+  Click this button to cancel the set values.
