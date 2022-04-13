@@ -129,7 +129,7 @@ This window displays all cash payments registered in the cash book, which can be
 
 An individual booking from the cash book can be selected and edited before takeover. Click the booking to be edited. Its details are displayed in the entry line.
 
-[comment]: <> (Add procedure file?)
+[comment]: <> (Unsure! RS FH. Add procedure file? RS HG/FH!)
 
   - *Seq. no.*  
    This field displays the book sequential number and cannot be modified.  
@@ -190,6 +190,32 @@ An individual booking from the cash book can be selected and edited before takeo
   ![Bank details synchronizing](/Assets/Screenshots/RetailSuiteAccounting/Book/BankDetailsSynchronizing.png "[Bank details synchronizing]")
 
 This screen is also contained in the *Payment processing* module.
+
+ - *Bank account*
+ - *Load registered ones* [x]
+ - *FY/month*
+
+ - [RETRIEVE/IMPORT] button
+
+ - [SHOW REGISTERED] button
+ - [SHOW HIDDEN] button
+
+ - [QUICK SEARCH] button
+  - *Turnover*
+  - *Contra account*
+  - *Receipt1*
+  - *Receipt2*
+  - *Account*
+  - *Text*
+  - *Reference*
+  - *Recipient*
+
+
+ - [Search bar]
+ - ![Cross](/Assets/Icons/Cross02.png "[Cross]")
+ - ![Search](/Assets/Icons/Search.png "[Search]")
+
+ - 
 
 ### ![Lock](/Assets/Icons/Lock02.png "[Lock]") Process
 
