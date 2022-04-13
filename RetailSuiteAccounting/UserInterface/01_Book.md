@@ -215,7 +215,7 @@ This screen is also contained in the *Payment processing* module.
  - ![Cross](/Assets/Icons/Cross02.png "[Cross]")
  - ![Search](/Assets/Icons/Search.png "[Search]")
 
- - 
+ -
 
 ### ![Lock](/Assets/Icons/Lock02.png "[Lock]") Process
 
