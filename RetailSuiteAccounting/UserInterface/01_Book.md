@@ -38,68 +38,164 @@ Click this button to display the *EDIT* context menu.
 
   ![EDIT](/Assets/Screenshots/RetailSuiteAccounting/Book/Edit.png "[EDIT]")
 
-  - *Include cash book*  
-  Click this menu option to display the *Include cash book* window, see [Include cash book](#include-cash-book).
+  - *Cash book takeover*  
+  Click this menu option to display the *Cash book takeover* window, see [Cash book takeover](#cash-book-takeover).
 
   [comment]: <> (Look for info)
 
-  - *Include bank details*  
-  Click this menu option to display the *Bank details synchronizing* window, see [Bank details synchronizing](#bank-details-synchronizing).
+  - *Bank details takeover*  
+  Click this menu option to display the *Bank details synchronizing* window, see [Bank details takeover](#bank-details-takeover).
 
   [comment]: <> (Look for info)
 
   - ![Lock](/Assets/Icons/Lock02.png "[Lock]") *Process*  
-  Click this menu option to process one of several bookings in a booking period. The *Process bookings* window is displayed, see [Process bookings](#process).
+  Click this menu option to process one of several bookings in a booking period. The *Process bookings* window is displayed, see [Process](#process).
 
   - ![Do not enter](/Assets/Icons/DoNotEnter.png "[Do not enter]") *Delete*  
-  Click this menu option to delete one or several bookings at a time. For detailed information, see#
+  Click this menu option to delete one or several bookings at a time. The *Delete bookings* window is displayed, see [Delete](#delete).
 
-  - ![Lock](/Assets/Icons/Lock02.png "[Lock]") *Lock months*
+  - ![Lock](/Assets/Icons/Lock02.png "[Lock]") *Lock months*  
+  Click this menu option to lock one or several months for bookings. The *Lock months* window is displayed, see [Lock months](#Lock months).
 
-  - *Balance carried forward*
+  - *Balance carried forward*  
+  Click this menu option to carry forward balances from the previous fiscal year. The *Balance carried forward: step 1* window is displayed, see [Balance carried forward](#balance-carried-forward).
 
-  - *Foreign currency wizard*
+  - *Foreign currency wizard*  
+  Click this menu option to carry forward balances from the previous fiscal year. The *Foreign currency wizard* window is displayed, see [Foreign currency wizard](#foreign-currency-wizard).
 
-  - *Supplier receipts*
+  - *Supplier receipts*  
+  Click this menu option to carry forward balances from the previous fiscal year. The *Supplier receipts* window is displayed, see [Supplier receipts](#supplier-receipts).
 
-### Include cash book  
+### Cash book takeover  
 
-*Accounting > Select fiscal year > Book > Context menu EDIT > Menu entry Include cash book*
+*Accounting > Select fiscal year > Book > Context menu EDIT > Menu entry Cash book takeover*
 
-  ![Book](/Assets/Screenshots/RetailSuiteAccounting/Book/IncludeCashBook.png "[Book]")
+  ![Cash book takeover](/Assets/Screenshots/RetailSuiteAccounting/Book/CashBookTakeover.png "[Cash book takeover]")
 
-  - Seq. no.  
-  The booking numbers must be sequential. This field is filled in automatically by the system if it is left empty.
+This window displays all cash payments registered in the cash book, which can be taken over automatically in the *Accounting* module. For detailed information, see [Cash book](#to-be-completed). All information provided in columns is read-only, except for the *T* column.
 
-  - Turnover  
-  Enter a valid turnover value. Turnover value can have a positive or a negative sign.
+  - *Seq. no.*  
+    Sequential number as registered in the cash book
 
-  - Contra account  
-  Enter a valid contra account, see [Chart of accounts](/RetailSuiteAccounting/Integration/01_RunAccountingWizard.md#chart-of-accounts).
+  - [X]
+   *T (Take over booking)*  
+   Select this checkbox to take over an individual booking.
+
+  - *BP*  
+    Booking period as registered in the cash book
+
+  - *Jnl*  
+    Journal as registered in the cash book
+
+  - *Turnover*  
+    Turnover value as registered in the cash book. Revenues display a positive sign. Expenditures display a negative sign.
+
+  - *Contra Account*  
+    Contra Account as registered in the cash booking
+
+  [comment]: <> (No account in cash book! What does the number stand for? As "Unbekannt!")   
+
+  - *Receipt1*  
+    Receipt 1 as registered in the cash book
+
+  - *Receipt2*  
+    Receipt 2 as registered in the cash book
+
+  - *Date*  
+    Date as registered in the cash book
+
+  - *Account*  
+    Account as registered in the cash book
+
+  - *Cst1*  
+    Cost 1 as registered in the cash book
+
+  - *Cst2*  
+    Cost 2 as registered in the cash book
+
+  - *Text*  
+    Free text as registered in the cash book
+
+
+  - [SELECT ALL] button   
+    Click this button to select all bookings.
+
+  - [SELECT NOTHING] button  
+    Click this button to deselect all bookings.
+
+  - *Amount*  
+    Total amount of all bookings in the cash book
+
+
+An individual booking from the cash book can be selected and edited before takeover. Click the booking to be edited. Its details are displayed in the entry line.
+
+[comment]: <> (Add procedure file?)
+
+  - *Seq. no.*  
+   This field displays the book sequential number and cannot be modified.  
+
+  - *Turnover*  
+  This field displays the turnover and cannot be modified.
+
+  - *Contra account*  
+  Enter the appropriate contra account, see [Chart of accounts](/RetailSuiteAccounting/Integration/01_RunAccountingWizard.md#chart-of-accounts). This field is compulsory.
 
   > [Info] When you start typing in an account number, a context menu is displayed. You can also select the appropriate option from the menu.
 
-  - Receipt1
-  - Receipt2
-  - Date
-  - Account
-  - Cost1
-  - Cost2
-  - Text
+  - *Receipt1*  
+  Enter the appropriate value. The existing value can also be modified.
 
-### Include bank details  
+  - *Receipt2*  
+  Enter the appropriate value. The existing value can also be modified.
 
-*Accounting > Select fiscal year > Book > Context menu EDIT > Menu entry Include bank details*
+  - *Date*  
+  This field displays the date and cannot be modified.
 
-  ![Book](/Assets/Screenshots/RetailSuiteAccounting/Book/BankDetailsSynchronizing.png "[Book]")
+  - *Account*  
+  This field displays the account and cannot be modified.
+
+  - *Cost1*  
+  Enter the appropriate value. The existing value can also be modified.
+
+  - *Cost2*  
+  Enter the appropriate value. The existing value can also be modified.
+
+  - *Text*  
+  Enter the appropriate free text. The existing value can also be modified.
+
+  - [BOOK] button  
+  Click this button to book the edited booking.
+
+  - [DELETE] button  
+  Click this button to delete the selected booking.
+
+  [comment]: <> (FEHLER: löschen hier nicht mehr möglich! -> even though takeover not yet performed? Probably because it is linked to cash book/Kassenbuch? What is the use of this button here? RS FH)
+
+  - [CLEAR] button  
+  Click this button to clear all entry line fields.
+
+  - [SPLIT] button  
+  Click this button to split the selected booking.
+
+  [comment]: <> (Fehlermeldungen: beim klicking auf SPLIT -> Unbekannte Bankbuchung. Wenn man versucht, eine Splitbuchung zu machen -> Meldung: Gebucht und in rot "Umsatz, GegKonto, Datum oder Konto leer! Ungültiges Datum!" Alle Felder waren aber richtig ausgefüllt, jetzt erscheining sie aber alle auf 0, außer GegKonto und Text)
+
+  - [SAVE] button  
+  Click this button to take over the selected bookings.
 
 
+### Bank details takeover  
+
+*Accounting > Select fiscal year > Book > Context menu EDIT > Menu entry Bank details takeover*
+
+  ![Bank details synchronizing](/Assets/Screenshots/RetailSuiteAccounting/Book/BankDetailsSynchronizing.png "[Bank details synchronizing]")
+
+This screen is also contained in the *Payment processing* module.
 
 ### ![Lock](/Assets/Icons/Lock02.png "[Lock]") Process
 
 *Accounting > Select fiscal year > Book > Context menu EDIT > Menu entry Process*
 
-  ![Book](/Assets/Screenshots/RetailSuiteAccounting/Book/Bookings/ProcessBookings01.png "[Book]")
+  ![Process bookings](/Assets/Screenshots/RetailSuiteAccounting/Book/Bookings/ProcessBookings01.png "[Process bookings]")
 
 For detailed information about processing bookings, see [Process Bookings](/RetailSuiteAccounting/Operation/07_ProcessBookings.md).
 
@@ -107,35 +203,41 @@ For detailed information about processing bookings, see [Process Bookings](/Reta
 
 *Accounting > Select fiscal year > Book > Context menu EDIT > Menu entry Delete*
 
-  ![Book](/Assets/Screenshots/RetailSuiteAccounting/Book/DeleteBookings.png "[Book]")
+  ![Delete bookings](/Assets/Screenshots/RetailSuiteAccounting/Book/DeleteBookings.png "[Delete bookings]")
 
 ### ![Lock](/Assets/Icons/Lock02.png "[Lock]") Lock months
 
 *Accounting > Select fiscal year > Book > Context menu EDIT > Menu entry Lock months*
 
-  ![Book](/Assets/Screenshots/RetailSuiteAccounting/Book/LockMonths.png "[Book]")
+  ![Lock months](/Assets/Screenshots/RetailSuiteAccounting/Book/LockMonths.png "[Lock months]")
 
 ### Balance carried forward
 
 *Accounting > Select fiscal year > Book > Context menu EDIT > Menu entry Balance carried forward*
 
-  ![Book](/Assets/Screenshots/RetailSuiteAccounting/Book/BalanceCarriedForward01.png "[Book]")
+  ![Balance carried forward: step 1](/Assets/Screenshots/RetailSuiteAccounting/Book/BalanceCarriedForward01.png "[Balance carried forward: step 1]")
+
+  ![Retrieve account balances](/Assets/Screenshots/RetailSuiteAccounting/Book/RetrieveAccountBalances.png "[Retrieve account balances]")
 
 ### Foreign currency wizard
 
 *Accounting > Select fiscal year > Book > Context menu EDIT > Menu entry Foreign currency wizard*
 
-  ![Book](/Assets/Screenshots/RetailSuiteAccounting/Book/ForeignCurrencyWizardWindow01.png "[Book]")
+  ![Foreign currency wizard 1](/Assets/Screenshots/RetailSuiteAccounting/Book/ForeignCurrencyWizardWindow01.png "[Foreign currency wizard 1]")
 
-  ![Book](/Assets/Screenshots/RetailSuiteAccounting/Book/ForeignCurrencyWizardWindow02.png "[Book]")
+  ![Foreign currency wizard 2](/Assets/Screenshots/RetailSuiteAccounting/Book/ForeignCurrencyWizardWindow02.png "[Foreign currency wizard 2]")
 
-  ![Book](/Assets/Screenshots/RetailSuiteAccounting/Book/ForeignCurrencyWizardWindow03.png "[Book]")
+  ![Foreign currency wizard 3](/Assets/Screenshots/RetailSuiteAccounting/Book/ForeignCurrencyWizardWindow03.png "[Foreign currency wizard 3]")
 
 ### Supplier receipts
 
 *Accounting > Select fiscal year > Book > Context menu EDIT > Menu entry Supplier receipts*
 
+  ![Acquire supplier receipts](/Assets/Screenshots/RetailSuiteAccounting/Book/SupplierReceiptsAcquire.png "[Acquire supplier receipts]")
 
+  ![Overview](/Assets/Screenshots/RetailSuiteAccounting/Book/SupplierReceiptsOverview.png "[Overview]")
+
+  ![Financial accounting takeover](/Assets/Screenshots/RetailSuiteAccounting/Book/SupplierReceiptsTakeover.png "[Financial accounting takeover]")
 
 
 ## ASSESSMENTS
@@ -144,61 +246,89 @@ For detailed information about processing bookings, see [Process Bookings](/Reta
 
 Click this button to display the *ASSESSMENTS* context menu.
 
-![Book](/Assets/Screenshots/RetailSuiteAccounting/Book/Assessments.png "[Book]")
+![Assessments](/Assets/Screenshots/RetailSuiteAccounting/Book/Assessments.png "[Assessments]")
+
+  - *Account balance*  
+  Click this menu option to display the *Account balance* window, see [Account balance](#account-balance).
+
+  - *Account sheet*  
+  Click this menu option to display the *Account sheet* window, see [Account sheet](#account-sheet).
+
+  - *Journal*  
+  Click this menu option to display the *Journal* window, see [Journal](#journal).
+
+  - *Balance list*  
+  Click this menu option to display the *Balance list* window, see [Balance list](#balance-list).
+
+  - *Open items*  
+  Click this menu option to display the *Open items* window, see [Open items](#open-items).
+
+  - *BWA*  
+  Click this menu option to display the *BWA* window, see [BWA](#bwa).
+
+  - *ProfitCenter*  
+  Click this menu option to display the *ProfitCenter* window, see [ProfitCenter](#profitcenter).
+
+  - *Cost unit comparison*  
+  Click this menu option to display the *Cost unit comparison* window, see [Cost unit comparison](#cost-unit-comparison).
+
+  - *Other*  
+  Click this menu option to display the *Chart of accounts* und *Deb./Cred.* sub-menu, see [Other](#other).
+
 
 ### Account balance
 
 *Accounting > Select fiscal year > Book > Context menu ASSESSMENTS > Menu entry Account balance*
 
-  ![Book](/Assets/Screenshots/RetailSuiteAccounting/Book/AccountBalance.png "[Book]")
+  ![Account balance](/Assets/Screenshots/RetailSuiteAccounting/Book/AccountBalance.png "[Account balance]")
 
 
 ### Account sheet
 
 *Accounting > Select fiscal year > Book > Context menu ASSESSMENTS > Menu entry Account sheet*
 
-  ![Book](/Assets/Screenshots/RetailSuiteAccounting/Book/AccountSheet.png "[Book]")
+  ![Account sheet](/Assets/Screenshots/RetailSuiteAccounting/Book/AccountSheet.png "[Account sheet]")
 
 
 ### Journal
 
 *Accounting > Select fiscal year > Book > Context menu ASSESSMENTS > Menu entry Journal*
 
-  ![Book](/Assets/Screenshots/RetailSuiteAccounting/Book/Journal.png "[Book]")
+  ![Journal](/Assets/Screenshots/RetailSuiteAccounting/Book/Journal.png "[Journal]")
 
 
 ### Balance list
 
 *Accounting > Select fiscal year > Book > Context menu ASSESSMENTS > Menu entry Balance list*
 
-  ![Book](/Assets/Screenshots/RetailSuiteAccounting/Book/BalanceList.png "[Book]")
+  ![Balance list](/Assets/Screenshots/RetailSuiteAccounting/Book/BalanceList.png "[Balance list]")
 
 ### Open items
 
 *Accounting > Select fiscal year > Book > Context menu ASSESSMENTS > Menu entry Open items*
 
-  ![Book](/Assets/Screenshots/RetailSuiteAccounting/Book/OpenItems.png "[Book]")
+  ![Open items](/Assets/Screenshots/RetailSuiteAccounting/Book/OpenItems.png "[Open items]")
 
 
 ### BWA
 
 *Accounting > Select fiscal year > Book > Context menu ASSESSMENTS > Menu entry BWA*
 
-  ![Book](/Assets/Screenshots/RetailSuiteAccounting/Book/BWA.png "[Book]")
+  ![BWA](/Assets/Screenshots/RetailSuiteAccounting/Book/BWA.png "[BWA]")
 
 
 ### ProfitCenter
 
 *Accounting > Select fiscal year > Book > Context menu ASSESSMENTS > Menu entry ProfitCenter*
 
-  ![Book](/Assets/Screenshots/RetailSuiteAccounting/Book/ProfitCenter.png "[Book]")
+  ![ProfitCenter](/Assets/Screenshots/RetailSuiteAccounting/Book/ProfitCenter.png "[ProfitCenter]")
 
 
 ### Cost unit comparison
 
 *Accounting > Select fiscal year > Book > Context menu ASSESSMENTS > Menu entry Cost unit comparison*
 
-  ![Book](/Assets/Screenshots/RetailSuiteAccounting/Book/CostUnitComparison.png "[Book]")
+  ![Cost unit comparison](/Assets/Screenshots/RetailSuiteAccounting/Book/CostUnitComparison.png "[Cost unit comparison]")
 
 ### Other
 *Accounting > Select fiscal year > Book > Context menu ASSESSMENTS > Menu entry Other*
@@ -207,10 +337,10 @@ Click this button to display the *ASSESSMENTS* context menu.
 
 *Accounting > Select fiscal year > Book > Context menu ASSESSMENTS > Menu entry Account sheet > Sub-menu entry Chart of accounts*
 
-  ![Book](/Assets/Screenshots/RetailSuiteAccounting/Book/ChartOfAccounts.png "[Book]")
+  ![Chart of accounts](/Assets/Screenshots/RetailSuiteAccounting/Book/ChartOfAccounts.png "[Chart of accounts]")
 
 #### Deb./cred.
 
 *Accounting > Select fiscal year > Book > Context menu ASSESSMENTS > Menu entry Account sheet > Sub-menu entry Deb./cred.*
 
-  ![Book](/Assets/Screenshots/RetailSuiteAccounting/Book/DebtorsCreditors.png "[Book]")
+  ![Debtors/Creditors](/Assets/Screenshots/RetailSuiteAccounting/Book/DebtorsCreditors.png "[Debtors/Creditors]")
