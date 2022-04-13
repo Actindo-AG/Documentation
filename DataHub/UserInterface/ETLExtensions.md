@@ -62,7 +62,11 @@ This extension is used to map a boolean attribute (checkbox or toggle) to a stri
   Enter the content that is mapped to the string attribute when the boolean value equals false, which means that the checkbox is not selected or the toggle is inactive.
 
 
-## Catalog Tree to Tree value mapping -
+## Catalog Tree to Tree value mapping
+
+![Catalog tree to tree value mapping](/Assets/Screenshots/DataHub/Settings/ETL/Extensions/CatalogTreeToTreeValueMapping.png "[Catalog tree to tree value mapping]")
+
+This extension is used to map a catalog attribute to a tree node attribute. It is mainly used to map the Actindo specific categories.
 
 ### Configuration
 This ETL extension has no further configuration settings.
@@ -172,6 +176,10 @@ This extension is used to map the generic property of an entity attribute to a s
 
 ## ETLPIMToUCSBundleExtension
 
+![ETL PIM to UCS bundle extension](/Assets/Screenshots/DataHub/Settings/ETL/Extensions/ETLPIMToUCSBundleExtension.png "[ETL PIM to UCS bundle extension]")
+
+This extension is used to map a PIM product bundle attribute to a UCS bundle attribute. This extension is Actindo specific and is only used in the mapping from the PIM to the RetailSuite. It is mainly used to manage the stock of sets.
+
 ### Configuration
 This ETL extension has no further configuration settings.
 
@@ -188,6 +196,7 @@ For detailed information about HTML templates, see [Manage the HTML templates](/
 
 - *Html-Template*   
   Select the HTML template to be applied to the mapping. The HTML templates can be created in the *HTML TEMPLATES* tab.
+
 
 
 ## Identity-Mapping
@@ -236,7 +245,22 @@ destination attribute: Cloudinary images
 - *Folder*
 
 
+
 ## Import special price
+
+![Import special price](/Assets/Screenshots/DataHub/Settings/ETL/Extensions/ImportSpecialPrice.png "[Import special price]")
+
+This extension is used to map a promotion price to a price attribute. The promotion price to be mapped is composed of different source attributes. By the source attributes, define:  
+  - whether the discount is a percent discount or an absolute discount
+  - the amount of the discount
+  - the currency
+  - the start quantity from which the promotion price is applied
+  - the start date of the promotion price
+  - the end date of the promotion price
+
+Beside the dates, all attributes are required for the mapping.
+
+[comment]: <> (Is that right?)
 
 ### Configuration
 This ETL extension has no further configuration settings.
@@ -304,9 +328,20 @@ This extension is used to map a MySQL query to a random destination attribute. T
 
 ## Next special base price to date time
 
+![Next special base price to date time](/Assets/Screenshots/DataHub/Settings/ETL/Extensions/NextSpecialBasePriceToDateTime.png "[Next special base price to date time]")
+
+This extension is used to map the promotion date of a PIM price field attribute to a date attribute. The PIM price field is Actindo specific and contains not only the simple price, but also the base price, scale prices, promotion prices, the tax class including the tax rate and supported currencies. Each of this data is extracted from the price attribute by the corresponding extension, for instance the date of the next promotion is mapped by the *Next special base price to date time* extension. Further settings are defined in the configuration.
+
 ### Configuration
-- ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") Get from date
-- Currency: dropdown witth all available currencies
+- ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Get from date*   
+  Activate the toggle to map the start date of the promotion. Otherwise the end date of the promotion is mapped to the destination attribute.
+
+[comment]: <> (Ist das hier genau andersherum wie im deutschen? Da aktiviert man den Toggle, um das bis-datum zu bekommen - oder ist das nen Übersetzungsfehler?)
+
+- *Currency*   
+  Select the appropriate currency in the drop-down list. Only those currencies that are defined as a supported currency in the PIM price field attribute configuration are mapped. in All available currencies are displayed in the list.
+
+  [comment]: <> (Is that right? what currencies are mapped?)
 
 
 ## Null Coalescence Extension
@@ -360,7 +395,14 @@ This ETL extension has no further configuration settings.
 This ETL extension has no further configuration settings.
 
 
-## PIM BasePrice to Unit -
+## PIM BasePrice to Unit
+
+![PIM base price to unit](/Assets/Screenshots/DataHub/Settings/ETL/Extensions/PIMBasePriceToUnit.png "[PIM base price to unit]")
+
+This extension is used to map a base price attribute to a tree node attribute. The base price is Actindo specific and contains the dimension, the unit and the relevant amount for the base price. Each of this data is extracted from the base price attribute by the corresponding extension, for instance the unit is mapped by the *PIM BasePrice to Unit* extension.
+
+[comment]: <> (Is that right- tree node attribute?)
+
 
 ### Configuration
 This ETL extension has no further configuration settings.
@@ -381,6 +423,19 @@ This ETL extension has no further configuration settings.
 
 ## PriceBuilder
 
+![Price builder](/Assets/Screenshots/DataHub/Settings/ETL/Extensions/PriceBuilder.png "[Price builder]")
+
+This extension is used to map an individual price to a price attribute. The price to be mapped is composed of different source attributes. By the source attributes, define:  
+  - the tax class
+  - the base price
+  - the currency
+  - whether the price is gross or net
+  - the MSRP
+
+Beside the MSRP, all attributes are required for the mapping.
+
+[comment]: <> (Is that right?)
+
 ### Configuration
 This ETL extension has no further configuration settings.
 
@@ -393,22 +448,41 @@ This ETL extension has no further configuration settings.
 
 ## Price to Tax
 
+![Price to tax](/Assets/Screenshots/DataHub/Settings/ETL/Extensions/PriceToTax.png "[Price to tax]")
+
+This extension is used to map a PIM price field attribute to a number attribute. The PIM price field is Actindo specific and contains not only the simple price, but also the base price, scale prices, promotion prices, the tax class including the tax rate and supported currencies. Each of this data is extracted from the price attribute by the corresponding extension, for instance the tax rate is mapped by the *Price to Tax* extension. The tax rate settings are defined in the configuration.
+
+[comment]: <> (Is that right- number attribute?)
+
 ### Configuration
-- Country: dropdown with all available countries
-- ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") In percent
+- *Country*   
+  Select the appropriate country in the drop-down list to apply the corresponding tax rate. All available countries are displayed in the list.
+
+- ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *In percent*   
+  Activate the toggle to indicate the tax rate as a percentage. Otherwise, the tax rate is indicated as a decimal number.
+
+[comment]: <> (Is that right?)
 
 
-## Price to Tax Class -
+## Price to Tax Class
+
+![Price to tax class](/Assets/Screenshots/DataHub/Settings/ETL/Extensions/PriceToTaxClass.png "[Price to tax class]")
+
+This extension is used to map a PIM price field attribute to a tax class attribute. The PIM price field is Actindo specific and contains not only the simple price, but also the base price, scale prices, promotion prices, the tax class including the tax rate and supported currencies. Each of this data is extracted from the price attribute by the corresponding extension, for instance the tax class is mapped by the *Price to Tax Class* extension.
+
+[comment]: <> (Is that right- tax class attribute?)
 
 ### Configuration
 This ETL extension has no further configuration settings.
+
+[comment]: <> (In the video, Cris has the configurations *Standardsatz* and *Ermäßigt*. What is right?)
 
 
 ## Pricing to float
 
 ![Pricing to float](/Assets/Screenshots/DataHub/Settings/ETL/Extensions/PricingToFloat.png "[Pricing to float]")
 
-This extension is used to map a price field attribute to a string attribute. A discount to the price can be entered in the *Discount in percent* drop-down list. Further price settings are defined in the configuration.
+This extension is used to map a PIM price field attribute to a string attribute. The PIM price field is Actindo specific and contains not only the simple price, but also the base price, scale prices, promotion prices, the tax class including the tax rate and supported currencies. Each of this data is extracted from the price attribute by the corresponding extension, for instance the price itself is mapped by the *Pricing to float* extension. A discount to the price can be entered in the *Discount in percent* drop-down list. Further price settings are defined in the configuration.
 
 ### Configuration
 
@@ -416,7 +490,7 @@ This extension is used to map a price field attribute to a string attribute. A d
   Select the appropriate country in the drop-down list to apply the correct tax rate to the price. All available countries are displayed in the list.
 
 - *Currency*   
-  Select the appropriate currency in the drop-down list. Only those currencies that are defined as a supported currency in the price attribute configuration are mapped. in All available currencies are displayed in the list.
+  Select the appropriate currency in the drop-down list. Only those currencies that are defined as a supported currency in the PIM price field attribute configuration are mapped. in All available currencies are displayed in the list.
 
   [comment]: <> (Is that right? what currencies are mapped?)
 
@@ -432,7 +506,7 @@ This extension is used to map a price field attribute to a string attribute. A d
   Select the appropriate country in the drop-down list to apply the correct tax rate to the price. All available countries are displayed in the list.
 
 - *Currency*   
-  Select the appropriate currency in the drop-down list. Only those currencies that are defined as a supported currency in the price attribute configuration are mapped. in All available currencies are displayed in the list.
+  Select the appropriate currency in the drop-down list. Only those currencies that are defined as a supported currency in the PIM price field attribute configuration are mapped. in All available currencies are displayed in the list.
 
   [comment]: <> (Is that right? what currencies are mapped?)
 
@@ -460,8 +534,21 @@ This extension is used to map a price field attribute to a string attribute. A d
 
 ## Special price with default fallback
 
+![Special price with default fallback](/Assets/Screenshots/DataHub/Settings/ETL/Extensions/SpecialPriceWithDefaultFallback.png "[Special price with default fallback]")
+
+This extension is used to map a PIM price field attribute with a fallback PIM price field attribute to a price attribute. One of the price field attributes is used for a promotion prices. This attribute is always considered first when mapping. The other price field attribute is used as a fallback price that will be mapped when no promotion price is available. The fallback price attribute is mandatory. This mapping is used when promotion prices and regular prices are maintained in different price field attributes. Further price settings are defined in the configuration.
+
 ### Configuration
-This ETL extension has no further configuration settings.
+
+- *Country*     
+  Select the appropriate country in the drop-down list to apply the correct tax rate to the price. All available countries are displayed in the list.
+
+- *Mapping mode*   
+  Select the appropriate mapping mode for the source price attributes. The following modes are available:   
+    - **Consider all prices**: All prices in the PIM price field attribute are mapped to the destination attribute.
+    - **Consider only promotions**: Only the promotion prices in the PIM price field attribute are mapped to the destination attribute.
+    - **Ignore promotions**: All prices beside the promotion prices in the PIM price field attribute are mapped to the destination attribute.
+
 
 
 ## Stock-To-Integer
@@ -664,64 +751,102 @@ This ETL extension has no further configuration settings.
 This ETL extension has no further configuration settings.
 
 
-## Tree-to-Tree -
+## Tree-to-Tree
+
+![Tree to tree](/Assets/Screenshots/DataHub/Settings/ETL/Extensions/TreeToTree.png "[Tree to tree]")
+
+This extension is used to map a tree node attribute to another tree node attribute. Further settings to the tree node are defined in the configuration.
 
 ### Configuration
-- ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") Create node if not existing
-- Match destination node by:
-  - Key
-  - Title
+- ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Create node if not existing*   
+  Activate the toggle to automatically create a tree node in the destination attribute if no tree node exists. Otherwise, you have to manually create a tree node.
+
+  [comment]: <> (is that right? or does the mapping fail then?)
+
+- *Match destination node by*   
+  Select the field of the tree node attribute whose value will be used for the mapping.
+  - **Key**: The key value of the tree node attribute is used for the mapping.
+  - **Title**: The title value of the tree node attribute is used for the mapping.
 
 
+- *Relevant Language*   
+  Select the language of the attribute value used for the mapping. All active languages are displayed in the drop-down list. The drop-down list is only displayed, when the **Title** option is selected in the *Match destination node by* drop-down list.
 
-## Tree value mapping -
+
+## Tree value mapping
+
+![Tree value mapping](/Assets/Screenshots/DataHub/Settings/ETL/Extensions/TreeValueMapping.png "[Tree value mapping]")
+
+This extension is used to map a string attribute to a tree node attribute where the corresponding value of the string attribute must be accessed to map it to correctly the tree node attribute. For instance, this extension is often used to map the Actindo payment method from an order. All payment methods and their IDs are defined in the *Invoicing* module. These values must be accessed to map both, the payment methods and their IDs to the destination tree node attribute.
 
 ### Configuration
 This ETL extension has no further configuration settings.
 
 
-## UnitValue-To-Number -
+## UnitValue-To-Number
 
+![Unit value to number](/Assets/Screenshots/DataHub/Settings/ETL/Extensions/UnitValueToNumber.png "[Unit value to number]")
+
+This extension is used to map an unit attribute to a number attribute. A unit attribute always includes a unit and a quantity. Only the quantity value is mapped to the destination attribute. To map the quantity value in the correct unit, the quantity is calculated into the unit of the destination attribute. Define the unit in the configuration.
+
+[comment]: <> (Is that right? If not - how can a unit be mapped to a number attribute?)
 
 ### Configuration
-- Unit to convert to: drop-down with the unit values of the selected source attribute
+- *Unit to convert to*   
+  Select the appropriate unit of the destination attribute to calculate the quantity into the correct unit. All units corresponding to the dimension of the source attribute are displayed in the drop-down list.
 
 
 ## UnitValue-To-Text
 
-![UnitValue to text](/Assets/Screenshots/DataHub/Settings/ETL/Extensions/UnitValueToText.png "[UnitValue to text]")
+![Unit value to text](/Assets/Screenshots/DataHub/Settings/ETL/Extensions/UnitValueToText.png "[Unit value to text]")
 
-This extension is used to map an unit attribute to a string attribute. A unit attribute always includes a dimension and a unit, for instance, the dimension *Length* and the unit *m*.
+This extension is used to map an unit attribute to a string attribute. A unit attribute always includes a unit and a quantity. The settings how to display both values in the string attribute are defined in the configuration.
 
 ### Configuration
-- *Mode*    
+- *Mode*     
+  Select the unit mapping mode. The following options are available:
+  - **Keep Unit**: The source unit is mapped to the destination attribute.
+  - **Configured Unit**: The unit to be mapped to the destination attribute must be selected in the *Configured unit* drop-down list.
+  - **Destination Unit**: The destination unit is kept in the destination attribute.
 
-  - **Keep Unit**
-  - **Configured Unit**
-  - **Destination Unit**
+  [comment]: <> (Destination Unit -> error; Configured Unit -> not working and no drop-down list displayed; ergibt auch irgendwie beides keinen sinn, oder?)
+
+- *Suffix Mode*   
+  Select the suffix display mode for the unit. The following options are available:
+  - **Suffix Symbol**: The unit is displayed by its symbol or abbreviation, for instance *cm*.
+  - **Suffix Name**: The unit is displayed by its name, for instance *centimeter*.
+  - **Suffix Empty**: The unit is hidden.
 
 
-- *Suffix Mode*
+- *Separator*   
+  Enter the separator sign placed between quantity and unit. If the field is left empty, the unit and quantity are written directly one after the other.
 
-  - **Suffix Symbol**
-  - **Suffix Name**
-  - **Suffix Empty**
+- *Decimal Separator*   
+  Enter the decimal separator for the quantity value. If the number of decimal places is greater than 0, you should enter a separator sign to avoid that the value is displayed incorrectly. By default, the point is used as a decimal separator in English, the comma in German.
 
+- *Decimal Places*   
+  Enter the number of decimal places for the quantity value. This field is mandatory. Depending on the decimal places, the quantity is rounded.
 
-- *Separator* zwischen Zahl und Einheit
-- *Decimal Separator*
-- *Decimal Places*
+  [comment]: <> (Verwirrend: warum wird bei der unitvalue-to-number erweiterung nur der mengenwert, bei der unitvalue-to-string erweiterung aber menge inklusive einheit übertragen?)
 
 
 ## UnitValue-To-UnitValue
 
-### Configuration
-- Choose the unit mapping mode:
-  - Keep Unit  
-  - Configured Unit
-  - Destination Unit
+![Unit value to unit value](/Assets/Screenshots/DataHub/Settings/ETL/Extensions/UnitValueToUnitValue.png "[Unit value to unit value]")
 
-- Configured unit (if option **Configured Unit** is selected): dropdown with all available units
+This extension is used to map an unit attribute to a another unit attribute. A unit attribute always includes a unit and a quantity. Define in the configuration which of the units should be mapped in the destination attribute.
+
+### Configuration
+
+- *Choose the unit mapping mode*     
+  Select the appropriate unit mapping mode. The following options are available:
+  - **Keep Unit**: The source unit is mapped to the destination attribute.
+  - **Configured Unit**: The unit to be mapped to the destination attribute must be selected in the *Configured unit* drop-down list.
+  - **Destination Unit**: The destination unit is kept in the destination attribute.
+
+
+- *Configured unit*    
+  Select the unit that will be mapped in the destination unit. All units corresponding to the dimension of the destination attribute are displayed in the drop-down list. The drop-down list is only displayed when the  **Configured Unit** option is selected in the *Choose the unit mapping mode* drop-down list.
 
 
 ## Variant-To-String
@@ -776,11 +901,9 @@ This extension is used to map a variant attribute to a variant attribute. The va
 
   [comment]: <> (Verstehe ich nicht, was diese Option macht...)
 
-- ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Status des Hauptartikels nicht auf Kindartikel übertragen*      
-  Activate the toggle to apply the status of the main product to all variants in the destination attribute. Deactivate the toggle to manage the status of all variants independently of their master product. By default, the toggle is inactive.
+- ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Do not apply master product status to children*      
+  Activate the toggle to manage the status of all variants independently of their master product. Otherwise, the status of the main product is automatically applied to all variants in the destination attribute. By default, the toggle is inactive.
 
-
-  [comment]: <> (Existiert der letzte Toggle noch?)
 
 
 -------
