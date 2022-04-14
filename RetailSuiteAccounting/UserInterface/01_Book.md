@@ -191,7 +191,7 @@ An individual booking from the cash book can be selected and edited before takeo
 
   ![Bank data synchronizing](/Assets/Screenshots/RetailSuiteAccounting/Book/BankDataSynchronizing.png "[Bank data synchronizing]")
 
-This screen is also available in the *Payment processing* module. Both modules are closed linked with each other.
+This screen is also available in the *Payment processing* module. Both modules are closely linked with each other.
 
 [comment]: <> (Link when available?)
 
