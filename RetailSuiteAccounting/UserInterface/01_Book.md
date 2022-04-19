@@ -198,10 +198,10 @@ This screen is also available in the *Payment processing* module. Both modules a
  - *Bank account*  
  Click the drop-down list to select the bank account which data must be imported.
 
- - *Load registered ones* [x]  
+ - *Load registered* [x]  
  Click this checkbox to activate the [SHOW REGISTERED] button.
 
-  > [Info] This function is per default deactivated to reduce system overload and improve performance. This default setting can be changed in *Settings* menu entry of the *Payment processing* module.
+  > [Info] This function is per default deactivated to reduce system overload and improve performance. This default setting can be changed in the *Settings* menu entry of the *Payment processing* module.
 
   [comment]: <> (Add link when available?)
 
@@ -218,7 +218,7 @@ This screen is also available in the *Payment processing* module. Both modules a
  Click this button to display all hidden payments.
 
  - [QUICK SEARCH]  
- Click this menu to display the context menu. Payments can be searched for using the following search criteria:
+ Click this button to display the *QUICK SEARCH* context menu. Payments can be searched for using the following search criteria:
 
   - *Turnover*
   - *Contra account*
@@ -242,14 +242,14 @@ This screen is also available in the *Payment processing* module. Both modules a
 
 The imported bank data are displayed in the following columns:
 
- - *Seq. no*  
+ - *Seq. no.*  
  This column displays the sequential number.
 
  - *T* (Take over)  
  Click the checkbox in this column to select the payment.
 
  - *B* (xxx)  
- This column displays the open item status.
+ This column displays the payment status.
   - Green  
   An incoming payment has been matched with an existing open item.
   - Yellow  
@@ -259,7 +259,7 @@ The imported bank data are displayed in the following columns:
 
    > [Info] If a payment is processed manually, an *M* will be displayed in this column.
 
-[comment]: <> (B für Beleg, Bearbeiten, Buchhaltung???Change column name accordingly here and in IU Terminology file! Add screenshot/icons)  
+[comment]: <> (B für Beleg, Bearbeiten, Buchhaltung??? Change column name accordingly here and in IU Terminology file! Add screenshot/icons)  
 
  - S (Search)  
  The ![Search](/Assets/Icons/Search.png "[Search]") (Search) icon is displayed in this column. Click this button to search for open items.
@@ -473,13 +473,13 @@ For detailed information about processing bookings, see [Process bookings](/Reta
 
   ![Balance carried forward: step 1](/Assets/Screenshots/RetailSuiteAccounting/Book/BalanceCarriedForward01.png "[Balance carried forward: step 1]")
 
-This window allows to select outstanding balances to be carried forward to the next fiscal year.
+The *Balance carried forward: Step 1* window allows to select balances to be carried forward to the next fiscal year.
 
 - *Carry forward from FY*  
 Click the drop-down list to select the year containing the balances to be carried forward.
 
 - *Range from - to*  
-Click the drop-down list to select the...
+Click the drop-down list to select the account(s) containing the balances to be carried forward. The following accounts can be selected:
 
  - **01: Financial accounts**
  - **02: Impersonal accounts**
@@ -489,56 +489,108 @@ Click the drop-down list to select the...
  - **06: Open items creditors**
 
 
-- *Booking date*
+- *Booking date*  
 Enter the booking date for the balance carried forward.
 
-> [Info] By default, the system displays the first day of the new fiscal year. This can be modified simply by typing in the desired booking date.
+  > [Info] By default, the system displays the first day of the new fiscal year. This can be modified simply by typing in the desired booking date.
 
 - *Delete old balances carried forward from selected FY* [x]  
 Select this checkbox to delete the old balances carried forward from the selected fiscal year.
 
+- [CANCEL]  
+Click this button to cancel your selection.
 
-- [CANCEL]
-
-- [CONTINUE]
-
+- [CONTINUE]  
+Click this button to proceed to the *Retrieve account balances* window.
 
 
   ![Retrieve account balances](/Assets/Screenshots/RetailSuiteAccounting/Book/RetrieveAccountBalances.png "[Retrieve account balances]")
 
-- *Carry forward from FY*
+The *Retrieve account balances* window confirms the values previously selected and offers the possibility to narrow down the account selection.
 
-- *Range from - to*
+- *Carry forward from FY*  
+The previously selected fiscal year is displayed. This field is read-only.
 
-- *Date*
+- *Range from - to*  
+The previously selected account range is displayed. These fields are read-only.
 
-- *Accounts*
- - Ctrl + mouse to select
+- *Date*  
+The previously selected booking date is displayed. This field is read-only.
 
+- *Accounts*  
+The accounts containing a balance to be carried forward are displayed together with the balance amount. The balance amount can be both positive or negative.
 
-- *Delete old balances carried forward from selected FY*
+  >[Info] Hold the Ctrl (control) key and click on each account with the left mouse button to select multiple accounts simultaneously.
 
- - **Yes**
- - **No**
+- *Delete old balances carried forward from selected FY*  
+The previously selected value (**Yes/No**) date is displayed. This field is read-only.
 
+- [BACK]  
+Click this button to go back to the previous step.
 
-- [BACK]
+- [CANCEL]  
+Click this button to cancel the whole process.
 
-- [CANCEL]
+- [CONTINUE]  
+Click this button to proceed to carry the selected balances forward.
 
-- [CONTINUE]
+For detailed information about creating a balance carried forward, see [Create a balance carried forward](/RetailSuiteAccounting/Operation/11_CreateBalanceCarriedForward.md).
 
-For detailed information about processing bookings, see [Create a balance carried forward](/RetailSuiteAccounting/Operation/11_CreateBalanceCarriedForward.md).
 
 ### Foreign currency wizard
 
 *Accounting > Select fiscal year > Book > Context menu EDIT > Menu entry Foreign currency wizard*
 
-  ![Foreign currency wizard 1](/Assets/Screenshots/RetailSuiteAccounting/Book/ForeignCurrencyWizardWindow01.png "[Foreign currency wizard 1]")
+  ![Foreign currency wizard](/Assets/Screenshots/RetailSuiteAccounting/Book/ForeignCurrencyWizardWindow01.png "[Foreign currency wizard]")
 
-  ![Foreign currency wizard 2](/Assets/Screenshots/RetailSuiteAccounting/Book/ForeignCurrencyWizardWindow02.png "[Foreign currency wizard 2]")
+  The *Foreign currency wizard* window allows to search for accounts containing exchange rate differences and  book these differences automatically in special revenues and expenses accounts set up for this purpose.
 
-  ![Foreign currency wizard 3](/Assets/Screenshots/RetailSuiteAccounting/Book/ForeignCurrencyWizardWindow03.png "[Foreign currency wizard 3]")
+- *Fiscal year*  
+Click the drop-down list to select the applicable fiscal year.
+
+- *Range of accounts*  
+Click the drop-down list to select the applicable accounts. The following accounts can be selected:
+
+ - **Open items debtors and creditors**  
+ Select this option to check for exchange rate differences in debtors and creditors accounts.
+ - **Open items debtors**  
+ Select this option to check for exchange rate differences in debtors accounts.
+ - **Open items creditors**  
+ Select this option to check for exchange rate differences in creditors accounts.
+ - **Individual**  
+ Select this option to enter a self-defined account number range. When selecting this option, two new range fields (*from* - *to*) are displayed. Enter the applicable account number range in these fields.
+
+    ![Foreign currency wizard - Individual](/Assets/Screenshots/RetailSuiteAccounting/Book/ForeignCurrencyWizardWindow02.png "[Foreign currency wizard - Individual]")
+
+
+  - *Booking date*  
+  Enter the corresponding booking date.
+
+  > [Info] You can type in the booking date or use the ![Calendar](/Assets/Icons/Calendar.png "[Calendar]") (Calendar) icon.
+
+  - [BACK]   
+  This button is greyed out, as there is no previous step.
+
+[comment]: <> (Comment added in the BUGS document for improvement, e.g. "ABBRECHEN/CANCEL" button instead, like in Saldovortrag function)
+
+  - [CONTINUE]  
+  Click this button to proceed to the next step.
+
+
+![Foreign currency wizard - Account selection](/Assets/Screenshots/RetailSuiteAccounting/Book/ForeignCurrencyWizardWindow03.png "[Foreign currency wizard - Account selection]")
+
+- *Account selection*  
+Click the drop-down list to select the account(s) containing the exchange rate difference(s) to be booked.
+
+- [BACK]  
+Click this button to go back to the previous step.
+
+- [CONTINUE]  
+Click this button to book the exchange rate difference(s) in the applicable revenues or expenses accounts.
+
+For detailed information about booking exchange rate fluctuations, see [Book exchange rate fluctuations](/RetailSuiteAccounting/Operation/12_BookExchangeRateFluctuations.md).
+
+
 
 ### Supplier receipts
 
@@ -546,7 +598,247 @@ For detailed information about processing bookings, see [Create a balance carrie
 
   ![Acquire supplier receipts](/Assets/Screenshots/RetailSuiteAccounting/Book/SupplierReceiptsAcquire.png "[Acquire supplier receipts]")
 
+The *Acquire* tab displays all unregistered supplier receipts uploaded to the *New supplier receipts* folder in the *Documents* module.
+
+- ![Previous](/Assets/Icons/Previous.png "[Previous]") *Document* ![Next](/Assets/Icons/Next.png "[Next]")   
+Click the arrow previous/next buttons to scroll through the documents.
+
+- ![First page](/Assets/Icons/FirstPage02.png "[Previous]") ![First page](/Assets/Icons/Previous.png "[Previous]") *Page [x]* ![Next](/Assets/Icons/Next.png "[Next]")  
+The current page number is displayed. Click the arrow first page/previous/next buttons to scroll through the pages.
+
+- (-) *Zoom* (+)
+Click the -/+ buttons to zoom in and out of the document view.
+
+- *Download file*  
+Click this button to download the document.
+
+- *Turnover*  
+Enter the turnover value to be registered. This field is compulsory.
+
+- *ContraAcct*  
+Select the appropriate contra account. This field is compulsory.
+
+  >[Info] You can type it in or select it from the drop-down list. When you start typing, a context menu is displayed.
+
+- *Reference1*  
+Enter an applicable reference value.
+
+[comment]: <> (Receipt1?)
+
+- *Reference2*  
+Enter an applicable reference value.
+
+[comment]: <> (Receipt2?)
+
+- *Date*  
+Enter the booking date. Date format must be DDMMYY or DD.MM.YY. This field is compulsory.
+
+- *Supplier*  
+Select the appropriate supplier account. This field is compulsory.
+
+  >[Info] You can type it in or select it from the drop-down list. When you start typing, a context menu is displayed.
+
+- *Booking text*  
+Enter an appropriate booking text. This field is compulsory.
+
+[comment]: <> (Posting text in the actual UI and in file Operation/10_ManageReceipts.md? Check and unify!)
+
+- *Payment target*  
+Click the drop-down list to select the appropriate payment target. The following options are available:
+
+ - **1 - 8 d 2%, 30 d net**
+ - **2 - 30 d net**
+
+
+- *Exchange rate*  
+Enter the applicable exchange rate, if necessary.
+
+- *Cost center*  
+Enter the appropriate cost center, if necessary.
+
+[comment]: <> (In other functions called Cost1? Check and unify)
+
+- *Cost unit*  
+Enter the appropriate cost unit, if necessary.
+
+[comment]: <> (In other functions called Cost2? Check and unify)
+
+- *Commentary for auditors*  
+Enter any relevant comments for potential auditors.
+
+- [ACQUIRE]  
+Click this button to register the receipt in the system.
+
+- [SPLIT]  
+Click this button if a split booking must be performed.
+
+
   ![Overview](/Assets/Screenshots/RetailSuiteAccounting/Book/SupplierReceiptsOverview.png "[Overview]")
+
+The *Overview* tab displays all receipts that have been registered in the system in the *Acquire* tab. The registered receipts can be search for using the [QUICK SEARCH] button. The view can also be filtered using the filter function.
+
+  ![Search and filter](/Assets/Screenshots/RetailSuiteAccounting/Book/SupplierReceiptsOverview02.png "[Search and filter]")
+
+- [QUICK SEARCH]  
+Click this button to display the *QUICK SEARCH* context menu. All search criteria are selected per default through a marked checkbox. Deselect any search criteria if necessary. The following search criteria are available:
+
+ - *Status*  
+ - *Supplier*
+ - *ContraAcct*
+ - *Doc*  
+ - *Reference1*
+ - *Reference2*
+ - *Booking text*
+ - *Date*
+ - *Amount*
+ - *Flag*
+ - *Comment*
+ - *Comments*
+ - *Reason for rejection*
+ - *Created by*
+ - *Modified by*
+ - *Date (creation)*
+ - *Date (modification)*
+ - *Rejected*
+ - *Supervisor*
+ - *Cost center*
+ - *Cost unit*
+
+[comment]: <> (Explain each option? RS FH -> Doc? Difference "Comment" and "Comments"? Flag?)
+
+ - [Search bar]  
+ Enter here the value to be searched for. You can press ENTER to start the search.
+
+ - ![Cross](/Assets/Icons/Cross02.png "[Cross]") (Cross)  
+ Click this button to delete the entered value.
+
+ - ![Search](/Assets/Icons/Search.png "[Search]") (Search)  
+ Click this button to search for receipts matching the entered values and search criteria.
+
+
+- [(X) ACTIVE FILTERS]
+
+- *ACTIVE* (checkbox)  
+ Mark this checkbox to activate the search criteria.
+
+- *FILTER BY*  
+The following filter values are available:
+
+  - Status  
+ Click the drop-down list to select one or several of the following filter criteria:
+
+   - **New**
+   - **Released**
+   - **Pending**
+   - **Rejected**
+   - **Completed**
+
+ - Supplier  
+Enter the appropriate supplier account.
+
+  - ContraAcct  
+Enter the appropriate contra account.
+
+  - Reference1  
+Enter an appropriate reference 1 value.
+
+  - Reference2  
+Enter an appropriate reference 2 value.
+
+  - Bookings text
+Enter an appropriate booking text 2 value.
+
+  - Date  
+Click the drop-down list to select the applicable search criteria:
+    - Select **=** to search for an exact date.
+    - Select **between** to search for a date range.
+    - Select **before** to search for a period up to a specific date.
+    - Select **after** to search for a period after a specific date.  
+
+    > [Info] You can type in the booking date or use the ![Calendar](/Assets/Icons/Calendar.png "[Calendar]") (Calendar) icon.
+
+  - Payment target  
+Click the drop-down list to select the applicable payment target. The following options are available:
+
+    - **1 - 8 d 2%, 30 d net**
+    - **2 - 30 d net**
+
+ - Created by  
+Enter the name of the applicable user.
+
+  - Modified by  
+Enter the name of the applicable user.
+
+  - Rejected by  
+Enter the name of the applicable user.
+
+  - Date (creation)  
+Click the drop-down list to select the applicable search criteria:
+    - Select **=** to search for an exact date.
+    - Select **between** to search for a date range.
+    - Select **before** to search for a period up to a specific date.
+    - Select **after** to search for a period after a specific date.  
+
+    > [Info] You can type in the booking date or use the ![Calendar](/Assets/Icons/Calendar.png "[Calendar]") (Calendar) icon.
+
+  - Date (modification)  
+Click the drop-down list to select the applicable search criteria:
+    - Select **=** to search for an exact date.
+    - Select **between** to search for a date range.
+    - Select **before** to search for a period up to a specific date.
+    - Select **after** to search for a period after a specific date.  
+
+    > [Info] You can type in the booking date or use the ![Calendar](/Assets/Icons/Calendar.png "[Calendar]") (Calendar) icon.
+
+  - Rejected  
+Click the drop-down list to select the applicable search criteria (**Yes/No**).
+
+  - Supervisor  
+Enter the name of the applicable supervisor.
+
+- [CANCEL]  
+Click this button to cancel your selection.
+
+- [APPLY]  
+Click this button to apply the search criteria and values.
+
+
+All registered receipts are displayed in columns. All information provided in columns is read-only, except for the *Doc* column.
+
+The column width can be modified using the mouse. To do so, place the mouse pointer on the vertical dividing line between two columns titles. The mouse pointer changes to a double-headed arrow. Press the left mouse button and move the line using drag and drop until it has reached the required width.
+
+When placing the cursor on a column header, three vertical points are displayed to the right of the column title. Click the ![Points](/Assets/Icons/Points02.png "[Points]") (Points) icon to display the context menu. The following menu entries are available:
+
+- ![Sort ascending](/Assets/Icons/SortAscending.png "[Sort ascending]") Sort ascending
+- ![Sort descending](/Assets/Icons/SortDescending.png "[Sort descending]") Sort descending
+- Columns
+- Filter
+
+
+
+- *Status*
+- *Supplier*
+- *ContraAcct*
+- *Doc*
+- *Reference1*
+- *Reference2*
+- *Booking text*
+- *Date*
+- *Amount*
+- *Payment target*
+- *Flag*
+- *Comment*
+- *Comments*
+- *Reason for rejection*
+- *Created by*
+- *Modified by*
+- *Rejected by*
+- *Date (created)*
+
+
+
+
+
 
   ![Financial accounting takeover](/Assets/Screenshots/RetailSuiteAccounting/Book/SupplierReceiptsTakeover.png "[Financial accounting takeover]")
 
