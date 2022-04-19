@@ -422,6 +422,71 @@ This data type is for internal use only. It is strongly advised not to use this 
 This data type is for internal use only. It is strongly advised not to use this data type without the required knowledge.
 
 
+## Cloudinary Image
+
+![Cloudinary image](/Assets/Screenshots/PIM/DataTypes/CloudinaryImage.png "[Cloudinary image]")
+
+The data type *Cloudinary Image* is used to attach image files from Cloudinary. You can configure further data exchange settings for the image files. You can import image files from Cloudinary or upload image files to Cloudinary in the product view. This data type is only available when the *Cloudinary* module is installed.
+
+### Configuration
+
+![Cloudinary image](/Assets/Screenshots/PIM/DataTypes/Configuration/CloudinaryImage.png "[Cloudinary image]")
+
+- *Folder*   
+  Enter a folder name where the images are put into. If the folder is not yet created in Cloudinary, it is automatically created when uploading the first image. Use placeholders to define product specific folder, for instance **{sku}**.
+
+- ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Read only*
+  Activate this toggle to set the C*loudinary Image* value read-only. Deactivate the toggle to set the *Cloudinary Image* value editable. By default, this toggle is inactive.
+
+- *Import Regex*     
+  Enter a regular expression to restrict the listed items for the import of images from Cloudinary. The restriction is applied to the filename. If the field is left blank, no restriction is applied. For detailed information about regular expressions, see https://regex101.com/.
+
+- *Meta Data Fields*     
+  Enter names for additional contextual meta data fields. Use commas to separate the field names. A separate meta data field is created for each field name. By default, the *Title (caption)* and the *Description (alt)* contextual meta data fields are automatically created for each image and do not need to be added manually.
+
+- *Connection*     
+  Click the drop-down list and select the appropriate connection. All connections created in the *Cloudinary* module are displayed in the list.
+
+**Structured Meta Data Fields**
+
+In this section all structured meta data fields from the selected Cloudinary connection are displayed. Enable the meta data fields in the *PIM* module by activating the corresponding toggle. All inactive fields are not displayed in the *PIM* module and consequently cannot be edited in the *Cloudinary Image* attribute.
+
+
+## Cloudinary Video
+
+![Cloudinary video](/Assets/Screenshots/PIM/DataTypes/CloudinaryVideo.png "[Cloudinary video]")
+
+The data type *Cloudinary Video* is used to attach video files from Cloudinary. You can configure further data exchange settings for the video files. You can import video files from Cloudinary or upload video files to Cloudinary in the product view. This data type is only available when the *Cloudinary* module is installed.
+
+### Configuration
+
+![Cloudinary video](/Assets/Screenshots/PIM/DataTypes/Configuration/CloudinaryVideo.png "[Cloudinary video]")
+
+- *Folder*   
+  Enter a folder name where the videos are put into. If the folder is not yet created in Cloudinary, it is automatically created when uploading the first video file. Use placeholders to define product specific folder, for instance **{sku}**.
+
+- ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Read only*
+  Activate this toggle to set the *Cloudinary Video* value read-only. Deactivate the toggle to set the *Cloudinary Video* value editable. By default, this toggle is inactive.
+
+- *Import Regex*     
+  Enter a regular expression to restrict the listed items for the import of videos from Cloudinary. The restriction is applied to the filename. If the field is left blank, no restriction is applied. For detailed information about regular expressions, see https://regex101.com/.
+
+- *Meta Data Fields*     
+  Enter names for additional contextual meta data fields. Use commas to separate the field names. A separate meta data field is created for each field name. By default, the *Title (caption)* and the *Description (alt)* contextual meta data fields are automatically created for each video and do not need to be added manually.
+
+- *Connection*     
+  Click the drop-down list and select the appropriate connection. All connections created in the *Cloudinary* module are displayed in the list.
+
+**Structured Meta Data Fields**
+
+In this section all structured meta data fields from the selected Cloudinary connection are displayed. Enable the meta data fields in the *PIM* module by activating the corresponding toggle. All inactive fields are not displayed in the *PIM* module and consequently cannot be edited in the *Cloudinary Video* attribute.
+
+
+## XML (internal, not editable)
+
+This data type is for internal use only. It is strongly advised not to use this data type without the required knowledge.
+
+
 ## Offer bundle
 
 ![Offer bundle](/Assets/Screenshots/PIM/DataTypes/OfferBundle.png "[Offer bundle]")
