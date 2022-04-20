@@ -12,6 +12,21 @@ The list below describes in detail all available ETL extensions and, if availabl
 
 This extension is used to add a specific prefix and/or suffix to the destination attribute. The prefix and/or suffix to be added is defined in the configuration.
 
+### Allowed data types
+
+- Destination attribute
+  - String
+  - Integer
+  - Float
+  - Boolean
+
+
+- Source attribute
+  - String
+  - Integer
+  - Float
+  - Boolean
+
 ### Configuration
 - *Prefix*    
   Enter the prefix to be added before the value of the destination attribute.
@@ -25,18 +40,28 @@ This extension is used to add a specific prefix and/or suffix to the destination
 
 ![Arithmetic extension](/Assets/Screenshots/DataHub/Settings/ETL/Extensions/ArithmeticExtension.png "[Arithmetic extension]")
 
-This mapping is used to specify one or more fallback attributes to be mapped if the first attribute is not available. At least one source attribute must be selected in the *x1* drop-down list. Up to eight attributes can be selected in the drop-down lists. Enter the function to be applied in the configuration.  
+This extension is used to combine several attributes in a specific manner and map them to a destination attribute. The mapping is mainly used to include mathematical equations. Define the equation and, if desired, fallback equations, in the configuration. At least one source attribute must be selected in the *x1* source attribute. Up to eight attributes can be selected.   
+
+### Possible data type mappings
+
+| Destination attribute data type  | Source attribute data type     |
+|----------------------------------|--------------------------------|
+| String                           | String                         |
+| Float                            | Float                          |
+| Integer                          | Integer                        |
+| Boolean                          | Boolean                        |
 
 ### Configuration
-- *Equation 1*   
-  Enter the function to be applied to the selected source attributes. You have to follow the syntax below: ???
 
-[comment]: <> (funktioniert nicht - welche Syntax muss in der Equation genutzt werden? Muss immer eine Equation angegeben sein? )
+- *Equation 1*   
+  Enter an equation to combine the source attributes and map them to the destination attribute, for instance **x1 + x2** to combine the values of the corresponding source attributes.
+
+[comment]: <> (wird das auch hauptsächlich zur Berechnung verwendet oder zur Kombination mehrerer string/Text attribute?)
 
 - ![Add](/Assets/Icons/Plus03.png "[Add]") (Add)   
-  Click this button to add another equation. You can add an unlimited number of equations.
+  Click this button to add another equation. When the value of the first equation is empty, the second equation is used as a fallback value. You can add an unlimited number of equations.
 
-[comment]: <> (pro modifier nur ein wert ändern? oder warum brauche ich davon mehrere?)
+[comment]: <> (aktuell noch fehlerhaft: immer die letzte (und nur diese) angegebene equation wird gemappt -> soll geändert werden)
 
 
 
@@ -44,9 +69,26 @@ This mapping is used to specify one or more fallback attributes to be mapped if 
 
 ![Basic mapping](/Assets/Screenshots/DataHub/Settings/ETL/Extensions/NumberToString.png "[Basic mapping]")
 
-This mapping is used to adopt the value from a source attribute to a destination attribute without any change. The basic mapping is the most commonly used mapping and can be applied to all data types.
+This mapping is used to adopt the value from a source attribute to a destination attribute without any change. The basic mapping is the most commonly used mapping.
 
-[comment]: <> (stimmt das?)
+### Possible data type mappings
+
+| Destination attribute data type  | Source attribute data type     |
+|----------------------------------|--------------------------------|
+| String                           | String, Text field             |
+| Text field                       | Text field, String             |
+| Float                            | Float, Integer                 |
+| Integer                          | Integer                        |
+| Boolean                          | Boolean                        |
+| Double float                     | Double float                   |
+| Country                          | Country                        |
+| Currency                         | Currency                       |
+| Language                         | Language                       |
+| Simple pricing                   | Simple pricing                 |
+| Sales unit                       | Sales unit                     |
+| Date time                        | Date time                      |
+| Date field                       | Date field                     |
+| JSON                             | JSON                           |
 
 ### Configuration
 This ETL extension has no further configuration settings.
@@ -55,9 +97,15 @@ This ETL extension has no further configuration settings.
 
 ## Boolean-To-String
 
-![Number to String](/Assets/Screenshots/DataHub/Settings/ETL/Extensions/NumberToString.png "[Number to String]")
+![Number to String](/Assets/Screenshots/DataHub/Settings/ETL/Extensions/BooleanToString.png "[Number to String]")
 
 This extension is used to map a boolean attribute (checkbox or toggle) to a string attribute. The content that is mapped to the string depending on the boolean value is defined in the configuration.
+
+### Possible data type mappings
+
+| Destination attribute data type  | Source attribute data type     |
+|----------------------------------|--------------------------------|
+| String, Text field               | Boolean                        |
 
 ### Configuration
 - *Content for value true*   
@@ -85,12 +133,14 @@ This ETL extension has no further configuration settings.
 This extension is used to map a Cloudinary attribute to a string attribute. Select at least one and up to four Cloudinary source attributes in the *Image* drop-down lists. If required, you can select a transformation.
 
 [comment]: <> (wofür ist die Liste Transformation? Was mache ich damit?)
+-> transformation für bilder
 
 ### Configuration
 
 - ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Export public ID*   
-  Activate the toggle to export both, the Cloudinary URL but also its public ID. Deactivate the toggle to export only the Cloudinary URL.
+  Activate the toggle to export the Cloudinary URL but also its public ID. Deactivate the toggle to export only the Cloudinary URL.
 
+-> wenn toggle aktiv, wird die public id ausgegeben und nicht die url (transformation wird geskippt)
   [comment]: <> (wozu ist die public ID gut?)
 
 
@@ -99,13 +149,27 @@ This extension is used to map a Cloudinary attribute to a string attribute. Sele
 
 ![Constant value](/Assets/Screenshots/DataHub/Settings/ETL/Extensions/ConstantValue.png "[Constant value]")
 
-This extension is used to map a constant value to a destination attribute of a random data type. The fixed source value is defined in the configurations and never changes. This extension is often used according to receipts, for instance to define the receipt type.
+This extension is used to map a constant value to a destination attribute. The fixed source value is defined in the configuration and never changes. This extension is often used according to receipts, for instance to define the receipt type.
 
-[comment]: <> (Is that right? random destination attribute? or only string?)
+### Possible data type mappings
+
+| Destination attribute data type  | Source attribute data type     |
+|----------------------------------|--------------------------------|
+| String                           | -                              |
+| Text field                       | -                              |
+| Float                            | -                              |
+| Integer                          | -                              |
+| Boolean                          | -                              |
+| Double float                     | -                              |
+| Country                          | -                              |
+| Currency                         | -                              |
+| Language                         | -                              |
+| Tree node                        | -                              |
+| Date field                       | -                              |
 
 ### Configuration
 - *Destination attribute name*   
-   Enter a value that is always mapped to the destination attribute.
+   Enter a value that is mapped to the destination attribute.
 
 
 
@@ -131,6 +195,12 @@ This extension is used to copy the value from a packaging unit attribute and map
 
 [comment]: <> (Stimmt das? Anwendungsfall?)
 
+### Possible data type mappings
+
+| Destination attribute data type  | Source attribute data type     |
+|----------------------------------|--------------------------------|
+| Packaging unit                   | Packaging unit                 |
+
 ### Configuration
 This ETL extension has no further configuration settings.
 
@@ -142,7 +212,13 @@ This ETL extension has no further configuration settings.
 
 This extension is used to map a country attribute to a string attribute. It is mainly used to map the Actindo *Country of Origin* attribute.
 
-[comment]: <> (Is that right? only string?)
+### Possible data type mappings
+
+| Destination attribute data type  | Source attribute data type     |
+|----------------------------------|--------------------------------|
+| String                           | Country                        |
+| Text field                       | Country                        |
+| Tree node                        | Country                        |
 
 ### Configuration
 This ETL extension has no further configuration settings.
@@ -155,21 +231,24 @@ This ETL extension has no further configuration settings.
 
 This extension is used to map a date attribute to another date attribute of a different format or to a string attribute. The destination date format is defined in the configuration. Further, additional modifiers can be defined to change the date by a defined time value.
 
-[comment]: <> (Is that right? destination = string or date?)
+### Possible data type mappings
+
+| Destination attribute data type  | Source attribute data type                 |
+|----------------------------------|--------------------------------------------|
+| String                           | Date time, Date field                      |
+| Text field                       | Date time, Date field                      |
+| Date time                        | Date time, Date field, String, Text field  |                   
+| Date field                       | Date time, Date field, String, Text field  |  
 
 ### Configuration
 - *Destination Format*   
   Enter the destination format of the date, for instance **Y-m-d**. The date must be entered in the php format, see https://www.php.net/manual/de/datetime.format.php.
 
 - *Modifier 1*   
-  Enter a value for the modifier to change the source date by a certain time value. For instance, enter **+ 7 days** to predate the date in the source attribute always by 7 days in the destination attribute. You can predate a date by using a plus sign, or backdate a date by using a minus sign.
-
-  [comment]: <> (modifier format? ausgeschrieben oder abkürzungen wie in destination format feld? What format is taken if nothing is defined in the configuration?)
+  Enter a value for the modifier to change the source date by a certain time value. For instance, enter **+ 7 days** to predate the date in the source attribute always by 7 days in the destination attribute. You can predate a date by using a plus sign, or backdate a date by using a minus sign. You can only enter one modification per modifier. To add further modifications, add another modifier.
 
 - ![Add](/Assets/Icons/Plus03.png "[Add]") (Add)   
-  Click this button to add another modifier. You can add an unlimited number of modifiers.
-
-  [comment]: <> (pro modifier nur ein wert ändern? oder warum brauche ich davon mehrere? Fehler in UI?)
+  Click this button to add another modifier. Enter a further value for the modifier to change the source date by a certain time value. The modifier is additionally applied to the source date. For instance, if you enter **+ 1 month** in the first modifier and **+ 1 day** in the second modifier, the destination date is predated by 1 month and 1 day. You can add an unlimited number of modifiers.
 
 
 
@@ -177,9 +256,9 @@ This extension is used to map a date attribute to another date attribute of a di
 
 ![EAN to SKU](/Assets/Screenshots/DataHub/Settings/ETL/Extensions/EANToSKU.png "[EAN to SKU]")
 
-This extension is used to map a string attribute containing an EAN to a string attribute containing a SKU. This mapping is used to map the EAN in the source system to the SKU in the destination system.
+This extension is used to map the SKU of a source attribute to a destination attribute. To do so, the value in the *EAN* source attribute is taken as the EAN number of an product and the corresponding SKU of this product is mapped to the destination attribute.
 
-[comment]: <> (Stimmt das? Unterschied basic mapping? welche besonderhieten hat diese spezialisierung auf ean und sku?)
+[comment]: <> (Stimmt das? Warum mappe ich die SKU nicht direkt? Welche Datentypen?)
 
 ### Configuration
 This ETL extension has no further configuration settings.
@@ -190,19 +269,33 @@ This ETL extension has no further configuration settings.
 
 ![Entity ID to generic property extension](/Assets/Screenshots/DataHub/Settings/ETL/Extensions/EntityIDToGenericPropertyExtension.png "[Entity ID to generic property extension]")
 
-This extension is used to map the generic property of an entity attribute to a string attribute. It is often used for the data export.
+This extension is used to map the generic property of an entity attribute to a destination attribute. This mapping is often used for the data export.
 
-[comment]: <> (Finde kein source attribut bei dem die Konfiguration angezeigt wird. Anwendungsfall aufzeigen! Mehr Infos; Bild fehlt)
+### Possible data type mappings
+
+| Destination attribute data type  | Source attribute data type     |
+|----------------------------------|--------------------------------|
+| String                           | String, Text field, Integer    |
+| Boolean                          | String, Text field, Integer    |
+
+[comment]: <> (aktueller Bug: Configuration wird nur bei boolean als destination attribut angezeigt. Anwendungsfall aufzeigen! Mehr Infos)
 
 ### Configuration
-- *Empty drop-down list*
-  - Beleg
-  - Beleg-Position
-  - Kunde
+
+- *Empty drop-down list*   
+  Select the appropriate drop-down list ???
+  - **Beleg**
+  - **Beleg-Position**
+  - **Kunde**
 
 
 - *Field Name*   
   Enter the name of the field assigned to the entity attribute whose value should be mapped to the destination attribute.
+
+- ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Invert Bool*
+  Activate the toggle to invert the boolean value after mapping. Otherwise, the boolean value will remain as mapped.
+
+[comment]: <> (Configuration überarbeiten! Was macht die drop-down list?)
 
 
 
@@ -221,8 +314,15 @@ This ETL extension has no further configuration settings.
 
 ![HTML template](/Assets/Screenshots/DataHub/Settings/ETL/Extensions/HTMLTemplate.png "[HTML template]")
 
-This extension is used to map a HTML template attribute to a random destination attribute. The HTML template to be applied is selected in the configuration. This extension is selected for mappings requiring more logical assignments which cannot be mapped with the other extensions, for instance it is often used for the document export. This extension is only available when the *HTML Templates for ETL* plugin is installed.  
+This extension is used to map an HTML template to a destination attribute. The HTML template to be applied is selected in the configuration. This extension is selected for mappings requiring more logical assignments which cannot be mapped with the other extensions, for instance it is often used for the document export. This extension is only available when the *HTML Templates for ETL* plugin is installed.  
 For detailed information about HTML templates, see [Manage the HTML templates](/PIM/Operation/03_ManageHTMLTemplates.md).
+
+### Possible data type mappings
+
+| Destination attribute data type  | Source attribute data type     |
+|----------------------------------|--------------------------------|
+| Text field                       | -                              |
+| String                           | -                              |
 
 ### Configuration
 
@@ -233,13 +333,11 @@ For detailed information about HTML templates, see [Manage the HTML templates](/
 
 ## Identity-Mapping
 
-[comment]: <> (deutsch: Wert kopieren)
-
 ![Identity mapping](/Assets/Screenshots/DataHub/Settings/ETL/Extensions/IdentityMapping.png "[Identity mapping]")
 
-This extension is used to copy the value from a string source attribute and map it to another string attribute.
+This extension is used to copy the value from the source attribute and map it to the destination attribute. In contrast to the *Basic Mapping* extension, only completely identical attributes in the source and the destination attribute can be mapped. All attributes with a selfmappable data type can be mapped.
 
-[comment]: <> (Stimmt das? )
+[comment]: <> (Selfmappable erklären)
 
 ### Configuration
 This ETL extension has no further configuration settings.
@@ -305,8 +403,6 @@ Beside the tax class, all attributes are required for the mapping. A separator f
 
 This extension is used to import all image files from a specified folder to a Cloudinary image attribute. You can select one to four values in the *x0* to *x3* source attributes. Define the folder from which the images will be imported in the configuration.
 
-[comment]: <> (Stimmt das?)
-
 ### Configuration
 
 - *Folder*   
@@ -341,7 +437,12 @@ This ETL extension has no further configuration settings.
 
 This extension is used to map a language attribute to a string attribute. It is mainly used to map the Actindo language attributes.
 
-[comment]: <> (Is that right? only string?)
+### Possible data type mappings
+
+| Destination attribute data type  | Source attribute data type     |
+|----------------------------------|--------------------------------|
+| String                           | Language                       |
+| Text field                       | Language                       |
 
 ### Configuration
 
@@ -376,17 +477,29 @@ This extension is used to map a fixed set of source attribute values to fixed de
 
 ![MySQL query](/Assets/Screenshots/DataHub/Settings/ETL/Extensions/MySQLQuery.png "[MySQL query]")
 
-This extension is used to map a MySQL query to a random destination attribute. The MySQL query to be applied is selected in the configuration. Mainly, this extension is selected for mappings requiring more logical assignments which cannot be mapped with the other extensions. This extension is only available when the *Database and Reporting* module is installed.  
+This extension is used to map a MySQL query to a destination attribute. The MySQL query to be applied is selected in the configuration. Mainly, this extension is selected for mappings requiring more logical assignments which cannot be mapped with the other extensions. This extension is only available when the *Database and Reporting* module is installed.  
+
+### Possible data type mappings
+
+| Destination attribute data type  | Source attribute data type      |
+|----------------------------------|---------------------------------|
+| String                           | String, Integer, Float, Boolean |
+| Integer                          | String, Integer, Float, Boolean |
+| Float                            | String, Integer, Float, Boolean |
+| Boolean                          | String, Integer, Float, Boolean |
 
 ### Configuration
 
 - *Query*   
   Select the MySQL query to be applied to the mapping. The MySQL query can be created in the *DB and Reporting* module: *DB and Reporting > Managed queries > Tab QUERIES*.
 
-- *Column*   
-  ???
+- [TEST]   
+  Click this button to run the selected query and test if a valid value is extracted.
 
-  [comment]: <> (was wird hier gewählt? Bild aktualisieren! Modul installieren? TEST button -> wofür? No change tracking?)
+- *Column*   
+  Enter the name from the column in the MYSQL database from which the value will be selected.
+
+  [comment]: <> (Stimmt das alles? Bild aktualisieren! Modul installieren? No change tracking?)
 
 
 
@@ -419,12 +532,12 @@ This extension is used to map the promotion date of a PIM price field attribute 
 
 ### Configuration
 - ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Get from date*   
-  Activate the toggle to map the start date of the promotion. Otherwise the end date of the promotion is mapped to the destination attribute.
+  Activate the toggle to map the start date of the promotion. Otherwise the end date of the promotion is mapped to the destination attribute. By default, the toggle is inactive.
 
-[comment]: <> (Ist das hier genau andersherum wie im deutschen? Da aktiviert man den Toggle, um das bis-datum zu bekommen - oder ist das nen Übersetzungsfehler?)
+[comment]: <> (Standardmäßig wird das Enddatum gemappt! Deutsches UI falsch -> richtig: Von-Datum)
 
 - *Currency*   
-  Select the appropriate currency in the drop-down list. Only those currencies that are defined as a supported currency in the PIM price field attribute configuration are mapped. in All available currencies are displayed in the list.
+  Select the appropriate currency in the drop-down list. Only those currencies that are defined as a supported currency in the PIM price field attribute configuration are mapped. All available currencies are displayed in the list.
 
   [comment]: <> (Is that right? what currencies are mapped?)
 
@@ -436,14 +549,10 @@ This extension is used to map the promotion date of a PIM price field attribute 
 
 This extension is used to specify one or more fallback attributes to be mapped if the first attribute is not available. At least one source attribute must be selected in the *x0* drop-down list and one fallback attribute in the *x1* drop-down list. If the value of the source attribute in the *x0* drop-down list is empty, the value of the source attribute in the *x1* drop-down list is applied and so on. Up to four source attributes can be selected in the drop-down lists. Note that a blank space is also considered as an input.
 
-[comment]: <> (Unterschied zu Arithmetic Extension?)
-
 ### Configuration
 
 - *Relevant Language*   
   Select the language of the attribute value used for the mapping. This setting only applies when a tree node attribute is mapped to a single language attribute. All active languages are displayed in the drop-down list.
-
-  [comment]: <> (Was ist, wenn ich keine Sprache wähle?)
 
 
 
@@ -486,7 +595,11 @@ This extension is used to map a number attribute to an unit attribute. This mapp
 
 This extension is used to map a PIM base price attribute to a number or stock value attribute. The base price is Actindo specific and contains the dimension, the unit and the relevant amount for the base price. Each of this data is extracted from the base price attribute by the corresponding extension. In this case, the amount is mapped by the *PIM BasePrice to Amount (VPE Value)* extension.
 
-[comment]: <> (Is the destination attribute right- number/stock value attribute?)
+### Possible data type mappings
+
+| Destination attribute data type  | Source attribute data type     |
+|----------------------------------|--------------------------------|
+| Float                            | Base price                     |
 
 ### Configuration
 This ETL extension has no further configuration settings.
@@ -501,6 +614,12 @@ This extension is used to map a PIM base price attribute to a boolean attribute,
 
 [comment]: <> (Is that right? Anwendungsfall?)
 
+### Possible data type mappings
+
+| Destination attribute data type  | Source attribute data type     |
+|----------------------------------|--------------------------------|
+| Boolean                          | Base price                     |
+
 ### Configuration
 This ETL extension has no further configuration settings.
 
@@ -512,7 +631,13 @@ This ETL extension has no further configuration settings.
 
 This extension is used to map a PIM base price attribute to a tree node attribute. The PIM base price is Actindo specific and contains the dimension, the unit and the relevant amount for the base price. Each of this data is extracted from the PIM base price attribute by the corresponding extension. In this case, the unit is mapped by the *PIM BasePrice to Unit* extension.
 
-[comment]: <> (Is that right- tree node attribute?)
+[comment]: <> (Is that right?)
+
+### Possible data type mappings
+
+| Destination attribute data type  | Source attribute data type     |
+|----------------------------------|--------------------------------|
+| Tree node                        | Base price                     |
 
 ### Configuration
 This ETL extension has no further configuration settings.
@@ -523,9 +648,16 @@ This ETL extension has no further configuration settings.
 
 ![PIM base price to VPE reference unit](/Assets/Screenshots/DataHub/Settings/ETL/Extensions/PIMBasePriceToVPEReferenceUnit.png "[PIM base price to VPE reference unit]")
 
-This extension is used to map a PIM base price attribute to a number or stock value attribute. The PIM base price is Actindo specific and contains the dimension, the unit and the relevant amount for the base price. Each of this data is extracted from the PIM base price attribute by the corresponding extension. In this case, the amount is mapped by the *PIM BasePrice to VPE Reference Unit* extension as a reference amount.
+This extension is used to map a PIM base price attribute to a number or stock value attribute. The PIM base price is Actindo specific and contains the dimension, the unit and the relevant amount for the base price. Each of this data is extracted from the PIM base price attribute by the corresponding extension. In this case, the relevant amount taken and the corresponding reference amount is mapped to the destination attribute. By default, the reference amount equals to 0,1 for all amounts smaller than 0,25 and to the specified amount for all amounts greater than 0,25.
 
-[comment]: <> (Doesn't make sense - why/how mapping a unit to a number/stock value attribute???)
+[comment]: <> (ist das korrekt mit dem reference amount?)
+
+### Possible data type mappings
+
+| Destination attribute data type  | Source attribute data type     |
+|----------------------------------|--------------------------------|
+| Integer                          | Base price                     |
+| Float                            | Base price                     |
 
 ### Configuration
 This ETL extension has no further configuration settings.
@@ -539,6 +671,12 @@ This ETL extension has no further configuration settings.
 This extension is used to map a PIM price field attribute to a simple price field attribute. The PIM price field is Actindo specific and contains not only the simple price, but also the base price, scale prices, promotion prices, the tax class including the tax rate and supported currencies. In this case, all values that are also included to the simple price field attribute are mapped. Further settings are defined in the configuration.
 
  [comment]: <> (Is that correct? Which values? Base price, scale prices and indication about net or gross price?)
+
+### Possible data type mappings
+
+| Destination attribute data type  | Source attribute data type     |
+|----------------------------------|--------------------------------|
+| Simple Pricing                   | Price field                    |
 
 ### Configuration
 
@@ -559,7 +697,14 @@ This extension is used to map a PIM price field attribute to a simple price fiel
 
 ![Preg replace extension](/Assets/Screenshots/DataHub/Settings/ETL/Extensions/PregReplaceExtension.png "[Preg replace extension]")
 
-This extension is used to replace the value of a random source attribute by a certain value and map it to a random destination attribute. The replacement settings are defined in the configuration.
+This extension is used to replace the value of a source attribute by a certain value and map it to a destination attribute. The replacement settings are defined in the configuration.
+
+### Possible data type mappings
+
+| Destination attribute data type  | Source attribute data type         |
+|----------------------------------|------------------------------------|
+| String                           | String, Text field, Integer, Float |
+| Text field                       | String, Text field, Integer, Float |
 
 ### Configuration
 - *Pattern*   
@@ -594,7 +739,7 @@ This ETL extension has no further configuration settings.
 
 ![Price to price with discount](/Assets/Screenshots/DataHub/Settings/ETL/Extensions/PriceToPriceWithDiscount.png "[Price to price with discount]")
 
-This extension is used to map a PIM price field attribute including a defined discount to another PIM price field attribute. In the discount attribute, a number for the percentage discount is defined. The source price field attribute less the selected disount is mapped to the destination price attribute.
+This extension is used to map a PIM price field attribute including a defined discount to another PIM price field attribute. In the discount attribute, a number for the percentage discount is defined. The source price field attribute less the selected discount is mapped to the destination price attribute.
 
 ### Configuration
 This ETL extension has no further configuration settings.
@@ -607,7 +752,11 @@ This ETL extension has no further configuration settings.
 
 This extension is used to map a PIM price field attribute to a number attribute. The PIM price field is Actindo specific and contains not only the simple price, but also the base price, scale prices, promotion prices, the tax class including the tax rate and supported currencies. Each of this data is extracted from the price attribute by the corresponding extension. In this case, the tax rate is mapped by the *Price to Tax* extension. The tax rate settings are defined in the configuration.
 
-[comment]: <> (Is that right- number attribute?)
+### Possible data type mappings
+
+| Destination attribute data type  | Source attribute data type     |
+|----------------------------------|--------------------------------|
+| Float                            | Price field                    |
 
 ### Configuration
 - *Country*   
@@ -624,13 +773,18 @@ This extension is used to map a PIM price field attribute to a number attribute.
 
 ![Price to tax class](/Assets/Screenshots/DataHub/Settings/ETL/Extensions/PriceToTaxClass.png "[Price to tax class]")
 
-This extension is used to map a PIM price field attribute to a tree node attribute. The PIM price field is Actindo specific and contains not only the simple price, but also the base price, scale prices, promotion prices, the tax class including the tax rate and supported currencies. Each of this data is extracted from the price attribute by the corresponding extension. In this case, the tax class is mapped by the *Price to Tax Class* extension.
+This extension is used to map a PIM price field attribute to a destination attribute. The PIM price field is Actindo specific and contains not only the simple price, but also the base price, scale prices, promotion prices, the tax class including the tax rate and supported currencies. Each of this data is extracted from the price attribute by the corresponding extension. In this case, the tax class is mapped by the *Price to Tax Class* extension.
 
-[comment]: <> (Is that right- tree node attribute?)
+### Possible data type mappings
+
+| Destination attribute data type  | Source attribute data type     |
+|----------------------------------|--------------------------------|
+| Tax class                        | Price field                    |
+| Tree node                        | Price field                    |
 
 ### Configuration
 
-The configuration depends on the selected PIM price field attribute. A single drop-down list is displayed for each tax class defined in Actindo.
+The configuration settings are only displayed when a destination attribute with the tree node data type is selected. A single drop-down list is displayed for each tax class defined in Actindo.
 
 **Map PIM-Taxclasses to corresponding Tree Nodes**
 
@@ -640,7 +794,7 @@ The configuration depends on the selected PIM price field attribute. A single dr
 - *Ermäßigt*   
   Select the tax rate to be mapped to the reduced rate in the destination attribute. All available tax rates from the destination attribute are displayed in the drop-down list.
 
-[comment]: <> (Stimmt das? When is the configuration displayed?)
+[comment]: <> (Stimmt das?)
 
 
 
@@ -648,9 +802,14 @@ The configuration depends on the selected PIM price field attribute. A single dr
 
 ![Pricing to float](/Assets/Screenshots/DataHub/Settings/ETL/Extensions/PricingToFloat.png "[Pricing to float]")
 
-This extension is used to map a PIM price field attribute to a random destination attribute. The PIM price field is Actindo specific and contains not only the simple price, but also the base price, scale prices, promotion prices, the tax class including the tax rate and supported currencies. Each of this data is extracted from the price attribute by the corresponding extension. In this case, the price itself is mapped by the *Pricing to float* extension. A discount to the price can be entered in the *Discount in percent* drop-down list. Further price settings are defined in the configuration.
+This extension is used to map a PIM price field attribute to a destination attribute. The PIM price field is Actindo specific and contains not only the simple price, but also the base price, scale prices, promotion prices, the tax class including the tax rate and supported currencies. Each of this data is extracted from the price attribute by the corresponding extension. In this case, the price itself is mapped by the *Pricing to float* extension. A discount to the price can be entered in the *Discount in percent* drop-down list. Further price settings are defined in the configuration.
 
-[comment]: <> (random destination attribute)
+### Possible data type mappings
+
+| Destination attribute data type  | Source attribute data type     |
+|----------------------------------|--------------------------------|
+| Float                            | Price field                    |
+| String                           | Price field                    |
 
 ### Configuration
 
@@ -660,7 +819,7 @@ This extension is used to map a PIM price field attribute to a random destinatio
 - *Currency*   
   Select the appropriate currency in the drop-down list. Only those currencies that are defined as a supported currency in the PIM price field attribute configuration are mapped. in All available currencies are displayed in the list.
 
-  [comment]: <> (Is that right? what currencies are mapped?)
+  [comment]: <> (Is that right?)
 
 - ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Destination gross*   
   Activate the toggle to map the gross price of the source attribute. Deactivate the toggle to map the net price.
@@ -673,7 +832,12 @@ This extension is used to map a PIM price field attribute to a random destinatio
 
 This extension is used to map a PIM price field attribute with a fallback PIM price field attribute to a number attribute. This mapping is similar to the *Pricing to float* extension with an additional fallback price. The *Special Price* attribute is always considered first when mapping. The *Fallback Price* attribute is only used as a fallback price that will be mapped when no other price is available. The fallback price attribute is mandatory. This mapping is used when at least two PIM price field attributes with different prices are maintained. Further price settings are defined in the configuration.
 
-[comment]: <> (Is that right? number destination attribute?)
+### Possible data type mappings
+
+| Destination attribute data type  | Source attribute data type     |
+|----------------------------------|--------------------------------|
+| Float                            | Price field                    |
+| String                           | Price field                    |
 
 ### Configuration
 
@@ -683,7 +847,7 @@ This extension is used to map a PIM price field attribute with a fallback PIM pr
 - *Currency*   
   Select the appropriate currency in the drop-down list. Only those currencies that are defined as a supported currency in the PIM price field attribute configuration are mapped. in All available currencies are displayed in the list.
 
-  [comment]: <> (Is that right? what currencies are mapped?)
+  [comment]: <> (Is that right?)
 
 - ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Destination gross*   
   Activate the toggle to map the gross price of the source attribute. Deactivate the toggle to map the net price.
@@ -707,6 +871,12 @@ This extension is used to map a PIM price field attribute with a fallback PIM pr
 ![Simple pricing to float](/Assets/Screenshots/DataHub/Settings/ETL/Extensions/SimplePricingToFloat.png "[Simple pricing to float]")
 
 This extension is used to map a simple price attribute to a number attribute. The simple price attribute is Actindo specific and therefore needs a special extension for mapping. As the simple price attribute is not often used, also this extension is rarely needed.  
+
+### Possible data type mappings
+
+| Destination attribute data type  | Source attribute data type     |
+|----------------------------------|--------------------------------|
+| Float                            | Simple pricing                 |
 
 ### Configuration
 
@@ -769,7 +939,7 @@ This extension is used to either map a string to a tree node attribute or a tree
 - *Relevant locale (applies for single language attributes)*   
   Select the language of the attribute value used for the mapping. This setting only applies to single language attributes. All active languages are displayed in the drop-down list.
 
-  [comment]: <> (Anwendungsbeispiel? Verstehe den Einsatz nicht so richtig...)
+  [comment]: <> (Anwendungsbeispiel für relevant locale? Verstehe den Einsatz nicht so richtig...)
 
 
 
@@ -790,7 +960,11 @@ This ETL extension has no further configuration settings.
 
 This extension is used to map a string attribute containing a date to another string attribute containing a date. The source as well as the destination date format are defined in the configuration. Further, additional modifiers can be defined to change the date by a defined time value.
 
-[comment]: <> (Is that right? destination = string)
+### Possible data type mappings
+
+| Destination attribute data type  | Source attribute data type     |
+|----------------------------------|--------------------------------|
+| String                           | String, Text field             |
 
 ### Configuration
 
@@ -801,14 +975,10 @@ This extension is used to map a string attribute containing a date to another st
   Enter the destination format of the date, for instance **Y-m-d**. The date must be entered in the php format, see https://www.php.net/manual/de/datetime.format.php.
 
 - *Modifier 1*   
-  Enter a value for the modifier to change the source date by a certain time value. For instance, enter **+ 7 days** to predate the date in the source attribute always by 7 days in the destination attribute. You can predate a date by using a plus sign, or backdate a date by using a minus sign.
-
-  [comment]: <> (modifier format? ausgeschrieben oder abkürzungen wie in destination format feld? What format is taken if nothing is defined in the configuration?)
+  Enter a value for the modifier to change the source date by a certain time value. For instance, enter **+ 7 days** to predate the date in the source attribute always by 7 days in the destination attribute. You can predate a date by using a plus sign, or backdate a date by using a minus sign. You can only enter one modification per modifier. To add further modifications, add another modifier.
 
 - ![Add](/Assets/Icons/Plus03.png "[Add]") (Add)   
-  Click this button to add another modifier. You can add an unlimited number of modifiers.
-
-  [comment]: <> (pro modifier nur ein wert ändern? oder warum brauche ich davon mehrere?)
+  Click this button to add another modifier. Enter a further value for the modifier to change the source date by a certain time value. The modifier is additionally applied to the source date. For instance, if you enter **+ 1 month** in the first modifier and **+ 1 day** in the second modifier, the destination date is predated by 1 month and 1 day. You can add an unlimited number of modifiers
 
 
 
@@ -816,15 +986,16 @@ This extension is used to map a string attribute containing a date to another st
 
 ![String to image](/Assets/Screenshots/DataHub/Settings/ETL/Extensions/StringToImage.png "[String to image]")
 
-This extension is used to map multiple string attributes to an image attribute. At least one string attribute containing an image must be selected for mapping and up to eight source attributes can be mapped. To each image you can define one or several tags.  Define the tags separator in the configuration.
+This extension is used to map multiple string attributes to an image attribute. At least one string attribute containing the image url must be selected for mapping and up to eight source attributes can be mapped. To each image you can define one or several tags. Define the tags separator in the configuration.
 
-[comment]: <> (Was wähle ich im String attribut aus? die url vom Bild? oder wie wird das zu nem image attribut?)
+[comment]: <> (Stimmt das? Ode:r To map several image urls within one source attribute, define a separator in the configuration. ?!)
 
 ### Configuration
 
 - *Separator*   
   Enter a separator that is used between multiple image tags.
-[comment]: <> (Separator correct?)
+
+[comment]: <> (Separator correct? oder between urls?)
 
 
 
@@ -837,9 +1008,8 @@ This extension is used to map multiple string attributes to a single string attr
 ### Configuration
 
 - *Glue*   
-  Enter a connector which is added before each source attribute value.
+  Enter a connector which is added between the different source attribute values.
 
-  [comment]: <> (Glue - warum wird das auch vors erste attribut geschrieben? Ist das nicht sinnfrei?)
 
 
 
@@ -924,7 +1094,13 @@ This extension is used to map a string attribute to a floating point number attr
 
 This extension is used to map a tax class and a price attribute to a PIM price field attribute. This mapping assigns the simple price as well as the tax class to the PIM price field attribute. As the PIM price field attribute also needs a currency and an indication whether the net or the gross price is specified, the default currency in the PIM system and the gross price value are mapped. To specify all values to be mapped to the PIM price field attribute, use the [PriceBuilder](#pricebuilder) extension.
 
-[comment]: <> (Ist das richtig? Immer brutto und standardwährung? oder funktioniert dieses mapping gar nicht mehr? welche source attributes werden erwartet?)
+[comment]: <> (Ist das richtig? Immer brutto und standardwährung? oder funktioniert dieses mapping gar nicht mehr?)
+
+### Possible data type mappings
+
+| Destination attribute data type  | Source attribute data type                  |
+|----------------------------------|---------------------------------------------|
+| Price field                      | Simple Price (Price), Tax class (Tax class) |
 
 ### Configuration
 This ETL extension has no further configuration settings.
@@ -938,9 +1114,7 @@ This ETL extension has no further configuration settings.
 This extension is used to map a tax class attribute to a tax class attribute. This mapping is only used when the tax class is maintained in a separate attribute and not included to the price attribute.
 
 ### Configuration
-'This extensions cannot be configured'
-
-[comment]: <> (This extensions cannot be configured???)
+This ETL extension has no further configuration settings.
 
 
 
@@ -1064,7 +1238,13 @@ This ETL extension has no further configuration settings.
 
 This extension is used to map a tree attribute to a floating number attribute. The number values in the tree node attribute are mapped to the floating point number attribute.
 
-[comment]: <> (Stimmt das? Welcher Wert wird aus dem Tree übertragen? Sind doch meistens mehrere? Oder werden dann mehrere Zielattribtue erstellt?)
+[comment]: <> (Stimmt das? Welcher Wert wird aus dem Tree übertragen? Sind doch meistens mehrere? Oder werden dann mehrere Zielattribute erstellt?)
+
+### Possible data type mappings
+
+| Destination attribute data type  | Source attribute data type          |
+|----------------------------------|-------------------------------------|
+|        Float                     | Tree node                           |
 
 ### Configuration
 This ETL extension has no further configuration settings.
@@ -1221,20 +1401,18 @@ This extension is used to map a variant attribute to a variant attribute. The va
   [comment]: <> (Welchen Sinn ergibt ein Toggle, der nicht umgeschaltet werden kann?)
 
 - ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Automatically map variant sets*   
-  Activate the toggle to automatically map the assigned variant sets of the source variant attribute and the destination variant attribute. It is recommended to Activate the toggle. Otherwise, the variant sets must be mapped manually. By default, the toggle is active.
+  Activate the toggle to automatically map the assigned variant sets of the source variant attribute and the destination variant attribute. It is recommended to activate the toggle. Otherwise, the variant sets must be mapped manually. By default, the toggle is active.
 
 - ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Automatically create variant set if no suiting variant set can be found*   
-  Activate the toggle to automatically create a variant set if the assigned variant sets of the source variant attribute and the destination variant attribute do not match. It is recommended to Activate the toggle. Otherwise, the variant set must be created manually. By default, the toggle is active. This toggle is only displayed when the *Automatically map variant sets* toggle is active.
+  Activate the toggle to automatically create a variant set if the assigned variant sets of the source variant attribute and the destination variant attribute do not match. It is recommended to activate the toggle. Otherwise, the variant set must be created manually. By default, the toggle is active. This toggle is only displayed when the *Automatically map variant sets* toggle is active.
 
 - ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Automatically add not mapped defining attributes to destination set when creating variant set*   
-  Activate the toggle to automatically add unmapped defining attributes to the created destination variant set. It is recommended to Activate the toggle. Otherwise, the defining attributes must be added manually to the attribute set. By default, the toggle is active. This toggle is only displayed when the *Automatically map variant sets* toggle is active.
+  Activate the toggle to automatically add unmapped defining attributes to the created destination variant set. It is recommended to activate the toggle. Otherwise, the defining attributes must be added manually to the attribute set. By default, the toggle is active. This toggle is only displayed when the *Automatically map variant sets* toggle is active.
 
 - ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Sync variant set in case they do not match to each other*   
-  Activate the toggle to sync the source variant set and the destination variant set if they do not match. By default, the toggle is inactive. This toggle is only displayed when the *Automatically map variant sets* toggle is inactive.
+  Activate the toggle to automatically create a variant set if the assigned variant sets of the source variant attribute and the destination variant attribute do not match. By default, the toggle is inactive. This toggle is only displayed when the *Automatically map variant sets* toggle is inactive.
 
-  [comment]: <> (Verstehe ich nicht, was diese Option macht...)
-
-- ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Do not apply master product status to children*      
+  - ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Do not apply master product status to children*      
   Activate the toggle to manage the status of all variants independently of their master product. Otherwise, the status of the main product is automatically applied to all variants in the destination attribute. By default, the toggle is inactive.
 
 
