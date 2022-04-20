@@ -239,7 +239,7 @@ For detailed information about HTML templates, see [Manage the HTML templates](/
 
 This extension is used to copy the value from a string source attribute and map it to another string attribute.
 
-[comment]: <> (Stimmt das? Datentypen? gibt es die extension überhaupt noch? Anwendungsfall? unterschied zu basic mapping?)
+[comment]: <> (Stimmt das? )
 
 ### Configuration
 This ETL extension has no further configuration settings.
@@ -818,7 +818,7 @@ This extension is used to map a string attribute containing a date to another st
 
 This extension is used to map multiple string attributes to an image attribute. At least one string attribute containing an image must be selected for mapping and up to eight source attributes can be mapped. To each image you can define one or several tags.  Define the tags separator in the configuration.
 
-[comment]: <> (Was wähle ich im  String attribut aus? die url vom Bild? oder wie wird das zu nem image attribut?)
+[comment]: <> (Was wähle ich im String attribut aus? die url vom Bild? oder wie wird das zu nem image attribut?)
 
 ### Configuration
 
@@ -1111,7 +1111,7 @@ This ETL extension has no further configuration settings.
 
 This extension is used to map an unit attribute to a number attribute. A unit attribute always includes a unit and a quantity. Only the quantity value is mapped to the destination attribute. To map the quantity value in the correct unit, the quantity is calculated into the unit of the destination attribute. Define the unit in the configuration.
 
-[comment]: <> (Is that right? If not - how can a unit be mapped to a number attribute?)
+[comment]: <> (Is that right?)
 
 ### Configuration
 - *Unit to convert to*   
