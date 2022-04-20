@@ -205,8 +205,12 @@ The supplier receipt is acquired and displayed in the *Overview* tab.
 
   > [Info] To be able to enter the supplier receipt in the system, they need to be released in the *Purchasing* module first. For detailed information, see [Check supplier receipts](#to-be-completed). Once they have been released in the *Purchasing* module, the status changes to **released** (colour yellow-green) in the *Status* column.
 
-11. Click the *Financial accounting takeover* tab and select the receipt to be entered in the system. Double check all booking details. Click the [TAKE OVER SELECTED ONES] button.   
-The receipt is now registered in the *Accounting* module. The booking is displayed in the bookings list. An open item for the corresponding supplier (creditor) is created.
+11. Click the *Financial accounting takeover* tab and select the receipt to be entered in the system.
+
+  > [Info] When selecting a receipt, the receipt data are displayed in the entry line. Some changes can still be made here before takeover and saved with the [SAVE] button.
+
+ Double check all booking details and, if no further changes are needed, click the [TAKE OVER SELECTED ONES] button.   
+ The receipt is now registered in the *Accounting* module. The booking is displayed in the bookings list. An open item for the corresponding supplier (creditor) is created.
 
   ![Financial accounting takeover](/Assets/Screenshots/RetailSuiteAccounting/Book/SupplierReceiptsTakeover.png "[Financial accounting takeover]")
 
