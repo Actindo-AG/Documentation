@@ -1,4 +1,4 @@
-menu entry[!!Accounting](RetailSuiteAccounting)
+[!!Accounting](RetailSuiteAccounting)
 
 # Book
 
@@ -1062,12 +1062,19 @@ Click this button to create the evaluation in a printable format.
 Enter the month(s) to be included.
 
 - *Journals*  
-Enter the journals to be included.
+Enter the journal(s) to be included.
 
 - *Sorting*  
 Click the drop-down list to select the sorting mode.
 
 [comment]: <> (Altdoku: Das Journal lässt sich nach Kostenstellen und Kostenträgern sortieren und auswerten. Bei einer Auswahl in diesem Feld werden nur Buchungen ausgegeben, die den ausgewählten Kostenträger oder Kostenstelle betreffen. Stimmt es so? Was bedeutet hier "normal"?)
+
+- [CANCEL]  
+Click this button to cancel your selection.
+
+- [PRINT]  
+Click this button to create the evaluation in a printable format.
+
 
 ### Balance list
 
