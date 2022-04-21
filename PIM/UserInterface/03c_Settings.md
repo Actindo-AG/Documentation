@@ -8,7 +8,7 @@
 
 - ![Edit](/Assets/Icons/Edit02.png "[Edit]") (Edit)   
   Click this button to edit the attribute groups. The *Edit Attribute Groups* view is displayed.   
-  For detailed information, see [Edit an attribute group](/PIM/Integration/03_ManageGroups.md#edit-an-attribute-group).
+  For detailed information, see [Edit an attribute group](/PIM/Integration/03_ManageAttributeGroups.md#edit-an-attribute-group).
 
 - ![Folders](/Assets/Icons/Folders01.png "[Folders]") (Folders)  
   Attribute group that contains attribute sub-groups. Click the attribute group or the arrow *>* left to the attribute group to unfold the group and display the attribute sub-groups.
@@ -154,7 +154,7 @@ The list displays all attributes that are not assigned to the selected attribute
 
 - ![Add](/Assets/Icons/Plus01.png "[Add]") (Add)   
   Click this button to add an attribute group or sub-group. A plus sign is displayed in each displayed column. Click the plus sign in the desired column to add a new attribute group or sub-group to the selected attribute group. The *Add Element* window is displayed.    
-  For detailed information about creating attribute groups or sub-groups, see [Create an attribute group](/PIM/Integration/03_ManageGroups.md#create-an-attribute-group) or [Create an attribute sub-group](/PIM/Integration/03_ManageGroups.md#create-an-attribute-sub-group).
+  For detailed information about creating attribute groups or sub-groups, see [Create an attribute group](/PIM/Integration/03_ManageAttributeGroups.md#create-an-attribute-group) or [Create an attribute sub-group](/PIM/Integration/03_ManageAttributeGroups.md#create-an-attribute-sub-group).
 
 
 ### Add element

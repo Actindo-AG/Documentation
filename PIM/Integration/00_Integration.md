@@ -20,14 +20,14 @@
 
 
 - [Manage the attribute groups](03_ManageAttributeGroups.md)
-  - [Create an attribute group](03_ManageGroups.md#create-an-attribute-group)
-  - [Edit an attribute group](03_ManageGroups.md#edit-an-attribute-group)
-    - [Create an attribute sub-group](03_ManageGroups.md#create-an-attribute-sub-group)
-    - [Change the order of attribute groups](03_ManageGroups.md#change-the-order-of-attribute-groups)
-    - [Delete an attribute group](03_ManageGroups.md#delete-an-attribute-group)
-    - [Add attributes to a group](03_ManageGroups.md#add-attributes-to-a-group)
-    - [Change the order of attributes within a group](03_ManageGroups.md#change-the-order-of-attributes-within-a-group)
-    - [Remove attributes from a group](03_ManageGroups.md#remove-attributes-from-a-group)
+  - [Create an attribute group](03_ManageAttributeGroups.md#create-an-attribute-group)
+  - [Edit an attribute group](03_ManageAttributeGroups.md#edit-an-attribute-group)
+    - [Create an attribute sub-group](03_ManageAttributeGroups.md#create-an-attribute-sub-group)
+    - [Change the order of attribute groups](03_ManageAttributeGroups.md#change-the-order-of-attribute-groups)
+    - [Delete an attribute group](03_ManageAttributeGroups.md#delete-an-attribute-group)
+    - [Add attributes to a group](03_ManageAttributeGroups.md#add-attributes-to-a-group)
+    - [Change the order of attributes within a group](03_ManageAttributeGroups.md#change-the-order-of-attributes-within-a-group)
+    - [Remove attributes from a group](03_ManageAttributeGroups.md#remove-attributes-from-a-group)
 
 
 - [Configure the language settings](04_ConfigureLanguages.md)
