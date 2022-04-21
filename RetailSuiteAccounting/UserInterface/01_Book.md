@@ -558,7 +558,7 @@ Click the drop-down list to select the applicable accounts. The following accoun
  - **Open items creditors**  
  Select this option to check for exchange rate differences in creditors accounts.
  - **Individual**  
- Select this option to enter a self-defined account number range. When selecting this option, two new range fields (*from* - *to*) are displayed. Enter the applicable account number range in these fields.
+ Select this option to enter a self-defined account number range. When selecting this option, two new fields (*from* - *to*) are displayed. Enter the applicable account number range in these fields.
 
     ![Foreign currency wizard - Individual](/Assets/Screenshots/RetailSuiteAccounting/Book/ForeignCurrencyWizardWindow02.png "[Foreign currency wizard - Individual]")
 
@@ -820,7 +820,7 @@ When placing the cursor on a column header, three vertical points are displayed 
 - ![Columns](/Assets/Icons/Columns02.png "[Columns]") Columns  
   Place the mouse on this entry to display the *Columns* sub-menu. Add or remove columns by marking or unmarking the corresponding checkbox.
 - ![Checbox](/Assets/Icons/Checkbox02.png "[Checkbox]") Filter  
-  Place the mouse on this entry to display the search bar. Enter a search value in the search bar and mark the checkbox to filter the rows according to the search value.
+  Place the mouse on this entry to display the search bar. Enter a search value in the search bar and click the checkbox to filter the rows according to the search value.
 
 
 All information provided in columns is read-only, except for the *Doc* column.
@@ -928,7 +928,7 @@ Enter a page number to go to a specific page.
 The *Financial account takeover* tab displays all receipts with **Released** status. An extra column displaying checkboxes is added.
 
 - [x] (Checkbox)  
-Mark the checkbox in the column header to select all receipts listed. Mark the checkbox in one or more individual receipts to take over only the selected ones.
+Click the checkbox in the column header to select all receipts listed. Click the checkbox in one or more individual receipts to take over only the selected ones.
 
 When selecting a receipt, changes can still be made before takeover. For detailed information about booking supplier receipts, see [Book a supplier receipt](/RetailSuiteAccounting/Operation/10_ManageREceipts.md#book-a-supplier-receipt).
 
@@ -988,7 +988,7 @@ This menu allows to create and print out different sorts of evaluations for anal
   ![Account balance](/Assets/Screenshots/RetailSuiteAccounting/Book/AccountBalance.png "[Account balance]")
 
 - *Account*  
-Enter the account number to be evaluated.
+Enter the account number to be displayed.
 
 - *Date*  
 Enter the period to be included. The currently selected fiscal year is displayed by default.
@@ -1024,10 +1024,10 @@ Click this button to create the evaluation in a printable format.
   ![Account sheet](/Assets/Screenshots/RetailSuiteAccounting/Book/AccountSheet.png "[Account sheet]")
 
 - *Newly booked accounts* [checkbox]  
-Mark the checkbox to include only the newly added bookings.
+Select the checkbox to include only the newly added bookings.
 
 - *Kennzeichen zurücksetzen* [checkbox]  
-Mark the checkbox to...
+Select the checkbox to...
 
 [comments]: <> (Setzen Sie einen Haken in das Kästchen, wenn nur die neu hinzugefügten Buchungen in dem Kontenblatt ausgegeben werden soll. Damit diese Funktion greift, muss zusätzlich das Feld Kennzeichen zurücksetzen angewählt werden. Stimmt das so?)
 
@@ -1038,7 +1038,7 @@ Enter of period to be included.
 You can narrow down the period to be included specifying the dates. Date format must be DDMMYY.
 
 - *Accounts*  
-Enter the account(s) to be included.
+Enter the account(s) to be displayed.
 
 - *Sorting*  
 Click the drop-down list to select the sorting mode.
@@ -1082,11 +1082,93 @@ Click this button to create the evaluation in a printable format.
 
   ![Balance list](/Assets/Screenshots/RetailSuiteAccounting/Book/BalanceList.png "[Balance list]")
 
+- *Month*  
+Click the drop-down list to select the month to be included. The following options are available:  
+
+  - **0 - Balances carried forward**
+  - **1 - 12 - (months)**
+  - **13 - 15 - Subsequent bookings**
+  - **16 - 25 - Closing bookings**
+  - **99 - General month**
+
+
+- *Accounts*  
+Click the drop-down list to select the accounts to be displayed. The following options are available:  
+
+ - **Impersonal accounts**  
+ Select this option to include impersonal accounts only.
+ - **Customers (10000 - 69999)**  
+ Select this option to include customers accounts only.
+ - **Suppliers (70000 - 99999)**  
+ Select this option to include suppliers accounts only.
+ - **Individual**  
+ Select this option to enter a self-defined account number range. When selecting this option, two new fields (*Accounts from* - *Accounts to*) are displayed. Enter the applicable account number range in these fields.
+
+   ![Balance list](/Assets/Screenshots/RetailSuiteAccounting/Book/BalanceList02.png "[Balance list]")
+
+
+- *Layout*  
+Click the drop-down list to select the preferred layout. There are two options available:  
+
+ - **Normal**
+ - **Balance list**
+
+ [comment]: <> (Difference? to be completed!)
+
+- *Sorting*  
+Click the drop-down list to select the sorting mode.
+
+[comment]: <> (Altdoku: Das Journal lässt sich nach Kostenstellen und Kostenträgern sortieren und auswerten. Bei einer Auswahl in diesem Feld werden nur Buchungen ausgegeben, die den ausgewählten Kostenträger oder Kostenstelle betreffen. Stimmt es so? Was bedeutet hier "normal"?)
+
+- [CANCEL]  
+  Click this button to cancel your selection.
+
+- [PRINT]  
+  Click this button to create the evaluation in a printable format.
+
 ### Open items
 
 *Accounting > Select fiscal year > Book > Context menu EVALUATIONS > Menu entry Open items*
 
   ![Open items](/Assets/Screenshots/RetailSuiteAccounting/Book/OpenItems.png "[Open items]")
+
+  - *Accounts*  
+  Click the drop-down list to select the accounts to be displayed. The following options are available:  
+
+    - **Customers (10000 - 69999)**  
+    Select this option to include customers accounts only.
+    - **Suppliers (70000 - 99999)**  
+    Select this option to include suppliers accounts only.
+    - **Individual**  
+    Select this option to enter a self-defined account number range. When selecting this option, two new fields (*Accounts*) are displayed. Enter the applicable account number range in these fields.
+
+      ![Open items](/Assets/Screenshots/RetailSuiteAccounting/Book/OpenItems02.png "[Open items]")
+
+  - *Month up to*  
+  Click the drop-down list to select the month(s) to be included. The following options are available:
+    - **0 - Balances carried forward**
+    - **1 - 12 - (months)**
+    - **13 - 15 - Subsequent bookings**
+    - **16 - 25 - Closing bookings**
+    - **99 - General month**
+
+    > [Info] The field name *Month up to* implies that actually a month range is selected. This means that all months between month 0 and the selected drop-down list option are displayed.
+
+  - *Format*  
+  Click the drop-down list to select the preferred format. The following options are available:
+    - **Short format**  
+    - **Short format, reduce bookings**  
+    - **Detailed**
+
+
+  - *Print manually cleared open items* [x]  
+  Select the checkbox to include all manually cleared open items.
+
+  - [CANCEL]  
+  Click this button to cancel your selection.
+
+  - [PRINT]  
+  Click this button to create the evaluation in a printable format.
 
 
 ### BWA
@@ -1095,12 +1177,101 @@ Click this button to create the evaluation in a printable format.
 
   ![BWA](/Assets/Screenshots/RetailSuiteAccounting/Book/BWA.png "[BWA]")
 
+  - *Sorting*  
+Click the drop-down list to select the sorting mode.
+
+- [x] *Print cost center allocation*  
+Select the checkbox to display the cost center allocation.
+
+- *Month from - to*  
+Click the drop-down list to select the month range to be included. The following options are available:
+
+  - **0 - Balances carried forward**
+  - **1 - 12 - (months)**
+  - **13 - 15 - Subsequent bookings**
+  - **16 - 25 - Closing bookings**
+  - **99 - General month**   
+
+
+- *Comparison year* - *Comparison year 2*  
+Click the drop-down list to select two different years to be compared with each other. If no year for comparison exists, the option **no year for comparison** is displayed.
+
+- *BWA number*  
+Click the drop-down list to select the BWA report type to be created. The following options are available per default:
+
+  - **Profit and loss account**
+  - **Cash basis accounting**
+  - **Liquidity statement**
+  - **Liquidity**
+  - **Monthly balance**
+
+  > [Info] These evaluation reports are preconfigured in the system. All available reports can be completely customized or used as provided, and new reports can be created. Any newly created reports will be displayed in the drop-down list. For detailed information about creating and managing BWA reports, see [Manage BWA reports](/RetailSuiteAccounting/Operation/07_ManageBWAReports.md)
+
+- *Layout*  
+Click the drop-down list to select the preferred layout.
+
+  - **Month - cum. - cum. previous year**
+  - **13 months cumulative**
+  - **Previous year comparison**
+  - **13 months with comparison**
+
+
+- *Show account*  
+Click the drop-down list to select whether or not the account number is to be included.
+
+- [CANCEL]  
+Click this button to cancel your selection.
+
+- [PRINT]  
+Click this button to create the evaluation in a printable format.
+
+
+For detailed information about creating a BWA evaluation, see [Create a PDF evaluation](/RetailSuiteAccounting/Operation/15_ProvideAccountingData.md#create-a-pdf-evaluation).
+
 
 ### ProfitCenter
 
 *Accounting > Select fiscal year > Book > Context menu EVALUATIONS > Menu entry ProfitCenter*
 
   ![ProfitCenter](/Assets/Screenshots/RetailSuiteAccounting/Book/ProfitCenter.png "[ProfitCenter]")
+
+- *Month*  
+Click the drop-down list to select the month to be included. The following options are available:  
+
+  - **0 - Balances carried forward**
+  - **1 - 12 - (months)**
+  - **13 - 15 - Subsequent bookings**
+  - **16 - 25 - Closing bookings**
+  - **99 - General month**  
+  
+
+- *Comparison year*
+
+no comp. year
+
+- *Cost unit group*  
+
+
+
+- *BWA number*  
+  Click the drop-down list to select the BWA report type to be created. The following options are available per default:
+
+    - **Profit and loss account**
+    - **Cash basis accounting**
+    - **Liquidity statement**
+    - **Liquidity**
+    - **Monthly balance**
+
+
+  Layout
+  Month - Month previous year
+  Month - cum. - cum. previous year
+  13 months
+  Front page
+
+
+  CANCEL
+  PRINT
 
 
 ### Cost unit comparison
