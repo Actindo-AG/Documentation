@@ -105,8 +105,6 @@ The list displays all attributes. All fields are read-only. Depending on the set
 - [SAVE]   
   Click this button to save the attribute, close the *Create Attribute* view and return to the attributes list.
 
-**BASIC DATA**
-
 - *Name (Language)*   
   Enter an attribute name in the selected language.
 
@@ -162,8 +160,6 @@ For detailed information about the different configurations of data types, see [
 
 - [SAVE]   
   Click this button to save the attribute, close the *Edit Attribute* view and return to the attributes list.
-
-**BASIC DATA**
 
 - *Name (Language)*   
   Click the field to edit the attribute name in the selected language.
