@@ -79,7 +79,7 @@ The *ACCOUNT SHEET* tab displays a chronologically ordered list of all movements
 
 *Accounting > Select fiscal year > Book > Tab ACCOUNT SHEET*
 
-![Account sheet - no account selected](/Assets/Screenshots/RetailSuiteAccounting/Book/AccountSheet/AccountSheet_noAccount.png "[Account sheet - no account selected]")
+![Account sheet - no account selected](/Assets/Screenshots/RetailSuiteAccounting/Book/AccountSheet/AccountSheetNoAccount.png "[Account sheet - no account selected]")
 
 > [Info] When clicking the *ACCOUNT SHEET* tab, a blank tab and the message "No account selected" may be displayed. An account or contra account must be selected to display the corresponding details.
 
@@ -91,7 +91,7 @@ A chronologically ordered list of all bookings in the selected account is displa
 2. Select *[All months]* or *[Only this month]* radio button to filter the bookings to be displayed as necessary.  
 The bookings for all months (entire fiscal year) or for the current month are displayed.
 
-  ![Account sheet](/Assets/Screenshots/RetailSuiteAccounting/Book/AccountSheet/AccountSheet_accounts.png "[Account sheet]")
+  ![Account sheet](/Assets/Screenshots/RetailSuiteAccounting/Book/AccountSheet/AccountSheet.png "[Account sheet]")
 
 ### Next steps
 
