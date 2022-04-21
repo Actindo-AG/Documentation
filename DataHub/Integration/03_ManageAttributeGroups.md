@@ -181,7 +181,7 @@ You can add attributes to a group or sub-group. Note that you can add an attribu
 2. Click the ![Add](/Assets/Icons/Plus01.png "[Add]") (Add) button in the bottom right corner.   
   The *Add Attributes To Group* view is displayed.
 
-  ![Add attributes](/Assets/Screenshots/DataHub/Settings/AttributeGroups/AddAttributesGroup.png "[Add attributes]")
+  ![Add attributes](/Assets/Screenshots/DataHub/Settings/AttributeGroups/AddAttributes.png "[Add attributes]")
 
 3. Select the checkboxes of the attributes in the list, you want to add to the selected group.   
   A toolbar is displayed above the list.
