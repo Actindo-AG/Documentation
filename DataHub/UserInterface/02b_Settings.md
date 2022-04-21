@@ -24,11 +24,11 @@
   Select the checkbox to display the editing toolbar. If you click the checkbox in the header, all attribute sets in the list are selected.
 
 - [EXPORT]   
-  Click this button to export the selected attribute set. The export wizard window is displayed. This button is only displayed, when the checkbox of at least one attribute set is selected. For detailed information, see [Export an attribute set](/PIM/Integration/02_ManageAttributeSets.md#export-an-attribute-set).
+  Click this button to export the selected attribute set. The export wizard window is displayed. This button is only displayed, when the checkbox of at least one attribute set is selected. For detailed information, see [Export an attribute set](/DataHub/Integration/02_ManageAttributeSets.md#export-an-attribute-set).
 
 - [EDIT]
   Click this button to edit the selected attribute set. This button is only displayed, when a single checkbox of an attribute set is selected. Alternatively, you can click directly a row in the list to edit a attribute set.
-  For detailed information, see [Edit an attribute set](/PIM/Integration/02_ManageAttributeSets.md#edit-an-attribute-set).
+  For detailed information, see [Edit an attribute set](/DataHub/Integration/02_ManageAttributeSets.md#edit-an-attribute-set).
 
 - [DELETE]
   Click this button to delete the selected attribute set. This button is only displayed, when the checkbox of at least one attribute set is selected.       
@@ -250,7 +250,7 @@ The list displays all attributes assigned to the selected attribute set. When th
   Inheritance attribute set. The name of the attribute set from which the attribute value is inherited is displayed. If the attribute value is not inherited, the row is empty.
 
 - *Plugin*   
-  Module or plugin from which the attribute is created. In the *PIM* module, only PIM attributes are displayed.
+  Module or plugin from which the attribute is created.
 
   [comment]: <> (Is that correct?)
 
