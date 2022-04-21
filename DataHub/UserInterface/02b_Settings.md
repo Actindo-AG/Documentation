@@ -4,12 +4,8 @@
 
 ![Attribute sets](/Assets/Screenshots/DataHub/Settings/AttributeSets/AttributeSets.png "[Attribute sets]")
 
-- [IMPORT]   
-  Click this button to import an attribute set and start the import wizard.   
-  For detailed information, see [Import an attribute set](/DataHub/Integration/02_ManageAttributeSets.md#import-an-attribute-set).
-
 - ![Search](/Assets/Icons/Search.png "[Search]") (Search)   
-  Click this button to display the search bar and search for a attribute sets.
+  Click this button to display the search bar and search for an attribute set.
 
 - ![Refresh](/Assets/Icons/Refresh01.png "[Refresh]") (Refresh)   
   Click this button to update the list of attribute sets.
@@ -23,9 +19,6 @@
 - [x]     
   Select the checkbox to display the editing toolbar. If you click the checkbox in the header, all attribute sets in the list are selected.
 
-- [EXPORT]   
-  Click this button to export the selected attribute set. The export wizard window is displayed. This button is only displayed, when the checkbox of at least one attribute set is selected. For detailed information, see [Export an attribute set](/DataHub/Integration/02_ManageAttributeSets.md#export-an-attribute-set).
-
 - [EDIT]
   Click this button to edit the selected attribute set. This button is only displayed, when a single checkbox of an attribute set is selected. Alternatively, you can click directly a row in the list to edit a attribute set.
   For detailed information, see [Edit an attribute set](/DataHub/Integration/02_ManageAttributeSets.md#edit-an-attribute-set).
@@ -38,16 +31,16 @@
 The list displays all attribute sets. All fields are read-only. Depending on the settings, the displayed columns may vary.
 
 - *Name*   
-  Product type name.
+  Attribute set name.
 
 - *Key*   
-  Product type key.
+  Attribute set key.
 
 - *Description*   
   Description to the attribute set.
 
 - *Status*   
-  Product type status. The following statuses are available:
+  Attribute set status. The following statuses are available:
   - ![Status](/Assets/Icons/Status01.png "[Status]") **Active**
   - ![Status](/Assets/Icons/Status04.png "[Status]") **Inactive**   
 
@@ -62,7 +55,7 @@ The list displays all attribute sets. All fields are read-only. Depending on the
   Module or plugin from which the attribute set is created.
 
 - *ID*   
-  Product type identification number. The ID number is automatically assigned by the system.
+  Attribute set identification number. The ID number is automatically assigned by the system.
 
 - *Modified on*   
   Date and time of the last modification.
