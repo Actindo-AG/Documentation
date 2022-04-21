@@ -144,9 +144,9 @@ Accounting data can be exported for business evaluation  purposes. The system of
 
 ### Procedure
 
-*Accounting > Select fiscal year > Book > Context menu ASSESSMENTS > Menu entry BWA*
+*Accounting > Select fiscal year > Book > Context menu EVALUATIONS > Menu entry BWA*
 
-  ![Assessments](/Assets/Screenshots/RetailSuiteAccounting/Book/AssessmentsBWA.png "[Assessments]")
+  ![Evaluations](/Assets/Screenshots/RetailSuiteAccounting/Book/EvaluationsBWA.png "[Evaluations]")
 
 1. Click the *BWA* menu entry.  
 The window *BWA* is displayed.  
