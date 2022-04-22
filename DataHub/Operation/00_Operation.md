@@ -8,7 +8,7 @@
     - [Delete an ETL attribute mapping](01_ManageETLMappings.md#delete-an-etl-attribute-mapping)
   - [Rerun the ETL attribute mapping](01_ManageETLMappings.md#rerun-the-etl-attribute-mapping)
     - [Rerun a single attribute mapping](01_ManageETLMappings.md#rerun-a-single-attribute-mapping)
-    - [Rerun all attribute mappings](01_ManageETLMappings.md#rerun-all-attribute-mappings)
+    - [Rerun an attribute set mapping](01_ManageETLMappings.md#rerun-an-attribute-set-mapping)
 
 
 - [Manage the ETL processes](02_ManageETLProcesses.md)

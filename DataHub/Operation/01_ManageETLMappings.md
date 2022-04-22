@@ -321,7 +321,7 @@ At least one ETL attribute set mapping is created, see [Create an ETL mapping](#
 
   ![Mapping](/Assets/Screenshots/DataHub/Settings/ETL/Mapping.png "[Mapping]")
 
-2. Click the [RERUN MAAPPINGS] button in the upper right corner.   
+2. Click the [RERUN MAPPINGS] button in the upper right corner.   
   The *Rerun all mappings* window is displayed.
 
   ![Rerun all mapping](/Assets/Screenshots/DataHub/Settings/ETL/RerunSingleMapping.png "[Rerun single mapping]")
