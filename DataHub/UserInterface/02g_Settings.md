@@ -57,7 +57,7 @@ The list displays all dimensions. All fields are read-only. Depending on the set
 
 ## Detail list of dimension
 
-*DataHub > Settings > Tab UNITS AND DIMENSIONS*
+*DataHub > Settings > Tab UNITS AND DIMENSIONS > Select dimension*
 
 ![Detail list of dimension](/Assets/Screenshots/DataHub/Settings/UnitsDimensions/DetailListDimension.png "[Detail list of dimension]")
 
