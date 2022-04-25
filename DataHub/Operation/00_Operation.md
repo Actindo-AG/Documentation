@@ -15,3 +15,9 @@
   - [Check the ETL process status](02_ManageETLProcesses.md#check-the-etl-process-status)
   - [Confirm an ETL process](02_ManageETLProcesses.md#confirm-an-etl-process)
   - [Retry a faulty ETL process](02_ManageETLProcesses.md#retry-a-faulty-etl-process)
+
+
+- [Manage the HTML templates](03_ManageHTMLTemplates.md)
+  - [Create an HTML template](03_ManageHTMLTemplates.md#create-an-html-template)
+  - [Edit an HTML template](03_ManageHTMLTemplates.md#edit-an-html-template)
+  - [Preview an HTML template](03_ManageHTMLTemplates.md#preview-an-html-template)
