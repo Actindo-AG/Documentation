@@ -29,6 +29,7 @@ Additionally, the following cross-tab functions are contained.
 
 Click the *FY/MONTH/JOURNAL* button to display the select fiscal year window. For detailed information, see [Fiscal year](00a_FiscalYear.md) and [Select a fiscal year](/RetailSuiteAccounting/Operation/01_SelectFiscalYear.md).
 
+New fiscal years can be created, edited or deleted. For detailed information about managing fiscal years, see [Manage the fiscal year](/RetailSuiteAccounting/Integration/04_ManageFiscalYear.md).
 
 ## EDIT
 
@@ -39,14 +40,14 @@ Click the *EDIT* button to display the context menu.
   ![EDIT](/Assets/Screenshots/RetailSuiteAccounting/Book/Edit.png "[EDIT]")
 
   - *Cash book takeover*  
-  Click this menu entry to display the *Cash book takeover* window, see [Cash book takeover](#cash-book-takeover).
+  Click this menu entry to take over automatically cash payments registered in the cash book. The *Cash book takeover* window is displayed, see [Cash book takeover](#cash-book-takeover).
 
   [comment]: <> (RS FH about function and need of procedure. How is it used by customers?)
 
   - *Bank data takeover*  
-  Click this menu entry to display the *Bank data synchronizing* window, see [Bank data takeover](#bank-data-takeover).
+  Click this menu entry to take over bank and payment details registered in the *Payment processing* module. The *Bank data synchronizing* window is displayed, see [Bank data takeover](#bank-data-takeover).
 
-  [comment]: <> (RS FH about function and need of procedure. How is it used by customers?)
+  [comment]: <> (RS FH about function and need of procedure. How is it used by customers? FH: It can probably be deleted. It is no longer/hardly? used and will be deleted in next releases. To be confirmed!)
 
   - ![Lock](/Assets/Icons/Lock02.png "[Lock]") *Process*  
   Click this menu entry to process one of several bookings in a booking period. The *Process bookings* window is displayed, see [Process](#process).
@@ -55,16 +56,17 @@ Click the *EDIT* button to display the context menu.
   Click this menu entry to delete one or several bookings simultaneously. The *Delete bookings* window is displayed, see [Delete](#delete).
 
   - ![Lock](/Assets/Icons/Lock02.png "[Lock]") *Lock months*  
-  Click this menu entry to lock one or several months for bookings. The *Lock months* window is displayed, see [Lock months](#Lock months).
+  Click this menu entry to lock one or several months for bookings. The *Lock months* window is displayed, see [Lock months](#Lock-months).
 
   - *Balance carried forward*  
   Click this menu entry to carry forward balances from the previous fiscal year. The *Balance carried forward: step 1* window is displayed, see [Balance carried forward](#balance-carried-forward).
 
   - *Foreign currency wizard*  
-  Click this menu entry to carry forward balances from the previous fiscal year. The *Foreign currency wizard* window is displayed, see [Foreign currency wizard](#foreign-currency-wizard).
+  Click this menu entry to carry book automatically currency exchange differences. The *Foreign currency wizard* window is displayed, see [Foreign currency wizard](#foreign-currency-wizard).
 
   - *Supplier receipts*  
-  Click this menu entry to carry forward balances from the previous fiscal year. The *Supplier receipts* window is displayed, see [Supplier receipts](#supplier-receipts).
+  Click this menu entry to book specifically supplier receipts. The *Supplier receipts* window is displayed, see [Supplier receipts](#supplier-receipts).
+
 
 ### Cash book takeover  
 
@@ -77,46 +79,45 @@ This window displays all cash payments registered in the cash book, which can be
 [comment]: <> (Add link when docu available: For detailed information, see ...)
 
   - *Seq. no.*  
-    Sequential number as registered in the cash book
+    Sequential number as registered in the cash book.
 
-  - [X]
-   *T (Take over booking)*  
+  - [x] *T (Take over booking)*  
    Select this checkbox to take over an individual booking.
 
   - *BP*  
-    Booking period as registered in the cash book
+    Booking period as registered in the cash book.
 
   - *Jnl*  
-    Journal as registered in the cash book
+    Journal as registered in the cash book.
 
   - *Turnover*  
     Turnover value as registered in the cash book. Revenues display a positive sign. Expenditures display a negative sign.
 
   - *Contra Account*  
-    Contra Account as registered in the cash booking
+    Contra Account as registered in the cash booking.
 
   [comment]: <> (No account in cash book! What does the number stand for? As "Unbekannt!")   
 
   - *Receipt1*  
-    Receipt 1 as registered in the cash book
+    Receipt 1 as registered in the cash book.
 
   - *Receipt2*  
-    Receipt 2 as registered in the cash book
+    Receipt 2 as registered in the cash book.
 
   - *Date*  
-    Date as registered in the cash book
+    Date as registered in the cash book.
 
   - *Account*  
-    Account as registered in the cash book
+    Account as registered in the cash book.
 
   - *Cst1*  
-    Cost 1 as registered in the cash book
+    Cost 1 as registered in the cash book.
 
   - *Cst2*  
-    Cost 2 as registered in the cash book
+    Cost 2 as registered in the cash book.
 
   - *Text*  
-    Free text as registered in the cash book
+    Free text as registered in the cash book.
 
 
   - [SELECT ALL]     
@@ -126,15 +127,15 @@ This window displays all cash payments registered in the cash book, which can be
     Click this button to deselect all bookings.
 
   - *Amount*  
-    Total amount of all bookings in the cash book
+    Total amount of all bookings in the cash book.
 
 
-An individual booking from the cash book can be selected and edited before takeover. Click the booking to be edited. Its details are displayed in the entry line.
+An individual booking from the cash book can be selected and partially edited before takeover. Click the booking to be edited. Its details are displayed in the entry line.
 
-[comment]: <> (Unsure! RS FH. Add procedure file? RS HG/FH!)
+[comment]: <> (Unsure! RS FH. Add operartion file? RS FH!)
 
   - *Seq. no.*  
-   This field displays the book sequential number and cannot be modified.  
+   This field displays the booking sequential number and cannot be modified.  
 
   - *Turnover*  
   This field displays the turnover and cannot be modified.
@@ -171,7 +172,7 @@ An individual booking from the cash book can be selected and edited before takeo
   - [DELETE]    
   Click this button to delete the selected booking.
 
-  [comment]: <> (FEHLER: löschen hier nicht mehr möglich! -> even though takeover not yet performed? Probably because it is linked to cash book/Kassenbuch? What is the use of this button here? RS FH)
+  [comment]: <> (FEHLER: löschen hier nicht möglich! -> even though takeover not yet performed? Probably because it is linked to cash book/Kassenbuch? What is the use of this button here? RS FH)
 
   - [CLEAR]    
   Click this button to clear all entry line fields.
@@ -179,13 +180,15 @@ An individual booking from the cash book can be selected and edited before takeo
   - [SPLIT]    
   Click this button to split the selected booking.
 
-  [comment]: <> (Fehlermeldungen: beim klicking auf SPLIT -> Unbekannte Bankbuchung. Wenn man versucht, eine Splitbuchung zu machen -> Meldung: Gebucht und in rot "Umsatz, GegKonto, Datum oder Konto leer! Ungültiges Datum!" Alle Felder waren aber richtig ausgefüllt, jetzt erscheining sie aber alle auf 0, außer GegKonto und Text)
+  [comment]: <> (Fehlermeldungen: beim klicking auf SPLIT -> Unbekannte Bankbuchung. Wenn man versucht, eine Splitbuchung zu machen -> Meldung: Gebucht und in rot "Umsatz, GegKonto, Datum oder Konto leer! Ungültiges Datum!" Alle Felder sind aber richtig ausgefüllt, jetzt zeigen sie aber alle 0, außer Beleg 1, GegKonto und Text)
 
   - [SAVE]    
   Click this button to take over the selected bookings.
 
 
 ### Bank data takeover  
+
+[comment]: <> (This function is supposed to be deleted in a next release. Delete from here? Still in use? for how long? Worth completing it? RS FH/HG!)
 
 *Accounting > Select fiscal year > Book > Context menu EDIT > Menu entry Bank data takeover*
 
@@ -195,30 +198,32 @@ This screen is also available in the *Payment processing* module. Both modules a
 
 [comment]: <> (Link when available?)
 
- - *Bank account*  
- Click the drop-down list to select the bank account which data must be imported.
+  - *Bank account*  
+  Click the drop-down list to select the bank account where data must be imported from.
 
  - *Load registered* [x]  
- Click this checkbox to activate the [SHOW REGISTERED] button.
+  Click this checkbox to activate the [SHOW REGISTERED] button.
 
   > [Info] This function is per default deactivated to reduce system overload and improve performance. This default setting can be changed in the *Settings* menu entry of the *Payment processing* module.
 
-  [comment]: <> (Add link when available?)
+  [comment]: <> (Add link when available)
 
- - *FY/month*  
- Click the corresponding drop-down list to select the fiscal year and month of the data to be displayed.
+  - *FY/month*  
+  Click the corresponding drop-down list to select the fiscal year and month of the data to be displayed.
 
- - [RETRIEVE/IMPORT]  
- Click this button to display the *Retrieve bank data* window, see [Retrieve bank data](#retrieve-bank-data).
+  - [RETRIEVE/IMPORT]  
+  Click this button to display the *Retrieve bank data* window, see [Retrieve bank data](#retrieve-bank-data).
 
- - [SHOW REGISTERED]  
- Click this button to display all booked payments.
+[comment]: <> (RS FH needed. I did not manage to import bank data.)
 
- - [SHOW HIDDEN]  
- Click this button to display all hidden payments.
+  - [SHOW REGISTERED]  
+  Click this button to display all booked payments.
 
- - [QUICK SEARCH]  
- Click this button to display the *QUICK SEARCH* context menu. Payments can be searched for using the following search criteria:
+  - [SHOW HIDDEN]  
+  Click this button to display all hidden payments.
+
+  - [QUICK SEARCH]  
+  Click this button to display the *QUICK SEARCH* context menu. Payments can be searched for using the following search criteria:
 
   - *Turnover*
   - *Contra account*
@@ -250,6 +255,7 @@ The imported bank data are displayed in the following columns:
 
  - *B* (xxx)  
  This column displays the payment status.
+
   - Green  
   An incoming payment has been matched with an existing open item.
   - Yellow  
@@ -257,12 +263,12 @@ The imported bank data are displayed in the following columns:
   - Red  
   No matching open item found for the payment.
 
-   > [Info] If a payment is processed manually, an *M* will be displayed in this column.
+    > [Info] If a payment is processed manually, a *M* will be displayed in this column.
 
 [comment]: <> (B für Beleg, Bearbeiten, Buchhaltung??? Change column name accordingly here and in IU Terminology file! Add screenshot/icons)  
 
- - S (Search)  
- The ![Search](/Assets/Icons/Search.png "[Search]") (Search) icon is displayed in this column. Click this button to search for open items.
+  - S (Search)  
+  The ![Search](/Assets/Icons/Search.png "[Search]") (Search) icon is displayed in this column. Click this button to search for open items.
 
  [comment]: <> (New window opens up. Name? Add and describe!)
 
@@ -287,7 +293,7 @@ The imported bank data are displayed in the following columns:
 
 
  - *Date*  
- This column shows the payment date.
+ This column displays the payment date.
 
  - *Account*  
  This column displays the account assigned, if any.
@@ -303,7 +309,7 @@ Click these buttons to navigate the payment list.
 Enter a page number to go to a specific page.
 
 - ![Refresh](/Assets/Icons/Refresh01.png "[Refresh]") (Refresh)  
- Click this button to upload the payment list.
+ Click this button to update the payment list.
 
 - [RESET]  
  Click this button to reset the payment list view.
@@ -404,7 +410,14 @@ This window allows to select one or several bookings to be processed simultaneou
 Click these drop-down lists to select the journals to be processed. The drop-down lists display the existing journals including the bookings (or postings) recorded in each of them.
 
 - *Month from - to*   
-Click these drop-down lists to select the months to be processed. The drop-down lists display all available months in the system.
+Click these drop-down lists to select the months to be processed. The drop-down lists display all available months in the system. The following options are available:  
+
+  - **0 - Balances carried forward**
+  - **1 - 12 - (months)**
+  - **13 - 15 - Subsequent bookings**
+  - **16 - 25 - Closing bookings**
+  - **99 - General month**
+
 
 - [CANCEL]  
 Click this button to cancel your selection.
@@ -476,10 +489,10 @@ For detailed information about processing bookings, see [Process bookings](/Reta
 The *Balance carried forward: Step 1* window allows to select balances to be carried forward to the next fiscal year.
 
 - *Carry forward from FY*  
-Click the drop-down list to select the year containing the balances to be carried forward.
+Click the drop-down list to select the year containing the balance(s) to be carried forward.
 
 - *Range from - to*  
-Click the drop-down list to select the account(s) containing the balances to be carried forward. The following accounts can be selected:
+Click the drop-down list to select the account(s) containing the balance(s) to be carried forward. The following options are available:
 
  - **01: Financial accounts**
  - **02: Impersonal accounts**
@@ -490,12 +503,12 @@ Click the drop-down list to select the account(s) containing the balances to be 
 
 
 - *Booking date*  
-Enter the booking date for the balance carried forward.
+Enter the booking date for the balance(s) carried forward.
 
   > [Info] By default, the system displays the first day of the new fiscal year. This can be modified simply by typing in the desired booking date.
 
 - *Delete old balances carried forward from selected FY* [x]  
-Select this checkbox to delete the old balances carried forward from the selected fiscal year.
+Select this checkbox to delete the old balance(s) carried forward from the selected fiscal year.
 
 - [CANCEL]  
 Click this button to cancel your selection.
@@ -735,7 +748,7 @@ The following filter values are available:
    - **Released**
    - **Pending**
    - **Rejected**
-   - **Completed**
+   - **Completed**   
 
  - Supplier  
 Enter the appropriate supplier account.
@@ -910,7 +923,7 @@ Click these buttons to navigate the receipt list.
 Enter a page number to go to a specific page.
 
 - ![Refresh](/Assets/Icons/Refresh01.png "[Refresh]") (Refresh)  
- Click this button to upload the receipt list.
+ Click this button to update the receipt list.
 
 - [RESET]  
  Click this button to reset the receipt list view.
@@ -949,7 +962,7 @@ Click this button to register the selected receipts in the system.
 
 *Accounting > Select fiscal year > Book > Context menu EVALUATIONS*
 
-This menu allows to create and print out different sorts of evaluations for analysis or overview purposes. Click the *EVALUATIONS* button to display the context menu.
+This menu allows to create and print out different sorts of evaluation reports for analysis or overview purposes. Click the *EVALUATIONS* button to display the context menu.
 
 ![Evaluations](/Assets/Screenshots/RetailSuiteAccounting/Book/Evaluations.png "[Evaluations]")
 
@@ -995,27 +1008,29 @@ Enter the period to be included. The currently selected fiscal year is displayed
 
 - *Sorting*  
 Click the drop-down list to select the sorting mode. The following options are available:
+
   - **Date**
   - **Amount**  
 
-  If sorting per date is selected, the *Debit-credit interest rate* fields are displayed.  
+  If sorting by date is selected, the *Debit-credit interest rate* fields are displayed.  
 
 - *Debit-credit interest rate*  
 Enter the corresponding values in both fields.
 
 - *Sorting*  
-Click the drop-down list to select the sorting mode.
+Click the drop-down list to select the sorting mode. The following options are available:
+ - **normal**
+ - **by cost centers**
+
+[comment]: <> (Other options possible?)
 
 - [CLOSE]  
 Click this button to close the window.
 
 - [PRINT]  
-Click this button to create the evaluation in a printable format.
+Click this button to create the evaluation report in a printable format.
 
 [comment]: <> (New window opens with evaluation. Describe?)
-
-[comment]: <> (It doesn't seem to be possible to print out from there -or does it have to do with my settings, no printer set up, etc.? A new window opens and shows the evaluation, but no button to print appears in there. It is possible to print out the evaluation, though, as follows: Right-clicking with the mouse -> OS context menu -> Print menu for print settings and buttons DRUCKEN / ABBRECHEN. Supposed to work like that or bug?)
-
 
 ### Account sheet
 
@@ -1023,25 +1038,29 @@ Click this button to create the evaluation in a printable format.
 
   ![Account sheet](/Assets/Screenshots/RetailSuiteAccounting/Book/AccountSheet.png "[Account sheet]")
 
-- *Newly booked accounts* [checkbox]  
+- *Newly booked accounts* [x]  
 Select the checkbox to include only the newly added bookings.
 
-- *Kennzeichen zurücksetzen* [checkbox]  
+- *Kennzeichen zurücksetzen* [x]  
 Select the checkbox to...
 
-[comments]: <> (Setzen Sie einen Haken in das Kästchen, wenn nur die neu hinzugefügten Buchungen in dem Kontenblatt ausgegeben werden soll. Damit diese Funktion greift, muss zusätzlich das Feld Kennzeichen zurücksetzen angewählt werden. Stimmt das so?)
+[comments]: <> (Setzen Sie einen Haken in das Kästchen, wenn nur die neu hinzugefügten Buchungen in dem Kontenblatt ausgegeben werden soll. Damit diese Funktion greift, muss zusätzlich das Feld Kennzeichen zurücksetzen angewählt werden. Stimmt das so? Was macht diese Funktion/Checkbox? Was ist mit "Kennzeichen" gemeint?)
 
 - *Month*  
-Enter of period to be included.
+Enter the period to be included.
 
 - *Date*  
 You can narrow down the period to be included specifying the dates. Date format must be DDMMYY.
 
 - *Accounts*  
-Enter the account(s) to be displayed.
+Enter the account number range to be displayed.
 
 - *Sorting*  
-Click the drop-down list to select the sorting mode.
+Click the drop-down list to select the sorting mode. The following options are available:
+ - **normal**
+ - **by cost centers**
+
+[comment]: <> (Other options possible?)
 
 [comment]: <> (Altdoku: Das Kontenblatt lässt sich nach Kostenstellen und Kostenträgern sortieren und auswerten. Bei einer Auswahl in diesem Feld werden nur Buchungen ausgegeben, die den ausgewählten Kostenträger oder Kostenstelle betreffen. Stimmt so? Was debeutet hier "normal"?)
 
@@ -1049,7 +1068,7 @@ Click the drop-down list to select the sorting mode.
 Click this button to cancel your selection.
 
 - [PRINT]  
-Click this button to create the evaluation in a printable format.
+Click this button to create the evaluation report in a printable format.
 
 
 ### Journal
@@ -1065,7 +1084,11 @@ Enter the month(s) to be included.
 Enter the journal(s) to be included.
 
 - *Sorting*  
-Click the drop-down list to select the sorting mode.
+Click the drop-down list to select the sorting mode.  The following options are available:
+ - **normal**
+ - **by cost centers**
+
+[comment]: <> (Other options possible?)
 
 [comment]: <> (Altdoku: Das Journal lässt sich nach Kostenstellen und Kostenträgern sortieren und auswerten. Bei einer Auswahl in diesem Feld werden nur Buchungen ausgegeben, die den ausgewählten Kostenträger oder Kostenstelle betreffen. Stimmt es so? Was bedeutet hier "normal"?)
 
@@ -1073,7 +1096,7 @@ Click the drop-down list to select the sorting mode.
 Click this button to cancel your selection.
 
 - [PRINT]  
-Click this button to create the evaluation in a printable format.
+Click this button to create the evaluation report in a printable format.
 
 
 ### Balance list
@@ -1110,13 +1133,17 @@ Click the drop-down list to select the accounts to be displayed. The following o
 - *Layout*  
 Click the drop-down list to select the preferred layout. There are two options available:  
 
- - **Normal**
- - **Balance list**
+ - **normal**
+ - **balance list**
 
  [comment]: <> (Difference? to be completed!)
 
 - *Sorting*  
-Click the drop-down list to select the sorting mode.
+Click the drop-down list to select the sorting mode.  The following options are available:
+ - **normal**
+ - **by cost centers**
+
+[comment]: <> (Other options possible?)
 
 [comment]: <> (Altdoku: Das Journal lässt sich nach Kostenstellen und Kostenträgern sortieren und auswerten. Bei einer Auswahl in diesem Feld werden nur Buchungen ausgegeben, die den ausgewählten Kostenträger oder Kostenstelle betreffen. Stimmt es so? Was bedeutet hier "normal"?)
 
@@ -1124,7 +1151,7 @@ Click the drop-down list to select the sorting mode.
   Click this button to cancel your selection.
 
 - [PRINT]  
-  Click this button to create the evaluation in a printable format.
+  Click this button to create the evaluation report in a printable format.
 
 ### Open items
 
@@ -1161,14 +1188,14 @@ Click the drop-down list to select the sorting mode.
     - **Detailed**
 
 
-  - *Print manually cleared open items* [x]  
+  - [x] *Print manually cleared open items*   
   Select the checkbox to include all manually cleared open items.
 
   - [CANCEL]  
   Click this button to cancel your selection.
 
   - [PRINT]  
-  Click this button to create the evaluation in a printable format.
+  Click this button to create the evaluation report in a printable format.
 
 
 ### BWA
@@ -1178,7 +1205,11 @@ Click the drop-down list to select the sorting mode.
   ![BWA](/Assets/Screenshots/RetailSuiteAccounting/Book/BWA.png "[BWA]")
 
   - *Sorting*  
-Click the drop-down list to select the sorting mode.
+Click the drop-down list to select the sorting mode. The following options are available:
+ - **normal**
+ - **by cost centers**
+
+[comment]: <> (Other options possible?)
 
 - [x] *Print cost center allocation*  
 Select the checkbox to display the cost center allocation.
@@ -1199,16 +1230,16 @@ Click the drop-down list to select two different years to be compared with each 
 - *BWA number*  
 Click the drop-down list to select the BWA report type to be created. The following options are available per default:
 
-  - **Profit and loss account**
-  - **Cash basis accounting**
-  - **Liquidity statement**
-  - **Liquidity**
-  - **Monthly balance**
+  - **1: Profit and loss account**
+  - **2: Cash basis accounting**
+  - **3: Liquidity statement**
+  - **4: Liquidity**
+  - **5: Monthly balance**
 
-  > [Info] These evaluation reports are preconfigured in the system. All available reports can be completely customized or used as provided, and new reports can be created. Any newly created reports will be displayed in the drop-down list. For detailed information about creating and managing BWA reports, see [Manage BWA reports](/RetailSuiteAccounting/Operation/07_ManageBWAReports.md)
+  > [Info] These evaluation reports are preconfigured in the system. All available reports can be completely customized or used as provided, and new reports can also be created. Any newly created reports will be displayed in the drop-down list. For detailed information about creating and managing BWA reports, see [Manage BWA reports](/RetailSuiteAccounting/Operation/07_ManageBWAReports.md).
 
 - *Layout*  
-Click the drop-down list to select the preferred layout.
+Click the drop-down list to select the preferred layout. The following options are available:
 
   - **Month - cum. - cum. previous year**
   - **13 months cumulative**
@@ -1223,7 +1254,7 @@ Click the drop-down list to select whether or not the account number is to be in
 Click this button to cancel your selection.
 
 - [PRINT]  
-Click this button to create the evaluation in a printable format.
+Click this button to create the evaluation report in a printable format.
 
 
 For detailed information about creating a BWA evaluation, see [Create a PDF evaluation](/RetailSuiteAccounting/Operation/15_ProvideAccountingData.md#create-a-pdf-evaluation).
@@ -1243,35 +1274,43 @@ Click the drop-down list to select the month to be included. The following optio
   - **13 - 15 - Subsequent bookings**
   - **16 - 25 - Closing bookings**
   - **99 - General month**  
-  
 
-- *Comparison year*
 
-no comp. year
+- *Comparison year*  
+Click the drop-down list to select a comparison year. If no comparison year is needed, select the option **no comp. year**.
 
 - *Cost unit group*  
+Click the drop-down list to select a cost unit group. If no cost unit group is needed, select the option *0 - no group*.  
 
+  > [Info] For detailed information about creating and managing cost units, see [COST ACCOUNTING](XX_CostAccounting.md).
 
+[comment]: <> (Check how it works!?)
 
 - *BWA number*  
-  Click the drop-down list to select the BWA report type to be created. The following options are available per default:
+Click the drop-down list to select the BWA report type to be created. The following options are available:
 
-    - **Profit and loss account**
-    - **Cash basis accounting**
-    - **Liquidity statement**
-    - **Liquidity**
-    - **Monthly balance**
+    - **1: Profit and loss account**
+    - **2: Cash basis accounting**
+    - **3: Liquidity statement**
+    - **4: Liquidity**
+    - **5: Monthly balance**
+
+  > [Info] These evaluation reports are preconfigured in the system. All available reports can be completely customized or used as provided, and new reports can also be created. Any newly created reports will be displayed in the drop-down list. For detailed information about creating and managing BWA reports, see [Manage BWA reports](/RetailSuiteAccounting/Operation/07_ManageBWAReports.md).
+
+- *Layout*  
+Click the drop-down list to select the preferred layout. The following options are available:  
+
+  - **Month - Month previous year**
+  - **Month - cum. - cum. previous year**
+  - **13 months**
+  - **Front page**
 
 
-  Layout
-  Month - Month previous year
-  Month - cum. - cum. previous year
-  13 months
-  Front page
+- [CANCEL]  
+  Click this button to cancel your selection.
 
-
-  CANCEL
-  PRINT
+- [PRINT]  
+  Click this button to create the evaluation report in a printable format.
 
 
 ### Cost unit comparison
@@ -1280,8 +1319,50 @@ no comp. year
 
   ![Cost unit comparison](/Assets/Screenshots/RetailSuiteAccounting/Book/CostUnitComparison.png "[Cost unit comparison]")
 
+- *Month*  
+Click the drop-down list to select the month to be included. The following options are available:  
+
+  - **0 - Balances carried forward**
+  - **1 - 12 - (months)**
+  - **13 - 15 - Subsequent bookings**
+  - **16 - 25 - Closing bookings**
+  - **99 - General month**  
+
+
+- *Cost unit group*  
+Click the drop-down list to select a cost unit group. There are two default options available:
+
+  - **ALL GROUPS**
+  - **0 - no group**
+
+  [comment]: <> (When cost unit group(s) created, do they appear in the drop-down list, as it is the case for Kostenstellen/cost centers? Where are cost units created?)
+
+  > [Info] For detailed information about creating and managing cost units, see [COST ACCOUNTING](XX_CostAccounting.md).
+
+[comment]: <> (Check how it works!?)
+
+- *BWA number*  
+Click the drop-down list to select the BWA report type to be created. The following options are available:
+
+    - **1: Profit and loss account**
+    - **2: Cash basis accounting**
+    - **3: Liquidity statement**
+    - **4: Liquidity**
+    - **5: Monthly balance**
+
+  > [Info] These evaluation reports are preconfigured in the system. All available reports can be completely customized or used as provided, and new reports can also be created. Any newly created reports will be displayed in the drop-down list. For detailed information about creating and managing BWA reports, see [Manage BWA reports](/RetailSuiteAccounting/Operation/07_ManageBWAReports.md).
+
+- [CANCEL]  
+  Click this button to cancel your selection.
+
+- [PRINT]  
+  Click this button to create the evaluation report in a printable format.
+
+
 ### Other
 *Accounting > Select fiscal year > Book > Context menu EVALUATIONS > Menu entry Other*
+
+When clicking the *Other* menu entry of the EVALUATIONS context menu, a sub-menu is displayed containing two additional entries: *Chart of accounts* and *Deb./Cred.*.
 
 #### Chart of accounts
 
@@ -1289,8 +1370,36 @@ no comp. year
 
   ![Chart of accounts](/Assets/Screenshots/RetailSuiteAccounting/Book/ChartOfAccounts.png "[Chart of accounts]")
 
+- *Accounts*  
+Enter the account number range to be displayed.
+
+- *Sorting*  
+Click the drop-down list to select the sorting mode. The following options are available:
+
+  - **by number**
+  - **by name**
+
+
+- *[x] ONLY booked*  
+Select this checkbox to display only booked accounts.
+
+- [CANCEL]  
+  Click this button to cancel your selection.
+
+- [PRINT]  
+  Click this button to create the evaluation report in a printable format.
+
 #### Deb./cred.
 
 *Accounting > Select fiscal year > Book > Context menu EVALUATIONS > Menu entry Account sheet > Sub-menu entry Deb./cred.*
 
   ![Debtors/Creditors](/Assets/Screenshots/RetailSuiteAccounting/Book/DebtorsCreditors.png "[Debtors/Creditors]")
+
+- *Accounts*  
+Enter the account number range to be displayed.
+
+- [CANCEL]  
+  Click this button to cancel your selection.
+
+- [PRINT]  
+  Click this button to create the evaluation report in a printable format.
