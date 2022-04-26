@@ -28,13 +28,13 @@ Even though the system usually books transactions automatically through the auto
 
   > [Info] When you start typing in an account number, a context menu is displayed. You can also select the appropriate option from the menu.
 
-4. Enter the date for the manual booking in the *Date* field. Date format must be TTMMJJ or TT.MM.JJ.
+4. Enter the date for the manual booking in the *Date* field. Date format must be DDMMYY.
 
 5. Enter an account number in the *Account* field.
 
   > [Info] Note that the fields *Contra account*, *Date* and *Account* must be filled out to be able to create a booking.
 
-6. Enter any other relevant fixed booking information in the corresponding fields.
+6. Enter any other relevant booking information in the corresponding fields.
 
   > [Info] Even though it is not compulsory, it is highly recommended to fill in the *Receipt 1* field, as the system identifies and groups together any subsequent bookings taking this field as reference, for example for an invoice settlement or a credit note in case of refund.
 
