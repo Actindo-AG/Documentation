@@ -646,7 +646,7 @@ Enter an applicable reference value.
 [comment]: <> (Receipt2?)
 
 - *Date*  
-Enter the booking date. Date format must be DDMMYY or DD.MM.YY. This field is compulsory.
+Enter the booking date. Date format must be DDMMYY. This field is compulsory.
 
 - *Supplier*  
 Select the appropriate supplier account. This field is compulsory.
