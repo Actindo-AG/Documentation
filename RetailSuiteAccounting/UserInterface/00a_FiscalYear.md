@@ -17,12 +17,13 @@ The following fields are displayed:
   The period fields are filled in automatically and correspond to the selected fiscal year. These fields are read-only.
 
 - *Month*  
-  Click the drop-down list to select the month. The following months can be selected:
+  Click the drop-down list to select the month. The following options are available:  
 
-  - **0 - Balances carried forward**  
-  - **1 - (Month) to 12 - (Month)**   
-  - **13-15 - Subsequent bookings**
-  - **16-19 - Closing bookings**
+    - **0 - Balances carried forward**
+    - **1 - 12 - (months)**
+    - **13 - 15 - Subsequent bookings**
+    - **16 - 25 - Closing bookings**
+    - **99 - General month**
 
 
 - *Journal*  
@@ -34,19 +35,18 @@ The following fields are displayed:
   - Special journals (90-99)  
   They are specialized lists of transactions records preconfigured in the system. Further journals can be created up to 99. To do so, simply enter a new journal number in the *Journal* field.
 
-- [LIST] button  
+- [LIST]  
 Click this button to display all available journals and the number of bookings contained in each of them is displayed. Click the appropriate journal in the *Journals* window to select it.
 
   ![Select journal](/Assets/Screenshots/RetailSuiteAccounting/Book/SelectFiscalYearJournals.png "[Select journal]")
 
-- [X]
-  *Include fixed bookings*  
+- [x] *Include fixed bookings*  
   Select the checkbox to display the available fixed booking batches. Click the appropriate batch to select it. For detailed information, see [Manage fixed bookings](/RetailSuiteAccounting/Integration/06_ManageFixedBookings.md).
 
     ![Select journal](/Assets/Screenshots/RetailSuiteAccounting/SelectFiscalYear03.png "[Select journal]")
 
-- [OK] button  
+- [OK]  
   Click this button to confirm the set values.
 
-- [CANCEL] button  
+- [CANCEL]  
   Click this button to cancel the set values.
