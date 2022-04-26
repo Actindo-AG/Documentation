@@ -148,10 +148,10 @@ Click this button to delete the selected booking. For detailed information, see 
 Click this button to clear all entry line fields.
 
 - [SPLIT]    
-Click this button to split a booking during the manual booking process. The *Split booking* window is displayed, see [Split booking](#splitbooking). For detailed information about splitting a booking, see [Split a booking](/RetailSuiteAccounting/Operation/09_SplitBooking.md).
+Click this button to split a manual booking. The *Split booking* window is displayed, see [Split booking](#split-booking). For detailed information about splitting a booking, see [Split a booking](/RetailSuiteAccounting/Operation/09_SplitBooking.md).
 
 - [ASSIGN RECEIPT]  
-Click this button to assign a receipt to the selected booking. For detailed information, see [Retrieve a receipt](/RetailSuiteAccounting/Operation/10_ManageReceipts.md#retrieve-a-receipt).
+Click this button to assign a receipt to the selected booking. The *Attach a document* window is displayed, see [Attach a document](#attach-a-document). For detailed information, see [Retrieve a receipt](/RetailSuiteAccounting/Operation/10_ManageReceipts.md#retrieve-a-receipt).
 
 
 ## Split booking
@@ -166,56 +166,150 @@ The information displayed in columns is read-only.
 This columns displays the sequential number.
 
 - *BP*  
-This column displays the booking period (month).
+This column displays 00.
+
+[comment]: <> (Bug? Should the actual booking period -month/journal- be shown here?)
 
 - *Jnl*  
-This column displays the journal.
+This column displays 00.
+
+[comment]: <> (Bug? Should the actual booking period -month/journal- be shown here?)
 
 - *Turnover*  
 This column displays the turnover value.
 
 - *Contra account*  
+This column is displayed empty here. The corresponding contra accounts will be assigned to each split booking.
 
-- *Receipt1*
-- *Receipt2*
-- *Date*
-- *Account*
-- *Cost1*
-- *Cost2*
-- *Text*
+- *Receipt1*  
+This column displays the receipt 1 value, usually the invoice number, if it has been entered.
 
+- *Receipt2*  
+This column displays the receipt 2 value, which can be any other reference number, such as the order number, if it has been entered.
+
+- *Date*  
+This column displays the booking date. Date format is DDMMYY.
+
+- *Account*  
+This column displays the account number, usually a personal account number, that is, a customer or supplier account number.
+
+- *Cost1*  
+This column displays the cost unit number selected, if it has been entered. This is only applicable is a cost center accounting for cost 1 has been set up. For detailed information, see [COST ACCOUNTING](XX_CostAccounting.md).
+
+- *Cost2*  
+This column displays the cost unit number selected, if it has been entered. This is only applicable is a cost center accounting for cost 2 has been set up. For more details, see [COST ACCOUNTING](XX_CostAccounting.md).
+
+- *Text*  
+This column displays the booking text, if it has been entered.
 
 [comment]: <> (There seems to be an unnamed column between Kst2 and Text, usually where B/Belege come in. When clicking on a booking with a linked receipt, the B icon does not appear here. No option to link a receipt here either, so left out from description. Bug/comment?)
 
+- *REMAINDER*  
+This field displays the outstanding invoice amount to be split.  
 
-- *REMAINDER*
-
-- *Amount*
-
-- *Seq. no.*
-- *Turnover*
-- *Contra account*
-- *Receipt1*
-- *Receipt2*
-- *Date*
-- *Account*
-- *Cost1*
-- *Cost2*
-- *Text*
-
-Rate
-Booked.
-Split bookings recorded.
+- *Amount*  
+This field displays the total invoice amount.
 
 
-7. Split the booking as necessary assigning each split booking to the corresponding contra account.
+The entry line allows to split the booking.
 
-8. Click the [BOOK] button after each split booking.  
-A message in the top left corner of the *Split booking* window confirms each split booking. The split bookings are now listed underneath the main booking in the *Split booking* window.
+- *Seq. no.*  
+Enter the booking number. Booking numbers must be sequential. The system adds the next available number automatically if the field is left empty.
 
-  ![Bookings split](/Assets/Screenshots/RetailSuiteAccounting/Book/Bookings/SplitBooking02.png "[Bookings split]")
+- *Turnover*  
+Enter the turnover amount for each partial booking.
+
+- *Contra account*  
+Enter the corresponding contra account for each partial booking.
+
+- *Receipt1*  
+Enter a receipt 1 value for each partial booking. This field can be modified, if necessary.
+
+- *Receipt2*  
+Enter a receipt 2 value for each partial booking. This field can be modified, if necessary.
+
+- *Date*  
+This field cannot be modified.
+
+- *Account*  
+This field cannot be modified.
+
+- *Cost1*  
+Enter the corresponding cost center for each partial bookings, if necessary. This field can be modified.
+
+  >[Info] This is only applicable is a cost center accounting for cost 1 has been set up. For detailed information, see [COST ACCOUNTING](XX_CostAccounting.md).
+
+- *Cost2*  
+Enter the corresponding cost center for each partial bookings, if necessary. This field can be modified.
+
+  > [Info] This is only applicable is a cost center accounting for cost 2 has been set up. For detailed information, see [COST ACCOUNTING](XX_CostAccounting.md).
+
+- *Text*  
+Enter a booking text for each partial booking, if necessary. This field can be modified.
+
+- *Currency*  
+Click the drop-down list to select the appropriate currency, if necessary.
+
+- *Rate*  
+This field updates automatically when changing the currency. It can also be modified manually.
+
+
+- [BOOK]
+Click this button to record each partial booking.  
+
+- [DELETE]  
+Click this button to delete a partial booking, if necessary.
+
+- [CLEAR]  
+Click this button to clear all entry line fields.
+
+- [SAVE]  
+Click this button to save the partial bookings and record them in the selected booking period.
 
   > [Info] When the total invoice amount has been divided, the remainder will equal 0. At this point, the [SAVE] button is activated and can be selected.
 
-9. Click the [SAVE] button.  
-A message in the top left corner of the *Split booking* window confirms that the split bookings have been recorded.
+- [CANCEL]  
+Click this button to cancel the whole process.
+
+
+## Attach document
+
+*Accounting > Select fiscal year > Book > Tab BOOKINGS > Button SPLIT*
+
+![Attach document window](/Assets/Screenshots/RetailSuiteAccounting/Book/Bookings/AttachDocument.png "[Attach document window]")
+
+
+- *Directory tree*
+  - *New documents*
+  - *Registered documents*
+  - *Printed documents*
+  - *New supplier receipts*
+
+- [START PAGE]
+- [REFRESH]
+- [PARENT DIRECTORY[]
+- [NEW DIRECTORY[]
+- [UPLOAD[]
+- [DELETE]
+
+Name
+Size
+Type
+Changed
+Owner
+
+Folder
+
+SELECT DOCUMENT
+CLOSE
+
+
+Attached document
+
+Document
+Page X
+Zoom
+Download file
+
+CANCEL ASSIGNMENT
+CLOSE
