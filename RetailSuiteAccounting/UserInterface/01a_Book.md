@@ -6,7 +6,7 @@
 
   ![Book](/Assets/Screenshots/RetailSuiteAccounting/Book/FYMonthJournalButton.png "[Book]")
 
-The *BOOKINGS* tab displays in chronological order all existing bookings in the selected booking period. The booking details displayed in columns is read-only.
+The *BOOKINGS* tab displays all existing bookings in the selected booking period in chronological order. The booking details displayed in columns are read-only.
 
 - *Seq. no.*  
 This column displays the sequential number.
@@ -20,100 +20,135 @@ This column displays the booking period (month/journal).
 This column displays the turnover value.
 
 - *Contra account*  
-This column displays the contra account number, if one has been selected.
+This column displays the contra account number. For detailed information about the available accounts, see [Chart of accounts](/RetailSuiteAccounting/Integration/01_RunAccountingWizard.md#chart-of-accounts).
 
 - *Receipt1*  
 This column displays the receipt 1 value, usually the invoice number.
 
-> [Info] The information provided in the *Receipt 1* field is essential, as the system identifies and groups together any subsequent bookings taking this field as reference, for example for an invoice settlement or a credit note in case of refund.
+  > [Info] The information provided in the *Receipt 1* field is essential, as the system identifies and groups together any subsequent bookings taking this field as reference, for example for an invoice settlement or a credit note in case of refund.
 
 - *Receipt2*  
-This column displays the receipt 2 value, which can be any other reference number, such as order number.
+This column displays the receipt 2 value, which can be any other reference number, such as the order number.
 
 - *Date*  
-This column displays the booking date. Date format must be DDMMYY.
+This column displays the booking date. Date format is DDMMYY.
 
 - *Account*  
-This column displays the account number, which can also be customer or supplier number.
+This column displays the account number, usually a personal account number, that is, a customer or supplier account number. A valid range for personal account numbers (10000-69999 for customers and 70000-99999 for suppliers) is predefined in the system.
+
+  > [Info] Customer and supplier personal accounts can be created, edited and deleted. For detailed information, see [Manage the customer/supplier](/RetailSuiteAccounting/Integration/05_ManageCustomerSupplier.md).
 
 - *Cst1*  
-This column displays the cost unit number selected. This is only applicable is a cost center account has been set up. For more details, see [COST ACCOUNTING](XX_CostAccounting.md).
+This column displays the cost unit number selected. This is only applicable is a cost center accounting for cost 1 has been set up. For detailed information, see [COST ACCOUNTING](XX_CostAccounting.md).
 
 [comment]: <> (Alt-Doku: Das Feld wird beim Eingeben nur dann angesprochen, wenn eine Kostenstellenrechnung für Kost1 eingerichtet ist.)
 
 - *Cst2*  
-This column displays the cost unit number selected. This is only applicable is a cost center account has been set up. For more details, see [COST ACCOUNTING](XX_CostAccounting.md).
+This column displays the cost unit number selected. This is only applicable is a cost center accounting for cost 2 has been set up. For more details, see [COST ACCOUNTING](XX_CostAccounting.md).
 
 - *(Unnamed column)*  
-This column displays a ![B](/Assets/Icons/Beleg02.png "[B]") icon if a receipt has been linked to the booking.
+This column displays a ![B](/Assets/Icons/Beleg.png "[B]") icon if a receipt has been linked to the booking. When clicking on the icon, the linked receipt is displayed in a new window.
+
+[comment]: <> (Comment on Bug file -> suggestion to add a name to column)
 
 - *Text*  
-This column displays the booking text entered.
+This column displays the booking text, if any has been entered.
 
 
-- *Fiscal year XXXX/Month X/Journal X*
+- *Fiscal year XXXX/Month X/Journal X*  
+This text displays the fiscal, month and journal currently selected. This information is read-only.
 
 - *Show (all/the last [XXX]) bookings*    
+Click the drop-down list to select the preferred display filter.
 
 
-- *Amount*
-  - *Amount 1*
-  - *Amount 2*
+- *Amount*  
+The total amount of all bookings displayed.
+  - *Amount 1*  
+  Click this button to manually set an amount 1. A new window opens where the amount can be entered and confirmed with [OK].
+  - *Amount 2*  
+  Click this button to manually set an amount 2. A new window opens.  A new window opens where the amount can be entered and confirmed with [OK].
+
+[comment]: <> (Function of Summe 1 & Summe 2??? Describe new window? RS FH!)
 
 
-A booking can be edited by clicking on it in the bookings list. The booking details are displayed in the entry line.
-
-
+The entry line allows to create a booking manually. For detailed information, see [Create a manual booking](/RetailSuiteAccounting/Operation/04_CreateManualBooking.md).
 
 
 - *Seq. no.*  
- This field displays the booking sequential number and cannot be modified.  
+ Enter the booking number. Booking numbers must be sequential. The system adds the next available number automatically if the field is left empty.
 
-- *Currency code*
+- *Currency code*  
+Click the drop-down menu to select the appropriate currency.  
 
-- *Exchange rate*
+  > [Info] It is possible to set up accounts in different currencies. However, the *Accounting* module can only work with the base currency configured in the system. For detailed information about managing and booking exchange rate fluctuations, see [Book exchange rate fluctuations](/RetailSuiteAccounting/Operation/12_BookExchangeRateFluctuations.md).
+
+- *Exchange rate*  
+This field updates automatically when changing the currency. It can also be modified manually.
+
+  > [Info] The system retrieves once a day the current foreign currency exchange rates as published by the ECB and applies them automatically, therefore always working with the most up-to-date information.
 
 - *Turnover*  
-This field displays the turnover and cannot be modified.
+Enter the turnover value. Turnover values can be positive (incomes) or negative (expenses). This field is compulsory to manually create a booking.
 
 - *Contra account*  
-Enter the appropriate contra account, see [Chart of accounts](/RetailSuiteAccounting/Integration/01_RunAccountingWizard.md#chart-of-accounts). This field is compulsory.
+Enter the appropriate contra account. For detailed information about the available accounts, see [Chart of accounts](/RetailSuiteAccounting/Integration/01_RunAccountingWizard.md#chart-of-accounts). This field is compulsory to manually create a booking.
 
-> [Info] When you start typing in an account number, a context menu is displayed. You can also select the appropriate option from the menu.
+  > [Info] When you start typing in an account number, a context menu is displayed. You can also select the appropriate option from the menu.
 
 - *Receipt1*  
-Enter the appropriate value. The existing value can also be modified.
+Enter an appropriate reference value, such as the invoice number.
+
+  > [Info] Even though it is not compulsory, it is highly recommended to fill in the *Receipt 1* field, as the system identifies and groups together any subsequent bookings taking this field as reference, for example for an invoice settlement or a credit note in case of refund.
 
 - *Receipt2*  
-Enter the appropriate value. The existing value can also be modified.
+Enter any other appropriate reference value, such as order number.
 
 - *Date*  
-This field displays the date and cannot be modified.
+Enter the booking date. Date format must be DDMMYY.
+
+- *Account*   
+Enter the appropriate account number, for example a personal account number, that is, customer or supplier number. A valid range for personal account numbers (10000-69999 for customers and 70000-99999 for suppliers) is predefined in the system.
+
+  > [Info] Customer and supplier personal accounts can be created, edited and deleted. For detailed information, see [Manage the customer/supplier](/RetailSuiteAccounting/Integration/05_ManageCustomerSupplier.md).
+
+- *COST1*  
+Enter the appropriate value. This is only applicable is a cost center accounting for cost 1 has been set up. For detailed information, see [COST ACCOUNTING](XX_CostAccounting.md).
+
+- *COST2*  
+Enter the appropriate value. This is only applicable is a cost center accounting for cost 2 has been set up. For detailed information, see [COST ACCOUNTING](XX_CostAccounting.md).
+
+- *Booking text*  
+Enter any appropriate booking text. Booking text can contain a combination of letters and numbers.
+
+
+When creating a manual booking or selecting an existing booking, the account/contra account details, as well as their current balances, are displayed under the entry line.
+
+- *Contra account*  
+This field displays the selected contra account. This field is read-only.
 
 - *Account*  
-This field displays the account and cannot be modified.
+This field displays the selected account. This field is read-only.
 
-- *Cost1*  
-Enter the appropriate value. The existing value can also be modified.
+- *Balance (amount)H/S (currency)*  
+This field displays the current balance of the corresponding account. H stands for credit. S stands for debit.
 
-- *Cost2*  
-Enter the appropriate value. The existing value can also be modified.
 
-- *Booking text*
-Enter the appropriate free text. The existing value can also be modified.
 
 - [BOOK]    
-Click this button to book the edited booking.
+Click this button to record the booking in the entry line.
 
 - [CANCEL]
+Click this button to cancel the selected booking. For detailed information, see [Cancel a booking](/RetailSuiteAccounting/Operation/05_CancelBooking.md).
 
 - [DELETE]    
-Click this button to delete the selected booking.
+Click this button to delete the selected booking. For detailed information, see [Delete a single booking](/RetailSuiteAccounting/Operation/06_DeleteBookings.md#delete-a-single-booking).
 
 - [CLEAR]    
 Click this button to clear all entry line fields.
 
 - [SPLIT]    
-Click this button to split the selected booking.
+Click this button to split the selected booking. For detailed information, see [Split a booking](/RetailSuiteAccounting/Operation/09_SplitBooking.md).
 
-- [ASSIGN RECEIPT]
+- [ASSIGN RECEIPT]  
+Click this button to assign a receipt to the selected booking. For detailed information, see [Retrieve a receipt](/RetailSuiteAccounting/Operation/10_ManageReceipts.md#retrieve-a-receipt).
