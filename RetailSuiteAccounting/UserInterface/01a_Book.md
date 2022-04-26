@@ -148,7 +148,74 @@ Click this button to delete the selected booking. For detailed information, see 
 Click this button to clear all entry line fields.
 
 - [SPLIT]    
-Click this button to split the selected booking. For detailed information, see [Split a booking](/RetailSuiteAccounting/Operation/09_SplitBooking.md).
+Click this button to split a booking during the manual booking process. The *Split booking* window is displayed, see [Split booking](#splitbooking). For detailed information about splitting a booking, see [Split a booking](/RetailSuiteAccounting/Operation/09_SplitBooking.md).
 
 - [ASSIGN RECEIPT]  
 Click this button to assign a receipt to the selected booking. For detailed information, see [Retrieve a receipt](/RetailSuiteAccounting/Operation/10_ManageReceipts.md#retrieve-a-receipt).
+
+
+## Split booking
+
+*Accounting > Select fiscal year > Book > Tab BOOKINGS > Button SPLIT*
+
+![Split booking window](/Assets/Screenshots/RetailSuiteAccounting/Book/Bookings/SplitBooking01.png "[Split booking window]")
+
+The information displayed in columns is read-only.
+
+- *Seq. no.*  
+This columns displays the sequential number.
+
+- *BP*  
+This column displays the booking period (month).
+
+- *Jnl*  
+This column displays the journal.
+
+- *Turnover*  
+This column displays the turnover value.
+
+- *Contra account*  
+
+- *Receipt1*
+- *Receipt2*
+- *Date*
+- *Account*
+- *Cost1*
+- *Cost2*
+- *Text*
+
+
+[comment]: <> (There seems to be an unnamed column between Kst2 and Text, usually where B/Belege come in. When clicking on a booking with a linked receipt, the B icon does not appear here. No option to link a receipt here either, so left out from description. Bug/comment?)
+
+
+- *REMAINDER*
+
+- *Amount*
+
+- *Seq. no.*
+- *Turnover*
+- *Contra account*
+- *Receipt1*
+- *Receipt2*
+- *Date*
+- *Account*
+- *Cost1*
+- *Cost2*
+- *Text*
+
+Rate
+Booked.
+Split bookings recorded.
+
+
+7. Split the booking as necessary assigning each split booking to the corresponding contra account.
+
+8. Click the [BOOK] button after each split booking.  
+A message in the top left corner of the *Split booking* window confirms each split booking. The split bookings are now listed underneath the main booking in the *Split booking* window.
+
+  ![Bookings split](/Assets/Screenshots/RetailSuiteAccounting/Book/Bookings/SplitBooking02.png "[Bookings split]")
+
+  > [Info] When the total invoice amount has been divided, the remainder will equal 0. At this point, the [SAVE] button is activated and can be selected.
+
+9. Click the [SAVE] button.  
+A message in the top left corner of the *Split booking* window confirms that the split bookings have been recorded.
