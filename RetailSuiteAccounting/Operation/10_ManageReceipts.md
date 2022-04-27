@@ -27,6 +27,8 @@ After being uploaded, the receipts are stored in the *New documents* folder in t
 - 10000-19999 personal account numbers in case of a debtors'/customers' document
 - 70000-70999 personal account numbers in case of a creditors'/suppliers' document
 
+[comment]: <> (Unsure of the number range! 10000-19999 or 69999? 70000-70999 or 70000-79999?)
+
 ### Prerequisites
 
 - The accounting is configured via the configuration wizard, see [Run the accounting wizard](01_RunAccountingWizard.md).
