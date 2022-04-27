@@ -1,3 +1,4 @@
+[!!Accounting](RetailSuiteAccounting)
 
 # Balances
 
