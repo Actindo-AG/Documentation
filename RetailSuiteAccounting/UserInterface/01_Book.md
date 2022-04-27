@@ -859,7 +859,7 @@ The contra account number is displayed.
 - *Doc*  
 Click the ![B](/Assets/Icons/Beleg02.png "[B]") icon to display the acquired receipt in a new window.
 
-[comment]: <> (Describe new window? Angehängtes Dokument window)
+[comment]: <> (Describe new window? Angehängtes Dokument window. See 01a_Book.md, Document attached.)
 
 - *Reference1*  
 The reference 1 value is displayed, if available.
