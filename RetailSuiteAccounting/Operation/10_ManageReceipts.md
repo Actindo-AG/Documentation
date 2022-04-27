@@ -22,7 +22,7 @@ When a receipt is booked in the *BOOK RECEIPTS* tab, it is linked to the assigne
 
 The [ASSIGN RECEIPT] button in the *BOOKINGS* tab allows to retrieve and assign a receipt that has not been registered yet to an existing booking. Any unregistered receipts uploaded in the system are displayed in the *BOOK RECEIPTS* tab.  
 
-After being uploaded, the receipts are stored in the *New documents* folder in the *Documents* module. Once they are booked, they are moved automatically into the *Booked documents* folder and then placed in the appropriate subfolder according to the following structure:
+After being uploaded, the receipts are stored in the *New documents* folder in the *Documents* module. Once they are booked, they are moved automatically into the *Registered documents* folder and then placed in the appropriate subfolder according to the following structure:
 
 - 10000-19999 personal account numbers in case of a debtors'/customers' document
 - 70000-70999 personal account numbers in case of a creditors'/suppliers' document
@@ -138,7 +138,7 @@ A message above the entry line confirms that the receipt has been linked to the 
 ### See also
 
   - [Book receipts](/RetailSuiteAccounting/UserInterface/XX_BookReceipts.md)
-  - [New documents/Booked documents](#to_be_completed)
+  - [New documents/Registered documents](#to_be_completed)
 
 
 ## Book a supplier receipt
