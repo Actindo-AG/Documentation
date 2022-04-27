@@ -39,15 +39,19 @@ This column displays the account number, usually a personal account number, that
   > [Info] Customer and supplier personal accounts can be created, edited and deleted. For detailed information, see [Manage the customer/supplier](/RetailSuiteAccounting/Integration/05_ManageCustomerSupplier.md).
 
 - *Cst1*  
-This column displays the cost unit number selected. This is only applicable is a cost center accounting for cost 1 has been set up. For detailed information, see [COST ACCOUNTING](XX_CostAccounting.md).
+This column displays the cost unit number selected.
+
+  > [Info] This is only applicable is a cost center accounting for cost 1 has been set up. For detailed information, see [COST ACCOUNTING](XX_CostAccounting.md).
 
 [comment]: <> (Alt-Doku: Das Feld wird beim Eingeben nur dann angesprochen, wenn eine Kostenstellenrechnung für Kost1 eingerichtet ist.)
 
 - *Cst2*  
-This column displays the cost unit number selected. This is only applicable is a cost center accounting for cost 2 has been set up. For more details, see [COST ACCOUNTING](XX_CostAccounting.md).
+This column displays the cost unit number selected.
+
+  > [Info] This is only applicable is a cost center accounting for cost 2 has been set up. For more details, see [COST ACCOUNTING](XX_CostAccounting.md).
 
 - *(Unnamed column)*  
-This column displays a ![B](/Assets/Icons/Beleg.png "[B]") icon if a receipt has been linked to the booking. When clicking on the icon, the linked receipt is displayed in a new window.
+This column displays a ![B](/Assets/Icons/Beleg.png "[B]") icon if a receipt has been linked to the booking. When clicking on the icon, the linked receipt is displayed in the *Attached document* window. For detailed information, see [Attached document](#attached-document).
 
 [comment]: <> (Comment on Bug file -> suggestion to add a name to column)
 
@@ -69,7 +73,7 @@ The total amount of all bookings displayed.
   - *Amount 2*  
   Click this button to manually set an amount 2. A new window opens.  A new window opens where the amount can be entered and confirmed with [OK].
 
-[comment]: <> (Function of Summe 1 & Summe 2??? Describe new window? RS FH!)
+[comment]: <> (Function of Summe 1 & Summe 2??? Describe new window? It seems to change automatically sometimes, at least Summe 1, but I could not find out why! RS FH!)
 
 
 The entry line allows to create a booking manually. For detailed information, see [Create a manual booking](/RetailSuiteAccounting/Operation/04_CreateManualBooking.md).
@@ -113,10 +117,14 @@ Enter the appropriate account number, for example a personal account number, tha
   > [Info] Customer and supplier personal accounts can be created, edited and deleted. For detailed information, see [Manage the customer/supplier](/RetailSuiteAccounting/Integration/05_ManageCustomerSupplier.md).
 
 - *COST1*  
-Enter the appropriate value. This is only applicable is a cost center accounting for cost 1 has been set up. For detailed information, see [COST ACCOUNTING](XX_CostAccounting.md).
+Enter the appropriate value.
+
+  > [Info] This is only applicable is a cost center accounting for cost 1 has been set up. For detailed information, see [COST ACCOUNTING](XX_CostAccounting.md).
 
 - *COST2*  
-Enter the appropriate value. This is only applicable is a cost center accounting for cost 2 has been set up. For detailed information, see [COST ACCOUNTING](XX_CostAccounting.md).
+Enter the appropriate value.
+
+  > [Info] This is only applicable is a cost center accounting for cost 2 has been set up. For detailed information, see [COST ACCOUNTING](XX_CostAccounting.md).
 
 - *Booking text*  
 Enter any appropriate booking text. Booking text can contain a combination of letters and numbers.
@@ -138,7 +146,7 @@ This field displays the current balance of the corresponding account. H stands f
 - [BOOK]    
 Click this button to record the booking in the entry line.
 
-- [CANCEL]
+- [CANCEL]  
 Click this button to cancel the selected booking. For detailed information, see [Cancel a booking](/RetailSuiteAccounting/Operation/05_CancelBooking.md).
 
 - [DELETE]    
@@ -194,10 +202,14 @@ This column displays the booking date. Date format is DDMMYY.
 This column displays the account number, usually a personal account number, that is, a customer or supplier account number.
 
 - *Cost1*  
-This column displays the cost unit number selected, if it has been entered. This is only applicable is a cost center accounting for cost 1 has been set up. For detailed information, see [COST ACCOUNTING](XX_CostAccounting.md).
+This column displays the cost unit number selected, if it has been entered.
+
+  > [Info] This is only applicable is a cost center accounting for cost 1 has been set up. For detailed information, see [COST ACCOUNTING](XX_CostAccounting.md).
 
 - *Cost2*  
-This column displays the cost unit number selected, if it has been entered. This is only applicable is a cost center accounting for cost 2 has been set up. For more details, see [COST ACCOUNTING](XX_CostAccounting.md).
+This column displays the cost unit number selected, if it has been entered.
+
+  > [Info] This is only applicable is a cost center accounting for cost 2 has been set up. For more details, see [COST ACCOUNTING](XX_CostAccounting.md).
 
 - *Text*  
 This column displays the booking text, if it has been entered.
@@ -223,10 +235,10 @@ Enter the turnover amount for each partial booking.
 Enter the corresponding contra account for each partial booking.
 
 - *Receipt1*  
-Enter a receipt 1 value for each partial booking. This field can be modified, if necessary.
+Enter a receipt 1 value for each partial booking, if necessary. This field can be modified.
 
 - *Receipt2*  
-Enter a receipt 2 value for each partial booking. This field can be modified, if necessary.
+Enter a receipt 2 value for each partial booking, if necessary. This field can be modified.
 
 - *Date*  
 This field cannot be modified.
@@ -235,12 +247,12 @@ This field cannot be modified.
 This field cannot be modified.
 
 - *Cost1*  
-Enter the corresponding cost center for each partial bookings, if necessary. This field can be modified.
+Enter the corresponding cost center for each partial booking, if necessary. This field can be modified.
 
   >[Info] This is only applicable is a cost center accounting for cost 1 has been set up. For detailed information, see [COST ACCOUNTING](XX_CostAccounting.md).
 
 - *Cost2*  
-Enter the corresponding cost center for each partial bookings, if necessary. This field can be modified.
+Enter the corresponding cost center for each partial booking, if necessary. This field can be modified.
 
   > [Info] This is only applicable is a cost center accounting for cost 2 has been set up. For detailed information, see [COST ACCOUNTING](XX_CostAccounting.md).
 
@@ -274,42 +286,155 @@ Click this button to cancel the whole process.
 
 ## Attach document
 
-*Accounting > Select fiscal year > Book > Tab BOOKINGS > Button SPLIT*
+*Accounting > Select fiscal year > Book > Tab BOOKINGS > Button ASSIGN RECEIPT*
 
-![Attach document window](/Assets/Screenshots/RetailSuiteAccounting/Book/Bookings/AttachDocument.png "[Attach document window]")
-
-
-- *Directory tree*
-  - *New documents*
-  - *Registered documents*
-  - *Printed documents*
-  - *New supplier receipts*
-
-- [START PAGE]
-- [REFRESH]
-- [PARENT DIRECTORY[]
-- [NEW DIRECTORY[]
-- [UPLOAD[]
-- [DELETE]
-
-Name
-Size
-Type
-Changed
-Owner
-
-Folder
-
-SELECT DOCUMENT
-CLOSE
+![Attach document](/Assets/Screenshots/RetailSuiteAccounting/Book/Bookings/AttachDocument.png "[Attach document]")
 
 
-Attached document
+- *Directory tree*  
+It displays all folders and subfolders containing documents (or receipts). This directory is linked to the *Documents* module and contains the following folder and subfolders:
 
-Document
-Page X
-Zoom
-Download file
+  - *New documents*  
+  This folder contains the newly uploaded documents.
 
-CANCEL ASSIGNMENT
-CLOSE
+  - *Registered documents*  
+  This folder contains the registered documents. Once they are linked to a booking, they are moved automatically into the *Registered documents* folder and then placed in the appropriate subfolder according to the following structure:
+
+    - 10000-19999 personal account numbers in case of a debtors'/customers' document
+    - 70000-70999 personal account numbers in case of a creditors'/suppliers' document
+
+  - *Printed documents*  
+  This folder contains the printed documents.
+
+  - *New supplier receipts*  
+  This folder contains the newly uploaded supplier receipts.
+
+[comment]: <> (Unsure of the number range! 10000-19999 or 69999? 70000-70999 or 70000-79999?)
+
+[comment]: <> (Unsicher! Neue Lieferantenbelege kommt nicht standarmäßig auf, trotz Pfads in Dokumente. Lieferantenbelege Funktion greifft auch nicht dahin zu, trotz Pfads. Warum? Einstellung irgendwo? Screenshot ggf. ändern, d.h. ohne Lieferantenbelege Ordner.)
+
+
+The buttons on top allow to navigate through the folders and documents.
+
+- [START PAGE]  
+Click this button to go back to the initial view of the *Attach document* window.
+
+- [REFRESH]  
+Click this button to refresh the window, for example after making some changes.
+
+- [PARENT DIRECTORY]  
+Click this button to go directly from the current folder to its parent directory.  
+
+- [NEW DIRECTORY]  
+Click this button to create a new folder.
+
+- [UPLOAD]  
+Click this button upload a new document. The *Upload file to* window is displayed, see [Upload file](#upload-file).
+
+- [DELETE]  
+Click this button to delete a selected document or folder.
+
+
+
+All folders and documents are displayed in a column view. The column width can be modified using the mouse. To do so, place the mouse pointer on the vertical dividing line between two columns titles. The mouse pointer changes to a double-headed arrow. Press the left mouse button and move the line using drag and drop until it has reached the required width.
+
+When placing the cursor on a column header, three vertical points are displayed to the right of the column title. Click the ![Points](/Assets/Icons/Points02.png "[Points]") (Points) icon to display the context menu. The following menu entries are available:
+
+- ![Sort ascending](/Assets/Icons/SortAscending.png "[Sort ascending]") Sort ascending  
+  Click this entry to sort the rows in ascending order.
+- ![Sort descending](/Assets/Icons/SortDescending.png "[Sort descending]") Sort descending  
+  Click this entry to sort the rows in descending order.
+- ![Columns](/Assets/Icons/Columns02.png "[Columns]") Columns  
+  Place the mouse on this entry to display the *Columns* sub-menu. Add or remove columns by marking or unmarking the corresponding checkbox.
+
+
+All information provided in columns is read-only.
+
+- [Checkbox]  
+[comment]: <> (Checkbox does not seem to be working; when clicking on the checkbox in the column header, only that one and the last one are selected, not all, as it is usually. Function? Bug?)
+
+- *Name*  
+Folder or document name.
+
+- *Size*  
+Document size.
+
+- *Type*  
+Item type (folder).
+
+- *Changed*  
+Date when the items has been changed.
+
+- *Owner*  
+Item's owner.
+
+
+- [SELECT DOCUMENT]  
+Click this button to assign this document to a booking. The *Attached document* window is briefly displayed, see [Attached document](#attached-document).
+
+- [CLOSE]  
+Click this button to close the window.
+
+
+### Upload file
+
+*Accounting > Select fiscal year > Book > Tab BOOKINGS > Button ASSIGN RECEIPT > Button UPLOAD*
+
+![Attach document window](/Assets/Screenshots/RetailSuiteAccounting/Book/Bookings/UploadFileTo.png "[Attach document window]")
+
+
+The information related to the uploaded documents is displayed in column view. All fields are read-only.
+
+- *Status*  
+This columns displays the document status.
+
+- *Document*  
+This column displays the document name together with its path.
+
+- *Remark*  
+This column displays any remarks related to the uploaded document.
+
+
+- [ADD]  
+Click this button to add a file to be uploaded.
+
+- [REMOVE]  
+Click this button to remove a selected file from the upload list.
+
+- [RESET]  
+Click this button to reset the upload list.
+
+- [UPLOAD]  
+The upload starts automatically after adding a file. This button changes to [CANCEL] during the upload.  
+
+- [CLOSE]  
+Click this button to close the window when the upload is finished.
+
+
+
+### Attached document
+
+This window can also be displayed by clicking the ![B](/Assets/Icons/Beleg.png "[B]") icon in a booking from the bookings list. On top, the path to the file store location is displayed.
+
+![Attached document](/Assets/Screenshots/RetailSuiteAccounting/Book/Bookings/AttachedDocument.png "[Attached document]")
+
+
+- ![Previous](/Assets/Icons/Previous.png "[Previous]") *Document* ![Next](/Assets/Icons/Next.png "[Next]")   
+These buttons do not have any function here, as there is only one document (or receipt) assigned to a booking.
+
+[comment]: <> (These buttons do have a function in "BELEGE BUCHEN/BOOK RECEIPTS". Add info? Link?)
+
+- ![First page](/Assets/Icons/FirstPage02.png "[Previous]") ![First page](/Assets/Icons/Previous.png "[Previous]") *Page [x]* ![Next](/Assets/Icons/Next.png "[Next]")  
+The current page number is displayed. Click the arrow first page/previous/next buttons to scroll through the pages.
+
+- (-) *Zoom* (+)  
+Click the -/+ buttons to zoom in and out of the document view.
+
+- *Download file*  
+Click this button to download the document.
+
+- [CANCEL ASSIGNMENT]  
+Click this button to undo the receipt assignment, if necessary.
+
+- [CLOSE]  
+Click this button to close the window.
