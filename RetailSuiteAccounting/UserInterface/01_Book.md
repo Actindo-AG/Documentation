@@ -27,7 +27,7 @@ Additionally, the following cross-tab functions are contained.
 
   ![Book](/Assets/Screenshots/RetailSuiteAccounting/Book/FYMonthJournalButton.png "[Book]")
 
-Click the *FY/MONTH/JOURNAL* button to display the select fiscal year window. For detailed information, see [Fiscal year](00a_FiscalYear.md) and [Select a fiscal year](/RetailSuiteAccounting/Operation/01_SelectFiscalYear.md).
+Click the [FY/MONTH/JOURNAL] button to display the select fiscal year window. For detailed information, see [Fiscal year](00a_FiscalYear.md) and [Select a fiscal year](/RetailSuiteAccounting/Operation/01_SelectFiscalYear.md).
 
 New fiscal years can be created, edited or deleted. For detailed information about managing fiscal years, see [Manage the fiscal year](/RetailSuiteAccounting/Integration/04_ManageFiscalYear.md).
 
