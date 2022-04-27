@@ -60,7 +60,9 @@ This column displays the booking text, if any has been entered.
 
 
 - *Fiscal year XXXX/Month X/Journal X*  
-This text displays the fiscal, month and journal currently selected. This information is read-only.
+This text displays the fiscal year, month and journal currently selected. This information is read-only.
+
+  > [Info] If the fiscal year or the booking period need to be changed, click the [FY/MONTH/JOURNAL] button to display the select fiscal year window. For detailed information, see [Fiscal year](00a_FiscalYear.md) and [Select a fiscal year](/RetailSuiteAccounting/Operation/01_SelectFiscalYear.md).
 
 - *Show (all/the last [XXX]) bookings*    
 Click the drop-down list to select the preferred display filter.
