@@ -320,3 +320,5 @@ The buttons on the bottom right corner have no specific function in the open ite
 If there are no open items, a blank tab and the message "No open items exist" is displayed.
 
  ![No open items](/Assets/Screenshots/RetailSuiteAccounting/Book/OpenItems/NoOPOS.png "[No open items]")
+
+ 
