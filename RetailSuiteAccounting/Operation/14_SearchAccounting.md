@@ -75,7 +75,7 @@ A booking can be searched for using different search criteria, such as turnover,
 
   1. Select the applicable search criteria by marking the corresponding *Active* checkbox.      
 
-    ![Search for a booking](/Assets/Screenshots/RetailSuiteAccounting/Book/Search/BookExtrasSearch.png "[Search for a booking]")
+  ![Search for a booking](/Assets/Screenshots/RetailSuiteAccounting/Book/Search/BookExtrasSearch.png "[Search for a booking]")
 
   2. Enter the search value in the *Search for* field.
 
