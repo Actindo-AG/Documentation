@@ -12,6 +12,7 @@ The *Debtors/creditors* tab contains two sub-tabs:
   - Customer/supplier list
   - Create customer/supplier
 
+
 ## Customer/supplier list
 
 *Accounting > Select fiscal year > Settings > Tab DEBTORS/CREDITORS > Sub-tab Customer/supplier list*
@@ -21,9 +22,9 @@ The *Debtors/creditors* tab contains two sub-tabs:
 - [QUICK SEARCH]  
 Click this button to display the *QUICK SEARCH* context menu. All search criteria are selected per default through a marked checkbox. Deselect any search criteria as necessary. The following search criteria are available:
 
-  - *No.*
+  - *No.*  
   - *Short name*
-  - *Company*
+  - *Company*  
   - *Forename*
   - *Surname*
   - *Address*
@@ -42,6 +43,8 @@ Click this button to display the *QUICK SEARCH* context menu. All search criteri
   - *VAT ID*
   - *Type of customer*
   - *Customer number*
+
+[comment]: <> (Add an explanation of each field? What's the difference between No. and Customer number? RS HG/FS)
 
   [comment]: <> (in the system as No -> add point)
   [comment]: <> (in the system: Firma -> localise)
@@ -68,7 +71,7 @@ Click this button to display the context menu.
   The following filter values are available:
     - Price group
 
-  - *FILTER CRTERION*  
+  - *FILTER CRITERION*  
   Click the drop-down list to select the appropriate filter criterion.
 
   [comment]: <> (No more "filter by" options available or depends on the settings?)
@@ -114,7 +117,7 @@ Depending on the settings, the displayed columns may vary. The following fields 
 [comment]: <> (in the system: City)  
 
 
-Columns can be added or removed by clicking the the ![Points](/Assets/Icons/Points02.png "[Points]") (Points) icon. The following additional columns are available:
+  The following additional columns are available:
 
 - *Address 2*
 - *Currency*
@@ -127,6 +130,13 @@ Columns can be added or removed by clicking the the ![Points](/Assets/Icons/Poin
 - *Type of customer*
 - *Customer number*
 
+[comment]: <> (Add an explanation of each field? What's the difference between No. and Customer number? RS HG/FS)
+
+[comment]: <> (By right-clicking on a rown, context menu appears with two options -> Show documents of the customer / supplier -> to Overview in Fakturierung module, and Show articles of supplier -> to Artikelliste in Artikelverwaltung module. Add link when available?)
+
+- ![First page](/Assets/Icons/FirstPage.png "[First page]") - ![Last page](/Assets/Icons/LastPage.png "[Last page]") (First page) - (Last page)  
+ ![Previous page](/Assets/Icons/PreviousPage.png "[Previous page]") - ![Next page](/Assets/Icons/NextPage.png "[Next page]") (Previous page) - (Next page)  
+Click these buttons to navigate the customer/supplier list.
 
 - *Page [x] of [x]*  
 Enter a page number to go to a specific page.
@@ -140,17 +150,17 @@ Enter a page number to go to a specific page.
  [comment]: <> (Unsure! What does RESET button do?)
 
 - *X - X of X*  
-This text displays the total number of customers and suppliers in the list. This text is read-only.
+This text displays the number of customers and suppliers currently displayed and the total number of customers and suppliers in the list. This text is read-only.
 
 
 
-## Kunde/Lieferant anlegen
+## Create customer/supplier
 
 ![Create a customer/supplier](/Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/CreateCustomerSupplier.png "[Create a customer/supplier]")
 
 
 
 
-### Kunde/Lieferant
+### Customer/suppliers
 
 ![Edit a customer/supplier](/Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/EditCustomerSupplier.png "[Edit a customer/supplier]")
