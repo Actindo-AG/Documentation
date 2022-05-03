@@ -156,11 +156,135 @@ This text displays the number of customers and suppliers currently displayed and
 
 ## Create customer/supplier
 
+*Accounting > Select fiscal year > Settings > Tab DEBTORS/CREDITORS > Sub-tab Customer/supplier list > *
+
+![Create a customer/supplier](/Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/CreateCustomerSupplier.png "[Create a customer/supplier]")
+
+The *Create customer/supplier* sub-tab contains in turn several sub-tabs to organise customer/supplier details:
+
+- Address/contact
+- Delivery addresses
+- Invoicing
+- Additional fields
+- Drop shipping
+- CRM information
+- Notes
+
+[comments]: <> (Billing statt Invoicing im System)
+
+### Address/contact
+
 ![Create a customer/supplier](/Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/CreateCustomerSupplier.png "[Create a customer/supplier]")
 
 
+#### Address details
+[comment]: <> (im System Address data)
+
+- *Create debtor/creditor*  
+Click the drop-down list to select to select the appropriate option, **Debtor (customer)** or **Creditor (supplier)**.
+
+[comment]: <> (im System: Customer customer / Vendor supplier)
+
+- *Debtor/creditor no.*  
+Enter a customer/supplier number or leave empty for the next available number.  
+
+  > [Info] A valid range for personal account numbers (10000-69999 for customers and 70000-99999 for suppliers) is predefined in the system. If a number is entered out of this range, a warning message is displayed.
+
+- *Short name*  
+Enter a short name for this customer/supplier.
+
+- *Form of address*  
+Click the drop-down list to select the appropriate form of address. The following options are available:  
+    - **Company**
+    - **Mr**
+    - **Ms**
+    - **Mr and Mrs**
+    - **Dr.**
+    - **Prof.**
+    - **none**
+
+- *Letter salutation*  
+Enter the appropriate letter salutation.
+
+- *Company*  
+Enter the company name.
+
+- *Surname*  
+Enter the customer/supplier last name.
+
+- *Forename*  
+Enter the customer/supplier first name.
+
+- *Address*  
+Enter the customer/supplier address.
+
+- *Address supplement*  
+Enter any other necessary address information.
+[comment]: <> (im System Address suffix)
+
+- *Zip code*  
+Enter the customer/supplier zip code.
+[comment]: <> (im System Postal code)
+
+- *Location*  
+Enter the customer/supplier location.
+[comment]: <> (im System Ort)
+
+- *Country*  
+Click the drop-down list to select the appropriate country.
+[comment]: <> (Drop-down liste im System auf DE, Sortierung aber auf EN)
 
 
-### Customer/suppliers
+#### Contact
+
+- *Phone*
+- *Phone 2*
+- *Cell phone*
+- *Fax*
+- *Email*
+- *URL*
+
+
+#### Further
+
+- *Language*  
+Click the drop-down list to select the appropriate language or select **No linguistic content**.
+
+- *Currency*  
+Click the drop-down list to select the appropriate currency.
+
+
+
+### Delivery addresses
+
+![Delivery addresses](/Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/FurtherAddresses.png "[Delivery addresses]")
+
+
+### Invoicing
+
+![Delivery addresses](/Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/Billing.png "[Delivery addresses]")
+
+### Additional fields
+
+![Delivery addresses](/Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/AdditionalFields.png "[Delivery addresses]")
+
+### Content
+
+![Delivery addresses](/Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/Content.png "[Delivery addresses]")
+
+### Drop shipping
+
+![Delivery addresses](/Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/DropShipping.png "[Delivery addresses]")
+
+### CRM information
+![Delivery addresses](/Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/CRMInformation.png "[Delivery addresses]")
+
+### Notes
+![Delivery addresses](/Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/Notes.png "[Delivery addresses]")
+
+
+
+
+## Customer/suppliers
 
 ![Edit a customer/supplier](/Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/EditCustomerSupplier.png "[Edit a customer/supplier]")
