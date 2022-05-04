@@ -288,30 +288,143 @@ To add further delivery addresses, see [Further addresses](#further-addresses).
 
 ### Invoicing
 
-![Delivery addresses](/Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/Billing.png "[Delivery addresses]")
+![Delivery addresses](/Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/Billing01.png "[Delivery addresses]")
 
 #### Bank details
 
+- *Account holder*  
+Enter the account holder name.
+
+- *Account*  
+Enter the customer/supplier bank account.
+
+- *Routing number*  
+Enter the bank routing number.
+
+[comment]: <> (in German BLZ; in USA/Canada Routing Transit Number/RTN, ABA number, transit number...)
+
+- *Bank*  
+Enter the bank name.
+[comment]: <> (This field is greyed out and nothing can be entered. Settings? Does it in live accounts offer a drop-down list depending on BANK CODE entered above?)
+
+- *BIC*  
+Enter the BIC (Bank Identifier Code).
+
+- *IBAN*  
+Enter the IBAN (International Bank Account Number).
+
+- *SEPA mandate reference*  
+Enter the SEPA mandate reference, if available.
+
+- *Signature date*  
+Enter the signature date or click the ![Calendar](/Assets/Icons/Calendar.png "[Calendar]") icon to select the date.
+
+
 #### Payment options
+
+- *Price group*
+Click the drop-down list to select the appropriate option.
+
+  > [Info] Price groups... To set up a price group, see (link).
+
+- *Print gross*  
+Click the drop-down list to select the print mode. The following options are available:  
+  - **Net prices on receipts**
+  - **Gross prices on receipts**
+  - **Gross prices stating net total amount**
+
+[comment]: <> (Unsure, check!)
+
 
 #### Tax
 
-- [SUCHEN]  
+- *Tax office no.*  
+Enter the tax office number, if known. Alternatively, use the [SEARCH] button to search for the competent tax office.
+
+- [SEARCH]  
 Click this button to add a tax office. The *Select tax office* window is displayed, see [Select tax office](#select-tax-office).  
+
+- *Tax office*  
+Enter the competent tax office, if known.
+
+- *Tax no.*  
+Enter the customer/supplier tax number, if applicable.
+
+- *VAT ID*  
+Enter the customer/supplier VAT ID number, if applicable.
+
+
+
+#### Booking
+[comment]: <> (im System Posting)
+
+- *Standard account*
+
+- *Standard cost 1*
+
+- *Standard cost 2*
+
 
 #### Credit card data
 
-#### Standard values
+- *Card type*  
+Click the drop-down list to select the applicable card type.
+
+- *Card holder*  
+Enter the card holder name.
+
+- *Card number*  
+Enter the card number.
+
+- *Valid Thru*  
+Enter the card expiry date.
+
+
+#### Default values
+
+[comment]: <> (im System Standard values)
+
+- *Method*  
+Click the drop-down list to select the applicable method.
+
+- *Payment terms*  
+Click the drop-down list to select the applicable payment terms. The following options are available:  
+  - 1 - 8 d 2%, 30 d net
+  - 2 - 30 d net  
+
+- *Only cost supplier/order management inactive [x]*
+[comment]: <> (Kostenlieferant??? Check Video Fragen FH)
+
+- *Goods receipt required [x]*  
+Select o deselect this checkbox as necessary.
+
+- *Tolerance group for discounts [x]*  
+Click the drop-down list to select the appropriate option.
+
+[comment]: <> (Default option: Standard; other options?)
+
 
 #### Limits / Locks
 
-#### Other
+- *Credit limit*
+- *Customer block*
+- *Dunning block*
+- *Dunning block, automatic*
+- *Delivery block*
+- *Contact block*
 
 
+#### Additional information
+
+- *Supplier no. for customer*
+
+- *Freight limit*  
+
+> [Info] This field is only available when a supplier (account number range 70000-99999) is selected.
 
 ### Additional fields
 
-![Delivery addresses](/Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/AdditionalFields01.png "[Delivery addresses]")
+![Delivery addresses](/Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/AdditionalFields02.png "[Delivery addresses]")
 
 ### Drop shipping
 
@@ -349,7 +462,7 @@ The address entered in the *Address details* section in the *Address/contact* su
 [comment]: <> (Bug/question added to Bug Notes document)
 
 
-#### Add section
+#### Add
 
 - [CREATE]  
 Click this button to display the *Add* section.
@@ -435,12 +548,14 @@ Enter the customer/supplier VAT ID number, if applicable.
 - *Tax number*  
 Enter the customer/supplier tax number, if applicable.
 
-- [CLEAR]
+- [CLEAR]  
+Click this button to clear the entry fields.
 
-- [SAVE]
+- [SAVE]  
+Click this button to save the added address.
 
 
-#### Delivery addresses section
+#### Delivery addresses
 
 All delivery addresses entered are displayed in a column view. The column width can be modified using the mouse. To do so, place the mouse pointer on the vertical dividing line between two columns titles. The mouse pointer changes to a double-headed arrow. Press the left mouse button and move the line using drag and drop until it has reached the required width.
 
@@ -464,19 +579,19 @@ Mark this check to select an address to be edited or deleted.
 This column displays the number given to every additional address. The base address is marked as **STD** (standard).
 
 - *Address type*  
-This column displays the address type.
+This column displays the address type selected.
 
 - *Company*  
-This column displays the company name.
+This column displays the company name entered.
 
 - *ZIP*  
-This column displays the customer/supplier ZIP (or postal) code.
+This column displays the customer/supplier ZIP (or postal) code entered.
 
 - *Location*  
-This column displays the customer/supplier location.
+This column displays the customer/supplier location entered.
 
 - *Country*  
-This column displays the customer/supplier country.
+This column displays the customer/supplier country selected.
 
 > [Info] The different countries are represented with the international vehicle registration codes.
 
@@ -511,7 +626,7 @@ Click this button to save all changes in the selected customer/supplier.
 
 ### Invoicing
 
-![Delivery addresses](/Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/Billing.png "[Delivery addresses]")
+![Delivery addresses](/Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/Billing02.png "[Delivery addresses]")
 
 ### Additional fields
 
