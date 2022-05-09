@@ -338,7 +338,8 @@ Click the drop-down list to select the appropriate option.
   [comment]: <> (Artikelverwaltung > Einstellungen > Preisgruppen)
 
 - *Print gross*  
-Click the drop-down list to select the print mode. The following options are available:  
+Click the drop-down list to select the print mode. The following options are available:   
+
   - **Net prices on receipts**
   - **Gross prices on receipts**
   - **Gross prices stating net total amount**
@@ -459,7 +460,7 @@ Enter a reference supplier number defined by the customer, if necessary.
 - *Freight limit*  
 Enter a freight limit by the supplier, if necessary.
 
-> [Info] This field is only displayed when a supplier (account number range 70000-99999) is selected and, therefore, only relevant for suppliers.
+  > [Info] This field is only displayed when a supplier (account number range 70000-99999) is selected and, therefore, only relevant for suppliers.
 
 
 
@@ -711,7 +712,8 @@ Click the drop-down list to select the appropriate option.
   [comment]: <> (Artikelverwaltung > Einstellungen > Preisgruppen)
 
 - *Print gross*  
-Click the drop-down list to select the print mode. The following options are available:  
+Click the drop-down list to select the print mode. The following options are available:   
+
   - **Net prices on receipts**
   - **Gross prices on receipts**
   - **Gross prices stating net total amount**
@@ -831,7 +833,7 @@ Enter a reference supplier number defined by the customer, if necessary.
 - *Freight limit*  
 Enter a freight limit by the supplier, if necessary.
 
-> [Info] This field is only displayed when a supplier (account number range 70000-99999) is selected and, therefore, only relevant for suppliers.
+  > [Info] This field is only displayed when a supplier (account number range 70000-99999) is selected and, therefore, only relevant for suppliers.
 
 
 
