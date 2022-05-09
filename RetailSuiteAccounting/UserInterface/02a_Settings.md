@@ -71,7 +71,7 @@ Click this button to display the context menu.
 
   - *FILTER BY*  
   The following filter values are available:
-    - Price group
+    - Price group  
 
   - *FILTER CRITERION*  
   Click the drop-down list to select the appropriate filter criterion.
@@ -272,7 +272,9 @@ Click the drop-down list to select the appropriate currency.
 - [SAVE]  
 Click this button to save the newly entered customer/supplier details.
 
-> [Info] It is not possible to enter any further information in the other sub-tabs before saving the details entered in the *Address/contact* sub-tab. After saving the new customer/supplier address and contact details, the *Delivery addresses*, *Additional fields* and *Drop shipping* sub-tabs display a warning message and can only be used to add data after selecting the newly created customer/supplier in the *Customer/Supplier list* tab.
+> [Info] It is not possible to enter any further information in the other sub-tabs before saving the details entered in the *Address/contact* sub-tab. When clicking the other sub-tabs, a window with a warning message is displayed. Click [OK] to confirm the window and save the newly entered customer/supplier. Alternatively, click the [SAVE] button on the bottom.
+
+> [Info] After saving the new customer/supplier address and contact details, the *Delivery addresses*, *Additional fields* and *Drop shipping* sub-tabs display a warning message and can only be used to add data after selecting the newly created customer/supplier in the *Customer/Supplier list* tab.
 
 
 
@@ -284,9 +286,9 @@ Click this button to save the newly entered customer/supplier details.
 
 The address entered in the *Address details* section in the *Address/contact* sub-tab is saved as standard customer/supplier address in the system.
 
-The *Delivery address* sub-tab cannot be edited here. A warning message is displayed.
+The *Delivery address* sub-tab cannot be edited here. The warning message *Please save customer/supplier first* is displayed.
 
-To add further addresses, see [Further addresses](#further-addresses).
+To add further delivery addresses, see [Further addresses](#further-addresses).
 
 [comment]: <> (Bug/question added to Bug Notes document)
 
@@ -466,26 +468,136 @@ Enter a freight limit by the supplier, if necessary.
 
 ### Additional fields
 
+*Accounting > Select fiscal year > Settings > Tab DEBTORS/CREDITORS > Tab Create customer/supplier > Sub-tab Additional fields*
+
 ![Additional fields](/Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/AdditionalFields01.png "[Additional fields]")
 
-The *Additional fields* sub-tab cannot be edited here. A warning message is displayed.
+The *Additional fields* sub-tab cannot be edited here. The warning message *Please save customer/supplier first* is displayed.
 
-To add additional fields, select the newly created customer/supplier in the *Customer/supplier list* tab. For detailed information, see [Additional fields](#additional-fields).
+To add additional fields, select the newly created customer/supplier in the *Customer/supplier list* tab and click the *Additional fields* sub-tab.
+
+For detailed information, see [Additional fields](#additional-fields).
 
 [comment]: <> (Same Name! --> Restructure! Bug/question added to Bug Notes document)
 
 ### Drop shipping
 
-![Delivery addresses](/Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/DropShipping01.png "[Delivery addresses]")
+*Accounting > Select fiscal year > Settings > Tab DEBTORS/CREDITORS > Tab Create customer/supplier > Sub-tab Drop shipping*
+
+![Drop shipping](/Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/DropShipping01.png "[Drop shipping]")
+
+The *Drop shipping* sub-tab cannot be edited here. The warning message *Please save supplier first* is displayed.
+
+To add further information, select the newly created supplier in the *Customer/Supplier list* tab and click the *Drop shipping* sub-tab.
+
+For detailed information, see [Drop shipping](#drop-shipping).
+
+[comment]: <> (Same Name! --> Restructure! Bug/question added to Bug Notes document)
+
 
 ### CRM information
-![Delivery addresses](/Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/CRMInformation01.png "[Delivery addresses]")
+
+*Accounting > Select fiscal year > Settings > Tab DEBTORS/CREDITORS > Tab Create customer/supplier > Sub-tab CRM information*
+
+![CRM information](/Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/CRMInformation01.png "[CRM information]")
+
+#### General
+
+  - *Customer no.*  
+  Enter the appropriate customer number.
+
+  - *Type*  
+  Enter the type of customer.
+
+  - *Date of birth*  
+  Enter the date of birth or click the ![Calendar](/Assets/Icons/Calendar.png "[Calendar]") icon to select the date.
+
+  - *Supervisor*  
+  Click the drop-down list to select the corresponding supervisor.
+
+  - *Area*  
+  Enter the applicable area, if necessary.
+
+  [comment]: <> (Gebiet/Area? Meaning department? Business area/unit?)
+
+  - *Last pers. contact*  
+  Enter the date of the last personal contact or click the ![Calendar](/Assets/Icons/Calendar.png "[Calendar]") icon to select the date.
+
+  - *Industry*  
+  Enter information about the applicable industrial sector, if necessary.
+
+  - *Industry 2*  
+  Enter information about the applicable industrial sector, if necessary.
+
+
+#### Credit rating
+
+  - *Request from*  
+  Enter the request date or click the ![Calendar](/Assets/Icons/Calendar.png "[Calendar]") icon to select the date.
+
+  - *Capital*  
+  Enter the applicable capital amount.
+
+  - *Employees*  
+  Click the drop-down list to select the appropriate number of employees.
+
+  - *Status from*  
+  Enter the status date or click the ![Calendar](/Assets/Icons/Calendar.png "[Calendar]") icon to select the date.
+
+  - *Year*  
+  Enter the year of the credit rating.
+
+  [comment]: <> (of credit rating?)
+
+  - *Turnover*  
+  Enter the turnover value.
+
+  [comment]: <> (Im System "Sales")
+
+  - *Other information*  
+  Enter any other relevant information.
+
+
+#### Document Dispatch Notification Settings
+
+- *Overwrite* [x]  
+Select the checkbox to display the options below.
+
+- *Dispatch method*  
+Click the drop-down list to select the shipping method. The following options are available:  
+    - **Email**
+    - **Post**
+    - **Fax**
+    - **APS print**  
+
+
+- *Order origin*  
+Click the drop-down list to select the applicable order origins(s). Multiple selection is possible.
+
+- *Template*  
+Click the drop-down list to select the applicable template.
+
+[comment]: <> (Drop-down list options to be localised)
+
+
+> [Info] This section is not relevant when creating a supplier.
+
 
 ### Notes
-![Delivery addresses](/Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/Notes01.png "[Delivery addresses]")
+
+*Accounting > Select fiscal year > Settings > Tab DEBTORS/CREDITORS > Tab Create customer/supplier > Sub-tab Notes*
+
+![Notes](/Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/Notes01.png "[Notes]")
 
 
+- *Comments*  
+Enter any further relevant information in this section. The information entered here is displayed in the *Comments* column in the *Customer/supplier* tab.
 
+- [HELP]  
+Click this button to open the help function.
+
+- [SAVE]  
+Click this button to save any changes made.
 
 
 ## Customer/supplier (number)
@@ -494,12 +606,15 @@ To add additional fields, select the newly created customer/supplier in the *Cus
 
 When selecting an existing customer/supplier from the list in the *Customer/supplier list* tab, the *Customer/supplier (number)* tab is displayed. Existing details can be edited and new ones can be entered in the subsequent sub-tabs.
 
+The display sub-tabs and information vary depending of whether a customer or a supplier has been selected.
+
 
 ### Further addresses
 
-*Accounting > Select fiscal year > Settings > Tab DEBTORS/CREDITORS > Tab Create customer/supplier > Sub-tab Further addresses*
+*Accounting > Select fiscal year > Settings > Tab DEBTORS/CREDITORS > Tab Customer/supplier list > Select customer/supplier > Sub-tab Further addresses*
 
 ![Further addresses](/Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/FurtherAddresses01.png "[Further addresses]")
+
 
 The address entered in the *Address details* section in the *Address/contact* sub-tab is automatically saved as standard delivery address. The standard address is displayed in this sub-tab marked as **STD**. Further delivery addresses can be added in this sub-tab.
 
@@ -670,7 +785,10 @@ Click this button to save all changes in the selected customer/supplier.
 
 ### Invoicing
 
+*Accounting > Select fiscal year > Settings > Tab DEBTORS/CREDITORS > Tab Customer/supplier list > Select customer/supplier > Sub-tab Invoicing*
+
 ![Delivery addresses](/Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/Billing02.png "[Delivery addresses]")
+
 
 #### Bank details
 
@@ -839,6 +957,8 @@ Enter a freight limit by the supplier, if necessary.
 
 ### Additional fields
 
+*Accounting > Select fiscal year > Settings > Tab DEBTORS/CREDITORS > Tab Customer/supplier list > Select customer/supplier > Sub-tab Additional fields*
+
 ![Additional fields](/Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/AdditionalFields02.png "[Additional fields]")
 
 - [EDIT ADDITIONAL FIELDS]  
@@ -878,17 +998,246 @@ This column displays the value entered.
 
 ### Content
 
-![Content](/Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/Content.png "[Content]")
+*Accounting > Select fiscal year > Settings > Tab DEBTORS/CREDITORS > Tab Customer/supplier list > Select customer/supplier > Sub-tab Content*
+
+![Content](/Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/Content01.png "[Content]")
+
+
+The existing content data are displayed in a column view. The column width can be modified using the mouse. To do so, place the mouse pointer on the vertical dividing line between two columns titles. The mouse pointer changes to a double-headed arrow. Press the left mouse button and move the line using drag and drop until it has reached the required width.
+
+When placing the cursor on a column header, three vertical points are displayed to the right of the column title. Click the ![Points](/Assets/Icons/Points02.png "[Points]") (Points) icon to display the context menu. The following menu entries are available:
+
+- ![Sort ascending](/Assets/Icons/SortAscending.png "[Sort ascending]") Sort ascending  
+  Click this entry to sort the rows in ascending order.
+- ![Sort descending](/Assets/Icons/SortDescending.png "[Sort descending]") Sort descending  
+  Click this entry to sort the rows in descending order.
+- ![Columns](/Assets/Icons/Columns02.png "[Columns]") Columns  
+  Place the mouse on this entry to display the *Columns* sub-menu. Add or remove columns by marking or unmarking the corresponding checkbox.
+
+Depending on the settings, the displayed columns may vary. All information provided in columns is read-only.
+
+
+- [Checkbox]
+
+- *ID*
+
+- *Language*
+
+- *Type*
+
+- *Name*
+
+- *File/Link*
+
+
+- [CREATE]  
+Click this button to create new additional fields. The *Add* section is displayed, see [Add additional fields](#add-additional-fields).
+
+- [DELETE]  
+Click this button to delete a selected address from the list.
+
+- [SHOW ALL]
+
+- ![Refresh](/Assets/Icons/Refresh03.png "[Refresh]")  (Refresh)  
+Click this button to refresh the list after making any changes.
+
+
+![Content](/Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/Content02.png "[Content]")
+
+- *Language*  
+Click the drop-down list to select the appropriate language.
+
+- *Type*  
+Click the drop-down list to select the appropriate content type. The following options are available:  
+
+  - **Link**
+  - **File**
+  - **HTML**
+
+- *Name/Title*  
+Enter the content name or title.
+
+- *Hide attachment* [checkbox]  
+Select the checkbox to hide the attachment.
+
+- *Link*  
+Enter the link to the content.
+
+- *Link target*  
+Click the drop-down list to select the appropriate option. The following options are available:  
+  - **New window** to open the content in a new window
+  - **Same window** to open the content in the same window
+
+- *File*
+
+- [DOWNLOAD]  
+Click this button to download the file.
+
+[comment]: <> (Button partially displayed. UPLOAD missing?)
+
+- [SAVE]  
+Click this button to save any changes made.
+
+- [CLEAR]  
+Click this button to clear the entry lines.
+
+
+The buttons on the bottom refer to the second level tab, that is, to the customer/supplier selected.  
+
+- [HELP]  
+Click this button to open the help function.
+
+[comment]: <> (Not working yet!)
+
+- [NEW/RESET]  
+Click this button to reset the *Customer/supplier* tab and create a new customer/supplier. The *Create customer/supplier* is displayed.
+
+- [DELETE CUSTOMER (XXXXX)]/[DELETE SUPPLIER (XXXXX)]  
+Click this button to delete the selected customer/supplier.
+
+- [SAVE]  
+Click this button to save all changes in the selected customer/supplier.
+
+
+### Warehouse history
+
+*Accounting > Select fiscal year > Settings > Tab DEBTORS/CREDITORS > Tab Customer/supplier list > Select customer/supplier > Sub-tab Warehouse history*
+
+> [Info] This sub-tab is only displayed when selecting a customer in the *Customer/supplier* list.
+
+
+### Statistics
+
+*Accounting > Select fiscal year > Settings > Tab DEBTORS/CREDITORS > Tab Customer/supplier list > Select customer/supplier > Sub-tab Statistics*
+
+> [Info] This sub-tab is only displayed when selecting a customer in the *Customer/supplier* list.
+
 
 ### Drop shipping
 
+*Accounting > Select fiscal year > Settings > Tab DEBTORS/CREDITORS > Tab Customer/supplier list > Select customer/supplier > Sub-tab Drop shipping*
+
+> [Info] This sub-tab is only displayed when selecting a supplier in the *Customer/supplier* list.
+
 ![Delivery addresses](/Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/DropShipping02.png "[Delivery addresses]")
 
+
 ### CRM information
-![Delivery addresses](/Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/CRMInformation02.png "[Delivery addresses]")
+
+*Accounting > Select fiscal year > Settings > Tab DEBTORS/CREDITORS > Tab Customer/supplier list > Select customer/supplier > Sub-tab CRM information*
+
+![Delivery addresses](/Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/CRMInformation02a.png "[Delivery addresses]")
+
+#### General
+
+  - *Customer no.*  
+  Enter the appropriate customer number.
+
+  - *Type*  
+  Enter the type of customer.
+
+  - *Date of birth*  
+  Enter the date of birth or click the ![Calendar](/Assets/Icons/Calendar.png "[Calendar]") icon to select the date.
+
+  - *Supervisor*  
+  Click the drop-down list to select the corresponding supervisor.
+
+  - *Area*  
+  Enter the applicable area, if necessary.
+
+  [comment]: <> (Gebiet/Area? Meaning department? Business area/unit?)
+
+  - *Last pers. contact*  
+  Enter the date of the last personal contact or click the ![Calendar](/Assets/Icons/Calendar.png "[Calendar]") icon to select the date.
+
+  - *Industry*  
+  Enter information about the applicable industrial sector, if necessary.
+
+  - *Industry 2*
+  Enter information about the applicable industrial sector, if necessary.
+
+
+#### Credit rating
+
+  - *Request from*  
+  Enter the request date or click the ![Calendar](/Assets/Icons/Calendar.png "[Calendar]") icon to select the date.
+
+  - *Capital*  
+  Enter the applicable capital amount.
+
+  - *Employees*  
+  Click the drop-down list to select the appropriate number of employees.
+
+  - *Status from*  
+  Enter the status date or click the ![Calendar](/Assets/Icons/Calendar.png "[Calendar]") icon to select the date.
+
+  - *Year*  
+  Enter the year of the credit rating.
+
+  [comment]: <> (of credit rating?)
+
+  - *Turnover*  
+  Enter the turnover value.
+
+  [comment]: <> (Im System "Sales")
+
+  - *Other information*  
+  Enter any other relevant information.
+
+
+#### Document Dispatch Notification Settings
+
+- *Overwrite* [x]  
+Select the checkbox to display the options below.
+
+- *Dispatch method*  
+Click the drop-down list to select the shipping method. The following options are available:  
+    - **Email**
+    - **Post**
+    - **Fax**
+    - **APS print**  
+
+
+- *Order origin*  
+Click the drop-down list to select the applicable order origins(s). Multiple selection is possible.
+
+- *Template*  
+Click the drop-down list to select the applicable template.
+
+[comment]: <> (Drop-down list options to be localised)
+
+
+> [Info] When selecting a supplier (customer 70000 onwards) in the *Customer/supplier list*, only the *General* and *Credit rating* sections are displayed. Moreover, the *General* fields contains only the *Supervisor*, *Area*, *Last pers. contact*, *Industry* and *Industry 2* fields.   
+
+  ![CRM information - Supplier](/Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/CRMInformation02b.png "[CRM information - Supplier]")
+
+[comment]: <> (Reorganise information, make consistent with other sections!)
+
 
 ### Notes
-![Delivery addresses](/Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/Notes02.png "[Delivery addresses]")
+
+*Accounting > Select fiscal year > Settings > Tab DEBTORS/CREDITORS > Tab Customer/supplier list > Select customer/supplier > Sub-tab Notes*
+
+![Notes](/Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/Notes02.png "[Notes]")
+
+
+- *Comments*  
+Enter any further relevant information in this section. The information entered here is displayed in the *Comments* column in the *Customer/supplier* tab.
+
+
+- [HELP]  
+Click this button to open the help function.
+
+[comment]: <> (Not working yet!)
+
+- [NEW/RESET]  
+Click this button to reset the *Customer/supplier* tab and create a new customer/supplier. The *Create customer/supplier* is displayed.
+
+- [DELETE CUSTOMER (XXXXX)]/[DELETE SUPPLIER (XXXXX)]  
+Click this button to delete the selected customer/supplier.
+
+- [SAVE]  
+Click this button to save all changes in the selected customer/supplier.
 
 
 
