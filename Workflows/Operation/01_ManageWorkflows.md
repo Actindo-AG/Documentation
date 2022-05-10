@@ -8,6 +8,7 @@ The *Workflows* module allow the customer to define  their own business processe
 
 Workflows can be created, edited, and deleted, as necessary (bear in mind compatibility restrictions). They can also be tracked for errors to be solved (retry procedure after taking action in the appropriate module, see [Troubleshooting](#to-be-completed)).  
 
+<<<<<<< HEAD
 ## Create a workflow
 
 ### Prerequisites
@@ -32,6 +33,9 @@ To link/join nodes together, drag and drop.
 
 
 ## Edit a workflow
+=======
+
+>>>>>>> df9f243718ff7045c280e2db79068cdb87674174
 
 ### Prerequisites
 
