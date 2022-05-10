@@ -11,8 +11,8 @@ This tab and all corresponding sub-tabs are also contained in the *Invoicing* mo
 
 The *Debtors/creditors* tab contains in turn two tabs:
 
-  - Customer/supplier list
-  - Create customer/supplier
+  - Customer/supplier list, see [Customer/supplier list](#customer-supplier-list)
+  - Create customer/supplier, see [Create customer/supplier](#create-customer-supplier)
 
 
 ## Customer/supplier list
