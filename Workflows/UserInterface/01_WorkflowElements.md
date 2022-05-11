@@ -18,7 +18,7 @@ A workflow runs from left to right, from a start point to an end point, which ca
 
 ![Place](/Assets/Screenshots/Workflows/Workflows/Place.png "[Place]")
 
-A place is a step in the workflow and is represented by circle, usually with incoming and outgoing arrows.
+A place is a step in the workflow and is represented by circle, usually with inward and outward arrows.
 
 Places serve as link between actions, joining an output port from the previous action to the corresponding input port of the following action. Places linking mandatory input/output ports are displayed per default and cannot be deleted. Additional places can be added by clicking on the ![Add](/Assets/Icons/Plus01.png "[Add]") (Add) button next to the optional input/output port. For detailed information about the types of input/output ports, see [Input and output ports](#input-and-output-port).
 
