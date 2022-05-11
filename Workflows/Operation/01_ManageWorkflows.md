@@ -8,7 +8,7 @@ The *Workflows* module allow the customer to define  their own business processe
 
 Workflows can be created, edited, and deleted, as necessary (bear in mind compatibility restrictions). They can also be tracked for errors to be solved (retry procedure after taking action in the appropriate module, see [Troubleshooting](#to-be-completed)).  
 
-
+<<<<<<< HEAD
 ## Create a workflow
 
 ### Prerequisites
@@ -33,6 +33,9 @@ To link/join nodes together, drag and drop.
 
 
 ## Edit a workflow
+=======
+
+>>>>>>> df9f243718ff7045c280e2db79068cdb87674174
 
 ### Prerequisites
 
@@ -54,21 +57,27 @@ The workflow editor is displayed in the workspace.
 
   ![Workflow editor](/Assets/Screenshots/Workflows/Workflows/WorkflowEditor.png "[Workflow editor]")
 
-3. Make the desired changes in the workflow. The following procedures are described in detail below:
-  - [Edit the place data type](#edit-the-place-data-type)
-  - [Change the place ports](#change-the-place-ports)
-  - [Create an action](#create-an-action)
-  - [Edit an action](#edit-an-action)
+3. Make the desired changes in the workflow. The changes below are described in detail:
+  - Edit the place settings
+  - Change the place input/output port
+  - Create an action
+  - Edit the action
 
 
-#### Edit the place data type
+#### Edit the place settings
 
-1. Click the place you want to edit.    
-  The place is highlighted and its settings are displayed in the settings side bar on the right.
+1. Click the place you want to edit.  
+  The place is highlighted and its settings are displayed in the right side bar.
 
   ![Place](/Assets/Screenshots/Workflows/Workflows/Place.png "[Place]")
 
-2. Click the *Data Container* field in the settings side bar and select the appropriate data type in the list of data types.
+2. Click the settings field you want to edit in the right side bar and change the value. You can change the key and the data container.
+
+3. To change the place key, click the *Data Container* field and enter a new key.
+
+  > [Info] It is highly recommended not to change the key subsequently.
+
+4. To change the data type of the container, delete the current value in the *Data Container* field and select another value in the list of data types.
 
   > [Info] Only values of those data types that matches with the connected output and input port of the selected place are displayed in the list.     
 
@@ -82,15 +91,15 @@ The selected arrow is highlighted.
 
   ![Input](/Assets/Screenshots/Workflows/Workflows/ArrowInput.png "[Input]")
 
-3. Press **BackSpace** or **Delete** to remove the selected connection.    
+3. Press **BackSpace** or **Delete** to remove the selected connection.
   The selected connection between the place and the port is deleted.
 
   > [Info] If the port whose connection is deleted is mandatory, a new place connected to this port is automatically displayed.
 
-4. Click the ![Add](/Assets/Icons/Plus04.png "[Add]") (Add) button next to the port you want to connect the place with.    
+4. Click the ![Add](/Assets/Icons/Plus04.png "[Add]") (Add) button next to the port you want to connect the place with.
   A new place with a connection to the selected port is displayed.
 
-5. Click the new place, drag it over the place whose connection you have deleted and drop it.     
+5. Click the new place, drag it over the place whose connection you have deleted and drop it.
   The places are merged and the new connection is created.
 
 
@@ -98,14 +107,14 @@ The selected arrow is highlighted.
 
 1. Navigate to the part in the workflow where you want to add an action.  
 
-2. Click the ![Add](/Assets/Icons/Plus04.png "[Add]") (Add) button next to the output port to which you want to connect a new action.     
+2. ![Add](/Assets/Icons/Plus04.png "[Add]") (Add) button next to the output port to which you want to connect a new action.
 A new place connected to the selected output port is displayed.
 
-  > [Info] If a place to the output port already exists, for instance because it is mandatory, you can skip the step **2**.                                                                 .
+  > [Info] If a place to the output port already exists, for instance because it is mandatory, you can skip the step **2**                                                                 .
 
   ![New place](/Assets/Screenshots/Workflows/Workflows/NewPlace.png "[New place]")
 
-3. Click the ![Add](/Assets/Icons/Plus04.png "[Add]") (Add) button right to the new place.    
+3. Click the ![Add](/Assets/Icons/Plus04.png "[Add]") (Add) button right to the new place.
   A window to search for an action is displayed.
 
   ![Search action](/Assets/Screenshots/Workflows/Workflows/SearchAction.png "[Search action]")
@@ -114,46 +123,10 @@ A new place connected to the selected output port is displayed.
 
   > [Info] The list of actions is filtered for your keyword as you type.
 
-5. Click the action you want to add in the list of actions.    
+5. Click the action you want to add in the list of actions.
   The action is added to the workflow and connected to the selected place.
 
   ![Add action](/Assets/Screenshots/Workflows/Workflows/AddAction.png "[Add action]")
-
-
-
-#### Edit an action
-
-1. Click the action you want to edit.  
-  The action is highlighted and its settings are displayed in the settings side bar on the right.
-
-  ![Action](/Assets/Screenshots/Workflows/Workflows/Action.png "[Action]")
-
-  > [Info] The settings displayed in the settings side bar may differ depending on the respective action. The sections *Configuration* and *Static Inputs* are only available for certain actions.     
-
-
-2. Click the settings field you want to edit in the settings side bar. You can change the label, the queue type, the task event,  the configuration and the static inputs as described below:
-
-  + Click the *Label* field and edit the name of the action displayed in the workflow editor.
-
-  + Click the *Queue Type* drop-down list and select the appropriate queue type for the action. All available queue types are displayed in the drop-down list. By default the *Default* queue type is selected. You can define a different queue type for each action within the workflow.
-
-  + Click the *Task Event* drop-down list and select an event connected to the action. The event is triggered and the corresponding task is assigned when the action is executed within a process. All available task events are displayed in the drop-down list. By default, no event is selected.
-
-  + Click the *PHP Code* text area in the *Configuration* section to add further configuration settings to the selected action. This section is only displayed for certain actions.
-
-  + Click the ![Add](/Assets/Icons/Plus04.png "[Add]") (Add) button right to an input name in the *Static Inputs* section to add a value to the input. Enter the appropriate value in the text field below the input name. Click the ![Delete](/Assets/Icons/Trash07.png "[Delete]") (Delete) button right to an input value to delete it. This section is only displayed for certain actions.
-
-  > [Info] The value to be entered in quotation marks must be a valid JSON data type. The following data types are defined:
-  - string
-  - number
-  - object
-  - array
-  - true
-  - false
-  - null
-
-[comment]: <> (Task Event: was ist das - welche tasks werden angezeigt? Configuration: Wann, was? Static Inputs: Was mache ich hier? JSON value = data type)   
-
 
 
 ### Next steps
