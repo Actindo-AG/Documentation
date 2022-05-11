@@ -43,8 +43,6 @@ The place settings side bar is located to the right of the workspace and display
     - ![Radio button](/Assets/Icons/Radiobutton.png "[Radio button]") (Radio button)  
   Select the radio button corresponding to the appropriate option.
 
-[comment]: <> (Where data type are specified? If data type available/contained in place, action list only displays compatible actions. When adding a new action with + sign, new compatible action is linked automatically. anyValue per default? Is it possible to enter a value or is it already defined, that is, data type?)
-
 
 ## Actions
 
@@ -58,25 +56,20 @@ Actions can contain any number of input and output ports, which can be mandatory
 
  All places linked to inputs and outputs ports must be provided with one or more pieces of data, also known as tokens, for the actions to be executed and the workflow to be completed. Otherwise, the workflow stops at the point where tokens are missing. Once an action is executed, one or more output data (tokens) are generated, which in turn become(s) input data (tokens) for the next action. For detailed information about tokens, see [Tokens](#to-be-determined).
 
-[comment]: <> (Where are the data? Ports or places? If an optional port is linked but no data available, does the process stop too? I guess yes?)
-
-
 When clicking an action, it becomes highlighted and the corresponding element settings are displayed in the settings side bar.
 
 ![Settings side bar](/Assets/Screenshots/Workflows/Workflows/SettingsSideBar02.png "[Settings side bar]")
 
 The settings side bar is located to the right of the workspace and displays the following information:
 
-  - (Action name and description)  
-  The action name can be changed in the *Label* entry field. The action description provides further information about the task to be performed and is read-only.
-
-  [comment]: <> (Coding under the action name supposed to be left like that? Add information for user?)  
+  - (Action label and name)  
+  The action label can be changed in the *Label* entry field. The action name provides a detailed description of the task to be performed and is read-only.
 
   - *Key*  
    Element key. This information is read-only.
 
   - *Label*  
-  Action name. Click this field to edit the action name. The action name is changed both in the settings side bar and in the diagram.
+  Action label. Click this field to edit the action label. The action label is changed both in the settings side bar and in the diagram.
 
   - *Queue type*  
   Click the drop-down list to select the applicable queue type. For detailed information about queue types, see [Configure the queue types](#to-be-completed).
@@ -84,7 +77,7 @@ The settings side bar is located to the right of the workspace and displays the 
   - *Task event*  
   Click the drop-down list to select the applicable task event.
 
-[comment]: <> (What is a task event? What do the different options mean?)
+  > [Info] This option is linked to the *Tasks* module. It is only displayed if the *Tasks* module is installed and the user has the necessary rights. The *ActindoWorkflow Process Execution Failed* task is preconfigured per default. A list of all existing task events is displayed in the *Events* menu entry of the *Tasks* module.
 
   - *Configuration*  
   Depending on the action, there might be configuration options, for instance, defining an email where a receipt or document must be sent. Editing the action configuration requires advanced programming knowledge.
@@ -94,7 +87,7 @@ The settings side bar is located to the right of the workspace and displays the 
   - *Static inputs*  
   The optional inputs are displayed. They can be edited by clicking the ![Add](/Assets/Icons/Plus01.png "[Add]") (Add) button.
 
-[comment]: <> (Are those only optional inputs? Editable? What can you do with them? What about outputs?)
+[comment]: <> (The static inputs determine the data type that can be input. They are preconfigured but can be further configured by the user. Only JSON values are accepted.)
 
 
 ## Input and output ports
@@ -103,7 +96,7 @@ The settings side bar is located to the right of the workspace and displays the 
 
 Every action can contain any number of input and output ports. They can be defined with a descriptive name, such as reporter, title or event, or be simply marked as *in* (input) and *out* (output) followed by a consecutive number.
 
-[comment]: <> (Why? Is there are reason? Can the port name be edited? Maybe in "Static inputs"? If yes, what about outputs?)
+[comment]: <> (The plan is to provide all input and output ports with a name)
 
 Input ports are positioned to the left of the action and output ports are positioned to the right of the action. Both are represented by a square.
 
@@ -139,18 +132,16 @@ The workflow process view displays the actions in different colours depending on
 
 Next to the status of each action, a number is displayed. This number refers to the number of tokens processed in this action.  
 
-If a token is missing, for example, if a document has not been issued, the action cannot be executed and the process stops at the point where data are missing. In this case, a black square is displayed on the place specifying the number of tokens missing at this point.
-
-[comment]: <> (unsure, check!!! Number of tokens missing, available, processed?)
-
+If a token is missing at some point, for example, if a document has not been received, the action cannot be executed and the process stops at the point where data are missing. In this case, a black square is displayed on the place specifying the number of tokens waiting to be processed.
 
 The tokens can also be displayed in a column view in the *Tokens* tab and filtered according to their status:  
 
-  - Processed (green)
-  - Active (blue)
+  - Done (green)
+  - Being processed (blue)
+  - Ready (grey)
   - Error (red)
 
-  [comment]: <> (Check names: active and error? Colour coding changing here too?)
+[comment]: <> (Colour coding changing here too?)
 
 
 For detailed information, see [Link](#to-be-determined).
