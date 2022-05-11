@@ -2,12 +2,8 @@
 
 # Manage the workflows
 
-A workflow is a step-by-step graphical representation of a business process from a start to an end point. It shows the individual actions and nodes (inputs and outputs), and the different interdependencies between them.
-
-The *Workflows* module allow the customer to define  their own business processes, such as orders, shipments, returns, etc.
-
-Workflows can be created, edited, and deleted, as necessary (bear in mind compatibility restrictions). They can also be tracked for errors to be solved (retry procedure after taking action in the appropriate module, see [Troubleshooting](#to-be-completed)).  
-
+The *Workflows* module allows the customers to define their own business processes, such as orders, shipments, returns, etc.
+The workflows can be created individually in the workflow editor, they cna be edited subsequently and by publishing and npublishing a workflow, the usage can be controlled. Further, obsolete workflows can be deleted.
 
 ## Create a workflow
 
