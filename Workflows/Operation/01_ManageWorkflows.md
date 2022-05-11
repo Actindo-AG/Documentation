@@ -2,24 +2,83 @@
 
 # Manage the workflows
 
-A workflow is a step-by-step graphical representation of a business process from a start to an end point. It shows the individual actions and nodes (inputs and outputs), and the different interdependencies between them.
+The *Workflows* module allows the customers to define their own business processes, such as orders, shipments, returns, etc.
+The workflows can be created individually in the workflow editor, they can be edited subsequently and by publishing and unpublishing a workflow, the usage can be controlled. Further, obsolete workflows can be deleted.
 
-The *Workflows* module allow the customer to define  their own business processes, such as orders, shipments, returns, etc.
 
-Workflows can be created, edited, and deleted, as necessary (bear in mind compatibility restrictions). They can also be tracked for errors to be solved (retry procedure after taking action in the appropriate module, see [Troubleshooting](#to-be-completed)).  
-
-<<<<<<< HEAD
 ## Create a workflow
 
+Create a workflow to define a new process.
+
 ### Prerequisites
+
+No prerequisites to fulfill.
 
 ### Procedure
 
 *Workflows > Workflows > Tab OVERVIEW*
 
-Zoom in / out with mouse wheel or Ctrl +/-, move around with drag and drop (mouse link click and moving mouse in desired direction) in Workflow editor.
+![Workflows](/Assets/Screenshots/Workflows/Workflows/Workflows.png "[Workflows]")
 
-To link/join nodes together, drag and drop.
+1. Click the ![Add](/Assets/Icons/Plus01.png "[Add]") (Add) button in the bottom right corner.   
+  The *New Workflow* window is displayed.
+
+  ![New workflow](/Assets/Screenshots/Workflows/Workflows/NewWorkflow.png "[New workflow]")
+
+2. Enter a name for the new workflow in the *Select a name for your new workflow* field.
+
+3. Enter a key for the workflow in the *Select a unique key for your new workflow* field. The key is required for API access and must be system wide unique.
+
+4. Click the *Choose the data type of your start place* field and enter the name of the place or a keyword you are searching for.
+
+  > [Info] The list of places is filtered for your keyword as you type.
+
+5. Click the start place you want to add in the list of places.    
+
+6. Click the *Choose the data type of your end place* field and enter the name of the place or a keyword you are searching for.
+
+  > [Info] The list of places is filtered for your keyword as you type.
+
+7. Click the end place you want to add in the list of places.  
+
+8. Click the [CREATE] button in the upper right corner.   
+  The new workflow is created. The *New Workflow* window is closed. The workflow editor with the defined start and end places is displayed.  
+
+  ![Workflow editor new](/Assets/Screenshots/Workflows/Workflows/WorkflowEditorNew.png "[Workflow editor new]")
+
+#### Create an action
+
+1. Click the ![Add](/Assets/Icons/Plus04.png "[Add]") (Add) button next to the place or click the [NEW ACTION] button on the right hand above the workflow editor.     
+  A window to search for an action is displayed.
+
+  ![Search action](/Assets/Screenshots/Workflows/Workflows/SearchAction.png "[Search action]")
+
+2. Click the *search for an action* field and enter the name of the action or a keyword you are searching for. If you have clicked the ![Add](/Assets/Icons/Plus04.png "[Add]") (Add) button next to a place, only those actions that are compatible with the data type of the place are displayed in the list.
+
+  > [Info] The list of actions is filtered for your keyword as you type.
+
+3. Click the action you want to add in the list of actions.
+  The action is added to the workflow. If the action was added from a place which requires a certain input data type, the arc from the place is automatically connected to the corresponding input port of the action.
+
+  ![First action](/Assets/Screenshots/Workflows/Workflows/FirstAction.png "[First action]")
+
+  > [Info] If any input port or output port of the new action is mandatory, an arc and a place are automatically displayed with the corresponding action.
+
+
+#### Connect the action
+
+1. Click the ![Add](/Assets/Icons/Plus04.png "[Add]") (Add) button next to an output port of the action.    
+  A new place connected with an arc to the selected output port is displayed.
+
+  ![First place](/Assets/Screenshots/Workflows/Workflows/FirstPlace.png "[First place]")
+
+2. Add further actions by following the procedure [Create an action](#create-an-action) or connect the place with the end place as described in the following step.
+
+  > [Info] A workflow must contain at least one action and can contain an unlimited number of actions.
+
+3. Click the place, drag it over the place to which you want to connect it and drop it.     
+  The places are merged and the new connection is created.
+
 
 ### Next steps
 
@@ -30,12 +89,14 @@ To link/join nodes together, drag and drop.
 
 ### See also
 
+[Workflow element](/Workflows/UserInterface/01_WorkflowElements.md)
+
+
 
 
 ## Edit a workflow
-=======
 
->>>>>>> df9f243718ff7045c280e2db79068cdb87674174
+Edit a workflow to modify elements within the workflow, to extend the workflow by adding further actions or to reduce the workflow by removing actions.
 
 ### Prerequisites
 
@@ -57,27 +118,21 @@ The workflow editor is displayed in the workspace.
 
   ![Workflow editor](/Assets/Screenshots/Workflows/Workflows/WorkflowEditor.png "[Workflow editor]")
 
-3. Make the desired changes in the workflow. The changes below are described in detail:
-  - Edit the place settings
-  - Change the place input/output port
-  - Create an action
-  - Edit the action
+3. Make the desired changes in the workflow. The following procedures are described in detail below:
+  - [Edit the place data type](#edit-the-place-data-type)
+  - [Change the place ports](#change-the-place-ports)
+  - [Add an action](#add-an-action)
+  - [Edit an action](#edit-an-action)
 
 
-#### Edit the place settings
+#### Edit the place data type
 
-1. Click the place you want to edit.  
-  The place is highlighted and its settings are displayed in the right side bar.
+1. Click the place you want to edit.    
+  The place is highlighted and its settings are displayed in the settings side bar on the right.
 
   ![Place](/Assets/Screenshots/Workflows/Workflows/Place.png "[Place]")
 
-2. Click the settings field you want to edit in the right side bar and change the value. You can change the key and the data container.
-
-3. To change the place key, click the *Data Container* field and enter a new key.
-
-  > [Info] It is highly recommended not to change the key subsequently.
-
-4. To change the data type of the container, delete the current value in the *Data Container* field and select another value in the list of data types.
+2. Click the *Data Container* field in the settings side bar and select the appropriate data type in the list of data types.
 
   > [Info] Only values of those data types that matches with the connected output and input port of the selected place are displayed in the list.     
 
@@ -91,42 +146,67 @@ The selected arrow is highlighted.
 
   ![Input](/Assets/Screenshots/Workflows/Workflows/ArrowInput.png "[Input]")
 
-3. Press **BackSpace** or **Delete** to remove the selected connection.
+3. Press **BackSpace** or **Delete** to remove the selected connection.    
   The selected connection between the place and the port is deleted.
 
   > [Info] If the port whose connection is deleted is mandatory, a new place connected to this port is automatically displayed.
 
-4. Click the ![Add](/Assets/Icons/Plus04.png "[Add]") (Add) button next to the port you want to connect the place with.
+4. Click the ![Add](/Assets/Icons/Plus04.png "[Add]") (Add) button next to the port you want to connect the place with.    
   A new place with a connection to the selected port is displayed.
 
-5. Click the new place, drag it over the place whose connection you have deleted and drop it.
+5. Click the new place, drag it over the place whose connection you have deleted and drop it.     
   The places are merged and the new connection is created.
 
 
-#### Create an action
+#### Add an action
 
 1. Navigate to the part in the workflow where you want to add an action.  
 
-2. ![Add](/Assets/Icons/Plus04.png "[Add]") (Add) button next to the output port to which you want to connect a new action.
+2. Click the ![Add](/Assets/Icons/Plus04.png "[Add]") (Add) button next to the output port to which you want to connect a new action.     
 A new place connected to the selected output port is displayed.
 
-  > [Info] If a place to the output port already exists, for instance because it is mandatory, you can skip the step **2**                                                                 .
+  > [Info] If a place to the output port already exists, for instance because it is mandatory, you can skip the step **2**.                                                                 .
 
   ![New place](/Assets/Screenshots/Workflows/Workflows/NewPlace.png "[New place]")
 
-3. Click the ![Add](/Assets/Icons/Plus04.png "[Add]") (Add) button right to the new place.
+3. Click the ![Add](/Assets/Icons/Plus04.png "[Add]") (Add) button right to the new place.    
   A window to search for an action is displayed.
 
   ![Search action](/Assets/Screenshots/Workflows/Workflows/SearchAction.png "[Search action]")
 
-4. Enter the name of the action or a keyword you are searching for in the *search for an action* bar.
+4. Click the *search for an action* field and enter the name of the action or a keyword you are searching for.
 
   > [Info] The list of actions is filtered for your keyword as you type.
 
-5. Click the action you want to add in the list of actions.
+5. Click the action you want to add in the list of actions.    
   The action is added to the workflow and connected to the selected place.
 
   ![Add action](/Assets/Screenshots/Workflows/Workflows/AddAction.png "[Add action]")
+
+
+#### Edit an action
+
+1. Click the action you want to edit.  
+  The action is highlighted and its settings are displayed in the settings side bar on the right.
+
+  ![Action](/Assets/Screenshots/Workflows/Workflows/Action.png "[Action]")
+
+  > [Info] The settings displayed in the settings side bar may differ depending on the respective action. The sections *Configuration* and *Static Inputs* are only available for certain actions.     
+
+
+2. Edit the settings field in the settings side bar. You can change the label, the queue type, the task event, the configuration and the static inputs as described below:
+
+  + Click the *Label* field and edit the name of the action displayed in the workflow editor.
+
+  + Click the *Queue Type* drop-down list and select the appropriate queue type for the action. All available queue types are displayed in the drop-down list. By default the *Default* queue type is selected. You can define a different queue type for each action within the workflow.
+
+  + Click the *Task Event* drop-down list and select an event connected to the action. The event is triggered and the corresponding task is assigned when the action is failed within a process. All available task events are displayed in the drop-down list. By default, the *ActindoWorkflow Process Execution Failed* event is preselected.
+
+  + Edit the field(s) in the *Configuration* section to define further configuration settings to the selected action. This section is only displayed for certain actions. The fields displayed in the *Configuration* section depend on the selected action.
+
+  + Click the ![Add](/Assets/Icons/Plus04.png "[Add]") (Add) button right to an input name in the *Static Inputs* section to add a static data value to the corresponding input. All input ports that are not yet connected to a place are displayed in this section. Enter the appropriate value in the text field below the input name. The value entered must be a valid JSON value. Click the ![Delete](/Assets/Icons/Trash07.png "[Delete]") (Delete) button right to a value to delete it. This section is only displayed for certain actions.
+
+  > [Info] Input ports with an static input value cannot be connected to a place. Therefore, an arc without a place is displayed in front of an input port with a static input value. Delete the static input value from the port to be able to connect it with a place.     
 
 
 ### Next steps
@@ -138,9 +218,19 @@ A new place connected to the selected output port is displayed.
 ### See also
 
 - [Create a workflow](#create-a-workflow)
+- [Workflow element](/Workflows/UserInterface/01_WorkflowElements.md)
 
 
-## Delete a workflow
+
+## Publish a workflow
+
+Workflows overview (manager?) -> List of all existing workflows
+
+Workflows can have different versions e.g. if you want to add/remove steps in a particular version, for testing purposes before publishing, etc. It is possible to change between versions. Versions can be published/unpublished. Per default, the last published version is used.
+
+- Unpublish a workflow
+
+Workflows > Workflows > Tab OVERVIEW > Select checkbox > Button [VERÖFFENTLICHUNG ZURÜCKZIEHEN]
 
 ### Prerequisites
 
@@ -148,14 +238,18 @@ A new place connected to the selected output port is displayed.
 
 ### Next steps
 
+- [Unpublish a workflow](#unpublish-a-workflow)
 - [Delete a workflow](#delete-a-workflow)
-- [Publish/unpublish a workflow](#publish-unpublish-a-workflow)
 
 ### See also
 
+- [Create a workflow](#create-a-workflow)
+- [Edit a workflow](#edit-a-workflow)
+- [Workflow element](/Workflows/UserInterface/01_WorkflowElements.md)
 
 
-## Publish/Unpublish a workflow
+
+## Unpublish a workflow
 
 Workflows overview (manager?) -> List of all existing workflows
 
@@ -173,6 +267,47 @@ Workflows > Workflows > Tab OVERVIEW > Select checkbox > Button [VERÖFFENTLICHU
 ### Next steps
 
 - [Delete a workflow](#delete-a-workflow)
-- [Publish/unpublish a workflow](#publish-unpublish-a-workflow)
 
 ### See also
+
+- [Publish a workflow](#publish-a-workflow)
+- [Create a workflow](#create-a-workflow)
+- [Edit a workflow](#edit-a-workflow)
+- [Workflow element](/Workflows/UserInterface/01_WorkflowElements.md)
+
+
+
+## Delete a workflow
+
+You can delete a workflow version that is obsolete. To prevent any problems, it is strongly recommended not to delete a workflow. Instead, you can unpublish a workflow.
+
+### Prerequisites
+
+At least one workflow is created, see [Create a workflow](#create-a-workflow).
+
+### Procedure
+
+*Workflows > Workflows > Tab OVERVIEW*
+
+![Workflows](/Assets/Screenshots/Workflows/Workflows/Workflows.png "[Workflows]")
+
+1. Click the workflow whose version you want to delete in the list of workflows.   
+  The *Workflow Versions* view with all versions of the selected workflow is displayed.
+
+  ![Workflow versions](/Assets/Screenshots/Workflows/Workflows/WorkflowVersions.png "[Workflow versions]")
+
+2. Select the checkbox of the workflow version you want to delete in the list of workflow versions.  
+The editing toolbar is displayed above the workflow versions list.
+
+3. Click the ![Delete](/Assets/Icons/Trash03.png "[Delete]") (Delete) button in the toolbar.
+The workflow is deleted.
+
+[comment]: <> (Prüfen, ob das richtig und vollständig ist)
+
+### See also
+
+- [Unpublish a workflow](#unpublish-a-workflow)
+- [Publish a workflow](#publish-a-workflow)
+- [Create a workflow](#create-a-workflow)
+- [Edit a workflow](#edit-a-workflow)
+- [Workflow element](/Workflows/UserInterface/01_WorkflowElements.md)
