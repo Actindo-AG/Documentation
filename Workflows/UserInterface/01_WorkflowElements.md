@@ -68,7 +68,7 @@ When clicking an action, it becomes highlighted and the corresponding element se
 The settings side bar is located to the right of the workspace and displays the following information:
 
   - (Action name and description)  
-  The action name can be changed in the *Label* entry field. The action description provides further information about the task to be performed.
+  The action name can be changed in the *Label* entry field. The action description provides further information about the task to be performed and is read-only.
 
   [comment]: <> (Coding under the action name supposed to be left like that? Add information for user?)  
 
@@ -76,7 +76,7 @@ The settings side bar is located to the right of the workspace and displays the 
    Element key. This information is read-only.
 
   - *Label*  
-  Action name. Click this field to edit the action name. The action name is edited both in the settings side bar and in the diagram.
+  Action name. Click this field to edit the action name. The action name is changed both in the settings side bar and in the diagram.
 
   - *Queue type*  
   Click the drop-down list to select the applicable queue type. For detailed information about queue types, see [Configure the queue types](#to-be-completed).
@@ -89,12 +89,12 @@ The settings side bar is located to the right of the workspace and displays the 
   - *Configuration*  
   Depending on the action, there might be configuration options, for instance, defining an email where a receipt or document must be sent. Editing the action configuration requires advanced programming knowledge.
 
-  > [Info] Not all actions have a configuration option. In this case, this option is not displayed.
+  > [Info] Not all actions have configuration options. In this case, the *Configuration* field is not displayed.
 
-  - *Static inputs*  ![Add](/Assets/Icons/Plus01.png "[Add]")  
+  - *Static inputs*  
   The optional inputs are displayed. They can be edited by clicking the ![Add](/Assets/Icons/Plus01.png "[Add]") (Add) button.
 
-[comment]: <> (What can you do with them?)
+[comment]: <> (Are those only optional inputs? Editable? What can you do with them? What about outputs?)
 
 
 ## Input and output ports
@@ -103,19 +103,17 @@ The settings side bar is located to the right of the workspace and displays the 
 
 Every action can contain any number of input and output ports. They can be defined with a descriptive name, such as reporter, title or event, or be simply marked as *in* (input) and *out* (output) followed by a consecutive number.
 
-Input ports are positioned to the left of the action and represented by a square. Output ports are positioned to the right of the action and represented by a square.
+[comment]: <> (Why? Is there are reason? Can the port name be edited? Maybe in "Static inputs"? If yes, what about outputs?)
 
-[comment]: <> (Why? Is there are reason? Can the port name be edited? Maybe in "statische Inputs"? If yes, what about outputs?)
+Input ports are positioned to the left of the action and output ports are positioned to the right of the action. Both are represented by a square.
 
 Both input and output ports can be of two types:
 
 - **Mandatory**  
-  Mandatory ports must be linked to a place, which in turn must be linked to an action. Otherwise, the workflow stops and shows an error. Places linked to a mandatory port cannot be deleted or removed. When adding a new action, mandatory input/output places are already displayed and linked to the new action.
+  Mandatory ports must be linked to a place, which in turn must be linked to an action. Otherwise, the workflow stops and shows an error. Places linked to a mandatory port cannot be deleted or removed. When adding a new action, mandatory input/output places are already displayed.
 
 - **Optional**  
  Optional ports are displayed with a ![Add](/Assets/Icons/Plus01.png "[Add]") (Add) button next to each of them. By clicking the ![Add](/Assets/Icons/Plus01.png "[Add]") (Add) button a new action can be added. For detailed information about adding new actions, see [Link](#to-be-completed).
-
-[comment]: <> (Unclear: difference port vs. place!)
 
 
 ## Tokens
@@ -124,11 +122,11 @@ Both input and output ports can be of two types:
 
 [comment]: <> (Token belongs in Processes)
 
-A token is any piece of data needed to complete an action, for example a document.
+A token is a piece of data needed to complete an action, for example a document.
 
 The *Processes* menu entry displays a read-only view of any process taking place in real time and a list of all actions being executed in the selected process. For detailed information about tracking a workflow process, see [Link](#to-be-completed).
 
-A process is started with one token at start point, which will be processed in each action executed and, if necessary, turned into several tokens. It is therefore possible that a place contains several tokens, for instance several delivery notes issued for different parts of a same order. Each token will then be processed separately, that means, that the subsequent actions will be executed once for each token available.
+A process is started with one token at the start point, which will be processed in each action executed and, if necessary, turned into several tokens. It is therefore possible that a place contains several tokens, for example, several delivery notes issued for different parts of a same order. Each token will then be processed separately, that means, that the subsequent actions will be executed once for each token available.
 
 The workflow process view displays the actions in different colours depending on their current status:
 
@@ -148,9 +146,9 @@ If a token is missing, for example, if a document has not been issued, the actio
 
 The tokens can also be displayed in a column view in the *Tokens* tab and filtered according to their status:  
 
-  - Green: processed
-  - Blue: active
-  - Red: error
+  - Processed (green)
+  - Active (blue)
+  - Error (red)
 
   [comment]: <> (Check names: active and error? Colour coding changing here too?)
 
@@ -168,7 +166,7 @@ A workflow must have a start and an end point. A piece of data, or token, initia
 
 ### Start point
 
-The start point is the initial stage of the workflow. It is represented by a circle with an outgoing arrow pointing towards an input port of the first action. Similarly to a place, when clicking it, the start point becomes highlighted and the corresponding element settings are displayed in the settings side bar.
+The start point is the initial stage of the workflow. It is represented by a circle with an outward arrow pointing towards an input port of the first action. Similarly to a place, when clicking it, the start point becomes highlighted and the corresponding element settings are displayed in the settings side bar.
 
 ![Start point](/Assets/Screenshots/Workflows/Workflows/StartPoint.png "[Start point]")
 
@@ -192,7 +190,7 @@ The settings side bar is located to the right of the workspace and displays the 
 
 ### End point
 
-The end point is the final stage of the workflow. It is represented by a circle with a incoming arrow coming from one or more actions being executed in the last stage(s) of the workflow. Similarly to a place, when clicking it, the start point becomes highlighted and the corresponding element settings are displayed in the settings side bar.
+The end point is the final stage of the workflow. It is represented by a circle with a inward arrow coming from one or more actions being executed in the last stage(s) of the workflow. Similarly to a place, when clicking it, the start point becomes highlighted and the corresponding element settings are displayed in the settings side bar.
 
 ![End point](/Assets/Screenshots/Workflows/Workflows/EndPoint.png "[End point]")
 
