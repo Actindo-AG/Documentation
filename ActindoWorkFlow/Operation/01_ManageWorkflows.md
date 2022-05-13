@@ -41,7 +41,7 @@ No prerequisites to fulfill.
 
 7. Click the end place you want to add in the list of places.  
 
-8. Click the [CREATE] button in the upper right corner.   
+8. Click the [CREATE] button in the bottom right corner.   
   The new workflow is created. The *New Workflow* window is closed. The workflow editor with the defined start and end places is displayed.  
 
   ![Workflow editor new](/Assets/Screenshots/ActindoWorkFlow/Workflows/WorkflowEditorNew.png "[Workflow editor new]")
@@ -89,7 +89,7 @@ No prerequisites to fulfill.
 
 ### See also
 
-[Workflow element](/Workflows/UserInterface/01_WorkflowElements.md)
+[Workflow element](/ActindoWorkFlow/UserInterface/01_WorkflowElements.md)
 
 
 
@@ -134,20 +134,20 @@ The workflow editor is displayed in the workspace.
 
 2. Click the *Data Container* field in the settings side bar and select the appropriate data type in the list of data types.
 
-  > [Info] Only values of those data types that matches with the connected output and input port of the selected place are displayed in the list.     
+  > [Info] Only values of those data types that match with the connected output and input port of the selected place are displayed in the list.     
 
 
 #### Change the place ports
 
 1. Navigate to the place whose input or output port you want to edit.  
 
-2. Click the arrow right or left to the place to change the input or output port. To change the input port, click the arrow right to the place, to change the output port, click the arrow left to the place.   
-The selected arrow is highlighted.
+2. Click the arc right or left to the place to change the input or output port. To change the input port, click the arc right to the place, to change the output port, click the arc left to the place.   
+The selected arc is highlighted.
 
   ![Input](/Assets/Screenshots/ActindoWorkFlow/Workflows/ArrowInput.png "[Input]")
 
-3. Press **BackSpace** or **Delete** to remove the selected connection.    
-  The selected connection between the place and the port is deleted.
+3. Press **BackSpace** or **Delete** to remove the selected arc.    
+  The selected arc between the place and the port is deleted.
 
   > [Info] If the port whose connection is deleted is mandatory, a new place connected to this port is automatically displayed.
 
@@ -198,7 +198,8 @@ A new place connected to the selected output port is displayed.
 
   + Click the *Label* field and edit the name of the action displayed in the workflow editor.
 
-  + Click the *Queue Type* drop-down list and select the appropriate queue type for the action. All available queue types are displayed in the drop-down list. By default the *Default* queue type is selected. You can define a different queue type for each action within the workflow.
+  + Click the *Queue Type* drop-down list and select the appropriate queue type for the action. All available queue types are displayed in the drop-down list. By default the *Default* queue type is selected. You can define a different queue type for each action within the workflow.   
+  For detailed information about the queue types, see [Configure the queue types](/ActindoWorkFlow/Integration/01_WConfigureQueueTypes.md).
 
   + Click the *Task Event* drop-down list and select an event connected to the action. The event is triggered and the corresponding task is assigned when the action is failed within a process. All available task events are displayed in the drop-down list. By default, the *ActindoWorkflow Process Execution Failed* event is preselected.
 
@@ -208,6 +209,8 @@ A new place connected to the selected output port is displayed.
 
   > [Info] Input ports with an static input value cannot be connected to a place. Therefore, an arc without a place is displayed in front of an input port with a static input value. Delete the static input value from the port to be able to connect it with a place.     
 
+[comment]: <> (Is the little arrow for a static input also called arc?)
+[comment]: <> (Add a link to the Tasks module/task events when documented)
 
 ### Next steps
 
@@ -218,7 +221,7 @@ A new place connected to the selected output port is displayed.
 ### See also
 
 - [Create a workflow](#create-a-workflow)
-- [Workflow element](/Workflows/UserInterface/01_WorkflowElements.md)
+- [Workflow element](/ActindoWorkFlow/UserInterface/01_WorkflowElements.md)
 
 
 
@@ -245,7 +248,7 @@ Workflows > Workflows > Tab OVERVIEW > Select checkbox > Button [VERÖFFENTLICHU
 
 - [Create a workflow](#create-a-workflow)
 - [Edit a workflow](#edit-a-workflow)
-- [Workflow element](/Workflows/UserInterface/01_WorkflowElements.md)
+- [Workflow element](/ActindoWorkFlow/UserInterface/01_WorkflowElements.md)
 
 
 
@@ -273,7 +276,7 @@ Workflows > Workflows > Tab OVERVIEW > Select checkbox > Button [VERÖFFENTLICHU
 - [Publish a workflow](#publish-a-workflow)
 - [Create a workflow](#create-a-workflow)
 - [Edit a workflow](#edit-a-workflow)
-- [Workflow element](/Workflows/UserInterface/01_WorkflowElements.md)
+- [Workflow element](/ActindoWorkFlow/UserInterface/01_WorkflowElements.md)
 
 
 
@@ -310,4 +313,4 @@ The workflow is deleted.
 - [Publish a workflow](#publish-a-workflow)
 - [Create a workflow](#create-a-workflow)
 - [Edit a workflow](#edit-a-workflow)
-- [Workflow element](/Workflows/UserInterface/01_WorkflowElements.md)
+- [Workflow element](/ActindoWorkFlow/UserInterface/01_WorkflowElements.md)
