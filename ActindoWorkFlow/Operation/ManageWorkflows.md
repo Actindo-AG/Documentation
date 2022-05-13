@@ -1,4 +1,4 @@
-[!!Workflows](Workflows)
+[!!Workflows](ActindoWorkFlow)
 
 # Manage the workflows
 

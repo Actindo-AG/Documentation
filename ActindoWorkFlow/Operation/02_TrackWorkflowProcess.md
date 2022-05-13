@@ -1,4 +1,4 @@
-[!!Workflows](Workflows)
+[!!Workflows](ActindoWorkFlow)
 
 # Track the workflow process
 
@@ -27,7 +27,7 @@ A *VIEW* can also be created to customize the display options. For detailed info
 
 *Workflows > Menu entry Processes > Tab OVERVIEW*
 
-![Processes](/Assets/Screenshots/Workflows/Workflows/Processes.png "[Processes]")
+![Processes](/Assets/Screenshots/ActindoWorkFlow/Workflows/Processes.png "[Processes]")
 
 1. Click *Status* drop-down list to filter the processes according to their status, if necessary.   
 All existing processes with the selected status are displayed.
@@ -111,7 +111,7 @@ Per default, the *Actions* tab listing all existing actions in the selected proc
 
 [comment]: <> (Specify Tab Actions?)
 
-![Process actions](/Assets/Screenshots/Workflows/Workflows/ProcessActions.png "[Process actions]")
+![Process actions](/Assets/Screenshots/ActindoWorkFlow/Workflows/ProcessActions.png "[Process actions]")
 
 [comments]: <> (Check one action or several actions at a time? See Troubleshooting)
 
@@ -210,7 +210,7 @@ A process is started with one token at the start point, which will be processed 
 
 [comment]: <> (Specify Tab Tokens or start with OVERVIEW -> clicking on place shows tokens too?)
 
-![Workflow](/Assets/Screenshots/Workflows/Workflows/Tokens.png "[Workflow]")
+![Workflow](/Assets/Screenshots/ActindoWorkFlow/Workflows/Tokens.png "[Workflow]")
 
 1. Click a place in the workflow process diagram to display the available token(s).  
 The available token(s) in the selected place are displayed in the *Tokens* tab.

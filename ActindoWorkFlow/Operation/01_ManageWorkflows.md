@@ -1,4 +1,4 @@
-[!!Workflows](Workflows)
+[!!Workflows](ActindoWorkFlow)
 
 # Manage the workflows
 
@@ -18,12 +18,12 @@ No prerequisites to fulfill.
 
 *Workflows > Workflows > Tab OVERVIEW*
 
-![Workflows](/Assets/Screenshots/Workflows/Workflows/Workflows.png "[Workflows]")
+![Workflows](/Assets/Screenshots/ActindoWorkFlow/Workflows/Workflows.png "[Workflows]")
 
 1. Click the ![Add](/Assets/Icons/Plus01.png "[Add]") (Add) button in the bottom right corner.   
   The *New Workflow* window is displayed.
 
-  ![New workflow](/Assets/Screenshots/Workflows/Workflows/NewWorkflow.png "[New workflow]")
+  ![New workflow](/Assets/Screenshots/ActindoWorkFlow/Workflows/NewWorkflow.png "[New workflow]")
 
 2. Enter a name for the new workflow in the *Select a name for your new workflow* field.
 
@@ -44,14 +44,14 @@ No prerequisites to fulfill.
 8. Click the [CREATE] button in the upper right corner.   
   The new workflow is created. The *New Workflow* window is closed. The workflow editor with the defined start and end places is displayed.  
 
-  ![Workflow editor new](/Assets/Screenshots/Workflows/Workflows/WorkflowEditorNew.png "[Workflow editor new]")
+  ![Workflow editor new](/Assets/Screenshots/ActindoWorkFlow/Workflows/WorkflowEditorNew.png "[Workflow editor new]")
 
 #### Create an action
 
 1. Click the ![Add](/Assets/Icons/Plus04.png "[Add]") (Add) button next to the place or click the [NEW ACTION] button on the right hand above the workflow editor.     
   A window to search for an action is displayed.
 
-  ![Search action](/Assets/Screenshots/Workflows/Workflows/SearchAction.png "[Search action]")
+  ![Search action](/Assets/Screenshots/ActindoWorkFlow/Workflows/SearchAction.png "[Search action]")
 
 2. Click the *search for an action* field and enter the name of the action or a keyword you are searching for. If you have clicked the ![Add](/Assets/Icons/Plus04.png "[Add]") (Add) button next to a place, only those actions that are compatible with the data type of the place are displayed in the list.
 
@@ -60,7 +60,7 @@ No prerequisites to fulfill.
 3. Click the action you want to add in the list of actions.
   The action is added to the workflow. If the action was added from a place which requires a certain input data type, the arc from the place is automatically connected to the corresponding input port of the action.
 
-  ![First action](/Assets/Screenshots/Workflows/Workflows/FirstAction.png "[First action]")
+  ![First action](/Assets/Screenshots/ActindoWorkFlow/Workflows/FirstAction.png "[First action]")
 
   > [Info] If any input port or output port of the new action is mandatory, an arc and a place are automatically displayed with the corresponding action.
 
@@ -70,7 +70,7 @@ No prerequisites to fulfill.
 1. Click the ![Add](/Assets/Icons/Plus04.png "[Add]") (Add) button next to an output port of the action.    
   A new place connected with an arc to the selected output port is displayed.
 
-  ![First place](/Assets/Screenshots/Workflows/Workflows/FirstPlace.png "[First place]")
+  ![First place](/Assets/Screenshots/ActindoWorkFlow/Workflows/FirstPlace.png "[First place]")
 
 2. Add further actions by following the procedure [Create an action](#create-an-action) or connect the place with the end place as described in the following step.
 
@@ -106,17 +106,17 @@ At least one workflow is created, see [Create a workflow](#create-a-workflow).
 
 *Workflows > Workflows > Tab OVERVIEW*
 
-![Workflows](/Assets/Screenshots/Workflows/Workflows/Workflows.png "[Workflows]")
+![Workflows](/Assets/Screenshots/ActindoWorkFlow/Workflows/Workflows.png "[Workflows]")
 
 1. Click the workflow you want to edit in the list of workflows.   
   The *Workflow Versions* view with all versions of the selected workflow is displayed.
 
-  ![Workflow versions](/Assets/Screenshots/Workflows/Workflows/WorkflowVersions.png "[Workflow versions]")
+  ![Workflow versions](/Assets/Screenshots/ActindoWorkFlow/Workflows/WorkflowVersions.png "[Workflow versions]")
 
 2. Click the workflow version you want to edit in the list of workflow versions.  
 The workflow editor is displayed in the workspace.
 
-  ![Workflow editor](/Assets/Screenshots/Workflows/Workflows/WorkflowEditor.png "[Workflow editor]")
+  ![Workflow editor](/Assets/Screenshots/ActindoWorkFlow/Workflows/WorkflowEditor.png "[Workflow editor]")
 
 3. Make the desired changes in the workflow. The following procedures are described in detail below:
   - [Edit the place data type](#edit-the-place-data-type)
@@ -130,7 +130,7 @@ The workflow editor is displayed in the workspace.
 1. Click the place you want to edit.    
   The place is highlighted and its settings are displayed in the settings side bar on the right.
 
-  ![Place](/Assets/Screenshots/Workflows/Workflows/Place.png "[Place]")
+  ![Place](/Assets/Screenshots/ActindoWorkFlow/Workflows/Place.png "[Place]")
 
 2. Click the *Data Container* field in the settings side bar and select the appropriate data type in the list of data types.
 
@@ -144,7 +144,7 @@ The workflow editor is displayed in the workspace.
 2. Click the arrow right or left to the place to change the input or output port. To change the input port, click the arrow right to the place, to change the output port, click the arrow left to the place.   
 The selected arrow is highlighted.
 
-  ![Input](/Assets/Screenshots/Workflows/Workflows/ArrowInput.png "[Input]")
+  ![Input](/Assets/Screenshots/ActindoWorkFlow/Workflows/ArrowInput.png "[Input]")
 
 3. Press **BackSpace** or **Delete** to remove the selected connection.    
   The selected connection between the place and the port is deleted.
@@ -167,12 +167,12 @@ A new place connected to the selected output port is displayed.
 
   > [Info] If a place to the output port already exists, for instance because it is mandatory, you can skip the step **2**.                                                                 .
 
-  ![New place](/Assets/Screenshots/Workflows/Workflows/NewPlace.png "[New place]")
+  ![New place](/Assets/Screenshots/ActindoWorkFlow/Workflows/NewPlace.png "[New place]")
 
 3. Click the ![Add](/Assets/Icons/Plus04.png "[Add]") (Add) button right to the new place.    
   A window to search for an action is displayed.
 
-  ![Search action](/Assets/Screenshots/Workflows/Workflows/SearchAction.png "[Search action]")
+  ![Search action](/Assets/Screenshots/ActindoWorkFlow/Workflows/SearchAction.png "[Search action]")
 
 4. Click the *search for an action* field and enter the name of the action or a keyword you are searching for.
 
@@ -181,7 +181,7 @@ A new place connected to the selected output port is displayed.
 5. Click the action you want to add in the list of actions.    
   The action is added to the workflow and connected to the selected place.
 
-  ![Add action](/Assets/Screenshots/Workflows/Workflows/AddAction.png "[Add action]")
+  ![Add action](/Assets/Screenshots/ActindoWorkFlow/Workflows/AddAction.png "[Add action]")
 
 
 #### Edit an action
@@ -189,7 +189,7 @@ A new place connected to the selected output port is displayed.
 1. Click the action you want to edit.  
   The action is highlighted and its settings are displayed in the settings side bar on the right.
 
-  ![Action](/Assets/Screenshots/Workflows/Workflows/Action.png "[Action]")
+  ![Action](/Assets/Screenshots/ActindoWorkFlow/Workflows/Action.png "[Action]")
 
   > [Info] The settings displayed in the settings side bar may differ depending on the respective action. The sections *Configuration* and *Static Inputs* are only available for certain actions.     
 
@@ -289,12 +289,12 @@ At least one workflow is created, see [Create a workflow](#create-a-workflow).
 
 *Workflows > Workflows > Tab OVERVIEW*
 
-![Workflows](/Assets/Screenshots/Workflows/Workflows/Workflows.png "[Workflows]")
+![Workflows](/Assets/Screenshots/ActindoWorkFlow/Workflows/Workflows.png "[Workflows]")
 
 1. Click the workflow whose version you want to delete in the list of workflows.   
   The *Workflow Versions* view with all versions of the selected workflow is displayed.
 
-  ![Workflow versions](/Assets/Screenshots/Workflows/Workflows/WorkflowVersions.png "[Workflow versions]")
+  ![Workflow versions](/Assets/Screenshots/ActindoWorkFlow/Workflows/WorkflowVersions.png "[Workflow versions]")
 
 2. Select the checkbox of the workflow version you want to delete in the list of workflow versions.  
 The editing toolbar is displayed above the workflow versions list.

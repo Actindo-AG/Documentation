@@ -1,10 +1,10 @@
-[!!Workflows](Workflows)
+[!!Workflows](ActindoWorkFlow)
 
 # Workflow elements
 
 *Workflows > Menu entry Workflows > Tab OVERVIEW > Select workflow > Select workflow version*
 
-![Workflow](/Assets/Screenshots/Workflows/Workflows/Workflow.png "[Workflow]")
+![Workflow](/Assets/Screenshots/ActindoWorkFlow/Workflows/Workflow.png "[Workflow]")
 
 A workflow is represented with a number of fixed elements, each of them having specific characteristics. These elements are used to design the workflow, which
 can be edited as necessary according to customer needs. For detailed information, see [Manage workflows](#01_ManageWorkflows.md).
@@ -16,7 +16,7 @@ A workflow runs from left to right, from a start point to an end point, which ca
 
 ## Places
 
-![Place](/Assets/Screenshots/Workflows/Workflows/Place.png "[Place]")
+![Place](/Assets/Screenshots/ActindoWorkFlow/Workflows/Place.png "[Place]")
 
 A place is a step in the workflow and is represented by circle, usually with inward and outward arrows.
 
@@ -24,7 +24,7 @@ Places serve as link between actions, joining an output port from the previous a
 
 When clicking a place, it becomes highlighted and the corresponding element settings are displayed in the settings side bar.
 
-![Settings side bar](/Assets/Screenshots/Workflows/Workflows/SettingsSideBar01.png "[Settings side bar]")
+![Settings side bar](/Assets/Screenshots/ActindoWorkFlow/Workflows/SettingsSideBar01.png "[Settings side bar]")
 
 The place settings side bar is located to the right of the workspace and displays the following information:
 
@@ -46,7 +46,7 @@ The place settings side bar is located to the right of the workspace and display
 
 ## Actions
 
-![Action](/Assets/Screenshots/Workflows/Workflows/AddAction.png "[Action]")
+![Action](/Assets/Screenshots/ActindoWorkFlow/Workflows/AddAction.png "[Action]")
 
 Actions, also known as transitions, are the individual tasks being executed in the workflow and are represented by a rectangle.
 
@@ -58,7 +58,7 @@ Actions can contain any number of input and output ports, which can be mandatory
 
 When clicking an action, it becomes highlighted and the corresponding element settings are displayed in the settings side bar.
 
-![Settings side bar](/Assets/Screenshots/Workflows/Workflows/SettingsSideBar02.png "[Settings side bar]")
+![Settings side bar](/Assets/Screenshots/ActindoWorkFlow/Workflows/SettingsSideBar02.png "[Settings side bar]")
 
 The settings side bar is located to the right of the workspace and displays the following information:
 
@@ -92,7 +92,7 @@ The settings side bar is located to the right of the workspace and displays the 
 
 ## Input and output ports
 
-![Input and output ports](/Assets/Screenshots/Workflows/Workflows/InputOutputPorts.png "[Input and output ports]")
+![Input and output ports](/Assets/Screenshots/ActindoWorkFlow/Workflows/InputOutputPorts.png "[Input and output ports]")
 
 Every action can contain any number of input and output ports. They can be defined with a descriptive name, such as reporter, title or event, or be simply marked as *in* (input) and *out* (output) followed by a consecutive number.
 
@@ -111,7 +111,7 @@ Both input and output ports can be of two types:
 
 ## Tokens
 
-![Tokens](/Assets/Screenshots/Workflows/Workflows/Tokens.png "[Tokens]")
+![Tokens](/Assets/Screenshots/ActindoWorkFlow/Workflows/Tokens.png "[Tokens]")
 
 [comment]: <> (Token belongs in Processes)
 
@@ -149,7 +149,7 @@ For detailed information, see [Link](#to-be-determined).
 
 ## Start and end point
 
-![Start and end point](/Assets/Screenshots/Workflows/Workflows/Workflow.png "[Start and end point]")
+![Start and end point](/Assets/Screenshots/ActindoWorkFlow/Workflows/Workflow.png "[Start and end point]")
 
 
 A workflow must have a start and an end point. A piece of data, or token, initiates the workflow at the start point and goes through all stages (places and actions) until it reaches the end point. The end point is the final result of all actions executed in the workflow. A new (sub)process can be linked subsequently to the end point. for detailed information, see [Link].
@@ -159,7 +159,7 @@ A workflow must have a start and an end point. A piece of data, or token, initia
 
 The start point is the initial stage of the workflow. It is represented by a circle with an outward arrow pointing towards an input port of the first action. Similarly to a place, when clicking it, the start point becomes highlighted and the corresponding element settings are displayed in the settings side bar.
 
-![Start point](/Assets/Screenshots/Workflows/Workflows/StartPoint.png "[Start point]")
+![Start point](/Assets/Screenshots/ActindoWorkFlow/Workflows/StartPoint.png "[Start point]")
 
 The settings side bar is located to the right of the workspace and displays the following information:
 
@@ -183,7 +183,7 @@ The settings side bar is located to the right of the workspace and displays the 
 
 The end point is the final stage of the workflow. It is represented by a circle with a inward arrow coming from one or more actions being executed in the last stage(s) of the workflow. Similarly to a place, when clicking it, the start point becomes highlighted and the corresponding element settings are displayed in the settings side bar.
 
-![End point](/Assets/Screenshots/Workflows/Workflows/EndPoint.png "[End point]")
+![End point](/Assets/Screenshots/ActindoWorkFlow/Workflows/EndPoint.png "[End point]")
 
 The settings side bar is located to the right of the workspace and displays the following information:
 

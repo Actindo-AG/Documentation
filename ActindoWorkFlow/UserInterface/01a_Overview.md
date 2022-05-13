@@ -1,7 +1,7 @@
 # Dashboard
 *Workflows > Overview > Tab DASHBOARDS*
 
-![Dashboards](/Assets/Screenshots/Workflows/Overview/Dashboards.png "[Dashboards]")
+![Dashboards](/Assets/Screenshots/ActindoWorkFlow/Overview/Dashboards.png "[Dashboards]")
 
 In the *DASHBOARDS* tab, the custom tabs with composable dashlets are displayed. By default no tab is created.
 
@@ -14,7 +14,7 @@ In the *DASHBOARDS* tab, the custom tabs with composable dashlets are displayed.
 
 ## Add a new tab
 
-![Add a new tab](/Assets/Screenshots/Workflows/Overview/AddNewTab.png "[Add a new tab]")
+![Add a new tab](/Assets/Screenshots/ActindoWorkFlow/Overview/AddNewTab.png "[Add a new tab]")
 
 ### Create New Tab
 
@@ -34,7 +34,7 @@ In the *DASHBOARDS* tab, the custom tabs with composable dashlets are displayed.
 
 ## Confirm tab deletion
 
-![Confirm tab deletion](/Assets/Screenshots/Workflows/Overview/ConfirmTabDeletion.png "[Confirm tab deletion]")
+![Confirm tab deletion](/Assets/Screenshots/ActindoWorkFlow/Overview/ConfirmTabDeletion.png "[Confirm tab deletion]")
 
 - [CANCEL]   
   Click this button to cancel deleting the selected tab and close the *Confirm Tab Deletion* window.
@@ -45,14 +45,14 @@ In the *DASHBOARDS* tab, the custom tabs with composable dashlets are displayed.
 
 ## Tab
 
-![New tab](/Assets/Screenshots/Workflows/Overview/NewTab.png "[New tab]")
+![New tab](/Assets/Screenshots/ActindoWorkFlow/Overview/NewTab.png "[New tab]")
 
 - ![Settings](/Assets/Icons/Settings01.png "[Tool]") (Settings)   
   Click this button to edit the tab. The *Edit tab* view is displayed.  
 
 ### Edit tab
 
-![Edit tab](/Assets/Screenshots/Workflows/Overview/EditTab.png "[Edit tab]")
+![Edit tab](/Assets/Screenshots/ActindoWorkFlow/Overview/EditTab.png "[Edit tab]")
 
 - *Select Viewport*   
   Click the drop-down list to select the view to be applied to the tab. A different view can be selected for each tab. The drop-down list is only displayed in the *Edit tab* view. The following options are available:    
@@ -78,7 +78,7 @@ In the *DASHBOARDS* tab, the custom tabs with composable dashlets are displayed.
 
 #### Dashlet picker
 
-![Dashlet picker](/Assets/Screenshots/Workflows/Overview/DashletPicker.png "[Dashlet picker]")
+![Dashlet picker](/Assets/Screenshots/ActindoWorkFlow/Overview/DashletPicker.png "[Dashlet picker]")
 
 - [x]
   Select a checkbox to add the selected dashlet to the tab. You can select multiple checkboxes. If you click the checkbox in the header, all dashlets in the list are selected. A toolbar indicating the number of selected dashlets is displayed above the list when you have selected at least one checkbox. By default, the following dashlets are available:

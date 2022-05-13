@@ -1,4 +1,4 @@
-[!!Workflows](Workflows)
+[!!Workflows](ActindoWorkFlow)
 
 # Configure the logging settings
 
@@ -12,7 +12,7 @@ No prerequisites to fulfill.
 
 *Workflows > Settings > Tab SETTINGS*
 
-![Settings](/Assets/Screenshots/Workflows/Settings/Settings.png "[Settings]")
+![Settings](/Assets/Screenshots/ActindoWorkFlow/Settings/Settings.png "[Settings]")
 
 1. Select the log type you want to edit in the *LOG LIFETIMES* section of the left *Settings* side menu. The following logs are available:
   - Emergency-log lifetime
@@ -26,19 +26,19 @@ No prerequisites to fulfill.
 
   The lifetime view of the selected log type is displayed on the right side.
 
-  ![Default disabled](/Assets/Screenshots/Workflows/Settings/DefaultDisabled.png "[Default disabled]")
+  ![Default disabled](/Assets/Screenshots/ActindoWorkFlow/Settings/DefaultDisabled.png "[Default disabled]")
 
 2. Disable the *Apply from default* toggle in the upper right corner.   
   The field to define the log lifetime is unlocked.
 
 3. Enter the desired log lifetime in the *log lifetime (in days)* field.
 
-  ![New log lifetime](/Assets/Screenshots/Workflows/Settings/NewLogLifetime.png "[New log lifetime]")
+  ![New log lifetime](/Assets/Screenshots/ActindoWorkFlow/Settings/NewLogLifetime.png "[New log lifetime]")
 
 4. Click the [SAVE] button in the upper right corner.   
   The changes are saved. The *Saving successful* pop-up window is displayed.
 
-  ![Saving successful](/Assets/Screenshots/Workflows/Settings/SavingSuccessful.png "[Saving successful]")
+  ![Saving successful](/Assets/Screenshots/ActindoWorkFlow/Settings/SavingSuccessful.png "[Saving successful]")
 
 ### Next steps
 
