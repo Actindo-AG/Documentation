@@ -2,7 +2,7 @@
 
 # Configure the queue types
 
-Configure an arbitrary number of individual queue types to be able to execute certain actions faster. You can configure an unlimited number of queue types with a defined number of workers and the and a defined sequence of how actions are to be executed. The total number of workers that can be assigned to the queue types is limited by the number of booked vCores.
+Configure an arbitrary number of individual queue types to be able to execute certain actions faster. You can configure an unlimited number of queue types with a defined number of workers and a defined sequence of how actions are to be executed. The total number of workers that can be assigned to the queue types is limited by the number of booked vCores.
 The *Default* queue type is predefined and is assigned to all actions by default. It can manually be overridden by individual queue types. A different queue type may be assigned for each action.
 
 
@@ -29,7 +29,7 @@ No prerequisites to fulfill.
 
 3. Enter the desired number of workers for the queue type in the *Number of workers* field.
 
-  > [Info] A worker is a job that is executing the action within a process. One worker can only execute one job at the same time. By assigning multiple workers to a queue type, this queue type may execute several jobs at the same time. Consequently, actions with a queue type with more workers are executed faster that actions with queue types with less workers. The total number of workers of all queue types depends on the number of booked vCores.
+  > [Info] A worker is a job that is executing the action within a process. One worker can only execute one job at the same time. By assigning multiple workers to a queue type, this queue type may execute several jobs at the same time. Consequently, actions with a queue type with more workers are executed faster that actions with queue types with fewer workers. The total number of workers of all queue types depends on the number of booked vCores.
 
 4. Click the *Executing Prio* drop-down list and select the appropriate executing priority. The following options are available:
   - **Oldest executable action**: The oldest executable actions within all existing processes is executed first by the workers.
@@ -82,7 +82,7 @@ At least one queue type is created, see [Create a queue type](#create-a-queue-ty
 
   + Click the *Execution Prio* drop-down list and select the appropriate execution priority in the list.
 
-3. Click the [SAVE] button in the upper right corner.
+3. Click the [SAVE] button in the upper right corner.   
   The changes are saved. The *Edit queue type* view is closed. The *QueueType has been saved* pop-up window is displayed.  
 
   ![Queue type saved](/Assets/Screenshots/ActindoWorkFlow/QueueTypes/QueueTypeSaved.png "[Queue type saved]")
@@ -150,12 +150,12 @@ At least one queue type is created, see [Create a queue type](#create-a-queue-ty
 
 ![Overview](/Assets/Screenshots/ActindoWorkFlow/QueueTypes/Overview.png "[Overview]")
 
-1. Select the checkbox of the queue type you want to delete in the list of queue types.  
+1. Select the checkbox of the queue type you want to delete in the list of queue types.      
 The editing toolbar is displayed above the queue types list.
 
   ![Toolbar](/Assets/Screenshots/ActindoWorkFlow/QueueTypes/Toolbar.png "[Toolbar]")
 
-2. Click the ![Delete](/Assets/Icons/Trash03.png "[Delete]") (Delete) button in the toolbar.
+2. Click the ![Delete](/Assets/Icons/Trash03.png "[Delete]") (Delete) button in the toolbar.   
 The queue type is deleted. The *QueueType has been deleted* pop-up window is displayed.
 
   ![Queue type deleted](/Assets/Screenshots/ActindoWorkFlow/QueueTypes/QueueTypeDeleted.png "[Queue type deleted]")
@@ -192,12 +192,12 @@ At least one queue type is created, see [Create a queue type](#create-a-queue-ty
 
 ![Overview](/Assets/Screenshots/ActindoWorkFlow/QueueTypes/Overview.png "[Overview]")
 
-1. Select the checkbox of the queue type whose workers you want to kill.   
+1. Select the checkbox of the queue type whose workers you want to kill.    
 The editing toolbar is displayed above the queue types list.
 
   ![Toolbar](/Assets/Screenshots/ActindoWorkFlow/QueueTypes/Toolbar.png "[Toolbar]")
 
-2. Click the [KILL WORKER OF THIS QUEUE TYPE] button in the toolbar.
+2. Click the [KILL WORKER OF THIS QUEUE TYPE] button in the toolbar.   
 The workers of the selected queue type are killed. The process actions of the selected queue type will not continue until you restart the workflow processes. The *Worker will shutdown* pop-up window is displayed.
 
   ![Worker shutdown](/Assets/Screenshots/ActindoWorkFlow/QueueTypes/WorkerShutdown.png "[Worker shutdown]")
