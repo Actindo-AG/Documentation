@@ -48,6 +48,7 @@ A read-only diagram of the process including all individual places and actions i
 - [Check the process action status](#check-the-process-action-status)
 - [Check the token status and content](#check-the-token-status-and-content)
 
+
 ### See also
 
 - [Troubleshooting](#to-be-determined)
@@ -55,21 +56,11 @@ A read-only diagram of the process including all individual places and actions i
 
 ## Check the process action status
 
-The process status can be checked to see which actions have already executed and where problems may occur.
+The process action status can be checked to see which actions have already been executed, if problems have occurred and where.
 
 After selecting a process, the *OVERVIEW* tab displays a read-only diagram of the selected process including all places and actions. If the process is currently active, the process execution can be observed in real time.
 
-The workflow process diagram displays the actions in different colours depending on their current status:
-
-  - Done (green)
-  - Active (blue)
-  - Waiting (white)
-  - Error (red)
-  - Dead (black)
-
-  [comment]: <> (Check possible statuses and colours?)
-
-Per default, the *Actions* tab listing all existing actions in the selected process is displayed. The actions are displayed in column view providing further details apart from the status.
+The process actions included in the diagram are also displayed in column view, providing further details apart from the status.
 
 ### Prerequisites
 
@@ -80,94 +71,56 @@ Per default, the *Actions* tab listing all existing actions in the selected proc
 
 *Workflows > Processes > Tab OVERVIEW > Select process*
 
-[comment]: <> (Specify Tab Actions?)
-
 ![Process actions](/Assets/Screenshots/ActindoWorkFlow/Workflows/ProcessActions.png "[Process actions]")
 
-[comments]: <> (Check one action or several actions at a time? See Troubleshooting)
 
-1. tab actions wählen
+1. Click the *Actions* tab if not already selected.  
 
-2. filter nach status auf all (ich will erstmal alle actions anzeigen)
+  > [Info] When selecting a process in the *OVERVIEW* tab, the *Actions* tab is usually selected.
 
-3. actions in diagramm anschauen (status farben erklären)
+  [comment]: <> (By default? Actions Reiter scheint standarmäßig ausgewählt zu sein, wenn man einen Prozess aus der Liste anklickt. Das heißt, erster Schritt etwas überflüssig)
 
-4. action in diagramm auswählen (je nach status wird action in tab angezeigt)
+2. Click the *Status* drop-down list and select **All** to display all actions.  
+All actions, regardless of their status, are displayed.
 
-5. status und weitere infos zu action in tab actions anschauen (spalten erklären: status, tries, max tries, queue type, defer until)
+  > [Info] By default, the *Actions* tab lists all actions contained in the selected process.
 
-6. hinweis auf troubleshooting bei error, verweis auf tokens
+3. Check the actions displayed in the diagram. The workflow process diagram displays the actions in different colours depending on their current status:
 
-7. ggf. logs einschließen -> mit oli klären (vielleicht auch nur in troubleshooting oder in separatem kapitel)
+  - Active (blue)
+  - Done (green)
+  - Waiting (white)
+  - Error (red)
+  - Dead (black)
 
--> beschreiben, wie man alternativ die actions im menüpunkt Process actions anzeigen kann (und von dort aus zu den prozessen gelangt)
+ [comment]: <> (Andere möglichen Status? Vgl. mit Status in Actions Reiter: Active, Done, Error, Error; automatic retry, Suspended, Process aborted. Farben stimmen oder ändern sich noch?)
 
+ [comment]: <> (Oli: Statuses Error; automatic retry, Suspended and Process aborted. Wo stellt man "automatic retry" ein?)
 
-1. Click the action in the process diagram to be checked.  
+4. Select in the diagram the action to be checked by clicking it.  
 The selected action is displayed in the *Actions* tab.
 
-2. Alternatively, click *Status* drop-down list to filter the processes according to their status.   
-All existing actions with the selected status are displayed.
+5. Check the action status in the *Status* column and any further relevant information about the action displayed in the following columns:
 
-  The following statuses are displayed:
+  - *Tries*: The number of times an action has been tried.
+  - *Maximal retries after error*: The number of times an action must be retried after error.
+  - *Queue type*: The *Default* queue type is normally selected. For detailed information about configuring queue types, see [Configure the queue types](#to-be-competed).
 
-  - **All**  
-  All existing actions are displayed. This option is displayed per default.
+    > [Info] A different queue type can be selected by editing an action, see [Edit an action](01_ManageWorkflows.md#edit-an-action).
 
-  - **Active**  
-  The actions that are currently running are displayed.
+  - *Defer until*: The next point in time when the action is being tried.
 
-  - **Done**  
-  The actions that are finished are displayed.
+[comment]: <> (Oli: Is it possible to configure it somehow, i.e. Tries, Maximal retries after error and Defer until?)
 
-  - **Error**  
-  The actions that have produced an error are displayed.
+6. If an error is displayed, a troubleshooting procedure can be performed. For detailed information, see [Troubleshooting](ActindoWorkFlow/Troubleshooting/00_Troubleshooting.md).
 
-  - **Error; automatic retry**  
-  The actions that have produced an error but are set up for automatic retry are displayed. For detailed information about action settings, see [Link](#to-be-completed).
+  > [Info] The *Token* tab displays detailed information about the tokens being processed in the actions. For detailed information about tokens, see [Check the token status and content](#check-the-token-status-and-content).
 
-  - **Suspended**
+7. Check the *Logs* tab for further details on the error.
 
-  - **Process aborted**
+[comment]: <> (Oli: Logs tab auch nur in Troubleshooting oder in separatem Kapitel?)
 
-  > [Info] Actions can also be filtered with the filter options. Click the ![Filter](/Assets/Icons/Filter.png "[Filter]") (Filter) button to display the filter options.
-
-[comment]: <> (Oli: Statuses Error; automatic retry, Suspended and Process aborted. Wo stellt man "automatic retry" ein?)
-
-3. Check the current action status in the *Status* column.  
-
-  > [Info] Further information about the selected action(s) can be found in the *Logs* tab.
-
-4. Check the number of times an action has been tried in the *Tries* column.
-
-5. Check the number of times an action must be retried after error in the *Maximal retries after error* column.
-
-[comment]: <> (Useful for user to mention those options? Is it possible to configure it somehow?)
-
-6. Check the queue type in the *Queue type* column.  
-The *Default* queue type is normally selected. For detailed information about configuring queue types, see [Configure the queue types](#to-be-competed).
-
-  > [Info] A different queue type can be selected by editing an action, see [Edit an action](01_ManageWorkflows.md#edit-an-action).
-
-7. Check the next point in time when the action is being tried in the *Defer until* column.
-
-[comment]: <> (Useful for user to mention it? Is it possible to configure it somehow?)
-
-
----
-[comment]: <> (Further info probably only for Troubleshooting)
-
-
-- If an error is displayed, take the necessary action to solve the problem before retrying the action.
-
-  > [Info] Further information about the error displayed can be found in the *Logs* tab.
-
-- Click the checkbox to select the action to be checked.    
-The (editing) toolbar is displayed.
-
-  > [Info] If several action have been filtered according to status, it is also possible to select them all simultaneously. Click the checkbox in the column header to select all actions filtered. For detailed information about this process, see [Retry a process action](#to-be-completed).
-
-- Click the [RETRY] button to execute the action again.
+ > [Info] A list of all actions, regardless of the process they are part of, can be displayed in the *Process Actions* menu entry/tab. They can be filtered according to their status and be modified simultaneously, if necessary. By clicking a specific action in the process actions list, the corresponding process will be displayed.
 
 
 
