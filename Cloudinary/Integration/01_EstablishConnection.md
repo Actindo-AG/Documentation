@@ -40,3 +40,11 @@ The first step to integrate the Cloudinary functionality to Actindo is to establ
   The connection to the selected Cloudinary account is established. The *Connection* view is closed. The new connection is displayed in the list of connections.
 
 > [Info] To establish a further Cloudinary connection to a different Cloudinary account, repeat the procedure with the corresponding Cloudinary account details.
+
+## Next steps
+
+- [Manage the Cloudinary attributes](02_ManageCloudinaryAttributes.md)
+
+## See also
+
+- [User Interface Cloudinary](/Cloudinary/UserInterface/00_UserInterface.md)

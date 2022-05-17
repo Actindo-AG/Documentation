@@ -13,7 +13,8 @@ Create a Cloudinary attribute to enable the upload of files from Actindo to Clou
 
 ### Prerequisites
 
-An attribute set is created, see [Create an attribute set](/PIM/Integration/02_ManageAttributeSets.md#Create-an-attribute-set).
+- A Cloudinary connection is established, see [Establish a connection to Cloudinary](01_EstablishConnection.md).
+- An attribute set is created, see [Create an attribute set](/PIM/Integration/02_ManageAttributeSets.md#Create-an-attribute-set).
 
 ### Procedure
 *PIM > Settings > Tab ATTRIBUTES*
@@ -65,6 +66,7 @@ For detailed information about the Cloudinary configuration settings, see [Confi
 
 - [User Interface PIM](/PIM/UserInterface/00_UserInterface.md)
 - [User Interface Cloudinary](/Cloudinary/UserInterface/00_UserInterface.md)
+- [Establish a connection to Cloudinary](01_EstablishConnection.md)
 - [Manage the attributes](/PIM/Integration/01_ManageAttributes.md)
 - [Data type list](/PIM/UserInterface/04_DataTypeList.md)
 
@@ -117,10 +119,15 @@ All available meta data fields from the selected Cloudinary connection are displ
 
 9. Press **F5** to initialize the Core1 Platform and to apply the changes.   
 
+### Next steps
+
+- [Manage the Cloudinary files](/Cloudinary/Operation/01_ManageCloudinaryFiles.md)
+
 ### See also
 
 - [User Interface PIM](/PIM/UserInterface/00_UserInterface.md)
 - [User Interface Cloudinary](/Cloudinary/UserInterface/00_UserInterface.md)
 - [Create a Cloudinary attribute](#create-a-cloudinary-attribute)
+- [Establish a connection to Cloudinary](01_EstablishConnection.md)
 - [Manage the attributes](/PIM/Integration/01_ManageAttributes.md)
 - [Data type list](/PIM/UserInterface/04_DataTypeList.md)
