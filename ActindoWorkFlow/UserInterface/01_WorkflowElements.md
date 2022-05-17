@@ -75,9 +75,9 @@ The action settings side bar is located to the right of the workspace and allows
   > [Info] Not all actions have configuration options. In this case, the *Configuration* section is not displayed.
 
   - *Static inputs*  
-  All unlinked inputs are listed in this section. The static inputs determine the data type that can be input. They are preconfigured but can be further configured by the user clicking the ![Add](/Assets/Icons/Plus01.png "[Add]") (Add) button. Only JSON values are accepted. When being edited, static inputs display a small arc without a place infront of them in the workflow diagram.
+  All unlinked inputs are listed in this section. The static inputs determine the data type that can be input in a port. They are preconfigured but can be further defined by the user clicking the ![Add](/Assets/Icons/Plus01.png "[Add]") (Add) button. Only valid JSON values are accepted. When being edited, static inputs display a small arc without a place in front of them in the workflow diagram.
 
-[comment]: <> (Unsure! Check Wissentransfer!)
+[comment]: <> (Unsure! RS Oli/Hannah)
 
 
 ## Input and output ports
@@ -92,8 +92,6 @@ Both input and output ports can be of two types:
 
 - **Mandatory**  
   Mandatory ports must be linked to a place, which in turn must be linked to an action. Places linked to a mandatory port cannot be deleted or removed. When adding a new action, mandatory input/output places are already displayed.
-
-[comment]: <> (Processes - Otherwise, the workflow stops and shows an error. )
 
 - **Optional**  
  Optional ports are displayed with a ![Add](/Assets/Icons/Plus01.png "[Add]") (Add) button next to each of them. By clicking the ![Add](/Assets/Icons/Plus01.png "[Add]") (Add) button a new place is added. which can in turn be linked to a new action. For detailed information about adding new actions, see [Create an action](/ActindoWorkFlow/Operation/01_ManageWorkflows.md#create-an-action).
@@ -112,6 +110,8 @@ The *Processes* menu entry displays a read-only view of any process taking place
 
 A process is started with one token at the start point, which will be input in an action to be executed. In turn, an action can output several tokens, which will become inputs for subsequent actions. It is therefore possible that a place contains several tokens, for example, several delivery notes issued for different parts of a same order. Each token will then be processed separately, that means, that the subsequent actions will be executed once for each token available.
 
+[comment]: <> (Prozess wird gestartet mit einem einzigen Initialtoken - Wissentransfer ca. 0:44:45)
+
 The workflow process view displays the actions in different colours depending on their current status:
 
   - Ready
@@ -126,13 +126,11 @@ The workflow process view displays the actions in different colours depending on
 
 For detailed information about the different status meaning, see [Link](#to-be-determined).
 
-Next to the status of each action, a number is displayed. This number refers to the number of tokens processed in this action, and depends on the action status.  
+Next to the status of each action, a number is displayed. This number refers to the number of tokens processed in this action, and it depends on the action status and the number of tokens received. For example, if an action displays the message *Done 1*, this means that the action has already been executed and that 1 token has been processed.
 
-[comment]: <> (Further info? Check Wissentransfer!)
+A place can also contain a black square displaying a number. This number specifies the number of tokens waiting to be processed at that place. This could happen, for example, because a token running in parallel has not been received at a particular stage of the process, but also because all tokens have been processed and are waiting for further action at the end point.
 
-If a token is missing at some point, for example, if a document has not been received, the action cannot be executed and the process stops at the point where data are missing. In this case, a black square is displayed on the place specifying the number of tokens waiting to be processed.
-
-[comment]: <> (Further info needed! Check Wissentransfer!)
+[comment]: <> (Still unhappy about description)
 
 
 
