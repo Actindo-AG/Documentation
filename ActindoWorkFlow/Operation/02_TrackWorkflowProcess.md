@@ -4,18 +4,16 @@
 
 A process is an instance of a workflow. When a transaction is performed, a piece of data is generated, for example an invoice, which in turn initiates a workflow process. Therefore, for every single transaction performed, an individual instance of the corresponding workflow, that is, a process, is initiated.
 
-Similarly to a workflow, a process has a start and an end point, as well as different stages (places and actions) which the initial data goes through in order to be processed. For a detailed description of the workflow elements, see [Workflow elements](#01_WorkflowElements.md).
+A process has a start and an end point, as well as different stages (places and actions) which the initial data goes through in order to be processed. For a detailed description of the workflow elements, see [Workflow elements](/ActindoWorkFlow/UserInterface/01_WorkflowElements.md).
 
-The workflow process can be tracked to check the status of a whole process or of individual actions, and to solve any problems that may occurred as a result of a misconfiguration or any other external issues.
+The workflow process can be tracked to check the status of a whole process or of individual actions, as well as the status and content of a token.
 
 
 ## Check the process status
 
+The process status can be checked to see how far a process has progressed, detect potential problems, and solve any problems that may occur as a result of a misconfiguration or any other external issues, so that the process can continue running.
+
 The *OVERVIEW* tab in the *Processes* menu entry displays a list of all processes that are currently being executed or have been executed in the system. Per default, all existing processes are displayed but can also be filtered according to different criteria.
-
-[comment]: <> (UI info -> columns, filter, etc.)
-
-A *VIEW* can also be created to customize the display options. For detailed information, see [Link](#to-be-completed.).
 
 
 ### Prerequisites
@@ -25,53 +23,24 @@ A *VIEW* can also be created to customize the display options. For detailed info
 
 ### Procedure
 
-*Workflows > Menu entry Processes > Tab OVERVIEW*
+*Workflows > Processes > Tab OVERVIEW*
 
 ![Processes](/Assets/Screenshots/ActindoWorkFlow/Workflows/Processes.png "[Processes]")
 
-1. Click *Status* drop-down list to filter the processes according to their status, if necessary.   
-All existing processes with the selected status are displayed.
 
-  The following statuses are available:
+1. Click *Status* drop-down list and select **All** to display all processes.  
+All processes, regardless of their status, are displayed.
 
-  - **All**  
-  All existing processes are displayed. This option is selected per default.
+2. Click the *Workflow* drop-down list and select the specific workflow type to be displayed.  
+All processes of the selected workflow type are displayed.
 
-  - **Ready**  
-  The processes that are ready are displayed.
-
-  - **In progress**  
-  The currently active processes are displayed.
-
-  - **Error**  
-  The processes that have produced an error are displayed.
-
-  - **Done**  
-  The processes that are finished are displayed.
-
-  - **Dead**  
-  The processes that are no longer running, probably due to a misconfiguration, are displayed.
-
-  - **Suspended**
-
-  - **Aborted**
-
-[comment]: <> (Process elements/UI folder? Link to UI - Oli: Meaning of Ready, Suspended and Aborted)
-
-2. Alternatively, click the *Workflow* drop-down list to display a specific workflow type.
-All existing processes of the selected workflow type are displayed.
+3. Check the list displayed for process to be checked.  
+The current process status can be checked in the *Status* column.
 
   > [Info] Processes can also be filtered with the filter options. Click the ![Filter](/Assets/Icons/Filter.png "[Filter]") (Filter) button to display the filter options. For detailed information, see [Link](#to-be-completed).
 
-3. Check the current process status in the *Status* column.
-
-4. Click the checkbox to select the desired process to be checked.  
-The toolbar is displayed.
-
-[comment]: <> (Stimmt das? Was macht der Checkbox links?)
-
-5. Alternatively, click a process to select it and to check individual process actions.  
-A read-only diagram of the process including all individual places and actions is displayed. For detailed information, see [Check the process action status](#check-the-process-action-status).     
+4. Click a process in the list to select it and display individual process actions and tokens.  
+A read-only diagram of the process including all individual places and actions is displayed. For detailed information about individual process actions, see [Check the process action status](#check-the-process-action-status). For detailed information about tokens, see [Check the token status and content](#check-the-token-status-and-content).
 
 
 ### Next steps
@@ -85,6 +54,8 @@ A read-only diagram of the process including all individual places and actions i
 
 
 ## Check the process action status
+
+The process status can be checked to see which actions have already executed and where problems may occur.
 
 After selecting a process, the *OVERVIEW* tab displays a read-only diagram of the selected process including all places and actions. If the process is currently active, the process execution can be observed in real time.
 
@@ -107,13 +78,29 @@ Per default, the *Actions* tab listing all existing actions in the selected proc
 
 ### Procedure
 
-*Workflows > Menu entry Processes > Tab OVERVIEW > Select process*
+*Workflows > Processes > Tab OVERVIEW > Select process*
 
 [comment]: <> (Specify Tab Actions?)
 
 ![Process actions](/Assets/Screenshots/ActindoWorkFlow/Workflows/ProcessActions.png "[Process actions]")
 
 [comments]: <> (Check one action or several actions at a time? See Troubleshooting)
+
+1. tab actions wählen
+
+2. filter nach status auf all (ich will erstmal alle actions anzeigen)
+
+3. actions in diagramm anschauen (status farben erklären)
+
+4. action in diagramm auswählen (je nach status wird action in tab angezeigt)
+
+5. status und weitere infos zu action in tab actions anschauen (spalten erklären: status, tries, max tries, queue type, defer until)
+
+6. hinweis auf troubleshooting bei error, verweis auf tokens
+
+7. ggf. logs einschließen -> mit oli klären (vielleicht auch nur in troubleshooting oder in separatem kapitel)
+
+-> beschreiben, wie man alternativ die actions im menüpunkt Process actions anzeigen kann (und von dort aus zu den prozessen gelangt)
 
 
 1. Click the action in the process diagram to be checked.  
@@ -206,7 +193,7 @@ A process is started with one token at the start point, which will be processed 
 
 ### Procedure
 
-*Workflows > Menu entry Processes > Tab OVERVIEW > Select process > Tab Tokens*
+*Workflows > Processes > Tab OVERVIEW > Select process > Tab Tokens*
 
 [comment]: <> (Specify Tab Tokens or start with OVERVIEW -> clicking on place shows tokens too?)
 
