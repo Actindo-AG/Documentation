@@ -48,3 +48,6 @@ The first step to integrate the Cloudinary functionality to Actindo is to establ
 ## See also
 
 - [User Interface Cloudinary](/Cloudinary/UserInterface/00_UserInterface.md)
+
+
+[comment]: <> (Edit a connection?)
