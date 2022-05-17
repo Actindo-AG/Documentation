@@ -6,3 +6,5 @@
   - [Remove a Cloudinary file assignment in PIM](01_ManageCloudinaryFiles.md#remove-a-cloudinary-file-assignement-in-pim)
 
 - [Map a Cloudinary file](02_CloudinaryMapping)
+  - [Map a Cloudinary source attribute](02_CloudinaryMapping#map-a-cloudinary-source-attribute)
+  - [Map a Cloudinary destination attribute](02_CloudinaryMapping#map-a-cloudinary-destination-attribute)
