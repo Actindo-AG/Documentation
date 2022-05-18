@@ -217,7 +217,7 @@ A new place connected to the selected output port is displayed.
   + Click the *Queue Type* drop-down list and select the appropriate queue type for the action. All available queue types are displayed in the drop-down list. By default the *Default* queue type is selected. You can define a different queue type for each action within the workflow.   
   For detailed information about the queue types, see [Configure the queue types](/ActindoWorkFlow/Integration/01_WConfigureQueueTypes.md).
 
-  + Click the *Task Event* drop-down list and select an event connected to the action. The event is triggered and the corresponding task is assigned when the action is failed within a process. All available task events are displayed in the drop-down list. By default, the *ActindoWorkflow Process Execution Failed* event is preselected.
+  + Click the *Task Event* drop-down list and select an event connected to the action. The event is triggered and the corresponding task is assigned when the process action is failed. All available task events are displayed in the drop-down list. By default, the *ActindoWorkflow Process Execution Failed* event is preselected. The drop-down list is only displayed when the *Task* module is installed.
 
   + Edit the field(s) in the *Configuration* section to define further configuration settings to the selected action. This section is only displayed for certain actions. The fields displayed in the *Configuration* section depend on the selected action.
 
