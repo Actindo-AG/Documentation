@@ -61,7 +61,7 @@ Further details about the process actions included in the diagram as well as abo
 ### Prerequisites
 
 - A workflow is created, see [Create a workflow](01_ManageWorkflows.md#create-a-workflow).
-- A workflow process has been initiated, see [Link](#to-be-determined).
+- A workflow process has been initiated.
 
 ### Procedure
 
