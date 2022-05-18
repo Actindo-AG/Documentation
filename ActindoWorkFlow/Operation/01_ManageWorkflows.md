@@ -158,6 +158,22 @@ The selected arc is highlighted.
   The places are merged and the new connection is created.
 
 
+#### Delete a place
+
+1. Navigate to the place you want to delete.  
+
+2. Click the place to be deleted.   
+  The selected place is highlighted.
+
+  ![Input](/Assets/Screenshots/ActindoWorkFlow/Workflows/Place.png "[Input]")
+
+3. Press **Delete** to remove the selected place.    
+  The selected place and its arcs are deleted.
+
+  > [Info] If a one of the arcs has been connected to a mandatory input or output port, a new place connected to this port is automatically displayed.
+
+
+
 #### Add an action
 
 1. Navigate to the part in the workflow where you want to add an action.  
