@@ -44,10 +44,10 @@ For detailed information about tokens, see [Check the token status and content](
 - [Check the process action status](#check-the-process-action-status)
 - [Check the token status and content](#check-the-token-status-and-content)
 
-
 ### See also
 
 - [Troubleshooting](#to-be-determined)
+
 
 
 ## Check the process action status
@@ -81,7 +81,10 @@ Further details about the process actions included in the diagram as well as abo
 
   > [Info] By default, the *Actions* tab lists all actions contained in the selected process.
 
-3. Check the actions displayed in the diagram. The workflow process diagram displays the actions in different colours depending on their current status:
+[comment]: <> (OLI: wenn eine Action/Token in einem Prozess ausgewählt werden, wird es als Filtereinstellung übernommen. Diese Filtereinstellung bleibt erhalten, auch man zu einem anderen Prozess wechlselt, daher sieht man nicht alle Actions, auch wenn auf "All" klickt. Bug oder erwartetes Verhalten?)
+
+3. Check the actions displayed in the diagram.  
+The workflow process diagram displays the actions in different colours depending on their current status:
 
   - Active (blue)
   - Done (green)
@@ -112,13 +115,11 @@ The selected action is displayed in the *Actions* tab.
 
   > [Info] The *Token* tab displays detailed information about the tokens being processed in the actions. For detailed information about tokens, see [Check the token status and content](#check-the-token-status-and-content).
 
-7. Check the *Logs* tab for further details on the error.
+7. Check the *Logs* tab for further details on the error displayed.
 
-[comment]: <> (Oli: Logs tab auch nur in Troubleshooting oder in separatem Kapitel?)
+  > [Info] A list of all actions, regardless of the process they are part of, can be displayed in the *Process Actions* tab. They can be filtered according to their status and modified simultaneously, if necessary. By clicking a specific action in the process actions list, the corresponding process will be displayed.
 
- > [Info] A list of all actions, regardless of the process they are part of, can be displayed in the *Process Actions* menu entry/tab. They can be filtered according to their status and be modified simultaneously, if necessary. By clicking a specific action in the process actions list, the corresponding process will be displayed.
-
-
+[comment]: <> (Oli: Logs tab auch nur in Troubleshooting oder in separatem Kapitel? Process actions wird zu einem ein Tab unter Processes, richtig?)
 
 ### Next steps
 
@@ -128,33 +129,43 @@ The selected action is displayed in the *Actions* tab.
 
 - [Troubleshooting](#to-be-determined)
 
+
+
 ## Check the token status and content
 
-The *Tokens* tab displays the tokens that are being or have been processed. A token is a piece of data needed to complete an action, for example a document. When a transaction is performed, a token is generated, for instance an invoice, which in turn initiates the workflow process.
+The token status and content can be checked to see how data progress within a process and, if necessary, detect and solve any data type related issues.   
 
-A process is started with one token at the start point, which will be processed in each action executed and, if necessary, turned into several tokens. It is therefore possible that a place contains several tokens, for example, several delivery notes issued for different parts of a same order. Each token will then be processed separately, that means, that the subsequent actions will be executed once for each available token.
+The *Tokens* tab displays the tokens being processed. A token is a piece of data needed to complete an action, for example a document. When a transaction is performed, a token is generated, for instance an invoice, which in turn initiates the workflow process.
+
+A process is started with one token at the start point, which will be input in an action to be executed. In turn, an action can output several tokens, which will become inputs for subsequent actions. It is therefore possible that a place contains several tokens, for example, several delivery notes issued for different parts of a same order. Each token will then be processed separately, that means, that the subsequent actions will be executed once for each token available.
 
 ### Prerequisites
 
 - A workflow is created, see [Create a workflow](01_ManageWorkflows.md#create-a-workflow).
 - A workflow process has been initiated, see [Link](#to-be-determined).
 
-
 ### Procedure
 
-*Workflows > Processes > Tab OVERVIEW > Select process > Tab Tokens*
-
-[comment]: <> (Specify Tab Tokens or start with OVERVIEW -> clicking on place shows tokens too?)
+*Workflows > Processes > Tab OVERVIEW > Select process*
 
 ![Workflow](/Assets/Screenshots/ActindoWorkFlow/Workflows/Tokens.png "[Workflow]")
 
-1. Click a place in the workflow process diagram to display the available token(s).  
-The available token(s) in the selected place are displayed in the *Tokens* tab.
+1. Click the *Tokens* tab.  
+If the *Hide processed* toggle is active, only the tokens currently waiting to be further processed are displayed.
 
-  > [Info] If the workflow process is finished, all available tokens are placed in the end point.
+2. Deselect the *Hide processed* toggle, if active.  
+ All tokens, including the ones that have already been processed, are displayed.
 
-2.  Check the status of the selected token(s) in the *Status* column.  
-  The following statuses are available:
+3. Check the places displayed in the diagram.  
+The places are green if a token has been input (token status is processed or being processed). If no token has been input yet, the places are white.
+
+ > [Info] A place can contain a black square displaying a number. This number specifies the number of tokens waiting to be processed at that place. Besides, a number is also displayed next to the status of each action. This number refers to the number of tokens processed in this action, and it depends on the action status and the number of tokens received. For further information, see [Workflow elements](ActindoWorkFlow/UserInterface/01_WorkflowElements.md#tokens).
+
+4. Select a place in the diagram.  
+Depending on its status and the toggle settings, the token input in the selected place is displayed in the *Tokens* tab.
+
+5. Check the token status in the *Status* column.  
+The following statuses are available:
 
   - Processed (green)
   - Being processed (blue)
@@ -162,14 +173,21 @@ The available token(s) in the selected place are displayed in the *Tokens* tab.
   - Error (red)
 
 
-3. Click the *Hide processed* ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") (Toggle) button to hide the processed tokens.    
-All unprocessed tokens are displayed.  
+  [comment]: <> (Oli: Andere Status? Status korrekt? Farben bei Dead, Suspended, Aborted? Vgl. Status/Farben Places/Actions/Tokens -> ähnlich aber leicht unterschiedlich. Ist es möglich zu vereinheitlichen?)
 
-> [Info] Tokens can also be filtered with the filter options. Click the ![Filter](/Assets/Icons/Filter.png "[Filter]") (Filter) button to display the filter options. For detailed information, see [Link](#to-be-completed).
+  Check any relevant information about the token displayed in the following columns:  
 
-4. Check the place where the token(s) are located in the *Place* column.  
+  - *Place*: The place where the token has been input.
+  - *Data*: The type of data contained in the token.
+  - *Next possible action(s)*: The next compatible action(s) where the token can be input.
 
-5. Check what type of data is the selected token in the *Data* column.
+[comment]: <> (OLI: Next possible action/s? Data - Token, sind die beiden Synonyme, wie kann man beide im Bezug zueinander besser beschreiben?)
+
+6. Click on an action in the diagram to display further information in the *Actions* tab. For detailed information about checking action status, see [Check the process action status](#check-the-process-action-status).
+
+7. Check the *Logs* tab for further details on any process action.
+
+[comment]: <> (OLI: Logs vielleicht auch nur in Troubleshooting oder in separatem Kapitel? Beziehen sich Logs auf Tokens auch oder nur auf Actions/Transitions?)
 
 
 ### Next steps
