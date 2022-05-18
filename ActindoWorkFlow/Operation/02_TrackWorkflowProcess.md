@@ -6,7 +6,7 @@ A process is an instance of a workflow. When a transaction is performed, a piece
 
 A process has a start and an end point, as well as different stages (places and actions) which the initial data goes through in order to be processed. For a detailed description of the workflow elements, see [Workflow elements](/ActindoWorkFlow/UserInterface/01_WorkflowElements.md).
 
-The workflow process can be tracked to check the status of a whole process or of individual actions, as well as the status and content of a token.
+The workflow process can be tracked to check the status of a whole process or of individual actions, as well as the status and the content of a token.
 
 
 ## Check the process status
@@ -19,7 +19,7 @@ The *OVERVIEW* tab in the *Processes* menu entry displays a list of all processe
 ### Prerequisites
 
 - A workflow is created, see [Create a workflow](01_ManageWorkflows.md#create-a-workflow).
-- A workflow process has been initiated, see [Link](#to-be-determined).
+- A workflow process has been initiated.
 
 ### Procedure
 
@@ -27,21 +27,17 @@ The *OVERVIEW* tab in the *Processes* menu entry displays a list of all processe
 
 ![Processes](/Assets/Screenshots/ActindoWorkFlow/Workflows/Processes.png "[Processes]")
 
-
-1. Click *Status* drop-down list and select **All** to display all processes.  
+1. Click the *Status* drop-down list and select the **All** option.  
 All processes, regardless of their status, are displayed.
 
-2. Click the *Workflow* drop-down list and select the specific workflow type to be displayed.  
-All processes of the selected workflow type are displayed.
+2. Click the *Workflow* drop-down list and select the approriate workflow.  
+All processes of the selected workflow are displayed.
 
-3. Check the list displayed for process to be checked.  
-The current process status can be checked in the *Status* column.
+3. Check the status of the appropriate workflow process in the *Status* column of the processes list.
 
-  > [Info] Processes can also be filtered with the filter options. Click the ![Filter](/Assets/Icons/Filter.png "[Filter]") (Filter) button to display the filter options. For detailed information, see [Link](#to-be-completed).
-
-4. Click a process in the list to select it and display individual process actions and tokens.  
-A read-only diagram of the process including all individual places and actions is displayed. For detailed information about individual process actions, see [Check the process action status](#check-the-process-action-status). For detailed information about tokens, see [Check the token status and content](#check-the-token-status-and-content).
-
+> [Info] If desired, you can click the process to display the *Process ID* view with a diagram of the process including detailed information about the individual process actions and tokens.    
+For detailed information about individual process actions, see [Check the process action status](#check-the-process-action-status) .   
+For detailed information about tokens, see [Check the token status and content](#check-the-token-status-and-content).
 
 ### Next steps
 
@@ -56,11 +52,11 @@ A read-only diagram of the process including all individual places and actions i
 
 ## Check the process action status
 
-The process action status can be checked to see which actions have already been executed, if problems have occurred and where.
+The process action status can be checked to prove which actions have already been executed, if problems have occurred and at what place.
 
-After selecting a process, the *OVERVIEW* tab displays a read-only diagram of the selected process including all places and actions. If the process is currently active, the process execution can be observed in real time.
+The *Process ID* view displays a diagram of the selected process including all places and actions. If the process is currently active, the process execution can be observed in real time.
 
-The process actions included in the diagram are also displayed in column view, providing further details apart from the status.
+Further details about the process actions included in the diagram as well as about the logs and tokens are displayed in separate tabs in the bottom part of the *Process ID* view.
 
 ### Prerequisites
 
@@ -73,15 +69,15 @@ The process actions included in the diagram are also displayed in column view, p
 
 ![Process actions](/Assets/Screenshots/ActindoWorkFlow/Workflows/ProcessActions.png "[Process actions]")
 
+1. Click the *Actions* tab in the bottom part of the *Process ID* view.   
+  The *Actions* tab is displayed.
 
-1. Click the *Actions* tab if not already selected.  
+  > [Info] By default, the *Actions* tab is preselected.
 
-  > [Info] When selecting a process in the *OVERVIEW* tab, the *Actions* tab is usually selected.
+  [comment]: <> (By default? Actions Reiter scheint standardmäßig ausgewählt zu sein, wenn man einen Prozess aus der Liste anklickt. Das heißt, erster Schritt etwas überflüssig)
 
-  [comment]: <> (By default? Actions Reiter scheint standarmäßig ausgewählt zu sein, wenn man einen Prozess aus der Liste anklickt. Das heißt, erster Schritt etwas überflüssig)
-
-2. Click the *Status* drop-down list and select **All** to display all actions.  
-All actions, regardless of their status, are displayed.
+2. Click the *Status* drop-down list and select the **All** option.    
+  All actions, regardless of their status, are displayed.
 
   > [Info] By default, the *Actions* tab lists all actions contained in the selected process.
 
@@ -97,7 +93,7 @@ All actions, regardless of their status, are displayed.
 
  [comment]: <> (Oli: Statuses Error; automatic retry, Suspended and Process aborted. Wo stellt man "automatic retry" ein?)
 
-4. Select in the diagram the action to be checked by clicking it.  
+4. Click the action to be checked in the diagram.  
 The selected action is displayed in the *Actions* tab.
 
 5. Check the action status in the *Status* column and any further relevant information about the action displayed in the following columns:
