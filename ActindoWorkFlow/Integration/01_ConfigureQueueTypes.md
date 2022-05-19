@@ -12,7 +12,7 @@ Create an individual queue type, assign a certain number of workers to it and de
 
 ### Prerequisites
 
-No prerequisites to fulfill.
+No prerequisites to fulfill. Test.
 
 ### Procedure
 
