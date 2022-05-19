@@ -6,7 +6,7 @@
 
 ![Overview](/Assets/Screenshots/ActindoWorkFlow/Workflows/Workflows.png "[Overview]")
 
-The *OVERVIEW* tab displays a list of all available workflows.
+The *Workflows* view displays a list of all available workflows.
 
 - *VIEW*  
 Click the drop-down list to select the view. All created views are displayed in the drop-down list. Click the ![Points](/Assets/Icons/Points01.png "[Points]") (Points) button to the right of the *VIEW* drop-down list to display the context menu and create a view. For detailed information, see [Create a view](#create-a-view).
@@ -31,6 +31,8 @@ Click the drop-down list to select the view. All created views are displayed in 
   - ![Filter](/Assets/Icons/Filter.png "[Filter]") Filter (x)  
     Click this button to display the filter bar and customize the active filters. The x indicates the number of filters that are currently active.
 
+[comment]: <> (OLI: ADD FILTER button funktioniert noch nicht?)
+
 The created workflows are displayed in a column view. Depending on the settings, the displayed columns may vary. All fields are read-only.
 
 - *Name*  
@@ -40,12 +42,12 @@ The created workflows are displayed in a column view. Depending on the settings,
   Key value given to the workflow.
 
 - *Highest version*  
-  Highest existing version of workflow.
+  Highest existing version of the workflow.
 
 - *Highest published version*  
-  Highest published version of workflow.
+  Highest published version of the workflow.
 
-[comment]: <> (Need a better definition of "key"!)
+[comment]: <> (OLI: Was ist ein "Key"? Wie kann man es kurz beschreiben/definieren? Unterschied zu Name?)
 
 - ![Add](/Assets/Icons/Plus01.png "[Add]") (Add)  
 Click this button to create a workflow. The *Create new workflow* window is displayed. For detailed information, see [Create a workflow](#create-a-workflow).
@@ -60,6 +62,9 @@ Click this button to create a workflow. The *Create new workflow* window is disp
 
 The *Workflow versions* view displays a list of all available  versions of the selected workflow.
 
+- ![Back](/Assets/Icons/Back02.png "[Back]") (Back)  
+Click this button to close the *Workflow versions* view and return to the *Workflows* view.
+
 - *VIEW*  
 Click the drop-down list to select the view. All created views are displayed in the drop-down list. Click the ![Points](/Assets/Icons/Points01.png "[Points]") (Points) button to the right of the *VIEW* drop-down list to display the context menu and create a view. For detailed information, see [Create a view](#create-a-view).
 
@@ -72,10 +77,12 @@ Click the drop-down list to select the view. All created views are displayed in 
 [comment]: <> (Oli: View context menu - im Moment nur Create Option. Edit und andere Optionen geplant?)
 
   - ![Search](/Assets/Icons/Search.png "[Search]") (Search)  
-    Click this button to display the search bar and search for a workflow.
+    Click this button to display the search bar and search for a workflow version.
+
+  [comment]: <> (Oli: Dafür gedacht? Scheint nicht wirklich zu funktionieren)
 
   - ![Refresh](/Assets/Icons/Refresh01.png "[Refresh]") (Refresh)  
-    Click this button to update the list of workflows.
+    Click this button to update the list of workflow versions.
 
   - ![Columns](/Assets/Icons/Columns.png "[Columns]") Columns (x)  
     Click this button to display the columns bar and customize the displayed columns and the order of columns in the list. The x indicates the number of columns that are currently displayed in the list.
@@ -83,7 +90,7 @@ Click the drop-down list to select the view. All created views are displayed in 
   - ![Filter](/Assets/Icons/Filter.png "[Filter]") Filter (x)  
     Click this button to display the filter bar and customize the active filters. The x indicates the number of filters that are currently active.
 
-The workflows are displayed in a column view. Depending on the settings, the displayed columns may vary. All fields are read-only.
+The workflow versions are displayed in a column view. Depending on the settings, the displayed columns may vary. All fields are read-only.
 
 - *Version*  
   Version number of the workflow.
@@ -104,6 +111,8 @@ Click this button to publish or unpublish a workflow version. For detailed infor
 - [DELETE]  
 Click this button to delete the selected workflow version.  
 
+  > [Info] To prevent any problems, it is strongly recommended not to delete a workflow. For detailed information, see [Delete a workflow](ActindoWorkFlow/Operation/01_ManageWorkflows.md#delete-a-workflow).
+
 - [VIEW]  
 Click this button to view the selected workflow version.
 
@@ -111,7 +120,9 @@ Click this button to view the selected workflow version.
 
 
 - ![Add](/Assets/Icons/Plus01.png "[Add]") (Add)  
-Click this button to create a workflow. The *Create new workflow* window is displayed. For detailed information, see [Create a workflow](#create-a-workflow).
+Click this button to create a workflow version. For detailed information about creating a workflow version, see [Create a workflow](#create-a-workflow).
+
+[comment]: <> (Oli: Add button in Workflow versions funktioniert nicht. Bug oder kommt noch? Create new workflow Fenster nach klicken angezeigt? Anderes Fenster? Prozedur genauso wie Create worflow?)
 
 
 ## Workflow editor
@@ -120,10 +131,15 @@ Click this button to create a workflow. The *Create new workflow* window is disp
 
 ![Workflow editor](/Assets/Screenshots/ActindoWorkFlow/Workflows/WorkflowEditor.png "[Workflow editor]")
 
+- ![Back](/Assets/Icons/Back02.png "[Back]") (Back)  
+Click this button to close the workflow editor and return to the *Workflows* view.
+
+[comment]: <> (Oli: Back button, oben links, nachdem man eine Workflow version ausgewählt hat: Sollte es nicht zurück zu Workflows versions gehen?)
+
 - (Workflow name)
 
--  ![Points](/Assets/Icons/Points01.png "[Points]") (Points)  
-Click the ![Points](/Assets/Icons/Points01.png "[Points]") (Points) button to the right of the workflow name to display the context menu. The following menu entries are available:
+-  ![Points](/Assets/Icons/Points02.png "[Points]") (Points)  
+Click the ![Points](/Assets/Icons/Points02.png "[Points]") (Points) button to the right of the workflow name to display the context menu. The following menu entries are available:
 
     - *Rename*  
     Click this entry to rename the workflow.
@@ -132,23 +148,30 @@ Click the ![Points](/Assets/Icons/Points01.png "[Points]") (Points) button to th
 
     - *Save as*
 
-    - *Import JSON*
+    - *Import JSON*  
+    Click this entry to import data in JSON format. A new window is displayed.
 
-    - *Export JSON*
+    - *Export JSON*  
+    Click this entry to export data in JSON format. A new window is displayed.
 
-    - *Deploy*
+    - *Deploy*  
+    Click this button to publish a workflow version.
 
 
-  [comment]: <> (Context menu options not working yet. Oli: Bleiben alle Funktionen? Unterschied zwischen Deploy and Publish?)
+  [comment]: <> (Oli: Context menu options not working yet, except for Import/Export JSON. Beim klicken wird eine Datei in einer neuen Fenster  angezeigt. Bleiben alle Funktionen? JSON Fenster beschrieben? Kann der User da was einstellen? Unterschied zwischen Deploy und Publish?)
 
-- ![Undo](/Assets/Icons/Undo02.png "[Undo]") (Undo)
+- ![Undo](/Assets/Icons/Undo02.png "[Undo]") (Undo)  
+  Click this button to undo any changes made.
 
-- ![Redo](/Assets/Icons/Redo.png "[Redo]") (Redo)
+- ![Redo](/Assets/Icons/Redo.png "[Redo]") (Redo)  
+  Click this button to redo any undone changes.
 
 - ![Comment](/Assets/Icons/Comment.png "[Comment]") (Comment)
 
+[comment]: <> (OLI: "Comment" button? Was macht es?)
+
 - [NEW ACTION]  
-  Click this button to add a new action. For detailed information, see [Create an action](ActindoWorkFlow/Operation/01_ManageWorkflows.md#create-an-action). A window to search for an action is displayed.
+  Click this button to add a new action. A window to search for an action is displayed, see [Search for an action](#search-for-an-action). For detailed information about creating a new action, see [Create an action](ActindoWorkFlow/Operation/01_ManageWorkflows.md#create-an-action).
 
 
 ## Create view
@@ -174,7 +197,7 @@ Click this button to save the new view. The *Create view* window is closed. The 
 ![New workflow](/Assets/Screenshots/ActindoWorkFlow/Workflows/NewWorkflow.png "[New workflow]")
 
 
-## Search for an action window
+## Search for an action
 
 *Workflows > Workflows > Tab OVERVIEW > Select workflow > Select version > Button NEW ACTION*
 
