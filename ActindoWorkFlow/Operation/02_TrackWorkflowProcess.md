@@ -79,7 +79,6 @@ Further details about the process actions included in the diagram as well as abo
 2. Click the *Status* drop-down list and select the **All** option.    
   All actions, regardless of their status, are displayed.
 
-  > [Info] By default, the *Actions* tab lists all actions contained in the selected process.
 
 [comment]: <> (OLI: wenn eine Action/Token in einem Prozess ausgewählt werden, wird es als Filtereinstellung übernommen. Diese Filtereinstellung bleibt erhalten, auch man zu einem anderen Prozess wechlselt, daher sieht man nicht alle Actions, auch wenn auf "All" klickt. Bug oder erwartetes Verhalten?)
 
@@ -111,7 +110,7 @@ The selected action is displayed in the *Actions* tab.
 
 [comment]: <> (Oli: Is it possible to configure it somehow, i.e. Tries, Maximal retries after error and Defer until?)
 
-6. If an error is displayed, a troubleshooting procedure can be performed. For detailed information, see [Troubleshooting](ActindoWorkFlow/Troubleshooting/00_Troubleshooting.md).
+> [Info] If an error is displayed, the procedure can be retried, see [Retry a process](/ActindoWorkFlow/Troubleshooting/to_be_determined).
 
   > [Info] The *Token* tab displays detailed information about the tokens being processed in the actions. For detailed information about tokens, see [Check the token status and content](#check-the-token-status-and-content).
 
@@ -142,7 +141,7 @@ A process is started with one token at the start point, which will be input in a
 ### Prerequisites
 
 - A workflow is created, see [Create a workflow](01_ManageWorkflows.md#create-a-workflow).
-- A workflow process has been initiated, see [Link](#to-be-determined).
+- A workflow process has been initiated.
 
 ### Procedure
 
@@ -151,9 +150,10 @@ A process is started with one token at the start point, which will be input in a
 ![Workflow](/Assets/Screenshots/ActindoWorkFlow/Workflows/Tokens.png "[Workflow]")
 
 1. Click the *Tokens* tab.  
-If the *Hide processed* toggle is active, only the tokens currently waiting to be further processed are displayed.
+The *Tokens* tab with a list of all tokens within the selected process is displayed.
+> [Info] If the *Hide processed* toggle is active, only the tokens currently waiting to be further processed are displayed.
 
-2. Deselect the *Hide processed* toggle, if active.  
+2. Disable the *Hide processed* toggle.  
  All tokens, including the ones that have already been processed, are displayed.
 
 3. Check the places displayed in the diagram.  
@@ -162,7 +162,7 @@ The places are green if a token has been input (token status is processed or bei
  > [Info] A place can contain a black square displaying a number. This number specifies the number of tokens waiting to be processed at that place. Besides, a number is also displayed next to the status of each action. This number refers to the number of tokens processed in this action, and it depends on the action status and the number of tokens received. For further information, see [Workflow elements](ActindoWorkFlow/UserInterface/01_WorkflowElements.md#tokens).
 
 4. Select a place in the diagram.  
-Depending on its status and the toggle settings, the token input in the selected place is displayed in the *Tokens* tab.
+Depending on its status, the token input in the selected place is displayed in the *Tokens* tab.
 
 5. Check the token status in the *Status* column.  
 The following statuses are available:
