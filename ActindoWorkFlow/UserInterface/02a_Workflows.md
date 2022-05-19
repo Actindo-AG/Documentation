@@ -50,7 +50,8 @@ The created workflows are displayed in a column view. Depending on the settings,
 [comment]: <> (OLI: Was ist ein "Key"? Wie kann man es kurz beschreiben/definieren? Unterschied zu Name?)
 
 - ![Add](/Assets/Icons/Plus01.png "[Add]") (Add)  
-Click this button to create a workflow. The *Create new workflow* window is displayed. For detailed information, see [Create a workflow](#create-a-workflow).
+Click this button to create a workflow. The *New Workflow* window is displayed, see [New Workflow](#new-workflow). For detailed information, see [Create a workflow](#create-a-workflow).
+
 
 
 ## Workflow versions
@@ -120,9 +121,10 @@ Click this button to view the selected workflow version.
 
 
 - ![Add](/Assets/Icons/Plus01.png "[Add]") (Add)  
-Click this button to create a workflow version. For detailed information about creating a workflow version, see [Create a workflow](#create-a-workflow).
+Click this button to create a workflow version. For detailed information about creating a workflow version, see [Create a workflow version](#to-be-completed).
 
-[comment]: <> (Oli: Add button in Workflow versions funktioniert nicht. Bug oder kommt noch? Create new workflow Fenster nach klicken angezeigt? Anderes Fenster? Prozedur genauso wie Create worflow?)
+[comment]: <> (Oli: Add button in Workflow versions funktioniert nicht. Bug, kommt noch oder so gemeint? New workflow Fenster nach klicken angezeigt? Anderes Fenster? Prozedur genauso wie Create worflow? Vgl. Workflow anklicken > Version anklicken > Änderungen in workflow editor > Points button > Deploy -> Neue "published" Version erstellt?)
+
 
 
 ## Workflow editor
@@ -171,7 +173,11 @@ Click the ![Points](/Assets/Icons/Points02.png "[Points]") (Points) button to th
 [comment]: <> (OLI: "Comment" button? Was macht es?)
 
 - [NEW ACTION]  
-  Click this button to add a new action. A window to search for an action is displayed, see [Search for an action](#search-for-an-action). For detailed information about creating a new action, see [Create an action](ActindoWorkFlow/Operation/01_ManageWorkflows.md#create-an-action).
+  Click this button to add a new action. A window to search for an action is displayed, see [Search for an action](#search-for-an-action). For detailed information about creating an action, see [Create an action](ActindoWorkFlow/Operation/01_ManageWorkflows.md#create-an-action).
+
+
+The workflow diagram is displayed in the workflow editor. For detailed information about the workflow elements, see [Workflow elements](01_WorkflowElements.md).
+
 
 
 ## Create view
@@ -180,7 +186,8 @@ Click the ![Points](/Assets/Icons/Points02.png "[Points]") (Points) button to th
 
 ![Create view](/Assets/Screenshots/ActindoWorkFlow/Workflows/CreateView.png "[Create view]")
 
-- *Name*
+
+- *Name*  
 Enter a name for the view.
 
 - [CANCEL]  
@@ -190,11 +197,42 @@ Click this button to cancel creating a view. The *Create view* window is closed.
 Click this button to save the new view. The *Create view* window is closed. The view is saved and displayed in the *View* drop-down list.
 
 
-## Create a workflow
+
+## New Workflow
 
 *Workflows > Workflows > Tab OVERVIEW > Button Add*
 
 ![New workflow](/Assets/Screenshots/ActindoWorkFlow/Workflows/NewWorkflow.png "[New workflow]")
+
+
+- *Select a name for your new workflow*  
+Click this field to enter a name for the new workflow.
+
+- *Select a unique key for your new workflow*  
+Click this field to enter a key for the workflow.
+
+- *Choose the data type of your start place*  
+Click this field (search bar) to enter the name of the start place or a keyword to search for.
+
+  > [Info] The list of places is filtered for your keyword as you type.
+
+- ![Delete](/Assets/Icons/Cross02.png "[Delete]") (Delete)  
+  Click this button to delete the keyword and clear the search bar.
+
+- *Choose the data type of your end place*  
+Click this field (search bar) to enter the name of the end place or a keyword to search for.
+
+  > [Info] The list of places is filtered for your keyword as you type.
+
+- ![Delete](/Assets/Icons/Cross02.png "[Delete]") (Delete)  
+    Click this button to delete the keyword and clear the search bar.
+
+- [CANCEL]  
+Click this button to cancel creating a new workflow. The *New Workflow* window is closed.
+
+- [CREATE]  
+Click this button to create a new workflow. The workflow editor with the defined start and end places is displayed.
+
 
 
 ## Search for an action
@@ -202,3 +240,14 @@ Click this button to save the new view. The *Create view* window is closed. The 
 *Workflows > Workflows > Tab OVERVIEW > Select workflow > Select version > Button NEW ACTION*
 
 ![Search for an action](/Assets/Screenshots/ActindoWorkFlow/Workflows/SearchAction.png "[Search for an action]")
+
+The *Search for an action* window displays a list of all compatible actions for the selected place.
+
+
+- *Search for an action* (Search bar)
+Click this field (search bar) to enter the name of the action or a keyword to search for.
+
+  > [Info] The list of actions is filtered for your keyword as you type.
+
+- ![Delete](/Assets/Icons/Cross02.png "[Delete]") (Delete)  
+Click this button to delete the keyword and clear the search bar.
