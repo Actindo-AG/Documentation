@@ -82,8 +82,7 @@ Further details about the process actions included in the diagram as well as abo
 
 [comment]: <> (OLI: wenn eine Action/Token in einem Prozess ausgewählt werden, wird es als Filtereinstellung übernommen. Diese Filtereinstellung bleibt erhalten, auch man zu einem anderen Prozess wechlselt, daher sieht man nicht alle Actions, auch wenn auf "All" klickt. Bug oder erwartetes Verhalten?)
 
-3. Check the actions displayed in the diagram.  
-The workflow process diagram displays the actions in different colours depending on their current status:
+3. Check the actions displayed in the diagram. The workflow process diagram displays the actions in different colours depending on their current status:
 
   - Active (blue)
   - Done (green)
@@ -164,8 +163,7 @@ The places are green if a token has been input (token status is processed or bei
 4. Select a place in the diagram.  
 Depending on its status, the token input in the selected place is displayed in the *Tokens* tab.
 
-5. Check the token status in the *Status* column.  
-The following statuses are available:
+5. Check the token status in the *Status* column. The following statuses are available:
 
   - Processed (green)
   - Being processed (blue)
