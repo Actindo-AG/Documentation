@@ -89,7 +89,7 @@ No prerequisites to fulfill.
 
 ### See also
 
-[Workflow element](/ActindoWorkFlow/UserInterface/01_WorkflowElements.md)
+[Workflow elements](/ActindoWorkFlow/UserInterface/01_WorkflowElements.md)
 
 
 
@@ -237,7 +237,7 @@ A new place connected to the selected output port is displayed.
 ### See also
 
 - [Create a workflow](#create-a-workflow)
-- [Workflow element](/ActindoWorkFlow/UserInterface/01_WorkflowElements.md)
+- [Workflow elements](/ActindoWorkFlow/UserInterface/01_WorkflowElements.md)
 
 
 
@@ -264,7 +264,7 @@ Workflows > Workflows > Tab OVERVIEW > Select checkbox > Button [VERÖFFENTLICHU
 
 - [Create a workflow](#create-a-workflow)
 - [Edit a workflow](#edit-a-workflow)
-- [Workflow element](/ActindoWorkFlow/UserInterface/01_WorkflowElements.md)
+- [Workflow elements](/ActindoWorkFlow/UserInterface/01_WorkflowElements.md)
 
 
 
@@ -292,7 +292,7 @@ Workflows > Workflows > Tab OVERVIEW > Select checkbox > Button [VERÖFFENTLICHU
 - [Publish a workflow](#publish-a-workflow)
 - [Create a workflow](#create-a-workflow)
 - [Edit a workflow](#edit-a-workflow)
-- [Workflow element](/ActindoWorkFlow/UserInterface/01_WorkflowElements.md)
+- [Workflow elements](/ActindoWorkFlow/UserInterface/01_WorkflowElements.md)
 
 
 
@@ -329,4 +329,4 @@ The workflow is deleted.
 - [Publish a workflow](#publish-a-workflow)
 - [Create a workflow](#create-a-workflow)
 - [Edit a workflow](#edit-a-workflow)
-- [Workflow element](/ActindoWorkFlow/UserInterface/01_WorkflowElements.md)
+- [Workflow elements](/ActindoWorkFlow/UserInterface/01_WorkflowElements.md)
