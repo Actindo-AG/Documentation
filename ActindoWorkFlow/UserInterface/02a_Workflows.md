@@ -31,7 +31,7 @@ Click the drop-down list to select the view. All created views are displayed in 
     - ![Save](/Assets/Icons/Save.png "[Save]") save  
     Click this entry to save the current view settings in the selected view. This menu entry is only displayed when a view is selected.
 
-     > [Info] When the settings of a view have been changed, an asterisk is displayed behind the views name. The asterisk is hidden as soon as the changes have been saved.
+     > [Info] When the settings of a view have been changed, an asterisk is displayed behind the view name. The asterisk is hidden as soon as the changes have been saved.
 
     - ![Delete](/Assets/Icons/Trash01.png "[Delete]") delete  
     Click this entry to delete the selected view. A confirmation window to confirm the deletion is displayed. This menu entry is only displayed when a view is selected.
@@ -143,7 +143,7 @@ Click the drop-down list to select the view. All created views are displayed in 
     - ![Save](/Assets/Icons/Save.png "[Save]") save  
   Click this entry to save the current view settings in the selected view. This menu entry is only displayed when a view is selected.
 
-      > [Info] When the settings of a view have been changed, an asterisk is displayed behind the views name. The asterisk is hidden as soon as the changes have been saved.
+      > [Info] When the settings of a view have been changed, an asterisk is displayed behind the view name. The asterisk is hidden as soon as the changes have been saved.
 
     - ![Delete](/Assets/Icons/Trash01.png "[Delete]") delete  
   Click this entry to delete the selected view. A confirmation window to confirm the deletion is displayed. This menu entry is only displayed when a view is selected.
