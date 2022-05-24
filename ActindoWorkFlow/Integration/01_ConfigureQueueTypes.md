@@ -29,7 +29,9 @@ No prerequisites to fulfill.
 
 3. Enter the desired number of workers for the queue type in the *Number of workers* field.
 
-  > [Info] A worker is a job that is executing the action within a process. One worker can only execute one job at the same time. By assigning multiple workers to a queue type, this queue type may execute several jobs at the same time. Consequently, actions with a queue type with more workers are executed faster that actions with queue types with fewer workers. The total number of workers of all queue types depends on the number of booked vCores.
+  > [Info] A worker is a job that is executing the action within a process. One worker can only execute one job at the same time. By assigning multiple workers to a queue type, this queue type may execute several jobs at the same time. Consequently, actions with a queue type with more workers are executed faster that actions with queue types with fewer workers. The total number of workers of all queue types depends on the number of booked vCores.   
+  For one worker, 4 vCores are needed. Additionally, 10 % of the booked vCores, but at least 4 vCores are blocked for the daily business and cannot be used for workers. The number of vCores needed always refers to the total number of workers in all queue types. For example, for a queue type with 2 workers and a queue type of 4 workers, 28 vCores are needed:   
+
 
 4. Click the *Executing Prio* drop-down list and select the appropriate executing priority. The following options are available:
   - **Oldest executable action**: The oldest executable actions within all existing processes is executed first by the workers.
@@ -159,6 +161,8 @@ The editing toolbar is displayed above the queue types list.
 The queue type is deleted. The *QueueType has been deleted* pop-up window is displayed.
 
   ![Queue type deleted](/Assets/Screenshots/ActindoWorkFlow/QueueTypes/QueueTypeDeleted.png "[Queue type deleted]")
+
+  > [Info] The *Default* queue type cannot be deleted.
 
 ### Next steps
 
