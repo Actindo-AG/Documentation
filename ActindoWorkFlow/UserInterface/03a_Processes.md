@@ -412,6 +412,8 @@ The list displays all logs. Depending on the settings, the displayed columns may
   - *Workflow ID*    
   Workflow ID number.
 
+  - *Search String*
+  
   - *Created*  
   Date of creation.
 
