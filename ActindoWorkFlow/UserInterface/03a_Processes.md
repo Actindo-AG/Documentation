@@ -6,10 +6,9 @@
 
 ![Overview](/Assets/Screenshots/ActindoWorkFlow/Processes/Processes.png "[Overview]")
 
-The *Processes* view displays a list of all available processes. Click on a process for further details. The *Process ID* view is displayed.
 
 - *VIEW*  
-Click the drop-down list to select the view. All created views are displayed in the drop-down list. Click the ![Points](/Assets/Icons/Points01.png "[Points]") (Points) button to the right of the *VIEW* drop-down list to display the context menu and create a view. For detailed information, see [Create a view](#create-a-view).
+Click the drop-down list to select the view. All created views are displayed in the drop-down list. Click the ![Points](/Assets/Icons/Points01.png "[Points]") (Points) button to the right of the *VIEW* drop-down list to display the context menu and create a view. For detailed information, see [Create view](#create-view).
 
   - View context menu  
   Click the ![Points](/Assets/Icons/Points01.png "[Points]") (Points) button to the right of the *View* drop-down list to display the context menu. The following menu entries are available:
@@ -29,10 +28,10 @@ Click the drop-down list to select the view. All created views are displayed in 
     - ![Unpublish](/Assets/Icons/Unpublish.png "[Unpublish]") unpublish  
     Click this entry to unpublish the view. This menu entry is only displayed when a view is selected and published.
 
-    - ![Save](/Assets/Icons/Save.png "[Save]") create  
+    - ![Save](/Assets/Icons/Save.png "[Save]") save  
     Click this entry to save the current view settings in the selected view. This menu entry is only displayed when a view is selected.
 
-     > [Info] When the settings of a view have been changed, an asterisk is displayed behind the views name. The asterisk is hidden as soon as the changes have been saved.
+     > [Info] When the settings of a view have been changed, an asterisk is displayed behind the view name. The asterisk is hidden as soon as the changes have been saved.
 
     - ![Delete](/Assets/Icons/Trash01.png "[Delete]") delete  
     Click this entry to delete the selected view. A confirmation window to confirm the deletion is displayed. This menu entry is only displayed when a view is selected.
@@ -47,7 +46,7 @@ Click the drop-down list to select a process status. The following options are a
     - **Ready**  
     Select this option to display the processes that have just been initiated.
 
-    - **In progress**  
+    - **In Progress**  
     Select this option to display the processes that are currently active.
 
     - **Error**  
@@ -84,7 +83,7 @@ Click the drop-down list to display a specific workflow type. The workflows crea
     Click this button to display the filter bar and customize the active filters. The x indicates the number of filters that are currently active.
 
 
-The processes are displayed in a column view. Depending on the settings, the displayed columns may vary. All fields are read-only.
+The list displays all processes. Depending on the settings, the displayed columns may vary. All fields are read-only.
 
   - [x]  
   Select the checkbox to display the editing toolbar. If you click the checkbox in the header, all processes in the list are selected.
@@ -102,9 +101,13 @@ The processes are displayed in a column view. Depending on the settings, the dis
 
 [comment]: <> (Repeat or leave it out? Add colour code?)
 
-  - *Suspended actions*  
+  - *Suspended Actions*  
+
+  [comment]: <> (Oli fragen)
 
   - *Subject*  
+
+  [comment]: <> (Oli fragen)
 
   - *Workflow*  
   Name of the workflow.
@@ -115,10 +118,22 @@ The processes are displayed in a column view. Depending on the settings, the dis
   - *Priority*
 
   - *Created*  
-  Date of creation.
+  Date and time of creation.
 
   - *Last activity*  
-  Last time an activity has been registered in the process.
+  Last date and time an activity was registered in the process.
+
+  - *ID*  
+  Process ID.
+
+  - *Owning Module*  
+  Module where the process is integrated.
+
+  - *Created by*  
+  Name and user ID of the person who initiated the process.
+
+  - *Modified by*  
+  Name and user ID of the person who modified the process.
 
 
 
@@ -128,11 +143,33 @@ The processes are displayed in a column view. Depending on the settings, the dis
 
 ![Process ID](/Assets/Screenshots/ActindoWorkFlow/Processes/Actions.png "[Process ID]")
 
-The *Process ID* view displays a diagram of the selected process including all places and actions. Further details about the process actions included in the diagram as well as about the logs and tokens are displayed in separate tabs in the bottom part of the *Process ID* view. For detailed information, see [Actions](#actions), [Logs](#logs) and [Tokens](#tokens).
+- ![Back](/Assets/Icons/Back02.png "[Back]") (Back)  
+Click this button to close the *Process ID* view and return to the *Processes* view.
 
-[comment]: <> (Intro probably to be changed. Taken from 02_TrackWorfklowProcess.md)
+- *Process ID*  
+Process ID number.
 
-For detailed information about checking the process action status, see [Check the process action status](ActindoWorkFlow/Operation/02_TrackWorfklowProcess.md#check-process-action-status).
+- *Workflow*  
+Name of the workflow.
+
+- ![Settings](/Assets/Icons/Settings01.png "[Settings]") (Settings)  
+Click this button to display the editing options.
+
+- [SAVE]  
+Click this button to save any changes made.
+
+- [RESET]  
+Click this button to reset layout.
+
+[comment]: <> (Ist es möglich, hier was zu ändern? Check Wissentranfer!)
+
+- ![Cancel](/Assets/Icons/Cross02.png "[Cancel]") (Cancel)  
+Click this button to cancel editing and discard changes.
+
+
+[comment]: <> (The *Process ID* view displays a diagram of the selected process including all places and actions. Further details about the process actions included in the diagram as well as about the logs and tokens are displayed in separate tabs in the bottom part of the *Process ID* view. For detailed information, see...?)
+
+[comment]: <> (For detailed information about checking the process action status, see ...)
 
 
 ### Actions
@@ -144,7 +181,7 @@ For detailed information about checking the process action status, see [Check th
 > [Info] The *Actions* tab is selected by default when selecting a process.
 
 - *VIEW*  
-Click the drop-down list to select the view. All created views are displayed in the drop-down list. Click the ![Points](/Assets/Icons/Points01.png "[Points]") (Points) button to the right of the *VIEW* drop-down list to display the context menu and create a view. For detailed information, see [Create a view](#create-a-view).
+Click the drop-down list to select the view. All created views are displayed in the drop-down list. Click the ![Points](/Assets/Icons/Points01.png "[Points]") (Points) button to the right of the *VIEW* drop-down list to display the context menu and create a view. For detailed information, see [Create view](#create-view).
 
   - View context menu  
   Click the ![Points](/Assets/Icons/Points01.png "[Points]") (Points) button to the right of the *View* drop-down list to display the context menu. The following menu entries are available:
@@ -164,10 +201,10 @@ Click the drop-down list to select the view. All created views are displayed in 
     - ![Unpublish](/Assets/Icons/Unpublish.png "[Unpublish]") unpublish  
     Click this entry to unpublish the view. This menu entry is only displayed when a view is selected and published.
 
-    - ![Save](/Assets/Icons/Save.png "[Save]") create  
+    - ![Save](/Assets/Icons/Save.png "[Save]") save  
     Click this entry to save the current view settings in the selected view. This menu entry is only displayed when a view is selected.
 
-     > [Info] When the settings of a view have been changed, an asterisk is displayed behind the views name. The asterisk is hidden as soon as the changes have been saved.
+     > [Info] When the settings of a view have been changed, an asterisk is displayed behind the view name. The asterisk is hidden as soon as the changes have been saved.
 
     - ![Delete](/Assets/Icons/Trash01.png "[Delete]") delete  
     Click this entry to delete the selected view. A confirmation window to confirm the deletion is displayed. This menu entry is only displayed when a view is selected.
@@ -188,7 +225,7 @@ Click the drop-down list to select a process status. The following options are a
     - **Error**  
     Select this option to display the actions that have given an error.
 
-    - **Error, automatic retry**  
+    - **Error; automatic retry**  
     Select this option to display the actions that have given an error but are set for automatic retry.
 
     > [Info] This setting depends on the action and is usually preconfigured.
@@ -214,18 +251,18 @@ Click the drop-down list to select a process status. The following options are a
     Click this button to display the filter bar and customize the active filters. The x indicates the number of filters that are currently active.
 
 
-The actions are displayed in a column view. Depending on the settings, the displayed columns may vary. All fields are read-only.
+The list displays all actions. Depending on the settings, the displayed columns may vary. All fields are read-only.
 
   - [x]    
   Select the checkbox to display the editing toolbar. If you click the checkbox in the header, all actions in the list are selected.
 
   - *Status*  
-  Status of the process. The different process statuses are displayed in different colours. The following statuses are possible:
+  Status of the action. The different process statuses are displayed in different colours. The following statuses are possible:
 
     - *Active*  
     - *Done*  
     - *Error*  
-    - *Error, automatic retry*  
+    - *Error; automatic retry*  
     - *Suspended*  
     - *Process aborted*  
 
@@ -244,7 +281,7 @@ The actions are displayed in a column view. Depending on the settings, the displ
 
 [comment]: <> (Question pending for OLI)
 
-  - *Queue type*  
+  - *Queue Type*  
   The *Default* queue type is normally selected. For detailed information about configuring queue types, see [Configure the queue types](01_ConfigureQueueTypes.md).
 
   > [Info] A different queue type can be selected by editing an action, see [Edit an action](01_ManageWorkflows.md#edit-an-action).
@@ -262,6 +299,14 @@ The actions are displayed in a column view. Depending on the settings, the displ
 
 [comment]: <> (Editing tool bar - icons Pause/Stop?)
 
+  - *ID*  
+  Action ID number.
+
+  [comment]: <> (Oli fragen)
+
+  - *Transition ID*  
+  Transition ID number.
+
 
 ### Logs
 
@@ -269,11 +314,11 @@ The actions are displayed in a column view. Depending on the settings, the displ
 
 ![Logs](/Assets/Screenshots/ActindoWorkFlow/Processes/Logs.png "[Logs]")
 
-The *Logs* tab displays a list of all log messages produced in the course of the process. Click on a log message for further details. The *Process ID* view is displayed.
+[comment]: <> (The *Logs* tab displays a list of all log messages produced in the course of the process. Click on a log message for further details. The *Log ID* view is displayed.)
 
 
 - *VIEW*  
-Click the drop-down list to select the view. All created views are displayed in the drop-down list. Click the ![Points](/Assets/Icons/Points01.png "[Points]") (Points) button to the right of the *VIEW* drop-down list to display the context menu and create a view. For detailed information, see [Create a view](#create-a-view).
+Click the drop-down list to select the view. All created views are displayed in the drop-down list. Click the ![Points](/Assets/Icons/Points01.png "[Points]") (Points) button to the right of the *VIEW* drop-down list to display the context menu and create a view. For detailed information, see [Create view](#create-view).
 
   - View context menu  
   Click the ![Points](/Assets/Icons/Points01.png "[Points]") (Points) button to the right of the *View* drop-down list to display the context menu. The following menu entries are available:
@@ -293,10 +338,10 @@ Click the drop-down list to select the view. All created views are displayed in 
     - ![Unpublish](/Assets/Icons/Unpublish.png "[Unpublish]") unpublish  
     Click this entry to unpublish the view. This menu entry is only displayed when a view is selected and published.
 
-    - ![Save](/Assets/Icons/Save.png "[Save]") create  
+    - ![Save](/Assets/Icons/Save.png "[Save]") save  
     Click this entry to save the current view settings in the selected view. This menu entry is only displayed when a view is selected.
 
-     > [Info] When the settings of a view have been changed, an asterisk is displayed behind the views name. The asterisk is hidden as soon as the changes have been saved.
+     > [Info] When the settings of a view have been changed, an asterisk is displayed behind the view name. The asterisk is hidden as soon as the changes have been saved.
 
     - ![Delete](/Assets/Icons/Trash01.png "[Delete]") delete  
     Click this entry to delete the selected view. A confirmation window to confirm the deletion is displayed. This menu entry is only displayed when a view is selected.
@@ -339,10 +384,10 @@ Click this button to display the columns bar and customize the displayed columns
 Click this button to display the filter bar and customize the active filters. The x indicates the number of filters that are currently active.
 
 
-The actions are displayed in a column view. Depending on the settings, the displayed columns may vary. All fields are read-only.
+The list displays all logs. Depending on the settings, the displayed columns may vary. All fields are read-only.
 
   - [x]    
-  Select the checkbox to display the editing toolbar. If you click the checkbox in the header, all actions in the list are selected.
+  Select the checkbox to display the editing toolbar.
 
   - *Type*  
   Log level type. The different log level types are displayed in different colours. The following types are possible:
@@ -359,7 +404,7 @@ The actions are displayed in a column view. Depending on the settings, the displ
 [comment]: <> (Repeat here or leave it out? Add colour code?)
 
   - *Log Message*  
-  Brief description of the issue.
+  Description of the issue.
 
   - *Workflow*  
   Workflow which the log message refers to.
@@ -369,6 +414,25 @@ The actions are displayed in a column view. Depending on the settings, the displ
 
   - *Created*  
   Date of creation.
+
+  - *ID*  
+  Log ID number.
+
+  - *Process*  
+  Process specification.
+
+  - *Process ID*  
+  Process ID number.
+
+  - *Transition*  
+  Transition specification.
+
+  - *Transition ID*  
+  Transition ID number.
+
+  - *Created by*  
+  Name and user ID of person who created the process.
+
 
 
 ### Tokens
@@ -382,7 +446,7 @@ The actions are displayed in a column view. Depending on the settings, the displ
 Disable this toggle to display all tokens, including the ones that have already been processed.
 
 - *VIEW*  
-Click the drop-down list to select the view. All created views are displayed in the drop-down list. Click the ![Points](/Assets/Icons/Points01.png "[Points]") (Points) button to the right of the *VIEW* drop-down list to display the context menu and create a view. For detailed information, see [Create a view](#create-a-view).
+Click the drop-down list to select the view. All created views are displayed in the drop-down list. Click the ![Points](/Assets/Icons/Points01.png "[Points]") (Points) button to the right of the *VIEW* drop-down list to display the context menu and create a view. For detailed information, see [Create view](#create-view).
 
   - View context menu  
   Click the ![Points](/Assets/Icons/Points01.png "[Points]") (Points) button to the right of the *View* drop-down list to display the context menu. The following menu entries are available:
@@ -402,10 +466,10 @@ Click the drop-down list to select the view. All created views are displayed in 
     - ![Unpublish](/Assets/Icons/Unpublish.png "[Unpublish]") unpublish  
     Click this entry to unpublish the view. This menu entry is only displayed when a view is selected and published.
 
-    - ![Save](/Assets/Icons/Save.png "[Save]") create  
+    - ![Save](/Assets/Icons/Save.png "[Save]") save  
     Click this entry to save the current view settings in the selected view. This menu entry is only displayed when a view is selected.
 
-     > [Info] When the settings of a view have been changed, an asterisk is displayed behind the views name. The asterisk is hidden as soon as the changes have been saved.
+     > [Info] When the settings of a view have been changed, an asterisk is displayed behind the view name. The asterisk is hidden as soon as the changes have been saved.
 
     - ![Delete](/Assets/Icons/Trash01.png "[Delete]") delete  
     Click this entry to delete the selected view. A confirmation window to confirm the deletion is displayed. This menu entry is only displayed when a view is selected.
@@ -424,10 +488,10 @@ Click the drop-down list to select the view. All created views are displayed in 
     Click this button to display the filter bar and customize the active filters. The x indicates the number of filters that are currently active.
 
 
-The tokens are displayed in a column view. Depending on the settings, the displayed columns may vary. All fields are read-only.
+The list displays all tokens if the ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Hide processed* toggle is disabled. Depending on the settings, the displayed columns may vary. All fields are read-only.
 
   - *Status*  
-  Token status. The different statuses are displayed in different colours. The following types are possible:
+  Token status. The different statuses are displayed in different colours. The following statuses are possible:
 
     - *Ready*
     - *Processed*
@@ -445,6 +509,18 @@ The tokens are displayed in a column view. Depending on the settings, the displa
   - *Next possible action(s)*    
   Next compatible action(s) where the token can be input.
 
+  - *ID*  
+  Token ID.  
+
+  [comment]: <> (Oli fragen)
+
+  - *Place ID*  
+  Place ID number.
+
+  - *Process Action ID*
+
+  [comment]: <> (Oli fragen. Null wenn am end place?)
+
 
 
 ## Create view
@@ -452,7 +528,6 @@ The tokens are displayed in a column view. Depending on the settings, the displa
 *Workflows > Processes > Tab OVERVIEW > Button Points > Menu entry create*
 
 ![Create view](/Assets/Screenshots/ActindoWorkFlow/Workflows/CreateView.png "[Create view]")
-
 
 
 - *Name*  
@@ -483,8 +558,49 @@ Click this button to cancel renaming a view. The *Rename view* window is closed.
 Click this button to save the changes to the view name. The *Rename view* window is closed. The new name for the view is saved and displayed in the *View* drop-down list.
 
 
+
 ## Log ID
 
 *Workflows > Processes > Tab OVERVIEW > Select a process > Tab Logs > Select Log Message*
 
 ![Log ID](/Assets/Screenshots/ActindoWorkFlow/Processes/LogID.png "[Log ID]")
+
+- ![Back](/Assets/Icons/Back02.png "[Back]") (Back)  
+Click this button to close the *Log ID* view and return to the *Logs* tab.
+
+- *Log ID (x)*  
+Log ID number.
+
+- *Log Message*  
+A description of the issue is displayed in the text box. This box is read-only.  
+
+  > [Info] In case of an error, detailed information is provided (stack trace) for reporting and debugging purposes.
+
+[comment]: <> (Diesen Text kann man rauskopieren, um ein Ticket zu erstellen o.ä. Erwähnen? Nützlich für Kunden?)
+
+- *Log Level*  
+Description of log level. The following levels are available:
+
+  - *Debug*
+  - *Info*
+  - *Notice*
+  - *Warning*
+  - *Error*
+  - *Critical*
+  - *Alert*
+  - *Emergency*
+
+
+- *Created - by*  
+Date and time of creation, name and user ID of the person who created the process.
+
+[comment]: <> (Ich gehe davon aus, dass Log ist auomatisch vom System erstellt, daher "process creator", oder ist es "workflow creator"?)
+
+- *Workflow*  
+Workflow ID number and name.
+
+- *Process*  
+Process ID number and description.
+
+- *Transition*  
+Transition ID number and description.
