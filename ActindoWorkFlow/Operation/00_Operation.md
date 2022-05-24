@@ -8,7 +8,7 @@
   - [Delete a workflow](01_ManageWorkflows.md#delete-a-workflow)
 
 
-- [Track the workflow processes](02_TrackProcesses.md)
+- [Track a workflow process](02_TrackProcesses.md)
   - [Check the process status](02_TrackProcesses.md#check-the-process-status)
   - [Check the process action status](02_TrackProcesses.md#check-the-process-action-status)
   - [Check the token status and content](02_TrackProcesses.md#check-the-token-status-and-content)
