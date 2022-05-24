@@ -33,13 +33,13 @@ Click the drop-down list to select the view. All created views are displayed in 
 
 [comment]: <> (OLI: ADD FILTER button funktioniert noch nicht?)
 
-The created workflows are displayed in a column view. Depending on the settings, the displayed columns may vary. All fields are read-only.
+The list displays all workflows. Depending on the settings, the displayed columns may vary. All fields are read-only.
 
 - *Name*  
   Name of the workflow.
 
 - *Key*  
-  Key value given to the workflow.
+  Workflow key. The key is required for API access and must be system wide unique.
 
 - *Highest version*  
   Highest existing version of the workflow.
@@ -91,14 +91,14 @@ Click the drop-down list to select the view. All created views are displayed in 
   - ![Filter](/Assets/Icons/Filter.png "[Filter]") Filter (x)  
     Click this button to display the filter bar and customize the active filters. The x indicates the number of filters that are currently active.
 
-The workflow versions are displayed in a column view. Depending on the settings, the displayed columns may vary. All fields are read-only.
+The list displays all workflow versions of the selected workflow. Depending on the settings, the displayed columns may vary. All fields are read-only.
 
 - *Version*  
   Version number of the workflow.
 
 - *Published*  
-  - ![Check](/Assets/Icons/Check.png "[Check]") (Check) means that the workflow version is published.
-  - ![Check](/Assets/Icons/Cross02.png "[Cross]") (Cross) means that the workflow version is unpublished.
+  - ![Check](/Assets/Icons/Check.png "[Check]") (Checkmark): The workflow version is published.
+  - ![Cross](/Assets/Icons/Cross02.png "[Cross]") (Cross): The workflow version is unpublished.
 
 
 - [x]  
@@ -115,7 +115,7 @@ Click this button to delete the selected workflow version.
   > [Info] To prevent any problems, it is strongly recommended not to delete a workflow. For detailed information, see [Delete a workflow](ActindoWorkFlow/Operation/01_ManageWorkflows.md#delete-a-workflow).
 
 - [VIEW]  
-Click this button to view the selected workflow version.
+Click this button to display the selected workflow version.
 
 [comment]: <> (Oli: Button DELETE ist i.d.R. ein "Trash" Symbol. Button VIEW funktioniert nicht)
 
@@ -138,7 +138,6 @@ Click this button to close the workflow editor and return to the *Workflows* vie
 
 [comment]: <> (Oli: Back button, oben links, nachdem man eine Workflow version ausgewählt hat: Sollte es nicht zurück zu Workflows versions gehen?)
 
-- (Workflow name)
 
 -  ![Points](/Assets/Icons/Points02.png "[Points]") (Points)  
 Click the ![Points](/Assets/Icons/Points02.png "[Points]") (Points) button to the right of the workflow name to display the context menu. The following menu entries are available:
@@ -173,7 +172,7 @@ Click the ![Points](/Assets/Icons/Points02.png "[Points]") (Points) button to th
 [comment]: <> (OLI: "Comment" button? Was macht es?)
 
 - [NEW ACTION]  
-  Click this button to add a new action. A window to search for an action is displayed, see [Search for an action](#search-for-an-action). For detailed information about creating an action, see [Create an action](ActindoWorkFlow/Operation/01_ManageWorkflows.md#create-an-action).
+  Click this button to add a new action. The *Search for an action* window is displayed. For detailed information, see [search for an action](#search-for-an-action).
 
 
 The workflow diagram is displayed in the workflow editor. For detailed information about the workflow elements, see [Workflow elements](01_WorkflowElements.md).
@@ -206,26 +205,26 @@ Click this button to save the new view. The *Create view* window is closed. The 
 
 
 - *Select a name for your new workflow*  
-Click this field to enter a name for the new workflow.
+Enter a name for the new workflow.
 
 - *Select a unique key for your new workflow*  
-Click this field to enter a key for the workflow.
+Enter a key for the workflow.  The key is required for API access and must be system wide unique.
 
 - *Choose the data type of your start place*  
-Click this field (search bar) to enter the name of the start place or a keyword to search for.
+Enter the name of the start place or a keyword to search for and select the appropriate place in the list of places.
 
   > [Info] The list of places is filtered for your keyword as you type.
 
 - ![Delete](/Assets/Icons/Cross02.png "[Delete]") (Delete)  
-  Click this button to delete the keyword and clear the search bar.
+  Click this button to clear the search bar field for the start place.
 
 - *Choose the data type of your end place*  
-Click this field (search bar) to enter the name of the end place or a keyword to search for.
+Enter the name of the end place or a keyword to search for and select the appropriate place in the list of places.
 
   > [Info] The list of places is filtered for your keyword as you type.
 
 - ![Delete](/Assets/Icons/Cross02.png "[Delete]") (Delete)  
-    Click this button to delete the keyword and clear the search bar.
+    Click this button to clear the search bar field for the start place.
 
 - [CANCEL]  
 Click this button to cancel creating a new workflow. The *New Workflow* window is closed.
@@ -238,14 +237,14 @@ Click this button to create a new workflow. The workflow editor with the defined
 ## Search for an action
 
 *Workflows > Workflows > Tab OVERVIEW > Select workflow > Select version > Button NEW ACTION*
-
+*Workflows > Workflows > Tab OVERVIEW > Select workflow > Select version > Button Add next to a place* 
 ![Search for an action](/Assets/Screenshots/ActindoWorkFlow/Workflows/SearchAction.png "[Search for an action]")
 
 The *Search for an action* window displays a list of all compatible actions for the selected place.
 
 
 - *Search for an action* (Search bar)
-Click this field (search bar) to enter the name of the action or a keyword to search for.
+Click this field (search bar) to enter the name of the action or a keyword to search for. For detailed information about creating an action, see [Create an action](ActindoWorkFlow/Operation/01_ManageWorkflows.md#create-an-action).
 
   > [Info] The list of actions is filtered for your keyword as you type.
 
