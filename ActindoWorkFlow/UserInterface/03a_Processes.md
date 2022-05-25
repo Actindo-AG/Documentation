@@ -66,7 +66,7 @@ Click the drop-down list to select a process status. The following options are a
 
 
 - *Workflow*  
-Click the drop-down list to display a specific workflow type. The workflows created in the *Workflows* menu entry are listed here. For detailed information about creating a workflow, see [Create a workflow](ActindoWorkFlow/Operation/01_ManageWorkflows.md#create-a-workflow).
+Click the drop-down list to display a specific workflow type. The workflows created in the *Workflows* menu entry are listed here. For detailed information about creating a workflow, see [Create a workflow](/ActindoWorkFlow/Operation/01_ManageWorkflows.md#create-a-workflow).
 
 
 
