@@ -60,11 +60,14 @@ The list displays all workflows. Depending on the settings, the displayed column
 - *Key*  
   Workflow key. The key is required for API access and must be system wide unique.
 
-- *Highest version*  
+- *Highest Version*  
   Highest existing version of the workflow.
 
-- *Highest published version*  
+- *Highest Published Version*  
   Highest published version of the workflow.
+
+- *ID*  
+  Workflow ID.
 
 
 - ![Add](/Assets/Icons/Plus01.png "[Add]") (Add)  
@@ -174,6 +177,9 @@ The list displays all workflow versions of the selected workflow. Depending on t
   - ![Check](/Assets/Icons/Check.png "[Check]") (Checkmark): The workflow version is published.
   - ![Cross](/Assets/Icons/Cross02.png "[Cross]") (Cross): The workflow version is unpublished.
 
+- *ID*  
+  Workflow ID.
+
 
 - [x]  
 Select the checkbox to display the editing toolbar.
@@ -195,7 +201,7 @@ Click this button to display the selected workflow version.
 - ![Add](/Assets/Icons/Plus01.png "[Add]") (Add)  
 Click this button to create a workflow version. For detailed information about creating a workflow version, see [Create a workflow version](#to-be-completed).
 
-[comment]: <> (Oli: Add button in Workflow versions funktioniert nicht. Bug, kommt noch oder so gemeint? New workflow Fenster nach klicken angezeigt? Anderes Fenster? Prozedur genauso wie Create worflow? Vgl. Workflow anklicken > Version anklicken > Änderungen in workflow editor > Points button > Deploy -> Neue "published" Version erstellt?)
+[comment]: <> (Oli: Add button in Workflow versions funktioniert nicht. Bug, kommt noch oder so gemeint? Wie erstellt man eine neue Version eines Workflows? Prozedur genauso wie New worflow? Vgl. Workflow anklicken > Version anklicken > Änderungen in workflow editor > Points button > Deploy -> Neue "published" Version erstellt?)
 
 
 
@@ -217,9 +223,9 @@ Click the ![Points](/Assets/Icons/Points02.png "[Points]") (Points) button to th
     - *Rename*  
     Click this entry to rename the workflow.
 
-    - *Settings*
+    - *Settings*  
 
-    - *Save as*
+    - *Save as*  
 
     - *Import JSON*  
     Click this entry to import data in JSON format. A new window is displayed.
@@ -228,10 +234,10 @@ Click the ![Points](/Assets/Icons/Points02.png "[Points]") (Points) button to th
     Click this entry to export data in JSON format. A new window is displayed.
 
     - *Deploy*  
-    Click this button to publish a workflow version.
+    Click this entry to publish a workflow version.
 
 
-  [comment]: <> (Oli: Context menu options not working yet, except for Import/Export JSON. Beim klicken wird eine Datei in einer neuen Fenster  angezeigt. Bleiben alle Funktionen? JSON Fenster beschrieben? Kann der User da was einstellen? Unterschied zwischen Deploy und Publish?)
+  [comment]: <> (Oli: Context menu options not working yet, except for Import/Export JSON. Beim klicken wird eine Datei in einer neuen Fenster angezeigt. Bleiben alle Funktionen? JSON Fenster beschrieben? Kann der User da was einstellen? Unterschied zwischen Deploy und Publish?)
 
 - ![Undo](/Assets/Icons/Undo02.png "[Undo]") (Undo)  
   Click this button to undo any changes made.
@@ -244,7 +250,7 @@ Click the ![Points](/Assets/Icons/Points02.png "[Points]") (Points) button to th
 [comment]: <> (OLI: Button soll rausfliegen. Neues Screenshot!)
 
 - [NEW ACTION]  
-  Click this button to add a new action. The *Search for an action* window is displayed. For detailed information, see [search for an action](#search-for-an-action).
+  Click this button to add a new action. The *Search for an action* window is displayed. For detailed information, see [Search for an action](#search-for-an-action).
 
 
 
@@ -298,7 +304,7 @@ The *Search for an action* window displays a list of possible actions for the se
   > [Info] If clicking the [NEW ACTION] button, all existing actions are displayed. If clicking the ![Add](/Assets/Icons/Plus04.png "[Add]") (Add) button next to a place, only the compatible actions for that place are displayed, as specified in the information message below the search bar).
 
 
-- *Search for an action* (Search bar)
+- *Search for an action* (search bar)  
 Click this field (search bar) to enter the name of the action or a keyword to search for. For detailed information about creating an action, see [Create an action](ActindoWorkFlow/Operation/01_ManageWorkflows.md#create-an-action).
 
   > [Info] The list of actions is filtered for your keyword as you type.
