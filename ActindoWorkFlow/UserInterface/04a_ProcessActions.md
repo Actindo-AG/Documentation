@@ -61,7 +61,7 @@ Click the drop-down list to select a process status. The following options are a
     Select this option to display the actions that have been manually paused.
 
     - **Process aborted**  
-    Select this option to display the actions included in a process that has been manually stopped.
+    Select this option to display the actions included in a process that has been manually ended.
 
 
 
