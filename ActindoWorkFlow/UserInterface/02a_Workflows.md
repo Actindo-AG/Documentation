@@ -71,7 +71,7 @@ The list displays all workflows. Depending on the settings, the displayed column
 
 
 - ![Add](/Assets/Icons/Plus01.png "[Add]") (Add)  
-Click this button to create a workflow. The *New Workflow* window is displayed, see [New Workflow](#new-workflow). For detailed information, see [Create a workflow](ActindoWorkFlow/Operation/01_ManageWorkflows.md#create-a-workflow).
+Click this button to create a workflow. The *New Workflow* window is displayed, see [New Workflow](#new-workflow). For detailed information, see [Create a workflow](/ActindoWorkFlow/Operation/01_ManageWorkflows.md#create-a-workflow).
 
 
 
