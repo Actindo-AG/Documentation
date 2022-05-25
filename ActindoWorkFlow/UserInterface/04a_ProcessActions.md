@@ -80,6 +80,8 @@ Click the drop-down list to select a process status. The following options are a
 
 The list displays all process actions. Depending on the settings, the displayed columns may vary. All fields are read-only. When clicking a process action, the *Actions* tab of the corresponding process is displayed, see [Actions](03a_Processes.md#actions).
 
+[comment]: <> (Jetzt etwas verwirrt zu den Verweisen: Auf Actions oder auf Proces ID verweisen? Wenn ich hier an andere Datei verweise, könnte ich genauso machen mit Create view and Rename view, oder? Das gilt auch für 06a_Logs.md mit den Verweisen auf Create / Rename view und Log ID).
+
   - [x]    
   Select the checkbox to display the editing toolbar. If you click the checkbox in the header, all actions in the list are selected.
 
