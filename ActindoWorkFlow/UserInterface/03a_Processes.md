@@ -47,22 +47,22 @@ Click the drop-down list to select a process status. The following options are a
     Select this option to display the processes that have just been initiated.
 
     - **In Progress**  
-    Select this option to display the processes that are currently active.
+    Select this option to display the processes that are currently active (first action is already executed).
 
     - **Error**  
-    Select this option to display the processes that have given an error.
+    Select this option to display the processes that have given an error (a process action has given an error).
 
     - **Done**  
-    Select this option to display the processes that have been completely executed.  
+    Select this option to display the processes that have been completely executed (end place has been reached).  
 
     - **Dead**  
-    Select this option to display the processes that have automatically stopped due to a missing input.
+    Select this option to display the processes that have automatically stopped due to a missing input. A dead process cannot be retried. It can only be aborted, that is, manually ended, and reinitiated.
 
     - **Suspended**  
-    Select this option to display the processes that have been manually paused.
+    Select this option to display the processes that have been manually paused. The remaining process actions are temporarily stopped.
 
     - **Aborted**  
-    Select this option to display the processes that have been manually stopped.
+    Select this option to display the processes that have been manually ended. All process actions currently running are stopped and no longer executed.
 
 
 - *Workflow*  
@@ -88,6 +88,16 @@ The list displays all processes. Depending on the settings, the displayed column
   - [x]  
   Select the checkbox to display the editing toolbar. If you click the checkbox in the header, all processes in the list are selected.
 
+  Depending of the process status, the editing toolbar may display different buttons.
+
+    - ![Abort](/Assets/Icons/Stop.png "[Abort]") (Abort)  
+    Click this button to end the process. This button is displayed when the process status is *Error* or *In Progress*. When clicking this button, the process status changes to *Aborted*.
+    - ![Suspend](/Assets/Icons/Pause.png "[Suspend]") (Suspend)  
+    Click this button to suspend the process temporarily. This button is displayed when the process status is *In Progress*.  When clicking this button, the process status changes to *Suspended*.
+    - ![Start](/Assets/Icons/Play.png "[Start]") (Start)  
+    Click this button to resume the process. This button is displayed when the process status is *Suspended*. When clicking this button, process status changes again to *In Progress*.
+
+
   - *Status*  
   Status of the process. The different process statuses are displayed in different colours. The following statuses are possible:
 
@@ -102,12 +112,10 @@ The list displays all processes. Depending on the settings, the displayed column
 [comment]: <> (Repeat or leave it out? Add colour code?)
 
   - *Suspended Actions*  
-
-  [comment]: <> (Oli fragen)
+  If the process contains suspended actions, a ![Warning](/Assets/Icons/Warning.png "[Warning]") sign is displayed. Click the process to display the individual actions, see [Actions](#actions).
 
   - *Subject*  
-
-  [comment]: <> (Oli fragen)
+  Process description.
 
   - *Workflow*  
   Name of the workflow.
@@ -116,6 +124,8 @@ The list displays all processes. Depending on the settings, the displayed column
   Queue type configured in the workflow. For detailed information about configuring the queue types, see [Configure the queue types](ActindoWorkFlow/Integration/01_ConfigureQueueTypes.md).
 
   - *Priority*
+
+  [comment]: <> (Oli fragen)
 
   - *Created*  
   Date and time of creation.
@@ -234,7 +244,7 @@ Click the drop-down list to select a process status. The following options are a
     Select this option to display the actions that have been manually paused.
 
     - **Process aborted**  
-    Select this option to display the actions included in a process that has been manually stopped.
+    Select this option to display the actions included in a process that has been manually ended.
 
 
 
@@ -255,6 +265,18 @@ The list displays all actions. Depending on the settings, the displayed columns 
 
   - [x]    
   Select the checkbox to display the editing toolbar. If you click the checkbox in the header, all actions in the list are selected.
+
+  Depending of the process status, the editing toolbar may display different options.
+
+    - ![Retry](/Assets/Icons/Retry01.png "[Retry]") (Retry)  
+    Click this button to retry the action. This button is displayed when the action status is *Error*.
+    - ![Suspend](/Assets/Icons/Pause.png "[Suspend]") (Suspend)  
+    Click this button to suspend the action temporarily. This button is displayed when the action status is *In Progress*. When clicking this button, the action status changes to *Suspended*.
+    - ![Start](/Assets/Icons/Play.png "[Start]") (Start)  
+    Click this button to resume the action. This button is displayed when the action status is *In Progress*. When clicking this button, the action status changes again to *In Progress*. The warning sign in the *Suspended Actions* column of the *Processes* view is no longer displayed.
+    - [REMOVE DEFER TIME]  
+    Click this button to eliminate the defer time preconfigured in the action, if any. The action is then executed immediately. This button is displayed when the action status is *In Progress*.
+
 
   - *Status*  
   Status of the action. The different process statuses are displayed in different colours. The following statuses are possible:
@@ -287,17 +309,15 @@ The list displays all actions. Depending on the settings, the displayed columns 
   > [Info] A different queue type can be selected by editing an action, see [Edit an action](01_ManageWorkflows.md#edit-an-action).
 
   - *Defer until*  
-  Next point in time when the action is being tried.
+  Next point in time when the action is being tried.  
 
-  [comment]: <> (Configurable? Check Wissentranfer)
+  > [Info] This setting depends on the action and is not available in all actions.
 
   - *Created*  
   Date of creation.
 
   - *Modified*  
   Date of modification.
-
-[comment]: <> (Editing tool bar - icons Pause/Stop?)
 
   - *ID*  
   Action ID number.
@@ -314,7 +334,7 @@ The list displays all actions. Depending on the settings, the displayed columns 
 
 ![Logs](/Assets/Screenshots/ActindoWorkFlow/Processes/Logs.png "[Logs]")
 
-[comment]: <> (The *Logs* tab displays a list of all log messages produced in the course of the process. Click on a log message for further details. The *Log ID* view is displayed.)
+[comment]: <> (The *Logs* tab displays a list of all log messages produced in the course of a process. Logs refer to the execution of process actions. Click on a log message for further details. The *Log ID* view is displayed.)
 
 
 - *VIEW*  
@@ -355,13 +375,15 @@ Click the drop-down list to select a log level. The following options are availa
 
     - **Debug**
 
-    - **Info**
+    - **Info**  
+    Select this option to display all logs simply providing information.
 
     - **Notice**
 
     - **Warning**
 
-    - **Error**
+    - **Error**  
+    Select this option to display all logs specifying an error.
 
     - **Critical**
 
@@ -369,6 +391,7 @@ Click the drop-down list to select a log level. The following options are availa
 
     - **Emergency**
 
+[comment]: <> (Log status durchgehen?)
 
 
 - ![Search](/Assets/Icons/Search.png "[Search]") (Search)  
@@ -413,7 +436,9 @@ The list displays all logs. Depending on the settings, the displayed columns may
   Workflow ID number.
 
   - *Search String*
-  
+
+[comment]: <> (Oli fragen)
+
   - *Created*  
   Date of creation.
 
@@ -500,7 +525,7 @@ The list displays all tokens if the ![Toggle](/Assets/Icons/Toggle.png "[Toggle]
     - *Being processed*
     - *Error*
 
-[comment]: <> (Other? Check Wissentransfer? Repeat here or leave it out? Add colour code?)
+[comment]: <> (Tokens kann auch als "Ready", "Being processed", "Error" im Status vorkommen. So gemeint oder nur Processed/Unprocessed? Add colour code?)
 
   - *Place*  
   Place where the token has been input.
@@ -512,14 +537,15 @@ The list displays all tokens if the ![Toggle](/Assets/Icons/Toggle.png "[Toggle]
   Next compatible action(s) where the token can be input.
 
   - *ID*  
-  Token ID.  
+  Token ID number.  
 
   [comment]: <> (Oli fragen)
 
   - *Place ID*  
   Place ID number.
 
-  - *Process Action ID*
+  - *Process Action ID*  
+  Process action ID number.
 
   [comment]: <> (Oli fragen. Null wenn am end place?)
 
@@ -596,7 +622,7 @@ Description of log level. The following levels are available:
 - *Created - by*  
 Date and time of creation, name and user ID of the person who created the process.
 
-[comment]: <> (Ich gehe davon aus, dass Log ist auomatisch vom System erstellt, daher "process creator", oder ist es "workflow creator"?)
+[comment]: <> (Ich gehe davon aus, dass Log ist automatisch vom System erstellt, daher "process creator", oder ist es "workflow creator"?)
 
 - *Workflow*  
 Workflow ID number and name.
