@@ -45,13 +45,15 @@ Click the drop-down list to select a log level. The following options are availa
 
     - **Debug**
 
-    - **Info**
+    - **Info**  
+    Select this option to display all logs simply providing information.
 
     - **Notice**
 
     - **Warning**
 
-    - **Error**
+    - **Error**  
+    Select this option to display all logs specifying an error.
 
     - **Critical**
 
@@ -59,7 +61,7 @@ Click the drop-down list to select a log level. The following options are availa
 
     - **Emergency**
 
-
+[comment]: <> (Log status durchgehen?)
 
 - ![Search](/Assets/Icons/Search.png "[Search]") (Search)  
 Click this button to display the search bar and search for a workflow.
@@ -74,7 +76,7 @@ Click this button to display the columns bar and customize the displayed columns
 Click this button to display the filter bar and customize the active filters. The x indicates the number of filters that are currently active.
 
 
-The list displays all logs. Depending on the settings, the displayed columns may vary. All fields are read-only.
+The list displays all logs. Depending on the settings, the displayed columns may vary. All fields are read-only. When clicking a log, the *Log ID* view is displayed, see [Log ID](#Log-ID).
 
   - [x]    
   Select the checkbox to display the editing toolbar.
@@ -162,3 +164,51 @@ Click this button to cancel renaming a view. The *Rename view* window is closed.
 
 - [SAVE]  
 Click this button to save the changes to the view name. The *Rename view* window is closed. The new name for the view is saved and displayed in the *View* drop-down list.
+
+
+
+## Log ID
+
+*Workflows > Processes > Tab OVERVIEW > Select a process > Tab Logs > Select Log Message*
+
+![Log ID](/Assets/Screenshots/ActindoWorkFlow/Processes/LogID.png "[Log ID]")
+
+- ![Back](/Assets/Icons/Back02.png "[Back]") (Back)  
+Click this button to close the *Log ID* view and return to the *Logs* tab.
+
+- *Log ID (x)*  
+Log ID number.
+
+- *Log Message*  
+A description of the issue is displayed in the text box. This box is read-only.  
+
+  > [Info] In case of an error, detailed information is provided (stack trace) for reporting and debugging purposes.
+
+[comment]: <> (Diesen Text kann man rauskopieren, um ein Ticket zu erstellen o.ä. Erwähnen? Nützlich für Kunden?)
+
+- *Log Level*  
+Description of log level. The following levels are available:
+
+  - *Debug*
+  - *Info*
+  - *Notice*
+  - *Warning*
+  - *Error*
+  - *Critical*
+  - *Alert*
+  - *Emergency*
+
+
+- *Created - by*  
+Date and time of creation, name and user ID of the person who created the process.
+
+[comment]: <> (Ich gehe davon aus, dass Log ist automatisch vom System erstellt, daher "process creator", oder ist es "workflow creator"?)
+
+- *Workflow*  
+Workflow ID number and name.
+
+- *Process*  
+Process ID number and description.
+
+- *Transition*  
+Transition ID number and description.
