@@ -90,7 +90,7 @@ The list displays all processes. Depending on the settings, the displayed column
 
   Depending of the process status, the editing toolbar may display different buttons.
 
-    - ![Abort](/Assets/Icons/Stop.png "[Abort]") (Abort)  
+  - ![Abort](/Assets/Icons/Stop.png "[Abort]") (Abort)  
     Click this button to end the process. This button is displayed when the process status is *Error* or *In Progress*. When clicking this button, the process status changes to *Aborted*.
     - ![Suspend](/Assets/Icons/Pause.png "[Suspend]") (Suspend)  
     Click this button to suspend the process temporarily. This button is displayed when the process status is *In Progress*.  When clicking this button, the process status changes to *Suspended*.
