@@ -78,10 +78,22 @@ Click the drop-down list to select a process status. The following options are a
     Click this button to display the filter bar and customize the active filters. The x indicates the number of filters that are currently active.
 
 
-The list displays all process actions. Depending on the settings, the displayed columns may vary. All fields are read-only.
+The list displays all process actions. Depending on the settings, the displayed columns may vary. All fields are read-only. When clicking a process action, the *Actions* tab of the corresponding process is displayed, see [Actions](03a_Processes.md#actions).
 
   - [x]    
   Select the checkbox to display the editing toolbar. If you click the checkbox in the header, all actions in the list are selected.
+
+  Depending of the process status, the editing toolbar may display different options.
+
+    - ![Retry](/Assets/Icons/Retry01.png "[Retry]") (Retry)  
+    Click this button to retry the action. This button is displayed when the action status is *Error*.
+    - ![Suspend](/Assets/Icons/Pause.png "[Suspend]") (Suspend)  
+    Click this button to suspend the action temporarily. This button is displayed when the action status is *In Progress*. When clicking this button, the action status changes to *Suspended*.
+    - ![Start](/Assets/Icons/Play.png "[Start]") (Start)  
+    Click this button to resume the action. This button is displayed when the action status is *In Progress*. When clicking this button, the action status changes again to *In Progress*. The warning sign in the *Suspended Actions* column of the *Processes* view is no longer displayed.
+    - [REMOVE DEFER TIME]  
+    Click this button to eliminate the defer time preconfigured in the action, if any. The action is then executed immediately. This button is displayed when the action status is *In Progress*.
+
 
   - *Status*  
   Status of the action. The different process statuses are displayed in different colours. The following statuses are possible:
@@ -114,9 +126,9 @@ The list displays all process actions. Depending on the settings, the displayed 
   > [Info] A different queue type can be selected by editing an action, see [Edit an action](01_ManageWorkflows.md#edit-an-action).
 
   - *Defer until*  
-  Next point in time when the action is being tried.
+  Next point in time when the action is being tried.  
 
-  [comment]: <> (Configurable? Check Wissentranfer)
+  > [Info] This setting depends on the action and is not available in all actions.
 
   - *Created*  
   Date of creation.
