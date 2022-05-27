@@ -8,7 +8,7 @@
 **Queue Type List**
 
 - [KILL WORKER]   
-  Click this button to stop all workers in all processes that are currently executing a job.   
+  Click this button to stop all workers that are currently executing actions in all processes.   
   For detailed information, see [Kill all workers](/ActindoWorkFlow/Integration/01_ConfigureQueueTypes.md#kill-all-workers).
 
 - ![Refresh](/Assets/Icons/Refresh01.png "[Refresh]") (Refresh)   
@@ -25,7 +25,7 @@
   For detailed information, see [Delete a queue type](/ActindoWorkFlow/Integration/01_ConfigureQueueTypes.md#delete-a-queue-type).
 
 - [KILL WORKER OF THIS QUEUE TYPE]   
-  Click this button to stop all workers of the selected process that are currently executing a job.    
+  Click this button to stop all workers that are currently executing an action of the selected queue type.   
   For detailed information, see [Kill the workers of a single queue type](/ActindoWorkFlow/Integration/01_ConfigureQueueTypes.md#kill-the-workers-of-a-single-queue-type).
 
 The list displays all queue types. All fields are read-only. Depending on the settings, the displayed columns may vary. Click a queue type in the list to display the *Edit Queue Type* view.   
