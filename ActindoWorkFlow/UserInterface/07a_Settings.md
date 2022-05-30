@@ -1,6 +1,6 @@
 [!!Workflows](ActindoWorkFlow)
 
-# Overview
+# Settings
 *Workflows > Settings > Tab SETTINGS*
 
 ![Settings](/Assets/Screenshots/ActindoWorkFlow/Settings/Settings.png "[Settings]")

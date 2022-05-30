@@ -1,19 +1,23 @@
 [!!Workflows](ActindoWorkFlow)
 
-# Retry a single process action
+# Retry process action
 
-## Error Description
+You can retry one or several faulty process actions after you have fixed the cause of the error to continue the affected process(es).
+
+## Retry a single process action
+
+### Error Description
 
 A process action fails and the process action status *Error* is displayed.
 
 Follow the instructions below to restart the process action after you have fixed the cause of the error.
 
 
-## Prerequisites
+### Prerequisites
 
 The cause of the faulty process action is fixed.
 
-## Procedure
+### Procedure
 
 *Workflows > Processes > Tab OVERVIEW*
 
@@ -39,7 +43,7 @@ The process action is restarted. The status of the restarted process action chan
 
   ![Status change successful](/Assets/Screenshots/ActindoWorkFlow/Processes/StatusChangeSuccessful.png "[Status change successful]")
 
-## See also
+### See also
 
 - [User Interface Workflows](/ActindoWorkFlow/UserInterface/00_UserInterface.md)
 - [Retry multiple process actions](#retry-multiple-proces-actions)
@@ -48,20 +52,20 @@ The process action is restarted. The status of the restarted process action chan
 
 
 
-# Retry multiple process actions
+## Retry multiple process actions
 
-## Error Description
+### Error Description
 
 Multiple process actions fail and the process action status *Error* is displayed for these actions.
 
 Follow the instructions below to restart the process actions after you have fixed the cause of the error(s).
 
 
-## Prerequisites
+### Prerequisites
 
 The cause of the faulty process actions is fixed.
 
-## Procedure
+### Procedure
 
 *Workflows > Process Actions > Tab OVERVIEW*
 
@@ -82,7 +86,7 @@ All selected process actions are restarted. The status of the restarted process 
 
   ![Status change successful](/Assets/Screenshots/ActindoWorkFlow/Processes/StatusChangeSuccessful.png "[Status change successful]")
 
-## See also
+### See also
 
 - [User Interface Workflows](/ActindoWorkFlow/UserInterface/00_UserInterface.md)
 - [Retry a single process action](#retry-a-single-proces-action)
