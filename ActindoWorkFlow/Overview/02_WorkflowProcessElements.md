@@ -1,6 +1,6 @@
 [!!Workflows](ActindoWorkFlow)
 
-# Workflow elements
+# Workflow and process elements
 
 ![Workflow](/Assets/Screenshots/ActindoWorkFlow/Workflows/Workflow.png "[Workflow]")
 

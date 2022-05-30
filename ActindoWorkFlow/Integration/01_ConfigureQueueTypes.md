@@ -57,7 +57,7 @@ No prerequisites to fulfill.
 ### See also
 
 - [User Interface workflows](/ActindoWorkFlow/UserInterface/00_UserInterface.md)
-- [Workflow elements](/ActindoWorkFlow/UserInterface/01_WorkflowElements.md)
+- [Workflow and process elements](/ActindoWorkFlow/Overview/02_WorkflowProcessElements.md)
 - [Manage the workflows](/ActindoWorkFlow/Operation/01_ManageWorkflows.md)
 
 
@@ -144,7 +144,7 @@ At least one queue type is created, see [Create a queue type](#create-a-queue-ty
 
 - [User Interface workflows](/ActindoWorkFlow/UserInterface/00_UserInterface.md)
 - [Create a queue type](#create-a-queue-type)
-- [Workflow elements](/ActindoWorkFlow/UserInterface/01_WorkflowElements.md)
+- [Workflow and process elements](/ActindoWorkFlow/Overview/02_WorkflowProcessElements.md)
 - [Manage the workflows](/ActindoWorkFlow/Operation/01_ManageWorkflows.md)
 
 
@@ -184,7 +184,7 @@ The selected queue type is displayed in the list.
 - [User Interface workflows](/ActindoWorkFlow/UserInterface/00_UserInterface.md)
 - [Create a queue type](#create-a-queue-type)
 - [Edit a queue type](#edit-a-queue-type)
-- [Workflow elements](/ActindoWorkFlow/UserInterface/01_WorkflowElements.md)
+- [Workflow and process elements](/ActindoWorkFlow/Overview/02_WorkflowProcessElements.md)
 - [Manage the workflows](/ActindoWorkFlow/Operation/01_ManageWorkflows.md)
 
 
@@ -223,7 +223,7 @@ The queue type is deleted. The *QueueType has been deleted* pop-up window is dis
 - [Create a queue type](#create-a-queue-type)
 - [Edit a queue type](#edit-a-queue-type)
 - [Assign a queue type](#assign-a-queue-type)
-- [Workflow elements](/ActindoWorkFlow/UserInterface/01_WorkflowElements.md)
+- [Workflow and process elements](/ActindoWorkFlow/Overview/02_WorkflowProcessElements.md)
 - [Manage the workflows](/ActindoWorkFlow/Operation/01_ManageWorkflows.md)
 
 
@@ -270,7 +270,7 @@ The workers of the selected queue type are killed. The process actions of the se
 - [Create a queue type](#create-a-queue-type)
 - [Edit a queue type](#edit-a-queue-type)
 - [Assign a queue type](#assign-a-queue-type)
-- [Workflow elements](/ActindoWorkFlow/UserInterface/01_WorkflowElements.md)
+- [Workflow and process elements](/ActindoWorkFlow/Overview/02_WorkflowProcessElements.md)
 - [Manage the workflows](/ActindoWorkFlow/Operation/01_ManageWorkflows.md)
 
 
@@ -303,5 +303,5 @@ All workers are killed. The process actions will not continue until you restart 
 - [Edit a queue type](#edit-a-queue-type)
 - [Assign a queue type](#assign-a-queue-type)
 - [Kill the workers of a single queue type](#kill-the-workers-of-a-single-queue-type)
-- [Workflow elements](/ActindoWorkFlow/UserInterface/01_WorkflowElements.md)
+- [Workflow and process elements](/ActindoWorkFlow/Overview/02_WorkflowProcessElements.md)
 - [Manage the workflows](/ActindoWorkFlow/Operation/01_ManageWorkflows.md)

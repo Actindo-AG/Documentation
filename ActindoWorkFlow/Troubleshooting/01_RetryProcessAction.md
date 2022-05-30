@@ -48,7 +48,7 @@ The process action is restarted. The status of the restarted process action chan
 - [User Interface Workflows](/ActindoWorkFlow/UserInterface/00_UserInterface.md)
 - [Retry multiple process actions](#retry-multiple-proces-actions)
 - [Track a workflow process](/ActindoWorkFlow/Operation/02_TrackWorkflowProcess)
-- [Workflow elements](/ActindoWorkFlow/UserInterface/01_WorkflowElements.md)
+- [Workflow and process elements](/ActindoWorkFlow/Overview/02_WorkflowProcessElements.md)
 
 
 
@@ -91,7 +91,7 @@ All selected process actions are restarted. The status of the restarted process 
 - [User Interface Workflows](/ActindoWorkFlow/UserInterface/00_UserInterface.md)
 - [Retry a single process action](#retry-a-single-proces-action)
 - [Track a workflow process](/ActindoWorkFlow/Operation/02_TrackWorkflowProcess)
-- [Workflow elements](/ActindoWorkFlow/UserInterface/01_WorkflowElements.md)
+- [Workflow and process elements](/ActindoWorkFlow/Overview/02_WorkflowProcessElements.md)
 
 
 ## Was this chapter helpful?

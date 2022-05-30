@@ -4,7 +4,7 @@
 
 A process is an instance of a workflow. When an operation is performed, a data entity is generated, for example an invoice, which in turn initiates a workflow process. Therefore, for every single operation performed, an individual instance of the corresponding workflow, that is, a process, is initiated.
 
-A process has a start and an end point, as well as different stages (places and actions) which the initial data goes through in order to be processed. For a detailed description of the workflow elements, see [Workflow elements](/ActindoWorkFlow/UserInterface/01_WorkflowElements.md).
+A process has a start and an end point, as well as different stages (places and actions) which the initial data goes through in order to be processed. For a detailed description of the workflow elements, see [Workflow and process elements](/ActindoWorkFlow/Overview/02_WorkflowProcessElements.md).
 
 The workflow process can be tracked to check the status of a whole process or of individual actions, as well as the status and the content of a token.
 
@@ -48,7 +48,7 @@ For detailed information about tokens, see [Check the token status and content](
 
 - [Retry a single process action](/ActindoWorkFlow/Troubleshooting/02_RetryProcessAction.md#retry-a-single-process-action)
 - [Retry multiple process actions](/ActindoWorkFlow/Troubleshooting/02_RetryProcessAction.md#retry-multiple-process-actions)
-- [Workflow elements](/ActindoWorkFlow/UserInterface/01_WorkflowElements.md)
+- [Workflow and process elements](/ActindoWorkFlow/Overview/02_WorkflowProcessElements.md)
 - [Workflows](/ActindoWorkFlow/UserInterface/02a_Workflows.md)
 - [Processes](/ActindoWorkFlow/UserInterface/03a_Processes.md)
 - [Process actions](/ActindoWorkFlow/UserInterface/04a_ProcessActions.md)
@@ -130,7 +130,7 @@ The selected action is displayed in the *Actions* tab.
 
 - [Retry a single process action](/ActindoWorkFlow/Troubleshooting/02_RetryProcessAction.md#retry-a-single-process-action)
 - [Retry multiple process actions](/ActindoWorkFlow/Troubleshooting/02_RetryProcessAction.md#retry-multiple-process-actions)
-- [Workflow elements](/ActindoWorkFlow/UserInterface/01_WorkflowElements.md)
+- [Workflow and process elements](/ActindoWorkFlow/Overview/02_WorkflowProcessElements.md)
 - [Workflows](/ActindoWorkFlow/UserInterface/02a_Workflows.md)
 - [Processes](/ActindoWorkFlow/UserInterface/03a_Processes.md)
 - [Process actions](/ActindoWorkFlow/UserInterface/04a_ProcessActions.md)
@@ -199,7 +199,7 @@ The token input in the selected place, if any, is displayed in the *Tokens* tab.
 
 ### See also
 
-- [Workflow elements](/ActindoWorkFlow/UserInterface/01_WorkflowElements.md)
+- [Workflow and process elements](/ActindoWorkFlow/Overview/02_WorkflowProcessElements.md)
 - [Workflows](/ActindoWorkFlow/UserInterface/02a_Workflows.md)
 - [Processes](/ActindoWorkFlow/UserInterface/03a_Processes.md)
 - [Process actions](/ActindoWorkFlow/UserInterface/04a_ProcessActions.md)
