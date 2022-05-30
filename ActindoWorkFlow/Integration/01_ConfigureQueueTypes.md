@@ -50,10 +50,15 @@ No prerequisites to fulfill.
 ### Next steps
 
 - [Edit a queue type](#edit-a-queue-type)
+- [Assign a queue type](#assign-a-queue-type)
 - [Delete a queue type](#delete-a-queue-type)
-- [Kill a worker](#kill-a-worker)
+- [Kill workers](#kill-workers)
 
 ### See also
+
+- [User Interface workflows](/ActindoWorkFlow/UserInterface/00_UserInterface.md)
+- [Workflow elements](/ActindoWorkFlow/UserInterface/01_WorkflowElements.md)
+- [Manage the workflows](/ActindoWorkFlow/Operation/01_ManageWorkflows.md)
 
 
 
@@ -131,12 +136,56 @@ At least one queue type is created, see [Create a queue type](#create-a-queue-ty
 
 ### Next steps
 
+- [Assign a queue type](#assign-a-queue-type)
 - [Delete a queue type](#delete-a-queue-type)
-- [Kill a worker](#kill-a-worker)
+- [Kill workers](#kill-workers)
 
 ### See also
 
+- [User Interface workflows](/ActindoWorkFlow/UserInterface/00_UserInterface.md)
 - [Create a queue type](#create-a-queue-type)
+- [Workflow elements](/ActindoWorkFlow/UserInterface/01_WorkflowElements.md)
+- [Manage the workflows](/ActindoWorkFlow/Operation/01_ManageWorkflows.md)
+
+
+## Assign a queue type
+
+Assign a certain queue type to an action, for instance to prioritize a certain action to be executed faster.
+
+### Prerequisites
+
+At least one queue type is created, see [Create a queue type](#create-a-queue-type).
+
+### Procedure
+
+*Workflows > Workflows > Tab OVERVIEW > Select workflow > Select workflow version*
+
+![Workflow editor](/Assets/Screenshots/ActindoWorkFlow/Workflows/WorkflowEditor.png "[Workflow editor]")
+
+1. Select the action you want to assign a certain queue type to.      
+The action is highlighted and its settings are displayed in the settings side bar on the right.
+
+  ![Action](/Assets/Screenshots/ActindoWorkFlow/Workflows/Action.png "[Action]")
+
+2. Click the *Queue Type* drop-down list and select the desired queue type for the selected action. All available queue types are displayed in the list.     
+The selected queue type is displayed in the list.
+
+> [Info] The changes are automatically saved.
+
+[comment]:  <> (Is that right? Or do I have to click the deploy button to apply these changes?)
+
+### Next steps
+
+- [Delete a queue type](#delete-a-queue-type)
+- [Kill workers](#kill-workers)
+
+### See also
+
+- [User Interface workflows](/ActindoWorkFlow/UserInterface/00_UserInterface.md)
+- [Create a queue type](#create-a-queue-type)
+- [Edit a queue type](#edit-a-queue-type)
+- [Workflow elements](/ActindoWorkFlow/UserInterface/01_WorkflowElements.md)
+- [Manage the workflows](/ActindoWorkFlow/Operation/01_ManageWorkflows.md)
 
 
 
@@ -166,12 +215,17 @@ The queue type is deleted. The *QueueType has been deleted* pop-up window is dis
 
 ### Next steps
 
-- [Kill a worker](#kill-a-worker)
+- [Kill workers](#kill-workers)
 
 ### See also
 
+- [User Interface workflows](/ActindoWorkFlow/UserInterface/00_UserInterface.md)
 - [Create a queue type](#create-a-queue-type)
 - [Edit a queue type](#edit-a-queue-type)
+- [Assign a queue type](#assign-a-queue-type)
+- [Workflow elements](/ActindoWorkFlow/UserInterface/01_WorkflowElements.md)
+- [Manage the workflows](/ActindoWorkFlow/Operation/01_ManageWorkflows.md)
+
 
 
 
@@ -184,7 +238,7 @@ Sometimes it may be necessary to stop certain process actions. Therefore, you ha
 
 ### Kill the workers of a single queue type
 
-Kill the workers of a single queue types to stop only certain actions.
+Kill the workers of a single queue types to stop all running actions of a certain queue type.
 
 #### Prerequisites
 
@@ -206,19 +260,24 @@ The workers of the selected queue type are killed. The process actions of the se
 
   ![Worker shutdown](/Assets/Screenshots/ActindoWorkFlow/QueueTypes/WorkerShutdown.png "[Worker shutdown]")
 
+#### Next steps
+
+- [Kill all workers](#kill-all-workers)
 
 #### See also
 
+- [User Interface workflows](/ActindoWorkFlow/UserInterface/00_UserInterface.md)
 - [Create a queue type](#create-a-queue-type)
 - [Edit a queue type](#edit-a-queue-type)
-- [Delete a queue type](#delete-a-queue-type)
-- [Kill a worker](#kill-a-worker)
+- [Assign a queue type](#assign-a-queue-type)
+- [Workflow elements](/ActindoWorkFlow/UserInterface/01_WorkflowElements.md)
+- [Manage the workflows](/ActindoWorkFlow/Operation/01_ManageWorkflows.md)
 
 
 
 ### Kill all workers
 
-Kill all workers to stop all actions.
+Kill all workers to stop all currently running actions.
 
 #### Prerequisites
 
@@ -239,7 +298,10 @@ All workers are killed. The process actions will not continue until you restart 
 
 #### See also
 
+- [User Interface workflows](/ActindoWorkFlow/UserInterface/00_UserInterface.md)
 - [Create a queue type](#create-a-queue-type)
 - [Edit a queue type](#edit-a-queue-type)
-- [Delete a queue type](#delete-a-queue-type)
-- [Kill a worker](#kill-a-worker)
+- [Assign a queue type](#assign-a-queue-type)
+- [Kill the workers of a single queue type](#kill-the-workers-of-a-single-queue-type)
+- [Workflow elements](/ActindoWorkFlow/UserInterface/01_WorkflowElements.md)
+- [Manage the workflows](/ActindoWorkFlow/Operation/01_ManageWorkflows.md)
