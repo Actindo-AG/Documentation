@@ -3,10 +3,10 @@
 # Workflow elements
 
 ![Workflow](/Assets/Screenshots/ActindoWorkFlow/Workflows/Workflow.png "[Workflow]")
+The *Workflows* module allows customers to model their own processes to match their companies structure.
+Such a workflow consists of a number of fixed elements that are chained together, each of them having specific characteristics. These elements are used to design the workflow, which can be edited as necessary according to customer needs. For detailed information, see [Manage workflows](/ActindoWorkFlow/Operation/01_ManageWorkflows.md).
 
-A workflow is represented with a number of fixed elements, each of them having specific characteristics. These elements are used to design the workflow, which can be edited as necessary according to customer needs. For detailed information, see [Manage workflows](/ActindoWorkFlow/Operation/01_ManageWorkflows.md).
-
-A workflow runs from left to right, from a start point to an end point, which can be in turn linked to another workflow. A workflow must contain at least one action between the start and the end point, which are special types of places. The actions are linked through places with each other, connecting the corresponding actions input and output ports. All these elements are described more in detail below.
+A workflow runs from a fixed start point to a fixed end point, which can be in turn linked to another workflow. A workflow must contain at least one action between the start and the end point, which are special types of places. The actions are linked through places with each other, connecting the corresponding actions input and output ports. All these elements are described more in detail below.
 
 > [Info] The *Workflows* module is linked to different system modules and plugins, such as *Invoicing*, *Email*, *OmniChannels*, *Tasks*, among others. The actions available to create workflows depend on the modules installed in the system.
 

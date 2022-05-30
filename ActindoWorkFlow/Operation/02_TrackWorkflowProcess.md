@@ -2,7 +2,7 @@
 
 # Track the workflow process
 
-A process is an instance of a workflow. When a transaction is performed, a piece of data is generated, for example an invoice, which in turn initiates a workflow process. Therefore, for every single transaction performed, an individual instance of the corresponding workflow, that is, a process, is initiated.
+A process is an instance of a workflow. When an operation is performed, a data entity is generated, for example an invoice, which in turn initiates a workflow process. Therefore, for every single operation performed, an individual instance of the corresponding workflow, that is, a process, is initiated.
 
 A process has a start and an end point, as well as different stages (places and actions) which the initial data goes through in order to be processed. For a detailed description of the workflow elements, see [Workflow elements](/ActindoWorkFlow/UserInterface/01_WorkflowElements.md).
 
@@ -11,7 +11,7 @@ The workflow process can be tracked to check the status of a whole process or of
 
 ## Check the process status
 
-The process status can be checked to see how far a process has progressed, detect potential problems, and solve any problems that may occur as a result of a misconfiguration or any other external issues, so that the process can continue running.
+The process status can be checked to monitor how far a process has progressed, detect potential problems, and solve any problems that may occur as a result of a misconfiguration or any other external issues, so that the process can continue running.
 
 The *OVERVIEW* tab in the *Processes* menu entry displays a list of all processes that are currently being executed or have been executed in the system. Per default, all existing processes are displayed but can also be filtered according to different criteria.
 
@@ -30,12 +30,12 @@ The *OVERVIEW* tab in the *Processes* menu entry displays a list of all processe
 1. Click the *Status* drop-down list and select the **All** option.  
 All processes, regardless of their status, are displayed.
 
-2. Click the *Workflow* drop-down list and select the approriate workflow.  
+2. Click the *Workflow* drop-down list and select a desired workflow type.  
 All processes of the selected workflow are displayed.
 
-3. Check the status of the appropriate workflow process in the *Status* column of the processes list.
+3. Check the status of the desired process in the *Status* column of the processes list.
 
-> [Info] If desired, you can click the process to display the *Process ID* view with a diagram of the process including detailed information about the individual process actions and tokens.    
+4. If desired, click a process to display the *Process ID* view, which includes a diagram of the process and detailed information about the individual process actions and tokens.    
 For detailed information about individual process actions, see [Check the process action status](#check-the-process-action-status) .   
 For detailed information about tokens, see [Check the token status and content](#check-the-token-status-and-content).
 
@@ -46,17 +46,21 @@ For detailed information about tokens, see [Check the token status and content](
 
 ### See also
 
-- [Troubleshooting](#to-be-determined)
-
+- [Retry a single process action](/ActindoWorkFlow/Troubleshooting/02_RetryProcessAction.md#retry-a-single-process-action)
+- [Retry multiple process actions](/ActindoWorkFlow/Troubleshooting/02_RetryProcessAction.md#retry-multiple-process-actions)
+- [Workflow elements](/ActindoWorkFlow/UserInterface/01_WorkflowElements.md)
+- [Workflows](/ActindoWorkFlow/UserInterface/02a_Workflows.md)
+- [Processes](/ActindoWorkFlow/UserInterface/03a_Processes.md)
+- [Process actions](/ActindoWorkFlow/UserInterface/04a_ProcessActions.md)
 
 
 ## Check the process action status
 
-The process action status can be checked to prove which actions have already been executed, if problems have occurred and at what place.
+The process action status can be checked to monitor which actions have already been executed, if problems have occurred and at what place.
 
 The *Process ID* view displays a diagram of the selected process including all places and actions. If the process is currently active, the process execution can be observed in real time.
 
-Further details about the process actions included in the diagram as well as about the logs and tokens are displayed in separate tabs in the bottom part of the *Process ID* view.
+Further details about the process actions included in the diagram as well as about the logs and tokens are displayed in separate tabs at the bottom of the *Process ID* view.
 
 ### Prerequisites
 
@@ -69,12 +73,10 @@ Further details about the process actions included in the diagram as well as abo
 
 ![Process actions](/Assets/Screenshots/ActindoWorkFlow/Workflows/ProcessActions.png "[Process actions]")
 
-1. Click the *Actions* tab in the bottom part of the *Process ID* view.   
+1. Click the *Actions* tab at the bottom of the *Process ID* view.   
   The *Actions* tab is displayed.
 
   > [Info] By default, the *Actions* tab is preselected.
-
-  [comment]: <> (By default? Actions Reiter scheint standardmäßig ausgewählt zu sein, wenn man einen Prozess aus der Liste anklickt. Das heißt, erster Schritt etwas überflüssig)
 
 2. Click the *Status* drop-down list and select the **All** option.    
   All actions, regardless of their status, are displayed.
@@ -86,38 +88,39 @@ Further details about the process actions included in the diagram as well as abo
 
   - Active (blue)
   - Done (green)
-  - Waiting (white)
   - Error (red)
-  - Dead (black)
+  - Error; automatic retry (red?)
+  - Suspended (grey)
+  - Process aborted (black)
 
- [comment]: <> (Andere möglichen Status? Vgl. mit Status in Actions Reiter: Active, Done, Error, Error; automatic retry, Suspended, Process aborted. Farben stimmen oder ändern sich noch?)
-
- [comment]: <> (Oli: Statuses Error; automatic retry, Suspended and Process aborted. Wo stellt man "automatic retry" ein?)
+ [comment]: <> (Das sind die Status der Actions Drop-down-Liste. Wenn ein Action wartet, ist die Farbe in der Graphik weiß. Hinzufügen? Farben stimmen oder ändern sich noch?)
 
 4. Click the action to be checked in the diagram.  
 The selected action is displayed in the *Actions* tab.
 
-5. Check the action status in the *Status* column and any further relevant information about the action displayed in the following columns:
+5. Check the action status in the *Status* column. The following statuses can be displayed:  
 
-  - *Tries*: The number of times an action has been tried.
-  - *Maximal retries after error*: The number of times an action must be retried after error.
-  - *Queue type*: The *Default* queue type is normally selected. For detailed information about configuring queue types, see [Configure the queue types](#to-be-competed).
+    - *Active*  
+    - *Done*  
+    - *Error*  
+    - *Error; automatic retry*  
+    - *Suspended*  
+    - *Process aborted*
 
-    > [Info] A different queue type can be selected by editing an action, see [Edit an action](01_ManageWorkflows.md#edit-an-action).
 
-  - *Defer until*: The next point in time when the action is being tried.
+6.  Check the number of tries for the action in the *Tries* column.
 
-[comment]: <> (Oli: Is it possible to configure it somehow, i.e. Tries, Maximal retries after error and Defer until?)
+7. Check the number of times an action must be retried after error in the *Maximal retries after error* column.
 
-> [Info] If an error is displayed, the procedure can be retried, see [Retry a process](/ActindoWorkFlow/Troubleshooting/to_be_determined).
+8. Check the assigned queue type in the *Queue type* column.
 
-  > [Info] The *Token* tab displays detailed information about the tokens being processed in the actions. For detailed information about tokens, see [Check the token status and content](#check-the-token-status-and-content).
+  > [Info] The queue type is assigned to an action when editing a workflow, see [Edit an action](01_ManageWorkflows.md#edit-an-action).
 
-7. Check the *Logs* tab for further details on the error displayed.
+9.  Check the time when the action is being tried in the *Defer until* column.
 
-  > [Info] A list of all actions, regardless of the process they are part of, can be displayed in the *Process Actions* tab. They can be filtered according to their status and modified simultaneously, if necessary. By clicking a specific action in the process actions list, the corresponding process will be displayed.
+> [Info] A list of all actions, regardless of the process they are part of, can be displayed in the *Process Actions* tab. There they can be filtered according to their status and modified simultaneously, if necessary. By clicking a specific action in the process actions list, the corresponding *Process ID* view will be displayed. For detailed information, see [Process actions](ActindoWorkFlow/UserInterface/04a_ProcessActions.md).
 
-[comment]: <> (Oli: Logs tab auch nur in Troubleshooting oder in separatem Kapitel? Process actions wird zu einem ein Tab unter Processes, richtig?)
+[comment]: <> (Bezug zu Logs hier? Wenn man ein Action auswählt und dann auf Logs tab klickt, zeigt Logs tab alle Logs, nicht das Log, das sich auf die ausgewählte Action bezieht. Bug oder erwartetes Verhalten?)
 
 ### Next steps
 
@@ -125,17 +128,21 @@ The selected action is displayed in the *Actions* tab.
 
 ### See also
 
-- [Troubleshooting](#to-be-determined)
-
+- [Retry a single process action](/ActindoWorkFlow/Troubleshooting/02_RetryProcessAction.md#retry-a-single-process-action)
+- [Retry multiple process actions](/ActindoWorkFlow/Troubleshooting/02_RetryProcessAction.md#retry-multiple-process-actions)
+- [Workflow elements](/ActindoWorkFlow/UserInterface/01_WorkflowElements.md)
+- [Workflows](/ActindoWorkFlow/UserInterface/02a_Workflows.md)
+- [Processes](/ActindoWorkFlow/UserInterface/03a_Processes.md)
+- [Process actions](/ActindoWorkFlow/UserInterface/04a_ProcessActions.md)
 
 
 ## Check the token status and content
 
-The token status and content can be checked to see how data progress within a process and, if necessary, detect and solve any data type related issues.   
+The token status and content can be checked to monitor how data progress within a process and, if necessary, detect and solve any data type related issues.   
 
-The *Tokens* tab displays the tokens being processed. A token is a piece of data needed to complete an action, for example a document. When a transaction is performed, a token is generated, for instance an invoice, which in turn initiates the workflow process.
+The *Tokens* tab displays the tokens being processed. A token is a container carrying any data needed to complete an action, which could be a number or a document. When a operation is performed, a data entity is generated, for instance an invoice, which in turn initiates the workflow process.
 
-A process is started with one token at the start point, which will be input in an action to be executed. In turn, an action can output several tokens, which will become inputs for subsequent actions. It is therefore possible that a place contains several tokens, for example, several delivery notes issued for different parts of a same order. Each token will then be processed separately, that means, that the subsequent actions will be executed once for each token available.
+A process is started with a single token at the start point, which will be input in an action to be executed. In turn, an action can output several tokens, which will become inputs for subsequent actions. It is therefore possible that a place contains several tokens, for example, several delivery notes issued for different parts of a same order. Each token will then be processed separately, that means, that the subsequent actions will be executed once for each token available.
 
 ### Prerequisites
 
@@ -158,10 +165,10 @@ The *Tokens* tab with a list of all tokens within the selected process is displa
 3. Check the places displayed in the diagram.  
 The places are green if a token has been input (token status is processed or being processed). If no token has been input yet, the places are white.
 
- > [Info] A place can contain a black square displaying a number. This number specifies the number of tokens waiting to be processed at that place. Besides, a number is also displayed next to the status of each action. This number refers to the number of tokens processed in this action, and it depends on the action status and the number of tokens received. For further information, see [Workflow elements](ActindoWorkFlow/UserInterface/01_WorkflowElements.md#tokens).
+ > [Info] A place can contain a black square displaying a number. This number specifies the number of tokens waiting to be processed at that place.
 
 4. Select a place in the diagram.  
-Depending on its status, the token input in the selected place is displayed in the *Tokens* tab.
+The token input in the selected place, if any, is displayed in the *Tokens* tab. Otherwise, an information message is displayed.
 
 5. Check the token status in the *Status* column. The following statuses are available:
 
@@ -170,28 +177,29 @@ Depending on its status, the token input in the selected place is displayed in t
   - Ready (grey)
   - Error (red)
 
+[comment]: <> (Unsicher über Status hier, da wir in Wissentranfer über Processed/Unprocessed Token Status gesprochen haben, aber tatsächlich andere Status auch vorkommen können.)
 
-  [comment]: <> (Oli: Andere Status? Status korrekt? Farben bei Dead, Suspended, Aborted? Vgl. Status/Farben Places/Actions/Tokens -> ähnlich aber leicht unterschiedlich. Ist es möglich zu vereinheitlichen?)
+6. Check the place where the token has been input in the *Place* column.
 
-  Check any relevant information about the token displayed in the following columns:  
+7. Check the type of data contained in the token in the *Data* column.
 
-  - *Place*: The place where the token has been input.
-  - *Data*: The type of data contained in the token.
-  - *Next possible action(s)*: The next compatible action(s) where the token can be input.
+8. Check the next compatible action(s) where the token can be input in the *Next possible action(s)* column.
 
-[comment]: <> (OLI: Next possible action/s? Data - Token, sind die beiden Synonyme, wie kann man beide im Bezug zueinander besser beschreiben?)
+9. If necessary, click an action in the diagram to display further information in the *Actions* tab. For detailed information about checking action status, see [Check the process action status](#check-the-process-action-status).
 
-6. Click on an action in the diagram to display further information in the *Actions* tab. For detailed information about checking action status, see [Check the process action status](#check-the-process-action-status).
+> [Info] A number is also displayed next to the status of each action. This number refers to the number of tokens processed in this action, and it depends on the action status and the number of tokens received.
 
-7. Check the *Logs* tab for further details on any process action.
-
-[comment]: <> (OLI: Logs vielleicht auch nur in Troubleshooting oder in separatem Kapitel? Beziehen sich Logs auf Tokens auch oder nur auf Actions/Transitions?)
+[comment]: <> (Bezug zu Logs hier? Wenn man ein Action auswählt und dann auf Logs tab klickt, zeigt Logs tab alle Logs, nicht das Log, das sich auf die ausgewählte Action bezieht. Bug oder erwartetes Verhalten?)
 
 
 ### Next steps
 
-- [To be completed](#to-be-completed)
+- [Retry a single process action](/ActindoWorkFlow/Troubleshooting/02_RetryProcessAction.md#retry-a-single-process-action)
+- [Retry multiple process actions](/ActindoWorkFlow/Troubleshooting/02_RetryProcessAction.md#retry-multiple-process-actions)
 
 ### See also
 
-- [Troubleshooting](#to-be-determined)
+- [Workflow elements](/ActindoWorkFlow/UserInterface/01_WorkflowElements.md)
+- [Workflows](/ActindoWorkFlow/UserInterface/02a_Workflows.md)
+- [Processes](/ActindoWorkFlow/UserInterface/03a_Processes.md)
+- [Process actions](/ActindoWorkFlow/UserInterface/04a_ProcessActions.md)
