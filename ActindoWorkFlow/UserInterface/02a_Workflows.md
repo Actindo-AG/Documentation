@@ -1,12 +1,12 @@
 [!!Workflows](ActindoWorkFlow)
 
-# Workflows
+# Overview
 
 *Workflows > Workflows > Tab OVERVIEW*
 
 ![Overview](/Assets/Screenshots/ActindoWorkFlow/Workflows/Workflows.png "[Overview]")
 
-
+**Workflows**
 - *VIEW*  
 Click the drop-down list to select the view. All created views are displayed in the drop-down list. Click the ![Points](/Assets/Icons/Points01.png "[Points]") (Points) button to the right of the *VIEW* drop-down list to display the context menu and create a view. For detailed information, see [Create view](#create-view).
 
@@ -46,10 +46,10 @@ Click the drop-down list to select the view. All created views are displayed in 
     Click this button to update the list of workflows.
 
 - ![Columns](/Assets/Icons/Columns.png "[Columns]") Columns (x)  
-    Click this button to display the columns bar and customize the displayed columns and the order of columns in the list. The x indicates the number of columns that are currently displayed in the list.
+    Click this button to display the columns bar and customize the displayed columns and the order of columns in the list. The *x* indicates the number of columns that are currently displayed in the list.
 
 - ![Filter](/Assets/Icons/Filter.png "[Filter]") Filter (x)  
-    Click this button to display the filter bar and customize the active filters. The x indicates the number of filters that are currently active.
+    Click this button to display the filter bar and customize the active filters. The *x* indicates the number of filters that are currently active.
 
 
 The list displays all workflows. Depending on the settings, the displayed columns may vary. All fields are read-only.
@@ -67,7 +67,7 @@ The list displays all workflows. Depending on the settings, the displayed column
   Highest published version of the workflow.
 
 - *ID*  
-  Workflow ID.
+  Workflow identification number. The ID number is automatically assigned by the system when the workflow is created.
 
 
 - ![Add](/Assets/Icons/Plus01.png "[Add]") (Add)  
@@ -154,7 +154,7 @@ Click the drop-down list to select the view. All created views are displayed in 
 
 
 - ![Search](/Assets/Icons/Search.png "[Search]") (Search)  
-    Click this button to display the search bar and search for a workflow.
+    Click this button to display the search bar and search for a workflow version.
 
     > [Info] The search function can be used to search for a workflow name and key.
 
@@ -178,7 +178,7 @@ The list displays all workflow versions of the selected workflow. Depending on t
   - ![Cross](/Assets/Icons/Cross02.png "[Cross]") (Cross): The workflow version is unpublished.
 
 - *ID*  
-  Workflow ID.
+  Identification number of the workflow version. The ID number is automatically assigned by the system when the workflow version is created.
 
 
 - [x]  
@@ -188,14 +188,16 @@ Select the checkbox to display the editing toolbar.
 Click this button to publish or unpublish a workflow version. For detailed information, see [Publish a workflow](/ActindoWorkFlow/Operation/01_ManageWorkflows.md#publish-a-workflow) and [Unpublish a workflow](/ActindoWorkFlow/Operation/01_ManageWorkflows.md#unpublish-a-workflow).
 
 - [DELETE]  
-Click this button to delete the selected workflow version.  
+Click this button to delete the selected workflow version.  Only workflows that have never been published can be deleted.
+
+[comment]: <> (Oli: jede workflow version wird automatisch veröffentlicht, wenn ich sie deploye -> wie soll es dann möglich sein, überhaupt einen workflow zu löschen?)
 
   > [Info] To prevent any problems, it is strongly recommended not to delete a workflow. For detailed information, see [Delete a workflow](ActindoWorkFlow/Operation/01_ManageWorkflows.md#delete-a-workflow).
 
 - [VIEW]  
 Click this button to display the selected workflow version.
 
-[comment]: <> (Oli: Button DELETE ist i.d.R. ein "Trash" Symbol. Button VIEW funktioniert nicht)
+[comment]: <> (Oli: Button VIEW funktioniert nicht)
 
 
 - ![Add](/Assets/Icons/Plus01.png "[Add]") (Add)  
@@ -212,7 +214,7 @@ Click this button to create a workflow version. For detailed information about c
 ![Workflow editor](/Assets/Screenshots/ActindoWorkFlow/Workflows/WorkflowEditor.png "[Workflow editor]")
 
 - ![Back](/Assets/Icons/Back02.png "[Back]") (Back)  
-Click this button to close the workflow editor and return to the *Workflows* view.
+Click this button to close the workflow editor and return to the list of workflows.
 
 [comment]: <> (Oli: Back button, oben links, nachdem man eine Workflow version ausgewählt hat: Sollte es nicht zurück zu Workflows versions gehen?)
 
@@ -240,10 +242,12 @@ Click the ![Points](/Assets/Icons/Points02.png "[Points]") (Points) button to th
   [comment]: <> (Oli: Context menu options not working yet, except for Import/Export JSON. Beim klicken wird eine Datei in einer neuen Fenster angezeigt. Bleiben alle Funktionen? JSON Fenster beschrieben? Kann der User da was einstellen? Unterschied zwischen Deploy und Publish?)
 
 - ![Undo](/Assets/Icons/Undo02.png "[Undo]") (Undo)  
-  Click this button to undo any changes made.
+  Click this button to undo the last change made.
+  
+  [comment]: <> (Oli: Ist es ein Bug, dass der Button immer anklickbar ist?)
 
 - ![Redo](/Assets/Icons/Redo.png "[Redo]") (Redo)  
-  Click this button to redo any undone changes.
+  Click this button to redo the last undone change.
 
 - ![Comment](/Assets/Icons/Comment.png "[Comment]") (Comment)
 
@@ -292,20 +296,18 @@ Click this button to save the changes to the view name. The *Rename view* window
 ## Search for an action
 
 *Workflows > Workflows > Tab OVERVIEW > Select workflow > Select version > Button NEW ACTION*
+*Workflows > Workflows > Tab OVERVIEW > Select workflow > Select version > Button Add next to a place*^
 
 ![Search for an action](/Assets/Screenshots/ActindoWorkFlow/Workflows/SearchAction02.png "[Search for an action]")
 
-*Workflows > Workflows > Tab OVERVIEW > Select workflow > Select version > Button Add next to a place*
-
-![Search for an action](/Assets/Screenshots/ActindoWorkFlow/Workflows/SearchAction.png "[Search for an action]")
-
 The *Search for an action* window displays a list of possible actions for the selected place.
 
-  > [Info] If clicking the [NEW ACTION] button, all existing actions are displayed. If clicking the ![Add](/Assets/Icons/Plus04.png "[Add]") (Add) button next to a place, only the compatible actions for that place are displayed, as specified in the information message below the search bar).
+  > [Info] If clicking the [NEW ACTION] button, all existing actions are displayed. If clicking the ![Add](/Assets/Icons/Plus04.png "[Add]") (Add) button next to a place, only the compatible actions for that place are displayed, as specified in the information message of the *Search for an action* window below the search bar).
 
 
 - *Search for an action* (search bar)  
-Click this field (search bar) to enter the name of the action or a keyword to search for. For detailed information about creating an action, see [Create an action](ActindoWorkFlow/Operation/01_ManageWorkflows.md#create-an-action).
+Click this field (search bar) to enter the name of the action or a keyword to search for.  Select an action in the list of actions to add the selected action to the workflow.
+For detailed information about creating an action, see [Create an action](ActindoWorkFlow/Operation/01_ManageWorkflows.md#create-an-action).
 
   > [Info] The list of actions is filtered for your keyword as you type.
 
