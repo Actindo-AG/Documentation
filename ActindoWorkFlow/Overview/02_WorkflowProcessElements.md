@@ -90,7 +90,7 @@ The action settings side bar is located to the right of the workspace and allows
   > [Info] Most actions are preconfigured and do not include configuration options. In this case, the *Configuration* section is not displayed.
 
   - *Static inputs*  
-  All unlinked inputs are listed in this section. Static inputs can be used to configure static values for certain inputs. They can be defined by the user clicking the ![Add](/Assets/Icons/Plus01.png "[Add]") (Add) button. Only valid JSON values are accepted. When edited, static inputs display a small arc without a place in front of them in the workflow diagram.
+  All unlinked inputs are listed in this section. Static inputs can be used to configure static values for certain inputs. They can be defined by the user clicking the ![Add](/Assets/Icons/Plus01.png "[Add]") (Add) button. Only valid JSON values are accepted. When used, static inputs are displayed by a small arrow in front of the input ports in the workflow diagram. This section is only displayed, if the selected action has at least one unlinked input port.
 
   > [Info] Normally, all tokens for the action execution are taken from the places connected to its input ports. However, static values can be configured for certain inputs. This way, if an action has configured a static input on one or more of its input ports, it will behave as if there was a place connected to that input port that always contains one token (containing whatever value is statically configured). Nevertheless, it is still necessary to have at least one "actual" place with an "actual" token in order to make that action executable.
 
