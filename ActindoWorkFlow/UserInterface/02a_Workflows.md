@@ -42,6 +42,8 @@ Click the drop-down list to select the view. All created views are displayed in 
 
     > [Info] The search function can be used to search for a workflow name and key.
 
+
+
 - ![Refresh](/Assets/Icons/Refresh01.png "[Refresh]") (Refresh)  
     Click this button to update the list of workflows.
 
@@ -112,15 +114,15 @@ Click this button to create a new workflow. The workflow editor with the defined
 
 
 
-## Workflow versions
+## Workflow Versions
 
 *Workflows > Workflows > Tab OVERVIEW > Select workflow*
 
-![Workflow versions](/Assets/Screenshots/ActindoWorkFlow/Workflows/WorkflowVersions.png "[Workflow versions]")
+![Workflow Versions](/Assets/Screenshots/ActindoWorkFlow/Workflows/WorkflowVersions.png "[Workflow Versions]")
 
 
 - ![Back](/Assets/Icons/Back02.png "[Back]") (Back)  
-Click this button to close the *Workflow versions* view and return to the *Workflows* view.
+Click this button to close the *Workflow Versions* view and return to the *Workflows* view.
 
 - *VIEW*  
 Click the drop-down list to select the view. All created views are displayed in the drop-down list. Click the ![Points](/Assets/Icons/Points01.png "[Points]") (Points) button to the right of the *VIEW* drop-down list to display the context menu and create a view. For detailed information, see [Create view](#create-view).
@@ -154,9 +156,9 @@ Click the drop-down list to select the view. All created views are displayed in 
 
 
 - ![Search](/Assets/Icons/Search.png "[Search]") (Search)  
-    Click this button to display the search bar and search for a workflow version.
+  Click this button to display the search bar and search for a workflow version.
 
-    > [Info] The search function can be used to search for a workflow name and key.
+  [comment]: <> (Oli: wozu ist die Suchfunktion hier gedacht? Wonach kann man hier suchen?)
 
 - ![Refresh](/Assets/Icons/Refresh01.png "[Refresh]") (Refresh)  
     Click this button to update the list of workflow versions.
@@ -207,6 +209,42 @@ Click this button to create a workflow version. For detailed information about c
 
 
 
+## Create view
+
+*Workflows > Workflows > Tab OVERVIEW > Button Points > Menu entry create*
+
+![Create view](/Assets/Screenshots/ActindoWorkFlow/Workflows/CreateView.png "[Create view]")
+
+
+- *Name*  
+Enter a name for the view.
+
+- [CANCEL]  
+Click this button to cancel creating a view. The *Create view* window is closed.
+
+- [SAVE]  
+Click this button to save the new view. The *Create view* window is closed. The view is saved and displayed in the *View* drop-down list.
+
+
+
+## Rename view
+
+*Workflows > Processes > Tab OVERVIEW > Button Points > Menu entry rename*
+
+![Rename view](/Assets/Screenshots/ActindoWorkFlow/Workflows/RenameView.png "[Rename view]")
+
+
+- *Name*  
+Click the field to edit the view name.
+
+- [CANCEL]  
+Click this button to cancel renaming a view. The *Rename view* window is closed.
+
+- [SAVE]  
+Click this button to save the changes to the view name. The *Rename view* window is closed. The new name for the view is saved and displayed in the *View* drop-down list.
+
+
+
 ## Workflow editor
 
 *Workflows > Workflows > Tab OVERVIEW > Select workflow > Select version*
@@ -243,7 +281,7 @@ Click the ![Points](/Assets/Icons/Points02.png "[Points]") (Points) button to th
 
 - ![Undo](/Assets/Icons/Undo02.png "[Undo]") (Undo)  
   Click this button to undo the last change made.
-  
+
   [comment]: <> (Oli: Ist es ein Bug, dass der Button immer anklickbar ist?)
 
 - ![Redo](/Assets/Icons/Redo.png "[Redo]") (Redo)  
@@ -251,52 +289,96 @@ Click the ![Points](/Assets/Icons/Points02.png "[Points]") (Points) button to th
 
 - ![Comment](/Assets/Icons/Comment.png "[Comment]") (Comment)
 
-[comment]: <> (OLI: Button soll rausfliegen. Neues Screenshot!)
+[comment]: <> (Button soll rausfliegen. Neues Screenshot!)
 
 - [NEW ACTION]  
   Click this button to add a new action. The *Search for an action* window is displayed. For detailed information, see [Search for an action](#search-for-an-action).
 
 
+ The workflow diagram includes the following elements:  
 
-## Create view
+- Place  
+  Intermediate stage in the workflow, represented by a circle, usually provided with incoming and/or outcoming arcs. It serves as link between two actions.
 
-*Workflows > Workflows > Tab OVERVIEW > Button Points > Menu entry create*
+  When clicking a place, it becomes highlighted and the corresponding element settings are displayed in the settings side bar.
 
-![Create view](/Assets/Screenshots/ActindoWorkFlow/Workflows/CreateView.png "[Create view]")
+  ![Settings side bar](/Assets/Screenshots/ActindoWorkFlow/Workflows/SettingsSideBar01.png "[Settings side bar]")
 
+  - *Key*  
+  Place key. This field is read-only. The key is required for API access and must be system wide unique.
 
-- *Name*  
-Enter a name for the view.
+  - *Data container*  
+  Use this field to define the data type to be used in the place. If necessary, click the ![Delete](/Assets/Icons/Cross02.png "[Delete]") (Delete) button to display the whole list of available data types. Enter a search text for the desired data type. The list of actions is filtered for your search text as you type. Select the ![Radio button](/Assets/Icons/Radiobutton.png "[Radio button]") (Radio button) corresponding to the appropriate option.
 
-- [CANCEL]  
-Click this button to cancel creating a view. The *Create view* window is closed.
-
-- [SAVE]  
-Click this button to save the new view. The *Create view* window is closed. The view is saved and displayed in the *View* drop-down list.
-
-
-## Rename view
-
-*Workflows > Processes > Tab OVERVIEW > Button Points > Menu entry rename*
-
-![Rename view](/Assets/Screenshots/ActindoWorkFlow/Workflows/RenameView.png "[Rename view]")
+    For detailed information, see [Places](/ActindoWorkFlow/Overview/02_WorkflowProcessElements.md#places).
 
 
-- *Name*  
-Click the field to edit the view name.
+  - Start/end place  
+  Special types of places at the beginning and at the end of a workflow. Every workflow starts with a single place and ends with a single place.
 
-- [CANCEL]  
-Click this button to cancel renaming a view. The *Rename view* window is closed.
+  When clicking the start/end place, it becomes highlighted and the corresponding element settings are displayed in the settings side bar.
 
-- [SAVE]  
-Click this button to save the changes to the view name. The *Rename view* window is closed. The new name for the view is saved and displayed in the *View* drop-down list.
+  ![Start and end place](/Assets/Screenshots/ActindoWorkFlow/Workflows/StartPlace.png "[Start and end place]")
 
+    - *Key*  
+    Place key. This field is read-only. The key is required for API access and must be system wide unique.
+
+    - *Data container*  
+    Use this field to define the data type to be used in the place. If necessary, click the ![Delete](/Assets/Icons/Cross02.png "[Delete]") (Delete) button to display the whole list of available data types. Enter a search text for the desired data type. The list of actions is filtered for your search text as you type. Select the ![Radio button](/Assets/Icons/Radiobutton.png "[Radio button]") (Radio button) corresponding to the appropriate option.
+
+    For detailed information, see [Start and end place](/ActindoWorkFlow/Overview/02_WorkflowProcessElements.md#start-and-end-place).
+
+
+- Action  
+  Individual activities being executed in the workflow, represented by a rectangle. All actions contain a certain, predefined number of input and output ports, represented by a small square to the link and the right of the action.
+
+  When clicking an action, it becomes highlighted and the corresponding element settings are displayed in the settings side bar.
+
+  ![Settings side bar](/Assets/Screenshots/ActindoWorkFlow/Workflows/SettingsSideBar02.png "[Settings side bar]")
+
+  The action settings side bar is located to the right of the workspace and allows to define the action settings. The following fields are displayed:
+
+  - *Key*  
+   Action key. This field is read-only. The key is required for API access and must be system wide unique.
+
+  - *Label*  
+  Action label defined by the user. It can be used to specify or simplify the action name. When editing the action label, it is changed both at the top of the settings side bar and in the action rectangle in the diagram.
+
+  - *Queue type*  
+  Click the drop-down list to select the applicable queue type. For detailed information about queue types, see [Configure the queue types](/ActindoWorkFlow/Integration/01_ConfigureQueueTypes.md).
+
+  - *Task event*  
+  Click the drop-down list and select the applicable task event. All available task events are displayed. This option is linked to the *Tasks* module. The drop-down list is only displayed if the *Tasks* module is installed and the user has the necessary rights.
+
+    > [Info] The *ActindoWorkflow Process Execution Failed* task is preconfigured by default. A list of all existing task events is displayed in the *Events* menu entry of the *Tasks* module.
+
+  - *Configuration*  
+  Depending on the action, there might be configuration options, for instance, defining an email where a receipt or document must be sent. Editing the action configuration may require basic programming knowledge.
+
+    > [Info] Most actions are preconfigured and do not include configuration options. In this case, the *Configuration* section is not displayed.
+
+  - *Static inputs*  
+  All unlinked inputs are listed in this section. Static inputs can be used to configure static values for certain inputs. They can be defined by the user clicking the ![Add](/Assets/Icons/Plus01.png "[Add]") (Add) button. Only valid JSON values are accepted. When used, static inputs are displayed by a small arrow in front of the input ports in the workflow diagram. This section is only displayed, if the selected action has at least one unlinked input port.
+
+  For detailed information, see [Actions](/ActindoWorkFlow/Overview/02_WorkflowProcessElements.md#actions).
+
+
+- Input/output port  
+Represented by a small square positioned to the left (input) and to the right (output) of the action, they are defined with a descriptive name, such as origin, data or destination. They can be mandatory or optional. If optional, an ![Add](/Assets/Icons/Plus01.png "[Add]") (Add) button is displayed next to them.
+
+  For detailed information, see [Input and output ports](/ActindoWorkFlow/Overview/02_WorkflowProcessElements.md#input-and-output-ports).
+
+
+- Arc  
+The arcs are the links connecting a place with the input and output port(s) of an action to model the flow of information. The arcs are represented by arrows. Arcs connecting a place to an input port are called *incoming arcs*, arc connecting an output port to a place are called *outcoming arcs*.
+
+  For detailed information, see [Arcs](/ActindoWorkFlow/Overview/02_WorkflowProcessElements.md#arcs).
 
 
 ## Search for an action
 
 *Workflows > Workflows > Tab OVERVIEW > Select workflow > Select version > Button NEW ACTION*
-*Workflows > Workflows > Tab OVERVIEW > Select workflow > Select version > Button Add next to a place*^
+*Workflows > Workflows > Tab OVERVIEW > Select workflow > Select version > Button Add next to a place*
 
 ![Search for an action](/Assets/Screenshots/ActindoWorkFlow/Workflows/SearchAction02.png "[Search for an action]")
 
