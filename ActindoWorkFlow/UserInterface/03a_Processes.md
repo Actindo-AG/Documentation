@@ -598,8 +598,6 @@ Click this button to save the changes to the view name. The *Rename view* window
 - ![Back](/Assets/Icons/Back02.png "[Back]") (Back)  
 Click this button to close the *Log ID* view and return to the *Logs* tab in the *Process ID* view.
 
-- *Log ID (x)*  
-Log ID number.
 
 **Log Message**
 
