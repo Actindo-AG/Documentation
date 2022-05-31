@@ -88,7 +88,7 @@ The list displays all processes. Depending on the settings, the displayed column
   - [x]  
   Select the checkbox to display the editing toolbar. If you click the checkbox in the header, all processes in the list are selected.
 
-  Depending of the process status, the editing toolbar may display different buttons.
+  Depending on the process status, the editing toolbar displays the following buttons:
 
   - ![Abort](/Assets/Icons/Stop.png "[Abort]") (Abort)  
     Click this button to end the process. This button is displayed when the process status is *Error* or *In Progress*. When clicking this button, the process status changes to *Aborted*.
@@ -118,7 +118,7 @@ The list displays all processes. Depending on the settings, the displayed column
   Process description.
 
   - *Workflow*  
-  Name of the workflow.
+  Name of the corresponding workflow.
 
   - *Queue Type*  
   Queue type configured in the workflow. For detailed information about configuring the queue types, see [Configure the queue types](ActindoWorkFlow/Integration/01_ConfigureQueueTypes.md).
@@ -134,7 +134,7 @@ The list displays all processes. Depending on the settings, the displayed column
   Last date and time an activity was registered in the process.
 
   - *ID*  
-  Process ID.
+  Process identification number. The ID number is automatically assigned by the system.
 
   - *Owning Module*  
   Module where the process is integrated.
