@@ -140,10 +140,10 @@ The list displays all processes. Depending on the settings, the displayed column
   Module where the process is integrated.
 
   - *Created by*  
-  Name and user ID of the person who initiated the process.
+  Name and user name of the user who initiated the process.
 
   - *Modified by*  
-  Name and user ID of the person who modified the process.
+  Name and user name of the user who who modified the process.
 
 
 
@@ -152,12 +152,12 @@ The list displays all processes. Depending on the settings, the displayed column
 *Workflows > Processes > Tab OVERVIEW > Select a process*
 
 ![Process ID](/Assets/Screenshots/ActindoWorkFlow/Processes/Actions.png "[Process ID]")
-
+**Process ID**
 - ![Back](/Assets/Icons/Back02.png "[Back]") (Back)  
-Click this button to close the *Process ID* view and return to the *Processes* view.
+Click this button to close the *Process ID* view and return to the list of processes.
 
 - *Process ID*  
-Process ID number.
+Process identification number. The ID number is automatically assigned by the system.
 
 - *Workflow*  
 Name of the workflow.
