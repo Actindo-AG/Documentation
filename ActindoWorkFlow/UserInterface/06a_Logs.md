@@ -1,12 +1,12 @@
 [!!Workflows](ActindoWorkFlow)
 
-# Logs
+# Overview
 
-*Workflows > Logs*
+*Workflows > Logs > Tab OVERVIEW*
 
 ![Logs](/Assets/Screenshots/ActindoWorkFlow/Logs/Logs.png "[Logs]")
 
-
+**Logs**
 - *VIEW*  
 Click the drop-down list to select the view. All created views are displayed in the drop-down list. Click the ![Points](/Assets/Icons/Points01.png "[Points]") (Points) button to the right of the *VIEW* drop-down list to display the context menu and create a view. For detailed information, see [Create view](#create-view).
 
@@ -62,19 +62,19 @@ Click the drop-down list to select the view. All created views are displayed in 
 [comment]: <> (Log status durchgehen?)
 
 - ![Search](/Assets/Icons/Search.png "[Search]") (Search)   
-  Click this button to display the search bar and search for a workflow.
+  Click this button to display the search bar and search for a log.
 
 - ![Refresh](/Assets/Icons/Refresh01.png "[Refresh]") (Refresh)    
-  Click this button to update the list of workflows.
+  Click this button to update the list of logs.
 
 - ![Columns](/Assets/Icons/Columns.png "[Columns]") Columns (x)    
-  Click this button to display the columns bar and customize the displayed columns and the order of columns in the list. The x indicates the number of columns that are currently displayed in the list.
+  Click this button to display the columns bar and customize the displayed columns and the order of columns in the list. The *x* indicates the number of columns that are currently displayed in the list.
 
 - ![Filter](/Assets/Icons/Filter.png "[Filter]") Filter (x)    
-  Click this button to display the filter bar and customize the active filters. The x indicates the number of filters that are currently active.
+  Click this button to display the filter bar and customize the active filters. The *x* indicates the number of filters that are currently active.
 
 
-The list displays all logs. Depending on the settings, the displayed columns may vary. All fields are read-only. When clicking a log, the *Log ID* view is displayed, see [Log ID](#Log-ID).
+The list displays all logs that are matching the selected log level. Depending on the settings, the displayed columns may vary. All fields are read-only.  Click a log, to display the *Log ID* view, see [Log ID](#Log-ID).
 
 - [x]    
   Select the checkbox to display the editing toolbar.
