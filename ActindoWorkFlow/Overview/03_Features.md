@@ -1,4 +1,4 @@
-# Key Features
+# Key features
 
 Model your specific workflows:
 
