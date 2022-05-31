@@ -304,7 +304,7 @@ The list displays all actions. Depending on the settings, the displayed columns 
 [comment]: <> (Question pending for OLI)
 
   - *Queue Type*  
-  The *Default* queue type is normally selected. For detailed information about configuring queue types, see [Configure the queue types](01_ConfigureQueueTypes.md).
+  Queue type assigned to the action. By default, the *Default* queue type is assigned. For detailed information about configuring queue types, see [Configure the queue types](01_ConfigureQueueTypes.md).
 
   > [Info] A different queue type can be selected by editing an action, see [Edit an action](01_ManageWorkflows.md#edit-an-action).
 
