@@ -169,7 +169,7 @@ Click this button to display the editing options.
 Click this button to save any changes made.
 
 - [RESET]  
-Click this button to reset layout.
+Click this button to reset the diagram view. The whole diagram is displayed. Any zoom or move within the graph is reset.
 
 [comment]: <> (Ist es möglich, hier was zu ändern? Check Wissentranfer!)
 
@@ -184,7 +184,7 @@ Click this button to cancel editing and discard changes.
 
 ### Actions
 
-*Workflows > Processes > Tab OVERVIEW > Select a process*
+*Workflows > Processes > Tab OVERVIEW > Select a process > Tab Actions*
 
 ![Actions](/Assets/Screenshots/ActindoWorkFlow/Processes/Actions.png "[Actions]")
 
@@ -221,7 +221,7 @@ Click the drop-down list to select the view. All created views are displayed in 
 
 
 - *Status*  
-Click the drop-down list to select a process status. The following options are available:  
+Click the drop-down list to select an action status. The following options are available:  
 
     - **All**  
     Select this option to display all actions, regardless of their status.
@@ -249,19 +249,19 @@ Click the drop-down list to select a process status. The following options are a
 
 
 - ![Search](/Assets/Icons/Search.png "[Search]") (Search)  
-    Click this button to display the search bar and search for a workflow.
+    Click this button to display the search bar and search for an action.
 
 - ![Refresh](/Assets/Icons/Refresh01.png "[Refresh]") (Refresh)  
-    Click this button to update the list of workflows.
+    Click this button to update the list of actions.
 
 - ![Columns](/Assets/Icons/Columns.png "[Columns]") Columns (x)  
-    Click this button to display the columns bar and customize the displayed columns and the order of columns in the list. The x indicates the number of columns that are currently displayed in the list.
+    Click this button to display the columns bar and customize the displayed columns and the order of columns in the list. The *x* indicates the number of columns that are currently displayed in the list.
 
 - ![Filter](/Assets/Icons/Filter.png "[Filter]") Filter (x)  
-    Click this button to display the filter bar and customize the active filters. The x indicates the number of filters that are currently active.
+    Click this button to display the filter bar and customize the active filters. The *x* indicates the number of filters that are currently active.
 
 
-The list displays all actions. Depending on the settings, the displayed columns may vary. All fields are read-only.
+The list displays all executed actions that are matching the selected status. Depending on the settings, the displayed columns may vary. All fields are read-only.
 
   - [x]    
   Select the checkbox to display the editing toolbar. If you click the checkbox in the header, all actions in the list are selected.
@@ -273,7 +273,7 @@ The list displays all actions. Depending on the settings, the displayed columns 
   - ![Suspend](/Assets/Icons/Pause.png "[Suspend]") (Suspend)  
     Click this button to suspend the action temporarily. This button is displayed when the action status is *In Progress*. When clicking this button, the action status changes to *Suspended*.
   - ![Start](/Assets/Icons/Play.png "[Start]") (Start)  
-    Click this button to resume the action. This button is displayed when the action status is *In Progress*. When clicking this button, the action status changes again to *In Progress*. The warning sign in the *Suspended Actions* column of the *Processes* view is no longer displayed.
+    Click this button to resume the action. This button is displayed when the action status is *Suspended*. When clicking this button, the action status changes again to *In Progress*. The warning sign in the *Suspended Actions* column of the *Processes* view is no longer displayed.
   - [REMOVE DEFER TIME]  
     Click this button to eliminate the defer time preconfigured in the action, if any. The action is then executed immediately. This button is displayed when the action status is *In Progress*.
 
@@ -291,13 +291,13 @@ The list displays all actions. Depending on the settings, the displayed columns 
 [comment]: <> (Repeat here or leave it out? Add colour code?)
 
   - *Transition*  
-  Transition executed in the course of the selected action.
+  Action key.
 
   - *Tries*  
-  Number of times an action has been tried.
+  Number of times the action execution has been tried.
 
   - *Max retries after error*  
-  Number of times an action must be retried after error.
+  Number of times the action execution must be retried after error.
 
   > [Info] This setting depends on the action and is usually preconfigured.
 
@@ -306,7 +306,7 @@ The list displays all actions. Depending on the settings, the displayed columns 
   - *Queue Type*  
   Queue type assigned to the action. By default, the *Default* queue type is assigned. For detailed information about configuring queue types, see [Configure the queue types](01_ConfigureQueueTypes.md).
 
-  > [Info] A different queue type can be selected by editing an action, see [Edit an action](01_ManageWorkflows.md#edit-an-action).
+  > [Info] A different queue type can be selected by editing an action in the workflow editor, see [Edit an action](/ActindoWorkFlow/Operation/01_ManageWorkflows.md#edit-an-action).
 
   - *Defer until*  
   Next point in time when the action is being tried.  
@@ -314,18 +314,18 @@ The list displays all actions. Depending on the settings, the displayed columns 
   > [Info] This setting depends on the action and is not available in all actions.
 
   - *Created*  
-  Date of creation.
+  Date and time of creation.
 
   - *Modified*  
-  Date of modification.
+  Date and time of modification.
 
   - *ID*  
-  Action ID number.
+  Action identification number. The ID number is automatically assigned by the system.
 
   [comment]: <> (Oli fragen)
 
   - *Transition ID*  
-  Transition ID number.
+  Action identification number. The ID number is automatically assigned by the system.
 
 
 ### Logs
@@ -395,13 +395,13 @@ Click the drop-down list to select a log level. The following options are availa
 
 
 - ![Search](/Assets/Icons/Search.png "[Search]") (Search)  
-Click this button to display the search bar and search for a workflow.
+Click this button to display the search bar and search for a log.
 
 - ![Refresh](/Assets/Icons/Refresh01.png "[Refresh]") (Refresh)  
-Click this button to update the list of workflows.
+Click this button to update the list of logs.
 
 - ![Columns](/Assets/Icons/Columns.png "[Columns]") Columns (x)  
-Click this button to display the columns bar and customize the displayed columns and the order of columns in the list. The x indicates the number of columns that are currently displayed in the list.
+Click this button to display the columns bar and customize the displayed columns and the order of columns in the list. The *x* indicates the number of columns that are currently displayed in the list.
 
 - ![Filter](/Assets/Icons/Filter.png "[Filter]") Filter (x)  
 Click this button to display the filter bar and customize the active filters. The x indicates the number of filters that are currently active.
