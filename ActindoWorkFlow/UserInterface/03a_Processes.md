@@ -404,7 +404,7 @@ Click this button to update the list of logs.
 Click this button to display the columns bar and customize the displayed columns and the order of columns in the list. The *x* indicates the number of columns that are currently displayed in the list.
 
 - ![Filter](/Assets/Icons/Filter.png "[Filter]") Filter (x)  
-Click this button to display the filter bar and customize the active filters. The x indicates the number of filters that are currently active.
+Click this button to display the filter bar and customize the active filters. The *x* indicates the number of filters that are currently active.
 
 
 The list displays all logs. Depending on the settings, the displayed columns may vary. All fields are read-only.
@@ -413,7 +413,7 @@ The list displays all logs. Depending on the settings, the displayed columns may
   Select the checkbox to display the editing toolbar.
 
   - *Type*  
-  Log level type. The different log level types are displayed in different colours. The following types are possible:
+  Log level type. The different log level types are displayed in different colors. The following types can be displayed:
 
     - *Debug*
     - *Info*
@@ -430,35 +430,35 @@ The list displays all logs. Depending on the settings, the displayed columns may
   Description of the issue.
 
   - *Workflow*  
-  Workflow which the log message refers to.
+  Workflow to which the log message refers.
 
   - *Workflow ID*    
-  Workflow ID number.
+  Workflow identification number. The ID number is automatically assigned by the system.
 
   - *Search String*
 
 [comment]: <> (Oli fragen)
 
   - *Created*  
-  Date of creation.
+  Date and time of creation.
 
   - *ID*  
-  Log ID number.
+  Log  identification number. The ID number is automatically assigned by the system.
 
   - *Process*  
-  Process specification.
+  Description of the process to which the log refers.
 
   - *Process ID*  
-  Process ID number.
+  Identification number of the process to which the log refers. The ID number is automatically assigned by the system.
 
   - *Transition*  
-  Transition specification.
+  Key of the action to which the log refers.
 
   - *Transition ID*  
-  Transition ID number.
+  Identification number of the action to which the log refers. The ID number is automatically assigned by the system.
 
   - *Created by*  
-  Name and user ID of person who created the process.
+  Name and user name of the user who initiated the process.
 
 
 
@@ -470,7 +470,7 @@ The list displays all logs. Depending on the settings, the displayed columns may
 
 
 - ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Hide processed*  
-Disable this toggle to display all tokens, including the ones that have already been processed.
+Disable this toggle to display all tokens, including the ones that have already been processed. Enable the toggle to hide all processed tokens. By default, this toggle is enabled.
 
 - *VIEW*  
 Click the drop-down list to select the view. All created views are displayed in the drop-down list. Click the ![Points](/Assets/Icons/Points01.png "[Points]") (Points) button to the right of the *VIEW* drop-down list to display the context menu and create a view. For detailed information, see [Create view](#create-view).
@@ -515,7 +515,7 @@ Click the drop-down list to select the view. All created views are displayed in 
     Click this button to display the filter bar and customize the active filters. The x indicates the number of filters that are currently active.
 
 
-The list displays all tokens if the ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Hide processed* toggle is disabled. Depending on the settings, the displayed columns may vary. All fields are read-only.
+The list displays all tokens if the *Hide processed* toggle is disabled. Depending on the settings, the displayed columns may vary. All fields are read-only.
 
   - *Status*  
   Token status. The different statuses are displayed in different colours. The following statuses are possible:
@@ -539,21 +539,21 @@ The list displays all tokens if the ![Toggle](/Assets/Icons/Toggle.png "[Toggle]
   Next compatible action(s) where the token can be input.
 
   - *ID*  
-  Token ID number.  
+  Token identification number.  The ID number is automatically assigned by the system.
 
   [comment]: <> (Oli fragen)
 
   - *Place ID*  
-  Place ID number.
+  Place identification number. The ID number is automatically assigned by the system.
 
   - *Process Action ID*  
-  Process action ID number.
+  Action identification number. The ID number is automatically assigned by the system.
 
   [comment]: <> (Oli fragen. Null wenn am end place?)
 
 
 
-## Create view
+### Create view
 
 *Workflows > Processes > Tab OVERVIEW > Button Points > Menu entry create*
 
@@ -571,7 +571,7 @@ Click this button to save the new view. The *Create view* window is closed. The 
 
 
 
-## Rename view
+### Rename view
 
 *Workflows > Processes > Tab OVERVIEW > Button Points > Menu entry rename*
 
@@ -589,20 +589,19 @@ Click this button to save the changes to the view name. The *Rename view* window
 
 
 
-## Log ID
+#### Log ID
 
 *Workflows > Processes > Tab OVERVIEW > Select a process > Tab Logs > Select Log Message*
 
 ![Log ID](/Assets/Screenshots/ActindoWorkFlow/Processes/LogID.png "[Log ID]")
 
 - ![Back](/Assets/Icons/Back02.png "[Back]") (Back)  
-Click this button to close the *Log ID* view and return to the *Logs* tab.
+Click this button to close the *Log ID* view and return to the *Logs* tab in the *Process ID* view.
 
 - *Log ID (x)*  
 Log ID number.
 
-- *Log Message*  
-A description of the issue is displayed in the text box. This box is read-only.  
+**Log Message**
 
   > [Info] In case of an error, detailed information is provided (stack trace) for reporting and debugging purposes.
 
