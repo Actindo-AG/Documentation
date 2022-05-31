@@ -6,6 +6,7 @@
 
 ![Overview](/Assets/Screenshots/ActindoWorkFlow/Processes/Processes.png "[Overview]")
 
+**Processes**
 
 - *VIEW*  
 Click the drop-down list to select the view. All created views are displayed in the drop-down list. Click the ![Points](/Assets/Icons/Points01.png "[Points]") (Points) button to the right of the *VIEW* drop-down list to display the context menu and create a view. For detailed information, see [Create view](#create-view).
@@ -101,15 +102,16 @@ The list displays all processes. Depending on the settings, the displayed column
   - *Status*  
   Status of the process. The different process statuses are displayed in different colours. The following statuses are possible:
 
-    - *Ready*
-    - *In Progress*
-    - *Error*
-    - *Done*
-    - *Dead*
-    - *Suspended*
-    - *Aborted*
+    - Light gray (Ready)
+    - Blue (In Progress)
+    - Red (Error)
+    - Green (Done)
+    - White (Dead)
+    - Dark gray (Suspended)
+    - Black (Aborted)
 
-[comment]: <> (Repeat or leave it out? Add colour code?)
+[comment]: <> (Oli: Farbe bestätigen? Alternativ, abwarten auf endgültige UI von Ina?)
+[comment]: <> (Add colour code and sign! Auch andere Dateien.)
 
   - *Suspended Actions*  
   If the process contains suspended actions, a ![Warning](/Assets/Icons/Warning.png "[Warning]") sign is displayed. Click the process to display the individual actions, see [Actions](#actions).
@@ -122,6 +124,8 @@ The list displays all processes. Depending on the settings, the displayed column
 
   - *Queue Type*  
   Queue type configured in the workflow. For detailed information about configuring the queue types, see [Configure the queue types](ActindoWorkFlow/Integration/01_ConfigureQueueTypes.md).
+
+[comment]: <> (Oli: gibt es noch einen anderen Spalteneintrag außer "according to configuration in workflow"?)
 
   - *Priority*
 
@@ -139,6 +143,8 @@ The list displays all processes. Depending on the settings, the displayed column
   - *Owning Module*  
   Module where the process is integrated.
 
+  [comment]: <> (Oli: gibt es hier auch eine andere Möglichkeit als ActindoWorkFlow?)
+
   - *Created by*  
   Name and user name of the user who initiated the process.
 
@@ -152,6 +158,7 @@ The list displays all processes. Depending on the settings, the displayed column
 *Workflows > Processes > Tab OVERVIEW > Select a process*
 
 ![Process ID](/Assets/Screenshots/ActindoWorkFlow/Processes/Actions.png "[Process ID]")
+
 **Process ID**
 - ![Back](/Assets/Icons/Back02.png "[Back]") (Back)  
 Click this button to close the *Process ID* view and return to the list of processes.
@@ -168,18 +175,15 @@ Click this button to display the editing options.
 - [SAVE]  
 Click this button to save any changes made.
 
+[comment]: <> (Oli: Was kann man hier speichern?)
+
 - [RESET]  
 Click this button to reset the diagram view. The whole diagram is displayed. Any zoom or move within the graph is reset.
-
-[comment]: <> (Ist es möglich, hier was zu ändern? Check Wissentranfer!)
 
 - ![Cancel](/Assets/Icons/Cross02.png "[Cancel]") (Cancel)  
 Click this button to cancel editing and discard changes.
 
-
-[comment]: <> (The *Process ID* view displays a diagram of the selected process including all places and actions. Further details about the process actions included in the diagram as well as about the logs and tokens are displayed in separate tabs in the bottom part of the *Process ID* view. For detailed information, see...?)
-
-[comment]: <> (For detailed information about checking the process action status, see ...)
+[comment]: <> (Oli: Was kann man hier denn überhaupt bearbeiten bzw. welche änderungen verwerfen?)
 
 
 ### Actions
@@ -188,7 +192,7 @@ Click this button to cancel editing and discard changes.
 
 ![Actions](/Assets/Screenshots/ActindoWorkFlow/Processes/Actions.png "[Actions]")
 
-> [Info] The *Actions* tab is selected by default when selecting a process.
+> [Info] The *Actions* tab is selected by default when selecting a process. This tab is an excerpt of the *Process Actions* menu entry, which displays a list of all process actions. When clicking an action in the *Process Actions* view, the selected action is displayed in the *Actions* tab of the corresponding *Process ID* view. For detailed information, see [Process Actions](04a_ProcessActions.md).
 
 - *VIEW*  
 Click the drop-down list to select the view. All created views are displayed in the drop-down list. Click the ![Points](/Assets/Icons/Points01.png "[Points]") (Points) button to the right of the *VIEW* drop-down list to display the context menu and create a view. For detailed information, see [Create view](#create-view).
@@ -275,7 +279,9 @@ The list displays all executed actions that are matching the selected status. De
   - ![Start](/Assets/Icons/Play.png "[Start]") (Start)  
     Click this button to resume the action. This button is displayed when the action status is *Suspended*. When clicking this button, the action status changes again to *In Progress*. The warning sign in the *Suspended Actions* column of the *Processes* view is no longer displayed.
   - [REMOVE DEFER TIME]  
-    Click this button to eliminate the defer time preconfigured in the action, if any. The action is then executed immediately. This button is displayed when the action status is *In Progress*.
+    Click this button to skip the defer time preconfigured in the action, if any. The action is then executed immediately. This button is displayed when the action status is *In Progress*.
+
+    [comment]: <> (Oli: Stimmt das so? Wird die Zeit zum Ausführen der Aktion einmalig vorgezogen? Und wenn es dann aber wieder nicht klappt, greift wieder die eingestellte defer time? Oder was passiert dann?)
 
 
   - *Status*  
@@ -412,6 +418,8 @@ The list displays all logs. Depending on the settings, the displayed columns may
   - [x]    
   Select the checkbox to display the editing toolbar.
 
+  [comment]: <> (Keine Buttons angezeigt. Was macht das Toolbar?)
+
   - *Type*  
   Log level type. The different log level types are displayed in different colors. The following types can be displayed:
 
@@ -528,8 +536,8 @@ The list displays all tokens if the *Hide processed* toggle is disabled. Dependi
 [comment]: <> (Tokens kann auch als "Ready", "Being processed", "Error" im Status vorkommen. So gemeint oder nur Processed/Unprocessed? Add colour code?)
 
   - *Place*  
-  Name of the place where the token is currently processed. 
-  
+  Name of the place where the token is currently processed.
+
   > [Info] The start place name is *input*, the end place name *output*.
 
   - *Data*  
@@ -537,6 +545,8 @@ The list displays all tokens if the *Hide processed* toggle is disabled. Dependi
 
   - *Next possible action(s)*    
   Next compatible action(s) where the token can be input.
+
+  [comment]: <> (Anmerkung Oli: Aus früheren Zeiten -> wird ggf. gestrichen?)
 
   - *ID*  
   Token identification number.  The ID number is automatically assigned by the system.
@@ -599,13 +609,12 @@ Click this button to save the changes to the view name. The *Rename view* window
 Click this button to close the *Log ID* view and return to the *Logs* tab in the *Process ID* view.
 
 
-**Log Message**
+**Log Message**  
 
-
-[comment]: <> (Diesen Text kann man rauskopieren, um ein Ticket zu erstellen o.ä. Erwähnen? Nützlich für Kunden?)
+In the *Log Message* section, detailed information about the log is displayed. All fields are read-only.
 
 - *Log Level*  
-Description of log level. The following levels are available:
+Log level type. The following types can be displayed:
 
   - *Debug*
   - *Info*
@@ -616,14 +625,16 @@ Description of log level. The following levels are available:
   - *Alert*
   - *Emergency*
 
+
 - Log message box   
-  Detailed log message with further information to the log type. 
-  
-  > [Info] In case of an error, detailed information is provided (stack trace) for reporting and debugging purposes. 
+  Detailed log message with further information to the log type.
+
+  > [Info] In case of an error, detailed information is provided (stack trace) for reporting and debugging purposes.
+
 - *Created - by*  
 Date and time of creation, name and user name of the user who initiated the process.
 
-[comment]: <> (Ich gehe davon aus, dass Log ist automatisch vom System erstellt, daher "process creator", oder ist es "workflow creator"?)
+[comment]: <> (Oli: Ich gehe davon aus, dass der Log automatisch vom System erstellt wird, daher "process creator", oder bezieht es sich hier auf "workflow creator"?)
 
 - *Workflow*  
 Workflow ID number and name.
