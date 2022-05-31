@@ -601,7 +601,6 @@ Click this button to close the *Log ID* view and return to the *Logs* tab in the
 
 **Log Message**
 
-  > [Info] In case of an error, detailed information is provided (stack trace) for reporting and debugging purposes.
 
 [comment]: <> (Diesen Text kann man rauskopieren, um ein Ticket zu erstellen o.ä. Erwähnen? Nützlich für Kunden?)
 
@@ -617,7 +616,10 @@ Description of log level. The following levels are available:
   - *Alert*
   - *Emergency*
 
-
+- Log message box   
+  Detailed log message with further information to the log type. 
+  
+  > [Info] In case of an error, detailed information is provided (stack trace) for reporting and debugging purposes. 
 - *Created - by*  
 Date and time of creation, name and user ID of the person who created the process.
 
