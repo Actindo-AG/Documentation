@@ -621,7 +621,7 @@ Description of log level. The following levels are available:
   
   > [Info] In case of an error, detailed information is provided (stack trace) for reporting and debugging purposes. 
 - *Created - by*  
-Date and time of creation, name and user ID of the person who created the process.
+Date and time of creation, name and user name of the user who initiated the process.
 
 [comment]: <> (Ich gehe davon aus, dass Log ist automatisch vom System erstellt, daher "process creator", oder ist es "workflow creator"?)
 
@@ -632,4 +632,4 @@ Workflow ID number and name.
 Process ID number and description.
 
 - *Transition*  
-Transition ID number and description.
+Action ID number and description.
