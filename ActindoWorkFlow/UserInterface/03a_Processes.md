@@ -528,7 +528,9 @@ The list displays all tokens if the ![Toggle](/Assets/Icons/Toggle.png "[Toggle]
 [comment]: <> (Tokens kann auch als "Ready", "Being processed", "Error" im Status vorkommen. So gemeint oder nur Processed/Unprocessed? Add colour code?)
 
   - *Place*  
-  Place where the token has been input.
+  Name of the place where the token is currently processed. 
+  
+  > [Info] The start place name is *input*, the end place name *output*.
 
   - *Data*  
   Type of data contained in the token.
