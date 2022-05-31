@@ -84,7 +84,7 @@ Click the drop-down list to display a specific workflow type. All workflows crea
     Click this button to display the filter bar and customize the active filters. The x indicates the number of filters that are currently active.
 
 
-The list displays all processes. Depending on the settings, the displayed columns may vary. All fields are read-only. Click a process in the list to display the *Process ID* view with a process graph and detailed information about the selected process.
+The list displays all processes. Depending on the settings, the displayed columns may vary. All fields are read-only. Click a process in the list to display the *Process ID* view with a process diagram and detailed information about the selected process.
 
   - [x]  
   Select the checkbox to display the editing toolbar. If you click the checkbox in the header, all processes in the list are selected.
@@ -100,7 +100,7 @@ The list displays all processes. Depending on the settings, the displayed column
 
 
   - *Status*  
-  Status of the process. The different process statuses are displayed in different colours. The following statuses are possible:
+  Status of the process. The different process statuses are displayed in different colors. The following statuses are possible:
 
     - Light gray (Ready)
     - Blue (In Progress)
@@ -111,7 +111,7 @@ The list displays all processes. Depending on the settings, the displayed column
     - Black (Aborted)
 
 [comment]: <> (Oli: Farbe bestätigen? Alternativ, abwarten auf endgültige UI von Ina?)
-[comment]: <> (Add colour code and sign! Auch andere Dateien.)
+[comment]: <> (Add color code and sign! Auch andere Dateien.)
 
   - *Suspended Actions*  
   If the process contains suspended actions, a ![Warning](/Assets/Icons/Warning.png "[Warning]") sign is displayed. Click the process to display the individual actions, see [Actions](#actions).
@@ -178,10 +178,10 @@ Click this button to save any changes made.
 [comment]: <> (Oli: Was kann man hier speichern?)
 
 - [RESET]  
-Click this button to reset the diagram view. The whole diagram is displayed. Any zoom or move within the graph is reset.
+Click this button to reset the diagram view. The whole diagram is displayed. Any zoom or move within the diagram is reset.
 
 - ![Cancel](/Assets/Icons/Cross02.png "[Cancel]") (Cancel)  
-Click this button to cancel editing and discard changes.
+Click this button to cancel editing and reject changes.
 
 [comment]: <> (Oli: Was kann man hier denn überhaupt bearbeiten bzw. welche änderungen verwerfen?)
 
@@ -285,7 +285,7 @@ The list displays all executed actions that are matching the selected status. De
 
 
   - *Status*  
-  Status of the action. The different process statuses are displayed in different colours. The following statuses are possible:
+  Status of the action. The different process statuses are displayed in different colors. The following statuses are possible:
 
     - *Active*  
     - *Done*  
@@ -294,7 +294,7 @@ The list displays all executed actions that are matching the selected status. De
     - *Suspended*  
     - *Process aborted*  
 
-[comment]: <> (Repeat here or leave it out? Add colour code?)
+[comment]: <> (Repeat here or leave it out? Add color code?)
 
   - *Transition*  
   Action key.
@@ -432,7 +432,7 @@ The list displays all logs. Depending on the settings, the displayed columns may
     - *Alert*
     - *Emergency*
 
-[comment]: <> (Repeat here or leave it out? Add colour code?)
+[comment]: <> (Repeat here or leave it out? Add color code?)
 
   - *Log Message*  
   Description of the issue.
@@ -526,14 +526,14 @@ Click the drop-down list to select the view. All created views are displayed in 
 The list displays all tokens if the *Hide processed* toggle is disabled. Depending on the settings, the displayed columns may vary. All fields are read-only.
 
   - *Status*  
-  Token status. The different statuses are displayed in different colours. The following statuses are possible:
+  Token status. The different statuses are displayed in different colors. The following statuses are possible:
 
     - *Ready*
     - *Processed*
     - *Being processed*
     - *Error*
 
-[comment]: <> (Tokens kann auch als "Ready", "Being processed", "Error" im Status vorkommen. So gemeint oder nur Processed/Unprocessed? Add colour code?)
+[comment]: <> (Tokens kann auch als "Ready", "Being processed", "Error" im Status vorkommen. So gemeint oder nur Processed/Unprocessed? Add color code?)
 
   - *Place*  
   Name of the place where the token is currently processed.
