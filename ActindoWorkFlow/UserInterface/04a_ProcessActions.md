@@ -1,12 +1,12 @@
 [!!Workflows](ActindoWorkFlow)
 
-# Process Actions
+# Overview
 
-*Workflows > Process Actions*
+*Workflows > Process Actions > Tab OVERVIEW*
 
 ![Actions](/Assets/Screenshots/ActindoWorkFlow/ProcessActions/ProcessActions.png "[Actions]")
 
-
+**Actions**
 - *VIEW*  
 Click the drop-down list to select the view. All created views are displayed in the drop-down list. Click the ![Points](/Assets/Icons/Points01.png "[Points]") (Points) button to the right of the *VIEW* drop-down list to display the context menu and create a view. For detailed information, see [Create view](#create-view).
 
@@ -38,7 +38,7 @@ Click the drop-down list to select the view. All created views are displayed in 
 
 
 - *Status*  
-Click the drop-down list to select a process status. The following options are available:  
+Click the drop-down list to select a process status. The following statuses are available:  
 
     - **All**  
     Select this option to display all actions, regardless of their status.
@@ -66,33 +66,33 @@ Click the drop-down list to select a process status. The following options are a
 
 
 - ![Search](/Assets/Icons/Search.png "[Search]") (Search)  
-    Click this button to display the search bar and search for a workflow.
+    Click this button to display the search bar and search for an action.
 
 - ![Refresh](/Assets/Icons/Refresh01.png "[Refresh]") (Refresh)  
-    Click this button to update the list of workflows.
+    Click this button to update the list of actions.
 
 - ![Columns](/Assets/Icons/Columns.png "[Columns]") Columns (x)  
-    Click this button to display the columns bar and customize the displayed columns and the order of columns in the list. The x indicates the number of columns that are currently displayed in the list.
+    Click this button to display the columns bar and customize the displayed columns and the order of columns in the list. The *x* indicates the number of columns that are currently displayed in the list.
 
 - ![Filter](/Assets/Icons/Filter.png "[Filter]") Filter (x)  
-    Click this button to display the filter bar and customize the active filters. The x indicates the number of filters that are currently active.
+    Click this button to display the filter bar and customize the active filters. The *x* indicates the number of filters that are currently active.
 
 
-The list displays all process actions. Depending on the settings, the displayed columns may vary. All fields are read-only. When clicking a process action, the *Actions* tab of the corresponding process is displayed, see [Actions](03a_Processes.md#actions).
+The list displays all actions that are matching the selected status. Depending on the settings, the displayed columns may vary. All fields are read-only.  Click an action, to display the corresponding process in the *Process ID* view, see [Process ID](03a_Processes.md#process-id).
 
 [comment]: <> (Jetzt etwas verwirrt zu den Verweisen: Auf Actions oder auf Proces ID verweisen? Wenn ich hier an andere Datei verweise, könnte ich genauso machen mit Create view and Rename view, oder? Das gilt auch für 06a_Logs.md mit den Verweisen auf Create / Rename view und Log ID).
 
   - [x]    
   Select the checkbox to display the editing toolbar. If you click the checkbox in the header, all actions in the list are selected.
 
-  Depending of the process status, the editing toolbar may display different options.
+    Depending on the action status, the editing toolbar displays the following buttons:
 
   - ![Retry](/Assets/Icons/Retry01.png "[Retry]") (Retry)  
     Click this button to retry the action. This button is displayed when the action status is *Error*.
   - ![Suspend](/Assets/Icons/Pause.png "[Suspend]") (Suspend)  
     Click this button to suspend the action temporarily. This button is displayed when the action status is *In Progress*. When clicking this button, the action status changes to *Suspended*.
   - ![Start](/Assets/Icons/Play.png "[Start]") (Start)  
-    Click this button to resume the action. This button is displayed when the action status is *In Progress*. When clicking this button, the action status changes again to *In Progress*. The warning sign in the *Suspended Actions* column of the *Processes* view is no longer displayed.
+    Click this button to resume the action. This button is displayed when the action status is *Suspended*. When clicking this button, the action status changes again to *In Progress*.
   - [REMOVE DEFER TIME]  
     Click this button to eliminate the defer time preconfigured in the action, if any. The action is then executed immediately. This button is displayed when the action status is *In Progress*.
 
