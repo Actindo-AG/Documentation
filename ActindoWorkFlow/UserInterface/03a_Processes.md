@@ -1,6 +1,6 @@
 [!!Workflows](ActindoWorkFlow)
 
-# Processes
+# Overview
 
 *Workflows > Processes > Tab OVERVIEW*
 
