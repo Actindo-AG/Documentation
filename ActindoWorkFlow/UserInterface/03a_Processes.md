@@ -66,7 +66,7 @@ Click the drop-down list to select a process status. The following options are a
 
 
 - *Workflow*  
-Click the drop-down list to display a specific workflow type. The workflows created in the *Workflows* menu entry are listed here. For detailed information about creating a workflow, see [Create a workflow](/ActindoWorkFlow/Operation/01_ManageWorkflows.md#create-a-workflow).
+Click the drop-down list to display a specific workflow type. All workflows created in the *Workflows* menu entry are available in the list. For detailed information about creating a workflow, see [Create a workflow](/ActindoWorkFlow/Operation/01_ManageWorkflows.md#create-a-workflow).
 
 
 
@@ -83,7 +83,7 @@ Click the drop-down list to display a specific workflow type. The workflows crea
     Click this button to display the filter bar and customize the active filters. The x indicates the number of filters that are currently active.
 
 
-The list displays all processes. Depending on the settings, the displayed columns may vary. All fields are read-only.
+The list displays all processes. Depending on the settings, the displayed columns may vary. All fields are read-only. Click a process in the list to display the *Process ID* view with a process graph and detailed information about the selected process.
 
   - [x]  
   Select the checkbox to display the editing toolbar. If you click the checkbox in the header, all processes in the list are selected.
