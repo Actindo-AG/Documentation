@@ -46,7 +46,6 @@ Click this button to display the *QUICK SEARCH* context menu. All search criteri
   - *Type of customer*
   - *Customer number*
 
-[comment]: <> (Add an explanation of each field? What's the difference between No. and Customer number? RS HG/FS)
 
   [comment]: <> (in the system as No -> add point)
   [comment]: <> (in the system: Firma -> localise)
@@ -55,15 +54,15 @@ Click this button to display the *QUICK SEARCH* context menu. All search criteri
   [comment]: <> (in the system: City)  
 
 - [Search bar]  
-  Enter the search text (letters or numbers).
+  Click on the search bar to enter the search text (letters or numbers).
 
-- ![Cross](/Assets/Icons/Cross02.png "[Cross]") (Cross)  
+- ![Delete](/Assets/Icons/Cross02.png "[Delete]") (Delete)  
   Click this button to delete the search text and to clear the search results.
 
 - ![Search](/Assets/Icons/Search.png "[Search]") (Search)  
   Click this button to start the search. The search can also be started by pressing ENTER.
 
-- [(X) ACTIVE FILTERS]  
+- (x) [ACTIVE FILTERS]  
 Click this button to display the context menu.
 
   - *ACTIVE* (checkbox)  
@@ -88,7 +87,9 @@ Click this button to display the context menu.
 
 All customer/supplier details are displayed in a column view. The column width can be modified using the mouse. To do so, place the mouse pointer on the vertical dividing line between two columns titles. The mouse pointer changes to a double-headed arrow. Press the left mouse button and move the line using drag and drop until it has reached the required width.
 
-When placing the cursor on a column header, three vertical points are displayed to the right of the column title. Click the ![Points](/Assets/Icons/Points02.png "[Points]") (Points) icon to display the context menu. The following menu entries are available:
+[comment]: <> (Check wording with HG, see Workflows, PIM: The list displays... Durchgängig ändern?)
+
+When placing the cursor on a column header, three vertical points are displayed to the right of the column title. Click the ![Points](/Assets/Icons/Points02.png "[Points]") (Points) button to display the context menu. The following menu entries are available:
 
 - ![Sort ascending](/Assets/Icons/SortAscending.png "[Sort ascending]") Sort ascending  
   Click this entry to sort the rows in ascending order.
@@ -97,42 +98,75 @@ When placing the cursor on a column header, three vertical points are displayed 
 - ![Columns](/Assets/Icons/Columns02.png "[Columns]") Columns  
   Place the mouse on this entry to display the *Columns* sub-menu. Add or remove columns by marking or unmarking the corresponding checkbox.
 
-Depending on the settings, the displayed columns may vary. The following fields are displayed per default:
+  [comment]: <> (Standard Plattform-Info. Notwendig? Durchgängig ändern/löschen?)
 
-- *No.*
-- *Short name*
-- *Company*
-- *Forename*
-- *Surname*
-- *Address*
-- *ZIP*
-- *Location*
-- *Country*
-- *Content*
-- *Currency*
-- *Comments*
+Depending on the settings, the displayed columns may vary.
 
-[comment]: <> (in the system as No -> add point)
-[comment]: <> (in the system: Firma -> localise)
-[comment]: <> (in the system: First name)
-[comment]: <> (in the system: Name)
-[comment]: <> (in the system: City)  
+- *No.*  
+Customer/supplier number. This number is given automatically by the system if left empty. Customer numbers range from 10000 to 69999 and supplier numbers, from 70000 to 99999.
+
+- *Short name*  
+Short name given to the customer/supplier.
+
+- *Company*  
+Company name.
+
+- *Forename*  
+Customer/supplier first name.
+
+- *Surname*  
+Customer/supplier last name.
+
+- *Address*  
+Customer/supplier address.
+
+- *Address 2*  
+Complimentary address information.
+
+- *ZIP*  
+Customer/supplier ZIP code.
+
+- *Location*   
+Customer/supplier city or town.
+
+- *Country*  
+Customer/supplier country.
+
+- *Content*  
+Files added to the customer/supplier information.  
+
+- *Currency*  
+Basic currency user by customer/supplier.
+
+- *Comments*  
+Comments added on the customer/supplier information.
+
+- *Phone*  
+Customer/supplier contact phone number.
+
+- *Phone 2*  
+Customer/supplier second contact phone number.    
+
+- *Mobile phone*  
+Customer/supplier cell phone number.
+
+- *Fax*  
+Customer/supplier fax number.
+
+- *Email*  
+Customer/supplier email address.
+
+- *VAT ID*  
+Customer/supplier VAT identification number, if applicable.
+
+- *Type of customer*  
+
+[comment]: <> (FH: Was kann hier vorkommen?)
+
+- *Customer number*  
+Reference customer/supplier number as defined by the customer.
 
 
-  The following additional columns are available:
-
-- *Address 2*
-- *Currency*
-- *Phone*
-- *Phone 2*
-- *Mobile phone*
-- *Fax*
-- *Email*
-- *VAT ID*
-- *Type of customer*
-- *Customer number*
-
-[comment]: <> (Add an explanation of each field? What's the difference between No. and Customer number? RS HG/FS)
 
 [comment]: <> (By right-clicking on a rown, context menu appears with two options -> Show documents of the customer / supplier -> to Overview in Fakturierung module, and Show articles of supplier -> to Artikelliste in Artikelverwaltung module. Add link when available?)
 
@@ -154,6 +188,7 @@ Enter a page number to go to a specific page.
 - *X - X of X*  
 This text displays the number of customers and suppliers currently displayed and the total number of customers and suppliers in the list. This text is read-only.
 
+[comment]: <> (Standard Plattform-Info. Löschen?)
 
 
 ## Create customer/supplier
@@ -162,7 +197,7 @@ This text displays the number of customers and suppliers currently displayed and
 
 ![Create a customer/supplier](/Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/CreateCustomerSupplier.png "[Create a customer/supplier]")
 
-The *Create customer/supplier* tab contains in turn several sub-tabs to organise customer/supplier details:
+The *Create customer/supplier* tab contains in turn several sub-tabs to organize customer/supplier details:
 
 - *Address/contact*
 - *Delivery addresses*
@@ -191,12 +226,12 @@ Click the drop-down list to select the appropriate option, **Debtor (customer)**
 [comment]: <> (im System: Customer customer / Vendor supplier)
 
 - *Debtor/creditor no.*  
-Enter a customer/supplier number or leave empty for the next available number.  
+Enter a customer/supplier number or leave it empty for the next available number.  
 
   > [Info] A valid range for personal account numbers (10000-69999 for customers and 70000-99999 for suppliers) is predefined in the system. If a number is entered out of this range, a warning message is displayed.
 
 - *Short name*  
-Enter a short name for this customer/supplier.
+Enter a short name for the customer/supplier.
 
 - *Form of address*  
 Click the drop-down list to select the appropriate form of address. The following options are available:  
@@ -204,9 +239,10 @@ Click the drop-down list to select the appropriate form of address. The followin
     - **Mr**
     - **Ms**
     - **Mr and Mrs**
-    - **Dr.**
+    - **Dr**
     - **Prof.**
     - **none**
+
 
 - *Letter salutation*  
 Enter the appropriate letter salutation.
@@ -243,10 +279,10 @@ Click the drop-down list to select the appropriate country.
 #### Contact
 
 - *Phone*  
-Enter a landline phone number.
+Enter a contact phone number.
 
 - *Phone 2*  
-Enter a second landline phone number, if necessary.
+Enter a second contact phone number, if necessary.
 
 - *Cell phone*  
 Enter a cell phone number.
@@ -269,10 +305,15 @@ Click the drop-down list to select the appropriate language or select **No lingu
 - *Currency*  
 Click the drop-down list to select the appropriate currency.
 
+
+- [HELP]  
+Click this button to open the help function.
+
 - [SAVE]  
 Click this button to save the newly entered customer/supplier details.
 
-> [Info] It is not possible to enter any further information in the other sub-tabs before saving the details entered in the *Address/contact* sub-tab. When clicking the other sub-tabs, a window with a warning message is displayed. Click [OK] to confirm the window and save the newly entered customer/supplier. Alternatively, click the [SAVE] button on the bottom.
+
+> [Info] It is not possible to enter any further information in the other sub-tabs before saving the details entered in the *Address/contact* sub-tab. When clicking the other sub-tabs, a window with a warning message is displayed. Click [OK] to confirm the window and save the newly entered customer/supplier. Alternatively, click the [SAVE] button at the bottom.
 
 > [Info] After saving the new customer/supplier address and contact details, the *Delivery addresses*, *Additional fields* and *Drop shipping* sub-tabs display a warning message and can only be used to add data after selecting the newly created customer/supplier in the *Customer/Supplier list* tab.
 
@@ -291,6 +332,13 @@ The *Delivery address* sub-tab cannot be edited here. The warning message *Pleas
 To add further delivery addresses, see [Further addresses](#further-addresses).
 
 [comment]: <> (Bug/question added to Bug Notes document)
+
+
+- [HELP]  
+Click this button to open the help function.
+
+- [SAVE]  
+Click this button to save any changes made.
 
 
 ### Invoicing
@@ -315,7 +363,7 @@ Enter the bank routing number.
 
 - *Bank*  
 Enter the bank name.
-[comment]: <> (This field is greyed out and nothing can be entered. Settings? Does it in live accounts offer a drop-down list depending on BANK CODE entered above?)
+[comment]: <> (This field is greyed out and nothing can be entered. Settings? Does it offer a drop-down list depending on BANK CODE entered above in live accounts?)
 
 - *BIC*  
 Enter the BIC (Bank Identifier Code).
@@ -327,17 +375,17 @@ Enter the IBAN (International Bank Account Number).
 Enter the SEPA mandate reference, if available.
 
 - *Signature date*  
-Enter the signature date or click the ![Calendar](/Assets/Icons/Calendar.png "[Calendar]") icon to select the date.
+Enter the signature date or click the ![Calendar](/Assets/Icons/Calendar.png "[Calendar]") (Calendar) button to select the date.
 
 
 #### Payment options
 
-- *Price group*
+- *Price group*  
 Click the drop-down list to select the appropriate option.
 
   > [Info] Price groups... To set up a price group, see (link).
 
-  [comment]: <> (Artikelverwaltung > Einstellungen > Preisgruppen)
+  [comment]: <> (Brauche mehr Info! FH/HG? Artikelverwaltung > Einstellungen > Preisgruppen)
 
 - *Print gross*  
 Click the drop-down list to select the print mode. The following options are available:   
@@ -364,7 +412,7 @@ Enter the competent tax office, if known.
 Enter the customer/supplier tax number, if applicable.
 
 - *VAT ID*  
-Enter the customer/supplier VAT ID number, if applicable.
+Enter the customer/supplier VAT identification number, if applicable.
 
 
 #### Booking
@@ -377,7 +425,7 @@ Enter a standard account number for the bookings.
 - *Standard cost 1*  
 Enter a standard cost 1 account for the bookings.
 
-- *Standard cost 2*
+- *Standard cost 2*  
 Enter a standard cost 2 account for the bookings.
 
 
@@ -408,12 +456,13 @@ Click the drop-down list to select the applicable payment terms. The following o
   - 1 - 8 d 2%, 30 d net
   - 2 - 30 d net  
 
+
 - *Only cost supplier/order management inactive [x]*  
 Select or deselect this checkbox as necessary.
 
   > [Info] This option is only relevant when managing supplier receipts. Select it if the supplier is a provider delivering a service, for example an internet provider, but not goods. If the checkbox is activated, the supplier will not be taken into account in the creation of order proposals. For detailed information, see [link].  
 
-[comment]: <> (DE = nur Kostenlieferan/Bestellwesen inaktiv -> translation? Link to Fakturierung/Kunden / Lieferanten + Lieferantenbegele prüfen + Book a supplier receipt)
+[comment]: <> (DE = nur Kostenlieferant/Bestellwesen inaktiv -> translation? Link to Fakturierung/Kunden / Lieferanten + Lieferantenbegele prüfen + Book a supplier receipt)
 
 - *Goods receipt required [x]*  
 Select or deselect this checkbox as necessary.  
@@ -443,7 +492,7 @@ Select or deselect this checkbox to activate or deactivate a dunning block.
 - *Dunning block, automatic*  
 Select or deselect this checkbox to activate or deactivate an automatic dunning block.
 
-[comment]: <> (Automatic? Link to other function or module?)
+[comment]: <> (Automatic? Link to other function or module? Kann man diese automtische Funktion konfiguriert werden? Wie/Wo?)
 
 - *Delivery block*  
 Select or deselect this checkbox to activate or deactivate a delivery block.
@@ -455,15 +504,19 @@ Select or deselect this checkbox to activate or deactivate a contact block.
 #### Additional information
 
 - *Supplier no. for customer*  
-Enter a reference supplier number defined by the customer, if necessary.
-
-[comment]: <> (Referenznummer Customer/Supplier-Nr. bei unserem Kunden? Unclear!)
+Enter the reference supplier number defined by the customer, if any.
 
 - *Freight limit*  
 Enter a freight limit by the supplier, if necessary.
 
   > [Info] This field is only displayed when a supplier (account number range 70000-99999) is selected and, therefore, only relevant for suppliers.
 
+
+  - [HELP]  
+  Click this button to open the help function.
+
+  - [SAVE]  
+  Click this button to save any changes made.
 
 
 ### Additional fields
@@ -480,6 +533,14 @@ For detailed information, see [Additional fields](#additional-fields).
 
 [comment]: <> (Same Name! --> Restructure! Bug/question added to Bug Notes document)
 
+
+- [HELP]  
+Click this button to open the help function.
+
+- [SAVE]  
+Click this button to save any changes made.
+
+
 ### Drop shipping
 
 *Accounting > Select fiscal year > Settings > Tab DEBTORS/CREDITORS > Tab Create customer/supplier > Sub-tab Drop shipping*
@@ -493,6 +554,13 @@ To add further information, select the newly created supplier in the *Customer/S
 For detailed information, see [Drop shipping](#drop-shipping).
 
 [comment]: <> (Same Name! --> Restructure! Bug/question added to Bug Notes document)
+
+
+- [HELP]  
+Click this button to open the help function.
+
+- [SAVE]  
+Click this button to save any changes made.
 
 
 ### CRM information
@@ -510,7 +578,7 @@ For detailed information, see [Drop shipping](#drop-shipping).
   Enter the type of customer.
 
   - *Date of birth*  
-  Enter the date of birth or click the ![Calendar](/Assets/Icons/Calendar.png "[Calendar]") icon to select the date.
+  Enter the date of birth or click the ![Calendar](/Assets/Icons/Calendar.png "[Calendar]") (Calendar) button to select the date.
 
   - *Supervisor*  
   Click the drop-down list to select the corresponding supervisor.
@@ -521,7 +589,7 @@ For detailed information, see [Drop shipping](#drop-shipping).
   [comment]: <> (Gebiet/Area? Meaning department? Business area/unit?)
 
   - *Last pers. contact*  
-  Enter the date of the last personal contact or click the ![Calendar](/Assets/Icons/Calendar.png "[Calendar]") icon to select the date.
+  Enter the date of the last personal contact or click the ![Calendar](/Assets/Icons/Calendar.png "[Calendar]") (Calendar) button to select the date.
 
   - *Industry*  
   Enter information about the applicable industrial sector, if necessary.
@@ -533,7 +601,7 @@ For detailed information, see [Drop shipping](#drop-shipping).
 #### Credit rating
 
   - *Request from*  
-  Enter the request date or click the ![Calendar](/Assets/Icons/Calendar.png "[Calendar]") icon to select the date.
+  Enter the request date or click the ![Calendar](/Assets/Icons/Calendar.png "[Calendar]") (Calendar) button to select the date.
 
   - *Capital*  
   Enter the applicable capital amount.
@@ -542,17 +610,15 @@ For detailed information, see [Drop shipping](#drop-shipping).
   Click the drop-down list to select the appropriate number of employees.
 
   - *Status from*  
-  Enter the status date or click the ![Calendar](/Assets/Icons/Calendar.png "[Calendar]") icon to select the date.
+  Enter the status date or click the ![Calendar](/Assets/Icons/Calendar.png "[Calendar]") (Calendar) button to select the date.
 
   - *Year*  
   Enter the year of the credit rating.
 
   [comment]: <> (of credit rating?)
 
-  - *Turnover*  
-  Enter the turnover value.
-
-  [comment]: <> (Im System "Sales")
+  - *Sales*  
+  Enter the sales value.
 
   - *Other information*  
   Enter any other relevant information.
@@ -560,11 +626,14 @@ For detailed information, see [Drop shipping](#drop-shipping).
 
 #### Document Dispatch Notification Settings
 
+> [Info] This section is only relevant for customers, not for suppliers.
+
 - *Overwrite* [x]  
 Select the checkbox to display the options below.
 
 - *Dispatch method*  
 Click the drop-down list to select the shipping method. The following options are available:  
+
     - **Email**
     - **Post**
     - **Fax**
@@ -577,10 +646,14 @@ Click the drop-down list to select the applicable order origins(s). Multiple sel
 - *Template*  
 Click the drop-down list to select the applicable template.
 
-[comment]: <> (Drop-down list options to be localised)
+  [comment]: <> (Drop-down list options to be localised)
 
 
-> [Info] This section is not relevant when creating a supplier.
+  - [HELP]  
+  Click this button to open the help function.
+
+  - [SAVE]  
+  Click this button to save any changes made.
 
 
 ### Notes
@@ -687,10 +760,10 @@ Click the drop-down list to select the appropriate country.
 [comment]: <> (Drop-down liste im System auf DE, Sortierung aber auf EN)
 
 - *Phone*  
-Enter a landline phone number.
+Enter a contact phone number.
 
 - *Phone 2*  
-Enter a second landline phone number, if necessary.
+Enter a second contact phone number, if necessary.
 
 - *Cell phone*  
 Enter a cell phone number.
@@ -702,7 +775,7 @@ Enter a fax number, if necessary.
 Enter an email.
 
 - *VAT ID*  
-Enter the customer/supplier VAT ID number, if applicable.
+Enter the customer/supplier VAT identification number, if applicable.
 
 - *Tax number*  
 Enter the customer/supplier tax number, if applicable.
@@ -775,7 +848,7 @@ Click this button to open the help function.
 - [NEW/RESET]  
 Click this button to reset the *Customer/supplier* tab and create a new customer/supplier. The *Create customer/supplier* is displayed.
 
-- [DELETE CUSTOMER (XXXXX)]/[DELETE SUPPLIER (XXXXX)]  
+- [DELETE CUSTOMER 'number']/[DELETE SUPPLIER 'number']  
 Click this button to delete the selected customer/supplier.
 
 - [SAVE]  
@@ -817,7 +890,7 @@ Enter the IBAN (International Bank Account Number).
 Enter the SEPA mandate reference, if available.
 
 - *Signature date*  
-Enter the signature date or click the ![Calendar](/Assets/Icons/Calendar.png "[Calendar]") icon to select the date.
+Enter the signature date or click the ![Calendar](/Assets/Icons/Calendar.png "[Calendar]") (Calendar) button to select the date.
 
 
 #### Payment options
@@ -854,7 +927,7 @@ Enter the competent tax office, if known.
 Enter the customer/supplier tax number, if applicable.
 
 - *VAT ID*  
-Enter the customer/supplier VAT ID number, if applicable.
+Enter the customer/supplier VAT identification number, if applicable.
 
 
 #### Booking
@@ -1137,7 +1210,7 @@ Click this button to save all changes in the selected customer/supplier.
   Enter the type of customer.
 
   - *Date of birth*  
-  Enter the date of birth or click the ![Calendar](/Assets/Icons/Calendar.png "[Calendar]") icon to select the date.
+  Enter the date of birth or click the ![Calendar](/Assets/Icons/Calendar.png "[Calendar]") (Calendar) button to select the date.
 
   - *Supervisor*  
   Click the drop-down list to select the corresponding supervisor.
@@ -1148,7 +1221,7 @@ Click this button to save all changes in the selected customer/supplier.
   [comment]: <> (Gebiet/Area? Meaning department? Business area/unit?)
 
   - *Last pers. contact*  
-  Enter the date of the last personal contact or click the ![Calendar](/Assets/Icons/Calendar.png "[Calendar]") icon to select the date.
+  Enter the date of the last personal contact or click the ![Calendar](/Assets/Icons/Calendar.png "[Calendar]") (Calendar) button to select the date.
 
   - *Industry*  
   Enter information about the applicable industrial sector, if necessary.
@@ -1160,7 +1233,7 @@ Click this button to save all changes in the selected customer/supplier.
 #### Credit rating
 
   - *Request from*  
-  Enter the request date or click the ![Calendar](/Assets/Icons/Calendar.png "[Calendar]") icon to select the date.
+  Enter the request date or click the ![Calendar](/Assets/Icons/Calendar.png "[Calendar]") (Calendar) button to select the date.
 
   - *Capital*  
   Enter the applicable capital amount.
@@ -1169,7 +1242,7 @@ Click this button to save all changes in the selected customer/supplier.
   Click the drop-down list to select the appropriate number of employees.
 
   - *Status from*  
-  Enter the status date or click the ![Calendar](/Assets/Icons/Calendar.png "[Calendar]") icon to select the date.
+  Enter the status date or click the ![Calendar](/Assets/Icons/Calendar.png "[Calendar]") (Calendar) button to select the date.
 
   - *Year*  
   Enter the year of the credit rating.
@@ -1211,7 +1284,7 @@ Click the drop-down list to select the applicable template.
 
   ![CRM information - Supplier](/Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/CRMInformation02b.png "[CRM information - Supplier]")
 
-[comment]: <> (Reorganise information, make consistent with other sections!)
+[comment]: <> (Reorganize information, make consistent with other sections!)
 
 
 ### Notes
@@ -1393,3 +1466,19 @@ Click this button to save any changes made.
 
 - [CLEAR]  
 Click this button to clear the entry lines.
+
+
+#### Loyalty cards
+
+![Loyalty cards](/Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/LoyaltyCards.png "[Loyalty cards]")
+
+- *Loyalty card printing*
+
+- *Customer no.*
+
+- *Short name*
+
+- *No.*
+
+
+- [PRINT CUSTOMER CARD]
