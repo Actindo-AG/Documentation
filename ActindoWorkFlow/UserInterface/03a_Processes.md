@@ -287,12 +287,12 @@ The list displays all executed actions that are matching the selected status. De
   - *Status*  
   Status of the action. The different process statuses are displayed in different colors. The following statuses are possible:
 
-    - *Active*  
-    - *Done*  
-    - *Error*  
-    - *Error; automatic retry*  
-    - *Suspended*  
-    - *Process aborted*  
+    - **Active**  
+    - **Done**  
+    - **Error**  
+    - **Error; automatic retry**  
+    - **Suspended**  
+    - **Process aborted**  
 
 [comment]: <> (Repeat here or leave it out? Add color code?)
 
@@ -376,28 +376,26 @@ Click the drop-down list to select the view. All created views are displayed in 
 - *Log Level*  
 Click the drop-down list to select a log level. The following options are available:  
 
-    - **All**  
-    Select this option to display all logs, regardless of their status.
+  - **All**  
+  Select this option to display all logs regardless of their type.
+  - **Debug**
+  Select this option to display all logs of the **Debug** type.
+  - **Info**  
+  Select this option to display all logs of the **Info** type.
+  - **Notice**
+  Select this option to display all logs of the **Notice** type.
+  - **Warning**
+  Select this option to display all logs of the **Warning** type.
+  - **Error**  
+  Select this option to display all logs of the **Error** type.
+  - **Critical**
+  Select this option to display all logs of the **Critical** type.
+  - **Alert**
+  Select this option to display all logs of the **Alert** type.
+  - **Emergency**
+  Select this option to display all logs of the **Emergency** type.
 
-    - **Debug**
-
-    - **Info**  
-    Select this option to display all logs simply providing information.
-
-    - **Notice**
-
-    - **Warning**
-
-    - **Error**  
-    Select this option to display all logs specifying an error.
-
-    - **Critical**
-
-    - **Alert**
-
-    - **Emergency**
-
-[comment]: <> (Log status durchgehen?)
+[comment]: <> (Oli: Log status durchgehen und erklären?)
 
 
 - ![Search](/Assets/Icons/Search.png "[Search]") (Search)  
@@ -413,7 +411,7 @@ Click this button to display the columns bar and customize the displayed columns
 Click this button to display the filter bar and customize the active filters. The *x* indicates the number of filters that are currently active.
 
 
-The list displays all logs. Depending on the settings, the displayed columns may vary. All fields are read-only.
+The list displays all logs that are matching the selected log level. Depending on the settings, the displayed columns may vary. All fields are read-only. Click a log to display the *Log ID* view, see [Log ID](#Log-ID).
 
   - [x]    
   Select the checkbox to display the editing toolbar.
@@ -423,14 +421,14 @@ The list displays all logs. Depending on the settings, the displayed columns may
   - *Type*  
   Log level type. The different log level types are displayed in different colors. The following types can be displayed:
 
-    - *Debug*
-    - *Info*
-    - *Notice*
-    - *Warning*
-    - *Error*
-    - *Critical*
-    - *Alert*
-    - *Emergency*
+    - **Debug**
+    - **Info**
+    - **Notice**
+    - **Warning**
+    - **Error**
+    - **Critical**
+    - **Alert**
+    - **Emergency**
 
 [comment]: <> (Repeat here or leave it out? Add color code?)
 
@@ -451,7 +449,7 @@ The list displays all logs. Depending on the settings, the displayed columns may
   Date and time of creation.
 
   - *ID*  
-  Log  identification number. The ID number is automatically assigned by the system.
+  Log identification number. The ID number is automatically assigned by the system.
 
   - *Process*  
   Description of the process to which the log refers.
