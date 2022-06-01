@@ -42,24 +42,24 @@ Click the drop-down list to select the view. All created views are displayed in 
 
     - **All**  
       Select this option to display all logs regardless of their type.
-    - **Debug**
+    - **Debug**  
       Select this option to display all logs of the **Debug** type.
     - **Info**  
       Select this option to display all logs of the **Info** type.
-    - **Notice**
+    - **Notice**  
       Select this option to display all logs of the **Notice** type.
-    - **Warning**
+    - **Warning**  
       Select this option to display all logs of the **Warning** type.
     - **Error**  
       Select this option to display all logs of the **Error** type.
-    - **Critical**
+    - **Critical**  
       Select this option to display all logs of the **Critical** type.
-    - **Alert**
+    - **Alert**  
       Select this option to display all logs of the **Alert** type.
-    - **Emergency**
+    - **Emergency**  
       Select this option to display all logs of the **Emergency** type.
 
-[comment]: <> (Log status durchgehen?)
+[comment]: <> (Oli: Log status durchgehen und erklären?)
 
 - ![Search](/Assets/Icons/Search.png "[Search]") (Search)   
   Click this button to display the search bar and search for a log.
@@ -74,13 +74,16 @@ Click the drop-down list to select the view. All created views are displayed in 
   Click this button to display the filter bar and customize the active filters. The *x* indicates the number of filters that are currently active.
 
 
-The list displays all logs that are matching the selected log level. Depending on the settings, the displayed columns may vary. All fields are read-only.  Click a log, to display the *Log ID* view, see [Log ID](#Log-ID).
+The list displays all logs that are matching the selected log level. Depending on the settings, the displayed columns may vary. All fields are read-only. Click a log to display the *Log ID* view, see [Log ID](#Log-ID).
 
 - [x]    
   Select the checkbox to display the editing toolbar.
 
+[comment]: <> (Keine Buttons angezeigt. Was macht das Toolbar?)
+
 - *Type*  
   Log level type. The different log level types are displayed in different colors. The following types are possible:
+
   - **Debug**
   - **Info**
   - **Notice**
@@ -90,7 +93,8 @@ The list displays all logs that are matching the selected log level. Depending o
   - **Alert**
   - **Emergency**
 
-[comment]: <> (Repeat here or leave it out? Add color code?)
+[comment]: <> (Oli: Farbe bestätigen? Alternativ, abwarten auf endgültige UI von Ina?)
+[comment]: <> (Add color code and sign! Auch andere Dateien.)
 
 - *Log Message*   
   Description of the issue.
@@ -99,37 +103,38 @@ The list displays all logs that are matching the selected log level. Depending o
   Workflow which the log message refers to.
 
 - *Workflow ID*       
-  Workflow ID number.
+  Workflow identification number. The ID number is automatically assigned by the system.
 
 - *Search String*    
+
   [comment]: <> (Oli fragen)
 
 - *Created*   
-  Date of creation.
+  Date and time of creation.
 
 - *ID*   
-  Log ID number.
+  Log identification number. The ID number is automatically assigned by the system.
 
-- *Process*   
-  Process specification.
+  - *Process*  
+  Description of the process to which the log refers.
 
-- *Process ID*   
-  Process ID number.
+  - *Process ID*  
+  Identification number of the process to which the log refers. The ID number is automatically assigned by the system.
 
-- *Transition*   
-  Transition specification.
+  - *Transition*  
+  Key of the action to which the log refers.
 
-- *Transition ID*   
-  Transition ID number.
+  - *Transition ID*  
+  Identification number of the action to which the log refers. The ID number is automatically assigned by the system.
 
-- *Created by*   
-  Name and user ID of person who created the process.
+  - *Created by*  
+  Name and user name of the user who initiated the process.
 
 
 
 ## Create view
 
-*Workflows > Processes > Tab OVERVIEW > Button Points > Menu entry create*
+*Workflows > Logs > Tab OVERVIEW > Button Points > Menu entry create*
 
 ![Create view](/Assets/Screenshots/ActindoWorkFlow/Workflows/CreateView.png "[Create view]")
 
@@ -147,7 +152,7 @@ The list displays all logs that are matching the selected log level. Depending o
 
 ## Rename view
 
-*Workflows > Processes > Tab OVERVIEW > Button Points > Menu entry rename*
+*Workflows > Logs > Tab OVERVIEW > Button Points > Menu entry rename*
 
 ![Rename view](/Assets/Screenshots/ActindoWorkFlow/Workflows/RenameView.png "[Rename view]")
 
@@ -165,7 +170,7 @@ The list displays all logs that are matching the selected log level. Depending o
 
 ## Log ID
 
-*Workflows > Processes > Tab OVERVIEW > Select a process > Tab Logs > Select Log Message*
+*Workflows > Logs > Tab OVERVIEW > Select Log Message*
 
 ![Log ID](/Assets/Screenshots/ActindoWorkFlow/Processes/LogID.png "[Log ID]")
 
