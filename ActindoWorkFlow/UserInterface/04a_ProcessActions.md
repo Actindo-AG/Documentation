@@ -78,27 +78,30 @@ Click the drop-down list to select a process status. The following statuses are 
     Click this button to display the filter bar and customize the active filters. The *x* indicates the number of filters that are currently active.
 
 
-The list displays all actions that are matching the selected status. Depending on the settings, the displayed columns may vary. All fields are read-only.  Click an action, to display the corresponding process in the *Process ID* view, see [Process ID](03a_Processes.md#process-id).
+The list displays all actions that are matching the selected status. Depending on the settings, the displayed columns may vary. All fields are read-only. Click an action to display the corresponding process in the *Process ID* view, see [Process ID](03a_Processes.md#process-id).
 
-[comment]: <> (Jetzt etwas verwirrt zu den Verweisen: Auf Actions oder auf Proces ID verweisen? Wenn ich hier an andere Datei verweise, könnte ich genauso machen mit Create view and Rename view, oder? Das gilt auch für 06a_Logs.md mit den Verweisen auf Create / Rename view und Log ID).
+> [Info] When clicking an action in the *Process Actions* view, the selected action is displayed in the *Actions* tab of the corresponding *Process ID* view. The *Actions* tab of the *Process ID* view is, in fact, an excerpt of the *Process Actions* menu entry.
+
 
   - [x]    
   Select the checkbox to display the editing toolbar. If you click the checkbox in the header, all actions in the list are selected.
 
-    Depending on the action status, the editing toolbar displays the following buttons:
+  Depending on the action status, the editing toolbar displays the following buttons:
 
   - ![Retry](/Assets/Icons/Retry01.png "[Retry]") (Retry)  
     Click this button to retry the action. This button is displayed when the action status is *Error*.
   - ![Suspend](/Assets/Icons/Pause.png "[Suspend]") (Suspend)  
     Click this button to suspend the action temporarily. This button is displayed when the action status is *In Progress*. When clicking this button, the action status changes to *Suspended*.
   - ![Start](/Assets/Icons/Play.png "[Start]") (Start)  
-    Click this button to resume the action. This button is displayed when the action status is *Suspended*. When clicking this button, the action status changes again to *In Progress*.
+    Click this button to resume the action. This button is displayed when the action status is *Suspended*. When clicking this button, the action status changes again to *In Progress*. The warning sign in the *Suspended Actions* column of the *Processes* view is no longer displayed.
   - [REMOVE DEFER TIME]  
-    Click this button to eliminate the defer time preconfigured in the action, if any. The action is then executed immediately. This button is displayed when the action status is *In Progress*.
+    Click this button to skip the defer time preconfigured in the action, if any. The action is then executed immediately. This button is displayed when the action status is *In Progress*.
+
+  [comment]: <> (Oli: Stimmt das so? Wird die Zeit zum Ausführen der Aktion einmalig vorgezogen? Und wenn es dann aber wieder nicht klappt, greift wieder die eingestellte defer time? Oder was passiert dann?)
 
 
   - *Status*  
-  Status of the action. The different process statuses are displayed in different colours. The following statuses are possible:
+  Status of the action. The different process statuses are displayed in different colors. The following statuses are possible:
 
     - *Active*  
     - *Done*  
@@ -107,25 +110,27 @@ The list displays all actions that are matching the selected status. Depending o
     - *Suspended*  
     - *Process aborted*  
 
-[comment]: <> (Repeat here or leave it out? Add colour code?)
+  [comment]: <> (Oli: Farbe bestätigen? Alternativ, abwarten auf endgültige UI von Ina?)
+  [comment]: <> (Add color code and sign! Auch andere Dateien.)
 
   - *Transition*  
-  Transition executed in the course of the selected action.
+  Action key.
 
   - *Tries*  
-  Number of times an action has been tried.
+  Number of times the action execution has been tried.
 
   - *Max retries after error*  
-  Number of times an action must be retried after error.
+  Number of times the action execution must be retried after error.
 
   > [Info] This setting depends on the action and is usually preconfigured.
 
 [comment]: <> (Question pending for OLI)
 
   - *Queue Type*  
-  The *Default* queue type is normally selected. For detailed information about configuring queue types, see [Configure the queue types](01_ConfigureQueueTypes.md).
+  Queue type assigned to the action. By default, the *Default* queue type is assigned. For detailed information about configuring queue types, see [Configure the queue types](/ActindoWorkFlow/Integration/01_ConfigureQueueTypes.md).
 
-  > [Info] A different queue type can be selected by editing an action, see [Edit an action](01_ManageWorkflows.md#edit-an-action).
+  > [Info] A different queue type can be selected by editing an action in the workflow editor, see [Edit an action](/ActindoWorkFlow/Operation/01_ManageWorkflows.md#edit-an-action).
+
 
   - *Defer until*  
   Next point in time when the action is being tried.  
@@ -133,20 +138,18 @@ The list displays all actions that are matching the selected status. Depending o
   > [Info] This setting depends on the action and is not available in all actions.
 
   - *Created*  
-  Date of creation.
+  Date and time of creation.
 
   - *Modified*  
-  Date of modification.
-
-[comment]: <> (Editing tool bar - icons Pause/Stop?)
+  Date and time of modification.
 
   - *ID*  
-  Action ID number.
+  Action identification number. The ID number is automatically assigned by the system.
 
   [comment]: <> (Oli fragen)
 
   - *Transition ID*  
-  Transition ID number.
+  Action identification number. The ID number is automatically assigned by the system.
 
 
 ## Create view
