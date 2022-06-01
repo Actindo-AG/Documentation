@@ -310,7 +310,7 @@ The list displays all executed actions that are matching the selected status. De
 [comment]: <> (Question pending for OLI)
 
   - *Queue Type*  
-  Queue type assigned to the action. By default, the *Default* queue type is assigned. For detailed information about configuring queue types, see [Configure the queue types](01_ConfigureQueueTypes.md).
+  Queue type assigned to the action. By default, the *Default* queue type is assigned. For detailed information about configuring queue types, see [Configure the queue types](/ActindoWorkFlow/Integration/01_ConfigureQueueTypes.md).
 
   > [Info] A different queue type can be selected by editing an action in the workflow editor, see [Edit an action](/ActindoWorkFlow/Operation/01_ManageWorkflows.md#edit-an-action).
 
