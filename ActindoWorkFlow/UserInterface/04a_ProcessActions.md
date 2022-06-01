@@ -80,7 +80,7 @@ Click the drop-down list to select a process status. The following statuses are 
 
 The list displays all actions that are matching the selected status. Depending on the settings, the displayed columns may vary. All fields are read-only. Click an action to display the corresponding process in the *Process ID* view, see [Process ID](03a_Processes.md#process-id).
 
-> [Info] When clicking an action in the *Process Actions* view, the selected action is displayed in the *Actions* tab of the corresponding *Process ID* view. The *Actions* tab of the *Process ID* view is, in fact, an excerpt of the *Process Actions* menu entry.
+> [Info] When clicking an action in the *Process Actions* view, the selected action is displayed in the *Actions* tab of the corresponding *Process ID* view. The *Actions* tab of the *Process ID* view is, in fact, an excerpt of the *Process Actions* menu entry. Click the *Logs* tabs in the *Process ID* view for detailed information about the selected process actions, see [Logs](06a_Logs.md).
 
 
   - [x]    
