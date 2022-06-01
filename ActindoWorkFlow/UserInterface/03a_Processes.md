@@ -614,14 +614,14 @@ In the *Log Message* section, detailed information about the log is displayed. A
 - *Log Level*  
 Log level type. The following types can be displayed:
 
-  - *Debug*
-  - *Info*
-  - *Notice*
-  - *Warning*
-  - *Error*
-  - *Critical*
-  - *Alert*
-  - *Emergency*
+  - **Debug**
+  - **Info**
+  - **Notice**
+  - **Warning**
+  - **Error**
+  - **Critical**
+  - **Alert**
+  - **Emergency**
 
 
 - Log message box   
