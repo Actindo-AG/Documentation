@@ -80,7 +80,7 @@ Click the drop-down list to select a process status. The following statuses are 
 
 The list displays all actions that are matching the selected status. Depending on the settings, the displayed columns may vary. All fields are read-only. Click an action to display the corresponding process in the *Process ID* view, see [Process ID](03a_Processes.md#process-id).
 
-> [Info] When clicking an action in the *Process Actions* view, the selected action is displayed in the *Actions* tab of the corresponding *Process ID* view. The *Actions* tab of the *Process ID* view is, in fact, an excerpt of the *Process Actions* menu entry. Click the *Logs* tabs in the *Process ID* view for detailed information about the selected process actions, see [Logs](06a_Logs.md).
+> [Info] When clicking an action in the *Process Actions* view, the selected action is displayed in the *Actions* tab of the corresponding *Process ID* view. The *Actions* tab of the *Process ID* view is, in fact, an excerpt of the *Process Actions* menu entry. Click the *Logs* tab in the *Process ID* view for detailed information about the selected process actions, see [Logs](06a_Logs.md).
 
 
   - [x]    
@@ -154,7 +154,7 @@ The list displays all actions that are matching the selected status. Depending o
 
 ## Create view
 
-*Workflows > Processes > Tab OVERVIEW > Button Points > Menu entry create*
+*Workflows > Process Actions > Tab OVERVIEW > Button Points > Menu entry create*
 
 ![Create view](/Assets/Screenshots/ActindoWorkFlow/Workflows/CreateView.png "[Create view]")
 
@@ -172,7 +172,7 @@ Click this button to save the new view. The *Create view* window is closed. The 
 
 ## Rename view
 
-*Workflows > Processes > Tab OVERVIEW > Button Points > Menu entry rename*
+*Workflows > Process Actions > Tab OVERVIEW > Button Points > Menu entry rename*
 
 ![Rename view](/Assets/Screenshots/ActindoWorkFlow/Workflows/RenameView.png "[Rename view]")
 
