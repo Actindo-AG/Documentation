@@ -1611,7 +1611,9 @@ Click the drop-down menu to select the appropriate option (Yes/No).
 ![Import/export definitions](/Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/ImportExportDefinitions.png "[Import/export definitions]")
 
 
+**Name**
 
+**Fields
 
 #### Select file
 
