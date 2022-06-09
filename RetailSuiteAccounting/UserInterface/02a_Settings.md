@@ -1364,9 +1364,9 @@ Depending on the settings, the displayed columns may vary. All information provi
 
 
 - [Checkbox]  
-Mark a checkbox to select a row. The *Edit* section is displayed. When selecting the checkbox in the table header, all rows are selected.
+Mark a checkbox to select a row. The *Edit* section is displayed.
 
-[comment]: <> (Das funktioniert nicht wirklich so. Bug? Kommentar hinzugefügt in Bugs file.)
+[comment]: <> (When selecting the checkbox in the table header, all rows are selected? Das funktioniert nicht wirklich so. Bug? Kommentar hinzugefügt in Bugs file.)
 
 - *ID*  
 Content identification number. This value is assigned automatically by the system.
@@ -1408,8 +1408,6 @@ Click this button to refresh the list after making any changes.
 
 ![Content](/Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/Content03.png "[Content]")
 
-> [Info] The *Add* section name changes to *Edit* when selecting a content from the list. Before adding new content, make sure to clear all entry fields with the [CLEAR] button. Otherwise, the newly entered content will replace the selected content from the list.
-
 
 - *Language*  
 Click the drop-down list to select the appropriate content language.
@@ -1433,6 +1431,7 @@ Enter the link to the content.
 
 - *Link target*  
 Click the drop-down list to select the appropriate option. The following options are available:  
+
   - **New window**: To open the content in a new window
   - **Same window**: To open the content in the same window
 
@@ -1453,15 +1452,11 @@ Click this button to save any changes made.
 - [CLEAR]  
 Click this button to clear the entry fields.
 
-  > [Info] Make sure to clear all entry fields before adding new content. Otherwise, the newly entered content will replace the selected content from the list.
-
 
 
 **Add**
 
 ![Content](/Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/Content02.png "[Content]")
-
-> [Info] The *Add* section name changes to *Edit* when selecting a content from the list. Before adding new content, make sure to clear all entry fields with the [CLEAR] button. Otherwise, the newly entered content will replace the selected content from the list.
 
 
 - *Language*  
@@ -1486,6 +1481,7 @@ Enter the link to the content.
 
 - *Link target*  
 Click the drop-down list to select the appropriate option. The following options are available:  
+
   - **New window**: To open the content in a new window
   - **Same window**: To open the content in the same window
 
@@ -1529,9 +1525,16 @@ Click this button to save all changes in the selected customer/supplier.
 
 *Accounting > Select fiscal year > Settings > Tab DEBTORS/CREDITORS > Tab Customer/supplier list > Select customer > Sub-tab Stock history*
 
-![Stock history](/Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/StockHistory.png "[Stock history]")
+![Stock history](/Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/StockHistory02.png "[Stock history]")
 
 > [Info] This sub-tab is only displayed when selecting a customer in the *Customer/supplier* list and more than one delivery address has been entered in the *Further addresses* tab.
+
+- [EXCEL]  
+Click this button to display the *EXCEL* context menu. The following options are available:  
+
+  - *Export current page*
+  - *Export all*
+
 
 - *Cust. no.*  
 Customer number assigned in the system.
@@ -1559,7 +1562,7 @@ Net price of product.
 - *Total price*  
 Total price of product.
 
-[comment]: <> (Unterschied Price - Total price? Warum - Zahl?)
+[comment]: <> (Unterschied Price - Total price? Warum minus Zahl?)
 
 - *Date*  
 Date in which the operation has taken place.
@@ -1649,7 +1652,7 @@ Click this button to save all changes in the selected customer/supplier.
 
 *Accounting > Select fiscal year > Settings > Tab DEBTORS/CREDITORS > Tab Customer/supplier list > Select customer > Sub-tab Statistics*
 
-> [Info] This sub-tab is only displayed when selecting a customer in the *Customer/supplier* list and there is at least one further delivery address other than the standard one in the *Further addresses* tab.
+> [Info] This sub-tab is only displayed when selecting a customer in the *Customer/supplier* list and more than one delivery address has been entered in the *Further addresses* tab.
 
 ![Statistics](/Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/Statistics.png "[Statistics]")
 
@@ -1704,7 +1707,7 @@ Click the drop-down list to select the period for the statistics. The following 
   Select this option to display the turnover for a specific month. An additional drop-down list to choose the calendar week is displayed.
 
   - *Free selection*  
-  Select his option to determine a period freely. The additional *from - to* fields, the ![Calendar](/Assets/Icons/Calendar.png "[Calendar]") (Calendar) button and the *Product group* drop down list are displayed.
+  Select this option to determine a period freely. The additional *from - to* fields and the ![Calendar](/Assets/Icons/Calendar.png "[Calendar]") (Calendar) button are displayed.
 
   - *From - to*  
   Enter the start and end date of a specific period for the statistics. Alternatively, use the ![Calendar](/Assets/Icons/Calendar.png "[Calendar]") (Calendar) button to select the desired dates.
@@ -1727,6 +1730,8 @@ Click this button to display the statistics in the list.
 
 - [PRINT]  
 Click this button to print the statistics displayed. The *Print view* window is displayed.
+
+[comment]: <> (Fenster beschreiben?)
 
 - [EXCEL]  
 Click this button to download the statistics displayed in Excel format. The Excel file is downloaded by default in the *Downloads* folder of your computer.
@@ -1799,7 +1804,7 @@ Click the drop-down list to select the period for the statistics. The following 
   Select this option to display the turnover for a specific month. An additional drop-down list to choose the calendar week is displayed.
 
   - *Free selection*  
-  Select his option to determine a period freely. The additional *from - to* fields, the ![Calendar](/Assets/Icons/Calendar.png "[Calendar]") (Calendar) button and the *Product group* drop down list are displayed.
+  Select this option to determine a period freely. The additional *from - to* fields and the ![Calendar](/Assets/Icons/Calendar.png "[Calendar]") (Calendar) button are displayed.
 
   - *From - to*  
   Enter the start and end date of a specific period for the statistics. Alternatively, use the ![Calendar](/Assets/Icons/Calendar.png "[Calendar]") (Calendar) button to select the desired dates.
@@ -1822,6 +1827,8 @@ Click this button to display the statistics in the list.
 
 - [PRINT]  
 Click this button to print the statistics displayed. The *Print view* window is displayed.
+
+[comment]: <> (Fenster beschreiben?)
 
 - [EXCEL]  
 Click this button to download the statistics displayed in Excel format. The Excel file is downloaded by default in the *Downloads* folder of your computer.
@@ -1888,7 +1895,7 @@ Click the drop-down list to select the period for the statistics. The following 
   Select this option to display the turnover for a specific month. An additional drop-down list to choose the calendar week is displayed.
 
   - *Free selection*  
-  Select his option to determine a period freely. The additional *from - to* fields, the ![Calendar](/Assets/Icons/Calendar.png "[Calendar]") (Calendar) button and the *Product group* drop down list are displayed.
+  Select this option to determine a period freely. The additional *from - to* fields and the ![Calendar](/Assets/Icons/Calendar.png "[Calendar]") (Calendar) button are displayed.
 
   - *From - to*  
   Enter the start and end date of a specific period for the statistics. Alternatively, use the ![Calendar](/Assets/Icons/Calendar.png "[Calendar]") (Calendar) button to select the desired dates.
@@ -1911,6 +1918,8 @@ Click this button to display the statistics in the list.
 
 - [PRINT]  
 Click this button to print the statistics displayed. The *Print view* window is displayed.
+
+[comment]: <> (Fenster beschreiben?)
 
 - [EXCEL]  
 Click this button to download the statistics displayed in Excel format. The Excel file is downloaded by default in the *Downloads* folder of your computer.
@@ -1967,7 +1976,7 @@ The left side menu displays the drop shipping setting options. The following men
 - *Shipping provider*  
 Click the drop-down list to select a shipping provider. Depending on the shipping provider selected, the fields displayed in the *Services* section vary.  
 
-> [Info] The shipping provider can be configured in the *Invoicing* module, *Shipping provider* tab of the *Settings* menu entry.
+> [Info] The shipping provider can be configured in the *Shipping provider* tab of the *Settings* menu entry in the *Invoicing* module.
 
 **Services - (shipping provider name)**  
 Configure the services as agreed with the shipping provider. Depending on the shipping provider selected, the services, and therefore the displayed fields, vary.
@@ -1987,6 +1996,7 @@ Click the drop-down list to select the appropriate export method. The following 
   - **csv**
   - **No export**
 
+[comment]: <> (Andere Optionen? Wovon hängt es ab?)
 
 - *Number of data records per file*  
 Enter the desired number of data records per file.
@@ -2001,7 +2011,7 @@ Click the drop-down list to select the export definition. The following options 
 [comment]: <> (Andere Optionen, abhängig von Shipping provider?)
 
 - [EDIT]  
-Click this button to edit the export definition. The *Import/Export definitions* window is displayed.
+Click this button to edit the export definition. The *Import/export definitions* window is displayed, see [Import/export definitions](#import-export-definitions).
 
 - *Export file name*  
 Enter the export file name.
@@ -2024,7 +2034,7 @@ Click the drop-down menu to select the appropriate option (**Yes/No**).
 Enter the appropriate export path. Alternatively, click the [SEARCH] button to determine the export path.
 
 - [SEARCH]  
-Click this button to determine the export path. The *Select file* window is displayed. Select the folder where the file must be exported.
+Click this button to determine the export path. The *Select file* window is displayed, see [Select file](#select-file). Select the folder where the file is to be exported.
 
 **Export to an external SFTP server**  
 
@@ -2076,7 +2086,7 @@ Click the drop-down menu to select the appropriate option (**Yes/No**).
 Enter the appropriate export path. Alternatively, click the [SEARCH] button to determine the export path.
 
 - [SEARCH]  
-Click this button to determine the export path. The *Select file* window is displayed. Select the folder where the file must be exported.
+Click this button to determine the export path. The *Select file* window is displayed, see [Select file](#select-file). Select the folder where the file is to be exported.
 
 **Export to an external SFTP server**  
 
@@ -2103,7 +2113,7 @@ Click the drop-down menu to select the appropriate option (**Yes/No**).
 - *Import via*  
 Click the drop-down list to select the appropriate export method. The following options are available:  
 
-  - **CSV**
+  - **csv**
   - **No export**
 
 
@@ -2115,7 +2125,7 @@ Click the drop-down list to select the export definition. The following options 
 [comment]: <> (Andere Optionen, abhängig von Shipping provider?)
 
 - [EDIT]  
-Click this button to edit the import definition. The *Import/Export definitions* window is displayed.
+Click this button to edit the import definition. The *Import/export definitions* window is displayed, see [Import/export definitions](#import-export-definitions).
 
 - *Import file name*  
 Enter the import file name.
@@ -2131,7 +2141,7 @@ Click the drop-down menu to select the appropriate option (**Yes/No**).
 Enter the appropriate import path. Alternatively, click the [SEARCH] button to determine the import path.
 
 - [SEARCH]  
-Click this button to determine the import path. The *Select file* window is displayed. Select the folder where the file must be imported.
+Click this button to determine the import path. The *Select file* window is displayed, see [Select file](#select-file). Select the folder where the file must be imported.
 
 - *Action after import*  
 Click the drop-down menu to select the appropriate option. The following options are available:
@@ -2146,12 +2156,12 @@ Click the drop-down menu to select the appropriate option. The following options
 Enter the appropriate path to move the file. Alternatively, click the [SEARCH] button to determine the path to move the file.
 
 - [SEARCH]  
-Click this button to determine the path to move the file. The *Select file* window is displayed. Select the folder where the file must be moved.
+Click this button to determine the path to move the file. The *Select file* window is displayed, see [Select file](#select-file). Select the folder where the file must be moved.
 
 **Import from an external SFTP server**
 
 - *Import from SFTP server*  
-Click the drop-down menu to select the appropriate option (Yes/No).
+Click the drop-down menu to select the appropriate option (**Yes/No**).
 
 
 
@@ -2186,8 +2196,8 @@ Click the drop-down menu to select the appropriate option (Yes/No).
   - *Industry*  
   Enter information about the applicable industrial sector, if necessary.
 
-  - *Industry 2*
-  Enter information about the applicable industrial sector, if necessary.
+  - *Industry 2*  
+  Enter further information about the applicable industrial sector, if necessary.
 
 
 **Credit rating**
@@ -2224,12 +2234,14 @@ Click the drop-down menu to select the appropriate option (Yes/No).
 Select the checkbox to display the options below.
 
 - *Dispatch method*  
-Click the drop-down list to select the shipping method. The following options are available:  
+Click the drop-down list to select the dispatch method. The following options are available:  
+
     - **Email**
     - **Post**
     - **Fax**
     - **APS print**  
 
+[comment]: <> (Im System Shipping method)
 
 - *Order origin*  
 Click the drop-down list to select the applicable order origins(s). Multiple selection is possible.
@@ -2240,11 +2252,10 @@ Click the drop-down list to select the applicable template.
 [comment]: <> (Drop-down list options to be localised)
 
 
-> [Info] When selecting a supplier (customer 70000 onwards) in the *Customer/supplier list*, only the *General* and *Credit rating* sections are displayed. Moreover, the *General* fields contains only the *Supervisor*, *Area*, *Last pers. contact*, *Industry* and *Industry 2* fields.   
+> [Info] When selecting a supplier (customer 70000 onwards) in the *Customer/supplier list*, only the *General* and *Credit rating* sections are displayed. Moreover, the *General* section contains only the *Supervisor*, *Area*, *Last pers. contact*, *Industry* and *Industry 2* fields.   
 
   ![CRM information - Supplier](/Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/CRMInformation02b.png "[CRM information - Supplier]")
 
-[comment]: <> (Reorganize information, make consistent with other sections!)
 
 
 ### Notes
@@ -2255,7 +2266,7 @@ Click the drop-down list to select the applicable template.
 
 
 - *Comments*  
-Enter any further relevant information in this section. The information entered here is displayed in the *Comments* column in the *Customer/supplier* tab.
+Enter any further relevant information in the box. The information entered here is displayed in the *Comments* column in the *Customer/supplier* tab.
 
 
 - [HELP]  
@@ -2277,6 +2288,8 @@ Click this button to save all changes in the selected customer/supplier.
 #### Select tax office
 
 *Accounting > Select fiscal year > Settings > Tab DEBTORS/CREDITORS > Tab Create customer/supplier > Sub-tab Invoicing > Button SUCHEN*
+
+*Accounting > Select fiscal year > Settings > Tab DEBTORS/CREDITORS > Tab Customer/supplier list > Select customer/supplier > Sub-tab Invoicing > Button SUCHEN*
 
 ![Select tax office](/Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/SelectTaxOffice.png "[Select tax office]")
 
@@ -2300,10 +2313,12 @@ This column displays the tax office street.
 - *Street*  
 This column displays additional address details.
 
-[comment]: <> (Rename column!)
+[comment]: <> (Or Zip code? Rename column)
 
 - *City*  
 This column displays the tax office location.
+
+[comment]: <> (Fenster funktioniert nicht? -> Wenn man versucht zu suchen, Fehlermeldung. Plugin-Name?)
 
 
 #### Edit additional fields
@@ -2332,7 +2347,8 @@ When placing the cursor on a column header, three vertical points are displayed 
 
 Depending on the settings, the displayed columns may vary. All information provided in columns is read-only.
 
-- [Checkbox]
+- [Checkbox]  
+Mark this checkbox to select a field to be edited or deleted. The *Edit* section is displayed.
 
 - *Field ID*  
 This column displays the field ID entered.
@@ -2360,11 +2376,9 @@ Click this button to delete a selected address from the list.
 Click this button to refresh the list after making any changes.
 
 
-**Add**
+**Edit**
 
-![Add additional fields](/Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/EditAdditionalFields02Excel.png "[Add additional fields]")
-
-![Add additional fields](/Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/EditAdditionalFields03Excel.png "[Add additional fields]")
+![Add additional fields](/Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/EditAdditionalFields02Edit.png "[Add additional fields]")
 
 [comment]: <> (Beide Bilder in einem -> Snagit RS HG)
 
@@ -2385,7 +2399,77 @@ Click the drop-down list to select the appropriate type. The following options a
   - **Date**
   - **Time**  
 
-> [Info] Depending on the type selected, the fields displayed vary slightly.
+  > [Info] Depending on the type selected, the fields displayed vary slightly.
+
+
+- *Field groups*  
+Click the drop-down list to select the appropriate option.
+
+[comment]: <> (Meaning? Options? Where should it be preconfigured for the drop-down list options to be displayed?)
+
+- *Multilingual*  
+Click the drop-down list to select the appropriate option (**No/Yes**).
+
+- *Force input*  
+Click the drop-down list to select the appropriate option (**No/Yes**).
+
+[comment]: <> (Meaning? Compulsory input? DE = Auswahl / Eingabe erzwingen)
+
+- *Minimum input length/value*  
+Enter a number to determine the minimum input length/value.
+
+- *Maximum input length/value*  
+Enter a number to determine the maximum input length/value.
+
+- *Print on the following documents*  
+Click the drop-down list to select the applicable document. The following options are available:
+
+  - **Offer**
+  - **Order confirmation**
+  - **Invoice**
+  - **Cash invoice**
+  - **Partial invoice**
+  - **Correction invoice**
+  - **Credit note**
+  - **Delivery note**
+  - **Dunning**
+  - **Supplier order**
+  - **Loan receipt**
+  - **Pro-forma invoice**
+  - **Cancellation document**
+  - **Delivery note drop shipping**
+  - **Return**
+  - **Reshipment to customer**
+
+  [comment]: <> (Alle Dokumentennamen vereinheitlichen! Terminologie prüfen!)
+
+
+**Add**
+
+![Add additional fields](/Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/EditAdditionalFields02Add.png "[Add additional fields]")
+
+![Add additional fields](/Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/EditAdditionalFields03Add.png "[Add additional fields]")
+
+[comment]: <> (Beide Bilder in einem -> Snagit RS HG)
+
+- *Field ID*  
+Enter the field ID. The field ID must contain at least two characters. Only a-z und 0-9 can be used.
+
+- *Field name*  
+Enter a field name.
+
+- *Type*  
+Click the drop-down list to select the appropriate type. The following options are available:
+
+  - **Text field**
+  - **Number field**
+  - **Text field, multiline**
+  - **Checkbox**
+  - **ComboBox**
+  - **Date**
+  - **Time**  
+
+  > [Info] Depending on the type selected, the fields displayed vary slightly.
 
 
 - *Field groups*  
@@ -2447,16 +2531,24 @@ Click this button to clear the entry lines.
 
 ![Loyalty cards](/Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/LoyaltyCards.png "[Loyalty cards]")
 
-- *Loyalty card printing*
+**Loyalty card printing**
 
-- *Customer no.*
+> [Info] Select the customer(s) whose loyalty cards must be printed by dragging and dropping them from the customer list into the *Loyalty card printing* tab with the mouse.
 
-- *Short name*
+- *Customer no.*  
+Customer identification number as assigned in the system.
 
-- *No.*
+- *Short name*  
+Short name as provided in the system.
+
+- *No.*  
+Card number.
+
+[comment]: <> (Stimmt das so?)
 
 
-- [PRINT CUSTOMER CARD]
+- [PRINT CUSTOMER CARD]  
+Click this button to display a preview of the printable customer card.
 
 
 #### Import/export definitions
@@ -2499,7 +2591,7 @@ Use this button to move a selected field left, from the *Possible fields* list t
 Use this button to move a selected field right, from the *Fields in the definition* list to the *Possible fields* list.
 
 **Column**  
-The letter and number in brackets indicate in which column a selected field is placed.
+The letter and number in brackets indicate the column where a selected field is placed.
 
 **Possible fields**  
 This list displays all fields available for the selected import/export definition.
@@ -2538,7 +2630,7 @@ Click the drop-down list to select the appropriate option, either **Automatic** 
 - *Character set*  
 Click the drop-down list to select the appropriate option, either **Automatic** or the applicable encoding.
 
-- *Incorrect end character*  
+- *Incorrect tow end character*  
 Click the drop-down list to select the appropriate option (**Ignore/Repair**).
 
 - *Number format*  
@@ -2554,7 +2646,7 @@ Click this button to save the changes.
 ![New import/export definition](/Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/NewImportExportDefinition.png "[New import/export definition]")
 
 - *For*  
-Click the drop-down list to select import/export definition type where the new definition will be added.  
+Click the drop-down list to select the import/export definition type where the new definition will be added.  
 
 - *Name*  
 Enter a name for the new import/export definition to be created.
@@ -2568,7 +2660,7 @@ Click this button to create a new import/export definition.
 ![Rename import/export definition ](/Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/RenameImportExportDefinition.png "[Rename import/export definition ]")
 
 - *For*  
-Click the drop-down list to select import/export definition type where the new definition will be renamed.  
+Click the drop-down list to select the import/export definition type where the new definition will be renamed.  
 
 - *Old name*  
 The previously given name is displayed. This field is read-only.
