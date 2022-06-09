@@ -10,7 +10,7 @@
 - *Account class*  
 Click the drop-down list to select an account class. Depending on the Chart of accounts set up in the system, the available account  classes may vary. For detailed information about setting up the chart of accounts, see [Chart of accounts](/RetailSuiteAccounting/Integration/01_RunAccountingWizard.md#chart-of-accounts).
 
-  > [Info] Individual accounts can also be created, edited or deleted. For detailed information, see [Manage accounts](RetailSuiteAccounting/Integration/03_ManageAccounts.md).
+  > [Info] Individual accounts can also be created, edited or deleted. For detailed information, see [Manage the accounts](/RetailSuiteAccounting/Integration/03_ManageAccounts.md).
 
 The accounts are displayed in a column view. All information provided in columns is read-only.
 
@@ -49,7 +49,7 @@ Abbreviation of the tax type configured for the account. The following options a
 - *Tax key*  
 Tax key number configured for the account. Tax keys are configured together with the Chart of accounts.
 
-  > [Info] Tax keys can also be created, edited or deleted. For detailed information, see [Manage tax keys](RetailSuiteAccounting/Integration/02_ManageTaxKeys.md).
+  > [Info] Tax keys can also be created, edited or deleted. For detailed information, see [Manage the tax keys](/RetailSuiteAccounting/Integration/02_ManageTaxKeys.md).
 
 - *Spec. feat.*  
 Abbreviation of a special feature configured for the account. The following options are available:   
@@ -84,7 +84,7 @@ Abbreviation of a specific function configured for the account. The following op
 - *Description*  
 Account description.
 
-The entry fields allow to create, edit or delete accounts. For detailed information about creating, editing or deleting accounts, see [Manage accounts](/RetailSuiteAccounting/Integration/03_ManageAccounts.md).
+The entry fields allow to create, edit or delete accounts. For detailed information about creating, editing or deleting accounts, see [Manage the accounts](/RetailSuiteAccounting/Integration/03_ManageAccounts.md).
 
 - *Account number*  
 Enter or modify the account number.
@@ -175,17 +175,17 @@ Click the drop-down list to select the appropriate currency for the account.
 
 
 - [SAVE & NEW]  
-Click this button to create a new account. For detailed information about creating an account, see [Create an account](RetailSuiteAccounting/Integration/03_ManageAccounts.md#create-an-account).
+Click this button to create a new account. For detailed information about creating an account, see [Create an account](/RetailSuiteAccounting/Integration/03_ManageAccounts.md#create-an-account).
 
 - [SAVE]  
 Click this button to save any changes made to an existing account.
 
-  > [Info] The saved changes will overwrite the account existing details. To prevent this, click the [CLEAR] button to create a new account. For detailed information about editing an account, see [Edit an account](RetailSuiteAccounting/Integration/03_ManageAccounts.md#edit-an-account).
+  > [Info] The saved changes will overwrite the account existing details. To prevent this, click the [CLEAR] button to create a new account. For detailed information about editing an account, see [Edit an account](/RetailSuiteAccounting/Integration/03_ManageAccounts.md#edit-an-account).
 
 - [DELETE]  
 Click this button to delete the selected account.
 
-  > [Warning] Be aware that the selected account will be deleted permanently. For detailed information, see [Delete an account](RetailSuiteAccounting/Integration/03_ManageAccounts.md#delete-an-account).
+  > [Warning] Be aware that the selected account will be deleted permanently. For detailed information, see [Delete an account](/RetailSuiteAccounting/Integration/03_ManageAccounts.md#delete-an-account).
 
 - [CLEAR]  
 Click this button to clear all entry fields. The button [SAVE & NEW] becomes active again.
