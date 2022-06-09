@@ -1098,7 +1098,7 @@ Click this button to save all changes in the selected customer/supplier.
 
 *Accounting > Select fiscal year > Settings > Tab DEBTORS/CREDITORS > Tab Customer/supplier list > Select customer/supplier > Sub-tab Invoicing*
 
-![Delivery addresses](/Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/Billing02.png "[Delivery addresses]")
+![Invoicing](/Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/Billing02.png "[Invoicing]")
 
 
 **Bank details**
