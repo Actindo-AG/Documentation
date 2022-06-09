@@ -59,7 +59,7 @@ Tax key description.
 
 
 
-The entry fields allow to create, edit or delete tax keys. For detailed information about creating, editing or deleting tax keys, see [Manage tax keys](/RetailSuiteAccounting/Integration/02_ManageTaxKeys.md).
+The entry fields allow to create, edit or delete tax keys. For detailed information about creating, editing or deleting tax keys, see [Manage the tax keys](/RetailSuiteAccounting/Integration/02_ManageTaxKeys.md).
 
 
 - *Key*  
@@ -98,17 +98,17 @@ Click the drop-down list to select the applicable EU country or **No EU tax key*
 
 
 - [SAVE & NEW]  
-Click this button to create a new tax key. For detailed information about creating an a tax key, see [Create a tax key](RetailSuiteAccounting/Integration/02_ManageTaxKeys.md#create-a-tax-key).
+Click this button to create a new tax key. For detailed information about creating an a tax key, see [Create a tax key](/RetailSuiteAccounting/Integration/02_ManageTaxKeys.md#create-a-tax-key).
 
 - [SAVE]  
 Click this button to save any changes made to an existing tax key.
 
-  > [Info] The saved changes will overwrite the tax key existing details. To prevent this, click the [CLEAR] button to create a new tax key. For detailed information about editing a tax key, see [Edit a tax key](RetailSuiteAccounting/Integration/02_ManageTaxKeys.md#edit-a-tax-key).
+  > [Info] The saved changes will overwrite the tax key existing details. To prevent this, click the [CLEAR] button to create a new tax key. For detailed information about editing a tax key, see [Edit a tax key](/RetailSuiteAccounting/Integration/02_ManageTaxKeys.md#edit-a-tax-key).
 
 - [DELETE]  
 Click this button to delete the selected tax key.
 
-  > [Warning] Be aware that the selected tax key will be deleted permanently. For detailed information, see [Delete a tax key](RetailSuiteAccounting/Integration/02_ManageTaxKeys.md#delete-a-tax-key).
+  > [Warning] Be aware that the selected tax key will be deleted permanently. For detailed information, see [Delete a tax key](/RetailSuiteAccounting/Integration/02_ManageTaxKeys.md#delete-a-tax-key).
 
 - [CLEAR]  
 Click this button to clear all entry fields. The button [SAVE & NEW] becomes active again.
