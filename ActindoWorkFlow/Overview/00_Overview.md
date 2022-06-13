@@ -10,8 +10,8 @@
   - [Arcs](02_WorkflowProcessElements.md#arcs)
   - [Input and output ports](02_WorkflowProcessElements.md#input-and-output-ports)
   - [Tokens](02_WorkflowProcessElements.md#tokens)
-  - [Start and end point](02_WorkflowProcessElements.md#start-and-end-point)
-  - [Start point](02_WorkflowProcessElements.md#start-point)
+  - [Start and end place](02_WorkflowProcessElements.md#start-and-end-place)
+  - [Start place](02_WorkflowProcessElements.md#start-place)
   - [End point](02_WorkflowProcessElements.md#end-point)
 
 

@@ -4,7 +4,7 @@
 
 A process is an instance of a workflow. When an operation is performed, a data entity is generated, for example an invoice, which in turn initiates a workflow process. Therefore, for every single operation performed, an individual instance of the corresponding workflow, that is, a process, is initiated.
 
-A process has a start and an end point, as well as different stages (places and actions) which the initial data goes through in order to be processed. For a detailed description of the workflow elements, see [Workflow and process elements](/ActindoWorkFlow/Overview/02_WorkflowProcessElements.md).
+A process has a start and an end place, as well as different stages (places and actions) which the initial data goes through in order to be processed. For a detailed description of the workflow elements, see [Workflow and process elements](/ActindoWorkFlow/Overview/02_WorkflowProcessElements.md).
 
 The workflow process can be tracked to check the status of a whole process or of individual actions, as well as the status and the content of a token.
 
@@ -142,7 +142,7 @@ The token status and content can be checked to monitor how data progress within 
 
 The *Tokens* tab displays the tokens being processed. A token is a container carrying any data needed to complete an action, which could be a number or a document for example.
 
-A process is started with a single token at the start point, which will be input in an action to be executed. In turn, an action can output several tokens, which will become inputs for subsequent actions. It is therefore possible that a place contains several tokens, for example, several delivery notes issued for different parts of a same order. Each token will then be processed separately, that means, that the subsequent actions will be executed once for each token available.
+A process is started with a single token at the start place, which will be input in an action to be executed. In turn, an action can output several tokens, which will become inputs for subsequent actions. It is therefore possible that a place contains several tokens, for example, several delivery notes issued for different parts of a same order. Each token will then be processed separately, that means, that the subsequent actions will be executed once for each token available.
 
 ### Prerequisites
 

@@ -28,7 +28,7 @@ The cause of the faulty process action is fixed.
 
   ![Faulty process ID](/Assets/Screenshots/ActindoWorkFlow/Processes/FaultyProcessID.png "[Faulty process ID]")
 
-2. Click the faulty process action in the process graph.   
+2. Click the faulty process action in the process diagram.   
   The selected action is displayed in the *Actions* tab in the bottom part of the *Process ID* view.
 
   > [Info] If requiredd, you can switch to the *Logs* tab and click the log with the **Error** type in the column *Type* to display the *Log ID* view with the complete log message to the error.
