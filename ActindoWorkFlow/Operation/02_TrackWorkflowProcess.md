@@ -89,7 +89,7 @@ Further details about the process actions included in the diagram as well as abo
   - Active (blue)
   - Done (green)
   - Error (red)
-  - Error; automatic retry (red?)
+  - Error; automatic retry
   - Suspended (grey)
   - Process aborted (black)
 
