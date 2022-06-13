@@ -34,7 +34,7 @@ When clicking a place, it becomes highlighted and the corresponding element sett
 The place settings side bar is located to the right of the workspace and allows to define the place settings. The following fields are displayed:
 
   - *Key*  
-  Place key. This field is read-only. The key is required for API access and must be unique within a version of a workflow.
+  Place key. This field is read-only. The key is required for API access and must be unique within the workflow version.
 
   - *Data container*  
   Use this field to define the data type to be used in the place. If necessary, click the ![Delete](/Assets/Icons/Cross02.png "[Delete]") (Delete) button to display the whole list of available data types. Enter a search text for the desired data type. The list of actions is filtered for your search text as you type. Select the ![Radio button](/Assets/Icons/Radiobutton.png "[Radio button]") (Radio button) corresponding to the appropriate option.
@@ -65,7 +65,7 @@ The action settings side bar is located to the right of the workspace and allows
 
 
   - *Key*  
-   Action key. This field is read-only. The key is required for API access and must be unique within a version of a workflow.
+   Action key. This field is read-only. The key is required for API access and must be unique within the workflow version.
 
   - *Label*  
   Action label defined by the user. It can be used to specify or simplify the action name. When editing the action label, it is changed both at the top of the settings side bar and in the action rectangle in the diagram.
@@ -167,7 +167,7 @@ The start place is the initial stage of the workflow. It is represented by a cir
 The start place settings side bar is located to the right of the workspace and allows to define the start place settings. The following fields are displayed:
 
   - *Key*  
-  Start place key. This field is read-only. The key is required for API access and must be unique within a version of a workflow.
+  Start place key. This field is read-only. The key is required for API access and must be unique within the workflow version.
 
   - *Data container*  
   Use this field to define the data type to be used in the start place. If necessary, click the ![Delete](/Assets/Icons/Cross02.png "[Delete]") (Delete) button to display the whole list of available data types. Enter a search text for the desired data type. The list of actions is filtered for your search text as you type. Select the ![Radio button](/Assets/Icons/Radiobutton.png "[Radio button]") (Radio button) corresponding to the appropriate option.
@@ -182,7 +182,7 @@ The end place is the final stage of the workflow. It is represented by a circle 
 The end place settings side bar is located to the right of the workspace and allows to define the end place settings. The following fields are displayed:
 
   - *Key*  
-  End place key. This field is read-only. The key is required for API access and must be unique within a version of a workflow.
+  End place key. This field is read-only. The key is required for API access and must be unique within the workflow version.
 
   - *Data container*  
   Use this field to define the data type to be used in the end place. If necessary, click the ![Delete](/Assets/Icons/Cross02.png "[Delete]") (Delete) button to display the whole list of available data types. Enter a search text for the desired data type. The list of actions is filtered for your search text as you type. Select the ![Radio button](/Assets/Icons/Radiobutton.png "[Radio button]") (Radio button) corresponding to the appropriate option.

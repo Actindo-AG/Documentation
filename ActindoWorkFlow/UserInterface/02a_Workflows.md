@@ -60,7 +60,7 @@ The list displays all workflows. Depending on the settings, the displayed column
   Name of the workflow.
 
 - *Key*  
-  Workflow key. The key is required for API access and must be system wide unique.
+  Workflow key. The key is required for API access and must be unique within the workflow version.
 
 - *Highest Version*  
   Highest existing version of the workflow.
@@ -88,7 +88,7 @@ Click this button to create a workflow. The *New Workflow* window is displayed, 
 Enter a name for the new workflow.
 
 - *Select a unique key for your new workflow*  
-Enter a key for the workflow. The key is required for API access and must be system wide unique.
+Enter a key for the workflow. The key is required for API access and must be unique within the workflow version.
 
 - *Choose the data type of your start place*  
 Enter the name of the start place or a keyword to search for and select the appropriate place in the list of places.
@@ -304,7 +304,7 @@ Click the ![Points](/Assets/Icons/Points02.png "[Points]") (Points) button to th
   ![Settings side bar](/Assets/Screenshots/ActindoWorkFlow/Workflows/SettingsSideBar01.png "[Settings side bar]")
 
   - *Key*  
-  Place key. This field is read-only. The key is required for API access and must be system wide unique.
+  Place key. This field is read-only. The key is required for API access and must be unique within the workflow version.
 
   - *Data container*  
   Use this field to define the data type to be used in the place. If necessary, click the ![Delete](/Assets/Icons/Cross02.png "[Delete]") (Delete) button to display the whole list of available data types. Enter a search text for the desired data type. The list of actions is filtered for your search text as you type. Select the ![Radio button](/Assets/Icons/Radiobutton.png "[Radio button]") (Radio button) corresponding to the appropriate option.
@@ -338,7 +338,7 @@ Click the ![Points](/Assets/Icons/Points02.png "[Points]") (Points) button to th
   The action settings side bar is located to the right of the workspace and allows to define the action settings. The following fields are displayed:
 
   - *Key*  
-   Action key. This field is read-only. The key is required for API access and must be system wide unique.
+   Action key. This field is read-only. The key is required for API access and must be unique within the workflow version.
 
   - *Label*  
   Action label defined by the user. It can be used to specify or simplify the action name. When editing the action label, it is changed both at the top of the settings side bar and in the action rectangle in the diagram.

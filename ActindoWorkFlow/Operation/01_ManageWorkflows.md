@@ -27,7 +27,7 @@ No prerequisites to fulfill.
 
 2. Enter a name for the new workflow in the *Select a name for your new workflow* field.
 
-3. Enter a key for the workflow in the *Select a unique key for your new workflow* field. The key is required for API access and must be system wide unique.
+3. Enter a key for the workflow in the *Select a unique key for your new workflow* field. The key is required for API access and must be unique within the workflow version.
 
 4. Click the *Choose the data type of your start place* field and enter the name of the place or a keyword you are searching for.
 
