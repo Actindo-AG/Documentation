@@ -55,7 +55,6 @@ Click the drop-down list to select a process status. The following statuses are 
     - **Error; automatic retry**  
     Select this option to display the actions that have given an error but are set for automatic retry.
 
-    > [Info] This setting depends on the action and is usually preconfigured.
 
     - **Suspended**  
     Select this option to display the actions that have been manually paused.
