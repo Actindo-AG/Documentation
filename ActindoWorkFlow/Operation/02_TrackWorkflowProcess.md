@@ -13,7 +13,7 @@ The workflow process can be tracked to check the status of a whole process or of
 
 The process status can be checked to monitor how far a process has progressed, detect potential problems, and solve any problems that may occur as a result of a misconfiguration or any other external issues, so that the process can continue running.
 
-The *OVERVIEW* tab in the *Processes* menu entry displays a list of all processes that are currently being executed or have been executed in the system. Per default, all existing processes are displayed but can also be filtered according to different criteria.
+The *OVERVIEW* tab in the *Processes* menu entry displays a list of all processes that are currently being executed or have been executed in the system. By default, all existing processes are displayed but can also be filtered according to different criteria.
 
 
 ### Prerequisites
@@ -36,7 +36,7 @@ All processes of the selected workflow are displayed.
 3. Check the status of the desired process in the *Status* column of the processes list.
 
 4. If desired, click a process to display the *Process ID* view, which includes a diagram of the process and detailed information about the individual process actions and tokens.    
-For detailed information about individual process actions, see [Check the process action status](#check-the-process-action-status) .   
+For detailed information about individual process actions, see [Check the process action status](#check-the-process-action-status).   
 For detailed information about tokens, see [Check the token status and content](#check-the-token-status-and-content).
 
 ### Next steps
@@ -84,7 +84,7 @@ Further details about the process actions included in the diagram as well as abo
 
 [comment]: <> (OLI: wenn eine Action/Token in einem Prozess ausgewählt werden, wird es als Filtereinstellung übernommen. Diese Filtereinstellung bleibt erhalten, auch man zu einem anderen Prozess wechlselt, daher sieht man nicht alle Actions, auch wenn auf "All" klickt. Bug oder erwartetes Verhalten?)
 
-3. Check the actions displayed in the diagram. The workflow process diagram displays the actions in different colours depending on their current status:
+3. Check the actions displayed in the diagram. The workflow process diagram displays the actions in different colors depending on their current status:
 
   - Active (blue)
   - Done (green)
@@ -140,7 +140,7 @@ The selected action is displayed in the *Actions* tab.
 
 The token status and content can be checked to monitor how data progress within a process and, if necessary, detect and solve any data type related issues.   
 
-The *Tokens* tab displays the tokens being processed. A token is a container carrying any data needed to complete an action, which could be a number or a document. When a operation is performed, a data entity is generated, for instance an invoice, which in turn initiates the workflow process.
+The *Tokens* tab displays the tokens being processed. A token is a container carrying any data needed to complete an action, which could be a number or a document for example.
 
 A process is started with a single token at the start point, which will be input in an action to be executed. In turn, an action can output several tokens, which will become inputs for subsequent actions. It is therefore possible that a place contains several tokens, for example, several delivery notes issued for different parts of a same order. Each token will then be processed separately, that means, that the subsequent actions will be executed once for each token available.
 
@@ -163,7 +163,7 @@ The *Tokens* tab with a list of all tokens within the selected process is displa
  All tokens, including the ones that have already been processed, are displayed.
 
 3. Check the places displayed in the diagram.  
-The places are green if a token has been input (token status is processed or being processed). If no token has been input yet, the places are white.
+The places are green if at least token has passed through them, otherwise they are white.
 
  > [Info] A place can contain a black square displaying a number. This number specifies the number of tokens waiting to be processed at that place.
 
@@ -179,9 +179,9 @@ The token input in the selected place, if any, is displayed in the *Tokens* tab.
 
 [comment]: <> (Unsicher über Status hier, da wir in Wissentranfer über Processed/Unprocessed Token Status gesprochen haben, aber tatsächlich andere Status auch vorkommen können.)
 
-6. Check the place where the token has been input in the *Place* column.
+6. Check the place where the token is located in the *Place* column.
 
-7. Check the type of data contained in the token in the *Data* column.
+7. Check the data contained in the token in the *Data* column.
 
 8. Check the next compatible action(s) where the token can be input in the *Next possible action(s)* column.
 
