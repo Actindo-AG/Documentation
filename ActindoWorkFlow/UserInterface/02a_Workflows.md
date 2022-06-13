@@ -88,7 +88,7 @@ Click this button to create a workflow. The *New Workflow* window is displayed, 
 Enter a name for the new workflow.
 
 - *Select a unique key for your new workflow*  
-Enter a key for the workflow.  The key is required for API access and must be system wide unique.
+Enter a key for the workflow. The key is required for API access and must be system wide unique.
 
 - *Choose the data type of your start place*  
 Enter the name of the start place or a keyword to search for and select the appropriate place in the list of places.
@@ -274,7 +274,7 @@ Click the ![Points](/Assets/Icons/Points02.png "[Points]") (Points) button to th
     Click this entry to export data in JSON format. A new window is displayed.
 
     - *Deploy*  
-    Click this entry to publish a workflow version.
+    Click this entry to publish a new workflow version with the current state.
 
 
   [comment]: <> (Oli: Context menu options not working yet, except for Import/Export JSON. Beim klicken wird eine Datei in einer neuen Fenster angezeigt. Bleiben alle Funktionen? JSON Fenster beschrieben? Kann der User da was einstellen? Unterschied zwischen Deploy und Publish?)
@@ -287,7 +287,6 @@ Click the ![Points](/Assets/Icons/Points02.png "[Points]") (Points) button to th
 - ![Redo](/Assets/Icons/Redo.png "[Redo]") (Redo)  
   Click this button to redo the last undone change.
 
-- ![Comment](/Assets/Icons/Comment.png "[Comment]") (Comment)
 
 [comment]: <> (Button soll rausfliegen. Neues Screenshot!)
 
@@ -321,7 +320,7 @@ Click the ![Points](/Assets/Icons/Points02.png "[Points]") (Points) button to th
   ![Start and end place](/Assets/Screenshots/ActindoWorkFlow/Workflows/StartPlace.png "[Start and end place]")
 
     - *Key*  
-    Place key. This field is read-only. The key is required for API access and must be system wide unique.
+    Place key. This field is read-only. The key is required for API access and must be unique within the workflow version.
 
     - *Data container*  
     Use this field to define the data type to be used in the place. If necessary, click the ![Delete](/Assets/Icons/Cross02.png "[Delete]") (Delete) button to display the whole list of available data types. Enter a search text for the desired data type. The list of actions is filtered for your search text as you type. Select the ![Radio button](/Assets/Icons/Radiobutton.png "[Radio button]") (Radio button) corresponding to the appropriate option.
