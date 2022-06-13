@@ -12,7 +12,7 @@
   - [Tokens](02_WorkflowProcessElements.md#tokens)
   - [Start and end place](02_WorkflowProcessElements.md#start-and-end-place)
   - [Start place](02_WorkflowProcessElements.md#start-place)
-  - [End point](02_WorkflowProcessElements.md#end-point)
+  - [End place](02_WorkflowProcessElements.md#end-place)
 
 
 - [Key features](03_Features.md)
