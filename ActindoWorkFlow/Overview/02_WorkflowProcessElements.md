@@ -34,7 +34,7 @@ When clicking a place, it becomes highlighted and the corresponding element sett
 The place settings side bar is located to the right of the workspace and allows to define the place settings. The following fields are displayed:
 
   - *Key*  
-  Place key. This field is read-only. The key is required for API access and must be system wide unique.
+  Place key. This field is read-only. The key is required for API access and must be unique within a version of a workflow.
 
   - *Data container*  
   Use this field to define the data type to be used in the place. If necessary, click the ![Delete](/Assets/Icons/Cross02.png "[Delete]") (Delete) button to display the whole list of available data types. Enter a search text for the desired data type. The list of actions is filtered for your search text as you type. Select the ![Radio button](/Assets/Icons/Radiobutton.png "[Radio button]") (Radio button) corresponding to the appropriate option.
@@ -54,7 +54,7 @@ The actions available to create workflows depend on the modules installed in the
 It must be distinguished between a workflow action and a process action. A workflow action acts as a building block to create a workflow to model a company process, whereas a process action is the actual execution of the configured workflow action. As such, a process action can be successful or faulty depending on its execution. If an error occurs, a process action can be retried if the underlying cause has been fixed, which results in a re-execution of the process action. If multiple tokens move through the workflow, every token is processed in its own process action. As a result, any workflow action can be associated with multiple process actions, depending of the number of tokens running through it.
 
 
-When adding a new action, all compatible input and output ports are included. Mandatory input ports are already displayed and linked to a place, whereas optional ones are displayed with a ![Add](/Assets/Icons/Plus01.png "[Add]") (Add) button.
+When adding a new action, places for mandatory input ports are automatically inserted, whereas optional input ports are displayed with a ![Add](/Assets/Icons/Plus01.png "[Add]") (Add) button.
 
 
 When clicking an action, it becomes highlighted and the corresponding element settings are displayed in the settings side bar.
@@ -65,7 +65,7 @@ The action settings side bar is located to the right of the workspace and allows
 
 
   - *Key*  
-   Action key. This field is read-only. The key is required for API access and must be system wide unique.
+   Action key. This field is read-only. The key is required for API access and must be unique within a version of a workflow.
 
   - *Label*  
   Action label defined by the user. It can be used to specify or simplify the action name. When editing the action label, it is changed both at the top of the settings side bar and in the action rectangle in the diagram.
@@ -84,7 +84,7 @@ The action settings side bar is located to the right of the workspace and allows
   > [Info] Most actions are preconfigured and do not include configuration options. In this case, the *Configuration* section is not displayed.
 
   - *Static inputs*  
-  All unlinked inputs are listed in this section. Static inputs can be used to configure static values for certain inputs. They can be defined by the user clicking the ![Add](/Assets/Icons/Plus01.png "[Add]") (Add) button. Only valid JSON values are accepted. When used, static inputs are displayed by a small arrow in front of the input ports in the workflow diagram. This section is only displayed, if the selected action has at least one unlinked input port.
+  All unlinked input ports are listed in this section. Static inputs can be used to configure static values for certain inputs. They can be defined by the user clicking the ![Add](/Assets/Icons/Plus01.png "[Add]") (Add) button. Only valid JSON values are accepted. When used, static inputs are displayed by a small arrow in front of the input ports in the workflow diagram. This section is only displayed, if the selected action has at least one unlinked input port.
 
   > [Info] Normally, all tokens for the action execution are taken from the places connected to its input ports. However, static values can be configured for certain inputs. This way, if an action has configured a static input on one or more of its input ports, it will behave as if there was a place connected to that input port that always contains one token (containing whatever value is statically configured). Nevertheless, it is still necessary to have at least one "actual" place with an "actual" token in order to make that action executable.
 
@@ -155,7 +155,7 @@ Every workflow starts with a single start place and ends with a single end place
 
 The start place can only hold one token. A token is a container carrying data, which is needed to execute a subsequent action. The place data type is always defined, more or less specifically, so it is possible to recognize the kind of data that flows through it. For detailed information, see [Tokens](#tokens).
 
-The end place is the final result of all actions executed in the workflow and can contain any number of tokens, but at least one. A process is marked as *Done*, as soon as one token has reached the end place. A new subprocess can be linked subsequently to the end place. For detailed information about creating the start and end places, see [Create a workflow](/ActindoWorkFlow/Operation/01_ManageWorkflows.md#create-a-workflow).
+The end place is the final result of all actions executed in the workflow and can contain any number of tokens, but at least one. A process is marked as *Done* when all tokens have reached the end place. For detailed information about creating the start and end places, see [Create a workflow](/ActindoWorkFlow/Operation/01_ManageWorkflows.md#create-a-workflow).
 
 
 ### Start place
@@ -167,7 +167,7 @@ The start place is the initial stage of the workflow. It is represented by a cir
 The start place settings side bar is located to the right of the workspace and allows to define the start place settings. The following fields are displayed:
 
   - *Key*  
-  Start place key. This field is read-only. The key is required for API access and must be system wide unique.
+  Start place key. This field is read-only. The key is required for API access and must be unique within a version of a workflow.
 
   - *Data container*  
   Use this field to define the data type to be used in the start place. If necessary, click the ![Delete](/Assets/Icons/Cross02.png "[Delete]") (Delete) button to display the whole list of available data types. Enter a search text for the desired data type. The list of actions is filtered for your search text as you type. Select the ![Radio button](/Assets/Icons/Radiobutton.png "[Radio button]") (Radio button) corresponding to the appropriate option.
@@ -177,12 +177,12 @@ The start place settings side bar is located to the right of the workspace and a
 
 ![End place](/Assets/Screenshots/ActindoWorkFlow/Workflows/EndPlace.png "[End place]")
 
-The end place is the final stage of the workflow. It is represented by a circle with an outcoming arrow coming from one or more actions being executed in the last stage(s) of the workflow. Similarly to a place, when clicking it, the start place becomes highlighted and the corresponding element settings are displayed in the settings side bar.
+The end place is the final stage of the workflow. It is represented by a circle with an outcoming arrow coming from one or more actions being executed in the last stage(s) of the workflow. Similarly to a place, when clicking it, the end place becomes highlighted and the corresponding element settings are displayed in the settings side bar.
 
 The end place settings side bar is located to the right of the workspace and allows to define the end place settings. The following fields are displayed:
 
   - *Key*  
-  End place key. This field is read-only. The key is required for API access and must be system wide unique.
+  End place key. This field is read-only. The key is required for API access and must be unique within a version of a workflow.
 
   - *Data container*  
   Use this field to define the data type to be used in the end place. If necessary, click the ![Delete](/Assets/Icons/Cross02.png "[Delete]") (Delete) button to display the whole list of available data types. Enter a search text for the desired data type. The list of actions is filtered for your search text as you type. Select the ![Radio button](/Assets/Icons/Radiobutton.png "[Radio button]") (Radio button) corresponding to the appropriate option.
