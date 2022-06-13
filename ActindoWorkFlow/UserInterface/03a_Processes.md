@@ -242,7 +242,6 @@ Click the drop-down list to select an action status. The following options are a
     - **Error; automatic retry**  
     Select this option to display the actions that have given an error but are set for automatic retry.
 
-    > [Info] This setting depends on the action and is usually preconfigured.
 
     - **Suspended**  
     Select this option to display the actions that have been manually paused.
@@ -542,7 +541,7 @@ The list displays all tokens if the *Hide processed* toggle is disabled. Dependi
   Type of data contained in the token.
 
   - *Next possible action(s)*    
-  Next compatible action(s) where the token can be input.
+  Next compatible action(s) that may consume this token.
 
   [comment]: <> (Anmerkung Oli: Aus früheren Zeiten -> wird ggf. gestrichen?)
 
