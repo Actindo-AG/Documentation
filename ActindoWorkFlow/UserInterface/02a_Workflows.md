@@ -121,6 +121,8 @@ Click this button to create a new workflow. The workflow editor with the defined
 ![Workflow Versions](/Assets/Screenshots/ActindoWorkFlow/Workflows/WorkflowVersions.png "[Workflow Versions]")
 
 
+[comment]: <> (subject to change, but correct for now -> check in the future)
+
 - ![Back](/Assets/Icons/Back02.png "[Back]") (Back)  
 Click this button to close the *Workflow Versions* view and return to the *Workflows* view.
 
@@ -288,7 +290,7 @@ Click the ![Points](/Assets/Icons/Points02.png "[Points]") (Points) button to th
   Click this button to redo the last undone change.
 
 
-[comment]: <> (Button soll rausfliegen. Neues Screenshot!)
+[comment]: <> ("Comment" Button soll rausfliegen, bestätig von Oli. Neues Screenshot hinzufügen! Check new UI!)
 
 - [NEW ACTION]  
   Click this button to add a new action. The *Search for an action* window is displayed. For detailed information, see [Search for an action](#search-for-an-action).
