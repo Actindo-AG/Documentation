@@ -82,7 +82,7 @@ Further details about the process actions included in the diagram as well as abo
   All actions, regardless of their status, are displayed.
 
 
-[comment]: <> (OLI: wenn eine Action/Token in einem Prozess ausgewählt werden, wird es als Filtereinstellung übernommen. Diese Filtereinstellung bleibt erhalten, auch man zu einem anderen Prozess wechlselt, daher sieht man nicht alle Actions, auch wenn auf "All" klickt. Bug oder erwartetes Verhalten?)
+[comment]: <> (OLI: wenn eine Action/Token in einem Prozess ausgewählt wird, wird es als Filtereinstellung übernommen. Diese Filtereinstellung bleibt erhalten, auch wenn man zu einem anderen Prozess wechlselt, daher sieht man nicht alle Actions, auch wenn auf "All" klickt. Bug oder erwartetes Verhalten?)
 
 3. Check the actions displayed in the diagram. The workflow process diagram displays the actions in different colors depending on their current status:
 
