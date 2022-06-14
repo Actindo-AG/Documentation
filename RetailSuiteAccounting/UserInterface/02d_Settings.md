@@ -166,7 +166,7 @@ Click this button to export data in DATEV compatible CSV format. Follow the inst
 - [GDI]  
 Click this button to export data in GDI format. Follow the instructions provided in the following windows.
 
-- [GDPDU EXPORT]
+- [GDPDU EXPORT]  
 Click this button to export data in GDPdU-compliant audit file format. Follow the instructions provided in the following windows. For detailed information, see [Export the data GDPdU-compliant](/RetailSuiteAccounting/Operation/15_ProvideAccountingData.md#export-the-data-GDPdU-compliant).
 
 - [OPEN ITEMS]  
