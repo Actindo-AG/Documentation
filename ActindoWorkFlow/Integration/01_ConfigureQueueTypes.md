@@ -31,6 +31,7 @@ No prerequisites to fulfill.
 
   > [Info] A worker is a job executing the actions within a process. One worker can only execute one action at the same time. By assigning multiple workers to a queue type, this queue type may execute several actions at the same time. Consequently, actions with a queue type with more workers are executed faster that actions with queue types with fewer workers. The total number of workers of all queue types depends on the number of booked vCores.   
   For one worker, 4 vCores are needed. Additionally, 10 % of the booked vCores, but at least 4 vCores are blocked for the daily business and cannot be used for workers. The number of vCores needed always refers to the total number of workers in all queue types. For example, for a queue type with 2 workers and a queue type of 4 workers, 28 vCores are needed:   
+  *4 vCores per worker (4 * 6 = 24) plus 4 vCores blocked for the daily business (24 + 4 = 28)*```
 
 
 4. Click the *Executing Prio* drop-down list and select the appropriate executing priority. The following options are available:
@@ -43,7 +44,7 @@ No prerequisites to fulfill.
 
   ![Queue type created](/Assets/Screenshots/ActindoWorkFlow/QueueTypes/QueueTypeCreated.png "[Queue type created]")
 
-  > [Info] An error notice is displayed when the number of booked vCores is not sufficient to create the queue type with the selected number of workers.
+  > [Info] An error notice is displayed if the number of booked vCores is not sufficient to create the queue type with the selected number of workers.
 
   ![Maximum total workers](/Assets/Screenshots/ActindoWorkFlow/QueueTypes/MaximumTotalWorkers.png "[Maximum total workers]")
 
@@ -64,11 +65,13 @@ No prerequisites to fulfill.
 
 ## Edit a queue type
 
-Edit a queue type to modify its name, the number of workers assigned to it or the executing priority.
+Edit a queue type to modify its name, the number of workers assigned to it or the execution priority.
 
 ### Prerequisites
 
-At least one queue type is created, see [Create a queue type](#create-a-queue-type).
+No prerequisites to fulfill.
+
+> [Info] The *Default* queue type is predefined.
 
 ### Procedure
 
@@ -232,7 +235,7 @@ The queue type is deleted. The *QueueType has been deleted* pop-up window is dis
 ## Kill workers
 
 Sometimes it may be necessary to stop certain process actions. Therefore, you have to kill the workers to avoid that these actions are executed. You can either kill the workers of a single queue type or kill all workers regardless their queue type.
-
+The killed workers will be restarted automatically if the *Disable Workflow* toggle in the *Actindo Work Flow Engine* box of the engine room panel is disabled.```
 > [Warning] Problems may occur when killing workers. Only kill the workers when you are qualified to restart the stopped process actions.  
 
 
