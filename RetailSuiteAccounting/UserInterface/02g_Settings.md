@@ -43,16 +43,16 @@ Enter a follow-on booking number or leave he field empty. The follow-on booking 
 Enter a description for the follow-on booking.
 
 - *Account*  
-Enter the account number to trigger the automatic follow-on booking function. If the account number is not known, use the account number search function, see [Search in accounting](/RetailSuiteAccounting/Operation/14_SearchAccounting.md#search-for-an-account).
+Enter the account number to trigger the automatic follow-on booking function. If the account number is not known, use the account number search function, see [Search for an account](/RetailSuiteAccounting/Operation/14_SearchAccounting.md#search-for-an-account).
 
 - *Valid from - to*  
 Enter the validity start and end date for the follow-on booking.
 
 - *Contra account*  
-Enter the contra account number to register the follow-on booking. If the account number is not known, use the account number search function, see [Search in accounting](/RetailSuiteAccounting/Operation/14_SearchAccounting.md#search-for-an-account).
+Enter the contra account number to register the follow-on booking. If the account number is not known, use the account number search function, see [Search for an account](/RetailSuiteAccounting/Operation/14_SearchAccounting.md#search-for-an-account).
 
 - *Account*  
-Enter the contra account number to register the follow-on booking. If the account number is not known, use the account number search function, see [Search in accounting](/RetailSuiteAccounting/Operation/14_SearchAccounting.md#search-for-an-account).
+Enter the contra account number to register the follow-on booking. If the account number is not known, use the account number search function, see [Search for an account](/RetailSuiteAccounting/Operation/14_SearchAccounting.md#search-for-an-account).
 
 - *Factor*  - *calc.*  
 Enter a factor value to be applied to the initial booking amount and click the drop-down list to select the appropriate calculating method. The following options are available:  
