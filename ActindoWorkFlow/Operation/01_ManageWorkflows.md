@@ -100,7 +100,8 @@ Edit a workflow to modify elements within the workflow, to extend the workflow b
 
 ### Prerequisites
 
-At least one workflow is created, see [Create a workflow](#create-a-workflow).
+- At least one workflow is created, see [Create a workflow](#create-a-workflow).
+- You have the required rights to edit a workflow.
 
 ### Procedure
 
@@ -115,7 +116,7 @@ At least one workflow is created, see [Create a workflow](#create-a-workflow).
 
 2. Click the workflow version you want to edit in the list of workflow versions.  
 The workflow editor is displayed in the workspace.
-
+[comment]: <> (Step 2 is possibly not needed in the next workflows version as the version site will disappear and clicking the workflow will take you to the editor directly, check next time)
   ![Workflow editor](/Assets/Screenshots/ActindoWorkFlow/Workflows/WorkflowEditor.png "[Workflow editor]")
 
 3. Make the desired changes in the workflow. The following procedures are described in detail below:
@@ -217,7 +218,7 @@ A new place connected to the selected output port is displayed.
   + Click the *Queue Type* drop-down list and select the appropriate queue type for the action. All available queue types are displayed in the drop-down list. By default the *Default* queue type is selected. You can define a different queue type for each action within the workflow.   
   For detailed information about the queue types, see [Configure the queue types](/ActindoWorkFlow/Integration/01_WConfigureQueueTypes.md).
 
-  + Click the *Task Event* drop-down list and select an event connected to the action. The event is triggered and the corresponding task is assigned when the process action is failed. All available task events are displayed in the drop-down list. By default, the *ActindoWorkflow Process Execution Failed* event is preselected. The drop-down list is only displayed when the *Task* module is installed.
+  + Click the *Task Event* drop-down list and select an event connected to the action. The event is triggered and the corresponding task is assigned when the process action is failed. All available task events are displayed in the drop-down list. By default, the *ActindoWorkflow Process Execution Failed* event is preselected. The drop-down list is only displayed when the *Task* module is installed and the current user has the required rights to configure it.
 
   + Edit the field(s) in the *Configuration* section to define further configuration settings to the selected action. This section is only displayed for certain actions. The fields displayed in the *Configuration* section depend on the selected action.
 
