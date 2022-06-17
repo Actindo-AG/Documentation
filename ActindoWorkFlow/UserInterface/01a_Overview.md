@@ -84,7 +84,7 @@ In the *DASHBOARDS* tab, the custom tabs with composable dashlets are displayed.
 
 - [x]
   Select a checkbox to add the selected dashlet to the tab. You can select multiple checkboxes. If you click the checkbox in the header, all dashlets in the list are selected. A toolbar indicating the number of selected dashlets is displayed above the list when you have selected at least one checkbox. By default, the following dashlets are available:
-  - Current failure count: This dashlet displays the number of failures in the *Workflows* module.
+  - Current failure count: This dashlet displays the number of processes that have currently an *Error* status.
   - Workflow count: This dashlet displays the number of workflows in the *Workflows* module.
   -	Waiting processes: This dashlet displays the number of waiting processes in the *Workflows* module.
 
