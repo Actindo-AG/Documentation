@@ -71,7 +71,8 @@ For detailed information, see [Edit a queue type](/ActindoWorkFlow/Integration/0
 - *Number of workers*   
   Enter the number of workers for the queue type.
 
-  > [Info] The number of workers you can assign to queue types depends on the number of booked vCores. -- Formel einfügen --
+  > [Info] The number of workers you can assign to queue types depends on the number of booked vCores. For one worker, 4 vCores are needed. Additionally, 10 % of the booked vCores, but at least 4 vCores are blocked for the daily business and cannot be used for workers. The number of vCores needed always refers to the total number of workers in all queue types. For example, for a queue type with 2 workers and a queue type of 4 workers, 28 vCores are needed:    
+  *4 vCores per worker (4 * 6 = 24) plus 4 vCores blocked for the daily business (24 + 4 = 28)*
 
 - *Execution Prio*   
   Click the drop-down list and select the execution priority for the queue type. The following options are available:
