@@ -116,7 +116,9 @@ Edit a workflow to modify elements within the workflow, to extend the workflow b
 
 2. Click the workflow version you want to edit in the list of workflow versions.  
 The workflow editor is displayed in the workspace.
-[comment]: <> (Step 2 is possibly not needed in the next workflows version as the version site will disappear and clicking the workflow will take you to the editor directly, check next time)
+
+[comment]: <> (Step 2 as well as the screenshot workflow versions is possibly not needed in the next workflows version as the version view will disappear and clicking the workflow will take you to the editor directly, check next time)
+
   ![Workflow editor](/Assets/Screenshots/ActindoWorkFlow/Workflows/WorkflowEditor.png "[Workflow editor]")
 
 3. Make the desired changes in the workflow. The following procedures are described in detail below:
@@ -241,6 +243,8 @@ A new place connected to the selected output port is displayed.
 - [Workflow and process elements](/ActindoWorkFlow/Overview/02_WorkflowProcessElements.md)
 
 
+
+[comment]: <> (add information or delete the publish/unpublish workflow chapters)
 
 ## Publish a workflow
 
