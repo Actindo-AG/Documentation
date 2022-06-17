@@ -69,6 +69,8 @@ The cause of the faulty process actions is fixed.
 
 *Workflows > Process Actions > Tab OVERVIEW*
 
+[comment]: <> (Vor nächster Version prüfen; bald neuer Pfad: *Workflows > Process Actions > Tab OVERVIEW*)
+
 ![Process actions](/Assets/Screenshots/ActindoWorkFlow/ProcessActions/ProcessActions.png "[Process actions]")
 
 1. Click the *Status* drop-down list and select the **Error** option.  
