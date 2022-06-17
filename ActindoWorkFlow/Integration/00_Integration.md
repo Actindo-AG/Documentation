@@ -2,6 +2,7 @@
 
 - [Configure the queue types](01_ConfigureQueueTypes.md)
   - [Create a queue type](01_ConfigureQueueTypes.md#create-a-queue-type)
+  - [Disable the workflows](01_ConfigureQueueTypes.md#disable-the-workflows)
   - [Edit a queue type](01_ConfigureQueueTypes.md#edit-a-queue-type)
     - [Edit the name or the execution priority](01_ConfigureQueueTypes.md#edit-the-name-or-the-execution-priority)
     - [Edit the workers number](01_ConfigureQueueTypes.md#edit-the-workers-number)
