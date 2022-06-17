@@ -31,10 +31,10 @@ No prerequisites to fulfill.
 
   > [Info] A worker is a job executing the actions within a process. One worker can only execute one action at the same time. By assigning multiple workers to a queue type, this queue type may execute several actions at the same time. Consequently, actions with a queue type with more workers are executed faster that actions with queue types with fewer workers. The total number of workers of all queue types depends on the number of booked vCores.   
   For one worker, 4 vCores are needed. Additionally, 10 % of the booked vCores, but at least 4 vCores are blocked for the daily business and cannot be used for workers. The number of vCores needed always refers to the total number of workers in all queue types. For example, for a queue type with 2 workers and a queue type of 4 workers, 28 vCores are needed:   
-  *4 vCores per worker (4 * 6 = 24) plus 4 vCores blocked for the daily business (24 + 4 = 28)*```
+  *4 vCores per worker (4 * 6 = 24) plus 4 vCores blocked for the daily business (24 + 4 = 28)*
 
 
-4. Click the *Executing Prio* drop-down list and select the appropriate executing priority. The following options are available:
+4. Click the *Execution Prio* drop-down list and select the appropriate execution priority. The following options are available:
   - **Oldest executable action**: The oldest executable actions within all existing processes is executed first by the workers.
   - **Executable actions of oldest process**: The executable actions within the oldest process are executed first by the workers.
 
@@ -50,6 +50,7 @@ No prerequisites to fulfill.
 
 ### Next steps
 
+- [Disable the workflows](#disable-the-workflows)
 - [Edit a queue type](#edit-a-queue-type)
 - [Assign a queue type](#assign-a-queue-type)
 - [Delete a queue type](#delete-a-queue-type)
@@ -63,19 +64,71 @@ No prerequisites to fulfill.
 
 
 
+
+## Disable the workflows
+
+Disable the workflows so that no new workflow processes are started which may be necessary to edit the queue types or workers.
+
+### Prerequisites
+
+You have the required rights to edit the developer settings in the engine room.
+
+### Procedure
+
+*Actindo Dashboard*
+
+![Actindo dashboard](/Assets/Screenshots/ActindoDashboard/ActindoDashboard.png "[Actindo dashboard]")
+
+> [Info] This procedure can be started in any module of the Core1 Platform.
+
+1. Click the flag in the upper center.   
+   The engine room panel is unfolded.
+
+  ![Engine room](/Assets/Screenshots/ActindoWorkFlow/QueueTypes/EngineRoom.png "[Engine room]")
+
+2. Click the arrow right to the *Developer mode*.   
+  The developer mode settings are displayed.
+
+4. Enable the *Disable Workflow* toggle in the *Actindo Work Flow Engine* box.   
+  The workflows are disabled. No new workflow processes will start as long as the *Disable Workflow* toggle is enabled.
+
+  ![Disable workflow](/Assets/Screenshots/ActindoWorkFlow/QueueTypes/DisableWorkflow.png "[Disable workflow]")
+
+5. Click the flag at the bottom of the engine room.    
+  The engine room panel is folded.
+
+> [Info] To re-enable the automatic start of workflow processes, unfold the engine room panel and disable the *Disable Workflow* toggle in the *Actindo Work Flow Engine*.
+
+### Next steps
+
+- [Edit a queue type](#edit-a-queue-type)
+- [Assign a queue type](#assign-a-queue-type)
+- [Delete a queue type](#delete-a-queue-type)
+- [Kill workers](#kill-workers)
+
+### See also
+
+- [Create a queue type](#create-a-queue-type)
+
+
+
+
 ## Edit a queue type
 
 Edit a queue type to modify its name, the number of workers assigned to it or the execution priority.
 
-### Prerequisites
+
+### Edit the name or the execution priority
+
+Change the name of a queue type or the execution priority, for instance to ensure that certain actions will be executed first.
+
+#### Prerequisites
 
 No prerequisites to fulfill.
 
 > [Info] The *Default* queue type is predefined.
 
-### Procedure
-
-#### Edit the name or the execution priority
+#### Procedure
 
 *Workflows > Queue Types > Tab OVERVIEW*
 
@@ -98,7 +151,18 @@ No prerequisites to fulfill.
   ![Queue type saved](/Assets/Screenshots/ActindoWorkFlow/QueueTypes/QueueTypeSaved.png "[Queue type saved]")
 
 
-#### Edit the workers number
+### Edit the workers number
+
+Change the number of workers of a queue type to increase or decrease the execution speed accordingly. The number of workers can only be adjusted when no more workers are active. To achieve this, the user must either wait until all running workers are finished or kill all workers to stop them immediately, see [Kill workers](#kill-workers).
+
+#### Prerequisites
+
+- The workflows are disabled, see [Disable the workflows](#disable-the-workflows).
+- No more workers are running.
+
+> [Info] The *Default* queue type is predefined.
+
+#### Procedure
 
 *Workflows > Queue Types > Tab OVERVIEW*
 
@@ -109,46 +173,33 @@ No prerequisites to fulfill.
 
   ![Edit queue type](/Assets/Screenshots/ActindoWorkFlow/QueueTypes/EditQueueType.png "[Edit queue type]")
 
-2. Click the flag in the upper center.   
-   The engine room panel is unfolded.
+2. Click the *Number of workers* field and edit the number of workers.
 
-  ![Engine room](/Assets/Screenshots/ActindoWorkFlow/QueueTypes/EngineRoom.png "[Engine room]")
-
-3. Click the arrow right to the *Developer mode*.   
-  The developer mode settings are displayed.
-
-4. Enable the *Disable Workflow* toggle in the *Actindo Work Flow Engine* box.
-
-  ![Disable workflow](/Assets/Screenshots/ActindoWorkFlow/QueueTypes/DisableWorkflow.png "[Disable workflow]")
-
-5. Click the flag at the bottom of the engine room.    
-  The engine room panel is folded.
-
-6. Edit the number of workers in the *Number of workers* field.
-
-7. Click the [SAVE] button in the upper right corner.    
+3. Click the [SAVE] button in the upper right corner.    
   The changes are saved. The *Edit queue type* view is closed. The *QueueType has been saved* pop-up window is displayed.  
 
   ![Queue type saved](/Assets/Screenshots/ActindoWorkFlow/QueueTypes/QueueTypeSaved.png "[Queue type saved]")
 
-8. Unfold the engine room panel, disable the *Disable Workflow* toggle in the *Actindo Work Flow Engine* box and fold the engine room panel again.
+3. Unfold the engine room panel, disable the *Disable Workflow* toggle in the *Actindo Work Flow Engine* box and fold the engine room panel again.
+  The workflow processes start automatically.
 
   ![Enable workflow](/Assets/Screenshots/ActindoWorkFlow/QueueTypes/EnableWorkflow.png "[Enable workflow]")
 
-[comment]: <> (Soll das überhaupt beschrieben werden? Wegen entwicklermodus und so...)
-
-### Next steps
+## Next steps
 
 - [Assign a queue type](#assign-a-queue-type)
 - [Delete a queue type](#delete-a-queue-type)
 - [Kill workers](#kill-workers)
 
-### See also
+## See also
 
 - [User Interface workflows](/ActindoWorkFlow/UserInterface/00_UserInterface.md)
 - [Create a queue type](#create-a-queue-type)
+- [Disable the workflows](#disable-the-workflows)
 - [Workflow and process elements](/ActindoWorkFlow/Overview/02_WorkflowProcessElements.md)
 - [Manage the workflows](/ActindoWorkFlow/Operation/01_ManageWorkflows.md)
+
+
 
 
 ## Assign a queue type
@@ -194,9 +245,13 @@ The selected queue type is displayed in the list.
 
 ## Delete a queue type
 
+You can delete a queue type that is obsolete to release workers for other queue types. Be aware that the *Default* queue type cannot be deleted.
+
 ### Prerequisites
 
-At least one queue type is created, see [Create a queue type](#create-a-queue-type).
+- At least one queue type is created, see [Create a queue type](#create-a-queue-type).
+- The workflows are disabled, see [Disable the workflows](#disable-the-workflows).
+- No more workers are running.
 
 ### Procedure
 
@@ -214,7 +269,7 @@ The queue type is deleted. The *QueueType has been deleted* pop-up window is dis
 
   ![Queue type deleted](/Assets/Screenshots/ActindoWorkFlow/QueueTypes/QueueTypeDeleted.png "[Queue type deleted]")
 
-  > [Info] The *Default* queue type cannot be deleted.
+  > [Info] The queue type is only deleted, if it is not assigned to any action anymore.
 
 ### Next steps
 
@@ -224,6 +279,7 @@ The queue type is deleted. The *QueueType has been deleted* pop-up window is dis
 
 - [User Interface workflows](/ActindoWorkFlow/UserInterface/00_UserInterface.md)
 - [Create a queue type](#create-a-queue-type)
+- [Disable the workflows](#disable-the-workflows)
 - [Edit a queue type](#edit-a-queue-type)
 - [Assign a queue type](#assign-a-queue-type)
 - [Workflow and process elements](/ActindoWorkFlow/Overview/02_WorkflowProcessElements.md)
@@ -235,7 +291,8 @@ The queue type is deleted. The *QueueType has been deleted* pop-up window is dis
 ## Kill workers
 
 Sometimes it may be necessary to stop certain process actions. Therefore, you have to kill the workers to avoid that these actions are executed. You can either kill the workers of a single queue type or kill all workers regardless their queue type.
-The killed workers will be restarted automatically if the *Disable Workflow* toggle in the *Actindo Work Flow Engine* box of the engine room panel is disabled.```
+The killed workers will be restarted automatically if the *Disable Workflow* toggle in the *Actindo Work Flow Engine* box of the engine room panel is disabled.
+
 > [Warning] Problems may occur when killing workers. Only kill the workers when you are qualified to restart the stopped process actions.  
 
 
@@ -253,6 +310,8 @@ At least one queue type is created, see [Create a queue type](#create-a-queue-ty
 
 ![Overview](/Assets/Screenshots/ActindoWorkFlow/QueueTypes/Overview.png "[Overview]")
 
+> [Info] Disable the workflows before you kill the workers to prevent an automatic restart of the workflow processes, see [Disable the workflows](#disable-the-workflows).
+
 1. Select the checkbox of the queue type whose workers you want to kill.    
 The editing toolbar is displayed above the queue types list.
 
@@ -262,20 +321,6 @@ The editing toolbar is displayed above the queue types list.
 The workers of the selected queue type are killed. The process actions of the selected queue type will not continue until you restart the workflow processes. The *Worker will shutdown* pop-up window is displayed.
 
   ![Worker shutdown](/Assets/Screenshots/ActindoWorkFlow/QueueTypes/WorkerShutdown.png "[Worker shutdown]")
-
-#### Next steps
-
-- [Kill all workers](#kill-all-workers)
-
-#### See also
-
-- [User Interface workflows](/ActindoWorkFlow/UserInterface/00_UserInterface.md)
-- [Create a queue type](#create-a-queue-type)
-- [Edit a queue type](#edit-a-queue-type)
-- [Assign a queue type](#assign-a-queue-type)
-- [Workflow and process elements](/ActindoWorkFlow/Overview/02_WorkflowProcessElements.md)
-- [Manage the workflows](/ActindoWorkFlow/Operation/01_ManageWorkflows.md)
-
 
 
 ### Kill all workers
@@ -292,19 +337,19 @@ At least one queue type is created, see [Create a queue type](#create-a-queue-ty
 
 ![Overview](/Assets/Screenshots/ActindoWorkFlow/QueueTypes/Overview.png "[Overview]")
 
+> [Info] Disable the workflows before you kill the workers to prevent an automatic restart of the workflow processes, see [Disable the workflows](#disable-the-workflows).
+
 Click the [KILL WORKER] button above the queue types list.    
 All workers are killed. The process actions will not continue until you restart the workflow processes. The *Worker will shutdown* pop-up window is displayed.
 
   ![Worker shutdown](/Assets/Screenshots/ActindoWorkFlow/QueueTypes/WorkerShutdown.png "[Worker shutdown]")
 
-[comment]: <> (Was dann? Wie restart?)
-
-#### See also
+## See also
 
 - [User Interface workflows](/ActindoWorkFlow/UserInterface/00_UserInterface.md)
 - [Create a queue type](#create-a-queue-type)
+- [Disable the workflows](#disable-the-workflows)
 - [Edit a queue type](#edit-a-queue-type)
 - [Assign a queue type](#assign-a-queue-type)
-- [Kill the workers of a single queue type](#kill-the-workers-of-a-single-queue-type)
 - [Workflow and process elements](/ActindoWorkFlow/Overview/02_WorkflowProcessElements.md)
 - [Manage the workflows](/ActindoWorkFlow/Operation/01_ManageWorkflows.md)
