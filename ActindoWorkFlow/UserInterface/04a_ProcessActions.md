@@ -4,6 +4,8 @@
 
 *Workflows > Process Actions > Tab OVERVIEW*
 
+[comment]: <> (vor nächster Version prüfen, möglicher neuer Pfad: *Workflows > Process Actions > Tab PROCESS ACTIONS*)
+
 ![Actions](/Assets/Screenshots/ActindoWorkFlow/ProcessActions/ProcessActions.png "[Actions]")
 
 **Actions**
