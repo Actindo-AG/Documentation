@@ -93,8 +93,6 @@ The list displays all logs that are matching the selected log level. Depending o
   - **Alert**
   - **Emergency**
 
-[comment]: <> (Oli: Farbe bestätigen? Alternativ, abwarten auf endgültige UI von Ina?)
-[comment]: <> (Add color code and sign! Auch andere Dateien.)
 
 - *Log Message*   
   Description of the issue.
@@ -185,8 +183,6 @@ The list displays all logs that are matching the selected log level. Depending o
 
   > [Info] In case of an error, detailed information is provided (stack trace) for reporting and debugging purposes.
 
-[comment]: <> (Diesen Text kann man rauskopieren, um ein Ticket zu erstellen o.ä. Erwähnen? Nützlich für Kunden?)
-
 - *Log Level*    
 Description of log level. The following levels are available:
   - **Debug**
@@ -201,8 +197,6 @@ Description of log level. The following levels are available:
 
 - *Created - by*    
   Date and time of creation, name and user ID of the person who created the process.
-
-[comment]: <> (Ich gehe davon aus, dass Log ist automatisch vom System erstellt, daher "process creator", oder ist es "workflow creator"?)
 
 - *Workflow*    
   Workflow ID number and name.

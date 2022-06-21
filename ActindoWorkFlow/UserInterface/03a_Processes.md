@@ -100,30 +100,28 @@ The list displays all processes that are matching the selected values (status an
 
 
   - *Status*  
-  Status of the process. The different process statuses are displayed in different colors. The following statuses are possible:
+    Status of the process. The different process statuses are displayed in different colors. The following statuses are possible:
 
-    - Light gray (Ready)
-    - Blue (In Progress)
-    - Red (Error)
-    - Green (Done)
-    - White (Dead)
-    - Dark gray (Suspended)
-    - Black (Aborted)
+    - Ready (Light gray)
+    - In Progress (Blue)
+    - Error (Red)
+    - Done (Green)
+    - Dead (Black)
+    - Suspended (Dark gray)
+    - Aborted (Black)
 
-[comment]: <> (Oli: Farbe bestätigen? Alternativ, abwarten auf endgültige UI von Ina?)
-[comment]: <> (Add color code and sign! Auch andere Dateien.)
 
   - *Suspended Actions*  
-  If the process contains suspended actions, a ![Warning](/Assets/Icons/Warning.png "[Warning]") sign is displayed. Click the process to display the individual actions, see [Actions](#actions).
+    If the process contains suspended actions, a ![Warning](/Assets/Icons/Warning.png "[Warning]") sign is displayed. Click the process to display the individual actions, see [Actions](#actions).
 
   - *Subject*  
-  Process description.
+    Process description.
 
   - *Workflow*  
-  Name of the corresponding workflow.
+    Name of the corresponding workflow.
 
   - *Queue Type*  
-  Queue type configured in the workflow. For detailed information about configuring the queue types, see [Configure the queue types](ActindoWorkFlow/Integration/01_ConfigureQueueTypes.md).
+    Queue type configured in the workflow. For detailed information about configuring the queue types, see [Configure the queue types](ActindoWorkFlow/Integration/01_ConfigureQueueTypes.md).
 
 [comment]: <> (Oli: gibt es noch einen anderen Spalteneintrag außer "according to configuration in workflow"?)
 
@@ -132,24 +130,24 @@ The list displays all processes that are matching the selected values (status an
   [comment]: <> (Oli fragen)
 
   - *Created*  
-  Date and time of creation.
+    Date and time of creation.
 
   - *Last activity*  
-  Last date and time an activity was registered in the process.
+    Last date and time an activity was registered in the process.
 
   - *ID*  
-  Process identification number. The ID number is automatically assigned by the system.
+    Process identification number. The ID number is automatically assigned by the system.
 
   - *Owning Module*  
-  Module where the process is integrated.
+    Module where the process is integrated.
 
   [comment]: <> (Oli: gibt es hier auch eine andere Möglichkeit als ActindoWorkFlow?)
 
   - *Created by*  
-  Name and user name of the user who initiated the process.
+    Name and user name of the user who initiated the process.
 
   - *Modified by*  
-  Name and user name of the user who who modified the process.
+    Name and user name of the user who who modified the process.
 
 
 
@@ -160,28 +158,29 @@ The list displays all processes that are matching the selected values (status an
 ![Process ID](/Assets/Screenshots/ActindoWorkFlow/Processes/Actions.png "[Process ID]")
 
 **Process ID**
+
 - ![Back](/Assets/Icons/Back02.png "[Back]") (Back)  
-Click this button to close the *Process ID* view and return to the list of processes.
+  Click this button to close the *Process ID* view and return to the list of processes.
 
 - *Process ID*  
-Process identification number. The ID number is automatically assigned by the system.
+  Process identification number. The ID number is automatically assigned by the system.
 
 - *Workflow*  
-Name of the workflow.
+  Name of the workflow.
 
 - ![Settings](/Assets/Icons/Settings01.png "[Settings]") (Settings)  
-Click this button to display the editing options.
+  Click this button to display the editing options.
 
 - [SAVE]  
-Click this button to save any changes made.
+  Click this button to save any changes made.
 
 [comment]: <> (Oli: Was kann man hier speichern?)
 
 - [RESET]  
-Click this button to reset the diagram view. The whole diagram is displayed. Any zoom or move within the diagram is reset.
+  Click this button to reset the diagram view. The whole diagram is displayed. Any zoom or move within the diagram is reset.
 
 - ![Cancel](/Assets/Icons/Cross02.png "[Cancel]") (Cancel)  
-Click this button to cancel editing and reject changes.
+  Click this button to cancel editing and reject changes.
 
 [comment]: <> (Oli: Was kann man hier denn überhaupt bearbeiten bzw. welche änderungen verwerfen?)
 
@@ -241,7 +240,6 @@ Click the drop-down list to select an action status. The following options are a
 
     - **Error; automatic retry**  
     Select this option to display the actions that have given an error but are set for automatic retry.
-
 
     - **Suspended**  
     Select this option to display the actions that have been manually paused.
@@ -326,8 +324,6 @@ The list displays all executed actions that are matching the selected status. De
 
   - *ID*  
   Action identification number. The ID number is automatically assigned by the system.
-
-  [comment]: <> (Oli fragen)
 
   - *Transition ID*  
   Action identification number. The ID number is automatically assigned by the system.
@@ -429,7 +425,6 @@ The list displays all logs that are matching the selected log level. Depending o
     - **Alert**
     - **Emergency**
 
-[comment]: <> (Repeat here or leave it out? Add color code?)
 
   - *Log Message*  
   Description of the issue.
@@ -546,17 +541,13 @@ The list displays all tokens if the *Hide processed* toggle is disabled. Dependi
   [comment]: <> (Anmerkung Oli: Aus früheren Zeiten -> wird ggf. gestrichen?)
 
   - *ID*  
-  Token identification number.  The ID number is automatically assigned by the system.
-
-  [comment]: <> (Oli fragen)
+  Token identification number. The ID number is automatically assigned by the system.
 
   - *Place ID*  
   Place identification number. The ID number is automatically assigned by the system.
 
   - *Process Action ID*  
   Action identification number. The ID number is automatically assigned by the system.
-
-  [comment]: <> (Oli fragen. Null wenn am end place?)
 
 
 
@@ -630,8 +621,6 @@ Log level type. The following types can be displayed:
 
 - *Created - by*  
 Date and time of creation, name and user name of the user who initiated the process.
-
-[comment]: <> (Oli: Ich gehe davon aus, dass der Log automatisch vom System erstellt wird, daher "process creator", oder bezieht es sich hier auf "workflow creator"?)
 
 - *Workflow*  
 Workflow ID number and name.

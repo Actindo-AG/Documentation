@@ -82,8 +82,6 @@ Further details about the process actions included in the diagram as well as abo
   All actions, regardless of their status, are displayed.
 
 
-[comment]: <> (OLI: wenn eine Action/Token in einem Prozess ausgewählt wird, wird es als Filtereinstellung übernommen. Diese Filtereinstellung bleibt erhalten, auch wenn man zu einem anderen Prozess wechlselt, daher sieht man nicht alle Actions, auch wenn auf "All" klickt. Bug oder erwartetes Verhalten?)
-
 3. Check the actions displayed in the diagram. The workflow process diagram displays the actions in different colors depending on their current status:
 
   - Active (blue)
@@ -116,11 +114,9 @@ The selected action is displayed in the *Actions* tab.
 
   > [Info] The queue type is assigned to an action when editing a workflow, see [Edit an action](01_ManageWorkflows.md#edit-an-action).
 
-9.  Check the time when the action is being tried in the *Defer until* column.
+9.  Check when the action will be executed next time in the *Defer until* column.
 
 > [Info] A list of all actions, regardless of the process they are part of, can be displayed in the *Process Actions* tab. There they can be filtered according to their status and modified simultaneously, if necessary. By clicking a specific action in the process actions list, the corresponding *Process ID* view will be displayed. For detailed information, see [Process actions](ActindoWorkFlow/UserInterface/04a_ProcessActions.md).
-
-[comment]: <> (Bezug zu Logs hier? Wenn man ein Action auswählt und dann auf Logs tab klickt, zeigt Logs tab alle Logs, nicht das Log, das sich auf die ausgewählte Action bezieht. Bug oder erwartetes Verhalten?)
 
 ### Next steps
 
@@ -188,9 +184,6 @@ The token input in the selected place, if any, is displayed in the *Tokens* tab.
 9. If necessary, click an action in the diagram to display further information in the *Actions* tab. For detailed information about checking action status, see [Check the process action status](#check-the-process-action-status).
 
 > [Info] A number is also displayed next to the status of each action. This number refers to the number of tokens processed in this action, and it depends on the action status and the number of tokens received.
-
-[comment]: <> (Bezug zu Logs hier? Wenn man ein Action auswählt und dann auf Logs tab klickt, zeigt Logs tab alle Logs, nicht das Log, das sich auf die ausgewählte Action bezieht. Bug oder erwartetes Verhalten?)
-
 
 ### Next steps
 

@@ -88,8 +88,6 @@ In the *DASHBOARDS* tab, the custom tabs with composable dashlets are displayed.
   - Workflow count: This dashlet displays the number of workflows in the *Workflows* module.
   -	Waiting processes: This dashlet displays the number of waiting processes in the *Workflows* module.
 
-[comment]: <> (Check dashlet description)
-
 - [CANCEL]   
   Click this button to cancel adding dashlets and close the *Dashlet Picker* window.
 

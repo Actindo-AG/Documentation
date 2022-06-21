@@ -104,15 +104,13 @@ The list displays all actions that are matching the selected status. Depending o
   - *Status*  
   Status of the action. The different process statuses are displayed in different colors. The following statuses are possible:
 
-    - *Active*  
+    - *Active*
     - *Done*  
     - *Error*  
     - *Error; automatic retry*  
     - *Suspended*  
     - *Process aborted*  
 
-  [comment]: <> (Oli: Farbe bestätigen? Alternativ, abwarten auf endgültige UI von Ina?)
-  [comment]: <> (Add color code and sign! Auch andere Dateien.)
 
   - *Transition*  
   Action key.
@@ -146,8 +144,6 @@ The list displays all actions that are matching the selected status. Depending o
 
   - *ID*  
   Action identification number. The ID number is automatically assigned by the system.
-
-  [comment]: <> (Oli fragen)
 
   - *Transition ID*  
   Action identification number. The ID number is automatically assigned by the system.

@@ -136,11 +136,7 @@ The workflow process view displays the actions in different colors depending on 
   - *Suspended*
   - *Aborted*
 
-[comment]: <> (Color coding changing here too?)
-
-For detailed information about the different status meaning, see [Processes](/ActindoWorkFlow/UserInterface/03a_Processes.md).
-
-[comment]: <> (Evtl. genaueres Link?)
+For detailed information about the process actions, see [Process actions](/ActindoWorkFlow/UserInterface/04a_ProcessActions.md).
 
 Next to the status of each action, a number is displayed. This number refers to the number of tokens processed in this action, and it depends on the action status and the number of tokens received. For example, if an action displays the message *Done 1*, this means that the action has already been executed and that 1 token has been processed.
 
