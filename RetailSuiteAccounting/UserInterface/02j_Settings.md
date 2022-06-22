@@ -54,4 +54,4 @@ Click this button to add a new row.
 Click this button to delete the selected row(s).
 
 - [SAVE]  
-Click this button to save any changes made in the added rows.
+Click this button to save any changes made in the added rows. Unsaved changes are marked with a small red triangle on the top left corner of the corresponding table cell.
