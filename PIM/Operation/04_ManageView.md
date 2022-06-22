@@ -147,8 +147,8 @@ No prerequisites to fulfill.
 
 1. Click the *Variants* drop-down list at the top of the products list.   
   The options below are displayed:
-  - **Hide child products**: No variants are displayed in the product list.
-  - **List all products**: All products and their variants are displayed in the product list.
+  - **All products**: All products and their variants are displayed in the product list.   
+  - **Hide variants**: No variants are displayed in the product list.
 
 
 2. Select the desired variant view in the *Variants* drop-down list.

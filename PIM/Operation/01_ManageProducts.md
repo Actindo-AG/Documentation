@@ -23,7 +23,7 @@ An attribute set is created, see [Create an attribute set](ManageAttributeSet.md
 
   ![Create new product](/Assets/Screenshots/PIM/Products/List/CreateNewProduct.png "[Create new product]")
 
-2. Select a attribute set in the *Select attribute set* drop-down list. All active attribute sets are displayed in the drop-down list.
+2. Select a attribute set in the *Attribute set* drop-down list. All active attribute sets are displayed in the drop-down list.
 
 3. Enter a SKU for the product in the *SKU* field.
 

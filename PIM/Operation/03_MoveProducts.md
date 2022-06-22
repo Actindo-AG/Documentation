@@ -110,9 +110,9 @@ At least one product is moved to the recycle bin, see [Delete a product](#delete
   The editing toolbar is displayed above the products list.
 
 2. Click the [FINALLY DELETE PRODUCTS] button in the toolbar.   
-  The button changes to [DELETING...]. The *Products deleted* pop-up window is displayed, indicating the number of finally deleted products.
+  The button changes to [DELETING...]. The *Products finally deleted* pop-up window is displayed, indicating the number of finally deleted products.
 
-  ![Product deleted](/Assets/Screenshots/PIM/Products/List/ProductDeleted.png "[Product deleted]")
+  ![Product finally deleted](/Assets/Screenshots/PIM/Products/RecycleBin/ProductFinallyDeleted.png "[Product finally deleted]")
 
   The selected products are permanently deleted.
 

@@ -22,7 +22,7 @@
     - ![Publish](/Assets/Icons/Publish.png "[Publish]") publish    
       Click this entry to publish the view. This menu entry is only displayed when a view is selected and unpublished.
 
-    - ![Unpublish](/Assets/Icons/Unpublish.png "[Unpublish]") unpublish    
+    - ![Private view](/Assets/Icons/Unpublish.png "[Unpublish]") private view    
       Click this entry to unpublish the view. This menu entry is only displayed when a view is selected and published.
 
     - ![Save](/Assets/Icons/Save.png "[Save]") save    
@@ -40,8 +40,6 @@
 
 - *Channel*   
   Click the drop-down list to select the channel. All channels that are active in *PIM* are displayed in the drop-down list. By default, the **Actindo Basic** channel is preselected. For detailed information, see [Select a channel](/PIM/Operation/04_ManageView.md#select-a-channel).
-
-[comment]: <> (List needs title)
 
 - *Catalog*   
   Click the drop-down list to select the catalog. All catalogs are displayed in the drop-down list. After having selected a catalog, all categories and sub-categories of the selected catalog are displayed. Click a category or sub-category to limit the product list to those products that are assigned to the selected category. By default, the **Product Categories** catalog is preselected. For detailed information, see [Select a product category](/PIM/Operation/04_ManageView.md#select-a-product-category).
@@ -170,7 +168,7 @@ Depending on the selection in the *Variants* drop-down list, the product list di
 
 ![Create new product](/Assets/Screenshots/PIM/Products/List/CreateNewProduct.png "[Create new product]")
 
-- *Select attribute set*   
+- *Attribute set*   
   Click the drop-down list to select the attribute set for the new product. All available attribute sets are displayed in the drop-down list.
 
 - *SKU*   
@@ -436,7 +434,7 @@ In this tab, boxes of all attributes with the *Related products* data type are d
 > [Info] For detailed information about the data types, see [Data type list](04_DataTypeList.md).
 
 - [ADD]   
-  Click this button to add an associated product to the list. The *Filter List of Products* window is displayed.
+  Click this button to add an associated product to the list. The *Not associated products* window is displayed.
 
 The box displays all associated products. All fields are read-only. If no product is selected, the notice *No associated products selected* is displayed in the box.
 
@@ -459,16 +457,16 @@ The box displays all associated products. All fields are read-only. If no produc
 
 
 
-#### Filter list of products
+#### Not associated products
 *PIM > Products > Tab LIST > Button Add > Button CREATE > Tab Associations > Button ADD*
 
-![Filter List of Products ](/Assets/Screenshots/PIM/Products/List/Associations/FilterListProducts.png "[Filter List of Products]")
+![Not associated products](/Assets/Screenshots/PIM/Products/List/Associations/NotAssociatedProducts.png "[Not associated products]")
 
 - [CANCEL]   
-  Click this button to cancel adding products and close the *Filter List of Products* window.
+  Click this button to cancel adding products and close the *Not associated products* window.
 
 - [SAVE]   
-  Click this button to add the selected products to the list and close the *Filter List of Products* window.
+  Click this button to add the selected products to the list and close the *Not associated products* window.
 
 - ![Search](/Assets/Icons/Search.png "[Search]") (Search)   
   Click this button to display the search bar and search for a product.
@@ -563,7 +561,7 @@ The list displays all created offers to this product. All fields are read-only.
 - *Attribute Set*   
   Selected attribute set for the offer.
 
-- *Last edited*   
+- *Last edited on*   
   Date and time of the last modification. In the *Create product* view, no date is displayed.
 
 - *Modified by*   
@@ -580,10 +578,10 @@ The list displays all created offers to this product. All fields are read-only.
 - *ID*   
   Product identification number. The ID number is automatically assigned by the system.
 
-- *Created*   
+- *Created on*   
   Date and time of the creation. In the *Create product* view, no date is displayed.
 
-- *Creator*   
+- *Created by*   
   Name and username of the user who created the product. In the *Create product* view, no name is displayed.
 
 - ![Add](/Assets/Icons/Plus01.png "[Add]") (Add)   
@@ -615,7 +613,7 @@ The list displays all created offers to this product. All fields are read-only.
 - *Select Connection*   
   Click the drop-down list to select a connection for the offer. All available connections are displayed in the list.
 
-- *Select Attribute Set*   
+- *Attribute Set*   
   Click the drop-down list to select an attribute set for the offer. All active attribute sets are displayed in the drop-down list. The drop-down list is locked if no connection is selected.
 
 - ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Generate SKU*   
@@ -626,7 +624,7 @@ The list displays all created offers to this product. All fields are read-only.
 
 [comment]: <> (offer or product? how does this work? When I enter a different SKU, The SKU is automatically overwritten)
 
-- *Change Tracking mode*   
+- *Change tracking mode*   
   Select the appropriate option for change tracking (ETL mode). The following options are available:   
    ![Radionbutton](/Assets/Icons/Radiobutton.png "[Radiobutton]") *manual*: Changes in a PIM product must be triggered manually to be applied to the offer. The initial offer is automatically applied.   
    ![Radionbutton](/Assets/Icons/Radiobutton.png "[Radiobutton]") *semi-automatic*: Changes in a PIM product are automatically applied to the offer after confirmation in the *Omni-Channel* module. The initial offer is automatically applied without confirmation.   
@@ -635,7 +633,7 @@ The list displays all created offers to this product. All fields are read-only.
 
 [comment]: <> (adjust field name!)
 
-- *Status*    
+- *Offer status*    
   Click the drop-down list to select the connection status. The following statuses are available:    
   - **Active**: The offer is active. It is displayed on the marketplace and can be sold there.
   - **Inactive**: The offer is inactive. It is not displayed on the marketplace and cannot be sold there.   
@@ -691,7 +689,7 @@ The list displays all created offers to this product. All fields are read-only.
 
 ![Add to multiple connections](/Assets/Screenshots/PIM/Products/List/Offers/MultipleConnections02.png "[Add to multiple connections]")
 
-- *Destination set for connection*   
+- *Destination attribute set for connection*   
   Destination attribute set for the selected connection. The attribute set is automatically selected. The field is read-only. An own attribute set is assigned to each selected connection.
 
 - [< BACK]   
@@ -700,7 +698,7 @@ The list displays all created offers to this product. All fields are read-only.
 - [CANCEL]   
   Click this button to cancel adding multi-connection offers and close the *Select destination attribute sets* wizard window.
 
-- [FINISH]   
+- [FINALIZE]   
   Click this button to save the multi-connection offers and close the *Select destination attribute sets* wizard window.
 
 
@@ -1057,7 +1055,7 @@ In this tab, boxes of all attributes with the *Related products* data type are d
 > [Info] For detailed information about the data types, see [Data type list](04_DataTypeList.md).
 
 - [ADD]   
-  Click this button to add an associated product to the list. The *Filter List of Products* window is displayed.
+  Click this button to add an associated product to the list. The *Not associated products* window is displayed.
 
 The box displays all associated product for cross selling. All fields are read-only. If no product is selected, *No associated products selected* is displayed in the box.
 
@@ -1080,16 +1078,16 @@ The box displays all associated product for cross selling. All fields are read-o
 
 
 
-#### Filter list of products
+#### Not associated products
 *PIM > Products > Select product > Tab Associations > Button ADD*
 
-![Filter List of Products ](/Assets/Screenshots/PIM/Products/List/Associations/FilterListProducts.png "[Filter List of Products]")
+![Not associated products](/Assets/Screenshots/PIM/Products/List/Associations/NotAssociatedProducts.png "[Not associated products]")
 
 - [CANCEL]   
-  Click this button to cancel adding products and close the *Filter List of Products* window.
+  Click this button to cancel adding products and close the *Not associated products* window.
 
 - [SAVE]   
-  Click this button to add the selected poducts to the list and close the *Filter List of Products* window.
+  Click this button to add the selected products to the list and close the *Not associated products* window.
 
 - ![Search](/Assets/Icons/Search.png "[Search]") (Search)   
   Click this button to display the search bar and search for a product.
@@ -1281,7 +1279,7 @@ The list displays all created offers to this product. All fields are read-only.
 - *Attribute Set*   
   Selected attribute set for the offer.
 
-- *last edited*   
+- *last edited on*   
   Date and time of the last modification.
 
 - *Modified by*   
@@ -1298,10 +1296,10 @@ The list displays all created offers to this product. All fields are read-only.
 - *ID*   
   Product identification number. The ID number is automatically assigned by the system.
 
-- *Created*   
+- *Created on*   
   Date and time of the creation.
 
-- *Creator*   
+- *Created by*   
   Name and username of the user who created the product.
 
 - ![Add](/Assets/Icons/Plus01.png "[Add]") (Add)   
@@ -1333,7 +1331,7 @@ The list displays all created offers to this product. All fields are read-only.
 - *Select Connection*   
   Click the drop-down list to select a connection for the offer. All available connections are displayed in the list.
 
-- *Select Attribute Set*   
+- *Attribute Set*   
   Click the drop-down list to select an attribute set for the offer. All active attribute sets are displayed in the drop-down list. The drop-down list is locked if no connection is selected.
 
 - ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Generate SKU*   
@@ -1344,16 +1342,15 @@ The list displays all created offers to this product. All fields are read-only.
 
 [comment]: <> (offer or product? how does this work? When I enter a different SKU, The SKU is automatically overwritten)
 
-- *Change Tracking mode*   
+- *Change tracking mode*   
   Select the appropriate option for change tracking (ETL mode). The following options are available:   
    ![Radionbutton](/Assets/Icons/Radiobutton.png "[Radiobutton]") *manual*: Changes in a PIM product must be triggered manually to be applied to the offer. The initial offer is automatically applied.   
    ![Radionbutton](/Assets/Icons/Radiobutton.png "[Radiobutton]") *semi-automatic*: Changes in a PIM product are automatically applied to the offer after confirmation in the *Omni-Channel* module. The initial offer is automatically applied without confirmation.   
    ![Radionbutton](/Assets/Icons/Radiobutton.png "[Radiobutton]") *semi-automatic, changes must be confirmed by another user*: Changes in a PIM product are automatically applied to the offer after confirmation in the *Omni-Channel* module by another user. The initial offer is only applied after confirmation by another user.    
    ![Radionbutton](/Assets/Icons/Radiobutton.png "[Radiobutton]") *automatic*: Changes in a PIM product are automatically applied to the offer. The initial offer is also automatically applied.
 
-[comment]: <> (adjust field name!)
 
-- *Status*    
+- *Offer status*    
   Click the drop-down list to select the connection status. The following statuses are available:    
   - **Active**: The offer is active. It is displayed on the marketplace and can be sold there.
   - **Inactive**: The offer is inactive. It is not displayed on the marketplace and cannot be sold there.   
@@ -1409,7 +1406,7 @@ The list displays all created offers to this product. All fields are read-only.
 
 ![Add to multiple connections](/Assets/Screenshots/PIM/Products/List/Offers/MultipleConnections02.png "[Add to multiple connections]")
 
-- *Destination set for connection*   
+- *Destination attribute set for connection*   
   Destination attribute set for the selected connection. The attribute set is automatically selected. The field is read-only. An own attribute set is assigned to each selected connection.
 
 - [< BACK]   
@@ -1418,5 +1415,5 @@ The list displays all created offers to this product. All fields are read-only.
 - [CANCEL]   
   Click this button to cancel adding multi-connection offers and close the *Select destination attribute sets* wizard window.
 
-- [FINISH]   
+- [FINALIZE]   
   Click this button to save the multi-connection offers and close the *Select destination attribute sets* wizard window.

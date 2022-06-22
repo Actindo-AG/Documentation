@@ -37,7 +37,7 @@ The list displays all archived products. All fields are read-only. Depending on 
 - *Attribute Set*   
   Assigned attribute set.
 
-- *Archived at*   
+- *Archived on*   
   Date and time of the archiving.
 
 - *Archived by*   

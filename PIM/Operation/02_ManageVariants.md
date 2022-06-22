@@ -23,7 +23,7 @@ The *Create new product* window is displayed.
 
   ![Create new product](/Assets/Screenshots/PIM/Products/List/CreateNewProduct.png "[Create new product]")
 
-2. Select an attribute set in the *Select attribute set* drop-down list. All active attribute sets are displayed in the drop-down list.
+2. Select an attribute set in the *Attribute set* drop-down list. All active attribute sets are displayed in the drop-down list.
 
 3. Enter a SKU for the product in the *SKU* field.
 
@@ -76,7 +76,7 @@ The [Add single variant ![Add single variant](/Assets/Icons/Document.png "[Add s
   ![Variant added](/Assets/Screenshots/PIM/Products/List/Variants/VariantAddedCreate.png "[Variant added]")
 
 5. Click the [SAVE] button in the upper right corner.   
-  The variant is saved. The product view is closed. The variant is displayed in the products list when you enable the **List all products** option in the *Variants* drop-down list at the top of the products list.
+  The variant is saved. The product view is closed. The variant is displayed in the products list when you enable the **All products** option in the *Variants* drop-down list at the top of the products list.
 
 
 #### Create multiple variants
@@ -119,7 +119,7 @@ The [Add single variant ![Add single variant](/Assets/Icons/Document.png "[Add s
   ![Variants added](/Assets/Screenshots/PIM/Products/List/Variants/VariantsAddedCreate.png "[Variants added]")
 
 8. Click the [SAVE] button in the upper right corner.   
-  The variant is saved. The product view is closed. The variants are displayed in the products list when you enable the **List all products** option in the *Variants* drop-down list at the top of the products list.
+  The variant is saved. The product view is closed. The variants are displayed in the products list when you enable the **All products** option in the *Variants* drop-down list at the top of the products list.
 
   > [Info] For detailed information about the different views, see [Manage the view](04_ManageView.md).
 
@@ -200,7 +200,7 @@ At least one variant is created, see [Create variants](#create-variants) or [Add
 
 ![Product list](/Assets/Screenshots/PIM/Products/List/Products.png "[Product list]")
 
-1. Click the *Variants* drop-down list at the top of the products list and select the **List all products** option.   
+1. Click the *Variants* drop-down list at the top of the products list and select the **All products** option.   
   All products including the variants are displayed in the products list.
 
   ![All products](/Assets/Screenshots/PIM/Products/List/AllProducts.png "[All products]")

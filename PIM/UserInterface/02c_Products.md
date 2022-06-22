@@ -41,7 +41,7 @@ The list displays all products moved to recycle bin. All fields are read-only. D
 - *Attribute Set*   
   Assigned attribute set.
 
-- *Deleted at*   
+- *Deleted on*   
   Date and time of the deletion.
 
 - *Deleted by*   
