@@ -4,7 +4,7 @@
 
 *Accounting > Select fiscal year > Settings > Tab SAP ACCOUNT MAPPING*
 
-![BWA assignment](/Assets/Screenshots/RetailSuiteAccounting/Settings/SAPAccountMapping/SAPAccountMapping.png "[BWA assignment]")
+![SAP account mapping](/Assets/Screenshots/RetailSuiteAccounting/Settings/SAPAccountMapping/SAPAccountMapping02.png "[SAP account mapping]")
 
 
 The account mapping details entered are displayed in a column view. The column width can be modified using the mouse. To do so, place the mouse pointer on the vertical dividing line between two columns titles. The mouse pointer changes to a double-headed arrow. Press the left mouse button and move the line using drag and drop until it has reached the required width.
@@ -54,4 +54,4 @@ Click this button to add a new row.
 Click this button to delete the selected row(s).
 
 - [SAVE]
-Click this button to save the added rows.
+Click this button to save any changes made in the added rows.
