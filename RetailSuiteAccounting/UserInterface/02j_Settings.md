@@ -53,5 +53,5 @@ Click this button to add a new row.
 - [DELETE]  
 Click this button to delete the selected row(s).
 
-- [SAVE]
+- [SAVE]  
 Click this button to save any changes made in the added rows.
