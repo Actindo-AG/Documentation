@@ -7,7 +7,7 @@
 ![SAP account mapping](/Assets/Screenshots/RetailSuiteAccounting/Settings/SAPAccountMapping/SAPAccountMapping02.png "[SAP account mapping]")
 
 
-The account mapping details entered are displayed in a column view. The column width can be modified using the mouse. To do so, place the mouse pointer on the vertical dividing line between two columns titles. The mouse pointer changes to a double-headed arrow. Press the left mouse button and move the line using drag and drop until it has reached the required width.
+The account mapping details are displayed in a column view. The column width can be modified using the mouse. To do so, place the mouse pointer on the vertical dividing line between two columns titles. The mouse pointer changes to a double-headed arrow. Press the left mouse button and move the line using drag and drop until it has reached the required width.
 
 
 When placing the cursor on a column header, three vertical points are displayed to the right of the column title. Click the ![Points](/Assets/Icons/Points02.png "[Points]") (Points) button to display the context menu. The following menu entries are available:
