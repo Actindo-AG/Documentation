@@ -20,12 +20,12 @@ Accounting data can be exported into a DATEV CSV compatible file to be later imp
 
 *Accounting > Select fiscal year > Extras > Tab EXPORT*
 
-![Export](/Assets/Screenshots/RetailSuiteAccounting/Extras/Export.png "[Export]")
+![Export](/Assets/Screenshots/RetailSuiteAccounting/Extras/Export/Export.png "[Export]")
 
 1. Click the [DATEV CSV] button.    
 The *Export: DATEV CSV: Step 1* window is displayed.
 
-  ![Export DATEV CVS: Step 1](/Assets/Screenshots/RetailSuiteAccounting/Extras/ExportDatevCVS01.png "[Export DATEV CVS: Step 1]")
+  ![Export DATEV CVS: Step 1](/Assets/Screenshots/RetailSuiteAccounting/Extras/Export/ExportDatevCVS01.png "[Export DATEV CVS: Step 1]")
 
 2. Select the fiscal year to be exported in the *Fiscal year* drop-down list.
 
@@ -37,7 +37,7 @@ The *Export: DATEV CSV: Step 1* window is displayed.
 
   > [Info] When selecting the *Custom* option, additional fields are displayed to customized your export.
 
-  ![Export DATEV CVS Custom](/Assets/Screenshots/RetailSuiteAccounting/Extras/ExportDatevCVS01cust.png "[Export DATEV CVS Custom]")
+  ![Export DATEV CVS Custom](/Assets/Screenshots/RetailSuiteAccounting/Extras/Export/ExportDatevCVS01cust.png "[Export DATEV CVS Custom]")
 
 6. Select the appropriate option in the *Export only booking-relevant master data records* drop-down list.
 
@@ -54,7 +54,7 @@ The *Export: DATEV CSV: Step 1* window is displayed.
 10. Click the [CONTINUE] button.  
 A new window confirms the ongoing export process. When finished, a confirmation window is displayed.
 
-  ![Export Datev CSV: Step 2](/Assets/Screenshots/RetailSuiteAccounting/Extras/ExportDatevCVS02.png "[Export Datev CSV: Step 2]")
+  ![Export Datev CSV: Step 2](/Assets/Screenshots/RetailSuiteAccounting/Extras/Export/ExportDatevCVS02.png "[Export Datev CSV: Step 2]")
 
 11. Click the [OK] button.  
 The confirmation window closes. A new window shows the exported file(s) as a zip file.
@@ -62,7 +62,7 @@ The confirmation window closes. A new window shows the exported file(s) as a zip
 12. Click the zip file name.  
 The zip file is downloaded in your computer.   
 
-  ![Export Datev CSV: Step 3](/Assets/Screenshots/RetailSuiteAccounting/Extras/ExportDatevCVS03.png "[Export Datev CSV: Step 3]")
+  ![Export Datev CSV: Step 3](/Assets/Screenshots/RetailSuiteAccounting/Extras/Export/ExportDatevCVS03.png "[Export Datev CSV: Step 3]")
 
   > [Info] Per default, the downloaded export file is saved in the Downloads folder of your computer.
 
@@ -91,12 +91,12 @@ Accounting data can be exported into a GDPdU-compliant audit file format, a lega
 
 *Accounting > Select fiscal year > Extras > Tab EXPORT*
 
-  ![Export](/Assets/Screenshots/RetailSuiteAccounting/Extras/Export.png "[Export]")
+  ![Export](/Assets/Screenshots/RetailSuiteAccounting/Extras/Export/Export.png "[Export]")
 
 1. Click the [GDPdU EXPORT] button.    
 The *Export: GDPdU Export: Step 1* window is displayed.
 
-  ![Export GDPdU: Step 1](/Assets/Screenshots/RetailSuiteAccounting/Extras/ExportGDPdU01.png "[Export GDPdU: Step 1]")
+  ![Export GDPdU: Step 1](/Assets/Screenshots/RetailSuiteAccounting/Extras/Export/ExportGDPdU01.png "[Export GDPdU: Step 1]")
 
 2. Select the fiscal year to be exported in the *Fiscal year* drop-down list.
 
@@ -115,12 +115,12 @@ The *Export: GDPdU Export: Step 1* window is displayed.
 8. Click the [CONTINUE] button.  
   A new window confirms the ongoing export process. When finished, a confirmation window is displayed.
 
-  ![Export GDPdU: Step 2](/Assets/Screenshots/RetailSuiteAccounting/Extras/ExportGDPdU02.png "[Export GDPdU: Step 2]")
+  ![Export GDPdU: Step 2](/Assets/Screenshots/RetailSuiteAccounting/Extras/Export/ExportGDPdU02.png "[Export GDPdU: Step 2]")
 
 9. Click the [OK] button.  
   The confirmation window closes. A new window shows the exported file(s) as a zip file.
 
-  ![Export GDPdU: Step 3](/Assets/Screenshots/RetailSuiteAccounting/Extras/ExportGDPdU03.png "[Export GDPdU: Step 3]")
+  ![Export GDPdU: Step 3](/Assets/Screenshots/RetailSuiteAccounting/Extras/Export/ExportGDPdU03.png "[Export GDPdU: Step 3]")
 
 ### Next steps
 
