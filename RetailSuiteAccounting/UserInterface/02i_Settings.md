@@ -135,7 +135,7 @@ Click this button to save the changes made in the accounting report. For detaile
 
 - **Report copied from a predefined system report**
 
-  ![Edit BWA report](/Assets/Screenshots/RetailSuiteAccounting/Settings/BWAAssignment/EditBWAReport02.png "[Edit BWA report]")
+  ![Edit report lines](/Assets/Screenshots/RetailSuiteAccounting/Settings/BWAAssignment/EditBWAReport02.png "[Edit report lines]")
 
   > [Info] If the accounting report is a copy of a predefined system report, the *Accounting report lines* section contains a number of lines. These lines can be edited or deleted.
 
@@ -265,7 +265,7 @@ Click the drop-down list to select the desired function for the current line. Th
 
 
 - *Formula*  
-Enter the applicable formula. This field becomes active when selecting **Calculation** in the *Function* field. The basic calculating operations (+,-,*,/) are permitted.
+Enter the applicable formula. This field becomes active when selecting **Calculation** in the *Function* field. The basic calculating operations (+, -, *, /) are permitted.
 
 - *Percent / Columns*
 
@@ -273,7 +273,7 @@ Enter the applicable formula. This field becomes active when selecting **Calcula
   Active this toggle to apply a specific formula in a column. Up to 4 percent/columns can be added per line.
 
   - *Formula*  
-  Enter the applicable formula for the percentage calculation in the selected column. The basic calculating operations (+,-,*,/) are permitted.
+  Enter the applicable formula for the percentage calculation in the selected column. The basic calculating operations (+, -, *, /) are permitted.
 
 [comment]: <> (Alte-Doku-Webseite: Für jede BWA können Sie max. 4 Prozent-Spalten einfügen. Der Prozentsatz bezieht sich auf den Gesamtumsatz. Wählen Sie eine Spalte an und klicken Sie auf Formel, um die Formel einzugeben. Stimmt? Wie funktioniert es?)
 
