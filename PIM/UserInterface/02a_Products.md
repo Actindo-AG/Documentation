@@ -287,10 +287,10 @@ The list displays all variants of the selected product. All fields are read-only
 **Additional fields**
 
 - *SKU*   
-  Identification number for the variant. The SKU (Stock Keeping Unit) is an identification number and should be assigned only once. This field is read-only as long as the *Use formula* toggle is active. Deactivate the toggle to edit the SKU.
+  Identification number for the variant. The SKU (Stock Keeping Unit) is an identification number and should be assigned only once. This field is read-only as long as the *Use formula* toggle is enabled. Disable the toggle to edit the SKU.
 
 - ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Use formula*   
-  Activate this toggle to apply the formula defined in the settings for the variant sets to the variant SKU. When the toggle is active, the *SKU* field is read-only. Deactivate the toggle to enter a different SKU. By default, this toggle is active.
+  Enable this toggle to apply the formula defined in the settings for the variant sets to the variant SKU. When the toggle is enabled, the *SKU* field is read-only. Disable the toggle to enter a different SKU. By default, this toggle is enabled.
 
 **Defined values**
 
@@ -617,7 +617,7 @@ The list displays all created offers to this product. All fields are read-only.
   Click the drop-down list to select an attribute set for the offer. All active attribute sets are displayed in the drop-down list. The drop-down list is locked if no connection is selected.
 
 - ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Generate SKU*   
-  Activate this toggle to automatically generate a SKU for the offer. Deactivate the toggle to enter a SKU manually. By default, this toggle is active.
+  Enable this toggle to automatically generate a SKU for the offer. Disable the toggle to enter a SKU manually. By default, this toggle is enabled.
 
 - *SKU*    
   Enter an individual SKU for the offer. The SKU (Stock Keeping Unit) is an identification number and should be assigned only once.
@@ -676,7 +676,7 @@ The list displays all created offers to this product. All fields are read-only.
   Click this button to select all available connections.
 
 - ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") Connection name     
-  Activate a toggle to select the corresponding connection to create an offer to. All available connections are displayed. By default, all toggles are inactive.
+  Enable a toggle to select the corresponding connection to create an offer to. All available connections are displayed. By default, all toggles are disabled.
 
 - [CANCEL]   
   Click this button to cancel adding multi-connection offers and close the *Select Connections and status* wizard window.
@@ -744,7 +744,7 @@ The list displays all created offers to this product. All fields are read-only.
   > [Info] The completeness is calculated by considering the number of missing required fields. As the required fields are defined individually for each attribute set set, it can vary from one product to another.  
 
 - ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *show empty required attributes only*     
-  Activate this toggle to display only the missing required fields in the *Attributes* tab for this product. By default, the toggle is inactive. The toggle is only displayed if at least one required field is missing.
+  Enable this toggle to display only the missing required fields in the *Attributes* tab for this product. By default, the toggle is disabled. The toggle is only displayed if at least one required field is missing.
 
 - *Sets*   
   Click the drop-down list to change the attribute set (attribute set) for the product. All available attribute sets are displayed in the drop-down list. The currently selected attribute set is highlighted in bold.
@@ -858,10 +858,10 @@ The list displays all variants. All fields are read-only. Depending on the setti
 **Additional fields**
 
 - *SKU*   
-  Identification number for the variant. The SKU (Stock Keeping Unit) is an identification number and should be assigned only once. This field is read-only as long as the *Use formula* toggle is active. Deactivate the toggle to edit the SKU.
+  Identification number for the variant. The SKU (Stock Keeping Unit) is an identification number and should be assigned only once. This field is read-only as long as the *Use formula* toggle is enabled. Disable the toggle to edit the SKU.
 
 - ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Use formula*   
-  Activate this toggle to apply the formula defined in the settings for the variant sets to the variant SKU. When the toggle is active, the *SKU* field is read-only. Deactivate the toggle to enter a different SKU. By default, this toggle is active.
+  Enable this toggle to apply the formula defined in the settings for the variant sets to the variant SKU. When the toggle is enabled, the *SKU* field is read-only. Disable the toggle to enter a different SKU. By default, this toggle is enabled.
 
 **Defined values**
 
@@ -1335,7 +1335,7 @@ The list displays all created offers to this product. All fields are read-only.
   Click the drop-down list to select an attribute set for the offer. All active attribute sets are displayed in the drop-down list. The drop-down list is locked if no connection is selected.
 
 - ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Generate SKU*   
-  Activate this toggle to automatically generate a SKU for the offer. Deactivate the toggle to enter a SKU manually. By default, this toggle is active.
+  Enable this toggle to automatically generate a SKU for the offer. Disable the toggle to enter a SKU manually. By default, this toggle is enabled.
 
 - *SKU*    
   Enter an individual SKU for the offer. The SKU (Stock Keeping Unit) is an identification number and should be assigned only once.
@@ -1393,7 +1393,7 @@ The list displays all created offers to this product. All fields are read-only.
   Click this button to select all available connections.
 
 - ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") Connection name     
-  Activate a toggle to select the corresponding connection to create an offer to. All available connections are displayed. By default, all toggles are inactive.
+  Enable a toggle to select the corresponding connection to create an offer to. All available connections are displayed. By default, all toggles are disabled.
 
 - [CANCEL]   
   Click this button to cancel adding multi-connection offers and close the *Select Connections and status* wizard window.

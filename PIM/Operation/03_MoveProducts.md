@@ -6,7 +6,7 @@ Move a product to either archive it, move it to the recycle bin, delete it final
 
 ## Archive a product
 
-[comment]: <> (Difference between archive and recycle bin)
+You can archive products that you are not currently using, but that you still want to access and may want to use again at a later time. Archived products cannot be finally deleted but must first be moved to the recycle bin.
 
 ### Prerequisites
 
@@ -50,7 +50,7 @@ At least one product is created, see [Create a product](01_ManageProducts.md#cre
 
 ## Delete a product
 
-[comment]: <> (Difference between archive and recycle bin)
+You can delete products that are no longer needed by moving them to the recycle bin. Products in the recycle bin can still be restored or archived but they also can be finally deleted.
 
 ### Prerequisites
 
@@ -94,7 +94,7 @@ At least one product is created, see [Create a product](01_ManageProducts.md#cre
 
 ## Finally delete a product
 
-Products that have been moved to the recycle bin can be permanently deleted unless they have any existing dependencies. Be aware that the products cannot be restored as the deletion process cannot be undone.
+You can permanently delete products Products that have been moved to the recycle bin unless they have any existing dependencies. Be aware that once deleted products cannot be restored as the deletion process cannot be undone.
 
 ### Prerequisites
 
@@ -137,7 +137,7 @@ At least one product is moved to the recycle bin, see [Delete a product](#delete
 
 ## Restore a product
 
-Products that have been moved to the archive or the recycle bin can be restored in order to offer them again.
+You can restore products that have been moved to the archive or the recycle bin in order to use them again.
 
 ### Prerequisites
 

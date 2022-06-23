@@ -27,4 +27,4 @@ The list displays all available languages.
   Description to the language. This field is read-only.
 
 - *Active*   
-  Activate the toggle to set the language active. Deactivate the toggle to set the language inactive.
+  Enable the toggle to set the language active. Disable the toggle to set the language inactive.

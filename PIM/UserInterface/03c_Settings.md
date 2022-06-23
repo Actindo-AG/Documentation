@@ -77,7 +77,7 @@ The list displays all attributes assigned to the selected attribute group. All f
   Click this button to cancel adding an attribute to the selected attribute group and close the *Add attributes to attribute group* view.
 
 - ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Only Unassigned Attributes*   
-  Activate this toggle to display only the attributes that are not yet assigned to any attribute group. Deactivate the toggle to display all attributes. By default, this toggle is inactive.
+  Enable this toggle to display only the attributes that are not yet assigned to any attribute group. Disable the toggle to display all attributes. By default, this toggle is disabled.
 
   > [Info] An attribute can be assigned to one attribute group or sub-group only. When you add an attribute to an attribute group that is already added to another group, it is automatically removed from the former attribute group.
 

@@ -27,18 +27,18 @@ No prerequisites to fulfill.
 
 3. Check the following attribute settings:
   - *Multi-language*      
-    Check if the toggle is deactivated. Only single language attributes can be used as defining attributes for a variant set.
+    Check if the toggle is disabled. Only single language attributes can be used as defining attributes for a variant set.
   - *Multi-channel*      
-    Check if the toggle is deactivated. Only single channel attributes can be used as defining attributes for a variant set.
+    Check if the toggle is disabled. Only single channel attributes can be used as defining attributes for a variant set.
 
     > [Info] If the respective attribute is multi-language or multi-channel, it cannot be used as defining attribute. [Create a new attribute](/PIM/Integration/01_ManageAttributes.md#create-an-attribute) which is not multi-language nor multi-channel to use it as a defining attribute.    
 
-4. Check if the *Active* toggle is activated. Only active attributes are displayed in the list of defining attributes for a variant set. If the toggle is deactivated, activate the toggle by clicking it.
+4. Check if the *Active* toggle is enabled. Only active attributes are displayed in the list of defining attributes for a variant set. If the toggle is disabled, enable the toggle by clicking it.
 
 5. Click the [SAVE] button in the upper right corner to save any changes.   
   The changes are applied. The *Edit Attribute* view is closed.
 
-6. Press **F5** to initialize the Core 1 Platform.
+6. Press **F5** to initialize the Core1 Platform.
 
 7. Switch to the *VARIANT SETS* tab: *PIM > Settings > Tab VARIANT SETS* .      
   The variant sets list is displayed.

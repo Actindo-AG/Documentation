@@ -4,37 +4,37 @@
 
 An attribute defines a characteristic to describe a product. By default, the *PIM Basic Set* attribute set with the following attributes is predefined:
 - Additional terms for search
-- Customs Tariff Number
+- Customs tariff number
 - Completeness
 - Sale Unit
-- Country of Origin
+- Country of origin
 - Depth		
 - Tags / Keywords
 - Bundle		
-- Product Variants
-- Product Categories
+- Product variants
+- Product categories
 - Price
 - PIM Omni-Channel Connection
-- Meta Title		
-- Meta Keywords		
-- Meta Description		
-- Long Text
+- Meta title		
+- Meta keywords		
+- Meta description		
+- Long text
 - Length
 - Stock		
-- Supplier Link		
+- Supplier link		
 - 18+
-- EAN-Code		
-- Digital Item
+- EAN-code		
+- Digital item
 - Files
 - Product relations
 - Width		
 - Images		
-- Baseunit (Basic price)
-- Expiration Date
-- Product Name
+- Base unit (Basic price)
+- Expiration date
+- Product name
 - Weight		
 - Product short description		
-- Product Description
+- Product description
 - Sale Item
 
 You can create attributes, edit existing attributes and deactivate or delete attributes that are not in use. Further, you can add attributes to an attribute set or remove them from an attribute set.
@@ -59,10 +59,10 @@ No prerequisites to fulfill.
 
   ![Create attribute](/Assets/Screenshots/PIM/Settings/Attributes/CreateAttribute.png "[Create attribute]")
 
-2. Enter a name for the attribute in the *Name* field and, if desired, add an attribute description in the  *Description* field.
+2. Enter a name for the attribute in the *Name* field and, if desired, add an attribute description in the *Description* field.
 
 3. Select a data type in the *Data type* drop-down list.   
- For detailed information about all data types, see [Data type list](/PIM/UserInterface/04_DataTypeList.md).
+ The *CONFIGURATION* section is displayed. For detailed information about all data types, see [Data type list](/PIM/UserInterface/04_DataTypeList.md).
 
    > [Info] The settings displayed in the *CONFIGURATION* section depend on the selected data type.
 
@@ -70,7 +70,7 @@ No prerequisites to fulfill.
 
   > [Info] In order to facilitate the assignment of attributes in the further process (for instance in the ETL mapping), it is recommended to add the prefix **pim_** to all attributes created in the *PIM* module.     
 
-5. If desired, activate the *Multi-language* toggle to assign values in multiple languages to the attribute or activate the *Multi-channel* toggle to assign different attribute values in different channels.
+5. If desired, enable the *Multi-language* toggle to assign values in multiple languages to the attribute or enable the *Multi-channel* toggle to assign different attribute values in different channels.
 
   > [Info] Be aware that only attributes which are neither multi-language nor multi-channel can be used as defining attributes for variants. For detailed information, see [Create a variant set](07_ManageVariantSets.md#create-a-variant-set).
 
@@ -83,6 +83,8 @@ No prerequisites to fulfill.
 
 8. If required, configure the settings in the *CONFIGURATION* section.   
 For detailed information about the different configuration settings, see [Data type list](/PIM/UserInterface/04_DataTypeList.md).
+
+  > [Info] By default, the status of a new attribute is set to active. To deactivate a new attribute for use, disable the *Active* toggle. For detailed information, see [Deactivate an attribute](#deactivate-an-attribute).
 
 9. Click the [SAVE] button in the upper right corner.   
   The new attribute is saved. The *Create Attribute* view is closed.  
@@ -111,7 +113,7 @@ For detailed information about the different configuration settings, see [Data t
 ## Edit an attribute
 
 After you have created an attribute, you can edit it. However, only some attribute properties are editable. For instance, the data type and the attribute key cannot be subsequently modified. The assignment of an attribute to an attribute set must be changed in the [attribute set](ManageAttributeSet.md) itself.   
-There are also some attributes that are automatically created by the system, for instance when installing a plugin or module. These system attributes are read-only and cannot be edited. It is highly recommended not to deactivate these attributes to avoid interfering with the functioning of the Core 1 Platform.
+There are also some attributes that are automatically created by the system, for instance when installing a plugin or module. These system attributes are read-only and cannot be edited. It is highly recommended not to deactivate these attributes to avoid interfering with the functioning of the Core1 Platform.
 
 ### Prerequisites
 
@@ -135,7 +137,7 @@ At least one attribute is created, see [Create an attribute](#create-an-attribut
 
   ![Edit attribute assignments](/Assets/Screenshots/PIM/Settings/Attributes/EditAttribute_Assignments.png "[Edit attribute assignments]")
 
-   > [Info] If you want to change the attribute set assignments of the selected attribute, you have to modify the corresponding attribute set.
+   > [Info] If you want to change the attribute set assignments of the selected attribute, you have to modify the corresponding attribute set, see [Manage the attribute sets](02_ManageAttributeSets.md).
 
 4. Click the [SAVE] button in the upper right corner.   
   The changes are saved. The *Edit Attribute* view is closed.  
@@ -179,14 +181,14 @@ At least one attribute is created, see [Create an attribute](#create-an-attribut
 
   ![Edit attribute data](/Assets/Screenshots/PIM/Settings/Attributes/EditAttribute_Data.png "[Edit attribute data]")
 
-2. Deactivate the *Active* toggle in the *Data* tab.
+2. Disable the *Active* toggle in the *Data* tab.
 
-   > [Info] If you want to reactivate an attribute, activate the *Active* toggle.
+   > [Info] If you want to reactivate an attribute, enable the *Active* toggle.
 
 3. Click the [SAVE] button in the upper right corner.   
   The attribute is deactivated. The *Edit Attribute* view is closed.
 
-4. Press **F5** to initialize the Core 1 Platform and to apply the changes.   
+4. Press **F5** to initialize the Core1 Platform and to apply the changes.   
 
 ### Next steps
 
@@ -212,7 +214,7 @@ At least one attribute is created, see [Create an attribute](#create-an-attribut
 
 ## Delete an attribute
 
-You can delete an attribute from the *PIM* module and move it to the *DELETED ATTRIBUTES* tab in the *DataHub* module if it is no longer needed. As there are usually dependencies on an attribute, for example through an attribute set or created products, it is strongly recommended not to delete an attribute. Instead, you can deactivate an attribute and thus prevent its use.
+You can delete an attribute from the *PIM* module and move it to the *DELETED ATTRIBUTES* tab in the *DataHub* module if it is no longer needed. Attributes that are assigned as defining attributes to any variant set cannot be deleted. As there are usually dependencies on an attribute, for example through an attribute set or created products, it is strongly recommended not to delete an attribute. Instead, you can deactivate an attribute and thus prevent its use.
 
 ### Prerequisites
 
@@ -226,11 +228,13 @@ At least one attribute is created, see [Create an attribute](#create-an-attribut
 1. Select the checkbox of the attribute you want to delete in the list of attributes.   
   The editing toolbar is displayed above the attributes list.
 
-2. Click the ![Delete](/Assets/Icons/Trash03.png "[Delete]") (Delete) button in the toolbar. The *Confirm deletion of attribute?* window is displayed.
+2. Click the [DELETE] button in the toolbar. The *Confirm deletion of attribute?* window is displayed.
 
-  > [Info] In the window all dependencies to attribute sets, ETL-mappings and entity entries are displayed. Be aware that problems may occur if you delete an attribute with existing dependencies.
+  ![Confirm deletion of attribute](/Assets/Screenshots/PIM/Settings/Attributes/ConfirmDeletionAttribute.png "[Confirm deletion of attribute]")
 
-3. Click the [CONFIRM] button in the bottom right corner.   
+  > [Info] In the window all dependencies to attribute sets, ETL-mappings and entity entries are displayed. Be aware that problems may occur if you delete an attribute with existing dependencies. For defining attributes, the [CONFIRM] button is not displayed in the *Confirm deletion of attribute?* window as they cannot be deleted.   
+
+3. Click the [CONFIRM] button in the bottom right corner.
   The attribute is deleted and moved to the *DELETED ATTRIBUTES* tab in the *DataHub* module. The *Confirm deletion of attribute?* window is closed.
 
   > [Warning] Problems may occur if you delete an attribute with existing dependencies.  
@@ -257,6 +261,7 @@ At least one attribute is created, see [Create an attribute](#create-an-attribut
 - [Edit an attribute](#edit-an-attribute)
 - [Deactivate an attribute](#deactivate-an-attribute)
 - [Manage the products](/PIM/Operation/01_ManageProducts.md)
+
 
 
 ## Recover an attribute

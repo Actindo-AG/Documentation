@@ -115,7 +115,7 @@ The list displays all attribute sets. All fields are read-only. Depending on the
   Attribute set key. The key is required for API access and must be system wide unique.
 
 - ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Active*   
-  Activate this toggle to set the attribute set status to active. Deactivate the toggle to set the status to inactive. By default, this toggle is active.
+  Enable this toggle to set the attribute set status to active. Disable the toggle to set the status to inactive. By default, this toggle is enabled.
 
 
 - *Inherit/Copy Values from*   
@@ -125,7 +125,7 @@ The list displays all attribute sets. All fields are read-only. Depending on the
 
 
 - ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Inherit Configuration*   
-  Activate this toggle to inherit not only the values of the selected attribute set, but also their configuration. Deactivate the toggle to inherit the values without configuration. By default, this toggle is active. This toggle is locked if the **no inheritance** option is selected in the *Inherit/Copy Values from* drop-down list.
+  Enable this toggle to inherit not only the values of the selected attribute set, but also their configuration. Disable the toggle to inherit the values without configuration. By default, this toggle is enabled. This toggle is locked if the **no inheritance** option is selected in the *Inherit/Copy Values from* drop-down list.
 
 
 - *Inherit/Copy Values*   
@@ -180,7 +180,7 @@ In the *Create Attribute Set* view, no attributes are displayed in list. You hav
   Attribute set key. The key is required for API access and must be system wide unique. In the *Edit Attribute Set* view, this field is locked.
 
 - ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Active*   
-  Activate this toggle to set the attribute set status to active. Deactivate the toggle to set the status to inactive. By default, this toggle is active.
+  Enable this toggle to set the attribute set status to active. Disable the toggle to set the status to inactive. By default, this toggle is enabled.
 
 
 - *Inherit/Copy Values from*   
@@ -190,7 +190,7 @@ In the *Create Attribute Set* view, no attributes are displayed in list. You hav
 
 
 - ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Inherit Configuration*   
-  Activate this toggle to inherit not only the values of the selected attribute set, but also their configuration. Deactivate the toggle to inherit the values without configuration. By default, this toggle is active. This toggle is locked if the **no inheritance** option is selected in the *Inherit/Copy Values from* drop-down list.
+  Enable this toggle to inherit not only the values of the selected attribute set, but also their configuration. Disable the toggle to inherit the values without configuration. By default, this toggle is enabled. This toggle is locked if the **no inheritance** option is selected in the *Inherit/Copy Values from* drop-down list.
 
 
 - *Inherit/Copy Values*   
@@ -263,7 +263,7 @@ The list displays all attributes assigned to the selected attribute set. When th
 
 - *Required*   
   Indication whether the attribute is an required field in the attribute set or not.
-  When the ![Settings](/Assets/Icons/Settings02.png "[Settings]") (Settings) button is blue, the *required* toggle is displayed. Activate the toggle to set the attribute value as a mandatory field. Deactivate the toggle to set the attribute value as an optional field.   
+  When the ![Settings](/Assets/Icons/Settings02.png "[Settings]") (Settings) button is blue, the *required* toggle is displayed. Enable the toggle to set the attribute value as a mandatory field. Disable the toggle to set the attribute value as an optional field.   
   When the ![Settings](/Assets/Icons/Settings01.png "[Settings]") (Settings) button is gray, the following options are displayed:
   - ![Check](/Assets/Icons/Check.png "[Check]") (Checkmark): The attribute is required.  
   - ![Cross](/Assets/Icons/Cross02.png "[Cross]") (Cross): The attribute is optional.   
@@ -383,7 +383,7 @@ This wizard window
   Remove a file by clicking the button ![Remove](/Assets/Icons/Cross04.png "[Remove]") (Remove) to the right of the file name.
 
 - ![Toggle](/Assets/Icons/Toggle.png "[Status]") *Move existing attributes into attribute groups specified in the file*   
-  Activate this toggle to assign existing attributes to attribute groups specified in the file. Deactivate the toggle to keep the attribute group structure of the existing attributes. By default, this toggle is inactive.
+  Enable this toggle to assign existing attributes to attribute groups specified in the file. Disable the toggle to keep the attribute group structure of the existing attributes. By default, this toggle is disabled.
 
 - [CANCEL]   
   Click this button to cancel the import, close the import wizard window and return to the attribute sets list.

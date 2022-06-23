@@ -38,7 +38,7 @@ No prerequisites to fulfill.
 5. Click the [SAVE] button in the upper right corner to save any changes.   
   The changes are applied. The *Edit Attribute* view is closed.
 
-6. Press **F5** to initialize the Core 1 Platform.
+6. Press **F5** to initialize the Core1 Platform.
 
 7. Click again the product to which the stock was not displayed in the product list.   
   The *Edit Product* view is displayed.
@@ -52,7 +52,7 @@ No prerequisites to fulfill.
 
 ## See also
 
-- [User Interface PIM](/PIM/UserInterface/00_UserInterface.md)s
+- [User Interface PIM](/PIM/UserInterface/00_UserInterface.md)
 - [User Interface Warehouse](/RetailSuiteWarehousing/UserInterface/00_UserInterface.md)
 - [Edit a single product](/PIM/Operation/01_ManageProducts.md#edit-a-single-product)
 - [Activate the warehouse logistics](to_be_completed)

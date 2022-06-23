@@ -25,4 +25,4 @@ The list displays all available channels.
   Description to the channel. This field is read-only.
 
 - *Active*   
-  Activate the toggle to set the channel active. Deactivate the toggle to set the channel inactive.
+  Enable the toggle to set the channel active. Disable the toggle to set the channel inactive.

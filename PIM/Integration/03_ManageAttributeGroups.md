@@ -27,24 +27,24 @@ The attributes for the attribute set are created, see [Create an attribute](01_M
 
   ![Add attribute group](/Assets/Screenshots/PIM/Settings/AttributeGroups/AddAttributeGroup.png "[Add attribute group]")
 
-3. Click the plus sign in the group column.    
-  The *Add Element* window is displayed in the group column.
+3. Click the plus sign in the attribute group column.    
+  The *Add Element* window is displayed in the attribute group column.
 
   ![Add element](/Assets/Screenshots/PIM/Settings/AttributeGroups/AddElement.png "[Add element]")
 
-4. Enter a name for the group in the *Name* field.
+4. Enter a name for the attribute group in the *Name* field.
 
-5. Enter a key for the group in the *Key* field.
+5. Enter a key for the attribute group in the *Key* field.
 
 6. Click the [SAVE] button.   
-  The group is created. The *Add Element* window is closed. The new group is displayed in the group column.
+  The attribute group is created. The *Add Element* window is closed. The new attribute group is displayed in the attribute group column.
 
   ![Attribute group created](/Assets/Screenshots/PIM/Settings/AttributeGroups/AttributeGroupCreated.png "[Attribute group created]")
 
   > [Info] If you want to change the order of the attribute groups in the list, see [Change the order of attribute groups](#change-the-order-of-attribute-groups).
 
 7. Click the [SAVE] button in the upper right corner.  
-  The new group is saved. The *Edit Attribute Groups* view is closed.
+  The new attribute group is saved. The *Edit Attribute Groups* view is closed.
 
 ### Next steps
 
@@ -86,7 +86,7 @@ Create an attribute sub-group to organize the attributes in special groups, for 
 
 ![Attribute groups](/Assets/Screenshots/PIM/Settings/AttributeGroups/AttributeGroups.png "[Attribute groups]")
 
-1. Click the ![Edit](/Assets/Icons/Edit02.png "[Edit]") (Edit) button to the right of the *Groups* section in the left column.   
+1. Click the ![Edit](/Assets/Icons/Edit02.png "[Edit]") (Edit) button to the right of the *Attribute Groups* section in the left column.   
   The *Edit Attribute Groups* view is displayed.
 
   ![Edit attribute groups](/Assets/Screenshots/PIM/Settings/AttributeGroups/EditAttributeGroups.png "[Edit attribute groups]")
@@ -130,7 +130,7 @@ The procedure to change the order of attribute groups and sub-groups is identica
 
 ![Attribute groups](/Assets/Screenshots/PIM/Settings/AttributeGroups/AttributeGroups.png "[Attribute groups]")
 
-1. Click the ![Edit](/Assets/Icons/Edit02.png "[Edit]") (Edit) button to the right of the *Atttribute Groups* section in the left column.   
+1. Click the ![Edit](/Assets/Icons/Edit02.png "[Edit]") (Edit) button to the right of the *Attribute Groups* section in the left column.   
   The *Edit Attribute Groups* view is displayed.
 
   ![Edit attribute groups](/Assets/Screenshots/PIM/Settings/AttributeGroups/EditAttributeGroups.png "[Edit attribute groups]")
@@ -151,7 +151,7 @@ You can delete an attribute group if it is no longer in use. Note, that you just
 
 ![Attribute groups](/Assets/Screenshots/PIM/Settings/AttributeGroups/AttributeGroups.png "[Attribute groups]")
 
-1. Click the ![Edit](/Assets/Icons/Edit02.png "[Edit]") (Edit) button to the right of the *Attribtue Groups* section in the left column.   
+1. Click the ![Edit](/Assets/Icons/Edit02.png "[Edit]") (Edit) button to the right of the *Attribute Groups* section in the left column.   
   The *Edit Attribute Groups* view is displayed.
 
   ![Edit attribute groups](/Assets/Screenshots/PIM/Settings/AttributeGroups/EditAttributeGroups.png "[Edit attribute groups]")
@@ -191,7 +191,7 @@ You can add attributes to an attribute group or sub-group. Note that you can add
 3. Select the checkboxes of the attributes in the list, you want to add to the selected attribute group.   
   A toolbar is displayed above the list.
 
-  > [Info] Activate the *Only Unassigned Attributes* toggle above the list to hide all attributes that are already assigned to an attribute group.
+  > [Info] Enable the *Only Unassigned Attributes* toggle above the list to hide all attributes that are already assigned to an attribute group.
 
 4. Click the [ADD] button in the toolbar.
   The *Add attributes to attribute group* view is closed. The selected attributes are added to the attribute group.
@@ -202,7 +202,7 @@ You can add attributes to an attribute group or sub-group. Note that you can add
 #### Change the order of attributes within a group
 
 The order of attributes within an attribute group in the *ATTRIBUTE GROUPS* tab equals to the order of attributes within a group in the product view. You can change the order to display a certain attribute in a different place in the attribute group when creating or editing a product.   
-The procedure to change the order of attributes within attribute groups and sub-groups is identical. Just select the sattribute ub-group instead of the group and follow the steps described below.
+The procedure to change the order of attributes within attribute groups and sub-groups is identical. Just select the attribute sub-group instead of the group and follow the steps described below.
 
 *PIM > Settings > Tab ATTRIBUTE GROUPS*
 

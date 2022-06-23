@@ -46,7 +46,9 @@ The attributes for the attribute set are created, see [Create an attribute](01_M
   The *Inherit Configuration* toggle and the *Inherit/Copy Values* drop-down list are locked.
 
 2. Click the [SAVE] button.   
-  The new attribute set is saved. The *Edit Attribute Set* view is displayed.  
+  The new attribute set is saved. The *Create Attribute Set* view changes to the *Edit Attribute Set* view. The *Attribute set created* pop-up window is displayed.   
+
+  ![Attribute set created](/Assets/Screenshots/PIM/Settings/AttributeSets/AttributeSetCreated.png "[Attribute set created]")
 
 3. Click the ![Back](/Assets/Icons/Back02.png "[Back]") (Back) button in the upper left corner to return to the list of attribute sets or proceed to [edit the attribute set](#edit-an-attribute-set).
 
@@ -57,12 +59,14 @@ The attributes for the attribute set are created, see [Create an attribute](01_M
 
 1. Select an attribute set in the *Inherit/Copy Values from* drop-down list.
 
-2. Activate the *Inherit Configuration* toggle if you also want to adopt the configuration to the new attribute set.
+2. Enable the *Inherit Configuration* toggle if you also want to adopt the configuration to the new attribute set.
 
 3. Select the **Inherit** option in the *Inherit/Copy Values* drop-down list.
 
 4. Click the [SAVE] button.   
-  The new attribute set is saved. The *Edit Attribute Set* view is displayed.  
+  The new attribute set is saved. The *Create Attribute Set* view changes to the *Edit Attribute Set* view. The *Attribute set created* pop-up window is displayed.   
+
+  ![Attribute set created](/Assets/Screenshots/PIM/Settings/AttributeSets/AttributeSetCreated.png "[Attribute set created]")  
 
 5. Click the ![Back](/Assets/Icons/Back02.png "[Back]") (Back) button in the upper left corner to return to the list of attribute sets or proceed to [edit the attribute set](#edit-an-attribute-set).
 
@@ -73,12 +77,14 @@ The attributes for the attribute set are created, see [Create an attribute](01_M
 
 1. Select an attribute set in the *Inherit/Copy Values from* drop-down list.
 
-2. Activate the *Inherit Configuration* toggle if you also want to adopt the configuration to the new attribute set.
+2. Enable the *Inherit Configuration* toggle if you also want to adopt the configuration to the new attribute set.
 
 3. Select the **Copy once** option in the *Inherit/Copy Values* drop-down list.
 
 4. Click the [SAVE] button.   
-  The new attribute set is saved. The *Edit Attribute Set* view is displayed.  
+  The new attribute set is saved. The *Create Attribute Set* view changes to the *Edit Attribute Set* view. The *Attribute set created* pop-up window is displayed.   
+
+  ![Attribute set created](/Assets/Screenshots/PIM/Settings/AttributeSets/AttributeSetCreated.png "[Attribute set created]")  
 
 5. Click the ![Back](/Assets/Icons/Back02.png "[Back]") (Back) button in the upper left corner to return to the list of attribute sets or proceed to [edit the attribute set](#edit-an-attribute-set).
 
@@ -135,7 +141,7 @@ Add a new attribute to an attribute set to define any further specifications.
 
   ![Add attribute](/Assets/Screenshots/PIM/Settings/AttributeSets/AddAttributes.png "[Edit attribute set]")
 
-  > [Info] If the **There are no unassigned attributes.** message is displayed in the *Add attributes* view, all active attributes are already included in the selected attribute set. Check, if you have selected the appropriate attribute set, click the ![Refresh](/Assets/Icons/Refresh01.png "[Refresh]") (Refresh) button to update the list or [create a new attribute](01_ManageAttributes.md#create-an-attribute).
+  > [Info] If the **There are no unassigned attributes.** notice is displayed in the *Add attributes* view, all active attributes are already included in the selected attribute set. Check, if you have selected the appropriate attribute set, click the ![Refresh](/Assets/Icons/Refresh01.png "[Refresh]") (Refresh) button to update the list or [create a new attribute](01_ManageAttributes.md#create-an-attribute).
 
 3. Select the checkboxes of the attributes in the list, you want to add to the attribute set.   
   The editing toolbar is displayed above the list.
@@ -245,7 +251,7 @@ An attribute set is created, see [Create an attribute set](#create-an-attribute-
 
   ![Required](/Assets/Screenshots/PIM/Settings/AttributeSets/Required.png "[Required]")
 
-3. Activate or deactivate the *required* toggle in the *required* column to define whether or not an attribute value should be required in the selected attribute set.
+3. Enable or disable the *required* toggle in the *required* column to define whether or not an attribute value should be required in the selected attribute set.
 
   > [Info] Be aware that you can only edit the *required* option for attributes that are not inherited.
 
@@ -296,14 +302,14 @@ At least one attribute set is created, see [Create an attribute set](#create-an-
 
   ![Edit attribute set](/Assets/Screenshots/PIM/Settings/AttributeSets/EditAttributeSet.png "[Edit attribute set]")
 
-2. Deactivate the *Active* toggle.
+2. Disable the *Active* toggle.
 
-     > [Info] If you want to reactivate an attribute set, activate the *Active* toggle.
+     > [Info] If you want to reactivate an attribute set, enable the *Active* toggle.
 
 3. Click the [SAVE] button.   
   The attribute set is deactivated. The *Edit Attribute Set* view is closed.
 
-4. Press **F5** to initialize the Core 1 Platform and to apply the changes.
+4. Press **F5** to initialize the Core1 Platform and to apply the changes.
 
 
 ### Next steps
@@ -331,7 +337,7 @@ At least one attribute set is created, see [Create an attribute set](#create-an-
 
 
 
-[comment]: <> (Import/Export will be changed)
+[comment]: <> (Import/Export will be changed - not available at the moment - should that change?)
 
 ## Import an attribute set
 
@@ -357,7 +363,7 @@ An import file of an attribute set is available.
 
   [comment]: <> (What file types are supported? What requirements?)
 
-3. Activate the *Move existing attributes into attribute groups specified in the file* toggle if you want to ???
+3. Enable the *Move existing attributes into attribute groups specified in the file* toggle if you want to ???
 
 [comment]: <> (---> what is this setting doing?)
 

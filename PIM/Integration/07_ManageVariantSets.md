@@ -10,7 +10,7 @@ Create a variant set to be able to create variants to products. A variant set is
 
 ### Prerequisites
 
-An attribute set is created, see [Create an attribute set](ManageAttributeSet.md#create-an-attribute-set).
+An attribute set is created, see [Create an attribute set](02_ManageAttributeSets.md#create-an-attribute-set).
 
 ### Procedure
 *PIM > Settings > Tab VARIANT SETS*

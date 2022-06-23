@@ -123,13 +123,13 @@ The list displays all attributes. All fields are read-only. Depending on the set
 
 
 - ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Multi-language*   
-  Activate this toggle to create a multi-lingual attribute. Deactivate the toggle to create a single language attribute. By default, this toggle is inactive.
+  Enable this toggle to create a multi-lingual attribute. Disable the toggle to create a single language attribute. By default, this toggle is disabled.
 
 - ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Multi-channel*   
-  Activate this toggle to create a multi-channel attribute. Deactivate the toggle to create a single channel attribute. By default, this toggle is inactive.
+  Enable this toggle to create a multi-channel attribute. Disable the toggle to create a single channel attribute. By default, this toggle is disabled.
 
 - ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Active*   
-  Activate this toggle to set the attribute status to active. Deactivate the toggle to set the status to inactive. By default, this toggle is active.
+  Enable this toggle to set the attribute status to active. Disable the toggle to set the status to inactive. By default, this toggle is enabled.
 
 
 - *Assigned Sets*   
@@ -183,13 +183,13 @@ For detailed information about the different configurations of data types, see [
   Attribute key. The key is required for API access and must be system wide unique. In the *Edit Attribute* view, this field is locked.
 
 - ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Multi-language*   
-  Activate this toggle to create a multi-lingual attribute. Deactivate the toggle to create a single language attribute. In the *Edit Attribute* view, this toggle is read-only.
+  Enable this toggle to create a multi-lingual attribute. Disable the toggle to create a single language attribute. In the *Edit Attribute* view, this toggle is read-only.
 
 - ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Multi-channel*   
-  Activate this toggle to create a multi-channel attribute. Deactivate the toggle to create a single channel attribute. In the *Edit Attribute* view, this toggle is read-only.
+  Enable this toggle to create a multi-channel attribute. Disable the toggle to create a single channel attribute. In the *Edit Attribute* view, this toggle is read-only.
 
 - ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Active*   
-  Activate this toggle to set the attribute status to active. Deactivate the toggle to set the status to inactive. By default, this toggle is active.
+  Enable this toggle to set the attribute status to active. Disable the toggle to set the status to inactive. By default, this toggle is enabled.
 
 **CONFIGURATION**
 

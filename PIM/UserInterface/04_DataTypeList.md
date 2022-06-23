@@ -7,9 +7,9 @@ To [create an attribute](/PIM/Integration/01_ManageAttributes.md#create-an-attri
 ![Textfield](/Assets/Screenshots/PIM/DataTypes/Textfield.png "[Textfield]")
 
 The data type *Textfield* is used for long texts, e. g. for descriptions. You can configure the text length an the editor you use.
-In the PIM basic product set, the following attributes have the data type *Textfield*:
-- Article short description
-- Article description
+In the *PIM Basic Set*, the following attributes have the data type *Textfield*:
+- Product short description
+- Product description
 - Long text
 
 ### Configuration
@@ -26,22 +26,22 @@ In the PIM basic product set, the following attributes have the data type *Textf
   Enter the number of rows in the textfield. By default the number of rows is set to **5**.
 
 - ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *HTML Editor*   
-  Activate this toggle to enable the HTML editor for the textfield. A WYSIWIG-editor is displayed to edit the textfield. Deactivate the toggle to disable the HTML editor for the textfield. By default, this toggle is inactive.
+  Enable this toggle to enable the HTML editor for the textfield. A WYSIWIG-editor is displayed to edit the textfield. Disable the toggle to disable the HTML editor for the textfield. By default, this toggle is disabled.
 
 - ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Read only*   
-  Activate this toggle to set the textfield read-only. Deactivate the toggle to set the textfield editable. By default, this toggle is inactive.
+  Enable this toggle to set the textfield read-only. Disable the toggle to set the textfield editable. By default, this toggle is disabled.
 
 
 ## Checkbox
 
 ![Checkbox](/Assets/Screenshots/PIM/DataTypes/Checkbox.png "[Checkbox]")
 
-The data type *Checkbox* is used to indicate a statement that is either true or false, e. g. if a product is a digital or real product. The checkbox is displayed by a toggle. In the PIM basic product set, the following attributes have the data type *Checkbox*:
-- Sale items
-- FSK18
-- Digital product
+The data type *Checkbox* is used to indicate a statement that is either true or false, e. g. if a product is a digital or real product. The checkbox is displayed by a toggle. In the *PIM Basic Set*, the following attributes have the data type *Checkbox*:
+- Sale item
+- 18+
+- Digital item
 
-> [Info] Note that the date type *Checkbox* also has the third value **not set**. When creating or importing a product, the value **not set** is set for the corresponding attribute. After saving, the value switches automatically to **false** if it was not manually changed to **true**. This may cause problems when connecting to other systems, e.g. shops or marketplaces, with different default settings for checkboxes.   
+> [Info] Note that the date type *Checkbox* also has the third value **not set**. When creating or importing a product, the value **not set** is set for the corresponding attribute. After saving, the value switches automatically to **false** if it was not manually changed to **true**. This may cause problems when connecting to other systems, for example shops or marketplaces, with different default settings for checkboxes.   
 
 ### Configuration
 
@@ -70,7 +70,7 @@ The data type *Floating point number* is used to indicate decimal numbers withou
   Enter a maximum value for the floating point number.  
 
 - ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Read only*   
-  Activate this toggle to set the floating point number read-only. Deactivate the toggle to set the floating point number editable. By default, this toggle is inactive.
+  Enable this toggle to set the floating point number read-only. Disable the toggle to set the floating point number editable. By default, this toggle is disabled.
 
 
 ## Integer
@@ -90,25 +90,23 @@ The data type *Integer* is used to indicate whole numbers without a unit. You ca
   Enter a maximum value for the integer.  
 
 - ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Read only*   
-  Activate this toggle to set the integer read-only. Deactivate the toggle to set the integer editable. By default, this toggle is inactive.
+  Enable this toggle to set the integer read-only. Disable the toggle to set the integer editable. By default, this toggle is disabled.
 
 
 ## String
 
 ![String](/Assets/Screenshots/PIM/DataTypes/String.png "[String]")
 
-The data type *String* is used for short texts or alphanumeric information, e. g. keywords. You can configure the string length and define regular expressions for the string. In the PIM basic product set, the following attributes have the data type *String*:
-- Article name
+The data type *String* is used for short texts or alphanumeric information, e. g. keywords. You can configure the string length and define regular expressions for the string. In the *PIM Basic Set*, the following attributes have the data type *String*:
+- Product name
 - EAN-code
-- Digital product
 - Customs tariff number
-- Manufacturer link
-- Additional search terms
+- Supplier link
+- Additional terms for search
 - Tags/Keywords
 - Meta title
 - Meta description
 - Meta keywords
-- Volume
 
 ### Configuration
 
@@ -124,7 +122,7 @@ The data type *String* is used for short texts or alphanumeric information, e. g
   Enter a regular expression for the string. For detailed information about regular expressions, see https://regex101.com/.
 
 - ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Read only*   
-  Activate this toggle to set the string read-only. Deactivate the toggle to set the string editable. By default, this toggle is inactive.
+  Enable this toggle to set the string read-only. Disable the toggle to set the string editable. By default, this toggle is disabled.
 
 
 ## Currency
@@ -153,7 +151,7 @@ This data type has no further configuration settings.
 
 ![Country](/Assets/Screenshots/PIM/DataTypes/Country.png "[Country]")
 
-The data type *Country* is used to indicate a country. A drop-down list with all countries in the system is displayed in the product view. In the PIM basic product set, the following attributes have the data type *Country*:
+The data type *Country* is used to indicate a country. A drop-down list with all countries in the system is displayed in the product view. In the *PIM Basic Set*, the following attributes have the data type *Country*:
 - Country of origin
 
 ### Configuration
@@ -174,7 +172,7 @@ The data type *TreeNode* is used for indications with multiple, predefined selec
 ![TreeNode](/Assets/Screenshots/PIM/DataTypes/Configuration/TreeNode.png "[TreeNode]")
 
 - ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Multi Select*   
-  Activate this toggle to enable a multiple selection of values. Deactivate the toggle to allow only a single selection of values. By default, this toggle is inactive.
+  Enable this toggle to enable a multiple selection of values. Disable the toggle to allow only a single selection of values. By default, this toggle is disabled.
 
 > [Info] In the product view, the data type *TreeNode* is displayed either by a drop-down list or a a box with all created options. The drop-down list is only displayed for one dimensional single select trees.
 
@@ -202,18 +200,21 @@ The data type *TreeNode* is used for indications with multiple, predefined selec
 
 ## Completeness (internal, not editable)
 
-This data type is for internal use only. It is strongly advised not to use this data type without the required knowledge.
+This data type is for internal use only. It is strongly advised not to use this data type without the required knowledge.   
+In the *PIM Basic Set*, the following attributes have the data type *Completeness*:
+- Completeness
+
 
 
 ## Number with Unit
 
 ![Number with Unit](/Assets/Screenshots/PIM/DataTypes/NumberUnit.png "[Number with Unit]")
 
-The data type *Number with Unit* is used for numerical specifications of a certain unit of measurement, e. g. weight specifications. You can configure the applicable dimension and unit of measurement. Depending on the selected dimension, the options for the unit are adapted. In the PIM basic product set, the following attributes have the data type *Number with Unit*:
+The data type *Number with Unit* is used for numerical specifications of a certain unit of measurement, e. g. weight specifications. You can configure the applicable dimension and unit of measurement. Depending on the selected dimension, the options for the unit are adapted. In the *PIM Basic Set*, the following attributes have the data type *Number with Unit*:
 - Length
 - Width
 - Depth
-- Article weight
+- Weight
 
 ### Configuration
 
@@ -230,7 +231,7 @@ The data type *Number with Unit* is used for numerical specifications of a certa
 
 ![DateTime](/Assets/Screenshots/PIM/DataTypes/DateTime.png "[DateTime]")
 
-The data type *DateTime* is used to indicate a date and/or a time. You can configure whether to display or not the date and the time and you can select a date and time format. A calendar widget to select the date is displayed in the product view. In the PIM basic product set, the following attributes have the data type *DateTime*:
+The data type *DateTime* is used to indicate a date and/or a time. You can configure whether to display or not the date and the time and you can select a date and time format. A calendar widget to select the date is displayed in the product view. In the *PIM Basic Set*, the following attributes have the data type *DateTime*:
 - Expiration date
 
 ### Configuration
@@ -240,24 +241,24 @@ The data type *DateTime* is used to indicate a date and/or a time. You can confi
 - *Date*
   Click the drop-down list to select a date format. The formats below are available. By default, the date format **Short** is selected.
   - **Do not show date**: hidden date
-  - **Short**: short format, e.g. 02/11/2021
-  - **Medium**: medium format, writing out the month, e.g. February 11, 2021
-  - **Long**: long format, adding the weekday and writing out the month, e.g. Monday, February 11, 2021
+  - **Short**: short format, for example 02/11/2021
+  - **Medium**: medium format, writing out the month, for example February 11, 2021
+  - **Long**: long format, adding the weekday and writing out the month, for example Monday, February 11, 2021
 
 
 - *Time*    
   Click the drop-down list to select a time format. The formats below are available. By default, the time format **Medium** is selected.
   - **Do not show time**: hidden time
-  - **Short**: short format, e.g. 09:00 PM
-  - **Medium**: medium format, including seconds, e.g. 09:00:00 PM
+  - **Short**: short format, for example 09:00 PM
+  - **Medium**: medium format, including seconds, for example 09:00:00 PM
 
 
 ## Sales Unit Value
 
 ![Sales Unit Value](/Assets/Screenshots/PIM/DataTypes/SalesUnitValue.png "[Sales Unit Value]")
 
-The data type *Sales Unit Value* is used to define a dimension and a unit. Two drop-down lists to select the applicable dimension and unit are displayed in the product view. Depending on the selected dimension, the options for the unit are adapted. In the PIM basic product set, the following attributes have the data type *Sales Unit Value*:
-- Sales unit
+The data type *Sales Unit Value* is used to define a dimension and a unit. Two drop-down lists to select the applicable dimension and unit are displayed in the product view. Depending on the selected dimension, the options for the unit are adapted. In the *PIM Basic Set*, the following attributes have the data type *Sales Unit Value*:
+- Sale unit
 
 ### Configuration
 
@@ -275,27 +276,27 @@ The data type *Simple price field* is used to indicate a price. You can configur
 ![Simple price field](/Assets/Screenshots/PIM/DataTypes/Configuration/SimplePriceField.png "[Simple price field]")
 
 - ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Gross prices*   
-  Activate this toggle to display gross prices. Deactivate the toggle to display net prices. By default, this toggle is active.
+  Enable this toggle to display gross prices. Disable the toggle to display net prices. By default, this toggle is enabled.
 
   > [Info] Note that it is especially for the ETL-mapping very important if prices are net or gross.
 
 - ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Show MSRP field*   
-  Activate this toggle to display the MSRP field. Deactivate the toggle to hide the MSRP field. By default, this toggle is inactive.
+  Enable this toggle to display the MSRP field. Disable the toggle to hide the MSRP field. By default, this toggle is disabled.
 
 - ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Use Promotions*    
-  Activate this toggle to enable to enter a promotion period for prices. Deactivate the toggle to not allow promotion prices. By default, this toggle is inactive.
+  Enable this toggle to enable to enter a promotion period for prices. Disable the toggle to not allow promotion prices. By default, this toggle is disabled.
 
 - *Currency*   
   Click the drop-down list to select the currency to be used. All available currencies are displayed in the drop-down list. By default, the default currency is preselected.
 
-[comment]: <> (Not working -> MSRP field is displayed even when the toggle is not active -> to be fixed)
+[comment]: <> (Not working -> MSRP field is displayed even when the toggle is disabled -> to be fixed)
 
 
 ## Stock Value
 
 ![Stock Value](/Assets/Screenshots/PIM/DataTypes/StockValue.png "[Stock Value]")
 
-The data type *Stock Value* is used to indicate the number of stocks. You can configure the number of decimal places. A new target channel for this stock is created in the *Stock* module for the inventory assignment. In the PIM basic product set, the following attributes have the data type *Stock Value*:
+The data type *Stock Value* is used to indicate the number of stocks. You can configure the number of decimal places. A new target channel for this stock is created in the *Stock* module for the inventory assignment. In the *PIM Basic Set*, the following attributes have the data type *Stock Value*:
 - Stock  
 
 ### Configuration
@@ -306,7 +307,7 @@ The data type *Stock Value* is used to indicate the number of stocks. You can co
   Enter the number of decimals for the stock value. By default the number of decimals is set to **4**.  
 
 - ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Read only*
-  Activate this toggle to set the stock value read-only. Deactivate the toggle to set the stock value editable. By default, this toggle is active.
+  Enable this toggle to set the stock value read-only. Disable the toggle to set the stock value editable. By default, this toggle is enabled.
 
   > [Info] If the warehouse logistic for an product is active and the *Invoicing* module is correctly connected, the stocks are transferred from the invoicing and automatically written into this attribute value. It is only recommended to deactivate the toggle *Read only* if the warehouse logistic is inactive and a stock value is needed.
 
@@ -362,7 +363,7 @@ This data type has no further configuration settings.
 
 ![Images](/Assets/Screenshots/PIM/DataTypes/Images.png "[Images]")
 
-The data type *Images* is used to attach images. You can configure the filename prefix of the uploaded image, the allowed number of images and the file extensions. A preview of the uploaded images is displayed in the product view. In the PIM basic product set, the following attributes have the data type *Images*:
+The data type *Images* is used to attach images. You can configure the filename prefix of the uploaded image, the allowed number of images and the file extensions. A preview of the uploaded images is displayed in the product view. In the *PIM Basic Set*, the following attributes have the data type *Images*:
 - Images    
 
 ### Configuration
@@ -386,7 +387,7 @@ The data type *Images* is used to attach images. You can configure the filename 
 
 ![Files](/Assets/Screenshots/PIM/DataTypes/Files.png "[Files]")
 
-The data type *Files* is used to attach files. You can configure the filename prefix of the uploaded file, the allowed number of files and the file extensions. The uploaded files are displayed in a list in the product view. In the PIM basic product set, the following attributes have the data type *Files*:
+The data type *Files* is used to attach files. You can configure the filename prefix of the uploaded file, the allowed number of files and the file extensions. The uploaded files are displayed in a list in the product view. In the *PIM Basic Set*, the following attributes have the data type *Files*:
 - Files    
 
 ### Configuration
@@ -407,9 +408,11 @@ The data type *Files* is used to attach files. You can configure the filename pr
 
 
 
-## Verbindung PIM zu Channels (internal, not editable)
+## PIM-Channels Connection (internal, not editable)
 
-This data type is for internal use only. It is strongly advised not to use this data type without the required knowledge.
+This data type is for internal use only. It is strongly advised not to use this data type without the required knowledge.   
+In the *PIM Basic Set*, the following attributes have the data type *PIM-Channels Connection*:
+- PIM Omni-Channel Connection
 
 
 ## UCS Product bundle (internal, not editable)
@@ -436,7 +439,7 @@ The data type *Cloudinary Image* is used to attach image files from Cloudinary. 
   Enter a folder name where the images are put into. If the folder is not yet created in Cloudinary, it is automatically created when uploading the first image. Use placeholders to define product specific folder, for instance **{sku}**.
 
 - ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Read only*
-  Activate this toggle to set the C*loudinary Image* value read-only. Deactivate the toggle to set the *Cloudinary Image* value editable. By default, this toggle is inactive.
+  Enable this toggle to set the C*loudinary Image* value read-only. Disable the toggle to set the *Cloudinary Image* value editable. By default, this toggle is disabled.
 
 - *Import Regex*     
   Enter a regular expression to restrict the listed items for the import of images from Cloudinary. The restriction is applied to the filename. If the field is left blank, no restriction is applied. For detailed information about regular expressions, see https://regex101.com/.
@@ -466,7 +469,7 @@ The data type *Cloudinary Video* is used to attach video files from Cloudinary. 
   Enter a folder name where the videos are put into. If the folder is not yet created in Cloudinary, it is automatically created when uploading the first video file. Use placeholders to define product specific folder, for instance **{sku}**.
 
 - ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Read only*
-  Activate this toggle to set the *Cloudinary Video* value read-only. Deactivate the toggle to set the *Cloudinary Video* value editable. By default, this toggle is inactive.
+  Enable this toggle to set the *Cloudinary Video* value read-only. Disable the toggle to set the *Cloudinary Video* value editable. By default, this toggle is disabled.
 
 - *Import Regex*     
   Enter a regular expression to restrict the listed items for the import of videos from Cloudinary. The restriction is applied to the filename. If the field is left blank, no restriction is applied. For detailed information about regular expressions, see https://regex101.com/.
@@ -523,8 +526,8 @@ This data type is for internal use only. It is strongly advised not to use this 
 
 ![Related products](/Assets/Screenshots/PIM/DataTypes/RelatedProducts.png "[Related products]")
 
-The data type *Related products* is used to connect other products to the selected product, e. g. for product recommendations. You can configure the allowed number of related products. You can select each created product as a related product in the product view. In the PIM basic product set, the following attributes have the data type *Related products*:
-- Cross Selling
+The data type *Related products* is used to connect other products to the selected product, e. g. for product recommendations. You can configure the allowed number of related products. You can select each created product as a related product in the product view. In the *PIM Basic Set*, the following attributes have the data type *Related products*:
+- Product relations
 
 ### Configuration
 
@@ -541,7 +544,7 @@ The data type *Related products* is used to connect other products to the select
 
 ![PIM Price Field](/Assets/Screenshots/PIM/DataTypes/PIMPriceField.png "[PIM Price Field]")
 
-The data type *PIM Price Field* is used to indicate a price. You can configure the number of decimals for the price and the supported currencies. In the product view, you must select a tax class for price calculation. Additionally, you can define a MSRP, scale prices and promotion periods. Unlike the data type *Simple price field*, the data type *PIM Price Field* offers more setting options and therefore also a more detailed and extended price specification. In the PIM basic product set, the following attributes have the data type *PIM Price Field*:
+The data type *PIM Price Field* is used to indicate a price. You can configure the number of decimals for the price and the supported currencies. In the product view, you must select a tax class for price calculation. Additionally, you can define a MSRP, scale prices and promotion periods. Unlike the data type *Simple price field*, the data type *PIM Price Field* offers more setting options and therefore also a more detailed and extended price specification. In the *PIM Basic Set*, the following attributes have the data type *PIM Price Field*:
 - Price
 
 ### Configuration
@@ -565,15 +568,18 @@ The data type *PIM Price Field* is used to indicate a price. You can configure t
 
 ## Product Variants (internal, not editable)
 
-This data type is for internal use only. It is strongly advised not to use this data type without the required knowledge.
+This data type is for internal use only. It is strongly advised not to use this data type without the required knowledge.   
+In the *PIM Basic Set*, the following attributes have the data type *Product Variants*:
+- Product variants
+
 
 
 ## Base price
 
 ![Base price](/Assets/Screenshots/PIM/DataTypes/BasePrice.png "[Base price]")
 
-The data type *Base price* is used to indicate a base price. The base price is necessary to calculate the price per unit which is mandatory in th EU. Two drop-down lists to select the applicable dimension and unit and a field to enter the corresponding amount of the product are displayed in the product view. In the PIM basic product set, the following attributes have the data type *Base price*:
-- Base unit (base price)
+The data type *Base price* is used to indicate a base price. The base price is necessary to calculate the price per unit which is mandatory in th EU. Two drop-down lists to select the applicable dimension and unit and a field to enter the corresponding amount of the product are displayed in the product view. In the *PIM Basic Set*, the following attributes have the data type *Base price*:
+- Base unit (Base price)
 
 ### Configuration
 
@@ -584,8 +590,8 @@ This data type has no further configuration settings.
 
 ![Product bundle](/Assets/Screenshots/PIM/DataTypes/ProductBundle.png "[Product bundle]")
 
-The data type *Product bundle* is used to define products that can be sold in a bundle with the selected product. In a product bundle, several different products are sold together, e. g. at a promotional price, without forming a packaging unit. That means, that each product has still its own EAN-code and can also be purchased by itself. You can configure the number of allowed products in a product bundle. In the PIM basic product set, the following attributes have the data type *Product bundle*:
-- Bill of materials
+The data type *Product bundle* is used to define products that can be sold in a bundle with the selected product. In a product bundle, several different products are sold together, e. g. at a promotional price, without forming a packaging unit. That means, that each product has still its own EAN-code and can also be purchased by itself. You can configure the number of allowed products in a product bundle. In the *PIM Basic Set*, the following attributes have the data type *Product bundle*:
+- Bundle
 
 ### Configuration
 

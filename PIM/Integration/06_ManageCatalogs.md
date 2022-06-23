@@ -287,17 +287,17 @@ At least one catalog with one category is created, see [Create a catalog](#creat
 ### Procedure
 *PIM > Products > Tab LIST*
 
-![Product list](/Assets/Screenshots/PIM/Products/List/Products.png "[Product list]")
+![Product list catalog](/Assets/Screenshots/PIM/Products/List/ProductsWithCatalog.png "[Product list catalog]")
 
 1. Click the product you want to assign to a catalog category in the list of products.   
   The *Edit Product* view is displayed. The *Attributes* tab is preselected.
 
-  ![Attributes](/Assets/Screenshots/PIM/Products/List/Attributes/AttributesEdit.png "[Attributes]")
+  ![Attributes Iphone](/Assets/Screenshots/PIM/Products/List/Attributes/AttributesEditIphone.png "[Attributes Iphone]")
 
 2. Select the *Catalogs* tab.   
   The *Catalogs* tab is displayed
 
-  ![Catalogs](/Assets/Screenshots/PIM/Products/List/Catalogs/CatalogsEdit.png "[Catalogs]")
+  ![Catalogs Iphone](/Assets/Screenshots/PIM/Products/List/Catalogs/CatalogsEditIphone.png "[Catalogs Iphone]")
 
 3. Click the [EDIT ATTRIBUTE] button in the section of the catalog to which you want to assign the selected product.   
   A window with all categories and sub-categories of the selected catalog is displayed.
@@ -311,12 +311,15 @@ At least one catalog with one category is created, see [Create a catalog](#creat
 5. Click the [SAVE] button in the bottom right corner of the window.    
   The window is closed. The selected category is displayed in the section of the catalog.
 
-  ![Assigned categories](/Assets/Screenshots/PIM/Products/List/Catalogs/AssignedCategories.png "[Assigned categories]")
+  ![Assigned categories Iphone](/Assets/Screenshots/PIM/Products/List/Catalogs/AssignedCategoriesIphone.png "[Assigned categories Iphone]")
 
 6. Click the [SAVE] button in the upper right corner.  
   The product is assigned to the selected category. The *Edit Product* view is closed. The list of products is displayed again.
 
-  ![Product list](/Assets/Screenshots/PIM/Products/List/Products.png "[Product list]")
+6. Select the appropriate catalog and the assigned category in the left side bar.
+  The list of products displays only those products that are assigned to the selected category.
+
+  ![Select category](/Assets/Screenshots/PIM/Products/List/SelectCategory.png "[Select category]")
 
 ### Next steps
 

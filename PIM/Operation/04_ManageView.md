@@ -1,4 +1,5 @@
 [!!PIM](PIM)
+[!!DataHub](DataHub)
 
 # Manage the view
 
@@ -109,8 +110,6 @@ You can select a product category to limit the number of products to those produ
 2. Select the desired catalog in the *Catalog* drop-down list.      
   All corresponding categories and sub-categories are displayed below the selected catalog.
 
-  ![Select catalog](/Assets/Screenshots/PIM/Products/List/SelectCatalog.png "[Select catalog]")
-
 3. Select the desired category or sub-category in the left column.   
   Only those products that are assigned to the selected category or sub-category are displayed in the list of products on the right side.
 
@@ -192,7 +191,7 @@ No prerequisites to fulfill.
   + Click the *Variants* drop-down list and select the desired variant view.   
 
 
-2. If desired adjust the displayed columns in the product list by following the steps below:
+2. If desired, adjust the displayed columns in the product list by following the steps below:
   + Click the [ ![Columns](/Assets/Icons/Columns.png "[Columns]") Columns (x)] button.   
   + Click the *Column* drop-down list, select a column in the list and click the [ADD COLUMN] button to add the column to the columns displayed in the product list.
   + Click the ![Remove](/Assets/Icons/Cross03.png "[Remove]") (Remove) button next to a column name to remove the corresponding column from the product list.
@@ -200,7 +199,7 @@ No prerequisites to fulfill.
   + Click the [APPLY] button to apply the changes.
 
 
-3. If desired add a filter to the product list by following the steps below:
+3. If desired, add a filter to the product list by following the steps below:
   + Click the [ ![Filter](/Assets/Icons/Filter.png "[Filter]") Filter (x)] button.   
   + Click the *Column* drop-down list and select a column to which you want to add a filter.
   + Click the *Relation* drop-down list and select a filter relation. Depending on the selected column, the filter relations vary.
@@ -218,10 +217,12 @@ No prerequisites to fulfill.
 5. Click the *+ create* menu entry in the context menu.   
   The *Create view* window is displayed.
 
+  ![Create view](/Assets/Screenshots/PIM/Products/List/CreateView.png "[Create view]")
+
 6. Enter a name for the view in the *Name* field.
 
 7. Click the [SAVE] button.   
-  The view is saved and preselected in the drop-down list.
+  The view is saved and preselected in the *View* drop-down list.
 
 > [Info] To change the view, click the *View* drop-down list and select the view you want to display. The view changes depending on the saved settings.
 
