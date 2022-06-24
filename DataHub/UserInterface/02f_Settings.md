@@ -79,7 +79,7 @@ The list displays all language. All fields are read-only. Depending on the setti
   Language key. The key is required for API access and must be system wide unique.
 
 - ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Active*   
-  Activate this toggle to set the language status to active. Deactivate the toggle to set the language to inactive. By default, this toggle is inactive.
+  Enable this toggle to set the language status to active. Disable the toggle to set the language to inactive. By default, this toggle is disabled.
 
 
 
@@ -106,4 +106,4 @@ The list displays all language. All fields are read-only. Depending on the setti
   Click the field to edit the language key. The key is required for API access and must be system wide unique. It is not recommended to change the language key after creation.
 
 - ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Active*   
-  Activate this toggle to set the language status to active. Deactivate the toggle to set the language to inactive. By default, this toggle is inactive.
+  Enable this toggle to set the language status to active. Disable the toggle to set the language to inactive. By default, this toggle is disabled.

@@ -26,7 +26,7 @@ No prerequisites to fulfill.
 
 3. Enter a key for the language in the *Key* field. The key is required for API access and must be system wide unique.
 
-4. Activate the ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Active* toggle to switch the language directly after creation active.
+4. Enable the *Active* toggle to set the language directly after creation to active.
 
   > [Info] The language must be activated to be used.
 
@@ -38,13 +38,14 @@ No prerequisites to fulfill.
 - [Edit a language](#edit-a-language)
 - [Deactivate a language](#deactivate-a-language)
 - [Delete a language](#delete-a-language)
+- [Manage the units and dimensions](06_ManageUnitsDimensions.md)
 
 ### See also
 
 - [User Interface DataHub](/DataHub/UserInterface/00_UserInterface.md)
 - [Manage the attributes](01_ManageAttributes.md)
 - [Manage the attribute sets](02_ManageAttributeSets.md)
-- [Manage the attribute groups](03_ManageGroups.md)
+- [Manage the attribute groups](03_ManageAttributeGroups.md)
 - [Manage the channels](04_ManageChannels.md)
 - [Configure the language settings](/PIM/Integration/ConfigureLanguages.md)
 
@@ -78,13 +79,14 @@ At least one language is created, see [Create a language](/DataHub/Integration/C
 
 - [Deactivate a language](#deactivate-a-language)
 - [Delete a language](#delete-a-language)
+- [Manage the units and dimensions](06_ManageUnitsDimensions.md)
 
 ### See also
 
 - [User Interface DataHub](/DataHub/UserInterface/00_UserInterface.md)
 - [Manage the attributes](01_ManageAttributes.md)
 - [Manage the attribute sets](02_ManageAttributeSets.md)
-- [Manage the attribute groups](03_ManageGroups.md)
+- [Manage the attribute groups](03_ManageAttributeGroups.md)
 - [Manage the channels](04_ManageChannels.md)
 - [Create a language](#create-a-language)
 - [Configure the language settings](/PIM/Integration/ConfigureLanguages.md)
@@ -110,7 +112,7 @@ At least one language is created, see [Create a language](#create-a-language).
 
   ![Edit language](/Assets/Screenshots/DataHub/Settings/Languages/EditLanguage.png "[Edit language]")
 
-2. Deactivate the ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Active* toggle.
+2. Disable the *Active* toggle.
 
 3. Click the [SAVE] button in the upper right corner.   
   The language is deactivated. The *Edit Language* view is closed.
@@ -118,13 +120,14 @@ At least one language is created, see [Create a language](#create-a-language).
 ### Next steps
 
 - [Delete a language](#delete-a-language)
+- [Manage the units and dimensions](06_ManageUnitsDimensions.md)
 
 ### See also
 
 - [User Interface DataHub](/DataHub/UserInterface/00_UserInterface.md)
 - [Manage the attributes](01_ManageAttributes.md)
 - [Manage the attribute sets](02_ManageAttributeSets.md)
-- [Manage the attribute groups](03_ManageGroups.md)
+- [Manage the attribute groups](03_ManageAttributeGroups.md)
 - [Manage the channels](04_ManageChannels.md)
 - [Create a language](#create-a-language)
 - [Edit a language](#edit-a-language)
@@ -156,13 +159,14 @@ At least one language is created, see [Create a language](#create-a-language).
 
 ### Next steps
 
+- [Manage the units and dimensions](06_ManageUnitsDimensions.md)
 
 ### See also
 
 - [User Interface DataHub](/DataHub/UserInterface/00_UserInterface.md)
 - [Manage the attributes](01_ManageAttributes.md)
 - [Manage the attribute sets](02_ManageAttributeSets.md)
-- [Manage the attribute groups](03_ManageGroups.md)
+- [Manage the attribute groups](03_ManageAttributeGroups.md)
 - [Manage the channels](04_ManageChannels.md)
 - [Create a language](#create-a-language)
 - [Edit a language](#edit-a-language)

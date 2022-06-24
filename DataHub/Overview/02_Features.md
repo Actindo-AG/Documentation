@@ -3,7 +3,7 @@
 Intelligent Data Orchestration with the *DataHub* module
 
 - Central Data Processing   
-  As a central data hub, the *DataHub* module provides the basis for all modules of the Actindo Core1 platform. This allows you to customize the necessary data fields in all modules and for all business processes to best suit your business model.  
+  As a central data hub, the *DataHub* module provides the basis for all modules of the Actindo Core1 Platform. This allows you to customize the necessary data fields in all modules and for all business processes to best suit your business model.  
 
 - Automated Data Transformation (ETL)   
   With the help of an integrated ETL system, data from different sources can be aggregated, standardized and transformed according to your individual requirements and application landscape. This makes it very easy to connect to external systems.   

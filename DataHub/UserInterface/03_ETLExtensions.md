@@ -101,9 +101,9 @@ This extension is used to map a boolean attribute (checkbox or toggle) to a dest
 
 ### Configuration
 - *Content for value true*   
-  Enter the content that is mapped to the string attribute when the boolean value equals true, which means that the checkbox is selected or the toggle is active.
+  Enter the content that is mapped to the string attribute when the boolean value equals true, which means that the checkbox is selected or the toggle is enabled.
 - *Content for value false*   
-  Enter the content that is mapped to the string attribute when the boolean value equals false, which means that the checkbox is not selected or the toggle is inactive.
+  Enter the content that is mapped to the string attribute when the boolean value equals false, which means that the checkbox is not selected or the toggle is disabled.
 
 
 
@@ -139,7 +139,7 @@ This extension is used to map a Cloudinary image to a string attribute. Select a
 ### Configuration
 
 - ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Export public ID*   
-  Activate the toggle to export the Cloudinary URL but also its public ID. Deactivate the toggle to export only the Cloudinary URL.
+  Enable the toggle to export the Cloudinary URL but also its public ID. Disable the toggle to export only the Cloudinary URL.
 
   [comment]: <> (wenn toggle aktiv, wird die public id ausgegeben und nicht die url > transformation wird geskippt)
   [comment]: <> (wozu ist die public ID gut?)
@@ -314,7 +314,7 @@ This extension is used to map the generic property of an entity attribute to a d
   Enter the name of the field assigned to the entity attribute whose value should be mapped to the destination attribute.
 
 - ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Invert Bool*
-  Activate the toggle to invert the boolean value after mapping. Otherwise, the boolean value will remain as mapped.
+  Enable the toggle to invert the boolean value after mapping. Otherwise, the boolean value will remain as mapped.
 
 [comment]: <> (Configuration überarbeiten! Was macht die drop-down list?)
 
@@ -396,7 +396,7 @@ This extension is used to map the download link of an image attribute to a desti
   Enter the period in days for which the image can be downloaded by the link. If the field is left empty, the link will be valid for an unlimited period of time.  
 
 - ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Is the image downloadable only once?*   
-  Activate the toggle to allow only a single download of the image. After that, the link will be invalid. Deactivate the toggle to allow an unlimited number of downloads.  
+  Enable the toggle to allow only a single download of the image. After that, the link will be invalid. Disable the toggle to allow an unlimited number of downloads.  
 
 
 
@@ -599,7 +599,7 @@ This extension is used to map the promotion price of a PIM price field attribute
   Select the appropriate currency in the drop-down list. Only those currencies that are defined as a supported currency in the PIM price field attribute configuration are mapped. in All available currencies are displayed in the list.
 
 - ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Destination gross*   
-  Activate the toggle to map the gross price of the PIM price field attribute. Deactivate the toggle to map the net price.
+  Enable the toggle to map the gross price of the PIM price field attribute. Disable the toggle to map the net price.
 
 [comment]: <> (Is that right? why do I need the country?)
 
@@ -621,7 +621,7 @@ This extension is used to map the promotion date of a PIM price field attribute 
 
 ### Configuration
 - ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Get from date*   
-  Activate the toggle to map the start date of the promotion. Otherwise the end date of the promotion is mapped to the destination attribute. By default, the toggle is inactive.
+  Enable the toggle to map the start date of the promotion. Otherwise the end date of the promotion is mapped to the destination attribute. By default, the toggle is disabled.
 
 [comment]: <> (Standardmäßig wird das Enddatum gemappt! Deutsches UI falsch -> richtig: Von-Datum)
 
@@ -888,7 +888,7 @@ This extension is used to map a PIM price field attribute to a decimal number. T
   Select the appropriate country in the drop-down list to apply the corresponding tax rate. All available countries are displayed in the list.
 
 - ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *In percent*   
-  Activate the toggle to indicate the tax rate as a percentage. Otherwise, the tax rate is indicated as a decimal number.
+  Enable the toggle to indicate the tax rate as a percentage. Otherwise, the tax rate is indicated as a decimal number.
 
 [comment]: <> (Is that right?)
 
@@ -947,7 +947,7 @@ This extension is used to map a PIM price field attribute to a destination attri
   [comment]: <> (Is that right?)
 
 - ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Destination gross*   
-  Activate the toggle to map the gross price of the source attribute. Deactivate the toggle to map the net price.
+  Enable the toggle to map the gross price of the source attribute. Disable the toggle to map the net price.
 
 
 
@@ -976,7 +976,7 @@ This extension is used to map a PIM price field attribute with a fallback attrib
   [comment]: <> (Is that right?)
 
 - ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Destination gross*   
-  Activate the toggle to map the gross price of the source attribute. Deactivate the toggle to map the net price.
+  Enable the toggle to map the gross price of the source attribute. Disable the toggle to map the net price.
 
 
 [comment]: <> (gibt es die folgenden extensions noch?
@@ -1525,7 +1525,7 @@ This extension is used to map a tree node attribute to another tree node attribu
 
 ### Configuration
 - ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Create node if not existing*   
-  Activate the toggle to automatically create a tree node in the destination attribute if no tree node exists. Otherwise, you have to manually create a tree node.
+  Enable the toggle to automatically create a tree node in the destination attribute if no tree node exists. Otherwise, you have to manually create a tree node.
 
   [comment]: <> (is that right? or does the mapping fail then?)
 
@@ -1661,7 +1661,7 @@ This extension is used to map a variant attribute to text, for instance to provi
 ### Configuration
 
 - ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Include attribute name*     
-  Activate the toggle to map both, the attribute names and their values. Deactivate the toggle to map the attribute values only.
+  Enable the toggle to map both, the attribute names and their values. Disable the toggle to map the attribute values only.
 
 - *Excluded Attribute Keys*  
   Enter the attribute keys of those attributes that should not be mapped to the destination attribute.
@@ -1715,19 +1715,19 @@ This extension is used to map a variant attribute to a variant attribute. The va
   [comment]: <> (Welchen Sinn ergibt ein Toggle, der nicht umgeschaltet werden kann?)
 
 - ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Automatically map variant sets*   
-  Activate the toggle to automatically map the assigned variant sets of the source variant attribute and the destination variant attribute. It is recommended to activate the toggle. Otherwise, the variant sets must be mapped manually. By default, the toggle is active.
+  Enable the toggle to automatically map the assigned variant sets of the source variant attribute and the destination variant attribute. It is recommended to enable the toggle. Otherwise, the variant sets must be mapped manually. By default, the toggle is enabled.
 
 - ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Automatically create variant set if no suiting variant set can be found*   
-  Activate the toggle to automatically create a variant set if the assigned variant sets of the source variant attribute and the destination variant attribute do not match. It is recommended to activate the toggle. Otherwise, the variant set must be created manually. By default, the toggle is active. This toggle is only displayed when the *Automatically map variant sets* toggle is active.
+  Enable the toggle to automatically create a variant set if the assigned variant sets of the source variant attribute and the destination variant attribute do not match. It is recommended to enable the toggle. Otherwise, the variant set must be created manually. By default, the toggle is enabled. This toggle is only displayed when the *Automatically map variant sets* toggle is enabled.
 
 - ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Automatically add not mapped defining attributes to destination set when creating variant set*   
-  Activate the toggle to automatically add unmapped defining attributes to the created destination variant set. It is recommended to activate the toggle. Otherwise, the defining attributes must be added manually to the attribute set. By default, the toggle is active. This toggle is only displayed when the *Automatically map variant sets* toggle is active.
+  Enable the toggle to automatically add unmapped defining attributes to the created destination variant set. It is recommended to enable the toggle. Otherwise, the defining attributes must be added manually to the attribute set. By default, the toggle is enabled. This toggle is only displayed when the *Automatically map variant sets* toggle is enabled.
 
 - ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Sync variant set in case they do not match to each other*   
-  Activate the toggle to automatically create a variant set if the assigned variant sets of the source variant attribute and the destination variant attribute do not match. By default, the toggle is inactive. This toggle is only displayed when the *Automatically map variant sets* toggle is inactive.
+  Enable the toggle to automatically create a variant set if the assigned variant sets of the source variant attribute and the destination variant attribute do not match. By default, the toggle is disabled. This toggle is only displayed when the *Automatically map variant sets* toggle is disabled.
 
   - ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Do not apply master product status to children*      
-  Activate the toggle to manage the status of all variants independently of their master product. Otherwise, the status of the main product is automatically applied to all variants in the destination attribute. By default, the toggle is inactive.
+  Enable the toggle to manage the status of all variants independently of their master product. Otherwise, the status of the main product is automatically applied to all variants in the destination attribute. By default, the toggle is disabled.
 
 
 

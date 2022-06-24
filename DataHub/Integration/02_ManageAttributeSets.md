@@ -15,7 +15,7 @@ Further, you can import or export attribute sets.
 Create an attribute set to define a new product type with different attributes to the predefined attribute sets.
 In contrast to attribute sets created in the *PIM* module, you have to select an entity type for the attribute set.
 
-[comment]: <> (What does that mean -> what consequences has the entity type? All pim attribute sets = entity type  PIM product?)
+[comment]: <> (What does that mean -> what consequences has the entity type? All PIM attribute sets = entity type PIM product? List of entity types?)
 
 ### Prerequisites
 
@@ -52,10 +52,12 @@ The attributes for the attribute set are created, see [Create an attribute](01_M
 > [Info]  When you create an attribute set without inheritance, you have to add all attributes manually to the created attribute set. Neither attributes nor configurations are applied from another attribute set. In exchange, you can define individually which attributes are required and customize their configuration.
 
 1. Select the **no inheritance** option in the *Inherit/Copy Values from* drop-down list.   
-  The ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Inherit Configuration* toggle and the *Inherit/Copy Values* drop-down list are locked.
+  The *Inherit Configuration* toggle and the *Inherit/Copy Values* drop-down list are locked.
 
 2. Click the [SAVE] button.   
-  The new attribute set is saved. The *Edit Attribute Set* view is displayed.  
+  The new attribute set is saved. The *Create Attribute Set* view changes to the *Edit Attribute Set* view. The *Attribute set created* pop-up window is displayed.   
+
+  ![Attribute set created](/Assets/Screenshots/DataHub/Settings/AttributeSets/AttributeSetCreated.png "[Attribute set created]")   
 
 3. Click the ![Back](/Assets/Icons/Back02.png "[Back]") (Back) button in the upper left corner to return to the list of attribute sets or proceed to [edit the attribute set](#edit-an-attribute-set).
 
@@ -66,12 +68,14 @@ The attributes for the attribute set are created, see [Create an attribute](01_M
 
 1. Select an attribute set in the *Inherit/Copy Values from* drop-down list.
 
-2. Activate the ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Inherit Configuration* toggle if you also want to adopt the configuration to the new attribute set.
+2. Enable the *Inherit Configuration* toggle if you also want to adopt the configuration to the new attribute set.
 
 3. Select the **Inherit** option in the *Inherit/Copy Values* drop-down list.
 
 4. Click the [SAVE] button.   
-  The new attribute set is saved. The *Edit Attribute Set* view is displayed.  
+  The new attribute set is saved. The *Create Attribute Set* view changes to the *Edit Attribute Set* view. The *Attribute set created* pop-up window is displayed.   
+
+  ![Attribute set created](/Assets/Screenshots/DataHub/Settings/AttributeSets/AttributeSetCreated.png "[Attribute set created]")     
 
 5. Click the ![Back](/Assets/Icons/Back02.png "[Back]") (Back) button in the upper left corner to return to the list of attribute sets or proceed to [edit the attribute set](#edit-an-attribute-set).
 
@@ -82,12 +86,14 @@ The attributes for the attribute set are created, see [Create an attribute](01_M
 
 1. Select an attribute set in the *Inherit/Copy Values from* drop-down list.
 
-2. Activate the ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Inherit Configuration* toggle if you also want to adopt the configuration to the new attribute set.
+2. Enable the *Inherit Configuration* toggle if you also want to adopt the configuration to the new attribute set.
 
 3. Select the **Copy once** option in the *Inherit/Copy Values* drop-down list.
 
 4. Click the [SAVE] button.   
-  The new attribute set is saved. The *Edit Attribute Set* view is displayed.  
+  The new attribute set is saved. The *Create Attribute Set* view changes to the *Edit Attribute Set* view. The *Attribute set created* pop-up window is displayed.   
+
+  ![Attribute set created](/Assets/Screenshots/DataHub/Settings/AttributeSets/AttributeSetCreated.png "[Attribute set created]")     
 
 5. Click the ![Back](/Assets/Icons/Back02.png "[Back]") (Back) button in the upper left corner to return to the list of attribute sets or proceed to [edit the attribute set](#edit-an-attribute-set).
 
@@ -101,6 +107,10 @@ The attributes for the attribute set are created, see [Create an attribute](01_M
 - [Deactivate an attribute set](#deactivate-an-attribute-set)
 - [Import an attribute set](#import-an-attribute-set)
 - [Export an attribute set](#export-an-attribute-set)
+- [Manage the attribute groups](03_ManageAttributeGroups.md)
+- [Manage the channels](04_ManageChannels.md)
+- [Manage the languages](05_ManageLanguages.md)
+- [Manage the units and dimensions](06_ManageUnitsDimensions.md)
 
 ### See also
 
@@ -158,6 +168,9 @@ In the *DataHub* module all available attributes can be added to the different a
 - [Import an attribute set](#import-an-attribute-set)
 - [Export an attribute set](#export-an-attribute-set)
 - [Manage the attribute groups](03_ManageAttributeGroups.md)
+- [Manage the channels](04_ManageChannels.md)
+- [Manage the languages](05_ManageLanguages.md)
+- [Manage the units and dimensions](06_ManageUnitsDimensions.md)
 
 
 #### See also
@@ -206,10 +219,10 @@ Remove an attribute from an attribute set to limit the specifications. Inherited
 - [Import an attribute set](#import-an-attribute-set)
 - [Export an attribute set](#export-an-attribute-set)
 - [Manage the attribute groups](03_ManageAttributeGroups.md)
-- [Configure the language settings](04_ConfigureLanguages.md)
-- [Configure the scope settings](05_ConfigureScopes.md)
-- [Manage the catalogs](06_ManageCatalogs.md)
-- [Manage the variant sets](07_ManageVariantSets.md)
+- [Manage the channels](04_ManageChannels.md)
+- [Manage the languages](05_ManageLanguages.md)
+- [Manage the units and dimensions](06_ManageUnitsDimensions.md)
+
 
 #### See also
 
@@ -246,7 +259,7 @@ An attribute set is created, see [Create an attribute set](#create-an-attribute-
 
   ![Required](/Assets/Screenshots/DataHub/Settings/AttributeSets/Required.png "[Required]")
 
-3. Activate or deactivate the ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *required* toggle in the *required* column to define whether or not an attribute value should be required in the selected attribute set.
+3. Enable or disable the *required* toggle in the *required* column to define whether or not an attribute value should be required in the selected attribute set.
 
   > [Info] Be aware that you can only edit the *required* option for attributes that are not inherited.
 
@@ -261,6 +274,9 @@ An attribute set is created, see [Create an attribute set](#create-an-attribute-
 - [Import an attribute set](#import-an-attribute-set)
 - [Export an attribute set](#export-an-attribute-set)
 - [Manage the attribute groups](03_ManageAttributeGroups.md)
+- [Manage the channels](04_ManageChannels.md)
+- [Manage the languages](05_ManageLanguages.md)
+- [Manage the units and dimensions](06_ManageUnitsDimensions.md)
 
 #### See also
 
@@ -292,9 +308,9 @@ At least one attribute set is created, see [Create an attribute set](#create-an-
 
   ![Edit attribute set](/Assets/Screenshots/DataHub/Settings/AttributeSets/EditAttributeSet.png "[Edit attribute set]")
 
-2. Deactivate the ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Active* toggle.
+2. Disable the *Active* toggle.
 
-     > [Info] If you want to reactivate an attribute set, activate the ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Active* toggle.
+     > [Info] If you want to reactivate an attribute set, enable the *Active* toggle.
 
 3. Click the [SAVE] button.   
   The attribute set is deactivated. The *Edit Attribute Set* view is closed.
@@ -307,7 +323,9 @@ At least one attribute set is created, see [Create an attribute set](#create-an-
 - [Import an attribute set](#import-an-attribute-set)
 - [Export an attribute set](#export-an-attribute-set)
 - [Manage the attribute groups](03_ManageAttributeGroups.md)
-
+- [Manage the channels](04_ManageChannels.md)
+- [Manage the languages](05_ManageLanguages.md)
+- [Manage the units and dimensions](06_ManageUnitsDimensions.md)
 
 ### See also
 
@@ -344,7 +362,7 @@ No prerequisites to fulfill.
 
   > [Info] What file types are supported? What requirements?
 
-3. Activate the ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Move existing attributes into attribute groups specified in the file* toggle if you want to ???
+3. Enable the *Move existing attributes into attribute groups specified in the file* toggle if you want to ???
 
 [comment]: <> (---> what is this setting doing?)
 
@@ -360,6 +378,9 @@ No prerequisites to fulfill.
 
 - [Export an attribute set](#export-an-attribute-set)
 - [Manage the attribute groups](03_ManageAttributeGroups.md)
+- [Manage the channels](04_ManageChannels.md)
+- [Manage the languages](05_ManageLanguages.md)
+- [Manage the units and dimensions](06_ManageUnitsDimensions.md)
 
 ### See also
 
@@ -414,6 +435,9 @@ At least one attribute set is created, see [Create an attribute set](#create-an-
 ### Next steps
 
 - [Manage the attribute groups](03_ManageAttributeGroups.md)
+- [Manage the channels](04_ManageChannels.md)
+- [Manage the languages](05_ManageLanguages.md)
+- [Manage the units and dimensions](06_ManageUnitsDimensions.md)
 
 ### See also
 

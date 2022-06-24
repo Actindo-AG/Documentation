@@ -33,7 +33,7 @@
       > [Info] When the settings of a view have been changed, an asterisk is displayed behind the views name. The asterisk is hidden as soon as the changes have been saved saved.
 
     - ![Delete](/Assets/Icons/Trash01.png "[Delete]") delete    
-      Click this entry to delete the selected view. The A confirmation window to confirm the deletion is displayed. This menu entry is only displayed when a view is selected.
+      Click this entry to delete the selected view. The confirmation window to confirm the deletion is displayed. This menu entry is only displayed when a view is selected.
 
 - *Status Filter*   
   Click the drop-down list to filter the ETL processes for a certain status. The following filter modes are available:
@@ -75,6 +75,8 @@ Depending on the selection in the *VIEW* drop-down list, the ETL processes list 
   - **Awaiting confirmation diff. user**
   - **Semi-automatic accepted**  
   ![ETL processes](/Assets/Screenshots/DataHub/Settings/ETLProcesses/ProcessRetried.png "[ETL processes]")
+
+  [comment]: <> (Status erklären?)
 
 - *From-To*   
   Name of the source and the destination entity. The SKUs of the entities are indicated in brackets after the names.  

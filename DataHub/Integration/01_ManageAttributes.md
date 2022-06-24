@@ -1,5 +1,5 @@
 [!!DataHub](DataHub)
-
+[!!PIM](PIM)
 
 # Manage an attribute
 
@@ -36,7 +36,7 @@ An attribute set is created, see [Create an attribute set](02_ManageAttributeSet
 
   > [Info] In order to facilitate the assignment of attributes in the further process (for instance in the ETL mapping), it is recommended to add the prefix **datahub_** to all attributes created in the *DataHub* module.     
 
-5. If desired, activate the ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Multi-language* toggle to assign values in multiple languages to the attribute or activate the ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Multi-scope* toggle to assign different attribute values in different scopes.
+5. If desired, enable the *Multi-language* toggle to assign values in multiple languages to the attribute or enable the *Multi-scope* toggle to assign different attribute values in different scopes.
 
   > [Info] Be aware that only attributes which are neither multi-language nor multi-scope can be used as defining attributes for variants. For detailed information, see [Create a variant set](/PIM/Integration/07_ManageVariantSets.md#create-a-variant-set).
 
@@ -61,9 +61,9 @@ An attribute set is created, see [Create an attribute set](02_ManageAttributeSet
 - [Finally delete an attribute](#finally-delete-an-attribute)
 - [Manage the attribute sets](02_ManageAttributeSets.md)
 - [Manage the attribute groups](03_ManageAttributeGroups.md)
-- [Manage the languages](ManaggeLanguages.md)
-- [Manage the channels](ManageChannels.md)
-
+- [Manage the channels](04_ManageChannels.md)
+- [Manage the languages](05_ManageLanguages.md)
+- [Manage the units and dimensions](06_ManageUnitsDimensions.md)
 
 ### See also
 
@@ -91,7 +91,7 @@ At least one attribute is created, see [Create an attribute](#create-an-attribut
 
   ![Edit attribute data](/Assets/Screenshots/DataHub/Settings/Attributes/EditAttribute_Data.png "[Edit attribute data]")
 
-  > [Info] Be aware that you can only edit the attribute name, description, status and configuration. All other fields and toggles are locked.
+  > [Info] Be aware that you can only edit the attribute name, description, its status and configuration. All other fields and toggles are locked.
 
 2. Edit the desired data of the attribute in the corresponding fields in the *Data* tab.
 
@@ -112,6 +112,9 @@ At least one attribute is created, see [Create an attribute](#create-an-attribut
 - [Finally delete an attribute](#finally-delete-an-attribute)
 - [Manage the attribute sets](02_ManageAttributeSets.md)
 - [Manage the attribute groups](03_ManageAttributeGroups.md)
+- [Manage the channels](04_ManageChannels.md)
+- [Manage the languages](05_ManageLanguages.md)
+- [Manage the units and dimensions](06_ManageUnitsDimensions.md)
 
 ### See also
 
@@ -139,9 +142,9 @@ At least one attribute is created, see [Create an attribute](#create-an-attribut
 
   ![Edit attribute data](/Assets/Screenshots/DataHub/Settings/Attributes/EditAttribute_Data.png "[Edit attribute data]")
 
-2. Deactivate the ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Active* toggle in the *Data* tab.
+2. Disable the *Active* toggle in the *Data* tab.
 
-   > [Info] If you want to reactivate an attribute, activate the ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Active* toggle.
+   > [Info] If you want to reactivate an attribute, enable the *Active* toggle.
 
 3. Click the [SAVE] button in the upper right corner.   
   The attribute is deactivated. The *Edit Attribute* view is closed.
@@ -155,7 +158,9 @@ At least one attribute is created, see [Create an attribute](#create-an-attribut
 - [Finally delete an attribute](#finally-delete-an-attribute)
 - [Manage the attribute sets](02_ManageAttributeSets.md)
 - [Manage the attribute groups](03_ManageAttributeGroups.md)
-
+- [Manage the channels](04_ManageChannels.md)
+- [Manage the languages](05_ManageLanguages.md)
+- [Manage the units and dimensions](06_ManageUnitsDimensions.md)
 
 ### See also
 
@@ -199,7 +204,9 @@ At least one attribute is created, see [Create an attribute](#create-an-attribut
 - [Finally delete an attribute](#finally-delete-an-attribute)
 - [Manage the attribute sets](02_ManageAttributeSets.md)
 - [Manage the attribute groups](03_ManageAttributeGroups.md)
-
+- [Manage the channels](04_ManageChannels.md)
+- [Manage the languages](05_ManageLanguages.md)
+- [Manage the units and dimensions](06_ManageUnitsDimensions.md)
 
 ### See also
 
@@ -261,7 +268,9 @@ At least one attribute is moved to the *DELETED ATTRIBUTES* tab, see [Delete an 
 
 - [Manage the attribute sets](02_ManageAttributeSets.md)
 - [Manage the attribute groups](03_ManageAttributeGroups.md)
-
+- [Manage the channels](04_ManageChannels.md)
+- [Manage the languages](05_ManageLanguages.md)
+- [Manage the units and dimensions](06_ManageUnitsDimensions.md)
 
 ### See also
 

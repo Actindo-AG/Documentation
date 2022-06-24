@@ -28,7 +28,7 @@ No prerequisites to fulfill.
 
 3. Enter a key for the channel in the *Key* field. The key is required for API access and must be system wide unique.
 
-4. Activate the ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Active* toggle to switch the channel directly after creation active.
+4. Enable the *Active* toggle to set the channel directly after creation to active.
 
   > [Info] The channel must be activated to be used.
 
@@ -40,13 +40,15 @@ No prerequisites to fulfill.
 - [Edit a channel](#edit-a-channel)
 - [Deactivate a channel](#deactivate-a-channel)
 - [Delete a channel](#delete-a-channel)
+- [Manage the languages](05_ManageLanguages.md)
+- [Manage the units and dimensions](06_ManageUnitsDimensions.md)
 
 ### See also
 
 - [User Interface DataHub](/DataHub/UserInterface/00_UserInterface.md)
 - [Manage the attributes](01_ManageAttributes.md)
 - [Manage the attribute sets](02_ManageAttributeSets.md)
-- [Manage the attribute groups](03_ManageGroups.md)
+- [Manage the attribute groups](03_ManageAttributeGroups.md)
 - [Configure the channel settings](/PIM/Integration/ConfigureChannels.md)
 
 
@@ -79,13 +81,15 @@ At least one channel is created, see [Create a channel](/DataHub/Integration/Cre
 
 - [Deactivate a channel](#deactivate-a-channel)
 - [Delete a channel](#delete-a-channel)
+- [Manage the languages](05_ManageLanguages.md)
+- [Manage the units and dimensions](06_ManageUnitsDimensions.md)
 
 ### See also
 
 - [User Interface DataHub](/DataHub/UserInterface/00_UserInterface.md)
 - [Manage the attributes](01_ManageAttributes.md)
 - [Manage the attribute sets](02_ManageAttributeSets.md)
-- [Manage the attribute groups](03_ManageGroups.md)
+- [Manage the attribute groups](03_ManageAttributeGroups.md)
 - [Create a channel](#create-a-channel)
 - [Configure the channel settings](/PIM/Integration/ConfigureChannels.md)
 
@@ -110,7 +114,7 @@ At least one channel is created, see [Create a channel](#create-a-channel).
 
   ![Edit channel](/Assets/Screenshots/DataHub/Settings/Channels/EditChannel.png "[Edit channel]")
 
-2. Deactivate the ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Active* toggle.
+2. Disable the *Active* toggle.
 
 3. Click the [SAVE] button in the upper right corner.   
   The channel is deactivated. The *Edit Channel* view is closed.
@@ -118,13 +122,15 @@ At least one channel is created, see [Create a channel](#create-a-channel).
 ### Next steps
 
 - [Delete a channel](#delete-a-channel)
+- [Manage the languages](05_ManageLanguages.md)
+- [Manage the units and dimensions](06_ManageUnitsDimensions.md)
 
 ### See also
 
 - [User Interface DataHub](/DataHub/UserInterface/00_UserInterface.md)
 - [Manage the attributes](01_ManageAttributes.md)
 - [Manage the attribute sets](02_ManageAttributeSets.md)
-- [Manage the attribute groups](03_ManageGroups.md)
+- [Manage the attribute groups](03_ManageAttributeGroups.md)
 - [Create a channel](#create-a-channel)
 - [Edit a channel](#edit-a-channel)
 - [Configure the channel settings](/PIM/Integration/ConfigureChannels.md)
@@ -148,20 +154,22 @@ At least one channel is created, see [Create a channel](#create-a-channel).
 1. Select the checkbox of the channel you want to delete in the list of channels.    
   The editing toolbar is displayed above the channel list.
 
-2. Click the [Delete] button in the toolbar.  
+2. Click the [DELETE] button in the toolbar.  
   The channel is deleted. The deletion cannot be undone.
 
   > [Info]  If the selected channel cannot be deleted, an error message is displayed in the upper right corner. To prevent the channels use, it is recommended to [deactivate the channel](#deactivate-a-channel) instead of delete it.
 
 ### Next steps
 
+- [Manage the languages](05_ManageLanguages.md)
+- [Manage the units and dimensions](06_ManageUnitsDimensions.md)
 
 ### See also
 
 - [User Interface DataHub](/DataHub/UserInterface/00_UserInterface.md)
 - [Manage the attributes](01_ManageAttributes.md)
 - [Manage the attribute sets](02_ManageAttributeSets.md)
-- [Manage the attribute groups](03_ManageGroups.md)
+- [Manage the attribute groups](03_ManageAttributeGroups.md)
 - [Create a channel](#create-a-channel)
 - [Edit a channel](#edit-a-channel)
 - [Deactivate a channel](#deactivate-a-channel)

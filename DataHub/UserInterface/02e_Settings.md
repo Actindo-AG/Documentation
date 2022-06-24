@@ -96,7 +96,7 @@ The list displays all channels. All fields are read-only. Depending on the setti
   Channel key. The key is required for API access and must be system wide unique.
 
 - ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Active*   
-  Activate this toggle to set the channel status to active. Deactivate the toggle to set the channel to inactive. By default, this toggle is inactive.
+  Enable this toggle to set the channel status to active. Disable the toggle to set the channel to inactive. By default, this toggle is disabled.
 
 
 
@@ -126,4 +126,4 @@ The list displays all channels. All fields are read-only. Depending on the setti
   Click the field to edit the channel key. The key is required for API access and must be system wide unique. It is not recommended to change the channel key after creation.
 
 - ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Active*   
-  Activate this toggle to set the channel status to active. Deactivate the toggle to set the channel to inactive. By default, this toggle is inactive.
+  Enable this toggle to set the channel status to active. Disable the toggle to set the channel to inactive. By default, this toggle is disabled.

@@ -51,6 +51,8 @@ An ETL process has been triggered, for instance by a rerun of mapping, see [Reru
 
 - [Confirm an ETL process](#confirm-an-etl-process)
 - [Retry a faulty ETL process](#retry-a-faulty-etl-process)
+- [Manage the HTML templates](03_ManageHTMLTemplates.md)
+- [Manage the dashboards](04_ManageDashboards.md)
 
 ### See also
 
@@ -98,6 +100,8 @@ If the selected change tracking mode of an ETL mapping equals **semi-automatic**
 ### Next steps
 
 - [Retry a faulty ETL process](#retry-a-faulty-etl-process)
+- [Manage the HTML templates](03_ManageHTMLTemplates.md)
+- [Manage the dashboards](04_ManageDashboards.md)
 
 ### See also
 
@@ -137,6 +141,11 @@ An ETL process has been canceled because of an error. When the error has been fi
   ![Process retried](/Assets/Screenshots/DataHub/Settings/ETLProcesses/ProcessRetried.png "[Process retried]")
 
   If the rerun is successful, the mapping status changes to **Done** and it is removed from the list of mappings with the **Error** status.
+
+### Next steps
+
+- [Manage the HTML templates](03_ManageHTMLTemplates.md)
+- [Manage the dashboards](04_ManageDashboards.md)
 
 ### See also
 

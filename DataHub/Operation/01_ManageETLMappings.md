@@ -1,4 +1,5 @@
 [!!DataHub](DataHub)
+[!!Omni-Channel](Channels)
 
 # Manage the ETL mappings
 
@@ -12,7 +13,7 @@ Create an ETL attribute set mapping to map the attributes of the source attribut
 
 ### Prerequisites
 
-Attribute sets are created, see [Create an attribute set](02_ManageAttributeSets.md#Create-an-attribute-set).
+At least two attribute sets are created, see [Create an attribute set](02_ManageAttributeSets.md#Create-an-attribute-set).
 
 ### Procedure
 *DataHub > Settings > Tab ETL*
@@ -26,7 +27,7 @@ Attribute sets are created, see [Create an attribute set](02_ManageAttributeSets
 
 2. Select a source attribute set in the *Source attribute set* drop-down list. All active attribute sets are displayed in the drop-down list.
 
-3. Select a destination attribute set in the *Destination attribute set* drop-down list. All active attribute sets are displayed in the drop-down list.
+3. Select a destination attribute set in the *Destination attribute set* drop-down list. All active attribute sets are displayed in the drop-down list.   
   If any attribute set mapping with the selected destination attribute set already exists, the *Copy ETL Attribute Set Mapping* drop-down list is unlocked.
 
 4. Select a language in the *Language* drop-down list. All active languages are displayed in the drop-down list.
@@ -49,6 +50,8 @@ Attribute sets are created, see [Create an attribute set](02_ManageAttributeSets
 - [Edit an ETL attribute set mapping](#edit-an-etl-attribute-set-mapping)
 - [Rerun an ETL mapping](#rerun-an-etl-mapping)
 - [Manage the ETL processes](02_ManageETLProcesses.md)
+- [Manage the HTML templates](03_ManageHTMLTemplates.md)
+- [Manage the dashboards](04_ManageDashboards.md)
 
 ### See also
 
@@ -92,7 +95,7 @@ At least one ETL attribute set mapping is created, see [Create an ETL mapping](#
   If the selected extension requires further configuration settings, the *Configuration* section is displayed below the *Settings* section.
 
   > [Info] For detailed information about the data types, see [Data type list](/PIM/UserInterface/04_DataTypeList.md).   
-  For detailed information about the ETL extensions, see [ETL extensions list](/DataHub/UserInterface/ETLExtensions.md).
+  For detailed information about the ETL extensions, see [ETL extensions list](/DataHub/UserInterface/03_ETLExtensions.md).
 
 4. Select the appropriate tracking mode in the *Override Change tracking mode* drop-down list. By default, the **use default** option is preselected. The following modes are available:
   - **use default**: ---
@@ -119,6 +122,8 @@ At least one ETL attribute set mapping is created, see [Create an ETL mapping](#
 - [Delete an ETL attribute mapping](#delete-an-etl-attribute-mapping)
 - [Rerun an ETL mapping](#rerun-an-etl-mapping)
 - [Manage the ETL processes](02_ManageETLProcesses.md)
+- [Manage the HTML templates](03_ManageHTMLTemplates.md)
+- [Manage the dashboards](04_ManageDashboards.md)
 
 #### See also
 
@@ -168,7 +173,7 @@ When creating an ETL attribute set mapping, you define the language and the chan
   If the selected extension requires further configuration settings, the *Configuration* section is displayed below the *Settings* section.
 
   > [Info] For detailed information about the data types, see [Data type list](/PIM/UserInterface/04_DataTypeList.md).   
-  For detailed information about the ETL extensions, see [ETL extensions list](/DataHub/UserInterface/ETLExtensions.md).
+  For detailed information about the ETL extensions, see [ETL extensions list](/DataHub/UserInterface/03_ETLExtensions.md).
 
 6. Select the appropriate tracking mode in the drop-down list *Override Change tracking mode*. By default, the **use default** option is preselected. The following modes are available:
   - **use default**: ---
@@ -190,7 +195,8 @@ When creating an ETL attribute set mapping, you define the language and the chan
 - [Delete an ETL attribute mapping](#delete-an-etl-attribute-mapping)
 - [Rerun an ETL mapping](#rerun-an-etl-mapping)
 - [Manage the ETL processes](02_ManageETLProcesses.md)
-
+- [Manage the HTML templates](03_ManageHTMLTemplates.md)
+- [Manage the dashboards](04_ManageDashboards.md)
 
 #### See also
 
@@ -236,6 +242,8 @@ At least one ETL attribute set mapping is created, see [Create an ETL mapping](#
 
 - [Rerun an ETL mapping](#rerun-an-etl-mapping)
 - [Manage the ETL processes](02_ManageETLProcesses.md)
+- [Manage the HTML templates](03_ManageHTMLTemplates.md)
+- [Manage the dashboards](04_ManageDashboards.md)
 
 #### See also
 
@@ -279,9 +287,9 @@ At least one ETL attribute set mapping is created, see [Create an ETL mapping](#
 
   ![Rerun single mapping](/Assets/Screenshots/DataHub/Settings/ETL/RerunSingleMapping.png "[Rerun single mapping]")
 
-4. If desired, activate the *Also rerun mapping for entities with manual change tracking (or if the change-tracking override of this mapping is manual)?* toggle.
+4. If desired, enable the *Also rerun mapping for entities with manual change tracking (or if the change-tracking override of this mapping is manual)?* toggle.
 
-  > [Info] If you activate the *Also rerun mapping for entities with manual change tracking (or if the change-tracking override of this mapping is manual)?* toggle, the mapping is rerun regardless of the selected change tracking mode.     
+  > [Info] If you enable the *Also rerun mapping for entities with manual change tracking (or if the change-tracking override of this mapping is manual)?* toggle, the mapping is rerun regardless of the selected change tracking mode.     
 
 5. Click the [SAVE] button in the *Rerun single mapping* window.   
   The mapping rerun is started. A pop-up window is displayed to inform that the job has been triggered.
@@ -294,6 +302,8 @@ At least one ETL attribute set mapping is created, see [Create an ETL mapping](#
 
 - [Rerun an attribute set mapping](#rerun-an-attribute-set-mapping)
 - [Manage the ETL processes](02_ManageETLProcesses.md)
+- [Manage the HTML templates](03_ManageHTMLTemplates.md)
+- [Manage the dashboards](04_ManageDashboards.md)
 
 #### See also
 
@@ -326,9 +336,9 @@ At least one ETL attribute set mapping is created, see [Create an ETL mapping](#
 
   ![Rerun all mapping](/Assets/Screenshots/DataHub/Settings/ETL/RerunSingleMapping.png "[Rerun single mapping]")
 
-4. If desired, activate the *Also rerun mapping for entities with manual change tracking (or if the change-tracking override of this mapping is manual)?* toggle.
+4. If desired, enable the *Also rerun mapping for entities with manual change tracking (or if the change-tracking override of this mapping is manual)?* toggle.
 
-  > [Info] If you activate the *Also rerun mapping for entities with manual change tracking (or if the change-tracking override of this mapping is manual)?* toggle, the mapping is rerun regardless of the selected change tracking mode.     
+  > [Info] If you enable the *Also rerun mapping for entities with manual change tracking (or if the change-tracking override of this mapping is manual)?* toggle, the mapping is rerun regardless of the selected change tracking mode.     
 
 5. Click the [SAVE] button in the *Rerun single mapping* window.   
   The mapping rerun is started. A pop-up window is displayed to inform that the job has been triggered.
@@ -341,6 +351,8 @@ At least one ETL attribute set mapping is created, see [Create an ETL mapping](#
 #### Next steps
 
 - [Manage the ETL processes](02_ManageETLProcesses.md)
+- [Manage the HTML templates](03_ManageHTMLTemplates.md)
+- [Manage the dashboards](04_ManageDashboards.md)
 
 #### See also
 

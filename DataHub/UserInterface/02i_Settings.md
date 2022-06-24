@@ -23,7 +23,7 @@
   Click this button to recover the selected attribute. This button is only displayed, when the checkbox of an attribute is selected.    
   For detailed information, see [Recover an attribute](/DataHub/Integration/01_ManageAttributes.md#recover-an-attribute).
 
-- ![Delete](/Assets/Icons/Trash03.png "[Delete]") (Delete)   
+- [DELETE]   
   Click this button to irretrievably delete the selected attribute. This button is only displayed, when the checkbox of an attribute is selected.       
   For detailed information, see [Finally delete an attribute](/DataHub/Integration/01_ManageAttributes.md#finally-delete-an-attribute).
 

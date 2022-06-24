@@ -64,7 +64,7 @@ The list displays all dimensions. All fields are read-only. Depending on the set
 **BASIC DATA**
 
 - ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Active*   
-  Activate this toggle to set the dimension status to active. Deactivate the toggle to set the status to inactive. By default, this toggle is active. This field is read-only.
+  Enable this toggle to set the dimension status to active. Disable the toggle to set the status to inactive. By default, this toggle is enabled. This toggle is read-only.
 
   [comment]: <> (Ein toggle, der read-only ist, ist sinnfrei, oder?)
 

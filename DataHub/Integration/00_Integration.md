@@ -49,6 +49,7 @@
 
 
 - [Manage the units and dimensions](06_ManageUnitsDimensions.md)
+  - [Change the default unit](06_ManageUnitsDimensions.md#change-the-default-unit)
   - [Deactivate a unit](06_ManageUnitsDimensions.md#deactivate-a-unit)
   - [Deactivate a dimension](06_ManageUnitsDimensions.md#deactivate-a-dimension)
 

@@ -104,7 +104,7 @@ The list displays all attribute set mappings. All fields are read-only. Dependin
 **Mapping from source set to destination set**
 
 - ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Hide inactive destination attributes*   
-  Activate this toggle to hide all inactive destination attributes in the list of attribute mappings. Deactivate the toggle to display all destination attributes independently on their status. By default, this toggle is inactive.
+  Enable this toggle to hide all inactive destination attributes in the list of attribute mappings. Disable the toggle to display all destination attributes independently on their status. By default, this toggle is disabled.
 
 - ![Search](/Assets/Icons/Search.png "[Search]") (Search)   
   Click this button to display the search bar and search for an attribute.
@@ -208,7 +208,7 @@ For detailed information about the different configurations of ETL extensions, s
 ![Rerun all mappings](/Assets/Screenshots/DataHub/Settings/ETL/RerunAllMappings.png "[Rerun all mappings]")
 
 - ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Also rerun mappings for entities with manual change tracking?*   
-  Activate this toggle to rerun all attribute mappings regardless their change tracking mode. Deactivate the toggle to rerun the mapping excluding all mappings with a manual change tracking mode. By default, this toggle is inactive.
+  Enable this toggle to rerun all attribute mappings regardless their change tracking mode. Disable the toggle to rerun the mapping excluding all mappings with a manual change tracking mode. By default, this toggle is disabled.
 
 - [CANCEL]   
   Click this button to cancel the rerun of all mappings, close the *Rerun all mappings* window and return to the *Mapping from source set to destination set* view.
@@ -224,7 +224,7 @@ For detailed information about the different configurations of ETL extensions, s
 ![Rerun sinlge mapping](/Assets/Screenshots/DataHub/Settings/ETL/RerunSingleMapping.png "[Rerun single mapping]")
 
 - ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Also rerun mapping for entities with manual change tracking (or if the change-tracking override of this mapping is manual)?*   
-  Activate this toggle to rerun the attribute mapping regardless its change tracking mode. Deactivate the toggle to rerun the mapping only if the manual change tracking mode is not assigned to this mapping. By default, this toggle is inactive.
+  Enable this toggle to rerun the attribute mapping regardless its change tracking mode. Disable the toggle to rerun the mapping only if the manual change tracking mode is not assigned to this mapping. By default, this toggle is disabled.
 
 - [CANCEL]   
   Click this button to cancel the rerun of all mappings, close the *Rerun single mapping* window and return to the *Mapping from source set to destination set* view.

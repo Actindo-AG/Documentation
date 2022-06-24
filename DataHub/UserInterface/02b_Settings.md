@@ -104,7 +104,7 @@ The list displays all attribute sets. All fields are read-only. Depending on the
   Attribute set key. The key is required for API access and must be system wide unique.
 
 - ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Active*   
-  Activate this toggle to set the attribute set status to active. Deactivate the toggle to set the status to inactive. By default, this toggle is active.
+  Enable this toggle to set the attribute set status to active. Disable the toggle to set the status to inactive. By default, this toggle is enabled.
 
 - *Entity Type*   
   Click the drop-down list to select the appropriate entity type. All available entity types are displayed in the list. For detailed information, see [Entity Types List](to_be_completed).  
@@ -116,7 +116,7 @@ The list displays all attribute sets. All fields are read-only. Depending on the
 
 
 - ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Inherit Configuration*   
-  Activate this toggle to inherit not only the values of the selected attribute set, but also their configuration. Deactivate the toggle to inherit the values without configuration. By default, this toggle is active. This toggle is locked if the **no inheritance** option is selected in the *Inherit/Copy Values from* drop-down list.
+  Enable this toggle to inherit not only the values of the selected attribute set, but also their configuration. Disable the toggle to inherit the values without configuration. By default, this toggle is enabled. This toggle is locked if the **no inheritance** option is selected in the *Inherit/Copy Values from* drop-down list.
 
 
 - *Inherit/Copy Values*   
@@ -170,7 +170,7 @@ In the *Create Attribute Set* view, no attributes are displayed in list. You hav
   Attribute set key. The key is required for API access and must be system wide unique. In the *Edit Attribtue Set* view, this field is locked.
 
 - ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Active*   
-  Activate this toggle to set the attribute set status to active. Deactivate the toggle to set the status to inactive. By default, this toggle is active.
+  Enable this toggle to set the attribute set status to active. Disable the toggle to set the status to inactive. By default, this toggle is enabled.
 
 
 - *Inherit/Copy Values from*   
@@ -180,7 +180,7 @@ In the *Create Attribute Set* view, no attributes are displayed in list. You hav
 
 
 - ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Inherit Configuration*   
-  Activate this toggle to inherit not only the values of the selected attribute set, but also their configuration. Deactivate the toggle to inherit the values without configuration. By default, this toggle is active. This toggle is locked if the **no inheritance** option is selected in the *Inherit/Copy Values from* drop-down list.
+  Enable this toggle to inherit not only the values of the selected attribute set, but also their configuration. Disable the toggle to inherit the values without configuration. By default, this toggle is enabled. This toggle is locked if the **no inheritance** option is selected in the *Inherit/Copy Values from* drop-down list.
 
 
 - *Inherit/Copy Values*   
@@ -249,7 +249,7 @@ The list displays all attributes assigned to the selected attribute set. When th
 
 - *required*  
   Indication whether the attribute value is required or not. The following options are only displayed, when the ![Settings](/Assets/Icons/Settings01.png "[Settings]") (Settings) button is inactive:
-  When the ![Settings](/Assets/Icons/Settings02.png "[Settings]") (Settings) button is blue, the *required* toggle is displayed. Activate the toggle to set the attribute value as a mandatory field. Deactivate the toggle to set the attribute value as an optional field.   
+  When the ![Settings](/Assets/Icons/Settings02.png "[Settings]") (Settings) button is blue, the *required* toggle is displayed. Enable the toggle to set the attribute value as a mandatory field. Disable the toggle to set the attribute value as an optional field.   
   When the ![Settings](/Assets/Icons/Settings01.png "[Settings]") (Settings) button is gray, the following options are displayed:
   - ![Check](/Assets/Icons/Check.png "[Check]") (Checkmark): The attribute is required.  
   - ![Cross](/Assets/Icons/Cross02.png "[Cross]") (Cross): The attribute is optional.   
