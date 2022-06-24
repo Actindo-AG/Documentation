@@ -46,12 +46,15 @@ For detailed information about tokens, see [Check the token status and content](
 
 ### See also
 
+- [User Interface workflows](/ActindoWorkFlow/UserInterface/00_UserInterface.md)
 - [Retry a single process action](/ActindoWorkFlow/Troubleshooting/02_RetryProcessAction.md#retry-a-single-process-action)
 - [Retry multiple process actions](/ActindoWorkFlow/Troubleshooting/02_RetryProcessAction.md#retry-multiple-process-actions)
 - [Workflow and process elements](/ActindoWorkFlow/Overview/02_WorkflowProcessElements.md)
 - [Workflows](/ActindoWorkFlow/UserInterface/02a_Workflows.md)
 - [Processes](/ActindoWorkFlow/UserInterface/03a_Processes.md)
 - [Process actions](/ActindoWorkFlow/UserInterface/04a_ProcessActions.md)
+- [Manage the workflows](01_ManageWorkflows.md)
+
 
 
 ## Check the process action status
@@ -124,12 +127,14 @@ The selected action is displayed in the *Actions* tab.
 
 ### See also
 
+- [User Interface workflows](/ActindoWorkFlow/UserInterface/00_UserInterface.md)
 - [Retry a single process action](/ActindoWorkFlow/Troubleshooting/02_RetryProcessAction.md#retry-a-single-process-action)
 - [Retry multiple process actions](/ActindoWorkFlow/Troubleshooting/02_RetryProcessAction.md#retry-multiple-process-actions)
 - [Workflow and process elements](/ActindoWorkFlow/Overview/02_WorkflowProcessElements.md)
 - [Workflows](/ActindoWorkFlow/UserInterface/02a_Workflows.md)
 - [Processes](/ActindoWorkFlow/UserInterface/03a_Processes.md)
 - [Process actions](/ActindoWorkFlow/UserInterface/04a_ProcessActions.md)
+- [Manage the workflows](01_ManageWorkflows.md)
 
 
 ## Check the token status and content
@@ -192,7 +197,9 @@ The token input in the selected place, if any, is displayed in the *Tokens* tab.
 
 ### See also
 
+- [User Interface workflows](/ActindoWorkFlow/UserInterface/00_UserInterface.md)
 - [Workflow and process elements](/ActindoWorkFlow/Overview/02_WorkflowProcessElements.md)
 - [Workflows](/ActindoWorkFlow/UserInterface/02a_Workflows.md)
 - [Processes](/ActindoWorkFlow/UserInterface/03a_Processes.md)
 - [Process actions](/ActindoWorkFlow/UserInterface/04a_ProcessActions.md)
+- [Manage the workflows](01_ManageWorkflows.md)

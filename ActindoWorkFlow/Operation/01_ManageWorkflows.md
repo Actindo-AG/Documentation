@@ -86,11 +86,12 @@ No prerequisites to fulfill.
 - [Publish a workflow](#publish-a-workflow)
 - [Unpublish a workflow](#unpublish-a-workflow)
 - [Delete a workflow](#delete-a-workflow)
+- [Track a workflow process](02_TrackProcesses.md)
 
 ### See also
 
-[Workflow and process elements](/ActindoWorkFlow/Overview/02_WorkflowProcessElements.md)
-
+- [User Interface workflows](/ActindoWorkFlow/UserInterface/00_UserInterface.md)
+- [Workflow and process elements](/ActindoWorkFlow/Overview/02_WorkflowProcessElements.md)
 
 
 
@@ -236,9 +237,11 @@ A new place connected to the selected output port is displayed.
 - [Publish a workflow](#publish-a-workflow)
 - [Unpublish a workflow](#unpublish-a-workflow)
 - [Delete a workflow](#delete-a-workflow)
+- [Track a workflow process](02_TrackProcesses.md)
 
 ### See also
 
+- [User Interface workflows](/ActindoWorkFlow/UserInterface/00_UserInterface.md)
 - [Create a workflow](#create-a-workflow)
 - [Workflow and process elements](/ActindoWorkFlow/Overview/02_WorkflowProcessElements.md)
 
@@ -264,9 +267,11 @@ Workflows > Workflows > Tab OVERVIEW > Select checkbox > Button [VERÖFFENTLICHU
 
 - [Unpublish a workflow](#unpublish-a-workflow)
 - [Delete a workflow](#delete-a-workflow)
+- [Track a workflow process](02_TrackProcesses.md)
 
 ### See also
 
+- [User Interface workflows](/ActindoWorkFlow/UserInterface/00_UserInterface.md)
 - [Create a workflow](#create-a-workflow)
 - [Edit a workflow](#edit-a-workflow)
 - [Workflow and process elements](/ActindoWorkFlow/Overview/02_WorkflowProcessElements.md)
@@ -291,9 +296,11 @@ Workflows > Workflows > Tab OVERVIEW > Select checkbox > Button [VERÖFFENTLICHU
 ### Next steps
 
 - [Delete a workflow](#delete-a-workflow)
+- [Track a workflow process](02_TrackProcesses.md)
 
 ### See also
 
+- [User Interface workflows](/ActindoWorkFlow/UserInterface/00_UserInterface.md)
 - [Publish a workflow](#publish-a-workflow)
 - [Create a workflow](#create-a-workflow)
 - [Edit a workflow](#edit-a-workflow)
@@ -328,8 +335,13 @@ The workflow is deleted.
 
 [comment]: <> (Prüfen, ob das richtig und vollständig ist)
 
+### Next steps
+
+- [Track a workflow process](02_TrackProcesses.md)
+
 ### See also
 
+- [User Interface workflows](/ActindoWorkFlow/UserInterface/00_UserInterface.md)
 - [Unpublish a workflow](#unpublish-a-workflow)
 - [Publish a workflow](#publish-a-workflow)
 - [Create a workflow](#create-a-workflow)

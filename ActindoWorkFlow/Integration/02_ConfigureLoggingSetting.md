@@ -40,7 +40,7 @@ No prerequisites to fulfill.
 
   ![Saving successful](/Assets/Screenshots/ActindoWorkFlow/Settings/SavingSuccessful.png "[Saving successful]")
 
-### Next steps
-
-
 ### See also
+
+- [User Interface workflows](/ActindoWorkFlow/UserInterface/00_UserInterface.md)
+- [Configure the queue types](01_ConfigureQueueTypes.md)
