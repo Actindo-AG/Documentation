@@ -6,7 +6,7 @@
 
 ![Import](/Assets/Screenshots/RetailSuiteAccounting/Extras/Import/Import.png "[Import]")
 
-> [Info] The import function is also available in the *FISCAL YEARS* tab of *Settings* menu entry, see [Import bookings](02d_Settings.md#import-bookings).
+> [Info] The import function is also available in the *FISCAL YEARS* tab of the *Settings* menu entry, see [Import bookings](02d_Settings.md#import-bookings).
 
 - *Import from:*  
 A list of the available import options is displayed:
@@ -23,21 +23,21 @@ A list of the available import options is displayed:
 Click this button to import data in Compeso proprietary format. Follow the instructions provided in the following windows, see [COMPESO 7.X](#compeso-7x).
 
 - [CSV]  
-Click this button to import data in CSV format. Follow the instructions provided in the following windows.
+Click this button to import data in CSV format. Follow the instructions provided in the following windows, see [CSV](#csv).
 
 - [CSV LS-MOTOR]  
-Click this button to import data in CSV format from an invoicing solution. Follow the instructions provided in the following windows.
+Click this button to import data in CSV format from an invoicing solution. Follow the instructions provided in the following windows, see [CSV LS-MOTOR](#csv-ls-motor).
 
 [comment]: <> (LS ENGINE?)
 
 - [GDI]  
-Click this button to import data in GDI standard interface format. Follow the instructions provided in the following windows.
+Click this button to import data in GDI standard interface format. Follow the instructions provided in the following windows, see [GDI](#gdi).
 
 - [OPENTRANS]  
-Click this button to import data in openTRANS INVOIC XML format. Follow the instructions provided in the following windows.
+Click this button to import data in openTRANS INVOIC XML format. Follow the instructions provided in the following windows, see [openTRANS](#opentrans).
 
 - [SCHILLING BUCHHALTUNG]  
-Click this button to import data in Schilling Software proprietary FQBATCH format. Follow the instructions provided in the following windows.
+Click this button to import data in Schilling Software proprietary FQBATCH format. Follow the instructions provided in the following windows, see [Schilling Accounting](#schilling-buchhaltung).
 
 
 ## Compeso 7.X
@@ -124,7 +124,7 @@ Click the drop-down list to select the appropriate import definition.
 
 
 - [Edit]  
-Click this button edit the selected import definition. The *Import/export definitions* window is displayed, see [Import/export definitions](#import-export-definitions).
+Click this button to edit the selected import definition. The *Import/export definitions* window is displayed, see [Import/export definitions](#import-export-definitions).
 
 - *Split bookings*  
 Click the drop-down list to select the appropriate import setting for split bookings. The following options are available:
@@ -159,16 +159,16 @@ Click this button to proceed to the next step.
 
 **Step 3**
 
-> [Info] Depending on the imported data, the screen displayed varies accordingly.
+> [Info] Depending on the imported data, the screen displayed varies.
 
 - *Bookings*  
 The import file contains bookings to be imported. Otherwise, the message "No bookings in the import file" is displayed.
 
   - *Take over bookings?*  
-  Select **No** if the system must take over the bookings in the import file. The default setting is **Yes**.
+  Select **No** if you do not want the system to take over the bookings in the import file. The default setting is **Yes**.
 
   - *Overwrite existing ones?*  
-  Select **No** if the system must overwrite the existing bookings. The default setting is **Yes**.
+  Select **No** if you do not want the system to overwrite the existing bookings. The default setting is **Yes**.
 
 
 - *Impersonal accounts*
@@ -176,10 +176,10 @@ The import file contains bookings to be imported. Otherwise, the message "No boo
   The import file contains impersonal accounts to be imported. Otherwise, the message "No impersonal accounts in the import file" is displayed.
 
   - *Take over impersonal accounts?*  
-  Select **No** if the system must take over the impersonal accounts in the import file. The default setting is **Yes**.
+  Select **No** if you do not want the system to take over the impersonal accounts in the import file. The default setting is **Yes**.
 
   - *Overwrite existing ones?*  
-  Select **No** if the system must overwrite the existing impersonal accounts. The default setting is **Yes**.
+  Select **No** if you do not want the system to overwrite the existing impersonal accounts. The default setting is **Yes**.
 
 
 - *Personal accounts*  
@@ -187,10 +187,10 @@ The import file contains bookings to be imported. Otherwise, the message "No boo
   The import file contains personal accounts to be imported. Otherwise, the message "No personal accounts in the import file" is displayed.
 
   - *Take over personal accounts?*  
-  Select **No** if the system must take over the personal accounts in the import file. The default setting is **Yes**.
+  Select **No** if you do not want the system to take over the personal accounts in the import file. The default setting is **Yes**.
 
   - *Overwrite existing ones?*  
-  Select **No** if the system must overwrite the existing personal accounts. The default setting is **Yes**.
+  Select **No** if you do not want the system to overwrite the existing personal accounts. The default setting is **Yes**.
 
 
 [comment]: <> (Ich gehe davon aus, dass es so funktioniert. Weiter testen oder RS mit FH.)
@@ -215,7 +215,7 @@ Click this button to cancel the process.
 
 **Step 5**
 
-[comment]: <> (Leeres Fenster. Komment in OneNote Bugs-Datei.)
+[comment]: <> (Leeres Fenster. Kommentar in OneNote Bugs-Datei.)
 
 
 
@@ -224,6 +224,8 @@ Click this button to cancel the process.
 *Accounting > Select fiscal year > Extras > Tab IMPORT > Button CSV LS-MOTOR*
 
 ![Import CSV LS-Motor Step 1](/Assets/Screenshots/RetailSuiteAccounting/Extras/Import/CSVLSMotor01.png "[Import CSV LS-Motor Step 1]")
+
+![Import CSV LS-Motor Step 1](/Assets/Screenshots/RetailSuiteAccounting/Extras/Import/CSVLSMotor01DMS.png "[Import CSV LS-Motor Step 1]")
 
 **Step 1**
 
@@ -254,6 +256,7 @@ Click the drop-down list to select the appropriate import definition.
   - **Auction Master CSV**
   - **Invoicing: new receipts**
 
+
 - *OrdersX.txt*  
   Click the drop-down list to select the appropriate import definition.
 
@@ -266,7 +269,7 @@ Click the drop-down list to select the appropriate import definition.
 
 
 - [Edit]  
-Click this button edit the selected import definition. The *Import/export definitions* window is displayed, see [Import/export definitions](#import-export-definitions).
+Click this button to edit the selected import definition. The *Import/export definitions* window is displayed, see [Import/export definitions](#import-export-definitions).
 
 - [CONTINUE]  
 Click this button to proceed to the next step.
@@ -276,12 +279,17 @@ Click this button to proceed to the next step.
 
 [comment]: <> (Ich komme nicht zum Step 2 - Probleme mit Hochladen der txt-Datei!)
 
+- to be completed
+
 
 ## GDI
 
 *Accounting > Select fiscal year > Extras > Tab IMPORT > Button GDI*
 
 ![Import GDI Step 1](/Assets/Screenshots/RetailSuiteAccounting/Extras/Import/GDI01.png "[Import GDI Step 1]")
+
+![Import GDI Step 1](/Assets/Screenshots/RetailSuiteAccounting/Extras/Import/GDI01DMS.png "[Import GDI Step 1]")
+
 
 **Step 1**
 
@@ -329,11 +337,11 @@ Click this button to proceed to the next step.
 
 **Step 3**
 
-> [Info] Depending on the imported data, the screen displayed varies accordingly.
+> [Info] Depending on the imported data, the screen displayed varies.
 
 
 - ![Radio button](/Assets/Icons/Radiobutton02.png "[Radio button]") *Create new fiscal year*
- - *FY name* (undef)
+ - *FY name*
  - *From - to*
 
 
@@ -347,10 +355,10 @@ Click this button to proceed to the next step.
   The import file contains impersonal accounts to be imported. Otherwise, the message "No impersonal accounts in the import file" is displayed.
 
   - *Take over impersonal accounts?*  
-  Select **No** if the system must take over the impersonal accounts in the import file. The default setting is **Yes**.
+  Select **No** if you do not want the system to take over the impersonal accounts in the import file. The default setting is **Yes**.
 
   - *Overwrite existing ones?*  
-  Select **No** if the system must overwrite the existing impersonal accounts. The default setting is **Yes**.
+  Select **No** if you do not want the system to overwrite the existing impersonal accounts. The default setting is **Yes**.
 
 
 - *Personal accounts*  
@@ -358,10 +366,10 @@ Click this button to proceed to the next step.
   The import file contains personal accounts to be imported. Otherwise, the message "No personal accounts in the import file" is displayed.
 
   - *Take over personal accounts?*  
-  Select **No** if the system must take over the personal accounts in the import file. The default setting is **Yes**.
+  Select **No** if you do not want the system to take over the personal accounts in the import file. The default setting is **Yes**.
 
   - *Overwrite existing ones?*  
-  Select **No** if the system must overwrite the existing personal accounts. The default setting is **Yes**.
+  Select **No** if you do not want the system to overwrite the existing personal accounts. The default setting is **Yes**.
 
 
 [comment]: <> (Ich gehe davon aus, dass es so funktioniert. Weiter testen oder RS mit FH.)
@@ -387,17 +395,109 @@ Click this button to cancel the process.
 
 **Step 5**
 
+- to be completed
 
 [comment]: <> (Leeres Fenster. Komment in OneNote Bugs-Datei.)
 
 
 ## openTRANS
 
+*Accounting > Select fiscal year > Extras > Tab IMPORT > Button openTRANS*
+
 ![Import openTRANS Step 1](/Assets/Screenshots/RetailSuiteAccounting/Extras/Import/Opentrans01.png "[Import openTRANS Step 1]")
 
 ![Import openTRANS Step 1](/Assets/Screenshots/RetailSuiteAccounting/Extras/Import/Opentrans01DMS.png "[Import openTRANS Step 1]")
 
 
+**Step 1**
+
+- *Files*  
+A list of compatible files is displayed. In this case, only xml files can be imported.
+
+- ![Radio button](/Assets/Icons/Radiobutton02.png "[Radio button]") *Local file*  
+Click this radio button to select a file from your computer to be uploaded. The [Choose file] button is displayed.
+- ![Radio button](/Assets/Icons/Radiobutton02.png "[Radio button]") *DMS*  
+Click this radio button to select a file from a DMS to be uploaded. The [SEARCH] button is displayed.
+
+- [Choose file]  
+Click this button to select a file from your computer to be uploaded. If no file has been selected yet, the message "No file chosen" is displayed.
+
+- [SEARCH]  
+Click this button to search for the file to be uploaded. The *Search file* window is displayed, see [Select file](#select-file).
+
+- [UPLOAD]  
+Click this button to upload the selected file. The selected file is uploaded. The [UPLOAD] button becomes grayed out.
+
+- *Creditor/supplier number*  
+Enter the creditor/supplier number.  
+
+- [CONTINUE]  
+Click this button to proceed to the next step.
+
+
+![Import openTRANS Step 2](/Assets/Screenshots/RetailSuiteAccounting/Extras/Import/Opentrans02.png "[Import openTRANS Step 2]")
+
+**Step 2**
+
+ - *Log file*  
+The import log file is available in this step.
+
+- *View log file*  
+The import log file can be viewed in this step.
+
+- [VIEW]  
+Click this button to visualize the import log file.
+
+- [CONTINUE]  
+Click this button to proceed to the next step.
+
+[comment]: <> (Fehlermeldung " Konnte kein passendes Wareneingangskonto finden, bzw. kein Konto ist als Wareneingangskonto markiert Steuerschlüssel 0, Datum 2009-05-13..." Keine KOMM_NO! in Logdatei. WEITER Schaltfläche ausgegraut / nicht klickbar)
+
+
+
+## Schilling Accounting
+
+*Accounting > Select fiscal year > Extras > Tab IMPORT > Button Schilling Accounting*
+
+![Import Schilling Step 1](/Assets/Screenshots/RetailSuiteAccounting/Extras/Import/Schilling01.png "[Import Schilling Step 1]")
+
+![Import Schilling Step 1](/Assets/Screenshots/RetailSuiteAccounting/Extras/Import/Schilling01DMS.png "[Import Schilling Step 1]")
+
+**Step 1**
+
+- *Files*  
+A list of compatible files is displayed. In this case, only txt files can be imported.
+
+- ![Radio button](/Assets/Icons/Radiobutton02.png "[Radio button]") *Local file*  
+Click this radio button to select a file from your computer to be uploaded. The [Choose file] button is displayed.
+- ![Radio button](/Assets/Icons/Radiobutton02.png "[Radio button]") *DMS*  
+Click this radio button to select a file from a DMS to be uploaded. The [SEARCH] button is displayed.
+
+- [Choose file]  
+Click this button to select a file from your computer to be uploaded. If no file has been selected yet, the message "No file chosen" is displayed.
+
+- [SEARCH]  
+Click this button to search for the file to be uploaded. The *Search file* window is displayed, see [Select file](#select-file).
+
+- [UPLOAD]  
+Click this button to upload the selected file. The selected file is uploaded. The [UPLOAD] button becomes grayed out.
+
+- [CONTINUE]  
+Click this button to proceed to the next step.
+
+
+![Import Schilling Step 2](/Assets/Screenshots/RetailSuiteAccounting/Extras/Import/Schilling02Fehler.png "[Import Schilling Step 2]")
+
+**Step 2**
+
+- *Converting...*  
+This message is displayed during the import process.  
+
+- [CANCEL]  
+Click this button to cancel the process.
+
+
+[comment]: <> (Der Prozess geht nicht weiter, System hängt. Ich habe versucht eine exportierte DAT-Datei -Reiter EXPORT- zu importieren, aber es scheint nicht zu funktioniere. Bug?)
 
 
 
