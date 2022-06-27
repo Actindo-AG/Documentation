@@ -87,24 +87,20 @@ Further details about the process actions included in the diagram as well as abo
 
 3. Check the actions displayed in the diagram. The workflow process diagram displays the actions in different colors depending on their current status:
 
-  - Active (blue)
+  - In progress (blue)
   - Done (green)
   - Error (red)
-  - Error; automatic retry
-  - Suspended (grey)
-  - Process aborted (black)
+  - Pending (white)
 
- [comment]: <> (Das sind die Status der Actions Drop-down-Liste. Wenn ein Action wartet, ist die Farbe in der Graphik weiß. Hinzufügen? Farben stimmen oder ändern sich noch?)
 
 4. Click the action to be checked in the diagram.  
 The selected action is displayed in the *Actions* tab.
 
 5. Check the action status in the *Status* column. The following statuses can be displayed:  
 
-    - *Active*  
+    - *In progress*
     - *Done*  
-    - *Error*  
-    - *Error; automatic retry*  
+    - *Error*   
     - *Suspended*  
     - *Process aborted*
 
@@ -175,10 +171,9 @@ The token input in the selected place, if any, is displayed in the *Tokens* tab.
 
   - Processed (green)
   - Being processed (blue)
-  - Ready (grey)
   - Error (red)
+  - Unprocessed (white)
 
-[comment]: <> (Unsicher über Status hier, da wir in Wissentranfer über Processed/Unprocessed Token Status gesprochen haben, aber tatsächlich andere Status auch vorkommen können.)
 
 6. Check the place where the token is located in the *Place* column.
 
