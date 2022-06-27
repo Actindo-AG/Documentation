@@ -92,9 +92,9 @@ Click this button to cancel the process.
 - *Files*  
 A list of compatible files is displayed. In this case, only CSV files can be imported.
 
-- ![Radio button](/Assets/Icons/Radiobutton02.png "[Radio button]") *Local file*  
+- ![Radio button](/Assets/Icons/RadioButton02.png "[Radio button]") *Local file*  
 Click this radio button to select a file from your computer to be uploaded. The [Choose file] button is displayed.
-- ![Radio button](/Assets/Icons/Radiobutton02.png "[Radio button]") *DMS*  
+- ![Radio button](/Assets/Icons/RadioButton02.png "[Radio button]") *DMS*  
 Click this radio button to select a file from a DMS to be uploaded. The [SEARCH] button is displayed.
 
 - [Choose file]  
@@ -234,9 +234,9 @@ A list of compatible files is displayed. In this case, only txt files can be imp
 
 [comment]: <> (txt oder X.txt? Unterschied oder X gehört zum Namen? Ich kann keine txt Datei hochladen. Fehlermeldung: No such file or directory)
 
-- ![Radio button](/Assets/Icons/Radiobutton02.png "[Radio button]") *Local file*  
+- ![Radio button](/Assets/Icons/RadioButton02.png "[Radio button]") *Local file*  
 Click this radio button to select a file from your computer to be uploaded. The [Choose file] button is displayed.
-- ![Radio button](/Assets/Icons/Radiobutton02.png "[Radio button]") *DMS*  
+- ![Radio button](/Assets/Icons/RadioButton02.png "[Radio button]") *DMS*  
 Click this radio button to select a file from a DMS to be uploaded. The [SEARCH] button is displayed.
 
 - [Choose file]  
@@ -296,9 +296,9 @@ Click this button to proceed to the next step.
 - *Files*  
 A list of compatible files is displayed. In this case, only STD files can be imported.
 
-- ![Radio button](/Assets/Icons/Radiobutton02.png "[Radio button]") *Local file*  
+- ![Radio button](/Assets/Icons/RadioButton02.png "[Radio button]") *Local file*  
 Click this radio button to select a file from your computer to be uploaded. The [Choose file] button is displayed.
-- ![Radio button](/Assets/Icons/Radiobutton02.png "[Radio button]") *DMS*  
+- ![Radio button](/Assets/Icons/RadioButton02.png "[Radio button]") *DMS*  
 Click this radio button to select a file from a DMS to be uploaded. The [SEARCH] button is displayed.
 
 - [Choose file]  
@@ -340,12 +340,12 @@ Click this button to proceed to the next step.
 > [Info] Depending on the imported data, the screen displayed varies.
 
 
-- ![Radio button](/Assets/Icons/Radiobutton02.png "[Radio button]") *Create new fiscal year*
+- ![Radio button](/Assets/Icons/RadioButton02.png "[Radio button]") *Create new fiscal year*
  - *FY name*
  - *From - to*
 
 
--  ![Radio button](/Assets/Icons/Radiobutton02.png "[Radio button]") Add bookings to FY
+-  ![Radio button](/Assets/Icons/RadioButton02.png "[Radio button]") Add bookings to FY
   - *Import into FY*
   - *From - to*
 
@@ -414,9 +414,9 @@ Click this button to cancel the process.
 - *Files*  
 A list of compatible files is displayed. In this case, only xml files can be imported.
 
-- ![Radio button](/Assets/Icons/Radiobutton02.png "[Radio button]") *Local file*  
+- ![Radio button](/Assets/Icons/RadioButton02.png "[Radio button]") *Local file*  
 Click this radio button to select a file from your computer to be uploaded. The [Choose file] button is displayed.
-- ![Radio button](/Assets/Icons/Radiobutton02.png "[Radio button]") *DMS*  
+- ![Radio button](/Assets/Icons/RadioButton02.png "[Radio button]") *DMS*  
 Click this radio button to select a file from a DMS to be uploaded. The [SEARCH] button is displayed.
 
 - [Choose file]  
@@ -468,9 +468,9 @@ Click this button to proceed to the next step.
 - *Files*  
 A list of compatible files is displayed. In this case, only txt files can be imported.
 
-- ![Radio button](/Assets/Icons/Radiobutton02.png "[Radio button]") *Local file*  
+- ![Radio button](/Assets/Icons/RadioButton02.png "[Radio button]") *Local file*  
 Click this radio button to select a file from your computer to be uploaded. The [Choose file] button is displayed.
-- ![Radio button](/Assets/Icons/Radiobutton02.png "[Radio button]") *DMS*  
+- ![Radio button](/Assets/Icons/RadioButton02.png "[Radio button]") *DMS*  
 Click this radio button to select a file from a DMS to be uploaded. The [SEARCH] button is displayed.
 
 - [Choose file]  
