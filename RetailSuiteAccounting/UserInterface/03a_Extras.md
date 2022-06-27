@@ -37,7 +37,7 @@ Click this button to import data in GDI standard interface format. Follow the in
 Click this button to import data in openTRANS INVOIC XML format. Follow the instructions provided in the following windows, see [openTRANS](#opentrans).
 
 - [SCHILLING BUCHHALTUNG]  
-Click this button to import data in Schilling Software proprietary FQBATCH format. Follow the instructions provided in the following windows, see [Schilling Accounting](#schilling-buchhaltung).
+Click this button to import data in Schilling Software proprietary FQBATCH format. Follow the instructions provided in the following windows, see [Schilling Accounting](#schilling-accounting).
 
 
 ## Compeso 7.X
@@ -124,7 +124,7 @@ Click the drop-down list to select the appropriate import definition.
 
 
 - [Edit]  
-Click this button to edit the selected import definition. The *Import/export definitions* window is displayed, see [Import/export definitions](#import-export-definitions).
+Click this button to edit the selected import definition. The *Import/export definitions* window is displayed, see [Import/export definitions](#importexport-definitions).
 
 - *Split bookings*  
 Click the drop-down list to select the appropriate import setting for split bookings. The following options are available:
@@ -269,7 +269,7 @@ Click the drop-down list to select the appropriate import definition.
 
 
 - [Edit]  
-Click this button to edit the selected import definition. The *Import/export definitions* window is displayed, see [Import/export definitions](#import-export-definitions).
+Click this button to edit the selected import definition. The *Import/export definitions* window is displayed, see [Import/export definitions](#importexport-definitions).
 
 - [CONTINUE]  
 Click this button to proceed to the next step.
@@ -516,10 +516,10 @@ Click the drop-down list to select a preconfigured import/export definition type
  Click the drop-down list to select the desired preconfigured import/export definition.
 
 - [ADD]  
-Click this button to create an import/export definition. The *New import/export definition* window is displayed, see [New import/export definition](#new-import-export-definition).
+Click this button to create an import/export definition. The *New import/export definition* window is displayed, see [New import/export definition](#new-importexport-definition).
 
 - [EDIT]  
-Click this button to rename an import/export definition. The *Rename import/export definition* is displayed, see [Rename import/export definition](#rename-import-export-definition).
+Click this button to rename an import/export definition. The *Rename import/export definition* is displayed, see [Rename import/export definition](#rename-importexport-definition).
 
 - [DELETE]  
 Click this button to delete an import/export definition. A confirmation window is displayed.
