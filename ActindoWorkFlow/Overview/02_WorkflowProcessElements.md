@@ -4,14 +4,26 @@
 
 ![Workflow](/Assets/Screenshots/ActindoWorkFlow/Workflows/Workflow.png "[Workflow]")
 
-The *Workflows* module allows customers to model their own processes to match their companies structure. Such a workflow consists of a number of fixed elements that are chained together, each of them having specific characteristics. These elements are used to design the workflow, which can be edited as necessary according to customer needs. For detailed information, see [Manage workflows](/ActindoWorkFlow/Operation/01_ManageWorkflows.md).
+The *Workflows* module allows customers to model their own processes to match their companies structure. Such a workflow consists of a number of fixed elements, called transitions, that are chained together through so called places and arcs. These elements are used to design the workflow, which can be edited as necessary according to customer needs. For detailed information, see [Manage workflows](/ActindoWorkFlow/Operation/01_ManageWorkflows.md).
 
-A workflow runs from a fixed start place to a fixed end place, which can be in turn linked to another workflow. A workflow must contain at least one action between the start and the end place, which are a special type of places. The actions are linked through places with each other, connecting the corresponding action input and output ports. All these elements are described more in detail below.
+A workflow runs from a fixed start place to a fixed end place, which can be in turn linked to another workflow. A workflow must contain at least one transition between the start and the end place, which are a special type of places. The transitions are linked through places with each other, connecting the corresponding transition input and output ports. All these elements are described more in detail below.
 
-The *Workflows* module is linked to different system modules and plugins, such as *Invoicing*, *Email*, *OmniChannels*, *Tasks*, among others. The actions available to create workflows depend on the modules installed in the system.
+The *Workflows* module is linked to different system modules and plugins, such as *Invoicing*, *Email*, *OmniChannels*, *Tasks*, among others. The transitions available to create workflows depend on the modules installed in the system.
 
 Since business processes, and the workflows that map them, evolve over time, workflows can be versioned. While every workflow can be uniquely identified through its key, there may be any number of versions of it. However, at a given point in time, only one of those versions may be published. When a process for a given workflow is to be started, that published version of the workflow is used. This allows to keep modelling a certain workflow without interrupting the daily business.
 
+
+## Transitions
+
+![Transition](/Assets/Screenshots/ActindoWorkFlow/Workflows/Action.png "[Transition]")
+
+The transitions are the fixed elements or building blocks that are chained together through places to configure a workflow. They are represented by a rectangle.
+
+All transitions contain a certain, predefined number of input and output ports, at least 1 of each, which can be mandatory or optional. For detailed information about the types of input/output ports, see [Input and output ports](#input-and-output-ports). For an transition to be executable, all connected inputs and outputs, mandatory or optional, must be fed with data.
+
+The transitions available to create workflows depend on the modules installed in the system. Every API end point of the modules automatically becomes available as an action and can be used in any workflow. However, you can also build your own actions independent from the API. A transition may have configuration options, but most of them do not.
+
+When a transition is executed in a workflow process, it is called action, or process action, that is, an action is the actual execution of a configured transition. As a result, any transition may be associated multiple process actions. For detailed information, see [Actions](#actions).
 
 
 ## Places
@@ -20,7 +32,7 @@ Since business processes, and the workflows that map them, evolve over time, wor
 
 A place is an intermediate stage in the workflow and is represented by a circle, usually provided with incoming and/or outcoming arcs.
 
-Places serve as link between two actions, joining an output port from the previous action to the corresponding input port of the following action. Places linking mandatory input/output ports are displayed by default and cannot be deleted. Additional places can be added by clicking on the ![Add](/Assets/Icons/Plus01.png "[Add]") (Add) button next to the optional input/output port. For detailed information about the types of input/output ports, see [Input and output ports](#input-and-output-ports). All places included in the process must be linked to input/output ports. Otherwise, the process cannot be initiated (an error is displayed in the workflow editor).
+Places serve as link between two transitions, joining an output port from the previous transition to the corresponding input port of the following transition. Places linking mandatory input/output ports are displayed by default and cannot be deleted. Additional places can be added by clicking on the ![Add](/Assets/Icons/Plus01.png "[Add]") (Add) button next to the optional input/output port. For detailed information about the types of input/output ports, see [Input and output ports](#input-and-output-ports). All places included in a process must be linked to input/output ports. Otherwise, the process cannot be initiated (an error is displayed in the workflow editor).
 
 A place can hold any number of tokens, including none. A token is a container carrying data, which is needed to execute a subsequent action. The place data type is always defined, more or less specifically, so it is possible to recognize the kind of data that flows through it. For detailed information, see [Tokens](#tokens).
 
@@ -40,18 +52,13 @@ The place settings side bar is located to the right of the workspace and allows 
   Use this field to define the data type to be used in the place. If necessary, click the ![Delete](/Assets/Icons/Cross02.png "[Delete]") (Delete) button to display the whole list of available data types. Enter a search text for the desired data type. The list of actions is filtered for your search text as you type. Select the ![Radio button](/Assets/Icons/Radiobutton.png "[Radio button]") (Radio button) corresponding to the appropriate option.
 
 
-
 ## Actions
 
 ![Action](/Assets/Screenshots/ActindoWorkFlow/Workflows/AddAction.png "[Action]")
 
-Actions are the individual activities being executed in the workflow and are represented by a rectangle. Actions serve as building blocks, which are chained together through places, to configure a workflow.
+Actions, or process actions, are the individual activities being executed in the workflow process and are represented by a rectangle.
 
-All actions contain a certain, predefined number of input and output ports, at least 1 of each, which can be mandatory or optional. For detailed information about the types of input/output ports, see [Input and output ports](#input-and-output-ports). For an action to be executable, all connected inputs and outputs, mandatory or optional, must be fed with data.
-
-The actions available to create workflows depend on the modules installed in the system. Every API end point of the modules automatically becomes available as an action and can be used in any workflow. However, you can also build your own actions independent from the API.
-
-It must be distinguished between a workflow action and a process action. A workflow action acts as a building block to create a workflow to model a company process, whereas a process action is the actual execution of the configured workflow action. As such, a process action can be successful or faulty depending on its execution. If an error occurs, a process action can be retried if the underlying cause has been fixed, which results in a re-execution of the process action. If multiple tokens move through the workflow, every token is processed in its own process action. As a result, any workflow action can be associated with multiple process actions, depending of the number of tokens running through it.
+A process action is the actual execution of a configured transition. As such, a process action can be successful or faulty depending on its execution. If an error occurs, a process action can be retried if the underlying cause has been fixed, which results in a re-execution of the process action. If multiple tokens move through the workflow, every token is processed in its own process action. As a result, any transition can be associated with multiple process actions, depending of the number of tokens running through it.
 
 
 When adding a new action, places for mandatory input ports are automatically inserted, whereas optional input ports are displayed with a ![Add](/Assets/Icons/Plus01.png "[Add]") (Add) button.
