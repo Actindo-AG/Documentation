@@ -222,9 +222,6 @@ Click the drop-down list to select an action status. The following options are a
     - **Error**  
     Select this option to display the actions that have given an error.
 
-    - **Error; automatic retry**  
-    Select this option to display the actions that have given an error but are set for automatic retry.
-
     - **Suspended**  
     Select this option to display the actions that have been manually paused.
 
@@ -272,8 +269,7 @@ The list displays all executed actions that are matching the selected status. De
 
     - **In progress** (blue)
     - **Done** (green)
-    - **Error** (red)
-    - **Error; automatic retry**  
+    - **Error** (red)  
     - **Suspended** (dark gray)
     - **Process aborted** (black)
 
@@ -357,21 +353,21 @@ Click the drop-down list to select a log level. The following options are availa
 
   - **All**  
   Select this option to display all logs regardless of their level.
-  - **Debug**
+  - **Debug**  
   Select this option to display all logs with **Debug** level.
-  - **Info**  
+  - **Info**   
   Select this option to display all logs with **Info** level.
-  - **Notice**
+  - **Notice**  
   Select this option to display all logs with **Notice** level.
-  - **Warning**
+  - **Warning**  
   Select this option to display all logs with **Warning** level.
   - **Error**  
   Select this option to display all logs with **Error** level.
-  - **Critical**
+  - **Critical**  
   Select this option to display all logs with **Critical** level.
-  - **Alert**
+  - **Alert**  
   Select this option to display all logs with **Alert** level.
-  - **Emergency**
+  - **Emergency**  
   Select this option to display all logs with **Emergency** level.
 
 
@@ -473,6 +469,8 @@ Click the drop-down list to select the view. All created views are displayed in 
 - ![Search](/Assets/Icons/Search.png "[Search]") (Search)  
     Click this button to display the search bar and search for a token.
 
+    > [Info] The search function can be used to search for a token ID. At least 3 characters must be entered.
+
 - ![Refresh](/Assets/Icons/Refresh01.png "[Refresh]") (Refresh)  
     Click this button to update the list of tokens.
 
@@ -571,14 +569,14 @@ In the *Log Message* section, detailed information about the log is displayed. A
 - *Log Level*  
 Log level type. The following levels can be displayed:
 
-  - **Debug**
-  - **Info**
-  - **Notice**
-  - **Warning**
-  - **Error**
-  - **Critical**
-  - **Alert**
-  - **Emergency**
+  - **Debug**  
+  - **Info**  
+  - **Notice**  
+  - **Warning**  
+  - **Error**  
+  - **Critical**  
+  - **Alert**  
+  - **Emergency**  
 
 
 - Log message box   
