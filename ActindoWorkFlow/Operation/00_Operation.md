@@ -3,6 +3,7 @@
 - [Manage the workflows](01_ManageWorkflows.md)
   - [Create a workflow](01_ManageWorkflows.md#create-a-workflow)
   - [Edit a workflow](01_ManageWorkflows.md#edit-a-workflow)
+  - [Copy a workflow](01_ManageWorkflows.md#copy-a-workflow)
   - [Publish a workflow](01_ManageWorkflows.md#publish-a-workflow)
   - [Unpublish a workflow](01_ManageWorkflows.md#unpublish-a-workflow)
   - [Delete a workflow](01_ManageWorkflows.md#delete-a-workflow)

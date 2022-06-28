@@ -46,35 +46,36 @@ No prerequisites to fulfill.
 
   ![Workflow editor new](/Assets/Screenshots/ActindoWorkFlow/Workflows/WorkflowEditorNew.png "[Workflow editor new]")
 
-#### Create an action
+
+#### Create a transition
 
 1. Click the ![Add](/Assets/Icons/Plus04.png "[Add]") (Add) button next to the place or click the [NEW ACTION] button on the right hand above the workflow editor.     
-  A window to search for an action is displayed.
+  A window to search for a transition is displayed.
 
   ![Search action](/Assets/Screenshots/ActindoWorkFlow/Workflows/SearchAction.png "[Search action]")
 
-2. Click the *search for an action* field and enter the name of the action or a keyword you are searching for. If you have clicked the ![Add](/Assets/Icons/Plus04.png "[Add]") (Add) button next to a place, only those actions that are compatible with the data type of the place are displayed in the list.
+2. Click the *search for an action* field and enter the name of the transition or a keyword you are searching for. If you have clicked the ![Add](/Assets/Icons/Plus04.png "[Add]") (Add) button next to a place, only those transitions that are compatible with the data type of the place are displayed in the list.
 
-  > [Info] The list of actions is filtered for your keyword as you type.
+  > [Info] The list of transitions is filtered for your keyword as you type.
 
-3. Click the action you want to add in the list of actions.
-  The action is added to the workflow. If the action was added from a place which requires a certain input data type, the arc from the place is automatically connected to the corresponding input port of the action.
+3. Click the transition you want to add in the list of transitions.
+  The transition is added to the workflow. If the transition was added from a place which requires a certain input data type, the arc from the place is automatically connected to the corresponding input port of the transition.
 
   ![First action](/Assets/Screenshots/ActindoWorkFlow/Workflows/FirstAction.png "[First action]")
 
-  > [Info] If any input port or output port of the new action is mandatory, an arc and a place are automatically displayed with the corresponding action.
+  > [Info] If any input port or output port of the new transition is mandatory, an arc and a place are automatically displayed with the corresponding transition.
 
 
-#### Connect the action
+#### Connect the transition
 
-1. Click the ![Add](/Assets/Icons/Plus04.png "[Add]") (Add) button next to an output port of the action.    
+1. Click the ![Add](/Assets/Icons/Plus04.png "[Add]") (Add) button next to an output port of the transition.    
   A new place connected with an arc to the selected output port is displayed.
 
   ![First place](/Assets/Screenshots/ActindoWorkFlow/Workflows/FirstPlace.png "[First place]")
 
-2. Add further actions by following the procedure [Create an action](#create-an-action) or connect the place with the end place as described in the following step.
+2. Add further transitions by following the procedure [Create an action](#create-an-action) or connect the place with the end place as described in the following step.
 
-  > [Info] A workflow must contain at least one action and can contain an unlimited number of actions.
+  > [Info] A workflow must contain at least one transition and can contain an unlimited number of transitions.
 
 3. Click the place, drag it over the place to which you want to connect it and drop it.     
   The places are merged and the new connection is created.
@@ -83,9 +84,9 @@ No prerequisites to fulfill.
 ### Next steps
 
 - [Edit a workflow](#edit-a-workflow)
-- [Publish a workflow](#publish-a-workflow)
-- [Unpublish a workflow](#unpublish-a-workflow)
-- [Delete a workflow](#delete-a-workflow)
+- [Copy a workflow](#copy-a-workflow)
+- [Publish a workflow version](#publish-a-workflow-version)
+- [Unpublish a workflow version](#unpublish-a-workflow-version)
 - [Track a workflow process](02_TrackProcesses.md)
 
 ### See also
@@ -97,7 +98,7 @@ No prerequisites to fulfill.
 
 ## Edit a workflow
 
-Edit a workflow to modify elements within the workflow, to extend the workflow by adding further actions or to reduce the workflow by removing actions.
+Edit a workflow to modify elements within the workflow, to extend the workflow by adding further transitions or to reduce the workflow by removing transitions.
 
 ### Prerequisites
 
@@ -118,15 +119,15 @@ Edit a workflow to modify elements within the workflow, to extend the workflow b
 2. Click the workflow version you want to edit in the list of workflow versions.  
 The workflow editor is displayed in the workspace.
 
-[comment]: <> (Step 2 as well as the screenshot workflow versions is possibly not needed in the next workflows version as the version view will disappear and clicking the workflow will take you to the editor directly, check next time)
-
   ![Workflow editor](/Assets/Screenshots/ActindoWorkFlow/Workflows/WorkflowEditor.png "[Workflow editor]")
+
+[comment]: <> (Step 2 as well as the screenshot workflow versions is possibly not needed in the next workflows version as the version view will disappear and clicking the workflow will take you to the editor directly, check next time)
 
 3. Make the desired changes in the workflow. The following procedures are described in detail below:
   - [Edit the place data type](#edit-the-place-data-type)
   - [Change the place ports](#change-the-place-ports)
-  - [Add an action](#add-an-action)
-  - [Edit an action](#edit-an-action)
+  - [Add a transition](#add-a-transition)
+  - [Edit a transition](#edit-a-transition)
 
 
 #### Edit the place data type
@@ -178,11 +179,11 @@ The selected arc is highlighted.
 
 
 
-#### Add an action
+#### Add a transition
 
-1. Navigate to the part in the workflow where you want to add an action.  
+1. Navigate to the part in the workflow where you want to add a transition.  
 
-2. Click the ![Add](/Assets/Icons/Plus04.png "[Add]") (Add) button next to the output port to which you want to connect a new action.     
+2. Click the ![Add](/Assets/Icons/Plus04.png "[Add]") (Add) button next to the output port to which you want to connect a new transition.     
 A new place connected to the selected output port is displayed.
 
   > [Info] If a place to the output port already exists, for instance because it is mandatory, you can skip the step **2**.                                                                 .
@@ -190,42 +191,42 @@ A new place connected to the selected output port is displayed.
   ![New place](/Assets/Screenshots/ActindoWorkFlow/Workflows/NewPlace.png "[New place]")
 
 3. Click the ![Add](/Assets/Icons/Plus04.png "[Add]") (Add) button right to the new place.    
-  A window to search for an action is displayed.
+  A window to search for a transition is displayed.
 
   ![Search action](/Assets/Screenshots/ActindoWorkFlow/Workflows/SearchAction.png "[Search action]")
 
-4. Click the *search for an action* field and enter the name of the action or a keyword you are searching for.
+4. Click the *search for an action* field and enter the name of the transition or a keyword you are searching for.
 
-  > [Info] The list of actions is filtered for your keyword as you type.
+  > [Info] The list of transitions is filtered for your keyword as you type.
 
-5. Click the action you want to add in the list of actions.    
-  The action is added to the workflow and connected to the selected place.
+5. Click the transition you want to add in the list of transitions.    
+  The transition is added to the workflow and connected to the selected place.
 
   ![Add action](/Assets/Screenshots/ActindoWorkFlow/Workflows/AddAction.png "[Add action]")
 
 
-#### Edit an action
+#### Edit a transition
 
-1. Click the action you want to edit.  
-  The action is highlighted and its settings are displayed in the settings side bar on the right.
+1. Click the transition you want to edit.  
+  The transition is highlighted and its settings are displayed in the settings side bar on the right.
 
   ![Action](/Assets/Screenshots/ActindoWorkFlow/Workflows/Action.png "[Action]")
 
-  > [Info] The settings displayed in the settings side bar may differ depending on the respective action. The sections *Configuration* and *Static Inputs* are only available for certain actions.     
+  > [Info] The settings displayed in the settings side bar may differ depending on the respective transition. The sections *Configuration* and *Static Inputs* are only available for certain transitions.     
 
 
 2. Edit the settings field in the settings side bar. You can change the label, the queue type, the task event, the configuration and the static inputs as described below:
 
-  + Click the *Label* field and edit the name of the action displayed in the workflow editor.
+  + Click the *Label* field and edit the name of the transition displayed in the workflow editor.
 
-  + Click the *Queue Type* drop-down list and select the appropriate queue type for the action. All available queue types are displayed in the drop-down list. By default the *Default* queue type is selected. You can define a different queue type for each action within the workflow.   
+  + Click the *Queue Type* drop-down list and select the appropriate queue type for the transition. All available queue types are displayed in the drop-down list. By default the *Default* queue type is selected. You can define a different queue type for each transition within the workflow.   
   For detailed information about the queue types, see [Configure the queue types](/ActindoWorkFlow/Integration/01_WConfigureQueueTypes.md).
 
-  + Click the *Task Event* drop-down list and select an event connected to the action. The event is triggered and the corresponding task is assigned when the process action is failed. All available task events are displayed in the drop-down list. By default, the *ActindoWorkflow Process Execution Failed* event is preselected. The drop-down list is only displayed when the *Task* module is installed and the current user has the required rights to configure it.
+  + Click the *Task Event* drop-down list and select an event connected to the transition. The event is triggered and the corresponding task is assigned when the process action is failed. All available task events are displayed in the drop-down list. By default, the *ActindoWorkflow Process Execution Failed* event is preselected. The drop-down list is only displayed when the *Task* module is installed and the current user has the required rights to configure it.
 
-  + Edit the field(s) in the *Configuration* section to define further configuration settings to the selected action. This section is only displayed for certain actions. The fields displayed in the *Configuration* section depend on the selected action.
+  + Edit the field(s) in the *Configuration* section to define further configuration settings to the selected transition. This section is only displayed for certain transitions. The fields displayed in the *Configuration* section depend on the selected transition.
 
-  + Click the ![Add](/Assets/Icons/Plus04.png "[Add]") (Add) button right to an input name in the *Static Inputs* section to add a static data value to the corresponding input. All input ports that are not yet connected to a place are displayed in this section. Enter the appropriate value in the text field below the input name. The value entered must be a valid JSON value. Click the ![Delete](/Assets/Icons/Trash07.png "[Delete]") (Delete) button right to a value to delete it. This section is only displayed for certain actions.
+  + Click the ![Add](/Assets/Icons/Plus04.png "[Add]") (Add) button right to an input name in the *Static Inputs* section to add a static data value to the corresponding input. All input ports that are not yet connected to a place are displayed in this section. Enter the appropriate value in the text field below the input name. The value entered must be a valid JSON value. Click the ![Delete](/Assets/Icons/Trash07.png "[Delete]") (Delete) button right to a value to delete it. This section is only displayed for certain transitions.
 
   > [Info] Input ports with an static input value cannot be connected to a place. Therefore, a small arrow without a place is displayed in front of an input port with a static input value. Delete the static input value from the port to be able to connect it with a place.     
 
@@ -234,9 +235,9 @@ A new place connected to the selected output port is displayed.
 
 ### Next steps
 
-- [Publish a workflow](#publish-a-workflow)
-- [Unpublish a workflow](#unpublish-a-workflow)
-- [Delete a workflow](#delete-a-workflow)
+- [Copy a workflow](#copy-a-workflow)
+- [Publish a workflow version](#publish-a-workflow-version)
+- [Unpublish a workflow version](#unpublish-a-workflow-version)
 - [Track a workflow process](02_TrackProcesses.md)
 
 ### See also
@@ -247,93 +248,165 @@ A new place connected to the selected output port is displayed.
 
 
 
-[comment]: <> (add information or delete the publish/unpublish workflow chapters)
+## Copy a workflow
 
-## Publish a workflow
-
-Workflows overview (manager?) -> List of all existing workflows
-
-Workflows can have different versions e.g. if you want to add/remove steps in a particular version, for testing purposes before publishing, etc. It is possible to change between versions. Versions can be published/unpublished. Per default, the last published version is used.
-
-- Unpublish a workflow
-
-Workflows > Workflows > Tab OVERVIEW > Select checkbox > Button [VERÖFFENTLICHUNG ZURÜCKZIEHEN]
+Copy a workflow by exporting and importing the JSON code to create a new workflow based on an existing workflow.
 
 ### Prerequisites
 
-### Procedure
-
-### Next steps
-
-- [Unpublish a workflow](#unpublish-a-workflow)
-- [Delete a workflow](#delete-a-workflow)
-- [Track a workflow process](02_TrackProcesses.md)
-
-### See also
-
-- [User Interface workflows](/ActindoWorkFlow/UserInterface/00_UserInterface.md)
-- [Create a workflow](#create-a-workflow)
-- [Edit a workflow](#edit-a-workflow)
-- [Workflow and process elements](/ActindoWorkFlow/Overview/02_WorkflowProcessElements.md)
-
-
-
-## Unpublish a workflow
-
-Workflows overview (manager?) -> List of all existing workflows
-
-Workflows can have different versions e.g. if you want to add/remove steps in a particular version, for testing purposes before publishing, etc. It is possible to change between versions. Versions can be published/unpublished. Per default, the last published version is used.
-
-
-- Unpublish a workflow
-
-Workflows > Workflows > Tab OVERVIEW > Select checkbox > Button [VERÖFFENTLICHUNG ZURÜCKZIEHEN]
-
-### Prerequisites
+- At least one workflow is created, see [Create a workflow](#create-a-workflow).
+- You have the required rights to edit a workflow.
 
 ### Procedure
 
-### Next steps
-
-- [Delete a workflow](#delete-a-workflow)
-- [Track a workflow process](02_TrackProcesses.md)
-
-### See also
-
-- [User Interface workflows](/ActindoWorkFlow/UserInterface/00_UserInterface.md)
-- [Publish a workflow](#publish-a-workflow)
-- [Create a workflow](#create-a-workflow)
-- [Edit a workflow](#edit-a-workflow)
-- [Workflow and process elements](/ActindoWorkFlow/Overview/02_WorkflowProcessElements.md)
-
-
-
-## Delete a workflow
-
-You can delete a workflow version that is obsolete. To prevent any problems, it is strongly recommended not to delete a workflow. Instead, you can unpublish a workflow.
-
-### Prerequisites
-
-At least one workflow is created, see [Create a workflow](#create-a-workflow).
-
-### Procedure
+#### Export the workflow JSON code
 
 *Workflows > Workflows > Tab OVERVIEW*
 
 ![Workflows](/Assets/Screenshots/ActindoWorkFlow/Workflows/Workflows.png "[Workflows]")
 
-1. Click the workflow whose version you want to delete in the list of workflows.   
+1. Click the workflow you want to copy in the list of workflows.   
   The *Workflow Versions* view with all versions of the selected workflow is displayed.
 
   ![Workflow versions](/Assets/Screenshots/ActindoWorkFlow/Workflows/WorkflowVersions.png "[Workflow versions]")
 
-2. Select the checkbox of the workflow version you want to delete in the list of workflow versions.  
-The editing toolbar is displayed above the workflow versions list.
+2. Click the workflow version you want to copy in the list of workflow versions.  
+The workflow editor is displayed in the workspace.
 
-3. Click the ![Delete](/Assets/Icons/Trash03.png "[Delete]") (Delete) button in the toolbar.
-The workflow is deleted.
+  ![Workflow editor](/Assets/Screenshots/ActindoWorkFlow/Workflows/WorkflowEditor.png "[Workflow editor]")
 
-[comment]: <> (Prüfen, ob das richtig und vollständig ist)
+[comment]: <> (Step 2 as well as the screenshot workflow versions is possibly not needed in the next workflows version as the version view will disappear and clicking the workflow will take you to the editor directly, check next time)
+
+3. Click the ![Points](/Assets/Icons/Points02.png "[Points]") (Points) button in the upper left corner next to the workflow name.   
+  The workflow context menu is displayed.
+
+  ![Context menu](/Assets/Screenshots/ActindoWorkFlow/Workflows/ContextMenu.png "[Context menu]")
+
+4. Click the *Export JSON ..* menu entry in the context menu.   
+  The *Export JSON* window with the JSON code for the current workflow is displayed.
+
+  ![Export JSON](/Assets/Screenshots/ActindoWorkFlow/Workflows/ExportJSON.png "[Export JSON]")
+
+5. Select the complete JSON code in the window, copy it to the clipboard and click the [CLOSE] button in the bottom right corner.   
+  The *Export JSON* window is closed.
+
+6. Click the ![Back](/Assets/Icons/Back02.png "[Back]") (Back) button in the workflow editor.  
+  The workflow editor is closed and the list of workflows is displayed again.
+
+
+#### Import the workflow JSON code
+
+*Workflows > Workflows > Tab OVERVIEW*
+
+![Workflows](/Assets/Screenshots/ActindoWorkFlow/Workflows/Workflows.png "[Workflows]")
+
+1. [Create a new workflow](#create-a-workflow) or click the workflow in the list of workflows to which you want to import the copied JSON code.   
+  The workflow editor is displayed.
+
+  ![Workflow editor new](/Assets/Screenshots/ActindoWorkFlow/Workflows/WorkflowEditorNew.png "[Workflow editor new]")
+
+[comment]: <> (Step 2 as well as the screenshot workflow versions is possibly not needed in the next workflows version as the version view will disappear and clicking the workflow will take you to the editor directly, check next time)
+
+3. Click the ![Points](/Assets/Icons/Points02.png "[Points]") (Points) button in the upper left corner next to the workflow name.   
+  The workflow context menu is displayed.
+
+  ![Context menu](/Assets/Screenshots/ActindoWorkFlow/Workflows/ContextMenu.png "[Context menu]")
+
+4. Click the *Import JSON ..* menu entry in the context menu.   
+  The *Import JSON* window with the JSON code for the current workflow is displayed.
+
+  ![Import JSON](/Assets/Screenshots/ActindoWorkFlow/Workflows/ImportJSON.png "[Import JSON]")
+
+5. Select the complete JSON code in the window, replace it by the JSON code in your clipboard and click the [IMPORT JSON] button in the bottom right corner.
+  The *Import JSON* window is closed. The copied workflow is displayed in the workflow editor.
+
+  ![Workflow editor copied](/Assets/Screenshots/ActindoWorkFlow/Workflows/WorkflowEditorCopied.png "[Workflow editor copied]")
+
+  > [Info] You can edit the workflow as desired before deploying it.
+
+6. Click the ![Points](/Assets/Icons/Points02.png "[Points]") (Points) button in the upper left corner next to the workflow name.   
+  The workflow context menu is displayed.
+
+  ![Context menu](/Assets/Screenshots/ActindoWorkFlow/Workflows/ContextMenu.png "[Context menu]")
+
+7. Click the *Deploy* menu entry in the context menu.   
+  The copied workflow is deployed and published.
+
+### Next steps
+
+- [Publish a workflow version](#publish-a-workflow-version)
+- [Unpublish a workflow version](#unpublish-a-workflow-version)
+- [Track a workflow process](02_TrackProcesses.md)
+
+### See also
+
+- [User Interface workflows](/ActindoWorkFlow/UserInterface/00_UserInterface.md)
+- [Create a workflow](#create-a-workflow)
+- [Edit a workflow](#edit-a-workflow)
+- [Workflow and process elements](/ActindoWorkFlow/Overview/02_WorkflowProcessElements.md)
+
+
+
+## Publish a workflow version
+
+A workflow can only be used for processes if it is published. If multiple versions of a workflow exist, the highest published version is taken for upcoming workflow processes. Therefore you have to publish a workflow to use it for workflow processes. By default, a created workflow or a deployed workflow version is automatically published. You can manually publish or [unpublish](#unpublish-a-workflow-version) workflow versions.
+
+### Prerequisites
+
+- At least one workflow is created, see [Create a workflow](#create-a-workflow).
+- At least one workflow version is unpublished, see [Unpublish a workflow version](#unpublish-a-workflow-version).
+
+### Procedure
+
+*Workflows > Workflows > Tab OVERVIEW > Select workflow*
+
+![Workflow versions published](/Assets/Screenshots/ActindoWorkFlow/Workflows/WorkflowVersionsPublished.png "[Workflow versions published]")
+
+1. Select the checkbox of the workflow version you want to publish.      
+  The editing toolbar is displayed.
+
+2. Click the [UNPUBLISH] button in the editing toolbar.   
+  The selected workflow version is unpublished. The icon in the *Published* column changes from ![Checkmark](/Assets/Icons/Check.png "[Checkmark]") (Checkmark) to ![Cross](/Assets/Icons/Cross02.png "[Cross]") (Cross).
+
+  ![Workflow versions unpublished](/Assets/Screenshots/ActindoWorkFlow/Workflows/WorkflowVersionsUnpublished.png "[Workflow versions unpublished]")
+
+### Next steps
+
+- [Unpublish a workflow version](#unpublish-a-workflow-version)
+- [Track a workflow process](02_TrackProcesses.md)
+
+### See also
+
+- [User Interface workflows](/ActindoWorkFlow/UserInterface/00_UserInterface.md)
+- [Create a workflow](#create-a-workflow)
+- [Edit a workflow](#edit-a-workflow)
+- [Copy a workflow](#copy-a-workflow)
+- [Workflow and process elements](/ActindoWorkFlow/Overview/02_WorkflowProcessElements.md)
+
+
+
+## Unpublish a workflow version
+
+A workflow can only be used for processes if it is published. By default, a created workflow or a deployed workflow version is automatically published. You can manually [publish](#publish-a-workflow-version) or unpublish workflow versions. Unpublish a workflow version if the workflow is still in work or you use testing purposes it and you the workflow should not yet be used for processes.
+
+### Prerequisites
+
+- At least one workflow is created, see [Create a workflow](#create-a-workflow).
+- At least one workflow version is published, see [Publish a workflow version](#publish-a-workflow-version).
+
+### Procedure
+
+*Workflows > Workflows > Tab OVERVIEW*
+
+  ![Workflow versions unpublished](/Assets/Screenshots/ActindoWorkFlow/Workflows/WorkflowVersionsUnpublished.png "[Workflow versions unpublished]")
+
+1. Select the checkbox of the workflow version you want to unpublish.      
+  The editing toolbar is displayed.
+
+2. Click the [PUBLISH] button in the editing toolbar.   
+  The selected workflow version is unpublished. The icon in the *Published* column changes from ![Cross](/Assets/Icons/Cross02.png "[Cross]") (Cross) to ![Checkmark](/Assets/Icons/Check.png "[Checkmark]") (Checkmark).
+
+  ![Workflow versions unpublished](/Assets/Screenshots/ActindoWorkFlow/Workflows/WorkflowVersionsUnpublished.png "[Workflow versions unpublished]")
 
 ### Next steps
 
@@ -342,8 +415,9 @@ The workflow is deleted.
 ### See also
 
 - [User Interface workflows](/ActindoWorkFlow/UserInterface/00_UserInterface.md)
-- [Unpublish a workflow](#unpublish-a-workflow)
 - [Publish a workflow](#publish-a-workflow)
 - [Create a workflow](#create-a-workflow)
 - [Edit a workflow](#edit-a-workflow)
+- [Copy a workflow](#copy-a-workflow)
+- [Publish a workflow version](#publish-a-workflow-version)
 - [Workflow and process elements](/ActindoWorkFlow/Overview/02_WorkflowProcessElements.md)
