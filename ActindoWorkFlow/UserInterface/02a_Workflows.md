@@ -31,7 +31,7 @@ Click the drop-down list to select the view. All created views are displayed in 
     - ![Save](/Assets/Icons/Save.png "[Save]") save  
     Click this entry to save the current view settings in the selected view. This menu entry is only displayed when a view is selected.
 
-     > [Info] When the settings of a view have been changed, an asterisk is displayed behind the view name. The asterisk is hidden as soon as the changes have been saved.
+      > [Info] When the settings of a view have been changed, an asterisk is displayed behind the view name. The asterisk is hidden as soon as the changes have been saved.
 
     - ![Delete](/Assets/Icons/Trash01.png "[Delete]") delete  
     Click this entry to delete the selected view. A confirmation window to confirm the deletion is displayed. This menu entry is only displayed when a view is selected.
@@ -41,7 +41,6 @@ Click the drop-down list to select the view. All created views are displayed in 
     Click this button to display the search bar and search for a workflow.
 
     > [Info] The search function can be used to search for a workflow name and key. At least 3 characters must be entered.
-
 
 
 - ![Refresh](/Assets/Icons/Refresh01.png "[Refresh]") (Refresh)  
@@ -155,11 +154,8 @@ Click the drop-down list to select the view. All created views are displayed in 
   Click this entry to delete the selected view. A confirmation window to confirm the deletion is displayed. This menu entry is only displayed when a view is selected.
 
 
+  [comment]: <> (Search Button weggelassen, da keine Funktion hier)
 
-- ![Search](/Assets/Icons/Search.png "[Search]") (Search)  
-  Click this button to display the search bar and search for a workflow version.
-
-  [comment]: <> (Oli: wozu ist die Suchfunktion hier gedacht? Wonach kann man hier suchen?)
 
 - ![Refresh](/Assets/Icons/Refresh01.png "[Refresh]") (Refresh)  
     Click this button to update the list of workflow versions.
@@ -189,21 +185,6 @@ Select the checkbox to display the editing toolbar.
 
 - [PUBLISH]/[UNPUBLISH]  
 Click this button to publish or unpublish a workflow version. For detailed information, see [Publish a workflow](/ActindoWorkFlow/Operation/01_ManageWorkflows.md#publish-a-workflow) and [Unpublish a workflow](/ActindoWorkFlow/Operation/01_ManageWorkflows.md#unpublish-a-workflow).
-
-- [DELETE]  
-Click this button to delete the selected workflow version.  Only workflows that have never been published can be deleted.
-
-[comment]: <> (Oli: jede workflow version wird automatisch veröffentlicht, wenn ich sie deploye -> wie soll es dann möglich sein, überhaupt einen workflow zu löschen?)
-
-  > [Info] To prevent any problems, it is strongly recommended not to delete a workflow. For detailed information, see [Delete a workflow](ActindoWorkFlow/Operation/01_ManageWorkflows.md#delete-a-workflow).
-
-- [VIEW]  
-Click this button to display the selected workflow version.
-
-- ![Add](/Assets/Icons/Plus01.png "[Add]") (Add)  
-Click this button to create a workflow version. For detailed information about creating a workflow version, see [Create a workflow version](#to-be-completed).
-
-[comment]: <> (Oli: Add button in Workflow versions funktioniert nicht. Bug, kommt noch oder so gemeint? Wie erstellt man eine neue Version eines Workflows? Prozedur genauso wie New worflow? Vgl. Workflow anklicken > Version anklicken > Änderungen in workflow editor > Points button > Deploy -> Neue "published" Version erstellt?)
 
 
 
@@ -258,29 +239,18 @@ Click this button to close the workflow editor and return to the list of workflo
 -  ![Points](/Assets/Icons/Points02.png "[Points]") (Points)  
 Click the ![Points](/Assets/Icons/Points02.png "[Points]") (Points) button to the right of the workflow name to display the context menu. The following menu entries are available:
 
-    - *Rename*  
-    Click this entry to rename the workflow.
+  - *Import JSON*  
+  Click this entry to import data in JSON format. The *Import JSON* window is displayed, see [Import JSON](#import-json).
 
-    - *Settings*  
+  - *Export JSON*  
+  Click this entry to export data in JSON format. The *Export JSON* window is displayed, see [Export JSON](#export-json).
 
-    - *Save as*  
+  - *Deploy*  
+  Click this entry to publish a new workflow version with the current state.
 
-    - *Import JSON*  
-    Click this entry to import data in JSON format. A new window is displayed.
-
-    - *Export JSON*  
-    Click this entry to export data in JSON format. A new window is displayed.
-
-    - *Deploy*  
-    Click this entry to publish a new workflow version with the current state.
-
-
-  [comment]: <> (Oli: Context menu options not working yet, except for Import/Export JSON. Beim klicken wird eine Datei in einer neuen Fenster angezeigt. Bleiben alle Funktionen? JSON Fenster beschrieben? Kann der User da was einstellen? Unterschied zwischen Deploy und Publish?)
 
 - ![Undo](/Assets/Icons/Undo02.png "[Undo]") (Undo)  
   Click this button to undo the last change made.
-
-  [comment]: <> (Oli: Ist es ein Bug, dass der Button immer anklickbar ist?)
 
 - ![Redo](/Assets/Icons/Redo.png "[Redo]") (Redo)  
   Click this button to redo the last undone change.
@@ -367,6 +337,38 @@ Represented by a small square positioned to the left (input) and to the right (o
 The arcs are the links connecting a place with the input and output port(s) of an action to model the flow of information. The arcs are represented by arrows. Arcs connecting a place to an input port are called *incoming arcs*, arc connecting an output port to a place are called *outcoming arcs*.
 
   For detailed information, see [Arcs](/ActindoWorkFlow/Overview/02_WorkflowProcessElements.md#arcs).
+
+
+
+## Import JSON
+
+*Workflows > Workflows > Tab OVERVIEW > Select workflow > Select version > Button Points > Menu entry Import JSON*
+
+![Import JSON](/Assets/Screenshots/ActindoWorkFlow/Workflows/ImportJSON.png "[Import JSON]")
+
+The *Import JSON* window displays the workflow source code in JSON format. Configuration changes can be made in this view and applied with the [IMPORT JSON] button.
+
+  > [Info] To modify the source code, in-depth programming knowledge is needed.
+
+- [CLOSE]  
+Click this button to close the window and reject all changes.
+
+- [IMPORT JSON]  
+Click this button to apply all changes made to the source code.
+
+
+
+## Export JSON
+
+*Workflows > Workflows > Tab OVERVIEW > Select workflow > Select version > Button Points > Menu entry Export JSON*
+
+![Export JSON](/Assets/Screenshots/ActindoWorkFlow/Workflows/ExportJSON.png "[Export JSON]")
+
+The *Export JSON* window displays all workflow source code in JSON format. This view is read-only.
+
+
+- [CLOSE]  
+Click this button to close the window.
 
 
 ## Search for an action
