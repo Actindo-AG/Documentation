@@ -40,7 +40,7 @@ Click the drop-down list to select the view. All created views are displayed in 
 - ![Search](/Assets/Icons/Search.png "[Search]") (Search)  
     Click this button to display the search bar and search for a workflow.
 
-    > [Info] The search function can be used to search for a workflow name and key.
+    > [Info] The search function can be used to search for a workflow name and key. At least 3 characters must be entered.
 
 
 
