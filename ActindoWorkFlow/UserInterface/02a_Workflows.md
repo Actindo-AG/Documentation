@@ -256,15 +256,15 @@ Click the ![Points](/Assets/Icons/Points02.png "[Points]") (Points) button to th
   Click this button to redo the last undone change.
 
 - [NEW ACTION]  
-  Click this button to add a new action. The *Search for an action* window is displayed. For detailed information, see [Search for an action](#search-for-an-action).
+  Click this button to add a transition. The *Search for an action* window is displayed. For detailed information, see [Search for an action](#search-for-an-action).
 
 
  The workflow diagram includes the following elements:  
 
 - Place  
-  Intermediate stage in the workflow, represented by a circle, usually provided with incoming and/or outcoming arcs. It serves as link between two actions.
+  Intermediate stage in the workflow, represented by a circle, usually provided with incoming and/or outcoming arcs. It serves as link between two transitions.
 
-  When clicking a place, it becomes highlighted and the corresponding element settings are displayed in the settings side bar.
+  When clicking a place in the workflow editor, it becomes highlighted and the corresponding element settings are displayed in the settings side bar.
 
   ![Settings side bar](/Assets/Screenshots/ActindoWorkFlow/Workflows/SettingsSideBar01.png "[Settings side bar]")
 
@@ -272,7 +272,7 @@ Click the ![Points](/Assets/Icons/Points02.png "[Points]") (Points) button to th
   Place key. This field is read-only. The key is required for API access and must be unique within the workflow version.
 
   - *Data container*  
-  Use this field to define the data type to be used in the place. If necessary, click the ![Delete](/Assets/Icons/Cross02.png "[Delete]") (Delete) button to display the whole list of available data types. Enter a search text for the desired data type. The list of actions is filtered for your search text as you type. Select the ![Radio button](/Assets/Icons/Radiobutton.png "[Radio button]") (Radio button) corresponding to the appropriate option.
+  Use this field to define the data type to be used in the place. If necessary, click the ![Delete](/Assets/Icons/Cross02.png "[Delete]") (Delete) button to display the whole list of available data types. Enter a search text for the desired data type. The list of transitions is filtered for your search text as you type. Select the ![Radio button](/Assets/Icons/Radiobutton.png "[Radio button]") (Radio button) corresponding to the appropriate option.
 
     For detailed information, see [Places](/ActindoWorkFlow/Overview/02_WorkflowProcessElements.md#places).
 
@@ -288,25 +288,25 @@ Click the ![Points](/Assets/Icons/Points02.png "[Points]") (Points) button to th
     Place key. This field is read-only. The key is required for API access and must be unique within the workflow version.
 
     - *Data container*  
-    Use this field to define the data type to be used in the place. If necessary, click the ![Delete](/Assets/Icons/Cross02.png "[Delete]") (Delete) button to display the whole list of available data types. Enter a search text for the desired data type. The list of actions is filtered for your search text as you type. Select the ![Radio button](/Assets/Icons/Radiobutton.png "[Radio button]") (Radio button) corresponding to the appropriate option.
+    Use this field to define the data type to be used in the place. If necessary, click the ![Delete](/Assets/Icons/Cross02.png "[Delete]") (Delete) button to display the whole list of available data types. Enter a search text for the desired data type. The list of transitions is filtered for your search text as you type. Select the ![Radio button](/Assets/Icons/Radiobutton.png "[Radio button]") (Radio button) corresponding to the appropriate option.
 
     For detailed information, see [Start and end place](/ActindoWorkFlow/Overview/02_WorkflowProcessElements.md#start-and-end-place).
 
 
-- Action  
-  Individual activities being executed in the workflow, represented by a rectangle. All actions contain a certain, predefined number of input and output ports, represented by a small square to the link and the right of the action.
+- Transition  
+  Building blocks that are chained together through places to configure a workflow, represented by a rectangle. All transitions contain a certain, predefined number of input and output ports, represented by a small square to the link and the right of the transition.
 
-  When clicking an action, it becomes highlighted and the corresponding element settings are displayed in the settings side bar.
+  When clicking a transition in the workflow editor, it becomes highlighted and the corresponding element settings are displayed in the settings side bar.
 
   ![Settings side bar](/Assets/Screenshots/ActindoWorkFlow/Workflows/SettingsSideBar02.png "[Settings side bar]")
 
-  The action settings side bar is located to the right of the workspace and allows to define the action settings. The following fields are displayed:
+  The transition settings side bar is located to the right of the workspace and allows to define the transition settings. The following fields are displayed:
 
   - *Key*  
-   Action key. This field is read-only. The key is required for API access and must be unique within the workflow version.
+   Transition key. This field is read-only. The key is required for API access and must be unique within the workflow version.
 
   - *Label*  
-  Action label defined by the user. It can be used to specify or simplify the action name. When editing the action label, it is changed both at the top of the settings side bar and in the action rectangle in the diagram.
+  Transition label defined by the user. It can be used to specify or simplify the transition name. When editing the transition label, it is changed both at the top of the settings side bar and in the transition rectangle in the diagram.
 
   - *Queue type*  
   Click the drop-down list to select the applicable queue type. For detailed information about queue types, see [Configure the queue types](/ActindoWorkFlow/Integration/01_ConfigureQueueTypes.md).
@@ -317,24 +317,24 @@ Click the ![Points](/Assets/Icons/Points02.png "[Points]") (Points) button to th
     > [Info] The *ActindoWorkflow Process Execution Failed* task is preconfigured by default. A list of all existing task events is displayed in the *Events* menu entry of the *Tasks* module.
 
   - *Configuration*  
-  Depending on the action, there might be configuration options, for instance, defining an email where a receipt or document must be sent. Editing the action configuration may require basic programming knowledge.
+  Depending on the transition, there might be configuration options, for instance, defining an email where a receipt or document must be sent. Editing the transition configuration may require basic programming knowledge.
 
-    > [Info] Most actions are preconfigured and do not include configuration options. In this case, the *Configuration* section is not displayed.
+    > [Info] Most transitions are preconfigured and do not include configuration options. In this case, the *Configuration* section is not displayed.
 
   - *Static inputs*  
-  All unlinked inputs are listed in this section. Static inputs can be used to configure static values for certain inputs. They can be defined by the user clicking the ![Add](/Assets/Icons/Plus01.png "[Add]") (Add) button. Only valid JSON values are accepted. When used, static inputs are displayed by a small arrow in front of the input ports in the workflow diagram. This section is only displayed, if the selected action has at least one unlinked input port.
+  All unlinked inputs are listed in this section. Static inputs can be used to configure static values for certain inputs. They can be defined by the user clicking the ![Add](/Assets/Icons/Plus01.png "[Add]") (Add) button. Only valid JSON values are accepted. When used, static inputs are displayed by a small arrow in front of the input ports in the workflow diagram. This section is only displayed, if the selected transition has at least one unlinked input port.
 
-  For detailed information, see [Actions](/ActindoWorkFlow/Overview/02_WorkflowProcessElements.md#actions).
+  For detailed information, see [Transitions](/ActindoWorkFlow/Overview/02_WorkflowProcessElements.md#transitions).
 
 
 - Input/output port  
-Represented by a small square positioned to the left (input) and to the right (output) of the action, they are defined with a descriptive name, such as origin, data or destination. They can be mandatory or optional. If optional, an ![Add](/Assets/Icons/Plus01.png "[Add]") (Add) button is displayed next to them.
+Represented by a small square positioned to the left (input) and to the right (output) of the transition, they are defined with a descriptive name, such as origin, data or destination. They can be mandatory or optional. If optional, an ![Add](/Assets/Icons/Plus01.png "[Add]") (Add) button is displayed next to them.
 
   For detailed information, see [Input and output ports](/ActindoWorkFlow/Overview/02_WorkflowProcessElements.md#input-and-output-ports).
 
 
 - Arc  
-The arcs are the links connecting a place with the input and output port(s) of an action to model the flow of information. The arcs are represented by arrows. Arcs connecting a place to an input port are called *incoming arcs*, arc connecting an output port to a place are called *outcoming arcs*.
+The arcs are the links connecting a place with the input and output port(s) of an transition to model the flow of information. The arcs are represented by arrows. Arcs connecting a place to an input port are called *incoming arcs*, arc connecting an output port to a place are called *outcoming arcs*.
 
   For detailed information, see [Arcs](/ActindoWorkFlow/Overview/02_WorkflowProcessElements.md#arcs).
 
@@ -378,16 +378,16 @@ Click this button to close the window.
 
 ![Search for an action](/Assets/Screenshots/ActindoWorkFlow/Workflows/SearchAction02.png "[Search for an action]")
 
-The *Search for an action* window displays a list of possible actions for the selected place.
+The *Search for an action* window displays a list of possible transitions for the selected place.
 
-  > [Info] If clicking the [NEW ACTION] button, all existing actions are displayed. If clicking the ![Add](/Assets/Icons/Plus04.png "[Add]") (Add) button next to a place, only the compatible actions for that place are displayed, as specified in the information message of the *Search for an action* window below the search bar).
+  > [Info] If clicking the [NEW ACTION] button, all existing transitions are displayed. If clicking the ![Add](/Assets/Icons/Plus04.png "[Add]") (Add) button next to a place, only the compatible transitions for that place are displayed, as specified in the information message of the *Search for an action* window below the search bar).
 
 
 - *Search for an action* (search bar)  
-Click this field (search bar) to enter the name of the action or a keyword to search for.  Select an action in the list of actions to add the selected action to the workflow.
-For detailed information about creating an action, see [Create an action](ActindoWorkFlow/Operation/01_ManageWorkflows.md#create-an-action).
+Click this field (search bar) to enter the name of the transition or a keyword to search for. Select an transition in the list of transitions to add the selected transition to the workflow.
+For detailed information about adding a transition, see [Create an action](ActindoWorkFlow/Operation/01_ManageWorkflows.md#create-an-action).
 
-  > [Info] The list of actions is filtered for your keyword as you type.
+  > [Info] The list of transitions is filtered for your keyword as you type.
 
 - ![Delete](/Assets/Icons/Cross02.png "[Delete]") (Delete)  
 Click this button to clear the search bar field.
