@@ -111,7 +111,7 @@ The list displays all logs that are matching the selected log level. Depending o
   Identification number of the process to which the log refers. The ID number is automatically assigned by the system.
 
   - *Transition*  
-  Key of the transition to which the log refers.
+  Key of the transitions to which the log refers.
 
   - *Transition ID*  
   Identification number of the transition to which the log refers. The ID number is automatically assigned by the system.
