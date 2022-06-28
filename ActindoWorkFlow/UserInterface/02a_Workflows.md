@@ -154,7 +154,10 @@ Click the drop-down list to select the view. All created views are displayed in 
   Click this entry to delete the selected view. A confirmation window to confirm the deletion is displayed. This menu entry is only displayed when a view is selected.
 
 
-  [comment]: <> (Search Button weggelassen, da keine Funktion hier)
+- ![Search](/Assets/Icons/Search.png "[Search]") (Search)  
+    Click this button to display the search bar and search for a workflow version.
+
+    > [Info] The search function can be used to search for a workflow version ID. At least 3 characters must be entered.
 
 
 - ![Refresh](/Assets/Icons/Refresh01.png "[Refresh]") (Refresh)  
@@ -232,9 +235,6 @@ Click this button to save the changes to the view name. The *Rename view* window
 
 - ![Back](/Assets/Icons/Back02.png "[Back]") (Back)  
 Click this button to close the workflow editor and return to the list of workflows.
-
-[comment]: <> (Oli: Back button, oben links, nachdem man eine Workflow version ausgewählt hat: Sollte es nicht zurück zu Workflows versions gehen?)
-
 
 -  ![Points](/Assets/Icons/Points02.png "[Points]") (Points)  
 Click the ![Points](/Assets/Icons/Points02.png "[Points]") (Points) button to the right of the workflow name to display the context menu. The following menu entries are available:
