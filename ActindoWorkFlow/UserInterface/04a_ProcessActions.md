@@ -45,7 +45,7 @@ Click the drop-down list to select a process status. The following statuses are 
     - **All**  
     Select this option to display all actions, regardless of their status.
 
-    - **Active**  
+    - **In progress**  
     Select this option to display the actions that are currently active.
 
     - **Done**  
@@ -53,10 +53,6 @@ Click the drop-down list to select a process status. The following statuses are 
 
     - **Error**  
     Select this option to display the actions that have given an error.
-
-    - **Error; automatic retry**  
-    Select this option to display the actions that have given an error but are set for automatic retry.
-
 
     - **Suspended**  
     Select this option to display the actions that have been manually paused.
@@ -68,6 +64,8 @@ Click the drop-down list to select a process status. The following statuses are 
 
 - ![Search](/Assets/Icons/Search.png "[Search]") (Search)  
     Click this button to display the search bar and search for an action.
+
+    > [Info] The search function can be used to search for a transition name. At least 3 characters must be entered.
 
 - ![Refresh](/Assets/Icons/Refresh01.png "[Refresh]") (Refresh)  
     Click this button to update the list of actions.
@@ -98,22 +96,21 @@ The list displays all actions that are matching the selected status. Depending o
   - [REMOVE DEFER TIME]  
     Click this button to skip the defer time preconfigured in the action, if any. The action is then executed immediately. This button is displayed when the action status is *In Progress*.
 
-  [comment]: <> (Oli: Stimmt das so? Wird die Zeit zum Ausführen der Aktion einmalig vorgezogen? Und wenn es dann aber wieder nicht klappt, greift wieder die eingestellte defer time? Oder was passiert dann?)
+    > [Info] The defer time is preconfigured pro action in the system. If the defer time is removed once, the action is executed immediately. If the action gives an error again, it will be retried once that preconfigured defer time has elapsed.
 
 
   - *Status*  
   Status of the action. The different process statuses are displayed in different colors. The following statuses are possible:
 
-    - *Active*
-    - *Done*  
-    - *Error*  
-    - *Error; automatic retry*  
-    - *Suspended*  
-    - *Process aborted*  
+    - **In progress** (blue)
+    - **Done** (green)
+    - **Error** (red)  
+    - **Suspended** (dark gray)
+    - **Process aborted** (black)
 
 
   - *Transition*  
-  Action key.
+  Transition key.
 
   - *Tries*  
   Number of times the action execution has been tried.
@@ -121,9 +118,8 @@ The list displays all actions that are matching the selected status. Depending o
   - *Max retries after error*  
   Number of times the action execution must be retried after error.
 
-  > [Info] This setting depends on the action and is usually preconfigured.
+  > [Info] This setting depends on the transition and is usually preconfigured. In the current version, this value can be modified in the *Import JSON* window, see [Import JSON](02a_Workflows.md#import-json).
 
-[comment]: <> (Question pending for OLI)
 
   - *Queue Type*  
   Queue type assigned to the action. By default, the *Default* queue type is assigned. For detailed information about configuring queue types, see [Configure the queue types](/ActindoWorkFlow/Integration/01_ConfigureQueueTypes.md).
@@ -146,7 +142,7 @@ The list displays all actions that are matching the selected status. Depending o
   Action identification number. The ID number is automatically assigned by the system.
 
   - *Transition ID*  
-  Action identification number. The ID number is automatically assigned by the system.
+  Transition identification number. The ID number is automatically assigned by the system.
 
 
 ## Create view
