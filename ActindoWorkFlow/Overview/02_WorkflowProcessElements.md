@@ -4,7 +4,7 @@
 
 ![Workflow](/Assets/Screenshots/ActindoWorkFlow/Workflows/Workflow.png "[Workflow]")
 
-The *Workflows* module allows customers to model their own processes to match their companies structure. Such a workflow consists of a number of fixed elements, called transitions, that are chained together through so called places and arcs. These elements are used to design the workflow, which can be edited as necessary according to customer needs. For detailed information, see [Manage workflows](/ActindoWorkFlow/Operation/01_ManageWorkflows.md).
+The *Workflows* module allows customers to model their own processes to match their companies structure. Such a workflow consists of a number of fixed elements that are chained together, each of them having specific characteristics. These elements are used to design the workflow, which can be edited as necessary according to customer needs. For detailed information, see [Manage workflows](/ActindoWorkFlow/Operation/01_ManageWorkflows.md).
 
 A workflow runs from a fixed start place to a fixed end place, which can be in turn linked to another workflow. A workflow must contain at least one transition between the start and the end place, which are a special type of places. The transitions are linked through places with each other, connecting the corresponding transition input and output ports. All these elements are described more in detail below.
 
@@ -13,17 +13,54 @@ The *Workflows* module is linked to different system modules and plugins, such a
 Since business processes, and the workflows that map them, evolve over time, workflows can be versioned. While every workflow can be uniquely identified through its key, there may be any number of versions of it. However, at a given point in time, only one of those versions may be published. When a process for a given workflow is to be started, that published version of the workflow is used. This allows to keep modelling a certain workflow without interrupting the daily business.
 
 
+
 ## Transitions
 
 ![Transition](/Assets/Screenshots/ActindoWorkFlow/Workflows/Action.png "[Transition]")
 
-The transitions are the fixed elements or building blocks that are chained together through places to configure a workflow. They are represented by a rectangle.
+The transitions act as building blocks that are chained together through places to configure a workflow. They are represented by a rectangle.
 
-All transitions contain a certain, predefined number of input and output ports, at least 1 of each, which can be mandatory or optional. For detailed information about the types of input/output ports, see [Input and output ports](#input-and-output-ports). For an transition to be executable, all connected inputs and outputs, mandatory or optional, must be fed with data.
+All transitions contain a certain, predefined number of input and output ports, at least 1 of each, which can be mandatory or optional. For detailed information about the types of input/output ports, see [Input and output ports](#input-and-output-ports). For a transition to be executable in a workflow process, all connected inputs and outputs, mandatory or optional, must be fed with data.
 
-The transitions available to create workflows depend on the modules installed in the system. Every API end point of the modules automatically becomes available as an action and can be used in any workflow. However, you can also build your own actions independent from the API. A transition may have configuration options, but most of them do not.
+The transitions available to create workflows depend on the modules installed in the system. Every API end point of the modules automatically becomes available as a transition and can be used in any workflow. However, you can also build your own transitions independent from the API. Some transition may have configuration options, but most of them do not.
 
-When a transition is executed in a workflow process, it is called action, or process action, that is, an action is the actual execution of a configured transition. As a result, any transition may be associated multiple process actions. For detailed information, see [Actions](#actions).
+When a transition is executed in a workflow process, it is called action or process action, that is, an action is the actual execution of a configured transition. As a result, one transition may be associated with multiple process actions. For detailed information, see [Actions](#actions).
+
+
+When adding a new transition, places for mandatory input ports are automatically inserted, whereas optional input ports are displayed with a ![Add](/Assets/Icons/Plus01.png "[Add]") (Add) button.
+
+
+When clicking a transition, it becomes highlighted and the corresponding element settings are displayed in the settings side bar.
+
+![Settings side bar](/Assets/Screenshots/ActindoWorkFlow/Workflows/SettingsSideBar02.png "[Settings side bar]")
+
+The transition settings side bar is located to the right of the workspace and allows to define the transition settings. The following fields are displayed:
+
+
+- *Key*  
+Action key. This field is read-only. The key is required for API access and must be unique within the workflow version.
+
+- *Label*  
+Action label defined by the user. It can be used to specify or simplify the transition name. When editing the transition label, it is changed both at the top of the settings side bar and in the action rectangle in the diagram.
+
+- *Queue type*  
+Click the drop-down list to select the applicable queue type. For detailed information about queue types, see [Configure the queue types](/ActindoWorkFlow/Integration/01_ConfigureQueueTypes.md).
+
+- *Task event*  
+Click the drop-down list and select the applicable task event. All available task events are displayed. This option is linked to the *Tasks* module. The drop-down list is only displayed if the *Tasks* module is installed and the user has the necessary rights.
+
+ > [Info] The *ActindoWorkflow Process Execution Failed* task is preconfigured by default. A list of all existing task events is displayed in the *Events* menu entry of the *Tasks* module.
+
+- *Configuration*  
+Depending on the transition, there might be configuration options, for instance, defining an email where a receipt or document must be sent. Editing the transition configuration may require basic programming knowledge.
+
+  > [Info] Most transitions are preconfigured and do not include configuration options. In this case, the *Configuration* section is not displayed.
+
+- *Static inputs*  
+All unlinked input ports are listed in this section. Static inputs can be used to configure static values for certain inputs. They can be defined by the user clicking the ![Add](/Assets/Icons/Plus01.png "[Add]") (Add) button. Only valid JSON values are accepted. When used, static inputs are displayed by a small arrow in front of the input ports in the workflow diagram. This section is only displayed, if the selected transition has at least one unlinked input port.
+
+  > [Info] Normally, all tokens for the transition execution, that is an action, are taken from the places connected to its input ports. However, static values can be configured for certain inputs. This way, if a transition has configured a static input on one or more of its input ports, it will behave as if there was a place connected to that input port that always contains one token (containing whatever value is statically configured). Nevertheless, it is still necessary to have at least one "actual" place with an "actual" token in order to make that transition executable.
+
 
 
 ## Places
@@ -52,72 +89,38 @@ The place settings side bar is located to the right of the workspace and allows 
   Use this field to define the data type to be used in the place. If necessary, click the ![Delete](/Assets/Icons/Cross02.png "[Delete]") (Delete) button to display the whole list of available data types. Enter a search text for the desired data type. The list of actions is filtered for your search text as you type. Select the ![Radio button](/Assets/Icons/Radiobutton.png "[Radio button]") (Radio button) corresponding to the appropriate option.
 
 
-## Actions
-
-![Action](/Assets/Screenshots/ActindoWorkFlow/Workflows/AddAction.png "[Action]")
-
-Actions, or process actions, are the individual activities being executed in the workflow process and are represented by a rectangle.
-
-A process action is the actual execution of a configured transition. As such, a process action can be successful or faulty depending on its execution. If an error occurs, a process action can be retried if the underlying cause has been fixed, which results in a re-execution of the process action. If multiple tokens move through the workflow, every token is processed in its own process action. As a result, any transition can be associated with multiple process actions, depending of the number of tokens running through it.
-
-
-When adding a new action, places for mandatory input ports are automatically inserted, whereas optional input ports are displayed with a ![Add](/Assets/Icons/Plus01.png "[Add]") (Add) button.
-
-
-When clicking an action, it becomes highlighted and the corresponding element settings are displayed in the settings side bar.
-
-![Settings side bar](/Assets/Screenshots/ActindoWorkFlow/Workflows/SettingsSideBar02.png "[Settings side bar]")
-
-The action settings side bar is located to the right of the workspace and allows to define the action settings. The following fields are displayed:
-
-
-  - *Key*  
-   Action key. This field is read-only. The key is required for API access and must be unique within the workflow version.
-
-  - *Label*  
-  Action label defined by the user. It can be used to specify or simplify the action name. When editing the action label, it is changed both at the top of the settings side bar and in the action rectangle in the diagram.
-
-  - *Queue type*  
-  Click the drop-down list to select the applicable queue type. For detailed information about queue types, see [Configure the queue types](/ActindoWorkFlow/Integration/01_ConfigureQueueTypes.md).
-
-  - *Task event*  
-  Click the drop-down list and select the applicable task event. All available task events are displayed. This option is linked to the *Tasks* module. The drop-down list is only displayed if the *Tasks* module is installed and the user has the necessary rights.
-
- > [Info] The *ActindoWorkflow Process Execution Failed* task is preconfigured by default. A list of all existing task events is displayed in the *Events* menu entry of the *Tasks* module.
-
-  - *Configuration*  
-  Depending on the action, there might be configuration options, for instance, defining an email where a receipt or document must be sent. Editing the action configuration may require basic programming knowledge.
-
-  > [Info] Most actions are preconfigured and do not include configuration options. In this case, the *Configuration* section is not displayed.
-
-  - *Static inputs*  
-  All unlinked input ports are listed in this section. Static inputs can be used to configure static values for certain inputs. They can be defined by the user clicking the ![Add](/Assets/Icons/Plus01.png "[Add]") (Add) button. Only valid JSON values are accepted. When used, static inputs are displayed by a small arrow in front of the input ports in the workflow diagram. This section is only displayed, if the selected action has at least one unlinked input port.
-
-  > [Info] Normally, all tokens for the action execution are taken from the places connected to its input ports. However, static values can be configured for certain inputs. This way, if an action has configured a static input on one or more of its input ports, it will behave as if there was a place connected to that input port that always contains one token (containing whatever value is statically configured). Nevertheless, it is still necessary to have at least one "actual" place with an "actual" token in order to make that action executable.
-
-
 ## Arcs
 
 ![Arcs](/Assets/Screenshots/ActindoWorkFlow/Workflows/ArrowInput.png "[Arcs]")
 
-The arcs are the links connecting a place with the input and output port(s) of an action to model the flow of information. The arcs are represented by arrows. Arcs connecting a place to an input port are called *incoming arcs*, arc connecting an output port to a place are called *outcoming arcs*.
+The arcs are the links connecting a place with the input and output port(s) of a transition to model the flow of information. The arcs are represented by arrows. Arcs connecting a place to an input port are called *incoming arcs*, arc connecting an output port to a place are called *outcoming arcs*.
 
 
 ## Input and output ports
 
 ![Input and output ports](/Assets/Screenshots/ActindoWorkFlow/Workflows/NewPlace.png "[Input and output ports]")
 
-All actions contain a certain, predefined number of input and output ports, at least one of each. They are defined with a descriptive name, such as origin, data or destination.
+All transitions contain a certain, predefined number of input and output ports, at least one of each. They are defined with a descriptive name, such as origin, data or destination.
 
-Input ports are positioned to the left of the action and output ports are positioned to the right of the action. Both are represented by a square.
+Input ports are positioned to the left of the transition and output ports are positioned to the right of the transition. Both are represented by a square.
 
 Both, input and output ports, can be of two types:
 
 - **Mandatory**  
-  Mandatory ports must be linked to a place, which in turn must be linked to an action. Places linked to a mandatory port cannot be deleted or removed. When adding a new action, all places linked to a mandatory input/output are already displayed.
+  Mandatory ports must be linked to a place, which in turn must be linked to a transition. Places linked to a mandatory port cannot be deleted or removed. When adding a new transition, all places linked to a mandatory input/output are already displayed.
 
 - **Optional**  
- Optional ports are displayed with a ![Add](/Assets/Icons/Plus01.png "[Add]") (Add) button next to each of them. By clicking the ![Add](/Assets/Icons/Plus01.png "[Add]") (Add) button a new place is added, which can in turn be linked to a new action. For detailed information about adding new actions, see [Create an action](/ActindoWorkFlow/Operation/01_ManageWorkflows.md#create-an-action).
+ Optional ports are displayed with a ![Add](/Assets/Icons/Plus01.png "[Add]") (Add) button next to each of them. By clicking the ![Add](/Assets/Icons/Plus01.png "[Add]") (Add) button a new place is added, which can in turn be linked to a new transition. For detailed information about adding new actions, see [Create an action](/ActindoWorkFlow/Operation/01_ManageWorkflows.md#create-an-action).
+
+
+
+## Actions
+
+![Action](/Assets/Screenshots/ActindoWorkFlow/Workflows/AddAction.png "[Action]")
+
+Actions, or process actions, are the individual activities being executed in the workflow process and are represented by a rectangle.
+
+A process action is the actual execution of a transition  configured in a workflow. As such, a process action can be successful or faulty depending on its execution. If an error occurs, a process action can be retried if the underlying cause has been fixed, which results in a re-execution of the process action. Moreover, if multiple tokens move through the workflow, every token is processed in its own process action. As a result, a transition can be associated with multiple process actions, depending of the number of tokens running through it.
 
 
 
