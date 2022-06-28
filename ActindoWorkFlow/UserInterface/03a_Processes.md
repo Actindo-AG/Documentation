@@ -72,7 +72,9 @@ Click the drop-down list to display a specific workflow type. All workflows crea
 
 
 - ![Search](/Assets/Icons/Search.png "[Search]") (Search)  
-    Click this button to display the search bar and search for a workflow.
+    Click this button to display the search bar and search for a workflow.  
+
+    > [Info] The search function can be used to search for a workflow subject and name. At least 3 characters must be entered.
 
 - ![Refresh](/Assets/Icons/Refresh01.png "[Refresh]") (Refresh)  
     Click this button to update the list of workflows.
@@ -102,13 +104,13 @@ The list displays all processes that are matching the selected values (status an
   - *Status*  
     Status of the process. The different process statuses are displayed in different colors. The following statuses are possible:
 
-    - Ready (Light gray)
-    - In Progress (Blue)
-    - Error (Red)
-    - Done (Green)
-    - Dead (Black)
-    - Suspended (Dark gray)
-    - Aborted (Black)
+    - Ready (light gray)
+    - In Progress (blue)
+    - Error (red)
+    - Done (green)
+    - Dead (black)
+    - Suspended (dark gray)
+    - Aborted (black)
 
 
   - *Suspended Actions*  
@@ -121,13 +123,10 @@ The list displays all processes that are matching the selected values (status an
     Name of the corresponding workflow.
 
   - *Queue Type*  
-    Queue type configured in the workflow. For detailed information about configuring the queue types, see [Configure the queue types](ActindoWorkFlow/Integration/01_ConfigureQueueTypes.md).
+    Queue type configured in the process. This column displays the queue type name or the text "According to configuration in workflow". For detailed information about configuring the queue types, see [Configure the queue types](ActindoWorkFlow/Integration/01_ConfigureQueueTypes.md).
 
-[comment]: <> (Oli: gibt es noch einen anderen Spalteneintrag außer "according to configuration in workflow"?)
-
-  - *Priority*
-
-  [comment]: <> (Oli fragen)
+  - *Priority*  
+    Process priority set up in the system. The higher the number, the higher the priority.
 
   - *Created*  
     Date and time of creation.
@@ -139,15 +138,16 @@ The list displays all processes that are matching the selected values (status an
     Process identification number. The ID number is automatically assigned by the system.
 
   - *Owning Module*  
-    Module where the process is integrated.
+    Module that has created the workflow.
 
-  [comment]: <> (Oli: gibt es hier auch eine andere Möglichkeit als ActindoWorkFlow?)
+    > [Info] When a workflow is manually created in the *Workflow* module, the text "ActindoWorkFlow" is displayed. A workflow can also be created automatically by a different module. In this case, the name of the corresponding module is displayed.  
+
 
   - *Created by*  
     Name and user name of the user who initiated the process.
 
   - *Modified by*  
-    Name and user name of the user who who modified the process.
+    Name and user name of the user who modified the process.
 
 
 
@@ -167,22 +167,6 @@ The list displays all processes that are matching the selected values (status an
 
 - *Workflow*  
   Name of the workflow.
-
-- ![Settings](/Assets/Icons/Settings01.png "[Settings]") (Settings)  
-  Click this button to display the editing options.
-
-- [SAVE]  
-  Click this button to save any changes made.
-
-[comment]: <> (Oli: Was kann man hier speichern?)
-
-- [RESET]  
-  Click this button to reset the diagram view. The whole diagram is displayed. Any zoom or move within the diagram is reset.
-
-- ![Cancel](/Assets/Icons/Cross02.png "[Cancel]") (Cancel)  
-  Click this button to cancel editing and reject changes.
-
-[comment]: <> (Oli: Was kann man hier denn überhaupt bearbeiten bzw. welche änderungen verwerfen?)
 
 
 ### Actions
@@ -229,7 +213,7 @@ Click the drop-down list to select an action status. The following options are a
     - **All**  
     Select this option to display all actions, regardless of their status.
 
-    - **Active**  
+    - **In progress**  
     Select this option to display the actions that are currently active.
 
     - **Done**  
@@ -251,6 +235,8 @@ Click the drop-down list to select an action status. The following options are a
 
 - ![Search](/Assets/Icons/Search.png "[Search]") (Search)  
     Click this button to display the search bar and search for an action.
+
+    > [Info] The search function can be used to search for a transition name. At least 3 characters must be entered.
 
 - ![Refresh](/Assets/Icons/Refresh01.png "[Refresh]") (Refresh)  
     Click this button to update the list of actions.
@@ -278,23 +264,22 @@ The list displays all executed actions that are matching the selected status. De
   - [REMOVE DEFER TIME]  
     Click this button to skip the defer time preconfigured in the action, if any. The action is then executed immediately. This button is displayed when the action status is *In Progress*.
 
-    [comment]: <> (Oli: Stimmt das so? Wird die Zeit zum Ausführen der Aktion einmalig vorgezogen? Und wenn es dann aber wieder nicht klappt, greift wieder die eingestellte defer time? Oder was passiert dann?)
+    > [Info] The defer time is preconfigured pro action in the system. If the defer time is removed once, the action is executed immediately. If the action gives an error again, it will be retried once that preconfigured defer time has elapsed.
 
 
   - *Status*  
   Status of the action. The different process statuses are displayed in different colors. The following statuses are possible:
 
-    - **Active**  
-    - **Done**  
-    - **Error**  
+    - **In progress** (blue)
+    - **Done** (green)
+    - **Error** (red)
     - **Error; automatic retry**  
-    - **Suspended**  
-    - **Process aborted**  
+    - **Suspended** (dark gray)
+    - **Process aborted** (black)
 
-[comment]: <> (Repeat here or leave it out? Add color code?)
 
   - *Transition*  
-  Action key.
+  Transition key.
 
   - *Tries*  
   Number of times the action execution has been tried.
@@ -302,9 +287,8 @@ The list displays all executed actions that are matching the selected status. De
   - *Max retries after error*  
   Number of times the action execution must be retried after error.
 
-  > [Info] This setting depends on the action and is usually preconfigured.
+  > [Info] This setting depends on the transition and is usually preconfigured. In the current version, this value can be modified in the *Import JSON* window, see [Import JSON](02a_Workflows.md#import-json).
 
-[comment]: <> (Question pending for OLI)
 
   - *Queue Type*  
   Queue type assigned to the action. By default, the *Default* queue type is assigned. For detailed information about configuring queue types, see [Configure the queue types](/ActindoWorkFlow/Integration/01_ConfigureQueueTypes.md).
@@ -326,7 +310,7 @@ The list displays all executed actions that are matching the selected status. De
   Action identification number. The ID number is automatically assigned by the system.
 
   - *Transition ID*  
-  Action identification number. The ID number is automatically assigned by the system.
+  Transition identification number. The ID number is automatically assigned by the system.
 
 
 ### Logs
@@ -372,25 +356,23 @@ Click the drop-down list to select the view. All created views are displayed in 
 Click the drop-down list to select a log level. The following options are available:  
 
   - **All**  
-  Select this option to display all logs regardless of their type.
+  Select this option to display all logs regardless of their level.
   - **Debug**
-  Select this option to display all logs of the **Debug** type.
+  Select this option to display all logs with **Debug** level.
   - **Info**  
-  Select this option to display all logs of the **Info** type.
+  Select this option to display all logs with **Info** level.
   - **Notice**
-  Select this option to display all logs of the **Notice** type.
+  Select this option to display all logs with **Notice** level.
   - **Warning**
-  Select this option to display all logs of the **Warning** type.
+  Select this option to display all logs with **Warning** level.
   - **Error**  
-  Select this option to display all logs of the **Error** type.
+  Select this option to display all logs with **Error** level.
   - **Critical**
-  Select this option to display all logs of the **Critical** type.
+  Select this option to display all logs with **Critical** level.
   - **Alert**
-  Select this option to display all logs of the **Alert** type.
+  Select this option to display all logs with **Alert** level.
   - **Emergency**
-  Select this option to display all logs of the **Emergency** type.
-
-[comment]: <> (Oli: Log status durchgehen und erklären?)
+  Select this option to display all logs with **Emergency** level.
 
 
 - ![Search](/Assets/Icons/Search.png "[Search]") (Search)  
@@ -408,13 +390,9 @@ Click this button to display the filter bar and customize the active filters. Th
 
 The list displays all logs that are matching the selected log level. Depending on the settings, the displayed columns may vary. All fields are read-only. Click a log to display the *Log ID* view, see [Log ID](#Log-ID).
 
-  - [x]    
-  Select the checkbox to display the editing toolbar.
-
-  [comment]: <> (Keine Buttons angezeigt. Was macht das Toolbar?)
 
   - *Type*  
-  Log level type. The different log level types are displayed in different colors. The following types can be displayed:
+  Log level. The following levels can be displayed:
 
     - **Debug**
     - **Info**
@@ -435,27 +413,17 @@ The list displays all logs that are matching the selected log level. Depending o
   - *Workflow ID*    
   Workflow identification number. The ID number is automatically assigned by the system.
 
-  - *Search String*
-
-[comment]: <> (Oli fragen)
-
   - *Created*  
   Date and time of creation.
 
   - *ID*  
   Log identification number. The ID number is automatically assigned by the system.
 
-  - *Process*  
-  Description of the process to which the log refers.
-
-  - *Process ID*  
-  Identification number of the process to which the log refers. The ID number is automatically assigned by the system.
-
   - *Transition*  
-  Key of the action to which the log refers.
+  Key of the transition to which the log refers.
 
   - *Transition ID*  
-  Identification number of the action to which the log refers. The ID number is automatically assigned by the system.
+  Identification number of the transition to which the log refers. The ID number is automatically assigned by the system.
 
   - *Created by*  
   Name and user name of the user who initiated the process.
@@ -503,10 +471,10 @@ Click the drop-down list to select the view. All created views are displayed in 
 
 
 - ![Search](/Assets/Icons/Search.png "[Search]") (Search)  
-    Click this button to display the search bar and search for a workflow.
+    Click this button to display the search bar and search for a token.
 
 - ![Refresh](/Assets/Icons/Refresh01.png "[Refresh]") (Refresh)  
-    Click this button to update the list of workflows.
+    Click this button to update the list of tokens.
 
 - ![Columns](/Assets/Icons/Columns.png "[Columns]") Columns (x)  
     Click this button to display the columns bar and customize the displayed columns and the order of columns in the list. The x indicates the number of columns that are currently displayed in the list.
@@ -520,12 +488,11 @@ The list displays all tokens if the *Hide processed* toggle is disabled. Dependi
   - *Status*  
   Token status. The different statuses are displayed in different colors. The following statuses are possible:
 
-    - *Ready*
-    - *Processed*
-    - *Being processed*
-    - *Error*
+    - *Processed* (green)
+    - *Being processed* (blue)
+    - *Error* (red)
+    - *Unprocessed* (white)
 
-[comment]: <> (Tokens kann auch als "Ready", "Being processed", "Error" im Status vorkommen. So gemeint oder nur Processed/Unprocessed? Add color code?)
 
   - *Place*  
   Name of the place where the token is currently processed.
@@ -602,7 +569,7 @@ Click this button to close the *Log ID* view and return to the *Logs* tab in the
 In the *Log Message* section, detailed information about the log is displayed. All fields are read-only.
 
 - *Log Level*  
-Log level type. The following types can be displayed:
+Log level type. The following levels can be displayed:
 
   - **Debug**
   - **Info**
@@ -615,7 +582,7 @@ Log level type. The following types can be displayed:
 
 
 - Log message box   
-  Detailed log message with further information to the log type.
+  Detailed log message with further information.
 
   > [Info] In case of an error, detailed information is provided (stack trace) for reporting and debugging purposes.
 
@@ -629,4 +596,4 @@ Workflow ID number and name.
 Process ID number and description.
 
 - *Transition*  
-Action ID number and description.
+Transition ID number and description.
