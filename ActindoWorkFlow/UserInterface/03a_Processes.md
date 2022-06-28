@@ -415,6 +415,12 @@ The list displays all logs that are matching the selected log level. Depending o
   - *ID*  
   Log identification number. The ID number is automatically assigned by the system.
 
+  - *Process*  
+  Description of the process to which the log refers.
+
+  - *Process ID*  
+  Identification number of the process to which the log refers. The ID number is automatically assigned by the system.
+
   - *Transition*  
   Key of the transition to which the log refers.
 
