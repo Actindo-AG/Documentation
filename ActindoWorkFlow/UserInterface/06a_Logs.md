@@ -41,25 +41,24 @@ Click the drop-down list to select the view. All created views are displayed in 
   Click the drop-down list to select a log level. The following options are available:  
 
     - **All**  
-      Select this option to display all logs regardless of their type.
+      Select this option to display all logs regardless of their level.
     - **Debug**  
-      Select this option to display all logs of the **Debug** type.
+      Select this option to display all logs with **Debug** level.
     - **Info**  
-      Select this option to display all logs of the **Info** type.
+      Select this option to display all logs with **Info** level.
     - **Notice**  
-      Select this option to display all logs of the **Notice** type.
+      Select this option to display all logs with **Notice** level.
     - **Warning**  
-      Select this option to display all logs of the **Warning** type.
+      Select this option to display all logs with **Warning** level.
     - **Error**  
-      Select this option to display all logs of the **Error** type.
+      Select this option to display all logs with **Error** level.
     - **Critical**  
-      Select this option to display all logs of the **Critical** type.
+      Select this option to display all logs with **Critical** level.
     - **Alert**  
-      Select this option to display all logs of the **Alert** type.
+      Select this option to display all logs with **Alert** level.
     - **Emergency**  
-      Select this option to display all logs of the **Emergency** type.
+      Select this option to display all logs with **Emergency** level.
 
-[comment]: <> (Oli: Log status durchgehen und erklären?)
 
 - ![Search](/Assets/Icons/Search.png "[Search]") (Search)   
   Click this button to display the search bar and search for a log.
@@ -76,13 +75,9 @@ Click the drop-down list to select the view. All created views are displayed in 
 
 The list displays all logs that are matching the selected log level. Depending on the settings, the displayed columns may vary. All fields are read-only. Click a log to display the *Log ID* view, see [Log ID](#Log-ID).
 
-- [x]    
-  Select the checkbox to display the editing toolbar.
-
-[comment]: <> (Keine Buttons angezeigt. Was macht das Toolbar?)
 
 - *Type*  
-  Log level type. The different log level types are displayed in different colors. The following types are possible:
+  Log level. The following levels can be displayed:
 
   - **Debug**
   - **Info**
@@ -103,10 +98,6 @@ The list displays all logs that are matching the selected log level. Depending o
 - *Workflow ID*       
   Workflow identification number. The ID number is automatically assigned by the system.
 
-- *Search String*    
-
-  [comment]: <> (Oli fragen)
-
 - *Created*   
   Date and time of creation.
 
@@ -120,10 +111,10 @@ The list displays all logs that are matching the selected log level. Depending o
   Identification number of the process to which the log refers. The ID number is automatically assigned by the system.
 
   - *Transition*  
-  Key of the action to which the log refers.
+  Key of the transition to which the log refers.
 
   - *Transition ID*  
-  Identification number of the action to which the log refers. The ID number is automatically assigned by the system.
+  Identification number of the transition to which the log refers. The ID number is automatically assigned by the system.
 
   - *Created by*  
   Name and user name of the user who initiated the process.
