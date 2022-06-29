@@ -321,10 +321,6 @@ Click the drop-down list to select the appropriate language or select **No lingu
 - *Currency*  
 Click the drop-down list to select the appropriate currency.
 
-
-- [HELP]  
-Click this button to open the help function.
-
 - [SAVE]  
 Click this button to save the newly entered customer/supplier details.
 
@@ -349,9 +345,6 @@ To add further delivery addresses, see [Further addresses](#further-addresses).
 
 [comment]: <> (Bug/question added to Bug Notes document)
 
-
-- [HELP]  
-Click this button to open the help function.
 
 - [SAVE]  
 Click this button to save any changes made.
@@ -531,9 +524,6 @@ Enter the reference supplier number defined by the user, if any.
 
 
 
-  - [HELP]  
-  Click this button to open the help function.
-
   - [SAVE]  
   Click this button to save any changes made.
 
@@ -553,8 +543,6 @@ For detailed information, see [Additional fields](#additional-fields-1).
 [comment]: <> (#additional-fields-1)
 
 
-- [HELP]  
-Click this button to open the help function.
 
 - [SAVE]  
 Click this button to save any changes made.
@@ -575,8 +563,6 @@ For detailed information, see [Drop shipping](#drop-shipping-1).
 [comment]: <> (#drop-shipping-1)
 
 
-- [HELP]  
-Click this button to open the help function.
 
 - [SAVE]  
 Click this button to save any changes made.
@@ -668,8 +654,6 @@ Click the drop-down list to select the applicable template.
   [comment]: <> (Drop-down list options to be translated!)
 
 
-  - [HELP]  
-  Click this button to open the help function.
 
   - [SAVE]  
   Click this button to save any changes made.
@@ -685,14 +669,14 @@ Click the drop-down list to select the applicable template.
 - *Comments*  
 Enter any further relevant information in this section. The information entered here is displayed in the *Comments* column in the *Customer/supplier* tab.
 
-- [HELP]  
-Click this button to open the help function.
 
 - [SAVE]  
 Click this button to save any changes made.
 
 
 ## Customer/supplier (number)
+
+*Accounting > Select fiscal year > Settings > Tab DEBTORS/CREDITORS > Tab Customer/supplier list > Select customer/supplier*
 
 ![Edit a customer/supplier](/Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/EditCustomerSupplier.png "[Edit a customer/supplier]")
 
@@ -801,11 +785,6 @@ Currency provided, if any. Click the drop-down list to select a different curren
 
 
 
-- [HELP]  
-Click this button to open the help function.
-
-[comment]: <> (Not working yet!)
-
 - [NEW/RESET]  
 Click this button to reset the *Customer/supplier* tab and create a new customer/supplier. The *Create customer/supplier* tab is displayed.
 
@@ -887,11 +866,13 @@ Click this drop-down list to select the address type to be displayed in the list
   - **Pick-up address**  
 
 
-**Edit**
+**Add/Edit**
+
+![Edit](/Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/FurtherAddresses03.png "[Edit]")
 
 ![Edit](/Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/FurtherAddresses02.png "[Edit]")
 
-> [Info] The address details are displayed in the entry fields, where they can be edited.
+> [Info] When clicking the [CREATE] button, the *Add* section is displayed. When marking a checkbox from the delivery addresses list, the address details are displayed in the entry fields, where they can be edited. The *Add* section name changes to *Edit*.
 
   - *Address type*  
   Click the drop-down list to select the address type. The following options are available:
@@ -979,118 +960,6 @@ Click this drop-down list to select the address type to be displayed in the list
 
   - [SAVE]  
   Click this button to save the edited address.
-
-
-
-**Add**
-
-  ![Add](/Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/FurtherAddresses03.png "[Add]")
-
-
-- *Address type*  
-Click the drop-down list to select the address type. The following options are available:
-
-  - **Base address**
-  - **Buyer's address**
-  - **Billing address**
-  - **Delivery address**
-  - **Redirect address**
-  - **Pick-up address**  
-
-
-- *Mode*  
-Click the drop-down list to select the mode. The following options are available:
-
-  - **Use base address**  
-  Select this option to use the base (standard) address. The rest of fields in this section become grayed out.
-
-  - **Use different address**  
-  Select this option to use a different address than the base address. The rest of fields in this section become active.
-
-- *Address no.*  
-Enter a number for the new address to be added.
-
-  > [Info] When clicking the [CREATE] button, the system adds the next available number automatically.
-
-- *Form of address*  
-Click the drop-down list to select the appropriate form of address. The following options are available:  
-
-    - **Company**
-    - **Mr**
-    - **Ms**
-    - **Mr and Mrs**
-    - **Dr**
-    - **Prof.**
-    - **none**  
-
-
-- *Company*  
-Enter the company name.
-
-- *Surname*  
-Enter the customer/supplier last name.
-
-- *Forename*  
-Enter the customer/supplier first name.
-
-- *Address*  
-Enter the customer/supplier address.
-
-- *Address supplement*  
-Enter any other necessary address information.  
-
-[comment]: <> (im System Address suffix)
-
-- *Zip code / Location*  
-Enter zip code and location.
-
-- *Country*  
-Click the drop-down list to select the appropriate country.  
-
-[comment]: <> (Drop-down liste im System auf DE, Sortierung aber auf EN)
-
-- *Phone*  
-Enter a contact phone number.
-
-- *Phone 2*  
-Enter a second contact phone number, if necessary.
-
-- *Cell phone*  
-Enter a cell phone number.
-
-- *Fax*  
-Enter a fax number, if necessary.
-
-- *Email*  
-Enter an email address.
-
-- *VAT ID*  
-Enter the customer/supplier VAT identification number, if applicable.
-
-- *Tax number*  
-Enter the customer/supplier tax number, if applicable.
-
-- [CLEAR]  
-Click this button to clear the entry fields.
-
-- [SAVE]  
-Click this button to save the added address.
-
-
-
-- [HELP]  
-Click this button to open the help function.
-
-[comment]: <> (Not working yet!)
-
-- [NEW/RESET]  
-Click this button to reset the *Customer/supplier* tab and create a new customer/supplier. The *Create customer/supplier* tab is displayed.
-
-- [DELETE CUSTOMER 'number']/[DELETE SUPPLIER 'number']  
-Click this button to delete the selected customer/supplier.
-
-- [SAVE]  
-Click this button to save all changes in the selected customer/supplier.
 
 
 
@@ -1506,11 +1375,6 @@ Click this button to clear the entry fields.
 
 
 
-- [HELP]  
-Click this button to open the help function.
-
-[comment]: <> (Not working yet!)
-
 - [NEW/RESET]  
 Click this button to reset the *Customer/supplier* tab and create a new customer/supplier. The *Create customer/supplier* tab is displayed.
 
@@ -1632,11 +1496,6 @@ Click the drop-down menu to select the number of entries to be displayed.
 Number of entries currently displayed and the total number of entries in the list. This text is read-only.
 
 
-
-- [HELP]  
-Click this button to open the help function.
-
-[comment]: <> (Not working yet!)
 
 - [NEW/RESET]  
 Click this button to reset the *Customer/supplier* tab and create a new customer/supplier. The *Create customer/supplier* tab is displayed.
@@ -1924,12 +1783,6 @@ Click this button to print the statistics displayed. The *Print view* window is 
 - [EXCEL]  
 Click this button to download the statistics displayed in Excel format. The Excel file is downloaded by default in the *Downloads* folder of your computer.
 
-
-
-- [HELP]  
-Click this button to open the help function.
-
-[comment]: <> (Not working yet!)
 
 - [NEW/RESET]  
 Click this button to reset the *Customer/supplier* tab and create a new customer/supplier. The *Create customer/supplier* tab is displayed.
@@ -2269,11 +2122,6 @@ Click the drop-down list to select the applicable template.
 Enter any further relevant information in the box. The information entered here is displayed in the *Comments* column in the *Customer/supplier* tab.
 
 
-- [HELP]  
-Click this button to open the help function.
-
-[comment]: <> (Not working yet!)
-
 - [NEW/RESET]  
 Click this button to reset the *Customer/supplier* tab and create a new customer/supplier. The *Create customer/supplier* tab is displayed.
 
@@ -2527,7 +2375,9 @@ Click this button to save any changes made.
 Click this button to clear the entry lines.
 
 
-#### Loyalty cards
+## Loyalty cards
+
+*Accounting > Select fiscal year > Settings > Tab DEBTORS/CREDITORS > Button Back*
 
 ![Loyalty cards](/Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/LoyaltyCards.png "[Loyalty cards]")
 
