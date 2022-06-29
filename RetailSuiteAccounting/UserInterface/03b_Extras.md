@@ -4,13 +4,13 @@
 
 *Accounting > Select fiscal year > Extras > Tab EXPORT*
 
-![Import](/Assets/Screenshots/RetailSuiteAccounting/Extras/Export/Export.png "[Import]")
+![Export](/Assets/Screenshots/RetailSuiteAccounting/Extras/Export/Export.png "[Export]")
 
-> [Info] The import function is also available in the *FISCAL YEARS* tab of the *Settings* menu entry, see [Export bookings](02d_Settings.md#export-bookings).
+> [Info] The export function is also available in the *FISCAL YEARS* tab of the *Settings* menu entry, see [Export bookings](02d_Settings.md#export-bookings).
 
 
 - *Export to*  
-A list of the available import options is displayed:
+A list of the available export options is displayed:
 
   - *Export of data in BMD format*
   - *Export of data in CSV format*
@@ -67,9 +67,6 @@ Click this button to export balance lists in Zahlwerk compatible CSV format. Fol
 
 **Step 1**
 
-
-![Export BMD Step 2](/Assets/Screenshots/RetailSuiteAccounting/Extras/Export/ExportBMD02.png "[Export BMD Step 2]")
-
 - *Fiscal year*  
 - *Period*  
   - *Months*  
@@ -80,15 +77,21 @@ Click this button to edit the tax mapping.
 
 - [CONTINUE]  
 
-Tax mapping
-Actindo tax control key
-BMD control key
+
+
+![Export BMD Step 2](/Assets/Screenshots/RetailSuiteAccounting/Extras/Export/ExportBMD02.png "[Export BMD Step 2]")
+
 
 
 **Step 2**
 
 
 ![Export BMD Step 3](/Assets/Screenshots/RetailSuiteAccounting/Extras/Export/ExportBMD03.png "[Export BMD Step 3]")
+
+
+Pop-up window: Exportiert ohne Fehler / ABBRECHEN ändert sich zu SCHLIESSEN nach einigen Sekunden/kurz vor Step 3
+
+
 
 **Step 3**
 
@@ -101,33 +104,62 @@ BMD control key
 
 *Accounting > Select fiscal year > Extras > Tab EXPORT > Button CSV*
 
-![Import Compeso 7.X Step 1](/Assets/Screenshots/RetailSuiteAccounting/Extras/Import/Compeso01.png "[Import Compeso 7.X Step 1]")
+![Export CSV Step 1](/Assets/Screenshots/RetailSuiteAccounting/Extras/Export/ExportCSV01.png "[Export CSV Step 1]")
+
+![Export CSV Step 1](/Assets/Screenshots/RetailSuiteAccounting/Extras/Export/ExportCSV01cust.png "[Export CSV Step 1]")
 
 **Step 1**
+
+
+![Export CSV Step 2](/Assets/Screenshots/RetailSuiteAccounting/Extras/Export/ExportCSV02.png "[Export CSV Step 2]")
+
+**Step 2**
+
+
+![Export CSV Step 3](/Assets/Screenshots/RetailSuiteAccounting/Extras/Export/ExportCSV03.png "[Export CSV Step 3]")
+
+**Step 3**
+
 
 
 ## DATEV CSV
 
 *Accounting > Select fiscal year > Extras > Tab EXPORT > Button DATEV CSV*
 
-![Import Compeso 7.X Step 1](/Assets/Screenshots/RetailSuiteAccounting/Extras/Import/ExportDatevCVS01.png "[Import Compeso 7.X Step 1]")
+![Import DATEV CSV Step 1](/Assets/Screenshots/RetailSuiteAccounting/Extras/Export/ExportDatevCVS01.png "[Import DATEV CSV Step 1]")
 
-![Import Compeso 7.X Step 1](/Assets/Screenshots/RetailSuiteAccounting/Extras/Import/ExportDatevCVS01cust.png "[Import Compeso 7.X Step 1]")
+![Import DATEV CSV Step 1](/Assets/Screenshots/RetailSuiteAccounting/Extras/Export/ExportDatevCVS01cust.png "[Import DATEV CSV Step 1]")
 
 **Step 1**
 
 
+![Import DATEV CSV Step 2](/Assets/Screenshots/RetailSuiteAccounting/Extras/Export/ExportDatevCVS02.png "[Import DATEV CSV Step 2]")
+
+**Step 2**
 
 
+![Import DATEV CSV Step 3](/Assets/Screenshots/RetailSuiteAccounting/Extras/Export/ExportDatevCVS03.png "[Import DATEV CSV Step 3]")
+
+**Step 3**
 
 
 ## GDI
 
 *Accounting > Select fiscal year > Extras > Tab EXPORT > Button GDI*
 
-![Import Compeso 7.X Step 1](/Assets/Screenshots/RetailSuiteAccounting/Extras/Import/Compeso01.png "[Import Compeso 7.X Step 1]")
+![Import GDI Step 1](/Assets/Screenshots/RetailSuiteAccounting/Extras/Export/GDI01.png "[Import GDI Step 1]")
 
 **Step 1**
+
+![Import GDI Step 2](/Assets/Screenshots/RetailSuiteAccounting/Extras/Export/GDI02.png "[Import GDI Step 2]")
+
+**Step 2**
+
+
+![Import GDI Step 3](/Assets/Screenshots/RetailSuiteAccounting/Extras/Export/GDI03.png "[Import GDI Step 3]")
+
+**Step 3**
+
 
 
 ## GDPdU export
@@ -194,3 +226,16 @@ BMD control key
 ![Import Compeso 7.X Step 1](/Assets/Screenshots/RetailSuiteAccounting/Extras/Import/Compeso01.png "[Import Compeso 7.X Step 1]")
 
 **Step 1**
+
+
+
+### Tax mapping
+
+![Tax mapping](/Assets/Screenshots/RetailSuiteAccounting/Extras/Export/BMDTaxMapping.png "[Tax mapping]")
+
+
+Tax mapping  
+Actindo tax control key  
+BMD control key  
+
+![Create tax mapping](/Assets/Screenshots/RetailSuiteAccounting/Extras/Export/BMDTaxMapping02.png "[Create tax mapping]")
