@@ -1,9 +1,10 @@
 [!!Workflows](ActindoWorkFlow)
+[!!Tasks](Tasks)
 
 # Manage the workflows
 
 The *Workflows* module allows the customers to define their own business processes, such as orders, shipments, returns, etc.
-The workflows can be created individually in the workflow editor, they can be edited subsequently and by publishing and unpublishing a workflow, the usage can be controlled. Further, obsolete workflows can be deleted.
+The workflows can be created individually in the workflow editor, they can be edited subsequently and by publishing and unpublishing a workflow, the usage can be controlled.
 
 
 ## Create a workflow
@@ -54,7 +55,7 @@ No prerequisites to fulfill.
 
   ![Search action](/Assets/Screenshots/ActindoWorkFlow/Workflows/SearchAction.png "[Search action]")
 
-2. Click the *search for an action* field and enter the name of the transition or a keyword you are searching for. If you have clicked the ![Add](/Assets/Icons/Plus04.png "[Add]") (Add) button next to a place, only those transitions that are compatible with the data type of the place are displayed in the list.
+2. Click the *Search for an action* field and enter the name of the transition or a keyword you are searching for. If you have clicked the ![Add](/Assets/Icons/Plus04.png "[Add]") (Add) button next to a place, only those transitions that are compatible with the data type of the place are displayed in the list.
 
   > [Info] The list of transitions is filtered for your keyword as you type.
 
@@ -112,7 +113,7 @@ Edit a workflow to modify elements within the workflow, to extend the workflow b
 ![Workflows](/Assets/Screenshots/ActindoWorkFlow/Workflows/Workflows.png "[Workflows]")
 
 1. Click the workflow you want to edit in the list of workflows.   
-  The *Workflow Versions* view with all versions of the selected workflow is displayed.
+  The *Workflow versions* view with all versions of the selected workflow is displayed.
 
   ![Workflow versions](/Assets/Screenshots/ActindoWorkFlow/Workflows/WorkflowVersions.png "[Workflow versions]")
 
@@ -195,7 +196,7 @@ A new place connected to the selected output port is displayed.
 
   ![Search action](/Assets/Screenshots/ActindoWorkFlow/Workflows/SearchAction.png "[Search action]")
 
-4. Click the *search for an action* field and enter the name of the transition or a keyword you are searching for.
+4. Click the *Search for an action* field and enter the name of the transition or a keyword you are searching for.
 
   > [Info] The list of transitions is filtered for your keyword as you type.
 
@@ -220,15 +221,15 @@ A new place connected to the selected output port is displayed.
   + Click the *Label* field and edit the name of the transition displayed in the workflow editor.
 
   + Click the *Queue Type* drop-down list and select the appropriate queue type for the transition. All available queue types are displayed in the drop-down list. By default the *Default* queue type is selected. You can define a different queue type for each transition within the workflow.   
-  For detailed information about the queue types, see [Configure the queue types](/ActindoWorkFlow/Integration/01_WConfigureQueueTypes.md).
+  For detailed information about the queue types, see [Configure the queue types](/ActindoWorkFlow/Integration/01_ConfigureQueueTypes.md).
 
-  + Click the *Task Event* drop-down list and select an event connected to the transition. The event is triggered and the corresponding task is assigned when the process action is failed. All available task events are displayed in the drop-down list. By default, the *ActindoWorkflow Process Execution Failed* event is preselected. The drop-down list is only displayed when the *Task* module is installed and the current user has the required rights to configure it.
+  + Click the *Task Event* drop-down list and select an event connected to the transition. The event is triggered and the corresponding task is assigned when the process action has failed. All available task events are displayed in the drop-down list. By default, the *ActindoWorkflow Process Execution Failed* event is preselected. The drop-down list is only displayed when the *Task* module is installed and the current user has the required rights to configure it.
 
   + Edit the field(s) in the *Configuration* section to define further configuration settings to the selected transition. This section is only displayed for certain transitions. The fields displayed in the *Configuration* section depend on the selected transition.
 
   + Click the ![Add](/Assets/Icons/Plus04.png "[Add]") (Add) button right to an input name in the *Static Inputs* section to add a static data value to the corresponding input. All input ports that are not yet connected to a place are displayed in this section. Enter the appropriate value in the text field below the input name. The value entered must be a valid JSON value. Click the ![Delete](/Assets/Icons/Trash07.png "[Delete]") (Delete) button right to a value to delete it. This section is only displayed for certain transitions.
 
-  > [Info] Input ports with an static input value cannot be connected to a place. Therefore, a small arrow without a place is displayed in front of an input port with a static input value. Delete the static input value from the port to be able to connect it with a place.     
+  > [Info] Input ports with a static input value cannot be connected to a place. Therefore, a small arrow without a place is displayed in front of an input port with a static input value. Delete the static input value from the port to be able to connect it with a place.     
 
 [comment]: <> (Check the design of static input before next version is released; design possibly changes)
 [comment]: <> (Add a link to the Tasks module/task events when documented)
@@ -266,7 +267,7 @@ Copy a workflow by exporting and importing the JSON code to create a new workflo
 ![Workflows](/Assets/Screenshots/ActindoWorkFlow/Workflows/Workflows.png "[Workflows]")
 
 1. Click the workflow you want to copy in the list of workflows.   
-  The *Workflow Versions* view with all versions of the selected workflow is displayed.
+  The *Workflow versions* view with all versions of the selected workflow is displayed.
 
   ![Workflow versions](/Assets/Screenshots/ActindoWorkFlow/Workflows/WorkflowVersions.png "[Workflow versions]")
 
@@ -301,7 +302,12 @@ The workflow editor is displayed in the workspace.
 ![Workflows](/Assets/Screenshots/ActindoWorkFlow/Workflows/Workflows.png "[Workflows]")
 
 1. [Create a new workflow](#create-a-workflow) or click the workflow in the list of workflows to which you want to import the copied JSON code.   
-  The workflow editor is displayed.
+  The *Workflow versions* view with all versions of the selected workflow is displayed.
+
+  ![Workflow versions](/Assets/Screenshots/ActindoWorkFlow/Workflows/WorkflowVersions.png "[Workflow versions]")
+
+2. Click the workflow version you want to edit in the list of workflow versions.  
+The workflow editor is displayed in the workspace.
 
   ![Workflow editor new](/Assets/Screenshots/ActindoWorkFlow/Workflows/WorkflowEditorNew.png "[Workflow editor new]")
 
@@ -349,7 +355,7 @@ The workflow editor is displayed in the workspace.
 
 ## Publish a workflow version
 
-A workflow can only be used for processes if it is published. If multiple versions of a workflow exist, the highest published version is taken for upcoming workflow processes. Therefore you have to publish a workflow to use it for workflow processes. By default, a created workflow or a deployed workflow version is automatically published. You can manually publish or [unpublish](#unpublish-a-workflow-version) workflow versions.
+A workflow can only be used for processes if it is published. If multiple versions of a workflow exist, the highest published version is taken for upcoming workflow processes. Therefore you have to publish a workflow to use it for workflow processes. By default, a workflow is automatically published when it is created or when a new workflow version is deployed. You can manually publish or [unpublish](#unpublish-a-workflow-version) workflow versions.
 
 ### Prerequisites
 
@@ -360,15 +366,15 @@ A workflow can only be used for processes if it is published. If multiple versio
 
 *Workflows > Workflows > Tab OVERVIEW > Select workflow*
 
-![Workflow versions published](/Assets/Screenshots/ActindoWorkFlow/Workflows/WorkflowVersionsPublished.png "[Workflow versions published]")
+![Workflow versions unpublished](/Assets/Screenshots/ActindoWorkFlow/Workflows/WorkflowVersionsUnpublished.png "[Workflow versions unpublished]")
 
 1. Select the checkbox of the workflow version you want to publish.      
   The editing toolbar is displayed.
 
-2. Click the [UNPUBLISH] button in the editing toolbar.   
-  The selected workflow version is unpublished. The icon in the *Published* column changes from ![Checkmark](/Assets/Icons/Check.png "[Checkmark]") (Checkmark) to ![Cross](/Assets/Icons/Cross02.png "[Cross]") (Cross).
+2. Click the [PUBLISH] button in the editing toolbar.   
+  The selected workflow version is published. The icon in the *Published* column changes from ![Cross](/Assets/Icons/Cross02.png "[Cross]") (Cross) to ![Checkmark](/Assets/Icons/Check.png "[Checkmark]") (Checkmark).
 
-  ![Workflow versions unpublished](/Assets/Screenshots/ActindoWorkFlow/Workflows/WorkflowVersionsUnpublished.png "[Workflow versions unpublished]")
+  ![Workflow versions published](/Assets/Screenshots/ActindoWorkFlow/Workflows/WorkflowVersionsPublished.png "[Workflow versions published]")
 
 ### Next steps
 
@@ -387,7 +393,7 @@ A workflow can only be used for processes if it is published. If multiple versio
 
 ## Unpublish a workflow version
 
-A workflow can only be used for processes if it is published. By default, a created workflow or a deployed workflow version is automatically published. You can manually [publish](#publish-a-workflow-version) or unpublish workflow versions. Unpublish a workflow version if the workflow is still in work or you use testing purposes it and you the workflow should not yet be used for processes.
+A workflow can only be used for processes if it is published. By default, a created workflow or a deployed workflow version is automatically published. You can manually [publish](#publish-a-workflow-version) or unpublish workflow versions. Unpublish a workflow version if the workflow is still in work or used for testing purposes and the workflow should not yet be used for processes.
 
 ### Prerequisites
 
@@ -396,15 +402,15 @@ A workflow can only be used for processes if it is published. By default, a crea
 
 ### Procedure
 
-*Workflows > Workflows > Tab OVERVIEW*
+*Workflows > Workflows > Tab OVERVIEW > Select workflow*
 
-  ![Workflow versions unpublished](/Assets/Screenshots/ActindoWorkFlow/Workflows/WorkflowVersionsUnpublished.png "[Workflow versions unpublished]")
+  ![Workflow versions published](/Assets/Screenshots/ActindoWorkFlow/Workflows/WorkflowVersionsPublished.png "[Workflow versions published]")
 
 1. Select the checkbox of the workflow version you want to unpublish.      
   The editing toolbar is displayed.
 
-2. Click the [PUBLISH] button in the editing toolbar.   
-  The selected workflow version is unpublished. The icon in the *Published* column changes from ![Cross](/Assets/Icons/Cross02.png "[Cross]") (Cross) to ![Checkmark](/Assets/Icons/Check.png "[Checkmark]") (Checkmark).
+2. Click the [UNPUBLISH] button in the editing toolbar.   
+  The selected workflow version is unpublished. The icon in the *Published* column changes from ![Checkmark](/Assets/Icons/Check.png "[Checkmark]") (Checkmark) to ![Cross](/Assets/Icons/Cross02.png "[Cross]") (Cross).
 
   ![Workflow versions unpublished](/Assets/Screenshots/ActindoWorkFlow/Workflows/WorkflowVersionsUnpublished.png "[Workflow versions unpublished]")
 

@@ -14,14 +14,12 @@ In the *DASHBOARDS* tab, the custom tabs with composable dashlets are displayed.
   Click this button to delete the selected tab. The *Confirm Tab Deletion* window is displayed. This button is only displayed next to a created tab.
 
 
-## Add a new tab
+## Add a new tab - Create new tab
 
 ![Add a new tab](/Assets/Screenshots/ActindoWorkFlow/Overview/AddNewTab.png "[Add a new tab]")
 
-### Create New Tab
-
 - *Tab Name*   
-  Enter a name for the tab.
+  Enter a name for the new tab.
 
 - [CANCEL]   
   Click this button to cancel creating a tab and close the *Add a new Tab* window.
@@ -29,9 +27,21 @@ In the *DASHBOARDS* tab, the custom tabs with composable dashlets are displayed.
 - [SAVE]   
   Click this button to save the tab with the entered name and close the *Add a new Tab* window. The new tab is created.
 
-### Import Existing Tab
 
-[comment]: <> (When is this tab unlocked?)
+## Add a new tab - Import existing tab
+
+![Import existing tab](/Assets/Screenshots/ActindoWorkFlow/Overview/ImportExistingTab.png "[Import existing tab]")
+
+- *Dashboard Selection*   
+  Click the drop-down list to select the dashboard tab to be imported to the dashboard. All available dashboard tabs that are not yet included in the dashboard are displayed in the list.
+
+- [CANCEL]   
+  Click this button to cancel importing a tab and close the *Add a new Tab* window.
+
+- [SAVE]   
+  Click this button to save the selected tab for import and close the *Add a new Tab* window. The selected tab is imported.
+
+[comment]: <> (When is this tab unlocked? Only available in the Actindo Dashboard?)
 
 
 ## Confirm tab deletion

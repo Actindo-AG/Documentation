@@ -68,7 +68,7 @@ No prerequisites to fulfill.
 
 ## Disable the workflows
 
-Disable the workflows so that no new workflow processes are started which may be necessary to edit the queue types or workers.
+Disable the workflows so that no new workflow processes are started, which may be necessary to edit the queue types or workers.
 
 ### Prerequisites
 
@@ -90,12 +90,12 @@ You have the required rights to edit the developer settings in the engine room.
 2. Click the arrow right to the *Developer mode*.   
   The developer mode settings are displayed.
 
-4. Enable the *Disable Workflow* toggle in the *Actindo Work Flow Engine* box.   
+3. Enable the *Disable Workflow* toggle in the *Actindo Work Flow Engine* box.   
   The workflows are disabled. No new workflow processes will start as long as the *Disable Workflow* toggle is enabled.
 
   ![Disable workflow](/Assets/Screenshots/ActindoWorkFlow/QueueTypes/DisableWorkflow.png "[Disable workflow]")
 
-5. Click the flag at the bottom of the engine room.    
+4. Click the flag at the bottom of the engine room.    
   The engine room panel is folded.
 
 > [Info] To re-enable the automatic start of workflow processes, unfold the engine room panel and disable the *Disable Workflow* toggle in the *Actindo Work Flow Engine*.
@@ -277,7 +277,7 @@ The editing toolbar is displayed above the queue types list.
 
   ![Toolbar](/Assets/Screenshots/ActindoWorkFlow/QueueTypes/Toolbar.png "[Toolbar]")
 
-2. Click the ![Delete](/Assets/Icons/Trash03.png "[Delete]") (Delete) button in the toolbar.   
+2. Click the [DELETE] button in the toolbar.   
 The queue type is deleted. The *QueueType has been deleted* pop-up window is displayed.
 
   ![Queue type deleted](/Assets/Screenshots/ActindoWorkFlow/QueueTypes/QueueTypeDeleted.png "[Queue type deleted]")
@@ -304,7 +304,7 @@ The queue type is deleted. The *QueueType has been deleted* pop-up window is dis
 
 ## Kill workers
 
-Sometimes it may be necessary to stop certain process actions. Therefore, you have to kill the workers to avoid that these actions are executed. You can either kill the workers of a single queue type or kill all workers regardless their queue type.
+Sometimes it may be necessary to stop certain process actions. Therefore, you have to kill the workers to avoid that these actions are executed. You can either kill the workers of a single queue type or kill all workers regardless of their queue type.
 The killed workers will be restarted automatically if the *Disable Workflow* toggle in the *Actindo Work Flow Engine* box of the engine room panel is disabled.
 
 > [Warning] Problems may occur when killing workers. Only kill the workers when you are qualified to restart the stopped process actions.  
@@ -312,7 +312,7 @@ The killed workers will be restarted automatically if the *Disable Workflow* tog
 
 ### Kill the workers of a single queue type
 
-Kill the workers of a single queue types to stop all running actions of a certain queue type.
+Kill the workers of a single queue type to stop all running actions of a certain queue type.
 
 #### Prerequisites
 
