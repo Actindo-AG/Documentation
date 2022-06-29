@@ -108,7 +108,7 @@ The place settings side bar is located to the right of the workspace and allows 
 
 In the workflow processes, a place can hold any number of tokens, including none. A token is a container carrying data, which is needed to execute a subsequent action. The place data type is always defined, more or less specifically, so it is possible to recognize the kind of data that flows through it. For detailed information, see [Tokens](#tokens).
 
-When clicking a place in the workflow process diagram, the *Tokens* tab is displayed. For detailed information, see [Check the token status and content](/ActindoWorkFlow/Operation/02_TrackProcesses.md#check-the-token-status-and-content).
+When clicking a place in the workflow process diagram, the *Tokens* tab is displayed. For detailed information, see [Check the token status and content](/ActindoWorkFlow/Operation/02_TrackWorkflowProcess.md#check-the-token-status-and-content).
 
 
 ## Start and end place
@@ -128,7 +128,7 @@ The start place is the initial stage of the workflow. It is represented by a cir
 
 The start place settings side bar is located to the right of the workspace and allows to define the start place settings. The fields are identical to those of the [place](#place).
 
-When clicking a start place in the workflow process diagram, the *Tokens* tab is displayed. For detailed information, see [Check the token status and content](/ActindoWorkFlow/Operation/02_TrackProcesses.md#check-the-token-status-and-content).
+When clicking a start place in the workflow process diagram, the *Tokens* tab is displayed. For detailed information, see [Check the token status and content](/ActindoWorkFlow/Operation/02_TrackWorkflowProcess.md#check-the-token-status-and-content).
 
 ### End place
 
@@ -138,7 +138,7 @@ The end place is the final stage of the workflow. It is represented by a circle 
 
 The end place settings side bar is located to the right of the workspace and allows to define the end place settings. The fields are identical to those of the [place](#place).
 
-When clicking an end place in the workflow process diagram, the *Tokens* tab is displayed. For detailed information, see [Check the token status and content](/ActindoWorkFlow/Operation/02_TrackProcesses.md#check-the-token-status-and-content).
+When clicking an end place in the workflow process diagram, the *Tokens* tab is displayed. For detailed information, see [Check the token status and content](/ActindoWorkFlow/Operation/02_TrackWorkflowProcess.md#check-the-token-status-and-content).
 
 
 ## Arcs

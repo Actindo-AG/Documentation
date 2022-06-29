@@ -88,7 +88,7 @@ No prerequisites to fulfill.
 - [Copy a workflow](#copy-a-workflow)
 - [Publish a workflow version](#publish-a-workflow-version)
 - [Unpublish a workflow version](#unpublish-a-workflow-version)
-- [Track a workflow process](02_TrackProcesses.md)
+- [Track a workflow process](02_TrackWorkflowProcess.md)
 
 ### See also
 
@@ -239,7 +239,7 @@ A new place connected to the selected output port is displayed.
 - [Copy a workflow](#copy-a-workflow)
 - [Publish a workflow version](#publish-a-workflow-version)
 - [Unpublish a workflow version](#unpublish-a-workflow-version)
-- [Track a workflow process](02_TrackProcesses.md)
+- [Track a workflow process](02_TrackWorkflowProcess.md)
 
 ### See also
 
@@ -342,7 +342,7 @@ The workflow editor is displayed in the workspace.
 
 - [Publish a workflow version](#publish-a-workflow-version)
 - [Unpublish a workflow version](#unpublish-a-workflow-version)
-- [Track a workflow process](02_TrackProcesses.md)
+- [Track a workflow process](02_TrackWorkflowProcess.md)
 
 ### See also
 
@@ -379,7 +379,7 @@ A workflow can only be used for processes if it is published. If multiple versio
 ### Next steps
 
 - [Unpublish a workflow version](#unpublish-a-workflow-version)
-- [Track a workflow process](02_TrackProcesses.md)
+- [Track a workflow process](02_TrackWorkflowProcess.md)
 
 ### See also
 
@@ -416,7 +416,7 @@ A workflow can only be used for processes if it is published. By default, a crea
 
 ### Next steps
 
-- [Track a workflow process](02_TrackProcesses.md)
+- [Track a workflow process](02_TrackWorkflowProcess.md)
 
 ### See also
 
