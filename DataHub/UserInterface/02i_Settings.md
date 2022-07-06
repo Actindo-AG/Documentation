@@ -36,7 +36,7 @@ The list displays all deleted attributes. All fields are read-only. Depending on
   Attribute key.
 
 - *Data Type*   
-  Attribute data type. For detailed information about all data types, see [Data types list](to_be_completed).
+  Attribute data type. For detailed information about all data types, see [Data type list](/PIM/UserInterface/04_DataTypeList.md).
 
 - *Description*   
   Description to the attribute.

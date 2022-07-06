@@ -5,7 +5,6 @@
 
 An ETL attribute set mapping is used to extract the data from a source attribute set, transform it according to a specified method, and load it into a destination attribute set. You can create mappings, edit existing mappings and rerun mappings.
 
-[comment]: <> (ETL mapping description -> what is it used for)
 
 ## Create an ETL attribute set mapping
 

@@ -4,7 +4,7 @@
 
 ![Channels](/Assets/Screenshots/DataHub/Settings/Channels/ChannelList.png "[Channels]")
 
-**Channel List**
+**Channel list**
 
 - ![Search](/Assets/Icons/Search.png "[Search]") (Search)   
   Click this button to display the search bar and search for a channel.
@@ -21,11 +21,11 @@
 - [x]     
   Select the checkbox to display the editing toolbar. If you click the checkbox in the header, all channels in the list are selected.
 
-- [EDIT]
+- [EDIT]   
   Click this button to edit the selected channel. This button is only displayed, when a single checkbox of a channel is selected. Alternatively, you can click directly a row in the list to edit a channel.
   For detailed information, see [Edit a channel](/DataHub/Integration/04_ManageChannels.md#edit-a-channel).
 
-- [DELETE]
+- [DELETE]   
   Click this button to delete the selected channel. This button is only displayed, when the checkbox of at least one channel is selected.       
 
 The list displays all channels. All fields are read-only. Depending on the settings, the displayed columns may vary.
@@ -76,6 +76,8 @@ The list displays all channels. All fields are read-only. Depending on the setti
 
 ![Create channel](/Assets/Screenshots/DataHub/Settings/Channels/CreateChannel.png "[Create channel]")
 
+**Create channel**
+
 - ![Back](/Assets/Icons/Back02.png "[Back]") (Back)   
   Click this button to close the *Create Channel* view and return to the channel list. All changes are rejected.
 
@@ -105,6 +107,8 @@ The list displays all channels. All fields are read-only. Depending on the setti
 *DataHub > Settings > Tab CHANNELS > Select channel*
 
 ![Edit channel](/Assets/Screenshots/DataHub/Settings/Channels/EditChannel.png "[Edit channel]")
+
+**Edit channel**
 
 - ![Back](/Assets/Icons/Back02.png "[Back]") (Back)   
   Click this button to close the *Edit Channel* view and return to the channel list. All changes are rejected.

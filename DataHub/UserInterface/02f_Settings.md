@@ -4,7 +4,7 @@
 
 ![Languages](/Assets/Screenshots/DataHub/Settings/Languages/LanguageList.png "[Languages]")
 
-**Language List**
+**Language list**
 
 - ![Search](/Assets/Icons/Search.png "[Search]") (Search)   
   Click this button to display the search bar and search for a language.
@@ -21,11 +21,11 @@
 - [x]     
   Select the checkbox to display the editing toolbar. If you click the checkbox in the header, all languages in the list are selected.
 
-- [EDIT]
+- [EDIT]   
   Click this button to edit the selected language. This button is only displayed, when a single checkbox of a language is selected. Alternatively, you can click directly a row in the list to edit a language.
   For detailed information, see [Edit a language](/DataHub/Integration/05_ManageLanguages.md#edit-a-language).
 
-- [DELETE]
+- [DELETE]   
   Click this button to delete the selected language. This button is only displayed, when the checkbox of at least one language is selected.       
 
 The list displays all language. All fields are read-only. Depending on the settings, the displayed columns may vary.
@@ -62,15 +62,17 @@ The list displays all language. All fields are read-only. Depending on the setti
 
 ![Create language](/Assets/Screenshots/DataHub/Settings/Languages/CreateLanguage.png "[Create language]")
 
+**Create language**
+
 - ![Back](/Assets/Icons/Back02.png "[Back]") (Back)   
-  Click this button to close the *Create Language* view and return to the language list. All changes are rejected.
+  Click this button to close the *Create language* view and return to the language list. All changes are rejected.
 
 - Language   
   Click the drop-down list and select the language in which the *Name (Language)* field is displayed. The system languages *English (United States)* and *Deutsch (Deutschland)* are available in the drop-down list.
   [comment]: <> (Is that right? -> language question)
 
 - [SAVE]   
-  Click this button to save the language, close the *Create Language* view and return to the language list.
+  Click this button to save the language, close the *Create language* view and return to the language list.
 
 - *Name (Language)*   
   Enter a language name in the selected language.
@@ -88,6 +90,8 @@ The list displays all language. All fields are read-only. Depending on the setti
 *DataHub > Settings > Tab LANGUAGES > Select language*
 
 ![Edit language](/Assets/Screenshots/DataHub/Settings/Languages/EditLanguage.png "[Edit language]")
+
+**Edit language**
 
 - ![Back](/Assets/Icons/Back02.png "[Back]") (Back)   
   Click this button to close the *Edit Language* view and return to the language list. All changes are rejected.

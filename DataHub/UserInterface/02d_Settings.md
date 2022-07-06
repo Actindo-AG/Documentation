@@ -4,7 +4,7 @@
 
 ![Attribute set mappings](/Assets/Screenshots/DataHub/Settings/ETL/AttributeSetMappings.png "[Attribute set mappings]")
 
-**Attribtue Set Mapping**
+**Attribute set mappings**
 
 - ![Search](/Assets/Icons/Search.png "[Search]") (Search)   
   Click this button to display the search bar and search for an attribute set.
@@ -67,7 +67,7 @@ The list displays all attribute set mappings. All fields are read-only. Dependin
 - *Source Attribute Set*   
   Click the drop-down list and select the appropriate source attribute set for the mapping. All attribute sets are displayed in the drop-down list. Use the search bar in the drop-down list to search for an attribute set.
 
-[comment]: <> (Die Search bar funktioniert nicht richtig. Ich springe einfach in die List und raus aus der Suche...)
+[comment]: <> (Die Search bar funktioniert nicht richtig. Ich springe einfach in die Liste und raus aus der Suche...)
 
 - *Destination Attribute Set*   
   Click the drop-down list and select the appropriate destination attribute set for the mapping. All attribute sets are displayed in the drop-down list. Use the search bar in the drop-down list to search for an attribute set. The *Copy ETL Attribute Set Mapping* drop-down list is unlocked if any attribute set mapping with the selected destination attribute set already exists.
@@ -167,8 +167,8 @@ The list displays all attribute mappings. All fields are read-only. Depending on
 The *Settings* section on the right side of the *Mapping from source set to destination set* view is only displayed, when editing an attribute mapping.   
 Depending on the selected row in the mappings list, the fields displayed in the *Settings* section differ:
 
-- If the selected row contains only a destination attribute, the destination attribute as well as the *Extension* and *Override Change tracking mode* drop-down lists are displayed.
-- If the selected row contains an attribute mapping with source, destination attribute and the extension, the destination attribute as well as the *Source attribute*, *Extension* and *Override Change tracking mode* drop-down lists are displayed. The *Source attribute*, *Extension* and *Override Change tracking mode* drop-down lists are preset. If the selected extension requires further configuration settings, the *Configuration* section is displayed below the *Settings* section.
+- If the selected row contains only a destination attribute, the destination attribute as well as the *Extension* and *Override change tracking mode* drop-down lists are displayed.
+- If the selected row contains an attribute mapping with source, destination attribute and the extension, the destination attribute as well as the *Source attribute*, *Extension* and *Override change tracking mode* drop-down lists are displayed. The *Source attribute*, *Extension* and *Override change tracking mode* drop-down lists are preset. If the selected extension requires further configuration settings, the *Configuration* section is displayed below the *Settings* section.
 
 
 - [SAVE]   
@@ -180,7 +180,7 @@ Depending on the selected row in the mappings list, the fields displayed in the 
 - *Extension*   
   Click the drop-down list and select the appropriate ETL extension for the attribute mapping. The displayed extensions depend on the data type of the selected destination attribute. For detailed information about the ETL extensions, see [ETL extensions list](03_ETLExtensions.md).
 
-- *Override Change tracking mode*   
+- *Override change tracking mode*   
   Click the drop-down list and select the change tracking mode of the mapping. By default, the **use default** option is selected. The following modes are available:
     - **use default**: The default change tracking mode is applied to the mapping.
     - **automatic**: The initial mapping is automatically applied. All value changes or reruns are applied automatically in the mapping.  

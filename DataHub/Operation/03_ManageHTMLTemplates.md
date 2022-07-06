@@ -162,9 +162,9 @@ The *HTML Templates for ETL* plugin is installed.
   - **entity**: Use the entity variable to include a variable referring to an attribute of a certain entity within the system, for instance *{$entity.id}*.
   - **tenant**: Use the tenant variable to include a variable referring to an attribute of the platform tenant, for instance *{$tenant.shortName}*.  
 
-3. If desired, include the target language and/or the target channel to the attribute variable value by adding the following suffixes at the end of the variable name:
-  - **target language**: Add *__LanguageKey* to include the target language to the variable. Replace *LanguageKey* by the corresponding language key and note, that all signs must be replaced by a *_*, for instance, add *__de_DE* for the language key *de-DE*. Pay attention to upper and lower case as the variables are case sensitive.
-  - **target language**: Add *__ChannelKey* to include the target channel to the variable. Replace *ChannelKey* by the corresponding channel key and note, that all signs must be replaced by a *_*, for instance, add *__actindo_basic* for the language key *actindo_basic*. Pay attention to upper and lower case as the variables are case sensitive.
+3. If desired, include the destination language and/or the destination channel to the attribute variable value by adding the following suffixes at the end of the variable name:
+  - **destination language**: Add *__LanguageKey* to include the destination language to the variable. Replace *LanguageKey* by the corresponding language key and note, that all signs must be replaced by a *_*, for instance, add *__de_DE* for the language key *de-DE*. Pay attention to upper and lower case as the variables are case sensitive.
+  - **destination language**: Add *__ChannelKey* to include the destination channel to the variable. Replace *ChannelKey* by the corresponding channel key and note, that all signs must be replaced by a *_*, for instance, add *__actindo_basic* for the language key *actindo_basic*. Pay attention to upper and lower case as the variables are case sensitive.
 
   > [Info] You can display all possible variables of a certain entity. For detailed information, see [Display the possible variables](#display-the-possible-variables).
 

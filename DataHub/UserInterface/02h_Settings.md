@@ -62,6 +62,8 @@
 - [RETRY]   
   Click this button to restart the selected ETL process. This button is only displayed, when a single checkbox of an ETL process with the **Error** status is selected. The *Process will be retried shortly* pop-up window is displayed in the upper right corner.
 
+  ![ETL processes](/Assets/Screenshots/DataHub/Settings/ETLProcesses/ProcessRetried.png "[ETL processes]")
+
 Depending on the selection in the *VIEW* drop-down list, the ETL processes list displays all processes with the selected status. All fields are read-only. Depending on the settings, the displayed columns may vary.
 
 - *Status*   
@@ -74,7 +76,6 @@ Depending on the selection in the *VIEW* drop-down list, the ETL processes list 
   - **Synchronous**
   - **Awaiting confirmation diff. user**
   - **Semi-automatic accepted**  
-  ![ETL processes](/Assets/Screenshots/DataHub/Settings/ETLProcesses/ProcessRetried.png "[ETL processes]")
 
   [comment]: <> (Status erklären?)
 
@@ -91,7 +92,7 @@ Depending on the selection in the *VIEW* drop-down list, the ETL processes list 
   Error message. This field is only displayed for ETL processes where an error has occurred.
 
 - *ID*   
-  Product identification number. The ID number is automatically assigned by the system when the product is created.
+  Process identification number. The ID number is automatically assigned by the system when the product is created.
 
 - *Destination Language*   
   Destination language to which the process is mapped.
@@ -103,14 +104,14 @@ Depending on the selection in the *VIEW* drop-down list, the ETL processes list 
   Date and time of the confirmation. This field is only displayed for ETL processes with the **Semi-automatic accepted** status.
 
 - *Accepted by*   
-  Name and username of the user who modified the product. This field is only displayed for ETL processes with the **Semi-automatic accepted** status.
+  Name and username of the user who modified the process. This field is only displayed for ETL processes with the **Semi-automatic accepted** status.
 
   [comment]: <> (Stimmt das? Hatte da noch nie ne Anzeige...)
 
 - *Created by*   
-  ID of ???
+  ID of the user who created the process.
 
-  [comment]: <> (Was für eine Nummer wird da angezeigt?)
+  [comment]: <> (Ganz schön umständlich, hier nur die User ID anzuzeigen - wäre es nicht einfacher, wie überall sonst auch hier den Namen und den Benutzernamen des Benutzers anzuzeigen?)
 
 
 ## Create view

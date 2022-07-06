@@ -4,6 +4,8 @@
 
 ![Attributes](/Assets/Screenshots/DataHub/Settings/Attributes/Attributes.png "[Attributes]")
 
+**Attribute list**
+
 - ![Search](/Assets/Icons/Search.png "[Search]") (Search)   
   Click this button to display the search bar and search for an attribute.
 
@@ -19,7 +21,7 @@
 - [x]     
   Select the checkbox to display the editing toolbar. If you click the checkbox in the header, all attributes in the list are selected.
 
-- [EDIT]
+- [EDIT]   
   Click this button to edit the selected attribute. This button is only displayed, when a single checkbox of an attribute is selected. Alternatively, you can click directly a row in the list to edit an attribute.
   For detailed information, see [Edit an attribute](/DataHub/Integration/01_ManageAttributes.md#edit-an-attribute).
 
@@ -45,7 +47,7 @@ The list displays all attributes. All fields are read-only. Depending on the set
   Attribute key.
 
 - *Data Type*   
-  Attribute data type. For detailed information about all data types, see [Data types list](to_be_completed).
+  Attribute data type. For detailed information about all data types, see [Data type list](/PIM/UserInterface/04_DataTypeList.md).
 
 - *Description*   
   Description to the attribute.
@@ -95,6 +97,8 @@ The list displays all attributes. All fields are read-only. Depending on the set
 
 ![Create attribute](/Assets/Screenshots/DataHub/Settings/Attributes/CreateAttribute.png "[Create attribute]")
 
+**Create attribute**
+
 - ![Back](/Assets/Icons/Back02.png "[Back]") (Back)   
   Click this button to close the *Create Attribute* view and return to the attributes list. All changes are rejected.
 
@@ -126,7 +130,7 @@ The list displays all attributes. All fields are read-only. Depending on the set
 - ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Active*   
   Enable this toggle to set the attribute status to active. Disable the toggle to set the status to inactive. By default, this toggle is active.
 
-- *Assigned Sets*
+- *Assigned Sets*   
     Click the drop-down list and select an attribute set to which the attribute is assigned after creation. All active attribute sets are displayed. The drop-down list is only displayed when at least one attribute set drop-down list has been added.
 
   - ![Add](/Assets/Icons/Plus05.png "[Add]") (Add)    
@@ -149,6 +153,8 @@ For detailed information about the different configurations of data types, see [
 *DataHub > Settings > Tab ATTRIBUTES > Select attribute > Tab Data*
 
 ![Edit attribute](/Assets/Screenshots/DataHub/Settings/Attributes/EditAttribute.png "[Edit attribute]")
+
+**Edit attribute**
 
 - ![Back](/Assets/Icons/Back02.png "[Back]") (Back)   
   Click this button to close the *Edit Attribute* view and return to the attributes list. All changes are rejected.
@@ -174,7 +180,7 @@ For detailed information about the different configurations of data types, see [
   Click the field to edit the description to the attribute in the selected language.
 
 - *Data Type*   
-  Attribute data type. In the *Edit Attribute* view, this field is locked. For detailed information about all data types, see [Data type list](04_DataTypeList.md).
+  Attribute data type. In the *Edit Attribute* view, this field is locked. For detailed information about all data types, see [Data type list](/PIM/UserInterface/04_DataTypeList.md).
 
 - *Key*   
   Attribute key. The key is required for API access and must be system wide unique. In the *Edit Attribute* view, this field is locked.

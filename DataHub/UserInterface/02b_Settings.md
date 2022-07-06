@@ -4,6 +4,8 @@
 
 ![Attribute sets](/Assets/Screenshots/DataHub/Settings/AttributeSets/AttributeSets.png "[Attribute sets]")
 
+**Attribute set list**
+
 - ![Search](/Assets/Icons/Search.png "[Search]") (Search)   
   Click this button to display the search bar and search for an attribute set.
 
@@ -19,11 +21,11 @@
 - [x]     
   Select the checkbox to display the editing toolbar. If you click the checkbox in the header, all attribute sets in the list are selected.
 
-- [EDIT]
+- [EDIT]   
   Click this button to edit the selected attribute set. This button is only displayed, when a single checkbox of an attribute set is selected. Alternatively, you can click directly a row in the list to edit a attribute set.
   For detailed information, see [Edit an attribute set](/DataHub/Integration/02_ManageAttributeSets.md#edit-an-attribute-set).
 
-- [DELETE]
+- [DELETE]   
   Click this button to delete the selected attribute set. This button is only displayed, when the checkbox of at least one attribute set is selected.       
 
   [comment]: <> (Mostly not possible to delete an attribute set -> no integration procedure to delete an attribute set -> why is the button still existing? Not working... )
@@ -76,7 +78,7 @@ The list displays all attribute sets. All fields are read-only. Depending on the
   Attribute description in the displayed language. For each active language exists one *Description* column.
 
 - ![Add](/Assets/Icons/Plus01.png "[Add]") (Add)   
-  Click this button to create an attribute set. The *Create Set* view is displayed.   
+  Click this button to create an attribute set. The *Create attribute set* view is displayed.   
 
 
 ## Create attribute set
@@ -84,15 +86,17 @@ The list displays all attribute sets. All fields are read-only. Depending on the
 
 ![Create attribute set](/Assets/Screenshots/DataHub/Settings/AttributeSets/CreateAttributeSet.png "[Create attribute set]")
 
+**Create attribute set**
+
 - ![Back](/Assets/Icons/Back02.png "[Back]") (Back)   
-  Click this button to close the *Create Attribute Set* view and return to the attribute set list. All changes are rejected.
+  Click this button to close the *Create attribute set* view and return to the attribute set list. All changes are rejected.
 
 - Language   
   Click the drop-down list and select the language in which the *Name (Language)* and *Description (Language)* fields are displayed. The system languages *English (United States)* and *Deutsch (Deutschland)* are available in the drop-down list.
   [comment]: <> (Is that right? -> language question)
 
 - [SAVE]   
-  Click this button to save the attribute set, close the *Create Attribute Set* view and return to the attribute set list.
+  Click this button to save the attribute set, close the *Create attribute set* view and return to the attribute set list.
 
 - *Name (Language)*   
   Attribute set name in the selected language.
@@ -107,7 +111,8 @@ The list displays all attribute sets. All fields are read-only. Depending on the
   Enable this toggle to set the attribute set status to active. Disable the toggle to set the status to inactive. By default, this toggle is enabled.
 
 - *Entity Type*   
-  Click the drop-down list to select the appropriate entity type. All available entity types are displayed in the list. For detailed information, see [Entity Types List](to_be_completed).  
+  Click the drop-down list to select the appropriate entity type. All available entity types are displayed in the list.
+  [comment]: <> (For detailed information, see [Entity Types List])
 
 - *Inherit/Copy Values from*   
   Click the drop-down list to select whether or not the values for the new attribute set should be inherited or copied from an existing attribute set. The following options are available:    
@@ -125,7 +130,7 @@ The list displays all attribute sets. All fields are read-only. Depending on the
   - **Inherit**: The attribute values are applied from the selected attribute set and updated each time if the selected set changes.
 
 
-**Assigned Attributes**
+**Assigned attributes**
 
 - ![Settings](/Assets/Icons/Settings01.png "[Settings]") (Settings)   
   Click this button to unlock the *required* column in the attributes list. The color of the button switches to blue if the column is unlocked. Click the button again to lock the *required* column. The button color switches back to gray.
@@ -142,7 +147,7 @@ The list displays all attribute sets. All fields are read-only. Depending on the
 - [x]     
   Select the checkbox to display the editing toolbar. If you click the checkbox in the header, all attributes in the list are selected.
 
-In the *Create Attribute Set* view, no attributes are displayed in list. You have to save the attribute set to edit the assigned attributes.   
+In the *Create attribute set* view, no attributes are displayed in list. You have to save the attribute set to edit the assigned attributes.   
 
 
 ## Edit attribute set
@@ -150,15 +155,17 @@ In the *Create Attribute Set* view, no attributes are displayed in list. You hav
 
 ![Edit attribute set](/Assets/Screenshots/DataHub/Settings/AttributeSets/EditAttributeSet.png "[Edit attribute set]")
 
+**Edit attribute set**
+
 - ![Back](/Assets/Icons/Back02.png "[Back]") (Back)   
-  Click this button to close the *Edit Attribute Set* view and return to the attribute set list. All changes are rejected.
+  Click this button to close the *Edit attribute set* view and return to the attribute set list. All changes are rejected.
 
 - Language   
   Click the drop-down list and select the language in which the *Name (Language)* and *Description (Language)* fields are displayed. The system languages *English (United States)* and *Deutsch (Deutschland)* are available in the drop-down list.
   [comment]: <> (Is that right? -> language question)
 
 - [SAVE]   
-  Click this button to save the attribute set, close the *Edit Attribute Set* view and return to the attribute set list.
+  Click this button to save the attribute set, close the *Edit attribute set* view and return to the attribute set list.
 
 - *Name (Language)*   
   Attribute set name in the selected language.
@@ -167,7 +174,7 @@ In the *Create Attribute Set* view, no attributes are displayed in list. You hav
   Description to the attribute set in the selected language.
 
 - *Key*   
-  Attribute set key. The key is required for API access and must be system wide unique. In the *Edit Attribtue Set* view, this field is locked.
+  Attribute set key. The key is required for API access and must be system wide unique. In the *Edit attribute set* view, this field is locked.
 
 - ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Active*   
   Enable this toggle to set the attribute set status to active. Disable the toggle to set the status to inactive. By default, this toggle is enabled.
@@ -233,11 +240,12 @@ The list displays all attributes assigned to the selected attribute set. When th
   - ![Check](/Assets/Icons/Check.png "[Check]") (Checkmark): The attribute is ???.  
   - ![Cross](/Assets/Icons/Cross02.png "[Cross]") (Cross): The attribute is ???.
 
+
 - *Key*   
   Attribute key. The key is required for API access and must be system wide unique.
 
 - *Data Type*   
-  Attribute data type. For detailed information about all data types, see [Data type list](04_DataTypeList.md).
+  Attribute data type. For detailed information about all data types, see [Data type list](/PIM/UserInterface/04_DataTypeList.md).
 
 - *inherited from*   
   Inheritance attribute set. The name of the attribute set from which the attribute value is inherited is displayed. If the attribute value is not inherited, the row is empty.
@@ -289,7 +297,9 @@ The list displays all attributes assigned to the selected attribute set. When th
 
 *DataHub > Settings > Tab ATTRIBUTE SETS > Select attribute set > Select attribute*
 
-![Edit Attribute for Set](/Assets/Screenshots/DataHub/Settings/AttributeSets/EditAttribute.png "[Edit Attribute for  Set]")
+![Edit Attribute for Set](/Assets/Screenshots/DataHub/Settings/AttributeSets/EditAttributeForSet.png "[Edit Attribute for Set]")
+
+**Edit attribute for set**
 
 - ![Back](/Assets/Icons/Back02.png "[Back]") (Back)   
   Click this button to close the *Edit Attribute for Set* view and return to *Edit Attribute Set* view. All changes are rejected.
@@ -331,7 +341,7 @@ This view equals to the attribute mapping in the *DataHub* module: *DataHub > Se
 - *Extension*   
   Click the drop-down list and select the desired ETL extension for the mapping. The extensions in the list differ depending on the data type of the destination attribute.
 
-- *Override Changetrackingmode*   
+- *Override change tracking mode*   
   Change tracking mode (ETL mode) for the mapping. The drop-down list is read-only. The option **use default** is preset.
 
 The fields on the left side differ depending on the selected ETL extension. For detailed information about the ETL extensions and how to create an attribute mapping, see [ETL extensions](03_ETLExtensions.md) and [Edit an ETL attribute mapping](/DataHub/Operation/01_ManageETLMappings.md#edit-an-etl-attribute-mapping).

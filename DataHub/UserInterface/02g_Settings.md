@@ -35,6 +35,7 @@ The list displays all dimensions. All fields are read-only. Depending on the set
   - ![Status](/Assets/Icons/Status01.png "[Status]") **Active**
   - ![Status](/Assets/Icons/Status04.png "[Status]") **Inactive**     
 
+
 - *Units*   
   Units associated with the dimension. The base unit is highlighted in bold.
 
@@ -60,6 +61,8 @@ The list displays all dimensions. All fields are read-only. Depending on the set
 *DataHub > Settings > Tab UNITS AND DIMENSIONS > Select dimension*
 
 ![Detail list of dimension](/Assets/Screenshots/DataHub/Settings/UnitsDimensions/DetailListDimension.png "[Detail list of dimension]")
+
+**Detail list of dimension**
 
 **BASIC DATA**
 

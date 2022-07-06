@@ -7,7 +7,6 @@ An attribute set consists of a group of attributes to classify certain products 
 [comment]: <> (Are there any other sets outside PIM predefined?)
 
 You can create attribute sets, edit existing attribute sets and deactivate attribute sets that are not in use. You can add attributes to or remove attributes from an attribute set and change the required attributes within an attribute set.
-Further, you can import or export attribute sets.
 
 
 ## Create an attribute set
@@ -105,8 +104,6 @@ The attributes for the attribute set are created, see [Create an attribute](01_M
 - [Remove an attribute from the set](#remove-an-attribute-from-the-set)
 - [Change the required attributes in the set](#change-the-required-attributes-in-the-set)
 - [Deactivate an attribute set](#deactivate-an-attribute-set)
-- [Import an attribute set](#import-an-attribute-set)
-- [Export an attribute set](#export-an-attribute-set)
 - [Manage the attribute groups](03_ManageAttributeGroups.md)
 - [Manage the channels](04_ManageChannels.md)
 - [Manage the languages](05_ManageLanguages.md)
@@ -165,8 +162,6 @@ In the *DataHub* module all available attributes can be added to the different a
 - [Remove an attribute from the set](#remove-an-attribute-from-the-set)
 - [Change the required attributes in the set](#change-the-required-attributes-in-the-set)
 - [Deactivate an attribute set](#deactivate-an-attribute-set)
-- [Import an attribute set](#import-an-attribute-set)
-- [Export an attribute set](#export-an-attribute-set)
 - [Manage the attribute groups](03_ManageAttributeGroups.md)
 - [Manage the channels](04_ManageChannels.md)
 - [Manage the languages](05_ManageLanguages.md)
@@ -216,8 +211,6 @@ Remove an attribute from an attribute set to limit the specifications. Inherited
 
 - [Change the required attributes in the set](#change-the-required-attributes-in-the-set)
 - [Deactivate an attribute set](#deactivate-an-attribute-set)
-- [Import an attribute set](#import-an-attribute-set)
-- [Export an attribute set](#export-an-attribute-set)
 - [Manage the attribute groups](03_ManageAttributeGroups.md)
 - [Manage the channels](04_ManageChannels.md)
 - [Manage the languages](05_ManageLanguages.md)
@@ -271,8 +264,6 @@ An attribute set is created, see [Create an attribute set](#create-an-attribute-
 #### Next steps
 
 - [Deactivate an attribute set](#deactivate-an-attribute-set)
-- [Import an attribute set](#import-an-attribute-set)
-- [Export an attribute set](#export-an-attribute-set)
 - [Manage the attribute groups](03_ManageAttributeGroups.md)
 - [Manage the channels](04_ManageChannels.md)
 - [Manage the languages](05_ManageLanguages.md)
@@ -320,8 +311,6 @@ At least one attribute set is created, see [Create an attribute set](#create-an-
 
 ### Next steps
 
-- [Import an attribute set](#import-an-attribute-set)
-- [Export an attribute set](#export-an-attribute-set)
 - [Manage the attribute groups](03_ManageAttributeGroups.md)
 - [Manage the channels](04_ManageChannels.md)
 - [Manage the languages](05_ManageLanguages.md)
@@ -335,118 +324,4 @@ At least one attribute set is created, see [Create an attribute set](#create-an-
 - [Add an attribute to the set](#add-an-attribute-to-the-set)
 - [Remove an attribute from the set](#remove-an-attribute-from-the-set)
 - [Change the required attributes in the set](#change-the-required-attributes-in-the-set)
-- [Manage the attributes](01_ManageAttributes.md)
-
-
-
---------
-[comment]: <> (Import/Export will be changed)
-
-## Import an attribute set
-
-### Prerequisites
-No prerequisites to fulfill.
-
-### Procedure
-*DataHub > Settings > Tab ATTRIBUTE SETS*
-
-![Attributes](/Assets/Screenshots/DataHub/Settings/AttributeSets/AttributeSets.png "[Attributes]")
-
-1. Click the [IMPORT] button in the upper left corner.   
-  The *Upload file* window of the import wizard is displayed.
-
-  ![Upload file](/Assets/Screenshots/DataHub/Settings/AttributeSets/Import01.png "[Upload file]")
-
-2. Drag the import file from your local folder and drop it in the dashed box ![Upload](/Assets/Icons/Upload.png "[Upload]") *Drop file here...*. Alternatively, click the [SELECT FILE] button and select a file from your local folder in the displayed Explorer window.   
-  The selected file is displayed in the dashed box.
-
-  > [Info] What file types are supported? What requirements?
-
-3. Enable the *Move existing attributes into attribute groups specified in the file* toggle if you want to ???
-
-[comment]: <> (---> what is this setting doing?)
-
-4. Click the [CONTINUE] button in the bottom right corner. The button is unlocked if an appropriate file is uploaded.   
-  The *Summary* window of the import wizard is displayed.
-
-  ![Summary](/Assets/Screenshots/DataHub/Settings/AttributeSets/Import02.png "[Summary]")
-
-5. Click the [FINALIZE] button in the bottom right corner.
-  The import is completed.
-
-### Next steps
-
-- [Export an attribute set](#export-an-attribute-set)
-- [Manage the attribute groups](03_ManageAttributeGroups.md)
-- [Manage the channels](04_ManageChannels.md)
-- [Manage the languages](05_ManageLanguages.md)
-- [Manage the units and dimensions](06_ManageUnitsDimensions.md)
-
-### See also
-
-- [User Interface DataHub](/DataHub/UserInterface/00_UserInterface.md)
-- [Create an attribute set](#create-an-attribute-set)
-- [Edit an attribute set](#edit-an-attribute-set)
-- [Add an attribute to the set](#add-an-attribute-to-the-set)
-- [Remove an attribute from the set](#remove-an-attribute-from-the-set)
-- [Change the required attributes in the set](#change-the-required-attributes-in-the-set)
-- [Deactivate an attribute set](#deactivate-an-attribute-set)
-- [Manage the attributes](01_ManageAttributes.md)
-
-
-
-## Export an attribute set
-
-### Prerequisites
-At least one attribute set is created, see [Create an attribute set](#create-an-attribute-set).
-
-### Procedure
-*DataHub > Settings > Tab ATTRIBUTE SETS*
-
-![Attributes](/Assets/Screenshots/DataHub/Settings/AttributeSets/AttributeSets.png "[Attributes]")
-
-1. Select the checkboxes of the attribute sets you want to export.   
-  The editing toolbar is displayed above the attribute sets list.
-
-2. Click the [EXPORT] button in the toolbar.  
-  The *Step 1* window of the export wizard is displayed.
-
-  ![Export Step 1](/Assets/Screenshots/DataHub/Settings/AttributeSets/Export01.png "[Export Step 1]")
-
-3. Select the checkboxes of the attributes you want to exclude from the export.   
-
-4. Click the [CONTINUE] button in the bottom right corner.  
-  The *Step 2* window of the export wizard is displayed.
-
-  ![Export Step 2](/Assets/Screenshots/DataHub/Settings/AttributeSets/Export02.png "[Export Step 2]")
-
-  > [Info] If the attributes selected for export are not assigned to an attribute set, the *Step 2* window of the export wizard is skipped and the *Step 3* window is immediately displayed.
-
-5. Select the checkboxes of the variant sets you want to exclude from the export.   
-
-6. Click the [CONTINUE] button in the bottom right corner.  
-  The *Step 3* window of the export wizard is displayed.
-
-  ![Export Step 3](/Assets/Screenshots/DataHub/Settings/AttributeSets/Export03.png "[Export Step 3]")
-
-7. Click the [EXPORT] button in the bottom right corner.
-  The export is started. By default, the export file is saved in the local download folder.
-
-### Next steps
-
-- [Manage the attribute groups](03_ManageAttributeGroups.md)
-- [Manage the channels](04_ManageChannels.md)
-- [Manage the languages](05_ManageLanguages.md)
-- [Manage the units and dimensions](06_ManageUnitsDimensions.md)
-
-### See also
-
-- [User Interface DataHub](/DataHub/UserInterface/00_UserInterface.md)
-- [Create an attribute set](#create-an-attribute-set)
-- [Edit an attribute set](#edit-an-attribute-set)
-- [Add an attribute to the set](#add-an-attribute-to-the-set)
-- [Remove an attribute from the set](#remove-an-attribute-from-the-set)
-- [Change the required attributes in the set](#change-the-required-attributes-in-the-set)
-- [Deactivate an attribute set](#deactivate-an-attribute-set)
-- [Import an attribute set](#import-an-attribute-set)
 - [Manage the attributes](01_ManageAttributes.md)

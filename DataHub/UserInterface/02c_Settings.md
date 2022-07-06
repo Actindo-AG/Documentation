@@ -4,7 +4,7 @@
 
 ![Group attributes](/Assets/Screenshots/DataHub/Settings/AttributeGroups/GroupAttributes.png "[Group attributes]")
 
-**Attribute Groups**
+**Attribute groups**
 
 - ![Edit](/Assets/Icons/Edit02.png "[Edit]") (Edit)   
   Click this button to edit the attribute groups. The *Edit attribute groups* view is displayed.   
@@ -16,7 +16,7 @@
 - ![Folder](/Assets/Icons/Folder01.png "[Folder]") (Folder)  
   Attribute group. Click the attribute group to display all attributes that are assigned to the selected attribute group in the *Assigned Attributes* list.
 
-**Assigned Attributes**
+**Assigned attributes**
 
 - ![Sort](/Assets/Icons/Sort02.png "[Sort]") (Sort)   
   Click this button to display the filter bar and customize the active filters. The *x* indicates the number of filters that are currently active. The button is only displayed when an attribute group is selected.
@@ -72,6 +72,8 @@ The list displays all attributes assigned to the selected attribute group. All f
 *DataHub > Settings > Tab ATTRIBUTE GROUPS > Button Add*
 
 ![Add attributes](/Assets/Screenshots/DataHub/Settings/AttributeGroups/AddAttributes.png "[Add attributes]")
+
+**Add attributes to group**
 
 - ![Back](/Assets/Icons/Back02.png "[Back]") (Back)   
   Click this button to cancel adding an attribute to the selected attribute group and close the *Add attributes to attribute group* view.
@@ -130,6 +132,8 @@ The list displays all attributes that are not assigned to the selected attribute
 *DataHub > Settings > Tab ATTRIBUTE GROUPS > Button Edit*
 
 ![Edit attribute groups](/Assets/Screenshots/DataHub/Settings/AttributeGroups/EditAttributeGroups.png "[Edit attribute groups]")
+
+**Edit attribute groups**
 
 - ![Back](/Assets/Icons/Back02.png "[Back]") (Back)   
   Click this button to close the *Edit attribute groups* view and return to the *Attribute Groups* view. All changes are rejected.

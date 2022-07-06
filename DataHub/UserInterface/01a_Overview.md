@@ -96,32 +96,19 @@ In the *DASHBOARDS* tab, the custom tabs with composable dashlets are displayed.
 
 - [x]
   Select a checkbox to add the selected dashlet to the tab. You can select multiple checkboxes. If you click the checkbox in the header, all dashlets in the list are selected. A toolbar indicating the number of selected dashlets is displayed above the list when you have selected at least one checkbox. By default, the following dashlets are available:
-  - Attribute Count:   
-    This dashlet displays the number of attributes in the *DataHub* module.
-  - Language Count:   
-    This dashlet displays the number of languages in the *DataHub* module.
-  -	Set Count:   
-    This dashlet displays the number of attribute sets in the *DataHub* module.
-  -	Entity Type Count:  
-    This dashlet displays the number of different entity types in the *DataHub* module.
-  -	Group Count:   
-    This dashlet displays the number of groups in the *DataHub* module.
-  -	Channel Count:   
-    This dashlet displays the number of channels in the *DataHub* module.
-  -	Entity Values by Entity Type:  
-    This dashlet displays a ring chart with the distribution of entity values by entity type in the *DataHub* module.
-  -	Mapping Errors:   
-    This dashlet displays a chart with the number of mapping errors in the *DataHub* module.
-  -	New and Changed Values:  
-    This dashlet displays a line chart with the number of new and changes values within a certain period of time in the *DataHub* module.
-  -	Modified Values by Set for Today:  
-    This dashlet displays a chart with the number of today's modified values within an attribute set in the *DataHub* module.
-  -	Current Mapping Statistics:   
-    This dashlet displays a bar chart with the average and current number of mappings. These numbers are displayed for the waiting, the successful and all mappings in the *DataHub* module.
-  -	ETL Mapping History:   
-    This dashlet displays a chart with the history of mapping number for the waiting, the successful and all mappings in the *DataHub* module.
-  -	DataHub Flow:  
-    This dashlet displays a flow chart with connection of mappings between the different entities. By enabling the *Show Disconnected Nodes* toggle, also those entities without any mapping connection are displayed in the flow chart.  
+  - Attribute Count: This dashlet displays the number of attributes in the *DataHub* module.
+  - Language Count: This dashlet displays the number of languages in the *DataHub* module.
+  -	Set Count: This dashlet displays the number of attribute sets in the *DataHub* module.
+  -	Entity Type Count: This dashlet displays the number of different entity types in the *DataHub* module.
+  -	Group Count: This dashlet displays the number of groups in the *DataHub* module.
+  -	Channel Count: This dashlet displays the number of channels in the *DataHub* module.
+  -	Entity Values by Entity Type: This dashlet displays a ring chart with the distribution of entity values by entity type in the *DataHub* module.
+  -	Mapping Errors: This dashlet displays a chart with the number of mapping errors in the *DataHub* module.
+  -	New and Changed Values: This dashlet displays a line chart with the number of new and changes values within a certain period of time in the *DataHub* module.
+  -	Modified Values by Set for Today: This dashlet displays a chart with the number of today's modified values within an attribute set in the *DataHub* module.
+  -	Current Mapping Statistics: This dashlet displays a bar chart with the average and current number of mappings. These numbers are displayed for the waiting, the successful and all mappings in the *DataHub* module.
+  -	ETL Mapping History: This dashlet displays a chart with the history of mapping number for the waiting, the successful and all mappings in the *DataHub* module.
+  -	DataHub Flow: This dashlet displays a flow chart with connection of mappings between the different entities. By enabling the *Show Disconnected Nodes* toggle, also those entities without any mapping connection are displayed in the flow chart.  
 
 [comment]: <> (Check dashlet description)
 
