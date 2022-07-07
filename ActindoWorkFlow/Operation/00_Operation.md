@@ -4,8 +4,8 @@
   - [Create a workflow](01_ManageWorkflows.md#create-a-workflow)
   - [Edit a workflow](01_ManageWorkflows.md#edit-a-workflow)
   - [Copy a workflow](01_ManageWorkflows.md#copy-a-workflow)
-  - [Publish a workflow](01_ManageWorkflows.md#publish-a-workflow)
-  - [Unpublish a workflow](01_ManageWorkflows.md#unpublish-a-workflow)
+  - [Publish a workflow version](01_ManageWorkflows.md#publish-a-workflow-version)
+  - [Unpublish a workflow version](01_ManageWorkflows.md#unpublish-a-workflow-version)
 
 
 - [Track a workflow process](02_TrackWorkflowProcess.md)

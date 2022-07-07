@@ -47,7 +47,7 @@ Click the drop-down list to select a process status. The following options are a
     - **Ready**  
     Select this option to display the processes that have just been initiated.
 
-    - **In Progress**  
+    - **In progress**  
     Select this option to display the processes that are currently active (first action is already executed).
 
     - **Error**  
@@ -94,18 +94,18 @@ The list displays all processes that are matching the selected values (status an
   Depending on the process status, the editing toolbar displays the following buttons:
 
   - ![Abort](/Assets/Icons/Stop.png "[Abort]") (Abort)  
-    Click this button to end the process. This button is displayed when the process status is *Error* or *In Progress*. When clicking this button, the process status changes to *Aborted*.
+    Click this button to end the process. This button is displayed when the process status is *Error* or *In progress*. When clicking this button, the process status changes to *Aborted*.
   - ![Suspend](/Assets/Icons/Pause.png "[Suspend]") (Suspend)  
-    Click this button to suspend the process temporarily. This button is displayed when the process status is *In Progress*.  When clicking this button, the process status changes to *Suspended*.
+    Click this button to suspend the process temporarily. This button is displayed when the process status is *In progress*.  When clicking this button, the process status changes to *Suspended*.
   - ![Start](/Assets/Icons/Play.png "[Start]") (Start)  
-    Click this button to resume the process. This button is displayed when the process status is *Suspended*. When clicking this button, process status changes again to *In Progress*.
+    Click this button to resume the process. This button is displayed when the process status is *Suspended*. When clicking this button, process status changes again to *In progress*.
 
 
   - *Status*  
     Status of the process. The different process statuses are displayed in different colors. The following statuses are possible:
 
     - Ready (light gray)
-    - In Progress (blue)
+    - In progress (blue)
     - Error (red)
     - Done (green)
     - Dead (black)
@@ -113,7 +113,7 @@ The list displays all processes that are matching the selected values (status an
     - Aborted (black)
 
 
-  - *Suspended Actions*  
+  - *Suspended actions*  
     If the process contains suspended actions, a ![Warning](/Assets/Icons/Warning.png "[Warning]") sign is displayed. Click the process to display the individual actions, see [Actions](#actions).
 
   - *Subject*  
@@ -122,7 +122,7 @@ The list displays all processes that are matching the selected values (status an
   - *Workflow*  
     Name of the corresponding workflow.
 
-  - *Queue Type*  
+  - *Queue type*  
     Queue type configured in the process. This column displays the queue type name or the text "According to configuration in workflow". For detailed information about configuring the queue types, see [Configure the queue types](ActindoWorkFlow/Integration/01_ConfigureQueueTypes.md).
 
   - *Priority*  
@@ -137,7 +137,7 @@ The list displays all processes that are matching the selected values (status an
   - *ID*  
     Process identification number. The ID number is automatically assigned by the system.
 
-  - *Owning Module*  
+  - *Owning module*  
     Module that has created the workflow.
 
     > [Info] When a workflow is manually created in the *Workflow* module, the text "ActindoWorkFlow" is displayed. A workflow can also be created automatically by a different module. In this case, the name of the corresponding module is displayed.  
@@ -255,11 +255,11 @@ The list displays all executed actions that are matching the selected status. De
   - ![Retry](/Assets/Icons/Retry01.png "[Retry]") (Retry)  
     Click this button to retry the action. This button is displayed when the action status is *Error*.
   - ![Suspend](/Assets/Icons/Pause.png "[Suspend]") (Suspend)  
-    Click this button to suspend the action temporarily. This button is displayed when the action status is *In Progress*. When clicking this button, the action status changes to *Suspended*.
+    Click this button to suspend the action temporarily. This button is displayed when the action status is *In progress*. When clicking this button, the action status changes to *Suspended*.
   - ![Start](/Assets/Icons/Play.png "[Start]") (Start)  
-    Click this button to resume the action. This button is displayed when the action status is *Suspended*. When clicking this button, the action status changes again to *In Progress*. The warning sign in the *Suspended Actions* column of the *Processes* view is no longer displayed.
+    Click this button to resume the action. This button is displayed when the action status is *Suspended*. When clicking this button, the action status changes again to *In progress*. The warning sign in the *Suspended actions* column of the *Processes* view is no longer displayed.
   - [REMOVE DEFER TIME]  
-    Click this button to skip the defer time preconfigured in the action, if any. The action is then executed immediately. This button is displayed when the action status is *In Progress*.
+    Click this button to skip the defer time preconfigured in the action, if any. The action is then executed immediately. This button is displayed when the action status is *In progress*.
 
     > [Info] The defer time is preconfigured pro action in the system. If the defer time is removed once, the action is executed immediately. If the action gives an error again, it will be retried once that preconfigured defer time has elapsed.
 
@@ -286,7 +286,7 @@ The list displays all executed actions that are matching the selected status. De
   > [Info] This setting depends on the transition and is usually preconfigured. In the current version, this value can be modified in the *Import JSON* window, see [Import JSON](02a_Workflows.md#import-json).
 
 
-  - *Queue Type*  
+  - *Queue type*  
   Queue type assigned to the action. By default, the *Default* queue type is assigned. For detailed information about configuring queue types, see [Configure the queue types](/ActindoWorkFlow/Integration/01_ConfigureQueueTypes.md).
 
   > [Info] A different queue type can be selected by editing an action in the workflow editor, see [Edit an action](/ActindoWorkFlow/Operation/01_ManageWorkflows.md#edit-an-action).
@@ -348,7 +348,7 @@ Click the drop-down list to select the view. All created views are displayed in 
     Click this entry to delete the selected view. A confirmation window to confirm the deletion is displayed. This menu entry is only displayed when a view is selected.
 
 
-- *Log Level*  
+- *Log level*  
 Click the drop-down list to select a log level. The following options are available:  
 
   - **All**  
@@ -384,7 +384,7 @@ Click this button to display the columns bar and customize the displayed columns
 Click this button to display the filter bar and customize the active filters. The *x* indicates the number of filters that are currently active.
 
 
-The list displays all logs that are matching the selected log level. Depending on the settings, the displayed columns may vary. All fields are read-only. Click a log to display the *Log ID* view, see [Log ID](#Log-ID).
+The list displays all logs that are matching the selected log level. Depending on the settings, the displayed columns may vary. All fields are read-only. Click a log to display the *Log ID* view, see [Log ID](#log-id).
 
 
   - *Type*  
@@ -400,7 +400,7 @@ The list displays all logs that are matching the selected log level. Depending o
     - **Emergency**
 
 
-  - *Log Message*  
+  - *Log message*  
   Description of the issue.
 
   - *Workflow*  
@@ -431,6 +431,50 @@ The list displays all logs that are matching the selected log level. Depending o
   Name and user name of the user who initiated the process.
 
 
+
+### Log ID
+
+*Workflows > Processes > Tab OVERVIEW > Select a process > Tab Logs > Select Log message*
+
+![Log ID](/Assets/Screenshots/ActindoWorkFlow/Processes/LogID.png "[Log ID]")
+
+- ![Back](/Assets/Icons/Back02.png "[Back]") (Back)  
+Click this button to close the *Log ID* view and return to the *Logs* tab in the *Process ID* view.
+
+
+**Log message**  
+
+In the *Log message* section, detailed information about the log is displayed. All fields are read-only.
+
+- *Log level*  
+Log level type. The following levels can be displayed:
+
+  - **Debug**  
+  - **Info**  
+  - **Notice**  
+  - **Warning**  
+  - **Error**  
+  - **Critical**  
+  - **Alert**  
+  - **Emergency**  
+
+
+- Log message box   
+  Detailed log message with further information.
+
+  > [Info] In case of an error, detailed information is provided (stack trace) for reporting and debugging purposes.
+
+- *Created - by*  
+Date and time of creation, name and user name of the user who initiated the process.
+
+- *Workflow*  
+Workflow ID number and name.
+
+- *Process*  
+Process ID number and description.
+
+- *Transition*  
+Transition ID number and description.
 
 ### Tokens
 
@@ -517,7 +561,7 @@ The list displays all tokens if the *Hide processed* toggle is disabled. Dependi
   - *Place ID*  
   Place identification number. The ID number is automatically assigned by the system.
 
-  - *Process Action ID*  
+  - *Process action ID*  
   Action identification number. The ID number is automatically assigned by the system.
 
 
@@ -555,49 +599,3 @@ Click this button to cancel renaming a view. The *Rename view* window is closed.
 
 - [SAVE]  
 Click this button to save the changes to the view name. The *Rename view* window is closed. The new name for the view is saved and displayed in the *View* drop-down list.
-
-
-
-#### Log ID
-
-*Workflows > Processes > Tab OVERVIEW > Select a process > Tab Logs > Select Log Message*
-
-![Log ID](/Assets/Screenshots/ActindoWorkFlow/Processes/LogID.png "[Log ID]")
-
-- ![Back](/Assets/Icons/Back02.png "[Back]") (Back)  
-Click this button to close the *Log ID* view and return to the *Logs* tab in the *Process ID* view.
-
-
-**Log Message**  
-
-In the *Log Message* section, detailed information about the log is displayed. All fields are read-only.
-
-- *Log Level*  
-Log level type. The following levels can be displayed:
-
-  - **Debug**  
-  - **Info**  
-  - **Notice**  
-  - **Warning**  
-  - **Error**  
-  - **Critical**  
-  - **Alert**  
-  - **Emergency**  
-
-
-- Log message box   
-  Detailed log message with further information.
-
-  > [Info] In case of an error, detailed information is provided (stack trace) for reporting and debugging purposes.
-
-- *Created - by*  
-Date and time of creation, name and user name of the user who initiated the process.
-
-- *Workflow*  
-Workflow ID number and name.
-
-- *Process*  
-Process ID number and description.
-
-- *Transition*  
-Transition ID number and description.

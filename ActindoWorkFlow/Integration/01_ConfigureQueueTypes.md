@@ -55,7 +55,7 @@ No prerequisites to fulfill.
 - [Assign a queue type](#assign-a-queue-type)
 - [Delete a queue type](#delete-a-queue-type)
 - [Kill workers](#kill-workers)
-- [Configure the logging setting](01_ConfigureLoggingSettings.md)
+- [Configure the logging settings](01_ConfigureLoggingSettings.md)
 
 ### See also
 
@@ -106,7 +106,7 @@ You have the required rights to edit the developer settings in the engine room.
 - [Assign a queue type](#assign-a-queue-type)
 - [Delete a queue type](#delete-a-queue-type)
 - [Kill workers](#kill-workers)
-- [Configure the logging setting](01_ConfigureLoggingSettings.md)
+- [Configure the logging settings](01_ConfigureLoggingSettings.md)
 
 ### See also
 
@@ -195,7 +195,7 @@ Change the number of workers of a queue type to increase or decrease the executi
 - [Assign a queue type](#assign-a-queue-type)
 - [Delete a queue type](#delete-a-queue-type)
 - [Kill workers](#kill-workers)
-- [Configure the logging setting](01_ConfigureLoggingSettings.md)
+- [Configure the logging settings](01_ConfigureLoggingSettings.md)
 
 ## See also
 
@@ -244,7 +244,7 @@ The selected queue type is displayed in the list.
 
 - [Delete a queue type](#delete-a-queue-type)
 - [Kill workers](#kill-workers)
-- [Configure the logging setting](01_ConfigureLoggingSettings.md)
+- [Configure the logging settings](01_ConfigureLoggingSettings.md)
 
 ### See also
 
@@ -287,7 +287,7 @@ The queue type is deleted. The *QueueType has been deleted* pop-up window is dis
 ### Next steps
 
 - [Kill workers](#kill-workers)
-- [Configure the logging setting](01_ConfigureLoggingSettings.md)
+- [Configure the logging settings](01_ConfigureLoggingSettings.md)
 
 ### See also
 
@@ -360,7 +360,7 @@ All workers are killed. The process actions will not continue until you restart 
 
 ## Next steps
 
-- [Configure the logging setting](01_ConfigureLoggingSettings.md)
+- [Configure the logging settings](01_ConfigureLoggingSettings.md)
 
 ## See also
 

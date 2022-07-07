@@ -88,7 +88,7 @@ In the *DASHBOARDS* tab, the custom tabs with composable dashlets are displayed.
   Hover over a dashlet until the cursor icon changes to the cross arrows cursor. Then move the dashlet on the predefined grid using drag and drop. To remove a dashlet from the tab, click the ![Remove](/Assets/Icons/Cross03.png "[Remove]") (Remove) button in the upper right corner of the dashlet.  
 
 
-#### Dashlet picker
+### Dashlet picker
 
 ![Dashlet picker](/Assets/Screenshots/ActindoWorkFlow/Overview/DashletPicker.png "[Dashlet picker]")
 
