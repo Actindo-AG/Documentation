@@ -22,7 +22,7 @@ No prerequisites to fulfill.
 ![Channel list](/Assets/Screenshots/DataHub/Settings/Channels/ChannelList.png "[Channel list]")
 
 1. Click the ![Add](/Assets/Icons/Plus01.png "[Add]") (Add) button in the bottom right corner.   
-  The *Create Channel* view is displayed.
+  The *Create channel* view is displayed.
 
   ![Create channel](/Assets/Screenshots/DataHub/Settings/Channels/CreateChannel.png "[Create channel]")
 
@@ -35,7 +35,7 @@ No prerequisites to fulfill.
   > [Info] The channel must be activated to be used.
 
 5. Click the [SAVE] button in the upper right corner.   
-  The new channel is saved. The *Create Channel* view is closed.  
+  The new channel is saved. The *Create channel* view is closed.  
 
 ### Next steps
 
@@ -70,14 +70,14 @@ At least one channel is created, see [Create a channel](/DataHub/Integration/Cre
 ![Channel list](/Assets/Screenshots/DataHub/Settings/Channels/ChannelList.png "[Channel list]")
 
 1. Click the channel you want to edit in the list of channels.   
-  The *Edit Channel* view is displayed.
+  The *Edit channel* view is displayed.
 
   ![Edit channel](/Assets/Screenshots/DataHub/Settings/Channels/EditChannel.png "[Edit channel]")
 
 2. Edit the desired data of the channel in the corresponding fields.
 
 3. Click the [SAVE] button in the upper right corner.   
-  The changes are saved. The *Edit Channel* view is closed.  
+  The changes are saved. The *Edit channel* view is closed.  
 
 ### Next steps
 
@@ -112,14 +112,14 @@ At least one channel is created, see [Create a channel](#create-a-channel).
 ![Channel list](/Assets/Screenshots/DataHub/Settings/Channels/ChannelList.png "[Channel list]")
 
 1. Click the channel you want to edit in the list of channels.   
-  The *Edit Channel* view is displayed.
+  The *Edit channel* view is displayed.
 
   ![Edit channel](/Assets/Screenshots/DataHub/Settings/Channels/EditChannel.png "[Edit channel]")
 
 2. Disable the *Active* toggle.
 
 3. Click the [SAVE] button in the upper right corner.   
-  The channel is deactivated. The *Edit Channel* view is closed.
+  The channel is deactivated. The *Edit channel* view is closed.
 
 ### Next steps
 

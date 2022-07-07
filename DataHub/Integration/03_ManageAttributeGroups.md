@@ -17,8 +17,8 @@ The attributes for the attribute set are created, see [Create an attribute](01_M
 
 ![Attribute groups](/Assets/Screenshots/DataHub/Settings/AttributeGroups/AttributeGroups.png "[Attribute groups]")
 
-1. Click the ![Edit](/Assets/Icons/Edit02.png "[Edit]") (Edit) button to the right of the *Attribute Groups* section in the left column.   
-  The *Edit Attribute Groups* view is displayed.
+1. Click the ![Edit](/Assets/Icons/Edit02.png "[Edit]") (Edit) button to the right of the *Attribute groups* section in the left column.   
+  The *Edit attribute groups* view is displayed.
 
   ![Edit attribute groups](/Assets/Screenshots/DataHub/Settings/AttributeGroups/EditAttributeGroups.png "[Edit attribute groups]")
 
@@ -28,7 +28,7 @@ The attributes for the attribute set are created, see [Create an attribute](01_M
   ![Add attribute group](/Assets/Screenshots/DataHub/Settings/AttributeGroups/AddAttributeGroup.png "[Add attribute group]")
 
 3. Click the plus sign in the attribute group column.    
-  The *Add Element* window is displayed in the attribute group column.
+  The *Add element* window is displayed in the attribute group column.
 
   ![Add element](/Assets/Screenshots/DataHub/Settings/AttributeGroups/AddElement.png "[Add element]")
 
@@ -37,14 +37,14 @@ The attributes for the attribute set are created, see [Create an attribute](01_M
 5. Enter a key for the attribute group in the *Key* field.
 
 6. Click the [SAVE] button.   
-  The attribute group is created. The *Add Element* window is closed. The new attribute group is displayed in the attribute group column.
+  The attribute group is created. The *Add element* window is closed. The new attribute group is displayed in the attribute group column.
 
   ![Attribute group created](/Assets/Screenshots/DataHub/Settings/AttributeGroups/AttributeGroupCreated.png "[Attribute group created]")
 
   > [Info] If you want to change the order of the attribute groups in the list, see [Change the order of attribute groups](#change-the-order-of-attribute-groups).
 
 7. Click the [SAVE] button in the upper right corner.  
-  The new attribute group is saved. The *Edit Attribute Groups* view is closed.
+  The new attribute group is saved. The *Edit attribute groups* view is closed.
 
 ### Next steps
 
@@ -84,8 +84,8 @@ Create an attribute sub-group to organize the attributes in special groups, for 
 
 ![Attribute groups](/Assets/Screenshots/DataHub/Settings/AttributeGroups/AttributeGroups.png "[Attribute groups]")
 
-1. Click the ![Edit](/Assets/Icons/Edit02.png "[Edit]") (Edit) button to the right of the *Attribute Groups* section in the left column.   
-  The *Edit Attribute Groups* view is displayed.
+1. Click the ![Edit](/Assets/Icons/Edit02.png "[Edit]") (Edit) button to the right of the *Attribute groups* section in the left column.   
+  The *Edit attribute groups* view is displayed.
 
   ![Edit attribute groups](/Assets/Screenshots/DataHub/Settings/AttributeGroups/EditAttributeGroups.png "[Edit attribute groups]")
 
@@ -100,7 +100,7 @@ Create an attribute sub-group to organize the attributes in special groups, for 
   ![Add attribute sub-group](/Assets/Screenshots/DataHub/Settings/AttributeGroups/AddAttributeSubGroups.png "[Add attribute sub-group]")
 
 4. Click the plus sign in the attribute sub-group column.    
-  The *Add Element* window is displayed in the attribute sub-group column.
+  The *Add element* window is displayed in the attribute sub-group column.
 
   ![Add element](/Assets/Screenshots/DataHub/Settings/AttributeGroups/AddElement.png "[Add element]")
 
@@ -109,14 +109,14 @@ Create an attribute sub-group to organize the attributes in special groups, for 
 6. Enter a key for the attribute sub-group in the *Key* field.
 
 7. Click the [SAVE] button.   
-  The attribute sub-group is created. The *Add Element* window is closed. The new attribute sub-group is displayed in the attribute sub-group column.
+  The attribute sub-group is created. The *Add element* window is closed. The new attribute sub-group is displayed in the attribute sub-group column.
 
   ![Attribute sub-group created](/Assets/Screenshots/DataHub/Settings/AttributeGroups/AttributeSubGroupCreated.png "[Attribute sub-group created]")
 
   > [Info] If you want to change the order of the attribute sub-groups in the list, see [Change the order of attribute groups](#change-the-order-of-attribute-groups).
 
 8. Click the [SAVE] button in the upper right corner.  
-  The new attribute sub-group is saved. The *Edit Attribute Groups* view is closed.
+  The new attribute sub-group is saved. The *Edit attribute groups* view is closed.
 
 
 #### Change the order of attribute groups
@@ -128,8 +128,8 @@ The procedure to change the order of attribute groups and sub-groups is identica
 
 ![Attribute groups](/Assets/Screenshots/DataHub/Settings/AttributeGroups/AttributeGroups.png "[Attribute groups]")
 
-1. Click the ![Edit](/Assets/Icons/Edit02.png "[Edit]") (Edit) button to the right of the *Attribute Groups* section in the left column.   
-  The *Edit Attribute Groups* view is displayed.
+1. Click the ![Edit](/Assets/Icons/Edit02.png "[Edit]") (Edit) button to the right of the *Attribute groups* section in the left column.   
+  The *Edit attribute groups* view is displayed.
 
   ![Edit attribute groups](/Assets/Screenshots/DataHub/Settings/AttributeGroups/EditAttributeGroups.png "[Edit attribute groups]")
 
@@ -138,19 +138,19 @@ The procedure to change the order of attribute groups and sub-groups is identica
 3. By using drag and drop, move the selected attribute group to the desired position in the list.
 
 4. Click the [SAVE] button in the upper right corner.  
-  The new attribute group order is saved. The *Edit Attribute Groups* view is closed.
+  The new attribute group order is saved. The *Edit attribute groups* view is closed.
 
 
 #### Delete an attribute group
 
-You can delete an attribute group if it is no longer in use. Note, that you just delete the attribute group but not the attributes within a group. All active attributes that are no longer assigned to an attribute group are automatically assigned to a new attribute group with the name *Unassigned Group* which is only displayed in the product view. If you delete an attribute group with sub-groups, also the attribute sub-groups are deleted. The procedure to delete attribute groups and sub-groups is identical. Just select the attribute sub-group instead of the group and follow the steps described below.
+You can delete an attribute group if it is no longer in use. Note, that you just delete the attribute group but not the attributes within a group. All active attributes that are no longer assigned to an attribute group are automatically assigned to a new attribute group with the name *Unassigned group* which is only displayed in the product view. If you delete an attribute group with sub-groups, also the attribute sub-groups are deleted. The procedure to delete attribute groups and sub-groups is identical. Just select the attribute sub-group instead of the group and follow the steps described below.
 
 *DataHub > Settings > Tab ATTRIBUTE GROUPS*
 
 ![Attribute groups](/Assets/Screenshots/DataHub/Settings/AttributeGroups/AttributeGroups.png "[Attribute groups]")
 
-1. Click the ![Edit](/Assets/Icons/Edit02.png "[Edit]") (Edit) button to the right of the *Attribute Groups* section in the left column.   
-  The *Edit Attribute Groups* view is displayed.
+1. Click the ![Edit](/Assets/Icons/Edit02.png "[Edit]") (Edit) button to the right of the *Attribute groups* section in the left column.   
+  The *Edit attribute groups* view is displayed.
 
   ![Edit attribute groups](/Assets/Screenshots/DataHub/Settings/AttributeGroups/EditAttributeGroups.png "[Edit attribute groups]")
 
@@ -163,7 +163,7 @@ You can delete an attribute group if it is no longer in use. Note, that you just
   The selected attribute group is removed from the attribute group column. The attribute group data window is closed.
 
 4. Click the [SAVE] button in the upper right corner.  
-  The attribute group is deleted. The *Edit Attribute Groups* view is closed.
+  The attribute group is deleted. The *Edit attribute groups* view is closed.
 
 
 #### Add attributes to a group
@@ -212,7 +212,7 @@ The procedure to change the order of attributes within attribute groups and sub-
   ![Group attributes](/Assets/Screenshots/DataHub/Settings/AttributeGroups/GroupAttributes.png "[Group attributes]")
 
 2. Click the ![Sort attributes](/Assets/Icons/Sort02.png "[Sort attributes]") (Sort attributes) button above the list.   
-  The *Assigned Attributes (Sorting Mode)* view is displayed on the right side.
+  The *Assigned attributes (Sorting mode)* view is displayed on the right side.
 
   ![Assigned attributes](/Assets/Screenshots/DataHub/Settings/AttributeGroups/AssignedAttributes.png "[Assigned attributes]")
 
@@ -223,7 +223,7 @@ The procedure to change the order of attributes within attribute groups and sub-
   > [Info] Repeat the steps **3** and **4** for all attributes whose position in the list you want to change.
 
 5. Click the [SAVE] button in the upper right corner.
-  The new order of attributes within the selected attribute group is saved. The *Assigned Attributes (Sorting Mode)* view is closed.
+  The new order of attributes within the selected attribute group is saved. The *Assigned attributes (Sorting mode)* view is closed.
 
 
 #### Remove attributes from a group

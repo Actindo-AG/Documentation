@@ -1,4 +1,4 @@
-# Attribute Sets
+# Attribute sets
 
 *DataHub > Settings > Tab ATTRIBUTE SETS*
 
@@ -47,7 +47,7 @@ The list displays all attribute sets. All fields are read-only. Depending on the
   - ![Status](/Assets/Icons/Status04.png "[Status]") **Inactive**   
 
 
-- *Read only*   
+- *Read-only*   
   Indication whether the attribute set is read-only or not:
   - ![Check](/Assets/Icons/Check.png "[Check]") (Checkmark): The attribute set is read-only.  
   - ![Cross](/Assets/Icons/Cross02.png "[Cross]") (Cross): The attribute set can be edited.
@@ -82,6 +82,7 @@ The list displays all attribute sets. All fields are read-only. Depending on the
 
 
 ## Create attribute set
+
 *DataHub > Settings > Tab ATTRIBUTE SETS > Button Add*
 
 ![Create attribute set](/Assets/Screenshots/DataHub/Settings/AttributeSets/CreateAttributeSet.png "[Create attribute set]")
@@ -110,21 +111,21 @@ The list displays all attribute sets. All fields are read-only. Depending on the
 - ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Active*   
   Enable this toggle to set the attribute set status to active. Disable the toggle to set the status to inactive. By default, this toggle is enabled.
 
-- *Entity Type*   
+- *Entity type*   
   Click the drop-down list to select the appropriate entity type. All available entity types are displayed in the list.
   [comment]: <> (For detailed information, see [Entity Types List])
 
-- *Inherit/Copy Values from*   
+- *Inherit/Copy values from*   
   Click the drop-down list to select whether or not the values for the new attribute set should be inherited or copied from an existing attribute set. The following options are available:    
-  - **No inheritance**: The values are neither inherited nor copied from an existing attribute set. The *Inherit Configuration* toggle and the *Inherit/Copy Values* drop-down list are locked.
+  - **No inheritance**: The values are neither inherited nor copied from an existing attribute set. The *Inherit configuration* toggle and the *Inherit/Copy values* drop-down list are locked.
   - **Attribute set name**: The values inherited or copied from the selected attribute set. All existing attribute sets are displayed in the drop-down list.  
 
 
-- ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Inherit Configuration*   
-  Enable this toggle to inherit not only the values of the selected attribute set, but also their configuration. Disable the toggle to inherit the values without configuration. By default, this toggle is enabled. This toggle is locked if the **no inheritance** option is selected in the *Inherit/Copy Values from* drop-down list.
+- ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Inherit configuration*   
+  Enable this toggle to inherit not only the values of the selected attribute set, but also their configuration. Disable the toggle to inherit the values without configuration. By default, this toggle is enabled. This toggle is locked if the **no inheritance** option is selected in the *Inherit/Copy values from* drop-down list.
 
 
-- *Inherit/Copy Values*   
+- *Inherit/Copy values*   
   Click the drop-down list to select the inheritance type. The following types are available:    
   - **Copy once**: The attribute values are applied once from the selected attribute set, but afterwards they are independent of changes in the selected set.
   - **Inherit**: The attribute values are applied from the selected attribute set and updated each time if the selected set changes.
@@ -151,6 +152,7 @@ In the *Create attribute set* view, no attributes are displayed in list. You hav
 
 
 ## Edit attribute set
+
 *DataHub > Settings > Tab ATTRIBUTE SETS > Select attribute set*
 
 ![Edit attribute set](/Assets/Screenshots/DataHub/Settings/AttributeSets/EditAttributeSet.png "[Edit attribute set]")
@@ -180,17 +182,17 @@ In the *Create attribute set* view, no attributes are displayed in list. You hav
   Enable this toggle to set the attribute set status to active. Disable the toggle to set the status to inactive. By default, this toggle is enabled.
 
 
-- *Inherit/Copy Values from*   
+- *Inherit/Copy values from*   
   Click the drop-down list to select whether or not the values for the new attribute set should be inherited or copied from an existing attribute set. The following options are available:    
-  - **No inheritance**: The values are neither inherited nor copied from an existing attribute set. The *Inherit Configuration* toggle and the *Inherit/Copy Values* drop-down list are locked.
+  - **No inheritance**: The values are neither inherited nor copied from an existing attribute set. The *Inherit configuration* toggle and the *Inherit/Copy values* drop-down list are locked.
   - **Attribute set name**: The values inherited or copied from the selected attribute set. All existing attribute sets are displayed in the drop-down list.  
 
 
-- ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Inherit Configuration*   
-  Enable this toggle to inherit not only the values of the selected attribute set, but also their configuration. Disable the toggle to inherit the values without configuration. By default, this toggle is enabled. This toggle is locked if the **no inheritance** option is selected in the *Inherit/Copy Values from* drop-down list.
+- ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Inherit configuration*   
+  Enable this toggle to inherit not only the values of the selected attribute set, but also their configuration. Disable the toggle to inherit the values without configuration. By default, this toggle is enabled. This toggle is locked if the **no inheritance** option is selected in the *Inherit/Copy values from* drop-down list.
 
 
-- *Inherit/Copy Values*   
+- *Inherit/Copy values*   
   Click the drop-down list to select the inheritance type. The following types are available:    
   - **Copy once**: The attribute values are applied once from the selected attribute set, but afterwards they are independent of changes in the selected set.
   - **Inherit**: The attribute values are applied from the selected attribute set and updated each time if the selected set changes.
@@ -220,7 +222,7 @@ In the *Create attribute set* view, no attributes are displayed in list. You hav
 - ![Edit](/Assets/Icons/Edit01.png "[Edit]") (Edit)   
   Click this button to edit the configuration of the selected attribute. This button is only displayed, when a single checkbox of an attribute with an editable configuration is selected. The *Edit attribute for set* view is displayed. Alternatively, you can click directly a row in the list to edit an attribute configuration.
 
-[comment]: <> (Not working)
+[comment]: <> (Edit is not working)
 
 - ![Delete](/Assets/Icons/Trash03.png "[Delete]") (Delete)   
   Click this button to remove the selected attribute from the attribute set. This button is only displayed, when at least one checkbox of an attribute is selected.       
@@ -235,19 +237,21 @@ The list displays all attributes assigned to the selected attribute set. When th
 - *Name*   
   Attribute name.
 
-- *Calculated Field*   
-  Indication whether the attribute is an calculated field or not:
-  - ![Check](/Assets/Icons/Check.png "[Check]") (Checkmark): The attribute is ???.  
-  - ![Cross](/Assets/Icons/Cross02.png "[Cross]") (Cross): The attribute is ???.
+- *Calculated field*   
+  Indication whether the attribute is a calculated field or not:
+  - ![Check](/Assets/Icons/Check.png "[Check]") (Checkmark): The attribute is a calculated field.   
+  - ![Cross](/Assets/Icons/Cross02.png "[Cross]") (Cross): The attribute is no calculated field.
+
+  [comment]: <> (What means 'Calculated'? completeness calculation? what field are calculated?)
 
 
 - *Key*   
   Attribute key. The key is required for API access and must be system wide unique.
 
-- *Data Type*   
+- *Data type*   
   Attribute data type. For detailed information about all data types, see [Data type list](/PIM/UserInterface/04_DataTypeList.md).
 
-- *inherited from*   
+- *Inherited from*   
   Inheritance attribute set. The name of the attribute set from which the attribute value is inherited is displayed. If the attribute value is not inherited, the row is empty.
 
 - *Plugin*   
@@ -255,7 +259,7 @@ The list displays all attributes assigned to the selected attribute set. When th
 
   [comment]: <> (Is that correct?)
 
-- *required*  
+- *Required*  
   Indication whether the attribute value is required or not. The following options are only displayed, when the ![Settings](/Assets/Icons/Settings01.png "[Settings]") (Settings) button is inactive:
   When the ![Settings](/Assets/Icons/Settings02.png "[Settings]") (Settings) button is blue, the *required* toggle is displayed. Enable the toggle to set the attribute value as a mandatory field. Disable the toggle to set the attribute value as an optional field.   
   When the ![Settings](/Assets/Icons/Settings01.png "[Settings]") (Settings) button is gray, the following options are displayed:
@@ -293,7 +297,7 @@ The list displays all attributes assigned to the selected attribute set. When th
 
 ### Edit attribute for set
 
-[comment]: <> (Not working anymore? Bild fehlt)
+[comment]: <> (Not working anymore?)
 
 *DataHub > Settings > Tab ATTRIBUTE SETS > Select attribute set > Select attribute*
 
@@ -327,7 +331,7 @@ For detailed information about the different configurations of data types, see [
 This view equals to the attribute mapping in the *DataHub* module: *DataHub > Settings > Tab ETL > Select attribute set mapping > Select mapping line*   
 
 - ![Back](/Assets/Icons/Back02.png "[Back]") (Back)   
-  Click this button to close the *Edit Mapping* view and return to *Edit Attribute Set* view. All changes are rejected.
+  Click this button to close the *Edit mapping* view and return to *Edit attribute set* view. All changes are rejected.
 
 - Destination attribute   
   Selected attribute on the right side of the view. The attribute cannot be changed.
@@ -342,7 +346,7 @@ This view equals to the attribute mapping in the *DataHub* module: *DataHub > Se
   Click the drop-down list and select the desired ETL extension for the mapping. The extensions in the list differ depending on the data type of the destination attribute.
 
 - *Override change tracking mode*   
-  Change tracking mode (ETL mode) for the mapping. The drop-down list is read-only. The option **use default** is preset.
+  Change tracking mode (ETL mode) for the mapping. The drop-down list is read-only. The option **Use default** is preset.
 
 The fields on the left side differ depending on the selected ETL extension. For detailed information about the ETL extensions and how to create an attribute mapping, see [ETL extensions](03_ETLExtensions.md) and [Edit an ETL attribute mapping](/DataHub/Operation/01_ManageETLMappings.md#edit-an-etl-attribute-mapping).
 

@@ -14,7 +14,7 @@
   Attribute group that contains attribute sub-groups. Click the attribute group or the arrow *>* left to the attribute group to unfold the group and display the attribute sub-groups.
 
 - ![Folder](/Assets/Icons/Folder01.png "[Folder]") (Folder)  
-  Attribute group. Click the attribute group to display all attributes that are assigned to the selected attribute group in the *Assigned Attributes* list.
+  Attribute group. Click the attribute group to display all attributes that are assigned to the selected attribute group in the *Assigned attributes* list.
 
 **Assigned attributes**
 
@@ -69,6 +69,7 @@ The list displays all attributes assigned to the selected attribute group. All f
 
 
 ## Add attributes to group
+
 *DataHub > Settings > Tab ATTRIBUTE GROUPS > Button Add*
 
 ![Add attributes](/Assets/Screenshots/DataHub/Settings/AttributeGroups/AddAttributes.png "[Add attributes]")
@@ -78,7 +79,7 @@ The list displays all attributes assigned to the selected attribute group. All f
 - ![Back](/Assets/Icons/Back02.png "[Back]") (Back)   
   Click this button to cancel adding an attribute to the selected attribute group and close the *Add attributes to attribute group* view.
 
-- ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Only Unassigned Attributes*   
+- ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Only unassigned attributes*   
   Enable this toggle to display only the attributes that are not yet assigned to any attribute group. Disable the toggle to display all attributes. By default, this toggle is disabled.
 
   > [Info] An attribute can be assigned to one attribute group or sub-group only. When you add an attribute to an attribute group that is already added to another group, it is automatically removed from the former attribute group.
@@ -128,7 +129,9 @@ The list displays all attributes that are not assigned to the selected attribute
   Attribute identification number. The ID number is automatically assigned by the system.
 
 
+
 ## Edit attribute groups
+
 *DataHub > Settings > Tab ATTRIBUTE GROUPS > Button Edit*
 
 ![Edit attribute groups](/Assets/Screenshots/DataHub/Settings/AttributeGroups/EditAttributeGroups.png "[Edit attribute groups]")
@@ -136,7 +139,7 @@ The list displays all attributes that are not assigned to the selected attribute
 **Edit attribute groups**
 
 - ![Back](/Assets/Icons/Back02.png "[Back]") (Back)   
-  Click this button to close the *Edit attribute groups* view and return to the *Attribute Groups* view. All changes are rejected.
+  Click this button to close the *Edit attribute groups* view and return to the *Attribute groups* view. All changes are rejected.
 
 - [CANCEL]   
   Click this button to cancel editing attribute groups and close the *Edit attribute groups* view.
@@ -157,16 +160,18 @@ The list displays all attributes that are not assigned to the selected attribute
   Attribute sub-group to the selected attribute group. Hover over the attribute sub-group to display the ![Edit](/Assets/Icons/Edit03.png "[Edit]") (Edit) button.
 
 - ![Add](/Assets/Icons/Plus01.png "[Add]") (Add)   
-  Click this button to add an attribute group or sub-group. A plus sign is displayed in each displayed column. Click the plus sign in the desired column to add a new attribute group or sub-group to the selected attribute group. The *Add Element* window is displayed.    
+  Click this button to add an attribute group or sub-group. A plus sign is displayed in each displayed column. Click the plus sign in the desired column to add a new attribute group or sub-group to the selected attribute group. The *Add element* window is displayed.    
   For detailed information about creating attribute groups or sub-groups, see [Create an attribute group](/DataHub/Integration/03_ManageAttributeGroups.md#create-an-attribute-group) or [Create an attribute sub-group](/DataHub/Integration/03_ManageAttributeGroups.md#create-an-attribute-sub-group).
 
 
+
 ### Add element
+
 *DataHub > Settings > Tab ATTRIBUTE GROUPS > Button Edit > Button Add*
 
 ![Add element](/Assets/Screenshots/DataHub/Settings/AttributeGroups/AddElement.png "[Add element]")
 
-> [Info] The *Add Element* window for attribute groups and sub-groups is identical.
+> [Info] The *Add alement* window for attribute groups and sub-groups is identical.
 
 - Language   
   Click the drop-down list and select the language in which the *Name (Language)* field is displayed. The system languages *English (United States)* and *Deutsch (Deutschland)* are available in the drop-down list.
@@ -179,18 +184,22 @@ The list displays all attributes that are not assigned to the selected attribute
   Enter an attribute group key. The key is required for API access and must be system wide unique.
 
 - [CANCEL]   
-  Click this button to cancel adding an attribute group, close the *Add Element* window and return to the *Edit attribute groups* view.
+  Click this button to cancel adding an attribute group, close the *Add element* window and return to the *Edit attribute groups* view.
 
 - [SAVE]   
-  Click this button to add the new attribute group, close the *Add Element* window and return to the *Edit attribute groups* view.
+  Click this button to add the new attribute group, close the *Add element* window and return to the *Edit attribute groups* view.
 
   > [Info] You have to click the [SAVE] button in the *Edit attribute groups* view to save the added attribute group.
 
 
+
 ### Edit group data
+
 *DataHub > Settings > Tab ATTRIBUTE GROUPS > Button Edit > Hover over attribute group > Button Edit*
 
 ![Edit attribute group data](/Assets/Screenshots/DataHub/Settings/AttributeGroups/EditAttributeGroupData.png "[Edit attribute group data]")
+
+> [Info] The *Edit group data* window for attribute groups and sub-groups is identical.
 
 - Language   
   Click the drop-down list and select the language in which the *Name (Language)* field is displayed. The system languages *English (United States)* and *Deutsch (Deutschland)* are available in the drop-down list.

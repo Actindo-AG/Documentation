@@ -66,7 +66,7 @@ The *HTML Templates for ETL* plugin is installed.
 
 > [Info] If you want to include HTML text into a new HTML template, follow the steps described in the [Create an HTML template](#create-an-html-template) procedure before proceeding to the steps below.
 
-*DataHub > Settings > Tab HTML TEMPLATES > Select HTML Template*   
+*DataHub > Settings > Tab HTML TEMPLATES > Select HTML template*   
 
 ![Edit HTML template](/Assets/Screenshots/DataHub/Settings/HTMLTemplates/EditHTMLTemplate.png "[Edit HTML template]")
 
@@ -109,7 +109,7 @@ The *HTML Templates for ETL* plugin is installed.
 
 > [Info] If you want to include Smarty templates into a new HTML template, follow the steps described in the [Create an HTML template](#create-an-html-template) procedure before proceeding to the steps below.
 
-*DataHub > Settings > Tab HTML TEMPLATES > Select HTML Template*   
+*DataHub > Settings > Tab HTML TEMPLATES > Select HTML template*   
 
 ![Edit HTML template](/Assets/Screenshots/DataHub/Settings/HTMLTemplates/EditHTMLTemplate.png "[Edit HTML template]")
 
@@ -152,7 +152,7 @@ The *HTML Templates for ETL* plugin is installed.
 
 > [Info] If you want to include variables into a new HTML template, follow the steps described in the [Create an HTML template](#create-an-html-template) procedure before proceeding to the steps below.
 
-*DataHub > Settings > Tab HTML TEMPLATES > Select HTML Template*   
+*DataHub > Settings > Tab HTML TEMPLATES > Select HTML template*   
 
 ![Edit HTML template](/Assets/Screenshots/DataHub/Settings/HTMLTemplates/EditHTMLTemplate.png "[Edit HTML template]")
 
@@ -163,8 +163,8 @@ The *HTML Templates for ETL* plugin is installed.
   - **tenant**: Use the tenant variable to include a variable referring to an attribute of the platform tenant, for instance *{$tenant.shortName}*.  
 
 3. If desired, include the destination language and/or the destination channel to the attribute variable value by adding the following suffixes at the end of the variable name:
-  - **destination language**: Add *__LanguageKey* to include the destination language to the variable. Replace *LanguageKey* by the corresponding language key and note, that all signs must be replaced by a *_*, for instance, add *__de_DE* for the language key *de-DE*. Pay attention to upper and lower case as the variables are case sensitive.
-  - **destination language**: Add *__ChannelKey* to include the destination channel to the variable. Replace *ChannelKey* by the corresponding channel key and note, that all signs must be replaced by a *_*, for instance, add *__actindo_basic* for the language key *actindo_basic*. Pay attention to upper and lower case as the variables are case sensitive.
+  - *destination language*: Add **__LanguageKey** to include the destination language to the variable. Replace **LanguageKey** by the corresponding language key and note, that all signs must be replaced by a **_**, for instance, add **__de_DE** for the language key *de-DE*. Pay attention to upper and lower case as the variables are case sensitive.
+  - *destination language*: Add **__ChannelKey** to include the destination channel to the variable. Replace **ChannelKey** by the corresponding channel key and note, that all signs must be replaced by a **_**, for instance, add **__actindo_basic** for the language key *actindo_basic*. Pay attention to upper and lower case as the variables are case sensitive.
 
   > [Info] You can display all possible variables of a certain entity. For detailed information, see [Display the possible variables](#display-the-possible-variables).
 
@@ -204,7 +204,7 @@ The *HTML Templates for ETL* plugin is installed.
 
 > [Info] If you want to include a tree node variable into a new HTML template, follow the steps described in the [Create an HTML template](#create-an-html-template) procedure before proceeding to the steps below.
 
-*DataHub > Settings > Tab HTML TEMPLATES > Select HTML Template*   
+*DataHub > Settings > Tab HTML TEMPLATES > Select HTML template*   
 
 ![Edit HTML template](/Assets/Screenshots/DataHub/Settings/HTMLTemplates/EditHTMLTemplate.png "[Edit HTML template]")
 
@@ -249,7 +249,7 @@ The *HTML Templates for ETL* plugin is installed.
 
 > [Info] If you want to include a tree node variable into a new HTML template, follow the steps described in the [Create an HTML template](#create-an-html-template) procedure before proceeding to the steps below.
 
-*DataHub > Settings > Tab HTML TEMPLATES > Select HTML Template*   
+*DataHub > Settings > Tab HTML TEMPLATES > Select HTML template*   
 
 ![Edit HTML template](/Assets/Screenshots/DataHub/Settings/HTMLTemplates/EditHTMLTemplate.png "[Edit HTML template]")
 
@@ -338,7 +338,7 @@ The *HTML Templates for ETL* plugin is installed.
 
 > [Info] If you want to display the pssible variables within a new HTML template, follow the steps described in the [Create an HTML template](#create-an-html-template) procedure before proceeding to the steps below.
 
-*DataHub > Settings > Tab HTML TEMPLATES > Select HTML Template*   
+*DataHub > Settings > Tab HTML TEMPLATES > Select HTML template*   
 
 ![Edit HTML template](/Assets/Screenshots/DataHub/Settings/HTMLTemplates/EditHTMLTemplate.png "[Edit HTML template]")
 
@@ -387,7 +387,7 @@ It is possible to display a preview of the HTML template to check its functional
 
 > [Info] If you want to preview a new HTML template, follow the steps described in the [Create an HTML template](#create-an-html-template) procedure before proceeding to the steps below.
 
-*DataHub > Settings > Tab HTML TEMPLATES > Select HTML Template*   
+*DataHub > Settings > Tab HTML TEMPLATES > Select HTML template*   
 
 ![Edit HTML template](/Assets/Screenshots/DataHub/Settings/HTMLTemplates/EditHTMLTemplate.png "[Edit HTML template]")
 

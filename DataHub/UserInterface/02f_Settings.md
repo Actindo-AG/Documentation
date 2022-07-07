@@ -52,7 +52,7 @@ The list displays all language. All fields are read-only. Depending on the setti
   Name and username of the user who created the language.
 
 - ![Add](/Assets/Icons/Plus01.png "[Add]") (Add)   
-  Click this button to create a language. The *Create Language* view is displayed.   
+  Click this button to create a language. The *Create language* view is displayed.   
 
 
 
@@ -101,7 +101,7 @@ The list displays all language. All fields are read-only. Depending on the setti
   [comment]: <> (Is that right? -> language question)
 
 - [SAVE]   
-  Click this button to save the language, close the *Edit Language* view and return to the language list.
+  Click this button to save the language, close the *Edit language* view and return to the language list.
 
 - *Name (Language)*   
   Click the field to edit the language name in the selected language.

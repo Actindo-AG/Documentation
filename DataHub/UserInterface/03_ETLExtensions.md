@@ -20,6 +20,7 @@ This extension is used to add a specific prefix and/or suffix to the destination
 | Text Field                       | String, Text field             |
 
 ### Configuration
+
 - *Prefix*    
   Enter the prefix to be added before the value of the destination attribute.
 
@@ -100,6 +101,7 @@ This extension is used to map a boolean attribute (checkbox or toggle) to a dest
 | String, Text field               | Boolean                        |
 
 ### Configuration
+
 - *Content for value true*   
   Enter the content that is mapped to the string attribute when the boolean value equals true, which means that the checkbox is selected or the toggle is enabled.
 - *Content for value false*   
@@ -120,6 +122,7 @@ This extension is used to map a catalog attribute to a tree node attribute. It i
 | Tree node                        | Catalog tree                   |
 
 ### Configuration
+
 This ETL extension has no further configuration settings.
 
 
@@ -169,6 +172,7 @@ This extension is used to map a constant value to a destination attribute. The f
 | Date field                       | -                              |
 
 ### Configuration
+
 - *Destination attribute name*   
    Enter a value that is mapped to the destination attribute.
 
@@ -217,6 +221,7 @@ This extension is used to copy the value from a packaging unit attribute and map
 | Packaging unit                   | Packaging unit                 |
 
 ### Configuration
+
 This ETL extension has no further configuration settings.
 
 
@@ -236,6 +241,7 @@ This extension is used to map the country to a destination attribute. This mappi
 | Tree node                        | Country                        |
 
 ### Configuration
+
 This ETL extension has no further configuration settings.
 
 
@@ -256,6 +262,7 @@ This extension is used to map a date to a destination attribute while changing i
 | Date field                       | Date time, Date field, String, Text field  |  
 
 ### Configuration
+
 - *Destination Format*   
   Enter the destination format of the date, for instance **Y-m-d**. The date must be entered in the php format, see https://www.php.net/manual/de/datetime.format.php.
 
@@ -282,6 +289,7 @@ This extension is used to map the SKU of a source attribute to a destination att
 | String                           | String                         |
 
 ### Configuration
+
 This ETL extension has no further configuration settings.
 
 
@@ -371,6 +379,7 @@ This extension is mostly data type independent. All attributes with a selfmappab
 [comment]: <> (Selfmappable erklären, welche datentypen sind nicht selfmappable?)
 
 ### Configuration
+
 This ETL extension has no further configuration settings.
 
 
@@ -488,6 +497,7 @@ Beside the dates, all attributes are required for the mapping.
 | Price field                      | *Percent discount*: Boolean <br/> *Discount percent/absolute special price*: Float, Integer, String <br/> *Currency*: String, Currency <br/> *Start Quantity*: Float, Integer, String <br/> *Promotion Start*: String br/> *Promotion End*: String |
 
 ### Configuration
+
 This ETL extension has no further configuration settings.
 
 
@@ -620,6 +630,7 @@ This extension is used to map the promotion date of a PIM price field attribute 
 | Date time                        | Price field                     |
 
 ### Configuration
+
 - ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Get from date*   
   Enable the toggle to map the start date of the promotion. Otherwise the end date of the promotion is mapped to the destination attribute. By default, the toggle is disabled.
 
@@ -668,6 +679,7 @@ This extension is used to map a number to text. Both, absolute and decimal numbe
 | Text field                       | Integer, Float                  |
 
 ### Configuration
+
 This ETL extension has no further configuration settings.
 
 
@@ -685,6 +697,7 @@ This extension is used to map a number to a unit attribute. Both, absolute and d
 | Unit                             | Integer, Float                  |
 
 ### Configuration
+
 - *SourceUnit*   
   Select the appropriate unit of the source attribute to convert the quantity value into the correct unit. All units corresponding to the dimension of the destination attribute are displayed in the drop-down list.
 
@@ -713,6 +726,7 @@ This extension is used to map a PIM base price attribute to a decimal number. Th
 | Float                            | Base price                     |
 
 ### Configuration
+
 This ETL extension has no further configuration settings.
 
 
@@ -732,6 +746,7 @@ This extension is used to map a PIM base price attribute to a boolean attribute,
 | Boolean                          | Base price                     |
 
 ### Configuration
+
 This ETL extension has no further configuration settings.
 
 
@@ -751,6 +766,7 @@ This extension is used to map a PIM base price attribute to a tree node attribut
 | Tree node                        | Base price                     |
 
 ### Configuration
+
 This ETL extension has no further configuration settings.
 
 
@@ -771,6 +787,7 @@ This extension is used to map a PIM base price attribute to a number. Both, abso
 | Float                            | Base price                     |
 
 ### Configuration
+
 This ETL extension has no further configuration settings.
 
 
@@ -818,6 +835,7 @@ This extension is used to replace the value of a source attribute by a certain v
 | Text field                       | String, Text field, Integer, Float |
 
 ### Configuration
+
 - *Pattern*   
   Enter a regular expression for the source attribute value that should be replaced. For detailed information about regular expressions, see https://regex101.com/.
 
@@ -850,6 +868,7 @@ Beside the MSRP, all attributes are required for the mapping.
 | Price field                      | *Taxclass ID*: String, Integer, Tax class </br> *Base price*: String, Integer, Float </br> *Currency*: String </br> *is gross*: String, Boolean </br> *MSRP*: String, Boolean |
 
 ### Configuration
+
 This ETL extension has no further configuration settings.
 
 
@@ -867,6 +886,7 @@ This extension is used to map a PIM price field attribute including a defined di
 | Price field                      | *Price*: Price field </br> *Discount in percent*: Integer, Float  |
 
 ### Configuration
+
 This ETL extension has no further configuration settings.
 
 
@@ -884,6 +904,7 @@ This extension is used to map a PIM price field attribute to a decimal number. T
 | Float                            | Price field                    |
 
 ### Configuration
+
 - *Country*   
   Select the appropriate country in the drop-down list to apply the corresponding tax rate. All available countries are displayed in the list.
 
@@ -979,7 +1000,8 @@ This extension is used to map a PIM price field attribute with a fallback attrib
   Enable the toggle to map the gross price of the source attribute. Disable the toggle to map the net price.
 
 
-[comment]: <> (gibt es die folgenden extensions noch?
+
+[comment]: <> (gibt es die extensions RMA-Extension und RMAExtension PosId Extensions noch?
 ## RMA-Extension ???
 
 ### Possible data type mappings
@@ -1040,7 +1062,6 @@ This extension is used to map a PIM price field attribute with a fallback attrib
 | Destination attribute data type  | Source attribute data type                      |
 |----------------------------------|-------------------------------------------------|
 | Price field                      | *Fallback price*, *Special price*: Price field  |
-
 
 ### Configuration
 
@@ -1121,6 +1142,7 @@ This extension is used to map two attributes including a unit and a unit value t
 | Unit                             | *Unit*: String </br> *Value*: String, Float, Integer  |
 
 ### Configuration
+
 This ETL extension has no further configuration settings.
 
 
@@ -1195,7 +1217,6 @@ This extension is used to map multiple string attributes to a single string attr
 
 
 
-
 ## String-To-Absolute-Number
 
 ![String to absolute number](/Assets/Screenshots/DataHub/Settings/ETL/Extensions/StringToAbsoluteNumber.png "[String to absolute number]")
@@ -1240,6 +1261,7 @@ This extension is used to map a string attribute to a boolean attribute. If the 
 | Boolean                          | String                      |
 
 ### Configuration
+
 This ETL extension has no further configuration settings.
 
 
@@ -1257,6 +1279,7 @@ This extension is used to map a text to a country attribute. This mapping is mai
 | Country                          | String, Text field          |
 
 ### Configuration
+
 - *fieldToSearch*
   Select the appropriate information about how the country is entered in the source attribute, so that the system can map the country correctly to the destination attribute. The following options are available:
   - **Numerischer Ländercode**: Three-digit country code according to ISO 3166-1 numeric, for instance *840*.
@@ -1312,6 +1335,7 @@ This extension is used to map a tax class and a price attribute to a PIM price f
 | Price field                      | *Price*: Simple Price </br> *Tax class*: Tax class  |
 
 ### Configuration
+
 This ETL extension has no further configuration settings.
 
 
@@ -1348,6 +1372,7 @@ This extension is used to map a tax zone attribute to a string attribute. The ta
 | String                           | Tax zone                    |
 
 ### Configuration
+
 This ETL extension has no further configuration settings.
 
 
@@ -1365,6 +1390,7 @@ This extension is used to map a text to a unit attribute. A unit attribute alway
 | Unit                             | String, Text field           |
 
 ### Configuration
+
 This ETL extension has no further configuration settings.
 
 
@@ -1488,6 +1514,7 @@ This extension is used to map a tree node attribute to a boolean attribute. If t
 | Boolean                          | Tree node                   |
 
 ### Configuration
+
 This ETL extension has no further configuration settings.
 
 
@@ -1507,6 +1534,7 @@ This extension is used to map a tree node attribute to a decimal number. The nam
 | Float                            | Tree node                           |
 
 ### Configuration
+
 This ETL extension has no further configuration settings.
 
 
@@ -1524,6 +1552,7 @@ This extension is used to map a tree node attribute to another tree node attribu
 | Tree node                        | Tree node                           |
 
 ### Configuration
+
 - ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Create node if not existing*   
   Enable the toggle to automatically create a tree node in the destination attribute if no tree node exists. Otherwise, you have to manually create a tree node.
 
@@ -1553,6 +1582,7 @@ This extension is used to map a value connected to a string or tree node attribu
 | Tree node                        | Tree node, String            |
 
 ### Configuration
+
 This ETL extension has no further configuration settings.
 
 
@@ -1573,6 +1603,7 @@ This extension is used to map an unit attribute to a number. Both, decimal and a
 | Float                            | Unit                                |
 
 ### Configuration
+
 - *Unit to convert to*   
   Select the appropriate unit of the destination attribute to convert the quantity value into the correct unit. All units corresponding to the dimension of the source attribute are displayed in the drop-down list.
 
@@ -1591,6 +1622,7 @@ This extension is used to map a unit attribute to a string attribute. A unit att
 | String                           | Unit                                |
 
 ### Configuration
+
 - *Mode*     
   Select the unit mapping mode. The following modes are available:
   - **Keep Unit**: The source unit is mapped to the destination attribute.
@@ -1690,6 +1722,7 @@ This extension is used to map a product variant attribute to a string attribute.
 | String                           | Product variant                     |
 
 ### Configuration
+
 This ETL extension has no further configuration settings.
 
 
@@ -1709,6 +1742,7 @@ This extension is used to map a variant attribute to a variant attribute. The va
 [comment]: <> (stimmt das? Den Code checke ich nicht...)
 
 ### Configuration
+
 - ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Automatically generate all child entities when main entity is created*   
   All variants to a master product are automatically created in the destination when the master product is created. This toggle is read-only.
 
@@ -1728,11 +1762,3 @@ This extension is used to map a variant attribute to a variant attribute. The va
 
   - ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Do not apply master product status to children*      
   Enable the toggle to manage the status of all variants independently of their master product. Otherwise, the status of the main product is automatically applied to all variants in the destination attribute. By default, the toggle is disabled.
-
-
-
-  [comment]: <> (wie wird eine Info zu einem Zielattribut übertragen
-
-  Datentyp Zielattribut definiert Auswahl der Mappings
-
-  Kombi aus Datentyp und Mapping definiert Auswahl des Quellattributs)

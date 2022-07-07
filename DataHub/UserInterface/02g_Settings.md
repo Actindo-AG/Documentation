@@ -6,6 +6,8 @@
 
 ![Units and dimensions](/Assets/Screenshots/DataHub/Settings/UnitsDimensions/UnitsDimensions.png "[Units and dimensions]")
 
+**Dimension list**
+
 - ![Search](/Assets/Icons/Search.png "[Search]") (Search)   
   Click this button to display the search bar and search for a unit or dimension.
 

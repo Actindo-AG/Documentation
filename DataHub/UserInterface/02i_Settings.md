@@ -4,6 +4,8 @@
 
 ![Deleted attributes](/Assets/Screenshots/DataHub/Settings/DeletedAttributes/DeletedAttributes.png "[Deleted attributes]")
 
+**Deleted attributes list**
+
 - ![Search](/Assets/Icons/Search.png "[Search]") (Search)   
   Click this button to display the search bar and search for a deleted attribute.
 
@@ -35,7 +37,7 @@ The list displays all deleted attributes. All fields are read-only. Depending on
 - *Key*   
   Attribute key.
 
-- *Data Type*   
+- *Data type*   
   Attribute data type. For detailed information about all data types, see [Data type list](/PIM/UserInterface/04_DataTypeList.md).
 
 - *Description*   

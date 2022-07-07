@@ -30,7 +30,7 @@ An ETL process has been triggered, for instance by a rerun of mapping, see [Reru
 
 1. Check the list for the appropriate ETL process and note its status.
 
-2. Click the *Status Filter* drop-down list and select the status of the respective ETL process in the list. The following statuses are available in the list:
+2. Click the *Status filter* drop-down list and select the status of the respective ETL process in the list. The following statuses are available in the list:
   - **Todo**: All pending ETL processes are displayed.
   - **Error**: All faulty ETL processes are displayed.
   - **Done**: All completed ETL processes are displayed.
@@ -63,12 +63,12 @@ An ETL process has been triggered, for instance by a rerun of mapping, see [Reru
 
 ## Confirm an ETL process
 
-If the selected change tracking mode of an ETL mapping equals **semi-automatic** or **semi-automatic, changes must be confirmed by another user**, the ETL process has to be confirmed before the mapping can be rerun.
+If the selected change tracking mode of an ETL mapping equals **Semi-automatic** or **Semi-automatic, changes must be confirmed by another user**, the ETL process has to be confirmed before the mapping can be rerun.
 
 ### Prerequisites
 
 - An ETL process has been triggered, for instance by a rerun of mapping, see [Rerun an ETL mapping](01_ManageETLMappings.md#rerun-an-etl-mapping).
-- At least one of the triggered ETL processes has the change tracking mode **semi-automatic** or **semi-automatic, changes must be confirmed by another user**.
+- At least one of the triggered ETL processes has the change tracking mode **Semi-automatic** or **Semi-automatic, changes must be confirmed by another user**.
 
 ### Procedure
 *DataHub > Settings > Tab ETL PROCESSES*
@@ -77,7 +77,7 @@ If the selected change tracking mode of an ETL mapping equals **semi-automatic**
 
 1. Check the list for the appropriate ETL process to make sure that the ETL process has been triggered.
 
-  > [Info] ETL processes whose mappings have a **semi-automatic** change tracking mode are listed with the *Awaiting confirmation* status, those having a **semi-automatic, changes must be confirmed by another user** change tracking mode are listed with the *Awaiting confirmation different user* status.
+  > [Info] ETL processes whose mappings have a **Semi-automatic** change tracking mode are listed with the *Awaiting confirmation* status, those having a **Semi-automatic, changes must be confirmed by another user** change tracking mode are listed with the *Awaiting confirmation different user* status.
 
 2. Switch to the *Omni-Channel* module: *Omni-Channel > Offers > Tab SEMI AUTOMATIC MAPPING* .      
   The *SEMI AUTOMATIC MAPPING* tab is displayed.
@@ -125,7 +125,7 @@ An ETL process has been canceled because of an error. When the error has been fi
 
 ![ETL processes](/Assets/Screenshots/DataHub/Settings/ETLProcesses/ETLProcesses.png "[ETL processes]")
 
-1. Click the *Status Filter* drop-down list and select the **Error** status in the list.
+1. Click the *Status filter* drop-down list and select the **Error** status in the list.
   All ETL processes with the **Error** status are displayed.
 
   ![Error processes](/Assets/Screenshots/DataHub/Settings/ETLProcesses/Error.png "[Error processes]")

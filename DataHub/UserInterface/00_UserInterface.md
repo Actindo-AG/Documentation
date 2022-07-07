@@ -4,8 +4,8 @@
 
 
 - [DASHBOARDS](01a_Overview.md)
-  - [Add a new tab - Create new tab](01a_Overview.md#add-a-new-tab-create-new-tab)
-  - [Add a new tab - Import existing tab](01a_Overview.md#add-a-new-tab-import-existing-tab)
+  - [Add a new tab - Create new tab](01a_Overview.md#add-a-new-tabcreate-new-tab)
+  - [Add a new tab - Import existing tab](01a_Overview.md#add-a-new-tabimport-existing-tab)
   - [Confirm tab deletion](01a_Overview.md#confirm-tab-deletion)
   - [Tab](01a_Overview.md#tab)
     - [Edit tab](01a_Overview.md#edit-tab)
@@ -18,8 +18,8 @@
 - [ATTRIBUTES](02a_Settings.md)
   - [Create attribute](02a_Settings.md#create-attribute)
   - [Edit attribute](02a_Settings.md#edit-attribute)
-    - [Edit attribute - Data](02a_Settings.md#edit-attribute-data)
-    - [Edit attribute - Attribute set assignments](02a_Settings.md#edit-attribute-attribute-set-assignments)
+    - [Edit attribute - Data](02a_Settings.md#edit-attributedata)
+    - [Edit attribute - Attribute set assignments](02a_Settings.md#edit-attributeattribute-set-assignments)
 
 
 - [ATTRIBUTE SETS](02b_Settings.md)
@@ -37,7 +37,7 @@
 
 
 - [ETL](02d_Settings.md)
-  - [Create ETL Attribute Set Mapping](02d_Settings.md#create-etl-attribute-set-mapping)
+  - [Create ETL attribute set mapping](02d_Settings.md#create-etl-attribute-set-mapping)
   - [Mapping](02d_Settings.md#mapping)
     - [Settings](02d_Settings.md#settings)
     - [Rerun all mappings](02d_Settings.md#rerun-all-mappings)

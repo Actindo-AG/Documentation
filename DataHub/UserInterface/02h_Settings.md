@@ -4,7 +4,7 @@
 
 ![ETL processes](/Assets/Screenshots/DataHub/Settings/ETLProcesses/ETLProcesses.png "[ETL processes]")
 
-**ETL Processes**
+**ETL processes**
 
 - *VIEW*   
   Click the drop-down list to select the view. All created views are displayed in the drop-down list. Click the ![Points](/Assets/Icons/Points01.png "[Points]") (Points) button to the right of the *VIEW* drop-down list to display the context menu and create or edit a view.
@@ -35,7 +35,7 @@
     - ![Delete](/Assets/Icons/Trash01.png "[Delete]") delete    
       Click this entry to delete the selected view. The confirmation window to confirm the deletion is displayed. This menu entry is only displayed when a view is selected.
 
-- *Status Filter*   
+- *Status filter*   
   Click the drop-down list to filter the ETL processes for a certain status. The following filter modes are available:
   - **All**: All ETL processes are displayed. By default, this mode is selected.
   - **Todo**: All pending ETL processes are displayed.
@@ -55,7 +55,7 @@
   Click this button to display the columns bar and customize the displayed columns and the order of columns in the list. The *x* indicates the number of columns that are currently displayed in the list.
 
 - [x]     
-  Select the checkbox to display the editing toolbar. Alternatively you can click directly a row in the list to select the checkbox to the row and display the editing toolbar.
+  Select the checkbox to display the editing toolbar. Alternatively you can click directly a row in the list to select the checkbox to the row and display the editing toolbar. You cannot select multiple checkboxes at once.
 
   [comment]: <> (Leere Toolbar außer bei error - ist das richtig?)
 
@@ -79,13 +79,13 @@ Depending on the selection in the *VIEW* drop-down list, the ETL processes list 
 
   [comment]: <> (Status erklären?)
 
-- *From-To*   
+- *From-to*   
   Name of the source and the destination entity. The SKUs of the entities are indicated in brackets after the names.  
 
-- *Source Attribute*   
+- *Source attribute*   
   Source attribute name.
 
-- *Destination Attribute*   
+- *Destination attribute*   
   Destination attribute name.
 
 - *Error*   
@@ -94,13 +94,13 @@ Depending on the selection in the *VIEW* drop-down list, the ETL processes list 
 - *ID*   
   Process identification number. The ID number is automatically assigned by the system when the product is created.
 
-- *Destination Language*   
+- *Destination language*   
   Destination language to which the process is mapped.
 
-- *Destination Channel*   
+- *Destination channel*   
   Destination channel to which the process is mapped.
 
-- *Accepted*   
+- *Accepted on*   
   Date and time of the confirmation. This field is only displayed for ETL processes with the **Semi-automatic accepted** status.
 
 - *Accepted by*   
@@ -115,6 +115,7 @@ Depending on the selection in the *VIEW* drop-down list, the ETL processes list 
 
 
 ## Create view
+
 *DataHub > Settings > Tab ETL PROCESSES > Button Points > Menu entry create*
 
 ![Create view](/Assets/Screenshots/DataHub/Settings/ETLProcesses/CreateView.png "[Create view]")
@@ -130,6 +131,7 @@ Depending on the selection in the *VIEW* drop-down list, the ETL processes list 
 
 
 ## Rename view
+
 *DataHub > Settings > Tab ETL PROCESSES > Button Points > Menu entry rename*
 
 ![Rename view](/Assets/Screenshots/DataHub/Settings/ETLProcesses/RenameView.png "[Rename view]")

@@ -66,7 +66,7 @@ The list displays all channels. All fields are read-only. Depending on the setti
   Channel description in the displayed language. For each active language exists a single *Description* column.
 
 - ![Add](/Assets/Icons/Plus01.png "[Add]") (Add)   
-  Click this button to create a channel. The *Create Channel* view is displayed.   
+  Click this button to create a channel. The *Create channel* view is displayed.   
 
 
 
@@ -79,14 +79,14 @@ The list displays all channels. All fields are read-only. Depending on the setti
 **Create channel**
 
 - ![Back](/Assets/Icons/Back02.png "[Back]") (Back)   
-  Click this button to close the *Create Channel* view and return to the channel list. All changes are rejected.
+  Click this button to close the *Create channel* view and return to the channel list. All changes are rejected.
 
 - Language   
   Click the drop-down list and select the language in which the *Name (Language)* and *Description (Language)* fields are displayed. The system languages *English (United States)* and *Deutsch (Deutschland)* are available in the drop-down list.
   [comment]: <> (Is that right? -> language question)
 
 - [SAVE]   
-  Click this button to save the channel, close the *Create Channel* view and return to the channel list.
+  Click this button to save the channel, close the *Create channel* view and return to the channel list.
 
 - *Name (Language)*   
   Enter a channel name in the selected language.
@@ -111,14 +111,14 @@ The list displays all channels. All fields are read-only. Depending on the setti
 **Edit channel**
 
 - ![Back](/Assets/Icons/Back02.png "[Back]") (Back)   
-  Click this button to close the *Edit Channel* view and return to the channel list. All changes are rejected.
+  Click this button to close the *Edit channel* view and return to the channel list. All changes are rejected.
 
 - Language   
   Click the drop-down list and select the language in which the *Name (Language)* and *Description (Language)* fields are displayed. The system languages *English (United States)* and *Deutsch (Deutschland)* are available in the drop-down list.
   [comment]: <> (Is that right? -> language question)
 
 - [SAVE]   
-  Click this button to save the channel, close the *Edit Channel* view and return to the channel list.
+  Click this button to save the channel, close the *Edit channel* view and return to the channel list.
 
 - *Name (Language)*   
   Click the field to edit the channel name in the selected language.

@@ -4,7 +4,7 @@
 
 ![HTML templates](/Assets/Screenshots/DataHub/Settings/HTMLTemplates/HTMLTemplates.png "[HTML templates]")
 
-**HTML templates**
+**HTML templates list**
 
 - ![Search](/Assets/Icons/Search.png "[Search]") (Search)   
   Click this button to display the search bar and search for an HTML template.
@@ -18,10 +18,10 @@
   Click this button to display the columns bar and customize the displayed columns and the order of columns in the list. The *x* indicates the number of columns that are currently displayed in the list.
 
 - [x]     
-  Select the checkbox to display the editing toolbar.
+  Select the checkbox to display the editing toolbar. You cannot select multiple checkboxes at once.
 
 - ![Edit](/Assets/Icons/Edit01.png "[Edit]") (Edit)   
-  Click this button to edit the selected HTML template. This button is only displayed, when a single checkbox of an HTML template is selected. Alternatively, you can click directly a row in the list to edit an HTML template.
+  Click this button to edit the selected HTML template. This button is only displayed, when the checkbox of an HTML template is selected. Alternatively, you can click directly a row in the list to edit an HTML template.
   For detailed information, see [Edit an HTML template](/DataHub/Operation/03_ManageHTMLTemplates.md#edit-an-html-template).
 
 The list displays all HTML templates. All fields are read-only. Depending on the settings, the displayed columns may vary.

@@ -26,7 +26,7 @@ The attributes for the attribute set are created, see [Create an attribute](01_M
 ![Attribute sets](/Assets/Screenshots/DataHub/Settings/AttributeSets/AttributeSets.png "[Attribute sets]")
 
 1. Click the ![Add](/Assets/Icons/Plus01.png "[Add]") (Add) button in the bottom right corner.   
-  The *Create Attribute Set* view is displayed.
+  The *Create attribute set* view is displayed.
 
   ![Create attribute set](/Assets/Screenshots/DataHub/Settings/AttributeSets/CreateAttributeSet.png "[Create attribute set]")
 
@@ -36,7 +36,7 @@ The attributes for the attribute set are created, see [Create an attribute](01_M
 
   > [Info] In order to facilitate the assignment of sets in the further process, it is recommended to add the prefix **datahubset_** to all attribute sets created in the *DataHub* module.
 
-4. Click the *Entity Type* drop-down list and select the appropriate entity type. The list of options may differ depending on the system configuration.
+4. Click the *Entity type* drop-down list and select the appropriate entity type. The list of options may differ depending on the system configuration.
 
 [comment]: <> (More information about the entity type!)
 
@@ -50,11 +50,11 @@ The attributes for the attribute set are created, see [Create an attribute](01_M
 
 > [Info]  When you create an attribute set without inheritance, you have to add all attributes manually to the created attribute set. Neither attributes nor configurations are applied from another attribute set. In exchange, you can define individually which attributes are required and customize their configuration.
 
-1. Select the **no inheritance** option in the *Inherit/Copy Values from* drop-down list.   
-  The *Inherit Configuration* toggle and the *Inherit/Copy Values* drop-down list are locked.
+1. Select the **No inheritance** option in the *Inherit/Copy values from* drop-down list.   
+  The *Inherit configuration* toggle and the *Inherit/Copy values* drop-down list are locked.
 
 2. Click the [SAVE] button.   
-  The new attribute set is saved. The *Create Attribute Set* view changes to the *Edit Attribute Set* view. The *Attribute set created* pop-up window is displayed.   
+  The new attribute set is saved. The *Create attribute set* view changes to the *Edit attribute set* view. The *Attribute set created* pop-up window is displayed.   
 
   ![Attribute set created](/Assets/Screenshots/DataHub/Settings/AttributeSets/AttributeSetCreated.png "[Attribute set created]")   
 
@@ -65,14 +65,14 @@ The attributes for the attribute set are created, see [Create an attribute](01_M
 
 > [Info] When you create an attribute set with attribute inheritance, you adopt all attributes from the selected attribute set. The inherited attributes cannot be changed. Further, all changes in the inheritance attribute set are also applied to the linked attribute set. Each time a change is made in the inheritance attribute set, the linked attribute sets are updated.  
 
-1. Select an attribute set in the *Inherit/Copy Values from* drop-down list.
+1. Select an attribute set in the *Inherit/Copy values from* drop-down list.
 
-2. Enable the *Inherit Configuration* toggle if you also want to adopt the configuration to the new attribute set.
+2. Enable the *Inherit configuration* toggle if you also want to adopt the configuration to the new attribute set.
 
-3. Select the **Inherit** option in the *Inherit/Copy Values* drop-down list.
+3. Select the **Inherit** option in the *Inherit/Copy values* drop-down list.
 
 4. Click the [SAVE] button.   
-  The new attribute set is saved. The *Create Attribute Set* view changes to the *Edit Attribute Set* view. The *Attribute set created* pop-up window is displayed.   
+  The new attribute set is saved. The *Create attribute set* view changes to the *Edit attribute set* view. The *Attribute set created* pop-up window is displayed.   
 
   ![Attribute set created](/Assets/Screenshots/DataHub/Settings/AttributeSets/AttributeSetCreated.png "[Attribute set created]")     
 
@@ -83,14 +83,14 @@ The attributes for the attribute set are created, see [Create an attribute](01_M
 
 > [Info] When you create an attribute set with attribute copying, you copy all attributes from the selected attribute set once. After copying, the attribute set behaves like an attribute set without attribute inheritance. Further changes in the copied attribute set or not affecting the created attribute set.   
 
-1. Select an attribute set in the *Inherit/Copy Values from* drop-down list.
+1. Select an attribute set in the *Inherit/Copy values from* drop-down list.
 
-2. Enable the *Inherit Configuration* toggle if you also want to adopt the configuration to the new attribute set.
+2. Enable the *Inherit configuration* toggle if you also want to adopt the configuration to the new attribute set.
 
-3. Select the **Copy once** option in the *Inherit/Copy Values* drop-down list.
+3. Select the **Copy once** option in the *Inherit/Copy values* drop-down list.
 
 4. Click the [SAVE] button.   
-  The new attribute set is saved. The *Create Attribute Set* view changes to the *Edit Attribute Set* view. The *Attribute set created* pop-up window is displayed.   
+  The new attribute set is saved. The *Create attribute set* view changes to the *Edit attribute set* view. The *Attribute set created* pop-up window is displayed.   
 
   ![Attribute set created](/Assets/Screenshots/DataHub/Settings/AttributeSets/AttributeSetCreated.png "[Attribute set created]")     
 
@@ -137,11 +137,11 @@ In the *DataHub* module all available attributes can be added to the different a
 ![Attributes](/Assets/Screenshots/DataHub/Settings/AttributeSets/AttributeSets.png "[Attributes]")
 
 1. Click the attribute set you want to edit in the list of attribute sets.   
-  The *Edit Attribute Set* view is displayed.
+  The *Edit attribute set* view is displayed.
 
   ![Edit attribute set](/Assets/Screenshots/DataHub/Settings/AttributeSets/EditAttributeSet.png "[Edit attribute set]")
 
-2. Click the ![Add](/Assets/Icons/Plus01.png "[Add]") (Add) button in the *Assigned Attributes* section.   
+2. Click the ![Add](/Assets/Icons/Plus01.png "[Add]") (Add) button in the *Assigned attributes* section.   
   The *Add attributes* view is displayed. All active attributes that are not yet included in the selected attribute set are displayed in the list.
 
   ![Add attribute](/Assets/Screenshots/DataHub/Settings/AttributeSets/AddAttributes.png "[Edit attribute set]")
@@ -152,10 +152,10 @@ In the *DataHub* module all available attributes can be added to the different a
   The editing toolbar is displayed above the list.
 
 4. Click the [ADD] button in the editing toolbar.   
-  The selected attributes are added to the attribute set. The *Add attributes* view is closed. The *Edit Attribute Set* view is displayed again. The added attributes are displayed in the *Assigned Attributes* section.
+  The selected attributes are added to the attribute set. The *Add attributes* view is closed. The *Edit attribute set* view is displayed again. The added attributes are displayed in the *Assigned attributes* section.
 
 5. Click the [SAVE] button.   
-  The changes are saved. The *Edit Attribute Set* view is closed.
+  The changes are saved. The *Edit attribute set* view is closed.
 
 #### Next steps
 
@@ -192,11 +192,11 @@ Remove an attribute from an attribute set to limit the specifications. Inherited
 ![Attributes](/Assets/Screenshots/DataHub/Settings/AttributeSets/AttributeSets.png "[Attributes]")
 
 1. Click the attribute set you want to edit in the list of attribute sets.   
-  The *Edit Attribute Set* view is displayed.
+  The *Edit attribute set* view is displayed.
 
   ![Edit attribute set](/Assets/Screenshots/DataHub/Settings/AttributeSets/EditAttributeSet.png "[Edit attribute set]")
 
-2. In the *Assigned Attributes* section, select the checkboxes of the attributes, you want to remove from the attribute set.   
+2. In the *Assigned attributes* section, select the checkboxes of the attributes, you want to remove from the attribute set.   
   The editing toolbar is displayed above the list.
 
 3. Click the ![Delete](/Assets/Icons/Trash03.png "[Delete]") (Delete) button in the editing toolbar.   
@@ -205,7 +205,7 @@ Remove an attribute from an attribute set to limit the specifications. Inherited
   > [Info] If the selected attributes cannot be removed from the attribute set, an error message is displayed in the upper right corner.
 
 4. Click the [SAVE] button.   
-  The changes are saved. The *Edit Attribute Set* view is closed.
+  The changes are saved. The *Edit attribute set* view is closed.
 
 #### Next steps
 
@@ -243,21 +243,21 @@ An attribute set is created, see [Create an attribute set](#create-an-attribute-
 ![Attributes](/Assets/Screenshots/DataHub/Settings/AttributeSets/AttributeSets.png "[Attributes]")
 
 1. Click the attribute set you want to edit in the list of attribute sets.   
-  The *Edit Attribtue Set* view is displayed.
+  The *Edit attribute set* view is displayed.
 
   ![Edit attribute set](/Assets/Screenshots/DataHub/Settings/AttributeSets/EditAttributeSet.png "[Edit attribute set]")
 
-2. Click the ![Settings](/Assets/Icons/Settings01.png "[Settings]") (Settings) button in the *Assigned Attributes* section.   
-  The *required* column in the list of attributes is unlocked. The color of the ![Settings](/Assets/Icons/Settings01.png "[Settings]") (Settings) button switches to blue.
+2. Click the ![Settings](/Assets/Icons/Settings01.png "[Settings]") (Settings) button in the *Assigned attributes* section.   
+  The *Required* column in the list of attributes is unlocked. The color of the ![Settings](/Assets/Icons/Settings01.png "[Settings]") (Settings) button switches to blue.
 
   ![Required](/Assets/Screenshots/DataHub/Settings/AttributeSets/Required.png "[Required]")
 
-3. Enable or disable the *required* toggle in the *required* column to define whether or not an attribute value should be required in the selected attribute set.
+3. Enable or disable the *Required* toggle in the *Required* column to define whether or not an attribute value should be required in the selected attribute set.
 
-  > [Info] Be aware that you can only edit the *required* option for attributes that are not inherited.
+  > [Info] Be aware that you can only edit the *Required* option for attributes that are not inherited.
 
-4. Click the ![Settings](/Assets/Icons/Settings02.png "[Settings]") (Settings) button in the *Assigned Attributes* section.       
-  The *required* column in the list of attributes is locked. All changes in the attribute list are saved.
+4. Click the ![Settings](/Assets/Icons/Settings02.png "[Settings]") (Settings) button in the *Assigned attributes* section.       
+  The *Required* column in the list of attributes is locked. All changes in the attribute list are saved.
 
 5. Click the ![Back](/Assets/Icons/Back02.png "[Back]") (Back) button in the upper left corner to return to the list of attribute sets or proceed to [edit the attribute set](#edit-an-attribute-set).
 
@@ -295,7 +295,7 @@ At least one attribute set is created, see [Create an attribute set](#create-an-
 ![Attributes](/Assets/Screenshots/DataHub/Settings/AttributeSets/AttributeSets.png "[Attributes]")
 
 1. Click the attribute set you want to deactivate in the list of attribute sets.   
-  The *Edit Attribute Set* view is displayed.
+  The *Edit attribute set* view is displayed.
 
   ![Edit attribute set](/Assets/Screenshots/DataHub/Settings/AttributeSets/EditAttributeSet.png "[Edit attribute set]")
 
@@ -304,7 +304,7 @@ At least one attribute set is created, see [Create an attribute set](#create-an-
      > [Info] If you want to reactivate an attribute set, enable the *Active* toggle.
 
 3. Click the [SAVE] button.   
-  The attribute set is deactivated. The *Edit Attribute Set* view is closed.
+  The attribute set is deactivated. The *Edit attribute set* view is closed.
 
 4. Press **F5** to initialize the Core1 Platform and to apply the changes.
 

@@ -18,7 +18,7 @@ No prerequisites to fulfill.
 ![Language list](/Assets/Screenshots/DataHub/Settings/Languages/LanguageList.png "[Language list]")
 
 1. Click the ![Add](/Assets/Icons/Plus01.png "[Add]") (Add) button in the bottom right corner.   
-  The *Create Language* view is displayed.
+  The *Create language* view is displayed.
 
   ![Create language](/Assets/Screenshots/DataHub/Settings/Languages/CreateLanguage.png "[Create language]")
 
@@ -31,7 +31,7 @@ No prerequisites to fulfill.
   > [Info] The language must be activated to be used.
 
 5. Click the [SAVE] button in the upper right corner.   
-  The new language is saved. The *Create Language* view is closed.  
+  The new language is saved. The *Create language* view is closed.  
 
 ### Next steps
 
@@ -66,14 +66,14 @@ At least one language is created, see [Create a language](/DataHub/Integration/C
 ![Language list](/Assets/Screenshots/DataHub/Settings/Languages/LanguageList.png "[Language list]")
 
 1. Click the language you want to edit in the list of languages.   
-  The *Edit Language* view is displayed.
+  The *Edit language* view is displayed.
 
   ![Edit language](/Assets/Screenshots/DataHub/Settings/Languages/EditLanguage.png "[Edit language]")
 
 2. Edit the desired data of the language in the corresponding fields.
 
 3. Click the [SAVE] button in the upper right corner.   
-  The changes are saved. The *Edit Language* view is closed.  
+  The changes are saved. The *Edit language* view is closed.  
 
 ### Next steps
 
@@ -108,14 +108,14 @@ At least one language is created, see [Create a language](#create-a-language).
 ![Language list](/Assets/Screenshots/DataHub/Settings/Languages/LanguageList.png "[Language list]")
 
 1. Click the language you want to edit in the list of languages.   
-  The *Edit Language* view is displayed.
+  The *Edit language* view is displayed.
 
   ![Edit language](/Assets/Screenshots/DataHub/Settings/Languages/EditLanguage.png "[Edit language]")
 
 2. Disable the *Active* toggle.
 
 3. Click the [SAVE] button in the upper right corner.   
-  The language is deactivated. The *Edit Language* view is closed.
+  The language is deactivated. The *Edit language* view is closed.
 
 ### Next steps
 

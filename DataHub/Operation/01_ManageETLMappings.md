@@ -20,14 +20,14 @@ At least two attribute sets are created, see [Create an attribute set](02_Manage
 ![Attribute set mappings](/Assets/Screenshots/DataHub/Settings/ETL/AttributeSetMappings.png "[Attribute set mappings]")
 
 1. Click the ![Add](/Assets/Icons/Plus01.png "[Add]") (Add) button in the bottom right corner.   
-  The *Create ETL Attribute Set Mapping* window is displayed.
+  The *Create ETL attribute set mapping* window is displayed.
 
-  ![Create ETL Attribute Set Mapping](/Assets/Screenshots//DataHub/Settings/ETL/CreateETLAttributeSetMapping.png "[Create ETL Attribute Set Mapping]")
+  ![Create ETL attribute set mapping](/Assets/Screenshots//DataHub/Settings/ETL/CreateETLAttributeSetMapping.png "[Create ETL attribute set mapping]")
 
 2. Select a source attribute set in the *Source attribute set* drop-down list. All active attribute sets are displayed in the drop-down list.
 
 3. Select a destination attribute set in the *Destination attribute set* drop-down list. All active attribute sets are displayed in the drop-down list.   
-  If any attribute set mapping with the selected destination attribute set already exists, the *Copy ETL Attribute Set Mapping* drop-down list is unlocked.
+  If any attribute set mapping with the selected destination attribute set already exists, the *Copy ETL attribute set mapping* drop-down list is unlocked.
 
 4. Select a language in the *Language* drop-down list. All active languages are displayed in the drop-down list.
 
@@ -37,12 +37,12 @@ At least two attribute sets are created, see [Create an attribute set](02_Manage
 
   > [Info] The selected channel defines the channel from which the value of a multi-channel attribute is taken when mapping it to a single channel attribute.
 
-6. If desired, select an existing ETL attribute set mapping in the *Copy ETL Attribute Set Mapping* drop-down list. All attribute set mappings whose destination attribute set matches or has inheritance relations to the selected destination attribute set are displayed in the drop-down list.
+6. If desired, select an existing ETL attribute set mapping in the *Copy ETL attribute set mapping* drop-down list. All attribute set mappings whose destination attribute set matches or has inheritance relations to the selected destination attribute set are displayed in the drop-down list.
 
   > [Info] If you select an ETL attribute set mapping in the drop-down list, all matching attribute mappings are applied to the new ETL attribute set mapping.
 
 7. Click the [SAVE] button in the bottom right corner.   
-  The new attribute set mapping is saved and displayed in the list of attribute set mappings. The *Create ETL Attribute Set Mapping* window is closed.
+  The new attribute set mapping is saved and displayed in the list of attribute set mappings. The *Create ETL attribute set mapping* window is closed.
 
 ### Next steps
 
@@ -86,8 +86,8 @@ At least one ETL attribute set mapping is created, see [Create an ETL mapping](#
   ![Mapping settings](/Assets/Screenshots/DataHub/Settings/ETL/MappingSettings.png "[Mapping settings]")
 
   > [Info] Depending on the selected row, the fields displayed in the *Settings* section differ:
-  - If the selected row contains only a destination attribute, the destination attribute as well as the *Extension* and *Override Change tracking mode* drop-down lists are displayed.
-  - If the selected row contains an attribute mapping with source, destination attribute and the extension, the destination attribute as well as the *Source attribute*, *Extension* and *Override Change tracking mode* drop-down lists are displayed. The *Source attribute*, *Extension* and *Override Change tracking mode* drop-down lists are preset. If the selected extension requires further configuration settings, the *Configuration* section is displayed below the *Settings* section.  
+  - If the selected row contains only a destination attribute, the destination attribute as well as the *Extension* and *Override change tracking mode* drop-down lists are displayed.
+  - If the selected row contains an attribute mapping with source, destination attribute and the extension, the destination attribute as well as the *Source attribute*, *Extension* and *Override change tracking mode* drop-down lists are displayed. The *Source attribute*, *Extension* and *Override change tracking mode* drop-down lists are preset. If the selected extension requires further configuration settings, the *Configuration* section is displayed below the *Settings* section.  
 
 
 3. Select the appropriate option in the *Extension* drop-down list in the *Settings* section. All extensions that are matching the data type of the destination attribute are displayed in the drop-down list.   
@@ -96,7 +96,7 @@ At least one ETL attribute set mapping is created, see [Create an ETL mapping](#
   > [Info] For detailed information about the data types, see [Data type list](/PIM/UserInterface/04_DataTypeList.md).   
   For detailed information about the ETL extensions, see [ETL extensions list](/DataHub/UserInterface/03_ETLExtensions.md).
 
-4. Select the appropriate tracking mode in the *Override Change tracking mode* drop-down list. By default, the **use default** option is preselected. The following modes are available:
+4. Select the appropriate tracking mode in the *Override change tracking mode* drop-down list. By default, the **use default** option is preselected. The following modes are available:
   - **use default**: ---
   - **automatic**: The initial mapping is automatically applied. All value changes or reruns are applied automatically in the mapping.  
   - **semi-automatic**: The initial mapping is automatically applied. Values changes or reruns are applied after confirmation in the *Omni-Channel* module.
@@ -174,7 +174,7 @@ When creating an ETL attribute set mapping, you define the language and the chan
   > [Info] For detailed information about the data types, see [Data type list](/PIM/UserInterface/04_DataTypeList.md).   
   For detailed information about the ETL extensions, see [ETL extensions list](/DataHub/UserInterface/03_ETLExtensions.md).
 
-6. Select the appropriate tracking mode in the drop-down list *Override Change tracking mode*. By default, the **use default** option is preselected. The following modes are available:
+6. Select the appropriate tracking mode in the drop-down list *Override change tracking mode*. By default, the **use default** option is preselected. The following modes are available:
   - **use default**: ---
   - **automatic**: The attribute value is automatically adopted for the mapping. The mapping is rerun automatically when a value changes.  
   - **semi-automatic**: The attribute value is adopted for the mapping after confirmation. The mapping is rerun automatically after it has been confirmed.

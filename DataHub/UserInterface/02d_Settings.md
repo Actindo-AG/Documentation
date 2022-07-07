@@ -18,18 +18,18 @@
   Click this button to display the columns bar and customize the displayed columns and the order of columns in the list. The *x* indicates the number of columns that are currently displayed in the list.
 
 - [x]     
-  Select a checkbox to display the editing toolbar.
+  Select a checkbox to display the editing toolbar. You cannot select multiple checkboxes at once.
 
 - ![Edit](/Assets/Icons/Edit01.png "[Edit]") (Edit)   
-  Click this button to edit the selected attribute set mapping. This button is only displayed, when a checkbox of an attribute set mapping is selected. Alternatively, you can click directly a row in the list to edit an attribute set mapping.
+  Click this button to edit the selected attribute set mapping. This button is only displayed, when the checkbox of an attribute set mapping is selected. Alternatively, you can click directly a row in the list to edit an attribute set mapping.
   For detailed information, see [Edit an attribute set mapping](/DataHub/Operation/01_ManageETLMappings.md#edit-an-etl-attribute-set-mapping).
 
 The list displays all attribute set mappings. All fields are read-only. Depending on the settings, the displayed columns may vary.
 
-- *Source Attribute Set*   
+- *Source attribute set*   
   Name of the attribute set from which the mapping is run.
 
-- *Destination Attribute Set*   
+- *Destination attribute set*   
   Name of the attribute set to which the mapping is run.
 
 - *Language*   
@@ -54,23 +54,23 @@ The list displays all attribute set mappings. All fields are read-only. Dependin
   Name and username of the user who created the attribute set mapping.
 
 - ![Add](/Assets/Icons/Plus01.png "[Add]") (Add)   
-  Click this button to create an attribute set mapping. The *Create ETL Attribute Set Mapping* window is displayed.   
+  Click this button to create an attribute set mapping. The *Create ETL attribute set mapping* window is displayed.   
 
 
 
-## Create ETL Attribute Set Mapping
+## Create ETL attribute set mapping
 
 *DataHub > Settings > Tab ETL > Button Add*
 
 ![Create ETL attribute set mapping](/Assets/Screenshots/DataHub/Settings/ETL/CreateETLAttributeSetMapping.png "[Create ETL attribute set mapping]")
 
-- *Source Attribute Set*   
+- *Source attribute set*   
   Click the drop-down list and select the appropriate source attribute set for the mapping. All attribute sets are displayed in the drop-down list. Use the search bar in the drop-down list to search for an attribute set.
 
 [comment]: <> (Die Search bar funktioniert nicht richtig. Ich springe einfach in die Liste und raus aus der Suche...)
 
-- *Destination Attribute Set*   
-  Click the drop-down list and select the appropriate destination attribute set for the mapping. All attribute sets are displayed in the drop-down list. Use the search bar in the drop-down list to search for an attribute set. The *Copy ETL Attribute Set Mapping* drop-down list is unlocked if any attribute set mapping with the selected destination attribute set already exists.
+- *Destination attribute set*   
+  Click the drop-down list and select the appropriate destination attribute set for the mapping. All attribute sets are displayed in the drop-down list. Use the search bar in the drop-down list to search for an attribute set. The *Copy ETL attribute set mapping* drop-down list is unlocked if any attribute set mapping with the selected destination attribute set already exists.
 
 - *Language*   
   Click the drop-down list and select the language from which the value of a multilingual attribute will be taken when mapping it to a single language attribute. All languages are displayed in the drop-down list.
@@ -78,14 +78,14 @@ The list displays all attribute set mappings. All fields are read-only. Dependin
 - *Channel*   
   Click the drop-down list and select the channel from which the value of a multi-channel attribute will be taken when mapping it to a single channel attribute. All channels are displayed in the drop-down list.
 
-- *Copy ETL Attribute Set Mapping*   
+- *Copy ETL attribute set mapping*   
   Click the drop-down list and select the an ETL attribute set mapping to apply all matching attribute mappings to the new ETL attribute set mapping. All attribute set mappings whose destination attribute set matches or has inheritance relations to the selected destination attribute set are displayed in the drop-down list. If no attribute set mapping is selected, no attribute mappings are copied from another mapping. The drop-down list is locked if no attribute set mapping with the selected destination attribute set already exists.
 
 - [CANCEL]   
-  Click this button to cancel creating an attribute set mapping, close the *Create ETL Attribute Set Mapping* window and return to the list of attribute set mappings.
+  Click this button to cancel creating an attribute set mapping, close the *Create ETL attribute set mapping* window and return to the list of attribute set mappings.
 
 - [SAVE]   
-  Click this button to save the new attribute set mapping, close the *Create ETL Attribute Set Mapping* window and return to the list of attribute set mappings.
+  Click this button to save the new attribute set mapping, close the *Create ETL attribute set mapping* window and return to the list of attribute set mappings.
 
 
 
@@ -121,18 +121,18 @@ The list displays all attribute set mappings. All fields are read-only. Dependin
   Click this button to display the filter bar and customize the active filters. The *x* indicates the number of filters that are currently active.
 
 - [x]     
-  Select a checkbox to display the editing toolbar.
+  Select a checkbox to display the editing toolbar. You cannot select multiple checkboxes at once.
 
 - ![Edit](/Assets/Icons/Edit01.png "[Edit]") (Edit)   
-  Click this button to edit the mapping to the selected destination attribute. This button is only displayed, when a checkbox is selected. Alternatively, you can click directly a row in the list to edit the mapping to a destination attribute.
+  Click this button to edit the mapping to the selected destination attribute. This button is only displayed, when the checkbox of a mapping is selected. Alternatively, you can click directly a row in the list to edit the mapping to a destination attribute.
   For detailed information, see [Edit an attribute mapping](/DataHub/Operation/01_ManageETLMappings.md#edit-the-etl-attribute-mappings).
 
 - ![Delete](/Assets/Icons/Trash03.png "[Delete]") (Delete)   
-  Click this button to delete the selected mapping to the destination attribute. This button is only displayed, when a checkbox is selected.       
+  Click this button to delete the selected mapping to the destination attribute. This button is only displayed, when the checkbox of a mapping is selected.       
   For detailed information, see [Delete an attribute mapping](/DataHub/Operation/01_ManageAttributes.md#delete-an-etl-attribute-mapping).
 
 - [ADD TO SOURCE SET AND MAP]   
-  Click this button to add the selected destination attribute to the source attribute set and create a mapping. By default, the *Identity-Mapping* extension is used to map the attributes. The button is only displayed when no mapping to the selected destination attribute already exists.
+  Click this button to add the selected destination attribute to the source attribute set and create a mapping. By default, the *Identity-mapping* extension is used to map the attributes. The button is only displayed when no mapping to the selected destination attribute already exists.
 
   [comment]: <> (Stimmt das? Warum wird mir bei dem Attribut ve die Option nie angezeigt?)
 
@@ -145,13 +145,13 @@ The list displays all attribute set mappings. All fields are read-only. Dependin
 
 The list displays all attribute mappings. All fields are read-only. Depending on the settings, the displayed columns may vary.
 
-- *Source Attribute*   
+- *Source attribute*   
   Name of the source attribute which is mapped to the destination attribute. The source attribute is only displayed, when a mapping to the destination attribute exists.
 
 - *Extension*   
   Selected extension for the mapping. The extension is only displayed, when a mapping exists.
 
-- *Destination Attribute Set*   
+- *Destination attribute set*   
   Name of the destination attribute to which the source attribute is mapped.
 
 - *ID*   
@@ -181,22 +181,22 @@ Depending on the selected row in the mappings list, the fields displayed in the 
   Click the drop-down list and select the appropriate ETL extension for the attribute mapping. The displayed extensions depend on the data type of the selected destination attribute. For detailed information about the ETL extensions, see [ETL extensions list](03_ETLExtensions.md).
 
 - *Override change tracking mode*   
-  Click the drop-down list and select the change tracking mode of the mapping. By default, the **use default** option is selected. The following modes are available:
-    - **use default**: The default change tracking mode is applied to the mapping.
-    - **automatic**: The initial mapping is automatically applied. All value changes or reruns are applied automatically in the mapping.  
-    - **semi-automatic**: The initial mapping is automatically applied. Values changes or reruns are applied after confirmation in the *Omni-Channel* module.
-    - **semi-automatic, changes must be confirmed by another user**: The initial mapping as well as values changes or reruns are applied after confirmation by another user in the *Omni-Channel* module.
-    - **manual**: The initial mapping is automatically applied. Afterwards, the changes in the mapping must be triggered manually to be applied.
+  Click the drop-down list and select the change tracking mode of the mapping. By default, the **Use default** option is selected. The following modes are available:
+    - **Use default**: The default change tracking mode is applied to the mapping.
+    - **Automatic**: The initial mapping is automatically applied. All value changes or reruns are applied automatically in the mapping.  
+    - **Semi-automatic**: The initial mapping is automatically applied. Values changes or reruns are applied after confirmation in the *Omni-Channel* module.
+    - **Semi-automatic, changes must be confirmed by another user**: The initial mapping as well as values changes or reruns are applied after confirmation by another user in the *Omni-Channel* module.
+    - **Manual**: The initial mapping is automatically applied. Afterwards, the changes in the mapping must be triggered manually to be applied.
 
   [comment]: <> (ISt das so korrekt? welcher mode wird bei default genommen?)
 
 - *Source attribute*   
-  Click the drop-down list within the arrow box and select the appropriate source attribute for the mapping. Depending on the selected ETL extension one or several *source attribute* arrow boxes are displayed. The selection in the drop-down list depends on the selected ETL extension which defines the required data type of the source attribute(s). For detailed information about the ETL extensions and the different data types, see [ETL extensions list](03_ETLExtensions.md) or [Data type list](/PIM/UserInterface/04_DataTypeList.md).  
+  Click the drop-down list within the arrow box and select the appropriate source attribute for the mapping. Depending on the selected ETL extension one or several *Source attribute* arrow boxes are displayed. The selection in the drop-down list depends on the selected ETL extension which defines the required data type of the source attribute(s). For detailed information about the ETL extensions and the different data types, see [ETL extensions list](03_ETLExtensions.md) or [Data type list](/PIM/UserInterface/04_DataTypeList.md).  
 
 
 **Configuration**
 
-The *CONFIGURATION* section displays the additional configuration for the mapping. The configuration fields differ depending on the selected ETL extension.    
+The *Configuration* section displays the additional configuration for the mapping. The configuration fields differ depending on the selected ETL extension.    
 For detailed information about the different configurations of ETL extensions, see [ETL extensions list](03_ETLExtensions.md).
 
 

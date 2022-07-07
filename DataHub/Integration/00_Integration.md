@@ -19,8 +19,6 @@
     - [Remove an attribute from the set](02_ManageAttributeSets.md#remove-an-attribute-from-the-set)
     - [Change the required attributes in the set](02_ManageAttributeSets.md#change-the-required-attributes-in-the-set)
   - [Deactivate an attribute set](02_ManageAttributeSets.md#deactivate-an-attribute-set)
-  - [Import an attribute set](02_ManageAttributeSets.md#import-an-attribute-set)
-  - [Export an attribute set](02_ManageAttributeSets.md#export-an-attribute-set)
 
 
 - [Manage the attribute groups](03_ManageAttributeGroups.md)
@@ -52,8 +50,3 @@
   - [Change the default unit](06_ManageUnitsDimensions.md#change-the-default-unit)
   - [Deactivate a unit](06_ManageUnitsDimensions.md#deactivate-a-unit)
   - [Deactivate a dimension](06_ManageUnitsDimensions.md#deactivate-a-dimension)
-
-
-[comment]: <> (changes in the chapters below - have to be reviewed later:
-  - Import an attribute set
-  - Export an attribute set)

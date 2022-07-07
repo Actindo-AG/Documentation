@@ -19,10 +19,10 @@
   Click this button to display the filter bar and customize the active filters. The *x* indicates the number of filters that are currently active.
 
 - [x]     
-  Select the checkbox to display the editing toolbar. If you click the checkbox in the header, all attributes in the list are selected.
+  Select the checkbox to display the editing toolbar. You cannot select multiple checkboxes at once.
 
 - [EDIT]   
-  Click this button to edit the selected attribute. This button is only displayed, when a single checkbox of an attribute is selected. Alternatively, you can click directly a row in the list to edit an attribute.
+  Click this button to edit the selected attribute. This button is only displayed, when the checkbox of an attribute is selected. Alternatively, you can click directly a row in the list to edit an attribute.
   For detailed information, see [Edit an attribute](/DataHub/Integration/01_ManageAttributes.md#edit-an-attribute).
 
 - [DELETE]   
@@ -46,7 +46,7 @@ The list displays all attributes. All fields are read-only. Depending on the set
 - *Key*   
   Attribute key.
 
-- *Data Type*   
+- *Data type*   
   Attribute data type. For detailed information about all data types, see [Data type list](/PIM/UserInterface/04_DataTypeList.md).
 
 - *Description*   
@@ -89,7 +89,7 @@ The list displays all attributes. All fields are read-only. Depending on the set
   Attribute description in the displayed language. For each active language exists one *Description* column.
 
 - ![Add](/Assets/Icons/Plus01.png "[Add]") (Add)   
-  Click this button to create an attribute. The *Create Attribute* view is displayed.   
+  Click this button to create an attribute. The *Create attribute* view is displayed.   
 
 
 ## Create attribute
@@ -100,14 +100,14 @@ The list displays all attributes. All fields are read-only. Depending on the set
 **Create attribute**
 
 - ![Back](/Assets/Icons/Back02.png "[Back]") (Back)   
-  Click this button to close the *Create Attribute* view and return to the attributes list. All changes are rejected.
+  Click this button to close the *Create attribute* view and return to the attributes list. All changes are rejected.
 
 - Language   
   Click the drop-down list and select the language in which the *Name (Language)* and *Description (Language)* fields are displayed. The system languages *English (United States)* and *Deutsch (Deutschland)* are available in the drop-down list.
   [comment]: <> (Is that right? -> language question)
 
 - [SAVE]   
-  Click this button to save the attribute, close the *Create Attribute* view and return to the attributes list.
+  Click this button to save the attribute, close the *Create attribute* view and return to the attributes list.
 
 - *Name (Language)*   
   Enter an attribute name in the selected language.
@@ -115,7 +115,7 @@ The list displays all attributes. All fields are read-only. Depending on the set
 - *Description (Language)*   
   Enter a description to the attribute in the selected language.
 
-- *Data Type*   
+- *Data type*   
   Click the drop-down list and select an attribute data type. For detailed information about all data types, see [Data type list](/PIM/UserInterface/04_DataTypeList.md).
 
 - *Key*   
@@ -130,7 +130,7 @@ The list displays all attributes. All fields are read-only. Depending on the set
 - ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Active*   
   Enable this toggle to set the attribute status to active. Disable the toggle to set the status to inactive. By default, this toggle is active.
 
-- *Assigned Sets*   
+- *Assigned sets*   
     Click the drop-down list and select an attribute set to which the attribute is assigned after creation. All active attribute sets are displayed. The drop-down list is only displayed when at least one attribute set drop-down list has been added.
 
   - ![Add](/Assets/Icons/Plus05.png "[Add]") (Add)    
@@ -157,7 +157,7 @@ For detailed information about the different configurations of data types, see [
 **Edit attribute**
 
 - ![Back](/Assets/Icons/Back02.png "[Back]") (Back)   
-  Click this button to close the *Edit Attribute* view and return to the attributes list. All changes are rejected.
+  Click this button to close the *Edit attribute* view and return to the attributes list. All changes are rejected.
 
 - Language   
   Click the drop-down list and select the language in which the *Name (Language)* and *Description (Language)* fields are displayed. The system languages *English (United States)* and *Deutsch (Deutschland)* are available in the drop-down list.
@@ -165,7 +165,7 @@ For detailed information about the different configurations of data types, see [
   [comment]: <> (Is that right? -> language question)
 
 - [SAVE]   
-  Click this button to save the attribute, close the *Edit Attribute* view and return to the attributes list.
+  Click this button to save the attribute, close the *Edit attribute* view and return to the attributes list.
 
 ### Edit attribute - Data
 
@@ -179,17 +179,17 @@ For detailed information about the different configurations of data types, see [
 - *Description (Language)*   
   Click the field to edit the description to the attribute in the selected language.
 
-- *Data Type*   
-  Attribute data type. In the *Edit Attribute* view, this field is locked. For detailed information about all data types, see [Data type list](/PIM/UserInterface/04_DataTypeList.md).
+- *Data type*   
+  Attribute data type. In the *Edit attribute* view, this field is locked. For detailed information about all data types, see [Data type list](/PIM/UserInterface/04_DataTypeList.md).
 
 - *Key*   
-  Attribute key. The key is required for API access and must be system wide unique. In the *Edit Attribute* view, this field is locked.
+  Attribute key. The key is required for API access and must be system wide unique. In the *Edit attribute* view, this field is locked.
 
 - ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Multi-language*   
-  Enable this toggle to create a multi-lingual attribute. Disable the toggle to create a single language attribute. In the *Edit Attribute* view, this toggle is read-only.
+  Enable this toggle to create a multi-lingual attribute. Disable the toggle to create a single language attribute. In the *Edit attribute* view, this toggle is read-only.
 
 - ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Multi-channel*   
-  Enable this toggle to create a multi-channel attribute. Disable the toggle to create a single channel attribute. In the *Edit Attribute* view, this toggle is read-only.
+  Enable this toggle to create a multi-channel attribute. Disable the toggle to create a single channel attribute. In the *Edit attribute* view, this toggle is read-only.
 
 - ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Active*   
   Enable this toggle to set the attribute status to active. Disable the toggle to set the status to inactive. By default, this toggle is active.
@@ -203,7 +203,7 @@ For detailed information about the different configurations of data types, see [
 
 ### Edit attribute - Attribute set assignments
 
-*DataHub > Settings > Tab ATTRIBUTES > Select attribute > Tab Attribute Set Assignments*
+*DataHub > Settings > Tab ATTRIBUTES > Select attribute > Tab Attribute set assignments*
 
 ![Attribute set assignments](/Assets/Screenshots/DataHub/Settings/Attributes/EditAttribute_Assignments.png "[Attribute set assignments]")
 
@@ -217,7 +217,7 @@ For detailed information about the different configurations of data types, see [
 
 The list displays all attributes. All fields are read-only. Depending on the settings, the displayed columns may vary.
 
-- *Attribute Set*   
+- *Attribute set*   
   Assigned attribute set.
 
 
@@ -233,9 +233,9 @@ The list displays all attributes. All fields are read-only. Depending on the set
   - ![Cross](/Assets/Icons/Cross02.png "[Cross]") (Cross): The attribute is not inherited.
 
 
-- *Calculated Field*   
-  Indication whether the attribute is an calculated field or not:
-  - ![Check](/Assets/Icons/Check.png "[Check]") (Checkmark): The attribute is ???.  
-  - ![Cross](/Assets/Icons/Cross02.png "[Cross]") (Cross): The attribute is ???.
+- *Calculated field*   
+  Indication whether the attribute is a calculated field or not:
+  - ![Check](/Assets/Icons/Check.png "[Check]") (Checkmark): The attribute is a calculated field.   
+  - ![Cross](/Assets/Icons/Cross02.png "[Cross]") (Cross): The attribute is no calculated field.
 
   [comment]: <> (What means 'Calculated'? completeness calculation? what field are calculated?)

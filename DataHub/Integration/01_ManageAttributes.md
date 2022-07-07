@@ -21,7 +21,7 @@ An attribute set is created, see [Create an attribute set](02_ManageAttributeSet
 ![Attributes](/Assets/Screenshots/DataHub/Settings/Attributes/Attributes.png "[Attributes]")
 
 1. Click the ![Add](/Assets/Icons/Plus01.png "[Add]") (Add) button in the bottom right corner.   
-  The *Create Attribute* view is displayed.
+  The *Create attribute* view is displayed.
 
   ![Create attribute](/Assets/Screenshots/DataHub/Settings/Attributes/CreateAttribute.png "[Create attribute]")
 
@@ -40,17 +40,17 @@ An attribute set is created, see [Create an attribute set](02_ManageAttributeSet
 
   > [Info] Be aware that only attributes which are neither multi-language nor multi-channel can be used as defining attributes for variants. For detailed information, see [Create a variant set](/PIM/Integration/07_ManageVariantSets.md#create-a-variant-set).
 
-6. Click the ![Add](/Assets/Icons/Plus05.png "[Add]") (Add) button in the *Assigned Sets* field. The button is locked if you have not yet selected a data type.   
+6. Click the ![Add](/Assets/Icons/Plus05.png "[Add]") (Add) button in the *Assigned sets* field. The button is locked if you have not yet selected a data type.   
   A drop-down list with all active attribute sets is displayed.
 
-7. Select an attribute set in the *Assigned Sets* drop-down list.
+7. Select an attribute set in the *Assigned sets* drop-down list.
 
   > [Info] You can assign the attribute to multiple sets. Repeat the steps **7** to **8** to assign the attribute to a further attribute set. To delete the assignment to a selected set, click the ![Delete](/Assets/Icons/Trash01.png "[Delete]") (Delete) button right to the set.
 
 8. If required, configure the settings in the *CONFIGURATION* section. For detailed information about the different configuration settings, see [Data type list](/PIM/UserInterface/04_DataTypeList.md).
 
 9. Click the [SAVE] button in the upper right corner.   
-  The new attribute is saved. The *Create Attribute* view is closed.  
+  The new attribute is saved. The *Create attribute* view is closed.  
 
 ### Next steps
 
@@ -87,7 +87,7 @@ At least one attribute is created, see [Create an attribute](#create-an-attribut
 ![Attributes](/Assets/Screenshots/DataHub/Settings/Attributes/Attributes.png "[Attributes]")
 
 1. Click the attribute you want to edit in the list of attributes.   
-  The *Edit Attribute* view is displayed. The *Data* tab is preselected.
+  The *Edit attribute* view is displayed. The *Data* tab is preselected.
 
   ![Edit attribute data](/Assets/Screenshots/DataHub/Settings/Attributes/EditAttribute_Data.png "[Edit attribute data]")
 
@@ -95,14 +95,14 @@ At least one attribute is created, see [Create an attribute](#create-an-attribut
 
 2. Edit the desired data of the attribute in the corresponding fields in the *Data* tab.
 
-3. If desired, click the *Attribute Set Assignments* tab to check to which sets the selected attribute is assigned.
+3. If desired, click the *Attribute set assignments* tab to check to which sets the selected attribute is assigned.
 
   ![Edit attribute assignments](/Assets/Screenshots/DataHub/Settings/Attributes/EditAttribute_Assignments.png "[Edit attribute assignments]")
 
    > [Info] If you want to change the attribute set assignments of the selected attribute, you have to modify the corresponding attribute set.
 
 4. Click the [SAVE] button in the upper right corner.   
-  The changes are saved. The *Edit Attribute* view is closed.  
+  The changes are saved. The *Edit attribute* view is closed.  
 
 ### Next steps
 
@@ -138,7 +138,7 @@ At least one attribute is created, see [Create an attribute](#create-an-attribut
 ![Attributes](/Assets/Screenshots/DataHub/Settings/Attributes/Attributes.png "[Attributes]")
 
 1. Click the attribute you want to deactivate in the list of attributes.   
-  The *Edit Attribute* view is displayed. The *Data* tab is preselected.
+  The *Edit attribute* view is displayed. The *Data* tab is preselected.
 
   ![Edit attribute data](/Assets/Screenshots/DataHub/Settings/Attributes/EditAttribute_Data.png "[Edit attribute data]")
 
@@ -147,7 +147,7 @@ At least one attribute is created, see [Create an attribute](#create-an-attribut
    > [Info] If you want to reactivate an attribute, enable the *Active* toggle.
 
 3. Click the [SAVE] button in the upper right corner.   
-  The attribute is deactivated. The *Edit Attribute* view is closed.
+  The attribute is deactivated. The *Edit attribute* view is closed.
 
 4. Press **F5** to initialize the Core1 Platform and to apply the changes.   
 
