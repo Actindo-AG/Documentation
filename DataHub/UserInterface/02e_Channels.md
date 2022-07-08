@@ -63,7 +63,7 @@ The list displays all channels. All fields are read-only. Depending on the setti
   Channel name in the selected language. A single *Name (Language)* column is displayed for the system languages *English (United States)* and *Deutsch (Deutschland)*.
 
 - *Description (Language)*   
-  Channel description in the displayed language. For each active language exists a single *Description* column.
+  Channel description in the displayed language. A single *Description (Language)* column is displayed for the system languages *English (United States)* and *Deutsch (Deutschland)*.
 
 - ![Add](/Assets/Icons/Plus01.png "[Add]") (Add)   
   Click this button to create a channel. The *Create channel* view is displayed.   

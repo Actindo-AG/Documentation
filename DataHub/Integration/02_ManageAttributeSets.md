@@ -16,11 +16,13 @@ In contrast to attribute sets created in the *PIM* module, you have to select an
 
 [comment]: <> (What does that mean -> what consequences has the entity type? All PIM attribute sets = entity type PIM product? List of entity types?)
 
-### Prerequisites
+### Define the attribute set basic data
+
+#### Prerequisites
 
 The attributes for the attribute set are created, see [Create an attribute](01_ManageAttributs.md#create-an-attribute).
 
-### Procedure
+#### Procedure
 *DataHub > Settings > Tab ATTRIBUTE SETS*
 
 ![Attribute sets](/Assets/Screenshots/DataHub/Settings/AttributeSets/AttributeSets.png "[Attribute sets]")
@@ -46,9 +48,20 @@ The attributes for the attribute set are created, see [Create an attribute](01_M
     - [Create an attribute set with attribute copying](#create-an-attribute-set-with-attribute-copying)
 
 
-#### Create an attribute set without attribute inheritance
 
-> [Info]  When you create an attribute set without inheritance, you have to add all attributes manually to the created attribute set. Neither attributes nor configurations are applied from another attribute set. In exchange, you can define individually which attributes are required and customize their configuration.
+### Create an attribute set without attribute inheritance
+
+When you create an attribute set without inheritance, you have to add all attributes manually to the created attribute set. Neither attributes nor configurations are applied from another attribute set. In exchange, you can define individually which attributes are required and customize their configuration.
+
+#### Prerequisites
+
+- The attributes for the attribute set are created, see [Create an attribute](01_ManageAttributs.md#create-an-attribute).
+- The basic data of the attribute set is completed, see [Define the attribute set basic data](#define-the-attribute-set-basic-data)
+
+#### Procedure
+*DataHub > Settings > Tab ATTRIBUTE SETS*
+
+![Create attribute set inheritance](/Assets/Screenshots/DataHub/Settings/AttributeSets/CreateAttributeSetInheritance.png "[Create attribute set inheritance]")
 
 1. Select the **No inheritance** option in the *Inherit/Copy values from* drop-down list.   
   The *Inherit configuration* toggle and the *Inherit/Copy values* drop-down list are locked.
@@ -61,9 +74,20 @@ The attributes for the attribute set are created, see [Create an attribute](01_M
 3. Click the ![Back](/Assets/Icons/Back02.png "[Back]") (Back) button in the upper left corner to return to the list of attribute sets or proceed to [edit the attribute set](#edit-an-attribute-set).
 
 
-#### Create an attribute set with attribute inheritance
 
-> [Info] When you create an attribute set with attribute inheritance, you adopt all attributes from the selected attribute set. The inherited attributes cannot be changed. Further, all changes in the inheritance attribute set are also applied to the linked attribute set. Each time a change is made in the inheritance attribute set, the linked attribute sets are updated.  
+### Create an attribute set with attribute inheritance
+
+When you create an attribute set with attribute inheritance, you adopt all attributes from the selected attribute set. The inherited attributes cannot be changed. Further, all changes in the inheritance attribute set are also applied to the linked attribute set. Each time a change is made in the inheritance attribute set, the linked attribute sets are updated.  
+
+#### Prerequisites
+
+- The attributes for the attribute set are created, see [Create an attribute](01_ManageAttributs.md#create-an-attribute).
+- The basic data of the attribute set is completed, see [Define the attribute set basic data](#define-the-attribute-set-basic-data)
+
+#### Procedure
+*DataHub > Settings > Tab ATTRIBUTE SETS*
+
+![Create attribute set inheritance](/Assets/Screenshots/DataHub/Settings/AttributeSets/CreateAttributeSetInheritance.png "[Create attribute set inheritance]")
 
 1. Select an attribute set in the *Inherit/Copy values from* drop-down list.
 
@@ -79,9 +103,19 @@ The attributes for the attribute set are created, see [Create an attribute](01_M
 5. Click the ![Back](/Assets/Icons/Back02.png "[Back]") (Back) button in the upper left corner to return to the list of attribute sets or proceed to [edit the attribute set](#edit-an-attribute-set).
 
 
-#### Create an attribute set with attribute copying
+### Create an attribute set with attribute copying
 
-> [Info] When you create an attribute set with attribute copying, you copy all attributes from the selected attribute set once. After copying, the attribute set behaves like an attribute set without attribute inheritance. Further changes in the copied attribute set or not affecting the created attribute set.   
+When you create an attribute set with attribute copying, you copy all attributes from the selected attribute set once. After copying, the attribute set behaves like an attribute set without attribute inheritance. Further changes in the copied attribute set or not affecting the created attribute set.   
+
+#### Prerequisites
+
+- The attributes for the attribute set are created, see [Create an attribute](01_ManageAttributs.md#create-an-attribute).
+- The basic data of the attribute set is completed, see [Define the attribute set basic data](#define-the-attribute-set-basic-data)
+
+#### Procedure
+*DataHub > Settings > Tab ATTRIBUTE SETS*
+
+![Create attribute set inheritance](/Assets/Screenshots/DataHub/Settings/AttributeSets/CreateAttributeSetInheritance.png "[Create attribute set inheritance]")
 
 1. Select an attribute set in the *Inherit/Copy values from* drop-down list.
 
@@ -95,24 +129,6 @@ The attributes for the attribute set are created, see [Create an attribute](01_M
   ![Attribute set created](/Assets/Screenshots/DataHub/Settings/AttributeSets/AttributeSetCreated.png "[Attribute set created]")     
 
 5. Click the ![Back](/Assets/Icons/Back02.png "[Back]") (Back) button in the upper left corner to return to the list of attribute sets or proceed to [edit the attribute set](#edit-an-attribute-set).
-
-
-### Next steps
-
-- [Edit an attribute set](#edit-an-attribute-set)
-- [Add an attribute to the set](#add-an-attribute-to-the-set)
-- [Remove an attribute from the set](#remove-an-attribute-from-the-set)
-- [Change the required attributes in the set](#change-the-required-attributes-in-the-set)
-- [Deactivate an attribute set](#deactivate-an-attribute-set)
-- [Manage the attribute groups](03_ManageAttributeGroups.md)
-- [Manage the channels](04_ManageChannels.md)
-- [Manage the languages](05_ManageLanguages.md)
-- [Manage the units and dimensions](06_ManageUnitsDimensions.md)
-
-### See also
-
-- [User Interface DataHub](/DataHub/UserInterface/00_UserInterface.md)
-- [Manage the attributes](01_ManageAttributes.md)
 
 
 
@@ -131,7 +147,6 @@ In the *DataHub* module all available attributes can be added to the different a
 - At least one additional attribute is created, see [Create an attribute](01_ManageAttributes.md#create-an-attribute).
 
 #### Procedure
-
 *DataHub > Settings > Tab ATTRIBUTE SETS*
 
 ![Attributes](/Assets/Screenshots/DataHub/Settings/AttributeSets/AttributeSets.png "[Attributes]")
@@ -157,24 +172,6 @@ In the *DataHub* module all available attributes can be added to the different a
 5. Click the [SAVE] button.   
   The changes are saved. The *Edit attribute set* view is closed.
 
-#### Next steps
-
-- [Remove an attribute from the set](#remove-an-attribute-from-the-set)
-- [Change the required attributes in the set](#change-the-required-attributes-in-the-set)
-- [Deactivate an attribute set](#deactivate-an-attribute-set)
-- [Manage the attribute groups](03_ManageAttributeGroups.md)
-- [Manage the channels](04_ManageChannels.md)
-- [Manage the languages](05_ManageLanguages.md)
-- [Manage the units and dimensions](06_ManageUnitsDimensions.md)
-
-
-#### See also
-
-- [User Interface DataHub](/DataHub/UserInterface/00_UserInterface.md)
-- [Create an attribute set](#create-an-attribute-set)
-- [Manage the attributes](01_ManageAttributes.md)
-
-
 
 ### Remove an attribute from the set
 
@@ -186,7 +183,6 @@ Remove an attribute from an attribute set to limit the specifications. Inherited
 - At least one attribute is added to the attribute set, see [Add an attribute to the set](#add-an-attribute-to-the-set).
 
 #### Procedure
-
 *DataHub > Settings > Tab ATTRIBUTE SETS*
 
 ![Attributes](/Assets/Screenshots/DataHub/Settings/AttributeSets/AttributeSets.png "[Attributes]")
@@ -207,25 +203,6 @@ Remove an attribute from an attribute set to limit the specifications. Inherited
 4. Click the [SAVE] button.   
   The changes are saved. The *Edit attribute set* view is closed.
 
-#### Next steps
-
-- [Change the required attributes in the set](#change-the-required-attributes-in-the-set)
-- [Deactivate an attribute set](#deactivate-an-attribute-set)
-- [Manage the attribute groups](03_ManageAttributeGroups.md)
-- [Manage the channels](04_ManageChannels.md)
-- [Manage the languages](05_ManageLanguages.md)
-- [Manage the units and dimensions](06_ManageUnitsDimensions.md)
-
-
-#### See also
-
-- [User Interface DataHub](/DataHub/UserInterface/00_UserInterface.md)
-- [Create an attribute set](#create-an-attribute-set)
-- [Add an attribute to the set](#add-an-attribute-to-the-set)
-- [Manage the attributes](01_ManageAttributes.md)
-- [Manage the products](/PIM/Operation/01_ManageProducts.md)
-
-
 
 ### Change the required attributes in the set
 
@@ -237,7 +214,6 @@ Be aware that the activation or deactivation of languages affects the completene
 An attribute set is created, see [Create an attribute set](#create-an-attribute-set).
 
 #### Procedure
-
 *DataHub > Settings > Tab ATTRIBUTE SETS*
 
 ![Attributes](/Assets/Screenshots/DataHub/Settings/AttributeSets/AttributeSets.png "[Attributes]")
@@ -261,35 +237,17 @@ An attribute set is created, see [Create an attribute set](#create-an-attribute-
 
 5. Click the ![Back](/Assets/Icons/Back02.png "[Back]") (Back) button in the upper left corner to return to the list of attribute sets or proceed to [edit the attribute set](#edit-an-attribute-set).
 
-#### Next steps
-
-- [Deactivate an attribute set](#deactivate-an-attribute-set)
-- [Manage the attribute groups](03_ManageAttributeGroups.md)
-- [Manage the channels](04_ManageChannels.md)
-- [Manage the languages](05_ManageLanguages.md)
-- [Manage the units and dimensions](06_ManageUnitsDimensions.md)
-
-#### See also
-
-- [User Interface DataHub](/DataHub/UserInterface/00_UserInterface.md)
-- [Create an attribute set](#create-an-attribute-set)
-- [Edit an attribute set](#edit-an-attribute-set)
-- [Add an attribute to the set](#add-an-attribute-to-the-set)
-- [Remove an attribute from the set](#remove-an-attribute-from-the-set)
-- [Manage the attributes](01_ManageAttributes.md)
-
 
 
 ## Deactivate an attribute set
 
 If an attribute set is no longer used, it is recommended to deactivate the attribute set to prevent any problems because of existing dependencies. If you deactivate an attribute set, it is no longer available when creating attributes or products.
 
-### Prerequisites
+#### Prerequisites
 
 At least one attribute set is created, see [Create an attribute set](#create-an-attribute-set).
 
-### Procedure
-
+#### Procedure
 *DataHub > Settings > Tab ATTRIBUTE SETS*
 
 ![Attributes](/Assets/Screenshots/DataHub/Settings/AttributeSets/AttributeSets.png "[Attributes]")
@@ -309,19 +267,8 @@ At least one attribute set is created, see [Create an attribute set](#create-an-
 4. Press **F5** to initialize the Core1 Platform and to apply the changes.
 
 
-### Next steps
 
-- [Manage the attribute groups](03_ManageAttributeGroups.md)
-- [Manage the channels](04_ManageChannels.md)
-- [Manage the languages](05_ManageLanguages.md)
-- [Manage the units and dimensions](06_ManageUnitsDimensions.md)
+## Related content
 
-### See also
-
-- [User Interface DataHub](/DataHub/UserInterface/00_UserInterface.md)
-- [Create an attribute set](#create-an-attribute-set)
-- [Edit an attribute set](#edit-an-attribute-set)
-- [Add an attribute to the set](#add-an-attribute-to-the-set)
-- [Remove an attribute from the set](#remove-an-attribute-from-the-set)
-- [Change the required attributes in the set](#change-the-required-attributes-in-the-set)
+- [User Interface DataHub](/DataHub/UserInterface/02b_AttributeSets.md)
 - [Manage the attributes](01_ManageAttributes.md)

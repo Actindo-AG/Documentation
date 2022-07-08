@@ -8,11 +8,11 @@ A dashboard gives an overview over the module and its content. While other modul
 
 Create a dashboard to be able to add the desired dashlets.
 
-### Prerequisites
+#### Prerequisites
 
 No prerequisites to fulfill.
 
-### Procedure
+#### Procedure
 *DataHub > Overview > Tab DASHBOARDS*
 
 ![Dashboards](/Assets/Screenshots/DataHub/Overview/Dashboards.png "[Dashboards]")
@@ -29,23 +29,6 @@ No prerequisites to fulfill.
 
   > [Info] You can create an unlimited number of dashboard tabs and customize them to the desired purpose.
 
-### Next steps
-
-- [Add a dashlet](#add-a-dashlet)
-- [Change the viewport](#change-the-viewport)
-- [Change the dashlets arrangement](#change-the-dashlets-arrangement)
-- [Change the viewport](#change-the-viewport)
-- [Remove a dashlet](#remove-a-dashlet)
-- [Delete a dashboard](#delete-a-dashboard)
-
-
-### See also
-
-- [User Interface DataHub](/DataHub/UserInterface/00_UserInterface.md)
-- [Manage the ETL mappings](01_ManageETLMappings.md)
-- [Manage the ETL processes](02_ManageETLProcesses.md)
-- [Manage the HTML templates](03_ManageHTMLTemplates.md)
-
 
 
 ## Customize a dashboard
@@ -61,7 +44,6 @@ Add the desired dashlets to your dashboard to get an overview over the processes
 A dashboard tab is created, see [Create a dashboard](#create-a-dashboard).
 
 #### Procedure
-
 *DataHub > Overview > Tab DASHBOARDS*
 
 ![NewTab](/Assets/Screenshots/DataHub/Overview/NewTab.png "[NewTab]")
@@ -91,22 +73,6 @@ A dashboard tab is created, see [Create a dashboard](#create-a-dashboard).
 
   > [Info] If you want to change the dashlet positioning, see [Change the dashlets arrangement](#change-the-dashlets-arrangement).
 
-#### Next steps
-
-- [Change the viewport](#change-the-viewport)
-- [Change the dashlets arrangement](#change-the-dashlets-arrangement)
-- [Change the viewport](#change-the-viewport)
-- [Remove a dashlet](#remove-a-dashlet)
-- [Delete a dashboard](#delete-a-dashboard)
-
-#### See also
-
-- [User Interface DataHub](/DataHub/UserInterface/00_UserInterface.md)
-- [Create a dashboard](#create-a-dashboard)
-- [Manage the ETL mappings](01_ManageETLMappings.md)
-- [Manage the ETL processes](02_ManageETLProcesses.md)
-- [Manage the HTML templates](03_ManageHTMLTemplates.md)
-
 
 
 ### Change the viewport
@@ -118,7 +84,6 @@ Change the viewport to adjust the view of the dashboard to the currently used de
 A dashboard tab is created, see [Create a dashboard](#create-a-dashboard).
 
 #### Procedure
-
 *DataHub > Overview > Tab DASHBOARDS*
 
 ![NewTab](/Assets/Screenshots/DataHub/Overview/NewTab.png "[NewTab]")
@@ -145,22 +110,6 @@ A dashboard tab is created, see [Create a dashboard](#create-a-dashboard).
 
 [comment]: <> (Wenn ich den Mobile viewport wählen, verschwinden alle Dashlets -> Bug?!)
 
-#### Next steps
-
-- [Change the dashlets arrangement](#change-the-dashlets-arrangement)
-- [Change the viewport](#change-the-viewport)
-- [Remove a dashlet](#remove-a-dashlet)
-- [Delete a dashboard](#delete-a-dashboard)
-
-#### See also
-
-- [User Interface DataHub](/DataHub/UserInterface/00_UserInterface.md)
-- [Create a dashboard](#create-a-dashboard)
-- [Add a dashlet](#add-a-dashlet)
-- [Manage the ETL mappings](01_ManageETLMappings.md)
-- [Manage the ETL processes](02_ManageETLProcesses.md)
-- [Manage the HTML templates](03_ManageHTMLTemplates.md)
-
 
 
 ### Change the dashlets arrangement
@@ -173,7 +122,6 @@ Change the arrangement of the dashlets on a dashboard to optimize the view for y
 - At least one dashlet is added to the dashboard, see [Add a dashlet](#add-a-dashlet).
 
 #### Procedure
-
 *DataHub > Overview > Tab DASHBOARDS*
 
 ![Tab with dashlets](/Assets/Screenshots/DataHub/Overview/TabDashlets.png "[[Tab with dashlets]")
@@ -195,22 +143,6 @@ Change the arrangement of the dashlets on a dashboard to optimize the view for y
 5. Click the [SAVE] button.   
   Any changes to the dashboard are saved. The *Edit tab* view is closed.
 
-#### Next steps
-
-- [Change the viewport](#change-the-viewport)
-- [Remove a dashlet](#remove-a-dashlet)
-- [Delete a dashboard](#delete-a-dashboard)
-
-#### See also
-
-- [User Interface DataHub](/DataHub/UserInterface/00_UserInterface.md)
-- [Create a dashboard](#create-a-dashboard)
-- [Add a dashlet](#add-a-dashlet)
-- [Change the viewport](#change-the-viewport)
-- [Manage the ETL mappings](01_ManageETLMappings.md)
-- [Manage the ETL processes](02_ManageETLProcesses.md)
-- [Manage the HTML templates](03_ManageHTMLTemplates.md)
-
 
 
 ### Remove a dashlet
@@ -223,7 +155,6 @@ Remove a dashlet from a dashboard if it is not needed for the purposes or was ad
 - At least one dashlet is added to the dashboard, see [Add a dashlet](#add-a-dashlet).
 
 #### Procedure
-
 *DataHub > Overview > Tab DASHBOARDS*
 
 ![Tab with dashlets](/Assets/Screenshots/DataHub/Overview/TabDashlets.png "[[Tab with dashlets]")
@@ -244,33 +175,17 @@ Remove a dashlet from a dashboard if it is not needed for the purposes or was ad
 4. Click the [SAVE] button.   
   Any changes to the dashboard are saved. The *Edit tab* view is closed.
 
-#### Next steps
-
-- [Delete a dashboard](#delete-a-dashboard)
-
-#### See also
-
-- [User Interface DataHub](/DataHub/UserInterface/00_UserInterface.md)
-- [Create a dashboard](#create-a-dashboard)
-- [Add a dashlet](#add-a-dashlet)
-- [Change the viewport](#change-the-viewport)
-- [Change the dashlets arrangement](#change-the-dashlets-arrangement)
-- [Change the viewport](#change-the-viewport)
-- [Manage the ETL mappings](01_ManageETLMappings.md)
-- [Manage the ETL processes](02_ManageETLProcesses.md)
-- [Manage the HTML templates](03_ManageHTMLTemplates.md)
-
 
 
 ## Delete a dashboard
 
 Delete a dashboard that is no longer needed to keep track of the other dashboards.
 
-### Prerequisites
+#### Prerequisites
 
 At least one dashboard tab is created, see [Create a dashboard](#create-a-dashboard).
 
-### Procedure
+#### Procedure
 *DataHub > Overview > Tab DASHBOARDS*
 
 ![Multiple dashboards](/Assets/Screenshots/DataHub/Overview/MultipleDashboards.png "[Multiple dashboards]")
@@ -285,15 +200,8 @@ At least one dashboard tab is created, see [Create a dashboard](#create-a-dashbo
 
   > [Info] Be aware that the dashboard cannot be recovered as the deletion process cannot be undone.
 
-### See also
 
-- [User Interface DataHub](/DataHub/UserInterface/00_UserInterface.md)
-- [Create a dashboard](#create-a-dashboard)
-- [Add a dashlet](#add-a-dashlet)
-- [Change the viewport](#change-the-viewport)
-- [Change the dashlets arrangement](#change-the-dashlets-arrangement)
-- [Change the viewport](#change-the-viewport)
-- [Remove a dashlet](#remove-a-dashlet)
-- [Manage the ETL mappings](01_ManageETLMappings.md)
-- [Manage the ETL processes](02_ManageETLProcesses.md)
-- [Manage the HTML templates](03_ManageHTMLTemplates.md)
+
+## Related content
+
+[User Interface DataHub](/DataHub/UserInterface/01a_Dashboards.md)

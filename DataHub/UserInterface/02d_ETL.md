@@ -33,7 +33,7 @@ The list displays all attribute set mappings. All fields are read-only. Dependin
   Name of the attribute set to which the mapping is run.
 
 - *Language*   
-  Language from which the value of a multilingual attribute is taken when mapping it to a single language attribute.
+  Language from which the value of a multi-language attribute is taken when mapping it to a single language attribute.
 
 - *Channel*   
   Channel from which the value of a multi-channel attribute is taken when mapping it to a single channel attribute.
@@ -73,7 +73,7 @@ The list displays all attribute set mappings. All fields are read-only. Dependin
   Click the drop-down list and select the appropriate destination attribute set for the mapping. All attribute sets are displayed in the drop-down list. Use the search bar in the drop-down list to search for an attribute set. The *Copy ETL attribute set mapping* drop-down list is unlocked if any attribute set mapping with the selected destination attribute set already exists.
 
 - *Language*   
-  Click the drop-down list and select the language from which the value of a multilingual attribute will be taken when mapping it to a single language attribute. All languages are displayed in the drop-down list.
+  Click the drop-down list and select the language from which the value of a multi-language attribute will be taken when mapping it to a single language attribute. All languages are displayed in the drop-down list.
 
 - *Channel*   
   Click the drop-down list and select the channel from which the value of a multi-channel attribute will be taken when mapping it to a single channel attribute. All channels are displayed in the drop-down list.

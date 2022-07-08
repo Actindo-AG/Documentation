@@ -53,7 +53,7 @@ The list displays all attributes. All fields are read-only. Depending on the set
   Description to the attribute.
 
 - *Multi-language*   
-  Indication whether the attribute is multilingual or not:
+  Indication whether the attribute is multi-language or not:
   - ![Check](/Assets/Icons/Check.png "[Check]") (Checkmark): The attribute is multi-language.  
   - ![Cross](/Assets/Icons/Cross02.png "[Cross]") (Cross): The attribute is single language.
 
@@ -83,10 +83,10 @@ The list displays all attributes. All fields are read-only. Depending on the set
   Name and username of the user who created the attribute.
 
 - *Name (Language)*   
-  Attribute name in the selected language. One *Name (Language)* column is displayed for the system languages *English (United States)* and *Deutsch (Deutschland)*.
+  Attribute name in the selected language. A single *Name (Language)* column is displayed for the system languages *English (United States)* and *Deutsch (Deutschland)*.
 
 - *Description (Language)*   
-  Attribute description in the displayed language. For each active language exists one *Description* column.
+  Attribute description in the displayed language. A single *Description (Language)* column is displayed for the system languages *English (United States)* and *Deutsch (Deutschland)*.
 
 - ![Add](/Assets/Icons/Plus01.png "[Add]") (Add)   
   Click this button to create an attribute. The *Create attribute* view is displayed.   
@@ -104,7 +104,6 @@ The list displays all attributes. All fields are read-only. Depending on the set
 
 - Language   
   Click the drop-down list and select the language in which the *Name (Language)* and *Description (Language)* fields are displayed. The system languages *English (United States)* and *Deutsch (Deutschland)* are available in the drop-down list.
-  [comment]: <> (Is that right? -> language question)
 
 - [SAVE]   
   Click this button to save the attribute, close the *Create attribute* view and return to the attributes list.
@@ -162,8 +161,6 @@ For detailed information about the different configurations of data types, see [
 - Language   
   Click the drop-down list and select the language in which the *Name (Language)* and *Description (Language)* fields are displayed. The system languages *English (United States)* and *Deutsch (Deutschland)* are available in the drop-down list.
 
-  [comment]: <> (Is that right? -> language question)
-
 - [SAVE]   
   Click this button to save the attribute, close the *Edit attribute* view and return to the attributes list.
 
@@ -207,7 +204,7 @@ For detailed information about the different configurations of data types, see [
 
 ![Attribute set assignments](/Assets/Screenshots/DataHub/Settings/Attributes/EditAttribute_Assignments.png "[Attribute set assignments]")
 
-**Attribute Set Assignments**
+**Attribute set assignments**
 
 - ![Refresh](/Assets/Icons/Refresh01.png "[Refresh]") (Refresh)   
   Click this button to update the list of attributes.

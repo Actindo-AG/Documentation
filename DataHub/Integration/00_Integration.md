@@ -11,6 +11,7 @@
 
 - [Manage the attribute sets](02_ManageAttributeSets.md)  
   - [Create an attribute set](02_ManageAttributeSets.md#create-an-attribute-set)
+    - [Define the attribute set basic data](02_ManageAttributeSets.md#define-the-attribute-set-basic-data)
     - [Create an attribute set without attribute inheritance](02_ManageAttributeSets.md#create-an-attribute-set-without-attribute-inheritance)
     - [Create an attribute set with attribute inheritance](02_ManageAttributeSets.md#create-an-attribute-set-with-attribute-inheritance)
     - [Create an attribute set with attribute copying](02_ManageAttributeSets.md#create-an-attribute-set-with-attribute-copying)

@@ -72,10 +72,10 @@ The list displays all attribute sets. All fields are read-only. Depending on the
   Name and username of the user who created the attribute set.
 
 - *Name (Language)*   
-  Attribute name in the selected language. One *Name (Language)* column is displayed for the system languages *English (United States)* and *Deutsch (Deutschland)*.
+  Attribute name in the selected language. A single *Name (Language)* column is displayed for the system languages *English (United States)* and *Deutsch (Deutschland)*.
 
 - *Description (Language)*   
-  Attribute description in the displayed language. For each active language exists one *Description* column.
+  Attribute description in the displayed language. A single *Description (Language)* column is displayed for the system languages *English (United States)* and *Deutsch (Deutschland)*.
 
 - ![Add](/Assets/Icons/Plus01.png "[Add]") (Add)   
   Click this button to create an attribute set. The *Create attribute set* view is displayed.   
@@ -94,7 +94,6 @@ The list displays all attribute sets. All fields are read-only. Depending on the
 
 - Language   
   Click the drop-down list and select the language in which the *Name (Language)* and *Description (Language)* fields are displayed. The system languages *English (United States)* and *Deutsch (Deutschland)* are available in the drop-down list.
-  [comment]: <> (Is that right? -> language question)
 
 - [SAVE]   
   Click this button to save the attribute set, close the *Create attribute set* view and return to the attribute set list.
@@ -134,7 +133,7 @@ The list displays all attribute sets. All fields are read-only. Depending on the
 **Assigned attributes**
 
 - ![Settings](/Assets/Icons/Settings01.png "[Settings]") (Settings)   
-  Click this button to unlock the *required* column in the attributes list. The color of the button switches to blue if the column is unlocked. Click the button again to lock the *required* column. The button color switches back to gray.
+  Click this button to unlock the *Required* column in the attributes list. The color of the button switches to blue if the column is unlocked. Click the button again to lock the *Required* column. The button color switches back to gray.
 
 - ![Search](/Assets/Icons/Search.png "[Search]") (Search)   
   Click this button to display the search bar and search for an attribute.
@@ -202,7 +201,7 @@ In the *Create attribute set* view, no attributes are displayed in list. You hav
 **Assigned Attributes**
 
 - ![Settings](/Assets/Icons/Settings01.png "[Settings]") (Settings)   
-  Click this button to unlock the *required* column in the attributes list. The color of the button switches to blue if the column is unlocked. Click the button again to lock the *required* column. The button color switches back to gray.
+  Click this button to unlock the *Required* column in the attributes list. The color of the button switches to blue if the column is unlocked. Click the button again to lock the *Required* column. The button color switches back to gray.
 
 - ![Search](/Assets/Icons/Search.png "[Search]") (Search)   
   Click this button to display the search bar and search for an attribute.
@@ -232,7 +231,7 @@ In the *Create attribute set* view, no attributes are displayed in list. You hav
 - [ADD MAPPING]   
   Click this button to add a mapping to the selected attribute. The *Add mapping* view is displayed. You can only add a mapping for attribute sets that are not inherited from another attribute set. This button is only displayed, when a single checkbox of an attribute is selected.
 
-The list displays all attributes assigned to the selected attribute set. When the ![Settings](/Assets/Icons/Settings01.png "[Settings]") (Settings) button is gray, all fields are read-only.  When the ![Settings](/Assets/Icons/Settings02.png "[Settings]") (Settings) button is blue, the field *required* is editable. Depending on the settings, the displayed columns may vary.
+The list displays all attributes assigned to the selected attribute set. When the ![Settings](/Assets/Icons/Settings01.png "[Settings]") (Settings) button is gray, all fields are read-only.  When the ![Settings](/Assets/Icons/Settings02.png "[Settings]") (Settings) button is blue, the field *Required* is editable. Depending on the settings, the displayed columns may vary.
 
 - *Name*   
   Attribute name.
@@ -261,7 +260,7 @@ The list displays all attributes assigned to the selected attribute set. When th
 
 - *Required*  
   Indication whether the attribute value is required or not. The following options are only displayed, when the ![Settings](/Assets/Icons/Settings01.png "[Settings]") (Settings) button is inactive:
-  When the ![Settings](/Assets/Icons/Settings02.png "[Settings]") (Settings) button is blue, the *required* toggle is displayed. Enable the toggle to set the attribute value as a mandatory field. Disable the toggle to set the attribute value as an optional field.   
+  When the ![Settings](/Assets/Icons/Settings02.png "[Settings]") (Settings) button is blue, the *Required* toggle is displayed. Enable the toggle to set the attribute value as a mandatory field. Disable the toggle to set the attribute value as an optional field.   
   When the ![Settings](/Assets/Icons/Settings01.png "[Settings]") (Settings) button is gray, the following options are displayed:
   - ![Check](/Assets/Icons/Check.png "[Check]") (Checkmark): The attribute is required.  
   - ![Cross](/Assets/Icons/Cross02.png "[Cross]") (Cross): The attribute is optional.   
@@ -283,7 +282,7 @@ The list displays all attributes assigned to the selected attribute set. When th
   Description to the attribute.
 
 - *Multi-language*   
-  Indication whether the attribute is multilingual or not:
+  Indication whether the attribute is multi-language or not:
   - ![Check](/Assets/Icons/Check.png "[Check]") (Checkmark): The attribute is multi-language.  
   - ![Cross](/Assets/Icons/Cross02.png "[Cross]") (Cross): The attribute is single language.
 
@@ -301,18 +300,18 @@ The list displays all attributes assigned to the selected attribute set. When th
 
 *DataHub > Settings > Tab ATTRIBUTE SETS > Select attribute set > Select attribute*
 
-![Edit Attribute for Set](/Assets/Screenshots/DataHub/Settings/AttributeSets/EditAttributeForSet.png "[Edit Attribute for Set]")
+![Edit attribute for set](/Assets/Screenshots/DataHub/Settings/AttributeSets/EditAttributeForSet.png "[Edit attribute for set]")
 
 **Edit attribute for set**
 
 - ![Back](/Assets/Icons/Back02.png "[Back]") (Back)   
-  Click this button to close the *Edit Attribute for Set* view and return to *Edit Attribute Set* view. All changes are rejected.
+  Click this button to close the *Edit attribute for set* view and return to *Edit attribute set* view. All changes are rejected.
 
 - [CANCEL]   
-  Click this button to cancel editing the configuration, close the *Edit Attribute for Set* view and return to the *Edit Attribute Set* view.
+  Click this button to cancel editing the configuration, close the *Edit attribute for set* view and return to the *Edit attribute set* view.
 
 - [SAVE]   
-  Click this button to save the changes, close the *Edit Attribute for Set* view and return to the *Edit Attribute Set* view.
+  Click this button to save the changes, close the *Edit attribute for set* view and return to the *Edit attribute set* view.
 
 **CONFIGURATION**
 
@@ -326,7 +325,7 @@ For detailed information about the different configurations of data types, see [
 
 ![Add mapping](/Assets/Screenshots/DataHub/Settings/AttributeSets/AddMapping.png "[Add mapping]")
 
-**Add Mapping**
+**Add mapping**
 
 This view equals to the attribute mapping in the *DataHub* module: *DataHub > Settings > Tab ETL > Select attribute set mapping > Select mapping line*   
 
@@ -337,7 +336,7 @@ This view equals to the attribute mapping in the *DataHub* module: *DataHub > Se
   Selected attribute on the right side of the view. The attribute cannot be changed.
 
 - *Language*   
-  Language of the destination attribute. The drop-down list is read-only. The drop-down list is only displayed when the destination attribute is multilingual.
+  Language of the destination attribute. The drop-down list is read-only. The drop-down list is only displayed when the destination attribute is multi-language.
 
 - *Channel*   
   Channel of the destination attribute. The drop-down list is read-only. The drop-down list is only displayed when the destination attribute is multi-channel.

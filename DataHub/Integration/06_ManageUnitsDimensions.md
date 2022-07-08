@@ -10,76 +10,42 @@ The units and dimensions are used for the values of attributes with different da
 
 ## Change the default unit
 
-### Prerequisites
+#### Prerequisites
 
 No prerequisites to fulfill.
 
-### Procedure
+#### Procedure
 *DataHub > Settings > Tab UNITS AND DIMENSIONS*
 
 [comment]: <> (to be completed)
-
-### Next steps
-
-- [Deactivate a unit](#deactivate-a-unit)
-- [Deactivate a dimension](#deactivate-a-dimension)
-
-### See also
-
-- [User Interface DataHub](/DataHub/UserInterface/00_UserInterface.md)
-- [Manage the attributes](01_ManageAttributes.md)
-- [Manage the attribute sets](02_ManageAttributeSets.md)
-- [Manage the attribute groups](03_ManageAttributeGroups.md)
-- [Manage the channels](04_ManageChannels.md)
-- [Manage the languages](05_ManageLanguages.md)
 
 
 
 ## Deactivate a unit
 
-### Prerequisites
+#### Prerequisites
 
 No prerequisites to fulfill.
 
-### Procedure
+#### Procedure
 *DataHub > Settings > Tab UNITS AND DIMENSIONS*
 
 [comment]: <> (to be completed)
-
-### Next steps
-
-- [Deactivate a dimension](#deactivate-a-dimension)
-
-### See also
-
-- [User Interface DataHub](/DataHub/UserInterface/00_UserInterface.md)
-- [Manage the attributes](01_ManageAttributes.md)
-- [Manage the attribute sets](02_ManageAttributeSets.md)
-- [Manage the attribute groups](03_ManageAttributeGroups.md)
-- [Manage the channels](04_ManageChannels.md)
-- [Manage the languages](05_ManageLanguages.md)
-- [Change the default unit](#change-the-default-unit)
 
 
 
 ## Deactivate a dimension
 
-### Prerequisites
+#### Prerequisites
 
 No prerequisites to fulfill.
 
-### Procedure
+#### Procedure
 *DataHub > Settings > Tab UNITS AND DIMENSIONS*
 
 [comment]: <> (to be completed)
 
-### See also
 
-- [User Interface DataHub](/DataHub/UserInterface/00_UserInterface.md)
-- [Manage the attributes](01_ManageAttributes.md)
-- [Manage the attribute sets](02_ManageAttributeSets.md)
-- [Manage the attribute groups](03_ManageAttributeGroups.md)
-- [Manage the channels](04_ManageChannels.md)
-- [Manage the languages](05_ManageLanguages.md)
-- [Change the default unit](#change-the-default-unit)
-- [Deactivate a unit](#deactivate-a-unit)
+## Related content
+
+[User Interface DataHub](/DataHub/UserInterface/02g_UnitsDimensions.md)

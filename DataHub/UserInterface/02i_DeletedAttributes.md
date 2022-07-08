@@ -44,7 +44,7 @@ The list displays all deleted attributes. All fields are read-only. Depending on
   Description to the attribute.
 
 - *Multi-language*   
-  Indication whether the attribute is multilingual or not:
+  Indication whether the attribute is multi-language or not:
   - ![Check](/Assets/Icons/Check.png "[Check]") (Checkmark): The attribute is multi-language.  
   - ![Cross](/Assets/Icons/Cross02.png "[Cross]") (Cross): The attribute is single language.
 

@@ -69,7 +69,6 @@ The list displays all language. All fields are read-only. Depending on the setti
 
 - Language   
   Click the drop-down list and select the language in which the *Name (Language)* field is displayed. The system languages *English (United States)* and *Deutsch (Deutschland)* are available in the drop-down list.
-  [comment]: <> (Is that right? -> language question)
 
 - [SAVE]   
   Click this button to save the language, close the *Create language* view and return to the language list.
@@ -98,7 +97,6 @@ The list displays all language. All fields are read-only. Depending on the setti
 
 - Language   
   Click the drop-down list and select the language in which the *Name (Language)* field is displayed. The system languages *English (United States)* and *Deutsch (Deutschland)* are available in the drop-down list.
-  [comment]: <> (Is that right? -> language question)
 
 - [SAVE]   
   Click this button to save the language, close the *Edit language* view and return to the language list.

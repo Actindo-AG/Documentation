@@ -171,7 +171,7 @@ The list displays all attributes that are not assigned to the selected attribute
 
 ![Add element](/Assets/Screenshots/DataHub/Settings/AttributeGroups/AddElement.png "[Add element]")
 
-> [Info] The *Add alement* window for attribute groups and sub-groups is identical.
+> [Info] The *Add element* window for attribute groups and sub-groups is identical.
 
 - Language   
   Click the drop-down list and select the language in which the *Name (Language)* field is displayed. The system languages *English (United States)* and *Deutsch (Deutschland)* are available in the drop-down list.
@@ -203,7 +203,6 @@ The list displays all attributes that are not assigned to the selected attribute
 
 - Language   
   Click the drop-down list and select the language in which the *Name (Language)* field is displayed. The system languages *English (United States)* and *Deutsch (Deutschland)* are available in the drop-down list.
-  [comment]: <> (Is that right? -> language question)
 
 - *Name (Language)*   
   Click the field to edit the attribute group name in the selected language.

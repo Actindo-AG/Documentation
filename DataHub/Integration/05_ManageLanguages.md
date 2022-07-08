@@ -8,11 +8,11 @@ The different languages are needed to be able to maintain attributes in differen
 
 Create a language to maintain attributes in the desired language.
 
-### Prerequisites
+#### Prerequisites
 
 No prerequisites to fulfill.
 
-### Procedure
+#### Procedure
 *DataHub > Settings > Tab LANGUAGES*
 
 ![Language list](/Assets/Screenshots/DataHub/Settings/Languages/LanguageList.png "[Language list]")
@@ -33,34 +33,19 @@ No prerequisites to fulfill.
 5. Click the [SAVE] button in the upper right corner.   
   The new language is saved. The *Create language* view is closed.  
 
-### Next steps
-
-- [Edit a language](#edit-a-language)
-- [Deactivate a language](#deactivate-a-language)
-- [Delete a language](#delete-a-language)
-- [Manage the units and dimensions](06_ManageUnitsDimensions.md)
-
-### See also
-
-- [User Interface DataHub](/DataHub/UserInterface/00_UserInterface.md)
-- [Manage the attributes](01_ManageAttributes.md)
-- [Manage the attribute sets](02_ManageAttributeSets.md)
-- [Manage the attribute groups](03_ManageAttributeGroups.md)
-- [Manage the channels](04_ManageChannels.md)
-- [Configure the language settings](/PIM/Integration/ConfigureLanguages.md)
 
 
 ## Edit a language
 
 After you have created a language, you can edit its name or key.
 
-### Prerequisites
+#### Prerequisites
 
 At least one language is created, see [Create a language](/DataHub/Integration/CreateLanguage.md).
 
 > [Info] By default, the languages *English (United States)* and *German (Germany)* are created.
 
-### Procedure
+#### Procedure
 *DataHub > Settings > Tab LANGUAGES*
 
 ![Language list](/Assets/Screenshots/DataHub/Settings/Languages/LanguageList.png "[Language list]")
@@ -75,34 +60,19 @@ At least one language is created, see [Create a language](/DataHub/Integration/C
 3. Click the [SAVE] button in the upper right corner.   
   The changes are saved. The *Edit language* view is closed.  
 
-### Next steps
-
-- [Deactivate a language](#deactivate-a-language)
-- [Delete a language](#delete-a-language)
-- [Manage the units and dimensions](06_ManageUnitsDimensions.md)
-
-### See also
-
-- [User Interface DataHub](/DataHub/UserInterface/00_UserInterface.md)
-- [Manage the attributes](01_ManageAttributes.md)
-- [Manage the attribute sets](02_ManageAttributeSets.md)
-- [Manage the attribute groups](03_ManageAttributeGroups.md)
-- [Manage the channels](04_ManageChannels.md)
-- [Create a language](#create-a-language)
-- [Configure the language settings](/PIM/Integration/ConfigureLanguages.md)
 
 
 ## Deactivate a language
 
 Deactivate a language when it should not be used for a certain time. The language is no longer available when it is inactive. Further, it is recommended to deactivate a language instead of deleting it to prevent any problems because of existing dependencies.
 
-### Prerequisites
+#### Prerequisites
 
 At least one language is created, see [Create a language](#create-a-language).
 
 > [Info] By default, the languages *English (United States)* and *German (Germany)* are created.
 
-### Procedure
+#### Procedure
 *DataHub > Settings > Tab LANGUAGES*
 
 ![Language list](/Assets/Screenshots/DataHub/Settings/Languages/LanguageList.png "[Language list]")
@@ -117,34 +87,19 @@ At least one language is created, see [Create a language](#create-a-language).
 3. Click the [SAVE] button in the upper right corner.   
   The language is deactivated. The *Edit language* view is closed.
 
-### Next steps
-
-- [Delete a language](#delete-a-language)
-- [Manage the units and dimensions](06_ManageUnitsDimensions.md)
-
-### See also
-
-- [User Interface DataHub](/DataHub/UserInterface/00_UserInterface.md)
-- [Manage the attributes](01_ManageAttributes.md)
-- [Manage the attribute sets](02_ManageAttributeSets.md)
-- [Manage the attribute groups](03_ManageAttributeGroups.md)
-- [Manage the channels](04_ManageChannels.md)
-- [Create a language](#create-a-language)
-- [Edit a language](#edit-a-language)
-- [Configure the language settings](/PIM/Integration/ConfigureLanguages.md)
 
 
 ## Delete a language
 
 You can delete a language if it is no longer needed. As there are usually existing dependencies, it is highly recommended not to delete a language. Instead, you can deactivate a language and thus prevent its use.
 
-### Prerequisites
+#### Prerequisites
 
 At least one language is created, see [Create a language](#create-a-language).
 
 > [Info] By default, the languages *English (United States)* and *German (Germany)* are created. Both languages cannot be deleted.
 
-### Procedure
+#### Procedure
 *DataHub > Settings > Tab LANGUAGES*
 
 ![Language list](/Assets/Screenshots/DataHub/Settings/Languages/LanguageList.png "[Language list]")
@@ -155,20 +110,11 @@ At least one language is created, see [Create a language](#create-a-language).
 2. Click the [Delete] button in the toolbar.  
   The language is deleted. The deletion cannot be undone.
 
-  > [Info]  If the selected language cannot be deleted, an error message is displayed in the upper right corner. To prevent the languages use, it is recommended to [deactivate the language](#deactivate-a-language) instead of delete it.
+  > [Info] If the selected language cannot be deleted, an error message is displayed in the upper right corner. To prevent the languages use, it is recommended to [deactivate the language](#deactivate-a-language) instead of delete it.
 
-### Next steps
 
-- [Manage the units and dimensions](06_ManageUnitsDimensions.md)
 
-### See also
+## Related content
 
-- [User Interface DataHub](/DataHub/UserInterface/00_UserInterface.md)
-- [Manage the attributes](01_ManageAttributes.md)
-- [Manage the attribute sets](02_ManageAttributeSets.md)
-- [Manage the attribute groups](03_ManageAttributeGroups.md)
-- [Manage the channels](04_ManageChannels.md)
-- [Create a language](#create-a-language)
-- [Edit a language](#edit-a-language)
-- [Deactivate a language](#deactivate-a-language)
+- [User Interface DataHub](/DataHub/UserInterface/02f_Languages.md)
 - [Configure the language settings](/PIM/Integration/ConfigureLanguages.md)

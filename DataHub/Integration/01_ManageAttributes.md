@@ -11,11 +11,11 @@ In the *DataHub* module, attributes from all plugins are displayed.
 
 Create an attribute to specify a new property for a product.
 
-### Prerequisites
+#### Prerequisites
 
 An attribute set is created, see [Create an attribute set](02_ManageAttributeSets.md#Create-an-attribute-set).
 
-### Procedure
+#### Procedure
 *DataHub > Settings > Tab ATTRIBUTES*
 
 ![Attributes](/Assets/Screenshots/DataHub/Settings/Attributes/Attributes.png "[Attributes]")
@@ -52,36 +52,17 @@ An attribute set is created, see [Create an attribute set](02_ManageAttributeSet
 9. Click the [SAVE] button in the upper right corner.   
   The new attribute is saved. The *Create attribute* view is closed.  
 
-### Next steps
-
-- [Edit an attribute](#edit-an-attribute)
-- [Deactivate an attribute](#deactivate-an-attribute)
-- [Delete an attribute](#delete-an-attribute)
-- [Recover an attribute](#recover-an-attribute)
-- [Finally delete an attribute](#finally-delete-an-attribute)
-- [Manage the attribute sets](02_ManageAttributeSets.md)
-- [Manage the attribute groups](03_ManageAttributeGroups.md)
-- [Manage the channels](04_ManageChannels.md)
-- [Manage the languages](05_ManageLanguages.md)
-- [Manage the units and dimensions](06_ManageUnitsDimensions.md)
-
-### See also
-
-- [User Interface DataHub](/DataHub/UserInterface/00_UserInterface.md)
-- [Manage the products](/PIM/Operation/01_ManageProducts.md)
-- [Data type list](/PIM/UserInterface/04_DataTypeList.md)
-
 
 ## Edit an attribute
 
 After you have created an attribute, you can edit it. However, only some attribute properties are editable. For instance, the data type and the attribute key cannot be subsequently modified. The assignment of an attribute to an attribute set must be changed in the [attribute set](02_ManageAttributeSets) itself.   
 There are also some attributes that are automatically created by the system, for instance when installing a plugin or module. These system attributes are read-only and cannot be edited. It is highly recommended not to deactivate these attributes to avoid interfering with the functioning of the Core1 Platform.
 
-### Prerequisites
+#### Prerequisites
 
 At least one attribute is created, see [Create an attribute](#create-an-attribute).
 
-### Procedure
+#### Procedure
 *DataHub > Settings > Tab ATTRIBUTES*
 
 ![Attributes](/Assets/Screenshots/DataHub/Settings/Attributes/Attributes.png "[Attributes]")
@@ -104,35 +85,16 @@ At least one attribute is created, see [Create an attribute](#create-an-attribut
 4. Click the [SAVE] button in the upper right corner.   
   The changes are saved. The *Edit attribute* view is closed.  
 
-### Next steps
-
-- [Deactivate an attribute](#deactivate-an-attribute)
-- [Delete an attribute](#delete-an-attribute)
-- [Recover an attribute](#recover-an-attribute)
-- [Finally delete an attribute](#finally-delete-an-attribute)
-- [Manage the attribute sets](02_ManageAttributeSets.md)
-- [Manage the attribute groups](03_ManageAttributeGroups.md)
-- [Manage the channels](04_ManageChannels.md)
-- [Manage the languages](05_ManageLanguages.md)
-- [Manage the units and dimensions](06_ManageUnitsDimensions.md)
-
-### See also
-
-- [User Interface DataHub](/DataHub/UserInterface/00_UserInterface.md)
-- [Create an attribute](#create-an-attribute)
-- [Manage the products](/PIM/Operation/01_ManageProducts.md)
-
-
 
 ## Deactivate an attribute
 
 It is recommended to deactivate an attribute instead of deleting it to prevent any problems because of existing dependencies. If you deactivate an attribute, it is no longer available for new attribute sets and it is hidden in existing products with this attribute.
 
-### Prerequisites
+#### Prerequisites
 
 At least one attribute is created, see [Create an attribute](#create-an-attribute).
 
-### Procedure
+#### Procedure
 *DataHub > Settings > Tab ATTRIBUTES*
 
 ![Attributes](/Assets/Screenshots/DataHub/Settings/Attributes/Attributes.png "[Attributes]")
@@ -151,36 +113,17 @@ At least one attribute is created, see [Create an attribute](#create-an-attribut
 
 4. Press **F5** to initialize the Core1 Platform and to apply the changes.   
 
-### Next steps
-
-- [Delete an attribute](#delete-an-attribute)
-- [Recover an attribute](#recover-an-attribute)
-- [Finally delete an attribute](#finally-delete-an-attribute)
-- [Manage the attribute sets](02_ManageAttributeSets.md)
-- [Manage the attribute groups](03_ManageAttributeGroups.md)
-- [Manage the channels](04_ManageChannels.md)
-- [Manage the languages](05_ManageLanguages.md)
-- [Manage the units and dimensions](06_ManageUnitsDimensions.md)
-
-### See also
-
-- [User Interface DataHub](/DataHub/UserInterface/00_UserInterface.md)
-- [Create an attribute](#create-an-attribute)
-- [Edit an attribute](#edit-an-attribute)
-- [Manage the products](/PIM/Operation/01_ManageProducts.md)
-
-
 
 
 ## Delete an attribute
 
 You can move an attribute to the *DELETED ATTRIBUTES* tab if it is no longer needed. As there are usually dependencies on an attribute, for example through an attribute set or created products, it is strongly recommended not to delete an attribute. Instead, you can deactivate an attribute and thus prevent its use.
 
-### Prerequisites
+#### Prerequisites
 
 At least one attribute is created, see [Create an attribute](#create-an-attribute).
 
-### Procedure
+#### Procedure
 *DataHub > Settings > Tab ATTRIBUTES*
 
 ![Attributes](/Assets/Screenshots/DataHub/Settings/Attributes/Attributes.png "[Attributes]")
@@ -198,35 +141,16 @@ At least one attribute is created, see [Create an attribute](#create-an-attribut
 > [Info] The attribute is moved to the *DELETED ATTRIBUTES* tab, but it can still be recovered. To irretrievably delete the attribute, see [Finally delete an attribute](#finally-delete-an-attribute).
 
 
-### Next steps
-
-- [Recover an attribute](#recover-an-attribute)
-- [Finally delete an attribute](#finally-delete-an-attribute)
-- [Manage the attribute sets](02_ManageAttributeSets.md)
-- [Manage the attribute groups](03_ManageAttributeGroups.md)
-- [Manage the channels](04_ManageChannels.md)
-- [Manage the languages](05_ManageLanguages.md)
-- [Manage the units and dimensions](06_ManageUnitsDimensions.md)
-
-### See also
-
-- [User Interface DataHub](/DataHub/UserInterface/00_UserInterface.md)
-- [Create an attribute](#create-an-attribute)
-- [Edit an attribute](#edit-an-attribute)
-- [Deactivate an attribute](#deactivate-an-attribute)
-- [Manage the products](/PIM/Operation/01_ManageProducts.md)
-
-
 
 ## Recover an attribute
 
 If you have moved an attribute to the *DELETED ATTRIBUTES* tab, you can recover the attribute and make the deletion undone.
 
-### Prerequisites
+#### Prerequisites
 
 At least one attribute is moved to the *DELETED ATTRIBUTES* tab, see [Delete an attribute](#delete-an-attribute).
 
-### Procedure
+#### Procedure
 *DataHub > Settings > Tab DELETED ATTRIBUTES*
 
 ![Attributes](/Assets/Screenshots/DataHub/Settings/DeletedAttributes/DeletedAttributes.png "[Attributes]")
@@ -245,11 +169,11 @@ At least one attribute is moved to the *DELETED ATTRIBUTES* tab, see [Delete an 
 
 You can finally delete an attribute if it is no longer needed. As there are usually dependencies on an attribute, for example through an attribute set or created products, it is strongly recommended not to delete an attribute irretrievably. Finally deleted attributes cannot be recovered.
 
-### Prerequisites
+#### Prerequisites
 
 At least one attribute is moved to the *DELETED ATTRIBUTES* tab, see [Delete an attribute](#delete-an-attribute).
 
-### Procedure
+#### Procedure
 *DataHub > Settings > Tab ATTRIBUTES*
 
 ![Attributes](/Assets/Screenshots/DataHub/Settings/Attributes/Attributes.png "[Attributes]")
@@ -264,18 +188,10 @@ At least one attribute is moved to the *DELETED ATTRIBUTES* tab, see [Delete an 
 
    > [Warning] Problems may occur if you delete an attribute with existing dependencies.  
 
-### Next steps
 
-- [Manage the attribute sets](02_ManageAttributeSets.md)
-- [Manage the attribute groups](03_ManageAttributeGroups.md)
-- [Manage the channels](04_ManageChannels.md)
-- [Manage the languages](05_ManageLanguages.md)
-- [Manage the units and dimensions](06_ManageUnitsDimensions.md)
+## Related content
 
-### See also
-
-- [User Interface DataHub](/DataHub/UserInterface/00_UserInterface.md)
-- [Create an attribute](#create-an-attribute)
-- [Edit an attribute](#edit-an-attribute)
-- [Deactivate an attribute](#deactivate-an-attribute)
+- [User Interface DataHub](/DataHub/UserInterface/02a_Attributes.md)
 - [Manage the products](/PIM/Operation/01_ManageProducts.md)
+- [Manage the attribute sets](02_ManageAttributeSets.md)
+- [Data type list](/PIM/UserInterface/04_DataTypeList.md)

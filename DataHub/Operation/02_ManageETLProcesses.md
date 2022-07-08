@@ -19,11 +19,11 @@ After an ETL process has been triggered, the current status is displayed in the 
 - Semi-automatic accepted
 You can check the current status of an ETL process to approve that any changes are applied or if any further actions are required.  
 
-### Prerequisites
+#### Prerequisites
 
 An ETL process has been triggered, for instance by a rerun of mapping, see [Rerun an ETL mapping](01_ManageETLMappings.md#rerun-an-etl-mapping).
 
-### Procedure
+#### Procedure
 *DataHub > Settings > Tab ETL PROCESSES*
 
 ![ETL processes](/Assets/Screenshots/DataHub/Settings/ETLProcesses/ETLProcesses.png "[ETL processes]")
@@ -47,30 +47,18 @@ An ETL process has been triggered, for instance by a rerun of mapping, see [Reru
   - [Retry a faulty ETL process](#retry-a-faulty-etl-process)
   - [Return to the ETL Mapping](01_ManageETLMappings.md)
 
-### Next steps
-
-- [Confirm an ETL process](#confirm-an-etl-process)
-- [Retry a faulty ETL process](#retry-a-faulty-etl-process)
-- [Manage the HTML templates](03_ManageHTMLTemplates.md)
-- [Manage the dashboards](04_ManageDashboards.md)
-
-### See also
-
-- [User Interface DataHub](/DataHub/UserInterface/00_UserInterface.md)
-- [Manage the ETL mappings](01_ManageETLMappings.md)
-
 
 
 ## Confirm an ETL process
 
 If the selected change tracking mode of an ETL mapping equals **Semi-automatic** or **Semi-automatic, changes must be confirmed by another user**, the ETL process has to be confirmed before the mapping can be rerun.
 
-### Prerequisites
+#### Prerequisites
 
 - An ETL process has been triggered, for instance by a rerun of mapping, see [Rerun an ETL mapping](01_ManageETLMappings.md#rerun-an-etl-mapping).
 - At least one of the triggered ETL processes has the change tracking mode **Semi-automatic** or **Semi-automatic, changes must be confirmed by another user**.
 
-### Procedure
+#### Procedure
 *DataHub > Settings > Tab ETL PROCESSES*
 
 ![ETL processes](/Assets/Screenshots/DataHub/Settings/ETLProcesses/ETLProcesses.png "[ETL processes]")
@@ -85,7 +73,7 @@ If the selected change tracking mode of an ETL mapping equals **Semi-automatic**
 3. Click the ![Refresh](/Assets/Icons/Refresh01.png "[Refresh]") (Refresh) button to update the list of pending mappings.   
   The list is updated and all pending mappings are displayed.
 
-  ![Semi automatic mapping](/Assets/Screenshots/Channels/Offers/SemiAutomaticMapping/SemiAutomaticMapping.png "[Semi automatic mapping]")
+  ![Semi-automatic mapping](/Assets/Screenshots/Channels/Offers/SemiAutomaticMapping/SemiAutomaticMapping.png "[Semi-automatic mapping]")
 
 4. Select the checkboxes of the mappings in the list, you want to confirm.   
   The editing toolbar is displayed above the list.
@@ -97,30 +85,19 @@ If the selected change tracking mode of an ETL mapping equals **Semi-automatic**
 
 [comment]: <> (doesn't work for me. Why not displayed in the accepted list in datahub?)
 
-### Next steps
-
-- [Retry a faulty ETL process](#retry-a-faulty-etl-process)
-- [Manage the HTML templates](03_ManageHTMLTemplates.md)
-- [Manage the dashboards](04_ManageDashboards.md)
-
-### See also
-
-- [User Interface DataHub](/DataHub/UserInterface/00_UserInterface.md)
-- [User Interface Omni-Channel](/Channels/UserInterface/00_UserInterface.md)
-- [Check the ETL process status](#check-the-etl-process-status)
-- [Manage the ETL mappings](01_ManageETLMappings.md)
-
 
 
 ## Retry a faulty ETL process
 
+[comment]: <> (move chapter in troubleshooting?)
+
 If an ETL process has been canceled because of an error, the respective process is displayed in the *ETL PROCESSES* tab with the **Error** status.
 
-### Prerequisites
+#### Prerequisites
 
 An ETL process has been canceled because of an error. When the error has been fixed, you can restart the ETL process to rerun the corresponding mapping.
 
-### Procedure
+#### Procedure
 *DataHub > Settings > Tab ETL PROCESSES*
 
 ![ETL processes](/Assets/Screenshots/DataHub/Settings/ETLProcesses/ETLProcesses.png "[ETL processes]")
@@ -142,14 +119,11 @@ An ETL process has been canceled because of an error. When the error has been fi
 
   If the rerun is successful, the mapping status changes to **Done** and it is removed from the list of mappings with the **Error** status.
 
-### Next steps
 
-- [Manage the HTML templates](03_ManageHTMLTemplates.md)
-- [Manage the dashboards](04_ManageDashboards.md)
 
-### See also
+## Related content
 
-- [User Interface DataHub](/DataHub/UserInterface/00_UserInterface.md)
-- [Check the ETL process status](#check-the-etl-process-status)
-- [Confirm an ETL process](#confirm-an-etl-process)
+- [User Interface DataHub](/DataHub/UserInterface/02h_ETLProcesses.md)
+- [User Interface DataHub](/DataHub/UserInterface/02d_ETL.md)
 - [Manage the ETL mappings](01_ManageETLMappings.md)
+- [ETL extensions list](/DataHub/UserInterface/03_ETLExtensions.md)

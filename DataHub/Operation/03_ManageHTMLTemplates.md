@@ -9,12 +9,11 @@ Define HTML templates that are used for the ETL mapping, especially for the rece
 
 Create an HTML template so that it is available for the ETL mapping.
 
-### Prerequisites
+#### Prerequisites
 
 The *HTML Templates for ETL* plugin is installed.
 
-### Procedure
-
+#### Procedure
 *DataHub > Settings > Tab HTML TEMPLATES*
 
 ![HTML templates](/Assets/Screenshots/DataHub/Settings/HTMLTemplates/HTMLTemplates.png "[HTML templates]")
@@ -36,33 +35,17 @@ The *HTML Templates for ETL* plugin is installed.
 5. Click the [SAVE] button in the upper right corner.   
   The new HTML template is saved. The *Create HTML template* view is closed.  
 
-### Next steps
-
-- [Include HTML text](#include-html-text)
-- [Include Smarty templates](#include-smarty-templates)
-- [Include attribute variables](#include-attribute-variables)
-- [Include a tree node variable](#include-a-tree-node-variable)
-- [Include language independent variables](#include-language-independent-variables)
-- [Edit an HTML template](#edit-an-html-template)
-- [Display the possible variables](#display-the-possible-variables)
-- [Preview an HTML template](#preview-an-html-template)
-- [Manage the dashboards](04_ManageDashboards.md)
-
-### See also
-
-- [User Interface DataHub](/DataHub/UserInterface/00_UserInterface.md)
-
 
 
 ## Include HTML text
 
 You can include HTML text in the HTML template.
 
-### Prerequisites
+#### Prerequisites
 
 The *HTML Templates for ETL* plugin is installed.
 
-### Procedure
+#### Procedure
 
 > [Info] If you want to include HTML text into a new HTML template, follow the steps described in the [Create an HTML template](#create-an-html-template) procedure before proceeding to the steps below.
 
@@ -79,33 +62,17 @@ The *HTML Templates for ETL* plugin is installed.
 3. Click the [SAVE] button in the upper right corner.   
   The HTML template is saved. The *HTML template* view is closed.  
 
-### Next steps
-
-- [Include Smarty templates](#include-smarty-templates)
-- [Include attribute variables](#include-attribute-variables)
-- [Include a tree node variable](#include-a-tree-node-variable)
-- [Include language independent variables](#include-language-independent-variables)
-- [Edit an HTML template](#edit-an-html-template)
-- [Display the possible variables](#display-the-possible-variables)
-- [Preview an HTML template](#preview-an-html-template)
-- [Manage the dashboards](04_ManageDashboards.md)
-
-### See also
-
-- [User Interface DataHub](/DataHub/UserInterface/00_UserInterface.md)
-- [Create an HTML template](#create-an-html-template)
-
 
 
 ## Include Smarty templates
 
 You can include Smarty templates into your HTML template. Always use the delimiters *{}* as separator for the Smarty templates.  
 
-### Prerequisites
+#### Prerequisites
 
 The *HTML Templates for ETL* plugin is installed.
 
-### Procedure
+#### Procedure
 
 > [Info] If you want to include Smarty templates into a new HTML template, follow the steps described in the [Create an HTML template](#create-an-html-template) procedure before proceeding to the steps below.
 
@@ -121,22 +88,6 @@ The *HTML Templates for ETL* plugin is installed.
 
 3. Click the [SAVE] button in the upper right corner.   
   The HTML template is saved. The *HTML template* view is closed.  
-
-### Next steps
-
-- [Include attribute variables](#include-attribute-variables)
-- [Include a tree node variable](#include-a-tree-node-variable)
-- [Include language independent variables](#include-language-independent-variables)
-- [Edit an HTML template](#edit-an-html-template)
-- [Display the possible variables](#display-the-possible-variables)
-- [Preview an HTML template](#preview-an-html-template)
-- [Manage the dashboards](04_ManageDashboards.md)
-
-### See also
-
-- [User Interface DataHub](/DataHub/UserInterface/00_UserInterface.md)
-- [Create an HTML template](#create-an-html-template)
-- [Include HTML text](#include-html-text)
 
 
 
@@ -174,23 +125,6 @@ The *HTML Templates for ETL* plugin is installed.
   The HTML template is saved. The *HTML template* view is closed.  
 
 
-#### Next steps
-
-- [Include a tree node variable](#include-a-tree-node-variable)
-- [Include language independent variables](#include-language-independent-variables)
-- [Edit an HTML template](#edit-an-html-template)
-- [Display the possible variables](#display-the-possible-variables)
-- [Preview an HTML template](#preview-an-html-template)
-- [Manage the dashboards](04_ManageDashboards.md)
-
-#### See also
-
-- [User Interface DataHub](/DataHub/UserInterface/00_UserInterface.md)
-- [Create an HTML template](#create-an-html-template)
-- [Include HTML text](#include-html-text)
-- [Include Smarty templates](#include-smarty-templates)
-
-
 
 ### Include a tree node variable
 
@@ -218,22 +152,6 @@ The *HTML Templates for ETL* plugin is installed.
 
 4. Click the [SAVE] button in the upper right corner.   
   The HTML template is saved. The *HTML template* view is closed.  
-
-#### Next steps
-
-- [Include language independent variables](#include-language-independent-variables)
-- [Edit an HTML template](#edit-an-html-template)
-- [Display the possible variables](#display-the-possible-variables)
-- [Preview an HTML template](#preview-an-html-template)
-- [Manage the dashboards](04_ManageDashboards.md)
-
-#### See also
-
-- [User Interface DataHub](/DataHub/UserInterface/00_UserInterface.md)
-- [Create an HTML template](#create-an-html-template)
-- [Include HTML text](#include-html-text)
-- [Include Smarty templates](#include-smarty-templates)
-- [Include attribute variables](#include-attribute-variables)
 
 
 
@@ -264,34 +182,18 @@ The *HTML Templates for ETL* plugin is installed.
 4. Click the [SAVE] button in the upper right corner.   
   The HTML template is saved. The *HTML template* view is closed.  
 
-#### Next steps
-
-- [Edit an HTML template](#edit-an-html-template)
-- [Display the possible variables](#display-the-possible-variables)
-- [Preview an HTML template](#preview-an-html-template)
-- [Manage the dashboards](04_ManageDashboards.md)
-
-#### See also
-
-- [User Interface DataHub](/DataHub/UserInterface/00_UserInterface.md)
-- [Create an HTML template](#create-an-html-template)
-- [Include HTML text](#include-html-text)
-- [Include Smarty templates](#include-smarty-templates)
-- [Include attribute variables](#include-attribute-variables)
-- [Include a tree node variable](#include-a-tree-node-variable)
-
 
 
 ## Edit an HTML template
 
 After you have created an HTML template, you can edit it. You can edit the name, the description of the template or the template content.
 
-### Prerequisites
+#### Prerequisites
 
 - The *HTML Templates for ETL* plugin is installed.
 - At least one HTML template is created, see [Create an HTML template](#create-an-html-template).
 
-### Procedure
+#### Procedure
 *DataHub > Settings > Tab HTML TEMPLATES*
 
 ![HTML templates](/Assets/Screenshots/DataHub/Settings/HTMLTemplates/HTMLTemplates.png "[HTML templates]")
@@ -308,33 +210,17 @@ After you have created an HTML template, you can edit it. You can edit the name,
 4. Click the [SAVE] button in the upper right corner.   
   The changes are saved. The *Edit HTML template* view is closed.  
 
-### Next steps
-
-- [Display the possible variables](#display-the-possible-variables)
-- [Preview an HTML template](#preview-an-html-template)
-- [Manage the dashboards](04_ManageDashboards.md)
-
-### See also
-
-- [User Interface DataHub](/DataHub/UserInterface/00_UserInterface.md)
-- [Create an HTML template](#create-an-html-template)
-- [Include HTML text](#include-html-text)
-- [Include Smarty templates](#include-smarty-templates)
-- [Include attribute variables](#include-attribute-variables)
-- [Include a tree node variable](#include-a-tree-node-variable)
-- [Include language independent variables](#include-language-independent-variables)
-
 
 
 ## Display the possible variables
 
 It is possible to display all available variables of a certain entity so that you can select the variables you want to use in the HTML template.
 
-### Prerequisites
+#### Prerequisites
 
 The *HTML Templates for ETL* plugin is installed.
 
-### Procedure
+#### Procedure
 
 > [Info] If you want to display the pssible variables within a new HTML template, follow the steps described in the [Create an HTML template](#create-an-html-template) procedure before proceeding to the steps below.
 
@@ -356,34 +242,17 @@ The *HTML Templates for ETL* plugin is installed.
 4. Close the browser window and click the ![Back](/Assets/Icons/Back02.png "[Back]") (Back) button in the upper left corner to return to the HTML templates list or proceed to [edit the HTML template](#edit-an-html-template).
 
 
-### Next steps
-
-- [Preview an HTML template](#preview-an-html-template)
-- [Manage the dashboards](04_ManageDashboards.md)
-
-### See also
-
-- [User Interface DataHub](/DataHub/UserInterface/00_UserInterface.md)
-- [Create an HTML template](#create-an-html-template)
-- [Include HTML text](#include-html-text)
-- [Include Smarty templates](#include-smarty-templates)
-- [Include attribute variables](#include-attribute-variables)
-- [Include a tree node variable](#include-a-tree-node-variable)
-- [Include language independent variables](#include-language-independent-variables)
-- [Edit an HTML template](#edit-an-html-template)
-
-
 
 ## Preview an HTML template
 
 It is possible to display a preview of the HTML template to check its functionality.
 
-### Prerequisites
+#### Prerequisites
 
 - The *HTML Templates for ETL* plugin is installed.
 - At least one HTML template is created, see [Create an HTML template](#create-an-html-template).
 
-### Procedure
+#### Procedure
 
 > [Info] If you want to preview a new HTML template, follow the steps described in the [Create an HTML template](#create-an-html-template) procedure before proceeding to the steps below.
 
@@ -405,18 +274,7 @@ It is possible to display a preview of the HTML template to check its functional
 5. Close the browser window and click the ![Back](/Assets/Icons/Back02.png "[Back]") (Back) button in the upper left corner to return to the HTML templates list or proceed to [edit the HTML template](#edit-an-html-template).
 
 
-### Next steps
 
-- [Manage the dashboards](04_ManageDashboards.md)
+## Related content
 
-### See also
-
-- [User Interface DataHub](/DataHub/UserInterface/00_UserInterface.md)
-- [Create an HTML template](#create-an-html-template)
-- [Include HTML text](#include-html-text)
-- [Include Smarty templates](#include-smarty-templates)
-- [Include attribute variables](#include-attribute-variables)
-- [Include a tree node variable](#include-a-tree-node-variable)
-- [Include language independent variables](#include-language-independent-variables)
-- [Edit an HTML template](#edit-an-html-template)
-- [Display the possible variables](#display-the-possible-variables)
+[User Interface DataHub](/DataHub/UserInterface/02j_HTMLTemplates.md)
