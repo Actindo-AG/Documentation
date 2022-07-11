@@ -55,7 +55,7 @@ No prerequisites to fulfill.
 ## Create a product type
 
 To improve the product classification, you can create a product type and use it in POS.   
-For detailed information on how to create a product type, see [Create a product type](/PIM/Integration/Manage_AttributeSet.md#create-an-attribute-set)
+For detailed information on how to create a product type, see [Create a product type](/PIM/Integration/02_ManageAttributeSets.md#create-an-attribute-set)
 
 
 
@@ -65,7 +65,7 @@ When a new product type is created, it must be mapped before offers with this pr
 
 #### Prerequisites
 
-At least one new product type has been created, see [Create a product type](/PIM/Integration/Manage_AttributeSet.md#create-an-attribute-set).
+At least one new product type has been created, see [Create a product type](/PIM/Integration/02_ManageAttributeSets.md#create-an-attribute-set).
 
 #### Procedure
 
@@ -150,8 +150,8 @@ No prerequisites to fulfill.
 
 #### Prerequisites
 
-At least one QuickSelect attribute has been created, see [Create a QuickSelect attribute](#create-a-quickselect-attribute).
-At least one offer is for *Venduo POS*, see [Create an offer for POS](#create-an-offer-for-pos).
+- At least one QuickSelect attribute has been created, see [Create a QuickSelect attribute](#create-a-quickselect-attribute).
+- At least one offer is for *Venduo POS*, see [Create an offer for POS](#create-an-offer-for-pos).
 
 #### Procedure
 *Omni-Channel > Offers > Tab OFFERS*
@@ -173,39 +173,21 @@ At least one offer is for *Venduo POS*, see [Create an offer for POS](#create-an
 [comment]: <> (Is there an alternative to manually assign each offer?)
 [comment]: <> (JULIAN: Hier könnten man noch unterbringen wie man zusätzliche Felder mapped ausm PIM raus oder Felder ausm Omni-Channel ins PIM übernimmt)
 
-### Next steps
-
-- [Create a voucher](#create-a-voucher)
-- [Create an offer for POS](#create-an-offer-for-pos)
-- [Activate a POS offer](#activate-a-pos-offer)
-- [Manage the POS warehouse](08_ManageWarehouse.md)
-
-### See also
-
-- [User Interface DataHub](/DataHub/UserInterface/00_UserInterface.md)
-- [User Interface Omni-Channel](/Channels/UserInterface/00_UserInterface.md)
-- [Map a new product type in POS](#map-a-new-product-type-in-pos)
-- [Create products for POS](#create-products-for-pos)
-- [Create a product type](#create-a-product-type)
-- [Configure the warehouse for POS](01_ConfigureWarehouse.md)
-- [Manage the accounts for POS](02_ManageAccounts.md)
-- [Configure the printer for POS](03_ConfigurePrinter.md)
-- [Assign users to the POS groups](04_AssignUsers.md)
-- [Configure the global settings for POS](05_ConfigureGlobalSettings.md)
-- [Create a store in POS](06_CreateStore.md)
 
 
 ## Create a voucher
 
 If you want to sell vouchers in your POS system, you have to create them first.
 
-### Prerequisites
+### Create a voucher product
+
+
+#### Prerequisites
 
 No prerequisites to fulfill.
 
-### Procedure
+#### Procedure
 
-#### Create a voucher product
 *PIM > Products > Tab LIST*
 
 ![PIM Products](/Assets/Screenshots/PIM/Products/List/Products.png "[PIM Products]")
@@ -239,7 +221,15 @@ No prerequisites to fulfill.
 8. Switch to the *Omni-Channel* module.
 
 
-#### Activate the voucher attribute setting
+### Activate the voucher attribute setting
+
+
+#### Prerequisites
+
+No prerequisites to fulfill.
+
+#### Procedure
+
 *Omni-Channel > Offers > Tab OFFERS*
 
 ![Offers](/Assets/Screenshots/Channels/Offers/Offers/Offers.png "[Offers]")
@@ -256,38 +246,20 @@ The voucher is saved. The *Edit offer* view is closed.
 
   > [Info] When a voucher-offer is sold, a voucher code is created and printed on the receipt. The value of the voucher corresponds to the price of the voucher before discounts are applied.
 
-### Next steps
-
-- [Create an offer for POS](#create-an-offer-for-pos)
-- [Activate a POS offer](#activate-a-pos-offer)
-- [Manage the POS warehouse](08_ManageWarehouse.md)
-
-### See also
-
-- [User Interface PIM](/PIM/UserInterface/00_UserInterface)
-- [Create a QuickSelect Category](#create-a-quickselect-category)
-- [Map a new product type in POS](#map-a-new-product-type-in-pos)
-- [Create products for POS](#create-products-for-pos)
-- [Create a product type](#create-a-product-type)
-- [Configure the warehouse for POS](01_ConfigureWarehouse.md)
-- [Manage the accounts for POS](02_ManageAccounts.md)
-- [Configure the printer for POS](03_ConfigurePrinter.md)
-- [Assign users to the POS groups](04_AssignUsers.md)
-- [Configure the global settings for POS](05_ConfigureGlobalSettings.md)
-- [Create a store in POS](06_CreateStore.md)
 
 
 ## Create an offer for POS
 
 Create an offer in Omni-Channel so you can offer and select the products in Venduo POS. You can either create an offer from a PIM product or create a manual offer.
 
-### Prerequisites
+### Create an offer from a PIM product in Omni-Channel
+
+
+#### Prerequisites
 
 At least one product has been created, see [Create products for POS](#create-products-for-pos)
 
-### Procedure
-
-#### Create an offer from a PIM product in Omni-Channel
+#### Procedure
 
 *Omni-Channel > Offers > Tab OFFERS*
 
@@ -355,7 +327,15 @@ At least one product has been created, see [Create products for POS](#create-pro
 
    > [Info] It may take some time until all offers are created. Click the ![Refresh](/Assets/Icons/Refresh01.png "[Refresh]") (Refresh) button in the upper right corner to update the offer list.
 
-#### Create a manual offer in Omni-Channel
+
+### Create a manual offer in Omni-Channel
+
+
+#### Prerequisites
+
+At least one product has been created, see [Create products for POS](#create-products-for-pos)
+
+#### Procedure
 
 *Omni-Channel > Offers > Tab OFFERS*
 
@@ -395,7 +375,14 @@ At least one product has been created, see [Create products for POS](#create-pro
 
   > [Info] By default, the initial offer status of the new offer is **Not available**. You have to activate the offer to sell it on the marketplace, see [Activate a POS offer](#activate-a-pos-offer).
 
-#### Create a single channel offer in PIM
+
+### Create a single channel offer in PIM
+
+#### Prerequisites
+
+At least one product has been created, see [Create products for POS](#create-products-for-pos)
+
+#### Procedure
 
 *PIM > Products > Tab LIST*
 
@@ -445,7 +432,13 @@ At least one product has been created, see [Create products for POS](#create-pro
   The *Edit Product* view is closed. The *LIST* tab with the product list is displayed again.
 
 
-#### Create a multiple channels offer in PIM
+### Create a multiple channels offer in PIM
+
+#### Prerequisites
+
+At least one product has been created, see [Create products for POS](#create-products-for-pos)
+
+#### Procedure
 
 *PIM > Products > Tab LIST*
 
@@ -498,37 +491,17 @@ At least one product has been created, see [Create products for POS](#create-pro
 8. Click the [SAVE] button in the upper right corner.   
 The *Edit Product* view is closed. The *LIST* tab with the product list is displayed again.
 
-### Next steps
-
-- [Activate a POS offer](#activate-a-pos-offer)
-- [Manage the POS warehouse](08_ManageWarehouse.md)
-
-### See also
-
-- [User Interface Omni-Channel](/Channels/UserInterface/00_UserInterface.md)
-- [User Interface PIM](/PIM/UserInterface/00_UserInterface.md)
-- [Create a voucher](#create-a-voucher)
-- [Create a QuickSelect Category](#create-a-quickselect-category)
-- [Map a new product type in POS](#map-a-new-product-type-in-pos)
-- [Create products for POS](#create-products-for-pos)
-- [Create a product type](#create-a-product-type)
-- [Configure the warehouse for POS](01_ConfigureWarehouse.md)
-- [Manage the accounts for POS](02_ManageAccounts.md)
-- [Configure the printer for POS](03_ConfigurePrinter.md)
-- [Assign users to the POS groups](04_AssignUsers.md)
-- [Configure the global settings for POS](05_ConfigureGlobalSettings.md)
-- [Create a store in POS](06_CreateStore.md)
 
 
 ## Activate a POS offer
 
 An offer has to be active so that it is displayed in the selected marketplace and can be sold there.
 
-### Prerequisites
+#### Prerequisites
 
 At least one offer has been created, see [Create an offer for POS](#create-an-offer-for-pos)
 
-### Procedure
+#### Procedure
 
 *Omni-Channel > Offers > Tab OFFERS*
 
@@ -550,3 +523,5 @@ At least one offer has been created, see [Create an offer for POS](#create-an-of
 ## Related content
 
 - [User Interface Omni-Channel](/Channels/UserInterface/00_UserInterface.md)
+- [User Interface DataHub](/DataHub/UserInterface/00_UserInterface.md)
+- [User Interface PIM](/PIM/UserInterface/00_UserInterface.md)
