@@ -12,11 +12,11 @@ To to offer products in Venduo POS, it is recommended to create the products in 
 
 To create an offer for POS, it is recommended to create products for which you can make an offer.
 
-### Prerequisites
+#### Prerequisites
 
 No prerequisites to fulfill.
 
-### Procedure
+#### Procedure
 
 *PIM > Products > Tab LIST*
 
@@ -34,42 +34,22 @@ No prerequisites to fulfill.
 
 3. Enter a SKU in the *SKU* field.
 
-  > [Info] The SKU (Stock Keeping Unit) is an identification number for the article. Therefore, it has to be uniquely assigned to a single article and should not be changed once assigned.
+  > [Info] The SKU (Stock Keeping Unit) is an identification number for the product. Therefore, it has to be uniquely assigned to a single product and should not be changed once assigned.
 
 4. Click the button [CREATE] in the bottom right corner.   
   The *Create new product* window is closed. The *Create product* view is displayed in the *List* tab. The sub  *Attributes* tab is preselected.
 
    ![Attributes](/Assets/Screenshots/PIM/Products/List/Attributes/AttributesCreate.png "[Attributes]")
 
-5. Enter the article data in the fields of the tab *Attributes*. You must at least enter an article name, a price and a tax class.
+5. Enter the product data in the fields of the tab *Attributes*. You must at least enter a product name, a price and a tax class.
 
-  > [Info] If you want to create a variant article you have to specify it in the *Variants* tab.   
-  For detailed information on how to create a variant article, see [Create a variant article](/PIM/Integration/Manage_VariantSet.md#create-a-variant-set).
+  > [Info] If you want to create a variant to the master product, you have to specify it in the *Variants* tab.   
+  For detailed information on how to create a variant, see [Create variants](/PIM/Operation/02_ManageVariants.md#create-variants).
 
 6. Click the button [SAVE] in the upper right corner.   
-  The new article is saved. The *Create product* view is closed. The *List* tab with the new article in the article list is displayed.
+  The new product is saved. The *Create product* view is closed. The *List* tab with the new product in the product list is displayed.
 
-[comment]: <> (Please explain the difference between product and article!)
 
-### Next steps
-
-- [Create a product type](#create-a-product-type)
-- [Map a new product type in POS](#map-a-new-product-type-in-pos)
-- [Create a QuickSelect Category](#create-a-quickselect-category)
-- [Create a voucher](#create-a-voucher)
-- [Create an offer for POS](#create-an-offer-for-pos)
-- [Activate a POS offer](#activate-a-pos-offer)
-- [Manage the POS warehouse](08_ManageWarehouse.md)
-
-### See also
-
-- [User Interface PIM](/PIM/UserInterface/00_UserInterface.md)
-- [Configure the warehouse for POS](01_ConfigureWarehouse.md)
-- [Manage the accounts for POS](02_ManageAccounts.md)
-- [Configure the printer for POS](03_ConfigurePrinter.md)
-- [Assign users to the POS groups](04_AssignUsers.md)
-- [Configure the global settings for POS](05_ConfigureGlobalSettings.md)
-- [Create a store in POS](06_CreateStore.md)
 
 
 ## Create a product type
@@ -77,36 +57,17 @@ No prerequisites to fulfill.
 To improve the product classification, you can create a product type and use it in POS.   
 For detailed information on how to create a product type, see [Create a product type](/PIM/Integration/Manage_AttributeSet.md#create-an-attribute-set)
 
-### Next steps
-
-- [Map a new product type in POS](#map-a-new-product-type-in-pos)
-- [Create a QuickSelect Category](#create-a-quickselect-category)
-- [Create a voucher](#create-a-voucher)
-- [Create an offer for POS](#create-an-offer-for-pos)
-- [Activate a POS offer](#activate-a-pos-offer)
-- [Manage the POS warehouse](08_ManageWarehouse.md)
-
-### See also
-
-- [User Interface PIM](/PIM/UserInterface/00_UserInterface.md)
-- [Create products for POS](#create-products-for-pos)
-- [Configure the warehouse for POS](01_ConfigureWarehouse.md)
-- [Manage the accounts for POS](02_ManageAccounts.md)
-- [Configure the printer for POS](03_ConfigurePrinter.md)
-- [Assign users to the POS groups](04_AssignUsers.md)
-- [Configure the global settings for POS](05_ConfigureGlobalSettings.md)
-- [Create a store in POS](06_CreateStore.md)
 
 
 ## Map a new product type in POS
 
 When a new product type is created, it must be mapped before offers with this product type can be created for the POS.
 
-### Prerequisites
+#### Prerequisites
 
-At least one product has been created, see [Create products for POS](#create-products-for-pos).
+At least one new product type has been created, see [Create a product type](/PIM/Integration/Manage_AttributeSet.md#create-an-attribute-set).
 
-### Procedure
+#### Procedure
 
 *Venduo POS > Management > Tab MAPPING FROM PIM*
 
@@ -123,38 +84,23 @@ A toolbar is displayed at the bottom.
 3. Click the [CREATE MAPPINGS] button in the toolbar.    
 The selected mappings are removed from the list when the mappings are created.
 
-### Next steps
-
-- [Create a QuickSelect Category](#create-a-quickselect-category)
-- [Create a voucher](#create-a-voucher)
-- [Create an offer for POS](#create-an-offer-for-pos)
-- [Activate a POS offer](#activate-a-pos-offer)
-- [Manage the POS warehouse](08_ManageWarehouse.md)
-
-### See also
-
-- [User Interface Venduo POS](/POS/UserInterface/00_UserInterface.md)
-- [Create products for POS](#create-products-for-pos)
-- [Create a product type](#create-a-product-type)
-- [Configure the warehouse for POS](01_ConfigureWarehouse.md)
-- [Manage the accounts for POS](02_ManageAccounts.md)
-- [Configure the printer for POS](03_ConfigurePrinter.md)
-- [Assign users to the POS groups](04_AssignUsers.md)
-- [Configure the global settings for POS](05_ConfigureGlobalSettings.md)
-- [Create a store in POS](06_CreateStore.md)
 
 
 ## Create a QuickSelect category
 
 Create a QuickSelect category for POS for faster access to favorite products.
 
-### Prerequisites
 
-At least one product has been created, see [Create products for POS](#create-products-for-pos)
+### Define a QuickSelect attribute
 
-### Procedure
+When creating a POS store, a QuickSelect attribute is automatically created. Define the QuickSelect attribute to specify the different QuickSelect elements for a *Venduo POS* offer.
 
-#### Create a QuickSelect attribute
+#### Prerequisites
+
+No prerequisites to fulfill.
+
+#### Procedure
+
 *DataHub > Settings > Tab ATTRIBUTES*
 
 ![DataHub Attributes](/Assets/Screenshots/DataHub/Settings/Attributes/Attributes.png "[DataHub Attributes]")
@@ -163,9 +109,9 @@ At least one product has been created, see [Create products for POS](#create-pro
   The matching attributes are displayed in the attributes list.
 
 2. Click the appropriate *QuickSelect Category* attribute in the attributes list.  
-  The *Edit Attribute* view is diplayed.
+  The *Edit attribute* view is diplayed.
 
-   ![Edit Attribute](/Assets/Screenshots/DataHub/Settings/Attributes/EditAttribute.png "[Edit Attribute]")
+   ![Edit attribute](/Assets/Screenshots/DataHub/Settings/Attributes/EditAttribute.png "[Edit attribute]")
 
 3. Scroll down to the *CONFIGURATION* section and click the ![Add](/Assets/Icons/Plus01.png "[Add]") (Add) button in the bottom right corner of the *Edit tree* table.
   A plus sign is displayed in the left column of the *Edit tree* table.
@@ -173,9 +119,9 @@ At least one product has been created, see [Create products for POS](#create-pro
    ![Edit Tree](/Assets/Screenshots/DataHub/Settings/Attributes/EditTree.png "[Edit Tree]")
 
 4. Click the plus sign in the left column of the *Edit tree* table.   
-  The *Add Element* window is displayed.
+  The *Add element* window is displayed.
 
-   ![Add Element](/Assets/Screenshots/DataHub/Settings/Attributes/AddElement.png "[Add Element]")
+   ![Add element](/Assets/Screenshots/DataHub/Settings/Attributes/AddElement.png "[Add element]")
 
 5. Enter a name in the *Name* field.
 
@@ -186,20 +132,29 @@ At least one product has been created, see [Create products for POS](#create-pro
   > [Info] By entering a key, you can define an icon for the QuickSelect element.   
     For detailed information on the icon list, see [QuickSelect Icon List](to_be_completed).
 
-7. Click the [SAVE] button in the bottom right corner of the *Add Element* window.   
-  The *Add Element* window is closed. The element is displayed in the left column of the *Edit tree* table.
+[comment]: <> (Add list of icon keys for Quickselect)
+
+7. Click the [SAVE] button in the bottom right corner of the *Add element* window.   
+  The *Add element* window is closed. The element is displayed in the left column of the *Edit tree* table.
 
     > [Info] If you want to create further QuickSelect elements, repeat step **3** to **6**.
 
 8. Click the button [SAVE] in the upper right corner.   
-  The *Edit Attribute* view is closed. The QuickSelect element is saved.
+  The *Edit attribute* view is closed. The QuickSelect element is saved.
 
 9. Press **F5** to initialize the Core1 Platform.
 
-10. Switch to the *Omni-Channel* module.
 
-#### Select the QuickSelect attribute
-*Omni-Channel > Offers > Tab OFFERS* .   
+
+### Assign the QuickSelect attribute
+
+#### Prerequisites
+
+At least one QuickSelect attribute has been created, see [Create a QuickSelect attribute](#create-a-quickselect-attribute).
+At least one offer is for *Venduo POS*, see [Create an offer for POS](#create-an-offer-for-pos).
+
+#### Procedure
+*Omni-Channel > Offers > Tab OFFERS*
 
 ![Offers](/Assets/Screenshots/Channels/Offers/Offers/Offers.png "[Offers]")
 
@@ -213,8 +168,9 @@ At least one product has been created, see [Create products for POS](#create-pro
 3. Click the [SAVE] button in the upper right corner.    
   The *Edit offer* view is closed. The offer with the QuickSelect element is saved.
 
-> [Info] You have to repeat this procedure for each offer you want to assign the QuickSelect Category to. Alternatively, you can ------
+> [Info] You have to repeat this procedure for each offer you want to assign the QuickSelect Category to.
 
+[comment]: <> (Is there an alternative to manually assign each offer?)
 [comment]: <> (JULIAN: Hier könnten man noch unterbringen wie man zusätzliche Felder mapped ausm PIM raus oder Felder ausm Omni-Channel ins PIM übernimmt)
 
 ### Next steps
@@ -266,19 +222,19 @@ No prerequisites to fulfill.
 
 3. Enter a SKU in the *SKU* field, for instance **Voucher**.
 
-> [Info] The SKU (Stock Keeping Unit) is an identification number for the article. Therefore, it has to be uniquely assigned to a single article and should not be changed once assigned.
+> [Info] The SKU (Stock Keeping Unit) is an identification number for the product. Therefore, it has to be uniquely assigned to a single product and should not be changed once assigned.
 
 4. Click the button [CREATE] in the bottom right corner of the *Create new product* window.   
   The *Create new product* window is closed. The *Create product* view is displayed in the *List* tab. The *Attributes* tab is preselected.
 
    ![Attribute](/Assets/Screenshots/PIM/Products/List/CreateProduct.png "[Attributes]")
 
-5. Enter the article data in the fields of the *Attributes* tab. You must at least enter an article name, a price and a tax class.
+5. Enter the product data in the fields of the *Attributes* tab. You must at least enter a product name, a price and a tax class.
 
 6. Click the button [SAVE] in the upper right corner.   
-  The new article is saved. The *Create product* view is closed. The *List* tab with the new article in the article list is displayed.
+  The new product is saved. The *Create product* view is closed. The *List* tab with the new product in the product list is displayed.
 
-7. Create an offer for the voucher article, see [Create an offer for POS](#create-an-offer-for-pos)
+7. Create an offer for the voucher product, see [Create an offer for POS](#create-an-offer-for-pos)
 
 8. Switch to the *Omni-Channel* module.
 
@@ -417,7 +373,7 @@ At least one product has been created, see [Create products for POS](#create-pro
 
 3. Enter a SKU in the *SKU* field.
 
-> [Info] The SKU (Stock Keeping Unit) is an identification number for the article. Therefore, it has to be uniquely assigned to a single article and should not be changed once assigned.
+> [Info] The SKU (Stock Keeping Unit) is an identification number for the product. Therefore, it has to be uniquely assigned to a single product and should not be changed once assigned.
 
 4. Click the *Select Connection* drop-down list and select the marketplace for which you want to create the offers, for instance the appropriate POS Store.   
   The *Select Attribute Set* drop-down list is unlocked.
@@ -429,10 +385,10 @@ At least one product has been created, see [Create products for POS](#create-pro
 
    ![Create Offer](/Assets/Screenshots/Channels/Offers/Offers/CreateOffer.png "[Create Offer]")
 
-7. Enter the article data in the fields of the *Attributes* tab. You must at least enter an article name, an EAN code, a price, a tax class and a tax rate.
+7. Enter the product data in the fields of the *Attributes* tab. You must at least enter a product name, an EAN code, a price, a tax class and a tax rate.
 
-  > [Info] If you want to create a variant article you have to specify it in the *Variants* tab.   
-  For detailed information on how to create a variant article, see [Create a variant article](to_be_completed).
+  > [Info] If you want to create a variant to the master product, you have to specify it in the *Variants* tab.   
+    For detailed information on how to create a variant, see [Create variants](/PIM/Operation/02_ManageVariants.md#create-variants).
 
 8. Click the [SAVE] button in the upper right corner.   
   The new offer is created. The *Create Offer* view is closed. The *Offers* tab with the new offer in the offer list is displayed.
@@ -445,7 +401,7 @@ At least one product has been created, see [Create products for POS](#create-pro
 
 ![PIM Products](/Assets/Screenshots/PIM/Products/List/Products.png "[PIM Products]")
 
-1. Click the article you want to create an offer to in the article list.    
+1. Click the product you want to create an offer to in the product list.    
   The *Edit Product* view is displayed.
 
 2. Click the *OFFERS* tab.   
@@ -495,7 +451,7 @@ At least one product has been created, see [Create products for POS](#create-pro
 
 ![PIM Products](/Assets/Screenshots/PIM/Products/List/Products.png "[PIM Products]")
 
-1. Click the article you want to create an offer to in the article list.    
+1. Click the product you want to create an offer to in the product list.    
   The *Edit Product* view is displayed.
 
 2. Click the *Offers* tab.   
@@ -590,22 +546,7 @@ At least one offer has been created, see [Create an offer for POS](#create-an-of
 
    > [Info] It may take some time until all offers are activated. Click the ![Refresh](/Assets/Icons/Refresh01.png "[Refresh]") (Refresh) button in the upper right corner to update the offer list.
 
-### Next Steps
 
-[Manage the POS warehouse](08_ManageWarehouse.md)
-
-### See also
+## Related content
 
 - [User Interface Omni-Channel](/Channels/UserInterface/00_UserInterface.md)
-- [Create an offer for POS](#create-an-offer-for-pos)
-- [Create a voucher](#create-a-voucher)
-- [Create a QuickSelect Category](#create-a-quickselect-category)
-- [Map a new product type in POS](#map-a-new-product-type-in-pos)
-- [Create products for POS](#create-products-for-pos)
-- [Create a product type](#create-a-product-type)
-- [Configure the warehouse for POS](01_ConfigureWarehouse.md)
-- [Manage the accounts for POS](02_ManageAccounts.md)
-- [Configure the printer for POS](03_ConfigurePrinter.md)
-- [Assign users to the POS groups](04_AssignUsers.md)
-- [Configure the global settings for POS](05_ConfigureGlobalSettings.md)
-- [Create a store in POS](06_CreateStore.md)

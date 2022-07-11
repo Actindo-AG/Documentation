@@ -4,6 +4,7 @@
   - [Create a warehouse group](01_ConfigureWarehouse.md#create-a-warehouse-group)
   - [Create a warehouse](01_ConfigureWarehouse.md#create-a-warehouse)
 
+
 - [Manage the accounts for POS](02_ManageAccounts.md)
   - [Check the account availability](02_ManageAccounts.md#check-the-account-availability)
   - [Create an account](02_ManageAccounts.md#create-an-account)
@@ -11,7 +12,9 @@
 
 - [Configure the printer for POS](03_ConfigurePrinter.md)
 
+
 - [Assign users to the POS groups](04_AssignUsers.md)
+
 
 - [Configure the global settings for POS](05_ConfigureGlobalSettings.md)
   - [Configure a default customer in POS](05_ConfigureGlobalSettings.md#configure-a-default-customer-in-pos)
@@ -59,8 +62,8 @@
   - [Create a POS specific product type](07_ManageOffers.md#create-a-pos-specific-product-type)
   - [Map a new product type in POS](07_ManageOffers.md#map-a-new-product-type-in-pos)
   - [Create a QuickSelect category](07_ManageOffers.md#create-a-quickselect-category)
-    - [Create a QuickSelect attribute](07_ManageOffers.md#create-a-quickselect-attribute)
-    - [Select the QuickSelect attribute](07_ManageOffers.md#select-the-quickselect-attribute)
+    - [Define a QuickSelect attribute](07_ManageOffers.md#define-a-quickselect-attribute)
+    - [Assign the QuickSelect attribute](07_ManageOffers.md#assign-the-quickselect-attribute)
   - [Create a voucher](07_ManageOffers.md#create-a-voucher)
     - [Create a voucher product](07_ManageOffers.md#create-a-voucher-product)
     - [Activate the voucher attribute setting](07_ManageOffers.md#activate-the-voucher-attribute-setting)
