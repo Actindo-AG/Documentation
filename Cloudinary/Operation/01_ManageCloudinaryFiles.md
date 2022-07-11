@@ -9,12 +9,12 @@ You can either upload files to Cloudinary via the *PIM* module or import files f
 
 Upload images and videos to Cloudinary at the same time when adding these files to a product in the *PIM* module.
 
-### Prerequisites
+#### Prerequisites
 
 - A Cloudinary connection is established, see [Establish a connection to Cloudinary](/Cloudinary/Integration/01_EstablishConnection.md)
 - The required Cloudinary attribute is created, see [Manage the Cloudinary attributes](/Cloudinary/Integration/02_ManageCloudinaryAttributes.md)
 
-### Procedure
+#### Procedure
 
 *PIM > Products > Tab LIST*
 
@@ -23,7 +23,7 @@ Upload images and videos to Cloudinary at the same time when adding these files 
 > [Info] The following procedure describes exemplary how to upload an image to Cloudinary. The procedure is largely identical to upload a video to CLoudinary. The differences are explicitly specified at the appropriate place.
 
 1. Click the product in the product list to which you want to add an image and upload it to Cloudinary at the same time.   
-  The *Edit Product* view is displayed.
+  The *Edit product* view is displayed.
 
   ![Edit product](/Assets/Screenshots/PIM/Products/List/EditProduct.png "[Edit product]")
 
@@ -62,30 +62,19 @@ are displayed in the box side bar:
 5. Click the [SAVE] button in the upper right corner of the *Edit product* view.    
   The images are saved and uploaded to Cloudinary. The *Edit product* view is closed.
 
-### Next steps
-
-- [Import a Cloudinary file to PIM](#import-a-cloudinary-file-to-pim)
-- [Remove a Cloudinary file assignment in PIM](#remove-a-cloudinary-file-assignement-in-pim)
-
-### See also
-
-- [User Interface PIM](/PIM/UserInterface/00_UserInterface.md)
-- [User Interface Cloudinary](/Cloudinary/UserInterface/00_UserInterface.md)
-- [Manage the Cloudinary attributes](/Cloudinary/Integration/02_ManageCloudinaryAttributes.md)
-
 
 
 ## Import a Cloudinary file to PIM
 
 Import images and videos from Cloudinary to products in your *PIM* module.
 
-### Prerequisites
+#### Prerequisites
 
 - A Cloudinary connection is established, see [Establish a connection to Cloudinary](/Cloudinary/Integration/01_EstablishConnection.md)
 - The required Cloudinary attribute is created, see [Manage the Cloudinary attributes](/Cloudinary/Integration/02_ManageCloudinaryAttributes.md)
 - At least one file is available for import in Cloudinary.
 
-### Procedure
+#### Procedure
 
 *PIM > Products > Tab LIST*
 
@@ -94,7 +83,7 @@ Import images and videos from Cloudinary to products in your *PIM* module.
 > [Info] The following procedure describes exemplary how to import an image from Cloudinary. The procedure is largely identical to import a video from CLoudinary. The differences are explicitly specified at the appropriate place.
 
 1. Click the product in the product list to which you want to add an image from Cloudinary.   
-  The *Edit Product* view is displayed.
+  The *Edit product* view is displayed.
 
   ![Edit product](/Assets/Screenshots/PIM/Products/List/EditProduct.png "[Edit product]")
 
@@ -103,7 +92,7 @@ Import images and videos from Cloudinary to products in your *PIM* module.
   ![Cloudinary attribute](/Assets/Screenshots/PIM/Products/List/Attributes/CloudinaryAttribute.png "[Cloudinary attribute]")
 
 3. Click the [LIST UNASSIGNED ITEMS] button in the Cloudinary image attribute box to select the image(s) to be imported. When importing a video from Cloudinary, use the button in the corresponding Cloudinary video attribute box instead of the Cloudinary image attribute box.        
-The *Unassigned Items* window is displayed, listing all unassigned images in the specified Cloudinary folder.
+The *Unassigned items* window is displayed, listing all unassigned images in the specified Cloudinary folder.
 
   ![Unassigned items](/Assets/Screenshots/PIM/Products/List/Attributes/CloudinaryUnassignedItems.png "[Unassigned items]")
 
@@ -116,7 +105,7 @@ The *Unassigned Items* window is displayed, listing all unassigned images in the
   The selected images are imported from Cloudinary and removed from the list of unassigned items.
 
 6. Click the [CANCEL] button in the bottom right corner.   
-  The *Unassigned Items* window is closed. The *Edit product* view is displayed again. A preview tile of each selected image is displayed in the Cloudinary image attribute box.   
+  The *Unassigned items* window is closed. The *Edit product* view is displayed again. A preview tile of each selected image is displayed in the Cloudinary image attribute box.   
 
   ![Cloudinary images](/Assets/Screenshots/PIM/Products/List/Attributes/CloudinaryImages.png "[Cloudinary images]")
 
@@ -142,28 +131,17 @@ are displayed in the box side bar:
 8. Click the [SAVE] button in the upper right corner of the *Edit product* view.    
   The imported images are saved. The *Edit product* view is closed.
 
-### Next steps
-
-- [Remove a Cloudinary file assignment in PIM](#remove-a-cloudinary-file-assignement-in-pim)
-
-### See also
-
-- [User Interface PIM](/PIM/UserInterface/00_UserInterface.md)
-- [User Interface Cloudinary](/Cloudinary/UserInterface/00_UserInterface.md)
-- [Upload a Cloudinary file via PIM](#upload-a-cloudinary-file-via-pim)
-- [Manage the Cloudinary attributes](/Cloudinary/Integration/02_ManageCloudinaryAttributes.md)
-
 
 
 ## Remove a Cloudinary file assignment in PIM
 
 When removing an image assignment from Cloudinary in the *PIM* module, you can either keep the corresponding image in Cloudinary or delete the image in Cloudinary at the same time.
 
-### Prerequisites
+#### Prerequisites
 
 At least one Cloudinary file is assigned to the PIM product.
 
-### Procedure
+#### Procedure
 
 *PIM > Products > Tab LIST*
 
@@ -172,7 +150,7 @@ At least one Cloudinary file is assigned to the PIM product.
 > [Info] The following procedure describes exemplary how to remove an image assignment from Cloudinary. The procedure is largely identical to import a video from CLoudinary. The differences are explicitly specified at the appropriate place.
 
 1. Click the product in the product list from which you want to remove the Cloudinary image assignment.   
-  The *Edit Product* view is displayed.
+  The *Edit product* view is displayed.
 
   ![Edit product](/Assets/Screenshots/PIM/Products/List/EditProduct.png "[Edit product]")
 
@@ -185,26 +163,25 @@ At least one Cloudinary file is assigned to the PIM product.
   The ![Delete](/Assets/Icons/Trash01.png "[Delete]") (Delete) button is displayed in a small circle in the upper right corner of the preview tile.    
 
 4. Click the ![Delete](/Assets/Icons/Cross01.png "[Delete]") (Delete) button in the upper right corner of the preview tile.   
-  The *Delete Image* window is displayed.   
+  The *Delete image* window is displayed.   
 
   ![Delete image](/Assets/Screenshots/PIM/Products/List/Attributes/CloudinaryDeleteImage.png "[Delete image]")
 
-5. Depending on your objective, click on one of the following buttons displayed in the *Delete Image* window:
+5. Depending on your objective, click on one of the following buttons displayed in the *Delete image* window:
 
   - [REMOVE ASSIGNMENT (KEEP IN CLOUDINARY)]   
-  Only the assignment to the image is removed. When displaying the list of unassigned items, the image will be listed again. The *Delete Image* window is closed.
+  Only the assignment to the image is removed. When displaying the list of unassigned items, the image will be listed again. The *Delete image* window is closed.
   - [REMOVE ASSIGNMENT (DELETE IN CLOUDINARY)]   
-  The assignment to the image is removed and the image itself is deleted in Cloudinary. The *Delete Image* window is closed.
+  The assignment to the image is removed and the image itself is deleted in Cloudinary. The *Delete image* window is closed.
 
     > [Info] Note that problems may occur when deleting an image to which other dependencies exist, for instance if the image is already available in a web shop.
 
 6.  Click the [SAVE] button in the upper right corner of the *Edit product* view.    
   The image assignment removal is saved. The *Edit product* view is closed.
 
-### See also
+
+
+## Related content
 
 - [User Interface PIM](/PIM/UserInterface/00_UserInterface.md)
-- [User Interface Cloudinary](/Cloudinary/UserInterface/00_UserInterface.md)
-- [Upload a Cloudinary file via PIM](#upload-a-cloudinary-file-via-pim)
-- [Import a Cloudinary file to PIM](#import-a-cloudinary-file-to-pim)
 - [Manage the Cloudinary attributes](/Cloudinary/Integration/02_ManageCloudinaryAttributes.md)

@@ -4,12 +4,12 @@
 
 The first step to integrate the Cloudinary functionality to Actindo is to establish a connection to Cloudinary. You can establish multiple Cloudinary connections to different accounts in the Cloudinary module.
 
-## Prerequisites
+#### Prerequisites
 
 - A Cloudinary account is created.
 - You are logged in to your Cloudinary account.
 
-## Procedure
+#### Procedure
 
 *Cloudinary > Settings > Tab CONNECTIONS*
 
@@ -22,7 +22,7 @@ The first step to integrate the Cloudinary functionality to Actindo is to establ
 
 2. Enter the desired connection name in the *Name* field.
 
-3. Click the *Driver* drop-down list and select the **Cloudinary Default Driver** option.   
+3. Click the *Driver* drop-down list and select the **Cloudinary default driver** option.   
   The *Credentials* section is displayed.
 
   ![Credentials](/Assets/Screenshots/Cloudinary/Settings/Credentials.png "[Credentials]")
@@ -41,13 +41,10 @@ The first step to integrate the Cloudinary functionality to Actindo is to establ
 
 > [Info] To establish a further Cloudinary connection to a different Cloudinary account, repeat the procedure with the corresponding Cloudinary account details.
 
-## Next steps
+## Related contents
 
-- [Manage the Cloudinary attributes](02_ManageCloudinaryAttributes.md)
-
-## See also
-
-- [User Interface Cloudinary](/Cloudinary/UserInterface/00_UserInterface.md)
+- [User Interface Cloudinary](/Cloudinary/UserInterface/01a_Connections.md)
+- [Manage the Cloudinary files](/Cloudinary/Operation/01_ManageCloudinaryFiles.md)
 
 
 [comment]: <> (Edit a connection?)
