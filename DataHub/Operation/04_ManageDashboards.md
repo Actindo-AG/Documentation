@@ -63,7 +63,7 @@ A dashboard tab is created, see [Create a dashboard](#create-a-dashboard).
 
 4. Select the checkboxes of the dashlets you want to add to your dashboard. If you click the checkbox in the header, all dashlets in the list are selected.
 
-  > [Info] For detailed information about the available dashlets, see [Dashlet picker](/DataHub/UserInterface/01a_Overview.md#dashlet-picker).
+  > [Info] For detailed information about the available dashlets, see [Dashlet picker](/DataHub/UserInterface/01a_Dashboards.md#dashlet-picker).
 
 5. Click the [ACCEPT] button in the bottom right corner of the window.   
   The selected dashlets are added to the dashboard. The *Dashlet picker* window is closed.
