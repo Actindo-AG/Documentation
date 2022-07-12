@@ -59,20 +59,21 @@
 
 - [Manage offers for POS](07_ManageOffers.md)
   - [Create products for POS](07_ManageOffers.md#create-products-for-pos)
-  - [Create a POS specific product type](07_ManageOffers.md#create-a-pos-specific-product-type)
+  - [Create a product type](07_ManageOffers.md#create-a-product-type)
   - [Map a new product type in POS](07_ManageOffers.md#map-a-new-product-type-in-pos)
-  - [Create a QuickSelect category](07_ManageOffers.md#create-a-quickselect-category)
-    - [Define a QuickSelect attribute](07_ManageOffers.md#define-a-quickselect-attribute)
-    - [Assign the QuickSelect attribute](07_ManageOffers.md#assign-the-quickselect-attribute)
-  - [Create a voucher](07_ManageOffers.md#create-a-voucher)
-    - [Create a voucher product](07_ManageOffers.md#create-a-voucher-product)
-    - [Activate the voucher attribute setting](07_ManageOffers.md#activate-the-voucher-attribute-setting)
   - [Create an offer for POS](07_ManageOffers.md#create-an-offer-for-pos)
     - [Create an offer from a PIM product in Omni-Channel](07_ManageOffers.md#create-an-offfer-from-a-pim-product-in-omni-channel)
     - [Create a manual offer in Omni-Channel](07_ManageOffers.md#create-a-manual-offer-in-omni-channel)
     - [Create a single channel offer in PIM](07_ManageOffers.md#create-a-single-channel-offer-in-pim)
     - [Create a multiple channels offer in PIM](07_ManageOffers.md#create-a-multiple-channels-offer-in-pim)
   - [Activate a POS offer](07_ManageOffers.md#activate-a-pos-offer)
+  - [Create a QuickSelect category](07_ManageOffers.md#create-a-quickselect-category)
+    - [Define a QuickSelect attribute](07_ManageOffers.md#define-a-quickselect-attribute)
+    - [Assign the QuickSelect attribute](07_ManageOffers.md#assign-the-quickselect-attribute)
+  - [Create a voucher](07_ManageOffers.md#create-a-voucher)
+    - [Create a voucher product](07_ManageOffers.md#create-a-voucher-product)
+    - [Define the voucher setting](07_ManageOffers.md#define-the-voucher-setting)
+
 
 
 

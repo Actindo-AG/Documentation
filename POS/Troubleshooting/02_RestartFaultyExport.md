@@ -2,18 +2,18 @@
 
 # Restart a faulty export
 
-## Error description
+#### Error description
 An error occurred while trying to export an offer to OMS.
 
 Follow the instructions below to restart the export to OMS after you fix the cause of the error.
 
 
-## Prerequisites
+#### Prerequisites
 
 The cause of the export error is fixed.
 
 
-## Procedure
+#### Procedure
 
 *Omni-Channel > Orders and Returns > Tab ORDERS*
 
@@ -27,9 +27,12 @@ The order export is restarted. During the export, the status **Being exported** 
 2. Click the button ![Refresh](/Assets/Icons/Refresh01.png "[Refresh]") (Refresh) in the upper right corner to update the order list.   
 The order status in the column *Status of Export to OMS* changed to **Exported**. The order is correctly exported.
 
-## See also
 
-- [User Interface Omni-Channel](/Channels/UserInterface/00_UserInterface.md)
+
+## Related content
+
+[User Interface Omni-Channel](/Channels/UserInterface/00_UserInterface.md)
+
 
 
 ## Was this chapter helpful?

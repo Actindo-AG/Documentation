@@ -20,14 +20,18 @@
   - [Delete a product from the bill list](03_EditBillList.md#delete-a-product-from-the-bill-list)
   - [Add a sale note](03_EditBillList.md#add-a-sale-note)
   - [Assign a purchase to a customer](03_EditBillList.md#assign-a-purchase-to-a-customer)
-    - [Assign a purchase to an existing customer](03_EditBillList.md#assign-a-purchase-to-an-existing-customer)
     - [Register a customer](03_EditBillList.md#register-a-customer)
+    - [Assign a purchase to an existing customer](03_EditBillList.md#assign-a-purchase-to-an-existing-customer)
 
 
 
 - [Complete a purchase](04_CompletePurchase.md)
   - [Pay cash](04_CompletePurchase.md#pay-cash)
+    - [Manual input of the cash amount](04_CompletePurchase.md#manual-input-of-the-cash-amount)
+    - [Quick select of the cash amount](04_CompletePurchase.md#quick-select-of-the-cash-amount)
   - [Open the drawer](04_CompletePurchase.md#open-the-drawer)
+    - [Open the drawer in the cashpoint](04_CompletePurchase.md#open-the-drawer-in-the-cashpoint)
+    - [Open the drawer in the cash register](04_CompletePurchase.md#open-the-drawer-in-the-cash-register)
   - [Pay cashless at the terminal](04_CompletePurchase.md#pay-cashless-at-the-terminal)
   - [Pay with voucher](04_CompletePurchase.md#pay-with-voucher)
   - [Manage a parked bill](04_CompletePurchase.md#manage-a-parked-bill)

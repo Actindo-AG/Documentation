@@ -47,7 +47,7 @@
 - ![Remove Product](/Assets/Icons/Cross02.png "[Remove Product]") (Remove Product)   
   Click this button to remove a product entry from the bill list. This field is displayed only when a product is added to the bill list.
 
-- *![Toggle](/Assets/Icons/Toggle.png "[Toggle]") Single Scan*   
+- *![Toggle](/Assets/Icons/Toggle.png "[Toggle]") Single scan*   
   Activate this toggle to use the single scan feature.
 
   > [Info]   If the same offer is selected more than once and you use the single scan feature, each offer is listed as a single product in the bill list. This allows you to treat each product in the booking individually.
