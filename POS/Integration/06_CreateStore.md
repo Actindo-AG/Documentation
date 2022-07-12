@@ -144,7 +144,7 @@ The store wizard has been started, see [Start the store wizard](#start-the-store
 
 1. Enter the store address in the fields.
 
-  > [Info] The store address corresponds to the delivery address. You must at least enter the country and the ZIP code. For detailed information, see [Store Address](/POS/UserInterface/02b_Management.md#step-4-store-address).
+  > [Info] The store address corresponds to the delivery address. You must at least enter the country and the ZIP code. For detailed information, see [Store Address](/POS/UserInterface/02b_Stores.md#step-4store-address).
 
 2. Click the [CONTINUE] button in the bottom right corner of the window.   
     The *Saving successful* message and the *Stock* wizard window are displayed when the store address is saved.
@@ -231,7 +231,7 @@ The store wizard has been started, see [Start the store wizard](#start-the-store
 
 3. Select the respective account in the *Account* column and enter the corresponding account numbers for the different payment types and currencies. For detailed information, see [Manage the accounts for POS](02_ManageAccounts.md).
 
-  > [Info] You only have to enter the account numbers for the accounts with the used currency. To delete the unused currencies from the list of available currencies, see [Available Currencies](/POS/UserInterface/02a_Management.md#available-currencies).
+  > [Info] You only have to enter the account numbers for the accounts with the used currency. To delete the unused currencies from the list of available currencies, see [Available Currencies](/POS/UserInterface/02a_GlobalSettings.md#available-currencies).
 
 4. Click the [CONTINUE] button in the bottom right corner of the window.   
   The *Summary* wizard window is displayed when the account assignment is saved.
@@ -449,7 +449,7 @@ A store has been created, see [Create a store manually](#create-a-store-manually
 2. Enter the store address in the fields.
 
   > [Info] The store address corresponds to the delivery address. You must at least enter the country and the ZIP code.   
-   For detailed information, see [User Interface Venduo POS/Management/Stores](/POS/UserInterface/02b_Management.md).
+   For detailed information, see [User Interface Venduo POS/Management/Stores](/POS/UserInterface/02b_Stores.md).
 
 3. Click the [Save] button in the upper right corner.   
     The *Saving successful* message is displayed. The store address is saved.
@@ -478,7 +478,7 @@ To connect the warehouse management and the stock management to your POS, you ha
 2. Select the warehouse you want to take the stock from in the *Warehouse* drop-down list.
 
 3. Activate the *Automatically assign product to warehouse when activated in store* toggle to automate the assignment process.    
-  It is recommended to activate this option. For detailed information, see [User Interface Venduo POS/Management/Stores](/POS/UserInterface/02b_Management.md).
+  It is recommended to activate this option. For detailed information, see [User Interface Venduo POS/Management/Stores](/POS/UserInterface/02b_Stores.md).
 
   > [Info] A product must have stock allocation in a warehouse in order to be sold from that warehouse. Products only have stock in a warehouse if a shelf is defined for them. By default, a shelf is not defined for products. Therefore, each product that is to be sold in the POS system must first get a shelf. The products get a shelf the first time the corresponding channels offer is activated.    
   This automation only works if you have enabled the storage of multiple items per shelf when creating the warehouse. For detailed information, see [Configure the warehouse for POS](01_ConfigureWarehouse.md).

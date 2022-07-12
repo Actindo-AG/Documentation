@@ -14,4 +14,4 @@ If the global setting *Shop-Lieferungen aktiv* is activated, the following tabs 
   - [OFFENE LIEFERSCHEINE](02f_UnprocessedDeliveryNotes.md)
   - [WARENEINGANGS-SYNC](02g_WareneingangsSync.md)
 
-For detailed information, see [Shop-Lieferungen aktiv](02a_GlobalSettings.md#shop-lieferungen-aktiv).
+For detailed information, see [Shop-Lieferungen aktiv](02a_GlobalSettings.md#shoplieferungen-aktiv).

@@ -6,7 +6,7 @@
 
 Venduo POS provides many settings to  configure the POS system individually.
 
-For detailed information about the specific settings, see [Global Settings](/POS/UserInterface/02a_Management.md#global-settings).
+For detailed information about the specific settings, see [Global Settings](/POS/UserInterface/02a_GlobalSettings.md).
 
 Before creating a new store in the POS system, you should configure the following settings:
 
