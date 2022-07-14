@@ -1,6 +1,6 @@
 [!!Core1 Platform](Core1Platform)
 
-# Administrator-side setup for U2F
+# Set up U2F from the administrator side
 
 For the U2F setup of an Actindo account, a user-side setup as well as an administrator-side setup is necessary. The Actindo administrator needs to activate U2F as an authorization method for the corresponding user to complete the *U2F* setup.
 
@@ -35,5 +35,5 @@ For the U2F setup of an Actindo account, a user-side setup as well as an adminis
 
 ## Related content
 
-- [User-side setup for U2F](01_UserSetupActindo.md)
+- [Set up U2F from the user side](01_UserSetupActindo.md)
 - [User Interface User management](/Settings/UserInterface/00_UserInterface.md)

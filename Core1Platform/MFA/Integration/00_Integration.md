@@ -1,5 +1,5 @@
 # Integration
 
- - [User-side setup for U2F](01_UserSetupActindo.md)
+ - [Set up U2F from the user side](01_UserSetupActindo.md)
 
- - [Administrator-side setup for U2F](02_AdminSetupActindo.md)
+ - [Set up U2F from the administrator side](02_AdminSetupActindo.md)

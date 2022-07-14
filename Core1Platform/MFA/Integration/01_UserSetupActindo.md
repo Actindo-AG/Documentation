@@ -1,6 +1,6 @@
 [!!Core1 Platform](Core1Platform)
 
-# User-side setup for U2F
+# Set up U2F from the user side
 
 For the U2F setup of an Actindo account, a user-side setup as well as an administrator-side setup is necessary. The user needs to define several settings within its Actindo account to add *U2F* with the *YubiKey* as an authorization method.
 
@@ -74,5 +74,5 @@ For the U2F setup of an Actindo account, a user-side setup as well as an adminis
 
 ## Related content
 
-- [Administrator-side setup for U2F](02_AdminSetupActindo.md)
+- [Set up U2F from the administrator side](02_AdminSetupActindo.md)
 - [User Interface Profile settings](/Core1Platform/UserInterface/01d_U2F.md)

@@ -1,12 +1,12 @@
 [!!Core1 Platform](Core1Platform)
 
-# Login with U2F
+# Log in via U2F
 
 After U2F has been configured for your Actindo account, you will use U2F from your next login to your Actindo account on.
 
 #### Prerequisites
 
-- U2F has been configured for your account, see [User-side setup](/Core1Platform/MFA/Integration/01_UserSetupActindo.md) and [Administrator-side setup](/Core1Platform/MFA/Integration/02_AdminSetupActindo.md).
+- U2F has been configured for your account, see [Set up U2F from the user side](/Core1Platform/MFA/Integration/01_UserSetupActindo.md) and [Set up U2F from the administrator side](/Core1Platform/MFA/Integration/02_AdminSetupActindo.md).
 - You possess a *YubiKey*.
 
 #### Procedure
@@ -16,6 +16,9 @@ After U2F has been configured for your Actindo account, you will use U2F from yo
 ![Login user name](/Assets/Screenshots/Core1Platform/LoginUsername.png "[Login user name]")
 
 1. Enter your user name in the *User name* field and click the [LOGIN] button.   
+
+  > [Info] If SSO is configured for Actindo and you are not yet logged in to another application via SSO, you must follow the login via SSO before continuing with step **3** of this procedure. For detailed information about the login via SSO, see [Log in via SSO](/Core1Platform/SSO/Operation/01_SSOLogin.md).
+
   The *Password* field is displayed.
 
   ![Login password](/Assets/Screenshots/Core1Platform/LoginPassword.png "[Login password]")
@@ -43,7 +46,9 @@ After U2F has been configured for your Actindo account, you will use U2F from yo
 6. Touch the flashing area on your *YubiKey* .   
   The browser window is closed. You are logged in to your account after a few moments.  
 
+
+
 ## Related content
 
-- [User-side setup](/Core1Platform/MFA/Integration/01_UserSetupActindo.md)
-- [Administrator-side setup](/Core1Platform/MFA/Integration/02_AdminSetupActindo.md)
+- [Set up U2F from the user side](/Core1Platform/MFA/Integration/01_UserSetupActindo.md)
+- [Set up U2F from the administrator side](/Core1Platform/MFA/Integration/02_AdminSetupActindo.md)
