@@ -7,7 +7,7 @@ The *Management* User Interface is composed of the following tabs:
   - [GLOBAL SETTINGS](02a_GlobalSettings.md)
   - [STORES](02b_Stores.md)
   - [MAPPING FROM PIM](02c_MappingFromPIM.md)
-  - [BUCHHALTUNGS-SYNC](02d_AccountingSync.md)
+  - [ACCOUNTING SYNC](02d_AccountingSync.md)
 
 If the global setting *Shop-Lieferungen aktiv* is activated, the following tabs are also displayed:
   - [ABGESCHLOSSENE LIEFERSCHEINE](02e_ProcessedDeliveryNotes.md)

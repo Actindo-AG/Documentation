@@ -945,6 +945,7 @@ Change or define the warehouse from which to take the stock.
 
 - *Created MM/DD/YYYY*   
   Date of pay desk creation. This field is read-only.
+  
   [comment]: <> (Why is the format another one than for the store?)
 
 - [SAVE]   
