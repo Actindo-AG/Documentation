@@ -1,4 +1,4 @@
-# Global Settings
+# Global settings
 *Venduo POS > Management > Tab GLOBAL SETTINGS*
 
 In the tab *GLOBAL SETTINGS*, you define basic settings for all your stores.
@@ -13,7 +13,7 @@ In the tab *GLOBAL SETTINGS*, you define basic settings for all your stores.
 |**(2)**|**View of the selected setting**|
 
 In the left part of the page, the selection list *Settings* is displayed. The list is divided in the following sections:
- - [UNKNOWN SECTION](0#unknown-section)
+ - [GENERAL](#general)
  - [WÄHRUNGEN](#währungen)
  - [RETOUREN](#retouren)
  - [BELEGDRUCK](#belegdruck)
@@ -25,7 +25,7 @@ In the following, each setting and its view is explained.
 
 [comment]: <> (no section name for the first section -> Pay Desk and Payments?)
 
-## UNKNOWN SECTION
+## GENERAL
 
 In this section, you define all pay desk and payment settings.
 
@@ -268,7 +268,7 @@ By default, the expected amount in the pay desk is indicated. deactivate this op
 
 In this section, you define all settings concerning the currencies in your POS system.
 
-## Available Currencies
+## Available currencies
 *Venduo POS > Management > Tab GLOBAL SETTINGS > Entry Available Currencies*
 
 Define the currencies that are available in your POS system as well as the coins and bills that exist in each currency. By default, the four currencies Euro, Swiss Franc, US Dollar and British Pound are predefined.
@@ -617,7 +617,7 @@ In this section, you define all settings concerning the connection to invoicing.
 *Venduo POS > Management > Tab GLOBAL SETTINGS > Entry Kontenzuteilung Buchhaltung*
 
 Assign the accounts to which you want to book the payments. The accounts are assigned for all stores, unless they are overwritten in the store or pay desk admin settings.
-For more information, see [Admin Settings - Store](02b_Management.md#admin-settings-store) or [Admin Settings - Pay Desk](02b_Management.md#admin-settings-pay-desk).
+For more information, see [Admin Settings - Store](02b_Stores.md#adminsettings-store) or [Admin Settings - Pay Desk](02b_Stores.md#admin-settingspay-desk).
 
 The number of accounts to be assigned depends on the number of available currencies.
 
@@ -662,7 +662,7 @@ Activate or deactivate the reverse booking to the original warehouse. Any discre
   Choose whether or not to book discrepancies between the delivery receipt and the delivery are automatically booked back to the original warehouse. By default, this option is active.
 
     >  [Info] This option is only applicable if store deliveries are activated.    
-    For detailed information, see [Shop-Lieferungen aktiv](POS_UserInterface_02_Management.md####Shop-Lieferungen-aktiv).
+    For detailed information, see [Shop-Lieferungen aktiv](#shoplieferungen-aktiv).
 
 - *Von Default übernehmen* ![Toggle](/Assets/Icons/Toggle.png "[Toggle]")     
   Activate this toggle to apply the default settings or deactivate this toggle to specify custom settings. When the toggle is active, all fields in the view are locked. By default, this toggle is active.
@@ -748,7 +748,7 @@ Activate or deactivate the store deliveries. If the store deliveries are active,
 
 - [x] *Shop-Lieferung aktiv*   
   Choose whether or not to activate deliveries from the store. By default, this option is inactive.   
-  When the store deliveries are active, the three new tabs [*ABGESCHLOSSENE LIEFERSCHEINE*](02e_Management.md), [*OFFENE LIEFERSCHEINE*](02f_Management.md) and  [*WARENEINGANGS-SYNC*](02g_Management.md) are displayed in the menu entry *Management* and the new tab [*WARENEINGANG*](01g_Sales.md) is displayed in the menu entry *Sales*.
+  When the store deliveries are active, the three new tabs [*ABGESCHLOSSENE LIEFERSCHEINE*](02e_ProcessedDeliveryNotes.md), [*OFFENE LIEFERSCHEINE*](02f_UnprocessedDeliveryNotes.md) and  [*WARENEINGANGS-SYNC*](02g_WareneingangsSync.md) are displayed in the menu entry *Management* and the new tab [*WARENEINGANG*](01g_Wareneingang.md) is displayed in the menu entry *Sales*.
 
   >  [Info] You have to save the changes and press **F5** to initialize the Core1 Platform and display the new tabs.
 
