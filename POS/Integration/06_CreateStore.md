@@ -663,7 +663,7 @@ To assign the same accounts to all stores, you may enter the account numbers in 
 
 *Venduo POS > Management > Tab GLOBAL SETTINGS > Entry Account assignment*
 
-![Assign accounts Global Settings](/Assets/Screenshots/POS/Management/GlobalSettings/GS24.png "[Assign accounts Global Settings]")
+![Assign accounts global settings](/Assets/Screenshots/POS/Management/GlobalSettings/GS24.png "[Assign accounts global settings]")
 
 1. Select the respective account in the *Account* column and enter the corresponding account numbers for the different payment types and currencies.  
    For detailed information, see [Manage the accounts for POS](02_ManageAccounts.md).

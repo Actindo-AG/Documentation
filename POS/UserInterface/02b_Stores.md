@@ -491,7 +491,7 @@ The table displays all available store managers. All fields are read-only. Depen
 
 ![Settings Store](/Assets/Screenshots/POS/Management/Stores/Store/Settings/Settings.png "[Settings Store]")
 
-#### UNKNOWN SECTION
+#### GENERAL
 
 In this section, you define all pay desk and payment settings.
 
@@ -697,7 +697,7 @@ Define the width of the receipt, as it may vary depending on the printer.
 
 ![Admin Settings Store](/Assets/Screenshots/POS/Management/Stores/Store/AdminSettings/AdminSettings.png "[Admin Settings Store]")
 
-#### UNKNOWN SECTION
+#### GENERAL
 
 In this section, you define all pay desk and payment settings.
 
@@ -1015,7 +1015,7 @@ The table displays all available cashiers. All fields are read-only. Depending o
 
 ![Admin Settings Pay Desk](/Assets/Screenshots/POS/Management/Stores/PayDesk/AdminSettings/AdminSettings.png "[Admin Settings Pay Desk]")
 
-#### UNKNOWN SECTION
+#### GENERAL
 
 In this section, you define all pay desk and payment settings.
 

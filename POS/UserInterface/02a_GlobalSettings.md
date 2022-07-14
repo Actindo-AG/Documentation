@@ -13,7 +13,7 @@ In the tab *GLOBAL SETTINGS*, you define basic settings for all your stores.
 |**(2)**|**View of the selected setting**|
 
 In the left part of the page, the selection list *Settings* is displayed. The list is divided in the following sections:
- - [UNKNOWN SECTION](0#unknown-section)
+ - [GENERAL](#general)
  - [WÄHRUNGEN](#währungen)
  - [RETOUREN](#retouren)
  - [BELEGDRUCK](#belegdruck)
@@ -25,7 +25,7 @@ In the following, each setting and its view is explained.
 
 [comment]: <> (no section name for the first section -> Pay Desk and Payments?)
 
-## UNKNOWN SECTION
+## GENERAL
 
 In this section, you define all pay desk and payment settings.
 

@@ -24,9 +24,9 @@ The users that belong to a POS group must be assigned to a pay desk or store in 
 
 #### Procedure
 
-*settings > Users and Groups > Tab GROUP MANAGEMENT*
+*Settings > Users and Groups > Tab GROUP MANAGEMENT*
 
-  ![Groups](/Assets/Screenshots/Settings/UsersGroups/GroupManagement/Groups.png "[Groups]")
+  ![Group management](/Assets/Screenshots/Settings/UsersGroups/GroupManagement/GroupManagement.png "[Group management]")
 
 1. Select the checkbox of the group you want to assign the users to in the list of groups.   
   The editing toolbar is displayed above the list.

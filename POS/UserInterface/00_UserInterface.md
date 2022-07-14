@@ -57,7 +57,7 @@
 
 
 - [GLOBAL SETTINGS](02a_GlobalSettings.md)
-  - [UNKNOWN SECTION](02a_GlobalSettings.md#unknown-section)
+  - [GENERAL](02a_GlobalSettings.md#general)
     - [Format laufende Nummer](02a_GlobalSettings.md#format-laufende-nummer)
     - [Bon immer ausdrucken](02a_GlobalSettings.md#bon-immer-ausdrucken)
     - [Anzahl Gutscheine pro Bestellung](02a_GlobalSettings.md#anzahl-gutscheine-pro-bestellung)
@@ -103,7 +103,7 @@
       - [Store managers](02b_Stores.md#store-managers)
       - [Create pay desk](02b_Stores.md#create-pay-desk)
     - [Settings](02b_Stores.md#settings)
-      - [UNKNOWN SECTION](02b_Stores.md#unknown-section-1)
+      - [GENERAL](02b_Stores.md#general-1)
         - [Bon immer ausdrucken](02b_Stores.md#bon-immer-ausdrucken)
         - [Kasse öffnen bei Barzahlung](02b_Stores.md#kasse-öffnen-bei-barzahlung)
         - [Kasse öffnen nach bargeldlosem Zahlen](02b_Stores.md#kasse-öffnen-nach-bargeldlosem-zahlen)
@@ -117,7 +117,7 @@
         - [Logo-Druck Kompatibilitätsmodus](02b_Stores.md#logo-druck-kompatibilitätsmodus-1)
         - [Bon-Format](02b_Stores.md#bonformat-1)
     - [Admin settings - Store](02b_Stores.md#admin-settingsstore)
-      - [UNKNOWN SECTION](02b_Stores.md#unknown-section-2)
+      - [GENERAL](02b_Stores.md#general-2)
         - [Kasse öffnen bei Barzahlung](02b_Stores.md#kasse-öffnen-bei-barzahlung-1)
         - [Kasse öffnen nach bargeldlosem Zahlen](02b_Stores.md#kasse-öffnen-nach-bargeldlosem-zahlen-1)
         - [Kassenjournal auf User binden](02b_Stores.md#kassenjournal-auf-user-binden)
@@ -154,8 +154,8 @@
 
 
 
-- [BUCHHALTUNGS-SYNC](02d_AccountingSync.md)
-  - [Buchhaltungs-Sync Details](02d_AccountingSync.md#buchhaltungssync-details)
+- [ACCOUNTING SYNC](02d_AccountingSync.md)
+  - [Accounting sync details](02d_AccountingSync.md#accounting-sync-details)
 
 
 

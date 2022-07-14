@@ -117,9 +117,9 @@ At least one product has been created, see [Create products for POS](#create-pro
 
 3. Configure the following settings:
 
-  + Select one of the radio buttons:
-      + **All products**:  Offers for all existing PIM products are created.
-    + **Select products**: Select manually the products you want to create an offer for.    
+  + Select one of the radio buttons:   
+    ![Radionbutton](/Assets/Icons/Radiobutton.png "[Radiobutton]") *All products*:  Offers for all existing PIM products are created.   
+    ![Radionbutton](/Assets/Icons/Radiobutton.png "[Radiobutton]") *Select products*: Select manually the products you want to create an offer for.     
 
   + Select the marketplace for which you want to create the offers in the *Connection* drop-down list, for instance the appropriate POS Store.
 
@@ -260,10 +260,10 @@ At least one product has been created, see [Create products for POS](#create-pro
    ![Radionbutton](/Assets/Icons/Radiobutton.png "[Radiobutton]") *Manual*: Changes in a PIM product must be triggered manually to be applied to the offers.   
    ![Radionbutton](/Assets/Icons/Radiobutton.png "[Radiobutton]") *Automatic*: Changes in a PIM product are automatically applied to the offers.
 
-  + Select initial offer status in the *Status* drop-down list:   
-    + *Active*: The offer is active. It is displayed on the marketplace and can be sold there.   
-    + *Inactive*: The offer is inactive. It is not displayed on the marketplace and cannot be sold there.   
-    + *Offline*: The offer is unknown to the marketplace and therefore cannot be sold there.   
+  + Select the initial offer status in the *Status* drop-down list:   
+    + **Active**: The offer is active. It is displayed on the marketplace and can be sold there.   
+    + **Inactive**: The offer is inactive. It is not displayed on the marketplace and cannot be sold there.   
+    + **Offline**: The offer is unknown to the marketplace and therefore cannot be sold there.   
 
 
 6. Click the button [SAVE] in the bottom right corner of the *Create channels offer* window.   
@@ -308,10 +308,10 @@ At least one product has been created, see [Create products for POS](#create-pro
 
 5. Configure the following settings:
 
-  + Select initial offer status in the *Status* drop-down list:
+  + Select the initial offer status in the *Status* drop-down list:
     + **Active**: The offer is active. It is displayed on the marketplace and can be sold there.
     + **Inactive**: The offer is inactive. It is not displayed on the marketplace and cannot be sold there.
-    + **Not available**: The offer is unknown to the marketplace and therefore cannot be sold there.   
+    + **Offline**: The offer is unknown to the marketplace and therefore cannot be sold there.   
 
   + Select one of the radio buttons for the ETL mode:   
    ![Radionbutton](/Assets/Icons/Radiobutton.png "[Radiobutton]") *Manual*: Changes in a PIM product must be triggered manually to be applied to the offers.   

@@ -268,7 +268,7 @@ At least one product is added to the bill list, see [Select an offer](02_SelectO
 3. Click the [Resume] button.   
    The purchase is resumed. The parked bill list is displayed again.
 
-   ![Bill List Product](/Assets/Screenshots/POS/Sales/Cashpoint/BillList/Product.png "[Bill List Product]")
+   ![Bill list product](/Assets/Screenshots/POS/Sales/Cashpoint/BillList/Product.png "[Bill list product]")
 
 4. Complete the purchase by editing the bill list or paying the remaining total either by cash or cashless payment:
   - For cash payment, see [Pay cash](#pay-cash).
