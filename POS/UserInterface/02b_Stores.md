@@ -48,7 +48,7 @@ The table displays all created stores. All fields are read-only. Depending on th
 
 
 
-## Create Store
+## Create store
 *Venduo POS > Management > Tab STORES > Button Add*
 
 ![Create Store](/Assets/Screenshots/POS/Management/Stores/Add.png "[Create Store]")
@@ -67,7 +67,7 @@ The table displays all created stores. All fields are read-only. Depending on th
 *Venduo POS > Management > Tab STORES > Button Add > Button Create store via wizard*
 
 
-#### Step 1 - Create Store
+#### Step 1 - Create store
 ![Create Store](/Assets/Screenshots/POS/Management/Stores/StoreWizard/SW01.png "[Create Store]")
 
 - *Store-Name*   
@@ -197,7 +197,7 @@ For each pay desk, a tab with the printer settings below is displayed.
 - [CONTINUE]   
   Click this button to save the printer settings for the pay desks and proceed to the next step in the store wizard.  The *Store Address* wizard window is displayed. The *Saving successful* message is displayed in the upper right corner of the wizard window.
 
-#### Step 4 - Store Address
+#### Step 4 - Store address
 ![Create Store](/Assets/Screenshots/POS/Management/Stores/StoreWizard/SW04.png "[Create Store]")
 
 - *Owner*   
@@ -392,7 +392,7 @@ The wizard window displays a summary of the store configuration. Missing data or
   Click this button to save any changes.
 
 
-### Basic Data - Store
+### Basic data - Store
 *Venduo POS > Management > Tab STORES > Select Store > Tab Basic Data*
 
 ![Store Basic Data](/Assets/Screenshots/POS/Management/Stores/Store/BasicData/BasicData.png "[Store Basic Data]")
@@ -438,7 +438,7 @@ The wizard window displays a summary of the store configuration. Missing data or
   Click this button to delete the pay desk. This button is only displayed when you hover over the pay desk. Click the [SAVE] button to save the the changes.
 
 
-#### Store Managers
+#### Store managers
 *Venduo POS > Management > Tab STORES > Select Store > Tab Basic Data > Add Store Manager*
 
 ![Store Managers](/Assets/Screenshots/POS/Management/Stores/Store/BasicData/StoreManagers.png "[Store Managers]")
@@ -470,7 +470,7 @@ The table displays all available store managers. All fields are read-only. Depen
   Identification number of the user.
 
 
-#### Create Pay Desk
+#### Create pay desk
 *Venduo POS > Management > Tab STORES > Select Store > Tab Basic Data > Add Pay Desk*
 
 ![Create pay desk](/Assets/Screenshots/POS/Management/Stores/Store/BasicData/CreatePayDesk.png "[Create pay desk]")
@@ -491,7 +491,7 @@ The table displays all available store managers. All fields are read-only. Depen
 
 ![Settings Store](/Assets/Screenshots/POS/Management/Stores/Store/Settings/Settings.png "[Settings Store]")
 
-#### UNKNOWN SECTION
+#### GENERAL
 
 In this section, you define all pay desk and payment settings.
 
@@ -692,12 +692,12 @@ Define the width of the receipt, as it may vary depending on the printer.
 
 
 
-### Admin Settings - Store
+### Admin settings - Store
 *Venduo POS > Management > Tab STORES > Select Store > Tab Admin Settings*
 
 ![Admin Settings Store](/Assets/Screenshots/POS/Management/Stores/Store/AdminSettings/AdminSettings.png "[Admin Settings Store]")
 
-#### UNKNOWN SECTION
+#### GENERAL
 
 In this section, you define all pay desk and payment settings.
 
@@ -914,7 +914,7 @@ Change or define the warehouse from which to take the stock.
   Click this button to save any changes.
 
 
-## Pay Desk
+## Pay desk
 *Venduo POS > Management > Tab STORES > Select Store > Edit Pay Desk*
 
 ![Pay Desk Basic Data](/Assets/Screenshots/POS/Management/Stores/PayDesk/BasicData/BasicData.png "[Pay Desk Basic Data]")
@@ -945,12 +945,13 @@ Change or define the warehouse from which to take the stock.
 
 - *Created MM/DD/YYYY*   
   Date of pay desk creation. This field is read-only.
+  
   [comment]: <> (Why is the format another one than for the store?)
 
 - [SAVE]   
   Click this button to save any changes.
 
-### Basic Data - Pay Desk
+### Basic data - Pay desk
 *Venduo POS > Management > Tab STORES > Select Store > Edit Pay Desk > Tab Basic Data*
 
 ![Pay Desk Basic Data](/Assets/Screenshots/POS/Management/Stores/PayDesk/BasicData/BasicData.png "[Pay Desk Basic Data]")
@@ -1010,12 +1011,12 @@ The table displays all available cashiers. All fields are read-only. Depending o
   Identification number of the user.
 
 
-### Admin Settings - Pay Desk
+### Admin settings - Pay desk
 *Venduo POS > Management > Tab STORES > Select Store > Edit Pay Desk > Tab Admin Settings*
 
 ![Admin Settings Pay Desk](/Assets/Screenshots/POS/Management/Stores/PayDesk/AdminSettings/AdminSettings.png "[Admin Settings Pay Desk]")
 
-#### UNKNOWN SECTION
+#### GENERAL
 
 In this section, you define all pay desk and payment settings.
 
@@ -1218,7 +1219,7 @@ The table displays the shift summaries of all shifts on the selected pay desk. D
   Shift identification number. This field is read-only.
 
 
-#### Transactions Details
+#### Transactions details
 *Venduo POS > Management > Tab STORES > Select Store > Edit Pay Desk > Tab Transactions > Select Shift*
 
 ![Transactions](/Assets/Screenshots/POS/Management/Stores/PayDesk/Transactions/Details.png "[Transactions]")

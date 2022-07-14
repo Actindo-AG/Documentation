@@ -37,7 +37,7 @@ Click the drop-down list to select the view. All created views are displayed in 
     Click this entry to delete the selected view. A confirmation window to confirm the deletion is displayed. This menu entry is only displayed when a view is selected.
 
 
-- *Log Level*     
+- *Log level*     
   Click the drop-down list to select a log level. The following options are available:  
 
     - **All**  
@@ -89,7 +89,7 @@ The list displays all logs that are matching the selected log level. Depending o
   - **Emergency**
 
 
-- *Log Message*   
+- *Log message*   
   Description of the issue.
 
 - *Workflow*   
@@ -118,6 +118,49 @@ The list displays all logs that are matching the selected log level. Depending o
 
   - *Created by*  
   Name and user name of the user who initiated the process.
+
+
+
+## Log ID
+
+*Workflows > Logs > Tab OVERVIEW > Select Log message*
+
+![Log ID](/Assets/Screenshots/ActindoWorkFlow/Processes/LogID.png "[Log ID]")
+
+- ![Back](/Assets/Icons/Back02.png "[Back]") (Back)   
+  Click this button to close the *Log ID* view and return to the *Logs* tab.
+
+- *Log ID (x)*   
+  Log ID number.
+
+- *Log message*    
+  A description of the issue is displayed in the text box. This box is read-only.  
+
+  > [Info] In case of an error, detailed information is provided (stack trace) for reporting and debugging purposes.
+
+- *Log level*    
+Description of log level. The following levels are available:
+  - **Debug**
+  - **Info**
+  - **Notice**
+  - **Warning**
+  - **Error**
+  - **Critical**
+  - **Alert**
+  - **Emergency**
+
+
+- *Created - by*    
+  Date and time of creation, name and user ID of the person who created the process.
+
+- *Workflow*    
+  Workflow ID number and name.
+
+- *Process*    
+  Process ID number and description.
+
+- *Transition*     
+  Transition ID number and description.
 
 
 
@@ -154,46 +197,3 @@ The list displays all logs that are matching the selected log level. Depending o
 
 - [SAVE]   
   Click this button to save the changes to the view name. The *Rename view* window is closed. The new name for the view is saved and displayed in the *View* drop-down list.
-
-
-
-## Log ID
-
-*Workflows > Logs > Tab OVERVIEW > Select Log Message*
-
-![Log ID](/Assets/Screenshots/ActindoWorkFlow/Processes/LogID.png "[Log ID]")
-
-- ![Back](/Assets/Icons/Back02.png "[Back]") (Back)   
-  Click this button to close the *Log ID* view and return to the *Logs* tab.
-
-- *Log ID (x)*   
-  Log ID number.
-
-- *Log Message*    
-  A description of the issue is displayed in the text box. This box is read-only.  
-
-  > [Info] In case of an error, detailed information is provided (stack trace) for reporting and debugging purposes.
-
-- *Log Level*    
-Description of log level. The following levels are available:
-  - **Debug**
-  - **Info**
-  - **Notice**
-  - **Warning**
-  - **Error**
-  - **Critical**
-  - **Alert**
-  - **Emergency**
-
-
-- *Created - by*    
-  Date and time of creation, name and user ID of the person who created the process.
-
-- *Workflow*    
-  Workflow ID number and name.
-
-- *Process*    
-  Process ID number and description.
-
-- *Transition*     
-  Transition ID number and description.

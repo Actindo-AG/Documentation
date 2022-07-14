@@ -6,13 +6,13 @@
 
 To print receipts, invoices, shift summaries etc., a printer must be configured for POS.
 
-## Prerequisites
+#### Prerequisites
 
 The current APS is installed and has been started including a successful login.
 
 > [Info] Note that you have to use a separate user for the APS client as parallel logins are forbidden.
 
-## Procedure
+#### Procedure
 
 *Printing > Settings > Tab ASSIGN PRINTERS*
 
@@ -49,18 +49,9 @@ The current APS is installed and has been started including a successful login.
 
 [comment]: <> (Is that right? Check it, when APS is installed)
 
-## Next steps
 
-- [Assign users to the POS groups](04_AssignUsers.md)
-- [Configure the global settings for POS](05_ConfigureGlobalSettings.md)
-- [Create a store in POS](06_CreateStore.md)
-- [Manage offers for POS](07_ManageOffers.md)
-- [Manage the POS warehouse](08_ManageWarehouse.md)  
 
-## See also
+## Related content
 
-- [User Interface Printing](/POS/UserInterface/00_UserInterface.md)
+- [User Interface Printing](/Printing/UserInterface/00_UserInterface.md)
 - [Install the APS](to_be_completed)
-- [Select a printer](06_CreateStore.md)
-- [Configure the warehouse for POS](01_ConfigureWarehouse.md)
-- [Manage the accounts for POS](02_ManageAccounts.md)
