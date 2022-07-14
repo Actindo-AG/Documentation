@@ -5,7 +5,7 @@
 
 ![Queue types](/Assets/Screenshots/ActindoWorkFlow/QueueTypes/Overview.png "[Queue types]")
 
-**Queue Type List**
+**Queue type list**
 
 - [KILL WORKER]   
   Click this button to stop all workers that are currently executing actions in all processes.   
@@ -28,7 +28,7 @@
   Click this button to stop all workers that are currently executing an action of the selected queue type.   
   For detailed information, see [Kill the workers of a single queue type](/ActindoWorkFlow/Integration/01_ConfigureQueueTypes.md#kill-the-workers-of-a-single-queue-type).
 
-The list displays all queue types. All fields are read-only. Depending on the settings, the displayed columns may vary. Click a queue type in the list to display the *Edit Queue Type* view.   
+The list displays all queue types. All fields are read-only. Depending on the settings, the displayed columns may vary. Click a queue type in the list to display the *Edit queue type* view.   
 For detailed information, see [Edit a queue type](/ActindoWorkFlow/Integration/01_ConfigureQueueTypes.md#edit-a-queue-type).
 
 
@@ -48,19 +48,19 @@ For detailed information, see [Edit a queue type](/ActindoWorkFlow/Integration/0
 
 
 - ![Add](/Assets/Icons/Plus01.png "[Add]") (Add)   
-  Click this button to create a queue type. The *Create Queue Type* view is displayed.   
+  Click this button to create a queue type. The *Create queue type* view is displayed.   
   For detailed information, see [Create a queue type](/ActindoWorkFlow/Integration/01_ConfigureQueueTypes.md#create-a-queue-type).
 
 
 
-## Create Queue Type
+## Create queue type
 
 *Workflows > Queue Types > Tab OVERVIEW > Button Add*
 
 ![Create queue type](/Assets/Screenshots/ActindoWorkFlow/QueueTypes/CreateQueueType.png "[Create queue types]")
 
 - ![Back](/Assets/Icons/Back02.png "[Back]") (Back)   
-  Click this button to close the *Create Queue Type* view and return to the queue type list. All changes are rejected.
+  Click this button to close the *Create queue type* view and return to the queue type list. All changes are rejected.
 
 - [SAVE]   
   Click this button to save the new queue type.
@@ -74,14 +74,14 @@ For detailed information, see [Edit a queue type](/ActindoWorkFlow/Integration/0
   > [Info] The number of workers you can assign to queue types depends on the number of booked vCores. For one worker, 4 vCores are needed. Additionally, 10 % of the booked vCores, but at least 4 vCores are blocked for the daily business and cannot be used for workers. The number of vCores needed always refers to the total number of workers in all queue types. For example, for a queue type with 2 workers and a queue type of 4 workers, 28 vCores are needed:    
   *4 vCores per worker (4 * 6 = 24) plus 4 vCores blocked for the daily business (24 + 4 = 28)*
 
-- *Execution Prio*   
+- *Execution priority*   
   Click the drop-down list and select the execution priority for the queue type. The following options are available:
   - **Oldest executable action**: The oldest executable actions within all existing processes is executed first by the workers.
   - **Executable actions of oldest process**: The executable actions within the oldest process are executed first by the workers.
 
 
 
-## Edit Queue Type
+## Edit queue type
 
 *Workflows > Queue Types > Tab OVERVIEW > Select queue type*
 
@@ -89,7 +89,7 @@ For detailed information, see [Edit a queue type](/ActindoWorkFlow/Integration/0
 
 
 - ![Back](/Assets/Icons/Back02.png "[Back]") (Back)   
-  Click this button to close the *Edit Queue Type* view and return to the queue type list. All changes are rejected.
+  Click this button to close the *Edit queue type* view and return to the queue type list. All changes are rejected.
 
 - [SAVE]   
   Click this button to save all changes to the queue type.
@@ -104,7 +104,7 @@ For detailed information, see [Edit a queue type](/ActindoWorkFlow/Integration/0
   > [Info] The number of workers you can assign to queue types depends on the number of booked vCores. For one worker, 4 vCores are needed. Additionally, 10 % of the booked vCores, but at least 4 vCores are blocked for the daily business and cannot be used for workers. The number of vCores needed always refers to the total number of workers in all queue types. For example, for a queue type with 2 workers and a queue type of 4 workers, 28 vCores are needed:   
   *4 vCores per worker (4 * 6 = 24) plus 4 vCores blocked for the daily business (24 + 4 = 28)*
 
-- *Execution Prio*   
+- *Execution priority*   
   Click the drop-down list to change the execution priority for the queue type. The following options are available:
   - **Oldest executable action**: The oldest executable actions within all existing processes is executed first by the workers.
   - **Executable actions of oldest process**: The executable actions within the oldest process are executed first by the workers.

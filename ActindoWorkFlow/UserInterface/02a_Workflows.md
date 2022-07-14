@@ -62,10 +62,10 @@ The list displays all workflows. Depending on the settings, the displayed column
 - *Key*  
   Workflow key. The key is required for API access and must be unique within the workflow version.
 
-- *Highest Version*  
+- *Highest version*  
   Highest existing version of the workflow.
 
-- *Highest Published Version*  
+- *Highest published version*  
   Highest published version of the workflow.
 
 - *ID*  
@@ -73,11 +73,11 @@ The list displays all workflows. Depending on the settings, the displayed column
 
 
 - ![Add](/Assets/Icons/Plus01.png "[Add]") (Add)  
-Click this button to create a workflow. The *New Workflow* window is displayed, see [New Workflow](#new-workflow). For detailed information, see [Create a workflow](/ActindoWorkFlow/Operation/01_ManageWorkflows.md#create-a-workflow).
+Click this button to create a workflow. The *New workflow* window is displayed, see [New workflow](#new-workflow). For detailed information, see [Create a workflow](/ActindoWorkFlow/Operation/01_ManageWorkflows.md#create-a-workflow).
 
 
 
-## New Workflow
+## New workflow
 
 *Workflows > Workflows > Tab OVERVIEW > Button Add*
 
@@ -107,23 +107,23 @@ Enter the name of the end place or a keyword to search for and select the approp
     Click this button to clear the search bar field for the end place.
 
 - [CANCEL]  
-Click this button to cancel creating a new workflow. The *New Workflow* window is closed.
+Click this button to cancel creating a new workflow. The *New workflow* window is closed.
 
 - [CREATE]  
 Click this button to create a new workflow. The workflow editor with the defined start and end places is displayed.
 
 
 
-## Workflow Versions
+## Workflow versions
 
 *Workflows > Workflows > Tab OVERVIEW > Select workflow*
 
 [comment]: <> (subject/path to change, but correct for now -> check in the future)
 
-![Workflow Versions](/Assets/Screenshots/ActindoWorkFlow/Workflows/WorkflowVersions.png "[Workflow Versions]")
+![Workflow versions](/Assets/Screenshots/ActindoWorkFlow/Workflows/WorkflowVersions.png "[Workflow versions]")
 
 - ![Back](/Assets/Icons/Back02.png "[Back]") (Back)  
-Click this button to close the *Workflow Versions* view and return to the *Workflows* view.
+Click this button to close the *Workflow versions* view and return to the *Workflows* view.
 
 - *VIEW*  
 Click the drop-down list to select the view. All created views are displayed in the drop-down list. Click the ![Points](/Assets/Icons/Points01.png "[Points]") (Points) button to the right of the *VIEW* drop-down list to display the context menu and create a view. For detailed information, see [Create view](#create-view).
@@ -192,42 +192,6 @@ Select the checkbox to display the editing toolbar.
 
 - [UNPUBLISH]    
   Click this button to unpublish a workflow version. This button is only displayed if the selected workflow version is published. For detailed information, see [Unpublish a workflow](/ActindoWorkFlow/Operation/01_ManageWorkflows.md#unpublish-a-workflow).
-
-
-
-## Create view
-
-*Workflows > Workflows > Tab OVERVIEW > Button Points > Menu entry create*
-
-![Create view](/Assets/Screenshots/ActindoWorkFlow/Workflows/CreateView.png "[Create view]")
-
-
-- *Name*  
-Enter a name for the view.
-
-- [CANCEL]  
-Click this button to cancel creating a view. The *Create view* window is closed.
-
-- [SAVE]  
-Click this button to save the new view. The *Create view* window is closed. The view is saved and displayed in the *View* drop-down list.
-
-
-
-## Rename view
-
-*Workflows > Processes > Tab OVERVIEW > Button Points > Menu entry rename*
-
-![Rename view](/Assets/Screenshots/ActindoWorkFlow/Workflows/RenameView.png "[Rename view]")
-
-
-- *Name*  
-Click the field to edit the view name.
-
-- [CANCEL]  
-Click this button to cancel renaming a view. The *Rename view* window is closed.
-
-- [SAVE]  
-Click this button to save the changes to the view name. The *Rename view* window is closed. The new name for the view is saved and displayed in the *View* drop-down list.
 
 
 
@@ -393,3 +357,39 @@ For detailed information about adding a transition, see [Create an action](Actin
 
 - ![Delete](/Assets/Icons/Cross02.png "[Delete]") (Delete)  
 Click this button to clear the search bar field.
+
+
+
+## Create view
+
+*Workflows > Workflows > Tab OVERVIEW > Button Points > Menu entry create*
+
+![Create view](/Assets/Screenshots/ActindoWorkFlow/Workflows/CreateView.png "[Create view]")
+
+
+- *Name*  
+Enter a name for the view.
+
+- [CANCEL]  
+Click this button to cancel creating a view. The *Create view* window is closed.
+
+- [SAVE]  
+Click this button to save the new view. The *Create view* window is closed. The view is saved and displayed in the *View* drop-down list.
+
+
+
+## Rename view
+
+*Workflows > Processes > Tab OVERVIEW > Button Points > Menu entry rename*
+
+![Rename view](/Assets/Screenshots/ActindoWorkFlow/Workflows/RenameView.png "[Rename view]")
+
+
+- *Name*  
+Click the field to edit the view name.
+
+- [CANCEL]  
+Click this button to cancel renaming a view. The *Rename view* window is closed.
+
+- [SAVE]  
+Click this button to save the changes to the view name. The *Rename view* window is closed. The new name for the view is saved and displayed in the *View* drop-down list.

@@ -17,12 +17,12 @@ You may check the availability of a certain account number before creating it as
 Each account number is assigned to a specific number range, which indicates the account class.    
 For detailed information about the account classes, see [User Interface Accounting](/RetailSuiteAccounting/UserInterface/00_UserInterface.md).
 
-### Prerequisites
+#### Prerequisites
 
 - The accounting is configured via the configuration wizard.
 - A valid fiscal year is created.
 
-### Procedure
+#### Procedure
 
 *Accounting > Select the fiscal year > Settings > Tab ACCOUNTS*
 
@@ -33,33 +33,17 @@ For detailed information about the account classes, see [User Interface Accounti
 
 2. Check which account numbers are still available by navigating through the list.
 
-### Next steps
-
-- [Create an account](#create-an-account)
-- [Configure the printer for POS](03_ConfigurePrinter.md)
-- [Assign users to the POS groups](04_AssignUsers.md)
-- [Configure the global settings for POS](05_ConfigureGlobalSettings.md)
-- [Create a store in POS](06_CreateStore.md)
-- [Manage offers for POS](07_ManageOffers.md)
-- [Manage the POS warehouse](08_ManageWarehouse.md)  
-
-### See also
-
-- [User Interface Accounting](/RetailSuiteAccounting/UserInterface/00_UserInterface.md)
-- [Configure the warehouse for POS](01_ConfigureWarehouse.md)
-- [Assign the accounts](06_CreateStore.md#assign-the-accounts)
-- [Manage the POS order process](/POS/Operation/06_ManageOrderProcess.md)
 
 
 ## Create an account
 
 To connect the POS system with accounting, create accounts for your POS store.
 
-### Prerequisites
+#### Prerequisites
 
 The account availability is checked, see [Check the account availability](#check-the-account-availability).
 
-### Procedure
+#### Procedure
 
 *Accounting > Select the fiscal year > Settings > Tab ACCOUNTS*
 
@@ -79,18 +63,9 @@ The account availability is checked, see [Check the account availability](#check
 
 > [Info] Repeat this procedure for each account you want to create.
 
-### Next steps
 
-- [Configure the printer for POS](03_ConfigurePrinter.md)
-- [Assign users to the POS groups](04_AssignUsers.md)
-- [Configure the global settings for POS](05_ConfigureGlobalSettings.md)
-- [Create a store in POS](06_CreateStore.md)
-- [Manage offers for POS](07_ManageOffers.md)
-- [Manage the POS warehouse](08_ManageWarehouse.md)  
 
-### See also
+## Related content
 
 - [User Interface Accounting](/RetailSuiteAccounting/UserInterface/00_UserInterface.md)
-- [Configure the warehouse for POS](01_ConfigureWarehouse.md)
-- [Assign the accounts](06_CreateStore.md#assign-the-accounts)
 - [Manage the POS order process](/POS/Operation/06_ManageOrderProcess.md)

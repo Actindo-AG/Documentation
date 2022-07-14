@@ -2,16 +2,16 @@
 
 # Remove an inactive cashier from the pay desk
 
-## Error Description
+#### Error description
 A cashier forgot to unassign form a pay desk. The pay desk is locked and cannot be operated by other cashiers.
 
 Follow the instructions below to remove the inactive cashier from the pay desk and unlock the pay desk for the other cashiers.
 
-## Prerequisites
+#### Prerequisites
 
 You have at least store manager rights in the respective store.
 
-## Procedure
+#### Procedure
 
 *Venduo POS > Management > Tab STORES > Select Store*
 
@@ -31,9 +31,11 @@ You have at least store manager rights in the respective store.
 > [Warning] Remove a cashier from the pay desk only when you are sure that the cashier is no longer using the pay desk. All uncompleted transactions are lost when the cashier is removed. The process cannot be undone.
 
 
-## See also
 
-- [User Interface Venduo POS](/POS/UserInterface/00_UserInterface.md)
+## Related content
+
+[User Interface Venduo POS](/POS/UserInterface/00_UserInterface.md)
+
 
 
 ## Was this chapter helpful?
