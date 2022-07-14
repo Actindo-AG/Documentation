@@ -8,12 +8,12 @@ Manage the warehouse settings to assign one or more specific warehouses to the P
 
 Check if the stock allocation is correctly configured so that the store stock is correctly assigned to the warehouse. The stock source specifies how the stock available in the POS system is calculated. In most cases, the stock source and the warehouse are identical, but they can also differ.   
 
-### Prerequisites
+#### Prerequisites
 
 - A POS store is created, see [Create a store](06_CreateStore.md).
 - The stock allocation is configured, see [Configure the stock allocation](06_CreateStore.md#configure-the-stock-allocation).
 
-### Procedure
+#### Procedure
 
 *Warehouse > Settings > Tab WAREHOUSE > Tab Stock allocation*
 
@@ -22,7 +22,7 @@ Check if the stock allocation is correctly configured so that the store stock is
 1.  Search for the target channel of the appropriate POS store in the *Target channel* column and check the settings in the corresponding row.
 
 2. If necessary, edit the settings as described in the following:
-  - Select the **Calculation, Stock** option in the drop-down list in the *Stock calculation* column.   
+  - Select the **Calculation, stock** option in the drop-down list in the *Stock calculation* column.   
     The fields in the warehouse columns are unlocked.
 
   - Double-click the option in a warehouse column to display the drop-down list.
@@ -34,35 +34,18 @@ Check if the stock allocation is correctly configured so that the store stock is
 3. Click the [SAVE] button in the bottom right corner.   
   The stock allocation is saved. The stock is calculated from all selected warehouses.
 
-### Next steps
-
-- [Check the stock withdrawal matrix](#check-the-stock-withdrawal-matrix)
-- [Manage the warehouse logistics for POS products](#manage-the-warehouse-logistics-for-pos-products)
-- [Manage the stock for POS products](#manage-the-stock-for-pos-products)
-
-### See also
-
-- [User Interface Warehouse](/RetailSuiteWarehousing/UserInterface/00_UserInterface.md)
-- [Create a warehouse](to_be_completed)
-- [Configure the warehouse for POS](01_ConfigureWarehouse.md)
-- [Manage the accounts for POS](02_ManageAccounts.md)
-- [Configure the printer for POS](03_ConfigurePrinter.md)
-- [Assign users to the POS groups](04_AssignUsers.md)
-- [Configure the global settings for POS](05_ConfigureGlobalSettings.md)
-- [Create a store in POS](06_CreateStore.md)
-- [Manage offers for POS](07_ManageOffers.md)
 
 
 ## Check the stock withdrawal matrix
 
 Check if the stock withdrawal matrix is correctly configured so that a specific warehouse is assigned to a specific store in POS.
 
-### Prerequisites
+#### Prerequisites
 
 - A POS store is created, see [Create a store](06_CreateStore.md).
 - The stock withdrawal matrix is configured, see [Configure the stock withdrawal matrix](06_CreateStore.md#configure-the-stock-withdrawal-matrix).
 
-### Procedure
+#### Procedure
 
 *Warehouse > Settings > Tab WAREHOUSE > Tab Stock withdrawal matrix*
 
@@ -85,35 +68,18 @@ Check if the stock withdrawal matrix is correctly configured so that a specific 
 3. Click the button [SAVE ASSIGNMENTS] in the bottom right corner.   
   The new assignment in the stock withdrawal matrix is saved.
 
-### Next steps
-
-- [Manage the warehouse logistics for POS products](#manage-the-warehouse-logistics-for-pos-products)
-- [Manage the stock for POS products](#manage-the-stock-for-pos-products)
-
-### See also
-
-- [User Interface Warehouse](/RetailSuiteWarehousing/UserInterface/00_UserInterface.md)
-- [Create a warehouse](to_be_completed)
-- [Check the stock allocation](#check-the-stock-allocation)
-- [Configure the warehouse for POS](01_ConfigureWarehouse.md)
-- [Manage the accounts for POS](02_ManageAccounts.md)
-- [Configure the printer for POS](03_ConfigurePrinter.md)
-- [Assign users to the POS groups](04_AssignUsers.md)
-- [Configure the global settings for POS](05_ConfigureGlobalSettings.md)
-- [Create a store in POS](06_CreateStore.md)
-- [Manage offers for POS](07_ManageOffers.md)
 
 
 ## Manage the warehouse logistics for POS products
 
 Manage the warehouse logistics for POS product to ensure that products are active for warehousing.
 
-### Prerequisites
+#### Prerequisites
 
 - A POS store is created, see [Create a store](06_CreateStore.md).
 - A POS offer is created, see [Create an offer for POS](07_ManageOffers.md#create-an-offer-for-pos).
 
-### Procedure
+#### Procedure
 
 *Warehouse > Quick Booking > Tab QUICK BOOKING > Tab Product list*
 
@@ -132,37 +98,20 @@ Manage the warehouse logistics for POS product to ensure that products are activ
 
   ![Successfully saved](/Assets/Screenshots/RetailSuiteWarehousing/QuickBooking/SuccessfullySaved.png "[Successfully saved]")
 
-### Next steps
-
-- [Manage the stock for POS products](#manage-the-stock-for-pos-products)
-
-### See also
-
-- [User Interface Warehouse](/RetailSuiteWarehousing/UserInterface/00_UserInterface.md)
-- [Create a warehouse](to_be_completed)
-- [Check the stock allocation](#check-the-stock-allocation)
-- [Check the stock withdrawal matrix](#check-the-stock-withdrawal-matrix)
-- [Configure the warehouse for POS](01_ConfigureWarehouse.md)
-- [Manage the accounts for POS](02_ManageAccounts.md)
-- [Configure the printer for POS](03_ConfigurePrinter.md)
-- [Assign users to the POS groups](04_AssignUsers.md)
-- [Configure the global settings for POS](05_ConfigureGlobalSettings.md)
-- [Create a store in POS](06_CreateStore.md)
-- [Manage offers for POS](07_ManageOffers.md)
 
 
 ## Manage the stock for POS products
 
 You can adjust the stock quantity of your POS products, for instance because of a stock, a purchasing or an ordering.
 
-### Prerequisites
+#### Prerequisites
 
 - A POS store is created, see [Create a store](06_CreateStore.md).
 - A POS offer is created, see [Create an offer for POS](07_ManageOffers.md#create-an-offer-for-pos).
 - The warehouse logistics for the POS article is active, see [Manage the warehouse logistics for POS products](#manage-the-warehouse-logistics-for-pos-products).
 - A warehouse with a defined shelf is assigned to the POS product.
 
-### Procedure
+#### Procedure
 
 *Warehouse > Quick Booking > Tab QUICK BOOKING > Tab Product list*
 
@@ -215,21 +164,8 @@ You can adjust the stock quantity of your POS products, for instance because of 
 5. Click the [SAVE & NEW] button in the bottom right corner of the window.   
   The window is closed. The new stock is displayed in the *Stocks* section.
 
-### Next Steps
 
-- [Open a pay desk](POS/Operation/01_OpenPayDesk.md)
-
-### See also
+## Related content
 
 - [User Interface Warehouse](/RetailSuiteWarehousing/UserInterface/00_UserInterface.md)
-- [Create a warehouse](to_be_completed)
-- [Check the stock allocation](#check-the-stock-allocation)
-- [Check the stock withdrawal matrix](#check-the-stock-withdrawal-matrix)
-- [Manage the warehouse logistics for POS products](#manage-the-warehouse-logistics-for-pos-products)
 - [Configure the warehouse for POS](01_ConfigureWarehouse.md)
-- [Manage the accounts for POS](02_ManageAccounts.md)
-- [Configure the printer for POS](03_ConfigurePrinter.md)
-- [Assign users to the POS groups](04_AssignUsers.md)
-- [Configure the global settings for POS](05_ConfigureGlobalSettings.md)
-- [Create a store in POS](06_CreateStore.md)
-- [Manage offers for POS](07_ManageOffers.md)

@@ -17,16 +17,16 @@ The users that belong to a POS group must be assigned to a pay desk or store in 
 
 [comment]: <> (The following How-To Guide is not specific for POS and may be reused)
 
-### Prerequisites
+#### Prerequisites
 
 - The users have been created, see [Register a user](to_be_completed).
 - You have the system admin rights to assign users to a group.
 
-### Procedure
+#### Procedure
 
-*settings > Users and Groups > Tab GROUP MANAGEMENT*
+*Settings > Users and Groups > Tab GROUP MANAGEMENT*
 
-  ![Groups](/Assets/Screenshots/Settings/UsersGroups/GroupManagement/Groups.png "[Groups]")
+  ![Group management](/Assets/Screenshots/Settings/UsersGroups/GroupManagement/GroupManagement.png "[Group management]")
 
 1. Select the checkbox of the group you want to assign the users to in the list of groups.   
   The editing toolbar is displayed above the list.
@@ -61,17 +61,8 @@ The users that belong to a POS group must be assigned to a pay desk or store in 
     ![Group saved](/Assets/Screenshots/Settings/UsersGroups/GroupManagement/GroupSaved.png "[Group saved]")
 
 
-## Next Steps
 
-- [Configure the global settings for POS](05_ConfigureGlobalSettings.md)
-- [Create a store in POS](06_CreateStore.md)
-- [Manage offers for POS](07_ManageOffers.md)
-- [Manage the POS warehouse](08_ManageWarehouse.md)  
-
-## See also
+## Related content
 
 - [User Interface Settings](/Settings/UserInterface/00_UserInterface.md)
 - [Register a user](to_be_completed)
-- [Configure the warehouse for POS](01_ConfigureWarehouse.md)
-- [Manage the accounts for POS](02_ManageAccounts.md)
-- [Configure the printer for POS](03_ConfigurePrinter.md)

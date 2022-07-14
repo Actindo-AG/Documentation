@@ -4,11 +4,11 @@
 
 *Workflows > Process Actions > Tab OVERVIEW*
 
-[comment]: <> (vor nächster Version prüfen, möglicher neuer Pfad: *Workflows > Process Actions > Tab PROCESS ACTIONS*)
+[comment]: <> (vor nächster Version prüfen, möglicher neuer Pfad: *Workflows > Process actions > Tab PROCESS ACTIONS*)
 
 ![Actions](/Assets/Screenshots/ActindoWorkFlow/ProcessActions/ProcessActions.png "[Actions]")
 
-**Actions**
+**Process actions**
 - *VIEW*  
 Click the drop-down list to select the view. All created views are displayed in the drop-down list. Click the ![Points](/Assets/Icons/Points01.png "[Points]") (Points) button to the right of the *VIEW* drop-down list to display the context menu and create a view. For detailed information, see [Create view](#create-view).
 
@@ -90,11 +90,11 @@ The list displays all actions that are matching the selected status. Depending o
   - ![Retry](/Assets/Icons/Retry01.png "[Retry]") (Retry)  
     Click this button to retry the action. This button is displayed when the action status is *Error*.
   - ![Suspend](/Assets/Icons/Pause.png "[Suspend]") (Suspend)  
-    Click this button to suspend the action temporarily. This button is displayed when the action status is *In Progress*. When clicking this button, the action status changes to *Suspended*.
+    Click this button to suspend the action temporarily. This button is displayed when the action status is *In progress*. When clicking this button, the action status changes to *Suspended*.
   - ![Start](/Assets/Icons/Play.png "[Start]") (Start)  
-    Click this button to resume the action. This button is displayed when the action status is *Suspended*. When clicking this button, the action status changes again to *In Progress*. The warning sign in the *Suspended Actions* column of the *Processes* view is no longer displayed.
+    Click this button to resume the action. This button is displayed when the action status is *Suspended*. When clicking this button, the action status changes again to *In progress*. The warning sign in the *Suspended actions* column of the *Processes* view is no longer displayed.
   - [REMOVE DEFER TIME]  
-    Click this button to skip the defer time preconfigured in the action, if any. The action is then executed immediately. This button is displayed when the action status is *In Progress*.
+    Click this button to skip the defer time preconfigured in the action, if any. The action is then executed immediately. This button is displayed when the action status is *In progress*.
 
     > [Info] The defer time is preconfigured pro action in the system. If the defer time is removed once, the action is executed immediately. If the action gives an error again, it will be retried once that preconfigured defer time has elapsed.
 
