@@ -4,11 +4,11 @@
 
 Define in the logging settings how long the different log types are stored. By default, all logs are automatically deleted after one day. You can edit the log lifetime and define a custom lifetime.
 
-## Prerequisites
+#### Prerequisites
 
 No prerequisites to fulfill.
 
-## Procedure
+#### Procedure
 
 *Workflows > Settings > Tab SETTINGS*
 
@@ -23,6 +23,7 @@ No prerequisites to fulfill.
   - Notice-log lifetime
   - Info-log lifetime
   - Debug-log lifetime
+
 
   The lifetime view of the selected log type is displayed on the right side.
 
@@ -42,7 +43,8 @@ No prerequisites to fulfill.
 
   ![Saving successful](/Assets/Screenshots/ActindoWorkFlow/Settings/SavingSuccessful.png "[Saving successful]")
 
-## See also
 
-- [User Interface workflows](/ActindoWorkFlow/UserInterface/00_UserInterface.md)
-- [Configure the queue types](01_ConfigureQueueTypes.md)
+
+## Related content
+
+[User Interface logging settings](/ActindoWorkFlow/UserInterface/07a_Settings.md)

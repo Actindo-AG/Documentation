@@ -11,11 +11,11 @@ Trace the POS order process by checking the order status, the cash invoice and t
 
 Check the POS order in Omni-Channel to see its current status.
 
-### Prerequisites
+#### Prerequisites
 
 An order has been completed in POS, see [Complete a purchase](04_CompletePurchase.md).
 
-### Procedure
+#### Procedure
 
 *Omni-Channel > Orders and Returns > Tab ORDERS*
 
@@ -23,7 +23,7 @@ An order has been completed in POS, see [Complete a purchase](04_CompletePurchas
 
  > [Info] The ordering process is performed asynchronously. That means that it may take a few minutes until the POS order is displayed in the order list in the *Omni-Channel* module. If the POS order is not yet displayed, click the ![Refresh](/Assets/Icons/Refresh01.png "[Refresh]") (Refresh) button in the upper right corner to update the order list.
 
-1. Check the *Status of Import from Channel* column.   
+1. Check the *Status of import from channel* column.   
     The following table shows the possible statuses and their meaning.
 
     | Status         | Meaning               |
@@ -34,7 +34,7 @@ An order has been completed in POS, see [Complete a purchase](04_CompletePurchas
 
 [comment]: <> (Are there other statuses? Meaning?)
 
-2. Check the *Status of Export to Channel* column.   
+2. Check the *Status of export to channel* column.   
     The following table shows the possible statuses and their meaning.
 
     | Status         | Meaning               |
@@ -44,7 +44,7 @@ An order has been completed in POS, see [Complete a purchase](04_CompletePurchas
 
 [comment]: <> (Are there other statuses? Meaning?)
 
-3. Check the *Status of Export to OMS* column.   
+3. Check the *Status of export to OMS* column.   
     The following table shows the possible statuses and their meaning.
 
     | Status         | Meaning               |
@@ -60,27 +60,17 @@ An order has been completed in POS, see [Complete a purchase](04_CompletePurchas
 
 [comment]: <> (Are there other important columns to check?)
 
-### Next steps
-
-- [Check the cash invoice](#check-the-cash-invoice)
-- [Check the payment](#check-the-payment)
-
-### See also
-
-- [User Interface Omni-Channel](/Channels/UserInterface/00_UserInterface.md)
-- [Manage offers for POS](07_ManageOffers.md)
-
 
 
 ## Check the cash invoice
 
 Check the cash invoice in invoicing to see its current status.
 
-### Prerequisites
+#### Prerequisites
 
 An order has been completed in POS, see [Complete a purchase](04_CompletePurchase.md).
 
-### Procedure
+#### Procedure
 
 *Invoicing > Overview > Tab OVERVIEW*
 
@@ -114,27 +104,16 @@ An order has been completed in POS, see [Complete a purchase](04_CompletePurchas
  > [Info] Note that changes you made in the documents are not synced back to the *Venduo POS* module.
 
 
-### Next steps
-
-- [Check the payment](#check-the-payment)
-
-### See also
-
-- [User Interface Invoicing](/RetailSuiteFaktBase/UserInterface/00_UserInterface.md)
-- [Check the POS order status](#check-the-pos-order-status)
-- [Manage offers for POS](07_ManageOffers.md)
-
-
 
 ## Check the payment
 
 Check the current status of the booking and its payment.
 
-### Prerequisites
+#### Prerequisites
 
 An order has been completed in POS, see [Complete a purchase](04_CompletePurchase.md).
 
-### Procedure
+#### Procedure
 
 *Venduo POS > Management > Tab ACCOUNTING SYNC*
 
@@ -154,10 +133,11 @@ An order has been completed in POS, see [Complete a purchase](04_CompletePurchas
 
 4. Check the payment status of the invoice in the *Paid* column.
 
-### See also
 
-- [User Interface Venduo POS](/POS/UserInterface/00_UserInterface.md)
+
+## Related content
+
+- [User Interface Accounting sync](/POS/UserInterface/02d_AccountingSync.md)
+- [User Interface Omni-Channel](/Channels/UserInterface/00_UserInterface.md)
 - [User Interface Invoicing](/RetailSuiteFaktBase/UserInterface/00_UserInterface.md)
-- [Check the POS order status](#check-the-pos-order-status)
 - [Manage offers for POS](07_ManageOffers.md)
-- [Check the cash invoice](#check-the-cash-invoice)
