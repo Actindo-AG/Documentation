@@ -1,4 +1,7 @@
 [!!Core1 Platform](Core1Platform)
+[!!Set up U2F from the user side](/Core1Platform/MFA/Integration/01_UserSetupActindo.md)
+[!!Set up U2F from the administrator side](/Core1Platform/MFA/Integration/02_AdminSetupActindo.md)
+
 
 # Log in via SSO
 
@@ -42,10 +45,3 @@ After SSO has been enabled for your Actindo account, you will use SSO from your 
   The login via Azure AD is completed. The browser window with the Microsoft login box is automatically closed. You are logged in to your Actindo account after a few moments.
 
 > [Info] If U2F is configured for Actindo, you are not directly logged in to you account but the Actindo login box is displayed again, and you must continue the login via U2F authorization. For detailed information about the login via U2F, see [Log in via U2F](/Core1Platform/MFA/Operation/01_U2FLogin.md).
-
-
-
-## Related content
-
-- [Set up U2F from the user side](/Core1Platform/MFA/Integration/01_UserSetupActindo.md)
-- [Set up U2F from the administrator side](/Core1Platform/MFA/Integration/02_AdminSetupActindo.md)

@@ -1,4 +1,6 @@
 [!!Core1 Platform](Core1Platform)
+[!!Set up U2F from the administrator side](02_AdminSetupActindo.md)
+[!!User Interface Profile settings](/Core1Platform/UserInterface/01d_U2F.md)
 
 # Set up U2F from the user side
 
@@ -69,10 +71,3 @@ For the U2F setup of an Actindo account, a user-side setup as well as an adminis
    The U2F key is added to the list of keys and displayed in the *U2F* tab. The user side setup for U2F is completed.
 
 > [Info] Note that the U2F login needs also to be activated by an administrator to be used for the Actindo U2F login.
-
-
-
-## Related content
-
-- [Set up U2F from the administrator side](02_AdminSetupActindo.md)
-- [User Interface Profile settings](/Core1Platform/UserInterface/01d_U2F.md)

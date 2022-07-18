@@ -1,4 +1,6 @@
 [!!Core1 Platform](Core1Platform)
+[!!Set up U2F from the user side](01_UserSetupActindo.md)
+[!!User Interface User management](/Settings/UserInterface/00_UserInterface.md)
 
 # Set up U2F from the administrator side
 
@@ -30,10 +32,3 @@ For the U2F setup of an Actindo account, a user-side setup as well as an adminis
   ![Actindo dashboard](/Assets/Screenshots/ActindoDashboard/ActindoDashboard.png "[Actindo dashboard]")
 
 > [Info] You can repeat this procedure for all users for whom you want to activate U2F. Note that the U2F login needs also to be setup by the corresponding user to be used for the Actindo U2F login.
-
-
-
-## Related content
-
-- [Set up U2F from the user side](01_UserSetupActindo.md)
-- [User Interface User management](/Settings/UserInterface/00_UserInterface.md)

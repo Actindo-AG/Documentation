@@ -1,4 +1,6 @@
 [!!Core1 Platform](Core1Platform)
+[!!Set up U2F from the user side](/Core1Platform/MFA/Integration/01_UserSetupActindo.md)
+[!!Set up U2F from the administrator side](/Core1Platform/MFA/Integration/02_AdminSetupActindo.md)
 
 # Log in via U2F
 
@@ -45,10 +47,3 @@ After U2F has been configured for your Actindo account, you will use U2F from yo
 
 6. Touch the flashing area on your *YubiKey* .   
   The browser window is closed. You are logged in to your account after a few moments.  
-
-
-
-## Related content
-
-- [Set up U2F from the user side](/Core1Platform/MFA/Integration/01_UserSetupActindo.md)
-- [Set up U2F from the administrator side](/Core1Platform/MFA/Integration/02_AdminSetupActindo.md)

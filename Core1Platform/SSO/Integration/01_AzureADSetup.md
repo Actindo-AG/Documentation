@@ -190,7 +190,3 @@ For the SSO setup in Azure AD, it is required to configure several settings in A
 8. Copy the *OAuth 2.0 authorization endpoint (v2)* and the *OAuth 2.0 token endpoint (v2)* by clicking the ![Copy](/Assets/Icons/Copy01.png "[Copy]") (Copy) button in the corresponding column and save these endpoints in a secure location.
 
   > [Info] The *OAuth 2.0 authorization endpoint (v2)* and the *OAuth 2.0 token endpoint (v2)* are needed by Actindo for the SSO configuration.
-
-
-
-## Related content

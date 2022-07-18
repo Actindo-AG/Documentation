@@ -58,7 +58,3 @@ For the SSO setup in Azure AD, it is required to configure several settings in A
 11. Copy the data in the columns *userPrincipalName* and *Id* for all users that will use SSO and save this data in a secure location.   
 
   > [Info] The *UserPrincipalName* and the *Id* of each user are needed by Actindo for the SSO configuration.
-
-
-
-## Related content

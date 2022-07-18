@@ -1,3 +1,7 @@
+[!!Set up SSO in Azure AD](01_AzureADSetup.md)
+[!!Provide user data for SSO](02_ProvideUserData.md)
+
+
 # Transfer data to Actindo
 
 After the organization side configuration for SSO in Azure AD, Actindo needs to configure further settings to enable SSO. Therefore, a certain set of required data from the organization must be transferred to Actindo to complete the SSO configuration.
@@ -18,11 +22,4 @@ After the organization side configuration for SSO in Azure AD, Actindo needs to 
 - OAuth 2.0 authorization endpoint (v2) and OAuth 2.0 token endpoint (v2)
 
 3. Send the ticket with the required data to Actindo.   
-  The SSO for Actindo will be configured. 
-
-
-
-## Related content
-
-- [Set up SSO in Azure AD](01_AzureADSetup.md)
-- [Provide user data for SSO](02_ProvideUserData.md)
+  The SSO for Actindo will be configured.
