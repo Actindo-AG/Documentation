@@ -1,4 +1,6 @@
-[!!Venduo POS](POS)
+[!!User Interface Cashpoint](/POS/UserInterface/01a_Cashpoint.md)
+[!!Manage offers for POS](/POS/Integration/07_ManageOffers.md)
+
 
 # Select an offer
 
@@ -117,10 +119,3 @@ Even if the single scan function is active, you can edit the quantity of product
 
 3. Select the same offer again.   
   The same product is listed in an own entry in the bill list.
-
-
-
-## Related content
-
-- [User Interface Cashpoint](/POS/UserInterface/01a_Cashpoint.md)
-- [Manage offers for POS](/POS/Integration/07_ManageOffers.md)

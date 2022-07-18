@@ -1,4 +1,6 @@
 [!!Settings](Settings)
+[!!User Interface Settings](/Settings/UserInterface/00_UserInterface.md)
+
 
 # Establish the RetailSuite connection
 
@@ -93,12 +95,6 @@ If the connection to the Retailsuite is not working, there could be a problem wi
   ![Apply changes](/Assets/Screenshots/Settings/PlatformManager/ApplyChanges.png "[Apply changes]")
 
 6. Press **F5** to initialize the Core1 Platform.
-
-
-
-## Related content
-
-[User Interface Settings](/Settings/UserInterface/00_UserInterface.md)
 
 
 

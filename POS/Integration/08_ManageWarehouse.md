@@ -1,4 +1,7 @@
 [!!Warehouse](RetailSuiteWarehousing)
+[!!User Interface Warehouse](/RetailSuiteWarehousing/UserInterface/00_UserInterface.md)
+[!!Configure the warehouse for POS](01_ConfigureWarehouse.md)
+
 
 # Manage the POS warehouse
 
@@ -163,9 +166,3 @@ You can adjust the stock quantity of your POS products, for instance because of 
 
 5. Click the [SAVE & NEW] button in the bottom right corner of the window.   
   The window is closed. The new stock is displayed in the *Stocks* section.
-
-
-## Related content
-
-- [User Interface Warehouse](/RetailSuiteWarehousing/UserInterface/00_UserInterface.md)
-- [Configure the warehouse for POS](01_ConfigureWarehouse.md)
