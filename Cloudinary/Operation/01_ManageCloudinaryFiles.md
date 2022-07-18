@@ -1,5 +1,7 @@
-[!!Cloudinary](Cloudinary)
 [!!PIM](PIM)
+[!!User Interface PIM](/PIM/UserInterface/00_UserInterface.md)
+[!!Manage the Cloudinary attributes](/Cloudinary/Integration/02_ManageCloudinaryAttributes.md)
+
 
 # Manage the Cloudinary files
 
@@ -178,10 +180,3 @@ At least one Cloudinary file is assigned to the PIM product.
 
 6.  Click the [SAVE] button in the upper right corner of the *Edit product* view.    
   The image assignment removal is saved. The *Edit product* view is closed.
-
-
-
-## Related content
-
-- [User Interface PIM](/PIM/UserInterface/00_UserInterface.md)
-- [Manage the Cloudinary attributes](/Cloudinary/Integration/02_ManageCloudinaryAttributes.md)

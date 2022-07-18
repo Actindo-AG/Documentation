@@ -1,6 +1,8 @@
-[!!Cloudinary](Cloudinary)
 [!!DataHub](DataHub)
-
+[!!User Interface DataHub](/DataHub/UserInterface/00_UserInterface.md)
+[!!Manage the ETL mappings](/DataHub/Operation/01_ManageETLMappings.md)
+[!!ETL extensions list](/DataHub/UserInterface/03_ETLExtensions.md)
+[!!Data type list](/PIM/UserInterface/04_DataTypeList.md)
 
 # Map a Cloudinary file
 
@@ -130,12 +132,3 @@ Map a certain source attribute set to a destination attribute set with a Cloudin
   The changes are saved. The *Settings* section is hidden.
 
   > [Info] Be aware that you have to [rerun the mapping](/DataHub/Operation/01_ManageETLMappings.md#rerun-an-etl-mapping) to apply the changes made to the attribute.
-
-
-
-## Related content
-
-- [User Interface DataHub](/DataHub/UserInterface/00_UserInterface.md)
-- [Manage the ETL mappings](/DataHub/Operation/01_ManageETLMappings.md)
-- [ETL extensions list](/DataHub/UserInterface/03_ETLExtensions.md)
-- [Data type list](/PIM/UserInterface/04_DataTypeList.md)

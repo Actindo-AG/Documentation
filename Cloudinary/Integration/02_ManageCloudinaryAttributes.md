@@ -1,5 +1,9 @@
-[!!Cloudinary](Cloudinary)
 [!!PIM](PIM)
+[!!User Interface PIM](/PIM/UserInterface/00_UserInterface.md)
+[!!Manage the attributes](/PIM/Integration/01_ManageAttributes.md)
+[!!Data type list](/PIM/UserInterface/04_DataTypeList.md)
+[!!Manage the Cloudinary files](/Cloudinary/Operation/01_ManageCloudinaryFiles.md)
+
 
 # Manage the Cloudinary attributes
 
@@ -107,11 +111,3 @@ All available meta data fields from the selected Cloudinary connection are displ
   The Cloudinary attribute is saved with the corresponding configuration. The *Create attribute* view is closed.  
 
 9. Press **F5** to initialize the Core1 Platform and to apply the changes.   
-
-
-## Related content
-
-- [User Interface PIM](/PIM/UserInterface/00_UserInterface.md)
-- [Manage the attributes](/PIM/Integration/01_ManageAttributes.md)
-- [Data type list](/PIM/UserInterface/04_DataTypeList.md)
-- [Manage the Cloudinary files](/Cloudinary/Operation/01_ManageCloudinaryFiles.md)
