@@ -29,12 +29,12 @@ After U2F has been configured for your Actindo account, you will use U2F from yo
   ![Login U2F](/Assets/Screenshots/Core1Platform/LoginU2F.png "[Login U2F]")
 
 3. Click the *Click here to start the second factor authentication* button.    
-  A browser window is displayed to select the device type for U2F.
+  The browser window *Verify your identity* is displayed to select the device type for the identity verification.
 
-  ![USB security key](/Assets/Screenshots/Core1Platform/ProfileSettings/U2F/USBSecurityKey.png "[USB security key]")
+  ![Verify your identity](/Assets/Screenshots/Core1Platform/ProfileSettings/U2F/VerifyIdentity.png "[Verify your identity]")
 
 4. Select the *USB security key* option in the browser window.   
-  The browser window prompts to insert the key and touch it.
+  The browser window changes to the *Use your security key* window and prompts to insert the key and touch it.
 
   ![Use security key](/Assets/Screenshots/Core1Platform/ProfileSettings/U2F/UseSecurityKey.png "[Use security key]")
 

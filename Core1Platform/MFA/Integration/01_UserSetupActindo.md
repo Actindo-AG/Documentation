@@ -48,12 +48,12 @@ For the U2F setup of an Actindo account, a user-side setup as well as an adminis
   ![Add new U2F device](/Assets/Screenshots/Core1Platform/ProfileSettings/U2F/AddNewU2FDevice.png "[Add new U2F device]")
 
 7. Click the [OK] button to continue the device registration for U2F.   
-  A browser window is displayed to select the device type for U2F.
+  The browser window *Verify your identity* is displayed to select the device type for the identity verification.
 
-  ![USB security key](/Assets/Screenshots/Core1Platform/ProfileSettings/U2F/USBSecurityKey.png "[USB security key]")
+  ![Verify your identity](/Assets/Screenshots/Core1Platform/ProfileSettings/U2F/VerifyIdentity.png "[Verify your identity]")
 
 8. Select the *USB security key* option in the browser window.   
-  The browser window prompts to insert the key and touch it.
+  The browser window changes to the *Use your security key* window and prompts to insert the key and touch it.
 
   ![Use security key](/Assets/Screenshots/Core1Platform/ProfileSettings/U2F/UseSecurityKey.png "[Use security key]")
 
