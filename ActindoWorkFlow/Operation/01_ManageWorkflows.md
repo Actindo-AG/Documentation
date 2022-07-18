@@ -1,5 +1,8 @@
-[!!Workflows](ActindoWorkFlow)
 [!!Tasks](Tasks)
+[!!User Interface workflows](/ActindoWorkFlow/UserInterface/02a_Workflows.md)
+[!!Workflow and process elements](/ActindoWorkFlow/Overview/02_WorkflowProcessElements.md)
+[!!Track a workflow process](02_TrackWorkflowProcess.md)
+
 
 # Manage the workflows
 
@@ -482,11 +485,3 @@ A workflow can only be used for processes if it is published. By default, a crea
   The selected workflow version is unpublished. The icon in the *Published* column changes from ![Checkmark](/Assets/Icons/Check.png "[Checkmark]") (Checkmark) to ![Cross](/Assets/Icons/Cross02.png "[Cross]") (Cross).
 
   ![Workflow versions unpublished](/Assets/Screenshots/ActindoWorkFlow/Workflows/WorkflowVersionsUnpublished.png "[Workflow versions unpublished]")
-
-
-
-## Related content
-
-- [User Interface workflows](/ActindoWorkFlow/UserInterface/02a_Workflows.md)
-- [Workflow and process elements](/ActindoWorkFlow/Overview/02_WorkflowProcessElements.md)
-- [Track a workflow process](02_TrackWorkflowProcess.md)

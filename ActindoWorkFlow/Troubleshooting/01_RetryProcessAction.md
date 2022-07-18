@@ -1,4 +1,8 @@
-[!!Workflows](ActindoWorkFlow)
+[!!User Interface processes](/ActindoWorkFlow/UserInterface/03a_Processes.md)
+[!!User Interface process actions](/ActindoWorkFlow/UserInterface/04a_ProcessActions.md)
+[!!Track a workflow process](/ActindoWorkFlow/Operation/02_TrackWorkflowProcess)
+[!!Workflow and process elements](/ActindoWorkFlow/Overview/02_WorkflowProcessElements.md)
+
 
 # Retry process action
 
@@ -78,16 +82,6 @@ All failed process actions are displayed in the list of actions.
 All selected process actions are restarted. The status of the restarted process actions changes to **In Progress**. The actions are removed from the *Error* status list. The *Status change successful* pop-up window indicating the number of restarted process actions is displayed.
 
   ![Status change successful](/Assets/Screenshots/ActindoWorkFlow/Processes/StatusChangeSuccessful.png "[Status change successful]")
-
-
-
-
-## Related content
-
-- [User Interface processes](/ActindoWorkFlow/UserInterface/03a_Processes.md)
-- [User Interface process actions](/ActindoWorkFlow/UserInterface/04a_ProcessActions.md)
-- [Track a workflow process](/ActindoWorkFlow/Operation/02_TrackWorkflowProcess)
-- [Workflow and process elements](/ActindoWorkFlow/Overview/02_WorkflowProcessElements.md)
 
 
 

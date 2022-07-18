@@ -1,4 +1,6 @@
-[!!Venduo POS](POS)
+[!!User Interface Cash register](/POS/UserInterface/01c_CashRegister.md)
+[!!User Interface Stores](/POS/UserInterface/02b_Stores.md)
+
 
 # Manage the cash register
 
@@ -137,10 +139,3 @@ At least one shift has ended and the pay desk has been closed, see [Close a pay 
   The summary of the shift is printed.
 
   [comments]: <> (For me, a new tab in the browser is displayed with the shift summary. Is it like that by default or do I have to configure it somewhere in the printing settings?)
-
-
-
-## Related content
-
-- [User Interface Cash register](/POS/UserInterface/01c_CashRegister.md)
-- [User Interface Stores](/POS/UserInterface/02b_Stores.md)

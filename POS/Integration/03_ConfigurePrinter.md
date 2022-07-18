@@ -1,4 +1,7 @@
 [!!Printing](Printing)
+[!!User Interface Printing](/Printing/UserInterface/00_UserInterface.md)
+[comment]: <> (add link to Install the APS)
+
 
 # Configure the printer client for POS
 
@@ -48,10 +51,3 @@ The current APS is installed and has been started including a successful login.
   The printer is configured for the selected pay desk. The *Print Settings* window is closed. The *Settings for group Global* view is displayed again. The new setting is displayed in the list of settings.
 
 [comment]: <> (Is that right? Check it, when APS is installed)
-
-
-
-## Related content
-
-- [User Interface Printing](/Printing/UserInterface/00_UserInterface.md)
-- [Install the APS](to_be_completed)
