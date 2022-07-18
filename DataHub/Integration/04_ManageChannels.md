@@ -1,4 +1,6 @@
-[!!DataHub](DataHub)
+[!!User Interface DataHub](/DataHub/UserInterface/02e_Channels.md)
+[!!Configure the channel settings](/PIM/Integration/ConfigureChannels.md)
+
 
 # Manage the channels
 
@@ -115,10 +117,3 @@ At least one channel is created, see [Create a channel](#create-a-channel).
   The channel is deleted. The deletion cannot be undone.
 
   > [Info] If the selected channel cannot be deleted, an error message is displayed in the upper right corner. To prevent the channels use, it is recommended to [deactivate the channel](#deactivate-a-channel) instead of delete it.
-
-
-
-## Related content
-
-- [User Interface DataHub](/DataHub/UserInterface/02e_Channels.md)
-- [Configure the channel settings](/PIM/Integration/ConfigureChannels.md)

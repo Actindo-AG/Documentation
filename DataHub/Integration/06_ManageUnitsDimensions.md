@@ -1,4 +1,4 @@
-[!!DataHub](DataHub)
+[!!User Interface DataHub](/DataHub/UserInterface/02g_UnitsDimensions.md)
 
 [comment]: <> (When will I be able to do something in this tab? If not -> delete document for now)
 
@@ -44,8 +44,3 @@ No prerequisites to fulfill.
 *DataHub > Settings > Tab UNITS AND DIMENSIONS*
 
 [comment]: <> (to be completed)
-
-
-## Related content
-
-[User Interface DataHub](/DataHub/UserInterface/02g_UnitsDimensions.md)

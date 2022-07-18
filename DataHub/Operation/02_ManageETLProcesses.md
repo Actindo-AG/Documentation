@@ -1,5 +1,9 @@
-[!!DataHub](DataHub)
 [!!Omni-Channel](Channels)
+[!!User Interface DataHub](/DataHub/UserInterface/02h_ETLProcesses.md)
+[!!User Interface DataHub](/DataHub/UserInterface/02d_ETL.md)
+[!!Manage the ETL mappings](01_ManageETLMappings.md)
+[!!ETL extensions list](/DataHub/UserInterface/03_ETLExtensions.md)
+
 
 # Manage the ETL processes
 
@@ -118,12 +122,3 @@ An ETL process has been canceled because of an error. When the error has been fi
   ![Process retried](/Assets/Screenshots/DataHub/Settings/ETLProcesses/ProcessRetried.png "[Process retried]")
 
   If the rerun is successful, the mapping status changes to **Done** and it is removed from the list of mappings with the **Error** status.
-
-
-
-## Related content
-
-- [User Interface DataHub](/DataHub/UserInterface/02h_ETLProcesses.md)
-- [User Interface DataHub](/DataHub/UserInterface/02d_ETL.md)
-- [Manage the ETL mappings](01_ManageETLMappings.md)
-- [ETL extensions list](/DataHub/UserInterface/03_ETLExtensions.md)

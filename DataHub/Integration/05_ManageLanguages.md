@@ -1,4 +1,5 @@
-[!!DataHub](DataHub)
+[!!User Interface DataHub](/DataHub/UserInterface/02f_Languages.md)
+[!!Configure the language settings](/PIM/Integration/ConfigureLanguages.md)
 
 # Manage the languages
 
@@ -111,10 +112,3 @@ At least one language is created, see [Create a language](#create-a-language).
   The language is deleted. The deletion cannot be undone.
 
   > [Info] If the selected language cannot be deleted, an error message is displayed in the upper right corner. To prevent the languages use, it is recommended to [deactivate the language](#deactivate-a-language) instead of delete it.
-
-
-
-## Related content
-
-- [User Interface DataHub](/DataHub/UserInterface/02f_Languages.md)
-- [Configure the language settings](/PIM/Integration/ConfigureLanguages.md)

@@ -1,5 +1,10 @@
-[!!DataHub](DataHub)
 [!!Omni-Channel](Channels)
+[!!User Interface DataHub](/DataHub/UserInterface/02d_ETL.md)
+[!!Manage an attribute set](/DataHub/Integration/02_ManageAttributeSets.md)
+[!!Manage the ETL processes](02_ManageETLProcesses.md)
+[!!Data type list](/PIM/UserInterface/04_DataTypeList.md)
+[!!ETL extensions list](/DataHub/UserInterface/03_ETLExtensions.md)
+
 
 # Manage the ETL mappings
 
@@ -276,13 +281,3 @@ At least one ETL attribute set mapping is created, see [Create an ETL mapping](#
   ![Job triggered](/Assets/Screenshots/DataHub/Settings/ETL/JobMappingTriggered.png "[Job triggered]")
 
   The current status of the job is displayed in the *ETL PROCESSES* tab. For detailed information, see [Check the ETL processes](02_ManageETLProcesses.md#check-the-etl-processes).
-
-
-
-## Related content
-
-- [User Interface DataHub](/DataHub/UserInterface/02d_ETL.md)
-- [Manage an attribute set](/DataHub/Integration/02_ManageAttributeSets.md)
-- [Manage the ETL processes](02_ManageETLProcesses.md)
-- [Data type list](/PIM/UserInterface/04_DataTypeList.md)
-- [ETL extensions list](/DataHub/UserInterface/03_ETLExtensions.md)

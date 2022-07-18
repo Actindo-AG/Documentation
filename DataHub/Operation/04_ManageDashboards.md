@@ -1,4 +1,5 @@
-[!!DataHub](DataHub)
+[!!User Interface DataHub](/DataHub/UserInterface/01a_Dashboards.md)
+
 
 # Manage the dashboards
 
@@ -199,9 +200,3 @@ At least one dashboard tab is created, see [Create a dashboard](#create-a-dashbo
   The *Confirm tab deletion* window is closed. The dashboard is deleted.
 
   > [Info] Be aware that the dashboard cannot be recovered as the deletion process cannot be undone.
-
-
-
-## Related content
-
-[User Interface DataHub](/DataHub/UserInterface/01a_Dashboards.md)

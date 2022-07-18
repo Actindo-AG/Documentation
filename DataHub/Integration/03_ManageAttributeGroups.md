@@ -1,4 +1,7 @@
-[!!DataHub](DataHub)
+[!!User Interface DataHub](/DataHub/UserInterface/02c_AttributeGroups.md)
+[!!Manage the attributes](01_ManageAttributes.md)
+[!!Manage the attribute sets](02_ManageAttributeSets.md)
+
 
 # Manage the attribute groups
 
@@ -253,11 +256,3 @@ You can remove an attribute from an attribute group if it is no longer in use. N
 
 3. Click the ![Remove](/Assets/Icons/Trash03.png "[Remove]") (Remove) button in the toolbar.   
   The selected attributes are removed from the list.
-
-
-
-## Related content
-
-- [User Interface DataHub](/DataHub/UserInterface/02c_AttributeGroups.md)
-- [Manage the attributes](01_ManageAttributes.md)
-- [Manage the attribute sets](02_ManageAttributeSets.md)

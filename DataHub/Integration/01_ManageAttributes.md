@@ -1,5 +1,9 @@
-[!!DataHub](DataHub)
 [!!PIM](PIM)
+[!!User Interface DataHub](/DataHub/UserInterface/02a_Attributes.md)
+[!!Manage the products](/PIM/Operation/01_ManageProducts.md)
+[!!Manage the attribute sets](02_ManageAttributeSets.md)
+[!!Data type list](/PIM/UserInterface/04_DataTypeList.md)
+
 
 # Manage an attribute
 
@@ -187,11 +191,3 @@ At least one attribute is moved to the *DELETED ATTRIBUTES* tab, see [Delete an 
   The attribute is irretrievably deleted. The deletion cannot be undone.
 
    > [Warning] Problems may occur if you delete an attribute with existing dependencies.  
-
-
-## Related content
-
-- [User Interface DataHub](/DataHub/UserInterface/02a_Attributes.md)
-- [Manage the products](/PIM/Operation/01_ManageProducts.md)
-- [Manage the attribute sets](02_ManageAttributeSets.md)
-- [Data type list](/PIM/UserInterface/04_DataTypeList.md)

@@ -1,4 +1,6 @@
-[!!DataHub](DataHub)
+[!!User Interface DataHub](/DataHub/UserInterface/02b_AttributeSets.md)
+[!!Manage the attributes](01_ManageAttributes.md)
+
 
 # Manage an attribute set
 
@@ -265,10 +267,3 @@ At least one attribute set is created, see [Create an attribute set](#create-an-
   The attribute set is deactivated. The *Edit attribute set* view is closed.
 
 4. Press **F5** to initialize the Core1 Platform and to apply the changes.
-
-
-
-## Related content
-
-- [User Interface DataHub](/DataHub/UserInterface/02b_AttributeSets.md)
-- [Manage the attributes](01_ManageAttributes.md)

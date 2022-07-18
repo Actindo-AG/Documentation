@@ -1,4 +1,5 @@
-[!!DataHub](DataHub)
+[!!User Interface DataHub](/DataHub/UserInterface/02j_HTMLTemplates.md)
+
 
 # Manage the HTML templates
 
@@ -272,9 +273,3 @@ It is possible to display a preview of the HTML template to check its functional
   ![Preview](/Assets/Screenshots/DataHub/Settings/HTMLTemplates/Preview.png "[Preview]")
 
 5. Close the browser window and click the ![Back](/Assets/Icons/Back02.png "[Back]") (Back) button in the upper left corner to return to the HTML templates list or proceed to [edit the HTML template](#edit-an-html-template).
-
-
-
-## Related content
-
-[User Interface DataHub](/DataHub/UserInterface/02j_HTMLTemplates.md)
