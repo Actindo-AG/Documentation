@@ -1,4 +1,6 @@
 [!!Omni-Channel](Channels)
+[!!User Interface Omni-Channel](/Channels/UserInterface/00_UserInterface.md)
+
 
 # Restart a faulty export
 
@@ -26,12 +28,6 @@ The order export is restarted. During the export, the status **Being exported** 
 
 2. Click the button ![Refresh](/Assets/Icons/Refresh01.png "[Refresh]") (Refresh) in the upper right corner to update the order list.   
 The order status in the column *Status of Export to OMS* changed to **Exported**. The order is correctly exported.
-
-
-
-## Related content
-
-[User Interface Omni-Channel](/Channels/UserInterface/00_UserInterface.md)
 
 
 

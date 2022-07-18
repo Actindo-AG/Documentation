@@ -1,4 +1,7 @@
 [!!Settings](Settings)
+[!!User Interface Settings](/Settings/UserInterface/00_UserInterface.md)
+[comment]: <> (add link to Register a user)
+
 
 # Assign users to the POS groups
 
@@ -59,10 +62,3 @@ The users that belong to a POS group must be assigned to a pay desk or store in 
   The *Edit group* view is closed. The *Group has been saved* message is displayed. The new user assignments to the group are saved.
 
     ![Group saved](/Assets/Screenshots/Settings/UsersGroups/GroupManagement/GroupSaved.png "[Group saved]")
-
-
-
-## Related content
-
-- [User Interface Settings](/Settings/UserInterface/00_UserInterface.md)
-- [Register a user](to_be_completed)

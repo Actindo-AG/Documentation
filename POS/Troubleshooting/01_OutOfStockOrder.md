@@ -1,5 +1,8 @@
 [!!Warehouse](RetailSuiteWarehousing)
 [!!Omni-Channel](Channels)
+[!!User Interface Warehouse](/RetailSuiteWarehousing/UserInterface/00_UserInterface.md)
+[!!User Interface Omni-Channel](/Channels/UserInterface/00_UserInterface.md)
+
 
 # Handle an out-of-stock order
 
@@ -76,13 +79,6 @@ No prerequisites to fulfill.
 
 8. Click the ![Refresh](/Assets/Icons/Refresh01.png "[Refresh]") (Refresh) button in the upper right corner to update the order list.   
   The order status in the *Status of export to OMS* column changed to **Exported**. The order is correctly exported.
-
-
-
-## Related content
-
-- [User Interface Warehouse](/RetailSuiteWarehousing/UserInterface/00_UserInterface.md)
-- [User Interface Omni-Channel](/Channels/UserInterface/00_UserInterface.md)
 
 
 
