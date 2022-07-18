@@ -1,6 +1,10 @@
 [!!Omni-Channel](Channels)
 [!!Invoicing](RetailSuiteFaktBase)
-[!!Venduo POS](POS)
+[!!User Interface Accounting sync](/POS/UserInterface/02d_AccountingSync.md)
+[!!User Interface Omni-Channel](/Channels/UserInterface/00_UserInterface.md)
+[!!User Interface Invoicing](/RetailSuiteFaktBase/UserInterface/00_UserInterface.md)
+[!!Manage offers for POS](07_ManageOffers.md)
+
 
 # Manage the POS order process
 
@@ -132,12 +136,3 @@ An order has been completed in POS, see [Complete a purchase](04_CompletePurchas
     The invoicing list is updated.
 
 4. Check the payment status of the invoice in the *Paid* column.
-
-
-
-## Related content
-
-- [User Interface Accounting sync](/POS/UserInterface/02d_AccountingSync.md)
-- [User Interface Omni-Channel](/Channels/UserInterface/00_UserInterface.md)
-- [User Interface Invoicing](/RetailSuiteFaktBase/UserInterface/00_UserInterface.md)
-- [Manage offers for POS](07_ManageOffers.md)

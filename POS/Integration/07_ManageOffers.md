@@ -1,7 +1,9 @@
 [!!PIM](PIM)
-[!!Venduo POS](POS)
 [!!DataHub](DataHub)
 [!!Omni-Channel](Channels)
+[!!User Interface Omni-Channel](/Channels/UserInterface/00_UserInterface.md)
+[!!User Interface DataHub](/DataHub/UserInterface/00_UserInterface.md)
+[!!User Interface PIM](/PIM/UserInterface/00_UserInterface.md)
 
 
 # Manage offers for POS
@@ -529,11 +531,3 @@ At least one product to be defined as a voucher has been created, see [Create a 
 The voucher is saved. The *Edit offer* view is closed.
 
   > [Info] When a voucher-offer is sold, a voucher code is created and printed on the receipt. The value of the voucher corresponds to the price of the voucher before discounts are applied.
-
-
-
-## Related content
-
-- [User Interface Omni-Channel](/Channels/UserInterface/00_UserInterface.md)
-- [User Interface DataHub](/DataHub/UserInterface/00_UserInterface.md)
-- [User Interface PIM](/PIM/UserInterface/00_UserInterface.md)

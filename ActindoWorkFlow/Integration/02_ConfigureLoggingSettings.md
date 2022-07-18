@@ -1,4 +1,5 @@
-[!!Workflows](ActindoWorkFlow)
+[!!User Interface logging settings](/ActindoWorkFlow/UserInterface/07a_Settings.md)
+
 
 # Configure the logging settings
 
@@ -42,9 +43,3 @@ No prerequisites to fulfill.
   The changes are saved. The *Saving successful* pop-up window is displayed.
 
   ![Saving successful](/Assets/Screenshots/ActindoWorkFlow/Settings/SavingSuccessful.png "[Saving successful]")
-
-
-
-## Related content
-
-[User Interface logging settings](/ActindoWorkFlow/UserInterface/07a_Settings.md)
