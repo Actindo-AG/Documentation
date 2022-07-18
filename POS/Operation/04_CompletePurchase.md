@@ -1,4 +1,7 @@
-[!!Venduo POS](POS)
+[!!User Interface Cashpoint](/POS/UserInterface/01a_Cashpoint.md)
+[!!User Interface Cash register](/POS/UserInterface/01c_CashRegister.md)
+[!!Manage offers for POS](/POS/Integration/07_ManageOffers.md)
+
 
 # Complete a purchase
 
@@ -295,11 +298,3 @@ Click the ![Delete](/Assets/Icons/Trash02.png "[Delete]") (Delete) button at the
   The current purchase is canceled. The bill list is empty.
 
   > [Info] If you click the ![Delete](/Assets/Icons/Trash02.png "[Delete]") (Delete) button the entire purchase is canceled without further query. The cancellation cannot be undone.
-
-
-
-## Related content
-
-- [User Interface Cashpoint](/POS/UserInterface/01a_Cashpoint.md)
-- [User Interface Cash register](/POS/UserInterface/01c_CashRegister.md)
-- [Manage offers for POS](/POS/Integration/07_ManageOffers.md)

@@ -1,4 +1,7 @@
-[!!Workflows](ActindoWorkFlow)
+[!!User Interface queue types](/ActindoWorkFlow/UserInterface/05a_QueueTypes.md)
+[!!Workflow and process elements](/ActindoWorkFlow/Overview/02_WorkflowProcessElements.md)
+[!!Manage the workflows](/ActindoWorkFlow/Operation/01_ManageWorkflows.md)
+
 
 # Configure the queue types
 
@@ -282,11 +285,3 @@ Click the [KILL WORKER] button above the queue types list.
 All workers are killed. The process actions will not continue until you restart the workflow processes. The *Worker will shutdown* pop-up window is displayed.
 
   ![Worker shutdown](/Assets/Screenshots/ActindoWorkFlow/QueueTypes/WorkerShutdown.png "[Worker shutdown]")
-
-
-
-## Related content
-
-- [User Interface queue types](/ActindoWorkFlow/UserInterface/05a_QueueTypes.md)
-- [Workflow and process elements](/ActindoWorkFlow/Overview/02_WorkflowProcessElements.md)
-- [Manage the workflows](/ActindoWorkFlow/Operation/01_ManageWorkflows.md)

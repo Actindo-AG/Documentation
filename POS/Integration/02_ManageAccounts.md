@@ -1,4 +1,7 @@
 [!!Accounting](Accounting)
+[!!User Interface Accounting](/RetailSuiteAccounting/UserInterface/00_UserInterface.md)
+[!!Manage the POS order process](/POS/Operation/06_ManageOrderProcess.md)
+
 
 # Manage the accounts for POS
 
@@ -62,10 +65,3 @@ The account availability is checked, see [Check the account availability](#check
   The new account is displayed in the account list.
 
 > [Info] Repeat this procedure for each account you want to create.
-
-
-
-## Related content
-
-- [User Interface Accounting](/RetailSuiteAccounting/UserInterface/00_UserInterface.md)
-- [Manage the POS order process](/POS/Operation/06_ManageOrderProcess.md)

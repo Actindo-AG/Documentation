@@ -1,6 +1,9 @@
-[!!Venduo POS](POS)
 [!!Invoicing](RetailSuiteFaktBase)
 [!!DataHub](DataHub)
+[!!User Interface Venduo POS](/POS/UserInterface/00_UserInterface.md)
+[!!User Interface Invoicing](/Invoicing/UserInterface/00_UserInterface.md)
+[!!User Interface DataHub](/DataHub/UserInterface/00_UserInterface.md)
+
 
 # Configure the global settings for POS
 
@@ -164,11 +167,3 @@ A payment method has been created in the *Invoicing* module, see [Create a payme
 
 6. Click the [SAVE] button in the upper right corner.   
     The *Submitting data...* message is displayed in the right part of the *Mapping* view. The mapping is saved, when nothing is displayed in the right part of the *Mapping* view.
-
-
-
-## Related content
-
-- [User Interface Venduo POS](/POS/UserInterface/00_UserInterface.md)
-- [User Interface Invoicing](/Invoicing/UserInterface/00_UserInterface.md)
-- [User Interface DataHub](/DataHub/UserInterface/00_UserInterface.md)

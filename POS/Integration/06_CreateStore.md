@@ -1,9 +1,15 @@
-[!!Venduo POS](POS)
 [!!Warehouse](RetailSuiteWarehousing)
 [!!Accounting](RetailSuiteAccounting)
 [!!Settings](Settings)
 [!!PIM](PIM)
 [!!DataHub](DataHub)
+[!!User Interface Venduo POS](/POS/UserInterface/00_UserInterface.md)
+[!!User Interface Warehouse](/RetailSuiteWarehousing/UserInterface/00_UserInterface.md)
+[!!User Interface Accounting](/RetailSuiteAccounting/UserInterface/00_UserInterface.md)
+[!!User Interface PIM](/PIM/UserInterface/00_UserInterface.md)
+[!!User Interface DataHub](/DataHub/UserInterface/00_UserInterface.md)
+[!!Open a pay desk](/POS/Operation/01_OpenPayDesk.md)
+
 
 # Create a store in POS
 
@@ -725,14 +731,3 @@ When the toggle is active, all fields in the detail view are locked. By default,
   The *Saving successful* message is displayed. The account assignment for the selected pay desk is saved.
 
   ![Saving successful](/Assets/Screenshots/SavingSuccessful.png "[Saving successful]")
-
-
-
-## Related content
-
-- [User Interface Venduo POS](/POS/UserInterface/00_UserInterface.md)
-- [User Interface Warehouse](/RetailSuiteWarehousing/UserInterface/00_UserInterface.md)
-- [User Interface Accounting](/RetailSuiteAccounting/UserInterface/00_UserInterface.md)
-- [User Interface PIM](/PIM/UserInterface/00_UserInterface.md)
-- [User Interface DataHub](/DataHub/UserInterface/00_UserInterface.md)
-- [Open a pay desk](/POS/Operation/01_OpenPayDesk.md)

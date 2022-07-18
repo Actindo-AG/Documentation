@@ -1,4 +1,7 @@
-[!!Venduo POS](POS)
+[!!User Interface Sales](/POS/UserInterface/01_Sales.md)
+[!!Create a pay desk](/POS/Integration/06_CreateStore.md#create-a-pay-desk)
+[!!Close a pay desk](05_ManageCashRegister.md#close-a-pay-desk)
+
 
 # Open a pay desk
 
@@ -36,11 +39,3 @@ To perform any operation on the pay desk, you must first open one.
 
 5. Click the button [Open] in the bottom right corner.   
   The selected pay desk is opened. The selected tab is displayed.
-
-
-
-## Related content
-
-- [User Interface Sales](/POS/UserInterface/01_Sales.md)
-- [Create a pay desk](/POS/Integration/06_CreateStore.md#create-a-pay-desk)
-- [Close a pay desk](05_ManageCashRegister.md#close-a-pay-desk)

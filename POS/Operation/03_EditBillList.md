@@ -1,4 +1,6 @@
-[!!Venduo POS](POS)
+[!!User Interface Cashpoint](/POS/UserInterface/01a_Cashpoint.md)
+[!!Manage offers for POS](/POS/Integration/07_ManageOffers.md)
+
 
 # Edit the bill list
 
@@ -262,10 +264,3 @@ Assign the current purchase to an registered customer.
   The search view is closed. The bill list is displayed again. The selected customer name and its address is displayed in the upper left corner of the bill list.
 
   > [Info] If you want to unassign the customer from the purchase, click the ![Delete](/Assets/Icons/Trash01.png "[Delete]") (Delete) button to the right of the selected customer in the upper right corner of the bill list.
-
-
-
-## Related content
-
-- [User Interface Cashpoint](/POS/UserInterface/01a_Cashpoint.md)
-- [Manage offers for POS](/POS/Integration/07_ManageOffers.md)

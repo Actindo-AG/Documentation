@@ -1,4 +1,7 @@
 [!!Warehouse](RetailSuiteWarehousing)
+[!!User Interface warehouse](/RetailSuiteWarehousing/UserInterface/00_UserInterface.md)
+[!!Handle an out-of-stock order](/POS/Troubleshooting/01_OutOfStockOrder.md)
+
 
 # Configure the warehouse for POS
 
@@ -68,10 +71,3 @@ A warehouse group is created, see [Create a warehouse group](#create-a-warehouse
 
 7. Click the ![Refresh](/Assets/Icons/Refresh01.png "[Refresh Icon]") (Refresh) button at the top of the left column.   
   The new warehouse is displayed in the left column.
-
-
-
-## Related content
-
-- [User Interface warehouse](/RetailSuiteWarehousing/UserInterface/00_UserInterface.md)
-- [Handle an out-of-stock order](/POS/Troubleshooting/01_OutOfStockOrder.md)

@@ -1,4 +1,5 @@
-[!!Venduo POS](POS)
+[!!User Interface Venduo POS](/POS/UserInterface/00_UserInterface.md)
+
 
 # Remove an inactive cashier from the pay desk
 
@@ -29,12 +30,6 @@ You have at least store manager rights in the respective store.
   The cashier is removed from the pay desk. The pay desk is unassigned.
 
 > [Warning] Remove a cashier from the pay desk only when you are sure that the cashier is no longer using the pay desk. All uncompleted transactions are lost when the cashier is removed. The process cannot be undone.
-
-
-
-## Related content
-
-[User Interface Venduo POS](/POS/UserInterface/00_UserInterface.md)
 
 
 

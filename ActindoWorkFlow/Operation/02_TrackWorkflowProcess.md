@@ -1,4 +1,9 @@
-[!!Workflows](ActindoWorkFlow)
+[!!User Interface workflows](/ActindoWorkFlow/UserInterface/02a_Workflows.md)
+[!!User Interface processes](/ActindoWorkFlow/UserInterface/03a_Processes.md)
+[!!User Interface process actions](/ActindoWorkFlow/UserInterface/04a_ProcessActions.md)
+[!!Retry a process action](/ActindoWorkFlow/Troubleshooting/01_RetryProcessAction.md)
+[!!Workflow and process elements](/ActindoWorkFlow/Overview/02_WorkflowProcessElements.md)
+
 
 # Track the workflow process
 
@@ -152,13 +157,3 @@ The token input in the selected place, if any, is displayed in the *Tokens* tab.
 9. If necessary, click an action in the diagram to display further information in the *Actions* tab. For detailed information about checking action status, see [Check the process action status](#check-the-process-action-status).
 
 > [Info] A number is also displayed next to the status of each action. This number refers to the number of tokens processed in this action, and it depends on the action status and the number of tokens received.
-
-
-
-## Related content
-
-- [User Interface workflows](/ActindoWorkFlow/UserInterface/02a_Workflows.md)
-- [User Interface processes](/ActindoWorkFlow/UserInterface/03a_Processes.md)
-- [User Interface process actions](/ActindoWorkFlow/UserInterface/04a_ProcessActions.md)
-- [Retry a process action](/ActindoWorkFlow/Troubleshooting/01_RetryProcessAction.md)
-- [Workflow and process elements](/ActindoWorkFlow/Overview/02_WorkflowProcessElements.md)
