@@ -1,6 +1,9 @@
-[!!PIM](PIM)
+[!!User Interface PIM](/PIM/UserInterface/00_UserInterface.md)
+[!!Manage the products](01_ManageProducts.md)
+[!!Create a variant set](/PIM/Integration/07_ManageVariantSets.md#create-a-variant-set)
 
-# Manage the variants
+
+# Manage a variant
 
 A variant is product with a special characteristic dependent on its master product. The defining attributes for the variants are preset in their [variant set](/PIM/Integration/07_ManageVariantSets.md). You can create a variant directly when you create a master product, or you can add variants subsequently for an existing master product. Further, you can create a single variant or multiple variants to a master product.
 
@@ -9,11 +12,14 @@ A variant is product with a special characteristic dependent on its master produ
 
 You can create a single or multiple variants to a product directly when you create the master product. To add variants to an existing product, see [Add variants](#add-variants).
 
-### Prerequisites
+
+### Define the variants basic data
+
+#### Prerequisites
 
 A variant set is created to the attribute set of the product you want to assign the variants to, see [Create a variant set](/PIM/Integration/07_ManageVariantSets.md#create-a-variant-set).
 
-### Procedure
+#### Procedure
 *PIM > Products > Tab LIST*
 
 ![Product list](/Assets/Screenshots/PIM/Products/List/Products.png "[Product list]")
@@ -48,13 +54,18 @@ The *Variants* tab is displayed.
 8. Click the ![Add](/Assets/Icons/Plus01.png "[Add]") (Add) button in the variants box.   
 The [Add single variant ![Add single variant](/Assets/Icons/Document.png "[Add single variant]") ] button and the [Add multiple variants ![Add multiple variants](/Assets/Icons/Documents.png "[Add multiple variants]") ] button are displayed.
 
-9. Follow one of the described sub-procedures:
+9. Follow one of the described procedures:
   - To create a single variant to the product, see [Create a single variant](#create-a-single-variant).
   - To create multiple variants to the product, see [Create multiple variants](#create-multiple-variants).
 
 
-#### Create a single variant
+### Create a single variant
 
+#### Prerequisites
+
+A variant set is created to the attribute set of the product you want to assign the variants to, see [Create a variant set](/PIM/Integration/07_ManageVariantSets.md#create-a-variant-set).
+
+#### Procedure
 *PIM > Products > Tab LIST > Button Add > Tab Variants > Select variant set > Button Add*   
 *PIM > Products > Tab LIST > Select Product > Tab Variants > Button Add*
 
@@ -79,8 +90,13 @@ The [Add single variant ![Add single variant](/Assets/Icons/Document.png "[Add s
   The variant is saved. The product view is closed. The variant is displayed in the products list when you enable the **All products** option in the *Variants* drop-down list at the top of the products list.
 
 
-#### Create multiple variants
+### Create multiple variants
 
+#### Prerequisites
+
+A variant set is created to the attribute set of the product you want to assign the variants to, see [Create a variant set](/PIM/Integration/07_ManageVariantSets.md#create-a-variant-set).
+
+#### Procedure
 *PIM > Products > Tab LIST > Button Add > Tab Variants > Select variant set > Button Add*   
 *PIM > Products > Tab LIST > Select Product > Tab Variants > Button Add*
 
@@ -123,31 +139,18 @@ The [Add single variant ![Add single variant](/Assets/Icons/Document.png "[Add s
 
   > [Info] For detailed information about the different views, see [Manage the view](04_ManageView.md).
 
-### Next steps
-
-- [Add variants](#add-variants)    
-- [Edit a variant](#edit-a-variant)
-- [Move a product](03_MoveProducts.md)
-- [Manage the view](04_ManageView.md)
-
-### See also
-
-- [User Interface PIM](/PIM/UserInterface/00_UserInterface.md)
-- [Manage the products](01_ManageProducts.md)
-- [Create a variant set](/PIM/Integration/07_ManageVariantSets.md#create-a-variant-set)
-
 
 
 ## Add variants
 
 You can add a single or multiple variants to a product directly when you create the master product.
 
-### Prerequisites
+#### Prerequisites
 
 - At least one product is created, see [Create a product](01_ManageProducts.md#create-a-product).
 - A variant set is created to the attribute set of the master product, see [Create a variant set](/PIM/Integration/07_ManageVariantSets.md#create-a-variant-set).
 
-### Procedure
+#### Procedure
 *PIM > Products > Tab LIST*
 
 ![Product list](/Assets/Screenshots/PIM/Products/List/Products.png "[Product list]")
@@ -173,29 +176,17 @@ You can add a single or multiple variants to a product directly when you create 
   - To add a single variant to the product, see [Create a single variant](#create-a-single-variant).
   - To add multiple variants to the product, see [Create multiple variants](#create-multiple-variants).
 
-### Next steps
-
-- [Edit a variant](#edit-a-variant)
-- [Move a product](03_MoveProducts.md)
-- [Manage the view](04_ManageView.md)
-
-### See also
-
-- [User Interface PIM](/PIM/UserInterface/00_UserInterface.md)
-- [Create variants](#create-variants)
-- [Manage the products](01_ManageProducts.md)
-- [Create a variant set](/PIM/Integration/07_ManageVariantSets.md#create-a-variant-set)
 
 
 ## Edit a variant
 
 After you have created a variant, you can edit it. Note that only defining and changeable attribute values are editable. All other attribute values are defined by the master product and can only be edited within the master product. Be careful when editing defining attribute values as you are also affecting the variant settings of the master product.
 
-### Prerequisites
+#### Prerequisites
 
 At least one variant is created, see [Create variants](#create-variants) or [Add variants](#add-variants).
 
-### Procedure
+#### Procedure
 *PIM > Products > Tab LIST*
 
 ![Product list](/Assets/Screenshots/PIM/Products/List/Products.png "[Product list]")
@@ -216,17 +207,3 @@ At least one variant is created, see [Create variants](#create-variants) or [Add
 
 4. Click the [SAVE] button in the upper right corner.   
   The changes are saved. The *Edit Product* view is closed.
-
-### Next steps
-
-- [Move a product](03_MoveProducts.md)
-- [Manage the view](04_ManageView.md)
-
-### See also
-
-- [User Interface PIM](/PIM/UserInterface/00_UserInterface.md)
-- [Create variants](#create-variants)
-- [Add variants](#add-variants)
-- [Create a single variant](#create-a-single-variant)
-- [Create multiple variants](#create-multiple-variants)
-- [Manage the products](01_ManageProducts.md)

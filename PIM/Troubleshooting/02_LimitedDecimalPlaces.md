@@ -1,20 +1,21 @@
-[!!PIM](PIM)
+[!!User Interface PIM](/PIM/UserInterface/00_UserInterface.md)
+[!!Data type list](/PIM/UserInterface/04_DataTypeList.md)
+
 
 # Edit a limited number of decimal places
 
-## Error Description
+#### Error Description
 When entering a floating number in a products attribute field with the *Floating point number*, *Stock Value* or *PIM Price Field* data type, the places of decimals are limited.
 
 Follow the instructions below to check why the number of decimals is limited and, if applicable, change the number of decimal places.
 
 [comment]: <> (Not yet working this way -> entering of more decimal places still possible, but the number is rounded to the indicated precision after saving)
 
-## Prerequisites
+#### Prerequisites
 
 No prerequisites to fulfill.
 
-## Procedure
-
+#### Procedure
 *PIM > Settings > Tab ATTRIBUTES*
 
 ![Attributes](/Assets/Screenshots/PIM/Settings/Attributes/Attributes.png "[Attributes]")
@@ -46,13 +47,6 @@ No prerequisites to fulfill.
 
   > [Info] If the number of decimals is still limited, please contact the Customer Support.    
 
-
-## See also
-
-- [User Interface PIM](/PIM/UserInterface/00_UserInterface.md)
-- [Edit an attribute](/PIM/Integration/01_ManageAttributes.md#edit-an-attribute)
-- [Edit a single product](/PIM/Operation/01_ManageProducts.md#edit-a-single-product)
-- [Data type list](/PIM/UserInterface/04_DataTypeList.md)
 
 
 ## Was this chapter helpful?

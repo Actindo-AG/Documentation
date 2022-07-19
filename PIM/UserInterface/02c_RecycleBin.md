@@ -1,4 +1,4 @@
-# Recycle Bin
+# Recycle bin
 
 *PIM > Products > Tab RECYCLE BIN*
 

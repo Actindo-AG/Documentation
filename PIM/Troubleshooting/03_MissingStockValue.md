@@ -1,20 +1,21 @@
-[!!PIM](PIM)
 [!!Warehouse](RetailSuiteWarehousing)
+[!!User Interface PIM](/PIM/UserInterface/00_UserInterface.md)
+[!!User Interface Warehouse](/RetailSuiteWarehousing/UserInterface/00_UserInterface.md)
+[!!Data type list](/PIM/UserInterface/04_DataTypeList.md)
 
-# Missing stock value
 
-## Error Description
+# Add a missing stock value
+
+#### Error Description
 In a products attribute field with the *Stock Value* data type is no stock displayed, although a stock is specified in the *Warehouse* module.
 
 Follow the instructions below to display the stock in the product view.
 
-
-## Prerequisites
+#### Prerequisites
 
 No prerequisites to fulfill.
 
-## Procedure
-
+#### Procedure
 *PIM > Products > Tab LIST*
 
 ![Products](/Assets/Screenshots/PIM/Products/List/Products.png "[Products]")
@@ -49,14 +50,6 @@ No prerequisites to fulfill.
 
   > [Info] If the stock value is still missing, please contact the Customer Support.    
 
-
-## See also
-
-- [User Interface PIM](/PIM/UserInterface/00_UserInterface.md)
-- [User Interface Warehouse](/RetailSuiteWarehousing/UserInterface/00_UserInterface.md)
-- [Edit a single product](/PIM/Operation/01_ManageProducts.md#edit-a-single-product)
-- [Activate the warehouse logistics](to_be_completed)
-- [Data type list](/PIM/UserInterface/04_DataTypeList.md)
 
 
 ## Was this chapter helpful?

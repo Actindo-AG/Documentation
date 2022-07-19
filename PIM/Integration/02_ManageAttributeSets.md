@@ -1,4 +1,7 @@
-[!!PIM](PIM)
+[!!User Interface PIM](/PIM/UserInterface/00_UserInterface.md)
+[!!Manage the attributes](01_ManageAttributes.md)
+[!!Manage the products](/PIM/Operation/01_ManageProducts.md)
+
 
 # Manage an attribute set
 
@@ -10,13 +13,15 @@ Further, you can import or export attribute sets.
 
 ## Create an attribute set
 
-Create an attribute set to define a new product type with different attributes to the *PIM Basic Set*.
+Create an attribute set to define a new attribute set with different attributes to the *PIM Basic Set*.
 
-### Prerequisites
+### Define the attribute set basic data
+
+#### Prerequisites
 
 The attributes for the attribute set are created, see [Create an attribute](01_ManageAttributes.md#create-an-attribute).
 
-### Procedure
+#### Procedure
 *PIM > Settings > Tab ATTRIBUTE SETS*
 
 ![Attribute sets](/Assets/Screenshots/PIM/Settings/AttributeSets/AttributeSets.png "[Attribute sets]")
@@ -38,9 +43,19 @@ The attributes for the attribute set are created, see [Create an attribute](01_M
     - [Create an attribute set with attribute copying](#create-an-attribute-set-with-attribute-copying)
 
 
-#### Create an attribute set without attribute inheritance
+### Create an attribute set without attribute inheritance
 
-> [Info]  When you create an attribute set without inheritance, you have to add all attributes manually to the created attribute set. Neither attributes nor configurations are applied from another attribute set. In exchange, you can define individually which attributes are required and customize their configuration.
+When you create an attribute set without inheritance, you have to add all attributes manually to the created attribute set. Neither attributes nor configurations are applied from another attribute set. In exchange, you can define individually which attributes are required and customize their configuration.
+
+#### Prerequisites
+
+- The attributes for the attribute set are created, see [Create an attribute](01_ManageAttributes.md#create-an-attribute).
+- The basic data of the attribute set is completed, see [Define the attribute set basic data](#define-the-attribute-set-basic-data)
+
+#### Procedure
+*PIM > Settings > Tab ATTRIBUTE SETS > Button Add*
+
+![Create attribute set inheritance](/Assets/Screenshots/PIM/Settings/AttributeSets/CreateAttributeSetInheritance.png "[Create attribute set inheritance]")
 
 1. Select the **no inheritance** option in the *Inherit/Copy Values from* drop-down list.   
   The *Inherit Configuration* toggle and the *Inherit/Copy Values* drop-down list are locked.
@@ -53,9 +68,19 @@ The attributes for the attribute set are created, see [Create an attribute](01_M
 3. Click the ![Back](/Assets/Icons/Back02.png "[Back]") (Back) button in the upper left corner to return to the list of attribute sets or proceed to [edit the attribute set](#edit-an-attribute-set).
 
 
-#### Create an attribute set with attribute inheritance
+### Create an attribute set with attribute inheritance
 
-> [Info] When you create an attribute set with attribute inheritance, you adopt all attributes from the selected attribute set. The inherited attributes cannot be changed. Further, all changes in the inheritance attribute set are also applied to the linked attribute set. Each time a change is made in the inheritance attribute set, the linked attribute sets are updated.  
+When you create an attribute set with attribute inheritance, you adopt all attributes from the selected attribute set. The inherited attributes cannot be changed. Further, all changes in the inheritance attribute set are also applied to the linked attribute set. Each time a change is made in the inheritance attribute set, the linked attribute sets are updated.  
+
+#### Prerequisites
+
+- The attributes for the attribute set are created, see [Create an attribute](01_ManageAttributes.md#create-an-attribute).
+- The basic data of the attribute set is completed, see [Define the attribute set basic data](#define-the-attribute-set-basic-data)
+
+#### Procedure
+*PIM > Settings > Tab ATTRIBUTE SETS > Button Add*
+
+![Create attribute set inheritance](/Assets/Screenshots/PIM/Settings/AttributeSets/CreateAttributeSetInheritance.png "[Create attribute set inheritance]")
 
 1. Select an attribute set in the *Inherit/Copy Values from* drop-down list.
 
@@ -71,9 +96,19 @@ The attributes for the attribute set are created, see [Create an attribute](01_M
 5. Click the ![Back](/Assets/Icons/Back02.png "[Back]") (Back) button in the upper left corner to return to the list of attribute sets or proceed to [edit the attribute set](#edit-an-attribute-set).
 
 
-#### Create an attribute set with attribute copying
+### Create an attribute set with attribute copying
 
-> [Info] When you create an attribute set with attribute copying, you copy all attributes from the selected attribute set once. After copying, the attribute set behaves like an attribute set without attribute inheritance. Further changes in the copied attribute set or not affecting the created attribute set.   
+When you create an attribute set with attribute copying, you copy all attributes from the selected attribute set once. After copying, the attribute set behaves like an attribute set without attribute inheritance. Further changes in the copied attribute set or not affecting the created attribute set.   
+
+#### Prerequisites
+
+- The attributes for the attribute set are created, see [Create an attribute](01_ManageAttributes.md#create-an-attribute).
+- The basic data of the attribute set is completed, see [Define the attribute set basic data](#define-the-attribute-set-basic-data)
+
+#### Procedure
+*PIM > Settings > Tab ATTRIBUTE SETS > Button Add*
+
+![Create attribute set inheritance](/Assets/Screenshots/PIM/Settings/AttributeSets/CreateAttributeSetInheritance.png "[Create attribute set inheritance]")
 
 1. Select an attribute set in the *Inherit/Copy Values from* drop-down list.
 
@@ -87,28 +122,6 @@ The attributes for the attribute set are created, see [Create an attribute](01_M
   ![Attribute set created](/Assets/Screenshots/PIM/Settings/AttributeSets/AttributeSetCreated.png "[Attribute set created]")  
 
 5. Click the ![Back](/Assets/Icons/Back02.png "[Back]") (Back) button in the upper left corner to return to the list of attribute sets or proceed to [edit the attribute set](#edit-an-attribute-set).
-
-
-### Next steps
-
-- [Edit an attribute set](#edit-an-attribute-set)
-- [Add an attribute to the set](#add-an-attribute-to-the-set)
-- [Remove an attribute from the set](#remove-an-attribute-from-the-set)
-- [Change the required attributes in the set](#change-the-required-attributes-in-the-set)
-- [Deactivate an attribute set](#deactivate-an-attribute-set)
-- [Import an attribute set](#import-an-attribute-set)
-- [Export an attribute set](#export-an-attribute-set)
-- [Manage the attribute groups](03_ManageAttributeGroups.md)
-- [Configure the language settings](04_ConfigureLanguages.md)
-- [Configure the channel settings](05_ConfigureChannels.md)
-- [Manage the catalogs](06_ManageCatalogs.md)
-- [Manage the variant sets](07_ManageVariantSets.md)
-
-### See also
-
-- [User Interface PIM](/PIM/UserInterface/00_UserInterface.md)
-- [Manage the attributes](01_ManageAttributes.md)
-- [Manage the products](/PIM/Operation/01_ManageProducts.md)
 
 
 
@@ -126,7 +139,6 @@ Add a new attribute to an attribute set to define any further specifications.
 - At least one additional attribute is created, see [Create an attribute](01_ManageAttributes.md#create-an-attribute).
 
 #### Procedure
-
 *PIM > Settings > Tab ATTRIBUTE SETS*
 
 ![Attributes](/Assets/Screenshots/PIM/Settings/AttributeSets/AttributeSets.png "[Attributes]")
@@ -152,26 +164,6 @@ Add a new attribute to an attribute set to define any further specifications.
 5. Click the [SAVE] button.   
   The changes are saved. The *Edit Attribute Set* view is closed.
 
-#### Next steps
-
-- [Remove an attribute from the set](#remove-an-attribute-from-the-set)
-- [Change the required attributes in the set](#change-the-required-attributes-in-the-set)
-- [Deactivate an attribute set](#deactivate-an-attribute-set)
-- [Import an attribute set](#import-an-attribute-set)
-- [Export an attribute set](#export-an-attribute-set)
-- [Manage the attribute groups](03_ManageAttributeGroups.md)
-- [Configure the language settings](04_ConfigureLanguages.md)
-- [Configure the channel settings](05_ConfigureChannels.md)
-- [Manage the catalogs](06_ManageCatalogs.md)
-- [Manage the variant sets](07_ManageVariantSets.md)
-
-#### See also
-
-- [User Interface PIM](/PIM/UserInterface/00_UserInterface.md)
-- [Create an attribute set](#create-an-attribute-set)
-- [Manage the attributes](01_ManageAttributes.md)
-- [Manage the products](/PIM/Operation/01_ManageProducts.md)
-
 
 
 ### Remove an attribute from the set
@@ -183,7 +175,6 @@ Remove an attribute from an attribute set to limit the specifications. Inherited
 An attribute set is created, see [Create an attribute set](#create-an-attribute-set).
 
 #### Procedure
-
 *PIM > Settings > Tab ATTRIBUTE SETS*
 
 ![Attributes](/Assets/Screenshots/PIM/Settings/AttributeSets/AttributeSets.png "[Attributes]")
@@ -203,26 +194,6 @@ An attribute set is created, see [Create an attribute set](#create-an-attribute-
 
 4. Click the [SAVE] button.   
   The changes are saved. The *Edit Attribute Set* view is closed.
-
-#### Next steps
-
-- [Change the required attributes in the set](#change-the-required-attributes-in-the-set)
-- [Deactivate an attribute set](#deactivate-an-attribute-set)
-- [Import an attribute set](#import-an-attribute-set)
-- [Export an attribute set](#export-an-attribute-set)
-- [Manage the attribute groups](03_ManageAttributeGroups.md)
-- [Configure the language settings](04_ConfigureLanguages.md)
-- [Configure the channel settings](05_ConfigureChannels.md)
-- [Manage the catalogs](06_ManageCatalogs.md)
-- [Manage the variant sets](07_ManageVariantSets.md)
-
-#### See also
-
-- [User Interface PIM](/PIM/UserInterface/00_UserInterface.md)
-- [Create an attribute set](#create-an-attribute-set)
-- [Add an attribute to the set](#add-an-attribute-to-the-set)
-- [Manage the attributes](01_ManageAttributes.md)
-- [Manage the products](/PIM/Operation/01_ManageProducts.md)
 
 
 
@@ -260,39 +231,17 @@ An attribute set is created, see [Create an attribute set](#create-an-attribute-
 
 5. Click the ![Back](/Assets/Icons/Back02.png "[Back]") (Back) button in the upper left corner to return to the list of attribute sets or proceed to [edit the attribute set](#edit-an-attribute-set).
 
-#### Next steps
-
-- [Deactivate an attribute set](#deactivate-an-attribute-set)
-- [Import an attribute set](#import-an-attribute-set)
-- [Export an attribute set](#export-an-attribute-set)
-- [Manage the attribute groups](03_ManageAttributeGroups.md)
-- [Configure the language settings](04_ConfigureLanguages.md)
-- [Configure the channel settings](05_ConfigureChannels.md)
-- [Manage the catalogs](06_ManageCatalogs.md)
-- [Manage the variant sets](07_ManageVariantSets.md)
-
-#### See also
-
-- [User Interface PIM](/PIM/UserInterface/00_UserInterface.md)
-- [Create an attribute set](#create-an-attribute-set)
-- [Edit an attribute set](#edit-an-attribute-set)
-- [Add an attribute to the set](#add-an-attribute-to-the-set)
-- [Remove an attribute from the set](#remove-an-attribute-from-the-set)
-- [Manage the attributes](01_ManageAttributes.md)
-- [Manage the products](/PIM/Operation/01_ManageProducts.md)
-
 
 
 ## Deactivate an attribute set
 
 If an attribute set is no longer used, it is recommended to deactivate the attribute set to prevent any problems because of existing dependencies. If you deactivate an attribute set, it is no longer available when creating attributes or products.
 
-### Prerequisites
+#### Prerequisites
 
 At least one attribute set is created, see [Create an attribute set](#create-an-attribute-set).
 
-### Procedure
-
+#### Procedure
 *PIM > Settings > Tab ATTRIBUTE SETS*
 
 ![Attributes](/Assets/Screenshots/PIM/Settings/AttributeSets/AttributeSets.png "[Attributes]")
@@ -310,150 +259,3 @@ At least one attribute set is created, see [Create an attribute set](#create-an-
   The attribute set is deactivated. The *Edit Attribute Set* view is closed.
 
 4. Press **F5** to initialize the Core1 Platform and to apply the changes.
-
-
-### Next steps
-
-- [Import an attribute set](#import-an-attribute-set)
-- [Export an attribute set](#export-an-attribute-set)
-- [Manage the attribute groups](03_ManageAttributeGroups.md)
-- [Configure the language settings](04_ConfigureLanguages.md)
-- [Configure the channel settings](05_ConfigureChannels.md)
-- [Manage the catalogs](06_ManageCatalogs.md)
-- [Manage the variant sets](07_ManageVariantSets.md)
-
-
-### See also
-
-- [User Interface PIM](/PIM/UserInterface/00_UserInterface.md)
-- [Create an attribute set](#create-an-attribute-set)
-- [Edit an attribute set](#edit-an-attribute-set)
-- [Add an attribute to the set](#add-an-attribute-to-the-set)
-- [Remove an attribute from the set](#remove-an-attribute-from-the-set)
-- [Change the required attributes in the set](#change-the-required-attributes-in-the-set)
-- [Manage the attributes](01_ManageAttributes.md)
-- [Manage the products](/PIM/Operation/01_ManageProducts.md)
-
-
-
-
-[comment]: <> (Import/Export will be changed - not available at the moment - should that change?)
-
-## Import an attribute set
-
-### Prerequisites
-
-An import file of an attribute set is available.
-
-[comment]: <> (What file types are supported? What requirements?)
-
-### Procedure
-
-*PIM > Settings > Tab ATTRIBUTE SETS*
-
-![Attributes](/Assets/Screenshots/PIM/Settings/AttributeSets/AttributeSets.png "[Attributes]")
-
-1. Click the [IMPORT] button in the upper left corner.   
-  The *Upload file* window of the import wizard is displayed.
-
-  ![Upload file](/Assets/Screenshots/PIM/Settings/AttributeSets/Import01.png "[Upload file]")
-
-2. Drag the import file from your local folder and drop it in the dashed box ![Upload](/Assets/Icons/Upload.png "[Upload]") *Drop file here...*. Alternatively, click the [SELECT FILE] button and select a file from your local folder in the displayed Explorer window.   
-  The selected file is displayed in the dashed box.
-
-  [comment]: <> (What file types are supported? What requirements?)
-
-3. Enable the *Move existing attributes into attribute groups specified in the file* toggle if you want to ???
-
-[comment]: <> (---> what is this setting doing?)
-
-4. Click the [CONTINUE] button in the bottom right corner. The button is unlocked if an appropriate file is uploaded.   
-  The *Summary* window of the import wizard is displayed.
-
-  ![Summary](/Assets/Screenshots/PIM/Settings/AttributeSets/Import02.png "[Summary]")
-
-5. Click the [FINALIZE] button in the bottom right corner.   
-  The import is completed.
-
-### Next steps
-
-- [Export an attribute set](#export-an-attribute-set)
-- [Manage the attribute groups](03_ManageAttributeGroups.md)
-- [Configure the language settings](04_ConfigureLanguages.md)
-- [Configure the channel settings](05_ConfigureChannels.md)
-- [Manage the catalogs](06_ManageCatalogs.md)
-- [Manage the variant sets](07_ManageVariantSets.md)
-
-### See also
-
-- [User Interface PIM](/PIM/UserInterface/00_UserInterface.md)
-- [Create an attribute set](#create-an-attribute-set)
-- [Edit an attribute set](#edit-an-attribute-set)
-- [Add an attribute to the set](#add-an-attribute-to-the-set)
-- [Remove an attribute from the set](#remove-an-attribute-from-the-set)
-- [Change the required attributes in the set](#change-the-required-attributes-in-the-set)
-- [Deactivate an attribute set](#deactivate-an-attribute-set)
-- [Manage the attributes](01_ManageAttributes.md)
-- [Manage the products](/PIM/Operation/01_ManageProducts.md)
-
-
-
-## Export an attribute set
-
-### Prerequisites
-
-At least one attribute set is created, see [Create an attribute set](#create-an-attribute-set).
-
-### Procedure
-
-*PIM > Settings > Tab ATTRIBUTE SETS*
-
-![Attributes](/Assets/Screenshots/PIM/Settings/AttributeSets/AttributeSets.png "[Attributes]")
-
-1. Select the checkboxes of the attribute sets you want to export.   
-  The editing toolbar is displayed above the attribute sets list.
-
-2. Click the [EXPORT] button in the toolbar.  
-  The *Step 1* window of the export wizard is displayed.
-
-  ![Export Step 1](/Assets/Screenshots/PIM/Settings/AttributeSets/Export01.png "[Export Step 1]")
-
-3. Select the checkboxes of the attributes you want to exclude from the export.   
-
-4. Click the [CONTINUE] button in the bottom right corner.  
-  The *Step 2* window of the export wizard is displayed.
-
-  ![Export Step 2](/Assets/Screenshots/PIM/Settings/AttributeSets/Export02.png "[Export Step 2]")
-
-  > [Info] If the attributes selected for export are not assigned to an attribute set, the *Step 2* window of the export wizard is skipped and the *Step 3* window is immediately displayed.
-
-5. Select the checkboxes of the variant sets you want to exclude from the export.   
-
-6. Click the [CONTINUE] button in the bottom right corner.  
-  The *Step 3* window of the export wizard is displayed.
-
-  ![Export Step 3](/Assets/Screenshots/PIM/Settings/AttributeSets/Export03.png "[Export Step 3]")
-
-7. Click the [EXPORT] button in the bottom right corner.   
-  The export is started. By default, the export file is saved in the local download folder.
-
-### Next steps
-
-- [Manage the attribute groups](03_ManageAttributeGroups.md)
-- [Configure the language settings](04_ConfigureLanguages.md)
-- [Configure the channel settings](05_ConfigureChannels.md)
-- [Manage the catalogs](06_ManageCatalogs.md)
-- [Manage the variant sets](07_ManageVariantSets.md)
-
-### See also
-
-- [User Interface PIM](/PIM/UserInterface/00_UserInterface.md)
-- [Create an attribute set](#create-an-attribute-set)
-- [Edit an attribute set](#edit-an-attribute-set)
-- [Add an attribute to the set](#add-an-attribute-to-the-set)
-- [Remove an attribute from the set](#remove-an-attribute-from-the-set)
-- [Change the required attributes in the set](#change-the-required-attributes-in-the-set)
-- [Deactivate an attribute set](#deactivate-an-attribute-set)
-- [Import an attribute set](#import-an-attribute-set)
-- [Manage the attributes](01_ManageAttributes.md)
-- [Manage the products](/PIM/Operation/01_ManageProducts.md)

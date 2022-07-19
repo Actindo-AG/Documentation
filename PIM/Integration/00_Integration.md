@@ -1,6 +1,6 @@
 # Integration
 
-- [Manage the attributes](01_ManageAttributes.md)
+- [Manage an attribute](01_ManageAttributes.md)
   - [Create an attribute](01_ManageAttributes.md#create-an-attribute)
   - [Edit an attribute](01_ManageAttributes.md#edit-an-attribute)
   - [Deactivate an attribute](01_ManageAttributes.md#deactivate-an-attribute)
@@ -8,15 +8,17 @@
   - [Recover an attribute](01_ManageAttributes.md#recover-an-attribute)
   - [Finally delete an attribute](01_ManageAttributes.md#finally-delete-an-attribute)
 
-- [Manage the attribute sets](02_ManageAttributeSets.md)  
+- [Manage an attribute set](02_ManageAttributeSets.md)  
   - [Create an attribute set](02_ManageAttributeSets.md#create-an-attribute-set)
+    - [Define the attribute set basic data](02_ManageAttributeSets.md#define-the-attribute-set-basic-data)
+    - [Create an attribute set without attribute inheritance](02_ManageAttributeSets.md#create-an-attribute-set-without-attribute-inheritance)
+    - [Create an attribute set with attribute inheritance](02_ManageAttributeSets.md#create-an-attribute-set-with-attribute-inheritance)
+    - [Create an attribute set with attribute copying](02_ManageAttributeSets.md#create-an-attribute-set-with-attribute-copying)
   - [Edit an attribute set](02_ManageAttributeSets.md#edit-an-attribute-set)
     - [Add an attribute to the set](02_ManageAttributeSets.md#add-an-attribute-to-the-set)
     - [Remove an attribute from the set](02_ManageAttributeSets.md#remove-an-attribute-from-the-set)
     - [Change the required attributes in the set](02_ManageAttributeSets.md#change-the-required-attributes-in-the-set)
   - [Deactivate an attribute set](02_ManageAttributeSets.md#deactivate-an-attribute-set)
-  - [Import an attribute set](02_ManageAttributeSets.md#import-an-attribute-set)
-  - [Export an attribute set](02_ManageAttributeSets.md#export-an-attribute-set)
 
 
 - [Manage the attribute groups](03_ManageAttributeGroups.md)
@@ -35,8 +37,9 @@
 - [Configure the channel settings](05_ConfigureChannels.md)
 
 
-- [Manage the catalogs](06_ManageCatalogs.md)
+- [Manage a catalog](06_ManageCatalogs.md)
   - [Create a catalog](06_ManageCatalogs.md#create-a-catalog)
+    - [Define the catalog basic data](06_ManageCatalogs.md#define-the-catalog-basic-data)
     - [Create a category](06_ManageCatalogs.md#create-a-category)
   - [Edit a catalog](06_ManageCatalogs.md#edit-a-catalog)
     - [Create a sub-category](06_ManageCatalogs.md#create-a-sub-category)
@@ -47,6 +50,7 @@
 
 - [Manage the variant sets](07_ManageVariantSets.md)
   - [Create a variant set](07_ManageVariantSets.md#create-a-variant-set)
+    - [Define the variant set basic data](07_ManageVariantSets.md#define-the-variant-set-basic-data)
     - [Add defining attributes](07_ManageVariantSets.md#add-defining-attributes)
     - [Add changeable attributes](07_ManageVariantSets.md#add-changeable-attributes)
   - [Edit a variant set](07_ManageVariantSets.md#edit-a-variant-set)

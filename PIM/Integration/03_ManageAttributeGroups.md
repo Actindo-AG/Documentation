@@ -1,4 +1,8 @@
-[!!PIM](PIM)
+[!!User Interface PIM](/PIM/UserInterface/00_UserInterface.md)
+[!!Manage the attributes](01_ManageAttributes.md)
+[!!Manage the attribute sets](02_ManageAttributeSets.md)
+[!!Manage the products](/PIM/Operation/01_ManageProducts.md)
+
 
 # Manage the attribute groups
 
@@ -8,11 +12,11 @@ The attribute groups serve the logical organization of the product attributes. Y
 
 Create an attribute group for new attributes you want to assign to a certain group.
 
-### Prerequisites
+#### Prerequisites
 
 The attributes for the attribute set are created, see [Create an attribute](01_ManageAttributes.md#create-an-attribute).
 
-### Procedure
+#### Procedure
 *PIM > Settings > Tab ATTRIBUTE GROUPS*
 
 ![Attribute groups](/Assets/Screenshots/PIM/Settings/AttributeGroups/AttributeGroups.png "[Attribute groups]")
@@ -46,42 +50,21 @@ The attributes for the attribute set are created, see [Create an attribute](01_M
 7. Click the [SAVE] button in the upper right corner.  
   The new attribute group is saved. The *Edit Attribute Groups* view is closed.
 
-### Next steps
-
-- [Edit an attribute group](#edit-an-attribute-group)
-- [Create an attribute sub-group](#create-an-attribute-sub-group)
-- [Change the order of attribute groups](#change-the-order-of-attribute-groups)
-- [Delete an attribute group](#delete-an-attribute-group)
-- [Add attributes to a group](#add-attributes-to-a-group)
-- [Change the order of attributes within a group](#change-the-order-of-attributes-within-a-group)
-- [Remove attributes from a group](#remove-attributes-from-a-group)
-- [Configure the language settings](04_ConfigureLanguages.md)
-- [Configure the channel settings](05_ConfigureChannels.md)
-- [Manage the catalogs](06_ManageCatalogs.md)
-- [Manage the variant sets](07_ManageVariantSets.md)
-
-### See also
-
-- [User Interface PIM](/PIM/UserInterface/00_UserInterface.md)
-- [Manage the attributes](01_ManageAttributes.md)
-- [Manage the attribute sets](02_ManageAttributeSets.md)
-- [Manage the products](/PIM/Operation/01_ManageProducts.md)
 
 
 ## Edit an attribute group
 
 After you have created an attribute group, you can edit it. You can create attribute sub-groups, change the order of attribute groups, add attributes to a group, change the order of attributes within a group, remove attributes from an attribute group or delete attribute groups.
 
-### Prerequisites
-
-At least one attribute group is created, see [Create an attribute group](#create-an-attribute-group).
-
-### Procedure
-
-#### Create an attribute sub-group
+### Create an attribute sub-group
 
 Create an attribute sub-group to organize the attributes in special groups, for instance depending on product-related categories.
 
+#### Prerequisites
+
+At least one attribute group is created, see [Create an attribute group](#create-an-attribute-group).
+
+#### Procedure
 *PIM > Settings > Tab ATTRIBUTE GROUPS*
 
 ![Attribute groups](/Assets/Screenshots/PIM/Settings/AttributeGroups/AttributeGroups.png "[Attribute groups]")
@@ -121,11 +104,17 @@ Create an attribute sub-group to organize the attributes in special groups, for 
   The new attribute sub-group is saved. The *Edit Attribute Groups* view is closed.
 
 
-#### Change the order of attribute groups
+
+### Change the order of attribute groups
 
 The order of attribute groups in the *ATTRIBUTE GROUPS* tab equals to the order of attributes groups in the product view. You can change the order to display an attribute group in a different place when creating or editing a product.   
 The procedure to change the order of attribute groups and sub-groups is identical. Just select the attribute sub-group instead of the group and follow the steps described below.
 
+#### Prerequisites
+
+At least two attribute groups are created, see [Create an attribute group](#create-an-attribute-group).
+
+#### Procedure
 *PIM > Settings > Tab ATTRIBUTE GROUPS*
 
 ![Attribute groups](/Assets/Screenshots/PIM/Settings/AttributeGroups/AttributeGroups.png "[Attribute groups]")
@@ -143,10 +132,16 @@ The procedure to change the order of attribute groups and sub-groups is identica
   The new attribute group order is saved. The *Edit Attribute Groups* view is closed.
 
 
-#### Delete an attribute group
+
+### Delete an attribute group
 
 You can delete an attribute group if it is no longer in use. Note, that you just delete the attribute group but not the attributes within a group. All active attributes that are no longer assigned to an attribute group are automatically assigned to a new attribute group with the name *Unassigned Group* which is only displayed in the product view. If you delete an attribute group with sub-groups, also the attribute sub-groups are deleted. The procedure to delete attribute groups and sub-groups is identical. Just select the attribute sub-group instead of the group and follow the steps described below.
 
+#### Prerequisites
+
+At least one attribute group is created, see [Create an attribute group](#create-an-attribute-group).
+
+#### Procedure
 *PIM > Settings > Tab ATTRIBUTE GROUPS*
 
 ![Attribute groups](/Assets/Screenshots/PIM/Settings/AttributeGroups/AttributeGroups.png "[Attribute groups]")
@@ -168,10 +163,17 @@ You can delete an attribute group if it is no longer in use. Note, that you just
   The attribute group is deleted. The *Edit Attribute Groups* view is closed.
 
 
-#### Add attributes to a group
+
+### Add attributes to a group
 
 You can add attributes to an attribute group or sub-group. Note that you can add an attribute only to an attribute group without sub-groups. Otherwise, you have to add the attribute to an attribute sub-group. Be aware, that an attribute can be assigned to one attribute group or sub-group only. When you add an attribute to an attribute group that is already added to another group, it is automatically removed from the former attribute group.
 
+#### Prerequisites
+
+- At least one attribute group is created, see [Create an attribute group](#create-an-attribute-group).
+- At least one attribute is created that is not yet assigned to a group, see [Create an attribute](01_ManageAttributes.md#create-an-attribute).
+
+#### Procedure
 *PIM > Settings > Tab ATTRIBUTE GROUPS*
 
 ![Attribute groups](/Assets/Screenshots/PIM/Settings/AttributeGroups/AttributeGroups.png "[Attribute groups]")
@@ -199,11 +201,18 @@ You can add attributes to an attribute group or sub-group. Note that you can add
   > [Info] The new attributes are always added at the end of the attribute list. If you want to change the position of an attribute in the list, see [Change the order of attributes within a group](#change-the-order-of-attributes-within-a-group).
 
 
-#### Change the order of attributes within a group
+
+### Change the order of attributes within a group
 
 The order of attributes within an attribute group in the *ATTRIBUTE GROUPS* tab equals to the order of attributes within a group in the product view. You can change the order to display a certain attribute in a different place in the attribute group when creating or editing a product.   
 The procedure to change the order of attributes within attribute groups and sub-groups is identical. Just select the attribute sub-group instead of the group and follow the steps described below.
 
+#### Prerequisites
+
+- At least one attribute group is created, see [Create an attribute group](#create-an-attribute-group).
+- At least two attributes are added to the attribute group, see [Add attributes to a group](#add-attributes-to-a-group).
+
+#### Procedure
 *PIM > Settings > Tab ATTRIBUTE GROUPS*
 
 ![Attribute groups](/Assets/Screenshots/PIM/Settings/AttributeGroups/AttributeGroups.png "[Attribute groups]")
@@ -228,10 +237,16 @@ The procedure to change the order of attributes within attribute groups and sub-
   The new order of attributes within the selected attribute group is saved. The *Assigned Attributes (Sorting Mode)* view is closed.
 
 
-#### Remove attributes from a group
+### Remove attributes from a group
 
 You can remove an attribute from an attribute group if it is no longer in use. Note, that you just remove the attribute from the attribute group but you do not delete the attribute itself. Alternatively, you can [deactivate an attribute](01_ManageAttributes.md#deactivate-an-attribute) so it is no longer displayed in the product view. The procedure to remove attributes from attribute groups or sub-groups is identical. Just select the attribute sub-group instead of the group and follow the steps described below.
 
+#### Prerequisites
+
+- At least one attribute group is created, see [Create an attribute group](#create-an-attribute-group).
+- At least one attribute is added to the attribute group, see [Add attributes to a group](#add-attributes-to-a-group).
+
+#### Procedure
 *PIM > Settings > Tab ATTRIBUTE GROUPS*
 
 ![Attribute groups](/Assets/Screenshots/PIM/Settings/AttributeGroups/AttributeGroups.png "[Attribute groups]")
@@ -246,19 +261,3 @@ You can remove an attribute from an attribute group if it is no longer in use. N
 
 3. Click the ![Remove](/Assets/Icons/Trash03.png "[Remove]") (Remove) button in the toolbar.   
   The selected attributes are removed from the list.
-
-
-### Next steps
-
-- [Configure the language settings](04_ConfigureLanguages.md)
-- [Configure the channel settings](05_ConfigureChannels.md)
-- [Manage the catalogs](06_ManageCatalogs.md)
-- [Manage the variant sets](07_ManageVariantSets.md)
-
-### See also
-
-- [User Interface PIM](/PIM/UserInterface/00_UserInterface.md)
-- [Create an attribute group](#create-an-attribute-group)
-- [Manage the attributes](01_ManageAttributes.md)
-- [Manage the attribute sets](02_ManageAttributeSets.md)
-- [Manage the products](/PIM/Operation/01_ManageProducts.md)

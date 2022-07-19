@@ -1,4 +1,7 @@
-[!!PIM](PIM)
+[!!User Interface PIM](/PIM/UserInterface/00_UserInterface.md)
+[!!Manage the products](/PIM/Operation/01_ManageProducts.md)
+[!!Data type list](/PIM/UserInterface/04_DataTypeList.md)
+
 
 # Manage an attribute
 
@@ -45,11 +48,11 @@ In the *PIM* module, only PIM attributes are displayed.
 
 Create an attribute to specify a new property for a product.
 
-### Prerequisites
+#### Prerequisites
 
 No prerequisites to fulfill.
 
-### Procedure
+#### Procedure
 *PIM > Settings > Tab ATTRIBUTES*
 
 ![Attributes](/Assets/Screenshots/PIM/Settings/Attributes/Attributes.png "[Attributes]")
@@ -89,25 +92,6 @@ For detailed information about the different configuration settings, see [Data t
 9. Click the [SAVE] button in the upper right corner.   
   The new attribute is saved. The *Create Attribute* view is closed.  
 
-### Next steps
-
-- [Edit an attribute](#edit-an-attribute)
-- [Deactivate an attribute](#deactivate-an-attribute)
-- [Delete an attribute](#delete-an-attribute)
-- [Recover an attribute](#recover-an-attribute)
-- [Finally delete an attribute](#finally-delete-an-attribute)
-- [Manage the attribute sets](02_ManageAttributeSets.md)
-- [Manage the attribute groups](03_ManageAttributeGroups.md)
-- [Configure the language settings](04_ConfigureLanguages.md)
-- [Configure the channel settings](05_ConfigureChannels.md)
-- [Manage the catalogs](06_ManageCatalogs.md)
-- [Manage the variant sets](07_ManageVariantSets.md)
-
-### See also
-
-- [User Interface PIM](/PIM/UserInterface/00_UserInterface.md)
-- [Manage the products](/PIM/Operation/01_ManageProducts.md)
-- [Data type list](/PIM/UserInterface/04_DataTypeList.md)
 
 
 ## Edit an attribute
@@ -115,11 +99,11 @@ For detailed information about the different configuration settings, see [Data t
 After you have created an attribute, you can edit it. However, only some attribute properties are editable. For instance, the data type and the attribute key cannot be subsequently modified. The assignment of an attribute to an attribute set must be changed in the [attribute set](ManageAttributeSet.md) itself.   
 There are also some attributes that are automatically created by the system, for instance when installing a plugin or module. These system attributes are read-only and cannot be edited. It is highly recommended not to deactivate these attributes to avoid interfering with the functioning of the Core1 Platform.
 
-### Prerequisites
+#### Prerequisites
 
 At least one attribute is created, see [Create an attribute](#create-an-attribute).
 
-### Procedure
+#### Procedure
 *PIM > Settings > Tab ATTRIBUTES*
 
 ![Attributes](/Assets/Screenshots/PIM/Settings/Attributes/Attributes.png "[Attributes]")
@@ -142,36 +126,17 @@ At least one attribute is created, see [Create an attribute](#create-an-attribut
 4. Click the [SAVE] button in the upper right corner.   
   The changes are saved. The *Edit Attribute* view is closed.  
 
-### Next steps
-
-- [Deactivate an attribute](#deactivate-an-attribute)
-- [Delete an attribute](#delete-an-attribute)
-- [Recover an attribute](#recover-an-attribute)
-- [Finally delete an attribute](#finally-delete-an-attribute)
-- [Manage the attribute sets](02_ManageAttributeSets.md)
-- [Manage the attribute groups](03_ManageAttributeGroups.md)
-- [Configure the language settings](04_ConfigureLanguages.md)
-- [Configure the channel settings](05_ConfigureChannels.md)
-- [Manage the catalogs](06_ManageCatalogs.md)
-- [Manage the variant sets](07_ManageVariantSets.md)
-
-### See also
-
-- [User Interface PIM](/PIM/UserInterface/00_UserInterface.md)
-- [Create an attribute](#create-an-attribute)
-- [Manage the products](/PIM/Operation/01_ManageProducts.md)
-
 
 
 ## Deactivate an attribute
 
 It is recommended to deactivate an attribute instead of deleting it to prevent any problems because of existing dependencies. If you deactivate an attribute, it is no longer available for new attribute sets and it is hidden in existing products with this attribute.
 
-### Prerequisites
+#### Prerequisites
 
 At least one attribute is created, see [Create an attribute](#create-an-attribute).
 
-### Procedure
+#### Procedure
 *PIM > Settings > Tab ATTRIBUTES*
 
 ![Attributes](/Assets/Screenshots/PIM/Settings/Attributes/Attributes.png "[Attributes]")
@@ -190,37 +155,17 @@ At least one attribute is created, see [Create an attribute](#create-an-attribut
 
 4. Press **F5** to initialize the Core1 Platform and to apply the changes.   
 
-### Next steps
-
-- [Delete an attribute](#delete-an-attribute)
-- [Recover an attribute](#recover-an-attribute)
-- [Finally delete an attribute](#finally-delete-an-attribute)
-- [Manage the attribute sets](02_ManageAttributeSets.md)
-- [Manage the attribute groups](03_ManageAttributeGroups.md)
-- [Configure the language settings](04_ConfigureLanguages.md)
-- [Configure the channel settings](05_ConfigureChannels.md)
-- [Manage the catalogs](06_ManageCatalogs.md)
-- [Manage the variant sets](07_ManageVariantSets.md)
-
-### See also
-
-- [User Interface PIM](/PIM/UserInterface/00_UserInterface.md)
-- [Create an attribute](#create-an-attribute)
-- [Edit an attribute](#edit-an-attribute)
-- [Manage the products](/PIM/Operation/01_ManageProducts.md)
-
-
 
 
 ## Delete an attribute
 
 You can delete an attribute from the *PIM* module and move it to the *DELETED ATTRIBUTES* tab in the *DataHub* module if it is no longer needed. Attributes that are assigned as defining attributes to any variant set cannot be deleted. As there are usually dependencies on an attribute, for example through an attribute set or created products, it is strongly recommended not to delete an attribute. Instead, you can deactivate an attribute and thus prevent its use.
 
-### Prerequisites
+#### Prerequisites
 
 At least one attribute is created, see [Create an attribute](#create-an-attribute).
 
-### Procedure
+#### Procedure
 *PIM > Settings > Tab ATTRIBUTES*
 
 ![Attributes](/Assets/Screenshots/PIM/Settings/Attributes/Attributes.png "[Attributes]")
@@ -242,33 +187,13 @@ At least one attribute is created, see [Create an attribute](#create-an-attribut
 > [Info] The attribute is deleted in the PIM product, but it can still be recovered. To irretrievably delete the attribute, see [Finally delete an attribute](#finally-delete-an-attribute).
 
 
-### Next steps
-
-- [Recover an attribute](#recover-an-attribute)
-- [Finally delete an attribute](#finally-delete-an-attribute)
-- [Manage the attribute sets](02_ManageAttributeSets.md)
-- [Manage the attribute groups](03_ManageAttributeGroups.md)
-- [Configure the language settings](04_ConfigureLanguages.md)
-- [Configure the channel settings](05_ConfigureChannels.md)
-- [Manage the catalogs](06_ManageCatalogs.md)
-- [Manage the variant sets](07_ManageVariantSets.md)
-
-### See also
-
-- [User Interface PIM](/PIM/UserInterface/00_UserInterface.md)
-- [User Interface DataHub](/DataHub/UserInterface/00_UserInterface.md)
-- [Create an attribute](#create-an-attribute)
-- [Edit an attribute](#edit-an-attribute)
-- [Deactivate an attribute](#deactivate-an-attribute)
-- [Manage the products](/PIM/Operation/01_ManageProducts.md)
-
-
 
 ## Recover an attribute
 
 If you delete an attribute in the *PIM* module, it is not irretrievably deleted. You can still recover the attribute and make the deletion undone.
 
 The procedure to recover a deleted attribute is described in the *DataHub* module, see [Recover an attribute](/DataHub/Integration/01_ManageAttribute.md#recover-an-attribute).
+
 
 
 ## Finally delete an attribute

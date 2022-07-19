@@ -1,4 +1,6 @@
-[!!PIM](PIM)
+[!!User Interface PIM](/PIM/UserInterface/00_UserInterface.md)
+[!!Manage the products](01_ManageProducts.md)
+
 
 # Move a product
 
@@ -8,12 +10,11 @@ Move a product to either archive it, move it to the recycle bin, delete it final
 
 You can archive products that you are not currently using, but that you still want to access and may want to use again at a later time. Archived products cannot be finally deleted but must first be moved to the recycle bin.
 
-### Prerequisites
+#### Prerequisites
 
 At least one product is created, see [Create a product](01_ManageProducts.md#create-a-product).
 
-### Procedure
-
+#### Procedure
 *PIM > Products > Tab LIST*    
 *PIM > Products > Tab RECYCLE BIN*
 
@@ -33,31 +34,17 @@ At least one product is created, see [Create a product](01_ManageProducts.md#cre
 
   > [Info] You find the archived products in the *ARCHIVE* tab where you can either restore or delete them.
 
-### Next steps
-
-- [Delete a product](#delete-a-product)
-- [Finally delete a product](#finally-delete-a-product)
-- [Restore a product](#restore-a-product)
-- [Manage the view](04_ManageView.md)
-
-### See also
-
-- [User Interface PIM](/PIM/UserInterface/00_UserInterface.md)
-- [Manage the products](01_ManageProducts.md)
-- [Manage the variants](02_ManageVariants.md)
-
 
 
 ## Delete a product
 
 You can delete products that are no longer needed by moving them to the recycle bin. Products in the recycle bin can still be restored or archived but they also can be finally deleted.
 
-### Prerequisites
+#### Prerequisites
 
 At least one product is created, see [Create a product](01_ManageProducts.md#create-a-product).
 
-### Procedure
-
+#### Procedure
 *PIM > Products > Tab LIST*   
 *PIM > Products > Tab ARCHIVE*
 
@@ -77,31 +64,17 @@ At least one product is created, see [Create a product](01_ManageProducts.md#cre
 
   > [Info] You find the deleted products in the *RECYCLE BIN* tab where you can either restore or finally delete them.
 
-### Next steps
-
-- [Finally delete a product](#finally-delete-a-product)
-- [Restore a product](#restore-a-product)
-- [Manage the view](04_ManageView.md)
-
-### See also
-
-- [User Interface PIM](/PIM/UserInterface/00_UserInterface.md)
-- [Archive a product](#archive-a-product)
-- [Manage the products](01_ManageProducts.md)
-- [Manage the variants](02_ManageVariants.md)
-
 
 
 ## Finally delete a product
 
 You can permanently delete products Products that have been moved to the recycle bin unless they have any existing dependencies. Be aware that once deleted products cannot be restored as the deletion process cannot be undone.
 
-### Prerequisites
+#### Prerequisites
 
 At least one product is moved to the recycle bin, see [Delete a product](#delete-a-product).
 
-### Procedure
-
+#### Procedure
 *PIM > Products > Tab RECYCLE BIN*
 
 ![Recycle bin](/Assets/Screenshots/PIM/Products/RecycleBin/RecycleBin.png "[Recycle bin]")
@@ -120,31 +93,17 @@ At least one product is moved to the recycle bin, see [Delete a product](#delete
 
   ![Product deleted error](/Assets/Screenshots/PIM/Products/List/ProductDeletedError.png "[Product deleted error]")
 
-### Next steps
-
-- [Restore a product](#restore-a-product)
-- [Manage the view](04_ManageView.md)
-
-### See also
-
-- [User Interface PIM](/PIM/UserInterface/00_UserInterface.md)
-- [Archive a product](#archive-a-product)
-- [Delete a product](#delete-a-product)
-- [Manage the products](01_ManageProducts.md)
-- [Manage the variants](02_ManageVariants.md)
-
 
 
 ## Restore a product
 
 You can restore products that have been moved to the archive or the recycle bin in order to use them again.
 
-### Prerequisites
+#### Prerequisites
 
 At least one product is moved to the archive or the recycle bin, see [Archive a product](#archive-a-product) or [Delete a product](#delete-a-product).
 
-### Procedure
-
+#### Procedure
 *PIM > Products > Tab ARCHIVE*   
 *PIM > Products > Tab RECYCLE BIN*
 
@@ -163,16 +122,3 @@ At least one product is moved to the archive or the recycle bin, see [Archive a 
   The selected products are restored.
 
   > [Info] You find the restored products in the *LIST* tab.
-
-### Next steps
-
-- [Manage the view](04_ManageView.md)
-
-### See also
-
-- [User Interface PIM](/PIM/UserInterface/00_UserInterface.md)
-- [Archive a product](#archive-a-product)
-- [Delete a product](#delete-a-product)
-- [Finally delete a product](#finally-delete-a-product)
-- [Manage the products](01_ManageProducts.md)
-- [Manage the variants](02_ManageVariants.md)

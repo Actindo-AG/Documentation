@@ -212,7 +212,7 @@ Depending on the selection in the *Variants* drop-down list, the product list di
   Completeness of the product. In the *Create product* view, the completeness cannot be indicated. The completeness is indicated once the product have been saved.
 
 
-### Create product - Attributes
+## Create product - Attributes
 *PIM > Products > Tab LIST > Button Add > Button CREATE > Tab Attributes*
 
 ![Attributes](/Assets/Screenshots/PIM/Products/List/Attributes/AttributesCreate.png "[Attributes]")
@@ -228,7 +228,7 @@ The right side of the *Attributes* tab displays all attributes that are assigned
   Click this button to hide or display the left margin column with the attribute groups. When the left margin is displayed an you click this button, the column is hidden. When the column is hidden and you click this button, the column is displayed again.
 
 
-### Create product - Variants
+## Create product - Variants
 *PIM > Products > Tab LIST > Button Add > Button CREATE > Tab Variants*
 
 ![Variants](/Assets/Screenshots/PIM/Products/List/Variants/VariantsCreate.png "[Variants]")
@@ -265,7 +265,7 @@ The list displays all variants of the selected product. All fields are read-only
   Click this button to add a new variant to the product. The [Add single variant ![Document](/Assets/Icons/Document.png "[Document]") ] button and the [Add multiple variants ![Documents](/Assets/Icons/Documents.png "[Documents]") ] button are displayed.
 
 
-#### Add variant
+### Add variant
 *PIM > Products > Tab LIST > Button Add > Button CREATE > Tab Variants > Select variant set > Button Add*
 
 ![Add variant](/Assets/Screenshots/PIM/Products/List/Variants/AddVariantCreate.png "[Add variant]")
@@ -279,7 +279,7 @@ The list displays all variants of the selected product. All fields are read-only
 - ![Cancel](/Assets/Icons/Cross01.png "[Cancel]") (Cancel)   
   Click this button to hide the buttons and return to the *Variants* tab.
 
-#### Add single variant
+### Add single variant
 *PIM > Products > Tab LIST > Button Add > Button CREATE > Tab Variants > Select variant set > Button Add > Button Add single variant*
 
 ![Add single variant](/Assets/Screenshots/PIM/Products/List/Variants/AddSingleVariant.png "[Add single variant]")
@@ -308,10 +308,10 @@ For each defining attribute a single field or box to define the attribute value 
   Click this button to save the variant and close the *Add single variant* window.
 
 
-#### Add multiple variants
+### Add multiple variants
 *PIM > Products > Tab LIST > Button Add > Button CREATE > Tab Variants > Select variant set > Button Add > Button Add multiple variants*
 
-##### Select Values
+#### Select Values
 
 ![Add multiple variants](/Assets/Screenshots/PIM/Products/List/Variants/AddMultipleVariants01.png "[Add multiple variants]")
 
@@ -332,7 +332,7 @@ For each defining attribute a single box to define the attribute value is displa
   Click this button to proceed to the next step of adding variants. The *Summary* wizard window is displayed.
 
 
-##### Summary
+#### Summary
 
 ![Add multiple variants](/Assets/Screenshots/PIM/Products/List/Variants/AddMultipleVariants02.png "[Add multiple variants]")
 
@@ -368,7 +368,7 @@ The list displays all selected variants. Depending on the settings, the displaye
 
 
 
-### Create product - Dependencies
+## Create product - Dependencies
 *PIM > Products > Tab LIST > Button Add > Button CREATE > Tab Dependencies*
 
 ![Dependencies](/Assets/Screenshots/PIM/Products/List/Dependencies/DependenciesCreate.png "[Dependencies]")
@@ -376,7 +376,7 @@ The list displays all selected variants. Depending on the settings, the displaye
  In the *Create product* view, the notice *Information about dependencies are not available* is displayed in this tab. Dependencies are displayed only after saving.  
 
 
-### Create product - Catalogs
+## Create product - Catalogs
 *PIM > Products > Tab LIST > Button Add > Button CREATE > Tab Catalogs*
 
 ![Catalogs](/Assets/Screenshots/PIM/Products/List/Catalogs/CatalogsCreate.png "[Catalogs]")
@@ -403,7 +403,7 @@ The catalog box displays all selected categories and their level. All fields are
   Click this button to delete the category next to the button from the box. This button is only displayed, when you hover over a category in the box.
 
 
-#### Categories
+### Categories
 
 [comment]: <> (window needs title!)
 
@@ -424,7 +424,7 @@ The catalog box displays all selected categories and their level. All fields are
 
 
 
-### Create product - Associations
+## Create product - Associations
 *PIM > Products > Tab LIST > Button Add > Button CREATE > Tab Associations*
 
 ![Associations](/Assets/Screenshots/PIM/Products/List/Associations/AssociationsCreate.png "[Associations]")
@@ -457,7 +457,7 @@ The box displays all associated products. All fields are read-only. If no produc
 
 
 
-#### Not associated products
+### Not associated products
 *PIM > Products > Tab LIST > Button Add > Button CREATE > Tab Associations > Button ADD*
 
 ![Not associated products](/Assets/Screenshots/PIM/Products/List/Associations/NotAssociatedProducts.png "[Not associated products]")
@@ -492,7 +492,7 @@ The list displays all products. All fields are read-only.
   Assigned attribute set.
 
 
-### Create product - UCS Warehouse
+## Create product - UCS Warehouse
 *PIM > Products > Tab LIST > Button Add > Button CREATE > Tab UCS Warehouse*
 
 ![UCS Warehouse](/Assets/Screenshots/PIM/Products/List/UCSWarehouse/UCSWarehouseCreate.png "[UCS Warehouse]")
@@ -500,7 +500,7 @@ The list displays all products. All fields are read-only.
  In the *Create product* view, the notice *Available after saving the product.* is displayed in this tab. The warehouse information is displayed only after saving.  
 
 
-### Create product - UCS Marketplaces
+## Create product - UCS Marketplaces
 *PIM > Products > Tab LIST > Button Add > Button CREATE > Tab UCS Marketplaces*
 
 ![UCS Marketplaces](/Assets/Screenshots/PIM/Products/List/UCSMarketplaces/UCSMarketplacesCreate.png "[UCS Marketplaces]")
@@ -508,7 +508,7 @@ The list displays all products. All fields are read-only.
  In the *Create product* view, the notice *Available after saving the product.* is displayed in this tab. The marketplaces information is displayed only after saving.  
 
 
-### Create product - Offers
+## Create product - Offers
 *PIM > Products > Tab LIST > Button Add > Button CREATE > Tab Offers*
 
 ![Offers](/Assets/Screenshots/PIM/Products/List/Offers/OffersCreate.png "[Offers]")
@@ -588,7 +588,7 @@ The list displays all created offers to this product. All fields are read-only.
   Click this button to create a new offer. The [Add to a single connection ![Add to a single connection](/Assets/Icons/Document.png "[Single connection]") ] button and the [Add to multiple connections ![Multiple connections](/Assets/Icons/Documents.png "[Multiple connections]") ] button are displayed.
 
 
-#### Add an offer in PIM
+### Add an offer in PIM
 *PIM > Products > Tab LIST > Button Add > Button CREATE > Tab Offers > Button Add*
 
 ![Add](/Assets/Screenshots/PIM/Products/List/Offers/AddCreate.png "[Add]")
@@ -603,7 +603,7 @@ The list displays all created offers to this product. All fields are read-only.
   Click this button to cancel the connection creation and close the current view.
 
 
-#### Add to a single connection
+### Add to a single connection
 *PIM > Products > Tab LIST > Button Add > Button CREATE > Tab Offers > Button Add > Button Add to a single connection*
 
 ![Add to a single connection](/Assets/Screenshots/PIM/Products/List/Offers/SingleConnection.png "[Add to a single connection]")
@@ -647,10 +647,10 @@ The list displays all created offers to this product. All fields are read-only.
   Click this button to save the offer and close the *Create Offer* window.
 
 
-#### Add to multiple connections
+### Add to multiple connections
 *PIM > Products > Tab LIST > Button Add > Button CREATE > Tab Offers > Button Add > Button Add to multiple connections*
 
-##### Select connections and status
+#### Select connections and status
 
 ![Add to multiple connections](/Assets/Screenshots/PIM/Products/List/Offers/MultipleConnections01.png "[Add to multiple connections]")
 
@@ -685,7 +685,7 @@ The list displays all created offers to this product. All fields are read-only.
   Click this button to proceed to the next step to add multi-connection offers. The *Select destination attribute sets* wizard window is displayed.
 
 
-##### Select destination attribute sets
+#### Select destination attribute sets
 
 ![Add to multiple connections](/Assets/Screenshots/PIM/Products/List/Offers/MultipleConnections02.png "[Add to multiple connections]")
 
@@ -771,7 +771,7 @@ The list displays all created offers to this product. All fields are read-only.
   The current percentage for the product completeness of the selected channel and language is displayed. The percentage is automatically updated when you select a different channel or language.
 
 
-### Edit product - Attributes
+## Edit product - Attributes
 *PIM > Products > Tab LIST > Select product > Tab Attributes*
 
 ![Attributes](/Assets/Screenshots/PIM/Products/List/Attributes/AttributesEdit.png "[Attributes]")
@@ -783,7 +783,7 @@ The right side of the *Attributes* tab displays all attributes that are assigned
 [comment]: <> (describe attributes in PIM Basic Set?!)
 
 
-### Edit product - Variants
+## Edit product - Variants
 *PIM > Products > Tab LIST >  Select product > Tab Variants*
 
 ![Variants](/Assets/Screenshots/PIM/Products/List/Variants/VariantsEdit.png "[Variants]")
@@ -835,7 +835,7 @@ The list displays all variants. All fields are read-only. Depending on the setti
   Click this button to add a new variant to the product. The [Add single variant ![Document](/Assets/Icons/Document.png "[Document]") ] button and the [Add multiple variants ![Documents](/Assets/Icons/Documents.png "[Documents]") ] button are displayed.
 
 
-#### Add variant
+### Add variant
 *PIM > Products > Tab LIST > Select product > Tab Variants > Select variant set > Button Add*
 
 ![Add variant](/Assets/Screenshots/PIM/Products/List/Variants/AddVariantEdit.png "[Add variant]")
@@ -850,7 +850,7 @@ The list displays all variants. All fields are read-only. Depending on the setti
   Click this button to cancel the variant creation and exit the current view.
 
 
-#### Add single variant
+### Add single variant
 *PIM > Products > Tab LIST > Select product > Tab Variants > Select variant set > Button Add > Button Add single variant*
 
 ![Add single variant](/Assets/Screenshots/PIM/Products/List/Variants/AddSingleVariant.png "[Add single variant]")
@@ -877,10 +877,10 @@ All defining attributes of the variant are displayed in this section.
   Click this button to save the variant and close the *Add single variant* window.
 
 
-#### Add multiple variants
+### Add multiple variants
 *PIM > Products > Tab LIST > Select product > Tab Variants > Select variant set > Button Add > Button Add multiple variants*
 
-##### Select values
+#### Select values
 
 ![Add multiple variants](/Assets/Screenshots/PIM/Products/List/Variants/AddMultipleVariants01.png "[Add multiple variants]")
 
@@ -901,7 +901,7 @@ For each defining attribute a single box to define the attribute value is displa
   Click this button to proceed to the next step of adding variants. The *Summary* wizard window is displayed.
 
 
-##### Summary
+#### Summary
 
 ![Add multiple variants](/Assets/Screenshots/PIM/Products/List/Variants/AddMultipleVariants02.png "[Add multiple variants]")
 
@@ -937,7 +937,7 @@ The list displays all selected variants. Depending on the settings, the displaye
 
 
 
-### Edit product - Dependencies
+## Edit product - Dependencies
 *PIM > Products > Select product > Tab Dependencies*
 
 ![Dependencies](/Assets/Screenshots/PIM/Products/List/Dependencies/DependenciesEdit.png "[Dependencies]")
@@ -983,7 +983,7 @@ The list displays all dependencies of the selected product. All fields are read-
 
 
 
-### Edit product - Completeness
+## Edit product - Completeness
 *PIM > Products > Select product > Tab Completeness*
 
 ![Completeness](/Assets/Screenshots/PIM/Products/List/Completeness/Completeness.png "[Completeness]")
@@ -999,7 +999,7 @@ The *Completeness* tab displays the completeness of the product for the differen
     Hover over this icon to display a box that is listing the missing attribute values. This icon is only displayed when at least one required attribute value for the product completeness is missing.
 
 
-### Edit product - Catalogs
+## Edit product - Catalogs
 *PIM > Products > Select product > Tab Catalogs*
 
 ![Catalogs](/Assets/Screenshots/PIM/Products/List/Catalogs/CatalogsEdit.png "[Catalogs]")
@@ -1026,7 +1026,7 @@ The box displays all selected categories and their level. All fields are read-on
   Click this button to delete the selected category from the box. This button is only displayed, when you hover over a category in the box.
 
 
-#### Categories
+### Categories
 *PIM > Products > Select product > Tab Catalogs > Button EDIT ATTRIBUTE*
 
 ![Categories](/Assets/Screenshots/PIM/Products/List/Catalogs/Categories.png "[Categories]")
@@ -1045,7 +1045,7 @@ Click the [>] button to the left of a category checkbox to display their sub-cat
 
 
 
-### Edit product - Associations
+## Edit product - Associations
 *PIM > Products > Select product > Tab Associations*
 
 ![Associations](/Assets/Screenshots/PIM/Products/List/Associations/AssociationsEdit.png "[Associations]")
@@ -1078,7 +1078,7 @@ The box displays all associated product for cross selling. All fields are read-o
 
 
 
-#### Not associated products
+### Not associated products
 *PIM > Products > Select product > Tab Associations > Button ADD*
 
 ![Not associated products](/Assets/Screenshots/PIM/Products/List/Associations/NotAssociatedProducts.png "[Not associated products]")
@@ -1114,7 +1114,7 @@ The list displays all products. All fields are read-only.
 
 
 
-### Edit product - History
+## Edit product - History
 *PIM > Products > Select product > Tab History*
 
 ![History](/Assets/Screenshots/PIM/Products/List/History/History.png "[History]")
@@ -1156,7 +1156,7 @@ The list displays the change history of the product. All fields are read-only. D
   Click this button to display the *History (Single Entry)* window. This button is only displayed, when the checkbox of a change entry is selected. Alternatively, you can click directly a row in the list to display the *History (Single Entry)* window.   
 
 
-#### History (Single Entry)
+### History (Single Entry)
 *PIM > Products > Select product > Tab History > Select checkbox > Button Eye*
 
 ![History](/Assets/Screenshots/PIM/Products/List/History/HistorySingleEntry.png "[History]")
@@ -1203,7 +1203,7 @@ The list displays the single entries of the selected product change. All fields 
   Click this button to undo the selected change(s). A confirmation window is displayed to confirm the change reversion. This button is only displayed, when the checkbox of a change entry is selected.
 
 
-### Edit product - UCS Warehouse
+## Edit product - UCS Warehouse
 *PIM > Products > Select product > Tab UCS Warehouse*
 
 ![UCS Warehouse](/Assets/Screenshots/PIM/Products/List/UCSWarehouse/UCSWarehouseEdit.png "[UCS Warehouse]")
@@ -1213,7 +1213,7 @@ This tab displays the *Basic data* and *Warehouse / Suppliers* sub-tabs. These s
 [comment]: <> (link to the Corresponding warehouse documentation? What about the buttons [HILFE] and [SPEICHERN]?)
 
 
-### Edit product - UCS Marketplaces
+## Edit product - UCS Marketplaces
 *PIM > Products > Select product > Tab UCS Marketplaces*
 
 ![UCS Marketplaces](/Assets/Screenshots/PIM/Products/List/UCSMarketplaces/UCSMarketplacesEdit.png "[UCS Marketplaces]")
@@ -1223,7 +1223,7 @@ This tab displays the *Basic data* and *webshop* sub-tabs. These sub-tabs are ex
 [comment]: <> (link to the Corresponding material management/Artikelverwaltung documentation? What about the buttons [HILFE] and [SPEICHERN]?)
 
 
-### Edit product - Offers
+## Edit product - Offers
 *PIM > Products > Select product > Tab Offers*
 
 ![Offers](/Assets/Screenshots/PIM/Products/List/Offers/OffersEdit.png "[Offers]")
@@ -1306,7 +1306,7 @@ The list displays all created offers to this product. All fields are read-only.
   Click this button to add a new variant to the product. The [Add to a single connection ![Document](/Assets/Icons/Document.png "[Document]") ] button and the [Add to multiple connections ![Documents](/Assets/Icons/Documents.png "[Documents]") ] button are displayed.
 
 
-#### Add an offer in PIM
+### Add an offer in PIM
 *PIM > Products > Select product > Tab Offers > Button Add*
 
 ![Add](/Assets/Screenshots/PIM/Products/List/Offers/AddEdit.png "[Add]")
@@ -1321,7 +1321,7 @@ The list displays all created offers to this product. All fields are read-only.
   Click this button to cancel the connection creation and exit the current view.
 
 
-#### Add to a single connection
+### Add to a single connection
 *PIM > Products > Select product > Tab Offers > Button Add > Button Add to a single connection*
 
 ![Add to a single connection](/Assets/Screenshots/PIM/Products/List/Offers/SingleConnection.png "[Add to a single connection]")
@@ -1364,10 +1364,10 @@ The list displays all created offers to this product. All fields are read-only.
   Click this button to save the offer and close the *Create Offer* window.
 
 
-#### Add to multiple connections
+### Add to multiple connections
 *PIM > Products > Select product > Tab Offers > Button Add > Button Add to multiple connections*
 
-##### Select connections and status
+#### Select connections and status
 
 ![Add to multiple connections](/Assets/Screenshots/PIM/Products/List/Offers/MultipleConnections01.png "[Add to multiple connections]")
 
@@ -1402,7 +1402,7 @@ The list displays all created offers to this product. All fields are read-only.
   Click this button to proceed to the next step to add multi-connection offers. The *Select destination attribute sets* wizard window is displayed.
 
 
-##### Select destination attribute sets
+#### Select destination attribute sets
 
 ![Add to multiple connections](/Assets/Screenshots/PIM/Products/List/Offers/MultipleConnections02.png "[Add to multiple connections]")
 

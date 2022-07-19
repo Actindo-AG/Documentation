@@ -1,17 +1,19 @@
-[!!PIM](PIM)
 [!!DataHub](DataHub)
+[!!User Interface PIM](/PIM/UserInterface/00_UserInterface.md)
+[!!Create a language](/DataHub/Integration/05_ManageLanguages.md#create-a-language)
+
 
 # Configure the language settings
 
 If you want to maintain PIM products in multiple languages, you have to activate the respective languages in the *PIM* module. By default, the languages *English (United States)* and *German (Germany)* are predefined and activated. Note that the completeness of products is recalculated when a language is activated or deactivated.
 
-## Prerequisites
+#### Prerequisites
 
 No Prerequisites to fulfill.
 
 > [Info] By default, the languages *English (United States)* and the *Deutsch (Deutschland)* are created and activated in the *DataHub* module, see [Create a language](/DataHub/Integration/05_ManageLanguages.md#create-a-language).
 
-## Procedure
+#### Procedure
 *PIM > Settings > Tab LANGUAGES*
 
 ![Languages](/Assets/Screenshots/PIM/Settings/Languages/Languages.png "[Languages]")
@@ -22,18 +24,3 @@ No Prerequisites to fulfill.
 
 2. Press **F5** to initialize the Core1 Platform.   
   The selected language is activated in the *PIM* module.
-
-## Next steps
-
-- [Configure the channel settings](05_ConfigureChannels.md)
-- [Manage the catalogs](06_ManageCatalogs.md)
-- [Manage the variant sets](07_ManageVariantSets.md)
-
-## See also
-
-- [User Interface PIM](/PIM/UserInterface/00_UserInterface.md)
-- [Create a language](/DataHub/Integration/05_ManageLanguages.md#create-a-language)
-- [Manage the attributes](01_ManageAttributes.md)
-- [Manage the attribute sets](02_ManageAttributeSets.md)
-- [Manage the attribute groups](03_ManageAttributeGroups.md)
-- [Manage the products](/PIM/Operation/01_ManageProducts.md)

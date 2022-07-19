@@ -1,5 +1,7 @@
-[!!PIM](PIM)   
 [!!Omni-Channel](Channels)   
+[!!User Interface PIM](/PIM/UserInterface/00_UserInterface.md)   
+[!!Manage the variants](02_ManageVariants.md)
+
 
 # Manage a product
 
@@ -9,11 +11,11 @@ A product defines everything that can be offered and purchased on a market. All 
 
 Create a product to offer it on a marketplace. You can create a product or create variants, see [Create variants](02_ManageVariants.md#create-variants). In the following, the procedure to create a product is described.
 
-### Prerequisites
+#### Prerequisites
 
 An attribute set is created, see [Create an attribute set](/PIM/Integration/02_ManageAttributeSets.md#Create-an-attribute-set).
 
-### Procedure
+#### Procedure
 *PIM > Products > Tab LIST*
 
 ![Product list](/Assets/Screenshots/PIM/Products/List/Products.png "[Product list]")
@@ -41,23 +43,6 @@ An attribute set is created, see [Create an attribute set](/PIM/Integration/02_M
 6. Click the [SAVE] button in the upper right corner.   
   The new product is saved. The *Create product* view is closed. The product list with the new product is displayed.
 
-### Next steps
-
-- [Edit products](#edit-products)
-- [Edit a single product](#edit-a-single-product)
-- [Mass editing](#mass-editing)
-- [Copy a product](#copy-a-product)
-- [Create an offer in PIM](#create-an-offer-in-PIM)
-- [Create a single connection offer in PIM](#create-a-single-connection-offer-in-PIM)
-- [Create a multi-connection offer in PIM](#create-a-multi-connection-offer-in-PIM)
-- [Manage the variants](02_ManageVariants.md)
-- [Move a product](03_MoveProducts.md)
-- [Manage the view](04_ManageView.md)
-
-### See also
-
-- [User Interface PIM](/PIM/UserInterface/00_UserInterface.md)
-- [Create variants](02_ManageVariants.md#create-variants)
 
 
 ## Edit products
@@ -87,21 +72,6 @@ At least one product is created, see [Create a product](#create-a-product).
 3. Click the [SAVE] button in the upper right corner.   
   The changes are saved. The *Edit Product* view is closed.  
 
-#### Next steps
-
-- [Mass editing](#mass-editing)
-- [Copy a product](#copy-a-product)
-- [Create an offer in PIM](#create-an-offer-in-PIM)
-- [Create a single connection offer in PIM](#create-a-single-connection-offer-in-PIM)
-- [Create a multi-connection offer in PIM](#create-a-multi-connection-offer-in-PIM)
-- [Manage the variants](02_ManageVariants.md)
-- [Move a product](03_MoveProducts.md)
-- [Manage the view](04_ManageView.md)
-
-#### See also
-
-- [User Interface PIM](/PIM/UserInterface/00_UserInterface.md)
-- [Create a product](#create-a-product)
 
 
 ### Mass editing
@@ -155,33 +125,17 @@ The *Applying Changes* wizard window and the *Mass editing has been triggered* p
 7. Click the [FINALIZE] button in the bottom right corner.   
   The changes are saved. The *Applying Changes* wizard window is closed.
 
-#### Next steps
-
-- [Copy a product](#copy-a-product)
-- [Create an offer in PIM](#create-an-offer-in-PIM)
-- [Create a single connection offer in PIM](#create-a-single-connection-offer-in-PIM)
-- [Create a multi-connection offer in PIM](#create-a-multi-connection-offer-in-PIM)
-- [Manage the variants](02_ManageVariants.md)
-- [Move a product](03_MoveProducts.md)
-- [Manage the view](04_ManageView.md)
-
-#### See also
-
-- [User Interface PIM](/PIM/UserInterface/00_UserInterface.md)
-- [Create a product](#create-a-product)
-- [Edit products](#edit-products)
-- [Edit a single product](#edit-a-single-product)
 
 
 ## Copy a product
 
 Use the copy function to duplicate a product and its properties to create a similar product where you only have to adjust individual attributes.
 
-### Prerequisites
+#### Prerequisites
 
 At least one product is created, see [Create a product](#create-a-product).
 
-### Procedure
+#### Procedure
 *PIM > Products > Tab LIST*
 
 ![Product list](/Assets/Screenshots/PIM/Products/List/Products.png "[Product list]")
@@ -207,22 +161,6 @@ At least one product is created, see [Create a product](#create-a-product).
 6. Click the [SAVE] button in the upper right corner.   
   The product is saved. The *Edit Product (Copy)* view is closed. The product list with the new product is displayed.
 
-### Next steps
-
-- [Create an offer in PIM](#create-an-offer-in-PIM)
-- [Create a single connection offer in PIM](#create-a-single-connection-offer-in-PIM)
-- [Create a multi-connection offer in PIM](#create-a-multi-connection-offer-in-PIM)
-- [Manage the variants](02_ManageVariants.md)
-- [Move a product](03_MoveProducts.md)
-- [Manage the view](04_ManageView.md)
-
-### See also
-
-- [User Interface PIM](/PIM/UserInterface/00_UserInterface.md)
-- [Create a product](#create-a-product)
-- [Edit products](#edit-products)
-- [Edit a single product](#edit-a-single-product)
-- [Mass editing](#mass-editing)
 
 
 ## Create an offer in PIM
@@ -295,28 +233,11 @@ The single offer is added to the list of offers. The *Create Offer* window is cl
 
   > [Info] It may take some time until the offer is finally created.
 
-#### Next steps
-
-- [Create a multi-connection offer in PIM](#create-a-multi-connection-offer-in-PIM)
-- [Manage the variants](02_ManageVariants.md)
-- [Move a product](03_MoveProducts.md)
-- [Manage the view](04_ManageView.md)
-
-#### See also
-
-- [User Interface PIM](/PIM/UserInterface/00_UserInterface.md)
-- [Create a product](#create-a-product)
-- [Edit products](#edit-products)
-- [Edit a single product](#edit-a-single-product)
-- [Mass editing](#mass-editing)
-- [Copy a product](#copy-a-product)
-- [Create an offer in Omni-Channel](to_be_completed)
 
 
 ### Create a multi-connection offer in PIM
 
 To create offers to a product for several connections at the same time, you can use the multi-connection wizard.  
-
 
 #### Prerequisites
 
@@ -381,20 +302,3 @@ To create offers to a product for several connections at the same time, you can 
 The *Edit Product* view is closed. The *LIST* tab with the product list is displayed again. The new offers are being created.
 
   > [Info] It may take some time until the offers are finally created.
-
-#### Next steps
-
-- [Manage the variants](02_ManageVariants.md)
-- [Move a product](03_MoveProducts.md)
-- [Manage the view](04_ManageView.md)
-
-#### See also
-
-- [User Interface PIM](/PIM/UserInterface/00_UserInterface.md)
-- [Create a product](#create-a-product)
-- [Edit products](#edit-products)
-- [Edit a single product](#edit-a-single-product)
-- [Mass editing](#mass-editing)
-- [Copy a product](#copy-a-product)
-- [Create a single connection offer in PIM](#create-a-single-connection-offer-in-PIM)
-- [Create an offer in Omni-Channel](to_be_completed)

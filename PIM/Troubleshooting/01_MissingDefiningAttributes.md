@@ -1,19 +1,19 @@
-[!!PIM](PIM)
+[!!User Interface PIM](/PIM/UserInterface/00_UserInterface.md)
+[!!Data type list](/PIM/UserInterface/04_DataTypeList.md)
+
 
 # Add a missing defining attribute
 
-## Error Description
+#### Error Description
 A certain attribute is missing in the list of defining attributes for a variant set.
 
 Follow the instructions below to check why the attribute is not displayed and, if applicable, to display the attribute in the list.
 
-
-## Prerequisites
+#### Prerequisites
 
 No prerequisites to fulfill.
 
-## Procedure
-
+#### Procedure
 *PIM > Settings > Tab ATTRIBUTES*
 
 ![Attributes](/Assets/Screenshots/PIM/Settings/Attributes/Attributes.png "[Attributes]")
@@ -61,15 +61,6 @@ No prerequisites to fulfill.
 
 11. Add the attribute to the variant set as described in [Add defining attributes](/PIM/Integration/07_ManageVariantSets.md#add-defining-attributes).
 
-
-## See also
-
-- [User Interface PIM](/PIM/UserInterface/00_UserInterface.md)
-- [Create a variant set](/PIM/Integration/07_ManageVariantSets.md#create-a-variant-set)
-- [Edit a variant set](/PIM/Integration/07_ManageVariantSets.md#edit-a-variant-set)
-- [Add defining attributes](/PIM/Integration/07_ManageVariantSets.md#add-defining-attributes)
-- [Create an attribute](/PIM/Integration/01_ManageAttributes.md#create-an-attribute)
-- [Data type list](/PIM/UserInterface/04_DataTypeList.md)
 
 
 ## Was this chapter helpful?

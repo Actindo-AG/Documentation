@@ -1,5 +1,10 @@
-[!!PIM](PIM)
 [!!DataHub](DataHub)
+[!!User Interface PIM](/PIM/UserInterface/00_UserInterface.md)
+[!!Create a language](/DataHub/Integration/CreateLanguage.md)
+[!!Configure the language settings](/PIM/Integration/04_ConfigureLanguages.md)
+[!!Create a channel](/DataHub/Integration/CreateChannel.md)
+[!!Configure the channel settings](/PIM/Integration/05_ConfigureChannels.md)
+[!!Manage the catalogs](/PIM/Integration/06_ManageCatalogs.md)
 
 # Manage the view
 
@@ -10,13 +15,13 @@ The *LIST* tab is the view where you can see and manage the products. To have a 
 
 You can select the language for which the attribute values of the products are displayed. Only multi-language attributes can have different values in different languages. Otherwise, the value remain the same in all languages. Note that the selected language only refers to the display language of the attribute values but does not equal to the user interface language. To change the interface language, you have to [change the user language settings](to_be_completed).
 
-### Prerequisites
+#### Prerequisites
 
 At least two languages must be created and activated in the *PIM* module, see [Create a language](/DataHub/Integration/CreateLanguage.md) and [Configure the language settings](/PIM/Integration/04_ConfigureLanguages.md).
 
 > [Info] By default, the languages *English (United States)* and *Deutsch (Deutschland)* are created and activated in the *PIM* module.
 
-### Procedure
+#### Procedure
 *PIM > Products > Tab LIST*
 
 ![Product list](/Assets/Screenshots/PIM/Products/List/Products.png "[Product list]")
@@ -31,33 +36,19 @@ At least two languages must be created and activated in the *PIM* module, see [C
 
   > [Info] If a product has no attribute value defined in the selected language, the value in the corresponding columns remains blank.
 
-### Next steps
-
-- [Select a channel](#select-a-channel)
-- [Select a product category](#select-a-product-category)
-- [Select a variant view](#select-a-variant-view)
-- [Create a view](#create-a-view)
-
-### See also
-
-- [User Interface PIM](/PIM/UserInterface/00_UserInterface.md)
-- [Configure the language settings](/PIM/Integration/04_ConfigureLanguages.md)
-- [Create a language](/DataHub/Integration/CreateLanguage.md)
-- [Select the UI language](to_be_completed)
-
 
 
 ## Select a channel
 
 You can select the channel for which the attribute values of the products are displayed. Only multi-channel attributes can have different values in different channels. Otherwise, the value remain the same in all channels.
 
-### Prerequisites
+#### Prerequisites
 
 At least two channels must be created and activated in the *PIM* module, see [Create a channel](/DataHub/Integration/CreateChannel.md) and [Configure the channel settings](/PIM/Integration/05_ConfigureChannels.md).
 
 > [Info] By default, the channel *Actindo Basic* is created and activated in the *PIM* module.
 
-### Procedure
+#### Procedure
 *PIM > Products > Tab LIST*
 
 ![Product list](/Assets/Screenshots/PIM/Products/List/Products.png "[Product list]")
@@ -72,32 +63,19 @@ At least two channels must be created and activated in the *PIM* module, see [Cr
 
   > [Info]  If a product has no attribute value defined in the selected language, the value in the corresponding column remains blank.
 
-### Next steps
-
-- [Select a product category](#select-a-product-category)
-- [Select a variant view](#select-a-variant-view)
-- [Create a view](#create-a-view)
-
-### See also
-
-- [User Interface PIM](/PIM/UserInterface/00_UserInterface.md)
-- [Configure the channel settings](/PIM/Integration/05_ConfigureChannels.md)
-- [Create a channel](/DataHub/Integration/CreateChannel.md)
-- [Select a language](#select-a-language)
-
 
 
 ## Select a product category
 
 You can select a product category to limit the number of products to those products that are assigned to a certain category. You can assign a product to one or multiple categories and catalogs in the product view.
 
-### Prerequisites
+#### Prerequisites
 
 - At least one catalog is created, see [Create a catalog](/PIM/Integration/06_ManageCatalogs.md##create-a-catalog).
 - At least one category is created within the catalog, see [Create a category](/PIM/Integration/06_ManageCatalogs.md##create-a-category).
 - At least one product is assigned to a category, see [Assign a product to a catalog category](/PIM/Integration/06_ManageCatalogs.md##assign-a-product-to-a-catalog-category)
 
-### Procedure
+#### Procedure
 *PIM > Products > Tab LIST*
 
 ![Product list](/Assets/Screenshots/PIM/Products/List/Products.png "[Product list]")
@@ -117,29 +95,17 @@ You can select a product category to limit the number of products to those produ
 
   > [Info] When you create a product, it is automatically assigned to the currently selected category.
 
-### Next steps
-
-- [Select a variant view](#select-a-variant-view)
-- [Create a view](#create-a-view)
-
-### See also
-
-- [User Interface PIM](/PIM/UserInterface/00_UserInterface.md)
-- [Manage the catalogs](/PIM/Integration/06_ManageCatalogs.md)
-- [Select a language](#select-a-language)
-- [Select a channel](#select-a-channel)
-
 
 
 ## Select a variant view
 
 Switch the variant view to either display only the master products and single products in the product list or all products including their variants.
 
-### Prerequisites
+#### Prerequisites
 
 No prerequisites to fulfill.
 
-### Procedure
+#### Procedure
 *PIM > Products > Tab LIST*
 
 ![Product list](/Assets/Screenshots/PIM/Products/List/Products.png "[Product list]")
@@ -153,36 +119,22 @@ No prerequisites to fulfill.
 2. Select the desired variant view in the *Variants* drop-down list.
   Depending on the selection, the product list displays all products or only the master products.
 
-### Next steps
-
-- [Create a view](#create-a-view)
-
-### See also
-
-- [User Interface PIM](/PIM/UserInterface/00_UserInterface.md)
-- [Configure the channel settings](/PIM/Integration/05_ConfigureChannels.md)
-- [Create a channel](/DataHub/Integration/CreateChannel.md)
-- [Select a language](#select-a-language)
-- [Select a channel](#select-a-channel)
-- [Select a product category](#select-a-product-category)
-
 
 
 ## Create a view
 
 Create a view with a predefined selection of the language, the channel, the product category, the variant view and the order of columns in the product list.
 
-### Prerequisites
+#### Prerequisites
 
 No prerequisites to fulfill.
 
 > [Info] Depending on the view you want to create, it is necessary to fulfill the corresponding prerequisites in the chapters [Select a language](#select-a-language), [Select a channel](#select-a-channel) or [Select a product category](#select-a-product-category).
 
-### Procedure
+#### Procedure
 *PIM > Products > Tab LIST*
 
 ![Product list](/Assets/Screenshots/PIM/Products/List/Products.png "[Product list]")
-
 
 1. Select the desired settings for the view, you want to save:
   + Click the *Language* drop-down list and select the desired language.
@@ -225,11 +177,3 @@ No prerequisites to fulfill.
   The view is saved and preselected in the *View* drop-down list.
 
 > [Info] To change the view, click the *View* drop-down list and select the view you want to display. The view changes depending on the saved settings.
-
-### See also
-
-- [User Interface PIM](/PIM/UserInterface/00_UserInterface.md)
-- [Select a language](#select-a-language)
-- [Select a channel](#select-a-channel)
-- [Select a product category](#select-a-product-category)
-- [Select a variant view](#select-a-variant-view)

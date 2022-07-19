@@ -165,6 +165,8 @@ For detailed information about the different configurations of data types, see [
 - [SAVE]   
   Click this button to save the attribute, close the *Edit Attribute* view and return to the attributes list.
 
+
+
 ### Edit attribute - Data
 *PIM > Settings > Tab ATTRIBUTES > Select attribute > Tab Data*
 
@@ -195,6 +197,7 @@ For detailed information about the different configurations of data types, see [
 
 The *CONFIGURATION* section displays the additional configuration for the selected data type. The configuration fields differ depending on the selected data type.    
 For detailed information about the different configurations of data types, see [Data type list](04_DataTypeList.md).
+
 
 
 ### Edit attribute - Attribute set assignments

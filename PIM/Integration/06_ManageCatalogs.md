@@ -1,4 +1,6 @@
-[!!PIM](PIM)
+[!!User Interface PIM](/PIM/UserInterface/00_UserInterface.md)
+[!!Manage the products](/PIM/Operation/01_ManageProducts.md)
+
 
 # Manage a catalog
 
@@ -8,13 +10,17 @@ You can manage products in different catalogs and assign them to categories in o
 
 ## Create a catalog
 
-Create a catalog for new attributes you want to assign to a certain category.
+Create a catalog with at least one category for new attributes you want to assign to a certain category.
 
-### Prerequisites
+### Define the catalog basic data
+
+Create a new catalog and define its name to be able to create one or more categories afterwards.
+
+#### Prerequisites
 
 No prerequisites to fulfill.
 
-### Procedure
+#### Procedure
 *PIM > Settings > Tab CATALOGS*
 
 ![Catalogs](/Assets/Screenshots/PIM/Settings/Catalogs/Catalogs.png "[Catalogs]")
@@ -31,9 +37,20 @@ No prerequisites to fulfill.
 
 3. Enter a name for the catalog in the text field in the header.    
 
-> [Info] You need to add at least one category to the catalog to which you can assign the products.
+4. Continue to [add a category](#create-a-category) to the catalog, as at least one category per catalog is required to which you can assign the products.
 
-#### Create a category
+
+
+### Create a category
+
+You need to add at least one category to a catalog to be able to assign products to it.
+
+#### Prerequisites
+
+The catalog basic data has been created, see [Define the catalog basic data](#define-the catalog-basic-data).
+
+#### Procedure
+*PIM > Settings > Tab CATALOGS > Button Create new*
 
 1. Click the ![Add](/Assets/Icons/Plus01.png "[Add]") (Add) button in the bottom right corner.   
   A plus sign is displayed in the category column.
@@ -59,24 +76,6 @@ No prerequisites to fulfill.
 6. Click the [SAVE] button in the upper right corner.  
   The new catalog is saved. The *Create new catalog* view is closed.
 
-### Next steps
-
-- [Edit a catalog](#edit-a-catalog)
-- [Create a sub-category](#create-a-sub-category)
-- [Change the order of categories](#change-the-order-of-categories)
-- [Delete a category](#delete-a-category)
-- [Assign a product to a catalog category](#assign-a-product-to-a-catalog-category)
-- [Manage the variant sets](07_ManageVariantSets.md)
-
-### See also
-
-- [User Interface PIM](/PIM/UserInterface/00_UserInterface.md)
-- [Manage the attributes](01_ManageAttributes.md)
-- [Manage the attribute sets](02_ManageAttributeSets.md)
-- [Manage the attribute groups](03_ManageAttributeGroups.md)
-- [Configure the language settings](04_ConfigureLanguages.md)
-- [Configure the channel settings](05_ConfigureChannels.md)
-- [Manage the products](/PIM/Operation/01_ManageProducts.md)
 
 
 ## Edit a catalog
@@ -84,6 +83,8 @@ No prerequisites to fulfill.
 After you have created a catalog, you can edit the catalog and its categories. You can create further categories, change the order of categories and delete categories.
 
 ### Create a sub-category
+
+Create a sub-category to be able to assign products to individual categories in an even more detailed way.
 
 #### Prerequisites
 
@@ -134,29 +135,11 @@ At least one catalog with one category is created, see [Create a catalog](#creat
 10. Click the [SAVE] button in the upper right corner.   
   The new sub-category is saved. The *Edit catalog* view is closed.
 
-#### Next steps
-
-- [Change the order of categories](#change-the-order-of-categories)
-- [Delete a category](#delete-a-category)
-- [Assign a product to a catalog category](#assign-a-product-to-a-catalog-category)
-- [Manage the variant sets](07_ManageVariantSets.md)
-
-
-#### See also
-
-- [User Interface PIM](/PIM/UserInterface/00_UserInterface.md)
-- [Create a catalog](#create-a-catalog)
-- [Create a category](#create-a-category)
-- [Manage the attributes](01_ManageAttributes.md)
-- [Manage the attribute sets](02_ManageAttributeSets.md)
-- [Manage the attribute groups](03_ManageAttributeGroups.md)
-- [Configure the language settings](04_ConfigureLanguages.md)
-- [Configure the channel settings](05_ConfigureChannels.md)
-- [Manage the products](/PIM/Operation/01_ManageProducts.md)
-
 
 
 ### Change the order of categories
+
+The order of categories within the catalog is also displayed in the products view. If you want to have a different order, change the order of categories in the desired way.
 
 #### Prerequisites
 
@@ -190,29 +173,11 @@ At least one catalog with one category is created, see [Create a catalog](#creat
 4. Click the [SAVE] button in the upper right corner.  
   The new category order is saved. The *Edit category* view is closed.
 
-#### Next steps
-
-- [Delete a category](#delete-a-category)
-- [Assign a product to a catalog category](#assign-a-product-to-a-catalog-category)
-- [Manage the variant sets](07_ManageVariantSets.md)
-
-
-#### See also
-
-- [User Interface PIM](/PIM/UserInterface/00_UserInterface.md)
-- [Create a catalog](#create-a-catalog)
-- [Create a category](#create-a-category)
-- [Create a sub-category](#create-a-sub-category)
-- [Manage the attributes](01_ManageAttributes.md)
-- [Manage the attribute sets](02_ManageAttributeSets.md)
-- [Manage the attribute groups](03_ManageAttributeGroups.md)
-- [Configure the language settings](04_ConfigureLanguages.md)
-- [Configure the channel settings](05_ConfigureChannels.md)
-- [Manage the products](/PIM/Operation/01_ManageProducts.md)
-
 
 
 ### Delete a category
+
+Delete a category that is no longer needed. If you delete a category containing one or more sub-categories, these sub-categories will be deleted as well.
 
 #### Prerequisites
 
@@ -249,42 +214,21 @@ At least one catalog with one category is created, see [Create a catalog](#creat
 5. Click the ![Delete](/Assets/Icons/Trash01.png "[Delete]") (Delete) button in the bottom left corner of the category data window.    
   The selected category is removed from the category column. The category data window is closed.
 
-  > [Info] If you delete a category containing one or more sub-categories, these sub-categories will be deleted as well.
-
   > [Warning] Make sure that no product is assigned to the category that will be deleted as problems may occur to products that are still assigned to a deleted category.
 
 6. Click the [SAVE] button in the upper right corner.  
   The category is deleted. The *Edit category* view is closed.
 
-#### Next steps
-
-- [Assign a product to a catalog category](#assign-a-product-to-a-catalog-category)
-- [Manage the variant sets](07_ManageVariantSets.md)
-
-#### See also
-
-- [User Interface PIM](/PIM/UserInterface/00_UserInterface.md)
-- [Create a catalog](#create-a-catalog)
-- [Create a category](#create-a-category)
-- [Create a sub-category](#create-a-sub-category)
-- [Change the order of categories](#change-the-order-of-categories)
-- [Manage the attributes](01_ManageAttributes.md)
-- [Manage the attribute sets](02_ManageAttributeSets.md)
-- [Manage the attribute groups](03_ManageAttributeGroups.md)
-- [Configure the language settings](04_ConfigureLanguages.md)
-- [Configure the channel settings](05_ConfigureChannels.md)
-- [Manage the products](/PIM/Operation/01_ManageProducts.md)
-
 
 
 ## Assign a product to a catalog category
 
-### Prerequisites
+#### Prerequisites
 
 - At least one catalog is created, see [Create a catalog](#create-a-catalog).
 - At least one category is created within the catalog, see [Create a category](#create-a-category).
 
-### Procedure
+#### Procedure
 *PIM > Products > Tab LIST*
 
 ![Product list catalog](/Assets/Screenshots/PIM/Products/List/ProductsWithCatalog.png "[Product list catalog]")
@@ -320,23 +264,3 @@ At least one catalog with one category is created, see [Create a catalog](#creat
   The list of products displays only those products that are assigned to the selected category.
 
   ![Select category](/Assets/Screenshots/PIM/Products/List/SelectCategory.png "[Select category]")
-
-### Next steps
-
-[Manage the variant sets](07_ManageVariantSets.md)
-
-### See also
-
-- [User Interface PIM](/PIM/UserInterface/00_UserInterface.md)
-- [Create a catalog](#create-a-catalog)
-- [Create a category](#create-a-category)
-- [Edit a catalog](#edit-a-catalog)
-- [Create a sub-category](#create-a-sub-category)
-- [Change the order of categories](#change-the-order-of-categories)
-- [Delete a category](#delete-a-category)
-- [Manage the attributes](01_ManageAttributes.md)
-- [Manage the attribute sets](02_ManageAttributeSets.md)
-- [Manage the attribute groups](03_ManageAttributeGroups.md)
-- [Configure the language settings](04_ConfigureLanguages.md)
-- [Configure the channel settings](05_ConfigureChannels.md)
-- [Manage the products](/PIM/Operation/01_ManageProducts.md)
