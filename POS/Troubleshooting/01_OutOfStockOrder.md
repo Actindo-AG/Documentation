@@ -1,15 +1,23 @@
 [!!Warehouse](RetailSuiteWarehousing)
 [!!Omni-Channel](Channels)
+[!!User Interface Warehouse](/RetailSuiteWarehousing/UserInterface/00_UserInterface.md)
+[!!User Interface Omni-Channel](/Channels/UserInterface/00_UserInterface.md)
+
 
 # Handle an out-of-stock order
 
-## Error Message
+#### Error message
 
 Error booking bill: [stage: lager_book] Fehler beim Erzeugen der Lagerbuchungen: Der Bestand für Artikel *x* im Lager *x* ist nur 0.00, benötigt würden *x*.
 
 Follow the instructions below if this error message is displayed.
 
-## Procedure
+#### Prerequisites
+
+No prerequisites to fulfill.
+
+#### Procedure
+
 *Warehouse > Quick Booking > Tab QUICK BOOKING > Tab Product list*
 
 ![Product list](/Assets/Screenshots/RetailSuiteWarehousing/QuickBooking/ProductList.png "[Product list]")
@@ -65,17 +73,14 @@ Follow the instructions below if this error message is displayed.
   ![Orders](/Assets/Screenshots/Channels/OrdersReturns/Orders/Orders.png "[Orders]")
 
 7. Select the checkbox of the order that was out-of-order and click the [EXPORT TO OMS] button in the editing toolbar at the top.     
-  The order export is restarted. During the export, the **Being exported** status is displayed in the *Status of Export to OMS* column.
+  The order export is restarted. During the export, the **Being exported** status is displayed in the *Status of export to OMS* column.
 
   > [Info] The export can take several minutes. Click the ![Process](/Assets/Icons/Process.png "[Process]") (Process) button in the upper right corner to display the process window with the current state of export.
 
 8. Click the ![Refresh](/Assets/Icons/Refresh01.png "[Refresh]") (Refresh) button in the upper right corner to update the order list.   
-  The order status in the *Status of Export to OMS* column changed to **Exported**. The order is correctly exported.
+  The order status in the *Status of export to OMS* column changed to **Exported**. The order is correctly exported.
 
-## See also
 
-- [User Interface Warehouse](/RetailSuiteWarehousing/UserInterface/00_UserInterface.md)
-- [User Interface Omni-Channel](/Channels/UserInterface/00_UserInterface.md)
 
 ## Was this chapter helpful?
 

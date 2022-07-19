@@ -1,4 +1,9 @@
-[!!Workflows](ActindoWorkFlow)
+[!!User Interface workflows](/ActindoWorkFlow/UserInterface/02a_Workflows.md)
+[!!User Interface processes](/ActindoWorkFlow/UserInterface/03a_Processes.md)
+[!!User Interface process actions](/ActindoWorkFlow/UserInterface/04a_ProcessActions.md)
+[!!Retry a process action](/ActindoWorkFlow/Troubleshooting/01_RetryProcessAction.md)
+[!!Workflow and process elements](/ActindoWorkFlow/Overview/02_WorkflowProcessElements.md)
+
 
 # Track the workflow process
 
@@ -16,12 +21,12 @@ The process status can be checked to monitor how far a process has progressed, d
 The *OVERVIEW* tab in the *Processes* menu entry displays a list of all processes that are currently being executed or have been executed in the system. By default, all existing processes are displayed but can also be filtered according to different criteria.
 
 
-### Prerequisites
+#### Prerequisites
 
 - A workflow is created, see [Create a workflow](01_ManageWorkflows.md#create-a-workflow).
 - A workflow process has been initiated.
 
-### Procedure
+#### Procedure
 
 *Workflows > Processes > Tab OVERVIEW*
 
@@ -39,21 +44,6 @@ All processes of the selected workflow are displayed.
 For detailed information about individual process actions, see [Check the process action status](#check-the-process-action-status).   
 For detailed information about tokens, see [Check the token status and content](#check-the-token-status-and-content).
 
-### Next steps
-
-- [Check the process action status](#check-the-process-action-status)
-- [Check the token status and content](#check-the-token-status-and-content)
-
-### See also
-
-- [User Interface workflows](/ActindoWorkFlow/UserInterface/00_UserInterface.md)
-- [Manage the workflows](01_ManageWorkflows.md)
-- [Retry process action](/ActindoWorkFlow/Troubleshooting/01_RetryProcessAction.md)
-- [Workflow and process elements](/ActindoWorkFlow/Overview/02_WorkflowProcessElements.md)
-- [Workflows](/ActindoWorkFlow/UserInterface/02a_Workflows.md)
-- [Processes](/ActindoWorkFlow/UserInterface/03a_Processes.md)
-- [Process actions](/ActindoWorkFlow/UserInterface/04a_ProcessActions.md)
-
 
 
 ## Check the process action status
@@ -64,12 +54,12 @@ The *Process ID* view displays a diagram of the selected process including all p
 
 Further details about the process actions included in the diagram as well as about the logs and tokens are displayed in separate tabs at the bottom of the *Process ID* view.
 
-### Prerequisites
+#### Prerequisites
 
 - A workflow is created, see [Create a workflow](01_ManageWorkflows.md#create-a-workflow).
 - A workflow process has been initiated.
 
-### Procedure
+#### Procedure
 
 *Workflows > Processes > Tab OVERVIEW > Select process*
 
@@ -96,7 +86,6 @@ Further details about the process actions included in the diagram as well as abo
 The selected action is displayed in the *Actions* tab.
 
 5. Check the action status in the *Status* column. The following statuses can be displayed:  
-
     - *In progress*
     - *Done*  
     - *Error*   
@@ -115,21 +104,6 @@ The selected action is displayed in the *Actions* tab.
 9.  Check when the action will be executed next time in the *Defer until* column.
 
 > [Info] A list of all actions, regardless of the process they are part of, can be displayed in the *Process Actions* tab. There they can be filtered according to their status and modified simultaneously, if necessary. By clicking a specific action in the process actions list, the corresponding *Process ID* view will be displayed. For detailed information, see [Process actions](ActindoWorkFlow/UserInterface/04a_ProcessActions.md).
-
-### Next steps
-
-- [Check the token status and content](#check-the-token-status-and-content)
-
-### See also
-
-- [User Interface workflows](/ActindoWorkFlow/UserInterface/00_UserInterface.md)
-- [Check the process status](#check-the-process-status)
-- [Manage the workflows](01_ManageWorkflows.md)
-- [Retry process action](/ActindoWorkFlow/Troubleshooting/01_RetryProcessAction.md)
-- [Workflow and process elements](/ActindoWorkFlow/Overview/02_WorkflowProcessElements.md)
-- [Workflows](/ActindoWorkFlow/UserInterface/02a_Workflows.md)
-- [Processes](/ActindoWorkFlow/UserInterface/03a_Processes.md)
-- [Process actions](/ActindoWorkFlow/UserInterface/04a_ProcessActions.md)
 
 
 
@@ -168,7 +142,6 @@ The places are green if at least token has passed through them, otherwise they a
 The token input in the selected place, if any, is displayed in the *Tokens* tab. Otherwise, an information message is displayed.
 
 5. Check the token status in the *Status* column. The following statuses are available:
-
   - Processed (green)
   - Being processed (blue)
   - Error (red)
@@ -184,18 +157,3 @@ The token input in the selected place, if any, is displayed in the *Tokens* tab.
 9. If necessary, click an action in the diagram to display further information in the *Actions* tab. For detailed information about checking action status, see [Check the process action status](#check-the-process-action-status).
 
 > [Info] A number is also displayed next to the status of each action. This number refers to the number of tokens processed in this action, and it depends on the action status and the number of tokens received.
-
-### Next steps
-
-[Retry process action](/ActindoWorkFlow/Troubleshooting/01_RetryProcessAction.md)
-
-### See also
-
-- [User Interface workflows](/ActindoWorkFlow/UserInterface/00_UserInterface.md)
-- [Check the process status](#check-the-process-status)
-- [Check the process action status](#check-the-process-action-status)
-- [Manage the workflows](01_ManageWorkflows.md)
-- [Workflow and process elements](/ActindoWorkFlow/Overview/02_WorkflowProcessElements.md)
-- [Workflows](/ActindoWorkFlow/UserInterface/02a_Workflows.md)
-- [Processes](/ActindoWorkFlow/UserInterface/03a_Processes.md)
-- [Process actions](/ActindoWorkFlow/UserInterface/04a_ProcessActions.md)
