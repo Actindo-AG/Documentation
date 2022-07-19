@@ -37,7 +37,7 @@ The attributes for the attribute set are created, see [Create an attribute](01_M
 
   > [Info] In order to facilitate the assignment of sets in the further process, it is recommended to add the prefix **pimset_** to all attribute sets created in the *PIM* module.
 
-4. For the next steps to create an attribute set, follow the appropriate sub-procedure:   
+4. For the next steps to create an attribute set, follow the appropriate procedure:   
     - [Create an attribute set without attribute inheritance](#create-an-attribute-set-without-attribute-inheritance)
     - [Create an attribute set with attribute inheritance](#create-an-attribute-set-with-attribute-inheritance)
     - [Create an attribute set with attribute copying](#create-an-attribute-set-with-attribute-copying)

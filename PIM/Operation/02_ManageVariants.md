@@ -172,7 +172,7 @@ You can add a single or multiple variants to a product directly when you create 
 4. Click the ![Add](/Assets/Icons/Plus01.png "[Add]") (Add) button in the variants box.   
   The [Add single variant ![Add single variant](/Assets/Icons/Document.png "[Add single variant]") ] button and the [Add multiple variants ![Add multiple variants](/Assets/Icons/Documents.png "[Add multiple variants]") ] button are displayed.
 
-5. Follow one of the described sub-procedures:
+5. Follow one of the described procedures:
   - To add a single variant to the product, see [Create a single variant](#create-a-single-variant).
   - To add multiple variants to the product, see [Create multiple variants](#create-multiple-variants).
 
