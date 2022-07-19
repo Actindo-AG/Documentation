@@ -124,7 +124,7 @@ You can adjust the stock quantity of your POS products, for instance because of 
 
   ![Context menu](/Assets/Screenshots/RetailSuiteWarehousing/QuickBooking/ContextMenu.png "[Context menu]")   
 
-  The article details are displayed on several tabs below the article list. The tab *Basic data* is preselected.
+  The article details are displayed on several tabs below the article list. The *Basic data* tab is preselected.
 
   ![Basic data](/Assets/Screenshots/RetailSuiteWarehousing/QuickBooking/BasicData/BasicData.png "[Basic data]")
 

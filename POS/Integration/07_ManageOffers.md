@@ -39,11 +39,11 @@ No prerequisites to fulfill.
   > [Info] The SKU (Stock Keeping Unit) is an identification number for the product. Therefore, it has to be uniquely assigned to a single product and should not be changed once assigned.
 
 4. Click the button [CREATE] in the bottom right corner.   
-  The *Create new product* window is closed. The *Create product* view is displayed in the *List* tab. The sub  *Attributes* tab is preselected.
+  The *Create new product* window is closed. The *Create product* view is displayed in the *List* tab. The *Attributes* sub-tab is preselected.
 
    ![Attributes](/Assets/Screenshots/PIM/Products/List/Attributes/AttributesCreate.png "[Attributes]")
 
-5. Enter the product data in the fields of the tab *Attributes*. You must at least enter a product name, a price and a tax class.
+5. Enter the product data in the fields of the *Attributes* sub-tab. You must at least enter a product name, a price and a tax class.
 
   > [Info] If you want to create a variant to the master product, you have to specify it in the *Variants* tab.   
   For detailed information on how to create a variant, see [Create variants](/PIM/Operation/02_ManageVariants.md#create-variants).
