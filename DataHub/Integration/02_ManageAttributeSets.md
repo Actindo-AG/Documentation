@@ -13,7 +13,7 @@ You can create attribute sets, edit existing attribute sets and deactivate attri
 
 ## Create an attribute set
 
-Create an attribute set to define a new product type with different attributes to the predefined attribute sets.
+Create an attribute set to define a new attribute set with different attributes to the predefined attribute sets.
 In contrast to attribute sets created in the *PIM* module, you have to select an entity type for the attribute set.
 
 [comment]: <> (What does that mean -> what consequences has the entity type? All PIM attribute sets = entity type PIM product? List of entity types?)
@@ -44,7 +44,7 @@ The attributes for the attribute set are created, see [Create an attribute](01_M
 
 [comment]: <> (More information about the entity type!)
 
-5. For the next steps to create an attribute set, follow the appropriate sub-procedure:   
+5. For the next steps to create an attribute set, follow the appropriate procedure:   
     - [Create an attribute set without attribute inheritance](#create-an-attribute-set-without-attribute-inheritance)
     - [Create an attribute set with attribute inheritance](#create-an-attribute-set-with-attribute-inheritance)
     - [Create an attribute set with attribute copying](#create-an-attribute-set-with-attribute-copying)
