@@ -1,6 +1,44 @@
 # Data type list
 
-To [create an attribute](/PIM/Integration/01_ManageAttributes.md#create-an-attribute), you have to define a data type. In the following, all available data types, their use and their configuration are described in detail.
+To [create an attribute](/PIM/Integration/01_ManageAttributes.md#create-an-attribute), you have to define a data type. The list of data types may vary depending on the installed modules and plugins. In the following, the commonly available data types, their use and their configuration are described in detail:
+
+- [Textfield](#textfield)
+- [Checkbox](#checkbox)
+- [Floating point number](#floating-point-number)
+- [Integer](#integer)
+- [String](#string)
+- [Currency](#currency)
+- [Language](#language)
+- [Country](#country)
+- [TreeNode](#treenode)
+- [Comlpeteness](#completeness-internal-not-editable)
+- [Number with unit](#number-with-unit)
+- [Sales unit value](#sales-unit-value)
+- [Simple price field](#simple-price-field)
+- [Stock value](#stock-value)
+- [EntityCollectionValue](#entitycollectionvalue-internal-not-editable)
+- [IntegerCollectionValue](#integercollectionvalue-internal-not-editable)
+- [StringCollectionValue](#stringcollectionvalue-internal-not-editable)
+- [JSON](#json-internal-not-editable)
+- [Taxclass](#taxclass)
+- [Taxzone](#taxzone)
+- [Images](#images)
+- [Files](#files)
+- [PIM-Channels connection](#pimchannels-connection-internal-not-editable)
+- [UCS product bundle](#ucs-product-bundle-internal-not-editable)
+- [URLs](#urls-internal-not-editable)
+- [Cloudinary image](#cloudinary-image)
+- [Cloudinary video](#cloudinary-video)
+- [XML](#xml-internal-not-editable)
+- [Offer bundle](#offer-bundle)
+- [Object](#object-internal-not-editable)
+- [Encrypted value](#encrypted-value-internal-not-editable)
+- [Related products](#related products)
+- [PIM price field](#pim-price-field)
+- [Product variants](#product-variants-internal-not-editable)
+- [Product bundle](#product-bundle)
+- [Packaging unit](#packaging-unit)
+
 
 ## Textfield
 
@@ -186,10 +224,10 @@ The data type *TreeNode* is used for indications with multiple, predefined selec
 ![Add element](/Assets/Screenshots/PIM/DataTypes/Configuration/AddElement.png "[Add element]")
 
 - *Name*   
-  Enter the attribute value name.
+  Enter the tree node name.
 
 - *Key*   
-  Enter the attribute value key.
+  Enter the tree node key.
 
 - [CANCEL]   
   Click this button to cancel adding a value.
@@ -201,6 +239,7 @@ The data type *TreeNode* is used for indications with multiple, predefined selec
 ## Completeness (internal, not editable)
 
 This data type is for internal use only. It is strongly advised not to use this data type without the required knowledge.   
+The data type is used to show the completeness of a product, according to the required fields in the attribute set.
 In the *PIM Basic Set*, the following attributes have the data type *Completeness*:
 - Completeness
 
@@ -238,7 +277,7 @@ The data type *DateTime* is used to indicate a date and/or a time. You can confi
 
 ![DateTime](/Assets/Screenshots/PIM/DataTypes/Configuration/DateTime.png "[DateTime]")
 
-- *Date*
+- *Date*   
   Click the drop-down list to select a date format. The formats below are available. By default, the date format **Short** is selected.
   - **Do not show date**: hidden date
   - **Short**: short format, for example 02/11/2021
@@ -303,13 +342,13 @@ The data type *Stock Value* is used to indicate the number of stocks. You can co
 
 ![Stock Value](/Assets/Screenshots/PIM/DataTypes/Configuration/StockValue.png "[Stock Value]")
 
-- *Precision*
+- *Precision*   
   Enter the number of decimals for the stock value. By default the number of decimals is set to **4**.  
 
-- ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Read only*
+- ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Read only*   
   Enable this toggle to set the stock value read-only. Disable the toggle to set the stock value editable. By default, this toggle is enabled.
 
-  > [Info] If the warehouse logistic for an product is active and the *Invoicing* module is correctly connected, the stocks are transferred from the invoicing and automatically written into this attribute value. It is only recommended to deactivate the toggle *Read only* if the warehouse logistic is inactive and a stock value is needed.
+  > [Info] If the warehouse logistic for an product is active and the *Warehousing* module is correctly connected, the stocks are transferred from the invoicing and automatically written into this attribute value. It is only recommended to deactivate the toggle *Read only* if the warehouse logistic is inactive and a stock value is needed.
 
 
 ## EntityCollectionValue (internal, not editable)
@@ -438,7 +477,7 @@ The data type *Cloudinary Image* is used to attach image files from Cloudinary. 
 - *Folder*   
   Enter a folder name where the images are put into. If the folder is not yet created in Cloudinary, it is automatically created when uploading the first image. Use placeholders to define product specific folder, for instance **{sku}**.
 
-- ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Read only*
+- ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Read only*   
   Enable this toggle to set the C*loudinary Image* value read-only. Disable the toggle to set the *Cloudinary Image* value editable. By default, this toggle is disabled.
 
 - *Import Regex*     
@@ -468,7 +507,7 @@ The data type *Cloudinary Video* is used to attach video files from Cloudinary. 
 - *Folder*   
   Enter a folder name where the videos are put into. If the folder is not yet created in Cloudinary, it is automatically created when uploading the first video file. Use placeholders to define product specific folder, for instance **{sku}**.
 
-- ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Read only*
+- ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Read only*   
   Enable this toggle to set the *Cloudinary Video* value read-only. Disable the toggle to set the *Cloudinary Video* value editable. By default, this toggle is disabled.
 
 - *Import Regex*     
@@ -494,14 +533,11 @@ This data type is for internal use only. It is strongly advised not to use this 
 
 ![Offer bundle](/Assets/Screenshots/PIM/DataTypes/OfferBundle.png "[Offer bundle]")
 
-The data type *Offer bundle* is used to
-
-[comment]: <> (For what?)
+The data type *Offer bundle* is used to create bundles of multiple other products. The data type is only used for Omni-Channel offers, but not for PIM products.
 
 ### Configuration
 
 ![Offer bundle](/Assets/Screenshots/PIM/DataTypes/Configuration/OfferBundle.png "[Offer bundle]")
-
 
 - *Min relations*     
   Enter the minimum number of offers that must be related for an offer bundle.
