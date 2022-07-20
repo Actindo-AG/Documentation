@@ -97,7 +97,10 @@ Click this button to proceed to the next step.
 This message is displayed during the export process.  
 
 - [CANCEL]  
-Click this button to cancel the process.
+Click this button to cancel the process. After a few seconds, the [CANCEL] button changes to a [CLOSE] button.  
+
+- [CLOSE]  
+Click this button to close the window. This will cancel the export.    
 
 A pop-up window confirms that the selected data have been exported correctly. Click the OK button to proceed to the next step.
 
@@ -112,7 +115,7 @@ A pop-up window confirms that the selected data have been exported correctly. Cl
 - *Exported files*  
 The exported file(s) are displayed and can be downloaded by clicking on the file name(s).
 
-- [WEITER]  
+- [CONTINUE]  
 
 [comment]: <> (WEITER/CONTINUE Button bei allen Exporten ausgegraut > CLOSE Button? --> Bug)
 
@@ -158,13 +161,11 @@ Click the drop-down list to select the applicable file content. The following op
 
 
 - *Export def.*  
-Click the drop-down list to select the appropriate export definition. The export definitions are preconfigured in the system but they can be edited. The following options are available:
-  - **Lexware Pro (customers)**
-  - **Lexware Pro (suppliers)**
+Click the drop-down list to select the appropriate export definition. The export definitions are preconfigured in the system but they can be edited. All created export definitions are displayed in the drop-down list.
 
 
 - [Edit]  
-Click this button to edit the export definitions. The *Import/export definitions* is displayed, see [Import/export definitions](#importexport-definitions).
+Click this button to add, edit or delete an export definitions. The *Import/export definitions* is displayed, see [Import/export definitions](#importexport-definitions).
 
 - *Export*  
 Click the drop-down list to select the specific data to be exported. The following options are available:  
@@ -173,9 +174,11 @@ Click the drop-down list to select the specific data to be exported. The followi
   - **Customers only**
   - **Suppliers only**
   - **Custom**  
-  When selecting this option, the following field is displayed:
-	   - *Selection from - to*  
-     Specify the account number range to be exported. You can enter the account numbers manually with the keyboard or use the increase/decrease arrows.
+  When selecting this option, the *Selection from - to* fields are displayed.
+
+
+- *Selection from - to*  
+Enter the account number range to be exported. You can enter the account numbers manually with the keyboard or use the increase/decrease arrows.
 
 
 - [CONTINUE]  
@@ -193,6 +196,9 @@ This message is displayed during the export process.
 - [CANCEL]  
 Click this button to cancel the process.
 
+- [CLOSE]  
+Click this button to close the window. This will cancel the export.    
+
 A pop-up window confirms that the selected data have been exported correctly. Click the OK button to proceed to the next step.
 
 
@@ -204,7 +210,7 @@ A pop-up window confirms that the selected data have been exported correctly. Cl
 - *Exported files*  
 The exported file(s) are displayed and can be downloaded by clicking on the file name(s).
 
-- [WEITER]  
+- [CONTINUE]  
 
 [comment]: <> (WEITER/CONTINUE Button bei allen Exporten ausgegraut > CLOSE Button? --> Bug)
 
@@ -214,9 +220,9 @@ The exported file(s) are displayed and can be downloaded by clicking on the file
 
 *Accounting > Select fiscal year > Extras > Tab EXPORT > Button DATEV CSV*
 
-![Import DATEV CSV Step 1](/Assets/Screenshots/RetailSuiteAccounting/Extras/Export/ExportDatevCVS01.png "[Import DATEV CSV Step 1]")
+![Export DATEV CSV Step 1](/Assets/Screenshots/RetailSuiteAccounting/Extras/Export/ExportDatevCVS01.png "[Export DATEV CSV Step 1]")
 
-![Import DATEV CSV Step 1](/Assets/Screenshots/RetailSuiteAccounting/Extras/Export/ExportDatevCVS01cust.png "[Import DATEV CSV Step 1]")
+![Export DATEV CSV Step 1](/Assets/Screenshots/RetailSuiteAccounting/Extras/Export/ExportDatevCVS01cust.png "[Export DATEV CSV Step 1]")
 
 For detailed information about exporting data for DATEV, see [Export the data for DATEV](/RetailSuiteAccounting/Operation/15_ProvideAccountingData.md#export-the-data-for-datev).
 
@@ -252,6 +258,7 @@ Click the drop-down list to select the impersonal accounts to be exported. The f
   When selecting this option, the *Custom (e.g. 1200, 1800-1850)* field is displayed.
   - **No**  
 
+
 - *Custom (e.g. 1200, 1800-1850)*  
 Enter an account number or an account number range to be exported.
 
@@ -261,19 +268,22 @@ Click the drop-down list to select the appropriate option (**Yes/No**).
 [comment]: <> (Check was Unterbuchungen sind)
 
 - *Personal accounts*  
-Click the drop-down list to select the impersonal accounts to be exported. The following options are available:  
+Click the drop-down list to select the personal accounts to be exported. The following options are available:  
 
   - **Yes**  
-  - **Custom**  When selecting this option, the *Custom (e.g. 10000, 39999-49999)* field is displayed.
+  - **Custom**   
+  When selecting this option, the *Custom (e.g. 10000, 39999-49999)* field is displayed.
   - **No**  
+
 
 - *Custom (e. g. 10000, 39999-49999)*    
 Enter an account number or an account number range to be exported.
 
 - *Export only booking-relevant master data records*  
- (**No/Yes**)
+ Click the drop-down list to select the appropriate option (**Yes/No**)
 
 - *Take Receipt 2 field in the export document from booking record field*  
+Click the drop-down list to select the appropriate option. The following options are available:  
 
   - **Receipt 1**
   - **Receipt 2**
@@ -281,18 +291,23 @@ Enter an account number or an account number range to be exported.
   - **Receipt 4**
 
 
-- *Add tax keys also in split bookings of automatic accounts*
-(**No/Yes**)
+- *Add tax keys also in split bookings of automatic accounts*  
+Click the drop-down list to select the appropriate option (**Yes/No**).
 
 - *Saved personal accounts length*  
+Click the drop-down list to select the appropriate option. The account length refers to the number of character used to define personal accounts (5-9) and intends to avoid exporting incomplete account numbers.
 
-- *DATEV advisor number*
-- *DATEV client number*
+- *DATEV advisor number*  
+Enter the DATEV advisor number, if applicable.
 
-- [CONTINUE]
+- *DATEV client number*  
+Enter the DATEV client  number, if applicable.
+
+- [CONTINUE]  
+Click this button to proceed to the next step.
 
 
-![Import DATEV CSV Step 2](/Assets/Screenshots/RetailSuiteAccounting/Extras/Export/ExportDatevCVS02.png "[Import DATEV CSV Step 2]")
+![Export DATEV CSV Step 2](/Assets/Screenshots/RetailSuiteAccounting/Extras/Export/ExportDatevCVS02.png "[Export DATEV CSV Step 2]")
 
 **Step 2**
 
@@ -302,17 +317,20 @@ This message is displayed during the export process.
 - [CANCEL]  
 Click this button to cancel the process.
 
+- [CLOSE]  
+Click this button to close the window. This will cancel the export.   
+
 A pop-up window confirms that the selected data have been exported correctly. Click the OK button to proceed to the next step.
 
 
-![Import DATEV CSV Step 3](/Assets/Screenshots/RetailSuiteAccounting/Extras/Export/ExportDatevCVS03.png "[Import DATEV CSV Step 3]")
+![Export DATEV CSV Step 3](/Assets/Screenshots/RetailSuiteAccounting/Extras/Export/ExportDatevCVS03.png "[Export DATEV CSV Step 3]")
 
 **Step 3**
 
 - *Exported files*  
 The exported file(s) are displayed and can be downloaded by clicking on the file name(s).
 
-- [WEITER]  
+- [CONTINUE]  
 
 [comment]: <> (WEITER/CONTINUE Button bei allen Exporten ausgegraut > CLOSE Button? --> Bug)
 
@@ -322,55 +340,351 @@ The exported file(s) are displayed and can be downloaded by clicking on the file
 
 *Accounting > Select fiscal year > Extras > Tab EXPORT > Button GDI*
 
-![Import GDI Step 1](/Assets/Screenshots/RetailSuiteAccounting/Extras/Export/GDI01.png "[Import GDI Step 1]")
+![Export GDI Step 1](/Assets/Screenshots/RetailSuiteAccounting/Extras/Export/GDI01.png "[Export GDI Step 1]")
 
 **Step 1**
 
-![Import GDI Step 2](/Assets/Screenshots/RetailSuiteAccounting/Extras/Export/GDI02.png "[Import GDI Step 2]")
+- *Fiscal year*  
+Click the drop-down list to select the fiscal year to be exported.
+
+- *Period*  
+Specify the period to be exported.  
+
+  - *Months*  
+  Enter the month range to be exported.
+
+  - *Journals*  
+  Enter the journal range to be exported.
+
+- *Impersonal accounts*  
+Click the drop-down list to select the impersonal accounts to be exported. The following options are available:  
+
+  - **Only individually changed**  
+  - **All**  
+  - **No**  
+
+
+- *Personal accounts*  
+Click the drop-down list and select the appropriate option (**Yes/No**).
+
+- [CONTINUE]  
+Click this button to proceed to the next step.
+
+
+![Export GDI Step 2](/Assets/Screenshots/RetailSuiteAccounting/Extras/Export/GDI02.png "[Export GDI Step 2]")
 
 **Step 2**
 
+- *Exporting*  
+This message is displayed during the export process.  
 
-![Import GDI Step 3](/Assets/Screenshots/RetailSuiteAccounting/Extras/Export/GDI03.png "[Import GDI Step 3]")
+- [CANCEL]  
+Click this button to cancel the process.  
+
+- [CLOSE]  
+Click this button to close the window. This will cancel the export.   
+
+A pop-up window confirms that the selected data have been exported correctly. Click the OK button to proceed to the next step.
+
 
 **Step 3**
 
+![Export GDI Step 3](/Assets/Screenshots/RetailSuiteAccounting/Extras/Export/GDI03.png "[Export GDI Step 3]")
+
+- *Exported files*  
+The exported file(s) are displayed and can be downloaded by clicking on the file name(s).
+
+- [CONTINUE]  
+
+[comment]: <> (WEITER/CONTINUE Button bei allen Exporten ausgegraut > CLOSE Button? --> Bug)
 
 
 ## GDPdU export
 
 *Accounting > Select fiscal year > Extras > Tab IMPORT > Button GDPDU EXPORT*
 
-![Import Compeso 7.X Step 1](/Assets/Screenshots/RetailSuiteAccounting/Extras/Import/Compeso01.png "[Import Compeso 7.X Step 1]")
+![Export GDPDU Step 1](/Assets/Screenshots/RetailSuiteAccounting/Extras/Export/ExportGDPdU01.png "[Export GDPDU Step 1]")
+
+ For detailed information about exporting data in GDPdU-compliant audit file format, see [Export the data GDPdU-compliant](/RetailSuiteAccounting/Operation/15_ProvideAccountingData.md#export-the-data-GDPdU-compliant).
+
 
 **Step 1**
+
+- *Fiscal year*  
+Click the drop-down list to select the fiscal year to be exported.
+
+- *Period*  
+Specify the period to be exported.  
+
+  - *Months*  
+  Enter the month range to be exported.
+
+  - *Journals*  
+  Enter the journal range to be exported.
+
+- *Personal accounts*  
+Click the drop-down list and select the appropriate option (**Yes/No**).
+
+
+- *Export only booking-relevant master data records*  
+ Click the drop-down list to select the appropriate option (**Yes/No**).
+
+- *Saved personal accounts length*  
+Click the drop-down list to select the appropriate option. The account length refers to the number of character used to define personal accounts (5-9) and intends to avoid exporting incomplete account numbers.
+
+- *DATEV advisor number*  
+Enter the DATEV advisor number, if applicable.
+
+- *DATEV client number*  
+Enter the DATEV client  number, if applicable.
+
+- [CONTINUE]  
+Click this button to proceed to the next step.
+
+
+![Export GDPDU Step 2](/Assets/Screenshots/RetailSuiteAccounting/Extras/Export/ExportGDPdU02.png "[Export GDPDU Step 2]")
+
+**Step 2**
+
+- *Exporting*  
+This message is displayed during the export process.  
+
+- [CANCEL]  
+Click this button to cancel the process.  
+
+- [CLOSE]  
+Click this button to close the window. This will cancel the export.   
+
+A pop-up window confirms that the selected data have been exported correctly. Click the OK button to proceed to the next step.
+
+
+![Export GDPDU Step 3](/Assets/Screenshots/RetailSuiteAccounting/Extras/Export/ExportGDPdU03.png "[Export GDPDU Step 3]")
+
+**Step 3**
+
+- *Exported files*  
+The exported file(s) are displayed and can be downloaded by clicking on the file name(s).
+
+- [CONTINUE]  
+
+[comment]: <> (WEITER/CONTINUE Button bei allen Exporten ausgegraut > CLOSE Button? --> Bug)
 
 
 ## Open items
 
 *Accounting > Select fiscal year > Extras > Tab EXPORT > Button OPEN ITEMS*
 
-![Import Compeso 7.X Step 1](/Assets/Screenshots/RetailSuiteAccounting/Extras/Import/Compeso01.png "[Import Compeso 7.X Step 1]")
+![Export Open items Step 1](/Assets/Screenshots/RetailSuiteAccounting/Extras/Export/OpenItems01.png "[Export Open items Step 1]")
 
 **Step 1**
+
+- *Fiscal year*  
+Click the drop-down list to select the fiscal year to be exported.
+
+- *Period*  
+Specify the period to be exported.  
+
+  - *Months*  
+  Enter the month range to be exported.
+
+  - *Journals*  
+  Enter the journal range to be exported.
+
+- *Selection*  
+Click the applicable radio button to select the appropriate option:
+  - ![Radio button](/Assets/Icons/RadioButton02.png "[Radio button]") *Export all*
+  - ![Radio button](/Assets/Icons/RadioButton02.png "[Radio button]") *All from last export on (if last export exists, otherwise all)*
+  - *Set marker to export time*  
+  Mark the checkbox if time is to be exported.
+
+
+- *Items*  
+Click the drop-down list to select the items to be exported. The following options are available:
+
+  - **Open items**
+  - **Items paid**
+  - **Open and paid items**
+
+
+- *File content*  
+Click the drop-down list to select the applicable file content. The following options are available:
+
+  - **Customers/suppliers**
+  - **Chart of accounts**
+  - **Bookings**  
+
+
+- *Export def.*  
+Click the drop-down list to select the appropriate export definition. The export definitions are preconfigured in the system but they can be edited. All created export definitions are displayed in the drop-down list.
+
+- [Edit]  
+Click this button to add, edit or delete an export definitions. The *Import/export definitions* is displayed, see [Import/export definitions](#importexport-definitions).
+
+- [CONTINUE]  
+Click this button to proceed to the next step.
+
+
+![Export Open items Step 2](/Assets/Screenshots/RetailSuiteAccounting/Extras/Export/OpenItems02.png "[Export Open items Step 2]")
+
+**Step 2**
+
+- *Exporting*  
+This message is displayed during the export process.  
+
+- [CANCEL]  
+Click this button to cancel the process.  
+
+- [CLOSE]  
+Click this button to close the window. This will cancel the export.   
+
+A pop-up window confirms that the selected data have been exported correctly. Click the OK button to proceed to the next step.
+
+
+
+![Export Open items Step 3](/Assets/Screenshots/RetailSuiteAccounting/Extras/Export/OpenItems03.png "[Export Open items Step 3]")
+
+**Step 3**
+
+- *Exported files*  
+The exported file(s) are displayed and can be downloaded by clicking on the file name(s).
+
+- [CONTINUE]  
+
+[comment]: <> (WEITER/CONTINUE Button bei allen Exporten ausgegraut > CLOSE Button? --> Bug)
+
 
 
 ## Balance lists
 
 *Accounting > Select fiscal year > Extras > Tab EXPORT > Button BALANCE LISTS*
 
-![Import Compeso 7.X Step 1](/Assets/Screenshots/RetailSuiteAccounting/Extras/Import/Compeso01.png "[Import Compeso 7.X Step 1]")
+![Export Balance lists Step 1](/Assets/Screenshots/RetailSuiteAccounting/Extras/Export/BalanceList01.png "[Export Balance lists Step 1]")
+
+![Export Balance lists Step 1](/Assets/Screenshots/RetailSuiteAccounting/Extras/Export/BalanceList01cust.png "[Export Balance lists Step 1]")
 
 **Step 1**
+
+- *Fiscal year*  
+Click the drop-down list to select the fiscal year to be exported.
+
+- *Period*  
+Specify the period to be exported.  
+
+  - *Months*  
+  Enter the month range to be exported.
+
+  - *Journals*  
+  Enter the journal range to be exported.
+
+- *Accounts*  
+Click the drop-down list to select the accounts to be exported. The following options are available:  
+  - **Impersonal accounts**  
+  - **Customers (10000-69999)**  
+  - **Suppliers (70000-99999)**  
+  - **Custom**  
+    When selecting this option, the *Account from* and *Account to* fields are displayed.
+
+
+- *Account from*  - *Account to*  
+Enter the account number range to be exported.
+
+- [CONTINUE]  
+Click this button to proceed to the next step.
+
+
+
+![Export Balance lists Step 2](/Assets/Screenshots/RetailSuiteAccounting/Extras/Export/BalanceList02.png "[Export Balance lists Step 2]")
+
+**Step 2**
+
+- *Exporting*  
+This message is displayed during the export process.  
+
+- [CANCEL]  
+Click this button to cancel the process.  
+
+- [CLOSE]  
+Click this button to close the window. This will cancel the export.   
+
+A pop-up window confirms that the selected data have been exported correctly. Click the OK button to proceed to the next step.
+
+
+![Export Balance lists Step 3](/Assets/Screenshots/RetailSuiteAccounting/Extras/Export/BalanceList03.png "[Export Balance lists Step 3]")
+
+**Step 3**
+
+- *Exported files*  
+The exported file(s) are displayed and can be downloaded by clicking on the file name(s).
+
+- [CONTINUE]  
+
+[comment]: <> (WEITER/CONTINUE Button bei allen Exporten ausgegraut > CLOSE Button? --> Bug)
+
 
 
 ## SALDEN.DAT
 
 *Accounting > Select fiscal year > Extras > Tab EXPORT > Button SALDEN.DAT*
 
-![Import Compeso 7.X Step 1](/Assets/Screenshots/RetailSuiteAccounting/Extras/Import/Compeso01.png "[Import Compeso 7.X Step 1]")
+![Export SALDEN.DAT Step 1](/Assets/Screenshots/RetailSuiteAccounting/Extras/Export/SALDEN.DAT01.png "[Export SALDEN.DAT Step 1]")
 
 **Step 1**
+
+- *Fiscal year*  
+Click the drop-down list to select the fiscal year to be exported.
+
+- *Period*  
+Specify the period to be exported.  
+
+  - *Months*  
+  Enter the month range to be exported.
+
+  - *Journals*  
+  Enter the journal range to be exported.
+
+- *Impersonal accounts*  
+Click the drop-down list to select the impersonal accounts to be exported. The following options are available:  
+
+  - **Only individually changed**  
+  - **All**  
+  - **No**  
+
+
+- *Personal accounts*  
+Click the drop-down list to select the appropriate option (**Yes/No**).
+
+- [CONTINUE]  
+Click this button to proceed to the next step.
+
+
+
+![Export SALDEN.DAT Step 2](/Assets/Screenshots/RetailSuiteAccounting/Extras/Export/SALDEN.DAT02.png "[Export SALDEN.DAT Step 2]")
+
+**Step 2**
+
+- *Exporting*  
+This message is displayed during the export process.  
+
+- [CANCEL]  
+Click this button to cancel the process.  
+
+- [CLOSE]  
+Click this button to close the window. This will cancel the export.   
+
+A pop-up window confirms that the selected data have been exported correctly. Click the OK button to proceed to the next step.
+
+
+
+![Export SALDEN.DAT Step 3](/Assets/Screenshots/RetailSuiteAccounting/Extras/Export/SALDEN.DAT03.png "[Export SALDEN.DAT Step 3]")
+
+**Step 3**
+
+- *Exported files*  
+The exported file(s) are displayed and can be downloaded by clicking on the file name(s).
+
+- [CONTINUE]  
+
+[comment]: <> (WEITER/CONTINUE Button bei allen Exporten ausgegraut > CLOSE Button? --> Bug)
 
 
 
@@ -378,9 +692,69 @@ The exported file(s) are displayed and can be downloaded by clicking on the file
 
 *Accounting > Select fiscal year > Extras > Tab EXPORT > Button SAP*
 
-![Import Compeso 7.X Step 1](/Assets/Screenshots/RetailSuiteAccounting/Extras/Import/Compeso01.png "[Import Compeso 7.X Step 1]")
+![Export SAP Step 1](/Assets/Screenshots/RetailSuiteAccounting/Extras/Export/SAP01.png "[Export SAP Step 1]")
+
 
 **Step 1**
+
+- *Fiscal year*  
+Click the drop-down list to select the fiscal year to be exported.
+
+- *Period*  
+Specify the period to be exported.  
+
+  - *Months*  
+  Enter the month range to be exported.
+
+  - *Journals*  
+  Enter the journal range to be exported.
+
+- *Selection*  
+Click the applicable radio button to select the appropriate option:
+  - ![Radio button](/Assets/Icons/RadioButton02.png "[Radio button]") *Export all*
+  - ![Radio button](/Assets/Icons/RadioButton02.png "[Radio button]") *All from last export on (if last export exists, otherwise all)*
+  - *Set marker to export time*  
+  Mark the checkbox if time is to be exported.
+
+
+- *Creation from*  
+Enter a start creation date for the bookings to be exported.
+
+- *Creation to*  
+Enter an end creation date for the bookings to be exported.
+
+- [CONTINUE]  
+Click this button to proceed to the next step.
+
+
+
+![Export SAP Step 2](/Assets/Screenshots/RetailSuiteAccounting/Extras/Export/SAP02.png "[Export SAP Step 2]")
+
+**Step 2**
+
+- *Exporting*  
+This message is displayed during the export process.  
+
+- [CANCEL]  
+Click this button to cancel the process.  
+
+- [CLOSE]  
+Click this button to close the window. This will cancel the export.   
+
+A pop-up window confirms that the selected data have been exported correctly. Click the OK button to proceed to the next step.
+
+
+
+![Export SAP Step 3](/Assets/Screenshots/RetailSuiteAccounting/Extras/Export/SAP03.png "[Export SAP Step 3]")
+
+**Step 3**
+
+- *Exported files*  
+The exported file(s) are displayed and can be downloaded by clicking on the file name(s).
+
+- [CONTINUE]  
+
+[comment]: <> (WEITER/CONTINUE Button bei allen Exporten ausgegraut > CLOSE Button? --> Bug)
 
 
 
@@ -388,9 +762,62 @@ The exported file(s) are displayed and can be downloaded by clicking on the file
 
 *Accounting > Select fiscal year > Extras > Tab EXPORT > Button VARIAL*
 
-![Import Compeso 7.X Step 1](/Assets/Screenshots/RetailSuiteAccounting/Extras/Import/Compeso01.png "[Import Compeso 7.X Step 1]")
+![Export Varial Step 1](/Assets/Screenshots/RetailSuiteAccounting/Extras/Export/Varial01.png "[Export Varial Step 1]")
 
 **Step 1**
+
+- *Fiscal year*  
+Click the drop-down list to select the fiscal year to be exported.
+
+- *Period*  
+Specify the period to be exported.  
+
+  - *Months*  
+  Enter the month range to be exported.
+
+  - *Journals*  
+  Enter the journal range to be exported.
+
+- *Date from*   
+Enter a start date for the bookings to be exported.
+
+- *Date to*  
+Enter an end date for the bookings to be exported.
+
+- *File suffix*  
+Enter a file suffix, if applicable. Only numbers can be used.
+
+[comment]: <> (Info fehlt über VARIAL Datei-Suffix. Nichts gefunden.)
+
+
+
+![Export Varial Step 2](/Assets/Screenshots/RetailSuiteAccounting/Extras/Export/Varial02.png "[Export Varial Step 2]")
+
+**Step 2**
+
+- *Exporting*  
+This message is displayed during the export process.  
+
+- [CANCEL]  
+Click this button to cancel the process.  
+
+- [CLOSE]  
+Click this button to close the window. This will cancel the export.   
+
+A pop-up window confirms that the selected data have been exported correctly. Click the OK button to proceed to the next step.
+
+
+
+![Export Varial Step 3](/Assets/Screenshots/RetailSuiteAccounting/Extras/Export/Varial03.png "[Export Varial Step 3]")
+
+**Step 3**
+
+- *Exported files*  
+The exported file(s) are displayed and can be downloaded by clicking on the file name(s).
+
+- [CONTINUE]  
+
+[comment]: <> (WEITER/CONTINUE Button bei allen Exporten ausgegraut > CLOSE Button? --> Bug)
 
 
 
@@ -398,9 +825,66 @@ The exported file(s) are displayed and can be downloaded by clicking on the file
 
 *Accounting > Select fiscal year > Extras > Tab EXPORT > Button ZAHLWERK*
 
-![Import Compeso 7.X Step 1](/Assets/Screenshots/RetailSuiteAccounting/Extras/Import/Compeso01.png "[Import Compeso 7.X Step 1]")
+![Export Zahlwerk Step 1](/Assets/Screenshots/RetailSuiteAccounting/Extras/Export/Zahlwerk01.png "[Export Zahlwerk Step 1]")
+
+![Export Zahlwerk Step 1](/Assets/Screenshots/RetailSuiteAccounting/Extras/Export/Zahlwerk01cust.png "[Export Zahlwerk Step 1]")
 
 **Step 1**
+
+- *Fiscal year*  
+Click the drop-down list to select the fiscal year to be exported.
+
+- *Period*  
+Specify the period to be exported.  
+
+  - *Months*  
+  Enter the month range to be exported.
+
+  - *Journals*  
+  Enter the journal range to be exported.
+
+- *Accounts*  
+Click the drop-down list to select the accounts to be exported. The following options are available:  
+  - **Impersonal accounts**  
+  - **Customers (10000-69999)**  
+  - **Suppliers (70000-99999)**  
+  - **Custom**  
+    When selecting this option, the *Account from* and *Account to* fields are displayed.
+
+
+- *Account from*  - *Account to*  
+Enter the account number range to be exported.
+
+- [CONTINUE]  
+Click this button to proceed to the next step.
+
+
+![Export Zahlwerk Step 2](/Assets/Screenshots/RetailSuiteAccounting/Extras/Export/Zahlwerk02.png "[Export Zahlwerk Step 2]")
+
+**Step 2**
+
+- *Exporting*  
+This message is displayed during the export process.  
+
+- [CANCEL]  
+Click this button to cancel the process.  
+
+- [CLOSE]  
+Click this button to close the window. This will cancel the export.   
+
+A pop-up window confirms that the selected data have been exported correctly. Click the OK button to proceed to the next step.
+
+
+![Export Zahlwerk Step 3](/Assets/Screenshots/RetailSuiteAccounting/Extras/Export/Zahlwerk03.png "[Export Zahlwerk Step 3]")
+
+**Step 3**
+
+- *Exported files*  
+The exported file(s) are displayed and can be downloaded by clicking on the file name(s).
+
+- [CONTINUE]  
+
+[comment]: <> (WEITER/CONTINUE Button bei allen Exporten ausgegraut > CLOSE Button? --> Bug)
 
 
 
@@ -409,23 +893,47 @@ The exported file(s) are displayed and can be downloaded by clicking on the file
 ![Tax mapping](/Assets/Screenshots/RetailSuiteAccounting/Extras/Export/BMDTaxMapping.png "[Tax mapping]")
 
 
-Tax mapping  
-Actindo tax control key  
-BMD control key  
+**Tax mapping**
+
+- *Actindo tax key*  
+Tax key as mapped in the Actindo system.
+
+- *BMD tax key*  
+BMD key as mapped in the BMD system.
+
+[comment]: <> (Steuercode ist ein zweideutiger Term. Reden wir hier von "tax key" oder "control key"? Im System "tax control key" und "Steuercode". Vorsicht / RS FH dazu.)
+
+- [Checkbox]  
+Select the checkbox to edit or delete a tax key. The *Edit* section is displayed.
+
+- [CREATE]  
+Click this button to create a tax control key. The *Add* section is displayed.
+
+- [DELETE]  
+Click this button to delete a selected tax control key from the list.
+
+- ![Refresh](/Assets/Icons/Refresh03.png "[Refresh]") (Refresh)  
+Click this button to refresh the list after making any changes.
+
+
+**Add/Edit**  
 
 ![Create tax mapping](/Assets/Screenshots/RetailSuiteAccounting/Extras/Export/BMDTaxMapping02.png "[Create tax mapping]")
 
+> [Info] When clicking the [CREATE] button, the *Add* section is displayed. When marking a checkbox from the tax key list, the tax key details are displayed in the entry fields, where they can be edited. The *Add* section name changes to *Edit*.
 
-CREATE
-DELETE
 
-**Add/Edit**
+- *Actindo*  
+Click the drop-down list to select the applicable tax sort in the Actindo system.
 
-actindo	Actindo
-BMD	BMD
+- *BMD*  
+Click the drop-down list to select the applicable tax sort in the BMD system.
 
-	SAVE
-	CLEAR
+- [SAVE]  
+Click this button to save any changes made.
+
+- [CLEAR]  
+Click this button to reset both fields to their initial status.
 
 
 ### Import/export definitions
