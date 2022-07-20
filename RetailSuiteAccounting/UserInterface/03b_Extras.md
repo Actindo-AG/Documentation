@@ -194,7 +194,7 @@ Click this button to proceed to the next step.
 This message is displayed during the export process.  
 
 - [CANCEL]  
-Click this button to cancel the process.
+Click this button to cancel the process. After a few seconds, the [CANCEL] button changes to a [CLOSE] button.  
 
 - [CLOSE]  
 Click this button to close the window. This will cancel the export.    
@@ -315,7 +315,7 @@ Click this button to proceed to the next step.
 This message is displayed during the export process.  
 
 - [CANCEL]  
-Click this button to cancel the process.
+Click this button to cancel the process. After a few seconds, the [CANCEL] button changes to a [CLOSE] button.  
 
 - [CLOSE]  
 Click this button to close the window. This will cancel the export.   
@@ -379,7 +379,7 @@ Click this button to proceed to the next step.
 This message is displayed during the export process.  
 
 - [CANCEL]  
-Click this button to cancel the process.  
+Click this button to cancel the process. After a few seconds, the [CANCEL] button changes to a [CLOSE] button.  
 
 - [CLOSE]  
 Click this button to close the window. This will cancel the export.   
@@ -450,7 +450,7 @@ Click this button to proceed to the next step.
 This message is displayed during the export process.  
 
 - [CANCEL]  
-Click this button to cancel the process.  
+Click this button to cancel the process. After a few seconds, the [CANCEL] button changes to a [CLOSE] button.  
 
 - [CLOSE]  
 Click this button to close the window. This will cancel the export.   
@@ -532,7 +532,7 @@ Click this button to proceed to the next step.
 This message is displayed during the export process.  
 
 - [CANCEL]  
-Click this button to cancel the process.  
+Click this button to cancel the process. After a few seconds, the [CANCEL] button changes to a [CLOSE] button.  
 
 - [CLOSE]  
 Click this button to close the window. This will cancel the export.   
@@ -601,7 +601,7 @@ Click this button to proceed to the next step.
 This message is displayed during the export process.  
 
 - [CANCEL]  
-Click this button to cancel the process.  
+Click this button to cancel the process. After a few seconds, the [CANCEL] button changes to a [CLOSE] button.  
 
 - [CLOSE]  
 Click this button to close the window. This will cancel the export.   
@@ -666,7 +666,7 @@ Click this button to proceed to the next step.
 This message is displayed during the export process.  
 
 - [CANCEL]  
-Click this button to cancel the process.  
+Click this button to cancel the process. After a few seconds, the [CANCEL] button changes to a [CLOSE] button.  
 
 - [CLOSE]  
 Click this button to close the window. This will cancel the export.   
@@ -736,7 +736,7 @@ Click this button to proceed to the next step.
 This message is displayed during the export process.  
 
 - [CANCEL]  
-Click this button to cancel the process.  
+Click this button to cancel the process. After a few seconds, the [CANCEL] button changes to a [CLOSE] button.  
 
 - [CLOSE]  
 Click this button to close the window. This will cancel the export.   
@@ -799,7 +799,7 @@ Enter a file suffix, if applicable. Only numbers can be used.
 This message is displayed during the export process.  
 
 - [CANCEL]  
-Click this button to cancel the process.  
+Click this button to cancel the process. After a few seconds, the [CANCEL] button changes to a [CLOSE] button.  
 
 - [CLOSE]  
 Click this button to close the window. This will cancel the export.   
@@ -867,7 +867,7 @@ Click this button to proceed to the next step.
 This message is displayed during the export process.  
 
 - [CANCEL]  
-Click this button to cancel the process.  
+Click this button to cancel the process. After a few seconds, the [CANCEL] button changes to a [CLOSE] button.  
 
 - [CLOSE]  
 Click this button to close the window. This will cancel the export.   
