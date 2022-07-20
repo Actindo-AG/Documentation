@@ -1,4 +1,4 @@
-# Cash Register
+# Cash register
 
 *Venduo POS > Sales > Select Store and Pay Desk > Tab CASH REGISTER*
 
@@ -8,7 +8,7 @@ The tab *Cash Register* is divided into two parts:
 - [Payment Tally](#payment-tally)
 - [Cash In/Out](#cash-in-out)
 
-## Payment Tally
+## Payment tally
 
 ![Payment Tally](/Assets/Screenshots/POS/Sales/CashRegister/PaymentTally.png "[Payment Tally]")
 
@@ -22,10 +22,10 @@ The tab *Cash Register* is divided into two parts:
   Type of the cash amount in the pay desk. By default, the type is **Cash**. This field is read-only.
 
 - *Currency*   
-  Currency of the cash amount in the pay desk. A single row is displayed for each [available currency](02a_Management.md#available-currencies) defined in the global settings. This field is read-only.
+  Currency of the cash amount in the pay desk. A single row is displayed for each [available currency](02a_GlobalSettings.md#available-currencies) defined in the global settings. This field is read-only.
 
 - *Expected*   
-  Cash amount in the pay desk expected by all transactions during the shift. If the setting *Erwarteten Betrag verbergen* in the [Global Settings](02a_Management.md#erwarteten-vertrag-verbergen) is active, the expected cash amount is hidden and a dash **-** is displayed. This field is read-only.
+  Cash amount in the pay desk expected by all transactions during the shift. If the setting *Erwarteten Betrag verbergen* in the [Global Settings](02a_GlobalSettings.md#erwarteten-vertrag-verbergen) is active, the expected cash amount is hidden and a dash **-** is displayed. This field is read-only.
 
 - *Counted*   
   Enter the counted cash amount in the pay desk by entering the amount directly in the field or clicking the button ![Calculator](/Assets/Icons/Calculator01.png "[Calculator]") (Calculator). The *Count cash* view is displayed.
@@ -34,10 +34,10 @@ The tab *Cash Register* is divided into two parts:
   Difference amount between the expected and the counted cash amount in the pay desk. If no expected amount is displayed, no difference amount is displayed, but a dash **-**.
 
 - *Skim to*   
-  Enter a cash amount up to which the pay desk is skimmed after closing. If you have predefined a [skimming amount](02a_Management.md#abschöpfen-bis-betrag) in the global settings, the field is preset with this amount.
+  Enter a cash amount up to which the pay desk is skimmed after closing. If you have predefined a [skimming amount](02a_GlobalSettings.md#abschöpfen-bis-betrag) in the global settings, the field is preset with this amount.
 
 
-### Count Cash
+### Count cash
 
 *Venduo POS > Sales > Select Store and Pay Desk > Tab CASH REGISTER > Button Calculator*
 
@@ -47,7 +47,7 @@ The tab *Cash Register* is divided into two parts:
   Click this button to cancel the cash counting and close the *Count cash* view.
 
 - *Type*   
-  Type of coins or banknotes of the default currency. The displayed types of coins and banknotes are defined by the [currencies](02a_Management.md#währungen) in the global settings.
+  Type of coins or banknotes of the default currency. The displayed types of coins and banknotes are defined by the [currencies](02a_GlobalSettings.md#währungen) in the global settings.
 
 - *Amount*   
   Enter the amount counted of the selected type of coins or banknotes by using the buttons or entering the amount directly into the field.
@@ -71,7 +71,7 @@ The tab *Cash Register* is divided into two parts:
   Click this button to confirm the counted cash amount and close the *Count cash* view.
 
 
-## Cash In/Out
+## Cash in/out
 
 ![Cash In/Out](/Assets/Screenshots/POS/Sales/CashRegister/CashInOut.png "[Cash In/Out]")
 
@@ -110,7 +110,7 @@ The tab *Cash Register* is divided into two parts:
   Enter the cash amount of the cash in.
 
 - [Currency]    
-  Click this button to select the currency of the cash in. A single button is displayed for each [available currency](02a_Management.md#available-currencies) defined in the global settings.    
+  Click this button to select the currency of the cash in. A single button is displayed for each [available currency](02a_GlobalSettings.md#available-currencies) defined in the global settings.    
 
 - ![Delete](/Assets/Icons/Trash03.png "[Delete]") (Delete)    
   Click this button to delete the entered cash in or cancel the cash in process and close the *Cash in* view.
@@ -132,7 +132,7 @@ The tab *Cash Register* is divided into two parts:
   Enter the cash amount of the cash out.
 
 - [Currency]     
-  Click this button to select the currency of the cash out. A single button is displayed for each [available currency](02a_Management.md#available-currencies) defined in the global settings.
+  Click this button to select the currency of the cash out. A single button is displayed for each [available currency](02a_GlobalSettings.md#available-currencies) defined in the global settings.
 
 - ![Delete](/Assets/Icons/Trash04.png "[Delete]") (Delete)    
   Click this button to delete the entered cash out or cancel the cash in process and close the *Cash out* view.

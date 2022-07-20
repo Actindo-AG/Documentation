@@ -1,23 +1,27 @@
-[!!Venduo POS](POS)
+[!!User Interface Cashpoint](/POS/UserInterface/01a_Cashpoint.md)
+[!!Manage offers for POS](/POS/Integration/07_ManageOffers.md)
+
 
 # Edit the bill list
+
+The bill list on the right side of the *Cashpoint* tab displays all products added to the list for purchase. Before completing the purchase, you can edit the price and the quantity of products on the list, you can add discounts, remove products from the list, add a sale note or assign the purchase to a new or an existing customer.
 
 ## Add a discount
 
 You can add a discount to [single products](#add-a-discount-to-a-single-product) or to the [whole purchase](#add-a-discount-to-the-purchase), for instance because of a campaign, defects in the products, for loyal customers or from a certain quantity of products.
 
-### Prerequisites
+### Add a discount to a single product
+
+You can add a customized discount to single products in your bill list.
+
+#### Prerequisites
 
 - Offers for POS are created, see [Manage offers for POS](/POS/Integration/07_ManageOffers.md).
 - At least one product is added to the bill list, see [Select an offer](02_SelectOffer.md).
 
-### Procedure
+#### Procedure
 
-#### Add a discount to a single product
-
-You can add a customized discount to single products in your bill list.
-
-*Venduo POS > Sales > Tab CASHPOINT > Select Store and Pay Desk*
+*Venduo POS > Sales > Select store and pay desk > Tab CASHPOINT*
 
 ![Cashpoint](/Assets/Screenshots/POS/Sales/Cashpoint/Product.png "[Cashpoint]")
 
@@ -39,11 +43,18 @@ You can add a customized discount to single products in your bill list.
   > [Info] You can apply an individual discount to each product in your bill list. The discount is applied to the product entry in the bill list. That means, if the quantity of a product in the bill list is greater than 1, the discount will apply to all products of this entry. If you want to apply a discount to a single one of several products in an entry, you have to use the [single scan function](02_SelectOffer.md#use-single-scan) first to add the product as a single entry in the bill list.
 
 
-#### Add a discount to the purchase
+### Add a discount to the purchase
 
 Additional or alternative to the single discount, you can add a customized discount to the whole purchase in your bill list.
 
-*Venduo POS > Sales > Tab CASHPOINT > Select Store and Pay Desk*
+#### Prerequisites
+
+- Offers for POS are created, see [Manage offers for POS](/POS/Integration/07_ManageOffers.md).
+- At least one product is added to the bill list, see [Select an offer](02_SelectOffer.md).
+
+#### Procedure
+
+*Venduo POS > Sales > Select store and pay desk > Tab CASHPOINT*
 
 ![Cashpoint](/Assets/Screenshots/POS/Sales/Cashpoint/Product.png "[Cashpoint]")
 
@@ -73,36 +84,20 @@ Additional or alternative to the single discount, you can add a customized disco
 
   > [Info] To the right of the indicated discount, on the edge of the bill list, the ![Remove](/Assets/Icons/Cross06.png "[Remove]") (Remove) flag is displayed. Click the flag to delete the discount.
 
-### Next steps
-
-- [Edit the price of a product](#edit-the-price-of-a-product)
-- [Edit the quantity of a product](#edit-the-quantity-of-a-product)
-- [Delete a product from the bill list](#delete-a-product-from-the-bill-list)
-- [Add a Sale Note](#add-a-sale-note)
-- [Assign a purchase to a customer](#assign-a-purchase-to-a-customer)
-- [Complete a purchase](04_CompletePurchase.md)
-- [Manage the cash register](05_ManageCashRegister.md)
-- [Manage the POS order process](06_ManageOrderProcess.md)
-
-### See also
-
-- [User Interface Venduo POS](/POS/UserInterface/00_UserInterface.md)
-- [Manage offers for POS](/POS/Integration/07_ManageOffers.md)
-
 
 
 ## Edit the price of a product
 
 You can manually change the price of a product in your bill list, for instance if a price is not correctly in the system.
 
-### Prerequisites
+#### Prerequisites
 
 - Offers for POS are created, see [Manage offers for POS](/POS/Integration/07_ManageOffers.md).
 - At least one product is added to the bill list, see [Select an offer](02_SelectOffer.md).
 
-### Procedure
+#### Procedure
 
-*Venduo POS > Sales > Tab CASHPOINT > Select Store and Pay Desk*
+*Venduo POS > Sales > Select store and pay desk > Tab CASHPOINT*
 
 ![Cashpoint](/Assets/Screenshots/POS/Sales/Cashpoint/Product.png "[Cashpoint]")
 
@@ -123,36 +118,20 @@ You can manually change the price of a product in your bill list, for instance i
 4. Click the [Save] button in the bottom right corner to apply the price change.   
   The detail view of the product is closed. The bill list is displayed again. The modified price is displayed in italics to the right of the product.
 
-### Next steps
-
-- [Edit the quantity of a product](#edit-the-quantity-of-a-product)
-- [Delete a product from the bill list](#delete-a-product-from-the-bill-list)
-- [Add a Sale Note](#add-a-sale-note)
-- [Assign a purchase to a customer](#assign-a-purchase-to-a-customer)
-- [Complete a purchase](04_CompletePurchase.md)
-- [Manage the cash register](05_ManageCashRegister.md)
-- [Manage the POS order process](06_ManageOrderProcess.md)
-
-### See also
-
-- [User Interface Venduo POS](/POS/UserInterface/00_UserInterface.md)
-- [Add a discount](#add-a-discount)
-- [Manage offers for POS](/POS/Integration/07_ManageOffers.md)
-
 
 
 ## Edit the quantity of a product
 
 You can change the quantity of a product in your bill list by increasing or decreasing it.
 
-### Prerequisites
+#### Prerequisites
 
 - Offers for POS are created, see [Manage offers for POS](/POS/Integration/07_ManageOffers.md).
 - At least one product is added to the bill list, see [Select an offer](02_SelectOffer.md).
 
-### Procedure
+#### Procedure
 
-*Venduo POS > Sales > Tab CASHPOINT > Select Store and Pay Desk*
+*Venduo POS > Sales > Select store and pay desk > Tab CASHPOINT*
 
 ![Cashpoint](/Assets/Screenshots/POS/Sales/Cashpoint/Product.png "[Cashpoint]")
 
@@ -169,36 +148,19 @@ You can change the quantity of a product in your bill list by increasing or decr
   The detail view of the product is closed. The bill list is displayed again. The selected quantity is displayed to the left of the product.
 
 
-### Next steps
-
-- [Delete a product from the bill list](#delete-a-product-from-the-bill-list)
-- [Add a Sale Note](#add-a-sale-note)
-- [Assign a purchase to a customer](#assign-a-purchase-to-a-customer)
-- [Complete a purchase](04_CompletePurchase.md)
-- [Manage the cash register](05_ManageCashRegister.md)
-- [Manage the POS order process](06_ManageOrderProcess.md)
-
-### See also
-
-- [User Interface Venduo POS](/POS/UserInterface/00_UserInterface.md)
-- [Add a discount](#add-a-discount)
-- [Edit the price of a product](#edit-the-price-of-a-product)
-- [Manage offers for POS](/POS/Integration/07_ManageOffers.md)
-
-
 
 ## Delete a product from the bill list
 
 You can delete a product from your bill list, for instance if you accidentally added it to the list.
 
-### Prerequisites
+#### Prerequisites
 
 - Offers for POS are created, see [Manage offers for POS](/POS/Integration/07_ManageOffers.md).
 - At least one product is added to the bill list, see [Select an offer](02_SelectOffer.md).
 
-### Procedure
+#### Procedure
 
-*Venduo POS > Sales > Tab CASHPOINT > Select Store and Pay Desk*
+*Venduo POS > Sales > Select store and pay desk > Tab CASHPOINT*
 
 ![Cashpoint](/Assets/Screenshots/POS/Sales/Cashpoint/Product.png "[Cashpoint]")
 
@@ -207,61 +169,30 @@ You can delete a product from your bill list, for instance if you accidentally a
 
   > [Info] If you click the ![Delete Product](/Assets/Icons/Cross02.png "[Delete Product]") (Delete Product) button the whole product entry regardless of its quantity is deleted. The deletion cannot be undone.
 
-### Next steps
-
-- [Add a Sale Note](#add-a-sale-note)
-- [Assign a purchase to a customer](#assign-a-purchase-to-a-customer)
-- [Complete a purchase](04_CompletePurchase.md)
-- [Manage the cash register](05_ManageCashRegister.md)
-- [Manage the POS order process](06_ManageOrderProcess.md)
-
-### See also
-
-- [User Interface Venduo POS](/POS/UserInterface/00_UserInterface.md)
-- [Add a discount](#add-a-discount)
-- [Edit the price of a product](#edit-the-price-of-a-product)
-- [Edit the quantity of a product](#edit-the-quantity-of-a-product)
-- [Manage offers for POS](/POS/Integration/07_ManageOffers.md)
 
 
-## Add a Sale Note
+## Add a sale note
 
 You can add a note to the purchase in your bill list to indicate if you have made any changes to the products or want to save any other information about the purchase.
 
-### Prerequisites
+#### Prerequisites
 
 - Offers for POS are created, see [Manage offers for POS](/POS/Integration/07_ManageOffers.md).
 - At least one product is added to the bill list, see [Select an offer](02_SelectOffer.md).
 
-### Procedure
+#### Procedure
 
-*Venduo POS > Sales > Tab CASHPOINT > Select Store and Pay Desk*
+*Venduo POS > Sales > Select store and pay desk > Tab CASHPOINT*
 
 ![Cashpoint](/Assets/Screenshots/POS/Sales/Cashpoint/Product.png "[Cashpoint]")
 
-1. Click the *Add Sale Note* field at the bottom part of the bill list.   
+1. Click the *Add sale note* field at the bottom part of the bill list.   
   The cursor is displayed in the field.
 
 2. Enter the note you want to add to the bill list.   
   The note is displayed in the text field.
 
 [comment]: <> (Is there any restriction concerning the length of the note? Where is the note displayed after the purchase has been completed?)
-
-### Next steps
-
-- [Assign a purchase to a customer](#assign-a-purchase-to-a-customer)
-- [Complete a purchase](04_CompletePurchase.md)
-- [Manage the cash register](05_ManageCashRegister.md)
-- [Manage the POS order process](06_ManageOrderProcess.md)
-
-### See also
-
-- [User Interface Venduo POS](/POS/UserInterface/00_UserInterface.md)
-- [Add a discount](#add-a-discount)
-- [Edit the price of a product](#edit-the-price-of-a-product)
-- [Edit the quantity of a product](#edit-the-quantity-of-a-product)
-- [Delete a product from the bill list](#delete-a-product-from-the-bill-list)
-- [Manage offers for POS](/POS/Integration/07_ManageOffers.md)
 
 
 
@@ -270,42 +201,18 @@ You can add a note to the purchase in your bill list to indicate if you have mad
 You can assign a customer to a purchase in order to track customer buying behavior or loyalty.   
 You can either assign the purchase to an [existing customer](#assign-a-purchase-to-a-customer) or [register a new customer](#register-a-customer) if the customer is not yet registered in the system.
 
-### Prerequisites
+### Register a customer
+
+If you want to assign purchase to a customer who does not yet exist in the system, you must first register that customer.
+
+#### Prerequisites
 
 - Offers for POS are created, see [Manage offers for POS](/POS/Integration/07_ManageOffers.md).
 - At least one product is added to the bill list, see [Select an offer](02_SelectOffer.md).
 
-### Procedure
+#### Procedure
 
-#### Assign a purchase to an existing customer
-
-Assign the current purchase to an registered customer.
-
-*Venduo POS > Sales > Tab CASHPOINT > Select Store and Pay Desk*
-
-![Cashpoint](/Assets/Screenshots/POS/Sales/Cashpoint/Product.png "[Cashpoint]")
-
-1. Click the ![Add Customer](/Assets/Icons/Customer02.png "[Add Customer]") (Add Customer) button in the upper right corner of the bill list.   
-  The search view is displayed in the bill list.
-
-  ![Add Customer](/Assets/Screenshots/POS/Sales/Cashpoint/BillList/AddCustomer01.png "[AddCustomer]")
-
-2. Click the *Find existing customer...* search bar and enter the customer name. You must enter at least three characters in the search bar to start the search. All customers that correspond to your entry are automatically displayed.
-
-  > [Info] The search already provides you with proposals for your entry as you type.
-
-  The customers that match the entered name are displayed in a list below the search bar. If no customer with the entered name is displayed, you have to [register the customer](#register-a-customer) first.
-
-3. Click the appropriate customer name in the list.   
-  The search view is closed. The bill list is displayed again. The selected customer name and its address is displayed in the upper left corner of the bill list.
-
-  > [Info] If you want to unassign the customer from the purchase, click the ![Delete](/Assets/Icons/Trash01.png "[Delete]") (Delete) button to the right of the selected customer in the upper right corner of the bill list.
-
-#### Register a customer
-
-If you want to assign purchase to a customer who does not yet exist in the system, you must first register that customer.
-
-*Venduo POS > Sales > Tab CASHPOINT > Select Store and Pay Desk*
+*Venduo POS > Sales > Select store and pay desk > Tab CASHPOINT*
 
 ![Cashpoint](/Assets/Screenshots/POS/Sales/Cashpoint/Product.png "[Cashpoint]")
 
@@ -324,18 +231,36 @@ If you want to assign purchase to a customer who does not yet exist in the syste
 
   > [Info] If you want to unassign the customer from the purchase, click the ![Delete](/Assets/Icons/Trash01.png "[Delete]") (Delete) button in the upper right corner of the bill list.
 
-### Next steps
 
-- [Complete a purchase](04_CompletePurchase.md)
-- [Manage the cash register](05_ManageCashRegister.md)
-- [Manage the POS order process](06_ManageOrderProcess.md)
 
-### See also
+### Assign a purchase to an existing customer
 
-- [User Interface Venduo POS](/POS/UserInterface/00_UserInterface.md)
-- [Add a discount](#add-a-discount)
-- [Edit the price of a product](#edit-the-price-of-a-product)
-- [Edit the quantity of a product](#edit-the-quantity-of-a-product)
-- [Delete a product from the bill list](#delete-a-product-from-the-bill-list)
-- [Add a Sale Note](#add-a-sale-note)
-- [Manage offers for POS](/POS/Integration/07_ManageOffers.md)
+Assign the current purchase to an registered customer.
+
+#### Prerequisites
+
+- Offers for POS are created, see [Manage offers for POS](/POS/Integration/07_ManageOffers.md).
+- At least one product is added to the bill list, see [Select an offer](02_SelectOffer.md).
+- At least one customer is already registered, see [Register a customer](#register-a-customer).
+
+#### Procedure
+
+*Venduo POS > Sales > Select store and pay desk > Tab CASHPOINT*
+
+![Cashpoint](/Assets/Screenshots/POS/Sales/Cashpoint/Product.png "[Cashpoint]")
+
+1. Click the ![Add Customer](/Assets/Icons/Customer02.png "[Add Customer]") (Add Customer) button in the upper right corner of the bill list.   
+  The search view is displayed in the bill list.
+
+  ![Add Customer](/Assets/Screenshots/POS/Sales/Cashpoint/BillList/AddCustomer01.png "[AddCustomer]")
+
+2. Click the *Find existing customer...* search bar and enter the customer name. You must enter at least three characters in the search bar to start the search. All customers that correspond to your entry are automatically displayed.
+
+  > [Info] The search already provides you with proposals for your entry as you type.
+
+  The customers that match the entered name are displayed in a list below the search bar. If no customer with the entered name is displayed, you have to [register the customer](#register-a-customer) first.
+
+3. Click the appropriate customer name in the list.   
+  The search view is closed. The bill list is displayed again. The selected customer name and its address is displayed in the upper left corner of the bill list.
+
+  > [Info] If you want to unassign the customer from the purchase, click the ![Delete](/Assets/Icons/Trash01.png "[Delete]") (Delete) button to the right of the selected customer in the upper right corner of the bill list.

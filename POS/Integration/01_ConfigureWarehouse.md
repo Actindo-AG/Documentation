@@ -1,4 +1,7 @@
 [!!Warehouse](RetailSuiteWarehousing)
+[!!User Interface warehouse](/RetailSuiteWarehousing/UserInterface/00_UserInterface.md)
+[!!Handle an out-of-stock order](/POS/Troubleshooting/01_OutOfStockOrder.md)
+
 
 # Configure the warehouse for POS
 
@@ -10,11 +13,11 @@ Therefore, it is recommended to create a new warehouse group and integrate all w
 
 Create a warehouse group to which you can assign all specific warehouses for your POS store, for instance a sales warehouse, a returns warehouse and a quarantine warehouse.
 
-### Prerequisites
+#### Prerequisites
 
-The *Warehouse groups* plugin must be installed, see [Install a plugin](to_be_completed).
+The *Warehouse groups* plugin must be installed.
 
-### Procedure
+#### Procedure
 *Warehouse > Settings > Tab WAREHOUSE > Tab Warehouse master data*
 
 ![Warehouse group basic data](/Assets/Screenshots/RetailSuiteWarehousing/Settings/Warehouse/WarehouseMasterData/GroupBasicData.png "[Warehouse group basic data]")
@@ -34,31 +37,16 @@ The *Warehouse groups* plugin must be installed, see [Install a plugin](to_be_co
 6. Click the ![Refresh](/Assets/Icons/Refresh01.png "[Refresh]") (Refresh) button at the top of the left column.   
   The new warehouse group is displayed in the left column.
 
-### Next steps
-
-  - [Create a warehouse](#create-a-warehouse)
-  - [Manage the accounts for POS](02_ManageAccounts.md)
-  - [Configure the printer for POS](03_ConfigurePrinter.md)
-  - [Assign users to the POS groups](04_AssignUsers.md)
-  - [Configure the global settings for POS](05_ConfigureGlobalSettings.md)
-  - [Create a store in POS](06_CreateStore.md)
-  - [Manage offers for POS](07_ManageOffers.md)
-  - [Manage the POS warehouse](08_ManageWarehouse.md)  
-
-### See also
-
-  - [User Interface Warehouse](/RetailSuiteWarehousing/UserInterface/00_UserInterface.md)
-  - [Handle an out-of-stock order](/POS/Troubleshooting/01_OutOfStockOrder.md)
 
 
 ## Create a warehouse
 
 Create one or more specific warehouses for your POS store from which the stock is taken.
 
-### Prerequisites
+#### Prerequisites
 A warehouse group is created, see [Create a warehouse group](#create-a-warehouse-group).
 
-### Procedure
+#### Procedure
 *Warehouse > Settings > Tab WAREHOUSE > Tab Warehouse master data*
 
 ![Warehouse basic data](/Assets/Screenshots/RetailSuiteWarehousing/Settings/Warehouse/WarehouseMasterData/WarehouseBasicData.png "[Warehouse basic data]")
@@ -81,20 +69,5 @@ A warehouse group is created, see [Create a warehouse group](#create-a-warehouse
 
 6. Click the [SAVE] button.
 
-7. Click the ![Refresh Icon](/Assets/Icons/Refresh01.png "[Refresh Icon]") (Refresh) button at the top of the left column.   
+7. Click the ![Refresh](/Assets/Icons/Refresh01.png "[Refresh Icon]") (Refresh) button at the top of the left column.   
   The new warehouse is displayed in the left column.
-
-### Next steps
-
-- [Manage the accounts for POS](02_ManageAccounts.md)
-- [Configure the printer for POS](03_ConfigurePrinter.md)
-- [Assign users to the POS groups](04_AssignUsers.md)
-- [Configure the global settings for POS](05_ConfigureGlobalSettings.md)
-- [Create a store in POS](06_CreateStore.md)
-- [Manage offers for POS](07_ManageOffers.md)
-- [Manage the POS warehouse](08_ManageWarehouse.md)  
-
-### See also
-
-- [User Interface Warehouse](/RetailSuiteWarehousing/UserInterface/00_UserInterface.md)
-- [Handle an out-of-stock order](/POS/Troubleshooting/01_OutOfStockOrder.md)

@@ -1,7 +1,15 @@
-[!!Venduo POS](POS)
 [!!Warehouse](RetailSuiteWarehousing)
+[!!Accounting](RetailSuiteAccounting)
+[!!Settings](Settings)
 [!!PIM](PIM)
 [!!DataHub](DataHub)
+[!!User Interface Venduo POS](/POS/UserInterface/00_UserInterface.md)
+[!!User Interface Warehouse](/RetailSuiteWarehousing/UserInterface/00_UserInterface.md)
+[!!User Interface Accounting](/RetailSuiteAccounting/UserInterface/00_UserInterface.md)
+[!!User Interface PIM](/PIM/UserInterface/00_UserInterface.md)
+[!!User Interface DataHub](/DataHub/UserInterface/00_UserInterface.md)
+[!!Open a pay desk](/POS/Operation/01_OpenPayDesk.md)
+
 
 # Create a store in POS
 
@@ -13,18 +21,17 @@ Either you use the [wizard to create a store](#create-a-store-via-wizard) or you
 
 The Store Wizard guides you through all steps to create a store and its full functionality. Therefore, it is highly recommended to use the wizard instead of creating a store manually.
 
-### Prerequisites
+### Start the store wizard
+
+#### Prerequisites
 
 - A warehouse for POS is configured, see [Configure the warehouse for POS](01_ConfigureWarehouse.md).
 - The accounts for POS are configured, see [Manage the accounts for POS](02_ManageAccounts.md).
 - The printer for POS is configured, see [Configure the printer for POS](03_ConfigurePrinter.md).
-- The users are asigned to the POS groups, see [Assign users to the POS groups](04_AssignUsers.md).
+- The users are assigned to the POS groups, see [Assign users to the POS groups](04_AssignUsers.md).
 - The global settings for POS are configured, see [Configure the global settings for POS](05_ConfigureGlobalSettings.md).
 
-### Procedure
-
-#### Start the store wizard
-
+#### Procedure
 *Venduo POS > Management > Tab STORES*
 
 ![Stores](/Assets/Screenshots/POS/Management/Stores/Stores.png "[Stores]")
@@ -35,9 +42,18 @@ The Store Wizard guides you through all steps to create a store and its full fun
 2. Click the [Create store via wizard (recommended) ![Store Wizard](/Assets/Icons/Tool.png "[Store Wizard]") ] button to start the store creation wizard.   
   The *Create Store* wizard window is displayed.
 
-#### Configure the store details
+
+### Configure the store details
 
 In this step, you can add additional information for your store and assign a store manager.
+
+#### Prerequisites
+
+The store wizard has been started, see [Start the store wizard](#start-the-store-wizard).
+
+#### Procedure
+
+*Venduo POS > Management > Tab STORES > Button Add > Store Wizard - Step 1*
 
 ![Wizard 01](/Assets/Screenshots/POS/Management/Stores/StoreWizard/SW01.png "[Store Wizard]")
 
@@ -56,9 +72,17 @@ In this step, you can add additional information for your store and assign a sto
   The *Pay desks* wizard window is displayed when the store is created.
 
 
-#### Configure the pay desk
+### Configure the pay desk
 
 In this step, you create one or several pay desks and assign cashiers.
+
+#### Prerequisites
+
+The store wizard has been started, see [Start the store wizard](#start-the-store-wizard).
+
+#### Procedure
+
+*Venduo POS > Management > Tab STORES > Button Add > Store Wizard - Step 2*
 
 ![Wizard 02](/Assets/Screenshots/POS/Management/Stores/StoreWizard/SW02.png "[Store Wizard]")
 
@@ -75,9 +99,18 @@ In this step, you create one or several pay desks and assign cashiers.
     The *Printing* wizard window is displayed when the pay desk is created.
 
 
-#### Select a printer
+### Select a printer
 
 In this step you select a printer for the receipt printing.
+
+
+#### Prerequisites
+
+The store wizard has been started, see [Start the store wizard](#start-the-store-wizard).
+
+#### Procedure
+
+*Venduo POS > Management > Tab STORES > Button Add > Store Wizard - Step 3*
 
 ![Wizard 03](/Assets/Screenshots/POS/Management/Stores/StoreWizard/SW03.png "[Store Wizard]")
 
@@ -100,16 +133,24 @@ For detailed information, see [Configure the printer client for POS](03_Configur
   The *Store Address* wizard window is displayed when the printer is configured.
 
 
-#### Enter the store address
+### Enter the store address
 
 In this step you define the store address. The store address is the delivery address, which has to be defined for tax purposes. Further, a delivery address and an invoice address should be indicated on every receipt created in the POS system.
 
+
+#### Prerequisites
+
+The store wizard has been started, see [Start the store wizard](#start-the-store-wizard).
+
+#### Procedure
+
+*Venduo POS > Management > Tab STORES > Button Add > Store Wizard - Step 4*
 
 ![Wizard 04](/Assets/Screenshots/POS/Management/Stores/StoreWizard/SW04.png "[Store Wizard]")
 
 1. Enter the store address in the fields.
 
-  > [Info] The store address corresponds to the delivery address. You must at least enter the country and the ZIP code. For detailed information, see [Store Address](/POS/UserInterface/02b_Management.md#step-4-store-address).
+  > [Info] The store address corresponds to the delivery address. You must at least enter the country and the ZIP code. For detailed information, see [Store Address](/POS/UserInterface/02b_Stores.md#step-4store-address).
 
 2. Click the [CONTINUE] button in the bottom right corner of the window.   
     The *Saving successful* message and the *Stock* wizard window are displayed when the store address is saved.
@@ -118,9 +159,17 @@ In this step you define the store address. The store address is the delivery add
 
 
 
-#### Assign a POS warehouse
+### Assign a POS warehouse
 
 In this step you assign the warehouse from which you want to take the stock from, you assign the shelf and you configure the stock withdrawal matrix. The warehouse specifies where exactly the stock is booked out when a product is sold.
+
+#### Prerequisites
+
+The store wizard has been started, see [Start the store wizard](#start-the-store-wizard).
+
+#### Procedure
+
+*Venduo POS > Management > Tab STORES > Button Add > Store Wizard - Step 5*
 
 ![Wizard 05](/Assets/Screenshots/POS/Management/Stores/StoreWizard/SW05.png "[Store Wizard]")
 
@@ -141,9 +190,17 @@ In this step you assign the warehouse from which you want to take the stock from
   The *Stock allocation* wizard window is displayed when the warehouse assignment is saved.
 
 
-#### Assign a stock source
+### Assign a stock source
 
 In this step you assign the stock source to manage the store stock. The stock source specifies how the stock available in the POS system is calculated. In most cases, the stock source and the warehouse are identical, but they can also differ.
+
+#### Prerequisites
+
+The store wizard has been started, see [Start the store wizard](#start-the-store-wizard).
+
+#### Procedure
+
+*Venduo POS > Management > Tab STORES > Button Add > Store Wizard - Step 6*
 
 ![Wizard 06](/Assets/Screenshots/POS/Management/Stores/StoreWizard/SW06a.png "[Store Wizard]")
 
@@ -154,9 +211,17 @@ In this step you assign the stock source to manage the store stock. The stock so
   The *Accounting* wizard window is displayed when the stock source assignment is saved.     
 
 
-#### Assign an account
+### Assign an account
 
 In this step you assign the accounts to which you want to book the payments.   
+
+#### Prerequisites
+
+The store wizard has been started, see [Start the store wizard](#start-the-store-wizard).
+
+#### Procedure
+
+*Venduo POS > Management > Tab STORES > Button Add > Store Wizard - Step 7*
 
 ![Wizard 07](/Assets/Screenshots/POS/Management/Stores/StoreWizard/SW07a.png "[Store Wizard]")
 
@@ -172,15 +237,24 @@ In this step you assign the accounts to which you want to book the payments.
 
 3. Select the respective account in the *Account* column and enter the corresponding account numbers for the different payment types and currencies. For detailed information, see [Manage the accounts for POS](02_ManageAccounts.md).
 
-  > [Info] You only have to enter the account numbers for the accounts with the used currency. To delete the unused currencies from the list of available currencies, see [Available Currencies](/POS/UserInterface/02a_Management.md#available-currencies).
+  > [Info] You only have to enter the account numbers for the accounts with the used currency. To delete the unused currencies from the list of available currencies, see [Available Currencies](/POS/UserInterface/02a_GlobalSettings.md#available-currencies).
 
 4. Click the [CONTINUE] button in the bottom right corner of the window.   
   The *Summary* wizard window is displayed when the account assignment is saved.
 
 
-#### Finalize the wizard
+### Finalize the wizard
 
 In this step, you check if any necessary information is still missing and you complete the configuration of the store.
+
+
+#### Prerequisites
+
+The store wizard has been started, see [Start the store wizard](#start-the-store-wizard).
+
+#### Procedure
+
+*Venduo POS > Management > Tab STORES > Button Add > Store Wizard - Step 8*
 
 ![Wizard 08](/Assets/Screenshots/POS/Management/Stores/StoreWizard/SW08.png "[Store Wizard]")
 
@@ -190,42 +264,33 @@ In this step, you check if any necessary information is still missing and you co
     Remember these points and correct them manually afterwards if necessary.   
     The summary also indicates whether the POS can be used.  
 
-2. . Click the [FINALIZE] button in the bottom right corner of the window.   
-      The wizard window is closed and the store is configured.
-
-### Next steps
-
-- [Manage offers for POS](07_ManageOffers.md)
-- [Manage the POS warehouse](08_ManageWarehouse.md)  
-
-### See also
-
-- [User Interface Venduo POS](/POS/UserInterface/00_UserInterface.md)
-- [Create a store manually](#create-a-store-manually)
-- [Open a pay desk](/POS/Operation/01_OpenPayDesk.md)
-- [Configure the warehouse for POS](01_ConfigureWarehouse.md)
-- [Manage the accounts for POS](02_ManageAccounts.md)
-- [Configure the printer for POS](03_ConfigurePrinter.md)
-- [Assign users to the POS groups](04_AssignUsers.md)
-- [Configure the global settings for POS](05_ConfigureGlobalSettings.md)
+2. Click the [FINALIZE] button in the bottom right corner of the window.   
+  The wizard window is closed and the store is configured.
 
 
 
 ## Create a store manually
 
-Alternatively to using the [store wizard](#create-a-store-via-wizard), you can create the store and all connections to the warehouse, accounting and invoicing manually.
+Alternatively to using the [store wizard](#create-a-store-via-wizard), you can create the store manually. Be aware that to use the store and its full functionality, it is necessary to configure the following settings manually:
+  - [Configure the store details](#configure-the-store-details-2)
+  - [Create a pay desk](#create-a-pay-desk)
+  - [Configure the pay desk details](#configure-the-pay-desk-details)
+  - [Select a printer](#select-a-printer-2)
+  - [Enter the store address](#enter-the-store-address-2)
+  - [Assign the POS warehouse](#assign-the-pos-warehouse)
+  - [Configure the stock withdrawal matrix](#configure-the-stock-withdrawal-matrix)
+  - [Assign the stock source](#assign-the-stock-source)
+  - [Assign the accounts](#assign-the-accounts)
 
-### Prerequisites
+#### Prerequisites
 
 - A warehouse for POS is configured, see [Configure the warehouse for POS](01_ConfigureWarehouse.md).
 - The accounts for POS are configured, see [Manage the accounts for POS](02_ManageAccounts.md).
 - The printer for POS is configured, see [Configure the printer for POS](03_ConfigurePrinter.md).
-- The users are asigned to the POS groups, see [Assign users to the POS groups](04_AssignUsers.md).
+- The users are assigned to the POS groups, see [Assign users to the POS groups](04_AssignUsers.md).
 - The global settings for POS are configured, see [Configure the global settings for POS](05_ConfigureGlobalSettings.md).
 
-### Procedure
-
-#### Start the store creation manually
+#### Procedure
 
 *Venduo POS > Management > Tab STORES*
 
@@ -246,20 +311,18 @@ Alternatively to using the [store wizard](#create-a-store-via-wizard), you can c
 
   ![Creating Store](/Assets/Screenshots/POS/Management/Stores/CreatingStore.png "[Creating Store]")
 
-> [Info] To use the store and its full functionality, it is necessary to configure the following settings manually:
-  - [Configure the store details](#configure-the-store-details-2)
-  - [Create a pay desk](#create-a-pay-desk)
-  - [Configure the pay desk details](#configure-the-pay-desk-details)
-  - [Select a printer](#select-a-printer-2)
-  - [Enter the store address](#enter-the-store-address-2)
-  - [Assign the POS warehouse](#assign-the-pos-warehouse)
-  - [Configure the stock withdrawal matrix](#configure-the-stock-withdrawal-matrix)
-  - [Assign the stock source](#assign-the-stock-source)
-  - [Assign the accounts](#assign-the-accounts)
 
-#### Configure the store details
+
+## Configure the store details
 
 In the store details, you give some detailed information about your store. Further, you assign a store manager.
+
+#### Prerequisites
+
+- A store has been created, see [Create a store manually](#create-a-store-manually) or [Create a store via wizard](#create-a-store-via-wizard).
+- The users are assigned to the POS groups, see [Assign users to the POS groups](04_AssignUsers.md).
+
+#### Procedure
 
 *Venduo POS > Management > Tab STORES > Select Store > Tab Basic Data*
 
@@ -282,12 +345,19 @@ In the store details, you give some detailed information about your store. Furth
 
 [comment]: <> (Is it a feature or is it a bug?)
 
-#### Create a pay desk
 
-Create at least one pay desk to be able to process any type of transaction via Venduo POS.
+## Create a pay desk
+
+Create at least one pay desk to be able to process any type of transaction via *Venduo POS*.
 
 A pay desk can be used in different manners. You can consider a pay desk as a physical unit and consequently create one pay desk per physically existing pay desk.   
 However, you can also create one pay desk per user, so that each pay desk is assigned to one specific cashier and can only be used by that cashier. In this way, you can also create several pay desks in the POS system for one physically existing pay desk.
+
+#### Prerequisites
+
+A store has been created, see [Create a store manually](#create-a-store-manually) or [Create a store via wizard](#create-a-store-via-wizard).
+
+#### Procedure
 
 *Venduo POS > Management > Tab STORES > Select Store > Tab Basic Data*
 
@@ -311,9 +381,16 @@ However, you can also create one pay desk per user, so that each pay desk is ass
 [comment]: <> (Is it a feature or is it a bug?)
 
 
-#### Configure the pay desk details
+## Configure the pay desk details
 
 In the pay desk details, you give some detailed information about the pay desk. Further, you assign one or several cashiers to prevent the pay desk from unauthorized access.
+
+#### Prerequisites
+
+- A store has been created, see [Create a store manually](#create-a-store-manually) or [Create a store via wizard](#create-a-store-via-wizard).
+- At least one pay desk has been created, see [Create a pay desk](#create-a-pay-desk).
+
+#### Procedure
 
 *Venduo POS > Management > Tab STORES > Select Store > Tab Basic Data > Select Pay Desk*
 
@@ -340,16 +417,31 @@ In the pay desk details, you give some detailed information about the pay desk. 
 [comment]: <> (Is it a feature or is it a bug?)
 
 
-#### Select a printer
+
+## Select a printer
 
 You have to select a printer for the printing of receipts.
 
-[comment]: <> (How does this work?)
+#### Prerequisites
+
+- A store has been created, see [Create a store manually](#create-a-store-manually) or [Create a store via wizard](#create-a-store-via-wizard).
+- At least one pay desk has been created, see [Create a pay desk](#create-a-pay-desk).
+- The printer for POS is configured, see [Configure the printer for POS](03_ConfigurePrinter.md).
+
+#### Procedure
+
+[comment]: <> (Add procedure to select a printer manually)
 
 
-#### Enter the store address
+## Define the store address
 
 The store address is required as the delivery address, which has to be defined for tax purposes. Further, a delivery address and an invoice address should be indicated on every receipt created in the POS system.
+
+#### Prerequisites
+
+A store has been created, see [Create a store manually](#create-a-store-manually) or [Create a store via wizard](#create-a-store-via-wizard).
+
+#### Procedure
 
 *Venduo POS > Management > Tab STORES > Select Store > Tab Settings*
 
@@ -363,7 +455,7 @@ The store address is required as the delivery address, which has to be defined f
 2. Enter the store address in the fields.
 
   > [Info] The store address corresponds to the delivery address. You must at least enter the country and the ZIP code.   
-   For detailed information, see [User Interface Venduo POS/Management/Stores](/POS/UserInterface/02b_Management.md).
+   For detailed information, see [User Interface Venduo POS/Management/Stores](/POS/UserInterface/02b_Stores.md).
 
 3. Click the [Save] button in the upper right corner.   
     The *Saving successful* message is displayed. The store address is saved.
@@ -371,9 +463,16 @@ The store address is required as the delivery address, which has to be defined f
     ![Saving successful](/Assets/Screenshots/SavingSuccessful.png "[Saving successful]")
 
 
-#### Assign the POS warehouse
+## Assign the POS warehouse
 
 To connect the warehouse management and the stock management to your POS, you have to assign a warehouse from which to take the stock. The warehouse specifies where exactly the stock is booked out when a product is sold.
+
+#### Prerequisites
+
+- A store has been created, see [Create a store manually](#create-a-store-manually) or [Create a store via wizard](#create-a-store-via-wizard).
+- A warehouse for POS is configured, see [Configure the warehouse for POS](01_ConfigureWarehouse.md).
+
+#### Procedure
 
 *Venduo POS > Management > Tab STORES > Select Store > Tab Admin Settings*
 
@@ -385,7 +484,7 @@ To connect the warehouse management and the stock management to your POS, you ha
 2. Select the warehouse you want to take the stock from in the *Warehouse* drop-down list.
 
 3. Activate the *Automatically assign product to warehouse when activated in store* toggle to automate the assignment process.    
-  It is recommended to activate this option. For detailed information, see [User Interface Venduo POS/Management/Stores](/POS/UserInterface/02b_Management.md).
+  It is recommended to activate this option. For detailed information, see [User Interface Venduo POS/Management/Stores](/POS/UserInterface/02b_Stores.md).
 
   > [Info] A product must have stock allocation in a warehouse in order to be sold from that warehouse. Products only have stock in a warehouse if a shelf is defined for them. By default, a shelf is not defined for products. Therefore, each product that is to be sold in the POS system must first get a shelf. The products get a shelf the first time the corresponding channels offer is activated.    
   This automation only works if you have enabled the storage of multiple items per shelf when creating the warehouse. For detailed information, see [Configure the warehouse for POS](01_ConfigureWarehouse.md).
@@ -400,9 +499,15 @@ To connect the warehouse management and the stock management to your POS, you ha
     ![Saving successful](/Assets/Screenshots/SavingSuccessful.png "[Saving successful]")
 
 
-#### Configure the stock withdrawal matrix
+## Configure the stock withdrawal matrix
 
 Define in the stock withdrawal matrix from which warehouses defined in the system the stock is booked out.
+
+#### Prerequisites
+
+A warehouse for POS is configured, see [Configure the warehouse for POS](01_ConfigureWarehouse.md).
+
+#### Procedure
 
 *Warehouse > Settings > Tab WAREHOUSE > Tab Stock withdrawal matrix*
 
@@ -429,50 +534,68 @@ Define in the stock withdrawal matrix from which warehouses defined in the syste
   The new assignment in the stock withdrawal matrix is saved.
 
 
-#### Assign the stock source
+## Assign the stock source
 
 Assign a stock source to manage the store stock. The stock source specifies how the stock available in the POS system is calculated. In most cases, the stock source and the warehouse are identical, but they can also differ.   
 
-##### Create a stock attribute
+### Create a stock attribute
+
+
+#### Prerequisites
+
+No prerequisites to fulfill.
+
+[comment]: <> (Muss ein entsprechendes Attributset existieren?)
+
+#### Procedure
+
 *PIM > Settings > Tab ATTRIBUTES*
 
 ![PIM Attributes](/Assets/Screenshots/PIM/Settings/Attributes/Attributes.png "[PIM Attributes]")
 
 1. Click the ![Add](/Assets/Icons/Plus01.png "[Add]") (Add) button in the bottom right corner.   
-  The *Create Attribute* view is displayed.
+  The *Create attribute* view is displayed.
 
-  ![Create Attribute](/Assets/Screenshots/PIM/Settings/Attributes/CreateAttribute.png "[Create Attribute]")
+  ![Create attribute](/Assets/Screenshots/PIM/Settings/Attributes/CreateAttribute.png "[Create attribute]")
 
-2. Enter an appropriate name for the attribute in the *Name* field, for instance **stock test store**.
+2. Enter an appropriate name for the attribute in the *Name* field, for instance **Stock test store**.
 
 3. Enter an appropriate key in the *Key* field.
 
   > [Info] Only alphanumeric characters and _ are allowed. The key has to start with a letter. Blank spaces are not permitted in the *Key* field.
 
-4. Select the **Stock Value** option in the *Data Type* drop-down list.
+4. Select the **Stock value** option in the *Data type* drop-down list.
 
-5. Click the ![Add](/Assets/Icons/Plus05.png "[Add]") (Add) button in the *Assigned Sets* section.   
-  A new drop-down list is displayed in the *Assigned Sets* section.
+5. Click the ![Add](/Assets/Icons/Plus05.png "[Add]") (Add) button in the *Assigned sets* section.   
+  A new drop-down list is displayed in the *Assigned sets* section.
 
-6. Select the corresponding set in the *Assigned Sets* drop-down list.
+6. Select the corresponding set in the *Assigned sets* drop-down list.
 
 7. Click the [SAVE] button in the upper right corner.   
-  The attribute is saved. The page *Create Attribute* is closed.
+  The attribute is saved. The page *Create attribute* is closed.
 
 8. Press **F5** to initialize the Core1 Platform.
 
 
-##### Configure the stock allocation
+### Configure the stock allocation
+
+#### Prerequisites
+
+- A warehouse for POS is configured, see [Configure the warehouse for POS](01_ConfigureWarehouse.md).
+- A stock attribute has been created, see [Create a stock attribute](#create-a-stock-attribute).
+
+#### Procedure
+
 *Warehouse > Settings > Tab WAREHOUSE > Tab Stock allocation*
 
 ![Stock allocation](/Assets/Screenshots/RetailSuiteWarehousing/Settings/Warehouse/StockAllocation/StockAllocation.png "[Stock allocation]")
 
 1. Select the row with the stock allocation attributes name.
 
-2. Double-click the field with the **Default (Calculation, Stock)** option in the *Stock calculation* column.   
+2. Double-click the field with the **Default (Calculation, stock)** option in the *Stock calculation* column.   
   A drop-down list is displayed.
 
-3. Select the **Calculation, Stock** option in the drop-down list in the *Stock calculation* column.   
+3. Select the **Calculation, stock** option in the drop-down list in the *Stock calculation* column.   
   The fields in the warehouse columns are unlocked.
 
 4. Double-click the option in a warehouse column to display the drop-down list.
@@ -484,7 +607,16 @@ Assign a stock source to manage the store stock. The stock source specifies how 
 6. Click the [Save] button in the bottom right corner.   
   The stock allocation is saved. When the stock in a warehouse that is included in the formula is changed, the stock will be entered automatically in the stock field.
 
-##### Map the attribute to the stock of the store
+
+### Map the attribute to the stock of the store
+
+#### Prerequisites
+
+- A store has been created, see [Create a store manually](#create-a-store-manually) or [Create a store via wizard](#create-a-store-via-wizard).
+- A stock attribute has been created, see [Create a stock attribute](#create-a-stock-attribute).
+
+#### Procedure
+
 *DataHub > Settings > Tab ETL*
 
 ![ETL](/Assets/Screenshots/DataHub/Settings/ETL/ETL.png "[ETL]")
@@ -512,7 +644,7 @@ Assign a stock source to manage the store stock. The stock source specifies how 
   > [Info] If necessary, repeat step **2** to **6** for all mappings with the store as a destination attribute.
 
 
-#### Assign the accounts
+## Assign the accounts
 
 In this step you assign the accounts to which you want to book the payments.   
 You may assign the same accounts to all stores or you may assign different accounts per store or even per pay desk. Depending on your choice, you have to assign the accounts in different places:   
@@ -524,12 +656,20 @@ You may assign the same accounts to all stores or you may assign different accou
   > [Info] Remember that the more specific settings always override the more general settings.  
   This means that the accounts specified in the pay desks admin settings are always used first. If none are specified there, the accounts from the stores admin settings are used and only when nothing is specified there, the accounts from the global settings are used.
 
-##### Assign the accounts in the global settings
+### Assign the accounts in the global settings
 To assign the same accounts to all stores, you may enter the account numbers in the global settings.
+
+#### Prerequisites
+
+- A store has been created, see [Create a store manually](#create-a-store-manually) or [Create a store via wizard](#create-a-store-via-wizard).
+- The global settings for POS are configured, see [Configure the global settings for POS](05_ConfigureGlobalSettings.md).
+- The accounts for POS are configured, see [Manage the accounts for POS](02_ManageAccounts.md).
+
+#### Procedure
 
 *Venduo POS > Management > Tab GLOBAL SETTINGS > Entry Account assignment*
 
-![Assign accounts Global Settings](/Assets/Screenshots/POS/Management/GlobalSettings/GS24.png "[Assign accounts Global Settings]")
+![Assign accounts global settings](/Assets/Screenshots/POS/Management/GlobalSettings/GS24.png "[Assign accounts global settings]")
 
 1. Select the respective account in the *Account* column and enter the corresponding account numbers for the different payment types and currencies.  
    For detailed information, see [Manage the accounts for POS](02_ManageAccounts.md).
@@ -540,8 +680,15 @@ To assign the same accounts to all stores, you may enter the account numbers in 
   ![Saving successful](/Assets/Screenshots/SavingSuccessful.png "[Saving successful]")
 
 
-##### Assign the accounts in the store settings
+### Assign the accounts in the store settings
 To assign the accounts to a single store, you may enter the account numbers in the store admin settings.
+
+#### Prerequisites
+
+- A store has been created, see [Create a store manually](#create-a-store-manually) or [Create a store via wizard](#create-a-store-via-wizard).
+- The accounts for POS are configured, see [Manage the accounts for POS](02_ManageAccounts.md).
+
+#### Procedure
 
 *Venduo POS > Management > Tab STORES > Select Store > Tab Admin Settings > Entry Account assignment*
 
@@ -559,8 +706,16 @@ To assign the accounts to a single store, you may enter the account numbers in t
   ![Saving successful](/Assets/Screenshots/SavingSuccessful.png "[Saving successful]")
 
 
-##### Assign the accounts in the pay desk settings
+### Assign the accounts in the pay desk settings
 To assign the accounts to a single pay desk, you may enter the account numbers in the pay desk admin settings.
+
+#### Prerequisites
+
+- A store has been created, see [Create a store manually](#create-a-store-manually) or [Create a store via wizard](#create-a-store-via-wizard).
+- At least one pay desk has been created, see [Create a pay desk](#create-a-pay-desk).
+- The accounts for POS are configured, see [Manage the accounts for POS](02_ManageAccounts.md).
+
+#### Procedure
 
 *Venduo POS > Management > Tab STORES > Select Store > Select Pay Desk > Tab Admin Settings > Entry Account assignment*
 
@@ -576,22 +731,3 @@ When the toggle is active, all fields in the detail view are locked. By default,
   The *Saving successful* message is displayed. The account assignment for the selected pay desk is saved.
 
   ![Saving successful](/Assets/Screenshots/SavingSuccessful.png "[Saving successful]")
-
-### Next steps
-
-- [Manage offers for POS](07_ManageOffers.md)
-- [Manage the POS warehouse](08_ManageWarehouse.md)
-
-### See also
-
-- [User Interface Venduo POS](/POS/UserInterface/00_UserInterface.md)
-- [User Interface Warehouse](/RetailSuiteWarehousing/UserInterface/00_UserInterface.md)
-- [User Interface PIM](/PIM/UserInterface/00_UserInterface.md)
-- [User Interface DataHub](/DataHub/UserInterface/00_UserInterface.md)
-- [Create a store via wizard](06_CreateStore.md#create-a-store-via-wizard)
-- [Open a pay desk](/POS/Operation/01_OpenPayDesk.md)
-- [Configure the warehouse for POS](01_ConfigureWarehouse.md)
-- [Manage the accounts for POS](02_ManageAccounts.md)
-- [Configure the printer for POS](03_ConfigurePrinter.md)
-- [Assign users to the POS groups](04_AssignUsers.md)
-- [Configure the global settings for POS](05_ConfigureGlobalSettings.md)
