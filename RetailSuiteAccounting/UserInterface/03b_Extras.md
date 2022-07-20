@@ -83,7 +83,7 @@ Specify the period to be exported.
 The tax mapping is preconfigured in the system but can be edited.
 
 - [Edit]  
-Click this button to edit the tax mapping. The *BMD tax mapping* window is displayed, see [BMD tax mapping].
+Click this button to edit the tax mapping. The *BMD tax mapping* window is displayed, see [BMD tax mapping](#bmd-tax-mapping).
 
 - [CONTINUE]  
 Click this button to proceed to the next step.
@@ -280,7 +280,7 @@ Click the drop-down list to select the personal accounts to be exported. The fol
 Enter an account number or an account number range to be exported.
 
 - *Export only booking-relevant master data records*  
- Click the drop-down list to select the appropriate option (**Yes/No**)
+ Click the drop-down list to select the appropriate option (**Yes/No**).
 
 - *Take Receipt 2 field in the export document from booking record field*  
 Click the drop-down list to select the appropriate option. The following options are available:  
@@ -888,9 +888,9 @@ The exported file(s) are displayed and can be downloaded by clicking on the file
 
 
 
-### Tax mapping
+### BMD tax mapping
 
-![Tax mapping](/Assets/Screenshots/RetailSuiteAccounting/Extras/Export/BMDTaxMapping.png "[Tax mapping]")
+![BMD tax mapping](/Assets/Screenshots/RetailSuiteAccounting/Extras/Export/BMDTaxMapping.png "[BMD tax mapping]")
 
 
 **Tax mapping**
