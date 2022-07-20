@@ -33,7 +33,7 @@ To [create an attribute](/PIM/Integration/01_ManageAttributes.md#create-an-attri
 - [Offer bundle](#offer-bundle)
 - [Object](#object-internal-not-editable)
 - [Encrypted value](#encrypted-value-internal-not-editable)
-- [Related products](#related products)
+- [Related products](#related-products)
 - [PIM price field](#pim-price-field)
 - [Product variants](#product-variants-internal-not-editable)
 - [Product bundle](#product-bundle)
