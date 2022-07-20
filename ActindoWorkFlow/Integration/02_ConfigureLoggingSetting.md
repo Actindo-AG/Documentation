@@ -14,7 +14,7 @@ No prerequisites to fulfill.
 
 ![Settings](/Assets/Screenshots/ActindoWorkFlow/Settings/Settings.png "[Settings]")
 
-1. Select the log type you want to edit in the *LOG LIFETIMES* section of the left *Settings* side menu. The following logs are available:
+1. Select the log lifetime type you want to edit in the *LOG LIFETIMES* section of the left *Settings* side menu. The following logs types are available:
   - Emergency-log lifetime
   - Alert-log lifetime
   - Critical-log lifetime
@@ -28,6 +28,8 @@ No prerequisites to fulfill.
 
   ![Default disabled](/Assets/Screenshots/ActindoWorkFlow/Settings/DefaultDisabled.png "[Default disabled]")
 
+  >[Info] The procedure to change the log lifetime is identical for all log lifetime types.
+
 2. Disable the *Apply from default* toggle in the upper right corner.   
   The field to define the log lifetime is unlocked.
 
@@ -40,7 +42,7 @@ No prerequisites to fulfill.
 
   ![Saving successful](/Assets/Screenshots/ActindoWorkFlow/Settings/SavingSuccessful.png "[Saving successful]")
 
-### See also
+## See also
 
 - [User Interface workflows](/ActindoWorkFlow/UserInterface/00_UserInterface.md)
 - [Configure the queue types](01_ConfigureQueueTypes.md)

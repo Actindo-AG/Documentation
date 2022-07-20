@@ -74,7 +74,7 @@ Click the drop-down list to display a specific workflow type. All workflows crea
 - ![Search](/Assets/Icons/Search.png "[Search]") (Search)  
     Click this button to display the search bar and search for a workflow.  
 
-    > [Info] The search function can be used to search for a workflow subject and name. At least 3 characters must be entered.
+    > [Info] The search function can be used to search for a workflow subject and name. At least three characters must be entered.
 
 - ![Refresh](/Assets/Icons/Refresh01.png "[Refresh]") (Refresh)  
     Click this button to update the list of workflows.
@@ -233,7 +233,7 @@ Click the drop-down list to select an action status. The following options are a
 - ![Search](/Assets/Icons/Search.png "[Search]") (Search)  
     Click this button to display the search bar and search for an action.
 
-    > [Info] The search function can be used to search for a transition name. At least 3 characters must be entered.
+    > [Info] The search function can be used to search for a transition name. At least three characters must be entered.
 
 - ![Refresh](/Assets/Icons/Refresh01.png "[Refresh]") (Refresh)  
     Click this button to update the list of actions.
@@ -475,7 +475,7 @@ Click the drop-down list to select the view. All created views are displayed in 
 - ![Search](/Assets/Icons/Search.png "[Search]") (Search)  
     Click this button to display the search bar and search for a token.
 
-    > [Info] The search function can be used to search for a token ID. At least 3 characters must be entered.
+    > [Info] The search function can be used to search for a token ID. At least three characters must be entered.
 
 - ![Refresh](/Assets/Icons/Refresh01.png "[Refresh]") (Refresh)  
     Click this button to update the list of tokens.

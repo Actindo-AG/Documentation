@@ -1,4 +1,5 @@
 [!!Workflows](ActindoWorkFlow)
+[!!Tasks](Tasks)
 
 # Overview
 
@@ -186,8 +187,11 @@ The list displays all workflow versions of the selected workflow. Depending on t
 - [x]  
 Select the checkbox to display the editing toolbar.
 
-- [PUBLISH]/[UNPUBLISH]  
-Click this button to publish or unpublish a workflow version. For detailed information, see [Publish a workflow](/ActindoWorkFlow/Operation/01_ManageWorkflows.md#publish-a-workflow) and [Unpublish a workflow](/ActindoWorkFlow/Operation/01_ManageWorkflows.md#unpublish-a-workflow).
+- [PUBLISH]   
+  Click this button to publish a workflow version. This button is only displayed if the selected workflow version is unpublished. For detailed information, see [Publish a workflow](/ActindoWorkFlow/Operation/01_ManageWorkflows.md#publish-a-workflow).
+
+- [UNPUBLISH]    
+  Click this button to unpublish a workflow version. This button is only displayed if the selected workflow version is published. For detailed information, see [Unpublish a workflow](/ActindoWorkFlow/Operation/01_ManageWorkflows.md#unpublish-a-workflow).
 
 
 
@@ -272,9 +276,8 @@ Click the ![Points](/Assets/Icons/Points02.png "[Points]") (Points) button to th
   Place key. This field is read-only. The key is required for API access and must be unique within the workflow version.
 
   - *Data container*  
-  Use this field to define the data type to be used in the place. If necessary, click the ![Delete](/Assets/Icons/Cross02.png "[Delete]") (Delete) button to display the whole list of available data types. Enter a search text for the desired data type. The list of transitions is filtered for your search text as you type. Select the ![Radio button](/Assets/Icons/Radiobutton.png "[Radio button]") (Radio button) corresponding to the appropriate option.
-
-    For detailed information, see [Places](/ActindoWorkFlow/Overview/02_WorkflowProcessElements.md#places).
+  Use this field to define the data type to be used in the place. If necessary, click the ![Delete](/Assets/Icons/Cross02.png "[Delete]") (Delete) button to display the whole list of available data types. Enter a search text for the desired data type. The list of transitions is filtered for your search text as you type. Select the radio button of the appropriate option.   
+  For detailed information, see [Places](/ActindoWorkFlow/Overview/02_WorkflowProcessElements.md#places).
 
 
   - Start/end place  
@@ -288,8 +291,7 @@ Click the ![Points](/Assets/Icons/Points02.png "[Points]") (Points) button to th
     Place key. This field is read-only. The key is required for API access and must be unique within the workflow version.
 
     - *Data container*  
-    Use this field to define the data type to be used in the place. If necessary, click the ![Delete](/Assets/Icons/Cross02.png "[Delete]") (Delete) button to display the whole list of available data types. Enter a search text for the desired data type. The list of transitions is filtered for your search text as you type. Select the ![Radio button](/Assets/Icons/Radiobutton.png "[Radio button]") (Radio button) corresponding to the appropriate option.
-
+    Use this field to define the data type to be used in the place. If necessary, click the ![Delete](/Assets/Icons/Cross02.png "[Delete]") (Delete) button to display the whole list of available data types. Enter a search text for the desired data type. The list of transitions is filtered for your search text as you type. Select the radio button of the appropriate option.   
     For detailed information, see [Start and end place](/ActindoWorkFlow/Overview/02_WorkflowProcessElements.md#start-and-end-place).
 
 
@@ -376,7 +378,7 @@ Click this button to close the window.
 *Workflows > Workflows > Tab OVERVIEW > Select workflow > Select version > Button NEW ACTION*
 *Workflows > Workflows > Tab OVERVIEW > Select workflow > Select version > Button Add next to a place*
 
-![Search for an action](/Assets/Screenshots/ActindoWorkFlow/Workflows/SearchAction02.png "[Search for an action]")
+![Search for an action](/Assets/Screenshots/ActindoWorkFlow/Workflows/SearchAction.png "[Search for an action]")
 
 The *Search for an action* window displays a list of possible transitions for the selected place.
 

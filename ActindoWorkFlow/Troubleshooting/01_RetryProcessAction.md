@@ -31,7 +31,7 @@ The cause of the faulty process action is fixed.
 2. Click the faulty process action in the process diagram.   
   The selected action is displayed in the *Actions* tab in the bottom part of the *Process ID* view.
 
-  > [Info] If requiredd, you can switch to the *Logs* tab and click the log with the **Error** type in the column *Type* to display the *Log ID* view with the complete log message to the error.
+  > [Info] If required, you can switch to the *Logs* tab and click the log with the **Error** type in the column *Type* to display the *Log ID* view with the complete log message to the error.
 
 3. Select the checkbox of the faulty action.   
   The editing toolbar is displayed.

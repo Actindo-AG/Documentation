@@ -47,13 +47,12 @@ For detailed information about tokens, see [Check the token status and content](
 ### See also
 
 - [User Interface workflows](/ActindoWorkFlow/UserInterface/00_UserInterface.md)
-- [Retry a single process action](/ActindoWorkFlow/Troubleshooting/02_RetryProcessAction.md#retry-a-single-process-action)
-- [Retry multiple process actions](/ActindoWorkFlow/Troubleshooting/02_RetryProcessAction.md#retry-multiple-process-actions)
+- [Manage the workflows](01_ManageWorkflows.md)
+- [Retry process action](/ActindoWorkFlow/Troubleshooting/01_RetryProcessAction.md)
 - [Workflow and process elements](/ActindoWorkFlow/Overview/02_WorkflowProcessElements.md)
 - [Workflows](/ActindoWorkFlow/UserInterface/02a_Workflows.md)
 - [Processes](/ActindoWorkFlow/UserInterface/03a_Processes.md)
 - [Process actions](/ActindoWorkFlow/UserInterface/04a_ProcessActions.md)
-- [Manage the workflows](01_ManageWorkflows.md)
 
 
 
@@ -124,13 +123,14 @@ The selected action is displayed in the *Actions* tab.
 ### See also
 
 - [User Interface workflows](/ActindoWorkFlow/UserInterface/00_UserInterface.md)
-- [Retry a single process action](/ActindoWorkFlow/Troubleshooting/02_RetryProcessAction.md#retry-a-single-process-action)
-- [Retry multiple process actions](/ActindoWorkFlow/Troubleshooting/02_RetryProcessAction.md#retry-multiple-process-actions)
+- [Check the process status](#check-the-process-status)
+- [Manage the workflows](01_ManageWorkflows.md)
+- [Retry process action](/ActindoWorkFlow/Troubleshooting/01_RetryProcessAction.md)
 - [Workflow and process elements](/ActindoWorkFlow/Overview/02_WorkflowProcessElements.md)
 - [Workflows](/ActindoWorkFlow/UserInterface/02a_Workflows.md)
 - [Processes](/ActindoWorkFlow/UserInterface/03a_Processes.md)
 - [Process actions](/ActindoWorkFlow/UserInterface/04a_ProcessActions.md)
-- [Manage the workflows](01_ManageWorkflows.md)
+
 
 
 ## Check the token status and content
@@ -187,14 +187,15 @@ The token input in the selected place, if any, is displayed in the *Tokens* tab.
 
 ### Next steps
 
-- [Retry a single process action](/ActindoWorkFlow/Troubleshooting/02_RetryProcessAction.md#retry-a-single-process-action)
-- [Retry multiple process actions](/ActindoWorkFlow/Troubleshooting/02_RetryProcessAction.md#retry-multiple-process-actions)
+[Retry process action](/ActindoWorkFlow/Troubleshooting/01_RetryProcessAction.md)
 
 ### See also
 
 - [User Interface workflows](/ActindoWorkFlow/UserInterface/00_UserInterface.md)
+- [Check the process status](#check-the-process-status)
+- [Check the process action status](#check-the-process-action-status)
+- [Manage the workflows](01_ManageWorkflows.md)
 - [Workflow and process elements](/ActindoWorkFlow/Overview/02_WorkflowProcessElements.md)
 - [Workflows](/ActindoWorkFlow/UserInterface/02a_Workflows.md)
 - [Processes](/ActindoWorkFlow/UserInterface/03a_Processes.md)
 - [Process actions](/ActindoWorkFlow/UserInterface/04a_ProcessActions.md)
-- [Manage the workflows](01_ManageWorkflows.md)
