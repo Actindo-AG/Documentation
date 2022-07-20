@@ -1051,7 +1051,7 @@ Click the drop-down list to select the import/export definition type where the n
 The previously given name is displayed. This field is read-only.
 
 - *New name*  
-Enter a new name for the selected import/export.
+Enter a new name for the selected import/export definition.
 
 - [SAVE]  
 Click this button to rename the selected import/export definition.  
