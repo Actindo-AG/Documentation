@@ -11,7 +11,7 @@ To [create an attribute](/PIM/Integration/01_ManageAttributes.md#create-an-attri
 - [Language](#language)
 - [Country](#country)
 - [TreeNode](#treenode)
-- [Comlpeteness](#completeness-internal-not-editable)
+- [Completeness](#completeness-internal-not-editable)
 - [Number with unit](#number-with-unit)
 - [Sales unit value](#sales-unit-value)
 - [Simple price field](#simple-price-field)
