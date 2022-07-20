@@ -24,7 +24,7 @@ To [create an attribute](/PIM/Integration/01_ManageAttributes.md#create-an-attri
 - [Taxzone](#taxzone)
 - [Images](#images)
 - [Files](#files)
-- [PIM-Channels connection](#pimchannels-connection-internal-not-editable)
+- [PIM-Channels connection](#pim-channels-connection-internal-not-editable)
 - [UCS product bundle](#ucs-product-bundle-internal-not-editable)
 - [URLs](#urls-internal-not-editable)
 - [Cloudinary image](#cloudinary-image)
