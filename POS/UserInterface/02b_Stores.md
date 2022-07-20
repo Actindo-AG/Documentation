@@ -63,11 +63,11 @@ The table displays all created stores. All fields are read-only. Depending on th
   Click this button to cancel the store creation and exit the current view.
 
 
-### Create store via wizard
+## Create store via wizard
 *Venduo POS > Management > Tab STORES > Button Add > Button Create store via wizard*
 
 
-#### Step 1 - Create store
+### Step 1 - Create store
 ![Create Store](/Assets/Screenshots/POS/Management/Stores/StoreWizard/SW01.png "[Create Store]")
 
 - *Store-Name*   
@@ -107,7 +107,7 @@ The table displays all available users. All fields are read-only. Depending on t
 - [CREATE STORE]   
   Click this button to create the store and proceed to the next step in the store wizard. The *Creating Store* window is displayed. When the store is created, the *Pay desks* wizard window is displayed.
 
-#### Step 2 - Pay desks
+### Step 2 - Pay desks
 ![Create Store](/Assets/Screenshots/POS/Management/Stores/StoreWizard/SW02.png "[Create Store]")
 
 - *PayDesk1*   
@@ -156,7 +156,7 @@ The table displays all available users. All fields are read-only. Depending on t
 - [CREATE PAYDESKS]   
   Click this button to create the pay desks and proceed to the next step in the store wizard. The *Printing* wizard window is displayed.
 
-#### Step 3 - Printing
+### Step 3 - Printing
 ![Create Store](/Assets/Screenshots/POS/Management/Stores/StoreWizard/SW03.png "[Create Store]")
 
 For each pay desk, a tab with the printer settings below is displayed.
@@ -197,7 +197,7 @@ For each pay desk, a tab with the printer settings below is displayed.
 - [CONTINUE]   
   Click this button to save the printer settings for the pay desks and proceed to the next step in the store wizard.  The *Store Address* wizard window is displayed. The *Saving successful* message is displayed in the upper right corner of the wizard window.
 
-#### Step 4 - Store address
+### Step 4 - Store address
 ![Create Store](/Assets/Screenshots/POS/Management/Stores/StoreWizard/SW04.png "[Create Store]")
 
 - *Owner*   
@@ -234,7 +234,7 @@ For each pay desk, a tab with the printer settings below is displayed.
   Click this button to save the store address and proceed to the next step in the store wizard. The *Stock* wizard window is displayed. The *Saving successful* message is displayed in the upper right corner of the wizard window.
 
 
-#### Step 5 - Stock
+### Step 5 - Stock
 ![Create Store](/Assets/Screenshots/POS/Management/Stores/StoreWizard/SW05.png "[Create Store]")
 
 - *Warehouse*   
@@ -262,7 +262,7 @@ For each pay desk, a tab with the printer settings below is displayed.
   Click this button to save the stock settings and proceed to the next step in the store wizard. The *Saving...* window is displayed. When the saving is completed, the *Inventory assignment* wizard window is displayed.
 
 
-#### Step 6 - Inventory assignment
+### Step 6 - Inventory assignment
 ![Create Store](/Assets/Screenshots/POS/Management/Stores/StoreWizard/SW06a.png "[Create Store]")
 
 - ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Create new inventory source*   
@@ -285,7 +285,7 @@ For each pay desk, a tab with the printer settings below is displayed.
 [comment]: <> (when I proceed with the active toggle, go back and try to continue the wizard again, an error message is displayed: Saving failed ETLAttributeMap for destinationAttribute with name Bestand does already exist for ETLAttributeSetMap with id 672. -> Bug?)  
 
 
-#### Step 7 - Accounting
+### Step 7 - Accounting
 ![Create Store](/Assets/Screenshots/POS/Management/Stores/StoreWizard/SW07b.png "[Create Store]")
 
 - ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Account per pay desk*   
@@ -334,7 +334,7 @@ The list of accounts is displayed either when you deactivate the toggle *Account
   Click this button to assign the accounts and proceed to the next step in the store wizard. The *Loading...* window is displayed. When the saving is completed, the *Summary* wizard window is displayed.
 
 
-#### Step 8 - Summary
+### Step 8 - Summary
 ![Create Store](/Assets/Screenshots/POS/Management/Stores/StoreWizard/SW08.png "[Create Store]")
 
 The wizard window displays a summary of the store configuration. Missing data or problems that can lead to restrictions when using the POS store are indicated with a yellow warning triangle.    
@@ -350,7 +350,7 @@ The wizard window displays a summary of the store configuration. Missing data or
 - [FINALIZE]   
   Click this button to complete the store configuration and close the wizard window. The configured store is displayed in the list of stores.  
 
-### Create store manually
+## Create store manually
 *Venduo POS > Management > Tab STORES > Button Add > Button Create Store*
 
 ![Create Store](/Assets/Screenshots/POS/Management/Stores/CreateStore.png "[Create Store]")
@@ -945,7 +945,7 @@ Change or define the warehouse from which to take the stock.
 
 - *Created MM/DD/YYYY*   
   Date of pay desk creation. This field is read-only.
-  
+
   [comment]: <> (Why is the format another one than for the store?)
 
 - [SAVE]   
@@ -1254,7 +1254,7 @@ The table displays the detailed transactions of the selected shift. All fields a
 - *Bill number*   
   Bill number of the transaction.
 
-- *Comment*
+- *Comment*   
   Comment to the transaction.
 
 - *ID*   
