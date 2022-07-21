@@ -1,129 +1,129 @@
 # User Interface
 
-- [Sales](01_Sales.md)
-  - [Select store and pay desk](01_Sales.md#select-store-and-pay-desk)
-  - [Select opening float](01_Sales.md#select-opening-float)
+- [Sales](./01_Sales.md)
+  - [Select store and pay desk](./01_Sales.md#select-store-and-pay-desk)
+  - [Select opening float](./01_Sales.md#select-opening-float)
 
 
 
-- [CASHPOINT](01a_Cashpoint.md)
-  - [Bill list](01a_Cashpoint.md#bill-list)
-  - [Pay bill list](01a_Cashpoint.md#pay-bill-list)
-  - [Cash payment](01a_Cashpoint.md#cash-payment)
-    - [Payment pending](01a_Cashpoint.md#payment-pending)   
-    - [Payment successful](01a_Cashpoint.md#payment-successful)
-  - [Cashless payment](01a_Cashpoint.md#cashless-payment)
-    - [Payment at terminal](01a_Cashpoint.md#payment-at-terminal)   
-  - [Add customer](01a_Cashpoint.md#add-customer)
-  - [Create customer](01a_Cashpoint.md#create-customer)
-  - [Discount on bill](01a_Cashpoint.md#discount-on-bill)
-  - [Product details](01a_Cashpoint.md#product-details)
+- [CASHPOINT](./01a_Cashpoint.md)
+  - [Bill list](./01a_Cashpoint.md#bill-list)
+  - [Pay bill list](./01a_Cashpoint.md#pay-bill-list)
+  - [Cash payment](./01a_Cashpoint.md#cash-payment)
+    - [Payment pending](./01a_Cashpoint.md#payment-pending)   
+    - [Payment successful](./01a_Cashpoint.md#payment-successful)
+  - [Cashless payment](./01a_Cashpoint.md#cashless-payment)
+    - [Payment at terminal](./01a_Cashpoint.md#payment-at-terminal)   
+  - [Add customer](./01a_Cashpoint.md#add-customer)
+  - [Create customer](./01a_Cashpoint.md#create-customer)
+  - [Discount on bill](./01a_Cashpoint.md#discount-on-bill)
+  - [Product details](./01a_Cashpoint.md#product-details)
 
 
 
-- [HISTORY](01b_History.md)
+- [HISTORY](./01b_History.md)
 
 
 
-- [CASH REGISTER](01c_CashRegister.md)
-  - [Payment tally](01c_CashRegister.md#payment-tally)
-    - [Count cash](01c_CashRegister.md#count-cash)
-  - [Cash in/out](01c_CashRegister.md#cash-inout)
-    - [Cash in](01c_CashRegister.md#cash-in)
-    - [Cash out](01c_CashRegister.md#cash-out)
+- [CASH REGISTER](./01c_CashRegister.md)
+  - [Payment tally](./01c_CashRegister.md#payment-tally)
+    - [Count cash](./01c_CashRegister.md#count-cash)
+  - [Cash in/out](./01c_CashRegister.md#cash-inout)
+    - [Cash in](./01c_CashRegister.md#cash-in)
+    - [Cash out](./01c_CashRegister.md#cash-out)
 
 
 
-- [VOUCHERS](01d_Vouchers.md)
+- [VOUCHERS](./01d_Vouchers.md)
 
 
 
-- [RETOUREN](01e_Returns.md)
-  - [Add return](01e_Returns.md#add-return)
+- [RETOUREN](./01e_Returns.md)
+  - [Add return](./01e_Returns.md#add-return)
 
 
 
-- [SETTINGS](01f_Settings.md)
-  - [Kasse öffnen bei Barzahlung](01f_Settings.md#kasse-öffnen-bei-barzahlung)
-  - [Kasse öffnen nach bargeldlosem Zahlen](01f_Settings.md#kasse-öffnen-nach-bargeldlosem-zahlen)
+- [SETTINGS](./01f_Settings.md)
+  - [Kasse öffnen bei Barzahlung](./01f_Settings.md#kasse-öffnen-bei-barzahlung)
+  - [Kasse öffnen nach bargeldlosem Zahlen](./01f_Settings.md#kasse-öffnen-nach-bargeldlosem-zahlen)
 
 
 
-- [WARENEINGANG](01g_Wareneingang.md)
+- [WARENEINGANG](./01g_Wareneingang.md)
 
 
 
-- [Management](02_Management.md)
+- [Management](./02_Management.md)
 
 
-- [GLOBAL SETTINGS](02a_GlobalSettings.md)
-  - [GENERAL](02a_GlobalSettings.md#general)
-    - [Format laufende Nummer](02a_GlobalSettings.md#format-laufende-nummer)
-    - [Bon immer ausdrucken](02a_GlobalSettings.md#bon-immer-ausdrucken)
-    - [Anzahl Gutscheine pro Bestellung](02a_GlobalSettings.md#anzahl-gutscheine-pro-bestellung)
-    - [Zahlungsweisen (manuelle Zahlung Terminal)](02a_GlobalSettings.md#zahlungsweisen-manuelle-zahlung-terminal)
-    - [Automatischer Discount](02a_GlobalSettings.md#automatischer-discount)
-    - [Kasse öffnen bei Barzahlung](02a_GlobalSettings.md#kasse-öffnen-bei-barzahlung)
-    - [Kasse öffnen nach bargeldlosem Zahlen](02a_GlobalSettings.md#kasse-öffnen-nach-bargeldlosem-zahlen)
-    - [USt-ID](02a_GlobalSettings.md#ustid)
-    - [Bargeldloses Zahlen](02a_GlobalSettings.md#bargeldloses-zahlen)
-    - [Kassenjournal auf User binden](02a_GlobalSettings.md#kassenjournal-auf-user-binden)
-    - [Abschöpfen bis Betrag](02a_GlobalSettings.md#abschöpfen-bis-betrag)
-    - [Erwarteten Betrag verbergen](02a_GlobalSettings.md#erwarteten-vertrag-verbergen)
-  - [WÄHRUNGEN](02a_GlobalSettings.md#währungen)
-    - [Available Currencies](02a_GlobalSettings.md#available-currencies)
-    - [Verwendete Währungen](02a_GlobalSettings.md#verwendete-währungen)
-  - [RETOUREN](02a_GlobalSettings.md#retouren)
-    - [Retouren-Gründe](02a_GlobalSettings.md#retourengründe)
-    - [Refund nur auf gleiches Zahlungsmittel](02a_GlobalSettings.md#refund-nur-auf-gleiches-zahlungsmittel)
-    - [Retoure nur in gleichem Store](02a_GlobalSettings.md#retoure-nur-in-gleichem-store)
-  - [BELEGDRUCK](02a_GlobalSettings.md#belegdruck)
-    - [Händler-Beleg drucken](02a_GlobalSettings.md#händlerbeleg-drucken)
-    - [Nativer Bon-Druck](02a_GlobalSettings.md#nativer-bondruck)
-    - [Logo-Druck Kompatibilitätsmodus](02a_GlobalSettings.md#logodruck-kompatibilitätsmodus)
-    - [Bon-Format](02a_GlobalSettings.md#bonformat)
-    - [Zahlenformat](02a_GlobalSettings.md#zahlenformat)
-    - [Logo](02a_GlobalSettings.md#logo)
-  - [DATENÜBERTRAGUNG RETAILSUITE FAKTURA](02a_GlobalSettings.md#datenübertragung-retailsuite-faktura)
-    - [Kontenzuteilung Buchhaltung](02a_GlobalSettings.md#kontenzuteilung-buchhaltung)
-    - [Korrekturbuchung auf Ursprungslager](02a_GlobalSettings.md#korrekturbuchung-auf-ursprungslager)
-    - [Retourenlager (Sperrlager)](02a_GlobalSettings.md#retourenlager-sperrlager)
-    - [Standard-Kunde](02a_GlobalSettings.md#standardkunde)
-    - [Shop-Lieferungen aktiv](02a_GlobalSettings.md#shoplieferungen-aktiv)
-    - [Kundendaten aus RetailSuite übernehmen](02a_GlobalSettings.md#kundendaten-aus-retailsuite-übernehmen)
-
-
-
-- [STORES](02b_Stores.md)
-  - [Create store](02b_Stores.md#create-store)
-  - [Create store via wizard](02b_Stores.md#create-store-via-wizard)
-  - [Create store manually](02b_Stores.md#create-store-manually)
-  - [Store](02b_Stores.md#store)
-    - [Basic data - Store](02b_Stores.md#basic-datastore)
-    - [Settings](02b_Stores.md#settings)
-    - [Admin settings - Store](02b_Stores.md#admin-settingsstore)
-  - [Pay desk](02b_Stores.md#pay-desk)
-    - [Basic data - Pay desk](02b_Stores.md#basic-datapay-desk)
-    - [Admin settings - Pay desk](02b_Stores.md#admin-settingspay-desk)
-    - [Transactions](02b_Stores.md#transactions)
+- [GLOBAL SETTINGS](./02a_GlobalSettings.md)
+  - [GENERAL](./02a_GlobalSettings.md#general)
+    - [Format laufende Nummer](./02a_GlobalSettings.md#format-laufende-nummer)
+    - [Bon immer ausdrucken](./02a_GlobalSettings.md#bon-immer-ausdrucken)
+    - [Anzahl Gutscheine pro Bestellung](./02a_GlobalSettings.md#anzahl-gutscheine-pro-bestellung)
+    - [Zahlungsweisen (manuelle Zahlung Terminal)](./02a_GlobalSettings.md#zahlungsweisen-manuelle-zahlung-terminal)
+    - [Automatischer Discount](./02a_GlobalSettings.md#automatischer-discount)
+    - [Kasse öffnen bei Barzahlung](./02a_GlobalSettings.md#kasse-öffnen-bei-barzahlung)
+    - [Kasse öffnen nach bargeldlosem Zahlen](./02a_GlobalSettings.md#kasse-öffnen-nach-bargeldlosem-zahlen)
+    - [USt-ID](./02a_GlobalSettings.md#ustid)
+    - [Bargeldloses Zahlen](./02a_GlobalSettings.md#bargeldloses-zahlen)
+    - [Kassenjournal auf User binden](./02a_GlobalSettings.md#kassenjournal-auf-user-binden)
+    - [Abschöpfen bis Betrag](./02a_GlobalSettings.md#abschöpfen-bis-betrag)
+    - [Erwarteten Betrag verbergen](./02a_GlobalSettings.md#erwarteten-vertrag-verbergen)
+  - [WÄHRUNGEN](./02a_GlobalSettings.md#währungen)
+    - [Available Currencies](./02a_GlobalSettings.md#available-currencies)
+    - [Verwendete Währungen](./02a_GlobalSettings.md#verwendete-währungen)
+  - [RETOUREN](./02a_GlobalSettings.md#retouren)
+    - [Retouren-Gründe](./02a_GlobalSettings.md#retourengründe)
+    - [Refund nur auf gleiches Zahlungsmittel](./02a_GlobalSettings.md#refund-nur-auf-gleiches-zahlungsmittel)
+    - [Retoure nur in gleichem Store](./02a_GlobalSettings.md#retoure-nur-in-gleichem-store)
+  - [BELEGDRUCK](./02a_GlobalSettings.md#belegdruck)
+    - [Händler-Beleg drucken](./02a_GlobalSettings.md#händlerbeleg-drucken)
+    - [Nativer Bon-Druck](./02a_GlobalSettings.md#nativer-bondruck)
+    - [Logo-Druck Kompatibilitätsmodus](./02a_GlobalSettings.md#logodruck-kompatibilitätsmodus)
+    - [Bon-Format](./02a_GlobalSettings.md#bonformat)
+    - [Zahlenformat](./02a_GlobalSettings.md#zahlenformat)
+    - [Logo](./02a_GlobalSettings.md#logo)
+  - [DATENÜBERTRAGUNG RETAILSUITE FAKTURA](./02a_GlobalSettings.md#datenübertragung-retailsuite-faktura)
+    - [Kontenzuteilung Buchhaltung](./02a_GlobalSettings.md#kontenzuteilung-buchhaltung)
+    - [Korrekturbuchung auf Ursprungslager](./02a_GlobalSettings.md#korrekturbuchung-auf-ursprungslager)
+    - [Retourenlager (Sperrlager)](./02a_GlobalSettings.md#retourenlager-sperrlager)
+    - [Standard-Kunde](./02a_GlobalSettings.md#standardkunde)
+    - [Shop-Lieferungen aktiv](./02a_GlobalSettings.md#shoplieferungen-aktiv)
+    - [Kundendaten aus RetailSuite übernehmen](./02a_GlobalSettings.md#kundendaten-aus-retailsuite-übernehmen)
 
 
 
-- [MAPPING FROM PIM](02c_MappingFromPIM.md)
+- [STORES](./02b_Stores.md)
+  - [Create store](./02b_Stores.md#create-store)
+  - [Create store via wizard](./02b_Stores.md#create-store-via-wizard)
+  - [Create store manually](./02b_Stores.md#create-store-manually)
+  - [Store](./02b_Stores.md#store)
+    - [Basic data - Store](./02b_Stores.md#basic-datastore)
+    - [Settings](./02b_Stores.md#settings)
+    - [Admin settings - Store](./02b_Stores.md#admin-settingsstore)
+  - [Pay desk](./02b_Stores.md#pay-desk)
+    - [Basic data - Pay desk](./02b_Stores.md#basic-datapay-desk)
+    - [Admin settings - Pay desk](./02b_Stores.md#admin-settingspay-desk)
+    - [Transactions](./02b_Stores.md#transactions)
 
 
 
-- [ACCOUNTING SYNC](02d_AccountingSync.md)
-  - [Accounting sync details](02d_AccountingSync.md#accounting-sync-details)
+- [MAPPING FROM PIM](./02c_MappingFromPIM.md)
 
 
 
-- [ABGESCHLOSSENE LIEFERSCHEINE](02e_ProcessedDeliveryNotes.md)
+- [ACCOUNTING SYNC](./02d_AccountingSync.md)
+  - [Accounting sync details](./02d_AccountingSync.md#accounting-sync-details)
 
 
 
-- [OFFENE LIEFERSCHEINE](02f_UnprocessedDeliveryNotes.md)
+- [ABGESCHLOSSENE LIEFERSCHEINE](./02e_ProcessedDeliveryNotes.md)
 
 
 
-- [WARENEINGANGS-SYNC](02g_WareneingangsSync.md)
+- [OFFENE LIEFERSCHEINE](./02f_UnprocessedDeliveryNotes.md)
+
+
+
+- [WARENEINGANGS-SYNC](./02g_WareneingangsSync.md)

@@ -1,6 +1,6 @@
 [!!Warehouse](RetailSuiteWarehousing)   
 [!!User Interface warehouse](../../RetailSuiteWarehousing/UserInterface/00_UserInterface.md)   
-[!!Handle an out-of-stock order](../POS/Troubleshooting/01_OutOfStockOrder.md)
+[!!Handle an out-of-stock order](../Troubleshooting/01_OutOfStockOrder.md)
 [!!Manage the POS warehouse](./08_ManageWarehouse.md)
 
 
@@ -21,7 +21,7 @@ The *Warehouse groups* plugin must be installed.
 #### Procedure
 *Warehouse > Settings > Tab WAREHOUSE > Tab Warehouse master data*
 
-![Warehouse group basic data](/Assets/Screenshots/RetailSuiteWarehousing/Settings/Warehouse/WarehouseMasterData/GroupBasicData.png "[Warehouse group basic data]")
+![Warehouse group basic data](../../Assets/Screenshots/RetailSuiteWarehousing/Settings/Warehouse/WarehouseMasterData/GroupBasicData.png "[Warehouse group basic data]")
 
 1. Click the button [NEW GROUP].   
   The *Basic data* tab is displayed on the right side.
@@ -31,11 +31,11 @@ The *Warehouse groups* plugin must be installed.
 3. Enter a name for the new warehouse group in the *Designation* field.
 
 4. Click the *Group type* drop-down list and select a group type.  
-  For detailed information, see [User Interface Warehouse](/RetailSuiteWarehousing/UserInterface/00_UserInterface.md).
+  For detailed information, see [User Interface Warehouse](../../RetailSuiteWarehousing/UserInterface/00_UserInterface.md).
 
 5. Click the [SAVE] button.
 
-6. Click the ![Refresh](/Assets/Icons/Refresh01.png "[Refresh]") (Refresh) button at the top of the left column.   
+6. Click the ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh) button at the top of the left column.   
   The new warehouse group is displayed in the left column.
 
 
@@ -50,7 +50,7 @@ A warehouse group is created, see [Create a warehouse group](#create-a-warehouse
 #### Procedure
 *Warehouse > Settings > Tab WAREHOUSE > Tab Warehouse master data*
 
-![Warehouse basic data](/Assets/Screenshots/RetailSuiteWarehousing/Settings/Warehouse/WarehouseMasterData/WarehouseBasicData.png "[Warehouse basic data]")
+![Warehouse basic data](../../Assets/Screenshots/RetailSuiteWarehousing/Settings/Warehouse/WarehouseMasterData/WarehouseBasicData.png "[Warehouse basic data]")
 
 1. Click the button [NEW WAREHOUSE].   
   The *Basic data* tab is displayed on the right side.
@@ -66,9 +66,9 @@ A warehouse group is created, see [Create a warehouse group](#create-a-warehouse
 5. Select the products per shelf in the *Products per shelf* drop-down list.
 
   > [Info] If you create a warehouse for POS, it is recommended to select the option **Multiple items per shelf** .   
-  For detailed information, see [User Interface Warehouse](/RetailSuiteWarehousing/UserInterface/00_UserInterface.md).
+  For detailed information, see [User Interface Warehouse](../../RetailSuiteWarehousing/UserInterface/00_UserInterface.md).
 
 6. Click the [SAVE] button.
 
-7. Click the ![Refresh](/Assets/Icons/Refresh01.png "[Refresh Icon]") (Refresh) button at the top of the left column.   
+7. Click the ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh Icon]") (Refresh) button at the top of the left column.   
   The new warehouse is displayed in the left column.

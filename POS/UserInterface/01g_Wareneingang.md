@@ -4,7 +4,7 @@ This tab is only displayed, when the global setting *Shop-Lieferungen aktiv* is 
 
 *Venduo POS > Sales > Select Store and Pay Desk > Tab WARENEINGANG*
 
-![Wareneingang](/Assets/Screenshots/POS/Sales/Wareneingang/WareneingangListe.png "[Wareneingang]")
+![Wareneingang](../../Assets/Screenshots/POS/Sales/Wareneingang/WareneingangListe.png "[Wareneingang]")
 
 **Wareneingang Liste**
 
@@ -28,7 +28,7 @@ This tab is only displayed, when the global setting *Shop-Lieferungen aktiv* is 
 - *Ist-Menge*    
   Actual quantity of the item.
 
-- ![Edit](/Assets/Icons/Edit02.png "[Edit]") (Edit)   
+- ![Edit](../../Assets/Icons/Edit02.png "[Edit]") (Edit)   
   Click this button to edit the number of items on the delivery bill.
 
 - *Artikel-ID*    

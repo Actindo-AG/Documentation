@@ -1,5 +1,5 @@
-[!!User Interface Cash register](/POS/UserInterface/01c_CashRegister.md)
-[!!User Interface Stores](/POS/UserInterface/02b_Stores.md)
+[!!User Interface Cash register](../UserInterface/01c_CashRegister.md)
+[!!User Interface Stores](../UserInterface/02b_Stores.md)
 
 
 # Manage the cash register
@@ -13,18 +13,18 @@ If you deposit cash in the pay desk without a purchase being made, for instance 
 
 #### Prerequisites
 
-The pay desk is open, see [Open a pay desk](01_OpenPayDesk.md).
+The pay desk is open, see [Open a pay desk](./01_OpenPayDesk.md).
 
 #### Procedure
 
 *Venduo POS > Sales > Select store and pay desk > Tab CASH REGISTER*
 
-![Cash Register](/Assets/Screenshots/POS/Sales/CashRegister/CashRegister.png "[Cash Register]")
+![Cash Register](../../Assets/Screenshots/POS/Sales/CashRegister/CashRegister.png "[Cash Register]")
 
 1. Click the button [Cash in] in the upper right corner of the *Cash in/out* section.   
   The *Cash in* view is displayed.
 
-  ![Cash In](/Assets/Screenshots/POS/Sales/CashRegister/CashIn.png "[Cash In]")
+  ![Cash In](../../Assets/Screenshots/POS/Sales/CashRegister/CashIn.png "[Cash In]")
 
 2. Enter a descriptive name for the deposit in the *Description* field.
 
@@ -33,7 +33,7 @@ The pay desk is open, see [Open a pay desk](01_OpenPayDesk.md).
 4. Click the button [Cash in] in the bottom right corner.  
     The *Cash in* view is closed. The deposit is listed in the table of the *Cash in/out* section.   
 
-    > [Info] To cancel the cash in process, click the ![Delete](/Assets/Icons/Trash03.png "[Delete]") (Delete) button in the bottom right corner.
+    > [Info] To cancel the cash in process, click the ![Delete](../../Assets/Icons/Trash03.png "[Delete]") (Delete) button in the bottom right corner.
 
 
 
@@ -43,18 +43,18 @@ If you withdraw cash without a purchase being made, for instance if you take out
 
 #### Prerequisites
 
-The pay desk is open, see [Open a pay desk](01_OpenPayDesk.md).
+The pay desk is open, see [Open a pay desk](./01_OpenPayDesk.md).
 
 #### Procedure
 
 *Venduo POS > Sales > Select store and pay desk > Tab CASH REGISTER*
 
-![Cash Register](/Assets/Screenshots/POS/Sales/CashRegister/CashRegister.png "[Cash Register]")
+![Cash Register](../../Assets/Screenshots/POS/Sales/CashRegister/CashRegister.png "[Cash Register]")
 
 1. Click the button [Cash out] in the upper right corner of the *Cash in/out* section.   
   The *Cash out* view is displayed.
 
-  ![Cash Out](/Assets/Screenshots/POS/Sales/CashRegister/CashOut.png "[Cash Out]")
+  ![Cash Out](../../Assets/Screenshots/POS/Sales/CashRegister/CashOut.png "[Cash Out]")
 
 2. Enter a descriptive name for the withdrawal in the text *Description* field.
 
@@ -63,7 +63,7 @@ The pay desk is open, see [Open a pay desk](01_OpenPayDesk.md).
 4. Click the button [Cash out] in the bottom right corner.  
     The *Cash out* view is closed. The withdrawal is listed in the table of the *Cash in/out* section.   
 
-    > [Info] To cancel the cash out process, click the ![Delete](/Assets/Icons/Trash04.png "[Delete]") (Delete) button in the bottom right corner.
+    > [Info] To cancel the cash out process, click the ![Delete](../../Assets/Icons/Trash04.png "[Delete]") (Delete) button in the bottom right corner.
 
 
 
@@ -73,18 +73,18 @@ You close the pay desk at cash closing or when a shift change is due and the cas
 
 #### Prerequisites
 
-The pay desk is open, see [Open a pay desk](01_OpenPayDesk.md).
+The pay desk is open, see [Open a pay desk](./01_OpenPayDesk.md).
 
 #### Procedure
 
 *Venduo POS > Sales > Select store and pay desk > Tab CASH REGISTER*
 
-![Cash Register](/Assets/Screenshots/POS/Sales/CashRegister/CashRegister.png "[Cash Register]")
+![Cash Register](../../Assets/Screenshots/POS/Sales/CashRegister/CashRegister.png "[Cash Register]")
 
-1. Click the ![Calculator](/Assets/Icons/Calculator01.png "[Calculator]") (Calculator) button in the field of the *Counted* column in the *Payment tally* section.   
+1. Click the ![Calculator](../../Assets/Icons/Calculator01.png "[Calculator]") (Calculator) button in the field of the *Counted* column in the *Payment tally* section.   
   The *Count cash* view is displayed.
 
-  ![Count Cash](/Assets/Screenshots/POS/Sales/CashRegister/CountCash.png "[Count Cash]")
+  ![Count Cash](../../Assets/Screenshots/POS/Sales/CashRegister/CountCash.png "[Count Cash]")
 
 2. Enter the number of coins or banknotes in the field of the *Amount* column. The amount of money is specified in the same row in the *Type* column.
 
@@ -104,10 +104,10 @@ The pay desk is open, see [Open a pay desk](01_OpenPayDesk.md).
 6. Click the button [Close Register] in the upper right corner of the *Payment tally* section.   
   A confirmation message whether the pay desk should really be closed is displayed.
 
-  ![Close Register](/Assets/Screenshots/POS/Sales/CashRegister/CloseRegister.png "[Close Register]")
+  ![Close Register](../../Assets/Screenshots/POS/Sales/CashRegister/CloseRegister.png "[Close Register]")
 
 7. Click the [Ok] button.   
-  The pay desk is closed. The view to select a store and a pay desk is displayed, see [Open a pay desk](01_OpenPayDesk.md).
+  The pay desk is closed. The view to select a store and a pay desk is displayed, see [Open a pay desk](./01_OpenPayDesk.md).
 
 
 
@@ -123,12 +123,12 @@ At least one shift has ended and the pay desk has been closed, see [Close a pay 
 
 *Venduo POS > Management > Tab STORES > Select Store > Tab Basic Data > Select Pay Desk > Tab Transactions*
 
-![Transactions](/Assets/Screenshots/POS/Management/Stores/PayDesk/Transactions/Transactions.png "[Transactions]")
+![Transactions](../../Assets/Screenshots/POS/Management/Stores/PayDesk/Transactions/Transactions.png "[Transactions]")
 
 1. Click anywhere in the row with the shift you want to check (except in the *Print shift summary* field).   
   The *Transactions* window is displayed.
 
-  ![Transactions Details](/Assets/Screenshots/POS/Management/Stores/PayDesk/Transactions/Details.png "[Transactions Details]")
+  ![Transactions Details](../../Assets/Screenshots/POS/Management/Stores/PayDesk/Transactions/Details.png "[Transactions Details]")
 
  > [Info] The *Transactions* window displays the detailed transactions of the selected shift.
 

@@ -2,14 +2,14 @@
 
 *Venduo POS > Sales > Select Store and Pay Desk > Tab RETOUREN*
 
-![Retouren](/Assets/Screenshots/POS/Sales/Retouren/Retouren.png "[Retouren]")
+![Retouren](../../Assets/Screenshots/POS/Sales/Retouren/Retouren.png "[Retouren]")
 
 **Returns**
 
-- ![Refresh](/Assets/Icons/Refresh01.png "[Refresh]") (Refresh)   
+- ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh)   
   Click this button to update the list of vouchers.
 
-- ![Columns](/Assets/Icons/Columns.png "[Columns]") Columns (x)   
+- ![Columns](../../Assets/Icons/Columns.png "[Columns]") Columns (x)   
   Click this button to display the column editing bar and customize the displayed columns and the order of columns in the table. The *x* indicates the number of columns that are currently displayed in the table.
 
 The table displays all returns. Depending on the settings, the displayed columns may vary.
@@ -41,7 +41,7 @@ The table displays all returns. Depending on the settings, the displayed columns
 - *ID*   
   ID number of the return. This field is read-only.
 
-- ![Add](/Assets/Icons/Plus01.png "[Add]") (Add)   
+- ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add)   
   Click this button to add a return to the list. The *Add Return* view is displayed.
 
 
@@ -49,12 +49,12 @@ The table displays all returns. Depending on the settings, the displayed columns
 
 *Venduo POS > Sales > Select Store and Pay Desk > Tab RETOUREN > Button Add*
 
-![Add return](/Assets/Screenshots/POS/Sales/Retouren/Add.png "[Add return]")
+![Add return](../../Assets/Screenshots/POS/Sales/Retouren/Add.png "[Add return]")
 
-- *![Clipboard](/Assets/Icons/Clipboard.png "[Clipboard]") Please enter a valid bill number*    
+- *![Clipboard](../../Assets/Icons/Clipboard.png "[Clipboard]") Please enter a valid bill number*    
   Enter the bill number of the return to be added to the returns list.
 
-- ![Search](/Assets/Icons/Search.png "[Search]") (Search)   
+- ![Search](../../Assets/Icons/Search.png "[Search]") (Search)   
   Click this button to start the search for the entered bill number.
 
 - [ABBRECHEN]   

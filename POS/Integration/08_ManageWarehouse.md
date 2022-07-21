@@ -1,6 +1,6 @@
 [!!Warehouse](RetailSuiteWarehousing)
-[!!User Interface Warehouse](/RetailSuiteWarehousing/UserInterface/00_UserInterface.md)
-[!!Configure the warehouse for POS](01_ConfigureWarehouse.md)
+[!!User Interface Warehouse](../../RetailSuiteWarehousing/UserInterface/00_UserInterface.md)
+[!!Configure the warehouse for POS](./01_ConfigureWarehouse.md)
 
 
 # Manage the POS warehouse
@@ -13,14 +13,14 @@ Check if the stock allocation is correctly configured so that the store stock is
 
 #### Prerequisites
 
-- A POS store is created, see [Create a store](06_CreateStore.md).
-- The stock allocation is configured, see [Configure the stock allocation](06_CreateStore.md#configure-the-stock-allocation).
+- A POS store is created, see [Create a store](./06_CreateStore.md).
+- The stock allocation is configured, see [Configure the stock allocation](./06_CreateStore.md#configure-the-stock-allocation).
 
 #### Procedure
 
 *Warehouse > Settings > Tab WAREHOUSE > Tab Stock allocation*
 
-![Stock allocation](/Assets/Screenshots/RetailSuiteWarehousing/Settings/Warehouse/StockAllocation/StockAllocation.png "[Stock allocation]")
+![Stock allocation](../../Assets/Screenshots/RetailSuiteWarehousing/Settings/Warehouse/StockAllocation/StockAllocation.png "[Stock allocation]")
 
 1.  Search for the target channel of the appropriate POS store in the *Target channel* column and check the settings in the corresponding row.
 
@@ -45,14 +45,14 @@ Check if the stock withdrawal matrix is correctly configured so that a specific 
 
 #### Prerequisites
 
-- A POS store is created, see [Create a store](06_CreateStore.md).
-- The stock withdrawal matrix is configured, see [Configure the stock withdrawal matrix](06_CreateStore.md#configure-the-stock-withdrawal-matrix).
+- A POS store is created, see [Create a store](./06_CreateStore.md).
+- The stock withdrawal matrix is configured, see [Configure the stock withdrawal matrix](./06_CreateStore.md#configure-the-stock-withdrawal-matrix).
 
 #### Procedure
 
 *Warehouse > Settings > Tab WAREHOUSE > Tab Stock withdrawal matrix*
 
-![Stock withdrawal matrix](/Assets/Screenshots/RetailSuiteWarehousing/Settings/Warehouse/StockWithdrawalMatrix/StockWithdrawalMatrix.png "[Stock withdrawal matrix]")
+![Stock withdrawal matrix](../../Assets/Screenshots/RetailSuiteWarehousing/Settings/Warehouse/StockWithdrawalMatrix/StockWithdrawalMatrix.png "[Stock withdrawal matrix]")
 
 1. Search for the appropriate POS store in the column *Account* and check the settings in the corresponding row.   
 
@@ -79,19 +79,19 @@ Manage the warehouse logistics for POS product to ensure that products are activ
 
 #### Prerequisites
 
-- A POS store is created, see [Create a store](06_CreateStore.md).
-- A POS offer is created, see [Create an offer for POS](07_ManageOffers.md#create-an-offer-for-pos).
+- A POS store is created, see [Create a store](./06_CreateStore.md).
+- A POS offer is created, see [Create an offer for POS](./07_ManageOffers.md#create-an-offer-for-pos).
 
 #### Procedure
 
 *Warehouse > Quick Booking > Tab QUICK BOOKING > Tab Product list*
 
-![Product list](/Assets/Screenshots/RetailSuiteWarehousing/QuickBooking/ProductList.png "[Product list]")
+![Product list](../../Assets/Screenshots/RetailSuiteWarehousing/QuickBooking/ProductList.png "[Product list]")
 
 1.  Double click the article in the article list that you want to check. Alternatively, first right click the article and click then the **Open** entry in the displayed context menu.    
   The article details are displayed on several tabs below the article list. The *Basic data* tab is preselected.
 
-  ![Basic data](/Assets/Screenshots/RetailSuiteWarehousing/QuickBooking/BasicData/BasicData.png "[Basic data]")
+  ![Basic data](../../Assets/Screenshots/RetailSuiteWarehousing/QuickBooking/BasicData/BasicData.png "[Basic data]")
 
 2. Click the *Warehouse logistics active for this product* drop-down list on the right side of the *Basic data* tab and select the **YES** option.
 
@@ -99,7 +99,7 @@ Manage the warehouse logistics for POS product to ensure that products are activ
 3. Click the [Save] button in the bottom right corner of the *Basic data* tab.   
   The *Successfully saved* message is displayed at the top. The active warehouse logistics for this article is saved.
 
-  ![Successfully saved](/Assets/Screenshots/RetailSuiteWarehousing/QuickBooking/SuccessfullySaved.png "[Successfully saved]")
+  ![Successfully saved](../../Assets/Screenshots/RetailSuiteWarehousing/QuickBooking/SuccessfullySaved.png "[Successfully saved]")
 
 
 
@@ -109,8 +109,8 @@ You can adjust the stock quantity of your POS products, for instance because of 
 
 #### Prerequisites
 
-- A POS store is created, see [Create a store](06_CreateStore.md).
-- A POS offer is created, see [Create an offer for POS](07_ManageOffers.md#create-an-offer-for-pos).
+- A POS store is created, see [Create a store](./06_CreateStore.md).
+- A POS offer is created, see [Create an offer for POS](./07_ManageOffers.md#create-an-offer-for-pos).
 - The warehouse logistics for the POS article is active, see [Manage the warehouse logistics for POS products](#manage-the-warehouse-logistics-for-pos-products).
 - A warehouse with a defined shelf is assigned to the POS product.
 
@@ -118,27 +118,27 @@ You can adjust the stock quantity of your POS products, for instance because of 
 
 *Warehouse > Quick Booking > Tab QUICK BOOKING > Tab Product list*
 
-![Product list](/Assets/Screenshots/RetailSuiteWarehousing/QuickBooking/ProductList.png "[Product list]")
+![Product list](../../Assets/Screenshots/RetailSuiteWarehousing/QuickBooking/ProductList.png "[Product list]")
 
 1.  Double click the article in the article list that you want to check. Alternatively, first right click the article and click then the **Open** entry in the displayed context menu.    
 
-  ![Context menu](/Assets/Screenshots/RetailSuiteWarehousing/QuickBooking/ContextMenu.png "[Context menu]")   
+  ![Context menu](../../Assets/Screenshots/RetailSuiteWarehousing/QuickBooking/ContextMenu.png "[Context menu]")   
 
   The article details are displayed on several tabs below the article list. The *Basic data* tab is preselected.
 
-  ![Basic data](/Assets/Screenshots/RetailSuiteWarehousing/QuickBooking/BasicData/BasicData.png "[Basic data]")
+  ![Basic data](../../Assets/Screenshots/RetailSuiteWarehousing/QuickBooking/BasicData/BasicData.png "[Basic data]")
 
 2. Click the *Warehouse / Suppliers* tab.   
   The the *Warehouse / Suppliers* tab is displayed. The *Warehouse management* sub-tab is preselected.
 
-  ![Warehouse management](/Assets/Screenshots/RetailSuiteWarehousing/QuickBooking/WarehouseSuppliers/WarehouseManagement/WarehouseManagement.png "[Warehouse management]")
+  ![Warehouse management](../../Assets/Screenshots/RetailSuiteWarehousing/QuickBooking/WarehouseSuppliers/WarehouseManagement/WarehouseManagement.png "[Warehouse management]")
 
   > [Info] Check if a warehouse is displayed in the *Storage locations* section. You can only change the stock for the POS article, if a warehouse is assigned.
 
 3. Click the [ADD BOOKING] button at the bottom of the *Stocks* section.   
   A window to enter the booking is displayed.
 
-  ![Add booking](/Assets/Screenshots/RetailSuiteWarehousing/QuickBooking/WarehouseSuppliers/WarehouseManagement/AddBooking.png "[Add booking]")
+  ![Add booking](../../Assets/Screenshots/RetailSuiteWarehousing/QuickBooking/WarehouseSuppliers/WarehouseManagement/AddBooking.png "[Add booking]")
 
 4. Configure the following settings:
 
