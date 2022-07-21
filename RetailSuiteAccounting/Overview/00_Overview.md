@@ -6,7 +6,7 @@
 
 
 - [Key Features](02_Features.md)
-  - [Modern accounting](02_Features.md#moder-accounting)
+  - [Modern accounting](02_Features.md#modern-accounting)
   - [Data export made easy](02_Features.md#data-export-made-easy)
   - [Actindo digital payments hub](02_Features.md#actindo-digital-payments-hub)
 
