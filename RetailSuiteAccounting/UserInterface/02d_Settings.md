@@ -87,7 +87,7 @@ Click this button to import bookings from a file. The *Import bookings* window i
 Click this button to export bookings into a file. The *Export bookings* window is displayed.
 
 
-## Import bookings  
+## Import bookings
 
 *Accounting > Select fiscal year > Settings > Tab FISCAL YEARS > Button IMPORT*
 
@@ -130,7 +130,7 @@ Click this button to import data in Schilling Software proprietary FQBATCH forma
 
 
 
-## Export bookings  
+## Export bookings
 
 *Accounting > Select fiscal year > Settings > Tab FISCAL YEARS > Button EXPORT*
 
