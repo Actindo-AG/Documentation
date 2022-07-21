@@ -50,7 +50,7 @@ This list displays all fields available for the selected import/export definitio
 
 
 [INSERT IGNORE FIELD]  
-Click this button to enter an "ignore field", that is, to indicate that the field in that position does not need to be exported or imported, in the *Fields in the definition* list.
+Click this button to add an "ignore field" command, that is, to indicate that the field in that position does not need to be exported or imported, in the *Fields in the definition* list.
 
 **CSV format definition**
 
@@ -58,9 +58,7 @@ Click this button to enter an "ignore field", that is, to indicate that the fiel
 Enter the character to be used to separate fields. This value may be set up by default to comma or semicolon.
 
 - *Escape character*  
-Enter the character to be used to escape. This value may be set up by default to backslash.
-
-[comment]: <> (Further info needed! RS HG)
+Enter the character to be used in escape sequences, that is, combinations of characters used to represent non-printable and special characters, such as tabs or new lines. This value may be set up by default to backslash.
 
 - *Column name*  
 Click the drop-down list to select the appropriate option (**Yes/No**) to include or not the column name in the export/import.
@@ -82,7 +80,7 @@ Click the drop-down list to select the appropriate option, either **Automatic** 
 - *Character set*  
 Click the drop-down list to select the appropriate option, either **Automatic** or the applicable encoding.
 
-- *Incorrect tow end character*  
+- *Incorrect row end character*  
 Click the drop-down list to select the appropriate option (**Ignore/Repair**).
 
 - *Number format*  
