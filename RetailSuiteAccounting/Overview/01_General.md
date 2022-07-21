@@ -13,7 +13,7 @@ The *Accounting* module offers the following benefits:
 - Comprehensive business and tax evaluations, reports and analyses directly in the Actindo Core1 platform  
 - Automated processes, such as payment reconciliation, dunning or release logic for incoming invoices
 - Actindo has a GoBD certificate and meets the requirements of the German Federal Ministry of Finance
-- It can be used as a general ledger or sub-ledger
+- It can be used as a general ledger or subledger
 
 
 ## Prerequisites
