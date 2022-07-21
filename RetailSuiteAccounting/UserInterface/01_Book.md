@@ -398,7 +398,7 @@ The payments can also be processed manually. Click any payment in the list to di
 - [FINALIZE]
 
 
-### ![Lock](/Assets/Icons/Lock02.png "[Lock]") Process
+### Process
 
 *Accounting > Select fiscal year > Book > Context menu EDIT > Menu entry Process*
 
@@ -429,7 +429,7 @@ For detailed information about processing bookings, see [Process bookings](/Reta
 
 
 
-### ![Do not enter](/Assets/Icons/DoNotEnter.png "[Do not enter]") Delete
+### Delete
 
 *Accounting > Select fiscal year > Book > Context menu EDIT > Menu entry Delete*
 
@@ -452,7 +452,7 @@ For detailed information about processing bookings, see [Process bookings](/Reta
   For detailed information about processing bookings, see [Delete bookings](/RetailSuiteAccounting/Operation/06_DeleteBookings.md).
 
 
-### ![Lock](/Assets/Icons/Lock02.png "[Lock]") Lock months
+### Lock months
 
 *Accounting > Select fiscal year > Book > Context menu EDIT > Menu entry Lock months*
 
