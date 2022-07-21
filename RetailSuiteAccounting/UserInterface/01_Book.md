@@ -56,7 +56,7 @@ Click the *EDIT* button to display the context menu.
   Click this menu entry to delete one or several bookings simultaneously. The *Delete bookings* window is displayed, see [Delete](#delete).
 
   - ![Lock](/Assets/Icons/Lock02.png "[Lock]") *Lock months*  
-  Click this menu entry to lock one or several months for bookings. The *Lock months* window is displayed, see [Lock months](#Lock-months).
+  Click this menu entry to lock one or several months for bookings. The *Lock months* window is displayed, see [Lock months](#lock-months).
 
   - *Balance carried forward*  
   Click this menu entry to carry forward balances from the previous fiscal year. The *Balance carried forward: step 1* window is displayed, see [Balance carried forward](#balance-carried-forward).
