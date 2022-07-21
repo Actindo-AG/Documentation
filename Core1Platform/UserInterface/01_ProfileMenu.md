@@ -2,7 +2,7 @@
 
 *Avatar Icon*
 
-![Profile menu](/Assets/Screenshots/Core1Platform/Profile.png "[Profile menu]")
+![Profile menu](../../Assets/Screenshots/Core1Platform/Profile.png "[Profile menu]")
 
 - *Settings*   
   Click this menu entry to display the profile settings tabs in the workspace.    
@@ -19,7 +19,7 @@
 
 *Avatar icon > Menu entry Logout*
 
-![Really log out](/Assets/Screenshots/Core1Platform/ReallyLogOut.png "[Really log out]")
+![Really log out](../../Assets/Screenshots/Core1Platform/ReallyLogOut.png "[Really log out]")
 
 - [CANCEL]   
   Click this button to cancel the logout procedure. The *Really log out?* window is closed and the workspace is displayed again.
@@ -33,12 +33,12 @@
 
 *Avatar icon > Menu entry Settings*
 
-![Profile settings](/Assets/Screenshots/Core1Platform/ProfileSettings/Profile/Profile.png "[Profile settings]")
+![Profile settings](../../Assets/Screenshots/Core1Platform/ProfileSettings/Profile/Profile.png "[Profile settings]")
 
 The profile *Settings* menu entry is used to manage the profile settings of the user.
 
 The *Settings* User Interface is composed of the following tabs:
-- [PROFILE](01a_Profile.md)
-- [PASSWORD](01a_Password.md)
-- [SSH KEYS (DEVELOPERS ONLY)](01a_SSHKeys.md)
-- [U2F](01a_U2F.md)
+- [PROFILE](./01a_Profile.md)
+- [PASSWORD](./01a_Password.md)
+- [SSH KEYS (DEVELOPERS ONLY)](./01a_SSHKeys.md)
+- [U2F](./01a_U2F.md)

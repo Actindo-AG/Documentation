@@ -2,7 +2,7 @@
 
 *Avator icon > Menu entry Settings > Tab PASSWORD*
 
-![Password](/Assets/Screenshots/Core1Platform/ProfileSettings/Password/Password.png "[Password]")
+![Password](../../Assets/Screenshots/Core1Platform/ProfileSettings/Password/Password.png "[Password]")
 
 **Change password**
 
@@ -13,7 +13,7 @@
 
   If the entered password is valid, it is saved and the *Password saved* pop-up window is displayed.
 
-  ![Password saved](/Assets/Screenshots/Core1Platform/ProfileSettings/Password/PasswordSaved.png "[Password saved]")
+  ![Password saved](../../Assets/Screenshots/Core1Platform/ProfileSettings/Password/PasswordSaved.png "[Password saved]")
 
 - *Current password*   
   Enter your current password.
@@ -25,8 +25,8 @@
   Enter the new password again to confirm it.
 
 
-- ![Visibility off](/Assets/Icons/visibility_off.png "[Visibility off]") (Visibility off)      
-  Click this button to display all characters you enter in the corresponding field. The button changes to the ![Visibility](/Assets/Icons/visibility.png "[Visibility]") (Visibility) button.
+- ![Visibility off](../../Assets/Icons/visibility_off.png "[Visibility off]") (Visibility off)      
+  Click this button to display all characters you enter in the corresponding field. The button changes to the ![Visibility](../../Assets/Icons/visibility.png "[Visibility]") (Visibility) button.
 
-- ![Visibility](/Assets/Icons/visibility.png "[Visibility]") (Visibility)      
-  Click this button to display all the characters you enter in the corresponding field as dots only. The button changes to the ![Visibility off](/Assets/Icons/visibility_off.png "[Visibility off]") (Visibility off) button.
+- ![Visibility](../../Assets/Icons/visibility.png "[Visibility]") (Visibility)      
+  Click this button to display all the characters you enter in the corresponding field as dots only. The button changes to the ![Visibility off](../../Assets/Icons/visibility_off.png "[Visibility off]") (Visibility off) button.

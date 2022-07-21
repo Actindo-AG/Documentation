@@ -1,5 +1,5 @@
-[!!Set up SSO in Azure AD](01_AzureADSetup.md)
-[!!Provide user data for SSO](02_ProvideUserData.md)
+[!!Set up SSO in Azure AD](./01_AzureADSetup.md)
+[!!Provide user data for SSO](./02_ProvideUserData.md)
 
 
 # Transfer data to Actindo
@@ -8,8 +8,8 @@ After the organization side configuration for SSO in Azure AD, Actindo needs to 
 
 #### Prerequisites
 
-- The Azure AD setup is completed, see [Set up SSO in Azure AD](01_AzureADSetup.md).
-- The data of all users who want to use SSO are provided, see [Provide user data for SSO](02_ProvideUserData.md).
+- The Azure AD setup is completed, see [Set up SSO in Azure AD](./01_AzureADSetup.md).
+- The data of all users who want to use SSO are provided, see [Provide user data for SSO](./02_ProvideUserData.md).
 
 #### Procedure
 
