@@ -1,6 +1,6 @@
 [!!Accounting](RetailSuiteAccounting)
 
-# IMPORT
+# Import
 
 *Accounting > Select fiscal year > Extras > Tab IMPORT*
 
