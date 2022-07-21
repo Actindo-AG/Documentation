@@ -1,7 +1,7 @@
 [!!Warehouse](RetailSuiteWarehousing)   
-[!!User Interface warehouse](/RetailSuiteWarehousing/UserInterface/00_UserInterface.md)   
-[!!Handle an out-of-stock order](/POS/Troubleshooting/01_OutOfStockOrder.md)
-[!!Manage the POS warehouse](08_ManageWarehouse.md)
+[!!User Interface warehouse](../../RetailSuiteWarehousing/UserInterface/00_UserInterface.md)   
+[!!Handle an out-of-stock order](../../POS/Troubleshooting/01_OutOfStockOrder.md)
+[!!Manage the POS warehouse](./08_ManageWarehouse.md)
 
 
 # Configure the warehouse for POS
