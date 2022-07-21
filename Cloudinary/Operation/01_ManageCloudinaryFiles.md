@@ -1,6 +1,6 @@
 [!!PIM](PIM)
-[!!User Interface PIM](/PIM/UserInterface/00_UserInterface.md)
-[!!Manage the Cloudinary attributes](/Cloudinary/Integration/02_ManageCloudinaryAttributes.md)
+[!!User Interface PIM](../../PIM/UserInterface/00_UserInterface.md)
+[!!Manage the Cloudinary attributes](../Integration/02_ManageCloudinaryAttributes.md)
 
 
 # Manage the Cloudinary files
@@ -13,34 +13,34 @@ Upload images and videos to Cloudinary at the same time when adding these files 
 
 #### Prerequisites
 
-- A Cloudinary connection is established, see [Establish a connection to Cloudinary](/Cloudinary/Integration/01_EstablishConnection.md)
-- The required Cloudinary attribute is created, see [Manage the Cloudinary attributes](/Cloudinary/Integration/02_ManageCloudinaryAttributes.md)
+- A Cloudinary connection is established, see [Establish a connection to Cloudinary](../Integration/01_EstablishConnection.md)
+- The required Cloudinary attribute is created, see [Manage the Cloudinary attributes](../Integration/02_ManageCloudinaryAttributes.md)
 
 #### Procedure
 
 *PIM > Products > Tab LIST*
 
-![Products](/Assets/Screenshots/PIM/Products/List/Products.png "[Products]")
+![Products](../../Assets/Screenshots/PIM/Products/List/Products.png "[Products]")
 
 > [Info] The following procedure describes exemplary how to upload an image to Cloudinary. The procedure is largely identical to upload a video to CLoudinary. The differences are explicitly specified at the appropriate place.
 
 1. Click the product in the product list to which you want to add an image and upload it to Cloudinary at the same time.   
   The *Edit product* view is displayed.
 
-  ![Edit product](/Assets/Screenshots/PIM/Products/List/EditProduct.png "[Edit product]")
+  ![Edit product](../../Assets/Screenshots/PIM/Products/List/EditProduct.png "[Edit product]")
 
 2. Navigate to the Cloudinary image attribute in the *Attributes* tab.
 
-  ![Cloudinary attribute](/Assets/Screenshots/PIM/Products/List/Attributes/CloudinaryAttribute.png "[Cloudinary attribute]")
+  ![Cloudinary attribute](../../Assets/Screenshots/PIM/Products/List/Attributes/CloudinaryAttribute.png "[Cloudinary attribute]")
 
 3. Select the desired images in the explorer and move it to the Cloudinary image attribute box using drag and drop.    The images are uploaded to the specified folder in Cloudinary. A preview tile of each image is displayed in the Cloudinary image attribute box.   
 When uploading a video to Cloudinary, use the corresponding Cloudinary video attribute box instead of the Cloudinary image attribute box.
 
-  ![Cloudinary images](/Assets/Screenshots/PIM/Products/List/Attributes/CloudinaryImages.png "[Cloudinary images]")
+  ![Cloudinary images](../../Assets/Screenshots/PIM/Products/List/Attributes/CloudinaryImages.png "[Cloudinary images]")
 
   > [Info] By default, the *actindo_temp* contextual meta data field is assigned to each image uploaded via the *PIM* module to Cloudinary. As long as a product to which the image was uploaded is not saved, the value of the *actindo_temp* field equals **1**, which means that this image is temporary. Temporary images older than 24 hours are automatically deleted from Cloudinary during the daily cronjob. When a product is saved, the value of the *actindo_temp* field of all images assigned to this Cloudinary attribute changes to **0**, which means that these images are uploaded and saved in Cloudinary.
 
-  ![Actindo temp](/Assets/Screenshots/Cloudinary/ActindoTemp.png "[Actindo temp]")
+  ![Actindo temp](../../Assets/Screenshots/Cloudinary/ActindoTemp.png "[Actindo temp]")
 
 4. Click the preview tile in the attribute image box to edit the image data. The image data fields below
 are displayed in the box side bar:
@@ -59,7 +59,7 @@ are displayed in the box side bar:
 
     > [Info] Currently only structured meta data fields of the text and the date field type are supported by Actindo. Note to enter a date value in the appropriate date format (yyyy-MM-dd).
 
-    ![Cloudinary image settings](/Assets/Screenshots//PIM/Products/List/Attributes/CloudinaryImageSettings.png "[Cloudinary image settings]")
+    ![Cloudinary image settings](../../Assets/Screenshots//PIM/Products/List/Attributes/CloudinaryImageSettings.png "[Cloudinary image settings]")
 
 5. Click the [SAVE] button in the upper right corner of the *Edit product* view.    
   The images are saved and uploaded to Cloudinary. The *Edit product* view is closed.
@@ -72,33 +72,33 @@ Import images and videos from Cloudinary to products in your *PIM* module.
 
 #### Prerequisites
 
-- A Cloudinary connection is established, see [Establish a connection to Cloudinary](/Cloudinary/Integration/01_EstablishConnection.md)
-- The required Cloudinary attribute is created, see [Manage the Cloudinary attributes](/Cloudinary/Integration/02_ManageCloudinaryAttributes.md)
+- A Cloudinary connection is established, see [Establish a connection to Cloudinary](../Integration/01_EstablishConnection.md)
+- The required Cloudinary attribute is created, see [Manage the Cloudinary attributes](../Integration/02_ManageCloudinaryAttributes.md)
 - At least one file is available for import in Cloudinary.
 
 #### Procedure
 
 *PIM > Products > Tab LIST*
 
-![Products](/Assets/Screenshots/PIM/Products/List/Products.png "[Products]")
+![Products](../../Assets/Screenshots/PIM/Products/List/Products.png "[Products]")
 
 > [Info] The following procedure describes exemplary how to import an image from Cloudinary. The procedure is largely identical to import a video from CLoudinary. The differences are explicitly specified at the appropriate place.
 
 1. Click the product in the product list to which you want to add an image from Cloudinary.   
   The *Edit product* view is displayed.
 
-  ![Edit product](/Assets/Screenshots/PIM/Products/List/EditProduct.png "[Edit product]")
+  ![Edit product](../../Assets/Screenshots/PIM/Products/List/EditProduct.png "[Edit product]")
 
 2. Navigate to the Cloudinary image attribute in the *Attributes* tab.
 
-  ![Cloudinary attribute](/Assets/Screenshots/PIM/Products/List/Attributes/CloudinaryAttribute.png "[Cloudinary attribute]")
+  ![Cloudinary attribute](../../Assets/Screenshots/PIM/Products/List/Attributes/CloudinaryAttribute.png "[Cloudinary attribute]")
 
 3. Click the [LIST UNASSIGNED ITEMS] button in the Cloudinary image attribute box to select the image(s) to be imported. When importing a video from Cloudinary, use the button in the corresponding Cloudinary video attribute box instead of the Cloudinary image attribute box.        
 The *Unassigned items* window is displayed, listing all unassigned images in the specified Cloudinary folder.
 
-  ![Unassigned items](/Assets/Screenshots/PIM/Products/List/Attributes/CloudinaryUnassignedItems.png "[Unassigned items]")
+  ![Unassigned items](../../Assets/Screenshots/PIM/Products/List/Attributes/CloudinaryUnassignedItems.png "[Unassigned items]")
 
-  > [Info] Note that only those images located in the folder specified in the Cloudinary attribute configuration are available. If an image is missing, check if the image is included in the specified folder or use the ![Refresh](/Assets/Icons/Refresh01.png "[Refresh]") (Refresh) button to update the list of unassigned items.   
+  > [Info] Note that only those images located in the folder specified in the Cloudinary attribute configuration are available. If an image is missing, check if the image is included in the specified folder or use the ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh) button to update the list of unassigned items.   
 
 4. Select the checkboxes of all images to be imported from Cloudinary in the list of unassigned items.   
   The editing toolbar is displayed above the list.
@@ -109,7 +109,7 @@ The *Unassigned items* window is displayed, listing all unassigned images in the
 6. Click the [CANCEL] button in the bottom right corner.   
   The *Unassigned items* window is closed. The *Edit product* view is displayed again. A preview tile of each selected image is displayed in the Cloudinary image attribute box.   
 
-  ![Cloudinary images](/Assets/Screenshots/PIM/Products/List/Attributes/CloudinaryImages.png "[Cloudinary images]")
+  ![Cloudinary images](../../Assets/Screenshots/PIM/Products/List/Attributes/CloudinaryImages.png "[Cloudinary images]")
 
 7. Click the preview tile in the attribute image box to edit the image data. The image data fields below
 are displayed in the box side bar:
@@ -128,7 +128,7 @@ are displayed in the box side bar:
 
     > [Info] Currently only structured meta data fields of the text and the date field type are supported by Actindo. Note to enter a date value in the appropriate date format (yyyy-MM-dd).
 
-    ![Cloudinary image settings](/Assets/Screenshots//PIM/Products/List/Attributes/CloudinaryImageSettings.png "[Cloudinary image settings]")
+    ![Cloudinary image settings](../../Assets/Screenshots//PIM/Products/List/Attributes/CloudinaryImageSettings.png "[Cloudinary image settings]")
 
 8. Click the [SAVE] button in the upper right corner of the *Edit product* view.    
   The imported images are saved. The *Edit product* view is closed.
@@ -147,27 +147,27 @@ At least one Cloudinary file is assigned to the PIM product.
 
 *PIM > Products > Tab LIST*
 
-![Products](/Assets/Screenshots/PIM/Products/List/Products.png "[Products]")
+![Products](../../Assets/Screenshots/PIM/Products/List/Products.png "[Products]")
 
 > [Info] The following procedure describes exemplary how to remove an image assignment from Cloudinary. The procedure is largely identical to import a video from CLoudinary. The differences are explicitly specified at the appropriate place.
 
 1. Click the product in the product list from which you want to remove the Cloudinary image assignment.   
   The *Edit product* view is displayed.
 
-  ![Edit product](/Assets/Screenshots/PIM/Products/List/EditProduct.png "[Edit product]")
+  ![Edit product](../../Assets/Screenshots/PIM/Products/List/EditProduct.png "[Edit product]")
 
 2. Navigate to the Cloudinary image attribute in the *Attributes* tab.   
   All assigned images are displayed in the Cloudinary image attribute box.
 
-  ![Cloudinary images](/Assets/Screenshots/PIM/Products/List/Attributes/CloudinaryImages.png "[Cloudinary images]")
+  ![Cloudinary images](../../Assets/Screenshots/PIM/Products/List/Attributes/CloudinaryImages.png "[Cloudinary images]")
 
 3. Hover over the preview tile of the image to be removed.    
-  The ![Delete](/Assets/Icons/Trash01.png "[Delete]") (Delete) button is displayed in a small circle in the upper right corner of the preview tile.    
+  The ![Delete](../../Assets/Icons/Trash01.png "[Delete]") (Delete) button is displayed in a small circle in the upper right corner of the preview tile.    
 
-4. Click the ![Delete](/Assets/Icons/Cross01.png "[Delete]") (Delete) button in the upper right corner of the preview tile.   
+4. Click the ![Delete](../../Assets/Icons/Cross01.png "[Delete]") (Delete) button in the upper right corner of the preview tile.   
   The *Delete image* window is displayed.   
 
-  ![Delete image](/Assets/Screenshots/PIM/Products/List/Attributes/CloudinaryDeleteImage.png "[Delete image]")
+  ![Delete image](../../Assets/Screenshots/PIM/Products/List/Attributes/CloudinaryDeleteImage.png "[Delete image]")
 
 5. Depending on your objective, click on one of the following buttons displayed in the *Delete image* window:
 

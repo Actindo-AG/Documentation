@@ -1,5 +1,5 @@
-[!!User Interface Cloudinary](/Cloudinary/UserInterface/01a_Connections.md)
-[!!Manage the Cloudinary files](/Cloudinary/Operation/01_ManageCloudinaryFiles.md)
+[!!User Interface Cloudinary](../UserInterface/01a_Connections.md)
+[!!Manage the Cloudinary files](../Operation/01_ManageCloudinaryFiles.md)
 [comment]: <> (Edit a connection?)
 
 
@@ -16,19 +16,19 @@ The first step to integrate the Cloudinary functionality to Actindo is to establ
 
 *Cloudinary > Settings > Tab CONNECTIONS*
 
-![Connections](/Assets/Screenshots/Cloudinary/Settings/Connections.png "[Connections]")
+![Connections](../../Assets/Screenshots/Cloudinary/Settings/Connections.png "[Connections]")
 
-1. Click the ![Add](/Assets/Icons/Plus01.png "[Add]") (Add) button in the bottom right corner.   
+1. Click the ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) button in the bottom right corner.   
   The *Connection* view is displayed.
 
-  ![Create connection](/Assets/Screenshots/Cloudinary/Settings/CreateConnection.png "[Create connection]")
+  ![Create connection](../../Assets/Screenshots/Cloudinary/Settings/CreateConnection.png "[Create connection]")
 
 2. Enter the desired connection name in the *Name* field.
 
 3. Click the *Driver* drop-down list and select the **Cloudinary default driver** option.   
   The *Credentials* section is displayed.
 
-  ![Credentials](/Assets/Screenshots/Cloudinary/Settings/Credentials.png "[Credentials]")
+  ![Credentials](../../Assets/Screenshots/Cloudinary/Settings/Credentials.png "[Credentials]")
 
   > [Info] The *Cloudinary Default Driver* is configured as a standard driver for Cloudinary. Further drivers that differ in their behavior may be created for specific customer needs.
 
@@ -36,7 +36,7 @@ The first step to integrate the Cloudinary functionality to Actindo is to establ
 
   > [Info] The needed account data is displayed in the *Account Details* section of your Cloudinary Dashboard.
 
-  ![Cloudinary dashboard](/Assets/Screenshots/Cloudinary/Settings/CloudinaryDashboard.png "[Cloudinary dashboard]")
+  ![Cloudinary dashboard](../../Assets/Screenshots/Cloudinary/Settings/CloudinaryDashboard.png "[Cloudinary dashboard]")
 
 
 5.	Click the [SAVE] button in the bottom of the *Credentials* section.

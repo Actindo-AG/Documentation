@@ -1,13 +1,13 @@
 [!!PIM](PIM)
-[!!User Interface PIM](/PIM/UserInterface/00_UserInterface.md)
-[!!Manage the attributes](/PIM/Integration/01_ManageAttributes.md)
-[!!Data type list](/PIM/UserInterface/04_DataTypeList.md)
-[!!Manage the Cloudinary files](/Cloudinary/Operation/01_ManageCloudinaryFiles.md)
+[!!User Interface PIM](../../PIM/UserInterface/00_UserInterface.md)
+[!!Manage the attributes](../../PIM/Integration/01_ManageAttributes.md)
+[!!Data type list](../../PIM/UserInterface/04_DataTypeList.md)
+[!!Manage the Cloudinary files](../Operation/01_ManageCloudinaryFiles.md)
 
 
 # Manage the Cloudinary attributes
 
-To upload a file from Actindo to Cloudinary, this file must be assigned a corresponding Cloudinary attribute. The management of a Cloudinary attribute is identical to the management of a PIM attribute which is also described in the *PIM* documentation, see [Manage the attributes](/PIM/Integration/01_ManageAttributes.md).
+To upload a file from Actindo to Cloudinary, this file must be assigned a corresponding Cloudinary attribute. The management of a Cloudinary attribute is identical to the management of a PIM attribute which is also described in the *PIM* documentation, see [Manage the attributes](../../PIM/Integration/01_ManageAttributes.md).
 Nevertheless, the initial creation and configuration of a Cloudinary attribute is described in this chapter below.
 
 [comment]: <> (Verweis auf DataHub oder PIM oder beides?)
@@ -19,25 +19,25 @@ Create a Cloudinary attribute to enable the upload of files from Actindo to Clou
 
 #### Prerequisites
 
-- A Cloudinary connection is established, see [Establish a connection to Cloudinary](01_EstablishConnection.md).
-- An attribute set is created, see [Create an attribute set](/PIM/Integration/02_ManageAttributeSets.md#Create-an-attribute-set).
+- A Cloudinary connection is established, see [Establish a connection to Cloudinary](./01_EstablishConnection.md).
+- An attribute set is created, see [Create an attribute set](../../PIM/Integration/02_ManageAttributeSets.md#Create-an-attribute-set).
 
 #### Procedure
 *PIM > Settings > Tab ATTRIBUTES*
 
-![Attributes](/Assets/Screenshots/PIM/Settings/Attributes/Attributes.png "[Attributes]")
+![Attributes](../../Assets/Screenshots/PIM/Settings/Attributes/Attributes.png "[Attributes]")
 
-1. Click the ![Add](/Assets/Icons/Plus01.png "[Add]") (Add) button in the bottom right corner.   
+1. Click the ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) button in the bottom right corner.   
   The *Create attribute* view is displayed.
 
-  ![Create attribute](/Assets/Screenshots/PIM/Settings/Attributes/CreateAttribute.png "[Create attribute]")
+  ![Create attribute](../../Assets/Screenshots/PIM/Settings/Attributes/CreateAttribute.png "[Create attribute]")
 
 2. Enter the desired attribute name for the Cloudinary attribute in the *Name* field and, if desired, add an attribute description in the *Description* field.
 
 3. Click the drop-down list *Data type* and select the appropriate Cloudinary data type in the list. For a Cloudinary image attribute, select the **Cloudinary image** data type, for a Cloudinary video attribute the **Cloudinary video** data type.
 The *CONFIGURATION* section with the corresponding settings for the selected Cloudinary data type are displayed.
 
-  ![Cloudinary data type](/Assets/Screenshots/PIM/Settings/Attributes/CloudinaryDataType.png "[Cloudinary data type]")
+  ![Cloudinary data type](../../Assets/Screenshots/PIM/Settings/Attributes/CloudinaryDataType.png "[Cloudinary data type]")
 
 4. Enter a key for the Cloudinary attribute in the *Key* field, for instance **pim_cloudinary_image**. The key is required for API access and must be system wide unique.
 
@@ -45,16 +45,16 @@ The *CONFIGURATION* section with the corresponding settings for the selected Clo
 
 5. If desired, activate the *Multi-language* toggle to assign values in multiple languages to the attribute or activate the *Multi-channel* toggle to assign different attribute values in different channels.
 
-  > [Info] Be aware that only attributes which are neither multi-language nor multi-channel can be used as defining attributes for variants. For detailed information, see [Create a variant set](07_ManageVariantSets.md#create-a-variant-set).
+  > [Info] Be aware that only attributes which are neither multi-language nor multi-channel can be used as defining attributes for variants. For detailed information, see [Create a variant set](./07_ManageVariantSets.md#create-a-variant-set).
 
 6. Enable the *Active* toggle to switch the attribute active after creation.
 
-7. Click the ![Add](/Assets/Icons/Plus05.png "[Add]") (Add) button in the *Assigned sets* field. The button is locked if you have not yet selected a data type.   
+7. Click the ![Add](../../Assets/Icons/Plus05.png "[Add]") (Add) button in the *Assigned sets* field. The button is locked if you have not yet selected a data type.   
   A drop-down list with all active attribute sets is displayed.
 
 8. Select an attribute set in the *Assigned sets* drop-down list.
 
-  > [Info] You can assign the attribute to multiple sets. Repeat the steps **7** to **8** to assign the attribute to a further attribute set. To delete the assignment to a selected set, click the ![Delete](/Assets/Icons/Trash01.png "[Delete]") (Delete) button right to the set.
+  > [Info] You can assign the attribute to multiple sets. Repeat the steps **7** to **8** to assign the attribute to a further attribute set. To delete the assignment to a selected set, click the ![Delete](../../Assets/Icons/Trash01.png "[Delete]") (Delete) button right to the set.
 
 9. Configure the appropriate settings in the *CONFIGURATION* section. The configuration can also be edited subsequently.      
 For detailed information about the Cloudinary configuration settings, see [Configure a Cloudinary attribute](#configure-a-cloudinary-attribute).
@@ -78,7 +78,7 @@ The Cloudinary attribute is created, see [Create a Cloudinary attribute](#create
 *PIM > Settings > Tab ATTRIBUTES > Button Add*
 *PIM > Settings > Tab ATTRIBUTES > Select Cloudinary attribute*
 
-![Cloudinary configuration](/Assets/Screenshots/PIM/Settings/Attributes/CloudinaryConfiguration.png "[Cloudinary configuration]")
+![Cloudinary configuration](../../Assets/Screenshots/PIM/Settings/Attributes/CloudinaryConfiguration.png "[Cloudinary configuration]")
 
 > [Info] The following configuration settings are identical for the *Cloudinary Image* and the *Cloudinary Video* data type.
 
@@ -100,7 +100,7 @@ The Cloudinary attribute is created, see [Create a Cloudinary attribute](#create
 6. Click the *Connection* drop-down list and select the appropriate connection. All Cloudinary connections are displayed in the list.	 
 All available meta data fields from the selected Cloudinary connection are displayed in the *Structured meta data fields* section.
 
-![Cloudinary structured meta data](/Assets/Screenshots/PIM/Settings/Attributes/CloudinaryStructuredMetaData.png "[Cloudinary structured meta data]")
+![Cloudinary structured meta data](../../Assets/Screenshots/PIM/Settings/Attributes/CloudinaryStructuredMetaData.png "[Cloudinary structured meta data]")
 
 7. Enable the toggles of those meta data fields that should be displayed in the *PIM* module. All disabled fields are not displayed in the *PIM* module and consequently cannot be edited in Actindo.
 

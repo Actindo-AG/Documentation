@@ -1,11 +1,11 @@
 # Overview
 
-- [General information](01_General.md)
-  - [Benefits](01_General.md#benefits)
-  - [Prerequisites](01_General.md#prerequisites)
+- [General information](./01_General.md)
+  - [Benefits](./01_General.md#benefits)
+  - [Prerequisites](./01_General.md#prerequisites)
 
 
-- [Key Features](02_Features.md)
+- [Key Features](./02_Features.md)
 
 
-- [Processes](03_Processes.md)
+- [Processes](./03_Processes.md)
