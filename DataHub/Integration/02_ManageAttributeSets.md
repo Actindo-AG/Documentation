@@ -1,5 +1,5 @@
-[!!User Interface DataHub](/DataHub/UserInterface/02b_AttributeSets.md)
-[!!Manage the attributes](01_ManageAttributes.md)
+[!!User Interface DataHub](../UserInterface/02b_AttributeSets.md)
+[!!Manage the attributes](./01_ManageAttributes.md)
 
 
 # Manage an attribute set
@@ -22,17 +22,17 @@ In contrast to attribute sets created in the *PIM* module, you have to select an
 
 #### Prerequisites
 
-The attributes for the attribute set are created, see [Create an attribute](01_ManageAttributs.md#create-an-attribute).
+The attributes for the attribute set are created, see [Create an attribute](./01_ManageAttributs.md#create-an-attribute).
 
 #### Procedure
 *DataHub > Settings > Tab ATTRIBUTE SETS*
 
-![Attribute sets](/Assets/Screenshots/DataHub/Settings/AttributeSets/AttributeSets.png "[Attribute sets]")
+![Attribute sets](../../Assets/Screenshots/DataHub/Settings/AttributeSets/AttributeSets.png "[Attribute sets]")
 
-1. Click the ![Add](/Assets/Icons/Plus01.png "[Add]") (Add) button in the bottom right corner.   
+1. Click the ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) button in the bottom right corner.   
   The *Create attribute set* view is displayed.
 
-  ![Create attribute set](/Assets/Screenshots/DataHub/Settings/AttributeSets/CreateAttributeSet.png "[Create attribute set]")
+  ![Create attribute set](../../Assets/Screenshots/DataHub/Settings/AttributeSets/CreateAttributeSet.png "[Create attribute set]")
 
 2. Enter a name for the attribute set in the *Name* field and, if desired, add an attribute set description in the *Description* field.
 
@@ -57,13 +57,13 @@ When you create an attribute set without inheritance, you have to add all attrib
 
 #### Prerequisites
 
-- The attributes for the attribute set are created, see [Create an attribute](01_ManageAttributs.md#create-an-attribute).
+- The attributes for the attribute set are created, see [Create an attribute](./01_ManageAttributs.md#create-an-attribute).
 - The basic data of the attribute set is completed, see [Define the attribute set basic data](#define-the-attribute-set-basic-data)
 
 #### Procedure
 *DataHub > Settings > Tab ATTRIBUTE SETS*
 
-![Create attribute set inheritance](/Assets/Screenshots/DataHub/Settings/AttributeSets/CreateAttributeSetInheritance.png "[Create attribute set inheritance]")
+![Create attribute set inheritance](../../Assets/Screenshots/DataHub/Settings/AttributeSets/CreateAttributeSetInheritance.png "[Create attribute set inheritance]")
 
 1. Select the **No inheritance** option in the *Inherit/Copy values from* drop-down list.   
   The *Inherit configuration* toggle and the *Inherit/Copy values* drop-down list are locked.
@@ -71,9 +71,9 @@ When you create an attribute set without inheritance, you have to add all attrib
 2. Click the [SAVE] button.   
   The new attribute set is saved. The *Create attribute set* view changes to the *Edit attribute set* view. The *Attribute set created* pop-up window is displayed.   
 
-  ![Attribute set created](/Assets/Screenshots/DataHub/Settings/AttributeSets/AttributeSetCreated.png "[Attribute set created]")   
+  ![Attribute set created](../../Assets/Screenshots/DataHub/Settings/AttributeSets/AttributeSetCreated.png "[Attribute set created]")   
 
-3. Click the ![Back](/Assets/Icons/Back02.png "[Back]") (Back) button in the upper left corner to return to the list of attribute sets or proceed to [edit the attribute set](#edit-an-attribute-set).
+3. Click the ![Back](../../Assets/Icons/Back02.png "[Back]") (Back) button in the upper left corner to return to the list of attribute sets or proceed to [edit the attribute set](#edit-an-attribute-set).
 
 
 
@@ -83,13 +83,13 @@ When you create an attribute set with attribute inheritance, you adopt all attri
 
 #### Prerequisites
 
-- The attributes for the attribute set are created, see [Create an attribute](01_ManageAttributs.md#create-an-attribute).
+- The attributes for the attribute set are created, see [Create an attribute](./01_ManageAttributs.md#create-an-attribute).
 - The basic data of the attribute set is completed, see [Define the attribute set basic data](#define-the-attribute-set-basic-data)
 
 #### Procedure
 *DataHub > Settings > Tab ATTRIBUTE SETS*
 
-![Create attribute set inheritance](/Assets/Screenshots/DataHub/Settings/AttributeSets/CreateAttributeSetInheritance.png "[Create attribute set inheritance]")
+![Create attribute set inheritance](../../Assets/Screenshots/DataHub/Settings/AttributeSets/CreateAttributeSetInheritance.png "[Create attribute set inheritance]")
 
 1. Select an attribute set in the *Inherit/Copy values from* drop-down list.
 
@@ -100,9 +100,9 @@ When you create an attribute set with attribute inheritance, you adopt all attri
 4. Click the [SAVE] button.   
   The new attribute set is saved. The *Create attribute set* view changes to the *Edit attribute set* view. The *Attribute set created* pop-up window is displayed.   
 
-  ![Attribute set created](/Assets/Screenshots/DataHub/Settings/AttributeSets/AttributeSetCreated.png "[Attribute set created]")     
+  ![Attribute set created](../../Assets/Screenshots/DataHub/Settings/AttributeSets/AttributeSetCreated.png "[Attribute set created]")     
 
-5. Click the ![Back](/Assets/Icons/Back02.png "[Back]") (Back) button in the upper left corner to return to the list of attribute sets or proceed to [edit the attribute set](#edit-an-attribute-set).
+5. Click the ![Back](../../Assets/Icons/Back02.png "[Back]") (Back) button in the upper left corner to return to the list of attribute sets or proceed to [edit the attribute set](#edit-an-attribute-set).
 
 
 ### Create an attribute set with attribute copying
@@ -111,13 +111,13 @@ When you create an attribute set with attribute copying, you copy all attributes
 
 #### Prerequisites
 
-- The attributes for the attribute set are created, see [Create an attribute](01_ManageAttributs.md#create-an-attribute).
+- The attributes for the attribute set are created, see [Create an attribute](./01_ManageAttributs.md#create-an-attribute).
 - The basic data of the attribute set is completed, see [Define the attribute set basic data](#define-the-attribute-set-basic-data)
 
 #### Procedure
 *DataHub > Settings > Tab ATTRIBUTE SETS*
 
-![Create attribute set inheritance](/Assets/Screenshots/DataHub/Settings/AttributeSets/CreateAttributeSetInheritance.png "[Create attribute set inheritance]")
+![Create attribute set inheritance](../../Assets/Screenshots/DataHub/Settings/AttributeSets/CreateAttributeSetInheritance.png "[Create attribute set inheritance]")
 
 1. Select an attribute set in the *Inherit/Copy values from* drop-down list.
 
@@ -128,9 +128,9 @@ When you create an attribute set with attribute copying, you copy all attributes
 4. Click the [SAVE] button.   
   The new attribute set is saved. The *Create attribute set* view changes to the *Edit attribute set* view. The *Attribute set created* pop-up window is displayed.   
 
-  ![Attribute set created](/Assets/Screenshots/DataHub/Settings/AttributeSets/AttributeSetCreated.png "[Attribute set created]")     
+  ![Attribute set created](../../Assets/Screenshots/DataHub/Settings/AttributeSets/AttributeSetCreated.png "[Attribute set created]")     
 
-5. Click the ![Back](/Assets/Icons/Back02.png "[Back]") (Back) button in the upper left corner to return to the list of attribute sets or proceed to [edit the attribute set](#edit-an-attribute-set).
+5. Click the ![Back](../../Assets/Icons/Back02.png "[Back]") (Back) button in the upper left corner to return to the list of attribute sets or proceed to [edit the attribute set](#edit-an-attribute-set).
 
 
 
@@ -146,24 +146,24 @@ In the *DataHub* module all available attributes can be added to the different a
 #### Prerequisites
 
 - An attribute set is created, see [Create an attribute set](#create-an-attribute-set).
-- At least one additional attribute is created, see [Create an attribute](01_ManageAttributes.md#create-an-attribute).
+- At least one additional attribute is created, see [Create an attribute](./01_ManageAttributes.md#create-an-attribute).
 
 #### Procedure
 *DataHub > Settings > Tab ATTRIBUTE SETS*
 
-![Attributes](/Assets/Screenshots/DataHub/Settings/AttributeSets/AttributeSets.png "[Attributes]")
+![Attributes](../../Assets/Screenshots/DataHub/Settings/AttributeSets/AttributeSets.png "[Attributes]")
 
 1. Click the attribute set you want to edit in the list of attribute sets.   
   The *Edit attribute set* view is displayed.
 
-  ![Edit attribute set](/Assets/Screenshots/DataHub/Settings/AttributeSets/EditAttributeSet.png "[Edit attribute set]")
+  ![Edit attribute set](../../Assets/Screenshots/DataHub/Settings/AttributeSets/EditAttributeSet.png "[Edit attribute set]")
 
-2. Click the ![Add](/Assets/Icons/Plus01.png "[Add]") (Add) button in the *Assigned attributes* section.   
+2. Click the ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) button in the *Assigned attributes* section.   
   The *Add attributes* view is displayed. All active attributes that are not yet included in the selected attribute set are displayed in the list.
 
-  ![Add attribute](/Assets/Screenshots/DataHub/Settings/AttributeSets/AddAttributes.png "[Edit attribute set]")
+  ![Add attribute](../../Assets/Screenshots/DataHub/Settings/AttributeSets/AddAttributes.png "[Edit attribute set]")
 
-  > [Info] If the message **There are no unassigned attributes.** is displayed in the *Add attributes* view, all active attributes are already included in the selected attribute set. Check if you have selected the appropriate attribute set, click the ![Refresh](/Assets/Icons/Refresh01.png "[Refresh]") (Refresh) button to update the list or [create a new attribute](01_ManageAttributes.md#create-an-attribute).
+  > [Info] If the message **There are no unassigned attributes.** is displayed in the *Add attributes* view, all active attributes are already included in the selected attribute set. Check if you have selected the appropriate attribute set, click the ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh) button to update the list or [create a new attribute](./01_ManageAttributes.md#create-an-attribute).
 
 3. Select the checkboxes of the attributes in the list, you want to add to the attribute set.   
   The editing toolbar is displayed above the list.
@@ -187,17 +187,17 @@ Remove an attribute from an attribute set to limit the specifications. Inherited
 #### Procedure
 *DataHub > Settings > Tab ATTRIBUTE SETS*
 
-![Attributes](/Assets/Screenshots/DataHub/Settings/AttributeSets/AttributeSets.png "[Attributes]")
+![Attributes](../../Assets/Screenshots/DataHub/Settings/AttributeSets/AttributeSets.png "[Attributes]")
 
 1. Click the attribute set you want to edit in the list of attribute sets.   
   The *Edit attribute set* view is displayed.
 
-  ![Edit attribute set](/Assets/Screenshots/DataHub/Settings/AttributeSets/EditAttributeSet.png "[Edit attribute set]")
+  ![Edit attribute set](../../Assets/Screenshots/DataHub/Settings/AttributeSets/EditAttributeSet.png "[Edit attribute set]")
 
 2. In the *Assigned attributes* section, select the checkboxes of the attributes, you want to remove from the attribute set.   
   The editing toolbar is displayed above the list.
 
-3. Click the ![Delete](/Assets/Icons/Trash03.png "[Delete]") (Delete) button in the editing toolbar.   
+3. Click the ![Delete](../../Assets/Icons/Trash03.png "[Delete]") (Delete) button in the editing toolbar.   
   The selected attributes are removed from the attribute set. The list of attributes is updated.
 
   > [Info] If the selected attributes cannot be removed from the attribute set, an error message is displayed in the upper right corner.
@@ -218,26 +218,26 @@ An attribute set is created, see [Create an attribute set](#create-an-attribute-
 #### Procedure
 *DataHub > Settings > Tab ATTRIBUTE SETS*
 
-![Attributes](/Assets/Screenshots/DataHub/Settings/AttributeSets/AttributeSets.png "[Attributes]")
+![Attributes](../../Assets/Screenshots/DataHub/Settings/AttributeSets/AttributeSets.png "[Attributes]")
 
 1. Click the attribute set you want to edit in the list of attribute sets.   
   The *Edit attribute set* view is displayed.
 
-  ![Edit attribute set](/Assets/Screenshots/DataHub/Settings/AttributeSets/EditAttributeSet.png "[Edit attribute set]")
+  ![Edit attribute set](../../Assets/Screenshots/DataHub/Settings/AttributeSets/EditAttributeSet.png "[Edit attribute set]")
 
-2. Click the ![Settings](/Assets/Icons/Settings01.png "[Settings]") (Settings) button in the *Assigned attributes* section.   
-  The *Required* column in the list of attributes is unlocked. The color of the ![Settings](/Assets/Icons/Settings01.png "[Settings]") (Settings) button switches to blue.
+2. Click the ![Settings](../../Assets/Icons/Settings01.png "[Settings]") (Settings) button in the *Assigned attributes* section.   
+  The *Required* column in the list of attributes is unlocked. The color of the ![Settings](../../Assets/Icons/Settings01.png "[Settings]") (Settings) button switches to blue.
 
-  ![Required](/Assets/Screenshots/DataHub/Settings/AttributeSets/Required.png "[Required]")
+  ![Required](../../Assets/Screenshots/DataHub/Settings/AttributeSets/Required.png "[Required]")
 
 3. Enable or disable the *Required* toggle in the *Required* column to define whether or not an attribute value should be required in the selected attribute set.
 
   > [Info] Be aware that you can only edit the *Required* option for attributes that are not inherited.
 
-4. Click the ![Settings](/Assets/Icons/Settings02.png "[Settings]") (Settings) button in the *Assigned attributes* section.       
+4. Click the ![Settings](../../Assets/Icons/Settings02.png "[Settings]") (Settings) button in the *Assigned attributes* section.       
   The *Required* column in the list of attributes is locked. All changes in the attribute list are saved.
 
-5. Click the ![Back](/Assets/Icons/Back02.png "[Back]") (Back) button in the upper left corner to return to the list of attribute sets or proceed to [edit the attribute set](#edit-an-attribute-set).
+5. Click the ![Back](../../Assets/Icons/Back02.png "[Back]") (Back) button in the upper left corner to return to the list of attribute sets or proceed to [edit the attribute set](#edit-an-attribute-set).
 
 
 
@@ -252,12 +252,12 @@ At least one attribute set is created, see [Create an attribute set](#create-an-
 #### Procedure
 *DataHub > Settings > Tab ATTRIBUTE SETS*
 
-![Attributes](/Assets/Screenshots/DataHub/Settings/AttributeSets/AttributeSets.png "[Attributes]")
+![Attributes](../../Assets/Screenshots/DataHub/Settings/AttributeSets/AttributeSets.png "[Attributes]")
 
 1. Click the attribute set you want to deactivate in the list of attribute sets.   
   The *Edit attribute set* view is displayed.
 
-  ![Edit attribute set](/Assets/Screenshots/DataHub/Settings/AttributeSets/EditAttributeSet.png "[Edit attribute set]")
+  ![Edit attribute set](../../Assets/Screenshots/DataHub/Settings/AttributeSets/EditAttributeSet.png "[Edit attribute set]")
 
 2. Disable the *Active* toggle.
 

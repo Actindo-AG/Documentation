@@ -1,5 +1,5 @@
-[!!User Interface DataHub](/DataHub/UserInterface/02e_Channels.md)
-[!!Configure the channel settings](/PIM/Integration/ConfigureChannels.md)
+[!!User Interface DataHub](../UserInterface/02e_Channels.md)
+[!!Configure the channel settings](../../PIM/Integration/ConfigureChannels.md)
 
 
 # Manage the channels
@@ -21,12 +21,12 @@ No prerequisites to fulfill.
 #### Procedure
 *DataHub > Settings > Tab CHANNELS*
 
-![Channel list](/Assets/Screenshots/DataHub/Settings/Channels/ChannelList.png "[Channel list]")
+![Channel list](../../Assets/Screenshots/DataHub/Settings/Channels/ChannelList.png "[Channel list]")
 
-1. Click the ![Add](/Assets/Icons/Plus01.png "[Add]") (Add) button in the bottom right corner.   
+1. Click the ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) button in the bottom right corner.   
   The *Create channel* view is displayed.
 
-  ![Create channel](/Assets/Screenshots/DataHub/Settings/Channels/CreateChannel.png "[Create channel]")
+  ![Create channel](../../Assets/Screenshots/DataHub/Settings/Channels/CreateChannel.png "[Create channel]")
 
 2. Enter a name for the channel in the *Name* field and, if desired, add a channel description in the  *Description* field.
 
@@ -47,19 +47,19 @@ After you have created a channel, you can edit its name, description and key.
 
 #### Prerequisites
 
-At least one channel is created, see [Create a channel](/DataHub/Integration/CreateChannel.md).
+At least one channel is created, see [Create a channel](../Integration/CreateChannel.md).
 
 > [Info] By default, the *Actindo Basic* channel is created.
 
 #### Procedure
 *DataHub > Settings > Tab CHANNELS*
 
-![Channel list](/Assets/Screenshots/DataHub/Settings/Channels/ChannelList.png "[Channel list]")
+![Channel list](../../Assets/Screenshots/DataHub/Settings/Channels/ChannelList.png "[Channel list]")
 
 1. Click the channel you want to edit in the list of channels.   
   The *Edit channel* view is displayed.
 
-  ![Edit channel](/Assets/Screenshots/DataHub/Settings/Channels/EditChannel.png "[Edit channel]")
+  ![Edit channel](../../Assets/Screenshots/DataHub/Settings/Channels/EditChannel.png "[Edit channel]")
 
 2. Edit the desired data of the channel in the corresponding fields.
 
@@ -81,12 +81,12 @@ At least one channel is created, see [Create a channel](#create-a-channel).
 #### Procedure
 *DataHub > Settings > Tab CHANNELS*
 
-![Channel list](/Assets/Screenshots/DataHub/Settings/Channels/ChannelList.png "[Channel list]")
+![Channel list](../../Assets/Screenshots/DataHub/Settings/Channels/ChannelList.png "[Channel list]")
 
 1. Click the channel you want to edit in the list of channels.   
   The *Edit channel* view is displayed.
 
-  ![Edit channel](/Assets/Screenshots/DataHub/Settings/Channels/EditChannel.png "[Edit channel]")
+  ![Edit channel](../../Assets/Screenshots/DataHub/Settings/Channels/EditChannel.png "[Edit channel]")
 
 2. Disable the *Active* toggle.
 
@@ -108,7 +108,7 @@ At least one channel is created, see [Create a channel](#create-a-channel).
 #### Procedure
 *DataHub > Settings > Tab CHANNELS*
 
-![Channel list](/Assets/Screenshots/DataHub/Settings/Channels/ChannelList.png "[Channel list]")
+![Channel list](../../Assets/Screenshots/DataHub/Settings/Channels/ChannelList.png "[Channel list]")
 
 1. Select the checkbox of the channel you want to delete in the list of channels.    
   The editing toolbar is displayed above the channel list.

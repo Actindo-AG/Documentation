@@ -2,37 +2,37 @@
 
 *DataHub > Settings > Tab ETL PROCESSES*
 
-![ETL processes](/Assets/Screenshots/DataHub/Settings/ETLProcesses/ETLProcesses.png "[ETL processes]")
+![ETL processes](../../Assets/Screenshots/DataHub/Settings/ETLProcesses/ETLProcesses.png "[ETL processes]")
 
 **ETL processes**
 
 - *VIEW*   
-  Click the drop-down list to select the view. All created views are displayed in the drop-down list. Click the ![Points](/Assets/Icons/Points01.png "[Points]") (Points) button to the right of the *VIEW* drop-down list to display the context menu and create or edit a view.
+  Click the drop-down list to select the view. All created views are displayed in the drop-down list. Click the ![Points](../../Assets/Icons/Points01.png "[Points]") (Points) button to the right of the *VIEW* drop-down list to display the context menu and create or edit a view.
 
   - View context menu   
-    Click the ![Points](/Assets/Icons/Points01.png "[Points]") (Points) button to the right of the *VIEW* drop-down list to display the context menu. The following menu entries are available:
+    Click the ![Points](../../Assets/Icons/Points01.png "[Points]") (Points) button to the right of the *VIEW* drop-down list to display the context menu. The following menu entries are available:
 
-    - ![Create](/Assets/Icons/Plus06.png "[Create]") create   
+    - ![Create](../../Assets/Icons/Plus06.png "[Create]") create   
       Click this entry to create a view. The *Create view* window is displayed.
 
-    - ![Rename](/Assets/Icons/Edit02.png "[Rename]") rename    
+    - ![Rename](../../Assets/Icons/Edit02.png "[Rename]") rename    
       Click this entry to rename the selected view. The *Rename view* window is displayed. This menu entry is only displayed when a view is selected.
 
-    - ![Reset](/Assets/Icons/Reset.png "[Reset]") reset    
+    - ![Reset](../../Assets/Icons/Reset.png "[Reset]") reset    
       Click this entry to reset the view to the selected views settings. This menu entry is only displayed when a view is selected and any changes are made to the views settings.
 
-    - ![Publish](/Assets/Icons/Publish.png "[Publish]") publish    
+    - ![Publish](../../Assets/Icons/Publish.png "[Publish]") publish    
       Click this entry to publish the view. This menu entry is only displayed when a view is selected and unpublished.
 
-    - ![Unpublish](/Assets/Icons/Unpublish.png "[Unpublish]") unpublish    
+    - ![Unpublish](../../Assets/Icons/Unpublish.png "[Unpublish]") unpublish    
       Click this entry to unpublish the view. This menu entry is only displayed when a view is selected and published.
 
-    - ![Save](/Assets/Icons/Save.png "[Save]") save    
+    - ![Save](../../Assets/Icons/Save.png "[Save]") save    
       Click this entry to save the current view settings in the selected view. This menu entry is only displayed when a view is selected.
 
       > [Info] When the settings of a view have been changed, an asterisk is displayed behind the views name. The asterisk is hidden as soon as the changes have been saved saved.
 
-    - ![Delete](/Assets/Icons/Trash01.png "[Delete]") delete    
+    - ![Delete](../../Assets/Icons/Trash01.png "[Delete]") delete    
       Click this entry to delete the selected view. The confirmation window to confirm the deletion is displayed. This menu entry is only displayed when a view is selected.
 
 - *Status filter*   
@@ -48,10 +48,10 @@
   - **Semi-automatic accepted**: All ETL processes have been confirmed are displayed.   
 
 
-- ![Refresh](/Assets/Icons/Refresh01.png "[Refresh]") (Refresh)   
+- ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh)   
   Click this button to update the list of ETL processes.
 
-- ![Columns](/Assets/Icons/Columns.png "[Columns]") Columns (x)   
+- ![Columns](../../Assets/Icons/Columns.png "[Columns]") Columns (x)   
   Click this button to display the columns bar and customize the displayed columns and the order of columns in the list. The *x* indicates the number of columns that are currently displayed in the list.
 
 - [x]     
@@ -62,7 +62,7 @@
 - [RETRY]   
   Click this button to restart the selected ETL process. This button is only displayed, when a single checkbox of an ETL process with the **Error** status is selected. The *Process will be retried shortly* pop-up window is displayed in the upper right corner.
 
-  ![ETL processes](/Assets/Screenshots/DataHub/Settings/ETLProcesses/ProcessRetried.png "[ETL processes]")
+  ![ETL processes](../../Assets/Screenshots/DataHub/Settings/ETLProcesses/ProcessRetried.png "[ETL processes]")
 
 Depending on the selection in the *VIEW* drop-down list, the ETL processes list displays all processes with the selected status. All fields are read-only. Depending on the settings, the displayed columns may vary.
 
@@ -118,7 +118,7 @@ Depending on the selection in the *VIEW* drop-down list, the ETL processes list 
 
 *DataHub > Settings > Tab ETL PROCESSES > Button Points > Menu entry create*
 
-![Create view](/Assets/Screenshots/DataHub/Settings/ETLProcesses/CreateView.png "[Create view]")
+![Create view](../../Assets/Screenshots/DataHub/Settings/ETLProcesses/CreateView.png "[Create view]")
 
 - *Name*   
   Enter a name for the view.
@@ -134,7 +134,7 @@ Depending on the selection in the *VIEW* drop-down list, the ETL processes list 
 
 *DataHub > Settings > Tab ETL PROCESSES > Button Points > Menu entry rename*
 
-![Rename view](/Assets/Screenshots/DataHub/Settings/ETLProcesses/RenameView.png "[Rename view]")
+![Rename view](../../Assets/Screenshots/DataHub/Settings/ETLProcesses/RenameView.png "[Rename view]")
 
 - *Name*   
   Click this field to edit the views name.

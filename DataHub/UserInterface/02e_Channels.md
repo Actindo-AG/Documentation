@@ -2,20 +2,20 @@
 
 *DataHub > Settings > Tab CHANNELS*
 
-![Channels](/Assets/Screenshots/DataHub/Settings/Channels/ChannelList.png "[Channels]")
+![Channels](../../Assets/Screenshots/DataHub/Settings/Channels/ChannelList.png "[Channels]")
 
 **Channel list**
 
-- ![Search](/Assets/Icons/Search.png "[Search]") (Search)   
+- ![Search](../../Assets/Icons/Search.png "[Search]") (Search)   
   Click this button to display the search bar and search for a channel.
 
-- ![Refresh](/Assets/Icons/Refresh01.png "[Refresh]") (Refresh)   
+- ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh)   
   Click this button to update the list of channels.
 
-- ![Columns](/Assets/Icons/Columns.png "[Columns]") Columns (x)   
+- ![Columns](../../Assets/Icons/Columns.png "[Columns]") Columns (x)   
   Click this button to display the columns bar and customize the displayed columns and the order of columns in the list. The *x* indicates the number of columns that are currently displayed in the list.
 
-- ![Filter](/Assets/Icons/Filter.png "[Filter]") Filter (x)   
+- ![Filter](../../Assets/Icons/Filter.png "[Filter]") Filter (x)   
   Click this button to display the filter bar and customize the active filters. The *x* indicates the number of filters that are currently active.
 
 - [x]     
@@ -23,7 +23,7 @@
 
 - [EDIT]   
   Click this button to edit the selected channel. This button is only displayed, when a single checkbox of a channel is selected. Alternatively, you can click directly a row in the list to edit a channel.
-  For detailed information, see [Edit a channel](/DataHub/Integration/04_ManageChannels.md#edit-a-channel).
+  For detailed information, see [Edit a channel](../Integration/04_ManageChannels.md#edit-a-channel).
 
 - [DELETE]   
   Click this button to delete the selected channel. This button is only displayed, when the checkbox of at least one channel is selected.       
@@ -41,8 +41,8 @@ The list displays all channels. All fields are read-only. Depending on the setti
 
 - *Status*   
   Channel status. The following statuses are available:
-  - ![Status](/Assets/Icons/Status01.png "[Status]") **Active**
-  - ![Status](/Assets/Icons/Status04.png "[Status]") **Inactive**   
+  - ![Status](../../Assets/Icons/Status01.png "[Status]") **Active**
+  - ![Status](../../Assets/Icons/Status04.png "[Status]") **Inactive**   
 
 - *ID*   
   Channel identification number. The ID number is automatically assigned by the system.
@@ -65,7 +65,7 @@ The list displays all channels. All fields are read-only. Depending on the setti
 - *Description (Language)*   
   Channel description in the displayed language. A single *Description (Language)* column is displayed for the system languages *English (United States)* and *Deutsch (Deutschland)*.
 
-- ![Add](/Assets/Icons/Plus01.png "[Add]") (Add)   
+- ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add)   
   Click this button to create a channel. The *Create channel* view is displayed.   
 
 
@@ -74,11 +74,11 @@ The list displays all channels. All fields are read-only. Depending on the setti
 
 *DataHub > Settings > Tab CHANNELS > Button Add*
 
-![Create channel](/Assets/Screenshots/DataHub/Settings/Channels/CreateChannel.png "[Create channel]")
+![Create channel](../../Assets/Screenshots/DataHub/Settings/Channels/CreateChannel.png "[Create channel]")
 
 **Create channel**
 
-- ![Back](/Assets/Icons/Back02.png "[Back]") (Back)   
+- ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)   
   Click this button to close the *Create channel* view and return to the channel list. All changes are rejected.
 
 - Language   
@@ -97,7 +97,7 @@ The list displays all channels. All fields are read-only. Depending on the setti
 - *Key*   
   Channel key. The key is required for API access and must be system wide unique.
 
-- ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Active*   
+- ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Active*   
   Enable this toggle to set the channel status to active. Disable the toggle to set the channel to inactive. By default, this toggle is disabled.
 
 
@@ -106,11 +106,11 @@ The list displays all channels. All fields are read-only. Depending on the setti
 
 *DataHub > Settings > Tab CHANNELS > Select channel*
 
-![Edit channel](/Assets/Screenshots/DataHub/Settings/Channels/EditChannel.png "[Edit channel]")
+![Edit channel](../../Assets/Screenshots/DataHub/Settings/Channels/EditChannel.png "[Edit channel]")
 
 **Edit channel**
 
-- ![Back](/Assets/Icons/Back02.png "[Back]") (Back)   
+- ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)   
   Click this button to close the *Edit channel* view and return to the channel list. All changes are rejected.
 
 - Language   
@@ -129,5 +129,5 @@ The list displays all channels. All fields are read-only. Depending on the setti
 - *Key*   
   Click the field to edit the channel key. The key is required for API access and must be system wide unique. It is not recommended to change the channel key after creation.
 
-- ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Active*   
+- ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Active*   
   Enable this toggle to set the channel status to active. Disable the toggle to set the channel to inactive. By default, this toggle is disabled.

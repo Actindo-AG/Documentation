@@ -2,27 +2,27 @@
 
 *DataHub > Settings > Tab HTML TEMPLATES*
 
-![HTML templates](/Assets/Screenshots/DataHub/Settings/HTMLTemplates/HTMLTemplates.png "[HTML templates]")
+![HTML templates](../../Assets/Screenshots/DataHub/Settings/HTMLTemplates/HTMLTemplates.png "[HTML templates]")
 
 **HTML templates list**
 
-- ![Search](/Assets/Icons/Search.png "[Search]") (Search)   
+- ![Search](../../Assets/Icons/Search.png "[Search]") (Search)   
   Click this button to display the search bar and search for an HTML template.
 
   [comment]: <> (Wonach kann ich suchen? Nur name und description?)
 
-- ![Refresh](/Assets/Icons/Refresh01.png "[Refresh]") (Refresh)   
+- ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh)   
   Click this button to update the list of dimensions.
 
-- ![Columns](/Assets/Icons/Columns.png "[Columns]") Columns (x)   
+- ![Columns](../../Assets/Icons/Columns.png "[Columns]") Columns (x)   
   Click this button to display the columns bar and customize the displayed columns and the order of columns in the list. The *x* indicates the number of columns that are currently displayed in the list.
 
 - [x]     
   Select the checkbox to display the editing toolbar. You cannot select multiple checkboxes at once.
 
-- ![Edit](/Assets/Icons/Edit01.png "[Edit]") (Edit)   
+- ![Edit](../../Assets/Icons/Edit01.png "[Edit]") (Edit)   
   Click this button to edit the selected HTML template. This button is only displayed, when the checkbox of an HTML template is selected. Alternatively, you can click directly a row in the list to edit an HTML template.
-  For detailed information, see [Edit an HTML template](/DataHub/Operation/03_ManageHTMLTemplates.md#edit-an-html-template).
+  For detailed information, see [Edit an HTML template](../Operation/03_ManageHTMLTemplates.md#edit-an-html-template).
 
 The list displays all HTML templates. All fields are read-only. Depending on the settings, the displayed columns may vary.
 
@@ -35,7 +35,7 @@ The list displays all HTML templates. All fields are read-only. Depending on the
 - *Description*   
   Description to the HTML template.
 
-- ![Add](/Assets/Icons/Plus01.png "[Add]") (Add)   
+- ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add)   
   Click this button to create an HTML template. The *Create HTML template* view is displayed.   
 
 
@@ -43,11 +43,11 @@ The list displays all HTML templates. All fields are read-only. Depending on the
 
 *DataHub > Settings > Tab HTML TEMPLATES > Button Add*
 
-![Create HTML template](/Assets/Screenshots/DataHub/Settings/HTMLTemplates/CreateHTMLTemplate.png "[Create HTML template]")
+![Create HTML template](../../Assets/Screenshots/DataHub/Settings/HTMLTemplates/CreateHTMLTemplate.png "[Create HTML template]")
 
 **Create HTML template**
 
-- ![Back](/Assets/Icons/Back02.png "[Back]") (Back)   
+- ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)   
   Click this button to close the *Create HTML template* view and return to the HTML templates list. All changes are rejected.
 
 - [CANCEL]   
@@ -66,7 +66,7 @@ The list displays all HTML templates. All fields are read-only. Depending on the
   Enter an HTML template key. The key is required for API access and must be system wide unique.
 
 - Textarea   
-  Enter the content for the HTML template. Use the Smarty template engine to include variables and tags to the template, see https://www.smarty.net/. For detailed information, see [Create an HTML template](03_ManageHTMLTemplates#create-an-html-template).
+  Enter the content for the HTML template. Use the Smarty template engine to include variables and tags to the template, see https://www.smarty.net/. For detailed information, see [Create an HTML template](./03_ManageHTMLTemplates#create-an-html-template).
 
 
 **Preview**
@@ -91,11 +91,11 @@ The list displays all HTML templates. All fields are read-only. Depending on the
 
 *DataHub > Settings > Tab HTML TEMPLATES > Select HTML template*
 
-![Edit HTML template](/Assets/Screenshots/DataHub/Settings/HTMLTemplates/EditHTMLTemplate.png "[Edit HTML template]")
+![Edit HTML template](../../Assets/Screenshots/DataHub/Settings/HTMLTemplates/EditHTMLTemplate.png "[Edit HTML template]")
 
 **Edit HTML template**
 
-- ![Back](/Assets/Icons/Back02.png "[Back]") (Back)   
+- ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)   
   Click this button to close the *Edit HTML template* view and return to the HTML templates list. All changes are rejected.
 
 - [CANCEL]   
@@ -114,7 +114,7 @@ The list displays all HTML templates. All fields are read-only. Depending on the
   HTML template key. The key is required for API access and must be system wide unique. In the *Edit HTML template* view, this field is locked.
 
 - Textarea   
-  Click the field to edit the content for the HTML template. Use the Smarty template engine to include variables and tags to the template, see https://www.smarty.net/. For detailed information, see [Edit an HTML template](03_ManageHTMLTemplates#edit-an-html-template).
+  Click the field to edit the content for the HTML template. Use the Smarty template engine to include variables and tags to the template, see https://www.smarty.net/. For detailed information, see [Edit an HTML template](./03_ManageHTMLTemplates#edit-an-html-template).
 
 
 **Preview**

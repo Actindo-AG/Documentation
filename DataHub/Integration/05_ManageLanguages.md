@@ -1,5 +1,5 @@
-[!!User Interface DataHub](/DataHub/UserInterface/02f_Languages.md)
-[!!Configure the language settings](/PIM/Integration/ConfigureLanguages.md)
+[!!User Interface DataHub](../UserInterface/02f_Languages.md)
+[!!Configure the language settings](../../PIM/Integration/ConfigureLanguages.md)
 
 # Manage the languages
 
@@ -16,12 +16,12 @@ No prerequisites to fulfill.
 #### Procedure
 *DataHub > Settings > Tab LANGUAGES*
 
-![Language list](/Assets/Screenshots/DataHub/Settings/Languages/LanguageList.png "[Language list]")
+![Language list](../../Assets/Screenshots/DataHub/Settings/Languages/LanguageList.png "[Language list]")
 
-1. Click the ![Add](/Assets/Icons/Plus01.png "[Add]") (Add) button in the bottom right corner.   
+1. Click the ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) button in the bottom right corner.   
   The *Create language* view is displayed.
 
-  ![Create language](/Assets/Screenshots/DataHub/Settings/Languages/CreateLanguage.png "[Create language]")
+  ![Create language](../../Assets/Screenshots/DataHub/Settings/Languages/CreateLanguage.png "[Create language]")
 
 2. Enter a name for the language in the *Name* field.
 
@@ -42,19 +42,19 @@ After you have created a language, you can edit its name or key.
 
 #### Prerequisites
 
-At least one language is created, see [Create a language](/DataHub/Integration/CreateLanguage.md).
+At least one language is created, see [Create a language](../Integration/CreateLanguage.md).
 
 > [Info] By default, the languages *English (United States)* and *German (Germany)* are created.
 
 #### Procedure
 *DataHub > Settings > Tab LANGUAGES*
 
-![Language list](/Assets/Screenshots/DataHub/Settings/Languages/LanguageList.png "[Language list]")
+![Language list](../../Assets/Screenshots/DataHub/Settings/Languages/LanguageList.png "[Language list]")
 
 1. Click the language you want to edit in the list of languages.   
   The *Edit language* view is displayed.
 
-  ![Edit language](/Assets/Screenshots/DataHub/Settings/Languages/EditLanguage.png "[Edit language]")
+  ![Edit language](../../Assets/Screenshots/DataHub/Settings/Languages/EditLanguage.png "[Edit language]")
 
 2. Edit the desired data of the language in the corresponding fields.
 
@@ -76,12 +76,12 @@ At least one language is created, see [Create a language](#create-a-language).
 #### Procedure
 *DataHub > Settings > Tab LANGUAGES*
 
-![Language list](/Assets/Screenshots/DataHub/Settings/Languages/LanguageList.png "[Language list]")
+![Language list](../../Assets/Screenshots/DataHub/Settings/Languages/LanguageList.png "[Language list]")
 
 1. Click the language you want to edit in the list of languages.   
   The *Edit language* view is displayed.
 
-  ![Edit language](/Assets/Screenshots/DataHub/Settings/Languages/EditLanguage.png "[Edit language]")
+  ![Edit language](../../Assets/Screenshots/DataHub/Settings/Languages/EditLanguage.png "[Edit language]")
 
 2. Disable the *Active* toggle.
 
@@ -103,7 +103,7 @@ At least one language is created, see [Create a language](#create-a-language).
 #### Procedure
 *DataHub > Settings > Tab LANGUAGES*
 
-![Language list](/Assets/Screenshots/DataHub/Settings/Languages/LanguageList.png "[Language list]")
+![Language list](../../Assets/Screenshots/DataHub/Settings/Languages/LanguageList.png "[Language list]")
 
 1. Select the checkbox of the language you want to delete in the list of languages.    
   The editing toolbar is displayed above the language list.

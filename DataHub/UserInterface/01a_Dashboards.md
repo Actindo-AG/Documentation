@@ -1,20 +1,20 @@
 # Dashboards
 *DataHub > Overview > Tab DASHBOARDS*
 
-![Dashboards](/Assets/Screenshots/DataHub/Overview/Dashboards.png "[Dashboards]")
+![Dashboards](../../Assets/Screenshots/DataHub/Overview/Dashboards.png "[Dashboards]")
 
 In the *DASHBOARDS* tab, the custom tabs with composable dashlets are displayed. By default no tab is created.
 
-- ![Add](/Assets/Icons/Plus06.png "[Add]") (Add)   
+- ![Add](../../Assets/Icons/Plus06.png "[Add]") (Add)   
   Click this button to add a new tab to display different dashlets. The *Add a new Tab* window is displayed.
 
-- ![Delete](/Assets/Icons/Cross04.png "[Delete]") (Delete)   
+- ![Delete](../../Assets/Icons/Cross04.png "[Delete]") (Delete)   
   Click this button to delete the selected tab. The *Confirm Tab Deletion* window is displayed. This button is displayed to the right of the tab name.
 
 
 ## Add a new tab - Create new tab
 
-![Create new tab](/Assets/Screenshots/DataHub/Overview/CreateNewTab.png "[Create new tab]")
+![Create new tab](../../Assets/Screenshots/DataHub/Overview/CreateNewTab.png "[Create new tab]")
 
 - *Tab Name*   
   Enter a name for the new tab.
@@ -28,7 +28,7 @@ In the *DASHBOARDS* tab, the custom tabs with composable dashlets are displayed.
 
 ## Add a new tab - Import existing tab
 
-![Import existing tab](/Assets/Screenshots/DataHub/Overview/ImportExistingTab.png "[Import existing tab]")
+![Import existing tab](../../Assets/Screenshots/DataHub/Overview/ImportExistingTab.png "[Import existing tab]")
 
 - *Dashboard Selection*   
   Click the drop-down list to select the dashboard tab to be imported to the dashboard. All available dashboard tabs that are not yet included in the dashboard are displayed in the list.
@@ -45,7 +45,7 @@ In the *DASHBOARDS* tab, the custom tabs with composable dashlets are displayed.
 
 ## Confirm tab deletion
 
-![Confirm tab deletion](/Assets/Screenshots/DataHub/Overview/ConfirmTabDeletion.png "[Confirm tab deletion]")
+![Confirm tab deletion](../../Assets/Screenshots/DataHub/Overview/ConfirmTabDeletion.png "[Confirm tab deletion]")
 
 - [CANCEL]   
   Click this button to cancel deleting the selected tab and close the *Confirm Tab Deletion* window.
@@ -58,15 +58,15 @@ In the *DASHBOARDS* tab, the custom tabs with composable dashlets are displayed.
 
 ## Tab
 
-![New tab](/Assets/Screenshots/DataHub/Overview/NewTab.png "[New tab]")
+![New tab](../../Assets/Screenshots/DataHub/Overview/NewTab.png "[New tab]")
 
-- ![Settings](/Assets/Icons/Settings01.png "[Tool]") (Settings)   
+- ![Settings](../../Assets/Icons/Settings01.png "[Tool]") (Settings)   
   Click this button to edit the tab. The *Edit tab* view is displayed.  
 
 
 ### Edit tab
 
-![Edit tab](/Assets/Screenshots/DataHub/Overview/EditTab.png "[Edit tab]")
+![Edit tab](../../Assets/Screenshots/DataHub/Overview/EditTab.png "[Edit tab]")
 
 - *Select Viewport*   
   Click the drop-down list to select the view to be applied to the tab. A different view can be selected for each tab. The drop-down list is only displayed in the *Edit tab* view. The following options are available:    
@@ -83,16 +83,16 @@ In the *DASHBOARDS* tab, the custom tabs with composable dashlets are displayed.
 - [SAVE]   
   Click this button to save any changes. The changes are applied. The *Edit tab* view is closed.
 
-- ![Cancel](/Assets/Icons/Cross02.png "[Cancel]") (Cancel)   
+- ![Cancel](../../Assets/Icons/Cross02.png "[Cancel]") (Cancel)   
   Click this button to cancel editing the tab. Any changes are rejected. The *Edit tab* view is closed.
 
 - Dashlet   
-  Hover over a dashlet until the cursor icon changes to the cross arrows cursor. Then move the dashlet on the predefined grid using drag and drop. To remove a dashlet from the tab, click the ![Remove](/Assets/Icons/Cross03.png "[Remove]") (Remove) button in the upper right corner of the dashlet.  
+  Hover over a dashlet until the cursor icon changes to the cross arrows cursor. Then move the dashlet on the predefined grid using drag and drop. To remove a dashlet from the tab, click the ![Remove](../../Assets/Icons/Cross03.png "[Remove]") (Remove) button in the upper right corner of the dashlet.  
 
 
 #### Dashlet picker
 
-![Dashlet picker](/Assets/Screenshots/DataHub/Overview/DashletPicker.png "[Dashlet picker]")
+![Dashlet picker](../../Assets/Screenshots/DataHub/Overview/DashletPicker.png "[Dashlet picker]")
 
 - [x]
   Select a checkbox to add the selected dashlet to the tab. You can select multiple checkboxes. If you click the checkbox in the header, all dashlets in the list are selected. A toolbar indicating the number of selected dashlets is displayed above the list when you have selected at least one checkbox. By default, the following dashlets are available:

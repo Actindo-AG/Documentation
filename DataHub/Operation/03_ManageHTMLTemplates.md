@@ -1,4 +1,4 @@
-[!!User Interface DataHub](/DataHub/UserInterface/02j_HTMLTemplates.md)
+[!!User Interface DataHub](../UserInterface/02j_HTMLTemplates.md)
 
 
 # Manage the HTML templates
@@ -17,12 +17,12 @@ The *HTML Templates for ETL* plugin is installed.
 #### Procedure
 *DataHub > Settings > Tab HTML TEMPLATES*
 
-![HTML templates](/Assets/Screenshots/DataHub/Settings/HTMLTemplates/HTMLTemplates.png "[HTML templates]")
+![HTML templates](../../Assets/Screenshots/DataHub/Settings/HTMLTemplates/HTMLTemplates.png "[HTML templates]")
 
-1. Click the ![Add](/Assets/Icons/Plus01.png "[Add]") (Add) button in the bottom right corner.   
+1. Click the ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) button in the bottom right corner.   
   The *Create HTML template* window is displayed.
 
-  ![Create HTML template](/Assets/Screenshots/DataHub/Settings/HTMLTemplates/CreateHTMLTemplate.png "[Create HTML template]")
+  ![Create HTML template](../../Assets/Screenshots/DataHub/Settings/HTMLTemplates/CreateHTMLTemplate.png "[Create HTML template]")
 
 2. Enter an expressive name for the HTML template in the *Name* field and, if desired, add a description to the HTML template in the *Description* field.
 
@@ -52,7 +52,7 @@ The *HTML Templates for ETL* plugin is installed.
 
 *DataHub > Settings > Tab HTML TEMPLATES > Select HTML template*   
 
-![Edit HTML template](/Assets/Screenshots/DataHub/Settings/HTMLTemplates/EditHTMLTemplate.png "[Edit HTML template]")
+![Edit HTML template](../../Assets/Screenshots/DataHub/Settings/HTMLTemplates/EditHTMLTemplate.png "[Edit HTML template]")
 
 1. Click the textarea and enter the desired HTML text.
 
@@ -79,7 +79,7 @@ The *HTML Templates for ETL* plugin is installed.
 
 *DataHub > Settings > Tab HTML TEMPLATES > Select HTML template*   
 
-![Edit HTML template](/Assets/Screenshots/DataHub/Settings/HTMLTemplates/EditHTMLTemplate.png "[Edit HTML template]")
+![Edit HTML template](../../Assets/Screenshots/DataHub/Settings/HTMLTemplates/EditHTMLTemplate.png "[Edit HTML template]")
 
 1. Click the textarea and enter the desired Smarty template(s).
 
@@ -106,7 +106,7 @@ The *HTML Templates for ETL* plugin is installed.
 
 *DataHub > Settings > Tab HTML TEMPLATES > Select HTML template*   
 
-![Edit HTML template](/Assets/Screenshots/DataHub/Settings/HTMLTemplates/EditHTMLTemplate.png "[Edit HTML template]")
+![Edit HTML template](../../Assets/Screenshots/DataHub/Settings/HTMLTemplates/EditHTMLTemplate.png "[Edit HTML template]")
 
 1. Click the textarea and, if desired, edit or add the Smarty template(s) and/or HTML text for the template.
 
@@ -141,7 +141,7 @@ The *HTML Templates for ETL* plugin is installed.
 
 *DataHub > Settings > Tab HTML TEMPLATES > Select HTML template*   
 
-![Edit HTML template](/Assets/Screenshots/DataHub/Settings/HTMLTemplates/EditHTMLTemplate.png "[Edit HTML template]")
+![Edit HTML template](../../Assets/Screenshots/DataHub/Settings/HTMLTemplates/EditHTMLTemplate.png "[Edit HTML template]")
 
 1. Click the textarea and, if desired, edit or add the Smarty template(s) and/or HTML text for the template.
 
@@ -170,7 +170,7 @@ The *HTML Templates for ETL* plugin is installed.
 
 *DataHub > Settings > Tab HTML TEMPLATES > Select HTML template*   
 
-![Edit HTML template](/Assets/Screenshots/DataHub/Settings/HTMLTemplates/EditHTMLTemplate.png "[Edit HTML template]")
+![Edit HTML template](../../Assets/Screenshots/DataHub/Settings/HTMLTemplates/EditHTMLTemplate.png "[Edit HTML template]")
 
 1. Click the textarea and, if desired, edit or add the Smarty template(s) and/or HTML text for the template.
 
@@ -197,12 +197,12 @@ After you have created an HTML template, you can edit it. You can edit the name,
 #### Procedure
 *DataHub > Settings > Tab HTML TEMPLATES*
 
-![HTML templates](/Assets/Screenshots/DataHub/Settings/HTMLTemplates/HTMLTemplates.png "[HTML templates]")
+![HTML templates](../../Assets/Screenshots/DataHub/Settings/HTMLTemplates/HTMLTemplates.png "[HTML templates]")
 
 1. Click the HTML template you want to edit in the list of HTML templates.   
   The *Edit HTML template* window is displayed.
 
-  ![Edit HTML template](/Assets/Screenshots/DataHub/Settings/HTMLTemplates/EditHTMLTemplate.png "[Edit HTML template]")
+  ![Edit HTML template](../../Assets/Screenshots/DataHub/Settings/HTMLTemplates/EditHTMLTemplate.png "[Edit HTML template]")
 
 2. Edit the desired data of the HTML template in the corresponding. The HTML template key is locked in the *Edit HTML template* view.
 
@@ -227,7 +227,7 @@ The *HTML Templates for ETL* plugin is installed.
 
 *DataHub > Settings > Tab HTML TEMPLATES > Select HTML template*   
 
-![Edit HTML template](/Assets/Screenshots/DataHub/Settings/HTMLTemplates/EditHTMLTemplate.png "[Edit HTML template]")
+![Edit HTML template](../../Assets/Screenshots/DataHub/Settings/HTMLTemplates/EditHTMLTemplate.png "[Edit HTML template]")
 
 1. In the *Preview* section at the bottom of the *HTML template* view, select an entity type in the drop-down list *Entity type*. All available entities are displayed in the list.
 
@@ -238,9 +238,9 @@ The *HTML Templates for ETL* plugin is installed.
 3. Click the [SHOW POSSIBLE VARIABLES] button.  
   A new browser window opens displaying a all possible variables for the selected entity.
 
-  ![Show possible variables](/Assets/Screenshots/DataHub/Settings/HTMLTemplates/ShowPossibleVariables.png "[Show possible variables]")
+  ![Show possible variables](../../Assets/Screenshots/DataHub/Settings/HTMLTemplates/ShowPossibleVariables.png "[Show possible variables]")
 
-4. Close the browser window and click the ![Back](/Assets/Icons/Back02.png "[Back]") (Back) button in the upper left corner to return to the HTML templates list or proceed to [edit the HTML template](#edit-an-html-template).
+4. Close the browser window and click the ![Back](../../Assets/Icons/Back02.png "[Back]") (Back) button in the upper left corner to return to the HTML templates list or proceed to [edit the HTML template](#edit-an-html-template).
 
 
 
@@ -259,7 +259,7 @@ It is possible to display a preview of the HTML template to check its functional
 
 *DataHub > Settings > Tab HTML TEMPLATES > Select HTML template*   
 
-![Edit HTML template](/Assets/Screenshots/DataHub/Settings/HTMLTemplates/EditHTMLTemplate.png "[Edit HTML template]")
+![Edit HTML template](../../Assets/Screenshots/DataHub/Settings/HTMLTemplates/EditHTMLTemplate.png "[Edit HTML template]")
 
 2. In the *Preview* section at the bottom of the *Edit HTML template* view, select an entity type in the drop-down list *Entity type*. All available entities are displayed in the list.
 
@@ -270,6 +270,6 @@ It is possible to display a preview of the HTML template to check its functional
 4. Click the [SAVE AND PREVIEW TEMPLATE] button.  
   The template is saved and a new browser window opens displaying a preview of the template for the selected entity.
 
-  ![Preview](/Assets/Screenshots/DataHub/Settings/HTMLTemplates/Preview.png "[Preview]")
+  ![Preview](../../Assets/Screenshots/DataHub/Settings/HTMLTemplates/Preview.png "[Preview]")
 
-5. Close the browser window and click the ![Back](/Assets/Icons/Back02.png "[Back]") (Back) button in the upper left corner to return to the HTML templates list or proceed to [edit the HTML template](#edit-an-html-template).
+5. Close the browser window and click the ![Back](../../Assets/Icons/Back02.png "[Back]") (Back) button in the upper left corner to return to the HTML templates list or proceed to [edit the HTML template](#edit-an-html-template).

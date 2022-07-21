@@ -2,20 +2,20 @@
 
 *DataHub > Settings > Tab LANGUAGES*
 
-![Languages](/Assets/Screenshots/DataHub/Settings/Languages/LanguageList.png "[Languages]")
+![Languages](../../Assets/Screenshots/DataHub/Settings/Languages/LanguageList.png "[Languages]")
 
 **Language list**
 
-- ![Search](/Assets/Icons/Search.png "[Search]") (Search)   
+- ![Search](../../Assets/Icons/Search.png "[Search]") (Search)   
   Click this button to display the search bar and search for a language.
 
-- ![Refresh](/Assets/Icons/Refresh01.png "[Refresh]") (Refresh)   
+- ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh)   
   Click this button to update the list of languages.
 
-- ![Columns](/Assets/Icons/Columns.png "[Columns]") Columns (x)   
+- ![Columns](../../Assets/Icons/Columns.png "[Columns]") Columns (x)   
   Click this button to display the columns bar and customize the displayed columns and the order of columns in the list. The *x* indicates the number of columns that are currently displayed in the list.
 
-- ![Filter](/Assets/Icons/Filter.png "[Filter]") Filter (x)   
+- ![Filter](../../Assets/Icons/Filter.png "[Filter]") Filter (x)   
   Click this button to display the filter bar and customize the active filters. The *x* indicates the number of filters that are currently active.
 
 - [x]     
@@ -23,7 +23,7 @@
 
 - [EDIT]   
   Click this button to edit the selected language. This button is only displayed, when a single checkbox of a language is selected. Alternatively, you can click directly a row in the list to edit a language.
-  For detailed information, see [Edit a language](/DataHub/Integration/05_ManageLanguages.md#edit-a-language).
+  For detailed information, see [Edit a language](../Integration/05_ManageLanguages.md#edit-a-language).
 
 - [DELETE]   
   Click this button to delete the selected language. This button is only displayed, when the checkbox of at least one language is selected.       
@@ -51,7 +51,7 @@ The list displays all language. All fields are read-only. Depending on the setti
 - *Created by*   
   Name and username of the user who created the language.
 
-- ![Add](/Assets/Icons/Plus01.png "[Add]") (Add)   
+- ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add)   
   Click this button to create a language. The *Create language* view is displayed.   
 
 
@@ -60,11 +60,11 @@ The list displays all language. All fields are read-only. Depending on the setti
 
 *DataHub > Settings > Tab LANGUAGES > Button Add*
 
-![Create language](/Assets/Screenshots/DataHub/Settings/Languages/CreateLanguage.png "[Create language]")
+![Create language](../../Assets/Screenshots/DataHub/Settings/Languages/CreateLanguage.png "[Create language]")
 
 **Create language**
 
-- ![Back](/Assets/Icons/Back02.png "[Back]") (Back)   
+- ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)   
   Click this button to close the *Create language* view and return to the language list. All changes are rejected.
 
 - Language   
@@ -79,7 +79,7 @@ The list displays all language. All fields are read-only. Depending on the setti
 - *Key*   
   Language key. The key is required for API access and must be system wide unique.
 
-- ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Active*   
+- ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Active*   
   Enable this toggle to set the language status to active. Disable the toggle to set the language to inactive. By default, this toggle is disabled.
 
 
@@ -88,11 +88,11 @@ The list displays all language. All fields are read-only. Depending on the setti
 
 *DataHub > Settings > Tab LANGUAGES > Select language*
 
-![Edit language](/Assets/Screenshots/DataHub/Settings/Languages/EditLanguage.png "[Edit language]")
+![Edit language](../../Assets/Screenshots/DataHub/Settings/Languages/EditLanguage.png "[Edit language]")
 
 **Edit language**
 
-- ![Back](/Assets/Icons/Back02.png "[Back]") (Back)   
+- ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)   
   Click this button to close the *Edit Language* view and return to the language list. All changes are rejected.
 
 - Language   
@@ -107,5 +107,5 @@ The list displays all language. All fields are read-only. Depending on the setti
 - *Key*   
   Click the field to edit the language key. The key is required for API access and must be system wide unique. It is not recommended to change the language key after creation.
 
-- ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") *Active*   
+- ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Active*   
   Enable this toggle to set the language status to active. Disable the toggle to set the language to inactive. By default, this toggle is disabled.

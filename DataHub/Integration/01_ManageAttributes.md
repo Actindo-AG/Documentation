@@ -1,8 +1,8 @@
 [!!PIM](PIM)
-[!!User Interface DataHub](/DataHub/UserInterface/02a_Attributes.md)
-[!!Manage the products](/PIM/Operation/01_ManageProducts.md)
-[!!Manage the attribute sets](02_ManageAttributeSets.md)
-[!!Data type list](/PIM/UserInterface/04_DataTypeList.md)
+[!!User Interface DataHub](../UserInterface/02a_Attributes.md)
+[!!Manage the products](../../PIM/Operation/01_ManageProducts.md)
+[!!Manage the attribute sets](./02_ManageAttributeSets.md)
+[!!Data type list](../../PIM/UserInterface/04_DataTypeList.md)
 
 
 # Manage an attribute
@@ -17,22 +17,22 @@ Create an attribute to specify a new property for a product.
 
 #### Prerequisites
 
-An attribute set is created, see [Create an attribute set](02_ManageAttributeSets.md#Create-an-attribute-set).
+An attribute set is created, see [Create an attribute set](./02_ManageAttributeSets.md#Create-an-attribute-set).
 
 #### Procedure
 *DataHub > Settings > Tab ATTRIBUTES*
 
-![Attributes](/Assets/Screenshots/DataHub/Settings/Attributes/Attributes.png "[Attributes]")
+![Attributes](../../Assets/Screenshots/DataHub/Settings/Attributes/Attributes.png "[Attributes]")
 
-1. Click the ![Add](/Assets/Icons/Plus01.png "[Add]") (Add) button in the bottom right corner.   
+1. Click the ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) button in the bottom right corner.   
   The *Create attribute* view is displayed.
 
-  ![Create attribute](/Assets/Screenshots/DataHub/Settings/Attributes/CreateAttribute.png "[Create attribute]")
+  ![Create attribute](../../Assets/Screenshots/DataHub/Settings/Attributes/CreateAttribute.png "[Create attribute]")
 
 2. Enter a name for the attribute in the *Name* field and, if desired, add an attribute description in the  *Description* field.
 
 3. Select a data type in the *Data type* drop-down list.   
- For detailed information about all data types, see [Data type list](/PIM/UserInterface/04_DataTypeList.md).
+ For detailed information about all data types, see [Data type list](../../PIM/UserInterface/04_DataTypeList.md).
 
    > [Info] The settings displayed in the *CONFIGURATION* section depend on the selected data type.
 
@@ -42,16 +42,16 @@ An attribute set is created, see [Create an attribute set](02_ManageAttributeSet
 
 5. If desired, enable the *Multi-language* toggle to assign values in multiple languages to the attribute or enable the *Multi-channel* toggle to assign different attribute values in different channels.
 
-  > [Info] Be aware that only attributes which are neither multi-language nor multi-channel can be used as defining attributes for variants. For detailed information, see [Create a variant set](/PIM/Integration/07_ManageVariantSets.md#create-a-variant-set).
+  > [Info] Be aware that only attributes which are neither multi-language nor multi-channel can be used as defining attributes for variants. For detailed information, see [Create a variant set](../../PIM/Integration/07_ManageVariantSets.md#create-a-variant-set).
 
-6. Click the ![Add](/Assets/Icons/Plus05.png "[Add]") (Add) button in the *Assigned sets* field. The button is locked if you have not yet selected a data type.   
+6. Click the ![Add](../../Assets/Icons/Plus05.png "[Add]") (Add) button in the *Assigned sets* field. The button is locked if you have not yet selected a data type.   
   A drop-down list with all active attribute sets is displayed.
 
 7. Select an attribute set in the *Assigned sets* drop-down list.
 
-  > [Info] You can assign the attribute to multiple sets. Repeat the steps **7** to **8** to assign the attribute to a further attribute set. To delete the assignment to a selected set, click the ![Delete](/Assets/Icons/Trash01.png "[Delete]") (Delete) button right to the set.
+  > [Info] You can assign the attribute to multiple sets. Repeat the steps **7** to **8** to assign the attribute to a further attribute set. To delete the assignment to a selected set, click the ![Delete](../../Assets/Icons/Trash01.png "[Delete]") (Delete) button right to the set.
 
-8. If required, configure the settings in the *CONFIGURATION* section. For detailed information about the different configuration settings, see [Data type list](/PIM/UserInterface/04_DataTypeList.md).
+8. If required, configure the settings in the *CONFIGURATION* section. For detailed information about the different configuration settings, see [Data type list](../../PIM/UserInterface/04_DataTypeList.md).
 
 9. Click the [SAVE] button in the upper right corner.   
   The new attribute is saved. The *Create attribute* view is closed.  
@@ -59,7 +59,7 @@ An attribute set is created, see [Create an attribute set](02_ManageAttributeSet
 
 ## Edit an attribute
 
-After you have created an attribute, you can edit it. However, only some attribute properties are editable. For instance, the data type and the attribute key cannot be subsequently modified. The assignment of an attribute to an attribute set must be changed in the [attribute set](02_ManageAttributeSets) itself.   
+After you have created an attribute, you can edit it. However, only some attribute properties are editable. For instance, the data type and the attribute key cannot be subsequently modified. The assignment of an attribute to an attribute set must be changed in the [attribute set](./02_ManageAttributeSets) itself.   
 There are also some attributes that are automatically created by the system, for instance when installing a plugin or module. These system attributes are read-only and cannot be edited. It is highly recommended not to deactivate these attributes to avoid interfering with the functioning of the Core1 Platform.
 
 #### Prerequisites
@@ -69,12 +69,12 @@ At least one attribute is created, see [Create an attribute](#create-an-attribut
 #### Procedure
 *DataHub > Settings > Tab ATTRIBUTES*
 
-![Attributes](/Assets/Screenshots/DataHub/Settings/Attributes/Attributes.png "[Attributes]")
+![Attributes](../../Assets/Screenshots/DataHub/Settings/Attributes/Attributes.png "[Attributes]")
 
 1. Click the attribute you want to edit in the list of attributes.   
   The *Edit attribute* view is displayed. The *Data* tab is preselected.
 
-  ![Edit attribute data](/Assets/Screenshots/DataHub/Settings/Attributes/EditAttribute_Data.png "[Edit attribute data]")
+  ![Edit attribute data](../../Assets/Screenshots/DataHub/Settings/Attributes/EditAttribute_Data.png "[Edit attribute data]")
 
   > [Info] Be aware that you can only edit the attribute name, description, its status and configuration. All other fields and toggles are locked.
 
@@ -82,7 +82,7 @@ At least one attribute is created, see [Create an attribute](#create-an-attribut
 
 3. If desired, click the *Attribute set assignments* tab to check to which sets the selected attribute is assigned.
 
-  ![Edit attribute assignments](/Assets/Screenshots/DataHub/Settings/Attributes/EditAttribute_Assignments.png "[Edit attribute assignments]")
+  ![Edit attribute assignments](../../Assets/Screenshots/DataHub/Settings/Attributes/EditAttribute_Assignments.png "[Edit attribute assignments]")
 
    > [Info] If you want to change the attribute set assignments of the selected attribute, you have to modify the corresponding attribute set.
 
@@ -101,12 +101,12 @@ At least one attribute is created, see [Create an attribute](#create-an-attribut
 #### Procedure
 *DataHub > Settings > Tab ATTRIBUTES*
 
-![Attributes](/Assets/Screenshots/DataHub/Settings/Attributes/Attributes.png "[Attributes]")
+![Attributes](../../Assets/Screenshots/DataHub/Settings/Attributes/Attributes.png "[Attributes]")
 
 1. Click the attribute you want to deactivate in the list of attributes.   
   The *Edit attribute* view is displayed. The *Data* tab is preselected.
 
-  ![Edit attribute data](/Assets/Screenshots/DataHub/Settings/Attributes/EditAttribute_Data.png "[Edit attribute data]")
+  ![Edit attribute data](../../Assets/Screenshots/DataHub/Settings/Attributes/EditAttribute_Data.png "[Edit attribute data]")
 
 2. Disable the *Active* toggle in the *Data* tab.
 
@@ -130,12 +130,12 @@ At least one attribute is created, see [Create an attribute](#create-an-attribut
 #### Procedure
 *DataHub > Settings > Tab ATTRIBUTES*
 
-![Attributes](/Assets/Screenshots/DataHub/Settings/Attributes/Attributes.png "[Attributes]")
+![Attributes](../../Assets/Screenshots/DataHub/Settings/Attributes/Attributes.png "[Attributes]")
 
 1. Select the checkbox of the attribute you want to delete in the list of attributes.   
   The editing toolbar is displayed above the attributes list.
 
-2. Click the ![Delete](/Assets/Icons/Trash03.png "[Delete]") (Delete) button in the toolbar. The *Confirm deletion of attribute?* window is displayed.
+2. Click the ![Delete](../../Assets/Icons/Trash03.png "[Delete]") (Delete) button in the toolbar. The *Confirm deletion of attribute?* window is displayed.
 
   > [Info] In the window all dependencies to attribute sets, ETL-mappings and entity entries are displayed. Be aware that problems may occur if you delete an attribute with existing dependencies.
 
@@ -157,7 +157,7 @@ At least one attribute is moved to the *DELETED ATTRIBUTES* tab, see [Delete an 
 #### Procedure
 *DataHub > Settings > Tab DELETED ATTRIBUTES*
 
-![Attributes](/Assets/Screenshots/DataHub/Settings/DeletedAttributes/DeletedAttributes.png "[Attributes]")
+![Attributes](../../Assets/Screenshots/DataHub/Settings/DeletedAttributes/DeletedAttributes.png "[Attributes]")
 
 1. Select the checkbox of the attribute you want to recover in the list of deleted attributes.   
   The editing toolbar is displayed above the deleted attributes list.
@@ -180,12 +180,12 @@ At least one attribute is moved to the *DELETED ATTRIBUTES* tab, see [Delete an 
 #### Procedure
 *DataHub > Settings > Tab ATTRIBUTES*
 
-![Attributes](/Assets/Screenshots/DataHub/Settings/Attributes/Attributes.png "[Attributes]")
+![Attributes](../../Assets/Screenshots/DataHub/Settings/Attributes/Attributes.png "[Attributes]")
 
 1. Select the checkbox of the attribute you want to finally delete in the list of deleted attributes.    
   The editing toolbar is displayed above the attributes list.
 
-  > [Info] If the deleted attribute is not yet displayed in the list of deleted attributes, click the ![Refresh](/Assets/Icons/Refresh01.png "[Refresh]") (Refresh) button to update the list.
+  > [Info] If the deleted attribute is not yet displayed in the list of deleted attributes, click the ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh) button to update the list.
 
 2. Click the [Delete] button in the toolbar.  
   The attribute is irretrievably deleted. The deletion cannot be undone.
