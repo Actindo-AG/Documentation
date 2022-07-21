@@ -161,11 +161,11 @@ Click the drop-down list to select the applicable file content. The following op
 
 
 - *Export def.*  
-Click the drop-down list to select the appropriate export definition. The export definitions are preconfigured in the system but they can be edited. All created export definitions are displayed in the drop-down list.
+Click the drop-down list to select the appropriate export definition. The export definitions are preconfigured in the system but can be edited. All created export definitions are displayed in the drop-down list.
 
 
 - [Edit]  
-Click this button to add, edit or delete an export definitions. The *Import/export definitions* is displayed, see [Import/export definitions](#importexport-definitions).
+Click this button to add, edit or delete an export definition. The *Import/export definitions* window is displayed, see [Import/export definitions](#importexport-definitions).
 
 - *Export*  
 Click the drop-down list to select the specific data to be exported. The following options are available:  
@@ -276,7 +276,7 @@ Click the drop-down list to select the personal accounts to be exported. The fol
   - **No**  
 
 
-- *Custom (e. g. 10000, 39999-49999)*    
+- *Custom (e.g. 10000, 39999-49999)*    
 Enter an account number or an account number range to be exported.
 
 - *Export only booking-relevant master data records*  
@@ -291,7 +291,7 @@ Click the drop-down list to select the appropriate option. The following options
   - **Receipt 4**
 
 
-- *Add tax keys also in split bookings of automatic accounts*  
+- *Add tax keys from automatic accounts also in split bookings*  
 Click the drop-down list to select the appropriate option (**Yes/No**).
 
 - *Saved personal accounts length*  
@@ -387,9 +387,10 @@ Click this button to close the window. This will cancel the export.
 A pop-up window confirms that the selected data have been exported correctly. Click the OK button to proceed to the next step.
 
 
-**Step 3**
 
 ![Export GDI Step 3](/Assets/Screenshots/RetailSuiteAccounting/Extras/Export/GDI03.png "[Export GDI Step 3]")
+
+**Step 3**
 
 - *Exported files*  
 The exported file(s) are displayed and can be downloaded by clicking on the file name(s).
@@ -401,7 +402,7 @@ The exported file(s) are displayed and can be downloaded by clicking on the file
 
 ## GDPdU export
 
-*Accounting > Select fiscal year > Extras > Tab IMPORT > Button GDPDU EXPORT*
+*Accounting > Select fiscal year > Extras > Tab EXPORT > Button GDPDU EXPORT*
 
 ![Export GDPDU Step 1](/Assets/Screenshots/RetailSuiteAccounting/Extras/Export/ExportGDPdU01.png "[Export GDPDU Step 1]")
 
@@ -502,7 +503,7 @@ Click the applicable radio button to select the appropriate option:
 Click the drop-down list to select the items to be exported. The following options are available:
 
   - **Open items**
-  - **Items paid**
+  - **Paid items**
   - **Open and paid items**
 
 
@@ -515,10 +516,10 @@ Click the drop-down list to select the applicable file content. The following op
 
 
 - *Export def.*  
-Click the drop-down list to select the appropriate export definition. The export definitions are preconfigured in the system but they can be edited. All created export definitions are displayed in the drop-down list.
+Click the drop-down list to select the appropriate export definition. The export definitions are preconfigured in the system but can be edited. All created export definitions are displayed in the drop-down list.
 
 - [Edit]  
-Click this button to add, edit or delete an export definitions. The *Import/export definitions* is displayed, see [Import/export definitions](#importexport-definitions).
+Click this button to add, edit or delete an export definition. The *Import/export definitions* window is displayed, see [Import/export definitions](#importexport-definitions).
 
 - [CONTINUE]  
 Click this button to proceed to the next step.
@@ -899,7 +900,7 @@ The exported file(s) are displayed and can be downloaded by clicking on the file
 Tax key as mapped in the Actindo system.
 
 - *BMD tax key*  
-BMD key as mapped in the BMD system.
+Tax key as mapped in the BMD system.
 
 [comment]: <> (Steuercode ist ein zweideutiger Term. Reden wir hier von "tax key" oder "control key"? Im System "tax control key" und "Steuercode". Vorsicht / RS FH dazu.)
 
@@ -907,10 +908,10 @@ BMD key as mapped in the BMD system.
 Select the checkbox to edit or delete a tax key. The *Edit* section is displayed.
 
 - [CREATE]  
-Click this button to create a tax control key. The *Add* section is displayed.
+Click this button to create a tax key. The *Add* section is displayed.
 
 - [DELETE]  
-Click this button to delete a selected tax control key from the list.
+Click this button to delete a selected tax key from the list.
 
 - ![Refresh](/Assets/Icons/Refresh03.png "[Refresh]") (Refresh)  
 Click this button to refresh the list after making any changes.
@@ -954,7 +955,7 @@ Click the drop-down list to select the desired preconfigured import/export defin
 Click this button to create an import/export definition. The *New import/export definition* window is displayed, see [New import/export definition](#new-importexport-definition).
 
 - [EDIT]  
-Click this button to rename an import/export definition. The *Rename import/export definition* is displayed, see [Rename import/export definition](#rename-importexport-definition).
+Click this button to rename an import/export definition. The *Rename import/export definition* window is displayed, see [Rename import/export definition](#rename-importexport-definition).
 
 - [DELETE]  
 Click this button to delete an import/export definition. A confirmation window is displayed.
