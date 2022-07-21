@@ -2,20 +2,20 @@
 
 *PIM > Settings > Tab VARIANT SETS*
 
-![Variant sets](/Assets/Screenshots/PIM/Settings/VariantSets/VariantSets.png "[Variant sets]")
+![Variant sets](../../Assets/Screenshots/PIM/Settings/VariantSets/VariantSets.png "[Variant sets]")
 
 **Variant Set List**
 
-- ![Search](/Assets/Icons/Search.png "[Search]") (Search)   
+- ![Search](../../Assets/Icons/Search.png "[Search]") (Search)   
   Click this button to display the search bar and search for an variant set.
 
-- ![Refresh](/Assets/Icons/Refresh01.png "[Refresh]") (Refresh)   
+- ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh)   
   Click this button to update the list of variant sets.
 
-- ![Columns](/Assets/Icons/Columns.png "[Columns]") Columns (x)   
+- ![Columns](../../Assets/Icons/Columns.png "[Columns]") Columns (x)   
   Click this button to display the columns bar and customize the displayed columns and the order of columns in the list. The *x* indicates the number of columns that are currently displayed in the list.
 
-- ![Filter](/Assets/Icons/Filter.png "[Filter]") Filter (x)   
+- ![Filter](../../Assets/Icons/Filter.png "[Filter]") Filter (x)   
   Click this button to display the filter bar and customize the active filters. The *x* indicates the number of filters that are currently active.
 
 - [x]     
@@ -23,7 +23,7 @@
 
 - [EDIT]      
   Click this button to edit the selected variant set. This button is only displayed, when a single checkbox of a variant set is selected. Alternatively, you can click directly a row in the list to edit a variant set. The *Edit variant set* view is displayed.
-  For detailed information, see [Edit a variant set](/PIM/Integration/07_ManageVariantSets.md#edit-a-variant-set).
+  For detailed information, see [Edit a variant set](../Integration/07_ManageVariantSets.md#edit-a-variant-set).
 
 - [DELETE]     
   Click this button to delete the selected variant sets. This button is only displayed, when the checkbox of at least one variant set is selected.
@@ -62,16 +62,16 @@ The list displays all variant sets. All fields are read-only. Depending on the s
 - *Name (Language)*   
   Attribute set name in the selected language. A single *Name (Language)* column is displayed for the languages *English (United States)* and *Deutsch (Deutschland)*.
 
-- ![Add](/Assets/Icons/Plus01.png "[Add]") (Add)   
+- ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add)   
   Click this button to create a variant set. The *Create variant Set* window is displayed.   
 
 
 ## Create variant set
 *PIM > Settings > Tab VARIANT SETS > Button Add*
 
-![Create variant set](/Assets/Screenshots/PIM/Settings/VariantSets/CreateVariantSet.png "[Create variant set]")
+![Create variant set](../../Assets/Screenshots/PIM/Settings/VariantSets/CreateVariantSet.png "[Create variant set]")
 
-- ![Back](/Assets/Icons/Back02.png "[Back]") (Back)   
+- ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)   
   Click this button to cancel creating a variant set, close the *Create Variant Set* view and return to the variant sets list. All changes are rejected.
 
 - Language   
@@ -101,16 +101,16 @@ This section is only displayed when an attribute set is selected.
 
 **Defining attributes**
 
-- ![Search](/Assets/Icons/Search.png "[Search]") (Search)   
+- ![Search](../../Assets/Icons/Search.png "[Search]") (Search)   
   Click this button to display the search bar and search for an attribute.
 
-- ![Refresh](/Assets/Icons/Refresh01.png "[Refresh]") (Refresh)   
+- ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh)   
   Click this button to update the list of an attribute.
 
-- ![Columns](/Assets/Icons/Columns.png "[Columns]") Columns (x)   
+- ![Columns](../../Assets/Icons/Columns.png "[Columns]") Columns (x)   
   Click this button to display the columns bar and customize the displayed columns and the order of columns in the list. The *x* indicates the number of columns that are currently displayed in the list.
 
-- ![Filter](/Assets/Icons/Filter.png "[Filter]") Filter (x)   
+- ![Filter](../../Assets/Icons/Filter.png "[Filter]") Filter (x)   
   Click this button to display the filter bar and customize the active filters. The *x* indicates the number of filters that are currently active.
 
 - [x]     
@@ -128,27 +128,27 @@ The list displays all defining attributes to the variant set. All fields are rea
   Attribute key. The key is required for API access and must be system wide unique.
 
 - *Data Type*   
-  Attribute data type. For detailed information about all data types, see [Data type list](04_DataTypeList.md).
+  Attribute data type. For detailed information about all data types, see [Data type list](./04_DataTypeList.md).
 
 - *ID*   
   Attribute identification number. The ID number is automatically assigned by the system.
 
-- ![Add](/Assets/Icons/Plus01.png "[Add]") (Add)   
+- ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add)   
   Click this button to add a defining attribute to the variant set. The *Add defining attributes* view is displayed.
 
 
 **Changeable attributes**
 
-- ![Search](/Assets/Icons/Search.png "[Search]") (Search)   
+- ![Search](../../Assets/Icons/Search.png "[Search]") (Search)   
   Click this button to display the search bar and search for an attribute.
 
-- ![Refresh](/Assets/Icons/Refresh01.png "[Refresh]") (Refresh)   
+- ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh)   
   Click this button to update the list of an attribute.
 
-- ![Columns](/Assets/Icons/Columns.png "[Columns]") Columns (x)   
+- ![Columns](../../Assets/Icons/Columns.png "[Columns]") Columns (x)   
   Click this button to display the columns bar and customize the displayed columns and the order of columns in the list. The *x* indicates the number of columns that are currently displayed in the list.
 
-- ![Filter](/Assets/Icons/Filter.png "[Filter]") Filter (x)   
+- ![Filter](../../Assets/Icons/Filter.png "[Filter]") Filter (x)   
   Click this button to display the filter bar and customize the active filters. The *x* indicates the number of filters that are currently active.
 
 - [x]     
@@ -166,12 +166,12 @@ The list displays all changeable attributes to the variant set. All fields are r
   Attribute key. The key is required for API access and must be system wide unique.
 
 - *Data Type*   
-  Attribute data type. For detailed information about all data types, see [Data type list](04_DataTypeList.md).
+  Attribute data type. For detailed information about all data types, see [Data type list](./04_DataTypeList.md).
 
 - *ID*   
   Attribute identification number. The ID number is automatically assigned by the system.
 
-- ![Add](/Assets/Icons/Plus01.png "[Add]") (Add)   
+- ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add)   
   Click this button to add a defining attribute to the variant set. The *Add changeable attributes* view is displayed.
 
 
@@ -179,9 +179,9 @@ The list displays all changeable attributes to the variant set. All fields are r
 *PIM > Settings > Tab VARIANT SETS > Button Add > Button Add variant set*   
 *PIM > Settings > Tab VARIANT SETS > Select variant set > Button Edit*
 
-![Edit variant set](/Assets/Screenshots/PIM/Settings/VariantSets/EditVariantSet.png "[Edit variant set]")
+![Edit variant set](../../Assets/Screenshots/PIM/Settings/VariantSets/EditVariantSet.png "[Edit variant set]")
 
-- ![Back](/Assets/Icons/Back02.png "[Back]") (Back)   
+- ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)   
   Click this button to cancel editing the variant set, close the *Edit Variant Set* view and return to the variant sets list. All changes are rejected.
 
 - Language   
@@ -209,16 +209,16 @@ The list displays all changeable attributes to the variant set. All fields are r
 
 **Defining attributes**
 
-- ![Search](/Assets/Icons/Search.png "[Search]") (Search)   
+- ![Search](../../Assets/Icons/Search.png "[Search]") (Search)   
   Click this button to display the search bar and search for an attribute.
 
-- ![Refresh](/Assets/Icons/Refresh01.png "[Refresh]") (Refresh)   
+- ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh)   
   Click this button to update the list of an attribute.
 
-- ![Columns](/Assets/Icons/Columns.png "[Columns]") Columns (x)   
+- ![Columns](../../Assets/Icons/Columns.png "[Columns]") Columns (x)   
   Click this button to display the columns bar and customize the displayed columns and the order of columns in the list. The *x* indicates the number of columns that are currently displayed in the list.
 
-- ![Filter](/Assets/Icons/Filter.png "[Filter]") Filter (x)   
+- ![Filter](../../Assets/Icons/Filter.png "[Filter]") Filter (x)   
   Click this button to display the filter bar and customize the active filters. The *x* indicates the number of filters that are currently active.
 
 - [x]     
@@ -236,27 +236,27 @@ The list displays all defining attributes to the variant set. All fields are rea
   Attribute key. The key is required for API access and must be system wide unique.
 
 - *Data Type*   
-  Attribute data type. For detailed information about all data types, see [Data type list](04_DataTypeList.md).
+  Attribute data type. For detailed information about all data types, see [Data type list](./04_DataTypeList.md).
 
 - *ID*   
   Attribute identification number. The ID number is automatically assigned by the system.
 
-- ![Add](/Assets/Icons/Plus01.png "[Add]") (Add)   
+- ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add)   
   Click this button to add a defining attribute to the variant set. The *Add defining attributes* view is displayed.
 
 
 **Changeable attributes**
 
-- ![Search](/Assets/Icons/Search.png "[Search]") (Search)   
+- ![Search](../../Assets/Icons/Search.png "[Search]") (Search)   
   Click this button to display the search bar and search for an attribute.
 
-- ![Refresh](/Assets/Icons/Refresh01.png "[Refresh]") (Refresh)   
+- ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh)   
   Click this button to update the list of an attribute.
 
-- ![Columns](/Assets/Icons/Columns.png "[Columns]") Columns (x)   
+- ![Columns](../../Assets/Icons/Columns.png "[Columns]") Columns (x)   
   Click this button to display the columns bar and customize the displayed columns and the order of columns in the list. The *x* indicates the number of columns that are currently displayed in the list.
 
-- ![Filter](/Assets/Icons/Filter.png "[Filter]") Filter (x)   
+- ![Filter](../../Assets/Icons/Filter.png "[Filter]") Filter (x)   
   Click this button to display the filter bar and customize the active filters. The *x* indicates the number of filters that are currently active.
 
 - [x]     
@@ -274,12 +274,12 @@ The list displays all changeable attributes to the variant set. All fields are r
   Attribute key. The key is required for API access and must be system wide unique.
 
 - *Data Type*   
-  Attribute data type. For detailed information about all data types, see [Data type list](04_DataTypeList.md).
+  Attribute data type. For detailed information about all data types, see [Data type list](./04_DataTypeList.md).
 
 - *ID*   
   Attribute identification number. The ID number is automatically assigned by the system.
 
-- ![Add](/Assets/Icons/Plus01.png "[Add]") (Add)   
+- ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add)   
   Click this button to add a defining attribute to the variant set. The *Add changeable attributes* view is displayed.
 
 
@@ -288,21 +288,21 @@ The list displays all changeable attributes to the variant set. All fields are r
 *PIM > Settings > Tab VARIANT SETS > Button Add > Button Add variant set > Button Add (Defining attributes)*   
 *PIM > Settings > Tab VARIANT SETS > Select variant set > Button Edit > Button Add (Defining attributes)*
 
-![Defining attributes](/Assets/Screenshots/PIM/Settings/VariantSets/AddDefiningAttributes.png "[Defining attributes]")
+![Defining attributes](../../Assets/Screenshots/PIM/Settings/VariantSets/AddDefiningAttributes.png "[Defining attributes]")
 
-- ![Back](/Assets/Icons/Back02.png "[Back]") (Back)   
+- ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)   
   Click this button to cancel adding defining attributes, close the *Add defining attributes* view and return to the *Edit Variant Set* view. All changes are rejected.
 
-- ![Search](/Assets/Icons/Search.png "[Search]") (Search)   
+- ![Search](../../Assets/Icons/Search.png "[Search]") (Search)   
   Click this button to display the search bar and search for an attribute.
 
-- ![Refresh](/Assets/Icons/Refresh01.png "[Refresh]") (Refresh)   
+- ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh)   
   Click this button to update the list of attributes.
 
-- ![Columns](/Assets/Icons/Columns.png "[Columns]") Columns (x)   
+- ![Columns](../../Assets/Icons/Columns.png "[Columns]") Columns (x)   
   Click this button to display the columns bar and customize the displayed columns and the order of columns in the list. The *x* indicates the number of columns that are currently displayed in the list.
 
-- ![Filter](/Assets/Icons/Filter.png "[Filter]") Filter (x)   
+- ![Filter](../../Assets/Icons/Filter.png "[Filter]") Filter (x)   
   Click this button to display the filter bar and customize the active filters. The *x* indicates the number of filters that are currently active.
 
 - [x]     
@@ -323,7 +323,7 @@ The list displays all available defining attributes. All fields are read-only. D
   Attribute key. The key is required for API access and must be system wide unique.
 
 - *Data Type*   
-  Attribute data type. For detailed information about all data types, see [Data type list](04_DataTypeList.md).
+  Attribute data type. For detailed information about all data types, see [Data type list](./04_DataTypeList.md).
 
 - *ID*   
   Attribute identification number. The ID number is automatically assigned by the system.
@@ -333,21 +333,21 @@ The list displays all available defining attributes. All fields are read-only. D
 *PIM > Settings > Tab VARIANT SETS > Button Add > Button Add variant set > Button Add (changeable attributes box)*   
 *PIM > Settings > Tab VARIANT SETS > Select variant set > Button Edit > Button Add (changeable attributes box)*
 
-![Changeable attributes](/Assets/Screenshots/PIM/Settings/VariantSets/AddChangeableAttributes.png "[Changeable attributes]")
+![Changeable attributes](../../Assets/Screenshots/PIM/Settings/VariantSets/AddChangeableAttributes.png "[Changeable attributes]")
 
-- ![Back](/Assets/Icons/Back02.png "[Back]") (Back)   
+- ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)   
   Click this button to cancel adding defining attributes, close the *Add defining attributes* view and return to the *Edit Variant Set* view. All changes are rejected.
 
-- ![Search](/Assets/Icons/Search.png "[Search]") (Search)   
+- ![Search](../../Assets/Icons/Search.png "[Search]") (Search)   
   Click this button to display the search bar and search for an attribute.
 
-- ![Refresh](/Assets/Icons/Refresh01.png "[Refresh]") (Refresh)   
+- ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh)   
   Click this button to update the list of attributes.
 
-- ![Columns](/Assets/Icons/Columns.png "[Columns]") Columns (x)   
+- ![Columns](../../Assets/Icons/Columns.png "[Columns]") Columns (x)   
   Click this button to display the columns bar and customize the displayed columns and the order of columns in the list. The *x* indicates the number of columns that are currently displayed in the list.
 
-- ![Filter](/Assets/Icons/Filter.png "[Filter]") Filter (x)   
+- ![Filter](../../Assets/Icons/Filter.png "[Filter]") Filter (x)   
   Click this button to display the filter bar and customize the active filters. The *x* indicates the number of filters that are currently active.
 
 - [x]     
@@ -368,7 +368,7 @@ The list displays all available changeable attributes. All fields are read-only.
   Attribute key. The key is required for API access and must be system wide unique.
 
 - *Data Type*   
-  Attribute data type. For detailed information about all data types, see [Data type list](04_DataTypeList.md).
+  Attribute data type. For detailed information about all data types, see [Data type list](./04_DataTypeList.md).
 
 - *ID*   
   Attribute identification number. The ID number is automatically assigned by the system.

@@ -1,6 +1,6 @@
-[!!User Interface PIM](/PIM/UserInterface/00_UserInterface.md)
-[!!Manage the products](/PIM/Operation/01_ManageProducts.md)
-[!!Data type list](/PIM/UserInterface/04_DataTypeList.md)
+[!!User Interface PIM](../UserInterface/00_UserInterface.md)
+[!!Manage the products](../Operation/01_ManageProducts.md)
+[!!Data type list](../UserInterface/04_DataTypeList.md)
 
 
 # Manage an attribute
@@ -55,17 +55,17 @@ No prerequisites to fulfill.
 #### Procedure
 *PIM > Settings > Tab ATTRIBUTES*
 
-![Attributes](/Assets/Screenshots/PIM/Settings/Attributes/Attributes.png "[Attributes]")
+![Attributes](../../Assets/Screenshots/PIM/Settings/Attributes/Attributes.png "[Attributes]")
 
-1. Click the ![Add](/Assets/Icons/Plus01.png "[Add]") (Add) button in the bottom right corner.   
+1. Click the ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) button in the bottom right corner.   
   The *Create Attribute* view is displayed.
 
-  ![Create attribute](/Assets/Screenshots/PIM/Settings/Attributes/CreateAttribute.png "[Create attribute]")
+  ![Create attribute](../../Assets/Screenshots/PIM/Settings/Attributes/CreateAttribute.png "[Create attribute]")
 
 2. Enter a name for the attribute in the *Name* field and, if desired, add an attribute description in the *Description* field.
 
 3. Select a data type in the *Data type* drop-down list.   
- The *CONFIGURATION* section is displayed. For detailed information about all data types, see [Data type list](/PIM/UserInterface/04_DataTypeList.md).
+ The *CONFIGURATION* section is displayed. For detailed information about all data types, see [Data type list](../UserInterface/04_DataTypeList.md).
 
    > [Info] The settings displayed in the *CONFIGURATION* section depend on the selected data type.
 
@@ -75,17 +75,17 @@ No prerequisites to fulfill.
 
 5. If desired, enable the *Multi-language* toggle to assign values in multiple languages to the attribute or enable the *Multi-channel* toggle to assign different attribute values in different channels.
 
-  > [Info] Be aware that only attributes which are neither multi-language nor multi-channel can be used as defining attributes for variants. For detailed information, see [Create a variant set](07_ManageVariantSets.md#create-a-variant-set).
+  > [Info] Be aware that only attributes which are neither multi-language nor multi-channel can be used as defining attributes for variants. For detailed information, see [Create a variant set](./07_ManageVariantSets.md#create-a-variant-set).
 
-6. Click the ![Add](/Assets/Icons/Plus05.png "[Add]") (Add) button in the *Assigned Sets* field. The button is locked if you have not yet selected a data type.   
+6. Click the ![Add](../../Assets/Icons/Plus05.png "[Add]") (Add) button in the *Assigned Sets* field. The button is locked if you have not yet selected a data type.   
   A drop-down list with all active attribute sets is displayed.
 
 7. Select an attribute set in the *Assigned Sets* drop-down list.
 
-  > [Info] You can assign the attribute to multiple sets. Repeat the steps **7** to **8** to assign the attribute to a further attribute set. To delete the assignment to a selected set, click the ![Delete](/Assets/Icons/Trash01.png "[Delete]") (Delete) button right to the set.
+  > [Info] You can assign the attribute to multiple sets. Repeat the steps **7** to **8** to assign the attribute to a further attribute set. To delete the assignment to a selected set, click the ![Delete](../../Assets/Icons/Trash01.png "[Delete]") (Delete) button right to the set.
 
 8. If required, configure the settings in the *CONFIGURATION* section.   
-For detailed information about the different configuration settings, see [Data type list](/PIM/UserInterface/04_DataTypeList.md).
+For detailed information about the different configuration settings, see [Data type list](../UserInterface/04_DataTypeList.md).
 
   > [Info] By default, the status of a new attribute is set to active. To deactivate a new attribute for use, disable the *Active* toggle. For detailed information, see [Deactivate an attribute](#deactivate-an-attribute).
 
@@ -106,12 +106,12 @@ At least one attribute is created, see [Create an attribute](#create-an-attribut
 #### Procedure
 *PIM > Settings > Tab ATTRIBUTES*
 
-![Attributes](/Assets/Screenshots/PIM/Settings/Attributes/Attributes.png "[Attributes]")
+![Attributes](../../Assets/Screenshots/PIM/Settings/Attributes/Attributes.png "[Attributes]")
 
 1. Click the attribute you want to edit in the list of attributes.   
   The *Edit Attribute* view is displayed. The *Data* tab is preselected.
 
-  ![Edit attribute data](/Assets/Screenshots/PIM/Settings/Attributes/EditAttribute_Data.png "[Edit attribute data]")
+  ![Edit attribute data](../../Assets/Screenshots/PIM/Settings/Attributes/EditAttribute_Data.png "[Edit attribute data]")
 
   > [Info] Be aware that you can only edit the attribute name, description, its status and configuration. All other fields and toggles are locked.
 
@@ -119,9 +119,9 @@ At least one attribute is created, see [Create an attribute](#create-an-attribut
 
 3. If desired, click the *Attribute Set Assignments* tab to check to which sets the selected attribute is assigned.
 
-  ![Edit attribute assignments](/Assets/Screenshots/PIM/Settings/Attributes/EditAttribute_Assignments.png "[Edit attribute assignments]")
+  ![Edit attribute assignments](../../Assets/Screenshots/PIM/Settings/Attributes/EditAttribute_Assignments.png "[Edit attribute assignments]")
 
-   > [Info] If you want to change the attribute set assignments of the selected attribute, you have to modify the corresponding attribute set, see [Manage the attribute sets](02_ManageAttributeSets.md).
+   > [Info] If you want to change the attribute set assignments of the selected attribute, you have to modify the corresponding attribute set, see [Manage the attribute sets](./02_ManageAttributeSets.md).
 
 4. Click the [SAVE] button in the upper right corner.   
   The changes are saved. The *Edit Attribute* view is closed.  
@@ -139,12 +139,12 @@ At least one attribute is created, see [Create an attribute](#create-an-attribut
 #### Procedure
 *PIM > Settings > Tab ATTRIBUTES*
 
-![Attributes](/Assets/Screenshots/PIM/Settings/Attributes/Attributes.png "[Attributes]")
+![Attributes](../../Assets/Screenshots/PIM/Settings/Attributes/Attributes.png "[Attributes]")
 
 1. Click the attribute you want to deactivate in the list of attributes.   
   The *Edit Attribute* view is displayed. The *Data* tab is preselected.
 
-  ![Edit attribute data](/Assets/Screenshots/PIM/Settings/Attributes/EditAttribute_Data.png "[Edit attribute data]")
+  ![Edit attribute data](../../Assets/Screenshots/PIM/Settings/Attributes/EditAttribute_Data.png "[Edit attribute data]")
 
 2. Disable the *Active* toggle in the *Data* tab.
 
@@ -168,14 +168,14 @@ At least one attribute is created, see [Create an attribute](#create-an-attribut
 #### Procedure
 *PIM > Settings > Tab ATTRIBUTES*
 
-![Attributes](/Assets/Screenshots/PIM/Settings/Attributes/Attributes.png "[Attributes]")
+![Attributes](../../Assets/Screenshots/PIM/Settings/Attributes/Attributes.png "[Attributes]")
 
 1. Select the checkbox of the attribute you want to delete in the list of attributes.   
   The editing toolbar is displayed above the attributes list.
 
 2. Click the [DELETE] button in the toolbar. The *Confirm deletion of attribute?* window is displayed.
 
-  ![Confirm deletion of attribute](/Assets/Screenshots/PIM/Settings/Attributes/ConfirmDeletionAttribute.png "[Confirm deletion of attribute]")
+  ![Confirm deletion of attribute](../../Assets/Screenshots/PIM/Settings/Attributes/ConfirmDeletionAttribute.png "[Confirm deletion of attribute]")
 
   > [Info] In the window all dependencies to attribute sets, ETL-mappings and entity entries are displayed. Be aware that problems may occur if you delete an attribute with existing dependencies. For defining attributes, the [CONFIRM] button is not displayed in the *Confirm deletion of attribute?* window as they cannot be deleted.   
 
@@ -192,7 +192,7 @@ At least one attribute is created, see [Create an attribute](#create-an-attribut
 
 If you delete an attribute in the *PIM* module, it is not irretrievably deleted. You can still recover the attribute and make the deletion undone.
 
-The procedure to recover a deleted attribute is described in the *DataHub* module, see [Recover an attribute](/DataHub/Integration/01_ManageAttribute.md#recover-an-attribute).
+The procedure to recover a deleted attribute is described in the *DataHub* module, see [Recover an attribute](../../DataHub/Integration/01_ManageAttribute.md#recover-an-attribute).
 
 
 
@@ -200,4 +200,4 @@ The procedure to recover a deleted attribute is described in the *DataHub* modul
 
 You can finally delete an attribute that has been deleted in the *PIM* module. As there are usually dependencies on an attribute, for example through an attribute set or created products, it is strongly recommended not to delete an attribute irretrievably. Finally deleted attributes cannot be recovered.
 
-The procedure to recover a deleted attribute is described in the *DataHub* module, see [Finally delete an attribute](/DataHub/Integration/01_ManageAttributes.md#finally-delete-an-attribute).
+The procedure to recover a deleted attribute is described in the *DataHub* module, see [Finally delete an attribute](../../DataHub/Integration/01_ManageAttributes.md#finally-delete-an-attribute).

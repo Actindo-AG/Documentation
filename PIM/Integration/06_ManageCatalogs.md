@@ -1,5 +1,5 @@
-[!!User Interface PIM](/PIM/UserInterface/00_UserInterface.md)
-[!!Manage the products](/PIM/Operation/01_ManageProducts.md)
+[!!User Interface PIM](../UserInterface/00_UserInterface.md)
+[!!Manage the products](../Operation/01_ManageProducts.md)
 
 
 # Manage a catalog
@@ -23,17 +23,17 @@ No prerequisites to fulfill.
 #### Procedure
 *PIM > Settings > Tab CATALOGS*
 
-![Catalogs](/Assets/Screenshots/PIM/Settings/Catalogs/Catalogs.png "[Catalogs]")
+![Catalogs](../../Assets/Screenshots/PIM/Settings/Catalogs/Catalogs.png "[Catalogs]")
 
-1. Click the ![Points](/Assets/Icons/Points01.png "[Points]") (Points) button to the right of the catalog name in the left column.   
+1. Click the ![Points](../../Assets/Icons/Points01.png "[Points]") (Points) button to the right of the catalog name in the left column.   
   The menu is displayed.
 
-  ![Menu](/Assets/Screenshots/PIM/Settings/Catalogs/Menu.png "[Menu]")
+  ![Menu](../../Assets/Screenshots/PIM/Settings/Catalogs/Menu.png "[Menu]")
 
 2. Click the *+ Create new* menu entry.   
   The *Create new catalog* view is displayed.
 
-  ![Create new catalog](/Assets/Screenshots/PIM/Settings/Catalogs/CreateNewCatalog.png "[Create new catalog]")
+  ![Create new catalog](../../Assets/Screenshots/PIM/Settings/Catalogs/CreateNewCatalog.png "[Create new catalog]")
 
 3. Enter a name for the catalog in the text field in the header.    
 
@@ -52,15 +52,15 @@ The catalog basic data has been created, see [Define the catalog basic data](#de
 #### Procedure
 *PIM > Settings > Tab CATALOGS > Button Create new*
 
-1. Click the ![Add](/Assets/Icons/Plus01.png "[Add]") (Add) button in the bottom right corner.   
+1. Click the ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) button in the bottom right corner.   
   A plus sign is displayed in the category column.
 
-  ![Add category](/Assets/Screenshots/PIM/Settings/Catalogs/AddCategory.png "[Add category]")
+  ![Add category](../../Assets/Screenshots/PIM/Settings/Catalogs/AddCategory.png "[Add category]")
 
 2. Click the plus sign in the category column.    
   The *Add Element* window is displayed in the category column.
 
-  ![Add element](/Assets/Screenshots/PIM/Settings/Catalogs/AddElementTop.png "[Add element]")
+  ![Add element](../../Assets/Screenshots/PIM/Settings/Catalogs/AddElementTop.png "[Add element]")
 
 3. Enter a name for the category of the catalog in the *Name* field.
 
@@ -69,7 +69,7 @@ The catalog basic data has been created, see [Define the catalog basic data](#de
 5. Click the [SAVE] button.   
   The catalog category is created. The *Add Element* window is closed. The new category is displayed in the category column.
 
-  ![Category created](/Assets/Screenshots/PIM/Settings/Catalogs/CategoryCreated.png "[Category created]")
+  ![Category created](../../Assets/Screenshots/PIM/Settings/Catalogs/CategoryCreated.png "[Category created]")
 
   > [Info] To add an additional category, repeat the steps **1** to **5**. To add a sub-category, see [Create a sub-category](#create-a-sub-category).  
 
@@ -93,33 +93,33 @@ At least one catalog with one category is created, see [Create a catalog](#creat
 #### Procedure
 *PIM > Settings > Tab CATALOGS*
 
-![Catalogs](/Assets/Screenshots/PIM/Settings/Catalogs/Catalogs.png "[Catalogs]")
+![Catalogs](../../Assets/Screenshots/PIM/Settings/Catalogs/Catalogs.png "[Catalogs]")
 
 1. Select the catalog you want to create a sub-category to in the drop-down list in the left column.   
   The catalog name is displayed in the drop-down list.
 
-2. Click the ![Points](/Assets/Icons/Points01.png "[Points]") (Points) button to the right of the selected catalog.   
+2. Click the ![Points](../../Assets/Icons/Points01.png "[Points]") (Points) button to the right of the selected catalog.   
   The menu is displayed.
 
-  ![Menu](/Assets/Screenshots/PIM/Settings/Catalogs/Menu.png "[Menu]")
+  ![Menu](../../Assets/Screenshots/PIM/Settings/Catalogs/Menu.png "[Menu]")
 
-3. Click the *![Edit](/Assets/Icons/Edit02.png "[Edit]") Edit* menu entry.   
+3. Click the *![Edit](../../Assets/Icons/Edit02.png "[Edit]") Edit* menu entry.   
   The *Edit catalog* view is displayed.
 
-  ![Edit Catalog](/Assets/Screenshots/PIM/Settings/Catalogs/EditCatalog.png "[Edit Catalog]")
+  ![Edit Catalog](../../Assets/Screenshots/PIM/Settings/Catalogs/EditCatalog.png "[Edit Catalog]")
 
 4. Select the category to which you want to create a sub-category in the category column.
   A sub-category column is displayed to the right of the category column.
 
-5. Click the ![Add](/Assets/Icons/Plus01.png "[Add]") (Add) button in the bottom right corner.   
+5. Click the ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) button in the bottom right corner.   
   A plus sign is displayed in the category column as well as in the sub-category column.
 
-  ![Add sub category](/Assets/Screenshots/PIM/Settings/Catalogs/AddSubCategory.png "[Add sub category]")
+  ![Add sub category](../../Assets/Screenshots/PIM/Settings/Catalogs/AddSubCategory.png "[Add sub category]")
 
 6. Click the plus sign in the sub-category column.    
   The *Add Element* window is displayed in the sub-category column.
 
-  ![Add sub element](/Assets/Screenshots/PIM/Settings/Catalogs/AddSubElement.png "[Add sub element]")
+  ![Add sub element](../../Assets/Screenshots/PIM/Settings/Catalogs/AddSubElement.png "[Add sub element]")
 
 7. Enter a name for the sub-category in the *Name* field.
 
@@ -149,24 +149,24 @@ The order of categories within the catalog is also displayed in the products vie
 #### Procedure
 *PIM > Settings > Tab CATALOGS*
 
-![Catalogs](/Assets/Screenshots/PIM/Settings/Catalogs/Catalogs.png "[Catalogs]")
+![Catalogs](../../Assets/Screenshots/PIM/Settings/Catalogs/Catalogs.png "[Catalogs]")
 
 1. Select the catalog you want to create a sub-category to in the drop-down list in the left column.   
   The catalog name is displayed in the drop-down list.
 
-2. Click the ![Points](/Assets/Icons/Points01.png "[Points]") (Points) button to the right of the selected catalog.   
+2. Click the ![Points](../../Assets/Icons/Points01.png "[Points]") (Points) button to the right of the selected catalog.   
   The menu is displayed.
 
-  ![Menu](/Assets/Screenshots/PIM/Settings/Catalogs/Menu.png "[Menu]")
+  ![Menu](../../Assets/Screenshots/PIM/Settings/Catalogs/Menu.png "[Menu]")
 
-3. Click the *![Edit](/Assets/Icons/Edit02.png "[Edit]") Edit* menu entry.   
+3. Click the *![Edit](../../Assets/Icons/Edit02.png "[Edit]") Edit* menu entry.   
   The *Edit catalog* view is displayed.
 
-  ![Edit Catalog](/Assets/Screenshots/PIM/Settings/Catalogs/EditCatalog.png "[Edit Catalog]")
+  ![Edit Catalog](../../Assets/Screenshots/PIM/Settings/Catalogs/EditCatalog.png "[Edit Catalog]")
 
   > [Info] The procedure to change the order of categories and sub-categories is identical. Just select the sub-category instead of the category and follow the steps described below.
 
-4. Click and hold the ![Sort](/Assets/Icons/Sort01.png "[Sort]") (Sort) button to the left of the category you want to move to another position in the list.
+4. Click and hold the ![Sort](../../Assets/Icons/Sort01.png "[Sort]") (Sort) button to the left of the category you want to move to another position in the list.
 
 3. By using drag and drop, move the selected category to the desired position in the list.
 
@@ -187,31 +187,31 @@ Delete a category that is no longer needed. If you delete a category containing 
 #### Procedure
 *PIM > Settings > Tab CATALOGS*
 
-![Catalogs](/Assets/Screenshots/PIM/Settings/Catalogs/Catalogs.png "[Catalogs]")
+![Catalogs](../../Assets/Screenshots/PIM/Settings/Catalogs/Catalogs.png "[Catalogs]")
 
 1. Select the catalog you want to delete a category from in the drop-down list in the left column.   
   The catalog name is displayed in the drop-down list.
 
-2. Click the ![Points](/Assets/Icons/Points01.png "[Points]") (Points) button to the right of the selected catalog.   
+2. Click the ![Points](../../Assets/Icons/Points01.png "[Points]") (Points) button to the right of the selected catalog.   
   The menu is displayed.
 
-  ![Menu](/Assets/Screenshots/PIM/Settings/Catalogs/Menu.png "[Menu]")
+  ![Menu](../../Assets/Screenshots/PIM/Settings/Catalogs/Menu.png "[Menu]")
 
-3. Click the *![Edit](/Assets/Icons/Edit02.png "[Edit]") Edit* menu entry.   
+3. Click the *![Edit](../../Assets/Icons/Edit02.png "[Edit]") Edit* menu entry.   
   The *Edit catalog* view is displayed.
 
-  ![Edit Catalog](/Assets/Screenshots/PIM/Settings/Catalogs/EditCatalog.png "[Edit Catalog]")
+  ![Edit Catalog](../../Assets/Screenshots/PIM/Settings/Catalogs/EditCatalog.png "[Edit Catalog]")
 
   > [Info] The procedure to delete categories and sub-categories is identical. Just select the sub-category instead of the category and follow the steps described below.
 
-4. Click the ![Edit](/Assets/Icons/Edit03.png "[Edit]") (Edit) button to the right of the category you want to delete.   
+4. Click the ![Edit](../../Assets/Icons/Edit03.png "[Edit]") (Edit) button to the right of the category you want to delete.   
   The category data is displayed in a window in the category column.
 
-  ![Category data](/Assets/Screenshots/PIM/Settings/Catalogs/EditCategoryData.png "[Category data]")
+  ![Category data](../../Assets/Screenshots/PIM/Settings/Catalogs/EditCategoryData.png "[Category data]")
 
-  > [Info] The ![Edit](/Assets/Icons/Edit03.png "[Edit]") (Edit) button is only displayed if you hover over the respective category.
+  > [Info] The ![Edit](../../Assets/Icons/Edit03.png "[Edit]") (Edit) button is only displayed if you hover over the respective category.
 
-5. Click the ![Delete](/Assets/Icons/Trash01.png "[Delete]") (Delete) button in the bottom left corner of the category data window.    
+5. Click the ![Delete](../../Assets/Icons/Trash01.png "[Delete]") (Delete) button in the bottom left corner of the category data window.    
   The selected category is removed from the category column. The category data window is closed.
 
   > [Warning] Make sure that no product is assigned to the category that will be deleted as problems may occur to products that are still assigned to a deleted category.
@@ -231,22 +231,22 @@ Delete a category that is no longer needed. If you delete a category containing 
 #### Procedure
 *PIM > Products > Tab LIST*
 
-![Product list catalog](/Assets/Screenshots/PIM/Products/List/ProductsWithCatalog.png "[Product list catalog]")
+![Product list catalog](../../Assets/Screenshots/PIM/Products/List/ProductsWithCatalog.png "[Product list catalog]")
 
 1. Click the product you want to assign to a catalog category in the list of products.   
   The *Edit Product* view is displayed. The *Attributes* tab is preselected.
 
-  ![Attributes Iphone](/Assets/Screenshots/PIM/Products/List/Attributes/AttributesEditIphone.png "[Attributes Iphone]")
+  ![Attributes Iphone](../../Assets/Screenshots/PIM/Products/List/Attributes/AttributesEditIphone.png "[Attributes Iphone]")
 
 2. Select the *Catalogs* tab.   
   The *Catalogs* tab is displayed
 
-  ![Catalogs Iphone](/Assets/Screenshots/PIM/Products/List/Catalogs/CatalogsEditIphone.png "[Catalogs Iphone]")
+  ![Catalogs Iphone](../../Assets/Screenshots/PIM/Products/List/Catalogs/CatalogsEditIphone.png "[Catalogs Iphone]")
 
 3. Click the [EDIT ATTRIBUTE] button in the section of the catalog to which you want to assign the selected product.   
   A window with all categories and sub-categories of the selected catalog is displayed.
 
-  ![Categories](/Assets/Screenshots/PIM/Products/List/Catalogs/Categories.png "[Categories]")
+  ![Categories](../../Assets/Screenshots/PIM/Products/List/Catalogs/Categories.png "[Categories]")
 
 4. Select the checkbox of the category or sub-category you want to assign the product to.    
 
@@ -255,7 +255,7 @@ Delete a category that is no longer needed. If you delete a category containing 
 5. Click the [SAVE] button in the bottom right corner of the window.    
   The window is closed. The selected category is displayed in the section of the catalog.
 
-  ![Assigned categories Iphone](/Assets/Screenshots/PIM/Products/List/Catalogs/AssignedCategoriesIphone.png "[Assigned categories Iphone]")
+  ![Assigned categories Iphone](../../Assets/Screenshots/PIM/Products/List/Catalogs/AssignedCategoriesIphone.png "[Assigned categories Iphone]")
 
 6. Click the [SAVE] button in the upper right corner.  
   The product is assigned to the selected category. The *Edit Product* view is closed. The list of products is displayed again.
@@ -263,4 +263,4 @@ Delete a category that is no longer needed. If you delete a category containing 
 6. Select the appropriate catalog and the assigned category in the left side bar.
   The list of products displays only those products that are assigned to the selected category.
 
-  ![Select category](/Assets/Screenshots/PIM/Products/List/SelectCategory.png "[Select category]")
+  ![Select category](../../Assets/Screenshots/PIM/Products/List/SelectCategory.png "[Select category]")

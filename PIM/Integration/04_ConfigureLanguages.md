@@ -1,6 +1,6 @@
 [!!DataHub](DataHub)
-[!!User Interface PIM](/PIM/UserInterface/00_UserInterface.md)
-[!!Create a language](/DataHub/Integration/05_ManageLanguages.md#create-a-language)
+[!!User Interface PIM](../UserInterface/00_UserInterface.md)
+[!!Create a language](../../DataHub/Integration/05_ManageLanguages.md#create-a-language)
 
 
 # Configure the language settings
@@ -11,12 +11,12 @@ If you want to maintain PIM products in multiple languages, you have to activate
 
 No Prerequisites to fulfill.
 
-> [Info] By default, the languages *English (United States)* and the *Deutsch (Deutschland)* are created and activated in the *DataHub* module, see [Create a language](/DataHub/Integration/05_ManageLanguages.md#create-a-language).
+> [Info] By default, the languages *English (United States)* and the *Deutsch (Deutschland)* are created and activated in the *DataHub* module, see [Create a language](../../DataHub/Integration/05_ManageLanguages.md#create-a-language).
 
 #### Procedure
 *PIM > Settings > Tab LANGUAGES*
 
-![Languages](/Assets/Screenshots/PIM/Settings/Languages/Languages.png "[Languages]")
+![Languages](../../Assets/Screenshots/PIM/Settings/Languages/Languages.png "[Languages]")
 
 1. Enable the *Active* toggle in the row of the language you want to switch active in the *PIM* module.
 

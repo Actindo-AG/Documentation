@@ -1,7 +1,7 @@
 # Dashboard
 *PIM > Overview > Tab DASHBOARD*
 
-![Dashboard](/Assets/Screenshots/PIM/Overview/Dashboard.png "[Dashboard]")
+![Dashboard](../../Assets/Screenshots/PIM/Overview/Dashboard.png "[Dashboard]")
 
 ## Completeness by product
 
@@ -30,7 +30,7 @@ In each box the degree of completeness in percent is displayed related to:
 
 The box displays a list of recent changes on the products.
 
-- ![Refresh](/Assets/Icons/Refresh01.png "[Refresh]") (Refresh)    
+- ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh)    
   Click this button to update the list of recent changes.
 
 The fields in the following columns are display fields only. They cannot be changed.

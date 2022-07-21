@@ -1,5 +1,5 @@
-[!!User Interface PIM](/PIM/UserInterface/00_UserInterface.md)
-[!!Data type list](/PIM/UserInterface/04_DataTypeList.md)
+[!!User Interface PIM](../UserInterface/00_UserInterface.md)
+[!!Data type list](../UserInterface/04_DataTypeList.md)
 
 
 # Edit a limited number of decimal places
@@ -18,14 +18,14 @@ No prerequisites to fulfill.
 #### Procedure
 *PIM > Settings > Tab ATTRIBUTES*
 
-![Attributes](/Assets/Screenshots/PIM/Settings/Attributes/Attributes.png "[Attributes]")
+![Attributes](../../Assets/Screenshots/PIM/Settings/Attributes/Attributes.png "[Attributes]")
 
 1. Search for the respective attribute in the attribute list.
 
 2. Click the respective attribute in the attribute list.   
   The *Edit Attribute* view is displayed.
 
-  ![Edit attribute](/Assets/Screenshots/PIM/Settings/Attributes/EditAttribute_Precision.png "[Edit attribute]")
+  ![Edit attribute](../../Assets/Screenshots/PIM/Settings/Attributes/EditAttribute_Precision.png "[Edit attribute]")
 
 3. In the *CONFIGURATION* section, check the number in the *Precision* field.
 
@@ -41,7 +41,7 @@ No prerequisites to fulfill.
 7. Switch to the *LIST* tab: *PIM > Products > Tab LIST* .   
   The products list is displayed.
 
-  ![Products](/Assets/Screenshots/PIM/Products/List/Products.png "[Products]")
+  ![Products](../../Assets/Screenshots/PIM/Products/List/Products.png "[Products]")
 
 8. Click the respective product in the list of products, select the *Attributes* tab in the *Edit Product* view and retry to edit the floating point number in the corresponding attribute field as desired.
 

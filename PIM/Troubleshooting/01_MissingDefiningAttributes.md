@@ -1,5 +1,5 @@
-[!!User Interface PIM](/PIM/UserInterface/00_UserInterface.md)
-[!!Data type list](/PIM/UserInterface/04_DataTypeList.md)
+[!!User Interface PIM](../UserInterface/00_UserInterface.md)
+[!!Data type list](../UserInterface/04_DataTypeList.md)
 
 
 # Add a missing defining attribute
@@ -16,14 +16,14 @@ No prerequisites to fulfill.
 #### Procedure
 *PIM > Settings > Tab ATTRIBUTES*
 
-![Attributes](/Assets/Screenshots/PIM/Settings/Attributes/Attributes.png "[Attributes]")
+![Attributes](../../Assets/Screenshots/PIM/Settings/Attributes/Attributes.png "[Attributes]")
 
 1. Search for the respective attribute in the attribute list.
 
 2. Click the respective attribute in the attribute list.   
   The *Edit Attribute* view is displayed.
 
-  ![Edit attribute](/Assets/Screenshots/PIM/Settings/Attributes/EditAttribute_Data.png "[Edit attribute]")
+  ![Edit attribute](../../Assets/Screenshots/PIM/Settings/Attributes/EditAttribute_Data.png "[Edit attribute]")
 
 3. Check the following attribute settings:
   - *Multi-language*      
@@ -31,7 +31,7 @@ No prerequisites to fulfill.
   - *Multi-channel*      
     Check if the toggle is disabled. Only single channel attributes can be used as defining attributes for a variant set.
 
-    > [Info] If the respective attribute is multi-language or multi-channel, it cannot be used as defining attribute. [Create a new attribute](/PIM/Integration/01_ManageAttributes.md#create-an-attribute) which is not multi-language nor multi-channel to use it as a defining attribute.    
+    > [Info] If the respective attribute is multi-language or multi-channel, it cannot be used as defining attribute. [Create a new attribute](../Integration/01_ManageAttributes.md#create-an-attribute) which is not multi-language nor multi-channel to use it as a defining attribute.    
 
 4. Check if the *Active* toggle is enabled. Only active attributes are displayed in the list of defining attributes for a variant set. If the toggle is disabled, enable the toggle by clicking it.
 
@@ -43,23 +43,23 @@ No prerequisites to fulfill.
 7. Switch to the *VARIANT SETS* tab: *PIM > Settings > Tab VARIANT SETS* .      
   The variant sets list is displayed.
 
-  ![Variant sets](/Assets/Screenshots/PIM/Settings/VariantSets/VariantSets.png "[Variant sets]")
+  ![Variant sets](../../Assets/Screenshots/PIM/Settings/VariantSets/VariantSets.png "[Variant sets]")
 
-8. Create a new variant set or select the variant set to which you want to add the defining attribute. For detailed information, see [Create a variant set](/PIM/Integration/07_ManageVariantSets.md#create-a-variant-set) or [Edit a variant set](/PIM/Integration/07_ManageVariantSets.md#edit-a-variant-set).
+8. Create a new variant set or select the variant set to which you want to add the defining attribute. For detailed information, see [Create a variant set](../Integration/07_ManageVariantSets.md#create-a-variant-set) or [Edit a variant set](../Integration/07_ManageVariantSets.md#edit-a-variant-set).
 
-  ![Formulas](/Assets/Screenshots/PIM/Settings/VariantSets/Formulas.png "[Formulas]")
+  ![Formulas](../../Assets/Screenshots/PIM/Settings/VariantSets/Formulas.png "[Formulas]")
 
-9. In the *Defining attributes* box, click the ![Add](/Assets/Icons/Plus01.png "[Add]") (Add) button.   
+9. In the *Defining attributes* box, click the ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) button.   
   The *Add defining attributes* view is displayed.
 
-  ![Add defining attributes](/Assets/Screenshots/PIM/Settings/VariantSets/AddDefiningAttributes.png "[Add defining attributes]")
+  ![Add defining attributes](../../Assets/Screenshots/PIM/Settings/VariantSets/AddDefiningAttributes.png "[Add defining attributes]")
 
 10. Check if the respective attribute is displayed in the list.
 
-  > [Info] You may click the ![Refresh](/Assets/Icons/Refresh01.png "[Refresh]") (Refresh) button to update the list of defining attributes.    
+  > [Info] You may click the ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh) button to update the list of defining attributes.    
   If the attribute is still not displayed, please contact the Customer Support.    
 
-11. Add the attribute to the variant set as described in [Add defining attributes](/PIM/Integration/07_ManageVariantSets.md#add-defining-attributes).
+11. Add the attribute to the variant set as described in [Add defining attributes](../Integration/07_ManageVariantSets.md#add-defining-attributes).
 
 
 

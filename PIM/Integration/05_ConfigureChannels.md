@@ -1,6 +1,6 @@
 [!!DataHub](DataHub)
-[!!User Interface PIM](/PIM/UserInterface/00_UserInterface.md)
-[!!Create a channel](/DataHub/Integration/04_ManageChannels.md#create-a-channel)
+[!!User Interface PIM](../UserInterface/00_UserInterface.md)
+[!!Create a channel](../../DataHub/Integration/04_ManageChannels.md#create-a-channel)
 
 
 # Configure the channel settings
@@ -13,12 +13,12 @@ If you want to maintain PIM products in multiple channels, you have to activate 
 
 No Prerequisites to fulfill.
 
-> [Info] By default, the *Actindo Basic* channel is created and activated in the *DataHub* module, see [Create a channel](/DataHub/Integration/04_ManageChannels.md#create-a-channel).
+> [Info] By default, the *Actindo Basic* channel is created and activated in the *DataHub* module, see [Create a channel](../../DataHub/Integration/04_ManageChannels.md#create-a-channel).
 
 #### Procedure
 *PIM > Settings > Tab CHANNELS*
 
-![Channels](/Assets/Screenshots/PIM/Settings/Channels/Channels.png "[Channels]")
+![Channels](../../Assets/Screenshots/PIM/Settings/Channels/Channels.png "[Channels]")
 
 1. Enable the *Active* toggle in the row of the channel you want to switch active in the *PIM* module.
 
