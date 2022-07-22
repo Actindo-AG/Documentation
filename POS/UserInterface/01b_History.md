@@ -1,20 +1,20 @@
 # History
 *Venduo POS > Sales > Tab HISTORY*
 
-![History](/Assets/Screenshots/POS/Sales/History/History.png "[History]")
+![History](../../Assets/Screenshots/POS/Sales/History/History.png "[History]")
 
 **List of sales**
 
 The table displays the history of sales. Depending on the settings, the displayed columns may vary.
 
-- ![Search](/Assets/Icons/Search.png "[Search]") (Search)   
+- ![Search](../../Assets/Icons/Search.png "[Search]") (Search)   
   Click this button to display the search bar and search for a sale.
   [comment]: <> (Is the search working? For what can I search?)
 
-- ![Refresh](/Assets/Icons/Refresh01.png "[Refresh]") (Refresh)   
+- ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh)   
   Click this button to update the list of sales.
 
-- ![Columns](/Assets/Icons/Columns.png "[Columns]") Columns (x)   
+- ![Columns](../../Assets/Icons/Columns.png "[Columns]") Columns (x)   
   Click this button to display the column editing bar and customize the displayed columns and the order of columns in the table. The *x* indicates the number of columns that are currently displayed in the table.
 
 - *Bill Number*   
@@ -34,13 +34,13 @@ The table displays the history of sales. Depending on the settings, the displaye
 
 - *Status*   
   Sales status. The following statuses are available:
-    - ![turquoise](/Assets/Icons/Status03.png "[turquoise]") (turquoise): progress
-    - ![blue](/Assets/Icons/Status01.png "[blue]") (blue): finalized
-    - ![red](/Assets/Icons/Status02.png "[red]") (red): cancelled
+    - ![turquoise](../../Assets/Icons/Status03.png "[turquoise]") (turquoise): progress
+    - ![blue](../../Assets/Icons/Status01.png "[blue]") (blue): finalized
+    - ![red](../../Assets/Icons/Status02.png "[red]") (red): cancelled
 
 
 - *Receivable*   
-  Click the button [ ![Printer](/Assets/Icons/Printer.png "[Printer]") Print receipt] to print the sales receipt. The button is only displayed when the sale is finalized. When no receipt is available, a dash (*-*) is displayed.
+  Click the button [ ![Printer](../../Assets/Icons/Printer.png "[Printer]") Print receipt] to print the sales receipt. The button is only displayed when the sale is finalized. When no receipt is available, a dash (*-*) is displayed.
 
   > [Info] The printer must be configured to print the sales receipt.
 

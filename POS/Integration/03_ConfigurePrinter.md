@@ -1,5 +1,5 @@
 [!!Printing](Printing)
-[!!User Interface Printing](/Printing/UserInterface/00_UserInterface.md)
+[!!User Interface Printing](../../Printing/UserInterface/00_UserInterface.md)
 [comment]: <> (add link to Install the APS)
 
 
@@ -19,17 +19,17 @@ The current APS is installed and has been started including a successful login.
 
 *Printing > Settings > Tab ASSIGN PRINTERS*
 
-  ![Printing Settings](/Assets/Screenshots/Printing/Settings/AssignPrinters.png "[Printing Settings]")
+  ![Printing Settings](../../Assets/Screenshots/Printing/Settings/AssignPrinters.png "[Printing Settings]")
 
 1. Click the *Global (for all groups)* printer in the list of printers.   
   The *Settings for group Global* view is displayed.
 
-  ![Settings Group](/Assets/Screenshots/Printing/Settings/SettingsGroup.png "[Settings Group]")
+  ![Settings Group](../../Assets/Screenshots/Printing/Settings/SettingsGroup.png "[Settings Group]")
 
-2. Click the ![Add](/Assets/Icons/Plus01.png "[Add]") (Add) button in the bottom right corner.   
+2. Click the ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) button in the bottom right corner.   
   The *Print Settings* window is displayed.
 
-  ![Add Print Settings](/Assets/Screenshots/Printing/Settings/PrintSettings.png "[Add Print Settings]")
+  ![Add Print Settings](../../Assets/Screenshots/Printing/Settings/PrintSettings.png "[Add Print Settings]")
 
 3. Click the *Client* drop-down list and select the appropriate client.
 

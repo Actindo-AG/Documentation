@@ -1,5 +1,5 @@
-[!!User Interface Cashpoint](/POS/UserInterface/01a_Cashpoint.md)
-[!!Manage offers for POS](/POS/Integration/07_ManageOffers.md)
+[!!User Interface Cashpoint](../UserInterface/01a_Cashpoint.md)
+[!!Manage offers for POS](../Integration/07_ManageOffers.md)
 
 
 # Select an offer
@@ -18,14 +18,14 @@ The QuickSelect option offers you the possibility to select an offer by clicking
 
 #### Prerequisites
 
-- Offers for POS are created, see [Manage offers for POS](/POS/Integration/07_ManageOffers.md).
-- A QuickSelect Category for POS is created, see [Create a QuickSelect Category](/POS/Integration/07_ManageOffers.md#create-a-quickselect-category).
+- Offers for POS are created, see [Manage offers for POS](../Integration/07_ManageOffers.md).
+- A QuickSelect Category for POS is created, see [Create a QuickSelect Category](../Integration/07_ManageOffers.md#create-a-quickselect-category).
 
 #### Procedure
 
 *Venduo POS > Sales > Select store and pay desk > Tab CASHPOINT*
 
-![Cashpoint](/Assets/Screenshots/POS/Sales/Cashpoint/Cashpoint.png "[Cashpoint]")
+![Cashpoint](../../Assets/Screenshots/POS/Sales/Cashpoint/Cashpoint.png "[Cashpoint]")
 
 1. Select the desired category by clicking the corresponding tab below the search bar.  
   All offers assigned to the selected category are displayed.
@@ -41,13 +41,13 @@ You may select an offer or search for it by entering its name in the search bar.
 
 #### Prerequisites
 
-Offers for POS are created, see [Manage offers for POS](/POS/Integration/07_ManageOffers.md).
+Offers for POS are created, see [Manage offers for POS](../Integration/07_ManageOffers.md).
 
 #### Procedure
 
 *Venduo POS > Sales > Select store and pay desk > Tab CASHPOINT*
 
-![Cashpoint](/Assets/Screenshots/POS/Sales/Cashpoint/Cashpoint.png "[Cashpoint]")
+![Cashpoint](../../Assets/Screenshots/POS/Sales/Cashpoint/Cashpoint.png "[Cashpoint]")
 
 1. Click the *Find offer by nam...* search bar in the upper left part of the tab.  
   The cursor is displayed in the search bar.
@@ -71,13 +71,13 @@ You may select an offer or search for it by entering its offer number in the sea
 
 #### Prerequisites
 
-Offers for POS are created, see [Manage offers for POS](/POS/Integration/07_ManageOffers.md).
+Offers for POS are created, see [Manage offers for POS](../Integration/07_ManageOffers.md).
 
 #### Procedure
 
 *Venduo POS > Sales > Select store and pay desk > Tab CASHPOINT*
 
-![Cashpoint](/Assets/Screenshots/POS/Sales/Cashpoint/Cashpoint.png "[Cashpoint]")
+![Cashpoint](../../Assets/Screenshots/POS/Sales/Cashpoint/Cashpoint.png "[Cashpoint]")
 
 1. Click the *Find offer by nam...* search bar in the upper left part of the tab.  
   The cursor is displayed in the search bar.
@@ -101,18 +101,18 @@ If the same offer is selected more than once, it is displayed in the bill list a
 
 #### Prerequisites
 
-Offers for POS are created, see [Manage offers for POS](/POS/Integration/07_ManageOffers.md).
+Offers for POS are created, see [Manage offers for POS](../Integration/07_ManageOffers.md).
 
 #### Procedure
 
 *Venduo POS > Sales > Select store and pay desk > Tab CASHPOINT*
 
-![Cashpoint](/Assets/Screenshots/POS/Sales/Cashpoint/Cashpoint.png "[Cashpoint]")
+![Cashpoint](../../Assets/Screenshots/POS/Sales/Cashpoint/Cashpoint.png "[Cashpoint]")
 
 1. Activate the *Single scan* toggle in the bill list on the right side of the pay desk interface.   
 
 > [Info] The single scan works from the moment it is toggled on. It does not apply backwards to products that were already on the bill list at the time of activation.   
-Even if the single scan function is active, you can edit the quantity of products manually in the bill list, see [Edit the quantity of a product](03_EditBillList.md#edit-the-quantity-of-a-product).
+Even if the single scan function is active, you can edit the quantity of products manually in the bill list, see [Edit the quantity of a product](./03_EditBillList.md#edit-the-quantity-of-a-product).
 
 2. Select an offer.   
   The product is listed in the bill list.
