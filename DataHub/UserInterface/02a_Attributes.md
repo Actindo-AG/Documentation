@@ -164,7 +164,7 @@ For detailed information about the different configurations of data types, see [
 - [SAVE]   
   Click this button to save the attribute, close the *Edit attribute* view and return to the attributes list.
 
-### Edit attribute - Data
+### Edit attribute &ndash; Data
 
 *DataHub > Settings > Tab ATTRIBUTES > Select attribute > Tab Data*
 
@@ -198,7 +198,7 @@ For detailed information about the different configurations of data types, see [
 
 
 
-### Edit attribute - Attribute set assignments
+### Edit attribute &ndash; Attribute set assignments
 
 *DataHub > Settings > Tab ATTRIBUTES > Select attribute > Tab Attribute set assignments*
 

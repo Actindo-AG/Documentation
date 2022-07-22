@@ -4,8 +4,8 @@
 
 
 - [DASHBOARDS](./01a_Dashboards.md)
-  - [Add a new tab - Create new tab](./01a_Dashboards.md#add-a-new-tab-create-new-tab)
-  - [Add a new tab - Import existing tab](./01a_Dashboards.md#add-a-new-tab-import-existing-tab)
+  - [Add a new tab &ndash; Create new tab](./01a_Dashboards.md#add-a-new-tab--create-new-tab)
+  - [Add a new tab &ndash; Import existing tab](./01a_Dashboards.md#add-a-new-tab--import-existing-tab)
   - [Confirm tab deletion](./01a_Dashboards.md#confirm-tab-deletion)
   - [Tab](./01a_Dashboards.md#tab)
     - [Edit tab](./01a_Dashboards.md#edit-tab)
@@ -18,8 +18,8 @@
 - [ATTRIBUTES](./02a_Attributes.md)
   - [Create attribute](./02a_Attributes.md#create-attribute)
   - [Edit attribute](./02a_Attributes.md#edit-attribute)
-    - [Edit attribute - Data](./02a_Attributes.md#edit-attributedata)
-    - [Edit attribute - Attribute set assignments](./02a_Attributes.md#edit-attributeattribute-set-assignments)
+    - [Edit attribute &ndash; Data](./02a_Attributes.md#edit-attribute--data)
+    - [Edit attribute &ndash; Attribute set assignments](./02a_Attributes.md#edit-attribute--attribute-set-assignments)
 
 
 - [ATTRIBUTE SETS](./02b_AttributeSets.md)
