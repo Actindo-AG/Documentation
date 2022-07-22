@@ -14,7 +14,7 @@ In the *DASHBOARDS* tab, the custom tabs with composable dashlets are displayed.
   Click this button to delete the selected tab. The *Confirm Tab Deletion* window is displayed. This button is only displayed next to a created tab.
 
 
-## Add a new tab - Create new tab
+## Add a new tab &ndash; Create new tab
 
 ![Add a new tab](../../Assets/Screenshots/ActindoWorkFlow/Overview/AddNewTab.png "[Add a new tab]")
 
@@ -28,7 +28,7 @@ In the *DASHBOARDS* tab, the custom tabs with composable dashlets are displayed.
   Click this button to save the tab with the entered name and close the *Add a new Tab* window. The new tab is created.
 
 
-## Add a new tab - Import existing tab
+## Add a new tab &ndash; Import existing tab
 
 ![Import existing tab](../../Assets/Screenshots/ActindoWorkFlow/Overview/ImportExistingTab.png "[Import existing tab]")
 

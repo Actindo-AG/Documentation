@@ -2,8 +2,8 @@
 
 - [Overview](./01_Overview.md)
   - [DASHBOARDS](./01a_Overview.md)
-    - [Add a new tab - Create new tab](./01a_Overview.md#add-a-new-tabcreate-new-tab)
-    - [Add a new tab - Import existing tab](./01a_Overview.md#add-a-new-tabimport-existing-tab)
+    - [Add a new tab &ndash; Create new tab](./01a_Overview.md#add-a-new-tab--create-new-tab)
+    - [Add a new tab &ndash; Import existing tab](./01a_Overview.md#add-a-new-tab--import-existing-tab)
     - [Confirm tab deletion](./01a_Overview.md#confirm-tab-deletion)
     - [Tab](./01a_Overview.md#tab)
       - [Edit tab](./01a_Overview.md#edit-tab)
