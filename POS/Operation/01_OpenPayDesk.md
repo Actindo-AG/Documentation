@@ -1,6 +1,6 @@
-[!!User Interface Sales](/POS/UserInterface/01_Sales.md)
-[!!Create a pay desk](/POS/Integration/06_CreateStore.md#create-a-pay-desk)
-[!!Close a pay desk](05_ManageCashRegister.md#close-a-pay-desk)
+[!!User Interface Sales](../UserInterface/01_Sales.md)
+[!!Create a pay desk](../Integration/06_CreateStore.md#create-a-pay-desk)
+[!!Close a pay desk](./05_ManageCashRegister.md#close-a-pay-desk)
 
 
 # Open a pay desk
@@ -10,19 +10,19 @@ For instance, in the pay desk you can select offers, make payments, give discoun
 To perform any operation on the pay desk, you must first open one.
 
 #### Prerequisites
-- A store including a pay desk is created, see [Create a store in POS](/POS/Integration/06_CreateStore.md).
-- The user logged in must be assigned to a POS group, see [Assign users to the POS groups](/POS/Integration/04_AssignUsers.md).
+- A store including a pay desk is created, see [Create a store in POS](../Integration/06_CreateStore.md).
+- The user logged in must be assigned to a POS group, see [Assign users to the POS groups](../Integration/04_AssignUsers.md).
 - Depending on the assigned POS group, the user must fulfill the following requirements:
     - A POS admin has not to fulfill further requirements.
-    - A store manager has to be assigned to the corresponding store, see [Configure the store details](/POS/Integration/06_CreateStore.md#configure-the-store-details).
-    - A cashier has to be assigned to the pay desk, see [Configure the pay desk details](/POS/Integration/06_CreateStore.md#configure-the-pay-desk-details).
-- The pay desk is not in use, see [Remove an inactive cashier from the pay desk](/POS/Troubleshooting/03_RemoveInactiveCashier.md).
+    - A store manager has to be assigned to the corresponding store, see [Configure the store details](../Integration/06_CreateStore.md#configure-the-store-details).
+    - A cashier has to be assigned to the pay desk, see [Configure the pay desk details](../Integration/06_CreateStore.md#configure-the-pay-desk-details).
+- The pay desk is not in use, see [Remove an inactive cashier from the pay desk](../Troubleshooting/03_RemoveInactiveCashier.md).
 
 #### Procedure
 
 *Venduo POS > Sales*
 
-![POS Sales Select](/Assets/Screenshots/POS/Sales/Select.png "[POS Sales Select]")
+![POS Sales Select](../../Assets/Screenshots/POS/Sales/Select.png "[POS Sales Select]")
 
 1. Select a store in the *Select store* drop-down list.
 
@@ -31,7 +31,7 @@ To perform any operation on the pay desk, you must first open one.
 3. Click the [Use] button in the bottom right corner.   
   A window to select the opening float is diplayed.
 
-![Opening Float](/Assets/Screenshots/POS/Sales/OpeningFloat.png "[Opening Float]")
+![Opening Float](../../Assets/Screenshots/POS/Sales/OpeningFloat.png "[Opening Float]")
 
 4. Enter the opening float in the *Opening float* field.
 

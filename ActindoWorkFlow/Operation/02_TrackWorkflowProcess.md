@@ -1,15 +1,15 @@
-[!!User Interface workflows](/ActindoWorkFlow/UserInterface/02a_Workflows.md)
-[!!User Interface processes](/ActindoWorkFlow/UserInterface/03a_Processes.md)
-[!!User Interface process actions](/ActindoWorkFlow/UserInterface/04a_ProcessActions.md)
-[!!Retry a process action](/ActindoWorkFlow/Troubleshooting/01_RetryProcessAction.md)
-[!!Workflow and process elements](/ActindoWorkFlow/Overview/02_WorkflowProcessElements.md)
+[!!User Interface workflows](../UserInterface/02a_Workflows.md)
+[!!User Interface processes](../UserInterface/03a_Processes.md)
+[!!User Interface process actions](../UserInterface/04a_ProcessActions.md)
+[!!Retry a process action](../Troubleshooting/01_RetryProcessAction.md)
+[!!Workflow and process elements](../Overview/02_WorkflowProcessElements.md)
 
 
 # Track the workflow process
 
 A process is an instance of a workflow. When an operation is performed, a data entity is generated, for example an invoice, which in turn initiates a workflow process. Therefore, for every single operation performed, an individual instance of the corresponding workflow, that is, a process, is initiated.
 
-A process has a start and an end place, as well as different stages (places and actions) which the initial data goes through in order to be processed. For a detailed description of the workflow elements, see [Workflow and process elements](/ActindoWorkFlow/Overview/02_WorkflowProcessElements.md).
+A process has a start and an end place, as well as different stages (places and actions) which the initial data goes through in order to be processed. For a detailed description of the workflow elements, see [Workflow and process elements](../Overview/02_WorkflowProcessElements.md).
 
 The workflow process can be tracked to check the status of a whole process or of individual actions, as well as the status and the content of a token.
 
@@ -23,14 +23,14 @@ The *OVERVIEW* tab in the *Processes* menu entry displays a list of all processe
 
 #### Prerequisites
 
-- A workflow is created, see [Create a workflow](01_ManageWorkflows.md#create-a-workflow).
+- A workflow is created, see [Create a workflow](./01_ManageWorkflows.md#create-a-workflow).
 - A workflow process has been initiated.
 
 #### Procedure
 
 *Workflows > Processes > Tab OVERVIEW*
 
-![Processes](/Assets/Screenshots/ActindoWorkFlow/Workflows/Processes.png "[Processes]")
+![Processes](../../Assets/Screenshots/ActindoWorkFlow/Workflows/Processes.png "[Processes]")
 
 1. Click the *Status* drop-down list and select the **All** option.  
 All processes, regardless of their status, are displayed.
@@ -56,14 +56,14 @@ Further details about the process actions included in the diagram as well as abo
 
 #### Prerequisites
 
-- A workflow is created, see [Create a workflow](01_ManageWorkflows.md#create-a-workflow).
+- A workflow is created, see [Create a workflow](./01_ManageWorkflows.md#create-a-workflow).
 - A workflow process has been initiated.
 
 #### Procedure
 
 *Workflows > Processes > Tab OVERVIEW > Select process*
 
-![Process actions](/Assets/Screenshots/ActindoWorkFlow/Workflows/ProcessActions.png "[Process actions]")
+![Process actions](../../Assets/Screenshots/ActindoWorkFlow/Workflows/ProcessActions.png "[Process actions]")
 
 1. Click the *Actions* tab at the bottom of the *Process ID* view.   
   The *Actions* tab is displayed.
@@ -99,7 +99,7 @@ The selected action is displayed in the *Actions* tab.
 
 8. Check the assigned queue type in the *Queue type* column.
 
-  > [Info] The queue type is assigned to an action when editing a workflow, see [Edit an action](01_ManageWorkflows.md#edit-an-action).
+  > [Info] The queue type is assigned to an action when editing a workflow, see [Edit an action](./01_ManageWorkflows.md#edit-an-action).
 
 9.  Check when the action will be executed next time in the *Defer until* column.
 
@@ -117,14 +117,14 @@ A process is started with a single token at the start place, which will be input
 
 ### Prerequisites
 
-- A workflow is created, see [Create a workflow](01_ManageWorkflows.md#create-a-workflow).
+- A workflow is created, see [Create a workflow](./01_ManageWorkflows.md#create-a-workflow).
 - A workflow process has been initiated.
 
 ### Procedure
 
 *Workflows > Processes > Tab OVERVIEW > Select process*
 
-![Workflow](/Assets/Screenshots/ActindoWorkFlow/Workflows/Tokens.png "[Workflow]")
+![Workflow](../../Assets/Screenshots/ActindoWorkFlow/Workflows/Tokens.png "[Workflow]")
 
 1. Click the *Tokens* tab.  
 The *Tokens* tab with a list of all tokens within the selected process is displayed.

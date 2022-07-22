@@ -1,15 +1,15 @@
 [!!Invoicing](RetailSuiteFaktBase)
 [!!DataHub](DataHub)
-[!!User Interface Venduo POS](/POS/UserInterface/00_UserInterface.md)
-[!!User Interface Invoicing](/Invoicing/UserInterface/00_UserInterface.md)
-[!!User Interface DataHub](/DataHub/UserInterface/00_UserInterface.md)
+[!!User Interface Venduo POS](../UserInterface/00_UserInterface.md)
+[!!User Interface Invoicing](../../Invoicing/UserInterface/00_UserInterface.md)
+[!!User Interface DataHub](../../DataHub/UserInterface/00_UserInterface.md)
 
 
 # Configure the global settings for POS
 
 Venduo POS provides many settings to  configure the POS system individually.
 
-For detailed information about the specific settings, see [Global Settings](/POS/UserInterface/02a_GlobalSettings.md).
+For detailed information about the specific settings, see [Global Settings](../UserInterface/02a_GlobalSettings.md).
 
 Before creating a new store in the POS system, you should configure the following settings:
 
@@ -30,7 +30,7 @@ No prerequisites to fulfill.
 
 *Venduo POS > Management > Tab GLOBAL SETTINGS > Entry Default customer*
 
-  ![Default customer](/Assets/Screenshots/POS/Management/GlobalSettings/GS27.png "[Default customer]")
+  ![Default customer](../../Assets/Screenshots/POS/Management/GlobalSettings/GS27.png "[Default customer]")
 
 1. Select the *Default customer* entry in the list of settings in the left column.
 
@@ -43,7 +43,7 @@ No prerequisites to fulfill.
 3. Click the [Save] button in the upper right corner.   
   The *Saving successful* message is displayed. The default customer is saved for all stores.
 
-  ![Saving successful](/Assets/Screenshots/SavingSuccessful.png "[Saving successful]")
+  ![Saving successful](../../Assets/Screenshots/SavingSuccessful.png "[Saving successful]")
 
 
 
@@ -59,7 +59,7 @@ No prerequisites to fulfill.
 
 *Venduo POS > Management > Tab GLOBAL SETTINGS > Entry VAT-ID*
 
-  ![VAT-ID](/Assets/Screenshots/POS/Management/GlobalSettings/GS08.png "[VAT-ID]")
+  ![VAT-ID](../../Assets/Screenshots/POS/Management/GlobalSettings/GS08.png "[VAT-ID]")
 
 1. Select the *VAT-ID* entry in the list of settings in the left column.   
   The *VAT-ID* view is displayed on the right side.
@@ -69,7 +69,7 @@ No prerequisites to fulfill.
 3. Click the [Save] button in the upper right corner.   
   The *Saving successful* message is displayed. The VAT-ID is saved for all stores.
 
-  ![Saving successful](/Assets/Screenshots/SavingSuccessful.png "[Saving successful]")
+  ![Saving successful](../../Assets/Screenshots/SavingSuccessful.png "[Saving successful]")
 
 
 
@@ -88,12 +88,12 @@ No prerequisites to fulfill.
 #### Procedure
 *Invoicing > Settings > Tab PAYMENT METHOD(S)*
 
-![Payment method](/Assets/Screenshots/RetailSuiteFaktBase/Settings/PaymentMethods/PaymentMethods.png "[Payment methods]")
+![Payment method](../../Assets/Screenshots/RetailSuiteFaktBase/Settings/PaymentMethods/PaymentMethods.png "[Payment methods]")
 
 1. Click the [NEW] button.   
   The *Edit payment method* window is displayed.
 
-  ![Edit payment method](/Assets/Screenshots/RetailSuiteFaktBase/Settings/PaymentMethods/EditPaymentMethod.png "[Edit payment method]")
+  ![Edit payment method](../../Assets/Screenshots/RetailSuiteFaktBase/Settings/PaymentMethods/EditPaymentMethod.png "[Edit payment method]")
 
 2. Enter a name for the payment method in the *Title* field.   
 
@@ -102,7 +102,7 @@ No prerequisites to fulfill.
 4. Click the [SAVE] button in the bottom right corner of the window.   
   The *Saving...* window is displayed.
 
-  ![Saving](/Assets/Screenshots/RetailSuiteFaktBase/Settings/PaymentMethods/Saving.png "[Saving]")
+  ![Saving](../../Assets/Screenshots/RetailSuiteFaktBase/Settings/PaymentMethods/Saving.png "[Saving]")
 
   When the window is closed, the new payment method is saved in Invoicing. The new payment method is displayed in the list of payment methods in the *PAYMENT METHOD(S)* tab.
 
@@ -118,14 +118,14 @@ A payment method has been created in the *Invoicing* module, see [Create a payme
 #### Procedure
 *Venduo POS > Management > Tab GLOBAL SETTINGS*
 
-![GlobalSettings](/Assets/Screenshots/POS/Management/GlobalSettings/GlobalSettings.png "[GlobalSettings]")
+![GlobalSettings](../../Assets/Screenshots/POS/Management/GlobalSettings/GlobalSettings.png "[GlobalSettings]")
 
 1. Click the *Payment methods (manual terminal payment)* setting in the list of settings.   
   The *Payment methods (manual terminal payment)* view is displayed.
 
-  ![Payment methods](/Assets/Screenshots/POS/Management/GlobalSettings/GS04.png "[Payment methods]")
+  ![Payment methods](../../Assets/Screenshots/POS/Management/GlobalSettings/GS04.png "[Payment methods]")
 
-2. Click the ![Add](/Assets/Icons/Plus04.png "[Add]") (Add) button.
+2. Click the ![Add](../../Assets/Icons/Plus04.png "[Add]") (Add) button.
   A new row for a payment method is displayed.
 
 3. Enter the key of the new payment method in the *Key* field.
@@ -148,7 +148,7 @@ A payment method has been created in the *Invoicing* module, see [Create a payme
 #### Procedure
 *DataHub > Settings > Tab ETL*
 
-![ETL](/Assets/Screenshots/DataHub/Settings/ETL/ETL.png "[ETL]")
+![ETL](../../Assets/Screenshots/DataHub/Settings/ETL/ETL.png "[ETL]")
 
 1. Click the **Orders POS Store** attribute set mapping of the corresponding store in the *Source attribute set* column.   
   The *Mapping* view of the selected attribute set is displayed.
@@ -156,7 +156,7 @@ A payment method has been created in the *Invoicing* module, see [Create a payme
 2. Click the attribute mapping with the **Payment method** attribute in the *Destination attribute* column.   
   The *Settings* section is displayed in the right part of the tab.
 
-  ![Mapping](/Assets/Screenshots/DataHub/Settings/ETL/MappingSettings.png "[Mapping]")
+  ![Mapping](../../Assets/Screenshots/DataHub/Settings/ETL/MappingSettings.png "[Mapping]")
 
 3. Click the *Extension* drop-down list in the *Settings* section and select the **Mapping table** option.
 
