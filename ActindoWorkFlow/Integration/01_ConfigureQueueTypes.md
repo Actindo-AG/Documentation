@@ -1,6 +1,6 @@
-[!!User Interface queue types](/ActindoWorkFlow/UserInterface/05a_QueueTypes.md)
-[!!Workflow and process elements](/ActindoWorkFlow/Overview/02_WorkflowProcessElements.md)
-[!!Manage the workflows](/ActindoWorkFlow/Operation/01_ManageWorkflows.md)
+[!!User Interface queue types](../UserInterface/05a_QueueTypes.md)
+[!!Workflow and process elements](../Overview/02_WorkflowProcessElements.md)
+[!!Manage the workflows](../Operation/01_ManageWorkflows.md)
 
 
 # Configure the queue types
@@ -21,12 +21,12 @@ No prerequisites to fulfill.
 
 *Workflows > Queue types > Tab OVERVIEW*
 
-![Overview](/Assets/Screenshots/ActindoWorkFlow/QueueTypes/Overview.png "[Overview]")
+![Overview](../../Assets/Screenshots/ActindoWorkFlow/QueueTypes/Overview.png "[Overview]")
 
-1. Click the ![Add](/Assets/Icons/Plus01.png "[Add]") (Add) button in the bottom right corner.   
+1. Click the ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) button in the bottom right corner.   
   The *Create queue type* view is displayed.
 
-  ![Create queue type](/Assets/Screenshots/ActindoWorkFlow/QueueTypes/CreateQueueType.png "[Create queue type]")
+  ![Create queue type](../../Assets/Screenshots/ActindoWorkFlow/QueueTypes/CreateQueueType.png "[Create queue type]")
 
 2. Enter a name for the queue type in the *Name* field.
 
@@ -45,11 +45,11 @@ No prerequisites to fulfill.
 5. Click the [SAVE] button in the upper right corner.   
   The *Create queue type* view is closed. The new queue type is created and displayed in the list of queue types. The *Queue type has been created* pop-up window is displayed.
 
-  ![Queue type created](/Assets/Screenshots/ActindoWorkFlow/QueueTypes/QueueTypeCreated.png "[Queue type created]")
+  ![Queue type created](../../Assets/Screenshots/ActindoWorkFlow/QueueTypes/QueueTypeCreated.png "[Queue type created]")
 
   > [Info] An error notice is displayed if the number of booked vCores is not sufficient to create the queue type with the selected number of workers.
 
-  ![Maximum total workers](/Assets/Screenshots/ActindoWorkFlow/QueueTypes/MaximumTotalWorkers.png "[Maximum total workers]")
+  ![Maximum total workers](../../Assets/Screenshots/ActindoWorkFlow/QueueTypes/MaximumTotalWorkers.png "[Maximum total workers]")
 
 
 
@@ -65,14 +65,14 @@ You have the required rights to edit the developer settings in the engine room.
 
 *Actindo dashboard*
 
-![Actindo dashboard](/Assets/Screenshots/ActindoDashboard/ActindoDashboard.png "[Actindo dashboard]")
+![Actindo dashboard](../../Assets/Screenshots/ActindoDashboard/ActindoDashboard.png "[Actindo dashboard]")
 
 > [Info] This procedure can be started in any module of the Core1 Platform.
 
 1. Click the flag in the upper center.   
    The engine room panel is unfolded.
 
-  ![Engine room](/Assets/Screenshots/ActindoWorkFlow/QueueTypes/EngineRoom.png "[Engine room]")
+  ![Engine room](../../Assets/Screenshots/ActindoWorkFlow/QueueTypes/EngineRoom.png "[Engine room]")
 
 2. Click the arrow right to the *Developer mode*.   
   The developer mode settings are displayed.
@@ -80,7 +80,7 @@ You have the required rights to edit the developer settings in the engine room.
 3. Enable the *Disable workflow* toggle in the *Actindo Work Flow Engine* box.   
   The workflows are disabled. No new workflow processes will start as long as the *Disable workflow* toggle is enabled.
 
-  ![Disable workflow](/Assets/Screenshots/ActindoWorkFlow/QueueTypes/DisableWorkflow.png "[Disable workflow]")
+  ![Disable workflow](../../Assets/Screenshots/ActindoWorkFlow/QueueTypes/DisableWorkflow.png "[Disable workflow]")
 
 4. Click the flag at the bottom of the engine room.    
   The engine room panel is folded.
@@ -108,12 +108,12 @@ No prerequisites to fulfill.
 
 *Workflows > Queue types > Tab OVERVIEW*
 
-![Overview](/Assets/Screenshots/ActindoWorkFlow/QueueTypes/Overview.png "[Overview]")
+![Overview](../../Assets/Screenshots/ActindoWorkFlow/QueueTypes/Overview.png "[Overview]")
 
 1. Click the queue type you want to edit in the list of queue types.   
   The *Edit queue type* view is displayed.
 
-  ![Edit queue type](/Assets/Screenshots/ActindoWorkFlow/QueueTypes/EditQueueType.png "[Edit queue type]")
+  ![Edit queue type](../../Assets/Screenshots/ActindoWorkFlow/QueueTypes/EditQueueType.png "[Edit queue type]")
 
 2. Edit the desired data of the queue type in the corresponding fields. You can change the name and the execution priority of the queue type as described below:
 
@@ -127,7 +127,7 @@ No prerequisites to fulfill.
 3. Click the [SAVE] button in the upper right corner.   
   The changes are saved. The *Edit queue type* view is closed. The *Queue type has been saved* pop-up window is displayed.  
 
-  ![Queue type saved](/Assets/Screenshots/ActindoWorkFlow/QueueTypes/QueueTypeSaved.png "[Queue type saved]")
+  ![Queue type saved](../../Assets/Screenshots/ActindoWorkFlow/QueueTypes/QueueTypeSaved.png "[Queue type saved]")
 
 
 ### Edit the workers number
@@ -145,24 +145,24 @@ Change the number of workers of a queue type to increase or decrease the executi
 
 *Workflows > Queue types > Tab OVERVIEW*
 
-![Overview](/Assets/Screenshots/ActindoWorkFlow/QueueTypes/Overview.png "[Overview]")
+![Overview](../../Assets/Screenshots/ActindoWorkFlow/QueueTypes/Overview.png "[Overview]")
 
 1. Click the queue type you want to edit in the list of queue types.   
   The *Edit queue type* view is displayed.
 
-  ![Edit queue type](/Assets/Screenshots/ActindoWorkFlow/QueueTypes/EditQueueType.png "[Edit queue type]")
+  ![Edit queue type](../../Assets/Screenshots/ActindoWorkFlow/QueueTypes/EditQueueType.png "[Edit queue type]")
 
 2. Click the *Number of workers* field and edit the number of workers.
 
 3. Click the [SAVE] button in the upper right corner.    
   The changes are saved. The *Edit queue type* view is closed. The *Queue type has been saved* pop-up window is displayed.  
 
-  ![Queue type saved](/Assets/Screenshots/ActindoWorkFlow/QueueTypes/QueueTypeSaved.png "[Queue type saved]")
+  ![Queue type saved](../../Assets/Screenshots/ActindoWorkFlow/QueueTypes/QueueTypeSaved.png "[Queue type saved]")
 
 3. Unfold the engine room panel, disable the *Disable workflow* toggle in the *Actindo Work Flow Engine* box and fold the engine room panel again.
   The workflow processes start automatically.
 
-  ![Enable workflow](/Assets/Screenshots/ActindoWorkFlow/QueueTypes/EnableWorkflow.png "[Enable workflow]")
+  ![Enable workflow](../../Assets/Screenshots/ActindoWorkFlow/QueueTypes/EnableWorkflow.png "[Enable workflow]")
 
 
 
@@ -178,22 +178,22 @@ At least one queue type is created, see [Create a queue type](#create-a-queue-ty
 
 *Workflows > Workflows > Tab OVERVIEW > Select workflow > Select workflow version*
 
-![Workflow editor](/Assets/Screenshots/ActindoWorkFlow/Workflows/WorkflowEditor.png "[Workflow editor]")
+![Workflow editor](../../Assets/Screenshots/ActindoWorkFlow/Workflows/WorkflowEditor.png "[Workflow editor]")
 
 1. Select the transition you want to assign a certain queue type to.      
 The transition is highlighted and its settings are displayed in the settings side bar on the right.
 
-  ![Action](/Assets/Screenshots/ActindoWorkFlow/Workflows/Action.png "[Action]")
+  ![Action](../../Assets/Screenshots/ActindoWorkFlow/Workflows/Action.png "[Action]")
 
 2. Click the *Queue type* drop-down list and select the desired queue type for the selected transition. All available queue types are displayed in the list.     
 The selected queue type is displayed in the list.
 
   > [Info] Repeat the steps **1** and **2** for all transitions to which you want to assign a queue type.
 
-3. Click the ![Points](/Assets/Icons/Points02.png "[Points]") (Points) button in the upper left corner next to the workflow name.   
+3. Click the ![Points](../../Assets/Icons/Points02.png "[Points]") (Points) button in the upper left corner next to the workflow name.   
   The workflow context menu is displayed.
 
-  ![Context menu](/Assets/Screenshots/ActindoWorkFlow/Workflows/ContextMenu.png "[Context menu]")
+  ![Context menu](../../Assets/Screenshots/ActindoWorkFlow/Workflows/ContextMenu.png "[Context menu]")
 
 4. Click the *Deploy* menu entry in the context menu.   
   A new workflow version with the new assigned queue types is deployed and published.
@@ -214,17 +214,17 @@ You can delete a queue type that is obsolete to release workers for other queue 
 
 *Workflows > Queue types > Tab OVERVIEW*
 
-![Overview](/Assets/Screenshots/ActindoWorkFlow/QueueTypes/Overview.png "[Overview]")
+![Overview](../../Assets/Screenshots/ActindoWorkFlow/QueueTypes/Overview.png "[Overview]")
 
 1. Select the checkbox of the queue type you want to delete in the list of queue types.      
 The editing toolbar is displayed above the queue types list.
 
-  ![Toolbar](/Assets/Screenshots/ActindoWorkFlow/QueueTypes/Toolbar.png "[Toolbar]")
+  ![Toolbar](../../Assets/Screenshots/ActindoWorkFlow/QueueTypes/Toolbar.png "[Toolbar]")
 
 2. Click the [DELETE] button in the toolbar.   
 The queue type is deleted. The *QueueType has been deleted* pop-up window is displayed.
 
-  ![Queue type deleted](/Assets/Screenshots/ActindoWorkFlow/QueueTypes/QueueTypeDeleted.png "[Queue type deleted]")
+  ![Queue type deleted](../../Assets/Screenshots/ActindoWorkFlow/QueueTypes/QueueTypeDeleted.png "[Queue type deleted]")
 
   > [Info] The queue type is only deleted, if it is not assigned to any action anymore.
 
@@ -250,19 +250,19 @@ At least one queue type is created, see [Create a queue type](#create-a-queue-ty
 
 *Workflows > Queue types > Tab OVERVIEW*
 
-![Overview](/Assets/Screenshots/ActindoWorkFlow/QueueTypes/Overview.png "[Overview]")
+![Overview](../../Assets/Screenshots/ActindoWorkFlow/QueueTypes/Overview.png "[Overview]")
 
 > [Info] Disable the workflows before you kill the workers to prevent an automatic restart of the workflow processes, see [Disable the workflows](#disable-the-workflows).
 
 1. Select the checkbox of the queue type whose workers you want to kill.    
 The editing toolbar is displayed above the queue types list.
 
-  ![Toolbar](/Assets/Screenshots/ActindoWorkFlow/QueueTypes/Toolbar.png "[Toolbar]")
+  ![Toolbar](../../Assets/Screenshots/ActindoWorkFlow/QueueTypes/Toolbar.png "[Toolbar]")
 
 2. Click the [KILL WORKER OF THIS QUEUE TYPE] button in the toolbar.   
 The workers of the selected queue type are killed. The process actions of the selected queue type will not continue until you restart the workflow processes. The *Worker will shutdown* pop-up window is displayed.
 
-  ![Worker shutdown](/Assets/Screenshots/ActindoWorkFlow/QueueTypes/WorkerShutdown.png "[Worker shutdown]")
+  ![Worker shutdown](../../Assets/Screenshots/ActindoWorkFlow/QueueTypes/WorkerShutdown.png "[Worker shutdown]")
 
 
 ### Kill all workers
@@ -277,11 +277,11 @@ At least one queue type is created, see [Create a queue type](#create-a-queue-ty
 
 *Workflows > Queue types > Tab OVERVIEW*
 
-![Overview](/Assets/Screenshots/ActindoWorkFlow/QueueTypes/Overview.png "[Overview]")
+![Overview](../../Assets/Screenshots/ActindoWorkFlow/QueueTypes/Overview.png "[Overview]")
 
 > [Info] Disable the workflows before you kill the workers to prevent an automatic restart of the workflow processes, see [Disable the workflows](#disable-the-workflows).
 
 Click the [KILL WORKER] button above the queue types list.    
 All workers are killed. The process actions will not continue until you restart the workflow processes. The *Worker will shutdown* pop-up window is displayed.
 
-  ![Worker shutdown](/Assets/Screenshots/ActindoWorkFlow/QueueTypes/WorkerShutdown.png "[Worker shutdown]")
+  ![Worker shutdown](../../Assets/Screenshots/ActindoWorkFlow/QueueTypes/WorkerShutdown.png "[Worker shutdown]")
