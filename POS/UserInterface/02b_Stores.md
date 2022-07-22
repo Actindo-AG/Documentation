@@ -392,7 +392,7 @@ The wizard window displays a summary of the store configuration. Missing data or
   Click this button to save any changes.
 
 
-### Basic data - Store
+### Basic data &ndash; Store
 *Venduo POS > Management > Tab STORES > Select Store > Tab Basic Data*
 
 ![Store Basic Data](../../Assets/Screenshots/POS/Management/Stores/Store/BasicData/BasicData.png "[Store Basic Data]")
@@ -692,7 +692,7 @@ Define the width of the receipt, as it may vary depending on the printer.
 
 
 
-### Admin settings - Store
+### Admin settings &ndash; Store
 *Venduo POS > Management > Tab STORES > Select Store > Tab Admin Settings*
 
 ![Admin Settings Store](../../Assets/Screenshots/POS/Management/Stores/Store/AdminSettings/AdminSettings.png "[Admin Settings Store]")
@@ -825,7 +825,7 @@ Upload a logo for your receipts.
 #### Kontenzuteilung Buchhaltung
 
 Assign the accounts to which you want to book the payments. The accounts are assigned for all stores, unless they are overwritten in the store or pay desk admin settings.
-For detailed information, see [Admin Settings - Store](#admin-settings-store) or [Admin Settings - Pay Desk](#admin-settings-pay-desk).
+For detailed information, see [Admin settings &ndash; Store](#admin-settings--store) or [Admin settings &ndash; Pay Desk](#admin-settings--pay-desk).
 
 The number of accounts to be assigned depends on the number of available currencies.
 
@@ -951,7 +951,7 @@ Change or define the warehouse from which to take the stock.
 - [SAVE]   
   Click this button to save any changes.
 
-### Basic data - Pay desk
+### Basic data &ndash; Pay desk
 *Venduo POS > Management > Tab STORES > Select Store > Edit Pay Desk > Tab Basic Data*
 
 ![Pay Desk Basic Data](../../Assets/Screenshots/POS/Management/Stores/PayDesk/BasicData/BasicData.png "[Pay Desk Basic Data]")
@@ -1011,7 +1011,7 @@ The table displays all available cashiers. All fields are read-only. Depending o
   Identification number of the user.
 
 
-### Admin settings - Pay desk
+### Admin settings &ndash; Pay desk
 *Venduo POS > Management > Tab STORES > Select Store > Edit Pay Desk > Tab Admin Settings*
 
 ![Admin Settings Pay Desk](../../Assets/Screenshots/POS/Management/Stores/PayDesk/AdminSettings/AdminSettings.png "[Admin Settings Pay Desk]")
@@ -1130,7 +1130,7 @@ Define the width of the receipt, as it may vary depending on the printer.
 #### Kontenzuteilung Buchhaltung
 
 Assign the accounts to which you want to book the payments. The accounts are assigned for all stores, unless they are overwritten in the store or pay desk admin settings.
-For detailed information, see [Admin Settings - Store](#admin-settings-store) or [Admin Settings - Pay Desk](#admin-settings-pay-desk).
+For detailed information, see [Admin settings &ndash; Store](#admin-settings--store) or [Admin settings &ndash; Pay Desk](#admin-settings--pay-desk).
 
 The number of accounts to be assigned depends on the number of available currencies.
 
