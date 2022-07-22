@@ -4,8 +4,8 @@
 
 
 - [DASHBOARDS](./01a_Dashboards.md)
-  - [Add a new tab - Create new tab](./01a_Dashboards.md#add-a-new-tabcreate-new-tab)
-  - [Add a new tab - Import existing tab](./01a_Dashboards.md#add-a-new-tabimport-existing-tab)
+  - [Add a new tab - Create new tab](./01a_Dashboards.md#add-a-new-tab-create-new-tab)
+  - [Add a new tab - Import existing tab](./01a_Dashboards.md#add-a-new-tab-import-existing-tab)
   - [Confirm tab deletion](./01a_Dashboards.md#confirm-tab-deletion)
   - [Tab](./01a_Dashboards.md#tab)
     - [Edit tab](./01a_Dashboards.md#edit-tab)
