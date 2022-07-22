@@ -249,7 +249,7 @@ After you have created your SSH Key and configured the Git Bash terminal, you ca
 
 The following scheme shows the documentation workflow via Git and JIRA. Each step is described in detail in the following chapters.
 
-![Git and JIRA workflow](/Assets/GitJIRAWorkflow.jpg "[Git and JIRA workflow]")
+![Git and JIRA workflow](./Assets/GitJIRAWorkflow.jpg "[Git and JIRA workflow]")
 
 To start your documentation, you need to prepare as described below.
 
