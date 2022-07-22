@@ -14,12 +14,12 @@ Intelligent product data management for all sales channels:
 - Flexible integration options   
   The *PIM* module can be flexibly connected to existing a/o legacy systems and data transformations from those could be easily implemented. A variety of other integrations are also available.  
 
-## Always agile - always prepared for growth
+## Always agile &ndash; always prepared for growth
 
 **More flexibility for your requirements**   
 Every company has its own unique product data management requirements. The *PIM* module enables you to efficiently manage products across all channels. Not only can you maintain product data, but you can also design data management to meet your individual needs. For example, create your own attribute sets with specific attributes, maintain products in multiple languages and decide which data exists on which channels. Flexibility is a synonym for our *PIM* module.
 
-## Integrative - simple - fast to use
+## Integrative &ndash; simple &ndash; fast to use
 
 **A perfect fit for existing IT**   
 Is your IT infrastructure built on legacy systems such as SAP or AS/400? With Actindo, you don't have to replace your functioning system landscape. The *PIM* module can be easily connected to your existing systems and online shop technology which enables an optimal data exchange. As a result, you can digitize and centralize your trade processes quickly and with little effort.

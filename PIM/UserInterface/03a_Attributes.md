@@ -167,7 +167,7 @@ For detailed information about the different configurations of data types, see [
 
 
 
-### Edit attribute - Data
+### Edit attribute &ndash; Data
 *PIM > Settings > Tab ATTRIBUTES > Select attribute > Tab Data*
 
 ![Data](../../Assets/Screenshots/PIM/Settings/Attributes/EditAttribute_Data.png "[Data]")
@@ -200,7 +200,7 @@ For detailed information about the different configurations of data types, see [
 
 
 
-### Edit attribute - Attribute set assignments
+### Edit attribute &ndash; Attribute set assignments
 *PIM > Settings > Tab ATTRIBUTES > Select attribute > Tab Attribute Set Assignments*
 
 ![Attribute set assignments](../../Assets/Screenshots/PIM/Settings/Attributes/EditAttribute_Assignments.png "[Attribute set assignments]")

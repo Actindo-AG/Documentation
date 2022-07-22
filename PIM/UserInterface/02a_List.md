@@ -212,7 +212,7 @@ Depending on the selection in the *Variants* drop-down list, the product list di
   Completeness of the product. In the *Create product* view, the completeness cannot be indicated. The completeness is indicated once the product have been saved.
 
 
-## Create product - Attributes
+## Create product &ndash; Attributes
 *PIM > Products > Tab LIST > Button Add > Button CREATE > Tab Attributes*
 
 ![Attributes](../../Assets/Screenshots/PIM/Products/List/Attributes/AttributesCreate.png "[Attributes]")
@@ -228,7 +228,7 @@ The right side of the *Attributes* tab displays all attributes that are assigned
   Click this button to hide or display the left margin column with the attribute groups. When the left margin is displayed an you click this button, the column is hidden. When the column is hidden and you click this button, the column is displayed again.
 
 
-## Create product - Variants
+## Create product &ndash; Variants
 *PIM > Products > Tab LIST > Button Add > Button CREATE > Tab Variants*
 
 ![Variants](../../Assets/Screenshots/PIM/Products/List/Variants/VariantsCreate.png "[Variants]")
@@ -368,7 +368,7 @@ The list displays all selected variants. Depending on the settings, the displaye
 
 
 
-## Create product - Dependencies
+## Create product &ndash; Dependencies
 *PIM > Products > Tab LIST > Button Add > Button CREATE > Tab Dependencies*
 
 ![Dependencies](../../Assets/Screenshots/PIM/Products/List/Dependencies/DependenciesCreate.png "[Dependencies]")
@@ -376,7 +376,7 @@ The list displays all selected variants. Depending on the settings, the displaye
  In the *Create product* view, the notice *Information about dependencies are not available* is displayed in this tab. Dependencies are displayed only after saving.  
 
 
-## Create product - Catalogs
+## Create product &ndash; Catalogs
 *PIM > Products > Tab LIST > Button Add > Button CREATE > Tab Catalogs*
 
 ![Catalogs](../../Assets/Screenshots/PIM/Products/List/Catalogs/CatalogsCreate.png "[Catalogs]")
@@ -424,7 +424,7 @@ The catalog box displays all selected categories and their level. All fields are
 
 
 
-## Create product - Associations
+## Create product &ndash; Associations
 *PIM > Products > Tab LIST > Button Add > Button CREATE > Tab Associations*
 
 ![Associations](../../Assets/Screenshots/PIM/Products/List/Associations/AssociationsCreate.png "[Associations]")
@@ -492,7 +492,7 @@ The list displays all products. All fields are read-only.
   Assigned attribute set.
 
 
-## Create product - UCS Warehouse
+## Create product &ndash; UCS Warehouse
 *PIM > Products > Tab LIST > Button Add > Button CREATE > Tab UCS Warehouse*
 
 ![UCS Warehouse](../../Assets/Screenshots/PIM/Products/List/UCSWarehouse/UCSWarehouseCreate.png "[UCS Warehouse]")
@@ -500,7 +500,7 @@ The list displays all products. All fields are read-only.
  In the *Create product* view, the notice *Available after saving the product.* is displayed in this tab. The warehouse information is displayed only after saving.  
 
 
-## Create product - UCS Marketplaces
+## Create product &ndash; UCS Marketplaces
 *PIM > Products > Tab LIST > Button Add > Button CREATE > Tab UCS Marketplaces*
 
 ![UCS Marketplaces](../../Assets/Screenshots/PIM/Products/List/UCSMarketplaces/UCSMarketplacesCreate.png "[UCS Marketplaces]")
@@ -508,7 +508,7 @@ The list displays all products. All fields are read-only.
  In the *Create product* view, the notice *Available after saving the product.* is displayed in this tab. The marketplaces information is displayed only after saving.  
 
 
-## Create product - Offers
+## Create product &ndash; Offers
 *PIM > Products > Tab LIST > Button Add > Button CREATE > Tab Offers*
 
 ![Offers](../../Assets/Screenshots/PIM/Products/List/Offers/OffersCreate.png "[Offers]")
@@ -771,7 +771,7 @@ The list displays all created offers to this product. All fields are read-only.
   The current percentage for the product completeness of the selected channel and language is displayed. The percentage is automatically updated when you select a different channel or language.
 
 
-## Edit product - Attributes
+## Edit product &ndash; Attributes
 *PIM > Products > Tab LIST > Select product > Tab Attributes*
 
 ![Attributes](../../Assets/Screenshots/PIM/Products/List/Attributes/AttributesEdit.png "[Attributes]")
@@ -783,7 +783,7 @@ The right side of the *Attributes* tab displays all attributes that are assigned
 [comment]: <> (describe attributes in PIM Basic Set?!)
 
 
-## Edit product - Variants
+## Edit product &ndash; Variants
 *PIM > Products > Tab LIST >  Select product > Tab Variants*
 
 ![Variants](../../Assets/Screenshots/PIM/Products/List/Variants/VariantsEdit.png "[Variants]")
@@ -937,7 +937,7 @@ The list displays all selected variants. Depending on the settings, the displaye
 
 
 
-## Edit product - Dependencies
+## Edit product &ndash; Dependencies
 *PIM > Products > Select product > Tab Dependencies*
 
 ![Dependencies](../../Assets/Screenshots/PIM/Products/List/Dependencies/DependenciesEdit.png "[Dependencies]")
@@ -983,7 +983,7 @@ The list displays all dependencies of the selected product. All fields are read-
 
 
 
-## Edit product - Completeness
+## Edit product &ndash; Completeness
 *PIM > Products > Select product > Tab Completeness*
 
 ![Completeness](../../Assets/Screenshots/PIM/Products/List/Completeness/Completeness.png "[Completeness]")
@@ -999,7 +999,7 @@ The *Completeness* tab displays the completeness of the product for the differen
     Hover over this icon to display a box that is listing the missing attribute values. This icon is only displayed when at least one required attribute value for the product completeness is missing.
 
 
-## Edit product - Catalogs
+## Edit product &ndash; Catalogs
 *PIM > Products > Select product > Tab Catalogs*
 
 ![Catalogs](../../Assets/Screenshots/PIM/Products/List/Catalogs/CatalogsEdit.png "[Catalogs]")
@@ -1045,7 +1045,7 @@ Click the [>] button to the left of a category checkbox to display their sub-cat
 
 
 
-## Edit product - Associations
+## Edit product &ndash; Associations
 *PIM > Products > Select product > Tab Associations*
 
 ![Associations](../../Assets/Screenshots/PIM/Products/List/Associations/AssociationsEdit.png "[Associations]")
@@ -1114,7 +1114,7 @@ The list displays all products. All fields are read-only.
 
 
 
-## Edit product - History
+## Edit product &ndash; History
 *PIM > Products > Select product > Tab History*
 
 ![History](../../Assets/Screenshots/PIM/Products/List/History/History.png "[History]")
@@ -1203,7 +1203,7 @@ The list displays the single entries of the selected product change. All fields 
   Click this button to undo the selected change(s). A confirmation window is displayed to confirm the change reversion. This button is only displayed, when the checkbox of a change entry is selected.
 
 
-## Edit product - UCS Warehouse
+## Edit product &ndash; UCS Warehouse
 *PIM > Products > Select product > Tab UCS Warehouse*
 
 ![UCS Warehouse](../../Assets/Screenshots/PIM/Products/List/UCSWarehouse/UCSWarehouseEdit.png "[UCS Warehouse]")
@@ -1213,7 +1213,7 @@ This tab displays the *Basic data* and *Warehouse / Suppliers* sub-tabs. These s
 [comment]: <> (link to the Corresponding warehouse documentation? What about the buttons [HILFE] and [SPEICHERN]?)
 
 
-## Edit product - UCS Marketplaces
+## Edit product &ndash; UCS Marketplaces
 *PIM > Products > Select product > Tab UCS Marketplaces*
 
 ![UCS Marketplaces](../../Assets/Screenshots/PIM/Products/List/UCSMarketplaces/UCSMarketplacesEdit.png "[UCS Marketplaces]")
@@ -1223,7 +1223,7 @@ This tab displays the *Basic data* and *webshop* sub-tabs. These sub-tabs are ex
 [comment]: <> (link to the Corresponding material management/Artikelverwaltung documentation? What about the buttons [HILFE] and [SPEICHERN]?)
 
 
-## Edit product - Offers
+## Edit product &ndash; Offers
 *PIM > Products > Select product > Tab Offers*
 
 ![Offers](../../Assets/Screenshots/PIM/Products/List/Offers/OffersEdit.png "[Offers]")

@@ -219,7 +219,7 @@ The data type *TreeNode* is used for indications with multiple, predefined selec
 - ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add)   
   Click first this button and then the plus sign displayed in the left column of the *Edit tree* table to add an attribute value. The *Add Element* window is displayed.
 
-### Add Element
+### Add element
 
 ![Add element](../../Assets/Screenshots/PIM/DataTypes/Configuration/AddElement.png "[Add element]")
 
@@ -245,7 +245,7 @@ In the *PIM Basic Set*, the following attributes have the data type *Completenes
 
 
 
-## Number with Unit
+## Number with unit
 
 ![Number with Unit](../../Assets/Screenshots/PIM/DataTypes/NumberUnit.png "[Number with Unit]")
 
@@ -292,7 +292,7 @@ The data type *DateTime* is used to indicate a date and/or a time. You can confi
   - **Medium**: medium format, including seconds, for example 09:00:00 PM
 
 
-## Sales Unit Value
+## Sales unit value
 
 ![Sales Unit Value](../../Assets/Screenshots/PIM/DataTypes/SalesUnitValue.png "[Sales Unit Value]")
 
@@ -331,7 +331,7 @@ The data type *Simple price field* is used to indicate a price. You can configur
 [comment]: <> (Not working -> MSRP field is displayed even when the toggle is disabled -> to be fixed)
 
 
-## Stock Value
+## Stock value
 
 ![Stock Value](../../Assets/Screenshots/PIM/DataTypes/StockValue.png "[Stock Value]")
 
@@ -447,14 +447,14 @@ The data type *Files* is used to attach files. You can configure the filename pr
 
 
 
-## PIM-Channels Connection (internal, not editable)
+## PIM-Channels connection (internal, not editable)
 
 This data type is for internal use only. It is strongly advised not to use this data type without the required knowledge.   
 In the *PIM Basic Set*, the following attributes have the data type *PIM-Channels Connection*:
 - PIM Omni-Channel Connection
 
 
-## UCS Product bundle (internal, not editable)
+## UCS product bundle (internal, not editable)
 
 This data type is for internal use only. It is strongly advised not to use this data type without the required knowledge.
 
@@ -464,7 +464,7 @@ This data type is for internal use only. It is strongly advised not to use this 
 This data type is for internal use only. It is strongly advised not to use this data type without the required knowledge.
 
 
-## Cloudinary Image
+## Cloudinary image
 
 ![Cloudinary image](../../Assets/Screenshots/PIM/DataTypes/CloudinaryImage.png "[Cloudinary image]")
 
@@ -494,7 +494,7 @@ The data type *Cloudinary Image* is used to attach image files from Cloudinary. 
 In this section all structured meta data fields from the selected Cloudinary connection are displayed. Enable the meta data fields in the *PIM* module by activating the corresponding toggle. All inactive fields are not displayed in the *PIM* module and consequently cannot be edited in the *Cloudinary Image* attribute.
 
 
-## Cloudinary Video
+## Cloudinary video
 
 ![Cloudinary video](../../Assets/Screenshots/PIM/DataTypes/CloudinaryVideo.png "[Cloudinary video]")
 
@@ -553,7 +553,7 @@ This data type is for internal use only. It is strongly advised not to use this 
 [comment]: <> (Check this - "No Data" displayed in the field in the product view)
 
 
-## Encrypted Value (internal, not editable)
+## Encrypted value (internal, not editable)
 
 This data type is for internal use only. It is strongly advised not to use this data type without the required knowledge.
 
@@ -576,7 +576,7 @@ The data type *Related products* is used to connect other products to the select
   Enter the maximum number of products that can be related to the selected product.
 
 
-## PIM Price Field
+## PIM price field
 
 ![PIM Price Field](../../Assets/Screenshots/PIM/DataTypes/PIMPriceField.png "[PIM Price Field]")
 
@@ -602,7 +602,7 @@ The data type *PIM Price Field* is used to indicate a price. You can configure t
   Click this button to add another currency to the list of supported currencies. A new row with the drop-down list *Currency* is displayed below.
 
 
-## Product Variants (internal, not editable)
+## Product variants (internal, not editable)
 
 This data type is for internal use only. It is strongly advised not to use this data type without the required knowledge.   
 In the *PIM Basic Set*, the following attributes have the data type *Product Variants*:
@@ -640,7 +640,7 @@ The data type *Product bundle* is used to define products that can be sold in a 
   Enter the maximum number of products that can be related for a product bundle.
 
 
-## Packaging Unit
+## Packaging unit
 
 ![Packaging Unit](../../Assets/Screenshots/PIM/DataTypes/PackagingUnit.png "[Packaging Unit]")
 
