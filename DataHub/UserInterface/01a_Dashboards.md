@@ -12,7 +12,7 @@ In the *DASHBOARDS* tab, the custom tabs with composable dashlets are displayed.
   Click this button to delete the selected tab. The *Confirm Tab Deletion* window is displayed. This button is displayed to the right of the tab name.
 
 
-## Add a new tab &#150; Create new tab
+## Add a new tab &mdash; Create new tab
 
 ![Create new tab](../../Assets/Screenshots/DataHub/Overview/CreateNewTab.png "[Create new tab]")
 
