@@ -1,9 +1,9 @@
 [!!Omni-Channel](Channels)
 [!!Invoicing](RetailSuiteFaktBase)
-[!!User Interface Accounting sync](/POS/UserInterface/02d_AccountingSync.md)
-[!!User Interface Omni-Channel](/Channels/UserInterface/00_UserInterface.md)
-[!!User Interface Invoicing](/RetailSuiteFaktBase/UserInterface/00_UserInterface.md)
-[!!Manage offers for POS](07_ManageOffers.md)
+[!!User Interface Accounting sync](../UserInterface/02d_AccountingSync.md)
+[!!User Interface Omni-Channel](../../Channels/UserInterface/00_UserInterface.md)
+[!!User Interface Invoicing](../../RetailSuiteFaktBase/UserInterface/00_UserInterface.md)
+[!!Manage offers for POS](./07_ManageOffers.md)
 
 
 # Manage the POS order process
@@ -17,15 +17,15 @@ Check the POS order in Omni-Channel to see its current status.
 
 #### Prerequisites
 
-An order has been completed in POS, see [Complete a purchase](04_CompletePurchase.md).
+An order has been completed in POS, see [Complete a purchase](./04_CompletePurchase.md).
 
 #### Procedure
 
 *Omni-Channel > Orders and Returns > Tab ORDERS*
 
-![Omni-Channel Orders](/Assets/Screenshots/Channels/OrdersReturns/Orders/Orders.png "[Omni-Channel Orders]")
+![Omni-Channel Orders](../../Assets/Screenshots/Channels/OrdersReturns/Orders/Orders.png "[Omni-Channel Orders]")
 
- > [Info] The ordering process is performed asynchronously. That means that it may take a few minutes until the POS order is displayed in the order list in the *Omni-Channel* module. If the POS order is not yet displayed, click the ![Refresh](/Assets/Icons/Refresh01.png "[Refresh]") (Refresh) button in the upper right corner to update the order list.
+ > [Info] The ordering process is performed asynchronously. That means that it may take a few minutes until the POS order is displayed in the order list in the *Omni-Channel* module. If the POS order is not yet displayed, click the ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh) button in the upper right corner to update the order list.
 
 1. Check the *Status of import from channel* column.   
     The following table shows the possible statuses and their meaning.
@@ -55,7 +55,7 @@ An order has been completed in POS, see [Complete a purchase](04_CompletePurchas
     |----------------|-----------------------|
     | Exported       | The order is successfully exported to invoicing. The receipt number in invoicing is displayed in the *ID in OMS* column|
     | Not exported   | The order is still pending export to invoicing. |
-    | Error! followed by the error description | The export failed. An error occurred. Check the error description and go to the [*Troubleshooting*](/POS/Troubleshooting/00_Troubleshooting.md) chapter for help.|
+    | Error! followed by the error description | The export failed. An error occurred. Check the error description and go to the [*Troubleshooting*](../Troubleshooting/00_Troubleshooting.md) chapter for help.|
 
 [comment]: <> (Are there other statuses? Meaning?)
 
@@ -72,25 +72,25 @@ Check the cash invoice in invoicing to see its current status.
 
 #### Prerequisites
 
-An order has been completed in POS, see [Complete a purchase](04_CompletePurchase.md).
+An order has been completed in POS, see [Complete a purchase](./04_CompletePurchase.md).
 
 #### Procedure
 
 *Invoicing > Overview > Tab OVERVIEW*
 
-![Overview](/Assets/Screenshots/RetailSuiteFaktBase/Overview/Overview.png "[Overview]")
+![Overview](../../Assets/Screenshots/RetailSuiteFaktBase/Overview/Overview.png "[Overview]")
 
- > [Info] The invoicing process is performed asynchronously. That means that it may take a few minutes until the invoice is displayed in the invoicing list in the *Invoicing* module. If the invoice is not yet displayed, click the ![Refresh](/Assets/Icons/Refresh01.png "[Refresh]") (Refresh) button in the bottom to update the invoicing list.
+ > [Info] The invoicing process is performed asynchronously. That means that it may take a few minutes until the invoice is displayed in the invoicing list in the *Invoicing* module. If the invoice is not yet displayed, click the ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh) button in the bottom to update the invoicing list.
 
 1. Right-click the row with the appropriate document number.   
     The context menu is displayed.
 
-    ![Context Menu](/Assets/Screenshots/RetailSuiteFaktBase/ContextMenu.png "[Context Menu]")
+    ![Context Menu](../../Assets/Screenshots/RetailSuiteFaktBase/ContextMenu.png "[Context Menu]")
 
 2. Click the *Edit document* entry.   
     The *Last document* menu entry is opened. The *LAST DOCUMENT* tab with the selected document is displayed.
 
-    ![Last document](/Assets/Screenshots/RetailSuiteFaktBase/LastDocument/Customer.png "[Last document]")
+    ![Last document](../../Assets/Screenshots/RetailSuiteFaktBase/LastDocument/Customer.png "[Last document]")
 
 3. Click first the *Customer* tab, then the *Billing address* sub-tab and check the billing address of the document.
 
@@ -98,7 +98,7 @@ An order has been completed in POS, see [Complete a purchase](04_CompletePurchas
 
 5. Click the *Positions* tab and check the products of the order.
 
-![Last document](/Assets/Screenshots/RetailSuiteFaktBase/LastDocument/Positions.png "[Last document]")
+![Last document](../../Assets/Screenshots/RetailSuiteFaktBase/LastDocument/Positions.png "[Last document]")
 
 6. Select a product in the *Positions* tab.   
   The details to the selected product are displayed in the sub-tabs in the bottom part of the *Positions* tab.
@@ -115,13 +115,13 @@ Check the current status of the booking and its payment.
 
 #### Prerequisites
 
-An order has been completed in POS, see [Complete a purchase](04_CompletePurchase.md).
+An order has been completed in POS, see [Complete a purchase](./04_CompletePurchase.md).
 
 #### Procedure
 
 *Venduo POS > Management > Tab ACCOUNTING SYNC*
 
-![Accounting Sync](/Assets/Screenshots/POS/Management/AccountingSync/AccountingSync.png "[Accounting Sync]")
+![Accounting Sync](../../Assets/Screenshots/POS/Management/AccountingSync/AccountingSync.png "[Accounting Sync]")
 
 1. Check the order status for the order in the *Status* column.   
 
@@ -130,9 +130,9 @@ An order has been completed in POS, see [Complete a purchase](04_CompletePurchas
 2. When the order status of the order is **Sync successful**, switch to the *Invoicing* module: *Invoicing > Overview* .   
     The *Overview* menu entry is opened. The *OVERVIEW* tab with the invoicing list is displayed.
 
-    ![Overview](/Assets/Screenshots/RetailSuiteFaktBase/Overview/Overview.png "[Overview]")
+    ![Overview](../../Assets/Screenshots/RetailSuiteFaktBase/Overview/Overview.png "[Overview]")
 
-3. Click the ![Refresh](/Assets/Icons/Refresh01.png "[Refresh]") (Refresh) button in the bottom of the invoicing list.
+3. Click the ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh) button in the bottom of the invoicing list.
     The invoicing list is updated.
 
 4. Check the payment status of the invoice in the *Paid* column.

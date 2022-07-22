@@ -2,9 +2,9 @@
 
 *Venduo POS > Sales > Select Store and Pay Desk > Tab CASHPOINT*
 
-![Cashpoint](/Assets/Screenshots/POS/Sales/Cashpoint/Cashpoint.png "[Cashpoint]")
+![Cashpoint](../../Assets/Screenshots/POS/Sales/Cashpoint/Cashpoint.png "[Cashpoint]")
 
-- *Find offer by nam... ![Search](/Assets/Icons/Search.png "[Search]")*   
+- *Find offer by nam... ![Search](../../Assets/Icons/Search.png "[Search]")*   
   Enter the product name, the keyword or the (EAN) number you search for in the search bar. Click a product in the list of search results to add it to the bill list.
 
   > [Info] The search already provides you with proposals for your keyword as you type.
@@ -20,15 +20,15 @@
 
 ## Bill list
 
-![Bill List](/Assets/Screenshots/POS/Sales/Cashpoint/BillList/BillList.png "[Bill List]")
+![Bill List](../../Assets/Screenshots/POS/Sales/Cashpoint/BillList/BillList.png "[Bill List]")
 
-- ![Add Customer](/Assets/Icons/Customer02.png "[Add Customer]") (Add Customer)   
+- ![Add Customer](../../Assets/Icons/Customer02.png "[Add Customer]") (Add Customer)   
   Click this button to assign the bill to a certain customer. The *Add Customer* view is displayed.
 
 - *Customer Name and Address*   
   The customer name and address is displayed, when the bill list is assigned to a customer. This field is read-only.
 
-- ![Unassign Customer](/Assets/Icons/Trash01.png "[Unassign Customer]") (Unassign Customer)  
+- ![Unassign Customer](../../Assets/Icons/Trash01.png "[Unassign Customer]") (Unassign Customer)  
   Click this button to unassign the customer from the bill list. The button is only displayed when the bill list is already assigned to a customer.
 
 - *Quantity x*    
@@ -44,10 +44,10 @@
     - Price is written in italics: The price itself has been modified.
 
 
-- ![Remove Product](/Assets/Icons/Cross02.png "[Remove Product]") (Remove Product)   
+- ![Remove Product](../../Assets/Icons/Cross02.png "[Remove Product]") (Remove Product)   
   Click this button to remove a product entry from the bill list. This field is displayed only when a product is added to the bill list.
 
-- *![Toggle](/Assets/Icons/Toggle.png "[Toggle]") Single scan*   
+- *![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") Single scan*   
   Activate this toggle to use the single scan feature.
 
   > [Info]   If the same offer is selected more than once and you use the single scan feature, each offer is listed as a single product in the bill list. This allows you to treat each product in the booking individually.
@@ -61,13 +61,13 @@
 - *Add Sale Note*   
   Enter a sale note to add any additional information to the bill list.
 
-- [ ![Drawer](/Assets/Icons/Drawer.png "[Drawer]") Open Drawer]   
+- [ ![Drawer](../../Assets/Icons/Drawer.png "[Drawer]") Open Drawer]   
   Click this button to open the drawer.
 
-- [ ![Park](/Assets/Icons/Park.png "[Park]") Park]   
+- [ ![Park](../../Assets/Icons/Park.png "[Park]") Park]   
   Click this button to park the current bill list to a later time.
 
-- ![Delete Bill List](/Assets/Icons/Trash02.png "[Delete Bill List]") (Delete Bill List)   
+- ![Delete Bill List](../../Assets/Icons/Trash02.png "[Delete Bill List]") (Delete Bill List)   
   Click this button to delete the current bill list.
 
 - [PAY]   
@@ -77,7 +77,7 @@
 ## Pay bill list
 *Venduo POS > Sales > Select Store and Pay Desk > Tab CASHPOINT > [PAY]*
 
-![Pay](/Assets/Screenshots/POS/Sales/Cashpoint/BillList/Pay.png "[Pay]")   
+![Pay](../../Assets/Screenshots/POS/Sales/Cashpoint/BillList/Pay.png "[Pay]")   
 
 - *Customer Name and Address*   
   The customer name and address is displayed, when the bill list is assigned to a customer. This field is read-only.
@@ -105,16 +105,16 @@ This section is only displayed when no voucher has been redeemed.
 - [+ DISCOUNT]   
   Click this button to apply a discount to the bill. The *Discount on bill* view is displayed. This button is only displayed when no discount has been selected.
 
-- [Discount ![Calculator](/Assets/Icons/Calculator02.png "[Calculator]") ]      
+- [Discount ![Calculator](../../Assets/Icons/Calculator02.png "[Calculator]") ]      
   Selected discount. Click this button to edit the discount. This button is only displayed when a discount is selected.
 
-- ![Remove Discount](/Assets/Icons/Cross06.png "[Remove Discount]") (Remove Discount)    
+- ![Remove Discount](../../Assets/Icons/Cross06.png "[Remove Discount]") (Remove Discount)    
   Click this button to remove the discount. The button is only displayed when a discount is selected.
 
 - *Voucher (xxxxxxx)*   
   Redeemed voucher with the voucher code in brackets. The remaining amount of the voucher is displayed on the left, the amount of the voucher to be credited on the right. This field is read-only.
 
-- ![Remove Voucher](/Assets/Icons/Cross06.png "[Remove Voucher]") (Remove Voucher)    
+- ![Remove Voucher](../../Assets/Icons/Cross06.png "[Remove Voucher]") (Remove Voucher)    
   Click this button to remove the voucher. The button is only displayed when a voucher is redeemed.
 
 - *Total:*   
@@ -137,26 +137,26 @@ This section is only displayed when no voucher has been redeemed.
 
 **-- or --**
 
-- [ ![Terminal](/Assets/Icons/Terminal.png "[Terminal]") MANUELLES ZAHLEN AM TERMINAL]   
+- [ ![Terminal](../../Assets/Icons/Terminal.png "[Terminal]") MANUELLES ZAHLEN AM TERMINAL]   
   Click this button to pay cashless. The *Cashless payment* view is displayed.
 
 ## Cash payment
 *Venduo POS > Sales > Select Store and Pay Desk > Tab CASHPOINT > [PAY] > [CASH]*
 
-![Cash payment](/Assets/Screenshots/POS/Sales/Cashpoint/BillList/CashPayment.png "[Cash payment]")
+![Cash payment](../../Assets/Screenshots/POS/Sales/Cashpoint/BillList/CashPayment.png "[Cash payment]")
 
 - *Amount*   
   Enter the cash amount given by the customer using the number buttons or typing the amount directly into the field.
 
 - *Number field*   
   Use the number buttons to enter the cash amount given by the customer.
-  - ![Delete entry](/Assets/Icons/Trash05.png "[Delete entry]") (Delete entry)   
+  - ![Delete entry](../../Assets/Icons/Trash05.png "[Delete entry]") (Delete entry)   
     Click this button to delete the entered amount.
 
-  - ![Delete last character](/Assets/Icons/Back03.png "[Delete last character]") (Delete last character)   
+  - ![Delete last character](../../Assets/Icons/Back03.png "[Delete last character]") (Delete last character)   
     Click this button to delete the last number (or character) entered in the field *Amount*.
 
-- ![Back](/Assets/Icons/Back01.png "[Back]") (Back)   
+- ![Back](../../Assets/Icons/Back01.png "[Back]") (Back)   
   Click this button to cancel the cash payment and return to the payment view.
 
 - [Pay]   
@@ -169,7 +169,7 @@ This section is only displayed when no voucher has been redeemed.
 
 The *Payment Pending* view is displayed when the cash payment has been confirmed. When the cash payment process has been completed, the *Payment Successful* view is automatically displayed.
 
-![Payment Pending](/Assets/Screenshots/POS/Sales/Cashpoint/BillList/PaymentPending.png "[Payment Pending]")
+![Payment Pending](../../Assets/Screenshots/POS/Sales/Cashpoint/BillList/PaymentPending.png "[Payment Pending]")
 
 - *Total*   
   Total bill amount. This field is read-only.
@@ -185,7 +185,7 @@ The *Payment Pending* view is displayed when the cash payment has been confirmed
 
 The *Payment Successful* view is automatically displayed when the cash payment process has been successfully completed.
 
-![Payment Successful](/Assets/Screenshots/POS/Sales/Cashpoint/BillList/PaymentSuccessful.png "[Payment Successful]")
+![Payment Successful](../../Assets/Screenshots/POS/Sales/Cashpoint/BillList/PaymentSuccessful.png "[Payment Successful]")
 
 - *Total*   
   Total bill amount. This field is read-only.
@@ -203,10 +203,10 @@ The *Payment Successful* view is automatically displayed when the cash payment p
 ## Cashless payment
 *Venduo POS > Sales > Select Store and Pay Desk > Tab CASHPOINT > [PAY] > [MANUELLES ZAHLEN AM TERMINAL]*
 
-![Cashless payment](/Assets/Screenshots/POS/Sales/Cashpoint/BillList/CashlessPayment.png "[Cashless payment]")  
+![Cashless payment](../../Assets/Screenshots/POS/Sales/Cashpoint/BillList/CashlessPayment.png "[Cashless payment]")  
 
 - *Card type*   
-  Click the drop-down list to select the used card type or payment method. By default, the payment methods below are available. Additional cashless payment methods can be defined in the Global Settings, see [Zahlungsweisen (manuelle Zahlung Terminal)](02a_GlobalSettings.md#zahlungsweisen-manuelle-zahlung-terminal).  
+  Click the drop-down list to select the used card type or payment method. By default, the payment methods below are available. Additional cashless payment methods can be defined in the Global Settings, see [Zahlungsweisen (manuelle Zahlung Terminal)](./02a_GlobalSettings.md#zahlungsweisen-manuelle-zahlung-terminal).  
   - **Debit card**
   - **Credit card**
   - **Paypal**    
@@ -223,7 +223,7 @@ The *Payment Successful* view is automatically displayed when the cash payment p
 
 The *Payment at terminal* view is automatically displayed when the cash payment process has been successfully completed.
 
-![Payment at terminal](/Assets/Screenshots/POS/Sales/Cashpoint/BillList/PaymentTerminal.png "[Payment at terminal]")
+![Payment at terminal](../../Assets/Screenshots/POS/Sales/Cashpoint/BillList/PaymentTerminal.png "[Payment at terminal]")
 
 - *Total*   
   Total bill amount. This field is read-only.
@@ -242,24 +242,24 @@ The *Payment at terminal* view is automatically displayed when the cash payment 
 ## Add customer
 *Venduo POS > Sales > Select Store and Pay Desk > Tab CASHPOINT > Button Add Customer*
 
-![Add Customer](/Assets/Screenshots/POS/Sales/Cashpoint/BillList/AddCustomer01.png "[Add Customer]")
+![Add Customer](../../Assets/Screenshots/POS/Sales/Cashpoint/BillList/AddCustomer01.png "[Add Customer]")
 
-- ![Cancel](/Assets/Icons/Cross02.png "[Cancel]") (Cancel)   
+- ![Cancel](../../Assets/Icons/Cross02.png "[Cancel]") (Cancel)   
   Click this button to cancel the operation and close the *Add Customer* view.
 
-- *Find existing customer... ![Search](/Assets/Icons/Search.png "[Search]")*    
+- *Find existing customer... ![Search](../../Assets/Icons/Search.png "[Search]")*    
   Enter the customer name you search for in the search bar. Click a customer in the list of search results to assign the bill to the customer.
 
-- [ ![Create Customer](/Assets/Icons/Customer01.png "[Create Customer]") Create Customer]   
+- [ ![Create Customer](../../Assets/Icons/Customer01.png "[Create Customer]") Create Customer]   
   Click this button to register a customer. The *Create Customer* view is displayed.
 
 
 ## Create customer
 *Venduo POS > Sales > Select Store and Pay Desk > Tab CASHPOINT > Button Add Customer > Button Create Customer*
 
-![Create Customer](/Assets/Screenshots/POS/Sales/Cashpoint/BillList/AddCustomer02.png "[Create Customer]")
+![Create Customer](../../Assets/Screenshots/POS/Sales/Cashpoint/BillList/AddCustomer02.png "[Create Customer]")
 
-- ![Cancel](/Assets/Icons/Cross02.png "[Cancel]") (Cancel)   
+- ![Cancel](../../Assets/Icons/Cross02.png "[Cancel]") (Cancel)   
   Click this button to cancel the operation and close the *Add Customer* view.
 
 - *Title*   
@@ -293,19 +293,19 @@ The *Payment at terminal* view is automatically displayed when the cash payment 
   Enter the country of the customer's address.
 
 
-- ![Arrow Back](/Assets/Icons/Back01.png "[Arrow Back]") (Back)   
+- ![Arrow Back](../../Assets/Icons/Back01.png "[Arrow Back]") (Back)   
   Click this button to cancel the registration of the customer and close the current view.
 
-- [ ![Create Customer](/Assets/Icons/Customer01.png "[Create Customer]") Create Customer]   
+- [ ![Create Customer](../../Assets/Icons/Customer01.png "[Create Customer]") Create Customer]   
   Click this button to register the customer and assign the bill to the customer. The *Add Customer* view is closed and the bill list is displayed again.
 
 
 ## Discount on bill
 *Venduo POS > Sales > Select Store and Pay Desk > Tab CASHPOINT > [PAY] > [+ DISCOUNT]*
 
-![Discount on bill](/Assets/Screenshots/POS/Sales/Cashpoint/BillList/DiscountBill.png "[Discount on bill]")
+![Discount on bill](../../Assets/Screenshots/POS/Sales/Cashpoint/BillList/DiscountBill.png "[Discount on bill]")
 
-- ![Percent](/Assets/Icons/Percent.png "[Percent]") (Percent)   
+- ![Percent](../../Assets/Icons/Percent.png "[Percent]") (Percent)   
   Click this button to select percentage as the type of discount. By default, the percentage discount is preselected.
 
 - *Description*   
@@ -319,13 +319,13 @@ The *Payment at terminal* view is automatically displayed when the cash payment 
 
 - - *Number field*   
   Use the number buttons to enter the discount.
-  - ![Delete entry](/Assets/Icons/Trash05.png "[Delete entry]") (Delete entry)   
+  - ![Delete entry](../../Assets/Icons/Trash05.png "[Delete entry]") (Delete entry)   
     Click this button to delete the entered discount.
 
-  - ![Delete last character](/Assets/Icons/Back03.png "[Delete last character]") (Delete last character)   
+  - ![Delete last character](../../Assets/Icons/Back03.png "[Delete last character]") (Delete last character)   
     Click this button to delete the last number (or character) of the discount entered.
 
-- ![Back](/Assets/Icons/Back01.png "[Back]") (Back)   
+- ![Back](../../Assets/Icons/Back01.png "[Back]") (Back)   
   Click this button to cancel the discount on the bill and return to the payment view.
 
 - [APPLY DISCOUNT]   
@@ -335,15 +335,15 @@ The *Payment at terminal* view is automatically displayed when the cash payment 
 ## Product details
 *Venduo POS > Sales > Select Store and Pay Desk > Tab CASHPOINT > Select Product in the Bill List*
 
-![Product Details](/Assets/Screenshots/POS/Sales/Cashpoint/BillList/ProductDetails.png "[Product Details]")
+![Product Details](../../Assets/Screenshots/POS/Sales/Cashpoint/BillList/ProductDetails.png "[Product Details]")
 
 - *Quantity*
   Quantity of the selected product in the bill list.
 
-- ![Minus](/Assets/Icons/Minus.png "[Minus]") (Minus)  
+- ![Minus](../../Assets/Icons/Minus.png "[Minus]") (Minus)  
   Click this button to decrease the quantity in the field *Quantity* by 1. The button is locked, when the quantity equals 1.
 
-- ![Plus](/Assets/Icons/Plus03.png "[Plus]") (Plus)  
+- ![Plus](../../Assets/Icons/Plus03.png "[Plus]") (Plus)  
   Click this button to increase the quantity in the field *Quantity* by 1.
 
 - *Discount*   
@@ -358,10 +358,10 @@ The *Payment at terminal* view is automatically displayed when the cash payment 
 - *Price*   
   Price of the selected product in the bill list.
 
--  ![Edit](/Assets/Icons/Edit02.png "[Edit]") (Edit)   
+-  ![Edit](../../Assets/Icons/Edit02.png "[Edit]") (Edit)   
   Click this button to unlock the price field and edit the price of the selected product.
 
-- ![Back](/Assets/Icons/Back01.png "[Back]") (Back)   
+- ![Back](../../Assets/Icons/Back01.png "[Back]") (Back)   
   Click this button to cancel the changes to the product and return to the bill list.
 
 - [Save]   
