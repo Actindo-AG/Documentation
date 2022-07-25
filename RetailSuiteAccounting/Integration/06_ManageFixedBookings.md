@@ -1,4 +1,6 @@
-[!!Accounting](RetailSuiteAccounting)
+[!!User Interface fixed bookings](../UserInterface/02f_FixedBookings.md)
+[!!User Interface fiscal year](../UserInterface/00a_FiscalYear.md)
+[!!Select a fiscal year](../Operation/01_SelectFiscalYear.md)
 
 # Manage the fixed bookings
 
@@ -11,12 +13,12 @@ To be able to create fixed bookings, an existing batch must be selected or a new
 
 You can create a fixed booking batch that is not yet available in the system.
 
-### Prerequisites
+#### Prerequisites
 
 - The accounting is configured via the configuration wizard, see [Run the accounting wizard](01_RunAccountingWizard.md).
 - A valid fiscal year is created, see [Create a fiscal year](04_ManageFiscalYear.md#create-a-fiscal-year).
 
-### Procedure
+#### Procedure
 
 *Accounting > Select the fiscal year > Settings > Tab FIXED BOOKINGS*
 
@@ -31,30 +33,18 @@ You can create a fixed booking batch that is not yet available in the system.
 3. Click the [CREATE] button.   
 A new window opens where the new fixed bookings can be registered.
 
-### Next steps
-
-- [Delete a fixed booking batch](#delete-a-fixed-booking-batch)
-- [Create a fixed booking](#create-a-fixed-booking)
-- [Edit a fixed booking](#edit-a-fixed-booking)
-- [Delete a fixed booking](#delete-a-fixed-booking)
-- [Manage the BWA reports](07_ManageBWAReports.md)
-
-### See also
-
-- [FESTBUCHUNGEN](/RetailSuiteAccounting/UserInterface/00_UserInterface.md)
-
 
 ## Delete a fixed booking batch
 
 You can delete an existing fixed booking batch if it is no longer applicable.
 
-### Prerequisites
+#### Prerequisites
 
 - The accounting is configured via the configuration wizard, see [Run the accounting wizard](01_RunAccountingWizard.md).
 - A valid fiscal year is created, see [Create a fiscal year](04_ManageFiscalYear.md#create-a-fiscal-year).
 - A fixed booking batch is created, see [Create a fixed booking batch](#create-a-fixed-booking-batch).
 
-### Procedure
+#### Procedure
 
 *Accounting > Select the fiscal year > Settings > Tab FIXED BOOKINGS*
 
@@ -69,29 +59,18 @@ A window comes up asking for confirmation. The selected fixed booking batch is d
 
   > [Info] You may need to refresh the page with the F5 key to see the changes in the Fixed booking batch drop-down list.
 
-### Next steps
-
-  - [Create a fixed booking](#create-a-fixed-booking)
-  - [Edit a fixed booking](#edit-a-fixed-booking)
-  - [Delete a fixed booking](#delete-a-fixed-booking)
-  - [Manage the BWA reports](07_ManageBWAReports.md)
-
-### See also
-
-  - [FESTBUCHUNGEN](/RetailSuiteAccounting/UserInterface/00_UserInterface.md)
-
 
 ## Create a fixed booking
 
 You add fixed bookings to an existing or a newly created fixed booking batch.
 
-### Prerequisites
+#### Prerequisites
 
 - The accounting is configured via the configuration wizard, see [Run the accounting wizard](01_RunAccountingWizard.md).
 - A valid fiscal year is created, see [Create a fiscal year](04_ManageFiscalYear.md#create-a-fiscal-year).
 - A fixed booking batch is created, see [Create a fixed booking batch](#create-a-fixed-booking-batch).
 
-### Procedure
+#### Procedure
 
 *Accounting > Select the fiscal year > Settings > Tab FIXED BOOKINGS*
 
@@ -127,16 +106,6 @@ A message in the window upper left corner confirms that the booking is registere
 The booking is now saved in the batch.
 
  > [Info] If you click the [CANCEL] button, the fixed booking will not be saved.
-
-### Next steps
-
-- [Edit a fixed booking](#edit-a-fixed-booking)
-- [Delete a fixed booking](#delete-a-fixed-booking)
-- [Manage the BWA reports](07_ManageBWAReports.md)
-
-### See also
-
-- [FESTBUCHUNGEN](/RetailSuiteAccounting/UserInterface/00_UserInterface.md)
 
 
 ## Edit a fixed booking
@@ -176,28 +145,19 @@ The edited fixed booking is now saved in the batch.
 
   > [Info] If you click the [CANCEL] button, the changes will not be saved.
 
-### Next steps
-
-- [Delete a fixed booking](#delete-a-fixed-booking)
-- [Manage the BWA reports](07_ManageBWAReports.md)
-
-### See also
-
-- [FESTBUCHUNGEN](/RetailSuiteAccounting/UserInterface/00_UserInterface.md)
-
 
 ## Delete a fixed booking
 
 You can delete an existing fixed booking in a fixed booking batch.
 
-### Prerequisites
+#### Prerequisites
 
 - The accounting is configured via the configuration wizard, see [Run the accounting wizard](01_RunAccountingWizard.md).
 - A valid fiscal year is created, see [Create a fiscal year](04_ManageFiscalYear.md#create-a-fiscal-year).
 - A fixed booking batch is created, see [Create a fixed booking batch](#create-a-fixed-booking-batch).
 - A fixed booking is created, see [Create a fixed booking](#create-a-fixed-booking).
 
-### Procedure
+#### Procedure
 
 *Accounting > Select the fiscal year > Settings > Tab FIXED BOOKINGS*
 
@@ -220,11 +180,3 @@ A window comes up asking for confirmation. The selected fixed booking is deleted
 The deletion is now saved in the batch.
 
  > [Info] If you click the [CANCEL] button, the deletion will not be saved.
-
-### Next steps
-
-- [Manage the BWA reports](07_ManageBWAReports.md)
-
-### See also
-
-- [FESTBUCHUNGEN](/RetailSuiteAccounting/UserInterface/00_UserInterface.md)

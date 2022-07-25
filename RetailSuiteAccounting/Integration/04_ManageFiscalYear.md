@@ -1,4 +1,6 @@
-[!!Accounting](RetailSuiteAccounting)
+[!!User Interface fiscal year](../UserInterface/00a_FiscalYear.md.md)
+[!!User Interface fiscal years](../UserInterface/02d_FiscalYears.md)
+[!!Select fiscal year](../Operation/01_SelectFiscalYear.md)
 
 # Manage the fiscal year
 
@@ -10,11 +12,11 @@ The fiscal year is set up during the configuration process via the accounting wi
 
 You can create a fiscal year that is not yet available in the system.
 
-### Prerequisites
+#### Prerequisites
 
 - The accounting is configured via the configuration wizard, see [Run the accounting wizard](01_RunAccountingWizard.md).
 
-### Procedure
+#### Procedure
 
 *Accounting > Select the fiscal year > Settings > Tab FISCAL YEARS*
 
@@ -45,31 +47,17 @@ You can create a fiscal year that is not yet available in the system.
 6. Click the [SAVE & NEW] button.  
 The new fiscal year is created. A small pop-up window confirms that the new fiscal year has been saved. The newly created fiscal year is displayed in the list.
 
-### Next steps
-
-- [Edit a fiscal year](#edit-a-fiscal-year)
-- [Delete a fiscal year](#delete-a-fiscal-year)
-- [Manage the customer/supplier](05_ManageCustomerSupplier.md)
-- [Manage the fixed bookings](06_ManageFixedBookings.md)
-- [Manage the BWA reports](07_ManageBWAReports.md)
-
-### See also
-
-- [Financial year](/RetailSuiteAccounting/UserInterface/00_UserInterface.md)
-- [Financial years](/RetailSuiteAccounting/UserInterface/00_UserInterface.md)
-- [Select the financial year](/RetailSuiteAccounting/Operation/01_SelectFiscalYear.md)
-
 
 ## Edit a fiscal year
 
 You can edit an available fiscal year, for example if a setting must be changed.
 
-### Prerequisites
+#### Prerequisites
 
 - The accounting is configured via the configuration wizard, see [Run the accounting wizard](01_RunAccountingWizard.md).
 - A valid fiscal year is created, see [Create a fiscal year](#create-a-fiscal-year).
 
-### Procedure
+#### Procedure
 
 *Accounting > Select the fiscal year > Settings > Tab FISCAL YEARS*
 
@@ -85,30 +73,17 @@ The existing data for the selected fiscal year are displayed in the correspondin
 3. Click the [SAVE] button.   
 The fiscal year has been edited. The edited fiscal year is displayed in the list.
 
-### Next steps
-
-- [Delete a fiscal year](#delete-a-fiscal-year)
-- [Manage the customer/supplier](05_ManageCustomerSupplier.md)
-- [Manage the fixed bookings](06_ManageFixedBookings.md)
-- [Manage the BWA reports](07_ManageBWAReports.md)
-
-### See also
-
-- [Financial year](/RetailSuiteAccounting/UserInterface/00_UserInterface.md)
-- [Financial years](/RetailSuiteAccounting/UserInterface/00_UserInterface.md)
-- [Select the financial year](/RetailSuiteAccounting/Operation/01_SelectFiscalYear.md)
-
 
 ## Delete a fiscal year
 
 You can delete an existing fiscal year, for example if it is no longer applicable.
 
-### Prerequisites
+#### Prerequisites
 
 - The accounting is configured via the configuration wizard, see [Run the accounting wizard](01_RunAccountingWizard.md).
 - A valid fiscal year is created, see [Create a fiscal year](#create-a-fiscal-year).
 
-### Procedure
+#### Procedure
 
 *Accounting > Select the fiscal year > Settings > Tab FISCAL YEARS*
 
@@ -119,15 +94,3 @@ You can delete an existing fiscal year, for example if it is no longer applicabl
 
 2. Click the [DELETE] button.  
 The selected fiscal year will be deleted.
-
-### Next steps
-
-- [Manage the customer/supplier](05_ManageCustomerSupplier.md)
-- [Manage the fixed bookings](06_ManageFixedBookings.md)
-- [Manage the BWA reports](07_ManageBWAReports.md)
-
-### See also
-
-- [Financial year](/RetailSuiteAccounting/UserInterface/00_UserInterface.md)
-- [Financial years](/RetailSuiteAccounting/UserInterface/00_UserInterface.md)
-- [Select the financial year](/RetailSuiteAccounting/Operation/01_SelectFiscalYear.md)

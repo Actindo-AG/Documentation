@@ -1,4 +1,7 @@
-[!!Accounting](RetailSuiteAccounting)
+[!!User Interface BWA assignment](../UserInterface/02i_BWAAssignment.md)
+[!!User Interface evaluations](../UserInterface/01_Book.md#evaluations)
+[!!Create a PDF evaluation](../Operation/15_ProvideAccountingData.md#create-a-pdf-evaluation)
+
 
 # Manage the BWA reports
 
@@ -17,12 +20,12 @@ When customizing existing reports, bear in mind that the reports use the standar
 
 You can create a BWA report that is not yet available in the system.
 
-### Prerequisites
+#### Prerequisites
 
 - The accounting is configured via the configuration wizard, see [Run the accounting wizard](01_RunAccountingWizard.md).
 - A valid fiscal year is created, see [Create a fiscal year](04_ManageFiscalYear.md#create-a-fiscal-year).
 
-### Procedure
+#### Procedure
 
 *Accounting > Select the fiscal year > Settings > Tab BWA ASSIGNMENT*
 
@@ -48,35 +51,25 @@ The *Create* section is displayed.
 
   ![Create report lines](/Assets/Screenshots/RetailSuiteAccounting/Settings/BWAAssignment/CreateReportLines02.png "[Create report lines]")
 
-6. Enter any relevant information in the corresponding fields. You can also add different formulas to it. For detailed information, see [BWA assignment](/RetailSuiteAccounting/UserInterface/XX_BWAAssignment.md).
+6. Enter any relevant information in the corresponding fields. You can also add different formulas to it. For detailed information, see [BWA assignment](../UserInterface/02i_BWAAssignment.md).
 
 7. Click the [SAVE] button.  
 The new report lines have been saved in the report.
-
-### Next steps
-
-- [Edit a BWA report](#edit-a-BWA-report)
-- [Delete a BWA report](#delete-a-BWA-report)
-
-### See also
-
-- [BWA](/RetailSuiteAccounting/UserInterface/XX_BWA.md)
-- [BWA assignment](/RetailSuiteAccounting/UserInterface/XX_BWAAssignment.md)
 
 
 ## Edit a BWA report
 
 You can edit an existing BWA report to make any necessary changes, for example, change the report name and layout, and edit or delete report lines.
 
- > [Warning] Be aware that any changes made to an existing BWA report will overwrite the existing values. If you are taking one of the predefined system reports as a basis, it is highly recommended to make a copy of it first. For detailed information, see [BWA assignment](/RetailSuiteAccounting/UserInterface/XX_BWAAssignment.md).
+ > [Warning] Be aware that any changes made to an existing BWA report will overwrite the existing values. If you are taking one of the predefined system reports as a basis, it is highly recommended to make a copy of it first. For detailed information, see [BWA assignment](../UserInterface/02i_BWAAssignment.md).
 
-### Prerequisites
+#### Prerequisites
 
 - The accounting is configured via the configuration wizard, see [Run the accounting wizard](01_RunAccountingWizard.md).
 - A valid fiscal year is created, see [Create a fiscal year](04_ManageFiscalYear.md#create-a-fiscal-year).
 - A BWA report is created, see [Create a BWA report](#create-a-BWA-report).
 
-### Procedure
+#### Procedure
 
 *Accounting > Select the fiscal year > Settings > Tab BWA ASSIGNMENT*
 
@@ -120,27 +113,18 @@ The existing BWA report has been edited.
 
 [comments]: <> (clear with HG: you can also edit the BWA report/the accounting report lines by clicking on the report name or line name -> same editing options as described above are displayed. Shall we describe it as an alternative or better not?)
 
-### Next steps
-
-- [Delete a BWA report](#delete-a-BWA-report)
-
-### See also
-
-- [BWA](/RetailSuiteAccounting/UserInterface/XX_BWA.md)
-- [BWA assignment](/RetailSuiteAccounting/UserInterface/XX_BWAAssignment.md)
-
 
 ## Delete a BWA report
 
 You can delete an existing BWA report, either one of the predefined system reports or a newly created one.
 
-### Prerequisites
+#### Prerequisites
 
 - The accounting is configured via the configuration wizard, see [Run the accounting wizard](01_RunAccountingWizard.md).
 - A valid fiscal year is created, see [Create a fiscal year](04_ManageFiscalYear.md#create-a-fiscal-year).
 - A BWA report is created, see [Create a BWA report](#create-a-BWA-report).
 
-### Procedure
+#### Procedure
 
 *Accounting > Select the fiscal year > Settings > Tab BWA ASSIGNMENT*
 
@@ -153,13 +137,3 @@ The toolbar is displayed in the right upper corner.
 
 2. Click the ![Delete](/Assets/Icons/Trash03.png "[Delete]") (Delete) button to delete the BWA report.  
 The selected BWA report is deleted.
-
-
-### Next steps
-
-- [Select a fiscal year](01_SelectFiscalYear.md)
-
-### See also
-
-- [BWA](/RetailSuiteAccounting/UserInterface/XX_BWA.md)
-- [BWA assignment](/RetailSuiteAccounting/UserInterface/XX_BWAAssignment.md)

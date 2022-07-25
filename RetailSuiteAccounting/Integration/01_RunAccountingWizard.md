@@ -1,4 +1,6 @@
-[!!Accounting](RetailSuiteAccounting)
+[!!User Interface fiscal years](../UserInterface/02d_FiscalYears.md)
+[!!Manage the accounts](./03_ManageAccounts.md)
+[!!Manage the fiscal year](./02_ManageFiscalYear.md)
 
 # Run the accounting wizard
 
@@ -8,11 +10,11 @@ In order to use the *Accounting* module, you need to configure the master data f
 
 The accounting wizard starts automatically when opening the *Accounting* module for the first time. You can cancel the accounting wizard and run it at a later point. In this case, the [START WIZARD] button will be displayed when accessing the *Accounting* module again. Click then the [START WIZARD] button. The accounting wizard will help you enter all necessary data step by step.
 
-## Prerequisites
+#### Prerequisites
 
 No prerequisites to fulfill.
 
-## Procedure
+#### Procedure
 
 ### Start wizard
 
@@ -105,18 +107,3 @@ In the *Installation completed* wizard window all three progress steps are now c
 
 Now click the [FINALIZE] button.     
 The accounting wizard closes and the system loads all data. This may take a few seconds. Then, the fiscal year selection window is displayed.
-
-### Next steps
-
-- [Manage the tax keys](02_ManageTaxKeys.md)
-- [Manage the accounts](03_ManageAccounts.md)
-- [Manage the fiscal year](04_ManageFiscalYear.md)
-- [Manage the customer/supplier](05_ManageCustomerSupplier.md)
-- [Manage the fixed bookings](06_ManageFixedBookings.md)
-- [Manage the BWA reports](07_ManageBWAReports.md)
-
-### See also
-
-- [General information](/RetailSuiteAccounting/UserInterface/XX_GeneralInformation.md)
-- [Fiscal year](/RetailSuiteAccounting/UserInterface/XX_FiscalYear.md)
-- [Chart of accounts](/RetailSuiteAccounting/UserInterface/XX_ChartAccounts.md)

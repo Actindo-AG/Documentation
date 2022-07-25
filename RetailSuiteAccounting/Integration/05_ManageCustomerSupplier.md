@@ -1,8 +1,9 @@
-[!!Accounting](RetailSuiteAccounting)
+[!!Invoicing](RetailSuiteFaktBase)
+[!!User Interface debtors/creditors](../UserInterface/02a_DebtorsCreditors.md)
 
 # Manage the customer/supplier
 
-The *Accounting* module contains a function to create new customers and suppliers, and to enter all relevant information about them. This function is also available in the *Invoicing* module, see [Invoicing](XX_FileName.md#headingID). This information is needed for both modules to operate.
+The *Accounting* module contains a function to create new customers and suppliers, and to enter all relevant information about them. This function is also available in the *Invoicing* module. This information is needed for both modules to operate.
 
 > [Info] Any customer/supplier information created, edited or deleted in the *Accounting* module will be also be created, edited or deleted in the *Invoicing* module, and vice versa. It may be necessary to refresh the page with the F5 key, though, to see the changes in the *Customer/supplier list* tab.
 
@@ -11,12 +12,12 @@ The *Accounting* module contains a function to create new customers and supplier
 
 You can create a customer/supplier that is not yet available in the system.
 
-### Prerequisites
+#### Prerequisites
 
 - The accounting is configured via the configuration wizard, see [Run the accounting wizard](01_RunAccountingWizard.md).
 - A valid fiscal year is created, see [Create a fiscal year](04_ManageFiscalYear.md#create-a-fiscal-year).
 
-### Procedure
+#### Procedure
 
 *Accounting > Select the fiscal year > Settings > Tab DEBTORS/CREDITORS > Tab Create customer/supplier*
 
@@ -41,32 +42,18 @@ You can create a customer/supplier that is not yet available in the system.
 7. Click the [SAVE] button.  
 A pop-up window is displayed to confirm that the customer/supplier has been created. The newly created customer/supplier is displayed in the *Customer/supplier list* tab.
 
-### Next steps
-
-- [Edit a customer/supplier](#edit-a-customer-supplier)
-- [Delete a customer/supplier](#delete-a-customer-supplier)
-- [Manage the fixed bookings](06_ManageFixedBookings.md)
-- [Manage the BWA reports](07_ManageBWAReports.md)
-
-### See also
-
-- [Deb/Kred.](/RetailSuiteAccounting/UserInterface/00_UserInterface.md)
-- [DEB./KREDITOREN](/RetailSuiteAccounting/UserInterface/00_UserInterface.md)
-- [Adresse/Kontakt](/RetailSuiteAccounting/UserInterface/00_UserInterface.md)
-- [Lieferadressen / Weitere Adressen](/RetailSuiteAccounting/UserInterface/00_UserInterface.md)
-
 
 ## Edit a customer/supplier
 
 You can edit an existing customer/supplier, for example if a setting must be changed.
 
-### Prerequisites
+#### Prerequisites
 
 - The accounting is configured via the configuration wizard, see [Run the accounting wizard](01_RunAccountingWizard.md).
 - A valid fiscal year is created, see [Create a fiscal year](04_ManageFiscalYear.md#create-a-fiscal-year).
 - A customer/supplier is created, see [Create a customer/supplier](#create-a-customer-supplier).
 
-### Procedure
+#### Procedure
 
 *Accounting > Select the fiscal year > Settings > Tab DEBTORS/CREDITORS > Tab Customer/supplier list*
 
@@ -84,31 +71,18 @@ A pop-up window is displayed to confirm that the customer/supplier has been edit
 
   > [Info] It may be necessary to refresh the page with the F5 key to see the changes in the *Customer/supplier list* tab.
 
-### Next steps
-
-- [Delete a customer/supplier](#delete-a-customer-supplier)
-- [Manage the fixed bookings](06_ManageFixedBookings.md)
-- [Manage the BWA reports](07_ManageBWAReports.md)
-
-### See also
-
-- [Deb/Kred.](/RetailSuiteAccounting/UserInterface/00_UserInterface.md)
-- [DEB./KREDITOREN](/RetailSuiteAccounting/UserInterface/00_UserInterface.md)
-- [Adresse/Kontakt](/RetailSuiteAccounting/UserInterface/00_UserInterface.md)
-- [Lieferadressen / Weitere Adressen](/RetailSuiteAccounting/UserInterface/00_UserInterface.md)
-
 
 ## Delete a customer/supplier
 
 You can delete an existing customer/supplier, for example if it is no longer applicable.
 
-### Prerequisites
+#### Prerequisites
 
 - The accounting is configured via the configuration wizard, see [Run the accounting wizard](01_RunAccountingWizard.md).
 - A valid fiscal year is created, see [Create a fiscal year](04_ManageFiscalYear.md#create-a-fiscal-year).
 - A customer/supplier is created, see [Create a customer/supplier](#create-a-customer-supplier).
 
-### Procedure
+#### Procedure
 
 *Accounting > Select the fiscal year > Settings > Tab DEBTORS/CREDITORS > Tab Customer/supplier list*
 
@@ -121,15 +95,3 @@ You can delete an existing customer/supplier, for example if it is no longer app
 The selected customer/supplier is deleted.
 
 [comment]: <> (Schaltfläche heißt nicht genau [LÖSCHEN] sondern [KUNDE (Kundennr.) LÖSCHEN] oder [LIEFERANT (Lieferantnr.) LÖSCHEN]). Gibt es eine bessere Lösung?
-
-### Next steps
-
-- [Manage the fixed bookings](06_ManageFixedBookings.md)
-- [Manage the BWA reports](07_ManageBWAReports.md)
-
-### See also
-
-- [Deb/Kred.](/RetailSuiteAccounting/UserInterface/00_UserInterface.md)
-- [DEB./KREDITOREN](/RetailSuiteAccounting/UserInterface/00_UserInterface.md)
-- [Adresse/Kontakt](/RetailSuiteAccounting/UserInterface/00_UserInterface.md)
-- [Lieferadressen / Weitere Adressen](/RetailSuiteAccounting/UserInterface/00_UserInterface.md)

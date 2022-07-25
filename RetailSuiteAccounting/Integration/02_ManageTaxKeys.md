@@ -1,4 +1,7 @@
-[!!Accounting](RetailSuiteAccounting)
+[!!Invoicing](RetailSuiteFaktBase)
+[!!Taxes](Taxes)
+[!!User Interface tax keys](../UserInterface/02c_TaxKeys.md)
+
 
 # Manage the tax keys
 
@@ -9,12 +12,12 @@ Tax keys are a list of values, each of them linked to a specific tax rate. They 
 
 You can create a tax key that is not yet available in the list.
 
-### Prerequisites
+#### Prerequisites
 
 - The accounting is configured via the configuration wizard, see [Run the accounting wizard](01_RunAccountingWizard.md).
 - A valid fiscal year is created, see [Create a fiscal year](04_ManageFiscalYear.md#create-a-fiscal-year).
 
-### Procedure
+#### Procedure
 
 *Accounting > Select the fiscal year > Settings > Tab TAX KEYS*
 
@@ -49,34 +52,17 @@ The new tax key has been created.
 
     > [Info] If you inadvertently choose a tax key number that is already assigned, an error message will be displayed. Choose a different number to save your newly created tax key.
 
-### Next steps
-
-- [Edit a tax key](#edit-a-tax-key)
-- [Delete a tax key](#delete-a-tax-key)
-- [Manage the accounts](03_ManageAccounts.md)
-- [Manage the fiscal year](04_ManageFiscalYear.md)
-- [Manage the customer/supplier](05_ManageCustomerSupplier.md)
-- [Manage the fixed bookings](06_ManageFixedBookings.md)
-- [Manage the BWA reports](07_ManageBWAReports.md)
-
-### See also
-
-- [Tax keys](/RetailSuiteAccounting/UserInterface/00_UserInterface.md)
-- [SAP tax keys mapping](/RetailSuiteAccounting/UserInterface/00_UserInterface.md)
-- [Invoicing Settings Turnover treshold](#headingID)
-- [Leistungsarten / Steuersätze / Steuerklasse](#headingID)
-
 
 ## Edit a tax key
 
 You can edit an available tax key, for example if a tax rate needs to be updated.
 
-### Prerequisites
+#### Prerequisites
 
 - The accounting is configured via the configuration wizard, see [Run the accounting wizard](01_RunAccountingWizard.md).
 - A valid fiscal year is created, see [Create a fiscal year](04_ManageFiscalYear.md#create-a-fiscal-year).
 
-### Procedure
+#### Procedure
 
 *Accounting > Select the fiscal year > Settings > Tab TAX KEYS*
 
@@ -92,33 +78,17 @@ The existing data for the selected tax key are displayed in the corresponding fi
 3. Click the [SAVE] button.   
 The tax key has been edited. The edited tax key is displayed in the list.
 
-### Next steps
-
-- [Delete a tax key](#delete-a-tax-key)
-- [Manage the accounts](03_ManageAccounts.md)
-- [Manage the fiscal year](04_ManageFiscalYear.md)
-- [Manage the customer/supplier](05_ManageCustomerSupplier.md)
-- [Manage the fixed bookings](06_ManageFixedBookings.md)
-- [Manage the BWA reports](07_ManageBWAReports.md)
-
-### See also
-
-- [Tax keys](/RetailSuiteAccounting/UserInterface/00_UserInterface.md)
-- [SAP tax keys mapping](/RetailSuiteAccounting/UserInterface/00_UserInterface.md)
-- [Invoicing Settings Turnover treshold](#headingID)
-- [Leistungsarten / Steuersätze / Steuerklasse](#headingID)
-
 
 ## Delete a tax key
 
 You can delete an existing tax key, for example if it is no longer applicable.
 
-### Prerequisites
+#### Prerequisites
 
 - The accounting is configured via the configuration wizard, see [Run the accounting wizard](01_RunAccountingWizard.md).
 - A valid fiscal year is created, see [Create a fiscal year](04_ManageFiscalYear.md#create-a-fiscal-year).
 
-### Procedure
+#### Procedure
 
 *Accounting > Select the fiscal year > Settings > Tab TAX KEYS*
 
@@ -129,18 +99,3 @@ You can delete an existing tax key, for example if it is no longer applicable.
 
 2. Click the [DELETE] button.  
 The selected tax key will be deleted.
-
-### Next steps
-
-- [Manage the accounts](03_ManageAccounts.md)
-- [Manage the fiscal year](04_ManageFiscalYear.md)
-- [Manage the customer/supplier](05_ManageCustomerSupplier.md)
-- [Manage the fixed bookings](06_ManageFixedBookings.md)
-- [Manage the BWA reports](07_ManageBWAReports.md)
-
-### See also
-
-- [Tax keys](/RetailSuiteAccounting/UserInterface/00_UserInterface.md)
-- [SAP tax keys mapping](/RetailSuiteAccounting/UserInterface/00_UserInterface.md)
-- [Invoicing Turnover treshold activation](#headingID)
-- [Leistungsarten / Steuersätze / Steuerklasse](#headingID)

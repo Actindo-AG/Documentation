@@ -1,4 +1,5 @@
-[!!Accounting](RetailSuiteAccounting)
+[!!User Interface accounts](../UserInterface/02b_Accounts.md)
+[!!Review an account](../Operation/02_ReviewAccount.md)
 
 # Manage the accounts
 
@@ -11,14 +12,14 @@ The accounts are set up during the configuration process via the accounting wiza
 
 You may check the availability of a certain account number before creating it, as account numbers can only be assigned once.    
 Each account number is assigned to a specific number range, which indicates the account class.    
-For detailed information about the account classes, see [User Interface Accounting](/RetailSuiteAccounting/UserInterface/00_UserInterface.md).
+For detailed information about the account classes, see [User Interface accounts](../UserInterface/02b_Accounts.md).
 
-### Prerequisites
+#### Prerequisites
 
 - The accounting is configured via the configuration wizard, see [Run the accounting wizard](01_RunAccountingWizard.md).
 - A valid fiscal year is created, see [Create a fiscal year](04_ManageFiscalYear.md#create-a-fiscal-year).
 
-### Procedure
+#### Procedure
 
 *Accounting > Select the fiscal year > Settings > Tab ACCOUNTS*
 
@@ -29,35 +30,19 @@ For detailed information about the account classes, see [User Interface Accounti
 
 2. Check which account numbers are still available by navigating through the list.
 
-### Next steps
-
-- [Create an account](#create-an-account)
-- [Edit an account](#edit-an-account)
-- [Delete an account](#delete-an-account)
-- [Manage the fiscal year](04_ManageFiscalYear.md)
-- [Manage the customer/supplier](05_ManageCustomerSupplier.md)
-- [Manage the fixed bookings](06_ManageFixedBookings.md)
-- [Manage the BWA reports](07_ManageBWAReports.md)
-
-### See also
-
-- [User Interface Accounting](/RetailSuiteAccounting/UserInterface/00_UserInterface.md)
-- [Chart of accounts](/RetailSuiteAccounting/UserInterface/00_UserInterface.md)
-- [Accounts](/RetailSuiteAccounting/UserInterface/00_UserInterface.md)
-
 
 ## Create an account
 
 You can create an account that is not yet available in the system.
 
-### Prerequisites
+#### Prerequisites
 
 - The accounting is configured via the configuration wizard, see [Run the accounting wizard](01_RunAccountingWizard.md).
 - A valid fiscal year is created, see [Create a fiscal year](04_ManageFiscalYear.md#create-a-fiscal-year).
 - The account availability is checked, see [Check the account availability](#check-the-account-availability).
 - The tax key validity is checked and, if necessary, updated, see [Edit a tax key](02_ManageTaxKeys.md#edit-a-tax-key).
 
-### Procedure
+#### Procedure
 
 *Accounting > Select the fiscal year > Settings > Tab ACCOUNTS*
 
@@ -89,39 +74,24 @@ You can create an account that is not yet available in the system.
      - **(MT)Money transit account**
 
 
-6. Select the corresponding function for the account in the *Function* drop-down list. For detailed information, see [User Interface Accounting](/RetailSuiteAccounting/UserInterface/00_UserInterface.md).
+6. Select the corresponding function for the account in the *Function* drop-down list. For detailed information, see [User Interface accounts](../UserInterface/02b_Accounts.md).
 
 7. Click the *Currency* drop-down list and select the appropriate option.
 
 8. Click the [SAVE & NEW] button.   
   The account has been saved. The new account is displayed in the account list.
 
-### Next steps
-
-- [Edit an account](#edit-an-account)
-- [Delete an account](#delete-an-account)
-- [Manage the fiscal year](04_ManageFiscalYear.md)
-- [Manage the customer/supplier](05_ManageCustomerSupplier.md)
-- [Manage the fixed bookings](06_ManageFixedBookings.md)
-- [Manage the BWA reports](07_ManageBWAReports.md)
-
-### See also
-
-- [User Interface Accounting](/RetailSuiteAccounting/UserInterface/00_UserInterface.md)
-- [Chart of accounts](/RetailSuiteAccounting/UserInterface/00_UserInterface.md)
-- [Accounts](/RetailSuiteAccounting/UserInterface/00_UserInterface.md)
-
 
 ## Edit an account
 
 You can edit an existing account, for example if a tax rate needs to be updated.
 
-### Prerequisites
+#### Prerequisites
 
 - The accounting is configured via the configuration wizard, see [Run the accounting wizard](01_RunAccountingWizard.md).
 - A valid fiscal year is created, see [Create a fiscal year](04_ManageFiscalYear.md#create-a-fiscal-year).
 
-### Procedure
+#### Procedure
 
 *Accounting > Select the fiscal year > Settings > Tab ACCOUNTS*
 
@@ -137,21 +107,6 @@ You can edit an existing account, for example if a tax rate needs to be updated.
 
 4. Click the [SAVE] button.   
 The account has been edited. The edited account is displayed in the list.
-
-
-### Next steps
-
-   - [Delete an account](#delete-an-account)
-   - [Manage the fiscal year](04_ManageFiscalYear.md)
-   - [Manage the customer/supplier](05_ManageCustomerSupplier.md)
-   - [Manage the fixed bookings](06_ManageFixedBookings.md)
-   - [Manage the BWA reports](07_ManageBWAReports.md)
-
-### See also
-
-- [User Interface Accounting](/RetailSuiteAccounting/UserInterface/00_UserInterface.md)
-- [Chart of accounts](/RetailSuiteAccounting/UserInterface/00_UserInterface.md)
-- [Accounts](/RetailSuiteAccounting/UserInterface/00_UserInterface.md)
 
 
 ## Delete an account
@@ -174,16 +129,3 @@ You can delete an existing account, for example if it is no longer applicable.
 
 2. Click the [DELETE] button.  
 The selected account has been deleted.
-
-### Next steps
-
-- [Manage the fiscal year](04_ManageFiscalYear.md)
-- [Manage the customer/supplier](05_ManageCustomerSupplier.md)
-- [Manage the fixed bookings](06_ManageFixedBookings.md)
-- [Manage the BWA reports](07_ManageBWAReports.md)
-
-### See also
-
-- [User Interface Accounting](/RetailSuiteAccounting/UserInterface/00_UserInterface.md)
-- [Chart of accounts](/RetailSuiteAccounting/UserInterface/00_UserInterface.md)
-- [Accounts](/RetailSuiteAccounting/UserInterface/00_UserInterface.md)
