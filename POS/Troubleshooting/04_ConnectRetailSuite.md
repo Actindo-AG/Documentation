@@ -1,5 +1,5 @@
 [!!Settings](Settings)
-[!!User Interface Settings](/Settings/UserInterface/00_UserInterface.md)
+[!!User Interface Settings](../../Settings/UserInterface/00_UserInterface.md)
 
 
 # Establish the RetailSuite connection
@@ -23,12 +23,12 @@ If the connection to the Retailsuite is not working, there could be a problem wi
 
 *Settings > Platform Manager > Tab PLUGIN OVERVIEW*
 
-![Plugin Overview](/Assets/Screenshots/Settings/PlatformManager/PluginOverview.png "[Plugin Overview]")
+![Plugin Overview](../../Assets/Screenshots/Settings/PlatformManager/PluginOverview.png "[Plugin Overview]")
 
 1. In the *Available modules* section click the three points right to the *Plugin* section.   
   A context menu is displayed.
 
-  ![Context Menu](/Assets/Screenshots/Settings/PlatformManager/ContextMenu.png "[Context Menu]")
+  ![Context Menu](../../Assets/Screenshots/Settings/PlatformManager/ContextMenu.png "[Context Menu]")
 
 2. Click the *Filters* entry.   
   The checkbox of the *Filters* entry is selected. A search bar is displayed right to the *Filters* entry.   
@@ -41,19 +41,19 @@ If the connection to the Retailsuite is not working, there could be a problem wi
 4. Click the *UCS Sync for POS* plugin in the *Available modules* section and, using drag and drop, pull it in the *Installed modules* section on the right.   
   The plugin is displayed in the *Installed modules* section. The *Status* column indicates, if all dependencies for installing the plugin are fulfilled.
 
-  ![Install Plugin](/Assets/Screenshots/Settings/PlatformManager/InstallPlugin.png "[Install Plugin]")
+  ![Install Plugin](../../Assets/Screenshots/Settings/PlatformManager/InstallPlugin.png "[Install Plugin]")
 
   > [Info] Make sure that all dependencies are fulfilled before installing the plugin to guarantee the whole functionality.
 
 5. Click the [APPLY] button in the upper right corner of the *Installed modules* section.   
   The *Apply changes* window is displayed. The *Set sequence* tab is preselected. The *UCS Sync for POS* plugin is displayed in the list.
 
-  ![Set sequence](/Assets/Screenshots/Settings/PlatformManager/SetSequenceInstall.png "[Set sequence]")
+  ![Set sequence](../../Assets/Screenshots/Settings/PlatformManager/SetSequenceInstall.png "[Set sequence]")
 
 6. Click the [APPLY] button in the bottom right corner of the window.   
   The *Apply changes* tab is displayed.
 
-  ![Apply changes](/Assets/Screenshots/Settings/PlatformManager/ApplyChanges.png "[Apply changes]")
+  ![Apply changes](../../Assets/Screenshots/Settings/PlatformManager/ApplyChanges.png "[Apply changes]")
 
   The plugin is installed when the progress bar displays **100%**.
 
@@ -73,12 +73,12 @@ If the connection to the Retailsuite is not working, there could be a problem wi
 
 *Settings > Platform Manager > Tab PLUGIN OVERVIEW*
 
-![Plugin Overview](/Assets/Screenshots/Settings/PlatformManager/PluginOverview.png "[Plugin Overview]")
+![Plugin Overview](../../Assets/Screenshots/Settings/PlatformManager/PluginOverview.png "[Plugin Overview]")
 
 1. Double-click the row of the *UCS Sync for POS* plugin in the *Installed modules* section.  
   The fields of the plugin are unlocked.
 
-  ![UCS Sync for POS](/Assets/Screenshots/Settings/PlatformManager/UCSSyncPOS.png "[UCS Sync for POS]")
+  ![UCS Sync for POS](../../Assets/Screenshots/Settings/PlatformManager/UCSSyncPOS.png "[UCS Sync for POS]")
 
 2. Select the **Rerun the installer** option in the drop-down list of the *Action* column.
 
@@ -87,12 +87,12 @@ If the connection to the Retailsuite is not working, there could be a problem wi
 4. Click the [APPLY] button in the upper right corner of the *Installed modules* section.   
   The *Apply changes* window is displayed. The *Set sequence* tab is preselected. The *UCS Sync for POS* plugin is displayed in the list.
 
-  ![Set sequence](/Assets/Screenshots/Settings/PlatformManager/SetSequenceRerun.png "[Set sequence]")
+  ![Set sequence](../../Assets/Screenshots/Settings/PlatformManager/SetSequenceRerun.png "[Set sequence]")
 
 5. Click the [APPLY] button in the bottom right corner of the window.   
   The *Apply changes* tab is displayed. The plugin is updated when the progress bar displays **100%**.
 
-  ![Apply changes](/Assets/Screenshots/Settings/PlatformManager/ApplyChanges.png "[Apply changes]")
+  ![Apply changes](../../Assets/Screenshots/Settings/PlatformManager/ApplyChanges.png "[Apply changes]")
 
 6. Press **F5** to initialize the Core1 Platform.
 

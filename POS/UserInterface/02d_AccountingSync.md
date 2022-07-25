@@ -1,24 +1,24 @@
 # Accounting Sync
 *Venduo POS > Management > Tab ACCOUNTING SYNC*
 
-![Accounting sync](/Assets/Screenshots/POS/Management/AccountingSync/AccountingSync.png "[Accounting sync]")
+![Accounting sync](../../Assets/Screenshots/POS/Management/AccountingSync/AccountingSync.png "[Accounting sync]")
 
 - [KICK JOB]   
   Click this button to kick a job.
 
 - *Job Status:*   
   The status of the job is displayed. The following statuses are available:
-    - ![red](/Assets/Icons/Status02.png "[red]") (red):
-    - ![blue](/Assets/Icons/Status01.png "[blue]") (blue):
+    - ![red](../../Assets/Icons/Status02.png "[red]") (red):
+    - ![blue](../../Assets/Icons/Status01.png "[blue]") (blue):
 
 
-- ![Refresh](/Assets/Icons/Refresh01.png "[Refresh]") (Refresh)   
+- ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh)   
   Click this button to update the list of jobs.
 
-- ![Columns](/Assets/Icons/Columns.png "[Columns]") Columns (x)   
+- ![Columns](../../Assets/Icons/Columns.png "[Columns]") Columns (x)   
   Click this button to display the column editing bar and customize the displayed columns and the order of columns in the table. The *x* indicates the number of columns that are currently displayed in the table.
 
-- ![Filter](/Assets/Icons/Filter.png "[Filter]") Filter (x)   
+- ![Filter](../../Assets/Icons/Filter.png "[Filter]") Filter (x)   
   Click this button to display the filter editing bar and customize the active filters. The *x* indicates the number of filters that are currently active.
 
 The table displays the list of jobs in Venduo POS and their current status. Depending on the settings, the displayed columns may vary.
@@ -74,7 +74,7 @@ The table displays the list of jobs in Venduo POS and their current status. Depe
 ## Accounting sync details
 *Venduo POS > Management > Tab ACCOUNTING SYNC > Button Show details*
 
-![Accounting sync details](/Assets/Screenshots/POS/Management/AccountingSync/ShowDetails.png "[Accounting sync details]")
+![Accounting sync details](../../Assets/Screenshots/POS/Management/AccountingSync/ShowDetails.png "[Accounting sync details]")
 
 - [BACK]   
   Click this button to close the detail view.

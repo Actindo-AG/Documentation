@@ -1,5 +1,5 @@
 [!!Settings](Settings)
-[!!User Interface Settings](/Settings/UserInterface/00_UserInterface.md)
+[!!User Interface Settings](../../Settings/UserInterface/00_UserInterface.md)
 [comment]: <> (add link to Register a user)
 
 
@@ -29,22 +29,22 @@ The users that belong to a POS group must be assigned to a pay desk or store in 
 
 *Settings > Users and Groups > Tab GROUP MANAGEMENT*
 
-  ![Group management](/Assets/Screenshots/Settings/UsersGroups/GroupManagement/GroupManagement.png "[Group management]")
+  ![Group management](../../Assets/Screenshots/Settings/UsersGroups/GroupManagement/GroupManagement.png "[Group management]")
 
 1. Select the checkbox of the group you want to assign the users to in the list of groups.   
   The editing toolbar is displayed above the list.
 
-2. Click the ![Icon Edit](/Assets/Icons/Edit01.png "[Icon Edit]") (Edit) button in the editing toolbar.   
+2. Click the ![Icon Edit](../../Assets/Icons/Edit01.png "[Icon Edit]") (Edit) button in the editing toolbar.   
   The *Edit group* view of the selected group is displayed.
 
-  ![Edit group](/Assets/Screenshots/Settings/UsersGroups/GroupManagement/EditGroup.png "[Edit group]")
+  ![Edit group](../../Assets/Screenshots/Settings/UsersGroups/GroupManagement/EditGroup.png "[Edit group]")
 
-3. Click the ![Add](/Assets/Icons/Plus01.png "[Add]") (Add) button in the bottom right corner.   
+3. Click the ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) button in the bottom right corner.   
     The *Add User* window is displayed.
 
-    ![Add User](/Assets/Screenshots/Settings/UsersGroups/GroupManagement/AddUser.png "[Add User]")
+    ![Add User](../../Assets/Screenshots/Settings/UsersGroups/GroupManagement/AddUser.png "[Add User]")
 
-4. Click the ![Add](/Assets/Icons/Plus05.png "[Add]") (Add) button below the *Add Users* section.   
+4. Click the ![Add](../../Assets/Icons/Plus05.png "[Add]") (Add) button below the *Add Users* section.   
   The *Select User* drop-down list is displayed.
 
 5. Click the *Select User* drop-down listand select the user you want to assign to the group from the displayed list of users.
@@ -61,4 +61,4 @@ The users that belong to a POS group must be assigned to a pay desk or store in 
 9. Click the [SAVE] button in the upper right corner of the group edit view.   
   The *Edit group* view is closed. The *Group has been saved* message is displayed. The new user assignments to the group are saved.
 
-    ![Group saved](/Assets/Screenshots/Settings/UsersGroups/GroupManagement/GroupSaved.png "[Group saved]")
+    ![Group saved](../../Assets/Screenshots/Settings/UsersGroups/GroupManagement/GroupSaved.png "[Group saved]")

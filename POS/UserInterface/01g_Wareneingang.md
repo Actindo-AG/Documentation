@@ -4,22 +4,36 @@ This tab is only displayed, when the global setting *Shop-Lieferungen aktiv* is 
 
 *Venduo POS > Sales > Select Store and Pay Desk > Tab WARENEINGANG*
 
-![Wareneingang](/Assets/Screenshots/POS/Sales/Wareneingang/Wareneingang.png "[Wareneingang]")
+![Wareneingang](../../Assets/Screenshots/POS/Sales/Wareneingang/WareneingangListe.png "[Wareneingang]")
 
 **Wareneingang Liste**
 
 - *Lieferscheinnummer*    
   Enter the number of the delivery bill.
 
-- ![Edit](/Assets/Icons/Edit02.png "[Edit]") (Edit)   
-  Click this button to edit an item on the delivery bill.
-
-[comment]: <> (Is that right?)
-
 - [LISTE LADEN]   
-  Click this button to open the list of incoming goods.
+  Click this button to open the list of incoming goods to the entered delivery bill number.
 
-[comment]: <> (Is that right?)
+
+
+- *Artikel*    
+  Product name.
+
+- *Artikelnummer*    
+  Product number.
+
+- *Soll-Menge*    
+  Target quantity of the item.
+
+- *Ist-Menge*    
+  Actual quantity of the item.
+
+- ![Edit](../../Assets/Icons/Edit02.png "[Edit]") (Edit)   
+  Click this button to edit the number of items on the delivery bill.
+
+- *Artikel-ID*    
+  Product identification number.
+
 
 - [EINBUCHEN]   
   Click this button to book the items from the delivery bill list into the warehouse.

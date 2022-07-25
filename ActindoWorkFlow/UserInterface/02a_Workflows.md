@@ -5,52 +5,52 @@
 
 *Workflows > Workflows > Tab OVERVIEW*
 
-![Overview](/Assets/Screenshots/ActindoWorkFlow/Workflows/Workflows.png "[Overview]")
+![Overview](../../Assets/Screenshots/ActindoWorkFlow/Workflows/Workflows.png "[Overview]")
 
 **Workflows**
 - *VIEW*  
-Click the drop-down list to select the view. All created views are displayed in the drop-down list. Click the ![Points](/Assets/Icons/Points01.png "[Points]") (Points) button to the right of the *VIEW* drop-down list to display the context menu and create a view. For detailed information, see [Create view](#create-view).
+Click the drop-down list to select the view. All created views are displayed in the drop-down list. Click the ![Points](../../Assets/Icons/Points01.png "[Points]") (Points) button to the right of the *VIEW* drop-down list to display the context menu and create a view. For detailed information, see [Create view](#create-view).
 
   - View context menu  
-  Click the ![Points](/Assets/Icons/Points01.png "[Points]") (Points) button to the right of the *View* drop-down list to display the context menu. The following menu entries are available:
+  Click the ![Points](../../Assets/Icons/Points01.png "[Points]") (Points) button to the right of the *View* drop-down list to display the context menu. The following menu entries are available:
 
-    - ![Create](/Assets/Icons/Plus06.png "[Create]") create  
+    - ![Create](../../Assets/Icons/Plus06.png "[Create]") create  
     Click this entry to create a view. The *Create view* window is displayed.
 
-    - ![Rename](/Assets/Icons/Edit02.png "[Rename]") rename  
+    - ![Rename](../../Assets/Icons/Edit02.png "[Rename]") rename  
     Click this entry to rename the selected view. The *Rename view* window is displayed. This menu entry is only displayed when a view is selected.
 
-    - ![Reset](/Assets/Icons/Reset.png "[Reset]") reset  
+    - ![Reset](../../Assets/Icons/Reset.png "[Reset]") reset  
     Click this entry to reset the view to the selected views settings. This menu entry is only displayed when a view is selected and any changes are made to the views settings.
 
-    - ![Publish](/Assets/Icons/Publish.png "[Publish]") publish  
+    - ![Publish](../../Assets/Icons/Publish.png "[Publish]") publish  
     Click this entry to publish the view. This menu entry is only displayed when a view is selected and unpublished.
 
-    - ![Unpublish](/Assets/Icons/Unpublish.png "[Unpublish]") unpublish  
+    - ![Unpublish](../../Assets/Icons/Unpublish.png "[Unpublish]") unpublish  
     Click this entry to unpublish the view. This menu entry is only displayed when a view is selected and published.
 
-    - ![Save](/Assets/Icons/Save.png "[Save]") save  
+    - ![Save](../../Assets/Icons/Save.png "[Save]") save  
     Click this entry to save the current view settings in the selected view. This menu entry is only displayed when a view is selected.
 
       > [Info] When the settings of a view have been changed, an asterisk is displayed behind the view name. The asterisk is hidden as soon as the changes have been saved.
 
-    - ![Delete](/Assets/Icons/Trash01.png "[Delete]") delete  
+    - ![Delete](../../Assets/Icons/Trash01.png "[Delete]") delete  
     Click this entry to delete the selected view. A confirmation window to confirm the deletion is displayed. This menu entry is only displayed when a view is selected.
 
 
-- ![Search](/Assets/Icons/Search.png "[Search]") (Search)  
+- ![Search](../../Assets/Icons/Search.png "[Search]") (Search)  
     Click this button to display the search bar and search for a workflow.
 
     > [Info] The search function can be used to search for a workflow name and key. At least 3 characters must be entered.
 
 
-- ![Refresh](/Assets/Icons/Refresh01.png "[Refresh]") (Refresh)  
+- ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh)  
     Click this button to update the list of workflows.
 
-- ![Columns](/Assets/Icons/Columns.png "[Columns]") Columns (x)  
+- ![Columns](../../Assets/Icons/Columns.png "[Columns]") Columns (x)  
     Click this button to display the columns bar and customize the displayed columns and the order of columns in the list. The *x* indicates the number of columns that are currently displayed in the list.
 
-- ![Filter](/Assets/Icons/Filter.png "[Filter]") Filter (x)  
+- ![Filter](../../Assets/Icons/Filter.png "[Filter]") Filter (x)  
     Click this button to display the filter bar and customize the active filters. The *x* indicates the number of filters that are currently active.
 
 
@@ -72,8 +72,8 @@ The list displays all workflows. Depending on the settings, the displayed column
   Workflow identification number. The ID number is automatically assigned by the system when the workflow is created.
 
 
-- ![Add](/Assets/Icons/Plus01.png "[Add]") (Add)  
-Click this button to create a workflow. The *New workflow* window is displayed, see [New workflow](#new-workflow). For detailed information, see [Create a workflow](/ActindoWorkFlow/Operation/01_ManageWorkflows.md#create-a-workflow).
+- ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add)  
+Click this button to create a workflow. The *New workflow* window is displayed, see [New workflow](#new-workflow). For detailed information, see [Create a workflow](../Operation/01_ManageWorkflows.md#create-a-workflow).
 
 
 
@@ -81,7 +81,7 @@ Click this button to create a workflow. The *New workflow* window is displayed, 
 
 *Workflows > Workflows > Tab OVERVIEW > Button Add*
 
-![New workflow](/Assets/Screenshots/ActindoWorkFlow/Workflows/NewWorkflow.png "[New workflow]")
+![New workflow](../../Assets/Screenshots/ActindoWorkFlow/Workflows/NewWorkflow.png "[New workflow]")
 
 
 - *Select a name for your new workflow*  
@@ -95,7 +95,7 @@ Enter the name of the start place or a keyword to search for and select the appr
 
   > [Info] The list of places is filtered for your keyword as you type.
 
-- ![Delete](/Assets/Icons/Cross02.png "[Delete]") (Delete)  
+- ![Delete](../../Assets/Icons/Cross02.png "[Delete]") (Delete)  
   Click this button to clear the search bar field for the start place.
 
 - *Choose the data type of your end place*  
@@ -103,7 +103,7 @@ Enter the name of the end place or a keyword to search for and select the approp
 
   > [Info] The list of places is filtered for your keyword as you type.
 
-- ![Delete](/Assets/Icons/Cross02.png "[Delete]") (Delete)  
+- ![Delete](../../Assets/Icons/Cross02.png "[Delete]") (Delete)  
     Click this button to clear the search bar field for the end place.
 
 - [CANCEL]  
@@ -120,54 +120,54 @@ Click this button to create a new workflow. The workflow editor with the defined
 
 [comment]: <> (subject/path to change, but correct for now -> check in the future)
 
-![Workflow versions](/Assets/Screenshots/ActindoWorkFlow/Workflows/WorkflowVersions.png "[Workflow versions]")
+![Workflow versions](../../Assets/Screenshots/ActindoWorkFlow/Workflows/WorkflowVersions.png "[Workflow versions]")
 
-- ![Back](/Assets/Icons/Back02.png "[Back]") (Back)  
+- ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)  
 Click this button to close the *Workflow versions* view and return to the *Workflows* view.
 
 - *VIEW*  
-Click the drop-down list to select the view. All created views are displayed in the drop-down list. Click the ![Points](/Assets/Icons/Points01.png "[Points]") (Points) button to the right of the *VIEW* drop-down list to display the context menu and create a view. For detailed information, see [Create view](#create-view).
+Click the drop-down list to select the view. All created views are displayed in the drop-down list. Click the ![Points](../../Assets/Icons/Points01.png "[Points]") (Points) button to the right of the *VIEW* drop-down list to display the context menu and create a view. For detailed information, see [Create view](#create-view).
 
   - View context menu  
-  Click the ![Points](/Assets/Icons/Points01.png "[Points]") (Points) button to the right of the *View* drop-down list to display the context menu. The following menu entries are available:
+  Click the ![Points](../../Assets/Icons/Points01.png "[Points]") (Points) button to the right of the *View* drop-down list to display the context menu. The following menu entries are available:
 
-    - ![Create](/Assets/Icons/Plus06.png "[Create]") create  
+    - ![Create](../../Assets/Icons/Plus06.png "[Create]") create  
   Click this entry to create a view. The *Create view* window is displayed.
 
-    - ![Rename](/Assets/Icons/Edit02.png "[Rename]") rename  
+    - ![Rename](../../Assets/Icons/Edit02.png "[Rename]") rename  
   Click this entry to rename the selected view. The *Rename view* window is displayed. This menu entry is only displayed when a view is selected.
 
-    - ![Reset](/Assets/Icons/Reset.png "[Reset]") reset  
+    - ![Reset](../../Assets/Icons/Reset.png "[Reset]") reset  
   Click this entry to reset the view to the selected views settings. This menu entry is only displayed when a view is selected and any changes are made to the views settings.
 
-    - ![Publish](/Assets/Icons/Publish.png "[Publish]") publish  
+    - ![Publish](../../Assets/Icons/Publish.png "[Publish]") publish  
   Click this entry to publish the view. This menu entry is only displayed when a view is selected and unpublished.
 
-    - ![Unpublish](/Assets/Icons/Unpublish.png "[Unpublish]") unpublish  
+    - ![Unpublish](../../Assets/Icons/Unpublish.png "[Unpublish]") unpublish  
   Click this entry to unpublish the view. This menu entry is only displayed when a view is selected and published.
 
-    - ![Save](/Assets/Icons/Save.png "[Save]") save  
+    - ![Save](../../Assets/Icons/Save.png "[Save]") save  
   Click this entry to save the current view settings in the selected view. This menu entry is only displayed when a view is selected.
 
       > [Info] When the settings of a view have been changed, an asterisk is displayed behind the view name. The asterisk is hidden as soon as the changes have been saved.
 
-    - ![Delete](/Assets/Icons/Trash01.png "[Delete]") delete  
+    - ![Delete](../../Assets/Icons/Trash01.png "[Delete]") delete  
   Click this entry to delete the selected view. A confirmation window to confirm the deletion is displayed. This menu entry is only displayed when a view is selected.
 
 
-- ![Search](/Assets/Icons/Search.png "[Search]") (Search)  
+- ![Search](../../Assets/Icons/Search.png "[Search]") (Search)  
     Click this button to display the search bar and search for a workflow version.
 
     > [Info] The search function can be used to search for a workflow version ID. At least 3 characters must be entered.
 
 
-- ![Refresh](/Assets/Icons/Refresh01.png "[Refresh]") (Refresh)  
+- ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh)  
     Click this button to update the list of workflow versions.
 
-- ![Columns](/Assets/Icons/Columns.png "[Columns]") Columns (x)  
+- ![Columns](../../Assets/Icons/Columns.png "[Columns]") Columns (x)  
     Click this button to display the columns bar and customize the displayed columns and the order of columns in the list. The x indicates the number of columns that are currently displayed in the list.
 
-- ![Filter](/Assets/Icons/Filter.png "[Filter]") Filter (x)  
+- ![Filter](../../Assets/Icons/Filter.png "[Filter]") Filter (x)  
     Click this button to display the filter bar and customize the active filters. The x indicates the number of filters that are currently active.
 
 
@@ -177,8 +177,8 @@ The list displays all workflow versions of the selected workflow. Depending on t
   Version number of the workflow.
 
 - *Published*  
-  - ![Check](/Assets/Icons/Check.png "[Check]") (Checkmark): The workflow version is published.
-  - ![Cross](/Assets/Icons/Cross02.png "[Cross]") (Cross): The workflow version is unpublished.
+  - ![Check](../../Assets/Icons/Check.png "[Check]") (Checkmark): The workflow version is published.
+  - ![Cross](../../Assets/Icons/Cross02.png "[Cross]") (Cross): The workflow version is unpublished.
 
 - *ID*  
   Identification number of the workflow version. The ID number is automatically assigned by the system when the workflow version is created.
@@ -188,10 +188,10 @@ The list displays all workflow versions of the selected workflow. Depending on t
 Select the checkbox to display the editing toolbar.
 
 - [PUBLISH]   
-  Click this button to publish a workflow version. This button is only displayed if the selected workflow version is unpublished. For detailed information, see [Publish a workflow](/ActindoWorkFlow/Operation/01_ManageWorkflows.md#publish-a-workflow).
+  Click this button to publish a workflow version. This button is only displayed if the selected workflow version is unpublished. For detailed information, see [Publish a workflow](../Operation/01_ManageWorkflows.md#publish-a-workflow).
 
 - [UNPUBLISH]    
-  Click this button to unpublish a workflow version. This button is only displayed if the selected workflow version is published. For detailed information, see [Unpublish a workflow](/ActindoWorkFlow/Operation/01_ManageWorkflows.md#unpublish-a-workflow).
+  Click this button to unpublish a workflow version. This button is only displayed if the selected workflow version is published. For detailed information, see [Unpublish a workflow](../Operation/01_ManageWorkflows.md#unpublish-a-workflow).
 
 
 
@@ -199,13 +199,13 @@ Select the checkbox to display the editing toolbar.
 
 *Workflows > Workflows > Tab OVERVIEW > Select workflow > Select version*
 
-![Workflow editor](/Assets/Screenshots/ActindoWorkFlow/Workflows/WorkflowEditor.png "[Workflow editor]")
+![Workflow editor](../../Assets/Screenshots/ActindoWorkFlow/Workflows/WorkflowEditor.png "[Workflow editor]")
 
-- ![Back](/Assets/Icons/Back02.png "[Back]") (Back)  
+- ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)  
 Click this button to close the workflow editor and return to the list of workflows.
 
--  ![Points](/Assets/Icons/Points02.png "[Points]") (Points)  
-Click the ![Points](/Assets/Icons/Points02.png "[Points]") (Points) button to the right of the workflow name to display the context menu. The following menu entries are available:
+-  ![Points](../../Assets/Icons/Points02.png "[Points]") (Points)  
+Click the ![Points](../../Assets/Icons/Points02.png "[Points]") (Points) button to the right of the workflow name to display the context menu. The following menu entries are available:
 
   - *Import JSON*  
   Click this entry to import data in JSON format. The *Import JSON* window is displayed, see [Import JSON](#import-json).
@@ -217,10 +217,10 @@ Click the ![Points](/Assets/Icons/Points02.png "[Points]") (Points) button to th
   Click this entry to publish a new workflow version with the current state.
 
 
-- ![Undo](/Assets/Icons/Undo02.png "[Undo]") (Undo)  
+- ![Undo](../../Assets/Icons/Undo02.png "[Undo]") (Undo)  
   Click this button to undo the last change made.
 
-- ![Redo](/Assets/Icons/Redo.png "[Redo]") (Redo)  
+- ![Redo](../../Assets/Icons/Redo.png "[Redo]") (Redo)  
   Click this button to redo the last undone change.
 
 - [NEW ACTION]  
@@ -234,14 +234,14 @@ Click the ![Points](/Assets/Icons/Points02.png "[Points]") (Points) button to th
 
   When clicking a place in the workflow editor, it becomes highlighted and the corresponding element settings are displayed in the settings side bar.
 
-  ![Settings side bar](/Assets/Screenshots/ActindoWorkFlow/Workflows/SettingsSideBar01.png "[Settings side bar]")
+  ![Settings side bar](../../Assets/Screenshots/ActindoWorkFlow/Workflows/SettingsSideBar01.png "[Settings side bar]")
 
   - *Key*  
   Place key. This field is read-only. The key is required for API access and must be unique within the workflow version.
 
   - *Data container*  
-  Use this field to define the data type to be used in the place. If necessary, click the ![Delete](/Assets/Icons/Cross02.png "[Delete]") (Delete) button to display the whole list of available data types. Enter a search text for the desired data type. The list of transitions is filtered for your search text as you type. Select the radio button of the appropriate option.   
-  For detailed information, see [Places](/ActindoWorkFlow/Overview/02_WorkflowProcessElements.md#places).
+  Use this field to define the data type to be used in the place. If necessary, click the ![Delete](../../Assets/Icons/Cross02.png "[Delete]") (Delete) button to display the whole list of available data types. Enter a search text for the desired data type. The list of transitions is filtered for your search text as you type. Select the radio button of the appropriate option.   
+  For detailed information, see [Places](../Overview/02_WorkflowProcessElements.md#places).
 
 
   - Start/end place  
@@ -249,14 +249,14 @@ Click the ![Points](/Assets/Icons/Points02.png "[Points]") (Points) button to th
 
   When clicking the start/end place, it becomes highlighted and the corresponding element settings are displayed in the settings side bar.
 
-  ![Start and end place](/Assets/Screenshots/ActindoWorkFlow/Workflows/StartPlace.png "[Start and end place]")
+  ![Start and end place](../../Assets/Screenshots/ActindoWorkFlow/Workflows/StartPlace.png "[Start and end place]")
 
     - *Key*  
     Place key. This field is read-only. The key is required for API access and must be unique within the workflow version.
 
     - *Data container*  
-    Use this field to define the data type to be used in the place. If necessary, click the ![Delete](/Assets/Icons/Cross02.png "[Delete]") (Delete) button to display the whole list of available data types. Enter a search text for the desired data type. The list of transitions is filtered for your search text as you type. Select the radio button of the appropriate option.   
-    For detailed information, see [Start and end place](/ActindoWorkFlow/Overview/02_WorkflowProcessElements.md#start-and-end-place).
+    Use this field to define the data type to be used in the place. If necessary, click the ![Delete](../../Assets/Icons/Cross02.png "[Delete]") (Delete) button to display the whole list of available data types. Enter a search text for the desired data type. The list of transitions is filtered for your search text as you type. Select the radio button of the appropriate option.   
+    For detailed information, see [Start and end place](../Overview/02_WorkflowProcessElements.md#start-and-end-place).
 
 
 - Transition  
@@ -264,7 +264,7 @@ Click the ![Points](/Assets/Icons/Points02.png "[Points]") (Points) button to th
 
   When clicking a transition in the workflow editor, it becomes highlighted and the corresponding element settings are displayed in the settings side bar.
 
-  ![Settings side bar](/Assets/Screenshots/ActindoWorkFlow/Workflows/SettingsSideBar02.png "[Settings side bar]")
+  ![Settings side bar](../../Assets/Screenshots/ActindoWorkFlow/Workflows/SettingsSideBar02.png "[Settings side bar]")
 
   The transition settings side bar is located to the right of the workspace and allows to define the transition settings. The following fields are displayed:
 
@@ -275,7 +275,7 @@ Click the ![Points](/Assets/Icons/Points02.png "[Points]") (Points) button to th
   Transition label defined by the user. It can be used to specify or simplify the transition name. When editing the transition label, it is changed both at the top of the settings side bar and in the transition rectangle in the diagram.
 
   - *Queue type*  
-  Click the drop-down list to select the applicable queue type. For detailed information about queue types, see [Configure the queue types](/ActindoWorkFlow/Integration/01_ConfigureQueueTypes.md).
+  Click the drop-down list to select the applicable queue type. For detailed information about queue types, see [Configure the queue types](../Integration/01_ConfigureQueueTypes.md).
 
   - *Task event*  
   Click the drop-down list and select the applicable task event. All available task events are displayed. This option is linked to the *Tasks* module. The drop-down list is only displayed if the *Tasks* module is installed and the user has the necessary rights.
@@ -288,21 +288,21 @@ Click the ![Points](/Assets/Icons/Points02.png "[Points]") (Points) button to th
     > [Info] Most transitions are preconfigured and do not include configuration options. In this case, the *Configuration* section is not displayed.
 
   - *Static inputs*  
-  All unlinked inputs are listed in this section. Static inputs can be used to configure static values for certain inputs. They can be defined by the user clicking the ![Add](/Assets/Icons/Plus01.png "[Add]") (Add) button. Only valid JSON values are accepted. When used, static inputs are displayed by a small arrow in front of the input ports in the workflow diagram. This section is only displayed, if the selected transition has at least one unlinked input port.
+  All unlinked inputs are listed in this section. Static inputs can be used to configure static values for certain inputs. They can be defined by the user clicking the ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) button. Only valid JSON values are accepted. When used, static inputs are displayed by a small arrow in front of the input ports in the workflow diagram. This section is only displayed, if the selected transition has at least one unlinked input port.
 
-  For detailed information, see [Transitions](/ActindoWorkFlow/Overview/02_WorkflowProcessElements.md#transitions).
+  For detailed information, see [Transitions](../Overview/02_WorkflowProcessElements.md#transitions).
 
 
 - Input/output port  
-Represented by a small square positioned to the left (input) and to the right (output) of the transition, they are defined with a descriptive name, such as origin, data or destination. They can be mandatory or optional. If optional, an ![Add](/Assets/Icons/Plus01.png "[Add]") (Add) button is displayed next to them.
+Represented by a small square positioned to the left (input) and to the right (output) of the transition, they are defined with a descriptive name, such as origin, data or destination. They can be mandatory or optional. If optional, an ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) button is displayed next to them.
 
-  For detailed information, see [Input and output ports](/ActindoWorkFlow/Overview/02_WorkflowProcessElements.md#input-and-output-ports).
+  For detailed information, see [Input and output ports](../Overview/02_WorkflowProcessElements.md#input-and-output-ports).
 
 
 - Arc  
 The arcs are the links connecting a place with the input and output port(s) of an transition to model the flow of information. The arcs are represented by arrows. Arcs connecting a place to an input port are called *incoming arcs*, arc connecting an output port to a place are called *outcoming arcs*.
 
-  For detailed information, see [Arcs](/ActindoWorkFlow/Overview/02_WorkflowProcessElements.md#arcs).
+  For detailed information, see [Arcs](../Overview/02_WorkflowProcessElements.md#arcs).
 
 
 
@@ -310,7 +310,7 @@ The arcs are the links connecting a place with the input and output port(s) of a
 
 *Workflows > Workflows > Tab OVERVIEW > Select workflow > Select version > Button Points > Menu entry Import JSON*
 
-![Import JSON](/Assets/Screenshots/ActindoWorkFlow/Workflows/ImportJSON.png "[Import JSON]")
+![Import JSON](../../Assets/Screenshots/ActindoWorkFlow/Workflows/ImportJSON.png "[Import JSON]")
 
 The *Import JSON* window displays the workflow source code in JSON format. Configuration changes can be made in this view and applied with the [IMPORT JSON] button.
 
@@ -328,7 +328,7 @@ Click this button to apply all changes made to the source code.
 
 *Workflows > Workflows > Tab OVERVIEW > Select workflow > Select version > Button Points > Menu entry Export JSON*
 
-![Export JSON](/Assets/Screenshots/ActindoWorkFlow/Workflows/ExportJSON.png "[Export JSON]")
+![Export JSON](../../Assets/Screenshots/ActindoWorkFlow/Workflows/ExportJSON.png "[Export JSON]")
 
 The *Export JSON* window displays all workflow source code in JSON format. This view is read-only.
 
@@ -342,11 +342,11 @@ Click this button to close the window.
 *Workflows > Workflows > Tab OVERVIEW > Select workflow > Select version > Button NEW ACTION*
 *Workflows > Workflows > Tab OVERVIEW > Select workflow > Select version > Button Add next to a place*
 
-![Search for an action](/Assets/Screenshots/ActindoWorkFlow/Workflows/SearchAction.png "[Search for an action]")
+![Search for an action](../../Assets/Screenshots/ActindoWorkFlow/Workflows/SearchAction.png "[Search for an action]")
 
 The *Search for an action* window displays a list of possible transitions for the selected place.
 
-  > [Info] If clicking the [NEW ACTION] button, all existing transitions are displayed. If clicking the ![Add](/Assets/Icons/Plus04.png "[Add]") (Add) button next to a place, only the compatible transitions for that place are displayed, as specified in the information message of the *Search for an action* window below the search bar).
+  > [Info] If clicking the [NEW ACTION] button, all existing transitions are displayed. If clicking the ![Add](../../Assets/Icons/Plus04.png "[Add]") (Add) button next to a place, only the compatible transitions for that place are displayed, as specified in the information message of the *Search for an action* window below the search bar).
 
 
 - *Search for an action* (search bar)  
@@ -355,7 +355,7 @@ For detailed information about adding a transition, see [Create an action](Actin
 
   > [Info] The list of transitions is filtered for your keyword as you type.
 
-- ![Delete](/Assets/Icons/Cross02.png "[Delete]") (Delete)  
+- ![Delete](../../Assets/Icons/Cross02.png "[Delete]") (Delete)  
 Click this button to clear the search bar field.
 
 
@@ -364,7 +364,7 @@ Click this button to clear the search bar field.
 
 *Workflows > Workflows > Tab OVERVIEW > Button Points > Menu entry create*
 
-![Create view](/Assets/Screenshots/ActindoWorkFlow/Workflows/CreateView.png "[Create view]")
+![Create view](../../Assets/Screenshots/ActindoWorkFlow/Workflows/CreateView.png "[Create view]")
 
 
 - *Name*  
@@ -382,7 +382,7 @@ Click this button to save the new view. The *Create view* window is closed. The 
 
 *Workflows > Processes > Tab OVERVIEW > Button Points > Menu entry rename*
 
-![Rename view](/Assets/Screenshots/ActindoWorkFlow/Workflows/RenameView.png "[Rename view]")
+![Rename view](../../Assets/Screenshots/ActindoWorkFlow/Workflows/RenameView.png "[Rename view]")
 
 
 - *Name*  
