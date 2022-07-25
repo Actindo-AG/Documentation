@@ -16,6 +16,8 @@
     - [Foreign currency wizard](./01_Book.md#foreign-currency-wizard)
     - [Supplier receipts](./01_Book.md#supplier-receipts)
 
+[comment]: <> (Unterreiter in H4 - ändern und in TOC mit aufnehmen?)
+
  - [EVALUATIONS](./01_Book.md#evaluations)
     - [Account balance](./01_Book.md#account-balance)
     - [Account sheet](./01_Book.md#account-sheet)
