@@ -171,6 +171,8 @@ Click this button to print the cost center/unit. The *Cost center/unit* window i
 
 ### Allocation table
 
+*Accounting > Select fiscal year > Settings > Tab COST ACCOUNTING > Drop-down option Cost1 - Cost center > Button ALLOCATION TABLE*
+
 ![Allocation table](/Assets/Screenshots/RetailSuiteAccounting/Settings/CostAccounting/AllocationTable03.png "[Allocation table]")
 
 - *Select ProfitCenter*  
@@ -233,7 +235,7 @@ Click this button to save the allocation table after making any changes. A pop-u
 
 
 
-###  Select period
+####  Select period
 
 *Accounting > Select fiscal year > Settings > Tab COST ACCOUNTING > Drop-down option Cost1 - Cost center > Button ALLOCATION TABLE > Button CHANGE PERIOD*
 
@@ -434,7 +436,7 @@ This text displays the number of customers and suppliers currently displayed and
 
 [comment]: <> (Fenster/Unterkapitel umbenennen zu Edit ProfitCenter?)
 
-*Accounting > Select fiscal year > Settings > Tab COST ACCOUNTING > Drop-down option Cost2 - Cost unit > Button SEARCH*
+*Accounting > Select fiscal year > Settings > Tab COST ACCOUNTING > Drop-down option Cost2 - Cost unit > Button EDIT*
 
 ![Edit ProfitCenter](/Assets/Screenshots/RetailSuiteAccounting/Settings/CostAccounting/ProfitCenter.png "[Edit ProfitCenter]")
 
@@ -460,9 +462,9 @@ Click this button to delete the selected ProfitCenter.
 Click this button to save the newly created ProfitCenter or any other changes made.
 
 
-### Cost center/unit
+#### Cost center/unit
 
-[comment]: <> (Fenster/Unterkapitel umbenennen zu Print cost center/unit?)
+[comment]: <> (Fenster/Unterkapitel umbenennen zu Print cost center/unit? -> Evtl. zu H2 ändern und in TOC mit aufnehmen?)
 
 *Accounting > Select fiscal year > Settings > Tab COST ACCOUNTING > Drop-down option Cost2 - Cost unit > Button PRINT*
 

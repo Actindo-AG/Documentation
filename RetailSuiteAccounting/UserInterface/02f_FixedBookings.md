@@ -25,6 +25,8 @@ Click this button to edit a fixed booking batch. The *Fixed booking batch name* 
 
 ## Fixed booking batch name
 
+*Accounting > Select fiscal year > Settings > Tab FIX BOOKINGS > Select batch*
+
 ![Fixed booking batch name](/Assets/Screenshots/RetailSuiteAccounting/Settings/FixedBookings/FixedBookingBatch.png "[Fixed booking batch name]")
 
 

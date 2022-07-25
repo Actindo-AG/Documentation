@@ -10,12 +10,12 @@ The Accounting *Book* menu entry is used to manage all existing bookings and to 
 
 The *Book* User Interface is composed of the following tabs:
 
-  - [BOOKINGS](01a_Book.md)
-  - [BALANCES](01b_Book.md)
-  - [ACCOUNT SHEET](01c_Book.md)
-  - [OPEN ITEMS](01d_Book.md)
-  - [SEARCH](01e_Book.md)
-  - [BOOK RECEIPTS](01f_Book.md)
+  - [BOOKINGS](01a_Bookings.md)
+  - [BALANCES](01b_Balances.md)
+  - [ACCOUNT SHEET](01c_AccountSheet.md)
+  - [OPEN ITEMS](01d_OpenItems.md)
+  - [SEARCH](01e_Search.md)
+  - [BOOK RECEIPTS](01f_BookReceipts.md)
 
 
 Additionally, the following cross-tab functions are contained.

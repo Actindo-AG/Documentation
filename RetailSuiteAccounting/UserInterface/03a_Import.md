@@ -20,13 +20,13 @@ A list of the available import options is displayed:
 
 
 - [COMPESO 7.X]  
-Click this button to import data in Compeso proprietary format. Follow the instructions provided in the following windows, see [COMPESO 7.X](#compeso-7x).
+Click this button to import data in Compeso proprietary format. Follow the instructions provided in the following windows, see [Compeso 7.X](#compeso-7x).
 
 - [CSV]  
 Click this button to import data in CSV format. Follow the instructions provided in the following windows, see [CSV](#csv).
 
 - [CSV LS-MOTOR]  
-Click this button to import data in CSV format from an invoicing solution. Follow the instructions provided in the following windows, see [CSV LS-MOTOR](#csv-ls-motor).
+Click this button to import data in CSV format from an invoicing solution. Follow the instructions provided in the following windows, see [CSV LS-Motor](#csv-ls-motor).
 
 [comment]: <> (LS ENGINE?)
 
