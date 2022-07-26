@@ -1,4 +1,11 @@
-[!!Accounting](RetailSuiteAccounting)
+[!!User Interface export DATEV CSV](../UserInterface/03b_Export.md#datev-csv)  
+[!!User Interface GDPdU export](../UserInterface/03b_Export.md#gdpdu-export)  
+[!!User Interface CVS format definition](../UserInterface/03c_CSVFormatDef.md)  
+[!!User Interface BWA](../UserInterface/01_Book.md#bwa)  
+[!!User Interface BWA assignment](../UserInterface/02i_BWAAssignment.md)  
+[!!Manage the BWA reports](../Integration/07_ManageBWAReports.md)  
+
+
 
 # Provide the accounting data
 
@@ -13,19 +20,19 @@ Accounting data can be exported into a DATEV CSV compatible file to be later imp
 
 #### Prerequisites
 
- - The accounting is configured via the configuration wizard, see [Run the accounting wizard](/RetailSuiteAccounting/Integration/01_RunAccountingWizard.md).
- - A fiscal year is selected, see [Select a fiscal year](01_SelectFiscalYear.md).
+ - The accounting is configured via the configuration wizard, see [Run the accounting wizard](../Integration/01_RunAccountingWizard.md).
+ - A fiscal year is selected, see [Select a fiscal year](./01_SelectFiscalYear.md).
 
 #### Procedure
 
 *Accounting > Select fiscal year > Extras > Tab EXPORT*
 
-![Export](/Assets/Screenshots/RetailSuiteAccounting/Extras/Export/Export.png "[Export]")
+![Export](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Export/Export.png "[Export]")
 
 1. Click the [DATEV CSV] button.    
 The *Export: DATEV CSV: Step 1* window is displayed.
 
-  ![Export DATEV CVS: Step 1](/Assets/Screenshots/RetailSuiteAccounting/Extras/Export/ExportDatevCVS01.png "[Export DATEV CVS: Step 1]")
+  ![Export DATEV CVS: Step 1](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Export/ExportDatevCVS01.png "[Export DATEV CVS: Step 1]")
 
 2. Select the fiscal year to be exported in the *Fiscal year* drop-down list.
 
@@ -37,7 +44,7 @@ The *Export: DATEV CSV: Step 1* window is displayed.
 
   > [Info] When selecting the *Custom* option, additional fields are displayed to customized your export.
 
-  ![Export DATEV CVS Custom](/Assets/Screenshots/RetailSuiteAccounting/Extras/Export/ExportDatevCVS01cust.png "[Export DATEV CVS Custom]")
+  ![Export DATEV CVS Custom](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Export/ExportDatevCVS01cust.png "[Export DATEV CVS Custom]")
 
 6. Select the appropriate option in the *Export only booking-relevant master data records* drop-down list.
 
@@ -54,7 +61,7 @@ The *Export: DATEV CSV: Step 1* window is displayed.
 10. Click the [CONTINUE] button.  
 A new window confirms the ongoing export process. When finished, a confirmation window is displayed.
 
-  ![Export Datev CSV: Step 2](/Assets/Screenshots/RetailSuiteAccounting/Extras/Export/ExportDatevCVS02.png "[Export Datev CSV: Step 2]")
+  ![Export Datev CSV: Step 2](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Export/ExportDatevCVS02.png "[Export Datev CSV: Step 2]")
 
 11. Click the [OK] button.  
 The confirmation window closes. A new window shows the exported file(s) as a zip file.
@@ -62,15 +69,9 @@ The confirmation window closes. A new window shows the exported file(s) as a zip
 12. Click the zip file name.  
 The zip file is downloaded in your computer.   
 
-  ![Export Datev CSV: Step 3](/Assets/Screenshots/RetailSuiteAccounting/Extras/Export/ExportDatevCVS03.png "[Export Datev CSV: Step 3]")
+  ![Export Datev CSV: Step 3](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Export/ExportDatevCVS03.png "[Export Datev CSV: Step 3]")
 
   > [Info] Per default, the downloaded export file is saved in the Downloads folder of your computer.
-
-
-### See also
-
-  - [EXPORT](/RetailSuiteAccounting/UserInterface/XX_Export.md)
-  - [Einstellungen Export?](#to-be-completed)
 
 
 ## Export the data GDPdU-compliant
@@ -79,19 +80,19 @@ Accounting data can be exported into a GDPdU-compliant audit file format, a lega
 
 #### Prerequisites
 
-  - The accounting is configured via the configuration wizard, see [Run the accounting wizard](/RetailSuiteAccounting/Integration/01_RunAccountingWizard.md).
-  - A fiscal year is selected, see [Select a fiscal year](01_SelectFiscalYear.md).
+  - The accounting is configured via the configuration wizard, see [Run the accounting wizard](../Integration/01_RunAccountingWizard.md).
+  - A fiscal year is selected, see [Select a fiscal year](./01_SelectFiscalYear.md).
 
 #### Procedure
 
 *Accounting > Select fiscal year > Extras > Tab EXPORT*
 
-  ![Export](/Assets/Screenshots/RetailSuiteAccounting/Extras/Export/Export.png "[Export]")
+  ![Export](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Export/Export.png "[Export]")
 
 1. Click the [GDPdU EXPORT] button.    
 The *Export: GDPdU Export: Step 1* window is displayed.
 
-  ![Export GDPdU: Step 1](/Assets/Screenshots/RetailSuiteAccounting/Extras/Export/ExportGDPdU01.png "[Export GDPdU: Step 1]")
+  ![Export GDPdU: Step 1](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Export/ExportGDPdU01.png "[Export GDPdU: Step 1]")
 
 2. Select the fiscal year to be exported in the *Fiscal year* drop-down list.
 
@@ -110,39 +111,33 @@ The *Export: GDPdU Export: Step 1* window is displayed.
 8. Click the [CONTINUE] button.  
   A new window confirms the ongoing export process. When finished, a confirmation window is displayed.
 
-  ![Export GDPdU: Step 2](/Assets/Screenshots/RetailSuiteAccounting/Extras/Export/ExportGDPdU02.png "[Export GDPdU: Step 2]")
+  ![Export GDPdU: Step 2](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Export/ExportGDPdU02.png "[Export GDPdU: Step 2]")
 
 9. Click the [OK] button.  
   The confirmation window closes. A new window shows the exported file(s) as a zip file.
 
-  ![Export GDPdU: Step 3](/Assets/Screenshots/RetailSuiteAccounting/Extras/Export/ExportGDPdU03.png "[Export GDPdU: Step 3]")
-
-### Next steps
-
-  - [Create a PDF evaluation](#create-a-PDF-evaluation)
-  - [User Interface](#to-be-completed)
-
+  ![Export GDPdU: Step 3](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Export/ExportGDPdU03.png "[Export GDPdU: Step 3]")
 
 
 ## Create a PDF evaluation
 
-Accounting data can be exported for business evaluation  purposes. The system offers a functionality to create and customize BWA reports. For detailed information, see [Manage reports](/RetailSuiteAccounting/Integration/07_ManageBWAReports.md).
+Accounting data can be exported for business evaluation  purposes. The system offers a functionality to create and customize BWA reports. For detailed information, see [Manage reports](../Integration/07_ManageBWAReports.md).
 
 #### Prerequisites
 
-  - The accounting is configured via the configuration wizard, see [Run the accounting wizard](/RetailSuiteAccounting/Integration/01_RunAccountingWizard.md).
-  - A fiscal year is selected, see [Select a fiscal year](01_SelectFiscalYear.md).
+  - The accounting is configured via the configuration wizard, see [Run the accounting wizard](../Integration/01_RunAccountingWizard.md).
+  - A fiscal year is selected, see [Select a fiscal year](./01_SelectFiscalYear.md).
 
 #### Procedure
 
 *Accounting > Select fiscal year > Book > Context menu EVALUATIONS > Menu entry BWA*
 
-  ![Evaluations](/Assets/Screenshots/RetailSuiteAccounting/Book/EvaluationsBWA.png "[Evaluations]")
+  ![Evaluations](../../Assets/Screenshots/RetailSuiteAccounting/Book/EvaluationsBWA.png "[Evaluations]")
 
 1. Click the *BWA* menu entry.  
 The window *BWA* is displayed.  
 
-  ![BWA](/Assets/Screenshots/RetailSuiteAccounting/Book/BWA.png "[BWA]")
+  ![BWA](../../Assets/Screenshots/RetailSuiteAccounting/Book/BWA.png "[BWA]")
 
 2. Select the appropriate option in the *Sorting* drop-down list.
 
@@ -154,7 +149,7 @@ The window *BWA* is displayed.
 
 6. Select the BWA report in the *BWA number* drop-down list.
 
-  > [Info] There are different preconfigured evaluation report types available in the system. They can be used as provided or completely customized. For detailed information, see [Manage reports](/RetailSuiteAccounting/Integration/07_ManageBWAReports.md).
+  > [Info] There are different preconfigured evaluation report types available in the system. They can be used as provided or completely customized. For detailed information, see [Manage reports](../Integration/07_ManageBWAReports.md).
 
 7. Select one of the layout options in the *Layout* drop-down list.
 
@@ -163,12 +158,4 @@ The window *BWA* is displayed.
 9. Click the [PRINT] button.  
 A new window confirms the ongoing PDF creation process. When finished, the PDF file opens automatically.
 
-  ![Print BWA](/Assets/Screenshots/RetailSuiteAccounting/Book/PrintBWA.png "[Print BWA]")
-
-
-
-### See also
-
-  - [BWA](/RetailSuiteAccounting/UserInterface/XX_BWA.md)
-  - [BWA ASSIGNMENT](/RetailSuiteAccounting/UserInterface/XX_BWAAssignment.md)
-  - [Manage reports](/RetailSuiteAccounting/Integration/07_ManageBWAReports.md)
+  ![Print BWA](../../Assets/Screenshots/RetailSuiteAccounting/Book/PrintBWA.png "[Print BWA]")
