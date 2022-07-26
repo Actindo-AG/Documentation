@@ -14,14 +14,14 @@ You can create a customer/supplier that is not yet available in the system.
 
 #### Prerequisites
 
-- The accounting is configured via the configuration wizard, see [Run the accounting wizard](01_RunAccountingWizard.md).
-- A valid fiscal year is created, see [Create a fiscal year](04_ManageFiscalYear.md#create-a-fiscal-year).
+- The accounting is configured via the configuration wizard, see [Run the accounting wizard](./01_RunAccountingWizard.md).
+- A valid fiscal year is created, see [Create a fiscal year](./04_ManageFiscalYear.md#create-a-fiscal-year).
 
 #### Procedure
 
 *Accounting > Select the fiscal year > Settings > Tab DEBTORS/CREDITORS > Tab Create customer/supplier*
 
-![Create a customer/supplier](/Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/CreateCustomerSupplier.png "[Create a customer/supplier]")
+![Create a customer/supplier](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/CreateCustomerSupplier.png "[Create a customer/supplier]")
 
 1. Click the *Create debtor/creditor* drop-down list in the *Address/Contact* sub-tab and select the appropriate option (**Debtor (customer)/Creditor (supplier)**).
 
@@ -49,15 +49,15 @@ You can edit an existing customer/supplier, for example if a setting must be cha
 
 #### Prerequisites
 
-- The accounting is configured via the configuration wizard, see [Run the accounting wizard](01_RunAccountingWizard.md).
-- A valid fiscal year is created, see [Create a fiscal year](04_ManageFiscalYear.md#create-a-fiscal-year).
+- The accounting is configured via the configuration wizard, see [Run the accounting wizard](./01_RunAccountingWizard.md).
+- A valid fiscal year is created, see [Create a fiscal year](./04_ManageFiscalYear.md#create-a-fiscal-year).
 - A customer/supplier is created, see [Create a customer/supplier](#create-a-customer-supplier).
 
 #### Procedure
 
 *Accounting > Select the fiscal year > Settings > Tab DEBTORS/CREDITORS > Tab Customer/supplier list*
 
-![Edit a customer/supplier](/Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/EditCustomerSupplier.png "[Edit a customer/supplier]")
+![Edit a customer/supplier](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/EditCustomerSupplier.png "[Edit a customer/supplier]")
 
 1. Double click on the existing customer/supplier to be edited.   
 A new tab opens with the customer/supplier number. The existing data for the selected customer/supplier are displayed in the corresponding fields in the *Address/Contact* sub-tab.
@@ -78,15 +78,15 @@ You can delete an existing customer/supplier, for example if it is no longer app
 
 #### Prerequisites
 
-- The accounting is configured via the configuration wizard, see [Run the accounting wizard](01_RunAccountingWizard.md).
-- A valid fiscal year is created, see [Create a fiscal year](04_ManageFiscalYear.md#create-a-fiscal-year).
+- The accounting is configured via the configuration wizard, see [Run the accounting wizard](./01_RunAccountingWizard.md).
+- A valid fiscal year is created, see [Create a fiscal year](./04_ManageFiscalYear.md#create-a-fiscal-year).
 - A customer/supplier is created, see [Create a customer/supplier](#create-a-customer-supplier).
 
 #### Procedure
 
 *Accounting > Select the fiscal year > Settings > Tab DEBTORS/CREDITORS > Tab Customer/supplier list*
 
-![Delete a customer/supplier](/Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/DeleteCustomerSupplier.png "[Delete a customer/supplier]")
+![Delete a customer/supplier](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/DeleteCustomerSupplier.png "[Delete a customer/supplier]")
 
 1. Double click on the existing customer/supplier to be deleted.
   > [Warning] Be aware that the existing customer/supplier will be deleted permanently.

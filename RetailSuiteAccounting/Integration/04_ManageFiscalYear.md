@@ -1,10 +1,10 @@
-[!!User Interface fiscal year](../UserInterface/00a_FiscalYear.md.md)
-[!!User Interface fiscal years](../UserInterface/02d_FiscalYears.md)
+[!!User Interface fiscal year](../UserInterface/00a_FiscalYear.md)
+[!!Settings fiscal years](../UserInterface/02d_FiscalYears.md)
 [!!Select fiscal year](../Operation/01_SelectFiscalYear.md)
 
 # Manage the fiscal year
 
-The fiscal year is set up during the configuration process via the accounting wizard. For detailed information, see [Fiscal years](01_RunAccountingWizard.md#fiscal-years). After the initial fiscal year is set up during configuration, any subsequent fiscal years must be manually created. It is essential to create a new fiscal year in the system at the beginning of the new fiscal year.
+The fiscal year is set up during the configuration process via the accounting wizard. For detailed information, see [Fiscal years](./01_RunAccountingWizard.md#fiscal-years). After the initial fiscal year is set up during configuration, any subsequent fiscal years must be manually created. It is essential to create a new fiscal year in the system at the beginning of the new fiscal year.
 
 > [Info] If the system cannot find a fiscal year to book any newly issued invoices, they will remain unrecognized and will have to be booked again manually via the *Invoicing* module, once the new fiscal year has been created.  
 
@@ -14,13 +14,13 @@ You can create a fiscal year that is not yet available in the system.
 
 #### Prerequisites
 
-- The accounting is configured via the configuration wizard, see [Run the accounting wizard](01_RunAccountingWizard.md).
+- The accounting is configured via the configuration wizard, see [Run the accounting wizard](./01_RunAccountingWizard.md).
 
 #### Procedure
 
 *Accounting > Select the fiscal year > Settings > Tab FISCAL YEARS*
 
-![Create a fiscal year](/Assets/Screenshots/RetailSuiteAccounting/Settings/FiscalYears/CreateFiscalYear.png "[Create a fiscal year]")
+![Create a fiscal year](../../Assets/Screenshots/RetailSuiteAccounting/Settings/FiscalYears/CreateFiscalYear.png "[Create a fiscal year]")
 
 1. Enter a description for the fiscal year in the *Description* field.
 
@@ -54,14 +54,14 @@ You can edit an available fiscal year, for example if a setting must be changed.
 
 #### Prerequisites
 
-- The accounting is configured via the configuration wizard, see [Run the accounting wizard](01_RunAccountingWizard.md).
+- The accounting is configured via the configuration wizard, see [Run the accounting wizard](./01_RunAccountingWizard.md).
 - A valid fiscal year is created, see [Create a fiscal year](#create-a-fiscal-year).
 
 #### Procedure
 
 *Accounting > Select the fiscal year > Settings > Tab FISCAL YEARS*
 
-![Edit a fiscal year](/Assets/Screenshots/RetailSuiteAccounting/Settings/FiscalYears/EditFiscalYear.png "[Edit a fiscal year]")
+![Edit a fiscal year](../../Assets/Screenshots/RetailSuiteAccounting/Settings/FiscalYears/EditFiscalYear.png "[Edit a fiscal year]")
 
 1. Click on the existing fiscal year to be edited.   
 The existing data for the selected fiscal year are displayed in the corresponding fields.
@@ -80,14 +80,14 @@ You can delete an existing fiscal year, for example if it is no longer applicabl
 
 #### Prerequisites
 
-- The accounting is configured via the configuration wizard, see [Run the accounting wizard](01_RunAccountingWizard.md).
+- The accounting is configured via the configuration wizard, see [Run the accounting wizard](./01_RunAccountingWizard.md).
 - A valid fiscal year is created, see [Create a fiscal year](#create-a-fiscal-year).
 
 #### Procedure
 
 *Accounting > Select the fiscal year > Settings > Tab FISCAL YEARS*
 
-![Delete a fiscal year](/Assets/Screenshots/RetailSuiteAccounting/Settings/FiscalYears/DeleteFiscalYear.png "[Delete a fiscal year]")
+![Delete a fiscal year](../../Assets/Screenshots/RetailSuiteAccounting/Settings/FiscalYears/DeleteFiscalYear.png "[Delete a fiscal year]")
 
 1. Select the fiscal year to be deleted.
   > [Warning] Be aware that the existing fiscal year will be deleted permanently.

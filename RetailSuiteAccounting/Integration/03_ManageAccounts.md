@@ -3,7 +3,7 @@
 
 # Manage the accounts
 
-The accounts are set up during the configuration process via the accounting wizard, see [Charts of accounts](01_RunAccountingWizard.md#chart-of-accounts). However, you can create, edit or delete an account if necessary in the *Accounting* module, for example if a specific account is not yet available in the system or the settings of an existing one need to be adjusted.
+The accounts are set up during the configuration process via the accounting wizard, see [Charts of accounts](./01_RunAccountingWizard.md#chart-of-accounts). However, you can create, edit or delete an account if necessary in the *Accounting* module, for example if a specific account is not yet available in the system or the settings of an existing one need to be adjusted.
 
 > [Warning] Any modifications in the accounts have far-reaching consequences for the *Accounting* module and the system automatic bookings. It is highly recommended not to make any changes in the accounts, unless you have an in-depth knowledge of their functions. In case of doubt, contact our support team.
 
@@ -16,14 +16,14 @@ For detailed information about the account classes, see [User Interface accounts
 
 #### Prerequisites
 
-- The accounting is configured via the configuration wizard, see [Run the accounting wizard](01_RunAccountingWizard.md).
-- A valid fiscal year is created, see [Create a fiscal year](04_ManageFiscalYear.md#create-a-fiscal-year).
+- The accounting is configured via the configuration wizard, see [Run the accounting wizard](./01_RunAccountingWizard.md).
+- A valid fiscal year is created, see [Create a fiscal year](./04_ManageFiscalYear.md#create-a-fiscal-year).
 
 #### Procedure
 
 *Accounting > Select the fiscal year > Settings > Tab ACCOUNTS*
 
-![Account availability](/Assets/Screenshots/RetailSuiteAccounting/Settings/Accounts/AccountAvailability.png "[Account availability]")
+![Account availability](../../Assets/Screenshots/RetailSuiteAccounting/Settings/Accounts/AccountAvailability.png "[Account availability]")
 
 1. Select the corresponding number range in the *Account class* drop-down list.   
   All accounts of the selected account class are displayed in the list.
@@ -37,16 +37,16 @@ You can create an account that is not yet available in the system.
 
 #### Prerequisites
 
-- The accounting is configured via the configuration wizard, see [Run the accounting wizard](01_RunAccountingWizard.md).
-- A valid fiscal year is created, see [Create a fiscal year](04_ManageFiscalYear.md#create-a-fiscal-year).
+- The accounting is configured via the configuration wizard, see [Run the accounting wizard](./01_RunAccountingWizard.md).
+- A valid fiscal year is created, see [Create a fiscal year](./04_ManageFiscalYear.md#create-a-fiscal-year).
 - The account availability is checked, see [Check the account availability](#check-the-account-availability).
-- The tax key validity is checked and, if necessary, updated, see [Edit a tax key](02_ManageTaxKeys.md#edit-a-tax-key).
+- The tax key validity is checked and, if necessary, updated, see [Edit a tax key](./02_ManageTaxKeys.md#edit-a-tax-key).
 
 #### Procedure
 
 *Accounting > Select the fiscal year > Settings > Tab ACCOUNTS*
 
-![Create an account](/Assets/Screenshots/RetailSuiteAccounting/Settings/Accounts/CreateAccount.png "[Create an account]")
+![Create an account](../../Assets/Screenshots/RetailSuiteAccounting/Settings/Accounts/CreateAccount.png "[Create an account]")
 
 1. Enter an available account number in the *Account number* field.
 
@@ -88,14 +88,14 @@ You can edit an existing account, for example if a tax rate needs to be updated.
 
 #### Prerequisites
 
-- The accounting is configured via the configuration wizard, see [Run the accounting wizard](01_RunAccountingWizard.md).
-- A valid fiscal year is created, see [Create a fiscal year](04_ManageFiscalYear.md#create-a-fiscal-year).
+- The accounting is configured via the configuration wizard, see [Run the accounting wizard](./01_RunAccountingWizard.md).
+- A valid fiscal year is created, see [Create a fiscal year](./04_ManageFiscalYear.md#create-a-fiscal-year).
 
 #### Procedure
 
 *Accounting > Select the fiscal year > Settings > Tab ACCOUNTS*
 
-![Edit an account](/Assets/Screenshots/RetailSuiteAccounting/Settings/Accounts/EditAccount.png "[Edit an account]")
+![Edit an account](../../Assets/Screenshots/RetailSuiteAccounting/Settings/Accounts/EditAccount.png "[Edit an account]")
 
 1. Select the corresponding number range in the *Account class* drop-down list.   
   All accounts of the selected account class are displayed in the list.
@@ -115,14 +115,14 @@ You can delete an existing account, for example if it is no longer applicable.
 
 ### Prerequisites
 
-- The accounting is configured via the configuration wizard, see [Run the accounting wizard](01_RunAccountingWizard.md).
-- A valid fiscal year is created, see [Create a fiscal year](04_ManageFiscalYear.md#create-a-fiscal-year).
+- The accounting is configured via the configuration wizard, see [Run the accounting wizard](./01_RunAccountingWizard.md).
+- A valid fiscal year is created, see [Create a fiscal year](./04_ManageFiscalYear.md#create-a-fiscal-year).
 
 ### Procedure
 
 *Accounting > Select the fiscal year > Settings > Tab ACCOUNTS*
 
-![Delete an account](/Assets/Screenshots/RetailSuiteAccounting/Settings/Accounts/DeleteAccount.png "[Delete an account]")
+![Delete an account](../../Assets/Screenshots/RetailSuiteAccounting/Settings/Accounts/DeleteAccount.png "[Delete an account]")
 
 1. Select the account to be deleted.
   > [Warning] Be aware that the existing account will be deleted permanently.
