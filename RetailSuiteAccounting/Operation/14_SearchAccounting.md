@@ -13,12 +13,12 @@ The *SEARCH* tab in the *Accounting* module allows to search for a specific acco
 
 An account can be searched for by account number or by description.
 
-### Prerequisites
+#### Prerequisites
 
 - The accounting is configured via the configuration wizard, see [Run the accounting wizard](/RetailSuiteAccounting/Integration/01_RunAccountingWizard.md).
 - A fiscal year is selected, see [Select fiscal year](01_SelectFiscalYear.md).
 
-### Procedure
+#### Procedure
 
 *Accounting > Select fiscal year > Book > Tab SEARCH > Side bar Book extras > Tab Accounts*
 
@@ -44,10 +44,7 @@ The *QUICK SEARCH* context menu is displayed.
 5. Click the ![Cross](/Assets/Icons/Cross02.png "[Cross]") icon to clear the search.  
 The whole chart of accounts is displayed again.
 
-### Next steps
 
-  - [Search for a booking](#search-for-a-booking)
-  - [Provide the accounting data](15_ProvideAccountingData.md)
 
 ### See also
 
@@ -60,12 +57,12 @@ The whole chart of accounts is displayed again.
 
 A booking can be searched for using different search criteria, such as turnover, account, journal, and the applicable search values.
 
-### Prerequisites
+#### Prerequisites
 
   - The accounting is configured via the configuration wizard, see [Run the accounting wizard](/RetailSuiteAccounting/Integration/01_RunAccountingWizard.md).
   - A fiscal year is selected, see [Select fiscal year](01_SelectFiscalYear.md).
 
-### Procedure
+#### Procedure
 
 *Accounting > Select fiscal year > Book > Tab SEARCH > Side bar Book extras > Tab Search*
 
@@ -88,9 +85,6 @@ A booking can be searched for using different search criteria, such as turnover,
   4. Click the [SEARCH] button.  
   The bookings matching your search criteria are displayed.
 
-### Next steps
-
-  - [Provide the accounting data](15_ProvideAccountingData.md)
 
 ### See also
 

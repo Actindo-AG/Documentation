@@ -1,4 +1,15 @@
-[!!Accounting](RetailSuiteAccounting)
+[!!Documents](RetailSuiteDocorg)  
+[!!Fakturierung](RetailSuiteDocorg)
+
+[!!User Interface book receipts](../UserInterface/01f_BookReceipts.md)  
+[User Interface supplier receipts](../UserInterface/01_Book.md#supplier-receipts)
+
+[!!User Interface bookings](../UserInterface/01a_Bookings.md)  
+
+
+- [Check supplier receipts](#to_be_completed)
+- [New supplier receipts](#to_be_completed)
+- [Payment proposal list](#to_be_completed)
 
 # Manage receipts
 
@@ -8,7 +19,7 @@ The *Accounting* module offers three possible ways to manage and assign receipts
 
 - Clicking the [ASSIGN RECEIPT] button in the *BOOKING* tab to assign a receipt to an already existing booking in the bookings list; see [Retrieve a receipt](#retrieve-a-receipt).
 - Clicking the *BOOK RECEIPTS* tab to assign a receipt available as a PDF and create a booking manually; see [Book a receipt](#book-a-receipt).
-- Clicking the *Supplier receipts* menu entry in the *EDI* context menu to specifically assign a supplier receipt; see [Book a supplier receipt](#book-a-supplier-receipt)
+- Clicking the *Supplier receipts* menu entry in the *EDIT* context menu to specifically assign a supplier receipt; see [Book a supplier receipt](#book-a-supplier-receipt)
 
 > [Info] *Supplier receipts* is a special feature that interacts with the *Purchasing* and *Payment processing* modules, and therefore the appropriate settings must be configured first.
 
@@ -29,14 +40,14 @@ After being uploaded, the receipts are stored in the *New documents* folder in t
 
 [comment]: <> (Unsure of the number range! 10000-19999 or 69999? 70000-70999 or 70000-79999?)
 
-### Prerequisites
+#### Prerequisites
 
 - The accounting is configured via the configuration wizard, see [Run the accounting wizard](01_RunAccountingWizard.md).
 - A fiscal year is selected, see [Select fiscal year](01_SelectFiscalYear.md).
 - A manual booking is created, see [Create a manual booking](04_CreateManualBooking.md).
-- A receipt is uploaded in PDF format, see [New Documents](#to_be_completed).
+- A receipt is uploaded in PDF format.
 
-### Procedure
+#### Procedure
 
 *Accounting > Select fiscal year > Book > Tab BOOKINGS*
 
@@ -65,33 +76,18 @@ The selected document is now assigned to the booking. A ![Receipt](/Assets/Icons
 
   ![Attached document](/Assets/Screenshots/RetailSuiteAccounting/Book/Bookings/AttachedDocument.png "[Attached document]")
 
-### Next steps
-
-  - [Book a receipt](#book-a-receipt)
-  - [Create a balance carried forward](11_CreateBalanceCarriedForward.md)
-  - [Book exchange rate fluctuations](12_BookExchangeRateFluctuations.md)
-  - [Access bookings from another period](13_AccessBookingsPeriod.md)
-  - [Search in accounting](14_SearchAccounting.md)
-  - [Provide the accounting data](15_ProvideAccountingData.md)
-
-### See also
-
-  - [Assign booking](/RetailSuiteAccounting/UserInterface/XX_AssignBooking.md)
-  - [Bookings](/RetailSuiteAccounting/UserInterface/XX_Bookings.md)
-  - [New documents](#to_be_completed)
-
 
 ## Book a receipt
 
 The *BOOK RECEIPTS* tab allows to assign manually external receipts uploaded in the system that have not been registered yet in the *Accounting* module. Suppliers' invoices can be uploaded in PDF format in the *Documents* module, which will be then recognized by the system and displayed in the *BOOK RECEIPTS* tab.
 
-### Prerequisites
+#### Prerequisites
 
 - The accounting is configured via the configuration wizard, see [Run the accounting wizard](01_RunAccountingWizard.md).
 - A fiscal year is selected, see [Select fiscal year](01_SelectFiscalYear.md).
-- A receipt is uploaded in PDF format, see [New Documents](#to_be_completed).
+- A receipt is uploaded in PDF format.
 
-### Procedure
+#### Procedure
 
 *Accounting > Select fiscal year > Book > Tab BOOK RECEIPTS*
 
@@ -128,20 +124,6 @@ A message above the entry line confirms that the receipt has been linked to the 
 
   > [Info] If there are further unregistered external receipts, they will be displayed in the *BOOK RECEIPTS* tab. Otherwise, the message "No documents left to be registered" is displayed.
 
-### Next steps
-
-  - [Book a supplier receipt](#book-a-supplier-receipt)
-  - [Create a balance carried forward](11_CreateBalanceCarriedForward.md)
-  - [Book exchange rate fluctuations](12_BookExchangeRateFluctuations.md)
-  - [Access bookings from another period](13_AccessBookingsPeriod.md)
-  - [Search in accounting](14_SearchAccounting.md)
-  - [Provide the accounting data](15_ProvideAccountingData.md)
-
-### See also
-
-  - [Book receipts](/RetailSuiteAccounting/UserInterface/XX_BookReceipts.md)
-  - [New documents/Registered documents](#to_be_completed)
-
 
 ## Book a supplier receipt
 
@@ -153,15 +135,15 @@ Suppliers' invoices can be uploaded in PDF format in the *New supplier receipts*
 
 [comment]: <> (ACQUIRE probably "enter" -ERFASSEN- or "park" -vorerfassen", SAP Terminology)
 
-### Prerequisites
+#### Prerequisites
 
 - The accounting is configured via the configuration wizard, see [Run the accounting wizard](01_RunAccountingWizard.md).
 - A fiscal year is selected, see [Select fiscal year](01_SelectFiscalYear.md).
 - The appropriate plug-in is installed, see [Install plug-in Checking of supplier receipts + Payment proposal list](#to_be_completed).
-- The corresponding folder is created in the *Documents* module, see [New documents](#to_be_completed).
-- Supplier receipts are uploaded in the *New supplier receipts* folder, see [New supplier receipts](#to_be_completed).
+- The corresponding folder is created in the *Documents* module.
+- Supplier receipts are uploaded in the *New supplier receipts* folder.
 
-### Procedure
+#### Procedure
 
 *Accounting > Select fiscal year > Book > Tab BOOKINGS > Context menu EDIT > Menu entry Supplier receipts*
 
@@ -215,18 +197,3 @@ The supplier receipt is acquired and displayed in the *Overview* tab.
  The receipt is now registered in the *Accounting* module. The booking is displayed in the bookings list. An open item for the corresponding supplier (creditor) is created.
 
   ![Financial accounting takeover](/Assets/Screenshots/RetailSuiteAccounting/Book/SupplierReceiptsTakeover.png "[Financial accounting takeover]")
-
-### Next steps
-
- - [Create a balance carried forward](11_CreateBalanceCarriedForward.md)
- - [Book exchange rate fluctuations](12_BookExchangeRateFluctuations.md)
- - [Access bookings from another period](13_AccessBookingsPeriod.md)
- - [Search in accounting](14_SearchAccounting.md)
- - [Provide the accounting data](15_ProvideAccountingData.md)
-
-### See also
-
-  - [Supplier receipts](/RetailSuiteAccounting/UserInterface/XX_SupplierReceipts.md)
-  - [Check supplier receipts](#to_be_completed)
-  - [New supplier receipts](#to_be_completed)
-  - [Payment proposal list](#to_be_completed)

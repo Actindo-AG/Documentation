@@ -11,12 +11,12 @@ Exporting data may be necessary to perform an external audit, create a balance s
 
 Accounting data can be exported into a DATEV CSV compatible file to be later imported in DATEV software for further processing.  
 
-### Prerequisites
+#### Prerequisites
 
  - The accounting is configured via the configuration wizard, see [Run the accounting wizard](/RetailSuiteAccounting/Integration/01_RunAccountingWizard.md).
  - A fiscal year is selected, see [Select a fiscal year](01_SelectFiscalYear.md).
 
-### Procedure
+#### Procedure
 
 *Accounting > Select fiscal year > Extras > Tab EXPORT*
 
@@ -66,11 +66,6 @@ The zip file is downloaded in your computer.
 
   > [Info] Per default, the downloaded export file is saved in the Downloads folder of your computer.
 
-### Next steps
-
-  - [Export the data GDPdU-compliant](#export-the-data-GDPdU-compliant)
-  - [Create a PDF evaluation](#create-a-PDF-evaluation)
-  - [User Interface](#to-be-completed)
 
 ### See also
 
@@ -82,12 +77,12 @@ The zip file is downloaded in your computer.
 
 Accounting data can be exported into a GDPdU-compliant audit file format, a legal requirement for German companies on data access established by the German tax authorities.
 
-### Prerequisites
+#### Prerequisites
 
   - The accounting is configured via the configuration wizard, see [Run the accounting wizard](/RetailSuiteAccounting/Integration/01_RunAccountingWizard.md).
   - A fiscal year is selected, see [Select a fiscal year](01_SelectFiscalYear.md).
 
-### Procedure
+#### Procedure
 
 *Accounting > Select fiscal year > Extras > Tab EXPORT*
 
@@ -127,22 +122,18 @@ The *Export: GDPdU Export: Step 1* window is displayed.
   - [Create a PDF evaluation](#create-a-PDF-evaluation)
   - [User Interface](#to-be-completed)
 
-### See also
-
- - [EXPORT](/RetailSuiteAccounting/UserInterface/XX_Export.md)
- - [Einstellungen Export?](#to-be-completed)
 
 
 ## Create a PDF evaluation
 
 Accounting data can be exported for business evaluation  purposes. The system offers a functionality to create and customize BWA reports. For detailed information, see [Manage reports](/RetailSuiteAccounting/Integration/07_ManageBWAReports.md).
 
-### Prerequisites
+#### Prerequisites
 
   - The accounting is configured via the configuration wizard, see [Run the accounting wizard](/RetailSuiteAccounting/Integration/01_RunAccountingWizard.md).
   - A fiscal year is selected, see [Select a fiscal year](01_SelectFiscalYear.md).
 
-### Procedure
+#### Procedure
 
 *Accounting > Select fiscal year > Book > Context menu EVALUATIONS > Menu entry BWA*
 
@@ -174,9 +165,7 @@ A new window confirms the ongoing PDF creation process. When finished, the PDF f
 
   ![Print BWA](/Assets/Screenshots/RetailSuiteAccounting/Book/PrintBWA.png "[Print BWA]")
 
-### Next steps
 
-  - [User Interface](/RetailSuiteAccounting/UserInterface/#to-be-completed)
 
 ### See also
 

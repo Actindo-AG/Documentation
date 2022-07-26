@@ -1,6 +1,7 @@
-[!!User Interface fiscal year](../UserInterface/00a_FiscalYear.md)
-[!!Settings fiscal years](../UserInterface/02d_FiscalYears.md)
-[!!Select fiscal year](../Operation/01_SelectFiscalYear.md)
+[!!Fakturierung](RetailSuiteFaktBase)  
+[!!User Interface select fiscal year](../UserInterface/00a_FiscalYear.md)  
+[!!User Interface settings fiscal years](../UserInterface/02d_FiscalYears.md)  
+[!!Select fiscal year](../Operation/01_SelectFiscalYear.md)  
 
 # Manage the fiscal year
 

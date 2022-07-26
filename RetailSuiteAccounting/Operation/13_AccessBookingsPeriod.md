@@ -16,13 +16,13 @@ Journal and months are used to arrange a company's business transactions within 
 
 Moreover, when opening the *Accounting* module for the first time after login or after reloading the system, the window to select a fiscal year is displayed. For detailed information, see [Select fiscal year](01_SelectFiscalYear.md).
 
-## Prerequisites
+#### Prerequisites
 
 - The accounting is configured via the configuration wizard, see [Run the accounting wizard](/RetailSuiteAccounting/Integration/01_RunAccountingWizard.md).
 - A valid fiscal year is created, see [Create a fiscal year](RetailSuiteAccounting/Integration/04_ManageFiscalYear.md#create-a-fiscal-year).
 - A fiscal year is selected, see [Select fiscal year](01_SelectFiscalYear.md).
 
-## Procedure
+#### Procedure
 
 *Accounting > Select fiscal year > Book > Tab BOOKINGS > Button FY/MONTH/JOURNAL*
 
@@ -52,10 +52,6 @@ A new window specifying the available journals and the number of bookings contai
 6. Click the [OK] button.  
 The bookings recorded in the selected booking period are displayed.
 
-## Next steps
-
-  - [Search in accounting](14_SearchAccounting.md)
-  - [Provide the accounting data](15_ProvideAccountingData.md)
 
 ## See also
 

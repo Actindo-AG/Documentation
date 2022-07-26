@@ -1,10 +1,10 @@
-[!!User Interface fixed bookings](../UserInterface/02f_FixedBookings.md)
-[!!User Interface fiscal year](../UserInterface/00a_FiscalYear.md)
-[!!Select a fiscal year](../Operation/01_SelectFiscalYear.md)
+[!!User Interface fixed bookings](../UserInterface/02f_FixedBookings.md)  
+[!!User Interface select fiscal year](../UserInterface/00a_FiscalYear.md)  
+[!!Select a fiscal year](../Operation/01_SelectFiscalYear.md)  
 
 # Manage the fixed bookings
 
-The *FIXED BOOKINGS* tab in the *Accounting* module enables to automate recurring bookings. The fixed bookings to be automated can be applied when selecting the fiscal year, see [Select the fiscal year](./01_SelectFiscalYear.md). By doing so, the system will apply automatically the setup fixed bookings in the corresponding fiscal year and journal.
+The *FIXED BOOKINGS* tab in the *Accounting* module enables to automate recurring bookings. The fixed bookings to be automated can be applied when selecting the fiscal year, see [Select the fiscal year](../Operation/01_SelectFiscalYear.md). By doing so, the system will apply automatically the setup fixed bookings in the corresponding fiscal year and journal.
 
 To be able to create fixed bookings, an existing batch must be selected or a new one must be created first.
 
@@ -136,7 +136,7 @@ The existing fixed booking details are displayed in the fields.
 3. Make any necessary changes in the fields.
 
 4. Click the [BOOK] button.  
-The edited fixed booking is added to the fixed booking batch with a **new** sequential number.
+The edited fixed booking is added to the fixed booking batch with a new sequential number.
 
   > [Info] The old fixed booking can be now deleted from the batch. This two-step editing process prevents inadvertently overwriting.
 

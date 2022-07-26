@@ -1,26 +1,27 @@
-[!!Accounting](RetailSuiteAccounting)
+[!!User Interface split booking](../UserInterface/01a_Bookings.md#split-booking)   
+[!!User Interface book](../UserInterface/01_Book.md)  
 
 # Split a booking
 
 In some occasions, it may be necessary to split a booking to keep track of different items separately, for example if an invoice includes products with different tax rates or if total costs must be divided into two or more cost centres. Split bookings can affect both debit and credit accounts, that is, incoming and outgoing invoices.
 
-The [SPLIT] button in the *BOOKINGS* tab allows to split bookings during the manual booking process. For detailed information about creating a manual booking, see [Create a manual booking](05_CreateManualBooking).
+The [SPLIT] button in the *BOOKINGS* tab allows to split bookings during the manual booking process. For detailed information about creating a manual booking, see [Create a manual booking](./04_CreateManualBooking.md).
 
 Once the splitting has been performed, the different split (partial) bookings are assigned to the corresponding accounts. The split bookings are then displayed in the bookings list underneath the main booking.
 
 > [Info] Splitting a booking must be performed during the manual booking process. When splitting an invoice after the booking has been automatically registered following a business transaction or after it has been manually created, the system creates a copy of the existing main booking with the newly assigned contra accounts.
 
-## Prerequisites
+#### Prerequisites
 
-- The accounting is configured via the configuration wizard, see [Run the accounting wizard](01_RunAccountingWizard.md).
-- A valid fiscal year is created, see [Create a fiscal year](04_ManageFiscalYear.md#create-a-fiscal-year).
-- A fiscal year is selected, see [Select fiscal year](01_SelectFiscalYear.md).
+- The accounting is configured via the configuration wizard, see [Run the accounting wizard](../Integration/01_RunAccountingWizard.md).
+- A valid fiscal year is created, see [Create a fiscal year](../Integration/04_ManageFiscalYear.md#create-a-fiscal-year).
+- A fiscal year is selected, see [Select fiscal year](./01_SelectFiscalYear.md).
 
-## Procedure
+#### Procedure
 
 *Accounting > Select fiscal year > Book > Tab BOOKINGS*
 
-![Split booking](/Assets/Screenshots/RetailSuiteAccounting/Book/Bookings/SplitBooking.png "[Split booking]")
+![Split booking](../../Assets/Screenshots/RetailSuiteAccounting/Book/Bookings/SplitBooking.png "[Split booking]")
 
 1. Select the appropriate currency for the booking in the *Currency code* drop-down list.
 
@@ -28,7 +29,7 @@ Once the splitting has been performed, the different split (partial) bookings ar
 
 2. Enter the total invoice value in the *Turnover* field.
 
-3. Enter the date for the manual booking in the *Date* field. Date format must be TTMMJJ or TT.MM.JJ.
+3. Enter the date for the manual booking in the *Date* field. Date format must be DDMMYY.
 
 4. Enter a personal account number in the *Account* field, that is, a debtor (customer) or a creditor (provider) account number.
 
@@ -41,30 +42,16 @@ Once the splitting has been performed, the different split (partial) bookings ar
 6. Click the [SPLIT] button.  
 The *Split booking* window is displayed.  
 
-  ![Split booking window](/Assets/Screenshots/RetailSuiteAccounting/Book/Bookings/SplitBooking01.png "[Split booking window]")
+  ![Split booking window](../../Assets/Screenshots/RetailSuiteAccounting/Book/Bookings/SplitBooking01.png "[Split booking window]")
 
 7. Split the booking as necessary assigning each split booking to the corresponding contra account.
 
 8. Click the [BOOK] button after each split booking.  
 A message in the top left corner of the *Split booking* window confirms each split booking. The split bookings are now listed underneath the main booking in the *Split booking* window.
 
-  ![Bookings split](/Assets/Screenshots/RetailSuiteAccounting/Book/Bookings/SplitBooking02.png "[Bookings split]")
+  ![Bookings split](../../Assets/Screenshots/RetailSuiteAccounting/Book/Bookings/SplitBooking02.png "[Bookings split]")
 
   > [Info] When the total invoice amount has been divided, the remainder will equal 0. At this point, the [SAVE] button is activated and can be selected.
 
 9. Click the [SAVE] button.  
 A message in the top left corner of the *Split booking* window confirms that the split bookings have been recorded.
-
-## Next steps
-
- - [Manage receipts](10_ManageReceipts.md)
- - [Create a balance carried forward](11_CreateBalanceCarriedForward.md)
- - [Book exchange rate fluctuations](12_BookExchangeRateFluctuations.md)
- - [Access bookings from another period](13_AccessBookingsPeriod.md)
- - [Search in accounting](14_SearchAccounting.md)
- - [Provide the accounting data](15_ProvideAccountingData.md)
-
-## See also
-
- - [Split booking](/RetailSuiteAccounting/UserInterface/XX_SplitBooking.md)
- 

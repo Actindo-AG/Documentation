@@ -1,5 +1,5 @@
-[!!Invoicing](RetailSuiteFaktBase)
-[!!User Interface debtors/creditors](../UserInterface/02a_DebtorsCreditors.md)
+[!!Fakturierung](RetailSuiteFaktBase)  
+[!!User Interface debtors/creditors](../UserInterface/02a_DebtorsCreditors.md)  
 
 # Manage the customer/supplier
 

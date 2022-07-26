@@ -10,14 +10,14 @@ However, the *Accounting* module can only work with the base currency configured
 
  The *Foreign currency wizard* menu entry of the *EDIT* context menu in the *BOOKINGS* tab allows to book this difference automatically.
 
-## Prerequisites
+#### Prerequisites
 
 - The accounting is configured via the configuration wizard, see [Run the Accounting Wizard](01_RunAccountingWizard.md).
 - A fiscal year is selected, see [Select fiscal year](01_SelectFiscalYear.md).
 - The corresponding accounts are set up in the foreign currency, see [Manage accounts](/RetailSuiteAccounting/Integration/04_ManageAccounts.md).
 - The corresponding revenues and expenses accounts to book exchange rate differences are set up in the base currency, see [Manage accounts](/RetailSuiteAccounting/Integration/04_ManageAccounts.md#create-an-account).
 
-## Procedure
+#### Procedure
 
 *Accounting > Select fiscal year > Book > Tab BOOKINGS > Context menu EDIT > Menu entry Foreign currency wizard*
 
@@ -60,11 +60,7 @@ A pop-up window confirms that the exchange rate difference has been successfully
 
   > [Info] It may be necessary to refresh the page to see the new bookings displayed in the *BOOKINGS* tab.
 
-## Next steps
 
-  - [Access bookings from another period](13_AccessBookingsPeriod.md)
-  - [Search in accounting](14_SearchAccounting.md)
-  - [Provide the accounting data](15_ProvideAccountingData.md)
 
 ## See also
 

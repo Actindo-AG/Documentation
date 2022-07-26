@@ -1,6 +1,6 @@
-[!!User Interface BWA assignment](../UserInterface/02i_BWAAssignment.md)
-[!!User Interface evaluations](../UserInterface/01_Book.md#evaluations)
-[!!Create a PDF evaluation](../Operation/15_ProvideAccountingData.md#create-a-pdf-evaluation)
+[!!User Interface BWA assignment](../UserInterface/02i_BWAAssignment.md)  
+[!!User Interface evaluations](../UserInterface/01_Book.md#evaluations)  
+[!!Create a PDF evaluation](../Operation/15_ProvideAccountingData.md#create-a-pdf-evaluation)  
 
 
 # Manage the BWA reports

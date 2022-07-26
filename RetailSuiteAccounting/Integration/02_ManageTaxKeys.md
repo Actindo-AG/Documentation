@@ -1,6 +1,6 @@
-[!!Invoicing](RetailSuiteFaktBase)
-[!!Taxes](Taxes)
-[!!User Interface tax keys](../UserInterface/02c_TaxKeys.md)
+[!!Fakturierung](RetailSuiteFaktBase)  
+[!!Taxes](Taxes)  
+[!!User Interface tax keys](../UserInterface/02c_TaxKeys.md)  
 
 
 # Manage the tax keys

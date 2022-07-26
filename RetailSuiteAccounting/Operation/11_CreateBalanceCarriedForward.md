@@ -8,14 +8,14 @@ The *Balance carried forward* menu entry of the *EDIT* context menu in the *BOOK
 
 Special journals are preconfigured in the system to carry balances and open items forward. For example, journal 98 contains all balances carried forward for debtors open items. These settings can be completely customized. For detailed information, see [BALANCE CARRIED FORWARD](#to_be_completed).
 
-## Prerequisites
+#### Prerequisites
 
 - The accounting is configured via the configuration wizard, see [Run the accounting wizard](01_RunAccountingWizard.md).
 - A new valid fiscal years is created, see [Create a fiscal year](04_ManageFiscalYear.md#create-a-fiscal-year).
 - A fiscal year is selected, see [Select fiscal year](01_SelectFiscalYear.md).
 - The balance carried forward function is configured, see [BALANCE CARRIED FORWARD](#to_be_completed).
 
-## Procedure
+#### Procedure
 
 *Accounting > Select fiscal year > Book > Tab BOOKINGS > Context menu EDIT > Menu entry Balance carried forward*
 
@@ -48,12 +48,7 @@ The *Retrieve account balances* window is displayed.
 8. Click the [CONTINUE] button.  
 A message confirms that the balance is carried forward. The window closes automatically.
 
-## Next steps
 
- - [Book exchange rate fluctuations](12_BookExchangeRateFluctuations.md)
- - [Access bookings from another period](13_AccessBookingsPeriod.md)
- - [Search in accounting](14_SearchAccounting.md)
- - [Provide the accounting data](15_ProvideAccountingData.md)
 
 ## See also
 

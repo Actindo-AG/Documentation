@@ -1,4 +1,8 @@
-[!!Accounting](RetailSuiteAccounting)
+[!!User Interface balances](../UserInterface/01b_Balances.md)  
+[!!User Interface account sheet](../UserInterface/01c_AccountSheet.md)  
+[!!User Interface accounts](../UserInterface/02b_Accounts.md)  
+[!!Manage the accounts](../Integration/03_ManageAccounts.md)  
+
 
 # Review an account
 
@@ -13,17 +17,17 @@ The *Book* menu entry in the *Accounting* module contains specific functions to 
 
  > [Info] When clicking the *BALANCES* tab, a blank tab and the message "No account selected" may be displayed. An account must be selected to display the corresponding details. If a booking is selected in the *BOOKINGS* tab, the account and contra account details corresponding to the selected booking will be displayed in the *BALANCES* tab.
 
-### Prerequisites
+#### Prerequisites
 
-- The accounting is configured via the configuration wizard, see [Run the accounting wizard](01_RunAccountingWizard.md).
-- A valid fiscal year is created, see [Create a fiscal year](04_ManageFiscalYear.md#create-a-fiscal-year).
-- A fiscal year is selected, see [Select fiscal year](01_SelectFiscalYear.md).
+- The accounting is configured via the configuration wizard, see [Run the accounting wizard](../Integration/01_RunAccountingWizard.md).
+- A valid fiscal year is created, see [Create a fiscal year](../Integration/04_ManageFiscalYear.md#create-a-fiscal-year).
+- A fiscal year is selected, see [Select fiscal year](./01_SelectFiscalYear.md).
 
-### Procedure
+#### Procedure
 
 *Accounting > Select fiscal year > Book > Tab BALANCES*
 
-![Balances - no account selected](/Assets/Screenshots/RetailSuiteAccounting/Book/Balances/BalancesNoAccount.png "[Balances - no account selected]")
+![Balances - no account selected](../../Assets/Screenshots/RetailSuiteAccounting/Book/Balances/BalancesNoAccount.png "[Balances - no account selected]")
 
 > [Info] When clicking the *BALANCES* tab, a blank tab and the message "No account selected" may be displayed. An account must be selected to display the corresponding details.
 
@@ -36,30 +40,7 @@ The balance for the selected account is displayed on the right side of the works
 3. Select *[All months]* or *[Only this month]* radio button to filter the values to be displayed as necessary.  
 The balance for all months (entire fiscal year) or for the current month is displayed.
 
-  ![Balances](/Assets/Screenshots/RetailSuiteAccounting/Book/Balances/Balances.png "[Balances]")
-
-
-### Next steps
-
-  - [Access the account sheet](#access-the-account-sheet)
-  - [Manage the open items](03_ManageOpenItems.md)
-  - [Create a manual booking](04_CreateManualBooking.md)
-  - [Cancel a booking](05_CancelBooking.md)
-  - [Delete bookings](06_DeleteBookings.md)
-  - [Process bookings](07_ProcessBookings.md)
-  - [Lock a period for bookings](08_LockPeriodBookings.md)
-  - [Split a booking](09_SplitBooking.md)
-  - [Manage receipts](10_ManageReceipts.md)
-  - [Create a balance carried forward](11_CreateBalanceCarriedForward.md)
-  - [Book exchange rate fluctuations](12_BookExchangeRateFluctuations.md)
-  - [Access bookings from another period](13_AccessBookingsPeriod.md)
-  - [Search in accounting](14_SearchAccounting.md)
-  - [Provide the accounting data](15_ProvideAccountingData.md)
-
-### See also
-
-  - [BALANCES](/RetailSuiteAccounting/UserInterface/XX_Balances.md)
-  - [Balance list](/RetailSuiteAccounting/UserInterface/XX_BalanceList.md)
+  ![Balances](../../Assets/Screenshots/RetailSuiteAccounting/Book/Balances/Balances.png "[Balances]")
 
 
 ## Access the account sheet
@@ -69,17 +50,17 @@ The *ACCOUNT SHEET* tab displays a chronologically ordered list of all movements
 > [Info] When clicking the *ACCOUNT SHEET* tab, a blank tab and the message "No account selected" may be displayed. An account must be selected to display the corresponding details. If a booking is selected in the *BOOKINGS* tab, the details of the account specified in the *Contra Account* field are displayed in the *ACCOUNT SHEET* tab. If the *Contra Account* field is empty, the details of the account specified in the *Account* field are displayed.
 
 
-### Prerequisites
+#### Prerequisites
 
-- The accounting is configured via the configuration wizard, see [Run the accounting wizard](01_RunAccountingWizard.md).
-- A valid fiscal year is created, see [Create a fiscal year](04_ManageFiscalYear.md#create-a-fiscal-year).
-- A fiscal year is selected, see [Select fiscal year](01_SelectFiscalYear.md).
+- The accounting is configured via the configuration wizard, see [Run the accounting wizard](../Integration/01_RunAccountingWizard.md).
+- A valid fiscal year is created, see [Create a fiscal year](../Integration/04_ManageFiscalYear.md#create-a-fiscal-year).
+- A fiscal year is selected, see [Select fiscal year](./01_SelectFiscalYear.md).
 
-### Procedure
+#### Procedure
 
 *Accounting > Select fiscal year > Book > Tab ACCOUNT SHEET*
 
-![Account sheet - no account selected](/Assets/Screenshots/RetailSuiteAccounting/Book/AccountSheet/AccountSheetNoAccount.png "[Account sheet - no account selected]")
+![Account sheet - no account selected](../../Assets/Screenshots/RetailSuiteAccounting/Book/AccountSheet/AccountSheetNoAccount.png "[Account sheet - no account selected]")
 
 > [Info] When clicking the *ACCOUNT SHEET* tab, a blank tab and the message "No account selected" may be displayed. An account or contra account must be selected to display the corresponding details.
 
@@ -91,27 +72,4 @@ A chronologically ordered list of all bookings in the selected account is displa
 2. Select *[All months]* or *[Only this month]* radio button to filter the bookings to be displayed as necessary.  
 The bookings for all months (entire fiscal year) or for the current month are displayed.
 
-  ![Account sheet](/Assets/Screenshots/RetailSuiteAccounting/Book/AccountSheet/AccountSheet.png "[Account sheet]")
-
-### Next steps
-
- - [Manage the open items](03_ManageOpenItems.md)
- - [Create a manual booking](04_CreateManualBooking.md)
- - [Cancel a booking](05_CancelBooking.md)
- - [Delete bookings](06_DeleteBookings.md)
- - [Process bookings](07_ProcessBookings.md)
- - [Lock a period for bookings](08_LockPeriodBookings.md)
- - [Split a booking](09_SplitBooking.md)
- - [Manage receipts](10_ManageReceipts.md)
- - [Create a balance carried forward](11_CreateBalanceCarriedForward.md)
- - [Book exchange rate fluctuations](12_BookExchangeRateFluctuations.md)
- - [Access bookings from another period](13_AccessBookingsPeriod.md)
- - [Search in accounting](14_SearchAccounting.md)
- - [Provide the accounting data](15_ProvideAccountingData.md)
-
-### See also
-
- - [Manage the accounts](/RetailSuiteAccounting/Integration/03_ManageAccounts.md)
- - [Account sheet](/RetailSuiteAccounting/UserInterface/XX_AccountSheet.md)
- - [ACCOUNT SHEET](/RetailSuiteAccounting/UserInterface/XX_AccountSheet2.md)
- - [ACCOUNTS](/RetailSuiteAccounting/UserInterface/XX_Accounts.md)
+  ![Account sheet](../../Assets/Screenshots/RetailSuiteAccounting/Book/AccountSheet/AccountSheet.png "[Account sheet]")

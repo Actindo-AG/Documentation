@@ -1,5 +1,5 @@
-[!!User Interface accounts](../UserInterface/02b_Accounts.md)
-[!!Review an account](../Operation/02_ReviewAccount.md)
+[!!User Interface accounts](../UserInterface/02b_Accounts.md)  
+[!!Review an account](../Operation/02_ReviewAccount.md)  
 
 # Manage the accounts
 
