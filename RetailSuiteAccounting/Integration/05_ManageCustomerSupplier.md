@@ -94,4 +94,4 @@ You can delete an existing customer/supplier, for example if it is no longer app
 2. Click the [DELETE] button.  
 The selected customer/supplier is deleted.
 
-[comment]: <> (Schaltfläche heißt nicht genau [LÖSCHEN] sondern [KUNDE (Kundennr.) LÖSCHEN] oder [LIEFERANT (Lieferantnr.) LÖSCHEN]). Gibt es eine bessere Lösung?
+[comment]: <> (Schaltfläche heißt nicht genau LÖSCHEN sondern [KUNDE Kundennr. LÖSCHEN] oder [LIEFERANT Lieferantnr. LÖSCHEN]. Andere Lösung?)
