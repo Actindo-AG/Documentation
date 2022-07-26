@@ -1,21 +1,20 @@
-[!!Accounting](RetailSuiteAccounting)
 
 # Book
 
 *Accounting > Select fiscal year > Book*
 
-  ![Book](/Assets/Screenshots/RetailSuiteAccounting/Book/FYMonthJournalButton.png "[Book]")
+  ![Book](../../Assets/Screenshots/RetailSuiteAccounting/Book/FYMonthJournalButton.png "[Book]")
 
 The Accounting *Book* menu entry is used to manage all existing bookings and to create new ones.
 
 The *Book* User Interface is composed of the following tabs:
 
-  - [BOOKINGS](01a_Bookings.md)
-  - [BALANCES](01b_Balances.md)
-  - [ACCOUNT SHEET](01c_AccountSheet.md)
-  - [OPEN ITEMS](01d_OpenItems.md)
-  - [SEARCH](01e_Search.md)
-  - [BOOK RECEIPTS](01f_BookReceipts.md)
+  - [BOOKINGS](./01a_Bookings.md)
+  - [BALANCES](./01b_Balances.md)
+  - [ACCOUNT SHEET](./01c_AccountSheet.md)
+  - [OPEN ITEMS](./01d_OpenItems.md)
+  - [SEARCH](./01e_Search.md)
+  - [BOOK RECEIPTS](./01f_BookReceipts.md)
 
 
 Additionally, the following cross-tab functions are contained.
@@ -25,11 +24,11 @@ Additionally, the following cross-tab functions are contained.
 
 *Accounting > Select fiscal year > Book > Button FY/MONTH/JOURNAL*
 
-  ![Book](/Assets/Screenshots/RetailSuiteAccounting/Book/FYMonthJournalButton.png "[Book]")
+  ![Book](../../Assets/Screenshots/RetailSuiteAccounting/Book/FYMonthJournalButton.png "[Book]")
 
-Click the [FY/MONTH/JOURNAL] button to display the select fiscal year window. For detailed information, see [Fiscal year](00a_FiscalYear.md) and [Select a fiscal year](/RetailSuiteAccounting/Operation/01_SelectFiscalYear.md).
+Click the [FY/MONTH/JOURNAL] button to display the select fiscal year window. For detailed information, see [Fiscal year](./00a_FiscalYear.md) and [Select a fiscal year](../Operation/01_SelectFiscalYear.md).
 
-New fiscal years can be created, edited or deleted. For detailed information about managing fiscal years, see [Manage the fiscal year](/RetailSuiteAccounting/Integration/04_ManageFiscalYear.md).
+New fiscal years can be created, edited or deleted. For detailed information about managing fiscal years, see [Manage the fiscal year](../Integration/04_ManageFiscalYear.md).
 
 ## EDIT
 
@@ -37,7 +36,7 @@ New fiscal years can be created, edited or deleted. For detailed information abo
 
 Click the *EDIT* button to display the context menu.
 
-  ![EDIT](/Assets/Screenshots/RetailSuiteAccounting/Book/Edit.png "[EDIT]")
+  ![EDIT](../../Assets/Screenshots/RetailSuiteAccounting/Book/Edit.png "[EDIT]")
 
   - *Cash book takeover*  
   Click this menu entry to take over automatically cash payments registered in the cash book. The *Cash book takeover* window is displayed, see [Cash book takeover](#cash-book-takeover).
@@ -49,13 +48,13 @@ Click the *EDIT* button to display the context menu.
 
   [comment]: <> (RS FH about function and need of procedure. How is it used by customers? FH: It can probably be deleted. It is no longer/hardly? used and will be deleted in next releases. To be confirmed!)
 
-  - ![Lock](/Assets/Icons/Lock02.png "[Lock]") *Process*  
+  - ![Lock](../../Assets/Icons/Lock02.png "[Lock]") *Process*  
   Click this menu entry to process one of several bookings in a booking period. The *Process bookings* window is displayed, see [Process](#process).
 
-  - ![Do not enter](/Assets/Icons/DoNotEnter.png "[Do not enter]") *Delete*  
+  - ![Do not enter](../../Assets/Icons/DoNotEnter.png "[Do not enter]") *Delete*  
   Click this menu entry to delete one or several bookings simultaneously. The *Delete bookings* window is displayed, see [Delete](#delete).
 
-  - ![Lock](/Assets/Icons/Lock02.png "[Lock]") *Lock months*  
+  - ![Lock](../../Assets/Icons/Lock02.png "[Lock]") *Lock months*  
   Click this menu entry to lock one or several months for bookings. The *Lock months* window is displayed, see [Lock months](#lock-months).
 
   - *Balance carried forward*  
@@ -72,7 +71,7 @@ Click the *EDIT* button to display the context menu.
 
 *Accounting > Select fiscal year > Book > Context menu EDIT > Menu entry Cash book takeover*
 
-  ![Cash book takeover](/Assets/Screenshots/RetailSuiteAccounting/Book/CashBookTakeover.png "[Cash book takeover]")
+  ![Cash book takeover](../../Assets/Screenshots/RetailSuiteAccounting/Book/CashBookTakeover.png "[Cash book takeover]")
 
 This window displays all cash payments registered in the cash book, which can be taken over automatically in the *Accounting* module. All information provided in columns is read-only, except for the *T* column.
 
@@ -141,7 +140,7 @@ An individual booking from the cash book can be selected and partially edited be
   This field displays the turnover and cannot be modified.
 
   - *Contra account*  
-  Enter the appropriate contra account, see [Chart of accounts](/RetailSuiteAccounting/Integration/01_RunAccountingWizard.md#chart-of-accounts). This field is compulsory.
+  Enter the appropriate contra account, see [Chart of accounts](../Integration/01_RunAccountingWizard.md#chart-of-accounts). This field is compulsory.
 
   > [Info] When you start typing in an account number, a context menu is displayed. You can also select the appropriate option from the menu.
 
@@ -192,7 +191,7 @@ An individual booking from the cash book can be selected and partially edited be
 
 *Accounting > Select fiscal year > Book > Context menu EDIT > Menu entry Bank data takeover*
 
-  ![Bank data synchronizing](/Assets/Screenshots/RetailSuiteAccounting/Book/BankDataSynchronizing.png "[Bank data synchronizing]")
+  ![Bank data synchronizing](../../Assets/Screenshots/RetailSuiteAccounting/Book/BankDataSynchronizing.png "[Bank data synchronizing]")
 
 This screen is also available in the *Payment processing* module. Both modules are closely linked with each other.
 
@@ -239,10 +238,10 @@ This screen is also available in the *Payment processing* module. Both modules a
  - [Search bar]  
  Enter here the value to be searched for. You can press ENTER to start the search.
 
- - ![Cross](/Assets/Icons/Cross02.png "[Cross]") (Cross)  
+ - ![Cross](../../Assets/Icons/Cross02.png "[Cross]") (Cross)  
  Click this button to delete the entered value.
 
- - ![Search](/Assets/Icons/Search.png "[Search]") (Search)  
+ - ![Search](../../Assets/Icons/Search.png "[Search]") (Search)  
  Click this button to search for payments matching the entered values and search criteria.
 
 The imported bank data are displayed in the following columns:
@@ -268,7 +267,7 @@ The imported bank data are displayed in the following columns:
 [comment]: <> (B für Beleg, Bearbeiten, Buchhaltung??? Change column name accordingly here and in IU Terminology file! Add screenshot/icons)  
 
   - S (Search)  
-  The ![Search](/Assets/Icons/Search.png "[Search]") (Search) icon is displayed in this column. Click this button to search for open items.
+  The ![Search](../../Assets/Icons/Search.png "[Search]") (Search) icon is displayed in this column. Click this button to search for open items.
 
  [comment]: <> (New window opens up. Name? Add and describe!)
 
@@ -301,14 +300,14 @@ The imported bank data are displayed in the following columns:
  - *Text*  
  This column displays the booking text, if any.
 
-- ![First page](/Assets/Icons/FirstPage.png "[First page]") - ![Last page](/Assets/Icons/LastPage.png "[Last page]") (Fist page) - (Last page)  
- ![Previous page](/Assets/Icons/PreviousPage.png "[Previous page]") - ![Next page](/Assets/Icons/NextPage.png "[Next page]") (Previous page) - (Next page)  
+- ![First page](../../Assets/Icons/FirstPage.png "[First page]") - ![Last page](../../Assets/Icons/LastPage.png "[Last page]") (Fist page) - (Last page)  
+ ![Previous page](../../Assets/Icons/PreviousPage.png "[Previous page]") - ![Next page](../../Assets/Icons/NextPage.png "[Next page]") (Previous page) - (Next page)  
 Click these buttons to navigate the payment list.
 
 - *Page [x] of [x]*  
 Enter a page number to go to a specific page.
 
-- ![Refresh](/Assets/Icons/Refresh01.png "[Refresh]") (Refresh)  
+- ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh)  
  Click this button to update the payment list.
 
 - [RESET]  
@@ -343,7 +342,7 @@ The payments can also be processed manually. Click any payment in the list to di
 
 - *Date*
 
-  -  ![Calendar](/Assets/Icons/Calendar.png "[Calendar]") (Calendar)
+  -  ![Calendar](../../Assets/Icons/Calendar.png "[Calendar]") (Calendar)
 
 
 - *Account*
@@ -380,7 +379,7 @@ The payments can also be processed manually. Click any payment in the list to di
 
 #### Retrieve bank data
 
-![Retrieve bank data](/Assets/Screenshots/RetailSuiteAccounting/Book/RetrieveBankData.png "[[Retrieve bank data]")
+![Retrieve bank data](../../Assets/Screenshots/RetailSuiteAccounting/Book/RetrieveBankData.png "[[Retrieve bank data]")
 
 - *Bank*
 - *Account / routing number*
@@ -402,7 +401,7 @@ The payments can also be processed manually. Click any payment in the list to di
 
 *Accounting > Select fiscal year > Book > Context menu EDIT > Menu entry Process*
 
-  ![Process bookings](/Assets/Screenshots/RetailSuiteAccounting/Book/Bookings/ProcessBookings01.png "[Process bookings]")
+  ![Process bookings](../../Assets/Screenshots/RetailSuiteAccounting/Book/Bookings/ProcessBookings01.png "[Process bookings]")
 
 This window allows to select one or several bookings to be processed simultaneously.
 
@@ -425,7 +424,7 @@ Click this button to cancel your selection.
 - [OK]  
 Click this button to confirm your selection.
 
-For detailed information about processing bookings, see [Process bookings](/RetailSuiteAccounting/Operation/07_ProcessBookings.md).
+For detailed information about processing bookings, see [Process bookings](../Operation/07_ProcessBookings.md).
 
 
 
@@ -433,7 +432,7 @@ For detailed information about processing bookings, see [Process bookings](/Reta
 
 *Accounting > Select fiscal year > Book > Context menu EDIT > Menu entry Delete*
 
-  ![Delete bookings](/Assets/Screenshots/RetailSuiteAccounting/Book/DeleteBookings.png "[Delete bookings]")
+  ![Delete bookings](../../Assets/Screenshots/RetailSuiteAccounting/Book/DeleteBookings.png "[Delete bookings]")
 
   This window allows to select one or several bookings in a journal to be deleted simultaneously.
 
@@ -449,14 +448,14 @@ For detailed information about processing bookings, see [Process bookings](/Reta
   - [DELETE]  
   Click this button to delete the selected bookings.
 
-  For detailed information about processing bookings, see [Delete bookings](/RetailSuiteAccounting/Operation/06_DeleteBookings.md).
+  For detailed information about processing bookings, see [Delete bookings](../Operation/06_DeleteBookings.md).
 
 
 ### Lock months
 
 *Accounting > Select fiscal year > Book > Context menu EDIT > Menu entry Lock months*
 
-  ![Lock months](/Assets/Screenshots/RetailSuiteAccounting/Book/LockMonths.png "[Lock months]")
+  ![Lock months](../../Assets/Screenshots/RetailSuiteAccounting/Book/LockMonths.png "[Lock months]")
 
   This window allows to select one or several months to be locked for bookings. Locked months can also be unlocked and made bookable again.
 
@@ -478,13 +477,13 @@ For detailed information about processing bookings, see [Process bookings](/Reta
   - [OK]  
   Click this button to confirm your selection.
 
-  For detailed information about processing bookings, see [Lock a period for bookings](/RetailSuiteAccounting/Operation/08_LockPeriodBookings.md).
+  For detailed information about processing bookings, see [Lock a period for bookings](../Operation/08_LockPeriodBookings.md).
 
 ### Balance carried forward
 
 *Accounting > Select fiscal year > Book > Context menu EDIT > Menu entry Balance carried forward*
 
-  ![Balance carried forward: step 1](/Assets/Screenshots/RetailSuiteAccounting/Book/BalanceCarriedForward01.png "[Balance carried forward: step 1]")
+  ![Balance carried forward: step 1](../../Assets/Screenshots/RetailSuiteAccounting/Book/BalanceCarriedForward01.png "[Balance carried forward: step 1]")
 
 The *Balance carried forward: Step 1* window allows to select balances to be carried forward to the next fiscal year.
 
@@ -517,7 +516,7 @@ Click this button to cancel your selection.
 Click this button to proceed to the *Retrieve account balances* window.
 
 
-  ![Retrieve account balances](/Assets/Screenshots/RetailSuiteAccounting/Book/RetrieveAccountBalances.png "[Retrieve account balances]")
+  ![Retrieve account balances](../../Assets/Screenshots/RetailSuiteAccounting/Book/RetrieveAccountBalances.png "[Retrieve account balances]")
 
 The *Retrieve account balances* window confirms the values previously selected and offers the possibility to narrow down the account selection.
 
@@ -547,14 +546,14 @@ Click this button to cancel the whole process.
 - [CONTINUE]  
 Click this button to proceed to carry the selected balances forward.
 
-For detailed information about creating a balance carried forward, see [Create a balance carried forward](/RetailSuiteAccounting/Operation/11_CreateBalanceCarriedForward.md).
+For detailed information about creating a balance carried forward, see [Create a balance carried forward](../Operation/11_CreateBalanceCarriedForward.md).
 
 
 ### Foreign currency wizard
 
 *Accounting > Select fiscal year > Book > Context menu EDIT > Menu entry Foreign currency wizard*
 
-  ![Foreign currency wizard](/Assets/Screenshots/RetailSuiteAccounting/Book/ForeignCurrencyWizardWindow01.png "[Foreign currency wizard]")
+  ![Foreign currency wizard](../../Assets/Screenshots/RetailSuiteAccounting/Book/ForeignCurrencyWizardWindow01.png "[Foreign currency wizard]")
 
   The *Foreign currency wizard* window allows to search for accounts containing exchange rate differences and  book these differences automatically in special revenues and expenses accounts set up for this purpose.
 
@@ -573,13 +572,13 @@ Click the drop-down list to select the applicable accounts. The following accoun
  - **Individual**  
  Select this option to enter a self-defined account number range. When selecting this option, two new fields (*from* - *to*) are displayed. Enter the applicable account number range in these fields.
 
-    ![Foreign currency wizard - Individual](/Assets/Screenshots/RetailSuiteAccounting/Book/ForeignCurrencyWizardWindow02.png "[Foreign currency wizard - Individual]")
+    ![Foreign currency wizard - Individual](../../Assets/Screenshots/RetailSuiteAccounting/Book/ForeignCurrencyWizardWindow02.png "[Foreign currency wizard - Individual]")
 
 
   - *Booking date*  
   Enter the corresponding booking date.
 
-  > [Info] You can type in the booking date or use the ![Calendar](/Assets/Icons/Calendar.png "[Calendar]") (Calendar) icon.
+  > [Info] You can type in the booking date or use the ![Calendar](../../Assets/Icons/Calendar.png "[Calendar]") (Calendar) icon.
 
   - [BACK]   
   This button is greyed out, as there is no previous step.
@@ -590,7 +589,7 @@ Click the drop-down list to select the applicable accounts. The following accoun
   Click this button to proceed to the next step.
 
 
-![Foreign currency wizard - Account selection](/Assets/Screenshots/RetailSuiteAccounting/Book/ForeignCurrencyWizardWindow03.png "[Foreign currency wizard - Account selection]")
+![Foreign currency wizard - Account selection](../../Assets/Screenshots/RetailSuiteAccounting/Book/ForeignCurrencyWizardWindow03.png "[Foreign currency wizard - Account selection]")
 
 - *Account selection*  
 Click the drop-down list to select the account(s) containing the exchange rate difference(s) to be booked.
@@ -601,7 +600,7 @@ Click this button to go back to the previous step.
 - [CONTINUE]  
 Click this button to book the exchange rate difference(s) in the applicable revenues or expenses accounts.
 
-For detailed information about booking exchange rate fluctuations, see [Book exchange rate fluctuations](/RetailSuiteAccounting/Operation/12_BookExchangeRateFluctuations.md).
+For detailed information about booking exchange rate fluctuations, see [Book exchange rate fluctuations](../Operation/12_BookExchangeRateFluctuations.md).
 
 
 
@@ -611,14 +610,14 @@ For detailed information about booking exchange rate fluctuations, see [Book exc
 
 *Accounting > Select fiscal year > Book > Context menu EDIT > Menu entry Supplier receipts > Tab Acquire*
 
-  ![Acquire supplier receipts](/Assets/Screenshots/RetailSuiteAccounting/Book/SupplierReceiptsAcquire.png "[Acquire supplier receipts]")
+  ![Acquire supplier receipts](../../Assets/Screenshots/RetailSuiteAccounting/Book/SupplierReceiptsAcquire.png "[Acquire supplier receipts]")
 
 The *Acquire* tab displays all unregistered supplier receipts uploaded to the *New supplier receipts* folder in the *Documents* module.
 
-- ![Previous](/Assets/Icons/Previous.png "[Previous]") *Document* ![Next](/Assets/Icons/Next.png "[Next]")   
+- ![Previous](../../Assets/Icons/Previous.png "[Previous]") *Document* ![Next](../../Assets/Icons/Next.png "[Next]")   
 Click the arrow previous/next buttons to scroll through the documents.
 
-- ![First page](/Assets/Icons/FirstPage02.png "[Previous]") ![First page](/Assets/Icons/Previous.png "[Previous]") *Page [x]* ![Next](/Assets/Icons/Next.png "[Next]")  
+- ![First page](../../Assets/Icons/FirstPage02.png "[Previous]") ![First page](../../Assets/Icons/Previous.png "[Previous]") *Page [x]* ![Next](../../Assets/Icons/Next.png "[Next]")  
 The current page number is displayed. Click the arrow first page/previous/next buttons to scroll through the pages.
 
 - (-) *Zoom* (+)  
@@ -691,11 +690,11 @@ Click this button to perform a split booking, if necessary.
 
 *Accounting > Select fiscal year > Book > Context menu EDIT > Menu entry Supplier receipts > Tab Overview*
 
-  ![Overview](/Assets/Screenshots/RetailSuiteAccounting/Book/SupplierReceiptsOverview.png "[Overview]")
+  ![Overview](../../Assets/Screenshots/RetailSuiteAccounting/Book/SupplierReceiptsOverview.png "[Overview]")
 
 The *Overview* tab displays all receipts that have been acquired (or preregistered) in the system via the *Acquire* tab. The acquired receipts can be searched for using the [QUICK SEARCH] button. The overview can also be filtered using the filter function.
 
-  ![Search and filter functions](/Assets/Screenshots/RetailSuiteAccounting/Book/SupplierReceiptsOverview02.png "[Search and filter functions]")
+  ![Search and filter functions](../../Assets/Screenshots/RetailSuiteAccounting/Book/SupplierReceiptsOverview02.png "[Search and filter functions]")
 
 - [QUICK SEARCH]  
 Click this button to display the *QUICK SEARCH* context menu. All search criteria are selected per default through a marked checkbox. Deselect any search criteria as necessary. The following search criteria are available:
@@ -726,10 +725,10 @@ Click this button to display the *QUICK SEARCH* context menu. All search criteri
  - [Search bar]  
  Enter here the value to be searched for. You can press ENTER to start the search.
 
- - ![Cross](/Assets/Icons/Cross02.png "[Cross]") (Cross)  
+ - ![Cross](../../Assets/Icons/Cross02.png "[Cross]") (Cross)  
  Click this button to delete the entered value.
 
- - ![Search](/Assets/Icons/Search.png "[Search]") (Search)  
+ - ![Search](../../Assets/Icons/Search.png "[Search]") (Search)  
  Click this button to search for receipts matching the entered values and search criteria.
 
 
@@ -772,7 +771,7 @@ Click the drop-down list to select the applicable search criteria:
     - Select **before** to search for a period up to a specific date.
     - Select **after** to search for a period after a specific date.  
 
-    > [Info] You can type in the booking date or use the ![Calendar](/Assets/Icons/Calendar.png "[Calendar]") (Calendar) icon.
+    > [Info] You can type in the booking date or use the ![Calendar](../../Assets/Icons/Calendar.png "[Calendar]") (Calendar) icon.
 
   - Payment target  
 Click the drop-down list to select the applicable payment target. The following options are available:
@@ -796,7 +795,7 @@ Click the drop-down list to select the applicable search criteria:
     - Select **before** to search for a period up to a specific date.
     - Select **after** to search for a period after a specific date.  
 
-    > [Info] You can type in the booking date or use the ![Calendar](/Assets/Icons/Calendar.png "[Calendar]") (Calendar) icon.
+    > [Info] You can type in the booking date or use the ![Calendar](../../Assets/Icons/Calendar.png "[Calendar]") (Calendar) icon.
 
   - Date (modification)  
 Click the drop-down list to select the applicable search criteria:
@@ -805,7 +804,7 @@ Click the drop-down list to select the applicable search criteria:
     - Select **before** to search for a period up to a specific date.
     - Select **after** to search for a period after a specific date.  
 
-    > [Info] You can type in the booking date or use the ![Calendar](/Assets/Icons/Calendar.png "[Calendar]") (Calendar) icon.
+    > [Info] You can type in the booking date or use the ![Calendar](../../Assets/Icons/Calendar.png "[Calendar]") (Calendar) icon.
 
   - Rejected  
 Click the drop-down list to select the applicable search criteria (**Yes/No**).
@@ -820,19 +819,19 @@ Click this button to cancel your selection.
 Click this button to apply the search criteria and values.
 
 
-![Columns layout and sorting](/Assets/Screenshots/RetailSuiteAccounting/Book/SupplierReceiptsOverview03.png "[Columns layout and sorting]")
+![Columns layout and sorting](../../Assets/Screenshots/RetailSuiteAccounting/Book/SupplierReceiptsOverview03.png "[Columns layout and sorting]")
 
 All acquired receipts are displayed in the columns view. The column width can be modified using the mouse. To do so, place the mouse pointer on the vertical dividing line between two columns titles. The mouse pointer changes to a double-headed arrow. Press the left mouse button and move the line using drag and drop until it has reached the required width.
 
-When placing the cursor on a column header, three vertical points are displayed to the right of the column title. Click the ![Points](/Assets/Icons/Points02.png "[Points]") (Points) icon to display the context menu. The following menu entries are available:
+When placing the cursor on a column header, three vertical points are displayed to the right of the column title. Click the ![Points](../../Assets/Icons/Points02.png "[Points]") (Points) icon to display the context menu. The following menu entries are available:
 
-- ![Sort ascending](/Assets/Icons/SortAscending.png "[Sort ascending]") Sort ascending  
+- ![Sort ascending](../../Assets/Icons/SortAscending.png "[Sort ascending]") Sort ascending  
   Click this entry to sort the rows in ascending order.
-- ![Sort descending](/Assets/Icons/SortDescending.png "[Sort descending]") Sort descending  
+- ![Sort descending](../../Assets/Icons/SortDescending.png "[Sort descending]") Sort descending  
   Click this entry to sort the rows in descending order.
-- ![Columns](/Assets/Icons/Columns02.png "[Columns]") Columns  
+- ![Columns](../../Assets/Icons/Columns02.png "[Columns]") Columns  
   Place the mouse on this entry to display the *Columns* sub-menu. Add or remove columns by marking or unmarking the corresponding checkbox.
-- ![Checbox](/Assets/Icons/Checkbox02.png "[Checkbox]") Filter  
+- ![Checbox](../../Assets/Icons/Checkbox02.png "[Checkbox]") Filter  
   Place the mouse on this entry to display the search bar. Enter a search value in the search bar and click the checkbox to filter the rows according to the search value.
 
 
@@ -840,13 +839,13 @@ All information provided in columns is read-only, except for the *Doc* column.
 
 - *Status*  
 There are five possible statuses, all of them identified with a different color code. Hover the mouse over the status icon reveal its meaning. The five statuses available are:
-  - ![New](/Assets/Icons/New.png "[New]") New
-  - ![Released](/Assets/Icons/Released.png "[Released]") Released
+  - ![New](../../Assets/Icons/New.png "[New]") New
+  - ![Released](../../Assets/Icons/Released.png "[Released]") Released
   - Pending
-  - ![Rejected](/Assets/Icons/Rejected.png "[Rejected]") Rejected
+  - ![Rejected](../../Assets/Icons/Rejected.png "[Rejected]") Rejected
   - Completed
 
-  > [Info] This function works together with the *Purchasing* module, where the receipt is checked and released (or rejected) by the assigned supervisor. The status changes here accordingly. For detailed information about booking supplier receipts, see [Book a supplier receipt](/RetailSuiteAccounting/Operation/10_ManageREceipts.md#book-a-supplier-receipt).
+  > [Info] This function works together with the *Purchasing* module, where the receipt is checked and released (or rejected) by the assigned supervisor. The status changes here accordingly. For detailed information about booking supplier receipts, see [Book a supplier receipt](../Operation/10_ManageREceipts.md#book-a-supplier-receipt).
 
 [comment]: <> (Icons missing! To be completed.)
 
@@ -857,7 +856,7 @@ The supplier account number is displayed.
 The contra account number is displayed.
 
 - *Doc*  
-Click the ![B](/Assets/Icons/Beleg02.png "[B]") icon to display the acquired receipt in a new window.
+Click the ![B](../../Assets/Icons/Beleg02.png "[B]") icon to display the acquired receipt in a new window.
 
 [comment]: <> (Describe new window? Angehängtes Dokument window. See 01a_Book.md, Document attached.)
 
@@ -888,10 +887,10 @@ A color name may be displayed here if the receipt has been flagged in the *Purch
 A brief comment may be displayed here if the receipt has been flagged in the *Purchasing* module.
 
 - *Comments*  
-If a comment has been added, the ![Comment](/Assets/Icons/Comment.png "[Comment]") comment icon is displayed. Click the icon to read the comment(s) in a new window.
+If a comment has been added, the ![Comment](../../Assets/Icons/Comment.png "[Comment]") comment icon is displayed. Click the icon to read the comment(s) in a new window.
 
 - *Reason for rejection*  
-If the receipt has been rejected and a reason has been given, the ![Comment](/Assets/Icons/Comment.png "[Comment]") comment icon is displayed. Hover over the icon with the mouse to read the comment.
+If the receipt has been rejected and a reason has been given, the ![Comment](../../Assets/Icons/Comment.png "[Comment]") comment icon is displayed. Hover over the icon with the mouse to read the comment.
 
 - *Created by*  
 The assigned user name is displayed.
@@ -915,14 +914,14 @@ If rejected, a struck-through red-colored **Yes** is displayed.
 The assigned supervisor name is displayed.
 
 
-- ![First page](/Assets/Icons/FirstPage.png "[First page]") - ![Last page](/Assets/Icons/LastPage.png "[Last page]") (Fist page) - (Last page)  
- ![Previous page](/Assets/Icons/PreviousPage.png "[Previous page]") - ![Next page](/Assets/Icons/NextPage.png "[Next page]") (Previous page) - (Next page)  
+- ![First page](../../Assets/Icons/FirstPage.png "[First page]") - ![Last page](../../Assets/Icons/LastPage.png "[Last page]") (Fist page) - (Last page)  
+ ![Previous page](../../Assets/Icons/PreviousPage.png "[Previous page]") - ![Next page](../../Assets/Icons/NextPage.png "[Next page]") (Previous page) - (Next page)  
 Click these buttons to navigate the receipt list.
 
 - *Page [x] of [x]*  
 Enter a page number to go to a specific page.
 
-- ![Refresh](/Assets/Icons/Refresh01.png "[Refresh]") (Refresh)  
+- ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh)  
  Click this button to update the receipt list.
 
 - [RESET]  
@@ -936,14 +935,14 @@ Enter a page number to go to a specific page.
  *Accounting > Select fiscal year > Book > Context menu EDIT > Menu entry Supplier receipts > Tab Financial accounting takeover*
 
 
-  ![Financial accounting takeover](/Assets/Screenshots/RetailSuiteAccounting/Book/SupplierReceiptsTakeover.png "[Financial accounting takeover]")
+  ![Financial accounting takeover](../../Assets/Screenshots/RetailSuiteAccounting/Book/SupplierReceiptsTakeover.png "[Financial accounting takeover]")
 
 The *Financial account takeover* tab displays all receipts with **Released** status. An extra column displaying checkboxes is added.
 
 - [x] (Checkbox)  
 Click the checkbox in the column header to select all receipts listed. Click the checkbox in one or more individual receipts to take over only the selected ones.
 
-When selecting a receipt, changes can still be made before takeover. For detailed information about booking supplier receipts, see [Book a supplier receipt](/RetailSuiteAccounting/Operation/10_ManageREceipts.md#book-a-supplier-receipt).
+When selecting a receipt, changes can still be made before takeover. For detailed information about booking supplier receipts, see [Book a supplier receipt](../Operation/10_ManageREceipts.md#book-a-supplier-receipt).
 
 - [SPEICHERN]  
 Click this button to save any changes made to receipt data.
@@ -964,7 +963,7 @@ Click this button to register the selected receipts in the system.
 
 This menu allows to create and print out different sorts of evaluation reports for analysis or overview purposes. Click the *EVALUATIONS* button to display the context menu.
 
-![Evaluations](/Assets/Screenshots/RetailSuiteAccounting/Book/Evaluations.png "[Evaluations]")
+![Evaluations](../../Assets/Screenshots/RetailSuiteAccounting/Book/Evaluations.png "[Evaluations]")
 
   - *Account balance*  
   Click this menu entry to display the *Account balance* window, see [Account balance](#account-balance).
@@ -998,7 +997,7 @@ This menu allows to create and print out different sorts of evaluation reports f
 
 *Accounting > Select fiscal year > Book > Context menu EVALUATIONS > Menu entry Account balance*
 
-  ![Account balance](/Assets/Screenshots/RetailSuiteAccounting/Book/AccountBalance.png "[Account balance]")
+  ![Account balance](../../Assets/Screenshots/RetailSuiteAccounting/Book/AccountBalance.png "[Account balance]")
 
 - *Account*  
 Enter the account number to be displayed.
@@ -1036,7 +1035,7 @@ Click this button to create the evaluation report in a printable format.
 
 *Accounting > Select fiscal year > Book > Context menu EVALUATIONS > Menu entry Account sheet*
 
-  ![Account sheet](/Assets/Screenshots/RetailSuiteAccounting/Book/AccountSheet.png "[Account sheet]")
+  ![Account sheet](../../Assets/Screenshots/RetailSuiteAccounting/Book/AccountSheet.png "[Account sheet]")
 
 - *Newly booked accounts* [x]  
 Select the checkbox to include only the newly added bookings.
@@ -1075,7 +1074,7 @@ Click this button to create the evaluation report in a printable format.
 
 *Accounting > Select fiscal year > Book > Context menu EVALUATIONS > Menu entry Journal*
 
-  ![Journal](/Assets/Screenshots/RetailSuiteAccounting/Book/Journal.png "[Journal]")
+  ![Journal](../../Assets/Screenshots/RetailSuiteAccounting/Book/Journal.png "[Journal]")
 
 - *Month*  
 Enter the month(s) to be included.
@@ -1103,7 +1102,7 @@ Click this button to create the evaluation report in a printable format.
 
 *Accounting > Select fiscal year > Book > Context menu EVALUATIONS > Menu entry Balance list*
 
-  ![Balance list](/Assets/Screenshots/RetailSuiteAccounting/Book/BalanceList.png "[Balance list]")
+  ![Balance list](../../Assets/Screenshots/RetailSuiteAccounting/Book/BalanceList.png "[Balance list]")
 
 - *Month*  
 Click the drop-down list to select the month to be included. The following options are available:  
@@ -1127,7 +1126,7 @@ Click the drop-down list to select the accounts to be displayed. The following o
  - **Individual**  
  Select this option to enter a self-defined account number range. When selecting this option, two new fields (*Accounts from* - *Accounts to*) are displayed. Enter the applicable account number range in these fields.
 
-   ![Balance list](/Assets/Screenshots/RetailSuiteAccounting/Book/BalanceList02.png "[Balance list]")
+   ![Balance list](../../Assets/Screenshots/RetailSuiteAccounting/Book/BalanceList02.png "[Balance list]")
 
 
 - *Layout*  
@@ -1157,7 +1156,7 @@ Click the drop-down list to select the sorting mode.  The following options are 
 
 *Accounting > Select fiscal year > Book > Context menu EVALUATIONS > Menu entry Open items*
 
-  ![Open items](/Assets/Screenshots/RetailSuiteAccounting/Book/OpenItems.png "[Open items]")
+  ![Open items](../../Assets/Screenshots/RetailSuiteAccounting/Book/OpenItems.png "[Open items]")
 
   - *Accounts*  
   Click the drop-down list to select the accounts to be displayed. The following options are available:  
@@ -1169,7 +1168,7 @@ Click the drop-down list to select the sorting mode.  The following options are 
     - **Individual**  
     Select this option to enter a self-defined account number range. When selecting this option, two new fields (*Accounts*) are displayed. Enter the applicable account number range in these fields.
 
-      ![Open items](/Assets/Screenshots/RetailSuiteAccounting/Book/OpenItems02.png "[Open items]")
+      ![Open items](../../Assets/Screenshots/RetailSuiteAccounting/Book/OpenItems02.png "[Open items]")
 
   - *Month up to*  
   Click the drop-down list to select the month(s) to be included. The following options are available:
@@ -1202,7 +1201,7 @@ Click the drop-down list to select the sorting mode.  The following options are 
 
 *Accounting > Select fiscal year > Book > Context menu EVALUATIONS > Menu entry BWA*
 
-  ![BWA](/Assets/Screenshots/RetailSuiteAccounting/Book/BWA.png "[BWA]")
+  ![BWA](../../Assets/Screenshots/RetailSuiteAccounting/Book/BWA.png "[BWA]")
 
   - *Sorting*  
 Click the drop-down list to select the sorting mode. The following options are available:
@@ -1236,7 +1235,7 @@ Click the drop-down list to select the BWA report type to be created. The follow
   - **4: Liquidity**
   - **5: Monthly balance**
 
-  > [Info] These evaluation reports are preconfigured in the system. All available reports can be completely customized or used as provided, and new reports can also be created. Any newly created reports will be displayed in the drop-down list. For detailed information about creating and managing BWA reports, see [Manage BWA reports](/RetailSuiteAccounting/Operation/07_ManageBWAReports.md).
+  > [Info] These evaluation reports are preconfigured in the system. All available reports can be completely customized or used as provided, and new reports can also be created. Any newly created reports will be displayed in the drop-down list. For detailed information about creating and managing BWA reports, see [Manage BWA reports](../Operation/07_ManageBWAReports.md).
 
 - *Layout*  
 Click the drop-down list to select the preferred layout. The following options are available:
@@ -1257,14 +1256,14 @@ Click this button to cancel your selection.
 Click this button to create the evaluation report in a printable format.
 
 
-For detailed information about creating a BWA evaluation, see [Create a PDF evaluation](/RetailSuiteAccounting/Operation/15_ProvideAccountingData.md#create-a-pdf-evaluation).
+For detailed information about creating a BWA evaluation, see [Create a PDF evaluation](../Operation/15_ProvideAccountingData.md#create-a-pdf-evaluation).
 
 
 ### ProfitCenter
 
 *Accounting > Select fiscal year > Book > Context menu EVALUATIONS > Menu entry ProfitCenter*
 
-  ![ProfitCenter](/Assets/Screenshots/RetailSuiteAccounting/Book/ProfitCenter.png "[ProfitCenter]")
+  ![ProfitCenter](../../Assets/Screenshots/RetailSuiteAccounting/Book/ProfitCenter.png "[ProfitCenter]")
 
 - *Month*  
 Click the drop-down list to select the month to be included. The following options are available:  
@@ -1282,7 +1281,7 @@ Click the drop-down list to select a comparison year. If no comparison year is n
 - *Cost unit group*  
 Click the drop-down list to select a cost unit group. If no cost unit group is needed, select the option *0 - no group*.  
 
-  > [Info] For detailed information about creating and managing cost units, see [COST ACCOUNTING](XX_CostAccounting.md).
+  > [Info] For detailed information about creating and managing cost units, see [COST ACCOUNTING](./02e_CostAccounting.md).
 
 [comment]: <> (Check how it works!?)
 
@@ -1295,7 +1294,7 @@ Click the drop-down list to select the BWA report type to be created. The follow
     - **4: Liquidity**
     - **5: Monthly balance**
 
-  > [Info] These evaluation reports are preconfigured in the system. All available reports can be completely customized or used as provided, and new reports can also be created. Any newly created reports will be displayed in the drop-down list. For detailed information about creating and managing BWA reports, see [Manage BWA reports](/RetailSuiteAccounting/Operation/07_ManageBWAReports.md).
+  > [Info] These evaluation reports are preconfigured in the system. All available reports can be completely customized or used as provided, and new reports can also be created. Any newly created reports will be displayed in the drop-down list. For detailed information about creating and managing BWA reports, see [Manage BWA reports](../Operation/07_ManageBWAReports.md).
 
 - *Layout*  
 Click the drop-down list to select the preferred layout. The following options are available:  
@@ -1317,7 +1316,7 @@ Click the drop-down list to select the preferred layout. The following options a
 
 *Accounting > Select fiscal year > Book > Context menu EVALUATIONS > Menu entry Cost unit comparison*
 
-  ![Cost unit comparison](/Assets/Screenshots/RetailSuiteAccounting/Book/CostUnitComparison.png "[Cost unit comparison]")
+  ![Cost unit comparison](../../Assets/Screenshots/RetailSuiteAccounting/Book/CostUnitComparison.png "[Cost unit comparison]")
 
 - *Month*  
 Click the drop-down list to select the month to be included. The following options are available:  
@@ -1337,7 +1336,7 @@ Click the drop-down list to select a cost unit group. There are two default opti
 
   [comment]: <> (When cost unit group(s) created, do they appear in the drop-down list, as it is the case for Kostenstellen/cost centers? Where are cost units created?)
 
-  > [Info] For detailed information about creating and managing cost units, see [COST ACCOUNTING](XX_CostAccounting.md).
+  > [Info] For detailed information about creating and managing cost units, see [COST ACCOUNTING](./02e_CostAccounting.md).
 
 [comment]: <> (Check how it works!?)
 
@@ -1350,7 +1349,7 @@ Click the drop-down list to select the BWA report type to be created. The follow
     - **4: Liquidity**
     - **5: Monthly balance**
 
-  > [Info] These evaluation reports are preconfigured in the system. All available reports can be completely customized or used as provided, and new reports can also be created. Any newly created reports will be displayed in the drop-down list. For detailed information about creating and managing BWA reports, see [Manage BWA reports](/RetailSuiteAccounting/Operation/07_ManageBWAReports.md).
+  > [Info] These evaluation reports are preconfigured in the system. All available reports can be completely customized or used as provided, and new reports can also be created. Any newly created reports will be displayed in the drop-down list. For detailed information about creating and managing BWA reports, see [Manage BWA reports](../Operation/07_ManageBWAReports.md).
 
 - [CANCEL]  
   Click this button to cancel your selection.
@@ -1368,7 +1367,7 @@ When clicking the *Other* menu entry of the EVALUATIONS context menu, a sub-menu
 
 *Accounting > Select fiscal year > Book > Context menu EVALUATIONS > Menu entry Account sheet > Sub-menu entry Chart of accounts*
 
-  ![Chart of accounts](/Assets/Screenshots/RetailSuiteAccounting/Book/ChartOfAccounts.png "[Chart of accounts]")
+  ![Chart of accounts](../../Assets/Screenshots/RetailSuiteAccounting/Book/ChartOfAccounts.png "[Chart of accounts]")
 
 - *Accounts*  
 Enter the account number range to be displayed.
@@ -1393,7 +1392,7 @@ Select this checkbox to display only booked accounts.
 
 *Accounting > Select fiscal year > Book > Context menu EVALUATIONS > Menu entry Account sheet > Sub-menu entry Deb./cred.*
 
-  ![Debtors/Creditors](/Assets/Screenshots/RetailSuiteAccounting/Book/DebtorsCreditors.png "[Debtors/Creditors]")
+  ![Debtors/Creditors](../../Assets/Screenshots/RetailSuiteAccounting/Book/DebtorsCreditors.png "[Debtors/Creditors]")
 
 - *Accounts*  
 Enter the account number range to be displayed.

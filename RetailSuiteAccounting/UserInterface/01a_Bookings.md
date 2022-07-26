@@ -1,10 +1,9 @@
-[!!Accounting](RetailSuiteAccounting)
 
 # Bookings
 
 *Accounting > Select fiscal year > Book > Tab BOOKINGS*
 
-  ![Book](/Assets/Screenshots/RetailSuiteAccounting/Book/FYMonthJournalButton.png "[Book]")
+  ![Book](../../Assets/Screenshots/RetailSuiteAccounting/Book/FYMonthJournalButton.png "[Book]")
 
 The *BOOKINGS* tab displays all existing bookings in the selected booking period in chronological order. The booking details displayed in columns are read-only.
 
@@ -20,7 +19,7 @@ This column displays the booking period (month/journal).
 This column displays the turnover value.
 
 - *Contra account*  
-This column displays the contra account number. For detailed information about the available accounts, see [Chart of accounts](/RetailSuiteAccounting/Integration/01_RunAccountingWizard.md#chart-of-accounts).
+This column displays the contra account number. For detailed information about the available accounts, see [Chart of accounts](../Integration/01_RunAccountingWizard.md#chart-of-accounts).
 
 - *Receipt1*  
 This column displays the receipt 1 value, usually the invoice number.
@@ -36,22 +35,22 @@ This column displays the booking date. Date format is DDMMYY.
 - *Account*  
 This column displays the account number, usually a personal account number, that is, a customer or supplier account number. A valid range for personal account numbers (10000-69999 for customers and 70000-99999 for suppliers) is predefined in the system.
 
-  > [Info] Customer and supplier personal accounts can be created, edited and deleted. For detailed information, see [Manage the customer/supplier](/RetailSuiteAccounting/Integration/05_ManageCustomerSupplier.md).
+  > [Info] Customer and supplier personal accounts can be created, edited and deleted. For detailed information, see [Manage the customer/supplier](../Integration/05_ManageCustomerSupplier.md).
 
 - *Cst1*  
 This column displays the cost unit number selected.
 
-  > [Info] This is only applicable is a cost center accounting for cost 1 has been set up. For detailed information, see [COST ACCOUNTING](XX_CostAccounting.md).
+  > [Info] This is only applicable is a cost center accounting for cost 1 has been set up. For detailed information, see [COST ACCOUNTING](./02e_CostAccounting.md).
 
 [comment]: <> (Alt-Doku: Das Feld wird beim Eingeben nur dann angesprochen, wenn eine Kostenstellenrechnung für Kost1 eingerichtet ist.)
 
 - *Cst2*  
 This column displays the cost unit number selected.
 
-  > [Info] This is only applicable is a cost center accounting for cost 2 has been set up. For more details, see [COST ACCOUNTING](XX_CostAccounting.md).
+  > [Info] This is only applicable is a cost center accounting for cost 2 has been set up. For more details, see [COST ACCOUNTING](./02e_CostAccounting.md).
 
 - *(Unnamed column)*  
-This column displays a ![B](/Assets/Icons/Beleg.png "[B]") icon if a receipt has been linked to the booking. When clicking on the icon, the linked receipt is displayed in the *Attached document* window. For detailed information, see [Attached document](#attached-document).
+This column displays a ![B](../../Assets/Icons/Beleg.png "[B]") icon if a receipt has been linked to the booking. When clicking on the icon, the linked receipt is displayed in the *Attached document* window. For detailed information, see [Attached document](#attached-document).
 
 [comment]: <> (Comment on Bug file -> suggestion to add a name to column)
 
@@ -62,7 +61,7 @@ This column displays the booking text, if any has been entered.
 - *Fiscal year XXXX/Month X/Journal X*  
 This text displays the fiscal year, month and journal currently selected. This information is read-only.
 
-  > [Info] If the fiscal year or the booking period need to be changed, click the [FY/MONTH/JOURNAL] button to display the select fiscal year window. For detailed information, see [Fiscal year](00a_FiscalYear.md) and [Select a fiscal year](/RetailSuiteAccounting/Operation/01_SelectFiscalYear.md).
+  > [Info] If the fiscal year or the booking period need to be changed, click the [FY/MONTH/JOURNAL] button to display the select fiscal year window. For detailed information, see [Fiscal year](./00a_FiscalYear.md) and [Select a fiscal year](../Operation/01_SelectFiscalYear.md).
 
 - *Show (all/the last [XXX]) bookings*    
 Click the drop-down list to select the preferred display filter.
@@ -78,7 +77,7 @@ The total amount of all bookings displayed.
 [comment]: <> (Function of Summe 1 & Summe 2??? Describe new window? It seems to change automatically sometimes, at least Summe 1, but I could not find out why! RS FH!)
 
 
-The entry line allows to create a booking manually. For detailed information, see [Create a manual booking](/RetailSuiteAccounting/Operation/04_CreateManualBooking.md).
+The entry line allows to create a booking manually. For detailed information, see [Create a manual booking](../Operation/04_CreateManualBooking.md).
 
 
 - *Seq. no.*  
@@ -87,7 +86,7 @@ The entry line allows to create a booking manually. For detailed information, se
 - *Currency code*  
 Click the drop-down menu to select the appropriate currency.  
 
-  > [Info] It is possible to set up accounts in different currencies. However, the *Accounting* module can only work with the base currency configured in the system. For detailed information about managing and booking exchange rate fluctuations, see [Book exchange rate fluctuations](/RetailSuiteAccounting/Operation/12_BookExchangeRateFluctuations.md).
+  > [Info] It is possible to set up accounts in different currencies. However, the *Accounting* module can only work with the base currency configured in the system. For detailed information about managing and booking exchange rate fluctuations, see [Book exchange rate fluctuations](../Operation/12_BookExchangeRateFluctuations.md).
 
 - *Exchange rate*  
 This field updates automatically when changing the currency. It can also be modified manually.
@@ -98,7 +97,7 @@ This field updates automatically when changing the currency. It can also be modi
 Enter the turnover value. Turnover values can be positive (incomes) or negative (expenses). This field is compulsory to manually create a booking.
 
 - *Contra account*  
-Enter the appropriate contra account. For detailed information about the available accounts, see [Chart of accounts](/RetailSuiteAccounting/Integration/01_RunAccountingWizard.md#chart-of-accounts). This field is compulsory to manually create a booking.
+Enter the appropriate contra account. For detailed information about the available accounts, see [Chart of accounts](../Integration/01_RunAccountingWizard.md#chart-of-accounts). This field is compulsory to manually create a booking.
 
   > [Info] When you start typing in an account number, a context menu is displayed. You can also select the appropriate option from the menu.
 
@@ -116,17 +115,17 @@ Enter the booking date. Date format must be DDMMYY.
 - *Account*   
 Enter the appropriate account number, for example a personal account number, that is, customer or supplier number. A valid range for personal account numbers (10000-69999 for customers and 70000-99999 for suppliers) is predefined in the system.
 
-  > [Info] Customer and supplier personal accounts can be created, edited and deleted. For detailed information, see [Manage the customer/supplier](/RetailSuiteAccounting/Integration/05_ManageCustomerSupplier.md).
+  > [Info] Customer and supplier personal accounts can be created, edited and deleted. For detailed information, see [Manage the customer/supplier](../Integration/05_ManageCustomerSupplier.md).
 
 - *COST1*  
 Enter the appropriate value.
 
-  > [Info] This is only applicable is a cost center accounting for cost 1 has been set up. For detailed information, see [COST ACCOUNTING](XX_CostAccounting.md).
+  > [Info] This is only applicable is a cost center accounting for cost 1 has been set up. For detailed information, see [COST ACCOUNTING](./02e_CostAccounting.md).
 
 - *COST2*  
 Enter the appropriate value.
 
-  > [Info] This is only applicable is a cost center accounting for cost 2 has been set up. For detailed information, see [COST ACCOUNTING](XX_CostAccounting.md).
+  > [Info] This is only applicable is a cost center accounting for cost 2 has been set up. For detailed information, see [COST ACCOUNTING](./02e_CostAccounting.md).
 
 - *Booking text*  
 Enter any appropriate booking text. Booking text can contain a combination of letters and numbers.
@@ -149,26 +148,26 @@ This field displays the current balance of the corresponding account. H stands f
 Click this button to record the booking in the entry line.
 
 - [CANCEL]  
-Click this button to cancel the selected booking. For detailed information, see [Cancel a booking](/RetailSuiteAccounting/Operation/05_CancelBooking.md).
+Click this button to cancel the selected booking. For detailed information, see [Cancel a booking](../Operation/05_CancelBooking.md).
 
 - [DELETE]    
-Click this button to delete the selected booking. For detailed information, see [Delete a single booking](/RetailSuiteAccounting/Operation/06_DeleteBookings.md#delete-a-single-booking).
+Click this button to delete the selected booking. For detailed information, see [Delete a single booking](../Operation/06_DeleteBookings.md#delete-a-single-booking).
 
 - [CLEAR]    
 Click this button to clear all entry line fields.
 
 - [SPLIT]    
-Click this button to split a manual booking. The *Split booking* window is displayed, see [Split booking](#split-booking). For detailed information about splitting a booking, see [Split a booking](/RetailSuiteAccounting/Operation/09_SplitBooking.md).
+Click this button to split a manual booking. The *Split booking* window is displayed, see [Split booking](#split-booking). For detailed information about splitting a booking, see [Split a booking](../Operation/09_SplitBooking.md).
 
 - [ASSIGN RECEIPT]  
-Click this button to assign a receipt to the selected booking. The *Attach a document* window is displayed, see [Attach a document](#attach-a-document). For detailed information, see [Retrieve a receipt](/RetailSuiteAccounting/Operation/10_ManageReceipts.md#retrieve-a-receipt).
+Click this button to assign a receipt to the selected booking. The *Attach a document* window is displayed, see [Attach a document](#attach-a-document). For detailed information, see [Retrieve a receipt](../Operation/10_ManageReceipts.md#retrieve-a-receipt).
 
 
 ## Split booking
 
 *Accounting > Select fiscal year > Book > Tab BOOKINGS > Button SPLIT*
 
-![Split booking window](/Assets/Screenshots/RetailSuiteAccounting/Book/Bookings/SplitBooking01.png "[Split booking window]")
+![Split booking window](../../Assets/Screenshots/RetailSuiteAccounting/Book/Bookings/SplitBooking01.png "[Split booking window]")
 
 The information displayed in columns is read-only.
 
@@ -206,12 +205,12 @@ This column displays the account number, usually a personal account number, that
 - *Cost1*  
 This column displays the cost unit number selected, if it has been entered.
 
-  > [Info] This is only applicable is a cost center accounting for cost 1 has been set up. For detailed information, see [COST ACCOUNTING](XX_CostAccounting.md).
+  > [Info] This is only applicable is a cost center accounting for cost 1 has been set up. For detailed information, see [COST ACCOUNTING](./02e_CostAccounting.md).
 
 - *Cost2*  
 This column displays the cost unit number selected, if it has been entered.
 
-  > [Info] This is only applicable is a cost center accounting for cost 2 has been set up. For more details, see [COST ACCOUNTING](XX_CostAccounting.md).
+  > [Info] This is only applicable is a cost center accounting for cost 2 has been set up. For more details, see [COST ACCOUNTING](./02e_CostAccounting.md).
 
 - *Text*  
 This column displays the booking text, if it has been entered.
@@ -251,12 +250,12 @@ This field cannot be modified.
 - *Cost1*  
 Enter the corresponding cost center for each partial booking, if necessary. This field can be modified.
 
-  >[Info] This is only applicable is a cost center accounting for cost 1 has been set up. For detailed information, see [COST ACCOUNTING](XX_CostAccounting.md).
+  >[Info] This is only applicable is a cost center accounting for cost 1 has been set up. For detailed information, see [COST ACCOUNTING](./02e_CostAccounting.md).
 
 - *Cost2*  
 Enter the corresponding cost center for each partial booking, if necessary. This field can be modified.
 
-  > [Info] This is only applicable is a cost center accounting for cost 2 has been set up. For detailed information, see [COST ACCOUNTING](XX_CostAccounting.md).
+  > [Info] This is only applicable is a cost center accounting for cost 2 has been set up. For detailed information, see [COST ACCOUNTING](./02e_CostAccounting.md).
 
 - *Text*  
 Enter a booking text for each partial booking, if necessary. This field can be modified.
@@ -290,7 +289,7 @@ Click this button to cancel the whole process.
 
 *Accounting > Select fiscal year > Book > Tab BOOKINGS > Button ASSIGN RECEIPT*
 
-![Attach document](/Assets/Screenshots/RetailSuiteAccounting/Book/Bookings/AttachDocument.png "[Attach document]")
+![Attach document](../../Assets/Screenshots/RetailSuiteAccounting/Book/Bookings/AttachDocument.png "[Attach document]")
 
 
 - *Directory tree*  
@@ -302,8 +301,8 @@ It displays all folders and subfolders containing documents (or receipts). This 
   - *Registered documents*  
   This folder contains the registered documents. Once they are linked to a booking, they are moved automatically into the *Registered documents* folder and then placed in the appropriate subfolder according to the following structure:
 
-    - 10000-19999 personal account numbers in case of a debtors'/customers' document
-    - 70000-70999 personal account numbers in case of a creditors'/suppliers' document
+    - 10000-69999 personal account numbers in case of a debtors'/customers' document
+    - 70000-79999 personal account numbers in case of a creditors'/suppliers' document
 
   - *Printed documents*  
   This folder contains the printed documents.
@@ -340,13 +339,13 @@ Click this button to delete a selected document or folder.
 
 All folders and documents are displayed in a column view. The column width can be modified using the mouse. To do so, place the mouse pointer on the vertical dividing line between two columns titles. The mouse pointer changes to a double-headed arrow. Press the left mouse button and move the line using drag and drop until it has reached the required width.
 
-When placing the cursor on a column header, three vertical points are displayed to the right of the column title. Click the ![Points](/Assets/Icons/Points02.png "[Points]") (Points) icon to display the context menu. The following menu entries are available:
+When placing the cursor on a column header, three vertical points are displayed to the right of the column title. Click the ![Points](../../Assets/Icons/Points02.png "[Points]") (Points) icon to display the context menu. The following menu entries are available:
 
-- ![Sort ascending](/Assets/Icons/SortAscending.png "[Sort ascending]") Sort ascending  
+- ![Sort ascending](../../Assets/Icons/SortAscending.png "[Sort ascending]") Sort ascending  
   Click this entry to sort the rows in ascending order.
-- ![Sort descending](/Assets/Icons/SortDescending.png "[Sort descending]") Sort descending  
+- ![Sort descending](../../Assets/Icons/SortDescending.png "[Sort descending]") Sort descending  
   Click this entry to sort the rows in descending order.
-- ![Columns](/Assets/Icons/Columns02.png "[Columns]") Columns  
+- ![Columns](../../Assets/Icons/Columns02.png "[Columns]") Columns  
   Place the mouse on this entry to display the *Columns* sub-menu. Add or remove columns by marking or unmarking the corresponding checkbox.
 
 
@@ -382,7 +381,7 @@ Click this button to close the window.
 
 *Accounting > Select fiscal year > Book > Tab BOOKINGS > Button ASSIGN RECEIPT > Button UPLOAD*
 
-![Attach document window](/Assets/Screenshots/RetailSuiteAccounting/Book/Bookings/UploadFileTo.png "[Attach document window]")
+![Attach document window](../../Assets/Screenshots/RetailSuiteAccounting/Book/Bookings/UploadFileTo.png "[Attach document window]")
 
 
 The information related to the uploaded documents is displayed in column view. All fields are read-only.
@@ -416,17 +415,17 @@ Click this button to close the window when the upload is finished.
 
 ### Attached document
 
-This window can also be displayed by clicking the ![B](/Assets/Icons/Beleg.png "[B]") icon in a booking from the bookings list. On top, the path to the file store location is displayed.
+This window can also be displayed by clicking the ![B](../../Assets/Icons/Beleg.png "[B]") icon in a booking from the bookings list. On top, the path to the file store location is displayed.
 
-![Attached document](/Assets/Screenshots/RetailSuiteAccounting/Book/Bookings/AttachedDocument.png "[Attached document]")
+![Attached document](../../Assets/Screenshots/RetailSuiteAccounting/Book/Bookings/AttachedDocument.png "[Attached document]")
 
 
-- ![Previous](/Assets/Icons/Previous.png "[Previous]") *Document* ![Next](/Assets/Icons/Next.png "[Next]")   
+- ![Previous](../../Assets/Icons/Previous.png "[Previous]") *Document* ![Next](../../Assets/Icons/Next.png "[Next]")   
 These buttons do not have any function here, as there is only one document (or receipt) assigned to a booking.
 
 [comment]: <> (These buttons do have a function in "BELEGE BUCHEN/BOOK RECEIPTS". Add info? Link?)
 
-- ![First page](/Assets/Icons/FirstPage02.png "[Previous]") ![First page](/Assets/Icons/Previous.png "[Previous]") *Page [x]* ![Next](/Assets/Icons/Next.png "[Next]")  
+- ![First page](../../Assets/Icons/FirstPage02.png "[Previous]") ![First page](../../Assets/Icons/Previous.png "[Previous]") *Page [x]* ![Next](../../Assets/Icons/Next.png "[Next]")  
 The current page number is displayed. Click the arrow first page/previous/next buttons to scroll through the pages.
 
 - (-) *Zoom* (+)  

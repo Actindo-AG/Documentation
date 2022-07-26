@@ -1,4 +1,3 @@
-[!!Accounting](RetailSuiteAccounting)
 
 # Open items
 
@@ -9,7 +8,7 @@ There are two view modes:
 - If no account is selected, the *OPEN ITEMS* tab displays all open items in the *Accounting* module.
 - If a personal account is selected, the *OPEN ITEMS* tab displays only the open items for the selected account.
 
-An account can be selected either by entering an  account number in the *Account* or *Contra account* field, or by clicking on a booking in the *BOOKINGS* tab. For detailed information about accessing open items, see [Manage the open items](/RetailSuiteAccounting/Operation/03_ManageOpenItems.md).
+An account can be selected either by entering an  account number in the *Account* or *Contra account* field, or by clicking on a booking in the *BOOKINGS* tab. For detailed information about accessing open items, see [Manage the open items](../Operation/03_ManageOpenItems.md).
 
 
 
@@ -17,15 +16,15 @@ An account can be selected either by entering an  account number in the *Account
 
 *Accounting > Select fiscal year > Book > Tab OPEN ITEMS*
 
-![All open items](/Assets/Screenshots/RetailSuiteAccounting/Book/OpenItems/NoAccountSelected.png "[All open items]")
+![All open items](../../Assets/Screenshots/RetailSuiteAccounting/Book/OpenItems/NoAccountSelected.png "[All open items]")
 
 - *Fiscal year XXXX/Month X/Journal X*  
 This text displays the fiscal year, month and journal currently selected. This information is read-only.
 
-  > [Info] If the fiscal year or the booking period need to be changed, click the [FY/MONTH/JOURNAL] button to display the select fiscal year window. For detailed information, see [Fiscal year](00a_FiscalYear.md) and [Select a fiscal year](/RetailSuiteAccounting/Operation/01_SelectFiscalYear.md).
+  > [Info] If the fiscal year or the booking period need to be changed, click the [FY/MONTH/JOURNAL] button to display the select fiscal year window. For detailed information, see [Fiscal year](./00a_FiscalYear.md) and [Select a fiscal year](../Operation/01_SelectFiscalYear.md).
 
-- ![Open](/Assets/Icons/Back02.png "[Open]") (Open)   
-Click this arrow to open the *Book extras* side bar. For detailed information about searching in the *Accounting* module, see [Search in accounting](/RetailSuiteAccounting/Operation/14_SearchAccounting.md)
+- ![Open](../../Assets/Icons/Back02.png "[Open]") (Open)   
+Click this arrow to open the *Book extras* side bar. For detailed information about searching in the *Accounting* module, see [Search in accounting](../Operation/14_SearchAccounting.md)
 
 - *Seq. no.*  
 This column displays the sequential number.
@@ -42,10 +41,10 @@ This column displays the booking period (month/journal).
 This column displays the journal.
 
 - *Contra account*  
-This column displays the contra account number. For detailed information about the available accounts, see [Chart of accounts](/RetailSuiteAccounting/Integration/01_RunAccountingWizard.md#chart-of-accounts).
+This column displays the contra account number. For detailed information about the available accounts, see [Chart of accounts](../Integration/01_RunAccountingWizard.md#chart-of-accounts).
 
 - *Tax key*  
-This column displays the tax key linked to the contra account. Tax keys can be created, edited and deleted, if necessary. For detailed information about managing tax keys, see [Manage the tax keys](/RetailSuiteAccounting/Integration/02_ManageTaxKeys.md).
+This column displays the tax key linked to the contra account. Tax keys can be created, edited and deleted, if necessary. For detailed information about managing tax keys, see [Manage the tax keys](../Integration/02_ManageTaxKeys.md).
 
 - *Receipt1*  
 This column displays the receipt 1 value, usually the invoice number.
@@ -58,14 +57,14 @@ This column displays the receipt 2 value, which can be any other reference numbe
 - *Cst1*  
 This column displays the cost unit number selected.
 
-  > [Info] This is only applicable is a cost center accounting for cost 1 has been set up. For detailed information, see [COST ACCOUNTING](XX_CostAccounting.md).
+  > [Info] This is only applicable is a cost center accounting for cost 1 has been set up. For detailed information, see [COST ACCOUNTING](./02e_CostAccounting.md).
 
   [comment]: <> (Alt-Doku: Das Feld wird beim Eingeben nur dann angesprochen, wenn eine Kostenstellenrechnung für Kost1 eingerichtet ist.)
 
 - *Cst2*  
 This column displays the cost unit number selected.
 
-  > [Info] This is only applicable is a cost center accounting for cost 2 has been set up. For more details, see [COST ACCOUNTING](XX_CostAccounting.md).
+  > [Info] This is only applicable is a cost center accounting for cost 2 has been set up. For more details, see [COST ACCOUNTING](./02e_CostAccounting.md).
 
 - *Debit*  
 This column displays the debit amount of the selected account.
@@ -74,7 +73,7 @@ This column displays the debit amount of the selected account.
 This column displays the credit amount of the selected account.
 
 - *(Unnamed column)*  
-This column displays a ![B](/Assets/Icons/Beleg.png "[B]") icon if a receipt has been linked to the booking. When clicking on the icon, the linked receipt is displayed in the *Attached document* window. For detailed information, see [Attached document](#attached-document).
+This column displays a ![B](../../Assets/Icons/Beleg.png "[B]") icon if a receipt has been linked to the booking. When clicking on the icon, the linked receipt is displayed in the *Attached document* window. For detailed information, see [Attached document](#attached-document).
 
 [comment]: <> (Comment on Bug file -> suggestion to add a name to column)
 
@@ -89,7 +88,7 @@ This field displays the balance for each existing open item in the preceding acc
 
 
 - *Amount (Amount 1 - Amount 2)*  
-The information provided in these fields refers to the bookings list and is not related to the open items view. For detailed information, see [BOOKINGS](01a_Book.md).
+The information provided in these fields refers to the bookings list and is not related to the open items view. For detailed information, see [BOOKINGS](./01a_Bookings.md).
 
 
 In the *Open items* tab, the entry line serves the only purpose of selecting an account, if no booking is selected in the *Bookings* tab.
@@ -113,7 +112,7 @@ In the *Open items* tab, the entry line serves the only purpose of selecting an 
   - *Contra account*  
   Enter a personal account number to display its open items. It is possible to enter both a customer or a supplier account number. A valid range for personal account numbers (10000-69999 for customers and 70000-99999 for suppliers) is predefined in the system.
 
-    > [Info] Customer and supplier personal accounts can be created, edited and deleted. For detailed information, see [Manage the customer/supplier](/RetailSuiteAccounting/Integration/05_ManageCustomerSupplier.md).
+    > [Info] Customer and supplier personal accounts can be created, edited and deleted. For detailed information, see [Manage the customer/supplier](../Integration/05_ManageCustomerSupplier.md).
 
   - *Receipt 1*  
   This field is empty.
@@ -127,7 +126,7 @@ In the *Open items* tab, the entry line serves the only purpose of selecting an 
   - *Account*   
   Enter a personal account number to display its open items. It is possible to enter both a customer or a supplier account number. A valid range for personal account numbers (10000-69999 for customers and 70000-99999 for suppliers) is predefined in the system.
 
-    > [Info] Customer and supplier personal accounts can be created, edited and deleted. For detailed information, see [Manage the customer/supplier](/RetailSuiteAccounting/Integration/05_ManageCustomerSupplier.md).
+    > [Info] Customer and supplier personal accounts can be created, edited and deleted. For detailed information, see [Manage the customer/supplier](../Integration/05_ManageCustomerSupplier.md).
 
   - *COST1*  
   This field is empty.
@@ -150,7 +149,7 @@ In the *Open items* tab, the entry line serves the only purpose of selecting an 
   - *Balance (amount)H/S (currency)*  
   This field displays the current balance of the corresponding account. H stands for credit. S stands for debit.
 
-The buttons on the bottom right corner have no specific function in the open items view. For detailed information, see [BOOKINGS](01a_Book.md).
+The buttons on the bottom right corner have no specific function in the open items view. For detailed information, see [BOOKINGS](./01a_Bookings.md).
 
 
 
@@ -158,15 +157,15 @@ The buttons on the bottom right corner have no specific function in the open ite
 
 *Accounting > Select fiscal year > Book > Tab OPEN ITEMS*
 
-![Open items for an account](/Assets/Screenshots/RetailSuiteAccounting/Book/OpenItems/AccountSelected.png "[Open items for an account]")
+![Open items for an account](../../Assets/Screenshots/RetailSuiteAccounting/Book/OpenItems/AccountSelected.png "[Open items for an account]")
 
 - *Fiscal year XXXX/Month X/Journal X*  
 This text displays the fiscal year, month and journal currently selected. This information is read-only.
 
-  > [Info] If the fiscal year or the booking period need to be changed, click the [FY/MONTH/JOURNAL] button to display the select fiscal year window. For detailed information, see [Fiscal year](00a_FiscalYear.md) and [Select a fiscal year](/RetailSuiteAccounting/Operation/01_SelectFiscalYear.md).
+  > [Info] If the fiscal year or the booking period need to be changed, click the [FY/MONTH/JOURNAL] button to display the select fiscal year window. For detailed information, see [Fiscal year](./00a_FiscalYear.md) and [Select a fiscal year](../Operation/01_SelectFiscalYear.md).
 
 
-- ![Previous](/Assets/Icons/Previous.png "[Previous]")  *Scroll* ![Next](/Assets/Icons/Next.png "[Next]")  
+- ![Previous](../../Assets/Icons/Previous.png "[Previous]")  *Scroll* ![Next](../../Assets/Icons/Next.png "[Next]")  
 Your can use the arrow buttons to scroll through the available accounts to search for a specific one. Alternatively, you can enter an account number in the entry line.
 
 
@@ -188,10 +187,10 @@ This column displays the journal.
 This column displays a checkbox to select the open items to be cleared manually, if necessary.
 
 - *Contra account*  
-This column displays the contra account number. For detailed information about the available accounts, see [Chart of accounts](/RetailSuiteAccounting/Integration/01_RunAccountingWizard.md#chart-of-accounts).
+This column displays the contra account number. For detailed information about the available accounts, see [Chart of accounts](../Integration/01_RunAccountingWizard.md#chart-of-accounts).
 
 - *Tax key*  
-This column displays the tax key linked to the contra account. Tax keys can be created, edited and deleted, if necessary. For detailed information about managing tax keys, see [Manage the tax keys](/RetailSuiteAccounting/Integration/02_ManageTaxKeys.md).
+This column displays the tax key linked to the contra account. Tax keys can be created, edited and deleted, if necessary. For detailed information about managing tax keys, see [Manage the tax keys](../Integration/02_ManageTaxKeys.md).
 
 - *Receipt1*  
 This column displays the receipt 1 value, usually the invoice number.
@@ -204,14 +203,14 @@ This column displays the receipt 2 value, which can be any other reference numbe
 - *Cst1*  
 This column displays the cost unit number selected.
 
-  > [Info] This is only applicable is a cost center accounting for cost 1 has been set up. For detailed information, see [COST ACCOUNTING](XX_CostAccounting.md).
+  > [Info] This is only applicable is a cost center accounting for cost 1 has been set up. For detailed information, see [COST ACCOUNTING](./02e_CostAccounting.md).
 
   [comment]: <> (Alt-Doku: Das Feld wird beim Eingeben nur dann angesprochen, wenn eine Kostenstellenrechnung für Kost1 eingerichtet ist.)
 
 - *Cst2*  
 This column displays the cost unit number selected.
 
-  > [Info] This is only applicable is a cost center accounting for cost 2 has been set up. For more details, see [COST ACCOUNTING](XX_CostAccounting.md).
+  > [Info] This is only applicable is a cost center accounting for cost 2 has been set up. For more details, see [COST ACCOUNTING](./02e_CostAccounting.md).
 
 - *Debit*  
 This column displays the debit amount of the selected account.
@@ -220,7 +219,7 @@ This column displays the debit amount of the selected account.
 This column displays the credit amount of the selected account.
 
 - *(Unnamed column)*  
-This column displays a ![B](/Assets/Icons/Beleg.png "[B]") icon if a receipt has been linked to the booking. When clicking on the icon, the linked receipt is displayed in the *Attached document* window. For detailed information, see [Attached document](#attached-document).
+This column displays a ![B](../../Assets/Icons/Beleg.png "[B]") icon if a receipt has been linked to the booking. When clicking on the icon, the linked receipt is displayed in the *Attached document* window. For detailed information, see [Attached document](#attached-document).
 
 [comment]: <> (Comment on Bug file -> suggestion to add a name to column)
 
@@ -242,7 +241,7 @@ Click this radio button to display only the manually cleared open items for this
 
 
 - [CLEAR MANUALLY]  
-Click this button to clear an open item manually. For detailed information about managing open items, see [Access the open items for an account](/RetailSuiteAccounting/Operation/03_ManageOpenItems.md#access-the-open-items-for-an-account).
+Click this button to clear an open item manually. For detailed information about managing open items, see [Access the open items for an account](../Operation/03_ManageOpenItems.md#access-the-open-items-for-an-account).
 
 - [CANCEL CLEARING]  
 Click this button to reverse manually cleared items.
@@ -252,7 +251,7 @@ Click this button to reverse manually cleared items.
 
 
 - *Amount (Amount 1 - Amount 2)*  
-The information provided in these fields refers to the bookings list and is not related to the open items view. For detailed information, see [BOOKINGS](01a_Book.md).
+The information provided in these fields refers to the bookings list and is not related to the open items view. For detailed information, see [BOOKINGS](./01a_Bookings.md).
 
 
 
@@ -275,7 +274,7 @@ In the *Open items* tab, the entry line serves the only purpose of selecting an 
   - *Contra account*  
   This field displays the account currently selected. Enter another personal account number to display its open items. It is possible to enter both a customer or a supplier account number. A valid range for personal account numbers (10000-69999 for customers and 70000-99999 for suppliers) is predefined in the system.
 
-    > [Info] Customer and supplier personal accounts can be created, edited and deleted. For detailed information, see [Manage the customer/supplier](/RetailSuiteAccounting/Integration/05_ManageCustomerSupplier.md).
+    > [Info] Customer and supplier personal accounts can be created, edited and deleted. For detailed information, see [Manage the customer/supplier](../Integration/05_ManageCustomerSupplier.md).
 
   - *Receipt 1*  
   This field is empty.
@@ -289,7 +288,7 @@ In the *Open items* tab, the entry line serves the only purpose of selecting an 
   - *Account*   
   This field displays the account currently selected. Enter another personal account number to display its open items. It is possible to enter both a customer or a supplier account number. A valid range for personal account numbers (10000-69999 for customers and 70000-99999 for suppliers) is predefined in the system.
 
-    > [Info] Customer and supplier personal accounts can be created, edited and deleted. For detailed information, see [Manage the customer/supplier](/RetailSuiteAccounting/Integration/05_ManageCustomerSupplier.md).
+    > [Info] Customer and supplier personal accounts can be created, edited and deleted. For detailed information, see [Manage the customer/supplier](../Integration/05_ManageCustomerSupplier.md).
 
   - *COST1*  
   This field is empty.
@@ -312,13 +311,11 @@ In the *Open items* tab, the entry line serves the only purpose of selecting an 
   - *Balance (amount)H/S (currency)*  
   This field displays the current balance of the corresponding account. H stands for credit. S stands for debit.
 
-The buttons on the bottom right corner have no specific function in the open items view. For detailed information, see [BOOKINGS](01a_Book.md).
+The buttons on the bottom right corner have no specific function in the open items view. For detailed information, see [BOOKINGS](./01a_Bookings.md).
 
 
 ## No open items view
 
 If there are no open items, a blank tab and the message "No open items exist" is displayed.
 
- ![No open items](/Assets/Screenshots/RetailSuiteAccounting/Book/OpenItems/NoOPOS.png "[No open items]")
-
- 
+ ![No open items](../../Assets/Screenshots/RetailSuiteAccounting/Book/OpenItems/NoOPOS.png "[No open items]")

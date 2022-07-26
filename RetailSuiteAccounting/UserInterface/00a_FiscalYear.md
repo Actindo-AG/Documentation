@@ -1,12 +1,11 @@
-[!!Accounting](RetailSuiteAccounting)
 
 # Fiscal year
 
 *Accounting > Select fiscal year*
 
-![Select fiscal year](/Assets/Screenshots/RetailSuiteAccounting/FiscalYear.png "[Select fiscal year]")
+![Select fiscal year](../../Assets/Screenshots/RetailSuiteAccounting/FiscalYear.png "[Select fiscal year]")
 
-When opening the *Accounting* module for the first time after logging in or after reloading the system, the fiscal year window is displayed. Select the appropriate values to display the corresponding period. For detailed information, see [Select fiscal year](/RetailSuiteAccounting/Operation/01_SelectFiscalYear.md).
+When opening the *Accounting* module for the first time after logging in or after reloading the system, the fiscal year window is displayed. Select the appropriate values to display the corresponding period. For detailed information, see [Select fiscal year](../Operation/01_SelectFiscalYear.md).
 
 The following fields are displayed:
 
@@ -38,12 +37,12 @@ The following fields are displayed:
 - [LIST]  
 Click this button to display all available journals and the number of bookings contained in each of them is displayed. Click the appropriate journal in the *Journals* window to select it.
 
-  ![Select journal](/Assets/Screenshots/RetailSuiteAccounting/Book/SelectFiscalYearJournals.png "[Select journal]")
+  ![Select journal](../../Assets/Screenshots/RetailSuiteAccounting/Book/SelectFiscalYearJournals.png "[Select journal]")
 
 - [x] *Include fixed bookings*  
-  Select the checkbox to display the available fixed booking batches. Click the appropriate batch to select it. For detailed information, see [Manage fixed bookings](/RetailSuiteAccounting/Integration/06_ManageFixedBookings.md).
+  Select the checkbox to display the available fixed booking batches. Click the appropriate batch to select it. For detailed information, see [Manage fixed bookings](../Integration/06_ManageFixedBookings.md).
 
-    ![Select journal](/Assets/Screenshots/RetailSuiteAccounting/SelectFiscalYear03.png "[Select journal]")
+    ![Select journal](../../Assets/Screenshots/RetailSuiteAccounting/SelectFiscalYear03.png "[Select journal]")
 
 - [OK]  
   Click this button to confirm the set values.
