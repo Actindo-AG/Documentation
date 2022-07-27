@@ -1,4 +1,3 @@
-
 # Account sheet
 
 The *ACCOUNT SHEET* tab displays a chronologically ordered list of all movements in a specific account. The information displayed in the account sheet view is read-only.
@@ -73,7 +72,7 @@ This column displays the debit amount of the selected account.
 This column displays the credit amount of the selected account.
 
 - *(Unnamed column)*
-This column displays a ![B](../../Assets/Icons/Beleg.png "[B]") icon if a receipt has been linked to the booking. When clicking on the icon, the linked receipt is displayed in the *Attach document* window. For detailed information, see [Attach document](./01a_Bookings.md#attach-document).
+This column displays a ![B](../../Assets/Icons/Beleg.png "[B]") icon if a receipt has been linked to the booking. When clicking on the icon, the linked receipt is displayed in the *Attached document* window. For detailed information, see [Attached document](#attached-document).
 
 - *Text*  
 This column displays the booking text, if any has been entered.
@@ -93,3 +92,29 @@ Click this radio button to display the balances only for the selected month.
 
 - *Show (all/the last [XXX]) bookings*    
 Click the drop-down list to select the preferred display filter.
+
+
+### Attached document
+
+*Accounting > Select fiscal year > Book > Tab ACCOUNT SHEET > Icon B*
+
+![Attached document](../../Assets/Screenshots/RetailSuiteAccounting/Book/Bookings/AttachedDocument.png "[Attached document]")
+
+
+- ![Previous](../../Assets/Icons/Previous.png "[Previous]") *Document* ![Next](../../Assets/Icons/Next.png "[Next]")   
+These buttons do not have any function here, as there is only one document (or receipt) assigned to a booking.
+
+[comment]: <> (These buttons do have a function in "BELEGE BUCHEN/BOOK RECEIPTS". Add info? Link?)
+
+- ![First page](../../Assets/Icons/FirstPage02.png "[Previous]") ![First page](../../Assets/Icons/Previous.png "[Previous]") *Page [x]* ![Next](../../Assets/Icons/Next.png "[Next]")  
+The current page number is displayed. Click the arrow first page/previous/next buttons to scroll through the pages.
+
+- (-) *Zoom* (+)  
+Click the -/+ buttons to zoom in and out of the document view.
+
+- *Download file*  
+Click this button to download the document.
+
+
+- [CLOSE]  
+Click this button to close the window.

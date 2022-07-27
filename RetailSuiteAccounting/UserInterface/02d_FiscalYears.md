@@ -1,10 +1,8 @@
-[!!Accounting](RetailSuiteAccounting)
-
 # Fiscal years
 
 *Accounting > Select fiscal year > Settings > Tab FISCAL YEARS*
 
-![Fiscal years](/Assets/Screenshots/RetailSuiteAccounting/Settings/FiscalYears/CreateFiscalYear.png "[Fiscal years]")
+![Fiscal years](../../Assets/Screenshots/RetailSuiteAccounting/Settings/FiscalYears/CreateFiscalYear.png "[Fiscal years]")
 
 
 - *Description*  
@@ -31,7 +29,7 @@ If cash accounting has been selected, the word *CASH* is displayed. Otherwise, t
 
 
 
-The entry fields allow to create, edit or delete fiscal years. For detailed information about creating, editing or deleting fiscal years, see [Manage the fiscal year](/RetailSuiteAccounting/Integration/04_ManageFiscalYear.md).
+The entry fields allow to create, edit or delete fiscal years. For detailed information about creating, editing or deleting fiscal years, see [Manage the fiscal year](../Integration/04_ManageFiscalYear.md).
 
 - *Description*  
 Enter or modify the fiscal year. Letters, numbers or a combination of characters can be used. The number of characters is limited to 10.
@@ -62,17 +60,17 @@ Click the drop-down list to select the appropriate option (**No/Fiscal year for 
 
 
 - [SAVE & NEW]  
-Click this button to create a new fiscal year. For detailed information about creating a new fiscal year, see [Create a fiscal year](/RetailSuiteAccounting/Integration/04_ManageFiscalYear.md#create-a-fiscal-year).
+Click this button to create a new fiscal year. For detailed information about creating a new fiscal year, see [Create a fiscal year](../Integration/04_ManageFiscalYear.md#create-a-fiscal-year).
 
 - [SAVE]  
 Click this button to save any changes made to an existing fiscal year.
 
-  > [Info] The saved changes will overwrite the selected fiscal year existing details. For detailed information about editing a fiscal year, see [Edit a fiscal year](/RetailSuiteAccounting/Integration/04_ManageFiscalYear.md#edit-a-fiscal-year).
+  > [Info] The saved changes will overwrite the selected fiscal year existing details. For detailed information about editing a fiscal year, see [Edit a fiscal year](../Integration/04_ManageFiscalYear.md#edit-a-fiscal-year).
 
 - [DELETE]  
 Click this button to delete the selected fiscal year.
 
-  > [Warning] Be aware that the selected fiscal year will be deleted permanently. For detailed information, see [Delete a fiscal year](/RetailSuiteAccounting/Integration/04_ManageFiscalYear.md#delete-a-fiscal-year).
+  > [Warning] Be aware that the selected fiscal year will be deleted permanently. For detailed information, see [Delete a fiscal year](../Integration/04_ManageFiscalYear.md#delete-a-fiscal-year).
 
 - [CLEAR]
 Click this button to clear all entry fields. The button [SAVE & NEW] becomes active again.
@@ -91,7 +89,7 @@ Click this button to export bookings into a file. The *Export bookings* window i
 
 *Accounting > Select fiscal year > Settings > Tab FISCAL YEARS > Button IMPORT*
 
-![Import bookings](/Assets/Screenshots/RetailSuiteAccounting/Settings/FiscalYears/ImportBookings.png "[Import bookings]")
+![Import bookings](../../Assets/Screenshots/RetailSuiteAccounting/Settings/FiscalYears/ImportBookings.png "[Import bookings]")
 
 > [Info] The import function is also available in the *Extras* menu entry.
 
@@ -134,9 +132,9 @@ Click this button to import data in Schilling Software proprietary FQBATCH forma
 
 *Accounting > Select fiscal year > Settings > Tab FISCAL YEARS > Button EXPORT*
 
-![Export bookings](/Assets/Screenshots/RetailSuiteAccounting/Settings/FiscalYears/ExportBookings.png "[Export bookings]")
+![Export bookings](../../Assets/Screenshots/RetailSuiteAccounting/Settings/FiscalYears/ExportBookings.png "[Export bookings]")
 
-> [Info] The export function is also available in the *Extras* menu entry. For detailed information, see [Provide the accounting data](/RetailSuiteAccounting/Operation/15_ProvideAccountingData.md).
+> [Info] The export function is also available in the *Extras* menu entry. For detailed information, see [Provide the accounting data](../Operation/15_ProvideAccountingData.md).
 
 - *Export to*  
 A list of the available import options is displayed:
@@ -161,13 +159,13 @@ Click this button to export data in BMD format. Follow the instructions provided
 Click this button to export data in CSV format. Follow the instructions provided in the following windows.
 
 - [DATEV CSV]  
-Click this button to export data in DATEV compatible CSV format. Follow the instructions provided in the following windows. For detailed information, see [Export the data for DATEV](/RetailSuiteAccounting/Operation/15_ProvideAccountingData.md#export-the-data-for-DATEV).
+Click this button to export data in DATEV compatible CSV format. Follow the instructions provided in the following windows. For detailed information, see [Export the data for DATEV](../Operation/15_ProvideAccountingData.md#export-the-data-for-DATEV).
 
 - [GDI]  
 Click this button to export data in GDI format. Follow the instructions provided in the following windows.
 
 - [GDPDU EXPORT]  
-Click this button to export data in GDPdU-compliant audit file format. Follow the instructions provided in the following windows. For detailed information, see [Export the data GDPdU-compliant](/RetailSuiteAccounting/Operation/15_ProvideAccountingData.md#export-the-data-GDPdU-compliant).
+Click this button to export data in GDPdU-compliant audit file format. Follow the instructions provided in the following windows. For detailed information, see [Export the data GDPdU-compliant](../Operation/15_ProvideAccountingData.md#export-the-data-GDPdU-compliant).
 
 - [OPEN ITEMS]  
 Click this button to export open items. Follow the instructions provided in the following windows.

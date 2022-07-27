@@ -1,10 +1,8 @@
-[!!Accounting](RetailSuiteAccounting)
-
 # Cost accounting
 
 *Accounting > Select fiscal year > Settings > Tab COST ACCOUNTING*
 
-![Cost accounting - not defined](/Assets/Screenshots/RetailSuiteAccounting/Settings/CostAccounting/CostAccountingNo.png "[Cost accounting - not defined]")
+![Cost accounting - not defined](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CostAccounting/CostAccountingNo.png "[Cost accounting - not defined]")
 
 > [Info] If no cost center has been created yet, the message "No cost centers defined" is displayed.
 
@@ -37,7 +35,7 @@ Depending on the option chosen in the cost accounting drop-down list (**Cost 1 -
 
 *Accounting > Select fiscal year > Settings > Tab COST ACCOUNTING > Drop-down option Cost1 - Cost center*
 
-![Cost center](/Assets/Screenshots/RetailSuiteAccounting/Settings/CostAccounting/CostAccounting01.png "[Cost center]")
+![Cost center](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CostAccounting/CostAccounting01.png "[Cost center]")
 
 
 The cost centers created, if any, are displayed in a column view. All information displayed in columns is read-only.
@@ -59,7 +57,7 @@ Validity start date.
 
 The entry fields allow to enter or modify cost center details.
 
-- ![Radio button](/Assets/Icons/RadioButton02.png "[Radio button]") *Active/Inactive* (radio button)  
+- ![Radio button](../../Assets/Icons/RadioButton02.png "[Radio button]") *Active/Inactive* (radio button)  
 Click the corresponding radio button to select the appropriate option. The *Active* radio button is selected by default.
 
 - *Cost center*  
@@ -101,7 +99,7 @@ Click this button to print the cost center/unit. The *Cost center/unit* window i
 
 *Accounting > Select fiscal year > Settings > Tab COST ACCOUNTING > Drop-down option Cost2 - Cost unit*
 
-![Cost unit](/Assets/Screenshots/RetailSuiteAccounting/Settings/CostAccounting/CostAccounting02.png "[Cost unit]")
+![Cost unit](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CostAccounting/CostAccounting02.png "[Cost unit]")
 
 
 The cost units created, if any, are displayed in a column view. All information displayed in columns is read-only.
@@ -124,7 +122,7 @@ Validity start date.
 Assigned ProfitCenter.
 
 
-- ![Radio button](/Assets/Icons/RadioButton02.png "[Radio button]") *Active/Inactive* (radio button)  
+- ![Radio button](../../Assets/Icons/RadioButton02.png "[Radio button]") *Active/Inactive* (radio button)  
 Click the corresponding radio button to select the appropriate option. The *Active* radio button is selected by default.
 
 - *Cost unit*  
@@ -173,7 +171,7 @@ Click this button to print the cost center/unit. The *Cost center/unit* window i
 
 *Accounting > Select fiscal year > Settings > Tab COST ACCOUNTING > Drop-down option Cost1 - Cost center > Button ALLOCATION TABLE*
 
-![Allocation table](/Assets/Screenshots/RetailSuiteAccounting/Settings/CostAccounting/AllocationTable03.png "[Allocation table]")
+![Allocation table](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CostAccounting/AllocationTable03.png "[Allocation table]")
 
 - *Select ProfitCenter*  
 Click the drop-down list to select a specific ProfitCenter or choose **All ProfitCenters** to include them all.
@@ -239,7 +237,7 @@ Click this button to save the allocation table after making any changes. A pop-u
 
 *Accounting > Select fiscal year > Settings > Tab COST ACCOUNTING > Drop-down option Cost1 - Cost center > Button ALLOCATION TABLE > Button CHANGE PERIOD*
 
-![Select period](/Assets/Screenshots/RetailSuiteAccounting/Settings/CostAccounting/Selectperiod.png "[Select period]")
+![Select period](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CostAccounting/Selectperiod.png "[Select period]")
 
 - *FY*    
 Click the drop-down list to select the desired fiscal year.
@@ -254,9 +252,9 @@ Click the drop-down list to select the desired month.
 
 *Accounting > Select fiscal year > Settings > Tab COST ACCOUNTING > Drop-down option Cost2 - Cost unit > Button SEARCH*
 
-![Select address](/Assets/Screenshots/RetailSuiteAccounting/Settings/CostAccounting/SelectAddress.png "[Select address]")
+![Select address](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CostAccounting/SelectAddress.png "[Select address]")
 
-> [Info] The *Customer/supplier list* tab is also available in the *DEBTORS/CREDITORS* tab, see [Customer/supplier list](02a_Settings.md#customer-supplier-list).
+> [Info] The *Customer/supplier list* tab is also available in the *DEBTORS/CREDITORS* tab, see [Customer/supplier list](./02a_DebtorsCreditors.md#customer-supplier-list).
 
 - [EXCEL]  
 Click this button to display the *EXCEL* context menu. The following options are available:  
@@ -300,10 +298,10 @@ Click this button to display the *QUICK SEARCH* context menu. All search criteri
 - [Search bar]  
   Click on the search bar to enter the search text (letters or numbers).
 
-- ![Delete](/Assets/Icons/Cross02.png "[Delete]") (Delete)  
+- ![Delete](../../Assets/Icons/Cross02.png "[Delete]") (Delete)  
   Click this button to delete the search text and to clear the search results.
 
-- ![Search](/Assets/Icons/Search.png "[Search]") (Search)  
+- ![Search](../../Assets/Icons/Search.png "[Search]") (Search)  
   Click this button to start the search. The search can also be started by pressing ENTER.
 
 - (x) [ACTIVE FILTERS]  
@@ -319,7 +317,7 @@ Click this button to display the context menu.
   - *FILTER CRITERION*  
   Click the drop-down list to select the appropriate filter criterion. The created price groups are displayed.
 
-  > [Info] Price groups can be created in the *Settings* menu entry of the *Material management* and the *Invoicing* module. A customer can be assigned a specific price group in the *Invoicing* sub-tab of the *DEBTORS/CREDITORS* tab, see [Invoicing](02a_Settings.md#invoicing-1).
+  > [Info] Price groups can be created in the *Settings* menu entry of the *Material management* and the *Invoicing* module. A customer can be assigned a specific price group in the *Invoicing* sub-tab of the *DEBTORS/CREDITORS* tab, see [Invoicing](./02a_DebtorsCreditors.md#invoicing-1).
 
   [comment]: <> (Check module names in English. No more "filter by" options available or depends on the settings?)
 
@@ -334,13 +332,13 @@ All customer/supplier details are displayed in a column view. The column width c
 
 [comment]: <> (Check wording with HG, see Workflows, PIM: The list displays... Durchgängig ändern?)
 
-When placing the cursor on a column header, three vertical points are displayed to the right of the column title. Click the ![Points](/Assets/Icons/Points02.png "[Points]") (Points) button to display the context menu. The following menu entries are available:
+When placing the cursor on a column header, three vertical points are displayed to the right of the column title. Click the ![Points](../../Assets/Icons/Points02.png "[Points]") (Points) button to display the context menu. The following menu entries are available:
 
-- ![Sort ascending](/Assets/Icons/SortAscending.png "[Sort ascending]") Sort ascending  
+- ![Sort ascending](../../Assets/Icons/SortAscending.png "[Sort ascending]") Sort ascending  
   Click this entry to sort the rows in ascending order.
-- ![Sort descending](/Assets/Icons/SortDescending.png "[Sort descending]") Sort descending  
+- ![Sort descending](../../Assets/Icons/SortDescending.png "[Sort descending]") Sort descending  
   Click this entry to sort the rows in descending order.
-- ![Columns](/Assets/Icons/Columns02.png "[Columns]") Columns  
+- ![Columns](../../Assets/Icons/Columns02.png "[Columns]") Columns  
   Place the mouse on this entry to display the *Columns* sub-menu. Add or remove columns by marking or unmarking the corresponding checkbox.
 
   [comment]: <> (Standard Plattform-Info. Notwendig? Durchgängig ändern/löschen?)
@@ -415,14 +413,14 @@ Reference customer/supplier number as defined by the user.
 
 [comment]: <> (By right-clicking on a row, context menu appears with two options -> Show documents of the customer / supplier -> to Overview in Fakturierung module, and Show articles of supplier -> to Artikelliste in Artikelverwaltung module. Add info and link when available?)
 
-- ![First page](/Assets/Icons/FirstPage.png "[First page]") - ![Last page](/Assets/Icons/LastPage.png "[Last page]") (First page) - (Last page)  
- ![Previous page](/Assets/Icons/PreviousPage.png "[Previous page]") - ![Next page](/Assets/Icons/NextPage.png "[Next page]") (Previous page) - (Next page)  
+- ![First page](../../Assets/Icons/FirstPage.png "[First page]") - ![Last page](../../Assets/Icons/LastPage.png "[Last page]") (First page) - (Last page)  
+ ![Previous page](../../Assets/Icons/PreviousPage.png "[Previous page]") - ![Next page](../../Assets/Icons/NextPage.png "[Next page]") (Previous page) - (Next page)  
 Click these buttons to navigate the customer/supplier list.
 
 - *Page [x] of [x]*  
 Enter a page number to go to a specific page.
 
-- ![Refresh](/Assets/Icons/Refresh01.png "[Refresh]") (Refresh)  
+- ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh)  
  Click this button to update the receipt list.
 
 - [RESET]  
@@ -438,7 +436,7 @@ This text displays the number of customers and suppliers currently displayed and
 
 *Accounting > Select fiscal year > Settings > Tab COST ACCOUNTING > Drop-down option Cost2 - Cost unit > Button EDIT*
 
-![Edit ProfitCenter](/Assets/Screenshots/RetailSuiteAccounting/Settings/CostAccounting/ProfitCenter.png "[Edit ProfitCenter]")
+![Edit ProfitCenter](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CostAccounting/ProfitCenter.png "[Edit ProfitCenter]")
 
 **ProfitCenter**
 
@@ -469,7 +467,7 @@ Click this button to save the newly created ProfitCenter or any other changes ma
 *Accounting > Select fiscal year > Settings > Tab COST ACCOUNTING > Drop-down option Cost2 - Cost unit > Button PRINT*
 
 
-![Print cost center/unit](/Assets/Screenshots/RetailSuiteAccounting/Settings/CostAccounting/CostCenterUnit.png "[Print cost center/unit]")
+![Print cost center/unit](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CostAccounting/CostCenterUnit.png "[Print cost center/unit]")
 
 
 - *Cost center/unit*  

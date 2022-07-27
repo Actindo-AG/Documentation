@@ -1,4 +1,3 @@
-
 # Fiscal year
 
 *Accounting > Select fiscal year*

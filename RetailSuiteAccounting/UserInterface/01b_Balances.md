@@ -1,4 +1,3 @@
-
 # Balances
 
 The *BALANCES* tab offers a T-account view of the current credit and debit situation, and the resulting balance of a selected account. The information displayed in the T-account view is read-only.

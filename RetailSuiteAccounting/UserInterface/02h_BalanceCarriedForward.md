@@ -1,12 +1,10 @@
-[!!Accounting](RetailSuiteAccounting)
-
 # Balance carried forward
 
 *Accounting > Select fiscal year > Settings > Tab BALANCE CARRIED FORWARD*
 
-![Balance carried forward](/Assets/Screenshots/RetailSuiteAccounting/Settings/BalanceCarriedForward/BalanceCarriedForward.png "[Balance carried forward]")
+![Balance carried forward](../../Assets/Screenshots/RetailSuiteAccounting/Settings/BalanceCarriedForward/BalanceCarriedForward.png "[Balance carried forward]")
 
-This tab displays the special journals preconfigured in the system to carry balances and open items forward. Besides, it allows to customize the preconfigured journals as well as to create new ones. For detailed information about creating a balance carried forward, see [Create a balance carried forward](/RetailSuiteAccounting/Operation/11_CreateBalanceCarriedForward.md).
+This tab displays the special journals preconfigured in the system to carry balances and open items forward. Besides, it allows to customize the preconfigured journals as well as to create new ones. For detailed information about creating a balance carried forward, see [Create a balance carried forward](../Operation/11_CreateBalanceCarriedForward.md).
 
 
 - *Account class*  

@@ -1,10 +1,8 @@
-[!!Accounting](RetailSuiteAccounting)
-
 # ADVANCED
 
 *Accounting > Select fiscal year > Settings > Tab ADVANCED*
 
-![Advanced settings](/Assets/Screenshots/RetailSuiteAccounting/Settings/Advanced/Advanced.png "[Advanced settings]")
+![Advanced settings](../../Assets/Screenshots/RetailSuiteAccounting/Settings/Advanced/Advanced.png "[Advanced settings]")
 
 
 - *Display warning if Receipt 1 and Account values identical?*  
@@ -24,7 +22,7 @@ Click the drop-down list to select the appropriate display setting for the *BOOK
     - **The last (10, 25, 50, 100, 250, 500)**  
     Select the desired number of bookings to be displayed.
 
-  > [Info] This setting is meant to improve the system performance, as the time needed to display the desired bookings can be reduced. This function is also available in the *BOOKINGS* tab for the current view clicking the corresponding drop-down list, see [BOOKINGS](01a_Book.md).  
+  > [Info] This setting is meant to improve the system performance, as the time needed to display the desired bookings can be reduced. This function is also available in the *BOOKINGS* tab for the current view clicking the corresponding drop-down list, see [BOOKINGS](./01a_Bookings.md).  
 
 - *Default setting for "Account sheet" list: show the last X bookings*  
 Click the drop-down list to select the appropriate display setting for the *ACCOUNT SHEET* tab. The following options are available:  
@@ -35,4 +33,4 @@ Click the drop-down list to select the appropriate display setting for the *ACCO
     - **The last (10, 25, 50, 100, 250, 500)**  
     Select the desired number of bookings to be displayed.
 
-  > [Info] This setting is meant to improve the system performance, as the time needed to display the desired bookings can be reduced. This function is also available in the *ACCOUNT SHEET* tab for the current view clicking the corresponding drop-down list, see [ACCOUNT SHEET](01c_Book.md).  
+  > [Info] This setting is meant to improve the system performance, as the time needed to display the desired bookings can be reduced. This function is also available in the *ACCOUNT SHEET* tab for the current view clicking the corresponding drop-down list, see [ACCOUNT SHEET](./01c_AccountSheet.md).  

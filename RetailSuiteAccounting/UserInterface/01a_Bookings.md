@@ -1,4 +1,3 @@
-
 # Bookings
 
 *Accounting > Select fiscal year > Book > Tab BOOKINGS*
@@ -160,7 +159,7 @@ Click this button to clear all entry line fields.
 Click this button to split a manual booking. The *Split booking* window is displayed, see [Split booking](#split-booking). For detailed information about splitting a booking, see [Split a booking](../Operation/09_SplitBooking.md).
 
 - [ASSIGN RECEIPT]  
-Click this button to assign a receipt to the selected booking. The *Attach a document* window is displayed, see [Attach a document](#attach-a-document). For detailed information, see [Retrieve a receipt](../Operation/10_ManageReceipts.md#retrieve-a-receipt).
+Click this button to assign a receipt to the selected booking. The *Attach document* window is displayed, see [Attach a document](#attach-document). For detailed information, see [Retrieve a receipt](../Operation/10_ManageReceipts.md#retrieve-a-receipt).
 
 
 ## Split booking
@@ -267,7 +266,7 @@ Click the drop-down list to select the appropriate currency, if necessary.
 This field updates automatically when changing the currency. It can also be modified manually.
 
 
-- [BOOK]
+- [BOOK]  
 Click this button to record each partial booking.  
 
 - [DELETE]  
@@ -318,7 +317,7 @@ It displays all folders and subfolders containing documents (or receipts). This 
 The buttons on top allow to navigate through the folders and documents.
 
 - [START PAGE]  
-Click this button to go back to the initial view of the *Attach document* window.
+Click this button to go back to the initial view of the *Attach document* window, see [Attach document](#attach-document).
 
 - [REFRESH]  
 Click this button to refresh the window, for example after making some changes.
@@ -415,7 +414,11 @@ Click this button to close the window when the upload is finished.
 
 ### Attached document
 
+*Accounting > Select fiscal year > Book > Tab BOOKINGS > Button ASSIGN RECEIPT > Button SELECT DOCUMENT*
+
 This window can also be displayed by clicking the ![B](../../Assets/Icons/Beleg.png "[B]") icon in a booking from the bookings list. On top, the path to the file store location is displayed.
+
+[comment]: <> (Oder Breadcrumbs? *Accounting > Select fiscal year > Book > Tab BOOKINGS > Icon B*)
 
 ![Attached document](../../Assets/Screenshots/RetailSuiteAccounting/Book/Bookings/AttachedDocument.png "[Attached document]")
 

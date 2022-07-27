@@ -1,12 +1,10 @@
-[!!Accounting](RetailSuiteAccounting)
-
 # Export
 
 *Accounting > Select fiscal year > Extras > Tab EXPORT*
 
-![Export](/Assets/Screenshots/RetailSuiteAccounting/Extras/Export/Export.png "[Export]")
+![Export](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Export/Export.png "[Export]")
 
-> [Info] The export function is also available in the *FISCAL YEARS* tab of the *Settings* menu entry, see [Export bookings](02d_Settings.md#export-bookings).
+> [Info] The export function is also available in the *FISCAL YEARS* tab of the *Settings* menu entry, see [Export bookings](./02d_FiscalYears.md#export-bookings).
 
 
 - *Export to*  
@@ -32,13 +30,13 @@ Click this button to export data in BMD format. Follow the instructions provided
 Click this button to export data in CSV format. Follow the instructions provided in the following windows, see [CSV](#csv).
 
 - [DATEV CSV]  
-Click this button to export data in DATEV compatible CSV format. Follow the instructions provided in the following windows, see [DATEV CSV](#datev-csv). For detailed information about exporting data in DATEV compatible CSV, see [Export the data for DATEV](/RetailSuiteAccounting/Operation/15_ProvideAccountingData.md#export-the-data-for-DATEV).
+Click this button to export data in DATEV compatible CSV format. Follow the instructions provided in the following windows, see [DATEV CSV](#datev-csv). For detailed information about exporting data in DATEV compatible CSV, see [Export the data for DATEV](../Operation/15_ProvideAccountingData.md#export-the-data-for-DATEV).
 
 - [GDI]  
 Click this button to export data in GDI format. Follow the instructions provided in the following windows, see [GDI](#gdi).
 
 - [GDPDU EXPORT]  
-Click this button to export data in GDPdU-compliant audit file format. Follow the instructions provided in the following windows, see [GDPDU export](#gdpdu-export). For detailed information about exporting data in GDPdU-compliant audit file format, see [Export the data GDPdU-compliant](/RetailSuiteAccounting/Operation/15_ProvideAccountingData.md#export-the-data-GDPdU-compliant).
+Click this button to export data in GDPdU-compliant audit file format. Follow the instructions provided in the following windows, see [GDPDU export](#gdpdu-export). For detailed information about exporting data in GDPdU-compliant audit file format, see [Export the data GDPdU-compliant](../Operation/15_ProvideAccountingData.md#export-the-data-GDPdU-compliant).
 
 - [OPEN ITEMS]  
 Click this button to export open items. Follow the instructions provided in the following windows, see [Open items](#open-items).
@@ -63,7 +61,7 @@ Click this button to export balance lists in Zahlwerk compatible CSV format. Fol
 
 *Accounting > Select fiscal year > Extras > Tab EXPORT > Button BMD*
 
-![Export BMD Step 1](/Assets/Screenshots/RetailSuiteAccounting/Extras/Export/ExportBMD01.png "[Export BMD Step 1]")
+![Export BMD Step 1](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Export/ExportBMD01.png "[Export BMD Step 1]")
 
 **Step 1**
 
@@ -89,7 +87,7 @@ Click this button to edit the tax mapping. The *BMD tax mapping* window is displ
 Click this button to proceed to the next step.
 
 
-![Export BMD Step 2](/Assets/Screenshots/RetailSuiteAccounting/Extras/Export/ExportBMD02.png "[Export BMD Step 2]")
+![Export BMD Step 2](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Export/ExportBMD02.png "[Export BMD Step 2]")
 
 **Step 2**
 
@@ -108,7 +106,7 @@ A pop-up window confirms that the selected data have been exported correctly. Cl
 
 
 
-![Export BMD Step 3](/Assets/Screenshots/RetailSuiteAccounting/Extras/Export/ExportBMD03.png "[Export BMD Step 3]")
+![Export BMD Step 3](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Export/ExportBMD03.png "[Export BMD Step 3]")
 
 **Step 3**
 
@@ -125,9 +123,9 @@ The exported file(s) are displayed and can be downloaded by clicking on the file
 
 *Accounting > Select fiscal year > Extras > Tab EXPORT > Button CSV*
 
-![Export CSV Step 1](/Assets/Screenshots/RetailSuiteAccounting/Extras/Export/ExportCSV01.png "[Export CSV Step 1]")
+![Export CSV Step 1](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Export/ExportCSV01.png "[Export CSV Step 1]")
 
-![Export CSV Step 1](/Assets/Screenshots/RetailSuiteAccounting/Extras/Export/ExportCSV01cust.png "[Export CSV Step 1]")
+![Export CSV Step 1](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Export/ExportCSV01cust.png "[Export CSV Step 1]")
 
 **Step 1**
 
@@ -145,8 +143,8 @@ Specify the period to be exported.
 
 - *Selection*  
 Click the applicable radio button to select the appropriate option:
-  - ![Radio button](/Assets/Icons/RadioButton02.png "[Radio button]") *Export all*
-  - ![Radio button](/Assets/Icons/RadioButton02.png "[Radio button]") *All from last export on (if last export exists, otherwise all)*
+  - ![Radio button](../../Assets/Icons/RadioButton02.png "[Radio button]") *Export all*
+  - ![Radio button](../../Assets/Icons/RadioButton02.png "[Radio button]") *All from last export on (if last export exists, otherwise all)*
   - *Set marker to export time*  
   Mark the checkbox if time is to be exported.
 
@@ -185,7 +183,7 @@ Enter the account number range to be exported. You can enter the account numbers
 Click this button to proceed to the next step.
 
 
-![Export CSV Step 2](/Assets/Screenshots/RetailSuiteAccounting/Extras/Export/ExportCSV02.png "[Export CSV Step 2]")
+![Export CSV Step 2](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Export/ExportCSV02.png "[Export CSV Step 2]")
 
 **Step 2**
 
@@ -202,7 +200,7 @@ Click this button to close the window. This will cancel the export.
 A pop-up window confirms that the selected data have been exported correctly. Click the OK button to proceed to the next step.
 
 
-![Export CSV Step 3](/Assets/Screenshots/RetailSuiteAccounting/Extras/Export/ExportCSV03.png "[Export CSV Step 3]")
+![Export CSV Step 3](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Export/ExportCSV03.png "[Export CSV Step 3]")
 
 
 **Step 3**
@@ -220,11 +218,11 @@ The exported file(s) are displayed and can be downloaded by clicking on the file
 
 *Accounting > Select fiscal year > Extras > Tab EXPORT > Button DATEV CSV*
 
-![Export DATEV CSV Step 1](/Assets/Screenshots/RetailSuiteAccounting/Extras/Export/ExportDatevCVS01.png "[Export DATEV CSV Step 1]")
+![Export DATEV CSV Step 1](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Export/ExportDatevCVS01.png "[Export DATEV CSV Step 1]")
 
-![Export DATEV CSV Step 1](/Assets/Screenshots/RetailSuiteAccounting/Extras/Export/ExportDatevCVS01cust.png "[Export DATEV CSV Step 1]")
+![Export DATEV CSV Step 1](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Export/ExportDatevCVS01cust.png "[Export DATEV CSV Step 1]")
 
-For detailed information about exporting data for DATEV, see [Export the data for DATEV](/RetailSuiteAccounting/Operation/15_ProvideAccountingData.md#export-the-data-for-datev).
+For detailed information about exporting data for DATEV, see [Export the data for DATEV](../Operation/15_ProvideAccountingData.md#export-the-data-for-datev).
 
 **Step 1**
 
@@ -243,8 +241,8 @@ Specify the period to be exported.
 
 - *Selection*  
 Click the applicable radio button to select the appropriate option:
-  - ![Radio button](/Assets/Icons/RadioButton02.png "[Radio button]") *Export all*
-  - ![Radio button](/Assets/Icons/RadioButton02.png "[Radio button]") *All from last export on (if last export exists, otherwise all)*
+  - ![Radio button](../../Assets/Icons/RadioButton02.png "[Radio button]") *Export all*
+  - ![Radio button](../../Assets/Icons/RadioButton02.png "[Radio button]") *All from last export on (if last export exists, otherwise all)*
   - *Set marker to export time*  
   Mark the checkbox if time is to be exported.
 
@@ -307,7 +305,7 @@ Enter the DATEV client  number, if applicable.
 Click this button to proceed to the next step.
 
 
-![Export DATEV CSV Step 2](/Assets/Screenshots/RetailSuiteAccounting/Extras/Export/ExportDatevCVS02.png "[Export DATEV CSV Step 2]")
+![Export DATEV CSV Step 2](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Export/ExportDatevCVS02.png "[Export DATEV CSV Step 2]")
 
 **Step 2**
 
@@ -323,7 +321,7 @@ Click this button to close the window. This will cancel the export.
 A pop-up window confirms that the selected data have been exported correctly. Click the OK button to proceed to the next step.
 
 
-![Export DATEV CSV Step 3](/Assets/Screenshots/RetailSuiteAccounting/Extras/Export/ExportDatevCVS03.png "[Export DATEV CSV Step 3]")
+![Export DATEV CSV Step 3](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Export/ExportDatevCVS03.png "[Export DATEV CSV Step 3]")
 
 **Step 3**
 
@@ -340,7 +338,7 @@ The exported file(s) are displayed and can be downloaded by clicking on the file
 
 *Accounting > Select fiscal year > Extras > Tab EXPORT > Button GDI*
 
-![Export GDI Step 1](/Assets/Screenshots/RetailSuiteAccounting/Extras/Export/GDI01.png "[Export GDI Step 1]")
+![Export GDI Step 1](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Export/GDI01.png "[Export GDI Step 1]")
 
 **Step 1**
 
@@ -371,7 +369,7 @@ Click the drop-down list and select the appropriate option (**Yes/No**).
 Click this button to proceed to the next step.
 
 
-![Export GDI Step 2](/Assets/Screenshots/RetailSuiteAccounting/Extras/Export/GDI02.png "[Export GDI Step 2]")
+![Export GDI Step 2](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Export/GDI02.png "[Export GDI Step 2]")
 
 **Step 2**
 
@@ -388,7 +386,7 @@ A pop-up window confirms that the selected data have been exported correctly. Cl
 
 
 
-![Export GDI Step 3](/Assets/Screenshots/RetailSuiteAccounting/Extras/Export/GDI03.png "[Export GDI Step 3]")
+![Export GDI Step 3](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Export/GDI03.png "[Export GDI Step 3]")
 
 **Step 3**
 
@@ -404,9 +402,9 @@ The exported file(s) are displayed and can be downloaded by clicking on the file
 
 *Accounting > Select fiscal year > Extras > Tab EXPORT > Button GDPDU EXPORT*
 
-![Export GDPDU Step 1](/Assets/Screenshots/RetailSuiteAccounting/Extras/Export/ExportGDPdU01.png "[Export GDPDU Step 1]")
+![Export GDPDU Step 1](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Export/ExportGDPdU01.png "[Export GDPDU Step 1]")
 
- For detailed information about exporting data in GDPdU-compliant audit file format, see [Export the data GDPdU-compliant](/RetailSuiteAccounting/Operation/15_ProvideAccountingData.md#export-the-data-GDPdU-compliant).
+ For detailed information about exporting data in GDPdU-compliant audit file format, see [Export the data GDPdU-compliant](../Operation/15_ProvideAccountingData.md#export-the-data-GDPdU-compliant).
 
 
 **Step 1**
@@ -443,7 +441,7 @@ Enter the DATEV client  number, if applicable.
 Click this button to proceed to the next step.
 
 
-![Export GDPDU Step 2](/Assets/Screenshots/RetailSuiteAccounting/Extras/Export/ExportGDPdU02.png "[Export GDPDU Step 2]")
+![Export GDPDU Step 2](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Export/ExportGDPdU02.png "[Export GDPDU Step 2]")
 
 **Step 2**
 
@@ -459,7 +457,7 @@ Click this button to close the window. This will cancel the export.
 A pop-up window confirms that the selected data have been exported correctly. Click the OK button to proceed to the next step.
 
 
-![Export GDPDU Step 3](/Assets/Screenshots/RetailSuiteAccounting/Extras/Export/ExportGDPdU03.png "[Export GDPDU Step 3]")
+![Export GDPDU Step 3](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Export/ExportGDPdU03.png "[Export GDPDU Step 3]")
 
 **Step 3**
 
@@ -475,7 +473,7 @@ The exported file(s) are displayed and can be downloaded by clicking on the file
 
 *Accounting > Select fiscal year > Extras > Tab EXPORT > Button OPEN ITEMS*
 
-![Export Open items Step 1](/Assets/Screenshots/RetailSuiteAccounting/Extras/Export/OpenItems01.png "[Export Open items Step 1]")
+![Export Open items Step 1](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Export/OpenItems01.png "[Export Open items Step 1]")
 
 **Step 1**
 
@@ -493,8 +491,8 @@ Specify the period to be exported.
 
 - *Selection*  
 Click the applicable radio button to select the appropriate option:
-  - ![Radio button](/Assets/Icons/RadioButton02.png "[Radio button]") *Export all*
-  - ![Radio button](/Assets/Icons/RadioButton02.png "[Radio button]") *All from last export on (if last export exists, otherwise all)*
+  - ![Radio button](../../Assets/Icons/RadioButton02.png "[Radio button]") *Export all*
+  - ![Radio button](../../Assets/Icons/RadioButton02.png "[Radio button]") *All from last export on (if last export exists, otherwise all)*
   - *Set marker to export time*  
   Mark the checkbox if time is to be exported.
 
@@ -525,7 +523,7 @@ Click this button to add, edit or delete an export definition. The *Import/expor
 Click this button to proceed to the next step.
 
 
-![Export Open items Step 2](/Assets/Screenshots/RetailSuiteAccounting/Extras/Export/OpenItems02.png "[Export Open items Step 2]")
+![Export Open items Step 2](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Export/OpenItems02.png "[Export Open items Step 2]")
 
 **Step 2**
 
@@ -542,7 +540,7 @@ A pop-up window confirms that the selected data have been exported correctly. Cl
 
 
 
-![Export Open items Step 3](/Assets/Screenshots/RetailSuiteAccounting/Extras/Export/OpenItems03.png "[Export Open items Step 3]")
+![Export Open items Step 3](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Export/OpenItems03.png "[Export Open items Step 3]")
 
 **Step 3**
 
@@ -559,9 +557,9 @@ The exported file(s) are displayed and can be downloaded by clicking on the file
 
 *Accounting > Select fiscal year > Extras > Tab EXPORT > Button BALANCE LISTS*
 
-![Export Balance lists Step 1](/Assets/Screenshots/RetailSuiteAccounting/Extras/Export/BalanceList01.png "[Export Balance lists Step 1]")
+![Export Balance lists Step 1](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Export/BalanceList01.png "[Export Balance lists Step 1]")
 
-![Export Balance lists Step 1](/Assets/Screenshots/RetailSuiteAccounting/Extras/Export/BalanceList01cust.png "[Export Balance lists Step 1]")
+![Export Balance lists Step 1](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Export/BalanceList01cust.png "[Export Balance lists Step 1]")
 
 **Step 1**
 
@@ -594,7 +592,7 @@ Click this button to proceed to the next step.
 
 
 
-![Export Balance lists Step 2](/Assets/Screenshots/RetailSuiteAccounting/Extras/Export/BalanceList02.png "[Export Balance lists Step 2]")
+![Export Balance lists Step 2](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Export/BalanceList02.png "[Export Balance lists Step 2]")
 
 **Step 2**
 
@@ -610,7 +608,7 @@ Click this button to close the window. This will cancel the export.
 A pop-up window confirms that the selected data have been exported correctly. Click the OK button to proceed to the next step.
 
 
-![Export Balance lists Step 3](/Assets/Screenshots/RetailSuiteAccounting/Extras/Export/BalanceList03.png "[Export Balance lists Step 3]")
+![Export Balance lists Step 3](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Export/BalanceList03.png "[Export Balance lists Step 3]")
 
 **Step 3**
 
@@ -627,7 +625,7 @@ The exported file(s) are displayed and can be downloaded by clicking on the file
 
 *Accounting > Select fiscal year > Extras > Tab EXPORT > Button SALDEN.DAT*
 
-![Export SALDEN.DAT Step 1](/Assets/Screenshots/RetailSuiteAccounting/Extras/Export/SALDEN.DAT01.png "[Export SALDEN.DAT Step 1]")
+![Export SALDEN.DAT Step 1](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Export/SALDEN.DAT01.png "[Export SALDEN.DAT Step 1]")
 
 **Step 1**
 
@@ -659,7 +657,7 @@ Click this button to proceed to the next step.
 
 
 
-![Export SALDEN.DAT Step 2](/Assets/Screenshots/RetailSuiteAccounting/Extras/Export/SALDEN.DAT02.png "[Export SALDEN.DAT Step 2]")
+![Export SALDEN.DAT Step 2](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Export/SALDEN.DAT02.png "[Export SALDEN.DAT Step 2]")
 
 **Step 2**
 
@@ -676,7 +674,7 @@ A pop-up window confirms that the selected data have been exported correctly. Cl
 
 
 
-![Export SALDEN.DAT Step 3](/Assets/Screenshots/RetailSuiteAccounting/Extras/Export/SALDEN.DAT03.png "[Export SALDEN.DAT Step 3]")
+![Export SALDEN.DAT Step 3](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Export/SALDEN.DAT03.png "[Export SALDEN.DAT Step 3]")
 
 **Step 3**
 
@@ -693,7 +691,7 @@ The exported file(s) are displayed and can be downloaded by clicking on the file
 
 *Accounting > Select fiscal year > Extras > Tab EXPORT > Button SAP*
 
-![Export SAP Step 1](/Assets/Screenshots/RetailSuiteAccounting/Extras/Export/SAP01.png "[Export SAP Step 1]")
+![Export SAP Step 1](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Export/SAP01.png "[Export SAP Step 1]")
 
 
 **Step 1**
@@ -712,8 +710,8 @@ Specify the period to be exported.
 
 - *Selection*  
 Click the applicable radio button to select the appropriate option:
-  - ![Radio button](/Assets/Icons/RadioButton02.png "[Radio button]") *Export all*
-  - ![Radio button](/Assets/Icons/RadioButton02.png "[Radio button]") *All from last export on (if last export exists, otherwise all)*
+  - ![Radio button](../../Assets/Icons/RadioButton02.png "[Radio button]") *Export all*
+  - ![Radio button](../../Assets/Icons/RadioButton02.png "[Radio button]") *All from last export on (if last export exists, otherwise all)*
   - *Set marker to export time*  
   Mark the checkbox if time is to be exported.
 
@@ -729,7 +727,7 @@ Click this button to proceed to the next step.
 
 
 
-![Export SAP Step 2](/Assets/Screenshots/RetailSuiteAccounting/Extras/Export/SAP02.png "[Export SAP Step 2]")
+![Export SAP Step 2](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Export/SAP02.png "[Export SAP Step 2]")
 
 **Step 2**
 
@@ -746,7 +744,7 @@ A pop-up window confirms that the selected data have been exported correctly. Cl
 
 
 
-![Export SAP Step 3](/Assets/Screenshots/RetailSuiteAccounting/Extras/Export/SAP03.png "[Export SAP Step 3]")
+![Export SAP Step 3](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Export/SAP03.png "[Export SAP Step 3]")
 
 **Step 3**
 
@@ -763,7 +761,7 @@ The exported file(s) are displayed and can be downloaded by clicking on the file
 
 *Accounting > Select fiscal year > Extras > Tab EXPORT > Button VARIAL*
 
-![Export Varial Step 1](/Assets/Screenshots/RetailSuiteAccounting/Extras/Export/Varial01.png "[Export Varial Step 1]")
+![Export Varial Step 1](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Export/Varial01.png "[Export Varial Step 1]")
 
 **Step 1**
 
@@ -792,7 +790,7 @@ Enter a file suffix, if applicable. Only numbers can be used.
 
 
 
-![Export Varial Step 2](/Assets/Screenshots/RetailSuiteAccounting/Extras/Export/Varial02.png "[Export Varial Step 2]")
+![Export Varial Step 2](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Export/Varial02.png "[Export Varial Step 2]")
 
 **Step 2**
 
@@ -809,7 +807,7 @@ A pop-up window confirms that the selected data have been exported correctly. Cl
 
 
 
-![Export Varial Step 3](/Assets/Screenshots/RetailSuiteAccounting/Extras/Export/Varial03.png "[Export Varial Step 3]")
+![Export Varial Step 3](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Export/Varial03.png "[Export Varial Step 3]")
 
 **Step 3**
 
@@ -826,9 +824,9 @@ The exported file(s) are displayed and can be downloaded by clicking on the file
 
 *Accounting > Select fiscal year > Extras > Tab EXPORT > Button ZAHLWERK*
 
-![Export Zahlwerk Step 1](/Assets/Screenshots/RetailSuiteAccounting/Extras/Export/Zahlwerk01.png "[Export Zahlwerk Step 1]")
+![Export Zahlwerk Step 1](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Export/Zahlwerk01.png "[Export Zahlwerk Step 1]")
 
-![Export Zahlwerk Step 1](/Assets/Screenshots/RetailSuiteAccounting/Extras/Export/Zahlwerk01cust.png "[Export Zahlwerk Step 1]")
+![Export Zahlwerk Step 1](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Export/Zahlwerk01cust.png "[Export Zahlwerk Step 1]")
 
 **Step 1**
 
@@ -860,7 +858,7 @@ Enter the account number range to be exported.
 Click this button to proceed to the next step.
 
 
-![Export Zahlwerk Step 2](/Assets/Screenshots/RetailSuiteAccounting/Extras/Export/Zahlwerk02.png "[Export Zahlwerk Step 2]")
+![Export Zahlwerk Step 2](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Export/Zahlwerk02.png "[Export Zahlwerk Step 2]")
 
 **Step 2**
 
@@ -876,7 +874,7 @@ Click this button to close the window. This will cancel the export.
 A pop-up window confirms that the selected data have been exported correctly. Click the OK button to proceed to the next step.
 
 
-![Export Zahlwerk Step 3](/Assets/Screenshots/RetailSuiteAccounting/Extras/Export/Zahlwerk03.png "[Export Zahlwerk Step 3]")
+![Export Zahlwerk Step 3](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Export/Zahlwerk03.png "[Export Zahlwerk Step 3]")
 
 **Step 3**
 
@@ -891,7 +889,7 @@ The exported file(s) are displayed and can be downloaded by clicking on the file
 
 ### BMD tax mapping
 
-![BMD tax mapping](/Assets/Screenshots/RetailSuiteAccounting/Extras/Export/BMDTaxMapping.png "[BMD tax mapping]")
+![BMD tax mapping](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Export/BMDTaxMapping.png "[BMD tax mapping]")
 
 
 **Tax mapping**
@@ -913,13 +911,13 @@ Click this button to create a tax key. The *Add* section is displayed.
 - [DELETE]  
 Click this button to delete a selected tax key from the list.
 
-- ![Refresh](/Assets/Icons/Refresh03.png "[Refresh]") (Refresh)  
+- ![Refresh](../../Assets/Icons/Refresh03.png "[Refresh]") (Refresh)  
 Click this button to refresh the list after making any changes.
 
 
 **Add/Edit**  
 
-![Create tax mapping](/Assets/Screenshots/RetailSuiteAccounting/Extras/Export/BMDTaxMapping02.png "[Create tax mapping]")
+![Create tax mapping](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Export/BMDTaxMapping02.png "[Create tax mapping]")
 
 > [Info] When clicking the [CREATE] button, the *Add* section is displayed. When marking a checkbox from the tax key list, the tax key details are displayed in the entry fields, where they can be edited. The *Add* section name changes to *Edit*.
 
@@ -939,7 +937,7 @@ Click this button to reset both fields to their initial status.
 
 ### Import/export definitions
 
-![Import/export definitions](/Assets/Screenshots/RetailSuiteAccounting/Extras/Import/ImportExportDefinitionsLexware.png "[Import/export definitions]")
+![Import/export definitions](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Import/ImportExportDefinitionsLexware.png "[Import/export definitions]")
 
 **Name**
 
@@ -964,16 +962,16 @@ Click this button to delete an import/export definition. A confirmation window i
 **Fields in the definition**  
 This list displays all fields contained in the selected import/export definition. Use the arrow buttons to modify the fields in the list:
 
-  - ![Up](/Assets/Icons/ArrowUp.png "[Up]") (Up)  
+  - ![Up](../../Assets/Icons/ArrowUp.png "[Up]") (Up)  
   Use this button to move a selected field up in the list.
 
-  - ![Down](/Assets/Icons/ArrowDown.png "[Down]") (Down)  
+  - ![Down](../../Assets/Icons/ArrowDown.png "[Down]") (Down)  
   Use this button to move a selected field down in the list.
 
-  - ![Left](/Assets/Icons/ArrowLeft.png "[Left]") (Left)  
+  - ![Left](../../Assets/Icons/ArrowLeft.png "[Left]") (Left)  
   Use this button to move a selected field left, from the *Possible fields* list to the *Fields in the definition* list.
 
-  - ![Right](/Assets/Icons/ArrowRight.png "[Right]") (Right)  
+  - ![Right](../../Assets/Icons/ArrowRight.png "[Right]") (Right)  
   Use this button to move a selected field right, from the *Fields in the definition* list to the *Possible fields* list.
 
 **Column**  
@@ -1027,7 +1025,7 @@ Click this button to save the changes.
 
 #### New import/export definition  
 
-![New import/export definition](/Assets/Screenshots/RetailSuiteAccounting/Extras/Import/NewImportExportDefinitionKdLf.png "[New import/export definition]")
+![New import/export definition](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Import/NewImportExportDefinitionKdLf.png "[New import/export definition]")
 
 - *For*  
 Click the drop-down list to select the import/export definition type where the new definition will be added.  
@@ -1041,7 +1039,7 @@ Click this button to create a new import/export definition.
 
 #### Rename import/export definition  
 
-![Rename import/export definition ](/Assets/Screenshots/RetailSuiteAccounting/Extras/Import/RenameImportExportDefinitionKdLf.png "[Rename import/export definition ]")
+![Rename import/export definition ](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Import/RenameImportExportDefinitionKdLf.png "[Rename import/export definition ]")
 
 - *For*  
 Click the drop-down list to select the import/export definition type where the new definition will be renamed.  

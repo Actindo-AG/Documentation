@@ -1,4 +1,3 @@
-
 # Open items
 
 The *OPEN ITEMS* tab displays any open items in the system, that is, any business transactions that have not yet been completed. The information displayed in the open items view is read-only.
@@ -319,3 +318,28 @@ The buttons on the bottom right corner have no specific function in the open ite
 If there are no open items, a blank tab and the message "No open items exist" is displayed.
 
  ![No open items](../../Assets/Screenshots/RetailSuiteAccounting/Book/OpenItems/NoOPOS.png "[No open items]")
+
+
+### Attached document
+
+*Accounting > Select fiscal year > Book > Tab OPEN ITEMS > Icon B*
+
+![Attached document](../../Assets/Screenshots/RetailSuiteAccounting/Book/Bookings/AttachedDocument.png "[Attached document]")
+
+
+- ![Previous](../../Assets/Icons/Previous.png "[Previous]") *Document* ![Next](../../Assets/Icons/Next.png "[Next]")   
+These buttons do not have any function here, as there is only one document (or receipt) assigned to a booking.
+
+[comment]: <> (These buttons do have a function in "BELEGE BUCHEN/BOOK RECEIPTS". Add info? Link?)
+
+- ![First page](../../Assets/Icons/FirstPage02.png "[Previous]") ![First page](../../Assets/Icons/Previous.png "[Previous]") *Page [x]* ![Next](../../Assets/Icons/Next.png "[Next]")  
+ The current page number is displayed. Click the arrow first page/previous/next buttons to scroll through the pages.
+
+- (-) *Zoom* (+)  
+Click the -/+ buttons to zoom in and out of the document view.
+
+- *Download file*  
+Click this button to download the document.
+
+- [CLOSE]  
+Click this button to close the window.

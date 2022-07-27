@@ -1,10 +1,8 @@
-[!!Accounting](RetailSuiteAccounting)
-
 # CSV export definition
 
 *Accounting > Select fiscal year > Extras > Tab CSV FORMAT DEF.*
 
-![CSV format definition](/Assets/Screenshots/RetailSuiteAccounting/Extras/CSVFormatDef/CSVFormatDef.png "[CSV format definition]")
+![CSV format definition](../../Assets/Screenshots/RetailSuiteAccounting/Extras/CSVFormatDef/CSVFormatDef.png "[CSV format definition]")
 
 
 **Name**
@@ -30,16 +28,16 @@ Click this button to delete an import/export definition. A confirmation window i
 **Fields in the definition**  
 This list displays all fields contained in the selected import/export definition. Use the arrow buttons to modify the fields in the list:
 
-  - ![Up](/Assets/Icons/ArrowUp.png "[Up]") (Up)  
+  - ![Up](../../Assets/Icons/ArrowUp.png "[Up]") (Up)  
   Use this button to move a selected field up in the list.
 
-  - ![Down](/Assets/Icons/ArrowDown.png "[Down]") (Down)  
+  - ![Down](../../Assets/Icons/ArrowDown.png "[Down]") (Down)  
   Use this button to move a selected field down in the list.
 
-  - ![Left](/Assets/Icons/ArrowLeft.png "[Left]") (Left)  
+  - ![Left](../../Assets/Icons/ArrowLeft.png "[Left]") (Left)  
   Use this button to move a selected field left, from the *Possible fields* list to the *Fields in the definition* list.
 
-  - ![Right](/Assets/Icons/ArrowRight.png "[Right]") (Right)  
+  - ![Right](../../Assets/Icons/ArrowRight.png "[Right]") (Right)  
   Use this button to move a selected field right, from the *Fields in the definition* list to the *Possible fields* list.
 
 **Column**  
@@ -94,7 +92,7 @@ Click this button to save the changes.
 
 *Accounting > Select fiscal year > Extras > Tab CSV FORMAT DEF. > Button Add*
 
-![New import/export definition](/Assets/Screenshots/RetailSuiteAccounting/Extras/Import/NewImportExportDefinitionKdLf.png "[New import/export definition]")
+![New import/export definition](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Import/NewImportExportDefinitionKdLf.png "[New import/export definition]")
 
 - *For*  
 Click the drop-down list to select the import/export definition type where the new definition will be added.  
@@ -110,7 +108,7 @@ Click this button to create a new import/export definition.
 
 *Accounting > Select fiscal year > Extras > Tab CSV FORMAT DEF. > Button Edit*
 
-![Rename import/export definition](/Assets/Screenshots/RetailSuiteAccounting/Extras/Import/RenameImportExportDefinitionKdLf.png "[Rename import/export definition]")
+![Rename import/export definition](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Import/RenameImportExportDefinitionKdLf.png "[Rename import/export definition]")
 
 - *For*  
 Click the drop-down list to select the import/export definition type where the new definition will be renamed.  

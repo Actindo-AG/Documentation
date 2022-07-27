@@ -1,12 +1,10 @@
-[!!Accounting](RetailSuiteAccounting)
-
 # Import
 
 *Accounting > Select fiscal year > Extras > Tab IMPORT*
 
-![Import](/Assets/Screenshots/RetailSuiteAccounting/Extras/Import/Import.png "[Import]")
+![Import](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Import/Import.png "[Import]")
 
-> [Info] The import function is also available in the *FISCAL YEARS* tab of the *Settings* menu entry, see [Import bookings](02d_Settings.md#import-bookings).
+> [Info] The import function is also available in the *FISCAL YEARS* tab of the *Settings* menu entry, see [Import bookings](./02d_FiscalYears.md#import-bookings).
 
 - *Import from:*  
 A list of the available import options is displayed:
@@ -44,7 +42,7 @@ Click this button to import data in Schilling Software proprietary FQBATCH forma
 
 *Accounting > Select fiscal year > Extras > Tab IMPORT > Button COMPESO 7.X*
 
-![Import Compeso 7.X Step 1](/Assets/Screenshots/RetailSuiteAccounting/Extras/Import/Compeso01.png "[Import Compeso 7.X Step 1]")
+![Import Compeso 7.X Step 1](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Import/Compeso01.png "[Import Compeso 7.X Step 1]")
 
 **Step 1**
 
@@ -65,7 +63,7 @@ Click this button to upload the selected file. The *Compeso 7.x: Step 2* is disp
 Click this button to proceed to the next step.
 
 
-![Import Compeso 7.X Step 2](/Assets/Screenshots/RetailSuiteAccounting/Extras/Import/Compeso02.png "[Import Compeso 7.X Step 2]")
+![Import Compeso 7.X Step 2](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Import/Compeso02.png "[Import Compeso 7.X Step 2]")
 
 **Step 2**
 
@@ -83,18 +81,18 @@ Click this button to cancel the process.
 
 *Accounting > Select fiscal year > Extras > Tab IMPORT > Button CSV*
 
-![Import CSV Step 1](/Assets/Screenshots/RetailSuiteAccounting/Extras/Import/CSV01.png "[Import CSV Step 1]")
+![Import CSV Step 1](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Import/CSV01.png "[Import CSV Step 1]")
 
-![Import CSV Step 1](/Assets/Screenshots/RetailSuiteAccounting/Extras/Import/CSV01DMS.png "[Import CSV Step 1]")
+![Import CSV Step 1](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Import/CSV01DMS.png "[Import CSV Step 1]")
 
 **Step 1**
 
 - *Files*  
 A list of compatible files is displayed. In this case, only CSV files can be imported.
 
-- ![Radio button](/Assets/Icons/RadioButton02.png "[Radio button]") *Local file*  
+- ![Radio button](../../Assets/Icons/RadioButton02.png "[Radio button]") *Local file*  
 Click this radio button to select a file from your computer to be uploaded. The [Choose file] button is displayed.
-- ![Radio button](/Assets/Icons/RadioButton02.png "[Radio button]") *DMS*  
+- ![Radio button](../../Assets/Icons/RadioButton02.png "[Radio button]") *DMS*  
 Click this radio button to select a file from a DMS to be uploaded. The [SEARCH] button is displayed.
 
 - [Choose file]  
@@ -138,7 +136,7 @@ Click the drop-down list to select the appropriate import setting for split book
 Click this button to proceed to the next step.
 
 
-![Import CSV Step 2](/Assets/Screenshots/RetailSuiteAccounting/Extras/Import/CSV02.png "[Import CSV Step 2]")
+![Import CSV Step 2](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Import/CSV02.png "[Import CSV Step 2]")
 
 **Step 2**
 
@@ -155,7 +153,7 @@ Click this button to visualize the import log file.
 Click this button to proceed to the next step.
 
 
-![Import CSV Step 3](/Assets/Screenshots/RetailSuiteAccounting/Extras/Import/CSV03.png "[Import CSV Step 3]")
+![Import CSV Step 3](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Import/CSV03.png "[Import CSV Step 3]")
 
 **Step 3**
 
@@ -200,7 +198,7 @@ Click this button to complete the import process.
 
 
 
-![Import CSV Step 4](/Assets/Screenshots/RetailSuiteAccounting/Extras/Import/CSV04.png "[Import CSV Step 4]")
+![Import CSV Step 4](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Import/CSV04.png "[Import CSV Step 4]")
 
 **Step 4**
 
@@ -211,7 +209,7 @@ This message is displayed during the import process.
 Click this button to cancel the process.
 
 
-![Import CSV Step 5](/Assets/Screenshots/RetailSuiteAccounting/Extras/Import/CSV05.png "[Import CSV Step 5]")
+![Import CSV Step 5](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Import/CSV05.png "[Import CSV Step 5]")
 
 **Step 5**
 
@@ -223,9 +221,9 @@ Click this button to cancel the process.
 
 *Accounting > Select fiscal year > Extras > Tab IMPORT > Button CSV LS-MOTOR*
 
-![Import CSV LS-Motor Step 1](/Assets/Screenshots/RetailSuiteAccounting/Extras/Import/CSVLSMotor01.png "[Import CSV LS-Motor Step 1]")
+![Import CSV LS-Motor Step 1](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Import/CSVLSMotor01.png "[Import CSV LS-Motor Step 1]")
 
-![Import CSV LS-Motor Step 1](/Assets/Screenshots/RetailSuiteAccounting/Extras/Import/CSVLSMotor01DMS.png "[Import CSV LS-Motor Step 1]")
+![Import CSV LS-Motor Step 1](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Import/CSVLSMotor01DMS.png "[Import CSV LS-Motor Step 1]")
 
 **Step 1**
 
@@ -234,9 +232,9 @@ A list of compatible files is displayed. In this case, only txt files can be imp
 
 [comment]: <> (txt oder X.txt? Unterschied oder X gehört zum Namen? Ich kann keine txt Datei hochladen. Fehlermeldung: No such file or directory)
 
-- ![Radio button](/Assets/Icons/RadioButton02.png "[Radio button]") *Local file*  
+- ![Radio button](../../Assets/Icons/RadioButton02.png "[Radio button]") *Local file*  
 Click this radio button to select a file from your computer to be uploaded. The [Choose file] button is displayed.
-- ![Radio button](/Assets/Icons/RadioButton02.png "[Radio button]") *DMS*  
+- ![Radio button](../../Assets/Icons/RadioButton02.png "[Radio button]") *DMS*  
 Click this radio button to select a file from a DMS to be uploaded. The [SEARCH] button is displayed.
 
 - [Choose file]  
@@ -286,9 +284,9 @@ Click this button to proceed to the next step.
 
 *Accounting > Select fiscal year > Extras > Tab IMPORT > Button GDI*
 
-![Import GDI Step 1](/Assets/Screenshots/RetailSuiteAccounting/Extras/Import/GDI01.png "[Import GDI Step 1]")
+![Import GDI Step 1](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Import/GDI01.png "[Import GDI Step 1]")
 
-![Import GDI Step 1](/Assets/Screenshots/RetailSuiteAccounting/Extras/Import/GDI01DMS.png "[Import GDI Step 1]")
+![Import GDI Step 1](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Import/GDI01DMS.png "[Import GDI Step 1]")
 
 
 **Step 1**
@@ -296,9 +294,9 @@ Click this button to proceed to the next step.
 - *Files*  
 A list of compatible files is displayed. In this case, only STD files can be imported.
 
-- ![Radio button](/Assets/Icons/RadioButton02.png "[Radio button]") *Local file*  
+- ![Radio button](../../Assets/Icons/RadioButton02.png "[Radio button]") *Local file*  
 Click this radio button to select a file from your computer to be uploaded. The [Choose file] button is displayed.
-- ![Radio button](/Assets/Icons/RadioButton02.png "[Radio button]") *DMS*  
+- ![Radio button](../../Assets/Icons/RadioButton02.png "[Radio button]") *DMS*  
 Click this radio button to select a file from a DMS to be uploaded. The [SEARCH] button is displayed.
 
 - [Choose file]  
@@ -315,7 +313,7 @@ Click this button to proceed to the next step.
 
 
 
-![Import GDI Step 2](/Assets/Screenshots/RetailSuiteAccounting/Extras/Import/GDI02.png "[Import GDI Step 2]")
+![Import GDI Step 2](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Import/GDI02.png "[Import GDI Step 2]")
 
 **Step 2**
 
@@ -333,19 +331,19 @@ Click this button to proceed to the next step.
 
 
 
-![Import GDI Step 3](/Assets/Screenshots/RetailSuiteAccounting/Extras/Import/GDI03.png "[Import GDI Step 3]")
+![Import GDI Step 3](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Import/GDI03.png "[Import GDI Step 3]")
 
 **Step 3**
 
 > [Info] Depending on the imported data, the screen displayed varies.
 
 
-- ![Radio button](/Assets/Icons/RadioButton02.png "[Radio button]") *Create new fiscal year*
+- ![Radio button](../../Assets/Icons/RadioButton02.png "[Radio button]") *Create new fiscal year*
  - *FY name*
  - *From - to*
 
 
--  ![Radio button](/Assets/Icons/RadioButton02.png "[Radio button]") Add bookings to FY
+-  ![Radio button](../../Assets/Icons/RadioButton02.png "[Radio button]") Add bookings to FY
   - *Import into FY*
   - *From - to*
 
@@ -379,7 +377,7 @@ Click this button to proceed to the next step.
 Click this button to complete the import process.
 
 
-![Import GDI Step 4](/Assets/Screenshots/RetailSuiteAccounting/Extras/Import/GDI04.png "[Import GDI Step 4]")
+![Import GDI Step 4](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Import/GDI04.png "[Import GDI Step 4]")
 
 **Step 4**
 
@@ -391,7 +389,7 @@ Click this button to cancel the process.
 
 
 
-![Import GDI Step 5](/Assets/Screenshots/RetailSuiteAccounting/Extras/Import/GDI05.png "[Import GDI Step 5]")
+![Import GDI Step 5](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Import/GDI05.png "[Import GDI Step 5]")
 
 **Step 5**
 
@@ -404,9 +402,9 @@ Click this button to cancel the process.
 
 *Accounting > Select fiscal year > Extras > Tab IMPORT > Button openTRANS*
 
-![Import openTRANS Step 1](/Assets/Screenshots/RetailSuiteAccounting/Extras/Import/Opentrans01.png "[Import openTRANS Step 1]")
+![Import openTRANS Step 1](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Import/Opentrans01.png "[Import openTRANS Step 1]")
 
-![Import openTRANS Step 1](/Assets/Screenshots/RetailSuiteAccounting/Extras/Import/Opentrans01DMS.png "[Import openTRANS Step 1]")
+![Import openTRANS Step 1](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Import/Opentrans01DMS.png "[Import openTRANS Step 1]")
 
 
 **Step 1**
@@ -414,9 +412,9 @@ Click this button to cancel the process.
 - *Files*  
 A list of compatible files is displayed. In this case, only xml files can be imported.
 
-- ![Radio button](/Assets/Icons/RadioButton02.png "[Radio button]") *Local file*  
+- ![Radio button](../../Assets/Icons/RadioButton02.png "[Radio button]") *Local file*  
 Click this radio button to select a file from your computer to be uploaded. The [Choose file] button is displayed.
-- ![Radio button](/Assets/Icons/RadioButton02.png "[Radio button]") *DMS*  
+- ![Radio button](../../Assets/Icons/RadioButton02.png "[Radio button]") *DMS*  
 Click this radio button to select a file from a DMS to be uploaded. The [SEARCH] button is displayed.
 
 - [Choose file]  
@@ -435,7 +433,7 @@ Enter the creditor/supplier number.
 Click this button to proceed to the next step.
 
 
-![Import openTRANS Step 2](/Assets/Screenshots/RetailSuiteAccounting/Extras/Import/Opentrans02.png "[Import openTRANS Step 2]")
+![Import openTRANS Step 2](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Import/Opentrans02.png "[Import openTRANS Step 2]")
 
 **Step 2**
 
@@ -459,18 +457,18 @@ Click this button to proceed to the next step.
 
 *Accounting > Select fiscal year > Extras > Tab IMPORT > Button Schilling Accounting*
 
-![Import Schilling Step 1](/Assets/Screenshots/RetailSuiteAccounting/Extras/Import/Schilling01.png "[Import Schilling Step 1]")
+![Import Schilling Step 1](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Import/Schilling01.png "[Import Schilling Step 1]")
 
-![Import Schilling Step 1](/Assets/Screenshots/RetailSuiteAccounting/Extras/Import/Schilling01DMS.png "[Import Schilling Step 1]")
+![Import Schilling Step 1](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Import/Schilling01DMS.png "[Import Schilling Step 1]")
 
 **Step 1**
 
 - *Files*  
 A list of compatible files is displayed. In this case, only txt files can be imported.
 
-- ![Radio button](/Assets/Icons/RadioButton02.png "[Radio button]") *Local file*  
+- ![Radio button](../../Assets/Icons/RadioButton02.png "[Radio button]") *Local file*  
 Click this radio button to select a file from your computer to be uploaded. The [Choose file] button is displayed.
-- ![Radio button](/Assets/Icons/RadioButton02.png "[Radio button]") *DMS*  
+- ![Radio button](../../Assets/Icons/RadioButton02.png "[Radio button]") *DMS*  
 Click this radio button to select a file from a DMS to be uploaded. The [SEARCH] button is displayed.
 
 - [Choose file]  
@@ -486,7 +484,7 @@ Click this button to upload the selected file. The selected file is uploaded. Th
 Click this button to proceed to the next step.
 
 
-![Import Schilling Step 2](/Assets/Screenshots/RetailSuiteAccounting/Extras/Import/Schilling02Fehler.png "[Import Schilling Step 2]")
+![Import Schilling Step 2](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Import/Schilling02Fehler.png "[Import Schilling Step 2]")
 
 **Step 2**
 
@@ -503,7 +501,7 @@ Click this button to cancel the process.
 
 ### Import/export definitions
 
-![Import/export definitions](/Assets/Screenshots/RetailSuiteAccounting/Extras/Import/ImportExportDefinitionsLexware.png "[Import/export definitions]")
+![Import/export definitions](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Import/ImportExportDefinitionsLexware.png "[Import/export definitions]")
 
 **Name**
 
@@ -528,16 +526,16 @@ Click this button to delete an import/export definition. A confirmation window i
 **Fields in the definition**  
 This list displays all fields contained in the selected import/export definition. Use the arrow buttons to modify the fields in the list:
 
-  - ![Up](/Assets/Icons/ArrowUp.png "[Up]") (Up)  
+  - ![Up](../../Assets/Icons/ArrowUp.png "[Up]") (Up)  
 Use this button to move a selected field up in the list.
 
-  - ![Down](/Assets/Icons/ArrowDown.png "[Down]") (Down)  
+  - ![Down](../../Assets/Icons/ArrowDown.png "[Down]") (Down)  
 Use this button to move a selected field down in the list.
 
-  - ![Left](/Assets/Icons/ArrowLeft.png "[Left]") (Left)  
+  - ![Left](../../Assets/Icons/ArrowLeft.png "[Left]") (Left)  
 Use this button to move a selected field left, from the *Possible fields* list to the *Fields in the definition* list.
 
-  - ![Right](/Assets/Icons/ArrowRight.png "[Right]") (Right)  
+  - ![Right](../../Assets/Icons/ArrowRight.png "[Right]") (Right)  
 Use this button to move a selected field right, from the *Fields in the definition* list to the *Possible fields* list.
 
 **Column**  
@@ -593,7 +591,7 @@ Click this button to save the changes.
 
 #### New import/export definition  
 
-![New import/export definition](/Assets/Screenshots/RetailSuiteAccounting/Extras/Import/NewImportExportDefinitionKdLf.png "[New import/export definition]")
+![New import/export definition](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Import/NewImportExportDefinitionKdLf.png "[New import/export definition]")
 
 - *For*  
 Click the drop-down list to select the import/export definition type where the new definition will be added.  
@@ -607,7 +605,7 @@ Click this button to create a new import/export definition.
 
 #### Rename import/export definition  
 
-![Rename import/export definition ](/Assets/Screenshots/RetailSuiteAccounting/Extras/Import/RenameImportExportDefinitionKdLf.png "[Rename import/export definition ]")
+![Rename import/export definition ](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Import/RenameImportExportDefinitionKdLf.png "[Rename import/export definition ]")
 
 - *For*  
 Click the drop-down list to select the import/export definition type where the new definition will be renamed.  
@@ -624,7 +622,7 @@ Click this button to rename the selected import/export definition.
 
 #### Select file
 
-![Select file](/Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/SelectFile.png "[Select file]")
+![Select file](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/SelectFile.png "[Select file]")
 
 - *New documents*  
 The new uploaded documents are contained in this folder.

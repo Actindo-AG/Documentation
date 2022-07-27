@@ -1,11 +1,8 @@
-
-[!!Accounting](RetailSuiteAccounting)
-
 # Debtors/creditors
 
 *Accounting > Select fiscal year > Settings > Tab DEBTORS/CREDITORS*
 
-The *Debtors/creditors* tab displays a customer/supplier list and allows to create, edit and delete customers (debtors) and supplier (creditors). For detailed information about managing customers and suppliers, see [Manage the customer/supplier](/RetailSuiteAccounting/Integration/05_ManageCustomerSupplier.md).
+The *Debtors/creditors* tab displays a customer/supplier list and allows to create, edit and delete customers (debtors) and supplier (creditors). For detailed information about managing customers and suppliers, see [Manage the customer/supplier](../Integration/05_ManageCustomerSupplier.md).
 
 This tab and all corresponding sub-tabs are also contained in the *Invoicing* module.
 
@@ -23,7 +20,7 @@ The *Debtors/creditors* tab contains in turn two tabs:
 
 *Accounting > Select fiscal year > Settings > Tab DEBTORS/CREDITORS > Tab Customer/supplier list*
 
-![Customer/Supplier list](/Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/CustomerSupplierList02.png "[Customer/supplier list]")
+![Customer/Supplier list](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/CustomerSupplierList02.png "[Customer/supplier list]")
 
 - [EXCEL]  
 Click this button to display the *EXCEL* context menu. The following options are available:  
@@ -67,10 +64,10 @@ Click this button to display the *QUICK SEARCH* context menu. All search criteri
 - [Search bar]  
   Click on the search bar to enter the search text (letters or numbers).
 
-- ![Delete](/Assets/Icons/Cross02.png "[Delete]") (Delete)  
+- ![Delete](../../Assets/Icons/Cross02.png "[Delete]") (Delete)  
   Click this button to delete the search text and to clear the search results.
 
-- ![Search](/Assets/Icons/Search.png "[Search]") (Search)  
+- ![Search](../../Assets/Icons/Search.png "[Search]") (Search)  
   Click this button to start the search. The search can also be started by pressing ENTER.
 
 - (x) [ACTIVE FILTERS]  
@@ -101,13 +98,13 @@ All customer/supplier details are displayed in a column view. The column width c
 
 [comment]: <> (Check wording with HG, see Workflows, PIM: The list displays... Durchgängig ändern?)
 
-When placing the cursor on a column header, three vertical points are displayed to the right of the column title. Click the ![Points](/Assets/Icons/Points02.png "[Points]") (Points) button to display the context menu. The following menu entries are available:
+When placing the cursor on a column header, three vertical points are displayed to the right of the column title. Click the ![Points](../../Assets/Icons/Points02.png "[Points]") (Points) button to display the context menu. The following menu entries are available:
 
-- ![Sort ascending](/Assets/Icons/SortAscending.png "[Sort ascending]") Sort ascending  
+- ![Sort ascending](../../Assets/Icons/SortAscending.png "[Sort ascending]") Sort ascending  
   Click this entry to sort the rows in ascending order.
-- ![Sort descending](/Assets/Icons/SortDescending.png "[Sort descending]") Sort descending  
+- ![Sort descending](../../Assets/Icons/SortDescending.png "[Sort descending]") Sort descending  
   Click this entry to sort the rows in descending order.
-- ![Columns](/Assets/Icons/Columns02.png "[Columns]") Columns  
+- ![Columns](../../Assets/Icons/Columns02.png "[Columns]") Columns  
   Place the mouse on this entry to display the *Columns* sub-menu. Add or remove columns by marking or unmarking the corresponding checkbox.
 
   [comment]: <> (Standard Plattform-Info. Notwendig? Durchgängig ändern/löschen?)
@@ -184,14 +181,14 @@ Reference customer/supplier number as defined by the user.
 
 [comment]: <> (By right-clicking on a row, context menu appears with two options -> Show documents of the customer / supplier -> to Overview in Fakturierung module, and Show articles of supplier -> to Artikelliste in Artikelverwaltung module. Add info and link when available?)
 
-- ![First page](/Assets/Icons/FirstPage.png "[First page]") - ![Last page](/Assets/Icons/LastPage.png "[Last page]") (First page) - (Last page)  
- ![Previous page](/Assets/Icons/PreviousPage.png "[Previous page]") - ![Next page](/Assets/Icons/NextPage.png "[Next page]") (Previous page) - (Next page)  
+- ![First page](../../Assets/Icons/FirstPage.png "[First page]") - ![Last page](../../Assets/Icons/LastPage.png "[Last page]") (First page) - (Last page)  
+ ![Previous page](../../Assets/Icons/PreviousPage.png "[Previous page]") - ![Next page](../../Assets/Icons/NextPage.png "[Next page]") (Previous page) - (Next page)  
 Click these buttons to navigate the customer/supplier list.
 
 - *Page [x] of [x]*  
 Enter a page number to go to a specific page.
 
-- ![Refresh](/Assets/Icons/Refresh01.png "[Refresh]") (Refresh)  
+- ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh)  
  Click this button to update the receipt list.
 
 - [RESET]  
@@ -205,7 +202,7 @@ This text displays the number of customers and suppliers currently displayed and
 
 *Accounting > Select fiscal year > Settings > Tab DEBTORS/CREDITORS > Tab Create customer/supplier*
 
-![Create a customer/supplier](/Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/CreateCustomerSupplier.png "[Create a customer/supplier]")
+![Create a customer/supplier](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/CreateCustomerSupplier.png "[Create a customer/supplier]")
 
 The *Create customer/supplier* tab contains in turn several sub-tabs to organize customer/supplier details:
 
@@ -224,7 +221,7 @@ The *Create customer/supplier* tab contains in turn several sub-tabs to organize
 
 *Accounting > Select fiscal year > Settings > Tab DEBTORS/CREDITORS > Tab Create customer/supplier > Sub-tab Address/contact*
 
-![Address/contact](/Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/CreateCustomerSupplier.png "[Address/contact]")
+![Address/contact](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/CreateCustomerSupplier.png "[Address/contact]")
 
 
 **Address details**  
@@ -335,7 +332,7 @@ Click this button to save the newly entered customer/supplier details.
 
 *Accounting > Select fiscal year > Settings > Tab DEBTORS/CREDITORS > Tab Create customer/supplier > Sub-tab Delivery addresses*
 
-![Delivery addresses](/Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/DeliveryAddresses.png "[Delivery addresses]")
+![Delivery addresses](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/DeliveryAddresses.png "[Delivery addresses]")
 
 The address entered in the *Address details* section in the *Address/contact* sub-tab is saved as standard customer/supplier address in the system.
 
@@ -354,7 +351,7 @@ Click this button to save any changes made.
 
 *Accounting > Select fiscal year > Settings > Tab DEBTORS/CREDITORS > Tab Create customer/supplier > Sub-tab Invoicing*
 
-![Invoicing](/Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/Billing01.png "[Invoicing]")
+![Invoicing](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/Billing01.png "[Invoicing]")
 
 
 **Bank details**
@@ -385,7 +382,7 @@ Enter the IBAN (International Bank Account Number).
 Enter the SEPA mandate reference, if available.
 
 - *Signature date*  
-Enter the signature date or click the ![Calendar](/Assets/Icons/Calendar.png "[Calendar]") (Calendar) button to select the date.
+Enter the signature date or click the ![Calendar](../../Assets/Icons/Calendar.png "[Calendar]") (Calendar) button to select the date.
 
 
 **Payment options**
@@ -532,7 +529,7 @@ Enter the reference supplier number defined by the user, if any.
 
 *Accounting > Select fiscal year > Settings > Tab DEBTORS/CREDITORS > Tab Create customer/supplier > Sub-tab Additional fields*
 
-![Additional fields](/Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/AdditionalFields01.png "[Additional fields]")
+![Additional fields](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/AdditionalFields01.png "[Additional fields]")
 
 The *Additional fields* sub-tab cannot be edited here. The warning message *Please save customer/supplier first* is displayed.
 
@@ -552,7 +549,7 @@ Click this button to save any changes made.
 
 *Accounting > Select fiscal year > Settings > Tab DEBTORS/CREDITORS > Tab Create customer/supplier > Sub-tab Drop shipping*
 
-![Drop shipping](/Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/DropShipping01.png "[Drop shipping]")
+![Drop shipping](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/DropShipping01.png "[Drop shipping]")
 
 The *Drop shipping* sub-tab cannot be edited here. The warning message *Please save supplier first* is displayed.
 
@@ -572,7 +569,7 @@ Click this button to save any changes made.
 
 *Accounting > Select fiscal year > Settings > Tab DEBTORS/CREDITORS > Tab Create customer/supplier > Sub-tab CRM information*
 
-![CRM information](/Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/CRMInformation01.png "[CRM information]")
+![CRM information](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/CRMInformation01.png "[CRM information]")
 
 **General**
 
@@ -583,7 +580,7 @@ Click this button to save any changes made.
   Enter the type of customer.
 
   - *Date of birth*  
-  Enter the date of birth or click the ![Calendar](/Assets/Icons/Calendar.png "[Calendar]") (Calendar) button to select the date.
+  Enter the date of birth or click the ![Calendar](../../Assets/Icons/Calendar.png "[Calendar]") (Calendar) button to select the date.
 
   - *Supervisor*  
   Click the drop-down list to select the corresponding supervisor.
@@ -594,7 +591,7 @@ Click this button to save any changes made.
   [comment]: <> (Gebiet/Area? Meaning department? Business area/unit?)
 
   - *Last pers. contact*  
-  Enter the date of the last personal contact or click the ![Calendar](/Assets/Icons/Calendar.png "[Calendar]") (Calendar) button to select the date.
+  Enter the date of the last personal contact or click the ![Calendar](../../Assets/Icons/Calendar.png "[Calendar]") (Calendar) button to select the date.
 
   - *Industry*  
   Enter information about the applicable industrial sector, if necessary.
@@ -606,7 +603,7 @@ Click this button to save any changes made.
 **Credit rating**
 
   - *Request from*  
-  Enter the request date or click the ![Calendar](/Assets/Icons/Calendar.png "[Calendar]") (Calendar) button to select the date.
+  Enter the request date or click the ![Calendar](../../Assets/Icons/Calendar.png "[Calendar]") (Calendar) button to select the date.
 
   - *Capital*  
   Enter the applicable capital amount.
@@ -615,7 +612,7 @@ Click this button to save any changes made.
   Click the drop-down list to select the appropriate number of employees.
 
   - *Status from*  
-  Enter the status date or click the ![Calendar](/Assets/Icons/Calendar.png "[Calendar]") (Calendar) button to select the date.
+  Enter the status date or click the ![Calendar](../../Assets/Icons/Calendar.png "[Calendar]") (Calendar) button to select the date.
 
   - *Year*  
   Enter the year of the credit rating.
@@ -663,7 +660,7 @@ Click the drop-down list to select the applicable template.
 
 *Accounting > Select fiscal year > Settings > Tab DEBTORS/CREDITORS > Tab Create customer/supplier > Sub-tab Notes*
 
-![Notes](/Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/Notes01.png "[Notes]")
+![Notes](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/Notes01.png "[Notes]")
 
 
 - *Comments*  
@@ -678,7 +675,7 @@ Click this button to save any changes made.
 
 *Accounting > Select fiscal year > Settings > Tab DEBTORS/CREDITORS > Tab Customer/supplier list > Select customer/supplier*
 
-![Edit a customer/supplier](/Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/EditCustomerSupplier.png "[Edit a customer/supplier]")
+![Edit a customer/supplier](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/EditCustomerSupplier.png "[Edit a customer/supplier]")
 
 When selecting a customer/supplier from the list in the *Customer/supplier list* tab, the *Customer/supplier (number)* tab is displayed. Existing details can be edited and new ones can be entered in the subsequent sub-tabs.
 
@@ -689,7 +686,7 @@ The displayed sub-tabs and information vary slightly depending on whether a cust
 
 *Accounting > Select fiscal year > Settings > Tab DEBTORS/CREDITORS > Tab Customer/supplier list > Select customer/supplier > Sub-tab Address/contact*
 
-![Address/contact](/Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/EditCustomerSupplier.png "[Address/contact]")
+![Address/contact](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/EditCustomerSupplier.png "[Address/contact]")
 
 
 **Address details**  
@@ -799,7 +796,7 @@ Click this button to save all changes in the selected customer/supplier.
 
 *Accounting > Select fiscal year > Settings > Tab DEBTORS/CREDITORS > Tab Customer/supplier list > Select customer/supplier > Sub-tab Further addresses*
 
-![Further addresses](/Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/FurtherAddresses01.png "[Further addresses]")
+![Further addresses](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/FurtherAddresses01.png "[Further addresses]")
 
 
 When creating a customer/supplier, the address entered in the *Address details* section in the *Address/contact* sub-tab is automatically saved as standard delivery address. The standard address is displayed in this sub-tab marked as STD. Further delivery addresses can be added in this sub-tab.
@@ -811,13 +808,13 @@ When creating a customer/supplier, the address entered in the *Address details* 
 
 All delivery addresses entered are displayed in a column view. The column width can be modified using the mouse. To do so, place the mouse pointer on the vertical dividing line between two columns titles. The mouse pointer changes to a double-headed arrow. Press the left mouse button and move the line using drag and drop until it has reached the required width.
 
-When placing the cursor on a column header, three vertical points are displayed to the right of the column title. Click the ![Points](/Assets/Icons/Points02.png "[Points]") (Points) icon to display the context menu. The following menu entries are available:
+When placing the cursor on a column header, three vertical points are displayed to the right of the column title. Click the ![Points](../../Assets/Icons/Points02.png "[Points]") (Points) icon to display the context menu. The following menu entries are available:
 
-- ![Sort ascending](/Assets/Icons/SortAscending.png "[Sort ascending]") Sort ascending  
+- ![Sort ascending](../../Assets/Icons/SortAscending.png "[Sort ascending]") Sort ascending  
  Click this entry to sort the rows in ascending order.
-- ![Sort descending](/Assets/Icons/SortDescending.png "[Sort descending]") Sort descending  
+- ![Sort descending](../../Assets/Icons/SortDescending.png "[Sort descending]") Sort descending  
  Click this entry to sort the rows in descending order.
-- ![Columns](/Assets/Icons/Columns02.png "[Columns]") Columns  
+- ![Columns](../../Assets/Icons/Columns02.png "[Columns]") Columns  
  Place the mouse on this entry to display the *Columns* sub-menu. Add or remove columns by marking or unmarking the corresponding checkbox.
 
 All information provided in columns is read-only.
@@ -853,7 +850,7 @@ Click this button to add a further address. The *Add* section is displayed.
 - [DELETE]  
 Click this button to delete a selected address from the list.
 
-- ![Refresh](/Assets/Icons/Refresh03.png "[Refresh]") (Refresh)    
+- ![Refresh](../../Assets/Icons/Refresh03.png "[Refresh]") (Refresh)    
 Click this button to refresh the list after making any changes.
 
 - *All address types*  
@@ -868,9 +865,9 @@ Click this drop-down list to select the address type to be displayed in the list
 
 **Add/Edit**
 
-![Edit](/Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/FurtherAddresses03.png "[Edit]")
+![Edit](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/FurtherAddresses03.png "[Edit]")
 
-![Edit](/Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/FurtherAddresses02.png "[Edit]")
+![Edit](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/FurtherAddresses02.png "[Edit]")
 
 > [Info] When clicking the [CREATE] button, the *Add* section is displayed. When marking a checkbox from the delivery addresses list, the address details are displayed in the entry fields, where they can be edited. The *Add* section name changes to *Edit*.
 
@@ -967,7 +964,7 @@ Click this drop-down list to select the address type to be displayed in the list
 
 *Accounting > Select fiscal year > Settings > Tab DEBTORS/CREDITORS > Tab Customer/supplier list > Select customer/supplier > Sub-tab Invoicing*
 
-![Invoicing](/Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/Billing02.png "[Invoicing]")
+![Invoicing](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/Billing02.png "[Invoicing]")
 
 
 **Bank details**
@@ -998,7 +995,7 @@ Enter the IBAN (International Bank Account Number).
 Enter the SEPA mandate reference, if available.
 
 - *Signature date*  
-Enter the signature date or click the ![Calendar](/Assets/Icons/Calendar.png "[Calendar]") (Calendar) button to select the date.
+Enter the signature date or click the ![Calendar](../../Assets/Icons/Calendar.png "[Calendar]") (Calendar) button to select the date.
 
 
 **Payment options**
@@ -1142,7 +1139,7 @@ Enter a freight limit by the supplier, if necessary.
 
 *Accounting > Select fiscal year > Settings > Tab DEBTORS/CREDITORS > Tab Customer/supplier list > Select customer/supplier > Sub-tab Additional fields*
 
-![Additional fields](/Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/AdditionalFields02.png "[Additional fields]")
+![Additional fields](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/AdditionalFields02.png "[Additional fields]")
 
 - [EDIT ADDITIONAL FIELDS]  
 Click this button to add additional fields. The *Edit additional fields* window is displayed, see [Edit additional fields](#edit-additional-fields).
@@ -1153,18 +1150,18 @@ Click this button to add additional fields. The *Edit additional fields* window 
 
 The additional fields added are displayed in a column view. The column width can be modified using the mouse. To do so, place the mouse pointer on the vertical dividing line between two columns titles. The mouse pointer changes to a double-headed arrow. Press the left mouse button and move the line using drag and drop until it has reached the required width.
 
-When placing the cursor on a column header, three vertical points are displayed to the right of the column title. Click the ![Points](/Assets/Icons/Points02.png "[Points]") (Points) icon to display the context menu. The following menu entries are available:
+When placing the cursor on a column header, three vertical points are displayed to the right of the column title. Click the ![Points](../../Assets/Icons/Points02.png "[Points]") (Points) icon to display the context menu. The following menu entries are available:
 
-- ![Sort ascending](/Assets/Icons/SortAscending.png "[Sort ascending]") Sort ascending  
+- ![Sort ascending](../../Assets/Icons/SortAscending.png "[Sort ascending]") Sort ascending  
   Click this entry to sort the rows in ascending order.
-- ![Sort descending](/Assets/Icons/SortDescending.png "[Sort descending]") Sort descending  
+- ![Sort descending](../../Assets/Icons/SortDescending.png "[Sort descending]") Sort descending  
   Click this entry to sort the rows in descending order.
-- ![Columns](/Assets/Icons/Columns02.png "[Columns]") Columns  
+- ![Columns](../../Assets/Icons/Columns02.png "[Columns]") Columns  
   Place the mouse on this entry to display the *Columns* sub-menu. Add or remove columns by marking or unmarking the corresponding checkbox.
 
 Depending on the settings, the displayed columns may vary. All information provided in columns is read-only.
 
-![Additional fields](/Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/AdditionalFields03.png "[Additional fields]")
+![Additional fields](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/AdditionalFields03.png "[Additional fields]")
 
 - [Checkbox]  
 Select the checkbox to edit or delete a field. The field details are displayed in the *Edit* section.
@@ -1186,7 +1183,7 @@ This column displays the value entered.
 - [DELETE]  
 Click this button to delete the selected row.
 
-- ![Refresh](/Assets/Icons/Refresh03.png "[Refresh]") (Refresh)  
+- ![Refresh](../../Assets/Icons/Refresh03.png "[Refresh]") (Refresh)  
 Click this button to refresh the list after making any changes.
 
 
@@ -1213,20 +1210,20 @@ Click this button to clear the fields.
 
 *Accounting > Select fiscal year > Settings > Tab DEBTORS/CREDITORS > Tab Customer/supplier list > Select customer/supplier > Sub-tab Content*
 
-![Content](/Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/Content01.png "[Content]")
+![Content](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/Content01.png "[Content]")
 
 
 **Content**
 
 The existing content data are displayed in a column view. The column width can be modified using the mouse. To do so, place the mouse pointer on the vertical dividing line between two columns titles. The mouse pointer changes to a double-headed arrow. Press the left mouse button and move the line using drag and drop until it has reached the required width.
 
-When placing the cursor on a column header, three vertical points are displayed to the right of the column title. Click the ![Points](/Assets/Icons/Points02.png "[Points]") (Points) icon to display the context menu. The following menu entries are available:
+When placing the cursor on a column header, three vertical points are displayed to the right of the column title. Click the ![Points](../../Assets/Icons/Points02.png "[Points]") (Points) icon to display the context menu. The following menu entries are available:
 
-- ![Sort ascending](/Assets/Icons/SortAscending.png "[Sort ascending]") Sort ascending  
+- ![Sort ascending](../../Assets/Icons/SortAscending.png "[Sort ascending]") Sort ascending  
   Click this entry to sort the rows in ascending order.
-- ![Sort descending](/Assets/Icons/SortDescending.png "[Sort descending]") Sort descending  
+- ![Sort descending](../../Assets/Icons/SortDescending.png "[Sort descending]") Sort descending  
   Click this entry to sort the rows in descending order.
-- ![Columns](/Assets/Icons/Columns02.png "[Columns]") Columns  
+- ![Columns](../../Assets/Icons/Columns02.png "[Columns]") Columns  
   Place the mouse on this entry to display the *Columns* sub-menu. Add or remove columns by marking or unmarking the corresponding checkbox.
 
 Depending on the settings, the displayed columns may vary. All information provided in columns is read-only.
@@ -1269,13 +1266,13 @@ Click this button to show all content.
 
 [comment]: <> (Unsicher, ob bzw. wie es funktioniert)
 
-- ![Refresh](/Assets/Icons/Refresh03.png "[Refresh]")  (Refresh)  
+- ![Refresh](../../Assets/Icons/Refresh03.png "[Refresh]")  (Refresh)  
 Click this button to refresh the list after making any changes.
 
 
 **Edit**
 
-![Content](/Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/Content03.png "[Content]")
+![Content](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/Content03.png "[Content]")
 
 
 - *Language*  
@@ -1325,7 +1322,7 @@ Click this button to clear the entry fields.
 
 **Add**
 
-![Content](/Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/Content02.png "[Content]")
+![Content](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/Content02.png "[Content]")
 
 
 - *Language*  
@@ -1389,7 +1386,7 @@ Click this button to save all changes in the selected customer/supplier.
 
 *Accounting > Select fiscal year > Settings > Tab DEBTORS/CREDITORS > Tab Customer/supplier list > Select customer > Sub-tab Stock history*
 
-![Stock history](/Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/StockHistory02.png "[Stock history]")
+![Stock history](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/StockHistory02.png "[Stock history]")
 
 > [Info] This sub-tab is only displayed when selecting a customer in the *Customer/supplier* list and more than one delivery address has been entered in the *Further addresses* tab.
 
@@ -1476,14 +1473,14 @@ Comment entered in the system. By default, the document number is displayed.
 [commnet]: <> (Unsure, check!)
 
 
-- ![First page](/Assets/Icons/FirstPage.png "[First page]") - ![Last page](/Assets/Icons/LastPage.png "[Last page]") (First page) - (Last page)  
- ![Previous page](/Assets/Icons/PreviousPage.png "[Previous page]") - ![Next page](/Assets/Icons/NextPage.png "[Next page]") (Previous page) - (Next page)  
+- ![First page](../../Assets/Icons/FirstPage.png "[First page]") - ![Last page](../../Assets/Icons/LastPage.png "[Last page]") (First page) - (Last page)  
+ ![Previous page](../../Assets/Icons/PreviousPage.png "[Previous page]") - ![Next page](../../Assets/Icons/NextPage.png "[Next page]") (Previous page) - (Next page)  
 Click these buttons to navigate the customer/supplier list.
 
 - *Page [x] of [x]*  
 Enter a page number to go to a specific page.
 
-- ![Refresh](/Assets/Icons/Refresh01.png "[Refresh]") (Refresh)  
+- ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh)  
  Click this button to update the receipt list.
 
 - *Show (xxx) entries*  
@@ -1513,7 +1510,7 @@ Click this button to save all changes in the selected customer/supplier.
 
 > [Info] This sub-tab is only displayed when selecting a customer in the *Customer/supplier* list and more than one delivery address has been entered in the *Further addresses* tab.
 
-![Statistics](/Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/Statistics.png "[Statistics]")
+![Statistics](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/Statistics.png "[Statistics]")
 
 - *Statistic type*  
 Click the drop-down list to select the statistics to be displayed. The following options are available:
@@ -1525,13 +1522,13 @@ Click the drop-down list to select the statistics to be displayed. The following
   > [Info] The fields displayed vary depending on the option selected. When selecting an option, the *Statistics extras* side bar opens automatically.
 
 
-- ![Open](/Assets/Icons/Back02.png "[Open]") (Open)  
+- ![Open](../../Assets/Icons/Back02.png "[Open]") (Open)  
 Click this arrow to open the *Statistics extras* side bar if necessary.
 
 
 **General turnover**  
 
-![General turnover](/Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/Statistics01.png "[General turnover]")
+![General turnover](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/Statistics01.png "[General turnover]")
 
 - *Period*  
 Period selected in the *Statistics extras* side bar.
@@ -1542,7 +1539,7 @@ Turnover for the selected period.
 
 **Statistics extra**
 
-![Close](/Assets/Icons/Close.png "[Close]") (Close)  
+![Close](../../Assets/Icons/Close.png "[Close]") (Close)  
 Click this arrow to close the *Statistics extras* side bar.
 
 *Period selection*
@@ -1566,10 +1563,10 @@ Click the drop-down list to select the period for the statistics. The following 
   Select this option to display the turnover for a specific month. An additional drop-down list to choose the calendar week is displayed.
 
   - *Free selection*  
-  Select this option to determine a period freely. The additional *from - to* fields and the ![Calendar](/Assets/Icons/Calendar.png "[Calendar]") (Calendar) button are displayed.
+  Select this option to determine a period freely. The additional *from - to* fields and the ![Calendar](../../Assets/Icons/Calendar.png "[Calendar]") (Calendar) button are displayed.
 
   - *From - to*  
-  Enter the start and end date of a specific period for the statistics. Alternatively, use the ![Calendar](/Assets/Icons/Calendar.png "[Calendar]") (Calendar) button to select the desired dates.
+  Enter the start and end date of a specific period for the statistics. Alternatively, use the ![Calendar](../../Assets/Icons/Calendar.png "[Calendar]") (Calendar) button to select the desired dates.
 
   - *Product group*  
   Click the drop-down list to select a specific product group.
@@ -1598,7 +1595,7 @@ Click this button to download the statistics displayed in Excel format. The Exce
 
 **Turnover per product**
 
-![Turnover per product](/Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/Statistics02.png "[Turnover per product]")
+![Turnover per product](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/Statistics02.png "[Turnover per product]")
 
 - *Product group*  
 Product group which the product belongs to, if any.
@@ -1627,7 +1624,7 @@ Total amount/average values for the selected period.
 
 **Statistics extra**
 
-![Close](/Assets/Icons/Close.png "[Close]") (Close)  
+![Close](../../Assets/Icons/Close.png "[Close]") (Close)  
 Click this arrow to close the *Statistics extras* side bar.
 
 *Period selection*
@@ -1663,10 +1660,10 @@ Click the drop-down list to select the period for the statistics. The following 
   Select this option to display the turnover for a specific month. An additional drop-down list to choose the calendar week is displayed.
 
   - *Free selection*  
-  Select this option to determine a period freely. The additional *from - to* fields and the ![Calendar](/Assets/Icons/Calendar.png "[Calendar]") (Calendar) button are displayed.
+  Select this option to determine a period freely. The additional *from - to* fields and the ![Calendar](../../Assets/Icons/Calendar.png "[Calendar]") (Calendar) button are displayed.
 
   - *From - to*  
-  Enter the start and end date of a specific period for the statistics. Alternatively, use the ![Calendar](/Assets/Icons/Calendar.png "[Calendar]") (Calendar) button to select the desired dates.
+  Enter the start and end date of a specific period for the statistics. Alternatively, use the ![Calendar](../../Assets/Icons/Calendar.png "[Calendar]") (Calendar) button to select the desired dates.
 
   - *Product group*  
   Click the drop-down list to select a specific product group.
@@ -1695,7 +1692,7 @@ Click this button to download the statistics displayed in Excel format. The Exce
 
 **Number of units sold per product**
 
-![Number of units sold per product](/Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/Statistics03.png "[Number of units sold per product]")
+![Number of units sold per product](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/Statistics03.png "[Number of units sold per product]")
 
 - *Product group*  
 Product group which the product belongs to, if any.
@@ -1718,7 +1715,7 @@ Total amount/average values for the selected period.
 
 **Statistics extra**
 
-![Close](/Assets/Icons/Close.png "[Close]") (Close)  
+![Close](../../Assets/Icons/Close.png "[Close]") (Close)  
 Click this arrow to close the *Statistics extras* side bar.
 
 *Period selection*
@@ -1754,10 +1751,10 @@ Click the drop-down list to select the period for the statistics. The following 
   Select this option to display the turnover for a specific month. An additional drop-down list to choose the calendar week is displayed.
 
   - *Free selection*  
-  Select this option to determine a period freely. The additional *from - to* fields and the ![Calendar](/Assets/Icons/Calendar.png "[Calendar]") (Calendar) button are displayed.
+  Select this option to determine a period freely. The additional *from - to* fields and the ![Calendar](../../Assets/Icons/Calendar.png "[Calendar]") (Calendar) button are displayed.
 
   - *From - to*  
-  Enter the start and end date of a specific period for the statistics. Alternatively, use the ![Calendar](/Assets/Icons/Calendar.png "[Calendar]") (Calendar) button to select the desired dates.
+  Enter the start and end date of a specific period for the statistics. Alternatively, use the ![Calendar](../../Assets/Icons/Calendar.png "[Calendar]") (Calendar) button to select the desired dates.
 
   - *Product group*  
   Click the drop-down list to select a specific product group.
@@ -1800,7 +1797,7 @@ Click this button to save all changes in the selected customer/supplier.
 
 > [Info] This sub-tab is only displayed when selecting a supplier in the *Customer/supplier* list.
 
-![Delivery addresses](/Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/DropShipping02.png "[Delivery addresses]")
+![Delivery addresses](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/DropShipping02.png "[Delivery addresses]")
 
 **Settings**
 
@@ -1822,7 +1819,7 @@ The left side menu displays the drop shipping setting options. The following men
 
 *Shipper*
 
-![Shipper](/Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/DropShippingShipper.png "[Shipper]")
+![Shipper](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/DropShippingShipper.png "[Shipper]")
 
 **Shipping**
 
@@ -1839,7 +1836,7 @@ Configure the services as agreed with the shipping provider. Depending on the sh
 
 *Export*
 
-![Export](/Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/DropShippingExport.png "[Export]")  
+![Export](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/DropShippingExport.png "[Export]")  
 
 **Export**
 
@@ -1902,7 +1899,7 @@ Click the drop-down menu to select the appropriate option (**Yes/No**).
 
 *Receipt export*
 
-![Receipt export](/Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/DropShippingReceiptExport.png "[Receipt export]")    
+![Receipt export](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/DropShippingReceiptExport.png "[Receipt export]")    
 
 **Document export**  
 
@@ -1954,7 +1951,7 @@ Click the drop-down menu to select the appropriate option (**Yes/No**).
 
 *Reimport*  
 
-![Reimport](/Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/DropShippingReimport.png "[Reimport]")   
+![Reimport](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/DropShippingReimport.png "[Reimport]")   
 
 > [Info] Depending on the supplier selected, the sections and fields displayed vary.
 
@@ -2022,7 +2019,7 @@ Click the drop-down menu to select the appropriate option (**Yes/No**).
 
 *Accounting > Select fiscal year > Settings > Tab DEBTORS/CREDITORS > Tab Customer/supplier list > Select customer/supplier > Sub-tab CRM information*
 
-![Delivery addresses](/Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/CRMInformation02a.png "[Delivery addresses]")
+![Delivery addresses](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/CRMInformation02a.png "[Delivery addresses]")
 
 **General**
 
@@ -2033,7 +2030,7 @@ Click the drop-down menu to select the appropriate option (**Yes/No**).
   Enter the type of customer.
 
   - *Date of birth*  
-  Enter the date of birth or click the ![Calendar](/Assets/Icons/Calendar.png "[Calendar]") (Calendar) button to select the date.
+  Enter the date of birth or click the ![Calendar](../../Assets/Icons/Calendar.png "[Calendar]") (Calendar) button to select the date.
 
   - *Supervisor*  
   Click the drop-down list to select the corresponding supervisor.
@@ -2044,7 +2041,7 @@ Click the drop-down menu to select the appropriate option (**Yes/No**).
   [comment]: <> (Gebiet/Area? Meaning department? Business area/unit?)
 
   - *Last pers. contact*  
-  Enter the date of the last personal contact or click the ![Calendar](/Assets/Icons/Calendar.png "[Calendar]") (Calendar) button to select the date.
+  Enter the date of the last personal contact or click the ![Calendar](../../Assets/Icons/Calendar.png "[Calendar]") (Calendar) button to select the date.
 
   - *Industry*  
   Enter information about the applicable industrial sector, if necessary.
@@ -2056,7 +2053,7 @@ Click the drop-down menu to select the appropriate option (**Yes/No**).
 **Credit rating**
 
   - *Request from*  
-  Enter the request date or click the ![Calendar](/Assets/Icons/Calendar.png "[Calendar]") (Calendar) button to select the date.
+  Enter the request date or click the ![Calendar](../../Assets/Icons/Calendar.png "[Calendar]") (Calendar) button to select the date.
 
   - *Capital*  
   Enter the applicable capital amount.
@@ -2065,7 +2062,7 @@ Click the drop-down menu to select the appropriate option (**Yes/No**).
   Click the drop-down list to select the appropriate number of employees.
 
   - *Status from*  
-  Enter the status date or click the ![Calendar](/Assets/Icons/Calendar.png "[Calendar]") (Calendar) button to select the date.
+  Enter the status date or click the ![Calendar](../../Assets/Icons/Calendar.png "[Calendar]") (Calendar) button to select the date.
 
   - *Year*  
   Enter the year of the credit rating.
@@ -2107,7 +2104,7 @@ Click the drop-down list to select the applicable template.
 
 > [Info] When selecting a supplier (customer 70000 onwards) in the *Customer/supplier list*, only the *General* and *Credit rating* sections are displayed. Moreover, the *General* section contains only the *Supervisor*, *Area*, *Last pers. contact*, *Industry* and *Industry 2* fields.   
 
-  ![CRM information - Supplier](/Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/CRMInformation02b.png "[CRM information - Supplier]")
+  ![CRM information - Supplier](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/CRMInformation02b.png "[CRM information - Supplier]")
 
 
 
@@ -2115,7 +2112,7 @@ Click the drop-down list to select the applicable template.
 
 *Accounting > Select fiscal year > Settings > Tab DEBTORS/CREDITORS > Tab Customer/supplier list > Select customer/supplier > Sub-tab Notes*
 
-![Notes](/Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/Notes02.png "[Notes]")
+![Notes](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/Notes02.png "[Notes]")
 
 
 - *Comments*  
@@ -2139,7 +2136,7 @@ Click this button to save all changes in the selected customer/supplier.
 
 *Accounting > Select fiscal year > Settings > Tab DEBTORS/CREDITORS > Tab Customer/supplier list > Select customer/supplier > Sub-tab Invoicing > Button SUCHEN*
 
-![Select tax office](/Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/SelectTaxOffice.png "[Select tax office]")
+![Select tax office](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/SelectTaxOffice.png "[Select tax office]")
 
 - *Search*  [Search bar]  
 Enter here the text to be searched for. Press ENTER to start the search.
@@ -2173,7 +2170,7 @@ This column displays the tax office location.
 
 *Accounting > Select fiscal year > Settings > Tab DEBTORS/CREDITORS > Tab Customer/supplier list > Select customer/supplier > Sub-tab Additional fields > Button EDIT ADDITIONAL FIELDS*
 
-![Edit additional fields](/Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/EditAdditionalFieldsExcel.png "[Edit additional fields]")
+![Edit additional fields](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/EditAdditionalFieldsExcel.png "[Edit additional fields]")
 
 
 - [EXCEL]  
@@ -2184,13 +2181,13 @@ Click this button to display the *EXCEL* context menu. The following options are
 
 The existing additional fields are displayed in a column view. The column width can be modified using the mouse. To do so, place the mouse pointer on the vertical dividing line between two columns titles. The mouse pointer changes to a double-headed arrow. Press the left mouse button and move the line using drag and drop until it has reached the required width.
 
-When placing the cursor on a column header, three vertical points are displayed to the right of the column title. Click the ![Points](/Assets/Icons/Points02.png "[Points]") (Points) icon to display the context menu. The following menu entries are available:
+When placing the cursor on a column header, three vertical points are displayed to the right of the column title. Click the ![Points](../../Assets/Icons/Points02.png "[Points]") (Points) icon to display the context menu. The following menu entries are available:
 
-- ![Sort ascending](/Assets/Icons/SortAscending.png "[Sort ascending]") Sort ascending  
+- ![Sort ascending](../../Assets/Icons/SortAscending.png "[Sort ascending]") Sort ascending  
   Click this entry to sort the rows in ascending order.
-- ![Sort descending](/Assets/Icons/SortDescending.png "[Sort descending]") Sort descending  
+- ![Sort descending](../../Assets/Icons/SortDescending.png "[Sort descending]") Sort descending  
   Click this entry to sort the rows in descending order.
-- ![Columns](/Assets/Icons/Columns02.png "[Columns]") Columns  
+- ![Columns](../../Assets/Icons/Columns02.png "[Columns]") Columns  
   Place the mouse on this entry to display the *Columns* sub-menu. Add or remove columns by marking or unmarking the corresponding checkbox.
 
 Depending on the settings, the displayed columns may vary. All information provided in columns is read-only.
@@ -2220,13 +2217,13 @@ Click this button to create new additional fields. The *Add* section is displaye
 - [DELETE]  
 Click this button to delete a selected address from the list.
 
-- ![Refresh](/Assets/Icons/Refresh03.png "[Refresh]")  (Refresh)  
+- ![Refresh](../../Assets/Icons/Refresh03.png "[Refresh]")  (Refresh)  
 Click this button to refresh the list after making any changes.
 
 
 **Edit**
 
-![Add additional fields](/Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/EditAdditionalFields02Edit.png "[Add additional fields]")
+![Add additional fields](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/EditAdditionalFields02Edit.png "[Add additional fields]")
 
 [comment]: <> (Beide Bilder in einem -> Snagit RS HG)
 
@@ -2294,9 +2291,9 @@ Click the drop-down list to select the applicable document. The following option
 
 **Add**
 
-![Add additional fields](/Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/EditAdditionalFields02Add.png "[Add additional fields]")
+![Add additional fields](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/EditAdditionalFields02Add.png "[Add additional fields]")
 
-![Add additional fields](/Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/EditAdditionalFields03Add.png "[Add additional fields]")
+![Add additional fields](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/EditAdditionalFields03Add.png "[Add additional fields]")
 
 [comment]: <> (Beide Bilder in einem -> Snagit RS HG)
 
@@ -2379,7 +2376,7 @@ Click this button to clear the entry lines.
 
 *Accounting > Select fiscal year > Settings > Tab DEBTORS/CREDITORS > Button Back*
 
-![Loyalty cards](/Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/LoyaltyCards.png "[Loyalty cards]")
+![Loyalty cards](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/LoyaltyCards.png "[Loyalty cards]")
 
 **Loyalty card printing**
 
@@ -2403,7 +2400,7 @@ Click this button to display a preview of the printable customer card.
 
 #### Import/export definitions
 
-![Import/export definitions](/Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/ImportExportDefinitions.png "[Import/export definitions]")
+![Import/export definitions](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/ImportExportDefinitions.png "[Import/export definitions]")
 
 **Name**
 
@@ -2428,16 +2425,16 @@ Click this button to delete an import/export definition. A confirmation window i
 **Fields in the definition**  
 This list displays all fields contained in the selected import/export definition. Use the arrow buttons to modify the fields in the list:
 
-  - ![Up](/Assets/Icons/ArrowUp.png "[Up]") (Up)  
+  - ![Up](../../Assets/Icons/ArrowUp.png "[Up]") (Up)  
 Use this button to move a selected field up in the list.
 
-  - ![Down](/Assets/Icons/ArrowDown.png "[Down]") (Down)  
+  - ![Down](../../Assets/Icons/ArrowDown.png "[Down]") (Down)  
 Use this button to move a selected field down in the list.
 
-  - ![Left](/Assets/Icons/ArrowLeft.png "[Left]") (Left)  
+  - ![Left](../../Assets/Icons/ArrowLeft.png "[Left]") (Left)  
 Use this button to move a selected field left, from the *Possible fields* list to the *Fields in the definition* list.
 
-  - ![Right](/Assets/Icons/ArrowRight.png "[Right]") (Right)  
+  - ![Right](../../Assets/Icons/ArrowRight.png "[Right]") (Right)  
 Use this button to move a selected field right, from the *Fields in the definition* list to the *Possible fields* list.
 
 **Column**  
@@ -2493,7 +2490,7 @@ Click this button to save the changes.
 
 #### New import/export definition  
 
-![New import/export definition](/Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/NewImportExportDefinition.png "[New import/export definition]")
+![New import/export definition](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/NewImportExportDefinition.png "[New import/export definition]")
 
 - *For*  
 Click the drop-down list to select the import/export definition type where the new definition will be added.  
@@ -2507,7 +2504,7 @@ Click this button to create a new import/export definition.
 
 #### Rename import/export definition  
 
-![Rename import/export definition ](/Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/RenameImportExportDefinition.png "[Rename import/export definition ]")
+![Rename import/export definition ](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/RenameImportExportDefinition.png "[Rename import/export definition ]")
 
 - *For*  
 Click the drop-down list to select the import/export definition type where the new definition will be renamed.  
@@ -2524,7 +2521,7 @@ Click this button to rename the selected import/export definition.
 
 #### Select file
 
-![Select file](/Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/SelectFile.png "[Select file]")
+![Select file](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/SelectFile.png "[Select file]")
 
 - *New documents*  
 The new uploaded documents are contained in this folder.

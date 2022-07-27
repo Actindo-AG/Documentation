@@ -1,20 +1,18 @@
-[!!Accounting](RetailSuiteAccounting)
-
 # BWA assignment
 
 *Accounting > Select fiscal year > Settings > Tab BWA ASSIGNMENT*
 
-![BWA assignment](/Assets/Screenshots/RetailSuiteAccounting/Settings/BWAAssignment/CreateBWAReport.png "[BWA assignment]")
+![BWA assignment](../../Assets/Screenshots/RetailSuiteAccounting/Settings/BWAAssignment/CreateBWAReport.png "[BWA assignment]")
 
 **Accounting reports**
 
-- ![Copy](/Assets/Icons/Copy01.png "[Copy]") (Copy) Button  
+- ![Copy](../../Assets/Icons/Copy01.png "[Copy]") (Copy) Button  
 Click this button to copy a predefined system report. The *Copy from predefined system report* window is displayed, see [Copy from predefined system report](#copy-from-predefined-system-report).
 
-- ![Refresh](/Assets/Icons/Refresh01.png "[Refresh]") (Refresh) Button  
+- ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh) Button  
 Click this button to refresh the *Accounting reports* view.
 
-- ![Columns](/Assets/Icons/Columns.png "[Columns]") (Columns) Button  
+- ![Columns](../../Assets/Icons/Columns.png "[Columns]") (Columns) Button  
 Click this button to display the column bar.
 
 - *Report number*  
@@ -33,19 +31,19 @@ Accounting report name. The report name can be edited. The following accounting 
 - (Checkbox)  
 Mark the checkbox button to select an accounting report. The toolbar is displayed:
 
-  - ![Edit](/Assets/Icons/Edit01.png "[Edit]") (Edit) Button  
+  - ![Edit](../../Assets/Icons/Edit01.png "[Edit]") (Edit) Button  
 Click this button to edit the selected accounting report. The *Edit* view is displayed, see [Edit BWA](#edit-bwa).
 
-  - ![Copy](/Assets/Icons/Copy02.png "[Copy]") (Copy) Button  
+  - ![Copy](../../Assets/Icons/Copy02.png "[Copy]") (Copy) Button  
 Click this button to copy the selected accounting report. A copy of the selected accounting report is displayed in the accounting reports list.
 
-  - ![Delete](/Assets/Icons/Trash03.png "[Delete]") (Delete) Button  
-Click this button to delete the selected accounting report. For detailed information about deleting a BWA report, see [Delete a BWA report](/RetailSuiteAccounting/Integration/07_ManageBWAReports.md#delete-a-bwa-report).
+  - ![Delete](../../Assets/Icons/Trash03.png "[Delete]") (Delete) Button  
+Click this button to delete the selected accounting report. For detailed information about deleting a BWA report, see [Delete a BWA report](../Integration/07_ManageBWAReports.md#delete-a-bwa-report).
 
     > [Warning] Be aware that the selected BWA report will be deleted permanently.
 
 
-- ![Add](/Assets/Icons/Plus01.png "[Add]") (Add) Button  
+- ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) Button  
 Click this button to create an accounting report. The *Create* view is displayed, see [Create BWA](#create-bwa).
 
 
@@ -55,8 +53,8 @@ Click the drop-down list to select the number of rows to be displayed per page.
 - *[x-x] of [x]*  
 This text displays the number of accounting reports currently displayed and the total number of accounting reports in the list. This text is read-only.
 
-- ![First page](/Assets/Icons/FirstPage03.png "[First page]") - ![Last page](/Assets/Icons/LastPage03.png "[Last page]") (First page) - (Last page)  
- ![Previous page](/Assets/Icons/PreviousPage02.png "[Previous page]") - ![Next page](/Assets/Icons/NextPage02.png "[Next page]") (Previous page) - (Next page)  
+- ![First page](../../Assets/Icons/FirstPage03.png "[First page]") - ![Last page](../../Assets/Icons/LastPage03.png "[Last page]") (First page) - (Last page)  
+ ![Previous page](../../Assets/Icons/PreviousPage02.png "[Previous page]") - ![Next page](../../Assets/Icons/NextPage02.png "[Next page]") (Previous page) - (Next page)  
 Click these buttons to navigate the accounting reports list.
 
 
@@ -65,7 +63,7 @@ Click these buttons to navigate the accounting reports list.
 
 *Accounting > Select fiscal year > Settings > Tab BWA ASSIGNMENT > Button Copy*
 
-![Copy predefined system report](/Assets/Screenshots/RetailSuiteAccounting/Settings/BWAAssignment/CopyPredefinedReport.png "[Copy predefined system report]")
+![Copy predefined system report](../../Assets/Screenshots/RetailSuiteAccounting/Settings/BWAAssignment/CopyPredefinedReport.png "[Copy predefined system report]")
 
 - *Report name*  
 Click the drop-down list to select the predefined system report to be copied. The following options are available:
@@ -88,9 +86,9 @@ Click this button to copy the selected system report. A copy of the selected acc
 
 *Accounting > Select fiscal year > Settings > Tab BWA ASSIGNMENT > Button Add*
 
-![Create BWA report](/Assets/Screenshots/RetailSuiteAccounting/Settings/BWAAssignment/CreateBWAReport02.png "[Create BWA report]")
+![Create BWA report](../../Assets/Screenshots/RetailSuiteAccounting/Settings/BWAAssignment/CreateBWAReport02.png "[Create BWA report]")
 
-- ![Back](/Assets/Icons/Back02.png "[Back]") (Back) *Create*   
+- ![Back](../../Assets/Icons/Back02.png "[Back]") (Back) *Create*   
 Click this button to close the *Create* view and return to the *Accounting reports* view.
 
 - *Report name*  
@@ -100,7 +98,7 @@ Enter a report name.
 Click this button to cancel the process. The *Create* view is closed and the *Accounting reports* view is displayed again.
 
 - [SAVE]  
-Click this button to save the accounting report. The newly created accounting report is displayed in the accounting reports list. For detailed information about creating a BWA report, see [Create a BWA report](/RetailSuiteAccounting/Integration/07_ManageBWAReports.md#create-a-bwa-report).
+Click this button to save the accounting report. The newly created accounting report is displayed in the accounting reports list. For detailed information about creating a BWA report, see [Create a BWA report](../Integration/07_ManageBWAReports.md#create-a-bwa-report).
 
 
 
@@ -108,10 +106,10 @@ Click this button to save the accounting report. The newly created accounting re
 
 *Accounting > Select fiscal year > Settings > Tab BWA ASSIGNMENT > Select accounting report*
 
-![Edit BWA report](/Assets/Screenshots/RetailSuiteAccounting/Settings/BWAAssignment/EditBWAReport02.png "[Edit BWA report]")
+![Edit BWA report](../../Assets/Screenshots/RetailSuiteAccounting/Settings/BWAAssignment/EditBWAReport02.png "[Edit BWA report]")
 
 
-- ![Back](/Assets/Icons/Back02.png "[Back]") (Back) *Edit*  
+- ![Back](../../Assets/Icons/Back02.png "[Back]") (Back) *Edit*  
 Click this button to close the *Edit* view and return to the *Accounting reports* view.
 
 - *Report name*  
@@ -121,43 +119,43 @@ Edit the report name if necessary.
 Click this button to cancel the process. The *Edit* view is closed and the *Accounting reports* view is displayed again.
 
 - [SAVE]  
-Click this button to save the changes made in the accounting report. For detailed information about editing a BWA report, see [Edit a BWA report](/RetailSuiteAccounting/Integration/07_ManageBWAReports.md#edit-a-bwa-report).
+Click this button to save the changes made in the accounting report. For detailed information about editing a BWA report, see [Edit a BWA report](../Integration/07_ManageBWAReports.md#edit-a-bwa-report).
 
 
 **Accounting report lines**
 
 - **Newly created report**
 
-  ![Add report lines](/Assets/Screenshots/RetailSuiteAccounting/Settings/BWAAssignment/CreateReportLines01.png "[Add report lines]")
+  ![Add report lines](../../Assets/Screenshots/RetailSuiteAccounting/Settings/BWAAssignment/CreateReportLines01.png "[Add report lines]")
 
-  > [Info] If the accounting report has been newly created, that means, it is not a copy of a predefined BWA report, the *Accounting report lines* section is empty. The message *No report lines created. Use + button to create one* is displayed. Click the ![Add](/Assets/Icons/Plus01.png "[Add]") (Add) button to add accounting report lines. The *Create* section is displayed, see [Create report lines](#create-report-lines).
+  > [Info] If the accounting report has been newly created, that means, it is not a copy of a predefined BWA report, the *Accounting report lines* section is empty. The message *No report lines created. Use + button to create one* is displayed. Click the ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) button to add accounting report lines. The *Create* section is displayed, see [Create report lines](#create-report-lines).
 
 
 - **Report copied from a predefined system report**
 
-  ![Edit report lines](/Assets/Screenshots/RetailSuiteAccounting/Settings/BWAAssignment/EditBWAReport02.png "[Edit report lines]")
+  ![Edit report lines](../../Assets/Screenshots/RetailSuiteAccounting/Settings/BWAAssignment/EditBWAReport02.png "[Edit report lines]")
 
   > [Info] If the accounting report is a copy of a predefined system report, the *Accounting report lines* section contains a number of lines. These lines can be edited or deleted.
 
 
-  - ![Refresh](/Assets/Icons/Refresh01.png "[Refresh]") (Refresh) Button  
+  - ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh) Button  
   Click this button to refresh the *Accounting report lines* view.
 
-  - ![Columns](/Assets/Icons/Columns.png "[Columns]") (Columns) Button  
+  - ![Columns](../../Assets/Icons/Columns.png "[Columns]") (Columns) Button  
   Click this button to display the column bar.
 
   - (Checkbox)  
   Click this button to select an accounting report line. The toolbar is displayed:
 
-    - ![Edit](/Assets/Icons/Edit01.png "[Edit]") (Edit) Button  
+    - ![Edit](../../Assets/Icons/Edit01.png "[Edit]") (Edit) Button  
   Click this button to edit the selected accounting report line. The *Edit* view is displayed, see [Edit report lines](edit-report-lines).
 
-    - ![Delete](/Assets/Icons/Trash03.png "[Delete]") (Delete) Button  
+    - ![Delete](../../Assets/Icons/Trash03.png "[Delete]") (Delete) Button  
   Click this button to delete the selected accounting report line.
 
       > [Warning] Be aware that the selected accounting report line will be deleted permanently.
 
-  The accounting report lines are displayed in column view. These fields are read-only. Select a checkbox to the left of an accounting report line and click the ![Edit](/Assets/Icons/Edit01.png "[Edit]") (Edit) button to edit it. Alternatively, click on a report line to display the *Edit* view, see [Edit report lines](#edit-report-lines).
+  The accounting report lines are displayed in column view. These fields are read-only. Select a checkbox to the left of an accounting report line and click the ![Edit](../../Assets/Icons/Edit01.png "[Edit]") (Edit) button to edit it. Alternatively, click on a report line to display the *Edit* view, see [Edit report lines](#edit-report-lines).
 
   - *Line number*  
     Line number as predefined in the system report.
@@ -193,7 +191,7 @@ Click this button to save the changes made in the accounting report. For detaile
   Report line identification number. This value is automatically defined by the system.
 
 
-  - ![Add](/Assets/Icons/Plus01.png "[Add]") (Add) Button  
+  - ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) Button  
   Click this button to create an accounting report line. The *Create* view is displayed, see [Create report lines](#create-report-lines).
 
 
@@ -203,8 +201,8 @@ Click this button to save the changes made in the accounting report. For detaile
   - *[x-x] of [x]*  
   This text displays the number of accounting reports currently displayed and the total number of accounting reports in the list. This text is read-only.
 
-  - ![First page](/Assets/Icons/FirstPage03.png "[First page]") - ![Last page](/Assets/Icons/LastPage03.png "[Last page]") (First page) - (Last page)  
-   ![Previous page](/Assets/Icons/PreviousPage02.png "[Previous page]") - ![Next page](/Assets/Icons/NextPage02.png "[Next page]") (Previous page) - (Next page)  
+  - ![First page](../../Assets/Icons/FirstPage03.png "[First page]") - ![Last page](../../Assets/Icons/LastPage03.png "[Last page]") (First page) - (Last page)  
+   ![Previous page](../../Assets/Icons/PreviousPage02.png "[Previous page]") - ![Next page](../../Assets/Icons/NextPage02.png "[Next page]") (Previous page) - (Next page)  
   Click these buttons to navigate the accounting reports list.
 
 
@@ -212,12 +210,12 @@ Click this button to save the changes made in the accounting report. For detaile
 
 *Accounting > Select fiscal year > Settings > Tab BWA ASSIGNMENT > Select accounting report > Button Add*
 
-![Create report lines](/Assets/Screenshots/RetailSuiteAccounting/Settings/BWAAssignment/CreateReportLines.png "[Create report lines]")
+![Create report lines](../../Assets/Screenshots/RetailSuiteAccounting/Settings/BWAAssignment/CreateReportLines.png "[Create report lines]")
 
 
 **Create**
 
-- ![Back](/Assets/Icons/Back02.png "[Back]") (Back) *Create*   
+- ![Back](../../Assets/Icons/Back02.png "[Back]") (Back) *Create*   
 Click this button to close the *Create* view and return to the *Accounting report lines* view.
 
 
@@ -269,7 +267,7 @@ Enter the applicable formula. This field becomes active when selecting **Calcula
 
 - *Percent / Columns*
 
-  - ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") (Toggle) Button  
+  - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") (Toggle) Button  
   Active this toggle to apply a specific formula in a column. Up to 4 percent/columns can be added per line.
 
   - *Formula*  
@@ -293,12 +291,12 @@ Click this button to save the created report lines. The newly creaed accounting 
 
 *Accounting > Select fiscal year > Settings > Tab BWA ASSIGNMENT > Select accounting report > Select accounting report line > Button Edit*
 
-![Edit report lines](/Assets/Screenshots/RetailSuiteAccounting/Settings/BWAAssignment/EditReportLines02.png "[Edit report lines]")
+![Edit report lines](../../Assets/Screenshots/RetailSuiteAccounting/Settings/BWAAssignment/EditReportLines02.png "[Edit report lines]")
 
 
 **Edit**
 
-- ![Back](/Assets/Icons/Back02.png "[Back]") (Back) *Edit*   
+- ![Back](../../Assets/Icons/Back02.png "[Back]") (Back) *Edit*   
 Click this button to close the *Edit* view and return to the *Accounting report lines* view.
 
 
@@ -350,7 +348,7 @@ Modify the applicable formula, if necessary. This field becomes active when sele
 
 - *Percent / Columns*
 
-  - ![Toggle](/Assets/Icons/Toggle.png "[Toggle]") (Toggle) Button  
+  - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") (Toggle) Button  
   Activate or deactivate this toggle as necessary to apply or not a specific formula in a column. Up to 4 percent/columns can be added per line.
 
   - *Formula*  

@@ -1,20 +1,18 @@
-[!!Accounting](RetailSuiteAccounting)
-
 # Fixed bookings
 
 *Accounting > Select fiscal year > Settings > Tab FIX BOOKINGS*
 
-![Fixed bookings](/Assets/Screenshots/RetailSuiteAccounting/Settings/FixedBookings/CreateFixedBookingBatch.png "[Fixed bookings]")
+![Fixed bookings](../../Assets/Screenshots/RetailSuiteAccounting/Settings/FixedBookings/CreateFixedBookingBatch.png "[Fixed bookings]")
 
 
 - *Fixed booking batch*  
-Click the drop-down list to select a specific batch to be edited or **New batch** to create a new one. The **New batch** option is selected by default. For detailed information about creating a new batch, see [Create a fixed booking batch](/RetailSuiteAccounting/Integration/06_ManageFixedBookings.md#create-a-fixed-booking-batch).
+Click the drop-down list to select a specific batch to be edited or **New batch** to create a new one. The **New batch** option is selected by default. For detailed information about creating a new batch, see [Create a fixed booking batch](../Integration/06_ManageFixedBookings.md#create-a-fixed-booking-batch).
 
 - *Name*  
 Enter a batch name. When selecting an existing batch, this field is not displayed.
 
 - [DELETE]  
-Click this button to delete a selected fixed booking batch. For detailed information about deleting a new batch, see [Delete a fixed booking batch](/RetailSuiteAccounting/Integration/06_ManageFixedBookings.md#delete-a-fixed-booking-batch).
+Click this button to delete a selected fixed booking batch. For detailed information about deleting a new batch, see [Delete a fixed booking batch](../Integration/06_ManageFixedBookings.md#delete-a-fixed-booking-batch).
 
 - [CREATE]  
 Click this button to create a fixed booking batch. The *Fixed booking batch name* window is displayed, see [Fixed booking batch name](#fixed-booking-batch-name).
@@ -27,7 +25,7 @@ Click this button to edit a fixed booking batch. The *Fixed booking batch name* 
 
 *Accounting > Select fiscal year > Settings > Tab FIX BOOKINGS > Select batch*
 
-![Fixed booking batch name](/Assets/Screenshots/RetailSuiteAccounting/Settings/FixedBookings/FixedBookingBatch.png "[Fixed booking batch name]")
+![Fixed booking batch name](../../Assets/Screenshots/RetailSuiteAccounting/Settings/FixedBookings/FixedBookingBatch.png "[Fixed booking batch name]")
 
 
 - *Seq. no.*  
@@ -36,12 +34,12 @@ Booking number. The booking numbers must be sequential and are added by the syst
 - *BP*  
 Booking period. This value is set to zero here by default.  
 
-  > [Info] The fixed bookings can be added to a specific booking period when selecting the fiscal year, see [Select the fiscal year](/RetailSuiteAccounting/Operation/01_SelectFiscalYear.md).
+  > [Info] The fixed bookings can be added to a specific booking period when selecting the fiscal year, see [Select the fiscal year](../Operation/01_SelectFiscalYear.md).
 
 - *Jnl*  
 Journal. This value is set to zero here by default.  
 
-  > [Info] The fixed bookings can be added to a specific journal when selecting the fiscal year, see [Select the fiscal year](/RetailSuiteAccounting/Operation/01_SelectFiscalYear.md).
+  > [Info] The fixed bookings can be added to a specific journal when selecting the fiscal year, see [Select the fiscal year](../Operation/01_SelectFiscalYear.md).
 
 - *Turnover*  
 Booking turnover value.  
@@ -120,10 +118,10 @@ Enter a reference text, if necessary.
 
 
 - [BOOK]  
-Click this button to register a fixed booking in the batch. For detailed information about creating or editing a fixed booking, see [Create a fixed booking](/RetailSuiteAccounting/Integration/06_ManageFixedBookings.md#create-a-fixed-booking) and [Edit a fixed booking](/RetailSuiteAccounting/Integration/06_ManageFixedBookings.md#edit-a-fixed-booking).
+Click this button to register a fixed booking in the batch. For detailed information about creating or editing a fixed booking, see [Create a fixed booking](../Integration/06_ManageFixedBookings.md#create-a-fixed-booking) and [Edit a fixed booking](../Integration/06_ManageFixedBookings.md#edit-a-fixed-booking).
 
 - [DELETE]  
-Click this button to delete a fixed booking from the batch. For detailed information about deleting a fixed booking, see [Delete a fixed booking](/RetailSuiteAccounting/Integration/06_ManageFixedBookings.md#delete-a-fixed-booking).
+Click this button to delete a fixed booking from the batch. For detailed information about deleting a fixed booking, see [Delete a fixed booking](../Integration/06_ManageFixedBookings.md#delete-a-fixed-booking).
 
 - [CLEAR]  
 Click this button to clear all entry fields.
