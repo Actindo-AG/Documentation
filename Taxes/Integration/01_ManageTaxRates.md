@@ -36,7 +36,7 @@ Create a new tax rate to cover a specific tax regime.
 
 2. Enter the applicable tax rate in the *Tax rate* field.  
 
-3. Enter the applicable tax key in the *Tax key* field. The tax keys can be checked, created, edited and deleted in the *Accounting* module, see [Manage the tax keys](../../../../RetailSuiteAccounting/Integration/02_ManageTaxKeys.md).
+3. Enter the applicable tax key in the *Tax key* field. The tax keys can be checked, created, edited and deleted in the *Accounting* module, see [Manage the tax keys](../../RetailSuiteAccounting/Integration/02_ManageTaxKeys.md).
 
 [comment]: <> (Check with FH why tax keys are necessary here. You can save the tax rate without tax key. Does the Taxes module interact somehow with the Accounting module? Or does it affect performance with Fakturierung, if no tax key or a wrong tax key, z.B. already in use with other tax rate/Steuersatz, is used? Or does it affect bookings/posting in Accounting?)
 
