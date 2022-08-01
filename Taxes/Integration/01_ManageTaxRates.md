@@ -38,7 +38,9 @@ Create a new tax rate to cover a specific tax regime.
 
 3. Enter the applicable tax key in the *Tax key* field. The tax keys can be checked, created, edited and deleted in the *Accounting* module, see [Manage the tax keys](../../RetailSuiteAccounting/Integration/02_ManageTaxKeys.md).
 
-[comment]: <> (Check with FH why tax keys are necessary here. You can save the tax rate without tax key. Does the Taxes module interact somehow with the Accounting module? Or does it affect performance with Fakturierung, if no tax key or a wrong tax key, z.B. already in use with other tax rate/Steuersatz, is used? Or does it affect bookings/posting in Accounting?)
+  > [Info] Choosing the right tax key is essential for the automatic booking function in the *Accounting* module, as the *Taxes* module provides the *Invoicing* module with the configured tax key, which is turn is used by the *Invoicing* module to book the transaction in the *Accounting* module.
+
+[comment]: <> (Check with FH if this is correct. It is possible to save the tax rate without tax key. How does it affect performance with Fakturierung, if no tax key or a wrong tax key, z.B. already in use with other tax rate/Steuersatz, is used? Does it affect bookings/posting in Accounting? Does the system give an error message? Or does it simply not work/book automatically the transaction?)
 
 4. Click the *Tax zone* drop-down list and select the appropriate tax zone.
 
