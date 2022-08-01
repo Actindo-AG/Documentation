@@ -27,12 +27,12 @@ Create a new tax rate to cover a specific tax regime.
 
 *Taxes > Settings > Tab TAX RATES*
 
-![Tax rates](../../Assets/Screenshots/Taxes/Settings/TaxRates.png "[Tax rates]")
+![Tax rates](../../Assets/Screenshots/Taxes/Settings/TaxRates/TaxRates.png "[Tax rates]")
 
 1. Click the ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) button in the bottom right corner.   
   A new data entry window is displayed.  
 
-  ![Create a tax rate](../../Assets/Screenshots/Taxes/Settings/CreateTaxRate.png "[Create a tax rate]")
+  ![Create a tax rate](../../Assets/Screenshots/Taxes/Settings/TaxRates/CreateTaxRate.png "[Create a tax rate]")
 
 2. Enter the applicable tax rate in the *Tax rate* field.  
 
@@ -64,12 +64,12 @@ A tax rate is created, see [Create a tax rate](#create-a-tax-rate).
 
 *Taxes > Settings > Tab TAX RATES*
 
-![Tax rates](../../Assets/Screenshots/Taxes/Settings/TaxRates.png "[Tax rates]")
+![Tax rates](../../Assets/Screenshots/Taxes/Settings/TaxRates/TaxRates.png "[Tax rates]")
 
 1. Click the tax rate to be edited in the tax rate list.  
 The data entry window is displayed.
 
-  ![Edit tax rate](../../Assets/Screenshots/Taxes/Settings/EditTaxRate.png "[Edit tax rate]")
+  ![Edit tax rate](../../Assets/Screenshots/Taxes/Settings/TaxRates/EditTaxRate.png "[Edit tax rate]")
 
 2. Edit the desired data in the corresponding field(s).
 
@@ -95,7 +95,7 @@ A tax rate is created, see [Create a tax rate](#create-a-tax-rate).
 
 *Taxes > Settings > Tab TAX RATES*
 
-![Tax rates](../../Assets/Screenshots/Taxes/Settings/TaxRates.png "[Tax rates]")
+![Tax rates](../../Assets/Screenshots/Taxes/Settings/TaxRates/TaxRates.png "[Tax rates]")
 
 1. Select the tax rate to be deleted by clicking the checkbox on the left.  
 The editing toolbar is displayed.
