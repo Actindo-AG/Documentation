@@ -8,23 +8,23 @@
 
 # Manage the decision matrix
 
-The decision tax matrix is designed to help the system decide which tax zone is to be applied. The decision matrix consist of a list of decision-making criteria based on the information provided by the *Invoicing* module.
+The decision tax matrix is designed to help the system decide which tax zone, and therefore which tax rate, is to be applied. The decision matrix consist of a list of decision-making criteria based on the information provided by the *Invoicing* module.
 
-Based on the order confirmation and the delivery note, the *Invoicing* module provides the *Taxes* module with following information:
+Taking into account the order confirmation and the delivery note, the *Invoicing* module provides the *Taxes* module with following details:
 
 - Country of origin
 - Ship-to country
 - Ship-to postcode
 - VAT ID
 
-Based on this criteria, the decision matrix is able to determine the applicable tax zone, subsequently providing the *Invoicing* module with the tax zone, the tax key and the tax rate.  
+Using this information, the decision matrix is able to determine the tax zone, subsequently providing the *Invoicing* module with the applicable tax key and tax rate as well.  
 
-The order of the decision-making criteria is essential, as the system goes through the criteria in the order they are given, starting from the top, and stops checking as soon as a matching criteria is found. This means, that the criteria must be organized from the most specific to the most general to cover all possible relevant cases.
+The order of the decision-making criteria is essential, as the system goes through the criteria in the order they are listed, starting from the top, and stops checking them as soon as a matching criterion is found. This means, that the criteria must be organized from specific to general to cover all possible relevant cases.
 
 
 ## Create an entry
 
-Create a
+Create an entry to define a new tax zone.
 
 #### Prerequisites  
 
@@ -35,7 +35,12 @@ Create a
 
 *Taxes > Settings > Tab DECISION MATRIX*
 
+1. Click the ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) button in the upper left corner.   
+  A new data entry line is displayed.
 
+2. Click the *VAT ID* drop-down list and select the appropriate option (**Yes/No**).
+
+  > [Info] This field refers to the end customer VAT ID. If the end customer is a private individual, no VAT ID is needed (business-to-customer transaction). If the end customer is a company (business-to-business transaction), the VAT ID number is needed. 
 
 
 ## Edit an entry
