@@ -1,6 +1,6 @@
 [!!Accounting](RetailSuiteAccounting)  
 [!!Fakturierung](RetailSuiteFaktBase)  
-[!!User Interface tax rates](../UserInterface/XX_TaxRates.md)  
+[!!User Interface Tax rates](../UserInterface/XX_TaxRates.md)  
 [!!Manage the tax classes](./02_ManageTaxClasses.md)  
 [!!Manage the tax zones](./03_ManageTaxZones.md)  
 
@@ -11,7 +11,7 @@ Generally speaking, a tax rate is the percentage to which a product is taxed and
 
 Tax rates can be created, edited and deleted to adapt the automatic taxation feature to the customer's specific and changing needs.
 
-[comment]: <> (Work in progress!) 
+[comment]: <> (Work in progress!)
 
 ## Create a tax rate
 
