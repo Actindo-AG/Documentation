@@ -1,17 +1,14 @@
 [!!Accounting](RetailSuiteAccounting)  
 [!!Fakturierung](RetailSuiteFaktBase)  
-[!!User Interface tax zones](../UserInterface/XX_TaxZones.md)  
+[!!User Interface Tax zones](../UserInterface/XX_TaxZones.md)  
 [!!Manage the tax rates](./01_ManageTaxRates.md)  
 [!!Manage the tax classes](./01_ManageTaxClasses.md)  
 [!!Manage the decision matrix](../Operation/01_ManageDecisionMatrix.md)  
 
 
-
 # Manage the tax zones
 
 Tax zones are essential to determine where a specific tax rate is to be applied. The applicable tax zone depends on several factors, such as the country where the selling company is based, the country where the product is to be shipped from, and the country where the product is to be shipped to.
-
-[comment]: <> (Work in progress!)
 
 The default configuration includes three tax zones:
 
@@ -23,10 +20,14 @@ The default configuration includes three tax zones:
 
 Next to the configured tax zone, a VAT ID (value-added-tax identification number) can be added. The VAT ID number is an identifier used by companies operating in the European Union for value-added-tax purposes. VAT ID numbers can be verified at the EU's [VIES](https://ec.europa.eu/taxation_customs/vies/) (VAT Information Exchange System) official website.
 
+Tax zones can be created, edited and deleted to configure the automatic taxation feature according to the customer's business needs.
+
+[comment]: <> (Work in progress!)
+
 
 ## Create a tax zone
 
-Create a new tax zone to define a territory where a specific tax rate is to be applied.
+Create a tax zone to define a territory where a specific tax rate is to be applied.
 
 #### Prerequisites  
 
@@ -54,7 +55,9 @@ No prerequisites to fulfill.
 6. Click the [SAVE] button.  
   A pop-up window confirms that the changes have been saved. The newly created tax zone is displayed in the *Tax zone* drop-down list in the *TAX RATES* tab.
 
-  > [Info] It may be necessary to refresh the list view to display the changes made. To do so, click the ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh) button in the upper right corner.
+  ![Changes saved](../../Assets/Screenshots/Taxes/Settings/TaxClasses/ChangesSaved.png "[Changes saved]")
+
+7. Refresh the list view in the *TAX RATES* tab to display the changes made. To do so, click the ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh) button in the upper right corner.
 
 
 ## Edit a tax zone
@@ -79,7 +82,9 @@ A tax zone is created, see [Create a tax zone](#create-a-tax-zone).
 3. Click the [SAVE] button.  
   A pop-up window confirms that the changes have been saved. The edited tax zone is displayed in the *Tax zone* drop-down list in the *TAX RATES* tab.
 
-  > [Info] It may be necessary to refresh the list view to display the changes made. To do so, click the ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh) button in the upper right corner.
+  ![Changes saved](../../Assets/Screenshots/Taxes/Settings/TaxClasses/ChangesSaved.png "[Changes saved]")
+
+4. Refresh the list view in the *TAX RATES* tab to display the changes made. To do so, click the ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh) button in the upper right corner.
 
 
 ## Delete a tax zone
@@ -108,6 +113,8 @@ A tax zone is created, see [Create a tax zone](#create-a-tax-zone).
 3. Click the [SAVE] button.  
   The changes are saved. The deleted tax zone will no longer be displayed in the *Tax zone* drop-down list in the *TAX RATES* tab.
 
-  > [Info] It may be necessary to refresh the list view to display the changes made. To do so, click the ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh) button in the upper right corner.
+  ![Changes saved](../../Assets/Screenshots/Taxes/Settings/TaxClasses/ChangesSaved.png "[Changes saved]")
+
+4. Refresh the list view in the *TAX RATES* tab to display the changes made. To do so, click the ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh) button in the upper right corner.
 
 [comment]: <> (SAVE necessary to save changes, that is, for changes to be displayed in the drop-down list in TAX ZONES? RS FH/JS. At the moment -01.08.22.- not working.)
