@@ -15,7 +15,7 @@ Tax rates can be created, edited and deleted to adapt the automatic taxation fea
 
 ## Create a tax rate
 
-Create a new tax rate to cover a specific tax regime.
+Create a tax rate to cover a specific tax regime.
 
 #### Prerequisites  
 
