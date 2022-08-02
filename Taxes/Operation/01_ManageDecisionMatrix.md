@@ -40,8 +40,13 @@ Create an entry to define a new tax zone.
 
 2. Click the *VAT ID* drop-down list and select the appropriate option (**Yes/No**).
 
-  > [Info] This field refers to the end customer VAT ID. If the end customer is a private individual, no VAT ID is needed (business-to-customer transaction). If the end customer is a company (business-to-business transaction), the VAT ID number is needed. 
+  > [Info] This field refers to the end customer VAT ID. If the end customer is a private individual, no VAT ID is needed (business-to-customer transaction). If the end customer is a company (business-to-business transaction), the VAT ID number is needed.
 
+3. Click the *Country of origin* drop-down list(s) and select the appropriate option(s). Use the left drop-down list to select a group of countries and the right one to select an individual country.
+
+  > {Info] The current version only provides the **EU - European Union** as a group of countries. When a group of countries is selected, the right drop-down list is grayed out.
+
+4. Click the *Ship-to country* drop-down list(s) and select the appropriate option(s). The same principle applies
 
 ## Edit an entry
 
