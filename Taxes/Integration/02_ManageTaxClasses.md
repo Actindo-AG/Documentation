@@ -44,13 +44,13 @@ No prerequisites to fulfill.
 5. Refresh the list view in the *TAX RATES* tab to display the changes made. To do so, click the ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh) button in the upper right corner.
 
 
-## Edit a tax rate
+## Edit a tax class
 
-Edit a tax class name if necessary.
+Edit a tax class to modify its name.
 
 #### Prerequisites
 
-A tax class is created, see [Create a tax rate](#create-a-tax-class).
+A tax class is created, see [Create a tax class](#create-a-tax-class).
 
 #### Procedures
 
@@ -71,7 +71,7 @@ A tax class is created, see [Create a tax rate](#create-a-tax-class).
 4. Refresh the list view in the *TAX RATES* tab to display the changes made. To do so, click the ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh) button in the upper right corner.
 
 
-## Delete a tax rate
+## Delete a tax class
 
 Delete a tax class that is no longer applicable.  
 
