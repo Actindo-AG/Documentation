@@ -249,7 +249,7 @@ After you have created your SSH Key and configured the Git Bash terminal, you ca
 
 The following scheme shows the documentation workflow via Git and JIRA. Each step is described in detail in the following chapters.
 
-![Git and JIRA workflow](./Assets/GitJIRAWorkflow.jpg "[Git and JIRA workflow]")
+![Git and JIRA workflow](./Assets/GitJiraWorkflow.jpg "[Git and JIRA workflow]")
 
 To start your documentation, you need to prepare as described below.
 
@@ -435,11 +435,3 @@ When a review is finished without further comments, the branch with the pull req
   The branch is merged into the main branch.
 
 > [Info] Note that you should merge the changes on your main branch into your other feature branches.
-
-
-
-> [Note] Test
-
-> [Caution] Test
-
-> [Attention] Test
