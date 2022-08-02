@@ -16,7 +16,7 @@ There are two main tax classes in most territories: the standard and the reduced
 
 ## Create a tax class
 
-Create a new tax class to be assigned to a product or group of products.
+Create a tax class to be assigned to a product or group of products.
 
 #### Prerequisites  
 
