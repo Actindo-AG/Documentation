@@ -111,7 +111,7 @@ A tax zone is created, see [Create a tax zone](#create-a-tax-zone).
   The tax zone is deleted from the list.
 
 3. Click the [SAVE] button.  
-  The changes are saved. The deleted tax zone will no longer be displayed in the *Tax zone* drop-down list in the *TAX RATES* tab.
+  A pop-up window confirms that the changes have been saved. The deleted tax zone will no longer be displayed in the *Tax zone* drop-down list in the *TAX RATES* tab.
 
   ![Changes saved](../../Assets/Screenshots/Taxes/Settings/TaxClasses/ChangesSaved.png "[Changes saved]")
 
