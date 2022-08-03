@@ -6,7 +6,7 @@
 
 The *TAX RATES* tab displays a list of all available tax rates. The default configuration covers all standard cases for a company based in Germany delivering within the European Union.
 
-New tax rates can be created, edited and deleted to adapt the system to the customer's needs, also dealing with special tax regimes within or outside the European Union. For detailed information about creating, editing or deleting tax rates, see [Manage the tax rates](../Integration/01_ManageTaxRates.md).
+Tax rates can be created, edited and deleted to adapt the system to the customer's needs, also dealing with special tax regimes within or outside the European Union. For detailed information about creating, editing or deleting tax rates, see [Manage the tax rates](../Integration/01_ManageTaxRates.md).
 
 
 **List**
