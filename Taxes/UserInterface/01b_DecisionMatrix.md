@@ -21,27 +21,36 @@ Select this option to use a wildcard; any value is accepted.
 - *Country of origin*  
 Country where the product is shipped from.
 
-  - Click the drop down-list on the left to select a group of countries. The following options are available:  
+  - Click the drop down-list on the left to select a group of countries. The following options are available:
+
     - **EU - European Union**  
-    Only group of countries available in the present version.
-    - **Any**
+    Only group of countries available in the present version. When selecting this option, the drop-down list on the right is grayed out.
+    - **Any**  
+    Select this option if you want to specify a individual country.
 
-  - Click the drop-down list on the right to select an individual country.
-
-
-
+  - Click the drop-down list on the right to select a specific country.  
 
 - *Ship-to country*  
+Country where the product is shipped to.
 
-  - **EU - European Union**
-  - **Any**
+  - Click the drop down-list on the left to select a group of countries. The following options are available:
 
+    - **EU - European Union**  
+    Only group of countries available in the present version. When selecting this option, the drop-down list on the right is grayed out.
+    - **Any**  
+    Select this option if you want to specify a individual country.
+
+  - Click the drop-down list on the right to select a specific country.  
 
 - *Ship-to postcode*  
+Specific area within a country or territory where the product is shipped to.
 
-  - **Range**
-  - **Regex**
+  - Click the drop down-list on the left and select the appropriate option. The following options are available:
 
+    - **Range**: Select this option to enter a postcode range, for example, 27498-27498 to limit the criterion to a specific target area.
+    - **Regex**: Select this option to use regular expressions to specify postcodes containing alphanumeric characters, for example /^BT.*/.  
+
+  - Enter the applicable range or regular expression.
 
 - *Net value of goods smaller than*  
 
