@@ -31,7 +31,7 @@ Country where the product is shipped from.
   - Click the drop-down list on the right to select a specific country.  
 
 - *Ship-to country*  
-Country where the product is shipped to.
+Country where the product is to be shipped to.
 
   - Click the drop down-list on the left to select a group of countries. The following options are available:
 
@@ -43,7 +43,7 @@ Country where the product is shipped to.
   - Click the drop-down list on the right to select a specific country.  
 
 - *Ship-to postcode*  
-Specific area within a country or territory where the product is shipped to.
+Specific area within a country or territory where the product is to be shipped to.
 
   - Click the drop down-list on the left and select the appropriate option. The following options are available:
 
