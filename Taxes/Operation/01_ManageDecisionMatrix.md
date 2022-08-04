@@ -60,11 +60,10 @@ Create an entry to define a new tax zone.
 7. Click the *Tax zone* drop-down list and select the applicable tax zone.
 
 8. Click the [SAVE] button.  
-A pop-up window confirms that the changes have been saved. The new entry has been saved.
+A pop-up window confirms that the decision matrix has been saved. The new entry has been saved.
 
-  ![Changes saved](../../Assets/Screenshots/Taxes/Settings/TaxClasses/ChangesSaved.png "[Changes saved]")
+  ![Decision matrix saved](../../Assets/Screenshots/Taxes/Settings/DecisionMatrix/DecisionMatrixSaved.png "[Decision matrix saved]")
 
-[comment]: <> (Vermutetes Verhalten. SAVE not working -> You need to specify both the currency AND the minimum required value for a rule... 03.08.22)
 
 
 ## Edit an entry
@@ -99,11 +98,9 @@ The option **Any** (wildcard) is displayed in the field.
 7. To modify the entry position in the matrix, click the ![Drag](../../Assets/Icons/Points03.png "[Drag]") (Drag) button to the left of the entry line, move the entry the a different position with the left mouse button pressed and drop it in the desired position by releasing the mouse button.   
 
 8. Click the [SAVE] button.  
-A pop-up window confirms that the changes have been saved.
+A pop-up window confirms that the decision matrix has been saved. The new entry has been saved.
 
-  ![Changes saved](../../Assets/Screenshots/Taxes/Settings/TaxClasses/ChangesSaved.png "[Changes saved]")
-
-[comment]: <> (Vermutetes Verhalten. SAVE not working -> You need to specify both the currency AND the minimum required value for a rule... 03.08.22)
+  ![Decision matrix saved](../../Assets/Screenshots/Taxes/Settings/DecisionMatrix/DecisionMatrixSaved.png "[Decision matrix saved]")
 
 
 ## Delete an entry
@@ -130,11 +127,9 @@ An entry in the decision matrix is created, see [Create an entry](#create-an-ent
   The entry is deleted from the list.
 
 3. Click the [SAVE] button.  
-  A pop-up window confirms that the changes have been saved.
+A pop-up window confirms that the decision matrix has been saved. The new entry has been saved.
 
-  ![Changes saved](../../Assets/Screenshots/Taxes/Settings/TaxClasses/ChangesSaved.png "[Changes saved]")
-
-[comment]: <> (Vermutetes Verhalten. SAVE not working -> Method not found message. 02.08.22)
+  ![Decision matrix saved](../../Assets/Screenshots/Taxes/Settings/DecisionMatrix/DecisionMatrixSaved.png "[Decision matrix saved]")
 
 
 ## Define a tax delivery threshold
@@ -197,11 +192,9 @@ All these different tax scenarios can be configured using the decision matrix.
 8. To modify the entry position in the matrix, click the ![Drag](../../Assets/Icons/Points03.png "[Drag]") (Drag) button to the left of the entry line, move the entry the a different position with the left mouse button pressed and drop it in the desired position by releasing the mouse button.    
 
 9. Click the [SAVE] button.  
-A pop-up window confirms that the changes have been saved. The new tax delivery threshold has been saved.
+A pop-up window confirms that the decision matrix has been saved. The new entry has been saved.
 
-  ![Changes saved](../../Assets/Screenshots/Taxes/Settings/TaxClasses/ChangesSaved.png "[Changes saved]")
-
-[comment]: <> (Vermutetes Verhalten. SAVE not working -> Error message, 03.08.22)
+  ![Decision matrix saved](../../Assets/Screenshots/Taxes/Settings/DecisionMatrix/DecisionMatrixSaved.png "[Decision matrix saved]")
 
 10. Repeat this procedure to configure one by one all different tax scenarios depending on your business needs.
 
@@ -253,8 +246,6 @@ These tax exceptions can be defined using the *Ship-to postcode* fields.
 8. Click the *Tax zone* drop-down list to select the applicable tax zone.
 
 9. Click the [SAVE] button.  
-A pop-up window confirms that the changes have been saved. The tax exception area has been saved.
+A pop-up window confirms that the decision matrix has been saved. The new entry has been saved.
 
-  ![Changes saved](../../Assets/Screenshots/Taxes/Settings/TaxClasses/ChangesSaved.png "[Changes saved]")
-
-[comment]: <> (Vermutetes Verhalten. SAVE not working  -> You need to specify both the currency AND the minimum required value for a rule... 03.08.22)
+  ![Decision matrix saved](../../Assets/Screenshots/Taxes/Settings/DecisionMatrix/DecisionMatrixSaved.png "[Decision matrix saved]")
