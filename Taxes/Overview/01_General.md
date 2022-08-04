@@ -1,11 +1,23 @@
 # General information
 
-The *Taxes* module provides the *Invoicing* module with the appropriate tax rate to be applied to a particular order. Taking into account the details available in the order confirmation and the delivery note, the system decision matrix determines the tax zone to be applied, which is in turn needed to define the applicable tax rate. For detailed information, see [Manage the decision matrix](../Operation/01_ManageDecisionMatrix.md).
+The *Taxes* module of the Actindo Core1 Platform allows you configure the system's automatic tax feature to match your specific business requirements. You can define the specific tax classes applicable to your products, determine the different tax zones where you operate, and set up an unlimited number of tax rates, which can also be specified according to their validity period. Based on the information available in the order confirmation and the delivery note, the *Taxes* module provides the *Invoicing* module with the appropriate tax rate to be applied to a particular product.
+
+This documentation refers to the *Taxes* module version 4.0.1. There may be differences in the UI, features and operation if your *Taxes* module is installed in a different version.
 
 
-IU-relevant information
+## Benefits
 
-The *TAX RATES* tab displays a list of all available tax rates. The default configuration covers all standard cases for a company based in Germany delivering within the European Union. New tax rates can be added to adapt the system to the customer's needs, also dealing with special tax regimes within or outside the European Union.
+The *Taxes* module offers the following benefits:  
+
+- Fully customizable tax function
+- Multiple tax scenarios within and outside the EU
+- Possibility to configure tax special regimes within a territory
+- Automated tax application in your invoices and order documentation
 
 
-The *TAX CLASSES* tab allows to create any number of tax classes to be assigned to a product or group of products. Once a tax class is created in this tab, it becomes available to be selected in the *Tax class* drop-down list when creating or editing a tax rate in the *TAX RATES* tab. For detailed information about creating or editing a tax rate, see [Manage the tax rates](./01_ManageTaxRates.md).
+## Prerequisites
+
+- The *Actindo DataHub* module version 4.0.0 or higher is installed.
+- The *UI Components* plugin version 1.0.2 or higher is installed.
+- The *Countries and languages* plugin version 1.1.4 or higher is installed.
+- The *Currency* plugin version 1.0.8 or higher is installed.
