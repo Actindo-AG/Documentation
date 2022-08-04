@@ -11,11 +11,8 @@ All available tax classes are listed. By default, the standard rate and the redu
 - ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add)   
 Click this button to create an entry. A new entry line is displayed.
 
-- *Standard rate*  
-Click the field to edit the tax class name.
-
-- *Reduced rate*  
-Click the field to edit the tax class name.
+- (Entry line)  
+Click the corresponding field to enter or edit the tax class name.
 
 - ![Delete](../../Assets/Icons/Trash08.png "[Delete]") (Delete)  
 Click this button to delete the corresponding entry.  
