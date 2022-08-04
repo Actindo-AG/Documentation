@@ -17,7 +17,7 @@ Click this button to create an entry. A new entry line is displayed.
 Click the corresponding field to enter or edit the tax zone name or the VAT ID number.
 
 - ![Delete](../../Assets/Icons/Trash08.png "[Delete]") (Delete)  
-Click this button to delete the corresponding entry. The tax zones that are currently selected the decision matrix cannot be deleted and, therefore, no ![Delete](../../Assets/Icons/Trash08.png "[Delete]") (Delete) button is displayed next to them.
+Click this button to delete the corresponding entry. The tax zones that are currently selected the decision matrix cannot be deleted and, therefore, no (Delete) button is displayed next to them.
 
 - [SAVE]  
 Click this button to save any changes made.
