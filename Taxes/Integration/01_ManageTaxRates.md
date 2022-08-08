@@ -11,7 +11,6 @@ Generally speaking, a tax rate is the percentage to which a product is taxed and
 
 Tax rates can be created, edited and deleted to adapt the automatic taxation feature to the customer's specific and changing needs.
 
-[comment]: <> (Work in progress!)
 
 ## Create a tax rate
 
@@ -48,7 +47,9 @@ Create a tax rate to cover a specific tax regime.
 6. Enter the applicable tax rate validity period in the *Start date* and *End date* fields. You can enter the date with the keyboard or clicking the ![Add](../../Assets/Icons/Calendar.png "[Calendar]") (Calendar) button. The date format must be YYYY.MM.DD. hh:mm:ss.
 
 7. Click the [SAVE] button.  
-The *Create tax rate* view closes automatically and the tax rate list is displayed again. The new tax rate is displayed in the list.
+The *Create tax rate* view closes automatically and the tax rate list is displayed again.  
+
+8. Refresh the tax rates list view to display the changes made. To do so, click the ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh) button in the upper right corner.
 
 
 ## Edit a tax rate
@@ -77,7 +78,7 @@ The *Edit tax rate* view is displayed.
   > [Info] Be aware that any changes made to an existing tax rate will overwrite the previously configured values.
 
 3. Click the [SAVE] button.  
-The *Edit tax rate* view closes automatically and the tax rate list is displayed again. The edited tax rate is displayed in the list.
+The *Edit tax rate* view closes automatically and the tax rate list is displayed again.  
 
 4. Refresh the tax rates list view to display the changes made. To do so, click the ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh) button in the upper right corner.
 
@@ -106,4 +107,4 @@ The editing toolbar is displayed.
 2. Click the [DELETE] button in the upper right corner.  
 The selected tax rate has been deleted.
 
-[comment]: <> (28.07.22 - DELETE Button not working. Bug reported.)
+[comment]: <> (08.08.22 - DELETE Button not working. Bug reported.)
