@@ -6,7 +6,7 @@
 
 # Configure the warehouse for POS
 
-Test test
+Test neu
 
 As a POS system usually has its own warehouse and is separated from the main warehouse, a new POS warehouse should be created in advance.
 Therefore, it is recommended to create a new warehouse group and integrate all warehouses made specifically for POS into this group.
