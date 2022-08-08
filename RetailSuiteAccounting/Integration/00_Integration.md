@@ -19,9 +19,9 @@
   - [Delete a fiscal year](./04_ManageFiscalYear.md#delete-a-fiscal-year)
 
 - [Manage the customer/supplier](./05_ManageCustomerSupplier.md)
-  - [Create a customer/supplier](./05_ManageCustomerSupplier.md#create-a-customer-supplier)
-  - [Edit a customer/supplier](./05_ManageCustomerSupplier.md#edit-a-customer-supplier)
-  - [Delete a customer/supplier](./05_ManageCustomerSupplier.md#delete-a-customer-supplier)
+  - [Create a customer/supplier](./05_ManageCustomerSupplier.md#create-a-customersupplier)
+  - [Edit a customer/supplier](./05_ManageCustomerSupplier.md#edit-a-customersupplier)
+  - [Delete a customer/supplier](./05_ManageCustomerSupplier.md#delete-a-customersupplier)
 
 - [Manage the fixed bookings](./06_ManageFixedBookings.md)
   - [Create a fixed booking batch](./06_ManageFixedBookings.md#create-a-fixed-booking-batch)

@@ -1,5 +1,5 @@
 [!!Fakturierung](RetailSuiteFaktBase)  
-[!!User Interface debtors/creditors](../UserInterface/02a_DebtorsCreditors.md)  
+[!!User Interface Debtors/creditors](../UserInterface/02a_DebtorsCreditors.md)  
 
 # Manage the customer/supplier
 
@@ -29,15 +29,15 @@ You can create a customer/supplier that is not yet available in the system.
 
   > [Info] Make sure that the number entered is within the valid range (10000-69999 for customers and 70000-99999 for suppliers). Otherwise, a warning message will be displayed.
 
-3. Enter a short name in the *Short name* field. This field is compulsory.
+3. Enter a short name in the *Short name* field. This field is mandatory.
 
-4. Enter a company name in the *Company* field.
+4. If desired, enter the company name in the *Company* field.   
 
-5. Enter a surname in the *Surname* field.
+5. If desired, enter the surname in the *Surname* field.   
 
-  > [Info] Note that either the *Company* or the *Surname* field must be filled out to be able to create a new customer/supplier.
+  > [Info] Note that either the *Company* or the *Surname* field must be filled out to create a new customer/supplier.   
 
-6. Enter any other relevant customer/supplier information in the corresponding fields.
+6. If desired, enter any other relevant customer/supplier information in the corresponding fields.
 
 7. Click the [SAVE] button.  
 A pop-up window is displayed to confirm that the customer/supplier has been created. The newly created customer/supplier is displayed in the *Customer/supplier list* tab.
@@ -45,7 +45,7 @@ A pop-up window is displayed to confirm that the customer/supplier has been crea
 
 ## Edit a customer/supplier
 
-You can edit an existing customer/supplier, for example if a setting must be changed.
+You can edit a customer/supplier, for example, if certain data need to be changed.
 
 #### Prerequisites
 
@@ -59,12 +59,12 @@ You can edit an existing customer/supplier, for example if a setting must be cha
 
 ![Edit a customer/supplier](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/EditCustomerSupplier.png "[Edit a customer/supplier]")
 
-1. Double click on the existing customer/supplier to be edited.   
-A new tab opens with the customer/supplier number. The existing data for the selected customer/supplier are displayed in the corresponding fields in the *Address/Contact* sub-tab.
+1. Double click the customer or supplier to be edited.   
+  The *Customer/Supplier* tab with the corresponding customer/supplier number is displayed. By default, the *Address/Contact* sub-tab is preselected. The data for the selected customer/supplier are displayed in the corresponding fields.
 
-  > [Warning] Be aware that any changes made to an existing customer/supplier will overwrite the existing values.
+  > [Warning] Be aware that any changes made to a customer/supplier will overwrite the existing values.
 
-2. Edit the fields as appropriate.
+2. Edit the desired fields in the sub-tab.   
 
 3. Click the [SAVE] button.   
 A pop-up window is displayed to confirm that the customer/supplier has been edited. The edited customer/supplier displays the changes in the *Customer/supplier list* tab.
@@ -74,7 +74,7 @@ A pop-up window is displayed to confirm that the customer/supplier has been edit
 
 ## Delete a customer/supplier
 
-You can delete an existing customer/supplier, for example if it is no longer applicable.
+You can delete a customer/supplier, for example if it is no longer applicable.
 
 #### Prerequisites
 
@@ -88,10 +88,11 @@ You can delete an existing customer/supplier, for example if it is no longer app
 
 ![Delete a customer/supplier](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/DeleteCustomerSupplier.png "[Delete a customer/supplier]")
 
-1. Double click on the existing customer/supplier to be deleted.
-  > [Warning] Be aware that the existing customer/supplier will be deleted permanently.
+1. Double click the customer or supplier to be deleted.
+
+  > [Warning] Be aware that the customer/supplier will be deleted permanently.
 
 2. Click the [DELETE] button.  
-The selected customer/supplier is deleted.
+  The selected customer or supplier has been deleted.
 
 [comment]: <> (Schaltfläche heißt nicht genau LÖSCHEN sondern [KUNDE Kundennr. LÖSCHEN] oder [LIEFERANT Lieferantnr. LÖSCHEN]. Andere Lösung?)

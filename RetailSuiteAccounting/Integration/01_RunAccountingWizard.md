@@ -1,6 +1,6 @@
-[!!User Interface settings fiscal years](../UserInterface/02d_FiscalYears.md)  
-[!!Manage the accounts](./03_ManageAccounts.md)  
-[!!Manage the fiscal year](./04_ManageFiscalYear.md)  
+[!!User Interface Settings fiscal years](../UserInterface/02d_FiscalYears.md)  
+[!!Manage the Accounts](./03_ManageAccounts.md)  
+[!!Manage the Fiscal year](./04_ManageFiscalYear.md)  
 
 # Run the accounting wizard
 
@@ -38,7 +38,7 @@ In the first step you have to configure the fiscal years.
 
    > [Info] It is possible to enter digits, letters or combinations of characters. The number of characters is limited to 10.
 
- 2.  Enter the starting and finishing date of your fiscal year in the *From - To* fields. The fiscal year shown by default is the current calendar year.
+ 2. Enter the starting and finishing date of your fiscal year in the *From - To* fields. The fiscal year shown by default is the current calendar year.
 
  > [Info] The fiscal year must consist of 12 months. However, it does not have to be a calendar year, for example from 1st April to 31st March.
 
@@ -47,20 +47,20 @@ In the first step you have to configure the fiscal years.
 
  4. Select the appropriate option (**No/Yes**) in the *Cash accounting* drop-down list.
 
- > [Info] The cash accounting refers to a method where receipts are recorded during the period they are received, and expenses are recorded in the period in which they are actually paid. This contrasts accrual accounting, where revenue is recognized when earned rather than when collected, and expenses are recognized when incurred rather than when paid.
+  > [Info] The cash accounting refers to a method where receipts are recorded during the period they are received, and expenses are recorded in the period in which they are actually paid. This contrasts accrual accounting, where revenue is recognized when earned rather than when collected, and expenses are recognized when incurred rather than when paid.
 
- > [Warning] This option has fundamental implications for the system automatic recording of taxes. In case of doubt, please check with your tax advisor.
+  > [Warning] This option has fundamental implications for the system automatic recording of taxes. In case of doubt, please check with your tax advisor.
 
  5. Select the appropriate option (**No/Fiscal year for planning purposes only**) in the *Planning FY* drop-down list.   
 
- > [Info] Note that a fiscal year can be set up for planning purposes only. However, the fiscal year for planning purposes will not be recognized as an actual fiscal year by the system, and therefore the automatic functions in the interaction with other modules will not apply.
+  > [Info] Note that a fiscal year can be set up for planning purposes only. However, the fiscal year for planning purposes will not be recognized as an actual fiscal year by the system, and therefore the automatic functions in the interaction with other modules will not apply.
 
- 6. Click [SAVE & NEW].  
-  The new fiscal year is created.    
+ 6. Click the [SAVE & NEW] button.  
+  The new fiscal year is created
 A small pop-up window and a green check mark confirm that the new fiscal year has been saved. The newly created fiscal year is also displayed in the list.
 
- 7. Click [CONTINUE].  
- The *Chart of accounts* wizard window is displayed.
+ 7. Click the [CONTINUE] button.   
+  The *Chart of accounts* wizard window is displayed.
 
 
 ### Chart of accounts
@@ -77,7 +77,7 @@ In this second step, you must select a chart of accounts and an accounting syste
     - **Swiss Chart of accounts KMU**
     - **Swiss Chart of accounts Käfer**
 
- > [Warning] The Chart of accounts can only be set up once and cannot be changed afterwards. Any later modifications have to be done manually on an individual customer account level.
+ > [Warning] The chart of accounts can only be set up once and cannot be changed afterwards. Any later modifications have to be done manually on an individual customer account level.
 
 2. Select the appropriate option in the *Accounting system* drop-down list:
     - **German Commercial Code: P&L**
@@ -105,5 +105,5 @@ In the *Installation completed* wizard window all three progress steps are now c
 
 ![Installation completed](../../Assets/Screenshots/RetailSuiteAccounting/AccountingWizard/InstallationCompleted.png "[Installation completed]")
 
-Now click the [FINALIZE] button.     
+Click the [FINALIZE] button.     
 The accounting wizard closes and the system loads all data. This may take a few seconds. Then, the fiscal year selection window is displayed.

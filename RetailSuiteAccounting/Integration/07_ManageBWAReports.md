@@ -1,5 +1,5 @@
 [!!User Interface BWA assignment](../UserInterface/02i_BWAAssignment.md)  
-[!!User Interface evaluations](../UserInterface/01_Book.md#evaluations)  
+[!!User Interface Evaluations](../UserInterface/01_Book.md#evaluations)  
 [!!Create a PDF evaluation](../Operation/15_ProvideAccountingData.md#create-a-pdf-evaluation)  
 
 
@@ -31,37 +31,37 @@ You can create a BWA report that is not yet available in the system.
 
 ![Create a BWA report](../../Assets/Screenshots/RetailSuiteAccounting/Settings/BWAAssignment/CreateBWAReport.png "[Create a BWA report]")
 
-1. Click the ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) button in the right bottom corner.  
-The *Create* view is displayed.
+1. Click the ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) button in the bottom right corner.  
+  The *Create* view is displayed.
 
 2. Enter a name in the *Report name* field.
 
 3. Click the [SAVE] button.  
-The new BWA report has been saved.
+  The new BWA report has been created.
 
   ![BWA report created](../../Assets/Screenshots/RetailSuiteAccounting/Settings/BWAAssignment/BWAReportCreated.png "[BWA report created]")
 
-4. Click the newly created report in the list.  
-The *Accounting report lines* section is displayed.
+4. Click the new BWA report in the list.  
+  The *Accounting report lines* section is displayed.
 
   ![Add report lines](../../Assets/Screenshots/RetailSuiteAccounting/Settings/BWAAssignment/AddReportLines.png "[Add report lines]")
 
 5. Click the ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) button in the bottom right corner.  
-The *Create* section is displayed.
+  The *Create* section is displayed.
 
   ![Create report lines](../../Assets/Screenshots/RetailSuiteAccounting/Settings/BWAAssignment/CreateReportLines02.png "[Create report lines]")
 
 6. Enter any relevant information in the corresponding fields. You can also add different formulas to it. For detailed information, see [BWA assignment](../UserInterface/02i_BWAAssignment.md).
 
 7. Click the [SAVE] button.  
-The new report lines have been saved in the report.
+  The new report lines have been added to the BWA report.
 
 
 ## Edit a BWA report
 
-You can edit an existing BWA report to make any necessary changes, for example, change the report name and layout, and edit or delete report lines.
+You can edit a BWA report to make any necessary changes, for example, change the report name and layout, and edit or delete report lines.
 
- > [Warning] Be aware that any changes made to an existing BWA report will overwrite the existing values. If you are taking one of the predefined system reports as a basis, it is highly recommended to make a copy of it first. For detailed information, see [BWA assignment](../UserInterface/02i_BWAAssignment.md).
+ > [Warning] Be aware that any changes made to a BWA report will overwrite the existing values. If you are taking one of the predefined system reports as a basis, it is highly recommended to make a copy of it first. For detailed information, see [BWA assignment](../UserInterface/02i_BWAAssignment.md).
 
 #### Prerequisites
 
@@ -76,42 +76,40 @@ You can edit an existing BWA report to make any necessary changes, for example, 
 ![Edit a BWA report](../../Assets/Screenshots/RetailSuiteAccounting/Settings/BWAAssignment/EditBWAReport.png "[Edit a BWA report]")
 
 1. Select the BWA report to be edited by clicking the checkbox on the left.   
-The toolbar is displayed in the right upper corner.
+  The toolbar is displayed in the right upper corner.
 
 2. Click the ![Edit](../../Assets/Icons/Edit01.png "[Add]") (Edit) button to edit the BWA report.  
-The *Edit* section is displayed.
+  The *Edit* section is displayed.
 
 3. Click the *Report name* field and make any necessary changes.
 
 4. Click the *Columns* button in the right upper corner.   
-The columns bar is displayed. You can add or delete columns, and change their order by clicking and moving them with the mouse.
+  The columns bar is displayed. You can add or delete columns, and change their order by clicking and moving them with the mouse.
 
-  ![Edit BWA report layout](../../Assets/Screenshots/RetailSuiteAccounting/Settings/BWAAssignment/EditBWAReportLayout.png "[Edit BWA report layout]")
+    ![Edit BWA report layout](../../Assets/Screenshots/RetailSuiteAccounting/Settings/BWAAssignment/EditBWAReportLayout.png "[Edit BWA report layout]")
 
 5. Click the [APPLY] button.   
-The changes are applied.
+  The changes are applied.
 
   > [Info] The width of the individual columns in the table header can also be modified using the mouse.
 
 6. Select any accounting report line to be edited by clicking the checkbox on the left.  
-The toolbar is displayed in the right upper corner.
+  The toolbar is displayed in the right upper corner.
 
   ![Edit report lines](../../Assets/Screenshots/RetailSuiteAccounting/Settings/BWAAssignment/EditReportLines.png "[Edit report lines]")
 
 7. Click the ![Edit](../../Assets/Icons/Edit01.png "[Add]") (Edit) button to edit the selected accounting report line.  
-The *Edit* section is displayed.   
+  The *Edit* section is displayed.   
 
-  > [Warning] Be aware that any changes made to an existing BWA report will overwrite the existing values.
+    > [Warning] Be aware that any changes made to a BWA report will overwrite the existing values.
 
-  You can also delete an accounting report line. Click the ![Delete](../../Assets/Icons/Trash03.png "[Delete]") (Delete) button in the toolbar to delete the selected accounting report line.  
+    You can also delete an accounting report line. Click the ![Delete](../../Assets/Icons/Trash03.png "[Delete]") (Delete) button in the toolbar to delete the selected accounting report line.  
 
-   > [Warning] Be aware that the existing accounting report line will be deleted permanently.
+     > [Warning] Be aware that the selected accounting report line will be deleted permanently.
 
-8. Click the [SAVE] button.   
-The existing BWA report has been edited.
+8. Click the [SAVE] button in the upper right corner.   
+  All changes to the BWA report have been saved.
 
-
-[comments]: <> (clear with HG: you can also edit the BWA report/the accounting report lines by clicking on the report name or line name -> same editing options as described above are displayed. Shall we describe it as an alternative or better not?)
 
 
 ## Delete a BWA report

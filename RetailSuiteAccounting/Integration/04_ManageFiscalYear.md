@@ -1,6 +1,6 @@
 [!!Fakturierung](RetailSuiteFaktBase)  
-[!!User Interface select fiscal year](../UserInterface/00a_FiscalYear.md)  
-[!!User Interface settings fiscal years](../UserInterface/02d_FiscalYears.md)  
+[!!User Interface Select fiscal year](../UserInterface/00a_FiscalYear.md)  
+[!!User Interface Settings fiscal years](../UserInterface/02d_FiscalYears.md)  
 [!!Select fiscal year](../Operation/01_SelectFiscalYear.md)  
 
 # Manage the fiscal year
@@ -15,7 +15,7 @@ You can create a fiscal year that is not yet available in the system.
 
 #### Prerequisites
 
-- The accounting is configured via the configuration wizard, see [Run the accounting wizard](./01_RunAccountingWizard.md).
+The accounting has been configured via the configuration wizard, see [Run the accounting wizard](./01_RunAccountingWizard.md).
 
 #### Procedure
 
@@ -55,8 +55,8 @@ You can edit an available fiscal year, for example if a setting must be changed.
 
 #### Prerequisites
 
-- The accounting is configured via the configuration wizard, see [Run the accounting wizard](./01_RunAccountingWizard.md).
-- A valid fiscal year is created, see [Create a fiscal year](#create-a-fiscal-year).
+- The accounting has been configured via the configuration wizard, see [Run the accounting wizard](./01_RunAccountingWizard.md).
+- A valid fiscal year has been created, see [Create a fiscal year](#create-a-fiscal-year).
 
 #### Procedure
 
@@ -64,25 +64,25 @@ You can edit an available fiscal year, for example if a setting must be changed.
 
 ![Edit a fiscal year](../../Assets/Screenshots/RetailSuiteAccounting/Settings/FiscalYears/EditFiscalYear.png "[Edit a fiscal year]")
 
-1. Click on the existing fiscal year to be edited.   
-The existing data for the selected fiscal year are displayed in the corresponding fields.
+1. Click the fiscal year to be edited.   
+  The data for the selected fiscal year are displayed in the corresponding fields at the bottom.
 
-    > [Warning] Be aware that any changes made to an existing fiscal year will overwrite the preset values.
+    > [Warning] Be aware that any changes made to a fiscal year will overwrite the preset values.
 
 2. Edit the fields as appropriate.
 
 3. Click the [SAVE] button.   
-The fiscal year has been edited. The edited fiscal year is displayed in the list.
+  The fiscal year has been edited. The edited fiscal year is displayed in the list.
 
 
 ## Delete a fiscal year
 
-You can delete an existing fiscal year, for example if it is no longer applicable.
+You can delete a fiscal year, for example if it is no longer applicable.
 
 #### Prerequisites
 
-- The accounting is configured via the configuration wizard, see [Run the accounting wizard](./01_RunAccountingWizard.md).
-- A valid fiscal year is created, see [Create a fiscal year](#create-a-fiscal-year).
+- The accounting has been configured via the configuration wizard, see [Run the accounting wizard](./01_RunAccountingWizard.md).
+- A valid fiscal year has been created, see [Create a fiscal year](#create-a-fiscal-year).
 
 #### Procedure
 
@@ -91,7 +91,7 @@ You can delete an existing fiscal year, for example if it is no longer applicabl
 ![Delete a fiscal year](../../Assets/Screenshots/RetailSuiteAccounting/Settings/FiscalYears/DeleteFiscalYear.png "[Delete a fiscal year]")
 
 1. Select the fiscal year to be deleted.
-  > [Warning] Be aware that the existing fiscal year will be deleted permanently.
+  > [Warning] Be aware that the fiscal year will be deleted permanently.
 
 2. Click the [DELETE] button.  
-The selected fiscal year will be deleted.
+  The selected fiscal year has been be deleted.

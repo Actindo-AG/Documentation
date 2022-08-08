@@ -1,12 +1,12 @@
-[!!User Interface fixed bookings](../UserInterface/02f_FixedBookings.md)  
-[!!User Interface select fiscal year](../UserInterface/00a_FiscalYear.md)  
+[!!User Interface Fixed bookings](../UserInterface/02f_FixedBookings.md)  
+[!!User Interface Select fiscal year](../UserInterface/00a_FiscalYear.md)  
 [!!Select a fiscal year](../Operation/01_SelectFiscalYear.md)  
 
 # Manage the fixed bookings
 
 The *FIXED BOOKINGS* tab in the *Accounting* module enables to automate recurring bookings. The fixed bookings to be automated can be applied when selecting the fiscal year, see [Select the fiscal year](../Operation/01_SelectFiscalYear.md). By doing so, the system will apply automatically the setup fixed bookings in the corresponding fiscal year and journal.
 
-To be able to create fixed bookings, an existing batch must be selected or a new one must be created first.
+To be able to create fixed postings, a batch must be selected or a new one must be created first.
 
 
 ## Create a fixed booking batch
@@ -26,7 +26,7 @@ You can create a fixed booking batch that is not yet available in the system.
 
 1. Click the *Fixed booking batch* drop-down list and select the *New batch* option.
 
-  > [Info] Per default, the drop-down list displays the *New batch* option.
+  > [Info] By default, the *New batch* option is preselected in the drop-down list.
 
 2. Enter a batch name in the *Name* field.  
 
@@ -36,7 +36,7 @@ A new window opens where the new fixed bookings can be registered.
 
 ## Delete a fixed booking batch
 
-You can delete an existing fixed booking batch if it is no longer applicable.
+You can delete a fixed posting batch if it is no longer applicable.
 
 #### Prerequisites
 
@@ -52,7 +52,7 @@ You can delete an existing fixed booking batch if it is no longer applicable.
 
 1. Click the *Fixed booking batch* drop-down list and select the fixed booking batch to be deleted.   
 
-  > [Warning] Be aware that the existing fixed booking batch will be deleted permanently. The bookings contained in it, however, will not be deleted from the system and will continue to be displayed in the *Bookings* tab.
+  > [Warning] Be aware that the selected fixed posting batch will be deleted permanently. The postings contained in it, however, will not be deleted but are still displayed in the *POSTINGS* tab.
 
 2. Click the [DELETE] button.  
 A window comes up asking for confirmation. The selected fixed booking batch is deleted.
@@ -62,7 +62,7 @@ A window comes up asking for confirmation. The selected fixed booking batch is d
 
 ## Create a fixed booking
 
-You add fixed bookings to an existing or a newly created fixed booking batch.
+You add fixed postings to an existing or a new fixed posting batch.
 
 #### Prerequisites
 
@@ -76,7 +76,7 @@ You add fixed bookings to an existing or a newly created fixed booking batch.
 
 ![Select a fixed booking batch](../../Assets/Screenshots/RetailSuiteAccounting/Settings/FixedBookings/EditFixedBookingBatch.png "[Select a fixed booking batch]")
 
-1. Click the *Fixed booking batch* drop-down list and select the fixed booking batch where the fixed booking must be created.   
+1. Click the *Fixed posting batch* drop-down list and select the fixed posting batch to which you want to add a fixed posting.
 The fixed booking window opens automatically. If it does not, click the [EDIT] button.
 
   ![Create a fixed booking](../../Assets/Screenshots/RetailSuiteAccounting/Settings/FixedBookings/CreateFixedBooking.png "[Create a fixed booking]")
@@ -95,7 +95,7 @@ The fixed booking window opens automatically. If it does not, click the [EDIT] b
 
   > [Info] Note that the fields *Contra account*, *Date* and *Account* must be filled out to be able to create a new fixed booking.
 
-6. Enter any other relevant fixed booking information in the corresponding fields.
+6. If desired, enter any other relevant fixed posting information in the corresponding fields.
 
 7. Click the [BOOK] button.  
 A message in the window upper left corner confirms that the booking is registered. The newly created fixed booking is displayed in the fixed booking batch.
@@ -103,14 +103,14 @@ A message in the window upper left corner confirms that the booking is registere
   ![Fixed booking created](../../Assets/Screenshots/RetailSuiteAccounting/Settings/FixedBookings/FixedBookingCreated.png "[Fixed booking created]")
 
 8. Click the [SAVE] button.   
-The booking is now saved in the batch.
+The posting has been saved in the batch.
 
- > [Info] If you click the [CANCEL] button, the fixed booking will not be saved.
+ > [Info] If you click the [CANCEL] button, the fixed posting will be rejected.
 
 
 ## Edit a fixed booking
 
-You can edit existing fixed bookings registered in a fixed booking batch.
+You can edit fixed postings registered in a fixed posting batch.
 
 ### Prerequisites
 
@@ -125,11 +125,11 @@ You can edit existing fixed bookings registered in a fixed booking batch.
 
 ![Select a fixed booking batch](../../Assets/Screenshots/RetailSuiteAccounting/Settings/FixedBookings/EditFixedBookingBatch.png "[Select a fixed booking batch]")
 
-1. Click the *Fixed booking batch* drop-down list and select the fixed booking batch where the fixed booking to be edited is registered.   
+1. Click the *Fixed posting batch* drop-down list and select the fixed posting batch of the fixed posting to be edited.   
 The fixed booking window opens automatically. If it does not, click the [EDIT] button.
 
-2. Click on the existing fixed booking to be edited.
-The existing fixed booking details are displayed in the fields.
+2. Click the fixed booking to be edited.
+  The details of the selected fixed posting are displayed in the fields.
 
   ![Edit a fixed booking](../../Assets/Screenshots/RetailSuiteAccounting/Settings/FixedBookings/EditFixedBooking.png "[Edit a fixed booking]")
 
@@ -143,12 +143,12 @@ The edited fixed booking is added to the fixed booking batch with a new sequenti
 5. Click the [SAVE] button.   
 The edited fixed booking is now saved in the batch.  
 
-  > [Info] If you click the [CANCEL] button, the changes will not be saved.
+  > [Info] If you click the [CANCEL] button, the changes will be rejected.
 
 
 ## Delete a fixed booking
 
-You can delete an existing fixed booking in a fixed booking batch.
+You can delete a fixed booking in a fixed booking batch.
 
 #### Prerequisites
 
@@ -161,22 +161,22 @@ You can delete an existing fixed booking in a fixed booking batch.
 
 *Accounting > Select the fiscal year > Settings > Tab FIXED BOOKINGS*
 
-![Select an existing batch](../../Assets/Screenshots/RetailSuiteAccounting/Settings/FixedBookings/EditFixedBookingBatch.png "[Select an existing batch]")
+![Select a batch](../../Assets/Screenshots/RetailSuiteAccounting/Settings/FixedBookings/EditFixedBookingBatch.png "[Select a batch]")
 
-1. Click the *Fixed booking batch* drop-down list and select the batch where the fixed booking to be deleted is registered.    
+1. Click the *Fixed posting batch* drop-down list and select the batch of the fixed posting to be deleted.  
 The fixed booking window opens automatically. If it does not, click the [EDIT] button.
 
   ![Delete a fixed booking](../../Assets/Screenshots/RetailSuiteAccounting/Settings/FixedBookings/DeleteFixedBooking.png "[Delete a fixed booking]")
 
-2. Click on the existing fixed booking to be deleted.
-The existing booking details are displayed in the fields.
+2. Click the fixed posting to be deleted.
+  The details of the selected fixed posting are displayed in the fields.
 
-  > [Warning] Be aware that the existing fixed booking will be deleted permanently from the fixed bookings batch. The fixed booking itself, however, will not be deleted from the system and will continue to be displayed in the *Bookings* tab.
+  > [Warning] Be aware that the fixed posting will be deleted permanently from the fixed postings batch. The fixed posting itself, however, will not be deleted from the system and will continue to be displayed in the *POSTINGS* tab.
 
 3. Click the [DELETE] button.  
 A window comes up asking for confirmation. The selected fixed booking is deleted from the batch.
 
 4. Click the [SAVE] button.   
-The deletion is now saved in the batch.
+The fixed posting deletion has been saved in the batch.
 
- > [Info] If you click the [CANCEL] button, the deletion will not be saved.
+ > [Info] If you click the [CANCEL] button, the deletion will be rejected.

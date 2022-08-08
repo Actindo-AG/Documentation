@@ -1,11 +1,11 @@
 [!!Fakturierung](RetailSuiteFaktBase)  
 [!!Taxes](Taxes)  
-[!!User Interface tax keys](../UserInterface/02c_TaxKeys.md)  
+[!!User Interface Tax keys](../UserInterface/02c_TaxKeys.md)  
 
 
 # Manage the tax keys
 
-Tax keys are a list of values, each of them linked to a specific tax rate. They are essential for the automatic tax functions, for example the automatic VAT tax booking. Every existing tax rate in the different accounts is assigned a tax key. The *Invoicing* module extracts data on the applicable tax rate from the tax keys.
+Tax keys are a list of values, each of them linked to a specific tax rate. They are essential for the automatic tax functions, for example the automatic VAT tax booking. Every tax rate in the different accounts is assigned a tax key. The *Invoicing* module extracts data on the applicable tax rate from the tax keys.
 
 
 ## Create a tax key
@@ -14,8 +14,8 @@ You can create a tax key that is not yet available in the list.
 
 #### Prerequisites
 
-- The accounting is configured via the configuration wizard, see [Run the accounting wizard](./01_RunAccountingWizard.md).
-- A valid fiscal year is created, see [Create a fiscal year](./04_ManageFiscalYear.md#create-a-fiscal-year).
+- The accounting has been configured via the configuration wizard, see [Run the accounting wizard](./01_RunAccountingWizard.md).
+- A valid fiscal year has been created, see [Create a fiscal year](./04_ManageFiscalYear.md#create-a-fiscal-year).
 
 #### Procedure
 
@@ -27,7 +27,7 @@ You can create a tax key that is not yet available in the list.
 
     > [Info] Check which tax keys are still available by navigating through the list. Make sure that the entry fields are cleared before entering any data. If they are not, click the [CLEAR] button.
 
-2. Enter a description for the tax key in the *Description* field, for example VAT 19%.
+2. Enter a description for the tax key in the *Description* field, for example **VAT 19%**.
 
 3. Enter a validity time frame for the tax key in the *Valid from - to* field.
 
@@ -48,7 +48,7 @@ You can create a tax key that is not yet available in the list.
 8. Click the *Country* drop-down list and select the appropriate EU country or the option **No EU tax key**.
 
 9. Click the [SAVE & NEW] button.  
-The new tax key has been created.
+  The new tax key has been created.
 
     > [Info] If you inadvertently choose a tax key number that is already assigned, an error message will be displayed. Choose a different number to save your newly created tax key.
 
@@ -68,10 +68,10 @@ You can edit an available tax key, for example if a tax rate needs to be updated
 
 ![Edit a tax key](../../Assets/Screenshots/RetailSuiteAccounting/Settings/TaxKeys/EditTaxKey.png "[Edit a tax key]")
 
-1. Click on the existing tax key to be edited.   
-The existing data for the selected tax key are displayed in the corresponding fields.
+1. Click the tax key to be edited.   
+The data for the selected tax key are displayed in the corresponding fields at the bottom.
 
-    > [Warning] Be aware that any changes made to an existing tax key will overwrite the preset values.
+    > [Warning] Be aware that any changes made to a tax key will overwrite the preset values.
 
 2. Edit the fields as appropriate.
 
@@ -81,12 +81,12 @@ The tax key has been edited. The edited tax key is displayed in the list.
 
 ## Delete a tax key
 
-You can delete an existing tax key, for example if it is no longer applicable.
+You can delete a tax key, for example if it is no longer applicable.
 
 #### Prerequisites
 
-- The accounting is configured via the configuration wizard, see [Run the accounting wizard](./01_RunAccountingWizard.md).
-- A valid fiscal year is created, see [Create a fiscal year](./04_ManageFiscalYear.md#create-a-fiscal-year).
+- The accounting has been configured via the configuration wizard, see [Run the accounting wizard](./01_RunAccountingWizard.md).
+- A valid fiscal year has been created, see [Create a fiscal year](./04_ManageFiscalYear.md#create-a-fiscal-year).
 
 #### Procedure
 
@@ -95,7 +95,7 @@ You can delete an existing tax key, for example if it is no longer applicable.
 ![Delete a tax key](../../Assets/Screenshots/RetailSuiteAccounting/Settings/TaxKeys/DeleteTaxKey.png "[Delete a tax key]")
 
 1. Select the tax key to be deleted.
-  > [Warning] Be aware that the existing tax key will be deleted permanently.
+  > [Warning] Be aware that the tax key will be deleted permanently.
 
 2. Click the [DELETE] button.  
-The selected tax key will be deleted.
+  The selected tax key has been deleted.
