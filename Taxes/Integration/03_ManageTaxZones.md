@@ -1,6 +1,6 @@
 [!!Accounting](RetailSuiteAccounting)  
 [!!Fakturierung](RetailSuiteFaktBase)  
-[!!User Interface Tax zones](../UserInterface/XX_TaxZones.md)  
+[!!User Interface Tax zones](../UserInterface/01d_TaxZones.md)  
 [!!Manage the tax rates](./01_ManageTaxRates.md)  
 [!!Manage the tax classes](./01_ManageTaxClasses.md)  
 [!!Manage the decision matrix](../Operation/01_ManageDecisionMatrix.md)  
@@ -8,7 +8,7 @@
 
 # Manage the tax zones
 
-Tax zones are essential to determine where a specific tax rate is to be applied. The applicable tax zone depends on several factors, such as the country where the selling company is based, the country where the product is to be shipped from, and the country where the product is to be shipped to.
+Tax zones are essential to determine where a specific tax rate is to be applied. The applicable tax zone depends on several factors, such as the country where the selling company is based, the country where the product is shipped from, and the country where the product is shipped to.
 
 The default configuration includes three tax zones:
 
@@ -21,8 +21,6 @@ The default configuration includes three tax zones:
 Next to the configured tax zone, a VAT ID (value-added-tax identification number) can be added. The VAT ID number is an identifier used by companies operating in the European Union for value-added-tax purposes. VAT ID numbers can be verified at the EU's [VIES](https://ec.europa.eu/taxation_customs/vies/) (VAT Information Exchange System) official website.
 
 Tax zones can be created, edited and deleted to configure the automatic taxation feature according to the customer's business needs.
-
-[comment]: <> (Work in progress!)
 
 
 ## Create a tax zone
@@ -53,11 +51,14 @@ No prerequisites to fulfill.
 5. Enter the relevant VAT ID number in the field.  
 
 6. Click the [SAVE] button.  
-  A pop-up window confirms that the changes have been saved. The newly created tax zone is displayed in the *Tax zone* drop-down list in the *TAX RATES* tab.
+  A pop-up window confirms that the changes have been saved.
 
   ![Changes saved](../../Assets/Screenshots/Taxes/Settings/TaxClasses/ChangesSaved.png "[Changes saved]")
 
-7. Refresh the list view in the *TAX RATES* tab to display the changes made. To do so, click the ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh) button in the upper right corner.
+7. Refresh the *Tax* module for the *TAX RATES* tab to display the changes made. To do so, click the F5 key.  
+The newly created tax zone is displayed in the *Tax zone* drop-down list in the *TAX RATES* tab.
+
+[comment]: <> (By creating a tax zone, SAVE shows the confirmation message. For changes to be displayed in the drop-down list in TAX RATES, the whole module must be refreshed with F5. Refresh icon does not work in this case, i.e. no changes in the drop-down list Tax zone are displayed. Stand 08.08.22)
 
 
 ## Edit a tax zone
@@ -80,11 +81,14 @@ A tax zone is created, see [Create a tax zone](#create-a-tax-zone).
 2. Edit the tax zone name and/or its VAT ID number as necessary.
 
 3. Click the [SAVE] button.  
-  A pop-up window confirms that the changes have been saved. The edited tax zone is displayed in the *Tax zone* drop-down list in the *TAX RATES* tab.
+  A pop-up window confirms that the changes have been saved.
 
   ![Changes saved](../../Assets/Screenshots/Taxes/Settings/TaxClasses/ChangesSaved.png "[Changes saved]")
 
-4. Refresh the list view in the *TAX RATES* tab to display the changes made. To do so, click the ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh) button in the upper right corner.
+4. Refresh the *Tax* module for the *TAX RATES* tab to display the changes made. To do so, click the F5 key.  
+The edited tax zone is displayed in the *Tax zone* drop-down list in the *TAX RATES* tab.
+
+[comment]: <> (By editing a tax zone, SAVE shows the confirmation message. For changes to be displayed in the drop-down list in TAX RATES, the whole module must be refreshed with F5. Refresh icon does not work in this case, i.e. no changes in the drop-down list Tax zone are displayed. Stand 08.08.22)
 
 
 ## Delete a tax zone
@@ -111,10 +115,11 @@ A tax zone is created, see [Create a tax zone](#create-a-tax-zone).
   The tax zone is deleted from the list.
 
 3. Click the [SAVE] button.  
-  A pop-up window confirms that the changes have been saved. The deleted tax zone will no longer be displayed in the *Tax zone* drop-down list in the *TAX RATES* tab.
+  A pop-up window confirms that the changes have been saved.
 
   ![Changes saved](../../Assets/Screenshots/Taxes/Settings/TaxClasses/ChangesSaved.png "[Changes saved]")
 
-4. Refresh the list view in the *TAX RATES* tab to display the changes made. To do so, click the ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh) button in the upper right corner.
+4. Refresh the *Tax* module for the *TAX RATES* tab to display the changes made. To do so, click the F5 key.  
+The deleted tax zone is no longer displayed in the *Tax zone* drop-down list in the *TAX RATES* tab.
 
-[comment]: <> (SAVE necessary to save changes, that is, for changes to be displayed in the drop-down list in TAX ZONES? RS FH/JS. At the moment -01.08.22.- not working.)
+[comment]: <> (By deleting a tax zone, SAVE shows the confirmation message. For changes to be displayed in the drop-down list in TAX RATES, the whole module must be refreshed with F5. Refresh icon does not work in this case, i.e. no changes in the drop-down list Tax zone are displayed. Stand 08.08.22)
