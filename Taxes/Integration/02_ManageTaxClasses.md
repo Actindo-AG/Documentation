@@ -9,7 +9,7 @@
 
 Each product or group of products is assigned a tax class. The tax class is determined by the competent tax authorities of the territory where the product or group of products is to be taxed. Therefore it usually differs from territory to territory.
 
-There are two main tax classes in most territories: the standard and the reduced tax rate class. However, there can also be special taxes, such as super-reduced or zero taxes. Further tax classes can be created, edited and deleted if necessary.
+There are two main tax classes in most territories: the standard and the reduced tax rate class. However, there can also be special taxes, such as super-reduced or zero taxes. Tax classes can be created, edited and deleted if necessary.
 
 
 ## Create a tax class
