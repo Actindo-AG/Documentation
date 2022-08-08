@@ -1,6 +1,6 @@
 [!!Accounting](RetailSuiteAccounting)  
 [!!Fakturierung](RetailSuiteFaktBase)  
-[!!User Interface Tax rates](../UserInterface/XX_TaxRates.md)  
+[!!User Interface Tax rates](../UserInterface/01a_TaxRates.md)  
 [!!Manage the tax classes](./02_ManageTaxClasses.md)  
 [!!Manage the tax zones](./03_ManageTaxZones.md)  
 
