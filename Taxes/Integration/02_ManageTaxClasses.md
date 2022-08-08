@@ -1,6 +1,6 @@
 [!!Accounting](RetailSuiteAccounting)  
 [!!Fakturierung](RetailSuiteFaktBase)  
-[!!User Interface Tax classes](../UserInterface/XX_TaxClasses.md)  
+[!!User Interface Tax classes](../UserInterface/01c_TaxClasses.md)  
 [!!Manage the tax rates](./01_ManageTaxRates.md)  
 
 
@@ -10,8 +10,6 @@
 Each product or group of products is assigned a tax class. The tax class is determined by the competent tax authorities of the territory where the product or group of products is to be taxed. Therefore it usually differs from territory to territory.
 
 There are two main tax classes in most territories: the standard and the reduced tax rate class. However, there can also be special taxes, such as super-reduced or zero taxes. Further tax classes can be created, edited and deleted if necessary.
-
-[comment]: <> (Work in progress!)
 
 
 ## Create a tax class
@@ -37,11 +35,11 @@ No prerequisites to fulfill.
 3. Enter the desired tax class name in the entry line.  
 
 4. Click the [SAVE] button.  
-  A pop-up window confirms that the changes have been saved. The newly created tax class is displayed in the *Tax class* drop-down list in the *TAX RATES* tab.
 
-  ![Changes saved](../../Assets/Screenshots/Taxes/Settings/TaxClasses/ChangesSaved.png "[Changes saved]")
+5. Refresh the *Tax* module for the *TAX RATES* tab to display the changes made. To do so, click the F5 key.  
+The newly created tax class is displayed in the *Tax class* drop-down list in the *TAX RATES* tab.
 
-5. Refresh the list view in the *TAX RATES* tab to display the changes made. To do so, click the ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh) button in the upper right corner.
+[comment]: <> (By creating a tax class, SAVE does not show the confirmation message. For changes to be displayed in the drop-down list in TAX RATES, the whole module must be refreshed with F5. Refresh icon does not work in this case, i.e. no changes in the drop-down list Tax class are displayed. Stand 08.08.22)
 
 
 ## Edit a tax class
@@ -64,11 +62,14 @@ A tax class is created, see [Create a tax class](#create-a-tax-class).
 2. Edit the tax class name as necessary.
 
 3. Click the [SAVE] button.  
-  A pop-up window confirms that the changes have been saved. The edited tax class is displayed in the *Tax class* drop-down list in the *TAX RATES* tab.
+  A pop-up window confirms that the changes have been saved.
 
   ![Changes saved](../../Assets/Screenshots/Taxes/Settings/TaxClasses/ChangesSaved.png "[Changes saved]")
 
-4. Refresh the list view in the *TAX RATES* tab to display the changes made. To do so, click the ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh) button in the upper right corner.
+4. Refresh the *Tax* module for the *TAX RATES* tab to display the changes made. To do so, click the F5 key.
+The edited tax class is displayed in the *Tax class* drop-down list in the *TAX RATES* tab.
+
+[comment]: <> (By editing a tax class, SAVE does show the confirmation message. For changes to be displayed in the drop-down list in TAX RATES, the whole module must be refreshed with F5. Refresh icon does not work in this case, i.e. no changes in the drop-down list Tax class are displayed. Stand 08.08.22)
 
 
 ## Delete a tax class
@@ -95,10 +96,11 @@ A tax class is created, see [Create a tax class](#create-a-tax-class).
   The tax class is deleted from the list.
 
 3. Click the [SAVE] button.  
-  The changes are saved. The deleted tax class will no longer be displayed in the *Tax class* drop-down list in the *TAX RATES* tab.
+  A pop-up window confirms that the changes have been saved.
 
   ![Changes saved](../../Assets/Screenshots/Taxes/Settings/TaxClasses/ChangesSaved.png "[Changes saved]")
 
-4. Refresh the list view in the *TAX RATES* tab to display the changes made. To do so, click the ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh) button in the upper right corner.
+4. Refresh the *Tax* module for the *TAX RATES* tab to display the changes made. To do so, click the F5 key.  
+The deleted tax class is no longer displayed in the *Tax class* drop-down list in the *TAX RATES* tab.
 
-[comment]: <> (SAVE necessary to save changes, that is, for changes to be displayed in the drop-down list in TAX RATES? RS FH/JS. At the moment -01.08.22.- not working.)
+[comment]: <> (By deleting a tax class, SAVE does show the confirmation message. For changes to be displayed in the drop-down list in TAX RATES, the whole module must be refreshed with F5. Refresh icon does not work in this case, i.e. no changes in the drop-down list Tax class are displayed. Stand 08.08.22)
