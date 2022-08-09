@@ -27,9 +27,9 @@ The accounting has been configured via the configuration wizard, see [Run the ac
 
  > [Info] It is possible to enter digits, letters or combinations of characters. The number of characters is limited to 10.
 
-2.  Enter the starting and finishing date of your fiscal year in the *From - To* fields. The fiscal year shown by default is the current calendar year.
+2.  Enter the start and end date of your fiscal year in the *From* and *To* fields. By default, the current calendar year is preselected as time period for the fiscal year.
 
-  > [Info] The fiscal year must consist of 12 months. However, it does not have to be a calendar year, for example from 1st April to 31st March.
+  > [Info] The fiscal year must consist of 12 months. However, it does not have to be a calendar year, but can be, for example from April 1 to March 31.
 
   > [Info] Fiscal years cannot overlap in time, for example, fiscal years 2022 and 2022-2023 cannot coexist. If two fiscal years overlap, an error message will be displayed. However, a fiscal year for planning purposes can overlap in time with actual fiscal years.
 
@@ -94,4 +94,4 @@ You can delete a fiscal year, for example if it is no longer applicable.
   > [Warning] Be aware that the fiscal year will be deleted permanently.
 
 2. Click the [DELETE] button.  
-  The selected fiscal year has been be deleted.
+  The selected fiscal year has been deleted.
