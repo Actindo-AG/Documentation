@@ -1,5 +1,5 @@
 [!!PIM](PIM)
-[!!User Interface DataHub](../UserInterface/02a_Attributes.md)
+[!!User Interface Attributes](../UserInterface/02a_Attributes.md)
 [!!Manage the products](../../PIM/Operation/01_ManageProducts.md)
 [!!Manage the attribute sets](./02_ManageAttributeSets.md)
 [!!Data type list](../../PIM/UserInterface/04_DataTypeList.md)

@@ -1,5 +1,5 @@
 [!!Omni-Channel](Channels)
-[!!User Interface DataHub](../UserInterface/02d_ETL.md)
+[!!User Interface ETL](../UserInterface/02d_ETL.md)
 [!!Manage an attribute set](../Integration/02_ManageAttributeSets.md)
 [!!Manage the ETL processes](./02_ManageETLProcesses.md)
 [!!Data type list](../../PIM/UserInterface/04_DataTypeList.md)

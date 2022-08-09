@@ -1,4 +1,4 @@
-[!!User Interface DataHub](../UserInterface/02f_Languages.md)
+[!!User Interface Languages](../UserInterface/02f_Languages.md)
 [!!Configure the language settings](../../PIM/Integration/ConfigureLanguages.md)
 
 # Manage the languages

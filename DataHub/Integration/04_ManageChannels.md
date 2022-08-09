@@ -1,4 +1,4 @@
-[!!User Interface DataHub](../UserInterface/02e_Channels.md)
+[!!User Interface Channels](../UserInterface/02e_Channels.md)
 [!!Configure the channel settings](../../PIM/Integration/ConfigureChannels.md)
 
 

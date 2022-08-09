@@ -1,4 +1,4 @@
-[!!User Interface DataHub](../UserInterface/01a_Dashboards.md)
+[!!User Interface Dashboards](../UserInterface/01a_Dashboards.md)
 
 
 # Manage the dashboards

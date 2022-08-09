@@ -1,4 +1,4 @@
-[!!User Interface DataHub](../UserInterface/02j_HTMLTemplates.md)
+[!!User Interface HTML templates](../UserInterface/02j_HTMLTemplates.md)
 
 
 # Manage the HTML templates

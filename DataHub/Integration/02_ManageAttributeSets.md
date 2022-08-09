@@ -1,4 +1,4 @@
-[!!User Interface DataHub](../UserInterface/02b_AttributeSets.md)
+[!!User Interface Attribute sets](../UserInterface/02b_AttributeSets.md)
 [!!Manage the attributes](./01_ManageAttributes.md)
 
 
