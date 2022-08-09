@@ -42,7 +42,7 @@ You can delete a fixed posting batch if it is no longer applicable.
 
 - The accounting is configured via the configuration wizard, see [Run the accounting wizard](./01_RunAccountingWizard.md).
 - A valid fiscal year is created, see [Create a fiscal year](./04_ManageFiscalYear.md#create-a-fiscal-year).
-- A fixed booking batch is created, see [Create a fixed booking batch](#create-a-fixed-booking-batch).
+- At least one fixed booking batch is created, see [Create a fixed booking batch](#create-a-fixed-booking-batch).
 
 #### Procedure
 
@@ -87,18 +87,18 @@ The fixed booking window opens automatically. If it does not, click the [EDIT] b
 
 3. Enter a contra account number in the *Contra account* field.
 
-  > [Info] When you start typing in an account number, a context menu is displayed. You can also select the appropriate option from the menu.
+  > [Info] After you have entered at least two numbers in the field, a list is displayed below the field with all accounts matching the entry. You can also select the corresponding account in the list.
 
-4. Enter the date for the fixed booking in the *Date* field. Date format must be TTMMJJ or TT.MM.JJ.
+4. Enter the date for the fixed booking in the *Date* field. The valid date format is *DDMMYY*.
 
 5. Enter an account number in the *Account* field.
-
+  > [Info] After you have entered at least two numbers in the field, a list is displayed below the field with all accounts matching the entry. You can also select the corresponding account in the list.
   > [Info] Note that the fields *Contra account*, *Date* and *Account* must be filled out to be able to create a new fixed booking.
 
 6. If desired, enter any other relevant fixed posting information in the corresponding fields.
 
 7. Click the [BOOK] button.  
-A message in the window upper left corner confirms that the booking is registered. The newly created fixed booking is displayed in the fixed booking batch.
+The fixed booking is booked. The notice *Booked* is displayed in the upper left corner of the window. The created fixed booking is displayed in the *Fixed bookings &ndash; Batch* window.
 
   ![Fixed booking created](../../Assets/Screenshots/RetailSuiteAccounting/Settings/FixedBookings/FixedBookingCreated.png "[Fixed booking created]")
 
@@ -133,15 +133,15 @@ The fixed booking window opens automatically. If it does not, click the [EDIT] b
 
   ![Edit a fixed booking](../../Assets/Screenshots/RetailSuiteAccounting/Settings/FixedBookings/EditFixedBooking.png "[Edit a fixed booking]")
 
-3. Make any necessary changes in the fields.
+3. Edit the desired data of the fixed booking in the corresponding fields.
 
 4. Click the [BOOK] button.  
-The edited fixed booking is added to the fixed booking batch with a new sequential number.
+A new fixed booking with the indicated modifications is added to the fixed booking batch with a new sequential number.
 
   > [Info] The old fixed booking can be now deleted from the batch. This two-step editing process prevents inadvertently overwriting.
 
 5. Click the [SAVE] button.   
-The edited fixed booking is now saved in the batch.  
+All changes to the fixed bookings are saved.  
 
   > [Info] If you click the [CANCEL] button, the changes will be rejected.
 
