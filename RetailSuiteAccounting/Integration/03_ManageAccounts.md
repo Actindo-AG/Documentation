@@ -23,7 +23,7 @@ You may check the availability of a certain account number before creating it, a
 
 ![Account availability](../../Assets/Screenshots/RetailSuiteAccounting/Settings/Accounts/AccountAvailability.png "[Account availability]")
 
-1. Select the corresponding number range in the *Account class* drop-down list.   
+1.  Click the  *Account class* drop-down list and select the desired number range.   
   All accounts of the selected account class are displayed in the list.
 
 2. Check which account numbers are still available by navigating through the list.
@@ -50,7 +50,7 @@ You can create an account that is not yet available in the system.
 
 2. Enter an account name in the *Description* field.
 
-3. Click the *Tax type* drop-down list and select the appropriate option:
+3. Click the *Tax type* drop-down list and select the appropriate option. The following options are available:
 
       - **( )No tax**
       - **(I)Input tax**
@@ -63,7 +63,7 @@ You can create an account that is not yet available in the system.
 
   > [Info] Before creating an account, it is recommended to check the validity of the tax rate in the corresponding country in the *TAX KEYS* tab.
 
-5. Click the *Special features* drop-down list and select the appropriate option:
+5. Click the *Special features* drop-down list and select the appropriate option. The following options are available:
 
      - **( )Normal**
      - **(L)Locked**
@@ -95,7 +95,7 @@ You can edit an account, for example if a tax rate needs to be updated.
 
 ![Edit an account](../../Assets/Screenshots/RetailSuiteAccounting/Settings/Accounts/EditAccount.png "[Edit an account]")
 
-1. Select the corresponding number range in the *Account class* drop-down list.   
+1. Click the  *Account class* drop-down list and select the desired number range.  
   All accounts of the selected account class are displayed in the list.
 
 2. Select the account to be edited.
