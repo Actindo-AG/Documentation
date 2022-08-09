@@ -4,7 +4,9 @@
 
 ![Tax rates](../../Assets/Screenshots/Taxes/Settings/TaxRates/TaxRates.png "[Tax rates]")
 
-The *TAX RATES* tab displays a list of all available tax rates. The default configuration covers all standard cases for a company based in Germany delivering within the European Union.
+The *TAX RATES* tab displays a list of all available tax rates. The default configuration covers all standard cases for a company based in Germany delivering within the European Union, without exceeding any tax delivery threshold and paying taxes on sales revenue in Germany.
+
+[comment]: <> (Bestätigen mit FH)
 
 Tax rates can be created, edited and deleted to adapt the system to the customer's needs, also dealing with special tax regimes within or outside the European Union. For detailed information about creating, editing or deleting tax rates, see [Manage the tax rates](../Integration/01_ManageTaxRates.md).
 
@@ -12,7 +14,7 @@ Tax rates can be created, edited and deleted to adapt the system to the customer
 **List**
 
 - ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh)   
- Click this button to update the list of products.
+ Click this button to update the list of tax rates.
 - ![Columns](../../Assets/Icons/Columns.png "[Columns]") Columns (x)   
   Click this button to display the columns bar and customize the displayed columns and the order of columns in the list. The *x* indicates the number of columns that are currently displayed in the list.
 
@@ -22,16 +24,20 @@ Tax rates can be created, edited and deleted to adapt the system to the customer
 - [x]     
   Select the checkbox to display the editing toolbar. If you click the checkbox in the header, all tax rates in the list are selected.
 
+  [comment]: <> (Alle Tax rates ausgewählt, aber es ist nicht möglich, etwas zu machen, i.e. keine Editing toolbar angezeigt.)
+
 - [EDIT]   
-  Click this button to edit the selected tax rate. This button is only displayed, when the checkbox of a tax rate is selected. Alternatively, you can click directly a row in the list to edit a product. The *Edit tax rate* view is displayed, see [Edit tax rate](#edit-tax-rate).   
+  Click this button to edit the selected tax rate. This button is only displayed, when the checkbox of a tax rate is selected. Alternatively, you can click directly a row in the list to edit a tax rate. The *Edit tax rate* view is displayed, see [Edit tax rate](#edit-tax-rate).   
   For detailed information, see [Edit a tax rate](../Integration/01_ManageTaxRates.md#edit-a-tax-rate).
+
+[comment]: <> (Ändern in der Zukunft? In neuer UI, Edit-Fenster werden einfach den Namen des ausgewählten Tax rates/Produktes, usw.; Create-Fenster werden "New ..." heißen. Besprochen in UX-Docu Meeting 08.08.22)
 
 - [DELETE]  
 Click this button to delete the selected tax rate. This button is only displayed, when the checkbox of a tax rate is selected.   
 For detailed information, see [Delete a tax rate](../Integration/01_ManageTaxRates.md#delete-a-tax-rate).
 
 
-The list displays all tax rates. All fields are read-only. Depending on the settings, the displayed columns may vary.
+The list displays all available tax rates. All fields are read-only. Depending on the settings, the displayed columns may vary.
 
 - *Tax zone*  
 All configured tax zones. By default, the following tax zones are displayed:
@@ -40,7 +46,7 @@ All configured tax zones. By default, the following tax zones are displayed:
   - **EU**
   - **Third country**
 
-  Tax zones can be created, edited and deleted, see [Create a tax zone](../Operation/03_ManageTaxZones.md).
+  Tax zones can be created, edited and deleted, see [Create a tax zone](../Integration/03_ManageTaxZones.md#create-a-tax-zone).
 
 - *Tax class*  
 All configured tax classes. By default, the following tax zones are displayed:
@@ -48,10 +54,10 @@ All configured tax classes. By default, the following tax zones are displayed:
   - **Standard rate**
   - **Reduced rate**  
 
-  Tax zones can be created, edited and deleted, see [Create a tax class](../Operation/03_ManageTaxClasses.md).
+  Tax zones can be created, edited and deleted, see [Create a tax class](../Integration/02_ManageTaxClasses.md#create-a-tax-zone).
 
 - *Tax rates*  
-Applicable tax rates expressed as percentage and its validity period. Tax rates can be edited, see [Edit a tax rate](../Operation/01_ManageTaxRates.md#edit-a-tax-rate).
+Applicable tax rates expressed as percentage and its validity period. Tax rates can be edited, see [Edit a tax rate](../Integration/01_ManageTaxRates.md#edit-a-tax-rate).
 
 - *Tax key*  
 Applicable tax keys. The tax keys can be checked, created, edited and deleted in the *Accounting* module, see [Manage the tax keys](../../RetailSuiteAccounting/Integration/02_ManageTaxKeys.md).
