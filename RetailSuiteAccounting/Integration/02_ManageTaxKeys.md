@@ -29,9 +29,9 @@ You can create a tax key that is not yet available in the list.
 
 2. Enter a description for the tax key in the *Description* field, for example **VAT 19%**.
 
-3. Enter a validity time frame for the tax key in the *Valid from - to* field.
+3. Enter a validity start and end date for the tax key in the *Valid from* and *to* fields.
 
-4.  Click the *Tax type* drop-down list and select the appropriate option:
+4.  Click the *Tax type* drop-down list and select the appropriate option. The following options are available:
       - **( )Not specified**
       - **(I)Input tax**
       - **(V)VAT**
@@ -50,7 +50,7 @@ You can create a tax key that is not yet available in the list.
 9. Click the [SAVE & NEW] button.  
   The new tax key has been created.
 
-    > [Info] If you inadvertently choose a tax key number that is already assigned, an error message will be displayed. Choose a different number to save your newly created tax key.
+    > [Info] If you try to save a tax key number that is already assigned, an error message will be displayed. Select a different number to save the new tax key.
 
 
 ## Edit a tax key
