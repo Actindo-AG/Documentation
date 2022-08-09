@@ -50,8 +50,10 @@ Specific area within a country or territory where the product is shipped to.
 
   - Click the drop down-list on the left and select the appropriate option. The following options are available:
 
-    - **Range**: Select this option to enter a postcode range, for example, 27498-27498 to limit the criterion to a specific postcode area.
-    - **Regex**: Select this option to use regular expressions to specify postcodes containing alphanumeric characters, for example /^BT.*/.  
+    - **Range**  
+    Select this option to enter a postcode range, for example, 27498-27498 to limit the criterion to a specific postcode area.
+    - **Regex**  
+    Select this option to use regular expressions to specify postcodes containing alphanumeric characters, for example /^BT.*/.  
 
   - Enter the applicable range or regular expression in the field on the right.
 
@@ -73,7 +75,7 @@ Click the drop-down list and select the applicable tax zone. By default, the fol
 
 [comment]: <> (Check with FS if this is correct!)
 
-Tax zones can be created, edited and deleted, see [Manage the tax zones](../Integration/03_ManageTaxZones.md). Any additionally created tax zones are displayed in the *Tax zone* drop-down list. 
+Tax zones can be created, edited and deleted, see [Manage the tax zones](../Integration/03_ManageTaxZones.md). Any additionally created tax zones are displayed in the *Tax zone* drop-down list.
 
 - ![Delete](../../Assets/Icons/Trash08.png "[Delete]") (Delete)  
 Click this button to delete the corresponding entry.  
