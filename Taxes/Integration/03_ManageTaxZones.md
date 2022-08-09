@@ -2,7 +2,7 @@
 [!!Fakturierung](RetailSuiteFaktBase)  
 [!!User Interface Tax zones](../UserInterface/01d_TaxZones.md)  
 [!!Manage the tax rates](./01_ManageTaxRates.md)  
-[!!Manage the tax classes](./01_ManageTaxClasses.md)  
+[!!Manage the tax classes](./02_ManageTaxClasses.md)  
 [!!Manage the decision matrix](../Operation/01_ManageDecisionMatrix.md)  
 
 
