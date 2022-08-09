@@ -1,4 +1,4 @@
-[!!User Interface PIM](../UserInterface/00_UserInterface.md)
+[!!User Interface Catalogs](../UserInterface/03f_Catalogs.md)
 [!!Manage the products](../Operation/01_ManageProducts.md)
 
 

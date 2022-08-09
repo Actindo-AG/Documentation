@@ -1,5 +1,5 @@
 [!!Warehouse](RetailSuiteWarehousing)
-[!!User Interface PIM](../UserInterface/00_UserInterface.md)
+[!!User Interface Products list](../UserInterface/02a_List.md)   
 [!!User Interface Warehouse](../../RetailSuiteWarehousing/UserInterface/00_UserInterface.md)
 [!!Data type list](../UserInterface/04_DataTypeList.md)
 

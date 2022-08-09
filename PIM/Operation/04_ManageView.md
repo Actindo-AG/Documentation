@@ -1,5 +1,5 @@
 [!!DataHub](DataHub)
-[!!User Interface PIM](../UserInterface/00_UserInterface.md)
+[!!User Interface Products list](../UserInterface/02a_List.md)   
 [!!Create a language](../../DataHub/Integration/CreateLanguage.md)
 [!!Configure the language settings](../Integration/04_ConfigureLanguages.md)
 [!!Create a channel](../../DataHub/Integration/CreateChannel.md)

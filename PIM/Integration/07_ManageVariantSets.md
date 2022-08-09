@@ -1,4 +1,4 @@
-[!!User Interface PIM](../UserInterface/00_UserInterface.md)
+[!!User Interface Variant sets](../UserInterface/03g_VariantSets.md)
 [!!Manage the variants](../Operation/02_ManageVariants.md)
 
 

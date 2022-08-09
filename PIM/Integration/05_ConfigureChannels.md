@@ -1,5 +1,5 @@
 [!!DataHub](DataHub)
-[!!User Interface PIM](../UserInterface/00_UserInterface.md)
+[!!User Interface Channels](../UserInterface/03e_Channels.md)
 [!!Create a channel](../../DataHub/Integration/04_ManageChannels.md#create-a-channel)
 
 

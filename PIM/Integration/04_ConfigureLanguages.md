@@ -1,5 +1,5 @@
 [!!DataHub](DataHub)
-[!!User Interface PIM](../UserInterface/00_UserInterface.md)
+[!!User Interface Languages](../UserInterface/03d_Languages.md)
 [!!Create a language](../../DataHub/Integration/05_ManageLanguages.md#create-a-language)
 
 

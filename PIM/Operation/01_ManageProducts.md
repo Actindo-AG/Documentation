@@ -1,5 +1,5 @@
 [!!Omni-Channel](Channels)   
-[!!User Interface PIM](../UserInterface/00_UserInterface.md)   
+[!!User Interface Products list](../UserInterface/02a_List.md)   
 [!!Manage the variants](./02_ManageVariants.md)
 
 
