@@ -9,11 +9,11 @@
 
 The business evaluation (BWA) is a reporting system based on company financial data and provides information about the company's current cost and revenue situation and, consequently, its  profitability. BWA reports serve as a basis for managerial future decisions, and they are widely used by capital investors and credit institutions for company assessment. BWA is an essential planning and controlling tool for the company's future development.
 
-The *BWA assignment* tab in the *Accounting* module enables to create new BWA reports, to copy one of the predefined system reports and edit it, or to delete any of them. All available reports can be completely customized.
+You can create new BWA reports, copy and edit one of the predefined system reports or delete any report. All available reports can be fully customized.
 
  > [Warning] Be aware that any deletion is permanent and cannot be undone, and any changes made will overwrite the preset values.
 
-When customizing existing reports, bear in mind that the reports use the standard accounts set up in the *Accounting* module configuration process. For detailed information, see [Charts of accounts](./01_RunAccountingWizard.md#chart-of-accounts). If the accounts have been customized manually, they will have to be set up again individually for the BWA reports. Otherwise, the BWA reports will not recognized them.
+When customizing existing reports, bear in mind that the reports use the standard accounts set up in the *Accounting* module configuration process. For detailed information, see [Chart of accounts](./01_RunAccountingWizard.md#chart-of-accounts). If the accounts have been customized manually, they must  be set up again individually for the BWA reports. Otherwise, they will not be recognized by the BWA reports.
 
 
 ## Create a BWA report
@@ -81,7 +81,7 @@ You can edit a BWA report to make any necessary changes, for example, change the
 2. Click the ![Edit](../../Assets/Icons/Edit01.png "[Add]") (Edit) button to edit the BWA report.  
   The *Edit* section is displayed.
 
-3. Click the *Report name* field and make any necessary changes.
+3. If desired, click the *Report name* field and edit the name of the BWA report.
 
 4. Click the *Columns* button in the right upper corner.   
   The columns bar is displayed. You can add or delete columns, and change their order by clicking and moving them with the mouse.
@@ -114,7 +114,7 @@ You can edit a BWA report to make any necessary changes, for example, change the
 
 ## Delete a BWA report
 
-You can delete an existing BWA report, either one of the predefined system reports or a newly created one.
+You can delete a BWA report if it is no longer needed, either one of the predefined system reports or a manually created report.
 
 #### Prerequisites
 
@@ -128,10 +128,10 @@ You can delete an existing BWA report, either one of the predefined system repor
 
 ![Delete a BWA report](../../Assets/Screenshots/RetailSuiteAccounting/Settings/BWAAssignment/DeleteBWAReport.png "[Delete a BWA report]")
 
-1. Select the BWA report to be deleted by clicking the checkbox on the left.   
-The toolbar is displayed in the right upper corner.
+1. Select the checkbox of the BWA report to be deleted.    
+The editing toolbar is displayed above the reports list.
 
   > [Warning] Be aware that the existing BWA report will be deleted permanently.
 
-2. Click the ![Delete](../../Assets/Icons/Trash03.png "[Delete]") (Delete) button to delete the BWA report.  
+2. Click the ![Delete](../../Assets/Icons/Trash03.png "[Delete]") (Delete) button in the toolbar.
 The selected BWA report is deleted.
