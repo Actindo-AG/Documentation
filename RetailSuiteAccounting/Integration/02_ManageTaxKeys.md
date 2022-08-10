@@ -88,7 +88,7 @@ You can edit an available tax key, for example if a tax rate needs to be updated
 1. Select the tax key to be edited.   
 The data for the selected tax key are displayed in the corresponding fields at the bottom.
 
-    > [Warning] Be aware that any changes made to a tax key will overwrite the preset values.
+    > [Note] Be aware that any changes made to a tax key will overwrite the preset values.
 
 2. Edit the fields as appropriate.
 
@@ -113,7 +113,7 @@ You can delete a tax key, for example if it is no longer applicable.
 1. Select the tax key to be deleted.  
 The data for the selected tax key are displayed in the corresponding fields at the bottom.  
 
-  > [Warning] Be aware that the tax key will be deleted permanently.
+  > [Note] Be aware that the tax key will be deleted permanently.
 
 2. Click the [DELETE] button.  
   The selected tax key has been deleted.
