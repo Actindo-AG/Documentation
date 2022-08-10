@@ -14,16 +14,19 @@ You can create a customer/supplier that is not yet available in the system.
 
 #### Prerequisites
 
-- The accounting is configured via the configuration wizard, see [Run the accounting wizard](./01_RunAccountingWizard.md).
-- A valid fiscal year is created, see [Create a fiscal year](./04_ManageFiscalYear.md#create-a-fiscal-year).
+A fiscal year has been selected, see [Select the fiscal year](../Operation/01_SelectFiscalYear.md).
 
 #### Procedure
 
-*Accounting > Select the fiscal year > Settings > Tab DEBTORS/CREDITORS > Tab Create customer/supplier*
+*Accounting > Settings > Tab DEBTORS/CREDITORS > Tab Create customer/supplier*
 
 ![Create a customer/supplier](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/CreateCustomerSupplier.png "[Create a customer/supplier]")
 
-1. Click the *Create debtor/creditor* drop-down list in the *Address/Contact* sub-tab and select the appropriate option (**Debtor (customer)/Creditor (supplier)**).
+1. Click the *Create debtor/creditor* drop-down list in the *Address/Contact* sub-tab and select the appropriate option. The following options are available:
+
+  - **Debtor (customer)**: Select this option to create a customer.
+  - **Creditor (supplier)**: Select this option to create a supplier.
+
 
 2. Enter a number for the customer/supplier in the *Debtor/creditor no.* field or leave it empty for the next free number.
 
@@ -49,15 +52,14 @@ You can edit a customer/supplier, for example, if certain data need to be change
 
 #### Prerequisites
 
-- The accounting is configured via the configuration wizard, see [Run the accounting wizard](./01_RunAccountingWizard.md).
-- A valid fiscal year is created, see [Create a fiscal year](./04_ManageFiscalYear.md#create-a-fiscal-year).
+- A fiscal year has been selected, see [Select the fiscal year](../Operation/01_SelectFiscalYear.md).
 - At least one customer or supplier is created, see [Create a customer/supplier](#create-a-customersupplier).
 
 #### Procedure
 
-*Accounting > Select the fiscal year > Settings > Tab DEBTORS/CREDITORS > Tab Customer/supplier list*
-*Accounting > Select the fiscal year > Settings > Tab DEBTORS/CREDITORS > Tab Customer list*
-*Accounting > Select the fiscal year > Settings > Tab DEBTORS/CREDITORS > Tab Supplier list*
+*Accounting > Settings > Tab DEBTORS/CREDITORS > Tab Customer/supplier list*
+*Accounting > Settings > Tab DEBTORS/CREDITORS > Tab Customer list*
+*Accounting > Settings > Tab DEBTORS/CREDITORS > Tab Supplier list*
 ![Edit a customer/supplier](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/EditCustomerSupplier.png "[Edit a customer/supplier]")
 
 1. Double click the customer or supplier to be edited.   
@@ -79,13 +81,12 @@ You can delete a customer/supplier, for example if it is no longer applicable.
 
 #### Prerequisites
 
-- The accounting is configured via the configuration wizard, see [Run the accounting wizard](./01_RunAccountingWizard.md).
-- A valid fiscal year is created, see [Create a fiscal year](./04_ManageFiscalYear.md#create-a-fiscal-year).
+- A fiscal year has been selected, see [Select the fiscal year](../Operation/01_SelectFiscalYear.md).
 -  At least one customer or supplier is created, see [Create a customer/supplier](#create-a-customersupplier).
 
 #### Procedure
 
-*Accounting > Select the fiscal year > Settings > Tab DEBTORS/CREDITORS > Tab Customer/supplier list*
+*Accounting > Settings > Tab DEBTORS/CREDITORS > Tab Customer/supplier list*
 
 ![Delete a customer/supplier](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/DeleteCustomerSupplier.png "[Delete a customer/supplier]")
 
