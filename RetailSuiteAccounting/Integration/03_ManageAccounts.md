@@ -79,8 +79,9 @@ You can create an account that is not yet available in the system.
   > [Info] The account-specific currency may differ from the base currency, for instance if transactions are performed in a different country.
 
 8. Click the [SAVE & NEW] button.   
-The account has been saved. The new account is displayed in the account list.
+A small pop-up window confirms that the new account has been saved. The new account is displayed in the list.
 
+  ![Saved](../../Assets/Screenshots/RetailSuiteAccounting/Settings/Accounts/Saved.png "[Saved]")
 
 ## Edit an account
 
@@ -107,8 +108,9 @@ The data for the selected account are displayed in the corresponding fields at t
 3. Edit the fields as appropriate.
 
 4. Click the [SAVE] button.   
-The account has been edited. The edited account is displayed in the list.
+A small pop-up window confirms that the edited account has been saved. The edited account is displayed in the list.
 
+  ![Saved](../../Assets/Screenshots/RetailSuiteAccounting/Settings/Accounts/Saved.png "[Saved]")
 
 ## Delete an account
 
@@ -129,4 +131,6 @@ A fiscal year has been selected, see [Select the fiscal year](../Operation/01_Se
   > [Note] Be aware that the account will be deleted permanently.
 
 2. Click the [DELETE] button.  
-  The selected account has been deleted.
+  A small pop-up window confirms that the account has been deleted. The deleted account is no longer displayed in the list.
+
+  ![Deleted](../../Assets/Screenshots/RetailSuiteAccounting/Settings/Accounts/Deleted.png "[Deleted]")

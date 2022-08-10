@@ -53,7 +53,7 @@ The accounting wizard has been started, see [Start wizard](#start-wizard).
 
  > [Info] The fiscal year must consist of 12 months. However, it does not have to be a calendar year, but can be, for example from April 1 to March 31.
 
-3. Select the base currency in the *Currency* drop-down list. The drop-down list displays all currencies configured in the system. However, the accounting module works with the base currency only.
+3. Click the *Currency* drop-down list and select the base currency. The drop-down list displays all currencies configured in the system. However, the accounting module works with the base currency only.
 
  > [Info] The base currency is the currency used by a company for accounting purposes, usually the currency of the country where the business is primarily based, even if it operates in other countries and currencies.
 
@@ -78,8 +78,7 @@ The accounting wizard has been started, see [Start wizard](#start-wizard).
     > [Info] A fiscal year for planning purposes will not be recognized as an actual fiscal year by the system, and therefore the automatic functions in the interaction with other modules will not apply.
 
 6. Click the [SAVE & NEW] button.  
-The new fiscal year is created.
-A small pop-up window and a green check mark confirm that the new fiscal year has been saved. The newly created fiscal year is also displayed in the list.
+The new fiscal year is created. A small pop-up window and a green check mark confirm that the new fiscal year has been saved. The newly created fiscal year is also displayed in the list.
 
 7. Click the [CONTINUE] button.   
 The *Chart of accounts* wizard window is displayed.

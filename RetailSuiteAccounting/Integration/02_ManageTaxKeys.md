@@ -66,7 +66,9 @@ A fiscal year has been selected, see [Select the fiscal year](../Operation/01_Se
 [comment]: <> (FH: Unsicher. Stimmt das so? Kein EG-Steuerschlüssel Option in Drop-down-Liste wird nicht nur bei Drittländern angezeigt.)
 
 9. Click the [SAVE & NEW] button.  
-  The tax key has been created. The new tax key is displayed in the list.
+  A small pop-up window confirms that the new tax key has been saved. The new tax key is displayed in the list.
+
+  ![Saved](../../Assets/Screenshots/RetailSuiteAccounting/Settings/TaxKeys/Saved.png "[Saved]")
 
   > [Info] If you try to save a tax key number that is already assigned, an error message will be displayed. Select a different number to save the new tax key.
 
@@ -93,8 +95,9 @@ The data for the selected tax key are displayed in the corresponding fields at t
 2. Edit the fields as appropriate.
 
 3. Click the [SAVE] button.   
-The tax key has been edited. The edited tax key is displayed in the list.
+A small pop-up window confirms that the edited tax key has been saved. The edited tax key is displayed in the list.
 
+  ![Saved](../../Assets/Screenshots/RetailSuiteAccounting/Settings/TaxKeys/Saved.png "[Saved]")
 
 ## Delete a tax key
 
@@ -116,4 +119,6 @@ The data for the selected tax key are displayed in the corresponding fields at t
   > [Note] Be aware that the tax key will be deleted permanently.
 
 2. Click the [DELETE] button.  
-  The selected tax key has been deleted.
+  A small pop-up window confirms that the tax key has been deleted. The deleted tax key is no longer displayed in the list.
+
+  ![Deleted](../../Assets/Screenshots/RetailSuiteAccounting/Settings/TaxKeys/Deleted.png "[Deleted]")
