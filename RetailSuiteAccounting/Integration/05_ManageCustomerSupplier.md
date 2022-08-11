@@ -114,7 +114,7 @@ You can delete a customer/supplier, for example if it is no longer applicable.
 2. Click the [DELETE CUSTOMER/SUPPLIER (XXXX)] button.  
 A confirmation window is displayed.
 
-  ![Delete confirmation](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/DeleteConfirmationWindow.png "[Delete confirmation]")
+  ![Delete confirmation](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/DeleteConfirmation.png "[Delete confirmation]")
 
 
 3. Click [OK] if you want to proceed. A pop-up window is displayed to confirm that the customer/supplier has been deleted.
