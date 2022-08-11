@@ -24,5 +24,5 @@ No Prerequisites to fulfill.
 
   > [Info] At least one channel has to be activated.
 
-2. Press **F5** to initialize the Core1 Platform.   
-  The selected channel is activated in the *PIM* module.
+2. Press **F5** to initialize the *Core1 Platform*.   
+  The selected channel has been activated in the *PIM* module.

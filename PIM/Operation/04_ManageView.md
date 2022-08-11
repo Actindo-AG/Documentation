@@ -1,5 +1,5 @@
 [!!DataHub](DataHub)
-[!!User Interface Products list](../UserInterface/02a_List.md)   
+[!!User Interface Product list](../UserInterface/02a_List.md)   
 [!!Create a language](../../DataHub/Integration/CreateLanguage.md)
 [!!Configure the language settings](../Integration/04_ConfigureLanguages.md)
 [!!Create a channel](../../DataHub/Integration/CreateChannel.md)
@@ -17,7 +17,7 @@ You can select the language for which the attribute values of the products are d
 
 #### Prerequisites
 
-At least two languages must be created and activated in the *PIM* module, see [Create a language](../../DataHub/Integration/CreateLanguage.md) and [Configure the language settings](../Integration/04_ConfigureLanguages.md).
+At least two languages have been created and activated in the *PIM* module, see [Create a language](../../DataHub/Integration/CreateLanguage.md) and [Configure the language settings](../Integration/04_ConfigureLanguages.md).
 
 > [Info] By default, the languages *English (United States)* and *Deutsch (Deutschland)* are created and activated in the *PIM* module.
 
@@ -32,7 +32,7 @@ At least two languages must be created and activated in the *PIM* module, see [C
   > [Info] For detailed information about activating a language in the *PIM* module, see [Configure the language settings](../Integration/04_ConfigureLanguages.md).
 
 2. Select the desired language in the *Language* drop-down list.   
-  The multi-language values in the columns change to the values in the selected language. All single language values remain unchanged.
+  The multi-language values in the columns has been changed to the values in the selected language. All single language values remain unchanged.
 
   > [Info] If a product has no attribute value defined in the selected language, the value in the corresponding columns remains blank.
 
@@ -44,7 +44,7 @@ You can select the channel for which the attribute values of the products are di
 
 #### Prerequisites
 
-At least two channels must be created and activated in the *PIM* module, see [Create a channel](../../DataHub/Integration/CreateChannel.md) and [Configure the channel settings](../Integration/05_ConfigureChannels.md).
+At least two channels have been created and activated in the *PIM* module, see [Create a channel](../../DataHub/Integration/CreateChannel.md) and [Configure the channel settings](../Integration/05_ConfigureChannels.md).
 
 > [Info] By default, the channel *Actindo Basic* is created and activated in the *PIM* module.
 
@@ -59,7 +59,7 @@ At least two channels must be created and activated in the *PIM* module, see [Cr
   > [Info] For detailed information about activating a channel in the *PIM* module, see [Configure the channel settings](../Integration/05_ConfigureChannels.md).
 
 2. Select the desired channel in the *Channel* drop-down list.   
-  The multi-channel values in the columns change to the values in the selected channel. All single channel values remain unchanged.
+  The multi-channel values in the columns have been changed to the values in the selected channel. All single channel values remain unchanged.
 
   > [Info]  If a product has no attribute value defined in the selected language, the value in the corresponding column remains blank.
 
@@ -71,9 +71,9 @@ You can select a product category to limit the number of products to those produ
 
 #### Prerequisites
 
-- At least one catalog is created, see [Create a catalog](../Integration/06_ManageCatalogs.md##create-a-catalog).
-- At least one category is created within the catalog, see [Create a category](../Integration/06_ManageCatalogs.md##create-a-category).
-- At least one product is assigned to a category, see [Assign a product to a catalog category](../Integration/06_ManageCatalogs.md##assign-a-product-to-a-catalog-category)
+- At least one catalog has been created, see [Create a catalog](../Integration/06_ManageCatalogs.md##create-a-catalog).
+- At least one category has been created within the catalog, see [Create a category](../Integration/06_ManageCatalogs.md##create-a-category).
+- At least one product has been assigned to a category, see [Assign a product to a catalog category](../Integration/06_ManageCatalogs.md##assign-a-product-to-a-catalog-category)
 
 #### Procedure
 *PIM > Products > Tab LIST*
@@ -93,7 +93,7 @@ You can select a product category to limit the number of products to those produ
 
   ![Select category](../../Assets/Screenshots/PIM/Products/List/SelectCategory.png "[Select category]")
 
-  > [Info] When you create a product, it is automatically assigned to the currently selected category.
+  > [Info] When you create a product, it will be automatically assigned to the currently selected category.
 
 
 
@@ -110,7 +110,7 @@ No prerequisites to fulfill.
 
 ![Product list](../../Assets/Screenshots/PIM/Products/List/Products.png "[Product list]")
 
-1. Click the *Variants* drop-down list at the top of the products list.   
+1. Click the *Variants* drop-down list at the top of the product list.   
   The options below are displayed:
   - **All products**: All products and their variants are displayed in the product list.   
   - **Hide variants**: No variants are displayed in the product list.
@@ -174,6 +174,6 @@ No prerequisites to fulfill.
 6. Enter a name for the view in the *Name* field.
 
 7. Click the [SAVE] button.   
-  The view is saved and preselected in the *View* drop-down list.
+  The view has been saved and preselected in the *View* drop-down list.
 
-> [Info] To change the view, click the *View* drop-down list and select the view you want to display. The view changes depending on the saved settings.
+> [Info] To change the view, click the *View* drop-down list and select the view you want to display. The view will change depending on the saved settings.

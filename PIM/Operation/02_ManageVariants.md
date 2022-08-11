@@ -1,4 +1,4 @@
-[!!User Interface Products list](../UserInterface/02a_List.md)   
+[!!User Interface Product list](../UserInterface/02a_List.md)   
 [!!Manage the products](./01_ManageProducts.md)
 [!!Create a variant set](../Integration/07_ManageVariantSets.md#create-a-variant-set)
 
@@ -15,9 +15,11 @@ You can create a single or multiple variants to a product directly when you crea
 
 ### Define the variants basic data
 
+Define the basic inputs, such as name and description, for the variant.
+
 #### Prerequisites
 
-A variant set is created to the attribute set of the product you want to assign the variants to, see [Create a variant set](../Integration/07_ManageVariantSets.md#create-a-variant-set).
+A variant set has been created to the attribute set of the product you want to assign the variants to, see [Create a variant set](../Integration/07_ManageVariantSets.md#create-a-variant-set).
 
 #### Procedure
 *PIM > Products > Tab LIST*
@@ -33,19 +35,19 @@ The *Create new product* window is displayed.
 
 3. Enter a SKU for the product in the *SKU* field.
 
-  > [Info] The SKU (Stock Keeping Unit) is an identification number for the product. Therefore, it should be uniquely assigned to a single product.
+  > [Info] The SKU (Stock Keeping Unit) is an identification number for the product. Therefore, it should be unique within the *PIM* module.
 
 4. Click the [CREATE] button.   
 The *Create Product* view is displayed. The *Attributes* tab is preselected.
 
   ![Attributes](../../Assets/Screenshots/PIM/Products/List/Attributes/AttributesCreate.png "[Attributes]")
 
-5. Enter the data for the product in the *Attributes* tab. You must at least complete the *Product Name*, *Price* and *Tax class* fields.   
+5. Enter the data for the product in the *Attributes* tab. It is recommended to complete at least the *Product Name*, *Price* and *Tax class* fields.   
 
   > [Info] All fields marked with the note *(required)* are used for the completeness calculation of product attributes. You can enable the *show empty required attributes only* toggle to display only the incomplete required attribute fields for the selected product.
 
 6. Click the *Variants* tab.   
-The *Variants* tab is displayed.
+  The *Variants* tab is displayed.
 
   ![Variants](../../Assets/Screenshots/PIM/Products/List/Variants/VariantsCreate.png "[Variants]")
 
@@ -61,9 +63,11 @@ The [Add single variant ![Add single variant](../../Assets/Icons/Document.png "[
 
 ### Create a single variant
 
+Create a single variant to a product.
+
 #### Prerequisites
 
-A variant set is created to the attribute set of the product you want to assign the variants to, see [Create a variant set](../Integration/07_ManageVariantSets.md#create-a-variant-set).
+A variant set has been created to the attribute set of the product you want to assign the variants to, see [Create a variant set](../Integration/07_ManageVariantSets.md#create-a-variant-set).
 
 #### Procedure
 *PIM > Products > Tab LIST > Button Add > Tab Variants > Select variant set > Button Add*   
@@ -82,19 +86,21 @@ A variant set is created to the attribute set of the product you want to assign 
   The selected attribute value is displayed in the box.
 
 4. Click the [SAVE] button in the bottom right corner.   
-  The new variant is added to the product. The *Add single variant* window is closed. The variant is displayed in the variants list.
+  The new variant has been added to the product. The *Add single variant* window is closed. The variant is displayed in the variants list.
 
   ![Variant added](../../Assets/Screenshots/PIM/Products/List/Variants/VariantAddedCreate.png "[Variant added]")
 
 5. Click the [SAVE] button in the upper right corner.   
-  The variant is saved. The product view is closed. The variant is displayed in the products list when you enable the **All products** option in the *Variants* drop-down list at the top of the products list.
+  The variant has been saved. The product view is closed. The variant is displayed in the product list when you enable the **All products** option in the *Variants* drop-down list at the top of the product list.
 
 
 ### Create multiple variants
 
+Create multiple variants at once for the same master product.
+
 #### Prerequisites
 
-A variant set is created to the attribute set of the product you want to assign the variants to, see [Create a variant set](../Integration/07_ManageVariantSets.md#create-a-variant-set).
+A variant set has been created to the attribute set of the product you want to assign the variants to, see [Create a variant set](../Integration/07_ManageVariantSets.md#create-a-variant-set).
 
 #### Procedure
 *PIM > Products > Tab LIST > Button Add > Tab Variants > Select variant set > Button Add*   
@@ -130,12 +136,12 @@ A variant set is created to the attribute set of the product you want to assign 
   > [Info] To remove a variant from the list, select the checkbox of the variant and click the ![Delete](../../Assets/Icons/Trash03.png "[Delete]") (Delete) button in the editing toolbar displayed above the list.
 
 7. Click the [FINISH] button in the bottom right corner.   
-  The new variants are added to the product. The *Summary* wizard window is closed. The variants are displayed in the variants list.
+  The new variants have been added to the product. The *Summary* wizard window is closed. The variants are displayed in the variants list.
 
   ![Variants added](../../Assets/Screenshots/PIM/Products/List/Variants/VariantsAddedCreate.png "[Variants added]")
 
 8. Click the [SAVE] button in the upper right corner.   
-  The variant is saved. The product view is closed. The variants are displayed in the products list when you enable the **All products** option in the *Variants* drop-down list at the top of the products list.
+  The variants have been saved. The product view is closed. The variants are displayed in the product list when you enable the **All products** option in the *Variants* drop-down list at the top of the product list.
 
   > [Info] For detailed information about the different views, see [Manage the view](./04_ManageView.md).
 
@@ -147,8 +153,8 @@ You can add a single or multiple variants to a product directly when you create 
 
 #### Prerequisites
 
-- At least one product is created, see [Create a product](./01_ManageProducts.md#create-a-product).
-- A variant set is created to the attribute set of the master product, see [Create a variant set](../Integration/07_ManageVariantSets.md#create-a-variant-set).
+- At least one product has been created, see [Create a product](./01_ManageProducts.md#create-a-product).
+- A variant set has been created to the attribute set of the master product, see [Create a variant set](../Integration/07_ManageVariantSets.md#create-a-variant-set).
 
 #### Procedure
 *PIM > Products > Tab LIST*
@@ -184,15 +190,15 @@ After you have created a variant, you can edit it. Note that only defining and c
 
 #### Prerequisites
 
-At least one variant is created, see [Create variants](#create-variants) or [Add variants](#add-variants).
+At least one variant has been created, see [Create variants](#create-variants) or [Add variants](#add-variants).
 
 #### Procedure
 *PIM > Products > Tab LIST*
 
 ![Product list](../../Assets/Screenshots/PIM/Products/List/Products.png "[Product list]")
 
-1. Click the *Variants* drop-down list at the top of the products list and select the **All products** option.   
-  All products including the variants are displayed in the products list.
+1. Click the *Variants* drop-down list at the top of the product list and select the **All products** option.   
+  All products including the variants are displayed in the product list.
 
   ![All products](../../Assets/Screenshots/PIM/Products/List/AllProducts.png "[All products]")
 
@@ -206,4 +212,4 @@ At least one variant is created, see [Create variants](#create-variants) or [Add
   > [Info] Note that changes of the defining attributes are also applied to the variant settings of the master product. Especially when you are using a SKU with the defining attribute values as a placeholder, it is not recommended to modify a defining attribute value.
 
 4. Click the [SAVE] button in the upper right corner.   
-  The changes are saved. The *Edit Product* view is closed.
+  The changes have been saved. The *Edit Product* view is closed.

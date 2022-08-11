@@ -21,7 +21,7 @@
   - [Deactivate an attribute set](./02_ManageAttributeSets.md#deactivate-an-attribute-set)
 
 
-- [Manage the attribute groups](./03_ManageAttributeGroups.md)
+- [Manage an attribute group](./03_ManageAttributeGroups.md)
   - [Create an attribute group](./03_ManageAttributeGroups.md#create-an-attribute-group)
   - [Edit an attribute group](./03_ManageAttributeGroups.md#edit-an-attribute-group)
     - [Create an attribute sub-group](./03_ManageAttributeGroups.md#create-an-attribute-sub-group)

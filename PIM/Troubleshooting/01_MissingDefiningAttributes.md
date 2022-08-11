@@ -5,6 +5,7 @@
 # Add a missing defining attribute
 
 #### Error Description
+
 A certain attribute is missing in the list of defining attributes for a variant set.
 
 Follow the instructions below to check why the attribute is not displayed and, if applicable, to display the attribute in the list.
@@ -36,9 +37,9 @@ No prerequisites to fulfill.
 4. Check if the *Active* toggle is enabled. Only active attributes are displayed in the list of defining attributes for a variant set. If the toggle is disabled, enable the toggle by clicking it.
 
 5. Click the [SAVE] button in the upper right corner to save any changes.   
-  The changes are applied. The *Edit Attribute* view is closed.
+  The changes have been applied. The *Edit Attribute* view is closed.
 
-6. Press **F5** to initialize the Core1 Platform.
+6. Press **F5** to initialize the *Core1 Platform*.
 
 7. Switch to the *VARIANT SETS* tab: *PIM > Settings > Tab VARIANT SETS* .      
   The variant sets list is displayed.
@@ -49,7 +50,7 @@ No prerequisites to fulfill.
 
   ![Formulas](../../Assets/Screenshots/PIM/Settings/VariantSets/Formulas.png "[Formulas]")
 
-9. In the *Defining attributes* box, click the ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) button.   
+9. In the *Defining attributes* box, click the ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) button.    
   The *Add defining attributes* view is displayed.
 
   ![Add defining attributes](../../Assets/Screenshots/PIM/Settings/VariantSets/AddDefiningAttributes.png "[Add defining attributes]")

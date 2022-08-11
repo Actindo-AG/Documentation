@@ -14,7 +14,9 @@ Create a variant set to be able to create variants to products. A variant set is
 
 #### Prerequisites
 
-An attribute set is created, see [Create an attribute set](./02_ManageAttributeSets.md#create-an-attribute-set).
+An attribute set has been created, see [Create an attribute set](./02_ManageAttributeSets.md#create-an-attribute-set).
+
+> [Info] By default, the *PIM Basic Set* attribute set has been predefined in the *Core1 Platform*.
 
 #### Procedure
 *PIM > Settings > Tab VARIANT SETS*
@@ -53,8 +55,10 @@ You have to select at least one defining attribute to create a variant set. You 
 
 #### Prerequisites
 
-- An attribute set is created, see [Create an attribute set](./02_ManageAttributeSets.md#create-an-attribute-set).
+- An attribute set has been created, see [Create an attribute set](./02_ManageAttributeSets.md#create-an-attribute-set).
 - The basic data of the variant set has been completed, see [Define the variant set basic data](#Define-the-variant-set-basic-data).
+
+> [Info] By default, the *PIM Basic Set* attribute set has been predefined in the *Core1 Platform*.
 
 #### Procedure
 *PIM > Settings > Tab VARIANT SETS > Button Add*
@@ -79,7 +83,7 @@ You have to select at least one defining attribute to create a variant set. You 
     > [Info] You can edit the formula in the *Formula for SKU* field and include the defining attribute placeholder.
 
 4. If desired, add changeable attributes to the variant set, see [Add changeable attributes](#add-changeable-attributes). Otherwise, click the [SAVE] button in the upper right corner.   
-  The *Create variant set* view is closed. The new variant set is saved and displayed in the list of variant sets.
+  The *Create variant set* view is closed. The new variant set has been saved and is displayed in the list of variant sets.
 
 
 
@@ -89,8 +93,10 @@ You can select changeable attributes for a variant set. If you want to define an
 
 #### Prerequisites
 
-- An attribute set is created, see [Create an attribute set](./02_ManageAttributeSets.md#create-an-attribute-set).
+- An attribute set has been created, see [Create an attribute set](./02_ManageAttributeSets.md#create-an-attribute-set).
 - The basic data of the variant set has been completed, see [Define the variant set basic data](#Define-the-variant-set-basic-data).
+
+> [Info] By default, the *PIM Basic Set* attribute set has been predefined in the *Core1 Platform*.
 
 #### Procedure
 *PIM > Settings > Tab VARIANT SETS > Button Add*
@@ -113,7 +119,7 @@ You can select changeable attributes for a variant set. If you want to define an
   ![Changeable attributes added](../../Assets/Screenshots/PIM/Settings/VariantSets/ChangeableAttributesAdded.png "[Changeable attributes added]")
 
 4. Click the [SAVE] button in the upper right corner.   
-  The *Create variant set* view is closed. The new variant set is saved and displayed in the list of variant sets.
+  The *Create variant set* view is closed. The new variant set has been saved and is displayed in the list of variant sets.
 
 
 
@@ -138,7 +144,7 @@ At least one variant set has been created, see [Create a variant set](#create-a-
 2. Edit the desired data of the variant set in the corresponding fields.
 
 3. Click the [SAVE] button in the upper right corner.   
-  The changes are saved. The *Edit variant set* view is closed.
+  The changes have been saved. The *Edit variant set* view is closed.
 
 [comment]: <> (I have to refresh the list to apply the changes - is that a bug?)
 
@@ -152,7 +158,7 @@ You can remove defining and changeable attributes from the variant set. Note, th
 
 #### Prerequisites
 
-A variant set is created, see [Create a variant set](#create-a-variant-set).
+A variant set has been created, see [Create a variant set](#create-a-variant-set).
 
 #### Procedure
 *PIM > Settings > Tab VARIANT SETS*
@@ -171,6 +177,6 @@ A variant set is created, see [Create a variant set](#create-a-variant-set).
   The attribute is removed from the list.
 
 4. Click the [SAVE] button in the upper right corner.   
-  The changes are saved. The *Edit variant set* view is closed.
+  The changes have been saved. The *Edit variant set* view is closed.
 
   [comment]: <> (I have to refresh the list to apply the changes - is that a bug?)

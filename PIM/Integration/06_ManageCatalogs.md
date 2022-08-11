@@ -67,14 +67,14 @@ The catalog basic data has been created, see [Define the catalog basic data](#de
 4. Enter a key for the category of the catalog in the *Key* field.
 
 5. Click the [SAVE] button.   
-  The catalog category is created. The *Add Element* window is closed. The new category is displayed in the category column.
+  The catalog category has been created. The *Add Element* window is closed. The new category is displayed in the category column.
 
   ![Category created](../../Assets/Screenshots/PIM/Settings/Catalogs/CategoryCreated.png "[Category created]")
 
   > [Info] To add an additional category, repeat the steps **1** to **5**. To add a sub-category, see [Create a sub-category](#create-a-sub-category).  
 
 6. Click the [SAVE] button in the upper right corner.  
-  The new catalog is saved. The *Create new catalog* view is closed.
+  The new catalog has been saved. The *Create new catalog* view is closed.
 
 
 
@@ -88,7 +88,7 @@ Create a sub-category to be able to assign products to individual categories in 
 
 #### Prerequisites
 
-At least one catalog with one category is created, see [Create a catalog](#create-a-catalog).
+At least one catalog with one category has been created, see [Create a catalog](#create-a-catalog).
 
 #### Procedure
 *PIM > Settings > Tab CATALOGS*
@@ -126,14 +126,14 @@ At least one catalog with one category is created, see [Create a catalog](#creat
 8. Enter a key for the sub-category in the *Key* field.
 
 9. Click the [SAVE] button.   
-  The catalog sub-category is created. The *Add Element* window is closed. The new sub-category is displayed in the sub-category column.
+  The catalog sub-category has been created. The *Add Element* window is closed. The new sub-category is displayed in the sub-category column.
 
   > [Info] To add an additional sub-category, repeat the steps **4** to **8**. You can create an unlimited number of sub-categories in an unlimited number of levels. The procedure to create a sub-category in another level is identical to creating a sub-category. Just select the category or sub-category to which you want to create another sub-category and click the corresponding plus sign in the column of the respective level.
 
 [comment]: <> (number of levels depends on screen size -> should it not be limited to a certain number of level?)
 
 10. Click the [SAVE] button in the upper right corner.   
-  The new sub-category is saved. The *Edit catalog* view is closed.
+  The new sub-category has been saved. The *Edit catalog* view is closed.
 
 
 
@@ -143,8 +143,8 @@ The order of categories within the catalog is also displayed in the products vie
 
 #### Prerequisites
 
-- At least one catalog is created, see [Create a catalog](#create-a-catalog).
-- At least two categories are created within the catalog, see [Create a category](#create-a-category).
+- At least one catalog has been created, see [Create a catalog](#create-a-catalog).
+- At least two categories have been created within the catalog, see [Create a category](#create-a-category).
 
 #### Procedure
 *PIM > Settings > Tab CATALOGS*
@@ -171,7 +171,7 @@ The order of categories within the catalog is also displayed in the products vie
 3. By using drag and drop, move the selected category to the desired position in the list.
 
 4. Click the [SAVE] button in the upper right corner.  
-  The new category order is saved. The *Edit category* view is closed.
+  The new category order has been saved. The *Edit category* view is closed.
 
 
 
@@ -181,8 +181,8 @@ Delete a category that is no longer needed. If you delete a category containing 
 
 #### Prerequisites
 
-- At least one catalog is created, see [Create a catalog](#create-a-catalog).
-- At least one category is created within the catalog, see [Create a category](#create-a-category).
+- At least one catalog has been created, see [Create a catalog](#create-a-catalog).
+- At least one category has been created within the catalog, see [Create a category](#create-a-category).
 
 #### Procedure
 *PIM > Settings > Tab CATALOGS*
@@ -212,12 +212,12 @@ Delete a category that is no longer needed. If you delete a category containing 
   > [Info] The ![Edit](../../Assets/Icons/Edit03.png "[Edit]") (Edit) button is only displayed if you hover over the respective category.
 
 5. Click the ![Delete](../../Assets/Icons/Trash01.png "[Delete]") (Delete) button in the bottom left corner of the category data window.    
-  The selected category is removed from the category column. The category data window is closed.
+  The selected category has been removed from the category column. The category data window is closed.
 
   > [Warning] Make sure that no product is assigned to the category that will be deleted as problems may occur to products that are still assigned to a deleted category.
 
 6. Click the [SAVE] button in the upper right corner.  
-  The category is deleted. The *Edit category* view is closed.
+  The category has been deleted. The *Edit category* view is closed.
 
 
 
@@ -225,8 +225,8 @@ Delete a category that is no longer needed. If you delete a category containing 
 
 #### Prerequisites
 
-- At least one catalog is created, see [Create a catalog](#create-a-catalog).
-- At least one category is created within the catalog, see [Create a category](#create-a-category).
+- At least one catalog has been created, see [Create a catalog](#create-a-catalog).
+- At least one category has been created within the catalog, see [Create a category](#create-a-category).
 
 #### Procedure
 *PIM > Products > Tab LIST*
@@ -258,7 +258,7 @@ Delete a category that is no longer needed. If you delete a category containing 
   ![Assigned categories Iphone](../../Assets/Screenshots/PIM/Products/List/Catalogs/AssignedCategoriesIphone.png "[Assigned categories Iphone]")
 
 6. Click the [SAVE] button in the upper right corner.  
-  The product is assigned to the selected category. The *Edit Product* view is closed. The list of products is displayed again.
+  The product has been assigned to the selected category. The *Edit Product* view is closed. The list of products is displayed again.
 
 6. Select the appropriate catalog and the assigned category in the left side bar.
   The list of products displays only those products that are assigned to the selected category.

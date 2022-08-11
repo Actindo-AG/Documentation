@@ -1,6 +1,9 @@
+[!!DataHub](DataHub)
 [!!User Interface Attributes](../UserInterface/03a_Attributes.md)
 [!!Manage the products](../Operation/01_ManageProducts.md)
 [!!Data type list](../UserInterface/04_DataTypeList.md)
+[!!Recover an attribute](../../DataHub/Integration/01_ManageAttribute.md#recover-an-attribute)
+[!!Finally delete an attribute](../../DataHub/Integration/01_ManageAttributes.md#finally-delete-an-attribute)
 
 
 # Manage an attribute
@@ -85,23 +88,25 @@ No prerequisites to fulfill.
   > [Info] You can assign the attribute to multiple sets. Repeat the steps **7** to **8** to assign the attribute to a further attribute set. To delete the assignment to a selected set, click the ![Delete](../../Assets/Icons/Trash01.png "[Delete]") (Delete) button right to the set.
 
 8. If required, configure the settings in the *CONFIGURATION* section.   
-For detailed information about the different configuration settings, see [Data type list](../UserInterface/04_DataTypeList.md).
+  For detailed information about the different configuration settings, see [Data type list](../UserInterface/04_DataTypeList.md).
 
   > [Info] By default, the status of a new attribute is set to active. To deactivate a new attribute for use, disable the *Active* toggle. For detailed information, see [Deactivate an attribute](#deactivate-an-attribute).
 
 9. Click the [SAVE] button in the upper right corner.   
-  The new attribute is saved. The *Create Attribute* view is closed.  
+  The new attribute has been saved. The *Create Attribute* view is closed.  
 
 
 
 ## Edit an attribute
 
 After you have created an attribute, you can edit it. However, only some attribute properties are editable. For instance, the data type and the attribute key cannot be subsequently modified. The assignment of an attribute to an attribute set must be changed in the [attribute set](ManageAttributeSet.md) itself.   
-There are also some attributes that are automatically created by the system, for instance when installing a plugin or module. These system attributes are read-only and cannot be edited. It is highly recommended not to deactivate these attributes to avoid interfering with the functioning of the Core1 Platform.
+There are also some attributes that are automatically created by the system, for instance when installing a plugin or module. These system attributes are read-only and cannot be edited. It is highly recommended not to deactivate these attributes to avoid interfering with the functioning of the *Core1 Platform*.
 
 #### Prerequisites
 
-At least one attribute is created, see [Create an attribute](#create-an-attribute).
+At least one attribute has been created, see [Create an attribute](#create-an-attribute).
+
+> [Info] By default, a certain number of attributes has been predefined in the *PIM Basic Set* attribute set.
 
 #### Procedure
 *PIM > Settings > Tab ATTRIBUTES*
@@ -124,7 +129,7 @@ At least one attribute is created, see [Create an attribute](#create-an-attribut
    > [Info] If you want to change the attribute set assignments of the selected attribute, you have to modify the corresponding attribute set, see [Manage the attribute sets](./02_ManageAttributeSets.md).
 
 4. Click the [SAVE] button in the upper right corner.   
-  The changes are saved. The *Edit Attribute* view is closed.  
+  The changes has been saved. The *Edit Attribute* view is closed.  
 
 
 
@@ -134,7 +139,9 @@ It is recommended to deactivate an attribute instead of deleting it to prevent a
 
 #### Prerequisites
 
-At least one attribute is created, see [Create an attribute](#create-an-attribute).
+At least one attribute has been created, see [Create an attribute](#create-an-attribute).
+
+> [Info] By default, a certain number of attributes has been predefined in the *PIM Basic Set* attribute set.
 
 #### Procedure
 *PIM > Settings > Tab ATTRIBUTES*
@@ -151,9 +158,9 @@ At least one attribute is created, see [Create an attribute](#create-an-attribut
    > [Info] If you want to reactivate an attribute, enable the *Active* toggle.
 
 3. Click the [SAVE] button in the upper right corner.   
-  The attribute is deactivated. The *Edit Attribute* view is closed.
+  The attribute has been deactivated. The *Edit Attribute* view is closed.
 
-4. Press **F5** to initialize the Core1 Platform and to apply the changes.   
+4. Press **F5** to initialize the *Core1 Platform* and to apply the changes.   
 
 
 
@@ -163,7 +170,9 @@ You can delete an attribute from the *PIM* module and move it to the *DELETED AT
 
 #### Prerequisites
 
-At least one attribute is created, see [Create an attribute](#create-an-attribute).
+At least one attribute has been created, see [Create an attribute](#create-an-attribute).
+
+> [Info] By default, a certain number of attributes has been predefined in the *PIM Basic Set* attribute set.
 
 #### Procedure
 *PIM > Settings > Tab ATTRIBUTES*
@@ -173,14 +182,15 @@ At least one attribute is created, see [Create an attribute](#create-an-attribut
 1. Select the checkbox of the attribute you want to delete in the list of attributes.   
   The editing toolbar is displayed above the attributes list.
 
-2. Click the [DELETE] button in the toolbar. The *Confirm deletion of attribute?* window is displayed.
+2. Click the [DELETE] button in the toolbar.   
+  The *Confirm deletion of attribute?* window is displayed.
 
   ![Confirm deletion of attribute](../../Assets/Screenshots/PIM/Settings/Attributes/ConfirmDeletionAttribute.png "[Confirm deletion of attribute]")
 
   > [Info] In the window all dependencies to attribute sets, ETL-mappings and entity entries are displayed. Be aware that problems may occur if you delete an attribute with existing dependencies. For defining attributes, the [CONFIRM] button is not displayed in the *Confirm deletion of attribute?* window as they cannot be deleted.   
 
-3. Click the [CONFIRM] button in the bottom right corner.
-  The attribute is deleted and moved to the *DELETED ATTRIBUTES* tab in the *DataHub* module. The *Confirm deletion of attribute?* window is closed.
+3. Click the [CONFIRM] button in the bottom right corner.   
+  The attribute has been deleted and moved to the *DELETED ATTRIBUTES* tab in the *DataHub* module. The *Confirm deletion of attribute?* window is closed.
 
   > [Warning] Problems may occur if you delete an attribute with existing dependencies.  
 
