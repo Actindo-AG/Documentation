@@ -18,11 +18,14 @@ In contrast to attribute sets created in the *PIM* module, you have to select an
 
 [comment]: <> (What does that mean -> what consequences has the entity type? All PIM attribute sets = entity type PIM product? List of entity types?)
 
+
 ### Define the attribute set basic data
+
+Define the basic inputs, such as name and description, for the attribute set.
 
 #### Prerequisites
 
-The attributes for the attribute set are created, see [Create an attribute](./01_ManageAttributs.md#create-an-attribute).
+Additional attributes for the attribute set have been created, see [Create an attribute](./01_ManageAttributs.md#create-an-attribute).
 
 #### Procedure
 *DataHub > Settings > Tab ATTRIBUTE SETS*
@@ -57,8 +60,8 @@ When you create an attribute set without inheritance, you have to add all attrib
 
 #### Prerequisites
 
-- The attributes for the attribute set are created, see [Create an attribute](./01_ManageAttributs.md#create-an-attribute).
-- The basic data of the attribute set is completed, see [Define the attribute set basic data](#define-the-attribute-set-basic-data)
+- Additional attributes for the attribute set have been created, see [Create an attribute](./01_ManageAttributs.md#create-an-attribute).
+- The basic data of the attribute set has been completed, see [Define the attribute set basic data](#define-the-attribute-set-basic-data).
 
 #### Procedure
 *DataHub > Settings > Tab ATTRIBUTE SETS*
@@ -69,7 +72,7 @@ When you create an attribute set without inheritance, you have to add all attrib
   The *Inherit configuration* toggle and the *Inherit/Copy values* drop-down list are locked.
 
 2. Click the [SAVE] button.   
-  The new attribute set is saved. The *Create attribute set* view changes to the *Edit attribute set* view. The *Attribute set created* pop-up window is displayed.   
+  The new attribute set has been saved. The *Create attribute set* view changes to the *Edit attribute set* view. The *Attribute set created* pop-up window is displayed.   
 
   ![Attribute set created](../../Assets/Screenshots/DataHub/Settings/AttributeSets/AttributeSetCreated.png "[Attribute set created]")   
 
@@ -83,8 +86,8 @@ When you create an attribute set with attribute inheritance, you adopt all attri
 
 #### Prerequisites
 
-- The attributes for the attribute set are created, see [Create an attribute](./01_ManageAttributs.md#create-an-attribute).
-- The basic data of the attribute set is completed, see [Define the attribute set basic data](#define-the-attribute-set-basic-data)
+- Additional attributes for the attribute set have been created, see [Create an attribute](./01_ManageAttributs.md#create-an-attribute).
+- The basic data of the attribute set has been completed, see [Define the attribute set basic data](#define-the-attribute-set-basic-data).
 
 #### Procedure
 *DataHub > Settings > Tab ATTRIBUTE SETS*
@@ -98,7 +101,7 @@ When you create an attribute set with attribute inheritance, you adopt all attri
 3. Select the **Inherit** option in the *Inherit/Copy values* drop-down list.
 
 4. Click the [SAVE] button.   
-  The new attribute set is saved. The *Create attribute set* view changes to the *Edit attribute set* view. The *Attribute set created* pop-up window is displayed.   
+  The new attribute set has been saved. The *Create attribute set* view changes to the *Edit attribute set* view. The *Attribute set created* pop-up window is displayed.   
 
   ![Attribute set created](../../Assets/Screenshots/DataHub/Settings/AttributeSets/AttributeSetCreated.png "[Attribute set created]")     
 
@@ -111,8 +114,8 @@ When you create an attribute set with attribute copying, you copy all attributes
 
 #### Prerequisites
 
-- The attributes for the attribute set are created, see [Create an attribute](./01_ManageAttributs.md#create-an-attribute).
-- The basic data of the attribute set is completed, see [Define the attribute set basic data](#define-the-attribute-set-basic-data)
+- Additional attributes for the attribute set have been created, see [Create an attribute](./01_ManageAttributs.md#create-an-attribute).
+- The basic data of the attribute set has been completed, see [Define the attribute set basic data](#define-the-attribute-set-basic-data).
 
 #### Procedure
 *DataHub > Settings > Tab ATTRIBUTE SETS*
@@ -126,7 +129,7 @@ When you create an attribute set with attribute copying, you copy all attributes
 3. Select the **Copy once** option in the *Inherit/Copy values* drop-down list.
 
 4. Click the [SAVE] button.   
-  The new attribute set is saved. The *Create attribute set* view changes to the *Edit attribute set* view. The *Attribute set created* pop-up window is displayed.   
+  The new attribute set has been saved. The *Create attribute set* view changes to the *Edit attribute set* view. The *Attribute set created* pop-up window is displayed.   
 
   ![Attribute set created](../../Assets/Screenshots/DataHub/Settings/AttributeSets/AttributeSetCreated.png "[Attribute set created]")     
 
@@ -145,8 +148,10 @@ In the *DataHub* module all available attributes can be added to the different a
 
 #### Prerequisites
 
-- An attribute set is created, see [Create an attribute set](#create-an-attribute-set).
-- At least one additional attribute is created, see [Create an attribute](./01_ManageAttributes.md#create-an-attribute).
+- An attribute set has been created, see [Create an attribute set](#create-an-attribute-set).
+- At least one additional attribute has been created, see [Create an attribute](./01_ManageAttributes.md#create-an-attribute).
+
+> [Info] By default, the *PIM Basic Set* attribute set has been predefined in the *Core1 Platform*.
 
 #### Procedure
 *DataHub > Settings > Tab ATTRIBUTE SETS*
@@ -169,10 +174,10 @@ In the *DataHub* module all available attributes can be added to the different a
   The editing toolbar is displayed above the list.
 
 4. Click the [ADD] button in the editing toolbar.   
-  The selected attributes are added to the attribute set. The *Add attributes* view is closed. The *Edit attribute set* view is displayed again. The added attributes are displayed in the *Assigned attributes* section.
+  The selected attributes have been added to the attribute set. The *Add attributes* view is closed. The *Edit attribute set* view is displayed again. The added attributes are displayed in the *Assigned attributes* section.
 
 5. Click the [SAVE] button.   
-  The changes are saved. The *Edit attribute set* view is closed.
+  The changes have been saved. The *Edit attribute set* view is closed.
 
 
 ### Remove an attribute from the set
@@ -181,8 +186,10 @@ Remove an attribute from an attribute set to limit the specifications. Inherited
 
 #### Prerequisites
 
-- An attribute set is created, see [Create an attribute set](#create-an-attribute-set).
-- At least one attribute is added to the attribute set, see [Add an attribute to the set](#add-an-attribute-to-the-set).
+- An attribute set has been created, see [Create an attribute set](#create-an-attribute-set).
+- At least one additional attribute has been added to the attribute set, see [Add an attribute to the set](#add-an-attribute-to-the-set).
+
+> [Info] By default, the *PIM Basic Set* attribute set has been predefined in the *Core1 Platform*.
 
 #### Procedure
 *DataHub > Settings > Tab ATTRIBUTE SETS*
@@ -198,12 +205,12 @@ Remove an attribute from an attribute set to limit the specifications. Inherited
   The editing toolbar is displayed above the list.
 
 3. Click the ![Delete](../../Assets/Icons/Trash03.png "[Delete]") (Delete) button in the editing toolbar.   
-  The selected attributes are removed from the attribute set. The list of attributes is updated.
+  The selected attributes have been removed from the attribute set. The list of attributes is updated.
 
   > [Info] If the selected attributes cannot be removed from the attribute set, an error message is displayed in the upper right corner.
 
 4. Click the [SAVE] button.   
-  The changes are saved. The *Edit attribute set* view is closed.
+  The changes have been saved. The *Edit attribute set* view is closed.
 
 
 ### Change the required attributes in the set
@@ -213,7 +220,9 @@ Be aware that the activation or deactivation of languages affects the completene
 
 #### Prerequisites
 
-An attribute set is created, see [Create an attribute set](#create-an-attribute-set).
+An attribute set has been created, see [Create an attribute set](#create-an-attribute-set).
+
+> [Info] By default, the *PIM Basic Set* attribute set has been predefined in the *Core1 Platform*.
 
 #### Procedure
 *DataHub > Settings > Tab ATTRIBUTE SETS*
@@ -235,7 +244,7 @@ An attribute set is created, see [Create an attribute set](#create-an-attribute-
   > [Info] Be aware that you can only edit the *Required* option for attributes that are not inherited.
 
 4. Click the ![Settings](../../Assets/Icons/Settings02.png "[Settings]") (Settings) button in the *Assigned attributes* section.       
-  The *Required* column in the list of attributes is locked. All changes in the attribute list are saved.
+  The *Required* column in the list of attributes is locked. All changes in the attribute list have been saved.
 
 5. Click the ![Back](../../Assets/Icons/Back02.png "[Back]") (Back) button in the upper left corner to return to the list of attribute sets or proceed to [edit the attribute set](#edit-an-attribute-set).
 
@@ -247,7 +256,9 @@ If an attribute set is no longer used, it is recommended to deactivate the attri
 
 #### Prerequisites
 
-At least one attribute set is created, see [Create an attribute set](#create-an-attribute-set).
+At least one attribute set has been created, see [Create an attribute set](#create-an-attribute-set).
+
+> [Info] By default, the *PIM Basic Set* attribute set has been predefined in the *Core1 Platform*.
 
 #### Procedure
 *DataHub > Settings > Tab ATTRIBUTE SETS*
@@ -264,6 +275,6 @@ At least one attribute set is created, see [Create an attribute set](#create-an-
      > [Info] If you want to reactivate an attribute set, enable the *Active* toggle.
 
 3. Click the [SAVE] button.   
-  The attribute set is deactivated. The *Edit attribute set* view is closed.
+  The attribute set has been deactivated. The *Edit attribute set* view is closed.
 
-4. Press **F5** to initialize the Core1 Platform and to apply the changes.
+4. Press **F5** to initialize the *Core1 Platform* and to apply the changes.

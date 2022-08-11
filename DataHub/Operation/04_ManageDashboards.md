@@ -26,7 +26,7 @@ No prerequisites to fulfill.
 2. Enter a name for the dashboard tab in the *Tab name* field.
 
 3. Click the [SAVE] button in the bottom right corner.   
-  The *Add a new tab* window is closed. The new dashboard is saved and displayed.
+  The *Add a new tab* window is closed. The new dashboard has been saved and is displayed.
 
   > [Info] You can create an unlimited number of dashboard tabs and customize them to the desired purpose.
 
@@ -42,7 +42,7 @@ Add the desired dashlets to your dashboard to get an overview over the processes
 
 #### Prerequisites
 
-A dashboard tab is created, see [Create a dashboard](#create-a-dashboard).
+A dashboard tab has been created, see [Create a dashboard](#create-a-dashboard).
 
 #### Procedure
 *DataHub > Overview > Tab DASHBOARDS*
@@ -67,10 +67,10 @@ A dashboard tab is created, see [Create a dashboard](#create-a-dashboard).
   > [Info] For detailed information about the available dashlets, see [Dashlet picker](../UserInterface/01a_Dashboards.md#dashlet-picker).
 
 5. Click the [ACCEPT] button in the bottom right corner of the window.   
-  The selected dashlets are added to the dashboard. The *Dashlet picker* window is closed.
+  The selected dashlets have been added to the dashboard. The *Dashlet picker* window is closed.
 
 6. Click the [SAVE] button.   
-  The dashboard is saved. The *Edit tab* view is closed.
+  The dashboard has been saved. The *Edit tab* view is closed.
 
   > [Info] If you want to change the dashlet positioning, see [Change the dashlets arrangement](#change-the-dashlets-arrangement).
 
@@ -82,7 +82,7 @@ Change the viewport to adjust the view of the dashboard to the currently used de
 
 #### Prerequisites
 
-A dashboard tab is created, see [Create a dashboard](#create-a-dashboard).
+A dashboard tab has been created, see [Create a dashboard](#create-a-dashboard).
 
 #### Procedure
 *DataHub > Overview > Tab DASHBOARDS*
@@ -103,11 +103,11 @@ A dashboard tab is created, see [Create a dashboard](#create-a-dashboard).
   - **Tablet**: The tablet view is applied to the tab.  
   - **Laptop**: The laptop view is applied to the tab.  
   - **Desktop**: The desktop view is applied to the tab.  
-  The tab layout is adapted to the selected view. The *Viewport loaded* notice is displayed in the footer.
+  The tab layout has been adapted to the selected view. The *Viewport loaded* notice is displayed in the footer.
 
 
 4. Click the [SAVE] button.   
-  Any changes to the dashboard are saved. The *Edit tab* view is closed.
+  Any changes to the dashboard have been saved. The *Edit tab* view is closed.
 
 [comment]: <> (Wenn ich den Mobile viewport wählen, verschwinden alle Dashlets -> Bug?!)
 
@@ -119,8 +119,8 @@ Change the arrangement of the dashlets on a dashboard to optimize the view for y
 
 #### Prerequisites
 
-- A dashboard tab is created, see [Create a dashboard](#create-a-dashboard).
-- At least one dashlet is added to the dashboard, see [Add a dashlet](#add-a-dashlet).
+- A dashboard tab has been created, see [Create a dashboard](#create-a-dashboard).
+- At least one dashlet has been added to the dashboard, see [Add a dashlet](#add-a-dashlet).
 
 #### Procedure
 *DataHub > Overview > Tab DASHBOARDS*
@@ -142,7 +142,7 @@ Change the arrangement of the dashlets on a dashboard to optimize the view for y
   ![Move dashlet](../../Assets/Screenshots/DataHub/Overview/MoveDashlet.png "[Move dashlet]")
 
 5. Click the [SAVE] button.   
-  Any changes to the dashboard are saved. The *Edit tab* view is closed.
+  Any changes to the dashboard have been saved. The *Edit tab* view is closed.
 
 
 
@@ -152,8 +152,8 @@ Remove a dashlet from a dashboard if it is not needed for the purposes or was ad
 
 #### Prerequisites
 
-- A dashboard tab is created, see [Create a dashboard](#create-a-dashboard).
-- At least one dashlet is added to the dashboard, see [Add a dashlet](#add-a-dashlet).
+- A dashboard tab has been created, see [Create a dashboard](#create-a-dashboard).
+- At least one dashlet has been added to the dashboard, see [Add a dashlet](#add-a-dashlet).
 
 #### Procedure
 *DataHub > Overview > Tab DASHBOARDS*
@@ -169,12 +169,12 @@ Remove a dashlet from a dashboard if it is not needed for the purposes or was ad
   ![Edit tab](../../Assets/Screenshots/DataHub/Overview/EditTab.png "[EditTab]")
 
 3. Click the ![Remove](../../Assets/Icons/Cross03.png "[Remove]") (Remove) button in the upper right corner of the dashlet you want to delete.    
-  The dashlet is removed from the dashboard.
+  The dashlet has been removed from the dashboard.
 
   > [Info] The removal cannot be undone. To recover a dashlet, you have to add it again, see [Add a dashlet](#add-a-dashlet).
 
 4. Click the [SAVE] button.   
-  Any changes to the dashboard are saved. The *Edit tab* view is closed.
+  Any changes to the dashboard have been saved. The *Edit tab* view is closed.
 
 
 
@@ -184,7 +184,7 @@ Delete a dashboard that is no longer needed to keep track of the other dashboard
 
 #### Prerequisites
 
-At least one dashboard tab is created, see [Create a dashboard](#create-a-dashboard).
+A dashboard tab has been created, see [Create a dashboard](#create-a-dashboard).
 
 #### Procedure
 *DataHub > Overview > Tab DASHBOARDS*
@@ -197,6 +197,6 @@ At least one dashboard tab is created, see [Create a dashboard](#create-a-dashbo
   ![Confirm tab deletion](../../Assets/Screenshots/DataHub/Overview/ConfirmTabDeletion.png "[Confirm tab deletion]")
 
 2. Click the [ACCEPT] button in the bottom right corner.   
-  The *Confirm tab deletion* window is closed. The dashboard is deleted.
+  The *Confirm tab deletion* window is closed. The dashboard has been deleted.
 
   > [Info] Be aware that the dashboard cannot be recovered as the deletion process cannot be undone.

@@ -4,7 +4,7 @@
 
 # Manage the channels
 
-A channel is needed to create offers for a certain connection. By default, the *Actindo Basic* channel is preset. If you want to maintain multiple channels, you have to create and activate the respective channels.
+A channel is needed to create offers for a certain connection. By default, the *Actindo Basic* channel has been preset. If you want to maintain multiple channels, you have to create and activate the respective channels.
 
 > [Info] A channel is not equal to a marketplace or web store connection. You can create a channel and use it for another connection.
 
@@ -37,7 +37,7 @@ No prerequisites to fulfill.
   > [Info] The channel must be activated to be used.
 
 5. Click the [SAVE] button in the upper right corner.   
-  The new channel is saved. The *Create channel* view is closed.  
+  The new channel has been saved. The *Create channel* view is closed.  
 
 
 
@@ -47,9 +47,9 @@ After you have created a channel, you can edit its name, description and key.
 
 #### Prerequisites
 
-At least one channel is created, see [Create a channel](../Integration/CreateChannel.md).
+At least one channel has been created, see [Create a channel](../Integration/CreateChannel.md).
 
-> [Info] By default, the *Actindo Basic* channel is created.
+> [Info] By default, the *Actindo Basic* channel has been predefined in the *Core1 Platform*.
 
 #### Procedure
 *DataHub > Settings > Tab CHANNELS*
@@ -64,7 +64,7 @@ At least one channel is created, see [Create a channel](../Integration/CreateCha
 2. Edit the desired data of the channel in the corresponding fields.
 
 3. Click the [SAVE] button in the upper right corner.   
-  The changes are saved. The *Edit channel* view is closed.  
+  The changes have been saved. The *Edit channel* view is closed.  
 
 
 
@@ -74,9 +74,9 @@ Deactivate a channel when it should not be used for a certain time. The channel 
 
 #### Prerequisites
 
-At least one channel is created, see [Create a channel](#create-a-channel).
+At least one channel has been created, see [Create a channel](#create-a-channel).
 
-> [Info] By default, the *Actindo Basic* channel is created.
+> [Info] By default, the *Actindo Basic* channel has been predefined in the *Core1 Platform*.
 
 #### Procedure
 *DataHub > Settings > Tab CHANNELS*
@@ -91,7 +91,7 @@ At least one channel is created, see [Create a channel](#create-a-channel).
 2. Disable the *Active* toggle.
 
 3. Click the [SAVE] button in the upper right corner.   
-  The channel is deactivated. The *Edit channel* view is closed.
+  The channel has been deactivated. The *Edit channel* view is closed.
 
 
 
@@ -101,9 +101,9 @@ You can delete a channel if it is no longer needed. As there are usually existin
 
 #### Prerequisites
 
-At least one channel is created, see [Create a channel](#create-a-channel).
+At least one channel has been created, see [Create a channel](#create-a-channel).
 
-> [Info] By default, the *Actindo Basic* channel is created. The *Actindo Basic* channel cannot be deleted.
+> [Info] By default, the *Actindo Basic* channel has been predefined in the *Core1 Platform*. The *Actindo Basic* channel cannot be deleted.
 
 #### Procedure
 *DataHub > Settings > Tab CHANNELS*
@@ -114,6 +114,6 @@ At least one channel is created, see [Create a channel](#create-a-channel).
   The editing toolbar is displayed above the channel list.
 
 2. Click the [DELETE] button in the toolbar.  
-  The channel is deleted. The deletion cannot be undone.
+  The channel has been deleted. The deletion cannot be undone.
 
   > [Info] If the selected channel cannot be deleted, an error message is displayed in the upper right corner. To prevent the channels use, it is recommended to [deactivate the channel](#deactivate-a-channel) instead of delete it.

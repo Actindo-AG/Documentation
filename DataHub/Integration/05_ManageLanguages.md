@@ -3,7 +3,7 @@
 
 # Manage the languages
 
-The different languages are needed to be able to maintain attributes in different languages. By default, the languages *English (United States)* and *German (Germany)* are preset. If you want to maintain further languages, you have to create and activate the respective languages. You can create an unlimited number of languages.
+The different languages are needed to be able to maintain attributes in different languages. By default, the languages *English (United States)* and *German (Germany)* have been preset. If you want to maintain further languages, you have to create and activate the respective languages. You can create an unlimited number of languages.
 
 ## Create a language
 
@@ -32,7 +32,7 @@ No prerequisites to fulfill.
   > [Info] The language must be activated to be used.
 
 5. Click the [SAVE] button in the upper right corner.   
-  The new language is saved. The *Create language* view is closed.  
+  The new language has been saved. The *Create language* view is closed.  
 
 
 
@@ -42,9 +42,9 @@ After you have created a language, you can edit its name or key.
 
 #### Prerequisites
 
-At least one language is created, see [Create a language](../Integration/CreateLanguage.md).
+At least one language has been created, see [Create a language](../Integration/CreateLanguage.md).
 
-> [Info] By default, the languages *English (United States)* and *German (Germany)* are created.
+> [Info] By default, the languages *English (United States)* and *German (Germany)* have been predefined in the *Core1 Platform*.
 
 #### Procedure
 *DataHub > Settings > Tab LANGUAGES*
@@ -59,7 +59,7 @@ At least one language is created, see [Create a language](../Integration/CreateL
 2. Edit the desired data of the language in the corresponding fields.
 
 3. Click the [SAVE] button in the upper right corner.   
-  The changes are saved. The *Edit language* view is closed.  
+  The changes have been saved. The *Edit language* view is closed.  
 
 
 
@@ -69,9 +69,9 @@ Deactivate a language when it should not be used for a certain time. The languag
 
 #### Prerequisites
 
-At least one language is created, see [Create a language](#create-a-language).
+At least one language has been created, see [Create a language](#create-a-language).
 
-> [Info] By default, the languages *English (United States)* and *German (Germany)* are created.
+> [Info] By default, the languages *English (United States)* and *German (Germany)* have been predefined in the *Core1 Platform*.
 
 #### Procedure
 *DataHub > Settings > Tab LANGUAGES*
@@ -86,7 +86,7 @@ At least one language is created, see [Create a language](#create-a-language).
 2. Disable the *Active* toggle.
 
 3. Click the [SAVE] button in the upper right corner.   
-  The language is deactivated. The *Edit language* view is closed.
+  The language has been deactivated. The *Edit language* view is closed.
 
 
 
@@ -96,9 +96,9 @@ You can delete a language if it is no longer needed. As there are usually existi
 
 #### Prerequisites
 
-At least one language is created, see [Create a language](#create-a-language).
+At least one language has been created, see [Create a language](#create-a-language).
 
-> [Info] By default, the languages *English (United States)* and *German (Germany)* are created. Both languages cannot be deleted.
+> [Info] By default, the languages *English (United States)* and *German (Germany)* have been predefined in the *Core1 Platform*.
 
 #### Procedure
 *DataHub > Settings > Tab LANGUAGES*
@@ -109,6 +109,6 @@ At least one language is created, see [Create a language](#create-a-language).
   The editing toolbar is displayed above the language list.
 
 2. Click the [Delete] button in the toolbar.  
-  The language is deleted. The deletion cannot be undone.
+  The language has been deleted. The deletion cannot be undone.
 
   > [Info] If the selected language cannot be deleted, an error message is displayed in the upper right corner. To prevent the languages use, it is recommended to [deactivate the language](#deactivate-a-language) instead of delete it.

@@ -12,7 +12,7 @@ Create an HTML template so that it is available for the ETL mapping.
 
 #### Prerequisites
 
-The *HTML Templates for ETL* plugin is installed.
+The *HTML Templates for ETL* plugin have been installed.
 
 #### Procedure
 *DataHub > Settings > Tab HTML TEMPLATES*
@@ -34,7 +34,7 @@ The *HTML Templates for ETL* plugin is installed.
 
 
 5. Click the [SAVE] button in the upper right corner.   
-  The new HTML template is saved. The *Create HTML template* view is closed.  
+  The new HTML template has been saved. The *Create HTML template* view is closed.  
 
 
 
@@ -44,7 +44,7 @@ You can include HTML text in the HTML template.
 
 #### Prerequisites
 
-The *HTML Templates for ETL* plugin is installed.
+The *HTML Templates for ETL* plugin has been installed.
 
 #### Procedure
 
@@ -61,7 +61,7 @@ The *HTML Templates for ETL* plugin is installed.
 2. If desired, [include Smarty templates](#include-smarty-templates) or display a [preview of the HTML template](#preview-an-html-template).
 
 3. Click the [SAVE] button in the upper right corner.   
-  The HTML template is saved. The *HTML template* view is closed.  
+  The HTML template has been saved. The *HTML template* view is closed.  
 
 
 
@@ -71,7 +71,7 @@ You can include Smarty templates into your HTML template. Always use the delimit
 
 #### Prerequisites
 
-The *HTML Templates for ETL* plugin is installed.
+The *HTML Templates for ETL* plugin has been installed.
 
 #### Procedure
 
@@ -88,7 +88,7 @@ The *HTML Templates for ETL* plugin is installed.
 2. If desired, [include HTML text](#include-html-text) or display a [preview of the HTML template](#preview-an-html-template).
 
 3. Click the [SAVE] button in the upper right corner.   
-  The HTML template is saved. The *HTML template* view is closed.  
+  The HTML template has been saved. The *HTML template* view is closed.  
 
 
 
@@ -98,7 +98,7 @@ You can include variables for attributes via Smarty templates into your HTML tem
 
 #### Prerequisites
 
-The *HTML Templates for ETL* plugin is installed.
+The *HTML Templates for ETL* plugin has been installed.
 
 #### Procedure
 
@@ -123,7 +123,7 @@ The *HTML Templates for ETL* plugin is installed.
 4. If desired, display a [preview of the HTML template](#preview-an-html-template).
 
 5. Click the [SAVE] button in the upper right corner.   
-  The HTML template is saved. The *HTML template* view is closed.  
+  The HTML template has been saved. The *HTML template* view is closed.  
 
 
 
@@ -133,7 +133,8 @@ A tree node variable is a special type of variables that can be included via Sma
 
 #### Prerequisites
 
-The *HTML Templates for ETL* plugin is installed.
+- The *HTML Templates for ETL* plugin has been installed.
+- At least one tree node variable is available.
 
 #### Procedure
 
@@ -152,7 +153,7 @@ The *HTML Templates for ETL* plugin is installed.
 3. If desired, display a [preview of the HTML template](#preview-an-html-template).
 
 4. Click the [SAVE] button in the upper right corner.   
-  The HTML template is saved. The *HTML template* view is closed.  
+  The HTML template has been saved. The *HTML template* view is closed.  
 
 
 
@@ -162,7 +163,7 @@ It is possible to define a varible in such a way, that it is language independen
 
 #### Prerequisites
 
-The *HTML Templates for ETL* plugin is installed.
+The *HTML Templates for ETL* plugin has been installed.
 
 #### Procedure
 
@@ -181,7 +182,7 @@ The *HTML Templates for ETL* plugin is installed.
 3. If desired, display a [preview of the HTML template](#preview-an-html-template).
 
 4. Click the [SAVE] button in the upper right corner.   
-  The HTML template is saved. The *HTML template* view is closed.  
+  The HTML template has been saved. The *HTML template* view is closed.  
 
 
 
@@ -191,8 +192,7 @@ After you have created an HTML template, you can edit it. You can edit the name,
 
 #### Prerequisites
 
-- The *HTML Templates for ETL* plugin is installed.
-- At least one HTML template is created, see [Create an HTML template](#create-an-html-template).
+At least one HTML template has been created, see [Create an HTML template](#create-an-html-template).
 
 #### Procedure
 *DataHub > Settings > Tab HTML TEMPLATES*
@@ -209,7 +209,7 @@ After you have created an HTML template, you can edit it. You can edit the name,
 3. If desired, use the preview functionality in the *Preview* section to display the possible variables or a template preview for the selected entity. For detailed information, see [Preview an HTML template](#preview-an-html-template).
 
 4. Click the [SAVE] button in the upper right corner.   
-  The changes are saved. The *Edit HTML template* view is closed.  
+  The changes have been saved. The *Edit HTML template* view is closed.  
 
 
 
@@ -219,7 +219,7 @@ It is possible to display all available variables of a certain entity so that yo
 
 #### Prerequisites
 
-The *HTML Templates for ETL* plugin is installed.
+The *HTML Templates for ETL* plugin has been installed.
 
 #### Procedure
 
@@ -231,12 +231,12 @@ The *HTML Templates for ETL* plugin is installed.
 
 1. In the *Preview* section at the bottom of the *HTML template* view, select an entity type in the drop-down list *Entity type*. All available entities are displayed in the list.
 
-  > [Info] The available entities depend on the modules installed in your Core1 Platform.
+  > [Info] The available entities depend on the modules installed in your *Core1 Platform*.
 
 2. Enter the corresponding entity identification number of the entity in the field *Entity ID*.
 
 3. Click the [SHOW POSSIBLE VARIABLES] button.  
-  A new browser window opens displaying a all possible variables for the selected entity.
+  A new browser window is displayed with all possible variables for the selected entity.
 
   ![Show possible variables](../../Assets/Screenshots/DataHub/Settings/HTMLTemplates/ShowPossibleVariables.png "[Show possible variables]")
 
@@ -250,8 +250,7 @@ It is possible to display a preview of the HTML template to check its functional
 
 #### Prerequisites
 
-- The *HTML Templates for ETL* plugin is installed.
-- At least one HTML template is created, see [Create an HTML template](#create-an-html-template).
+At least one HTML template has been created, see [Create an HTML template](#create-an-html-template).
 
 #### Procedure
 
@@ -263,12 +262,12 @@ It is possible to display a preview of the HTML template to check its functional
 
 2. In the *Preview* section at the bottom of the *Edit HTML template* view, select an entity type in the drop-down list *Entity type*. All available entities are displayed in the list.
 
-  > [Info] The available entities depend on the modules installed in your Core1 Platform.
+  > [Info] The available entities depend on the modules installed in your *Core1 Platform*.
 
 3. Enter the corresponding entity identification number of the entity for which you want to preview the template in the field *Entity ID*.
 
 4. Click the [SAVE AND PREVIEW TEMPLATE] button.  
-  The template is saved and a new browser window opens displaying a preview of the template for the selected entity.
+  The template has been saved and a new browser window is displayed with a preview of the template for the selected entity.
 
   ![Preview](../../Assets/Screenshots/DataHub/Settings/HTMLTemplates/Preview.png "[Preview]")
 

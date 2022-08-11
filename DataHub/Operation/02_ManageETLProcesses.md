@@ -63,6 +63,7 @@ If the selected change tracking mode of an ETL mapping equals **Semi-automatic**
 - At least one of the triggered ETL processes has the change tracking mode **Semi-automatic** or **Semi-automatic, changes must be confirmed by another user**.
 
 #### Procedure
+
 *DataHub > Settings > Tab ETL PROCESSES*
 
 ![ETL processes](../../Assets/Screenshots/DataHub/Settings/ETLProcesses/ETLProcesses.png "[ETL processes]")
@@ -83,42 +84,8 @@ If the selected change tracking mode of an ETL mapping equals **Semi-automatic**
   The editing toolbar is displayed above the list.
 
 5. Click the [CONFIRM] button in the editing toolbar.   
-  The selected mappings are removed from the list. The mappings are applied. The confirmed mappings are displayed in the *ETL PROCESSES* tab of the *Datahub* module with the **Semi-automatic accepted** status.
+  The selected mappings have been removed from the list. The mappings have been applied. The confirmed mappings are displayed in the *ETL PROCESSES* tab of the *Datahub* module with the **Semi-automatic accepted** status.
 
-  > [Info] If the ETL mappings should not be applied, click the [REJECT] button in the editing toolbar instead. The selected mappings are removed from the list without being rerun.
+  > [Info] If the ETL mappings should not be applied, click the [REJECT] button in the editing toolbar instead. The selected mappings will be removed from the list without being rerun.
 
 [comment]: <> (doesn't work for me. Why not displayed in the accepted list in datahub?)
-
-
-
-## Retry a faulty ETL process
-
-[comment]: <> (move chapter in troubleshooting?)
-
-If an ETL process has been canceled because of an error, the respective process is displayed in the *ETL PROCESSES* tab with the **Error** status.
-
-#### Prerequisites
-
-An ETL process has been canceled because of an error. When the error has been fixed, you can restart the ETL process to rerun the corresponding mapping.
-
-#### Procedure
-*DataHub > Settings > Tab ETL PROCESSES*
-
-![ETL processes](../../Assets/Screenshots/DataHub/Settings/ETLProcesses/ETLProcesses.png "[ETL processes]")
-
-1. Click the *Status filter* drop-down list and select the **Error** status in the list.
-  All ETL processes with the **Error** status are displayed.
-
-  ![Error processes](../../Assets/Screenshots/DataHub/Settings/ETLProcesses/Error.png "[Error processes]")
-
-2. Select the checkbox of the mapping you want to restart.   
-  The editing toolbar is displayed above the list.
-
-  [comment]: <> (why can I only select one mapping and not several mappings at a time?)
-
-3. Click the [RETRY] button in the editing toolbar.   
-  The selected mapping is restarted. The pop-up window *Process will be retried shortly* is displayed.
-
-  ![Process retried](../../Assets/Screenshots/DataHub/Settings/ETLProcesses/ProcessRetried.png "[Process retried]")
-
-  If the rerun is successful, the mapping status changes to **Done** and it is removed from the list of mappings with the **Error** status.

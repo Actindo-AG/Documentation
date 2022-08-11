@@ -13,11 +13,11 @@ In the *DataHub* module, attributes from all plugins are displayed.
 
 ## Create an attribute
 
-Create an attribute to specify a new property for a product.
+No prerequisites to fulfill.
 
 #### Prerequisites
 
-An attribute set is created, see [Create an attribute set](./02_ManageAttributeSets.md#Create-an-attribute-set).
+An attribute set has been created, see [Create an attribute set](./02_ManageAttributeSets.md#Create-an-attribute-set).
 
 #### Procedure
 *DataHub > Settings > Tab ATTRIBUTES*
@@ -54,17 +54,19 @@ An attribute set is created, see [Create an attribute set](./02_ManageAttributeS
 8. If required, configure the settings in the *CONFIGURATION* section. For detailed information about the different configuration settings, see [Data type list](../../PIM/UserInterface/04_DataTypeList.md).
 
 9. Click the [SAVE] button in the upper right corner.   
-  The new attribute is saved. The *Create attribute* view is closed.  
+  The new attribute has been saved. The *Create attribute* view is closed.  
 
 
 ## Edit an attribute
 
 After you have created an attribute, you can edit it. However, only some attribute properties are editable. For instance, the data type and the attribute key cannot be subsequently modified. The assignment of an attribute to an attribute set must be changed in the [attribute set](./02_ManageAttributeSets) itself.   
-There are also some attributes that are automatically created by the system, for instance when installing a plugin or module. These system attributes are read-only and cannot be edited. It is highly recommended not to deactivate these attributes to avoid interfering with the functioning of the Core1 Platform.
+There are also some attributes that are automatically created by the system, for instance when installing a plugin or module. These system attributes are read-only and cannot be edited. It is highly recommended not to deactivate these attributes to avoid interfering with the functioning of the *Core1 Platform*.
 
 #### Prerequisites
 
-At least one attribute is created, see [Create an attribute](#create-an-attribute).
+At least one attribute has been created, see [Create an attribute](#create-an-attribute).
+
+> [Info] By default, a certain number of attributes has been predefined in the *PIM Basic Set* attribute set.
 
 #### Procedure
 *DataHub > Settings > Tab ATTRIBUTES*
@@ -87,7 +89,7 @@ At least one attribute is created, see [Create an attribute](#create-an-attribut
    > [Info] If you want to change the attribute set assignments of the selected attribute, you have to modify the corresponding attribute set.
 
 4. Click the [SAVE] button in the upper right corner.   
-  The changes are saved. The *Edit attribute* view is closed.  
+  The changes have been saved. The *Edit attribute* view is closed.  
 
 
 ## Deactivate an attribute
@@ -96,7 +98,9 @@ It is recommended to deactivate an attribute instead of deleting it to prevent a
 
 #### Prerequisites
 
-At least one attribute is created, see [Create an attribute](#create-an-attribute).
+At least one attribute has been created, see [Create an attribute](#create-an-attribute).
+
+> [Info] By default, a certain number of attributes has been predefined in the *PIM Basic Set* attribute set.
 
 #### Procedure
 *DataHub > Settings > Tab ATTRIBUTES*
@@ -113,9 +117,9 @@ At least one attribute is created, see [Create an attribute](#create-an-attribut
    > [Info] If you want to reactivate an attribute, enable the *Active* toggle.
 
 3. Click the [SAVE] button in the upper right corner.   
-  The attribute is deactivated. The *Edit attribute* view is closed.
+  The attribute has been deactivated. The *Edit attribute* view is closed.
 
-4. Press **F5** to initialize the Core1 Platform and to apply the changes.   
+4. Press **F5** to initialize the *Core1 Platform* and to apply the changes.   
 
 
 
@@ -125,7 +129,9 @@ You can move an attribute to the *DELETED ATTRIBUTES* tab if it is no longer nee
 
 #### Prerequisites
 
-At least one attribute is created, see [Create an attribute](#create-an-attribute).
+At least one attribute has been created, see [Create an attribute](#create-an-attribute).
+
+> [Info] By default, a certain number of attributes has been predefined in the *PIM Basic Set* attribute set.
 
 #### Procedure
 *DataHub > Settings > Tab ATTRIBUTES*
@@ -140,7 +146,7 @@ At least one attribute is created, see [Create an attribute](#create-an-attribut
   > [Info] In the window all dependencies to attribute sets, ETL-mappings and entity entries are displayed. Be aware that problems may occur if you delete an attribute with existing dependencies.
 
 3. Click the [CONFIRM] button in the bottom right corner.   
-  The attribute is deleted and moved to the *DELETED ATTRIBUTES* tab in the *DataHub* module. The *Confirm deletion of attribute?* window is closed.
+  The attribute has been deleted and is moved to the *DELETED ATTRIBUTES* tab in the *DataHub* module. The *Confirm deletion of attribute?* window is closed.
 
 > [Info] The attribute is moved to the *DELETED ATTRIBUTES* tab, but it can still be recovered. To irretrievably delete the attribute, see [Finally delete an attribute](#finally-delete-an-attribute).
 
@@ -152,7 +158,7 @@ If you have moved an attribute to the *DELETED ATTRIBUTES* tab, you can recover 
 
 #### Prerequisites
 
-At least one attribute is moved to the *DELETED ATTRIBUTES* tab, see [Delete an attribute](#delete-an-attribute).
+At least one attribute has been moved to the *DELETED ATTRIBUTES* tab, see [Delete an attribute](#delete-an-attribute).
 
 #### Procedure
 *DataHub > Settings > Tab DELETED ATTRIBUTES*
@@ -163,7 +169,7 @@ At least one attribute is moved to the *DELETED ATTRIBUTES* tab, see [Delete an 
   The editing toolbar is displayed above the deleted attributes list.
 
 2. Click the [RECOVER] button in the toolbar.   
-  The selected attribute is recovered and removed from the list of deleted attributes.
+  The selected attribute has been recovered and is removed from the list of deleted attributes.
 
 [comment]: <> (Why can I not recover certain attributes? Is it a bug?)
 
@@ -175,7 +181,7 @@ You can finally delete an attribute if it is no longer needed. As there are usua
 
 #### Prerequisites
 
-At least one attribute is moved to the *DELETED ATTRIBUTES* tab, see [Delete an attribute](#delete-an-attribute).
+At least one attribute has been moved to the *DELETED ATTRIBUTES* tab, see [Delete an attribute](#delete-an-attribute).
 
 #### Procedure
 *DataHub > Settings > Tab ATTRIBUTES*
@@ -188,6 +194,6 @@ At least one attribute is moved to the *DELETED ATTRIBUTES* tab, see [Delete an 
   > [Info] If the deleted attribute is not yet displayed in the list of deleted attributes, click the ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh) button to update the list.
 
 2. Click the [Delete] button in the toolbar.  
-  The attribute is irretrievably deleted. The deletion cannot be undone.
+  The attribute has been irretrievably deleted. The deletion cannot be undone.
 
    > [Warning] Problems may occur if you delete an attribute with existing dependencies.  

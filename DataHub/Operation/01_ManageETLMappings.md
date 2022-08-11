@@ -17,7 +17,7 @@ Create an ETL attribute set mapping to map the attributes of the source attribut
 
 #### Prerequisites
 
-At least two attribute sets are created, see [Create an attribute set](./02_ManageAttributeSets.md#Create-an-attribute-set).
+At least two attribute sets have been created, see [Create an attribute set](./02_ManageAttributeSets.md#Create-an-attribute-set).
 
 #### Procedure
 *DataHub > Settings > Tab ETL*
@@ -47,7 +47,7 @@ At least two attribute sets are created, see [Create an attribute set](./02_Mana
   > [Info] If you select an ETL attribute set mapping in the drop-down list, all matching attribute mappings are applied to the new ETL attribute set mapping.
 
 7. Click the [SAVE] button in the bottom right corner.   
-  The new attribute set mapping is saved and displayed in the list of attribute set mappings. The *Create ETL attribute set mapping* window is closed.
+  The new attribute set mapping has been saved and is displayed in the list of attribute set mappings. The *Create ETL attribute set mapping* window is closed.
 
 
 
@@ -61,7 +61,7 @@ When editing an ETL attribute mapping, you can create a mapping to an unmapped d
 
 #### Prerequisites
 
-At least one ETL attribute set mapping is created, see [Create an ETL mapping](#create-an-ETL-mapping).
+At least one ETL attribute set mapping has been created, see [Create an ETL mapping](#create-an-ETL-mapping).
 
 #### Procedure
 *DataHub > Settings > Tab ETL*
@@ -102,7 +102,7 @@ At least one ETL attribute set mapping is created, see [Create an ETL mapping](#
 6. If required, select or enter the corresponding configuration settings in the *Configuration* section.   
 
 7. Click the [SAVE] button in the upper right corner.   
-  The changes are saved. The *Settings* section is hidden.
+  The changes have been saved. The *Settings* section is hidden.
 
   > [Info] Be aware that you have to [rerun the mapping](#rerun-an-etl-mapping) to apply the changes made to the attribute.
 
@@ -116,8 +116,8 @@ When creating an ETL attribute set mapping, you define the language and the chan
 
 #### Prerequisites
 
-- At least one ETL attribute set mapping is created, see [Create an ETL mapping](#create-an-ETL-mapping).
-- The destination attribute is multi-language/multi-channel.
+- At least one ETL attribute set mapping have been created, see [Create an ETL mapping](#create-an-ETL-mapping).
+- The destination attribute is multi-language and/or multi-channel.
 
 #### Procedure
 *DataHub > Settings > Tab ETL*
@@ -165,7 +165,7 @@ When creating an ETL attribute set mapping, you define the language and the chan
 8. If required, select or enter the corresponding configuration settings in the *Configuration* section.   
 
 9. Click the [SAVE] button in the upper right corner.   
-  The mapping is created and added to the list of attribute mappings on the left side. The selected language and/or channel is indicated in brackets behind the destination attribute. The *Settings* section is hidden.
+  The mapping has been created and is added to the list of attribute mappings on the left side. The selected language and/or channel is indicated in brackets behind the destination attribute. The *Settings* section is hidden.
 
 
 
@@ -175,7 +175,7 @@ Delete an attribute mapping to cancel the transfer of data to the destination at
 
 #### Prerequisites
 
-At least one ETL attribute set mapping is created, see [Create an ETL mapping](#create-an-ETL-mapping).
+At least one ETL attribute set mapping has been created, see [Create an ETL mapping](#create-an-ETL-mapping).
 
 #### Procedure
 *DataHub > Settings > Tab ETL*
@@ -193,7 +193,7 @@ At least one ETL attribute set mapping is created, see [Create an ETL mapping](#
   ![Mapping selected](../../Assets/Screenshots/DataHub/Settings/ETL/MappingSelected.png "[Mapping selected]")
 
 3. Click the ![Delete](../../Assets/Icons/Trash03.png "[Delete]") (Delete) button in the editing toolbar.   
-  The attribute mapping is deleted from the list.
+  The attribute mapping has been deleted from the list.
 
   > [Info] When deleting an attribute mapping, the mapping to the destination attribute, but not the destination attribute itself is deleted from the attribute mapping list. The destination attribute is only deleted when the attribute mapping was a custom language or channel mapping. In this case, the original destination attribute without customized language or channel is still available in the list of attribute mappings.
 
@@ -213,7 +213,7 @@ To apply changes or a new attribute mapping within an attribute set mapping, you
 
 #### Prerequisites
 
-At least one ETL attribute set mapping is created, see [Create an ETL mapping](#create-an-ETL-mapping).
+At least one ETL attribute set mapping has been created, see [Create an ETL mapping](#create-an-ETL-mapping).
 
 #### Procedure
 *DataHub > Settings > Tab ETL*
@@ -237,10 +237,10 @@ At least one ETL attribute set mapping is created, see [Create an ETL mapping](#
 
 4. If desired, enable the *Also rerun mapping for entities with manual change tracking (or if the change tracking override of this mapping is manual)?* toggle.
 
-  > [Info] If you enable the *Also rerun mapping for entities with manual change tracking (or if the change-tracking override of this mapping is manual)?* toggle, the mapping is rerun regardless of the selected change tracking mode.     
+  > [Info] If you enable the *Also rerun mapping for entities with manual change tracking (or if the change-tracking override of this mapping is manual)?* toggle, the mapping will rerun regardless of the selected change tracking mode.     
 
 5. Click the [SAVE] button in the *Rerun single mapping* window.   
-  The mapping rerun is started. A pop-up window is displayed to inform that the job has been triggered.
+  The mapping rerun has been started. A pop-up window is displayed to inform that the job has been triggered.
 
   ![Job triggered](../../Assets/Screenshots/DataHub/Settings/ETL/JobMappingTriggered.png "[Job triggered]")
 
@@ -254,7 +254,7 @@ To apply changes or a new attribute mapping within an attribute set mapping, you
 
 #### Prerequisites
 
-At least one ETL attribute set mapping is created, see [Create an ETL mapping](#create-an-ETL-mapping).
+At least one ETL attribute set mapping has been created, see [Create an ETL mapping](#create-an-ETL-mapping).
 
 #### Procedure
 *DataHub > Settings > Tab ETL*
@@ -273,10 +273,10 @@ At least one ETL attribute set mapping is created, see [Create an ETL mapping](#
 
 4. If desired, enable the *Also rerun mapping for entities with manual change tracking (or if the change tracking override of this mapping is manual)?* toggle.
 
-  > [Info] If you enable the *Also rerun mapping for entities with manual change tracking (or if the change-tracking override of this mapping is manual)?* toggle, the mapping is rerun regardless of the selected change tracking mode.     
+  > [Info] If you enable the *Also rerun mapping for entities with manual change tracking (or if the change-tracking override of this mapping is manual)?* toggle, the mapping will rerun regardless of the selected change tracking mode.     
 
 5. Click the [SAVE] button in the *Rerun single mapping* window.   
-  The mapping rerun is started. A pop-up window is displayed to inform that the job has been triggered.
+  The mapping rerun has been started. A pop-up window is displayed to inform that the job has been triggered.
 
   ![Job triggered](../../Assets/Screenshots/DataHub/Settings/ETL/JobMappingTriggered.png "[Job triggered]")
 

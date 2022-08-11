@@ -1,6 +1,6 @@
 # Integration
 
-- [Manage the attributes](./01_ManageAttributes.md)
+- [Manage an attribute](./01_ManageAttributes.md)
   - [Create an attribute](./01_ManageAttributes.md#create-an-attribute)
   - [Edit an attribute](./01_ManageAttributes.md#edit-an-attribute)
   - [Deactivate an attribute](./01_ManageAttributes.md#deactivate-an-attribute)
@@ -9,7 +9,7 @@
   - [Finally delete an attribute](./01_ManageAttributes.md#finally-delete-an-attribute)
 
 
-- [Manage the attribute sets](./02_ManageAttributeSets.md)  
+- [Manage an attribute set](./02_ManageAttributeSets.md)  
   - [Create an attribute set](./02_ManageAttributeSets.md#create-an-attribute-set)
     - [Define the attribute set basic data](./02_ManageAttributeSets.md#define-the-attribute-set-basic-data)
     - [Create an attribute set without attribute inheritance](./02_ManageAttributeSets.md#create-an-attribute-set-without-attribute-inheritance)
@@ -22,7 +22,7 @@
   - [Deactivate an attribute set](./02_ManageAttributeSets.md#deactivate-an-attribute-set)
 
 
-- [Manage the attribute groups](./03_ManageAttributeGroups.md)
+- [Manage an attribute group](./03_ManageAttributeGroups.md)
   - [Create an attribute group](./03_ManageAttributeGroups.md#create-an-attribute-group)
   - [Edit an attribute group](./03_ManageAttributeGroups.md#edit-an-attribute-group)
     - [Create an attribute sub-group](./03_ManageAttributeGroups.md#create-an-attribute-sub-group)
