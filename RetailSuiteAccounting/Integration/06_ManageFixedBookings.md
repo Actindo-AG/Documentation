@@ -4,10 +4,11 @@
 
 # Manage the fixed bookings
 
-The *FIXED BOOKINGS* tab in the *Accounting* module enables to automate recurring bookings. The fixed bookings to be automated can be applied when selecting the fiscal year, see [Select the fiscal year](../Operation/01_SelectFiscalYear.md). By doing so, the system will apply automatically the setup fixed bookings in the corresponding fiscal year and journal.
+Fixed bookings are recurring transactions that must be booked regularly, for example facilities costs. The *FIXED BOOKINGS* tab in the *Accounting* module enables to automate recurring bookings. The fixed bookings to be automated can be applied when selecting the fiscal year, see [Select the fiscal year](../Operation/01_SelectFiscalYear.md). By doing so, the system will apply automatically the setup fixed bookings in the corresponding fiscal year and journal.
 
-To be able to create fixed postings, a batch must be selected or a new one must be created first.
+Fixed bookings can be created, edited and deleted. To be able to create fixed postings, a batch must be selected or a new one must be created first.
 
+[comment]: <> (FH/Doku: Terminologie muss noch durchgängig geändert werden: booking/book -> posting/post. Hier gemischt.)
 
 ## Create a fixed booking batch
 
@@ -15,12 +16,11 @@ You can create a fixed booking batch that is not yet available in the system.
 
 #### Prerequisites
 
-- The accounting is configured via the configuration wizard, see [Run the accounting wizard](./01_RunAccountingWizard.md).
-- A valid fiscal year is created, see [Create a fiscal year](./04_ManageFiscalYear.md#create-a-fiscal-year).
+A fiscal year has been selected, see [Select the fiscal year](../Operation/01_SelectFiscalYear.md).
 
 #### Procedure
 
-*Accounting > Select the fiscal year > Settings > Tab FIXED BOOKINGS*
+*Accounting > Settings > Tab FIXED BOOKINGS*
 
 ![Create a fixed booking batch](../../Assets/Screenshots/RetailSuiteAccounting/Settings/FixedBookings/CreateFixedBookingBatch.png "[Create a fixed booking batch]")
 
@@ -40,13 +40,12 @@ You can delete a fixed posting batch if it is no longer applicable.
 
 #### Prerequisites
 
-- The accounting is configured via the configuration wizard, see [Run the accounting wizard](./01_RunAccountingWizard.md).
-- A valid fiscal year is created, see [Create a fiscal year](./04_ManageFiscalYear.md#create-a-fiscal-year).
+- A fiscal year has been selected, see [Select the fiscal year](../Operation/01_SelectFiscalYear.md).
 - At least one fixed booking batch is created, see [Create a fixed booking batch](#create-a-fixed-booking-batch).
 
 #### Procedure
 
-*Accounting > Select the fiscal year > Settings > Tab FIXED BOOKINGS*
+*Accounting > Settings > Tab FIXED BOOKINGS*
 
 ![Delete an fixed booking batch](../../Assets/Screenshots/RetailSuiteAccounting/Settings/FixedBookings/DeleteFixedBookingBatch.png "[Delete a fixed booking batch]")
 
@@ -66,13 +65,12 @@ You add fixed postings to an existing or a new fixed posting batch.
 
 #### Prerequisites
 
-- The accounting is configured via the configuration wizard, see [Run the accounting wizard](./01_RunAccountingWizard.md).
-- A valid fiscal year is created, see [Create a fiscal year](./04_ManageFiscalYear.md#create-a-fiscal-year).
+- A fiscal year has been selected, see [Select the fiscal year](../Operation/01_SelectFiscalYear.md).
 - A fixed booking batch is created, see [Create a fixed booking batch](#create-a-fixed-booking-batch).
 
 #### Procedure
 
-*Accounting > Select the fiscal year > Settings > Tab FIXED BOOKINGS*
+*Accounting > Settings > Tab FIXED BOOKINGS*
 
 ![Select a fixed booking batch](../../Assets/Screenshots/RetailSuiteAccounting/Settings/FixedBookings/EditFixedBookingBatch.png "[Select a fixed booking batch]")
 
@@ -114,14 +112,12 @@ You can edit fixed postings registered in a fixed posting batch.
 
 ### Prerequisites
 
-- The accounting is configured via the configuration wizard, see [Run the accounting wizard](./01_RunAccountingWizard.md).
-- A valid fiscal year is created, see [Create a fiscal year](./04_ManageFiscalYear.md#create-a-fiscal-year).
-- A fixed booking batch is created, see [Create a fixed booking batch](#create-a-fixed-booking-batch).
+- A fiscal year has been selected, see [Select the fiscal year](../Operation/01_SelectFiscalYear.md).
 - A fixed booking is created, see [Create a fixed booking](#create-a-fixed-booking).
 
 ### Procedure
 
-*Accounting > Select the fiscal year > Settings > Tab FIXED BOOKINGS*
+*Accounting > Settings > Tab FIXED BOOKINGS*
 
 ![Select a fixed booking batch](../../Assets/Screenshots/RetailSuiteAccounting/Settings/FixedBookings/EditFixedBookingBatch.png "[Select a fixed booking batch]")
 
@@ -152,9 +148,7 @@ You can delete a fixed booking in a fixed booking batch.
 
 #### Prerequisites
 
-- The accounting is configured via the configuration wizard, see [Run the accounting wizard](./01_RunAccountingWizard.md).
-- A valid fiscal year is created, see [Create a fiscal year](./04_ManageFiscalYear.md#create-a-fiscal-year).
-- A fixed booking batch is created, see [Create a fixed booking batch](#create-a-fixed-booking-batch).
+- A fiscal year has been selected, see [Select the fiscal year](../Operation/01_SelectFiscalYear.md).
 - A fixed booking is created, see [Create a fixed booking](#create-a-fixed-booking).
 
 #### Procedure
