@@ -176,7 +176,8 @@ Remove an attribute from an attribute set to limit the specifications. Inherited
 
 #### Prerequisites
 
-An attribute set has been created, see [Create an attribute set](#create-an-attribute-set).
+- An attribute set has been created, see [Create an attribute set](#create-an-attribute-set).
+- At least one additional attribute has been added to the attribute set, see [Add an attribute to the set](#add-an-attribute-to-the-set).
 
 > [Info] By default, the *PIM Basic Set* attribute set has been predefined in the *Core1 Platform*.
 

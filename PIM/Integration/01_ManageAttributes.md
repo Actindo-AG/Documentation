@@ -129,7 +129,7 @@ At least one attribute has been created, see [Create an attribute](#create-an-at
    > [Info] If you want to change the attribute set assignments of the selected attribute, you have to modify the corresponding attribute set, see [Manage the attribute sets](./02_ManageAttributeSets.md).
 
 4. Click the [SAVE] button in the upper right corner.   
-  The changes has been saved. The *Edit Attribute* view is closed.  
+  The changes have been saved. The *Edit Attribute* view is closed.  
 
 
 

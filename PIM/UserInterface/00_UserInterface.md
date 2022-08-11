@@ -107,4 +107,4 @@
     - [Add changeable attributes](./03g_VariantSets.md#add-changeable-attributes)
 
 
-- [Data Type List](./04_DataTypeList.md)
+- [Data type list](./04_DataTypeList.md)

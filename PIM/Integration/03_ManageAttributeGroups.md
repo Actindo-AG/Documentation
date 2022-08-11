@@ -196,7 +196,7 @@ You can add attributes to an attribute group or sub-group. Note that you can add
   > [Info] Enable the *Only Unassigned Attributes* toggle above the list to hide all attributes that are already assigned to an attribute group.
 
 4. Click the [ADD] button in the toolbar.
-  The *Add attributes to attribute group* view is closed. The selected attributes has been added to the attribute group.
+  The *Add attributes to attribute group* view is closed. The selected attributes have been added to the attribute group.
 
   > [Info] The new attributes are always added at the end of the attribute list. If you want to change the position of an attribute in the list, see [Change the order of attributes within a group](#change-the-order-of-attributes-within-a-group).
 
@@ -210,7 +210,7 @@ The procedure to change the order of attributes within attribute groups and sub-
 #### Prerequisites
 
 - At least one attribute group has been created, see [Create an attribute group](#create-an-attribute-group).
-- At least two attributes has been added to the attribute group, see [Add attributes to a group](#add-attributes-to-a-group).
+- At least two attributes have been added to the attribute group, see [Add attributes to a group](#add-attributes-to-a-group).
 
 #### Procedure
 *PIM > Settings > Tab ATTRIBUTE GROUPS*
