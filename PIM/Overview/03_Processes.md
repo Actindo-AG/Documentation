@@ -2,4 +2,4 @@
 
 The following scheme shows the processes and chapters of the *PIM* module documentation and their link to other modules:
 
-![PIM Process](../../Assets/Screenshots/PIM/PIMProcesses.png "PIM Process")
+![Processes PIM](../../Assets/Screenshots/PIM/PIMProcesses.png "Processes PIM")
