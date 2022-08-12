@@ -19,8 +19,8 @@ Create a Cloudinary attribute to enable the upload of files from Actindo to Clou
 
 #### Prerequisites
 
-- A Cloudinary connection is established, see [Establish a connection to Cloudinary](./01_EstablishConnection.md).
-- An attribute set is created, see [Create an attribute set](../../PIM/Integration/02_ManageAttributeSets.md#Create-an-attribute-set).
+- A Cloudinary connection has been established, see [Establish a connection to Cloudinary](./01_EstablishConnection.md).
+- An attribute set has been created, see [Create an attribute set](../../PIM/Integration/02_ManageAttributeSets.md#Create-an-attribute-set).
 
 #### Procedure
 *PIM > Settings > Tab ATTRIBUTES*
@@ -34,8 +34,8 @@ Create a Cloudinary attribute to enable the upload of files from Actindo to Clou
 
 2. Enter the desired attribute name for the Cloudinary attribute in the *Name* field and, if desired, add an attribute description in the *Description* field.
 
-3. Click the drop-down list *Data type* and select the appropriate Cloudinary data type in the list. For a Cloudinary image attribute, select the **Cloudinary image** data type, for a Cloudinary video attribute the **Cloudinary video** data type.
-The *CONFIGURATION* section with the corresponding settings for the selected Cloudinary data type are displayed.
+3. Click the drop-down list *Data type* and select the appropriate Cloudinary data type in the list. For a Cloudinary image attribute, select the **Cloudinary image** data type, for a Cloudinary video attribute the **Cloudinary video** data type.   
+  The *CONFIGURATION* section with the corresponding settings for the selected Cloudinary data type are displayed.
 
   ![Cloudinary data type](../../Assets/Screenshots/PIM/Settings/Attributes/CloudinaryDataType.png "[Cloudinary data type]")
 
@@ -56,13 +56,13 @@ The *CONFIGURATION* section with the corresponding settings for the selected Clo
 
   > [Info] You can assign the attribute to multiple sets. Repeat the steps **7** to **8** to assign the attribute to a further attribute set. To delete the assignment to a selected set, click the ![Delete](../../Assets/Icons/Trash01.png "[Delete]") (Delete) button right to the set.
 
-9. Configure the appropriate settings in the *CONFIGURATION* section. The configuration can also be edited subsequently.      
+9. Configure the appropriate settings in the *CONFIGURATION* section. The configuration can also be edited subsequently.       
 For detailed information about the Cloudinary configuration settings, see [Configure a Cloudinary attribute](#configure-a-cloudinary-attribute).
 
 10. Click the [SAVE] button in the upper right corner.   
-  The new Cloudinary attribute is saved. The *Create attribute* view is closed.  
+  The new Cloudinary attribute has been saved. The *Create attribute* view is closed.  
 
-11. Press **F5** to initialize the Core1 Platform and to apply the changes.   
+11. Press **F5** to initialize the *Core1 Platform* and to apply the changes.   
 
 
 ## Configure a Cloudinary attribute
@@ -71,7 +71,7 @@ The configuration of the Cloudinary attribute is important to define the meta da
 
 #### Prerequisites
 
-The Cloudinary attribute is created, see [Create a Cloudinary attribute](#create-a-cloudinary-attribute), or at least the steps **1** to **8** of the [Create a Cloudinary attribute](#create-a-cloudinary-attribute) procedure have been executed.
+A Cloudinary attribute has been created, see [Create a Cloudinary attribute](#create-a-cloudinary-attribute), or at least the steps **1** to **8** of the [Create a Cloudinary attribute](#create-a-cloudinary-attribute) procedure have been executed.
 
 #### Procedure
 
@@ -108,6 +108,6 @@ All available meta data fields from the selected Cloudinary connection are displ
   Note that you may also need to edit the Cloudinary attribute to apply changes in the structured meta data fields from Cloudinary to Actindo.
 
 8. Click the [SAVE] button in the upper right corner.   
-  The Cloudinary attribute is saved with the corresponding configuration. The *Create attribute* view is closed.  
+  The Cloudinary attribute has been saved with the corresponding configuration. The *Create attribute* view is closed.  
 
-9. Press **F5** to initialize the Core1 Platform and to apply the changes.   
+9. Press **F5** to initialize the *Core1 Platform* and to apply the changes.   

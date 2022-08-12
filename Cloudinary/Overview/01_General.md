@@ -1,6 +1,6 @@
 # General information
 
-[comment]: <> (Complete introduction text about module)
+The Actindo *Cloudinary* module is an integration of Cloudinary to Actindo and allows to upload images to Cloudinary via Actindo, import images from Cloudinary to Actindo, delete images in Cloudinary via Actindo and to output the Cloudinary images via their URLs in web shops or marketplaces via the ETL mapping in Actindo.
 
 This documentation refers to *Cloudinary* module version 1.0.2. There may be differences in the UI, features and operation if your *Cloudinary* module is installed in a different version.
 
@@ -8,7 +8,11 @@ This documentation refers to *Cloudinary* module version 1.0.2. There may be dif
 
 The Actindo *Cloudinary* module offers the following benefits:
 
-[comment]: <> (Add benefits)
+- simple upload of media files from *PIM* to Cloudinary
+- simple import of media files from Cloudinary to *PIM*
+- integration of media file transformations
+- setup of multiple connections
+- meta data management via Actindo
 
 
 ## Prerequisites

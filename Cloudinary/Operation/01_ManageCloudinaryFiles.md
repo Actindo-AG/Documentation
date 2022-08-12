@@ -13,8 +13,8 @@ Upload images and videos to Cloudinary at the same time when adding these files 
 
 #### Prerequisites
 
-- A Cloudinary connection is established, see [Establish a connection to Cloudinary](../Integration/01_EstablishConnection.md)
-- The required Cloudinary attribute is created, see [Manage the Cloudinary attributes](../Integration/02_ManageCloudinaryAttributes.md)
+- A Cloudinary connection has been established, see [Establish a connection to Cloudinary](../Integration/01_EstablishConnection.md)
+- The required Cloudinary attribute has been created, see [Manage the Cloudinary attributes](../Integration/02_ManageCloudinaryAttributes.md)
 
 #### Procedure
 
@@ -33,8 +33,8 @@ Upload images and videos to Cloudinary at the same time when adding these files 
 
   ![Cloudinary attribute](../../Assets/Screenshots/PIM/Products/List/Attributes/CloudinaryAttribute.png "[Cloudinary attribute]")
 
-3. Select the desired images in the explorer and move it to the Cloudinary image attribute box using drag and drop.    The images are uploaded to the specified folder in Cloudinary. A preview tile of each image is displayed in the Cloudinary image attribute box.   
-When uploading a video to Cloudinary, use the corresponding Cloudinary video attribute box instead of the Cloudinary image attribute box.
+3. Select the desired images in the explorer and move it to the Cloudinary image attribute box using drag and drop. When uploading a video to Cloudinary, use the corresponding Cloudinary video attribute box instead of the Cloudinary image attribute box.      
+  The images have been uploaded to the specified folder in Cloudinary. A preview tile of each image is displayed in the Cloudinary image attribute box.
 
   ![Cloudinary images](../../Assets/Screenshots/PIM/Products/List/Attributes/CloudinaryImages.png "[Cloudinary images]")
 
@@ -62,7 +62,7 @@ are displayed in the box side bar:
     ![Cloudinary image settings](../../Assets/Screenshots//PIM/Products/List/Attributes/CloudinaryImageSettings.png "[Cloudinary image settings]")
 
 5. Click the [SAVE] button in the upper right corner of the *Edit product* view.    
-  The images are saved and uploaded to Cloudinary. The *Edit product* view is closed.
+  The images have been saved and uploaded to Cloudinary. The *Edit product* view is closed.
 
 
 
@@ -72,8 +72,8 @@ Import images and videos from Cloudinary to products in your *PIM* module.
 
 #### Prerequisites
 
-- A Cloudinary connection is established, see [Establish a connection to Cloudinary](../Integration/01_EstablishConnection.md)
-- The required Cloudinary attribute is created, see [Manage the Cloudinary attributes](../Integration/02_ManageCloudinaryAttributes.md)
+- A Cloudinary connection has been established, see [Establish a connection to Cloudinary](../Integration/01_EstablishConnection.md)
+- The required Cloudinary attribute has been created, see [Manage the Cloudinary attributes](../Integration/02_ManageCloudinaryAttributes.md)
 - At least one file is available for import in Cloudinary.
 
 #### Procedure
@@ -94,7 +94,7 @@ Import images and videos from Cloudinary to products in your *PIM* module.
   ![Cloudinary attribute](../../Assets/Screenshots/PIM/Products/List/Attributes/CloudinaryAttribute.png "[Cloudinary attribute]")
 
 3. Click the [LIST UNASSIGNED ITEMS] button in the Cloudinary image attribute box to select the image(s) to be imported. When importing a video from Cloudinary, use the button in the corresponding Cloudinary video attribute box instead of the Cloudinary image attribute box.        
-The *Unassigned items* window is displayed, listing all unassigned images in the specified Cloudinary folder.
+  The *Unassigned items* window is displayed, listing all unassigned images in the specified Cloudinary folder.
 
   ![Unassigned items](../../Assets/Screenshots/PIM/Products/List/Attributes/CloudinaryUnassignedItems.png "[Unassigned items]")
 
@@ -104,7 +104,7 @@ The *Unassigned items* window is displayed, listing all unassigned images in the
   The editing toolbar is displayed above the list.
 
 5. Click the [ADD ITEM(S)] button in the toolbar.   
-  The selected images are imported from Cloudinary and removed from the list of unassigned items.
+  The selected images have been imported from Cloudinary and removed from the list of unassigned items.
 
 6. Click the [CANCEL] button in the bottom right corner.   
   The *Unassigned items* window is closed. The *Edit product* view is displayed again. A preview tile of each selected image is displayed in the Cloudinary image attribute box.   
@@ -131,7 +131,7 @@ are displayed in the box side bar:
     ![Cloudinary image settings](../../Assets/Screenshots//PIM/Products/List/Attributes/CloudinaryImageSettings.png "[Cloudinary image settings]")
 
 8. Click the [SAVE] button in the upper right corner of the *Edit product* view.    
-  The imported images are saved. The *Edit product* view is closed.
+  The imported images have been saved. The *Edit product* view is closed.
 
 
 
@@ -141,7 +141,7 @@ When removing an image assignment from Cloudinary in the *PIM* module, you can e
 
 #### Prerequisites
 
-At least one Cloudinary file is assigned to the PIM product.
+At least one Cloudinary file has been assigned to the PIM product.
 
 #### Procedure
 
@@ -172,11 +172,11 @@ At least one Cloudinary file is assigned to the PIM product.
 5. Depending on your objective, click on one of the following buttons displayed in the *Delete image* window:
 
   - [REMOVE ASSIGNMENT (KEEP IN CLOUDINARY)]   
-  Only the assignment to the image is removed. When displaying the list of unassigned items, the image will be listed again. The *Delete image* window is closed.
+  Only the assignment to the image will be removed. When displaying the list of unassigned items, the image will be listed again. The *Delete image* window is closed.
   - [REMOVE ASSIGNMENT (DELETE IN CLOUDINARY)]   
-  The assignment to the image is removed and the image itself is deleted in Cloudinary. The *Delete image* window is closed.
+  The assignment to the image will be removed and the image itself will be deleted in Cloudinary. The *Delete image* window is closed.
 
     > [Info] Note that problems may occur when deleting an image to which other dependencies exist, for instance if the image is already available in a web shop.
 
 6.  Click the [SAVE] button in the upper right corner of the *Edit product* view.    
-  The image assignment removal is saved. The *Edit product* view is closed.
+  The image assignment removal has been saved. The *Edit product* view is closed.

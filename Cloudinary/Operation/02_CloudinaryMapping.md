@@ -17,8 +17,8 @@ Map a source attribute set with a Cloudinary attribute to a certain destination 
 
 #### Prerequisites
 
-- At least one ETL attribute set mapping is created, see [Create an ETL mapping](../../DataHub/Operation/01_ManageETLMappings.md#create-an-ETL-mapping).
-- The Cloudinary attribute is assigned to the source attribute set of the mapping.
+- At least one ETL attribute set mapping has been created, see [Create an ETL mapping](../../DataHub/Operation/01_ManageETLMappings.md#create-an-ETL-mapping).
+- The Cloudinary attribute has been assigned to the source attribute set of the mapping.
 
 #### Procedure
 
@@ -52,6 +52,7 @@ Map a source attribute set with a Cloudinary attribute to a certain destination 
   > [Info] For detailed information about the ETL extensions, see [ETL extensions list](../../DataHub/UserInterface/03_ETLExtensions.md).   
   For detailed information about the data types, see [Data type list](../../PIM/UserInterface/04_DataTypeList.md).
 
+
 4. Select the appropriate tracking mode in the *Override change tracking mode* drop-down list. By default, the **Use default** option is preselected. The following modes are available:
   - **Use default**: ---
   - **Automatic**: The initial mapping is automatically applied. All value changes or reruns are applied automatically in the mapping.  
@@ -65,10 +66,10 @@ Map a source attribute set with a Cloudinary attribute to a certain destination 
 6. When having selected the *Copy cloudinary image value* ETL extension, enter the Cloudinary folder from which the images will be imported in the *Folder* field of the *Configuration* section.    
 When having selected the *Cloudinary to string* ETL extension, enable or disable the toggle to export the Cloudinary public ID instead of the Cloudinary image URL.
 
-  > [Info] Note that transformations can only be mapped if the *Export public ID* toggle is disabled.
+  > [Info] Note that transformations will only be mapped if the *Export public ID* toggle is disabled.
 
 7. Click the [SAVE] button in the upper right corner.   
-  The changes are saved. The *Settings* section is hidden.
+  The changes have been saved. The *Settings* section is hidden.
 
   > [Info] Be aware that you have to [rerun the mapping](../../DataHub/Operation/01_ManageETLMappings.md#rerun-an-etl-mapping) to apply the changes made to the attribute.
 
@@ -80,8 +81,8 @@ Map a certain source attribute set to a destination attribute set with a Cloudin
 
 #### Prerequisites
 
-- At least one ETL attribute set mapping is created, see [Create an ETL mapping](../../DataHub/Operation/01_ManageETLMappings.md#create-an-ETL-mapping).
-- The Cloudinary attribute is assigned to the destination attribute set of the mapping.
+- At least one ETL attribute set mapping has been created, see [Create an ETL mapping](../../DataHub/Operation/01_ManageETLMappings.md#create-an-ETL-mapping).
+- The Cloudinary attribute has been assigned to the destination attribute set of the mapping.
 
 #### Procedure
 
@@ -129,6 +130,6 @@ Map a certain source attribute set to a destination attribute set with a Cloudin
 6. When having selected the *Copy cloudinary image value* ETL extension, enter the Cloudinary folder from which the images will be imported in the *Folder* field of the *Configuration* section.   
 
 7. Click the [SAVE] button in the upper right corner.   
-  The changes are saved. The *Settings* section is hidden.
+  The changes have been saved. The *Settings* section is hidden.
 
   > [Info] Be aware that you have to [rerun the mapping](../../DataHub/Operation/01_ManageETLMappings.md#rerun-an-etl-mapping) to apply the changes made to the attribute.
