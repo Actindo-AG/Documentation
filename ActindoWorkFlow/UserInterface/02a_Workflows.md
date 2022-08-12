@@ -241,7 +241,7 @@ Click the ![Points](../../Assets/Icons/Points02.png "[Points]") (Points) button 
 
   - *Data container*  
   Use this field to define the data type to be used in the place. If necessary, click the ![Delete](../../Assets/Icons/Cross02.png "[Delete]") (Delete) button to display the whole list of available data types. Enter a search text for the desired data type. The list of transitions is filtered for your search text as you type. Select the radio button of the appropriate option.   
-  For detailed information, see [Places](../Overview/02_WorkflowProcessElements.md#places).
+  For detailed information, see [Places](../Overview/04_WorkflowProcessElements.md#places).
 
 
   - Start/end place  
@@ -256,7 +256,7 @@ Click the ![Points](../../Assets/Icons/Points02.png "[Points]") (Points) button 
 
     - *Data container*  
     Use this field to define the data type to be used in the place. If necessary, click the ![Delete](../../Assets/Icons/Cross02.png "[Delete]") (Delete) button to display the whole list of available data types. Enter a search text for the desired data type. The list of transitions is filtered for your search text as you type. Select the radio button of the appropriate option.   
-    For detailed information, see [Start and end place](../Overview/02_WorkflowProcessElements.md#start-and-end-place).
+    For detailed information, see [Start and end place](../Overview/04_WorkflowProcessElements.md#start-and-end-place).
 
 
 - Transition  
@@ -290,19 +290,19 @@ Click the ![Points](../../Assets/Icons/Points02.png "[Points]") (Points) button 
   - *Static inputs*  
   All unlinked inputs are listed in this section. Static inputs can be used to configure static values for certain inputs. They can be defined by the user clicking the ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) button. Only valid JSON values are accepted. When used, static inputs are displayed by a small arrow in front of the input ports in the workflow diagram. This section is only displayed, if the selected transition has at least one unlinked input port.
 
-  For detailed information, see [Transitions](../Overview/02_WorkflowProcessElements.md#transitions).
+  For detailed information, see [Transitions](../Overview/04_WorkflowProcessElements.md#transitions).
 
 
 - Input/output port  
 Represented by a small square positioned to the left (input) and to the right (output) of the transition, they are defined with a descriptive name, such as origin, data or destination. They can be mandatory or optional. If optional, an ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) button is displayed next to them.
 
-  For detailed information, see [Input and output ports](../Overview/02_WorkflowProcessElements.md#input-and-output-ports).
+  For detailed information, see [Input and output ports](../Overview/04_WorkflowProcessElements.md#input-and-output-ports).
 
 
 - Arc  
 The arcs are the links connecting a place with the input and output port(s) of an transition to model the flow of information. The arcs are represented by arrows. Arcs connecting a place to an input port are called *incoming arcs*, arc connecting an output port to a place are called *outcoming arcs*.
 
-  For detailed information, see [Arcs](../Overview/02_WorkflowProcessElements.md#arcs).
+  For detailed information, see [Arcs](../Overview/04_WorkflowProcessElements.md#arcs).
 
 
 

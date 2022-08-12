@@ -1,6 +1,6 @@
 [!!Tasks](Tasks)
-[!!User Interface workflows](../UserInterface/02a_Workflows.md)
-[!!Workflow and process elements](../Overview/02_WorkflowProcessElements.md)
+[!!User Interface Workflows](../UserInterface/02a_Workflows.md)
+[!!Workflow and process elements](../Overview/04_WorkflowProcessElements.md)
 [!!Track a workflow process](./02_TrackWorkflowProcess.md)
 
 
@@ -50,7 +50,7 @@ No prerequisites to fulfill.
 7. Click the end place you want to add in the list of places.  
 
 8. Click the [CREATE] button in the bottom right corner.   
-  The new workflow is created. The *New workflow* window is closed. The workflow editor with the defined start and end places is displayed.  
+  The new workflow has been created. The *New workflow* window is closed. The workflow editor with the defined start and end places is displayed.  
 
   ![Workflow editor new](../../Assets/Screenshots/ActindoWorkFlow/Workflows/WorkflowEditorNew.png "[Workflow editor new]")
 
@@ -62,7 +62,7 @@ Create a transition to define the desired business process.
 
 #### Prerequisites
 
-The basic settings of the workflow are defined and the workflow editor is displayed, see [Define the workflow basic settings](#define-the-workflow-basic-settings).
+The basic settings of the workflow have been defined and the workflow editor is displayed, see [Define the workflow basic settings](#define-the-workflow-basic-settings).
 
 #### Procedure
 
@@ -80,11 +80,11 @@ The basic settings of the workflow are defined and the workflow editor is displa
   > [Info] The list of transitions is filtered for your keyword as you type.
 
 3. Click the transition you want to add in the list of transitions.
-  The transition is added to the workflow. If the transition was added from a place which requires a certain input data type, the arc from the place is automatically connected to the corresponding input port of the transition.
+  The transition has been added to the workflow. If the transition has been added from a place which requires a certain input data type, the arc from the place will be automatically connected to the corresponding input port of the transition.
 
   ![First action](../../Assets/Screenshots/ActindoWorkFlow/Workflows/FirstAction.png "[First action]")
 
-  > [Info] If any input port or output port of the new transition is mandatory, an arc and a place are automatically displayed with the corresponding transition.
+  > [Info] If any input port or output port of the new transition is mandatory, an arc and a place will be automatically displayed with the corresponding transition.
 
 
 ### Connect the transition
@@ -93,9 +93,8 @@ Connect the transition to the a place to create a valid workflow.
 
 #### Prerequisites
 
-- The basic settings of the workflow are defined and the workflow editor is displayed, see [Define the workflow basic settings](#define-the-workflow-basic-settings).
-
-- At least one transition is created, see [Create a transition](#create-a-transition)
+- The basic settings of the workflow have been defined and the workflow editor is displayed, see [Define the workflow basic settings](#define-the-workflow-basic-settings).
+- At least one transition has been created, see [Create a transition](#create-a-transition)
 
 #### Procedure
 
@@ -115,7 +114,7 @@ Connect the transition to the a place to create a valid workflow.
   > [Info] A workflow must contain at least one transition and can contain an unlimited number of transitions.
 
 3. Click the place, drag it over the place to which you want to connect it and drop it.     
-  The places are merged and the new connection is created.
+  The places are merged and the new connection has been created.
 
 
 
@@ -129,7 +128,7 @@ Select an existing workflow to edit it.
 
 #### Prerequisites
 
-- At least one workflow is created, see [Create a workflow](#create-a-workflow).
+- At least one workflow has been created, see [Create a workflow](#create-a-workflow).
 - You have the required rights to edit a workflow.
 
 #### Procedure
@@ -144,7 +143,7 @@ Select an existing workflow to edit it.
   ![Workflow versions](../../Assets/Screenshots/ActindoWorkFlow/Workflows/WorkflowVersions.png "[Workflow versions]")
 
 2. Click the workflow version you want to edit in the list of workflow versions.  
-The workflow editor is displayed in the workspace.
+  The workflow editor is displayed in the workspace.
 
   ![Workflow editor](../../Assets/Screenshots/ActindoWorkFlow/Workflows/WorkflowEditor.png "[Workflow editor]")
 
@@ -163,7 +162,7 @@ Edit the place settings to change or define the place data type.
 
 #### Prerequisites
 
-- At least one workflow is created, see [Create a workflow](#create-a-workflow).
+- At least one workflow has been created, see [Create a workflow](#create-a-workflow).
 - You have the required rights to edit a workflow.
 
 #### Procedure
@@ -191,9 +190,9 @@ You can change the ports of the place by deleting an existing arc and creating a
 
 #### Prerequisites
 
-- At least one workflow is created, see [Create a workflow](#create-a-workflow).
+- At least one workflow has been created, see [Create a workflow](#create-a-workflow).
 - You have the required rights to edit a workflow.
-- A workflow is selected, see [Select a workflow](#create-a-workflow).
+- A workflow has been selected, see [Select a workflow](#create-a-workflow).
 
 #### Procedure
 
@@ -204,12 +203,12 @@ You can change the ports of the place by deleting an existing arc and creating a
 1. Navigate to the place whose input or output port you want to edit.  
 
 2. Click the arc right or left to the place to change the input or output port. To change the input port, click the arc right to the place, to change the output port, click the arc left to the place.   
-The selected arc is highlighted.
+  The selected arc is highlighted.
 
   ![Input](../../Assets/Screenshots/ActindoWorkFlow/Workflows/ArrowInput.png "[Input]")
 
 3. Press **BackSpace** or **Delete** to remove the selected arc.    
-  The selected arc between the place and the port is deleted.
+  The selected arc between the place and the port has been deleted.
 
   > [Info] If the port whose connection is deleted is mandatory, a new place connected to this port is automatically displayed.
 
@@ -217,19 +216,19 @@ The selected arc is highlighted.
   A new place with a connection to the selected port is displayed.
 
 5. Click the new place, drag it over the place whose connection you have deleted and drop it.     
-  The places are merged and the new connection is created.
+  The places are merged and the new connection has been created.
 
 
 
 ### Delete a place
 
-Delete a place that is no longer neede, for instance if a transition is removed from the workflow.
+Delete a place that is no longer needed, for instance if a transition is removed from the workflow.
 
 #### Prerequisites
 
-- At least one workflow is created, see [Create a workflow](#create-a-workflow).
+- At least one workflow has been created, see [Create a workflow](#create-a-workflow).
 - You have the required rights to edit a workflow.
-- A workflow is selected, see [Select a workflow](#create-a-workflow).
+- A workflow has been selected, see [Select a workflow](#create-a-workflow).
 
 #### Procedure
 
@@ -245,9 +244,9 @@ Delete a place that is no longer neede, for instance if a transition is removed 
   ![Input](../../Assets/Screenshots/ActindoWorkFlow/Workflows/Place.png "[Input]")
 
 3. Press **Delete** to remove the selected place.    
-  The selected place and its arcs are deleted.
+  The selected place and its arcs have been deleted.
 
-  > [Info] If a one of the arcs has been connected to a mandatory input or output port, a new place connected to this port is automatically displayed.
+  > [Info] If a one of the arcs has been connected to a mandatory input or output port, a new place connected to this port will be automatically displayed.
 
 
 
@@ -257,9 +256,9 @@ Add one or several transition to the workflow to define or expand the desired bu
 
 #### Prerequisites
 
-- At least one workflow is created, see [Create a workflow](#create-a-workflow).
+- At least one workflow has been created, see [Create a workflow](#create-a-workflow).
 - You have the required rights to edit a workflow.
-- A workflow is selected, see [Select a workflow](#create-a-workflow).
+- A workflow has been selected, see [Select a workflow](#create-a-workflow).
 
 #### Procedure
 
@@ -270,7 +269,7 @@ Add one or several transition to the workflow to define or expand the desired bu
 1. Navigate to the part in the workflow where you want to add a transition.  
 
 2. Click the ![Add](../../Assets/Icons/Plus04.png "[Add]") (Add) button next to the output port to which you want to connect a new transition.     
-A new place connected to the selected output port is displayed.
+  A new place connected to the selected output port is displayed.
 
   > [Info] If a place to the output port already exists, for instance because it is mandatory, you can skip the step **2**.                                                                 .
 
@@ -286,7 +285,7 @@ A new place connected to the selected output port is displayed.
   > [Info] The list of transitions is filtered for your keyword as you type.
 
 5. Click the transition you want to add in the list of transitions.    
-  The transition is added to the workflow and connected to the selected place.
+  The transition has been added to the workflow and connected to the selected place.
 
   ![Add action](../../Assets/Screenshots/ActindoWorkFlow/Workflows/AddAction.png "[Add action]")
 
@@ -297,9 +296,9 @@ Edit a transition to define its settings.
 
 #### Prerequisites
 
-- At least one workflow is created, see [Create a workflow](#create-a-workflow).
+- At least one workflow has been created, see [Create a workflow](#create-a-workflow).
 - You have the required rights to edit a workflow.
-- A workflow is selected, see [Select a workflow](#create-a-workflow).
+- A workflow has been selected, see [Select a workflow](#create-a-workflow).
 
 #### Procedure
 
@@ -334,7 +333,7 @@ Edit a transition to define its settings.
 
 
 
-## Copy a workflow
+## Copy a workflow  
 
 Copy a workflow by exporting and importing the JSON code to create a new workflow based on an existing workflow.
 
@@ -345,7 +344,7 @@ Export the JSON code of an existing workflow that you want to copy.
 
 #### Prerequisites
 
-- At least one workflow is created, see [Create a workflow](#create-a-workflow).
+- At least one workflow has been created, see [Create a workflow](#create-a-workflow).
 - You have the required rights to edit a workflow.
 
 #### Procedure
@@ -360,7 +359,7 @@ Export the JSON code of an existing workflow that you want to copy.
   ![Workflow versions](../../Assets/Screenshots/ActindoWorkFlow/Workflows/WorkflowVersions.png "[Workflow versions]")
 
 2. Click the workflow version you want to copy in the list of workflow versions.  
-The workflow editor is displayed in the workspace.
+  The workflow editor is displayed in the workspace.
 
   ![Workflow editor](../../Assets/Screenshots/ActindoWorkFlow/Workflows/WorkflowEditor.png "[Workflow editor]")
 
@@ -389,9 +388,9 @@ Import the exported JSON code to an existing or new workflow to copy it.
 
 #### Prerequisites
 
-- At least one workflow is created, see [Create a workflow](#create-a-workflow).
+- At least one workflow has been created, see [Create a workflow](#create-a-workflow).
 - You have the required rights to edit a workflow.
-- The JSON code of the workflow to copy is exported to the clipboard, see [Export the workflow JSON code](#export-the-workflow-JSON-code).
+- The JSON code of the workflow to copy has been exported to the clipboard, see [Export the workflow JSON code](#export-the-workflow-JSON-code).
 
 #### Procedure
 
@@ -405,7 +404,7 @@ Import the exported JSON code to an existing or new workflow to copy it.
   ![Workflow versions](../../Assets/Screenshots/ActindoWorkFlow/Workflows/WorkflowVersions.png "[Workflow versions]")
 
 2. Click the workflow version you want to edit in the list of workflow versions.  
-The workflow editor is displayed in the workspace.
+  The workflow editor is displayed in the workspace.
 
   ![Workflow editor new](../../Assets/Screenshots/ActindoWorkFlow/Workflows/WorkflowEditorNew.png "[Workflow editor new]")
 
@@ -434,7 +433,7 @@ The workflow editor is displayed in the workspace.
   ![Context menu](../../Assets/Screenshots/ActindoWorkFlow/Workflows/ContextMenu.png "[Context menu]")
 
 7. Click the *Deploy* menu entry in the context menu.   
-  The copied workflow is deployed and published.
+  The copied workflow has been deployed and published.
 
 
 
@@ -444,7 +443,7 @@ A workflow can only be used for processes if it is published. If multiple versio
 
 #### Prerequisites
 
-- At least one workflow is created, see [Create a workflow](#create-a-workflow).
+- At least one workflow has been created, see [Create a workflow](#create-a-workflow).
 - At least one workflow version is unpublished, see [Unpublish a workflow version](#unpublish-a-workflow-version).
 
 #### Procedure
@@ -457,7 +456,7 @@ A workflow can only be used for processes if it is published. If multiple versio
   The editing toolbar is displayed.
 
 2. Click the [PUBLISH] button in the editing toolbar.   
-  The selected workflow version is published. The icon in the *Published* column changes from ![Cross](../../Assets/Icons/Cross02.png "[Cross]") (Cross) to ![Checkmark](../../Assets/Icons/Check.png "[Checkmark]") (Checkmark).
+  The selected workflow version has been published. The icon in the *Published* column changes from ![Cross](../../Assets/Icons/Cross02.png "[Cross]") (Cross) to ![Checkmark](../../Assets/Icons/Check.png "[Checkmark]") (Checkmark).
 
   ![Workflow versions published](../../Assets/Screenshots/ActindoWorkFlow/Workflows/WorkflowVersionsPublished.png "[Workflow versions published]")
 
@@ -469,8 +468,8 @@ A workflow can only be used for processes if it is published. By default, a crea
 
 #### Prerequisites
 
-- At least one workflow is created, see [Create a workflow](#create-a-workflow).
-- At least one workflow version is published, see [Publish a workflow version](#publish-a-workflow-version).
+- At least one workflow has been created, see [Create a workflow](#create-a-workflow).
+- At least one workflow version has been published, see [Publish a workflow version](#publish-a-workflow-version).
 
 #### Procedure
 
@@ -482,6 +481,6 @@ A workflow can only be used for processes if it is published. By default, a crea
   The editing toolbar is displayed.
 
 2. Click the [UNPUBLISH] button in the editing toolbar.   
-  The selected workflow version is unpublished. The icon in the *Published* column changes from ![Checkmark](../../Assets/Icons/Check.png "[Checkmark]") (Checkmark) to ![Cross](../../Assets/Icons/Cross02.png "[Cross]") (Cross).
+  The selected workflow version has been unpublished. The icon in the *Published* column changes from ![Checkmark](../../Assets/Icons/Check.png "[Checkmark]") (Checkmark) to ![Cross](../../Assets/Icons/Cross02.png "[Cross]") (Cross).
 
   ![Workflow versions unpublished](../../Assets/Screenshots/ActindoWorkFlow/Workflows/WorkflowVersionsUnpublished.png "[Workflow versions unpublished]")
