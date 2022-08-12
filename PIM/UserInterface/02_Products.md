@@ -1,7 +1,7 @@
 # Products  
 *PIM > Products*
 
-The PIM menu entry *Products* is used to manage all products in the *PIM* module.
+The PIM *Products* menu entry is used to manage all products in the *PIM* module.
 
 The *Products* User Interface is composed of the following tabs:
   - [LIST](./02a_List.md)
