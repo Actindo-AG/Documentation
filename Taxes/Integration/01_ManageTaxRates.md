@@ -32,24 +32,25 @@ Create a tax rate to cover a specific tax regime.
 
   ![Create a tax rate](../../Assets/Screenshots/Taxes/Settings/TaxRates/CreateTaxRate.png "[Create a tax rate]")
 
-2. Enter the applicable tax rate in the *Tax rate* field.  
+2. Enter the desired tax rate in the *Tax rate* field. The tax rate is entered as a percentage. You can only enter numbers in the *Tax rate* field. 
 
-3. Enter the applicable tax key in the *Tax key* field. The tax keys can be checked, created, edited and deleted in the *Accounting* module, see [Manage the tax keys](../../RetailSuiteAccounting/Integration/02_ManageTaxKeys.md).
+3. Enter the corresponding tax key in the *Tax key* field. The tax keys are managed in the *Accounting* module, see [Manage the tax keys](../../RetailSuiteAccounting/Integration/02_ManageTaxKeys.md).
 
-  > [Info] Choosing the right tax key is essential for the automatic posting function in the *Accounting* module, as the *Taxes* module provides the *Invoicing* module with the configured tax key, which in turn is used by the *Invoicing* module to post the transaction in the *Accounting* module.
+  > [Info] Choosing the right tax key is essential for the automatic posting function in the *Accounting* module, as the *Taxes* module provides the *Order management* module with the configured tax key, which in turn is used by the *Order management* module to post the transaction in the *Accounting* module.
 
 [comment]: <> (Check with FH if this is correct. It is possible to save the tax rate without tax key. How does it affect performance with Fakturierung, if no tax key or a wrong tax key, z.B. already in use with other tax rate/Steuersatz, is used? Does it affect bookings/posting in Accounting? Does the system give an error message? Or does it simply not work/book automatically the transaction?)
 
-4. Click the *Tax zone* drop-down list and select the appropriate tax zone.
+4. Click the *Tax zone* drop-down list and select the appropriate tax zone. All available tax zones are displayed in the list.
 
-5. Click the *Tax class* drop-down list and select the appropriate tax class.  
+5. Click the *Tax class* drop-down list and select the appropriate tax class. All available tax classes are displayed in the list.
 
 6. Enter the applicable tax rate validity period in the *Start date* and *End date* fields. You can enter the date with the keyboard or clicking the ![Add](../../Assets/Icons/Calendar.png "[Calendar]") (Calendar) button. The date format must be YYYY.MM.DD. hh:mm:ss.
 
 7. Click the [SAVE] button.  
 The *Create tax rate* view closes automatically and the tax rate list is displayed again.  
 
-8. Refresh the tax rates list view to display the changes made. To do so, click the ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh) button in the upper right corner.
+8. Click the ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh) button in the upper right corner.   
+The new tax rate is displayed in the list of tax rates.
 
 
 ## Edit a tax rate
@@ -80,7 +81,8 @@ The *Edit tax rate* view is displayed.
 3. Click the [SAVE] button.  
 The *Edit tax rate* view closes automatically and the tax rate list is displayed again.  
 
-4. Refresh the tax rates list view to display the changes made. To do so, click the ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh) button in the upper right corner.
+4. Click the ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh) button in the upper right corner.   
+The edited tax rate is displayed in the list of tax rates.
 
 
 ## Delete a tax rate
