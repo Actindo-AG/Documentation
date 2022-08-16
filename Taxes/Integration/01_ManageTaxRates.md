@@ -1,5 +1,4 @@
 [!!Accounting](RetailSuiteAccounting)  
-[!!Fakturierung](RetailSuiteFaktBase)  
 [!!User Interface Tax rates](../UserInterface/01a_TaxRates.md)  
 [!!Manage the tax classes](./02_ManageTaxClasses.md)  
 [!!Manage the tax zones](./03_ManageTaxZones.md)  
@@ -32,7 +31,7 @@ Create a tax rate to cover a specific tax regime.
 
   ![Create a tax rate](../../Assets/Screenshots/Taxes/Settings/TaxRates/CreateTaxRate.png "[Create a tax rate]")
 
-2. Enter the desired tax rate in the *Tax rate* field. The tax rate is entered as a percentage. You can only enter numbers in the *Tax rate* field. 
+2. Enter the applicable tax rate in the *Tax rate* field. The tax rate is entered as a percentage. You can only enter numbers in the *Tax rate* field.
 
 3. Enter the corresponding tax key in the *Tax key* field. The tax keys are managed in the *Accounting* module, see [Manage the tax keys](../../RetailSuiteAccounting/Integration/02_ManageTaxKeys.md).
 
@@ -44,10 +43,19 @@ Create a tax rate to cover a specific tax regime.
 
 5. Click the *Tax class* drop-down list and select the appropriate tax class. All available tax classes are displayed in the list.
 
-6. Enter the applicable tax rate validity period in the *Start date* and *End date* fields. You can enter the date with the keyboard or clicking the ![Add](../../Assets/Icons/Calendar.png "[Calendar]") (Calendar) button. The date format must be YYYY.MM.DD. hh:mm:ss.
+6. Click the ![Calendar](../../Assets/Icons/Calendar.png "[Calendar]") (Calendar) button to enter the applicable validity period start date in the *Start date* field.
 
-7. Click the [SAVE] button.  
-The *Create tax rate* view closes automatically and the tax rate list is displayed again.  
+  > [Info] The validity period start date of a new tax rate cannot be earlier than the start date of an existing tax rate with same tax class and tax zone. Otherwise, an error message is displayed and the new tax rate is rejected.
+
+7. If desired, click the ![Calendar](../../Assets/Icons/Calendar.png "[Calendar]") (Calendar) button to enter the applicable validity period end date in the *End date* field.
+
+  > [Info] If no end date is entered, the tax rate continues to be valid for an unspecified period of time, that means, that no new tax class can be created with the same tax class and tax zone until an end date has been entered, or a new tax rate with the same tax class and tax zone is created with a start date after the start date of the existing tax rate.
+
+[comment]: <> (Check nochmals!)
+
+
+8. Click the [SAVE] button.  
+The *Create tax rate* view is closed and the list of tax rates is displayed again.  
 
 8. Click the ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh) button in the upper right corner.   
 The new tax rate is displayed in the list of tax rates.
@@ -57,7 +65,7 @@ The new tax rate is displayed in the list of tax rates.
 
 Edit a tax rate to adjust any of the configured parameters.
 
-> [Info] Editing a tax rate has far-reaching consequences for the proper functioning of the system, as the *Taxes* module interacts with the *Invoicing* and *Accounting* modules. In case of doubt, contact our customer support.
+> [Info] Editing a tax rate has far-reaching consequences for the proper functioning of the system, as the *Taxes* module interacts with the *Order management* and *Accounting* modules. In case of doubt, contact our customer support.
 
 #### Prerequisites
 
@@ -69,7 +77,7 @@ A tax rate is created, see [Create a tax rate](#create-a-tax-rate).
 
 ![Tax rates](../../Assets/Screenshots/Taxes/Settings/TaxRates/TaxRates.png "[Tax rates]")
 
-1. Click the tax rate to be edited in the tax rate list.  
+1. Click the tax rate to be edited in the list of tax rates.  
 The *Edit tax rate* view is displayed.
 
   ![Edit tax rate](../../Assets/Screenshots/Taxes/Settings/TaxRates/EditTaxRate.png "[Edit tax rate]")
@@ -79,7 +87,7 @@ The *Edit tax rate* view is displayed.
   > [Info] Be aware that any changes made to an existing tax rate will overwrite the previously configured values.
 
 3. Click the [SAVE] button.  
-The *Edit tax rate* view closes automatically and the tax rate list is displayed again.  
+The *Edit tax rate* view closes automatically and the list of tax rates is displayed again.  
 
 4. Click the ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh) button in the upper right corner.   
 The edited tax rate is displayed in the list of tax rates.
@@ -101,7 +109,7 @@ A tax rate is created, see [Create a tax rate](#create-a-tax-rate).
 
 ![Tax rates](../../Assets/Screenshots/Taxes/Settings/TaxRates/TaxRates.png "[Tax rates]")
 
-1. Select the tax rate to be deleted by clicking the checkbox on the left.  
+1. Select the checkbox of the tax rate to be deleted.  
 The editing toolbar is displayed.
 
   > [Warning] Be aware that the existing tax rate will be deleted permanently.
@@ -109,4 +117,4 @@ The editing toolbar is displayed.
 2. Click the [DELETE] button in the upper right corner.  
 The selected tax rate has been deleted.
 
-[comment]: <> (08.08.22 - DELETE Button not working. Bug reported.)
+[comment]: <> (16.08.22 - DELETE Button not working. Bug reported.)
