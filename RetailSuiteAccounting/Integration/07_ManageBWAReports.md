@@ -148,7 +148,7 @@ The *Edit* section is displayed.
   The changes are applied.
 
 5. Click the accounting report line to be edited.  
-The *Edit* section is displayed. For detailed information, see [Edit report lines](..UserInterface/02i_BWAAssignment.md#edit-report-lines).  
+The *Edit* section is displayed. For detailed information, see [Edit report lines](../UserInterface/02i_BWAAssignment.md#edit-report-lines).  
 
   > [Note] Be aware that any changes made to a BWA report will overwrite the existing values.
 
