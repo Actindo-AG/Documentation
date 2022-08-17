@@ -40,36 +40,30 @@ Create an entry to define a new tax zone.
   - **Any**: Wildcard; any value is accepted.
 
 
-3. Click the *Country of origin* drop-down list(s) and select the appropriate option(s). Use the drop-down list on the left to select a group of countries and the one on the right to select an individual country.
+3. Click the *Country of origin* drop-down list and select the appropriate option. Use the drop-down list on the left to select a group of countries or the one on the right to select an individual country. As a group of countries, only the  **EU - European Union** option is available. In the drop-down list of individual countries, all available countries in the system are displayed. When a group of countries is selected, the drop-down list on the right is locked.
 
-  > [Info] The current version only provides the option **EU - European Union** as a group of countries. When a group of countries is selected, the drop-down list on the right is grayed out.
-
-4. Click the *Ship-to country* drop-down list(s) and select the appropriate option(s). Use the drop-down list on the left to select a group of countries and the one on the right to select an individual country.
-
-  > [Info] The current version only provides the option **EU - European Union** as a group of countries. When a group of countries is selected, the drop-down list on the right is grayed out.
+4. Click the *Ship-to country* drop-down list and select the appropriate option. Use the drop-down list on the left to select a group of countries or the one on the right to select an individual country. As a group of countries, only the  **EU - European Union** option is available. In the drop-down list of individual countries, all available countries in the system are displayed. When a group of countries is selected, the drop-down list on the right is locked.
 
 5. Click the *Ship-to postcode* drop-down list and select the appropriate option. The following options are available:
 
-  - **Range**: Enter a postcode range, for example, 27498-27498 to limit the criterion to a specific target area.
-  - **Regex**: Use regular expressions to specify postcodes containing alphanumeric characters, for example /^BT.*/.  
-
-  > [Info] There are many regular expressions testing tools available free of charge in the Internet, such as [Regex101](https://regex101.com/).
+  - **Range**: Enter a postcode range, for example 27498-27498, to limit the criterion to a specific target area.
+  - **Regex**: Use regular expressions to specify postcodes containing alphanumeric characters, for example /^BT.*/.    For detailed information about regular expressions, see https://regex101.com/.
 
   For detailed information about this function, see [Define tax exceptions on ZIP code level](#define-tax-exceptions-on-ZIP-code-level).
 
 6. Click the *Net value of goods smaller than* drop-down list and select the applicable currency. If necessary, specify an amount using the keyboard or the increase and decrease arrows on the right.
 
-7. Click the *Tax zone* drop-down list and select the applicable tax zone.
+7. Click the *Tax zone* drop-down list and select the applicable tax zone. All available tax zones are displayed in the list.
 
 8. Click the [SAVE] button.  
-A pop-up window confirms that the decision matrix has been saved. The new entry has been saved.
+The new tax rule has been saved. The *Success* pop-up window is displayed.
 
   ![Decision matrix saved](../../Assets/Screenshots/Taxes/Settings/DecisionMatrix/DecisionMatrixSaved.png "[Decision matrix saved]")
 
 
 ## Edit an entry
 
-Edit an entry to modify any of the configured parameters or to change its position in the decision matrix.
+Edit an entry to modify any of the configured parameters or change its position in the decision matrix.
 
 #### Prerequisites  
 
@@ -108,7 +102,7 @@ A pop-up window confirms that the decision matrix has been saved. The edited ent
 
 ## Delete an entry
 
-Delete a entry that is no longer applicable.  
+Delete an entry that is no longer applicable.  
 
 > [Warning] Be aware that any deletion is permanent and cannot be undone.
 
@@ -122,15 +116,14 @@ An entry in the decision matrix is created, see [Create an entry](#create-an-ent
 
 ![Decision matrix](../../Assets/Screenshots/Taxes/Settings/DecisionMatrix/DecisionMatrix.png "[Decision matrix]")
 
-1. Select the entry you want to delete.
 
   > [Warning] Be aware that the deletion may have far-reaching consequences for the proper functioning of the system, as the *Taxes* module interacts with the *Invoicing* and *Accounting* modules. In case of doubt, contact our customer support.
 
 2. Click the ![Delete](../../Assets/Icons/Trash08.png "[Delete]") (Delete) button to the right of the entry to be deleted.  
-  The entry is deleted from the list.
+  The entry is removed from the list.
 
 3. Click the [SAVE] button.  
-A pop-up window confirms that the decision matrix has been saved.  
+The entry has been deleted. The *Success* pop-up window is displayed.  
 
   ![Decision matrix saved](../../Assets/Screenshots/Taxes/Settings/DecisionMatrix/DecisionMatrixSaved.png "[Decision matrix saved]")
 
