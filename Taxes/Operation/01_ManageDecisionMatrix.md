@@ -1,5 +1,4 @@
 [!!Accounting](RetailSuiteAccounting)  
-[!!Fakturierung](RetailSuiteFaktBase)  
 [!!User Interface Decision matrix](../UserInterface/01b_DecisionMatrix.md)  
 [!!Manage the tax rates](../Integration/01_ManageTaxRates.md)  
 [!!Manage the tax classes](../Integration/02_ManageTaxClasses.md)  
@@ -8,21 +7,21 @@
 
 # Manage the decision matrix
 
-The decision matrix is designed to help the system decide which tax zone, and therefore which tax rate, is applicable to an order. The decision matrix consists of a list of decision-making criteria based on the information provided by the *Invoicing* module.
+The decision matrix is designed to determine which tax zone, and therefore which tax rate, is applicable to an order. The decision matrix consists of a list of decision-making criteria based on the information provided by the *Order management* module.
 
-Taking into account the order confirmation and the delivery note, the *Invoicing* module provides the *Taxes* module with the following details: country of origin, ship-to country, ship-to postcode, and VAT ID. Using this information, the decision matrix is able to determine the tax zone. Once the tax zone has been determined, the *Taxes* module can provide the *Invoicing* module with this information, as well as with the applicable tax key and tax rate.  
+Taking into account the order confirmation and the delivery note, the *Order management* module provides the *Taxes* module with the following details: country of origin, ship-to country, ship-to postcode, and VAT ID. Using this information, the decision matrix is able to determine the tax zone. Once the tax zone has been determined, the *Taxes* module can provide the *Order management* module with this information, as well as with the applicable tax key and tax rate.  
 
 The correct order of the decision-making criteria is crucial, as the system goes through the criteria in the order they are listed, starting from the top, and stops checking them as soon as a matching criterion is found. This means, that the criteria must be organized from specific to general to cover all possible relevant cases.
 
 
 ## Create an entry
 
-Create an entry to define a new tax zone.
+Create an entry to determine a new tax zone.
 
 #### Prerequisites  
 
-- An applicable tax class is created, see [Create a tax class](../Integration/02_ManageTaxClasses.md#create-a-tax-class).
-- An applicable tax zone is created, see [Create a tax zone](../Integration/03_ManageTaxZones.md#create-a-tax-zone).
+- An applicable tax class has been created, see [Create a tax class](../Integration/02_ManageTaxClasses.md#create-a-tax-class).
+- An applicable tax zone has been created, see [Create a tax zone](../Integration/03_ManageTaxZones.md#create-a-tax-zone).
 
 #### Procedures
 
@@ -35,27 +34,34 @@ Create an entry to define a new tax zone.
 
 2. Click the *VAT ID* drop-down list and select the appropriate option. The following options are available:
 
-  - **Yes**: The end customer is a company and, therefore, has a VAT ID number (business-to-business transaction).
-  - **No**: The end customer is a private individual and, therefore, has no VAT ID number (business-to-customer transaction).
-  - **Any**: Wildcard; any value is accepted.
+  - **Yes**
+  Select this option if the end customer is a company and, therefore, has a VAT ID number (business-to-business transaction).
+  - **No**  
+  Select this option if the end customer is a private individual and, therefore, has no VAT ID number (business-to-customer transaction).
 
 
-3. Click the *Country of origin* drop-down list and select the appropriate option. Use the drop-down list on the left to select a group of countries or the one on the right to select an individual country. As a group of countries, only the  **EU - European Union** option is available. In the drop-down list of individual countries, all available countries in the system are displayed. When a group of countries is selected, the drop-down list on the right is locked.
+3. Click the *Country of origin* drop-down list and select the appropriate option. Use the drop-down list on the left to select a group of countries or the one on the right to select an individual country. As a group of countries, only the **EU - European Union** option is available. In the drop-down list of individual countries, all available countries in the system are displayed. When a group of countries is selected, the drop-down list on the right is locked.
 
-4. Click the *Ship-to country* drop-down list and select the appropriate option. Use the drop-down list on the left to select a group of countries or the one on the right to select an individual country. As a group of countries, only the  **EU - European Union** option is available. In the drop-down list of individual countries, all available countries in the system are displayed. When a group of countries is selected, the drop-down list on the right is locked.
+4. Click the *Ship-to country* drop-down list and select the appropriate option. Use the drop-down list on the left to select a group of countries or the one on the right to select an individual country. As a group of countries, only the **EU - European Union** option is available. In the drop-down list of individual countries, all available countries in the system are displayed. When a group of countries is selected, the drop-down list on the right is locked.
 
-5. Click the *Ship-to postcode* drop-down list and select the appropriate option. The following options are available:
+5. If necessary, click the *Ship-to postcode* drop-down list and select the appropriate option. The following options are available:
 
-  - **Range**: Enter a postcode range, for example 27498-27498, to limit the criterion to a specific target area.
-  - **Regex**: Use regular expressions to specify postcodes containing alphanumeric characters, for example /^BT.*/.    For detailed information about regular expressions, see https://regex101.com/.
+  - **Range**  
+  Select this option to specify a numeric postcode range, for example 27498 or 52001-52006.
+  - **Regex**  
+  Select this option to specify a postcode containing alphanumeric characters using regular expressions, for example /^BT.*/. For detailed information about regular expressions, see https://regex101.com/.
 
-  For detailed information about this function, see [Define tax exceptions on ZIP code level](#define-tax-exceptions-on-ZIP-code-level).
+> [Info] This feature can be used to define special tax regimes within a territory, such as that of Northern Ireland in the United Kingdom or Helgoland in Germany. For detailed information, see [Define tax exceptions on ZIP code level](#define-tax-exceptions-on-ZIP-code-level).
 
-6. Click the *Net value of goods smaller than* drop-down list and select the applicable currency. If necessary, specify an amount using the keyboard or the increase and decrease arrows on the right.
+6. Enter the applicable postcode range or regular expression in the field on the right.
 
-7. Click the *Tax zone* drop-down list and select the applicable tax zone. All available tax zones are displayed in the list.
+7. If necessary, click the *Net value of goods smaller than* drop-down list and select the applicable currency.
 
-8. Click the [SAVE] button.  
+8. Enter the applicable amount using the keyboard or the increase and decrease arrows on the right.
+
+9. Click the *Tax zone* drop-down list and select the applicable tax zone. All available tax zones are displayed in the list.
+
+10. Click the [SAVE] button.  
 The new tax rule has been saved. The *Success* pop-up window is displayed.
 
   ![Decision matrix saved](../../Assets/Screenshots/Taxes/Settings/DecisionMatrix/DecisionMatrixSaved.png "[Decision matrix saved]")
@@ -67,7 +73,7 @@ Edit an entry to modify any of the configured parameters or change its position 
 
 #### Prerequisites  
 
-An entry in the decision matrix is created, see [Create an entry](#create-an-entry).
+An entry has been created in the decision matrix, see [Create an entry](#create-an-entry).
 
 #### Procedures
 
@@ -75,14 +81,15 @@ An entry in the decision matrix is created, see [Create an entry](#create-an-ent
 
 ![Decision matrix](../../Assets/Screenshots/Taxes/Settings/DecisionMatrix/DecisionMatrix.png "[Decision matrix]")
 
-1. Click the drop-down list to be edited.  
-The selected field becomes active and the corresponding drop-down list is displayed.
+1. Click the *VAT ID* drop-down list and select a different option, if necessary. The following options are available:
 
-2. Select a different option from the drop-down list.  
-The newly selected option is displayed in the field.
+  - **Yes**: The end customer is a company and, therefore, has a VAT ID number (business-to-business transaction).
+  - **No**: The end customer is a private individual and, therefore, has no VAT ID number (business-to-customer transaction).
 
-3. If an option from a drop-down list is already selected, click the selected option again to deselect it.  
-The option **Any** (wildcard) is displayed in the field.
+
+2. Click the *Country of origin* drop-down list on the left to deselect the selected group of countries, if necessary. As a group of countries, only the **EU - European Union** option is available. When no group of countries is selected, the drop-down list on the right is unlocked. Click the drop-down list on the right to select an individual country.
+
+3. Click the *Ship-to county* drop-down list on the left to deselect the selected group of countries, if necessary. As a group of countries, only the **EU - European Union** option is available. When no group of countries is selected, the drop-down list on the right is unlocked. Click the drop-down list on the right to select an individual country.
 
 4. Click the *Ship-to postcode* drop-down list on the left to select a different option, if necessary, and/or the field on the right to modify the range or the regular expression. Use the keyboard to enter a different value.
 
@@ -90,14 +97,39 @@ The option **Any** (wildcard) is displayed in the field.
 
 6. Click the *Tax zone* drop-down list to select a different applicable tax zone.
 
-7. To modify the entry position in the matrix, click the ![Drag](../../Assets/Icons/Points03.png "[Drag]") (Drag) button to the left of the entry line, move the entry to a different position with the left mouse button pressed and drop it in the desired position by releasing the mouse button.   
-
-  > [Info] It is important to remember that the correct order of the decision-making criteria is crucial, as the system goes through the criteria in the order they are listed.
-
-8. Click the [SAVE] button.  
-A pop-up window confirms that the decision matrix has been saved. The edited entry has been saved.
+7. Click the [SAVE] button.  
+The edited tax rule has been saved. The *Success* pop-up window is displayed
 
   ![Decision matrix saved](../../Assets/Screenshots/Taxes/Settings/DecisionMatrix/DecisionMatrixSaved.png "[Decision matrix saved]")
+
+8. If it is necessary to change the position of an entry in the decision matrix, see [Change the order of entries](#change-the-order-of-entries).
+
+
+## Change the order of entries
+
+Modify the position of one or more entries to organize them from the most specific to the most general.
+
+> [Info] The correct order of the decision-making criteria is crucial, as the system goes through the criteria in the order they are listed.
+
+#### Prerequisites  
+
+At least two entries have been created in the decision matrix, see [Create an entry](#create-an-entry).
+
+#### Procedures
+
+*Taxes > Settings > Tab DECISION MATRIX*
+
+![Decision matrix](../../Assets/Screenshots/Taxes/Settings/DecisionMatrix/DecisionMatrix.png "[Decision matrix]")
+
+
+1. Click the ![Drag](../../Assets/Icons/Points03.png "[Drag]") (Drag) button to the left of the entry line, move the entry to a different position with the left mouse button pressed and drop it in the desired position by releasing the mouse button.   
+
+2. Click the [SAVE] button.  
+The entry position has been saved. The *Success* pop-up window is displayed.
+
+  ![Decision matrix saved](../../Assets/Screenshots/Taxes/Settings/DecisionMatrix/DecisionMatrixSaved.png "[Decision matrix saved]")
+
+3. If necessary, repeat the steps **1** and **2** with all entries that need to be repositioned.
 
 
 ## Delete an entry
@@ -108,7 +140,9 @@ Delete an entry that is no longer applicable.
 
 #### Prerequisites  
 
-An entry in the decision matrix is created, see [Create an entry](#create-an-entry).
+An entry has been created in the decision matrix, see [Create an entry](#create-an-entry).
+
+  > [Warning] Be aware that the deletion may have far-reaching consequences for the proper functioning of the system, as the *Taxes* module interacts with the *Invoicing* and *Accounting* modules.
 
 #### Procedures
 
@@ -117,12 +151,10 @@ An entry in the decision matrix is created, see [Create an entry](#create-an-ent
 ![Decision matrix](../../Assets/Screenshots/Taxes/Settings/DecisionMatrix/DecisionMatrix.png "[Decision matrix]")
 
 
-  > [Warning] Be aware that the deletion may have far-reaching consequences for the proper functioning of the system, as the *Taxes* module interacts with the *Invoicing* and *Accounting* modules. In case of doubt, contact our customer support.
-
-2. Click the ![Delete](../../Assets/Icons/Trash08.png "[Delete]") (Delete) button to the right of the entry to be deleted.  
+1. Click the ![Delete](../../Assets/Icons/Trash08.png "[Delete]") (Delete) button to the right of the entry to be deleted.  
   The entry is removed from the list.
 
-3. Click the [SAVE] button.  
+2. Click the [SAVE] button.  
 The entry has been deleted. The *Success* pop-up window is displayed.  
 
   ![Decision matrix saved](../../Assets/Screenshots/Taxes/Settings/DecisionMatrix/DecisionMatrixSaved.png "[Decision matrix saved]")
@@ -132,27 +164,19 @@ The entry has been deleted. The *Success* pop-up window is displayed.
 
 As of July 2021, a new taxation system for cross-border business-to-customer transactions performed by online retailers within the UE applies. The previous tax delivery thresholds that were individually determined by each EU member state have been replaced by a new EU-wide threshold of 10,000 EUR.
 
-As soon as the new EU-wide threshold of 10,000 EUR has been reached, the product must be taxed in the ship-to (delivery) country to the corresponding delivery country tax rate. A special case are companies having fulfillment centers in different EU countries, that is, shipping their products from a country other than the country where the company is based.
+As soon as the new EU-wide threshold of 10,000 EUR has been reached, all products must be taxed in the ship-to (delivery) country to the corresponding delivery country tax rate. A special case are companies having fulfillment centers in different EU countries, that is, shipping their products from a country other than the country where the company is based.
 
 For detailed information about the new cross-border taxation rules, see [VAT - One Stop Shop](https://vat-one-stop-shop.ec.europa.eu/index_en) or consult a tax advisor.
 
-Important aspects to take into account:
-
-- 10,000 EUR/year threshold (online sales in all countries in total)
-- from 10,000 EUR on, sales are taxable in the ship-to country
-- 26 possible ship-to countries:
-  - different tax rates and tax classes in the different EU member states
-  - in some of them, different currency, therefore beware of exchange rate
-
-[comment]: <> (Work in progress! RS FH)
-[comment]: <> (RS FH -> Unterschiedliche Währungen -> Folgen für unser System/Einstellen von Lieferschwellen / Decision matrix?)
-
 The different tax scenarios can be configured using the decision matrix.
+
+[comment]: <> (Lieferschwelle muss man über Tax rates start/end date konfigurieren, also gehört nicht ganz in der Decision Matrix. Einstellung ist trotzdem etwas besonders... Evtl. 2 Subprocedures: Subprocedure 1 Decision matrix configuration, Subprocedure 2 Update the tax rate validity, oder Verweis auf "Standardeinstellung", i.e. Create an entry + Einstellung des Datums des Tax rates?)
 
 #### Prerequisites  
 
-- An applicable tax class is created, see [Create a tax class](../Integration/02_ManageTaxClasses.md#create-a-tax-class).
-- An applicable tax zone is created, see [Create a tax zone](../Integration/03_ManageTaxZones.md#create-a-tax-zone).
+- An applicable tax class has been created, see [Create a tax class](../Integration/02_ManageTaxClasses.md#create-a-tax-class).
+- An applicable tax zone has been created, see [Create a tax zone](../Integration/03_ManageTaxZones.md#create-a-tax-zone).
+- An applicable tax rate has been created, see [Create a tax rate](../Integration/01_ManageTaxRates.md#create-a-tax-rate).
 
 #### Procedures
 
@@ -165,25 +189,24 @@ The different tax scenarios can be configured using the decision matrix.
 
 2. Click the *VAT ID* drop-down list and select **No**, as the end customer must be a private individual.
 
-3. Click the *Country of origin* drop-down list on the left to select **Any**, and the drop-down list on the right to select the country where the product is shipped from.
+3. Click the *Country of origin* drop-down list on the right and select the country where the product is shipped from.
 
-  > [Info] The country of origin can be the country where the dealer is based or where the dealer's fulfillment center is located, which may or may not coincide with the dealer country.
+4. Click the *Ship-to country* drop-down list on the right to select the country where the product is to be shipped to.  
 
-4. Click the *Ship-to country* drop-down list on the left to select **Any**, and the drop-down list on the right to select the country where the product is to be shipped to.  
+5. If necessary, click the *Ship-to postcode* drop-down list and select the appropriate option. The following options are available:
 
-  > [Info] The ship-to country continues to be relevant in the new taxation system, as any sales revenues exceeding the 10,000 EUR threshold must be taxed to the tax rate applicable in the ship-to country.
+  - **Range**  
+  Select this option to enter a postcode range, for example, 27498 or 52001-52006.
+  - **Regex**  
+  Select this option to enter a regular expression to specify postcodes containing alphanumeric characters, for example /^BT.*/
 
-5. Click the *Ship-to postcode* drop-down list and select the appropriate option. For detailed information, see [Define tax exceptions on ZIP code level](#define-tax-exceptions-on-ZIP-code-level).
+  > [Info] This feature can be used to define special tax regimes within a territory, such as that of Northern Ireland in the United Kingdom or Helgoland in Germany. For detailed information, see [Define tax exceptions on ZIP code level](#define-tax-exceptions-on-ZIP-code-level).
 
-  > [Info] This function can be used to define, for example, the special tax regime of Northern Ireland in relation to the EU after Brexit.
+6. If necessary, specify a postcode in the *Ship-to postcode* field on the right.
 
-[comment]: <> (Ship-to country Drop-down-Menü hat Noridland als Land! Wieso? Und warum denn der Ship-to postcode Drop-down-Menü? Anderes Beispiel?)
+7. If necessary, click the *Net value of goods smaller than* drop-down list and select the applicable currency, and enter the applicable net value in the field on the right.   
 
-6. Click the *Net value of goods smaller than* drop-down list and select the applicable currency.   
-
-[comment]: <> (10 000 EUR bei Net value of goods smaller denn? Hat das überhaupt mit Lieferschwelle zu tun? Sonst wie kann man den Lieferschwelle-Wert bestimmen? Was ist, wenn die Währung GBP ist? Muss man umgerechnet eintragen oder wird vom System automatisch umgerechnet? Und wie bestimmt das System, AB WANN die Lieferschwelle überschritten ist? Vorher in Fakturierung -> Datum.)
-
-7. Click the *Tax zone* drop-down list and select the applicable tax zone.
+8. Click the *Tax zone* drop-down list and select the applicable tax zone.
 
 8. To modify the entry position in the matrix, click the ![Drag](../../Assets/Icons/Points03.png "[Drag]") (Drag) button to the left of the entry line, move the entry the a different position with the left mouse button pressed and drop it in the desired position by releasing the mouse button.    
 
@@ -205,8 +228,8 @@ These tax exceptions can be defined using the *Ship-to postcode* fields.
 
 #### Prerequisites  
 
-- An applicable tax class is created, see [Create a tax class](../Integration/02_ManageTaxClasses.md#create-a-tax-class).
-- An applicable tax zone is created, see [Create a tax zone](../Integration/03_ManageTaxZones.md#create-a-tax-zone).
+- An applicable tax class has been created, see [Create a tax class](../Integration/02_ManageTaxClasses.md#create-a-tax-class).
+- An applicable tax zone has been created, see [Create a tax zone](../Integration/03_ManageTaxZones.md#create-a-tax-zone).
 
 #### Procedures
 

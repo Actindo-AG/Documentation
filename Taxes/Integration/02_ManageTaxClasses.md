@@ -10,6 +10,7 @@ A tax class is assigned to each product or group of products. The tax class is d
 
 There are two main tax classes in most territories: the standard and the reduced tax rate class. However, there can also be special taxes, such as super-reduced or zero taxes. Tax classes can be created, edited and deleted if necessary.
 
+[comment]: <> (Tax class / Steuerklasse ist unter Price im Produkt in PIM Modul hinterlegt. Verweis irgendwie auf PIM?)
 
 ## Create a tax class
 
