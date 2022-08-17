@@ -18,7 +18,7 @@ Create a tax rate to cover a specific tax regime.
 #### Prerequisites  
 
 - An applicable tax class has been created, see [Create a tax class](./02_ManageTaxClasses.md#create-a-tax-class).
-- An applicable tax zone has been created, see [Create a tax zone](./02_ManageTaxZones.md#create-a-tax-zone).
+- An applicable tax zone has been created, see [Create a tax zone](./03_ManageTaxZones.md#create-a-tax-zone).
 
 #### Procedures
 
