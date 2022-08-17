@@ -17,8 +17,8 @@ Create a tax rate to cover a specific tax regime.
 
 #### Prerequisites  
 
-- An applicable tax class is created, see [Create a tax class](./02_ManageTaxClasses.md#create-a-tax-class).
-- An applicable tax zone is created, see [Create a tax zone](./02_ManageTaxZones.md#create-a-tax-zone).
+- An applicable tax class has been created, see [Create a tax class](./02_ManageTaxClasses.md#create-a-tax-class).
+- An applicable tax zone has been created, see [Create a tax zone](./02_ManageTaxZones.md#create-a-tax-zone).
 
 #### Procedures
 
@@ -27,17 +27,15 @@ Create a tax rate to cover a specific tax regime.
 ![Tax rates](../../Assets/Screenshots/Taxes/Settings/TaxRates/TaxRates.png "[Tax rates]")
 
 1. Click the ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) button in the bottom right corner.   
-  The *Create tax rate* view is displayed.  
+The *Create tax rate* view is displayed.  
 
   ![Create a tax rate](../../Assets/Screenshots/Taxes/Settings/TaxRates/CreateTaxRate.png "[Create a tax rate]")
 
-2. Enter the applicable tax rate in the *Tax rate* field. The tax rate is entered as a percentage. You can only enter numbers in the *Tax rate* field.
+2. Enter the desired tax rate in the *Tax rate* field. The tax rate is entered as a percentage. You can only enter numbers in the *Tax rate* field.
 
-3. Enter the corresponding tax key in the *Tax key* field. The tax keys are managed in the *Accounting* module, see [Manage the tax keys](../../RetailSuiteAccounting/Integration/02_ManageTaxKeys.md).
+3. Enter the corresponding tax key in the *Tax key* field. The applicable tax key must be checked in the *TAX KEYS* tab of the *Accounting* module. For detailed information, see [Manage the tax keys](../../RetailSuiteAccounting/Integration/02_ManageTaxKeys.md).
 
-  > [Info] Choosing the right tax key is essential for the automatic posting function in the *Accounting* module, as the *Taxes* module provides the *Order management* module with the configured tax key, which in turn is used by the *Order management* module to post the transaction in the *Accounting* module.
-
-[comment]: <> (Check with FH if this is correct. It is possible to save the tax rate without tax key. How does it affect performance with Fakturierung, if no tax key or a wrong tax key, z.B. already in use with other tax rate/Steuersatz, is used? Does it affect bookings/posting in Accounting? Does the system give an error message? Or does it simply not work/book automatically the transaction?)
+  > [Info] The tax rate linked to the tax key must also be checked for validity and updated if necessary. Choosing the right tax key, and with the valid tax rate, is essential for the automatic posting function in the *Accounting* module, as the *Taxes* module provides the *Order management* module with the configured tax key, which in turn is used by the *Order management* module to post the transaction in the *Accounting* module.
 
 4. Click the *Tax zone* drop-down list and select the appropriate tax zone. All available tax zones are displayed in the list.
 
@@ -49,10 +47,7 @@ Create a tax rate to cover a specific tax regime.
 
 7. If desired, click the ![Calendar](../../Assets/Icons/Calendar.png "[Calendar]") (Calendar) button to enter the applicable validity period end date in the *End date* field.
 
-  > [Info] If no end date is entered, the tax rate continues to be valid for an unspecified period of time, that means, that no new tax class can be created with the same tax class and tax zone until an end date has been entered, or a new tax rate with the same tax class and tax zone is created with a start date after the start date of the existing tax rate.
-
-[comment]: <> (Check nochmals!)
-
+  > [Info] If no end date is entered, the tax rate continues to be valid for an unspecified period of time.
 
 8. Click the [SAVE] button.  
 The *Create tax rate* view is closed and the list of tax rates is displayed again.  
@@ -60,16 +55,18 @@ The *Create tax rate* view is closed and the list of tax rates is displayed agai
 8. Click the ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh) button in the upper right corner.   
 The new tax rate is displayed in the list of tax rates.
 
+  > [Info] If a new tax rate is created with the same tax class and tax zone as an existing tax rate, its a start date lies after the start date of the existing one, the existing tax rate end date is set up automatically before the start date of the new one.
+
 
 ## Edit a tax rate
 
 Edit a tax rate to adjust any of the configured parameters.
 
-> [Info] Editing a tax rate has far-reaching consequences for the proper functioning of the system, as the *Taxes* module interacts with the *Order management* and *Accounting* modules. In case of doubt, contact our customer support.
+> [Info] Editing a tax rate has far-reaching consequences for the proper functioning of the system, as the *Taxes* module interacts with the *Order management* and *Accounting* modules.
 
 #### Prerequisites
 
-A tax rate is created, see [Create a tax rate](#create-a-tax-rate).
+A tax rate has been created, see [Create a tax rate](#create-a-tax-rate).
 
 #### Procedures
 
@@ -87,7 +84,7 @@ The *Edit tax rate* view is displayed.
   > [Info] Be aware that any changes made to an existing tax rate will overwrite the previously configured values.
 
 3. Click the [SAVE] button.  
-The *Edit tax rate* view closes automatically and the list of tax rates is displayed again.  
+The *Edit tax rate* view is closed and the list of tax rates is displayed again.  
 
 4. Click the ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh) button in the upper right corner.   
 The edited tax rate is displayed in the list of tax rates.
@@ -101,7 +98,7 @@ Delete a tax rate that is no longer applicable.
 
 #### Prerequisites
 
-A tax rate is created, see [Create a tax rate](#create-a-tax-rate).
+A tax rate has been created, see [Create a tax rate](#create-a-tax-rate).
 
 #### Procedures
 
@@ -117,4 +114,7 @@ The editing toolbar is displayed.
 2. Click the [DELETE] button in the upper right corner.  
 The selected tax rate has been deleted.
 
-[comment]: <> (16.08.22 - DELETE Button not working. Bug reported.)
+3. Click the ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh) button in the upper right corner.   
+The deleted tax rate is removed from the list of tax rates.
+
+[comment]: <> (17.08.22 - DELETE Button not working. Bug reported. Check again when fixed if Refresh button is needed here.)

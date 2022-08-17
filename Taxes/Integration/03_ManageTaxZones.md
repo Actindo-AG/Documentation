@@ -1,5 +1,4 @@
 [!!Accounting](RetailSuiteAccounting)  
-[!!Fakturierung](RetailSuiteFaktBase)  
 [!!User Interface Tax zones](../UserInterface/01d_TaxZones.md)  
 [!!Manage the tax rates](./01_ManageTaxRates.md)  
 [!!Manage the tax classes](./02_ManageTaxClasses.md)  
@@ -38,21 +37,19 @@ No prerequisites to fulfill.
 ![Tax zones](../../Assets/Screenshots/Taxes/Settings/TaxZones/TaxZones.png "[Tax zones]")
 
 1. Click the ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) button in the upper left corner.   
-  A new data entry line with two fields is displayed.  
+A new data entry line with two fields is displayed.  
 
 2. Enter the desired tax zone name in the field in the *Tax zones* column.  
 
 3. Enter the relevant VAT ID number in the field in the *VAT ID* column.  
 
-6. Click the [SAVE] button.  
-  A pop-up window confirms that the changes have been saved.
+4. Click the [SAVE] button.  
+The changes have been saved. The *Changes have been saved* pop-up window is displayed.
 
   ![Changes saved](../../Assets/Screenshots/Taxes/Settings/TaxClasses/ChangesSaved.png "[Changes saved]")
 
 5. Press **F5** to initialize the *Core1 Platform* and to apply the changes.   
-The new tax zone is displayed in the list of tax classes.
-
-[comment]: <> (By creating a tax zone, SAVE shows the confirmation message. For changes to be displayed in the drop-down list in TAX RATES, the whole module must be refreshed with F5. Refresh icon does not work in this case, i.e. no changes in the drop-down list Tax zone are displayed. Stand 08.08.22)
+The new tax zone is displayed in the list of tax zones.
 
 
 ## Edit a tax zone
@@ -61,7 +58,7 @@ Edit a tax zone name or its configured VAT ID number.
 
 #### Prerequisites
 
-A tax zone is created, see [Create a tax zone](#create-a-tax-zone).
+A tax zone has been created, see [Create a tax zone](#create-a-tax-zone).
 
 #### Procedures
 
@@ -69,29 +66,28 @@ A tax zone is created, see [Create a tax zone](#create-a-tax-zone).
 
 ![Tax zones](../../Assets/Screenshots/Taxes/Settings/TaxZones/TaxZones.png "[Tax zones]")
 
-1. If desired, click the field in the *Tax zone* column and enter a new tax zone name. 
+1. If desired, click the field in the *Tax zone* column and enter a new tax zone name.
 
-2. If desired, click the field in the *VAT ID* column and enter a new VAT ID. 
+2. If desired, click the field in the *VAT ID* column and enter a new VAT ID.
 
 3. Click the [SAVE] button.  
-  The changes have been saved and are displayed in the list of tax zones.  The *Changes have been saved* pop-up window is displayed.
+  The changes have been saved and are displayed in the list of tax zones. The *Changes have been saved* pop-up window is displayed.
 
   ![Changes saved](../../Assets/Screenshots/Taxes/Settings/TaxClasses/ChangesSaved.png "[Changes saved]")
 
-4. Press **F5** to initialize the *Core1 Platform* and to apply the changes.   
-
-[comment]: <> (By editing a tax zone, SAVE shows the confirmation message. For changes to be displayed in the drop-down list in TAX RATES, the whole module must be refreshed with F5. Refresh icon does not work in this case, i.e. no changes in the drop-down list Tax zone are displayed. Stand 08.08.22)
+4. Press **F5** to initialize the *Core1 Platform* and to apply the changes.  
+The edited tax zone is displayed in the list of tax rates.
 
 
 ## Delete a tax zone
 
 Delete a tax zone that is no longer applicable.  
 
-> [Warning] Be aware that any deletion is permanent and cannot be undone.
+> [Warning] Be aware that any deletion is permanent and cannot be undone. Besides, a deletion may have far-reaching consequences for the proper functioning of the system, as the *Taxes* module interacts with the *Order management* module and, indirectly, with the *Accounting* module.
 
 #### Prerequisites
 
-A tax zone is created, see [Create a tax zone](#create-a-tax-zone).
+A tax zone has been created, see [Create a tax zone](#create-a-tax-zone).
 
 #### Procedures
 
@@ -99,10 +95,7 @@ A tax zone is created, see [Create a tax zone](#create-a-tax-zone).
 
 ![Tax zones](../../Assets/Screenshots/Taxes/Settings/TaxZones/TaxZones.png "[Tax zones]")
 
-
-  > [Warning] Be aware that the deletion may have far-reaching consequences for the proper functioning of the system, as the *Taxes* module interacts with the *Invoicing* and *Accounting* modules. In case of doubt, contact our customer support.
-
-2. Click the ![Delete](../../Assets/Icons/Trash08.png "[Delete]") (Delete) button next to the tax zone to be deleted.  
+1. Click the ![Delete](../../Assets/Icons/Trash08.png "[Delete]") (Delete) button next to the tax zone to be deleted.  
   The tax zone is removed from the list.
 
 3. Click the [SAVE] button.  
@@ -110,6 +103,5 @@ A tax zone is created, see [Create a tax zone](#create-a-tax-zone).
 
   ![Changes saved](../../Assets/Screenshots/Taxes/Settings/TaxClasses/ChangesSaved.png "[Changes saved]")
 
-4. Press **F5** to initialize the *Core1 Platform* and to apply the changes. 
-
-[comment]: <> (By deleting a tax zone, SAVE shows the confirmation message. For changes to be displayed in the drop-down list in TAX RATES, the whole module must be refreshed with F5. Refresh icon does not work in this case, i.e. no changes in the drop-down list Tax zone are displayed. Stand 08.08.22)
+4. Press **F5** to initialize the *Core1 Platform* and to apply the changes.  
+The deleted tax zone is no longer displayed in the list of tax rates.

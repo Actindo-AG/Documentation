@@ -36,7 +36,7 @@ The tax class has been saved.
 4. Press **F5** to initialize the *Core1 Platform* and to apply the changes.   
 The new tax class is displayed in the list of tax classes.
 
-[comment]: <> (By creating a tax class, SAVE does NOT show the confirmation message. For changes to be displayed in the drop-down list in TAX RATES, the whole module must be refreshed with F5. Refresh icon does not work in this case, i.e. no changes in the drop-down list Tax class are displayed. Stand 08.08.22)
+[comment]: <> (By creating a tax class, SAVE does NOT show the confirmation message. Stand 17.08.22)
 
 
 ## Edit a tax class
@@ -45,7 +45,7 @@ Edit a tax class to modify its name.
 
 #### Prerequisites
 
-A tax class is created, see [Create a tax class](#create-a-tax-class).
+A tax class has been created, see [Create a tax class](#create-a-tax-class).
 
 #### Procedures
 
@@ -63,18 +63,17 @@ A tax class is created, see [Create a tax class](#create-a-tax-class).
 3. Press **F5** to initialize the *Core1 Platform* and to apply the changes.  
 The renamed tax class is displayed in the list of tax classes.
 
-[comment]: <> (By editing a tax class, SAVE does show the confirmation message. For changes to be displayed in the drop-down list in TAX RATES, the whole module must be refreshed with F5. Refresh icon does not work in this case, i.e. no changes in the drop-down list Tax class are displayed. Stand 08.08.22)
-
 
 ## Delete a tax class
 
 Delete a tax class that is no longer applicable.  
 
-> [Warning] Be aware that any deletion is permanent and cannot be undone. Bear in mind that the deletion may have far-reaching consequences for the proper functioning of the system, as the *Taxes* module interacts with the *Invoicing* and *Accounting* modules.
+> [Warning] Be aware that any deletion is permanent and cannot be undone. Besides, a deletion may have far-reaching consequences for the proper functioning of the system, as the *Taxes* module interacts with the *Order management* module and, indirectly, with the *Accounting* module.
+
 
 #### Prerequisites
 
-A tax class is created, see [Create a tax class](#create-a-tax-class).
+A tax class has been created, see [Create a tax class](#create-a-tax-class).
 
 #### Procedures
 
@@ -93,6 +92,3 @@ A tax class is created, see [Create a tax class](#create-a-tax-class).
 
 3. Press **F5** to initialize the *Core1 Platform* and to apply the changes.  
 The deleted tax class is no longer displayed in the list of tax classes.  
-
-
-[comment]: <> (By deleting a tax class, SAVE does show the confirmation message. For changes to be displayed in the drop-down list in TAX RATES, the whole module must be refreshed with F5. Refresh icon does not work in this case, i.e. no changes in the drop-down list Tax class are displayed. Stand 08.08.22)
