@@ -9,7 +9,7 @@ Model your specific workflows:
   The *Workflows* module allows you to design and execute business rules. This allows you to cast decision paths for specific processes and scenarios and easily automate them.
 
 - Live Data and Log     
-  In the Workflow Manager, all processes and data can be viewed live, and a detailed log is created for each process. This means that you can always see where an order or return is currently located, and can quickly intervene in the event of errors and track all steps.
+  In the workflow manager, all processes and data can be viewed live, and a detailed log is created for each process. This means that you can always see where an order or return is currently located, and can quickly intervene in the event of errors and track all steps.
 
 - Individual Workflows     
   Maximum flexibility in automating your processes: All workflows are defined by you and can be fully customized. This means that your specific business processes can be mapped precisely.

@@ -7,11 +7,10 @@ The *Workflows* module allows customers to model their own processes to match th
 A workflow runs from a fixed start place to a fixed end place, which can be in turn linked to another workflow. A workflow must contain at least one transition between the start and the end place. The transitions are linked through places with each other, connecting the corresponding transition input and output ports. All these elements are described more in detail below:
 
 - [Transitions](#transitions)
-- [Arcs](#arcs)
-- [Input and output ports](#input-and-output-ports)
 - [Places](#places)
 - [Start and end place](#start-and-end-place)
-
+- [Arcs](#arcs)
+- [Input and output ports](#input-and-output-ports)
 
 
 The *Workflows* module is linked to different system modules and plugins, such as *Invoicing*, *Email*, *Omni Channel* and *Tasks*. The transitions available to create workflows depend on the modules installed in the system.
