@@ -159,19 +159,13 @@ The entry has been deleted. The *Success* pop-up window is displayed.
 
 ## Define a tax delivery threshold
 
-[comment]: <> (Configure the decision matrix with tax delivery thresholds)
+[comment]: <> (Evtl. anders nennen, z.B. Configure decision matrix with delivery thresholds)
 
-All applicable tax scenarios can be configured using the decision matrix.
-
+The decision matrix can be configured to specify tax delivery thresholds in different EU countries.  
 
 #### Prerequisites  
 
 - All applicable tax rates have been defined for delivery thresholds, see [Define the tax rates for delivery thresholds](#define-the-tax-rates-for-delivery-thresholds).
-- All applicable entries have been created, see [Create an entry](#create-an-entry).
-- All entries are in the right order, see [Change the order of entries](#change-the-order-of-entries).
-
-
-[comment]: <> (Entweder prereq + nur Einstellung in TAX RATES oder Subprocedure 1 + Subprocedure 2)
 
 #### Procedures
 
@@ -184,9 +178,9 @@ All applicable tax scenarios can be configured using the decision matrix.
 
 2. Click the *VAT ID* drop-down list and select **No**, as the end customer must be a private individual.
 
-3. Click the *Country of origin* drop-down list on the right and select the country where the product is shipped from.
+3. Click the *Country of origin* drop-down list on the right and select the country where the product is shipped from. The *Country of origin* drop-down list on the left must remain blank (**Any**).
 
-4. Click the *Ship-to country* drop-down list on the right to select the country where the product is to be shipped to.  
+4. Click the *Ship-to country* drop-down list on the right to select the country where the product is to be shipped to. The *Ship-to country* drop-down list on the left must remain blank (**Any**).
 
 5. If necessary, click the *Ship-to postcode* drop-down list on the left and select the appropriate option. Specify a postcode in the field on the right. For detailed information, see [Define tax exceptions on ZIP code level](#define-tax-exceptions-on-ZIP-code-level).
 
@@ -201,7 +195,9 @@ A pop-up window confirms that the decision matrix has been saved. The new entry 
 
 9. Repeat this procedure to configure one by one all the applicable tax scenarios depending on your business needs.
 
+10. If it is necessary to change the position of an entry in the decision matrix, see [Change the order of entries](#change-the-order-of-entries).
 
+  > [Info] It is important to remember that the correct order of the decision-making criteria is crucial, as the system goes through the criteria in the order they are listed.
 
 
 ## Define tax exceptions on ZIP code level
@@ -214,6 +210,7 @@ These tax exceptions can be defined using the *Ship-to postcode* fields.
 
 - An applicable tax class has been created, see [Create a tax class](../Integration/02_ManageTaxClasses.md#create-a-tax-class).
 - An applicable tax zone has been created, see [Create a tax zone](../Integration/03_ManageTaxZones.md#create-a-tax-zone).
+- An applicable tax rate has been created, see [Create a tax rate](../Integration/01_ManageTaxRates.md#create-a-tax-rate).
 
 #### Procedures
 
