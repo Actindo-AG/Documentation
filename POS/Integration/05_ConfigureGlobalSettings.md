@@ -1,7 +1,7 @@
-[!!Invoicing](RetailSuiteFaktBase)
+[!!Order management](RetailSuiteFaktBase)
 [!!DataHub](DataHub)
 [!!User Interface Venduo POS](../UserInterface/00_UserInterface.md)
-[!!User Interface Invoicing](../../Invoicing/UserInterface/00_UserInterface.md)
+[!!User Interface Order management](../../RetailSuiteFaktBase/UserInterface/00_UserInterface.md)
 [!!User Interface DataHub](../../DataHub/UserInterface/00_UserInterface.md)
 
 
