@@ -122,7 +122,7 @@ The deleted tax rate is removed from the list of tax rates.
 
 ## Define the tax rates for delivery thresholds
 
-Define the necessary tax rates to configure the system with tax delivery thresholds.
+Define the necessary tax rates to include tax delivery thresholds in the system configuration.
 
 > [Info] As of July 2021, a new EU-wide threshold of 10,000 EUR applies. As soon as this threshold has been reached, all products must be taxed in the ship-to (delivery) country to the corresponding delivery country tax rate. For detailed information about the new cross-border taxation rules, see [VAT - One Stop Shop](https://vat-one-stop-shop.ec.europa.eu/index_en) or consult a tax advisor.
 
@@ -137,6 +137,7 @@ Define the necessary tax rates to configure the system with tax delivery thresho
 
 ![Tax rates](../../Assets/Screenshots/Taxes/Settings/TaxRates/TaxRates.png "[Tax rates]")
 
+[comment]: <> (Unsicher - Subprocedures mit H3? Beide gehören zusammen, denn man braucht zwei Tax rates mit zwei unteschiedlichen Gültigkeitszeiträume. Problem mit selben Tax zone wäre dann für die Decision Matrix, denn da kann man bei der Einstellung von jeder Zeile unterscheiden können.)
 
 **Create a tax rate with the applicable delivery country VAT**
 
@@ -151,22 +152,20 @@ The *Create tax rate* view is displayed.
 
 4. Click the *Tax zone* drop-down list and select the appropriate tax zone, for example Austria/Austrian VAT. All available tax zones are displayed in the list.
 
-5. Click the *Tax class* drop-down list and select the appropriate tax class, for example Standard. All available tax classes are displayed in the list.
+5. Click the *Tax class* drop-down list and select the appropriate tax class. All available tax classes are displayed in the list.
 
 6. Click the ![Calendar](../../Assets/Icons/Calendar.png "[Calendar]") (Calendar) button to enter the applicable validity period start date in the *Start date* field.
 
-  > [Info] The start date must be set at the time when the tax delivery threshold has been reached, since, up this point, all sales revenues to any Eu country must be taxed to the delivery country VAT rate. The start date can be set in the future.
+  > [Info] The start date must be set at the time when the tax delivery threshold has been reached, since, as of this date, all revenues on products sold to any EU country must be taxed to the delivery country VAT rate. The start date can be set in the future.
 
-7. Click the ![Calendar](../../Assets/Icons/Calendar.png "[Calendar]") (Calendar) button to enter the applicable validity period end date in the *End date* field, for example the end of the current fiscal year.
-
-  Example settings are displayed below:
+7. Click the ![Calendar](../../Assets/Icons/Calendar.png "[Calendar]") (Calendar) button to enter the applicable validity period end date in the *End date* field, for example the end of the current fiscal year. The described example setting is displayed below:
 
   ![Delivery country VAT](../../Assets/Screenshots/Taxes/Settings/TaxRates/CreateTaxRateThreshold01.png "[Delivery country VAT]")
 
 8. Click the [SAVE] button.  
 The *Create tax rate* view is closed and the list of tax rates is displayed again.  
 
-8. Click the ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh) button in the upper right corner.   
+9. Click the ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh) button in the upper right corner.   
 The new tax rate is displayed in the list of tax rates.
 
 
@@ -179,31 +178,24 @@ The *Create tax rate* view is displayed.
 
 2. Enter the applicable delivery country VAT rate in the *Tax rate* field, for example 19% in the case of Germany. You can only enter numbers in the *Tax rate* field.
 
-  > [Info] The first 10,000 EUR sales revenues on products sold from Germany to Austria are taxable in Germany.
+  > [Info] The first 10,000 EUR revenues on products sold from Germany to any EU country are taxable in Germany.
 
 3. Enter the corresponding tax key in the *Tax key* field, for example 3 for Germany. The applicable tax key must be checked in the *TAX KEYS* tab of the *Accounting* module. For detailed information, see [Manage the tax keys](../../RetailSuiteAccounting/Integration/02_ManageTaxKeys.md).
 
 4. Click the *Tax zone* drop-down list and select the appropriate tax zone, for example Austria/German VAT. All available tax zones are displayed in the list.
 
-5. Click the *Tax class* drop-down list and select the appropriate tax class, for example Standard. All available tax classes are displayed in the list.
+5. Click the *Tax class* drop-down list and select the appropriate tax class. All available tax classes are displayed in the list.
 
-6. Click the ![Calendar](../../Assets/Icons/Calendar.png "[Calendar]") (Calendar) button to enter the applicable validity period start date in the *Start date* field. The start date must be set at the start of the current fiscal year.
+6. Click the ![Calendar](../../Assets/Icons/Calendar.png "[Calendar]") (Calendar) button to enter the applicable validity period start date in the *Start date* field. The start date must be set at the start of a fiscal year.
 
-7. Click the ![Calendar](../../Assets/Icons/Calendar.png "[Calendar]") (Calendar) button to enter the applicable validity period end date in the *End date* field. The domestic VAT rate must be valid until the delivery country VAT rate validity period starts.
-
-  Example settings are displayed below:
+7. Click the ![Calendar](../../Assets/Icons/Calendar.png "[Calendar]") (Calendar) button to enter the applicable validity period end date in the *End date* field. The domestic VAT rate must be valid until the delivery country VAT rate validity period starts. The described example setting is displayed below:
 
   ![Delivery country VAT](../../Assets/Screenshots/Taxes/Settings/TaxRates/CreateTaxRateThreshold02.png "[Delivery country VAT]")
 
 8. Click the [SAVE] button.  
 The *Create tax rate* view is closed and the list of tax rates is displayed again.  
 
-8. Click the ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh) button in the upper right corner.   
+9. Click the ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh) button in the upper right corner.   
 The new tax rate is displayed in the list of tax rates.
 
-
-> [Note] Repeat steps **1** to **8** of both procedures to create the applicable tax rates for all relevant countries.  
-
-An example tax rates setting is displayed below:
-
-![Tax rates thresholds](../../Assets/Screenshots/Taxes/Settings/TaxRates/TaxRatesThresholds.png "[Tax rates thresholds]")
+> [Note] Repeat steps **1** to **9** of both procedures to create the applicable tax rates for all relevant countries.  
