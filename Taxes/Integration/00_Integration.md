@@ -4,7 +4,7 @@
   - [Create a tax rate](./01_ManageTaxRates.md#create-a-tax-rate)
   - [Edit a tax rate](./01_ManageTaxRates.md#edit-a-tax-rate)
   - [Delete a tax rate](./01_ManageTaxRates.md#delete-a-tax-rate)
-
+  - [Define the tax rates for delivery thresholds](./01_ManageTaxRates.md#define-the-tax-rates-for-delivery-thresholds)
 
 - [Manage the tax classes](./02_ManageTaxClasses.md)
   - [Create a tax class](./02_ManageTaxClasses.md#create-a-tax-class)
