@@ -165,7 +165,7 @@ The decision matrix can be configured to specify tax delivery thresholds in diff
 
 #### Prerequisites  
 
-- All applicable tax rates have been defined for delivery thresholds, see [Define the tax rates for delivery thresholds](#define-the-tax-rates-for-delivery-thresholds).
+- All applicable tax rates have been defined for delivery thresholds, see [Define the tax rates for delivery thresholds](../Integration/01_ManageTaxRates.md#define-the-tax-rates-for-delivery-thresholds).
 
 #### Procedures
 
