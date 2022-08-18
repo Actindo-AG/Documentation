@@ -4,11 +4,6 @@
 
 ![Tax rates](../../Assets/Screenshots/Taxes/Settings/TaxRates/TaxRates.png "[Tax rates]")
 
-The *TAX RATES* tab displays a list of all available tax rates. The default configuration covers all standard cases for a company based in Germany delivering within the European Union, without exceeding any tax delivery threshold and paying taxes on sales revenue in Germany.
-
-[comment]: <> (Bestätigen mit FH)
-
-Tax rates can be created, edited and deleted to adapt the system to the customer's needs, also dealing with special tax regimes within or outside the European Union. For detailed information about creating, editing or deleting tax rates, see [Manage the tax rates](../Integration/01_ManageTaxRates.md).
 
 
 **List**
@@ -46,7 +41,6 @@ All configured tax zones. By default, the following tax zones are displayed:
   - **EU**
   - **Third country**
 
-  Tax zones can be created, edited and deleted, see [Create a tax zone](../Integration/03_ManageTaxZones.md#create-a-tax-zone).
 
 - *Tax class*  
 All configured tax classes. By default, the following tax zones are displayed:
@@ -54,13 +48,12 @@ All configured tax classes. By default, the following tax zones are displayed:
   - **Standard rate**
   - **Reduced rate**  
 
-  Tax zones can be created, edited and deleted, see [Create a tax class](../Integration/02_ManageTaxClasses.md#create-a-tax-zone).
 
 - *Tax rates*  
-Applicable tax rates expressed as percentage and its validity period. Tax rates can be edited, see [Edit a tax rate](../Integration/01_ManageTaxRates.md#edit-a-tax-rate).
+Applicable tax rates expressed as percentage and its validity period.
 
 - *Tax key*  
-Applicable tax keys. The tax keys can be checked, created, edited and deleted in the *Accounting* module, see [Manage the tax keys](../../RetailSuiteAccounting/Integration/02_ManageTaxKeys.md).
+Applicable tax keys. 
 
 - ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add)   
 Click this button to create a tax rate. The *Create tax rate* view is displayed, see [Create tax rate](#create-tax-rate).
@@ -91,13 +84,13 @@ Click this button to close the *Create tax rate* view and return to the tax rate
 Enter the applicable tax rate.
 
 - *Tax key*  
-Enter the applicable tax key. The tax keys can be checked, created, edited and deleted in the *Accounting* module, see [Manage the tax keys](../../RetailSuiteAccounting/Integration/02_ManageTaxKeys.md).
+Enter the applicable tax key.
 
 - *Tax zone*  
-Click the drop-down list and select the applicable tax zone.
+Click the drop-down list and select the applicable tax zone. All available tax zones are displayed in the list.
 
 - *Tax class*  
-Click the drop-down list and select the applicable tax class.
+Click the drop-down list and select the applicable tax class. All available tax classes are displayed in the list.
 
 - *Start date*   
 Enter the start date of the tax rate validity period. You can enter the date with the keyboard or clicking the ![Add](../../Assets/Icons/Calendar.png "[Calendar]") (Calendar) button. The date format must be YYYY.MM.DD. hh:mm:ss.
@@ -111,7 +104,6 @@ Click this button to save the new tax rate, close the *Create tax rate* view and
 
 ## Edit tax rate
 
-[comment]: <> (Evtl. Create/edit tax rate?)
 
 *Taxes > Settings > Tab TAX RATES > Select a tax rate*
 

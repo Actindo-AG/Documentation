@@ -2,7 +2,7 @@
 
 Customize your taxation system to the smallest detail:
 
-- Crate multiple tax scenarios  
+- Create multiple tax scenarios  
 The *Taxes* module allows you to configure multiple tax scenarios depending on different variables in all the territories where you operate. Whether you are shipping your products from the country where your company is based or from a fulfilment center in another EU country, or you are delivering your products to the domestic market, to another member state or even to a third country outside the EU, all these variables can be defined simultaneously in the system.
 
 - Configure special tax regimes  

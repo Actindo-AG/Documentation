@@ -1,6 +1,6 @@
 # General information
 
-The *Taxes* module of the Actindo Core1 Platform allows you configure the system automatic tax feature to match your specific business requirements. You can define the specific tax classes applicable to your products, determine the different tax zones where you operate, and set up an unlimited number of tax rates, which can also be specified according to their validity period. Based on the information available in the order confirmation and the delivery note, the *Taxes* module provides the *Invoicing* module with the appropriate tax rate to be applied to a particular product.
+The *Taxes* module of the *Actindo Core1 Platform* allows you configure the system automatic tax feature to match your specific business requirements. You can define the specific tax classes applicable to your products, determine the different tax zones where you operate, and set up an unlimited number of tax rates, which can also be specified according to their validity period. Based on the information available in the order confirmation and the delivery note, the *Taxes* module provides the *Order management* module with the appropriate tax rate to be applied to a particular product.
 
 This documentation refers to the *Taxes* module version 4.0.1. There may be differences in the UI, features and operation if your *Taxes* module is installed in a different version.
 

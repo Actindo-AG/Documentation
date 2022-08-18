@@ -6,16 +6,16 @@
 
 
 - *Tax classes*  
-All available tax classes are listed. By default, the standard rate and the reduced rate tax class are displayed. Tax classes can be created, edited and deleted, see [Manage the tax classes](../Integration/02_ManageTaxClasses.md).
+Tax class name.
 
 - ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add)   
-Click this button to create an entry. A new entry line is displayed.
+Click this button to create a new tax class. A new entry is displayed.
 
-- (Entry line)  
-Click the corresponding field to enter or edit the tax class name.
+- (Tax class entry)  
+Enter or edit the tax class name. By default, the *Standard rate* and the *Reduced rate* tax classes are predefined.
 
 - ![Delete](../../Assets/Icons/Trash08.png "[Delete]") (Delete)  
-Click this button to delete the corresponding entry.  
+Click this button to delete the corresponding tax class.  
 
 - [SAVE]  
 Click this button to save any changes made.
