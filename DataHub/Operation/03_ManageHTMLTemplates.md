@@ -12,7 +12,7 @@ Create an HTML template so that it is available for the ETL mapping.
 
 #### Prerequisites
 
-The *HTML Templates for ETL* plugin have been installed.
+The *HTML Templates for ETL* plugin has been installed.
 
 #### Procedure
 *DataHub > Settings > Tab HTML TEMPLATES*
