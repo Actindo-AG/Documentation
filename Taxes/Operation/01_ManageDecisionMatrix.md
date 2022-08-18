@@ -163,7 +163,6 @@ The entry has been deleted. The *Success* pop-up window is displayed.
 
 All applicable tax scenarios can be configured using the decision matrix.
 
-[comment]: <> (Lieferschwelle muss man über Tax rates start/end date konfigurieren, also gehört nicht ganz in der Decision Matrix. Einstellung ist trotzdem etwas besonders... Evtl. 2 Subprocedures: Subprocedure 1 Decision matrix configuration, Subprocedure 2 Update the tax rate validity, oder Verweis auf "Standardeinstellung", i.e. Create an entry + Einstellung des Datums des Tax rates?)
 
 #### Prerequisites  
 
