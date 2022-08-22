@@ -43,7 +43,7 @@ A new data entry line with two fields is displayed.
 
 3. Enter the relevant VAT ID number in the field in the *VAT ID* column.  
 
-[comment]: <> (Das ist die eigene Firmen-VAT-ID-Nummer, die auf dem Beleg ausgedrückt wird, abhängig von relevanter Tax zone.)
+  > [Info] The VAT ID refers to the seller's VAT ID number, which will be printed on the relevant order-related documents.
 
 4. Click the [SAVE] button.  
 The changes have been saved. The *Changes have been saved* pop-up window is displayed.
