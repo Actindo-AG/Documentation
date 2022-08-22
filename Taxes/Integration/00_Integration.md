@@ -6,6 +6,7 @@
   - [Delete a tax rate](./01_ManageTaxRates.md#delete-a-tax-rate)
   - [Define the tax rates for delivery thresholds](./01_ManageTaxRates.md#define-the-tax-rates-for-delivery-thresholds)
 
+
 - [Manage the tax classes](./02_ManageTaxClasses.md)
   - [Create a tax class](./02_ManageTaxClasses.md#create-a-tax-class)
   - [Edit a tax class](./02_ManageTaxClasses.md#edit-a-tax-class)

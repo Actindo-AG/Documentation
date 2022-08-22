@@ -126,6 +126,11 @@ Define the necessary tax rates to include tax delivery thresholds in the system 
 
 > [Info] As of July 2021, a new EU-wide threshold of 10,000 EUR applies. As soon as this threshold has been reached, all products must be taxed in the ship-to (delivery) country to the corresponding delivery country tax rate. For detailed information about the new cross-border taxation rules, see [VAT - One Stop Shop](https://vat-one-stop-shop.ec.europa.eu/index_en) or consult a tax advisor.
 
+[comment]: <> (Problem mit selber Tax zone wäre dann für die Decision Matrix, denn da kann man bei der Einstellung von jeder Zeile unterscheiden können.)
+
+
+### Create a tax rate with the applicable delivery country VAT
+
 #### Prerequisites
 
 - All applicable tax classes have been created, see [Create a tax class](./02_ManageTaxClasses.md#create-a-tax-class).
@@ -136,10 +141,6 @@ Define the necessary tax rates to include tax delivery thresholds in the system 
 *Taxes > Settings > Tab TAX RATES*
 
 ![Tax rates](../../Assets/Screenshots/Taxes/Settings/TaxRates/TaxRates.png "[Tax rates]")
-
-[comment]: <> (Unsicher - Subprocedures mit H3? Beide gehören zusammen, denn man braucht zwei Tax rates mit zwei unteschiedlichen Gültigkeitszeiträume. Problem mit selben Tax zone wäre dann für die Decision Matrix, denn da kann man bei der Einstellung von jeder Zeile unterscheiden können.)
-
-**Create a tax rate with the applicable delivery country VAT**
 
 1. Click the ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) button in the bottom right corner.   
 The *Create tax rate* view is displayed.  
@@ -169,7 +170,19 @@ The *Create tax rate* view is closed and the list of tax rates is displayed agai
 The new tax rate is displayed in the list of tax rates.
 
 
-**Create a tax rate with the applicable domestic VAT**
+### Create a tax rate with the applicable domestic VAT
+
+#### Prerequisites
+
+- All applicable tax classes have been created, see [Create a tax class](./02_ManageTaxClasses.md#create-a-tax-class).
+- All applicable tax zones have been created, see [Create a tax zone](./03_ManageTaxZones.md#create-a-tax-zone).
+
+#### Procedures
+
+*Taxes > Settings > Tab TAX RATES*
+
+![Tax rates](../../Assets/Screenshots/Taxes/Settings/TaxRates/TaxRates.png "[Tax rates]")
+
 
 1. Click the ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) button in the bottom right corner.   
 The *Create tax rate* view is displayed.  
