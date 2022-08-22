@@ -8,7 +8,7 @@
 Tax zone name.
 
 - *VAT ID*  
-Value-added tax identification number (VAT ID).
+Value-added tax identification number (VAT ID). The VAT ID refers to the seller's VAT ID number, which will be printed on the relevant order-related documents.  
 
 - ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add)   
 Click this button to create an entry. A new entry line is displayed.
