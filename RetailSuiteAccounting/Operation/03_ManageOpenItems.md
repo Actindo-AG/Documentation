@@ -4,19 +4,20 @@
 
 # Manage the open items
 
-The *OPEN ITEMS* tab displays any open items in the system, that is, any business transactions that have not yet been completed. The open items function helps to monitor cash movements and avoid liquidity problems.
+Open items are any business transactions that have not yet been completed. By checking the open items, you can monitor cash movements and avoid liquidity problems.
 
 There are two view modes:
 
-- If no account is selected, the *OPEN ITEMS* tab displays all open items in the *Accounting* module.
-- If a personal account is selected, the *OPEN ITEMS* tab displays only the open items for the selected account.
+- If no account is selected, all open items in the *Accounting* module are displayed in the *OPEN ITEMS* tab. 
+- If a personal account, that is, a creditor or debtor account, is selected, only the open items for the selected account are displayed in the *OPEN ITEMS* tab.
 
-> [Info] An account can be selected either by entering an  account number in the *Account* or *Contra account* field, or by clicking on a booking in the *BOOKINGS* tab.  
+> [Info] An account can be selected either by entering an account number in the *Account* or *Contra account* field, or by selecting a booking in the *BOOKINGS* tab.  
 
 
-## Access all open items
+## Check all open items
 
-You can display all open items recorded in the system.
+You can display all open items recorded in the system to check the open items across all accounts. 
+
 
 #### Prerequisites
 
@@ -31,11 +32,13 @@ You can display all open items recorded in the system.
 ![All open items](../../Assets/Screenshots/RetailSuiteAccounting/Book/OpenItems/NoAccountSelected.png "[All open items]")
 
 1. Check that no account number is entered in the *Account* or *Contra account* fields.
+The open items across all accounts are displayed.
 
-2. If the *Account* or *Contra account* fields are filled out, clear the content either with the keyboard delete key or with the [CLEAR] button. Press Enter or the tab key.  
-The *OPEN ITEMS* tab shows all open items available in the *Accounting* module.
+ > [Info] If the *Account* or *Contra account* fields are filled in, clear the fields by clicking the [CLEAR] button.
+ 
+2. Check the list of open items.
 
- > [Info] If there are no open items, a blank tab is displayed.
+ > [Info] If there are no open items, the notice *No open items available* is displayed.
 
   ![No open items](../../Assets/Screenshots/RetailSuiteAccounting/Book/OpenItems/NoOPOS.png "[No open items]")
 
@@ -43,13 +46,11 @@ The *OPEN ITEMS* tab shows all open items available in the *Accounting* module.
 
 ## Access the open items for an account
 
-You can display all open items recorded in a specific personal account, that is, a creditor or debtor account.
+You can display all open items of a specific personal account, that is a creditor or debtor account, for example to check the open items for a certain customer or supplier.
 
 #### Prerequisites
 
-- The accounting is configured via the configuration wizard, see [Run the accounting wizard](../Integration/01_RunAccountingWizard.md).
-- A valid fiscal year is created, see [Create a fiscal year](../Integration/04_ManageFiscalYear.md#create-a-fiscal-year).
-- A fiscal year is selected, see [Select fiscal year](./01_SelectFiscalYear.md).
+A fiscal year has been selected, see [Select fiscal year](./01_SelectFiscalYear.md).
 
 #### Procedure
 
@@ -57,13 +58,18 @@ You can display all open items recorded in a specific personal account, that is,
 
 ![Open items for an account](../../Assets/Screenshots/RetailSuiteAccounting/Book/OpenItems/AccountSelected.png "[Open items for an account]")
 
-1. Enter a personal account number in the *Contra account* or in the *Account* field. Alternatively, click on a booking in the *BOOKINGS* tab.
-The open items recorded in the corresponding account are displayed in the *OPEN ITEMS* tab.
+1. Enter a personal account number in the *Contra account* or in the *Account* field. Alternatively, click a corresponding booking in the *BOOKINGS* tab.
+All open items of the corresponding account are displayed.
 
-2. Select the *Standard open items view* or the *Show manually cleared open items* radio button to filter the open items displayed as appropriate.
+2. If desired, select the *Show manually cleared open items* radio button to display only the manually cleared open items for the selected account. By default, the *Standard open items view* radio button is preselected and all open items for the selected account are displayed. 
+3. Check the list of open items for the selected account.
 
-3. If necessary, you can clear open items manually. To do so, select the bookings to be settled by marking the ![checkbox](../../Assets/Icons/Checkbox.png "[checkbox]") checkbox in the *M* column.  
-The amount displayed in the *Amount* box on the right-hand side of the workspace equals 0,00.
+ > [Info] If required, you can manually clear open items, see [Clear an open item manually](#clear-an-open-item-manually).
+3. If necessary, clear open items manually. To do so, select the checkbox of the corresponding bookings to be settled in the *M* column.
+The total amount of the bookings is displayed in the upper right corner of the workspace.
+
+  > [Info] The total amount of the booking must equal **0,00 H** to be cleared out manually.
+
 
   ![Clear manually](../../Assets/Screenshots/RetailSuiteAccounting/Book/OpenItems/ClearManually.png "[Clear manually]")
 
@@ -75,8 +81,10 @@ The amount displayed in the *Amount* box on the right-hand side of the workspace
 
    ![Manually cleared open items](../../Assets/Screenshots/RetailSuiteAccounting/Book/OpenItems/ManuallyClearedOPOS.png "[Manually cleared open items]")
 
-6. Select the manually cleared bookings to be reversed.  
-The amount displayed in the *Amount* box on the right-hand side of the workspace equals 0,00.
+6. Select the checkbox of the cleared bookings to be reversed in the *M* column.
+  The total amount of the bookings is displayed in the upper right corner of the workspace.
+  
+  > [Info] The total amount of the bookings must equal **0,00 H** to be reversed.
 
-7. Click the [CANCEL CLEARING] button to reverse the clearing.  
-The manual clearing has been cancelled.
+7. Click the [UNDO CLEARING] button to reverse the clearing.  
+The manual clearing for the selected bookings has been undone. The corresponding bookings are removed from the manually cleared open items list.

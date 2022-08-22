@@ -4,37 +4,38 @@
 
 # Process bookings
 
-The *Process* menu entry of the *EDIT* context menu in the *BOOKINGS* tab allows to process bookings entered in several booking periods simultaneously.
-
-All business transactions are recorded in the corresponding booking period (month and journal) as they occur. When the accounting for a particular period is finalized, the journal entries must be processed, that is, booked in the general ledger.
-
-Once the bookings have been processed, they cannot be changed or deleted any more. If any corrections are necessary, the bookings must be first cancelled. For detailed information about cancelling a booking, see [Cancel a booking](./05_CancelBooking.md). Then, a new correct booking must be created. For detailed information about creating a manual booking, see [Create a manual booking](./04_CreateManualBooking.md).  
-
-Nevertheless, new bookings can be entered in a booking period that has already been processed. To avoid this, it is also possible to lock one or several months for bookings by clicking the *Lock months* menu entry in the *EDIT* context menu. For detailed information about locking months, see [Lock a period for bookings](./08_LockPeriodBookings.md).
+All business transactions are recorded in the corresponding posting period (month and journal) as they occur. When the accounting for a particular period is finalized, the journal entries must be processed, that is, posted in the general ledger.   
+You can process postings entered in several booking periods simultaneously.    
+Once the postings have been processed, they cannot be changed or deleted any more. If any corrections are necessary, the postings must be first cancelled and then, a new correct booking must be created. For detailed information about cancelling and creating a posting, see [Cancel a posting](./05_CancelBooking.md) and [Create a manual booking](./04_CreateManualBooking.md).    
+Nevertheless, new postings can be entered in a posting period that has already been processed. To avoid this, it is also possible to lock one or several months for postings. For detailed information about locking months, see [Lock a period for postings](./08_LockPeriodBookings.md).
 
 #### Prerequisites
 
-- The accounting is configured via the configuration wizard, see [Run the accounting wizard](../Integration/01_RunAccountingWizard.md).
-- A valid fiscal year is created, see [Create a fiscal year](../Integration/04_ManageFiscalYear.md#create-a-fiscal-year).
-- A fiscal year is selected, see [Select fiscal year](./01_SelectFiscalYear.md).
-- A booking or multiple bookings have been created, see [Create a manual booking](./04_CreateManualBooking.md).
+- A fiscal year has been selected, see [Select fiscal year](./01_SelectFiscalYear.md).
+- At least one posting has been created, see [Create a manual booking](./04_CreateManualBooking.md).
 
 #### Procedure
 
-*Accounting > Select fiscal year > Book > Tab BOOKINGS > Context menu EDIT > Menu entry Process*
+*Accounting > Select fiscal year > Book > Tab BOOKINGS*
 
 ![Process bookings](../../Assets/Screenshots/RetailSuiteAccounting/Book/Bookings/ProcessBookings.png "[Process bookings]")
 
-1. Click the *Process* menu entry in the *EDIT* context menu.   
-A window opens for you to select the booking period (journal and month range) of the bookings to be processed.
+2. Click the *Process...* menu entry in the context menu.     
+  The *Process postings* window is displayed.
 
   ![Process bookings selection window](../../Assets/Screenshots/RetailSuiteAccounting/Book/Bookings/ProcessBookings01.png "[Process bookings selection window]")
 
-2. Select the journal(s) where the bookings to be processed are recorded in the *Journal* drop-down lists.
+3. Click the *Journal from* and the *Journal to* drop-down lists and select the journals where the bookings to be processed are recorded.
 
-3. Select the month(s) where the bookings to be processed are recorded in the *Month* drop-down lists.
+  > [Info] If you want to process only the postings from a single journal, select the same journal in both drop-down lists.
 
-  > [Info] Be aware that, once the bookings have been processed, they cannot be changed or deleted any more.
+
+4. Click the *Month from* and the *Month to* drop-down lists and select the months where the bookings to be processed are recorded.
+
+  > [Info] If you want to process only the postings from a single month, select the same month in both drop-down lists.
+
+
+  > [Info] Be aware that, once the postings have been processed, they cannot be changed or deleted anymore.
 
 4. Click the [OK] button.   
-A confirmation window is displayed. The selected bookings are processed. The [DELETE] button is now greyed out.
+The selected postings have been processed. A confirmation window with the notice *Postings processed!* is displayed. 

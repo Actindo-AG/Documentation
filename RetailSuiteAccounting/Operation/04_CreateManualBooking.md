@@ -5,15 +5,13 @@
 
 # Create a manual booking
 
-Even though the system usually books transactions automatically through the automated functions across the different modules, the *Accounting* module also allows to record bookings manually. In some cases, it may be necessary to record transactions manually when a transaction has been performed but not yet recorded, for example a cash payment or an issued invoice.
+Even though transactions are usually posted automatically through the automated functions across the different modules, you can also record postings manually. In some cases, it is necessary to record transactions manually when a transaction has been performed but not yet recorded, for example a cash payment or an issued invoice.
 
  > [Info] It is essential to select the correct booking period, that is, the correct fiscal year, month and journal, before making a manual booking. For detailed information, see [Select fiscal year](./01_SelectFiscalYear).
 
 #### Prerequisites
 
-- The accounting is configured via the configuration wizard, see [Run the accounting wizard](../Integration/01_RunAccountingWizard.md).
-- A valid fiscal year is created, see [Create a fiscal year](../Integration/04_ManageFiscalYear.md#create-a-fiscal-year).
-- A fiscal year is selected, see [Select fiscal year](./01_SelectFiscalYear.md).
+A fiscal year has been selected, see [Select fiscal year](./01_SelectFiscalYear.md).
 
 #### Procedure
 
@@ -21,27 +19,27 @@ Even though the system usually books transactions automatically through the auto
 
 ![Bookings](../../Assets/Screenshots/RetailSuiteAccounting/Book/Bookings/Bookings.png "[Bookings]")
 
-1. Select the appropriate currency for the booking in the *Currency code* drop-down list.
+1. If necessary, click the *Currency code* drop-down list and select the appropriate currency for the posting. All available currencies are displayed in the list. By default, the base currency is preselected.
 
   > [Info] The booking numbers must be sequential and are added by the system automatically.
 
-2. Enter a value in the *Turnover* field.
+2. Enter the posting amount in the *Turnover* field.
 
 3. Enter an account number in the *Contra account* field.
 
-  > [Info] When you start typing in an account number, a context menu is displayed. You can also select the appropriate option from the menu.
+  > [Info] After you have entered at least two numbers in the field, a list is displayed below the field with all accounts matching the entry. You can also select the corresponding account in the list.
 
-4. Enter the date for the manual booking in the *Date* field. Date format must be DDMMYY.
+4. Enter the date for the manual booking in the *Date* field. The valid date format is *DDMMYY*.
 
 5. Enter an account number in the *Account* field.
-
+  > [Info] After you have entered at least two numbers in the field, a list is displayed below the field with all accounts matching the entry. You can also select the corresponding account in the list.
   > [Info] Note that the fields *Contra account*, *Date* and *Account* must be filled out to be able to create a booking.
 
-6. Enter any other relevant booking information in the corresponding fields.
+6.  If desired, enter any other relevant manual booking information in the corresponding fields.
 
   > [Info] Even though it is not compulsory, it is highly recommended to fill in the *Receipt 1* field, as the system identifies and groups together any subsequent bookings taking this field as reference, for example for an invoice settlement or a credit note in case of refund.
 
 7. Click the [BOOK] button.  
-A message above the input line confirms that the booking is recorded. The newly created manual booking is displayed in the bookings list.
+The manual posting is created. The notice "Posted." is displayed above the input line. The manual posting is displayed in the postings list.
 
   ![Manual booking created](../../Assets/Screenshots/RetailSuiteAccounting/Book/Bookings/ManualBookingCreated.png "[Manual booking created]")

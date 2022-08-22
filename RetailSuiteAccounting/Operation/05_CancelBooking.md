@@ -5,17 +5,14 @@
 
 # Cancel a booking
 
-The *Accounting* module allows to cancel bookings in the *BOOKINGS* tab, for example, if an invoice has been mistakenly booked to a wrong account or a booking must be corrected.
-
-Once an invoice has been issued and booked, it cannot be simply deleted for legal reasons. The incorrect invoice must be cancelled, recorded as reverse booking in the system, and a new correct booking must be recorded, if necessary.
-
- The [CANCEL] button in the *BOOKINGS* tab creates a copy of the original booking, the turnover amount is recorded with a negative sign, and, therefore, the open item created by the original booking is automatically cleared in the *OPEN ITEMS* tab.
+You can cancel a booking, for example, if an invoice has been mistakenly booked to a wrong account or a booking must be corrected.   
+Once an invoice has been issued and booked, it cannot be simply deleted for legal reasons. The incorrect invoice must be cancelled, recorded as reverse booking in the system, and a new correct booking must be recorded, if necessary.   
+When cancelling a posting, a copy of the original posting with the negative turnover amount is created.
 
 #### Prerequisites
 
-- The accounting is configured via the configuration wizard, see [Run the accounting wizard](../Integration/01_RunAccountingWizard.md).
-- A valid fiscal year is created, see [Create a fiscal year](../Integration/04_ManageFiscalYear.md#create-a-fiscal-year).
-- A fiscal year is selected, see [Select fiscal year](./01_SelectFiscalYear.md).
+- A fiscal year has been selected, see [Select fiscal year](./01_SelectFiscalYear.md).
+- At least one posting has been created, see [Create a manual posting](./04_CreateManualBooking.md).
 
 #### Procedure
 
@@ -23,11 +20,12 @@ Once an invoice has been issued and booked, it cannot be simply deleted for lega
 
 ![Cancel a booking](../../Assets/Screenshots/RetailSuiteAccounting/Book/Bookings/CancelBooking.png "[Cancel a booking]")
 
-1. Select the booking to be cancelled from the list in the *BOOKINGS* tab.
+1. Select the posting to be cancelled in the postings list.
+  The posting details are displayed in the input line fields.
 
-2. The existing booking details are displayed in the input line fields.
-
-3. Click the *CANCEL* button.   
-A new  booking is created in the bookings list with a negative turnover value and marked as **Cancel** in the *Booking text* field.
+2. Click the [CANCEL] button.   
+  A new posting with a negative turnover amount of the posting to be cancelled is created. The negative posting is displayed in the postings list. The posting text **Cancel** is displayed in the *Text* column for this posting.
+   
+  > [Info] The open item created by the original posting is automatically cleared in the *OPEN ITEMS* tab by the cancellation posting.  
 
   ![Booking cancelled](../../Assets/Screenshots/RetailSuiteAccounting/Book/Bookings/BookingCancelled.png "[Booking cancelled]")
