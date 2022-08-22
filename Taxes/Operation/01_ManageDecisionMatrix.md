@@ -33,7 +33,7 @@ Create an entry to determine a new tax zone.
 1. Click the ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) button in the upper left corner.   
   A new data entry line is displayed.
 
-2. Click the *VAT ID* drop-down list and select the appropriate option. The following options are available:
+2. Click the *VAT ID* drop-down list and select the appropriate option. In this case, the VAT ID refers to the buyer's VAT ID number. The following options are available:
 
   - **Yes**  
   Select this option if the end customer is a company and, therefore, has a VAT ID number (business-to-business transaction).
