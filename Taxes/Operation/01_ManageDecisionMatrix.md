@@ -90,7 +90,7 @@ An entry has been created in the decision matrix, see [Create an entry](#create-
 
 4. Click the *Ship-to postcode* drop-down list on the left and select a different option, if necessary. Click the field on the right to modify the range or the regular expression entered. Use the keyboard to enter a different value.
 
-5. Click the *Net value of goods smaller than* drop-down list on the left to select a different currency, if necessary. Click the field on the right to modify the net value amount entered. You can use the keyboard or the increase and decrease arrows.
+5. If necessary, click the *Net value of goods smaller than* drop-down list on the left to select a different currency. Click the field on the right to modify the amount entered. You can use the keyboard or the increase and decrease arrows.
 
 6. Click the *Tax zone* drop-down list to select a different applicable tax zone.
 
@@ -159,8 +159,6 @@ The entry has been deleted. The *Success* pop-up window is displayed.
 
 ## Define a tax delivery threshold
 
-[comment]: <> (Evtl. anders nennen, z.B. Configure decision matrix with delivery thresholds)
-
 The decision matrix can be configured to specify tax delivery thresholds in different EU countries.  
 
 #### Prerequisites  
@@ -184,7 +182,7 @@ The decision matrix can be configured to specify tax delivery thresholds in diff
 
 5. If necessary, click the *Ship-to postcode* drop-down list on the left and select the appropriate option. Specify a postcode in the field on the right. For detailed information, see [Define tax exceptions on ZIP code level](#define-tax-exceptions-on-ZIP-code-level).
 
-6. If necessary, click the *Net value of goods smaller than* drop-down list and select the applicable currency, and enter the applicable net value in the field on the right.   
+6. If necessary, click the *Net value of goods smaller than* drop-down list and select the applicable currency. Enter the applicable amount using the keyboard or the increase and decrease arrows on the right.   
 
 7. Click the *Tax zone* drop-down list and select the applicable tax zone.
 
@@ -223,27 +221,27 @@ These tax exceptions can be defined using the *Ship-to postcode* fields.
 
 2. Click the *VAT ID* drop-down list and select the appropriate option. The following options are available:
 
-  - **Yes**: The end customer is a company and, therefore, has a VAT ID number (business-to-business transaction).
-  - **No**: The end customer is a private individual and, therefore, has no VAT ID number (business-to-customer transaction).
-  - **Any**: Wildcard; any value is accepted.
+  - **Yes**  
+  The end customer is a company and, therefore, has a VAT ID number (business-to-business transaction).
+  - **No**  
+  The end customer is a private individual and, therefore, has no VAT ID number (business-to-customer transaction).
 
 
-3. Click the *Country of origin* drop-down list(s) and select the appropriate option(s). Use the drop-down list on the left to select a group of countries and the one on the right to select an individual country.
-
-  > {Info] The current version only provides the option **EU - European Union** as a group of countries. When a group of countries is selected, the right drop-down list is grayed out.
+3. Click the *Country of origin* drop-down list and select the appropriate option. Use the drop-down list on the left to select a group of countries or the one on the right to select an individual country. As a group of countries, only the **EU - European Union** option is available. In the drop-down list of individual countries, all available countries in the system are displayed. When a group of countries is selected, the drop-down list on the right is locked.
 
 4. Click the *Ship-to country* drop-down lists and select **Any** on the left and the country where the product is to be shipped to on the right.  
 
 5. Click the *Ship-to postcode* drop-down list and select the appropriate option. The following options are available:
 
-  - **Range**: Enter a postcode range, for example, 27498-27498 to limit the criterion to a specific target area.
-  - **Regex**: Use regular expressions to specify postcodes containing alphanumeric characters, for example /^BT.*/.
+  - **Range**  
+  Select this option to specify a numeric postcode range, for example 27498 or 52001-52006.
+  - **Regex**  
+  Select this option to specify a postcode containing alphanumeric characters with regular expressions, for example /^BT.*/. For detailed information about regular expressions, see https://regex101.com/.
 
-  > [Info] There are many regular expressions testing tools available free of charge in the Internet, such as [Regex101](https://regex101.com/).
 
 6. Enter a postcode range or a regular expression to define a specific tax exception area in the selected country.
 
-7. Click the *Net value of goods smaller than* drop-down list and select the applicable currency. If necessary, specify an amount using the keyboard or the increase and decrease arrows on the right.
+7. If necessary, click the *Net value of goods smaller than* drop-down list and select the applicable currency. Enter the applicable amount using the keyboard or the increase and decrease arrows on the right.
 
 8. Click the *Tax zone* drop-down list to select the applicable tax zone.
 
