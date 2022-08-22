@@ -13,8 +13,11 @@ Value-added tax identification number (VAT ID).
 - ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add)   
 Click this button to create an entry. A new entry line is displayed.
 
-- (Entry line)  
-Click the corresponding field to enter or edit the tax zone name or the VAT ID number.
+- (Tax zone entry)  
+Enter or edit the tax zone name. By default, the *Domestic*, *EU* and *Third country* tax zones are predefined.
+
+- (VAT ID entry)  
+Enter or edit the VAT ID number.
 
 - ![Delete](../../Assets/Icons/Trash08.png "[Delete]") (Delete)  
 Click this button to delete the corresponding tax zone.
@@ -23,5 +26,3 @@ Click this button to delete the corresponding tax zone.
 
 - [SAVE]  
 Click this button to save any changes made.
-
-[comment]: <> (Allg. Frage FH: wie kann man im Decision Matrix unterscheiden zwischen zwei Inland/EU/Drittland, wenn zwei mögliche Tax classes -Standard und Ermäßigt- zu beiden gehören? Muss man zwei Tax zones einstellen, z.B. Inland 19, Inland 7? Oder stellt man das in der Fakturierung ein? Vgl. TAX RATES, DECISION MATRIX UND TAX ZONES tabs.)

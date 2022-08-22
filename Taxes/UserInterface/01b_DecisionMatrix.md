@@ -20,30 +20,23 @@ Value-added tax identification number. Click the drop-down list to select the ap
   - **Any**  
 Select this option to use a wildcard; any value is accepted.
 
+[comment]: <> (Option Any rausnehmen oder in UI lassen? S. unten Country of origin usw.)
 
 - *Country of origin*  
 Country where the product is shipped from.
 
-  - Click the drop down-list on the left to select a group of countries. The following options are available:
+  - Click the drop down-list on the left to select a group of countries. As a group of countries, only the **EU - European Union** option is available. When selecting this option, the drop-down list on the right is locked. Leave it blank (**Any**) if you want to specify an individual country in the drop-down list on the right.
 
-    - **EU - European Union**  
-    Select this option to include all EU member states. When selecting this option, the drop-down list on the right is grayed out.
-    - **Any**  
-    Select this option if you want to specify an individual country in the drop-down list on the right.
+  - Click the drop-down list on the right to select an individual country. All available countries in the system are displayed.
 
-  - Click the drop-down list on the right to select a specific country.  
 
 - *Ship-to country*  
 Country where the product is shipped to.
 
-  - Click the drop down-list on the left to select a group of countries. The following options are available:
+  - Click the drop down-list on the left to select a group of countries. As a group of countries, only the **EU - European Union** option is available. When selecting this option, the drop-down list on the right is locked. Leave it blank (**Any**) if you want to specify an individual country in the drop-down list on the right.
 
-    - **EU - European Union**  
-    Select this option to include all EU member states. When selecting this option, the drop-down list on the right is grayed out.
-    - **Any**  
-    Select this option if you want to specify an individual country in the drop-down list on the right.
+  - Click the drop-down list on the right to select an individual country. All available countries in the system are displayed.
 
-  - Click the drop-down list on the right to select a specific country.  
 
 - *Ship-to postcode*  
 Specific area within a country or territory where the product is shipped to.
@@ -51,16 +44,18 @@ Specific area within a country or territory where the product is shipped to.
   - Click the drop down-list on the left and select the appropriate option. The following options are available:
 
     - **Range**  
-    Select this option to enter a postcode range, for example, 27498-27498 to limit the criterion to a specific postcode area.
+    Select this option to specify a numeric postcode range, for example 27498 or 52001-52006.
     - **Regex**  
-    Select this option to use regular expressions to specify postcodes containing alphanumeric characters, for example /^BT.*/.  
+    Select this option to specify a postcode containing alphanumeric characters with regular expressions, for example /^BT.*/.   
 
   - Enter the applicable range or regular expression in the field on the right.
 
 - *Net value of goods smaller than*  
+Relevant top amount for a criterion to be applied.    
 
   - Click the drop-down list on the left to select the applicable currency.   
-  - Enter a maximum net value amount if necessary. You can use the keyboard or the increase and decrease arrows on the right.
+
+  - Enter a maximum net value amount using the keyboard or the increase and decrease arrows on the right.
 
 
 - *Tax zone*  
