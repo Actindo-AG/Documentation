@@ -11,7 +11,7 @@ Click this button to create an entry. A new entry line is displayed.
 Click this button to move the entry to a different position with the left mouse button pressed. Drop it in the desired position by releasing the mouse button.
 
 - *VAT ID*  
-Value-added tax identification number. Click the drop-down list to select the appropriate option. The following options are available:
+Value-added tax identification number. In this case, the VAT ID refers to the buyer's VAT ID number. Click the drop-down list to select the appropriate option. The following options are available:
 
   - **Yes**  
   Select this option if the end customer is a company and, therefore, has a VAT ID number (business-to-business transaction).
