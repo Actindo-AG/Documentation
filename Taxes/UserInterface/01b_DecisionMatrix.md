@@ -17,10 +17,7 @@ Value-added tax identification number. Click the drop-down list to select the ap
   Select this option if the end customer is a company and, therefore, has a VAT ID number (business-to-business transaction).
   - **No**  
   Select this option if the end customer is a private individual and, therefore, has no VAT ID number (business-to-customer transaction).
-  - **Any**  
-Select this option to use a wildcard; any value is accepted.
 
-[comment]: <> (Option Any rausnehmen oder in UI lassen? S. unten Country of origin usw.)
 
 - *Country of origin*  
 Country where the product is shipped from.
