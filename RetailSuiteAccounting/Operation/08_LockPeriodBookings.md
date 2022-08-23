@@ -4,33 +4,29 @@
 
 # Lock a period for bookings
 
-The *Lock months* menu entry of the *EDIT* context menu in the *BOOKINGS* tab allows to lock months for bookings.
-
-Once the bookings in a particular booking period are processed, they cannot be changed or deleted any more, and the corresponding booking period is regarded as closed. However, new bookings can be entered in a closed booking period, if necessary. If this is to be avoided, the *Lock months* function can be used to lock one or several periods for bookings. When a booking period is locked, any subsequent transaction will be booked automatically in the following bookable booking period.
-
-In contrast to booking processing, month locking can be undone if necessary, that is, locked months can be made bookable again. For detailed information about processing bookings, see [Process bookings](./07_ProcessBookings.md).
+Once the postings in a particular posting period are processed, they cannot be changed or deleted anymore, and the corresponding postings period is regarded as closed. However, new postings can be entered in a closed posting period, if necessary. To avoid subsequent postings to an already closed posting period, you can lock certain posting periods.   
+When a posting period is locked, any subsequent transaction will be automatically posted in the next unlocked posting period.    
+In contrast to posting processing, locking a posting period can be undone if necessary. 
 
 #### Prerequisites
 
-- The accounting is configured via the configuration wizard, see [Run the accounting wizard](../Integration/01_RunAccountingWizard.md).
-- A valid fiscal year is created, see [Create a fiscal year](../Integration/04_ManageFiscalYear.md#create-a-fiscal-year).
-- A fiscal year is selected, see [Select fiscal year](./01_SelectFiscalYear.md).
-- A booking or multiple bookings have been created, see [Create a manual booking](./04_CreateManualBooking.md).
+- A fiscal year has been selected, see [Select fiscal year](./01_SelectFiscalYear.md).
+- At least one posting has been created, see [Create a manual booking](./04_CreateManualBooking.md).
 
 #### Procedure
 
-*Accounting > Select fiscal year > Book > Tab BOOKINGS > Context menu EDIT > Menu entry Lock months*
+*Accounting > Select fiscal year > Book > Tab BOOKINGS*
 
 ![Lock months](../../Assets/Screenshots/RetailSuiteAccounting/Book/Bookings/LockMonths.png "[Lock months]")
 
-1. Click the *Lock months* menu entry in the *EDIT* context menu.  
-A window opens for you to select the month(s) to be locked for bookings.
+2. Click the *Lock months...* menu entry in the context menu.     
+  The *Lock fiscal months* window is displayed.
 
   ![Lock months selection window](../../Assets/Screenshots/RetailSuiteAccounting/Book/Bookings/LockMonths01.png "[Lock months selection window]")
 
-2. Lock the month(s) as necessary by selecting *Locked* in the drop-down list of the corresponding month(s).
+2. Click the drop-down list after the month to be locked and select the **Locked** option. Repeat this step for all months to be locked. The drop-down list is active only for those months where postings have been recorded.
 
-  > [Info] This action can be reversed by selecting the *bookable* option in the drop-down list for the corresponding month(s).
+  > [Info] Select the **bookable** option in the drop-down list to unlock the corresponding month and make it postable again.
 
 3. Click the [OK] button.  
-A pop-up window is displayed shortly to confirm that the changes are being saved. The selected month(s) are now locked for bookings.
+A pop-up window is displayed while the changes are being saved. As soon as the pop-up window is no longer displayed, the selected months are locked.

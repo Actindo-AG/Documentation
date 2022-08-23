@@ -4,18 +4,14 @@
 # Split a booking
 
 In some occasions, it may be necessary to split a booking to keep track of different items separately, for example if an invoice includes products with different tax rates or if total costs must be divided into two or more cost centres. Split bookings can affect both debit and credit accounts, that is, incoming and outgoing invoices.
+The split posting must be performed during the manual posting process. For detailed information about creating a manual posting, see [Create a manual posting] (./04_CreateManualBooking.md).   
+If an invoice is nevertheless split after the posting has been automatically registered or manually created due to a business transaction, a copy of the main posting with the new contra accounts is created. 
+Once the splitting has been performed, the different split (partial) postings are assigned to the corresponding accounts. The split postings are displayed in the postings list below the main posting.
 
-The [SPLIT] button in the *BOOKINGS* tab allows to split bookings during the manual booking process. For detailed information about creating a manual booking, see [Create a manual booking](./04_CreateManualBooking.md).
-
-Once the splitting has been performed, the different split (partial) bookings are assigned to the corresponding accounts. The split bookings are then displayed in the bookings list underneath the main booking.
-
-> [Info] Splitting a booking must be performed during the manual booking process. When splitting an invoice after the booking has been automatically registered following a business transaction or after it has been manually created, the system creates a copy of the existing main booking with the newly assigned contra accounts.
 
 #### Prerequisites
 
-- The accounting is configured via the configuration wizard, see [Run the accounting wizard](../Integration/01_RunAccountingWizard.md).
-- A valid fiscal year is created, see [Create a fiscal year](../Integration/04_ManageFiscalYear.md#create-a-fiscal-year).
-- A fiscal year is selected, see [Select fiscal year](./01_SelectFiscalYear.md).
+A fiscal year has been selected, see [Select fiscal year](./01_SelectFiscalYear.md).
 
 #### Procedure
 
@@ -23,7 +19,7 @@ Once the splitting has been performed, the different split (partial) bookings ar
 
 ![Split booking](../../Assets/Screenshots/RetailSuiteAccounting/Book/Bookings/SplitBooking.png "[Split booking]")
 
-1. Select the appropriate currency for the booking in the *Currency code* drop-down list.
+1. If necessary, click the *Currency code* drop-down list and select the appropriate currency for the posting. All available currencies are displayed in the list. By default, the base currency is preselected.
 
   > [Info] The booking numbers must be sequential and are added by the system automatically.
 
@@ -46,12 +42,12 @@ The *Split booking* window is displayed.
 
 7. Split the booking as necessary assigning each split booking to the corresponding contra account.
 
-8. Click the [BOOK] button after each split booking.  
+8. Repeat the step **7** for each split posting.
 A message in the top left corner of the *Split booking* window confirms each split booking. The split bookings are now listed underneath the main booking in the *Split booking* window.
 
   ![Bookings split](../../Assets/Screenshots/RetailSuiteAccounting/Book/Bookings/SplitBooking02.png "[Bookings split]")
 
-  > [Info] When the total invoice amount has been divided, the remainder will equal 0. At this point, the [SAVE] button is activated and can be selected.
+  > [Info] As soon as the total posting amount in the *Split posting* window equals *0.00*, the [SAVE] button is unlocked.
 
 9. Click the [SAVE] button.  
-A message in the top left corner of the *Split booking* window confirms that the split bookings have been recorded.
+The notice *Split posting applied* is displayed in the top left corner of the *Split booking* window. The *Split booking* window is closed automatically. The split posting is displayed in the postings list below the corresponding main posting.
