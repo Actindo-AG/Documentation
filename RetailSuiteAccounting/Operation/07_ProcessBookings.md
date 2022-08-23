@@ -1,12 +1,13 @@
-[!!User Interface process](../UserInterface/01_Book.md#process)  
-[!!User Interface bookings](../UserInterface/01a_Bookings.md)  
+[!!User Interface Process](../UserInterface/01_Book.md#process)  
+[!!User Interface Bookings](../UserInterface/01a_Bookings.md)  
 
 
 # Process bookings
 
 All business transactions are recorded in the corresponding posting period (month and journal) as they occur. When the accounting for a particular period is finalized, the journal entries must be processed, that is, posted in the general ledger.   
-You can process postings entered in several booking periods simultaneously.    
-Once the postings have been processed, they cannot be changed or deleted any more. If any corrections are necessary, the postings must be first cancelled and then, a new correct booking must be created. For detailed information about cancelling and creating a posting, see [Cancel a posting](./05_CancelBooking.md) and [Create a manual booking](./04_CreateManualBooking.md).    
+
+You can process postings entered in several booking periods simultaneously. Once the postings have been processed, they cannot be changed or deleted any more. If any corrections are necessary, the postings must be first cancelled and then, a new correct booking must be created. For detailed information about cancelling and creating a posting, see [Cancel a posting](./05_CancelBooking.md) and [Create a manual booking](./04_CreateManualBooking.md).  
+
 Nevertheless, new postings can be entered in a posting period that has already been processed. To avoid this, it is also possible to lock one or several months for postings. For detailed information about locking months, see [Lock a period for postings](./08_LockPeriodBookings.md).
 
 #### Prerequisites
@@ -18,12 +19,17 @@ Nevertheless, new postings can be entered in a posting period that has already b
 
 *Accounting > Select fiscal year > Book > Tab BOOKINGS*
 
-![Process bookings](../../Assets/Screenshots/RetailSuiteAccounting/Book/Bookings/ProcessBookings.png "[Process bookings]")
+![Postings](../../Assets/Screenshots/RetailSuiteAccounting/Book/Bookings/Bookings.png "[Postings]")
+
+1. Click the [EDIT] button in the header above the postings list.
+A context menu is displayed.
+
+  ![Edit](../../Assets/Screenshots/RetailSuiteAccounting/Book/Bookings/EditContextMenu.png "[Edit]")
 
 2. Click the *Process...* menu entry in the context menu.     
   The *Process postings* window is displayed.
 
-  ![Process bookings selection window](../../Assets/Screenshots/RetailSuiteAccounting/Book/Bookings/ProcessBookings01.png "[Process bookings selection window]")
+  ![Process postings](../../Assets/Screenshots/RetailSuiteAccounting/Book/Bookings/ProcessBookings01.png "[Process postings]")
 
 3. Click the *Journal from* and the *Journal to* drop-down lists and select the journals where the bookings to be processed are recorded.
 
@@ -37,5 +43,5 @@ Nevertheless, new postings can be entered in a posting period that has already b
 
   > [Info] Be aware that, once the postings have been processed, they cannot be changed or deleted anymore.
 
-4. Click the [OK] button.   
-The selected postings have been processed. A confirmation window with the notice *Postings processed!* is displayed. 
+5. Click the [OK] button.   
+The selected postings have been processed. A confirmation window with the notice *Postings processed!* is displayed.

@@ -1,56 +1,71 @@
-[!!User Interface bookings](../UserInterface/01a_Bookings.md)  
-[!!User Interface delete](../UserInterface/01_Book.md#delete)  
+[!!User Interface Bookings](../UserInterface/01a_Bookings.md)  
+[!!User Interface Delete](../UserInterface/01_Book.md#delete)  
 
 
-# Delete bookings
+# Delete postings
 
 You can delete postings that are no longer needed, for example, if a posting is faulty.
-It is possible to delete a single posting or to delete multiple postings at once. Bear in mind, however, that the postings to be deleted must be unprocessed, as postings that have already been processed cannot be deleted. For detailed information, see [Process postings](./07_ProcessBookings.md). 
 
-## Delete a single booking
+It is possible to delete a single posting or to delete multiple postings at once. Bear in mind, however, that the postings to be deleted must be unprocessed, as postings that have already been processed cannot be deleted. For detailed information, see [Process postings](./07_ProcessBookings.md).
+
+
+## Delete a single posting
+
+Delete a single posting from the postings list.
+
+> [Warning] Be aware that any deletion is permanent and cannot be undone.
 
 #### Prerequisites
 
 - A fiscal year has been selected, see [Select fiscal year](./01_SelectFiscalYear.md).
-- A booking has been created, see [Create a manual booking](./04_CreateManualBooking.md).
+- At least one posting has been created, see [Create a manual posting](./04_CreateManualBooking.md).
 
 #### Procedure
 
 *Accounting > Select fiscal year > Book > Tab BOOKINGS*
 
-![Delete booking](../../Assets/Screenshots/RetailSuiteAccounting/Book/Bookings/DeleteBooking.png "[Delete booking]")
+![Postings](../../Assets/Screenshots/RetailSuiteAccounting/Book/Bookings/Bookings.png "[Postings]")
 
 1. Select the posting to be deleted in the postings list.
   The posting details are displayed in the input line fields.
 
+  > [Warning] Be aware that the selected posting will be deleted permanently.
+
 2. Click the [DELETE] button.  
 A confirmation window is displayed.
 
-  > [Warning] Be aware that the selected posting will be deleted permanently.
+  ![Delete confirmation](../../Assets/Screenshots/RetailSuiteAccounting/Book/Bookings/DeleteConfirmation.png "[Delete confirmation]")
 
 3. Click the [OK] button to confirm the deletion.  
-The posting has been deleted. The notice "Posting deleted!" is displayed above the input line. The posting is removed from the postings list. 
+The posting has been deleted. The notice "Posting deleted!" is displayed above the input line. The posting has been removed from the postings list.
 
-  ![Booking deleted](../../Assets/Screenshots/RetailSuiteAccounting/Book/Bookings/BookingDeleted.png "[Booking deleted]")
+  ![Posting deleted](../../Assets/Screenshots/RetailSuiteAccounting/Book/Bookings/BookingDeleted.png "[Posting deleted]")
 
 
-## Delete multiple bookings
+## Delete multiple postings
+
+Delete several postings simultaneously from the postings list.
 
 #### Prerequisites
 
 - A fiscal year has been selected, see [Select fiscal year](./01_SelectFiscalYear.md).
-- Multiple bookings have been created, see [Create a manual booking](./04_CreateManualBooking.md).
+- Several postings have been created, see [Create a manual posting](./04_CreateManualBooking.md).
 
 #### Procedure
 
 *Accounting > Select fiscal year > Book > Tab BOOKINGS*
 
-![Delete multiple bookings](../../Assets/Screenshots/RetailSuiteAccounting/Book/Bookings/DeleteMultipleBookings.png "[Delete multiple bookings]")
+![Postings](../../Assets/Screenshots/RetailSuiteAccounting/Book/Bookings/Bookings.png "[Postings]")
+
+1. Click the [EDIT] button in the header above the postings list.
+A context menu is displayed.
+
+  ![Edit](../../Assets/Screenshots/RetailSuiteAccounting/Book/Bookings/EditContextMenu.png "[Edit]")
 
 2. Click the *Delete...* menu entry in the context menu.     
   The *Delete postings* window is displayed.
 
-  ![Select multiple bookings](../../Assets/Screenshots/RetailSuiteAccounting/Book/Bookings/DeleteMultipleBookings01.png "[Select multiple bookings]")
+  ![Delete postings](../../Assets/Screenshots/RetailSuiteAccounting/Book/Bookings/DeleteBookings.png "[Delete postings]")
 
 3. Click the *Journal* drop-down list and select the journal where the postings to be deleted are recorded. All journals where postings are recorded are displayed in the list.
 
@@ -58,9 +73,8 @@ The posting has been deleted. The notice "Posting deleted!" is displayed above t
 
   > [Warning] Be aware that the selected postings will be deleted permanently.
 
-  ![Multiple bookings selected](../../Assets/Screenshots/RetailSuiteAccounting/Book/Bookings/DeleteMultipleBookings02.png "[Multiple bookings selected]")
+5. Click the [DELETE] button.   
+The selected postings have been deleted.
 
-4. Click the [DELETE] button.   
-The selected bookings are deleted and will no longer be displayed in the bookings list.
-
-> [Info] It may be necessary to click on a different tab and switch back the *BOOKINGS* tab to display the changes in the bookings list.
+6. Press F5 to initialize the Core1 Platform and to apply the changes.  
+ The deleted postings have been removed from the postings list.

@@ -185,6 +185,9 @@ This column displays the journal.
 - *M*  
 This column displays a checkbox to select the open items to be cleared manually, if necessary.
 
+[comment]: <> (Evt. Info hinzufügen: The manually cleared bookings are marked with an asterisk next to the checkbox.)
+
+
 - *Contra account*  
 This column displays the contra account number. For detailed information about the available accounts, see [Chart of accounts](../Integration/01_RunAccountingWizard.md#chart-of-accounts).
 
