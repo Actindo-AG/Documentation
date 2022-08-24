@@ -16,11 +16,10 @@ A journal is a chronological record of all accounting transactions within a spec
 
   - Special journals (90-99) are specialized lists of transactions records preconfigured in the system for the balances carried forward. Further journals can be created.
 
-Special months are also preconfigured for in the system for special business transactions, such as balances carried forward or subsequent bookings.
+Special months are also preconfigured in the system for special business transactions, such as balances carried forward or subsequent postings.
 
 Journal and months are used to arrange a company's business transactions within a fiscal year. A particular booking period will only contain the bookings recorded in that specific period. Accessing bookings from other periods may be necessary, for example, if a booking from a previous booking period needs to be adjusted or if a transaction performed at a later stage must be manually booked in a specific period.
 
-Moreover, when opening the *Accounting* module for the first time after login or after reloading the system, the window to select a fiscal year is displayed. For detailed information, see [Select fiscal year](./01_SelectFiscalYear.md).
 
 #### Prerequisites
 

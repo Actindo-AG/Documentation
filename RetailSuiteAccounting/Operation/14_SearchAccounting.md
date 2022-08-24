@@ -24,14 +24,15 @@ An account can be searched for by account number or by description.
 
 #### Procedure
 
-*Accounting > Select fiscal year > Book > Tab SEARCH > Side bar Book extras > Tab Accounts*
+*Accounting > Select fiscal year > Post > Tab SEARCH > Tab Accounts*
+*Accounting > Select fiscal year > Post > Side bar button Leftward arrow > Tab Accounts*
 
 ![Search](../../Assets/Screenshots/RetailSuiteAccounting/Book/Search/Search01.png "[Search]")
 
-> [Info] The *Book extras* side bar opens automatically when clicking the *SEARCH* tab. If it has been closed, it can be reopened by clicking the leftward arrow on the right-hand side of the workspace. Similarly, it can be closed again by clicking the rightward arrow.
+> [Info] The *Book extras* side bar can be displayed at any time and in any tab of the *Post* menu entry by clicking the ![Left arrow](../../Assets/Icons/Back02.png "[Left arrow]") (Left arrow) button or hidden by clicking the ![Right arrow](../../Assets/Icons/Close.png "[Right arrow]") (Right arrow) button.
 
 1. Click the *QUICK SEARCH* button.  
-The *QUICK SEARCH* context menu is displayed.
+A filter list with the *Acc. no.* and *Description* entries is displayed.
 
   ![Search for an account](../../Assets/Screenshots/RetailSuiteAccounting/Book/Search/BookExtrasAccounts.png "[Search for an account]")
 
@@ -39,19 +40,15 @@ The *QUICK SEARCH* context menu is displayed.
 
   > [Info] Per default both options are selected through a marked checkbox in the *QUICK SEARCH* context menu. If both options are selected, the search results will display all accounts containing the search text in any of both fields.
 
-3. Enter the search text (account number or description) in the search bar and press Enter or click the ![Search](../../Assets/Icons/Search.png "[Search]") icon.  
+3. Enter the search text (account number or description) in the search bar and press the **Enter** key or click the ![Search](../../Assets/Icons/Search.png "[Search]") (Search) button. You can enter any search text, even a partial account number or description.     
+  All accounts containing the search text entered in the search bar are displayed in the search results.
 
-  > [Info] The *QUICK SEARCH* function works like a filter. That means that you can enter any search text, even a partial account number or description. The search results will display all accounts containing exactly the search text entered in the search bar.
-
-4. It is also possible to scroll through the accounts by clicking the simple and double arrows in the lower part of the *Book extras* side bar. You can also jump directly to any page by entering a page number and pressing Enter in the *Page* field.
-
-5. Click the ![Cross](../../Assets/Icons/Cross02.png "[Cross]") icon to clear the search.  
-The whole chart of accounts is displayed again.
+4. Click the ![Cross](../../Assets/Icons/Cross02.png "[Cross]") icon to clear the search bar and start a new search.  
 
 
 ## Search for a booking
 
-A booking can be searched for using different search criteria, such as turnover, account, journal, and the applicable search values.
+A posting can be searched for using different search criteria, such as turnover, account, journal, and the corresponding search values.
 
 #### Prerequisites
 

@@ -6,11 +6,7 @@
 
 Companies issuing invoices in a foreign currency, for example GBP, can also manage these invoices in the *Accounting* module. For this purpose, the corresponding accounts must be set up in the foreign currency. For detailed information, see [Create an account](../Integration/03_ManageAccounts.md#create-an-account).
 
-However, the *Accounting* module can only work with the base currency configured in the system. Due to currency exchange rate fluctuations, there can be a difference between the converted amount booked at the time of ordering (open item) and the amount booked at the time of payment.  
-
- To counteract these fluctuations, the system retrieves once a day the current foreign currency exchange rates as published by the ECB and applies them automatically, therefore always working with the most up-to-date information.
-
- The *Foreign currency wizard* menu entry of the *EDIT* context menu in the *BOOKINGS* tab allows to book this difference automatically.
+The *Accounting* module only works with the base currency configured in the system. Due to currency exchange rate fluctuations, there can be a difference between the converted amount posted at the time of ordering (open item) and the amount posted at the time of payment. To counteract these fluctuations, the system retrieves once a day the current foreign currency exchange rates as published by the ECB and applies them automatically, so that it always works with the most up-to-date information. The *Foreign currency wizard* allows to post this difference automatically.
 
 #### Prerequisites
 
@@ -30,7 +26,7 @@ The *Foreign currency wizard* window is displayed.
 
   ![Foreign currency wizard window](../../Assets/Screenshots/RetailSuiteAccounting/Book/ForeignCurrencyWizardWindow01.png "[Foreign currency wizard window]")
 
-2. Select the appropriate fiscal year in the *Fiscal year* field.
+3. Click the *Fiscal year* drop-down list and select the appropriate fiscal year. All available fiscal years are displayed in the list. 
 
 3. Select the applicable accounts in the *Range of accounts* drop-down list.
 
