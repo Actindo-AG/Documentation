@@ -44,7 +44,7 @@ When you open the *Accounting* module for the first time after login or after re
 4. If required, select first the *Include fixed postings* checkbox and then a batch from the displayed list.
 
   > [Info] If the *Include fixed postings* checkbox is selected, all fixed postings in the selected batch will be automatically posted when opening the selected period in the fiscal year.   
-  For detailed information about creating fixed postings, see [Create fixed postings](../Integration/06_ManageFixedBookings.md#create-fixed-bookings).
+  For detailed information about creating fixed postings, see [Create fixed postings](../Integration/06_ManageFixedBookings.md#create-fixed-postings).
 
 5. Click the [OK] button in the bottom right corner.   
-  The postings registered in the selected posting period (fiscal year, month and journal) are displayed in the *BOOKINGS* tab in the *Book* menu entry.  
+  The postings registered in the selected posting period (fiscal year, month and journal) are displayed in the *POSTINGS* tab in the *Post* menu entry.  

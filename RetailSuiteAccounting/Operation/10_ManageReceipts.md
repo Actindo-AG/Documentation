@@ -1,28 +1,23 @@
 [!!Documents](RetailSuiteDocorg)  
-[!!Einkauf](RetailSuiteSourcing)   
-[!!Zahlungsabwicklung](RetailSuiteBanking)  
-[!!User Interface bookings](../UserInterface/01a_Bookings.md)  
-[!!User Interface book receipts](../UserInterface/01f_BookReceipts.md)  
-[!!User Interface supplier receipts](../UserInterface/01_Book.md#supplier-receipts)  
-[!!User Interface debtors/creditors](../UserInterface/02a_DebtorsCreditors.md)    
+[!!Purchasing](RetailSuiteSourcing)   
+[!!Payment processing](RetailSuiteBanking)  
+[!!User Interface Postings](../UserInterface/01a_Bookings.md)  
+[!!User Interface Post receipts](../UserInterface/01f_BookReceipts.md)  
+[!!User Interface Supplier receipts](../UserInterface/01_Book.md#supplier-receipts)  
+[!!User Interface Debtors/creditors](../UserInterface/02a_DebtorsCreditors.md)    
 
 
 # Manage receipts
 
-Receipts are used to document all transactions and, therefore, play an indispensable role for a correct accounting. There are many different types of receipts, such as invoice, order confirmation, or credit note, among others.
+Receipts are used to document all transactions and, therefore, play an indispensable role for a correct accounting. There are many different types of receipts, such as invoice, order confirmation, or credit note.
 
-The *Accounting* module offers three possible ways to manage and assign receipts to bookings:
+The *Accounting* module offers three possible ways to manage and assign receipts to postings:
 
 - Click the [ASSIGN RECEIPT] button in the *POSTINGS* tab to assign a receipt to an existing posting in the postings list, see [Retrieve a receipt](#retrieve-a-receipt).
-- Access the *POST RECEIPTS* tab to assign a receipt available as a PDF and create a posting manually, see [Post a receipt](#post-a-receipt).
-- Click the *Supplier receipts* menu entry in the *EDIT* context menu to specifically assign a supplier receipt, see [Post a supplier receipt](#post-a-supplier-receipt)
+- Access the *POST RECEIPTS* tab to assign a receipt uploaded in the *Documents* module and create the corresponding posting manually, see [Post a receipt](#post-a-receipt).
+- Click the *Supplier receipts* menu entry in the *EDIT* context menu to specifically assign a supplier receipt, see [Post a supplier receipt](#post-a-supplier-receipt).
 
 > [Info] *Supplier receipts* is a special feature that interacts with the *Purchasing* and *Payment processing* modules, and therefore the appropriate settings must be configured first.
-
-
-When a receipt is booked in the *BOOK RECEIPTS* tab, it is linked to the assigned booking. A ![Receipt](../../Assets/Icons/Beleg.png "[Receipt]") icon will be then displayed next to the booking in the bookings list. When clicking the ![Receipt](../../Assets/Icons/Beleg.png "[Receipt]") icon, the corresponding receipt is displayed.
-
-[comment]: <> (Work in progress!)
 
 
 ## Retrieve a receipt
@@ -37,157 +32,173 @@ After being uploaded, the receipts are stored in the *New documents* folder in t
 
 #### Prerequisites
 
-- The accounting is configured via the configuration wizard, see [Run the accounting wizard](../Integration/01_RunAccountingWizard.md).
 - A fiscal year has been selected, see [Select fiscal year](./01_SelectFiscalYear.md).
-- A manual booking is created, see [Create a manual booking](./04_CreateManualBooking.md).
-- A receipt is uploaded in PDF format in the *Documents* module.
+- The *Documents* module has been installed.
+- A receipt has been uploaded in the *Documents* module.
+
+[comment]: <> (Ist PDF das einzige unterstütze Format? Nope, JPG und PNG auch. Andere Formate? Info dazu?)
 
 #### Procedure
 
-*Accounting > Select fiscal year > Book > Tab BOOKINGS*
+*Accounting > Select fiscal year > Post > Tab POSTINGS*
 
-![Assign receipt](../../Assets/Screenshots/RetailSuiteAccounting/Book/Bookings/AssignReceipt.png "[Assign receipt]")
+![Postings](../../Assets/Screenshots/RetailSuiteAccounting/Book/Bookings/Bookings.png "[Postings]")
 
-1. Select the booking to be assigned a receipt from the bookings list in the *BOOKINGS* tab.  
-The existing booking details are displayed in the input line fields.
+1. Select the posting to be assigned a receipt from the postings list in the *POSTINGS* tab.  
+The existing posting details are displayed in the input line fields.
 
 2. Click the [ASSIGN RECEIPT] button.  
 The *Attach Document* window is displayed.
 
-  ![Attach document](../../Assets/Screenshots/RetailSuiteAccounting/Book/Bookings/AttachDocument.png "[Attach document]")
+  ![Attach document](../../Assets/Screenshots/RetailSuiteAccounting/Book/Bookings/AttachDocument01.png "[Attach document]")
 
-3. Select the document to be assigned to the booking from the *New documents* folder.
+[comment]: <> (Der button wird bei mir nicht angezeigt. Muss da eine bestimmte Einstellung vorgenommen werden, damit das angezeigt wird? Ich habe allerdings auch in der Sandbox Dokumente nicht installiert - ist das eine Voraussetzung? Muss dann auf jeden Fall mit in die Prerequisites, da das nicht als allgemeine Voraussetzung im Kapitel General drin ist...
+Ggf. nochmal Infos dazu einholen.)
 
-  ![Select document](../../Assets/Screenshots/RetailSuiteAccounting/Book/Bookings/AttachDocument01.png "[Select document]")
+3. Click the *New documents* folder in the side bar.  
+All unassigned documents are displayed.
 
-4. Click the [SELECT DOCUMENT] button.  
+  ![Select document](../../Assets/Screenshots/RetailSuiteAccounting/Book/Bookings/AttachDocument02.png "[Select document]")
+
+4. Select the document to be assigned to the posting in the list of documents.
+
+5. Click the [SELECT DOCUMENT] button.  
 The selected document has been assigned to the posting. The *Attach Document* window is closed. The ![Receipt](../../Assets/Icons/Beleg.png "[Receipt]") icon (=Beleg, EN: receipt) is displayed next to the posting in the postings list.
 
   ![Receipt assigned](../../Assets/Screenshots/RetailSuiteAccounting/Book/Bookings/ReceiptAssigned.png "[Receipt assigned]")
 
-  > [Info] Click the ![Receipt](../../Assets/Icons/Beleg.png "[Receipt]") icon to display the corresponding receipt.
-
-5. If the receipt assignment needs to be undone due to a mistake, click the [CANCEL ASSIGNMENT] button.
-
-  ![Attached document](../../Assets/Screenshots/RetailSuiteAccounting/Book/Bookings/AttachedDocument.png "[Attached document]")
+  > [Info] You can click the ![Receipt](../../Assets/Icons/Beleg.png "[Receipt]") icon to display the corresponding receipt. The *Attached document* window is displayed. If the receipt assignment needs to be undone due to a mistake, click the [CANCEL ASSIGNMENT] button in the *Attached document* window.
 
 
-## Book a receipt
+## Post a receipt
 
-External receipts uploaded to the system and not yet registered can be assigned manually in the *Accounting* module. For example, suppliers' invoices can be uploaded as a PDF in the *Documents* module, which will be recognized by the system and displayed in the *BOOK RECEIPTS* tab.
+External receipts uploaded to the system and not yet registered can be assigned manually in the *Accounting* module. The invoices uploaded in the *New documents* folder in the *Documents* module are recognized by the system and displayed in the *POST RECEIPTS* tab.
 
 #### Prerequisites
 
-- The accounting is configured via the configuration wizard, see [Run the accounting wizard](../Integration/01_RunAccountingWizard.md).
-- A fiscal year is selected, see [Select fiscal year](./01_SelectFiscalYear.md).
-- A receipt is uploaded in PDF format in the *Documents* module.
+- A fiscal year has been selected, see [Select fiscal year](./01_SelectFiscalYear.md).
+- The *Documents* module has been installed.
+- A receipt has been uploaded in the *Documents* module.
+
+[comment]: <> (Ist PDF das einzige unterstützte Format? Nope, JPG und PNG auch. Andere Formate? Info dazu?)
 
 #### Procedure
 
-*Accounting > Select fiscal year > Book > Tab BOOK RECEIPTS*
+*Accounting > Select fiscal year > Post > Tab POST RECEIPTS*
 
-![New receipt](../../Assets/Screenshots/RetailSuiteAccounting/Book/BookReceipts/NewDocument.png "[New receipt]")
+![Post receipts](../../Assets/Screenshots/RetailSuiteAccounting/Book/BookReceipts/BookReceipts.png "[Post receipts]")
 
-  > [Info] The external receipts uploaded in the *New documents* folder in the *Documents* module are displayed here. If there are no receipts to be booked, the message *No documents left to be registered* is displayed when clicking the *BOOK RECEIPTS* tab.
+  > [Info] All unassigned documents uploaded in the *New documents* folder in the *Documents* module are displayed in the *POST RECEIPTS* tab. If there are no unassigned documents, the notice *No documents left to be registered* is displayed in the *POST RECEIPTS* tab.
 
-  ![No receipt](../../Assets/Screenshots/RetailSuiteAccounting/Book/BookReceipts/NoDocument.png "[No receipt]")
+1. Select the document to be assigned. You can scroll through the available documents with the ![Previous](../../Assets/Icons/Previous.png "[Previous]") and ![Next](../../Assets/Icons/Next.png "[Next]") arrows to the left and right of the word *Document*.
 
-1. If necessary, click the *Currency code* drop-down list and select the appropriate currency for the posting. All available currencies are displayed in the list. By default, the base currency is preselected.
+2. In the input line under the document, click the *Currency code* drop-down list and select the appropriate currency for the posting. All available currencies are displayed in the list. By default, the base currency is preselected.
 
   > [Info] Currency exchange rate can also be adjusted if needed in the *Rate* field.
 
-2. Enter the total invoice value in the *Turnover* field.
+3. Enter the posting amount in the *Turnover* field. This field is mandatory.
 
-3. Enter an account number in the *Contra Account* field.
+  > [Info] The fields *Turnover*, *Contra account*, *Date* and *Account* must be filled to create a manual posting.
 
-4. Enter the date for the manual booking in the *Date* field. Date format must be DDMMYY or DD.MM.YY.
+4. Enter an account number in the *Contra account* field.
 
-5. Enter the creditor (supplier) account number in the *Account* field.
+  > [Info] After you have entered at least two numbers in the field, a list is displayed below the field with all accounts matching the entry. You can also select the corresponding account in the list.
 
-  > [Info] Note that the fields *Contra Account*, *Date*,  *Account* must be filled out to be able to book a receipt.
+5. Enter a reference number, usually the invoice number, in the *Receipt 1* field.
 
-6. Enter any other relevant booking information in the corresponding fields.
+ > [Info] Even though it is not mandatory, it is highly recommended to fill in the *Receipt 1* field, as it is used as a reference to identify and assign any subsequent postings, for example for an invoice settlement or a credit note in case of refund.
 
-  > [Info] Even though it is not compulsory, it is highly recommended to fill in the *Receipt 1* field, as the system identifies and groups together any subsequent bookings taking this field as reference.
+6. Enter the date for the manual posting in the *Date* field. The valid date format is *DDMMYY*.
 
-  ![Booking a receipt](../../Assets/Screenshots/RetailSuiteAccounting/Book/BookReceipts/NewDocument01.png "[Booking a receipt]")
+7. Enter an account number in the *Account* field.
 
-7. Click the [BOOK] button.  
-The manual posting is created and linked to the selected receipt. The notice "Document assigned." is displayed above the input line. The new posting is displayed in the postings list in the *POSTINGS* tab. The ![Receipt](../../Assets/Icons/Beleg.png "[Receipt]") icon (=Beleg, EN: receipt) is displayed next to the posting in the postings list.
+  > [Info] After you have entered at least two numbers in the field, a list is displayed below the field with all accounts matching the entry. You can also select the corresponding account in the list.
 
-  ![Receipt linked](../../Assets/Screenshots/RetailSuiteAccounting/Book/BookReceipts/DocumentLinked01.png "[Receipt linked]")
+8. If desired, enter any other relevant manual posting information in the corresponding fields.
 
-  > [Info] If there are further unregistered documents, they will be displayed in the *BOOK RECEIPTS* tab. Otherwise, the notice "No documents left to be registered" is displayed.
+9. Click the [POST] button.  
+The manual posting is created and linked to the selected receipt. The notice "Document linked. Posted." is displayed above the input line. The new posting is displayed in the postings list in the *POSTINGS* tab. The ![Receipt](../../Assets/Icons/Beleg.png "[Receipt]") icon (=Beleg, EN: receipt) is displayed next to the posting in the postings list.
+
+  > [Info] If there are further unregistered documents, they will be displayed in the *POST RECEIPTS* tab. Otherwise, the notice "No documents left to be registered" is displayed.
 
 
-## Book a supplier receipt
+## Post a supplier receipt
 
 In addition to the posting process and assignment of general receipts, there is an enhanced function to specifically post supplier receipts.
 
-Suppliers' invoices can be uploaded as a PDF in the *New supplier receipts* folder in the *Documents* module, which will be recognized by the system and displayed in the *Acquire* tab in the *Supplier receipts* window. Once the supplier receipts are posted, they are moved automatically into the *Acquired documents* folder.
+Suppliers' invoices can be uploaded in the *New supplier receipts* folder in the *Documents* module, which will be recognized by the system and displayed in the *Acquire* tab in the *Supplier receipts* window. Once the supplier receipts are posted, they are moved automatically into the *Acquired documents* folder.
 
- Moreover, this function interacts with the *Purchasing* and *Payment processing* modules, and allows to check supplier receipts before booking them in the system and to automatize payment conditions.
+Moreover, this function interacts with the *Purchasing* and *Payment processing* modules, and allows to check supplier receipts before booking them in the system and to automatize payment conditions.
 
 [comment]: <> (ACQUIRE probably "enter" -ERFASSEN- or "park" -vorerfassen", SAP Terminology)
 
 #### Prerequisites
 
-- The accounting is configured via the configuration wizard, see [Run the accounting wizard](../Integration/01_RunAccountingWizard.md).
-- A fiscal year is selected, see [Select fiscal year](./01_SelectFiscalYear.md).
-- The appropriate plug-in is installed (Checking of supplier receipts + payment proposal list).
-- The corresponding folder is created in the *Documents* module.
-- Supplier receipts are uploaded in the *New supplier receipts* folder.
+- A fiscal year has been selected, see [Select fiscal year](./01_SelectFiscalYear.md).
+- The *Supplier receipts + payment proposal list* plug-in has been installed.
+- The *New supplier receipts* folder has been created in the *Documents* module, if not already available.
+- At least one supplier receipt has been uploaded in the *New supplier receipts* folder.
+
+[comment]: <> (New supplier receipts/Neue Lieferantenbelege Ordner selber erstellen oder ist irgendwie automatisch erstellt?)
 
 #### Procedure
 
-*Accounting > Select fiscal year > Book > Tab BOOKINGS > Context menu EDIT > Menu entry Supplier receipts*
+*Accounting > Select fiscal year > Post > Tab POSTINGS*
 
-![Supplier receipts](../../Assets/Screenshots/RetailSuiteAccounting/Book/SupplierReceipts.png "[Supplier receipts]")
+![Postings](../../Assets/Screenshots/RetailSuiteAccounting/Book/Bookings/Bookings.png "[Postings]")
 
-1.  Click the *Supplier receipt* menu entry.  
-The *Supplier receipts* window is displayed. The external receipts uploaded in the *New supplier receipts* folder in the *Documents* module are displayed in the *Acquire* tab.
+1. Click the [EDIT] button in the header above the postings list.  
+A context menu is displayed.
 
-    ![Acquire supplier receipts](../../Assets/Screenshots/RetailSuiteAccounting/Book/SupplierReceiptsAcquire.png "[Acquire supplier receipts]")
+  ![Edit](../../Assets/Screenshots/RetailSuiteAccounting/Book/Bookings/EditContextMenu.png "[Edit]")
+
+2. Click the *Supplier receipts* menu entry in the context menu.     
+  The *Supplier receipts* window is displayed. The external receipts uploaded in the *New supplier receipts* folder in the *Documents* module are displayed in the *Acquire* tab.
+
+  ![Acquire supplier receipts](../../Assets/Screenshots/RetailSuiteAccounting/Book/SupplierReceiptsAcquire.png "[Acquire supplier receipts]")
 
     > [Info] If there are no receipts to be booked, the message *No documents left to be registered* is displayed.
 
-  [comment]: <> (They do not appear in Acquire if located in New supplier receipts folder, but in the New documents. Check why/if correct/if it is a bug?)
+3. Select the document to be assigned. You can scroll through the available documents with the ![Previous](../../Assets/Icons/Previous.png "[Previous]") and ![Next](../../Assets/Icons/Next.png "[Next]") arrows to the left and right of the word *Document*.
 
-2. Enter the total invoice value in the *Turnover* field.
+4. In the input line under the document, enter the posting amount in the *Turnover* field. This field is mandatory.
 
-  > [Info] Currency exchange rate can also be adjusted if needed in the *Exchange rate* field.
+  > [Info] The currency exchange rate can also be adjusted if needed in the *Exchange rate* field. The fields *Turnover*, *Contra account*, *Date*, *Account* and *Posting text* must be filled to create a manual posting.
 
-3. Enter the corresponding booking details in the *ContraAcct* and *Supplier* fields.
+5. Enter an account number or an account description in the *Contra account* field.
 
-4. Enter the date for the manual booking in the *Date* field. Date format must be DDMMYY or DD.MM.YY.
+  > [Info] After you have entered at least three characters in the field, a list is displayed with all accounts matching the entry. You can also select the corresponding account in the list. Alternatively, click the drop-down list and select the applicable contra account.
 
-5. Enter a description account number in the *Posting text* field.
+6. Enter a reference number, usually the invoice number, in the *Receipt 1* field.
 
-  > [Info] Note that the fields *ContraAcct*, *Date*,  *Supplier* and *Posting text* must be filled out to be able to acquire a receipt.
+ > [Info] Even though it is not mandatory, it is highly recommended to fill in the *Receipt 1* field, as it is used as a reference to identify and assign any subsequent postings, for example for an invoice settlement or a credit note in case of refund.
 
-6. Enter any other relevant booking information in the corresponding fields.
+7. Enter the date for the manual posting in the *Date* field. The valid date format is *DDMMYY*.
 
-  > [Info] Even though it is not compulsory, it is highly recommended to fill in the *Reference1* field, as the system identifies and groups together any subsequent bookings taking this field as reference.
+8. Enter an account number or an account description in the *Account* field.
 
-7. Select the appropriate payment target for the receipt in the *Payment target* drop-down list.
+  > [Info] After you have entered at least three characters in the field, a list is displayed with all accounts matching the entry. You can also select the corresponding account in the list. Alternatively, click the drop-down list and select the applicable contra account.
 
-  ![Acquire supplier receipts](../../Assets/Screenshots/RetailSuiteAccounting/Book/SupplierReceiptsAcquire02.png "[Acquire supplier receipts]")
+9. Click the *Payment target* drop-down list and select the appropriate payment target for the receipt. The payment target configured in the supplier settings, if any, is preselected, see [Invoicing](../UserInterface/02a_DebtorsCreditors.mdinvoicing-1).
 
-8. A split booking can also be performed with the [SPLIT] button, if necessary. For detailed information, see [Split a booking](./09_SplitBooking.md).
+  > [Info] A split posting can also be performed with the [SPLIT] button, if necessary. For detailed information, see [Split a posting](./09_SplitBooking.md).
 
 9. Click the [ACQUIRE] button.  
-The supplier receipt has been acquired and is displayed in the *Overview* tab.  
+A pop-up window is displayed while the changes are being saved. The supplier receipt has been acquired and is displayed in the *Overview* tab.  
 
   ![Overview](../../Assets/Screenshots/RetailSuiteAccounting/Book/SupplierReceiptsOverview.png "[Overview]")
 
+  > [Info] To enter the supplier receipt in the system, they need to be released in the *Purchasing* module first. Once they have been released in the *Purchasing* module, the status changes from **New** (red) to **Released** (yellow-green) in the *Status* column.
 
-  > [Info] To be able to enter the supplier receipt in the system, they need to be released in the *Purchasing* module first. For detailed information, see [Check supplier receipts](#to-be-completed). Once they have been released in the *Purchasing* module, the status changes to **released** (colour yellow-green) in the *Status* column.
+[comment]: <> (Link zu Einkauf hinzufügen, wenn verfügbar!)
 
 11. Click the *Financial accounting takeover* tab and select the receipt to be entered in the system.
 
-  > [Info] When selecting a receipt, the receipt data are displayed in the entry line. Some changes can still be made here before takeover and saved with the [SAVE] button.
+  > [Info] When selecting a receipt, the receipt data are displayed in the input line. Changes can still be made here before takeover and saved with the [SAVE] button.
 
- Double check all booking details and, if no further changes are needed, click the [TAKE OVER SELECTED ONES] button.   
- The receipt is now registered in the *Accounting* module. The booking is displayed in the bookings list. An open item for the corresponding supplier (creditor) is created.
+12. Double check all posting details and, if no further changes are needed, click the [TAKE OVER SELECTED ONES] button.    
+The receipt has been registered in the *Accounting* module. The posting is displayed in the postings list. An open item for the corresponding supplier (creditor) has been created.
 
   ![Financial accounting takeover](../../Assets/Screenshots/RetailSuiteAccounting/Book/SupplierReceiptsTakeover.png "[Financial accounting takeover]")
+
+[comment]: <> (New screenshot to be added)

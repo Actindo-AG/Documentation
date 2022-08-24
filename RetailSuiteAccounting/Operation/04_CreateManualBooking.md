@@ -1,4 +1,4 @@
-[!!User Interface Bookings](../UserInterface/01a_Bookings.md)  
+> Post[!!User Interface Postings](../UserInterface/01a_Bookings.md)  
 [!!User Interface Select fiscal year](../UserInterface/00a_FiscalYear.md)   
 [!!User Interface FY/MONTH/JOURNAL](../UserInterface/00_Book.md#fymonthjournal)  
 
@@ -17,7 +17,7 @@ A fiscal year has been selected, see [Select fiscal year](./01_SelectFiscalYear.
 
 #### Procedure
 
-*Accounting > Select fiscal year > Book > Tab BOOKINGS*
+*Accounting > Select fiscal year > Post > Tab POSTINGS*
 
 ![Postings](../../Assets/Screenshots/RetailSuiteAccounting/Book/Bookings/Bookings.png "[Postings]")
 
@@ -25,7 +25,7 @@ A fiscal year has been selected, see [Select fiscal year](./01_SelectFiscalYear.
 
 2. Enter the posting amount in the *Turnover* field. This field is mandatory.
 
-   > [Info] Note that the fields *Turnover*, *Contra account*, *Date* and *Account* must be filled to create a manual posting.
+   > [Info] The fields *Turnover*, *Contra account*, *Date* and *Account* must be filled to create a manual posting.
 
 3. Enter an account number in the *Contra account* field.
 

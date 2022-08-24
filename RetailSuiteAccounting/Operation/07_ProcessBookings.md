@@ -1,8 +1,8 @@
 [!!User Interface Process](../UserInterface/01_Book.md#process)  
-[!!User Interface Bookings](../UserInterface/01a_Bookings.md)  
+[!!User Interface Postings](../UserInterface/01a_Bookings.md)  
 
 
-# Process bookings
+# Process postings
 
 All business transactions are recorded in the corresponding posting period (month and journal) as they occur. When the accounting for a particular period is finalized, the journal entries must be processed, that is, posted in the general ledger.   
 
@@ -17,11 +17,11 @@ Nevertheless, new postings can be entered in a posting period that has already b
 
 #### Procedure
 
-*Accounting > Select fiscal year > Book > Tab BOOKINGS*
+*Accounting > Select fiscal year > Post > Tab POSTINGS*
 
 ![Postings](../../Assets/Screenshots/RetailSuiteAccounting/Book/Bookings/Bookings.png "[Postings]")
 
-1. Click the [EDIT] button in the header above the postings list.
+1. Click the [EDIT] button in the header above the postings list.  
 A context menu is displayed.
 
   ![Edit](../../Assets/Screenshots/RetailSuiteAccounting/Book/Bookings/EditContextMenu.png "[Edit]")
@@ -31,12 +31,12 @@ A context menu is displayed.
 
   ![Process postings](../../Assets/Screenshots/RetailSuiteAccounting/Book/Bookings/ProcessBookings01.png "[Process postings]")
 
-3. Click the *Journal from* and the *Journal to* drop-down lists and select the journals where the bookings to be processed are recorded.
+3. Click the *Journal from* and the *Journal to* drop-down lists and select the journals where the postings to be processed are recorded.
 
   > [Info] If you want to process only the postings from a single journal, select the same journal in both drop-down lists.
 
 
-4. Click the *Month from* and the *Month to* drop-down lists and select the months where the bookings to be processed are recorded.
+4. Click the *Month from* and the *Month to* drop-down lists and select the months where the postings to be processed are recorded.
 
   > [Info] If you want to process only the postings from a single month, select the same month in both drop-down lists.
 

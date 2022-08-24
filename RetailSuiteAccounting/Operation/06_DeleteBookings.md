@@ -1,4 +1,4 @@
-[!!User Interface Bookings](../UserInterface/01a_Bookings.md)  
+[!!User Interface Postings](../UserInterface/01a_Bookings.md)  
 [!!User Interface Delete](../UserInterface/01_Book.md#delete)  
 
 
@@ -22,11 +22,11 @@ Delete a single posting from the postings list.
 
 #### Procedure
 
-*Accounting > Select fiscal year > Book > Tab BOOKINGS*
+*Accounting > Select fiscal year > Post > Tab POSTINGS*
 
 ![Postings](../../Assets/Screenshots/RetailSuiteAccounting/Book/Bookings/Bookings.png "[Postings]")
 
-1. Select the posting to be deleted in the postings list.
+1. Select the posting to be deleted in the postings list.  
   The posting details are displayed in the input line fields.
 
   > [Warning] Be aware that the selected posting will be deleted permanently.
@@ -53,7 +53,7 @@ Delete several postings simultaneously from the postings list.
 
 #### Procedure
 
-*Accounting > Select fiscal year > Book > Tab BOOKINGS*
+*Accounting > Select fiscal year > Post > Tab POSTINGS*
 
 ![Postings](../../Assets/Screenshots/RetailSuiteAccounting/Book/Bookings/Bookings.png "[Postings]")
 

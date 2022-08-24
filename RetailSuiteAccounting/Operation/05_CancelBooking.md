@@ -1,4 +1,4 @@
-[!!User Interface Bookings](../UserInterface/01a_Bookings.md)  
+[!!User Interface Postings](../UserInterface/01a_Bookings.md)  
 [!!User Interface Open items](../UserInterface/01d_OpenItems.md)   
 
 
@@ -15,11 +15,11 @@ When cancelling a posting, a copy of the original posting with the negative turn
 
 #### Procedure
 
-*Accounting > Select fiscal year > Book > Tab BOOKINGS*
+*Accounting > Select fiscal year > Post > Tab POSTINGS*
 
 ![Postings](../../Assets/Screenshots/RetailSuiteAccounting/Book/Bookings/Bookings.png "[Postings]")
 
-1. Select the posting to be cancelled in the postings list.
+1. Select the posting to be cancelled in the postings list.  
   The posting details are displayed in the input line fields.
 
 2. Click the [CANCEL] button.   

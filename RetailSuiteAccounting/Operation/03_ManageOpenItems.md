@@ -1,4 +1,4 @@
-[!!Payment processing](RetailSuiteBanking)  
+> Post[!!Payment processing](RetailSuiteBanking)  
 [!!User Interface Open items](../UserInterface/01d_OpenItems.md)  
 
 
@@ -11,7 +11,7 @@ There are two view modes:
 - If no account is selected, all open items in the *Accounting* module are displayed in the *OPEN ITEMS* tab.
 - If a personal account, that is, a creditor or debtor account, is selected, only the open items for the selected account are displayed in the *OPEN ITEMS* tab.
 
-> [Info] An account can be selected either by entering an account number in the *Account* or *Contra account* field, or by selecting a posting in the *BOOKINGS* tab.  
+> [Info] An account can be selected either by entering an account number in the *Account* or *Contra account* field, or by selecting a posting in the *POSTINGS* tab.  
 
 
 ## Check all open items
@@ -24,7 +24,7 @@ A fiscal year has been selected, see [Select fiscal year](./01_SelectFiscalYear.
 
 #### Procedure
 
-*Accounting > Select fiscal year > Book > Tab OPEN ITEMS*
+*Accounting > Select fiscal year > Post > Tab OPEN ITEMS*
 
 ![All open items](../../Assets/Screenshots/RetailSuiteAccounting/Book/OpenItems/AllOpenItems.png "[All open items]")
 
@@ -48,11 +48,11 @@ A fiscal year has been selected, see [Select fiscal year](./01_SelectFiscalYear.
 
 #### Procedure
 
-*Accounting > Select fiscal year > Book > Tab OPEN ITEMS*
+*Accounting > Select fiscal year > Post > Tab OPEN ITEMS*
 
 ![All open items](../../Assets/Screenshots/RetailSuiteAccounting/Book/OpenItems/AllOpenItems.png "[All open items]")
 
-1. Enter a personal account number in the *Contra account* or in the *Account* field. Alternatively, select a posting in the *BOOKINGS* tab.
+1. Enter a personal account number in the *Contra account* or in the *Account* field. Alternatively, select a posting in the *POSTINGS* tab.
 All open items of the corresponding account are displayed.  
 
   ![Open items for an account](../../Assets/Screenshots/RetailSuiteAccounting/Book/OpenItems/OpenItemsAccount.png "[Open items for an account]")
@@ -75,7 +75,7 @@ You can clear open items manually in a selected account.
 
 #### Procedure
 
-*Accounting > Select fiscal year > Book > Tab OPEN ITEMS > Select a personal account*
+*Accounting > Select fiscal year > Post > Tab OPEN ITEMS > Select a personal account*
 
 ![Open items for an account](../../Assets/Screenshots/RetailSuiteAccounting/Book/OpenItems/OpenItemsAccount.png "[Open items for an account]")
 
