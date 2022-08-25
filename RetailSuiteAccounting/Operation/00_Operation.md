@@ -9,8 +9,8 @@
 
 
 - [Manage the open items](./03_ManageOpenItems.md)
-  - [Access all open items](./03_ManageOpenItems.md#access-all-open-items)
-  - [Access the open items for an account](./03_ManageOpenItems.md#access-the-open-items-for-an-account)
+  - [Check all open items](./03_ManageOpenItems.md#access-all-open-items)
+  - [Check the open items for an account](./03_ManageOpenItems.md#access-the-open-items-for-an-account)
 
 
 - [Create a manual posting](./04_CreateManualBooking.md)

@@ -2,7 +2,7 @@
 [!!User Interface Accounts](../UserInterface/02b_Accounts.md)  
 [!!Manage accounts](../Integration/03_ManageAccounts.md)
 
-# Book exchange rate fluctuations
+# Post exchange rate fluctuations
 
 Companies issuing invoices in a foreign currency, for example GBP, can also manage these invoices in the *Accounting* module. For this purpose, the corresponding accounts must be set up in the foreign currency. For detailed information, see [Create an account](../Integration/03_ManageAccounts.md#create-an-account).
 
