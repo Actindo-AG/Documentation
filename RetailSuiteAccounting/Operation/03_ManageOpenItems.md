@@ -1,4 +1,4 @@
-> Post[!!Payment processing](RetailSuiteBanking)  
+[!!Payment processing](RetailSuiteBanking)  
 [!!User Interface Open items](../UserInterface/01d_OpenItems.md)  
 
 

@@ -24,12 +24,12 @@ Nevertheless, new postings can be entered in a posting period that has already b
 1. Click the [EDIT] button in the header above the postings list.  
 A context menu is displayed.
 
-  ![Edit](../../Assets/Screenshots/RetailSuiteAccounting/Book/Bookings/EditContextMenu.png "[Edit]")
+  ![Edit](../../Assets/Screenshots/RetailSuiteAccounting/Book/Edit.png "[Edit]")
 
 2. Click the *Process...* menu entry in the context menu.     
   The *Process postings* window is displayed.
 
-  ![Process postings](../../Assets/Screenshots/RetailSuiteAccounting/Book/Bookings/ProcessBookings01.png "[Process postings]")
+  ![Process postings](../../Assets/Screenshots/RetailSuiteAccounting/Book/ProcessBookings.png "[Process postings]")
 
 3. Click the *Journal from* and the *Journal to* drop-down lists and select the journals where the postings to be processed are recorded.
 

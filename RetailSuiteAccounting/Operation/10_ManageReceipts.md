@@ -150,7 +150,7 @@ Moreover, this function interacts with the *Purchasing* and *Payment processing*
 1. Click the [EDIT] button in the header above the postings list.  
 A context menu is displayed.
 
-  ![Edit](../../Assets/Screenshots/RetailSuiteAccounting/Book/Bookings/EditContextMenu.png "[Edit]")
+  ![Edit](../../Assets/Screenshots/RetailSuiteAccounting/Book/Edit.png "[Edit]")
 
 2. Click the *Supplier receipts* menu entry in the context menu.     
   The *Supplier receipts* window is displayed. The external receipts uploaded in the *New supplier receipts* folder in the *Documents* module are displayed in the *Acquire* tab.

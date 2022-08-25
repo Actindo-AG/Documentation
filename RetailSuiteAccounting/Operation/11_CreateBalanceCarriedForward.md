@@ -25,7 +25,7 @@ Special journals are preconfigured in the system to carry balances and open item
 1. Click the [EDIT] button in the header above the postings list.  
 A context menu is displayed.
 
-  ![Edit](../../Assets/Screenshots/RetailSuiteAccounting/Book/Bookings/EditContextMenu.png "[Edit]")
+  ![Edit](../../Assets/Screenshots/RetailSuiteAccounting/Book/Edit.png "[Edit]")
 
 2. Click the *Balance carried forward...* menu entry in the context menu.     
   The *Balance carried forward: step 1* window is displayed.
@@ -63,8 +63,6 @@ The *Retrieve account balances* window is displayed.
 
 10. Click the [CONTINUE] button.  
 The *Carry balances forward* window is displayed. The pop-up window *Balance carried forward completed* is displayed. The selected balances have been carried forward.
-
-
 
 11. Click the [CLOSE] button.  
 The *Carry balances forward* window is closed.

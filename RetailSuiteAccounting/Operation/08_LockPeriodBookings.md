@@ -22,12 +22,12 @@ In contrast to posting processing, locking a posting period can be undone if nec
 1. Click the [EDIT] button in the header above the postings list.  
 A context menu is displayed.
 
-  ![Edit](../../Assets/Screenshots/RetailSuiteAccounting/Book/Bookings/EditContextMenu.png "[Edit]")
+  ![Edit](../../Assets/Screenshots/RetailSuiteAccounting/Book/Edit.png "[Edit]")
 
 2. Click the *Lock months...* menu entry in the context menu.     
   The *Lock fiscal months* window is displayed.
 
-  ![Lock months selection window](../../Assets/Screenshots/RetailSuiteAccounting/Book/Bookings/LockMonths.png "[Lock months selection window]")
+  ![Lock months selection window](../../Assets/Screenshots/RetailSuiteAccounting/Book/LockMonths.png "[Lock months selection window]")
 
 3. Click the drop-down list after the month to be locked and select the **Locked** option. Repeat this step for all months to be locked. The drop-down list is active only for those months where postings have been recorded.
 

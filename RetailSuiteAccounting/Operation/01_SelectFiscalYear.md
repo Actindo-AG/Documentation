@@ -18,14 +18,12 @@ When you open the *Accounting* module for the first time after login or after re
 
 *Accounting*
 
-![Select fiscal year](../../Assets/Screenshots/RetailSuiteAccounting/SelectFiscalYear01.png "[Select fiscal year]")
+![Select fiscal year](../../Assets/Screenshots/RetailSuiteAccounting/SelectFiscalYear.png "[Select fiscal year]")
 
-1. Select a fiscal year in the *Fiscal year* drop-down list.   
+1. Click the *Fiscal year* drop-down list and select a fiscal year.   
   The *Period* date fields are filled in automatically.
 
-  ![Fiscal year fields](../../Assets/Screenshots/RetailSuiteAccounting/SelectFiscalYear02.png "[Fiscal year fields]")
-
-2. Select a month in the *Month* drop-down list. The selected month determines the posting period, this means, the period where the transaction is posted.
+2. Click the *Month* drop-down list and select a month. The selected month determines the posting period, this means, the period where the transaction is posted.
 
   > [Info] Apart from the calendar months, special posting periods can also be chosen to post balances carried forward, subsequent postings or closing postings. For detailed information, see [Select fiscal year](../UserInterface/00a_FiscalYear.md).
 
@@ -33,7 +31,7 @@ When you open the *Accounting* module for the first time after login or after re
 
 3. Enter a journal number in the *Journal* field. Alternatively, click the [LIST] button. The *Journals* window is displayed with the available journals and their postings.
 
-  ![Journals](../../Assets/Screenshots/RetailSuiteAccounting/Book/SelectFiscalYearJournals.png "[Journals]")
+  ![Journals](../../Assets/Screenshots/RetailSuiteAccounting/Journals.png "[Journals]")
 
   > [Info] Journals 1-12 are paired with the corresponding calendar months, regardless of whether the fiscal year coincides with the calendar year or not. Therefore, it is highly recommended to select the first month of the fiscal year with journal 1, the second month of the fiscal year with journal 2, and so on.  
   Journals 90 to 99 are special journals configured in the accounting settings for balances carried forward. For detailed information, see [Balance carried forward](../UserInterface/02h_BalanceCarriedForward.md).

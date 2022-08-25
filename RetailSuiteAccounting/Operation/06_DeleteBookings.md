@@ -39,8 +39,6 @@ A confirmation window is displayed.
 3. Click the [OK] button to confirm the deletion.  
 The posting has been deleted. The notice "Posting deleted!" is displayed above the input line. The posting has been removed from the postings list.
 
-  ![Posting deleted](../../Assets/Screenshots/RetailSuiteAccounting/Book/Bookings/BookingDeleted.png "[Posting deleted]")
-
 
 ## Delete multiple postings
 
@@ -60,12 +58,12 @@ Delete several postings simultaneously from the postings list.
 1. Click the [EDIT] button in the header above the postings list.
 A context menu is displayed.
 
-  ![Edit](../../Assets/Screenshots/RetailSuiteAccounting/Book/Bookings/EditContextMenu.png "[Edit]")
+  ![Edit](../../Assets/Screenshots/RetailSuiteAccounting/Book/Edit.png "[Edit]")
 
 2. Click the *Delete...* menu entry in the context menu.     
   The *Delete postings* window is displayed.
 
-  ![Delete postings](../../Assets/Screenshots/RetailSuiteAccounting/Book/Bookings/DeleteBookings.png "[Delete postings]")
+  ![Delete postings](../../Assets/Screenshots/RetailSuiteAccounting/Book/DeleteBookings.png "[Delete postings]")
 
 3. Click the *Journal* drop-down list and select the journal where the postings to be deleted are recorded. All journals where postings are recorded are displayed in the list.
 

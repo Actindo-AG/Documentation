@@ -1,4 +1,4 @@
-> Post[!!User Interface Postings](../UserInterface/01a_Bookings.md)  
+[!!User Interface Postings](../UserInterface/01a_Bookings.md)  
 [!!User Interface Select fiscal year](../UserInterface/00a_FiscalYear.md)   
 [!!User Interface FY/MONTH/JOURNAL](../UserInterface/00_Book.md#fymonthjournal)  
 

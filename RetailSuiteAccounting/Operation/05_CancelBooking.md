@@ -25,6 +25,4 @@ When cancelling a posting, a copy of the original posting with the negative turn
 2. Click the [CANCEL] button.   
   A new posting with a negative turnover amount corresponding to the posting to be cancelled is created. The negative posting is displayed in the postings list. The posting text "Cancel" is displayed in the *Text* column for this posting. The notice "Posted. Debtor/creditor: receipt (number) is cleared." is displayed above the input line.
 
-  ![Posting cancelled](../../Assets/Screenshots/RetailSuiteAccounting/Book/Bookings/BookingCancelled.png "[Posting cancelled]")
-
   > [Info] The open item created by the original posting is automatically cleared by the cancellation posting in the *OPEN ITEMS* tab.  
