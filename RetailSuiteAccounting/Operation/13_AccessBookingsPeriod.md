@@ -27,7 +27,7 @@ Special months are also preconfigured in the system for special business transac
 
 #### Procedure
 
-*Accounting > Select fiscal year > Post > Tab POSTINGS*
+*Accounting > Post > Tab POSTINGS*
 
 ![Postings](../../Assets/Screenshots/RetailSuiteAccounting/Book/Bookings/Bookings.png "[Postings]")
 

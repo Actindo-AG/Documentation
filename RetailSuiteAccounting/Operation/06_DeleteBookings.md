@@ -22,7 +22,7 @@ Delete a single posting from the postings list.
 
 #### Procedure
 
-*Accounting > Select fiscal year > Post > Tab POSTINGS*
+*Accounting > Post > Tab POSTINGS*
 
 ![Postings](../../Assets/Screenshots/RetailSuiteAccounting/Book/Bookings/Bookings.png "[Postings]")
 
@@ -51,7 +51,7 @@ Delete several postings simultaneously from the postings list.
 
 #### Procedure
 
-*Accounting > Select fiscal year > Post > Tab POSTINGS*
+*Accounting > Post > Tab POSTINGS*
 
 ![Postings](../../Assets/Screenshots/RetailSuiteAccounting/Book/Bookings/Bookings.png "[Postings]")
 

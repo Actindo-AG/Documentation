@@ -17,7 +17,7 @@ A fiscal year has been selected, see [Select fiscal year](./01_SelectFiscalYear.
 
 #### Procedure
 
-*Accounting > Select fiscal year > Post > Tab POSTINGS*
+*Accounting > Post > Tab POSTINGS*
 
 ![Postings](../../Assets/Screenshots/RetailSuiteAccounting/Book/Bookings/Bookings.png "[Postings]")
 

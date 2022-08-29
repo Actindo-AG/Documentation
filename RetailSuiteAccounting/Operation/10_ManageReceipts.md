@@ -40,7 +40,7 @@ After being uploaded, the receipts are stored in the *New documents* folder in t
 
 #### Procedure
 
-*Accounting > Select fiscal year > Post > Tab POSTINGS*
+*Accounting > Post > Tab POSTINGS*
 
 ![Postings](../../Assets/Screenshots/RetailSuiteAccounting/Book/Bookings/Bookings.png "[Postings]")
 
@@ -72,7 +72,7 @@ The selected document has been assigned to the posting. The *Attach Document* wi
 
 ## Post a receipt
 
-External receipts uploaded to the system and not yet registered can be assigned manually in the *Accounting* module. The invoices uploaded in the *New documents* folder in the *Documents* module are recognized by the system and displayed in the *POST RECEIPTS* tab.
+External receipts uploaded in the system and not yet registered can be assigned manually in the *Accounting* module. The invoices uploaded in the *New documents* folder in the *Documents* module are recognized by the system and displayed in the *POST RECEIPTS* tab.
 
 #### Prerequisites
 
@@ -84,15 +84,15 @@ External receipts uploaded to the system and not yet registered can be assigned 
 
 #### Procedure
 
-*Accounting > Select fiscal year > Post > Tab POST RECEIPTS*
+*Accounting > Post > Tab POST RECEIPTS*
 
 ![Post receipts](../../Assets/Screenshots/RetailSuiteAccounting/Book/BookReceipts/BookReceipts.png "[Post receipts]")
 
   > [Info] All unassigned documents uploaded in the *New documents* folder in the *Documents* module are displayed in the *POST RECEIPTS* tab. If there are no unassigned documents, the notice *No documents left to be registered* is displayed in the *POST RECEIPTS* tab.
 
-1. Select the document to be assigned. You can scroll through the available documents with the ![Previous](../../Assets/Icons/Previous.png "[Previous]") and ![Next](../../Assets/Icons/Next.png "[Next]") arrows to the left and right of the word *Document*.
+1. Select the document to be assigned. You can scroll through the available documents with the ![Previous](../../Assets/Icons/Previous.png "[Previous]") and ![Next](../../Assets/Icons/Next.png "[Next]") arrows to the left and right of *Document*.
 
-2. In the input line under the document, click the *Currency code* drop-down list and select the appropriate currency for the posting. All available currencies are displayed in the list. By default, the base currency is preselected.
+2. In the input line under the document, click the *Currency code* drop-down list and select the appropriate currency for the posting. All currencies configured in the system are displayed in the list. By default, the base currency is preselected.
 
   > [Info] Currency exchange rate can also be adjusted if needed in the *Rate* field.
 
@@ -130,7 +130,7 @@ Suppliers' invoices can be uploaded in the *New supplier receipts* folder in the
 
 Moreover, this function interacts with the *Purchasing* and *Payment processing* modules, and allows to check supplier receipts before booking them in the system and to automatize payment conditions.
 
-[comment]: <> (ACQUIRE probably "enter" -ERFASSEN- or "park" -vorerfassen", SAP Terminology)
+[comment]: <> (Evtl. Link zur Funktion Zahlungsvorschlagsliste - Skonto erkennen, automatischer Abzug des Kontos, usw.- in der Zahlungsabwicklung in diesem Unterkapitel hinzufügen, wenn verfügbar.)
 
 #### Prerequisites
 
@@ -143,7 +143,7 @@ Moreover, this function interacts with the *Purchasing* and *Payment processing*
 
 #### Procedure
 
-*Accounting > Select fiscal year > Post > Tab POSTINGS*
+*Accounting > Post > Tab POSTINGS*
 
 ![Postings](../../Assets/Screenshots/RetailSuiteAccounting/Book/Bookings/Bookings.png "[Postings]")
 
@@ -157,9 +157,9 @@ A context menu is displayed.
 
   ![Acquire supplier receipts](../../Assets/Screenshots/RetailSuiteAccounting/Book/SupplierReceiptsAcquire.png "[Acquire supplier receipts]")
 
-    > [Info] If there are no receipts to be booked, the message *No documents left to be registered* is displayed.
+  > [Info] If there are no receipts to be booked, the notice *No documents left to be registered* is displayed.
 
-3. Select the document to be assigned. You can scroll through the available documents with the ![Previous](../../Assets/Icons/Previous.png "[Previous]") and ![Next](../../Assets/Icons/Next.png "[Next]") arrows to the left and right of the word *Document*.
+3. Select the document to be assigned. You can scroll through the available documents with the ![Previous](../../Assets/Icons/Previous.png "[Previous]") and ![Next](../../Assets/Icons/Next.png "[Next]") arrows to the left and right of *Document*.
 
 4. In the input line under the document, enter the posting amount in the *Turnover* field. This field is mandatory.
 
@@ -188,7 +188,7 @@ A pop-up window is displayed while the changes are being saved. The supplier rec
 
   ![Overview](../../Assets/Screenshots/RetailSuiteAccounting/Book/SupplierReceiptsOverview.png "[Overview]")
 
-  > [Info] To enter the supplier receipt in the system, they need to be released in the *Purchasing* module first. Once they have been released in the *Purchasing* module, the status changes from **New** (red) to **Released** (yellow-green) in the *Status* column.
+  > [Info] To enter the supplier receipt in the system, they need to be released in the *Purchasing* module first. Once they have been released in the *Purchasing* module, the status changes from **New** (red) to **Released** (yellow-green) in the *Status* column. To release a supplier receipt, on the other hand, the supervisor must be set to the person responsible for the receipt release in the *CRM information* tab in the suppliers' configuration.
 
 [comment]: <> (Link zu Einkauf hinzufügen, wenn verfügbar!)
 
@@ -196,9 +196,7 @@ A pop-up window is displayed while the changes are being saved. The supplier rec
 
   > [Info] When selecting a receipt, the receipt data are displayed in the input line. Changes can still be made here before takeover and saved with the [SAVE] button.
 
-12. Double check all posting details and, if no further changes are needed, click the [TAKE OVER SELECTED ONES] button.    
-The receipt has been registered in the *Accounting* module. The posting is displayed in the postings list. An open item for the corresponding supplier (creditor) has been created.
+12. Select the applicable receipt and double check all posting details. If no further changes are needed, click the [TAKE OVER SELECTED ONES] button.    
+A pop-window is displayed while the receipt is being taken over. The receipt has been registered in the *Accounting* module. The posting is displayed in the postings list. An open item for the corresponding supplier (creditor) has been created.
 
   ![Financial accounting takeover](../../Assets/Screenshots/RetailSuiteAccounting/Book/SupplierReceiptsTakeover.png "[Financial accounting takeover]")
-
-[comment]: <> (New screenshot to be added)

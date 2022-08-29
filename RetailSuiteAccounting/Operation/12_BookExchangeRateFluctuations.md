@@ -11,14 +11,14 @@ The *Accounting* module only works with the base currency configured in the syst
 #### Prerequisites
 
 - A fiscal year has been selected, see [Select fiscal year](./01_SelectFiscalYear.md).
-- The corresponding personal account is set up in the foreign currency, see [Manage accounts](../Integration/03_ManageAccounts.md).
+- The corresponding personal and impersonal accounts are set up in the foreign currency, see [Manage accounts](../Integration/03_ManageAccounts.md).
 - The corresponding revenues and expenses accounts to book exchange rate differences are set up in the base currency, see [Create an account](../Integration/03_ManageAccounts.md#create-an-account).
 
-[comment]: <> (Wird das in dem Kapitel beschrieben? Oder muss das noch ergänzt werden? -> Konten 2150 - Aufw. aus Kursdifferenzen und 2660 - Erträge aus Kursdifferenzen sind standardmäßig verfügbar, evtl. prüfen, ob Funktion auch aktiv ist. Man könnte evtl. eine Prozedur in diesem Kapitel dazu hinzufügen, da es nicht so deutlich ist. Oder wenn nicht standardmäßig verfügbar, müssen diese Konten erstellt werden, damit die Kursdifferenzen gebucht werden können. Auch noch extra account als Erlöskonto zu UK Drittland, oder zum relevanten Land. Stimmt es so?)
+[comment]: <> (HG: Wird das in dem Kapitel beschrieben? Oder muss das noch ergänzt werden? -> 2150 - Aufw. aus Kursdifferenzen und 2660 Erträge aus Kursdifferenzen in SK03 standardmäßig verfügbar, Funktion aber noch einzustellen bzw. mindestens prüfen. Evtl. eine Prozedur in diesem Kapitel oder in Integration/Manage the accounts dazu hinzufügen, da es nicht so deutlich ist.)
 
 #### Procedure
 
-*Accounting > Select fiscal year > Book > Tab POSTINGS*
+*Accounting > Book > Tab POSTINGS*
 
 ![Postings](../../Assets/Screenshots/RetailSuiteAccounting/Book/Bookings/Bookings.png "[Postings]")
 
@@ -47,11 +47,9 @@ The *Foreign currency wizard* window is displayed.
 
   ![Foreign currency wizard](../../Assets/Screenshots/RetailSuiteAccounting/Book/ForeignCurrencyWizard02.png "[Foreign currency wizard]")
 
-4. Click the ![Calendar](../../Assets/Icons/Calendar.png "[Calendar]") button and select the desired date.
+4. Click the ![Calendar](../../Assets/Icons/Calendar.png "[Calendar]") button and select the desired date to post the difference.
 
 [comment]: <> (Oder eher durchgängig "calendar widget"?)
-
-  [comment]: <> (In the screenshot "Posting date")
 
 5. Click the [CONTINUE] button.  
 The *Account selection* drop-down list is displayed.
@@ -63,10 +61,9 @@ The *Account selection* drop-down list is displayed.
 6. Click the *Account selection* drop-down list and select the checkboxes of the applicable accounts. All available accounts are displayed in the list.
 
 7. Click the [CONTINUE] button.   
-The *Successfully posted* pop-up window is displayed. The exchange rate differences have been posted in the corresponding revenues or expenses accounts and are displayed as new postings in the postings list.
+The *Successful. (Number) exchange rate differences successfully posted.* pop-up window is displayed. The exchange rate differences have been posted in the corresponding revenues or expenses accounts and are displayed as new postings in the postings list.
 
-[comment]: <> (Check name of pop-up window! Evtl. pop-up window screenshot hinzufügen.)
+  ![Pop-up window](../../Assets/Screenshots/RetailSuiteAccounting/Book/ExchangeRateDiffSuccessful.png "[Pop-up window]")
 
-  ![Pop-up window](../../Assets/Screenshots/RetailSuiteAccounting/Book/xxx.png "[Pop-up window]")
-
-  > [Info] If the posting is not yet displayed in the list, click the ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh) button to update the postings list in the *POSTINGS* tab.
+8. If the automatic posting is not displayed in the list, press F5 to initialize the Core1 Platform and to update the postings list.  
+The exchange rate difference posting is now displayed in the postings list.

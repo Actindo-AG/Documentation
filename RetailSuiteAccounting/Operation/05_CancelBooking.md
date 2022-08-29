@@ -15,7 +15,7 @@ When cancelling a posting, a copy of the original posting with the negative turn
 
 #### Procedure
 
-*Accounting > Select fiscal year > Post > Tab POSTINGS*
+*Accounting > Post > Tab POSTINGS*
 
 ![Postings](../../Assets/Screenshots/RetailSuiteAccounting/Book/Bookings/Bookings.png "[Postings]")
 

@@ -23,7 +23,7 @@ A fiscal year has been selected, see [Select fiscal year](./01_SelectFiscalYear.
 
 #### Procedure
 
-*Accounting > Select fiscal year > Post > Tab BALANCES*
+*Accounting > Post > Tab BALANCES*
 
 ![Balances - no account selected](../../Assets/Screenshots/RetailSuiteAccounting/Book/Balances/BalancesNoAccount.png "[Balances - no account selected]")
 
@@ -54,7 +54,7 @@ A fiscal year has been selected, see [Select fiscal year](./01_SelectFiscalYear.
 
 #### Procedure
 
-*Accounting > Select fiscal year > Post > Tab ACCOUNT SHEET*
+*Accounting > Post > Tab ACCOUNT SHEET*
 
 ![Account sheet - no account selected](../../Assets/Screenshots/RetailSuiteAccounting/Book/AccountSheet/AccountSheetNoAccount.png "[Account sheet - no account selected]")
 

@@ -24,7 +24,7 @@ A fiscal year has been selected, see [Select fiscal year](./01_SelectFiscalYear.
 
 #### Procedure
 
-*Accounting > Select fiscal year > Post > Tab OPEN ITEMS*
+*Accounting > Post > Tab OPEN ITEMS*
 
 ![All open items](../../Assets/Screenshots/RetailSuiteAccounting/Book/OpenItems/AllOpenItems.png "[All open items]")
 
@@ -48,7 +48,7 @@ A fiscal year has been selected, see [Select fiscal year](./01_SelectFiscalYear.
 
 #### Procedure
 
-*Accounting > Select fiscal year > Post > Tab OPEN ITEMS*
+*Accounting > Post > Tab OPEN ITEMS*
 
 ![All open items](../../Assets/Screenshots/RetailSuiteAccounting/Book/OpenItems/AllOpenItems.png "[All open items]")
 
@@ -75,7 +75,7 @@ You can clear open items manually in a selected account.
 
 #### Procedure
 
-*Accounting > Select fiscal year > Post > Tab OPEN ITEMS > Select a personal account*
+*Accounting > Post > Tab OPEN ITEMS > Select a personal account*
 
 ![Open items for an account](../../Assets/Screenshots/RetailSuiteAccounting/Book/OpenItems/OpenItemsAccount.png "[Open items for an account]")
 

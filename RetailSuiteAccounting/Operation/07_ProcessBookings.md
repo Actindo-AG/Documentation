@@ -6,7 +6,7 @@
 
 All business transactions are recorded in the corresponding posting period (month and journal) as they occur. When the accounting for a particular period is finalized, the journal entries must be processed, that is, posted in the general ledger.   
 
-You can process postings entered in several booking periods simultaneously. Once the postings have been processed, they cannot be changed or deleted any more. If any corrections are necessary, the postings must be first cancelled and then, a new correct booking must be created. For detailed information about cancelling and creating a posting, see [Cancel a posting](./05_CancelBooking.md) and [Create a manual booking](./04_CreateManualBooking.md).  
+You can process postings entered in several posting periods simultaneously. Once the postings have been processed, they cannot be changed or deleted any more. If any corrections are necessary, the postings must be first cancelled and then, a new correct booking must be created. For detailed information about cancelling and creating a posting, see [Cancel a posting](./05_CancelBooking.md) and [Create a manual booking](./04_CreateManualBooking.md).  
 
 Nevertheless, new postings can be entered in a posting period that has already been processed. To avoid this, it is also possible to lock one or several months for postings. For detailed information about locking months, see [Lock a period for postings](./08_LockPeriodBookings.md).
 
@@ -17,7 +17,7 @@ Nevertheless, new postings can be entered in a posting period that has already b
 
 #### Procedure
 
-*Accounting > Select fiscal year > Post > Tab POSTINGS*
+*Accounting > Post > Tab POSTINGS*
 
 ![Postings](../../Assets/Screenshots/RetailSuiteAccounting/Book/Bookings/Bookings.png "[Postings]")
 

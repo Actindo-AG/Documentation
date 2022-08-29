@@ -24,7 +24,7 @@ A fiscal year has been selected, see [Select a fiscal year](./01_SelectFiscalYea
 
 #### Procedure
 
-*Accounting > Select fiscal year > Extras > Tab EXPORT*
+*Accounting > Extras > Tab EXPORT*
 
 ![Export](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Export/Export.png "[Export]")
 
@@ -128,7 +128,7 @@ A fiscal year is selected, see [Select a fiscal year](./01_SelectFiscalYear.md).
 
 #### Procedure
 
-*Accounting > Select fiscal year > Extras > Tab EXPORT*
+*Accounting > Extras > Tab EXPORT*
 
   ![Export](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Export/Export.png "[Export]")
 
@@ -191,7 +191,7 @@ A fiscal year has been selected, see [Select a fiscal year](./01_SelectFiscalYea
 
 #### Procedure
 
-*Accounting > Select fiscal year > Post*
+*Accounting > Post*
 
 ![Postings](../../Assets/Screenshots/RetailSuiteAccounting/Book/Bookings/Bookings.png "[Postings]")
 

@@ -18,7 +18,7 @@ Special journals are preconfigured in the system to carry balances and open item
 
 #### Procedure
 
-*Accounting > Select fiscal year > Book > Tab BOOKINGS*
+*Accounting > Book > Tab BOOKINGS*
 
 ![Postings](../../Assets/Screenshots/RetailSuiteAccounting/Book/Bookings/Bookings.png "[Postings]")
 
@@ -44,7 +44,7 @@ A context menu is displayed.
 
 6. If necessary, select the appropriate option(s) in the *Cost accounting* field.
 
-[comment]: <> (Unsicher, wenn das vorkommt.)
+[comment]: <> (Unsicher, wann das vorkommt.)
 
 7. Select the *Delete old balances carried forward from selected FY* checkbox if necessary.
 

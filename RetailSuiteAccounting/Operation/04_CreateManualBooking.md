@@ -9,7 +9,7 @@ Even though transactions are usually posted automatically through the automated 
 
  > [Info] It is essential to select the correct posting period, that is, the correct fiscal year, month and journal, before making a manual posting. For detailed information, see [Select fiscal year](./01_SelectFiscalYear).
 
-[comment]: <> (Ist booking period nicht nur der ausgewählte Monat? Spaltenname BP für ausgewählten Monat? Scheint Journal zu sein... Check!)
+[comment]: <> (Ist posting period nicht nur der ausgewählte Monat? Ja, Spaltenname BP zeigt das Monat an, aber im SelectFiscalYear-Fenster musst man alle 3 Kriterien -FY, Monat und Journal- auswählen, damit man eine Periode angezeigt bekommt. Ich meine, Unterschied zwischen Journal und Monat ist trotzdem nicht ganz deutlich...)
 
 #### Prerequisites
 
@@ -17,7 +17,7 @@ A fiscal year has been selected, see [Select fiscal year](./01_SelectFiscalYear.
 
 #### Procedure
 
-*Accounting > Select fiscal year > Post > Tab POSTINGS*
+*Accounting > Post > Tab POSTINGS*
 
 ![Postings](../../Assets/Screenshots/RetailSuiteAccounting/Book/Bookings/Bookings.png "[Postings]")
 

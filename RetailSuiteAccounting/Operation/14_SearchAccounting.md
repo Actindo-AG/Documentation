@@ -23,8 +23,8 @@ A fiscal year has been selected, see [Select fiscal year](./01_SelectFiscalYear.
 
 #### Procedure
 
-*Accounting > Select fiscal year > Post > Tab SEARCH > Tab Accounts*
-*Accounting > Select fiscal year > Post > Side bar button Leftward arrow > Tab Accounts*
+*Accounting > Post > Tab SEARCH > Tab Accounts*
+*Accounting > Post > Side bar button Leftward arrow > Tab Accounts*
 
 ![Search](../../Assets/Screenshots/RetailSuiteAccounting/Book/Search/Search01.png "[Search]")
 
@@ -57,8 +57,8 @@ A fiscal year has been selected, see [Select fiscal year](./01_SelectFiscalYear.
 
 #### Procedure
 
-*Accounting > Select fiscal year > Post > Tab SEARCH > Tab Search*
-*Accounting > Select fiscal year > Post > Side bar button Leftward arrow > Tab Search*
+*Accounting > Post > Tab SEARCH > Tab Search*
+*Accounting > Post > Side bar button Leftward arrow > Tab Search*
 
 ![Search](../../Assets/Screenshots/RetailSuiteAccounting/Book/Search/Search02.png "[Search]")
 
