@@ -5,7 +5,7 @@
 
 The accounts are set up during the configuration process via the accounting wizard, see [Chart of accounts](./01_RunAccountingWizard.md#chart-of-accounts). However, you can create, edit or delete an account, for example if a specific account is not yet available in the system or the settings of an account need to be adjusted.
 
-> [Note] Any modifications in the accounts have far-reaching consequences for the *Accounting* module and the system automatic bookings. It is highly recommended not to make any changes in the accounts, unless you have an in-depth knowledge of their functions. In case of doubt, please contact our customer support.
+> [Note] Any modifications in the accounts have far-reaching consequences for the *Accounting* module and the system automatic postings. It is highly recommended not to make any changes in the accounts, unless you have an in-depth knowledge of their functions. In case of doubt, please contact our customer support.
 
 
 ## Check the account availability

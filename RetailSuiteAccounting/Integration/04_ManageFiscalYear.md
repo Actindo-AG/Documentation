@@ -12,7 +12,7 @@ The fiscal year is set up during the configuration process via the accounting wi
 
 You can create a fiscal year that is not yet available in the system.
 
-> [Info] It is essential to create a new fiscal year in the system at the beginning of the new fiscal year. If the system cannot find a fiscal year to book any newly issued invoices, they will remain unrecognized and will have to be booked again manually via the *Invoicing* module, once the new fiscal year has been created.  
+> [Info] It is essential to create a new fiscal year in the system at the beginning of the new fiscal year. If the system cannot find a fiscal year to post any newly issued invoices, they will remain unrecognized and will have to be posted again manually via the *Invoicing* module, once the new fiscal year has been created.  
 
 #### Prerequisites
 
