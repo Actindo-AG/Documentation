@@ -11,7 +11,7 @@ The business evaluation (BWA) is a reporting system based on company financial d
 
 You can create new BWA reports, copy and edit one of the predefined system reports or delete any report. All available reports can be fully customized.
 
- > [Note] Be aware that any deletion is permanent and cannot be undone, and any changes made will overwrite the preset values.
+ > [Note] Be aware that any deletion is permanent and cannot be undone, and that any changes made will overwrite the preset values.
 
 When customizing existing reports, bear in mind that the reports use the standard accounts set up in the *Accounting* module configuration process. For detailed information, see [Chart of accounts](./01_RunAccountingWizard.md#chart-of-accounts). If the accounts have been customized manually, they must be set up again individually for the BWA reports. Otherwise, they will not be recognized by the BWA reports.
 

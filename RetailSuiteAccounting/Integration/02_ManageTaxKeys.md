@@ -24,7 +24,7 @@ A fiscal year has been selected, see [Select the fiscal year](../Operation/01_Se
 
 1. Enter an available tax key in the *Key* field.
 
-  > [Info] Check which tax keys are still available by navigating through the list. Make sure that the entry fields are cleared before entering any data. If they are not, click the [CLEAR] button.
+  > [Info] Check which tax keys are still available by navigating through the list. Make sure that the input fields are cleared before entering any data. If they are not, click the [CLEAR] button.
 
 2. Enter a description for the tax key in the *Description* field, for example **VAT 19%**.
 

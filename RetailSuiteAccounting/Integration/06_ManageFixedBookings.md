@@ -100,7 +100,7 @@ The notice *Fixed posting batch applied* is displayed in the upper left corner o
 
 You can edit fixed postings included in a fixed posting batch.  
 
-The fixed posting editing process comprises two step steps:
+The fixed posting editing process comprises two steps:
 
   1. reposting the edited posting as a new posting in the fixed posting batch
   2. deleting the old unedited posting from the fixed posting batch
@@ -126,7 +126,7 @@ The *Fixed postings &ndash; Batch* window is displayed.
   ![Edit a fixed posting](../../Assets/Screenshots/RetailSuiteAccounting/Settings/FixedBookings/EditFixedBooking.png "[Edit a fixed posting]")
 
 2. Click the fixed posting to be edited.  
-The details of the selected fixed posting are displayed in the entry fields.
+The details of the selected fixed posting are displayed in the input fields.
 
 3. Edit the desired data of the fixed posting in the corresponding fields.
 
@@ -134,7 +134,7 @@ The details of the selected fixed posting are displayed in the entry fields.
 A new fixed posting with the indicated modifications is added to the fixed posting batch with a new sequential number.
 
 5. Select now the old unedited fixed posting to delete it.  
-The details of the selected fixed posting are displayed in the entry fields.
+The details of the selected fixed posting are displayed in the input fields.
 
 6. Click the [DELETE] button.  
 A confirmation window is displayed.  
@@ -174,7 +174,7 @@ The *Fixed postings &ndash; Batch* window is displayed.
 
 
 2. Click the fixed posting to be deleted.
-  The details of the selected fixed posting are displayed in the entry fields.
+  The details of the selected fixed posting are displayed in the input fields.
 
   > [Note] Be aware that the fixed posting will be deleted permanently from the fixed postings batch. The fixed posting itself, however, will not be deleted from the system and will continue to be displayed in the *POSTINGS* tab.
 
@@ -185,7 +185,7 @@ A confirmation window is displayed.
 
 
 4.  Click [OK] if you want to proceed.  
-The notice *Deleted* is displayed in the upper left corner of the window. The deleted fixed posting is not longer displayed in the fixed posting batch.
+The notice *Deleted* is displayed in the upper left corner of the window. The deleted fixed posting is no longer displayed in the fixed posting batch.
 
 5. Click the [SAVE] button.   
 The notice *Fixed posting batch applied* is displayed in the upper left corner of the window. The fixed posting deletion has been saved in the fixed posting batch.
