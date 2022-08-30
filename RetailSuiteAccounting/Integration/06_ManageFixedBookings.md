@@ -110,7 +110,7 @@ This two-step editing process prevents inadvertently overwriting.
 ### Prerequisites
 
 - A fiscal year has been selected, see [Select the fiscal year](../Operation/01_SelectFiscalYear.md).
-- A fixed posting is created, see [Create a fixed posting](#create-a-fixed-posting).
+- A fixed posting has been created, see [Create fixed postings](#create-fixed-postings).
 
 ### Procedure
 
@@ -157,7 +157,7 @@ You can delete a fixed posting in a fixed posting batch.
 #### Prerequisites
 
 - A fiscal year has been selected, see [Select the fiscal year](../Operation/01_SelectFiscalYear.md).
-- A fixed posting is created, see [Create a fixed posting](#create-a-fixed-posting).
+- A fixed posting has been created, see [Create fixed postings](#create-fixed-postings).
 
 #### Procedure
 
