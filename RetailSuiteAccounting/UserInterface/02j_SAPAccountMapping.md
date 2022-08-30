@@ -1,6 +1,6 @@
 # SAP account mapping
 
-*Accounting > Select fiscal year > Settings > Tab SAP ACCOUNT MAPPING*
+*Accounting > Settings > Tab SAP ACCOUNT MAPPING*
 
 ![SAP account mapping](../../Assets/Screenshots/RetailSuiteAccounting/Settings/SAPAccountMapping/SAPAccountMapping02.png "[SAP account mapping]")
 

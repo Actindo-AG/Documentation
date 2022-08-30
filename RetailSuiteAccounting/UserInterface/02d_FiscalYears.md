@@ -1,6 +1,6 @@
 # Fiscal years
 
-*Accounting > Select fiscal year > Settings > Tab FISCAL YEARS*
+*Accounting > Settings > Tab FISCAL YEARS*
 
 ![Fiscal years](../../Assets/Screenshots/RetailSuiteAccounting/Settings/FiscalYears/CreateFiscalYear.png "[Fiscal years]")
 
@@ -79,17 +79,17 @@ Click this button to clear all entry fields. The button [SAVE & NEW] becomes act
 Click this button to open the help function.
 
 - [IMPORT]  
-Click this button to import bookings from a file. The *Import bookings* window is displayed.
+Click this button to import postings from a file. The *Import postings* window is displayed.
 
 - [EXPORT]
-Click this button to export bookings into a file. The *Export bookings* window is displayed.
+Click this button to export postings into a file. The *Export postings* window is displayed.
 
 
-## Import bookings
+## Import postings
 
-*Accounting > Select fiscal year > Settings > Tab FISCAL YEARS > Button IMPORT*
+*Accounting > Settings > Tab FISCAL YEARS > Button IMPORT*
 
-![Import bookings](../../Assets/Screenshots/RetailSuiteAccounting/Settings/FiscalYears/ImportBookings.png "[Import bookings]")
+![Import postings](../../Assets/Screenshots/RetailSuiteAccounting/Settings/FiscalYears/ImportBookings.png "[Import postings]")
 
 > [Info] The import function is also available in the *Extras* menu entry.
 
@@ -128,11 +128,11 @@ Click this button to import data in Schilling Software proprietary FQBATCH forma
 
 
 
-## Export bookings
+## Export postings
 
-*Accounting > Select fiscal year > Settings > Tab FISCAL YEARS > Button EXPORT*
+*Accounting > Settings > Tab FISCAL YEARS > Button EXPORT*
 
-![Export bookings](../../Assets/Screenshots/RetailSuiteAccounting/Settings/FiscalYears/ExportBookings.png "[Export bookings]")
+![Export postings](../../Assets/Screenshots/RetailSuiteAccounting/Settings/FiscalYears/ExportBookings.png "[Export postings]")
 
 > [Info] The export function is also available in the *Extras* menu entry. For detailed information, see [Provide the accounting data](../Operation/15_ProvideAccountingData.md).
 
@@ -147,7 +147,7 @@ A list of the available import options is displayed:
   - *Export of open items*
   - *Export of balance lists in CSV format*
   - *Compeso SALDEN.DAT*
-  - *Export bookings for SAP*
+  - *Export postings for SAP*
   - *Varial balances*
   - *Export of balance lists in CSV format (Zahlwerk)*
 

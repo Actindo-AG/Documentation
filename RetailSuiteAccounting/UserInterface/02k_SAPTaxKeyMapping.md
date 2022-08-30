@@ -1,6 +1,6 @@
 # SAP tax key mapping
 
-*Accounting > Select fiscal year > Settings > Tab TAX KEY MAPPING*
+*Accounting > Settings > Tab TAX KEY MAPPING*
 
 ![SAP tax key mapping](../../Assets/Screenshots/RetailSuiteAccounting/Settings/SAPTaxKeyMapping/SAPTaxKeyMapping.png "[SAP tax key mapping]")
 

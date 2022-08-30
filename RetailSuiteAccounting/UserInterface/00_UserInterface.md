@@ -2,7 +2,7 @@
 
 - [Fiscal year](./00a_FiscalYear.md)
 
-- [Book](./01_Book.md)
+- [Post](./01_Book.md)
 
   - [FY/MONTH/JOURNAL](./01_Book.md#fymonthjournal)
 
@@ -29,8 +29,8 @@
     - [Cost unit comparison](./01_Book.md#cost-unit-comparison)
     - [Other](./01_Book.md#other)
 
-- [BOOKINGS](./01a_Bookings.md)
-  - [Split booking](./01a_Bookings.md#split-booking)
+- [POSTINGS](./01a_Bookings.md)
+  - [Split posting](./01a_Bookings.md#split-booking)
   - [Attach document](./01a_Bookings.md#attach-document)
     - [Upload file](./01a_Bookings.md#upload-file)
     - [Attached document](./01a_Bookings.md#attached-document)
@@ -52,7 +52,7 @@
   - [Accounts sub-tab](./01e_Search.md#accounts-sub-tab)
   - [Search sub-tab](./01e_Search.md#search-sub-tab)
 
-- [BOOK RECEIPTS](./01f_BookReceipts.md)  
+- [POST RECEIPTS](./01f_BookReceipts.md)  
 
 
 - [Settings](./02_Settings.md)
@@ -89,8 +89,8 @@
 - [TAX KEYS](./02c_TaxKeys.md)
 
 - [FISCAL YEARS](./02d_FiscalYears.md)
-  - [Import bookings](./02d_FiscalYears.md#import-bookings)
-  - [Export booking](./02d_FiscalYears.md#export-bookings)
+  - [Import postings](./02d_FiscalYears.md#import-bookings)
+  - [Export postings](./02d_FiscalYears.md#export-bookings)
 
 - [COST ACCOUNTING](./02e_CostAccounting.md)
   - [Cost center](./02e_CostAccounting.md#cost-center)
@@ -99,10 +99,10 @@
     - [Select address](./02e_CostAccounting.md#cost-unit#select-address)
     - [ProfitCenter](./02e_CostAccounting.md#cost-unit#profitCenter)
 
-- [FIXED BOOKINGS](./02f_FixedBookings.md)
-  - [Fixed booking batch name](./02f_FixedBookings.md#fixed-booking-batch-name)
+- [FIXED POSTINGS](./02f_FixedBookings.md)
+  - [Fixed posting batch name](./02f_FixedBookings.md#fixed-booking-batch-name)
 
-- [FOLLOW-ON BOOKINGS](./02g_FollowOnBookings.md)
+- [FOLLOW-ON POSTINGS](./02g_FollowOnBookings.md)
 
 - [BALANCE CARRIED FORWARD](./02h_BalanceCarriedForward.md)
 

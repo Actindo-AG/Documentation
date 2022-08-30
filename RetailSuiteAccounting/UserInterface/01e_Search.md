@@ -1,30 +1,30 @@
 # Search
 
-*Accounting > Select fiscal year > Book > Tab SEARCH*
+*Accounting > Post > Tab SEARCH*
 
 ![Search](../../Assets/Screenshots/RetailSuiteAccounting/Book/Search/Search01.png "[Search]")
 
-The *SEARCH* tab in the *Accounting* module allows to search for a specific account or booking using different search criteria. For detailed information about the search function, see [Search in accounting](../Operation/14_SearchAccounting.md).
+The *SEARCH* tab in the *Accounting* module allows to search for a specific account or posting using different search criteria. For detailed information about the search function, see [Search in accounting](../Operation/14_SearchAccounting.md).
 
 
 - ![Open](../../Assets/Icons/Back02.png "[Open]") (Open)   
-Click this arrow to open the *Book extras* side bar.
+Click this arrow to open the *Post extras* side bar.
 
-  > [Info] The *Book extras* side bar opens automatically when clicking the *SEARCH* tab.
+  > [Info] The *Post extras* side bar opens automatically when clicking the *SEARCH* tab.
 
 - ![Close](../../Assets/Icons/Close.png "[Close]") (Close)  
-Click this arrow to close the *Book extras* side bar.
+Click this arrow to close the *Post extras* side bar.
 
 
 
-The *Book extras* side bar contains two sub-tabs:
+The *Post extras* side bar contains two sub-tabs:
 
   - *Accounts* - to search for accounts
-  - *Search* - to search for bookings
+  - *Search* - to search for postings
 
 ## Accounts sub-tab
 
-*Accounting > Select fiscal year > Book > Tab SEARCH > Side bar Book extras > Sub-tab Accounts*
+*Accounting > Post > Tab SEARCH > Side bar Post extras > Sub-tab Accounts*
 
   ![Sub-tab Accounts](../../Assets/Screenshots/RetailSuiteAccounting/Book/Search/BookExtrasAccounts.png "[Sub-tab Accounts]")
 
@@ -68,7 +68,7 @@ Enter a page number to go directly to a specific page.
 
 ## Search sub-tab
 
-*Accounting > Select fiscal year > Book > Tab SEARCH > Side bar Book extras > Sub-tab Search*
+*Accounting > Post > Tab SEARCH > Side bar Post extras > Sub-tab Search*
 
   ![Sub-tab Search](../../Assets/Screenshots/RetailSuiteAccounting/Book/Search/BookExtrasSearch.png "[Sub-tab Search]")
 
@@ -94,15 +94,15 @@ This column displays a list of the available search criteria. The following sear
   Enter a receipt 2 value to be searched for.
 
   - *Text*  
-  Enter a (booking) text to be searched for.
+  Enter a (posting) text to be searched for.
 
   - *Fiscal month*  
     Click the drop-down list to select the appropriate month. The following months are available:
 
       - **0 - Balances carried forward**
-      - **1 - 12 - (months)**
-      - **13 - 15 - Subsequent bookings**
-      - **16 - 25 - Closing bookings**
+      - **1 - 12 - (calendar month)**
+      - **13 - 15 - Subsequent postings**
+      - **16 - 25 - Closing postings**
       - **99 - General month**  
 
   - *Journal*  
@@ -118,7 +118,7 @@ This column displays a list of the available search criteria. The following sear
   Enter the cost unit to be searched for.
 
   - *Processed*  
-  Select the *Booking processed* checkbox to search for bookings with this status.
+  Select the *Posting processed* checkbox to search for postings with this status.
 
   - *User*  
   Click the drop-down list to select the relevant user.

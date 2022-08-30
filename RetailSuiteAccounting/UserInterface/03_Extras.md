@@ -1,6 +1,6 @@
 # Extras
 
-*Accounting > Select fiscal year > Extras*
+*Accounting > Extras*
 
 The Accounting menu entry Extras is used to manage data import and export.
 

@@ -1,6 +1,6 @@
 # CSV export definition
 
-*Accounting > Select fiscal year > Extras > Tab CSV FORMAT DEF.*
+*Accounting > Extras > Tab CSV FORMAT DEF.*
 
 ![CSV format definition](../../Assets/Screenshots/RetailSuiteAccounting/Extras/CSVFormatDef/CSVFormatDef.png "[CSV format definition]")
 

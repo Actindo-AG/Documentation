@@ -1,6 +1,6 @@
 # Balance carried forward
 
-*Accounting > Select fiscal year > Settings > Tab BALANCE CARRIED FORWARD*
+*Accounting > Settings > Tab BALANCE CARRIED FORWARD*
 
 ![Balance carried forward](../../Assets/Screenshots/RetailSuiteAccounting/Settings/BalanceCarriedForward/BalanceCarriedForward.png "[Balance carried forward]")
 

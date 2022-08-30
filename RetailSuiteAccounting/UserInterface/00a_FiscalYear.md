@@ -1,8 +1,8 @@
 # Fiscal year
 
-*Accounting > Select fiscal year*
+*Accounting*
 
-![Select fiscal year](../../Assets/Screenshots/RetailSuiteAccounting/FiscalYear.png "[Select fiscal year]")
+![Select fiscal year](../../Assets/Screenshots/RetailSuiteAccounting/SelectFiscalYear.png "[Select fiscal year]")
 
 When opening the *Accounting* module for the first time after logging in or after reloading the system, the fiscal year window is displayed. Select the appropriate values to display the corresponding period. For detailed information, see [Select fiscal year](../Operation/01_SelectFiscalYear.md).
 
@@ -18,9 +18,9 @@ The following fields are displayed:
   Click the drop-down list to select the month. The following options are available:  
 
     - **0 - Balances carried forward**
-    - **1 - 12 - (months)**
-    - **13 - 15 - Subsequent bookings**
-    - **16 - 25 - Closing bookings**
+    - **1 - 12 - (calendar month)**
+    - **13 - 15 - Subsequent postings**
+    - **16 - 25 - Closing postings**
     - **99 - General month**
 
 
@@ -34,14 +34,15 @@ The following fields are displayed:
   They are specialized lists of transactions records preconfigured in the system. Further journals can be created up to 99. To do so, simply enter a new journal number in the *Journal* field.
 
 - [LIST]  
-Click this button to display all available journals and the number of bookings contained in each of them is displayed. Click the appropriate journal in the *Journals* window to select it.
+Click this button to display all available journals and the number of postings contained in each of them is displayed.
 
-  ![Select journal](../../Assets/Screenshots/RetailSuiteAccounting/Book/SelectFiscalYearJournals.png "[Select journal]")
+  ![Journals](../../Assets/Screenshots/RetailSuiteAccounting/Journals.png "[Journals]")
 
-- [x] *Include fixed bookings*  
-  Select the checkbox to display the available fixed booking batches. Click the appropriate batch to select it. For detailed information, see [Manage fixed bookings](../Integration/06_ManageFixedBookings.md).
+ Click the appropriate journal in the *Journals* window to select it.
 
-    ![Select journal](../../Assets/Screenshots/RetailSuiteAccounting/SelectFiscalYear03.png "[Select journal]")
+- [x] *Include fixed postings*  
+  Select the checkbox to display the available fixed posting batches. Click the appropriate batch to select it. For detailed information, see [Manage fixed postings](../Integration/06_ManageFixedBookings.md).
+
 
 - [OK]  
   Click this button to confirm the set values.

@@ -1,10 +1,10 @@
 # Export
 
-*Accounting > Select fiscal year > Extras > Tab EXPORT*
+*Accounting > Extras > Tab EXPORT*
 
 ![Export](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Export/Export.png "[Export]")
 
-> [Info] The export function is also available in the *FISCAL YEARS* tab of the *Settings* menu entry, see [Export bookings](./02d_FiscalYears.md#export-bookings).
+> [Info] The export function is also available in the *FISCAL YEARS* tab of the *Settings* menu entry, see [Export postings](./02d_FiscalYears.md#export-postings).
 
 
 - *Export to*  
@@ -18,7 +18,7 @@ A list of the available export options is displayed:
   - *Export of open items*
   - *Export of balance lists in CSV format*
   - *Compeso SALDEN.DAT*
-  - *Export bookings for SAP*
+  - *Export postings for SAP*
   - *Varial balances*
   - *Export of balance lists in CSV format (Zahlwerk)*
 
@@ -59,9 +59,9 @@ Click this button to export balance lists in Zahlwerk compatible CSV format. Fol
 
 ## BMD
 
-*Accounting > Select fiscal year > Extras > Tab EXPORT > Button BMD*
+*Accounting > Extras > Tab EXPORT > Button BMD*
 
-![Export BMD Step 1](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Export/ExportBMD01.png "[Export BMD Step 1]")
+![Export BMD Step 1](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Export/BMD01.png "[Export BMD Step 1]")
 
 **Step 1**
 
@@ -87,7 +87,7 @@ Click this button to edit the tax mapping. The *BMD tax mapping* window is displ
 Click this button to proceed to the next step.
 
 
-![Export BMD Step 2](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Export/ExportBMD02.png "[Export BMD Step 2]")
+![Export BMD Step 2](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Export/BMD02.png "[Export BMD Step 2]")
 
 **Step 2**
 
@@ -106,7 +106,7 @@ A pop-up window confirms that the selected data have been exported correctly. Cl
 
 
 
-![Export BMD Step 3](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Export/ExportBMD03.png "[Export BMD Step 3]")
+![Export BMD Step 3](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Export/BMD03.png "[Export BMD Step 3]")
 
 **Step 3**
 
@@ -121,11 +121,11 @@ The exported file(s) are displayed and can be downloaded by clicking on the file
 
 ## CSV
 
-*Accounting > Select fiscal year > Extras > Tab EXPORT > Button CSV*
+*Accounting > Extras > Tab EXPORT > Button CSV*
 
-![Export CSV Step 1](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Export/ExportCSV01.png "[Export CSV Step 1]")
+![Export CSV Step 1](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Export/CSV01.png "[Export CSV Step 1]")
 
-![Export CSV Step 1](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Export/ExportCSV01cust.png "[Export CSV Step 1]")
+![Export CSV Step 1](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Export/CSV01cust.png "[Export CSV Step 1]")
 
 **Step 1**
 
@@ -155,7 +155,7 @@ Click the drop-down list to select the applicable file content. The following op
 
   - **Customers/suppliers**
   - **Chart of accounts**
-  - **Bookings**  
+  - **Postings**  
 
 
 - *Export def.*  
@@ -183,7 +183,7 @@ Enter the account number range to be exported. You can enter the account numbers
 Click this button to proceed to the next step.
 
 
-![Export CSV Step 2](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Export/ExportCSV02.png "[Export CSV Step 2]")
+![Export CSV Step 2](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Export/CSV02.png "[Export CSV Step 2]")
 
 **Step 2**
 
@@ -200,7 +200,7 @@ Click this button to close the window. This will cancel the export.
 A pop-up window confirms that the selected data have been exported correctly. Click the OK button to proceed to the next step.
 
 
-![Export CSV Step 3](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Export/ExportCSV03.png "[Export CSV Step 3]")
+![Export CSV Step 3](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Export/CSV03.png "[Export CSV Step 3]")
 
 
 **Step 3**
@@ -216,11 +216,11 @@ The exported file(s) are displayed and can be downloaded by clicking on the file
 
 ## DATEV CSV
 
-*Accounting > Select fiscal year > Extras > Tab EXPORT > Button DATEV CSV*
+*Accounting > Extras > Tab EXPORT > Button DATEV CSV*
 
-![Export DATEV CSV Step 1](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Export/ExportDatevCVS01.png "[Export DATEV CSV Step 1]")
+![Export DATEV CSV Step 1](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Export/DatevCVS01.png "[Export DATEV CSV Step 1]")
 
-![Export DATEV CSV Step 1](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Export/ExportDatevCVS01cust.png "[Export DATEV CSV Step 1]")
+![Export DATEV CSV Step 1](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Export/DatevCVS01cust.png "[Export DATEV CSV Step 1]")
 
 For detailed information about exporting data for DATEV, see [Export the data for DATEV](../Operation/15_ProvideAccountingData.md#export-the-data-for-datev).
 
@@ -260,7 +260,7 @@ Click the drop-down list to select the impersonal accounts to be exported. The f
 - *Custom (e.g. 1200, 1800-1850)*  
 Enter an account number or an account number range to be exported.
 
-- *Export subbookings*  
+- *Export subpostings*  
 Click the drop-down list to select the appropriate option (**Yes/No**).
 
 [comment]: <> (Check was Unterbuchungen sind)
@@ -277,10 +277,10 @@ Click the drop-down list to select the personal accounts to be exported. The fol
 - *Custom (e.g. 10000, 39999-49999)*    
 Enter an account number or an account number range to be exported.
 
-- *Export only booking-relevant master data records*  
+- *Export only posting-relevant master data records*  
  Click the drop-down list to select the appropriate option (**Yes/No**).
 
-- *Take Receipt 2 field in the export document from booking record field*  
+- *Take Receipt 2 field in the export document from posting record field*  
 Click the drop-down list to select the appropriate option. The following options are available:  
 
   - **Receipt 1**
@@ -289,7 +289,7 @@ Click the drop-down list to select the appropriate option. The following options
   - **Receipt 4**
 
 
-- *Add tax keys from automatic accounts also in split bookings*  
+- *Add tax keys from automatic accounts also in split postings*  
 Click the drop-down list to select the appropriate option (**Yes/No**).
 
 - *Saved personal accounts length*  
@@ -305,7 +305,7 @@ Enter the DATEV client  number, if applicable.
 Click this button to proceed to the next step.
 
 
-![Export DATEV CSV Step 2](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Export/ExportDatevCVS02.png "[Export DATEV CSV Step 2]")
+![Export DATEV CSV Step 2](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Export/DatevCVS02.png "[Export DATEV CSV Step 2]")
 
 **Step 2**
 
@@ -321,7 +321,7 @@ Click this button to close the window. This will cancel the export.
 A pop-up window confirms that the selected data have been exported correctly. Click the OK button to proceed to the next step.
 
 
-![Export DATEV CSV Step 3](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Export/ExportDatevCVS03.png "[Export DATEV CSV Step 3]")
+![Export DATEV CSV Step 3](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Export/DatevCVS03.png "[Export DATEV CSV Step 3]")
 
 **Step 3**
 
@@ -336,7 +336,7 @@ The exported file(s) are displayed and can be downloaded by clicking on the file
 
 ## GDI
 
-*Accounting > Select fiscal year > Extras > Tab EXPORT > Button GDI*
+*Accounting > Extras > Tab EXPORT > Button GDI*
 
 ![Export GDI Step 1](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Export/GDI01.png "[Export GDI Step 1]")
 
@@ -400,9 +400,9 @@ The exported file(s) are displayed and can be downloaded by clicking on the file
 
 ## GDPdU export
 
-*Accounting > Select fiscal year > Extras > Tab EXPORT > Button GDPDU EXPORT*
+*Accounting > Extras > Tab EXPORT > Button GDPDU EXPORT*
 
-![Export GDPDU Step 1](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Export/ExportGDPdU01.png "[Export GDPDU Step 1]")
+![Export GDPDU Step 1](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Export/GDPdU01.png "[Export GDPDU Step 1]")
 
  For detailed information about exporting data in GDPdU-compliant audit file format, see [Export the data GDPdU-compliant](../Operation/15_ProvideAccountingData.md#export-the-data-GDPdU-compliant).
 
@@ -425,7 +425,7 @@ Specify the period to be exported.
 Click the drop-down list and select the appropriate option (**Yes/No**).
 
 
-- *Export only booking-relevant master data records*  
+- *Export only posting-relevant master data records*  
  Click the drop-down list to select the appropriate option (**Yes/No**).
 
 - *Saved personal accounts length*  
@@ -441,7 +441,7 @@ Enter the DATEV client  number, if applicable.
 Click this button to proceed to the next step.
 
 
-![Export GDPDU Step 2](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Export/ExportGDPdU02.png "[Export GDPDU Step 2]")
+![Export GDPDU Step 2](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Export/GDPdU02.png "[Export GDPDU Step 2]")
 
 **Step 2**
 
@@ -457,7 +457,7 @@ Click this button to close the window. This will cancel the export.
 A pop-up window confirms that the selected data have been exported correctly. Click the OK button to proceed to the next step.
 
 
-![Export GDPDU Step 3](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Export/ExportGDPdU03.png "[Export GDPDU Step 3]")
+![Export GDPDU Step 3](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Export/GDPdU03.png "[Export GDPDU Step 3]")
 
 **Step 3**
 
@@ -471,7 +471,7 @@ The exported file(s) are displayed and can be downloaded by clicking on the file
 
 ## Open items
 
-*Accounting > Select fiscal year > Extras > Tab EXPORT > Button OPEN ITEMS*
+*Accounting > Extras > Tab EXPORT > Button OPEN ITEMS*
 
 ![Export Open items Step 1](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Export/OpenItems01.png "[Export Open items Step 1]")
 
@@ -510,7 +510,7 @@ Click the drop-down list to select the applicable file content. The following op
 
   - **Customers/suppliers**
   - **Chart of accounts**
-  - **Bookings**  
+  - **Postings**  
 
 
 - *Export def.*  
@@ -555,7 +555,7 @@ The exported file(s) are displayed and can be downloaded by clicking on the file
 
 ## Balance lists
 
-*Accounting > Select fiscal year > Extras > Tab EXPORT > Button BALANCE LISTS*
+*Accounting > Extras > Tab EXPORT > Button BALANCE LISTS*
 
 ![Export Balance lists Step 1](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Export/BalanceList01.png "[Export Balance lists Step 1]")
 
@@ -623,7 +623,7 @@ The exported file(s) are displayed and can be downloaded by clicking on the file
 
 ## SALDEN.DAT
 
-*Accounting > Select fiscal year > Extras > Tab EXPORT > Button SALDEN.DAT*
+*Accounting > Extras > Tab EXPORT > Button SALDEN.DAT*
 
 ![Export SALDEN.DAT Step 1](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Export/SALDEN.DAT01.png "[Export SALDEN.DAT Step 1]")
 
@@ -689,7 +689,7 @@ The exported file(s) are displayed and can be downloaded by clicking on the file
 
 ## SAP
 
-*Accounting > Select fiscal year > Extras > Tab EXPORT > Button SAP*
+*Accounting > Extras > Tab EXPORT > Button SAP*
 
 ![Export SAP Step 1](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Export/SAP01.png "[Export SAP Step 1]")
 
@@ -717,10 +717,10 @@ Click the applicable radio button to select the appropriate option:
 
 
 - *Creation from*  
-Enter a start creation date for the bookings to be exported.
+Enter a start creation date for the postings to be exported.
 
 - *Creation to*  
-Enter an end creation date for the bookings to be exported.
+Enter an end creation date for the postings to be exported.
 
 - [CONTINUE]  
 Click this button to proceed to the next step.
@@ -759,7 +759,7 @@ The exported file(s) are displayed and can be downloaded by clicking on the file
 
 ## Varial
 
-*Accounting > Select fiscal year > Extras > Tab EXPORT > Button VARIAL*
+*Accounting > Extras > Tab EXPORT > Button VARIAL*
 
 ![Export Varial Step 1](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Export/Varial01.png "[Export Varial Step 1]")
 
@@ -778,10 +778,10 @@ Specify the period to be exported.
   Enter the journal range to be exported.
 
 - *Date from*   
-Enter a start date for the bookings to be exported.
+Enter a start date for the postings to be exported.
 
 - *Date to*  
-Enter an end date for the bookings to be exported.
+Enter an end date for the postings to be exported.
 
 - *File suffix*  
 Enter a file suffix, if applicable. Only numbers can be used.
@@ -822,7 +822,7 @@ The exported file(s) are displayed and can be downloaded by clicking on the file
 
 ## Zahlwerk
 
-*Accounting > Select fiscal year > Extras > Tab EXPORT > Button ZAHLWERK*
+*Accounting > Extras > Tab EXPORT > Button ZAHLWERK*
 
 ![Export Zahlwerk Step 1](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Export/Zahlwerk01.png "[Export Zahlwerk Step 1]")
 

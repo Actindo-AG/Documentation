@@ -1,6 +1,6 @@
 # Cost accounting
 
-*Accounting > Select fiscal year > Settings > Tab COST ACCOUNTING*
+*Accounting > Settings > Tab COST ACCOUNTING*
 
 ![Cost accounting - not defined](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CostAccounting/CostAccountingNo.png "[Cost accounting - not defined]")
 
@@ -8,7 +8,7 @@
 
 
 - *Cost accounting*  
-Click the corresponding drop-down list to select the relevant booking period and the cost center/unit:
+Click the corresponding drop-down list to select the relevant posting period and the cost center/unit:
 
   - (Fiscal year drop-down list)  
   Click the drop-down list to select the relevant fiscal year. The fiscal years already configured in the system are displayed in the drop-down list.  
@@ -18,7 +18,7 @@ Click the corresponding drop-down list to select the relevant booking period and
 
     - **0 - Balances carried forward**
     - **1 - 12 - (months)**
-    - **13 - 15 - Subsequent bookings**  
+    - **13 - 15 - Subsequent postings**  
 
   - (Cost accounting drop-down list)  
 Click the drop-down list to select the corresponding cost accounting. The following options are available:  
@@ -26,14 +26,14 @@ Click the drop-down list to select the corresponding cost accounting. The follow
     - **Cost 1 - Cost center**
     - **Cost 2 - Cost unit**
 
-[comment]: <> (Fehlen 16 - 25 - Closing bookings und 99 - General month?)
+[comment]: <> (Fehlen 16 - 25 - Closing postings und 99 - General month?)
 
 Depending on the option chosen in the cost accounting drop-down list (**Cost 1 - Cost center** or **Cost 2 - Cost unit**), the entry fields and the information displayed vary.
 
 
 ## Cost center
 
-*Accounting > Select fiscal year > Settings > Tab COST ACCOUNTING > Drop-down option Cost1 - Cost center*
+*Accounting > Settings > Tab COST ACCOUNTING > Drop-down option Cost1 - Cost center*
 
 ![Cost center](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CostAccounting/CostAccounting01.png "[Cost center]")
 
@@ -97,7 +97,7 @@ Click this button to print the cost center/unit. The *Cost center/unit* window i
 
 ## Cost unit
 
-*Accounting > Select fiscal year > Settings > Tab COST ACCOUNTING > Drop-down option Cost2 - Cost unit*
+*Accounting > Settings > Tab COST ACCOUNTING > Drop-down option Cost2 - Cost unit*
 
 ![Cost unit](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CostAccounting/CostAccounting02.png "[Cost unit]")
 
@@ -169,7 +169,7 @@ Click this button to print the cost center/unit. The *Cost center/unit* window i
 
 ### Allocation table
 
-*Accounting > Select fiscal year > Settings > Tab COST ACCOUNTING > Drop-down option Cost1 - Cost center > Button ALLOCATION TABLE*
+*Accounting > Settings > Tab COST ACCOUNTING > Drop-down option Cost1 - Cost center > Button ALLOCATION TABLE*
 
 ![Allocation table](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CostAccounting/AllocationTable03.png "[Allocation table]")
 
@@ -235,7 +235,7 @@ Click this button to save the allocation table after making any changes. A pop-u
 
 ####  Select period
 
-*Accounting > Select fiscal year > Settings > Tab COST ACCOUNTING > Drop-down option Cost1 - Cost center > Button ALLOCATION TABLE > Button CHANGE PERIOD*
+*Accounting > Settings > Tab COST ACCOUNTING > Drop-down option Cost1 - Cost center > Button ALLOCATION TABLE > Button CHANGE PERIOD*
 
 ![Select period](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CostAccounting/Selectperiod.png "[Select period]")
 
@@ -250,7 +250,7 @@ Click the drop-down list to select the desired month.
 
 [comment]: <> (Fenster/Unterkapitel umbenennen zu Search debtor?)
 
-*Accounting > Select fiscal year > Settings > Tab COST ACCOUNTING > Drop-down option Cost2 - Cost unit > Button SEARCH*
+*Accounting > Settings > Tab COST ACCOUNTING > Drop-down option Cost2 - Cost unit > Button SEARCH*
 
 ![Select address](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CostAccounting/SelectAddress.png "[Select address]")
 
@@ -434,7 +434,7 @@ This text displays the number of customers and suppliers currently displayed and
 
 [comment]: <> (Fenster/Unterkapitel umbenennen zu Edit ProfitCenter?)
 
-*Accounting > Select fiscal year > Settings > Tab COST ACCOUNTING > Drop-down option Cost2 - Cost unit > Button EDIT*
+*Accounting > Settings > Tab COST ACCOUNTING > Drop-down option Cost2 - Cost unit > Button EDIT*
 
 ![Edit ProfitCenter](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CostAccounting/ProfitCenter.png "[Edit ProfitCenter]")
 
@@ -464,7 +464,7 @@ Click this button to save the newly created ProfitCenter or any other changes ma
 
 [comment]: <> (Fenster/Unterkapitel umbenennen zu Print cost center/unit? -> Evtl. zu H2 ändern und in TOC mit aufnehmen?)
 
-*Accounting > Select fiscal year > Settings > Tab COST ACCOUNTING > Drop-down option Cost2 - Cost unit > Button PRINT*
+*Accounting > Settings > Tab COST ACCOUNTING > Drop-down option Cost2 - Cost unit > Button PRINT*
 
 
 ![Print cost center/unit](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CostAccounting/CostCenterUnit.png "[Print cost center/unit]")

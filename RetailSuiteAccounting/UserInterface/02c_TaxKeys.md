@@ -1,6 +1,6 @@
 # Tax keys
 
-*Accounting > Select fiscal year > Settings > Tab TAX KEYS*
+*Accounting > Settings > Tab TAX KEYS*
 
 ![Tax keys](../../Assets/Screenshots/RetailSuiteAccounting/Settings/TaxKeys/CreateTaxKey.png "[Tax keys]")
 
@@ -23,7 +23,7 @@ Validity end date of the tax key.
 Applicable tax rate.
 
 - *+/-*  
-If the booking is a gross amount, the tax must be deducted from it, and therefore a minus sign is displayed. If the booking is a net amount, the tax must be added to it, and therefore a plus sign is displayed.
+If the posting is a gross amount, the tax must be deducted from it, and therefore a minus sign is displayed. If the posting is a net amount, the tax must be added to it, and therefore a plus sign is displayed.
 
 - *Factor*  
 Factor applicable to the tax key.
@@ -31,13 +31,13 @@ Factor applicable to the tax key.
 [comment]: <> (Oder Faktor bezieht sich auf Steuersatz?)
 
 - *VAT*  
-Account where the VAT is to be booked.
+Account where the VAT is to be posted.
 
 - *Input tax*  
-Account where the input tax is to be booked.
+Account where the input tax is to be posted.
 
 - *VAT not due*  
-Account where the VAT not due is to be booked.
+Account where the VAT not due is to be posted.
 
 - *Type*  
 Abbreviation of the tax type configured for the tax key. The following options are available:  
@@ -83,10 +83,10 @@ Input tax and VAT (value added tax) configured for the tax key.
 
 
 - *Percent / factor*  
-Enter the applicable tax rate and factor in the corresponding fields. Click the drop-down list to select **+** or **-** if the booking is a net or a gross amount respectively.  
+Enter the applicable tax rate and factor in the corresponding fields. Click the drop-down list to select **+** or **-** if the posting is a net or a gross amount respectively.  
 
 - *Accounts (VAT/input tax/VAT not due)*  
-Enter the accounts where the applicable taxes are to be booked in the corresponding fields.
+Enter the accounts where the applicable taxes are to be posted in the corresponding fields.
 
 - *VAT-ID needed*  
 Click the drop-down list to select the appropriate option (**Yes/No**).

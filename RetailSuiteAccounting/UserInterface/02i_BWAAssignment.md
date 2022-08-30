@@ -1,8 +1,8 @@
 # BWA assignment
 
-*Accounting > Select fiscal year > Settings > Tab BWA ASSIGNMENT*
+*Accounting > Settings > Tab BWA ASSIGNMENT*
 
-![BWA assignment](../../Assets/Screenshots/RetailSuiteAccounting/Settings/BWAAssignment/CreateBWAReport.png "[BWA assignment]")
+![BWA assignment](../../Assets/Screenshots/RetailSuiteAccounting/Settings/BWAAssignment/AddBWAReport.png "[BWA assignment]")
 
 **Accounting reports**
 
@@ -86,7 +86,7 @@ Click this button to copy the selected system report. A copy of the selected acc
 
 *Accounting > Select fiscal year > Settings > Tab BWA ASSIGNMENT > Button Add*
 
-![Create BWA report](../../Assets/Screenshots/RetailSuiteAccounting/Settings/BWAAssignment/CreateBWAReport02.png "[Create BWA report]")
+![Create BWA report](../../Assets/Screenshots/RetailSuiteAccounting/Settings/BWAAssignment/CreateBWAReport.png "[Create BWA report]")
 
 - ![Back](../../Assets/Icons/Back02.png "[Back]") (Back) *Create*   
 Click this button to close the *Create* view and return to the *Accounting reports* view.
@@ -106,7 +106,7 @@ Click this button to save the accounting report. The newly created accounting re
 
 *Accounting > Select fiscal year > Settings > Tab BWA ASSIGNMENT > Select accounting report*
 
-![Edit BWA report](../../Assets/Screenshots/RetailSuiteAccounting/Settings/BWAAssignment/EditBWAReport02.png "[Edit BWA report]")
+![Edit BWA report](../../Assets/Screenshots/RetailSuiteAccounting/Settings/BWAAssignment/EditBWAReport.png "[Edit BWA report]")
 
 
 - ![Back](../../Assets/Icons/Back02.png "[Back]") (Back) *Edit*  
@@ -126,17 +126,20 @@ Click this button to save the changes made in the accounting report. For detaile
 
 - **Newly created report**
 
-  ![Add report lines](../../Assets/Screenshots/RetailSuiteAccounting/Settings/BWAAssignment/CreateReportLines01.png "[Add report lines]")
+  ![Add report lines](../../Assets/Screenshots/RetailSuiteAccounting/Settings/BWAAssignment/AddReportLines.png "[Add report lines]")
 
   > [Info] If the accounting report has been newly created, that means, it is not a copy of a predefined BWA report, the *Accounting report lines* section is empty. The message *No report lines created. Use + button to create one* is displayed. Click the ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) button to add accounting report lines. The *Create* section is displayed, see [Create report lines](#create-report-lines).
 
 
 - **Report copied from a predefined system report**
 
-  ![Edit report lines](../../Assets/Screenshots/RetailSuiteAccounting/Settings/BWAAssignment/EditBWAReport02.png "[Edit report lines]")
+  ![Edit report lines](../../Assets/Screenshots/RetailSuiteAccounting/Settings/BWAAssignment/EditBWAReport.png "[Edit report lines]")
+
+  ![Edit report lines](../../Assets/Screenshots/RetailSuiteAccounting/Settings/BWAAssignment/EditBWAReportLayout.png "[Edit report lines]")
 
   > [Info] If the accounting report is a copy of a predefined system report, the *Accounting report lines* section contains a number of lines. These lines can be edited or deleted.
 
+[comment]: <> (Beide Screenshots? Nur oberes? Beide Bilder in einem -> Snagit crash course!)
 
   - ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh) Button  
   Click this button to refresh the *Accounting report lines* view.
@@ -291,7 +294,7 @@ Click this button to save the created report lines. The newly creaed accounting 
 
 *Accounting > Select fiscal year > Settings > Tab BWA ASSIGNMENT > Select accounting report > Select accounting report line > Button Edit*
 
-![Edit report lines](../../Assets/Screenshots/RetailSuiteAccounting/Settings/BWAAssignment/EditReportLines02.png "[Edit report lines]")
+![Edit report lines](../../Assets/Screenshots/RetailSuiteAccounting/Settings/BWAAssignment/EditReportLines.png "[Edit report lines]")
 
 
 **Edit**

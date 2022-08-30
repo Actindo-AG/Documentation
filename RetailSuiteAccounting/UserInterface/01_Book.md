@@ -1,19 +1,19 @@
-# Book
+# Post
 
-*Accounting > Select fiscal year > Book*
+*Accounting > Post*
 
-  ![Book](../../Assets/Screenshots/RetailSuiteAccounting/Book/FYMonthJournalButton.png "[Book]")
+  ![Post](../../Assets/Screenshots/RetailSuiteAccounting/Book/Bookings/Bookings.png "[Post]")
 
-The Accounting *Book* menu entry is used to manage all existing bookings and to create new ones.
+The Accounting *Post* menu entry is used to manage all existing postings and to create new ones.
 
-The *Book* User Interface is composed of the following tabs:
+The *Post* User Interface is composed of the following tabs:
 
-  - [BOOKINGS](./01a_Bookings.md)
+  - [POSTINGS](./01a_Bookings.md)
   - [BALANCES](./01b_Balances.md)
   - [ACCOUNT SHEET](./01c_AccountSheet.md)
   - [OPEN ITEMS](./01d_OpenItems.md)
   - [SEARCH](./01e_Search.md)
-  - [BOOK RECEIPTS](./01f_BookReceipts.md)
+  - [POST RECEIPTS](./01f_BookReceipts.md)
 
 
 Additionally, the following cross-tab functions are contained.
@@ -21,9 +21,9 @@ Additionally, the following cross-tab functions are contained.
 
 ## FY/MONTH/JOURNAL
 
-*Accounting > Select fiscal year > Book > Button FY/MONTH/JOURNAL*
+*Accounting > Post > Button FY/MONTH/JOURNAL*
 
-  ![Book](../../Assets/Screenshots/RetailSuiteAccounting/Book/FYMonthJournalButton.png "[Book]")
+  ![Post](../../Assets/Screenshots/RetailSuiteAccounting/Book/Bookings/Bookings.png "[Post]")
 
 Click the [FY/MONTH/JOURNAL] button to display the select fiscal year window. For detailed information, see [Fiscal year](./00a_FiscalYear.md) and [Select a fiscal year](../Operation/01_SelectFiscalYear.md).
 
@@ -31,7 +31,9 @@ New fiscal years can be created, edited or deleted. For detailed information abo
 
 ## EDIT
 
-*Accounting > Select fiscal year > Book > Context menu EDIT*
+*Accounting > Post > Context menu EDIT*
+
+![Post](../../Assets/Screenshots/RetailSuiteAccounting/Book/Bookings/Bookings.png "[Post]")
 
 Click the *EDIT* button to display the context menu.
 
@@ -48,27 +50,27 @@ Click the *EDIT* button to display the context menu.
   [comment]: <> (RS FH about function and need of procedure. How is it used by customers? FH: It can probably be deleted. It is no longer/hardly? used and will be deleted in next releases. To be confirmed!)
 
   - ![Lock](../../Assets/Icons/Lock02.png "[Lock]") *Process*  
-  Click this menu entry to process one of several bookings in a booking period. The *Process bookings* window is displayed, see [Process](#process).
+  Click this menu entry to process one of several postings in a posting period. The *Process postings* window is displayed, see [Process](#process).
 
   - ![Do not enter](../../Assets/Icons/DoNotEnter.png "[Do not enter]") *Delete*  
-  Click this menu entry to delete one or several bookings simultaneously. The *Delete bookings* window is displayed, see [Delete](#delete).
+  Click this menu entry to delete one or several postings simultaneously. The *Delete postings* window is displayed, see [Delete](#delete).
 
   - ![Lock](../../Assets/Icons/Lock02.png "[Lock]") *Lock months*  
-  Click this menu entry to lock one or several months for bookings. The *Lock months* window is displayed, see [Lock months](#lock-months).
+  Click this menu entry to lock one or several months for postings. The *Lock months* window is displayed, see [Lock months](#lock-months).
 
   - *Balance carried forward*  
   Click this menu entry to carry forward balances from the previous fiscal year. The *Balance carried forward: step 1* window is displayed, see [Balance carried forward](#balance-carried-forward).
 
   - *Foreign currency wizard*  
-  Click this menu entry to carry book automatically currency exchange differences. The *Foreign currency wizard* window is displayed, see [Foreign currency wizard](#foreign-currency-wizard).
+  Click this menu entry to post automatically currency exchange differences. The *Foreign currency wizard* window is displayed, see [Foreign currency wizard](#foreign-currency-wizard).
 
   - *Supplier receipts*  
-  Click this menu entry to book specifically supplier receipts. The *Supplier receipts* window is displayed, see [Supplier receipts](#supplier-receipts).
+  Click this menu entry to post specifically supplier receipts. The *Supplier receipts* window is displayed, see [Supplier receipts](#supplier-receipts).
 
 
 ### Cash book takeover  
 
-*Accounting > Select fiscal year > Book > Context menu EDIT > Menu entry Cash book takeover*
+*Accounting > Post > Context menu EDIT > Menu entry Cash book takeover*
 
   ![Cash book takeover](../../Assets/Screenshots/RetailSuiteAccounting/Book/CashBookTakeover.png "[Cash book takeover]")
 
@@ -79,11 +81,11 @@ This window displays all cash payments registered in the cash book, which can be
   - *Seq. no.*  
     Sequential number as registered in the cash book.
 
-  - [x] *T (Take over booking)*  
-   Select this checkbox to take over an individual booking.
+  - [x] *T (Take over posting)*  
+   Select this checkbox to take over an individual posting.
 
   - *BP*  
-    Booking period as registered in the cash book.
+    Posting period as registered in the cash book.
 
   - *Jnl*  
     Journal as registered in the cash book.
@@ -92,7 +94,7 @@ This window displays all cash payments registered in the cash book, which can be
     Turnover value as registered in the cash book. Revenues display a positive sign. Expenditures display a negative sign.
 
   - *Contra Account*  
-    Contra Account as registered in the cash booking.
+    Contra Account as registered in the cash posting.
 
   [comment]: <> (No account in cash book! What does the number stand for? As "Unbekannt!")   
 
@@ -119,21 +121,21 @@ This window displays all cash payments registered in the cash book, which can be
 
 
   - [SELECT ALL]     
-    Click this button to select all bookings.
+    Click this button to select all postings.
 
   - [SELECT NOTHING]    
-    Click this button to deselect all bookings.
+    Click this button to deselect all postings.
 
   - *Amount*  
-    Total amount of all bookings in the cash book.
+    Total amount of all postings in the cash book.
 
 
-An individual booking from the cash book can be selected and partially edited before takeover. Click the booking to be edited. Its details are displayed in the entry line.
+An individual posting from the cash book can be selected and partially edited before takeover. Click the posting to be edited. Its details are displayed in the input line.
 
 [comment]: <> (Unsure! RS FH. Add operartion file? RS FH!)
 
   - *Seq. no.*  
-   This field displays the booking sequential number and cannot be modified.  
+   This field displays the posting sequential number and cannot be modified.  
 
   - *Turnover*  
   This field displays the turnover and cannot be modified.
@@ -164,31 +166,31 @@ An individual booking from the cash book can be selected and partially edited be
   - *Text*  
   Enter the appropriate free text. The existing value can also be modified.
 
-  - [BOOK]    
-  Click this button to book the edited booking.
+  - [POST]    
+  Click this button to post the edited posting.
 
   - [DELETE]    
-  Click this button to delete the selected booking.
+  Click this button to delete the selected posting.
 
   [comment]: <> (FEHLER: löschen hier nicht möglich! -> even though takeover not yet performed? Probably because it is linked to cash book/Kassenbuch? What is the use of this button here? RS FH)
 
   - [CLEAR]    
-  Click this button to clear all entry line fields.
+  Click this button to clear all input line fields.
 
   - [SPLIT]    
-  Click this button to split the selected booking.
+  Click this button to split the selected posting.
 
   [comment]: <> (Fehlermeldungen: beim klicking auf SPLIT -> Unbekannte Bankbuchung. Wenn man versucht, eine Splitbuchung zu machen -> Meldung: Gebucht und in rot "Umsatz, GegKonto, Datum oder Konto leer! Ungültiges Datum!" Alle Felder sind aber richtig ausgefüllt, jetzt zeigen sie aber alle 0, außer Beleg 1, GegKonto und Text)
 
   - [SAVE]    
-  Click this button to take over the selected bookings.
+  Click this button to take over the selected postings.
 
 
 ### Bank data takeover  
 
 [comment]: <> (This function is supposed to be deleted in a next release. Delete from here? Still in use? for how long? Worth completing it? RS FH/HG!)
 
-*Accounting > Select fiscal year > Book > Context menu EDIT > Menu entry Bank data takeover*
+*Accounting > Post > Context menu EDIT > Menu entry Bank data takeover*
 
   ![Bank data synchronizing](../../Assets/Screenshots/RetailSuiteAccounting/Book/BankDataSynchronizing.png "[Bank data synchronizing]")
 
@@ -215,7 +217,7 @@ This screen is also available in the *Payment processing* module. Both modules a
 [comment]: <> (RS FH needed. I did not manage to import bank data.)
 
   - [SHOW REGISTERED]  
-  Click this button to display all booked payments.
+  Click this button to display all posted payments.
 
   - [SHOW HIDDEN]  
   Click this button to display all hidden payments.
@@ -297,7 +299,7 @@ The imported bank data are displayed in the following columns:
  This column displays the account assigned, if any.
 
  - *Text*  
- This column displays the booking text, if any.
+ This column displays the posting text, if any.
 
 - ![First page](../../Assets/Icons/FirstPage.png "[First page]") - ![Last page](../../Assets/Icons/LastPage.png "[Last page]") (Fist page) - (Last page)  
  ![Previous page](../../Assets/Icons/PreviousPage.png "[Previous page]") - ![Next page](../../Assets/Icons/NextPage.png "[Next page]") (Previous page) - (Next page)  
@@ -327,7 +329,7 @@ Enter a page number to go to a specific page.
 - [SELECT YELLOW]
 - [RESET SELECTION]
 
-The payments can also be processed manually. Click any payment in the list to display its values in the entry line fields.
+The payments can also be processed manually. Click any payment in the list to display its values in the input line fields.
 
 - *Seq. no.*
 
@@ -353,7 +355,7 @@ The payments can also be processed manually. Click any payment in the list to di
 - *Text*
 
 
-- [BOOK]
+- [POST]
 
 - [DELETE]
 
@@ -398,22 +400,22 @@ The payments can also be processed manually. Click any payment in the list to di
 
 ### Process
 
-*Accounting > Select fiscal year > Book > Context menu EDIT > Menu entry Process*
+*Accounting > Post > Context menu EDIT > Menu entry Process*
 
-  ![Process bookings](../../Assets/Screenshots/RetailSuiteAccounting/Book/Bookings/ProcessBookings01.png "[Process bookings]")
+  ![Process postings](../../Assets/Screenshots/RetailSuiteAccounting/Book/Bookings/ProcessBookings01.png "[Process postings]")
 
-This window allows to select one or several bookings to be processed simultaneously.
+This window allows to select one or several postings to be processed simultaneously.
 
 - *Journal from - to*  
-Click these drop-down lists to select the journals to be processed. The drop-down lists display the existing journals including the bookings (or postings) recorded in each of them.
+Click these drop-down lists to select the journals to be processed. The drop-down lists display the existing journals including the postings recorded in each of them.
 
 - *Month from - to*   
 Click these drop-down lists to select the months to be processed. The drop-down lists display all available months in the system. The following options are available:  
 
   - **0 - Balances carried forward**
-  - **1 - 12 - (months)**
-  - **13 - 15 - Subsequent bookings**
-  - **16 - 25 - Closing bookings**
+  - **1 - 12 - (calendar month)**
+  - **13 - 15 - Subsequent postings**
+  - **16 - 25 - Closing postings**
   - **99 - General month**
 
 
@@ -423,51 +425,51 @@ Click this button to cancel your selection.
 - [OK]  
 Click this button to confirm your selection.
 
-For detailed information about processing bookings, see [Process bookings](../Operation/07_ProcessBookings.md).
+For detailed information about processing postings, see [Process postings](../Operation/07_ProcessBookings.md).
 
 
 
 ### Delete
 
-*Accounting > Select fiscal year > Book > Context menu EDIT > Menu entry Delete*
+*Accounting > Post > Context menu EDIT > Menu entry Delete*
 
-  ![Delete bookings](../../Assets/Screenshots/RetailSuiteAccounting/Book/DeleteBookings.png "[Delete bookings]")
+  ![Delete postings](../../Assets/Screenshots/RetailSuiteAccounting/Book/DeleteBookings.png "[Delete postings]")
 
-  This window allows to select one or several bookings in a journal to be deleted simultaneously.
+  This window allows to select one or several postings in a journal to be deleted simultaneously.
 
   - *Journal*  
-  Click this drop-down list to select the journal containing the bookings (or postings) to be deleted. The drop-down list displays the existing journals including the bookings recorded in each of them.
+  Click this drop-down list to select the journal containing the postings to be deleted. The drop-down list displays the existing journals including the postings recorded in each of them.
 
   - *Seq. nos.*   
-  Enter the sequential numbers corresponding to the bookings to be deleted.
+  Enter the sequential numbers corresponding to the postings to be deleted.
 
   - [CANCEL]  
   Click this button to cancel your selection.
 
   - [DELETE]  
-  Click this button to delete the selected bookings.
+  Click this button to delete the selected postings.
 
-  For detailed information about processing bookings, see [Delete bookings](../Operation/06_DeleteBookings.md).
+  For detailed information about processing postings, see [Delete postings](../Operation/06_DeleteBookings.md).
 
 
 ### Lock months
 
-*Accounting > Select fiscal year > Book > Context menu EDIT > Menu entry Lock months*
+*Accounting > Post > Context menu EDIT > Menu entry Lock months*
 
   ![Lock months](../../Assets/Screenshots/RetailSuiteAccounting/Book/LockMonths.png "[Lock months]")
 
-  This window allows to select one or several months to be locked for bookings. Locked months can also be unlocked and made bookable again.
+  This window allows to select one or several months to be locked for postings. Locked months can also be unlocked and made available for postings again.
 
   - *[x] - [x] month*  
   Click this drop-down list to select the appropriate option. The following options are available:
 
    - **Locked**  
-   Select this option to lock the month for bookings.
+   Select this option to lock the month for postings.
 
-   > [Info] No further bookings will be recorded in the selected month. Any further bookings will be recorded in the next bookable month.
+   > [Info] No further postings will be recorded in the selected month. Any further postings will be recorded in the next available month.
 
    - **Bookable**  
-   Select this option to unlock a previously locked month. The selected month will be bookable again.
+   Select this option to unlock a previously locked month. The selected month will be available for postings again.
 
 
   - [CANCEL]  
@@ -476,11 +478,11 @@ For detailed information about processing bookings, see [Process bookings](../Op
   - [OK]  
   Click this button to confirm your selection.
 
-  For detailed information about processing bookings, see [Lock a period for bookings](../Operation/08_LockPeriodBookings.md).
+  For detailed information about processing postings, see [Lock a period for postings](../Operation/08_LockPeriodBookings.md).
 
 ### Balance carried forward
 
-*Accounting > Select fiscal year > Book > Context menu EDIT > Menu entry Balance carried forward*
+*Accounting > Post > Context menu EDIT > Menu entry Balance carried forward*
 
   ![Balance carried forward: step 1](../../Assets/Screenshots/RetailSuiteAccounting/Book/BalanceCarriedForward01.png "[Balance carried forward: step 1]")
 
@@ -500,10 +502,10 @@ Click the drop-down list to select the account(s) containing the balance(s) to b
  - **06: Open items creditors**
 
 
-- *Booking date*  
-Enter the booking date for the balance(s) carried forward.
+- *Posting date*  
+Enter the posting date for the balance(s) carried forward.
 
-  > [Info] By default, the system displays the first day of the new fiscal year. This can be modified simply by typing in the desired booking date.
+  > [Info] By default, the system displays the first day of the new fiscal year. This can be modified simply by typing in the desired posting date.
 
 - *Delete old balances carried forward from selected FY* [x]  
 Select this checkbox to delete the old balance(s) carried forward from the selected fiscal year.
@@ -513,7 +515,6 @@ Click this button to cancel your selection.
 
 - [CONTINUE]  
 Click this button to proceed to the *Retrieve account balances* window.
-
 
   ![Retrieve account balances](../../Assets/Screenshots/RetailSuiteAccounting/Book/RetrieveAccountBalances.png "[Retrieve account balances]")
 
@@ -526,7 +527,7 @@ The previously selected fiscal year is displayed. This field is read-only.
 The previously selected account range is displayed. These fields are read-only.
 
 - *Date*  
-The previously selected booking date is displayed. This field is read-only.
+The previously selected posting date is displayed. This field is read-only.
 
 - *Accounts*  
 The accounts containing a balance to be carried forward are displayed together with the balance amount. The balance amount can be both positive or negative.
@@ -550,11 +551,11 @@ For detailed information about creating a balance carried forward, see [Create a
 
 ### Foreign currency wizard
 
-*Accounting > Select fiscal year > Book > Context menu EDIT > Menu entry Foreign currency wizard*
+*Accounting > Post > Context menu EDIT > Menu entry Foreign currency wizard*
 
-  ![Foreign currency wizard](../../Assets/Screenshots/RetailSuiteAccounting/Book/ForeignCurrencyWizardWindow01.png "[Foreign currency wizard]")
+  ![Foreign currency wizard](../../Assets/Screenshots/RetailSuiteAccounting/Book/ForeignCurrencyWizard01.png "[Foreign currency wizard]")
 
-  The *Foreign currency wizard* window allows to search for accounts containing exchange rate differences and  book these differences automatically in special revenues and expenses accounts set up for this purpose.
+  The *Foreign currency wizard* window allows to search for accounts containing exchange rate differences and post these differences automatically in special revenues and expenses accounts set up for this purpose.
 
 - *Fiscal year*  
 Click the drop-down list to select the applicable fiscal year.
@@ -571,13 +572,13 @@ Click the drop-down list to select the applicable accounts. The following accoun
  - **Individual**  
  Select this option to enter a self-defined account number range. When selecting this option, two new fields (*from* - *to*) are displayed. Enter the applicable account number range in these fields.
 
-    ![Foreign currency wizard - Individual](../../Assets/Screenshots/RetailSuiteAccounting/Book/ForeignCurrencyWizardWindow02.png "[Foreign currency wizard - Individual]")
+    ![Foreign currency wizard - Individual](../../Assets/Screenshots/RetailSuiteAccounting/Book/ForeignCurrencyWizard02.png "[Foreign currency wizard - Individual]")
 
 
-  - *Booking date*  
-  Enter the corresponding booking date.
+  - *Posting date*  
+  Enter the corresponding posting date.
 
-  > [Info] You can type in the booking date or use the ![Calendar](../../Assets/Icons/Calendar.png "[Calendar]") (Calendar) icon.
+  > [Info] You can type in the posting date or use the ![Calendar](../../Assets/Icons/Calendar.png "[Calendar]") (Calendar) icon.
 
   - [BACK]   
   This button is greyed out, as there is no previous step.
@@ -588,18 +589,18 @@ Click the drop-down list to select the applicable accounts. The following accoun
   Click this button to proceed to the next step.
 
 
-![Foreign currency wizard - Account selection](../../Assets/Screenshots/RetailSuiteAccounting/Book/ForeignCurrencyWizardWindow03.png "[Foreign currency wizard - Account selection]")
+![Foreign currency wizard - Account selection](../../Assets/Screenshots/RetailSuiteAccounting/Book/ForeignCurrencyWizard03.png "[Foreign currency wizard - Account selection]")
 
 - *Account selection*  
-Click the drop-down list to select the account(s) containing the exchange rate difference(s) to be booked.
+Click the drop-down list to select the account(s) containing the exchange rate difference(s) to be posted.
 
 - [BACK]  
 Click this button to go back to the previous step.
 
 - [CONTINUE]  
-Click this button to book the exchange rate difference(s) in the applicable revenues or expenses accounts.
+Click this button to post the exchange rate difference(s) in the applicable revenues or expenses accounts.
 
-For detailed information about booking exchange rate fluctuations, see [Book exchange rate fluctuations](../Operation/12_BookExchangeRateFluctuations.md).
+For detailed information about posting exchange rate fluctuations, see [Book exchange rate fluctuations](../Operation/12_BookExchangeRateFluctuations.md).
 
 
 
@@ -607,7 +608,7 @@ For detailed information about booking exchange rate fluctuations, see [Book exc
 
 #### Acquire a receipt
 
-*Accounting > Select fiscal year > Book > Context menu EDIT > Menu entry Supplier receipts > Tab Acquire*
+*Accounting > Post > Context menu EDIT > Menu entry Supplier receipts > Tab Acquire*
 
   ![Acquire supplier receipts](../../Assets/Screenshots/RetailSuiteAccounting/Book/SupplierReceiptsAcquire.png "[Acquire supplier receipts]")
 
@@ -644,15 +645,15 @@ Enter an applicable reference value.
 [comment]: <> (Receipt2?)
 
 - *Date*  
-Enter the booking date. Date format must be DDMMYY. This field is compulsory.
+Enter the posting date. Date format must be DDMMYY. This field is compulsory.
 
 - *Supplier*  
 Select the appropriate supplier account. This field is compulsory.
 
   >[Info] You can type it in or select it from the drop-down list. When you start typing, a context menu is displayed.
 
-- *Booking text*  
-Enter an appropriate booking text. This field is compulsory.
+- *Posting text*  
+Enter an appropriate posting text. This field is compulsory.
 
 [comment]: <> (Posting text in the actual UI and in file Operation/10_ManageReceipts.md? Check and unify!)
 
@@ -683,17 +684,19 @@ Enter any relevant comments for potential auditors.
 Click this button to register the receipt in the system.
 
 - [SPLIT]  
-Click this button to perform a split booking, if necessary.
+Click this button to perform a split posting, if necessary.
 
 #### Overview
 
-*Accounting > Select fiscal year > Book > Context menu EDIT > Menu entry Supplier receipts > Tab Overview*
+*Accounting > Post > Context menu EDIT > Menu entry Supplier receipts > Tab Overview*
 
   ![Overview](../../Assets/Screenshots/RetailSuiteAccounting/Book/SupplierReceiptsOverview.png "[Overview]")
 
 The *Overview* tab displays all receipts that have been acquired (or preregistered) in the system via the *Acquire* tab. The acquired receipts can be searched for using the [QUICK SEARCH] button. The overview can also be filtered using the filter function.
 
   ![Search and filter functions](../../Assets/Screenshots/RetailSuiteAccounting/Book/SupplierReceiptsOverview02.png "[Search and filter functions]")
+
+[comment]: <> (Screenshot ändern bzw. löschen. Screenshots von Kontextmenüs nur oder gar nichts?)
 
 - [QUICK SEARCH]  
 Click this button to display the *QUICK SEARCH* context menu. All search criteria are selected per default through a marked checkbox. Deselect any search criteria as necessary. The following search criteria are available:
@@ -704,7 +707,7 @@ Click this button to display the *QUICK SEARCH* context menu. All search criteri
  - *Doc*  
  - *Reference1*
  - *Reference2*
- - *Booking text*
+ - *Posting text*
  - *Date*
  - *Amount*
  - *Flag*
@@ -760,8 +763,8 @@ Enter an appropriate reference value.
   - Reference2  
 Enter an appropriate reference value.
 
-  - Bookings text  
-Enter an appropriate booking text.
+  - Posting text  
+Enter an appropriate posting text.
 
   - Date  
 Click the drop-down list to select the applicable search criteria:
@@ -770,7 +773,7 @@ Click the drop-down list to select the applicable search criteria:
     - Select **before** to search for a period up to a specific date.
     - Select **after** to search for a period after a specific date.  
 
-    > [Info] You can type in the booking date or use the ![Calendar](../../Assets/Icons/Calendar.png "[Calendar]") (Calendar) icon.
+    > [Info] You can type in the posting date or use the ![Calendar](../../Assets/Icons/Calendar.png "[Calendar]") (Calendar) icon.
 
   - Payment target  
 Click the drop-down list to select the applicable payment target. The following options are available:
@@ -794,7 +797,7 @@ Click the drop-down list to select the applicable search criteria:
     - Select **before** to search for a period up to a specific date.
     - Select **after** to search for a period after a specific date.  
 
-    > [Info] You can type in the booking date or use the ![Calendar](../../Assets/Icons/Calendar.png "[Calendar]") (Calendar) icon.
+    > [Info] You can type in the posting date or use the ![Calendar](../../Assets/Icons/Calendar.png "[Calendar]") (Calendar) icon.
 
   - Date (modification)  
 Click the drop-down list to select the applicable search criteria:
@@ -803,7 +806,7 @@ Click the drop-down list to select the applicable search criteria:
     - Select **before** to search for a period up to a specific date.
     - Select **after** to search for a period after a specific date.  
 
-    > [Info] You can type in the booking date or use the ![Calendar](../../Assets/Icons/Calendar.png "[Calendar]") (Calendar) icon.
+    > [Info] You can type in the posting date or use the ![Calendar](../../Assets/Icons/Calendar.png "[Calendar]") (Calendar) icon.
 
   - Rejected  
 Click the drop-down list to select the applicable search criteria (**Yes/No**).
@@ -844,7 +847,7 @@ There are five possible statuses, all of them identified with a different color 
   - ![Rejected](../../Assets/Icons/Rejected.png "[Rejected]") Rejected
   - Completed
 
-  > [Info] This function works together with the *Purchasing* module, where the receipt is checked and released (or rejected) by the assigned supervisor. The status changes here accordingly. For detailed information about booking supplier receipts, see [Book a supplier receipt](../Operation/10_ManageREceipts.md#book-a-supplier-receipt).
+  > [Info] This function works together with the *Purchasing* module, where the receipt is checked and released (or rejected) by the assigned supervisor. The status changes here accordingly. For detailed information about posting supplier receipts, see [Book a supplier receipt](../Operation/10_ManageREceipts.md#book-a-supplier-receipt).
 
 [comment]: <> (Icons missing! To be completed.)
 
@@ -865,8 +868,8 @@ The reference 1 value is displayed, if available.
 - *Reference2*  
 The reference 2 value is displayed, if available.
 
-- *Booking text*  
-The booking text is displayed.
+- *Posting text*  
+The posting text is displayed.
 
 - *Date*  
 The date is displayed.
@@ -931,7 +934,7 @@ Enter a page number to go to a specific page.
 
 #### Financial accounting takeover
 
- *Accounting > Select fiscal year > Book > Context menu EDIT > Menu entry Supplier receipts > Tab Financial accounting takeover*
+ *Accounting > Post > Context menu EDIT > Menu entry Supplier receipts > Tab Financial accounting takeover*
 
 
   ![Financial accounting takeover](../../Assets/Screenshots/RetailSuiteAccounting/Book/SupplierReceiptsTakeover.png "[Financial accounting takeover]")
@@ -941,13 +944,13 @@ The *Financial account takeover* tab displays all receipts with **Released** sta
 - [x] (Checkbox)  
 Click the checkbox in the column header to select all receipts listed. Click the checkbox in one or more individual receipts to take over only the selected ones.
 
-When selecting a receipt, changes can still be made before takeover. For detailed information about booking supplier receipts, see [Book a supplier receipt](../Operation/10_ManageREceipts.md#book-a-supplier-receipt).
+When selecting a receipt, changes can still be made before takeover. For detailed information about posting supplier receipts, see [Book a supplier receipt](../Operation/10_ManageREceipts.md#book-a-supplier-receipt).
 
 - [SPEICHERN]  
 Click this button to save any changes made to receipt data.
 
 - [SPLIT]  
-Click this button to perform a split booking, if necessary.
+Click this button to perform a split posting, if necessary.
 
 [comment]: <> (New window. Describe? RS HG!)
 
@@ -958,7 +961,9 @@ Click this button to register the selected receipts in the system.
 
 ## EVALUATIONS
 
-*Accounting > Select fiscal year > Book > Context menu EVALUATIONS*
+*Accounting > Post > Context menu EVALUATIONS*
+
+![Post](../../Assets/Screenshots/RetailSuiteAccounting/Book/Bookings/Bookings.png "[Post]")
 
 This menu allows to create and print out different sorts of evaluation reports for analysis or overview purposes. Click the *EVALUATIONS* button to display the context menu.
 
@@ -994,7 +999,7 @@ This menu allows to create and print out different sorts of evaluation reports f
 
 ### Account balance
 
-*Accounting > Select fiscal year > Book > Context menu EVALUATIONS > Menu entry Account balance*
+*Accounting > Post > Context menu EVALUATIONS > Menu entry Account balance*
 
   ![Account balance](../../Assets/Screenshots/RetailSuiteAccounting/Book/AccountBalance.png "[Account balance]")
 
@@ -1032,12 +1037,12 @@ Click this button to create the evaluation report in a printable format.
 
 ### Account sheet
 
-*Accounting > Select fiscal year > Book > Context menu EVALUATIONS > Menu entry Account sheet*
+*Accounting > Post > Context menu EVALUATIONS > Menu entry Account sheet*
 
   ![Account sheet](../../Assets/Screenshots/RetailSuiteAccounting/Book/AccountSheet.png "[Account sheet]")
 
-- *Newly booked accounts* [x]  
-Select the checkbox to include only the newly added bookings.
+- *Accounts newly posted to* [x]  
+Select the checkbox to include only the newly added postings.
 
 - *Kennzeichen zurücksetzen* [x]  
 Select the checkbox to...
@@ -1071,7 +1076,7 @@ Click this button to create the evaluation report in a printable format.
 
 ### Journal
 
-*Accounting > Select fiscal year > Book > Context menu EVALUATIONS > Menu entry Journal*
+*Accounting > Post > Context menu EVALUATIONS > Menu entry Journal*
 
   ![Journal](../../Assets/Screenshots/RetailSuiteAccounting/Book/Journal.png "[Journal]")
 
@@ -1099,17 +1104,17 @@ Click this button to create the evaluation report in a printable format.
 
 ### Balance list
 
-*Accounting > Select fiscal year > Book > Context menu EVALUATIONS > Menu entry Balance list*
+*Accounting > Post > Context menu EVALUATIONS > Menu entry Balance list*
 
-  ![Balance list](../../Assets/Screenshots/RetailSuiteAccounting/Book/BalanceList.png "[Balance list]")
+  ![Balance list](../../Assets/Screenshots/RetailSuiteAccounting/Book/BalanceList01.png "[Balance list]")
 
 - *Month*  
 Click the drop-down list to select the month to be included. The following options are available:  
 
   - **0 - Balances carried forward**
-  - **1 - 12 - (months)**
-  - **13 - 15 - Subsequent bookings**
-  - **16 - 25 - Closing bookings**
+  - **1 - 12 - (calendar month)**
+  - **13 - 15 - Subsequent postings**
+  - **16 - 25 - Closing postings**
   - **99 - General month**
 
 
@@ -1153,9 +1158,9 @@ Click the drop-down list to select the sorting mode.  The following options are 
 
 ### Open items
 
-*Accounting > Select fiscal year > Book > Context menu EVALUATIONS > Menu entry Open items*
+*Accounting > Post > Context menu EVALUATIONS > Menu entry Open items*
 
-  ![Open items](../../Assets/Screenshots/RetailSuiteAccounting/Book/OpenItems.png "[Open items]")
+  ![Open items](../../Assets/Screenshots/RetailSuiteAccounting/Book/OpenItems01.png "[Open items]")
 
   - *Accounts*  
   Click the drop-down list to select the accounts to be displayed. The following options are available:  
@@ -1172,9 +1177,9 @@ Click the drop-down list to select the sorting mode.  The following options are 
   - *Month up to*  
   Click the drop-down list to select the month(s) to be included. The following options are available:
     - **0 - Balances carried forward**
-    - **1 - 12 - (months)**
-    - **13 - 15 - Subsequent bookings**
-    - **16 - 25 - Closing bookings**
+    - **1 - 12 - (calendar month)**
+    - **13 - 15 - Subsequent postings**
+    - **16 - 25 - Closing postings**
     - **99 - General month**
 
     > [Info] The field name *Month up to* implies that actually a month range is selected. This means that all months between month 0 and the selected drop-down list option are displayed.
@@ -1182,7 +1187,7 @@ Click the drop-down list to select the sorting mode.  The following options are 
   - *Format*  
   Click the drop-down list to select the preferred format. The following options are available:
     - **Short format**  
-    - **Short format, reduce bookings**  
+    - **Short format, reduce postings**  
     - **Detailed**
 
 
@@ -1198,7 +1203,7 @@ Click the drop-down list to select the sorting mode.  The following options are 
 
 ### BWA
 
-*Accounting > Select fiscal year > Book > Context menu EVALUATIONS > Menu entry BWA*
+*Accounting > Post > Context menu EVALUATIONS > Menu entry BWA*
 
   ![BWA](../../Assets/Screenshots/RetailSuiteAccounting/Book/BWA.png "[BWA]")
 
@@ -1216,9 +1221,9 @@ Select the checkbox to display the cost center allocation.
 Click the drop-down list to select the month range to be included. The following options are available:
 
   - **0 - Balances carried forward**
-  - **1 - 12 - (months)**
-  - **13 - 15 - Subsequent bookings**
-  - **16 - 25 - Closing bookings**
+  - **1 - 12 - (calendar month)**
+  - **13 - 15 - Subsequent postings**
+  - **16 - 25 - Closing postings**
   - **99 - General month**   
 
 
@@ -1260,7 +1265,7 @@ For detailed information about creating a BWA evaluation, see [Create a PDF eval
 
 ### ProfitCenter
 
-*Accounting > Select fiscal year > Book > Context menu EVALUATIONS > Menu entry ProfitCenter*
+*Accounting > Post > Context menu EVALUATIONS > Menu entry ProfitCenter*
 
   ![ProfitCenter](../../Assets/Screenshots/RetailSuiteAccounting/Book/ProfitCenter.png "[ProfitCenter]")
 
@@ -1268,9 +1273,9 @@ For detailed information about creating a BWA evaluation, see [Create a PDF eval
 Click the drop-down list to select the month to be included. The following options are available:  
 
   - **0 - Balances carried forward**
-  - **1 - 12 - (months)**
-  - **13 - 15 - Subsequent bookings**
-  - **16 - 25 - Closing bookings**
+  - **1 - 12 - (calendar month)**
+  - **13 - 15 - Subsequent postings**
+  - **16 - 25 - Closing postings**
   - **99 - General month**  
 
 
@@ -1313,7 +1318,7 @@ Click the drop-down list to select the preferred layout. The following options a
 
 ### Cost unit comparison
 
-*Accounting > Select fiscal year > Book > Context menu EVALUATIONS > Menu entry Cost unit comparison*
+*Accounting > Post > Context menu EVALUATIONS > Menu entry Cost unit comparison*
 
   ![Cost unit comparison](../../Assets/Screenshots/RetailSuiteAccounting/Book/CostUnitComparison.png "[Cost unit comparison]")
 
@@ -1321,9 +1326,9 @@ Click the drop-down list to select the preferred layout. The following options a
 Click the drop-down list to select the month to be included. The following options are available:  
 
   - **0 - Balances carried forward**
-  - **1 - 12 - (months)**
-  - **13 - 15 - Subsequent bookings**
-  - **16 - 25 - Closing bookings**
+  - **1 - 12 - (calendar month)**
+  - **13 - 15 - Subsequent postings**
+  - **16 - 25 - Closing postings**
   - **99 - General month**  
 
 
@@ -1358,13 +1363,13 @@ Click the drop-down list to select the BWA report type to be created. The follow
 
 
 ### Other
-*Accounting > Select fiscal year > Book > Context menu EVALUATIONS > Menu entry Other*
+*Accounting > Post > Context menu EVALUATIONS > Menu entry Other*
 
 When clicking the *Other* menu entry of the EVALUATIONS context menu, a sub-menu is displayed containing two additional entries: *Chart of accounts* and *Deb./Cred.*.
 
 #### Chart of accounts
 
-*Accounting > Select fiscal year > Book > Context menu EVALUATIONS > Menu entry Account sheet > Sub-menu entry Chart of accounts*
+*Accounting > Post > Context menu EVALUATIONS > Menu entry Account sheet > Sub-menu entry Chart of accounts*
 
   ![Chart of accounts](../../Assets/Screenshots/RetailSuiteAccounting/Book/ChartOfAccounts.png "[Chart of accounts]")
 
@@ -1378,8 +1383,8 @@ Click the drop-down list to select the sorting mode. The following options are a
   - **by name**
 
 
-- *[x] ONLY booked*  
-Select this checkbox to display only booked accounts.
+- *[x] ONLY posted to*  
+Select this checkbox to display only accounts posted to.
 
 - [CANCEL]  
   Click this button to cancel your selection.
@@ -1389,7 +1394,7 @@ Select this checkbox to display only booked accounts.
 
 #### Deb./cred.
 
-*Accounting > Select fiscal year > Book > Context menu EVALUATIONS > Menu entry Account sheet > Sub-menu entry Deb./cred.*
+*Accounting > Post > Context menu EVALUATIONS > Menu entry Account sheet > Sub-menu entry Deb./cred.*
 
   ![Debtors/Creditors](../../Assets/Screenshots/RetailSuiteAccounting/Book/DebtorsCreditors.png "[Debtors/Creditors]")
 

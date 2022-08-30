@@ -1,10 +1,10 @@
 # Import
 
-*Accounting > Select fiscal year > Extras > Tab IMPORT*
+*Accounting > Extras > Tab IMPORT*
 
 ![Import](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Import/Import.png "[Import]")
 
-> [Info] The import function is also available in the *FISCAL YEARS* tab of the *Settings* menu entry, see [Import bookings](./02d_FiscalYears.md#import-bookings).
+> [Info] The import function is also available in the *FISCAL YEARS* tab of the *Settings* menu entry, see [Import postings](./02d_FiscalYears.md#import-postings).
 
 - *Import from:*  
 A list of the available import options is displayed:
@@ -40,7 +40,7 @@ Click this button to import data in Schilling Software proprietary FQBATCH forma
 
 ## Compeso 7.X
 
-*Accounting > Select fiscal year > Extras > Tab IMPORT > Button COMPESO 7.X*
+*Accounting > Extras > Tab IMPORT > Button COMPESO 7.X*
 
 ![Import Compeso 7.X Step 1](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Import/Compeso01.png "[Import Compeso 7.X Step 1]")
 
@@ -79,7 +79,7 @@ Click this button to cancel the process.
 
 ## CSV
 
-*Accounting > Select fiscal year > Extras > Tab IMPORT > Button CSV*
+*Accounting > Extras > Tab IMPORT > Button CSV*
 
 ![Import CSV Step 1](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Import/CSV01.png "[Import CSV Step 1]")
 
@@ -109,7 +109,7 @@ Click the drop-down list to select to appropriate file content. The following op
 
   - **Customers/suppliers**	 
   - **Chart of Accounts**	  
-  - **Bookings**  
+  - **Postings**  
   - **eBay sales history**
 
 [comment]: <> (eBay sales history ist relevant für alle Kunden? Weglassen? Andere Optionen je nach Einstellungen/Module/Plugins?)
@@ -124,8 +124,8 @@ Click the drop-down list to select the appropriate import definition.
 - [Edit]  
 Click this button to edit the selected import definition. The *Import/export definitions* window is displayed, see [Import/export definitions](#importexport-definitions).
 
-- *Split bookings*  
-Click the drop-down list to select the appropriate import setting for split bookings. The following options are available:
+- *Split postings*  
+Click the drop-down list to select the appropriate import setting for split postings. The following options are available:
 
   - **With different tax rates**
   - **For more than one product**
@@ -159,14 +159,14 @@ Click this button to proceed to the next step.
 
 > [Info] Depending on the imported data, the screen displayed varies.
 
-- *Bookings*  
-The import file contains bookings to be imported. Otherwise, the message "No bookings in the import file" is displayed.
+- *Postings*  
+The import file contains postings to be imported. Otherwise, the message "No postings in the import file" is displayed.
 
-  - *Take over bookings?*  
-  Select **No** if you do not want the system to take over the bookings in the import file. The default setting is **Yes**.
+  - *Take over postings?*  
+  Select **No** if you do not want the system to take over the postings in the import file. The default setting is **Yes**.
 
   - *Overwrite existing ones?*  
-  Select **No** if you do not want the system to overwrite the existing bookings. The default setting is **Yes**.
+  Select **No** if you do not want the system to overwrite the existing postings. The default setting is **Yes**.
 
 
 - *Impersonal accounts*
@@ -219,7 +219,7 @@ Click this button to cancel the process.
 
 ## CSV LS-Motor
 
-*Accounting > Select fiscal year > Extras > Tab IMPORT > Button CSV LS-MOTOR*
+*Accounting > Extras > Tab IMPORT > Button CSV LS-MOTOR*
 
 ![Import CSV LS-Motor Step 1](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Import/CSVLSMotor01.png "[Import CSV LS-Motor Step 1]")
 
@@ -282,7 +282,7 @@ Click this button to proceed to the next step.
 
 ## GDI
 
-*Accounting > Select fiscal year > Extras > Tab IMPORT > Button GDI*
+*Accounting > Extras > Tab IMPORT > Button GDI*
 
 ![Import GDI Step 1](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Import/GDI01.png "[Import GDI Step 1]")
 
@@ -343,7 +343,7 @@ Click this button to proceed to the next step.
  - *From - to*
 
 
--  ![Radio button](../../Assets/Icons/RadioButton02.png "[Radio button]") Add bookings to FY
+-  ![Radio button](../../Assets/Icons/RadioButton02.png "[Radio button]") Add postings to FY
   - *Import into FY*
   - *From - to*
 
@@ -400,7 +400,7 @@ Click this button to cancel the process.
 
 ## openTRANS
 
-*Accounting > Select fiscal year > Extras > Tab IMPORT > Button openTRANS*
+*Accounting > Extras > Tab IMPORT > Button openTRANS*
 
 ![Import openTRANS Step 1](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Import/Opentrans01.png "[Import openTRANS Step 1]")
 
@@ -455,7 +455,7 @@ Click this button to proceed to the next step.
 
 ## Schilling Accounting
 
-*Accounting > Select fiscal year > Extras > Tab IMPORT > Button Schilling Accounting*
+*Accounting > Extras > Tab IMPORT > Button Schilling Accounting*
 
 ![Import Schilling Step 1](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Import/Schilling01.png "[Import Schilling Step 1]")
 

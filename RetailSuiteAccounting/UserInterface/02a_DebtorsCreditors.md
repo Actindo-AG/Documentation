@@ -1,6 +1,8 @@
 # Debtors/creditors
 
-*Accounting > Select fiscal year > Settings > Tab DEBTORS/CREDITORS*
+*Accounting > Settings > Tab DEBTORS/CREDITORS*
+
+![Customer/Supplier](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/CustomerSupplierList.png "[Customer/supplier]")
 
 The *Debtors/creditors* tab displays a customer/supplier list and allows to create, edit and delete customers (debtors) and supplier (creditors). For detailed information about managing customers and suppliers, see [Manage the customer/supplier](../Integration/05_ManageCustomerSupplier.md).
 
@@ -18,9 +20,9 @@ The *Debtors/creditors* tab contains in turn two tabs:
 
 ## Customer/supplier list
 
-*Accounting > Select fiscal year > Settings > Tab DEBTORS/CREDITORS > Tab Customer/supplier list*
+*Accounting > Settings > Tab DEBTORS/CREDITORS > Tab Customer/supplier list*
 
-![Customer/Supplier list](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/CustomerSupplierList02.png "[Customer/supplier list]")
+![Customer/Supplier list](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/CustomerSupplierList.png "[Customer/supplier list]")
 
 - [EXCEL]  
 Click this button to display the *EXCEL* context menu. The following options are available:  
@@ -200,7 +202,7 @@ This text displays the number of customers and suppliers currently displayed and
 
 ## Create customer/supplier
 
-*Accounting > Select fiscal year > Settings > Tab DEBTORS/CREDITORS > Tab Create customer/supplier*
+*Accounting > Settings > Tab DEBTORS/CREDITORS > Tab Create customer/supplier*
 
 ![Create a customer/supplier](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/CreateCustomerSupplier.png "[Create a customer/supplier]")
 
@@ -219,7 +221,7 @@ The *Create customer/supplier* tab contains in turn several sub-tabs to organize
 
 ### Address/contact
 
-*Accounting > Select fiscal year > Settings > Tab DEBTORS/CREDITORS > Tab Create customer/supplier > Sub-tab Address/contact*
+*Accounting > Settings > Tab DEBTORS/CREDITORS > Tab Create customer/supplier > Sub-tab Address/contact*
 
 ![Address/contact](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/CreateCustomerSupplier.png "[Address/contact]")
 
@@ -330,7 +332,7 @@ Click this button to save the newly entered customer/supplier details.
 
 ### Delivery addresses
 
-*Accounting > Select fiscal year > Settings > Tab DEBTORS/CREDITORS > Tab Create customer/supplier > Sub-tab Delivery addresses*
+*Accounting > Settings > Tab DEBTORS/CREDITORS > Tab Create customer/supplier > Sub-tab Delivery addresses*
 
 ![Delivery addresses](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/DeliveryAddresses.png "[Delivery addresses]")
 
@@ -349,7 +351,7 @@ Click this button to save any changes made.
 
 ### Invoicing
 
-*Accounting > Select fiscal year > Settings > Tab DEBTORS/CREDITORS > Tab Create customer/supplier > Sub-tab Invoicing*
+*Accounting > Settings > Tab DEBTORS/CREDITORS > Tab Create customer/supplier > Sub-tab Invoicing*
 
 ![Invoicing](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/Billing01.png "[Invoicing]")
 
@@ -420,20 +422,20 @@ Enter the customer/supplier tax number, if applicable.
 Enter the customer/supplier VAT identification number, if applicable.
 
 
-**Booking**  
+**Posting**  
 
 [comment]: <> (im System Posting)
 
 - *Standard account*  
-Enter a standard account number for the bookings.   
+Enter a standard account number for the postings.   
 
 [comment]: <> (Unsure, check!)
 
 - *Standard cost 1*  
-Enter a standard cost 1 account for the bookings.
+Enter a standard cost 1 account for the postings.
 
 - *Standard cost 2*  
-Enter a standard cost 2 account for the bookings.
+Enter a standard cost 2 account for the postings.
 
 
 **Credit card details**
@@ -479,7 +481,7 @@ Select or deselect this checkbox as necessary.
 
   > [Info] If the checkbox is activated, at least one item must be selected to release the invoice for payment.
 
-  > [Info] These two functions interact with the *Purchasing* and *Payment processing* modules, and allow to check supplier receipts before booking them in the system and to automatize payment conditions.
+  > [Info] These two functions interact with the *Purchasing* and *Payment processing* modules, and allow to check supplier receipts before posting them in the system and to automatize payment conditions.
 
 [comment]: <> (Link to Zahlungsabwicklung / Offene Posten?)
 
@@ -527,7 +529,7 @@ Enter the reference supplier number defined by the user, if any.
 
 ### Additional fields
 
-*Accounting > Select fiscal year > Settings > Tab DEBTORS/CREDITORS > Tab Create customer/supplier > Sub-tab Additional fields*
+*Accounting > Settings > Tab DEBTORS/CREDITORS > Tab Create customer/supplier > Sub-tab Additional fields*
 
 ![Additional fields](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/AdditionalFields01.png "[Additional fields]")
 
@@ -547,7 +549,7 @@ Click this button to save any changes made.
 
 ### Drop shipping
 
-*Accounting > Select fiscal year > Settings > Tab DEBTORS/CREDITORS > Tab Create customer/supplier > Sub-tab Drop shipping*
+*Accounting > Settings > Tab DEBTORS/CREDITORS > Tab Create customer/supplier > Sub-tab Drop shipping*
 
 ![Drop shipping](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/DropShipping01.png "[Drop shipping]")
 
@@ -567,7 +569,7 @@ Click this button to save any changes made.
 
 ### CRM information
 
-*Accounting > Select fiscal year > Settings > Tab DEBTORS/CREDITORS > Tab Create customer/supplier > Sub-tab CRM information*
+*Accounting > Settings > Tab DEBTORS/CREDITORS > Tab Create customer/supplier > Sub-tab CRM information*
 
 ![CRM information](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/CRMInformation01.png "[CRM information]")
 
@@ -658,7 +660,7 @@ Click the drop-down list to select the applicable template.
 
 ### Notes
 
-*Accounting > Select fiscal year > Settings > Tab DEBTORS/CREDITORS > Tab Create customer/supplier > Sub-tab Notes*
+*Accounting > Settings > Tab DEBTORS/CREDITORS > Tab Create customer/supplier > Sub-tab Notes*
 
 ![Notes](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/Notes01.png "[Notes]")
 
@@ -673,7 +675,7 @@ Click this button to save any changes made.
 
 ## Customer/supplier (number)
 
-*Accounting > Select fiscal year > Settings > Tab DEBTORS/CREDITORS > Tab Customer/supplier list > Select customer/supplier*
+*Accounting > Settings > Tab DEBTORS/CREDITORS > Tab Customer/supplier list > Select customer/supplier*
 
 ![Edit a customer/supplier](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/EditCustomerSupplier.png "[Edit a customer/supplier]")
 
@@ -684,7 +686,7 @@ The displayed sub-tabs and information vary slightly depending on whether a cust
 
 ### Address/contact
 
-*Accounting > Select fiscal year > Settings > Tab DEBTORS/CREDITORS > Tab Customer/supplier list > Select customer/supplier > Sub-tab Address/contact*
+*Accounting > Settings > Tab DEBTORS/CREDITORS > Tab Customer/supplier list > Select customer/supplier > Sub-tab Address/contact*
 
 ![Address/contact](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/EditCustomerSupplier.png "[Address/contact]")
 
@@ -794,7 +796,7 @@ Click this button to save all changes in the selected customer/supplier.
 
 ### Further addresses
 
-*Accounting > Select fiscal year > Settings > Tab DEBTORS/CREDITORS > Tab Customer/supplier list > Select customer/supplier > Sub-tab Further addresses*
+*Accounting > Settings > Tab DEBTORS/CREDITORS > Tab Customer/supplier list > Select customer/supplier > Sub-tab Further addresses*
 
 ![Further addresses](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/FurtherAddresses01.png "[Further addresses]")
 
@@ -962,7 +964,7 @@ Click this drop-down list to select the address type to be displayed in the list
 
 ### Invoicing
 
-*Accounting > Select fiscal year > Settings > Tab DEBTORS/CREDITORS > Tab Customer/supplier list > Select customer/supplier > Sub-tab Invoicing*
+*Accounting > Settings > Tab DEBTORS/CREDITORS > Tab Customer/supplier list > Select customer/supplier > Sub-tab Invoicing*
 
 ![Invoicing](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/Billing02.png "[Invoicing]")
 
@@ -1033,20 +1035,20 @@ Enter the customer/supplier tax number, if applicable.
 Enter the customer/supplier VAT identification number, if applicable.
 
 
-**Booking**  
+**Posting**  
 
 [comment]: <> (im System Posting)
 
 - *Standard account*  
-Enter a standard account number for the bookings.  
+Enter a standard account number for the postings.  
 
 [comment]: <> (Unsure, check!)
 
 - *Standard cost 1*  
-Enter a standard cost 1 account for the bookings.
+Enter a standard cost 1 account for the postings.
 
 - *Standard cost 2*  
-Enter a standard cost 2 account for the bookings.
+Enter a standard cost 2 account for the postings.
 
 
 **Credit card details**
@@ -1090,7 +1092,7 @@ Select or deselect this checkbox as necessary.
 
   > [Info] If the checkbox is activated, at least one item must be selected to release the invoice for payment.
 
-  > [Info] These two function interacts with the *Purchasing* and *Payment processing* modules, and allow to check supplier receipts before booking them in the system and to automatize payment conditions.
+  > [Info] These two function interacts with the *Purchasing* and *Payment processing* modules, and allow to check supplier receipts before posting them in the system and to automatize payment conditions.
 
 [comment]: <> (Link to Zahlungsabwicklung / Offene Posten?)
 
@@ -1137,7 +1139,7 @@ Enter a freight limit by the supplier, if necessary.
 
 ### Additional fields
 
-*Accounting > Select fiscal year > Settings > Tab DEBTORS/CREDITORS > Tab Customer/supplier list > Select customer/supplier > Sub-tab Additional fields*
+*Accounting > Settings > Tab DEBTORS/CREDITORS > Tab Customer/supplier list > Select customer/supplier > Sub-tab Additional fields*
 
 ![Additional fields](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/AdditionalFields02.png "[Additional fields]")
 
@@ -1208,7 +1210,7 @@ Click this button to clear the fields.
 
 ### Content
 
-*Accounting > Select fiscal year > Settings > Tab DEBTORS/CREDITORS > Tab Customer/supplier list > Select customer/supplier > Sub-tab Content*
+*Accounting > Settings > Tab DEBTORS/CREDITORS > Tab Customer/supplier list > Select customer/supplier > Sub-tab Content*
 
 ![Content](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/Content01.png "[Content]")
 
@@ -1384,7 +1386,7 @@ Click this button to save all changes in the selected customer/supplier.
 
 ### Stock history
 
-*Accounting > Select fiscal year > Settings > Tab DEBTORS/CREDITORS > Tab Customer/supplier list > Select customer > Sub-tab Stock history*
+*Accounting > Settings > Tab DEBTORS/CREDITORS > Tab Customer/supplier list > Select customer > Sub-tab Stock history*
 
 ![Stock history](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/StockHistory02.png "[Stock history]")
 
@@ -1428,7 +1430,7 @@ Total price of product.
 - *Date*  
 Date in which the operation has taken place.
 
-- *Booking type*  
+- *Posting type*  
 Type of operation. The following operations are available:  
 
   - *Manual posting*
@@ -1506,7 +1508,7 @@ Click this button to save all changes in the selected customer/supplier.
 
 ### Statistics
 
-*Accounting > Select fiscal year > Settings > Tab DEBTORS/CREDITORS > Tab Customer/supplier list > Select customer > Sub-tab Statistics*
+*Accounting > Settings > Tab DEBTORS/CREDITORS > Tab Customer/supplier list > Select customer > Sub-tab Statistics*
 
 > [Info] This sub-tab is only displayed when selecting a customer in the *Customer/supplier* list and more than one delivery address has been entered in the *Further addresses* tab.
 
@@ -1793,7 +1795,7 @@ Click this button to save all changes in the selected customer/supplier.
 
 ### Drop shipping
 
-*Accounting > Select fiscal year > Settings > Tab DEBTORS/CREDITORS > Tab Customer/supplier list > Select supplier > Sub-tab Drop shipping*
+*Accounting > Settings > Tab DEBTORS/CREDITORS > Tab Customer/supplier list > Select supplier > Sub-tab Drop shipping*
 
 > [Info] This sub-tab is only displayed when selecting a supplier in the *Customer/supplier* list.
 
@@ -2017,7 +2019,7 @@ Click the drop-down menu to select the appropriate option (**Yes/No**).
 
 ### CRM information
 
-*Accounting > Select fiscal year > Settings > Tab DEBTORS/CREDITORS > Tab Customer/supplier list > Select customer/supplier > Sub-tab CRM information*
+*Accounting > Settings > Tab DEBTORS/CREDITORS > Tab Customer/supplier list > Select customer/supplier > Sub-tab CRM information*
 
 ![Delivery addresses](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/CRMInformation02a.png "[Delivery addresses]")
 
@@ -2110,7 +2112,7 @@ Click the drop-down list to select the applicable template.
 
 ### Notes
 
-*Accounting > Select fiscal year > Settings > Tab DEBTORS/CREDITORS > Tab Customer/supplier list > Select customer/supplier > Sub-tab Notes*
+*Accounting > Settings > Tab DEBTORS/CREDITORS > Tab Customer/supplier list > Select customer/supplier > Sub-tab Notes*
 
 ![Notes](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/Notes02.png "[Notes]")
 
@@ -2132,9 +2134,9 @@ Click this button to save all changes in the selected customer/supplier.
 
 #### Select tax office
 
-*Accounting > Select fiscal year > Settings > Tab DEBTORS/CREDITORS > Tab Create customer/supplier > Sub-tab Invoicing > Button SUCHEN*
+*Accounting > Settings > Tab DEBTORS/CREDITORS > Tab Create customer/supplier > Sub-tab Invoicing > Button SUCHEN*
 
-*Accounting > Select fiscal year > Settings > Tab DEBTORS/CREDITORS > Tab Customer/supplier list > Select customer/supplier > Sub-tab Invoicing > Button SUCHEN*
+*Accounting > Settings > Tab DEBTORS/CREDITORS > Tab Customer/supplier list > Select customer/supplier > Sub-tab Invoicing > Button SUCHEN*
 
 ![Select tax office](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/SelectTaxOffice.png "[Select tax office]")
 
@@ -2168,7 +2170,7 @@ This column displays the tax office location.
 
 #### Edit additional fields
 
-*Accounting > Select fiscal year > Settings > Tab DEBTORS/CREDITORS > Tab Customer/supplier list > Select customer/supplier > Sub-tab Additional fields > Button EDIT ADDITIONAL FIELDS*
+*Accounting > Settings > Tab DEBTORS/CREDITORS > Tab Customer/supplier list > Select customer/supplier > Sub-tab Additional fields > Button EDIT ADDITIONAL FIELDS*
 
 ![Edit additional fields](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/EditAdditionalFieldsExcel.png "[Edit additional fields]")
 
@@ -2369,12 +2371,12 @@ Click this button to delete.
 Click this button to save any changes made.
 
 - [CLEAR]  
-Click this button to clear the entry lines.
+Click this button to clear the input lines.
 
 
 ## Loyalty cards
 
-*Accounting > Select fiscal year > Settings > Tab DEBTORS/CREDITORS > Button Back*
+*Accounting > Settings > Tab DEBTORS/CREDITORS > Button Back*
 
 ![Loyalty cards](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/LoyaltyCards.png "[Loyalty cards]")
 

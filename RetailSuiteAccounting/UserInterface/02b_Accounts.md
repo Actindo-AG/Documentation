@@ -1,8 +1,8 @@
 # Accounts
 
-*Accounting > Select fiscal year > Settings > Tab ACCOUNTS*
+*Accounting > Settings > Tab ACCOUNTS*
 
-![Accounts](../../Assets/Screenshots/RetailSuiteAccounting/Settings/Accounts/Accounts.png "[Accounts]")
+![Accounts](../../Assets/Screenshots/RetailSuiteAccounting/Settings/Accounts/CreateAccount.png "[Accounts]")
 
 - *Account class*  
 Click the drop-down list to select an account class. Depending on the Chart of accounts set up in the system, the available account  classes may vary. For detailed information about setting up the chart of accounts, see [Chart of accounts](../Integration/01_RunAccountingWizard.md#chart-of-accounts).
@@ -109,14 +109,14 @@ Click the drop-down list to select the appropriate tax type for the account. The
 [comment]: <> (Stimmt das so?)
 
 - *Tax key/auto*    
-  Click the first drop-down list to select the appropriate tax key for the account. Click the second drop-down list and select **Automatic** to book automatically the selected tax key to all bookings in the account, if desired.
+  Click the first drop-down list to select the appropriate tax key for the account. Click the second drop-down list and select **Automatic** to post automatically the selected tax key to all postings in the account, if desired.
 
 - *Special features*  
 
   - **( )Normal**  
   No special features configured for the account.
   - **(L)Locked**  
-  The account is locked and not bookable.
+  The account is locked and not available for postings.
   - **(DA)Debtor collective account**  
   All debtor's open items are registered in this account.
   - **(CA)Creditor collective account**  
@@ -138,7 +138,7 @@ Click the drop-down list to select a specific function for this account.
   - **Revenue account**  
   Income received as a result of business activities.
   - **Revenue account, only manual**  
-  Income received as a result of business activities, booked manually.
+  Income received as a result of business activities, posted manually.
   - **Debit/credit card settlement**  
   Funds being moved from the debit/credit card holder's account to the seller's account following a debit/credit card payment.  
   - **Discount debtors (granted)**  
@@ -162,7 +162,7 @@ Click the drop-down list to select the appropriate option or **not in advance VA
 [comment]: <> (Soll rausfliegen?)
 
 - *Account suggestion*  
-You can enter an account number to be displayed by default in the *Account* field of the input line in the *Bookings* tab, when the current account is selected as contra account.
+You can enter an account number to be displayed by default in the *Account* field of the input line in the *POSTINGS* tab, when the current account is selected as contra account.
 
 [comment]: <> (Stimmt das so?)
 
