@@ -61,9 +61,9 @@ You can edit a customer/supplier, for example, if certain data need to be change
 
 #### Procedure
 
-*Accounting > Settings > Tab DEBTORS/CREDITORS > Tab Customer/supplier list*
-*Accounting > Settings > Tab DEBTORS/CREDITORS > Tab Customer list*
-*Accounting > Settings > Tab DEBTORS/CREDITORS > Tab Supplier list*
+*Accounting > Settings > Tab DEBTORS/CREDITORS > Tab Customer/supplier list*  
+*Accounting > Settings > Tab DEBTORS/CREDITORS > Tab Customer list*  
+*Accounting > Settings > Tab DEBTORS/CREDITORS > Tab Supplier list*  
 
 ![Edit a customer/supplier](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/EditCustomerSupplier.png "[Edit a customer/supplier]")
 
