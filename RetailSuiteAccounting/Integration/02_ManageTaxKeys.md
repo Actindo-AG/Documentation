@@ -1,4 +1,4 @@
-[!!Fakturierung](RetailSuiteFaktBase)  
+[!!Order management](RetailSuiteFaktBase)  
 [!!Taxes](Taxes)  
 [!!User Interface Tax keys](../UserInterface/02c_TaxKeys.md)  
 
