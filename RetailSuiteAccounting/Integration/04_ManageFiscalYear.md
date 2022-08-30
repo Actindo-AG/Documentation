@@ -1,4 +1,4 @@
-[!!Fakturierung](RetailSuiteFaktBase)  
+[!!Order management](RetailSuiteFaktBase)  
 [!!User Interface Select fiscal year](../UserInterface/00a_FiscalYear.md)  
 [!!User Interface Settings fiscal years](../UserInterface/02d_FiscalYears.md)  
 [!!Select fiscal year](../Operation/01_SelectFiscalYear.md)  

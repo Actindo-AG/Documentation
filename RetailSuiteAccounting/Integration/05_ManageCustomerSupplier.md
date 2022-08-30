@@ -1,4 +1,4 @@
-[!!Fakturierung](RetailSuiteFaktBase)  
+[!!Order management](RetailSuiteFaktBase)  
 [!!User Interface Debtors/creditors](../UserInterface/02a_DebtorsCreditors.md)  
 
 # Manage the customer/supplier
