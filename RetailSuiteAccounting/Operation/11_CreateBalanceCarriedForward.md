@@ -8,7 +8,7 @@ At the turn of the fiscal year, any outstanding balances must be carried forward
 
 By using the balance carry forward, outstanding account balances and open items can be transferred from one fiscal year to the next. This is possible for both personal accounts (debtors and creditors) and impersonal accounts (for example bank or tax accounts).
 
-Special journals are preconfigured in the system to carry balances and open items forward. For example, journal 98 contains all balances carried forward for debtors open items. These settings can be completely customized. For detailed information, see [User Interface Settings Balance carried forward](../UserInterface/02h_BalanceCarriedForward.md).
+Special journals are preconfigured in the system to carry balances and open items forward. For example, journal 98 contains all balances carried forward for debtors open items, and 99 the balances carried forward for creditors open items. These settings can be completely customized. For detailed information, see [User Interface Settings Balance carried forward](../UserInterface/02h_BalanceCarriedForward.md).
 
 #### Prerequisites
 
@@ -30,7 +30,9 @@ A context menu is displayed.
 2. Click the *Balance carried forward...* menu entry in the context menu.     
   The *Balance carried forward: step 1* window is displayed.
 
-  ![Balance carried forward: step 1](../../Assets/Screenshots/RetailSuiteAccounting/Book/BalanceCarriedForward01.png "[Balance carried forward: step 1]")
+  ![Balance carried forward: step 1](../../Assets/Screenshots/RetailSuiteAccounting/Book/BalanceCarriedForward01.png "[Balance carried forward: step 1]")  
+
+  [comment]: <> (The *Cost accounting* field is displayed only when cost centers and/or cost units have been created in the fiscal year from which the balance is carried forward.)
 
 3. Click the *Carry forward from FY* drop-down list and select the appropriate fiscal year. All available fiscal years prior to the currently selected fiscal year are displayed in the list.
 
@@ -38,11 +40,11 @@ A context menu is displayed.
 
 5. If necessary, change the posting date in the *Posting date* field. By default, the first day of the new fiscal year is preselected.
 
-6. If necessary, select the appropriate option(s) in the *Cost accounting* field.
+6. Select the appropriate option(s) in the *Cost accounting* field if you also want to carry forward cost centers, cost units or inactive cost centers/units.
 
 7. Select the *Delete old balances carried forward from selected FY* checkbox if necessary.
 
-[comment]: <> (Was genau passiert dann? Wird empfohlen, das zu machen? Oder könnte das Probleme geben, weil Daten gelöscht werden? Weitere Info notwendig.)
+[comment]: <> (Was genau passiert dann? Wird empfohlen, das zu machen? Oder könnte das Probleme geben, weil Daten gelöscht werden? Weitere Info notwendig. -> Unsicher, ob es überhaupt funktioniert.)
 
 8. Click the [CONTINUE] button.  
 The *Retrieve account balances* window is displayed.
@@ -57,7 +59,9 @@ The *Retrieve account balances* window is displayed.
 10. Click the [CONTINUE] button.  
 The *Carry balances forward* window is displayed. The pop-up window *Balance carried forward completed* is displayed. The selected balances have been carried forward.
 
-  ![Balance carried forward completed](../../Assets/Screenshots/RetailSuiteAccounting/Book/BalanceCarriedForwardCompleted.png "[Balance carried forward completed]")
+  ![Balance carried forward completed](../../Assets/Screenshots/RetailSuiteAccounting/Book/BalanceCarriedForwardCompleted02.png "[Balance carried forward completed]")
+
+  [comment]: <> (Wenn keine Kostenrechnung vorgetragen, pop-window zeigt nur Saldovortrag durchgeführt an. S. Screenshot BalanceCarriedForwardCompleted01. Welches verwenden?)
 
 11. Click the [CLOSE] button.  
 The *Carry balances forward* window is closed.
