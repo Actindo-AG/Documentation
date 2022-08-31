@@ -68,7 +68,7 @@ The *Export: DATEV CSV: Step 1* window is displayed.
     - **No**  
     Select this option if you do not want to export the personal accounts.  
 
-    > [Info] When selecting the **Custom** option, the *Custom* field to enter a custom account number or account number range.
+    > [Info] When selecting the **Custom** option, the *Custom* field to enter a custom account number or account number range is displayed.
 
 
 7. Click the *Export only posting-relevant master data records* drop-down list and select the appropriate option. The following options are available:
@@ -97,7 +97,7 @@ The *Export: DATEV CSV: Step 1* window is displayed.
 
 10. If necessary, click the *Saved personal account length* drop-down list and select the appropriate option. By default, the personal account length preconfigured in the system is preselected.
 
-  > [Info) It is important to select the appropriate length to make sure that the personal account numbers are exported in full length.
+  > [Info] It is important to select the appropriate length to make sure that the personal account numbers are exported in full length.
 
 11. If necessary, enter the corresponding numbers in the *DATEV advisor number* and *DATEV client number* fields.
 
@@ -110,10 +110,10 @@ The export has been started. The *Export: DATEV CSV: Step 2* window is displayed
 13. Click the [OK] button in the confirmation window.  
   The confirmation window is closed. The *Export: DATEV CSV: Step 3* window is displayed. The exported file(s) are displayed as a zip file.
 
+  ![Export Datev CSV: Step 3](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Export/DatevCVS03.png "[Export Datev CSV: Step 3]")
+
 14. Click the zip file.  
 The zip file has been downloaded.
-
-  ![Export Datev CSV: Step 3](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Export/DatevCVS03.png "[Export Datev CSV: Step 3]")
 
   > [Info] By default, the downloaded export file is saved in the *Downloads* folder of your device.
 
@@ -159,7 +159,7 @@ The *Export: GDPdU Export: Step 1* window is displayed.
 
 6. If necessary, click the *Saved personal account length* drop-down list and select the appropriate option. By default, the personal account length preconfigured in the system is preselected.
 
-  > [Info) It is important to select the appropriate length to make sure that the personal account numbers are exported in full length.
+  > [Info] It is important to select the appropriate length to make sure that the personal account numbers are exported in full length.
 
 7. If necessary, enter the corresponding numbers in the *DATEV advisor number* and *DATEV client number* fields.
 

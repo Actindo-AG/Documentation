@@ -36,7 +36,7 @@ The balance for the selected account is displayed on the right side of the works
 
   ![Balances](../../Assets/Screenshots/RetailSuiteAccounting/Book/Balances/Balances.png "[Balances]")
 
-3. If desired, select the *All months* radio button to display the balances for the entire fiscal year. By default, the *Only this month* radio button is preselected and the balances for the currently selected posting period (month) are displayed.
+3. If desired, select the *All months* radio button to display the balances for the entire fiscal year. By default, the *Only this month* radio button is preselected and the balances for the currently selected posting period are displayed.
 
 [comment]: <> (Posting period -BP- = Journal oder Monat? Journal und Monat sind nicht deutlich auseinander getrennt. Unsicher! RS mit FH notwendig.)
 
@@ -66,4 +66,4 @@ A chronologically ordered list of all postings in the selected account is displa
 
   ![Account sheet](../../Assets/Screenshots/RetailSuiteAccounting/Book/AccountSheet/AccountSheet.png "[Account sheet]")
 
-2. If desired, select the *All months* radio button to display the balances for the entire fiscal year. By default, the *Only this month* radio button is preselected and the balances for the current posting period (journal) are displayed.
+2. If desired, select the *All months* radio button to display the balances for the entire fiscal year. By default, the *Only this month* radio button is preselected and the balances for the current posting period are displayed.

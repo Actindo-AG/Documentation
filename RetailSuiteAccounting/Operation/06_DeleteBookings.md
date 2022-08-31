@@ -55,7 +55,7 @@ Delete several postings simultaneously from the postings list.
 
 ![Postings](../../Assets/Screenshots/RetailSuiteAccounting/Book/Bookings/Bookings.png "[Postings]")
 
-1. Click the [EDIT] button in the header above the postings list.
+1. Click the [EDIT] button in the header above the postings list.  
 A context menu is displayed.
 
   ![Edit](../../Assets/Screenshots/RetailSuiteAccounting/Book/Edit.png "[Edit]")

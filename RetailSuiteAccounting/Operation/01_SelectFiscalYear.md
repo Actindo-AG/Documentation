@@ -31,13 +31,12 @@ When you open the *Accounting* module for the first time after login or after re
 
   ![Journals](../../Assets/Screenshots/RetailSuiteAccounting/Journals.png "[Journals]")
 
-  > [Info] The journal is an superordinate criterion to arrange the postings. Journals 1-12 are paired with the corresponding calendar months, regardless of whether the fiscal year coincides with the calendar year or not. Therefore, it is highly recommended to select the first month of the fiscal year with journal 1, the second month of the fiscal year with journal 2, and so on. Journals 90 to 99 are special journals preconfigured in the system to post automatically open items and balances to be carried forward from the previous fiscal year to the next. The preconfigured journals settings can be edited and extended in the *Balances carried forward* tab in the *Settings* menu entry. For detailed information, see [Balance carried forward](../UserInterface/02h_BalanceCarriedForward.md). Further journals can be created if necessary.
+  > [Info] The journal is an superordinate criterion to arrange the postings. Journals 1-12 are paired with the corresponding calendar months, regardless of whether the fiscal year coincides with the calendar year or not. Therefore, it is highly recommended to select the first month of the fiscal year with journal 1, the second month of the fiscal year with journal 2, and so on. Journals 90 to 99 are special journals preconfigured in the system to post automatically open items and balances to be carried forward from the previous fiscal year to the next. The preconfigured journals settings can be edited and extended in the *BALANCES CARRIED FORWARD* tab in the *Settings* menu entry. For detailed information, see [Balance carried forward](../UserInterface/02h_BalanceCarriedForward.md). Further journals can be created if necessary.
 
 
 4. If required, select first the *Include fixed postings* checkbox and then a batch from the displayed list.
 
-  > [Info] If the *Include fixed postings* checkbox is selected, all fixed postings in the selected batch will be automatically posted when opening the selected period in the fiscal year.   
-  For detailed information about creating fixed postings, see [Create fixed postings](../Integration/06_ManageFixedBookings.md#create-fixed-postings).
+  > [Info] If the *Include fixed postings* checkbox is selected, all fixed postings in the selected batch will be automatically posted when opening the selected period in the fiscal year. For detailed information about creating fixed postings, see [Create fixed postings](../Integration/06_ManageFixedBookings.md#create-fixed-postings).
 
 5. Click the [OK] button in the bottom right corner.   
   The postings registered in the selected posting period (fiscal year, month and journal) are displayed in the *POSTINGS* tab in the *Post* menu entry.  

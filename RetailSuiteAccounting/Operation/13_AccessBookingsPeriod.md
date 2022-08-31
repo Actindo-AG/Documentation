@@ -47,14 +47,14 @@ The *Period* date fields are filled in automatically.
 
 3. Click the *Month* drop-down list and select a month. The selected month determines the posting period, this means, the period where the transaction is posted.
 
-  > [Info] Apart from the calendar months, special posting periods can also be chosen to post balances carried forward, subsequent postings or closing postings. For detailed information, see [Select fiscal year](../UserInterface/00a_FiscalYear.md).
+  > [Info] Apart from the calendar months, special posting periods can also be selected to post balances carried forward, subsequent postings or closing postings. For detailed information, see [Select fiscal year](../UserInterface/00a_FiscalYear.md).
 
 4. Enter a journal number in the *Journal* field. Alternatively, click the [LIST] button.  
 The *Journals* window is displayed with the available journals and their postings.
 
   ![Journals](../../Assets/Screenshots/RetailSuiteAccounting/Journals.png "[Journals]")
 
-  > [Info] Journals 1-12 are paired with the corresponding calendar months, regardless of whether the fiscal year coincides with the calendar year or not. Therefore, it is highly recommended to select the first month of the fiscal year with journal 1, the second month of the fiscal year with journal 2, and so on. Journals 90 to 99 are special journals preconfigured in the system to post automatically open items and balances to be carried forward from the previous fiscal year to the next. For detailed information, see [Balance carried forward](../UserInterface/02h_BalanceCarriedForward.md).
+  > [Info] Journals 1 to 12 are paired with the corresponding calendar months, regardless of whether the fiscal year coincides with the calendar year or not. Therefore, it is highly recommended to select the first month of the fiscal year with journal 1, the second month of the fiscal year with journal 2, and so on. Journals 90 to 99 are special journals preconfigured in the system to post automatically open items and balances to be carried forward from the previous fiscal year to the next. For detailed information, see [Balance carried forward](../UserInterface/02h_BalanceCarriedForward.md).
 
 [comment]: <> (Alter Text: Journals 1-12 are matched with the corresponding months, irrespectively of whether or not the fiscal year coincides with the calendar year. Make sure that the month and the journal selected match before clicking the [OK] button.)
 

@@ -52,7 +52,7 @@ A fiscal year has been selected, see [Select fiscal year](./01_SelectFiscalYear.
 
 ![All open items](../../Assets/Screenshots/RetailSuiteAccounting/Book/OpenItems/AllOpenItems.png "[All open items]")
 
-1. Enter a personal account number in the *Contra account* or in the *Account* field. Alternatively, select a posting in the *POSTINGS* tab.
+1. Enter a personal account number in the *Contra account* or in the *Account* field. Alternatively, select a posting in the *POSTINGS* tab.  
 All open items of the corresponding account are displayed.  
 
   ![Open items for an account](../../Assets/Screenshots/RetailSuiteAccounting/Book/OpenItems/OpenItemsAccount.png "[Open items for an account]")
@@ -80,7 +80,7 @@ You can clear open items manually in a selected account.
 ![Open items for an account](../../Assets/Screenshots/RetailSuiteAccounting/Book/OpenItems/OpenItemsAccount.png "[Open items for an account]")
 
 1. Select the checkbox of the corresponding postings to be cleared in the *M* column.
-The total amount of the postings is displayed in the upper right corner of the workspace. The total amount of the posting must equal **0,00**.
+The total amount of the postings is displayed in the upper right corner of the workspace. The total amount of the postings must equal **0,00**.
 
   ![Clear manually](../../Assets/Screenshots/RetailSuiteAccounting/Book/OpenItems/ClearManually.png "[Clear manually]")
 
@@ -97,7 +97,7 @@ All manually cleared postings for the selected account are displayed.
 4. Select the checkbox of the cleared postings to be reversed in the *M* column.
 The total amount of the postings is displayed in the upper right corner of the workspace.
 
-  > [Info] The total amount of the postings must equal **0,00 H** to be reversed.
+  > [Info] The total amount of the postings must equal **0,00** to be reversed.
 
 5. Click the [UNDO CLEARING] button to reverse the clearing.  
 The manual clearing for the selected postings has been undone. The corresponding postings are removed from the manually cleared open items list.

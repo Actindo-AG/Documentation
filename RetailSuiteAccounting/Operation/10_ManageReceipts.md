@@ -90,7 +90,7 @@ External receipts uploaded in the system and not yet registered can be assigned 
 
   > [Info] All unassigned documents uploaded in the *New documents* folder in the *Documents* module are displayed in the *POST RECEIPTS* tab. If there are no unassigned documents, the notice *No documents left to be registered* is displayed in the *POST RECEIPTS* tab.
 
-1. Select the document to be assigned. You can scroll through the available documents with the ![Previous](../../Assets/Icons/Previous.png "[Previous]") and ![Next](../../Assets/Icons/Next.png "[Next]") arrows to the left and right of *Document*.
+1. Select the document to be assigned. You can scroll through the available documents using the arrows to the left and right of ![Previous](../../Assets/Icons/Previous.png "[Previous]") *Document* ![Next](../../Assets/Icons/Next.png "[Next]").
 
 2. In the input line under the document, click the *Currency code* drop-down list and select the appropriate currency for the posting. All currencies configured in the system are displayed in the list. By default, the base currency is preselected.
 
@@ -159,11 +159,11 @@ A context menu is displayed.
 
   > [Info] If there are no receipts to be booked, the notice *No documents left to be registered* is displayed.
 
-3. Select the document to be assigned. You can scroll through the available documents with the ![Previous](../../Assets/Icons/Previous.png "[Previous]") and ![Next](../../Assets/Icons/Next.png "[Next]") arrows to the left and right of *Document*.
+3. Select the document to be assigned. You can scroll through the available documents using the arrows to the left and right of ![Previous](../../Assets/Icons/Previous.png "[Previous]") *Document* ![Next](../../Assets/Icons/Next.png "[Next]").
 
 4. In the input line under the document, enter the posting amount in the *Turnover* field. This field is mandatory.
 
-  > [Info] The currency exchange rate can also be adjusted if needed in the *Exchange rate* field. The fields *Turnover*, *Contra account*, *Date*, *Account* and *Posting text* must be filled to create a manual posting.
+  > [Info] The currency exchange rate can also be adjusted, if needed, in the *Exchange rate* field. The fields *Turnover*, *Contra account*, *Date*, *Account* and *Posting text* must be filled to create a manual posting.
 
 5. Enter an account number or an account description in the *Contra account* field.
 
@@ -188,7 +188,7 @@ A pop-up window is displayed while the changes are being saved. The supplier rec
 
   ![Overview](../../Assets/Screenshots/RetailSuiteAccounting/Book/SupplierReceiptsOverview.png "[Overview]")
 
-  > [Info] To enter the supplier receipt in the system, they need to be released in the *Purchasing* module first. Once they have been released in the *Purchasing* module, the status changes from **New** (red) to **Released** (yellow-green) in the *Status* column. To release a supplier receipt, on the other hand, the supervisor must be set to the person responsible for the receipt release in the *CRM information* tab in the suppliers' configuration.
+  > [Info] To enter the supplier receipt in the system, they need to be released in the *Purchasing* module first. Once they have been released in the *Purchasing* module, the status changes from **New** (red) to **Released** (yellow-green) in the *Status* column. To release a supplier receipt, on the other hand, the supervisor must be set to the person responsible for the receipt release in the *CRM information* tab in the suppliers' configuration, see [CRM information](../UserInterface/02a_DebtorsCreditors.md#crm-information-2).
 
 [comment]: <> (Link zu Einkauf hinzufügen, wenn verfügbar!)
 

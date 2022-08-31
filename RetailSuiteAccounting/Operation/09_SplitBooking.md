@@ -5,9 +5,7 @@
 
 In some occasions, it may be necessary to split a posting to keep track of different items separately, for example if an invoice includes products with different tax rates or if total costs must be divided into two or more cost centres. Split postings can affect both debit and credit accounts, that is, incoming and outgoing invoices.
 
-The split posting must be performed during the manual posting process. For detailed information about creating a manual posting, see [Create a manual posting] (./04_CreateManualBooking.md).  
-
-If an invoice is nevertheless split after the posting has been automatically registered or manually created due to a business transaction, a copy of the main posting with the new contra accounts is created.
+The split posting must be performed during the manual posting process. For detailed information about creating a manual posting, see [Create a manual posting](./04_CreateManualBooking.md). If an invoice is nevertheless split after the posting has been automatically registered or manually created due to a business transaction, a copy of the main posting with the new contra accounts is created.
 
 Once the splitting has been performed, the different split (partial) postings are assigned to the corresponding accounts. The split postings are displayed in the postings list below the main posting.
 

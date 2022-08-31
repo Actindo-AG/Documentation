@@ -4,7 +4,8 @@
 
 # Lock a period for postings
 
-Once the postings in a particular posting period are processed, they cannot be changed or deleted anymore, and the corresponding postings period is regarded as closed. However, new postings can be entered in a closed posting period, if necessary. To avoid subsequent postings to an already closed posting period, you can lock certain posting periods.   
+Once the postings in a particular posting period are processed, they cannot be changed or deleted anymore, and the corresponding postings period is regarded as closed. However, new postings can be entered in a closed posting period if necessary. To avoid subsequent postings to an already closed posting period, you can lock periods for postings.   
+
 When a posting period is locked, any subsequent transaction will be automatically posted in the next unlocked posting period.    
 In contrast to posting processing, locking a posting period can be undone if necessary.
 
