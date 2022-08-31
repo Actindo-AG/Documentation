@@ -31,15 +31,9 @@ A context menu is displayed.
 
   ![Process postings](../../Assets/Screenshots/RetailSuiteAccounting/Book/ProcessBookings.png "[Process postings]")
 
-3. Click the *Journal from* and the *Journal to* drop-down lists and select the journals where the postings to be processed are recorded.
+3. Click the *Journal from* and the *Journal to* drop-down lists and select the journals where the postings to be processed are recorded. If you want to process only the postings from a single journal, select the same journal in both drop-down lists.
 
-  > [Info] If you want to process only the postings from a single journal, select the same journal in both drop-down lists.
-
-
-4. Click the *Month from* and the *Month to* drop-down lists and select the months where the postings to be processed are recorded.
-
-  > [Info] If you want to process only the postings from a single month, select the same month in both drop-down lists.
-
+4. Click the *Month from* and the *Month to* drop-down lists and select the months where the postings to be processed are recorded. If you want to process only the postings from a single month, select the same month in both drop-down lists.
 
   > [Info] Be aware that, once the postings have been processed, they cannot be changed or deleted anymore.
 

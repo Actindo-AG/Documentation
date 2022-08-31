@@ -23,18 +23,15 @@ When you open the *Accounting* module for the first time after login or after re
 1. Click the *Fiscal year* drop-down list and select a fiscal year.   
   The *Period* date fields are filled in automatically.
 
-2. Click the *Month* drop-down list and select a month. The selected month determines the posting period, this means, the period where the transaction is posted. Choosing the correct month is extremely relevant to generate the system evaluations.
+2. Click the *Month* drop-down list and select a month. The selected month determines the posting period, this means, the period where the transaction is posted. Selecting the correct month is very important to generate the system evaluations.
 
   > [Info] Apart from the calendar months, special posting periods can also be chosen to post balances carried forward, subsequent postings or closing postings. For detailed information, see [Select fiscal year](../UserInterface/00a_FiscalYear.md).
-
-[comment]: <> (Check month vs. journal)
 
 3. Enter a journal number in the *Journal* field. Alternatively, click the [LIST] button. The *Journals* window is displayed with the available journals and their postings. The journals are particularly relevant for the data exports.
 
   ![Journals](../../Assets/Screenshots/RetailSuiteAccounting/Journals.png "[Journals]")
 
-  > [Info] The journal is an superordinate criterion to arrange the postings. Journals 1-12 are paired with the corresponding calendar months, regardless of whether the fiscal year coincides with the calendar year or not. Therefore, it is highly recommended to select the first month of the fiscal year with journal 1, the second month of the fiscal year with journal 2, and so on.  
-  Journals 90 to 99 are special journals configured in the accounting settings for balances carried forward. For detailed information, see [Balance carried forward](../UserInterface/02h_BalanceCarriedForward.md).
+  > [Info] The journal is an superordinate criterion to arrange the postings. Journals 1-12 are paired with the corresponding calendar months, regardless of whether the fiscal year coincides with the calendar year or not. Therefore, it is highly recommended to select the first month of the fiscal year with journal 1, the second month of the fiscal year with journal 2, and so on. Journals 90 to 99 are special journals preconfigured in the system to post automatically open items and balances to be carried forward from the previous fiscal year to the next. The preconfigured journals settings can be edited and extended in the *Balances carried forward* tab in the *Settings* menu entry. For detailed information, see [Balance carried forward](../UserInterface/02h_BalanceCarriedForward.md). Further journals can be created if necessary.
 
 
 4. If required, select first the *Include fixed postings* checkbox and then a batch from the displayed list.

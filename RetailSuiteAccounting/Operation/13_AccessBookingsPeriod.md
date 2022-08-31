@@ -10,13 +10,19 @@
 
 A fiscal year is the period over which a company's accounts are calculated, which generally lasts 12 months and which may or may not coincide with the calendar year.
 
-Journal and months are used to arrange a company's business transactions within a fiscal year. A particular posting period will only contain the postings recorded in that specific period. Accessing postings from other periods may be necessary, for example, if a posting from a previous posting period needs to be adjusted or if a transaction performed at a later stage must be manually booked in a specific period.
+Journal and months are used to arrange a company's business transactions within a fiscal year. A particular posting period will only contain the postings recorded in that specific period. Accessing postings from other periods may be necessary, for example, if a posting from a previous posting period needs to be adjusted or if a transaction performed at a later stage must be manually posted in a specific period.
+
+[comment]: <> (Eher: A particular journal will only contain the postings recorded in that journal. Verwendung von Posting period ist schwierig, denn Spalte BP -Buchungsperiode- zeigt meinstens den Monat an und nicht das Journal.)
 
 A journal is a chronological record of all accounting transactions within a specified period of time. There are two main types of journals preconfigured in the system:
 
-  - General journals (1-12) are matched with the fiscal year months, regardless of whether the fiscal year coincides with the calendar year or not. That means, the first fiscal year month corresponds to journal 1, the second to journal 2 and so on.
+  - General journals (1-12) are paired with the fiscal year months, regardless of whether the fiscal year coincides with the calendar year or not. Therefore, it is highly recommended to select the first month of the fiscal year with journal 1, the second month of the fiscal year with journal 2, and so on.
 
-  - Special journals (90-99) are specialized lists of transactions records preconfigured in the system for the balances carried forward. Further journals can be created.
+[comment]: <> (Eher: It is recommended to post transactions carried out in January in Journal 01, in February in Journal 02, ans so on.)
+
+[comment]: <> (That means, the first fiscal year month corresponds to journal 1, the second to journal 2 and so on. Ich denke, das stimmt so nicht)
+
+  - Special journals (90-99) are preconfigured in the system to post automatically open items and balances to be carried forward from the previous fiscal year to the next.
 
 Special months are also preconfigured in the system for special business transactions, such as balances carried forward or subsequent postings.
 
@@ -48,14 +54,12 @@ The *Journals* window is displayed with the available journals and their posting
 
   ![Journals](../../Assets/Screenshots/RetailSuiteAccounting/Journals.png "[Journals]")
 
-  > [Info] Journals 1-12 are paired with the corresponding calendar months, regardless of whether the fiscal year coincides with the calendar year or not. Therefore, it is highly recommended to select the first month of the fiscal year with journal 1, the second month of the fiscal year with journal 2, and so on. Journals 90 to 99 are special journals configured in the accounting settings for balances carried forward. For detailed information, see [Balance carried forward](../UserInterface/02h_BalanceCarriedForward.md).
-
-[comment]: <> (Journals 1-12 are assigned to the corresponding months, regardless of whether the fiscal year coincides with the calendar year or not. This means that all postings registered in the first month of the fiscal year will be found in the journal 1, all postings registered in the second month of the fiscal year in the journal 2, and so on. - Ich denke, das stimmt so nicht - Prüfen!)
+  > [Info] Journals 1-12 are paired with the corresponding calendar months, regardless of whether the fiscal year coincides with the calendar year or not. Therefore, it is highly recommended to select the first month of the fiscal year with journal 1, the second month of the fiscal year with journal 2, and so on. Journals 90 to 99 are special journals preconfigured in the system to post automatically open items and balances to be carried forward from the previous fiscal year to the next. For detailed information, see [Balance carried forward](../UserInterface/02h_BalanceCarriedForward.md).
 
 [comment]: <> (Alter Text: Journals 1-12 are matched with the corresponding months, irrespectively of whether or not the fiscal year coincides with the calendar year. Make sure that the month and the journal selected match before clicking the [OK] button.)
 
-[comment]: <> (Macht es hier Sinn, die Fixed bookings checkbox hinzuzufügen. Ich denke nicht.)
+[comment]: <> (Macht es hier Sinn, die Fixed bookings checkbox hinzuzufügen? Ich denke nicht.)
 
 
-6. Click the [OK] button in the bottom right corner.   
+5. Click the [OK] button in the bottom right corner.   
   The postings registered in the selected posting period (fiscal year, month and journal) are displayed in the *POSTINGS* tab in the *Post* menu entry.  

@@ -7,9 +7,9 @@
 
 Even though transactions are usually posted automatically through the automated functions across the different modules, you can also record postings manually. In some cases, it is necessary to record transactions manually when a transaction has been performed but not yet recorded, for example a cash payment or an issued invoice.
 
- > [Info] It is essential to select the correct posting period, that is, the correct fiscal year, month and journal, before making a manual posting. For detailed information, see [Select fiscal year](./01_SelectFiscalYear).
+ > [Info] It is essential to select the correct accounting period, that is, the correct fiscal year, month and journal, before making a manual posting. For detailed information, see [Select fiscal year](./01_SelectFiscalYear).
 
-[comment]: <> (Ist posting period nicht nur der ausgewählte Monat? Ja, Spaltenname BP zeigt das Monat an, aber im SelectFiscalYear-Fenster musst man alle 3 Kriterien -FY, Monat und Journal- auswählen, damit man eine Periode angezeigt bekommt. Ich meine, Unterschied zwischen Journal und Monat ist trotzdem nicht ganz deutlich...)
+[comment]: <> (Ist posting period nicht nur der ausgewählte Monat? Ja, Spaltenname BP zeigt den Monat an, aber im SelectFiscalYear-Fenster musst man alle 3 Kriterien -FY, Monat und Journal- auswählen, damit man eine konkrete Periode angezeigt bekommt. Einen Monat auszuwählen ohne Journal bringt nichts: es werden alle Buchungen des Jahres angezeigt und BP zeigt das jeweilige Journal. Immer noch nicht deutlich für mich. RS mit FH evtl. notwendig.)
 
 #### Prerequisites
 
