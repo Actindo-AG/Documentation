@@ -9,7 +9,7 @@ Even though transactions are usually posted automatically through the automated 
 
  > [Info] It is essential to select the correct accounting period, that is, the correct fiscal year, month and journal, before making a manual posting. For detailed information, see [Select fiscal year](./01_SelectFiscalYear).
 
-[comment]: <> (Ist posting period nicht nur der ausgewählte Monat? Ja, Spaltenname BP zeigt den Monat an, aber im SelectFiscalYear-Fenster musst man alle 3 Kriterien -FY, Monat und Journal- auswählen, damit man eine konkrete Periode angezeigt bekommt. Einen Monat auszuwählen ohne Journal bringt nichts: es werden alle Buchungen des Jahres angezeigt und BP zeigt das jeweilige Journal. Immer noch nicht deutlich für mich. RS mit FH evtl. notwendig.)
+[comment]: <> (Ist posting period nicht nur der ausgewählte Monat? Ja, Spaltenname BP zeigt den Monat an, aber im SelectFiscalYear-Fenster musst man alle 3 Kriterien -FY, Monat und Journal- auswählen, damit man eine konkrete Periode angezeigt bekommt. Einen Monat auszuwählen ohne Journal bringt nichts: es werden alle Buchungen des Jahres angezeigt und BP zeigt das jeweilige Journal. Immer noch nicht ganz deutlich für mich. RS mit FH evtl. notwendig.)
 
 #### Prerequisites
 
