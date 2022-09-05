@@ -1,4 +1,4 @@
-[!!Warehouse](RetailSuiteWarehousing)
+[!!Warehouse](../../RetailSuiteWarehousing/Overview/01_General.md)
 [!!User Interface Product list](../UserInterface/02a_List.md)   
 [!!User Interface Warehouse](../../RetailSuiteWarehousing/UserInterface/00_UserInterface.md)
 [!!Data type list](../UserInterface/04_DataTypeList.md)

@@ -1,4 +1,4 @@
-[!!DataHub](DataHub)
+[!!DataHub](../../DataHub/Overview/01_General.md)
 [!!User Interface Channels](../UserInterface/03e_Channels.md)
 [!!Create a channel](../../DataHub/Integration/04_ManageChannels.md#create-a-channel)
 

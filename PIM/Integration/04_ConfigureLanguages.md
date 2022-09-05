@@ -1,4 +1,4 @@
-[!!DataHub](DataHub)
+[!!DataHub](../../DataHub/Overview/01_General.md)
 [!!User Interface Languages](../UserInterface/03d_Languages.md)
 [!!Create a language](../../DataHub/Integration/05_ManageLanguages.md#create-a-language)
 
