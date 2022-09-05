@@ -1,5 +1,5 @@
-[!!Omni-Channel](Channels)
-[!!Order management](RetailSuiteFaktBase)
+[!!Omni-Channel](../../Channels/Overview/01_General.md)
+[!!Order management](../../RetailSuiteFaktBase/Overview/01_General.md)
 [!!User Interface Accounting sync](../UserInterface/02d_AccountingSync.md)
 [!!User Interface Omni-Channel](../../Channels/UserInterface/00_UserInterface.md)
 [!!User Interface Order management](../../RetailSuiteFaktBase/UserInterface/00_UserInterface.md)

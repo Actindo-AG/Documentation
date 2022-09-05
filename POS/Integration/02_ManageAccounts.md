@@ -1,4 +1,4 @@
-[!!Accounting](Accounting)
+[!!Accounting](../../RetailSuiteAccounting/Overview/01_General.md)
 [!!User Interface Accounting](../../RetailSuiteAccounting/UserInterface/00_UserInterface.md)
 [!!Manage the POS order process](../Operation/06_ManageOrderProcess.md)
 

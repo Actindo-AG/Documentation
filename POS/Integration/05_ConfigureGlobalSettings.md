@@ -1,5 +1,5 @@
-[!!Order management](RetailSuiteFaktBase)
-[!!DataHub](DataHub)
+[!!Order management](../../RetailSuiteFaktBase/Overview/01_General.md)
+[!!DataHub](../../DataHub/Overview/01_General.md)
 [!!User Interface Venduo POS](../UserInterface/00_UserInterface.md)
 [!!User Interface Order management](../../RetailSuiteFaktBase/UserInterface/00_UserInterface.md)
 [!!User Interface DataHub](../../DataHub/UserInterface/00_UserInterface.md)

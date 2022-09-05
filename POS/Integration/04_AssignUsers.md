@@ -1,4 +1,4 @@
-[!!Settings](Settings)
+[!!Settings](../../Settings/Overview/01_General.md)
 [!!User Interface Settings](../../Settings/UserInterface/00_UserInterface.md)
 [comment]: <> (add link to Register a user)
 
