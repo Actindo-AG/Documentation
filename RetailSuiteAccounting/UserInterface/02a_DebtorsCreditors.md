@@ -32,7 +32,7 @@ Click this button to display the *EXCEL* context menu. The following options are
 
 
 - [QUICK SEARCH]  
-Click this button to display the *QUICK SEARCH* context menu. All search criteria are selected per default through a marked checkbox. Deselect any search criteria as necessary. The following search criteria are available:
+Click this button to display the *QUICK SEARCH* context menu. All search criteria are selected by default through a marked checkbox. Deselect any search criteria as necessary. The following search criteria are available:
 
   - *No.*  
   - *Short name*
@@ -1833,7 +1833,7 @@ Click the drop-down list to select a shipping provider. Depending on the shippin
 **Services - (shipping provider name)**  
 Configure the services as agreed with the shipping provider. Depending on the shipping provider selected, the services, and therefore the displayed fields, vary.
 
-[comment]: <> (Info kommt aus Fakturierung / Settings / Shipping provider / Shipping -> Link hinzufügen, wenn verfügbar. Frage FH: Was wird per default angezeigt? Wonach richtet sich, was angezeigt wird? Kundeneinstellungen?)
+[comment]: <> (Info kommt aus Fakturierung / Settings / Shipping provider / Shipping -> Link hinzufügen, wenn verfügbar. Frage FH: Was wird by default angezeigt? Wonach richtet sich, was angezeigt wird? Kundeneinstellungen?)
 
 
 *Export*

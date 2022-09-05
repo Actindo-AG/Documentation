@@ -264,7 +264,7 @@ Click this button to display the *EXCEL* context menu. The following options are
 
 
 - [QUICK SEARCH]  
-Click this button to display the *QUICK SEARCH* context menu. All search criteria are selected per default through a marked checkbox. Deselect any search criteria as necessary. The following search criteria are available:
+Click this button to display the *QUICK SEARCH* context menu. All search criteria are selected by default through a marked checkbox. Deselect any search criteria as necessary. The following search criteria are available:
 
   - *No.*  
   - *Short name*

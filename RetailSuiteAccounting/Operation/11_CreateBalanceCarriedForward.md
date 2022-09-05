@@ -44,7 +44,9 @@ A context menu is displayed.
 
 7. Select the *Delete old balances carried forward from selected FY* checkbox if necessary.
 
-[comment]: <> (Was genau passiert dann? Wird empfohlen, das zu machen? Oder könnte das Probleme geben, weil Daten gelöscht werden? Weitere Info notwendig. -> Unsicher, ob es überhaupt funktioniert.)
+  > [Info] Previously balances carried forward will be then replaced by the new balances carried forward. The original posting in the previous fiscal year is not deleted though.
+
+[comment]: <> (Was genau passiert dann? Wird empfohlen, das zu machen? Oder könnte das Probleme geben, weil Daten gelöscht werden? Weitere Info notwendig. -> Die ursprüngliche Buchung wird nicht gelöscht, nur die Buchung, die als Saldovortrag, also im Journal 98, angezeigt wird. Der neue Saldovortrag wird dann angezeigt.)
 
 8. Click the [CONTINUE] button.  
 The *Retrieve account balances* window is displayed.

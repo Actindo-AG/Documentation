@@ -32,10 +32,10 @@ The *Post extras* side bar contains two sub-tabs:
 Click this button to display the *QUICK SEARCH* context menu. The following options are available:
 
   - ![Checkbox](../../Assets/Icons/Checkbox.png "[Checkbox]") *Acc. no.*  
-  Select or deselect this checkbox to include or exclude this criteria in the search. This checkbox is selected per default.
+  Select or deselect this checkbox to include or exclude this criteria in the search. This checkbox is selected by default.
 
   - ![Checkbox](../../Assets/Icons/Checkbox.png "[Checkbox]") *Description*  
-  Select or deselect this checkbox to include or exclude this criteria in the search. This checkbox is selected per default.
+  Select or deselect this checkbox to include or exclude this criteria in the search. This checkbox is selected by default.
 
 - [Search bar]  
 Enter the search text (letters or numbers).
@@ -73,7 +73,7 @@ Enter a page number to go directly to a specific page.
   ![Sub-tab Search](../../Assets/Screenshots/RetailSuiteAccounting/Book/Search/BookExtrasSearch.png "[Sub-tab Search]")
 
 - *Active* [checkbox]  
-Select o deselect this checkbox next to a search criterion to activate or deactivate the corresponding search criterion. All checkboxes are deselected per default.
+Select o deselect this checkbox next to a search criterion to activate or deactivate the corresponding search criterion. All checkboxes are deselected by default.
 
 - *Search criterion*  
 This column displays a list of the available search criteria. The following search criteria are available:

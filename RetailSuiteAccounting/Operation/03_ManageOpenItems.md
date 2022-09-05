@@ -1,4 +1,4 @@
-[!!Payment processing](RetailSuiteBanking)  
+[!!Payment processing](../../RetailSuiteBanking/Overview/01_General.md)  
 [!!User Interface Open items](../UserInterface/01d_OpenItems.md)  
 
 

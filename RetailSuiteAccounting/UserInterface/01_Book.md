@@ -1,4 +1,4 @@
-# Post
+by default# Post
 
 *Accounting > Post*
 
@@ -25,9 +25,8 @@ Additionally, the following cross-tab functions are contained.
 
   ![Post](../../Assets/Screenshots/RetailSuiteAccounting/Book/Bookings/Bookings.png "[Post]")
 
-Click the [FY/MONTH/JOURNAL] button to display the select fiscal year window. For detailed information, see [Fiscal year](./00a_FiscalYear.md) and [Select a fiscal year](../Operation/01_SelectFiscalYear.md).
-
-New fiscal years can be created, edited or deleted. For detailed information about managing fiscal years, see [Manage the fiscal year](../Integration/04_ManageFiscalYear.md).
+- [FY/MONTH/JOURNAL]  
+Click this button to display the select fiscal year window. For detailed information, see [Fiscal year](./00a_FiscalYear.md) and [Select a fiscal year](../Operation/01_SelectFiscalYear.md). If necessary, new fiscal years can be created, edited or deleted. For detailed information about managing fiscal years, see [Manage the fiscal year](../Integration/04_ManageFiscalYear.md).
 
 ## EDIT
 
@@ -35,37 +34,38 @@ New fiscal years can be created, edited or deleted. For detailed information abo
 
 ![Post](../../Assets/Screenshots/RetailSuiteAccounting/Book/Bookings/Bookings.png "[Post]")
 
-Click the *EDIT* button to display the context menu.
+ - [EDIT]  
+ Click this button to display the *EDIT* context menu.
 
   ![EDIT](../../Assets/Screenshots/RetailSuiteAccounting/Book/Edit.png "[EDIT]")
 
-  - *Cash book takeover*  
-  Click this menu entry to take over automatically cash payments registered in the cash book. The *Cash book takeover* window is displayed, see [Cash book takeover](#cash-book-takeover).
+- *Cash book takeover*  
+Click this menu entry to take over automatically cash payments registered in the cash book. The *Cash book takeover* window is displayed, see [Cash book takeover](#cash-book-takeover).
 
   [comment]: <> (RS FH about function and need of procedure. How is it used by customers?)
 
-  - *Bank data takeover*  
-  Click this menu entry to take over bank and payment details registered in the *Payment processing* module. The *Bank data synchronizing* window is displayed, see [Bank data takeover](#bank-data-takeover).
+- *Bank data takeover*  
+Click this menu entry to take over bank and payment details registered in the *Payment processing* module. The *Bank data synchronizing* window is displayed, see [Bank data takeover](#bank-data-takeover).
 
   [comment]: <> (RS FH about function and need of procedure. How is it used by customers? FH: It can probably be deleted. It is no longer/hardly? used and will be deleted in next releases. To be confirmed!)
 
-  - ![Lock](../../Assets/Icons/Lock02.png "[Lock]") *Process*  
-  Click this menu entry to process one of several postings in a posting period. The *Process postings* window is displayed, see [Process](#process).
+- ![Lock](../../Assets/Icons/Lock02.png "[Lock]") *Process*  
+Click this menu entry to process several postings simultaneously. The *Process postings* window is displayed, see [Process](#process).
 
-  - ![Do not enter](../../Assets/Icons/DoNotEnter.png "[Do not enter]") *Delete*  
-  Click this menu entry to delete one or several postings simultaneously. The *Delete postings* window is displayed, see [Delete](#delete).
+- ![Do not enter](../../Assets/Icons/DoNotEnter.png "[Do not enter]") *Delete*  
+Click this menu entry to delete several postings simultaneously. The *Delete postings* window is displayed, see [Delete](#delete).
 
-  - ![Lock](../../Assets/Icons/Lock02.png "[Lock]") *Lock months*  
-  Click this menu entry to lock one or several months for postings. The *Lock months* window is displayed, see [Lock months](#lock-months).
+- ![Lock](../../Assets/Icons/Lock02.png "[Lock]") *Lock months*  
+Click this menu entry to lock one or several months for postings. The *Lock months* window is displayed, see [Lock months](#lock-months).
 
-  - *Balance carried forward*  
-  Click this menu entry to carry forward balances from the previous fiscal year. The *Balance carried forward: step 1* window is displayed, see [Balance carried forward](#balance-carried-forward).
+- *Balance carried forward*  
+Click this menu entry to carry forward balances from one fiscal year to the next one. The *Balance carried forward: step 1* window is displayed, see [Balance carried forward](#balance-carried-forward).
 
-  - *Foreign currency wizard*  
-  Click this menu entry to post automatically currency exchange differences. The *Foreign currency wizard* window is displayed, see [Foreign currency wizard](#foreign-currency-wizard).
+- *Foreign currency wizard*  
+Click this menu entry to post currency exchange differences automatically. The *Foreign currency wizard* window is displayed, see [Foreign currency wizard](#foreign-currency-wizard).
 
-  - *Supplier receipts*  
-  Click this menu entry to post specifically supplier receipts. The *Supplier receipts* window is displayed, see [Supplier receipts](#supplier-receipts).
+- *Supplier receipts*  
+Click this menu entry to post specifically supplier receipts. The *Supplier receipts* window is displayed, see [Supplier receipts](#supplier-receipts).
 
 
 ### Cash book takeover  
@@ -76,7 +76,7 @@ Click the *EDIT* button to display the context menu.
 
 This window displays all cash payments registered in the cash book, which can be taken over automatically in the *Accounting* module. All information provided in columns is read-only, except for the *T* column.
 
-[comment]: <> (Add link when docu available: For detailed information, see ...)
+[comment]: <> (Add link when documentation is available)
 
   - *Seq. no.*  
     Sequential number as registered in the cash book.
@@ -94,7 +94,7 @@ This window displays all cash payments registered in the cash book, which can be
     Turnover value as registered in the cash book. Revenues display a positive sign. Expenditures display a negative sign.
 
   - *Contra Account*  
-    Contra Account as registered in the cash posting.
+    Contra account as registered in the cash posting.
 
   [comment]: <> (No account in cash book! What does the number stand for? As "Unbekannt!")   
 
@@ -141,15 +141,15 @@ An individual posting from the cash book can be selected and partially edited be
   This field displays the turnover and cannot be modified.
 
   - *Contra account*  
-  Enter the appropriate contra account, see [Chart of accounts](../Integration/01_RunAccountingWizard.md#chart-of-accounts). This field is compulsory.
+  Enter the appropriate contra account. This field is compulsory.
 
-  > [Info] When you start typing in an account number, a context menu is displayed. You can also select the appropriate option from the menu.
+  > [Info] After you have entered at least two numbers in the field, a list is displayed below the field with all accounts matching the entry. You can also select the corresponding account in the list. Alternatively, use the search function to find the account number, see [Search for an account](../Operation/13_SearchAccounting.md#search-for-an-account).
 
   - *Receipt1*  
-  Enter the appropriate value. The existing value can also be modified.
+  Enter the appropriate value if necessary. The existing value can be modified.
 
   - *Receipt2*  
-  Enter the appropriate value. The existing value can also be modified.
+  Enter the appropriate value if necessary. The existing value can be modified.
 
   - *Date*  
   This field displays the date and cannot be modified.
@@ -158,13 +158,13 @@ An individual posting from the cash book can be selected and partially edited be
   This field displays the account and cannot be modified.
 
   - *Cost1*  
-  Enter the appropriate value. The existing value can also be modified.
+  Enter the appropriate value if necessary. The existing value can also be modified.
 
   - *Cost2*  
-  Enter the appropriate value. The existing value can also be modified.
+  Enter the appropriate value if necessary. The existing value can be modified.
 
   - *Text*  
-  Enter the appropriate free text. The existing value can also be modified.
+  Enter the appropriate free text if necessary. The existing value can be modified.
 
   - [POST]    
   Click this button to post the edited posting.
@@ -204,7 +204,7 @@ This screen is also available in the *Payment processing* module. Both modules a
  - *Load registered* [x]  
   Click this checkbox to activate the [SHOW REGISTERED] button.
 
-  > [Info] This function is per default deactivated to reduce system overload and improve performance. This default setting can be changed in the *Settings* menu entry of the *Payment processing* module.
+  > [Info] This function is by default deactivated to reduce system overload and improve performance. This default setting can be changed in the *Settings* menu entry of the *Payment processing* module.
 
   [comment]: <> (Add link when available)
 
@@ -225,16 +225,16 @@ This screen is also available in the *Payment processing* module. Both modules a
   - [QUICK SEARCH]  
   Click this button to display the *QUICK SEARCH* context menu. Payments can be searched for using the following search criteria:
 
-  - *Turnover*
-  - *Contra account*
-  - *Receipt1*
-  - *Receipt2*
-  - *Account*
-  - *Text*
-  - *Reference*
-  - *Recipient*
+    - *Turnover*
+    - *Contra account*
+    - *Receipt1*
+    - *Receipt2*
+    - *Account*
+    - *Text*
+    - *Reference*
+    - *Recipient*
 
- [comment]: <> (Vorsicht: Übersetzung von Verwendungszweck? "Purpose code" is mentioned by FH in training video, but really used in this area?)
+ [comment]: <> (Vorsicht: Übersetzung von Verwendungszweck? "Purpose code" is mentioned by FH in training video, but I think reference is meant)
 
  - [Search bar]  
  Enter here the value to be searched for. You can press ENTER to start the search.
@@ -291,7 +291,6 @@ The imported bank data are displayed in the following columns:
   - Customer name
   - Customer e-mail address
 
-
  - *Date*  
  This column displays the payment date.
 
@@ -300,13 +299,6 @@ The imported bank data are displayed in the following columns:
 
  - *Text*  
  This column displays the posting text, if any.
-
-- ![First page](../../Assets/Icons/FirstPage.png "[First page]") - ![Last page](../../Assets/Icons/LastPage.png "[Last page]") (Fist page) - (Last page)  
- ![Previous page](../../Assets/Icons/PreviousPage.png "[Previous page]") - ![Next page](../../Assets/Icons/NextPage.png "[Next page]") (Previous page) - (Next page)  
-Click these buttons to navigate the payment list.
-
-- *Page [x] of [x]*  
-Enter a page number to go to a specific page.
 
 - ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh)  
  Click this button to update the payment list.
@@ -331,28 +323,17 @@ Enter a page number to go to a specific page.
 
 The payments can also be processed manually. Click any payment in the list to display its values in the input line fields.
 
-- *Seq. no.*
-
-- *Turnover*
-
-- *Contra account*
-
-- *Receipt1*
-
-- *Receipt2*
-
-- *Date*
-
+  - *Seq. no.*
+  - *Turnover*
+  - *Contra account*
+  - *Receipt1*
+  - *Receipt2*
+  - *Date*
   -  ![Calendar](../../Assets/Icons/Calendar.png "[Calendar]") (Calendar)
-
-
-- *Account*
-
-- *Cost1*
-
-- *Cost2*
-
-- *Text*
+  - *Account*
+  - *Cost1*
+  - *Cost2*
+  - *Text*
 
 
 - [POST]
@@ -369,8 +350,6 @@ The payments can also be processed manually. Click any payment in the list to di
 
 - [SHOW MARKED]
 
-
-
 - *Last retrieval*
 
 - [LEARN FILE]
@@ -379,6 +358,8 @@ The payments can also be processed manually. Click any payment in the list to di
 
 
 #### Retrieve bank data
+
+*Accounting > Post > Context menu EDIT > Menu entry Bank data takeover > Button RETRIEVE/IMPORT*
 
 ![Retrieve bank data](../../Assets/Screenshots/RetailSuiteAccounting/Book/RetrieveBankData.png "[[Retrieve bank data]")
 
@@ -402,12 +383,12 @@ The payments can also be processed manually. Click any payment in the list to di
 
 *Accounting > Post > Context menu EDIT > Menu entry Process*
 
-  ![Process postings](../../Assets/Screenshots/RetailSuiteAccounting/Book/Bookings/ProcessBookings01.png "[Process postings]")
+  ![Process postings](../../Assets/Screenshots/RetailSuiteAccounting/Book/ProcessBookings.png "[Process postings]")
 
-This window allows to select one or several postings to be processed simultaneously.
+This window allows to select several postings to be processed simultaneously. For detailed information, see [Process postings](../Operation/07_ProcessBookings.md).
 
 - *Journal from - to*  
-Click these drop-down lists to select the journals to be processed. The drop-down lists display the existing journals including the postings recorded in each of them.
+Click these drop-down lists to select the journals to be processed. The drop-down list displays the existing journals including the postings recorded in each of them.
 
 - *Month from - to*   
 Click these drop-down lists to select the months to be processed. The drop-down lists display all available months in the system. The following options are available:  
@@ -425,9 +406,6 @@ Click this button to cancel your selection.
 - [OK]  
 Click this button to confirm your selection.
 
-For detailed information about processing postings, see [Process postings](../Operation/07_ProcessBookings.md).
-
-
 
 ### Delete
 
@@ -435,7 +413,7 @@ For detailed information about processing postings, see [Process postings](../Op
 
   ![Delete postings](../../Assets/Screenshots/RetailSuiteAccounting/Book/DeleteBookings.png "[Delete postings]")
 
-  This window allows to select one or several postings in a journal to be deleted simultaneously.
+  This window allows to select several postings in a journal to be deleted simultaneously. For detailed information, see [Delete postings](../Operation/06_DeleteBookings.md).
 
   - *Journal*  
   Click this drop-down list to select the journal containing the postings to be deleted. The drop-down list displays the existing journals including the postings recorded in each of them.
@@ -449,8 +427,6 @@ For detailed information about processing postings, see [Process postings](../Op
   - [DELETE]  
   Click this button to delete the selected postings.
 
-  For detailed information about processing postings, see [Delete postings](../Operation/06_DeleteBookings.md).
-
 
 ### Lock months
 
@@ -458,19 +434,16 @@ For detailed information about processing postings, see [Process postings](../Op
 
   ![Lock months](../../Assets/Screenshots/RetailSuiteAccounting/Book/LockMonths.png "[Lock months]")
 
-  This window allows to select one or several months to be locked for postings. Locked months can also be unlocked and made available for postings again.
+  This window allows to select one or several months to be locked for postings. Locked months can also be unlocked and made available for postings again. For detailed information, see [Lock a period for postings](../Operation/08_LockPeriodBookings.md).
 
   - *[x] - [x] month*  
   Click this drop-down list to select the appropriate option. The following options are available:
 
    - **Locked**  
-   Select this option to lock the month for postings.
-
-   > [Info] No further postings will be recorded in the selected month. Any further postings will be recorded in the next available month.
+   Select this option to lock the month for postings. No further postings will be recorded in the selected month. Any further postings will be recorded in the next available month.
 
    - **Bookable**  
    Select this option to unlock a previously locked month. The selected month will be available for postings again.
-
 
   - [CANCEL]  
   Click this button to cancel your selection.
@@ -478,7 +451,6 @@ For detailed information about processing postings, see [Process postings](../Op
   - [OK]  
   Click this button to confirm your selection.
 
-  For detailed information about processing postings, see [Lock a period for postings](../Operation/08_LockPeriodBookings.md).
 
 ### Balance carried forward
 
@@ -486,13 +458,15 @@ For detailed information about processing postings, see [Process postings](../Op
 
   ![Balance carried forward: step 1](../../Assets/Screenshots/RetailSuiteAccounting/Book/BalanceCarriedForward01.png "[Balance carried forward: step 1]")
 
-The *Balance carried forward: Step 1* window allows to select balances to be carried forward to the next fiscal year.
+**Balance carried forward: Step 1**
+
+The *Balance carried forward: Step 1* window allows to select balances to be carried forward to the next fiscal year.  For detailed information, see [Create a balance carried forward](../Operation/11_CreateBalanceCarriedForward.md).
 
 - *Carry forward from FY*  
 Click the drop-down list to select the year containing the balance(s) to be carried forward.
 
 - *Range from - to*  
-Click the drop-down list to select the account(s) containing the balance(s) to be carried forward. The following options are available:
+Click the drop-down list to select the account class range containing the balance(s) to be carried forward. The following options are available:
 
  - **01: Financial accounts**
  - **02: Impersonal accounts**
@@ -507,14 +481,31 @@ Enter the posting date for the balance(s) carried forward.
 
   > [Info] By default, the system displays the first day of the new fiscal year. This can be modified simply by typing in the desired posting date.
 
+- *Cost accounting*  
+Select the applicable checkbox(es) for the balances to be carried forward. The following checkboxes are available:  
+
+  - *Cost centers*  
+  Select this checkbox to carry forward the cost centers.
+  - *Cost units*  
+  Select this checkbox to carry forward the cost units.
+  - *Inactive cost centers/units*  
+  Select this checkbox to carry forward inactive cost centers and units.
+
+  > [Info] The *Cost accounting* field and the corresponding checkboxes are displayed only when cost centers and/or cost units have been created in the fiscal year from which the balance is carried forward.
+
+
 - *Delete old balances carried forward from selected FY* [x]  
-Select this checkbox to delete the old balance(s) carried forward from the selected fiscal year.
+Select this checkbox to delete the old balance(s) carried forward from the selected fiscal year.  
+
+  > [Info] Previous balances carried forward will be then replaced by the new balances carried forward. The original postings in the previous fiscal year are not deleted though.
 
 - [CANCEL]  
 Click this button to cancel your selection.
 
 - [CONTINUE]  
 Click this button to proceed to the *Retrieve account balances* window.
+
+**Retrieve account balances**
 
   ![Retrieve account balances](../../Assets/Screenshots/RetailSuiteAccounting/Book/RetrieveAccountBalances.png "[Retrieve account balances]")
 
@@ -524,7 +515,7 @@ The *Retrieve account balances* window confirms the values previously selected a
 The previously selected fiscal year is displayed. This field is read-only.
 
 - *Range from - to*  
-The previously selected account range is displayed. These fields are read-only.
+The previously selected account class range is displayed. These fields are read-only.
 
 - *Date*  
 The previously selected posting date is displayed. This field is read-only.
@@ -535,7 +526,7 @@ The accounts containing a balance to be carried forward are displayed together w
   >[Info] Hold the Ctrl (control) key and click on each account with the left mouse button to select multiple accounts simultaneously.
 
 - *Delete old balances carried forward from selected FY*  
-The previously selected value (**Yes/No**) date is displayed. This field is read-only.
+If the checkbox has been previously selected, **Yes** is displayed. Otherwise, **No** is displayed. This field is read-only.
 
 - [BACK]  
 Click this button to go back to the previous step.
@@ -544,9 +535,7 @@ Click this button to go back to the previous step.
 Click this button to cancel the whole process.
 
 - [CONTINUE]  
-Click this button to proceed to carry the selected balances forward.
-
-For detailed information about creating a balance carried forward, see [Create a balance carried forward](../Operation/11_CreateBalanceCarriedForward.md).
+Click this button to proceed and carry the selected balances forward.
 
 
 ### Foreign currency wizard
@@ -555,7 +544,7 @@ For detailed information about creating a balance carried forward, see [Create a
 
   ![Foreign currency wizard](../../Assets/Screenshots/RetailSuiteAccounting/Book/ForeignCurrencyWizard01.png "[Foreign currency wizard]")
 
-  The *Foreign currency wizard* window allows to search for accounts containing exchange rate differences and post these differences automatically in special revenues and expenses accounts set up for this purpose.
+The *Foreign currency wizard* window allows to search for accounts containing exchange rate differences and post these differences automatically in special revenues and expenses accounts set up for this purpose. For detailed information, see [Post exchange rate fluctuations](../Operation/12_BookExchangeRateFluctuations.md).
 
 - *Fiscal year*  
 Click the drop-down list to select the applicable fiscal year.
@@ -575,19 +564,20 @@ Click the drop-down list to select the applicable accounts. The following accoun
     ![Foreign currency wizard - Individual](../../Assets/Screenshots/RetailSuiteAccounting/Book/ForeignCurrencyWizard02.png "[Foreign currency wizard - Individual]")
 
 
-  - *Posting date*  
-  Enter the corresponding posting date.
+- *Posting date*  
+Enter the corresponding posting date.
 
   > [Info] You can type in the posting date or use the ![Calendar](../../Assets/Icons/Calendar.png "[Calendar]") (Calendar) icon.
 
-  - [BACK]   
-  This button is greyed out, as there is no previous step.
+- [BACK]   
+This button is inactive, as there is no previous step.
 
 [comment]: <> (Comment added in the BUGS document for improvement, e.g. "ABBRECHEN/CANCEL" button instead, like in Saldovortrag function)
 
-  - [CONTINUE]  
-  Click this button to proceed to the next step.
+- [CONTINUE]  
+Click this button to proceed to the next step.
 
+**Account selection**
 
 ![Foreign currency wizard - Account selection](../../Assets/Screenshots/RetailSuiteAccounting/Book/ForeignCurrencyWizard03.png "[Foreign currency wizard - Account selection]")
 
@@ -600,9 +590,6 @@ Click this button to go back to the previous step.
 - [CONTINUE]  
 Click this button to post the exchange rate difference(s) in the applicable revenues or expenses accounts.
 
-For detailed information about posting exchange rate fluctuations, see [Book exchange rate fluctuations](../Operation/12_BookExchangeRateFluctuations.md).
-
-
 
 ### Supplier receipts
 
@@ -610,7 +597,7 @@ For detailed information about posting exchange rate fluctuations, see [Book exc
 
 *Accounting > Post > Context menu EDIT > Menu entry Supplier receipts > Tab Acquire*
 
-  ![Acquire supplier receipts](../../Assets/Screenshots/RetailSuiteAccounting/Book/SupplierReceiptsAcquire.png "[Acquire supplier receipts]")
+![Acquire supplier receipts](../../Assets/Screenshots/RetailSuiteAccounting/Book/SupplierReceiptsAcquire.png "[Acquire supplier receipts]")
 
 The *Acquire* tab displays all unregistered supplier receipts uploaded to the *New supplier receipts* folder in the *Documents* module.
 
@@ -630,52 +617,42 @@ Click this button to download the document.
 Enter the turnover value to be registered. This field is compulsory.
 
 - *ContraAcct*  
-Select the appropriate contra account. This field is compulsory.
+Enter the appropriate contra account. This field is compulsory.
 
-  >[Info] You can type it in or select it from the drop-down list. When you start typing, a context menu is displayed.
+  >[Info] After you have entered at least three characters in the field, a list is displayed with all accounts matching the entry. You can also select the corresponding account in the list. Alternatively, click the drop-down list and select the applicable contra account.
 
 - *Reference1*  
 Enter an applicable reference value.
 
-[comment]: <> (Receipt1?)
-
 - *Reference2*  
 Enter an applicable reference value.
-
-[comment]: <> (Receipt2?)
 
 - *Date*  
 Enter the posting date. Date format must be DDMMYY. This field is compulsory.
 
 - *Supplier*  
-Select the appropriate supplier account. This field is compulsory.
+Enter the appropriate supplier account. This field is compulsory.
 
-  >[Info] You can type it in or select it from the drop-down list. When you start typing, a context menu is displayed.
+  >[Info] After you have entered at least three characters in the field, a list is displayed with all accounts matching the entry. You can also select the corresponding account in the list. Alternatively, click the drop-down list and select the applicable contra account.
 
 - *Posting text*  
 Enter an appropriate posting text. This field is compulsory.
 
-[comment]: <> (Posting text in the actual UI and in file Operation/10_ManageReceipts.md? Check and unify!)
-
 - *Payment target*  
-Click the drop-down list to select the appropriate payment target. The following options are available:
+Click the drop-down list to select the appropriate payment target. The payment target configured in the supplier settings, if any, is preselected. The following options are available:
 
  - **1 - 8 d 2%, 30 d net**
  - **2 - 30 d net**
 
 
 - *Exchange rate*  
-Enter the applicable exchange rate, if necessary.
+Enter the applicable exchange rate if necessary.
 
 - *Cost center*  
-Enter the appropriate cost center, if necessary.
-
-[comment]: <> (In other functions called Cost1? Check and unify)
+Enter the appropriate cost center if necessary.
 
 - *Cost unit*  
-Enter the appropriate cost unit, if necessary.
-
-[comment]: <> (In other functions called Cost2? Check and unify)
+Enter the appropriate cost unit if necessary.
 
 - *Commentary for auditors*  
 Enter any relevant comments for potential auditors.
@@ -684,22 +661,19 @@ Enter any relevant comments for potential auditors.
 Click this button to register the receipt in the system.
 
 - [SPLIT]  
-Click this button to perform a split posting, if necessary.
+Click this button to perform a split posting if necessary.
+
 
 #### Overview
 
 *Accounting > Post > Context menu EDIT > Menu entry Supplier receipts > Tab Overview*
 
-  ![Overview](../../Assets/Screenshots/RetailSuiteAccounting/Book/SupplierReceiptsOverview.png "[Overview]")
+  ![Overview](../../Assets/Screenshots/RetailSuiteAccounting/Book/SupplierReceiptsOverview01.png "[Overview]")
 
-The *Overview* tab displays all receipts that have been acquired (or preregistered) in the system via the *Acquire* tab. The acquired receipts can be searched for using the [QUICK SEARCH] button. The overview can also be filtered using the filter function.
-
-  ![Search and filter functions](../../Assets/Screenshots/RetailSuiteAccounting/Book/SupplierReceiptsOverview02.png "[Search and filter functions]")
-
-[comment]: <> (Screenshot ändern bzw. löschen. Screenshots von Kontextmenüs nur oder gar nichts?)
+The *Overview* tab displays all receipts that have been preregistered in the system via the *Acquire* tab. The acquired receipts can be searched for using the [QUICK SEARCH] button. The overview can also be filtered using the filter function.
 
 - [QUICK SEARCH]  
-Click this button to display the *QUICK SEARCH* context menu. All search criteria are selected per default through a marked checkbox. Deselect any search criteria as necessary. The following search criteria are available:
+Click this button to display the *QUICK SEARCH* context menu. All search criteria are selected by default through a marked checkbox. Deselect any search criteria as necessary. The following search criteria are available:
 
  - *Status*  
  - *Supplier*
@@ -737,7 +711,7 @@ Click this button to display the *QUICK SEARCH* context menu. All search criteri
 - [(X) ACTIVE FILTERS]
 
 - *ACTIVE* (checkbox)  
- Mark this checkbox to activate the search criteria.
+ Select the corresponding checkbox to activate a search criteria.
 
 - *FILTER BY*  
 The following filter values are available:
@@ -821,8 +795,6 @@ Click this button to cancel your selection.
 Click this button to apply the search criteria and values.
 
 
-![Columns layout and sorting](../../Assets/Screenshots/RetailSuiteAccounting/Book/SupplierReceiptsOverview03.png "[Columns layout and sorting]")
-
 All acquired receipts are displayed in the columns view. The column width can be modified using the mouse. To do so, place the mouse pointer on the vertical dividing line between two columns titles. The mouse pointer changes to a double-headed arrow. Press the left mouse button and move the line using drag and drop until it has reached the required width.
 
 When placing the cursor on a column header, three vertical points are displayed to the right of the column title. Click the ![Points](../../Assets/Icons/Points02.png "[Points]") (Points) icon to display the context menu. The following menu entries are available:
@@ -836,20 +808,22 @@ When placing the cursor on a column header, three vertical points are displayed 
 - ![Checbox](../../Assets/Icons/Checkbox02.png "[Checkbox]") Filter  
   Place the mouse on this entry to display the search bar. Enter a search value in the search bar and click the checkbox to filter the rows according to the search value.
 
+[comment]: <> (Info oben weg? Standardfunktionen im System.)
 
-All information provided in columns is read-only, except for the *Doc* column.
+All information provided in columns is read-only.
 
 - *Status*  
-There are five possible statuses, all of them identified with a different color code. Hover the mouse over the status icon reveal its meaning. The five statuses available are:
+There are five possible statuses, all of them identified with a different color code. Hover over the status icon with the mouse to reveal its meaning. The five statuses available are:
+
   - ![New](../../Assets/Icons/New.png "[New]") New
   - ![Released](../../Assets/Icons/Released.png "[Released]") Released
   - Pending
   - ![Rejected](../../Assets/Icons/Rejected.png "[Rejected]") Rejected
-  - Completed
+  - ![Completed](../../Assets/Icons/Completed.png "[Completed]") Completed
 
-  > [Info] This function works together with the *Purchasing* module, where the receipt is checked and released (or rejected) by the assigned supervisor. The status changes here accordingly. For detailed information about posting supplier receipts, see [Book a supplier receipt](../Operation/10_ManageREceipts.md#book-a-supplier-receipt).
+  > [Info] The *Supplier receipts* feature works together with the *Purchasing* module, where the supplier receipts are checked and released (or rejected) by the assigned supervisor. The status changes here accordingly. For detailed information, see [Post a supplier receipt](../Operation/10_ManageReceipts.md#post-a-supplier-receipt).
 
-[comment]: <> (Icons missing! To be completed.)
+[comment]: <> (Pending icon missing! To be completed.)
 
 - *Supplier*  
 The supplier account number is displayed.
@@ -863,10 +837,10 @@ Click the ![B](../../Assets/Icons/Beleg02.png "[B]") icon to display the acquire
 [comment]: <> (Describe new window? Angehängtes Dokument window. See 01a_Bookings.md, Document attached.)
 
 - *Reference1*  
-The reference 1 value is displayed, if available.
+The reference 1 value is displayed if available.
 
 - *Reference2*  
-The reference 2 value is displayed, if available.
+The reference 2 value is displayed if available.
 
 - *Posting text*  
 The posting text is displayed.
@@ -883,13 +857,15 @@ The selected payment target is displayed.
 - *Flag*  
 A color name may be displayed here if the receipt has been flagged in the *Purchasing* module.
 
-[comment]: <> (Einkauf / Lieferantenbelege prüfen / Beleg markieren / Flag + Comments)  
+[comment]: <> (Einkauf / Lieferantenbelege prüfen / Beleg markieren / Beleg marieren -> Flag + Comments)  
 
 - *Comment*  
-A brief comment may be displayed here if the receipt has been flagged in the *Purchasing* module.
+A brief comment may be displayed here if a comment has been added by flagging the receipt in the *Purchasing* module.
 
 - *Comments*  
-If a comment has been added, the ![Comment](../../Assets/Icons/Comment.png "[Comment]") comment icon is displayed. Click the icon to read the comment(s) in a new window.
+If further comments have been added, the ![Comment](../../Assets/Icons/Comment.png "[Comment]") comment icon is displayed. Click the icon to read the comment(s) in a new window.
+
+[comment]: <> (Einkauf / Lieferantenbelege prüfen / Beleg markieren / Kommentare)  
 
 - *Reason for rejection*  
 If the receipt has been rejected and a reason has been given, the ![Comment](../../Assets/Icons/Comment.png "[Comment]") comment icon is displayed. Hover over the icon with the mouse to read the comment.
@@ -936,27 +912,112 @@ Enter a page number to go to a specific page.
 
  *Accounting > Post > Context menu EDIT > Menu entry Supplier receipts > Tab Financial accounting takeover*
 
-
-  ![Financial accounting takeover](../../Assets/Screenshots/RetailSuiteAccounting/Book/SupplierReceiptsTakeover.png "[Financial accounting takeover]")
+![Financial accounting takeover](../../Assets/Screenshots/RetailSuiteAccounting/Book/SupplierReceiptsTakeover.png "[Financial accounting takeover]")
 
 The *Financial account takeover* tab displays all receipts with **Released** status. An extra column displaying checkboxes is added.
 
 - [x] (Checkbox)  
 Click the checkbox in the column header to select all receipts listed. Click the checkbox in one or more individual receipts to take over only the selected ones.
 
-When selecting a receipt, changes can still be made before takeover. For detailed information about posting supplier receipts, see [Book a supplier receipt](../Operation/10_ManageREceipts.md#book-a-supplier-receipt).
+When selecting a receipt, changes can still be made before takeover. For detailed information about posting supplier receipts, see [Post a supplier receipt](../Operation/10_ManageReceipts.md#post-a-supplier-receipt).
 
-- [SPEICHERN]  
+- [SAVE]  
 Click this button to save any changes made to receipt data.
 
 - [SPLIT]  
-Click this button to perform a split posting, if necessary.
+Click this button to perform a split posting if necessary. The *Breakdown posting* window is displayed.
 
-[comment]: <> (New window. Describe? RS HG!)
+[comment]: <> (Neues Fenster; UI geschnitten, s. Screenshot -> Bug in OneNote)
 
 - [TAKE OVER SELECTED ONES]  
 Click this button to register the selected receipts in the system.
 
+
+#### Breakdown posting
+
+*Accounting > Post > Context menu EDIT > Menu entry Supplier receipts > Tab Financial accounting takeover > Select posting > Button SPLIT*
+
+![Breakdown posting](../../Assets/Screenshots/RetailSuiteAccounting/Book/BreakdownPosting.png "[Breakdown posting]")
+
+The *Breakdown posting* window allows to split a posting for a receipt supplier if necessary. The details displayed in columns is read-only.
+
+- *Supplier*  
+This column is displayed empty here.
+
+- *ContraAcct*
+This column displays the selected contra account.
+
+- *Reference1*  
+This column displays the receipt 1 value, usually the invoice number, if it has been entered.
+
+- *Reference2*
+This column displays the receipt 2 value, which can be any other reference number, such as the order number, if it has been entered.
+
+- *Posting text*
+This column displays the posting text, if it has been entered.
+
+- *Date*
+This column displays the posting date.
+
+- *Amount*
+This column displays the turnover value.
+
+- *Payment target*
+This column is displayed empty here.
+
+- [REST]  
+The remaining amount to be split is displayed. As soon as **0.00** is displayed in the *REST* field, the [APPLY] button becomes active.
+
+
+The posting may be split using the input line.
+
+- *Turnover*  
+Enter the turnover amount for each partial posting.
+
+- *ContraAcct*  
+Enter the corresponding contra account for each partial posting.
+
+- *Reference1*  
+Enter a receipt 1 value for each partial posting if necessary.
+
+- *Reference2*
+Enter a receipt 2 value for each partial posting if necessary.
+
+- *Date*
+This field is inactive and cannot be modified.
+
+- *Supplier*  
+This field is inactive and cannot be modified.
+
+- *Posting text*  
+Enter a posting text for each partial posting if necessary.
+
+- *Payment target*
+This drop-down list is inactive.
+
+- *Exchange rate*  
+Modify the exchange rate if necessary.
+
+- *Cost center*  
+Enter the applicable cost center if necessary.
+
+- *Cost unit*  
+Enter the applicable cost unit if necessary.
+
+
+- [SAVE]  
+Click this button to save the partial postings and record them in the selected posting period.
+
+  > [Info] When the total invoice amount has been divided, the rest amount will equal 0. At this point, the [APPLY] button becomes active and can be selected.
+
+- [DELETE]  
+Click this button to delete a selected partial posting if necessary.
+
+- [CLEAR]  
+Click this button to clear all input line fields.
+
+- [CANCEL]  
+Click this button to cancel the whole process.
 
 
 ## EVALUATIONS
@@ -965,9 +1026,12 @@ Click this button to register the selected receipts in the system.
 
 ![Post](../../Assets/Screenshots/RetailSuiteAccounting/Book/Bookings/Bookings.png "[Post]")
 
-This menu allows to create and print out different sorts of evaluation reports for analysis or overview purposes. Click the *EVALUATIONS* button to display the context menu.
+This menu allows to create and print out different sorts of evaluation reports for analysis or overview purposes.
 
-![Evaluations](../../Assets/Screenshots/RetailSuiteAccounting/Book/Evaluations.png "[Evaluations]")
+- [EVALUATIONS]  
+Click this button to display the *EVALUATIONS* context menu.
+
+  ![Evaluations](../../Assets/Screenshots/RetailSuiteAccounting/Book/Evaluations.png "[Evaluations]")
 
   - *Account balance*  
   Click this menu entry to display the *Account balance* window, see [Account balance](#account-balance).
@@ -1012,28 +1076,37 @@ Enter the period to be included. The currently selected fiscal year is displayed
 - *Sorting*  
 Click the drop-down list to select the sorting mode. The following options are available:
 
-  - **Date**
+  - **Date**  
+  Select this option to sort the data per date. If sorting by date is selected, the *Debit-credit interest rate* fields are displayed.  
   - **Amount**  
+  Select this option to sort the data per amount.
 
-  If sorting by date is selected, the *Debit-credit interest rate* fields are displayed.  
 
 - *Debit-credit interest rate*  
 Enter the corresponding values in both fields.
 
 - *Sorting*  
 Click the drop-down list to select the sorting mode. The following options are available:
- - **normal**
- - **by cost centers**
 
-[comment]: <> (Other options possible?)
+ - **Normal**  
+ Select this option to include all data available matching the previously selected criteria.
+ - **By cost centers**  
+ Select this option to sort the data by cost center. When selecting this option, a new drop-down list is displayed containing the available cost centers.
+ - **By cost units**  
+ Select this option to sort the data by cost unit. When selecting this option, a new drop-down list is displayed containing the available cost centers.
+
+ > [Info] The options **by cost centers** and **by cost units** are only displayed if cost centers and cost units have been set up in the *COST ACCOUNTING* tab, see [Cost accounting](./02e_CostAccounting.md).
 
 - [CLOSE]  
 Click this button to close the window.
 
 - [PRINT]  
-Click this button to create the evaluation report in a printable format.
+Click this button to create the evaluation report in a printable format. An evaluation report preview is displayed in a new window.
 
-[comment]: <> (New window opens with evaluation. Describe?)
+  ![Account sheet](../../Assets/Screenshots/RetailSuiteAccounting/Book/AccountBalancePreview.png "[Account sheet]")
+
+[comment]: <> (Dieses Fenster beschreiben? Drucken durch rechten Mausklik, sofern gesehen)
+
 
 ### Account sheet
 
@@ -1047,31 +1120,35 @@ Select the checkbox to include only the newly added postings.
 - *Kennzeichen zurücksetzen* [x]  
 Select the checkbox to...
 
-[comments]: <> (Setzen Sie einen Haken in das Kästchen, wenn nur die neu hinzugefügten Buchungen in dem Kontenblatt ausgegeben werden soll. Damit diese Funktion greift, muss zusätzlich das Feld Kennzeichen zurücksetzen angewählt werden. Stimmt das so? Was macht diese Funktion/Checkbox? Was ist mit "Kennzeichen" gemeint?)
+[comments]: <> (Alt-Doku: Setzen Sie einen Haken in das Kästchen, wenn nur die neu hinzugefügten Buchungen in dem Kontenblatt ausgegeben werden soll. Damit diese Funktion greift, muss zusätzlich das Feld Kennzeichen zurücksetzen angewählt werden. Stimmt das so? Was macht diese Funktion/Checkbox? Was ist mit "Kennzeichen" gemeint?)
 
 - *Month*  
 Enter the period to be included.
 
 - *Date*  
-You can narrow down the period to be included specifying the dates. Date format must be DDMMYY.
+You can narrow down the period to be included specifying a date range. The valid date format is DDMMYY.
 
 - *Accounts*  
 Enter the account number range to be displayed.
 
 - *Sorting*  
 Click the drop-down list to select the sorting mode. The following options are available:
- - **normal**
- - **by cost centers**
 
-[comment]: <> (Other options possible?)
+ - **Normal**  
+ Select this option to include all data available matching the previously selected criteria.
+ - **By cost centers**  
+ Select this option to sort the data by cost center. When selecting this option, a new drop-down list is displayed containing the available cost centers.
+ - **By cost units**  
+ Select this option to sort the data by cost unit. When selecting this option, a new drop-down list is displayed containing the available cost centers.
 
-[comment]: <> (Altdoku: Das Kontenblatt lässt sich nach Kostenstellen und Kostenträgern sortieren und auswerten. Bei einer Auswahl in diesem Feld werden nur Buchungen ausgegeben, die den ausgewählten Kostenträger oder Kostenstelle betreffen. Stimmt so? Was debeutet hier "normal"?)
+ > [Info] The options **by cost centers** and **by cost units** are only displayed if cost centers and cost units have been set up in the *COST ACCOUNTING* tab, see [Cost accounting](./02e_CostAccounting.md).
+
 
 - [CANCEL]  
 Click this button to cancel your selection.
 
 - [PRINT]  
-Click this button to create the evaluation report in a printable format.
+Click this button to create the evaluation report in a printable format. The evaluation report preview is displayed in a new window.
 
 
 ### Journal
@@ -1087,19 +1164,22 @@ Enter the month(s) to be included.
 Enter the journal(s) to be included.
 
 - *Sorting*  
-Click the drop-down list to select the sorting mode.  The following options are available:
- - **normal**
- - **by cost centers**
+Click the drop-down list to select the sorting mode. The following options are available:
 
-[comment]: <> (Other options possible?)
+ - **Normal**  
+ Select this option to include all data available matching the previously selected criteria.
+ - **By cost centers**  
+ Select this option to sort the data by cost center. When selecting this option, a new drop-down list is displayed containing the available cost centers.
+ - **By cost units**  
+ Select this option to sort the data by cost unit. When selecting this option, a new drop-down list is displayed containing the available cost centers.
 
-[comment]: <> (Altdoku: Das Journal lässt sich nach Kostenstellen und Kostenträgern sortieren und auswerten. Bei einer Auswahl in diesem Feld werden nur Buchungen ausgegeben, die den ausgewählten Kostenträger oder Kostenstelle betreffen. Stimmt es so? Was bedeutet hier "normal"?)
+ > [Info] The options **by cost centers** and **by cost units** are only displayed if cost centers and cost units have been set up in the *COST ACCOUNTING* tab, see [Cost accounting](./02e_CostAccounting.md).
 
 - [CANCEL]  
 Click this button to cancel your selection.
 
 - [PRINT]  
-Click this button to create the evaluation report in a printable format.
+Click this button to create the evaluation report in a printable format. The evaluation report preview is displayed in a new window.
 
 
 ### Balance list
@@ -1136,25 +1216,30 @@ Click the drop-down list to select the accounts to be displayed. The following o
 - *Layout*  
 Click the drop-down list to select the preferred layout. There are two options available:  
 
- - **normal**
- - **balance list**
+ - **Normal**
+ - **Balances list**
 
  [comment]: <> (Difference? to be completed!)
 
-- *Sorting*  
-Click the drop-down list to select the sorting mode.  The following options are available:
- - **normal**
- - **by cost centers**
+ - *Sorting*  
+ Click the drop-down list to select the sorting mode. The following options are available:
 
-[comment]: <> (Other options possible?)
+  - **Normal**  
+  Select this option to include all data available matching the previously selected criteria.
+  - **By cost centers**  
+  Select this option to sort the data by cost center. When selecting this option, a new drop-down list containing the available cost centers is displayed. The additional drop-down list *Show distribution* allows to further customize the evaluation report.  
+  - **By cost units**  
+  Select this option to sort the data by cost unit. When selecting this option, a new drop-down list is displayed containing the available cost centers. The additional drop-down list *Show distribution* allows to further customize the evaluation report.
 
-[comment]: <> (Altdoku: Das Journal lässt sich nach Kostenstellen und Kostenträgern sortieren und auswerten. Bei einer Auswahl in diesem Feld werden nur Buchungen ausgegeben, die den ausgewählten Kostenträger oder Kostenstelle betreffen. Stimmt es so? Was bedeutet hier "normal"?)
+  > [Info] The options **by cost centers** and **by cost units** are only displayed if cost centers and cost units have been set up in the *COST ACCOUNTING* tab, see [Cost accounting](./02e_CostAccounting.md).
+
 
 - [CANCEL]  
   Click this button to cancel your selection.
 
 - [PRINT]  
   Click this button to create the evaluation report in a printable format.
+
 
 ### Open items
 
@@ -1231,7 +1316,7 @@ Click the drop-down list to select the month range to be included. The following
 Click the drop-down list to select two different years to be compared with each other. If no year for comparison exists, the option **no year for comparison** is displayed.
 
 - *BWA number*  
-Click the drop-down list to select the BWA report type to be created. The following options are available per default:
+Click the drop-down list to select the BWA report type to be created. The following options are available by default:
 
   - **1: Profit and loss account**
   - **2: Cash basis accounting**

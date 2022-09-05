@@ -1,5 +1,5 @@
-[!!Order management](RetailSuiteFaktBase)  
-[!!Taxes](Taxes)  
+[!!Order management](../../RetailSuiteFaktBase/Overview/01_General.md)  
+[!!Taxes](../../Taxes/Overview/01_General.md)  
 [!!User Interface Tax keys](../UserInterface/02c_TaxKeys.md)  
 
 
