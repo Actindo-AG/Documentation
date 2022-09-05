@@ -1,4 +1,4 @@
-[!!Omni-Channel](Channels)
+[!!Omni-Channel](../../Channels/Overview/01_General.md)
 [!!User Interface ETL processes](../UserInterface/02h_ETLProcesses.md)
 [!!User Interface ETL](../UserInterface/02d_ETL.md)
 [!!Manage the ETL mappings](./01_ManageETLMappings.md)
