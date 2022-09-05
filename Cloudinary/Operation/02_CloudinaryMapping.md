@@ -1,4 +1,4 @@
-[!!DataHub](DataHub)
+[!!DataHub](../../DataHub/Overview/01_General.md)
 [!!User Interface DataHub](../../DataHub/UserInterface/00_UserInterface.md)
 [!!Manage the ETL mappings](../../DataHub/Operation/01_ManageETLMappings.md)
 [!!ETL extensions list](../../DataHub/UserInterface/03_ETLExtensions.md)

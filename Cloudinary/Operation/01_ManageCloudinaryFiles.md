@@ -1,4 +1,4 @@
-[!!PIM](PIM)
+[!!PIM](../../PIM/Overview/01_General.md)
 [!!User Interface PIM](../../PIM/UserInterface/00_UserInterface.md)
 [!!Manage the Cloudinary attributes](../Integration/02_ManageCloudinaryAttributes.md)
 

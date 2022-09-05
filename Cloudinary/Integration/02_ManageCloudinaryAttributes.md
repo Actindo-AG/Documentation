@@ -1,4 +1,4 @@
-[!!PIM](PIM)
+[!!PIM](../../PIM/Overview/01_General.md)
 [!!User Interface PIM](../../PIM/UserInterface/00_UserInterface.md)
 [!!Manage the attributes](../../PIM/Integration/01_ManageAttributes.md)
 [!!Data type list](../../PIM/UserInterface/04_DataTypeList.md)
