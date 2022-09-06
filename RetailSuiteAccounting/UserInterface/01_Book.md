@@ -47,7 +47,7 @@ Click this menu entry to take over automatically cash payments registered in the
 - *Bank data takeover*  
 Click this menu entry to take over bank and payment details registered in the *Payment processing* module. The *Bank data synchronizing* window is displayed, see [Bank data takeover](#bank-data-takeover).
 
-  [comment]: <> (RS FH about function and need of procedure. How is it used by customers? FH: It can probably be deleted. It is no longer/hardly? used and will be deleted in next releases. To be confirmed!)
+  [comment]: <> (FH: It can probably be deleted. It is no longer/hardly? used and will be deleted in next releases. To be confirmed!)
 
 - ![Lock](../../Assets/Icons/Lock02.png "[Lock]") *Process*  
 Click this menu entry to process several postings simultaneously. The *Process postings* window is displayed, see [Process](#process).
