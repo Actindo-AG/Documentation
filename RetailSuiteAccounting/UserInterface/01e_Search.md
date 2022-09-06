@@ -6,27 +6,29 @@
 
 The *SEARCH* tab in the *Accounting* module allows to search for a specific account or posting using different search criteria. For detailed information about the search function, see [Search in accounting](../Operation/14_SearchAccounting.md).
 
-
-- ![Open](../../Assets/Icons/Back02.png "[Open]") (Open)   
+- ![Left arrow](../../Assets/Icons/Back02.png "[Left arrow]") (Left arrow)   
 Click this arrow to open the *Post extras* side bar.
 
-  > [Info] The *Post extras* side bar opens automatically when clicking the *SEARCH* tab.
+  > [Info] The *Post extras* side bar is opened automatically when clicking the *SEARCH* tab.
 
-- ![Close](../../Assets/Icons/Close.png "[Close]") (Close)  
+- ![Right arrow](../../Assets/Icons/Close.png "[Right arrow]") (Right arrow)  
 Click this arrow to close the *Post extras* side bar.
-
-
 
 The *Post extras* side bar contains two sub-tabs:
 
-  - *Accounts* - to search for accounts
-  - *Search* - to search for postings
+  - *Accounts*: to search for accounts
+  - *Search*: to search for postings
+
 
 ## Accounts sub-tab
 
 *Accounting > Post > Tab SEARCH > Side bar Post extras > Sub-tab Accounts*
 
   ![Sub-tab Accounts](../../Assets/Screenshots/RetailSuiteAccounting/Book/Search/BookExtrasAccounts.png "[Sub-tab Accounts]")
+
+  ![Search for an account](../../Assets/Screenshots/RetailSuiteAccounting/Book/Search/AccNoDescription.png "[Search for an account]")
+
+  [comment]: <> (Erstes Bild muss ersetzt werden - ohne Wellen bzw. ohne zu kürzen. Oder alternativ, zweites Bild? RS mit HG notwendig.)
 
 - [QUICK SEARCH]  
 Click this button to display the *QUICK SEARCH* context menu. The following options are available:
@@ -54,6 +56,7 @@ This column displays the account number.
 - *Description*  
 This column displays the account name.
 
+[comment]: <> (Info unten weglassen? Standardfunktionen)
 
 - ![First page](../../Assets/Icons/FirstPage.png "[First page]") - ![Last page](../../Assets/Icons/LastPage.png "[Last page]") (First page) - (Last page)  
  ![Previous page](../../Assets/Icons/PreviousPage.png "[Previous page]") - ![Next page](../../Assets/Icons/NextPage.png "[Next page]") (Previous page) - (Next page)  
@@ -109,7 +112,7 @@ This column displays a list of the available search criteria. The following sear
   Enter the journal to be searched for.
 
   - *Date*  
-  Enter the date to be searched for in the fields provided. Date format is DD MM YYYY in this case.
+  Enter the date to be searched for in the fields provided. The valid date format is DD MM YYYY in this case.
 
   - *Cost center*  
   Enter the cost center to be searched for.
@@ -124,7 +127,7 @@ This column displays a list of the available search criteria. The following sear
   Click the drop-down list to select the relevant user.
 
 - NOT  
-Select this checkbox to exclude the corresponding search criterion.
+Select this checkbox to exclude the entered value.
 
 - Search for  
 Enter the search text in this search bar or select the appropriate option from the corresponding drop-down list.  

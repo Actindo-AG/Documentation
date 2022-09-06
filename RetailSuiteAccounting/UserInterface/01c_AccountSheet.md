@@ -9,7 +9,7 @@ The *ACCOUNT SHEET* tab displays a chronologically ordered list of all movements
 
 ![Account sheet - no account selected](../../Assets/Screenshots/RetailSuiteAccounting/Book/AccountSheet/AccountSheetNoAccount.png "[Account sheet - no account selected]")
 
-When clicking the *ACCOUNT SHEET* tab, a blank tab and the message "No account selected" may be displayed. An account must be selected to display the corresponding details. If a posting is selected in the *POSTINGS* tab, the details of the account specified in the Contra Account field are displayed in the *ACCOUNT SHEET* tab. If the Contra Account field is empty, the details of the account specified in the Account field are displayed.
+When clicking the *ACCOUNT SHEET* tab, a blank tab and the notice "No account selected" may be displayed. An account must be selected to display the corresponding details. If a posting is selected in the *POSTINGS* tab, the details of the account specified in the *Contra Account* field are displayed in the *ACCOUNT SHEET* tab. If the *Contra Account* field is empty, the details of the account specified in the *Account* field are displayed.
 
 For detailed information about accessing an account sheet, see [Access the account sheet](../Operation/02_ReviewAccount.md#access-the-account-sheet).
 
@@ -25,6 +25,8 @@ This text displays the fiscal year, month and journal currently selected. This i
 
   > [Info] If the fiscal year or the posting period need to be changed, click the [FY/MONTH/JOURNAL] button to display the select fiscal year window. For detailed information, see [Fiscal year](./00a_FiscalYear.md) and [Select a fiscal year](../Operation/01_SelectFiscalYear.md).
 
+- ![Left arrow](../../Assets/Icons/Back02.png "[Left arrow]") (Left arrow)   
+Click this arrow to open the *Post extras* side bar. For detailed information about searching in the *Accounting* module, see [Search in accounting](../Operation/14_SearchAccounting.md).
 
 - ![Previous](../../Assets/Icons/Previous.png "[Previous]")  *Scroll* ![Next](../../Assets/Icons/Next.png "[Next]")  
 Your can use the arrow buttons to scroll through the available accounts to search for a specific one. Alternatively, you can enter an account number in the input line.
@@ -33,7 +35,7 @@ Your can use the arrow buttons to scroll through the available accounts to searc
 The number and name of the selected account are displayed.
 
 - *Date*  
-This column displays the posting date. Date format is DDMMYY.
+This column displays the posting date. The valid date format is DDMMYY.
 
 - *BP*  
 This column displays the posting period (month).
@@ -42,10 +44,10 @@ This column displays the posting period (month).
 This column displays the journal.
 
 - *Contra account*  
-This column displays the contra account number. For detailed information about the available accounts, see [Chart of accounts](../Integration/01_RunAccountingWizard.md#chart-of-accounts).
+This column displays the contra account number.
 
 - *Tax key*  
-This column displays the tax key linked to the contra account. Tax keys can be created, edited and deleted, if necessary. For detailed information about managing tax keys, see [Manage the tax keys](../Integration/02_ManageTaxKeys.md).
+This column displays the tax key linked to the contra account.
 
 - *Receipt 1*  
 This column displays the receipt 1 value, usually the invoice number.
@@ -56,14 +58,14 @@ This column displays the receipt 1 value, usually the invoice number.
 This column displays the receipt 2 value, which can be any other reference number, such as the order number.
 
 - *Cost 1*  
-This column displays the cost unit number selected.
+This column displays the cost center number selected.
 
-  > [Info] This is only applicable is a cost center accounting for cost 1 has been set up. For detailed information, see [COST ACCOUNTING](./02e_CostAccounting.md).
+  > [Info] This is only applicable if at least one cost center has been set up. For detailed information, see [COST ACCOUNTING](./02e_CostAccounting.md).
 
 - *Cost 2*  
 This column displays the cost unit number selected.
 
-  > [Info] This is only applicable is a cost center accounting for cost 2 has been set up. For more details, see [COST ACCOUNTING](./02e_CostAccounting.md).
+  > [Info] This is only applicable if at least one cost unit has been set up. For detailed information, see [COST ACCOUNTING](./02e_CostAccounting.md).
 
 - *Debit*  
 This column displays the debit amount of the selected account.
@@ -72,7 +74,7 @@ This column displays the debit amount of the selected account.
 This column displays the credit amount of the selected account.
 
 - *(Unnamed column)*
-This column displays a ![B](../../Assets/Icons/Beleg.png "[B]") icon if a receipt has been linked to the posting. When clicking on the icon, the linked receipt is displayed in the *Attached document* window. For detailed information, see [Attached document](#attached-document).
+This column displays a ![B](../../Assets/Icons/Beleg.png "[B]") icon if a receipt has been linked to the posting. When clicking the icon, the linked receipt is displayed in the *Attached document* window. For detailed information, see [Attached document](#attached-document).
 
 - *Text*  
 This column displays the posting text, if any has been entered.
@@ -81,14 +83,14 @@ This column displays the posting text, if any has been entered.
 This field displays the total turnover of the selected account and its currency.
 
 - *Balance (currency)*  
-this field displays the balance of the selected account and its currency.
+This field displays the balance of the selected account and its currency.
 
 
 - *All months*  
-Click this radio button to display the balances for all months.
+Click this radio button to display the postings contained in the account sheet for all months.
 
 - *Only this month*  
-Click this radio button to display the balances only for the selected month.
+Click this radio button to display the postings contained in the account sheet only for the selected month.
 
 - *Show (all/the last [XXX]) postings*    
 Click the drop-down list to select the preferred display filter.
@@ -102,12 +104,10 @@ Click the drop-down list to select the preferred display filter.
 
 
 - ![Previous](../../Assets/Icons/Previous.png "[Previous]") *Document* ![Next](../../Assets/Icons/Next.png "[Next]")   
-These buttons do not have any function here, as there is only one document (or receipt) assigned to a posting.
-
-[comment]: <> (These buttons do have a function in "BELEGE BUCHEN/POST RECEIPTS". Add info? Link?)
+These buttons can be used to scroll through the documents. In this case, they do not have a real function, as there is only one document (or receipt) assigned to a posting.
 
 - ![First page](../../Assets/Icons/FirstPage02.png "[Previous]") ![First page](../../Assets/Icons/Previous.png "[Previous]") *Page [x]* ![Next](../../Assets/Icons/Next.png "[Next]")  
-The current page number is displayed. Click the arrow first page/previous/next buttons to scroll through the pages.
+The current page number is displayed. These buttons can be used to scroll through the pages. In this case, they do not have a real function, as there is only one document (or receipt) assigned to a posting.
 
 - (-) *Zoom* (+)  
 Click the -/+ buttons to zoom in and out of the document view.
@@ -115,6 +115,8 @@ Click the -/+ buttons to zoom in and out of the document view.
 - *Download file*  
 Click this button to download the document.
 
+- [CANCEL ASSIGNMENT]  
+Click this button to undo the receipt assignment if necessary.
 
 - [CLOSE]  
 Click this button to close the window.

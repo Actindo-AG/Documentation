@@ -64,7 +64,7 @@ Click this button to display the *QUICK SEARCH* context menu. All search criteri
   [comment]: <> (in the system: City)  
 
 - [Search bar]  
-  Click on the search bar to enter the search text (letters or numbers).
+  Click the search bar to enter the search text (letters or numbers).
 
 - ![Delete](../../Assets/Icons/Cross02.png "[Delete]") (Delete)  
   Click this button to delete the search text and to clear the search results.

@@ -25,16 +25,16 @@ Mark the checkbox to select all rows simultaneously.
 Row number. This number is assigned automatically by the system.
 
 - *Actindo tax key*  
-Enter the Actindo tax key. Click on the table cell to activate the entry field. This field is required.
+Enter the Actindo tax key. Click the table cell to activate the entry field. This field is required.
 
 - *SAP tax key*  
-Enter the SAP tax key (also called tax code). Click on the table cell to activate the entry field. This field is required.
+Enter the SAP tax key (also called tax code). Click the table cell to activate the entry field. This field is required.
 
 - *Valid from*  
-Enter validity start date if necessary. Date format must be DDMMYY or YYYY-MM-DD. Click on the table cell to activate the entry field. Alternatively, click the ![Calendar](../../Assets/Icons/Calendar.png "[Calendar]") button to select the validity start date.
+Enter validity start date if necessary. The valid date format is DDMMYY or YYYY-MM-DD. Click the table cell to activate the entry field. Alternatively, click the ![Calendar](../../Assets/Icons/Calendar.png "[Calendar]") button to select the validity start date.
 
 - *Valid until*  
-Enter validity end date if necessary. Date format must be DDMMYY or YYYY-MM-DD. Click on the table cell to activate the entry field. Alternatively, click the ![Calendar](../../Assets/Icons/Calendar.png "[Calendar]") button to select the validity end date.
+Enter validity end date if necessary. The valid date format is DDMMYY or YYYY-MM-DD. Click the table cell to activate the entry field. Alternatively, click the ![Calendar](../../Assets/Icons/Calendar.png "[Calendar]") button to select the validity end date.
 
 
 - [ADD]  

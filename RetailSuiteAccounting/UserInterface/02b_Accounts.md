@@ -5,9 +5,9 @@
 ![Accounts](../../Assets/Screenshots/RetailSuiteAccounting/Settings/Accounts/CreateAccount.png "[Accounts]")
 
 - *Account class*  
-Click the drop-down list to select an account class. Depending on the Chart of accounts set up in the system, the available account  classes may vary. For detailed information about setting up the chart of accounts, see [Chart of accounts](../Integration/01_RunAccountingWizard.md#chart-of-accounts).
+Click the drop-down list to select an account class. Depending on the Chart of accounts set up in the system, the available account classes may vary. For detailed information about the available charts of accounts, see [Chart of accounts](../Integration/01_RunAccountingWizard.md#chart-of-accounts).
 
-  > [Info] Individual accounts can also be created, edited or deleted. For detailed information, see [Manage the accounts](../Integration/03_ManageAccounts.md).
+  > [Info] Individual accounts within each account class can also be created, edited or deleted. For detailed information, see [Manage the accounts](../Integration/03_ManageAccounts.md).
 
 The accounts are displayed in a column view. All information provided in columns is read-only.
 
@@ -30,18 +30,16 @@ Validity end date of the account.
 - *Automatic*  
 The letter A is displayed if the automatic tax key function has been configured for the account.
 
-[comment]: <> (Automatik -> mehr Info?)
-
 - *Tax type*   
 Abbreviation of the tax type configured for the account. The following options are available:  
 
-  - (none): No tax
-  - *I*: Input tax
-  - *V*: VAT
-  - *IV*: Input tax and VAT
-  - *NV*: No VAT possible
+  - *(None): No tax*
+  - *I: Input tax*
+  - *V: VAT*
+  - *IV: Input tax and VAT*
+  - *NV: No VAT possible*
 
-[comment]: <> (Abkürzungen im System nicht übersetzt. Auf DE lassen? Wenn ja, durchgängig, also, auch in Integration und Operation)
+[comment]: <> (Abkürzungen auf DE belassen? S. Tabelle)
 
 - *Tax key*  
 Tax key number configured for the account. Tax keys are configured together with the Chart of accounts.
@@ -51,32 +49,32 @@ Tax key number configured for the account. Tax keys are configured together with
 - *Spec. feat.*  
 Abbreviation of a special feature configured for the account. The following options are available:   
 
-  - (none): Normal
-  - *L*: Locked
-  - *DA*: Debtor collective account
-  - *CA*: Creditor collective account
-  - *MT*: Money transit account
+  - *(None): Normal*
+  - *L: Locked*
+  - *DA: Debtor collective account*
+  - *CA: Creditor collective account*
+  - *MT: Money transit account*
 
-[comment]: <> (Abkürzungen im System nicht übersetzt. Auf DE lassen? Wenn ja, durchgängig, also, auch in Integration und Operation)
+[comment]: <> (Abkürzungen auf DE belassen? S. Tabelle)
 
 - *Function*  
 Abbreviation of a specific function configured for the account. The following options are available:
 
-  - (none): No specific function
-  - *B*: Bank account
-  - *K*: Checkout
-  - *E*: Revenue account
-  - *EM*: Revenue account, only manual
-  - *V*: Debit/credit card settlement
-  - *S*: Discount debtors (granted)
-  - *SK*: Discount creditors (obtained)
-  - *WE*: Goods receipt
-  - *VKV*: Presettlement account
-  - *KA*: Expenses from exchange rate differences
-  - *KE*: Income from exchange rate differences
+  - *(None): No specific function*
+  - *B: Bank account*
+  - *K: Checkout*
+  - *E: Revenue account*
+  - *EM: Revenue account, only manual*
+  - *V: Debit/credit card settlement*
+  - *S: Discount debtors (granted)*
+  - *SK: Discount creditors (obtained)*
+  - *WE: Goods receipt*
+  - *VKV: Presettlement account*
+  - *KA: Expenses from exchange rate differences*
+  - *KE: Income from exchange rate differences*
 
 
-[comment]: <> (Abkürzungen auf DE belassen. Übersetzen? S. o. andere Abkürzungen)
+[comment]: <> (Abkürzungen hier auf DE belassen)
 
 - *Description*  
 Account description.

@@ -92,7 +92,7 @@ Click this button to proceed to the next step.
 **Step 2**
 
 - *Exporting*  
-This message is displayed during the export process.  
+This notice is displayed during the export process.  
 
 - [CANCEL]  
 Click this button to cancel the process. After a few seconds, the [CANCEL] button changes to a [CLOSE] button.  
@@ -111,7 +111,7 @@ A pop-up window confirms that the selected data have been exported correctly. Cl
 **Step 3**
 
 - *Exported files*  
-The exported file(s) are displayed and can be downloaded by clicking on the file name(s).
+The exported file(s) are displayed and can be downloaded by clicking the file name(s).
 
 - [CONTINUE]  
 
@@ -189,7 +189,7 @@ Click this button to proceed to the next step.
 
 
 - *Exporting*  
-This message is displayed during the export process.  
+This notice is displayed during the export process.  
 
 - [CANCEL]  
 Click this button to cancel the process. After a few seconds, the [CANCEL] button changes to a [CLOSE] button.  
@@ -206,7 +206,7 @@ A pop-up window confirms that the selected data have been exported correctly. Cl
 **Step 3**
 
 - *Exported files*  
-The exported file(s) are displayed and can be downloaded by clicking on the file name(s).
+The exported file(s) are displayed and can be downloaded by clicking the file name(s).
 
 - [CONTINUE]  
 
@@ -310,7 +310,7 @@ Click this button to proceed to the next step.
 **Step 2**
 
 - *Exporting*  
-This message is displayed during the export process.  
+This notice is displayed during the export process.  
 
 - [CANCEL]  
 Click this button to cancel the process. After a few seconds, the [CANCEL] button changes to a [CLOSE] button.  
@@ -326,7 +326,7 @@ A pop-up window confirms that the selected data have been exported correctly. Cl
 **Step 3**
 
 - *Exported files*  
-The exported file(s) are displayed and can be downloaded by clicking on the file name(s).
+The exported file(s) are displayed and can be downloaded by clicking the file name(s).
 
 - [CONTINUE]  
 
@@ -374,7 +374,7 @@ Click this button to proceed to the next step.
 **Step 2**
 
 - *Exporting*  
-This message is displayed during the export process.  
+This notice is displayed during the export process.  
 
 - [CANCEL]  
 Click this button to cancel the process. After a few seconds, the [CANCEL] button changes to a [CLOSE] button.  
@@ -391,7 +391,7 @@ A pop-up window confirms that the selected data have been exported correctly. Cl
 **Step 3**
 
 - *Exported files*  
-The exported file(s) are displayed and can be downloaded by clicking on the file name(s).
+The exported file(s) are displayed and can be downloaded by clicking the file name(s).
 
 - [CONTINUE]  
 
@@ -446,7 +446,7 @@ Click this button to proceed to the next step.
 **Step 2**
 
 - *Exporting*  
-This message is displayed during the export process.  
+This notice is displayed during the export process.  
 
 - [CANCEL]  
 Click this button to cancel the process. After a few seconds, the [CANCEL] button changes to a [CLOSE] button.  
@@ -462,7 +462,7 @@ A pop-up window confirms that the selected data have been exported correctly. Cl
 **Step 3**
 
 - *Exported files*  
-The exported file(s) are displayed and can be downloaded by clicking on the file name(s).
+The exported file(s) are displayed and can be downloaded by clicking the file name(s).
 
 - [CONTINUE]  
 
@@ -528,7 +528,7 @@ Click this button to proceed to the next step.
 **Step 2**
 
 - *Exporting*  
-This message is displayed during the export process.  
+This notice is displayed during the export process.  
 
 - [CANCEL]  
 Click this button to cancel the process. After a few seconds, the [CANCEL] button changes to a [CLOSE] button.  
@@ -545,7 +545,7 @@ A pop-up window confirms that the selected data have been exported correctly. Cl
 **Step 3**
 
 - *Exported files*  
-The exported file(s) are displayed and can be downloaded by clicking on the file name(s).
+The exported file(s) are displayed and can be downloaded by clicking the file name(s).
 
 - [CONTINUE]  
 
@@ -597,7 +597,7 @@ Click this button to proceed to the next step.
 **Step 2**
 
 - *Exporting*  
-This message is displayed during the export process.  
+This notice is displayed during the export process.  
 
 - [CANCEL]  
 Click this button to cancel the process. After a few seconds, the [CANCEL] button changes to a [CLOSE] button.  
@@ -613,7 +613,7 @@ A pop-up window confirms that the selected data have been exported correctly. Cl
 **Step 3**
 
 - *Exported files*  
-The exported file(s) are displayed and can be downloaded by clicking on the file name(s).
+The exported file(s) are displayed and can be downloaded by clicking the file name(s).
 
 - [CONTINUE]  
 
@@ -662,7 +662,7 @@ Click this button to proceed to the next step.
 **Step 2**
 
 - *Exporting*  
-This message is displayed during the export process.  
+This notice is displayed during the export process.  
 
 - [CANCEL]  
 Click this button to cancel the process. After a few seconds, the [CANCEL] button changes to a [CLOSE] button.  
@@ -679,7 +679,7 @@ A pop-up window confirms that the selected data have been exported correctly. Cl
 **Step 3**
 
 - *Exported files*  
-The exported file(s) are displayed and can be downloaded by clicking on the file name(s).
+The exported file(s) are displayed and can be downloaded by clicking the file name(s).
 
 - [CONTINUE]  
 
@@ -732,7 +732,7 @@ Click this button to proceed to the next step.
 **Step 2**
 
 - *Exporting*  
-This message is displayed during the export process.  
+This notice is displayed during the export process.  
 
 - [CANCEL]  
 Click this button to cancel the process. After a few seconds, the [CANCEL] button changes to a [CLOSE] button.  
@@ -749,7 +749,7 @@ A pop-up window confirms that the selected data have been exported correctly. Cl
 **Step 3**
 
 - *Exported files*  
-The exported file(s) are displayed and can be downloaded by clicking on the file name(s).
+The exported file(s) are displayed and can be downloaded by clicking the file name(s).
 
 - [CONTINUE]  
 
@@ -795,7 +795,7 @@ Enter a file suffix, if applicable. Only numbers can be used.
 **Step 2**
 
 - *Exporting*  
-This message is displayed during the export process.  
+This notice is displayed during the export process.  
 
 - [CANCEL]  
 Click this button to cancel the process. After a few seconds, the [CANCEL] button changes to a [CLOSE] button.  
@@ -812,7 +812,7 @@ A pop-up window confirms that the selected data have been exported correctly. Cl
 **Step 3**
 
 - *Exported files*  
-The exported file(s) are displayed and can be downloaded by clicking on the file name(s).
+The exported file(s) are displayed and can be downloaded by clicking the file name(s).
 
 - [CONTINUE]  
 
@@ -863,7 +863,7 @@ Click this button to proceed to the next step.
 **Step 2**
 
 - *Exporting*  
-This message is displayed during the export process.  
+This notice is displayed during the export process.  
 
 - [CANCEL]  
 Click this button to cancel the process. After a few seconds, the [CANCEL] button changes to a [CLOSE] button.  
@@ -879,7 +879,7 @@ A pop-up window confirms that the selected data have been exported correctly. Cl
 **Step 3**
 
 - *Exported files*  
-The exported file(s) are displayed and can be downloaded by clicking on the file name(s).
+The exported file(s) are displayed and can be downloaded by clicking the file name(s).
 
 - [CONTINUE]  
 

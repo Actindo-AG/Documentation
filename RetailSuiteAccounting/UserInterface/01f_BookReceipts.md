@@ -6,16 +6,8 @@
 
 The *POST RECEIPTS* tab allows to assign manually external receipts uploaded in the system that have not been registered yet in the *Accounting* module. For detailed information about posting external receipts, see [Post a receipt](../Operation/10_ManageReceipts.md#post-a-receipt).
 
-> [Info] The external receipts uploaded in the *New documents* folder in the *Documents* module are displayed here. If there are no receipts to be posted, the message *No documents left to be registered* is displayed when clicking the *POST RECEIPTS* tab.
+> [Info] The external receipts uploaded in the *New documents* folder in the *Documents* module are displayed in the *POST RECEIPTS* tab. If there are no receipts to be posted, the notice *No documents left to be registered* is displayed.
 
-- [FY/MONTH/JOURNAL]  
-Click this button to display the select fiscal year window. For detailed information about this cross-tab function, see [FY/MONTH/JOURNAL](./01_Book.md#fymonthjournal).
-
-- [EDIT]  
-Click this button to display the *EDIT* context menu. For detailed information about this cross-tab function, see [EDIT](./01_Book.md#edit).
-
-- [EVALUATIONS]  
-Click this button to display the *EVALUATIONS* context menu. For detailed information about this cross-tab function, see [EVALUATIONS](./01_Book.md#evaluations).
 
 - *Fiscal year XXXX/Month X/Journal X*  
 This text displays the fiscal year, month and journal currently selected. This information is read-only.
@@ -46,17 +38,16 @@ The information provided in these fields refers to the postings list and is not 
 A miniature view of the currently displayed document is shown to the right of workspace.
 
 
-The input line allows to create a posting manually to assign the receipt. For detailed information, see [Post a receipt](../Operation/10_ManageReceipts.md#post-a-receipt).
+The input line allows to create a posting manually to post the receipt. For detailed information, see [Post a receipt](../Operation/10_ManageReceipts.md#post-a-receipt).
 
-[comment]: <> (Rephrase? Book/assign)
 
 - *Seq. no.*  
- Enter the posting number. Posting numbers must be sequential. The system adds the next available number automatically if the field is left empty.
+ Leave this field empty. Posting numbers must be sequential. The system adds the next available number automatically.
 
 - *Currency code*  
-Click the drop-down list to select the appropriate currency.  
+Click the drop-down list to select the applicable currency.  
 
-  > [Info] It is possible to set up accounts in different currencies. However, the *Accounting* module can only work with the base currency configured in the system. For detailed information about managing and posting exchange rate fluctuations, see [Post exchange rate fluctuations](../Operation/12_BookExchangeRateFluctuations.md).
+  > [Info] It is possible to set up accounts and post transactions in different currencies, but the *Accounting* module can only work with the base currency configured in the system. For detailed information about managing and posting exchange rate fluctuations, see [Post exchange rate fluctuations](../Operation/12_BookExchangeRateFluctuations.md).
 
 - *Exchange rate*  
 This field updates automatically when changing the currency. It can also be modified manually.
@@ -67,9 +58,9 @@ This field updates automatically when changing the currency. It can also be modi
 Enter the turnover value. Turnover values can be positive (incomes) or negative (expenses). This field is compulsory to create a posting manually.
 
 - *Contra account*  
-Enter the appropriate contra account. For detailed information about the available accounts, see [Chart of accounts](../Integration/01_RunAccountingWizard.md#chart-of-accounts). This field is compulsory to create a posting manually.
+Enter the appropriate contra account.
 
-  > [Info] When you start typing in an account number, a context menu is displayed. You can also select the appropriate option from the menu.
+  > [Info] After you have entered at least two characters in the field, a list is displayed with all accounts matching the entry. You can also select the corresponding account in the list.
 
 - *Receipt 1*  
 Enter an appropriate reference value, such as the invoice number.
@@ -80,7 +71,7 @@ Enter an appropriate reference value, such as the invoice number.
 Enter any other appropriate reference value, such as order number.
 
 - *Date*  
-Enter the posting date. Date format must be DDMMYY.
+Enter the posting date. The valid date format is DDMMYY.
 
 - *Account*   
 Enter the appropriate account number, for example a personal account number, that is, customer or supplier number. A valid range for personal account numbers (10000-69999 for customers and 70000-99999 for suppliers) is predefined in the system.
@@ -90,12 +81,12 @@ Enter the appropriate account number, for example a personal account number, tha
 - *COST1*  
 Enter the appropriate value.
 
-  > [Info] This is only applicable is a cost center accounting for cost 1 has been set up. For detailed information, see [COST ACCOUNTING](./02e_CostAccounting.md).
+  > [Info] This is only applicable if at least one cost center has been set up. For detailed information, see [COST ACCOUNTING](./02e_CostAccounting.md).
 
 - *COST2*  
 Enter the appropriate value.
 
-  > [Info] This is only applicable is a cost center accounting for cost 2 has been set up. For detailed information, see [COST ACCOUNTING](./02e_CostAccounting.md).
+  > [Info] This is only applicable if at least one cost unit has been set up. For detailed information, see [COST ACCOUNTING](./02e_CostAccounting.md).
 
 - *Posting text*  
 Enter an appropriate posting text. The posting text can contain a combination of letters and numbers.
@@ -115,7 +106,7 @@ This field displays the current balance of the corresponding account. H stands f
 
 
 - [POST]    
-Click this button to record the posting in the input line.
+Click this button to post the transaction entered in the input line.
 
 - [CANCEL]  
 Click this button to cancel a selected posting in the *Postings* tab. This button is not relevant for this tab. For detailed information, see [Cancel a posting](../Operation/05_CancelBooking.md).

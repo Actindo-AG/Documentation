@@ -128,7 +128,7 @@ Click this button to save the changes made in the accounting report. For detaile
 
   ![Add report lines](../../Assets/Screenshots/RetailSuiteAccounting/Settings/BWAAssignment/AddReportLines.png "[Add report lines]")
 
-  > [Info] If the accounting report has been newly created, that means, it is not a copy of a predefined BWA report, the *Accounting report lines* section is empty. The message *No report lines created. Use + button to create one* is displayed. Click the ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) button to add accounting report lines. The *Create* section is displayed, see [Create report lines](#create-report-lines).
+  > [Info] If the accounting report has been newly created, that means, it is not a copy of a predefined BWA report, the *Accounting report lines* section is empty. The notice *No report lines created. Use + button to create one* is displayed. Click the ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) button to add accounting report lines. The *Create* section is displayed, see [Create report lines](#create-report-lines).
 
 
 - **Report copied from a predefined system report**
@@ -158,7 +158,7 @@ Click this button to save the changes made in the accounting report. For detaile
 
       > [Warning] Be aware that the selected accounting report line will be deleted permanently.
 
-  The accounting report lines are displayed in column view. These fields are read-only. Select a checkbox to the left of an accounting report line and click the ![Edit](../../Assets/Icons/Edit01.png "[Edit]") (Edit) button to edit it. Alternatively, click on a report line to display the *Edit* view, see [Edit report lines](#edit-report-lines).
+  The accounting report lines are displayed in column view. These fields are read-only. Select a checkbox to the left of an accounting report line and click the ![Edit](../../Assets/Icons/Edit01.png "[Edit]") (Edit) button to edit it. Alternatively, click a report line to display the *Edit* view, see [Edit report lines](#edit-report-lines).
 
   - *Line number*  
     Line number as predefined in the system report.

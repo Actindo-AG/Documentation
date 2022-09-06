@@ -54,7 +54,7 @@ A list of compatible files is displayed. The following files are permitted:
   - *abrzr.dat*
 
 - [Choose file]  
-Click this button to select a file from your computer to be uploaded. If no file has been selected yet, the message "No file chosen" is displayed.
+Click this button to select a file from your computer to be uploaded. If no file has been selected yet, the notice "No file chosen" is displayed.
 
 - [UPLOAD]  
 Click this button to upload the selected file. The *Compeso 7.x: Step 2* is displayed.
@@ -68,7 +68,7 @@ Click this button to proceed to the next step.
 **Step 2**
 
 - *Converting...*  
-This message is displayed during the import process.  
+This notice is displayed during the import process.  
 
 - [CANCEL]  
 Click this button to cancel the process.
@@ -96,7 +96,7 @@ Click this radio button to select a file from your computer to be uploaded. The 
 Click this radio button to select a file from a DMS to be uploaded. The [SEARCH] button is displayed.
 
 - [Choose file]  
-Click this button to select a file from your computer to be uploaded. If no file has been selected yet, the message "No file chosen" is displayed.
+Click this button to select a file from your computer to be uploaded. If no file has been selected yet, the notice "No file chosen" is displayed.
 
 - [SEARCH]  
 Click this button to search for the file to be uploaded. The *Search file* window is displayed, see [Select file](#select-file).
@@ -160,7 +160,7 @@ Click this button to proceed to the next step.
 > [Info] Depending on the imported data, the screen displayed varies.
 
 - *Postings*  
-The import file contains postings to be imported. Otherwise, the message "No postings in the import file" is displayed.
+The import file contains postings to be imported. Otherwise, the notice "No postings in the import file" is displayed.
 
   - *Take over postings?*  
   Select **No** if you do not want the system to take over the postings in the import file. The default setting is **Yes**.
@@ -171,7 +171,7 @@ The import file contains postings to be imported. Otherwise, the message "No pos
 
 - *Impersonal accounts*
 
-  The import file contains impersonal accounts to be imported. Otherwise, the message "No impersonal accounts in the import file" is displayed.
+  The import file contains impersonal accounts to be imported. Otherwise, the notice "No impersonal accounts in the import file" is displayed.
 
   - *Take over impersonal accounts?*  
   Select **No** if you do not want the system to take over the impersonal accounts in the import file. The default setting is **Yes**.
@@ -182,7 +182,7 @@ The import file contains postings to be imported. Otherwise, the message "No pos
 
 - *Personal accounts*  
 
-  The import file contains personal accounts to be imported. Otherwise, the message "No personal accounts in the import file" is displayed.
+  The import file contains personal accounts to be imported. Otherwise, the notice "No personal accounts in the import file" is displayed.
 
   - *Take over personal accounts?*  
   Select **No** if you do not want the system to take over the personal accounts in the import file. The default setting is **Yes**.
@@ -203,7 +203,7 @@ Click this button to complete the import process.
 **Step 4**
 
 - *Importing...*  
-This message is displayed during the import process.  
+This notice is displayed during the import process.  
 
 - [CANCEL]  
 Click this button to cancel the process.
@@ -238,7 +238,7 @@ Click this radio button to select a file from your computer to be uploaded. The 
 Click this radio button to select a file from a DMS to be uploaded. The [SEARCH] button is displayed.
 
 - [Choose file]  
-Click this button to select a file from your computer to be uploaded. If no file has been selected yet, the message "No file chosen" is displayed.
+Click this button to select a file from your computer to be uploaded. If no file has been selected yet, the notice "No file chosen" is displayed.
 
 - [SEARCH]  
 Click this button to search for the file to be uploaded. The *Search file* window is displayed, see [Select file](#select-file).
@@ -300,7 +300,7 @@ Click this radio button to select a file from your computer to be uploaded. The 
 Click this radio button to select a file from a DMS to be uploaded. The [SEARCH] button is displayed.
 
 - [Choose file]  
-Click this button to select a file from your computer to be uploaded. If no file has been selected yet, the message "No file chosen" is displayed.
+Click this button to select a file from your computer to be uploaded. If no file has been selected yet, the notice "No file chosen" is displayed.
 
 - [SEARCH]  
 Click this button to search for the file to be uploaded. The *Search file* window is displayed, see [Select file](#select-file).
@@ -350,7 +350,7 @@ Click this button to proceed to the next step.
 
 - *Impersonal accounts*
 
-  The import file contains impersonal accounts to be imported. Otherwise, the message "No impersonal accounts in the import file" is displayed.
+  The import file contains impersonal accounts to be imported. Otherwise, the notice "No impersonal accounts in the import file" is displayed.
 
   - *Take over impersonal accounts?*  
   Select **No** if you do not want the system to take over the impersonal accounts in the import file. The default setting is **Yes**.
@@ -361,7 +361,7 @@ Click this button to proceed to the next step.
 
 - *Personal accounts*  
 
-  The import file contains personal accounts to be imported. Otherwise, the message "No personal accounts in the import file" is displayed.
+  The import file contains personal accounts to be imported. Otherwise, the notice "No personal accounts in the import file" is displayed.
 
   - *Take over personal accounts?*  
   Select **No** if you do not want the system to take over the personal accounts in the import file. The default setting is **Yes**.
@@ -382,7 +382,7 @@ Click this button to complete the import process.
 **Step 4**
 
 - *Importing...*  
-This message is displayed during the import process.  
+This notice is displayed during the import process.  
 
 - [CANCEL]  
 Click this button to cancel the process.
@@ -418,7 +418,7 @@ Click this radio button to select a file from your computer to be uploaded. The 
 Click this radio button to select a file from a DMS to be uploaded. The [SEARCH] button is displayed.
 
 - [Choose file]  
-Click this button to select a file from your computer to be uploaded. If no file has been selected yet, the message "No file chosen" is displayed.
+Click this button to select a file from your computer to be uploaded. If no file has been selected yet, the notice "No file chosen" is displayed.
 
 - [SEARCH]  
 Click this button to search for the file to be uploaded. The *Search file* window is displayed, see [Select file](#select-file).
@@ -472,7 +472,7 @@ Click this radio button to select a file from your computer to be uploaded. The 
 Click this radio button to select a file from a DMS to be uploaded. The [SEARCH] button is displayed.
 
 - [Choose file]  
-Click this button to select a file from your computer to be uploaded. If no file has been selected yet, the message "No file chosen" is displayed.
+Click this button to select a file from your computer to be uploaded. If no file has been selected yet, the notice "No file chosen" is displayed.
 
 - [SEARCH]  
 Click this button to search for the file to be uploaded. The *Search file* window is displayed, see [Select file](#select-file).
@@ -489,7 +489,7 @@ Click this button to proceed to the next step.
 **Step 2**
 
 - *Converting...*  
-This message is displayed during the import process.  
+This notice is displayed during the import process.  
 
 - [CANCEL]  
 Click this button to cancel the process.

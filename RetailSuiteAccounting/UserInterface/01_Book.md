@@ -460,7 +460,7 @@ Click this button to confirm your selection.
 
 **Balance carried forward: Step 1**
 
-The *Balance carried forward: Step 1* window allows to select balances to be carried forward to the next fiscal year.  For detailed information, see [Create a balance carried forward](../Operation/11_CreateBalanceCarriedForward.md).
+The *Balance carried forward: Step 1* window allows to select balances to be carried forward to the next fiscal year. For detailed information, see [Create a balance carried forward](../Operation/11_CreateBalanceCarriedForward.md).
 
 - *Carry forward from FY*  
 Click the drop-down list to select the year containing the balance(s) to be carried forward.
@@ -523,7 +523,7 @@ The previously selected posting date is displayed. This field is read-only.
 - *Accounts*  
 The accounts containing a balance to be carried forward are displayed together with the balance amount. The balance amount can be both positive or negative.
 
-  >[Info] Hold the Ctrl (control) key and click on each account with the left mouse button to select multiple accounts simultaneously.
+  >[Info] Hold the Ctrl (control) key and click each account with the left mouse button to select multiple accounts simultaneously.
 
 - *Delete old balances carried forward from selected FY*  
 If the checkbox has been previously selected, **Yes** is displayed. Otherwise, **No** is displayed. This field is read-only.
@@ -575,7 +575,7 @@ This button is inactive, as there is no previous step.
 [comment]: <> (Comment added in the BUGS document for improvement, e.g. "ABBRECHEN/CANCEL" button instead, like in Saldovortrag function)
 
 - [CONTINUE]  
-Click this button to proceed to the next step.
+Click this button to proceed to the next step. A window for account selection is displayed.
 
 **Account selection**
 
@@ -628,12 +628,12 @@ Enter an applicable reference value.
 Enter an applicable reference value.
 
 - *Date*  
-Enter the posting date. Date format must be DDMMYY. This field is compulsory.
+Enter the posting date. The valid date format is DDMMYY. This field is compulsory.
 
 - *Supplier*  
-Enter the appropriate supplier account. This field is compulsory.
+Enter the applicable supplier account. This field is compulsory.
 
-  >[Info] After you have entered at least three characters in the field, a list is displayed with all accounts matching the entry. You can also select the corresponding account in the list. Alternatively, click the drop-down list and select the applicable contra account.
+  > [Info] After you have entered at least three characters in the field, a list is displayed with all accounts matching the entry. You can also select the corresponding account in the list. Alternatively, click the drop-down list and select the applicable supplier account.
 
 - *Posting text*  
 Enter an appropriate posting text. This field is compulsory.
@@ -661,7 +661,7 @@ Enter any relevant comments for potential auditors.
 Click this button to register the receipt in the system.
 
 - [SPLIT]  
-Click this button to perform a split posting if necessary.
+Click this button to perform a split posting if necessary. The *Breakdown posting* window is displayed, see [Breakdown posting](#breakdown-posting).
 
 
 #### Overview
@@ -925,7 +925,7 @@ When selecting a receipt, changes can still be made before takeover. For detaile
 Click this button to save any changes made to receipt data.
 
 - [SPLIT]  
-Click this button to perform a split posting if necessary. The *Breakdown posting* window is displayed.
+Click this button to perform a split posting if necessary. The *Breakdown posting* window is displayed, see [Breakdown posting](#breakdown-posting).
 
 [comment]: <> (Neues Fenster; UI geschnitten, s. Screenshot -> Bug in OneNote)
 
@@ -1095,7 +1095,7 @@ Click the drop-down list to select the sorting mode. The following options are a
  - **By cost units**  
  Select this option to sort the data by cost unit. When selecting this option, a new drop-down list is displayed containing the available cost centers.
 
- > [Info] The options **by cost centers** and **by cost units** are only displayed if cost centers and cost units have been set up in the *COST ACCOUNTING* tab, see [Cost accounting](./02e_CostAccounting.md).
+ > [Info] The options **By cost centers** and **By cost units** are only displayed if cost centers and cost units have been set up in the *COST ACCOUNTING* tab, see [Cost accounting](./02e_CostAccounting.md).
 
 - [CLOSE]  
 Click this button to close the window.
@@ -1117,10 +1117,10 @@ Click this button to create the evaluation report in a printable format. An eval
 - *Accounts newly posted to* [x]  
 Select the checkbox to include only the newly added postings.
 
-- *Kennzeichen zurücksetzen* [x]  
-Select the checkbox to...
+- *Reset mark* [x]  
+Select the checkbox to ...
 
-[comments]: <> (Alt-Doku: Setzen Sie einen Haken in das Kästchen, wenn nur die neu hinzugefügten Buchungen in dem Kontenblatt ausgegeben werden soll. Damit diese Funktion greift, muss zusätzlich das Feld Kennzeichen zurücksetzen angewählt werden. Stimmt das so? Was macht diese Funktion/Checkbox? Was ist mit "Kennzeichen" gemeint?)
+[comments]: <> (Alt-Doku: Setzen Sie einen Haken in das Kästchen, wenn nur die neu hinzugefügten Buchungen in dem Kontenblatt ausgegeben werden soll. Damit diese Funktion greift, muss zusätzlich das Feld Kennzeichen zurücksetzen angewählt werden. Stimmt das so? Was macht diese Funktion/Checkbox? Was ist mit "Kennzeichen zurücksetzen" gemeint?)
 
 - *Month*  
 Enter the period to be included.
@@ -1141,7 +1141,7 @@ Click the drop-down list to select the sorting mode. The following options are a
  - **By cost units**  
  Select this option to sort the data by cost unit. When selecting this option, a new drop-down list is displayed containing the available cost centers.
 
- > [Info] The options **by cost centers** and **by cost units** are only displayed if cost centers and cost units have been set up in the *COST ACCOUNTING* tab, see [Cost accounting](./02e_CostAccounting.md).
+ > [Info] The options **By cost centers** and **By cost units** are only displayed if cost centers and cost units have been set up in the *COST ACCOUNTING* tab, see [Cost accounting](./02e_CostAccounting.md).
 
 
 - [CANCEL]  
@@ -1173,7 +1173,7 @@ Click the drop-down list to select the sorting mode. The following options are a
  - **By cost units**  
  Select this option to sort the data by cost unit. When selecting this option, a new drop-down list is displayed containing the available cost centers.
 
- > [Info] The options **by cost centers** and **by cost units** are only displayed if cost centers and cost units have been set up in the *COST ACCOUNTING* tab, see [Cost accounting](./02e_CostAccounting.md).
+ > [Info] The options **By cost centers** and **By cost units** are only displayed if cost centers and cost units have been set up in the *COST ACCOUNTING* tab, see [Cost accounting](./02e_CostAccounting.md).
 
 - [CANCEL]  
 Click this button to cancel your selection.
@@ -1216,8 +1216,10 @@ Click the drop-down list to select the accounts to be displayed. The following o
 - *Layout*  
 Click the drop-down list to select the preferred layout. There are two options available:  
 
- - **Normal**
- - **Balances list**
+ - **Normal**  
+ Select this option to display a normal view.
+ - **Balance list**  
+ Select this option to display a balance list view.
 
  [comment]: <> (Difference? to be completed!)
 
@@ -1231,7 +1233,7 @@ Click the drop-down list to select the preferred layout. There are two options a
   - **By cost units**  
   Select this option to sort the data by cost unit. When selecting this option, a new drop-down list is displayed containing the available cost centers. The additional drop-down list *Show distribution* allows to further customize the evaluation report.
 
-  > [Info] The options **by cost centers** and **by cost units** are only displayed if cost centers and cost units have been set up in the *COST ACCOUNTING* tab, see [Cost accounting](./02e_CostAccounting.md).
+  > [Info] The options **By cost centers** and **By cost units** are only displayed if cost centers and cost units have been set up in the *COST ACCOUNTING* tab, see [Cost accounting](./02e_CostAccounting.md).
 
 
 - [CANCEL]  
@@ -1261,6 +1263,7 @@ Click the drop-down list to select the preferred layout. There are two options a
 
   - *Month up to*  
   Click the drop-down list to select the month(s) to be included. The following options are available:
+
     - **0 - Balances carried forward**
     - **1 - 12 - (calendar month)**
     - **13 - 15 - Subsequent postings**
@@ -1271,6 +1274,7 @@ Click the drop-down list to select the preferred layout. There are two options a
 
   - *Format*  
   Click the drop-down list to select the preferred format. The following options are available:
+
     - **Short format**  
     - **Short format, reduce postings**  
     - **Detailed**
@@ -1283,7 +1287,7 @@ Click the drop-down list to select the preferred layout. There are two options a
   Click this button to cancel your selection.
 
   - [PRINT]  
-  Click this button to create the evaluation report in a printable format.
+  Click this button to create the evaluation report in a printable format. An evaluation report preview is displayed in a new window.
 
 
 ### BWA
@@ -1292,12 +1296,19 @@ Click the drop-down list to select the preferred layout. There are two options a
 
   ![BWA](../../Assets/Screenshots/RetailSuiteAccounting/Book/BWA.png "[BWA]")
 
+The *BWA* window allows to create and print our different types of BWA reports. For detailed information, see [Create a PDF evaluation](../Operation/15_ProvideAccountingData.md#create-a-pdf-evaluation).
+
   - *Sorting*  
 Click the drop-down list to select the sorting mode. The following options are available:
- - **normal**
- - **by cost centers**
 
-[comment]: <> (Other options possible?)
+  - **Normal**  
+  Select this option to include all data available matching the previously selected criteria.
+  - **By cost centers**  
+  Select this option to sort the data by cost center. When selecting this option, a new drop-down list containing the available cost centers is displayed.
+  - **By cost units**  
+  Select this option to sort the data by cost unit. When selecting this option, a new drop-down list is displayed containing the available cost centers.
+
+  > [Info] The options **By cost centers** and **By cost units** are only displayed if cost centers and cost units have been set up in the *COST ACCOUNTING* tab, see [Cost accounting](./02e_CostAccounting.md).
 
 - [x] *Print cost center allocation*  
 Select the checkbox to display the cost center allocation.
@@ -1313,10 +1324,10 @@ Click the drop-down list to select the month range to be included. The following
 
 
 - *Comparison year* - *Comparison year 2*  
-Click the drop-down list to select two different years to be compared with each other. If no year for comparison exists, the option **no year for comparison** is displayed.
+Click the drop-down list to select two different years to be compared with each other. If no year for comparison is desired, select the option **No year for comparison**.
 
 - *BWA number*  
-Click the drop-down list to select the BWA report type to be created. The following options are available by default:
+Click the drop-down list to select the BWA report type to be created. All available BWA reports are displayed in the list. The following options are available by default:
 
   - **1: Profit and loss account**
   - **2: Cash basis accounting**
@@ -1342,10 +1353,7 @@ Click the drop-down list to select whether or not the account number is to be in
 Click this button to cancel your selection.
 
 - [PRINT]  
-Click this button to create the evaluation report in a printable format.
-
-
-For detailed information about creating a BWA evaluation, see [Create a PDF evaluation](../Operation/15_ProvideAccountingData.md#create-a-pdf-evaluation).
+Click this button to create the evaluation report in a printable format. An evaluation report preview is displayed in a new window.
 
 
 ### ProfitCenter
@@ -1365,17 +1373,17 @@ Click the drop-down list to select the month to be included. The following optio
 
 
 - *Comparison year*  
-Click the drop-down list to select a comparison year. If no comparison year is needed, select the option **no comp. year**.
+Click the drop-down list to select a comparison year. If no year for comparison is desired, select the option **No comp. year**.
 
 - *Cost unit group*  
-Click the drop-down list to select a cost unit group. If no cost unit group is needed, select the option *0 - no group*.  
+Click the drop-down list to select a cost unit group. If no cost unit group is needed, select the option *0 - No group*.  
 
   > [Info] For detailed information about creating and managing cost units, see [COST ACCOUNTING](./02e_CostAccounting.md).
 
 [comment]: <> (Check how it works!?)
 
 - *BWA number*  
-Click the drop-down list to select the BWA report type to be created. The following options are available:
+Click the drop-down list to select the BWA report type to be created. All available BWA reports are displayed in the list. The following options are available by default:
 
     - **1: Profit and loss account**
     - **2: Cash basis accounting**
@@ -1398,7 +1406,7 @@ Click the drop-down list to select the preferred layout. The following options a
   Click this button to cancel your selection.
 
 - [PRINT]  
-  Click this button to create the evaluation report in a printable format.
+  Click this button to create the evaluation report in a printable format. An evaluation report preview is displayed in a new window.
 
 
 ### Cost unit comparison
@@ -1418,19 +1426,14 @@ Click the drop-down list to select the month to be included. The following optio
 
 
 - *Cost unit group*  
-Click the drop-down list to select a cost unit group. There are two default options available:
-
-  - **ALL GROUPS**
-  - **0 - no group**
-
-  [comment]: <> (When cost unit group(s) created, do they appear in the drop-down list, as it is the case for Kostenstellen/cost centers? Where are cost units created?)
+Click the drop-down list to select a cost unit group. All available cost unit groups are displayed in the list.
 
   > [Info] For detailed information about creating and managing cost units, see [COST ACCOUNTING](./02e_CostAccounting.md).
 
 [comment]: <> (Check how it works!?)
 
 - *BWA number*  
-Click the drop-down list to select the BWA report type to be created. The following options are available:
+Click the drop-down list to select the BWA report type to be created. All available BWA reports are displayed in the list. The following options are available by default:
 
     - **1: Profit and loss account**
     - **2: Cash basis accounting**
@@ -1444,7 +1447,7 @@ Click the drop-down list to select the BWA report type to be created. The follow
   Click this button to cancel your selection.
 
 - [PRINT]  
-  Click this button to create the evaluation report in a printable format.
+  Click this button to create the evaluation report in a printable format. An evaluation report preview is displayed in a new window.
 
 
 ### Other
@@ -1454,7 +1457,7 @@ When clicking the *Other* menu entry of the EVALUATIONS context menu, a sub-menu
 
 #### Chart of accounts
 
-*Accounting > Post > Context menu EVALUATIONS > Menu entry Account sheet > Sub-menu entry Chart of accounts*
+*Accounting > Post > Context menu EVALUATIONS > Menu entry Other > Sub-menu entry Chart of accounts*
 
   ![Chart of accounts](../../Assets/Screenshots/RetailSuiteAccounting/Book/ChartOfAccounts.png "[Chart of accounts]")
 
@@ -1464,8 +1467,8 @@ Enter the account number range to be displayed.
 - *Sorting*  
 Click the drop-down list to select the sorting mode. The following options are available:
 
-  - **by number**
-  - **by name**
+  - **By number**
+  - **By name**
 
 
 - *[x] ONLY posted to*  
@@ -1475,11 +1478,12 @@ Select this checkbox to display only accounts posted to.
   Click this button to cancel your selection.
 
 - [PRINT]  
-  Click this button to create the evaluation report in a printable format.
+  Click this button to create the evaluation report in a printable format. An evaluation report preview is displayed in a new window.
+
 
 #### Deb./cred.
 
-*Accounting > Post > Context menu EVALUATIONS > Menu entry Account sheet > Sub-menu entry Deb./cred.*
+*Accounting > Post > Context menu EVALUATIONS > Menu entry Other > Sub-menu entry Deb./cred.*
 
   ![Debtors/Creditors](../../Assets/Screenshots/RetailSuiteAccounting/Book/DebtorsCreditors.png "[Debtors/Creditors]")
 
@@ -1490,4 +1494,4 @@ Enter the account number range to be displayed.
   Click this button to cancel your selection.
 
 - [PRINT]  
-  Click this button to create the evaluation report in a printable format.
+  Click this button to create the evaluation report in a printable format. An evaluation report preview is displayed in a new window.

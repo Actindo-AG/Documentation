@@ -25,22 +25,22 @@ Mark the checkbox to select all rows simultaneously.
 Row number. This number is assigned automatically by the system.
 
 - *Actindo account*  
-Enter the Actindo account. Click on the table cell to activate the entry field. This field is required.
+Enter the Actindo account. Click the table cell to activate the entry field. This field is required.
 
 - *SAP account*  
-Enter the SAP account. Click on the table cell to activate the entry field. This field is required.
+Enter the SAP account. Click the table cell to activate the entry field. This field is required.
 
 - *SAP PK credit*  
-Enter the SAP posting key for credit account types if necessary. Click on the table cell to activate the entry field.
+Enter the SAP posting key for credit account types if necessary. Click the table cell to activate the entry field.
 
 - *SAP PK debit*  
-Enter the SAP posting key for debit account types if necessary. Click on the table cell to activate the entry field.
+Enter the SAP posting key for debit account types if necessary. Click the table cell to activate the entry field.
 
 - *SAP cost center*  
-Enter the SAP cost center if necessary. Click on the table cell to activate the entry field.
+Enter the SAP cost center if necessary. Click the table cell to activate the entry field.
 
 - *SAP business area*  
-Enter the SAP business area if necessary. Click on the table cell to activate the entry field.
+Enter the SAP business area if necessary. Click the table cell to activate the entry field.
 
 [comment]: <> (BS Soll/Haben = Basic Set oder Büchungsschlüssel, EN = Posting key?)
 

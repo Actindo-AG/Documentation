@@ -98,7 +98,7 @@ Enter the invoice number.
 Enter other reference number, if necessary.
 
 - *Date*  
-Enter the date for the fixed posting. Date format must be DDMMYY. This field is compulsory.
+Enter the date for the fixed posting. The valid date format is DDMMYY. This field is compulsory.
 
 - *Account*  
 Enter the account number. This field is compulsory.  
