@@ -32,25 +32,25 @@ Factor applied to the initial posting amount.
 Follow-on posting description.
 
 
-The entry fields allow to create, edit and delete follow-on postings.
+The input fields allow to create, edit and delete follow-on postings.
 
 - *Number*  
-Enter a follow-on posting number or leave he field empty. The follow-on posting numbers must be sequential and are added by the system automatically.
+Leave the field empty. The follow-on posting numbers must be sequential and are added by the system automatically.
 
 - *Description*  
 Enter a description for the follow-on posting.
 
 - *Account*  
-Enter the account number to trigger the automatic follow-on posting function. If the account number is not known, use the account number search function, see [Search for an account](../Operation/14_SearchAccounting.md#search-for-an-account).
+Enter the account number to trigger the automatic follow-on posting function. If the account number is not known, use the account search function, see [Search for an account](../Operation/14_SearchAccounting.md#search-for-an-account).
 
 - *Valid from - to*  
 Enter the validity start and end date for the follow-on posting.
 
 - *Contra account*  
-Enter the contra account number to register the follow-on posting. If the account number is not known, use the account number search function, see [Search for an account](../Operation/14_SearchAccounting.md#search-for-an-account).
+Enter the contra account number to register the follow-on posting. If the account number is not known, use the account search function, see [Search for an account](../Operation/14_SearchAccounting.md#search-for-an-account).
 
 - *Account*  
-Enter the contra account number to register the follow-on posting. If the account number is not known, use the account number search function, see [Search for an account](../Operation/14_SearchAccounting.md#search-for-an-account).
+Enter the contra account number to register the follow-on posting. If the account number is not known, use the account search function, see [Search for an account](../Operation/14_SearchAccounting.md#search-for-an-account).
 
 - *Factor*  - *calc.*  
 Enter a factor value to be applied to the initial posting amount and click the drop-down list to select the appropriate calculating method. The following options are available:  
@@ -61,7 +61,7 @@ Enter a factor value to be applied to the initial posting amount and click the d
 
 
   - [SAVE & NEW]  
-  Click this button to create a new follow-on posting.  
+  Click this button to save a newly created follow-on posting.  
 
   - [SAVE]  
   Click this button to edit an existing follow-on posting.
@@ -70,7 +70,9 @@ Enter a factor value to be applied to the initial posting amount and click the d
   Click this button to delete a selected follow-on posting.
 
   - [CLEAR]  
-  Click this button to clear all entry fields.
+  Click this button to clear all input fields. The [SAVE & NEW] button becomes active.
 
   - [HELP]  
   Click this button open the help function.
+
+  [comment]: <> (Vermutlich komplett raus)

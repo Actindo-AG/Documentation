@@ -43,5 +43,5 @@ A fiscal year has been selected, see [Select fiscal year](./01_SelectFiscalYear.
 
 7.  If desired, enter any other relevant manual posting information in the corresponding fields.
 
-8. Click the [BOOK] button.  
+8. Click the [POST] button.  
 The manual posting is created. The notice "Posted." is displayed above the input line. The manual posting is displayed in the postings list.

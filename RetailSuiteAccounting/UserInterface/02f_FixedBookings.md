@@ -15,17 +15,17 @@ Enter a batch name. When selecting an existing batch, this field is not displaye
 Click this button to delete a selected fixed posting batch. For detailed information about deleting a new batch, see [Delete a fixed posting batch](../Integration/06_ManageFixedBookings.md#delete-a-fixed-posting-batch).
 
 - [CREATE]  
-Click this button to create a fixed posting batch. The *Fixed posting batch name* window is displayed, see [Fixed posting batch name](#fixed-posting-batch-name).
+Click this button to create a fixed posting batch. The *Fixed postings &ndash; Batch* window is displayed, see [Fixed postings &ndash; Batch](#fixed-posting--batch).
 
 - [EDIT]  
-Click this button to edit a fixed posting batch. The *Fixed posting batch name* window is displayed, see [Fixed posting batch name](#fixed-posting-batch-name).
+Click this button to edit a fixed posting batch. The *Fixed postings &ndash; Batch* window is displayed, see [Fixed postings &ndash; Batch](#fixed-posting--batch).
 
 
-## Fixed posting batch name
+## Fixed postings &ndash; Batch
 
 *Accounting > Select fiscal year > Settings > Tab FIXED POSTINGS > Select batch*
 
-![Fixed posting batch name](../../Assets/Screenshots/RetailSuiteAccounting/Settings/FixedBookings/FixedBookingBatch.png "[Fixed posting batch name]")
+![Fixed posting batch](../../Assets/Screenshots/RetailSuiteAccounting/Settings/FixedBookings/FixedBookingBatch.png "[Fixed posting batch]")
 
 
 - *Seq. no.*  
@@ -69,19 +69,19 @@ Cost unit number.
 Posting reference text.
 
 - *AMOUNT*  
-Fixed posting total amount.
+Fixed posting batch total amount.
 
 
 - *Amount*  
-Fixed posting total amount.
+Fixed posting batch total amount.
 
-[comment]: <> (Unterschied zwischen AMOUNT und Amount?)
+[comment]: <> (FH: Unterschied zwischen AMOUNT und Amount?)
 
 
-The entry fields allow to create, edit and delete fixed postings.
+The input fields allow to create, edit and delete fixed postings.
 
 - *Seq. no.*    
-Enter a posting number or leave it empty. The posting numbers must be sequential and are added by the system automatically.
+Leave this field empty. The posting numbers must be sequential and are added by the system automatically.
 
 - *Turnover*  
 Enter the turnover value.
@@ -89,7 +89,7 @@ Enter the turnover value.
 - *Contra account*  
 Enter the contra account number. This field is compulsory.
 
-  > [Info]  When you start typing in an account number, a context menu is displayed. You can also select the appropriate option from the menu.
+  > [Info] After you have entered at least two characters in the field, a list is displayed with all accounts matching the entry. You can also select the corresponding account in the list.
 
 - *Receipt1*  
 Enter the invoice number.
@@ -103,7 +103,7 @@ Enter the date for the fixed posting. The valid date format is DDMMYY. This fiel
 - *Account*  
 Enter the account number. This field is compulsory.  
 
-  > [Info]  When you start typing in an account number, a context menu is displayed. You can also select the appropriate option from the menu.
+  > [Info] After you have entered at least two characters in the field, a list is displayed with all accounts matching the entry. You can also select the corresponding account in the list.
 
 
 - *Cost1*  
@@ -116,15 +116,14 @@ Enter a cost unit number, if necessary.
 Enter a reference text, if necessary.  
 
 
-
-- [BOOK]  
-Click this button to register a fixed posting in the batch. For detailed information about creating or editing a fixed posting, see [Create fixed postings](../Integration/06_ManageFixedBookings.md#create-fixed-postings) and [Edit a fixed posting](../Integration/06_ManageFixedBookings.md#edit-a-fixed-posting).
+- [POST]  
+Click this button to add or modify a fixed posting in the batch. For detailed information about adding or editing a fixed posting, see [Add a fixed posting](../Integration/06_ManageFixedBookings.md#add-a-fixed-posting) and [Edit a fixed posting](../Integration/06_ManageFixedBookings.md#edit-a-fixed-posting).
 
 - [DELETE]  
 Click this button to delete a fixed posting from the batch. For detailed information about deleting a fixed posting, see [Delete a fixed posting](../Integration/06_ManageFixedBookings.md#delete-a-fixed-posting).
 
 - [CLEAR]  
-Click this button to clear all entry fields.
+Click this button to clear all input fields.
 
 - [SAVE]  
 Click this button to save a fixed posting in the batch.
@@ -132,6 +131,6 @@ Click this button to save a fixed posting in the batch.
   > [Info] If you do not click the [SAVE] button, the fixed button will not be saved.
 
 - [CANCEL]  
-Click this button to cancel the process. The window is closed.
+Click this button to cancel the process. A confirmation window is displayed. Click [OK] to proceed. The window is closed.
 
-  > [Info] If you click the [CANCEL] button, the fixed posting will not be saved.
+  > [Info] If you click the [CANCEL] button without saving, the changes made will not be saved.
