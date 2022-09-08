@@ -128,7 +128,7 @@ Click this button to clear all input fields.
 - [SAVE]  
 Click this button to save a fixed posting in the batch.
 
-  > [Info] If you do not click the [SAVE] button, the fixed button will not be saved.
+  > [Info] If you do not click the [SAVE] button, the fixed posting will not be saved.
 
 - [CANCEL]  
 Click this button to cancel the process. A confirmation window is displayed. Click [OK] to proceed. The window is closed.

@@ -50,12 +50,10 @@ Enter the applicable accounts. These values are preset for the preconfigured acc
 - [SAVE]  
 Click this button to save any changes made.
 
-  > [Warning] Any changes made will overwrite the preconfigured values. To prevent this, make sure that the input fields are empty by clicking the [CLEAR] button.
-
 - [DELETE]  
 Click this button to delete a selected account class.
 
-  > [Info] The preconfigured account classes cannot be deleted, therefore the [DELETE] is grayed out when these account classes are selected.
+  > [Info] The preconfigured account classes cannot be deleted, therefore the [DELETE] is inactive when these account classes are selected.
 
 [comment]: <> (Unsicher, denn selbsterstellte Kontenklassen lassen sich mit LÖSCHEN-Button auch NICHT löschen. Es ist tatsächlich immer ausgegraut. Bug?)
 

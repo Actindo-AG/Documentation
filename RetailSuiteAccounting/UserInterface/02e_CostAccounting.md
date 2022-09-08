@@ -88,8 +88,6 @@ Click this button to save any changes made to an existing cost center.
 - [DELETE]  
 Click this button to delete a selected cost center.
 
-  > [Warning] Be aware that the selected fiscal year will be deleted permanently.
-
 - [CLEAR]  
 Click this button to clear all input fields. The [SAVE & NEW] button becomes active.
 
@@ -166,8 +164,6 @@ Click this button to save any changes made to an existing cost unit.
 
 - [DELETE]  
 Click this button to delete a selected cost unit.
-
-  > [Warning] Be aware that the selected fiscal year will be deleted permanently.
 
 - [CLEAR]  
 Click this button to clear all input fields. The [SAVE & NEW] button becomes active.
@@ -247,7 +243,7 @@ Click this button to save the allocation table after making any changes. A pop-u
 
 ### Select address
 
-[comment]: <> (Work in progress) 
+[comment]: <> (Work in progress)
 
 [comment]: <> (Fenster/Unterkapitel umbenennen zu Search debtor?)
 
@@ -333,22 +329,7 @@ Click this button to display the context menu.
  Click this button to apply the search criteria and values.
 
 
-All customer/supplier details are displayed in a column view. The column width can be modified using the mouse. To do so, place the mouse pointer on the vertical dividing line between two columns titles. The mouse pointer changes to a double-headed arrow. Press the left mouse button and move the line using drag and drop until it has reached the required width.
-
-[comment]: <> (Check wording with HG, see Workflows, PIM: The list displays... Durchgängig ändern?)
-
-When placing the cursor on a column header, three vertical points are displayed to the right of the column title. Click the ![Points](../../Assets/Icons/Points02.png "[Points]") (Points) button to display the context menu. The following menu entries are available:
-
-- ![Sort ascending](../../Assets/Icons/SortAscending.png "[Sort ascending]") Sort ascending  
-  Click this entry to sort the rows in ascending order.
-- ![Sort descending](../../Assets/Icons/SortDescending.png "[Sort descending]") Sort descending  
-  Click this entry to sort the rows in descending order.
-- ![Columns](../../Assets/Icons/Columns02.png "[Columns]") Columns  
-  Place the mouse on this entry to display the *Columns* sub-menu. Add or remove columns by marking or unmarking the corresponding checkbox.
-
-  [comment]: <> (Standard Plattform-Info. Notwendig? Durchgängig ändern/löschen?)
-
-Depending on the settings, the displayed columns may vary.
+All customer/supplier details are displayed in a column view. Depending on the settings, the displayed columns may vary.
 
 - *No.*  
 Customer/supplier number. This number is given automatically by the system if left empty. Customer numbers range from 10000 to 69999 and supplier numbers, from 70000 to 99999.
@@ -516,6 +497,8 @@ Click this button to confirm the selected settings.
 
 
 #### Allocation table
+
+*Accounting > Settings > Tab COST ACCOUNTING > Drop-down option Cost1 - Cost center > Button ALLOCATION TABLE > Button PRINT*
 
 ![Allocation table](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CostAccounting/AllocationTable02.png "[Allocation table]")
 

@@ -41,7 +41,7 @@ This list displays all fields contained in the selected import/export definition
   Use this button to move a selected field right, from the *Fields in the definition* list to the *Possible fields* list.
 
 **Column**  
-The letter and number in brackets indicate the column where a selected field is placed.
+The letter and number in parentheses indicate the column where a selected field is placed.
 
 **Possible fields**  
 This list displays all fields available for the selected import/export definition.
@@ -67,16 +67,14 @@ Click the drop-down list to select the desired date and time format.
 - *Example data set*  
 An example of a data set with the current field definition is displayed. This field is read-only.
 
-[comment]: <> (Unsure! Check!)
-
 - *Field delimiting character*  
 Enter the character to be used to separate fields. This value may be set up by default to quotation mark.
 
 - *Row end character*  
-Click the drop-down list to select the appropriate option, either **Automatic** or the applicable operating system.
+Click the drop-down list to select the applicable encoding. This field is set by default to **Automatic**.
 
 - *Character set*  
-Click the drop-down list to select the appropriate option, either **Automatic** or the applicable encoding.
+Click the drop-down list to select the applicable encoding. This field is set by default to **Automatic**.
 
 - *Incorrect row end character*  
 Click the drop-down list to select the appropriate option (**Ignore/Repair**).

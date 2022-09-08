@@ -255,7 +255,7 @@ Enter the applicable formula. This field becomes active when selecting **Calcula
 - *Percent / Columns*
 
   - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") (Toggle) Button  
-  Active this toggle to apply a specific formula in a column. Up to 4 percent/columns can be added per line.
+  Enable this toggle to apply a specific formula in a column. Up to 4 percent/columns can be added per line.
 
   - *Formula*  
   Enter the applicable formula for the percentage calculation in the selected column. The basic calculating operations (+, -, *, /) are permitted.
@@ -269,9 +269,7 @@ Enter the applicable formula. This field becomes active when selecting **Calcula
 Click this button to cancel the process. The *Create* view is closed. The *Accounting report lines* view is displayed again.
 
 - [SAVE]  
-Click this button to save the created report lines. The newly creaed accounting report lines are displayed in the *Accounting report lines* view.
-
-
+Click this button to save the created report lines. The newly created accounting report lines are displayed in the *Accounting report lines* view.
 
 
 ## Edit report lines
@@ -286,22 +284,18 @@ Click this button to save the created report lines. The newly creaed accounting 
 - ![Back](../../Assets/Icons/Back02.png "[Back]") (Back) *Edit*   
 Click this button to close the *Edit* view and return to the *Accounting report lines* view.
 
-
 - *Line number*  
-Enter a different line number or use the arrows to increase or decrease the line number. If a line number entered is already in use, an error message is displayed.
+Enter a different line number or use the arrows to increase or decrease the line number. If the line number entered is already in use, an error message is displayed.
 
 - *Output*  
 Click the drop-down list to select the desired output for the current line. The following options are available:  
 
   - **No**  
   Select this option to exclude the content in the current line from the output file.
-
   - **Yes**  
   Select this option to include the content in the current line in the output file.
-
   - **Space**  
   Select this option to include an blank line in the output file.
-
   - **New page**  
   Select this option to start a new page from the current line in the output file.
 

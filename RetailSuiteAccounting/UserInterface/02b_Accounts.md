@@ -184,8 +184,6 @@ Click this button to save any changes made to an existing account. For detailed 
 - [DELETE]  
 Click this button to delete the selected account. For detailed information, see [Delete an account](../Integration/03_ManageAccounts.md#delete-an-account).
 
-  > [Warning] Be aware that the selected account will be deleted permanently.
-
 - [CLEAR]  
 Click this button to clear all input fields. The [SAVE & NEW] button becomes active.
 

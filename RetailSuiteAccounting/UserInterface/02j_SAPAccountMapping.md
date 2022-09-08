@@ -5,19 +5,6 @@
 ![SAP account mapping](../../Assets/Screenshots/RetailSuiteAccounting/Settings/SAPAccountMapping/SAPAccountMapping02.png "[SAP account mapping]")
 
 
-The account mapping details are displayed in a column view. The column width can be modified using the mouse. To do so, place the mouse pointer on the vertical dividing line between two columns titles. The mouse pointer changes to a double-headed arrow. Press the left mouse button and move the line using drag and drop until it has reached the required width.
-
-
-When placing the cursor on a column header, three vertical points are displayed to the right of the column title. Click the ![Points](../../Assets/Icons/Points02.png "[Points]") (Points) button to display the context menu. The following menu entries are available:
-
-- ![Sort ascending](../../Assets/Icons/SortAscending.png "[Sort ascending]") Sort ascending  
-  Click this entry to sort the rows in ascending order.
-- ![Sort descending](../../Assets/Icons/SortDescending.png "[Sort descending]") Sort descending  
-  Click this entry to sort the rows in descending order.
-- ![Columns](../../Assets/Icons/Columns02.png "[Columns]") Columns  
-  Place the mouse on this entry to display the *Columns* sub-menu. Add or remove columns by marking or unmarking the corresponding checkbox.
-
-
 - (Checkbox)    
 Mark the checkbox to select all rows simultaneously.
 
@@ -25,24 +12,24 @@ Mark the checkbox to select all rows simultaneously.
 Row number. This number is assigned automatically by the system.
 
 - *Actindo account*  
-Enter the Actindo account. Click the table cell to activate the entry field. This field is required.
+Enter the Actindo account. Click the table cell to activate the input field. This field is mandatory.
 
 - *SAP account*  
-Enter the SAP account. Click the table cell to activate the entry field. This field is required.
+Enter the SAP account. Click the table cell to activate the input field. This field is mandatory.
 
 - *SAP PK credit*  
-Enter the SAP posting key for credit account types if necessary. Click the table cell to activate the entry field.
+Enter the SAP posting key for credit account types if necessary. Click the table cell to activate the input field.
 
 - *SAP PK debit*  
-Enter the SAP posting key for debit account types if necessary. Click the table cell to activate the entry field.
+Enter the SAP posting key for debit account types if necessary. Click the table cell to activate the input field.
 
 - *SAP cost center*  
-Enter the SAP cost center if necessary. Click the table cell to activate the entry field.
+Enter the SAP cost center if necessary. Click the table cell to activate the input field.
 
 - *SAP business area*  
-Enter the SAP business area if necessary. Click the table cell to activate the entry field.
+Enter the SAP business area if necessary. Click the table cell to activate the input field.
 
-[comment]: <> (BS Soll/Haben = Basic Set oder Büchungsschlüssel, EN = Posting key?)
+[comment]: <> (BS Soll/Haben = Basic Set oder Büchungsschlüssel, EN = Posting key? RS FH!)
 
 
 - [ADD]  

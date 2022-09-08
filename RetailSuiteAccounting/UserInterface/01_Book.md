@@ -795,21 +795,6 @@ Click this button to cancel your selection.
 Click this button to apply the search criteria and values.
 
 
-All acquired receipts are displayed in the columns view. The column width can be modified using the mouse. To do so, place the mouse pointer on the vertical dividing line between two columns titles. The mouse pointer changes to a double-headed arrow. Press the left mouse button and move the line using drag and drop until it has reached the required width.
-
-When placing the cursor on a column header, three vertical points are displayed to the right of the column title. Click the ![Points](../../Assets/Icons/Points02.png "[Points]") (Points) icon to display the context menu. The following menu entries are available:
-
-- ![Sort ascending](../../Assets/Icons/SortAscending.png "[Sort ascending]") Sort ascending  
-  Click this entry to sort the rows in ascending order.
-- ![Sort descending](../../Assets/Icons/SortDescending.png "[Sort descending]") Sort descending  
-  Click this entry to sort the rows in descending order.
-- ![Columns](../../Assets/Icons/Columns02.png "[Columns]") Columns  
-  Place the mouse on this entry to display the *Columns* sub-menu. Add or remove columns by marking or unmarking the corresponding checkbox.
-- ![Checbox](../../Assets/Icons/Checkbox02.png "[Checkbox]") Filter  
-  Place the mouse on this entry to display the search bar. Enter a search value in the search bar and click the checkbox to filter the rows according to the search value.
-
-[comment]: <> (Info oben weg? Standardfunktionen im System.)
-
 All information provided in columns is read-only.
 
 - *Status*  

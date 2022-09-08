@@ -96,22 +96,7 @@ Click this button to display the context menu.
  Click this button to apply the search criteria and values.
 
 
-All customer/supplier details are displayed in a column view. The column width can be modified using the mouse. To do so, place the mouse pointer on the vertical dividing line between two columns titles. The mouse pointer changes to a double-headed arrow. Press the left mouse button and move the line using drag and drop until it has reached the required width.
-
-[comment]: <> (Check wording with HG, see Workflows, PIM: The list displays... Durchgängig ändern?)
-
-When placing the cursor on a column header, three vertical points are displayed to the right of the column title. Click the ![Points](../../Assets/Icons/Points02.png "[Points]") (Points) button to display the context menu. The following menu entries are available:
-
-- ![Sort ascending](../../Assets/Icons/SortAscending.png "[Sort ascending]") Sort ascending  
-  Click this entry to sort the rows in ascending order.
-- ![Sort descending](../../Assets/Icons/SortDescending.png "[Sort descending]") Sort descending  
-  Click this entry to sort the rows in descending order.
-- ![Columns](../../Assets/Icons/Columns02.png "[Columns]") Columns  
-  Place the mouse on this entry to display the *Columns* sub-menu. Add or remove columns by marking or unmarking the corresponding checkbox.
-
-  [comment]: <> (Standard Plattform-Info. Notwendig? Durchgängig ändern/löschen?)
-
-Depending on the settings, the displayed columns may vary.
+All customer/supplier details are displayed in a column view. Depending on the settings, the displayed columns may vary.
 
 - *No.*  
 Customer/supplier number. This number is given automatically by the system if left empty. Customer numbers range from 10000 to 69999 and supplier numbers, from 70000 to 99999.
@@ -323,10 +308,7 @@ Click the drop-down list to select the appropriate currency.
 - [SAVE]  
 Click this button to save the newly entered customer/supplier details.
 
-
-> [Info] It is not possible to enter any further information in the other sub-tabs before saving the details entered in the *Address/contact* sub-tab. When clicking the other sub-tabs, a window with a warning message is displayed. Click [OK] to confirm the window and save the newly entered customer/supplier. Alternatively, click the [SAVE] button at the bottom.
-
-> [Info] After saving the new customer/supplier address and contact details, the *Delivery addresses*, *Additional fields* and *Drop shipping* sub-tabs display a warning message and can only be used to add data after selecting the newly created customer/supplier in the *Customer/Supplier list* tab.
+  > [Info] It is not possible to enter any further information in the other sub-tabs before saving the details entered in the *Address/contact* sub-tab. When clicking the other sub-tabs, a window with a warning message is displayed. Click [OK] to confirm the window and save the newly added customer/supplier by clicking the [SAVE] button at the bottom. After saving the new customer/supplier address and contact details, the *Delivery addresses*, *Additional fields* and *Drop shipping* sub-tabs display a warning message and can only be used to add data after selecting the newly created customer/supplier in the *Customer/Supplier list* tab.
 
 
 
@@ -477,13 +459,11 @@ Select or deselect this checkbox as necessary.
 [comment]: <> (DE = nur Kostenlieferant/Bestellwesen inaktiv -> translation? Link to Einkauf / Bestellvorschläge + Lieferantenbegele prüfen?)
 
 - *Goods receipt required [x]*  
-Select or deselect this checkbox as necessary.  
-
-  > [Info] If the checkbox is activated, at least one item must be selected to release the invoice for payment.
+Select or deselect this checkbox as necessary. If the checkbox is marked, at least one item must be selected to release the invoice for payment.
 
   > [Info] These two functions interact with the *Purchasing* and *Payment processing* modules, and allow to check supplier receipts before posting them in the system and to automatize payment conditions.
 
-[comment]: <> (Link to Zahlungsabwicklung / Offene Posten?)
+[comment]: <> (Link to Zahlungsabwicklung / Offene Posten wemm verfügbar)
 
 - *Tolerance group for discounts [x]*  
 Click the drop-down list to select the appropriate option.
@@ -808,18 +788,7 @@ When creating a customer/supplier, the address entered in the *Address details* 
 
 **Delivery addresses**
 
-All delivery addresses entered are displayed in a column view. The column width can be modified using the mouse. To do so, place the mouse pointer on the vertical dividing line between two columns titles. The mouse pointer changes to a double-headed arrow. Press the left mouse button and move the line using drag and drop until it has reached the required width.
-
-When placing the cursor on a column header, three vertical points are displayed to the right of the column title. Click the ![Points](../../Assets/Icons/Points02.png "[Points]") (Points) icon to display the context menu. The following menu entries are available:
-
-- ![Sort ascending](../../Assets/Icons/SortAscending.png "[Sort ascending]") Sort ascending  
- Click this entry to sort the rows in ascending order.
-- ![Sort descending](../../Assets/Icons/SortDescending.png "[Sort descending]") Sort descending  
- Click this entry to sort the rows in descending order.
-- ![Columns](../../Assets/Icons/Columns02.png "[Columns]") Columns  
- Place the mouse on this entry to display the *Columns* sub-menu. Add or remove columns by marking or unmarking the corresponding checkbox.
-
-All information provided in columns is read-only.
+All delivery addresses entered are displayed in a column view. All information provided in columns is read-only.
 
 - [Checkbox]  
 Mark this checkbox to select an address to be edited or deleted. The *Edit* section is displayed.
@@ -1088,9 +1057,7 @@ Select or deselect this checkbox as necessary.
 [comment]: <> (DE = nur Kostenlieferant/Bestellwesen inaktiv -> translation? Link to Einkauf / Bestellvorschläge + Lieferantenbegele prüfen?)
 
 - *Goods receipt required [x]*  
-Select or deselect this checkbox as necessary.  
-
-  > [Info] If the checkbox is activated, at least one item must be selected to release the invoice for payment.
+Select or deselect this checkbox as necessary. If the checkbox is activated, at least one item must be selected to release the invoice for payment.
 
   > [Info] These two function interacts with the *Purchasing* and *Payment processing* modules, and allow to check supplier receipts before posting them in the system and to automatize payment conditions.
 
@@ -1150,18 +1117,7 @@ Click this button to add additional fields. The *Edit additional fields* window 
 
 **Additional Fields**
 
-The additional fields added are displayed in a column view. The column width can be modified using the mouse. To do so, place the mouse pointer on the vertical dividing line between two columns titles. The mouse pointer changes to a double-headed arrow. Press the left mouse button and move the line using drag and drop until it has reached the required width.
-
-When placing the cursor on a column header, three vertical points are displayed to the right of the column title. Click the ![Points](../../Assets/Icons/Points02.png "[Points]") (Points) icon to display the context menu. The following menu entries are available:
-
-- ![Sort ascending](../../Assets/Icons/SortAscending.png "[Sort ascending]") Sort ascending  
-  Click this entry to sort the rows in ascending order.
-- ![Sort descending](../../Assets/Icons/SortDescending.png "[Sort descending]") Sort descending  
-  Click this entry to sort the rows in descending order.
-- ![Columns](../../Assets/Icons/Columns02.png "[Columns]") Columns  
-  Place the mouse on this entry to display the *Columns* sub-menu. Add or remove columns by marking or unmarking the corresponding checkbox.
-
-Depending on the settings, the displayed columns may vary. All information provided in columns is read-only.
+The additional fields added are displayed in a column view. Depending on the settings, the displayed columns may vary. All information provided in columns is read-only.
 
 ![Additional fields](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/AdditionalFields03.png "[Additional fields]")
 
@@ -1217,18 +1173,7 @@ Click this button to clear the fields.
 
 **Content**
 
-The existing content data are displayed in a column view. The column width can be modified using the mouse. To do so, place the mouse pointer on the vertical dividing line between two columns titles. The mouse pointer changes to a double-headed arrow. Press the left mouse button and move the line using drag and drop until it has reached the required width.
-
-When placing the cursor on a column header, three vertical points are displayed to the right of the column title. Click the ![Points](../../Assets/Icons/Points02.png "[Points]") (Points) icon to display the context menu. The following menu entries are available:
-
-- ![Sort ascending](../../Assets/Icons/SortAscending.png "[Sort ascending]") Sort ascending  
-  Click this entry to sort the rows in ascending order.
-- ![Sort descending](../../Assets/Icons/SortDescending.png "[Sort descending]") Sort descending  
-  Click this entry to sort the rows in descending order.
-- ![Columns](../../Assets/Icons/Columns02.png "[Columns]") Columns  
-  Place the mouse on this entry to display the *Columns* sub-menu. Add or remove columns by marking or unmarking the corresponding checkbox.
-
-Depending on the settings, the displayed columns may vary. All information provided in columns is read-only.
+The existing content data are displayed in a column view. Depending on the settings, the displayed columns may vary. All information provided in columns is read-only.
 
 
 - [Checkbox]  
@@ -2181,18 +2126,7 @@ Click this button to display the *EXCEL* context menu. The following options are
   - *Export current page*
 
 
-The existing additional fields are displayed in a column view. The column width can be modified using the mouse. To do so, place the mouse pointer on the vertical dividing line between two columns titles. The mouse pointer changes to a double-headed arrow. Press the left mouse button and move the line using drag and drop until it has reached the required width.
-
-When placing the cursor on a column header, three vertical points are displayed to the right of the column title. Click the ![Points](../../Assets/Icons/Points02.png "[Points]") (Points) icon to display the context menu. The following menu entries are available:
-
-- ![Sort ascending](../../Assets/Icons/SortAscending.png "[Sort ascending]") Sort ascending  
-  Click this entry to sort the rows in ascending order.
-- ![Sort descending](../../Assets/Icons/SortDescending.png "[Sort descending]") Sort descending  
-  Click this entry to sort the rows in descending order.
-- ![Columns](../../Assets/Icons/Columns02.png "[Columns]") Columns  
-  Place the mouse on this entry to display the *Columns* sub-menu. Add or remove columns by marking or unmarking the corresponding checkbox.
-
-Depending on the settings, the displayed columns may vary. All information provided in columns is read-only.
+The existing additional fields are displayed in a column view. Depending on the settings, the displayed columns may vary. All information provided in columns is read-only.
 
 - [Checkbox]  
 Mark this checkbox to select a field to be edited or deleted. The *Edit* section is displayed.

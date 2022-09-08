@@ -70,8 +70,6 @@ Click this button to save any changes made to an existing fiscal year. For detai
 - [DELETE]  
 Click this button to delete the selected fiscal year. For detailed information, see [Delete a fiscal year](../Integration/04_ManageFiscalYear.md#delete-a-fiscal-year).
 
-  > [Warning] Be aware that the selected fiscal year will be deleted permanently.
-
 - [CLEAR]
 Click this button to clear all input fields. The [SAVE & NEW] button becomes active.
 
@@ -108,24 +106,24 @@ A list of the available import options is displayed:
 [comment]: <> (Links zu Import oder alle Infos hier reinkopieren?)
 
 - [COMPESO 7.X]  
-Click this button to import data in Compeso proprietary format. For detailed information, see [COMPESO 7.x](./03a_Import.md#compeso-7x).
+Click this button to import data in Compeso proprietary format. Follow the instructions provided in the following windows, see [Compeso 7.X](#compeso-7x).
 
 - [CSV]  
-Click this button to import data in CSV format. For detailed information, see [CSV](./03a_Import.md#csv).
+Click this button to import data in CSV format. Follow the instructions provided in the following windows, see [CSV](#csv).
 
 - [CSV LS-MOTOR]  
-Click this button to import data in CSV format from an invoicing solution. For detailed information, see [CSV LS-MOTOR](./03a_Import.md#csv-ls-motor).
+Click this button to import data in CSV format from an invoicing solution. Follow the instructions provided in the following windows, see [CSV LS-Motor](#csv-ls-motor).
 
 [comment]: <> (FH: Was ist das? Wie sollte es auf Englisch heißen? LS ENGINE?)
 
 - [GDI]  
-Click this button to import data in GDI standard interface format. For detailed information, see [GDI](./03a_Import.md#gdi).
+Click this button to import data in GDI standard interface format. Follow the instructions provided in the following windows, see [GDI](#gdi).
 
 - [OPENTRANS]  
-Click this button to import data in openTRANS INVOIC XML format. For detailed information, see [OPENTRANS](./03a_Import.md#opentrans).
+Click this button to import data in openTRANS INVOIC XML format. Follow the instructions provided in the following windows, see [openTRANS](#opentrans).
 
 - [SCHILLING BUCHHALTUNG]  
-Click this button to import data in Schilling Software proprietary FQBATCH format. For detailed information, see [SCHILLING BUCHHALTUNG](./03a_Import.md#schilling-accounting).
+Click this button to import data in Schilling Software proprietary FQBATCH format. Follow the instructions provided in the following windows, see [Schilling Accounting](#schilling-accounting).
 
 
 ## Export postings
@@ -154,34 +152,34 @@ A list of the available import options is displayed:
 [comment]: <> (Links zu Export oder alle Infos hier reinkopieren?)
 
 - [BMD]  
-Click this button to export data in BMD format. For detailed information, see [BMD](./03b_Export.md#bmd).
+Click this button to export data in BMD format. Follow the instructions provided in the following windows, see [BMD](#bmd).
 
 - [CSV]  
-Click this button to export data in CSV format. For detailed information, see [CSV](./03b_Export.md#csv).
+Click this button to export data in CSV format. Follow the instructions provided in the following windows, see [CSV](#csv).
 
 - [DATEV CSV]  
-Click this button to export data in DATEV compatible CSV format. For detailed information, see [DATEV CSV](./03b_Export.md#datev-csv).
+Click this button to export data in DATEV compatible CSV format. Follow the instructions provided in the following windows, see [DATEV CSV](#datev-csv).
 
 - [GDI]  
-Click this button to export data in GDI format. For detailed information, see [GDI](./03b_Export.md#gdi).
+Click this button to export data in GDI format. Follow the instructions provided in the following windows, see [GDI](#gdi).
 
 - [GDPDU EXPORT]  
-Click this button to export data in GDPdU-compliant audit file format. For detailed information, see [GDPDU EXPORT](./03b_Export.md#gdpdu-export).
+Click this button to export data in GDPdU-compliant audit file format. Follow the instructions provided in the following windows, see [GDPDU export](#gdpdu-export).
 
 - [OPEN ITEMS]  
-Click this button to export open items. For detailed information, see [OPEN ITEMS](./03b_Export.md#open-items).
+Click this button to export open items. Follow the instructions provided in the following windows, see [Open items](#open-items).
 
 - [BALANCE LISTS]  
-Click this button to export balance lists in CSV format. For detailed information, see [BALANCE LISTS](./03b_Export.md#balance-lists).
+Click this button to export balance lists in CSV format. Follow the instructions provided in the following windows, see [Balance lists](#balance-lists).
 
 - [SALDEN.DAT]  
-Click this button to export data in Compeso SALDEN.DAT proprietary format. For detailed information, see [SALDEN.DAT](./03b_Export.md#saldendat).
+Click this button to export data in Compeso SALDEN.DAT proprietary format. Follow the instructions provided in the following windows, see [SALDEN.DAT](#salden-dat).
 
 - [SAP]  
-Click this button to export data in SAP compatible format. For detailed information, see [SAP](./03b_Export.md#sap).
+Click this button to export data in SAP compatible format. Follow the instructions provided in the following windows, see [SAP](#sap).
 
 - [VARIAL]  
-Click this button to export data in VARIAL compatible format. For detailed information, see [VARIAL](./03b_Export.md#varial).
+Click this button to export data in VARIAL compatible format. Follow the instructions provided in the following windows, see [Varial](#varial).
 
 - [ZAHLWERK]  
-Click this button to export balance lists in Zahlwerk compatible CSV format. For detailed information, see [ZAHLWERK](./03b_Export.md#zahlwerk).
+Click this button to export balance lists in Zahlwerk compatible CSV format. Follow the instructions provided in the following windows, see [Zahlwerk](#zahlwerk).

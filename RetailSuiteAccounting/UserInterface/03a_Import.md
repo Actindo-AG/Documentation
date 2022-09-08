@@ -46,12 +46,13 @@ Click this button to import data in Schilling Software proprietary FQBATCH forma
 
 **Step 1**
 
-*Files*  
+- *Files*  
 A list of compatible files is displayed. The following files are permitted:
 
   - *backup.ctl*  
   - *backup.dat*
   - *abrzr.dat*
+
 
 - [Choose file]  
 Click this button to select a file from your computer to be uploaded. If no file has been selected yet, the notice "No file chosen" is displayed.
@@ -74,7 +75,7 @@ This notice is displayed during the import process.
 Click this button to cancel the process.
 
 
-[comment]: <> (Der Prozess geht nicht weiter, System hängt. Ich habe versucht eine exportierte DAT-Datei -Reiter EXPORT- zu importieren, aber es scheint nicht zu funktioniere. Bug?)
+[comment]: <> (Der Prozess geht nicht weiter, System hängt. Ich habe versucht eine exportierte DAT-Datei -Reiter EXPORT- zu importieren, aber es scheint nicht zu funktioniere. Bug oder keine richtige Datei importiert?)
 
 
 ## CSV
@@ -85,6 +86,9 @@ Click this button to cancel the process.
 
 ![Import CSV Step 1](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Import/CSV01DMS.png "[Import CSV Step 1]")
 
+[comment]: <> (Screenshots zusammenfügen? -> RS HG)
+
+
 **Step 1**
 
 - *Files*  
@@ -93,19 +97,20 @@ A list of compatible files is displayed. In this case, only CSV files can be imp
 - ![Radio button](../../Assets/Icons/RadioButton02.png "[Radio button]") *Local file*  
 Click this radio button to select a file from your computer to be uploaded. The [Choose file] button is displayed.
 - ![Radio button](../../Assets/Icons/RadioButton02.png "[Radio button]") *DMS*  
-Click this radio button to select a file from a DMS to be uploaded. The [SEARCH] button is displayed.
+Click this radio button to select a file from a DMS to be uploaded. A search bar and a [SEARCH] button are displayed.
+
 
 - [Choose file]  
 Click this button to select a file from your computer to be uploaded. If no file has been selected yet, the notice "No file chosen" is displayed.
 
 - [SEARCH]  
-Click this button to search for the file to be uploaded. The *Search file* window is displayed, see [Select file](#select-file).
+Click this button to search for the file to be uploaded. The *Select file* window is displayed, see [Select file](#select-file).
 
 - [UPLOAD]  
-Click this button to upload the selected file. The selected file is uploaded. The [UPLOAD] button becomes grayed out.
+Click this button to upload the selected file. The selected file is uploaded. The [UPLOAD] button becomes inactive.
 
 - *File content*  
-Click the drop-down list to select to appropriate file content. The following options are available:
+Click the drop-down list to select to appropriate file content. The following options are available by default:
 
   - **Customers/suppliers**	 
   - **Chart of Accounts**	  
@@ -115,14 +120,12 @@ Click the drop-down list to select to appropriate file content. The following op
 [comment]: <> (eBay sales history ist relevant für alle Kunden? Weglassen? Andere Optionen je nach Einstellungen/Module/Plugins?)
 
 - *Import def.*  
-Click the drop-down list to select the appropriate import definition.
+Click the drop-down list to select the appropriate import definition. The options displayed vary depending on the option selected in the *File content* drop-down list. All available option-related import definitions are displayed in the list. The import definitions are preconfigured in the system but they can be edited.
 
-  - **Lexware Pro (customers)**
-  - **Lexware Pro (suppliers)**
-
+[comment]: <> (Import def. ändert sich abhängig von Option in File content. Mit eBay sales history kommen extra Felder vor: eBay Debitor und eBay Erlöskonten. Relevant für Doku oder weglassen?)
 
 - [Edit]  
-Click this button to edit the selected import definition. The *Import/export definitions* window is displayed, see [Import/export definitions](#importexport-definitions).
+Click this button to edit the selected import definition or to create a new one. The *Import/export definitions* window is displayed, see [Import/export definitions](#importexport-definitions).
 
 - *Split postings*  
 Click the drop-down list to select the appropriate import setting for split postings. The following options are available:
@@ -157,7 +160,7 @@ Click this button to proceed to the next step.
 
 **Step 3**
 
-> [Info] Depending on the imported data, the screen displayed varies.
+> [Info] Depending on the imported data, the screen displayed may vary.
 
 - *Postings*  
 The import file contains postings to be imported. Otherwise, the notice "No postings in the import file" is displayed.
@@ -225,6 +228,9 @@ Click this button to cancel the process.
 
 ![Import CSV LS-Motor Step 1](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Import/CSVLSMotor01DMS.png "[Import CSV LS-Motor Step 1]")
 
+[comment]: <> (Screenshots zusammenfügen? -> RS HG)
+
+
 **Step 1**
 
 - *Files*  
@@ -235,16 +241,17 @@ A list of compatible files is displayed. In this case, only txt files can be imp
 - ![Radio button](../../Assets/Icons/RadioButton02.png "[Radio button]") *Local file*  
 Click this radio button to select a file from your computer to be uploaded. The [Choose file] button is displayed.
 - ![Radio button](../../Assets/Icons/RadioButton02.png "[Radio button]") *DMS*  
-Click this radio button to select a file from a DMS to be uploaded. The [SEARCH] button is displayed.
+Click this radio button to select a file from a DMS to be uploaded. A search bar and a [SEARCH] button are displayed.
+
 
 - [Choose file]  
 Click this button to select a file from your computer to be uploaded. If no file has been selected yet, the notice "No file chosen" is displayed.
 
 - [SEARCH]  
-Click this button to search for the file to be uploaded. The *Search file* window is displayed, see [Select file](#select-file).
+Click this button to search for the file to be uploaded. The *Select file* window is displayed, see [Select file](#select-file).
 
 - [UPLOAD]  
-Click this button to upload the selected file. The selected file is uploaded. The [UPLOAD] button becomes grayed out.
+Click this button to upload the selected file. The selected file is uploaded. The [UPLOAD] button becomes inactive.
 
 
 - *CustomerX.txt*  
@@ -277,7 +284,8 @@ Click this button to proceed to the next step.
 
 [comment]: <> (Ich komme nicht zum Step 2 - Probleme mit Hochladen der txt-Datei!)
 
-- to be completed
+
+[comment]: <> (RS FH)
 
 
 ## GDI
@@ -288,6 +296,7 @@ Click this button to proceed to the next step.
 
 ![Import GDI Step 1](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Import/GDI01DMS.png "[Import GDI Step 1]")
 
+[comment]: <> (Screenshots zusammenfügen? -> RS HG)
 
 **Step 1**
 
@@ -297,16 +306,16 @@ A list of compatible files is displayed. In this case, only STD files can be imp
 - ![Radio button](../../Assets/Icons/RadioButton02.png "[Radio button]") *Local file*  
 Click this radio button to select a file from your computer to be uploaded. The [Choose file] button is displayed.
 - ![Radio button](../../Assets/Icons/RadioButton02.png "[Radio button]") *DMS*  
-Click this radio button to select a file from a DMS to be uploaded. The [SEARCH] button is displayed.
+Click this radio button to select a file from a DMS to be uploaded. A search bar and a [SEARCH] button are displayed.
 
 - [Choose file]  
 Click this button to select a file from your computer to be uploaded. If no file has been selected yet, the notice "No file chosen" is displayed.
 
 - [SEARCH]  
-Click this button to search for the file to be uploaded. The *Search file* window is displayed, see [Select file](#select-file).
+Click this button to search for the file to be uploaded. The *Select file* window is displayed, see [Select file](#select-file).
 
 - [UPLOAD]  
-Click this button to upload the selected file. The selected file is uploaded. The [UPLOAD] button becomes grayed out.
+Click this button to upload the selected file. The selected file is uploaded. The [UPLOAD] button becomes inactive.
 
 - [CONTINUE]  
 Click this button to proceed to the next step.
@@ -335,17 +344,21 @@ Click this button to proceed to the next step.
 
 **Step 3**
 
-> [Info] Depending on the imported data, the screen displayed varies.
+> [Info] Depending on the imported data, the screen displayed may vary.
 
 
 - ![Radio button](../../Assets/Icons/RadioButton02.png "[Radio button]") *Create new fiscal year*
- - *FY name*
- - *From - to*
+ - *FY name*  
+ Enter the description of the fiscal year.
+ - *From - to*  
+ Enter the start and end date of the fiscal year.
 
 
 -  ![Radio button](../../Assets/Icons/RadioButton02.png "[Radio button]") Add postings to FY
-  - *Import into FY*
-  - *From - to*
+  - *Import into FY*  
+  Click the drop-down list to select **Yes** or **No** to import postings into the fiscal year.
+  - *From - to*  
+Enter the start and end date of the period from which the postings are to be imported.
 
 
 - *Impersonal accounts*
@@ -393,9 +406,9 @@ Click this button to cancel the process.
 
 **Step 5**
 
-- to be completed
-
 [comment]: <> (Leeres Fenster. Komment in OneNote Bugs-Datei.)
+
+[comment]: <> (RS FH)
 
 
 ## openTRANS
@@ -406,6 +419,8 @@ Click this button to cancel the process.
 
 ![Import openTRANS Step 1](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Import/Opentrans01DMS.png "[Import openTRANS Step 1]")
 
+[comment]: <> (Screenshots zusammenfügen? RS HG)
+
 
 **Step 1**
 
@@ -415,16 +430,16 @@ A list of compatible files is displayed. In this case, only xml files can be imp
 - ![Radio button](../../Assets/Icons/RadioButton02.png "[Radio button]") *Local file*  
 Click this radio button to select a file from your computer to be uploaded. The [Choose file] button is displayed.
 - ![Radio button](../../Assets/Icons/RadioButton02.png "[Radio button]") *DMS*  
-Click this radio button to select a file from a DMS to be uploaded. The [SEARCH] button is displayed.
+Click this radio button to select a file from a DMS to be uploaded. A search bar and the [SEARCH] button are displayed.
 
 - [Choose file]  
 Click this button to select a file from your computer to be uploaded. If no file has been selected yet, the notice "No file chosen" is displayed.
 
 - [SEARCH]  
-Click this button to search for the file to be uploaded. The *Search file* window is displayed, see [Select file](#select-file).
+Click this button to search for the file to be uploaded. The *Select file* window is displayed, see [Select file](#select-file).
 
 - [UPLOAD]  
-Click this button to upload the selected file. The selected file is uploaded. The [UPLOAD] button becomes grayed out.
+Click this button to upload the selected file. The selected file is uploaded. The [UPLOAD] button becomes inactive.
 
 - *Creditor/supplier number*  
 Enter the creditor/supplier number.  
@@ -449,6 +464,8 @@ Click this button to visualize the import log file.
 - [CONTINUE]  
 Click this button to proceed to the next step.
 
+**Step 2**
+
 [comment]: <> (Fehlermeldung " Konnte kein passendes Wareneingangskonto finden, bzw. kein Konto ist als Wareneingangskonto markiert Steuerschlüssel 0, Datum 2009-05-13..." Keine KOMM_NO! in Logdatei. WEITER Schaltfläche ausgegraut / nicht klickbar)
 
 
@@ -469,16 +486,16 @@ A list of compatible files is displayed. In this case, only txt files can be imp
 - ![Radio button](../../Assets/Icons/RadioButton02.png "[Radio button]") *Local file*  
 Click this radio button to select a file from your computer to be uploaded. The [Choose file] button is displayed.
 - ![Radio button](../../Assets/Icons/RadioButton02.png "[Radio button]") *DMS*  
-Click this radio button to select a file from a DMS to be uploaded. The [SEARCH] button is displayed.
+Click this radio button to select a file from a DMS to be uploaded. A search bar and a [SEARCH] button are displayed.
 
 - [Choose file]  
 Click this button to select a file from your computer to be uploaded. If no file has been selected yet, the notice "No file chosen" is displayed.
 
 - [SEARCH]  
-Click this button to search for the file to be uploaded. The *Search file* window is displayed, see [Select file](#select-file).
+Click this button to search for the file to be uploaded. The *Select file* window is displayed, see [Select file](#select-file).
 
 - [UPLOAD]  
-Click this button to upload the selected file. The selected file is uploaded. The [UPLOAD] button becomes grayed out.
+Click this button to upload the selected file. The selected file is uploaded. The [UPLOAD] button becomes inactive.
 
 - [CONTINUE]  
 Click this button to proceed to the next step.
@@ -495,18 +512,20 @@ This notice is displayed during the import process.
 Click this button to cancel the process.
 
 
-[comment]: <> (Der Prozess geht nicht weiter, System hängt. Ich habe versucht eine exportierte DAT-Datei -Reiter EXPORT- zu importieren, aber es scheint nicht zu funktioniere. Bug?)
+[comment]: <> (Der Prozess geht nicht weiter, System hängt. Ich habe versucht eine exportierte txt Datei -Reiter EXPORT- zu importieren, aber es scheint nicht zu funktionieren. Bug oder falsche Datei importiert?)
 
 
 
 ### Import/export definitions
+
+*Accounting > Extras > Tab IMPORT > Select import > Select Import-Def. > Button Edit*
 
 ![Import/export definitions](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Import/ImportExportDefinitionsLexware.png "[Import/export definitions]")
 
 **Name**
 
 - (Drop-down list)  
-Click the drop-down list to select a preconfigured import/export definition type. If there are any available, the second drop-down list displays the preconfigured definitions of the selected type.
+Click the drop-down list to select a preconfigured import/export definition type. If there are any available, the second drop-down list displays all preconfigured definitions of the selected type.
 
 [comment]: <> (Bedeutung von Asterisk neben Namen?)
 
@@ -539,7 +558,7 @@ Use this button to move a selected field left, from the *Possible fields* list t
 Use this button to move a selected field right, from the *Fields in the definition* list to the *Possible fields* list.
 
 **Column**  
-The letter and number in brackets indicate the column where a selected field is placed.
+  The letter and number in parentheses indicate the column where a selected field is located.
 
 **Possible fields**  
 This list displays all fields available for the selected import/export definition.
@@ -551,15 +570,13 @@ Click this button to enter an "ignore field", that is, to indicate that the fiel
 **CSV format definition**
 
 - *Field separating character*  
-Enter the character to be used to separate fields. This value may be set up by default to comma or semicolon.
+Enter the character to be used to separate fields. This value may be set by default to comma or semicolon.
 
 - *Escape character*  
-Enter the character to be used to escape. This value may be set up by default to backslash.
-
-[comment]: <> (Further info needed! RS HG)
+Enter the character to be used in escape sequences, that is, combinations of characters used to represent non-printable and special characters, such as tabs or new lines. This value may be set by default to backslash.
 
 - *Column name*  
-Click the drop-down list to select the appropriate option (**Yes/No**) to include or not the column name in the export/import.
+Click the drop-down list to select the appropriate option (**Yes/No**) to include the column name in the export/import or not.
 
 - *Date format*  
 Click the drop-down list to select the desired date and time format.
@@ -567,18 +584,16 @@ Click the drop-down list to select the desired date and time format.
 - *Example data set*  
 An example of a data set with the current field definition is displayed. This field is read-only.
 
-[comment]: <> (Unsure! Check!)
-
 - *Field delimiting character*  
-Enter the character to be used to separate fields. This value may be set up by default to quotation mark.
+Enter the character to be used to separate fields. This value may be set by default to quotation mark.
 
 - *Row end character*  
-Click the drop-down list to select the appropriate option, either **Automatic** or the applicable operating system.
+Click the drop-down list to select the applicable encoding. This field is set by default to **Automatic**.
 
 - *Character set*  
-Click the drop-down list to select the appropriate option, either **Automatic** or the applicable encoding.
+Click the drop-down list to select the applicable encoding. This field is set by default to **Automatic**.
 
-- *Incorrect tow end character*  
+- *Incorrect row end character*  
 Click the drop-down list to select the appropriate option (**Ignore/Repair**).
 
 - *Number format*  
@@ -588,8 +603,9 @@ Click the drop-down list to select the desired number format.
 Click this button to save the changes.
 
 
-
 #### New import/export definition  
+
+*Accounting > Extras > Tab IMPORT > Select import > Select Import-Def. > Button Edit > Button Add*
 
 ![New import/export definition](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Import/NewImportExportDefinitionKdLf.png "[New import/export definition]")
 
@@ -600,10 +616,12 @@ Click the drop-down list to select the import/export definition type where the n
 Enter a name for the new import/export definition to be created.
 
 - [SAVE & NEW]  
-Click this button to create a new import/export definition.  
+Click this button to create an import/export definition.  
 
 
 #### Rename import/export definition  
+
+*Accounting > Extras > Tab IMPORT > Select import > Select Import-Def. > Button Edit > Button Edit*
 
 ![Rename import/export definition ](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Import/RenameImportExportDefinitionKdLf.png "[Rename import/export definition ]")
 
@@ -622,6 +640,8 @@ Click this button to rename the selected import/export definition.
 
 #### Select file
 
+*Accounting > Extras > Tab IMPORT > Select import > Button SEARCH*
+
 ![Select file](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/SelectFile.png "[Select file]")
 
 - *New documents*  
@@ -633,7 +653,7 @@ The documents that have been registered in the system are contained in this fold
 - *Printed documents*  
 The documents that have been printed are contained in this folder.
 
-  > [Info] Further folders can be created in the *Documents* module.
+  > [Info] Depending on the settings, the folders displayed may vary. Further folders can be created in the *Documents* module.
 
 - *Name*  
 Name of folder or file.

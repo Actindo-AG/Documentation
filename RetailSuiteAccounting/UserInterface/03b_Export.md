@@ -30,7 +30,7 @@ Click this button to export data in BMD format. Follow the instructions provided
 Click this button to export data in CSV format. Follow the instructions provided in the following windows, see [CSV](#csv).
 
 - [DATEV CSV]  
-Click this button to export data in DATEV compatible CSV format. Follow the instructions provided in the following windows, see [DATEV CSV](#datev-csv). For detailed information about exporting data in DATEV compatible CSV, see [Export the data for DATEV](../Operation/15_ProvideAccountingData.md#export-the-data-for-DATEV).
+Click this button to export data in DATEV compatible CSV format. Follow the instructions provided in the following windows, see [DATEV CSV](#datev-csv). For detailed information about exporting data in DATEV compatible CSV format, see [Export the data for DATEV](../Operation/15_ProvideAccountingData.md#export-the-data-for-DATEV).
 
 - [GDI]  
 Click this button to export data in GDI format. Follow the instructions provided in the following windows, see [GDI](#gdi).
@@ -45,7 +45,7 @@ Click this button to export open items. Follow the instructions provided in the 
 Click this button to export balance lists in CSV format. Follow the instructions provided in the following windows, see [Balance lists](#balance-lists).
 
 - [SALDEN.DAT]  
-Click this button to export data in Compeso SALDEN.DAT proprietary format. Follow the instructions provided in the following windows, see [SALDEN.DAT](#salden-dat).
+Click this button to export data in Compeso SALDEN.DAT proprietary format. Follow the instructions provided in the following windows, see [SALDEN.DAT](#saldendat).
 
 - [SAP]  
 Click this button to export data in SAP compatible format. Follow the instructions provided in the following windows, see [SAP](#sap).
@@ -105,13 +105,12 @@ A pop-up window confirms that the selected data have been exported correctly. Cl
 [comment]: <> (Nach einiger Sekunden bzw. kurz vor dem Step 3 ABBRECHEN Button ändert sich zu SCHLIESSEN, was nicht wirklich Sinn macht, denn man schließt tatsächlich das Fenster, also man bricht der Export ab.)
 
 
-
 ![Export BMD Step 3](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Export/BMD03.png "[Export BMD Step 3]")
 
 **Step 3**
 
 - *Exported files*  
-The exported file(s) are displayed and can be downloaded by clicking the file name(s).
+The exported file(s) are displayed and can be downloaded by clicking the file name(s). By default, the downloaded exported file(s) is saved in the *Downloads* folder of your device.
 
 - [CONTINUE]  
 
@@ -126,6 +125,9 @@ The exported file(s) are displayed and can be downloaded by clicking the file na
 ![Export CSV Step 1](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Export/CSV01.png "[Export CSV Step 1]")
 
 ![Export CSV Step 1](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Export/CSV01cust.png "[Export CSV Step 1]")
+
+[comment]: <> (Screenshots zusammenfügen? RS HG)
+
 
 **Step 1**
 
@@ -145,13 +147,13 @@ Specify the period to be exported.
 Click the applicable radio button to select the appropriate option:
   - ![Radio button](../../Assets/Icons/RadioButton02.png "[Radio button]") *Export all*
   - ![Radio button](../../Assets/Icons/RadioButton02.png "[Radio button]") *All from last export on (if last export exists, otherwise all)*
-  - *Set marker to export time*  
-  Mark the checkbox if time is to be exported.
+  - [x] *Set marker to export time*  
+  Click the checkbox if time is to be exported.
 
 [comment]: <> (Unsicher, RS mit FH)
 
 - *File content*  
-Click the drop-down list to select the applicable file content. The following options are available:
+Click the drop-down list to select the applicable file content. The following options are available by default:
 
   - **Customers/suppliers**
   - **Chart of accounts**
@@ -159,7 +161,7 @@ Click the drop-down list to select the applicable file content. The following op
 
 
 - *Export def.*  
-Click the drop-down list to select the appropriate export definition. The export definitions are preconfigured in the system but can be edited. All created export definitions are displayed in the drop-down list.
+Click the drop-down list to select the appropriate export definition. The options displayed vary depending on the option selected in the *File content* drop-down list. All available option-related export definitions are displayed in the list. The export definitions are preconfigured in the system but they can be edited.
 
 
 - [Edit]  
@@ -197,7 +199,7 @@ Click this button to cancel the process. After a few seconds, the [CANCEL] butto
 - [CLOSE]  
 Click this button to close the window. This will cancel the export.    
 
-A pop-up window confirms that the selected data have been exported correctly. Click the OK button to proceed to the next step.
+A pop-up window confirms that the selected data have been exported correctly. Click the [OK] button to proceed to the next step.
 
 
 ![Export CSV Step 3](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Export/CSV03.png "[Export CSV Step 3]")
@@ -206,7 +208,7 @@ A pop-up window confirms that the selected data have been exported correctly. Cl
 **Step 3**
 
 - *Exported files*  
-The exported file(s) are displayed and can be downloaded by clicking the file name(s).
+The exported file(s) are displayed and can be downloaded by clicking the file name(s). By default, the downloaded exported file(s) is saved in the *Downloads* folder of your device.
 
 - [CONTINUE]  
 
@@ -222,7 +224,10 @@ The exported file(s) are displayed and can be downloaded by clicking the file na
 
 ![Export DATEV CSV Step 1](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Export/DatevCVS01cust.png "[Export DATEV CSV Step 1]")
 
+[comment]: <> (Screenshots zusammenfügen? RS HG)
+
 For detailed information about exporting data for DATEV, see [Export the data for DATEV](../Operation/15_ProvideAccountingData.md#export-the-data-for-datev).
+
 
 **Step 1**
 
@@ -243,8 +248,8 @@ Specify the period to be exported.
 Click the applicable radio button to select the appropriate option:
   - ![Radio button](../../Assets/Icons/RadioButton02.png "[Radio button]") *Export all*
   - ![Radio button](../../Assets/Icons/RadioButton02.png "[Radio button]") *All from last export on (if last export exists, otherwise all)*
-  - *Set marker to export time*  
-  Mark the checkbox if time is to be exported.
+  - [x] *Set marker to export time*  
+  Click the checkbox if time is to be exported.
 
 
 - *Impersonal accounts*  
@@ -326,7 +331,7 @@ A pop-up window confirms that the selected data have been exported correctly. Cl
 **Step 3**
 
 - *Exported files*  
-The exported file(s) are displayed and can be downloaded by clicking the file name(s).
+The exported file(s) are displayed and can be downloaded by clicking the file name(s). By default, the downloaded exported file(s) is saved in the *Downloads* folder of your device.
 
 - [CONTINUE]  
 
@@ -391,7 +396,7 @@ A pop-up window confirms that the selected data have been exported correctly. Cl
 **Step 3**
 
 - *Exported files*  
-The exported file(s) are displayed and can be downloaded by clicking the file name(s).
+The exported file(s) are displayed and can be downloaded by clicking the file name(s). By default, the downloaded exported file(s) is saved in the *Downloads* folder of your device.
 
 - [CONTINUE]  
 
@@ -462,7 +467,7 @@ A pop-up window confirms that the selected data have been exported correctly. Cl
 **Step 3**
 
 - *Exported files*  
-The exported file(s) are displayed and can be downloaded by clicking the file name(s).
+The exported file(s) are displayed and can be downloaded by clicking the file name(s). By default, the downloaded exported file(s) is saved in the *Downloads* folder of your device.
 
 - [CONTINUE]  
 
@@ -493,8 +498,8 @@ Specify the period to be exported.
 Click the applicable radio button to select the appropriate option:
   - ![Radio button](../../Assets/Icons/RadioButton02.png "[Radio button]") *Export all*
   - ![Radio button](../../Assets/Icons/RadioButton02.png "[Radio button]") *All from last export on (if last export exists, otherwise all)*
-  - *Set marker to export time*  
-  Mark the checkbox if time is to be exported.
+  - [x] *Set marker to export time*  
+  Click the checkbox if time is to be exported.
 
 
 - *Items*  
@@ -545,7 +550,7 @@ A pop-up window confirms that the selected data have been exported correctly. Cl
 **Step 3**
 
 - *Exported files*  
-The exported file(s) are displayed and can be downloaded by clicking the file name(s).
+The exported file(s) are displayed and can be downloaded by clicking the file name(s). By default, the downloaded exported file(s) is saved in the *Downloads* folder of your device.
 
 - [CONTINUE]  
 
@@ -613,7 +618,7 @@ A pop-up window confirms that the selected data have been exported correctly. Cl
 **Step 3**
 
 - *Exported files*  
-The exported file(s) are displayed and can be downloaded by clicking the file name(s).
+The exported file(s) are displayed and can be downloaded by clicking the file name(s). By default, the downloaded exported file(s) is saved in the *Downloads* folder of your device.
 
 - [CONTINUE]  
 
@@ -679,7 +684,7 @@ A pop-up window confirms that the selected data have been exported correctly. Cl
 **Step 3**
 
 - *Exported files*  
-The exported file(s) are displayed and can be downloaded by clicking the file name(s).
+The exported file(s) are displayed and can be downloaded by clicking the file name(s). By default, the downloaded exported file(s) is saved in the *Downloads* folder of your device.
 
 - [CONTINUE]  
 
@@ -712,8 +717,8 @@ Specify the period to be exported.
 Click the applicable radio button to select the appropriate option:
   - ![Radio button](../../Assets/Icons/RadioButton02.png "[Radio button]") *Export all*
   - ![Radio button](../../Assets/Icons/RadioButton02.png "[Radio button]") *All from last export on (if last export exists, otherwise all)*
-  - *Set marker to export time*  
-  Mark the checkbox if time is to be exported.
+  - [x] *Set marker to export time*  
+  Click the checkbox if time is to be exported.
 
 
 - *Creation from*  
@@ -749,7 +754,7 @@ A pop-up window confirms that the selected data have been exported correctly. Cl
 **Step 3**
 
 - *Exported files*  
-The exported file(s) are displayed and can be downloaded by clicking the file name(s).
+The exported file(s) are displayed and can be downloaded by clicking the file name(s). By default, the downloaded exported file(s) is saved in the *Downloads* folder of your device.
 
 - [CONTINUE]  
 
@@ -812,7 +817,7 @@ A pop-up window confirms that the selected data have been exported correctly. Cl
 **Step 3**
 
 - *Exported files*  
-The exported file(s) are displayed and can be downloaded by clicking the file name(s).
+The exported file(s) are displayed and can be downloaded by clicking the file name(s). By default, the downloaded exported file(s) is saved in the *Downloads* folder of your device.
 
 - [CONTINUE]  
 
@@ -879,7 +884,7 @@ A pop-up window confirms that the selected data have been exported correctly. Cl
 **Step 3**
 
 - *Exported files*  
-The exported file(s) are displayed and can be downloaded by clicking the file name(s).
+The exported file(s) are displayed and can be downloaded by clicking the file name(s). By default, the downloaded exported file(s) is saved in the *Downloads* folder of your device.
 
 - [CONTINUE]  
 
@@ -888,6 +893,8 @@ The exported file(s) are displayed and can be downloaded by clicking the file na
 
 
 ### BMD tax mapping
+
+*Accounting > Extras > Tab EXPORT > Select BMD > Button Edit*
 
 ![BMD tax mapping](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Export/BMDTaxMapping.png "[BMD tax mapping]")
 
@@ -937,6 +944,8 @@ Click this button to reset both fields to their initial status.
 
 ### Import/export definitions
 
+*Accounting > Extras > Tab EXPORT > Select export > Select Export-Def. > Button Edit*
+
 ![Import/export definitions](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Import/ImportExportDefinitionsLexware.png "[Import/export definitions]")
 
 **Name**
@@ -975,7 +984,7 @@ This list displays all fields contained in the selected import/export definition
   Use this button to move a selected field right, from the *Fields in the definition* list to the *Possible fields* list.
 
 **Column**  
-The letter and number in brackets indicate the column where a selected field is placed.
+The letter and number in parentheses indicate the column where a selected field is placed.
 
 **Possible fields**  
 This list displays all fields available for the selected import/export definition.
@@ -987,10 +996,10 @@ Click this button to add an "ignore field" command, that is, to indicate that th
 **CSV format definition**
 
 - *Field separating character*  
-Enter the character to be used to separate fields. This value may be set up by default to comma or semicolon.
+Enter the character to be used to separate fields. This value may be set by default to comma or semicolon.
 
 - *Escape character*  
-Enter the character to be used in escape sequences, that is, combinations of characters used to represent non-printable and special characters, such as tabs or new lines. This value may be set up by default to backslash.
+Enter the character to be used in escape sequences, that is, combinations of characters used to represent non-printable and special characters, such as tabs or new lines. This value may be set by default to backslash.
 
 - *Column name*  
 Click the drop-down list to select the appropriate option (**Yes/No**) to include or not the column name in the export/import.
@@ -1001,16 +1010,14 @@ Click the drop-down list to select the desired date and time format.
 - *Example data set*  
 An example of a data set with the current field definition is displayed. This field is read-only.
 
-[comment]: <> (Unsure! Check!)
-
 - *Field delimiting character*  
-Enter the character to be used to separate fields. This value may be set up by default to quotation mark.
+Enter the character to be used to separate fields. This value may be set by default to quotation mark.
 
 - *Row end character*  
-Click the drop-down list to select the appropriate option, either **Automatic** or the applicable operating system.
+Click the drop-down list to select the applicable encoding. This field is set by default to **Automatic**.
 
 - *Character set*  
-Click the drop-down list to select the appropriate option, either **Automatic** or the applicable encoding.
+Click the drop-down list to select the applicable encoding. This field is set by default to **Automatic**.
 
 - *Incorrect row end character*  
 Click the drop-down list to select the appropriate option (**Ignore/Repair**).
@@ -1025,6 +1032,8 @@ Click this button to save the changes.
 
 #### New import/export definition  
 
+*Accounting > Extras > Tab EXPORT > Select export > Select Export-Def. > Button Edit > Button Add*
+
 ![New import/export definition](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Import/NewImportExportDefinitionKdLf.png "[New import/export definition]")
 
 - *For*  
@@ -1038,6 +1047,8 @@ Click this button to create a new import/export definition.
 
 
 #### Rename import/export definition  
+
+*Accounting > Extras > Tab EXPORT > Select export > Select Export-Def. > Button Edit > Button Edit*
 
 ![Rename import/export definition ](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Import/RenameImportExportDefinitionKdLf.png "[Rename import/export definition ]")
 

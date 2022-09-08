@@ -103,8 +103,6 @@ Click this button to save any changes made to an existing tax key. For detailed 
 - [DELETE]  
 Click this button to delete the selected tax key. For detailed information, see [Delete a tax key](../Integration/02_ManageTaxKeys.md#delete-a-tax-key).
 
-  > [Warning] Be aware that the selected tax key will be deleted permanently.
-
 - [CLEAR]  
 Click this button to clear all input fields. The [SAVE & NEW] button becomes active.
 
