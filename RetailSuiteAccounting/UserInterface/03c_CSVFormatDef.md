@@ -90,7 +90,7 @@ Click this button to save the changes.
 
 ## New import/export definition  
 
-*Accounting > Select fiscal year > Extras > Tab CSV FORMAT DEF. > Button Add*
+*Accounting > Extras > Tab CSV FORMAT DEF. > Button Add*
 
 ![New import/export definition](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Import/NewImportExportDefinitionKdLf.png "[New import/export definition]")
 
@@ -106,7 +106,7 @@ Click this button to create a new import/export definition.
 
 ## Rename import/export definition  
 
-*Accounting > Select fiscal year > Extras > Tab CSV FORMAT DEF. > Button Edit*
+*Accounting > Extras > Tab CSV FORMAT DEF. > Button Edit*
 
 ![Rename import/export definition](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Import/RenameImportExportDefinitionKdLf.png "[Rename import/export definition]")
 

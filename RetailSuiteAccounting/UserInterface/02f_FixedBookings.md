@@ -1,6 +1,6 @@
 # Fixed posting
 
-*Accounting > Select fiscal year > Settings > Tab FIXED POSTINGS*
+*Accounting > Settings > Tab FIXED POSTINGS*
 
 ![Fixed posting](../../Assets/Screenshots/RetailSuiteAccounting/Settings/FixedBookings/CreateFixedBookingBatch.png "[Fixed posting]")
 
@@ -23,7 +23,7 @@ Click this button to edit a fixed posting batch. The *Fixed postings &ndash; Bat
 
 ## Fixed postings &ndash; Batch
 
-*Accounting > Select fiscal year > Settings > Tab FIXED POSTINGS > Select batch*
+*Accounting > Settings > Tab FIXED POSTINGS > Select batch*
 
 ![Fixed posting batch](../../Assets/Screenshots/RetailSuiteAccounting/Settings/FixedBookings/FixedBookingBatch.png "[Fixed posting batch]")
 

@@ -1,6 +1,6 @@
 # Post receipts
 
-*Accounting > Select fiscal year > Post > Tab POST RECEIPTS*
+*Accounting > Post > Tab POST RECEIPTS*
 
 ![New receipt](../../Assets/Screenshots/RetailSuiteAccounting/Book/BookReceipts/BookReceipts.png "[New receipt]")
 
