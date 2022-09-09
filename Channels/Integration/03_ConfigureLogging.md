@@ -1,3 +1,5 @@
+[!!User Interface Logging](../UserInterface/to_be_completed)
+
 # Configure the logging settings
 
 Configure in the logging settings the log levels of messages to be stored and their retention time.

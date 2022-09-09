@@ -1,3 +1,5 @@
+[!!User Interface Connections](../UserInterface/to_be_completed)
+
 # Manage the connections
 
 Establish connections via drivers to connect your marketplaces with the *Actindo Core1 Platform*. A marketplace can be either an online shop or a point of sale. You can establish an unlimited number of connection per driver.
@@ -16,7 +18,7 @@ In the following, the general settings to create, edit, synchronize or disable c
 
 ## Create a connection
 
-Create a connection to a certain marketplace. As soon as a connection has been established, an initial synchronization will be triggered, which will transfer the entire data model of the connected marketplace to Actindo. Depending on the marketplace to be connected, special configurations may be necessary.
+Create a connection to a certain marketplace. As soon as a connection has been established, an initial synchronization will be triggered, which will transfer the entire data model of the connected marketplace mirrored to Actindo. This means that all attributes and attribute sets from the marketplace are also transferred to Actindo and can be accessed in the *DataHub* module. Depending on the marketplace to be connected, special configurations may be necessary.
 
 [comment]: <> (POS auch in eigener Procedure erklären?)
 
