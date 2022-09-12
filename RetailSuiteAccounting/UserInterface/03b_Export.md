@@ -100,7 +100,7 @@ Click this button to cancel the process. After a few seconds, the [CANCEL] butto
 - [CLOSE]  
 Click this button to close the window. This will cancel the export.    
 
-A pop-up window confirms that the selected data have been exported correctly. Click the OK button to proceed to the next step.
+A pop-up window confirms that the selected data have been exported correctly. Click the [OK] button to proceed to the next step.
 
 [comment]: <> (Nach einiger Sekunden bzw. kurz vor dem Step 3 ABBRECHEN Button ändert sich zu SCHLIESSEN, was nicht wirklich Sinn macht, denn man schließt tatsächlich das Fenster, also man bricht der Export ab.)
 
@@ -268,7 +268,7 @@ Enter an account number or an account number range to be exported.
 - *Export subpostings*  
 Click the drop-down list to select the appropriate option (**Yes/No**).
 
-[comment]: <> (Check was Unterbuchungen sind)
+[comment]: <> (FH - Check was Unterbuchungen sind)
 
 - *Personal accounts*  
 Click the drop-down list to select the personal accounts to be exported. The following options are available:  
@@ -323,7 +323,7 @@ Click this button to cancel the process. After a few seconds, the [CANCEL] butto
 - [CLOSE]  
 Click this button to close the window. This will cancel the export.   
 
-A pop-up window confirms that the selected data have been exported correctly. Click the OK button to proceed to the next step.
+A pop-up window confirms that the selected data have been exported correctly. Click the [OK] button to proceed to the next step.
 
 
 ![Export DATEV CSV Step 3](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Export/DatevCVS03.png "[Export DATEV CSV Step 3]")
@@ -387,7 +387,7 @@ Click this button to cancel the process. After a few seconds, the [CANCEL] butto
 - [CLOSE]  
 Click this button to close the window. This will cancel the export.   
 
-A pop-up window confirms that the selected data have been exported correctly. Click the OK button to proceed to the next step.
+A pop-up window confirms that the selected data have been exported correctly. Click the [OK] button to proceed to the next step.
 
 
 
@@ -459,7 +459,7 @@ Click this button to cancel the process. After a few seconds, the [CANCEL] butto
 - [CLOSE]  
 Click this button to close the window. This will cancel the export.   
 
-A pop-up window confirms that the selected data have been exported correctly. Click the OK button to proceed to the next step.
+A pop-up window confirms that the selected data have been exported correctly. Click the [OK] button to proceed to the next step.
 
 
 ![Export GDPDU Step 3](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Export/GDPdU03.png "[Export GDPDU Step 3]")
@@ -541,7 +541,7 @@ Click this button to cancel the process. After a few seconds, the [CANCEL] butto
 - [CLOSE]  
 Click this button to close the window. This will cancel the export.   
 
-A pop-up window confirms that the selected data have been exported correctly. Click the OK button to proceed to the next step.
+A pop-up window confirms that the selected data have been exported correctly. Click the [OK] button to proceed to the next step.
 
 
 
@@ -610,7 +610,7 @@ Click this button to cancel the process. After a few seconds, the [CANCEL] butto
 - [CLOSE]  
 Click this button to close the window. This will cancel the export.   
 
-A pop-up window confirms that the selected data have been exported correctly. Click the OK button to proceed to the next step.
+A pop-up window confirms that the selected data have been exported correctly. Click the [OK] button to proceed to the next step.
 
 
 ![Export Balance lists Step 3](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Export/BalanceList03.png "[Export Balance lists Step 3]")
@@ -675,7 +675,7 @@ Click this button to cancel the process. After a few seconds, the [CANCEL] butto
 - [CLOSE]  
 Click this button to close the window. This will cancel the export.   
 
-A pop-up window confirms that the selected data have been exported correctly. Click the OK button to proceed to the next step.
+A pop-up window confirms that the selected data have been exported correctly. Click the [OK] button to proceed to the next step.
 
 
 
@@ -745,7 +745,7 @@ Click this button to cancel the process. After a few seconds, the [CANCEL] butto
 - [CLOSE]  
 Click this button to close the window. This will cancel the export.   
 
-A pop-up window confirms that the selected data have been exported correctly. Click the OK button to proceed to the next step.
+A pop-up window confirms that the selected data have been exported correctly. Click the [OK] button to proceed to the next step.
 
 
 
@@ -791,7 +791,7 @@ Enter an end date for the postings to be exported.
 - *File suffix*  
 Enter a file suffix, if applicable. Only numbers can be used.
 
-[comment]: <> (Info fehlt über VARIAL Datei-Suffix. Nichts gefunden.)
+[comment]: <> (FH Info fehlt über VARIAL Datei-Suffix. Nichts gefunden.)
 
 
 
@@ -808,7 +808,7 @@ Click this button to cancel the process. After a few seconds, the [CANCEL] butto
 - [CLOSE]  
 Click this button to close the window. This will cancel the export.   
 
-A pop-up window confirms that the selected data have been exported correctly. Click the OK button to proceed to the next step.
+A pop-up window confirms that the selected data have been exported correctly. Click the [OK] button to proceed to the next step.
 
 
 
@@ -876,7 +876,7 @@ Click this button to cancel the process. After a few seconds, the [CANCEL] butto
 - [CLOSE]  
 Click this button to close the window. This will cancel the export.   
 
-A pop-up window confirms that the selected data have been exported correctly. Click the OK button to proceed to the next step.
+A pop-up window confirms that the selected data have been exported correctly. Click the [OK] button to proceed to the next step.
 
 
 ![Export Zahlwerk Step 3](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Export/Zahlwerk03.png "[Export Zahlwerk Step 3]")
@@ -953,7 +953,7 @@ Click this button to reset both fields to their initial status.
 - (Drop-down list)  
 Click the drop-down list to select a preconfigured import/export definition type. If there are any available, the second drop-down list displays the preconfigured definitions of the selected type.
 
-[comment]: <> (Bedeutung von Asterisk neben Namen?)
+[comment]: <> (FH Bedeutung von Asterisk neben Namen?)
 
 - (Drop-down list)  
 Click the drop-down list to select the desired preconfigured import/export definition.

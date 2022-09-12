@@ -98,6 +98,7 @@
   - [Cost unit](./02e_CostAccounting.md#cost-unit)
     - [Select address](./02e_CostAccounting.md#cost-unit#select-address)
     - [ProfitCenter](./02e_CostAccounting.md#cost-unit#profitCenter)
+  - [Print cost center/unit](./02e_CostAccounting.md#cost-unit#print-cost-centerunit)
 
 - [FIXED POSTINGS](./02f_FixedBookings.md)
   - [Fixed posting batch name](./02f_FixedBookings.md#fixed-booking-batch-name)

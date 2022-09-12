@@ -92,10 +92,11 @@ Click this button to delete a selected cost center.
 Click this button to clear all input fields. The [SAVE & NEW] button becomes active.
 
 - [PRINT]  
-Click this button to print the cost center/unit. The *Cost center/unit* window is displayed.
+Click this button to print the cost center/unit. The *Print cost center/unit* window is displayed.
 
+[comment]: <> (Eigentlich heißt das Fenster Cost center/unit, aber ich habe zu Print cost center/unit umbenannt hier.)
 
-[comment]: <> (Wir haben keine Prozedur in Integration über "Create/Edit/Delete cost center/cost unit". Hinzufügen?)
+[comment]: <> (Wir haben keine Prozedur in Integration über "Create/Edit/Delete cost center/cost unit". Hinzufügen! RS mit FH)
 
 
 ## Cost unit
@@ -146,7 +147,7 @@ Enter the debtor or customer number, if necessary. Alternatively, click the [SEA
 Click this button to display the *Select address* window, see [Select address](#select-address).
 
 - *ProfitCenter*  
-Click the drop-down list to select the appropriate ProfitCenter. If no ProfitCenter has been created yet, **0 - No group** is displayed.
+Click the drop-down list to select the appropriate ProfitCenter. All available ProfiCenters are displayed in the list. If no ProfitCenter has been created yet, **0 - No group** is displayed.
 
 [comment]: <> (Unsicher, check mit FH!)
 
@@ -169,7 +170,40 @@ Click this button to delete a selected cost unit.
 Click this button to clear all input fields. The [SAVE & NEW] button becomes active.
 
 - [PRINT]  
-Click this button to print the cost center/unit. The *Cost center/unit* window is displayed.
+Click this button to print the cost center/unit. The *Print cost center/unit* window is displayed.
+
+[comment]: <> (Eigentlich heißt das Fenster Cost center/unit, aber ich habe zu Print cost center/unit umbenannt hier.)
+
+
+## Print cost center/unit
+
+*Accounting > Settings > Tab COST ACCOUNTING > Drop-down option Cost1 - Cost center > Button PRINT*
+*Accounting > Settings > Tab COST ACCOUNTING > Drop-down option Cost2 - Cost unit > Button PRINT*
+
+![Print cost center/unit](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CostAccounting/CostCenterUnit.png "[Print cost center/unit]")
+
+
+- *Cost center/unit*  
+Click the drop-down list to select whether the cost center(s) or cost unit(s) are to be printed.
+
+- *Active/inactive*  
+Click the checkbox to select one of the options, or both, to be printed.
+
+- *Numbers from-to*  
+Enter a cost center/unit number range to be printed.
+
+- *Month*  
+Click the drop-down list to select the desired month to be printed.
+
+- *Fiscal year*  
+Click the drop-down list to select the desired fiscal year to be printed.
+
+
+- [CANCEL]  
+Click this button to cancel the process. The window is closed.
+
+- [PRINT]  
+Click this button to print out the cost center/unit with the selected settings.
 
 
 ### Allocation table
@@ -198,7 +232,7 @@ Click this button to display the *EXCEL* context menu. The following option is a
   - *Export all*  
   Click this option to export all available allocation tables. The allocation tables are exported in Excel format and saved by default in the Downloads folder in your computer.
 
-[comment]: <> (Checl! One file, several files, one excel with several tabs?)
+[comment]: <> (Check! One file, several files, one excel with several tabs?)
 
 The allocation table displays the distribution of costs among cost centers and units. The information displayed is read-only.
 
@@ -235,15 +269,13 @@ Double click the corresponding table cell to enter an Excel formula.
 Click this button to close the window.
 
 - [PRINT]  
-Click this button to print the allocation table. The *Allocation table* window to select the month(s) and fiscal year to be printed is displayed, see [Allocation table](#allocation-table-2).
+Click this button to print the allocation table. The *Allocation table* window to select the month(s) and fiscal year to be printed is displayed, see [Print allocation table](#print-allocation-table).
 
 - [SAVE]  
 Click this button to save the allocation table after making any changes. A pop-up window is displayed while the changes are being saved.
 
 
 ### Select address
-
-[comment]: <> (Work in progress)
 
 [comment]: <> (Fenster/Unterkapitel umbenennen zu Search debtor?)
 
@@ -257,12 +289,11 @@ Click this button to save the allocation table after making any changes. A pop-u
 Click this button to display the *EXCEL* context menu. The following options are available:  
 
   - *Export current page*  
-  Click this option to export the customer/supplier list page currently displayed. The customer/supplier list is exported in Excel format and saved by default in the Downloads folder in your computer.
+  Click this option to export the customer/supplier list page currently displayed. The customer/supplier list is exported in Excel format and saved by default in the *Downloads* folder in your computer.
 
   - *Export all*  
-  Click this option to export all customer/supplier list pages. The customer/supplier list is exported in Excel format and saved by default in the Downloads folder in your computer.
+  Click this option to export all customer/supplier list pages. The customer/supplier list is exported in Excel format and saved by default in the *Downloads* folder in your computer.
 
-[comment]: <> (Check!)
 
 - [QUICK SEARCH]  
 Click this button to display the *QUICK SEARCH* context menu. All search criteria are selected by default through a marked checkbox. Deselect any search criteria as necessary. The following search criteria are available:
@@ -313,14 +344,14 @@ Click this button to display the context menu.
 
   - *FILTER BY*  
   The following filter values are available:
-    - Price group  
+    - *Price group*  
 
   - *FILTER CRITERION*  
   Click the drop-down list to select the appropriate filter criterion. The created price groups are displayed.
 
   > [Info] Price groups can be created in the *Settings* menu entry of the *Material management* and the *Order management* module. A customer can be assigned a specific price group in the *Order management* sub-tab of the *DEBTORS/CREDITORS* tab, see [Invoicing](./02a_DebtorsCreditors.md#invoicing-1).
 
-  [comment]: <> (Check module names in English. No more "filter by" options available or depends on the settings?)
+  [comment]: <> (Other "Filter by" options available depending on settings?)
 
 - [CANCEL]  
  Click this button to cancel your selection.
@@ -329,13 +360,13 @@ Click this button to display the context menu.
  Click this button to apply the search criteria and values.
 
 
-All customer/supplier details are displayed in a column view. Depending on the settings, the displayed columns may vary.
+All customer/supplier details are displayed in a column view. Depending on the settings, the displayed columns may vary. To add or delete columns, click the ![Points](../../Assets/Icons/Points02.png "[Points]") (Points) icon to display the context menu. Then, hover the mouse over the ![Columns](../../Assets/Icons/Columns02.png "[Columns]") (Columns) menu entry to display all available options. Select or deselect the columns as desired.
 
 - *No.*  
-Customer/supplier number. This number is given automatically by the system if left empty. Customer numbers range from 10000 to 69999 and supplier numbers, from 70000 to 99999.
+Customer/supplier number. Customer numbers range from 10000 to 69999 and supplier numbers, from 70000 to 99999.
 
 - *Short name*  
-Short name given to the customer/supplier. This field is compulsory.
+Short name given to the customer/supplier.
 
 - *Company*  
 Company name.
@@ -353,7 +384,7 @@ Customer/supplier address.
 Complimentary address information.
 
 - *ZIP*  
-Customer/supplier ZIP code.
+Customer/supplier zip code.
 
 - *Location*   
 Customer/supplier city or town.
@@ -389,22 +420,21 @@ Customer/supplier email address.
 Customer/supplier VAT identification number, if applicable.
 
 - *Type of customer*  
-
-[comment]: <> (FH: Was kann hier vorkommen? Supplier/customer?)
+Type of customer/supplier as defined by the user.
 
 - *Customer number*  
 Reference customer/supplier number as defined by the user.
 
 
+By right-clicking on a row, a context menu is displayed containing the following options:
 
-[comment]: <> (By right-clicking on a row, context menu appears with two options -> Show documents of the customer / supplier -> to Overview in Fakturierung module, and Show articles of supplier -> to Artikelliste in Artikelverwaltung module. Add info and link when available?)
+- *Show documents of the customer/supplier*  
+Click this option to access the customer/supplier order Overview in the *Order management* module
+- *Show articles of supplier*  
+Click this option to access the supplier product list in the *Material management* module.
 
-- ![First page](../../Assets/Icons/FirstPage.png "[First page]") - ![Last page](../../Assets/Icons/LastPage.png "[Last page]") (First page) - (Last page)  
- ![Previous page](../../Assets/Icons/PreviousPage.png "[Previous page]") - ![Next page](../../Assets/Icons/NextPage.png "[Next page]") (Previous page) - (Next page)  
-Click these buttons to navigate the customer/supplier list.
+[comment]: <> (Add link when available)
 
-- *Page [x] of [x]*  
-Enter a page number to go to a specific page.
 
 - ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh)  
  Click this button to update the receipt list.
@@ -412,13 +442,8 @@ Enter a page number to go to a specific page.
 - [RESET]  
  Click this button to reset the receipt list view.
 
-- *Displaying X - X of X*  
-This text displays the number of customers and suppliers currently displayed and the total number of customers and suppliers in the list. This text is read-only.
-
 
 ### ProfitCenter  
-
-[comment]: <> (Fenster/Unterkapitel umbenennen zu Edit ProfitCenter?)
 
 *Accounting > Settings > Tab COST ACCOUNTING > Drop-down option Cost2 - Cost unit > Button EDIT*
 
@@ -446,40 +471,6 @@ Click this button to delete the selected ProfitCenter.
 Click this button to save the newly created ProfitCenter or any other changes made.
 
 
-### Cost center/unit
-
-[comment]: <> (Fenster/Unterkapitel umbenennen zu Print cost center/unit? -> Evtl. zu H2 ändern und in TOC mit aufnehmen?)
-
-*Accounting > Settings > Tab COST ACCOUNTING > Drop-down option Cost1 - Cost center > Button PRINT*
-*Accounting > Settings > Tab COST ACCOUNTING > Drop-down option Cost2 - Cost unit > Button PRINT*
-
-
-![Print cost center/unit](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CostAccounting/CostCenterUnit.png "[Print cost center/unit]")
-
-
-- *Cost center/unit*  
-Click the drop-down list to select whether the cost center(s) or cost unit(s) are to be printed.
-
-- *Active/inactive*  
-Click the checkbox to select one of the options, or both, to be printed.
-
-- *Numbers from-to*  
-Enter a cost center/unit number range to be printed.
-
-- *Month*  
-Click the drop-down list to select the desired month to be printed.
-
-- *Fiscal year*  
-Click the drop-down list to select the desired fiscal year to be printed.
-
-
-- [CANCEL]  
-Click this button to cancel the process. The window is closed.
-
-- [PRINT]  
-Click this button to print out the cost center/unit with the selected settings.
-
-
 ####  Select period
 
 *Accounting > Settings > Tab COST ACCOUNTING > Drop-down option Cost1 - Cost center > Button ALLOCATION TABLE > Button CHANGE PERIOD*
@@ -496,7 +487,7 @@ Click the drop-down list to select the desired month.
 Click this button to confirm the selected settings.
 
 
-#### Allocation table
+#### Print allocation table
 
 *Accounting > Settings > Tab COST ACCOUNTING > Drop-down option Cost1 - Cost center > Button ALLOCATION TABLE > Button PRINT*
 
