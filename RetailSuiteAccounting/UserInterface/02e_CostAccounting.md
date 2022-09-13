@@ -25,7 +25,7 @@ Click the corresponding drop-down list to select the relevant accounting period 
 
     - **Cost 1 - Cost center**  
     Select this option to display the available cost centers in the selected accounting period or to create a new one.
-    - **Cost 2 - Cost unit**
+    - **Cost 2 - Cost unit**  
     Select this option to display the available cost units in the selected accounting period or to create a new one.  
 
     Depending on the option selected in the cost accounting drop-down list (**Cost 1 - Cost center** or **Cost 2 - Cost unit**), the input fields and the information displayed vary.
