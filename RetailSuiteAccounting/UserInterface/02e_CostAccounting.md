@@ -92,7 +92,7 @@ Click this button to delete a selected cost center.
 Click this button to clear all input fields. The [SAVE & NEW] button becomes active.
 
 - [PRINT]  
-Click this button to print the cost center/unit. The *Print cost center/unit* window is displayed.
+Click this button to print the cost center/unit. The *Print cost center/unit* window is displayed, see [Print cost center/unit](#print-cost-centerunit).
 
 [comment]: <> (Eigentlich heißt das Fenster Cost center/unit, aber ich habe zu Print cost center/unit umbenannt hier.)
 
@@ -170,14 +170,14 @@ Click this button to delete a selected cost unit.
 Click this button to clear all input fields. The [SAVE & NEW] button becomes active.
 
 - [PRINT]  
-Click this button to print the cost center/unit. The *Print cost center/unit* window is displayed.
+Click this button to print the cost center/unit. The *Print cost center/unit* window is displayed, see [Print cost center/unit](#print-cost-centerunit).
 
 [comment]: <> (Eigentlich heißt das Fenster Cost center/unit, aber ich habe zu Print cost center/unit umbenannt hier.)
 
 
 ## Print cost center/unit
 
-*Accounting > Settings > Tab COST ACCOUNTING > Drop-down option Cost1 - Cost center > Button PRINT*
+*Accounting > Settings > Tab COST ACCOUNTING > Drop-down option Cost1 - Cost center > Button PRINT*  
 *Accounting > Settings > Tab COST ACCOUNTING > Drop-down option Cost2 - Cost unit > Button PRINT*
 
 ![Print cost center/unit](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CostAccounting/CostCenterUnit.png "[Print cost center/unit]")
