@@ -74,7 +74,7 @@ Enter a longer text description for the cost center, if desired.
 It is possible to allocate costs from different cost centers to individual cost units. To do so, click the [ALLOCATION TABLE] button.
 
 - [ALLOCATION TABLE]  
-Click this button to display the *Allocation table* window, see [Allocation table](#allocation-table-1).
+Click this button to display the *Allocation table* window, see [Allocation table](#allocation-table).
 
 
 - [SAVE & NEW]  
@@ -475,7 +475,7 @@ Click this button to save the newly created ProfitCenter or any other changes ma
 
 *Accounting > Settings > Tab COST ACCOUNTING > Drop-down option Cost1 - Cost center > Button ALLOCATION TABLE > Button CHANGE PERIOD*
 
-![Select period](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CostAccounting/Selectperiod.png "[Select period]")
+![Select period](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CostAccounting/SelectPeriod.png "[Select period]")
 
 - *FY*    
 Click the drop-down list to select the desired fiscal year.
