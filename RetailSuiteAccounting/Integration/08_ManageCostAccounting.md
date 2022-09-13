@@ -80,10 +80,6 @@ A small pop-up window confirms that the edited cost center has been saved. The e
 
 ##  Delete a cost center
 
-*Accounting > Settings > Tab COST ACCOUNTING > Drop-down option Cost1 - Cost center*
-
-![Cost 1 - Cost center](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CostAccounting/CostAccounting01.png "[Cost 1 - Cost center]")
-
 You can delete a cost center, for example if it is no longer applicable.
 
  > [Info] If a date is displayed in the *Active from* column, it means that the cost center is currently being used and, therefore, cannot be deleted.
@@ -96,6 +92,8 @@ You can delete a cost center, for example if it is no longer applicable.
 #### Procedure
 
 *Accounting > Settings > Tab COST ACCOUNTING > Drop-down option Cost1 - Cost center*
+
+![Cost 1 - Cost center](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CostAccounting/CostAccounting01.png "[Cost 1 - Cost center]")
 
 1. Click the *Cost accounting* left and middle drop-down lists and select the desired fiscal year and posting period.  
 
@@ -186,10 +184,6 @@ A small pop-up window confirms that the edited cost unit has been saved. The edi
 
 ##  Delete a cost unit
 
-*Accounting > Settings > Tab COST ACCOUNTING > Drop-down option Cost2 - cost unit*
-
-![Cost 2 - cost unit](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CostAccounting/CostAccounting02.png "[Cost 2 - cost unit]")
-
 You can delete a cost unit, for example if it is no longer applicable.
 
   > [Info] If a date is displayed in the *Active from* column, it means that the cost unit is currently being used and, therefore, cannot be deleted. A warning message with the notice "The cost unit (number) cannot be deleted: it is distributed to the cost center/cost unit" is displayed.
@@ -203,7 +197,9 @@ You can delete a cost unit, for example if it is no longer applicable.
 
 #### Procedure
 
-*Accounting > Settings > Tab COST ACCOUNTING > Drop-down option Cost2 - Cost unit*
+*Accounting > Settings > Tab COST ACCOUNTING > Drop-down option Cost2 - cost unit*
+
+![Cost 2 - cost unit](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CostAccounting/CostAccounting02.png "[Cost 2 - cost unit]")
 
 1. Click the *Cost accounting* left and middle drop-down lists and select the desired fiscal year and posting period.  
 
