@@ -8,9 +8,11 @@
 
 ## Create an offer
 
-If the Actindo *PIM* module is used, offers can be created directly from the *PIM* products.
+You can either create an offer for a PIM product or an offer for a new product.
 
 ### Create an offer from a PIM product
+
+If the Actindo *PIM* module is used, offers can be created directly from the *PIM* products.
 
 #### Prerequisites
 
@@ -91,6 +93,8 @@ If the Actindo *PIM* module is used, offers can be created directly from the *PI
 
 ### Create a manual offer
 
+Create an offer manually if either the Actindo *PIM* module is not installed or you want to independently create an offer.
+
 #### Prerequisites
 
 At least one connection has been created, see [Create a connection](../Integration/01_ManageConnections#create-a-connection).
@@ -138,9 +142,65 @@ At least one connection has been created, see [Create a connection](../Integrati
 
 ## Edit an offer
 
+After you have created an offer, you can edit it. However, only some fields are editable. All attributes that are imported from *PIM* cannot be edited.
+
+[comment]: <> (welche felder sind editierbar? prüfen!)
+
+#### Prerequisites
+
+At least one offer has been created, see [Create an offer](#create-an-offer).
+
+#### Procedure
+
+*Omni-Channel > Offers > Tab OFFERS*
+
+![Offers](../../Assets/Screenshots/Channels/Offers/Offers/Offers.png "[Offers]")
+
+1. Click the offer you want to edit in the list of offers.   
+  The *Edit offer* view is displayed. The *Attributes* tab is preselected.
+
+  > [Info] The tabs int he *Edit offer* view as well as the fields displayed in the *Attributes* tab differ depending on the selected connection.
+
+  ![Edit offer](../../Assets/Screenshots/Channels/Offers/Offers/EditOffer.png "[Edit offer]")
+
+2. Edit the desired data of the product in the corresponding fields and tabs.
+
+3. Click the [SAVE] button in the upper right corner.   
+  The changes have been saved. The *Edit offer* view is closed.
 
 
 ## Change the offer status
+
+[comment]: <> (add)
+
+#### Prerequisites
+
+At least one offer has been created, see [Create an offer](#create-an-offer).
+
+#### Procedure
+
+*Omni-Channel > Offers > Tab OFFERS*
+
+![Offers](../../Assets/Screenshots/Channels/Offers/Offers/Offers.png "[Offers]")
+
+1. Click the checkbox of the offer whose status you want to change in the list of offers.   
+  The editing toolbar is displayed.
+
+2. Click the *Change status to* drop-down list in the toolbar and select the desired status. The following statuses are displayed:
+  - **Active**: The offer is active. It is displayed on the marketplace, where it can be sold.   
+  - **Inactive**: The offer is inactive. It is not longer displayed on the marketplace and thus cannot be sold anymore.   
+  - **Not available**: The offer is deleted from the marketplace.
+
+  The *Change offer status* confirmation window is displayed. If the variant status of the selected offer equals **Master offer**, an additional toggle is displayed within the confirmation window.   
+
+  ![Change offer status](../../Assets/Screenshots/Channels/Offers/Offers/ChangeOfferStatus.png "[Change offer status]")
+
+3. If available, enable the *Apply parent status to all child offers?* toggle to apply the selected status to the master offer and all corresponding child offers. By default, the toggle is disabled. The toggle is only displayed if a master offer has been selected.
+
+4. Click the [SAVE] button in the *Change offer status* confirmation window.   
+  Th status change has been triggered. The selected status is displayed in the *Pending status/Error* column of the corresponding offer. When the status has been changed, it is displayed in the *Status* column.
+
+  > [Info] It may take some time until the status has been changed. Click the ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh) button in the upper right corner to update the list of offers.   
 
 
 ## Delete an offer
