@@ -7,7 +7,7 @@ Cost accounting is a method to identify, measure and record all costs associated
 
 A cost center is a department or a function within a company to which costs may be allocated, such as HR, Accounting or IT. It can also be defined at a smaller level according to management needs, for instance involving a particular job position or machine.  
 
-A cost object is a unit of product or service in relation to which costs are ascertained. The cost object is determined by the nature of business. It can be the final item produced or a part of it, but can also be expressed differently, for instance in batches of items.  
+A cost object is a product or service in relation to which costs are ascertained. The cost object is determined by the nature of business. It can be the final item produced or a part of it, but can also be expressed differently, for instance in batches of items.  
 
 Both cost centers and cost objects can be created, edited, and deleted in the *Cost accounting* tab.
 
