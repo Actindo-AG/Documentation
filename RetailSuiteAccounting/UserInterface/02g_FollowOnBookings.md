@@ -20,10 +20,10 @@ Validity start date.
 Validity end date.
 
 - *Contra account*  
-Contra account number where the follow-on posting is to be registered.
+Contra account number where the follow-on posting is to be made.
 
 - *Account*  
-Account number where the follow-on posting is to be registered.
+Account number where the follow-on posting is to be made.
 
 - *Factor*  
 Factor applied to the initial posting amount.
@@ -47,10 +47,10 @@ Enter the account number to trigger the automatic follow-on posting function. If
 Enter the validity start and end date for the follow-on posting.
 
 - *Contra account*  
-Enter the contra account number to register the follow-on posting. If the account number is not known, use the account search function, see [Search for an account](../Operation/14_SearchAccounting.md#search-for-an-account).
+Enter the contra account to which the follow-on posting is to be made. If the account number is not known, use the account search function, see [Search for an account](../Operation/14_SearchAccounting.md#search-for-an-account).
 
 - *Account*  
-Enter the contra account number to register the follow-on posting. If the account number is not known, use the account search function, see [Search for an account](../Operation/14_SearchAccounting.md#search-for-an-account).
+Enter the account to which the follow-on posting is to be made. If the account number is not known, use the account search function, see [Search for an account](../Operation/14_SearchAccounting.md#search-for-an-account).
 
 - *Factor*  - *calc.*  
 Enter a factor value to be applied to the initial posting amount and click the drop-down list to select the appropriate calculating method. The following options are available:  
