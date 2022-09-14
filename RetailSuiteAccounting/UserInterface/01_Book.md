@@ -493,6 +493,7 @@ Select the applicable checkbox(es) for the balances to be carried forward. The f
 
   > [Info] The *Cost accounting* field and the corresponding checkboxes are displayed only when cost centers and/or cost units have been created in the fiscal year from which the balance is carried forward.
 
+[comment]: <> (Cost unit sollte noch zu Cost object geändert werden in allen UI Dateien.) 
 
 - *Delete old balances carried forward from selected FY* [x]  
 Select this checkbox to delete the old balance(s) carried forward from the selected fiscal year.  

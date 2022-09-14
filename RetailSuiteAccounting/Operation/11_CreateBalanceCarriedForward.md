@@ -32,7 +32,7 @@ A context menu is displayed.
 
   ![Balance carried forward: step 1](../../Assets/Screenshots/RetailSuiteAccounting/Book/BalanceCarriedForward01.png "[Balance carried forward: step 1]")  
 
-  [comment]: <> (The *Cost accounting* field is displayed only when cost centers and/or cost units have been created in the fiscal year from which the balance is carried forward.)
+  [comment]: <> (The *Cost accounting* field is displayed only when cost centers and/or cost objects have been created in the fiscal year from which the balance is carried forward.)
 
 3. Click the *Carry forward from FY* drop-down list and select the appropriate fiscal year. All available fiscal years prior to the currently selected fiscal year are displayed in the list.
 
@@ -40,7 +40,7 @@ A context menu is displayed.
 
 5. If necessary, change the posting date in the *Posting date* field. By default, the first day of the new fiscal year is preselected.
 
-6. Select the appropriate option(s) in the *Cost accounting* field if you also want to carry forward cost centers, cost units or inactive cost centers/units.
+6. Select the appropriate option(s) in the *Cost accounting* field if you also want to carry forward cost centers, cost objects or inactive cost centers/units.
 
 7. Select the *Delete old balances carried forward from selected FY* checkbox if necessary.
 

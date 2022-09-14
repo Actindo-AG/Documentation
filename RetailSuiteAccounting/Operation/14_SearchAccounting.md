@@ -76,7 +76,7 @@ A fiscal year has been selected, see [Select fiscal year](./01_SelectFiscalYear.
   - *Journal*  
   - *Date*  
   - *Cost center*
-  - *Cost unit*  
+  - *Cost object*  
   - *Processed*  
   - *User*  
 

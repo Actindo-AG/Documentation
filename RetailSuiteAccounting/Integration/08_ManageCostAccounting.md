@@ -7,11 +7,9 @@ Cost accounting is a method to identify, measure and record all costs associated
 
 A cost center is a department or a function within a company to which costs may be allocated, such as HR, Accounting or IT. It can also be defined at a smaller level according to management needs, for instance involving a particular job position or machine.  
 
-A cost unit, or cost object, is a unit of product or service in relation to which costs are ascertained. The cost unit is determined by the nature of business. It can be the final item produced or a part of it, but can also be expressed differently, for instance in batches of items.  
+A cost object is a unit of product or service in relation to which costs are ascertained. The cost object is determined by the nature of business. It can be the final item produced or a part of it, but can also be expressed differently, for instance in batches of items.  
 
-[comment]: <> (Cost unit vs. Cost object. Manchmal als Synonym verwendet, aber nicht immer. Evtl. durchgängig ändern auf Cost object)
-
-Both cost centers and cost units can be created, edited, and deleted in the *Cost accounting* tab.
+Both cost centers and cost objects can be created, edited, and deleted in the *Cost accounting* tab.
 
 
 ##  Create a cost center
@@ -38,7 +36,9 @@ A fiscal year has been selected, see [Select the fiscal year](../Operation/01_Se
 
 4. If desired, enter any additional information in the *Text* field.
 
-5. If desired, click the *Inactive* radio button to deactivate the cost center temporarily. By default, the radio button is set to *Active*.
+5. If desired, click the *Inactive* radio button to deactivate the cost center temporarily. By default, the radio button is set to *Active*. The inactive cost center is then locked for postings.
+
+  > [Info] If a cost object has already been posted to or allocated to a cost center, it cannot be set to inactive. A warning message is then displayed.
 
 6. Click the [SAVE & NEW] button.  
 A small pop-up window confirms that the new cost center has been saved. The new cost center is displayed in the list.
@@ -108,9 +108,9 @@ A small pop-up window confirms that the cost center has been deleted. The delete
   ![Deleted](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CostAccounting/Deleted.png "[Deleted]")
 
 
-##  Create a cost unit
+##  Create a cost object
 
-You can create a cost unit that is not yet available in the system.
+You can create a cost object that is not yet available in the system.
 
 #### Prerequisites
 
@@ -118,13 +118,13 @@ A fiscal year has been selected, see [Select the fiscal year](../Operation/01_Se
 
 #### Procedure
 
-*Accounting > Settings > Tab COST ACCOUNTING > Drop-down option Cost2 - Cost unit*
+*Accounting > Settings > Tab COST ACCOUNTING > Drop-down option Cost2 - Cost object*
 
-![Cost 2 - cost unit](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CostAccounting/CostAccounting02.png "[Cost 2 - cost unit]")
+![Cost 2 - Cost object](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CostAccounting/CostAccounting02.png "[Cost 2 - Cost object]")
 
 1. Click the *Cost accounting* left and middle drop-down lists and select the desired fiscal year and posting period.
 
-2. Enter a number in the *Cost unit* field.  
+2. Enter a number in the *Cost object* field.  
 
   > [Info] If a number is entered that is already in used, an error message is displayed.
 
@@ -138,77 +138,77 @@ A fiscal year has been selected, see [Select the fiscal year](../Operation/01_Se
 
   > [Info] If necessary, click the [EDIT] button to create or edit a ProfitCenter.
 
-[comment]: <> (0 - No group oder kein ProfitCenter??? - Soeben geändert, nach Problemen mit SQL-Server-Verbindung)
+7. If desired, click the *Inactive* radio button to deactivate the cost object temporarily. By default, the radio button is set to *Active*. The inactive cost object is then locked for postings.
 
-7. If desired, click the *Inactive* radio button to deactivate the cost unit temporarily. By default, the radio button is set to *Active*.
+ > [Info] If a cost object has already been posted to or allocated to a cost center, it cannot be set to inactive. A warning message is then displayed.
 
 8. Click the [SAVE & NEW] button.  
-A small pop-up window confirms that the new cost unit has been saved. The new cost unit is displayed in the list.
+A small pop-up window confirms that the new cost object has been saved. The new cost object is displayed in the list.
 
   ![Saved](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CostAccounting/Saved.png "[Saved]")
 
 
-##  Edit a cost unit
+##  Edit a cost object
 
-You can edit a cost unit, for example if it needs to be deactivated.  
+You can edit a cost object, for example if it needs to be deactivated.  
 
-  > [Note] Be aware that any changes made to a cost unit may   have consequences for the posting process.
+  > [Note] Be aware that any changes made to a cost object may   have consequences for the posting process.
 
 #### Prerequisites
 
 - A fiscal year has been selected, see [Select the fiscal year](../Operation/01_SelectFiscalYear.md).
-- A cost unit has been created, see [Create a cost unit](#create-a-cost-unit).
+- A cost object has been created, see [Create a cost object](#create-a-cost-unit).
 
 #### Procedure
 
-*Accounting > Settings > Tab COST ACCOUNTING > Drop-down option Cost2 - Cost unit*
+*Accounting > Settings > Tab COST ACCOUNTING > Drop-down option Cost2 - Cost object*
 
-![Cost 2 - cost unit](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CostAccounting/CostAccounting02.png "[Cost 2 - cost unit]")
+![Cost 2 - Cost object](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CostAccounting/CostAccounting02.png "[Cost 2 - Cost object]")
 
 1. Click the *Cost accounting* left and middle drop-down lists and select the desired fiscal year and posting period.
 
-2. Select the cost unit to be edited in the list.  
-  The cost unit details are displayed in the input fields.
+2. Select the cost object to be edited in the list.  
+  The cost object details are displayed in the input fields.
 
 3. Make any necessary changes.  
 
-  > [Info] The cost unit number cannot be changed. If you try to change the number, the edited cost unit will replace the existing one.
+  > [Info] The cost object number cannot be changed. If you try to change the number, the edited cost object will replace the existing one.
 
 [comment]: <> (Vielleicht ist das ein Bug? Komisches Verhalten. Wie soll es funktionieren? RS FH)
 
 4. Click the [SAVE] button.  
-A small pop-up window confirms that the edited cost unit has been saved. The edited cost unit is displayed in the list.
+A small pop-up window confirms that the edited cost object has been saved. The edited cost object is displayed in the list.
 
   ![Saved](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CostAccounting/Saved.png "[Saved]")
 
 
-##  Delete a cost unit
+##  Delete a cost object
 
-You can delete a cost unit, for example if it is no longer applicable.
+You can delete a cost object, for example if it is no longer applicable.
 
-  > [Info] If a date is displayed in the *Active from* column, it means that the cost unit is currently being used and, therefore, cannot be deleted. A warning message with the notice "The cost unit (number) cannot be deleted: it is distributed to the cost center/cost unit" is displayed.
+  > [Info] If a posting period is displayed in the *Active from* column, it means that the cost object has been posted to and, therefore, cannot be deleted. A warning message with the notice "The cost object (number) cannot be deleted: it is distributed to the cost center/cost object" is displayed.
 
   [comment]: <> (Check, warum / warum nicht kann man das löschen... In Verteilungstabelle? Mit Buchungen verlinkt? Auch wenn keine "Aktiv ab" angezeigt, bekommt man eine Fehlermeldung.)
 
 #### Prerequisites
 
 - A fiscal year has been selected, see [Select the fiscal year](../Operation/01_SelectFiscalYear.md).
-- A cost unit has been created, see [Create a cost unit](#create-a-cost-unit).
+- A cost object has been created, see [Create a cost object](#create-a-cost-unit).
 
 #### Procedure
 
-*Accounting > Settings > Tab COST ACCOUNTING > Drop-down option Cost2 - cost unit*
+*Accounting > Settings > Tab COST ACCOUNTING > Drop-down option Cost2 - Cost object*
 
-![Cost 2 - cost unit](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CostAccounting/CostAccounting02.png "[Cost 2 - cost unit]")
+![Cost 2 - Cost object](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CostAccounting/CostAccounting02.png "[Cost 2 - Cost object]")
 
 1. Click the *Cost accounting* left and middle drop-down lists and select the desired fiscal year and posting period.  
 
-2. Select the cost unit to be deleted in the list.  
-The cost unit details are displayed in the input fields.
+2. Select the cost object to be deleted in the list.  
+The cost object details are displayed in the input fields.
 
-  > [Note] Be aware that the cost unit will be deleted permanently.
+  > [Note] Be aware that the cost object will be deleted permanently.
 
 3. Click the [DELETE] button.  
-A small pop-up window confirms that the cost unit has been deleted. The deleted cost unit is no longer displayed in the list.
+A small pop-up window confirms that the cost object has been deleted. The deleted cost object is no longer displayed in the list.
 
   ![Deleted](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CostAccounting/Deleted.png "[Deleted]")

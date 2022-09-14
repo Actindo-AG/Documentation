@@ -211,11 +211,11 @@ The window *BWA* is displayed.
   Select this option to include all available data in the BWA report.
   - **By cost centre**  
   Select this option to sort the data by cost center. When selecting this option, a second drop-down list is displayed containing all available cost centers.
-  - **By cost unit**  
-  Select this option to sort the data by cost unit. When selecting this option, a second drop-down list is displayed containing all available cost units.
+  - **By cost object**  
+  Select this option to sort the data by cost object. When selecting this option, a second drop-down list is displayed containing all available cost objects.
 
 
-4.  If necessary, select the *Print cost centre allocation* checkbox. The checkbox is only unlocked, if the options **By cost centre** or **By cost unit** are selected in the *Sorting* drop-down list.
+4.  If necessary, select the *Print cost centre allocation* checkbox. The checkbox is only unlocked, if the options **By cost centre** or **By cost object** are selected in the *Sorting* drop-down list.
 
 5. Click the *Accounting month from - to* drop-down lists and select the months to be included. All available months are displayed in the list.
 

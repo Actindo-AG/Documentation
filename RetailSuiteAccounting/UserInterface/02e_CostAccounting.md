@@ -25,10 +25,10 @@ Click the corresponding drop-down list to select the relevant accounting period 
 
     - **Cost 1 - Cost center**  
     Select this option to display the available cost centers in the selected accounting period or to create a new one.
-    - **Cost 2 - Cost unit**  
-    Select this option to display the available cost units in the selected accounting period or to create a new one.  
+    - **Cost 2 - Cost object**  
+    Select this option to display the available cost objects in the selected accounting period or to create a new one.  
 
-    Depending on the option selected in the cost accounting drop-down list (**Cost 1 - Cost center** or **Cost 2 - Cost unit**), the input fields and the information displayed vary.
+    Depending on the option selected in the cost accounting drop-down list (**Cost 1 - Cost center** or **Cost 2 - Cost object**), the input fields and the information displayed vary.
 
 [comment]: <> (Monat drop-down list: es fehlt 16-19 Abschlussbuchungen und 99 Allgemeiner Monat?)
 
@@ -70,8 +70,8 @@ Enter a short description for the cost center.
 - *Text*  
 Enter a longer text description for the cost center, if desired.
 
-- *Allocation to cost unit*  
-It is possible to allocate costs from different cost centers to individual cost units. To do so, click the [ALLOCATION TABLE] button.
+- *Allocation to cost object*  
+It is possible to allocate costs from different cost centers to individual cost objects. To do so, click the [ALLOCATION TABLE] button.
 
 - [ALLOCATION TABLE]  
 Click this button to display the *Allocation table* window, see [Allocation table](#allocation-table).
@@ -96,26 +96,25 @@ Click this button to print the cost center/unit. The *Print cost center/unit* wi
 
 [comment]: <> (Eigentlich heißt das Fenster Cost center/unit, aber ich habe zu Print cost center/unit umbenannt hier.)
 
-[comment]: <> (Wir haben keine Prozedur in Integration über "Create/Edit/Delete cost center/cost unit". Hinzufügen! RS mit FH)
 
 
-## Cost unit
+## Cost object
 
-*Accounting > Settings > Tab COST ACCOUNTING > Drop-down option Cost2 - Cost unit*
+*Accounting > Settings > Tab COST ACCOUNTING > Drop-down option Cost2 - Cost object*
 
-![Cost unit](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CostAccounting/CostAccounting02.png "[Cost unit]")
+![Cost object](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CostAccounting/CostAccounting02.png "[Cost object]")
 
 
-The cost units available in the selected accounting period, if any, are displayed in a column view. All information displayed in columns is read-only.
+The cost objects available in the selected accounting period, if any, are displayed in a column view. All information displayed in columns is read-only.
 
 - *Cost.*  
-Cost unit number.
+Cost object number.
 
 - *Description*  
-Cost unit description.
+Cost object description.
 
 - *Inactive*  
-If the cost unit has been set to inactive, the word *Inactive* is displayed. Otherwise, the column is empty.
+If the cost object has been set to inactive, the word *Inactive* is displayed. Otherwise, the column is empty.
 
 - *Active from*  
 Validity start date.
@@ -126,19 +125,19 @@ Validity start date.
 Assigned ProfitCenter.
 
 
-The input fields allow to enter or modify cost unit details.
+The input fields allow to enter or modify cost object details.
 
 - ![Radio button](../../Assets/Icons/RadioButton02.png "[Radio button]") *Active/Inactive* (radio button)  
 Click the corresponding radio button to select the appropriate option. The *Active* radio button is selected by default.
 
-- *Cost unit*  
-Enter the cost unit number. It is possible to enter up to 5 digits.
+- *Cost object*  
+Enter the cost object number. It is possible to enter up to 5 digits.
 
 - *Description*  
-Enter a short description for the cost unit.
+Enter a short description for the cost object.
 
 - *Text*  
-Enter a longer text description for the cost unit, if desired.
+Enter a longer text description for the cost object, if desired.
 
 - *Debtor*  
 Enter the debtor or customer number, if necessary. Alternatively, click the [SEARCH] button to search for a debtor or customer.
@@ -156,15 +155,15 @@ Click this button to edit or add a ProfitCenter. The *ProfitCenter* window is di
 
 
 - [SAVE & NEW]  
-Click this button to save a newly created cost unit.  
+Click this button to save a newly created cost object.  
 
 - [SAVE]  
-Click this button to save any changes made to an existing cost unit.  
+Click this button to save any changes made to an existing cost object.  
 
-  > [Info] Be aware that the saved changes will overwrite the cost unit existing details. To prevent this, make sure that the input fields are empty by clicking the [CLEAR] button. The [SAVE & NEW] button becomes then active.
+  > [Info] Be aware that the saved changes will overwrite the cost object existing details. To prevent this, make sure that the input fields are empty by clicking the [CLEAR] button. The [SAVE & NEW] button becomes then active.
 
 - [DELETE]  
-Click this button to delete a selected cost unit.
+Click this button to delete a selected cost object.
 
 - [CLEAR]  
 Click this button to clear all input fields. The [SAVE & NEW] button becomes active.
@@ -178,13 +177,13 @@ Click this button to print the cost center/unit. The *Print cost center/unit* wi
 ## Print cost center/unit
 
 *Accounting > Settings > Tab COST ACCOUNTING > Drop-down option Cost1 - Cost center > Button PRINT*  
-*Accounting > Settings > Tab COST ACCOUNTING > Drop-down option Cost2 - Cost unit > Button PRINT*
+*Accounting > Settings > Tab COST ACCOUNTING > Drop-down option Cost2 - Cost object > Button PRINT*
 
 ![Print cost center/unit](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CostAccounting/CostCenterUnit.png "[Print cost center/unit]")
 
 
 - *Cost center/unit*  
-Click the drop-down list to select whether the cost center(s) or cost unit(s) are to be printed.
+Click the drop-down list to select whether the cost center(s) or cost object(s) are to be printed.
 
 - *Active/inactive*  
 Click the checkbox to select one of the options, or both, to be printed.
@@ -239,15 +238,15 @@ The allocation table displays the distribution of costs among cost centers and u
 - *Cost center*  
 The available cost center(s) are displayed in this column.
 
-- (Cost units)  
-The available cost unit(s) are displayed in a row. Double click in the corresponding table cell to activate the input field. The following options are available:
+- (Cost objects)  
+The available cost object(s) are displayed in a row. Double click in the corresponding table cell to activate the input field. The following options are available:
 
   - If the *Allocation* column is set to *Percentage*, enter a percentage value.
   - If the *Allocation* column is set to *Formula*, click the drop-down list to select **Active/inactive**. The basic calculating operations (+, -, *, /) are permitted.
 
 
 - (Sigma sign %)  
-The cell content changes automatically depending on the allocation method and percentage values entered. The individual percentages entered must equal 100 %. That means that all costs are allocated to the individual cost units. The cell turns then green. Otherwise, an error message is displayed when trying to save the table.
+The cell content changes automatically depending on the allocation method and percentage values entered. The individual percentages entered must equal 100 %. That means that all costs are allocated to the individual cost objects. The cell turns then green. Otherwise, an error message is displayed when trying to save the table.
 
 [comment]: <> (Check mit FH! Generell mehr Info gebraucht für dieses Kapitel. Evtl. Prozedur in Integration.)
 
@@ -279,7 +278,7 @@ Click this button to save the allocation table after making any changes. A pop-u
 
 [comment]: <> (Fenster/Unterkapitel umbenennen zu Search debtor?)
 
-*Accounting > Settings > Tab COST ACCOUNTING > Drop-down option Cost2 - Cost unit > Button SEARCH*
+*Accounting > Settings > Tab COST ACCOUNTING > Drop-down option Cost2 - Cost object > Button SEARCH*
 
 ![Select address](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CostAccounting/SelectAddress.png "[Select address]")
 
@@ -445,7 +444,7 @@ Click this option to access the supplier product list in the *Material managemen
 
 ### ProfitCenter  
 
-*Accounting > Settings > Tab COST ACCOUNTING > Drop-down option Cost2 - Cost unit > Button EDIT*
+*Accounting > Settings > Tab COST ACCOUNTING > Drop-down option Cost2 - Cost object > Button EDIT*
 
 ![Edit ProfitCenter](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CostAccounting/ProfitCenter.png "[Edit ProfitCenter]")
 
