@@ -70,7 +70,7 @@ Enter a short description for the cost center.
 - *Text*  
 Enter a longer text description for the cost center, if desired.
 
-- *Allocation to cost object*  
+- *Allocation to cost objects*  
 It is possible to allocate costs from different cost centers to individual cost objects. To do so, click the [ALLOCATION TABLE] button.
 
 - [ALLOCATION TABLE]  
