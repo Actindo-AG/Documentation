@@ -128,9 +128,14 @@ In addition to the posting process and assignment of general receipts, there is 
 
 Suppliers' invoices can be uploaded in the *New supplier receipts* folder in the *Documents* module, which will be recognized by the system and displayed in the *Acquire* tab in the *Supplier receipts* window. Once the supplier receipts are posted, they are moved automatically into the *Acquired documents* folder.
 
-Moreover, this function interacts with the *Purchasing* and *Payment processing* modules, and allows to check supplier receipts before booking them in the system and to automatize payment conditions.
+Moreover, this function interacts with the *Purchasing* and *Payment processing* modules, and allows to check supplier receipts before posting them in the system and to automatize payment conditions.
 
 [comment]: <> (Evtl. Link zur Funktion Zahlungsvorschlagsliste - Skonto erkennen, automatischer Abzug des Kontos, usw.- in der Zahlungsabwicklung in diesem Unterkapitel hinzufügen, wenn verfügbar.)
+
+
+### Acquire
+
+You can enter a supplier receipt uploaded in the system and create and associated manual posting.  
 
 #### Prerequisites
 
@@ -183,20 +188,69 @@ A context menu is displayed.
 
   > [Info] A split posting can also be performed with the [SPLIT] button, if necessary. For detailed information, see [Split a posting](./09_SplitBooking.md).
 
-9. Click the [ACQUIRE] button.  
-A pop-up window is displayed while the changes are being saved. The supplier receipt has been acquired and is displayed in the *Overview* tab.  
+10. Click the [ACQUIRE] button.  
+A pop-up window is displayed while the changes are being saved. The supplier receipt has been acquired and is displayed as *New* in the *Overview* tab.  
 
-  ![Overview](../../Assets/Screenshots/RetailSuiteAccounting/Book/SupplierReceiptsOverview.png "[Overview]")
+  ![Overview](../../Assets/Screenshots/RetailSuiteAccounting/Book/SupplierReceiptsOverview01.png "[Overview]")
 
-  > [Info] To enter the supplier receipt in the system, they need to be released in the *Purchasing* module first. Once they have been released in the *Purchasing* module, the status changes from **New** (red) to **Released** (yellow-green) in the *Status* column. To release a supplier receipt, on the other hand, the supervisor must be set to the person responsible for the receipt release in the *CRM information* tab in the suppliers' configuration, see [CRM information](../UserInterface/02a_DebtorsCreditors.md#crm-information-2).
+
+### Release a supplier receipt in Purchasing
+
+To post a supplier receipt in the system, it needs to be released in the *Purchasing* module first.
 
 [comment]: <> (Link zu Einkauf hinzufügen, wenn verfügbar!)
 
-11. Click the *Financial accounting takeover* tab and select the receipt to be entered in the system.
+#### Prerequisites
 
-  > [Info] When selecting a receipt, the receipt data are displayed in the input line. Changes can still be made here before takeover and saved with the [SAVE] button.
+- The supplier receipt has been entered in the system, see [Acquire](#acquire).
+- The supervisor is set to the person responsible for the receipt release in the *CRM information* tab in the suppliers' configuration, see [CRM information](../UserInterface/02a_DebtorsCreditors.md#crm-information-2).
+- The supplier settings are adjusted according to the service or product supplied, see *Default values* section in [Invoicing](02a_DebtorsCreditors.md#invoicing-1).   
 
-12. Select the applicable receipt and double check all posting details. If no further changes are needed, click the [TAKE OVER SELECTED ONES] button.    
-A pop-window is displayed while the receipt is being taken over. The receipt has been registered in the *Accounting* module. The posting is displayed in the postings list. An open item for the corresponding supplier (creditor) has been created.
+#### Procedure
 
-  ![Financial accounting takeover](../../Assets/Screenshots/RetailSuiteAccounting/Book/SupplierReceiptsTakeover.png "[Financial accounting takeover]")
+*Purchasing > Check supplier receipts*
+
+![Check supplier receipts](../../Assets/Screenshots/RetailSuiteAccounting/Book/CheckSupplierReceipts01.png "[Check supplier receipts]")
+
+1. Click the receipt to be released in the list.  
+The receipt entered in the system is displayed in the central section of the workspace.
+
+  ![Check supplier receipts](../../Assets/Screenshots/RetailSuiteAccounting/Book/CheckSupplierReceipts02.png "[Check supplier receipts]")
+
+2. If the supplier receipt is found to be correct, click the [RELEASE] button.
+A confirmation window is displayed.
+
+  ![Check supplier receipts](../../Assets/Screenshots/RetailSuiteAccounting/Book/ReleaseSupplierReceipt.png "[Check supplier receipts]")
+
+3. Click the [OK] button in the confirmation window.  
+The supplier receipt is no longer displayed in the *Check supplier receipt* tab.  
+
+  > [Info] After it has been released in the *Purchasing* module, the supplier receipt status changes from **New** (red) to **Released** (yellow-green) in the *Status* column of the *Overview* tab in the *Supplier receipts* window.
+
+
+### Financial accounting takeover
+
+You can select the released supplier receipt and make any necessary checks or changes before posting it.
+
+#### Prerequisites
+
+- The supplier receipt has been released in the *Purchasing* module, see [Release a supplier receipt in Purchasing](#release-a-supplier-receipt-in-purchasing).
+
+#### Procedure
+
+*Accounting > Post > Tab POSTINGS > Context menu EDIT > Menu option Supplier receipts > Sub-tab Financial accounting takeover*
+
+![Financial accounting takeover](../../Assets/Screenshots/RetailSuiteAccounting/Book/SupplierReceiptsTakeover.png "[Financial accounting takeover]")
+
+1. Select the receipt to be posted in the system.  
+The receipt data are displayed in the input line.
+
+2. Make any necessary checks and changes.
+
+3. Click the [SAVE] button.  
+A pop-up window is displayed while the changes are being saved.
+
+4. Select the receipt to be posted and, if no further changes are needed, click the [TAKE OVER SELECTED ONES] button.      
+A pop-window is displayed while the receipt is being taken over. The receipt has been posted to the *Accounting* module. The posting is displayed in the postings list. An open item for the corresponding supplier (creditor) has been created.
+
+  > [Info] After it has been taken over, the supplier receipt status changes from **Released** (yellow-green) to **Completed** (green) in the *Status* column of the *Overview* tab in the *Supplier receipts* window. 
