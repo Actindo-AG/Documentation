@@ -3,17 +3,17 @@
 
 # Check the supplier receipt settings
 
-You can retry one or several faulty process actions after you have fixed the cause of the error to continue the affected process(es).
+You can check and modify the supplier receipt settings to release the .
 
 #### Error Description
 
-A process action fails and the process action status *Error* is displayed.
+A supplier receipts cannot be released in the *.
 
 Follow the instructions below to restart the process action after you have fixed the cause of the error.
 
 #### Prerequisites
 
-The cause of the faulty process action is fixed.
+- A supplier receipt has been pre in the *New supplier receipts* folder.
 
 #### Procedure
 
