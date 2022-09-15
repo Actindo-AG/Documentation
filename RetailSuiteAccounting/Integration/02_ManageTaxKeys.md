@@ -5,7 +5,7 @@
 
 # Manage the tax keys
 
-Tax keys are a list of values, each of them linked to a specific tax rate. They are essential for the automatic tax functions, for example the automatic VAT tax posting. Every tax rate in the different accounts is assigned a tax key. The *Invoicing* module extracts data on the applicable tax rate from the tax keys.
+Tax keys are a list of values, each of them linked to a specific tax rate. They are essential for the automatic tax functions, for example the automatic VAT tax posting. Every tax rate in the different accounts is assigned a tax key. The *Order management* module extracts data on the applicable tax rate from the tax keys.
 
 
 ## Create a tax key
@@ -38,12 +38,11 @@ A fiscal year has been selected, see [Select the fiscal year](../Operation/01_Se
     - **(IV)Input tax and VAT**
 
 
-5. Enter the applicable tax rate and factor in the *Percent +/- Factor* field.
+5. Enter the applicable tax rate and factor in the *Percent* and *Factor* fields. Click the *+/-* drop-down list to select *+* or *-* if the posting is a net or a gross amount respectively.
 
   > [Info] Companies selling products to foreign EU countries must be aware of the applicable VAT in the shipping country. It is recommended to check the validity of the tax rate in the corresponding country and update it accordingly in this field.
 
-[comment]: <> (FH: Unsicher, wann/welches Faktor gesetzt werden muss. In allen eingestellten Steuerschlüsseln, sofern gesehen, Faktor ist 1.00. Ist das Zeichen +/- relevant? Warum/wozu?)
-
+  [comment]: <> (Check!)
 
 6. Enter the applicable account(s) in the *Account (VAT/input tax/VAT not due)* field.
 
@@ -63,7 +62,7 @@ A fiscal year has been selected, see [Select the fiscal year](../Operation/01_Se
   - **No EU tax key**  
   Select this option if the tax key does not apply to an EU member state.
 
-[comment]: <> (FH: Unsicher. Stimmt das so? Kein EG-Steuerschlüssel Option in Drop-down-Liste wird nicht nur bei Drittländern angezeigt.)
+[comment]: <> (FH: Stimmt das so? Kein EG-Steuerschlüssel Option in Drop-down-Liste wird nicht nur bei Drittländern angezeigt.)
 
 9. Click the [SAVE & NEW] button.  
   A small pop-up window confirms that the new tax key has been saved. The new tax key is displayed in the list.
@@ -92,7 +91,9 @@ The data for the selected tax key are displayed in the corresponding fields at t
 
     > [Note] Be aware that any changes made to a tax key will overwrite the preset values.
 
-2. Edit the fields as appropriate.
+2. Edit the fields as appropriate.  
+
+  > [Info] Tax keys are configured during the initial installation process and are not automatically updated. Therefore, it is recommended to check the validity of the tax rate in the corresponding country and update it accordingly in this field if necessary.
 
 3. Click the [SAVE] button.   
 A small pop-up window confirms that the edited tax key has been saved. The edited tax key is displayed in the list.

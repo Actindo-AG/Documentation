@@ -35,7 +35,7 @@ Follow the instructions below to check and modify the supplier settings in the *
 
 4. Make sure that the *Only cost supplier/ordering process inactive* and *Goods receipt required* checkboxes in the *Default values* section are correctly configured.
 
-  > [Info] You can hover the mouse over the checkboxes for further details. Alternatively, see [Invoicing](../UserInterface/2a_DebtorsCreditors.md#invoicing-2) for detailed information.
+  > [Info] You can hover the mouse over the checkboxes for further details. Alternatively, see [Invoicing](../UserInterface/02a_DebtorsCreditors.md#invoicing-1) for detailed information.
 
 5. Click the *CRM information* sub-tab.  
 

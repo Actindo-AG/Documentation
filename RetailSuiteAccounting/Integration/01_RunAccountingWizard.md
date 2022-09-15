@@ -53,11 +53,9 @@ The accounting wizard has been started, see [Start wizard](#start-wizard).
 
  > [Info] The fiscal year must consist of 12 months. However, it does not have to be a calendar year, but can be, for example from April 1 to March 31.
 
-3. Click the *Currency* drop-down list and select the base currency. The drop-down list displays all currencies configured in the system. However, the accounting module works with the base currency only.
+3. Click the *Currency* drop-down list and select the base currency. The drop-down list displays all currencies available in the system. However, the accounting module can only work with one currency, that is, the base currency configured during the installation process.
 
  > [Info] The base currency is the currency used by a company for accounting purposes, usually the currency of the country where the business is primarily based, even if it operates in other countries and currencies.
-
-[comment]: <> (FH: Wo wird die Basiswährung eingestellt? Bei der Einrichtung beim Kunden?)
 
 4. Click the *Cash accounting* drop-down list and select the appropriate option. The following options are available:
 

@@ -509,7 +509,7 @@ The *Additional fields* sub-tab cannot be edited here. The warning message *Plea
 
 To add additional fields, select a newly created customer/supplier in the *Customer/supplier list* tab and click the *Additional fields* sub-tab.
 
-For detailed information, see [Additional fields](#additional-fields-2).
+For detailed information, see [Additional fields](#additional-fields-1).
 
 
 - [SAVE]  
@@ -526,7 +526,7 @@ The *Drop shipping* sub-tab cannot be edited here. The warning message *Please s
 
 To add further information, select a newly created supplier in the *Customer/Supplier list* tab and click the *Drop shipping* sub-tab.
 
-For detailed information, see [Drop shipping](#drop-shipping-2).
+For detailed information, see [Drop shipping](#drop-shipping-1).
 
 
 - [SAVE]  

@@ -203,7 +203,7 @@ To post a supplier receipt in the system, it needs to be released in the *Purcha
 #### Prerequisites
 
 - The supplier receipt has been entered in the system, see [Acquire](#acquire).
-- The supervisor is set to the person responsible for the receipt release in the *CRM information* tab in the suppliers' configuration, see [CRM information](../UserInterface/02a_DebtorsCreditors.md#crm-information-2).
+- The supervisor is set to the person responsible for the receipt release in the *CRM information* tab in the suppliers' configuration, see [CRM information](../UserInterface/02a_DebtorsCreditors.md#crm-information-1).
 - The supplier settings are adjusted according to the service or product supplied, see *Default values* section in [Invoicing](02a_DebtorsCreditors.md#invoicing-1).   
 
 #### Procedure
@@ -253,4 +253,4 @@ A pop-up window is displayed while the changes are being saved.
 4. Select the receipt to be posted and, if no further changes are needed, click the [TAKE OVER SELECTED ONES] button.      
 A pop-window is displayed while the receipt is being taken over. The receipt has been posted to the *Accounting* module. The posting is displayed in the postings list. An open item for the corresponding supplier (creditor) has been created.
 
-  > [Info] After it has been taken over, the supplier receipt status changes from **Released** (yellow-green) to **Completed** (green) in the *Status* column of the *Overview* tab in the *Supplier receipts* window. 
+  > [Info] After it has been taken over, the supplier receipt status changes from **Released** (yellow-green) to **Completed** (green) in the *Status* column of the *Overview* tab in the *Supplier receipts* window.
