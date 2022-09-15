@@ -31,11 +31,11 @@ Follow the instructions below to check and modify the supplier settings in the *
 
 3. Click the *Invoicing* sub-tab in the *Supplier (number)* tab.
 
-  ![Invoicing](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/Billing01.png "[Invoicing]")
+  ![Invoicing](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/Billing02.png "[Invoicing]")
 
 4. Make sure that the *Only cost supplier/ordering process inactive* and *Goods receipt required* checkboxes in the *Default values* section are correctly configured.
 
-  > [Info] You can hover the mouse over the checkboxes for further details. Alternatively, see [Invoicing](../UserInterface/2a_DebtorsCreditors.md#invoicing-1) for detailed information.
+  > [Info] You can hover the mouse over the checkboxes for further details. Alternatively, see [Invoicing](../UserInterface/2a_DebtorsCreditors.md#invoicing-2) for detailed information.
 
 5. Click the *CRM information* sub-tab.  
 
@@ -46,7 +46,9 @@ Follow the instructions below to check and modify the supplier settings in the *
   > [Info] The supplier receipt to be released is only displayed in the *Purchasing* module to the supervisor configured in the supplier settings.
 
 7. Click the [SAVE] button.  
-The changes in the supplier settings have been saved.
+The *Successfully saved* pop-up windows are displayed. The changes in the supplier settings have been saved.
+
+  ![Data saved](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/InvoicingCRMDataSaved.png "[Data saved]")
 
 8. Go back to the *Purchasing* module and select the *Check supplier receipts* menu entry.  
 The supplier receipt is now displayed in the *Check the supplier receipts* tab.
@@ -65,7 +67,7 @@ The receipt entered in the system is displayed in the central section of the wor
 11. Click the [YES] button in the confirmation window to proceed.
 The supplier receipt is no longer displayed in the *CHECK SUPPLIER RECEIPTS* tab.
 
-> [Info] After it has been released in the *Purchasing* module, the supplier receipt status changes from *New* (red) to *Released* (yellow-green) in the *Status* column of the *Overview* tab of the *Supplier receipts* window.
+  > [Info] After it has been released in the *Purchasing* module, the supplier receipt status changes from *New* (red) to *Released* (yellow-green) in the *Status* column of the *Overview* tab of the *Supplier receipts* window.
 
 [comment]: <> (Drei letzte Punkte sind gleich wie "Release a supplier receipt in Purchasing" in 10_ManageReceipts.md#post-a-supplier-receipt. Verlinken oder so lassen? Prozedur geht dann weiter mit Financial accounting takeover. Schritt 12 mit Verlinkung dahin oder so lassen?)
 
