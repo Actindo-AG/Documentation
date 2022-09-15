@@ -90,7 +90,6 @@ Click this button to display the context menu.
 
   > [Info] Price groups can be created in the *Settings* menu entry of the *Material management* and the *Order management* modules. A customer can be assigned a specific price group in the *Invoicing* sub-tab of the *DEBTORS/CREDITORS* tab, see [Invoicing](#invoicing-1).
 
-  [comment]: <> (Other "Filter by" options available depending on settings?)
 
 - [CANCEL]  
  Click this button to cancel your selection.
