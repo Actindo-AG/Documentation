@@ -117,7 +117,7 @@ The selected tax rate has been deleted.
 3. Click the ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh) button in the upper right corner.   
 The deleted tax rate is removed from the list of tax rates.
 
-[comment]: <> (17.08.22 - DELETE Button not working. Bug reported. Check again when fixed if Refresh button is needed here.)
+[comment]: <> (19.09.22 - DELETE Button not working. Bug reported. Check again when fixed if Refresh button is needed here.)
 
 
 ## Define the tax rates for delivery thresholds
@@ -126,10 +126,10 @@ Define the necessary tax rates to include tax delivery thresholds in the system 
 
 > [Info] Since July 2021, a new EU-wide threshold of EUR 10,000 has applied. As soon as this threshold has been reached, all products must be taxed in the ship-to (delivery) country to the corresponding delivery country tax rate. For detailed information about the new cross-border taxation rules, see [VAT - One Stop Shop](https://vat-one-stop-shop.ec.europa.eu/index_en) or consult a tax advisor.
 
-[comment]: <> (Problem mit selber Tax zone wäre dann für die Decision Matrix, denn da kann man bei der Einstellung von jeder Zeile unterscheiden können.)
-
 
 ### Create a tax rate with the applicable delivery country VAT
+
+Create a specific tax rate with the applicable foreign VAT for each country where you deliver products to.
 
 #### Prerequisites
 
@@ -171,6 +171,8 @@ The new tax rate is displayed in the list of tax rates.
 
 
 ### Create a tax rate with the applicable domestic VAT
+
+Create a specific tax rate with the applicable domestic VAT for each country where you deliver products to.
 
 #### Prerequisites
 

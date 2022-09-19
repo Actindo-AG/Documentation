@@ -10,7 +10,7 @@ A tax class is assigned to each product or group of products. The tax class is d
 
 There are two main tax classes in most territories: the standard and the reduced tax rate class. However, there can also be special taxes, such as super-reduced or zero taxes. Tax classes can be created, edited and deleted if necessary.
 
-[comment]: <> (Tax class / Steuerklasse ist unter Price im Produkt in PIM Modul hinterlegt. Verweis irgendwie auf PIM?)
+[comment]: <> (Tax class / Steuerklasse ist unter Price im Produkt in PIM Modul hinterlegt. Verweis auf PIM?)
 
 ## Create a tax class
 
@@ -27,9 +27,9 @@ No prerequisites to fulfill.
 ![Tax classes](../../Assets/Screenshots/Taxes/Settings/TaxClasses/TaxClasses.png "[Tax classes]")
 
 1. Click the ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) button in the upper left corner.   
-A new data entry line is displayed.  
+A new data input line is displayed.  
 
-2. Enter the desired tax class name in the entry line.  
+2. Enter the desired tax class name in the input line.  
 
 3. Click the [SAVE] button.  
 The tax class has been saved.
@@ -37,7 +37,7 @@ The tax class has been saved.
 4. Press **F5** to initialize the *Core1 Platform* and to apply the changes.   
 The new tax class is displayed in the list of tax classes.
 
-[comment]: <> (By creating a tax class, SAVE does NOT show the confirmation message. Stand 17.08.22)
+[comment]: <> (By creating a tax class, SAVE does NOT show the confirmation message/any reaction from system. Probably misleading for user. Stand 19.09.22)
 
 
 ## Edit a tax class

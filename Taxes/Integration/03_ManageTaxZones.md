@@ -37,7 +37,7 @@ No prerequisites to fulfill.
 ![Tax zones](../../Assets/Screenshots/Taxes/Settings/TaxZones/TaxZones.png "[Tax zones]")
 
 1. Click the ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) button in the upper left corner.   
-A new data entry line with two fields is displayed.  
+A new data input line with two fields is displayed.  
 
 2. Enter the desired tax zone name in the field in the *Tax zones* column.  
 

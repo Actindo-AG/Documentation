@@ -11,7 +11,7 @@ Tax zone name.
 Value-added tax identification number (VAT ID). The VAT ID refers to the seller's VAT ID number, which will be printed on the relevant order-related documents.  
 
 - ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add)   
-Click this button to create an entry. A new entry line is displayed.
+Click this button to create an entry. A new input line is displayed.
 
 - (Tax zone entry)  
 Enter or edit the tax zone name. By default, the *Domestic*, *EU* and *Third country* tax zones are predefined.

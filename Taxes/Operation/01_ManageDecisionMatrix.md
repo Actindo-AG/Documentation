@@ -31,7 +31,7 @@ Create an entry to determine a new tax zone.
 ![Decision matrix](../../Assets/Screenshots/Taxes/Settings/DecisionMatrix/DecisionMatrix.png "[Decision matrix]")
 
 1. Click the ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) button in the upper left corner.   
-  A new data entry line is displayed.
+  A new data input line is displayed.
 
 2. Click the *VAT ID* drop-down list and select the appropriate option. In this case, the VAT ID refers to the buyer's VAT ID number. The following options are available:
 
@@ -171,14 +171,18 @@ All applicable tax rates have been defined for delivery thresholds, see [Define 
 ![Decision matrix](../../Assets/Screenshots/Taxes/Settings/DecisionMatrix/DecisionMatrix.png "[Decision matrix]")
 
 1. Click the ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) button in the upper left corner.   
-  A new data entry line is displayed.
+  A new data input line is displayed.
 
 2. Click the *VAT ID* drop-down list and select **No**, as the end customer must be a private individual.
 
 3. Click the *Country of origin* drop-down list on the right and select the country where the product is shipped from. The *Country of origin* drop-down list on the left must remain blank (**Any**).
-> [Info] To change the selection of a drop-down list back to **Any**, reselect the already selected option in the drop-down list.
+
+  > [Info] To change the selection of a drop-down list back to **Any**, reselect the already selected option in the drop-down list.
+
 4. Click the *Ship-to country* drop-down list on the right to select the country where the product is to be shipped to. The *Ship-to country* drop-down list on the left must remain blank (**Any**).
-> [Info] To change the selection of a drop-down list back to **Any**, reselect the already selected option in the drop-down list.
+
+  > [Info] To change the selection of a drop-down list back to **Any**, reselect the already selected option in the drop-down list.
+
 5. If necessary, click the *Ship-to postcode* drop-down list and select the appropriate option. Specify a postcode in the unlocked field on the right of the *Ship-to postcode* drop-down list. For detailed information, see [Define tax exceptions on ZIP code level](#define-tax-exceptions-on-ZIP-code-level).
 
 6. If necessary, click the *Net value of goods smaller than* drop-down list and select the applicable currency. Enter the applicable amount in the unlocked field on the right of the *Net value of goods smaller than* drop-down list by using the keyboard or by clicking the increase and decrease arrows on the right of the field.   
@@ -214,7 +218,7 @@ These tax exceptions can be defined using the *Ship-to postcode* fields.
 ![Decision matrix](../../Assets/Screenshots/Taxes/Settings/DecisionMatrix/DecisionMatrix.png "[Decision matrix]")
 
 1. Click the ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) button in the upper left corner.   
-  A new data entry line is displayed.
+  A new data input line is displayed.
 
 2. Click the *VAT ID* drop-down list and select the appropriate option. The following options are available:
 
@@ -226,7 +230,9 @@ These tax exceptions can be defined using the *Ship-to postcode* fields.
 
 3. Click the *Country of origin* drop-down list and select the appropriate option. Use the drop-down list on the left to select a group of countries or the one on the right to select an individual country. As a group of countries, only the **EU - European Union** option is available. In the drop-down list of individual countries, all available countries in the system are displayed. When a group of countries is selected, the drop-down list on the right is locked.
 
-4. Click the *Ship-to country* drop-down lists and select **Any** on the left and the country where the product is to be shipped to on the right.  
+4. Click the *Ship-to country* drop-down list on the right to select the country where the product is to be shipped to. The *Ship-to country* drop-down list on the left must remain blank (**Any**).
+
+  > [Info] To change the selection of a drop-down list back to **Any**, reselect the already selected option in the drop-down list.  
 
 5. Click the *Ship-to postcode* drop-down list and select the appropriate option. The following options are available:
 
@@ -238,7 +244,7 @@ These tax exceptions can be defined using the *Ship-to postcode* fields.
 
 6. Enter a postcode range or a regular expression to define a specific tax exception area in the selected country.
 
-7. If necessary, click the *Net value of goods smaller than* drop-down list and select the applicable currency. Enter the applicable amount using the keyboard or the increase and decrease arrows on the right.
+7. If necessary, click the *Net value of goods smaller than* drop-down list and select the applicable currency. Enter the applicable amount in the unlocked field on the right of the *Net value of goods smaller than* drop-down list by using the keyboard or by clicking the increase and decrease arrows on the right of the field.
 
 8. Click the *Tax zone* drop-down list to select the applicable tax zone.
 

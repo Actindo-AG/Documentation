@@ -5,7 +5,7 @@
 ![Decision matrix](../../Assets/Screenshots/Taxes/Settings/DecisionMatrix/DecisionMatrix.png "[Decision matrix]")
 
 - ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add)   
-Click this button to create an entry. A new entry line is displayed.
+Click this button to create an entry. A new input line is displayed.
 
 - ![Drag](../../Assets/Icons/Points03.png "[Drag]") (Drag)  
 Click this button to move the entry to a different position with the left mouse button pressed. Drop it in the desired position by releasing the mouse button.
@@ -61,7 +61,6 @@ Click the drop-down list and select the applicable tax zone. By default, the fol
   - **Third country**  
   Select this option if the product is to be taxed outside the EU.
 
-[comment]: <> (Check with FS if this is correct!)
 
 Tax zones can be created, edited and deleted, see [Manage the tax zones](../Integration/03_ManageTaxZones.md). Any additionally created tax zones are displayed in the *Tax zone* drop-down list.
 

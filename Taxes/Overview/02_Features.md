@@ -13,7 +13,3 @@ Thanks to the decision matrix, the applicable tax zone can be determined automat
 
 - Automatic tax application in your invoices and order documentation  
 Through the interaction with the *Invoicing* module, the applicable tax rate is automatically applied to your invoices, and the VAT ID number is included in your invoices and all relevant order documentation.
-
-
-
-[comment]: <> (Work in progress - to be checked!)
