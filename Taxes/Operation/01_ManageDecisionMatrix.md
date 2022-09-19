@@ -51,14 +51,14 @@ Create an entry to determine a new tax zone.
   Select this option to specify a numeric postcode range, for example 27498 or 52001-52006.
   - **Regex**  
   Select this option to specify a postcode containing alphanumeric characters with regular expressions, for example /^BT.*/. For detailed information about regular expressions, see https://regex101.com/.
-
+The field to the right of the *Ship-to postcode* drop-down list is unlocked.
 > [Info] This feature can be used to define special tax regimes within a territory, such as that of Northern Ireland in the United Kingdom or Helgoland in Germany. For detailed information, see [Define tax exceptions on ZIP code level](#define-tax-exceptions-on-ZIP-code-level).
 
-6. Enter the applicable postcode range or regular expression in the *Ship-to postcode* field on the right.
+6. Enter the applicable postcode range or regular expression in the unlocked field on the right of the *Ship-to postcode* drop-down list.
 
-7. If necessary, click the *Net value of goods smaller than* drop-down list and select the applicable currency.
-
-8. Enter the applicable amount using the keyboard or the increase and decrease arrows in the *Net value of goods smaller than* field on the right.
+7. If necessary, click the *Net value of goods smaller than* drop-down list and select the applicable currency. All available currencies are displayed in the list.      
+The field to the right of the *Net value of goods smaller than* drop-down list is unlocked.
+8. Enter the applicable amount using the keyboard or the increase and decrease arrows in the field on the right of the *Net value of goods smaller than* drop-down list.
 
 9. Click the *Tax zone* drop-down list and select the applicable tax zone. All available tax zones are displayed in the list.
 
@@ -90,7 +90,7 @@ An entry has been created in the decision matrix, see [Create an entry](#create-
 
 4. Click the *Ship-to postcode* drop-down list on the left and select a different option, if necessary. Click the field on the right to modify the range or the regular expression entered. Use the keyboard to enter a different value.
 
-5. If necessary, click the *Net value of goods smaller than* drop-down list on the left to select a different currency. Click the field on the right to modify the amount entered. You can use the keyboard or the increase and decrease arrows.
+5. If necessary, click the *Net value of goods smaller than* drop-down list on the left to select a different currency. Click the field on the right to modify the amount entered. You can use the keyboard or click the increase and decrease arrows.
 
 6. Click the *Tax zone* drop-down list to select a different applicable tax zone.
 
@@ -99,7 +99,6 @@ The edited tax rule has been saved. The *Success* pop-up window is displayed
 
   ![Decision matrix saved](../../Assets/Screenshots/Taxes/Settings/DecisionMatrix/DecisionMatrixSaved.png "[Decision matrix saved]")
 
-8. If it is necessary to change the position of an entry in the decision matrix, see [Change the order of entries](#change-the-order-of-entries).
 
 
 ## Change the order of entries
@@ -126,7 +125,7 @@ The entry position has been saved. The *Success* pop-up window is displayed.
 
   ![Decision matrix saved](../../Assets/Screenshots/Taxes/Settings/DecisionMatrix/DecisionMatrixSaved.png "[Decision matrix saved]")
 
-3. If necessary, repeat the steps **1** and **2** with all entries that need to be repositioned.
+3. If necessary, repeat the steps **1** and **2** for all entries that need to be repositioned.
 
 
 ## Delete an entry
@@ -139,7 +138,7 @@ Delete an entry that is no longer applicable.
 
 An entry has been created in the decision matrix, see [Create an entry](#create-an-entry).
 
-  > [Warning] Be aware that the deletion may have far-reaching consequences for the proper functioning of the system, as the *Taxes* module interacts with the *Invoicing* and *Accounting* modules.
+  > [Warning] Be aware that the deletion may have far-reaching consequences for the proper functioning of the system, as the *Taxes* module interacts with the *Order management* and *Accounting* modules.
 
 #### Procedures
 
@@ -163,7 +162,7 @@ The decision matrix can be configured to specify tax delivery thresholds in diff
 
 #### Prerequisites  
 
-- All applicable tax rates have been defined for delivery thresholds, see [Define the tax rates for delivery thresholds](../Integration/01_ManageTaxRates.md#define-the-tax-rates-for-delivery-thresholds).
+All applicable tax rates have been defined for delivery thresholds, see [Define the tax rates for delivery thresholds](../Integration/01_ManageTaxRates.md#define-the-tax-rates-for-delivery-thresholds).
 
 #### Procedures
 
@@ -177,23 +176,21 @@ The decision matrix can be configured to specify tax delivery thresholds in diff
 2. Click the *VAT ID* drop-down list and select **No**, as the end customer must be a private individual.
 
 3. Click the *Country of origin* drop-down list on the right and select the country where the product is shipped from. The *Country of origin* drop-down list on the left must remain blank (**Any**).
-
+> [Info] To change the selection of a drop-down list back to **Any**, reselect the already selected option in the drop-down list.
 4. Click the *Ship-to country* drop-down list on the right to select the country where the product is to be shipped to. The *Ship-to country* drop-down list on the left must remain blank (**Any**).
+> [Info] To change the selection of a drop-down list back to **Any**, reselect the already selected option in the drop-down list.
+5. If necessary, click the *Ship-to postcode* drop-down list and select the appropriate option. Specify a postcode in the unlocked field on the right of the *Ship-to postcode* drop-down list. For detailed information, see [Define tax exceptions on ZIP code level](#define-tax-exceptions-on-ZIP-code-level).
 
-5. If necessary, click the *Ship-to postcode* drop-down list on the left and select the appropriate option. Specify a postcode in the field on the right. For detailed information, see [Define tax exceptions on ZIP code level](#define-tax-exceptions-on-ZIP-code-level).
+6. If necessary, click the *Net value of goods smaller than* drop-down list and select the applicable currency. Enter the applicable amount in the unlocked field on the right of the *Net value of goods smaller than* drop-down list by using the keyboard or by clicking the increase and decrease arrows on the right of the field.   
 
-6. If necessary, click the *Net value of goods smaller than* drop-down list and select the applicable currency. Enter the applicable amount using the keyboard or the increase and decrease arrows on the right.   
-
-7. Click the *Tax zone* drop-down list and select the applicable tax zone.
+7. Click the *Tax zone* drop-down list and select the applicable tax zone. All available tax zones are displayed in the list.
 
 8. Click the [SAVE] button.  
-A pop-up window confirms that the decision matrix has been saved. The new entry has been saved.
+The decision matrix has been saved. The **Success** pop-up window is displayed.
 
   ![Decision matrix saved](../../Assets/Screenshots/Taxes/Settings/DecisionMatrix/DecisionMatrixSaved.png "[Decision matrix saved]")
 
-9. Repeat this procedure to configure one by one all the applicable tax scenarios depending on your business needs.
-
-10. If it is necessary to change the position of an entry in the decision matrix, see [Change the order of entries](#change-the-order-of-entries).
+9. Repeat all steps to configure one by one all the applicable tax scenarios depending on your business needs. If it is necessary to change the position of an entry in the decision matrix, see [Change the order of entries](#change-the-order-of-entries).
 
   > [Info] It is important to remember that the correct order of the decision-making criteria is crucial, as the system goes through the criteria in the order they are listed.
 
@@ -246,6 +243,6 @@ These tax exceptions can be defined using the *Ship-to postcode* fields.
 8. Click the *Tax zone* drop-down list to select the applicable tax zone.
 
 9. Click the [SAVE] button.  
-A pop-up window confirms that the decision matrix has been saved.  
+The decision matrix has been saved. The **Success** pop-up window is displayed.
 
   ![Decision matrix saved](../../Assets/Screenshots/Taxes/Settings/DecisionMatrix/DecisionMatrixSaved.png "[Decision matrix saved]")
