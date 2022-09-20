@@ -58,9 +58,9 @@ A *New trigger* input line is displayed.
 
 8. Click the *Event* drop-down list and select the appropriate option. The following options are available:  
   - **After creation**   
-  Select this option if you want the model to initiate the action after being created. This option is preselected by default.
+  Select this option to initiate the workflow action after the model has being created. This option is preselected by default.
   - **After saving**   
-  Select this option if you want the model to initiate the action after being saved.
+  Select this option to initiate the workflow action after the model has being saved.
 
 9. Click the *Condition fulfillment* drop-down list and select the appropriate option. The following options are available:
   - **If any is met**  
@@ -72,7 +72,7 @@ A *New trigger* input line is displayed.
     - **Active**  
       Select this option to activate the trigger.
     - **Inactive**  
-      Select this option to deactivate the trigger.  
+      Select this option to deactivate the trigger temporarily.  
 
 11. Enter the priority in the *Process priority* field. The priority is specified with a positive integer. The greater the number, the higher the priority.  
 As soon as the priority number has been entered, the ![Add](../../Assets/Icons/Plus04.png "[Add]") (Add) button is displayed.  If necessary, follow the steps below to add a condition, see [Add a condition](#add-a-condition).
@@ -82,7 +82,7 @@ As soon as the priority number has been entered, the ![Add](../../Assets/Icons/P
 
 ## Add a condition
 
-You can add one or more conditions for the trigger to be relevant.
+You can add one or more conditions for a trigger to be relevant.
 
   > [Info] To add conditions you have to complete the trigger first.
 
@@ -94,10 +94,12 @@ A trigger has been created, see [Create a trigger](#create-a-trigger).
 
 *Workflows > Workflows > Tab OVERVIEW > Select a workflow > Select a workflow version > Button Points > Menu entry Triggers > Button Add > New trigger added > Button Add*
 
-![Workflows](../../Assets/Screenshots/ActindoWorkFlow/Workflows/EditTrigger04.png "[Workflows]")
+![Workflows](../../Assets/Screenshots/ActindoWorkFlow/Workflows/EditTrigger03.png "[Workflows]")
 
 1. Click the ![Add](../../Assets/Icons/Plus04.png "[Add]") (Add) button.  
 A new input line is displayed.
+
+  ![Workflows](../../Assets/Screenshots/ActindoWorkFlow/Workflows/EditTrigger04.png "[Workflows]")
 
 2. Click the *Prefix* drop-down list and select the appropriate option. The following options are available:  
   - **entity**
@@ -106,9 +108,12 @@ A new input line is displayed.
 3. Enter the applicable attribute in the *Property* field.  
 
 4. Click the *Operator* drop-down list and select the appropriate option. The following options are available:  
-  - **Equals**
-  - **Does not equal**
-  - **Is set**
+  - **Equals**  
+    Select this option if the property value must equal the value specified in the *Value* field for the trigger to apply.
+  - **Does not equal**  
+    Select this option if the property value must not equal the value specified in the *Value* field for the trigger to apply.
+  - **Is set**  
+    Select this option if the property value must be a fixed value set in the *Value* field for the trigger to apply.
 
 5. Enter the applicable value in the *Value* field.
 
@@ -118,7 +123,7 @@ The changes made are saved. The *Edit trigger for workflow* is closed.
 
 ## Edit a trigger
 
-Edit a trigger to modify any of the previously configured values. It is also possible to edit or delete a condition for a trigger to be relevant.
+Edit a trigger to modify any of the previously configured settings. It is also possible to edit or delete a condition for a trigger to be relevant.
 
 #### Prerequisites
 
@@ -130,7 +135,7 @@ A trigger has been created, see [Create a trigger](#create-a-trigger).
 
 ![Triggers](../../Assets/Screenshots/ActindoWorkFlow/Workflows/EditTrigger04.png "[Triggers]")
 
-1. Edit the trigger values previously configured as necessary.
+1. Edit the trigger settings previously configured as necessary.
 
 2. If one or more conditions have been previously added, edit the condition values previously configured as necessary.
 
@@ -141,6 +146,8 @@ The condition is removed from the list.
 
 5. Click the [APPLY CHANGES] button.    
 The changes have been saved. The *Edit trigger for workflow* is closed.
+
+  > [Info] If you click the [CANCEL] button without applying the changes, the changes will be rejected.
 
 
 ## Change the order of triggers
@@ -161,6 +168,8 @@ At least two triggers have been created in the workflow version, see [Create a t
 
 2. Click the [APPLY CHANGES] button.  
 The trigger position has been saved.
+
+  > [Info] If you click the [CANCEL] button without applying the changes, the changes will be rejected.
 
 [comment]: <> (Kein Pop-up-Fenster/Bestätigung angezeigt.)
 
@@ -185,4 +194,6 @@ A trigger has been created, see [Create a trigger](#create-a-trigger).
 2. Click the [APPLY CHANGES] button.  
   The trigger has been deleted.
 
-[comment]: <> (Kein Pop-up-Fenster/Bestätigung angezeigt. Trigger kann man nicht löschen. Stand 20.09.22)
+  > [Info] If you click the [CANCEL] button without applying the changes, the changes will be rejected.
+
+[comment]: <> (Kein Pop-up-Fenster/Keine Bestätigung angezeigt. Trigger kann man nicht löschen. Stand 20.09.22)
