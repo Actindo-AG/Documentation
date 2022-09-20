@@ -69,9 +69,9 @@ A *New trigger* input line is displayed.
     Select this option if you want all conditions to be met for the trigger to apply.
 
 10. Click the *Status* drop-down list and select the appropriate option. The following options are available:
-    - **Active**  
+  - **Active**  
       Select this option to activate the trigger.
-    - **Inactive**  
+  - **Inactive**  
       Select this option to deactivate the trigger temporarily.  
 
 11. Enter the priority in the *Process priority* field. The priority is specified with a positive integer. The greater the number, the higher the priority.  
