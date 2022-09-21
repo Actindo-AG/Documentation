@@ -22,7 +22,7 @@ Upload images and videos to Cloudinary at the same time when adding these files 
 
 ![Products](../../Assets/Screenshots/PIM/Products/List/Products.png "[Products]")
 
-> [Info] The following procedure describes exemplary how to upload an image to Cloudinary. The procedure is largely identical to upload a video to CLoudinary. The differences are explicitly specified at the appropriate place.
+> [Info] The following procedure describes exemplary how to upload an image to Cloudinary. The procedure is largely identical to upload a video to Cloudinary. The differences are explicitly specified at the appropriate place.
 
 1. Click the product in the product list to which you want to add an image and upload it to Cloudinary at the same time.   
   The *Edit product* view is displayed.
@@ -38,7 +38,7 @@ Upload images and videos to Cloudinary at the same time when adding these files 
 
   ![Cloudinary images](../../Assets/Screenshots/PIM/Products/List/Attributes/CloudinaryImages.png "[Cloudinary images]")
 
-  > [Info] By default, the *actindo_temp* contextual meta data field is assigned to each image uploaded via the *PIM* module to Cloudinary. As long as a product to which the image was uploaded is not saved, the value of the *actindo_temp* field equals **1**, which means that this image is temporary. Temporary images older than 24 hours are automatically deleted from Cloudinary during the daily cronjob. When a product is saved, the value of the *actindo_temp* field of all images assigned to this Cloudinary attribute changes to **0**, which means that these images are uploaded and saved in Cloudinary.
+  > [Info] By default, the *actindo_temp* contextual meta data field is assigned to each image uploaded via the *PIM* module to Cloudinary. As long as a product to which the image was uploaded is not saved, the value of the *actindo_temp* field equals **1**, which means that this image is temporary. Temporary images older than 24 hours are automatically deleted from Cloudinary during the daily cronjob. When a product is saved, the value of the *actindo_temp* field of all images assigned to this Cloudinary attribute changes to **0**, which means that these images will persist in Cloudinary.
 
   ![Actindo temp](../../Assets/Screenshots/Cloudinary/ActindoTemp.png "[Actindo temp]")
 
@@ -98,7 +98,7 @@ Import images and videos from Cloudinary to products in your *PIM* module.
 
   ![Unassigned items](../../Assets/Screenshots/PIM/Products/List/Attributes/CloudinaryUnassignedItems.png "[Unassigned items]")
 
-  > [Info] Note that only those images located in the folder specified in the Cloudinary attribute configuration are available. If an image is missing, check if the image is included in the specified folder or use the ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh) button to update the list of unassigned items.   
+  > [Info] Note that only those images located in the folder specified in the Cloudinary attribute configuration are available. If an image is missing, check if the image is included in the specified folder and matches the regular expression if one has been defined. You can use the ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh) button to update the list of unassigned items.   
 
 4. Select the checkboxes of all images to be imported from Cloudinary in the list of unassigned items.   
   The editing toolbar is displayed above the list.
@@ -172,9 +172,9 @@ At least one Cloudinary file has been assigned to the PIM product.
 5. Depending on your objective, click on one of the following buttons displayed in the *Delete image* window:
 
   - [REMOVE ASSIGNMENT (KEEP IN CLOUDINARY)]   
-  Only the assignment to the image will be removed. When displaying the list of unassigned items, the image will be listed again. The *Delete image* window is closed.
+  Only the assignment to the image will be removed. When displaying the list of unassigned items, the image may be listed again. The *Delete image* window is closed.
   - [REMOVE ASSIGNMENT (DELETE IN CLOUDINARY)]   
-  The assignment to the image will be removed and the image itself will be deleted in Cloudinary. The *Delete image* window is closed.
+  The assignment to the image will be removed and the image itself will be deleted in Cloudinary when saving the product. The *Delete image* window is closed.
 
     > [Info] Note that problems may occur when deleting an image to which other dependencies exist, for instance if the image is already available in a web shop.
 

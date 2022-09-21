@@ -88,7 +88,7 @@ A Cloudinary attribute has been created, see [Create a Cloudinary attribute](#cr
 
 3. Enable the *Read-only* toggle to allow no manual modification, for instance if an automatic import from Cloudinary is configured and the imported files should not be editable.
 
-4. Enter a regular expression in the *Import regex* field to restrict the listed items for the import of files from Cloudinary. If the field is left blank, no restriction is applied.
+4. Enter a regular expression in the *Import regex* field to restrict the items in the configured *Folder* for the import of files from Cloudinary. If the field is left blank, no restriction is applied.
 
   > [Info] Currently, the restriction is only applicable to the filename.
 
@@ -98,7 +98,7 @@ A Cloudinary attribute has been created, see [Create a Cloudinary attribute](#cr
   Note, however, that all changes in Actindo will overwrite the data in Cloudinary.
 
 6. Click the *Connection* drop-down list and select the appropriate connection. All Cloudinary connections are displayed in the list.	 
-All available meta data fields from the selected Cloudinary connection are displayed in the *Structured meta data fields* section.
+All available structured meta data fields from the selected Cloudinary connection are displayed in the *Structured meta data fields* section.
 
 ![Cloudinary structured meta data](../../Assets/Screenshots/PIM/Settings/Attributes/CloudinaryStructuredMetaData.png "[Cloudinary structured meta data]")
 
