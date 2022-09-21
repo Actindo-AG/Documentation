@@ -314,13 +314,13 @@ The arcs are the links connecting a place with the input and output port(s) of a
 
 ![Triggers](../../Assets/Screenshots/ActindoWorkFlow/Workflows/EditTrigger04.png "[Triggers]")
 
-- ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add)
+- ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add)  
 Click this button to create a trigger. The *New trigger* input line is displayed.
 
 - *Name*  
   Enter a description for the new trigger.
 
-- *Model*
+- *Model*  
   Enter the applicable namespace of the model.
 
 
@@ -341,10 +341,10 @@ Click this button to create a trigger. The *New trigger* input line is displayed
 
 
 - *Status*  
-  Click the drop-down list and select the appropriate option. The following options are available:
- - **Active**  
+  Click the drop-down list and select the appropriate option. The following options are available:   
+  - **Active**  
      Select this option to activate the trigger.
- - **Inactive**  
+  - **Inactive**  
      Select this option to deactivate the trigger temporarily.
 
 
@@ -353,14 +353,14 @@ Click this button to create a trigger. The *New trigger* input line is displayed
 
   > [Info] As soon as all trigger fields are completed, a second ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) button is displayed.
 
-- ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add)
+- ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add)  
   Click this button to add a condition. A new input line is displayed.
 
-  > [Info] The following fields are only displayed when condition has been added.
+  > [Info] The following fields are only displayed when a condition has been added.
 
 - *Prefix*  
   Click the drop-down list and select the appropriate option. The following options are available:
-  - **entity**
+  - **entity**  
     Select this option to specify an entity.
   - **changeset**  
     Select this option to specify a changset.
