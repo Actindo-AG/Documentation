@@ -1,5 +1,5 @@
 [!!User Interface Workflows](../UserInterface/02a_Workflows.md)   
-  
+
 
 # Manage the triggers
 
@@ -52,9 +52,9 @@ No prerequisites to fulfill.
 
 8. Click the *Event* drop-down list and select the appropriate option. The following options are available:  
   - **After creation**   
-    Select this option to initiate the process after the model has being created. This option is preselected by default.
+    Select this option for the trigger to be executed after the model has been created. This option is preselected by default.
   - **After saving**   
-    Select this option to initiate the process after the model has being saved.
+    Select this option for the trigger to be executed after the model has been saved.
 
 
 9. Click the *Condition fulfillment* drop-down list and select the appropriate option. The following options are available:
