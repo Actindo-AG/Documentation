@@ -9,9 +9,16 @@
 
 The decision matrix is designed to determine which tax zone, and therefore which tax rate, is applicable to an order. The decision matrix consists of a list of decision-making criteria based on the information provided by the *Order management* module.
 
-Taking into account the order confirmation and the delivery note, the *Order management* module provides the *Taxes* module with the following details: country of origin, ship-to country, ship-to postcode, and VAT ID. Using this information, the decision matrix is able to determine the tax zone. Once the tax zone has been determined, the *Taxes* module can provide the *Order management* module with this information, as well as with the applicable tax key and tax rate.  
+Taking into account the order confirmation and the delivery note, the *Order management* module provides the *Taxes* module with the following details: 
+* country of origin (determined by the country of the source warehouse with fallback to the tenant country)
+* ship-to country
+* ship-to postcode
+* VAT ID set in case of B2B-Orders
+Using this information, the decision matrix is able to determine the tax zone. Once the tax zone has been determined, the *Taxes* module can provide the *Order management* module with this information, as well as with the applicable tax key and tax rate.  
 
-The correct order of the decision-making criteria is crucial, as the system goes through the criteria in the order they are listed, starting from the top, and stops checking them as soon as a matching criterion is found. This means, that the criteria must be organized from specific to general to cover all possible relevant cases.
+
+The correct order of the decision-making criteria is crucial, as the system goes through the criteria in the order they are listed, starting from the top, and stops checking them as soon as a matching criterion is found.
+This means, that the criteria must be organized from specific to general to cover all possible relevant cases.
 
 
 ## Create an entry
@@ -50,8 +57,9 @@ Create an entry to determine a new tax zone.
   - **Range**  
   Select this option to specify a numeric postcode range, for example 27498 or 52001-52006.
   - **Regex**  
-  Select this option to specify a postcode containing alphanumeric characters with regular expressions, for example /^BT.*/. For detailed information about regular expressions, see https://regex101.com/.
+  Select this option to specify a postcode containing alphanumeric characters with regular expressions, for example /^BT.*/ in case of Northern Ireland. The site https://regex101.com/ can be useful to test regular expressions.
 The field to the right of the *Ship-to postcode* drop-down list is unlocked.
+
 > [Info] This feature can be used to define special tax regimes within a territory, such as that of Northern Ireland in the United Kingdom or Helgoland in Germany. For detailed information, see [Define tax exceptions on ZIP code level](#define-tax-exceptions-on-ZIP-code-level).
 
 6. Enter the applicable postcode range or regular expression in the unlocked field on the right of the *Ship-to postcode* drop-down list.
@@ -173,7 +181,7 @@ All applicable tax rates have been defined for delivery thresholds, see [Define 
 1. Click the ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) button in the upper left corner.   
   A new data input line is displayed.
 
-2. Click the *VAT ID* drop-down list and select **No**, as the end customer must be a private individual.
+2. Click the *VAT ID* drop-down list and select **No** in case the rule should only apply for B2C transactions.
 
 3. Click the *Country of origin* drop-down list on the right and select the country where the product is shipped from. The *Country of origin* drop-down list on the left must remain blank (**Any**).
 
@@ -223,9 +231,11 @@ These tax exceptions can be defined using the *Ship-to postcode* fields.
 2. Click the *VAT ID* drop-down list and select the appropriate option. The following options are available:
 
   - **Yes**  
-  The end customer is a company and, therefore, has a VAT ID number (business-to-business transaction).
+  The customer is a company and, therefore, has a VAT ID number (business-to-business transaction).
   - **No**  
-  The end customer is a private individual and, therefore, has no VAT ID number (business-to-customer transaction).
+  The customer is a private individual and, therefore, has no VAT ID number (business-to-customer transaction).
+  - **Any**
+  To match any of the previous two cases
 
 
 3. Click the *Country of origin* drop-down list and select the appropriate option. Use the drop-down list on the left to select a group of countries or the one on the right to select an individual country. As a group of countries, only the **EU - European Union** option is available. In the drop-down list of individual countries, all available countries in the system are displayed. When a group of countries is selected, the drop-down list on the right is locked.

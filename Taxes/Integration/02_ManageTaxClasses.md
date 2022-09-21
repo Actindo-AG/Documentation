@@ -6,11 +6,10 @@
 
 # Manage the tax classes
 
-A tax class is assigned to each product or group of products. The tax class is determined by the competent tax authorities of the territory where the product or group of products is to be taxed. Therefore it usually differs from territory to territory.
+A tax class is assigned to each product. The tax class is determined by the competent tax authorities of the territory where the product or group of products is to be taxed.
 
 There are two main tax classes in most territories: the standard and the reduced tax rate class. However, there can also be special taxes, such as super-reduced or zero taxes. Tax classes can be created, edited and deleted if necessary.
-
-[comment]: <> (Tax class / Steuerklasse ist unter Price im Produkt in PIM Modul hinterlegt. Verweis auf PIM?)
+For many products the applicable tax class is the same in each tax zone. If special cases exist for you setup where the tax class differs in relevant regions you may need to create additional tax classes that are mapped to the correct tax keys for each tax zone.
 
 ## Create a tax class
 

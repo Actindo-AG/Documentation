@@ -6,7 +6,7 @@
 
 # Manage the tax rates
 
-Generally speaking, a tax rate is the percentage to which a product is taxed and depends on the product type (tax class) and the territory where it is to be taxed (tax zone). The *Taxes* module allows to configure different tax rates according to a combination of tax class and tax zone.
+Generally speaking, a tax rate is the percentage to which a product is taxed and depends on the product type (tax class) and the territory where it is to be taxed (tax zone). The *Taxes* module allows to configure different tax rates according to a combination of tax class and tax zone as well as rules to determine the tax zone given on specific criterias.
 
 Tax rates can be created, edited and deleted to adapt the automatic taxation feature to the customer's specific and changing needs.
 

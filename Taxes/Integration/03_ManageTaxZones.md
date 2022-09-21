@@ -7,7 +7,7 @@
 
 # Manage the tax zones
 
-Tax zones are essential to determine where a specific tax rate is to be applied. The applicable tax zone depends on several factors, such as the country where the selling company is based, the country where the product is shipped from, and the country where the product is shipped to.
+Tax zones are essential to determine where a specific tax rate is to be applied. The applicable tax zone depends on several factors, such as the country where the selling company is based, the country where the product is shipped from, and the country where the product is shipped to. The *Decision Matrix* determines rules to determine the applicable tax zone. 
 
 The default configuration includes three tax zones:
 
@@ -18,6 +18,8 @@ The default configuration includes three tax zones:
   - Third country, that is, any territory other than the two specified above  
 
 Next to the configured tax zone, a VAT ID (value-added-tax identification number) can be added. The VAT ID number is an identifier used by companies operating in the European Union for value-added-tax purposes. VAT ID numbers can be verified at the EU's [VIES](https://ec.europa.eu/taxation_customs/vies/) (VAT Information Exchange System) official website.
+
+In case of multiple legal entities in different countries the VAT ID field can be used to determine which VAT ID will be printed on the documents depending on the relevant tax zone.
 
 Tax zones can be created, edited and deleted to configure the automatic taxation feature according to the customer's business needs.
 
