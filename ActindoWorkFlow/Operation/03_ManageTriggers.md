@@ -1,6 +1,5 @@
 [!!User Interface Workflows](../UserInterface/02a_Workflows.md)   
-[!!Workflow and process elements](../Overview/04_WorkflowProcessElements.md)   
-[!!Track a workflow process](./02_TrackWorkflowProcess.md)   
+  
 
 # Manage the triggers
 
@@ -16,8 +15,6 @@ Create a trigger to determine a business object to initiate a process and the re
 #### Prerequisites
 
 No prerequisites to fulfill.
-
-[comment]: <> (MV: Add triggers info to UI)
 
 #### Procedure
 
