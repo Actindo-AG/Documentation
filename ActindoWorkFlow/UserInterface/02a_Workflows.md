@@ -207,6 +207,9 @@ Click this button to close the workflow editor and return to the list of workflo
 -  ![Points](../../Assets/Icons/Points02.png "[Points]") (Points)  
 Click the ![Points](../../Assets/Icons/Points02.png "[Points]") (Points) button to the right of the workflow name to display the context menu. The following menu entries are available:
 
+  - *Triggers*  
+  Click this entry to add triggers and conditions. The *Edit trigger for workflow "Workflow name"* window is displayed, see [Edit trigger for workflow "Workflow name"](#edit-trigger-for-workflow-workflow-name).
+
   - *Import JSON*  
   Click this entry to import data in JSON format. The *Import JSON* window is displayed, see [Import JSON](#import-json).
 
@@ -304,6 +307,104 @@ The arcs are the links connecting a place with the input and output port(s) of a
 
   For detailed information, see [Arcs](../Overview/04_WorkflowProcessElements.md#arcs).
 
+
+## Edit trigger for workflow "Workflow name"  
+
+*Workflows > Workflows > Tab OVERVIEW > Select workflow > Select version > Button Points > Menu entry Triggers*
+
+![Triggers](../../Assets/Screenshots/ActindoWorkFlow/Workflows/EditTrigger04.png "[Triggers]")
+
+- ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add)
+Click this button to create a trigger. The *New trigger* input line is displayed.
+
+- *Name*  
+  Enter a description for the new trigger.
+
+- *Model*
+  Enter the applicable namespace of the model.
+
+
+- *Event*  
+  Click the drop-down list and select the appropriate option. The following options are available:    
+  - **After creation**   
+    Select this option for the trigger to be executed after the model has been created. This option is preselected by default.
+  - **After saving**   
+    Select this option for the trigger to be executed after the model has been saved.
+
+
+- *Condition fulfillment*  
+  Click the drop-down list and select the appropriate option. The following options are available:  
+  - **If all are met**  
+    Select this option if you want all conditions to be met for the trigger to be executed. This option is preselected by default.
+  - **If any is met**  
+    Select this option if you want any condition to be met for the trigger to be executed.
+
+
+- *Status*  
+  Click the drop-down list and select the appropriate option. The following options are available:
+ - **Active**  
+     Select this option to activate the trigger.
+ - **Inactive**  
+     Select this option to deactivate the trigger temporarily.
+
+
+- *Process priority*  
+  Enter the priority for the process execution. The priority is specified with a positive integer. The greater the number, the higher the priority.  
+
+  > [Info] As soon as all trigger fields are completed, a second ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) button is displayed.
+
+- ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add)
+  Click this button to add a condition. A new input line is displayed.
+
+  > [Info] The following fields are only displayed when condition has been added.
+
+- *Prefix*  
+  Click the drop-down list and select the appropriate option. The following options are available:
+  - **entity**
+    Select this option to specify an entity.
+  - **changeset**  
+    Select this option to specify a changset.
+
+[comment]: <> (Extra Info benötigt!)
+
+- *Property*  
+  Enter the applicable property for the selected prefix.
+
+- *Operator*  
+  Click the drop-down list and selected the appropriate option. The following options are available:
+  - **Equals**  
+    Select this option if the property value must equal the value specified in the *Value* field for the trigger to be executed.
+  - **Does not equal**  
+    Select this option if the property value must not equal the value specified in the *Value* field for the trigger to be executed.
+  - **Is set**  
+    Select this option if the property value must be a fixed value set in the *Value* field for the trigger to be executed.
+
+[comment]: <> (Bedeutung? Was/wofür wird es genutzt? Unterschied zu Equals? Booleans? Wert vorhanden?)
+
+- *Value*  
+  Enter the applicable value. Both numbers and letters can be used in this field.
+
+- ![Delete](../../Assets/Icons/Trash08.png "[Delete]") (Delete)  
+    Click the button to the right of the condition input line to delete the condition.
+
+- ![Drag](../../Assets/Icons/Points03.png "[Drag]") (Drag)  
+  Click and hold this button to move the trigger to a another position in the list. Drop the trigger in the desired position by releasing the mouse button.
+
+- ![Collapse](../../Assets/Icons/Up.png "[Collapse]") (Collapse)  
+  Click this button to collapse the trigger box.
+
+- ![Expand](../../Assets/Icons/Down.png "[Expand]") (Expand)  
+  Click this button to expand the trigger box.
+
+- ![Delete](../../Assets/Icons/Trash08.png "[Delete]") (Delete)  
+  Click the button to the right of the trigger box to delete the trigger.
+
+
+- [CANCEL]  
+  Click this button to cancel the process.
+
+- [APPLY CHANGES]  
+  Click this button to save the changes made.
 
 
 ## Import JSON
