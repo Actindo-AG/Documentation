@@ -1,5 +1,6 @@
 [!!User Interface Cloudinary](../UserInterface/01a_Connections.md)
-[!!Manage the Cloudinary files](../Operation/01_ManageCloudinaryFiles.md)
+[!!Manage the Cloudinary files](../Operation/01_ManageCloudinaryFiles.md)   
+
 [comment]: <> (Edit a connection?)
 
 
