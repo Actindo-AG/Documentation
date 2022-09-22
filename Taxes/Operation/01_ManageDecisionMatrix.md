@@ -59,7 +59,7 @@ Create an entry to determine a new tax zone.
   - **Range**  
   Select this option to specify a numeric postcode range, for example 27498 or 52001-52006.
   - **Regex**  
-  Select this option to specify a postcode containing alphanumeric characters with regular expressions, for example /^BT.*/ in case of Northern Ireland. The site https://regex101.com/ can be useful to test regular expressions.
+  Select this option to specify a postcode containing alphanumeric characters with regular expressions, for example /^BT.*/ in case of Northern Ireland. The site https://regex101.com/ can be useful to test regular expressions.  
 The field to the right of the *Ship-to postcode* drop-down list is unlocked.
 
 > [Info] This feature can be used to define special tax regimes within a territory, such as that of Northern Ireland in the United Kingdom or Helgoland in Germany. For detailed information, see [Define tax exceptions on ZIP code level](#define-tax-exceptions-on-ZIP-code-level).

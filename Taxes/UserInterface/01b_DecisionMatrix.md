@@ -14,9 +14,9 @@ Click this button to move the entry to a different position with the left mouse 
 Value-added tax identification number. In this case, the VAT ID refers to the buyer's VAT ID number. Click the drop-down list to select the appropriate option. The following options are available:
 
   - **No**  
-  Select this option if the end customer is a private individual and, therefore, has no VAT ID number (business-to-customer transaction).
+  Select this option if the customer is a private individual and, therefore, has no VAT ID number (B2C transaction).
   - **Yes**  
-  Select this option if the end customer is a company and, therefore, has a VAT ID number (business-to-business transaction).
+  Select this option if the customer is a company and, therefore, has a VAT ID number (B2B transaction).
 
 
 - *Country of origin*  
