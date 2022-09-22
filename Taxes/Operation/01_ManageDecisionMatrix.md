@@ -13,7 +13,7 @@ Taking into account the order confirmation and the delivery note, the *Order man
 * country of origin (determined by the country of the source warehouse with fallback to the tenant country)
 * ship-to country
 * ship-to postcode
-* VAT ID set in case of B2B-Orders
+* VAT ID (set in case of B2B orders)
 Using this information, the decision matrix is able to determine the tax zone. Once the tax zone has been determined, the *Taxes* module can provide the *Order management* module with this information, as well as with the applicable tax key and tax rate.  
 
 
@@ -43,9 +43,9 @@ Create an entry to determine a new tax zone.
 2. Click the *VAT ID* drop-down list and select the appropriate option. In this case, the VAT ID refers to the buyer's VAT ID number. The following options are available:
 
   - **Yes**  
-  Select this option if the end customer is a company and, therefore, has a VAT ID number (business-to-business transaction).
+  Select this option if the customer is a company and, therefore, has a VAT ID number (B2B transaction).
   - **No**  
-  Select this option if the end customer is a private individual and, therefore, has no VAT ID number (business-to-customer transaction).
+  Select this option if the customer is a private individual and, therefore, has no VAT ID number (B2C transaction).
 
 
 3. Click the *Country of origin* drop-down list and select the appropriate option. Use the drop-down list on the left to select a group of countries or the one on the right to select an individual country. As a group of countries, only the **EU - European Union** option is available. In the drop-down list of individual countries, all available countries in the system are displayed. When a group of countries is selected, the drop-down list on the right is locked.
@@ -231,11 +231,11 @@ These tax exceptions can be defined using the *Ship-to postcode* fields.
 2. Click the *VAT ID* drop-down list and select the appropriate option. The following options are available:
 
   - **Yes**  
-  The customer is a company and, therefore, has a VAT ID number (business-to-business transaction).
+  The customer is a company and, therefore, has a VAT ID number (B2B transaction).
   - **No**  
-  The customer is a private individual and, therefore, has no VAT ID number (business-to-customer transaction).
+  The customer is a private individual and, therefore, has no VAT ID number (B2C transaction).
   - **Any**
-  To match any of the previous two cases
+  To match any of the previous two cases.
 
 
 3. Click the *Country of origin* drop-down list and select the appropriate option. Use the drop-down list on the left to select a group of countries or the one on the right to select an individual country. As a group of countries, only the **EU - European Union** option is available. In the drop-down list of individual countries, all available countries in the system are displayed. When a group of countries is selected, the drop-down list on the right is locked.

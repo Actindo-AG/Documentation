@@ -7,7 +7,7 @@
 
 # Manage the tax zones
 
-Tax zones are essential to determine where a specific tax rate is to be applied. The applicable tax zone depends on several factors, such as the country where the selling company is based, the country where the product is shipped from, and the country where the product is shipped to. The *Decision Matrix* determines rules to determine the applicable tax zone. 
+Tax zones are essential to determine where a specific tax rate is to be applied. The applicable tax zone depends on several factors, such as the country where the selling company is based, the country where the product is shipped from, and the country where the product is shipped to. The *Decision matrix* consists of a list of rules to determine the applicable tax zone. 
 
 The default configuration includes three tax zones:
 
