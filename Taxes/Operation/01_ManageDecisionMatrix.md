@@ -14,6 +14,8 @@ Taking into account the order confirmation and the delivery note, the *Order man
 * ship-to country
 * ship-to postcode
 * VAT ID (set in case of B2B orders)   
+
+
 Using this information, the decision matrix is able to determine the tax zone. Once the tax zone has been determined, the *Taxes* module can provide the *Order management* module with this information, as well as with the applicable tax key and tax rate.  
 
 
