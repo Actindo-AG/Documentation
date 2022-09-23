@@ -47,7 +47,7 @@ Create a Cloudinary attribute to enable the upload of files from Actindo to Clou
 
   > [Info] Be aware that only attributes which are neither multi-language nor multi-channel can be used as defining attributes for variants. For detailed information, see [Create a variant set](./07_ManageVariantSets.md#create-a-variant-set).
 
-6. Enable the *Active* toggle to switch the attribute active after creation.
+6. Enable the *Active* toggle to activate the attribute after creation.
 
 7. Click the ![Add](../../Assets/Icons/Plus05.png "[Add]") (Add) button in the *Assigned sets* field. The button is locked if you have not yet selected a data type.   
   A drop-down list with all active attribute sets is displayed.
@@ -67,7 +67,7 @@ For detailed information about the Cloudinary configuration settings, see [Confi
 
 ## Configure a Cloudinary attribute
 
-The configuration of the Cloudinary attribute is important to define the meta data fields and other exchange settings between Actindo and Cloudinary.
+The configuration of the Cloudinary attribute is important to define the metadata fields and other exchange settings between Actindo and Cloudinary.
 
 #### Prerequisites
 
@@ -75,7 +75,7 @@ A Cloudinary attribute has been created, see [Create a Cloudinary attribute](#cr
 
 #### Procedure
 
-*PIM > Settings > Tab ATTRIBUTES > Button Add*
+*PIM > Settings > Tab ATTRIBUTES > Button Add*   
 *PIM > Settings > Tab ATTRIBUTES > Select Cloudinary attribute*
 
 ![Cloudinary configuration](../../Assets/Screenshots/PIM/Settings/Attributes/CloudinaryConfiguration.png "[Cloudinary configuration]")
@@ -84,28 +84,28 @@ A Cloudinary attribute has been created, see [Create a Cloudinary attribute](#cr
 
 1. Navigate to the *CONFIGURATION* section of the Cloudinary attribute.
 
-2. Enter a folder name where the Cloudinary files are put into in the *Folder* field. If the folder is not yet created in Cloudinary, it is automatically created when uploading the first file. Use placeholders to define product specific folder, for instance **{sku}**.
+2. Enter a folder name in the *Folder* field where the Cloudinary files will be stored. If the folder is not yet created in Cloudinary, it is automatically created when uploading the first file. Use placeholders to define a product specific folder, for instance **{sku}**.
 
-3. Enable the *Read-only* toggle to allow no manual modification, for instance if an automatic import from Cloudinary is configured and the imported files should not be editable.
+3. Enable the *Read-only* toggle to prevent manual modifications, for instance if an automatic import from Cloudinary is configured and the imported files should not be editable.
 
-4. Enter a regular expression in the *Import regex* field to restrict the items in the configured *Folder* for the import of files from Cloudinary. If the field is left blank, no restriction is applied.
+4. Enter a regular expression in the *Import regex* field to define which files in the configured folder in the *Folder* field will be listed for the import from Cloudinary. If the field is left blank, no restriction is applied.
 
   > [Info] Currently, the restriction is only applicable to the filename.
 
-5. Enter names for additional contextual meta data fields in the *Meta data fields* field. Use commas to separate the field names. A separate meta data field is created for each field name. By default, the *Title (caption)* and the *Description (alt)* contextual meta data fields are automatically created for each file and do not need to be added at this point.
+5. Enter names for additional contextual metadata fields in the *metadata fields* field. Use commas to separate the field names. A separate metadata field is created for each field name. By default, the *Title (caption)* and the *Description (alt)* contextual metadata fields are automatically created for each file and do not need to be added at this point.
 
-  > [Info] The meta data fields in Cloudinary are separated in the structured meta data and the contextual meta data fields. The contextual meta data fields can be managed in both, Actindo and Cloudinary.
+  > [Info] The metadata fields in Cloudinary are separated in the structured metadata and the contextual metadata fields. The contextual metadata fields can be managed in both, Actindo and Cloudinary.   
   Note, however, that all changes in Actindo will overwrite the data in Cloudinary.
 
 6. Click the *Connection* drop-down list and select the appropriate connection. All Cloudinary connections are displayed in the list.	 
-All available structured meta data fields from the selected Cloudinary connection are displayed in the *Structured meta data fields* section.
+All available structured metadata fields from the selected Cloudinary connection are displayed in the *Structured metadata fields* section.
 
-![Cloudinary structured meta data](../../Assets/Screenshots/PIM/Settings/Attributes/CloudinaryStructuredMetaData.png "[Cloudinary structured meta data]")
+![Cloudinary structured metadata](../../Assets/Screenshots/PIM/Settings/Attributes/CloudinaryStructuredMetaData.png "[Cloudinary structured metadata]")
 
-7. Enable the toggles of those meta data fields that should be displayed in the *PIM* module. All disabled fields are not displayed in the *PIM* module and consequently cannot be edited in Actindo.
+7. Enable the toggles of those metadata fields that should be displayed in the *PIM* module. All disabled fields are not displayed in the *PIM* module and consequently cannot be edited in Actindo.
 
-  > [Info] The structured meta data fields are managed in Cloudinary. In Actindo, the structured meta data fields that should be maintained in the *PIM* module can be enabled in the *Structured Meta Data Fields* section.
-  Note that you may also need to edit the Cloudinary attribute to apply changes in the structured meta data fields from Cloudinary to Actindo.
+  > [Info] The structured metadata fields are managed in Cloudinary. In Actindo, the structured metadata fields that should be maintained in the *PIM* module can be enabled in the *Structured metadata Fields* section.   
+  Note that you may also need to edit the Cloudinary attribute to apply changes in the structured metadata fields from Cloudinary to Actindo.
 
 8. Click the [SAVE] button in the upper right corner.   
   The Cloudinary attribute has been saved with the corresponding configuration. The *Create attribute* view is closed.  

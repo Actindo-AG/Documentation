@@ -5,7 +5,7 @@
 
 # Manage the Cloudinary files
 
-You can either upload files to Cloudinary via the *PIM* module or import files from CLoudinary to the *PIM* module. Further you can remove the file assignment to Cloudinary in the *PIM* module and either keep the file in Cloudinary or delete it.
+You can either upload files to Cloudinary via the *PIM* module or import files from Cloudinary to the *PIM* module. Further, you can remove the file assignment to Cloudinary in the *PIM* module and either keep the file in Cloudinary or delete it.
 
 ## Upload a Cloudinary file via PIM
 
@@ -13,8 +13,8 @@ Upload images and videos to Cloudinary at the same time when adding these files 
 
 #### Prerequisites
 
-- A Cloudinary connection has been established, see [Establish a connection to Cloudinary](../Integration/01_EstablishConnection.md)
-- The required Cloudinary attribute has been created, see [Manage the Cloudinary attributes](../Integration/02_ManageCloudinaryAttributes.md)
+- A Cloudinary connection has been established, see [Establish a connection to Cloudinary](../Integration/01_EstablishConnection.md).
+- The required Cloudinary attribute has been created, see [Manage the Cloudinary attributes](../Integration/02_ManageCloudinaryAttributes.md).
 
 #### Procedure
 
@@ -38,7 +38,7 @@ Upload images and videos to Cloudinary at the same time when adding these files 
 
   ![Cloudinary images](../../Assets/Screenshots/PIM/Products/List/Attributes/CloudinaryImages.png "[Cloudinary images]")
 
-  > [Info] By default, the *actindo_temp* contextual meta data field is assigned to each image uploaded via the *PIM* module to Cloudinary. As long as a product to which the image was uploaded is not saved, the value of the *actindo_temp* field equals **1**, which means that this image is temporary. Temporary images older than 24 hours are automatically deleted from Cloudinary during the daily cronjob. When a product is saved, the value of the *actindo_temp* field of all images assigned to this Cloudinary attribute changes to **0**, which means that these images will persist in Cloudinary.
+  > [Info] By default, the *actindo_temp* contextual metadata field is assigned to each image uploaded via the *PIM* module to Cloudinary. As long as a product to which the image was uploaded is not saved, the value of the *actindo_temp* field equals **1**, which means that this image is temporary. Temporary images older than 24 hours are automatically deleted from Cloudinary during the daily cronjob. When a product is saved, the value of the *actindo_temp* field of all images assigned to this Cloudinary attribute changes to **0**, which means that these images will not be deleted but remain in Cloudinary.
 
   ![Actindo temp](../../Assets/Screenshots/Cloudinary/ActindoTemp.png "[Actindo temp]")
 
@@ -52,12 +52,12 @@ are displayed in the box side bar:
     Enter a title for the image. This field is automatically created for each image.
   - *Filename*   
     The filename is automatically adopted from the uploaded or imported image. This field is read-only. To edit a filename after uploading, open the corresponding image in Cloudinary.
-  - *Contextual meta data fields*   
-    Enter an appropriate value in the contextual meta data fields specified in the Cloudinary attribute configuration.
-  - *Structured meta data fields*   
-    Enter an appropriate value in the structured meta data fields enabled in the Cloudinary attribute configuration.
+  - *Contextual metadata fields*   
+    Enter an appropriate value in the contextual metadata fields specified in the Cloudinary attribute configuration.
+  - *Structured metadata fields*   
+    Enter an appropriate value in the structured metadata fields enabled in the Cloudinary attribute configuration.
 
-    > [Info] Currently only structured meta data fields of the text and the date field type are supported by Actindo. Note to enter a date value in the appropriate date format (yyyy-MM-dd).
+    > [Info] Currently only structured metadata fields of the text and the date field type are supported by Actindo. The valid date format is *yyyy-MM-dd*.
 
     ![Cloudinary image settings](../../Assets/Screenshots//PIM/Products/List/Attributes/CloudinaryImageSettings.png "[Cloudinary image settings]")
 
@@ -82,7 +82,7 @@ Import images and videos from Cloudinary to products in your *PIM* module.
 
 ![Products](../../Assets/Screenshots/PIM/Products/List/Products.png "[Products]")
 
-> [Info] The following procedure describes exemplary how to import an image from Cloudinary. The procedure is largely identical to import a video from CLoudinary. The differences are explicitly specified at the appropriate place.
+> [Info] The following procedure describes exemplary how to import an image from Cloudinary. The procedure is largely identical to import a video from Cloudinary. The differences are explicitly specified at the appropriate place.
 
 1. Click the product in the product list to which you want to add an image from Cloudinary.   
   The *Edit product* view is displayed.
@@ -121,12 +121,12 @@ are displayed in the box side bar:
     Enter a title for the image. This field is automatically created for each image.
   - *Filename*   
     The filename is automatically adopted from the uploaded or imported image. This field is read-only. To edit a filename after uploading, open the corresponding image in Cloudinary.
-  - *Contextual meta data fields*   
-    Enter an appropriate value in the contextual meta data fields specified in the Cloudinary attribute configuration.
-  - *Structured meta data fields*   
-    Enter an appropriate value in the structured meta data fields enabled in the Cloudinary attribute configuration.
+  - *Contextual metadata fields*   
+    Enter an appropriate value in the contextual metadata fields specified in the Cloudinary attribute configuration.
+  - *Structured metadata fields*   
+    Enter an appropriate value in the structured metadata fields enabled in the Cloudinary attribute configuration.
 
-    > [Info] Currently only structured meta data fields of the text and the date field type are supported by Actindo. Note to enter a date value in the appropriate date format (yyyy-MM-dd).
+    > [Info] Currently only structured metadata fields of the text and the date field type are supported by Actindo. The valid date format is *yyyy-MM-dd*.
 
     ![Cloudinary image settings](../../Assets/Screenshots//PIM/Products/List/Attributes/CloudinaryImageSettings.png "[Cloudinary image settings]")
 
@@ -149,7 +149,7 @@ At least one Cloudinary file has been assigned to the PIM product.
 
 ![Products](../../Assets/Screenshots/PIM/Products/List/Products.png "[Products]")
 
-> [Info] The following procedure describes exemplary how to remove an image assignment from Cloudinary. The procedure is largely identical to import a video from CLoudinary. The differences are explicitly specified at the appropriate place.
+> [Info] The following procedure describes exemplary how to remove an image assignment from Cloudinary. The procedure is largely identical to import a video from Cloudinary. The differences are explicitly specified at the appropriate place.
 
 1. Click the product in the product list from which you want to remove the Cloudinary image assignment.   
   The *Edit product* view is displayed.
@@ -164,7 +164,7 @@ At least one Cloudinary file has been assigned to the PIM product.
 3. Hover over the preview tile of the image to be removed.    
   The ![Delete](../../Assets/Icons/Trash01.png "[Delete]") (Delete) button is displayed in a small circle in the upper right corner of the preview tile.    
 
-4. Click the ![Delete](../../Assets/Icons/Cross01.png "[Delete]") (Delete) button in the upper right corner of the preview tile.   
+4. Click the ![Delete](../../Assets/Icons/Trash01.png "[Delete]") (Delete) button in the upper right corner of the preview tile.   
   The *Delete image* window is displayed.   
 
   ![Delete image](../../Assets/Screenshots/PIM/Products/List/Attributes/CloudinaryDeleteImage.png "[Delete image]")
@@ -176,7 +176,7 @@ At least one Cloudinary file has been assigned to the PIM product.
   - [REMOVE ASSIGNMENT (DELETE IN CLOUDINARY)]   
   The assignment to the image will be removed and the image itself will be deleted in Cloudinary when saving the product. The *Delete image* window is closed.
 
-    > [Info] Note that problems may occur when deleting an image to which other dependencies exist, for instance if the image is already available in a web shop.
+    > [Info] Note that problems may occur when deleting an image to which other dependencies exist, for instance if the image is already available in a web shop. Therefore, it is recommended to check any dependencies before deleting an image from Cloudinary.
 
 6.  Click the [SAVE] button in the upper right corner of the *Edit product* view.    
   The image assignment removal has been saved. The *Edit product* view is closed.

@@ -8,11 +8,11 @@ This documentation refers to *Cloudinary* module version 1.0.2. There may be dif
 
 The Actindo *Cloudinary* module offers the following benefits:
 
-- simple upload of media files from *PIM* to Cloudinary
-- simple import of media files from Cloudinary to *PIM*
-- integration of media file transformations
-- setup of multiple connections
-- meta data management via Actindo
+- Simple upload of media files from *PIM* to Cloudinary
+- Simple import of media files from Cloudinary to *PIM*
+- Integration of media file transformations
+- Setup of multiple connections
+- Metadata management via Actindo
 
 
 ## Prerequisites

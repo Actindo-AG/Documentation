@@ -33,9 +33,9 @@ The first step to integrate the Cloudinary functionality to Actindo is to establ
 
   > [Info] The *Cloudinary Default Driver* is configured as a standard driver for Cloudinary. Further drivers that differ in their behavior may be created for specific customer needs.
 
-4. Enter the required Cloudinary account data to which you want to establish the connection in the *Cloud-Name*, the *API-Key* and the *API-Secret* fields.
+4. Enter the required details of the Cloudinary account to which you want to establish the connection in the *Cloud-Name*, the *API-Key* and the *API-Secret* fields.
 
-  > [Info] The needed account data is displayed in the *Account Details* section of your Cloudinary Dashboard.
+  > [Info] The needed account details are displayed in the *Account Details* section of your Cloudinary Dashboard.
 
   ![Cloudinary dashboard](../../Assets/Screenshots/Cloudinary/Settings/CloudinaryDashboard.png "[Cloudinary dashboard]")
 
