@@ -5,8 +5,8 @@
   - [Edit a tax rate](./01_ManageTaxRates.md#edit-a-tax-rate)
   - [Delete a tax rate](./01_ManageTaxRates.md#delete-a-tax-rate)
   - [Define the tax rates for delivery thresholds](./01_ManageTaxRates.md#define-the-tax-rates-for-delivery-thresholds)
-    - [Create a tax rate with the applicable delivery country VAT](./01_ManageTaxRates.md#create-a-tax-rate-with-the-applicable-delivery-country-VAT)
-    - [Create a tax rate with the applicable domestic VAT](./01_ManageTaxRates.md#create-a-tax-rate-with-the-applicable-domestic-VAT)
+    - [Create a tax rate with the applicable delivery country VAT](./01_ManageTaxRates.md#create-a-tax-rate-with-the-applicable-delivery-country-vat)
+    - [Create a tax rate with the applicable domestic VAT](./01_ManageTaxRates.md#create-a-tax-rate-with-the-applicable-domestic-vat)
 
 
 - [Manage the tax classes](./02_ManageTaxClasses.md)

@@ -1,6 +1,5 @@
 # Operation
 
-
 - [Manage the decision matrix](./01_ManageDecisionMatrix.md)
   - [Create an entry](./01_ManageDecisionMatrix.md#create-an-entry)
   - [Edit an entry](./01_ManageDecisionMatrix.md#edit-an-entry)

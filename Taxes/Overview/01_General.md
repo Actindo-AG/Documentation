@@ -8,7 +8,6 @@ This documentation refers to the *Taxes* module version 4.0.1. There may be diff
 ## Benefits
 
 The *Taxes* module offers the following benefits:  
-
 - Fully customizable tax function
 - Multiple tax scenarios within and outside the EU
 - Possibility to configure tax special regimes within a territory

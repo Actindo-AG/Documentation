@@ -3,12 +3,12 @@
 [!!Manage the tax classes](./02_ManageTaxClasses.md)  
 [!!Manage the tax zones](./03_ManageTaxZones.md)  
 
-
 # Manage the tax rates
 
 Generally speaking, a tax rate is the percentage to which a product is taxed and depends on the product type (tax class) and the territory where it is to be taxed (tax zone). The *Taxes* module allows to configure different tax rates according to a combination of tax class and tax zone as well as rules to determine the tax zone given on specific criterias.
 
 Tax rates can be created, edited and deleted to adapt the automatic taxation feature to the customer's specific and changing needs.
+
 
 
 ## Create a tax rate
@@ -27,7 +27,7 @@ Create a tax rate to cover a specific tax regime.
 ![Tax rates](../../Assets/Screenshots/Taxes/Settings/TaxRates/TaxRates.png "[Tax rates]")
 
 1. Click the ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) button in the bottom right corner.   
-The *Create tax rate* view is displayed.  
+  The *Create tax rate* view is displayed.  
 
   ![Create a tax rate](../../Assets/Screenshots/Taxes/Settings/TaxRates/CreateTaxRate.png "[Create a tax rate]")
 
@@ -50,12 +50,13 @@ The *Create tax rate* view is displayed.
   > [Info] If no end date is entered, the tax rate continues to be valid for an unspecified period of time.
 
 8. Click the [SAVE] button.  
-The *Create tax rate* view is closed and the list of tax rates is displayed again.  
+  The *Create tax rate* view is closed and the list of tax rates is displayed again.  
 
-8. Click the ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh) button in the upper right corner.   
-The new tax rate is displayed in the list of tax rates.
+9. Click the ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh) button in the upper right corner.   
+  The new tax rate is displayed in the list of tax rates.
 
   > [Info] If a new tax rate is created with the same tax class and tax zone as an existing tax rate, and its start date lies after the start date of the existing one, the existing tax rate end date is set up automatically before the start date of the new one.
+
 
 
 ## Edit a tax rate
@@ -75,7 +76,7 @@ A tax rate has been created, see [Create a tax rate](#create-a-tax-rate).
 ![Tax rates](../../Assets/Screenshots/Taxes/Settings/TaxRates/TaxRates.png "[Tax rates]")
 
 1. Click the tax rate to be edited in the list of tax rates.  
-The *Edit tax rate* view is displayed.
+  The *Edit tax rate* view is displayed.
 
   ![Edit tax rate](../../Assets/Screenshots/Taxes/Settings/TaxRates/EditTaxRate.png "[Edit tax rate]")
 
@@ -84,17 +85,17 @@ The *Edit tax rate* view is displayed.
   > [Info] Be aware that any changes made to an existing tax rate will overwrite the previously configured values.
 
 3. Click the [SAVE] button.  
-The *Edit tax rate* view is closed and the list of tax rates is displayed again.  
+  The *Edit tax rate* view is closed and the list of tax rates is displayed again.  
 
 4. Click the ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh) button in the upper right corner.   
-The edited tax rate is displayed in the list of tax rates.
+  The edited tax rate is displayed in the list of tax rates.
 
 
 ## Delete a tax rate
 
 Delete a tax rate that is no longer applicable.
 
-> [Warning] Be aware that any deletion is permanent and cannot be undone.
+> [Caution] Be aware that any deletion is permanent and cannot be undone.
 
 #### Prerequisites
 
@@ -107,17 +108,18 @@ A tax rate has been created, see [Create a tax rate](#create-a-tax-rate).
 ![Tax rates](../../Assets/Screenshots/Taxes/Settings/TaxRates/TaxRates.png "[Tax rates]")
 
 1. Select the checkbox of the tax rate to be deleted.  
-The editing toolbar is displayed.
+  The editing toolbar is displayed.
 
-  > [Warning] Be aware that the existing tax rate will be deleted permanently.
+  > [Caution] Be aware that the existing tax rate will be deleted permanently.
 
 2. Click the [DELETE] button in the upper right corner.  
-The selected tax rate has been deleted.
+  The selected tax rate has been deleted.
 
 3. Click the ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh) button in the upper right corner.   
-The deleted tax rate is removed from the list of tax rates.
+  The deleted tax rate is removed from the list of tax rates.
 
 [comment]: <> (19.09.22 - DELETE Button not working. Bug reported. Check again when fixed if Refresh button is needed here.)
+
 
 
 ## Define the tax rates for delivery thresholds
@@ -125,7 +127,6 @@ The deleted tax rate is removed from the list of tax rates.
 Define the necessary tax rates to include tax delivery thresholds in the system configuration.
 
 > [Info] Since July 2021, a new EU-wide threshold of EUR 10,000 has applied. As soon as this threshold has been reached, all products must be taxed in the ship-to (delivery) country to the corresponding delivery country tax rate. For detailed information about the new cross-border taxation rules, see [VAT - One Stop Shop](https://vat-one-stop-shop.ec.europa.eu/index_en) or consult a tax advisor.
-
 
 ### Create a tax rate with the applicable delivery country VAT
 
@@ -143,7 +144,7 @@ Create a specific tax rate with the applicable foreign VAT for each country wher
 ![Tax rates](../../Assets/Screenshots/Taxes/Settings/TaxRates/TaxRates.png "[Tax rates]")
 
 1. Click the ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) button in the bottom right corner.   
-The *Create tax rate* view is displayed.  
+  The *Create tax rate* view is displayed.  
 
   ![Create a tax rate](../../Assets/Screenshots/Taxes/Settings/TaxRates/CreateTaxRate.png "[Create a tax rate]")
 
@@ -164,10 +165,11 @@ The *Create tax rate* view is displayed.
   ![Delivery country VAT](../../Assets/Screenshots/Taxes/Settings/TaxRates/CreateTaxRateThreshold01.png "[Delivery country VAT]")
 
 8. Click the [SAVE] button.  
-The *Create tax rate* view is closed and the list of tax rates is displayed again.  
+  The *Create tax rate* view is closed and the list of tax rates is displayed again.  
 
 9. Click the ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh) button in the upper right corner.   
-The new tax rate is displayed in the list of tax rates.
+  The new tax rate is displayed in the list of tax rates.
+
 
 
 ### Create a tax rate with the applicable domestic VAT
@@ -185,9 +187,8 @@ Create a specific tax rate with the applicable domestic VAT for each country whe
 
 ![Tax rates](../../Assets/Screenshots/Taxes/Settings/TaxRates/TaxRates.png "[Tax rates]")
 
-
 1. Click the ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) button in the bottom right corner.   
-The *Create tax rate* view is displayed.  
+  The *Create tax rate* view is displayed.  
 
   ![Create a tax rate](../../Assets/Screenshots/Taxes/Settings/TaxRates/CreateTaxRate.png "[Create a tax rate]")
 
@@ -208,9 +209,9 @@ The *Create tax rate* view is displayed.
   ![Delivery country VAT](../../Assets/Screenshots/Taxes/Settings/TaxRates/CreateTaxRateThreshold02.png "[Delivery country VAT]")
 
 8. Click the [SAVE] button.  
-The *Create tax rate* view is closed and the list of tax rates is displayed again.  
+  The *Create tax rate* view is closed and the list of tax rates is displayed again.  
 
 9. Click the ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh) button in the upper right corner.   
-The new tax rate is displayed in the list of tax rates.
+  The new tax rate is displayed in the list of tax rates.
 
 > [Info] Repeat steps **1** to **9** of the *Create a tax rate with the applicable delivery country VAT* and the *Create a tax rate with the applicable domestic VAT* procedure to create the applicable tax rates for all relevant countries.  
