@@ -3,9 +3,8 @@
 
 # Manage the triggers
 
-When designing a workflow to map a business process, the *Triggers* function allows the user to determine a specific model, such as a product or a dispatch note, to initiate a process. Any model, together with the occurrence of a related event, can trigger a process, for instance a product being created or a product attribute being changed. Besides, multiple conditions can be configured in a trigger to recreate all possible variants of a workflow.
-
-Triggers can be created, edited or deleted in the workflow editor.
+When designing a workflow to map a business process, the *Triggers* function allows the user to determine a specific model, such as a product or a dispatch note, to initiate a process. Any model, together with the occurrence of a related event, can trigger a process, for instance a product being created or a product attribute being changed. Besides, multiple conditions can be configured for a trigger to recreate all possible variants of a workflow.   
+You can create one or several triggers for a workflow, define conditions, edit the triggers or delete them.
 
 
 ## Create a trigger
@@ -18,75 +17,69 @@ No prerequisites to fulfill.
 
 #### Procedure
 
-*Workflows > Workflows > Tab OVERVIEW*
+*Workflows > Workflows > Tab OVERVIEW > Button Add > Button CREATE*   
+*Workflows > Workflows > Tab OVERVIEW > Select a workflow > Select a workflow version*
 
-![Workflows](../../Assets/Screenshots/ActindoWorkFlow/Workflows/Workflows.png "[Workflows]")
+![Workflow editor](../../Assets/Screenshots/ActindoWorkFlow/Workflows/WorkflowEditorWorkflows.png "[Workflow editor]")
 
-1. Select a workflow from the *Workflows* list.  
-  The *Workflow versions* view with all versions of the selected workflow is displayed.
-
-  ![Workflow versions](../../Assets/Screenshots/ActindoWorkFlow/Workflows/WorkflowVersions.png "[Workflow versions]")
-
-2. Select the workflow version where the trigger is to be   added.  
-  The workflow editor is displayed.
-
-3. Click the ![Points](../../Assets/Icons/Points02.png "[Points]") (Points) button in the upper left corner next to the workflow name.   
+1. Click the ![Points](../../Assets/Icons/Points02.png "[Points]") (Points) button in the upper left corner next to the workflow name.   
   The workflow context menu is displayed.
 
-  ![Context menu](../../Assets/Screenshots/ActindoWorkFlow/Workflows/ContextMenu02.png "[Context menu]")
+  ![Context menu](../../Assets/Screenshots/ActindoWorkFlow/Workflows/ContextMenu.png "[Context menu]")
 
-4. Click the *Triggers* menu option.  
+2. Click the *Triggers* menu entry.  
   The *Edit trigger for workflow "Workflow name"* window is displayed.
 
-  ![Edit trigger](../../Assets/Screenshots/ActindoWorkFlow/Workflows/EditTrigger01.png "[Edit trigger]")
+  ![Edit trigger](../../Assets/Screenshots/ActindoWorkFlow/Workflows/EditTrigger.png "[Edit trigger]")
 
-5. Click the ![Add](../../Assets/Icons/Plus04.png "[Add]") (Add) button to create a trigger.  
+3. Click the ![Add](../../Assets/Icons/Plus04.png "[Add]") (Add) button to create a trigger.  
   A *New trigger* input line is displayed.
 
-  ![Workflows](../../Assets/Screenshots/ActindoWorkFlow/Workflows/EditTrigger02.png "[Workflows]")
+  ![New trigger](../../Assets/Screenshots/ActindoWorkFlow/Workflows/EditTriggerNewTrigger.png "[New trigger]")
 
-6. Enter a description in the *Name* field.  
+4. Enter a descriptive name for the trigger in the *Name* field.  
 
-7. Enter the applicable namespace of the model in the *Model* field, for example a PIM product.
+5. Enter the applicable namespace of the desired model in the *Model* field, for example a PIM product.
+
   > [Info] The data models can be taken from the relevant API documentation.
 
-8. Click the *Event* drop-down list and select the appropriate option. The following options are available:  
+6. Click the *Event* drop-down list and select the appropriate option. The following options are available:  
   - **After creation**   
     Select this option for the trigger to be executed after the model has been created. This option is preselected by default.
   - **After saving**   
     Select this option for the trigger to be executed after the model has been saved.
 
 
-9. Click the *Condition fulfillment* drop-down list and select the appropriate option. The following options are available:
+7. Click the *Condition fulfillment* drop-down list and select the appropriate option. The following options are available:
   - **If all are met**  
     Select this option if you want all conditions to be met for the trigger to be executed. This option is preselected by default.
   - **If any is met**  
     Select this option if you want any condition to be met for the trigger to be executed.
 
 
-10. Click the *Status* drop-down list and select the appropriate option. The following options are available:
+8. Click the *Status* drop-down list and select the appropriate option. The following options are available:
   - **Active**  
       Select this option to activate the trigger.
   - **Inactive**  
       Select this option to deactivate the trigger temporarily.  
 
 
-11. Enter the priority for the process execution in the *Process priority* field. The priority is specified with a positive integer. The greater the number, the higher the priority.  
+9. Enter the priority for the process execution in the *Process priority* field. The priority is specified with a positive integer. The greater the number, the higher the priority.  
 
-  > [Info] As soon as all fields are completed, the ![Add](../../Assets/Icons/Plus04.png "[Add]") (Add) button is displayed.  
+  > [Info] As soon as all fields are completed, the ![Add](../../Assets/Icons/Plus04.png "[Add]") (Add) button to add a condition is displayed.  
 
+10. If desired, add one or several conditions to the trigger, see [Add a condition](#add-a-condition).
 
-12. If desired, follow the steps below to add a condition, see [Add a condition](#add-a-condition).
+  > [Info] Repeat the steps **3** to **10** to add a further trigger. You can add an unlimited number of triggers to a workflow.
 
-  ![Workflows](../../Assets/Screenshots/ActindoWorkFlow/Workflows/EditTrigger03.png "[Workflows]")
+11. Click the [APPLY CHANGES] button.  
+  The trigger has been saved. The *Edit trigger for workflow "Workflow name"* window is closed.
 
-13. Click the [APPLY CHANGES] button.  
-  The changes made are saved. The *Edit trigger for workflow "Workflow name"* window is closed.
 
 
 ## Add a condition
 
-If desired, you can add one or more conditions for a trigger to be executed.
+Add one or several conditions to a trigger to define more precisely when a process is executed.
 
 #### Prerequisites
 
@@ -94,14 +87,15 @@ All trigger fields have been completed, see [Create a trigger](#create-a-trigger
 
 #### Procedure
 
+*Workflows > Workflows > Tab OVERVIEW > Button Add > Button CREATE > Button Points > Menu entry Triggers*    
 *Workflows > Workflows > Tab OVERVIEW > Select a workflow > Select a workflow version > Button Points > Menu entry Triggers*
 
-![Workflows](../../Assets/Screenshots/ActindoWorkFlow/Workflows/EditTrigger03.png "[Workflows]")
+![Add condition](../../Assets/Screenshots/ActindoWorkFlow/Workflows/EditTriggerAddCondition.png "[Add condition]")
 
 1. Click the ![Add](../../Assets/Icons/Plus04.png "[Add]") (Add) button.  
   A new input line is displayed.
 
-  ![Workflows](../../Assets/Screenshots/ActindoWorkFlow/Workflows/EditTrigger04.png "[Workflows]")
+  ![Condition input line](../../Assets/Screenshots/ActindoWorkFlow/Workflows/EditTriggerCondition.png "[Condition input line]")
 
 2. Click the *Prefix* drop-down list and select the appropriate option. The following options are available:  
   - **entity**
@@ -110,20 +104,25 @@ All trigger fields have been completed, see [Create a trigger](#create-a-trigger
 
 3. Enter the applicable property in the *Property* field.  
 
+  > [Info] The properties can be taken from the relevant API documentation.
+
 4. Click the *Operator* drop-down list and select the appropriate option. The following options are available:  
-  - **Equals**  
+  - **Equals**   
     Select this option if the property value must equal the value specified in the *Value* field for the trigger to be executed.
-  - **Does not equal**  
+  - **Does not equal**   
     Select this option if the property value must not equal the value specified in the *Value* field for the trigger to be executed.
   - **Is set**  
     Select this option if the property value must be a fixed value set in the *Value* field for the trigger to be executed.
 
-[comment]: <> (Bedeutung? Was/wofür wird es genutzt? Unterschied zu Equals? Booleans? Wert vorhanden?)
+[comment]: <> (Bedeutung is set? Was/wofür wird es genutzt? Unterschied zu Equals? Booleans? Wert vorhanden?)
 
-5. Enter the applicable value in the *Value* field. Both numbers and letters can be used in this field.
+5. Enter the corresponding value in the *Value* field.
+
+  > [Info] Repeat the steps **1** to **5** to add a further condition to the trigger. You can add an unlimited number of conditions.
 
 6. Click the [APPLY CHANGES] button.  
-  The changes made are saved. The *Edit trigger for workflow "Workflow name"* window is closed.
+  The condition has been saved. The *Edit trigger for workflow "Workflow name"* window is closed.
+
 
 
 ## Edit a trigger
@@ -132,25 +131,25 @@ Edit a trigger to modify any of the previously configured settings. It is also p
 
 #### Prerequisites
 
-A trigger has been created, see [Create a trigger](#create-a-trigger).
+At least one trigger has been created, see [Create a trigger](#create-a-trigger).
 
 #### Procedure
 
+*Workflows > Workflows > Tab OVERVIEW > Button Add > Button CREATE > Button Points > Menu entry Triggers*   
 *Workflows > Workflows > Tab OVERVIEW > Select a workflow > Select a workflow version > Button Points > Menu entry Triggers*
 
-![Triggers](../../Assets/Screenshots/ActindoWorkFlow/Workflows/EditTrigger04.png "[Triggers]")
+![Triggers](../../Assets/Screenshots/ActindoWorkFlow/Workflows/EditTriggerMultipleTriggers.png "[Triggers]")
 
 1. Edit the trigger settings as necessary.
 
-2. If desired, edit the condition values.
+2. If desired, edit the conditions:
+  - Edit the condition settings as necessary.
+  - Add one or several conditions, see [Add a condition](#add-a-condition).
+  - Click the ![Delete](../../Assets/Icons/Trash08.png "[Delete]") (Delete) button to the right of a condition to delete the corresponding condition.
 
-3. If desired, add one or more conditions, see [Add a condition](#add-a-condition).
+3. Click the [APPLY CHANGES] button.    
+  All changes have been saved. The *Edit trigger for workflow "Workflow name"* window is closed.
 
-4. If desired, click the ![Delete](../../Assets/Icons/Trash08.png "[Delete]") (Delete) button to the right of a condition.  
-  The condition is removed from the list.
-
-5. Click the [APPLY CHANGES] button.    
-  The changes have been saved. The *Edit trigger for workflow "Workflow name"* window is closed.
 
 
 ### Change the order of triggers
@@ -165,9 +164,10 @@ At least two triggers have been created in the workflow version, see [Create a t
 
 #### Procedure
 
+*Workflows > Workflows > Tab OVERVIEW > Button Add > Button CREATE > Button Points > Menu entry Triggers*    
 *Workflows > Workflows > Tab OVERVIEW > Select a workflow > Select a workflow version > Button Points > Menu entry Triggers*
 
-![Triggers](../../Assets/Screenshots/ActindoWorkFlow/Workflows/EditTrigger05.png "[Triggers]")
+![Triggers](../../Assets/Screenshots/ActindoWorkFlow/Workflows/EditTriggerMultipleTriggers.png "[Triggers]")
 
 
 1. Click and hold the ![Drag](../../Assets/Icons/Points03.png "[Drag]") (Drag) button to the left of the trigger you want to move to another position in the list.   
@@ -177,9 +177,10 @@ At least two triggers have been created in the workflow version, see [Create a t
 3. If necessary, repeat the steps **1** and **2** for all triggers that need to be repositioned.
 
 4. Click the [APPLY CHANGES] button.  
-  The trigger position has been saved.
+  All changes have been saved. The *Edit trigger for workflow "Workflow name"* window is closed.
 
   [comment]: <> (Kein Pop-up-Fenster/Bestätigung angezeigt. Die Änderung der Reihenfolge scheint noch nicht einwandfrei zu funktionieren. Anscheinend muss man die Triggers zusammenklappen, damit man sie überhaupt bewegen kann. Danach reagiert das Fenster aber nicht mehr.)
+
 
 
 ## Delete a trigger
@@ -190,18 +191,19 @@ You can delete a trigger that is no longer relevant.
 
 #### Prerequisites
 
-A trigger has been created, see [Create a trigger](#create-a-trigger).
+At least one trigger has been created, see [Create a trigger](#create-a-trigger).
 
 #### Procedure
 
+*Workflows > Workflows > Tab OVERVIEW > Button Add > Button CREATE > Button Points > Menu entry Triggers*     
 *Workflows > Workflows > Tab OVERVIEW > Select a workflow > Select a workflow version > Button Points > Menu entry Triggers*
 
-![Triggers](../../Assets/Screenshots/ActindoWorkFlow/Workflows/EditTrigger04.png "[Triggers]")
+![Triggers](../../Assets/Screenshots/ActindoWorkFlow/Workflows/EditTriggerMultipleTriggers.png "[Triggers]")
 
 1. Click the ![Delete](../../Assets/Icons/Trash08.png "[Delete]") (Delete) button to the right of the trigger to be deleted.  
   The trigger and all corresponding conditions are removed from the list.
 
 2. Click the [APPLY CHANGES] button.  
-  The trigger has been deleted.
+  The trigger has been deleted. The *Edit trigger for workflow "Workflow name"* window is closed.
 
 [comment]: <> (Kein Pop-up-Fenster/Keine Bestätigung angezeigt. Trigger kann man nicht löschen. Stand 20.09.22)

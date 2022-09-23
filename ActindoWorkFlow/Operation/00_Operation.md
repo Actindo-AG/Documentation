@@ -23,3 +23,10 @@
   - [Check the process status](./02_TrackWorkflowProcess.md#check-the-process-status)
   - [Check the process action status](./02_TrackWorkflowProcess.md#check-the-process-action-status)
   - [Check the token status and content](./02_TrackWorkflowProcess.md#check-the-token-status-and-content)
+
+
+- [Manage the triggers](./03_ManageTriggers.md)
+  - [Create a trigger](./03_ManageTriggers.md#create-a-trigger)
+  - [Add a condition](./03_ManageTriggers.md#add-a-condition)
+  - [Edit a trigger](./03_ManageTriggers.md#edit-a-trigger)
+  - [Delete a trigger](./03_ManageTriggers.md#delete-a-trigger)
