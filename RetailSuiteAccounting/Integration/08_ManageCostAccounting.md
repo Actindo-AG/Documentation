@@ -22,26 +22,26 @@ A fiscal year has been selected, see [Select the fiscal year](../Operation/01_Se
 
 #### Procedure
 
-*Accounting > Settings > Tab COST ACCOUNTING > Drop-down option Cost1 - Cost center*
+*Accounting > Settings > Tab COST ACCOUNTING*
 
 ![Cost 1 - Cost center](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CostAccounting/CostAccounting01.png "[Cost 1 - Cost center]")
 
 1. Click the *Cost accounting* left and middle drop-down lists and select the desired fiscal year and posting period.
 
-2. Enter a number in the *Cost center* field.  
+2. Enter a number in the *Cost center* field in the bottom input lines.  
 
-  > [Info] If a number is entered that is already in used, an error message is displayed.
+  > [Info] If a number is entered that is already in use, an error message is displayed.
 
-3. Enter a name in the *Description* field.  
+3. Enter a name for the cost center in the *Description* field.  
 
 4. If desired, enter any additional information in the *Text* field.
 
 5. If desired, click the *Inactive* radio button to deactivate the cost center temporarily. By default, the radio button is set to *Active*. The inactive cost center is then locked for postings.
 
-  > [Info] If a cost object has already been posted to or allocated to a cost center, it cannot be set to inactive. A warning message is then displayed.
+  > [Info] If a cost object has already been posted to or allocated to a cost center,  the cost center cannot be deactivated. A warning message is then displayed.
 
 6. Click the [SAVE & NEW] button.  
-A small pop-up window confirms that the new cost center has been saved. The new cost center is displayed in the list.
+The *Saved* pop-up window is displayed. The cost center has been saved and is displayed in the list.
 
   ![Saved](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CostAccounting/Saved.png "[Saved]")
 
@@ -50,7 +50,7 @@ A small pop-up window confirms that the new cost center has been saved. The new 
 
 You can edit a cost center, for example if it needs to be deactivated.  
 
-  > [Note] Be aware that any changes made to a cost center may have consequences for the posting process.
+  > [Caution] Be aware that any changes made to a cost center may have consequences for the posting process.
 
 #### Prerequisites
 
@@ -59,11 +59,15 @@ You can edit a cost center, for example if it needs to be deactivated.
 
 #### Procedure
 
-*Accounting > Settings > Tab COST ACCOUNTING > Drop-down option Cost1 - Cost center*
+*Accounting > Settings > Tab COST ACCOUNTING*
 
 ![Cost 1 - Cost center](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CostAccounting/CostAccounting01.png "[Cost 1 - Cost center]")
 
-1. Click the *Cost accounting* left and middle drop-down lists and select the desired fiscal year and posting period.
+1. In the header, configure the following options:
+  - Click the left *Cost accounting* drop-down list and select the desired fiscal year. All available fiscal years are displayed.   
+  - Click the middle *Cost accounting* drop-down list and select the desired posting period. All available posting periods are displayed.
+  - Click the right *Cost accounting* drop-down list and select the **Cost 1 - cost center** option. 
+  All existing cost centers are displayed in the list below. The input lines at the bottom are displayed for a cost center.
 
 2. Select the cost center to be edited in the list.  
 The cost center details are displayed in the input fields.
@@ -73,16 +77,14 @@ The cost center details are displayed in the input fields.
   > [Info] The cost center number cannot be changed. If you try to change the number, a new cost center will be created and added to the list.
 
 4. Click the [SAVE] button.  
-A small pop-up window confirms that the edited cost center has been saved. The edited cost center is displayed in the list.
+The *Saved* pop-up window is displayed. All changes have been saved. The edited cost center is displayed in the list.
 
   ![Saved](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CostAccounting/Saved.png "[Saved]")
 
 
 ##  Delete a cost center
 
-You can delete a cost center, for example if it is no longer applicable.
-
- > [Info] If a date is displayed in the *Active from* column, it means that the cost center is currently being used and, therefore, cannot be deleted.
+You can delete a cost center, for example if it is no longer applicable.  If a date is displayed in the *Active from* column, the cost center is currently being used and, therefore, cannot be deleted.
 
 #### Prerequisites
 
@@ -91,11 +93,15 @@ You can delete a cost center, for example if it is no longer applicable.
 
 #### Procedure
 
-*Accounting > Settings > Tab COST ACCOUNTING > Drop-down option Cost1 - Cost center*
+*Accounting > Settings > Tab COST ACCOUNTING*
 
 ![Cost 1 - Cost center](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CostAccounting/CostAccounting01.png "[Cost 1 - Cost center]")
 
-1. Click the *Cost accounting* left and middle drop-down lists and select the desired fiscal year and posting period.  
+1. In the header, configure the following options:
+  - Click the left *Cost accounting* drop-down list and select the desired fiscal year. All available fiscal years are displayed.   
+  - Click the middle *Cost accounting* drop-down list and select the desired posting period. All available posting periods are displayed.
+  - Click the right *Cost accounting* drop-down list and select the **Cost 1 - cost center** option. 
+  All existing cost centers are displayed in the list below. The input lines at the bottom are displayed for a cost center. 
 
 2. Select the cost center to be deleted in the list.  
 The cost center details are displayed in the input fields.
@@ -103,7 +109,7 @@ The cost center details are displayed in the input fields.
   > [Note] Be aware that the cost center will be deleted permanently.
 
 3. Click the [DELETE] button.  
-A small pop-up window confirms that the cost center has been deleted. The deleted cost center is no longer displayed in the list.
+The *Deleted* pop-up window is displayed. The cost center has been deleted and is removed from the list.
 
   ![Deleted](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CostAccounting/Deleted.png "[Deleted]")
 
@@ -118,17 +124,21 @@ A fiscal year has been selected, see [Select the fiscal year](../Operation/01_Se
 
 #### Procedure
 
-*Accounting > Settings > Tab COST ACCOUNTING > Drop-down option Cost2 - Cost object*
+*Accounting > Settings > Tab COST ACCOUNTING*
 
 ![Cost 2 - Cost object](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CostAccounting/CostAccounting02.png "[Cost 2 - Cost object]")
 
-1. Click the *Cost accounting* left and middle drop-down lists and select the desired fiscal year and posting period.
+1. In the header, configure the following options:
+  - Click the left *Cost accounting* drop-down list and select the desired fiscal year. All available fiscal years are displayed.   
+  - Click the middle *Cost accounting* drop-down list and select the desired posting period. All available posting periods are displayed.
+  - Click the right *Cost accounting* drop-down list and select the **Cost 2 - cost object** option. 
+  All existing cost objects are displayed in the list below. The input lines at the bottom are displayed for a cost object.
 
-2. Enter a number in the *Cost object* field.  
+2. Enter a number in the *Cost object* field in the bottom input lines.  
 
-  > [Info] If a number is entered that is already in used, an error message is displayed.
+  > [Info] If a number is entered that is already in use, an error message is displayed.
 
-3. Enter a name in the *Description* field.  
+3. Enter a name for the cost object in the *Description* field.  
 
 4. If desired, enter any additional information in the *Text* field.
 
@@ -140,10 +150,10 @@ A fiscal year has been selected, see [Select the fiscal year](../Operation/01_Se
 
 7. If desired, click the *Inactive* radio button to deactivate the cost object temporarily. By default, the radio button is set to *Active*. The inactive cost object is then locked for postings.
 
- > [Info] If a cost object has already been posted to or allocated to a cost center, it cannot be set to inactive. A warning message is then displayed.
+ > [Info] If a cost object has already been posted to or allocated to a cost center, the cost object cannot be deactivated. A warning message is then displayed.
 
 8. Click the [SAVE & NEW] button.  
-A small pop-up window confirms that the new cost object has been saved. The new cost object is displayed in the list.
+The *Saved* pop-up window is displayed. The cost object has been saved and is displayed in the list.
 
   ![Saved](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CostAccounting/Saved.png "[Saved]")
 
@@ -152,20 +162,24 @@ A small pop-up window confirms that the new cost object has been saved. The new 
 
 You can edit a cost object, for example if it needs to be deactivated.  
 
-  > [Note] Be aware that any changes made to a cost object may   have consequences for the posting process.
+  > [Caution] Be aware that any changes made to a cost object may have consequences for the posting process.
 
 #### Prerequisites
 
 - A fiscal year has been selected, see [Select the fiscal year](../Operation/01_SelectFiscalYear.md).
-- A cost object has been created, see [Create a cost object](#create-a-cost-unit).
+- A cost object has been created, see [Create a cost object](#create-a-cost-object).
 
 #### Procedure
 
-*Accounting > Settings > Tab COST ACCOUNTING > Drop-down option Cost2 - Cost object*
+*Accounting > Settings > Tab COST ACCOUNTING*
 
 ![Cost 2 - Cost object](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CostAccounting/CostAccounting02.png "[Cost 2 - Cost object]")
 
-1. Click the *Cost accounting* left and middle drop-down lists and select the desired fiscal year and posting period.
+1. In the header, configure the following options:
+  - Click the left *Cost accounting* drop-down list and select the desired fiscal year. All available fiscal years are displayed.   
+  - Click the middle *Cost accounting* drop-down list and select the desired posting period. All available posting periods are displayed.
+  - Click the right *Cost accounting* drop-down list and select the **Cost 2 - cost object** option. 
+  All existing cost objects are displayed in the list below. The input lines at the bottom are displayed for a cost object.
 
 2. Select the cost object to be edited in the list.  
   The cost object details are displayed in the input fields.
@@ -177,31 +191,35 @@ You can edit a cost object, for example if it needs to be deactivated.
 [comment]: <> (Vielleicht ist das ein Bug? Komisches Verhalten. Wie soll es funktionieren? RS FH)
 
 4. Click the [SAVE] button.  
-A small pop-up window confirms that the edited cost object has been saved. The edited cost object is displayed in the list.
+The *Saved* pop-up window is displayed. All changes have been saved. The edited cost object is displayed in the list.
 
   ![Saved](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CostAccounting/Saved.png "[Saved]")
 
 
 ##  Delete a cost object
 
-You can delete a cost object, for example if it is no longer applicable.
+You can delete a cost object, for example if it is no longer applicable. If a posting period is displayed in the *Active from* column, it means that the cost object has been posted to and, therefore, cannot be deleted. A warning message with the notice "The cost object (number) cannot be deleted: it is distributed to the cost center/cost object" is displayed.
 
-  > [Info] If a posting period is displayed in the *Active from* column, it means that the cost object has been posted to and, therefore, cannot be deleted. A warning message with the notice "The cost object (number) cannot be deleted: it is distributed to the cost center/cost object" is displayed.
+  
 
   [comment]: <> (Check, warum / warum nicht kann man das löschen... In Verteilungstabelle? Mit Buchungen verlinkt? Auch wenn keine "Aktiv ab" angezeigt, bekommt man eine Fehlermeldung.)
 
 #### Prerequisites
 
 - A fiscal year has been selected, see [Select the fiscal year](../Operation/01_SelectFiscalYear.md).
-- A cost object has been created, see [Create a cost object](#create-a-cost-unit).
+- A cost object has been created, see [Create a cost object](#create-a-cost-object).
 
 #### Procedure
 
-*Accounting > Settings > Tab COST ACCOUNTING > Drop-down option Cost2 - Cost object*
+*Accounting > Settings > Tab COST ACCOUNTING*
 
 ![Cost 2 - Cost object](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CostAccounting/CostAccounting02.png "[Cost 2 - Cost object]")
 
-1. Click the *Cost accounting* left and middle drop-down lists and select the desired fiscal year and posting period.  
+1. In the header, configure the following options:
+  - Click the left *Cost accounting* drop-down list and select the desired fiscal year. All available fiscal years are displayed.   
+  - Click the middle *Cost accounting* drop-down list and select the desired posting period. All available posting periods are displayed.
+  - Click the right *Cost accounting* drop-down list and select the **Cost 2 - cost object** option. 
+  All existing cost objects are displayed in the list below. The input lines at the bottom are displayed for a cost object.  
 
 2. Select the cost object to be deleted in the list.  
 The cost object details are displayed in the input fields.
@@ -209,6 +227,6 @@ The cost object details are displayed in the input fields.
   > [Note] Be aware that the cost object will be deleted permanently.
 
 3. Click the [DELETE] button.  
-A small pop-up window confirms that the cost object has been deleted. The deleted cost object is no longer displayed in the list.
+The *Deleted* pop-up window is displayed. The cost object has been deleted and is removed from the list.
 
   ![Deleted](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CostAccounting/Deleted.png "[Deleted]")
