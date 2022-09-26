@@ -1,8 +1,8 @@
-[!!Accounting](../../RetailSuiteAccounting/Overview/01_General.md)  
-[!!User Interface Tax zones](../UserInterface/01d_TaxZones.md)  
-[!!Manage the tax rates](./01_ManageTaxRates.md)  
-[!!Manage the tax classes](./02_ManageTaxClasses.md)  
-[!!Manage the decision matrix](../Operation/01_ManageDecisionMatrix.md)  
+[!!Accounting](../../RetailSuiteAccounting/Overview/01_General.md)
+[!!User Interface Tax zones](../UserInterface/01d_TaxZones.md)
+[!!Manage the tax rates](./01_ManageTaxRates.md)
+[!!Manage the tax classes](./02_ManageTaxClasses.md)
+[!!Manage the decision matrix](../Operation/01_ManageDecisionMatrix.md)
 
 
 # Manage the tax zones

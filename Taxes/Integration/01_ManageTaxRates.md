@@ -1,7 +1,7 @@
-[!!Accounting](../../RetailSuiteAccounting/Overview/01_General.md)  
-[!!User Interface Tax rates](../UserInterface/01a_TaxRates.md)  
-[!!Manage the tax classes](./02_ManageTaxClasses.md)  
-[!!Manage the tax zones](./03_ManageTaxZones.md)  
+[!!Accounting](../../RetailSuiteAccounting/Overview/01_General.md)
+[!!User Interface Tax rates](../UserInterface/01a_TaxRates.md)
+[!!Manage the tax classes](./02_ManageTaxClasses.md)
+[!!Manage the tax zones](./03_ManageTaxZones.md)
 
 # Manage the tax rates
 
