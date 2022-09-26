@@ -94,8 +94,6 @@ This section is only displayed when a driver has been selected in the *Driver* d
 
 **Credentials**
 
-![Credentials](../../Assets/Screenshots/Cloudinary/Settings/Credentials.png "[Credentials]")
-
 - *Cloud name*   
   Click this field to edit the cloud name from the Cloudinary account to which you want to establish a connection. The cloud name is displayed on the dashboard of your Cloudinary account.
 
