@@ -1,4 +1,4 @@
-[!!Accounting](RetailSuiteAccounting)  
+[!!Accounting](../../RetailSuiteAccounting/Overview/01_General.md)  
 [!!User Interface Tax classes](../UserInterface/01c_TaxClasses.md)  
 [!!Manage the tax rates](./01_ManageTaxRates.md)  
 
@@ -6,7 +6,7 @@
 
 A tax class is assigned to each product. The tax class is determined by the competent tax authorities of the territory where the product is to be taxed.
 
-There are two main tax classes in most territories: the standard and the reduced tax rate class. However, there can also be special taxes, such as super-reduced or zero taxes. Tax classes can be created, edited and deleted if necessary.
+There are two main tax classes in most territories: the standard and the reduced tax rate class. However, there can also be special taxes, such as super-reduced or zero taxes. Tax classes can be created, edited and deleted if necessary.   
 For many products the applicable tax class is the same in every tax zone. If special cases exist for your setup where the tax class differs in relevant regions, you may need to create additional tax classes that are mapped to the correct tax keys for each tax zone.
 
 

@@ -1,4 +1,4 @@
-[!!Accounting](RetailSuiteAccounting)  
+[!!Accounting](../../RetailSuiteAccounting/Overview/01_General.md)  
 [!!User Interface Decision matrix](../UserInterface/01b_DecisionMatrix.md)  
 [!!Manage the tax rates](../Integration/01_ManageTaxRates.md)  
 [!!Manage the tax classes](../Integration/02_ManageTaxClasses.md)  
