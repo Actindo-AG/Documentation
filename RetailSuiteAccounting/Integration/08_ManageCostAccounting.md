@@ -26,7 +26,11 @@ A fiscal year has been selected, see [Select the fiscal year](../Operation/01_Se
 
 ![Cost 1 - Cost center](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CostAccounting/CostAccounting01.png "[Cost 1 - Cost center]")
 
-1. Click the *Cost accounting* left and middle drop-down lists and select the desired fiscal year and posting period.
+1. In the header, configure the following options:
+  - Click the left *Cost accounting* drop-down list and select the desired fiscal year. All available fiscal years are displayed.   
+  - Click the middle *Cost accounting* drop-down list and select the desired posting period. All available posting periods are displayed.
+  - Click the right *Cost accounting* drop-down list and select the **Cost 1 - cost center** option. 
+  All existing cost centers are displayed in the list below. The input lines at the bottom are displayed for a cost center.
 
 2. Enter a number in the *Cost center* field in the bottom input lines.  
 
