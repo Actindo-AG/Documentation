@@ -5,6 +5,6 @@
   - [Import a Cloudinary file to PIM](./01_ManageCloudinaryFiles.md#import-a-cloudinary-file-to-pim)
   - [Remove a Cloudinary file assignment in PIM](./01_ManageCloudinaryFiles.md#remove-a-cloudinary-file-assignement-in-pim)
 
-- [Map a Cloudinary file](./02_CloudinaryMapping)
-  - [Map a Cloudinary source attribute](./02_CloudinaryMapping#map-a-cloudinary-source-attribute)
-  - [Map a Cloudinary destination attribute](./02_CloudinaryMapping#map-a-cloudinary-destination-attribute)
+- [Map a Cloudinary file](./02_CloudinaryMapping.md)
+  - [Map a Cloudinary source attribute](./02_CloudinaryMapping.md#map-a-cloudinary-source-attribute)
+  - [Map a Cloudinary destination attribute](./02_CloudinaryMapping.md#map-a-cloudinary-destination-attribute)

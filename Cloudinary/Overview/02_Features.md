@@ -1,4 +1,4 @@
-metadata# Key features
+# Key features
 
 Media file management with Cloudinary:
 
