@@ -1,5 +1,3 @@
-[!!Workflows](ActindoWorkFlow)
-
 # Dashboard
 *Workflows > Overview > Tab DASHBOARDS*
 

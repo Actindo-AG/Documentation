@@ -1,5 +1,3 @@
-[!!Workflows](ActindoWorkFlow)
-
 # Process Actions
 
 *Workflows > Process Actions*

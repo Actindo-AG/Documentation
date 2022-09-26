@@ -1,5 +1,3 @@
-[!!Workflows](ActindoWorkFlow)
-
 # Overview
 
 *Workflows > Logs > Tab OVERVIEW*

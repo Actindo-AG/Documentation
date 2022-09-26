@@ -1,6 +1,5 @@
-[!!Workflows](ActindoWorkFlow)
-
 # Overview
+
 *Workflows > Queue Types > Tab OVERVIEW*
 
 ![Queue types](../../Assets/Screenshots/ActindoWorkFlow/QueueTypes/Overview.png "[Queue types]")
