@@ -13,7 +13,7 @@ Successfully digitize your point of sale:
 - Central data management   
   With automatic data storage and retention, the *Venduo POS* module generates your sales, personnel, and customer data and makes it available centrally on the platform. This way, product data and customer purchasing behavior can be viewed holistically and evaluated more efficiently.  
 
-- Direct link to accounting and invoicing    
+- Direct link to *Accounting* and *Order management*    
   All sales data including products, turnover and means of payment from your cash registers are transmitted directly and in real time to accounting and billing in the *Actindo Core1 Platform*. Orders and returns from stores are thus displayed together with your online channels.  
 
 - Independence through cloud POS    

@@ -13,13 +13,13 @@ For detailed information about the specific settings, see [Global Settings](../U
 
 Before creating a new store in the POS system, you should configure the following settings:
 
-- [Configure a default customer](#configure-a-default-customer) to establish a connection to invoicing which will be added as billing address to all future POS bills.
+- [Configure a default customer](#configure-a-default-customer) whose billing address will be added to all future POS bills to establish a connection to the *Order management* module.
 - [Configure the VAT-ID in POS](#configure-the-VAT-ID-in-POS) for the printing on receipts, which is mandatory in most countries.
 
 
 ## Configure a default customer
 
-To connect the POS system with the invoicing, an invoice address has to be defined for all occasion customers.   
+To connect the POS system with the *Order management* module, an invoice address has to be defined for all occasion customers.   
 Further, a delivery address and an invoice address should be indicated on every receipt created in the POS system. To specify a invoice address for occasion customers, a default customer must be created. The data of this default customer is used for all occasion customers.
 
 #### Prerequisites
@@ -77,16 +77,16 @@ No prerequisites to fulfill.
 
 By default, the payment methods debit card, credit card and paypal are predefined for the POS system. You can add several other payment methods that are predefined in the system, or you define a custom payment method for the POS system.
 
-### Create a payment method in Invoicing
+### Create a payment method in Order management
 
-If the existing payment methods in *Venduo POS* are not appropriate for your special needs, you can create a custom payment method. Therefore, you have to create a new payment method in the *Invoicing* module first.
+If the existing payment methods in *Venduo POS* are not appropriate for your special needs, you can create a custom payment method. Therefore, you have to create a new payment method in the *Order management* module first.
 
 #### Prerequisites
 
 No prerequisites to fulfill.
 
 #### Procedure
-*Invoicing > Settings > Tab PAYMENT METHOD(S)*
+*Order management > Settings > Tab PAYMENT METHOD(S)*
 
 ![Payment method](../../Assets/Screenshots/RetailSuiteFaktBase/Settings/PaymentMethods/PaymentMethods.png "[Payment methods]")
 
@@ -104,16 +104,16 @@ No prerequisites to fulfill.
 
   ![Saving](../../Assets/Screenshots/RetailSuiteFaktBase/Settings/PaymentMethods/Saving.png "[Saving]")
 
-  When the window is closed, the new payment method is saved in Invoicing. The new payment method is displayed in the list of payment methods in the *PAYMENT METHOD(S)* tab.
+  When the window is closed, the new payment method is saved in the *Order management* module. The new payment method is displayed in the list of payment methods in the *PAYMENT METHOD(S)* tab.
 
 
 ### Create a payment method in POS
 
-If the existing payment methods in *Venduo POS* are not appropriate for your special needs, you can create a custom payment method. Therefore, you have to create a new payment method in the *Venduo POS* module based on the payment method created in the *Invoicing* module.
+If the existing payment methods in *Venduo POS* are not appropriate for your special needs, you can create a custom payment method. Therefore, you have to create a new payment method in the *Venduo POS* module based on the payment method created in the *Order management* module.
 
 #### Prerequisites
 
-A payment method has been created in the *Invoicing* module, see [Create a payment method in Invoicing](#create-a-payment-method-in-invoicing).
+A payment method has been created in the *Order management* module, see [Create a payment method in Order management](#create-a-payment-method-in-order-management).
 
 #### Procedure
 *Venduo POS > Management > Tab GLOBAL SETTINGS*
@@ -132,7 +132,7 @@ A payment method has been created in the *Invoicing* module, see [Create a payme
 
 4. Enter a name for the payment method in POS in the *Name* field.   
 
-    > [Info] The name of the payment method in POS can differ from the name of the payment method in the *Invoicing* module. It is only necessary that the ID of the payment method in *Venduo POS* and *Invoicing* match.
+    > [Info] The name of the payment method in POS can differ from the name of the payment method in the *Order management* module. It is only necessary that the ID of the payment method in *Venduo POS* and *Order management* match.
 
 5. Click the [Save] button in the upper right corner.   
     The new payment method is saved in POS.
@@ -142,7 +142,7 @@ A payment method has been created in the *Invoicing* module, see [Create a payme
 
 #### Prerequisites
 
-- A payment method has been created in the *Invoicing* module, see [Create a payment method in Invoicing](#create-a-payment-method-in-invoicing).
+- A payment method has been created in the *Order management* module, see [Create a payment method in Order management](#create-a-payment-method-in-order-management).
 - A payment method has been created in the *Venduo POS* module, see [Create a payment method in POS](#create-a-payment-method-in-pos).
 
 #### Procedure
@@ -163,7 +163,7 @@ A payment method has been created in the *Invoicing* module, see [Create a payme
 4. Click the *Source attribute* drop-down list in the *Settings* section and select the **Payment methods** option.   
     The mapping table for the selected mapping is displayed in the *Configuration* section.
 
-5. Search for the invoicing name of the new payment method in the *Source value* column, click the drop-down list in the same row in the *Destination value* column and select the Venduo POS name of the new payment method.
+5. Search for the *Order management* name of the new payment method in the *Source value* column, click the drop-down list in the same row in the *Destination value* column and select the *Venduo POS* name of the new payment method.
 
 6. Click the [SAVE] button in the upper right corner.   
     The *Submitting data...* message is displayed in the right part of the *Mapping* view. The mapping is saved, when nothing is displayed in the right part of the *Mapping* view.

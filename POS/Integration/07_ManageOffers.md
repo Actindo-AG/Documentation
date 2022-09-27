@@ -10,6 +10,7 @@
 
 To to offer products in Venduo POS, it is recommended to create the products in advance and create the corresponding offers afterwards in order to be able to distribute them properly in the system.
 
+
 ## Create products for POS
 
 To create an offer for POS, it is recommended to create products for which you can make an offer.
@@ -53,13 +54,10 @@ No prerequisites to fulfill.
 
 
 
-
 ## Create a product type
 
 To improve the product classification, you can create a product type and use it in POS.   
 For detailed information on how to create a product type, see [Create a product type](../../PIM/Integration/02_ManageAttributeSets.md#create-an-attribute-set)
-
-
 
 ## Map a new product type in POS
 
@@ -91,7 +89,6 @@ The selected mappings are removed from the list when the mappings are created.
 ## Create an offer for POS
 
 Create an offer in the *Omni-Channel* module or the *PIM* module so you can offer and select the products in the *Venduo POS* store.
-
 
 ### Create an offer from a PIM product in Omni-Channel
 
