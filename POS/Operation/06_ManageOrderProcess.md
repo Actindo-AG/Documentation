@@ -1,8 +1,8 @@
-[!!Omni-Channel](Channels)
-[!!Invoicing](RetailSuiteFaktBase)
+[!!Omni-Channel](../../Channels/Overview/01_General.md)
+[!!Order management](../../RetailSuiteFaktBase/Overview/01_General.md)
 [!!User Interface Accounting sync](../UserInterface/02d_AccountingSync.md)
 [!!User Interface Omni-Channel](../../Channels/UserInterface/00_UserInterface.md)
-[!!User Interface Invoicing](../../RetailSuiteFaktBase/UserInterface/00_UserInterface.md)
+[!!User Interface Order management](../../RetailSuiteFaktBase/UserInterface/00_UserInterface.md)
 [!!Manage offers for POS](./07_ManageOffers.md)
 
 

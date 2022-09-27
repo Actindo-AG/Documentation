@@ -53,3 +53,4 @@
   - [Check the POS order status](./06_ManageOrderProcess.md#check-the-pos-order-status)
   - [Check the cash invoice](./06_ManageOrderProcess.md#check-the-cash-invoice)
   - [Check the payment](./06_ManageOrderProcess.md#check-the-payment)
+  

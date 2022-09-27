@@ -1,4 +1,4 @@
-[!!Printing](Printing)
+[!!Printing](../../Printing/Overview/01_General.md)
 [!!User Interface Printing](../../Printing/UserInterface/00_UserInterface.md)
 [comment]: <> (add link to Install the APS)
 
