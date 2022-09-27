@@ -160,8 +160,6 @@ At least one trigger has been created, see [Create a trigger](#create-a-trigger)
 
 Modify the position of one or more triggers to set the correct order for the triggers to be executed. The correct order of the triggers is crucial, as the system goes through the triggers in the order they are listed, starting from the top, and stops checking them as soon as a matching trigger is found. This means, that the triggers must be organized from specific to general to cover all possible relevant cases.
 
-[comment]: <> (Zu bearbeiten)
-
 #### Prerequisites
 
 At least two triggers have been created in the workflow version, see [Create a trigger](#create-a-trigger).
@@ -183,7 +181,7 @@ At least two triggers have been created in the workflow version, see [Create a t
 4. Click the [APPLY CHANGES] button.  
   All changes have been saved. The *Edit trigger for workflow "Workflow name"* window is closed.
 
-  [comment]: <> (Kein Pop-up-Fenster/Bestätigung angezeigt. Die Änderung der Reihenfolge scheint noch nicht einwandfrei zu funktionieren. Anscheinend muss man die Triggers zusammenklappen, damit man sie überhaupt bewegen kann. Danach reagiert das Fenster aber nicht mehr.)
+[comment]: <> (Die Änderung der Reihenfolge scheint noch nicht einwandfrei zu funktionieren. Anscheinend muss man die Triggers zusammenklappen, damit man sie überhaupt bewegen kann. Danach reagiert das Fenster aber nicht mehr.)
 
 
 
@@ -191,7 +189,7 @@ At least two triggers have been created in the workflow version, see [Create a t
 
 You can delete a trigger that is no longer relevant.
 
-  > [Note] Be aware that any deletion is permanent and cannot be undone. You can deactivate the trigger temporarily by changing status to *Inactive* in the *Status* drop-down list.
+> [Caution] Be aware that any deletion is permanent and cannot be undone. You can deactivate the trigger temporarily by changing status to *Inactive* in the *Status* drop-down list.
 
 #### Prerequisites
 
@@ -212,4 +210,4 @@ At least one trigger has been created, see [Create a trigger](#create-a-trigger)
 2. Click the [APPLY CHANGES] button.  
   The trigger has been deleted. The *Edit trigger for workflow "Workflow name"* window is closed.
 
-[comment]: <> (Kein Pop-up-Fenster/Keine Bestätigung angezeigt. Trigger kann man nicht löschen. Stand 20.09.22)
+[comment]: <> (Trigger kann man nicht löschen. Stand 20.09.22)
