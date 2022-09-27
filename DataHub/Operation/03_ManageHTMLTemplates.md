@@ -114,9 +114,11 @@ The *HTML Templates for ETL* plugin has been installed.
   - **entity**: Use the entity variable to include a variable referring to an attribute of a certain entity within the system, for instance *{$entity.id}*.
   - **tenant**: Use the tenant variable to include a variable referring to an attribute of the platform tenant, for instance *{$tenant.shortName}*.  
 
+  > [Info] The data fields of an entity you can refer to are described in the API documentation. To include a deeper level of the data field, enter a point *.* at a time, for instance *{$entity._pim_tax_zone.id}*.    
+
 3. If desired, include the destination language and/or the destination channel to the attribute variable value by adding the following suffixes at the end of the variable name:
   - *destination language*: Add **__LanguageKey** to include the destination language to the variable. Replace **LanguageKey** by the corresponding language key and note, that all signs must be replaced by a **_**, for instance, add **__de_DE** for the language key *de-DE*. Pay attention to upper and lower case as the variables are case sensitive.
-  - *destination language*: Add **__ChannelKey** to include the destination channel to the variable. Replace **ChannelKey** by the corresponding channel key and note, that all signs must be replaced by a **_**, for instance, add **__actindo_basic** for the language key *actindo_basic*. Pay attention to upper and lower case as the variables are case sensitive.
+  - *destination channel*: Add **__ChannelKey** to include the destination channel to the variable. Replace **ChannelKey** by the corresponding channel key and note, that all signs must be replaced by a **_**, for instance, add **__actindo_basic** for the channel key *actindo_basic*. Pay attention to upper and lower case as the variables are case sensitive.
 
   > [Info] You can display all possible variables of a certain entity. For detailed information, see [Display the possible variables](#display-the-possible-variables).
 
@@ -147,8 +149,11 @@ A tree node variable is a special type of variables that can be included via Sma
 1. Click the textarea and, if desired, edit or add the Smarty template(s) and/or HTML text for the template.
 
 2. Include a tree node variable by doing the following:
+  - Add **{datahub_translatable_value entity=$entity property="PropertyKey" languageKey=$languageKey entityTypeClassName="Actindo\Modules\Actindo\DataHub\Models\Tenant\TreeNode"}** to the textarea.
+  - Define the tree node attribute you want to include a variable for by adding the corresponding attribute key as a suffix to the entity variable.
+  - Replace **"PropertyKey"** between the quotes by the desired property key of the corresponding tree node variable.
 
-[comment]: <> (brauche noch mehr infos zu dieser Procedure - die Regeln oder die Maßnahmen, die man beachten muss, verstehe ich selbst noch nicht)
+[comment]: <> (stimmt das so? Muss der namespace immer der angegebene sein, oder variiert der auch?)
 
 3. If desired, display a [preview of the HTML template](#preview-an-html-template).
 
@@ -156,10 +161,13 @@ A tree node variable is a special type of variables that can be included via Sma
   The HTML template has been saved. The *HTML template* view is closed.  
 
 
+TreeNode:
+  {datahub_translatable_value entity=$entity._pim_billing_model.0 property="name" languageKey=$languageKey entityTypeClassName="Actindo\Modules\Actindo\DataHub\Models\Tenant\TreeNode"}
+
 
 ### Include language independent variables
 
-It is possible to define a varible in such a way, that it is language independent. The special rules to be followed to correctly include a language independent variable via Smarty templates into your HTML template are described below.
+It is possible to define a variable in such a way, that it is language independent. The special rules to be followed to correctly include a language independent variable via Smarty templates into your HTML template are described below.
 
 #### Prerequisites
 
@@ -176,8 +184,11 @@ The *HTML Templates for ETL* plugin has been installed.
 1. Click the textarea and, if desired, edit or add the Smarty template(s) and/or HTML text for the template.
 
 2. Include a language independent variable by doing the following:
+  - Add **{datahub_attribute_value entity=$entity attributeKey="attributeKey" scopeKey="scopeKey" languageKey=$languageKey}** to the textarea.
+  - Replace **"attributeKey"** between the quotes by the desired attribute key, for instance use **"pim_art_name"** for the PIM product name.
+  - Replace **"scopeKey"** between the quotes by the desired channel key, for instance use **"actindo_basic** for the *Actindo Basic* channel.
 
-[comment]: <> (brauche noch mehr infos zu dieser Procedure - die Regeln oder die Maßnahmen, die man beachten muss, verstehe ich selbst noch nicht)
+[comment]: <> (stimmt das so? geht das auch mit dem Channel so?)
 
 3. If desired, display a [preview of the HTML template](#preview-an-html-template).
 

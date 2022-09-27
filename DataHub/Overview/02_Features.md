@@ -3,7 +3,7 @@
 Intelligent Data Orchestration with the *DataHub* module
 
 - Central Data Processing   
-  As a central data hub, the *DataHub* module provides the basis for all modules of the Actindo Core1 Platform. This allows you to customize the necessary data fields in all modules and for all business processes to best suit your business model.  
+  As a central data hub, the *DataHub* module provides the basis for all modules of the *Actindo Core1 Platform*. This allows you to customize the necessary data fields in all modules and for all business processes to best suit your business model.  
 
 - Automated Data Transformation (ETL)   
   With the help of an integrated ETL system, data from different sources can be aggregated, standardized and transformed according to your individual requirements and application landscape. This makes it very easy to connect to external systems.   
@@ -18,13 +18,13 @@ Intelligent Data Orchestration with the *DataHub* module
 ## What is ETL?
 
 **Easy data exchange thanks to an integrated ETL function**   
-ETL stands for “Extract, Transform, Load” and describes the integration process in which data from one or more data sources is read, prepared and transferred to the central *DataHub* module. The goal is to prepare the integrated data for further processing and make it available for downstream processes and applications.   
+ETL stands for *Extract, Transform, Load* and describes the integration process in which data from one or more data sources is read, prepared and transferred to the central *DataHub* module. The goal is to prepare the integrated data for further processing and make it available for downstream processes and applications.   
 In practice, a data hub with ETL means less customization effort. Data can be sent from one or more third-party systems to the *DataHub* module in any format. The *DataHub* module takes over the data transformation and aggregation and sends the adapted information to the target system. In this way, product and order management can be simplified across all channels. New marketplaces can be flexibly connected, and existing legacy systems can be integrated into modern e-commerce environments.
 
 ##  The new way to modernize
 
 **Step-by-step transformation during ongoing operations**   
-Traditional IT strategies for modernizing the IT landscape include either the complete replacement of existing systems in a mammoth project or fragile, hard-to-maintain point-to-point connections between the old and the new systems. However, with the help of the *DataHub* module, legacy systems such as SAP R/3 or AS/400 can be connected to the Actindo Core1 platform and data can be transferred smoothly. This approach enables a step-by-step modernization of your IT as well as a rapid time-to-market. So instead of replacing the entire system landscape, retailers and brands can use a single integration to Actindo to make their entire inventory solution fit for the future of retail.  
+Traditional IT strategies for modernizing the IT landscape include either the complete replacement of existing systems in a mammoth project or fragile, hard-to-maintain point-to-point connections between the old and the new systems. However, with the help of the *DataHub* module, legacy systems such as SAP R/3 or AS/400 can be connected to the *Actindo Core1 Platform* and data can be transferred smoothly. This approach enables a step-by-step modernization of your IT as well as a rapid time-to-market. So instead of replacing the entire system landscape, retailers and brands can use a single integration to Actindo to make their entire inventory solution fit for the future of retail.  
 
 ## Actindo data accelerator hub
 
