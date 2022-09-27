@@ -29,4 +29,5 @@
   - [Create a trigger](./03_ManageTriggers.md#create-a-trigger)
   - [Add a condition](./03_ManageTriggers.md#add-a-condition)
   - [Edit a trigger](./03_ManageTriggers.md#edit-a-trigger)
+  - [Change the order of triggers](./03_ManageTriggers.md#change-the-order-of-triggers)
   - [Delete a trigger](./03_ManageTriggers.md#delete-a-trigger)

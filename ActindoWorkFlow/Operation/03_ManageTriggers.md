@@ -156,7 +156,7 @@ At least one trigger has been created, see [Create a trigger](#create-a-trigger)
 
 
 
-### Change the order of triggers
+## Change the order of triggers
 
 Modify the position of one or more triggers to set the correct order for the triggers to be executed. The correct order of the triggers is crucial, as the system goes through the triggers in the order they are listed, starting from the top, and stops checking them as soon as a matching trigger is found. This means, that the triggers must be organized from specific to general to cover all possible relevant cases.
 

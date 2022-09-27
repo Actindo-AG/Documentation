@@ -15,6 +15,7 @@
     - [New workflow](./02a_Workflows.md#new-workflow)
     - [Workflow versions](./02a_Workflows.md#workflow-versions)
     - [Workflow editor](./02a_Workflows.md#workflow-editor)
+    - [Edit trigger for workflow "Workflow name"](./02a_Workflows.md#edit-trigger-for-workflow-workflow-name)
     - [Import JSON](./02a_Workflows.md#import-json)
     - [Export JSON](./02a_Workflows.md#export-json)
     - [Search for an action](./02a_Workflows.md#search-for-an-action)

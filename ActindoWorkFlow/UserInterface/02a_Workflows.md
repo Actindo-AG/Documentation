@@ -304,7 +304,6 @@ Select the checkbox to display the editing toolbar.
 
 ## Edit trigger for workflow "Workflow name"  
 
-
 *Workflows > Workflows > Tab OVERVIEW > Button Add > Button CREATE > Button Points > Menu entry Triggers*    
 *Workflows > Workflows > Tab OVERVIEW > Select a workflow > Select a workflow version > Button Points > Menu entry Triggers*
 
