@@ -1,122 +1,115 @@
 # Account sheet
 
-The *ACCOUNT SHEET* tab displays a chronologically ordered list of all movements in a specific account. The information displayed in the account sheet view is read-only.
-
-
-## Account sheet view without account selection
-
-*Accounting > Post > Tab ACCOUNT SHEET*
-
-![Account sheet - no account selected](../../Assets/Screenshots/RetailSuiteAccounting/Book/AccountSheet/AccountSheetNoAccount.png "[Account sheet - no account selected]")
-
-When clicking the *ACCOUNT SHEET* tab, a blank tab and the notice "No account selected" may be displayed. An account must be selected to display the corresponding details. If a posting is selected in the *POSTINGS* tab, the details of the account specified in the *Contra Account* field are displayed in the *ACCOUNT SHEET* tab. If the *Contra Account* field is empty, the details of the account specified in the *Account* field are displayed.
-
-For detailed information about accessing an account sheet, see [Access the account sheet](../Operation/02_ReviewAccount.md#access-the-account-sheet).
-
-
-## Account sheet view with account selection
-
 *Accounting > Post > Tab ACCOUNT SHEET*
 
 ![Account sheet](../../Assets/Screenshots/RetailSuiteAccounting/Book/AccountSheet/AccountSheet.png "[Account sheet]")
 
-- *Fiscal year XXXX/Month X/Journal X*  
-This text displays the fiscal year, month and journal currently selected. This information is read-only.
+The *ACCOUNT SHEET* tab displays a chronologically ordered list of all movements in a specific account.   
 
-  > [Info] If the fiscal year or the posting period need to be changed, click the [FY/MONTH/JOURNAL] button to display the select fiscal year window. For detailed information, see [Fiscal year](./00a_FiscalYear.md) and [Select a fiscal year](../Operation/01_SelectFiscalYear.md).
+An account and/or contra account must be selected to display the corresponding details. Otherwise, the notice *No account selected* is displayed.    
 
-- ![Left arrow](../../Assets/Icons/Back02.png "[Left arrow]") (Left arrow)   
-Click this arrow to open the *Post extras* side bar. For detailed information about searching in the *Accounting* module, see [Search in accounting](../Operation/14_SearchAccounting.md).
+You can either select an account in the *POSTINGS* tab and switch to the *ACCOUNT SHEET* tab or directly enter an account and/or contra account number in the input line in the bottom. For detailed information about accessing an account sheet, see [Access the account sheet](../Operation/02_ReviewAccount.md#access-the-account-sheet).  
 
-- ![Previous](../../Assets/Icons/Previous.png "[Previous]")  *Scroll* ![Next](../../Assets/Icons/Next.png "[Next]")  
-Your can use the arrow buttons to scroll through the available accounts to search for a specific one. Alternatively, you can enter an account number in the input line.
+If a contra account number is specified in the *Contra account* field of the input line, the account sheet for the corresponding contra account is displayed. If no contra account number is entered, but an account number is specified in the *Account* field of the input line, the account sheet for the corresponding account is displayed.
 
-- *Account sheet for account (account number) (account name)*  
-The number and name of the selected account are displayed.
+[comment]: <> (Verweis auf Header.md)
+
+- ![Previous](../../Assets/Icons/Previous.png "[Previous]") (Previous)
+  Click this button to display the account sheet of the previous available account number.
+
+- ![Next](../../Assets/Icons/Next.png "[Next]") (Next)
+  Click this button to display the account sheet of the next available account number.
+
+
+**Account sheet for account**   
+
+The list displays all postings for the selected account whose number and name are specified in the list's title. All fields are read-only.
 
 - *Date*  
-This column displays the posting date. The valid date format is DDMMYY.
+  Posting date. The valid date format is DDMMYY.
 
-- *BP*  
-This column displays the posting period (month).
+- *PP*  
+  Month number of the posting period.
 
 - *Jnl*  
-This column displays the journal.
+  Journal number of the posting period.
 
 - *Contra account*  
-This column displays the contra account number.
+  Contra account number.
 
 - *Tax key*  
-This column displays the tax key linked to the contra account.
+  Tax key applied to the posting.
 
 - *Receipt 1*  
-This column displays the receipt 1 value, usually the invoice number.
-
-  > [Info] The information provided in the *Receipt 1* field is essential, as the system identifies and groups together any subsequent postings taking this field as reference, for example for an invoice settlement or a credit note in case of refund.
+  Receipt 1 value, usually the invoice number. The information provided in this field is essential, as the system identifies and groups together any subsequent postings taking this field as reference, for example for an invoice settlement or a credit note in case of refund.
 
 - *Receipt 2*  
-This column displays the receipt 2 value, which can be any other reference number, such as the order number.
+  Receipt 2 value, which can be any other reference number, such as the order number.
 
 - *Cost 1*  
-This column displays the cost center number selected.
-
-  > [Info] This is only applicable if at least one cost center has been set up. For detailed information, see [COST ACCOUNTING](./02e_CostAccounting.md).
+  Number of the selected cost center. This field is only applicable if at least one cost center has been set up. For detailed information, see [COST ACCOUNTING](./02e_CostAccounting.md).
 
 - *Cost 2*  
-This column displays the cost unit number selected.
-
-  > [Info] This is only applicable if at least one cost unit has been set up. For detailed information, see [COST ACCOUNTING](./02e_CostAccounting.md).
+  Number of the selected cost object. This field is only applicable if at least one cost object has been set up. For more details, see [COST ACCOUNTING](./02e_CostAccounting.md).
 
 - *Debit*  
-This column displays the debit amount of the selected account.
+  Debit amount of the selected account.
 
 - *Credit*  
-This column displays the credit amount of the selected account.
+  Credit amount of the selected account.
 
 - *(Unnamed column)*
-This column displays a ![B](../../Assets/Icons/Beleg.png "[B]") icon if a receipt has been linked to the posting. When clicking the icon, the linked receipt is displayed in the *Attached document* window. For detailed information, see [Attached document](#attached-document).
+  Indication of whether a receipt has been linked to the posting. If a receipt has been linked to the posting, the ![B](../../Assets/Icons/Beleg.png "[B]") (B) button is displayed. Click the button to display the corresponding receipt in the *Attached document* window. For detailed information, see [Attached document](#attached-document).
 
 - *Text*  
-This column displays the posting text, if any has been entered.
+  Posting text.
 
 - *Total turnover (currency)*  
-This field displays the total turnover of the selected account and its currency.
+  Total turnover of the selected account in the specified currency.
 
 - *Balance (currency)*  
-This field displays the balance of the selected account and its currency.
+  Balance of the selected account in the specified currency.
 
+- ![Radio button](../../Assets/Icons/Radiobutton02.png "[Radio button]") *All months*  
+  Select this radio button to display the balances for all months.
 
-- *All months*  
-Click this radio button to display the postings contained in the account sheet for all months.
-
-- *Only this month*  
-Click this radio button to display the postings contained in the account sheet only for the selected month.
+- ![Radio button](../../Assets/Icons/Radiobutton02.png "[Radio button]")  *Only this month*  
+  Select this radio button to display the balances only for the selected month.
 
 - *Show (all/the last [XXX]) postings*    
-Click the drop-down list to select the preferred display filter.
+  Click the drop-down list to select the preferred display filter.
 
 
 ### Attached document
 
-*Accounting > Post > Tab ACCOUNT SHEET > Select icon B*
+[comment]: <> (HG: vgl. 01_Book
+-> vielleicht reicht auch ein Verweis auf das entsprechende Kapitel)
+
+*Accounting > Post > Tab ACCOUNT SHEET > Button B*
 
 ![Attached document](../../Assets/Screenshots/RetailSuiteAccounting/Book/Bookings/AttachedDocument.png "[Attached document]")
 
-
 - ![Previous](../../Assets/Icons/Previous.png "[Previous]") *Document* ![Next](../../Assets/Icons/Next.png "[Next]")   
-These buttons can be used to scroll through the documents. In this case, they do not have a real function, as there is only one document (or receipt) assigned to a posting.
+  These buttons do not have any function here, as there is only one document (or receipt) assigned to a posting.
+
+[comment]: <> (These buttons do have a function in "BELEGE BUCHEN/BOOK RECEIPTS". Add info? Link?)
 
 - ![First page](../../Assets/Icons/FirstPage02.png "[Previous]") ![First page](../../Assets/Icons/Previous.png "[Previous]") *Page [x]* ![Next](../../Assets/Icons/Next.png "[Next]")  
-The current page number is displayed. These buttons can be used to scroll through the pages. In this case, they do not have a real function, as there is only one document (or receipt) assigned to a posting.
+  The current page number is displayed. Click the arrow first page/previous/next buttons to scroll through the pages.
 
 - (-) *Zoom* (+)  
-Click the -/+ buttons to zoom in and out of the document view.
+  Click the -/+ buttons to zoom in and out of the document view.
 
 - *Download file*  
-Click this button to download the document.
+  Click this button to download the document.
+
+[comment]: <> (HG: vgl. 01_Book)
 
 - [CANCEL ASSIGNMENT]  
-Click this button to undo the receipt assignment if necessary.
+  Click this button to unassign the receipt from the selected posting. The *Attached document* window is closed.
 
 - [CLOSE]  
-Click this button to close the window.
+  Click this button to close the *Attached document* window.
+
+
+[comment]: <> (Verweis auf Input line muss noch rein -> ggf. input line als eigenen header in 01a_Bookings oder ebenso wie die anderen Funktionen in separatem Dokument, damit man darauf verweisen kann.)
