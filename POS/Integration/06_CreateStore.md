@@ -418,9 +418,9 @@ In the pay desk details, you give some detailed information about the pay desk. 
 
 
 
-## Select a printer
+## Define a printer
 
-You have to select a printer for the printing of receipts.
+You have to define a printer for the printing of receipts.
 
 #### Prerequisites
 
@@ -540,7 +540,6 @@ Assign a stock source to manage the store stock. The stock source specifies how 
 
 ### Create a stock attribute
 
-
 #### Prerequisites
 
 No prerequisites to fulfill.
@@ -657,6 +656,7 @@ You may assign the same accounts to all stores or you may assign different accou
   This means that the accounts specified in the pay desks admin settings are always used first. If none are specified there, the accounts from the stores admin settings are used and only when nothing is specified there, the accounts from the global settings are used.
 
 ### Assign the accounts in the global settings
+
 To assign the same accounts to all stores, you may enter the account numbers in the global settings.
 
 #### Prerequisites
@@ -681,6 +681,7 @@ To assign the same accounts to all stores, you may enter the account numbers in 
 
 
 ### Assign the accounts in the store settings
+
 To assign the accounts to a single store, you may enter the account numbers in the store admin settings.
 
 #### Prerequisites
@@ -707,6 +708,7 @@ To assign the accounts to a single store, you may enter the account numbers in t
 
 
 ### Assign the accounts in the pay desk settings
+
 To assign the accounts to a single pay desk, you may enter the account numbers in the pay desk admin settings.
 
 #### Prerequisites
