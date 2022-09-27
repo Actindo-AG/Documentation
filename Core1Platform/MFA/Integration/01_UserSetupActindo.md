@@ -1,6 +1,6 @@
-[!!Core1 Platform](../../../Core1Platform/Overview/01_General.md)
 [!!Set up U2F from the administrator side](./02_AdminSetupActindo.md)
 [!!User Interface Profile settings](../../UserInterface/01d_U2F.md)
+
 
 # Set up U2F from the user side
 

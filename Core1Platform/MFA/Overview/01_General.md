@@ -5,7 +5,6 @@ The secure access to Actindo can be granted by using *Multi-Factor Authenticatio
 ## Benefits
 
 The *Multi-Factor Authentication (MFA)* offers the following benefits:
-
 - Increased security in the login process and with third parties.
 - Increased security of the user's identity.
 - Better access control.
@@ -13,5 +12,5 @@ The *Multi-Factor Authentication (MFA)* offers the following benefits:
 
 ## Prerequisites
 
-- You possess a YubiKey and have access to it.
+- You possess a *YubiKey* and have access to it.
 - You have an active Core1 account.

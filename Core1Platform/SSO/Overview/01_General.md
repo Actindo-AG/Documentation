@@ -5,7 +5,6 @@ The *Single Sign-On (SSO)* is an authentication method that enables the user to 
 ## Benefits
 
 The *Single Sign-On (SSO)* offers the following benefits:
-
 - One login for several platforms or applications.
 - Less effort for password management.
 - Reduced risk of password loss, as the same password is used for several applications.

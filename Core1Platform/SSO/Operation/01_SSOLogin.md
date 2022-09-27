@@ -1,4 +1,3 @@
-[!!Core1 Platform](../../../Core1Platform/Overview/01_General.md)
 [!!Set up U2F from the user side](../../MFA/Integration/01_UserSetupActindo.md)
 [!!Set up U2F from the administrator side](../../MFA/Integration/02_AdminSetupActindo.md)
 
