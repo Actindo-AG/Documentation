@@ -35,7 +35,7 @@ The list displays all variant sets. All fields are read-only. Depending on the s
 - *Name*   
   Variant set name.
 
-- *Attribute Set*   
+- *Attribute set*   
   Attribute set name assigned to the variant set.
 
 - *Attributes (defining)*   
@@ -63,7 +63,7 @@ The list displays all variant sets. All fields are read-only. Depending on the s
   Attribute set name in the selected language. A single *Name (Language)* column is displayed for the languages *English (United States)* and *Deutsch (Deutschland)*.
 
 - ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add)   
-  Click this button to create a variant set. The *Create variant Set* window is displayed.   
+  Click this button to create a variant set. The *Create variant set* window is displayed.   
 
 
 ## Create variant set
@@ -72,7 +72,7 @@ The list displays all variant sets. All fields are read-only. Depending on the s
 ![Create variant set](../../Assets/Screenshots/PIM/Settings/VariantSets/CreateVariantSet.png "[Create variant set]")
 
 - ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)   
-  Click this button to cancel creating a variant set, close the *Create Variant Set* view and return to the variant sets list. All changes are rejected.
+  Click this button to cancel creating a variant set, close the *Create variant set* view and return to the variant sets list. All changes are rejected.
 
 - Language   
   Click the drop-down list and select the language in which the *Name (Language)* fields are displayed. The languages *English (United States)* and *Deutsch (Deutschland)* are available in the drop-down list.
@@ -80,19 +80,19 @@ The list displays all variant sets. All fields are read-only. Depending on the s
   [comment]: <> (Is that right? -> language question)
 
 - [SAVE]   
-  Click this button to save the variant set, close the *Create Variant Set* view and return to the variant set list.
+  Click this button to save the variant set, close the *Create variant set* view and return to the variant set list.
 
 - *Name (Language)*   
   Variant set name in the selected language.
 
-- *Attribute Set*   
+- *Attribute set*   
   Click the drop-down list to select the assigned attribute set. All attribute sets are displayed in the drop-down list.
 
 **FORMULAS**
 
 This section is only displayed when an attribute set is selected.
 
-- *Formula for sku*   
+- *Formula for SKU*   
   Click the field to edit the formula for the SKU of the variant articles. By default, the formula **{master}-{L}** is predefined. The following placeholders are available:
   - {master}: SKU number of the master entity
   - {L}: consecutive number   
@@ -127,7 +127,7 @@ The list displays all defining attributes to the variant set. All fields are rea
 - *Key*   
   Attribute key. The key is required for API access and must be system wide unique.
 
-- *Data Type*   
+- *Data type*   
   Attribute data type. For detailed information about all data types, see [Data type list](./04_DataTypeList.md).
 
 - *ID*   
@@ -165,7 +165,7 @@ The list displays all changeable attributes to the variant set. All fields are r
 - *Key*   
   Attribute key. The key is required for API access and must be system wide unique.
 
-- *Data Type*   
+- *Data type*   
   Attribute data type. For detailed information about all data types, see [Data type list](./04_DataTypeList.md).
 
 - *ID*   
@@ -182,7 +182,7 @@ The list displays all changeable attributes to the variant set. All fields are r
 ![Edit variant set](../../Assets/Screenshots/PIM/Settings/VariantSets/EditVariantSet.png "[Edit variant set]")
 
 - ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)   
-  Click this button to cancel editing the variant set, close the *Edit Variant Set* view and return to the variant sets list. All changes are rejected.
+  Click this button to cancel editing the variant set, close the *Edit variant set* view and return to the variant sets list. All changes are rejected.
 
 - Language   
   Click the drop-down list and select the language in which the *Name (Language)* fields are displayed. The languages *English (United States)* and *Deutsch (Deutschland)* are available in the drop-down list.
@@ -190,17 +190,17 @@ The list displays all changeable attributes to the variant set. All fields are r
   [comment]: <> (Is that right? -> language question)
 
 - [SAVE]   
-  Click this button to save the variant set, close the *Edit Variant Set* view and return to the variant set list.
+  Click this button to save the variant set, close the *Edit variant set* view and return to the variant set list.
 
 - *Name (Language)*   
   Variant set name in the selected language.
 
-- *Attribute Set*   
+- *Attribute set*   
   Assigned attribute set. This field is read-only.
 
 **FORMULAS**
 
-- *Formula for sku*   
+- *Formula for SKU*   
   Click the field to edit the formula for the SKU of the variant articles. By default, the formula **{master}-{L}** is predefined. The following placeholders are available:
   - {master}: SKU number of the master entity
   - {L}: consecutive number   
@@ -235,7 +235,7 @@ The list displays all defining attributes to the variant set. All fields are rea
 - *Key*   
   Attribute key. The key is required for API access and must be system wide unique.
 
-- *Data Type*   
+- *Data type*   
   Attribute data type. For detailed information about all data types, see [Data type list](./04_DataTypeList.md).
 
 - *ID*   
@@ -273,7 +273,7 @@ The list displays all changeable attributes to the variant set. All fields are r
 - *Key*   
   Attribute key. The key is required for API access and must be system wide unique.
 
-- *Data Type*   
+- *Data type*   
   Attribute data type. For detailed information about all data types, see [Data type list](./04_DataTypeList.md).
 
 - *ID*   
@@ -291,7 +291,7 @@ The list displays all changeable attributes to the variant set. All fields are r
 ![Defining attributes](../../Assets/Screenshots/PIM/Settings/VariantSets/AddDefiningAttributes.png "[Defining attributes]")
 
 - ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)   
-  Click this button to cancel adding defining attributes, close the *Add defining attributes* view and return to the *Edit Variant Set* view. All changes are rejected.
+  Click this button to cancel adding defining attributes, close the *Add defining attributes* view and return to the *Edit variant set* view. All changes are rejected.
 
 - ![Search](../../Assets/Icons/Search.png "[Search]") (Search)   
   Click this button to display the search bar and search for an attribute.
@@ -322,7 +322,7 @@ The list displays all available defining attributes. All fields are read-only. D
 - *Key*   
   Attribute key. The key is required for API access and must be system wide unique.
 
-- *Data Type*   
+- *Data type*   
   Attribute data type. For detailed information about all data types, see [Data type list](./04_DataTypeList.md).
 
 - *ID*   
@@ -336,7 +336,7 @@ The list displays all available defining attributes. All fields are read-only. D
 ![Changeable attributes](../../Assets/Screenshots/PIM/Settings/VariantSets/AddChangeableAttributes.png "[Changeable attributes]")
 
 - ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)   
-  Click this button to cancel adding defining attributes, close the *Add defining attributes* view and return to the *Edit Variant Set* view. All changes are rejected.
+  Click this button to cancel adding defining attributes, close the *Add defining attributes* view and return to the *Edit variant set* view. All changes are rejected.
 
 - ![Search](../../Assets/Icons/Search.png "[Search]") (Search)   
   Click this button to display the search bar and search for an attribute.
@@ -367,7 +367,7 @@ The list displays all available changeable attributes. All fields are read-only.
 - *Key*   
   Attribute key. The key is required for API access and must be system wide unique.
 
-- *Data Type*   
+- *Data type*   
   Attribute data type. For detailed information about all data types, see [Data type list](./04_DataTypeList.md).
 
 - *ID*   

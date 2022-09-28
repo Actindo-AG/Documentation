@@ -44,7 +44,7 @@
   Click this button to save the new catalog, close the *Create new catalog* view and return to the catalog selection.
 
 - ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add)   
-  Click this button to add a category to the catalog. A plus sign is displayed in each column. Click the plus sign to add a category or sub-category. The *Add Element* window is displayed.
+  Click this button to add a category to the catalog. A plus sign is displayed in each column. Click the plus sign to add a category or sub-category. The *Add element* window is displayed.
   For detailed information about creating categories or sub-categories, see [Create a category](to_be_completed) or [Create a sub-category](to_be_completed).
 
   > [Info] If you add a category, a second column is displayed. When you click the button ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) again, you can also create a sub-category in the second column. Each time, you add a new sub-category, the next column is displayed. You can add an unlimited number of sub-categories in an unlimited number of levels.
@@ -100,7 +100,7 @@ The following buttons and fields are only displayed when you have added a catego
   Sub-category to the selected category. Click the category to display the next level column and all assigned sub-categories. Hover over the category to display the button ![Edit](../../Assets/Icons/Edit03.png "[Edit]") (Edit).
 
 - ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add)   
-  Click this button to add a category to the catalog. A plus sign is displayed in each column. Click the plus sign to add a category or sub-category. The *Add Element* window is displayed.
+  Click this button to add a category to the catalog. A plus sign is displayed in each column. Click the plus sign to add a category or sub-category. The *Add element* window is displayed.
   For detailed information about creating categories or sub-categories, see [Create a category](to_be_completed) or [Create a sub-category](to_be_completed).
 
 
@@ -111,7 +111,7 @@ The following buttons and fields are only displayed when you have added a catego
 
 ![Add element](../../Assets/Screenshots/PIM/Settings/Catalogs/AddElement.png "[Add element]")
 
-> [Info] The *Add Element* window for categories and sub-categories is identical.
+> [Info] The *Add element* window for categories and sub-categories is identical.
 
 - *Name*   
   Enter a category name.
@@ -120,10 +120,10 @@ The following buttons and fields are only displayed when you have added a catego
   Enter a category key. The key is required for API access and must be system wide unique.
 
 - [CANCEL]   
-  Click this button to cancel adding a category and close the *Add Element* window.
+  Click this button to cancel adding a category and close the *Add element* window.
 
 - [SAVE]   
-  Click this button to add the new category, close the *Add Element* window.
+  Click this button to add the new category, close the *Add element* window.
 
   > [Info] You have to click the button [SAVE] in the *Create new catalog* or *Edit catalog* view to save the added category.
 

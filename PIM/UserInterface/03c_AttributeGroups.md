@@ -1,22 +1,22 @@
-# Attribute Groups
+# Attribute groups
 
 *PIM > Settings > Tab ATTRIBUTE GROUPS*
 
 ![Attribute groups](../../Assets/Screenshots/PIM/Settings/AttributeGroups/AttributeGroups.png "[Attribute groups]")
 
-**Attribute Groups**
+**Attribute groups**
 
 - ![Edit](../../Assets/Icons/Edit02.png "[Edit]") (Edit)   
-  Click this button to edit the attribute groups. The *Edit Attribute Groups* view is displayed.   
+  Click this button to edit the attribute groups. The *Edit attribute groups* view is displayed.   
   For detailed information, see [Edit an attribute group](../Integration/03_ManageAttributeGroups.md#edit-an-attribute-group).
 
 - ![Folders](../../Assets/Icons/Folders01.png "[Folders]") (Folders)  
   Attribute group that contains attribute sub-groups. Click the attribute group or the arrow *>* left to the attribute group to unfold the group and display the attribute sub-groups.
 
 - ![Folder](../../Assets/Icons/Folder01.png "[Folder]") (Folder)  
-  Attribute group. Click the attribute group to display all attributes that are assigned to the selected attribute group in the *Assigned Attributes* list.
+  Attribute group. Click the attribute group to display all attributes that are assigned to the selected attribute group in the *Assigned attributes* list.
 
-**Assigned Attributes**
+**Assigned attributes**
 
 - ![Sort](../../Assets/Icons/Sort02.png "[Sort]") (Sort)   
   Click this button to display the filter bar and customize the active filters. The *x* indicates the number of filters that are currently active. The button is only displayed when an attribute group is selected.
@@ -76,7 +76,7 @@ The list displays all attributes assigned to the selected attribute group. All f
 - ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)   
   Click this button to cancel adding an attribute to the selected attribute group and close the *Add attributes to attribute group* view.
 
-- ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Only Unassigned Attributes*   
+- ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Only unassigned attributes*   
   Enable this toggle to display only the attributes that are not yet assigned to any attribute group. Disable the toggle to display all attributes. By default, this toggle is disabled.
 
   > [Info] An attribute can be assigned to one attribute group or sub-group only. When you add an attribute to an attribute group that is already added to another group, it is automatically removed from the former attribute group.
@@ -104,7 +104,7 @@ The list displays all attributes that are not assigned to the selected attribute
 - *Key*   
   Attribute key. The key is required for API access and must be system wide unique.
 
-- *Current Attribute Group*   
+- *Current attribute group*   
   Attribute group to which the attribute is currently assigned.
 
 - *Description*   
@@ -132,13 +132,13 @@ The list displays all attributes that are not assigned to the selected attribute
 ![Edit attribute groups](../../Assets/Screenshots/PIM/Settings/AttributeGroups/EditAttributeGroups.png "[Edit attribute groups]")
 
 - ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)   
-  Click this button to close the *Edit Attribute Groups* view and return to the *Attribute Groups* view. All changes are rejected.
+  Click this button to close the *Edit attribute groups* view and return to the *Attribute groups* view. All changes are rejected.
 
 - [CANCEL]   
-  Click this button to cancel editing attribute groups and close the *Edit Attribute Groups* view.
+  Click this button to cancel editing attribute groups and close the *Edit attribute groups* view.
 
 - [SAVE]   
-  Click this button to save all changes and close the *Edit Attribute Groups* view.
+  Click this button to save all changes and close the *Edit attribute groups* view.
 
 - ![Sort](../../Assets/Icons/Sort01.png "[Sort]") (Sort)   
   Click and hold this button to move the selected attribute group to another position in the list using drag and drop.
@@ -153,7 +153,7 @@ The list displays all attributes that are not assigned to the selected attribute
   Attribute sub-group to the selected attribute group. Hover over the attribute sub-group to display the ![Edit](../../Assets/Icons/Edit03.png "[Edit]") (Edit) button.
 
 - ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add)   
-  Click this button to add an attribute group or sub-group. A plus sign is displayed in each displayed column. Click the plus sign in the desired column to add a new attribute group or sub-group to the selected attribute group. The *Add Element* window is displayed.    
+  Click this button to add an attribute group or sub-group. A plus sign is displayed in each displayed column. Click the plus sign in the desired column to add a new attribute group or sub-group to the selected attribute group. The *Add element* window is displayed.    
   For detailed information about creating attribute groups or sub-groups, see [Create an attribute group](../Integration/03_ManageAttributeGroups.md#create-an-attribute-group) or [Create an attribute sub-group](../Integration/03_ManageAttributeGroups.md#create-an-attribute-sub-group).
 
 
@@ -162,7 +162,7 @@ The list displays all attributes that are not assigned to the selected attribute
 
 ![Add element](../../Assets/Screenshots/PIM/Settings/AttributeGroups/AddElement.png "[Add element]")
 
-> [Info] The *Add Element* window for attribute groups and sub-groups is identical.
+> [Info] The *Add element* window for attribute groups and sub-groups is identical.
 
 - Language   
   Click the drop-down list and select the language in which the *Name (Language)* field is displayed. All languages that are active in the *PIM* module are displayed.
@@ -176,12 +176,12 @@ The list displays all attributes that are not assigned to the selected attribute
   Enter an attribute group key. The key is required for API access and must be system wide unique.
 
 - [CANCEL]   
-  Click this button to cancel adding an attribute group, close the *Add Element* window and return to the *Edit Attribute Groups* view.
+  Click this button to cancel adding an attribute group, close the *Add element* window and return to the *Edit attribute groups* view.
 
 - [SAVE]   
-  Click this button to add the new attribute group, close the *Add Element* window and return to the *Edit Attribute Groups* view.
+  Click this button to add the new attribute group, close the *Add element* window and return to the *Edit attribute groups* view.
 
-  > [Info] You have to click the [SAVE] button in the *Edit Attribute Groups* view to save the added attribute group.
+  > [Info] You have to click the [SAVE] button in the *Edit attribute groups* view to save the added attribute group.
 
 
 ### Edit attribute group data
@@ -203,14 +203,14 @@ The list displays all attributes that are not assigned to the selected attribute
 - ![Delete](../../Assets/Icons/Trash01.png "[Delete]") (Delete)   
   Click this button to remove the selected attribute group.
 
-  > [Info] You have to click the [SAVE] button in the *Edit Attribute Groups* view to finally delete the attribute group.
+  > [Info] You have to click the [SAVE] button in the *Edit attribute groups* view to finally delete the attribute group.
 
   > [Caution] Be aware that as soon as you delete an attribute group, you also delete all assigned attribute sub-groups.
 
 - [CANCEL]   
-  Click this button to cancel adding an attribute group, close the window and return to the *Edit Attribute Groups* view.
+  Click this button to cancel adding an attribute group, close the window and return to the *Edit attribute groups* view.
 
 - [SAVE]   
-  Click this button to add the new attribute group, close the window and return to the *Edit Attribute Groups* view.
+  Click this button to add the new attribute group, close the window and return to the *Edit attribute groups* view.
 
-  > [Info] You have to click the [SAVE] button in the *Edit Attribute Groups* view to save the changes.
+  > [Info] You have to click the [SAVE] button in the *Edit attribute groups* view to save the changes.
