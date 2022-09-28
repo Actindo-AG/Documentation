@@ -14,4 +14,4 @@
 
 
 
-- [Configure the logging settings](./01_ConfigureLoggingSettings.md)
+- [Configure the logging settings](./02_ConfigureLoggingSettings.md)

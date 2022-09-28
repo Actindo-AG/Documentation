@@ -19,7 +19,7 @@
   - [Unpublish a workflow version](./01_ManageWorkflows.md#unpublish-a-workflow-version)
 
 
-- [Track a workflow process](./02_TrackWorkflowProcess.md)
+- [Track the workflow process](./02_TrackWorkflowProcess.md)
   - [Check the process status](./02_TrackWorkflowProcess.md#check-the-process-status)
   - [Check the process action status](./02_TrackWorkflowProcess.md#check-the-process-action-status)
   - [Check the token status and content](./02_TrackWorkflowProcess.md#check-the-token-status-and-content)
