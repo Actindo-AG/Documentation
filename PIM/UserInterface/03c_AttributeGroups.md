@@ -205,7 +205,7 @@ The list displays all attributes that are not assigned to the selected attribute
 
   > [Info] You have to click the [SAVE] button in the *Edit Attribute Groups* view to finally delete the attribute group.
 
-  > [Warning] Be aware that as soon as you delete an attribute group, you also delete all assigned attribute sub-groups.
+  > [Caution] Be aware that as soon as you delete an attribute group, you also delete all assigned attribute sub-groups.
 
 - [CANCEL]   
   Click this button to cancel adding an attribute group, close the window and return to the *Edit Attribute Groups* view.

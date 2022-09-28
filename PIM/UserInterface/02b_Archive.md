@@ -34,7 +34,7 @@ The list displays all archived products. All fields are read-only. Depending on 
 - *SKU*   
   Stock Keeping Unit. Identification number for the product.  
 
-- *Attribute Set*   
+- *Attribute set*   
   Assigned attribute set.
 
 - *Archived on*   

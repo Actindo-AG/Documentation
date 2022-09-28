@@ -38,7 +38,7 @@ The list displays all products moved to recycle bin. All fields are read-only. D
 - *SKU*   
   Stock Keeping Unit. Identification number for the product.  
 
-- *Attribute Set*   
+- *Attribute set*   
   Assigned attribute set.
 
 - *Deleted on*   

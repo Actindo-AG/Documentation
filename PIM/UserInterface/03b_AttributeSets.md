@@ -86,7 +86,7 @@ The list displays all attribute sets. All fields are read-only. Depending on the
   Attribute description in the displayed language. For each active language exists one *Description* column.
 
 - ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add)   
-  Click this button to create a attribute set. The *Create Set* view is displayed.   
+  Click this button to create a attribute set. The *Create set* view is displayed.   
 
 
 ## Create attribute set
@@ -95,7 +95,7 @@ The list displays all attribute sets. All fields are read-only. Depending on the
 ![Create attribute set](../../Assets/Screenshots/PIM/Settings/AttributeSets/CreateAttributeSet.png "[Create attribute set]")
 
 - ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)   
-  Click this button to close the *Create Attribute Set* view and return to the attribute set list. All changes are rejected.
+  Click this button to close the *Create attribute set* view and return to the attribute set list. All changes are rejected.
 
 - Language   
   Click the drop-down list and select the language in which the *Name (Language)* and *Description (Language)* fields are displayed. The languages *English (United States)* and *Deutsch (Deutschland)* are available in the drop-down list.
@@ -103,7 +103,7 @@ The list displays all attribute sets. All fields are read-only. Depending on the
   [comment]: <> (Is that right? -> language question)
 
 - [SAVE]   
-  Click this button to save the attribute set, close the *Create Attribute Set* view and return to the attribute set list.
+  Click this button to save the attribute set, close the *Create attribute set* view and return to the attribute set list.
 
 - *Name (Language)*   
   Attribute set name in the selected language.
@@ -118,26 +118,26 @@ The list displays all attribute sets. All fields are read-only. Depending on the
   Enable this toggle to set the attribute set status to active. Disable the toggle to set the status to inactive. By default, this toggle is enabled.
 
 
-- *Inherit/Copy Values from*   
+- *Inherit/Copy values from*   
   Click the drop-down list to select whether or not the values for the new attribute set should be inherited or copied from an existing attribute set. The following options are available:    
-  - **No inheritance**: The values are neither inherited nor copied from an existing attribute set. The *Inherit Configuration* toggle and the *Inherit/Copy Values* drop-down list are locked.
+  - **No inheritance**: The values are neither inherited nor copied from an existing attribute set. The *Inherit configuration* toggle and the *Inherit/Copy values* drop-down list are locked.
   - **Attribute set name**: The values inherited or copied from the selected attribute set. All existing attribute sets are displayed in the drop-down list.  
 
 
-- ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Inherit Configuration*   
-  Enable this toggle to inherit not only the values of the selected attribute set, but also their configuration. Disable the toggle to inherit the values without configuration. By default, this toggle is enabled. This toggle is locked if the **no inheritance** option is selected in the *Inherit/Copy Values from* drop-down list.
+- ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Inherit configuration*   
+  Enable this toggle to inherit not only the values of the selected attribute set, but also their configuration. Disable the toggle to inherit the values without configuration. By default, this toggle is enabled. This toggle is locked if the **No inheritance** option is selected in the *Inherit/Copy values from* drop-down list.
 
 
-- *Inherit/Copy Values*   
+- *Inherit/Copy values*   
   Click the drop-down list to select the inheritance type. The following types are available:    
   - **Copy once**: The attribute values are applied once from the selected attribute set, but afterwards they are independent of changes in the selected set.
   - **Inherit**: The attribute values are applied from the selected attribute set and updated each time if the selected set changes.
 
 
-**Assigned Attributes**
+**Assigned attributes**
 
 - ![Settings](../../Assets/Icons/Settings01.png "[Settings]") (Settings)   
-  Click this button to unlock the *required* column in the attributes list. The color of the button switches to blue if the column is unlocked. Click the button again to lock the *required* column. The button color switches back to gray.
+  Click this button to unlock the *Required* column in the attributes list. The color of the button switches to blue if the column is unlocked. Click the button again to lock the *Required* column. The button color switches back to gray.
 
 - ![Search](../../Assets/Icons/Search.png "[Search]") (Search)   
   Click this button to display the search bar and search for an attribute.
@@ -151,7 +151,7 @@ The list displays all attribute sets. All fields are read-only. Depending on the
 - [x]     
   Select the checkbox to display the editing toolbar. If you click the checkbox in the header, all attributes in the list are selected.
 
-In the *Create Attribute Set* view, no attributes are displayed in list. You have to save the attribute set to edit the assigned attributes.   
+In the *Create attribute set* view, no attributes are displayed in list. You have to save the attribute set to edit the assigned attributes.   
 
 
 ## Edit attribute set
@@ -160,7 +160,7 @@ In the *Create Attribute Set* view, no attributes are displayed in list. You hav
 ![Edit attribute set](../../Assets/Screenshots/PIM/Settings/AttributeSets/EditAttributeSet.png "[Edit attribute set]")
 
 - ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)   
-  Click this button to close the *Edit Attribute Set* view and return to the attribute set list. All changes are rejected.
+  Click this button to close the *Edit attribute set* view and return to the attribute set list. All changes are rejected.
 
 - Language   
   Click the drop-down list and select the language in which the *Name (Language)* and *Description (Language)* fields are displayed. The languages *English (United States)* and *Deutsch (Deutschland)* are available in the drop-down list.
@@ -168,7 +168,7 @@ In the *Create Attribute Set* view, no attributes are displayed in list. You hav
   [comment]: <> (Is that right? -> language question)
 
 - [SAVE]   
-  Click this button to save the attribute set, close the *Edit Attribute Set* view and return to the attribute set list.
+  Click this button to save the attribute set, close the *Edit attribute set* view and return to the attribute set list.
 
 - *Name (Language)*   
   Attribute set name in the selected language.
@@ -177,23 +177,23 @@ In the *Create Attribute Set* view, no attributes are displayed in list. You hav
   Description to the attribute set in the selected language.
 
 - *Key*   
-  Attribute set key. The key is required for API access and must be system wide unique. In the *Edit Attribute Set* view, this field is locked.
+  Attribute set key. The key is required for API access and must be system wide unique. In the *Edit attribute set* view, this field is locked.
 
 - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Active*   
   Enable this toggle to set the attribute set status to active. Disable the toggle to set the status to inactive. By default, this toggle is enabled.
 
 
-- *Inherit/Copy Values from*   
+- *Inherit/Copy values from*   
   Click the drop-down list to select whether or not the values for the new attribute set should be inherited or copied from an existing attribute set. The following options are available:    
-  - **No inheritance**: The values are neither inherited nor copied from an existing attribute set. The *Inherit Configuration* toggle and the *Inherit/Copy Values* drop-down list are locked.
+  - **No inheritance**: The values are neither inherited nor copied from an existing attribute set. The *Inherit configuration* toggle and the *Inherit/Copy values* drop-down list are locked.
   - **Attribute set name**: The values inherited or copied from the selected attribute set. All existing attribute sets are displayed in the drop-down list.  
 
 
-- ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Inherit Configuration*   
-  Enable this toggle to inherit not only the values of the selected attribute set, but also their configuration. Disable the toggle to inherit the values without configuration. By default, this toggle is enabled. This toggle is locked if the **no inheritance** option is selected in the *Inherit/Copy Values from* drop-down list.
+- ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Inherit configuration*   
+  Enable this toggle to inherit not only the values of the selected attribute set, but also their configuration. Disable the toggle to inherit the values without configuration. By default, this toggle is enabled. This toggle is locked if the **No inheritance** option is selected in the *Inherit/Copy values from* drop-down list.
 
 
-- *Inherit/Copy Values*   
+- *Inherit/Copy values*   
   Click the drop-down list to select the inheritance type. The following types are available:    
   - **Copy once**: The attribute values are applied once from the selected attribute set, but afterwards they are independent of changes in the selected set.
   - **Inherit**: The attribute values are applied from the selected attribute set and updated each time if the selected set changes.
@@ -201,10 +201,10 @@ In the *Create Attribute Set* view, no attributes are displayed in list. You hav
 > [Info] For the *PIM Basic Set* which is predefined by the system, the inheritance settings are read-only.
 
 
-**Assigned Attributes**
+**Assigned attributes**
 
 - ![Settings](../../Assets/Icons/Settings01.png "[Settings]") (Settings)   
-  Click this button to unlock the *required* column in the attributes list. The color of the button switches to blue if the column is unlocked. Click the button again to lock the *required* column. The button color switches back to gray.
+  Click this button to unlock the *Required* column in the attributes list. The color of the button switches to blue if the column is unlocked. Click the button again to lock the *Required* column. The button color switches back to gray.
 
 - ![Search](../../Assets/Icons/Search.png "[Search]") (Search)   
   Click this button to display the search bar and search for an attribute.
@@ -232,15 +232,15 @@ In the *Create Attribute Set* view, no attributes are displayed in list. You hav
   > [Info] If you remove an attribute from the attribute set, the attribute itself is not deleted, but it is unassigned to the selected attribute set.   
 
 - [ADD MAPPING]   
-  Click this button to add a mapping to the selected attribute. The *Add mapping* view is displayed. You can only add a mapping for attribute sets that are not inherited from another attribute set. This button is only displayed, when a single checkbox of an attribute is selected.
+  Click this button to add a mapping to the selected attribute. The *Add mapping* view is displayed. You can only add a mapping for attribute sets that are not Inherited from another attribute set. This button is only displayed, when a single checkbox of an attribute is selected.
 
 
-The list displays all attributes assigned to the selected attribute set. When the ![Settings](../../Assets/Icons/Settings01.png "[Settings]") (Settings) button is gray, all fields are read-only.  When the ![Settings](../../Assets/Icons/Settings02.png "[Settings]") (Settings) button is blue, the field *required* is editable. Depending on the settings, the displayed columns may vary.
+The list displays all attributes assigned to the selected attribute set. When the ![Settings](../../Assets/Icons/Settings01.png "[Settings]") (Settings) button is gray, all fields are read-only.  When the ![Settings](../../Assets/Icons/Settings02.png "[Settings]") (Settings) button is blue, the field *Required* is editable. Depending on the settings, the displayed columns may vary.
 
 - *Name*   
   Attribute name.
 
-- *Calculated Field*   
+- *Calculated field*   
   Indication whether the attribute is an calculated field or not:
   - ![Check](../../Assets/Icons/Check.png "[Check]") (Checkmark): The attribute is a calculated field.  
   - ![Cross](../../Assets/Icons/Cross02.png "[Cross]") (Cross): The attribute is no calculated field.
@@ -250,10 +250,10 @@ The list displays all attributes assigned to the selected attribute set. When th
 - *Key*   
   Attribute key. The key is required for API access and must be system wide unique.
 
-- *Data Type*   
+- *Data type*   
   Attribute data type. For detailed information about all data types, see [Data type list](./04_DataTypeList.md).
 
-- *inherited from*   
+- *Inherited from*   
   Inheritance attribute set. The name of the attribute set from which the attribute value is inherited is displayed. If the attribute value is not inherited, the row is empty.
 
 - *Plugin*   
@@ -263,7 +263,7 @@ The list displays all attributes assigned to the selected attribute set. When th
 
 - *Required*   
   Indication whether the attribute is an required field in the attribute set or not.
-  When the ![Settings](../../Assets/Icons/Settings02.png "[Settings]") (Settings) button is blue, the *required* toggle is displayed. Enable the toggle to set the attribute value as a mandatory field. Disable the toggle to set the attribute value as an optional field.   
+  When the ![Settings](../../Assets/Icons/Settings02.png "[Settings]") (Settings) button is blue, the *Required* toggle is displayed. Enable the toggle to set the attribute value as a mandatory field. Disable the toggle to set the attribute value as an optional field.   
   When the ![Settings](../../Assets/Icons/Settings01.png "[Settings]") (Settings) button is gray, the following options are displayed:
   - ![Check](../../Assets/Icons/Check.png "[Check]") (Checkmark): The attribute is required.  
   - ![Cross](../../Assets/Icons/Cross02.png "[Cross]") (Cross): The attribute is optional.   
@@ -302,16 +302,16 @@ The list displays all attributes assigned to the selected attribute set. When th
 
 *PIM > Settings > Tab ATTRIBUTE SETS > Select attribute set > Select attribute with configuration*
 
-![Edit Attribute for Set](../../Assets/Screenshots/PIM/Settings/AttributeSets/EditAttribute.png "[Edit Attribute for Set]")
+![Edit attribute for set](../../Assets/Screenshots/PIM/Settings/AttributeSets/EditAttribute.png "[Edit attribute for set]")
 
 - ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)   
-  Click this button to close the *Edit Attribute for Set* view and return to *Edit Attribute Set* view. All changes are rejected.
+  Click this button to close the *Edit attribute for set* view and return to *Edit attribute set* view. All changes are rejected.
 
 - [CANCEL]   
-  Click this button to cancel editing the configuration, close the *Edit Attribute for Set* view and return to the *Edit Attribute Set* view.
+  Click this button to cancel editing the configuration, close the *Edit attribute for set* view and return to the *Edit attribute set* view.
 
 - [SAVE]   
-  Click this button to save the changes, close the *Edit Attribute for Set* view and return to the *Edit Attribute Set* view.
+  Click this button to save the changes, close the *Edit attribute for set* view and return to the *Edit attribute set* view.
 
 **CONFIGURATION**
 
@@ -325,12 +325,12 @@ For detailed information about the different configurations, see [Configuration 
 
 ![Add mapping](../../Assets/Screenshots/PIM/Settings/AttributeSets/AddMapping.png "[Add mapping]")
 
-**Add Mapping**
+**Add mapping**
 
 This view equals to the attribute mapping in the *DataHub* module: *DataHub > Settings > Tab ETL > Select attribute set mapping > Select mapping line*   
 
 - ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)   
-  Click this button to close the *Edit Mapping* view and return to *Edit Attribute Set* view. All changes are rejected.
+  Click this button to close the *Edit mapping* view and return to *Edit attribute set* view. All changes are rejected.
 
 - Destination attribute   
   Selected attribute on the right side of the view. The attribute cannot be changed.
@@ -344,8 +344,8 @@ This view equals to the attribute mapping in the *DataHub* module: *DataHub > Se
 - *Extension*   
   Click the drop-down list and select the desired ETL extension for the mapping. The extensions in the list differ depending on the data type of the destination attribute.
 
-- *Override Changetrackingmode*   
-  Change tracking mode (ETL mode) for the mapping. The drop-down list is read-only. The option **use default** is preset.
+- *Override change tracking mode*   
+  Change tracking mode (ETL mode) for the mapping. The drop-down list is read-only. The option **Use default** is preset.
 
 The fields on the left side differ depending on the selected ETL extension. For detailed information about the ETL extensions and how to create an attribute mapping, see [ETL extensions](to_be_completed) and [Create a mapping](to_be_completed).
 

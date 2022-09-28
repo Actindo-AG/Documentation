@@ -7,9 +7,9 @@
 
 In this section, an overview of the completeness regarding the products is displayed in four boxes.   
 Each box presents one degree of completeness. The following degrees of completeness in percent are displayed:
-- *completeness < 30%*: completeness less than 30%
-- *completeness ≥ 30%*: completeness more than or equal to 30%
-- *completeness ≥ 80%*: completeness more than or equal to 80%
+- *Completeness < 30%*: completeness less than 30%
+- *Completeness ≥ 30%*: completeness more than or equal to 30%
+- *Completeness ≥ 80%*: completeness more than or equal to 80%
 - *100% complete*: completeness equal to 100%
 
 In addition to the degree of completeness, the number of products in the corresponding level and the percentage of this number of products measured against the total number of products are displayed in each box.
@@ -44,5 +44,5 @@ The fields in the following columns are display fields only. They cannot be chan
 - *Author*   
   Name and username of the author who made the change.
 
-- *Changed Elements*   
+- *Changed elements*   
   Elements that have been changed on the product.

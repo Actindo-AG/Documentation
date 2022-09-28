@@ -58,7 +58,7 @@ The catalog basic data has been created, see [Define the catalog basic data](#de
   ![Add category](../../Assets/Screenshots/PIM/Settings/Catalogs/AddCategory.png "[Add category]")
 
 2. Click the plus sign in the category column.    
-  The *Add Element* window is displayed in the category column.
+  The *Add element* window is displayed in the category column.
 
   ![Add element](../../Assets/Screenshots/PIM/Settings/Catalogs/AddElementTop.png "[Add element]")
 
@@ -67,7 +67,7 @@ The catalog basic data has been created, see [Define the catalog basic data](#de
 4. Enter a key for the category of the catalog in the *Key* field.
 
 5. Click the [SAVE] button.   
-  The catalog category has been created. The *Add Element* window is closed. The new category is displayed in the category column.
+  The catalog category has been created. The *Add element* window is closed. The new category is displayed in the category column.
 
   ![Category created](../../Assets/Screenshots/PIM/Settings/Catalogs/CategoryCreated.png "[Category created]")
 
@@ -117,7 +117,7 @@ At least one catalog with one category has been created, see [Create a catalog](
   ![Add sub category](../../Assets/Screenshots/PIM/Settings/Catalogs/AddSubCategory.png "[Add sub category]")
 
 6. Click the plus sign in the sub-category column.    
-  The *Add Element* window is displayed in the sub-category column.
+  The *Add element* window is displayed in the sub-category column.
 
   ![Add sub element](../../Assets/Screenshots/PIM/Settings/Catalogs/AddSubElement.png "[Add sub element]")
 
@@ -126,7 +126,7 @@ At least one catalog with one category has been created, see [Create a catalog](
 8. Enter a key for the sub-category in the *Key* field.
 
 9. Click the [SAVE] button.   
-  The catalog sub-category has been created. The *Add Element* window is closed. The new sub-category is displayed in the sub-category column.
+  The catalog sub-category has been created. The *Add element* window is closed. The new sub-category is displayed in the sub-category column.
 
   > [Info] To add an additional sub-category, repeat the steps **4** to **8**. You can create an unlimited number of sub-categories in an unlimited number of levels. The procedure to create a sub-category in another level is identical to creating a sub-category. Just select the category or sub-category to which you want to create another sub-category and click the corresponding plus sign in the column of the respective level.
 
@@ -214,7 +214,7 @@ Delete a category that is no longer needed. If you delete a category containing 
 5. Click the ![Delete](../../Assets/Icons/Trash01.png "[Delete]") (Delete) button in the bottom left corner of the category data window.    
   The selected category has been removed from the category column. The category data window is closed.
 
-  > [Warning] Make sure that no product is assigned to the category that will be deleted as problems may occur to products that are still assigned to a deleted category.
+  > [Caution] Make sure that no product is assigned to the category that will be deleted as problems may occur to products that are still assigned to a deleted category.
 
 6. Click the [SAVE] button in the upper right corner.  
   The category has been deleted. The *Edit category* view is closed.
@@ -234,7 +234,7 @@ Delete a category that is no longer needed. If you delete a category containing 
 ![Product list catalog](../../Assets/Screenshots/PIM/Products/List/ProductsWithCatalog.png "[Product list catalog]")
 
 1. Click the product you want to assign to a catalog category in the list of products.   
-  The *Edit Product* view is displayed. The *Attributes* tab is preselected.
+  The *Edit product* view is displayed. The *Attributes* tab is preselected.
 
   ![Attributes Iphone](../../Assets/Screenshots/PIM/Products/List/Attributes/AttributesEditIphone.png "[Attributes Iphone]")
 
@@ -258,7 +258,7 @@ Delete a category that is no longer needed. If you delete a category containing 
   ![Assigned categories Iphone](../../Assets/Screenshots/PIM/Products/List/Catalogs/AssignedCategoriesIphone.png "[Assigned categories Iphone]")
 
 6. Click the [SAVE] button in the upper right corner.  
-  The product has been assigned to the selected category. The *Edit Product* view is closed. The list of products is displayed again.
+  The product has been assigned to the selected category. The *Edit product* view is closed. The list of products is displayed again.
 
 6. Select the appropriate catalog and the assigned category in the left side bar.
   The list of products displays only those products that are assigned to the selected category.

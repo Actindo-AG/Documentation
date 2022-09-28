@@ -30,7 +30,7 @@ An attribute set has been created, see [Create an attribute set](./02_ManageAttr
 
 2. Enter a name for the variant set in the *Name* field.
 
-3. Select an attribute set in the *Attribute Set* drop-down list. All active attribute sets are displayed in the list.    
+3. Select an attribute set in the *Attribute set* drop-down list. All active attribute sets are displayed in the list.    
   The *Formulas* section with the *Formula for SKU* field is displayed.
 
   > [Info] You need to specify defining and changeable attributes for the variant set at a later step. Be aware that only those attributes assigned to the selected attribute set will be available.
@@ -103,7 +103,7 @@ You can select changeable attributes for a variant set. If you want to define an
 
 ![Formulas](../../Assets/Screenshots/PIM/Settings/VariantSets/Formulas.png "[Formulas]")
 
-1. In the *Changeable Attributes* box click the ![Add](../../Assets/Icons/Plus01.png "[Add]") button. This button is only displayed when an attribute set is selected.         
+1. In the *Changeable attributes* box click the ![Add](../../Assets/Icons/Plus01.png "[Add]") button. This button is only displayed when an attribute set is selected.         
   The *Add changeable attributes* view is displayed.
 
   ![Add changeable attributes](../../Assets/Screenshots/PIM/Settings/VariantSets/AddChangeableAttributes.png "[Add changeable attributes]")
@@ -114,7 +114,7 @@ You can select changeable attributes for a variant set. If you want to define an
   > [Info] Generally, a variant inherits all attribute values from its master product. These attribute values are locked in the variant and can only be edited in the master product. Attribute values that differ from the master product and must be maintained individually in the variant itself must be added to the list of changeable attributes.
 
 3. Click the [ADD AND GO BACK] button.   
-  The *Add changeable attributes* view is closed. The selected attributes are displayed in the *Changeable Attributes* box.
+  The *Add changeable attributes* view is closed. The selected attributes are displayed in the *Changeable attributes* box.
 
   ![Changeable attributes added](../../Assets/Screenshots/PIM/Settings/VariantSets/ChangeableAttributesAdded.png "[Changeable attributes added]")
 

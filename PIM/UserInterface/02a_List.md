@@ -97,17 +97,17 @@ Depending on the selection in the *Variants* drop-down list, the product list di
 - *SKU*   
   Stock Keeping Unit. Identification number for the product.  
 
-- *Product Name*   
+- *Product name*   
   Name of the product.
 
-- *Product Variants*   
+- *Product variants*   
   Variant type of the product. The following variant types are displayed:
   - **Master product with *x* variants** (x indicates the number of variants for the master product)
   - **Variant *Defining Attribute: Value*** (the defining attributes and their values are indicated)
   - no variant type indicated for all products that are neither a master product nor a variant
 
 
-- *Attribute Set*   
+- *Attribute set*   
   Assigned attribute set.
 
 - *ID*   
@@ -217,7 +217,7 @@ Depending on the selection in the *Variants* drop-down list, the product list di
 
 ![Attributes](../../Assets/Screenshots/PIM/Products/List/Attributes/AttributesCreate.png "[Attributes]")
 
-In the left margin column, all available attribute groups are displayed. Click a group to display the attributes that are assigned to this group on the right side of the *Attributes* tab. If the product contains attributes that are unassigned, the *Unassigned Group* group is automatically displayed in the left margin column.
+In the left margin column, all available attribute groups are displayed. Click a group to display the attributes that are assigned to this group on the right side of the *Attributes* tab. If the product contains attributes that are unassigned, the *Unassigned group* group is automatically displayed in the left margin column.
 
 The right side of the *Attributes* tab displays all attributes that are assigned to the selected group in the left margin column. As the attributes are customized, only those attributes that are predefined by default in the *PIM Basic Set* attribute set are described below:
 
@@ -252,7 +252,7 @@ The list displays all variants of the selected product. All fields are read-only
 - *SKU*  
   Stock Keeping Unit. Identification number for the variant. The SKU for the variant is created depending on the selected settings.
 
-- *LifeCycle Status*   
+- *Lifecycle status*   
   Lifecycle status of the variant The status is created after saving. In the *Create product* view, no lifecycle status is displayed.
 
 - *ID*   
@@ -274,7 +274,7 @@ The list displays all variants of the selected product. All fields are read-only
   Click this button to add a single variant. The *Add single variant* window is displayed.
 
 - [Add multiple variants ![Documents](../../Assets/Icons/Documents.png "[Documents]") ]    
-  Click this button to add multiple variants. The *Select Values* wizard window is displayed.
+  Click this button to add multiple variants. The *Select values* wizard window is displayed.
 
 - ![Cancel](../../Assets/Icons/Cross01.png "[Cancel]") (Cancel)   
   Click this button to hide the buttons and return to the *Variants* tab.
@@ -311,7 +311,7 @@ For each defining attribute a single field or box to define the attribute value 
 ### Add multiple variants
 *PIM > Products > Tab LIST > Button Add > Button CREATE > Tab Variants > Select variant set > Button Add > Button Add multiple variants*
 
-#### Select Values
+#### Select values
 
 ![Add multiple variants](../../Assets/Screenshots/PIM/Products/List/Variants/AddMultipleVariants01.png "[Add multiple variants]")
 
@@ -326,7 +326,7 @@ For each defining attribute a single box to define the attribute value is displa
   Click this button to add a further row to the corresponding attribute where you can enter or select the desired value.
 
 - [ABORT]   
-  Click this button to cancel adding variants and close the *Select Values* wizard window.
+  Click this button to cancel adding variants and close the *Select values* wizard window.
 
 - [NEXT]   
   Click this button to proceed to the next step of adding variants. The *Summary* wizard window is displayed.
@@ -358,7 +358,7 @@ The list displays all selected variants. Depending on the settings, the displaye
   You can add a column for each defining attribute. The column displays the attribute name, the row displays the corresponding attribute value. The fields are read-only.
 
 - [< GO BACK]   
-  Click this button to go back to the previous step of adding variants. The *Select Values* wizard window is displayed.
+  Click this button to go back to the previous step of adding variants. The *Select values* wizard window is displayed.
 
 - [ABORT]   
   Click this button to cancel adding variants and close the *Summary* wizard window.
@@ -383,9 +383,9 @@ The list displays all selected variants. Depending on the settings, the displaye
 
 For each catalog a single box to assign the new product to a category is displayed. You can assign a product to several catalogs and categories at the same time.
 
-**Catalog Name**
+**Catalog name**
 
-- [EDIT ATTRIBUTE *CATALOG NAME* ]   
+- [EDIT ATTRIBUTE "CATALOG NAME"]   
   Click this button to assign the product to a category or a sub-category in the selected catalog. The categories window is displayed.
 
 The catalog box displays all selected categories and their level. All fields are read-only. If no category is selected, the notice *No nodes selected* is displayed in the box.
@@ -444,7 +444,7 @@ The box displays all associated products. All fields are read-only. If no produc
 - *SKU*   
   Stock Keeping Unit. Identification number of the product.
 
-- *Attribute Set*   
+- *Attribute set*   
   Assigned attribute set.
 
 - ![Eye](../../Assets/Icons/Eye01.png "[Eye]") (Eye)   
@@ -488,7 +488,7 @@ The list displays all products. All fields are read-only.
 - *SKU*   
   Stock Keeping Unit. Identification number of the product.
 
-- *Attribute Set*   
+- *Attribute set*   
   Assigned attribute set.
 
 
@@ -558,7 +558,7 @@ The list displays all created offers to this product. All fields are read-only.
 - *Connection*   
   Selected connection for the offer.
 
-- *Attribute Set*   
+- *Attribute set*   
   Selected attribute set for the offer.
 
 - *Last edited on*   
@@ -608,12 +608,12 @@ The list displays all created offers to this product. All fields are read-only.
 
 ![Add to a single connection](../../Assets/Screenshots/PIM/Products/List/Offers/SingleConnection.png "[Add to a single connection]")
 
-**Create Offer**
+**Create offer**
 
-- *Select Connection*   
+- *Select connection*   
   Click the drop-down list to select a connection for the offer. All available connections are displayed in the list.
 
-- *Attribute Set*   
+- *Attribute set*   
   Click the drop-down list to select an attribute set for the offer. All active attribute sets are displayed in the drop-down list. The drop-down list is locked if no connection is selected.
 
 - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Generate SKU*   
@@ -641,10 +641,10 @@ The list displays all created offers to this product. All fields are read-only.
 
 
 - [CANCEL]   
-  Click this button to cancel adding an offer and close the *Create Offer* window.
+  Click this button to cancel adding an offer and close the *Create offer* window.
 
 - [SAVE]   
-  Click this button to save the offer and close the *Create Offer* window.
+  Click this button to save the offer and close the *Create offer* window.
 
 
 ### Add to multiple connections
@@ -679,7 +679,7 @@ The list displays all created offers to this product. All fields are read-only.
   Enable a toggle to select the corresponding connection to create an offer to. All available connections are displayed. By default, all toggles are disabled.
 
 - [CANCEL]   
-  Click this button to cancel adding multi-connection offers and close the *Select Connections and status* wizard window.
+  Click this button to cancel adding multi-connection offers and close the *Select connections and status* wizard window.
 
 - [CONTINUE]   
   Click this button to proceed to the next step to add multi-connection offers. The *Select destination attribute sets* wizard window is displayed.
@@ -693,7 +693,7 @@ The list displays all created offers to this product. All fields are read-only.
   Destination attribute set for the selected connection. The attribute set is automatically selected. The field is read-only. An own attribute set is assigned to each selected connection.
 
 - [< BACK]   
-  Click this button to go back to the previous step. The *Select Connections and status* wizard window is displayed.
+  Click this button to go back to the previous step. The *Select connections and status* wizard window is displayed.
 
 - [CANCEL]   
   Click this button to cancel adding multi-connection offers and close the *Select destination attribute sets* wizard window.
@@ -776,7 +776,7 @@ The list displays all created offers to this product. All fields are read-only.
 
 ![Attributes](../../Assets/Screenshots/PIM/Products/List/Attributes/AttributesEdit.png "[Attributes]")
 
-In the left margin column, all available groups containing attributes are displayed. Click a (sub-)group to display the attributes that are assigned to this (sub-)group on the right side of the *Attributes* tab. If the product contains attributes that are unassigned, the *Unassigned Group* group is automatically displayed in the left margin column.
+In the left margin column, all available groups containing attributes are displayed. Click a (sub-)group to display the attributes that are assigned to this (sub-)group on the right side of the *Attributes* tab. If the product contains attributes that are unassigned, the *Unassigned group* group is automatically displayed in the left margin column.
 
 The right side of the *Attributes* tab displays all attributes that are assigned to the selected group in the left margin column. As the attributes are customized, only those attributes that are predefined by default in the *PIM Basic Set* attribute set are described below:
 
@@ -818,7 +818,7 @@ The list displays all variants. All fields are read-only. Depending on the setti
 - *SKU*  
   Stock Keeping Unit. Identification number for the variant. The SKU for the variant is created depending on the selected settings.
 
-- *LifeCycle Status*   
+- *Lifecycle status*   
   Life cycle status of the variant article. The following statuses are available:
   - **active**: The variant is active.
   - **in_archive**: The variant is archived.
@@ -895,7 +895,7 @@ For each defining attribute a single box to define the attribute value is displa
   Click this button to add a further row to the corresponding attribute where you can enter or select the desired value.
 
 - [ABORT]   
-  Click this button to cancel adding variants and close the *Select Values* wizard window.
+  Click this button to cancel adding variants and close the *Select values* wizard window.
 
 - [NEXT]   
   Click this button to proceed to the next step of adding variants. The *Summary* wizard window is displayed.
@@ -927,7 +927,7 @@ The list displays all selected variants. Depending on the settings, the displaye
   You can add a column for each defining attribute. The column displays the attribute name, the row displays the corresponding attribute value. The fields are read-only.
 
 - [< GO BACK]   
-  Click this button to go back to the previous step of adding variants. The *Select Values* wizard window is displayed.
+  Click this button to go back to the previous step of adding variants. The *Select values* wizard window is displayed.
 
 - [ABORT]   
   Click this button to cancel adding variants and close the *Summary* wizard window.
@@ -1006,9 +1006,9 @@ The *Completeness* tab displays the completeness of the product for the differen
 
 For each catalog a single box to assign the new product to a category is displayed. You can assign a product to several categories at the same time.
 
-**Catalog Name**
+**"Catalog name"**
 
-- [EDIT ATTRIBUTE *CATALOG NAME*]   
+- [EDIT ATTRIBUTE "CATALOG NAME"]   
   Click this button to assign the product to a category or a sub-category in the selected catalog. The categories window is displayed.
 
 The box displays all selected categories and their level. All fields are read-only. If no category is selected, the notice *No nodes selected* is displayed in the box.
@@ -1065,7 +1065,7 @@ The box displays all associated product for cross selling. All fields are read-o
 - *SKU*   
   Stock Keeping Unit. Identification number of the product.
 
-- *Attribute Set*   
+- *Attribute set*   
   Assigned attribute set.
 
 - ![Eye](../../Assets/Icons/Eye01.png "[Eye]") (Eye)   
@@ -1109,7 +1109,7 @@ The list displays all products. All fields are read-only.
 - *SKU*   
   Stock Keeping Unit. Identification number of the product.
 
-- *Attribute Set*   
+- *Attribute set*   
   Assigned attribute set.
 
 
@@ -1146,17 +1146,17 @@ The list displays the change history of the product. All fields are read-only. D
 - *Author*   
   Name and username of the user who modified the product.
 
-- *Changed Elements*   
+- *Changed elements*   
   List of elements that were changed.
 
 - *ID*   
   Identification number of the change. The ID number is automatically assigned by the system.  
 
 - ![Eye](../../Assets/Icons/Eye01.png "[Eye02]") (Eye)   
-  Click this button to display the *History (Single Entry)* window. This button is only displayed, when the checkbox of a change entry is selected. Alternatively, you can click directly a row in the list to display the *History (Single Entry)* window.   
+  Click this button to display the *History (Single entry)* window. This button is only displayed, when the checkbox of a change entry is selected. Alternatively, you can click directly a row in the list to display the *History (Single entry)* window.   
 
 
-### History (Single Entry)
+### History (Single entry)
 *PIM > Products > Select product > Tab History > Select checkbox > Button Eye*
 
 ![History](../../Assets/Screenshots/PIM/Products/List/History/HistorySingleEntry.png "[History]")
@@ -1218,7 +1218,7 @@ This tab displays the *Basic data* and *Warehouse / Suppliers* sub-tabs. These s
 
 ![UCS Marketplaces](../../Assets/Screenshots/PIM/Products/List/UCSMarketplaces/UCSMarketplacesEdit.png "[UCS Marketplaces]")
 
-This tab displays the *Basic data* and *webshop* sub-tabs. These sub-tabs are excerpts from the tabs in the *Material Management* module: *Material Management > Product > PRODUCT > Select product*
+This tab displays the *Basic data* and *Webshop* sub-tabs. These sub-tabs are excerpts from the tabs in the *Material management* module: *Material management > Product > PRODUCT > Select product*
 
 [comment]: <> (link to the Corresponding material management/Artikelverwaltung documentation? What about the buttons [HILFE] and [SPEICHERN]?)
 
@@ -1276,7 +1276,7 @@ The list displays all created offers to this product. All fields are read-only.
 - *Connection*   
   Selected connection for the offer.
 
-- *Attribute Set*   
+- *Attribute set*   
   Selected attribute set for the offer.
 
 - *last edited on*   
@@ -1326,12 +1326,12 @@ The list displays all created offers to this product. All fields are read-only.
 
 ![Add to a single connection](../../Assets/Screenshots/PIM/Products/List/Offers/SingleConnection.png "[Add to a single connection]")
 
-**Create Offer**
+**Create offer**
 
-- *Select Connection*   
+- *Select connection*   
   Click the drop-down list to select a connection for the offer. All available connections are displayed in the list.
 
-- *Attribute Set*   
+- *Attribute set*   
   Click the drop-down list to select an attribute set for the offer. All active attribute sets are displayed in the drop-down list. The drop-down list is locked if no connection is selected.
 
 - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Generate SKU*   
@@ -1358,10 +1358,10 @@ The list displays all created offers to this product. All fields are read-only.
 
 
 - [CANCEL]   
-  Click this button to cancel adding an offer and close the *Create Offer* window.
+  Click this button to cancel adding an offer and close the *Create offer* window.
 
 - [SAVE]   
-  Click this button to save the offer and close the *Create Offer* window.
+  Click this button to save the offer and close the *Create offer* window.
 
 
 ### Add to multiple connections
@@ -1396,7 +1396,7 @@ The list displays all created offers to this product. All fields are read-only.
   Enable a toggle to select the corresponding connection to create an offer to. All available connections are displayed. By default, all toggles are disabled.
 
 - [CANCEL]   
-  Click this button to cancel adding multi-connection offers and close the *Select Connections and status* wizard window.
+  Click this button to cancel adding multi-connection offers and close the *Select connections and status* wizard window.
 
 - [CONTINUE]   
   Click this button to proceed to the next step to add multi-connection offers. The *Select destination attribute sets* wizard window is displayed.
@@ -1410,7 +1410,7 @@ The list displays all created offers to this product. All fields are read-only.
   Destination attribute set for the selected connection. The attribute set is automatically selected. The field is read-only. An own attribute set is assigned to each selected connection.
 
 - [< BACK]   
-  Click this button to go back to the previous step. The *Select Connections and status* wizard window is displayed.
+  Click this button to go back to the previous step. The *Select connections and status* wizard window is displayed.
 
 - [CANCEL]   
   Click this button to cancel adding multi-connection offers and close the *Select destination attribute sets* wizard window.

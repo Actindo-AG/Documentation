@@ -34,11 +34,11 @@ An attribute set has been created, see [Create an attribute set](../Integration/
   > [Info] The SKU (Stock Keeping Unit) is an identification number for the product. Therefore, it should be unique within the *PIM* module.
 
 4. Click the [CREATE] button.   
-  The *Create Product* view is displayed. The *Attributes* tab is preselected.
+  The *Create product* view is displayed. The *Attributes* tab is preselected.
 
   ![Attributes](../../Assets/Screenshots/PIM/Products/List/Attributes/AttributesCreate.png "[Attributes]")
 
-5. Enter the data for the product in the *Attributes* tab. It is recommended to complete at least the *Product Name*, *Price* and *Tax class* fields.   
+5. Enter the data for the product in the *Attributes* tab. It is recommended to complete at least the *Product name*, *Price* and *Tax class* fields.   
 
   > [Info] All fields marked with the note *(required)* are used for the completeness calculation of product attributes. You can enable the *show empty required attributes only* toggle to display only the incomplete required attribute fields for the selected product.
 
@@ -66,14 +66,14 @@ At least one product has been created, see [Create a product](#create-a-product)
 ![Product list](../../Assets/Screenshots/PIM/Products/List/Products.png "[Product list]")
 
 1. Click the product you want to edit in the list of products.   
-  The *Edit Product* view is displayed. The *Attributes* tab is preselected.
+  The *Edit product* view is displayed. The *Attributes* tab is preselected.
 
   ![Attributes](../../Assets/Screenshots/PIM/Products/List/Attributes/AttributesEdit.png "[Attributes]")
 
 2. Edit the desired data of the product in the corresponding fields and tabs.
 
 3. Click the [SAVE] button in the upper right corner.   
-  The changes have been saved. The *Edit Product* view is closed.  
+  The changes have been saved. The *Edit product* view is closed.  
 
 
 
@@ -94,7 +94,7 @@ At least two products have been created, see [Create a product](#create-a-produc
   The editing toolbar is displayed above the product list.
 
 2. Click the [START MASS EDITING] button in the toolbar.   
-  The *Mass Editing* side bar is displayed on the right side.
+  The *Mass editing* side bar is displayed on the right side.
 
   ![Mass editing](../../Assets/Screenshots/PIM/Products/List/MassEditing.png "[Mass editing]")
 
@@ -107,11 +107,11 @@ At least two products have been created, see [Create a product](#create-a-produc
   ![Select attributes](../../Assets/Screenshots/PIM/Products/List/MassEditingWizard/SelectAttributes.png "[Select attributes]")
 
 4. Select the checkboxes of the attributes you want to edit and click the [CONTINUE] button in the bottom right corner.   
-  If at least one of the selected attributes is multi-language or multi-channel, the *Select Channels and Languages* wizard window is displayed. Otherwise, this wizard window is skipped and the *Editing* wizard window with the selected products and their attributes to be edited is displayed. In this case, continue with step **6**.
+  If at least one of the selected attributes is multi-language or multi-channel, the *Select channels and languages* wizard window is displayed. Otherwise, this wizard window is skipped and the *Editing* wizard window with the selected products and their attributes to be edited is displayed. In this case, continue with step **6**.
 
   ![Select channels and languages](../../Assets/Screenshots/PIM/Products/List/MassEditingWizard/SelectChannelsLanguages.png "[Select channels and languages]")
 
-5. Select the appropriate channels and languages by selecting the corresponding checkboxes in the *Select Channels* and *Select Languages* sections and click the [CONTINUE] button in the bottom right corner.   
+5. Select the appropriate channels and languages by selecting the corresponding checkboxes in the *Select channels* and *Select languages* sections and click the [CONTINUE] button in the bottom right corner.   
   The *Editing* wizard window with the selected products and their attributes to be edited is displayed.
 
   ![Editing](../../Assets/Screenshots/PIM/Products/List/MassEditingWizard/Editing.png "[Editing]")
@@ -121,18 +121,18 @@ At least two products have been created, see [Create a product](#create-a-produc
   > [Info] Click the ![Points](../../Assets/Icons/Points02.png "[Points]") (Points) button next to an attribute value field to apply the corresponding value to either all attributes in the column or to the attributes in the column of the selected products.   
 
 7.  Click the [CONTINUE] button in the bottom right corner.   
-The *Applying Changes* wizard window and the *Mass editing has been triggered* pop-up window are displayed.
+The *Applying changes* wizard window and the *Mass editing has been triggered* pop-up window are displayed.
 
   ![Mass editing triggered](../../Assets/Screenshots/PIM/Products/List/MassEditingWizard/MassEditingTriggered.png "[Mass editing triggered]")
 
-  The progress bar in the *Applying Changes* wizard window displays **100%** when the changes has been applied.
+  The progress bar in the *Applying changes* wizard window displays **100%** when the changes has been applied.
 
   > [Info] As the change job is executed in the background, the wizard window can be closed before the progress bar reaches **100%**.
 
   ![Applying changes](../../Assets/Screenshots/PIM/Products/List/MassEditingWizard/ApplyingChanges.png "[Applying changes]")
 
 8. Click the [FINALIZE] button in the bottom right corner.   
-  The changes have been saved. The *Applying Changes* wizard window is closed.
+  The changes have been saved. The *Applying changes* wizard window is closed.
 
 
 
@@ -153,7 +153,7 @@ At least one product has been created, see [Create a product](#create-a-product)
   The editing toolbar is displayed above the product list.
 
 2. Click the [COPY PRODUCT] button in the toolbar.   
-  The *Edit Product (Copy)* view is displayed. The *Attributes* tab is preselected. All attribute values from the selected product are adopted to the copied product.
+  The *Edit product (Copy)* view is displayed. The *Attributes* tab is preselected. All attribute values from the selected product are adopted to the copied product.
 
   ![Attributes](../../Assets/Screenshots/PIM/Products/List/Attributes/AttributesCopy.png "[Attributes]")
 
@@ -161,14 +161,14 @@ At least one product has been created, see [Create a product](#create-a-product)
 
   > [Info] The SKU (Stock Keeping Unit) is an identification number for the product. Therefore, it should be unique within the *PIM* module.
 
-4. Click the  *Product Name* field and edit the product name for the new product.
+4. Click the  *Product name* field and edit the product name for the new product.
 
-5. Add or edit the data for the product in the *Attributes* tab. It is recommended to complete at least the *Product Name*, *Price* and *Tax class* fields.   
+5. Add or edit the data for the product in the *Attributes* tab. It is recommended to complete at least the *Product name*, *Price* and *Tax class* fields.   
 
   > [Info] All fields marked with the note *(required)* are used for the completeness calculation of product attributes. You can enable the *show empty required attributes only* toggle to display only the incomplete required attribute fields for the selected product.
 
 6. Click the [SAVE] button in the upper right corner.   
-  The product has been saved and is added to the product list. The *Edit Product (Copy)* view is closed. The product list is displayed.
+  The product has been saved and is added to the product list. The *Edit product (Copy)* view is closed. The product list is displayed.
 
 
 
@@ -193,7 +193,7 @@ If you want to offer the product on a single connection only or you have just on
 ![PIM Products](../../Assets/Screenshots/PIM/Products/List/Products.png "[PIM Products]")
 
 1. Click the product you want to create an offer to in the product list.    
-  The *Edit Product* view is displayed.
+  The *Edit product* view is displayed.
 
 2. Click the *Offers* tab in the product view.   
   The *Offers* tab with a list of all existing offers to the product in all connections is displayed.
@@ -206,39 +206,39 @@ If you want to offer the product on a single connection only or you have just on
   ![Add Offer](../../Assets/Screenshots/PIM/Products/List/Offers/AddEdit.png "[Add Offer]")
 
 4. Click the [Add to a single connection ![Add to a single connection](../../Assets/Icons/Document.png "[Single connection]") ] button to create an offer from the selected PIM product to a single connection.   
-   The *Create Offer* window is displayed.
+   The *Create offer* window is displayed.
 
    ![Single connection offer](../../Assets/Screenshots/PIM/Products/List/Offers/SingleConnection.png "[Single connection offer]")
 
 5. Configure the following settings:
 
-  + Click the *Select Connection* drop-down list and select the connection for which you want to create the offer. All active connections are displayed in the list.    
-  The *Select Attribute Set* drop-down list is unlocked.
+  + Click the *Select connection* drop-down list and select the connection for which you want to create the offer. All active connections are displayed in the list.    
+  The *Select attribute set* drop-down list is unlocked.
 
-  + Click the *Select Attribute Set* drop-down list and select the appropriate attribute set for the offer. All active attribute sets are displayed in the list.   
+  + Click the *Select attribute set* drop-down list and select the appropriate attribute set for the offer. All active attribute sets are displayed in the list.   
 
   + Enable the *Generate SKU* toggle to automatically create a SKU for the product offer.   
 
-  + Select the appropriate option for change tracking in the *Change Tracking Mode* section:   
+  + Select the appropriate option for change tracking in the *Change tracking mode* section:   
    ![Radionbutton](../../Assets/Icons/Radiobutton.png "[Radiobutton]") *manual*: Changes in a PIM product must be triggered manually to be applied to the offer. The initial offer is automatically applied.   
    ![Radionbutton](../../Assets/Icons/Radiobutton.png "[Radiobutton]") *semi-automatic*: Changes in a PIM product are automatically applied to the offer after confirmation in the *Omni-Channel* module. The initial offer is automatically applied without confirmation.   
    ![Radionbutton](../../Assets/Icons/Radiobutton.png "[Radiobutton]") *semi-automatic, changes must be confirmed by another user*: Changes in a PIM product are automatically applied to the offer after confirmation in the *Omni-Channel* module by another user. The initial offer is only applied after confirmation by another user.    
    ![Radionbutton](../../Assets/Icons/Radiobutton.png "[Radiobutton]") *automatic*: Changes in a PIM product are automatically applied to the offer. The initial offer is also automatically applied.
 
-  + Click the *Offer Status* drop-down list and select the initial offer status. The statuses below are available:   
+  + Click the *Offer status* drop-down list and select the initial offer status. The statuses below are available:   
     + **active**: The offer is active. It is displayed in the selected connection and can be sold there.   
     + **inactive**: The offer is inactive. It is not displayed in the selected connection and cannot be sold there.   
     + **offline**: The offer is unknown to the selected connection and cannot be sold there.   
 
 
-6. Click the [SAVE] button in the bottom right corner of the *Create Offer* window.   
-The single offer is added to the list of offers. The *Create Offer* window is closed.
+6. Click the [SAVE] button in the bottom right corner of the *Create offer* window.   
+The single offer is added to the list of offers. The *Create offer* window is closed.
 
   > [Info] The product must be saved to start the creation process of the offer.
 
 
 7. Click the [SAVE] button in the upper right corner.   
-  The *Edit Product* view is closed. The *LIST* tab with the product list is displayed again. The new offer will be created.
+  The *Edit product* view is closed. The *LIST* tab with the product list is displayed again. The new offer will be created.
 
   > [Info] It may take some time until the offer has been finally created.
 
@@ -261,7 +261,7 @@ To create offers to a product for several connections at the same time, you can 
 ![PIM Products](../../Assets/Screenshots/PIM/Products/List/Products.png "[PIM Products]")
 
 1. Click the product you want to create an offer to in the product list.    
-  The *Edit Product* view is displayed.
+  The *Edit product* view is displayed.
 
 2. Click the *Offers* tab.   
   The *Offers* tab with a list of all existing offers of the product in all connections is displayed.
@@ -280,7 +280,7 @@ To create offers to a product for several connections at the same time, you can 
 
 5. Configure the following settings:
 
-  + Click the *Offer Status* drop-down list and select the initial offer status. The statuses below are available:   
+  + Click the *Offer status* drop-down list and select the initial offer status. The statuses below are available:   
     + **active**: The offer is active. It is displayed in the selected connection and can be sold there.   
     + **inactive**: The offer is inactive. It is not displayed in the selected connection and cannot be sold there.   
     + **offline**: The offer is unknown to the selected connection and cannot be sold there.   
@@ -308,6 +308,6 @@ To create offers to a product for several connections at the same time, you can 
   > [Info] The product must be saved to start the creation process of the offers.
 
 8. Click the [SAVE] button in the upper right corner.   
-The *Edit Product* view is closed. The *LIST* tab with the product list is displayed again. The new offers will be created.
+The *Edit product* view is closed. The *LIST* tab with the product list is displayed again. The new offers will be created.
 
   > [Info] It may take some time until the offers have been finally created.

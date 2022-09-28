@@ -22,7 +22,7 @@ No prerequisites to fulfill.
 ![Products](../../Assets/Screenshots/PIM/Products/List/Products.png "[Products]")
 
 1. Click the product to which the stock is not displayed in the product list.
-  The *Edit Product* view is displayed.
+  The *Edit product* view is displayed.
 
   ![Attributes](../../Assets/Screenshots/PIM/Products/List/Attributes/AttributesEdit.png "[Attributes]")
 
@@ -38,12 +38,12 @@ No prerequisites to fulfill.
 4. In the *Basic data* sub-tab, check if the option **Yes** is selected for the *Warehouse logistics active for this product* drop-down list. If not, select this option.
 
 5. Click the [SAVE] button in the upper right corner to save any changes.   
-  The changes have been applied. The *Edit Attribute* view is closed.
+  The changes have been applied. The *Edit attribute* view is closed.
 
 6. Press **F5** to initialize the *Core1 Platform*.
 
 7. Click again the product to which the stock was not displayed in the product list.   
-  The *Edit Product* view is displayed.
+  The *Edit product* view is displayed.
 
   ![UCS Warehouse](../../Assets/Screenshots/PIM/Products/List/UCSWarehouse/UCSWarehouseEdit.png "[UCS Warehouse]")
 

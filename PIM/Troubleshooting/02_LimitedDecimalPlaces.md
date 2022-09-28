@@ -24,7 +24,7 @@ No prerequisites to fulfill.
 1. Search for the respective attribute in the attribute list.
 
 2. Click the respective attribute in the attribute list.   
-  The *Edit Attribute* view is displayed.
+  The *Edit attribute* view is displayed.
 
   ![Edit attribute](../../Assets/Screenshots/PIM/Settings/Attributes/EditAttribute_Precision.png "[Edit attribute]")
 
@@ -35,7 +35,7 @@ No prerequisites to fulfill.
 4. If necessary, click the *Precision* field and edit the number of decimals to the desired number.
 
 5. Click the [SAVE] button in the upper right corner to save any changes.   
-  The changes have been applied. The *Edit Attribute* view is closed.
+  The changes have been applied. The *Edit attribute* view is closed.
 
 6. Press **F5** to initialize the *Core1 Platform*.
 
@@ -44,7 +44,7 @@ No prerequisites to fulfill.
 
   ![Products](../../Assets/Screenshots/PIM/Products/List/Products.png "[Products]")
 
-8. Click the respective product in the list of products, select the *Attributes* tab in the *Edit Product* view and retry to edit the floating point number in the corresponding attribute field as desired.
+8. Click the respective product in the list of products, select the *Attributes* tab in the *Edit product* view and retry to edit the floating point number in the corresponding attribute field as desired.
 
   > [Info] If the number of decimals is still limited, please contact the Customer Support.    
 

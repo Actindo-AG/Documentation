@@ -13,7 +13,7 @@ The *LIST* tab is the view where you can see and manage the products. To have a 
 
 ## Select a language
 
-You can select the language for which the attribute values of the products are displayed. Only multi-language attributes can have different values in different languages. Otherwise, the value remain the same in all languages. Note that the selected language only refers to the display language of the attribute values but does not equal to the user interface language. To change the interface language, you have to [change the user language settings](to_be_completed).
+You can select the language for which the attribute values of the products are displayed. Only multi-language attributes can have different values in different languages. Otherwise, the value remain the same in all languages. Note that the selected language only refers to the display language of the attribute values but does not equal to the user interface language. To change the interface language, you have to change the user language settings.
 
 #### Prerequisites
 

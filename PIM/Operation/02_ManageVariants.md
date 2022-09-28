@@ -38,11 +38,11 @@ The *Create new product* window is displayed.
   > [Info] The SKU (Stock Keeping Unit) is an identification number for the product. Therefore, it should be unique within the *PIM* module.
 
 4. Click the [CREATE] button.   
-The *Create Product* view is displayed. The *Attributes* tab is preselected.
+The *Create product* view is displayed. The *Attributes* tab is preselected.
 
   ![Attributes](../../Assets/Screenshots/PIM/Products/List/Attributes/AttributesCreate.png "[Attributes]")
 
-5. Enter the data for the product in the *Attributes* tab. It is recommended to complete at least the *Product Name*, *Price* and *Tax class* fields.   
+5. Enter the data for the product in the *Attributes* tab. It is recommended to complete at least the *Product name*, *Price* and *Tax class* fields.   
 
   > [Info] All fields marked with the note *(required)* are used for the completeness calculation of product attributes. You can enable the *show empty required attributes only* toggle to display only the incomplete required attribute fields for the selected product.
 
@@ -109,7 +109,7 @@ A variant set has been created to the attribute set of the product you want to a
 ![Add variants](../../Assets/Screenshots/PIM/Products/List/Variants/AddVariantCreate.png "[Add variants]")
 
 1. Click the [Add multiple variants ![Add multiple variants](../../Assets/Icons/Documents.png "[Add multiple variants]") ] button.   
-  The *Select Values* wizard window is displayed.
+  The *Select values* wizard window is displayed.
 
   ![Select values wizard](../../Assets/Screenshots/PIM/Products/List/Variants/AddMultipleVariants01.png "[Select values wizard]")
 
@@ -162,7 +162,7 @@ You can add a single or multiple variants to a product directly when you create 
 ![Product list](../../Assets/Screenshots/PIM/Products/List/Products.png "[Product list]")
 
 1. Click the master product you want to create one or more variants to.   
-  The *Edit Product* view is displayed. The *Attributes* tab is preselected.
+  The *Edit product* view is displayed. The *Attributes* tab is preselected.
 
   ![Attributes](../../Assets/Screenshots/PIM/Products/List/Attributes/AttributesEdit.png "[Attributes]")
 
@@ -203,7 +203,7 @@ At least one variant has been created, see [Create variants](#create-variants) o
   ![All products](../../Assets/Screenshots/PIM/Products/List/AllProducts.png "[All products]")
 
 2. Click the variant you want to edit.   
-  The *Edit Product* view is displayed. The *Attributes* tab is preselected.
+  The *Edit product* view is displayed. The *Attributes* tab is preselected.
 
   ![Attributes](../../Assets/Screenshots/PIM/Products/List/Attributes/AttributesVariant.png "[Attributes]")
 
@@ -212,4 +212,4 @@ At least one variant has been created, see [Create variants](#create-variants) o
   > [Info] Note that changes of the defining attributes are also applied to the variant settings of the master product. Especially when you are using a SKU with the defining attribute values as a placeholder, it is not recommended to modify a defining attribute value.
 
 4. Click the [SAVE] button in the upper right corner.   
-  The changes have been saved. The *Edit Product* view is closed.
+  The changes have been saved. The *Edit product* view is closed.

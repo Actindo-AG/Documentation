@@ -145,7 +145,7 @@ The following buttons and fields are only displayed when you have added a catego
 
   > [Info] You have to click the button [SAVE] in the *Create new catalog* or *Edit catalog* view to finally delete the group.
 
-  > [Warning] Be aware that as soon as you delete a category, you also delete all assigned sub-categories.
+  > [Caution] Be aware that as soon as you delete a category, you also delete all assigned sub-categories.
 
 - [CANCEL]   
   Click this button to cancel adding a category and close the window.

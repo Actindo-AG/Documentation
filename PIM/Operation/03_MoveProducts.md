@@ -25,7 +25,7 @@ At least one product has been created, see [Create a product](./01_ManageProduct
 1. Select the checkboxes of the products you want to archive.   
   The editing toolbar is displayed above the product list.
 
-2. Click the [ARCHIVE PRODUCTS] button in the toolbar.   
+2. Click the [ARCHIVE PRODUCTS] button in the editing toolbar.   
   The button changes to [ARCHIVING...]. The *Product moved to archive* pop-up window is displayed, indicating the number of archived products.
 
   ![Product moved to archive](../../Assets/Screenshots/PIM/Products/List/ProductMovedToArchive.png "[Product moved to archive]")
@@ -55,7 +55,7 @@ At least one product has been created, see [Create a product](./01_ManageProduct
 1. Select the checkboxes of the products you want to delete.   
   The editing toolbar is displayed above the product list.
 
-2. Click the [MOVE TO RECYCLE BIN] button in the toolbar.   
+2. Click the [MOVE TO RECYCLE BIN] button in the editing toolbar.   
   The button changes to [DELETING...]. The *Product deleted* pop-up window is displayed, indicating the number of deleted products.
 
   ![Product deleted](../../Assets/Screenshots/PIM/Products/List/ProductDeleted.png "[Product deleted]")
@@ -82,7 +82,7 @@ At least one product has been moved to the recycle bin, see [Delete a product](#
 1. Select the checkboxes of the products you want to delete.   
   The editing toolbar is displayed above the product list.
 
-2. Click the [FINALLY DELETE PRODUCTS] button in the toolbar.   
+2. Click the [FINALLY DELETE PRODUCTS] button in the editing toolbar.   
   The button changes to [DELETING...]. The *Products finally deleted* pop-up window is displayed, indicating the number of finally deleted products.
 
   ![Product finally deleted](../../Assets/Screenshots/PIM/Products/RecycleBin/ProductFinallyDeleted.png "[Product finally deleted]")
@@ -114,7 +114,7 @@ At least one product has been moved to the archive or the recycle bin, see [Arch
 1. Select the checkboxes of the products you want to restore.   
   The editing toolbar is displayed above the product list.
 
-2. Click the [RESTORE PRODUCTS] button in the toolbar.   
+2. Click the [RESTORE PRODUCTS] button in the editing toolbar.   
   The button changes to [RESTORING ...]. The *Products restored* pop-up window is displayed, indicating the number of restored products.
 
   ![Products restored](../../Assets/Screenshots/PIM/Products/List/ProductsRestored.png "[Products restored]")

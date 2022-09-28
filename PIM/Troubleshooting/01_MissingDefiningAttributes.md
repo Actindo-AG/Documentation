@@ -22,7 +22,7 @@ No prerequisites to fulfill.
 1. Search for the respective attribute in the attribute list.
 
 2. Click the respective attribute in the attribute list.   
-  The *Edit Attribute* view is displayed.
+  The *Edit attribute* view is displayed.
 
   ![Edit attribute](../../Assets/Screenshots/PIM/Settings/Attributes/EditAttribute_Data.png "[Edit attribute]")
 
@@ -37,7 +37,7 @@ No prerequisites to fulfill.
 4. Check if the *Active* toggle is enabled. Only active attributes are displayed in the list of defining attributes for a variant set. If the toggle is disabled, enable the toggle by clicking it.
 
 5. Click the [SAVE] button in the upper right corner to save any changes.   
-  The changes have been applied. The *Edit Attribute* view is closed.
+  The changes have been applied. The *Edit attribute* view is closed.
 
 6. Press **F5** to initialize the *Core1 Platform*.
 
