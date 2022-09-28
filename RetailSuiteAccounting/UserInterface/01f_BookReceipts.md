@@ -8,6 +8,8 @@ The *POST RECEIPTS* tab allows to assign manually external receipts uploaded in 
 
 All external receipts uploaded in the *New documents* folder in the *Documents* module are displayed in the *POST RECEIPTS* tab. If there are no receipts to be posted, the notice *No documents left to be registered* is displayed.
 
+In all tabs of the *Post* menu entry, an identical header is displayed. For detailed information on the contained elements and the corresponding functions, see [Header](./01_Header.md).
+
 
 **/New Documents/"Document file name" Page x**  
 This path displays the file location, name and page.
@@ -36,10 +38,6 @@ This path displays the file location, name and page.
 - *Download file*  
   Click this button to download the document.
 
-
 A miniature view of the selected document is displayed in the bottom right corner of the workspace.
 
-
-[comment]: <> (Verweis InputLine.md)
-
-The input line allows to create a posting manually to post the receipt. For detailed information, see [Post a receipt](../Operation/10_ManageReceipts.md#post-a-receipt).
+In all tabs of the *Post* menu entry, an identical footer with the input line is displayed. For detailed information on the contained elements and the corresponding functions, see [Input line](./01_InputLine.md).

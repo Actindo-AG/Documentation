@@ -2,9 +2,7 @@
 
 *Accounting > Post > Tab OPEN ITEMS*
 
-![All open items](../../Assets/Screenshots/RetailSuiteAccounting/Book/OpenItems/AllOpenItems.png "[All open items]")  
-
-![Open items for an account](../../Assets/Screenshots/RetailSuiteAccounting/Book/OpenItems/OpenItemsAccount.png "[Open items for an account]")
+![All & account open items](../../Assets/Screenshots/RetailSuiteAccounting/Book/OpenItems/All&AccountOpenItems.png "[All & account open items]")  
 
 The *OPEN ITEMS* tab displays any open items in the system, that is, any business transactions that have not yet been completed.        
 
@@ -20,11 +18,16 @@ If a contra account number is specified in the *Contra account* field of the inp
 
 If no open items exist for the selection, the notice *No open items exist* is displayed.
 
+In all tabs of the *Post* menu entry, an identical header is displayed. For detailed information on the contained elements and the corresponding functions, see [Header](./01_Header.md).
+
 - ![Previous](../../Assets/Icons/Previous.png "[Previous]") (Previous)   
   Click this button to display the open items of the previous available account number.
 
 - ![Next](../../Assets/Icons/Next.png "[Next]") (Next)    
   Click this button to display the open items of the next available account number.
+
+  > [Info] These buttons are only available when the open items for a selected account are displayed.
+
 
 **Open items list**
 
@@ -74,7 +77,7 @@ Above the corresponding open items in the list, the number, name and currency of
   Credit amount of the selected account.
 
 - *(Unnamed column)*
-  Indication of whether a receipt has been linked to the posting. If a receipt has been linked to the posting, the ![B](../../Assets/Icons/Beleg.png "[B]") (B) button is displayed. Click the button to display the corresponding receipt in the *Attached document* window. For detailed information, see [Attached document](#attached-document).
+  Indication of whether a receipt has been linked to the posting. If a receipt has been linked to the posting, the ![B](../../Assets/Icons/Beleg.png "[B]") (B) button is displayed. Click the button to display the corresponding receipt in the *Attached document* window. For detailed information, see [Attached document](./01_Header.md#attached-document).
 
 - *Text*  
   Posting text.
@@ -92,40 +95,4 @@ Above the corresponding open items in the list, the number, name and currency of
 - [CANCEL CLEARING]  
   Click this button to reverse the manual clearance for the selected items. This button is only displayed if the *Show manually cleared open items* radio button is selected.
 
-
-[comment]: <> (Verweis auf InputLine.md. Evtl. dazu: In the *Open items* tab, the input line serves the only purpose of selecting an account if no posting is selected in the *POSTINGS* tab.)
-
-
-### Attached document
-
-[comment]: <> (HG: vgl. 01_Book
--> vielleicht reicht auch ein Verweis auf das entsprechende Kapitel)
-
-*Accounting > Post > Tab OPEN ITEMS > Button B*
-
-![Attached document](../../Assets/Screenshots/RetailSuiteAccounting/Book/Bookings/AttachedDocument.png "[Attached document]")
-
-- ![Previous](../../Assets/Icons/Previous.png "[Previous]") *Document* ![Next](../../Assets/Icons/Next.png "[Next]")   
-  These buttons do not have any function here, as there is only one document (or receipt) assigned to a posting.
-
-[comment]: <> (These buttons do have a function in "BELEGE BUCHEN/BOOK RECEIPTS". Add info? Link?)
-
-- ![First page](../../Assets/Icons/FirstPage02.png "[Previous]") ![First page](../../Assets/Icons/Previous.png "[Previous]") *Page [x]* ![Next](../../Assets/Icons/Next.png "[Next]")  
-  The current page number is displayed. Click the arrow first page/previous/next buttons to scroll through the pages.
-
-- (-) *Zoom* (+)  
-  Click the -/+ buttons to zoom in and out of the document view.
-
-- *Download file*  
-  Click this button to download the document.
-
-[comment]: <> (HG: vgl. 01_Book)
-
-- [CANCEL ASSIGNMENT]  
-  Click this button to unassign the receipt from the selected posting. The *Attached document* window is closed.
-
-- [CLOSE]  
-  Click this button to close the *Attached document* window.
-
-
-[comment]: <> (Verweis auf Input line muss noch rein -> ggf. input line als eigenen header in 01a_Bookings oder ebenso wie die anderen Funktionen in separatem Dokument, damit man darauf verweisen kann.)
+In all tabs of the *Post* menu entry, an identical footer with the input line is displayed. In the *Open items* tab, the input line serves the only purpose of selecting an account if no posting is selected in the *POSTINGS* tab. For detailed information on the contained elements and the corresponding functions, see [Input line](./01_InputLine.md).

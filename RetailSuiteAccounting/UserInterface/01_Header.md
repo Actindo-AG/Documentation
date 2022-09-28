@@ -1,4 +1,4 @@
-# Post header
+# Postings header
 
 *Accounting > Post*
 
@@ -16,7 +16,7 @@ Click this button to display the *Select fiscal year* window, see [Fiscal year](
     Click this menu entry to take over automatically cash payments registered in the cash book. The *Cash book takeover* window is displayed, see [Cash book takeover](#cash-book-takeover).
 
   - *Bank data takeover*  
-    Click this menu entry to take over bank and payment details registered in the *Payment processing* module. The *Bank data synchronizing* window is displayed, see [Bank data takeover](#bank-data-takeover).
+    Click this menu entry to take over bank and payment details registered in the *Payment processing* module. The *Bank data synchronizing* window is displayed, see [Bank data takeover](#bank-data-takeover). This function is no longer supported and, therefore, it is not described.
 
   - ![Lock](../../Assets/Icons/Lock02.png "[Lock]") *Process*  
     Click this menu entry to process several postings simultaneously. The *Process postings* window is displayed, see [Process](#process).
@@ -85,7 +85,7 @@ Click this button to display the *Select fiscal year* window, see [Fiscal year](
 
 The list displays all cash payments registered in the cash book, which can be taken over automatically in the *Accounting* module. All fields are read-only, except for those in the *T* column.
 
-[comment]: <> (Add link when documentation is available)
+[comment]: <> (Link hinzufügen, wenn verfügbar)
 
 - *Seq. no.*  
   Sequential number as registered in the cash book.
@@ -140,7 +140,7 @@ The list displays all cash payments registered in the cash book, which can be ta
 
 An individual posting from the cash book can be selected and partially edited before takeover. Click the posting to be edited. Its details are displayed in the input line.
 
-[comment]: <> (Unsure! RS FH. Add operation file? RS FH!)
+[comment]: <> (Unsure! Working correctly? Additional Info needed. Add operation file?)
 
 - *Seq. no.*  
   This field displays the posting sequential number and cannot be modified.  
@@ -180,13 +180,15 @@ An individual posting from the cash book can be selected and partially edited be
 - [DELETE]    
   Click this button to delete the selected posting. A confirmation window is displayed. Click the [OK] button to delete the selected postings.
 
-  [comment]: <> (FEHLER: löschen hier nicht möglich! -> even though takeover not yet performed? Probably because it is linked to cash book/Kassenbuch? What is the use of this button here? RS FH)
+  [comment]: <> (FEHLER: löschen hier nicht möglich! -> even though takeover not yet performed? Probably because it is linked to cash book/Kassenbuch? What is the use of this button here? Extra Info needed)
 
 - [CLEAR]    
   Click this button to clear all input line fields.
 
 - [SPLIT]    
   Click this button to split the selected posting.
+
+  [comment]: <> (The window "Split posting" is displayed, see ... hinzufügen? Splitbuchungfunktion scheint hier nicht zu funktionieren.  Bug? Fenster trotzdem hinzufügen?)
 
   [comment]: <> (Fehlermeldungen: beim klicking auf SPLIT -> Unbekannte Bankbuchung. Wenn man versucht, eine Splitbuchung zu machen -> Meldung: Gebucht und in rot "Umsatz, GegKonto, Datum oder Konto leer! Ungültiges Datum!" Alle Felder sind aber richtig ausgefüllt, jetzt zeigen sie aber alle 0, außer Beleg 1, GegKonto und Text)
 
@@ -311,8 +313,7 @@ An individual posting from the cash book can be selected and partially edited be
   Click this button to cancel all changes. The *Balance carried forward: Step 1* window is closed.
 
 - [CONTINUE]  
-  Click this button to proceed to the next step. The *Retrieve account balances* window is displayed.
-
+  Click this button to proceed to the next step. The *Retrieve account balances* window is displayed, see [Retrieve account balances](#retrieve-account-balances).
 
 ### Retrieve account balances
 
@@ -342,7 +343,7 @@ An individual posting from the cash book can be selected and partially edited be
   Click this button to cancel all changes. The *Retrieve account balances* window is closed.
 
 - [CONTINUE]  
-  Click this button to proceed and carry the selected balances forward. The *Balance carried forward completed* pop-up-window is displayed. The *Carry balances forward* window is displayed.
+  Click this button to proceed and carry the selected balances forward. The *Balance carried forward completed* pop-up window is displayed. The *Carry balances forward* window is displayed, see [Carry balances forward](#carry-balances-forward).
 
 ### Carry balances forward
 
@@ -417,6 +418,9 @@ An individual posting from the cash book can be selected and partially edited be
 *Accounting > Post > Button EDIT > Menu entry Supplier receipts > Tab Acquire*
 
 ![Acquire supplier receipts](../../Assets/Screenshots/RetailSuiteAccounting/Book/SupplierReceiptsAcquire.png "[Acquire supplier receipts]")
+
+- **/Folder/Document file name Page x**  
+This path displays the file location, name and page.
 
 - ![Previous](../../Assets/Icons/Previous.png "[Previous]")   
   Click this button to display the previous document.
@@ -650,9 +654,7 @@ The list displays all available supplier receipts. Depending on the settings, th
   Contra account number.
 
 - *Doc*  
-  Click the ![B](../../Assets/Icons/Beleg02.png "[B]") icon to display the acquired receipt in a new window.
-
-[comment]: <> (Describe new window? Angehängtes Dokument window. See 01a_Bookings.md, Document attached.)
+  Click the ![B](../../Assets/Icons/Beleg02.png "[B]") icon to display the acquired receipt in a new window. The *Attached document* window is displayed, see [Attached document](#attached-document).
 
 - *Reference1*  
   Reference 1 value.
@@ -675,7 +677,7 @@ The list displays all available supplier receipts. Depending on the settings, th
 - *Flag*  
   Color name. The color name is only displayed, if the receipt has been flagged in the *Purchasing* module.
 
-[comment]: <> (Einkauf / Lieferantenbelege prüfen / Beleg markieren / Beleg marieren -> Flag + Comments)  
+[comment]: <> (Link hinzufügen, wenn verfügbar)  
 
 - *Comment*  
   Comment. The comment is only displayed if a comment has been added by flagging the receipt in the *Purchasing* module.
@@ -683,7 +685,7 @@ The list displays all available supplier receipts. Depending on the settings, th
 - *Comments*  
   If further comments have been added, the ![Comment](../../Assets/Icons/Comment.png "[Comment]") (Comment) icon is displayed. Click the icon to display the comment(s) in a new window.
 
-[comment]: <> (Einkauf / Lieferantenbelege prüfen / Beleg markieren / Kommentare)  
+[comment]: <> (Link hinzufügen, wenn verfügbar)  
 
 - *Reason for rejection*   
   If the receipt has been rejected and a reason has been entered, the ![Comment](../../Assets/Icons/Comment.png "[Comment]") (Comment) icon is displayed. Hover over the icon to display the comment.
@@ -731,8 +733,6 @@ The list displays all available supplier receipts. Depending on the settings, th
 - [RESET]  
   Click this button to reset the receipt list view.
 
- [comment]: <> (Unsure! What does RESET button do?)
-
 
 ### Financial accounting takeover
 
@@ -752,9 +752,7 @@ The list displays all receipts with **Released** status.
   Contra account number.
 
 - *Doc*   
-  Click the ![B](../../Assets/Icons/Beleg02.png "[B]") button to display the acquired receipt in a new window.
-
-[comment]: <> (Describe new window? Angehängtes Dokument window. See 01a_Bookings.md, Document attached.)
+  Click the ![B](../../Assets/Icons/Beleg02.png "[B]") button to display the acquired receipt in a new window. The *Attached document* window is displayed, see [Attached document](#attached-document).
 
 - *Reference1*   
   Reference 1 value.
@@ -777,7 +775,7 @@ The list displays all receipts with **Released** status.
 - *Flag*  
   Color name. The color name is only displayed, if the receipt has been flagged in the *Purchasing* module.
 
-[comment]: <> (Einkauf / Lieferantenbelege prüfen / Beleg markieren / Beleg marieren -> Flag + Comments)  
+[comment]: <> (Link hinzufügen, wenn verfügbar)  
 
 - *Comment*   
   Comment. The comment is only displayed if a comment has been added by flagging the receipt in the *Purchasing* module.
@@ -785,7 +783,7 @@ The list displays all receipts with **Released** status.
 - *Comments*   
   If further comments have been added, the ![Comment](../../Assets/Icons/Comment.png "[Comment]") (Comment) icon is displayed. Click the icon to display the comment(s) in a new window.
 
-[comment]: <> (Einkauf / Lieferantenbelege prüfen / Beleg markieren / Kommentare)  
+[comment]: <> (Link hinzufügen, wenn verfügbar)  
 
 - *Reason for rejection*   
   If the receipt has been rejected and a reason has been entered, the ![Comment](../../Assets/Icons/Comment.png "[Comment]") (Comment) icon is displayed. Hover over the icon to display the comment.
@@ -871,7 +869,49 @@ The input line is unlocked if at least one checkbox is selected.
   Click this button to perform a split posting if necessary. The *Breakdown posting* window is displayed, see [Breakdown posting](#breakdown-posting).
 
 
-### Breakdown posting
+#### Attached document
+
+*Accounting > Post > Button EDIT > Menu entry Supplier receipts > Tab Overview > Button B*
+
+![Attached document](../../Assets/Screenshots/RetailSuiteAccounting/Book/Bookings/AttachedDocument.png "[Attached document]")
+
+
+**/Folder/Document file name Page x**  
+This path displays the file location, name and page.
+
+- ![Previous](../../Assets/Icons/Previous.png "[Previous]")   
+  Click this button to display the previous document.
+
+- ![Next](../../Assets/Icons/Next.png "[Next]")   
+  Click this button to display the next document.
+
+- ![First page](../../Assets/Icons/FirstPage02.png "[Previous]")  
+  Click this button to display the first page of the selected document.
+
+- ![Previous](../../Assets/Icons/Previous.png "[Previous]")   
+  Click this button to display the previous page of the selected document.
+
+- ![Next](../../Assets/Icons/Next.png "[Next]")   
+  Click this button to display the next page of the selected document.
+
+- (-)   
+  Click this button to zoom in the selected document.
+
+- (+)     
+  Click this button to zoom out the selected document.
+
+- *Download file*  
+  Click this button to download the document.
+
+A miniature view of the selected document is displayed in the bottom right corner of the workspace.
+
+- [CANCEL ASSIGNMENT]  
+  Click this button to unassign the receipt from the selected posting. The *Attached document* window is closed. This button is only displayed when needed.
+
+- [CLOSE]  
+  Click this button to close the *Attached document* window.
+
+#### Breakdown posting
 
 *Accounting > Post > Button EDIT > Menu entry Supplier receipts > Tab Financial accounting takeover > Select receipt > Button SPLIT*
 
@@ -958,8 +998,6 @@ By default, the data of the selected receipt is preset in the input line.
   Click this button to apply the split posting.
 
 
-
-
 ## Account balance
 
 *Accounting > Post > Button EVALUATIONS > Menu entry Account balance*
@@ -1000,7 +1038,6 @@ By default, the data of the selected receipt is preset in the input line.
   Click this button to create the evaluation report in a printable format. An evaluation report preview is displayed in a new window.
 
 
-
 ## Account sheet
 
 *Accounting > Post > Button EVALUATIONS > Menu entry Account sheet*
@@ -1011,9 +1048,7 @@ By default, the data of the selected receipt is preset in the input line.
   Select the checkbox to include only the newly added postings.
 
 - [x] *Reset mark*
-  Select the checkbox to
-
-[comments]: <> (Alt-Doku: Setzen Sie einen Haken in das Kästchen, wenn nur die neu hinzugefügten Buchungen in dem Kontenblatt ausgegeben werden soll. Damit diese Funktion greift, muss zusätzlich das Feld Kennzeichen zurücksetzen angewählt werden. Stimmt das so? Was macht diese Funktion/Checkbox? Was ist mit "Kennzeichen zurücksetzen" gemeint?)
+  This checkbox must be selected for the previously set function to work.
 
 - *Month*  
   Enter the period of months to be included.
@@ -1110,7 +1145,6 @@ By default, the data of the selected receipt is preset in the input line.
   - **Balance list**  
     Select this option to display a balance list view.
 
- [comment]: <> (Difference? to be completed!)
 
 - *Sorting*  
   Click the drop-down list to select the sorting mode. The following options are available:
@@ -1120,6 +1154,7 @@ By default, the data of the selected receipt is preset in the input line.
     Select this option to sort the data by cost center. When selecting this option, the *Cost center* and the *Show distribution* drop-down list are displayed. This option is only displayed if cost centers have been set up, see [Cost accounting](./02e_CostAccounting.md).
   - **By cost objects**  
     Select this option to sort the data by cost object. When selecting this option, the *Cost object* and the *Show distribution* drop-down list are displayed. This option is only displayed if cost objects have been set up, see [Cost accounting](./02e_CostAccounting.md).
+
 
 - *Cost center*   
   Click the drop-down list to select the applicable cost center. All available cost centers are displayed in the list.
@@ -1138,7 +1173,6 @@ By default, the data of the selected receipt is preset in the input line.
 
 - [PRINT]  
   Click this button to create the evaluation report in a printable format.
-
 
 
 ## Open items
@@ -1183,7 +1217,6 @@ By default, the data of the selected receipt is preset in the input line.
   Click this button to create the evaluation report in a printable format. An evaluation report preview is displayed in a new window.
 
 
-
 ## BWA
 
 *Accounting > Post > Button EVALUATIONS > Menu entry BWA*
@@ -1220,12 +1253,11 @@ By default, the data of the selected receipt is preset in the input line.
   - **1: Profit and loss account**
   - **2: Cash basis accounting**
   - **3: Liquidity statement**
-  - **4: Liquidity**
-  - **5: Monthly balance**
+  - **6: Liquidity**
+  - **20: Monthly balance**
 
   > [Info] These evaluation reports are preconfigured in the system. All available reports can be completely customized or used as provided, and new reports can also be created. Any newly created reports will be displayed in the drop-down list. For detailed information about creating and managing BWA reports, see [Manage BWA reports](../Operation/07_ManageBWAReports.md).
 
-[comment]: <> (Check if these report types are really preconfigured and/or if the report numbers are variable)
 
 - *Layout*  
   Click the drop-down list to select the desired layout. The following options are available:
@@ -1266,20 +1298,19 @@ By default, the data of the selected receipt is preset in the input line.
 - *Comparison year*  
   Click the drop-down list to select a comparison year. If no year for comparison is desired, select the option **No comp. year**.
 
-- *cost object group*  
+- *Cost object group*  
   Click the drop-down list to select a cost object group. If no cost object group is needed, select the option *0 - No group*.  
 
   > [Info] For detailed information about creating and managing cost objects, see [COST ACCOUNTING](./02e_CostAccounting.md).
 
-[comment]: <> (Check how it works!?)
 
 - *BWA number*  
   Click the drop-down list to select the BWA report type to be created. All available BWA reports are displayed in the list. The following options are available by default:
   - **1: Profit and loss account**
   - **2: Cash basis accounting**
   - **3: Liquidity statement**
-  - **4: Liquidity**
-  - **5: Monthly balance**
+  - **6: Liquidity**
+  - **20: Monthly balance**
 
   > [Info] These evaluation reports are preconfigured in the system. All available reports can be completely customized or used as provided, and new reports can also be created. Any newly created reports will be displayed in the drop-down list. For detailed information about creating and managing BWA reports, see [Manage BWA reports](../Operation/07_ManageBWAReports.md).
 
@@ -1318,15 +1349,14 @@ By default, the data of the selected receipt is preset in the input line.
 
   > [Info] For detailed information about creating and managing cost objects, see [COST ACCOUNTING](./02e_CostAccounting.md).
 
-[comment]: <> (Check how it works!?)
 
 - *BWA number*  
   Click the drop-down list to select the BWA report type to be created. All available BWA reports are displayed in the list. The following options are available by default:
   - **1: Profit and loss account**
   - **2: Cash basis accounting**
   - **3: Liquidity statement**
-  - **4: Liquidity**
-  - **5: Monthly balance**
+  - **6: Liquidity**
+  - **20: Monthly balance**
 
   > [Info] These evaluation reports are preconfigured in the system. All available reports can be completely customized or used as provided, and new reports can also be created. Any newly created reports will be displayed in the drop-down list. For detailed information about creating and managing BWA reports, see [Manage BWA reports](../Operation/07_ManageBWAReports.md).
 

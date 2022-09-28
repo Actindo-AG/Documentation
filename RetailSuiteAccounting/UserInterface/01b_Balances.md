@@ -10,8 +10,7 @@ An account and/or contra account must be selected to display the corresponding d
 
 You can either select an account in the *POSTINGS* tab and switch to the *BALANCE* tab or directly enter an account and/or contra account number in the input line in the bottom. For detailed information about accessing the balance view of an account, see [Access the balance view of an account](../Operation/02_ReviewAccount.md#access-the-balance-view-of-an-account).
 
-
-[comment]: <> (Verweis auf Header.md)
+In all tabs of the *Post* menu entry, an identical header is displayed. For detailed information on the contained elements and the corresponding functions, see [Header](./01_Header.md).
 
 **Balance for account**  
 
@@ -31,4 +30,4 @@ The balance for the selected **contra account** is displayed on the left side of
 - ![Radio button](../../Assets/Icons/Radiobutton02.png "[Radio button]")  *Only this month*  
   Select this radio button to display the balances only for the selected month.
 
-  [comment]: <> (Verweis auf Input line muss noch rein -> ggf. input line als eigenen header in 01a_Bookings oder ebenso wie die anderen Funktionen in separatem Dokument, damit man darauf verweisen kann.)
+In all tabs of the *Post* menu entry, an identical footer with the input line is displayed. For detailed information on the contained elements and the corresponding functions, see [Input line](./01_InputLine.md).

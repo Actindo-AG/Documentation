@@ -6,6 +6,8 @@
 
 When clicking the *SEARCH* tab, the search side bar is unfolded. You can search for a specific account or posting using different search criteria. For detailed information about searching for an account or a posting, see [Search in accounting](../Operation/14_SearchAccounting.md).
 
+In all tabs of the *Post* menu entry, an identical header is displayed. For detailed information on the contained elements and the corresponding functions, see [Header](./01_Header.md).
+
 - ![Right arrow](../../Assets/Icons/Close.png "[Right arrow]") (Right arrow)  
 Click this arrow to fold in the *Post extras* search side bar.
 
@@ -15,7 +17,6 @@ Click this arrow to unfold the *Post extras* search side bar.
 The *Post extras* search side bar contains two tabs:
 - [*Accounts*](#accounts): Search for accounts
 - [*Search*](#search): Search for postings
-
 
 ## Accounts
 
@@ -51,7 +52,6 @@ This column displays the account number.
 - *Description*  
 This column displays the account name.
 
-[comment]: <> (Info unten weglassen? Standardfunktionen)
 
 - ![First page](../../Assets/Icons/FirstPage.png "[First page]") (First page)    
   Click this button to display the first page of the search results.
@@ -148,3 +148,5 @@ This column displays the account name.
 
 - [SEARCH]  
   Click this button to start the search. Alternatively, you can press the **ENTER** key. All postings matching the search criteria are displayed in the *SEARCH* tab.
+
+In all tabs of the *Post* menu entry, an identical footer with the input line is displayed. For detailed information on the contained elements and the corresponding functions, see [Input line](./01_InputLine.md).
