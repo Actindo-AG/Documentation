@@ -39,6 +39,6 @@ The profile *Settings* menu entry is used to manage the profile settings of the 
 
 The *Settings* User Interface is composed of the following tabs:
 - [PROFILE](./01a_Profile.md)
-- [PASSWORD](./01a_Password.md)
-- [SSH KEYS (DEVELOPERS ONLY)](./01a_SSHKeys.md)
-- [U2F](./01a_U2F.md)
+- [PASSWORD](./01b_Password.md)
+- [SSH KEYS (DEVELOPERS ONLY)](./01c_SSHKeys.md)
+- [U2F](./01d_U2F.md)

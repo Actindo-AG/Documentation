@@ -16,7 +16,7 @@
   Select the checkbox to display the editing toolbar. You cannot select multiple checkboxes at once.
 
 - ![Delete](../../Assets/Icons/Trash03.png "[Delete]") (Delete)      
-  Click this button to delete the selected SSH key. This button is only displayed, when the checkbox of a SSh key is selected.       
+  Click this button to delete the selected SSH key. This button is only displayed, when the checkbox of a SSH key is selected.       
 
 The list displays all SSH keys. All fields are read-only.
 
