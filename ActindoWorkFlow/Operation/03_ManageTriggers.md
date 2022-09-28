@@ -45,6 +45,8 @@ No prerequisites to fulfill.
 
   > [Info] The data models can be taken from the relevant API documentation.
 
+[comment]: <> (Update as soon as menu entry for models exists in Dev Tools)  
+
 6. Click the *Event* drop-down list and select the appropriate option. The following options are available:  
   - **After creation**   
     Select this option for the trigger to be executed after the model has been created. This option is preselected by default.
@@ -101,14 +103,16 @@ All trigger fields have been completed, see [Create a trigger](#create-a-trigger
 
   ![Condition input line](../../Assets/Screenshots/ActindoWorkFlow/Workflows/EditTriggerCondition.png "[Condition input line]")
 
-2. Click the *Prefix* drop-down list and select the appropriate option. The following options are available:  
-  - **entity**
-  - **changeset**
+2. Click the *Prefix* drop-down list and select the appropriate prefix. The following options are available:  
+  - **entity.**   
+    Select this option if you want to refer to any property independently of its change status. The option is usually selected if the **After creation** event is selected in the *Event* drop-down list of the trigger fields. This option is preselected by default.
+  - **changeset.**   
+    Select this option if you want to refer to a property that has been changed. Only properties that have been changed are included to the change set.
 
 
 3. Enter the applicable property in the *Property* field.  
 
-  > [Info] The properties can be taken from the relevant API documentation.
+  > [Info] The properties of an entity you can refer to are described in the relevant API documentation. To include a deeper level of the data field, enter a point *.* at a time, for instance *{$entity._pim_tax_zone.id}*. The first point is already included in the *Prefix* field, so you can start with the property name without adding a point at the beginning.
 
 4. Click the *Operator* drop-down list and select the appropriate option. The following options are available:  
   - **Equals**   
@@ -116,11 +120,12 @@ All trigger fields have been completed, see [Create a trigger](#create-a-trigger
   - **Does not equal**   
     Select this option if the property value must not equal the value specified in the *Value* field for the trigger to be executed.
   - **Is set**  
-    Select this option if the property value must be a fixed value set in the *Value* field for the trigger to be executed.
+    Select this option if any property value must be set for the trigger to be executed. No value must be entered in the *Value* field.
 
-[comment]: <> (Bedeutung is set? Was/wofür wird es genutzt? Unterschied zu Equals? Booleans? Wert vorhanden?)
 
-5. Enter the corresponding value in the *Value* field.
+[comment]: <> (Check nach Bugfix ob das Value field überhaupt noch angezeigt wird beim is set operator)
+
+5. If necessary, enter the corresponding value in the *Value* field.
 
   > [Info] Repeat the steps **1** to **5** to add a further condition to the trigger. You can add an unlimited number of conditions.
 
@@ -181,8 +186,6 @@ At least two triggers have been created in the workflow version, see [Create a t
 4. Click the [APPLY CHANGES] button.  
   All changes have been saved. The *Edit trigger for workflow "Workflow name"* window is closed.
 
-[comment]: <> (Die Änderung der Reihenfolge scheint noch nicht einwandfrei zu funktionieren. Anscheinend muss man die Triggers zusammenklappen, damit man sie überhaupt bewegen kann. Danach reagiert das Fenster aber nicht mehr.)
-
 
 
 ## Delete a trigger
@@ -209,5 +212,3 @@ At least one trigger has been created, see [Create a trigger](#create-a-trigger)
 
 2. Click the [APPLY CHANGES] button.  
   The trigger has been deleted. The *Edit trigger for workflow "Workflow name"* window is closed.
-
-[comment]: <> (Trigger kann man nicht löschen. Stand 20.09.22)

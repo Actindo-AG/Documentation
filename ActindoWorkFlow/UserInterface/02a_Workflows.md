@@ -373,15 +373,16 @@ Select the checkbox to display the editing toolbar.
 
 - *Prefix*  
   Click the drop-down list and select the appropriate prefix. The following options are available:
-  - **entity**  
-    Select this option to specify an entity. This option is preselected by default.
-  - **changeset**  
-    Select this option to specify a changset.
+  - **entity.**  
+    Select this option if you want to refer to any property independently of its change status. The option is usually selected if the **After creation** event is selected in the *Event* drop-down list of the trigger fields. This option is preselected by default.
+  - **changeset.**  
+    Select this option if you want to refer to a property that has been changed. Only properties that have been changed are included to the change set.
 
-[comment]: <> (Extra Info benötigt!)
 
 - *Property*  
   Enter the applicable property for the selected prefix.
+
+  > [Info] The properties of an entity you can refer to are described in the relevant API documentation. To include a deeper level of the data field, enter a point *.* at a time, for instance *{$entity._pim_tax_zone.id}*. The first point is already included in the *Prefix* field, so you can start with the property name without adding a point at the beginning.
 
 - *Operator*  
   Click the drop-down list and selected the appropriate option. The following options are available:
@@ -390,9 +391,10 @@ Select the checkbox to display the editing toolbar.
   - **Does not equal**  
     Select this option if the property value must not equal the value specified in the *Value* field for the trigger to be executed.
   - **Is set**  
-    Select this option if the property value must be a fixed value set in the *Value* field for the trigger to be executed.
+    Select this option if any property value must be set for the trigger to be executed. No value must be entered in the *Value* field.
 
-[comment]: <> (Bedeutung? Was/wofür wird es genutzt? Unterschied zu Equals? Booleans? Wert vorhanden?)
+
+[comment]: <> (Check nach Bugfix ob das Value field überhaupt noch angezeigt wird beim is set operator)
 
 - *Value*  
   Enter the applicable value.
