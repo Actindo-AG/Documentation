@@ -1,56 +1,64 @@
 # User interface
 
 - [Fiscal year](./00a_FiscalYear.md)
+  - [Journals](./00a_FiscalYear.md#journals)
+
 
 - [Post](./01_Book.md)
 
-  - [FY/MONTH/JOURNAL](./01_Book.md#fymonthjournal)
 
-  - [EDIT](./01_Book.md#edit)
-    - [Cash book takeover](./01_Book.md#cash-book-takeover)
-    - [Bank data takeover](./01_Book.md#bank-data-takeover)
-    - [Process](./01_Book.md#process)
-    - [Delete](./01_Book.md#delete)
-    - [Lock months](./01_Book.md#lock-months)
-    - [Balance carried forward](./01_Book.md#balance-carried-forward)
-    - [Foreign currency wizard](./01_Book.md#foreign-currency-wizard)
-    - [Supplier receipts](./01_Book.md#supplier-receipts)
+- [Postings header](01_Header.md)
+  - [Cash book takeover](./01_Header.md#cash-book-takeover)
+  - [Bank data takeover](./01_Header.md#bank-data-takeover)
+  - [Process](./01_Header.md#process)
+  - [Delete](./01_Header.md#delete)
+  - [Lock months](./01_Header.md#lock-months)
+  - [Balance carried forward](./01_Header.md#balance-carried-forward)
+  - [Foreign currency wizard](./01_Header.md#foreign-currency-wizard)
+  - [Supplier receipts](./01_Header.md#supplier-receipts)
+    - [Acquire a receipt](./01_Header.md#acquire-a-receipt)
+    - [Overview](./01_Header.md#overview)
+    - [Financial accounting takeover](./01_Header.md#financial-accounting-takeover)
+  - [Account balance](./01_Header.md#account-balance)
+  - [Account sheet](./01_Header.md#account-sheet)
+  - [Journal](./01_Header.md#journal)
+  - [Balance list](./01_Header.md#balance-list)
+  - [Open items](./01_Header.md#open-items)
+  - [BWA](./01_Header.md#bwa)
+  - [ProfitCenter](./01_Header.md#profitcenter)
+  - [Cost object comparison](./01_Header.md#cost-object-comparison)
+  - [Chart of accounts](./01_Header.md#chart-of-accounts)
+  - [Debtors/creditors](./01_Header.md#debtorscreditors)
 
-[comment]: <> (Unterreiter in H4 - ändern und in TOC mit aufnehmen?)
 
- - [EVALUATIONS](./01_Book.md#evaluations)
-    - [Account balance](./01_Book.md#account-balance)
-    - [Account sheet](./01_Book.md#account-sheet)
-    - [Journal](./01_Book.md#journal)
-    - [Balance list](./01_Book.md#balance-list)
-    - [Open items](./01_Book.md#open-items)
-    - [BWA](./01_Book.md#bwa)
-    - [ProfitCenter](./01_Book.md#profitcenter)
-    - [Cost unit comparison](./01_Book.md#cost-unit-comparison)
-    - [Other](./01_Book.md#other)
+- [Postings input line](01_InputLine.md)
+  - [Set amount 1](01_InputLine.md#set-amount-1)
+  - [Set amount 2](01_InputLine.md#set-amount-2)
+  - [Split posting](01_InputLine.md#split-posting)
+  - [Attached document](01_InputLine.md#attached-document)
+  - [Attach document](01_InputLine.md#attach-document)
+    - [Upload file](01_InputLine.md#upload-file)
+
 
 - [POSTINGS](./01a_Bookings.md)
-  - [Split posting](./01a_Bookings.md#split-booking)
-  - [Attach document](./01a_Bookings.md#attach-document)
-    - [Upload file](./01a_Bookings.md#upload-file)
-    - [Attached document](./01a_Bookings.md#attached-document)
+  - [Attached document](./01a_Bookings.md#attached-document)
+
 
 - [BALANCES](./01b_Balances.md)
-  - [Balances view without account selection](./01b_Balances.md#balances-view-without-account-selection)
-  - [Balances view with account selection](./01b_Balances.md#balances-view-with-account-selection)
+
 
 - [ACCOUNT SHEET](./01c_AccountSheet.md)
-  - [Account sheet view without account selection](./01c_AccountSheet.md#account-sheet-view-without-account-selection)
-  - [Account sheet view with account selection](./01c_AccountSheet.md#account-sheet-view-with-account-selection)
+  - [Attached document](./01c_AccountSheet.md#attached-document)
+
 
 - [OPEN ITEMS](./01d_OpenItems.md)  
-  - [Open items view without account selection](./01d_OpenItems.md#open-items-view-without-account-selection)
-  - [Open items view with account selection](./01d_OpenItems.md#open-items-view-with-account-selection)
-  - [No open items view](./01d_OpenItems.md#no-open-items)
+  - [Attached document](./01d_OpenItems.md#attached-document)
+
 
 - [SEARCH](./01e_Search.md)  
-  - [Accounts sub-tab](./01e_Search.md#accounts-sub-tab)
-  - [Search sub-tab](./01e_Search.md#search-sub-tab)
+  - [Accounts](./01e_Search.md#accounts)
+  - [Search](./01e_Search.md#search)
+
 
 - [POST RECEIPTS](./01f_BookReceipts.md)  
 

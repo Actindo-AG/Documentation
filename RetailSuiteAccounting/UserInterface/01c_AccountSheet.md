@@ -60,7 +60,7 @@ The list displays all postings for the selected account whose number and name ar
   Credit amount of the selected account.
 
 - *(Unnamed column)*
-  Indication of whether a receipt has been linked to the posting. If a receipt has been linked to the posting, the ![B](../../Assets/Icons/Beleg.png "[B]") (B) button is displayed. Click the button to display the corresponding receipt in the *Attached document* window. For detailed information, see [Attached document](./01_Header.md#attached-document).
+  Indication of whether a receipt has been linked to the posting. If a receipt has been linked to the posting, the ![B](../../Assets/Icons/Beleg.png "[B]") (B) button is displayed. Click the button to display the corresponding receipt in the *Attached document* window. For detailed information, see [Attached document](#attached-document).
 
 - *Text*  
   Posting text.
@@ -71,13 +71,20 @@ The list displays all postings for the selected account whose number and name ar
 - *Balance (currency)*  
   Balance of the selected account in the specified currency.
 
-- ![Radio button](../../Assets/Icons/Radiobutton02.png "[Radio button]") *All months*  
+- ![Radio button](../../Assets/Icons/RadioButtonChecked.png "[Radio button]") *All months*  
   Select this radio button to display the balances for all months.
 
-- ![Radio button](../../Assets/Icons/Radiobutton02.png "[Radio button]")  *Only this month*  
+- ![Radio button](../../Assets/Icons/RadioButtonChecked.png "[Radio button]")  *Only this month*  
   Select this radio button to display the balances only for the selected month.
 
 - *Show (all/the last [XXX]) postings*    
   Click the drop-down list to select the preferred display filter.
 
 In all tabs of the *Post* menu entry, an identical footer with the input line is displayed. For detailed information on the contained elements and the corresponding functions, see [Input line](./01_InputLine.md).
+
+
+## Attached document
+
+*Accounting > Post > Tab ACCOUNT SHEET > Button B*
+
+For a detailed description of the contained elements and the corresponding functions, see [Attached document](./01_Header.md#attached-document).

@@ -44,7 +44,7 @@ Click the drop-down list to select the preferred display filter.
   Number of the selected cost object. This field is only applicable if at least one cost object has been set up. For more details, see [COST ACCOUNTING](./02e_CostAccounting.md).
 
 - *(Unnamed column)*  
-  Indication of whether a receipt has been linked to the posting. If a receipt has been linked to the posting, the ![B](../../Assets/Icons/Beleg.png "[B]") (B) button is displayed. Click the button to display the corresponding receipt in the *Attached document* window. For detailed information, see [Attached document](./01_Header.md#attached-document).
+  Indication of whether a receipt has been linked to the posting. If a receipt has been linked to the posting, the ![B](../../Assets/Icons/Beleg.png "[B]") (B) button is displayed. Click the button to display the corresponding receipt in the *Attached document* window. For detailed information, see [Attached document](#attached-document).
 
 [comment]: <> (Comment on Bug file -> suggestion to add a name to column)
 
@@ -52,3 +52,10 @@ Click the drop-down list to select the preferred display filter.
   Posting text.
 
 In all tabs of the *Post* menu entry, an identical footer with the input line is displayed. For detailed information on the contained elements and the corresponding functions, see [Input line](./01_InputLine.md).
+
+
+## Attached document
+
+*Accounting > Post > Tab POSTINGS > Button B*
+
+For a detailed description of the contained elements and the corresponding functions, see [Attached document](./01_Header.md#attached-document).

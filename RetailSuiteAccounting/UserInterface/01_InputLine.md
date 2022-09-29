@@ -124,7 +124,7 @@ The function buttons in the footer allow to manage the postings manually.
   Click this button to split a manual posting. The *Split posting* window is displayed, see [Split posting](#split-posting). For detailed information about splitting a posting, see [Split a posting](../Operation/09_SplitBooking.md).
 
 - [ASSIGN RECEIPT]  
-  Click this button to assign a receipt to the selected posting or to unassign a receipt from the selected posting. If no document is assigned to the selected posting, the *Attach document* window is displayed, see [Attach a document](#attach-document). If a document is already assigned to the selected posting, the *Attached document* window is displayed, see [Attached document](./01_Header.md#attached-document). For detailed information, see [Retrieve a receipt](../Operation/10_ManageReceipts.md#retrieve-a-receipt).
+  Click this button to assign a receipt to the selected posting or to unassign a receipt from the selected posting. If no document is assigned to the selected posting, the *Attach document* window is displayed, see [Attach a document](#attach-document). If a document is already assigned to the selected posting, the *Attached document* window is displayed, see [Attached document](#attached-document). For detailed information, see [Retrieve a receipt](../Operation/10_ManageReceipts.md#retrieve-a-receipt).
 
 
 ## Split posting
@@ -241,6 +241,13 @@ The input line allows to split the posting.
 
 - [CANCEL]  
   Click this button to cancel the split process.
+
+
+## Attached document
+
+*Accounting > Post > Tab POSTINGS > Button ASSIGN RECEIPT*
+
+For a detailed description of the contained elements and the corresponding functions, see [Attached document](./01_Header.md#attached-document).
 
 
 ## Attach document

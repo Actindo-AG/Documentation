@@ -77,16 +77,16 @@ Above the corresponding open items in the list, the number, name and currency of
   Credit amount of the selected account.
 
 - *(Unnamed column)*
-  Indication of whether a receipt has been linked to the posting. If a receipt has been linked to the posting, the ![B](../../Assets/Icons/Beleg.png "[B]") (B) button is displayed. Click the button to display the corresponding receipt in the *Attached document* window. For detailed information, see [Attached document](./01_Header.md#attached-document).
+  Indication of whether a receipt has been linked to the posting. If a receipt has been linked to the posting, the ![B](../../Assets/Icons/Beleg.png "[B]") (B) button is displayed. Click the button to display the corresponding receipt in the *Attached document* window. For detailed information, see [Attached document](#attached-document).
 
 - *Text*  
   Posting text.
 
 
-- ![Radio button](../../Assets/Icons/Radiobutton02.png "[Radio button]") *Standard open items view*  
+- ![Radio button](../../Assets/Icons/RadioButtonChecked.png "[Radio button]") *Standard open items view*  
   Select this radio button to display all open items for the selected account. This radio button is only displayed if an account or contra account is entered in the input line.
 
-- ![Radio button](../../Assets/Icons/Radiobutton02.png "[Radio button]") *Show manually cleared open items*  
+- ![Radio button](../../Assets/Icons/RadioButtonChecked.png "[Radio button]") *Show manually cleared open items*  
   Select this radio button to display only the manually cleared open items for the selected account. This radio button is only displayed if an account or contra account is entered in the input line.
 
 - [CLEAR MANUALLY]  
@@ -96,3 +96,10 @@ Above the corresponding open items in the list, the number, name and currency of
   Click this button to reverse the manual clearance for the selected items. This button is only displayed if the *Show manually cleared open items* radio button is selected.
 
 In all tabs of the *Post* menu entry, an identical footer with the input line is displayed. In the *Open items* tab, the input line serves the only purpose of selecting an account if no posting is selected in the *POSTINGS* tab. For detailed information on the contained elements and the corresponding functions, see [Input line](./01_InputLine.md).
+
+
+## Attached document
+
+*Accounting > Post > Tab OPEN ITEMS > Button B*
+
+For a detailed description of the contained elements and the corresponding functions, see [Attached document](./01_Header.md#attached-document).

@@ -67,7 +67,7 @@ Click this button to display the *Select fiscal year* window, see [Fiscal year](
   - *Other*  
     Click this menu entry to display the sub-menu. The following menu entries are displayed:
     - *Chart of accounts*, see [Chart of accounts](#chart-of-accounts).
-    - *Deb./Cred.*, see [Deb./cred.](#debitorscreditors).
+    - *Deb./Cred.*, see [Deb./cred.](#debtorscreditors).
 
 
 - *Fiscal year XXXX/Month X/Journal X*  
@@ -273,7 +273,7 @@ An individual posting from the cash book can be selected and partially edited be
 
 *Accounting > Post > Button EDIT > Menu entry Balance carried forward*
 
-### Balance carried forward: Step 1
+**Balance carried forward: Step 1**
 
 ![Balance carried forward: step 1](../../Assets/Screenshots/RetailSuiteAccounting/Book/BalanceCarriedForward01.png "[Balance carried forward: step 1]")
 
@@ -313,9 +313,10 @@ An individual posting from the cash book can be selected and partially edited be
   Click this button to cancel all changes. The *Balance carried forward: Step 1* window is closed.
 
 - [CONTINUE]  
-  Click this button to proceed to the next step. The *Retrieve account balances* window is displayed, see [Retrieve account balances](#retrieve-account-balances).
+  Click this button to proceed to the next step. The *Retrieve account balances* window is displayed.
 
-### Retrieve account balances
+
+**Retrieve account balances**
 
 ![Retrieve account balances](../../Assets/Screenshots/RetailSuiteAccounting/Book/RetrieveAccountBalances.png "[Retrieve account balances]")
 
@@ -343,9 +344,10 @@ An individual posting from the cash book can be selected and partially edited be
   Click this button to cancel all changes. The *Retrieve account balances* window is closed.
 
 - [CONTINUE]  
-  Click this button to proceed and carry the selected balances forward. The *Balance carried forward completed* pop-up window is displayed. The *Carry balances forward* window is displayed, see [Carry balances forward](#carry-balances-forward).
+  Click this button to proceed and carry the selected balances forward. The *Balance carried forward completed* pop-up window is displayed. The *Carry balances forward* window is displayed.
 
-### Carry balances forward
+
+**Carry balances forward**
 
 ![Carry balances forward](../../Assets/Screenshots/RetailSuiteAccounting/Book/CarryBalancesForward.png "[Carry balances forward]")
 
@@ -1393,7 +1395,7 @@ By default, the data of the selected receipt is preset in the input line.
   Click this button to create the evaluation report in a printable format. An evaluation report preview is displayed in a new window.
 
 
-## Debitors/creditors
+## Debtors/creditors
 
 *Accounting > Post > Button EVALUATIONS > Menu entry Other > Sub-menu entry Deb./cred.*
 
@@ -1403,7 +1405,7 @@ By default, the data of the selected receipt is preset in the input line.
   Enter the account number range to be displayed.
 
 - [CANCEL]  
-  Click this button to cancel your selection. The *Debitors/creditors* window is closed.
+  Click this button to cancel your selection. The *Debtors/creditors* window is closed.
 
 - [PRINT]  
   Click this button to create the evaluation report in a printable format. An evaluation report preview is displayed in a new window.
