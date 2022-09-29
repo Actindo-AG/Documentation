@@ -1,5 +1,7 @@
 # User Interface
 
+In this part of the *Taxes* documentation, you will find the following chapters:
+
 - [Settings](./01_Settings.md)  
 
 
