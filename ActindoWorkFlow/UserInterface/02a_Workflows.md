@@ -7,34 +7,35 @@
 ![Overview](../../Assets/Screenshots/ActindoWorkFlow/Workflows/Workflows.png "[Overview]")
 
 **Workflows**
-- *VIEW*  
-Click the drop-down list to select the view. All created views are displayed in the drop-down list. Click the ![Points](../../Assets/Icons/Points01.png "[Points]") (Points) button to the right of the *VIEW* drop-down list to display the context menu and create a view. For detailed information, see [Create view](#create-view).
 
-  - View context menu  
-  Click the ![Points](../../Assets/Icons/Points01.png "[Points]") (Points) button to the right of the *View* drop-down list to display the context menu. The following menu entries are available:
+- *VIEW*  
+  Click the drop-down list to select the view. All created views are displayed in the drop-down list. Click the ![Points](../../Assets/Icons/Points01.png "[Points]") (Points) button to the right of the *VIEW* drop-down list to display the context menu and create a view. For detailed information, see [Create view](#create-view).
+
+  - ![Points](../../Assets/Icons/Points01.png "[Points]") (Points)      
+    Click this button to the right of the *View* drop-down list to display the context menu. The following menu entries are available:
 
     - ![Create](../../Assets/Icons/Plus06.png "[Create]") create  
-    Click this entry to create a view. The *Create view* window is displayed.
+      Click this entry to create a view. The *Create view* window is displayed.
 
     - ![Rename](../../Assets/Icons/Edit02.png "[Rename]") rename  
-    Click this entry to rename the selected view. The *Rename view* window is displayed. This menu entry is only displayed when a view is selected.
+      Click this entry to rename the selected view. The *Rename view* window is displayed. This menu entry is only displayed when a view is selected.
 
     - ![Reset](../../Assets/Icons/Reset.png "[Reset]") reset  
-    Click this entry to reset the view to the selected views settings. This menu entry is only displayed when a view is selected and any changes are made to the views settings.
+      Click this entry to reset the view to the selected views settings. This menu entry is only displayed when a view is selected and any changes are made to the views settings.
 
     - ![Publish](../../Assets/Icons/Publish.png "[Publish]") publish  
-    Click this entry to publish the view. This menu entry is only displayed when a view is selected and unpublished.
+      Click this entry to publish the view. This menu entry is only displayed when a view is selected and unpublished.
 
     - ![Unpublish](../../Assets/Icons/Unpublish.png "[Unpublish]") unpublish  
-    Click this entry to unpublish the view. This menu entry is only displayed when a view is selected and published.
+      Click this entry to unpublish the view. This menu entry is only displayed when a view is selected and published.
 
     - ![Save](../../Assets/Icons/Save.png "[Save]") save  
-    Click this entry to save the current view settings in the selected view. This menu entry is only displayed when a view is selected.
+      Click this entry to save the current view settings in the selected view. This menu entry is only displayed when a view is selected.
 
       > [Info] When the settings of a view have been changed, an asterisk is displayed behind the view name. The asterisk is hidden as soon as the changes have been saved.
 
     - ![Delete](../../Assets/Icons/Trash01.png "[Delete]") delete  
-    Click this entry to delete the selected view. A confirmation window to confirm the deletion is displayed. This menu entry is only displayed when a view is selected.
+      Click this entry to delete the selected view. A confirmation window to confirm the deletion is displayed. This menu entry is only displayed when a view is selected.
 
 
 - ![Search](../../Assets/Icons/Search.png "[Search]") (Search)  
@@ -44,13 +45,13 @@ Click the drop-down list to select the view. All created views are displayed in 
 
 
 - ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh)  
-    Click this button to update the list of workflows.
+  Click this button to update the list of workflows.
 
 - ![Columns](../../Assets/Icons/Columns.png "[Columns]") Columns (x)  
-    Click this button to display the columns bar and customize the displayed columns and the order of columns in the list. The *x* indicates the number of columns that are currently displayed in the list.
+  Click this button to display the columns bar and customize the displayed columns and the order of columns in the list. The *x* indicates the number of columns that are currently displayed in the list.
 
 - ![Filter](../../Assets/Icons/Filter.png "[Filter]") Filter (x)  
-    Click this button to display the filter bar and customize the active filters. The *x* indicates the number of filters that are currently active.
+  Click this button to display the filter bar and customize the active filters. The *x* indicates the number of filters that are currently active.
 
 
 The list displays all workflows. Depending on the settings, the displayed columns may vary. All fields are read-only.
@@ -72,7 +73,7 @@ The list displays all workflows. Depending on the settings, the displayed column
 
 
 - ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add)  
-Click this button to create a workflow. The *New workflow* window is displayed, see [New workflow](#new-workflow). For detailed information, see [Create a workflow](../Operation/01_ManageWorkflows.md#create-a-workflow).
+  Click this button to create a workflow. The *New workflow* window is displayed, see [New workflow](#new-workflow). For detailed information, see [Create a workflow](../Operation/01_ManageWorkflows.md#create-a-workflow).
 
 
 
@@ -82,15 +83,14 @@ Click this button to create a workflow. The *New workflow* window is displayed, 
 
 ![New workflow](../../Assets/Screenshots/ActindoWorkFlow/Workflows/NewWorkflow.png "[New workflow]")
 
-
 - *Select a name for your new workflow*  
-Enter a name for the new workflow.
+  Enter a name for the new workflow.
 
 - *Select a unique key for your new workflow*  
-Enter a key for the workflow. The key is required for API access and must be unique within the workflow version.
+  Enter a key for the workflow. The key is required for API access and must be unique within the workflow version.
 
 - *Choose the data type of your start place*  
-Enter the name of the start place or a keyword to search for and select the appropriate place in the list of places.
+  Enter the name of the start place or a keyword to search for and select the appropriate place in the list of places.
 
   > [Info] The list of places is filtered for your keyword as you type.
 
@@ -98,18 +98,18 @@ Enter the name of the start place or a keyword to search for and select the appr
   Click this button to clear the search bar field for the start place.
 
 - *Choose the data type of your end place*  
-Enter the name of the end place or a keyword to search for and select the appropriate place in the list of places.
+  Enter the name of the end place or a keyword to search for and select the appropriate place in the list of places.
 
   > [Info] The list of places is filtered for your keyword as you type.
 
 - ![Delete](../../Assets/Icons/Cross02.png "[Delete]") (Delete)  
-    Click this button to clear the search bar field for the end place.
+  Click this button to clear the search bar field for the end place.
 
 - [CANCEL]  
-Click this button to cancel creating a new workflow. The *New workflow* window is closed.
+  Click this button to cancel creating a new workflow. The *New workflow* window is closed.
 
 - [CREATE]  
-Click this button to create a new workflow. The workflow editor with the defined start and end places is displayed.
+  Click this button to create a new workflow. The workflow editor with the defined start and end places is displayed.
 
 
 
@@ -122,43 +122,42 @@ Click this button to create a new workflow. The workflow editor with the defined
 ![Workflow versions](../../Assets/Screenshots/ActindoWorkFlow/Workflows/WorkflowVersions.png "[Workflow versions]")
 
 - ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)  
-Click this button to close the *Workflow versions* view and return to the *Workflows* view.
+  Click this button to close the *Workflow versions* view and return to the *Workflows* view.
 
 - *VIEW*  
-Click the drop-down list to select the view. All created views are displayed in the drop-down list. Click the ![Points](../../Assets/Icons/Points01.png "[Points]") (Points) button to the right of the *VIEW* drop-down list to display the context menu and create a view. For detailed information, see [Create view](#create-view).
+  Click the drop-down list to select the view. All created views are displayed in the drop-down list. Click the ![Points](../../Assets/Icons/Points01.png "[Points]") (Points) button to the right of the *VIEW* drop-down list to display the context menu and create a view. For detailed information, see [Create view](#create-view).
 
-  - View context menu  
-  Click the ![Points](../../Assets/Icons/Points01.png "[Points]") (Points) button to the right of the *View* drop-down list to display the context menu. The following menu entries are available:
+  - ![Points](../../Assets/Icons/Points01.png "[Points]") (Points)      
+    Click this button to the right of the *View* drop-down list to display the context menu. The following menu entries are available:
 
     - ![Create](../../Assets/Icons/Plus06.png "[Create]") create  
-  Click this entry to create a view. The *Create view* window is displayed.
+      Click this entry to create a view. The *Create view* window is displayed.
 
     - ![Rename](../../Assets/Icons/Edit02.png "[Rename]") rename  
-  Click this entry to rename the selected view. The *Rename view* window is displayed. This menu entry is only displayed when a view is selected.
+      Click this entry to rename the selected view. The *Rename view* window is displayed. This menu entry is only displayed when a view is selected.
 
     - ![Reset](../../Assets/Icons/Reset.png "[Reset]") reset  
-  Click this entry to reset the view to the selected views settings. This menu entry is only displayed when a view is selected and any changes are made to the views settings.
+      Click this entry to reset the view to the selected views settings. This menu entry is only displayed when a view is selected and any changes are made to the views settings.
 
     - ![Publish](../../Assets/Icons/Publish.png "[Publish]") publish  
-  Click this entry to publish the view. This menu entry is only displayed when a view is selected and unpublished.
+      Click this entry to publish the view. This menu entry is only displayed when a view is selected and unpublished.
 
     - ![Unpublish](../../Assets/Icons/Unpublish.png "[Unpublish]") unpublish  
-  Click this entry to unpublish the view. This menu entry is only displayed when a view is selected and published.
+      Click this entry to unpublish the view. This menu entry is only displayed when a view is selected and published.
 
     - ![Save](../../Assets/Icons/Save.png "[Save]") save  
-  Click this entry to save the current view settings in the selected view. This menu entry is only displayed when a view is selected.
+      Click this entry to save the current view settings in the selected view. This menu entry is only displayed when a view is selected.
 
       > [Info] When the settings of a view have been changed, an asterisk is displayed behind the view name. The asterisk is hidden as soon as the changes have been saved.
 
     - ![Delete](../../Assets/Icons/Trash01.png "[Delete]") delete  
-  Click this entry to delete the selected view. A confirmation window to confirm the deletion is displayed. This menu entry is only displayed when a view is selected.
+      Click this entry to delete the selected view. A confirmation window to confirm the deletion is displayed. This menu entry is only displayed when a view is selected.
 
 
 - ![Search](../../Assets/Icons/Search.png "[Search]") (Search)  
-    Click this button to display the search bar and search for a workflow version.
+  Click this button to display the search bar and search for a workflow version.
 
     > [Info] The search function can be used to search for a workflow version ID. At least 3 characters must be entered.
-
 
 - ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh)  
     Click this button to update the list of workflow versions.
@@ -182,9 +181,8 @@ The list displays all workflow versions of the selected workflow. Depending on t
 - *ID*  
   Identification number of the workflow version. The ID number is automatically assigned by the system when the workflow version is created.
 
-
-- [x]  
-Select the checkbox to display the editing toolbar.
+- [x]   
+  Select the checkbox to display the editing toolbar.
 
 - [PUBLISH]   
   Click this button to publish a workflow version. This button is only displayed if the selected workflow version is unpublished. For detailed information, see [Publish a workflow](../Operation/01_ManageWorkflows.md#publish-a-workflow).
@@ -421,10 +419,10 @@ The *Import JSON* window displays the workflow source code in JSON format. Confi
   > [Info] To modify the source code, in-depth programming knowledge is needed.
 
 - [CLOSE]  
-Click this button to close the window and reject all changes.
+  Click this button to close the window and reject all changes.
 
 - [IMPORT JSON]  
-Click this button to apply all changes made to the source code.
+  Click this button to apply all changes made to the source code.
 
 
 
@@ -436,9 +434,8 @@ Click this button to apply all changes made to the source code.
 
 The *Export JSON* window displays all workflow source code in JSON format. This view is read-only.
 
-
 - [CLOSE]  
-Click this button to close the window.
+  Click this button to close the window.
 
 
 ## Search for an action
@@ -454,13 +451,13 @@ The *Search for an action* window displays a list of possible transitions for th
 
 
 - *Search for an action* (search bar)  
-Click this field (search bar) to enter the name of the transition or a keyword to search for. Select an transition in the list of transitions to add the selected transition to the workflow.
-For detailed information about adding a transition, see [Create an action](ActindoWorkFlow/Operation/01_ManageWorkflows.md#create-an-action).
+  Click this field (search bar) to enter the name of the transition or a keyword to search for. Select an transition in the list of transitions to add the selected transition to the workflow.
+  For detailed information about adding a transition, see [Create an action](../Operation/01_ManageWorkflows.md#create-an-action).
 
   > [Info] The list of transitions is filtered for your keyword as you type.
 
 - ![Delete](../../Assets/Icons/Cross02.png "[Delete]") (Delete)  
-Click this button to clear the search bar field.
+  Click this button to clear the search bar field.
 
 
 
@@ -470,16 +467,19 @@ Click this button to clear the search bar field.
 
 ![Create view](../../Assets/Screenshots/ActindoWorkFlow/Workflows/CreateView.png "[Create view]")
 
-
 - *Name*  
-Enter a name for the view.
+  Enter a name for the view.
 
 - [CANCEL]  
-Click this button to cancel creating a view. The *Create view* window is closed.
+  Click this button to cancel creating a view. The *Create view* window is closed.
 
 - [SAVE]  
-Click this button to save the new view. The *Create view* window is closed. The view is saved and displayed in the *View* drop-down list.
+  Click this button to save the new view. The *Create view* window is closed. The view is saved and displayed in the *View* drop-down list.
 
+> [Info] This window can also be accessed from the following tabs in the user interface:
+- [OVERVIEW (Processes)](./03a_Processes.md#create-view)
+- [OVERVIEW (Process actions)](./04a_ProcessActions.md#create-view)
+- [OVERVIEW (Logs)](./06a_Logs.md#create-view)
 
 
 ## Rename view
@@ -488,12 +488,16 @@ Click this button to save the new view. The *Create view* window is closed. The 
 
 ![Rename view](../../Assets/Screenshots/ActindoWorkFlow/Workflows/RenameView.png "[Rename view]")
 
-
 - *Name*  
-Click the field to edit the view name.
+  Click the field to edit the view name.
 
 - [CANCEL]  
-Click this button to cancel renaming a view. The *Rename view* window is closed.
+  Click this button to cancel renaming a view. The *Rename view* window is closed.
 
 - [SAVE]  
-Click this button to save the changes to the view name. The *Rename view* window is closed. The new name for the view is saved and displayed in the *View* drop-down list.
+  Click this button to save the changes to the view name. The *Rename view* window is closed. The new name for the view is saved and displayed in the *View* drop-down list.
+
+> [Info] This window can also be accessed from the following tabs in the user interface:
+- [OVERVIEW (Processes)](./03a_Processes.md#rename-view)
+- [OVERVIEW (Process actions)](./04a_ProcessActions.md#rename-view)
+- [OVERVIEW (Logs)](./06a_Logs.md#rename-view)

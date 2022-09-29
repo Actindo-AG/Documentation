@@ -16,7 +16,7 @@
 - ![Columns](../../Assets/Icons/Columns.png "[Columns]") Columns (x)   
   Click this button to display the columns bar and customize the displayed columns and the order of columns in the list. The *x* indicates the number of columns that are currently displayed in the list.
 
-- [x]     
+- [x]      
   Select the checkbox to display the editing toolbar.
 
 - [DELETE]   
@@ -29,7 +29,6 @@
 
 The list displays all queue types. All fields are read-only. Depending on the settings, the displayed columns may vary. Click a queue type in the list to display the *Edit queue type* view.   
 For detailed information, see [Edit a queue type](../Integration/01_ConfigureQueueTypes.md#edit-a-queue-type).
-
 
 - *ID*   
   Queue type identification number. The ID number is automatically assigned by the system when the queue type is created.
@@ -75,8 +74,10 @@ For detailed information, see [Edit a queue type](../Integration/01_ConfigureQue
 
 - *Execution priority*   
   Click the drop-down list and select the execution priority for the queue type. The following options are available:
-  - **Oldest executable action**: The oldest executable actions within all existing processes is executed first by the workers.
-  - **Executable actions of oldest process**: The executable actions within the oldest process are executed first by the workers.
+  - **Oldest executable action**   
+    The oldest executable actions within all existing processes is executed first by the workers.
+  - **Executable actions of oldest process**   
+    The executable actions within the oldest process are executed first by the workers.
 
 
 
@@ -105,5 +106,7 @@ For detailed information, see [Edit a queue type](../Integration/01_ConfigureQue
 
 - *Execution priority*   
   Click the drop-down list to change the execution priority for the queue type. The following options are available:
-  - **Oldest executable action**: The oldest executable actions within all existing processes is executed first by the workers.
-  - **Executable actions of oldest process**: The executable actions within the oldest process are executed first by the workers.
+  - **Oldest executable action**   
+    The oldest executable actions within all existing processes is executed first by the workers.
+  - **Executable actions of oldest process**   
+    The executable actions within the oldest process are executed first by the workers.

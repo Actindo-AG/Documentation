@@ -1,5 +1,7 @@
 # Operation
 
+In this part of the *Workflows* documentation, you will find the following chapters:
+
 - [Manage the workflows](./01_ManageWorkflows.md)
   - [Create a workflow](./01_ManageWorkflows.md#create-a-workflow)
     - [Define the workflow basic settings](./01_ManageWorkflows.md#define-the-workflow-basic-settings)

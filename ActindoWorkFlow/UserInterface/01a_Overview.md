@@ -67,11 +67,16 @@ In the *DASHBOARDS* tab, the custom tabs with composable dashlets are displayed.
 
 - *Select Viewport*   
   Click the drop-down list to select the view to be applied to the tab. A different view can be selected for each tab. The drop-down list is only displayed in the *Edit tab* view. The following options are available:    
-  - **Automatic**: The system automatically detects the appropriate view and applies it to the tab.
-  - **Mobile**: The mobile view is applied to the tab.  
-  - **Tablet**: The tablet view is applied to the tab.  
-  - **Laptop**: The laptop view is applied to the tab.  
-  - **Desktop**: The desktop view is applied to the tab.  
+  - **Automatic**   
+    The system automatically detects the appropriate view and applies it to the tab.
+  - **Mobile**   
+    The mobile view is applied to the tab.  
+  - **Tablet**   
+    The tablet view is applied to the tab.  
+  - **Laptop**   
+    The laptop view is applied to the tab.  
+  - **Desktop**   
+    The desktop view is applied to the tab.  
 
 
 - [ADD ELEMENT]   
@@ -91,11 +96,14 @@ In the *DASHBOARDS* tab, the custom tabs with composable dashlets are displayed.
 
 ![Dashlet picker](../../Assets/Screenshots/ActindoWorkFlow/Overview/DashletPicker.png "[Dashlet picker]")
 
-- [x]
+- [x]   
   Select a checkbox to add the selected dashlet to the tab. You can select multiple checkboxes. If you click the checkbox in the header, all dashlets in the list are selected. A toolbar indicating the number of selected dashlets is displayed above the list when you have selected at least one checkbox. By default, the following dashlets are available:
-  - Current failure count: This dashlet displays the number of processes that have currently an *Error* status.
-  - Workflow count: This dashlet displays the number of workflows in the *Workflows* module.
-  -	Waiting processes: This dashlet displays the number of waiting processes in the *Workflows* module.
+  - *Current failure count*   
+    This dashlet displays the number of processes that have currently an *Error* status.
+  - *Workflow count*   
+    This dashlet displays the number of workflows in the *Workflows* module.
+  - *Waiting processes*   
+    This dashlet displays the number of waiting processes in the *Workflows* module.
 
 - [CANCEL]   
   Click this button to cancel adding dashlets and close the *Dashlet Picker* window.
