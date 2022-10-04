@@ -45,7 +45,7 @@ An attribute set has been created, see [Create an attribute set](./02_ManageAttr
   > [Info] Be aware that only attributes which are neither multi-language nor multi-channel can be used as defining attributes for variants. For detailed information, see [Create a variant set](../../PIM/Integration/07_ManageVariantSets.md#create-a-variant-set).
 
 6. Click the ![Add](../../Assets/Icons/Plus05.png "[Add]") (Add) button in the *Assigned sets* field. The button is locked if you have not yet selected a data type.   
-  A drop-down list with all active attribute sets is displayed.
+  A drop-down list with all active attribute sets is displayed. Data types can be restricted to certain entity types and therefore attribute sets
 
 7. Select an attribute set in the *Assigned sets* drop-down list.
 
@@ -94,7 +94,8 @@ At least one attribute has been created, see [Create an attribute](#create-an-at
 
 ## Deactivate an attribute
 
-It is recommended to deactivate an attribute instead of deleting it to prevent any problems because of existing dependencies. If you deactivate an attribute, it is no longer available for new attribute sets and it is hidden in existing products with this attribute.
+It is recommended to deactivate an attribute instead of deleting it to prevent any problems because of existing dependencies. If you deactivate an attribute, it is no longer available for new attribute sets and it is hidden in existing products with this attribute. Deactivated attributes are not included in
+the completeness calculation even if they are required.
 
 #### Prerequisites
 

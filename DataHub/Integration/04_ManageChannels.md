@@ -6,7 +6,7 @@
 
 A channel is needed to create offers for a certain connection. By default, the *Actindo Basic* channel has been preset. If you want to maintain multiple channels, you have to create and activate the respective channels.
 
-> [Info] A channel is not equal to a marketplace or web store connection. You can create a channel and use it for another connection.
+> [Info] A channel is not equal to a marketplace or web store connection. It is just a dimension that you can add to multi-channel attributes.
 
 [comment]: <> (Insert link for procedure about creating a new connection when available)
 

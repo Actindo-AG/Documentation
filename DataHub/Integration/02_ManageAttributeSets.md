@@ -4,7 +4,7 @@
 
 # Manage an attribute set
 
-An attribute set consists of a group of attributes to classify certain products according to demand or production contexts. By default, the *PIM Basic Set* attribute set is predefined.
+An attribute set consists of several attributes to classify certain products according to demand or production contexts. Several plugins my bring their own attribute sets as a starting point for the tenant's configuration like the PIM plugin.
 
 [comment]: <> (Are there any other sets outside PIM predefined?)
 
@@ -14,7 +14,8 @@ You can create attribute sets, edit existing attribute sets and deactivate attri
 ## Create an attribute set
 
 Create an attribute set to define a new attribute set with different attributes to the predefined attribute sets.
-In contrast to attribute sets created in the *PIM* module, you have to select an entity type for the attribute set.
+Several plugins bring their own configuration UI where only attributes and attribute sets that belong the specific plugin are listed.
+When using the plugin specific UI several options may be limited or non-existing.
 
 [comment]: <> (What does that mean -> what consequences has the entity type? All PIM attribute sets = entity type PIM product? List of entity types?)
 
@@ -56,7 +57,9 @@ Additional attributes for the attribute set have been created, see [Create an at
 
 ### Create an attribute set without attribute inheritance
 
-When you create an attribute set without inheritance, you have to add all attributes manually to the created attribute set. Neither attributes nor configurations are applied from another attribute set. In exchange, you can define individually which attributes are required and customize their configuration.
+When you create an attribute set without inheritance, you have to add all attributes manually to the created attribute set. 
+Neither attributes nor configurations are applied from another attribute set. 
+In exchange, you can define individually which attributes are required and customize their configuration.
 
 #### Prerequisites
 
@@ -82,7 +85,9 @@ When you create an attribute set without inheritance, you have to add all attrib
 
 ### Create an attribute set with attribute inheritance
 
-When you create an attribute set with attribute inheritance, you adopt all attributes from the selected attribute set. The inherited attributes cannot be changed. Further, all changes in the inheritance attribute set are also applied to the linked attribute set. Each time a change is made in the inheritance attribute set, the linked attribute sets are updated.  
+When you create an attribute set with attribute inheritance, you adopt all attributes from the selected attribute set. 
+The inherited attributes cannot be changed. Further, all changes in the inheritance attribute set are also applied to the 
+linked attribute set. Each time a change is made in the inheritance attribute set, the linked attribute sets are updated.  
 
 #### Prerequisites
 
@@ -215,7 +220,11 @@ Remove an attribute from an attribute set to limit the specifications. Inherited
 
 ### Change the required attributes in the set
 
-The product completeness is calculated depending on the required attributes within an attribute set. You can define whether an attribute should be required or not. Note that inherited attributes can only be changed in the origin attribute set and the required status is also inherited to the linked attribute sets. All required attributes are marked with a *(required)* indication in the product view.     
+The product completeness is calculated depending on the required attributes within an attribute set.
+Entities can be saved even if not all *required* attributes are filled out.
+You can define whether an attribute should be required or not.
+Note that inherited attributes can only be changed in the origin attribute set and the required status is also inherited to the linked attribute sets.
+All required attributes are marked with a *(required)* indication in the product view.
 Be aware that the activation or deactivation of languages affects the completeness calculation.
 
 #### Prerequisites
@@ -257,8 +266,6 @@ If an attribute set is no longer used, it is recommended to deactivate the attri
 #### Prerequisites
 
 At least one attribute set has been created, see [Create an attribute set](#create-an-attribute-set).
-
-> [Info] By default, the *PIM Basic Set* attribute set has been predefined in the *Core1 Platform*.
 
 #### Procedure
 *DataHub > Settings > Tab ATTRIBUTE SETS*

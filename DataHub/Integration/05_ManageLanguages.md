@@ -25,7 +25,7 @@ No prerequisites to fulfill.
 
 2. Enter a name for the language in the *Name* field.
 
-3. Enter a key for the language in the *Key* field. The key is required for API access and must be system wide unique.
+3. Enter a key for the language in the *Key* field. The key is required for API access and must be system wide unique. The key must fulfill the criteria of ISO language codes.
 
 4. Enable the *Active* toggle to set the language directly after creation to active.
 

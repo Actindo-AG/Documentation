@@ -6,6 +6,7 @@
 # Manage an attribute group
 
 The attribute groups serve the logical organization of the product attributes. You can create attribute groups, edit attribute groups and the sorting of the attribute groups themselves as well as the sorting of the attributes within a group.
+Groups are arranged in a tree structure with 2 levels depth as maximum.
 
 ## Create an attribute group
 
@@ -14,6 +15,7 @@ Create an attribute group for new attributes you want to assign to a certain gro
 #### Prerequisites
 
 Additional attributes for the attribute group have been created, see [Create an attribute](./01_ManageAttributes.md#create-an-attribute).
+Attributes can only be added to leaf-groups meaning groups without child groups.
 
 #### Procedure
 *DataHub > Settings > Tab ATTRIBUTE GROUPS*
@@ -58,6 +60,7 @@ After you have created an attribute group, you can edit it. You can create attri
 ### Create an attribute sub-group
 
 Create an attribute sub-group to organize the attributes in special groups, for instance depending on product-related categories.
+When creating a sub-group of a group that already contains attributes, all contained attributes will be moved to first sub-group.
 
 #### Prerequisites
 

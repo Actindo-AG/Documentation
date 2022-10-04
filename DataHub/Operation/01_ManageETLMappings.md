@@ -8,12 +8,14 @@
 
 # Manage the ETL mappings
 
-An ETL attribute set mapping is used to extract the data from a source attribute set, transform it according to a specified method, and load it into a destination attribute set. You can create mappings, edit existing mappings and rerun mappings.
+An ETL attribute set map is used to extract the data from a source attribute set, transform it according to a specified method, and load it into a destination attribute set. 
+You can create mappings, edit existing mappings and rerun mappings.
 
 
 ## Create an ETL attribute set mapping
 
-Create an ETL attribute set mapping to map the attributes of the source attribute set to the attributes of the destination attribute set. The mapping allows to convert the attributes from the source set to fit the attributes required by the destination set.
+Create an ETL attribute set mapping to map the attributes of the source attribute set to the attributes of the destination attribute set. 
+The mapping allows to convert the attribute values from the source set to fit the attributes required by the destination set.
 
 #### Prerequisites
 
@@ -53,7 +55,9 @@ At least two attribute sets have been created, see [Create an attribute set](./0
 
 ## Edit an ETL attribute set mapping
 
-After you have created an attribute set mapping, you can edit it. You can edit the attribute mappings within an attribute set mapping, add a custom mapping for a certain destination attribute, delete an existing attribute mapping or rerun a single or all attribute mappings within an attribute set mapping.
+After you have created an attribute set mapping, you can edit it. 
+You can edit the attribute mappings within an attribute set mapping, add a custom mapping for a certain destination attribute,
+delete an existing attribute mapping or rerun a single or all attribute mappings within an attribute set mapping.
 
 ### Edit the ETL attribute mappings
 
@@ -90,10 +94,10 @@ At least one ETL attribute set mapping has been created, see [Create an ETL mapp
   For detailed information about the ETL extensions, see [ETL extensions list](../UserInterface/03_ETLExtensions.md).
 
 4. Select the appropriate tracking mode in the *Override change tracking mode* drop-down list. By default, the **use default** option is preselected. The following modes are available:
-  - **use default**: ---
+  - **use default**: Use the mapping that is configured in the dependency of the specific entities
   - **automatic**: The initial mapping is automatically applied. All value changes or reruns are applied automatically in the mapping.  
-  - **semi-automatic**: The initial mapping is automatically applied. Values changes or reruns are applied after confirmation in the *Omni-Channel* module.
-  - **semi-automatic, changes must be confirmed by another user**: The initial mapping as well as values changes or reruns are applied after confirmation by another user in the *Omni-Channel* module.
+  - **semi-automatic**: The initial mapping is automatically applied. Values changes or reruns are applied after confirmation.
+  - **semi-automatic, changes must be confirmed by another user**: The initial mapping as well as values changes or reruns are applied after confirmation by another user.
   - **manual**: The initial mapping is automatically applied. Afterwards, the changes in the mapping must be triggered manually to be applied.
 
 
