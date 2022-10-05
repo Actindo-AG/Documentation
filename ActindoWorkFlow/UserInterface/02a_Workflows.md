@@ -340,7 +340,7 @@ The list displays all workflow versions of the selected workflow. Depending on t
   - **If all are met**  
     Select this option if you want all conditions to be met for the trigger to be executed. This option is preselected by default.
   - **If any is met**  
-    Select this option if you want any condition to be met for the trigger to be executed.
+    Select this option if you want the trigger to be executed if any single one of the configured conditions is met.
 
 
 - *Status*  
@@ -392,7 +392,7 @@ The list displays all workflow versions of the selected workflow. Depending on t
     Select this option if any property value must be set for the trigger to be executed. No value must be entered in the *Value* field.
 
 
-[comment]: <> (Check nach Bugfix ob das Value field überhaupt noch angezeigt wird beim is set operator)
+[comment]: <> (Option is set anpassen, nachdem ICBPM-204 fertig ist)
 
 - *Value*  
   Enter the applicable value.

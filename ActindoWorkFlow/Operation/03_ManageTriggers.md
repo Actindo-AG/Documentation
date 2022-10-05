@@ -58,7 +58,7 @@ No prerequisites to fulfill.
   - **If all are met**  
     Select this option if you want all conditions to be met for the trigger to be executed. This option is preselected by default.
   - **If any is met**  
-    Select this option if you want any condition to be met for the trigger to be executed.
+    Select this option if you want the trigger to be executed if any single one of the configured conditions is met.
 
 
 8. Click the *Status* drop-down list and select the appropriate option. The following options are available:
@@ -74,7 +74,7 @@ No prerequisites to fulfill.
 
   ![Add condition](../../Assets/Screenshots/ActindoWorkFlow/Workflows/EditTriggerAddcondition.png "[Add condition]")
 
-10. If desired, add one or several conditions to the trigger, see [Add a condition](#add-a-condition).
+10. If desired, add one or several conditions to the trigger, see [Add a condition](#add-a-condition). You can also create a trigger without adding a single condition.
 
   > [Info] Repeat the steps **3** to **10** to add a further trigger. You can add an unlimited number of triggers to a workflow.
 
@@ -123,7 +123,7 @@ All trigger fields have been completed, see [Create a trigger](#create-a-trigger
     Select this option if any property value must be set for the trigger to be executed. No value must be entered in the *Value* field.
 
 
-[comment]: <> (Check nach Bugfix ob das Value field überhaupt noch angezeigt wird beim is set operator)
+[comment]: <> (Option is set anpassen, nachdem ICBPM-204 fertig ist)
 
 5. If necessary, enter the corresponding value in the *Value* field.
 
