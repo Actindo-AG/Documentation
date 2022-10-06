@@ -20,6 +20,10 @@
     Select this option if the customer is a private individual and, therefore, has no VAT ID number (B2C transaction).
   - **Yes**  
     Select this option if the customer is a company and, therefore, has a VAT ID number (B2B transaction).
+  - **Any**   
+    To match any of the previous two cases.
+
+  > [Info] To change the selection of a drop-down list back to **Any**, reselect the already selected option in the drop-down list.  
 
 
 **Country of origin**
@@ -30,6 +34,8 @@
     When selecting this option, the drop-down list on the right is locked. Leave it blank (**Any**) if you want to specify an individual country in the drop-down list on the right.
   - Click the drop-down list on the right to select an individual country. All available countries in the system are displayed.
 
+  > [Info] To change the selection of a drop-down list back to **Any**, reselect the already selected option in the drop-down list.
+
 
 **Ship-to country**
 
@@ -39,17 +45,18 @@
     When selecting this option, the drop-down list on the right is locked. Leave it blank (**Any**) if you want to specify an individual country. When selecting this option, the drop-down list on the right is unlocked.
   - Click the drop-down list on the right to select an individual country. All available countries in the system are displayed.
 
+  > [Info] To change the selection of a drop-down list back to **Any**, reselect the already selected option in the drop-down list.
+
 
 **Ship-to postcode**  
-
 
 - Ship-to postcode  
   Specific area within a country or territory where the product is shipped to.   
   - Click the drop-down list and select the appropriate option. The following options are available:
     - **Range**  
-      Select this option to specify a numeric postcode range, for example **27498 or 52001-52006**.
+      Select this option to specify a numeric postcode range, for example **27498** or **52001-52006**.
     - **Regex**  
-      Select this option to specify a postcode containing alphanumeric characters with regular expressions, for example **/^BT.*/**.   
+      Select this option to specify a postcode containing alphanumeric characters with regular expressions, for example **/^BT.*/** in case of Northern Ireland.   
 
   The field to the right of the *Ship-to postcode* drop-down list is unlocked.
   - Enter the applicable range or regular expression in the unlocked field on the right.
