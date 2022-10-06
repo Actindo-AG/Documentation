@@ -24,7 +24,7 @@
   Click this button to edit the selected attribute set mapping. This button is only displayed, when the checkbox of an attribute set mapping is selected. Alternatively, you can click directly a row in the list to edit an attribute set mapping.
   For detailed information, see [Edit an attribute set mapping](../Operation/01_ManageETLMappings.md#edit-an-etl-attribute-set-mapping).
 
-The list displays all attribute set mappings. All fields are read-only. Depending on the settings, the displayed columns may vary.
+The list displays all attribute set mappings. Depending on the settings, the displayed columns may vary. All fields are read-only.
 
 - *Source attribute set*   
   Name of the attribute set from which the mapping is run.
@@ -143,7 +143,7 @@ The list displays all attribute set mappings. All fields are read-only. Dependin
   Click this button to define a custom channel and/or language attribute mapping for the selected destination attribute. The *Settings* section is displayed on the right side of the *Mapping from source set to destination set* view with a drop-down list for the language and/or channel. The button is only displayed when the destination attribute of the selected mapping is multi-language or multi-channel. For detailed information, see [Add a custom mapping for a destination attribute](../Operation/01_ManageAttributes.md#add-a-custom-mapping-for-a-destination-attribute)
 
 
-The list displays all attribute mappings. All fields are read-only. Depending on the settings, the displayed columns may vary.
+The list displays all attribute mappings. Depending on the settings, the displayed columns may vary. All fields are read-only.
 
 - *Source attribute*   
   Name of the source attribute which is mapped to the destination attribute. The source attribute is only displayed, when a mapping to the destination attribute exists.
@@ -164,11 +164,11 @@ The list displays all attribute mappings. All fields are read-only. Depending on
 
 ![Mapping settings](../../Assets/Screenshots/DataHub/Settings/ETL/MappingSettings.png "[Mapping settings]")
 
-The *Settings* section on the right side of the *Mapping from source set to destination set* view is only displayed, when editing an attribute mapping.   
-Depending on the selected row in the mappings list, the fields displayed in the *Settings* section differ:
 
-- If the selected row contains only a destination attribute, the destination attribute as well as the *Extension* and *Override change tracking mode* drop-down lists are displayed.
-- If the selected row contains an attribute mapping with source, destination attribute and the extension, the destination attribute as well as the *Source attribute*, *Extension* and *Override change tracking mode* drop-down lists are displayed. The *Source attribute*, *Extension* and *Override change tracking mode* drop-down lists are preset. If the selected extension requires further configuration settings, the *Configuration* section is displayed below the *Settings* section.
+The *Settings* section on the right side of the *Mapping from source set to destination set* view is only displayed, when editing an attribute mapping.   
+Depending on the selected row in the mappings list, the fields displayed in the *Settings* section differ:   
+  - If the selected row contains only a destination attribute, the destination attribute as well as the *Extension* and *Override change tracking mode* drop-down lists are displayed.   
+  - If the selected row contains an attribute mapping with source, destination attribute and the extension, the destination attribute as well as the *Source attribute*, *Extension* and *Override change tracking mode* drop-down lists are displayed. The *Source attribute*, *Extension* and *Override change tracking mode* drop-down lists are preset. If the selected extension requires further configuration settings, the *Configuration* section is displayed below the *Settings* section.   
 
 
 - [SAVE]   
@@ -178,20 +178,27 @@ Depending on the selected row in the mappings list, the fields displayed in the 
   The selected destination attribute is displayed in the arrow box on the right side. This field is read-only.
 
 - *Extension*   
-  Click the drop-down list and select the appropriate ETL extension for the attribute mapping. The displayed extensions depend on the data type of the selected destination attribute. For detailed information about the ETL extensions, see [ETL extensions list](./03_ETLExtensions.md).
+  Click the drop-down list and select the appropriate ETL extension for the attribute mapping. The displayed extensions depend on the data type of the selected destination attribute.    
+  For detailed information about the ETL extensions and the different data types, see [ETL extensions list](./03_ETLExtensions.md) or [Data type list](./04_DataTypeList.md).
+
 
 - *Override change tracking mode*   
   Click the drop-down list and select the change tracking mode of the mapping. By default, the **Use default** option is selected. The following modes are available:
-    - **Use default**: The default change tracking mode is applied to the mapping.
-    - **Automatic**: The initial mapping is automatically applied. All value changes or reruns are applied automatically in the mapping.  
-    - **Semi-automatic**: The initial mapping is automatically applied. Values changes or reruns are applied after confirmation in the *Omni-Channel* module.
-    - **Semi-automatic, changes must be confirmed by another user**: The initial mapping as well as values changes or reruns are applied after confirmation by another user in the *Omni-Channel* module.
-    - **Manual**: The initial mapping is automatically applied. Afterwards, the changes in the mapping must be triggered manually to be applied.
+  - **Use default**   
+    The mapping configured in the dependency of the specific entities is applied.
+  - **Automatic**   
+    The initial mapping is automatically applied. All value changes or reruns are applied automatically in the mapping.  
+  - **Semi-automatic**   
+    The initial mapping is automatically applied. Values changes or reruns are applied after confirmation.
+  - **Semi-automatic, changes must be confirmed by another user**   
+    The initial mapping as well as values changes or reruns are applied after confirmation by another user.
+  - **Manual**   
+    The initial mapping is automatically applied. Afterwards, the changes in the mapping must be triggered manually to be applied.
 
-  [comment]: <> (ISt das so korrekt? welcher mode wird bei default genommen?)
 
 - *Source attribute*   
-  Click the drop-down list within the arrow box and select the appropriate source attribute for the mapping. Depending on the selected ETL extension one or several *Source attribute* arrow boxes are displayed. The selection in the drop-down list depends on the selected ETL extension which defines the required data type of the source attribute(s). For detailed information about the ETL extensions and the different data types, see [ETL extensions list](./03_ETLExtensions.md) or [Data type list](../../PIM/UserInterface/04_DataTypeList.md).  
+  Click the drop-down list within the arrow box and select the appropriate source attribute for the mapping. Depending on the selected ETL extension one or several *Source attribute* arrow boxes are displayed. The selection in the drop-down list depends on the selected ETL extension which defines the required data type of the source attribute(s).    
+  For detailed information about the ETL extensions and the different data types, see [ETL extensions list](./03_ETLExtensions.md) or [Data type list](./04_DataTypeList.md).  
 
 
 **Configuration**

@@ -2,12 +2,13 @@
 [!!User Interface Attributes](../UserInterface/02a_Attributes.md)
 [!!Manage the products](../../PIM/Operation/01_ManageProducts.md)
 [!!Manage the attribute sets](./02_ManageAttributeSets.md)
-[!!Data type list](../../PIM/UserInterface/04_DataTypeList.md)
+[!!Data type list](../UserInterface/04_DataTypeList.md)
 
 
 # Manage an attribute
 
-An attribute defines a characteristic to describe a product. You can create attributes, edit existing attributes and deactivate or delete attributes that are not in use. Further, you can add attributes to an attribute set or remove them from an attribute set.  
+An attribute defines a characteristic to describe a product. You can create attributes, edit existing attributes and deactivate or delete attributes that are not in use.
+Further, you can add attributes to an attribute set or remove them from an attribute set.  
 In the *DataHub* module, attributes from all plugins are displayed.
 
 
@@ -20,6 +21,7 @@ No prerequisites to fulfill.
 An attribute set has been created, see [Create an attribute set](./02_ManageAttributeSets.md#Create-an-attribute-set).
 
 #### Procedure
+
 *DataHub > Settings > Tab ATTRIBUTES*
 
 ![Attributes](../../Assets/Screenshots/DataHub/Settings/Attributes/Attributes.png "[Attributes]")
@@ -32,11 +34,16 @@ An attribute set has been created, see [Create an attribute set](./02_ManageAttr
 2. Enter a name for the attribute in the *Name* field and, if desired, add an attribute description in the  *Description* field.
 
 3. Select a data type in the *Data type* drop-down list.   
- For detailed information about all data types, see [Data type list](../../PIM/UserInterface/04_DataTypeList.md).
+ For detailed information about all data types, see [Data type list](../UserInterface/04_DataTypeList.md).
 
    > [Info] The settings displayed in the *CONFIGURATION* section depend on the selected data type.
 
-4. Enter a key for the attribute in the *Key* field. The key is required for API access and must be system wide unique.
+
+4. Enter a key for the attribute in the *Key* field. The key is required for API access and must be system wide unique. An attribute key must fulfill the following criteria:
+  - valid characters are **a-z** (upper and lower case), **0-9** and the underscore ( **_** )
+  - the key must not start with a number
+  - a double underscore ( **___** ) and a trailing underscore are forbidden
+
 
   > [Info] In order to facilitate the assignment of attributes in the further process (for instance in the ETL mapping), it is recommended to add the prefix **datahub_** to all attributes created in the *DataHub* module.     
 
@@ -47,28 +54,32 @@ An attribute set has been created, see [Create an attribute set](./02_ManageAttr
 6. Click the ![Add](../../Assets/Icons/Plus05.png "[Add]") (Add) button in the *Assigned sets* field. The button is locked if you have not yet selected a data type.   
   A drop-down list with all active attribute sets is displayed.
 
+  > [Info] Note that data types can be restricted to certain entity types and therefore also to attribute sets.
+
 7. Select an attribute set in the *Assigned sets* drop-down list.
 
   > [Info] You can assign the attribute to multiple sets. Repeat the steps **7** to **8** to assign the attribute to a further attribute set. To delete the assignment to a selected set, click the ![Delete](../../Assets/Icons/Trash01.png "[Delete]") (Delete) button right to the set.
 
-8. If required, configure the settings in the *CONFIGURATION* section. For detailed information about the different configuration settings, see [Data type list](../../PIM/UserInterface/04_DataTypeList.md).
+8. If required, configure the settings in the *CONFIGURATION* section. For detailed information about the different configuration settings, see [Data type list](../UserInterface/04_DataTypeList.md).
 
 9. Click the [SAVE] button in the upper right corner.   
   The new attribute has been saved. The *Create attribute* view is closed.  
 
 
+
 ## Edit an attribute
 
-After you have created an attribute, you can edit it. However, only some attribute properties are editable. For instance, the data type and the attribute key cannot be subsequently modified. The assignment of an attribute to an attribute set must be changed in the [attribute set](./02_ManageAttributeSets) itself.   
-There are also some attributes that are automatically created by the system, for instance when installing a plugin or module. These system attributes are read-only and cannot be edited. It is highly recommended not to deactivate these attributes to avoid interfering with the functioning of the *Core1 Platform*.
+After you have created an attribute, you can edit it. However, only some attribute properties are editable. For instance, the data type and the attribute key cannot be subsequently modified.
+The assignment of an attribute to an attribute set must be changed in the [attribute set](./02_ManageAttributeSets#edit-an-attribute-set) itself.   
+There are also some attributes that are automatically created by the system, for instance when installing a plugin or module.
+These system attributes are read-only and cannot be edited. It is highly recommended not to deactivate these attributes to avoid interfering with the functioning of the *Core1 Platform*.
 
 #### Prerequisites
 
 At least one attribute has been created, see [Create an attribute](#create-an-attribute).
 
-> [Info] By default, a certain number of attributes has been predefined in the *PIM Basic Set* attribute set.
-
 #### Procedure
+
 *DataHub > Settings > Tab ATTRIBUTES*
 
 ![Attributes](../../Assets/Screenshots/DataHub/Settings/Attributes/Attributes.png "[Attributes]")
@@ -92,17 +103,18 @@ At least one attribute has been created, see [Create an attribute](#create-an-at
   The changes have been saved. The *Edit attribute* view is closed.  
 
 
+
 ## Deactivate an attribute
 
-It is recommended to deactivate an attribute instead of deleting it to prevent any problems because of existing dependencies. If you deactivate an attribute, it is no longer available for new attribute sets and it is hidden in existing products with this attribute.
+It is recommended to deactivate an attribute instead of deleting it to prevent any problems because of existing dependencies. If you deactivate an attribute, it is no longer available for new attribute sets and it is hidden in existing products with this attribute.   
+Deactivated attributes are not included in the completeness calculation even if they are required.
 
 #### Prerequisites
 
 At least one attribute has been created, see [Create an attribute](#create-an-attribute).
 
-> [Info] By default, a certain number of attributes has been predefined in the *PIM Basic Set* attribute set.
-
 #### Procedure
+
 *DataHub > Settings > Tab ATTRIBUTES*
 
 ![Attributes](../../Assets/Screenshots/DataHub/Settings/Attributes/Attributes.png "[Attributes]")
@@ -125,7 +137,9 @@ At least one attribute has been created, see [Create an attribute](#create-an-at
 
 ## Delete an attribute
 
-You can move an attribute to the *DELETED ATTRIBUTES* tab if it is no longer needed. As there are usually dependencies on an attribute, for example through an attribute set or created products, it is strongly recommended not to delete an attribute. Instead, you can deactivate an attribute and thus prevent its use.
+You can move an attribute to the *DELETED ATTRIBUTES* tab if it is no longer needed.
+As there are usually dependencies on an attribute, for example through an attribute set or created products, it is strongly recommended not to delete an attribute.
+Instead, you can deactivate an attribute and thus prevent its use, see [Deactivate an attribute](#deactivate-an-attribute).
 
 #### Prerequisites
 
@@ -134,6 +148,7 @@ At least one attribute has been created, see [Create an attribute](#create-an-at
 > [Info] By default, a certain number of attributes has been predefined in the *PIM Basic Set* attribute set.
 
 #### Procedure
+
 *DataHub > Settings > Tab ATTRIBUTES*
 
 ![Attributes](../../Assets/Screenshots/DataHub/Settings/Attributes/Attributes.png "[Attributes]")
@@ -161,6 +176,7 @@ If you have moved an attribute to the *DELETED ATTRIBUTES* tab, you can recover 
 At least one attribute has been moved to the *DELETED ATTRIBUTES* tab, see [Delete an attribute](#delete-an-attribute).
 
 #### Procedure
+
 *DataHub > Settings > Tab DELETED ATTRIBUTES*
 
 ![Attributes](../../Assets/Screenshots/DataHub/Settings/DeletedAttributes/DeletedAttributes.png "[Attributes]")
@@ -177,13 +193,16 @@ At least one attribute has been moved to the *DELETED ATTRIBUTES* tab, see [Dele
 
 ## Finally delete an attribute
 
-You can finally delete an attribute if it is no longer needed. As there are usually dependencies on an attribute, for example through an attribute set or created products, it is strongly recommended not to delete an attribute irretrievably. Finally deleted attributes cannot be recovered.
+You can finally delete an attribute if it is no longer needed.
+As there are usually dependencies on an attribute, for example through an attribute set or created products, it is strongly recommended not to delete an attribute irretrievably.
+Finally deleted attributes cannot be recovered.
 
 #### Prerequisites
 
 At least one attribute has been moved to the *DELETED ATTRIBUTES* tab, see [Delete an attribute](#delete-an-attribute).
 
 #### Procedure
+
 *DataHub > Settings > Tab ATTRIBUTES*
 
 ![Attributes](../../Assets/Screenshots/DataHub/Settings/Attributes/Attributes.png "[Attributes]")
@@ -196,4 +215,4 @@ At least one attribute has been moved to the *DELETED ATTRIBUTES* tab, see [Dele
 2. Click the [Delete] button in the toolbar.  
   The attribute has been irretrievably deleted. The deletion cannot be undone.
 
-   > [Warning] Problems may occur if you delete an attribute with existing dependencies.  
+  > [Warning] Problems may occur if you delete an attribute with existing dependencies.  

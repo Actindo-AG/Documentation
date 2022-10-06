@@ -15,6 +15,7 @@ Follow the instructions below to restart the ETL process after you have fixed th
 The cause of the faulty ETL process has been fixed.
 
 #### Procedure
+
 *DataHub > Settings > Tab ETL PROCESSES*
 
 ![ETL processes](../../Assets/Screenshots/DataHub/Settings/ETLProcesses/ETLProcesses.png "[ETL processes]")
@@ -35,6 +36,7 @@ The cause of the faulty ETL process has been fixed.
   ![Process retried](../../Assets/Screenshots/DataHub/Settings/ETLProcesses/ProcessRetried.png "[Process retried]")
 
   If the rerun is successful, the mapping status will change to **Done** and will be removed from the list of mappings with the **Error** status.
+
 
 
 ## Was this chapter helpful?

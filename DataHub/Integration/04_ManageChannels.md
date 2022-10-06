@@ -4,9 +4,11 @@
 
 # Manage the channels
 
-A channel is needed to create offers for a certain connection. By default, the *Actindo Basic* channel has been preset. If you want to maintain multiple channels, you have to create and activate the respective channels.
+A channel is needed to create offers for a certain connection.
+By default, the *Actindo Basic* channel has been preset.
+If you want to maintain multiple channels, you have to create and activate the respective channels.
 
-> [Info] A channel is not equal to a marketplace or web store connection. You can create a channel and use it for another connection.
+> [Info] A channel does not equal a marketplace or web store connection. It is just a dimension that can be added to the multi-channel attributes.
 
 [comment]: <> (Insert link for procedure about creating a new connection when available)
 
@@ -19,6 +21,7 @@ Create a channel to maintain multiple channels or to create a new connection via
 No prerequisites to fulfill.
 
 #### Procedure
+
 *DataHub > Settings > Tab CHANNELS*
 
 ![Channel list](../../Assets/Screenshots/DataHub/Settings/Channels/ChannelList.png "[Channel list]")
@@ -30,7 +33,12 @@ No prerequisites to fulfill.
 
 2. Enter a name for the channel in the *Name* field and, if desired, add a channel description in the  *Description* field.
 
-3. Enter a key for the channel in the *Key* field. The key is required for API access and must be system wide unique.
+
+3. Enter a key for the channel in the *Key* field. The key is required for API access and must be system wide unique. A channel key must fulfill the following criteria:
+  - valid characters are **a-z** (upper and lower case), **0-9** and the underscore ( **_** )
+  - the key must not start with a number
+  - a double underscore ( **___** ) and a trailing underscore are forbidden
+
 
 4. Enable the *Active* toggle to set the channel directly after creation to active.
 
@@ -52,6 +60,7 @@ At least one channel has been created, see [Create a channel](../Integration/Cre
 > [Info] By default, the *Actindo Basic* channel has been predefined in the *Core1 Platform*.
 
 #### Procedure
+
 *DataHub > Settings > Tab CHANNELS*
 
 ![Channel list](../../Assets/Screenshots/DataHub/Settings/Channels/ChannelList.png "[Channel list]")
@@ -70,7 +79,9 @@ At least one channel has been created, see [Create a channel](../Integration/Cre
 
 ## Deactivate a channel
 
-Deactivate a channel when it should not be used for a certain time. The channel is no longer available for offers when it is inactive. Further, it is recommended to deactivate a channel instead of deleting it to prevent any problems because of existing connections.
+Deactivate a channel when it should not be used for a certain time.
+The channel is no longer available for offers when it is inactive.
+Further, it is recommended to deactivate a channel instead of deleting it to prevent any problems because of existing connections, see [Deactivate a channel](#deactivate-a-channel).
 
 #### Prerequisites
 
@@ -79,6 +90,7 @@ At least one channel has been created, see [Create a channel](#create-a-channel)
 > [Info] By default, the *Actindo Basic* channel has been predefined in the *Core1 Platform*.
 
 #### Procedure
+
 *DataHub > Settings > Tab CHANNELS*
 
 ![Channel list](../../Assets/Screenshots/DataHub/Settings/Channels/ChannelList.png "[Channel list]")
@@ -106,6 +118,7 @@ At least one channel has been created, see [Create a channel](#create-a-channel)
 > [Info] By default, the *Actindo Basic* channel has been predefined in the *Core1 Platform*. The *Actindo Basic* channel cannot be deleted.
 
 #### Procedure
+
 *DataHub > Settings > Tab CHANNELS*
 
 ![Channel list](../../Assets/Screenshots/DataHub/Settings/Channels/ChannelList.png "[Channel list]")

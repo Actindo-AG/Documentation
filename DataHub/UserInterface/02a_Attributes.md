@@ -29,7 +29,7 @@
   Click this button to delete the selected attribute. This button is only displayed, when the checkbox of an attribute is selected.       
   For detailed information, see [Delete an attribute](../Integration/01_ManageAttributes.md#delete-an-attribute).
 
-The list displays all attributes. All fields are read-only. Depending on the settings, the displayed columns may vary.
+The list displays all attributes. Depending on the settings, the displayed columns may vary. All fields are read-only.
 
 - *Name*   
   Attribute name.
@@ -47,7 +47,7 @@ The list displays all attributes. All fields are read-only. Depending on the set
   Attribute key.
 
 - *Data type*   
-  Attribute data type. For detailed information about all data types, see [Data type list](../../PIM/UserInterface/04_DataTypeList.md).
+  Attribute data type. For detailed information about all data types, see [Data type list](./04_DataTypeList.md).
 
 - *Description*   
   Description to the attribute.
@@ -92,7 +92,9 @@ The list displays all attributes. All fields are read-only. Depending on the set
   Click this button to create an attribute. The *Create attribute* view is displayed.   
 
 
+
 ## Create attribute
+
 *DataHub > Settings > Tab ATTRIBUTES > Button Add*
 
 ![Create attribute](../../Assets/Screenshots/DataHub/Settings/Attributes/CreateAttribute.png "[Create attribute]")
@@ -103,7 +105,7 @@ The list displays all attributes. All fields are read-only. Depending on the set
   Click this button to close the *Create attribute* view and return to the attributes list. All changes are rejected.
 
 - Language   
-  Click the drop-down list and select the language in which the *Name (Language)* and *Description (Language)* fields are displayed. The system languages *English (United States)* and *Deutsch (Deutschland)* are available in the drop-down list.
+  Click the drop-down list and select the language in which the *Name (Language)* and *Description (Language)* fields are displayed. By default, the system languages **English (United States)** and **Deutsch (Deutschland)** are available in the drop-down list.
 
 - [SAVE]   
   Click this button to save the attribute, close the *Create attribute* view and return to the attributes list.
@@ -115,13 +117,16 @@ The list displays all attributes. All fields are read-only. Depending on the set
   Enter a description to the attribute in the selected language.
 
 - *Data type*   
-  Click the drop-down list and select an attribute data type. For detailed information about all data types, see [Data type list](../../PIM/UserInterface/04_DataTypeList.md).
+  Click the drop-down list and select an attribute data type. For detailed information about all data types, see [Data type list](./04_DataTypeList.md).
 
 - *Key*   
-  Attribute key. The key is required for API access and must be system wide unique.
+  Enter an attribute key. The key is required for API access and must be system wide unique. An attribute key must fulfill the following criteria:
+  - valid characters are **a-z** (upper and lower case), **0-9** and the underscore ( **_** )
+  - the key must not start with a number
+  - a double underscore ( **___** ) and a trailing underscore are forbidden
 
 - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Multi-language*   
-  Enable this toggle to create a multi-lingual attribute. Disable the toggle to create a single language attribute. By default, this toggle is inactive.
+  Enable this toggle to create a multi-language attribute. Disable the toggle to create a single language attribute. By default, this toggle is inactive.
 
 - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Multi-channel*   
   Enable this toggle to create a multi-channel attribute. Disable the toggle to create a single channel attribute. By default, this toggle is inactive.
@@ -130,21 +135,21 @@ The list displays all attributes. All fields are read-only. Depending on the set
   Enable this toggle to set the attribute status to active. Disable the toggle to set the status to inactive. By default, this toggle is active.
 
 - *Assigned sets*   
-    Click the drop-down list and select an attribute set to which the attribute is assigned after creation. All active attribute sets are displayed. The drop-down list is only displayed when at least one attribute set drop-down list has been added.
+  Click the drop-down list and select an attribute set to which the attribute is assigned after creation. All active attribute sets are displayed. The drop-down list is only displayed when at least one attribute set drop-down list has been added.
 
-  - ![Add](../../Assets/Icons/Plus05.png "[Add]") (Add)    
-    Click this button to add an attribute set drop-down list. You can add an infinite number of attribute sets.
+- ![Add](../../Assets/Icons/Plus05.png "[Add]") (Add)    
+  Click this button to add an attribute set drop-down list. You can add an infinite number of attribute sets.
 
-  - ![Delete](../../Assets/Icons/Trash01.png "[Delete]") (Delete)   
-    Click this button to delete the corresponding attribute set.
+- ![Delete](../../Assets/Icons/Trash01.png "[Delete]") (Delete)   
+  Click this button to delete the corresponding attribute set.
 
-    > [Info] When you assign the attribute to no attribute set in this view, you have to assign the attribute afterwards to an attribute set, see [Add an attribute to the set](../Integration/02_ManageAttributeSets.md#add-an-attribute-to-the-set).
+  > [Info] When you assign the attribute to no attribute set in this view, you have to assign the attribute afterwards to an attribute set, see [Add an attribute to the set](../Integration/02_ManageAttributeSets.md#add-an-attribute-to-the-set).
 
 
 **CONFIGURATION**
 
 The *CONFIGURATION* section displays the additional configuration for the selected data type. The configuration fields differ depending on the selected data type.    
-For detailed information about the different configurations of data types, see [Data type list](../../PIM/UserInterface/04_DataTypeList.md).
+For detailed information about the different configurations of data types, see [Data type list](./04_DataTypeList.md).
 
 
 ## Edit attribute
@@ -159,10 +164,11 @@ For detailed information about the different configurations of data types, see [
   Click this button to close the *Edit attribute* view and return to the attributes list. All changes are rejected.
 
 - Language   
-  Click the drop-down list and select the language in which the *Name (Language)* and *Description (Language)* fields are displayed. The system languages *English (United States)* and *Deutsch (Deutschland)* are available in the drop-down list.
+  Click the drop-down list and select the language in which the *Name (Language)* and *Description (Language)* fields are displayed. By default, the system languages **English (United States)** and **Deutsch (Deutschland)** are available in the drop-down list.
 
 - [SAVE]   
   Click this button to save the attribute, close the *Edit attribute* view and return to the attributes list.
+
 
 ### Edit attribute &ndash; Data
 
@@ -177,16 +183,16 @@ For detailed information about the different configurations of data types, see [
   Click the field to edit the description to the attribute in the selected language.
 
 - *Data type*   
-  Attribute data type. In the *Edit attribute* view, this field is locked. For detailed information about all data types, see [Data type list](../../PIM/UserInterface/04_DataTypeList.md).
+  Attribute data type. In the *Edit attribute* view, this field is locked. For detailed information about all data types, see [Data type list](./04_DataTypeList.md).
 
 - *Key*   
-  Attribute key. The key is required for API access and must be system wide unique. In the *Edit attribute* view, this field is locked.
+  Attribute key. In the *Edit attribute* view, this field is locked.
 
 - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Multi-language*   
-  Enable this toggle to create a multi-lingual attribute. Disable the toggle to create a single language attribute. In the *Edit attribute* view, this toggle is read-only.
+  This toggle indicates whether the attribute is multi-language or not. In the *Edit attribute* view, this toggle is read-only.
 
 - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Multi-channel*   
-  Enable this toggle to create a multi-channel attribute. Disable the toggle to create a single channel attribute. In the *Edit attribute* view, this toggle is read-only.
+  This toggle indicates whether the attribute is multi-channel or not. In the *Edit attribute* view, this toggle is read-only.
 
 - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Active*   
   Enable this toggle to set the attribute status to active. Disable the toggle to set the status to inactive. By default, this toggle is active.
@@ -194,7 +200,7 @@ For detailed information about the different configurations of data types, see [
 **CONFIGURATION**
 
 The *CONFIGURATION* section displays the additional configuration for the selected data type. The configuration fields differ depending on the selected data type.    
-For detailed information about the different configurations of data types, see [Data type list](../../PIM/UserInterface/04_DataTypeList.md).
+For detailed information about the different configurations of data types, see [Data type list](./04_DataTypeList.md).
 
 
 
@@ -212,7 +218,7 @@ For detailed information about the different configurations of data types, see [
 - ![Columns](../../Assets/Icons/Columns.png "[Columns]") Columns (x)   
   Click this button to display the columns bar and customize the displayed columns and the order of columns in the list. The *x* indicates the number of columns that are currently displayed in the list.
 
-The list displays all attributes. All fields are read-only. Depending on the settings, the displayed columns may vary.
+The list displays all attributes. Depending on the settings, the displayed columns may vary. All fields are read-only.
 
 - *Attribute set*   
   Assigned attribute set.

@@ -21,10 +21,10 @@
   Select the checkbox to display the editing toolbar. You cannot select multiple checkboxes at once.
 
 - ![Edit](../../Assets/Icons/Edit01.png "[Edit]") (Edit)   
-  Click this button to edit the selected HTML template. This button is only displayed, when the checkbox of an HTML template is selected. Alternatively, you can click directly a row in the list to edit an HTML template.
+  Click this button to edit the selected HTML template. This button is only displayed, when the checkbox of an HTML template is selected. Alternatively, you can click directly a row in the list to edit an HTML template.   
   For detailed information, see [Edit an HTML template](../Operation/03_ManageHTMLTemplates.md#edit-an-html-template).
 
-The list displays all HTML templates. All fields are read-only. Depending on the settings, the displayed columns may vary.
+The list displays all HTML templates. Depending on the settings, the displayed columns may vary. All fields are read-only.
 
 - *ID*   
   HTML template identification number. The ID number is automatically assigned by the system.
@@ -66,7 +66,8 @@ The list displays all HTML templates. All fields are read-only. Depending on the
   Enter an HTML template key. The key is required for API access and must be system wide unique.
 
 - Textarea   
-  Enter the content for the HTML template. Use the Smarty template engine to include variables and tags to the template, see https://www.smarty.net/. For detailed information, see [Create an HTML template](./03_ManageHTMLTemplates#create-an-html-template).
+  Enter the content for the HTML template. Use the Smarty template engine to include variables and tags to the template, see [Smarty](https://www.smarty.net/) .    
+  For detailed information, see [Create an HTML template](./03_ManageHTMLTemplates#create-an-html-template).
 
 
 **Preview**
@@ -81,7 +82,7 @@ The list displays all HTML templates. All fields are read-only. Depending on the
   Click this button to display all variables to the selected entity. The code containing all variables to the entity is displayed in a new window. The possible variables can only be displayed when both, an entity type and an entity ID have been selected.
 
 - [SAVE AND PREVIEW TEMPLATE]   
-  Click this button to save the HTML template and display a preview of the template with the selected entity. The preview is displayed in a new  window. The preview can only be displayed when both, an entity type and an entity ID have been selected. In the *Create HTML template* view, the button is locked.
+  Click this button to save the HTML template and display a preview of the template with the selected entity. The preview is displayed in a new window. The preview can only be displayed when both, an entity type and an entity ID have been selected. In the *Create HTML template* view, the button is locked.
 
   [comment]: <> (Ist das so gedacht, dass ich den Button nicht klicken kann?)
 
@@ -111,10 +112,11 @@ The list displays all HTML templates. All fields are read-only. Depending on the
   Click the field to edit the description to the HTML template.
 
 - *Key*   
-  HTML template key. The key is required for API access and must be system wide unique. In the *Edit HTML template* view, this field is locked.
+  HTML template key. In the *Edit HTML template* view, this field is locked.
 
 - Textarea   
-  Click the field to edit the content for the HTML template. Use the Smarty template engine to include variables and tags to the template, see https://www.smarty.net/. For detailed information, see [Edit an HTML template](./03_ManageHTMLTemplates#edit-an-html-template).
+  Click the field to edit the content for the HTML template. Use the Smarty template engine to include variables and tags to the template, see [Smarty](https://www.smarty.net/) .   
+  For detailed information, see [Edit an HTML template](./03_ManageHTMLTemplates#edit-an-html-template).
 
 
 **Preview**

@@ -35,17 +35,27 @@
     - ![Delete](../../Assets/Icons/Trash01.png "[Delete]") delete    
       Click this entry to delete the selected view. The confirmation window to confirm the deletion is displayed. This menu entry is only displayed when a view is selected.
 
+
 - *Status filter*   
-  Click the drop-down list to filter the ETL processes for a certain status. The following filter modes are available:
-  - **All**: All ETL processes are displayed. By default, this mode is selected.
-  - **Todo**: All pending ETL processes are displayed.
-  - **Error**: All faulty ETL processes are displayed.
-  - **Done**: All completed ETL processes are displayed.
-  - **Destination frozen**: All ETL processes, whose destination attribute is blocked because the corresponding entity is opened by a user, are displayed.
-  - **Awaiting confirmation**: All ETL processes that must be confirmed are displayed.
-  - **Synchronous**: All ETL processes that are executed synchronously are displayed for the duration of processing.
-  - **Awaiting confirmation different user**: All ETL processes that must be confirmed by another user than the creator are displayed.
-  - **Semi-automatic accepted**: All ETL processes have been confirmed are displayed.   
+  Click the drop-down list to filter the ETL processes for a certain status. The following options are available:
+  - **All**   
+    All ETL processes are displayed. By default, this mode is selected.
+  - **Todo**   
+    All pending ETL processes are displayed.
+  - **Error**   
+    All faulty ETL processes are displayed.
+  - **Done**   
+    All completed ETL processes are displayed.
+  - **Destination frozen**   
+    All ETL processes, whose destination attribute is blocked because the corresponding entity is opened by a user, are displayed.
+  - **Awaiting confirmation**   
+    All ETL processes that must be confirmed are displayed.
+  - **Synchronous**   
+    All ETL processes that are executed synchronously are displayed for the duration of processing.
+  - **Awaiting confirmation different user**   
+    All ETL processes that must be confirmed by another user than the creator are displayed.
+  - **Semi-automatic accepted**   
+    All ETL processes have been confirmed are displayed.   
 
 
 - ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh)   
@@ -64,10 +74,10 @@
 
   ![ETL processes](../../Assets/Screenshots/DataHub/Settings/ETLProcesses/ProcessRetried.png "[ETL processes]")
 
-Depending on the selection in the *VIEW* drop-down list, the ETL processes list displays all processes with the selected status. All fields are read-only. Depending on the settings, the displayed columns may vary.
+Depending on the selection in the *VIEW* drop-down list, the ETL processes list displays all processes with the selected status. Depending on the settings, the displayed columns may vary. All fields are read-only.
 
 - *Status*   
-  Status of the ETL process. The following statuses can be displayed:
+  Status of the ETL process. The following statuses are available:
   - **Todo**
   - **Error**
   - **Done**
@@ -77,7 +87,6 @@ Depending on the selection in the *VIEW* drop-down list, the ETL processes list 
   - **Awaiting confirmation diff. user**
   - **Semi-automatic accepted**  
 
-  [comment]: <> (Status erklären?)
 
 - *From-to*   
   Name of the source and the destination entity. The SKUs of the entities are indicated in brackets after the names.  

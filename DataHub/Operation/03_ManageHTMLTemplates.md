@@ -3,7 +3,9 @@
 
 # Manage the HTML templates
 
-Define HTML templates that are used for the ETL mapping, especially for the receipt export. HTML templates allow you to include HTML text or Smarty templates and thus create complex queries with many logical inputs. Further, you are able to include certain data from all available entities using the HTML templates.
+Define HTML templates that are used for the ETL mapping, especially for the receipt export.
+HTML templates allow you to include HTML text or Smarty templates and thus create complex queries with many logical inputs.
+Further, you are able to include certain data from all available entities using the HTML templates.
 
 
 ## Create an HTML template
@@ -15,6 +17,7 @@ Create an HTML template so that it is available for the ETL mapping.
 The *HTML Templates for ETL* plugin has been installed.
 
 #### Procedure
+
 *DataHub > Settings > Tab HTML TEMPLATES*
 
 ![HTML templates](../../Assets/Screenshots/DataHub/Settings/HTMLTemplates/HTMLTemplates.png "[HTML templates]")
@@ -27,6 +30,7 @@ The *HTML Templates for ETL* plugin has been installed.
 2. Enter an expressive name for the HTML template in the *Name* field and, if desired, add a description to the HTML template in the *Description* field.
 
 3. Enter a key for the HTML template in the *Key* field. The key is required for API access and must be system wide unique.
+
 
 4. Click the textarea and enter the appropriate content for the HTML template. You can either include HTML text or Smarty templates:
   - [Include HTML text](#include-html-text)
@@ -67,7 +71,8 @@ The *HTML Templates for ETL* plugin has been installed.
 
 ## Include Smarty templates
 
-You can include Smarty templates into your HTML template. Always use the delimiters *{}* as separator for the Smarty templates.  
+You can include Smarty templates into your HTML template. For detailed information about Smarty templates, see [Smarty](https://www.smarty.net/) .
+Always use the delimiters *{}* as separator for the Smarty templates.  
 
 #### Prerequisites
 
@@ -83,7 +88,7 @@ The *HTML Templates for ETL* plugin has been installed.
 
 1. Click the textarea and enter the desired Smarty template(s).
 
-  > [Info] For detailed information about the Smarty template structure and elements, see https://www.smarty.net/.
+  > [Info] For detailed information about the Smarty template structure and elements, see [Smarty](https://www.smarty.net/).
 
 2. If desired, [include HTML text](#include-html-text) or display a [preview of the HTML template](#preview-an-html-template).
 
@@ -94,7 +99,8 @@ The *HTML Templates for ETL* plugin has been installed.
 
 ### Include attribute variables
 
-You can include variables for attributes via Smarty templates into your HTML template. Always use the *$* sign to introduce an attribute variable.
+You can include variables for attributes via Smarty templates into your HTML template.
+Always use the *$* sign to introduce an attribute variable.
 
 #### Prerequisites
 
@@ -131,7 +137,8 @@ The *HTML Templates for ETL* plugin has been installed.
 
 ### Include a tree node variable
 
-A tree node variable is a special type of variables that can be included via Smarty templates into your HTML template. The special rules to be followed to correctly include a tree node variable are described below.
+A tree node variable is a special type of variables that can be included via Smarty templates into your HTML template.
+The special rules to be followed to correctly include a tree node variable are described below.
 
 #### Prerequisites
 
@@ -161,13 +168,11 @@ A tree node variable is a special type of variables that can be included via Sma
   The HTML template has been saved. The *HTML template* view is closed.  
 
 
-TreeNode:
-  {datahub_translatable_value entity=$entity._pim_billing_model.0 property="name" languageKey=$languageKey entityTypeClassName="Actindo\Modules\Actindo\DataHub\Models\Tenant\TreeNode"}
-
 
 ### Include language independent variables
 
-It is possible to define a variable in such a way, that it is language independent. The special rules to be followed to correctly include a language independent variable via Smarty templates into your HTML template are described below.
+It is possible to define a variable in such a way, that it is language independent.
+The special rules to be followed to correctly include a language independent variable via Smarty templates into your HTML template are described below.
 
 #### Prerequisites
 
@@ -199,7 +204,8 @@ The *HTML Templates for ETL* plugin has been installed.
 
 ## Edit an HTML template
 
-After you have created an HTML template, you can edit it. You can edit the name, the description of the template or the template content.
+After you have created an HTML template, you can edit it.
+You can edit the name, the description of the template or the template content.
 
 #### Prerequisites
 
@@ -234,7 +240,7 @@ The *HTML Templates for ETL* plugin has been installed.
 
 #### Procedure
 
-> [Info] If you want to display the pssible variables within a new HTML template, follow the steps described in the [Create an HTML template](#create-an-html-template) procedure before proceeding to the steps below.
+> [Info] If you want to display the possible variables within a new HTML template, follow the steps described in the [Create an HTML template](#create-an-html-template) procedure before proceeding to the steps below.
 
 *DataHub > Settings > Tab HTML TEMPLATES > Select HTML template*   
 

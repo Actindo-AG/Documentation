@@ -71,11 +71,16 @@ In the *DASHBOARDS* tab, the custom tabs with composable dashlets are displayed.
 
 - *Select Viewport*   
   Click the drop-down list to select the view to be applied to the tab. A different view can be selected for each tab. The drop-down list is only displayed in the *Edit tab* view. The following options are available:    
-  - **Automatic**: The system automatically detects the appropriate view and applies it to the tab.
-  - **Mobile**: The mobile view is applied to the tab.  
-  - **Tablet**: The tablet view is applied to the tab.  
-  - **Laptop**: The laptop view is applied to the tab.  
-  - **Desktop**: The desktop view is applied to the tab.  
+  - **Automatic**   
+    The system automatically detects the appropriate view and applies it to the tab.
+  - **Mobile**   
+    The mobile view is applied to the tab.  
+  - **Tablet**   
+    The tablet view is applied to the tab.  
+  - **Laptop**   
+    The laptop view is applied to the tab.  
+  - **Desktop**   
+    The desktop view is applied to the tab.  
 
 
 - [ADD ELEMENT]   
@@ -91,25 +96,40 @@ In the *DASHBOARDS* tab, the custom tabs with composable dashlets are displayed.
   Hover over a dashlet until the cursor icon changes to the cross arrows cursor. Then move the dashlet on the predefined grid using drag and drop. To remove a dashlet from the tab, click the ![Remove](../../Assets/Icons/Cross03.png "[Remove]") (Remove) button in the upper right corner of the dashlet.  
 
 
+
 #### Dashlet picker
 
 ![Dashlet picker](../../Assets/Screenshots/DataHub/Overview/DashletPicker.png "[Dashlet picker]")
 
-- [x]
-  Select a checkbox to add the selected dashlet to the tab. You can select multiple checkboxes. If you click the checkbox in the header, all dashlets in the list are selected. A toolbar indicating the number of selected dashlets is displayed above the list when you have selected at least one checkbox. By default, the following dashlets are available:
-  - Attribute Count: This dashlet displays the number of attributes in the *DataHub* module.
-  - Language Count: This dashlet displays the number of languages in the *DataHub* module.
-  -	Set Count: This dashlet displays the number of attribute sets in the *DataHub* module.
-  -	Entity Type Count: This dashlet displays the number of different entity types in the *DataHub* module.
-  -	Group Count: This dashlet displays the number of groups in the *DataHub* module.
-  -	Channel Count: This dashlet displays the number of channels in the *DataHub* module.
-  -	Entity Values by Entity Type: This dashlet displays a ring chart with the distribution of entity values by entity type in the *DataHub* module.
-  -	Mapping Errors: This dashlet displays a chart with the number of mapping errors in the *DataHub* module.
-  -	New and Changed Values: This dashlet displays a line chart with the number of new and changes values within a certain period of time in the *DataHub* module.
-  -	Modified Values by Set for Today: This dashlet displays a chart with the number of today's modified values within an attribute set in the *DataHub* module.
-  -	Current Mapping Statistics: This dashlet displays a bar chart with the average and current number of mappings. These numbers are displayed for the waiting, the successful and all mappings in the *DataHub* module.
-  -	ETL Mapping History: This dashlet displays a chart with the history of mapping number for the waiting, the successful and all mappings in the *DataHub* module.
-  -	DataHub Flow: This dashlet displays a flow chart with connection of mappings between the different entities. By enabling the *Show Disconnected Nodes* toggle, also those entities without any mapping connection are displayed in the flow chart.  
+- [x]   
+  Select a checkbox to add the selected dashlet to the tab. You can select multiple checkboxes. If you click the checkbox in the header, all dashlets in the list are selected. A toolbar indicating the number of selected dashlets is displayed above the list when you have selected at least one checkbox.   
+  By default, the following dashlets are available:
+  - *Attribute Count*   
+    This dashlet displays the number of attributes in the *DataHub* module.
+  - *Language Count*   
+    This dashlet displays the number of languages in the *DataHub* module.
+  -	*Set Count*   
+    This dashlet displays the number of attribute sets in the *DataHub* module.
+  -	*Entity Type Count*   
+    This dashlet displays the number of different entity types in the *DataHub* module.
+  -	*Group Count*   
+    This dashlet displays the number of groups in the *DataHub* module.
+  -	*Channel Count*   
+    This dashlet displays the number of channels in the *DataHub* module.
+  -	*Entity Values by Entity Type*   
+    This dashlet displays a ring chart with the distribution of entity values by entity type in the *DataHub* module.
+  -	*Mapping Errors*   
+    This dashlet displays a chart with the number of mapping errors in the *DataHub* module.
+  -	*New and Changed Values*   
+    This dashlet displays a line chart with the number of new and changes values within a certain period of time in the *DataHub* module.
+  -	*Modified Values by Set for Today*   
+    This dashlet displays a chart with the number of today's modified values within an attribute set in the *DataHub* module.
+  -	*Current Mapping Statistics*   
+    This dashlet displays a bar chart with the average and current number of mappings. These numbers are displayed for the waiting, the successful and all mappings in the *DataHub* module.
+  -	*ETL Mapping History*   
+    This dashlet displays a chart with the history of mapping number for the waiting, the successful and all mappings in the *DataHub* module.
+  -	*DataHub Flow*   
+    This dashlet displays a flow chart with connection of mappings between the different entities. By enabling the *Show Disconnected Nodes* toggle, also those entities without any mapping connection are displayed in the flow chart.  
 
 [comment]: <> (Check dashlet description)
 

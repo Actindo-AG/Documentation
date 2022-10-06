@@ -1,5 +1,7 @@
 # User Interface
 
+In this part of the *DataHub* documentation, you will find the following chapters:
+
 - [Overview](./01_Overview.md)
 
 
@@ -54,10 +56,6 @@
   - [Edit language](./02f_Languages.md#edit-language)
 
 
-- [UNITS AND DIMENSIONS](./02g_UnitsDimensions.md)
-  - [Detail list of dimensions](./02g_UnitsDimensions.md#detail-list-of-dimensions)
-
-
 - [ETL PROCESSES](./02h_ETLProcesses.md)
   - [Create view](./02h_ETLProcesses.md#create-view)
   - [Rename view](./02h_ETLProcesses.md#rename-view)
@@ -72,3 +70,6 @@
 
 
 - [ETL extensions list](./03_ETLExtensions.md)
+
+
+- [Data type list](./04_DataTypeList.md)

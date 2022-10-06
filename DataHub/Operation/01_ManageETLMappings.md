@@ -2,24 +2,28 @@
 [!!User Interface ETL](../UserInterface/02d_ETL.md)
 [!!Manage an attribute set](../Integration/02_ManageAttributeSets.md)
 [!!Manage the ETL processes](./02_ManageETLProcesses.md)
-[!!Data type list](../../PIM/UserInterface/04_DataTypeList.md)
+[!!Data type list](../UserInterface/04_DataTypeList.md)
 [!!ETL extensions list](../UserInterface/03_ETLExtensions.md)
 
 
 # Manage the ETL mappings
 
-An ETL attribute set mapping is used to extract the data from a source attribute set, transform it according to a specified method, and load it into a destination attribute set. You can create mappings, edit existing mappings and rerun mappings.
+An ETL attribute set mapping is used to extract the data from a source attribute set, transform it according to a specified method defined by the extension, and load it into a destination attribute set.
+
+You can create mappings, edit existing mappings and rerun mappings.
 
 
 ## Create an ETL attribute set mapping
 
-Create an ETL attribute set mapping to map the attributes of the source attribute set to the attributes of the destination attribute set. The mapping allows to convert the attributes from the source set to fit the attributes required by the destination set.
+Create an ETL attribute set mapping to map the attributes of the source attribute set to the attributes of the destination attribute set.
+The mapping allows to convert the attributes from the source set to fit the attributes required by the destination set.
 
 #### Prerequisites
 
 At least two attribute sets have been created, see [Create an attribute set](./02_ManageAttributeSets.md#Create-an-attribute-set).
 
 #### Procedure
+
 *DataHub > Settings > Tab ETL*
 
 ![Attribute set mappings](../../Assets/Screenshots/DataHub/Settings/ETL/AttributeSetMappings.png "[Attribute set mappings]")
@@ -53,7 +57,9 @@ At least two attribute sets have been created, see [Create an attribute set](./0
 
 ## Edit an ETL attribute set mapping
 
-After you have created an attribute set mapping, you can edit it. You can edit the attribute mappings within an attribute set mapping, add a custom mapping for a certain destination attribute, delete an existing attribute mapping or rerun a single or all attribute mappings within an attribute set mapping.
+After you have created an attribute set mapping, you can edit it.
+You can edit the attribute mappings within an attribute set mapping, add a custom mapping for a certain destination attribute, delete an existing attribute mapping or rerun a single or all attribute mappings within an attribute set mapping.
+
 
 ### Edit the ETL attribute mappings
 
@@ -64,6 +70,7 @@ When editing an ETL attribute mapping, you can create a mapping to an unmapped d
 At least one ETL attribute set mapping has been created, see [Create an ETL mapping](#create-an-ETL-mapping).
 
 #### Procedure
+
 *DataHub > Settings > Tab ETL*
 
 ![Attribute set mappings](../../Assets/Screenshots/DataHub/Settings/ETL/AttributeSetMappings.png "[Attribute set mappings]")
@@ -78,6 +85,7 @@ At least one ETL attribute set mapping has been created, see [Create an ETL mapp
 
   ![Mapping settings](../../Assets/Screenshots/DataHub/Settings/ETL/MappingSettings.png "[Mapping settings]")
 
+
   > [Info] Depending on the selected row, the fields displayed in the *Settings* section differ:
   - If the selected row contains only a destination attribute, the destination attribute as well as the *Extension* and *Override change tracking mode* drop-down lists are displayed.
   - If the selected row contains an attribute mapping with source, destination attribute and the extension, the destination attribute as well as the *Source attribute*, *Extension* and *Override change tracking mode* drop-down lists are displayed. The *Source attribute*, *Extension* and *Override change tracking mode* drop-down lists are preset. If the selected extension requires further configuration settings, the *Configuration* section is displayed below the *Settings* section.  
@@ -86,15 +94,21 @@ At least one ETL attribute set mapping has been created, see [Create an ETL mapp
 3. Select the appropriate option in the *Extension* drop-down list in the *Settings* section. All extensions that are matching the data type of the destination attribute are displayed in the drop-down list.   
   If the selected extension requires further configuration settings, the *Configuration* section is displayed below the *Settings* section.
 
-  > [Info] For detailed information about the data types, see [Data type list](../../PIM/UserInterface/04_DataTypeList.md).   
+  > [Info] For detailed information about the data types, see [Data type list](../UserInterface/04_DataTypeList.md).   
   For detailed information about the ETL extensions, see [ETL extensions list](../UserInterface/03_ETLExtensions.md).
 
-4. Select the appropriate tracking mode in the *Override change tracking mode* drop-down list. By default, the **use default** option is preselected. The following modes are available:
-  - **use default**: ---
-  - **automatic**: The initial mapping is automatically applied. All value changes or reruns are applied automatically in the mapping.  
-  - **semi-automatic**: The initial mapping is automatically applied. Values changes or reruns are applied after confirmation in the *Omni-Channel* module.
-  - **semi-automatic, changes must be confirmed by another user**: The initial mapping as well as values changes or reruns are applied after confirmation by another user in the *Omni-Channel* module.
-  - **manual**: The initial mapping is automatically applied. Afterwards, the changes in the mapping must be triggered manually to be applied.
+
+4. Select the appropriate tracking mode in the *Override change tracking mode* drop-down list. By default, the **Use default** option is preselected. The following options are available:
+  - **Use default**   
+    The mapping configured in the dependency of the specific entities is applied.
+  - **Automatic**   
+    The initial mapping is automatically applied. All value changes or reruns are applied automatically in the mapping.  
+  - **Semi-automatic**   
+    The initial mapping is automatically applied. Values changes or reruns are applied after confirmation.
+  - **Semi-automatic, changes must be confirmed by another user**   
+    The initial mapping as well as values changes or reruns are applied after confirmation by another user.
+  - **Manual**   
+    The initial mapping is automatically applied. Afterwards, the changes in the mapping must be triggered manually to be applied.
 
 
 5. Select the appropriate attribute that you want to assign to the destination attribute in the *Source attribute* drop-down list. All attributes with a data type that matches to the selected ETL extension are displayed in the drop-down list.
@@ -112,7 +126,8 @@ At least one ETL attribute set mapping has been created, see [Create an ETL mapp
 
 ### Add a custom mapping for a destination attribute
 
-When creating an ETL attribute set mapping, you define the language and the channel from which the values are taken for multi-language and multi-channel source attributes. Within an attribute set mapping, you can define custom channel and language attribute mappings for multi-language and multi-channel destination attributes.
+When creating an ETL attribute set mapping, you define the language and the channel from which the values are taken for multi-language and multi-channel source attributes.
+Within an attribute set mapping, you can define custom channel and language attribute mappings for multi-language and multi-channel destination attributes.
 
 #### Prerequisites
 
@@ -120,6 +135,7 @@ When creating an ETL attribute set mapping, you define the language and the chan
 - The destination attribute is multi-language and/or multi-channel.
 
 #### Procedure
+
 *DataHub > Settings > Tab ETL*
 
 ![Attribute set mappings](../../Assets/Screenshots/DataHub/Settings/ETL/AttributeSetMappings.png "[Attribute set mappings]")
@@ -139,6 +155,7 @@ When creating an ETL attribute set mapping, you define the language and the chan
 
   ![Custom mapping](../../Assets/Screenshots/DataHub/Settings/ETL/CustomMapping.png "[Custom mapping]")
 
+
   > [Info] Depending on the destination attribute, the additional drop-down lists displayed in the *Settings* section differ:
     - If the destination attribute is multi-language, the *Language* drop-down list is displayed additionally below the destination attribute.
     - If the destination attribute is multi-channel, the *Channel* drop-down list is displayed additionally below the destination attribute.
@@ -150,14 +167,21 @@ When creating an ETL attribute set mapping, you define the language and the chan
 5. Select the appropriate option in the *Extension* drop-down list in the *Settings* section. All extensions that are matching the data type of the destination attribute are displayed in the drop-down list.   
   If the selected extension requires further configuration settings, the *Configuration* section is displayed below the *Settings* section.
 
-  > [Info] For detailed information about the data types, see [Data type list](../../PIM/UserInterface/04_DataTypeList.md).   
+  > [Info] For detailed information about the data types, see [Data type list](../UserInterface/04_DataTypeList.md).   
   For detailed information about the ETL extensions, see [ETL extensions list](../UserInterface/03_ETLExtensions.md).
 
-6. Select the appropriate tracking mode in the drop-down list *Override change tracking mode*. By default, the **use default** option is preselected. The following modes are available:
-  - **use default**: ---
-  - **automatic**: The attribute value is automatically adopted for the mapping. The mapping is rerun automatically when a value changes.  
-  - **semi-automatic**: The attribute value is adopted for the mapping after confirmation. The mapping is rerun automatically after it has been confirmed.
-  - **manual**: The attribute value is adopted one time for the mapping. Afterwards, the mapping is only rerun if it is started manually.
+
+6. Select the appropriate tracking mode in the drop-down list *Override change tracking mode*. By default, the **Use default** option is preselected. The following modes are available:
+  - **Use default**   
+    The mapping configured in the dependency of the specific entities is applied.
+  - **Automatic**   
+    The initial mapping is automatically applied. All value changes or reruns are applied automatically in the mapping.  
+  - **Semi-automatic**   
+    The initial mapping is automatically applied. Values changes or reruns are applied after confirmation.
+  - **Semi-automatic, changes must be confirmed by another user**   
+    The initial mapping as well as values changes or reruns are applied after confirmation by another user.
+  - **Manual**   
+    The initial mapping is automatically applied. Afterwards, the changes in the mapping must be triggered manually to be applied.
 
 
 7. Select the appropriate attribute that you want to assign to the destination attribute in the *Source attribute* drop-down list. All attributes with a data type that matches to the selected ETL extension are displayed in the drop-down list.
@@ -178,6 +202,7 @@ Delete an attribute mapping to cancel the transfer of data to the destination at
 At least one ETL attribute set mapping has been created, see [Create an ETL mapping](#create-an-ETL-mapping).
 
 #### Procedure
+
 *DataHub > Settings > Tab ETL*
 
 ![Attribute set mappings](../../Assets/Screenshots/DataHub/Settings/ETL/AttributeSetMappings.png "[Attribute set mappings]")
@@ -205,17 +230,22 @@ At least one ETL attribute set mapping has been created, see [Create an ETL mapp
 
 ## Rerun an ETL mapping
 
-After having created or changed an attribute mapping within an ETL attribute set mapping, the new mapping is not automatically applied. The mapping is only applied when either a value in the source attribute changes or when you rerun the respective attribute mapping or all mappings within an ETL attribute set mapping.
+After having created or changed an attribute mapping within an ETL attribute set mapping, the new mapping is not automatically applied.
+The mapping is only applied when either a value in the source attribute changes or when you rerun the respective attribute mapping or all mappings within an ETL attribute set mapping.
+
 
 ### Rerun a single attribute mapping
 
-To apply changes or a new attribute mapping within an attribute set mapping, you can trigger the rerun of a single attribute mapping. It is recommended to use this function when only one or a few attribute mappings are affected. When a higher number of changes or new attribute mappings within an attribute set mapping was made, it is recommended to rerun all attribute mappings within the attribute set mapping, see [Rerun an attribute set mapping](#rerun-an-attribute-set-mapping).
+To apply changes or a new attribute mapping within an attribute set mapping, you can trigger the rerun of a single attribute mapping.
+It is recommended to use this function when only one or a few attribute mappings are affected.
+When a higher number of changes or new attribute mappings within an attribute set mapping was made, it is recommended to rerun all attribute mappings within the attribute set mapping, see [Rerun an attribute set mapping](#rerun-an-attribute-set-mapping).
 
 #### Prerequisites
 
 At least one ETL attribute set mapping has been created, see [Create an ETL mapping](#create-an-ETL-mapping).
 
 #### Procedure
+
 *DataHub > Settings > Tab ETL*
 
 ![Attribute set mappings](../../Assets/Screenshots/DataHub/Settings/ETL/AttributeSetMappings.png "[Attribute set mappings]")
@@ -250,13 +280,16 @@ At least one ETL attribute set mapping has been created, see [Create an ETL mapp
 
 ### Rerun an attribute set mapping
 
-To apply changes or a new attribute mapping within an attribute set mapping, you can trigger the rerun of all attribute mappings within an attribute set mapping. It is recommended to use this function when a higher number of changes or new attribute mappings within an attribute set mapping was made. When only one or a few attribute mappings are affected, it is recommended to rerun the respective attribute mappings separately, see [Rerun a single attribute mapping](#rerun-a-single-attribute-mapping).
+To apply changes or a new attribute mapping within an attribute set mapping, you can trigger the rerun of all attribute mappings within an attribute set mapping.
+It is recommended to use this function when a higher number of changes or new attribute mappings within an attribute set mapping was made.
+When only one or a few attribute mappings are affected, it is recommended to rerun the respective attribute mappings separately, see [Rerun a single attribute mapping](#rerun-a-single-attribute-mapping).
 
 #### Prerequisites
 
 At least one ETL attribute set mapping has been created, see [Create an ETL mapping](#create-an-ETL-mapping).
 
 #### Procedure
+
 *DataHub > Settings > Tab ETL*
 
 ![Attribute set mappings](../../Assets/Screenshots/DataHub/Settings/ETL/AttributeSetMappings.png "[Attribute set mappings]")

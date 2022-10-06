@@ -29,7 +29,7 @@
   Click this button to irretrievably delete the selected attribute. This button is only displayed, when the checkbox of an attribute is selected.       
   For detailed information, see [Finally delete an attribute](../Integration/01_ManageAttributes.md#finally-delete-an-attribute).
 
-The list displays all deleted attributes. All fields are read-only. Depending on the settings, the displayed columns may vary.
+The list displays all deleted attributes. Depending on the settings, the displayed columns may vary. All fields are read-only.
 
 - *Name*   
   Attribute name.
@@ -38,7 +38,7 @@ The list displays all deleted attributes. All fields are read-only. Depending on
   Attribute key.
 
 - *Data type*   
-  Attribute data type. For detailed information about all data types, see [Data type list](../../PIM/UserInterface/04_DataTypeList.md).
+  Attribute data type. For detailed information about all data types, see [Data type list](./04_DataTypeList.md).
 
 - *Description*   
   Description to the attribute.

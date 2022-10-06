@@ -3,7 +3,10 @@
 
 # Manage the languages
 
-The different languages are needed to be able to maintain attributes in different languages. By default, the languages *English (United States)* and *German (Germany)* have been preset. If you want to maintain further languages, you have to create and activate the respective languages. You can create an unlimited number of languages.
+The different languages are needed to be able to maintain attributes in different languages.
+By default, the languages *English (United States)* and *German (Germany)* have been preset.
+If you want to maintain further languages, you have to create and activate the respective languages.
+You can create an unlimited number of languages.
 
 ## Create a language
 
@@ -14,6 +17,7 @@ Create a language to maintain attributes in the desired language.
 No prerequisites to fulfill.
 
 #### Procedure
+
 *DataHub > Settings > Tab LANGUAGES*
 
 ![Language list](../../Assets/Screenshots/DataHub/Settings/Languages/LanguageList.png "[Language list]")
@@ -25,7 +29,12 @@ No prerequisites to fulfill.
 
 2. Enter a name for the language in the *Name* field.
 
-3. Enter a key for the language in the *Key* field. The key is required for API access and must be system wide unique.
+
+3. Enter a key for the language in the *Key* field. The key is required for API access and must be system wide unique. The language key must fulfill the criteria of the language codes according to [RFC 4646](https://www.heise.de/netze/rfc/rfcs/rfc4646.shtml). For instance, keys with the following structure are valid:
+  - en
+  - en_US
+  - en-US
+
 
 4. Enable the *Active* toggle to set the language directly after creation to active.
 
@@ -47,6 +56,7 @@ At least one language has been created, see [Create a language](../Integration/C
 > [Info] By default, the languages *English (United States)* and *German (Germany)* have been predefined in the *Core1 Platform*.
 
 #### Procedure
+
 *DataHub > Settings > Tab LANGUAGES*
 
 ![Language list](../../Assets/Screenshots/DataHub/Settings/Languages/LanguageList.png "[Language list]")
@@ -65,7 +75,9 @@ At least one language has been created, see [Create a language](../Integration/C
 
 ## Deactivate a language
 
-Deactivate a language when it should not be used for a certain time. The language is no longer available when it is inactive. Further, it is recommended to deactivate a language instead of deleting it to prevent any problems because of existing dependencies.
+Deactivate a language when it should not be used for a certain time.
+The language is no longer available when it is inactive.
+Further, it is recommended to deactivate a language instead of deleting it to prevent any problems because of existing dependencies.
 
 #### Prerequisites
 
@@ -74,6 +86,7 @@ At least one language has been created, see [Create a language](#create-a-langua
 > [Info] By default, the languages *English (United States)* and *German (Germany)* have been predefined in the *Core1 Platform*.
 
 #### Procedure
+
 *DataHub > Settings > Tab LANGUAGES*
 
 ![Language list](../../Assets/Screenshots/DataHub/Settings/Languages/LanguageList.png "[Language list]")
@@ -92,7 +105,9 @@ At least one language has been created, see [Create a language](#create-a-langua
 
 ## Delete a language
 
-You can delete a language if it is no longer needed. As there are usually existing dependencies, it is highly recommended not to delete a language. Instead, you can deactivate a language and thus prevent its use.
+You can delete a language if it is no longer needed.
+As there are usually existing dependencies, it is highly recommended not to delete a language.
+Instead, you can deactivate a language and thus prevent its use, see [Deactivate a language](#deactivate-a-language).
 
 #### Prerequisites
 
@@ -101,6 +116,7 @@ At least one language has been created, see [Create a language](#create-a-langua
 > [Info] By default, the languages *English (United States)* and *German (Germany)* have been predefined in the *Core1 Platform*.
 
 #### Procedure
+
 *DataHub > Settings > Tab LANGUAGES*
 
 ![Language list](../../Assets/Screenshots/DataHub/Settings/Languages/LanguageList.png "[Language list]")

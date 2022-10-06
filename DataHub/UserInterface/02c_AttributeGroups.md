@@ -38,13 +38,13 @@
 
   > [Info] If you remove an attribute from the attribute group, the attribute itself is not deleted, but it is unassigned to the selected attribute group.  
 
-The list displays all attributes assigned to the selected attribute group. All fields are read-only. Depending on the settings, the displayed columns may vary. When no attribute is assigned to the selected attribute group, the notice *No attribute assigned. Use + button to assign one* is displayed.
+The list displays all attributes assigned to the selected attribute group. Depending on the settings, the displayed columns may vary. All fields are read-only. When no attribute is assigned to the selected attribute group, the notice *No attribute assigned. Use + button to assign one* is displayed.
 
 - *Name*   
   Attribute name.
 
 - *Key*   
-  Attribute key. The key is required for API access and must be system wide unique.
+  Attribute key.
 
 - *Description*   
   Description to the attribute.
@@ -99,19 +99,20 @@ The list displays all attributes assigned to the selected attribute group. All f
 - [ADD]   
   Click this button to add the selected attribute to the attribute group. The *Add attributes to attribute group* view is closed.
 
-The list displays all attributes that are not assigned to the selected attribute group. All fields are read-only. Depending on the settings, the displayed columns may vary.
+The list displays all attributes that are not assigned to the selected attribute group. Depending on the settings, the displayed columns may vary. All fields are read-only.
 
 - *Name*   
   Attribute name.
 
 - *Key*   
-  Attribute key. The key is required for API access and must be system wide unique.
+  Attribute key.
 
 - *Current attribute group*   
   Attribute group to which the attribute is currently assigned.
 
 - *Description*   
   Description to the attribute.
+
 
 - *Status*   
   Attribute status. The following statuses are available:
@@ -151,7 +152,7 @@ The list displays all attributes that are not assigned to the selected attribute
   Click and hold this button to move the selected attribute group to another position in the list using drag and drop.
 
 - ![Edit](../../Assets/Icons/Edit03.png "[Edit]") (Edit)   
-  Click this button to edit the selected attribute group. The attribute group data window is displayed. This button is only displayed, when you hover over the attribute group.
+  Click this button to edit the selected attribute group. The attribute group data window is displayed. This button is only displayed, when you hover over an attribute group or sub-group.
 
 - Attribute group   
   Top attribute group. Click the attribute group to display the attribute sub-group column and all assigned attribute sub-groups. Hover over the attribute group to display the ![Edit](../../Assets/Icons/Edit03.png "[Edit]") (Edit) button.
@@ -160,9 +161,10 @@ The list displays all attributes that are not assigned to the selected attribute
   Attribute sub-group to the selected attribute group. Hover over the attribute sub-group to display the ![Edit](../../Assets/Icons/Edit03.png "[Edit]") (Edit) button.
 
 - ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add)   
-  Click this button to add an attribute group or sub-group. A plus sign is displayed in each displayed column. Click the plus sign in the desired column to add a new attribute group or sub-group to the selected attribute group. The *Add element* window is displayed.    
+  Click this button to add an attribute group or sub-group. A plus sign is displayed in each displayed column. Click the plus sign in the desired column to add a new attribute group or sub-group to the selected attribute group. The *Add element* window is displayed.   
   For detailed information about creating attribute groups or sub-groups, see [Create an attribute group](../Integration/03_ManageAttributeGroups.md#create-an-attribute-group) or [Create an attribute sub-group](../Integration/03_ManageAttributeGroups.md#create-an-attribute-sub-group).
 
+  > [Info] Attribute groups are organized in a tree structure with a maximum depth of two levels. That means that a maximum of one sub-group level can be added to an attribute group.
 
 
 ### Add element
@@ -174,14 +176,13 @@ The list displays all attributes that are not assigned to the selected attribute
 > [Info] The *Add element* window for attribute groups and sub-groups is identical.
 
 - Language   
-  Click the drop-down list and select the language in which the *Name (Language)* field is displayed. The system languages *English (United States)* and *Deutsch (Deutschland)* are available in the drop-down list.
-  [comment]: <> (Is that right? -> language question)
+  Click the drop-down list and select the language in which the *Name (Language)* field is displayed. The system languages **English (United States)** and **Deutsch (Deutschland)** are available in the drop-down list.
 
 - *Name (Language)*   
   Enter an attribute group name in the selected language.
 
 - *Key*   
-  Enter an attribute group key. The key is required for API access and must be system wide unique.
+  Enter an attribute group key. The number of characters is limited to 190.
 
 - [CANCEL]   
   Click this button to cancel adding an attribute group, close the *Add element* window and return to the *Edit attribute groups* view.
@@ -189,7 +190,7 @@ The list displays all attributes that are not assigned to the selected attribute
 - [SAVE]   
   Click this button to add the new attribute group, close the *Add element* window and return to the *Edit attribute groups* view.
 
-  > [Info] You have to click the [SAVE] button in the *Edit attribute groups* view to save the added attribute group.
+  > [Info] You have to click the [SAVE] button in the *Edit attribute groups* view to save the added attribute group. Otherwise, all changes are rejected.
 
 
 
@@ -202,13 +203,13 @@ The list displays all attributes that are not assigned to the selected attribute
 > [Info] The *Edit group data* window for attribute groups and sub-groups is identical.
 
 - Language   
-  Click the drop-down list and select the language in which the *Name (Language)* field is displayed. The system languages *English (United States)* and *Deutsch (Deutschland)* are available in the drop-down list.
+  Click the drop-down list and select the language in which the *Name (Language)* field is displayed. The system languages **English (United States)** and **Deutsch (Deutschland)** are available in the drop-down list.
 
 - *Name (Language)*   
   Click the field to edit the attribute group name in the selected language.
 
 - *Key*   
-  Click the field to edit the attribute group key. The key is required for API access and must be system wide unique.
+  Click the field to edit the attribute group key. The number of characters is limited to 190.
 
 - ![Delete](../../Assets/Icons/Trash01.png "[Delete]") (Delete)   
   Click this button to remove the selected attribute group.
@@ -223,4 +224,4 @@ The list displays all attributes that are not assigned to the selected attribute
 - [SAVE]   
   Click this button to add the new attribute group, close the window and return to the *Edit attribute groups* view.
 
-  > [Info] You have to click the [SAVE] button in the *Edit attribute groups* view to save the changes.
+  > [Info] You have to click the [SAVE] button in the *Edit attribute groups* view to save the changes. Otherwise, all changes are rejected.

@@ -28,10 +28,10 @@
 - [DELETE]   
   Click this button to delete the selected language. This button is only displayed, when the checkbox of at least one language is selected.       
 
-The list displays all language. All fields are read-only. Depending on the settings, the displayed columns may vary.
+The list displays all language. Depending on the settings, the displayed columns may vary. All fields are read-only.
 
 - *Key*   
-  Language key. The key is required for API access and must be system wide unique. This field is read-only.
+  Language key.
 
 - *Language*   
   Language name.
@@ -68,7 +68,7 @@ The list displays all language. All fields are read-only. Depending on the setti
   Click this button to close the *Create language* view and return to the language list. All changes are rejected.
 
 - Language   
-  Click the drop-down list and select the language in which the *Name (Language)* field is displayed. The system languages *English (United States)* and *Deutsch (Deutschland)* are available in the drop-down list.
+  Click the drop-down list and select the language in which the *Name (Language)* field is displayed. The system languages **English (United States)** and **Deutsch (Deutschland)** are available in the drop-down list.
 
 - [SAVE]   
   Click this button to save the language, close the *Create language* view and return to the language list.
@@ -76,8 +76,13 @@ The list displays all language. All fields are read-only. Depending on the setti
 - *Name (Language)*   
   Enter a language name in the selected language.
 
+
 - *Key*   
-  Language key. The key is required for API access and must be system wide unique.
+  Enter a language key. The key is required for API access and must be system wide unique. The language key must fulfill the criteria of the language codes according to [RFC 4646](https://www.heise.de/netze/rfc/rfcs/rfc4646.shtml). For instance, keys with the following structure are valid:
+  - en
+  - en_US
+  - en-US
+
 
 - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Active*   
   Enable this toggle to set the language status to active. Disable the toggle to set the language to inactive. By default, this toggle is disabled.
@@ -96,7 +101,7 @@ The list displays all language. All fields are read-only. Depending on the setti
   Click this button to close the *Edit Language* view and return to the language list. All changes are rejected.
 
 - Language   
-  Click the drop-down list and select the language in which the *Name (Language)* field is displayed. The system languages *English (United States)* and *Deutsch (Deutschland)* are available in the drop-down list.
+  Click the drop-down list and select the language in which the *Name (Language)* field is displayed. The system languages **English (United States)** and **Deutsch (Deutschland)** are available in the drop-down list.
 
 - [SAVE]   
   Click this button to save the language, close the *Edit language* view and return to the language list.
@@ -104,8 +109,14 @@ The list displays all language. All fields are read-only. Depending on the setti
 - *Name (Language)*   
   Click the field to edit the language name in the selected language.
 
+
 - *Key*   
-  Click the field to edit the language key. The key is required for API access and must be system wide unique. It is not recommended to change the language key after creation.
+  Click the field to edit the language key. It is not recommended to change the language key after creation.   
+  The key is required for API access and must be system wide unique. The language key must fulfill the criteria of the language codes according to [RFC 4646](https://www.heise.de/netze/rfc/rfcs/rfc4646.shtml). For instance, keys with the following structure are valid:
+  - en
+  - en_US
+  - en-US
+
 
 - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Active*   
   Enable this toggle to set the language status to active. Disable the toggle to set the language to inactive. By default, this toggle is disabled.

@@ -28,21 +28,23 @@
 - [DELETE]   
   Click this button to delete the selected channel. This button is only displayed, when the checkbox of at least one channel is selected.       
 
-The list displays all channels. All fields are read-only. Depending on the settings, the displayed columns may vary.
+The list displays all channels. Depending on the settings, the displayed columns may vary. All fields are read-only.
 
 - *Name*   
   Channel name.
 
 - *Key*   
-  Channel key. The key is required for API access and must be system wide unique. This field is read-only.
+  Channel key.
 
 - *Description*   
-  Description to the channel. This field is read-only.
+  Description to the channel.
+
 
 - *Status*   
   Channel status. The following statuses are available:
   - ![Status](../../Assets/Icons/Status01.png "[Status]") **Active**
   - ![Status](../../Assets/Icons/Status04.png "[Status]") **Inactive**   
+
 
 - *ID*   
   Channel identification number. The ID number is automatically assigned by the system.
@@ -82,8 +84,7 @@ The list displays all channels. All fields are read-only. Depending on the setti
   Click this button to close the *Create channel* view and return to the channel list. All changes are rejected.
 
 - Language   
-  Click the drop-down list and select the language in which the *Name (Language)* and *Description (Language)* fields are displayed. The system languages *English (United States)* and *Deutsch (Deutschland)* are available in the drop-down list.
-  [comment]: <> (Is that right? -> language question)
+  Click the drop-down list and select the language in which the *Name (Language)* and *Description (Language)* fields are displayed. The system languages **English (United States)** and **Deutsch (Deutschland)** are available in the drop-down list.
 
 - [SAVE]   
   Click this button to save the channel, close the *Create channel* view and return to the channel list.
@@ -94,8 +95,13 @@ The list displays all channels. All fields are read-only. Depending on the setti
 - *Description (Language)*   
   Enter a description to the channel in the selected language.
 
+
 - *Key*   
-  Channel key. The key is required for API access and must be system wide unique.
+  Enter a channel key. The key is required for API access and must be system wide unique. A channel key must fulfill the following criteria:
+  - valid characters are **a-z** (upper and lower case), **0-9** and the underscore ( **_** )
+  - the key must not start with a number
+  - a double underscore ( **___** ) and a trailing underscore are forbidden
+
 
 - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Active*   
   Enable this toggle to set the channel status to active. Disable the toggle to set the channel to inactive. By default, this toggle is disabled.
@@ -114,8 +120,7 @@ The list displays all channels. All fields are read-only. Depending on the setti
   Click this button to close the *Edit channel* view and return to the channel list. All changes are rejected.
 
 - Language   
-  Click the drop-down list and select the language in which the *Name (Language)* and *Description (Language)* fields are displayed. The system languages *English (United States)* and *Deutsch (Deutschland)* are available in the drop-down list.
-  [comment]: <> (Is that right? -> language question)
+  Click the drop-down list and select the language in which the *Name (Language)* and *Description (Language)* fields are displayed. The system languages **English (United States)** and **Deutsch (Deutschland)** are available in the drop-down list.
 
 - [SAVE]   
   Click this button to save the channel, close the *Edit channel* view and return to the channel list.
@@ -126,8 +131,14 @@ The list displays all channels. All fields are read-only. Depending on the setti
 - *Description (Language)*   
   Click the field to edit the description to the channel in the selected language.
 
+
 - *Key*   
-  Click the field to edit the channel key. The key is required for API access and must be system wide unique. It is not recommended to change the channel key after creation.
+  Click the field to edit the channel key. It is not recommended to change the channel key after creation.   
+  The key is required for API access and must be system wide unique. A channel key must fulfill the following criteria:
+  - valid characters are **a-z** (upper and lower case), **0-9** and the underscore ( **_** )
+  - the key must not start with a number
+  - a double underscore ( **___** ) and a trailing underscore are forbidden
+
 
 - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Active*   
   Enable this toggle to set the channel status to active. Disable the toggle to set the channel to inactive. By default, this toggle is disabled.

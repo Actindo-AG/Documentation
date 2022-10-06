@@ -1,5 +1,7 @@
 # Operation
 
+In this part of the *DataHub* documentation, you will find the following chapters:
+
 - [Manage the ETL mappings](./01_ManageETLMappings.md)
   - [Create an ETL attribute set mapping](./01_ManageETLMappings.md#create-an-etl-attribute-set-mapping)
   - [Edit an ETL attribute set mapping](./01_ManageETLMappings.md#edit-an-etl-attribute-set-mapping)

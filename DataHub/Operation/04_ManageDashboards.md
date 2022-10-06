@@ -3,7 +3,11 @@
 
 # Manage the dashboards
 
-A dashboard gives an overview over the module and its content. While other modules have a predefined dashboard, you can configure multiple customized dashboards for the *DataHub* module that are adopted for different purposes. The number of dashboards is unlimited. A set of dashlets to be used is predefined for the *DataHub* module.
+A dashboard gives an overview over the module and its content.
+While other modules have a predefined dashboard, you can configure multiple customized dashboards for the *DataHub* module that are adopted for different purposes.
+The number of dashboards is unlimited.
+A set of dashlets to be used is predefined for the *DataHub* module.
+
 
 ## Create a dashboard
 
@@ -14,6 +18,7 @@ Create a dashboard to be able to add the desired dashlets.
 No prerequisites to fulfill.
 
 #### Procedure
+
 *DataHub > Overview > Tab DASHBOARDS*
 
 ![Dashboards](../../Assets/Screenshots/DataHub/Overview/Dashboards.png "[Dashboards]")
@@ -38,13 +43,15 @@ Customize a dashboard to your special needs by adding the desired dashlets, dele
 
 ### Add a dashlet
 
-Add the desired dashlets to your dashboard to get an overview over the processes and entities within the *DataHub* module. Depending on the purpose of the dashboard, you can add different sets of dashlets to different dashboards.
+Add the desired dashlets to your dashboard to get an overview over the processes and entities within the *DataHub* module.
+Depending on the purpose of the dashboard, you can add different sets of dashlets to different dashboards.
 
 #### Prerequisites
 
 A dashboard tab has been created, see [Create a dashboard](#create-a-dashboard).
 
 #### Procedure
+
 *DataHub > Overview > Tab DASHBOARDS*
 
 ![NewTab](../../Assets/Screenshots/DataHub/Overview/NewTab.png "[NewTab]")
@@ -78,7 +85,9 @@ A dashboard tab has been created, see [Create a dashboard](#create-a-dashboard).
 
 ### Change the viewport
 
-Change the viewport to adjust the view of the dashboard to the currently used device. The viewport is saved for a single dashboard. So you can create dashboards with different viewports.
+Change the viewport to adjust the view of the dashboard to the currently used device.
+The viewport is saved for a single dashboard.
+So you can create dashboards with different viewports.
 
 #### Prerequisites
 
@@ -97,12 +106,19 @@ A dashboard tab has been created, see [Create a dashboard](#create-a-dashboard).
 
   ![Edit tab](../../Assets/Screenshots/DataHub/Overview/EditTab.png "[EditTab]")
 
+
 3. Click the *Select viewport* drop-down list in the upper left corner and select the desired view format. The following views are available:
-  - **Automatic**: The system automatically detects the appropriate view and applies it to the tab.
-  - **Mobile**: The mobile view is applied to the tab.  
-  - **Tablet**: The tablet view is applied to the tab.  
-  - **Laptop**: The laptop view is applied to the tab.  
-  - **Desktop**: The desktop view is applied to the tab.  
+  - **Automatic**   
+    The system automatically detects the appropriate view and applies it to the tab.
+  - **Mobile**   
+    The mobile view is applied to the tab.  
+  - **Tablet**   
+    The tablet view is applied to the tab.  
+  - **Laptop**   
+    The laptop view is applied to the tab.  
+  - **Desktop**   
+    The desktop view is applied to the tab.   
+
   The tab layout has been adapted to the selected view. The *Viewport loaded* notice is displayed in the footer.
 
 
@@ -123,6 +139,7 @@ Change the arrangement of the dashlets on a dashboard to optimize the view for y
 - At least one dashlet has been added to the dashboard, see [Add a dashlet](#add-a-dashlet).
 
 #### Procedure
+
 *DataHub > Overview > Tab DASHBOARDS*
 
 ![Tab with dashlets](../../Assets/Screenshots/DataHub/Overview/TabDashlets.png "[[Tab with dashlets]")
@@ -156,6 +173,7 @@ Remove a dashlet from a dashboard if it is not needed for the purposes or was ad
 - At least one dashlet has been added to the dashboard, see [Add a dashlet](#add-a-dashlet).
 
 #### Procedure
+
 *DataHub > Overview > Tab DASHBOARDS*
 
 ![Tab with dashlets](../../Assets/Screenshots/DataHub/Overview/TabDashlets.png "[[Tab with dashlets]")
@@ -187,6 +205,7 @@ Delete a dashboard that is no longer needed to keep track of the other dashboard
 A dashboard tab has been created, see [Create a dashboard](#create-a-dashboard).
 
 #### Procedure
+
 *DataHub > Overview > Tab DASHBOARDS*
 
 ![Multiple dashboards](../../Assets/Screenshots/DataHub/Overview/MultipleDashboards.png "[Multiple dashboards]")

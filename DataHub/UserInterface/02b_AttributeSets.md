@@ -22,7 +22,7 @@
   Select the checkbox to display the editing toolbar. If you click the checkbox in the header, all attribute sets in the list are selected.
 
 - [EDIT]   
-  Click this button to edit the selected attribute set. This button is only displayed, when a single checkbox of an attribute set is selected. Alternatively, you can click directly a row in the list to edit a attribute set.
+  Click this button to edit the selected attribute set. This button is only displayed, when a single checkbox of an attribute set is selected. Alternatively, you can click directly a row in the list to edit an attribute set.
   For detailed information, see [Edit an attribute set](../Integration/02_ManageAttributeSets.md#edit-an-attribute-set).
 
 - [DELETE]   
@@ -30,7 +30,7 @@
 
   [comment]: <> (Mostly not possible to delete an attribute set -> no integration procedure to delete an attribute set -> why is the button still existing? Not working... )
 
-The list displays all attribute sets. All fields are read-only. Depending on the settings, the displayed columns may vary.
+The list displays all attribute sets. Depending on the settings, the displayed columns may vary. All fields are read-only.
 
 - *Name*   
   Attribute set name.
@@ -93,41 +93,53 @@ The list displays all attribute sets. All fields are read-only. Depending on the
   Click this button to close the *Create attribute set* view and return to the attribute set list. All changes are rejected.
 
 - Language   
-  Click the drop-down list and select the language in which the *Name (Language)* and *Description (Language)* fields are displayed. The system languages *English (United States)* and *Deutsch (Deutschland)* are available in the drop-down list.
+  Click the drop-down list and select the language in which the *Name (Language)* and *Description (Language)* fields are displayed. By default, the system languages **English (United States)** and **Deutsch (Deutschland)** are available in the drop-down list.
+
 
 - [SAVE]   
   Click this button to save the attribute set, close the *Create attribute set* view and return to the attribute set list.
 
 - *Name (Language)*   
-  Attribute set name in the selected language.
+  Enter an attribute set name in the selected language.
 
 - *Description (Language)*   
-  Description to the attribute set in the selected language.
+  Enter a description to the attribute set in the selected language.
+
 
 - *Key*   
-  Attribute set key. The key is required for API access and must be system wide unique.
+  Enter an attribute set key. The key is required for API access and must be system wide unique. An attribute set key must fulfill the following criteria:
+  - valid characters are **a-z** (upper and lower case), **0-9** and the underscore ( **_** )
+  - the key must not start with a number
+  - a double underscore ( **___** ) and a trailing underscore are forbidden
+
 
 - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Active*   
   Enable this toggle to set the attribute set status to active. Disable the toggle to set the status to inactive. By default, this toggle is enabled.
 
 - *Entity type*   
   Click the drop-down list to select the appropriate entity type. All available entity types are displayed in the list.
-  [comment]: <> (For detailed information, see [Entity Types List])
+
+  [comment]: <> (list for entity types?)
+
 
 - *Inherit/Copy values from*   
   Click the drop-down list to select whether or not the values for the new attribute set should be inherited or copied from an existing attribute set. The following options are available:    
-  - **No inheritance**: The values are neither inherited nor copied from an existing attribute set. The *Inherit configuration* toggle and the *Inherit/Copy values* drop-down list are locked.
-  - **Attribute set name**: The values inherited or copied from the selected attribute set. All existing attribute sets are displayed in the drop-down list.  
+  - **No inheritance**   
+    The values are neither inherited nor copied from an existing attribute set. The *Inherit configuration* toggle and the *Inherit/Copy values* drop-down list are locked.
+  - **Attribute set name**   
+    The values inherited or copied from the selected attribute set. All existing attribute sets are displayed in the drop-down list.  
 
 
 - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Inherit configuration*   
-  Enable this toggle to inherit not only the values of the selected attribute set, but also their configuration. Disable the toggle to inherit the values without configuration. By default, this toggle is enabled. This toggle is locked if the **no inheritance** option is selected in the *Inherit/Copy values from* drop-down list.
+  Enable this toggle to inherit not only the values of the selected attribute set, but also their configuration. Disable the toggle to inherit the values without configuration. By default, this toggle is enabled. This toggle is locked if the **No inheritance** option is selected in the *Inherit/Copy values from* drop-down list.
 
 
 - *Inherit/Copy values*   
   Click the drop-down list to select the inheritance type. The following types are available:    
-  - **Copy once**: The attribute values are applied once from the selected attribute set, but afterwards they are independent of changes in the selected set.
-  - **Inherit**: The attribute values are applied from the selected attribute set and updated each time if the selected set changes.
+  - **Copy once**   
+    The attribute values are applied once from the selected attribute set, but afterwards they are independent of changes in the selected set.
+  - **Inherit**   
+    The attribute values are applied from the selected attribute set and updated each time if the selected set changes.
 
 
 **Assigned attributes**
@@ -147,7 +159,7 @@ The list displays all attribute sets. All fields are read-only. Depending on the
 - [x]     
   Select the checkbox to display the editing toolbar. If you click the checkbox in the header, all attributes in the list are selected.
 
-In the *Create attribute set* view, no attributes are displayed in list. You have to save the attribute set to edit the assigned attributes.   
+In the *Create attribute set* view, no attributes are displayed in the list. You have to save the attribute set to edit the assigned attributes.   
 
 
 ## Edit attribute set
@@ -162,20 +174,19 @@ In the *Create attribute set* view, no attributes are displayed in list. You hav
   Click this button to close the *Edit attribute set* view and return to the attribute set list. All changes are rejected.
 
 - Language   
-  Click the drop-down list and select the language in which the *Name (Language)* and *Description (Language)* fields are displayed. The system languages *English (United States)* and *Deutsch (Deutschland)* are available in the drop-down list.
-  [comment]: <> (Is that right? -> language question)
+  Click the drop-down list and select the language in which the *Name (Language)* and *Description (Language)* fields are displayed. By default, the system languages **English (United States)** and **Deutsch (Deutschland)** are available in the drop-down list.
 
 - [SAVE]   
   Click this button to save the attribute set, close the *Edit attribute set* view and return to the attribute set list.
 
 - *Name (Language)*   
-  Attribute set name in the selected language.
+  Click the field to edit the attribute set name in the selected language.
 
 - *Description (Language)*   
-  Description to the attribute set in the selected language.
+  Click the field to edit the description to the attribute set in the selected language.
 
 - *Key*   
-  Attribute set key. The key is required for API access and must be system wide unique. In the *Edit attribute set* view, this field is locked.
+  Attribute set key. In the *Edit attribute set* view, this field is locked.
 
 - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Active*   
   Enable this toggle to set the attribute set status to active. Disable the toggle to set the status to inactive. By default, this toggle is enabled.
@@ -183,20 +194,26 @@ In the *Create attribute set* view, no attributes are displayed in list. You hav
 
 - *Inherit/Copy values from*   
   Click the drop-down list to select whether or not the values for the new attribute set should be inherited or copied from an existing attribute set. The following options are available:    
-  - **No inheritance**: The values are neither inherited nor copied from an existing attribute set. The *Inherit configuration* toggle and the *Inherit/Copy values* drop-down list are locked.
-  - **Attribute set name**: The values inherited or copied from the selected attribute set. All existing attribute sets are displayed in the drop-down list.  
+  - **No inheritance**   
+    The values are neither inherited nor copied from an existing attribute set. The *Inherit configuration* toggle and the *Inherit/Copy values* drop-down list are locked.
+  - **Attribute set name**   
+    The values inherited or copied from the selected attribute set. All existing attribute sets are displayed in the drop-down list.  
 
 
 - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Inherit configuration*   
-  Enable this toggle to inherit not only the values of the selected attribute set, but also their configuration. Disable the toggle to inherit the values without configuration. By default, this toggle is enabled. This toggle is locked if the **no inheritance** option is selected in the *Inherit/Copy values from* drop-down list.
+  Enable this toggle to inherit not only the values of the selected attribute set, but also their configuration. Disable the toggle to inherit the values without configuration. By default, this toggle is enabled. This toggle is locked if the **No inheritance** option is selected in the *Inherit/Copy values from* drop-down list.
 
 
 - *Inherit/Copy values*   
   Click the drop-down list to select the inheritance type. The following types are available:    
-  - **Copy once**: The attribute values are applied once from the selected attribute set, but afterwards they are independent of changes in the selected set.
-  - **Inherit**: The attribute values are applied from the selected attribute set and updated each time if the selected set changes.
+  - **Copy once**   
+    The attribute values are applied once from the selected attribute set, but afterwards they are independent of changes in the selected set.
+  - **Inherit**   
+    The attribute values are applied from the selected attribute set and updated each time if the selected set changes.
 
-> [Info] For the *PIM Basic Set* which is predefined by the system, the inheritance settings are read-only.
+
+  > [Info] The inheritance settings may be read-only for attribute sets predefined by the system.
+
 
 **Assigned Attributes**
 
@@ -231,7 +248,8 @@ In the *Create attribute set* view, no attributes are displayed in list. You hav
 - [ADD MAPPING]   
   Click this button to add a mapping to the selected attribute. The *Add mapping* view is displayed. You can only add a mapping for attribute sets that are not inherited from another attribute set. This button is only displayed, when a single checkbox of an attribute is selected.
 
-The list displays all attributes assigned to the selected attribute set. When the ![Settings](../../Assets/Icons/Settings01.png "[Settings]") (Settings) button is gray, all fields are read-only.  When the ![Settings](../../Assets/Icons/Settings02.png "[Settings]") (Settings) button is blue, the field *Required* is editable. Depending on the settings, the displayed columns may vary.
+The list displays all attributes assigned to the selected attribute set. Depending on the settings, the displayed columns may vary.   
+When the ![Settings](../../Assets/Icons/Settings01.png "[Settings]") (Settings) button is gray, all fields are read-only. When the ![Settings](../../Assets/Icons/Settings02.png "[Settings]") (Settings) button is blue, the field *Required* is editable.
 
 - *Name*   
   Attribute name.
@@ -245,13 +263,13 @@ The list displays all attributes assigned to the selected attribute set. When th
 
 
 - *Key*   
-  Attribute key. The key is required for API access and must be system wide unique.
+  Attribute key.
 
 - *Data type*   
-  Attribute data type. For detailed information about all data types, see [Data type list](../../PIM/UserInterface/04_DataTypeList.md).
+  Attribute data type. For detailed information about all data types, see [Data type list](./04_DataTypeList.md).
 
 - *Inherited from*   
-  Inheritance attribute set. The name of the attribute set from which the attribute value is inherited is displayed. If the attribute value is not inherited, the row is empty.
+  Inheritance attribute set. The name of the attribute set from which the attribute value is inherited is displayed. If the attribute value is not inherited, the field is empty.
 
 - *Plugin*   
   Module or plugin from which the attribute is created.
@@ -316,7 +334,7 @@ The list displays all attributes assigned to the selected attribute set. When th
 **CONFIGURATION**
 
 The *CONFIGURATION* section displays the additional configuration for the data type of the selected attribute. The configuration fields differ depending on the data type of the attribute.    
-For detailed information about the different configurations of data types, see [Data type list](../../PIM/UserInterface/04_DataTypeList.md).
+For detailed information about the different configurations of data types, see [Data type list](./04_DataTypeList.md).
 
 
 ### Add mapping
@@ -353,4 +371,4 @@ The fields on the left side differ depending on the selected ETL extension. For 
 **Configuration**
 
 The *CONFIGURATION* section displays the additional configuration settings. The configuration fields differ depending on the data type of the source and/or destination attribute.    
-For detailed information about the different configurations of data types, see [Data type list](../../PIM/UserInterface/04_DataTypeList.md).
+For detailed information about the different configurations of data types, see [Data type list](./04_DataTypeList.md).

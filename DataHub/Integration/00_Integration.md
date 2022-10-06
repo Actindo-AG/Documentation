@@ -1,5 +1,7 @@
 # Integration
 
+In this part of the *DataHub* documentation, you will find the following chapters:
+
 - [Manage an attribute](./01_ManageAttributes.md)
   - [Create an attribute](./01_ManageAttributes.md#create-an-attribute)
   - [Edit an attribute](./01_ManageAttributes.md#edit-an-attribute)
@@ -45,9 +47,3 @@
   - [Edit a language](./05_ManageLanguages.md#edit-a-language)
   - [Deactivate a language](./05_ManageLanguages.md#deactivate-a-language)
   - [Delete a language](./05_ManageLanguages.md#delete-a-language)
-
-
-- [Manage the units and dimensions](./06_ManageUnitsDimensions.md)
-  - [Change the default unit](./06_ManageUnitsDimensions.md#change-the-default-unit)
-  - [Deactivate a unit](./06_ManageUnitsDimensions.md#deactivate-a-unit)
-  - [Deactivate a dimension](./06_ManageUnitsDimensions.md#deactivate-a-dimension)
