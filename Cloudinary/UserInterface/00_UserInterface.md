@@ -1,5 +1,7 @@
 # User Interface
 
+In this part of the *Cloudinary* documentation, you will find the following chapters:
+
 - [Settings](./01_Settings.md)
 
 
