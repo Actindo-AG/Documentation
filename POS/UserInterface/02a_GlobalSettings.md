@@ -32,7 +32,7 @@ In this section, you define all pay desk and payment settings.
 ## Format laufende Nummer
 *Venduo POS > Management > Tab GLOBAL SETTINGS > Entry Format laufende Nummer*
 
-Configure the details of the POS specific cash receipt number. The cash receipt number is independent of the receipt number in invoicing and is therefore selected from a different number range to be defined here.
+Configure the details of the POS specific cash receipt number. The cash receipt number is independent of the receipt number in the *Order management* module and is therefore selected from a different number range to be defined here.
 
 ![Format laufende Nummer](../../Assets/Screenshots/POS/Management/GlobalSettings/GS01.png "[Format laufende Nummer]")
 
@@ -611,7 +611,7 @@ Upload a logo for your receipts.
 
 ## DATENÜBERTRAGUNG RETAILSUITE FAKTURA
 
-In this section, you define all settings concerning the connection to invoicing. The settings are only displayed if the accounting is correctly configured.
+In this section, you define all settings concerning the connection to the *Order management* module. The settings are only displayed if the accounting is correctly configured.
 
 ## Kontenzuteilung Buchhaltung
 *Venduo POS > Management > Tab GLOBAL SETTINGS > Entry Kontenzuteilung Buchhaltung*
@@ -695,7 +695,7 @@ Define a shelf in the quarantine warehouse for returns with defects.
 ## Standard-Kunde
 *Venduo POS > Management > Tab GLOBAL SETTINGS > Entry Standard-Kunde*
 
-Define an invoice address for a default customer to connect the POS system with the invoicing. The invoice address of this default customer is used for all occasion customers.
+Define an invoice address for a default customer to connect the POS system with the *Order management* module. The invoice address of this default customer is used for all occasion customers.
 
 ![Standard-Kunde](../../Assets/Screenshots/POS/Management/GlobalSettings/GS27.png "[Standard-Kunde]")
 
@@ -742,7 +742,7 @@ Define an invoice address for a default customer to connect the POS system with 
 
 Activate or deactivate the store deliveries. If the store deliveries are active, deliveries to the store can be entered and the POS inventory is automatically increased by the delivered products.
 
->  [Info] Deliveries to the store can only be added if a delivery receipt for this delivery exists in invoicing.
+>  [Info] Deliveries to the store can only be added if a delivery receipt for this delivery exists in the *Order management* module.
 
 ![Shop-Lieferungen aktiv](../../Assets/Screenshots/POS/Management/GlobalSettings/GS28.png "[Shop-Lieferungen aktiv]")
 
