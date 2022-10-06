@@ -1,7 +1,4 @@
-[!!Workflows](ActindoWorkFlow)
-
 # Workflows
-
 
 The *Workflows* menu entry allows to create, edit, delete, publish and unpublish different workflow versions.
 

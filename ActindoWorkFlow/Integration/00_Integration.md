@@ -1,5 +1,7 @@
 # Integration
 
+In this part of the *Workflows* documentation, you will find the following chapters:
+
 - [Configure the queue types](./01_ConfigureQueueTypes.md)
   - [Create a queue type](./01_ConfigureQueueTypes.md#create-a-queue-type)
   - [Disable the workflows](./01_ConfigureQueueTypes.md#disable-the-workflows)
@@ -14,4 +16,4 @@
 
 
 
-- [Configure the logging settings](./01_ConfigureLoggingSettings.md)
+- [Configure the logging settings](./02_ConfigureLoggingSettings.md)
