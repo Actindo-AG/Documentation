@@ -1,7 +1,7 @@
-[!!User Interface processes](../UserInterface/03a_Processes.md)
-[!!User Interface process actions](../UserInterface/04a_ProcessActions.md)
+[!!User Interface Processes](../UserInterface/03a_Processes.md)
+[!!User Interface Process actions](../UserInterface/04a_ProcessActions.md)
 [!!Track a workflow process](../Operation/02_TrackWorkflowProcess)
-[!!Workflow and process elements](../Overview/02_WorkflowProcessElements.md)
+[!!Workflow and process elements](../Overview/04_WorkflowProcessElements.md)
 
 
 # Retry process action
@@ -9,6 +9,8 @@
 You can retry one or several faulty process actions after you have fixed the cause of the error to continue the affected process(es).
 
 ## Retry a single process action
+
+If a single action failed, you can restart this action on its own. If multiple actions failed because of the same error, it is recommended to [restart all these actions together](#retry-multiple-process-actions) after the error has been fixed.
 
 #### Error Description
 
@@ -18,7 +20,7 @@ Follow the instructions below to restart the process action after you have fixed
 
 #### Prerequisites
 
-The cause of the faulty process action is fixed.
+The cause of the faulty process action has been fixed.
 
 #### Procedure
 
@@ -42,13 +44,15 @@ The cause of the faulty process action is fixed.
   ![Error action selected](../../Assets/Screenshots/ActindoWorkFlow/Processes/ErrorActionSelected.png "[Error action selected]")
 
 4. Click the ![Retry](../../Assets/Icons/Retry01.png "[Retry]") (Retry) button in the editing toolbar.     
-The process action is restarted. The status of the restarted process action changes to **In Progress**. The *Status change successful* pop-up window indicating the number of restarted process actions is displayed.
+  The process action has been restarted. The status of the restarted process action changes to **In Progress**. The *Status change successful* pop-up window indicating the number of restarted process actions is displayed.
 
   ![Status change successful](../../Assets/Screenshots/ActindoWorkFlow/Processes/StatusChangeSuccessful.png "[Status change successful]")
 
 
 
 ## Retry multiple process actions
+
+If multiple actions failed, you can restart these actions all together. If a single action failed or if you want to test whether an action runs without errors taking a specific action as reference, it is recommended to [restart a single action](#retry-a-single-process-action) after the error has been fixed.
 
 #### Error Description
 
@@ -58,7 +62,7 @@ Follow the instructions below to restart the process actions after you have fixe
 
 #### Prerequisites
 
-The cause of the faulty process actions is fixed.
+The cause of the faulty process actions has been fixed.
 
 #### Procedure
 
@@ -79,7 +83,7 @@ All failed process actions are displayed in the list of actions.
   ![Error actions selected](../../Assets/Screenshots/ActindoWorkFlow/ProcessActions/ErrorActionsSelected.png "[Error actions selected]")
 
 4. Click the ![Retry](../../Assets/Icons/Retry01.png "[Retry]") (Retry) button in the editing toolbar.     
-All selected process actions are restarted. The status of the restarted process actions changes to **In Progress**. The actions are removed from the *Error* status list. The *Status change successful* pop-up window indicating the number of restarted process actions is displayed.
+  All selected process actions have been restarted. The status of the restarted process actions changes to **In Progress**. The actions are removed from the *Error* status list. The *Status change successful* pop-up window indicating the number of restarted process actions is displayed.
 
   ![Status change successful](../../Assets/Screenshots/ActindoWorkFlow/Processes/StatusChangeSuccessful.png "[Status change successful]")
 

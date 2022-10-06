@@ -1,6 +1,6 @@
-[!!PIM](PIM)
-[!!DataHub](DataHub)
-[!!Omni-Channel](Channels)
+[!!PIM](../../PIM/Overview/01_General.md)
+[!!DataHub](../../DataHub/Overview/01_General.md)
+[!!Omni-Channel](../../Channels/Overview/01_General.md)
 [!!User Interface Omni-Channel](../../Channels/UserInterface/00_UserInterface.md)
 [!!User Interface DataHub](../../DataHub/UserInterface/00_UserInterface.md)
 [!!User Interface PIM](../../PIM/UserInterface/00_UserInterface.md)
@@ -9,6 +9,7 @@
 # Manage offers for POS
 
 To to offer products in Venduo POS, it is recommended to create the products in advance and create the corresponding offers afterwards in order to be able to distribute them properly in the system.
+
 
 ## Create products for POS
 
@@ -53,13 +54,10 @@ No prerequisites to fulfill.
 
 
 
-
 ## Create a product type
 
 To improve the product classification, you can create a product type and use it in POS.   
 For detailed information on how to create a product type, see [Create a product type](../../PIM/Integration/02_ManageAttributeSets.md#create-an-attribute-set)
-
-
 
 ## Map a new product type in POS
 
@@ -91,7 +89,6 @@ The selected mappings are removed from the list when the mappings are created.
 ## Create an offer for POS
 
 Create an offer in the *Omni-Channel* module or the *PIM* module so you can offer and select the products in the *Venduo POS* store.
-
 
 ### Create an offer from a PIM product in Omni-Channel
 

@@ -1,5 +1,7 @@
 # Operation
 
+In this part of the *Workflows* documentation, you will find the following chapters:
+
 - [Manage the workflows](./01_ManageWorkflows.md)
   - [Create a workflow](./01_ManageWorkflows.md#create-a-workflow)
     - [Define the workflow basic settings](./01_ManageWorkflows.md#define-the-workflow-basic-settings)
@@ -19,7 +21,15 @@
   - [Unpublish a workflow version](./01_ManageWorkflows.md#unpublish-a-workflow-version)
 
 
-- [Track a workflow process](./02_TrackWorkflowProcess.md)
+- [Track the workflow process](./02_TrackWorkflowProcess.md)
   - [Check the process status](./02_TrackWorkflowProcess.md#check-the-process-status)
   - [Check the process action status](./02_TrackWorkflowProcess.md#check-the-process-action-status)
   - [Check the token status and content](./02_TrackWorkflowProcess.md#check-the-token-status-and-content)
+
+
+- [Manage the triggers](./03_ManageTriggers.md)
+  - [Create a trigger](./03_ManageTriggers.md#create-a-trigger)
+  - [Add a condition](./03_ManageTriggers.md#add-a-condition)
+  - [Edit a trigger](./03_ManageTriggers.md#edit-a-trigger)
+  - [Change the order of triggers](./03_ManageTriggers.md#change-the-order-of-triggers)
+  - [Delete a trigger](./03_ManageTriggers.md#delete-a-trigger)
