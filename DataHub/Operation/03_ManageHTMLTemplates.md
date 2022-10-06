@@ -31,6 +31,7 @@ The *HTML Templates for ETL* plugin has been installed.
 
 3. Enter a key for the HTML template in the *Key* field. The key is required for API access and must be system wide unique.
 
+[comment]: <> (Gibt es noch andere Vorgaben für diesen Key?)
 
 4. Click the textarea and enter the appropriate content for the HTML template. You can either include HTML text or Smarty templates:
   - [Include HTML text](#include-html-text)

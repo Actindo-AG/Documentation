@@ -7,15 +7,15 @@ In this part of the *DataHub* documentation, you will find the following chapter
   - [Prerequisites](./01_General.md#prerequisites)
 
 
-- [DataHub Basics](./02_Basics.md)
-  - [Data model](./02_Basics.md#data-model)
-  - [ETL process](./02_Basics.md#etl-process)
+- [Key Features](./02_Features.md)
+  - [What is ETL?](./02_Features.md#what-is-etl)
+  - [The new way to modernize](./02_Features.md#the-new-way-to-modernize)
+  - [Actindo data accelerator hub](./02_Features.md#actindo-data-accelerator-hub)
 
 
-- [Key Features](./03_Features.md)
-  - [What is ETL?](./03_Features.md#what-is-etl)
-  - [The new way to modernize](./03_Features.md#the-new-way-to-modernize)
-  - [Actindo data accelerator hub](./03_Features.md#actindo-data-accelerator-hub)
+- [Processes](./03_Processes.md)
 
 
-- [Processes](./04_Processes.md)
+- [DataHub Basics](./04_Basics.md)
+  - [Data model](./04_Basics.md#data-model)
+  - [ETL process](./04_Basics.md#etl-process)
