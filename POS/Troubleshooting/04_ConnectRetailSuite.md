@@ -1,11 +1,11 @@
-[!!Settings](Settings)
+[!!Settings](../../Settings/Overview/01_General.md)
 [!!User Interface Settings](../../Settings/UserInterface/00_UserInterface.md)
 
 
 # Establish the RetailSuite connection
 
 #### Error description
-The RetailSuite is not connected to *Venduo POS*. The *DATA TRANSFER RETAILSUITE INVOICING* section is not displayed in the global settings.
+The RetailSuite is not connected to *Venduo POS*. The *DATA TRANSFER RETAILSUITE ORDER MANAGEMENT* section is not displayed in the global settings.
 
 Follow the instructions below to establish the connection to the RetailSuite.
 

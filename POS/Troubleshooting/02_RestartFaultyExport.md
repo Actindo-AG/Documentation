@@ -1,4 +1,4 @@
-[!!Omni-Channel](Channels)
+[!!Omni-Channel](../../Channels/Overview/01_General.md)
 [!!User Interface Omni-Channel](../../Channels/UserInterface/00_UserInterface.md)
 
 

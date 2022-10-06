@@ -1,4 +1,4 @@
-[!!Warehouse](RetailSuiteWarehousing)   
+[!!Warehouse](../../RetailSuiteWarehousing/Overview/01_General.md)   
 [!!User Interface warehouse](../../RetailSuiteWarehousing/UserInterface/00_UserInterface.md)   
 [!!Handle an out-of-stock order](../Troubleshooting/01_OutOfStockOrder.md)
 [!!Manage the POS warehouse](./08_ManageWarehouse.md)

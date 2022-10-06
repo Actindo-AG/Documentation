@@ -1,5 +1,5 @@
-[!!Warehouse](RetailSuiteWarehousing)
-[!!Omni-Channel](Channels)
+[!!Warehouse](../../RetailSuiteWarehousing/Overview/01_General.md)
+[!!Omni-Channel](../../Channels/Overview/01_General.md)
 [!!User Interface Warehouse](../../RetailSuiteWarehousing/UserInterface/00_UserInterface.md)
 [!!User Interface Omni-Channel](../../Channels/UserInterface/00_UserInterface.md)
 
