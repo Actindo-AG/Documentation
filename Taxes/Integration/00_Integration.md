@@ -1,5 +1,7 @@
 # Integration
 
+In this part of the *Taxes* documentation, you will find the following chapters:
+
 - [Manage the tax rates](./01_ManageTaxRates.md)
   - [Create a tax rate](./01_ManageTaxRates.md#create-a-tax-rate)
   - [Edit a tax rate](./01_ManageTaxRates.md#edit-a-tax-rate)
