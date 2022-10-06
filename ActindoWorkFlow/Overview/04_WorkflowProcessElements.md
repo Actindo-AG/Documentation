@@ -2,19 +2,18 @@
 
 ![Workflow](../../Assets/Screenshots/ActindoWorkFlow/Workflows/Workflow.png "[Workflow]")
 
-The *Workflows* module allows customers to model their own processes to match their companies structure. A workflow consists of a number of fixed elements that are chained together, each of them having specific characteristics. These elements are used to design the workflow, which can be edited as necessary according to customer needs. For detailed information, see [Manage workflows](../Operation/01_ManageWorkflows.md).
+The *Workflows* module allows customers to model their own processes to match their companies structure. A workflow consists of a number of fixed elements that are chained together, each of them having specific characteristics. These elements are used to design the workflow, which can be edited as necessary according to customer needs. For detailed information, see [Manage the workflows](../Operation/01_ManageWorkflows.md).
 
 A workflow runs from a fixed start place to a fixed end place, which can be in turn linked to another workflow. A workflow must contain at least one transition between the start and the end place. The transitions are linked through places with each other, connecting the corresponding transition input and output ports. All these elements are described more in detail below:
 
 - [Transitions](#transitions)
-- [Arcs](#arcs)
-- [Input and output ports](#input-and-output-ports)
 - [Places](#places)
 - [Start and end place](#start-and-end-place)
+- [Arcs](#arcs)
+- [Input and output ports](#input-and-output-ports)
 
 
-
-The *Workflows* module is linked to different system modules and plugins, such as *Invoicing*, *Email*, *Omni Channel* and *Tasks*. The transitions available to create workflows depend on the modules installed in the system.
+The *Workflows* module is linked to different system modules and plugins, such as *Order management*, *Email*, *Omni Channel* and *Tasks*. The transitions available to create workflows depend on the modules installed in the system.
 
 Since business processes, and the workflows that map them, evolve over time, workflows can be versioned. While every workflow can be uniquely identified through its key, there may be any number of versions of it. Several versions of the same workflow can be published at the same time. However, when a process for a given workflow is to be started, the latest published version of the workflow, that is, the one with the highest version number, is used.   
 
@@ -22,7 +21,7 @@ Since business processes, and the workflows that map them, evolve over time, wor
 
 A process is an instance of a workflow. If you have created a workflow for a specific business case, in which all the required steps are described, a single process of this workflow will be created for each of these business cases that is initiated.
 
-Workflow processes are initiated by a certain event. This event can either be defined via code or via the doctrine triggers configured in the *Workflows* module. In the doctrine trigger, you can define the triggers as well as conditions that have to be fulfilled to initiate a certain workflow process.
+Workflow processes are initiated by a certain event. This event can either be defined via code or via the doctrine triggers configured in the *Workflows* module. In the doctrine trigger, you can define the triggers as well as conditions that have to be fulfilled to initiate a certain workflow process, see [Manage the triggers](../Operation/03_ManageTriggers.md).
 
 Workflow processes, as well as the workflows itself, consists of certain elements that are described in detail below. As a process is an instance of the workflow, some elements in the workflows and the processes are very similar or even nearly identical. Nevertheless, the function of these elements differs depending on its use in the workflow or the process:
 
