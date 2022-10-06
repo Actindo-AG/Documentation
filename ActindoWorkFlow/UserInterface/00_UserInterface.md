@@ -4,6 +4,7 @@ In this part of the *Workflows* documentation, you will find the following chapt
 
 - [Overview](./01_Overview.md)
 
+
 - [DASHBOARDS](./01a_Overview.md)
   - [Add a new tab &ndash; Create new tab](./01a_Overview.md#add-a-new-tab--create-new-tab)
   - [Add a new tab &ndash; Import existing tab](./01a_Overview.md#add-a-new-tab--import-existing-tab)
@@ -13,7 +14,9 @@ In this part of the *Workflows* documentation, you will find the following chapt
     - [Dashlet picker](./01a_Overview.md#dashlet-picker)
 
 
+
 - [Workflows](./02_Workflows.md)
+
 
 - [OVERVIEW (Workflows)](./02a_Workflows.md)
   - [New workflow](./02a_Workflows.md#new-workflow)
@@ -27,7 +30,9 @@ In this part of the *Workflows* documentation, you will find the following chapt
   - [Rename view](./02a_Workflows.md#rename-view)
 
 
+
 - [Processes](./03_Processes.md)
+
 
 - [OVERVIEW (Processes)](./03a_Processes.md)
   - [Process ID](./03a_Processes.md#process-id)
@@ -39,21 +44,27 @@ In this part of the *Workflows* documentation, you will find the following chapt
     - [Rename view](./03a_Processes.md#rename-view)
 
 
+
 - [Process actions](./04_ProcessActions.md)
+
 
 - [OVERVIEW (Process actions)](./04a_ProcessActions.md)
   - [Create view](./04a_ProcessActions.md#create-view)  
   - [Rename view](./04a_ProcessActions.md#rename-view)
 
 
+
 - [Queue types](./05_QueueTypes.md)
+
 
 - [OVERVIEW](./05a_QueueTypes.md)
   - [Create queue type](./05a_QueueTypes.md#create-queue-type)  
   - [Edit queue type](./05a_QueueTypes.md#edit-queue-type)
 
 
+
 - [Logs](./06_Logs.md)
+
 
 - [OVERVIEW (Logs)](./06a_Logs.md)
   - [Log ID](./06a_Logs.md#log-id)
@@ -61,7 +72,9 @@ In this part of the *Workflows* documentation, you will find the following chapt
   - [Rename view](./06a_Logs.md#rename-view)
 
 
+
 - [Settings](./07_Settings.md)
+
 
 - [SETTINGS](./07a_Settings.md)
   - [Emergency-log lifetime](./07a_Settings.md#emergency-log-lifetime)

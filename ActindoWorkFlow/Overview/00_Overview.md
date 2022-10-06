@@ -1,5 +1,7 @@
 # Overview
 
+In this part of the *Workflows* documentation, you will find the following chapters:
+
 - [General information](./01_General.md)
   - [Benefits](./01_General.md#benefits)
   - [Prerequisites](./01_General.md#prerequisites)
