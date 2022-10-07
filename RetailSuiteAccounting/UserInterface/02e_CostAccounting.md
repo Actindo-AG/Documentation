@@ -4,33 +4,27 @@
 
 ![Cost accounting - not defined](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CostAccounting/CostAccountingNo.png "[Cost accounting - not defined]")
 
-> [Info] If no cost center has been created in the selected accounting period yet, the notice "No cost centers defined" is displayed when clicking the *COST ACCOUNTING* tab.
-
-
 - *Cost accounting*  
-Click the corresponding drop-down list to select the relevant accounting period (fiscal year and month) and the cost center/unit:
-
-  - (Fiscal year drop-down list)  
-  Click the drop-down list to select the relevant fiscal year. The fiscal years already configured in the system are displayed in the drop-down list.  
-
-  - (Month drop-down list)  
-  Click the drop-down list to select the relevant month. The following options are available:  
-
+  Click the corresponding drop-down list to select the relevant accounting period (fiscal year and month) and the cost center/unit. The following drop-down lists are displayed:
+  - Fiscal year drop-down list  
+    Click the drop-down list to select the relevant fiscal year. All available fiscal years are displayed in the list.  
+  - Month drop-down list  
+    Click the drop-down list to select the relevant month. The following options are available:  
     - **0 - Balances carried forward**
     - **1 - 12 - (months)**
     - **13 - 15 - Subsequent postings**  
-
-  - (Cost accounting drop-down list)  
-  Click the drop-down list to select the desired option. The following options are available:  
-
+  - Cost accounting drop-down list  
+    Click the drop-down list to select the cost type. The following options are available:  
     - **Cost 1 - Cost center**  
-    Select this option to display the available cost centers in the selected accounting period or to create a new one.
+      Select this option to display the available cost centers in the selected accounting period or to create a new one.
     - **Cost 2 - Cost object**  
-    Select this option to display the available cost objects in the selected accounting period or to create a new one.  
+      Select this option to display the available cost objects in the selected accounting period or to create a new one.   
 
-    Depending on the option selected in the cost accounting drop-down list (**Cost 1 - Cost center** or **Cost 2 - Cost object**), the input fields and the information displayed vary.
-
+  All available cost centers or objects in the selected accounting period are displayed in the list. Depending on the selected cost type in the cost accounting drop-down list, the list and the input fields vary:
+  - [Cost center](#cost-center)
+  - [Cost object](#cost-object)
 [comment]: <> (Monat drop-down list: es fehlt 16-19 Abschlussbuchungen und 99 Allgemeiner Monat?)
+
 
 
 ## Cost center
@@ -39,60 +33,68 @@ Click the corresponding drop-down list to select the relevant accounting period 
 
 ![Cost center](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CostAccounting/CostAccounting01.png "[Cost center]")
 
-The cost centers available in the selected accounting period, if any, are displayed in a column view. All information displayed in columns is read-only.
+The list displays all available cost centers in the selected accounting period. All fields are read-only. If no cost center has been created in the selected accounting period, the notice *No cost centers defined* is displayed.
 
 - *Cost.*  
-Cost center number.
+  Cost center number.
 
 - *Description*  
-Cost center description.
+  Descriptive cost center name.
 
 - *Inactive*  
-If the cost center has been set to inactive, the word *Inactive* is displayed. Otherwise, the column is empty.
+  Cost center status. The word **Inactive** is displayed if the cost center has been deactivated.
 
 - *Active from*  
-Validity start date.
+  Validity start date.
 
-[comment]: <> (Allgemeine Info fehlt! Wie kann man aktivieren? Wann kommt das Datum vor?)
+[comment]: <> (Allgemeine Info fehlt! Wann kommt das Datum vor?)
 
 
-The input fields allow to enter or modify cost center details.
+The input fields below allow to enter or modify the cost center details.
 
-- ![Radio button](../../Assets/Icons/RadioButton02.png "[Radio button]") *Active/Inactive* (radio button)  
-Click the corresponding radio button to select the appropriate option. The *Active* radio button is selected by default.
+- ![Radio button](../../Assets/Icons/RadioButtonChecked.png "[Radio button]") *Active*   
+  Select this radio button to activate the cost center after saving.
+
+- ![Radio button](../../Assets/Icons/RadioButtonChecked.png "[Radio button]") *Inactive*    
+  Select this radio button to deactivate the cost center after saving.
 
 - *Cost center*  
-Enter the cost center number. It is possible to enter up to 4 digits.
+  Enter the cost center number. Only numbers are allowed. The number of digits is limited to 4.
 
 - *Description*  
-Enter a short description for the cost center.
+  Enter a descriptive name for the cost center.
 
 - *Text*  
-Enter a longer text description for the cost center, if desired.
+  Enter a longer description or comments to the cost center. The text is not displayed in the list.
+
 
 - *Allocation to cost objects*  
-It is possible to allocate costs from different cost centers to individual cost objects. To do so, click the [ALLOCATION TABLE] button.
-
-- [ALLOCATION TABLE]  
-Click this button to display the *Allocation table* window, see [Allocation table](#allocation-table).
+  Specify how to allocate costs from different cost centers to individual cost objects. This field is only displayed if at least one cost object has been created. The following button is displayed:
+  - [ALLOCATION TABLE]   
+    Click this button to display the *Allocation table* window, see [Allocation table](#allocation-table).
 
 
 - [SAVE & NEW]  
-Click this button to save a newly created cost center.  
+  Click this button to save the new cost center. The button is locked if a cost center has been selected. For detailed information about creating a cost center, see [Create a cost center](../Integration/08_ManageCostAccounting.md#create-a-cost-center).
 
 - [SAVE]  
-Click this button to save any changes made to an existing cost center.  
+  Click this button to save any changes made to the selected cost center. The button is only unlocked if a cost center has been selected. For detailed information about editing a cost center, see [Edit a cost center](../Integration/08_ManageCostAccounting.md#edit-a-cost-center).
 
-  > [Info] Be aware that the saved changes will overwrite the cost center existing details. To prevent this, make sure that the input fields are empty by clicking the [CLEAR] button. The [SAVE & NEW] button becomes then active.
+  > [Info] Be aware that all saved changes will overwrite the existing cost center data.
 
 - [DELETE]  
-Click this button to delete a selected cost center.
+  Click this button to delete the selected cost center. The button is only unlocked if a cost center has been selected. For detailed information about deleting a cost center, see [Delete a cost center](../Integration/08_ManageCostAccounting.md#delete-a-cost-center).
+
+  > [Warning] **Loss of data**   
+  Deleting will permanently remove the selected data. The deletion cannot be undone and the deleted data cannot be restored.       
+  Problems may occur due to unresolved dependencies.   
+  Make sure you really want to delete the selected data.
 
 - [CLEAR]  
-Click this button to clear all input fields. The [SAVE & NEW] button becomes active.
+  Click this button to clear all fields.
 
 - [PRINT]  
-Click this button to print the cost center/unit. The *Print cost center/unit* window is displayed, see [Print cost center/unit](#print-cost-centerunit).
+  Click this button to print the cost center or object. The *Print cost center/object* window is displayed, see [Print cost center/object](#print-cost-centerobject).
 
 [comment]: <> (Eigentlich heißt das Fenster Cost center/unit, aber ich habe zu Print cost center/unit umbenannt hier.)
 
@@ -104,105 +106,120 @@ Click this button to print the cost center/unit. The *Print cost center/unit* wi
 
 ![Cost object](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CostAccounting/CostAccounting02.png "[Cost object]")
 
-
-The cost objects available in the selected accounting period, if any, are displayed in a column view. All information displayed in columns is read-only.
+The list displays all available cost objects in the selected accounting period. All fields are read-only. If no cost object has been created in the selected accounting period, the notice *No cost objects defined* is displayed.
 
 - *Cost.*  
-Cost object number.
+  Cost object number.
 
 - *Description*  
-Cost object description.
+  Descriptive cost object name.
 
 - *Inactive*  
-If the cost object has been set to inactive, the word *Inactive* is displayed. Otherwise, the column is empty.
+  Cost object status. The word **Inactive** is displayed if the cost object has been deactivated.
 
 - *Active from*  
-Validity start date.
+  Validity start date.
 
-[comment]: <> (Allgemeine Info fehlt! Wie kann man aktivieren? Wann kommt das Datum vor?)
+[comment]: <> (Allgemeine Info fehlt! Wann kommt das Datum vor?)
 
 - *ProfitCenter*  
-Assigned ProfitCenter.
+  Assigned profit center.
 
 
-The input fields allow to enter or modify cost object details.
+The input fields below allow to enter or modify the cost object details.
 
-- ![Radio button](../../Assets/Icons/RadioButton02.png "[Radio button]") *Active/Inactive* (radio button)  
-Click the corresponding radio button to select the appropriate option. The *Active* radio button is selected by default.
+- ![Radio button](../../Assets/Icons/RadioButtonChecked.png "[Radio button]") *Active*   
+  Select this radio button to activate the cost object after saving.
+
+- ![Radio button](../../Assets/Icons/RadioButtonChecked.png "[Radio button]") *Inactive*    
+  Select this radio button to deactivate the cost object after saving.
 
 - *Cost object*  
-Enter the cost object number. It is possible to enter up to 5 digits.
+  Enter the cost object number. Only numbers are allowed. The number of digits is limited to 5.
 
-- *Description*  
-Enter a short description for the cost object.
+- *Description*   
+  Enter a descriptive name for the cost object.
 
 - *Text*  
-Enter a longer text description for the cost object, if desired.
+  Enter a longer description or comments to the cost object. The text is not displayed in the list.
+
 
 - *Debtor*  
-Enter the debtor or customer number, if necessary. Alternatively, click the [SEARCH] button to search for a debtor or customer.
+  Enter the debtor or customer number, if necessary. Alternatively, click the [SEARCH] button to search for a debtor or customer.
+  - [SEARCH]  
+    Click this button to select a customer or debtor for the *Debtor* field. Th *Select address* window is displayed, see [Select address](#select-address).  
 
-- [SEARCH]  
-Click this button to display the *Select address* window, see [Select address](#select-address).
 
 - *ProfitCenter*  
-Click the drop-down list to select the appropriate ProfitCenter. All available ProfiCenters are displayed in the list. If no ProfitCenter has been created yet, **0 - No group** is displayed.
+  Click the drop-down list to select the appropriate profit center. All available profit centers are displayed in the list. If no profit center must be assigned to the cost object, select the **No ProfitCenter** option. If no profit center has been created, the **0 - No group** option is displayed. Click the [EDIT...] button to edit or create a profit center.
+  - [EDIT...]  
+    Click this button to edit or create a profit center. The *ProfitCenter* window is displayed, see [ProfitCenter](#profitcenter).
+
 
 [comment]: <> (Unsicher, check mit FH!)
 
-- [EDIT]  
-Click this button to edit or add a ProfitCenter. The *ProfitCenter* window is displayed, see [ProfitCenter](#profitcenter).
-
-
 - [SAVE & NEW]  
-Click this button to save a newly created cost object.  
+  Click this button to save the new cost object. The button is locked if a cost object has been selected. For detailed information about creating a cost object, see [Create a cost object](../Integration/08_ManageCostAccounting.md#create-a-cost-object).
 
 - [SAVE]  
-Click this button to save any changes made to an existing cost object.  
+  Click this button to save any changes made to the selected cost object. The button is only unlocked if a cost object has been selected. For detailed information about editing a cost object, see [Edit a cost object](../Integration/08_ManageCostAccounting.md#edit-a-cost-object).
 
-  > [Info] Be aware that the saved changes will overwrite the cost object existing details. To prevent this, make sure that the input fields are empty by clicking the [CLEAR] button. The [SAVE & NEW] button becomes then active.
+  > [Info] Be aware that all saved changes will overwrite the existing cost object data.
 
 - [DELETE]  
-Click this button to delete a selected cost object.
+  Click this button to delete the selected cost object. The button is only unlocked if a cost object has been selected. A cost object can only be deleted if no costs from any cost center are assigned to it. For detailed information about deleting a cost object, see [Delete a cost object](../Integration/08_ManageCostAccounting.md#delete-a-cost-object).
+
+  > [Warning] **Loss of data**   
+  Deleting will permanently remove the selected data. The deletion cannot be undone and the deleted data cannot be restored.       
+  Problems may occur due to unresolved dependencies.   
+  Make sure you really want to delete the selected data.
 
 - [CLEAR]  
-Click this button to clear all input fields. The [SAVE & NEW] button becomes active.
+  Click this button to clear all fields.
 
 - [PRINT]  
-Click this button to print the cost center/unit. The *Print cost center/unit* window is displayed, see [Print cost center/unit](#print-cost-centerunit).
+  Click this button to print the cost center or object. The *Print cost center/object* window is displayed, see [Print cost center/object](#print-cost-centerobject).
 
 [comment]: <> (Eigentlich heißt das Fenster Cost center/unit, aber ich habe zu Print cost center/unit umbenannt hier.)
 
 
-## Print cost center/unit
 
-*Accounting > Settings > Tab COST ACCOUNTING > Drop-down option Cost1 - Cost center > Button PRINT*  
-*Accounting > Settings > Tab COST ACCOUNTING > Drop-down option Cost2 - Cost object > Button PRINT*
+## Print cost center/object
 
-![Print cost center/unit](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CostAccounting/CostCenterUnit.png "[Print cost center/unit]")
+*Accounting > Settings > Tab COST ACCOUNTING > Button PRINT*  
+
+![Print cost center/object](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CostAccounting/CostCenterUnit.png "[Print cost center/object]")
+
+- *Cost center/object*  
+  Click the drop-down list to select whether the cost centers or cost objects are to be printed. The following options are available:
+  - **cost1 - cost center**   
+    The cost centers within this list will be printed according to the settings specified in the following.
+  - **cost2 - cost object**    
+    The cost objects within this list will be printed according to the settings specified in the following.
 
 
-- *Cost center/unit*  
-Click the drop-down list to select whether the cost center(s) or cost object(s) are to be printed.
+- [x] *Active*   
+  Select the checkbox to include all active cost centers/objects for printing.
 
-- *Active/inactive*  
-Click the checkbox to select one of the options, or both, to be printed.
+- [x] *Inactive*   
+  Select the checkbox to include all inactive cost centers/objects for printing.
 
 - *Numbers from-to*  
-Enter a cost center/unit number range to be printed.
+  Enter the cost centers/objects number range to be printed.
 
 - *Month*  
-Click the drop-down list to select the desired month to be printed.
+  Click the drop-down list to select the desired month to be printed. All available months are dispalyed in the list.
 
 - *Fiscal year*  
-Click the drop-down list to select the desired fiscal year to be printed.
+  Click the drop-down list to select the desired fiscal year to be printed. All available fiscal years are dispalyed in the list.
 
 
 - [CANCEL]  
-Click this button to cancel the process. The window is closed.
+  Click this button to cancel the printing process. The *Print cost center/object* window is closed.
 
 - [PRINT]  
-Click this button to print out the cost center/unit with the selected settings.
+  Click this button to print the cost centers/objects according to the selected settings. A print preview is displayed in the window.
+
 
 
 ### Allocation table
@@ -211,235 +228,136 @@ Click this button to print out the cost center/unit with the selected settings.
 
 ![Allocation table](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CostAccounting/AllocationTable01.png "[Allocation table]")
 
-- *Select ProfitCenter*  
-Click the drop-down list to select a specific ProfitCenter. You can also select **All ProfitCenters** to include them all or **0 - No group** to include none.
+- *Select ProfitCenter*
+  Click the drop-down list to select a profit center. All available profit centers are displayed in the list. Additionally, the following options are available:
+  - **All ProfitCenters**   
+    All available profit centers will be included.
+  - **0 - No group**   
+    No profit center will be included.   
+
+  The columns in the allocation list change according to the selected profit center option.
+
 
 - [UPDATE]  
-Click this button to update the table after making any changes.
+  Click this button to update the table.
 
-  > [Info] Bear in mind that the changes must be saved first clicking the [SAVE] button at the bottom. Otherwise, the changes will be rejected.
+  > [Info] Note that any changes made must be saved first by clicking the [SAVE] button at the bottom. Otherwise, all changes will be rejected when updating the list..
 
 - [CHANGE PERIOD]  
-Click this button to change the period. The *Select period* window is displayed, see [Select period](#select-period).
+  Click this button to change the period. The *Select period* window is displayed, see [Select period](#select-period).
 
 - [EXCEL]  
-Click this button to display the *EXCEL* context menu. The following option is available:  
-
-  - *Export current page*  
-  Click this option to export the allocation table currently displayed. The allocation table is exported in Excel format and saved by default in the Downloads folder in your computer.
-
-  - *Export all*  
-  Click this option to export all available allocation tables. The allocation tables are exported in Excel format and saved by default in the Downloads folder in your computer.
+  Click this button to display the *EXCEL* context menu. The following options are available:  
+  - **Export current page**  
+    Click this option to export the allocation table currently displayed. The allocation table is exported in Excel format and saved by default in the Downloads folder in your computer.
+  - **Export all**  
+    Click this option to export all available allocation tables. The allocation tables are exported in Excel format and saved by default in the Downloads folder in your computer.
 
 [comment]: <> (Check! One file, several files, one excel with several tabs?)
+[comment]: <> (EXCEL wird bei mir wieder nicht angezeigt)
 
-The allocation table displays the distribution of costs among cost centers and units. The information displayed is read-only.
+The list displays the allocation of costs among the cost centers and objects. Depending on the selected profit center option, the displayed columns may vary.  
 
 - *Cost center*  
-The available cost center(s) are displayed in this column.
+  Cost center name. This field is read-only.
 
-- (Cost objects)  
-The available cost object(s) are displayed in a row. Double click in the corresponding table cell to activate the input field. The following options are available:
+- Cost object  
+  Double-click a cost object field to activate the field and define the cost allocation. The following options are available:
+  - If the **Percentage** option is selected in the drop-down list in the *Allocation* column, enter a percentage value in the field.
+  - If the **Formula** option is selected in the drop-down list in the *Allocation* column, click the drop-down list and select the appropriate option:
+    - **Active**   
+      Select this option to apply the formula specified in the *Formula* column to the selected cost object.
+    - **Inactive**   
+      Select this option to ignore the formula for the selected cost object.   
 
-  - If the *Allocation* column is set to *Percentage*, enter a percentage value.
-  - If the *Allocation* column is set to *Formula*, click the drop-down list to select **Active/inactive**. The basic calculating operations (+, -, *, /) are permitted.
+  For each available cost object, a single column is displayed in the list.
 
 
-- (Sigma sign %)  
-The cell content changes automatically depending on the allocation method and percentage values entered. The individual percentages entered must equal 100 %. That means that all costs are allocated to the individual cost objects. The cell turns then green. Otherwise, an error message is displayed when trying to save the table.
+- *&#931; %*  
+  Total sum or total percentage of all cost objects. The displayed number changes automatically. The total must equal 100 to be saved. That means that all costs must be allocated to the individual cost objects. Otherwise, an error message is displayed when clicking the [SAVE] button.
 
 [comment]: <> (Check mit FH! Generell mehr Info gebraucht für dieses Kapitel. Evtl. Prozedur in Integration.)
 
 - *Allocation*   
-Doble click the corresponding table cell to activate the drop-down list. Click the drop-down list to select the allocation method. The following options are available:  
-
-  - **Percentage**  
-  Select this option to allocate costs based on individual percentages per unit.
+  Double-click this field to activate it. Click the drop-down list to select the allocation method. The following options are available:  
+  - **Percentage**   
+    Select this option to allocate costs based on individual percentages per cost object.
   - **Formula**  
-  Select this option to allocate costs based on a formula.
+    Select this option to allocate costs based on a formula defined in the *Formula* field.
 
 
 - *Formula*  
-Double click the corresponding table cell to enter an Excel formula.
+  Double-click this field to activate it and enter an excel formula. The basic calculating operations (+, -, *, /) are permitted.
 
-[comment]: <> (Unsicher, wie die Formel funktioniert! Check! The basic calculating operations +, -, *, / are permitted. -> stimmt so?)
+[comment]: <> (Unsicher, wie die Formel funktioniert! Check! The basic calculating operations +, -, *, / are permitted. -> stimmt so? Ggf. Beispiel ergänzen. Formelaufbau ist unklar.)
 
 - [CLOSE]  
-Click this button to close the window.
+  Click this button to close the *Allocation table* window.
 
 - [PRINT]  
-Click this button to print the allocation table. The *Allocation table* window to select the month(s) and fiscal year to be printed is displayed, see [Print allocation table](#print-allocation-table).
+  Click this button to print the allocation table. The *Allocation table* window is displayed, see [Print allocation table](#print-allocation-table).
 
 - [SAVE]  
-Click this button to save the allocation table after making any changes. A pop-up window is displayed while the changes are being saved.
+  Click this button to save any changes made to the allocation table. The *Saving...* pop-up window is displayed.
+
+
+####  Select period
+
+*Accounting > Settings > Tab COST ACCOUNTING > Drop-down option Cost1 - Cost center > Button ALLOCATION TABLE > Button CHANGE PERIOD*
+
+![Select period](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CostAccounting/SelectPeriod.png "[Select period]")
+
+- ![Cancel](../../Assets/Icons/Cross03.png "[Cancel]") (Cancel)   
+  Click this button to cancel changing the period. All changes are rejected. The *Select period* window is closed.
+
+[comment]: <> (ggf. Cancel button anpassen)
+
+- *FY*    
+  Click the drop-down list to select the desired fiscal year. All available fiscal years are displayed in the list.
+
+- *Month*  
+  Click the drop-down list to select the desired month. All available months are displayed in the list.
+
+- [OK]  
+  Click this button to confirm the selected period. The *Select period* window is closed. The *Allocation table* window is displayed for the selected period.
+
+
+#### Print allocation table
+
+*Accounting > Settings > Tab COST ACCOUNTING > Drop-down option Cost1 - Cost center > Button ALLOCATION TABLE > Button PRINT*
+
+![Allocation table](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CostAccounting/AllocationTable02.png "[Allocation table]")
+
+- *Month from - to*   
+  Click the drop-down lists to select the desired month range. If you want to select only a single month, select the same month in both drop-down lists. The drop-down lists display all available months in the system. The following options are available:  
+  - **0 - Balances carried forward**
+  - **1 - 12 - (calendar month)**
+  - **13 - 15 - Subsequent postings**
+  - **16 - 25 - Closing postings**
+  - **99 - General month**
+
+
+- *Fiscal year*  
+  Click the drop-down list to select the desired fiscal year. All available fiscal years are displayed.
+
+- [CANCEL]  
+  Click this button to cancel the print process. The *Print allocation table* window is closed.
+
+- [PRINT]  
+  Click this button to print the allocation table according to the selected settings. A print preview is displayed in the window.
+
 
 
 ### Select address
-
-[comment]: <> (Fenster/Unterkapitel umbenennen zu Search debtor?)
 
 *Accounting > Settings > Tab COST ACCOUNTING > Drop-down option Cost2 - Cost object > Button SEARCH*
 
 ![Select address](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CostAccounting/SelectAddress.png "[Select address]")
 
-> [Info] The *Customer/supplier list* tab is also available in the *DEBTORS/CREDITORS* tab, see [Customer/supplier list](./02a_DebtorsCreditors.md#customer-supplier-list).
+For a detailed description of this window and the corresponding functions, see [Customer/supplier list](./02a_DebtorsCreditors.md#customer-supplier-list).
 
-- [EXCEL]  
-Click this button to display the *EXCEL* context menu. The following options are available:  
+[comment]: <> (Add Info in Debtors/creditors chapter with correct link: "This tab can also be accessed in the *Select address* window from the COST ACCOUNTING tab in the user interface.")
 
-  - *Export current page*  
-  Click this option to export the customer/supplier list page currently displayed. The customer/supplier list is exported in Excel format and saved by default in the *Downloads* folder in your computer.
-
-  - *Export all*  
-  Click this option to export all customer/supplier list pages. The customer/supplier list is exported in Excel format and saved by default in the *Downloads* folder in your computer.
-
-
-- [QUICK SEARCH]  
-Click this button to display the *QUICK SEARCH* context menu. All search criteria are selected by default through a marked checkbox. Deselect any search criteria as necessary. The following search criteria are available:
-
-  - *No.*  
-  - *Short name*
-  - *Company*  
-  - *Forename*
-  - *Surname*
-  - *Address*
-  - *Address 2*
-  - *ZIP*
-  - *Location*
-  - *Country*
-  - *Content*
-  - *Currency*
-  - *Comments*
-  - *Phone*
-  - *Phone 2*
-  - *Cell phone*
-  - *Fax*
-  - *Email*
-  - *VAT ID*
-  - *Type of customer*
-  - *Customer number*
-
-
-  [comment]: <> (in the system as No -> add point)
-  [comment]: <> (in the system: Firma -> localise)
-  [comment]: <> (in the system: First name)
-  [comment]: <> (in the system: Name)
-  [comment]: <> (in the system: City)  
-
-- [Search bar]  
-  Click the search bar to enter the search text (letters or numbers).
-
-- ![Delete](../../Assets/Icons/Cross02.png "[Delete]") (Delete)  
-  Click this button to delete the search text and to clear the search results.
-
-- ![Search](../../Assets/Icons/Search.png "[Search]") (Search)  
-  Click this button to start the search. The search can also be started by pressing ENTER.
-
-- (x) [ACTIVE FILTERS]  
-Click this button to display the context menu.
-
-  - *ACTIVE* (checkbox)  
-  Mark this checkbox to activate the search criteria.
-
-  - *FILTER BY*  
-  The following filter values are available:
-    - *Price group*  
-
-  - *FILTER CRITERION*  
-  Click the drop-down list to select the appropriate filter criterion. The created price groups are displayed.
-
-  > [Info] Price groups can be created in the *Settings* menu entry of the *Material management* and the *Order management* module. A customer can be assigned a specific price group in the *Order management* sub-tab of the *DEBTORS/CREDITORS* tab, see [Invoicing](./02a_DebtorsCreditors.md#invoicing-1).
-
-  [comment]: <> (Other "Filter by" options available depending on settings?)
-
-- [CANCEL]  
- Click this button to cancel your selection.
-
-- [APPLY]  
- Click this button to apply the search criteria and values.
-
-
-All customer/supplier details are displayed in a column view. Depending on the settings, the displayed columns may vary. To add or delete columns, click the ![Points](../../Assets/Icons/Points02.png "[Points]") (Points) icon to display the context menu. Then, hover the mouse over the ![Columns](../../Assets/Icons/Columns02.png "[Columns]") (Columns) menu entry to display all available options. Select or deselect the columns as desired.
-
-- *No.*  
-Customer/supplier number. Customer numbers range from 10000 to 69999 and supplier numbers, from 70000 to 99999.
-
-- *Short name*  
-Short name given to the customer/supplier.
-
-- *Company*  
-Company name.
-
-- *Forename*  
-Customer/supplier first name.
-
-- *Surname*  
-Customer/supplier last name.
-
-- *Address*  
-Customer/supplier address.
-
-- *Address 2*  
-Complimentary address information.
-
-- *ZIP*  
-Customer/supplier zip code.
-
-- *Location*   
-Customer/supplier city or town.
-
-- *Country*  
-Customer/supplier country.
-
-- *Content*  
-Files or links added to the customer/supplier information.  
-
-- *Currency*  
-Base currency used by customer/supplier.
-
-- *Comments*  
-Comments added on the customer/supplier information.
-
-- *Phone*  
-Customer/supplier contact phone number.
-
-- *Phone 2*  
-Customer/supplier second contact phone number.    
-
-- *Cell phone*  
-Customer/supplier cell phone number.
-
-- *Fax*  
-Customer/supplier fax number.
-
-- *Email*  
-Customer/supplier email address.
-
-- *VAT ID*  
-Customer/supplier VAT identification number, if applicable.
-
-- *Type of customer*  
-Type of customer/supplier as defined by the user.
-
-- *Customer number*  
-Reference customer/supplier number as defined by the user.
-
-
-By right-clicking on a row, a context menu is displayed containing the following options:
-
-- *Show documents of the customer/supplier*  
-Click this option to access the customer/supplier order Overview in the *Order management* module
-- *Show articles of supplier*  
-Click this option to access the supplier product list in the *Material management* module.
-
-[comment]: <> (Add link when available)
-
-
-- ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh)  
- Click this button to update the receipt list.
-
-- [RESET]  
- Click this button to reset the receipt list view.
 
 
 ### ProfitCenter  
@@ -450,56 +368,24 @@ Click this option to access the supplier product list in the *Material managemen
 
 **ProfitCenter**
 
-- (ProfitCenter drop-down list)  
-Click the drop-down list to edit an existing ProfitCenter. The ProfitCenter details are displayed in the *Selected ProfitCenter* section.
+- ProfitCenter  
+  Click the drop-down list to select a profit center. All available profit centers are displayed in the list. By default, the first profit center is preselected. The details to the selected profit center are displayed in the *Selected ProfitCenter* section and can be edited.
 
-- [NEW]  
-Click this button to add a ProfitCenter. The input fields in *Selected ProfitCenter* section are cleared.
+- [NEW...]  
+  Click this button to create a profit center. The input fields in *Selected ProfitCenter* section are cleared.
+
 
 **Selected ProfitCenter**
+
 - *Number/name*  
-Enter or modify the ProfitCenter number and/or name.
+  Enter or modify the profit center number in the first field. Only numbers greater than 0 are allowed. The number of digits is limited to 3.   
+  Enter or modify the profit center name in the second field.
 
 - *Description*  
-Enter or modify the ProfitCenter description.
+  Enter or modify a description to the profit center.
 
 - [DELETE]  
-Click this button to delete the selected ProfitCenter.
+  Click this button to delete the selected profit center.
 
 - [SAVE]  
-Click this button to save the newly created ProfitCenter or any other changes made.
-
-
-####  Select period
-
-*Accounting > Settings > Tab COST ACCOUNTING > Drop-down option Cost1 - Cost center > Button ALLOCATION TABLE > Button CHANGE PERIOD*
-
-![Select period](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CostAccounting/SelectPeriod.png "[Select period]")
-
-- *FY*    
-Click the drop-down list to select the desired fiscal year.
-
-- *Month*  
-Click the drop-down list to select the desired month.  
-
-- [OK]  
-Click this button to confirm the selected settings.
-
-
-#### Print allocation table
-
-*Accounting > Settings > Tab COST ACCOUNTING > Drop-down option Cost1 - Cost center > Button ALLOCATION TABLE > Button PRINT*
-
-![Allocation table](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CostAccounting/AllocationTable02.png "[Allocation table]")
-
-- *Month from - to*  
-Click the drop-down lists to select the desired month range.
-
-- *Fiscal year*  
-Click the drop-down list to select the desired fiscal year.
-
-- [CANCEL]  
-Click this button to cancel the process and close the window.
-
-- [PRINT]  
-Click this button to generate a file in a printable format. A table allocation preview is displayed in a new window.
+  Click this button to save the new profit center or any changes made.

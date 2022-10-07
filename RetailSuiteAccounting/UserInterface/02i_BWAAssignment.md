@@ -6,21 +6,37 @@
 
 **Accounting reports**
 
-- ![Copy](../../Assets/Icons/Copy01.png "[Copy]") (Copy) Button  
-Click this button to copy a predefined system report. The *Copy from predefined system report* window is displayed, see [Copy from predefined system report](#copy-from-predefined-system-report).
+- ![Copy](../../Assets/Icons/Copy01.png "[Copy]") (Copy)  
+  Click this button to copy a predefined system report. The *Copy from predefined system report* window is displayed, see [Copy from predefined system report](#copy-from-predefined-system-report).
 
-- ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh) Button  
-Click this button to refresh the *Accounting reports* view.
+- ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh)    
+  Click this button to update the list of accounting reports.
 
-- ![Columns](../../Assets/Icons/Columns.png "[Columns]") (Columns) Button  
-Click this button to display the column bar.
+- ![Columns](../../Assets/Icons/Columns.png "[Columns]") Columns (x)   
+  Click this button to display the columns bar and customize the displayed columns and the order of columns in the list. The *x* indicates the number of columns that are currently displayed in the list.
+
+
+- [x]     
+  Select the checkbox to display the editing toolbar.
+
+- ![Edit](../../Assets/Icons/Edit01.png "[Edit]") (Edit) Button  
+  Click this button to edit the selected accounting report. The *Edit "Report ID"* view is displayed, see [Edit "Report ID"](#edit-report-id).
+
+- ![Copy](../../Assets/Icons/Copy02.png "[Copy]") (Copy) Button  
+  Click this button to copy the selected accounting report. A copy of the selected accounting report is displayed in the list of accounting reports.
+
+- ![Delete](../../Assets/Icons/Trash03.png "[Delete]") (Delete) Button  
+  Click this button to delete the selected accounting report.    
+  For detailed information about deleting a BWA report, see [Delete a BWA report](../Integration/07_ManageBWAReports.md#delete-a-bwa-report).  
+
+The list displays all available accounting reports. Depending on the settings, the displayed columns may vary. All fields are read-only.
 
 - *Report number*  
-Accounting report number as predefined in the system. The report number cannot be edited.
+  Accounting report number.
+
 
 - *Report name*  
-Accounting report name. The report name can be edited. The following accounting reports are preconfigured in the system:
-
+  Accounting report name. The following accounting reports are predefined in the system:
   - *Profit and loss account*    
   - *Cash basis accounting*  
   - *Liquidity statement*  
@@ -28,21 +44,12 @@ Accounting report name. The report name can be edited. The following accounting 
   - *Monthly balance*  
 
 
-- (Checkbox)  
-Click the checkbox button to select an accounting report. The toolbar is displayed:
+- *ID*
+  Accounting report identification number. The ID number is automatically assigned by the system when the report is created.
 
-  - ![Edit](../../Assets/Icons/Edit01.png "[Edit]") (Edit) Button  
-Click this button to edit the selected accounting report. The *Edit* view is displayed, see [Edit BWA](#edit-bwa).
+- ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add)     
+Click this button to create an accounting report. The *Create* view is displayed, see [Create report](#create-report).
 
-  - ![Copy](../../Assets/Icons/Copy02.png "[Copy]") (Copy) Button  
-Click this button to copy the selected accounting report. A copy of the selected accounting report is displayed in the accounting reports list.
-
-  - ![Delete](../../Assets/Icons/Trash03.png "[Delete]") (Delete) Button  
-Click this button to delete the selected accounting report. For detailed information about deleting a BWA report, see [Delete a BWA report](../Integration/07_ManageBWAReports.md#delete-a-bwa-report).
-
-
-- ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) Button  
-Click this button to create an accounting report. The *Create* view is displayed, see [Create BWA](#create-bwa).
 
 
 ## Copy from predefined system report
@@ -52,8 +59,7 @@ Click this button to create an accounting report. The *Create* view is displayed
 ![Copy predefined system report](../../Assets/Screenshots/RetailSuiteAccounting/Settings/BWAAssignment/CopyPredefinedReport.png "[Copy predefined system report]")
 
 - *Report name*  
-Click the drop-down list to select the predefined system report to be copied. The following options are available:
-
+  Click the drop-down list to select the predefined system report to be copied. The following options are available:
   - **Profit and loss account**    
   - **Cash basis accounting**  
   - **Liquidity statement**  
@@ -62,172 +68,163 @@ Click the drop-down list to select the predefined system report to be copied. Th
 
 
 - [CANCEL]  
-Click this button to cancel the process. The window is closed.
+  Click this button to cancel the process. The *Copy from predefined system report* window is closed.
 
 - [COPY]  
-Click this button to copy the selected system report. A copy of the selected accounting report is displayed in the accounting reports list.  
+  Click this button to copy the selected system report. The *Copy from predefined system report* window is closed. A copy of the selected accounting report is displayed at the end of the accounting reports list.
 
 
-## Create BWA
+## Create report
+
+[comment]: <> (Header Namensänderung anpassen in TOC)
 
 *Accounting > Settings > Tab BWA ASSIGNMENT > Button Add*
 
 ![Create BWA report](../../Assets/Screenshots/RetailSuiteAccounting/Settings/BWAAssignment/CreateBWAReport.png "[Create BWA report]")
 
-- ![Back](../../Assets/Icons/Back02.png "[Back]") (Back) *Create*   
-Click this button to close the *Create* view and return to the *Accounting reports* view.
+- ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)     
+  Click this button to close the *Create* view and return to the accounting reports list. All changes are rejected.
 
 - *Report name*  
-Enter a report name.
+  Enter a report name.
 
 - [CANCEL]  
-Click this button to cancel the process. The *Create* view is closed and the *Accounting reports* view is displayed again.
+  Click this button to cancel the report creation. The *Create* view is closed and the accounting reports list is displayed again.
 
 - [SAVE]  
-Click this button to save the accounting report. The newly created accounting report is displayed in the accounting reports list. For detailed information about creating a BWA report, see [Create a BWA report](../Integration/07_ManageBWAReports.md#create-a-bwa-report).
+  Click this button to save the accounting report. The *Create* view is closed and the accounting reports list is displayed again. The new accounting report is displayed in the accounting reports list.   
+  For detailed information about creating a BWA report, see [Create a BWA report](../Integration/07_ManageBWAReports.md#create-a-bwa-report).
 
 
 
-## Edit BWA
+## Edit "Report ID"
+
+[comment]: <> (Header Namensänderung anpassen in TOC)
 
 *Accounting > Settings > Tab BWA ASSIGNMENT > Select accounting report*
 
 ![Edit BWA report](../../Assets/Screenshots/RetailSuiteAccounting/Settings/BWAAssignment/EditBWAReport.png "[Edit BWA report]")
 
-
-- ![Back](../../Assets/Icons/Back02.png "[Back]") (Back) *Edit*  
-Click this button to close the *Edit* view and return to the *Accounting reports* view.
-
-- *Report name*  
-Edit the report name if necessary.
+- ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)    
+  Click this button to close the *Edit "Report ID"* view and return to the accounting reports list. All changes are rejected.
 
 - [CANCEL]  
-Click this button to cancel the process. The *Edit* view is closed and the *Accounting reports* view is displayed again.
+  Click this button to cancel editing the report. The *Edit "Report ID"* view is closed and the accounting reports list is displayed again.
 
 - [SAVE]  
-Click this button to save the changes made in the accounting report. For detailed information about editing a BWA report, see [Edit a BWA report](../Integration/07_ManageBWAReports.md#edit-a-bwa-report).
+  Click this button to save any changes made to the accounting report.   
+  For detailed information about editing a BWA report, see [Edit a BWA report](../Integration/07_ManageBWAReports.md#edit-a-bwa-report).
+
+- *Report name*  
+  Click this field to edit the report name.
 
 
 **Accounting report lines**
 
-- **Newly created report**
+- ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh)   
+  Click this button to update the list of accounting report lines.
 
-  ![Add report lines](../../Assets/Screenshots/RetailSuiteAccounting/Settings/BWAAssignment/AddReportLines.png "[Add report lines]")
-
-  > [Info] If the accounting report has been newly created, that means, it is not a copy of a predefined BWA report, the *Accounting report lines* section is empty. The notice *No report lines created. Use + button to create one* is displayed. Click the ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) button to add accounting report lines. The *Create* section is displayed, see [Create report lines](#create-report-lines).
-
-
-- **Report copied from a predefined system report**
-
-  ![Edit report lines](../../Assets/Screenshots/RetailSuiteAccounting/Settings/BWAAssignment/EditBWAReport.png "[Edit report lines]")
-
-  ![Edit report layout](../../Assets/Screenshots/RetailSuiteAccounting/Settings/BWAAssignment/EditBWAReportLayout.png "[Edit report layout]")
-
-  > [Info] If the accounting report is a copy of a predefined system report, the *Accounting report lines* section contains a number of lines. These lines can be edited or deleted. The report layout, that is, the columns to be displayed and their arrangement, can also be customized.
-
-[comment]: <> (Beide Screenshots? Nur oberes? Beide Bilder in einem/zusammen? -> Snagit crash course!)
-
-  - ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh) Button  
-  Click this button to refresh the *Accounting report lines* view.
-
-  - ![Columns](../../Assets/Icons/Columns.png "[Columns]") (Columns) Button  
-  Click this button to display the column bar.
-
-  - (Checkbox)  
-  Click this button to select an accounting report line. The toolbar is displayed:
-
-    - ![Edit](../../Assets/Icons/Edit01.png "[Edit]") (Edit) Button  
-  Click this button to edit the selected accounting report line. The *Edit* view is displayed, see [Edit report lines](edit-report-lines).
-
-    - ![Delete](../../Assets/Icons/Trash03.png "[Delete]") (Delete) Button  
-  Click this button to delete the selected accounting report line.
+- ![Columns](../../Assets/Icons/Columns.png "[Columns]") Columns (x)   
+  Click this button to display the columns bar and customize the displayed columns and the order of columns in the list. The *x* indicates the number of columns that are currently displayed in the list.
 
 
+- [x]     
+  Select the checkbox to display the editing toolbar.
 
-  The accounting report lines are displayed in column view. These fields are read-only. Select a checkbox to the left of an accounting report line and click the ![Edit](../../Assets/Icons/Edit01.png "[Edit]") (Edit) button to edit it. Alternatively, click a report line to display the *Edit* view, see [Edit report lines](#edit-report-lines).
+- ![Edit](../../Assets/Icons/Edit01.png "[Edit]") (Edit) Button  
+  Click this button to edit the selected accounting report line. Alternatively, you can click directly a row in the list of accounting report lines. The *Edit "Report line ID"* view is displayed, see [Edit "Report line ID"](#edit-report-line-id).
 
-  - *Line number*  
-    Line number as predefined in the system report.
+- ![Delete](../../Assets/Icons/Trash03.png "[Delete]") (Delete) Button  
+  Click this button to delete the selected accounting report line.    
+  For detailed information about deleting a BWA report, see [Delete a BWA report](../Integration/07_ManageBWAReports.md#delete-a-bwa-report).  
 
-  - *Text*  
-    Report line description.
+The list displays all available accounting report lines of the selected report. Depending on the settings, the displayed columns may vary. All fields are read-only.   
+If no report line has been yet added, the notice *No report lines created. Use + button to create one* is displayed.
 
-  - *Chart type*  
+
+- *Line number*  
+  Line number.
+
+- *Text*  
+  Report line description.
+
+
+- *Chart type*  
   Chart type predefined for the line. The following options are available:  
-
-    - **Normal**
-    - **Sum**
-    - **Don't show**
+  - **Normal**
+  - **Sum**
+  - **Don't show**
 
 [comment]: <> (Info fehlt! Alle/Fast alle Zeilen in bestehenden Berichten sind Normal. Was passiert mit Sum und Don't show? Rücksprache mit FH)
 
-  - *Print*  
-  Value predefined for the line in the output file. The following options are available:  
 
-    - **Yes**  
+- *Print*  
+  Value predefined for the line in the output file. The following options are available:  
+  - **Yes**  
     This line is to be printed.  
-    - **No**  
+  - **No**  
     This line is not to be printed.   
-    - **Space**  
+  - **Space**  
     This line is a blank line between two lines.
-    - **New page**  
+  - **New page**  
     This line inserts a page break.
 
 
-  - *Function*  
+- *Function*  
   Function predefined for the line. The following options are available:  
-
-    - **Text only**  
+  - **Text only**  
     Text only entered.  
-    - **Calculation**  
-    Calculation formula entered. When selecting this option, the *Formula* field becomes active.  
-    - **Assessment**  
+  - **Calculation**  
+    Calculation formula entered.  
+  - **Assessment**  
 
 [comment]: <> (Info fehlt! Rücksprache mit FH)
 
-  - *ID*  
-  Report line identification number. This value is automatically defined by the system.
+- *ID*  
+  Report line identification number. The ID number is automatically assigned by the system when the report line is created.
 
 
-  - ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) Button  
-  Click this button to create an accounting report line. The *Create* view is displayed, see [Create report lines](#create-report-lines).
+- ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) Button  
+  Click this button to create an accounting report line. The *Create* view is displayed, see [Create report lines](#create-report-line).
 
 
 
-## Create report lines
+## Create report line
+
+[comment]: <> (Header Namensänderung anpassen in TOC)
 
 *Accounting > Settings > Tab BWA ASSIGNMENT > Select accounting report > Button Add*
 
 ![Create report lines](../../Assets/Screenshots/RetailSuiteAccounting/Settings/BWAAssignment/CreateReportLines.png "[Create report lines]")
 
+- ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)    
+  Click this button to close the *Create* view and return to the list of accounting report lines. All changes are rejected.
 
-**Create**
+- [CANCEL]  
+  Click this button to cancel the report line creation. The *Create* view is closed and the list of accounting report lines is displayed again.
 
-- ![Back](../../Assets/Icons/Back02.png "[Back]") (Back) *Create*   
-Click this button to close the *Create* view and return to the *Accounting report lines* view.
-
+- [SAVE]  
+  Click this button to save any changes made to the accounting report line.   
 
 - *Line number*  
-Enter the line number or use the arrows to increase or decrease the line number. If a line number entered is already in use, an error message is displayed.
+  Enter the line number or use the arrows to increase or decrease the line number. If a line number entered is already in use, an error message will be displayed when saving. This field is mandatory.
+
 
 - *Output*  
-Click the drop-down list to select the desired output for the current line. The following options are available:  
-
+  Click the drop-down list to select the desired output for the current line. This drop-down list is mandatory. The following options are available:  
   - **No**  
-  Select this option to exclude the content in the current line from the output file.
+    Select this option to exclude the content of the current line from the output file.
   - **Yes**  
-  Select this option to include the content in the current line in the output file.
+    Select this option to include the content of the current line in the output file.
   - **Space**  
-  Select this option to include an blank line in the output file.
+    Select this option to include a blank line in the output file.
   - **New page**  
-  Select this option to start a new page from the current line in the output file.
+    Select this option to start a new page in the output file.
 
 [comment]: <> (Output heißt Print im Bericht/Report. Etwas verwirrend.)
 
-
 - *Chart type*  
-Click the drop-down list to select the desired chart type for the current line. The following options are available:  
-
+  Click the drop-down list to select the desired chart type for the current line. This drop-down list is mandatory. The following options are available:  
   - **Normal**
   - **Sum**
   - **Don't show**
@@ -235,74 +232,74 @@ Click the drop-down list to select the desired chart type for the current line. 
 [comment]: <> (Besser "Do not display"? Wie unterscheiden sich die drei Optionen?)
 
 - *Text*  
-Enter a description for the current line.
+  Enter a description to the current line.
 
 - *Function*  
-Click the drop-down list to select the desired function for the current line. The following options are available:  
-
+  Click the drop-down list to select the desired function for the current line. The following options are available:  
   - **Text only**  
-  Select this option to enter text only.
+    Select this option to enter text only.
   - **Calculation**  
-  Select this option to enter a calculation formula. When selecting this option, the *Formula* field becomes active.
+    Select this option to enter a calculation formula. When selecting this option, the *Formula* field becomes active.
   - **Assessment**  
 
 [comment]: <> (Was ist mit Assessment gemeint? Was ist die Funktion? Auf DE: Umlagen -> Quelle: alte Doku-Webseite. EN = Levies/charges?)
 
 
 - *Formula*  
-Enter the applicable formula. This field becomes active when selecting **Calculation** in the *Function* field. The basic calculating operations (+, -, *, /) are permitted.
+  Enter the applicable formula. This field is only unlocked when the **Calculation** option in the *Function* drop-down list is selected. The basic calculating operations (+, -, *, /) are permitted.
 
-- *Percent / Columns*
 
-  - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") (Toggle) Button  
-  Enable this toggle to apply a specific formula in a column. Up to 4 percent/columns can be added per line.
+**Percent / Columns**
 
-  - *Formula*  
-  Enter the applicable formula for the percentage calculation in the selected column. The basic calculating operations (+, -, *, /) are permitted.
+- ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") x  
+  Enable this toggle to apply a specific formula in a column. The *x* indicates the number of the column. For each line, the column *1*,*2*, *3* and/or *4* can be enabled. The corresponding formula must be defined in the *Formula* field on the right. Disable the toggle to not apply the formula.
+
+- *Formula*  
+  Enter the applicable formula for the percentage calculation of the corresponding column. The basic calculating operations (+, -, *, /) are permitted.
+
 
 [comment]: <> (Alte-Doku-Webseite: Für jede BWA können Sie max. 4 Prozent-Spalten einfügen. Der Prozentsatz bezieht sich auf den Gesamtumsatz. Wählen Sie eine Spalte an und klicken Sie auf Formel, um die Formel einzugeben. Stimmt? Wie funktioniert es?)
 
 [comment]: <> (Weitere Information benötigt! Sind die Formel-Funktionen aus alter Doku-Seite aktuell und ok zu verwenden?)
 
 
-- [CANCEL]  
-Click this button to cancel the process. The *Create* view is closed. The *Accounting report lines* view is displayed again.
+## Edit "Report line ID"
 
-- [SAVE]  
-Click this button to save the created report lines. The newly created accounting report lines are displayed in the *Accounting report lines* view.
-
-
-## Edit report lines
+[comment]: <> (Header Namensänderung anpassen in TOC)
 
 *Accounting > Settings > Tab BWA ASSIGNMENT > Select accounting report > Select accounting report line > Button Edit*
 
 ![Edit report lines](../../Assets/Screenshots/RetailSuiteAccounting/Settings/BWAAssignment/EditReportLines.png "[Edit report lines]")
 
+- ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)    
+  Click this button to close the *Edit "Report line ID"* view and return to the list of accounting report lines. All changes are rejected.
 
-**Edit**
+- [CANCEL]  
+  Click this button to cancel editing the report line. The *Edit "Report line ID"* view is closed and the list of accounting report lines is displayed again.
 
-- ![Back](../../Assets/Icons/Back02.png "[Back]") (Back) *Edit*   
-Click this button to close the *Edit* view and return to the *Accounting report lines* view.
+- [SAVE]  
+  Click this button to save any changes made to the accounting report line.   
+
+
 
 - *Line number*  
-Enter a different line number or use the arrows to increase or decrease the line number. If the line number entered is already in use, an error message is displayed.
+  Click the field to edit the line number or use the arrows to increase or decrease the line number. If a line number entered is already in use, an error message will be displayed when saving. This field is mandatory.
+
 
 - *Output*  
-Click the drop-down list to select the desired output for the current line. The following options are available:  
-
+  Click the drop-down list to select the desired output for the current line. This drop-down list is mandatory. The following options are available:  
   - **No**  
-  Select this option to exclude the content in the current line from the output file.
+    Select this option to exclude the content of the current line from the output file.
   - **Yes**  
-  Select this option to include the content in the current line in the output file.
+    Select this option to include the content of the current line in the output file.
   - **Space**  
-  Select this option to include an blank line in the output file.
+    Select this option to include a blank line in the output file.
   - **New page**  
-  Select this option to start a new page from the current line in the output file.
+    Select this option to start a new page in the output file.
 
 
 - *Chart type*  
-Click the drop-down list to select the desired chart type for the current line. The following options are available:  
-
+  Click the drop-down list to select the desired chart type for the current line. This drop-down list is mandatory. The following options are available:  
   - **Normal**
   - **Sum**
   - **Don't show**
@@ -310,38 +307,33 @@ Click the drop-down list to select the desired chart type for the current line. 
 [comment]: <> (Besser "Do not display"? Wie unterscheiden sich die drei Optionen?)
 
 - *Text*  
-Enter a different description for the current line, if necessary.
+  Click this field to edit the description to the current line.
+
 
 - *Function*  
-Click the drop-down list to select the desired function for the current line. The following options are available:  
-
+  Click the drop-down list to select the desired function for the current line. The following options are available:  
   - **Text only**  
-  Select this option to enter text only.
+    Select this option to enter text only.
   - **Calculation**  
-  Select this option to enter a calculation formula. When selecting this option, the *Formula* field becomes active.
-  - **Assessment**  
+    Select this option to enter a calculation formula. When selecting this option, the *Formula* field becomes active.
+  - **Assessment**    
 
 [comment]: <> (Was ist mit Assessment gemeint? Was ist die Funktion? Auf DE: Umlagen -> Quelle: alte Doku-Webseite. EN = Levies/charges?)
 
 
 - *Formula*  
-Modify the applicable formula, if necessary. This field becomes active when selecting **Calculation** in the *Function* field. The basic calculating operations (+,-,*,/) are permitted.
+  Click this field to edit the applicable formula. This field is only unlocked when the **Calculation** option in the *Function* drop-down list is selected. The basic calculating operations (+, -, *, /) are permitted.
 
-- *Percent / Columns*
+**Percent / Columns**
 
-  - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") (Toggle) Button  
-  Activate or deactivate this toggle as necessary to apply or not a specific formula in a column. Up to 4 percent/columns can be added per line.
 
-  - *Formula*  
-  Modify the applicable formula for the percentage calculation in the selected column. The basic calculating operations (+,-,*,/) are permitted.
+- ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") x  
+  Enable this toggle to apply a specific formula in a column. The *x* indicates the number of the column. For each line, the column *1*,*2*, *3* and/or *4* can be enabled. The corresponding formula must be defined in the *Formula* field on the right. Disable the toggle to not apply the formula.
+
+- *Formula*  
+  Click this field to edit the applicable formula for the percentage calculation of the corresponding column. The basic calculating operations (+, -, *, /) are permitted.
+
 
 [comment]: <> (Alte-Doku-Webseite: Für jede BWA können Sie max. 4 Prozent-Spalten einfügen. Der Prozentsatz bezieht sich auf den Gesamtumsatz. Wählen Sie eine Spalte an und klicken Sie auf Formel, um die Formel einzugeben. Stimmt? Wie funktioniert es?)
 
 [comment]: <> (Weitere Information benötigt! Sind die Formel-Funktionen aus alter Doku-Seite aktuell und ok zu verwenden?)
-
-
-- [CANCEL]  
-Click this button to cancel the process. The *Edit* view is closed. The *Accounting report lines* view is displayed again.
-
-- [SAVE]  
-Click this button to save any changes made. The edited accounting report lines are displayed in the *Accounting report lines* view.
