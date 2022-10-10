@@ -1,10 +1,10 @@
 # Settings
 
-*Accounting Settings*
+*Accounting > Settings*
 
-The Accounting menu entry Settings is used to manage the Accounting settings.
+The Accounting *Settings* menu entry is used to manage the accounting settings.
 
-The Settings User Interface is composed of the following tabs:
+The *Settings* User Interface is composed of the following tabs:
 
 - [DEBTORS/CREDITORS](./02a_DebtorsCreditors.md)
 - [ACCOUNTS](./02b_Accounts.md)

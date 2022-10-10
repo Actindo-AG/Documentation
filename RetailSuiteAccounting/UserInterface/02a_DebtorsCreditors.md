@@ -4,18 +4,16 @@
 
 ![Customer/Supplier](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/CustomerSupplierList.png "[Customer/supplier]")
 
-The *Debtors/creditors* tab displays a customer/supplier list and allows to create, edit and delete customers (debtors) and suppliers (creditors). For detailed information about managing customers and suppliers, see [Manage the customer/supplier](../Integration/05_ManageCustomerSupplier.md).
+The *DEBTORS/CREDITORS* tab displays a customer/supplier list and allows to create, edit and delete customers (debtors) and suppliers (creditors). For detailed information about managing customers and suppliers, see [Manage the customer/supplier](../Integration/05_ManageCustomerSupplier.md).
 
-This tab and all corresponding sub-tabs are also contained in the *Order management* module.
-
-The *Debtors/creditors* tab contains in turn two tabs:
+The *DEBTORS/CREDITORS* tab contains in turn two tabs:
 
   - Customer/supplier list, see [Customer/supplier list](#customersupplier-list).
   - Create customer/supplier, see [Create customer/supplier](#create-customersupplier). When selecting a customer/supplier from the customer/supplier list, the tab name changes to *Customer/supplier (number)*, see [Customer/supplier (number)](#customersupplier-number).
 
+The identical customer/supplier list is available in the *Order management* module: *Order management > Customers/suppliers*. The list is synchronized between the two modules so that the same data can be accessed.
 
 [comment]: <> (Es heißt eingelicht immer "Kunde xxxxx", egal ob Kunde oder Lieferant. Kommentar in Bug-Datei hinzugefügt)
-
 
 
 ## Customer/supplier list
@@ -25,17 +23,18 @@ The *Debtors/creditors* tab contains in turn two tabs:
 ![Customer/Supplier list](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/CustomerSupplierList.png "[Customer/supplier list]")
 
 - [EXCEL]  
-Click this button to display the *EXCEL* context menu. The following options are available:  
+  Click this button to display the *EXCEL* context menu. The following options are available:  
 
   - *Export current page*  
-  Click this option to export the customer/supplier list page currently displayed. The customer/supplier list is exported in Excel format and saved by default in the *Downloads* folder in your computer.
+    Click this option to export the customer/supplier list page currently displayed. The customer/supplier list is exported in Excel format and saved by default in the *Downloads* folder in your computer.
 
   - *Export all*  
-  Click this option to export all customer/supplier list pages. The customer/supplier list is exported in Excel format and saved by default in the *Downloads* folder in your computer.
+    Click this option to export all customer/supplier list pages. The customer/supplier list is exported in Excel format and saved by default in the *Downloads* folder in your computer.
 
+[comment]: <> (HG: Wo soll diese Option sein?)
 
 - [QUICK SEARCH]  
-Click this button to display the *QUICK SEARCH* context menu. All search criteria are selected by default through a marked checkbox. Deselect any search criteria as necessary. The following search criteria are available:
+  Click this button to display the *QUICK SEARCH* filter list. By default, all search criteria checkboxes are selected. Deselect a search criterion to exclude it from the search. The following search criteria are available:
 
   - *No.*  
   - *Short name*
@@ -45,140 +44,148 @@ Click this button to display the *QUICK SEARCH* context menu. All search criteri
   - *Address*
   - *Address 2*
   - *Zip*
-  - *Location*
+  - *City*
   - *Country*
   - *Content*
   - *Currency*
   - *Comments*
   - *Phone*
   - *Phone 2*
-  - *Cell phone*
+  - *Mobile phone*
   - *Fax*
   - *Email*
   - *VAT ID*
   - *Type of customer*
   - *Customer number*
 
+[comment]: <> (HG: Mobile vs. Cell -> UK/US?)
 
-  [comment]: <> (in the system as No -> add point)
-  [comment]: <> (in the system: Firma -> localise)
-  [comment]: <> (in the system: First name)
-  [comment]: <> (in the system: Name)
-  [comment]: <> (in the system: City)  
+[comment]: <> (in the system as No -> add point)
+[comment]: <> (in the system: Firma -> localise)
+[comment]: <> (in the system: First name)
+[comment]: <> (in the system: Name)
 
 - [Search bar]  
-  Click the search bar to enter the search text (letters or numbers).
+  Enter the search text (letters or numbers). The criteria selected in the *QUICK SEARCH* filter list are applied to the search.
 
-- ![Delete](../../Assets/Icons/Cross02.png "[Delete]") (Delete)  
-  Click this button to delete the search text and to clear the search results.
+- ![Cross](../../Assets/Icons/Cross02.png "[Cross]") (Cross)  
+   Click this button to clear the search bar.
 
 - ![Search](../../Assets/Icons/Search.png "[Search]") (Search)  
-  Click this button to start the search. The search can also be started by pressing ENTER.
+   Click this button to start the search. Alternatively, you can press the **ENTER** key.
 
-- (x) [ACTIVE FILTERS]  
-Click this button to display the context menu.
+- [ACTIVE FILTERS]  
+  Click this button to display the filter menu.
 
-  - *ACTIVE* (checkbox)  
-  Click this checkbox to activate the search criteria.
+  - [x] *ACTIVE*  
+    Select the checkbox to activate the corresponding search criteria.
 
   - *FILTER BY*  
-  The following filter values are available:
-    - *Price group*  
+    The following filter values are available:
+    - *Price group*   
+      Click the drop-down list to select the applicable filter criterion. All available price groups are displayed in the list.
+
+      > [Info] Price groups can be created in the *Settings* menu entry of the *Material management* and the *Order management* modules. A customer can be assigned to a specific price group in the *Invoicing* sub-tab of the *DEBTORS/CREDITORS* tab, see [Invoicing](#invoicing-1).
+
+[comment]: <> (Check invoicing-1 und ähnliche)
 
   - *FILTER CRITERION*  
-  Click the drop-down list to select the appropriate filter criterion. The created price groups are displayed.
+    Click the drop-down list to select the appropriate option for the corresponding filter criterion.
 
-  > [Info] Price groups can be created in the *Settings* menu entry of the *Material management* and the *Order management* modules. A customer can be assigned a specific price group in the *Invoicing* sub-tab of the *DEBTORS/CREDITORS* tab, see [Invoicing](#invoicing-1).
+  - [CANCEL]  
+    Click this button to cancel the filter selection. The filter menu is closed.
 
-
-- [CANCEL]  
- Click this button to cancel your selection.
-
-- [APPLY]  
- Click this button to apply the search criteria and values.
+ - [APPLY]  
+  Click this button to apply the filter criteria. The filter menu is closed.
 
 
-All customer/supplier details are displayed in a column view. Depending on the settings, the displayed columns may vary. To add or delete columns, click the ![Points](../../Assets/Icons/Points02.png "[Points]") (Points) icon to display the context menu. Then, hover the mouse over the ![Columns](../../Assets/Icons/Columns02.png "[Columns]") (Columns) menu entry to display all available options. Select or deselect the columns as desired.
+The list displays all customer/supplier details. Depending on the settings, the displayed columns may vary. All fields are read-only.
+
+> [Info] To add or delete columns, click the ![Points](../../Assets/Icons/Points02.png "[Points]") (Points) button to display the context menu. Then, hover the mouse over the ![Columns](../../Assets/Icons/Columns02.png "[Columns]") (Columns) menu entry to display all available options. Select or deselect the columns as desired.
 
 - *No.*  
-Customer/supplier number. Customer numbers range from 10000 to 69999 and supplier numbers, from 70000 to 99999.
+  Customer/supplier number. Customer numbers range from 10000 to 69999 and supplier numbers, from 70000 to 99999.
 
 - *Short name*  
-Short name given to the customer/supplier.
+  Short name given to the customer/supplier.
 
 - *Company*  
-Company name.
+  Company name.
 
 - *Forename*  
-Customer/supplier first name.
+  Customer/supplier first name.
 
 - *Surname*  
-Customer/supplier last name.
+  Customer/supplier last name.
 
 - *Address*  
-Customer/supplier address.
+  Customer/supplier address.
 
 - *Address 2*  
-Complimentary address information.
+  Complimentary address information.
 
 - *Zip*  
-Customer/supplier zip code.
+  Customer/supplier zip code.
 
-- *Location*   
-Customer/supplier city or town.
+- *City*   
+  Customer/supplier city or town.
 
 - *Country*  
-Customer/supplier country.
+  Customer/supplier country.
 
 - *Content*  
-Files or links added to the customer/supplier information.  
+  Number of files and/or links added to the customer/supplier information.  A document icon is displayed indicating the number of attached files and/or links.  
 
 - *Currency*  
-Base currency used by customer/supplier.
+  Base currency used by customer/supplier.
 
 - *Comments*  
-Comments added on the customer/supplier information.
+  Indication of whether comments have been added to the customer/supplier information. If comments exist, a blue info icon is displayed.
 
 - *Phone*  
-Customer/supplier contact phone number.
+  Customer/supplier contact phone number.
 
 - *Phone 2*  
-Customer/supplier second contact phone number.    
+  Customer/supplier second contact phone number.    
 
-- *Cell phone*  
-Customer/supplier cell phone number.
+- *Mobile phone*  
+  Customer/supplier mobile phone number.
 
 - *Fax*  
-Customer/supplier fax number.
+  Customer/supplier fax number.
 
 - *Email*  
-Customer/supplier email address.
+  Customer/supplier email address.
 
 - *VAT ID*  
-Customer/supplier VAT identification number, if applicable.
+  Customer/supplier VAT identification number, if applicable.
 
 - *Type of customer*  
-Type of customer/supplier as defined by the user.
+  Type of customer/supplier as defined by the user.
 
 - *Customer number*  
-Reference customer/supplier number as defined by the user.
+  Reference customer/supplier number as defined by the user.
 
 
-By right-clicking on a row, a context menu is displayed containing the following options:
+### Customer/supplier context menu
+*Accounting > Settings > Tab DEBTORS/CREDITORS > Tab Customer/supplier list > Right-click on customer/supplier*
 
-  - *Show documents of the customer/supplier*  
-  Click this option to access the customer/supplier order Overview in the *Order management* module
-  - *Show articles of supplier*  
-  Click this option to access the supplier product list in the *Material management* module.
+![Customer/supplier context menu](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/CustomerSupplierContextMenu.png "[Customer/supplier context menu]")
 
-  [comment]: <> (Add link when available)
+- *Show documents of the customer/supplier*  
+  Click this option to access all orders of the customer/supplier in the *Order management* module. The *OVERVIEW* tab is displayed: *Order management > Overview > Tab OVERVIEW*.
+
+- *Show articles of supplier*  
+  Click this option to access the supplier product list in the *Material management* module. The *ARTICLE* tab is displayed: *Material management > Article > Tab ARTICLE*.
+
+[comment]: <> (rename when material management is updated)
 
 
 - ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh)  
- Click this button to update the receipt list.
+  Click this button to update the receipt list.
 
 - [RESET]  
- Click this button to reset the receipt list view.
+  Click this button to reset the receipt list view.
 
 
 ## Create customer/supplier
@@ -187,17 +194,16 @@ By right-clicking on a row, a context menu is displayed containing the following
 
 ![Create a customer/supplier](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/CreateCustomerSupplier.png "[Create a customer/supplier]")
 
-The *Create customer/supplier* tab contains in turn several sub-tabs to organize customer/supplier details:
+The *Create customer/supplier* tab contains the following sub-tabs to organize customer/supplier details:
+- *Address/contact*, see [Address/contact](#addresscontact)
+- *Delivery addresses*, see [Delivery addresses](#delivery-addresses)
+- *Invoicing*, see [Invoicing](#invoicing)
+- *Additional fields*, see [Additional fields](#additional-fields)
+- *Drop shipping*, see [Drop shipping](#drop-shipping)
+- *CRM information*, see [CRM information](#crm-information)
+- *Notes*, see [Notes](#notes)
 
-- *Address/contact*
-- *Delivery addresses*
-- *Invoicing*
-- *Additional fields*
-- *Drop shipping*
-- *CRM information*
-- *Notes*
-
-[comments]: <> (Billing statt Invoicing im System)
+[comments]: <> (HG: Link zu Abschnitten so??? Problem: Tabs sind zweimal da...)
 
 
 ### Address/contact
@@ -212,20 +218,22 @@ The *Create customer/supplier* tab contains in turn several sub-tabs to organize
 [comment]: <> (im System Address data)
 
 - *Create debtor/creditor*  
-Click the drop-down list to select the appropriate option, **Debtor (customer)** or **Creditor (supplier)**.
+  Click the drop-down list to select the appropriate option. The following options are available:
+  - **Debtor (customer)**
+  - **Creditor (supplier)**
 
 [comment]: <> (im System: Customer customer / Vendor supplier)
 
 - *Debtor/creditor no.*  
-Enter a customer/supplier number or leave it empty for the next available number.  
+  Enter a customer/supplier number or leave this field empty. The system adds the next available number automatically. Customer numbers range from 10000 to 69999 and supplier numbers, from 70000 to 99999.  
 
-  > [Info] A valid range for personal account numbers (10000-69999 for customers and 70000-99999 for suppliers) is predefined in the system. If a number is entered out of this range, a warning message is displayed.
+  > [Info] If a number is entered out of the valid range for personal numbers (10000-69999 for customers and 70000-99999 for suppliers), a warning message is displayed.
 
 - *Short name*  
-Enter a short name for the customer/supplier. This field is mandatory.
+  Enter a short name for the customer/supplier. This field is mandatory.
 
 - *Form of address*  
-Click the drop-down list to select the appropriate form of address. The following options are available:  
+  Click the drop-down list to select the appropriate form of address. The following options are available:  
 
     - **Company**
     - **Mr**
@@ -235,41 +243,42 @@ Click the drop-down list to select the appropriate form of address. The followin
     - **Prof.**
     - **None**
 
+[comment]: <> (Form of address vs. Title -> Both seem to be valid, see m-w.com)
 
 - *Letter salutation*  
-Enter the appropriate letter salutation.
+  Enter the appropriate letter salutation.
 
 - *Company*  
-Enter the company name.
+  Enter the company name.
 
 - *Surname*  
-Enter the customer/supplier last name.  
+  Enter the customer/supplier last name.  
 
   > [Info] To create a customer/supplier, either a company or a customer/supplier name must be entered.
 
 - *Forename*  
-Enter the customer/supplier first name.
+  Enter the customer/supplier first name.
 
 - *Address*  
-Enter the customer/supplier address.
+  Enter the customer/supplier address.
 
 - *Address supplement*  
-Enter any other necessary address information.  
+  Enter any other necessary address information.  
 
 [comment]: <> (im System Address suffix)
 
 - *Zip code*  
-Enter the customer/supplier zip code.  
+  Enter the customer/supplier zip code.  
 
 [comment]: <> (im System Postal code)
 
-- *Location*  
-Enter the customer/supplier location.  
+- *City*  
+  Enter the customer/supplier city or town.  
 
 [comment]: <> (im System Ort)
 
 - *Country*  
-Click the drop-down list to select the applicable country.  
+  Click the drop-down list to select the applicable country.  
 
 [comment]: <> (Drop-down liste im System auf DE, Sortierung aber auf EN o.ä.)
 
@@ -277,38 +286,38 @@ Click the drop-down list to select the applicable country.
 **Contact**
 
 - *Phone*  
-Enter a contact phone number.
+  Enter a contact phone number.
 
 - *Phone 2*  
-Enter a second contact phone number, if necessary.
+  Enter a second contact phone number.
 
-- *Cell phone*  
-Enter a cell phone number.
+- *Mobile phone*  
+  Enter a mobile phone number.
 
 - *Fax*  
-Enter a fax number, if necessary.
+  Enter a fax number.
 
 - *Email*  
-Enter an email address.
+  Enter an email address.
 
 - *URL*  
-Enter the customer/supplier website, if available.
+  Enter the customer/supplier URL.
 
 
 **Further**
 
 - *Language*  
-Click the drop-down list to select the appropriate language or select **No linguistic content**.
+  Click the drop-down list to select the appropriate language. All available languages are displayed in the list. If you want no language to be selected, select the **No linguistic content** option.
 
 [comment]: <> (Drop-down liste im auf DE/EN gemischt)
 
 - *Currency*  
-Click the drop-down list to select the applicable currency.
+  Click the drop-down list to select the applicable currency. All available currencies are displayed in the list.
 
 - [SAVE]  
-Click this button to save the newly entered customer/supplier details.
+  Click this button to save the new customer/supplier details.
 
-  > [Info] It is not possible to enter any further information in the other sub-tabs before saving the details entered in the *Address/contact* sub-tab. When clicking the other sub-tabs, a window with a warning message is displayed. Click [OK] to confirm the window and save the newly added customer/supplier. After saving the new customer/supplier address and contact details, the *Delivery addresses*, *Additional fields* and *Drop shipping* sub-tabs display a warning message and can only be used to add data after selecting the newly created customer/supplier in the *Customer/Supplier list* tab.
+  > [Info] It is not possible to enter any further information in the other sub-tabs before saving the details entered in the *Address/contact* sub-tab. When clicking the other sub-tabs, a window with the prompt to save is displayed. Click the [OK] button to save the new customer/supplier. Even after saving, the *Delivery addresses*, *Additional fields* and *Drop shipping* sub-tabs display a notice and cannot be accessed. To access these sub-tabs to add data, select the corresponding customer/supplier in the *Customer/Supplier list* tab.
 
 
 ### Delivery addresses
@@ -317,11 +326,14 @@ Click this button to save the newly entered customer/supplier details.
 
 ![Delivery addresses](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/DeliveryAddresses.png "[Delivery addresses]")
 
-The *Delivery address* sub-tab cannot be edited here. The warning message *Please save customer/supplier first* is displayed.
+The *Delivery address* sub-tab cannot be edited here. The notice *Please save customer/supplier first* is displayed.
 
 To add further delivery addresses, see [Further addresses](#further-addresses).
 
 [comment]: <> (Bug/question added to Bug Notes document)
+
+- [SAVE]  
+  No data can be saved at this point in this sub-tab. To access this sub-tab to add data, select the corresponding customer/supplier in the *Customer/Supplier list* tab.
 
 
 ### Invoicing
@@ -333,73 +345,74 @@ To add further delivery addresses, see [Further addresses](#further-addresses).
 **Bank details**
 
 - *Account holder*  
-Enter the account holder name.
+  Enter the account holder name.
 
 - *Account*  
-Enter the customer/supplier bank account.
+  Enter the customer/supplier bank account.
 
 - *Routing number*  
-Enter the bank routing number.
+  Enter the bank routing number.
 
 - *Bank*  
-The bank name is filled in automatically when entering the routing number.
+  The bank name is filled in automatically when entering the routing number.
 
 - *BIC*  
-Enter the BIC (Bank Identifier Code).
+  Enter the BIC (Bank Identifier Code).
 
 - *IBAN*  
-Enter the IBAN (International Bank Account Number).
+  Enter the IBAN (International Bank Account Number).
 
 - *SEPA mandate reference*  
-Enter the SEPA mandate reference, if available.
+  Enter the SEPA mandate reference.
 
 - *Signature date*  
-Enter the signature date or click the ![Calendar](../../Assets/Icons/Calendar.png "[Calendar]") (Calendar) button to select the date.
+  Click the ![Calendar](../../Assets/Icons/Calendar.png "[Calendar]") (Calendar) button to select the signature date. Alternatively, you can enter the date manually. The valid date format is *DD.MM.YYYY*.
 
 
 **Payment options**
 
 - *Price group*  
-Click the drop-down list to select the appropriate option. All available price groups are displayed in the list.
+  Click the drop-down list to select the appropriate option. All available price groups are displayed in the list.
 
   > [Info] Price groups can be created in the *Settings* menu entry of the *Material management* and the *Order management* modules.
 
 - *Print gross*  
-Click the drop-down list to select the print mode. The following options are available:   
-
+  Click the drop-down list to select how prices are indicated on receipts when printed. The following options are available:   
   - **Net prices on receipts**
   - **Gross prices on receipts**
   - **Gross prices stating net total amount**
 
+[comment]: <> (HG: warum Optionen umbenannt?)
 
 **Tax**
 
 - *Tax office no.*  
-Enter the tax office number, if known. Alternatively, use the [SEARCH] button to search for the competent tax office.
+  Enter the tax office number. If the number is unknown, click the [SEARCH] button to search for the competent tax office.
 
 - [SEARCH]  
-Click this button to add a tax office. The *Select tax office* window is displayed, see [Select tax office](#select-tax-office).  
+  Click this button to search for a tax office. The *Select tax office* window is displayed, see [Select tax office](#select-tax-office).  
 
 - *Tax office*  
-Enter the competent tax office, if known.
+  Enter the competent tax office name.
 
 - *Tax no.*  
-Enter the customer/supplier tax number, if applicable.
+  Enter the customer/supplier tax number.
 
 - *VAT ID*  
-Enter the customer/supplier VAT identification number, if applicable.
+  Enter the customer/supplier VAT identification number.
 
+[comment]: <> (Tax office function funktioniert nicht.)
 
 **Posting**  
 
 - *Standard account*  
-Enter a standard account number for the postings.   
+  Enter a standard account number for the postings.   
 
 - *Standard cost 1*  
-Enter a standard cost center for the postings.
+  Enter a standard cost center for the postings.
 
 - *Standard cost 2*  
-Enter a standard cost unit for the postings.
+  Enter a standard cost unit for the postings.
 
 
 **Credit card details**
@@ -407,79 +420,84 @@ Enter a standard cost unit for the postings.
 [comment]: <> (im Credit card data)
 
 - *Card type*  
-Click the drop-down list to select the applicable card type.
+  Click the drop-down list to select the applicable card type. The following options are available:
+  - *American Express*
+  - *Diners Club*
+  - *MasterCard / EuroCard*
+  - *Visa*
+
 
 - *Card holder*  
-Enter the card holder name.
+  Enter the card holder name.
 
 - *Card number*  
-Enter the card number.
+  Enter the card number.
 
 - *Valid Thru*  
-Enter the card expiry date.
+  Enter the card expiry date. The valid date format is MM/YYYY.
 
 
 **Default values**
 
 [comment]: <> (im System Standard values)
 
-- *Method*  
-Click the drop-down list to select the applicable method.
+-  *Payment method*  
+  Click the drop-down list to select the applicable payment method. All available payment methods are displayed.
 
 - *Payment terms*  
-Click the drop-down list to select the applicable payment terms. The following options are available:  
+  Click the drop-down list to select the applicable payment terms. The following options are available:  
 
   - **1 - 8 d 2%, 30 d net**
   - **2 - 30 d net**  
 
 
-- *Only cost supplier/ordering process inactive [x]*  
-Select or deselect this checkbox as necessary.
+- [x] *Only cost supplier/ordering process inactive*    
+   Select this checkbox if the supplier is a provider delivering a service, for example an internet provider, but not goods. Otherwise, deselect the checkbox. If the checkbox is selected, the supplier will not be taken into account in the creation of order proposals.
 
-  > [Info] This option is only relevant when managing supplier receipts. Select it if the supplier is a provider delivering a service, for example an internet provider, but not goods. If the checkbox is activated, the supplier will not be taken into account in the creation of order proposals.  
+   > [Info] This option is only relevant when managing supplier receipts.
 
 [comment]: <> (DE = nur Kostenlieferant/Bestellwesen inaktiv -> Übersetzung i.O.?)
 
 [comment]: <> (Link to Einkauf / Bestellvorschläge + Lieferantenbelege prüfen, wenn verfügbar)
 
-- *Goods receipt required [x]*  
-Select or deselect this checkbox as necessary. If the checkbox is activated, at least one item must be selected to release the invoice for payment.
+- [x] *Goods receipt required*  
+  Select this checkbox to make a goods receipt mandatory.  Otherwise, deselect the checkbox. If the checkbox is selected, at least one item must be selected to release the invoice for payment.
 
   > [Info] These two functions interact with the *Purchasing* and *Payment processing* modules, and allow to check supplier receipts before posting them in the system and to automatize payment conditions.
 
 [comment]: <> (Link to Zahlungsabwicklung / Offene Posten, wenn verfügbar)
 
-- *Tolerance group for cash discounts [x]*  
-Click the drop-down list to select the appropriate option. All available options are displayed in the list.
+- *Tolerance group for cash discounts*  
+  Click the drop-down list to select the appropriate groups. All available options are displayed in the list. By default, the *Standard* option is displayed.
 
-  > [Info] The tolerance groups can be configured in the *Settings* menu entry of the *Order management* module.
+  > [Info] The tolerance groups can be configured in the *Settings* menu entry of the *Order management* module: Order management > Settings > Tab BILLING > Payment terms/handling > Tolerance groups for cash discounts.
 
-[comment]: <> (Add Link, wenn verfügbar)
+[comment]: <> (Add Link, wenn verfügbar. Add Breadcrumbs?)
 
 
 **Limits / Locks**
 
 - *Credit limit*  
-Enter a credit limit for the customer/supplier, if necessary.
+  Enter a credit limit for the customer/supplier.
 
 - *Customer block*  
-Select or deselect this checkbox to activate or deactivate a customer block.
+  Select or deselect this checkbox to activate or deactivate a customer block.
 
 - *Dunning block*  
-Select or deselect this checkbox to activate or deactivate a dunning block.
+  Select or deselect this checkbox to activate or deactivate a dunning block.
 
 - *Dunning block, automatic*  
-Select or deselect this checkbox to activate or deactivate an automatic dunning block.
+  Select or deselect this checkbox to activate or deactivate an automatic dunning block.
 
   > [Info] The dunning process can be configured in the *Settings* menu entry of the *Order management* module.
 
-[comment]: <> (Add Link, wenn verfügbar)
+[comment]: <> (Add Link, wenn verfügbar. Add Breadcrumbs?)
 
 - *Delivery block*  
-Select or deselect this checkbox to activate or deactivate a delivery block.
+  Select or deselect this checkbox to activate or deactivate a delivery block.
 
 - *Contact block*  
-Select or deselect this checkbox to activate or deactivate a contact block.
+  Select or deselect this checkbox to activate or deactivate a contact block.
 
 
 **Additional information**
@@ -487,13 +505,10 @@ Select or deselect this checkbox to activate or deactivate a contact block.
 [comment]: <> (Im System "Other")
 
 - *Supplier no. for user*  
-Enter the reference supplier number defined by the user, if any.
+  Enter the reference supplier number defined by the user.
 
 - *Freight limit*  
-Enter a freight limit by the supplier, if necessary.
-
-  > [Info] This field is only relevant for suppliers and, therefore, it is only displayed when a supplier (account number range 70000-99999) has been created.
-
+  Enter a freight limit by the supplier. This field is only displayed when a supplier (account number range 70000-99999) has been created.
 
 - [SAVE]  
   Click this button to save any changes made.
@@ -505,15 +520,14 @@ Enter a freight limit by the supplier, if necessary.
 
 ![Additional fields](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/AdditionalFields01.png "[Additional fields]")
 
-The *Additional fields* sub-tab cannot be edited here. The warning message *Please save customer/supplier first* is displayed.
+The *Additional fields* sub-tab cannot be edited here. The notice *Please save customer/supplier first* is displayed.
 
-To add additional fields, select a newly created customer/supplier in the *Customer/supplier list* tab and click the *Additional fields* sub-tab.
-
-For detailed information, see [Additional fields](#additional-fields-1).
-
+To add additional fields, select the corresponding customer/supplier in the *Customer/supplier list* tab and click the *Additional fields* sub-tab. For detailed information, see [Additional fields](#additional-fields-1).
 
 - [SAVE]  
-Click this button to save any changes made.
+  No data can be saved at this point in this sub-tab. To access this sub-tab to add data, select the corresponding customer/supplier in the *Customer/Supplier list* tab.
+
+[comment]: <> (vgl sub tab delivery addresses -> entweder überall den save / new/reset / ... löschen buttons aufführen oder überall weglassen. )
 
 
 ### Drop shipping
@@ -522,15 +536,12 @@ Click this button to save any changes made.
 
 ![Drop shipping](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/DropShipping01.png "[Drop shipping]")
 
-The *Drop shipping* sub-tab cannot be edited here. The warning message *Please save supplier first* is displayed.
+The *Drop shipping* sub-tab cannot be edited here. The notice *Please save supplier first* is displayed.   
 
-To add further information, select a newly created supplier in the *Customer/Supplier list* tab and click the *Drop shipping* sub-tab.
-
-For detailed information, see [Drop shipping](#drop-shipping-1).
-
+To add further information, select the corresponding supplier in the *Customer/Supplier list* tab and click the *Drop shipping* sub-tab. For detailed information, see [Drop shipping](#drop-shipping-1).
 
 - [SAVE]  
-Click this button to save any changes made.
+  No data can be saved at this point in this sub-tab. To access this sub-tab to add data, select the corresponding customer/supplier in the *Customer/Supplier list* tab.
 
 
 ### CRM information
@@ -541,52 +552,59 @@ Click this button to save any changes made.
 
 **General**
 
-  - *Customer no.*  
+- *Customer no.*  
   Enter the appropriate customer number.
 
-  - *Type*  
+- *Type*  
   Enter the type of customer.
 
-  - *Date of birth*  
-  Enter the date of birth or click the ![Calendar](../../Assets/Icons/Calendar.png "[Calendar]") (Calendar) button to select the date.
+- *Date of birth*  
+  Click the ![Calendar](../../Assets/Icons/Calendar.png "[Calendar]") (Calendar) button to select the date of birth. Alternatively, you can enter the date of birth. The valid date format is *DD.MM.YYYY*.
 
-  - *Supervisor*  
-  Click the drop-down list to select the person responsible for this customer/supplier.
+- *Supervisor*  
+  Click the drop-down list to select the responsible supervisor for this customer/supplier. All users registered to the account are displayed in the list. If you do not want to assign a supervisor, select the **None** option.
 
-  - *Area*  
+- *Area*  
   Enter the applicable area, if necessary.
 
-  - *Last pers. contact*  
-  Enter the date of the last personal contact or click the ![Calendar](../../Assets/Icons/Calendar.png "[Calendar]") (Calendar) button to select the date.
+- *Last pers. contact*  
+   Click the ![Calendar](../../Assets/Icons/Calendar.png "[Calendar]") (Calendar) button to select the date of the last personal contact. Alternatively you can enter the date. The valid date format is *DD.MM.YYYY*.
 
-  - *Industry*  
-  Enter information about the applicable industrial sector, if necessary.
+- *Industry*  
+  Enter information about the applicable industrial sector.
 
-  - *Industry 2*  
-  Enter further information about the applicable industrial sector, if necessary.
+- *Industry 2*  
+  Enter further information about the applicable industrial sector.
 
 
 **Credit rating**
 
-  - *Request from*  
-  Enter the request date or click the ![Calendar](../../Assets/Icons/Calendar.png "[Calendar]") (Calendar) button to select the date.
+- *Request from*  
+  Click the ![Calendar](../../Assets/Icons/Calendar.png "[Calendar]") (Calendar) button to select the request date. Alternatively, you can enter the date. The valid date format is *DD.MM.YYYY*.
 
-  - *Capital*  
+- *Capital*  
   Enter the applicable capital amount.
 
-  - *Employees*  
-  Click the drop-down list to select the appropriate number of employees.
+- *Employees*  
+  Click the drop-down list to select the appropriate number range of employees. The following options are available:
+  - **1-10**
+  - **11-30**
+  - **31-50**
+  - **51-100**
+  - **101-250**
+  - **251-500**
 
-  - *Status from*  
-  Enter the status date or click the ![Calendar](../../Assets/Icons/Calendar.png "[Calendar]") (Calendar) button to select the date.
 
-  - *Year*  
+- *Status from*  
+  Click the ![Calendar](../../Assets/Icons/Calendar.png "[Calendar]") (Calendar) button to select the status date. Alternatively, you can enter the date. The valid date format is *DD.MM.YYYY*.
+
+- *Year*  
   Enter the year of the credit rating.
 
-  - *Sales*  
+- *Sales*  
   Enter the sales value.
 
-  - *Other information*  
+- *Other information*  
   Enter any other relevant information.
 
 
@@ -594,11 +612,11 @@ Click this button to save any changes made.
 
 > [Info] This section is only relevant for customers, not for suppliers.
 
-- *Overwrite* [x]  
-Select the checkbox to display the options below. Otherwise, the default settings are applied.
+- [x] *Overwrite*     
+  Select this checkbox to overwrite the options below. Otherwise, the default settings are applied.
 
 - *Dispatch method*  
-Click the drop-down list to select the desired dispatch method. The following options are available:  
+  Click the drop-down list to select the desired dispatch method. The following options are available:  
 
     - **Email**
     - **Post**
@@ -607,15 +625,15 @@ Click the drop-down list to select the desired dispatch method. The following op
 
 
 - *Order origin*  
-Click the drop-down list to select the applicable order origins(s). Multiple selection is possible.
+  Click the drop-down list to select the applicable order origin(s). Multiple selection is possible. All available order origins are displayed in the list.
+
 
 - *Template*  
-Click the drop-down list to select the applicable template.
+  Click the drop-down list to select the applicable template. All available templates are displayed in the list.
 
   [comment]: <> (Drop-down list options to be translated!)
 
-
-  - [SAVE]  
+- [SAVE]  
   Click this button to save any changes made.
 
 
@@ -626,11 +644,10 @@ Click the drop-down list to select the applicable template.
 ![Notes](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/Notes01.png "[Notes]")
 
 - *Comments*  
-Enter any further relevant information in this section. The information entered here is displayed in the *Comments* column in the *Customer/supplier list* tab.
-
+  Enter any further relevant information in this section. If any information is entered, a blue info icon is displayed in the *Comments* column in the *Customer/supplier list* tab for the corresponding customer/supplier.
 
 - [SAVE]  
-Click this button to save any changes made.
+  Click this button to save any changes made.
 
 
 ## Customer/supplier (number)
@@ -639,9 +656,22 @@ Click this button to save any changes made.
 
 ![Edit a customer/supplier](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/EditCustomerSupplier.png "[Edit a customer/supplier]")
 
-When selecting a customer/supplier from the list in the *Customer/supplier list* tab, the *Customer/supplier (number)* tab is displayed. Existing details can be edited and new ones can be entered in the subsequent sub-tabs.
+In the *Customer/supplier (number)* tab, you can add and/or edit the customer/supplier data in the following sub-tabs:  
 
-The displayed sub-tabs and information vary slightly depending on whether a customer or a supplier has been selected.
+- *Address/contact*, see [Address/contact](#addresscontact-1)
+- *Further addresses*, see [Further addresses](#further-addresses)
+- *Invoicing*, see [Invoicing](#invoicing-1)
+- *Additional fields*, see [Additional fields](#additional-fields-1)
+- *Content*, see [Content](#content)
+- *Stock history*, see [Stock history](#stock-history)
+- *Statistics*, see [Statistics](#statistics)
+- *Drop shipping*, see [Drop shipping](#drop-shipping-1)
+- *CRM information*, see [CRM information](#crm-information-1)
+- *Notes*, see [Notes](#notes-1)
+
+The displayed sub-tabs and information may vary depending on whether a customer or a supplier has been selected.
+
+[comment]: <> (check with HG. vgl. Customer/supplier list)
 
 
 ### Address/contact
@@ -656,16 +686,15 @@ The displayed sub-tabs and information vary slightly depending on whether a cust
 [comment]: <> (im System Address data)
 
 - *Debtor/creditor no.*  
-Customer/supplier number assigned. Enter a different customer/supplier number, if necessary.  
+  Customer/supplier number assigned. Enter a different customer/supplier number, if necessary.  
 
-  > [Info] If an invalid number is entered, either out of the permitted range for personal account numbers (10000-69999 for customers and 70000-99999 for suppliers) or already in use, a warning message is displayed.
+  > [Info] If a number is entered out of the valid range for personal numbers (10000-69999 for customers and 70000-99999 for suppliers), a warning message is displayed.
 
 - *Short name*  
-Short name provided. Enter a different short name for the customer/supplier, if necessary. This field is mandatory.
+  Short name provided. If necessary, enter a different short name for the customer/supplier. This field is mandatory.
 
 - *Form of address*  
-Form of address provided, if any. Click the drop-down list to select a different form of address, if necessary. The following options are available:  
-
+  Form of address provided. If desired, click the drop-down list to select a different form of address. The following options are available:  
     - **Company**
     - **Mr**
     - **Ms**
@@ -676,39 +705,39 @@ Form of address provided, if any. Click the drop-down list to select a different
 
 
 - *Letter salutation*  
-Letter salutation provided, if any. Enter a different letter salutation, if necessary.
+  Letter salutation provided. If desired, enter a different letter salutation.
 
 - *Company*  
-Company name provided, if any. Enter a different company name, if necessary.
+  Company name provided. If desired, enter a different company name.
 
 - *Surname*  
-Last name provided, if any. Enter a different customer/supplier last name, if necessary.
+  Last name provided. If desired, enter a different customer/supplier last name.
 
 - *Forename*  
-First name provided, if any. Enter a different customer/supplier first name, if necessary.
+  First name provided. If desired, enter a different customer/supplier first name.
 
   > [Info] Either a company or a customer/supplier name must be provided.
 
 - *Address*  
-Address provided, if any. Enter a different customer/supplier address, if necessary.
+  Address provided. If desired, enter a different customer/supplier address.
 
 - *Address supplement*  
-Address supplement provided, if any. Enter any other necessary address information.  
+  Address supplement provided. If desired, enter any other necessary address information.  
 
 [comment]: <> (im System Address suffix)
 
 - *Zip code*  
-Zip code provided, if any. Enter a different customer/supplier zip code, if necessary.  
+  Zip code provided. If desired, enter a different customer/supplier zip code.  
 
 [comment]: <> (im System Postal code)
 
-- *Location*  
-Location provided, if any, Enter a different customer/supplier location, if any.  
+- *City*  
+  City or town provided. If desired, enter a different customer/supplier city or town.  
 
 [comment]: <> (im System Ort)
 
 - *Country*  
-Country provided, if any. Click the drop-down list to select a different country, if necessary.  
+  Country provided. If desired, click the drop-down list to select a different country.  
 
 [comment]: <> (Drop-down liste im System auf DE, Sortierung aber auf EN)
 
@@ -716,42 +745,44 @@ Country provided, if any. Click the drop-down list to select a different country
 **Contact**
 
 - *Phone*  
-Phone number provided, if any. Enter a different contact phone number, if necessary.
+  Phone number provided. If desired, enter a different contact phone number.
 
 - *Phone 2*  
-Second phone number provided, if any. Enter a different second contact phone number, if necessary.
+  Second phone number provided. If desired, enter a different second contact phone number.
 
-- *Cell phone*  
-Cell phone provided, if any. Enter a different cell phone number, if necessary.
+- *Mobile phone*  
+  Mobil phone provided. If desired, enter a different mobile phone number.
 
 - *Fax*  
-Fax number provided, if any. Enter a different fax number, if necessary.
+  Fax number provided. If desired, enter a different fax number.
 
 - *Email*  
-Email address provided, if any. Enter a different email address, if necessary.
+  Email address provided. If desired, enter a different email address.
 
 - *URL*  
-URL provided, if any. Enter a different customer/supplier website, if necessary.
+  URL provided. If desired, enter a different customer/supplier website.
 
 
 **Further**
 
 - *Language*  
-Language provided, if any. Click the drop-down list to select a different language or select **No linguistic content**.
+  Language provided. If desired, click the drop-down list to select a different language. If you want no language to be selected, select the **No linguistic content** option.
 
 - *Currency*  
-Currency provided, if any. Click the drop-down list to select a different currency.
+  Currency provided. Click the drop-down list to select a different currency.
 
-
+[comment]: <> (HG: Unterschied zum beschriebenen Tab "Address/contact"? Ansonsten ein satz mit Verweis darauf. MV: Außer erster drop-down list, gleich. Screenshot leicht anders: erster Dropdown list + Buttons unten. Trotzdem Hinweis und Verweis?)
 
 - [NEW/RESET]  
-Click this button to reset the *Customer/supplier* tab and create a new customer/supplier. The *Create customer/supplier* tab is displayed.
+  Click this button to reset the *Customer/supplier (number)* tab and create a new customer/supplier. The *Customer/supplier (number)* tab is closed and changes automatically to the *Create customer/supplier* tab.
 
 - [DELETE CUSTOMER 'number']/[DELETE SUPPLIER 'number']  
-Click this button to delete the selected customer/supplier.
+  Click this button to delete the selected customer/supplier.
+
+[comment]: <> (Müssen nochmal schauen, wir wir das mit der Darstellung der "number" machen. Auch bei dem Tab...)
 
 - [SAVE]  
-Click this button to save all changes made in the selected customer/supplier.
+  Click this button to save all changes made to the selected customer/supplier.
 
 
 ### Further addresses
@@ -761,21 +792,21 @@ Click this button to save all changes made in the selected customer/supplier.
 ![Further addresses](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/FurtherAddresses01.png "[Further addresses]")
 
 
-When creating a customer/supplier, the address entered in the *Address details* section in the *Address/contact* sub-tab is automatically saved as standard delivery address in the system. The standard address is displayed in this sub-tab marked as *STD*. Further delivery addresses can be added in this sub-tab.
+When creating a customer/supplier, the address entered in the *Address details* section in the *Address/contact* sub-tab is automatically saved as default delivery address in the system. The default address is displayed in this sub-tab marked as *DEF*. Further delivery addresses can be added in this sub-tab.
 
 
 **Delivery addresses**
 
-All delivery addresses entered are displayed in a column view. All information provided in columns is read-only.
+The list displays all delivery addresses of the selected customer/supplier. Depending on the settings, the displayed columns may vary. All fields are read-only.
 
-- [Checkbox]  
-Click this checkbox to select an address to be edited or deleted. The *Edit* section is displayed.
+- [x]  
+  Select the checkbox to display the *Edit* section.
 
 - *Addr. no.*  
-This column displays the number given to every additional address. The base address is marked as **STD** (standard).
+  Sequential number of the address. The base address has no number but is marked as **DEF** (default).
 
 - *Address type*  
-This column displays the address type selected. The following options are available:  
+  Address type selected. The following options are available:  
 
   - **Base address**
   - **Buyer's address**
@@ -786,32 +817,46 @@ This column displays the address type selected. The following options are availa
 
 
 - *Company*  
-This column displays the company name entered.
+  Company name entered.
 
 - *Zip*  
-This column displays the customer/supplier zip (or postal) code entered.
+  Customer/supplier zip (or postal) code entered.
 
-- *Location*  
-This column displays the customer/supplier location entered.
+- *City*  
+  Customer/supplier city or town entered.
 
 - *Country*  
-This column displays the customer/supplier country selected.
-
-  > [Info] The different countries are represented with the international vehicle registration codes.
+  Customer/supplier country of the corresponding address. The country is represented with the international vehicle registration code.
 
 
 - [CREATE]  
-Click this button to add a further address. The *Add* section is displayed.
+  Click this button to add a further address. The *Add* section is displayed.
 
 - [DELETE]  
-Click this button to delete a selected address from the list.
+  Click this button to delete a selected address from the list.
 
 - ![Refresh](../../Assets/Icons/Refresh03.png "[Refresh]") (Refresh)    
-Click this button to refresh the list after making any changes.
+  Click this button to update the list.
 
-- *All address types*  
-Click this drop-down list to select the address type to be displayed in the list. The following options are available:
+- Address type  
+  Click this drop-down list to select the address type to be filtered for in the list. The following options are available:
+  - **All address types**
+  - **Buyer's address**
+  - **Billing address**
+  - **Delivery address**
+  - **Redirect address**
+  - **Pick-up address**
 
+
+**Add/Edit**
+
+![Add/Edit](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/FurtherAddressesAddEdit.png "[Add/Edit]")
+
+Click the [CREATE] button to display the *Add* section or select the checkbox of an address to display the *Edit* section. The fields in the *Add* and the *Edit* section are identical.
+
+- *Address type*  
+Click the drop-down list to select the address type. The following options are available:
+  - **Base address**
   - **Buyer's address**
   - **Billing address**
   - **Delivery address**
@@ -819,110 +864,89 @@ Click this drop-down list to select the address type to be displayed in the list
   - **Pick-up address**  
 
 
-**Add/Edit**
-
-![Edit](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/FurtherAddresses03.png "[Edit]")
-
-![Edit](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/FurtherAddresses02.png "[Edit]")
-
-> [Info] When clicking the [CREATE] button, the *Add* section is displayed. When marking a checkbox from the delivery addresses list, the address details are displayed in the input fields, where they can be edited. The *Add* section name changes to *Edit*.
-
-  - *Address type*  
-  Click the drop-down list to select the address type. The following options are available:
-
-    - **Base address**
-    - **Buyer's address**
-    - **Billing address**
-    - **Delivery address**
-    - **Redirect address**
-    - **Pick-up address**  
-
-
-  - *Mode*  
-  Click the drop-down list to select the mode. The following options are available:
-
+- *Mode*  
+  Click the drop-down list to select the applicable address mode. The following options are available:
     - **Use base address**  
-    Select this option to use the base (standard) address. The rest of fields in this section become inactive.
-
+      Select this option to use the base (default) address. By default, this option is preselected. All fields in the section except for the *Address type*, *Address no.* and *Tax number* field are locked.
     - **Use different address**  
-    Select this option to use a different address than the base (standard) address. The rest of fields in this section become active.
+      Select this option to use a different address than the base (default) address. All fields in the section are unlocked.
 
-  - *Address no.*  
-  The address number cannot be edited. If a new number is entered, a new address will be created.
 
-  - *Form of address*  
+- *Address no.*  
+  When creating an address, the next available address number is preselected by default. You can manually enter a different number. The address number cannot be edited after saving. If a new number is entered, a new address will be created.
+
+- *Form of address*  
   Click the drop-down list to select the appropriate customer/supplier form of address. The following options are available:  
+    - **Company**
+    - **Mr**
+    - **Ms**
+    - **Mr and Mrs**
+    - **Dr**
+    - **Prof.**
+    - **none**  
 
-      - **Company**
-      - **Mr**
-      - **Ms**
-      - **Mr and Mrs**
-      - **Dr**
-      - **Prof.**
-      - **none**  
 
-
-  - *Company*  
+- *Company*  
   Enter the company name.
 
-  - *Surname*  
+- *Surname*  
   Enter the customer/supplier last name.
 
-  - *Forename*  
+- *Forename*  
   Enter the customer/supplier first name.
 
-  - *Address*  
+- *Address*  
   Enter the customer/supplier address.
 
-  - *Address supplement*  
+- *Address supplement*  
   Enter any other necessary address information.  
 
-  [comment]: <> (im System Address suffix)
+[comment]: <> (im System Address suffix)
 
-  - *Zip code / Location*  
-  Enter the zip code and location.
+- *Zip code / City*  
+  Enter the zip code and city.
 
-  - *Country*  
-  Click the drop-down list to select the appropriate country.  
+- *Country*  
+Click the drop-down list to select the appropriate country.  
 
-  [comment]: <> (Drop-down liste im System auf DE, Sortierung aber auf EN o.ä.)
+[comment]: <> (Drop-down liste im System auf DE, Sortierung aber auf EN o.ä.)
 
-  - *Phone*  
+- *Phone*  
   Enter the contact phone number.
 
-  - *Phone 2*  
-  Enter a second contact phone number, if necessary.
+- *Phone 2*  
+  Enter a second contact phone number.
 
-  - *Cell phone*  
-  Enter a cell phone number.
+- *Mobile phone*  
+  Enter a mobile phone number.
 
-  - *Fax*  
-  Enter a fax number, if necessary.
+- *Fax*  
+  Enter a fax number.
 
-  - *Email*  
+- *Email*  
   Enter an email address.
 
-  - *VAT ID*  
-  Enter the customer/supplier VAT identification number, if applicable.
+- *VAT ID*  
+  Enter the customer/supplier VAT identification number.
 
-  - *Tax number*  
-  Enter the customer/supplier tax number, if applicable.
+- *Tax number*  
+  Enter the customer/supplier tax number.
 
-  - [CLEAR]  
+- [CLEAR]  
   Click this button to clear the input fields.
 
-  - [SAVE]  
-  Click this button to save the edited address.
+- [SAVE]  
+  Click this button to save the address.
 
 
 - [NEW/RESET]  
-Click this button to reset the *Customer/supplier* tab and create a new customer/supplier. The *Create customer/supplier* tab is displayed.
+Click this button to reset the *Customer/supplier (number)* tab and create a new customer/supplier. The *Customer/supplier (number)* tab is closed and changes automatically to the *Create customer/supplier* tab.
 
 - [DELETE CUSTOMER 'number']/[DELETE SUPPLIER 'number']  
 Click this button to delete the selected customer/supplier.
 
 - [SAVE]  
-Click this button to save all changes made in the selected customer/supplier.
+Click this button to save all changes made to the selected customer/supplier.
 
 
 ### Invoicing
@@ -931,79 +955,79 @@ Click this button to save all changes made in the selected customer/supplier.
 
 ![Invoicing](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/Billing02.png "[Invoicing]")
 
+[comment]: <> (HG: Unterschied zu tab oben? Ansonsten verweisen -> Freight limit: "when a supplier has been selected")
 
 **Bank details**
 
 - *Account holder*  
-Enter the account holder name.
+  Enter the account holder name.
 
 - *Account*  
-Enter the customer/supplier bank account.
+  Enter the customer/supplier bank account.
 
 - *Routing number*  
-Enter the bank routing number.
+  Enter the bank routing number.
 
 - *Bank*  
-The bank name is filled in automatically when entering the routing number.  
+  The bank name is filled in automatically when entering the routing number.
 
 - *BIC*  
-Enter the BIC (Bank Identifier Code).
+  Enter the BIC (Bank Identifier Code).
 
 - *IBAN*  
-Enter the IBAN (International Bank Account Number).
+  Enter the IBAN (International Bank Account Number).
 
 - *SEPA mandate reference*  
-Enter the SEPA mandate reference, if available.
+  Enter the SEPA mandate reference.
 
 - *Signature date*  
-Enter the signature date or click the ![Calendar](../../Assets/Icons/Calendar.png "[Calendar]") (Calendar) button to select the date.
+  Click the ![Calendar](../../Assets/Icons/Calendar.png "[Calendar]") (Calendar) button to select the signature date. Alternatively, you can enter the date manually. The valid date format is *DD.MM.YYYY*.
 
 
 **Payment options**
 
 - *Price group*  
-Click the drop-down list to select the appropriate option. All available price groups are displayed in the list.
+  Click the drop-down list to select the appropriate option. All available price groups are displayed in the list.
 
-  > [Info] Price groups can be created in the *Settings* menu entry of the *Material management* and the *Order management* module.
+  > [Info] Price groups can be created in the *Settings* menu entry of the *Material management* and the *Order management* modules.
 
 - *Print gross*  
-Click the drop-down list to select the print mode. The following options are available:   
-
+  Click the drop-down list to select how prices are indicated on receipts when printed. The following options are available:   
   - **Net prices on receipts**
   - **Gross prices on receipts**
   - **Gross prices stating net total amount**
 
+[comment]: <> (HG: warum Optionen umbenannt?)
 
 **Tax**
 
 - *Tax office no.*  
-Enter the tax office number, if known. Alternatively, use the [SEARCH] button to search for the tax office number.
+  Enter the tax office number. If the number is unknown, click the [SEARCH] button to search for the competent tax office.
 
 - [SEARCH]  
-Click this button to search for a tax office number. The *Select tax office* window is displayed, see [Select tax office](#select-tax-office).  
+  Click this button to search for a tax office. The *Select tax office* window is displayed, see [Select tax office](#select-tax-office).  
 
 - *Tax office*  
-Enter the competent tax office, if known.
+  Enter the competent tax office name.
 
 - *Tax no.*  
-Enter the customer/supplier tax number, if applicable.
+  Enter the customer/supplier tax number.
 
 - *VAT ID*  
-Enter the customer/supplier VAT identification number, if applicable.
+  Enter the customer/supplier VAT identification number.
 
+[comment]: <> (Tax office function funktioniert nicht.)
 
 **Posting**  
 
-[comment]: <> (im System Posting)
-
 - *Standard account*  
-Enter a standard account number for the postings.  
+  Enter a standard account number for the postings.   
 
 - *Standard cost 1*  
-Enter a standard cost center for the postings.
+  Enter a standard cost center for the postings.
 
 - *Standard cost 2*  
-Enter a standard cost unit for the postings.
+  Enter a standard cost unit for the postings.
 
 
 **Credit card details**
@@ -1011,164 +1035,172 @@ Enter a standard cost unit for the postings.
 [comment]: <> (im Credit card data)
 
 - *Card type*  
-Click the drop-down list to select the applicable card type.
+  Click the drop-down list to select the applicable card type. The following options are available:
+  - *American Express*
+  - *Diners Club*
+  - *MasterCard / EuroCard*
+  - *Visa*
+
 
 - *Card holder*  
-Enter the card holder name.
+  Enter the card holder name.
 
 - *Card number*  
-Enter the card number.
+  Enter the card number.
 
 - *Valid Thru*  
-Enter the card expiry date.
+  Enter the card expiry date. The valid date format is MM/YYYY.
 
 
 **Default values**
 
 [comment]: <> (im System Standard values)
 
-- *Method*  
-Click the drop-down list to select the applicable method.
+-  *Payment method*  
+  Click the drop-down list to select the applicable payment method. All available payment methods are displayed.
 
 - *Payment terms*  
-Click the drop-down list to select the applicable payment terms. The following options are available:  
+  Click the drop-down list to select the applicable payment terms. The following options are available:  
 
   - **1 - 8 d 2%, 30 d net**
   - **2 - 30 d net**  
 
-- *Only cost supplier/ordering process inactive [x]*  
-Select or deselect this checkbox as necessary.
 
-  > [Info] This option is only relevant when managing supplier receipts. Select it if the supplier is a provider delivering a service, for example an internet provider, but no goods. If the checkbox is activated, the supplier will not be taken into account in the creation of order proposals.
+- [x] *Only cost supplier/ordering process inactive*    
+   Select this checkbox if the supplier is a provider delivering a service, for example an internet provider, but not goods. Otherwise, deselect the checkbox. If the checkbox is selected, the supplier will not be taken into account in the creation of order proposals.
+
+   > [Info] This option is only relevant when managing supplier receipts.
 
 [comment]: <> (DE = nur Kostenlieferant/Bestellwesen inaktiv -> Übersetzung i.O.?)
 
 [comment]: <> (Link to Einkauf / Bestellvorschläge + Lieferantenbelege prüfen, wenn verfügbar)
 
+- [x] *Goods receipt required*  
+  Select this checkbox to make a goods receipt mandatory.  Otherwise, deselect the checkbox. If the checkbox is selected, at least one item must be selected to release the invoice for payment.
 
-- *Goods receipt required [x]*  
-Select or deselect this checkbox as necessary. If the checkbox is activated, at least one item must be selected to release the invoice for payment.
-
-  > [Info] These two function interacts with the *Purchasing* and *Payment processing* modules, and allow to check supplier receipts before posting them in the system and to automatize payment conditions.
+  > [Info] These two functions interact with the *Purchasing* and *Payment processing* modules, and allow to check supplier receipts before posting them in the system and to automatize payment conditions.
 
 [comment]: <> (Link to Zahlungsabwicklung / Offene Posten, wenn verfügbar)
 
-- *Tolerance group for discounts [x]*  
-Click the drop-down list to select the appropriate option. All available options are displayed in the list.
+- *Tolerance group for cash discounts*  
+  Click the drop-down list to select the appropriate groups. All available options are displayed in the list. By default, the *Standard* option is displayed.
 
-  > [Info] The tolerance groups can be configured in the Settings menu entry of the Order management module.
+  > [Info] The tolerance groups can be configured in the *Settings* menu entry of the *Order management* module: Order management > Settings > Tab BILLING > Payment terms/handling > Tolerance groups for cash discounts.
 
-[comment]: <> (Add Link, wenn verfügbar)
+[comment]: <> (Add Link, wenn verfügbar. Add Breadcrumbs?)
 
 
 **Limits / Locks**
 
 - *Credit limit*  
-Enter a credit limit for the customer/supplier, if necessary.
+  Enter a credit limit for the customer/supplier.
 
 - *Customer block*  
-Select or deselect this checkbox to activate or deactivate a customer block.
+  Select or deselect this checkbox to activate or deactivate a customer block.
 
 - *Dunning block*  
-Select or deselect this checkbox to activate or deactivate a dunning block.
+  Select or deselect this checkbox to activate or deactivate a dunning block.
 
 - *Dunning block, automatic*  
-Select or deselect this checkbox to activate or deactivate an automatic dunning block.
+  Select or deselect this checkbox to activate or deactivate an automatic dunning block.
 
-  > [Info] The dunning process can be configured in the Settings menu entry of the Order management module.
+  > [Info] The dunning process can be configured in the *Settings* menu entry of the *Order management* module.
+
+[comment]: <> (Add Link, wenn verfügbar. Add Breadcrumbs?)
 
 - *Delivery block*  
-Select or deselect this checkbox to activate or deactivate a delivery block.
+  Select or deselect this checkbox to activate or deactivate a delivery block.
 
 - *Contact block*  
-Select or deselect this checkbox to activate or deactivate a contact block.
+  Select or deselect this checkbox to activate or deactivate a contact block.
 
 
 **Additional information**
 
+[comment]: <> (Im System "Other")
+
 - *Supplier no. for user*  
-Enter a reference supplier number defined by the user, if necessary.
+  Enter the reference supplier number defined by the user.
 
 - *Freight limit*  
-Enter a freight limit by the supplier, if necessary.
+  Enter a freight limit by the supplier. This field is only displayed when a supplier (account number range 70000-99999) has been selected.
 
-  > [Info] This field is only relevant for suppliers and, therefore, it is only displayed when a supplier (account number range 70000-99999) has been created.
-
-
-- [SAVE]
-  Click this button to save any changes made.
 
 - [NEW/RESET]  
-Click this button to reset the *Customer/supplier* tab and create a new customer/supplier. The *Create customer/supplier* tab is displayed.
+  Click this button to reset the *Customer/supplier (number)* tab and create a new customer/supplier. The *Customer/supplier (number)* tab is closed and changes automatically to the *Create customer/supplier* tab.
 
 - [DELETE CUSTOMER 'number']/[DELETE SUPPLIER 'number']  
-Click this button to delete the selected customer/supplier.
+  Click this button to delete the selected customer/supplier.
 
 - [SAVE]  
-Click this button to save all changes made in the selected customer/supplier.
+  Click this button to save all changes made to the selected customer/supplier.
 
 
 ### Additional fields
 
 *Accounting > Settings > Tab DEBTORS/CREDITORS > Tab Customer/supplier list > Select customer/supplier > Sub-tab Additional fields*
 
+[comment]: <> (HG/MV: Additionals fields differ from Create customer/supplier -> probably not read by HG. Doublecheck!)
+
 ![Additional fields](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/AdditionalFields02.png "[Additional fields]")
 
-- [EDIT ADDITIONAL FIELDS]  
+- [EDIT ADDITIONAL FIELDS...]  
 Click this button to edit the available additional fields or add new ones. The *Edit additional fields* window is displayed, see [Edit additional fields](#edit-additional-fields).
 
 [comment]: <> (Edit additional fields window manchmal geschnitten/nicht vollständig angezeigt)
 
 **Additional Fields**
 
-The available additional fields added are displayed in a column view. Depending on the settings, the displayed columns may vary. All information provided in columns is read-only.
+The list displays all available additional fields. Depending on the settings, the displayed columns may vary. All fields are read-only.
 
 ![Additional fields](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/AdditionalFields03.png "[Additional fields]")
 
-- [Checkbox]  
-Select the checkbox delete a field or edit the field value. The field details are displayed in the *Edit* section.
+- [x]   
+  Select the checkbox to delete a field or edit the field value. The field details are displayed in the *Edit* section.
 
 - *Field name*  
-This column displays the field name entered.
+  Field name entered.
 
 - *Field set*  
-This column displays the field set entered.
+  Field set entered.
 
 [comment]: <> (What is field set? Not to be found in the EDIT ADDITIONAL FIELDS window)
 
 - *Value*  
-This column displays the value entered.  
+  Value entered.  
 
 [comment]: <> (FH: Unsure if it works properly! RS FH über Additional fields tab)
 
 
 - [DELETE]  
-Click this button to delete the selected row.
+  Click this button to delete the selected row.
+
+[comment]: <> (DELETE funktioniert nicht)
 
 - ![Refresh](../../Assets/Icons/Refresh03.png "[Refresh]") (Refresh)  
-Click this button to refresh the list after making any changes.
+  Click this button to update the list.
 
 
 **Edit**
 
 - *Field ID*  
-Field identification number entered.
+  Field identification number entered.
 
-  > [Info] This field is inactive and cannot be edited here. To edit it, click the [EDIT ADDITIONAL FIELDS] button. The *Edit additional fields* window is displayed, see [Edit additional fields](#edit-additional-fields).
+  > [Info] This field is locked and cannot be edited here. To edit it, click the [EDIT ADDITIONAL FIELDS] button. The *Edit additional fields* window is displayed, see [Edit additional fields](#edit-additional-fields).
 
 - *Field name*  
-Field name entered.  
+  Field name entered.  
 
-  > [Info] This field is inactive and cannot be edited here. To edit it, click the [EDIT ADDITIONAL FIELDS] button. The *Edit additional fields* window is displayed, see [Edit additional fields](#edit-additional-fields).
+  > [Info] This field is locked and cannot be edited here. To edit it, click the [EDIT ADDITIONAL FIELDS] button. The *Edit additional fields* window is displayed, see [Edit additional fields](#edit-additional-fields).
 
 - *Value*  
-Enter a new value if desired.
+  Enter the desired value manually or click the drop-down list to select one of the available values. The valid values vary depending on the field selected.
 
 - [SAVE]  
-Click this button to save any changes made.
+  Click this button to save any changes made.
 
 - [CLEAR]  
-Click this button to clear the fields.
+  Click this button to clear the fields.
 
 
 ### Content
@@ -1177,117 +1209,118 @@ Click this button to clear the fields.
 
 ![Content](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/Content01.png "[Content]")
 
-
 **Content**
 
-The existing content data are displayed in a column view. Depending on the settings, the displayed columns may vary. All information provided in columns is read-only.
+The list displays all attached content, for instance files and links. Depending on the settings, the displayed columns may vary. All fields are read-only.
 
-
-- [Checkbox]  
-Click a checkbox to select a row. The *Edit* section is displayed.
+- [x]   
+  Select the checkbox to display the *Edit* section.
 
 - *ID*  
-Content identification number. This value is assigned automatically by the system.
+  Content identification number. This value is assigned automatically by the system.
 
 - *Language*  
-Content language. The languages are represented with the ISO 639-1 language codes, that is, "en" for English, "de" for German and so on.
+  Content language. The languages are represented with the ISO 639-1 language codes, for instance *en* for English and *de* for German.
 
 - *Type*  
-Type of content. The following options are available:  
-
-  - *Link*
-  - *File*
-  - *HTLM*
-
-
-- *Name*  
-Name given to content.
-
-- *File/Link*  
-File or link where the content is located.
-
-
-
-- [CREATE]  
-Click this button to add new content. The *Add* section is displayed.
-
-- [DELETE]  
-Click this button to delete a selected content from the list.
-
-- [SHOW ALL]  
-Click this button to show all content.
-
-
-- ![Refresh](../../Assets/Icons/Refresh03.png "[Refresh]")  (Refresh)  
-Click this button to refresh the list after making any changes.
-
-
-**Add/Edit**
-
-![Content](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/Content02.png "[Content]")
-
-![Content](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/Content03.png "[Content]")
-
-[comment]: <> (Edit section geschnitten/nicht vollständig angezeigt)
-
-- *Language*  
-Click the drop-down list to select the appropriate content language.
-
-[comment]: <> (Sprachliste auf DE/EN gemischt)
-
-- *Type*  
-Click the drop-down list to select the appropriate content type. Depending on the content type selected, the active fields vary. The following options are available:  
-
+  Type of content. The following options are available:  
   - **Link**
   - **File**
   - **HTML**
 
 
-- *Name/Title*  
-Enter the content name or title.
+- *Name*  
+  Content name.
 
-- *Hide attachment* [checkbox]  
-Select the checkbox to hide an attachment.
+- *File/Link*  
+  Name and size of the attached file or URL of the attached link.
+
+
+- [CREATE]  
+  Click this button to add new content. The *Add* section is displayed.
+
+- [DELETE]  
+  Click this button to delete a selected content from the list.
+
+- [SHOW ALL]  
+  Click this button to show all content, also the hidden attachments. If all content is displayed and you click the button again, all attachments marked as hidden are hidden again.
+
+[comment]: <> (HG: button should change name after clicking to show which view is currently displayed -> Bug added)
+
+
+- ![Refresh](../../Assets/Icons/Refresh03.png "[Refresh]")  (Refresh)  
+  Click this button to update the list.
+
+
+**Add/Edit**
+
+![Content](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/ContentAddEdit.png "[Content]")
+
+[comment]: <> (Edit section geschnitten/nicht vollständig angezeigt)
+
+Click the [CREATE] button to display the *Add* section or select the checkbox of an attachment to display the *Edit* section. The fields in the *Add* and the *Edit* section are identical.
+
+- *Language*  
+  Click the drop-down list to select the appropriate content language. All available languages are displayed in the list. If you want no language to be selected, select the **No linguistic content** option.
+
+[comment]: <> (Sprachliste auf DE/EN gemischt)
+
+- *Type*  
+  Click the drop-down list to select the appropriate content type. Depending on the content type selected, different fields are displayed. The following options are available:  
+  - **Link**   
+    Attach a link to a website. The *Link* and the *Link target* fields are displayed.
+  - **File**   
+    Attach a file. The *File* field is displayed.
+  - **HTML**
+    Attach an HTML document. An HTML editor is displayed.
+
+
+- *Name/Title*  
+  Enter the content name or title.
+
+- [x] *Hide attachment*    
+  Select the checkbox to hide the attachment in the list. Click the [SHOW ALL] button to display a hidden attachment in the list.
 
 - *Link*  
-Enter the link to the content.
+  Enter the URL of the website you want to link to. This field is only displayed if the **Link** option in the *Type* drop-down list has been selected.
 
 - *Link target*  
-Click the drop-down list to select the appropriate option. The following options are available:  
-
+  Click the drop-down list to select the appropriate option. This drop-down list is only displayed if the **Link** option in the *Type* drop-down list has been selected. The following options are available:  
   - **New window**
-  Select this option to open the content in a new window.
+    The website is displayed in a new window.
   - **Same window**  
-  Select this option to open the content in the same window.
+    The website is displayed in the same window.
 
 
 - *File*  
-Click the [SELECT FILE] button to upload a file. When a file is uploaded, the file name is displayed.  
+  Click the [SELECT FILE] button to upload a file. When a file has been uploaded, the file name is displayed in the field. This field is only displayed if the **File** option in the *Type* drop-down list has been selected.  
 
 - [DOWNLOAD]  
-Click this button to download the uploaded file.
+  Click this button to download the uploaded file, the HTML file or to open the related link in a new window.
 
-- (Text editor)  
-When selecting HTML type, a text editor is displayed. Click it to enter the desired HTLM content.
+- HTML editor  
+  Enter the desired HTLM content. The editor field is only displayed if the **HTML** option in the *Type* drop-down list has been selected.
 
 
 - [SAVE]  
-Click this button to save any changes made.
+  Click this button to save any changes made.
 
 - [CLEAR]  
-Click this button to clear the input fields.
+  Click this button to clear the input fields.
 
   > [Info] Make sure to clear all input fields before adding new content. Otherwise, the newly entered content will replace the selected content from the list.
 
 
 - [NEW/RESET]  
-Click this button to reset the *Customer/supplier* tab and create a new customer/supplier. The *Create customer/supplier* tab is displayed.
+  Click this button to reset the *Customer/supplier (number)* tab and create a new customer/supplier. The *Customer/supplier (number)* tab is closed and changes automatically to the *Create customer/supplier* tab.
 
 - [DELETE CUSTOMER 'number']/[DELETE SUPPLIER 'number']  
-Click this button to delete the selected customer/supplier.
+  Click this button to delete the selected customer/supplier.
 
 - [SAVE]  
-Click this button to save all changes made in the selected customer/supplier.
+  Click this button to save all changes made to the selected customer/supplier.
+
+[comment]: <> (vgl. oben -> Änderungen zu Buttons nach RS mit HG durchgängig machen)
 
 
 ### Stock history
@@ -1296,24 +1329,26 @@ Click this button to save all changes made in the selected customer/supplier.
 
 ![Stock history](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/StockHistory02.png "[Stock history]")
 
-> [Info] This sub-tab is only displayed when selecting a customer in the *Customer/supplier* list and the customer has already placed at least one order.
+This sub-tab is only displayed when the selected customer has already placed at least one order.
 
 - [EXCEL]  
-Click this button to display the *EXCEL* context menu. The following options are available:  
+  Click this button to display the *EXCEL* context menu. The following options are available:  
 
   - *Export current page*
   - *Export all*
 
+[comment]: <> (Option "Export all" wird nicht immer angezeigt. Muss dafür einen Plugin installiert sein? Voraussetzungen?)
+
+The list displays all documents of the selected customer. Depending on the settings, the displayed columns may vary. All fields are read-only.
 
 - *Cust. no.*  
-Customer number assigned in the system.
+  Customer number assigned in the system.
 
 - *Customer name*  
-Customer name entered in the system.
+  Customer name entered in the system.
 
 - *Document no.*  
-Document identification number. The abbreviations indicate the type of document, for example, LI stands for delivery note or AB for order confirmation. The following document types are available:  
-
+Document identification number. The abbreviations indicate the type of document. The following document types are available:  
   - *AN*: Offer
   - *AB*: Order confirmation
   - *RE*: Invoice
@@ -1343,17 +1378,16 @@ Name of the product.
 Amount of products.
 
 - *Price*  
-Net price of product.
+Net price of a single product.
 
 - *Total price*  
-Total price of product.
+Total price of all products.
 
 - *Date*  
-Date in which the operation has taken place.
+Creation date of the document.
 
 - *Posting type*  
 Type of operation. The following operations are available:  
-
   - *Manual posting*
   - *Reservation*
   - *Waiting for picking*
@@ -1374,13 +1408,13 @@ Type of operation. The following operations are available:
 Warehouse where the product is stored.
 
 - *Storage shelf at the time of posting*  
-Storage shelf where the product is located at the time of the operation.
+Storage shelf where the product is located at the time of the posting.
 
 - *Storage shelf*  
-Storage shelf where the product is usually located.
+Storage shelf where the product is located by default.
 
 - *Movement*  
-Stock movement.
+Number of products moved.
 
 - *Total stock*  
 Total stock of the product.
@@ -1389,11 +1423,11 @@ Total stock of the product.
 Total stock available.
 
 - *Comment*  
-Operation-related comment entered in the system, if any. By default, the document number is displayed.
+Related comment entered in the system. By default, the document number is displayed.
 
 [commnet]: <> (Wo kommt dieses Kommentar her? Lager? Warehouse? Add Link, wenn verfübar?)
 
-
+[comment]: <> (HG: receipt? document?)
 
 - ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh)  
  Click this button to update the receipt list.
@@ -1403,13 +1437,13 @@ Operation-related comment entered in the system, if any. By default, the documen
 
 
 - [NEW/RESET]  
-Click this button to reset the *Customer/supplier* tab and create a new customer/supplier. The *Create customer/supplier* tab is displayed.
+Click this button to reset the *Customer/supplier (number)* tab and create a new customer/supplier. The *Customer/supplier (number)* tab is closed and changes automatically to the *Create customer/supplier* tab.
 
 - [DELETE CUSTOMER 'number']/[DELETE SUPPLIER 'number']  
 Click this button to delete the selected customer/supplier.
 
 - [SAVE]  
-Click this button to save all changes made in the selected customer/supplier.
+Click this button to save all changes made to the selected customer/supplier.
 
 
 ### Statistics
@@ -1418,26 +1452,29 @@ Click this button to save all changes made in the selected customer/supplier.
 
 ![Statistics](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/Statistics.png "[Statistics]")
 
-> [Info] This sub-tab is only displayed when selecting a customer in the *Customer/supplier* list and the customer has already placed at least one order.
+This sub-tab is only displayed when the selected customer has already placed at least one order.
 
 
 - *Statistic type*  
-Click the drop-down list to select the statistics to be displayed. The following options are available:
-
+Click this drop-down list to select the statistic type to be filtered for in the list. The following options are available:
   - **General turnover**  
   - **Turnover per product**
-  - **Number of units sold per product**
+  - **Number of units sold per product**  
 
-  > [Info] The fields displayed vary depending on the option selected. When selecting an option, the *Statistics extras* side bar opens automatically.
+  The *Statistics extras* side bar is expanded. Depending on the selected option, the fields in the *Statistics extras* side bar as well as the columns displayed in the list of statistics vary.
 
 
 - ![Open](../../Assets/Icons/Back02.png "[Open]") (Open)  
-Click this arrow to open the *Statistics extras* side bar if necessary.
+Click this arrow to expand the *Statistics extras* side bar.
 
 
 **General turnover**  
 
 ![General turnover](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/Statistics01.png "[General turnover]")
+
+The list displays all statistics selected in the Statistic type drop-down list. All fields are read-only.
+
+[comment]: <> (Man mus zuerst eine Auswahl in der Statistics Sidebar treffen)
 
 - *Period*  
 Period selected in the *Statistics extras* side bar.
@@ -1670,87 +1707,91 @@ Click the drop-down list to select the period for the statistics. The following 
 
 
 - [+ COMPARISON PERIOD]  
-Click this button to add a comparison period in the statistics. Additional year and period selection drop-down lists are displayed to specify the comparison period.
+  Click this button to add a comparison period in the statistics. Additional year and period selection drop-down lists are displayed to specify the comparison period.
 
 - [SHOW]  
-Click this button to display the statistics in the list.
+  Click this button to display the statistics in the list.
 
 
 - [PRINT]  
-Click this button to print the statistics displayed. The *Print view* window is displayed.
+  Click this button to print the statistics displayed. The *Print view* window is displayed.
 
 [comment]: <> (Fenster beschreiben?)
 
 - [EXCEL]  
-Click this button to download the statistics displayed in Excel format. By default, the downloaded export file is saved in the *Downloads* folder of your device.
+  Click this button to download the statistics displayed in Excel format. By default, the downloaded export file is saved in the *Downloads* folder of your device.
 
 
 - [NEW/RESET]  
-Click this button to reset the *Customer/supplier* tab and create a new customer/supplier. The *Create customer/supplier* tab is displayed.
+  Click this button to reset the *Customer/supplier (number)* tab and create a new customer/supplier. The *Customer/supplier (number)* tab is closed and changes automatically to the *Create customer/supplier* tab.
 
 - [DELETE CUSTOMER 'number']/[DELETE SUPPLIER 'number']  
-Click this button to delete the selected customer/supplier.
+  Click this button to delete the selected customer/supplier.
 
 - [SAVE]  
-Click this button to save all changes in the selected customer/supplier.
+  Click this button to save all changes in the selected customer/supplier.
 
 
 ### Drop shipping
 
 *Accounting > Settings > Tab DEBTORS/CREDITORS > Tab Customer/supplier list > Select supplier > Sub-tab Drop shipping*
 
-> [Info] This sub-tab is only displayed when selecting a supplier in the *Customer/supplier* list.
-
 ![Delivery addresses](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/DropShipping02.png "[Delivery addresses]")
 
-[comment]: <> (HG: Fenster geschnitten)
+This sub-tab is only displayed when selecting a supplier in the *Customer/supplier* list.
+
+[comment]: <> (HG: Fenster geschnitten -> Einige Fenster sind unvollständig angezeigt, see Versender -> Shipping -> Shipping drop-down list)
 
 
 **Settings**
 
 - *Drop shipping*  
-The left side menu displays the drop shipping setting options. The following menu entries are available:
+  The left side menu displays the drop shipping setting options. The following menu entries are available:
 
   - *Shipper*  
-  Click this menu entry to display the *Shipping* settings.
+    Click this menu entry to display the *Shipping* settings.
 
   - *Export*  
-  Click this menu entry to display the *Export* settings.
+    Click this menu entry to display the *Export* settings.
 
   - *Receipt export*  
-  Click this menu entry to display the *Receipt export* settings.
+    Click this menu entry to display the *Receipt export* settings.
 
   - *Reimport*  
-  Click this menu entry to display the *Reimport* settings.
+    Click this menu entry to display the *Reimport* settings.
 
 
-*Shipper*
+#### Shipper
+*Accounting > Settings > Tab DEBTORS/CREDITORS > Tab Customer/supplier list > Select supplier > Sub-tab Drop shipping > Drop shipping settings side menu > Menu entry Shipper*
 
 ![Shipper](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/DropShippingShipper.png "[Shipper]")
 
 **Shipping**
 
 - *Shipping provider*  
-Click the drop-down list to select a shipping provider. All available shipping providers are displayed in the list. Depending on the shipping provider selected, the fields displayed in the *Services* section vary.  
+  Click the drop-down list to select a shipping provider. All available shipping providers are displayed in the list. Depending on the shipping provider selected, the fields displayed in the *Services* section vary.  
 
   > [Info] The shipping provider can be configured in the *Shipping provider* tab of the *Settings* menu entry in the *Order management* module.
 
-**Services - (shipping provider name)**  
+**Services**  
 Configure the services as agreed with the shipping provider. Depending on the shipping provider selected, the services, and therefore the displayed fields, vary.
 
 [comment]: <> (Info kommt aus Fakturierung/Settings/Shipping provider/Shipping -> Link hinzufügen, wenn verfügbar.)
 
 [comment]: <> (Frage FH: Was wird by default angezeigt? Wonach richtet sich, was angezeigt wird? Kundeneinstellungen?)
 
+[comment]: <> (HG: Wir müssen überlegen, wie wir das beschreiben. Auch die Felder in den übrigen Menüpunkten, z.B. Export, sind von der Wahl des Shipping providers abhängig bzw. unterscheiden sich...)
 
-*Export*
+
+#### Export
+*Accounting > Settings > Tab DEBTORS/CREDITORS > Tab Customer/supplier list > Select supplier > Sub-tab Drop shipping > Drop shipping settings side menu > Menu entry Shipper*
 
 ![Export](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/DropShippingExport.png "[Export]")  
 
 **Export**
 
 - *Export via*  
-Click the drop-down list to select the appropriate export method. The following options are available:  
+  Click the drop-down list to select the appropriate export method. The following options are available:  
 
   - **csv**
   - **No export**
@@ -1758,10 +1799,10 @@ Click the drop-down list to select the appropriate export method. The following 
 [comment]: <> (FH: Andere Optionen? Wovon hängt es ab?)
 
 - *Number of data records per file*  
-Enter the desired number of data records per file.
+  Enter the desired number of data records per file.
 
 - *Export definition*  
-Click the drop-down list to select the export definition. The following options are available:  
+  Click the drop-down list to select the export definition. The following options are available:  
 
   - **DHL Easylog**
   - **DPD Shipping**
@@ -1770,95 +1811,117 @@ Click the drop-down list to select the export definition. The following options 
 [comment]: <> (FH: Andere Optionen? Wovon hängt es ab?)
 
 - [EDIT]  
-Click this button to edit the export definition. The *Import/export definitions* window is displayed, see [Import/export definitions](#import-export-definitions).
+  Click this button to edit the export definition. The *Import/export definitions* window is displayed, see [Import/export definitions](#import-export-definitions).
 
 - *Export file name*  
-Enter the export file name.
+  Enter the export file name.
 
 [comment]: <> (FH: versand-%p.csv -> Default value? Muss man es so beibehalten und dann % ersetzt? Oder egal?)
 
 **Export specifications**
 
 - *Minimum weight*  
-Enter the desired minimum weight.
+  Enter the desired minimum weight.
 
 [comment]: <> (HF: File weight? Better file size? Minimum oder maximum?)
 
 **Export to ECM**  
 
 - *Export to ECM*  
-Click the drop-down menu to select the appropriate option (**Yes/No**).
+  Click the drop-down menu to select the appropriate option. The following options are available:
+  - **Yes**
+  - **No**
 
 - *Export path*  
-Enter the appropriate export path. Alternatively, click the [SEARCH] button to determine the export path.
+  Enter the appropriate export path. Alternatively, click the [SEARCH] button to determine the export path.
 
 - [SEARCH]  
-Click this button to determine the export path. The *Select file* window is displayed, see [Select file](#select-file). Select the folder where the file is to be exported.
+  Click this button to determine the export path. The *Select file* window is displayed, see [Select file](#select-file). Select the folder where the file is to be exported.
 
 **Export to an external SFTP server**  
 
 - *Export to SFTP server*  
-Click the drop-down menu to select the appropriate option (**Yes/No**).
+  Click the drop-down menu to select the appropriate option. The following options are available:
+  - **Yes**
+  - **No**
 
 **Send export by email**
 
 - *Send by email*  
-Click the drop-down menu to select the appropriate option (**Yes/No**).
+  Click the drop-down menu to select the appropriate option. The following options are available:
+  - **Yes**
+  - **No**
 
 
-*Receipt export*
+#### Receipt export
+*Accounting > Settings > Tab DEBTORS/CREDITORS > Tab Customer/supplier list > Select supplier > Sub-tab Drop shipping > Drop shipping settings side menu > Menu entry Receipt export*
 
 ![Receipt export](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/DropShippingReceiptExport.png "[Receipt export]")    
 
 **Document export**  
 
 - *Export from invoice*  
-Click the drop-down menu to select the appropriate option (**Yes/No**).
+  Click the drop-down menu to select the appropriate option. The following options are available:
+  - **Yes**
+  - **No**
 
 - *Export from delivery note*  
-Click the drop-down menu to select the appropriate option (**Yes/No**).
+  Click the drop-down menu to select the appropriate option. The following options are available:
+  - **Yes**
+  - **No**
 
 - *Export from dropship delivery note*  
-Click the drop-down menu to select the appropriate option (**Yes/No**).
+  Click the drop-down menu to select the appropriate option. The following options are available:
+  - **Yes**
+  - **No**
 
 - *Export from proforma order*  
-Click the drop-down menu to select the appropriate option (**Yes/No**).
+  Click the drop-down menu to select the appropriate option. The following options are available:
+  - **Yes**
+  - **No**
 
 - *File name invoice*  
-Enter the file name for the invoice.
+  Enter the file name for the invoice.
 
 - *File name delivery note*  
-Enter the file name for the delivery note.
+  Enter the file name for the delivery note.
 
 - *File name dropship delivery note*  
-Enter the file name for the dropship delivery note.
+  Enter the file name for the dropship delivery note.
 
 - *File name proforma order*  
-Enter the file name for the proforma order.
+  Enter the file name for the proforma order.
 
 **Export to ECM**  
 
 - *Export to ECM*  
-Click the drop-down menu to select the appropriate option (**Yes/No**).
+  Click the drop-down menu to select the appropriate option. The following options are available:
+  - **Yes**
+  - **No**
 
 - *Export path*  
-Enter the appropriate export path. Alternatively, click the [SEARCH] button to determine the export path.
+  Enter the appropriate export path. Alternatively, click the [SEARCH] button to determine the export path.
 
 - [SEARCH]  
-Click this button to determine the export path. The *Select file* window is displayed, see [Select file](#select-file). Select the folder where the file is to be exported.
+  Click this button to determine the export path. The *Select file* window is displayed, see [Select file](#select-file). Select the folder where the file is to be exported.
 
 **Export to an external SFTP server**  
 
 - *Export to SFTP server*  
-Click the drop-down menu to select the appropriate option (**Yes/No**).
+  Click the drop-down menu to select the appropriate option. The following options are available:
+  - **Yes**
+  - **No**
 
 **Send receipts by email**
 
 - *Send by email*  
-Click the drop-down menu to select the appropriate option (**Yes/No**).
+  Click the drop-down menu to select the appropriate option. The following options are available:
+  - **Yes**
+  - **No**
 
 
-*Reimport*  
+#### Reimport  
+*Accounting > Settings > Tab DEBTORS/CREDITORS > Tab Customer/supplier list > Select supplier > Sub-tab Drop shipping > Drop shipping settings side menu > Menu entry Reimport*
 
 ![Reimport](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/DropShippingReimport.png "[Reimport]")   
 
@@ -1867,10 +1930,12 @@ Click the drop-down menu to select the appropriate option (**Yes/No**).
 **Reimport**
 
 - *Active*  
-Click the drop-down menu to select the appropriate option (**Yes/No**).
+  Click the drop-down menu to select the appropriate option. The following options are available:
+  - **Yes**
+  - **No**
 
 - *Import via*  
-Click the drop-down list to select the appropriate export method. The following options are available:  
+  Click the drop-down list to select the appropriate export method. The following options are available:  
 
   - **csv**
   - **No export**
@@ -1878,50 +1943,54 @@ Click the drop-down list to select the appropriate export method. The following 
 [comment]: <> (FH: Andere Optionen? Wovon abhängig?)
 
 - *Import definition*  
-Click the drop-down list to select the export definition. The following options are available:  
+  Click the drop-down list to select the export definition. The following options are available:  
 
   - **DHL Easylog**
 
 [comment]: <> (Andere Optionen, abhängig von Shipping provider?)
 
 - [EDIT]  
-Click this button to edit the import definition. The *Import/export definitions* window is displayed, see [Import/export definitions](#import-export-definitions).
+  Click this button to edit the import definition. The *Import/export definitions* window is displayed, see [Import/export definitions](#import-export-definitions).
 
 - *Import file name*  
-Enter the import file name.
+  Enter the import file name.
 
 [comment]: <> (import*.csv -> Default value? Muss man es so beibehalten und dann * ersetzt? Oder egal?)
 
 **Import from the ECM**
 
 - *Import from the ECM*  
-Click the drop-down menu to select the appropriate option (**Yes/No**).
+  Click the drop-down menu to select the appropriate option. The following options are available:
+  - **Yes**
+  - **No**
 
 - *Import path*  
-Enter the appropriate import path. Alternatively, click the [SEARCH] button to determine the import path.
+  Enter the appropriate import path. Alternatively, click the [SEARCH] button to determine the import path.
 
 - [SEARCH]  
-Click this button to determine the import path. The *Select file* window is displayed, see [Select file](#select-file). Select the folder where the file must be imported.
+  Click this button to determine the import path. The *Select file* window is displayed, see [Select file](#select-file). Select the folder where the file must be imported.
 
 - *Action after import*  
-Click the drop-down menu to select the appropriate option. The following options are available:
+  Click the drop-down menu to select the appropriate option. The following options are available:
 
   - **Delete**  
-  Select this option to delete the file after import. The field *Path to move* and the [SEARCH] button become inactive.
+    Select this option to delete the file after import. The field *Path to move* and the [SEARCH] button become inactive.
 
   - **Move**  
-  Select this option to move the file after import. The field *Path to move* and the [SEARCH] button become active.
+    Select this option to move the file after import. The field *Path to move* and the [SEARCH] button become active.
 
 - *Path to move*  
-Enter the appropriate path to move the file. Alternatively, click the [SEARCH] button to determine the path to move the file.
+  Enter the appropriate path to move the file. Alternatively, click the [SEARCH] button to determine the path to move the file.
 
 - [SEARCH]  
-Click this button to determine the path to move the file. The *Select file* window is displayed, see [Select file](#select-file). Select the folder where the file must be moved.
+  Click this button to determine the path to move the file. The *Select file* window is displayed, see [Select file](#select-file). Select the folder where the file must be moved.
 
 **Import from an external SFTP server**
 
 - *Import from SFTP server*  
-Click the drop-down menu to select the appropriate option (**Yes/No**).
+  Click the drop-down menu to select the appropriate option. The following options are available:
+  - **Yes**
+  - **No**
 
 
 ### CRM information
@@ -1932,58 +2001,59 @@ Click the drop-down menu to select the appropriate option (**Yes/No**).
 
 > [Info] When selecting a supplier (customer 70000 onwards) in the *Customer/supplier list*, only the *General* and *Credit rating* sections are displayed. Moreover, the *General* section contains only the *Supervisor*, *Area*, *Last pers. contact*, *Industry* and *Industry 2* fields.
 
+[comment]: <> (HG: Unterschied zu CRM oben? Wenn kein Unterschied -> Satz mit Verweis!)
 
 **General**
 
   - *Customer no.*  
-  Enter the appropriate customer number.
+    Enter the appropriate customer number.
 
   - *Type*  
-  Enter the type of customer.
+    Enter the type of customer.
 
   - *Date of birth*  
-  Enter the date of birth or click the ![Calendar](../../Assets/Icons/Calendar.png "[Calendar]") (Calendar) button to select the date.
+    Enter the date of birth or click the ![Calendar](../../Assets/Icons/Calendar.png "[Calendar]") (Calendar) button to select the date.
 
   - *Supervisor*  
-  Click the drop-down list to select the person responsible for this customer/supplier.
+    Click the drop-down list to select the person responsible for this customer/supplier.
 
   - *Area*  
-  Enter the applicable area, if necessary.
+    Enter the applicable area, if necessary.
 
   - *Last pers. contact*  
-  Enter the date of the last personal contact or click the ![Calendar](../../Assets/Icons/Calendar.png "[Calendar]") (Calendar) button to select the date.
+    Enter the date of the last personal contact or click the ![Calendar](../../Assets/Icons/Calendar.png "[Calendar]") (Calendar) button to select the date.
 
   - *Industry*  
-  Enter information about the applicable industrial sector, if necessary.
+    Enter information about the applicable industrial sector, if necessary.
 
   - *Industry 2*  
-  Enter further information about the applicable industrial sector, if necessary.
+    Enter further information about the applicable industrial sector, if necessary.
 
 
 **Credit rating**
 
   - *Request from*  
-  Enter the request date or click the ![Calendar](../../Assets/Icons/Calendar.png "[Calendar]") (Calendar) button to select the date.
+    Enter the request date or click the ![Calendar](../../Assets/Icons/Calendar.png "[Calendar]") (Calendar) button to select the date.
 
   - *Capital*  
-  Enter the applicable capital amount.
+    Enter the applicable capital amount.
 
   - *Employees*  
-  Click the drop-down list to select the appropriate number of employees.
+    Click the drop-down list to select the appropriate number of employees.
 
   - *Status from*  
-  Enter the status date or click the ![Calendar](../../Assets/Icons/Calendar.png "[Calendar]") (Calendar) button to select the date.
+    Enter the status date or click the ![Calendar](../../Assets/Icons/Calendar.png "[Calendar]") (Calendar) button to select the date.
 
   - *Year*  
-  Enter the year of the credit rating.
+    Enter the year of the credit rating.
 
   - *Turnover*  
-  Enter the turnover value.
+    Enter the turnover value.
 
   [comment]: <> (Im System "Sales")
 
   - *Other information*  
-  Enter any other relevant information.
+    Enter any other relevant information.
 
 
 **Document Dispatch Notification Settings**
@@ -1991,10 +2061,10 @@ Click the drop-down menu to select the appropriate option (**Yes/No**).
 > [Info] This section is only relevant for customers, not for suppliers.
 
 - *Overwrite* [x]  
-Select the checkbox to display the options below. Otherwise, the default settings are applied.
+  Select the checkbox to display the options below. Otherwise, the default settings are applied.
 
 - *Dispatch method*  
-Click the drop-down list to select the dispatch method. The following options are available:  
+  Click the drop-down list to select the dispatch method. The following options are available:  
 
     - **Email**
     - **Post**
@@ -2004,22 +2074,22 @@ Click the drop-down list to select the dispatch method. The following options ar
 [comment]: <> (Im System Shipping method)
 
 - *Order origin*  
-Click the drop-down list to select the applicable order origins(s). Multiple selection is possible.
+  Click the drop-down list to select the applicable order origins(s). Multiple selection is possible.
 
 - *Template*  
-Click the drop-down list to select the applicable template.
+  Click the drop-down list to select the applicable template.
 
 [comment]: <> (Drop-down list options to be localised)
 
 
 - [NEW/RESET]
-Click this button to reset the Customer/supplier tab and create a new customer/supplier. The Create customer/supplier tab is displayed.
+  Click this button to reset the *Customer/supplier (number)* tab and create a new customer/supplier. The *Customer/supplier (number)* tab is closed and changes automatically to the *Create customer/supplier* tab.
 
 - [DELETE CUSTOMER 'number']/[DELETE SUPPLIER 'number']
-Click this button to delete the selected customer/supplier.
+  Click this button to delete the selected customer/supplier.
 
 - [SAVE]
-Click this button to save all changes made in the selected customer/supplier.
+  Click this button to save all changes made to the selected customer/supplier.
 
 
 ### Notes
@@ -2028,19 +2098,20 @@ Click this button to save all changes made in the selected customer/supplier.
 
 ![Notes](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/Notes02.png "[Notes]")
 
+[comment]: <> (HG: Unterschied zu CRM oben? Wenn kein Unterschied -> Satz mit Verweis!)
 
 - *Comments*  
-Enter any further relevant information in the box. The information entered here is displayed in the *Comments* column in the *Customer/supplier* tab.
+  Enter any further relevant information in the box. The information entered here is displayed in the *Comments* column in the *Customer/supplier* tab.
 
 
 - [NEW/RESET]  
-Click this button to reset the *Customer/supplier* tab and create a new customer/supplier. The *Create customer/supplier* tab is displayed.
+  Click this button to reset the *Customer/supplier (number)* tab and create a new customer/supplier. The *Customer/supplier (number)* tab is closed and changes automatically to the *Create customer/supplier* tab.
 
 - [DELETE CUSTOMER (XXXXX)]/[DELETE SUPPLIER (XXXXX)]  
-Click this button to delete the selected customer/supplier.
+  Click this button to delete the selected customer/supplier.
 
 - [SAVE]  
-Click this button to save all changes in the selected customer/supplier.
+  Click this button to save all changes in the selected customer/supplier.
 
 
 #### Select tax office
@@ -2052,29 +2123,29 @@ Click this button to save all changes in the selected customer/supplier.
 ![Select tax office](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/SelectTaxOffice.png "[Select tax office]")
 
 - *Search*  [Search bar]  
-Enter here the text to be searched for. Press ENTER to start the search.
+  Enter the search text (letters or numbers). Press the **ENTER** key to start the search. All tax offices that match the search criteria are displayed in the list below.
 
 - [CLEAR]  
-Click this button to clear the search text.
+  Click this button to clear the search bar.
 
-The search results are displayed in a column view. The information displayed in columns is read-only.
+The list displays all search results. All fields are read-only.
 
 - *No.*  
-This column displays the tax office number.
+  Tax office number.
 
 - *Name*  
-This column displays the tax office name.
+  Tax office name.
 
 - *Street*  
-This column displays the tax office street.
+  Tax office street.
 
 - *Street*  
-This column displays additional address details.
+  Additional address details.
 
 [comment]: <> (Or Zip code? Rename column. Bug in OneNote)
 
 - *City*  
-This column displays the tax office location.
+  Tax office city or town.
 
 [comment]: <> (FH: Fenster funktioniert nicht? -> Wenn man versucht zu suchen, Fehlermeldung. Plugin fehlt?)
 
@@ -2087,63 +2158,59 @@ This column displays the tax office location.
 
 
 - [EXCEL]  
-Click this button to display the *EXCEL* context menu. The following options are available:  
+  Click this button to display the *EXCEL* context menu. The following options are available:  
 
   - *Export current page*
 
+[comment]: <> (EXCEL Menü fehlt manchmal; Export all Option nicht angezeigt. Warum? Voraussetzungen? Plugin/Modul?)
 
-The existing additional fields are displayed in a column view. Depending on the settings, the displayed columns may vary. All information provided in columns is read-only.
+The list displays all additional fields. Depending on the settings, the displayed columns may vary. All fields are read-only.
 
-- [Checkbox]  
-Click this checkbox to select a field to be edited or deleted. The *Edit* section is displayed.
+- [x]  
+  Select the checkbox to display the *Edit* section.
 
 - *Field ID*  
-This column displays the field ID entered.
+  Field ID entered.
 
 - *Field name*  
-This column displays the field name entered.
+  Field name entered.
 
 - *Field groups*  
-This column displays the field groups selected.
+  Field groups selected.
 
 - *Type*  
-This column displays the type of field selected.
+  Type of field selected.
 
 - *Printing on document type(s)*  
-This column displays the document selected for printing.
+  Document selected for printing.
 
 
 - [CREATE]  
-Click this button to create new additional fields. The *Add* section is displayed.
+  Click this button to create one or multiple additional fields. The *Add* section is displayed.
 
 - [DELETE]  
-Click this button to delete a selected address from the list.
+  Click this button to delete the selected additional field from the list.
 
 - ![Refresh](../../Assets/Icons/Refresh03.png "[Refresh]")  (Refresh)  
-Click this button to refresh the list after making any changes.
+  Click this button to update the list.
 
 
 **Add/Edit**
 
-![Add additional fields](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/EditAdditionalFields.png "[Add additional fields]")
+![Add additional fields](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/EditAdditionalFieldsAddEdit.png "[Add additional fields]")
 
-![Add additional fields](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/EditAdditionalFieldsNumberField.png "[Add additional fields]")
-
-![Add additional fields](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/EditAdditionalFieldsComboBox.png "[Add additional fields]")
-
-> [Info] When clicking the [CREATE] button, the *Add* section is displayed. When marking a checkbox from the delivery addresses list, the address details are displayed in the input fields, where they can be edited. The *Add* section name changes to *Edit*.
+Click the [CREATE] button to display the *Add* section or select the checkbox of an additional field to display the *Edit* section. The fields in the *Add* and the *Edit* section are identical.
 
 [comment]: <> (Bilder ändern sich nach Type? Alle abgebildet? Mehrere Bilder Grouppieren? -> Snagit RS HG)
 
 - *Field ID*  
-Enter the field ID. The field ID must contain at least two characters. Only a-z und 0-9 can be used.
+  Enter the field ID. The field ID must contain at least two characters. Only a-z und 0-9 can be used.
 
 - *Field name*  
-Enter a field name.
+  Enter a field name.
 
 - *Type*  
-Click the drop-down list to select the appropriate type. The following options are available:
-
+  Click the drop-down list to select the appropriate field type. The following options are available:
   - **Text field**
   - **Number field**
   - **Text field, multiline**
@@ -2151,8 +2218,7 @@ Click the drop-down list to select the appropriate type. The following options a
   - **ComboBox**
   - **Date**
   - **Time**  
-
-  > [Info] Depending on the type selected, the fields displayed vary slightly.
+  Depending on the selected field type, different fields are displayed.
 
 
 - *Field groups*  
@@ -2161,22 +2227,25 @@ Click the drop-down list to select the appropriate option.
 [comment]: <> (FH: Field groups leer? Meaning? Options? Where should it be preconfigured for the drop-down list options to be displayed?)
 
 - *Multilingual*  
-Click the drop-down list to select the appropriate option (**No/Yes**).
+  Click the drop-down list to select the appropriate option. The following options are available:
+  - **Yes**
+  - **No**
 
 - *Force input*  
-Click the drop-down list to select the appropriate option (**No/Yes**).
+  Click the drop-down list to select the appropriate option. The following options are available:
+  - **Yes**
+  - **No**
 
 [comment]: <> (Meaning? mandatory input? DE = Auswahl / Eingabe erzwingen)
 
 - *Minimum input length/value*  
-Enter a number to determine the minimum input length/value.
+  Enter a number to determine the minimum input length/value. This field is only displayed for the *Text field* and the *Number field* field types.
 
 - *Maximum input length/value*  
-Enter a number to determine the maximum input length/value.
+  Enter a number to determine the maximum input length/value. This field is only displayed for the *Text field* and the *Number field* field types.
 
 - *Print on the following documents*  
-Click the drop-down list to select the applicable document. The following options are available:
-
+  Click the drop-down list to select the applicable document. The following options are available:
   - **Offer**
   - **Order confirmation**
   - **Invoice**
@@ -2197,19 +2266,19 @@ Click the drop-down list to select the applicable document. The following option
   [comment]: <> (Alle Dokumentennamen vereinheitlichen! Terminologie prüfen!)
 
 - *Values*  
-When selecting the **ComboBox** option, an input box is displayed. Click the *Value* and *Text* table cells to enter data.
+  Click the *Value* and *Text* fields in the input box to enter data. If no input line exists, click the [ADD] button. The input box is only displayed for the *Combo box* field type.
 
 - [ADD]  
-Click this button to add a row in the input box.
+  Click this button to add an input line for the values of the combo box.
 
 - [DELETE]  
-Click this button to delete.
+  Click this button to delete an input line.
 
 - [SAVE]  
-Click this button to save any changes made.
+  Click this button to save any changes made.
 
 - [CLEAR]  
-Click this button to clear the input lines.
+  Click this button to clear all input lines.
 
 
 ## Loyalty cards
@@ -2218,22 +2287,24 @@ Click this button to clear the input lines.
 
 ![Loyalty cards](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/LoyaltyCards.png "[Loyalty cards]")
 
+[comment]: <> (HG: Ab hier Korrektur gelesen?)
+
 **Loyalty card printing**
 
 > [Info] Select the customer(s) whose loyalty cards must be printed by dragging and dropping them from the customer list into the *Loyalty card printing* tab with the mouse.
 
 - *Customer no.*  
-Customer identification number as assigned in the system.
+  Customer identification number as assigned in the system.
 
 - *Short name*  
-Short name as provided in the system.
+  Short name as provided in the system.
 
 - *No.*  
-Card number.
+  Card number.
 
 
 - [PRINT CUSTOMER CARD]  
-Click this button to display a preview of the printable customer card.
+  Click this button to display a preview of the printable customer card.
 
 
 #### Import/export definitions
@@ -2243,37 +2314,37 @@ Click this button to display a preview of the printable customer card.
 **Name**
 
 - (Drop-down list)  
-Click the drop-down list to select a preconfigured import/export definition type. If there are any available, the second drop-down list displays the preconfigured definitions of the selected type.
+  Click the drop-down list to select a preconfigured import/export definition type. If there are any available, the second drop-down list displays the preconfigured definitions of the selected type.
 
 [comment]: <> (Bedeutung von Asterisk neben Namen?)
 
 - (Drop-down list)  
- Click the drop-down list to select the desired preconfigured import/export definition.
+  Click the drop-down list to select the desired preconfigured import/export definition.
 
 - [ADD]  
-Click this button to create an import/export definition. The *New import/export definition* window is displayed, see [New import/export definition](#new-import-export-definition).
+  Click this button to create an import/export definition. The *New import/export definition* window is displayed, see [New import/export definition](#new-import-export-definition).
 
 - [EDIT]  
-Click this button to rename an import/export definition. The *Rename import/export definition* is displayed, see [Rename import/export definition](#rename-import-export-definition).
+  Click this button to rename an import/export definition. The *Rename import/export definition* is displayed, see [Rename import/export definition](#rename-import-export-definition).
 
 - [DELETE]  
-Click this button to delete an import/export definition. A confirmation window is displayed.
+  Click this button to delete an import/export definition. A confirmation window is displayed.
 
 
 **Fields in the definition**  
 This list displays all fields contained in the selected import/export definition. Use the arrow buttons to modify the fields in the list:
 
-  - ![Up](../../Assets/Icons/ArrowUp.png "[Up]") (Up)  
-Use this button to move a selected field up in the list.
+- ![Up](../../Assets/Icons/ArrowUp.png "[Up]") (Up)  
+  Use this button to move a selected field up in the list.
 
-  - ![Down](../../Assets/Icons/ArrowDown.png "[Down]") (Down)  
-Use this button to move a selected field down in the list.
+- ![Down](../../Assets/Icons/ArrowDown.png "[Down]") (Down)  
+  Use this button to move a selected field down in the list.
 
-  - ![Left](../../Assets/Icons/ArrowLeft.png "[Left]") (Left)  
-Use this button to move a selected field left, from the *Possible fields* list to the *Fields in the definition* list.
+- ![Left](../../Assets/Icons/ArrowLeft.png "[Left]") (Left)  
+  Use this button to move a selected field left, from the *Possible fields* list to the *Fields in the definition* list.
 
-  - ![Right](../../Assets/Icons/ArrowRight.png "[Right]") (Right)  
-Use this button to move a selected field right, from the *Fields in the definition* list to the *Possible fields* list.
+- ![Right](../../Assets/Icons/ArrowRight.png "[Right]") (Right)  
+  Use this button to move a selected field right, from the *Fields in the definition* list to the *Possible fields* list.
 
 **Column**  
 The letter and number in brackets indicate the column where a selected field is placed.
@@ -2288,41 +2359,41 @@ Click this button to enter an "ignore field", that is, to indicate that the fiel
 **CSV format definition**
 
 - *Field separating character*  
-Enter the character to be used to separate fields. This value may be set up by default to comma or semicolon.
+  Enter the character to be used to separate fields. This value may be set up by default to comma or semicolon.
 
 - *Escape character*  
-Enter the character to be used to escape. This value may be set up by default to backslash.
+  Enter the character to be used to escape. This value may be set up by default to backslash.
 
 [comment]: <> (Further info needed! RS HG)
 
 - *Column name*  
-Click the drop-down list to select the appropriate option (**Yes/No**) to include or not the column name in the export/import.
+  Click the drop-down list to select the appropriate option (**Yes/No**) to include or not the column name in the export/import.
 
 - *Date format*  
-Click the drop-down list to select the desired date and time format.
+  Click the drop-down list to select the desired date and time format.
 
 - *Example data set*  
-An example of a data set with the current field definition is displayed. This field is read-only.
+  An example of a data set with the current field definition is displayed. This field is read-only.
 
 [comment]: <> (Unsure! Check!)
 
 - *Field delimiting character*  
-Enter the character to be used to separate fields. This value may be set up by default to quotation mark.
+  Enter the character to be used to separate fields. This value may be set up by default to quotation mark.
 
 - *Row end character*  
-Click the drop-down list to select the appropriate option, either **Automatic** or the applicable operating system.
+  Click the drop-down list to select the appropriate option, either **Automatic** or the applicable operating system.
 
 - *Character set*  
-Click the drop-down list to select the appropriate option, either **Automatic** or the applicable encoding.
+  Click the drop-down list to select the appropriate option, either **Automatic** or the applicable encoding.
 
 - *Incorrect tow end character*  
-Click the drop-down list to select the appropriate option (**Ignore/Repair**).
+  Click the drop-down list to select the appropriate option (**Ignore/Repair**).
 
 - *Number format*  
-Click the drop-down list to select the desired number format.
+  Click the drop-down list to select the desired number format.
 
 - [SAVE]  
-Click this button to save the changes.
+  Click this button to save the changes.
 
 
 
@@ -2331,13 +2402,13 @@ Click this button to save the changes.
 ![New import/export definition](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/NewImportExportDefinition.png "[New import/export definition]")
 
 - *For*  
-Click the drop-down list to select the import/export definition type where the new definition will be added.  
+  Click the drop-down list to select the import/export definition type where the new definition will be added.  
 
 - *Name*  
-Enter a name for the new import/export definition to be created.
+  Enter a name for the new import/export definition to be created.
 
 - [SAVE & NEW]  
-Click this button to create a new import/export definition.  
+  Click this button to create a new import/export definition.  
 
 
 #### Rename import/export definition  
@@ -2345,16 +2416,16 @@ Click this button to create a new import/export definition.
 ![Rename import/export definition ](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/RenameImportExportDefinition.png "[Rename import/export definition ]")
 
 - *For*  
-Click the drop-down list to select the import/export definition type where the new definition will be renamed.  
+  Click the drop-down list to select the import/export definition type where the new definition will be renamed.  
 
 - *Old name*  
-The previously given name is displayed. This field is read-only.
+  The previously given name is displayed. This field is read-only.
 
 - *New name*  
-Enter a new name for the selected import/export.
+  Enter a new name for the selected import/export.
 
 - [SAVE]  
-Click this button to rename the selected import/export definition.  
+  Click this button to rename the selected import/export definition.  
 
 
 #### Select file
@@ -2362,33 +2433,33 @@ Click this button to rename the selected import/export definition.
 ![Select file](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/SelectFile.png "[Select file]")
 
 - *New documents*  
-The new uploaded documents are contained in this folder.
+  The new uploaded documents are contained in this folder.
 
 - *Registered documents*  
-The documents that have been registered in the system are contained in this folder.
+  The documents that have been registered in the system are contained in this folder.
 
 - *Printed documents*  
-The documents that have been printed are contained in this folder.
+  The documents that have been printed are contained in this folder.
 
   > [Info] Further folders can be created in the *Documents* module.
 
 - *Name*  
-Name of folder or file.
+  Name of folder or file.
 
 - *Size*  
-Size of folder or file.
+  Size of folder or file.
 
 - *Type*  
-Type of item.
+  Type of item.
 
 - *Changed*  
-Date and time when the folder or file were modified.
+  Date and time when the folder or file were modified.
 
 - *Owner*  
-Person owning the folder or file.
+  Person owning the folder or file.
 
 - [CLOSE]  
-Click this button to close the window.
+  Click this button to close the window.
 
 - [OPEN]  
-Click this button to open the selected folder.
+  Click this button to open the selected folder.
