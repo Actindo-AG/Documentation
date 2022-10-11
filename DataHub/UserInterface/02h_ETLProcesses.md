@@ -67,8 +67,6 @@
 - [x]     
   Select the checkbox to display the editing toolbar. Alternatively you can click directly a row in the list to select the checkbox to the row and display the editing toolbar. You cannot select multiple checkboxes at once.
 
-  [comment]: <> (Leere Toolbar außer bei error - ist das richtig?)
-
 - [RETRY]   
   Click this button to restart the selected ETL process. This button is only displayed, when a single checkbox of an ETL process with the **Error** status is selected. The *Process will be retried shortly* pop-up window is displayed in the upper right corner.
 

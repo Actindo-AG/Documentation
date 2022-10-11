@@ -40,7 +40,7 @@ In the *DASHBOARDS* tab, the custom tabs with composable dashlets are displayed.
 - [SAVE]   
   Click this button to save the selected tab for import and close the *Add a new Tab* window. The selected tab is imported.
 
-[comment]: <> (When is this tab unlocked? Only available in the Actindo Dashboard?)
+[comment]: <> (tab only available in the Actindo Dashboard - should be removed here -> bug!)
 
 
 

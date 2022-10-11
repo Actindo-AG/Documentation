@@ -28,8 +28,6 @@ The cause of the faulty ETL process has been fixed.
 2. Select the checkbox of the mapping you want to restart.   
   The editing toolbar is displayed above the list.
 
-  [comment]: <> (why can I only select one mapping and not several mappings at a time?)
-
 3. Click the [RETRY] button in the editing toolbar.   
   The selected mapping has been restarted. The pop-up window *Process will be retried shortly* is displayed.
 

@@ -26,9 +26,7 @@
   For detailed information, see [Edit an attribute set](../Integration/02_ManageAttributeSets.md#edit-an-attribute-set).
 
 - [DELETE]   
-  Click this button to delete the selected attribute set. This button is only displayed, when the checkbox of at least one attribute set is selected.       
-
-  [comment]: <> (Mostly not possible to delete an attribute set -> no integration procedure to delete an attribute set -> why is the button still existing? Not working... )
+  Click this button to delete the selected attribute set. This button is only displayed, when the checkbox of at least one attribute set is selected. An attribute set cannot be deleted if any attribute is assigned to it.      
 
 The list displays all attribute sets. Depending on the settings, the displayed columns may vary. All fields are read-only.
 
@@ -54,7 +52,7 @@ The list displays all attribute sets. Depending on the settings, the displayed c
 
 
 - *Plugin*   
-  Module or plugin from which the attribute set is created.
+  Module or plugin that owns the attribute set.
 
 - *ID*   
   Attribute set identification number. The ID number is automatically assigned by the system.
@@ -119,7 +117,7 @@ The list displays all attribute sets. Depending on the settings, the displayed c
 - *Entity type*   
   Click the drop-down list to select the appropriate entity type. All available entity types are displayed in the list.
 
-  [comment]: <> (list for entity types?)
+  > Entity types are all classes interacting with the *DataHub* module.
 
 
 - *Inherit/Copy values from*   
@@ -255,11 +253,9 @@ When the ![Settings](../../Assets/Icons/Settings01.png "[Settings]") (Settings) 
   Attribute name.
 
 - *Calculated field*   
-  Indication whether the attribute is a calculated field or not:
+  Indication whether the attribute is calculated by an ETL mapping from other fields to itself or not:
   - ![Check](../../Assets/Icons/Check.png "[Check]") (Checkmark): The attribute is a calculated field.   
   - ![Cross](../../Assets/Icons/Cross02.png "[Cross]") (Cross): The attribute is no calculated field.
-
-  [comment]: <> (What means 'Calculated'? completeness calculation? what field are calculated?)
 
 
 - *Key*   
@@ -272,9 +268,7 @@ When the ![Settings](../../Assets/Icons/Settings01.png "[Settings]") (Settings) 
   Inheritance attribute set. The name of the attribute set from which the attribute value is inherited is displayed. If the attribute value is not inherited, the field is empty.
 
 - *Plugin*   
-  Module or plugin from which the attribute is created.
-
-  [comment]: <> (Is that correct?)
+  Module or plugin that owns the attribute set.
 
 - *Required*  
   Indication whether the attribute value is required or not. The following options are only displayed, when the ![Settings](../../Assets/Icons/Settings01.png "[Settings]") (Settings) button is inactive:

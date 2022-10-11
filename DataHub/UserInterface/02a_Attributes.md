@@ -65,7 +65,7 @@ The list displays all attributes. Depending on the settings, the displayed colum
 
 
 - *Plugin*   
-  Module or plugin from which the attribute is created.
+  Module or plugin that owns the attribute.
 
 - *ID*   
   Attribute identification number. The ID number is automatically assigned by the system.
@@ -237,8 +237,6 @@ The list displays all attributes. Depending on the settings, the displayed colum
 
 
 - *Calculated field*   
-  Indication whether the attribute is a calculated field or not:
+  Indication whether the attribute is calculated by an ETL mapping from other fields to itself or not:
   - ![Check](../../Assets/Icons/Check.png "[Check]") (Checkmark): The attribute is a calculated field.   
   - ![Cross](../../Assets/Icons/Cross02.png "[Cross]") (Cross): The attribute is no calculated field.
-
-  [comment]: <> (What means 'Calculated'? completeness calculation? what field are calculated?)

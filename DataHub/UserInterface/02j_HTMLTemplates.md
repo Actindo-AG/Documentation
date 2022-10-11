@@ -75,6 +75,9 @@ The list displays all HTML templates. Depending on the settings, the displayed c
 - *Entity type*   
   Click the drop-down list and select the entity type which should be applied within the template. All entity types are displayed in the list.
 
+  > Entity types are all classes interacting with the *DataHub* module.
+
+
 - *Entity ID*   
   Enter the ID of the entity which should be applied within the template.
 
@@ -123,6 +126,9 @@ The list displays all HTML templates. Depending on the settings, the displayed c
 
 - *Entity type*   
   Click the drop-down list and select the entity type which should be applied within the template. All entity types are displayed in the list.
+
+  > Entity types are all classes interacting with the *DataHub* module.
+
 
 - *Entity ID*   
   Enter the ID of the entity which should be applied within the template.

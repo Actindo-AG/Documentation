@@ -51,7 +51,8 @@ Additional attributes for the attribute set have been created, see [Create an at
 
 4. Click the *Entity type* drop-down list and select the appropriate entity type. The list of options may differ depending on the system configuration.
 
-[comment]: <> (More information about the entity type!)
+  > Entity types are all classes interacting with the *DataHub* module.
+
 
 5. For the next steps to create an attribute set, follow the appropriate procedure:   
     - [Create an attribute set without attribute inheritance](#create-an-attribute-set-without-attribute-inheritance)

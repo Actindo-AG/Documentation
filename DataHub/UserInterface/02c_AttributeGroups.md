@@ -50,8 +50,7 @@ The list displays all attributes assigned to the selected attribute group. Depen
   Description to the attribute.
 
 - *Plugin*   
-  Module or plugin from which the attribute is created.
-  [comment]: <> (Is that correct?)
+  Module or plugin that owns the attribute.
 
 
 - *Read-only*   

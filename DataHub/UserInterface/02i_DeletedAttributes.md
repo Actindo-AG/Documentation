@@ -56,7 +56,7 @@ The list displays all deleted attributes. Depending on the settings, the display
 
 
 - *Plugin*   
-  Module or plugin from which the attribute is created.
+  Module or plugin that owns the attribute.
 
 - *ID*   
   Attribute identification number. The ID number is automatically assigned by the system.

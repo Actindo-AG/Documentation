@@ -97,8 +97,6 @@ If the selected change tracking mode of an ETL mapping equals **Semi-automatic**
   The editing toolbar is displayed above the list.
 
 5. Click the [CONFIRM] button in the editing toolbar.   
-  The selected mappings have been removed from the list. The mappings have been applied. The confirmed mappings are displayed in the *ETL PROCESSES* tab of the *Datahub* module with the **Semi-automatic accepted** status.
+  The selected mappings have been removed from the list. The mappings have been applied. The confirmed mappings are displayed in the *ETL PROCESSES* tab of the *Datahub* module with the **Semi-automatic accepted** status. As soon as the confirmed mappings are executed, their status change to **Done**.
 
   > [Info] If the ETL mappings should not be applied, click the [REJECT] button in the editing toolbar instead. The selected mappings will be removed from the list without being rerun.
-
-[comment]: <> (doesn't work for me. Why not displayed in the accepted list in datahub?)

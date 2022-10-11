@@ -56,6 +56,7 @@ An attribute set has been created, see [Create an attribute set](./02_ManageAttr
 
   > [Info] Note that data types can be restricted to certain entity types and therefore also to attribute sets.
 
+
 7. Select an attribute set in the *Assigned sets* drop-down list.
 
   > [Info] You can assign the attribute to multiple sets. Repeat the steps **7** to **8** to assign the attribute to a further attribute set. To delete the assignment to a selected set, click the ![Delete](../../Assets/Icons/Trash01.png "[Delete]") (Delete) button right to the set.
