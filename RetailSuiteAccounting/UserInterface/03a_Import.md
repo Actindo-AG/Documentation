@@ -4,80 +4,76 @@
 
 ![Import](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Import/Import.png "[Import]")
 
-**Import from:**
+> [Info] The import function is also available in the *FISCAL YEARS* tab of the *Settings* menu entry, see [Import postings](./02d_FiscalYears.md#import-postings).
 
-The following import options are available in the tab:
-- *Compeso 7.x fiscal year backups*
-- *Import of data in CVS format*
-- *Import of data in CVS format from invoicing solution*
-- *Import of data in GDI standard interface format*
-- *Import of openTRANS INVOIC XLM data*
-- *Import of data in FQBATCH format from Schilling Software GmbH*
+- *Import from:*  
+A list of the available import options is displayed:
+
+  - *Compeso 7.x fiscal year backups*
+  - *Import of data in CVS format*
+  - *Import of data in CVS format from invoicing solution*
+  - *Import of data in GDI standard interface format*
+  - *Import of openTRANS INVOIC XLM data*
+  - *Import of data in FQBATCH format from Schilling Software GmbH*
 
 
 - [COMPESO 7.X]  
-  Click this button to import data in Compeso proprietary format. The *Compeso 7.X* window is displayed, see [Compeso 7.X](#compeso-7x).
+Click this button to import data in Compeso proprietary format. Follow the instructions provided in the following windows, see [Compeso 7.X](#compeso-7x).
 
 - [CSV]  
-  Click this button to import data in CSV format. The *CSV* window is displayed, [CSV](#csv).
+Click this button to import data in CSV format. Follow the instructions provided in the following windows, see [CSV](#csv).
 
 - [CSV LS-MOTOR]  
-  Click this button to import data in CSV format from an invoicing solution. The *CSV LS-MOTOR* window is displayed, see [CSV LS-Motor](#csv-ls-motor).
+Click this button to import data in CSV format from an invoicing solution. Follow the instructions provided in the following windows, see [CSV LS-Motor](#csv-ls-motor).
 
 [comment]: <> (LS ENGINE?)
 
 - [GDI]  
-  Click this button to import data in GDI standard interface format. The *GDI* window is displayed, see [GDI](#gdi).
+Click this button to import data in GDI standard interface format. Follow the instructions provided in the following windows, see [GDI](#gdi).
 
 - [OPENTRANS]  
-  Click this button to import data in openTRANS INVOIC XML format. The *OPENTRANS* window is displayed, see [openTRANS](#opentrans).
+Click this button to import data in openTRANS INVOIC XML format. Follow the instructions provided in the following windows, see [openTRANS](#opentrans).
 
-- [SCHILLING ACCOUNTING]  
-  Click this button to import data in Schilling Software proprietary FQBATCH format. The *SCHILLING ACCOUNTING* window is displayed, see [Schilling accounting](#schilling-accounting).
-
-  > [Info] This tab can also be accessed via the *Import postings* window from the [FISCAL YEARS](./02d_FiscalYears.md#import-postings) tab in the user interface.
+- [SCHILLING BUCHHALTUNG]  
+Click this button to import data in Schilling Software proprietary FQBATCH format. Follow the instructions provided in the following windows, see [Schilling Accounting](#schilling-accounting).
 
 
 ## Compeso 7.X
 
 *Accounting > Extras > Tab IMPORT > Button COMPESO 7.X*
 
-### Compeso 7.X: Step 1
-
 ![Import Compeso 7.X Step 1](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Import/Compeso01.png "[Import Compeso 7.X Step 1]")
 
-**Files**
+**Step 1**
 
-- *backup.ctl*   
-  Select the corresponding file for upload in the ctl-format.
-  - [Choose file]  
-    Click this button to select a file from your device to be uploaded. The explorer is displayed in a new window. If no file has been selected yet, the notice *No file chosen* is displayed to the right of the button.
-- *backup.dat*   
-  Select the corresponding file for upload in the dat-format.
-  - [Choose file]  
-    Click this button to select a file from your device to be uploaded. The explorer is displayed in a new window. If no file has been selected yet, the notice *No file chosen* is displayed to the right of the button.
-- *abrzr.dat*   
-  Select the corresponding file for upload in the dat-format.
-  - [Choose file]  
-    Click this button to select a file from your device to be uploaded. The explorer is displayed in a new window. If no file has been selected yet, the notice *No file chosen* is displayed to the right of the button.
+- *Files*  
+A list of compatible files is displayed. The following files are permitted:
 
+  - *backup.ctl*  
+  - *backup.dat*
+  - *abrzr.dat*
+
+
+- [Choose file]  
+Click this button to select a file from your computer to be uploaded. If no file has been selected yet, the notice "No file chosen" is displayed.
 
 - [UPLOAD]  
-  Click this button to upload the selected file(s). The *Compeso 7.x: Step 2* window is displayed. The *Converting...* notice is displayed during the conversion process.
+Click this button to upload the selected file. The *Compeso 7.x: Step 2* is displayed.
 
 - [CONTINUE]  
-  Click this button to proceed to the next step. This button is locked until at least one file has been uploaded.
+Click this button to proceed to the next step.
 
-### Compeso 7.X: Step 2
 
 ![Import Compeso 7.X Step 2](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Import/Compeso02.png "[Import Compeso 7.X Step 2]")
 
-**Converting...**
+**Step 2**
+
+- *Converting...*  
+This notice is displayed during the import process.  
 
 - [CANCEL]  
-  Click this button to cancel the process. This button is only displayed during the conversion process.
+Click this button to cancel the process.
 
-> [Info] The *Converting...* notice is displayed during the conversion process. As soon as the conversion is completed, the *File imported!* confirmation window is displayed. Click the [OK] button to continue. The *Compeso 7.x: Step 3* window is displayed.
 
 [comment]: <> (Der Prozess geht nicht weiter, System hängt. Ich habe versucht eine exportierte DAT-Datei -Reiter EXPORT- zu importieren, aber es scheint nicht zu funktioniere. Bug oder keine richtige Datei importiert?)
 
@@ -86,164 +82,139 @@ The following import options are available in the tab:
 
 *Accounting > Extras > Tab IMPORT > Button CSV*
 
-### CSV: Step 1
+![Import CSV Step 1](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Import/CSV01.png "[Import CSV Step 1]")
 
-![Import CSV Step 1](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Import/CSVStep1.png "[Import CSV Step 1]")
+![Import CSV Step 1](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Import/CSV01DMS.png "[Import CSV Step 1]")
 
-**Files**
+[comment]: <> (Screenshots zusammenfügen? -> RS HG)
 
-- *xxxx.CSV*    
-  Select the CSV file to be imported.
-  - ![Radio button](../../Assets/Icons/RadioButtonChecked.png "[Radio button]") *Local file*  
-    Select this radio button to select a locale file from your device to be uploaded. The [Choose file] button is displayed in the box.
-    - [Choose file]  
-      Click this button to select a file from your device to be uploaded. If no file has been selected yet, the notice *No file chosen* is displayed o the right of the button..
-  - ![Radio button](../../Assets/Icons/RadioButtonChecked.png "[Radio button]") *DMS*  
-    Select this radio button to select a file in the *Documents* module to be uploaded. A search bar and the [SEARCH] button are displayed in the box. This radio button is only displayed when the *Documents* module is installed.
-    - Search field   
-      Enter the file path of the file to be uploaded. It is recommended to use the [SEARCH] button to select a file. The file path is automatically entered in the field.
-    - [SEARCH]  
-      Click this button to search for a file to be uploaded. The *Select file* window is displayed, see [Select file](#select-file).
 
+**Step 1**
+
+- *Files*  
+A list of compatible files is displayed. In this case, only CSV files can be imported.
+
+- ![Radio button](../../Assets/Icons/RadioButton02.png "[Radio button]") *Local file*  
+Click this radio button to select a file from your computer to be uploaded. The [Choose file] button is displayed.
+- ![Radio button](../../Assets/Icons/RadioButton02.png "[Radio button]") *DMS*  
+Click this radio button to select a file from a DMS to be uploaded. A search bar and a [SEARCH] button are displayed.
+
+
+- [Choose file]  
+Click this button to select a file from your computer to be uploaded. If no file has been selected yet, the notice "No file chosen" is displayed.
+
+- [SEARCH]  
+Click this button to search for the file to be uploaded. The *Select file* window is displayed, see [Select file](#select-file).
 
 - [UPLOAD]  
-  Click this button to upload the selected file. The *Files accepted!* confirmation window is displayed. Click the [OK] button to continue. The selected file is uploaded and the button is locked until the import is completed.
-
+Click this button to upload the selected file. The selected file is uploaded. The [UPLOAD] button becomes inactive.
 
 - *File content*  
-  Click the drop-down list to select to appropriate file content. The following options are available:
+Click the drop-down list to select to appropriate file content. The following options are available by default:
+
   - **Customers/suppliers**	 
-  - **Chart of accounts**	  
-  - **# Postings**  
-  - **eBay sales history**  
-
-  Depending on the selected option, the following displayed fields and options vary.
-
+  - **Chart of Accounts**	  
+  - **Postings**  
+  - **eBay sales history**
 
 [comment]: <> (eBay sales history ist relevant für alle Kunden? Weglassen? Andere Optionen je nach Einstellungen/Module/Plugins?)
 
 - *Import def.*  
-  Click the drop-down list to select the appropriate import definition. The options displayed vary depending on the option selected in the *File content* drop-down list. All available import definitions are displayed in the list. If the **Customers/suppliers** option is selected in the *File content* drop-down list, the following options are predefined:
-  - **\* Lexware Pro (Customers)**	 
-  - **\* Lexware Pro (Suppliers)**
-
-  For the other options in the *File content* drop-down list, no import definitions are predefined. The import definitions can be defined or edited by clicking the [Edit] button to the right of the drop-down list.
-  - [Edit]  
-    Click this button to edit the selected import definition or to create a new one. The *Import/export definitions* window is displayed, see [Import/export definitions](#importexport-definitions).
-
+Click the drop-down list to select the appropriate import definition. The options displayed vary depending on the option selected in the *File content* drop-down list. All available option-related import definitions are displayed in the list. The import definitions are preconfigured in the system but they can be edited.
 
 [comment]: <> (Import def. ändert sich abhängig von Option in File content. Mit eBay sales history kommen extra Felder vor: eBay Debitor und eBay Erlöskonten. Relevant für Doku oder weglassen?)
 
-- *eBay debtor*   
-  Enter the debtor number. This field is only displayed when the **eBay sales history** option is selected in the *File content* drop-down list.
-
-- *eBay revenue accounts*   
-  eBay revenue accounts assigned to the selected debtor. The eBay revenue accounts are automatically added by the system. The notice *Revenue accounts are automatically searched in the chart of accounts based on the [revenue account] function, the tax rate and the word "ebay" in the name.* is displayed.    
-  This field is only displayed when the **eBay sales history** option is selected in the *File content* drop-down list.
-
+- [Edit]  
+Click this button to edit the selected import definition or to create a new one. The *Import/export definitions* window is displayed, see [Import/export definitions](#importexport-definitions).
 
 - *Split postings*  
-  Click the drop-down list to select the appropriate import setting for split postings. The following options are available:
+Click the drop-down list to select the appropriate import setting for split postings. The following options are available:
+
   - **With different tax rates**
   - **For more than one product**
   - **Always**
 
 
 - [CONTINUE]  
-  Click this button to proceed to the next step. The *Converted* confirmation window is displayed. Click the [OK] button to continue. The *CSV: Step 2* window is displayed. This button is locked until at least one file has been uploaded.
+Click this button to proceed to the next step.
 
-
-### CSV: Step 2
 
 ![Import CSV Step 2](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Import/CSV02.png "[Import CSV Step 2]")
 
-**Log file**  
+**Step 2**
+
+ - *Log file*  
+The import log file is available in this step.
+
+- *View log file*  
+The import log file can be viewed in this step.
 
 - [VIEW]  
-  Click this button to display the import log file. The log file is displayed in a new window.
+Click this button to visualize the import log file.
 
 - [CONTINUE]  
-  Click this button to proceed to the next step. The *Please click Finalize to import the file* confirmation window is displayed. Click the [OK] button to continue. The *CSV: Step 3* window is displayed.
+Click this button to proceed to the next step.
 
-
-### CSV: Step 3
 
 ![Import CSV Step 3](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Import/CSV03.png "[Import CSV Step 3]")
 
-> [Info] Depending on the imported data, the information displayed may vary.
+**Step 3**
 
+> [Info] Depending on the imported data, the screen displayed may vary.
 
 - *Postings*  
-  Define how the handle the postings to be imported. If the import file contained no postings, the notice *No postings in the import file* is displayed.
+The import file contains postings to be imported. Otherwise, the notice "No postings in the import file" is displayed.
+
   - *Take over postings?*  
-    Click the drop-down list and select the applicable option. The following options are displayed:
-    - **Yes**   
-      The system will take over all postings from the import file. By default, this setting is preselected.
-    - **No**   
-      No postings from the import file are taken over.
+  Select **No** if you do not want the system to take over the postings in the import file. The default setting is **Yes**.
+
   - *Overwrite existing ones?*  
-    Click the drop-down list and select the applicable option. The following options are displayed:
-    - **Yes**   
-      The system will overwrite the existing postings with the postings from the import file. By default, this setting is preselected.
-    - **No**   
-      No existing postings will be overwritten.
+  Select **No** if you do not want the system to overwrite the existing postings. The default setting is **Yes**.
 
 
-- *Impersonal accounts*    
-  Define how the handle the impersonal accounts to be imported. If the import file contained no impersonal accounts, the notice *No impersonal accounts in the import file* is displayed.
+- *Impersonal accounts*
+
+  The import file contains impersonal accounts to be imported. Otherwise, the notice "No impersonal accounts in the import file" is displayed.
+
   - *Take over impersonal accounts?*  
-    Click the drop-down list and select the applicable option. The following options are displayed:
-    - **Yes**   
-      The system will take over all impersonal accounts from the import file. By default, this setting is preselected.
-    - **No**   
-      No impersonal accounts from the import file are taken over.
+  Select **No** if you do not want the system to take over the impersonal accounts in the import file. The default setting is **Yes**.
+
   - *Overwrite existing ones?*  
-    Click the drop-down list and select the applicable option. The following options are displayed:
-    - **Yes**   
-      The system will overwrite the existing impersonal accounts with the impersonal accounts from the import file. By default, this setting is preselected.
-    - **No**   
-      No existing impersonal accounts will be overwritten.
+  Select **No** if you do not want the system to overwrite the existing impersonal accounts. The default setting is **Yes**.
 
 
 - *Personal accounts*  
-  Define how the handle the personal accounts to be imported. If the import file contained no personal accounts, the notice *No personal accounts in the import file* is displayed.
-  - *Take over personal accounts?*  
-    Click the drop-down list and select the applicable option. The following options are displayed:
-    - **Yes**   
-      The system will take over all personal accounts from the import file. By default, this setting is preselected.
-    - **No**   
-      No personal accounts from the import file are taken over.
-  - *Overwrite existing ones?*  
-    Click the drop-down list and select the applicable option. The following options are displayed:
-    - **Yes**   
-      The system will overwrite the existing personal accounts with the personal accounts from the import file. By default, this setting is preselected.
-    - **No**   
-      No existing personal accounts will be overwritten.
 
+  The import file contains personal accounts to be imported. Otherwise, the notice "No personal accounts in the import file" is displayed.
+
+  - *Take over personal accounts?*  
+  Select **No** if you do not want the system to take over the personal accounts in the import file. The default setting is **Yes**.
+
+  - *Overwrite existing ones?*  
+  Select **No** if you do not want the system to overwrite the existing personal accounts. The default setting is **Yes**.
 
 
 [comment]: <> (Ich gehe davon aus, dass es so funktioniert. Weiter testen oder RS mit FH.)
 
 - [FINALIZE]  
-  Click this button to complete the import process. The *CSV: Step 4* window is displayed.
+Click this button to complete the import process.
 
 
-### CSV: Step 4
 
 ![Import CSV Step 4](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Import/CSV04.png "[Import CSV Step 4]")
 
-**Import...**
+**Step 4**
+
+- *Importing...*  
+This notice is displayed during the import process.  
 
 - [CANCEL]  
-  Click this button to cancel the import process. This button is only displayed during the import process.
+Click this button to cancel the process.
 
-> [Info] The *Import...* notice is displayed during the import process. As soon as the import is completed, the *File imported!* confirmation window is displayed. Click the [OK] button to continue. The *CSV: Step 5* window is displayed.
-
-
-### CSV: Step 5
 
 ![Import CSV Step 5](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Import/CSV05.png "[Import CSV Step 5]")
 
+**Step 5**
 
 [comment]: <> (Leeres Fenster. Kommentar in OneNote Bugs-Datei.)
 
@@ -253,250 +224,247 @@ The following import options are available in the tab:
 
 *Accounting > Extras > Tab IMPORT > Button CSV LS-MOTOR*
 
-### CSV LS-Motor: Step 1
+![Import CSV LS-Motor Step 1](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Import/CSVLSMotor01.png "[Import CSV LS-Motor Step 1]")
 
-![Import CSV LS-Motor Step 1](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Import/CSVLSMotorStep1.png "[Import CSV LS-Motor Step 1]")
+![Import CSV LS-Motor Step 1](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Import/CSVLSMotor01DMS.png "[Import CSV LS-Motor Step 1]")
 
-**Files**
+[comment]: <> (Screenshots zusammenfügen? -> RS HG)
+
+
+**Step 1**
+
+- *Files*  
+A list of compatible files is displayed. In this case, only txt files can be imported.
 
 [comment]: <> (txt oder X.txt? Unterschied oder X gehört zum Namen? Ich kann keine txt Datei hochladen. Fehlermeldung: No such file or directory)
 
-- *customersX.txt*    
-  Select the customers text file to be imported.
-  - ![Radio button](../../Assets/Icons/RadioButtonChecked.png "[Radio button]") *Local file*  
-    Select this radio button to select a locale file from your device to be uploaded. The [Choose file] button is displayed in the box.
-    - [Choose file]  
-      Click this button to select a file from your device to be uploaded. If no file has been selected yet, the notice *No file chosen* is displayed o the right of the button..
-  - ![Radio button](../../Assets/Icons/RadioButtonChecked.png "[Radio button]") *DMS*  
-    Select this radio button to select a file in the *Documents* module to be uploaded. A search bar and the [SEARCH] button are displayed in the box. This radio button is only displayed when the *Documents* module is installed.
-    - Search field   
-      Enter the file path of the file to be uploaded. It is recommended to use the [SEARCH] button to select a file. The file path is automatically entered in the field.
-    - [SEARCH]  
-      Click this button to search for a file to be uploaded. The *Select file* window is displayed, see [Select file](#select-file).
+- ![Radio button](../../Assets/Icons/RadioButton02.png "[Radio button]") *Local file*  
+Click this radio button to select a file from your computer to be uploaded. The [Choose file] button is displayed.
+- ![Radio button](../../Assets/Icons/RadioButton02.png "[Radio button]") *DMS*  
+Click this radio button to select a file from a DMS to be uploaded. A search bar and a [SEARCH] button are displayed.
 
 
-- *ordersX.txt*   
-  Select the orders text file to be imported.
-  - ![Radio button](../../Assets/Icons/RadioButtonChecked.png "[Radio button]") *Local file*  
-    Select this radio button to select a locale file from your device to be uploaded. The [Choose file] button is displayed in the box.
-    - [Choose file]  
-      Click this button to select a file from your device to be uploaded. If no file has been selected yet, the notice *No file chosen* is displayed o the right of the button..
-  - ![Radio button](../../Assets/Icons/RadioButtonChecked.png "[Radio button]") *DMS*  
-    Select this radio button to select a file in the *Documents* module to be uploaded. A search bar and the [SEARCH] button are displayed in the box. This radio button is only displayed when the *Documents* module is installed.
-    - Search field   
-      Enter the file path of the file to be uploaded. It is recommended to use the [SEARCH] button to select a file. The file path is automatically entered in the field.
-    - [SEARCH]  
-      Click this button to search for a file to be uploaded. The *Select file* window is displayed, see [Select file](#select-file).
+- [Choose file]  
+Click this button to select a file from your computer to be uploaded. If no file has been selected yet, the notice "No file chosen" is displayed.
 
+- [SEARCH]  
+Click this button to search for the file to be uploaded. The *Select file* window is displayed, see [Select file](#select-file).
 
 - [UPLOAD]  
-  Click this button to upload the selected file. The *Files accepted!* confirmation window is displayed. Click the [OK] button to continue. The selected file is uploaded and the button is locked until the import is completed.
+Click this button to upload the selected file. The selected file is uploaded. The [UPLOAD] button becomes inactive.
 
 
-- *CustomerX.txt*    
-  Click the drop-down list to select the appropriate import definition. All available import definitions are displayed in the list. The following options are predefined:
-  - **\* AfterBuy CSV**
-  - **\* Auction Master CSV**
+- *CustomerX.txt*  
+Click the drop-down list to select the appropriate import definition.
+
+  - **AfterBuy CSV**
+  - **Auction Master CSV**
+  - **Invoicing: new receipts**
 
 
-- *OrdersX.txt*    
-  Click the drop-down list to select the appropriate import definition. All available import definitions are displayed in the list. The following options are predefined:
-  - **\* AfterBuy CSV**
-  - **\* Auction Master CSV**
+- *OrdersX.txt*  
+  Click the drop-down list to select the appropriate import definition.
 
-
-  The import definitions can be defined or edited by clicking the [Edit] button to the right of the drop-down list.
-  - [Edit]  
-    Click this button to edit the selected import definition or to create a new one. The *Import/export definitions* window is displayed, see [Import/export definitions](#importexport-definitions).
+    - **AfterBuy CSV**
+    - **Auction Master CSV**
+    - **Invoicing: new receipts**
 
 
 [comment]: <> (Andere Optionen abhängig von Einstellungen/Kunden/Plugins usw.? Faktura: Belege neu/Invoicing: new receipts weglassen?)
 
+
+- [Edit]  
+Click this button to edit the selected import definition. The *Import/export definitions* window is displayed, see [Import/export definitions](#importexport-definitions).
+
 - [CONTINUE]  
-  Click this button to proceed to the next step. The *Converted* confirmation window is displayed. Click the [OK] button to continue. The *CSV LS-Motor: Step 2* window is displayed. This button is locked until at least one file has been uploaded.
+Click this button to proceed to the next step.
 
 
-### CSV LS-Motor: Step 2
+**Step 2**
 
 [comment]: <> (Ich komme nicht zum Step 2 - Probleme mit Hochladen der txt-Datei!)
 
+
+[comment]: <> (RS FH)
 
 
 ## GDI
 
 *Accounting > Extras > Tab IMPORT > Button GDI*
 
-### GDI: Step 1
+![Import GDI Step 1](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Import/GDI01.png "[Import GDI Step 1]")
 
-![Import GDI Step 1](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Import/GDIStep1.png "[Import GDI Step 1]")
+![Import GDI Step 1](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Import/GDI01DMS.png "[Import GDI Step 1]")
 
-**Files**
+[comment]: <> (Screenshots zusammenfügen? -> RS HG)
 
-- *GDIFIBU.STD*  
-  Select the corresponding file for upload in the STD-format.
-  - ![Radio button](../../Assets/Icons/RadioButtonChecked.png "[Radio button]") *Local file*  
-    Select this radio button to select a locale file from your device to be uploaded. The [Choose file] button is displayed in the box.
-    - [Choose file]  
-      Click this button to select a file from your device to be uploaded. If no file has been selected yet, the notice *No file chosen* is displayed o the right of the button..
-  - ![Radio button](../../Assets/Icons/RadioButtonChecked.png "[Radio button]") *DMS*  
-    Select this radio button to select a file in the *Documents* module to be uploaded. A search bar and the [SEARCH] button are displayed in the box. This radio button is only displayed when the *Documents* module is installed.
-    - Search field   
-      Enter the file path of the file to be uploaded. It is recommended to use the [SEARCH] button to select a file. The file path is automatically entered in the field.
-    - [SEARCH]  
-      Click this button to search for a file to be uploaded. The *Select file* window is displayed, see [Select file](#select-file).
+**Step 1**
 
+- *Files*  
+A list of compatible files is displayed. In this case, only STD files can be imported.
+
+- ![Radio button](../../Assets/Icons/RadioButton02.png "[Radio button]") *Local file*  
+Click this radio button to select a file from your computer to be uploaded. The [Choose file] button is displayed.
+- ![Radio button](../../Assets/Icons/RadioButton02.png "[Radio button]") *DMS*  
+Click this radio button to select a file from a DMS to be uploaded. A search bar and a [SEARCH] button are displayed.
+
+- [Choose file]  
+Click this button to select a file from your computer to be uploaded. If no file has been selected yet, the notice "No file chosen" is displayed.
+
+- [SEARCH]  
+Click this button to search for the file to be uploaded. The *Select file* window is displayed, see [Select file](#select-file).
 
 - [UPLOAD]  
-  Click this button to upload the selected file. The *Files accepted!* confirmation window is displayed. Click the [OK] button to continue. The selected file is uploaded and the button is locked until the import is completed.
+Click this button to upload the selected file. The selected file is uploaded. The [UPLOAD] button becomes inactive.
 
 - [CONTINUE]  
-  Click this button to proceed to the next step. The *Converted* confirmation window is displayed. Click the [OK] button to continue. The *GDI: Step 2* window is displayed. This button is locked until at least one file has been uploaded.
+Click this button to proceed to the next step.
 
 
-### GDI: Step 2
 
 ![Import GDI Step 2](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Import/GDI02.png "[Import GDI Step 2]")
 
-**Log file**  
+**Step 2**
+
+ - *Log file*  
+The import log file is available in this step.
+
+- *View log file*  
+The import log file can be viewed in this step.
 
 - [VIEW]  
-  Click this button to display the import log file. The log file is displayed in a new window.
+Click this button to visualize the import log file.
 
 - [CONTINUE]  
-  Click this button to proceed to the next step. The *Please click Finalize to import the file* confirmation window is displayed. Click the [OK] button to continue. The *GDI: Step 3* window is displayed.
+Click this button to proceed to the next step.
 
 
-### GDI: Step 3
 
 ![Import GDI Step 3](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Import/GDI03.png "[Import GDI Step 3]")
 
-> [Info] Depending on the imported data, the information displayed may vary.
+**Step 3**
+
+> [Info] Depending on the imported data, the screen displayed may vary.
 
 
-- ![Radio button](../../Assets/Icons/RadioButtonChecked.png "[Radio button]") *Create new fiscal year*   
-  Select this radio button to create a new fiscal year for the imported postings.
-  - *FY name*  
-    Enter the description of the new fiscal year.
-  - *From - to*  
-    Enter the start date of the fiscal year in the left field and the end date of the fiscal year in the right field. The valid date format is *DD.MM.YYYY*.
-- ![Radio button](../../Assets/Icons/RadioButtonChecked.png "[Radio button]") *Add postings to FY*   
-  Select this radio button to add the imported postings to an existing fiscal year.
+- ![Radio button](../../Assets/Icons/RadioButton02.png "[Radio button]") *Create new fiscal year*
+ - *FY name*  
+ Enter the description of the fiscal year.
+ - *From - to*  
+ Enter the start and end date of the fiscal year.
+
+
+-  ![Radio button](../../Assets/Icons/RadioButton02.png "[Radio button]") Add postings to FY
   - *Import into FY*  
-    Click the drop-down list to select whether to import the postings to the fiscal year. The following options are available:
-    - **Yes**  
-      The postings will be imported to the fiscal year.
-    - **No**   
-      No postings will be imported.
+  Click the drop-down list to select **Yes** or **No** to import postings into the fiscal year.
   - *From - to*  
-    Enter the start date of the period from which the postings are to be imported in the left field and the end date of the period from which the postings are to be imported in the right field. The valid date format is *DD.MM.YYYY*.
+Enter the start and end date of the period from which the postings are to be imported.
 
 
-- *Impersonal accounts*    
-  Define how the handle the impersonal accounts to be imported. If the import file contained no impersonal accounts, the notice *No impersonal accounts in the import file* is displayed.
+- *Impersonal accounts*
+
+  The import file contains impersonal accounts to be imported. Otherwise, the notice "No impersonal accounts in the import file" is displayed.
+
   - *Take over impersonal accounts?*  
-    Click the drop-down list and select the applicable option. The following options are displayed:
-    - **Yes**   
-      The system will take over all impersonal accounts from the import file. By default, this setting is preselected.
-    - **No**   
-      No impersonal accounts from the import file are taken over.
+  Select **No** if you do not want the system to take over the impersonal accounts in the import file. The default setting is **Yes**.
+
   - *Overwrite existing ones?*  
-    Click the drop-down list and select the applicable option. The following options are displayed:
-    - **Yes**   
-      The system will overwrite the existing impersonal accounts with the impersonal accounts from the import file. By default, this setting is preselected.
-    - **No**   
-      No existing impersonal accounts will be overwritten.
+  Select **No** if you do not want the system to overwrite the existing impersonal accounts. The default setting is **Yes**.
 
 
 - *Personal accounts*  
-  Define how the handle the personal accounts to be imported. If the import file contained no personal accounts, the notice *No personal accounts in the import file* is displayed.
+
+  The import file contains personal accounts to be imported. Otherwise, the notice "No personal accounts in the import file" is displayed.
+
   - *Take over personal accounts?*  
-    Click the drop-down list and select the applicable option. The following options are displayed:
-    - **Yes**   
-      The system will take over all personal accounts from the import file. By default, this setting is preselected.
-    - **No**   
-      No personal accounts from the import file are taken over.
+  Select **No** if you do not want the system to take over the personal accounts in the import file. The default setting is **Yes**.
+
   - *Overwrite existing ones?*  
-    Click the drop-down list and select the applicable option. The following options are displayed:
-    - **Yes**   
-      The system will overwrite the existing personal accounts with the personal accounts from the import file. By default, this setting is preselected.
-    - **No**   
-      No existing personal accounts will be overwritten.
+  Select **No** if you do not want the system to overwrite the existing personal accounts. The default setting is **Yes**.
 
 
 [comment]: <> (Ich gehe davon aus, dass es so funktioniert. Weiter testen oder RS mit FH.)
 
+
 - [FINALIZE]  
-  Click this button to complete the import process. The *GDI: Step 4* window is displayed.
+Click this button to complete the import process.
 
-
-### GDI: Step 4
 
 ![Import GDI Step 4](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Import/GDI04.png "[Import GDI Step 4]")
 
-**Import...**
+**Step 4**
+
+- *Importing...*  
+This notice is displayed during the import process.  
 
 - [CANCEL]  
-  Click this button to cancel the import process. This button is only displayed during the import process.
-
-> [Info] The *Import...* notice is displayed during the import process. As soon as the import is completed, the *File imported!* confirmation window is displayed. Click the [OK] button to continue. The *GDI: Step 5* window is displayed.
+Click this button to cancel the process.
 
 
-### GDI: Step 5
 
 ![Import GDI Step 5](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Import/GDI05.png "[Import GDI Step 5]")
 
+**Step 5**
 
-[comment]: <> (Leeres Fenster. Comment in OneNote Bugs-Datei.)
+[comment]: <> (Leeres Fenster. Komment in OneNote Bugs-Datei.)
 
-
+[comment]: <> (RS FH)
 
 
 ## openTRANS
 
 *Accounting > Extras > Tab IMPORT > Button openTRANS*
 
-### openTRANS: Step 1
+![Import openTRANS Step 1](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Import/Opentrans01.png "[Import openTRANS Step 1]")
 
-![Import openTRANS Step 1](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Import/OpenTransStep1.png "[Import openTRANS Step 1]")
+![Import openTRANS Step 1](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Import/Opentrans01DMS.png "[Import openTRANS Step 1]")
 
-**Files**
+[comment]: <> (Screenshots zusammenfügen? RS HG)
 
-- *xxxx.XML*    
-  Select the XML file to be imported.
-  - ![Radio button](../../Assets/Icons/RadioButtonChecked.png "[Radio button]") *Local file*  
-    Select this radio button to select a locale file from your device to be uploaded. The [Choose file] button is displayed in the box.
-    - [Choose file]  
-      Click this button to select a file from your device to be uploaded. If no file has been selected yet, the notice *No file chosen* is displayed o the right of the button..
-  - ![Radio button](../../Assets/Icons/RadioButtonChecked.png "[Radio button]") *DMS*  
-    Select this radio button to select a file in the *Documents* module to be uploaded. A search bar and the [SEARCH] button are displayed in the box. This radio button is only displayed when the *Documents* module is installed.
-    - Search field   
-      Enter the file path of the file to be uploaded. It is recommended to use the [SEARCH] button to select a file. The file path is automatically entered in the field.
-    - [SEARCH]  
-      Click this button to search for a file to be uploaded. The *Select file* window is displayed, see [Select file](#select-file).
 
+**Step 1**
+
+- *Files*  
+A list of compatible files is displayed. In this case, only xml files can be imported.
+
+- ![Radio button](../../Assets/Icons/RadioButton02.png "[Radio button]") *Local file*  
+Click this radio button to select a file from your computer to be uploaded. The [Choose file] button is displayed.
+- ![Radio button](../../Assets/Icons/RadioButton02.png "[Radio button]") *DMS*  
+Click this radio button to select a file from a DMS to be uploaded. A search bar and the [SEARCH] button are displayed.
+
+- [Choose file]  
+Click this button to select a file from your computer to be uploaded. If no file has been selected yet, the notice "No file chosen" is displayed.
+
+- [SEARCH]  
+Click this button to search for the file to be uploaded. The *Select file* window is displayed, see [Select file](#select-file).
 
 - [UPLOAD]  
-  Click this button to upload the selected file. The *Files accepted!* confirmation window is displayed. Click the [OK] button to continue. The selected file is uploaded and the button is locked until the import is completed.
+Click this button to upload the selected file. The selected file is uploaded. The [UPLOAD] button becomes inactive.
 
 - *Creditor/supplier number*  
-  Enter the creditor/supplier number.  
+Enter the creditor/supplier number.  
 
 - [CONTINUE]  
-  Click this button to proceed to the next step. The *Converted* confirmation window is displayed. Click the [OK] button to continue. The *openTRANS: Step 2* window is displayed. This button is locked until at least one file has been uploaded.
+Click this button to proceed to the next step.
 
-
-### openTRANS: Step 2
 
 ![Import openTRANS Step 2](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Import/Opentrans02.png "[Import openTRANS Step 2]")
 
-**Log file**  
+**Step 2**
+
+ - *Log file*  
+The import log file is available in this step.
+
+- *View log file*  
+The import log file can be viewed in this step.
 
 - [VIEW]  
-  Click this button to display the import log file. The log file is displayed in a new window.
+Click this button to visualize the import log file.
 
 - [CONTINUE]  
-  Click this button to proceed to the next step. The *Please click Finalize to import the file* confirmation window is displayed. Click the [OK] button to continue. The *openTRANS: Step 3* window is displayed.
+Click this button to proceed to the next step.
 
+**Step 2**
 
 [comment]: <> (Fehlermeldung " Konnte kein passendes Wareneingangskonto finden, bzw. kein Konto ist als Wareneingangskonto markiert Steuerschlüssel 0, Datum 2009-05-13..." Keine KOMM_NO! in Logdatei. WEITER Schaltfläche ausgegraut / nicht klickbar)
 
@@ -506,43 +474,42 @@ The following import options are available in the tab:
 
 *Accounting > Extras > Tab IMPORT > Button Schilling Accounting*
 
-### Schilling Accounting: Step 1
+![Import Schilling Step 1](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Import/Schilling01.png "[Import Schilling Step 1]")
 
-![Import Schilling Step 1](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Import/SchillingStep1.png "[Import Schilling Step 1]")
+![Import Schilling Step 1](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Import/Schilling01DMS.png "[Import Schilling Step 1]")
 
-**Files**
+**Step 1**
 
-- *FQBATCH(.txt)*    
-  Select the corresponding batch file for upload in the txt-format.
-  - ![Radio button](../../Assets/Icons/RadioButtonChecked.png "[Radio button]") *Local file*  
-    Select this radio button to select a locale file from your device to be uploaded. The [Choose file] button is displayed in the box.
-    - [Choose file]  
-      Click this button to select a file from your device to be uploaded. If no file has been selected yet, the notice *No file chosen* is displayed o the right of the button..
-  - ![Radio button](../../Assets/Icons/RadioButtonChecked.png "[Radio button]") *DMS*  
-    Select this radio button to select a file in the *Documents* module to be uploaded. A search bar and the [SEARCH] button are displayed in the box. This radio button is only displayed when the *Documents* module is installed.
-    - Search field   
-      Enter the file path of the file to be uploaded. It is recommended to use the [SEARCH] button to select a file. The file path is automatically entered in the field.
-    - [SEARCH]  
-      Click this button to search for a file to be uploaded. The *Select file* window is displayed, see [Select file](#select-file).
+- *Files*  
+A list of compatible files is displayed. In this case, only txt files can be imported.
 
+- ![Radio button](../../Assets/Icons/RadioButton02.png "[Radio button]") *Local file*  
+Click this radio button to select a file from your computer to be uploaded. The [Choose file] button is displayed.
+- ![Radio button](../../Assets/Icons/RadioButton02.png "[Radio button]") *DMS*  
+Click this radio button to select a file from a DMS to be uploaded. A search bar and a [SEARCH] button are displayed.
+
+- [Choose file]  
+Click this button to select a file from your computer to be uploaded. If no file has been selected yet, the notice "No file chosen" is displayed.
+
+- [SEARCH]  
+Click this button to search for the file to be uploaded. The *Select file* window is displayed, see [Select file](#select-file).
 
 - [UPLOAD]  
-  Click this button to upload the selected file. The *Files accepted!* confirmation window is displayed. Click the [OK] button to continue. The selected file is uploaded and the button is locked until the import is completed.
+Click this button to upload the selected file. The selected file is uploaded. The [UPLOAD] button becomes inactive.
 
 - [CONTINUE]  
-  Click this button to proceed to the next step. The *Converted* confirmation window is displayed. Click the [OK] button to continue. The *Schilling Accounting: Step 2* window is displayed. This button is locked until at least one file has been uploaded.
+Click this button to proceed to the next step.
 
-
-### Schilling Accounting: Step 2
 
 ![Import Schilling Step 2](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Import/Schilling02Fehler.png "[Import Schilling Step 2]")
 
-**Converting...**
+**Step 2**
+
+- *Converting...*  
+This notice is displayed during the import process.  
 
 - [CANCEL]  
-  Click this button to cancel the process. This button is only displayed during the conversion process.
-
-> [Info] The *Converting...* notice is displayed during the conversion process. As soon as the conversion is completed, the *File imported!* confirmation window is displayed. Click the [OK] button to continue. The *Schilling Accounting: Step 3* window is displayed.
+Click this button to cancel the process.
 
 
 [comment]: <> (Der Prozess geht nicht weiter, System hängt. Ich habe versucht eine exportierte txt Datei -Reiter EXPORT- zu importieren, aber es scheint nicht zu funktionieren. Bug oder falsche Datei importiert?)
@@ -551,64 +518,160 @@ The following import options are available in the tab:
 
 ### Import/export definitions
 
-*Accounting > Extras > Tab IMPORT > Button CSV > Button Edit*
-*Accounting > Extras > Tab IMPORT > Button CSV LS-MOTOR > Button Edit*
+*Accounting > Extras > Tab IMPORT > Select import > Select Import-Def. > Button Edit*
 
 ![Import/export definitions](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Import/ImportExportDefinitionsLexware.png "[Import/export definitions]")
 
-For a detailed description of this window and the corresponding functions, see [CSV format definitions](./03c_CSVFormatDef.md).
+**Name**
+
+- (Drop-down list)  
+Click the drop-down list to select a preconfigured import/export definition type. If there are any available, the second drop-down list displays all preconfigured definitions of the selected type.
+
+[comment]: <> (Bedeutung von Asterisk neben Namen?)
+
+- (Drop-down list)  
+ Click the drop-down list to select the desired preconfigured import/export definition.
+
+- [ADD]  
+Click this button to create an import/export definition. The *New import/export definition* window is displayed, see [New import/export definition](#new-importexport-definition).
+
+- [EDIT]  
+Click this button to rename an import/export definition. The *Rename import/export definition* is displayed, see [Rename import/export definition](#rename-importexport-definition).
+
+- [DELETE]  
+Click this button to delete an import/export definition. A confirmation window is displayed.
 
 
-### Select file
+**Fields in the definition**  
+This list displays all fields contained in the selected import/export definition. Use the arrow buttons to modify the fields in the list:
 
-*Accounting > Extras > Tab IMPORT > Button CSV > Radio button DMS > Button SEARCH*
-*Accounting > Extras > Tab IMPORT > Button CSV LS-MOTOR > Radio button DMS > Button SEARCH*
-*Accounting > Extras > Tab IMPORT > Button GDI > Radio button DMS > Button SEARCH*
-*Accounting > Extras > Tab IMPORT > Button OPENTRANS > Radio button DMS > Button SEARCH*
-*Accounting > Extras > Tab IMPORT > Button SCHILLING ACCOUNTING > Radio button DMS > Button SEARCH*
+  - ![Up](../../Assets/Icons/ArrowUp.png "[Up]") (Up)  
+Use this button to move a selected field up in the list.
+
+  - ![Down](../../Assets/Icons/ArrowDown.png "[Down]") (Down)  
+Use this button to move a selected field down in the list.
+
+  - ![Left](../../Assets/Icons/ArrowLeft.png "[Left]") (Left)  
+Use this button to move a selected field left, from the *Possible fields* list to the *Fields in the definition* list.
+
+  - ![Right](../../Assets/Icons/ArrowRight.png "[Right]") (Right)  
+Use this button to move a selected field right, from the *Fields in the definition* list to the *Possible fields* list.
+
+**Column**  
+  The letter and number in parentheses indicate the column where a selected field is located.
+
+**Possible fields**  
+This list displays all fields available for the selected import/export definition.
+
+
+[INSERT IGNORE FIELD]  
+Click this button to enter an "ignore field", that is, to indicate that the field in that position does not need to be exported or imported, in the *Fields in the definition* list.
+
+**CSV format definition**
+
+- *Field separating character*  
+Enter the character to be used to separate fields. This value may be set by default to comma or semicolon.
+
+- *Escape character*  
+Enter the character to be used in escape sequences, that is, combinations of characters used to represent non-printable and special characters, such as tabs or new lines. This value may be set by default to backslash.
+
+- *Column name*  
+Click the drop-down list to select the appropriate option (**Yes/No**) to include the column name in the export/import or not.
+
+- *Date format*  
+Click the drop-down list to select the desired date and time format.
+
+- *Example data set*  
+An example of a data set with the current field definition is displayed. This field is read-only.
+
+- *Field delimiting character*  
+Enter the character to be used to separate fields. This value may be set by default to quotation mark.
+
+- *Row end character*  
+Click the drop-down list to select the applicable encoding. This field is set by default to **Automatic**.
+
+- *Character set*  
+Click the drop-down list to select the applicable encoding. This field is set by default to **Automatic**.
+
+- *Incorrect row end character*  
+Click the drop-down list to select the appropriate option (**Ignore/Repair**).
+
+- *Number format*  
+Click the drop-down list to select the desired number format.
+
+- [SAVE]  
+Click this button to save the changes.
+
+
+#### New import/export definition  
+
+*Accounting > Extras > Tab IMPORT > Select import > Select Import-Def. > Button Edit > Button Add*
+
+![New import/export definition](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Import/NewImportExportDefinitionKdLf.png "[New import/export definition]")
+
+- *For*  
+Click the drop-down list to select the import/export definition type where the new definition will be added.  
+
+- *Name*  
+Enter a name for the new import/export definition to be created.
+
+- [SAVE & NEW]  
+Click this button to create an import/export definition.  
+
+
+#### Rename import/export definition  
+
+*Accounting > Extras > Tab IMPORT > Select import > Select Import-Def. > Button Edit > Button Edit*
+
+![Rename import/export definition ](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Import/RenameImportExportDefinitionKdLf.png "[Rename import/export definition ]")
+
+- *For*  
+Click the drop-down list to select the import/export definition type where the new definition will be renamed.  
+
+- *Old name*  
+The previously given name is displayed. This field is read-only.
+
+- *New name*  
+Enter a new name for the selected import/export.
+
+- [SAVE]  
+Click this button to rename the selected import/export definition.  
+
+
+#### Select file
+
+*Accounting > Extras > Tab IMPORT > Select import > Button SEARCH*
 
 ![Select file](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/SelectFile.png "[Select file]")
 
-> [Info] This window can also be accessed via the [Debtors/creditors](./02a_DebtorsCreditors.md#select-file) tab in the user interface.
+- *New documents*  
+The new uploaded documents are contained in this folder.
 
-[comment]: <> (Remove window in Debtors/creditors tab and add "For a detailed description of this window and the corresponding functions, see Link." with corresponding link)
+- *Registered documents*  
+The documents that have been registered in the system are contained in this folder.
+
+- *Printed documents*  
+The documents that have been printed are contained in this folder.
+
+  > [Info] Depending on the settings, the folders displayed may vary. Further folders can be created in the *Documents* module.
 
 - *Name*  
-  Name of the folder or file. Double-click a folder to access it. By default, the following folders are predefined:
-  - **.**   
-    The next higher folder level is displayed.
-  - **..**   
-    The top level folder is displayed.
-  - **New documents**  
-    All new uploaded documents are contained in this folder.
-  - **Registered documents**  
-    All documents that have been registered in the system are contained in this folder.
-  - **Printed documents**  
-    All documents that have been printed are contained in this folder.
-
-
-  > [Info] Further folders can be created in the *Documents* module.
-
-[comment]: <> (check mit . und .. Ordnern. Klappt nicht so, wie ich es erwarte: . = 1 Ebene höher, .. = zwei Ebenen höher. Bug?)
-
+Name of folder or file.
 
 - *Size*  
-  Size of the file. The size is only displayed for files.
+Size of folder or file.
 
 - *Type*  
-  Type of item. Currently, only the **Folder** type is displayed.
+Type of item.
 
 - *Changed*  
-  Date and time of the last modification. This information is only displayed for files.
+Date and time when the folder or file were modified.
 
 - *Owner*  
-  Username of the owner.
+Person owning the folder or file.
 
 - [CLOSE]  
-  Click this button to close the *Select file* window.
+Click this button to close the window.
 
 - [OPEN]  
-  Click this button to open the selected file.
-
-
-[comment]: <> (Sobald das Documents Modul beschrieben ist, auf dieses verweisen und das hier raus)
+Click this button to select the file.

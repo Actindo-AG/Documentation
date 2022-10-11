@@ -4,131 +4,114 @@
 
 ![Tax keys](../../Assets/Screenshots/RetailSuiteAccounting/Settings/TaxKeys/CreateTaxKey.png "[Tax keys]")
 
-The list displays all available tax keys. All fields are read-only.
+- ![Sort](../../Assets/Icons/Sort03.png "[Sort]") (Sort)  
+Click this button to sort in ascending or descending order the displayed tax keys.
 
 - *No.*  
-  Tax key number.
+Tax key number.
 
 - *I*  
-  Indication of change. An **I** is displayed if the tax key has been manually created or edited by the user.
+A mark (|) is displayed if the tax key has been created or edited by the user.
 
 - *From*  
-  Validity start date of the tax key.
+Validity start date of the tax key.
 
 - *To*  
-  Validity end date of the tax key.  
+Validity end date of the tax key.  
 
 - *%*  
-  Applicable tax rate.
+Applicable tax rate.
 
 - *+/-*  
-  Gross/net indication. If the posting is a gross amount, the tax must be deducted from it, and therefore a minus sign is displayed. If the posting is a net amount, the tax must be added to it, and therefore a plus sign is displayed.
+If the posting is a gross amount, the tax must be deducted from it, and therefore a minus sign is displayed. If the posting is a net amount, the tax must be added to it, and therefore a plus sign is displayed.
 
 - *Factor*  
-  Factor applicable to the selected tax rate.
+Factor applicable to the selected tax rate.
 
 - *VAT*  
-  Account where the VAT is to be posted.
+Account where the VAT is to be posted.
 
 - *Input tax*  
-  Account where the input tax is to be posted.
+Account where the input tax is to be posted.
 
 - *VAT not due*  
-  Account where the VAT not due is to be posted.
+Account where the VAT not due is to be posted.
 
 - *Type*  
-  Abbreviation of the tax type configured for the tax key. The following options are available:  
-  - Empty     
-    No tax type is configured for the tax key.
-  - **I**   
-    The input tax is configured for the tax key.
-  - **V**   
-    The VAT is configured for the tax key.
-  - **IV**   
-    The input tax and the VAT are configured for the tax key.
+Abbreviation of the tax type configured for the tax key. The following options are available:  
 
+  - (None): Not specified
+  - *V*: Input tax
+  - *M*: VAT
+  - *VM*: Input tax and VAT
 
 [comment]: <> (Abkürzungen im System nicht übersetzt. Auf DE lassen? Wenn ja, durchgängig, also, auch in Integration und Operation)
 
 - *Country*  
-  Two-letter country code. The alpha-2 codes according to ISO 3166-1 are used, see [List of country codes](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2).
+Country code. The ISO 3166-1 country codes are used.
 
 - *Description*  
-  Descriptive tax key name.
+Tax key description.
 
 
-The input fields below allow to create, edit or delete tax keys. For detailed information about creating, editing or deleting tax keys, see [Manage the tax keys](../Integration/02_ManageTaxKeys.md).
+The input fields allow to create, edit or delete tax keys. For detailed information about creating, editing or deleting tax keys, see [Manage the tax keys](../Integration/02_ManageTaxKeys.md).
+
 
 - *Key*  
-  Enter or modify the tax key.
+Enter or modify the tax key.
 
 - *Description*  
-  Enter or modify a descriptive tax key name.
+Enter or modify the tax key description. Letters, numbers or a combination of both can be used.
 
-- *Valid from*   
-  Enter or modify the tax key validity start date.
-
-- *to*  
-  Enter or modify the tax key validity end date.
+- *Valid from - to*  
+Enter or modify the tax key validity period.
 
 - *Tax type*  
-  Click the drop-down list to select the appropriate tax type for the tax key. The tax type determines how the tax paid or collected in relation to the tax key is to be registered in the system. The following options are available:
-  - **( ) Not specified**  
-    No tax type is configured for the tax key.  
-  - **(I) Input tax**  
-    The input tax is configured for the tax key.
-  - **(V) VAT**  
-    The VAT is configured for the tax key.
-  - **(IV) Input tax and VAT**  
-    Thei nput tax and the VAT are configured for the tax key.
+Click the drop-down list to select the appropriate tax type for the tax key. The tax type determines how the tax paid or collected in relation to the tax key is to be registered in the system. The following options are available:
+
+  - **( )Not specified**  
+No tax defined for the tax key.  
+  - **(I)Input tax**  
+Input tax configured for the tax key.
+  - **(V)VAT**  
+VAT (value added tax) configured for the tax key.
+  - **(IV)Input tax and VAT**  
+Input tax and VAT (value added tax) configured for the tax key.
 
 
 - *Percent / factor*  
-  Enter the applicable tax rate int he first field and the corresponding factor in the second field. Click the drop-down list between the fields to select the applicable gross or net option. The following options are avilable:
-  - **+**   
-    The posting is a gross amount.
-  - **-**   
-    The posting is a net amount.
-
+Enter the applicable tax rate and factor in the corresponding fields. Click the drop-down list to select **+** or **-** if the posting is a net or a gross amount respectively.  
 
 - *Accounts (VAT/input tax/VAT not due)*  
-  Enter the account numbers of the accounts to which the applicable tax amounts are to be posted. Enter the account number for the VAT in the first field, the account number for the input tax in the second field and the VAT not due in the thrid field.
+Enter the accounts where the applicable tax amounts are to be posted in the corresponding fields.
 
-- *VAT ID needed*  
-  Click the drop-down list to select the appropriate option. A VAT ID is needed for all transactions that involve companies. The following options are available:
-  - **Yes**   
-    The transaction involves companies. The VAT ID is needed.
-  - **No**   
-    The transaction involves only private individuals. No VAT ID is needed.
-
+- *VAT-ID needed*  
+Click the drop-down list to select the appropriate option (**Yes/No**), depending on whether the transaction involves private individuals or companies.
 
 - *Country*  
-  Click the drop-down list to select the applicable EU country. All european countries are displayed in the list. If no european country is to be selected, select the **No EU tax key** option.
+Click the drop-down list to select the applicable EU country or **No EU tax key**.
 
 
 - [SAVE & NEW]  
-  Click this button to save a new tax key. The button is locked if a tax key has been selected. For detailed information about creating a tax key, see [Create a tax key](../Integration/02_ManageTaxKeys.md#create-a-tax-key).
+Click this button to save a newly created tax key. For detailed information about creating a tax key, see [Create a tax key](../Integration/02_ManageTaxKeys.md#create-a-tax-key).
 
 - [SAVE]  
-  Click this button to save any changes made to the selected tax key. The button is only unlocked if a tax key has been selected. For detailed information about editing a tax key, see [Edit a tax key](../Integration/02_ManageTaxKeys.md#edit-a-tax-key).
+Click this button to save any changes made to an existing tax key. For detailed information about editing a tax key, see [Edit a tax key](../Integration/02_ManageTaxKeys.md#edit-a-tax-key).
 
-  > [Info] Be aware that all saved changes will overwrite the existing tax key data.
+  > [Info] Be aware that the saved changes will overwrite the tax key existing details. To prevent this, make sure that the input fields are empty by clicking the [CLEAR] button. The [SAVE & NEW] button becomes then active.
 
 - [DELETE]  
-  Click this button to delete the selected tax key. The button is only unlocked if an account has been selected. For detailed information, see [Delete a tax key](../Integration/02_ManageTaxKeys.md#delete-a-tax-key).
-
-  > [Warning] **Loss of data**   
-  Deleting will permanently remove the selected data. The deletion cannot be undone and the deleted data cannot be restored.       
-  Problems may occur due to unresolved dependencies.   
-  Make sure you really want to delete the selected data.
+Click this button to delete the selected tax key. For detailed information, see [Delete a tax key](../Integration/02_ManageTaxKeys.md#delete-a-tax-key).
 
 - [CLEAR]  
-  Click this button to clear all fields.
+Click this button to clear all input fields. The [SAVE & NEW] button becomes active.
 
 - [HELP]  
-  This function is currently not available.
+Click this button to open the help function.
+
+[comment]: <> (Raus damit?)
 
 - [RESTORE]  
-  Click this button to restore the tax keys to their original state.
+Click this button to restore the tax key to its original state.
 
 [comment]: <> (Was macht der WIEDERHERSTELLEN/RESTORE Button? Beim Klicken, Fenster mit Warnung "Möchten Sie die Steuerschlüssel in deren Ursprungs-Zustand zurückversetzen? Alle von Ihnen gemachten Änderungen werden dadurch gelöscht." Bei OK scheint es aber nichts zu passieren... Das System leert die Eingabemaske, aber nach Speichern kann man nicht wiederherstellen.)
