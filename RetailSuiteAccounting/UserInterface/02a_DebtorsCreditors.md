@@ -9,7 +9,7 @@ The *DEBTORS/CREDITORS* tab displays a customer/supplier list and allows to crea
 The *DEBTORS/CREDITORS* tab contains in turn two tabs:
 
   - Customer/supplier list, see [Customer/supplier list](#customersupplier-list).
-  - Create customer/supplier, see [Create customer/supplier](#create-customersupplier). When selecting a customer/supplier from the customer/supplier list, the tab name changes to *Customer/supplier (number)*, see [Customer/supplier (number)](#customersupplier-number).
+  - Create customer/supplier, see [Create customer/supplier](#create-customersupplier). When selecting a customer/supplier from the customer/supplier list, the tab name changes to *Customer/supplier "Number"*, see [Customer/supplier "Number"](#customersupplier-number).
 
 The identical customer/supplier list is available in the *Order management* module: *Order management > Customers/suppliers*. The list is synchronized between the two modules so that the same data can be accessed.
 
@@ -31,7 +31,9 @@ The identical customer/supplier list is available in the *Order management* modu
   - *Export all*  
     Click this option to export all customer/supplier list pages. The customer/supplier list is exported in Excel format and saved by default in the *Downloads* folder in your computer.
 
-[comment]: <> (HG: Wo soll diese Option sein?)
+    > [Info] The [EXCEL] button is only displayed if the *Statistics* module is installed.
+
+  [comment]: <> (Stimmt das so?)
 
 - [QUICK SEARCH]  
   Click this button to display the *QUICK SEARCH* filter list. By default, all search criteria checkboxes are selected. Deselect a search criterion to exclude it from the search. The following search criteria are available:
@@ -57,8 +59,6 @@ The identical customer/supplier list is available in the *Order management* modu
   - *VAT ID*
   - *Type of customer*
   - *Customer number*
-
-[comment]: <> (HG: Mobile vs. Cell -> UK/US?)
 
 [comment]: <> (in the system as No -> add point)
 [comment]: <> (in the system: Firma -> localise)
@@ -87,7 +87,6 @@ The identical customer/supplier list is available in the *Order management* modu
 
       > [Info] Price groups can be created in the *Settings* menu entry of the *Material management* and the *Order management* modules. A customer can be assigned to a specific price group in the *Invoicing* sub-tab of the *DEBTORS/CREDITORS* tab, see [Invoicing](#invoicing-1).
 
-[comment]: <> (Check invoicing-1 und ähnliche)
 
   - *FILTER CRITERION*  
     Click the drop-down list to select the appropriate option for the corresponding filter criterion.
@@ -195,15 +194,13 @@ The list displays all customer/supplier details. Depending on the settings, the 
 ![Create a customer/supplier](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/CreateCustomerSupplier.png "[Create a customer/supplier]")
 
 The *Create customer/supplier* tab contains the following sub-tabs to organize customer/supplier details:
-- *Address/contact*, see [Address/contact](#addresscontact)
-- *Delivery addresses*, see [Delivery addresses](#delivery-addresses)
-- *Invoicing*, see [Invoicing](#invoicing)
-- *Additional fields*, see [Additional fields](#additional-fields)
-- *Drop shipping*, see [Drop shipping](#drop-shipping)
-- *CRM information*, see [CRM information](#crm-information)
-- *Notes*, see [Notes](#notes)
-
-[comments]: <> (HG: Link zu Abschnitten so??? Problem: Tabs sind zweimal da...)
+- *[Address/contact](#addresscontact)*
+- *[Delivery addresses](#delivery-addresses)*
+- *[Invoicing](#invoicing)*
+- *[Additional fields](#additional-fields)*
+- *[Drop shipping](#drop-shipping)*
+- *[CRM information](#crm-information)*
+- *[Notes](#notes)*
 
 
 ### Address/contact
@@ -222,6 +219,8 @@ The *Create customer/supplier* tab contains the following sub-tabs to organize c
   - **Debtor (customer)**
   - **Creditor (supplier)**
 
+  > [Info] This drop-down list is only displayed when creating a customer/supplier.
+
 [comment]: <> (im System: Customer customer / Vendor supplier)
 
 - *Debtor/creditor no.*  
@@ -232,9 +231,8 @@ The *Create customer/supplier* tab contains the following sub-tabs to organize c
 - *Short name*  
   Enter a short name for the customer/supplier. This field is mandatory.
 
-- *Form of address*  
-  Click the drop-down list to select the appropriate form of address. The following options are available:  
-
+- *Title*  
+  Click the drop-down list to select the appropriate title. The following options are available:  
     - **Company**
     - **Mr**
     - **Ms**
@@ -243,7 +241,6 @@ The *Create customer/supplier* tab contains the following sub-tabs to organize c
     - **Prof.**
     - **None**
 
-[comment]: <> (Form of address vs. Title -> Both seem to be valid, see m-w.com)
 
 - *Letter salutation*  
   Enter the appropriate letter salutation.
@@ -376,13 +373,12 @@ To add further delivery addresses, see [Further addresses](#further-addresses).
 
   > [Info] Price groups can be created in the *Settings* menu entry of the *Material management* and the *Order management* modules.
 
-- *Print gross*  
+- *Print gross/net*  
   Click the drop-down list to select how prices are indicated on receipts when printed. The following options are available:   
   - **Net prices on receipts**
   - **Gross prices on receipts**
   - **Gross prices stating net total amount**
 
-[comment]: <> (HG: warum Optionen umbenannt?)
 
 **Tax**
 
@@ -390,7 +386,7 @@ To add further delivery addresses, see [Further addresses](#further-addresses).
   Enter the tax office number. If the number is unknown, click the [SEARCH] button to search for the competent tax office.
 
 - [SEARCH]  
-  Click this button to search for a tax office. The *Select tax office* window is displayed, see [Select tax office](#select-tax-office).  
+  Click this button to search for a tax office. The *Select tax office* window is displayed, see [Select tax office](#select-tax-office). This function is currently not available.
 
 - *Tax office*  
   Enter the competent tax office name.
@@ -446,7 +442,6 @@ To add further delivery addresses, see [Further addresses](#further-addresses).
 
 - *Payment terms*  
   Click the drop-down list to select the applicable payment terms. The following options are available:  
-
   - **1 - 8 d 2%, 30 d net**
   - **2 - 30 d net**  
 
@@ -470,9 +465,9 @@ To add further delivery addresses, see [Further addresses](#further-addresses).
 - *Tolerance group for cash discounts*  
   Click the drop-down list to select the appropriate groups. All available options are displayed in the list. By default, the *Standard* option is displayed.
 
-  > [Info] The tolerance groups can be configured in the *Settings* menu entry of the *Order management* module: Order management > Settings > Tab BILLING > Payment terms/handling > Tolerance groups for cash discounts.
+  > [Info] The tolerance groups can be configured in the *Settings* menu entry of the *Order management* module.
 
-[comment]: <> (Add Link, wenn verfügbar. Add Breadcrumbs?)
+[comment]: <> (Link hinzufügen, wenn verfügbar.)
 
 
 **Limits / Locks**
@@ -491,7 +486,7 @@ To add further delivery addresses, see [Further addresses](#further-addresses).
 
   > [Info] The dunning process can be configured in the *Settings* menu entry of the *Order management* module.
 
-[comment]: <> (Add Link, wenn verfügbar. Add Breadcrumbs?)
+[comment]: <> (Link hinzufügen, wenn verfügbar.)
 
 - *Delivery block*  
   Select or deselect this checkbox to activate or deactivate a delivery block.
@@ -508,7 +503,7 @@ To add further delivery addresses, see [Further addresses](#further-addresses).
   Enter the reference supplier number defined by the user.
 
 - *Freight limit*  
-  Enter a freight limit by the supplier. This field is only displayed when a supplier (account number range 70000-99999) has been created.
+  Enter a freight limit by the supplier. This field is only displayed when a supplier (account number range 70000-99999) has been created/selected.
 
 - [SAVE]  
   Click this button to save any changes made.
@@ -526,8 +521,6 @@ To add additional fields, select the corresponding customer/supplier in the *Cus
 
 - [SAVE]  
   No data can be saved at this point in this sub-tab. To access this sub-tab to add data, select the corresponding customer/supplier in the *Customer/Supplier list* tab.
-
-[comment]: <> (vgl sub tab delivery addresses -> entweder überall den save / new/reset / ... löschen buttons aufführen oder überall weglassen. )
 
 
 ### Drop shipping
@@ -617,7 +610,6 @@ To add further information, select the corresponding supplier in the *Customer/S
 
 - *Dispatch method*  
   Click the drop-down list to select the desired dispatch method. The following options are available:  
-
     - **Email**
     - **Post**
     - **Fax**
@@ -650,28 +642,26 @@ To add further information, select the corresponding supplier in the *Customer/S
   Click this button to save any changes made.
 
 
-## Customer/supplier (number)
+## Customer/supplier "Number"
 
 *Accounting > Settings > Tab DEBTORS/CREDITORS > Tab Customer/supplier list > Select customer/supplier*
 
 ![Edit a customer/supplier](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/EditCustomerSupplier.png "[Edit a customer/supplier]")
 
-In the *Customer/supplier (number)* tab, you can add and/or edit the customer/supplier data in the following sub-tabs:  
+In the *Customer/supplier "Number"* tab, you can add and/or edit the customer/supplier data in the following sub-tabs:  
 
-- *Address/contact*, see [Address/contact](#addresscontact-1)
-- *Further addresses*, see [Further addresses](#further-addresses)
-- *Invoicing*, see [Invoicing](#invoicing-1)
-- *Additional fields*, see [Additional fields](#additional-fields-1)
-- *Content*, see [Content](#content)
-- *Stock history*, see [Stock history](#stock-history)
-- *Statistics*, see [Statistics](#statistics)
-- *Drop shipping*, see [Drop shipping](#drop-shipping-1)
-- *CRM information*, see [CRM information](#crm-information-1)
-- *Notes*, see [Notes](#notes-1)
+- *[Address/contact](#addresscontact-1)*
+- *[Further addresses](#further-addresses)*
+- *[Invoicing](#invoicing-1)*
+- *[Additional fields](#additional-fields-1)*
+- *[Content](#content)*
+- *[Stock history](#stock-history)*
+- *[Statistics](#statistics)*
+- *[Drop shipping](#drop-shipping-1)*
+- *[CRM information](#crm-information-1)*
+- *[Notes](#notes-1)*
 
 The displayed sub-tabs and information may vary depending on whether a customer or a supplier has been selected.
-
-[comment]: <> (check with HG. vgl. Customer/supplier list)
 
 
 ### Address/contact
@@ -680,106 +670,13 @@ The displayed sub-tabs and information may vary depending on whether a customer 
 
 ![Address/contact](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/EditCustomerSupplier.png "[Address/contact]")
 
-
-**Address details**  
-
-[comment]: <> (im System Address data)
-
-- *Debtor/creditor no.*  
-  Customer/supplier number assigned. Enter a different customer/supplier number, if necessary.  
-
-  > [Info] If a number is entered out of the valid range for personal numbers (10000-69999 for customers and 70000-99999 for suppliers), a warning message is displayed.
-
-- *Short name*  
-  Short name provided. If necessary, enter a different short name for the customer/supplier. This field is mandatory.
-
-- *Form of address*  
-  Form of address provided. If desired, click the drop-down list to select a different form of address. The following options are available:  
-    - **Company**
-    - **Mr**
-    - **Ms**
-    - **Mr and Mrs**
-    - **Dr**
-    - **Prof.**
-    - **none**
-
-
-- *Letter salutation*  
-  Letter salutation provided. If desired, enter a different letter salutation.
-
-- *Company*  
-  Company name provided. If desired, enter a different company name.
-
-- *Surname*  
-  Last name provided. If desired, enter a different customer/supplier last name.
-
-- *Forename*  
-  First name provided. If desired, enter a different customer/supplier first name.
-
-  > [Info] Either a company or a customer/supplier name must be provided.
-
-- *Address*  
-  Address provided. If desired, enter a different customer/supplier address.
-
-- *Address supplement*  
-  Address supplement provided. If desired, enter any other necessary address information.  
-
-[comment]: <> (im System Address suffix)
-
-- *Zip code*  
-  Zip code provided. If desired, enter a different customer/supplier zip code.  
-
-[comment]: <> (im System Postal code)
-
-- *City*  
-  City or town provided. If desired, enter a different customer/supplier city or town.  
-
-[comment]: <> (im System Ort)
-
-- *Country*  
-  Country provided. If desired, click the drop-down list to select a different country.  
-
-[comment]: <> (Drop-down liste im System auf DE, Sortierung aber auf EN)
-
-
-**Contact**
-
-- *Phone*  
-  Phone number provided. If desired, enter a different contact phone number.
-
-- *Phone 2*  
-  Second phone number provided. If desired, enter a different second contact phone number.
-
-- *Mobile phone*  
-  Mobil phone provided. If desired, enter a different mobile phone number.
-
-- *Fax*  
-  Fax number provided. If desired, enter a different fax number.
-
-- *Email*  
-  Email address provided. If desired, enter a different email address.
-
-- *URL*  
-  URL provided. If desired, enter a different customer/supplier website.
-
-
-**Further**
-
-- *Language*  
-  Language provided. If desired, click the drop-down list to select a different language. If you want no language to be selected, select the **No linguistic content** option.
-
-- *Currency*  
-  Currency provided. Click the drop-down list to select a different currency.
-
-[comment]: <> (HG: Unterschied zum beschriebenen Tab "Address/contact"? Ansonsten ein satz mit Verweis darauf. MV: Außer erster drop-down list, gleich. Screenshot leicht anders: erster Dropdown list + Buttons unten. Trotzdem Hinweis und Verweis?)
+This sub-tab is identical to the one displayed when creating a customer/supplier. For a detailed description, see [Address/contact](#addresscontact).
 
 - [NEW/RESET]  
-  Click this button to reset the *Customer/supplier (number)* tab and create a new customer/supplier. The *Customer/supplier (number)* tab is closed and changes automatically to the *Create customer/supplier* tab.
+  Click this button to reset the *Customer/supplier "Number"* tab and create a new customer/supplier. The *Customer/supplier "Number"* tab is closed and changes automatically to the *Create customer/supplier* tab.
 
-- [DELETE CUSTOMER 'number']/[DELETE SUPPLIER 'number']  
+- [DELETE CUSTOMER "Number"]/[DELETE SUPPLIER "Number"]  
   Click this button to delete the selected customer/supplier.
-
-[comment]: <> (Müssen nochmal schauen, wir wir das mit der Darstellung der "number" machen. Auch bei dem Tab...)
 
 - [SAVE]  
   Click this button to save all changes made to the selected customer/supplier.
@@ -790,7 +687,6 @@ The displayed sub-tabs and information may vary depending on whether a customer 
 *Accounting > Settings > Tab DEBTORS/CREDITORS > Tab Customer/supplier list > Select customer/supplier > Sub-tab Further addresses*
 
 ![Further addresses](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/FurtherAddresses01.png "[Further addresses]")
-
 
 When creating a customer/supplier, the address entered in the *Address details* section in the *Address/contact* sub-tab is automatically saved as default delivery address in the system. The default address is displayed in this sub-tab marked as *DEF*. Further delivery addresses can be added in this sub-tab.
 
@@ -875,8 +771,8 @@ Click the drop-down list to select the address type. The following options are a
 - *Address no.*  
   When creating an address, the next available address number is preselected by default. You can manually enter a different number. The address number cannot be edited after saving. If a new number is entered, a new address will be created.
 
-- *Form of address*  
-  Click the drop-down list to select the appropriate customer/supplier form of address. The following options are available:  
+- *Title*  
+  Click the drop-down list to select the appropriate customer/supplier title. The following options are available:  
     - **Company**
     - **Mr**
     - **Ms**
@@ -940,9 +836,9 @@ Click the drop-down list to select the appropriate country.
 
 
 - [NEW/RESET]  
-Click this button to reset the *Customer/supplier (number)* tab and create a new customer/supplier. The *Customer/supplier (number)* tab is closed and changes automatically to the *Create customer/supplier* tab.
+Click this button to reset the *Customer/supplier "Number"* tab and create a new customer/supplier. The *Customer/supplier "Number"* tab is closed and changes automatically to the *Create customer/supplier* tab.
 
-- [DELETE CUSTOMER 'number']/[DELETE SUPPLIER 'number']  
+- [DELETE CUSTOMER "Number"]/[DELETE SUPPLIER "Number"]  
 Click this button to delete the selected customer/supplier.
 
 - [SAVE]  
@@ -955,181 +851,12 @@ Click this button to save all changes made to the selected customer/supplier.
 
 ![Invoicing](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/Billing02.png "[Invoicing]")
 
-[comment]: <> (HG: Unterschied zu tab oben? Ansonsten verweisen -> Freight limit: "when a supplier has been selected")
-
-**Bank details**
-
-- *Account holder*  
-  Enter the account holder name.
-
-- *Account*  
-  Enter the customer/supplier bank account.
-
-- *Routing number*  
-  Enter the bank routing number.
-
-- *Bank*  
-  The bank name is filled in automatically when entering the routing number.
-
-- *BIC*  
-  Enter the BIC (Bank Identifier Code).
-
-- *IBAN*  
-  Enter the IBAN (International Bank Account Number).
-
-- *SEPA mandate reference*  
-  Enter the SEPA mandate reference.
-
-- *Signature date*  
-  Click the ![Calendar](../../Assets/Icons/Calendar.png "[Calendar]") (Calendar) button to select the signature date. Alternatively, you can enter the date manually. The valid date format is *DD.MM.YYYY*.
-
-
-**Payment options**
-
-- *Price group*  
-  Click the drop-down list to select the appropriate option. All available price groups are displayed in the list.
-
-  > [Info] Price groups can be created in the *Settings* menu entry of the *Material management* and the *Order management* modules.
-
-- *Print gross*  
-  Click the drop-down list to select how prices are indicated on receipts when printed. The following options are available:   
-  - **Net prices on receipts**
-  - **Gross prices on receipts**
-  - **Gross prices stating net total amount**
-
-[comment]: <> (HG: warum Optionen umbenannt?)
-
-**Tax**
-
-- *Tax office no.*  
-  Enter the tax office number. If the number is unknown, click the [SEARCH] button to search for the competent tax office.
-
-- [SEARCH]  
-  Click this button to search for a tax office. The *Select tax office* window is displayed, see [Select tax office](#select-tax-office).  
-
-- *Tax office*  
-  Enter the competent tax office name.
-
-- *Tax no.*  
-  Enter the customer/supplier tax number.
-
-- *VAT ID*  
-  Enter the customer/supplier VAT identification number.
-
-[comment]: <> (Tax office function funktioniert nicht.)
-
-**Posting**  
-
-- *Standard account*  
-  Enter a standard account number for the postings.   
-
-- *Standard cost 1*  
-  Enter a standard cost center for the postings.
-
-- *Standard cost 2*  
-  Enter a standard cost unit for the postings.
-
-
-**Credit card details**
-
-[comment]: <> (im Credit card data)
-
-- *Card type*  
-  Click the drop-down list to select the applicable card type. The following options are available:
-  - *American Express*
-  - *Diners Club*
-  - *MasterCard / EuroCard*
-  - *Visa*
-
-
-- *Card holder*  
-  Enter the card holder name.
-
-- *Card number*  
-  Enter the card number.
-
-- *Valid Thru*  
-  Enter the card expiry date. The valid date format is MM/YYYY.
-
-
-**Default values**
-
-[comment]: <> (im System Standard values)
-
--  *Payment method*  
-  Click the drop-down list to select the applicable payment method. All available payment methods are displayed.
-
-- *Payment terms*  
-  Click the drop-down list to select the applicable payment terms. The following options are available:  
-
-  - **1 - 8 d 2%, 30 d net**
-  - **2 - 30 d net**  
-
-
-- [x] *Only cost supplier/ordering process inactive*    
-   Select this checkbox if the supplier is a provider delivering a service, for example an internet provider, but not goods. Otherwise, deselect the checkbox. If the checkbox is selected, the supplier will not be taken into account in the creation of order proposals.
-
-   > [Info] This option is only relevant when managing supplier receipts.
-
-[comment]: <> (DE = nur Kostenlieferant/Bestellwesen inaktiv -> Übersetzung i.O.?)
-
-[comment]: <> (Link to Einkauf / Bestellvorschläge + Lieferantenbelege prüfen, wenn verfügbar)
-
-- [x] *Goods receipt required*  
-  Select this checkbox to make a goods receipt mandatory.  Otherwise, deselect the checkbox. If the checkbox is selected, at least one item must be selected to release the invoice for payment.
-
-  > [Info] These two functions interact with the *Purchasing* and *Payment processing* modules, and allow to check supplier receipts before posting them in the system and to automatize payment conditions.
-
-[comment]: <> (Link to Zahlungsabwicklung / Offene Posten, wenn verfügbar)
-
-- *Tolerance group for cash discounts*  
-  Click the drop-down list to select the appropriate groups. All available options are displayed in the list. By default, the *Standard* option is displayed.
-
-  > [Info] The tolerance groups can be configured in the *Settings* menu entry of the *Order management* module: Order management > Settings > Tab BILLING > Payment terms/handling > Tolerance groups for cash discounts.
-
-[comment]: <> (Add Link, wenn verfügbar. Add Breadcrumbs?)
-
-
-**Limits / Locks**
-
-- *Credit limit*  
-  Enter a credit limit for the customer/supplier.
-
-- *Customer block*  
-  Select or deselect this checkbox to activate or deactivate a customer block.
-
-- *Dunning block*  
-  Select or deselect this checkbox to activate or deactivate a dunning block.
-
-- *Dunning block, automatic*  
-  Select or deselect this checkbox to activate or deactivate an automatic dunning block.
-
-  > [Info] The dunning process can be configured in the *Settings* menu entry of the *Order management* module.
-
-[comment]: <> (Add Link, wenn verfügbar. Add Breadcrumbs?)
-
-- *Delivery block*  
-  Select or deselect this checkbox to activate or deactivate a delivery block.
-
-- *Contact block*  
-  Select or deselect this checkbox to activate or deactivate a contact block.
-
-
-**Additional information**
-
-[comment]: <> (Im System "Other")
-
-- *Supplier no. for user*  
-  Enter the reference supplier number defined by the user.
-
-- *Freight limit*  
-  Enter a freight limit by the supplier. This field is only displayed when a supplier (account number range 70000-99999) has been selected.
-
+This sub-tab is identical to the one displayed when creating a customer/supplier. For a detailed description, see [Invoicing](#invoicing).
 
 - [NEW/RESET]  
-  Click this button to reset the *Customer/supplier (number)* tab and create a new customer/supplier. The *Customer/supplier (number)* tab is closed and changes automatically to the *Create customer/supplier* tab.
+  Click this button to reset the *Customer/supplier "Number"* tab and create a new customer/supplier. The *Customer/supplier "Number"* tab is closed and changes automatically to the *Create customer/supplier* tab.
 
-- [DELETE CUSTOMER 'number']/[DELETE SUPPLIER 'number']  
+- [DELETE CUSTOMER "Number"]/[DELETE SUPPLIER "Number"]  
   Click this button to delete the selected customer/supplier.
 
 - [SAVE]  
@@ -1139,8 +866,6 @@ Click this button to save all changes made to the selected customer/supplier.
 ### Additional fields
 
 *Accounting > Settings > Tab DEBTORS/CREDITORS > Tab Customer/supplier list > Select customer/supplier > Sub-tab Additional fields*
-
-[comment]: <> (HG/MV: Additionals fields differ from Create customer/supplier -> probably not read by HG. Doublecheck!)
 
 ![Additional fields](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/AdditionalFields02.png "[Additional fields]")
 
@@ -1169,7 +894,7 @@ The list displays all available additional fields. Depending on the settings, th
 - *Value*  
   Value entered.  
 
-[comment]: <> (FH: Unsure if it works properly! RS FH über Additional fields tab)
+[comment]: <> (Unsure if it works properly!)
 
 
 - [DELETE]  
@@ -1312,15 +1037,13 @@ Click the [CREATE] button to display the *Add* section or select the checkbox of
 
 
 - [NEW/RESET]  
-  Click this button to reset the *Customer/supplier (number)* tab and create a new customer/supplier. The *Customer/supplier (number)* tab is closed and changes automatically to the *Create customer/supplier* tab.
+  Click this button to reset the *Customer/supplier "Number"* tab and create a new customer/supplier. The *Customer/supplier "Number"* tab is closed and changes automatically to the *Create customer/supplier* tab.
 
-- [DELETE CUSTOMER 'number']/[DELETE SUPPLIER 'number']  
+- [DELETE CUSTOMER "Number"]/[DELETE SUPPLIER "Number"]  
   Click this button to delete the selected customer/supplier.
 
 - [SAVE]  
   Click this button to save all changes made to the selected customer/supplier.
-
-[comment]: <> (vgl. oben -> Änderungen zu Buttons nach RS mit HG durchgängig machen)
 
 
 ### Stock history
@@ -1337,7 +1060,9 @@ This sub-tab is only displayed when the selected customer has already placed at 
   - *Export current page*
   - *Export all*
 
-[comment]: <> (Option "Export all" wird nicht immer angezeigt. Muss dafür einen Plugin installiert sein? Voraussetzungen?)
+  > [Info] The [EXCEL] button is only displayed if the *Statistics* module is installed.
+
+[comment]: <> (Stimmt das so?)
 
 The list displays all documents of the selected customer. Depending on the settings, the displayed columns may vary. All fields are read-only.
 
@@ -1425,9 +1150,7 @@ Total stock available.
 - *Comment*  
 Related comment entered in the system. By default, the document number is displayed.
 
-[commnet]: <> (Wo kommt dieses Kommentar her? Lager? Warehouse? Add Link, wenn verfübar?)
-
-[comment]: <> (HG: receipt? document?)
+[comment]: <> (Wo kommt dieses Kommentar her? Lager? Warehouse? Link hinzufügen, wenn verfübar.)
 
 - ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh)  
  Click this button to update the receipt list.
@@ -1437,9 +1160,9 @@ Related comment entered in the system. By default, the document number is displa
 
 
 - [NEW/RESET]  
-Click this button to reset the *Customer/supplier (number)* tab and create a new customer/supplier. The *Customer/supplier (number)* tab is closed and changes automatically to the *Create customer/supplier* tab.
+Click this button to reset the *Customer/supplier "Number"* tab and create a new customer/supplier. The *Customer/supplier "Number"* tab is closed and changes automatically to the *Create customer/supplier* tab.
 
-- [DELETE CUSTOMER 'number']/[DELETE SUPPLIER 'number']  
+- [DELETE CUSTOMER "Number"]/[DELETE SUPPLIER "Number"]  
 Click this button to delete the selected customer/supplier.
 
 - [SAVE]  
@@ -1456,25 +1179,165 @@ This sub-tab is only displayed when the selected customer has already placed at 
 
 
 - *Statistic type*  
-Click this drop-down list to select the statistic type to be filtered for in the list. The following options are available:
+  Click this drop-down list to select the statistic type to be filtered for in the list. The following options are available:  
   - **General turnover**  
   - **Turnover per product**
   - **Number of units sold per product**  
 
   The *Statistics extras* side bar is expanded. Depending on the selected option, the fields in the *Statistics extras* side bar as well as the columns displayed in the list of statistics vary.
 
-
 - ![Open](../../Assets/Icons/Back02.png "[Open]") (Open)  
 Click this arrow to expand the *Statistics extras* side bar.
 
 
-**General turnover**  
+#### Statistics extras
+
+**Statistic type - General turnover**
+
+*Accounting > Settings > Tab DEBTORS/CREDITORS > Tab Customer/supplier list > Select customer > Sub-tab Statistics > Statistic type General turnover*
+
+![Statistics extras](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/StatisticsExtras01.png "[Statistics extras]")
+
+![Close](../../Assets/Icons/Close.png "[Close]") (Close)  
+Click this arrow to collapse the *Statistics extras* side bar.
+
+*Period selection*
+
+- Year   
+Click the drop-down list to select the year for the statistics.
+- Period drop-down list   
+Click the drop-down list to select the period for the statistics. The following options are available:  
+  - **Year**   
+  Select this option to display the turnover for the selected year.
+  - **Quarter**  
+  Select this option to display the turnover for a specific quarter. An additional drop-down list to choose the quarter is displayed.
+  - **Month**  
+  Select this option to display the turnover for a specific month. An additional drop-down list to choose the month is displayed.
+  - **Calendar week**  
+  Select this option to display the turnover for a specific month. An additional drop-down list to choose the calendar week is displayed.
+  - **Free selection**  
+  Select this option to determine a period freely. The additional *from - to* fields and the ![Calendar](../../Assets/Icons/Calendar.png "[Calendar]") (Calendar) button are displayed.
+    - *From - to*  
+    Enter the start and end date of a specific period for the statistics. Alternatively, use the ![Calendar](../../Assets/Icons/Calendar.png "[Calendar]") (Calendar) button to select the desired dates.
+- *Product group*  
+Click the drop-down list to select a specific product group. All available product groups are displayed in the list.
+- *Customer*  
+Click the drop-down list to select a specific customer. All available customers are displayed in the list.
+
+- [+ COMPARISON PERIOD]  
+Click this button to add a comparison period to the statistics. An additional year and period selection drop-down list is displayed to specify the desired comparison period. An unlimited number of comparison periods can be added.
+
+- [SHOW]  
+Click this button to display the statistics in the list.
+
+
+**Statistic type - Turnover per product**
+
+*Accounting > Settings > Tab DEBTORS/CREDITORS > Tab Customer/supplier list > Select customer > Sub-tab Statistics > Statistic type Turnover per product*
+
+![Statistics extras](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/StatisticsExtras02.png "[Statistics extras]")
+
+This *Statistics extras* window is identical to the one displayed when selecting the **Number of units sold per product** option in the *Statistic type* drop-down list.
+
+![Close](../../Assets/Icons/Close.png "[Close]") (Close)  
+Click this arrow to collapse the *Statistics extras* side bar.
+
+*Period selection*
+
+- Value     
+  Click this drop-down list to select the values to be displayed. The following options are available:
+  - **Top 20**  
+  Select this option to display the 20 best values.
+  - **Flop 20**  
+  Select this option to displays the 20 worst values.
+  - **All**  
+  Select this option to display all values.
+
+- Year   
+  Click the drop-down list to select the year for the statistics.
+- Period drop-down list   
+  Click the drop-down list to select the period for the statistics. The following options are available:  
+  - **Year**   
+    Select this option to display the turnover for the selected year.
+  - **Quarter**  
+    Select this option to display the turnover for a specific quarter. An additional drop-down list to choose the quarter is displayed.
+  - **Month**  
+    Select this option to display the turnover for a specific month. An additional drop-down list to choose the month is displayed.
+  - **Calendar week**  
+    Select this option to display the turnover for a specific month. An additional drop-down list to choose the calendar week is displayed.
+  - **Free selection**  
+    Select this option to determine a period freely. The additional *from - to* fields and the ![Calendar](../../Assets/Icons/Calendar.png "[Calendar]") (Calendar) button are displayed.
+    - *From - to*  
+      Enter the start and end date of a specific period for the statistics. Alternatively, use the ![Calendar](../../Assets/Icons/Calendar.png "[Calendar]") (Calendar) button to select the desired dates.
+- *Product group*  
+  Click the drop-down list to select a specific product group. All available product groups are displayed in the list.
+- *Customer*  
+  Click the drop-down list to select a specific customer. All available customers are displayed in the list.
+
+- [+ COMPARISON PERIOD]  
+  Click this button to add a comparison period to the statistics. An additional year and period selection drop-down list is displayed to specify the desired comparison period. An unlimited number of comparison periods can be added.
+
+- [SHOW]  
+  Click this button to display the statistics in the list.
+
+
+**Statistic type - Number of units sold per product**
+
+*Accounting > Settings > Tab DEBTORS/CREDITORS > Tab Customer/supplier list > Select customer > Sub-tab Statistics > Statistic type Number of units sold per product*
+
+![Statistics extras](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/StatisticsExtras02.png "[Statistics extras]")
+
+This *Statistics extras* window is identical to the one displayed when selecting the **Turnover per product** option in the *Statistic type* drop-down list.
+
+![Close](../../Assets/Icons/Close.png "[Close]") (Close)  
+Click this arrow to collapse the *Statistics extras* side bar.
+
+*Period selection*
+
+- Value     
+  Click this drop-down list to select the values to be displayed. The following options are available:
+  - **Top 20**  
+  Select this option to display the 20 best values.
+  - **Flop 20**  
+  Select this option to displays the 20 worst values.
+  - **All**  
+  Select this option to display all values.
+
+- Year   
+  Click the drop-down list to select the year for the statistics.
+- Period drop-down list   
+  Click the drop-down list to select the period for the statistics. The following options are available:  
+  - **Year**   
+    Select this option to display the turnover for the selected year.
+  - **Quarter**  
+    Select this option to display the turnover for a specific quarter. An additional drop-down list to choose the quarter is displayed.
+  - **Month**  
+    Select this option to display the turnover for a specific month. An additional drop-down list to choose the month is displayed.
+  - **Calendar week**  
+    Select this option to display the turnover for a specific month. An additional drop-down list to choose the calendar week is displayed.
+  - **Free selection**  
+    Select this option to determine a period freely. The additional *from - to* fields and the ![Calendar](../../Assets/Icons/Calendar.png "[Calendar]") (Calendar) button are displayed.
+    - *From - to*  
+      Enter the start and end date of a specific period for the statistics. Alternatively, use the ![Calendar](../../Assets/Icons/Calendar.png "[Calendar]") (Calendar) button to select the desired dates.
+- *Product group*  
+  Click the drop-down list to select a specific product group. All available product groups are displayed in the list.
+- *Customer*  
+  Click the drop-down list to select a specific customer. All available customers are displayed in the list.
+
+- [+ COMPARISON PERIOD]  
+  Click this button to add a comparison period to the statistics. An additional year and period selection drop-down list is displayed to specify the desired comparison period. An unlimited number of comparison periods can be added.
+
+- [SHOW]  
+  Click this button to display the statistics in the list.
+
+
+The list displays the statistics according to the filter settings selected in the *Statistics extras* side bar. All fields are read-only.
+
+**Statistic type - General turnover**  
+
+*Accounting > Settings > Tab DEBTORS/CREDITORS > Tab Customer/supplier list > Select customer > Sub-tab Statistics > Statistic type General turnover > Statistics extras > Button SHOW*
 
 ![General turnover](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/Statistics01.png "[General turnover]")
-
-The list displays all statistics selected in the Statistic type drop-down list. All fields are read-only.
-
-[comment]: <> (Man mus zuerst eine Auswahl in der Statistics Sidebar treffen)
 
 - *Period*  
 Period selected in the *Statistics extras* side bar.
@@ -1482,67 +1345,25 @@ Period selected in the *Statistics extras* side bar.
 - *Turnover*  
 Turnover for the selected period.
 
-
-**Statistics extra**
-
-![Close](../../Assets/Icons/Close.png "[Close]") (Close)  
-Click this arrow to close the *Statistics extras* side bar.
-
-*Period selection*
-
-- (Year drop-down list)  
-Click the drop-down list to select the year for the statistics.
-
-- (Period drop-down list)  
-Click the drop-down list to select the period for the statistics. The following options are available:  
-
-  - *Year*  
-  Select this option to display the turnover for the selected year.
-
-  - *Quarter*  
-  Select this option to display the turnover for a specific quarter. An additional drop-down list to choose the quarter is displayed.
-
-  - *Month*  
-  Select this option to display the turnover for a specific month. An additional drop-down list to choose the month is displayed.
-
-  - *Calendar week*  
-  Select this option to display the turnover for a specific month. An additional drop-down list to choose the calendar week is displayed.
-
-  - *Free selection*  
-  Select this option to determine a period freely. The additional *from - to* fields and the ![Calendar](../../Assets/Icons/Calendar.png "[Calendar]") (Calendar) button are displayed.
-
-  - *From - to*  
-  Enter the start and end date of a specific period for the statistics. Alternatively, use the ![Calendar](../../Assets/Icons/Calendar.png "[Calendar]") (Calendar) button to select the desired dates.
-
-  - *Product group*  
-  Click the drop-down list to select a specific product group. All available product groups are displayed in the list.
-
-  - *Customer*  
-  Click the drop-down list to select a specific customer. All available customers are displayed in the list.
-
-
-- [+ COMPARISON PERIOD]  
-Click this button to add a comparison period in the statistics. Additional year and period selection drop-down lists are displayed to specify the comparison period.
-
-- [SHOW]  
-Click this button to display the statistics in the list.
-
-
 - [PRINT]  
-Click this button to print the statistics displayed. The *Print view* window is displayed.
-
-[comment]: <> (HG: Fenster beschreiben?)
+Click this button to print the statistics displayed. The *Print view* window is displayed, see [Print view](#print-view).
 
 - [EXCEL]  
 Click this button to download the statistics displayed in Excel format. By default, the downloaded export file is saved in the *Downloads* folder of your device.
 
+  > [Info] The [EXCEL] button is only displayed if the *Statistics* module is installed.
 
-**Turnover per product**
+[comment]: <> (Stimmt das so?)
+
+
+**Statistic type - Turnover per product**  
+
+*Accounting > Settings > Tab DEBTORS/CREDITORS > Tab Customer/supplier list > Select customer > Sub-tab Statistics > Statistic type Turnover per product > Statistics extras > Button SHOW*
 
 ![Turnover per product](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/Statistics02.png "[Turnover per product]")
 
 - *Product group*  
-Product group which the product belongs to, if any.
+Product group to which the product is assigned.
 
 - *Product*  
 Product name.
@@ -1565,80 +1386,24 @@ Turnover generated in the selected period.
 - *TOTAL AMOUNT/AVERAGE*  
 Total amount/average values for the selected period.
 
-
-**Statistics extra**
-
-![Close](../../Assets/Icons/Close.png "[Close]") (Close)  
-Click this arrow to close the *Statistics extras* side bar.
-
-*Period selection*
-
-- (Top value drop-down list)  
-Click this drop-down list to select the values to be displayed. The following options are available:
-
-  - **Top 20**  
-  Select this option to display the 20 best vales.
-
-  - **Flop 20**  
-  Select this option to displays the 20 worst values.
-
-  - **All**  
-  Select this option to display all values.
-
-- (Year drop-down list)  
-Click the drop-down list to select the year for the statistics.
-
-- (Period drop-down list)  
-Click the drop-down list to select the period for the statistics. The following options are available:  
-
-  - *Year*  
-  Select this option to display the turnover for the selected year.
-
-  - *Quarter*  
-  Select this option to display the turnover for a specific quarter. An additional drop-down list to choose the quarter is displayed.
-
-  - *Month*  
-  Select this option to display the turnover for a specific month. An additional drop-down list to choose the month is displayed.
-
-  - *Calendar week*  
-  Select this option to display the turnover for a specific month. An additional drop-down list to choose the calendar week is displayed.
-
-  - *Free selection*  
-  Select this option to determine a period freely. The additional *from - to* fields and the ![Calendar](../../Assets/Icons/Calendar.png "[Calendar]") (Calendar) button are displayed.
-
-  - *From - to*  
-  Enter the start and end date of a specific period for the statistics. Alternatively, use the ![Calendar](../../Assets/Icons/Calendar.png "[Calendar]") (Calendar) button to select the desired dates.
-
-  - *Product group*  
-  Click the drop-down list to select a specific product group.
-
-  - *Customer*  
-  Click the drop-down list to select a specific customer.
-
-
-- [+ COMPARISON PERIOD]  
-Click this button to add a comparison period in the statistics. Additional year and period selection drop-down lists are displayed to specify the comparison period..
-
-- [SHOW]  
-Click this button to display the statistics in the list.
-
-
 - [PRINT]  
-Click this button to print the statistics displayed. The *Print view* window is displayed.
-
-[comment]: <> (Fenster beschreiben?)
+Click this button to print the statistics displayed. The *Print view* window is displayed, see [Print view](#print-view).
 
 - [EXCEL]  
-Click this button to download the statistics displayed in Excel format. By default, the downloaded export file is saved in the
-*Downloads* folder of your device.
+Click this button to download the statistics displayed in Excel format. By default, the downloaded export file is saved in the *Downloads* folder of your device.
 
+  > [Info] The [EXCEL] button is only displayed if the *Statistics* module is installed.
 
-**Number of units sold per product**
+[comment]: <> (Stimmt das so?)
+
+**Statistic typ - Number of units sold per product**
+
+*Accounting > Settings > Tab DEBTORS/CREDITORS > Tab Customer/supplier list > Select customer > Sub-tab Statistics > Statistic type Number of units sold per product > Statistics extras > Button SHOW*
 
 ![Number of units sold per product](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/Statistics03.png "[Number of units sold per product]")
 
 - *Product group*  
-Product group which the product belongs to, if any.
+Product group to which the product is assigned.
 
 - *Product*  
 Product name.
@@ -1655,81 +1420,42 @@ Turnover generated in the selected period.
 - *TOTAL AMOUNT/AVERAGE*  
 Total amount/average values for the selected period.
 
-
-**Statistics extra**
-
-![Close](../../Assets/Icons/Close.png "[Close]") (Close)  
-Click this arrow to close the *Statistics extras* side bar.
-
-*Period selection*
-
-- (Top value drop-down list)  
-Click this drop-down list to select the values to be displayed. The following options are available:
-
-  - **Top 20**  
-  Select this option to display the 20 best values.
-
-  - **Flop 20**  
-  Select this option to displays the 20 worst values.
-
-  - **All**  
-  Select this option to display all values.
-
-- (Year drop-down list)  
-Click the drop-down list to select the year for the statistics.
-
-- (Period drop-down list)  
-Click the drop-down list to select the period for the statistics. The following options are available:  
-
-  - *Year*  
-  Select this option to display the turnover for the selected year.
-
-  - *Quarter*  
-  Select this option to display the turnover for a specific quarter. An additional drop-down list to choose the quarter is displayed.
-
-  - *Month*  
-  Select this option to display the turnover for a specific month. An additional drop-down list to choose the month is displayed.
-
-  - *Calendar week*  
-  Select this option to display the turnover for a specific month. An additional drop-down list to choose the calendar week is displayed.
-
-  - *Free selection*  
-  Select this option to determine a period freely. The additional *from - to* fields and the ![Calendar](../../Assets/Icons/Calendar.png "[Calendar]") (Calendar) button are displayed.
-
-  - *From - to*  
-  Enter the start and end date of a specific period for the statistics. Alternatively, use the ![Calendar](../../Assets/Icons/Calendar.png "[Calendar]") (Calendar) button to select the desired dates.
-
-  - *Product group*  
-  Click the drop-down list to select a specific product group.
-
-  - *Customer*  
-  Click the drop-down list to select a specific customer.
-
-
-- [+ COMPARISON PERIOD]  
-  Click this button to add a comparison period in the statistics. Additional year and period selection drop-down lists are displayed to specify the comparison period.
-
-- [SHOW]  
-  Click this button to display the statistics in the list.
-
-
 - [PRINT]  
-  Click this button to print the statistics displayed. The *Print view* window is displayed.
-
-[comment]: <> (Fenster beschreiben?)
+  Click this button to print the statistics displayed. The *Print view* window is displayed, see [Print view](#print-view).
 
 - [EXCEL]  
   Click this button to download the statistics displayed in Excel format. By default, the downloaded export file is saved in the *Downloads* folder of your device.
 
+  > [Info] The [EXCEL] button is only displayed if the *Statistics* module is installed.
+
+[comment]: <> (Stimmt das so?)
 
 - [NEW/RESET]  
-  Click this button to reset the *Customer/supplier (number)* tab and create a new customer/supplier. The *Customer/supplier (number)* tab is closed and changes automatically to the *Create customer/supplier* tab.
+  Click this button to reset the *Customer/supplier "Number"* tab and create a new customer/supplier. The *Customer/supplier "Number"* tab is closed and changes automatically to the *Create customer/supplier* tab.
 
-- [DELETE CUSTOMER 'number']/[DELETE SUPPLIER 'number']  
+- [DELETE CUSTOMER "Number"]/[DELETE SUPPLIER "Number"]  
   Click this button to delete the selected customer/supplier.
 
 - [SAVE]  
   Click this button to save all changes in the selected customer/supplier.
+
+
+#### Print view
+
+*Accounting > Settings > Tab DEBTORS/CREDITORS > Tab Customer/supplier list > Select supplier > Sub-tab Statistics > Button PRINT*
+
+![Print view](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/StatisticsPrintView.png "[Print view]")
+
+The information displayed in the print view is identical to the one displayed in the *Statistics* sub-tab. The fields displayed vary according to the options selected in the *Statistic type* drop-down list and the *Statistic extras* section.
+
+- *Customer number*  
+Number of selected customer.
+
+- *Name*
+Name of selected customer.
+
+- [Print]  
+Click this button to generate a document in printable format. The document preview is displayed in a new window.
 
 
 ### Drop shipping
@@ -1739,9 +1465,6 @@ Click the drop-down list to select the period for the statistics. The following 
 ![Delivery addresses](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/DropShipping02.png "[Delivery addresses]")
 
 This sub-tab is only displayed when selecting a supplier in the *Customer/supplier* list.
-
-[comment]: <> (HG: Fenster geschnitten -> Einige Fenster sind unvollständig angezeigt, see Versender -> Shipping -> Shipping drop-down list)
-
 
 **Settings**
 
@@ -1774,56 +1497,50 @@ This sub-tab is only displayed when selecting a supplier in the *Customer/suppli
   > [Info] The shipping provider can be configured in the *Shipping provider* tab of the *Settings* menu entry in the *Order management* module.
 
 **Services**  
-Configure the services as agreed with the shipping provider. Depending on the shipping provider selected, the services, and therefore the displayed fields, vary.
+  Depending on the shipping provider selected, the fields displayed in this section vary.
 
 [comment]: <> (Info kommt aus Fakturierung/Settings/Shipping provider/Shipping -> Link hinzufügen, wenn verfügbar.)
 
-[comment]: <> (Frage FH: Was wird by default angezeigt? Wonach richtet sich, was angezeigt wird? Kundeneinstellungen?)
-
-[comment]: <> (HG: Wir müssen überlegen, wie wir das beschreiben. Auch die Felder in den übrigen Menüpunkten, z.B. Export, sind von der Wahl des Shipping providers abhängig bzw. unterscheiden sich...)
-
 
 #### Export
-*Accounting > Settings > Tab DEBTORS/CREDITORS > Tab Customer/supplier list > Select supplier > Sub-tab Drop shipping > Drop shipping settings side menu > Menu entry Shipper*
+*Accounting > Settings > Tab DEBTORS/CREDITORS > Tab Customer/supplier list > Select supplier > Sub-tab Drop shipping > Drop shipping settings side menu > Menu entry Export*
 
 ![Export](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/DropShippingExport.png "[Export]")  
+
+Depending on the supplier selected, the sections and fields displayed may slightly vary.  
 
 **Export**
 
 - *Export via*  
-  Click the drop-down list to select the appropriate export method. The following options are available:  
-
+  Click the drop-down list to select the appropriate export method. By default, the following options are available:  
   - **csv**
   - **No export**
 
-[comment]: <> (FH: Andere Optionen? Wovon hängt es ab?)
 
 - *Number of data records per file*  
   Enter the desired number of data records per file.
 
-- *Export definition*  
-  Click the drop-down list to select the export definition. The following options are available:  
+[comment]: <> (Gibt es eine Begrenzung?)
 
+- *Export definition*  
+  Click the drop-down list to select the export definition. By default, the following options are available:  
   - **DHL Easylog**
   - **DPD Shipping**
   - **GLS Gepard**
 
-[comment]: <> (FH: Andere Optionen? Wovon hängt es ab?)
 
 - [EDIT]  
-  Click this button to edit the export definition. The *Import/export definitions* window is displayed, see [Import/export definitions](#import-export-definitions).
+  Click this button to edit the export definition or add a new one. The *Import/export definitions* window is displayed, see [Import/export definitions](#import-export-definitions).
 
 - *Export file name*  
   Enter the export file name.
 
-[comment]: <> (FH: versand-%p.csv -> Default value? Muss man es so beibehalten und dann % ersetzt? Oder egal?)
+[comment]: <> (versand-%p.csv -> Muss man es so beibehalten und dann % ersetzen? Oder kann die Datei beliebig genannt werden?)
 
 **Export specifications**
 
 - *Minimum weight*  
   Enter the desired minimum weight.
-
-[comment]: <> (HF: File weight? Better file size? Minimum oder maximum?)
 
 **Export to ECM**  
 
@@ -1857,6 +1574,8 @@ Configure the services as agreed with the shipping provider. Depending on the sh
 *Accounting > Settings > Tab DEBTORS/CREDITORS > Tab Customer/supplier list > Select supplier > Sub-tab Drop shipping > Drop shipping settings side menu > Menu entry Receipt export*
 
 ![Receipt export](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/DropShippingReceiptExport.png "[Receipt export]")    
+
+Depending on the supplier selected, the sections and fields displayed may slightly vary.  
 
 **Document export**  
 
@@ -1925,7 +1644,7 @@ Configure the services as agreed with the shipping provider. Depending on the sh
 
 ![Reimport](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/DropShippingReimport.png "[Reimport]")   
 
-> [Info] Depending on the supplier selected, the sections and fields displayed vary.
+Depending on the supplier selected, the sections and fields displayed may slightly vary.  
 
 **Reimport**
 
@@ -1936,21 +1655,17 @@ Configure the services as agreed with the shipping provider. Depending on the sh
 
 - *Import via*  
   Click the drop-down list to select the appropriate export method. The following options are available:  
-
   - **csv**
   - **No export**
 
-[comment]: <> (FH: Andere Optionen? Wovon abhängig?)
 
 - *Import definition*  
   Click the drop-down list to select the export definition. The following options are available:  
-
   - **DHL Easylog**
 
-[comment]: <> (Andere Optionen, abhängig von Shipping provider?)
 
 - [EDIT]  
-  Click this button to edit the import definition. The *Import/export definitions* window is displayed, see [Import/export definitions](#import-export-definitions).
+  Click this button to edit the import definition or add a new one. The *Import/export definitions* window is displayed, see [Import/export definitions](#import-export-definitions).
 
 - *Import file name*  
   Enter the import file name.
@@ -1999,93 +1714,15 @@ Configure the services as agreed with the shipping provider. Depending on the sh
 
 ![Delivery addresses](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/CRMInformation02a.png "[Delivery addresses]")
 
-> [Info] When selecting a supplier (customer 70000 onwards) in the *Customer/supplier list*, only the *General* and *Credit rating* sections are displayed. Moreover, the *General* section contains only the *Supervisor*, *Area*, *Last pers. contact*, *Industry* and *Industry 2* fields.
+This sub-tab is identical to the one displayed when creating a customer/supplier. For a detailed description, see [CRM information](#crm-information).
 
-[comment]: <> (HG: Unterschied zu CRM oben? Wenn kein Unterschied -> Satz mit Verweis!)
-
-**General**
-
-  - *Customer no.*  
-    Enter the appropriate customer number.
-
-  - *Type*  
-    Enter the type of customer.
-
-  - *Date of birth*  
-    Enter the date of birth or click the ![Calendar](../../Assets/Icons/Calendar.png "[Calendar]") (Calendar) button to select the date.
-
-  - *Supervisor*  
-    Click the drop-down list to select the person responsible for this customer/supplier.
-
-  - *Area*  
-    Enter the applicable area, if necessary.
-
-  - *Last pers. contact*  
-    Enter the date of the last personal contact or click the ![Calendar](../../Assets/Icons/Calendar.png "[Calendar]") (Calendar) button to select the date.
-
-  - *Industry*  
-    Enter information about the applicable industrial sector, if necessary.
-
-  - *Industry 2*  
-    Enter further information about the applicable industrial sector, if necessary.
-
-
-**Credit rating**
-
-  - *Request from*  
-    Enter the request date or click the ![Calendar](../../Assets/Icons/Calendar.png "[Calendar]") (Calendar) button to select the date.
-
-  - *Capital*  
-    Enter the applicable capital amount.
-
-  - *Employees*  
-    Click the drop-down list to select the appropriate number of employees.
-
-  - *Status from*  
-    Enter the status date or click the ![Calendar](../../Assets/Icons/Calendar.png "[Calendar]") (Calendar) button to select the date.
-
-  - *Year*  
-    Enter the year of the credit rating.
-
-  - *Turnover*  
-    Enter the turnover value.
-
-  [comment]: <> (Im System "Sales")
-
-  - *Other information*  
-    Enter any other relevant information.
-
-
-**Document Dispatch Notification Settings**
-
-> [Info] This section is only relevant for customers, not for suppliers.
-
-- *Overwrite* [x]  
-  Select the checkbox to display the options below. Otherwise, the default settings are applied.
-
-- *Dispatch method*  
-  Click the drop-down list to select the dispatch method. The following options are available:  
-
-    - **Email**
-    - **Post**
-    - **Fax**
-    - **APS print**  
-
-[comment]: <> (Im System Shipping method)
-
-- *Order origin*  
-  Click the drop-down list to select the applicable order origins(s). Multiple selection is possible.
-
-- *Template*  
-  Click the drop-down list to select the applicable template.
-
-[comment]: <> (Drop-down list options to be localised)
+> [Info] When selecting a supplier (account number range 70000-99999) in the *Customer/supplier list*, only the *General* and *Credit rating* sections are displayed. Moreover, the *General* section contains only the *Supervisor*, *Area*, *Last pers. contact*, *Industry* and *Industry 2* fields.
 
 
 - [NEW/RESET]
-  Click this button to reset the *Customer/supplier (number)* tab and create a new customer/supplier. The *Customer/supplier (number)* tab is closed and changes automatically to the *Create customer/supplier* tab.
+  Click this button to reset the *Customer/supplier "Number"* tab and create a new customer/supplier. The *Customer/supplier "Number"* tab is closed and changes automatically to the *Create customer/supplier* tab.
 
-- [DELETE CUSTOMER 'number']/[DELETE SUPPLIER 'number']
+- [DELETE CUSTOMER "Number"]/[DELETE SUPPLIER "Number"]
   Click this button to delete the selected customer/supplier.
 
 - [SAVE]
@@ -2098,16 +1735,12 @@ Configure the services as agreed with the shipping provider. Depending on the sh
 
 ![Notes](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/Notes02.png "[Notes]")
 
-[comment]: <> (HG: Unterschied zu CRM oben? Wenn kein Unterschied -> Satz mit Verweis!)
-
-- *Comments*  
-  Enter any further relevant information in the box. The information entered here is displayed in the *Comments* column in the *Customer/supplier* tab.
-
+This sub-tab is identical to the one displayed when creating a customer/supplier. For a detailed description, see [Notes](#notes).
 
 - [NEW/RESET]  
-  Click this button to reset the *Customer/supplier (number)* tab and create a new customer/supplier. The *Customer/supplier (number)* tab is closed and changes automatically to the *Create customer/supplier* tab.
+  Click this button to reset the *Customer/supplier "Number"* tab and create a new customer/supplier. The *Customer/supplier "Number"* tab is closed and changes automatically to the *Create customer/supplier* tab.
 
-- [DELETE CUSTOMER (XXXXX)]/[DELETE SUPPLIER (XXXXX)]  
+- [DELETE CUSTOMER "Number"]/[DELETE SUPPLIER "Number"]  
   Click this button to delete the selected customer/supplier.
 
 - [SAVE]  
@@ -2116,38 +1749,9 @@ Configure the services as agreed with the shipping provider. Depending on the sh
 
 #### Select tax office
 
-*Accounting > Settings > Tab DEBTORS/CREDITORS > Tab Create customer/supplier > Sub-tab Invoicing > Button SUCHEN*
+> [Info] This function is currently not available.
 
-*Accounting > Settings > Tab DEBTORS/CREDITORS > Tab Customer/supplier list > Select customer/supplier > Sub-tab Invoicing > Button SUCHEN*
-
-![Select tax office](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/SelectTaxOffice.png "[Select tax office]")
-
-- *Search*  [Search bar]  
-  Enter the search text (letters or numbers). Press the **ENTER** key to start the search. All tax offices that match the search criteria are displayed in the list below.
-
-- [CLEAR]  
-  Click this button to clear the search bar.
-
-The list displays all search results. All fields are read-only.
-
-- *No.*  
-  Tax office number.
-
-- *Name*  
-  Tax office name.
-
-- *Street*  
-  Tax office street.
-
-- *Street*  
-  Additional address details.
-
-[comment]: <> (Or Zip code? Rename column. Bug in OneNote)
-
-- *City*  
-  Tax office city or town.
-
-[comment]: <> (FH: Fenster funktioniert nicht? -> Wenn man versucht zu suchen, Fehlermeldung. Plugin fehlt?)
+[comment]: <> (Fenster funktioniert nicht. Wenn man versucht zu suchen, Fehlermeldung. Bug? Plugin fehlt?)
 
 
 #### Edit additional fields
@@ -2161,8 +1765,11 @@ The list displays all search results. All fields are read-only.
   Click this button to display the *EXCEL* context menu. The following options are available:  
 
   - *Export current page*
+  - *Export all*
 
-[comment]: <> (EXCEL Menü fehlt manchmal; Export all Option nicht angezeigt. Warum? Voraussetzungen? Plugin/Modul?)
+  > [Info] The [EXCEL] button is only displayed if the *Statistics* module is installed.
+
+[comment]: <> (Stimmt das so?)
 
 The list displays all additional fields. Depending on the settings, the displayed columns may vary. All fields are read-only.
 
@@ -2313,12 +1920,12 @@ Click the drop-down list to select the appropriate option.
 
 **Name**
 
-- (Drop-down list)  
+- Import/export definition type  
   Click the drop-down list to select a preconfigured import/export definition type. If there are any available, the second drop-down list displays the preconfigured definitions of the selected type.
 
 [comment]: <> (Bedeutung von Asterisk neben Namen?)
 
-- (Drop-down list)  
+- Import/export definition
   Click the drop-down list to select the desired preconfigured import/export definition.
 
 - [ADD]  
@@ -2367,7 +1974,9 @@ Click this button to enter an "ignore field", that is, to indicate that the fiel
 [comment]: <> (Further info needed! RS HG)
 
 - *Column name*  
-  Click the drop-down list to select the appropriate option (**Yes/No**) to include or not the column name in the export/import.
+  Click the drop-down list to select the appropriate option to include or not the column name in the export/import. The following options are available:  
+    - **Yes**
+    - **No**
 
 - *Date format*  
   Click the drop-down list to select the desired date and time format.
@@ -2387,14 +1996,15 @@ Click this button to enter an "ignore field", that is, to indicate that the fiel
   Click the drop-down list to select the appropriate option, either **Automatic** or the applicable encoding.
 
 - *Incorrect tow end character*  
-  Click the drop-down list to select the appropriate option (**Ignore/Repair**).
+  Click the drop-down list to select the appropriate option. The following options are available:
+    - **Ignore**
+    - **Repair**
 
 - *Number format*  
   Click the drop-down list to select the desired number format.
 
 - [SAVE]  
   Click this button to save the changes.
-
 
 
 #### New import/export definition  
