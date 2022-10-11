@@ -751,7 +751,7 @@ The list displays all delivery addresses of the selected customer/supplier. Depe
 Click the [CREATE] button to display the *Add* section or select the checkbox of an address to display the *Edit* section. The fields in the *Add* and the *Edit* section are identical.
 
 - *Address type*  
-Click the drop-down list to select the address type. The following options are available:
+  Click the drop-down list to select the address type. The following options are available:
   - **Base address**
   - **Buyer's address**
   - **Billing address**
@@ -803,7 +803,7 @@ Click the drop-down list to select the address type. The following options are a
   Enter the zip code and city.
 
 - *Country*  
-Click the drop-down list to select the appropriate country.  
+  Click the drop-down list to select the appropriate country.  
 
 [comment]: <> (Drop-down liste im System auf DE, Sortierung aber auf EN o.ä.)
 
@@ -836,13 +836,13 @@ Click the drop-down list to select the appropriate country.
 
 
 - [NEW/RESET]  
-Click this button to reset the *Customer/supplier "Number"* tab and create a new customer/supplier. The *Customer/supplier "Number"* tab is closed and changes automatically to the *Create customer/supplier* tab.
+  Click this button to reset the *Customer/supplier "Number"* tab and create a new customer/supplier. The *Customer/supplier "Number"* tab is closed and changes automatically to the *Create customer/supplier* tab.
 
 - [DELETE CUSTOMER "Number"]/[DELETE SUPPLIER "Number"]  
-Click this button to delete the selected customer/supplier.
+  Click this button to delete the selected customer/supplier.
 
 - [SAVE]  
-Click this button to save all changes made to the selected customer/supplier.
+  Click this button to save all changes made to the selected customer/supplier.
 
 
 ### Invoicing
@@ -1073,7 +1073,7 @@ The list displays all documents of the selected customer. Depending on the setti
   Customer name entered in the system.
 
 - *Document no.*  
-Document identification number. The abbreviations indicate the type of document. The following document types are available:  
+  Document identification number. The abbreviations indicate the type of document. The following document types are available:  
   - *AN*: Offer
   - *AB*: Order confirmation
   - *RE*: Invoice
@@ -1094,25 +1094,25 @@ Document identification number. The abbreviations indicate the type of document.
 [comment]: <> (Check Terminologie, z.B. Fakturierun/Detail/Create drop-down menu oder Settings, und Abkürzungen!)
 
 - *SKU*  
-Stock Keeping Unit. Product identification code.
+  Stock Keeping Unit. Product identification code.
 
 - *Product name*  
-Name of the product.
+  Name of the product.
 
 - *Quantity*  
-Amount of products.
+  Amount of products.
 
 - *Price*  
-Net price of a single product.
+  Net price of a single product.
 
 - *Total price*  
-Total price of all products.
+  Total price of all products.
 
 - *Date*  
-Creation date of the document.
+  Creation date of the document.
 
 - *Posting type*  
-Type of operation. The following operations are available:  
+  Type of operation. The following operations are available:  
   - *Manual posting*
   - *Reservation*
   - *Waiting for picking*
@@ -1130,43 +1130,43 @@ Type of operation. The following operations are available:
 [comment]: <> (List aus Lager/Buchungshistorie)
 
 - *Warehouse*  
-Warehouse where the product is stored.
+  Warehouse where the product is stored.
 
 - *Storage shelf at the time of posting*  
-Storage shelf where the product is located at the time of the posting.
+  Storage shelf where the product is located at the time of the posting.
 
 - *Storage shelf*  
-Storage shelf where the product is located by default.
+  Storage shelf where the product is located by default.
 
 - *Movement*  
-Number of products moved.
+  Number of products moved.
 
 - *Total stock*  
-Total stock of the product.
+  Total stock of the product.
 
 - *Total available*  
-Total stock available.
+  Total stock available.
 
 - *Comment*  
-Related comment entered in the system. By default, the document number is displayed.
+  Related comment entered in the system. By default, the document number is displayed.
 
 [comment]: <> (Wo kommt dieses Kommentar her? Lager? Warehouse? Link hinzufügen, wenn verfübar.)
 
 - ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh)  
- Click this button to update the receipt list.
+  Click this button to update the receipt list.
 
 - [RESET]  
- Click this button to reset the receipt list view.
+  Click this button to reset the receipt list view.
 
 
 - [NEW/RESET]  
-Click this button to reset the *Customer/supplier "Number"* tab and create a new customer/supplier. The *Customer/supplier "Number"* tab is closed and changes automatically to the *Create customer/supplier* tab.
+  Click this button to reset the *Customer/supplier "Number"* tab and create a new customer/supplier. The *Customer/supplier "Number"* tab is closed and changes automatically to the *Create customer/supplier* tab.
 
 - [DELETE CUSTOMER "Number"]/[DELETE SUPPLIER "Number"]  
-Click this button to delete the selected customer/supplier.
+  Click this button to delete the selected customer/supplier.
 
 - [SAVE]  
-Click this button to save all changes made to the selected customer/supplier.
+  Click this button to save all changes made to the selected customer/supplier.
 
 
 ### Statistics
@@ -1187,7 +1187,7 @@ This sub-tab is only displayed when the selected customer has already placed at 
   The *Statistics extras* side bar is expanded. Depending on the selected option, the fields in the *Statistics extras* side bar as well as the columns displayed in the list of statistics vary.
 
 - ![Open](../../Assets/Icons/Back02.png "[Open]") (Open)  
-Click this arrow to expand the *Statistics extras* side bar.
+  Click this arrow to expand the *Statistics extras* side bar.
 
 
 #### Statistics extras
@@ -1198,37 +1198,37 @@ Click this arrow to expand the *Statistics extras* side bar.
 
 ![Statistics extras](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/StatisticsExtras01.png "[Statistics extras]")
 
-![Close](../../Assets/Icons/Close.png "[Close]") (Close)  
+- ![Close](../../Assets/Icons/Close.png "[Close]") (Close)  
 Click this arrow to collapse the *Statistics extras* side bar.
 
 *Period selection*
 
 - Year   
-Click the drop-down list to select the year for the statistics.
+  Click the drop-down list to select the year for the statistics.
 - Period drop-down list   
-Click the drop-down list to select the period for the statistics. The following options are available:  
+  Click the drop-down list to select the period for the statistics. The following options are available:  
   - **Year**   
-  Select this option to display the turnover for the selected year.
+    Select this option to display the turnover for the selected year.
   - **Quarter**  
-  Select this option to display the turnover for a specific quarter. An additional drop-down list to choose the quarter is displayed.
+    Select this option to display the turnover for a specific quarter. An additional drop-down list to choose the quarter is displayed.
   - **Month**  
-  Select this option to display the turnover for a specific month. An additional drop-down list to choose the month is displayed.
+    Select this option to display the turnover for a specific month. An additional drop-down list to choose the month is displayed.
   - **Calendar week**  
-  Select this option to display the turnover for a specific month. An additional drop-down list to choose the calendar week is displayed.
+    Select this option to display the turnover for a specific month. An additional drop-down list to choose the calendar week is displayed.
   - **Free selection**  
-  Select this option to determine a period freely. The additional *from - to* fields and the ![Calendar](../../Assets/Icons/Calendar.png "[Calendar]") (Calendar) button are displayed.
+    Select this option to determine a period freely. The additional *from - to* fields and the ![Calendar](../../Assets/Icons/Calendar.png "[Calendar]") (Calendar) button are displayed.
     - *From - to*  
-    Enter the start and end date of a specific period for the statistics. Alternatively, use the ![Calendar](../../Assets/Icons/Calendar.png "[Calendar]") (Calendar) button to select the desired dates.
+      Enter the start and end date of a specific period for the statistics. Alternatively, use the ![Calendar](../../Assets/Icons/Calendar.png "[Calendar]") (Calendar) button to select the desired dates.
 - *Product group*  
-Click the drop-down list to select a specific product group. All available product groups are displayed in the list.
+  Click the drop-down list to select a specific product group. All available product groups are displayed in the list.
 - *Customer*  
-Click the drop-down list to select a specific customer. All available customers are displayed in the list.
+  Click the drop-down list to select a specific customer. All available customers are displayed in the list.
 
 - [+ COMPARISON PERIOD]  
-Click this button to add a comparison period to the statistics. An additional year and period selection drop-down list is displayed to specify the desired comparison period. An unlimited number of comparison periods can be added.
+  Click this button to add a comparison period to the statistics. An additional year and period selection drop-down list is displayed to specify the desired comparison period. An unlimited number of comparison periods can be added.
 
 - [SHOW]  
-Click this button to display the statistics in the list.
+  Click this button to display the statistics in the list.
 
 
 **Statistic type - Turnover per product**
@@ -1239,19 +1239,19 @@ Click this button to display the statistics in the list.
 
 This *Statistics extras* window is identical to the one displayed when selecting the **Number of units sold per product** option in the *Statistic type* drop-down list.
 
-![Close](../../Assets/Icons/Close.png "[Close]") (Close)  
-Click this arrow to collapse the *Statistics extras* side bar.
+- ![Close](../../Assets/Icons/Close.png "[Close]") (Close)  
+  Click this arrow to collapse the *Statistics extras* side bar.
 
 *Period selection*
 
 - Value     
   Click this drop-down list to select the values to be displayed. The following options are available:
   - **Top 20**  
-  Select this option to display the 20 best values.
+    Select this option to display the 20 best values.
   - **Flop 20**  
-  Select this option to displays the 20 worst values.
+    Select this option to displays the 20 worst values.
   - **All**  
-  Select this option to display all values.
+    Select this option to display all values.
 
 - Year   
   Click the drop-down list to select the year for the statistics.
@@ -1289,7 +1289,7 @@ Click this arrow to collapse the *Statistics extras* side bar.
 
 This *Statistics extras* window is identical to the one displayed when selecting the **Turnover per product** option in the *Statistic type* drop-down list.
 
-![Close](../../Assets/Icons/Close.png "[Close]") (Close)  
+- ![Close](../../Assets/Icons/Close.png "[Close]") (Close)  
 Click this arrow to collapse the *Statistics extras* side bar.
 
 *Period selection*
@@ -1340,16 +1340,16 @@ The list displays the statistics according to the filter settings selected in th
 ![General turnover](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/Statistics01.png "[General turnover]")
 
 - *Period*  
-Period selected in the *Statistics extras* side bar.
+  Period selected in the *Statistics extras* side bar.
 
 - *Turnover*  
-Turnover for the selected period.
+  Turnover for the selected period.
 
 - [PRINT]  
-Click this button to print the statistics displayed. The *Print view* window is displayed, see [Print view](#print-view).
+  Click this button to print the statistics displayed. The *Print view* window is displayed, see [Print view](#print-view).
 
 - [EXCEL]  
-Click this button to download the statistics displayed in Excel format. By default, the downloaded export file is saved in the *Downloads* folder of your device.
+  Click this button to download the statistics displayed in Excel format. By default, the downloaded export file is saved in the *Downloads* folder of your device.
 
   > [Info] The [EXCEL] button is only displayed if the *Statistics* module is installed.
 
@@ -1363,34 +1363,34 @@ Click this button to download the statistics displayed in Excel format. By defau
 ![Turnover per product](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/Statistics02.png "[Turnover per product]")
 
 - *Product group*  
-Product group to which the product is assigned.
+  Product group to which the product is assigned.
 
 - *Product*  
-Product name.
+  Product name.
 
 - *Product number*  
-Product identification number.
+  Product identification number.
 
 - *Quantity sold*  
-Quantity of products sold in the selected period.  
+  Quantity of products sold in the selected period.  
 
 - *Quantity credited*  
-Quantity of products credited in the selected period.
+  Quantity of products credited in the selected period.
 
 - *Sales price*  
-Product sales price in the selected period.
+  Product sales price in the selected period.
 
 - *Turnover*  
-Turnover generated in the selected period.
+  Turnover generated in the selected period.
 
 - *TOTAL AMOUNT/AVERAGE*  
-Total amount/average values for the selected period.
+  Total amount/average values for the selected period.
 
 - [PRINT]  
-Click this button to print the statistics displayed. The *Print view* window is displayed, see [Print view](#print-view).
+  Click this button to print the statistics displayed. The *Print view* window is displayed, see [Print view](#print-view).
 
 - [EXCEL]  
-Click this button to download the statistics displayed in Excel format. By default, the downloaded export file is saved in the *Downloads* folder of your device.
+  Click this button to download the statistics displayed in Excel format. By default, the downloaded export file is saved in the *Downloads* folder of your device.
 
   > [Info] The [EXCEL] button is only displayed if the *Statistics* module is installed.
 
@@ -1403,22 +1403,22 @@ Click this button to download the statistics displayed in Excel format. By defau
 ![Number of units sold per product](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/Statistics03.png "[Number of units sold per product]")
 
 - *Product group*  
-Product group to which the product is assigned.
+  Product group to which the product is assigned.
 
 - *Product*  
-Product name.
+  Product name.
 
 - *Product number*  
-Product identification number.
+  Product identification number.
 
 - *Quantity sold*  
-Quantity of products sold in the selected period.  
+  Quantity of products sold in the selected period.  
 
 - *Turnover*  
-Turnover generated in the selected period.
+  Turnover generated in the selected period.
 
 - *TOTAL AMOUNT/AVERAGE*  
-Total amount/average values for the selected period.
+  Total amount/average values for the selected period.
 
 - [PRINT]  
   Click this button to print the statistics displayed. The *Print view* window is displayed, see [Print view](#print-view).
@@ -1449,13 +1449,13 @@ Total amount/average values for the selected period.
 The information displayed in the print view is identical to the one displayed in the *Statistics* sub-tab. The fields displayed vary according to the options selected in the *Statistic type* drop-down list and the *Statistic extras* section.
 
 - *Customer number*  
-Number of selected customer.
+  Number of selected customer.
 
 - *Name*
-Name of selected customer.
+  Name of selected customer.
 
 - [Print]  
-Click this button to generate a document in printable format. The document preview is displayed in a new window.
+  Click this button to generate a document in printable format. The document preview is displayed in a new window.
 
 
 ### Drop shipping
@@ -1549,6 +1549,7 @@ Depending on the supplier selected, the sections and fields displayed may slight
   - **Yes**
   - **No**
 
+
 - *Export path*  
   Enter the appropriate export path. Alternatively, click the [SEARCH] button to determine the export path.
 
@@ -1561,6 +1562,7 @@ Depending on the supplier selected, the sections and fields displayed may slight
   Click the drop-down menu to select the appropriate option. The following options are available:
   - **Yes**
   - **No**
+
 
 **Send export by email**
 
@@ -1584,10 +1586,12 @@ Depending on the supplier selected, the sections and fields displayed may slight
   - **Yes**
   - **No**
 
+
 - *Export from delivery note*  
   Click the drop-down menu to select the appropriate option. The following options are available:
   - **Yes**
   - **No**
+
 
 - *Export from dropship delivery note*  
   Click the drop-down menu to select the appropriate option. The following options are available:
@@ -1598,6 +1602,7 @@ Depending on the supplier selected, the sections and fields displayed may slight
   Click the drop-down menu to select the appropriate option. The following options are available:
   - **Yes**
   - **No**
+
 
 - *File name invoice*  
   Enter the file name for the invoice.
@@ -1618,6 +1623,7 @@ Depending on the supplier selected, the sections and fields displayed may slight
   - **Yes**
   - **No**
 
+
 - *Export path*  
   Enter the appropriate export path. Alternatively, click the [SEARCH] button to determine the export path.
 
@@ -1630,6 +1636,7 @@ Depending on the supplier selected, the sections and fields displayed may slight
   Click the drop-down menu to select the appropriate option. The following options are available:
   - **Yes**
   - **No**
+
 
 **Send receipts by email**
 
@@ -1653,14 +1660,15 @@ Depending on the supplier selected, the sections and fields displayed may slight
   - **Yes**
   - **No**
 
+
 - *Import via*  
-  Click the drop-down list to select the appropriate export method. The following options are available:  
+  Click the drop-down list to select the appropriate export method. By default, the following options are available:  
   - **csv**
   - **No export**
 
 
 - *Import definition*  
-  Click the drop-down list to select the export definition. The following options are available:  
+  Click the drop-down list to select the export definition. By default, the following options are available:  
   - **DHL Easylog**
 
 
@@ -1678,6 +1686,7 @@ Depending on the supplier selected, the sections and fields displayed may slight
   Click the drop-down menu to select the appropriate option. The following options are available:
   - **Yes**
   - **No**
+
 
 - *Import path*  
   Enter the appropriate import path. Alternatively, click the [SEARCH] button to determine the import path.
@@ -1825,11 +1834,12 @@ Click the [CREATE] button to display the *Add* section or select the checkbox of
   - **ComboBox**
   - **Date**
   - **Time**  
+
   Depending on the selected field type, different fields are displayed.
 
 
 - *Field groups*  
-Click the drop-down list to select the appropriate option.
+  Click the drop-down list to select the appropriate option.
 
 [comment]: <> (FH: Field groups leer? Meaning? Options? Where should it be preconfigured for the drop-down list options to be displayed?)
 
@@ -1974,7 +1984,7 @@ Click this button to enter an "ignore field", that is, to indicate that the fiel
 [comment]: <> (Further info needed! RS HG)
 
 - *Column name*  
-  Click the drop-down list to select the appropriate option to include or not the column name in the export/import. The following options are available:  
+  Click the drop-down list to select the appropriate option to include or not the column name in the export/import. By default, the following options are available:  
     - **Yes**
     - **No**
 
