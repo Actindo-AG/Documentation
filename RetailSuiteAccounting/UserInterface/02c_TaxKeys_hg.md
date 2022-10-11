@@ -84,7 +84,7 @@ The input fields below allow to create, edit or delete tax keys. For detailed in
 
 
 - *Percent / factor*  
-  Enter the applicable tax rate int he first field and the corresponding factor in the second field. Click the drop-down list between the fields to select the applicable gross or net option. The following options are avilable:
+  Enter the applicable tax rate in the first field and the corresponding factor in the second field. Click the drop-down list between the fields to select the applicable gross or net option. The following options are available:
   - **+**   
     The posting is a gross amount.
   - **-**   
@@ -103,7 +103,7 @@ The input fields below allow to create, edit or delete tax keys. For detailed in
 
 
 - *Country*  
-  Click the drop-down list to select the applicable EU country. All european countries are displayed in the list. If no european country is to be selected, select the **No EU tax key** option.
+  Click the drop-down list to select the applicable EU country. All European countries are displayed in the list. If no European country is to be selected, select the **No EU tax key** option.
 
 
 - [SAVE & NEW]  
