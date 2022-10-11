@@ -7,7 +7,7 @@
 In all tabs of the *Post* menu entry, an identical footer with the input line is displayed. The contained elements and the corresponding functions are described below.
 
 - *Seq. no.*  
-  Enter a posting number or leave the field empty. Posting numbers must be sequential. If the field is left empty, the next available number is automatically added by the system.
+  Leave the field empty. The posting numbers must be sequential and are added by the system automatically. Any number entered is overwritten by the system.
 
 - *Currency code*  
   Click the drop-down menu to select the appropriate currency. All available currencies are displayed in the list. By default, the base currency is preselected.  
@@ -48,7 +48,21 @@ In all tabs of the *Post* menu entry, an identical footer with the input line is
   Enter the applicable cost object number. This field is only applicable if at least one cost object has been set up. For detailed information, see [COST ACCOUNTING](./02e_CostAccounting.md).
 
 - *Posting text*  
-  Enter any appropriate posting text. Posting text can contain a combination of letters and numbers. The text is limited to 30 characters.
+  Enter any appropriate posting text. The text is limited to 30 characters.
+
+
+The following fields on the upper right part of the input line display the totals of the postings in the selected tab.
+
+- *Amount*  
+  Total amount of all postings in the list. This field is read-only.
+
+  - *Amount 1*  
+    Click this button to manually set an amount 1. The *Set amount 1* window is displayed, see [Set amount 1](#set-amount-1).
+
+  - *Amount 2*  
+    Click this button to manually set an amount 2. The *Set amount 2* window is displayed, see [Set amount 2](#set-amount-2).
+
+[comment]: <> (Terminologie: lieber Sum oder Total? amount beinhaltet nicht, dass hier eine Summe, also der Gesamtbetrag aus meherer Beträgen aufgeführt wird...)
 
 
 The following fields below the input line are filled in automatically when creating a manual posting or selecting a posting in the list. All fields are read-only.
@@ -57,23 +71,42 @@ The following fields below the input line are filled in automatically when creat
   Contra account name of the selected posting.
 
 - *Balance*  
-  Contra account balance. H stands for credit. S stands for debit.
+  Contra account balance. **H** stands for credit. **S** stands for debit.
 
 - *Account*  
   Account name of the selected posting.
 
 - *Balance*  
-  Account balance. H stands for credit. S stands for debit.
+  Account balance. **H** stands for credit. **S** stands for debit.
 
 
-- *Amount*  
-Total amount of all postings in the list.
+The buttons in the footer allow to manage the postings manually.
 
-  - *Amount 1*  
-    Click this button to manually set an amount 1. The *Set amount 1* window is displayed, see [Set amount 1](#set-amount-1).
+- [POST]    
+  Click this button to post the transaction entered in the input line.
+  For detailed information, see [Create a manual posting](../Operation/04_CreateManualBooking.md).
 
-  - *Amount 2*  
-    Click this button to manually set an amount 2. The *Set amount 2* window is displayed, see [Set amount 2](#set-amount-2).
+- [CANCEL]  
+  Click this button to cancel the selected posting. If no posting has been selected, an error notice is displayed above the input line.    
+  For detailed information, see [Cancel a posting](../Operation/05_CancelBooking.md).
+
+- [DELETE]    
+  Click this button to delete the selected posting. This button is only unlocked if a posting has been selected.    
+  For detailed information, see [Delete a single posting](../Operation/06_DeleteBookings.md#delete-a-single-posting).
+
+- [CLEAR]    
+  Click this button to clear all input line fields.
+
+- [SPLIT]    
+  Click this button to split the selected posting. The *Split posting* window is displayed, see [Split posting](#split-posting). If no posting has been selected, an error message is displayed.    
+  For detailed information, see [Split a posting](../Operation/09_SplitBooking.md).
+
+- [ASSIGN RECEIPT]  
+  Click this button to assign a receipt to the selected posting or to unassign a receipt from the selected posting. If no document is assigned to the selected posting, the *Attach document* window is displayed, see [Attach a document](#attach-document). If a document is already assigned to the selected posting, the *Attached document* window is displayed, see [Attached document](#attached-document).   
+  For detailed information, see [Retrieve a receipt](../Operation/10_ManageReceipts.md#retrieve-a-receipt).
+
+[comment]: <> (Wann wird der button angezeigt? Bei mir wird er nicht angezeigt - und im Screeshot auch nicht. Muss ein bestimmtes Plugin installiert sein?)
+
 
 ## Set amount 1
 
@@ -82,13 +115,15 @@ Total amount of all postings in the list.
 ![Post](../../Assets/Screenshots/RetailSuiteAccounting/Book/SetAmount1.png "[Post]")
 
 - *Amount 1*  
-  Click this field to manually enter an amount.
+  Enter an amount.
 
 - [CANCEL]  
-  Click this button to cancel any changes. The *Set amount 1* window is closed.
+  Click this button to cancel the process. Any changes are rejected. The *Set amount 1* window is closed.
 
 - [OK]  
   Click this button to set the entered amount. A confirmation window is displayed. Click the [OK] button to close the *Set amount 1* window.
+
+
 
 ## Set amount 2
 
@@ -97,39 +132,19 @@ Total amount of all postings in the list.
 ![Post](../../Assets/Screenshots/RetailSuiteAccounting/Book/SetAmount2.png "[Post]")
 
 - *Amount 2*  
-  Click this field to manually enter an amount.
+  Enter an amount.
 
 - [CANCEL]  
-  Click this button to cancel any changes. The *Set amount 1* window is closed.
+  Click this button to cancel the process. Any changes are rejected. The *Set amount 2* window is closed.
 
 - [OK]  
   Click this button to set the entered amount. A confirmation window is displayed. Click the [OK] button to close the *Set amount 2* window.
 
 
-The function buttons in the footer allow to manage the postings manually.
-
-- [POST]    
-  Click this button to post the transaction entered in the input line, see [Create a manual posting](../Operation/04_CreateManualBooking.md).
-
-- [CANCEL]  
-  Click this button to cancel the selected posting. For detailed information, see [Cancel a posting](../Operation/05_CancelBooking.md).
-
-- [DELETE]    
-  Click this button to delete the selected posting. For detailed information, see [Delete a single posting](../Operation/06_DeleteBookings.md#delete-a-single-posting).
-
-- [CLEAR]    
-  Click this button to clear all input line fields.
-
-- [SPLIT]    
-  Click this button to split a manual posting. The *Split posting* window is displayed, see [Split posting](#split-posting). For detailed information about splitting a posting, see [Split a posting](../Operation/09_SplitBooking.md).
-
-- [ASSIGN RECEIPT]  
-  Click this button to assign a receipt to the selected posting or to unassign a receipt from the selected posting. If no document is assigned to the selected posting, the *Attach document* window is displayed, see [Attach a document](#attach-document). If a document is already assigned to the selected posting, the *Attached document* window is displayed, see [Attached document](#attached-document). For detailed information, see [Retrieve a receipt](../Operation/10_ManageReceipts.md#retrieve-a-receipt).
-
 
 ## Split posting
 
-*Accounting > Post > Tab POSTINGS > Button SPLIT*
+*Accounting > Post > Select posting > Button SPLIT*
 
 ![Split posting window](../../Assets/Screenshots/RetailSuiteAccounting/Book/Bookings/SplitBooking01.png "[Split posting window]")
 
@@ -138,7 +153,7 @@ The function buttons in the footer allow to manage the postings manually.
 The list displays the selected posting and all partial postings. All fields are read-only.
 
 - *Seq. no.*  
-  Sequential number of the posting. The posting numbers must be sequential and are added by the system automatically.
+  Sequential number of the posting.
 
 - *PP*  
   Month number of the posting period. 00 is displayed.
@@ -163,21 +178,22 @@ The list displays the selected posting and all partial postings. All fields are 
   Receipt 2 value, which can be any other reference number, such as the order number.
 
 - *Date*  
-  Posting date. The valid date format is DDMMYY.
+  Posting date. The valid date format is *DDMMYY*.
 
 - *Account*  
-account number, usually a personal account number, that is, a customer or supplier account number.
+  Account number, usually a personal account number, that is, a customer or supplier account number.
 
 - *Cost1*  
-  Number of the selected cost center. This field is only applicable if at least one cost center has been set up. For detailed information, see [COST ACCOUNTING](./02e_CostAccounting.md)
+  Number of the selected cost center. This field is only applicable if at least one cost center has been created.    
+  For detailed information, see [COST ACCOUNTING](./02e_CostAccounting.md)
 
 - *Cost2*  
-  Number of the selected cost object. This field is only applicable if at least one cost object has been set up. For more details, see [COST ACCOUNTING](./02e_CostAccounting.md).
+  Number of the selected cost object. This field is only applicable if at least one cost object has been created.    
+  For detailed information, see [COST ACCOUNTING](./02e_CostAccounting.md).
 
 - *Text*  
   Posting text.
 
-[comment]: <> (There seems to be an unnamed column between Kst2 and Text, usually where B/Belege comes in. When clicking a posting with a linked receipt, the B icon does not appear here. No option to link a receipt here either, so left out from description. Bug/comment?)
 
 - *REST*  
   Outstanding invoice amount to be split. As soon as the remaining amount equals 0, the [SAVE] button is unlocked.  
@@ -191,103 +207,118 @@ account number, usually a personal account number, that is, a customer or suppli
 The input line allows to split the posting.
 
 - *Seq. no.*  
-  Enter the posting number or leave the field empty. Posting numbers must be sequential. If the field is left empty, the next available number is automatically added by the system.
+  Leave the field empty. The posting numbers must be sequential and are added by the system automatically. Any number entered is overwritten by the system.
 
 - *Turnover*  
-  Enter the turnover value for each partial posting. This field is mandatory.
+  Enter the turnover value for the partial posting. This field is mandatory.
 
 - *Contra account*  
-  Enter the appropriate contra account for each partial posting. This field is mandatory.
+  Enter the appropriate contra account for the partial posting. This field is mandatory.
 
 - *Receipt1*  
-  Enter an appropriate reference value, such as the invoice number, for each partial posting if necessary.
+  Enter an appropriate reference value, such as the invoice number, for the partial posting.
 
 - *Receipt2*  
-  Enter any other appropriate reference value, such as order number, for each partial posting if necessary.
+  Enter any other appropriate reference value, such as order number, for the partial posting.
 
 - *Date*  
-  Posting date. This field cannot be modified.
+  Posting date. The posting date of the partial posting must equal the posting date of the main posting. Any modification on the date is overwritten by the system.
 
 - *Account*  
-  Account number. This field cannot be modified.
+  Account number. The account number of the partial posting must equal the account number of the main posting. Any modification on the account number is overwritten by the system.
 
 - *Cost1*  
-  Enter the applicable cost center number. This field is only applicable if at least one cost center has been set up. For detailed information, see [COST ACCOUNTING](./02e_CostAccounting.md).
+  Enter the applicable cost center number. This field is only applicable if at least one cost center has been created.   
+  For detailed information, see [COST ACCOUNTING](./02e_CostAccounting.md).
 
 - *Cost2*  
-  Enter the applicable cost object number. This field is only applicable if at least one cost object has been set up. For detailed information, see [COST ACCOUNTING](./02e_CostAccounting.md).
+  Enter the applicable cost object number. This field is only applicable if at least one cost object has been created.   
+  For detailed information, see [COST ACCOUNTING](./02e_CostAccounting.md).
 
 - *Text*  
-  Enter any appropriate posting text. Posting text can contain a combination of letters and numbers. The text is limited to 30 characters.
+  Enter any appropriate posting text. The text is limited to 30 characters.
 
-- *Currency code*  
-  Click the drop-down list to select the appropriate currency if necessary. All available currencies are displayed in the list. By default, the base currency is preselected.
+- Currency code  
+  Click the drop-down list to select the appropriate currency. All available currencies are displayed in the list. By default, the base currency is preselected.
 
 - *Exchange rate*  
-  Current exchange rate of the selected currency in the Currency code field. This field is automatically updated when changing the currency. It is recommended not to edit the field manually.
+  Current exchange rate of the currency selected in the currency code drop-down list. This field is automatically updated when changing the currency. It is recommended not to edit this field manually.
 
 
 - [POST]  
-  Click this button to make each partial posting.  
+  Click this button to post a partial posting. The partial posting is displayed in the list.  
 
 - [DELETE]  
-  Click this button to delete the selected partial posting.
+  Click this button to delete the selected partial posting. The selected partial posting is removed from the list. Only partial postings can be deleted. This button is only unlocked if a posting has been selected.
 
 - [CLEAR]  
   Click this button to clear all input line fields.
 
 - [SAVE]  
-  Click this button to save the partial postings and record them in the selected posting period. This button is only unlocked if the remaining amount equals 0.
+  Click this button to save the partial postings and record them in the selected posting period. This button is only unlocked if the outstanding amount in the *REST* field equals **0**.
 
 - [CANCEL]  
-  Click this button to cancel the split process.
+  Click this button to cancel the split process. All changes are rejected.
+
+[comment]: <> (Check terminology -> hier ist überall von partial posting die Rede, im Operation part steht aber überall split posting -> einheitlich!)
+
 
 
 ## Attached document
 
-*Accounting > Post > Tab POSTINGS > Button ASSIGN RECEIPT*
+*Accounting > Post > Select posting > Button ASSIGN RECEIPT*
+
+[comment]: <> (Wann wird der button angezeigt? Bei mir wird er nicht angezeigt - und im Screeshot auch nicht. Muss ein bestimmtes Plugin installiert sein?)
 
 For a detailed description of the contained elements and the corresponding functions, see [Attached document](./01_Header.md#attached-document).
 
 
+
 ## Attach document
 
-*Accounting > Post > Tab POSTINGS > Button ASSIGN RECEIPT*
+*Accounting > Post > Select posting > Button ASSIGN RECEIPT*
+
+[comment]: <> (Wann wird der button angezeigt? Bei mir wird er nicht angezeigt - und im Screeshot auch nicht. Muss ein bestimmtes Plugin installiert sein?)
 
 ![Attach document](../../Assets/Screenshots/RetailSuiteAccounting/Book/Bookings/AttachDocument01.png "[Attach document]")
 
 **Directory tree**
 
-All folders and subfolders set up in the *Documents* module are displayed in this side bar. Depending on the settings, the folders and subfolders displayed may vary. By default, the following folder and subfolders are displayed.
+All folders and sub-folders set up in the *Documents* module are displayed in this side bar. Depending on the settings, the folders and sub-folders displayed may vary. By default, the following folder and sub-folders are available:
 
 - *New documents*  
-This folder contains the newly uploaded documents.
+  This folder contains all new uploaded documents.
+
 
 - *Registered documents*  
-  This folder contains the registered documents. As soon as a new document is linked to a posting, it is moved automatically into the *Registered documents* folder and then placed in the appropriate subfolder according to the following structure:
+  This folder contains all registered documents. As soon as a new document is linked to a posting, it is moved automatically into the *Registered documents* folder and then placed in the appropriate sub-folder according to the following structure:
+  - **10000-69999**   
+    Personal account numbers in case of a debtors'/customers' document
+  - **70000-79999**   
+    Personal account numbers in case of a creditors'/suppliers' document
 
-  - 10000-69999 personal account numbers in case of a debtors'/customers' document
-  - 70000-79999 personal account numbers in case of a creditors'/suppliers' document
 
 - *Printed documents*  
-  This folder contains the printed documents.
+  This folder contains all printed documents.
 
 - *New supplier receipts*  
-  This folder contains the newly uploaded supplier receipts.
+  This folder contains all uploaded supplier receipts.
+
+  [comment]: <> (Wann wird der ordner angezeigt? Bei mir wird er nicht angezeigt. Muss ein bestimmtes Plugin installiert sein?)
 
 
-- ![Collapse](../../Assets/Icons/Up.png "[Collapse]") (Collapse)
-  Click this button to close the side bar.
+- ![Collapse](../../Assets/Icons/Up.png "[Collapse]") (Collapse)   
+  Click this button to collapse the side bar.
 
 - ![Expand](../../Assets/Icons/Expand.png "[Expand]") (Expand)  
-  Click this button to open the side bar.
+  Click this button to expand the side bar.
 
 
 - [START PAGE]  
   Click this button to go back to the top level directory on the start page of the *Attach document* window.
 
 - [REFRESH]  
-  Click this button to refresh the window.
+  Click this button to upload the list of documents.
 
 - [PARENT DIRECTORY]  
   Click this button to go from the current folder to its parent directory.  
@@ -299,7 +330,7 @@ This folder contains the newly uploaded documents.
   Click this button to upload a new document. The *Upload file to* window is displayed, see [Upload file](#upload-file).
 
 - [DELETE]  
-  Click this button to delete a selected document or folder. When you delete a folder, all sub-folders and documents within this folder are also deleted.
+  Click this button to delete the selected document or folder. When you delete a folder, all sub-folders and documents within this folder are also deleted.
 
 
 **Documents**
@@ -309,21 +340,36 @@ The list displays all documents and folders in the selected directory. All field
 - [x]  
   Select the checkbox to select the corresponding document or folder. If you click the checkbox in the header, all documents and folders in the list are selected.
 
+
 - *Name*  
-  Folder or document name.
+  Name of the folder or file. Double-click a folder to access it. By default, the following folders are predefined:
+  - **.**   
+    The next higher folder level is displayed.
+  - **..**   
+    The top level folder is displayed.
+  - **New documents**  
+    All new uploaded documents are contained in this folder.
+  - **Registered documents**  
+    All documents that have been registered in the system are contained in this folder.
+  - **Printed documents**  
+    All documents that have been printed are contained in this folder.
+  - **New supplier receipts**  
+    All supplier receipts that have been uploaded are contained in this folder.
+
+
+  > [Info] Further folders can be created in the *Documents* module.
 
 - *Size*  
-  Document size.
+  Size of the file. The size is only displayed for files.
 
 - *Type*  
-  Item type (folder).
+  Type of item. Currently, only the **Folder** type is displayed.
 
 - *Changed*  
-  Date when the items has been changed.
+  Date and time of the last modification. This information is only displayed for files.
 
 - *Owner*  
-  Item's owner.
-
+  Username of the owner.
 
 - [ATTACH DOCUMENT]  
   Click this button to assign the selected document to the posting. The *Attach document* window is closed.
@@ -331,10 +377,14 @@ The list displays all documents and folders in the selected directory. All field
 - [CLOSE]  
   Click this button to close the *Attach document* window.
 
+[comment]: <> (Felder z.T. übernommen aus 03a_Import Select file)
+
 
 ### Upload file
 
-*Accounting > Post > Tab POSTINGS > Button ASSIGN RECEIPT > Button UPLOAD*
+*Accounting > Post > Select posting > Button ASSIGN RECEIPT > Button UPLOAD*
+
+[comment]: <> (Wann wird der button angezeigt? Bei mir wird er nicht angezeigt - und im Screeshot auch nicht. Muss ein bestimmtes Plugin installiert sein?)
 
 ![Attach document window](../../Assets/Screenshots/RetailSuiteAccounting/Book/Bookings/UploadFileTo.png "[Attach document window]")
 

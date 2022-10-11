@@ -602,10 +602,10 @@ For a detailed description of this window and the corresponding functions, see [
   Date and time of the last modification. This information is only displayed for files.
 
 - *Owner*  
-  Username and of the owner.
+  Username of the owner.
 
 - [CLOSE]  
-  Click this button to close the window.
+  Click this button to close the *Select file* window.
 
 - [OPEN]  
   Click this button to open the selected file.
