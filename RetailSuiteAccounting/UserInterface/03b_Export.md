@@ -4,19 +4,18 @@
 
 ![Export](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Export/Export.png "[Export]")
 
-> [Info] The export function is also available in the *FISCAL YEARS* tab of the *Settings* menu entry, see [Export postings](./02d_FiscalYears.md#export-postings).
+> [Info] This tab can also be accessed in the *Export postings* window from the [FISCAL YEARS](./02d_FiscalYears.md#export-postings) tab in the user interface.
 
+**Export to:**  
 
-- *Export to*  
-A list of the available export options is displayed:
-
+The following export options are displayed in the tab:
   - *Export of data in BMD format*
   - *Export of data in CSV format*
   - *Export of data in DATEV CSV format*
   - *Export of data in GDI standard interface format*
   - *Export of data in GDPdU format*
   - *Export of open items*
-  - *Export of balance lists in CSV format*
+- *Export of balance list in CSV format*
   - *Compeso SALDEN.DAT*
   - *Export postings for SAP*
   - *Varial balances*
@@ -24,97 +23,155 @@ A list of the available export options is displayed:
 
 
 - [BMD]  
-Click this button to export data in BMD format. Follow the instructions provided in the following windows, see [BMD](#bmd).
+  Click this button to export data in BMD format. The *BMD* window is displayed, see [BMD](#bmd).
 
 - [CSV]  
-Click this button to export data in CSV format. Follow the instructions provided in the following windows, see [CSV](#csv).
+  Click this button to export data in CSV format. The *CSV* window is displayed, see [CSV](#csv).
 
 - [DATEV CSV]  
-Click this button to export data in DATEV compatible CSV format. Follow the instructions provided in the following windows, see [DATEV CSV](#datev-csv). For detailed information about exporting data in DATEV compatible CSV format, see [Export the data for DATEV](../Operation/15_ProvideAccountingData.md#export-the-data-for-DATEV).
+  Click this button to export data in DATEV compatible CSV format. The *DATEV CSV* window is displayed, see [DATEV CSV](#datev-csv) .   
+  For detailed information about exporting data in DATEV compatible CSV format, see [Export the data for DATEV](../Operation/15_ProvideAccountingData.md#export-the-data-for-DATEV).
 
 - [GDI]  
-Click this button to export data in GDI format. Follow the instructions provided in the following windows, see [GDI](#gdi).
+  Click this button to export data in GDI format. The *GDI* window is displayed, see [GDI](#gdi).
 
 - [GDPDU EXPORT]  
-Click this button to export data in GDPdU-compliant audit file format. Follow the instructions provided in the following windows, see [GDPDU export](#gdpdu-export). For detailed information about exporting data in GDPdU-compliant audit file format, see [Export the data GDPdU-compliant](../Operation/15_ProvideAccountingData.md#export-the-data-GDPdU-compliant).
+  Click this button to export data in GDPdU-compliant audit file format. The *GDPDU export* window is displayed, see [GDPDU export](#gdpdu-export) .   
+  For detailed information about exporting data in GDPdU-compliant audit file format, see [Export the data GDPdU-compliant](../Operation/15_ProvideAccountingData.md#export-the-data-GDPdU-compliant).
 
 - [OPEN ITEMS]  
-Click this button to export open items. Follow the instructions provided in the following windows, see [Open items](#open-items).
+  Click this button to export open items. The *Open items* window is displayed, see [Open items](#open-items).
 
 - [BALANCE LISTS]  
-Click this button to export balance lists in CSV format. Follow the instructions provided in the following windows, see [Balance lists](#balance-lists).
+  Click this button to export balance lists in CSV format. The *Balance lists* window is displayed, see [Balance lists](#balance-lists).
 
 - [SALDEN.DAT]  
-Click this button to export data in Compeso SALDEN.DAT proprietary format. Follow the instructions provided in the following windows, see [SALDEN.DAT](#saldendat).
+  Click this button to export data in Compeso SALDEN.DAT proprietary format. The *SALDEN.DAT* window is displayed,see [SALDEN.DAT](#saldendat).
 
 - [SAP]  
-Click this button to export data in SAP compatible format. Follow the instructions provided in the following windows, see [SAP](#sap).
+  Click this button to export data in SAP compatible format. The *SAP* window is displayed, see [SAP](#sap).
 
 - [VARIAL]  
-Click this button to export data in VARIAL compatible format. Follow the instructions provided in the following windows, see [Varial](#varial).
+  Click this button to export data in VARIAL compatible format. The *Varial* window is displayed, see [Varial](#varial).
 
 - [ZAHLWERK]  
-Click this button to export balance lists in Zahlwerk compatible CSV format. Follow the instructions provided in the following windows, see [Zahlwerk](#zahlwerk).
+  Click this button to export balance lists in Zahlwerk compatible CSV format. The *Zahlwerk* window is displayed, see [Zahlwerk](#zahlwerk).
 
 
 ## BMD
 
 *Accounting > Extras > Tab EXPORT > Button BMD*
 
+### BMD: Step 1
+
 ![Export BMD Step 1](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Export/BMD01.png "[Export BMD Step 1]")
 
-**Step 1**
-
 - *Fiscal year*  
-Click the drop-down list to select the fiscal year to be exported.
+  Click the drop-down list to select the fiscal year to be exported. All available fiscal years are displayed in the list.
 
 - *Period*  
 Specify the period to be exported.  
-
   - *Months*  
-  Enter the month range to be exported.
-
+    Enter the month range to be exported. If you want to select only a single month, select the same month in both fields.
   - *Journals*  
-  Enter the journal range to be exported.
+    Enter the journal range to be exported. If you want to select only a single journal, select the same journal in both fields.
+
 
 - *Tax mapping*  
-The tax mapping is preconfigured in the system but can be edited.
-
+  The tax mapping is predefined in the system. The mappings can be defined or edited by clicking the [Edit] button.
 - [Edit]  
 Click this button to edit the tax mapping. The *BMD tax mapping* window is displayed, see [BMD tax mapping](#bmd-tax-mapping).
 
-- [CONTINUE]  
-Click this button to proceed to the next step.
 
+- [CONTINUE]  
+  Click this button to proceed to the next step. The *BMD: Step 2* window is displayed. The *Export...* notice is displayed during the conversion process.
+
+
+### BMD: Step 2
 
 ![Export BMD Step 2](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Export/BMD02.png "[Export BMD Step 2]")
 
-**Step 2**
-
-- *Exporting*  
-This notice is displayed during the export process.  
+**Export...**
 
 - [CANCEL]  
-Click this button to cancel the process. After a few seconds, the [CANCEL] button changes to a [CLOSE] button.  
+  Click this button to cancel the export process. This button is only displayed during the conversion process. button.  
 
-- [CLOSE]  
-Click this button to close the window. This will cancel the export.    
+> [Info] The *Export...* notice is displayed during the export process. As soon as the export is completed, the *Exported without error.* confirmation window is displayed. Click the [OK] button to continue. The *BMD: Step 3* window is displayed.
 
-A pop-up window confirms that the selected data have been exported correctly. Click the [OK] button to proceed to the next step.
 
 [comment]: <> (Nach einiger Sekunden bzw. kurz vor dem Step 3 ABBRECHEN Button ändert sich zu SCHLIESSEN, was nicht wirklich Sinn macht, denn man schließt tatsächlich das Fenster, also man bricht der Export ab.)
 
 
+### BMD: Step 3
+
 ![Export BMD Step 3](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Export/BMD03.png "[Export BMD Step 3]")
 
-**Step 3**
-
 - *Exported files*  
-The exported file(s) are displayed and can be downloaded by clicking the file name(s). By default, the downloaded exported file(s) is saved in the *Downloads* folder of your device.
+  The exported file(s) are displayed. Click a file name to download the corresponding file. By default, the downloaded exported file is saved in the *Downloads* folder of your device.
 
 - [CONTINUE]  
+  Click this button to close the window.
 
 [comment]: <> (WEITER/CONTINUE Button bei allen Exporten ausgegraut > CLOSE Button? --> Bug)
+
+
+
+### BMD tax mapping
+
+*Accounting > Extras > Tab EXPORT > Button BMD > Button Edit*
+
+![BMD tax mapping](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Export/BMDTaxMapping.png "[BMD tax mapping]")
+
+**Tax mapping**
+
+The list displays all available BMD tax mappings. Depending on the settings, the displayed columns may vary. All fields are read-only.
+
+- *Actindo tax control key*  
+  Tax key as mapped in the Actindo system.
+
+- *BMD tax code*  
+  Tax key as mapped in the BMD system.
+
+- *ID*   
+  Tax mapping identification number. The ID number is automatically assigned by the system when the mapping is created.
+
+[comment]: <> (Steuercode ist ein zweideutiger Term. Reden wir hier von "tax key" oder "control key"? Im System "tax control key" und "Steuercode". Vorsicht / RS FH dazu.)
+
+- [x]   
+  Select the checkbox of a tax mapping to edit or delete it. The *Edit* section is displayed in the bottom part of the window. If you select the checkbox in the header, all mappings in the list are selected.
+
+[comment]: <> (not working. Only the last checkbox and the checkbox in the header are selected.)
+
+- [CREATE]  
+  Click this button to create a tax mapping. The *Add* section is displayed in the bottom part of the window.
+
+- [DELETE]  
+  Click this button to delete the selected tax mapping from the list.
+
+- ![Refresh](../../Assets/Icons/Refresh03.png "[Refresh]") (Refresh)  
+  Click this button to update the list of tax mappings.
+
+
+**Add/Edit**  
+
+![Create tax mapping](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Export/BMDTaxMapping02.png "[Create tax mapping]")
+
+> [Info] When clicking the [CREATE] button, the *Add* section is displayed in the bottom part of the window.   
+  When selecting a checkbox in the tax mapping list, the *Edit * section is displayed in the bottom part of the window and the corresponding tax mapping details are displayed in the drop-down lists.   
+  The elements and the corresponding functions in the *Add* and the *Edit* section are identical.
+
+
+- *Actindo*  
+  Click the drop-down list to select the applicable tax control key in the Actindo system. All available tax control keys are displayed in the list.
+
+- *BMD*  
+  Click the drop-down list to select the applicable tax code in the BMD system. All available tax codes are displayed in the list.
+
+- [SAVE]  
+  Click this button to save any changes made. The tax mapping is displayed in the list of tax mappings in the upper part of the window.
+
+- [CLEAR]  
+  Click this button to reset both fields to their initial status.
 
 
 
@@ -122,14 +179,9 @@ The exported file(s) are displayed and can be downloaded by clicking the file na
 
 *Accounting > Extras > Tab EXPORT > Button CSV*
 
+### CSV: Step 1
+
 ![Export CSV Step 1](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Export/CSV01.png "[Export CSV Step 1]")
-
-![Export CSV Step 1](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Export/CSV01cust.png "[Export CSV Step 1]")
-
-[comment]: <> (Screenshots zusammenfügen? RS HG)
-
-
-**Step 1**
 
 - *Fiscal year*  
 Click the drop-down list to select the fiscal year to be exported.

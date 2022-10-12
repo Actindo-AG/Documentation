@@ -80,7 +80,7 @@ The input fields below allow to create, edit or delete tax keys. For detailed in
   - **(V) VAT**  
     The VAT is configured for the tax key.
   - **(IV) Input tax and VAT**  
-    Thei nput tax and the VAT are configured for the tax key.
+    The input tax and the VAT are configured for the tax key.
 
 
 - *Percent / factor*  
@@ -92,7 +92,7 @@ The input fields below allow to create, edit or delete tax keys. For detailed in
 
 
 - *Accounts (VAT/input tax/VAT not due)*  
-  Enter the account numbers of the accounts to which the applicable tax amounts are to be posted. Enter the account number for the VAT in the first field, the account number for the input tax in the second field and the VAT not due in the thrid field.
+  Enter the account numbers of the accounts to which the applicable tax amounts are to be posted. Enter the account number for the VAT in the first field, the account number for the input tax in the second field and the VAT not due in the third field.
 
 - *VAT ID needed*  
   Click the drop-down list to select the appropriate option. A VAT ID is needed for all transactions that involve companies. The following options are available:

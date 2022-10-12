@@ -4,39 +4,40 @@
 
 ![SAP account mapping](../../Assets/Screenshots/RetailSuiteAccounting/Settings/SAPAccountMapping/SAPAccountMapping02.png "[SAP account mapping]")
 
+- [x]       
+  Select the checkbox to select the corresponding account mapping. If you select the checkbox in the header, all mappings in the list are selected.
 
-- (Checkbox)    
-Mark the checkbox to select all rows simultaneously.
+The list displays all available account mappings. Depending on the settings, the displayed columns may vary.
 
 - *No.*  
-Row number. This number is assigned automatically by the system.
+  Row number. This number is assigned automatically by the system. This field is read-only
 
 - *Actindo account*  
-Enter the Actindo account. Click the table cell to activate the input field. This field is mandatory.
+  Click this field to edit the Actindo account number. This field is mandatory.
 
 - *SAP account*  
-Enter the SAP account. Click the table cell to activate the input field. This field is mandatory.
+  Click this field to edit the SAP account number. This field is mandatory.
 
 - *SAP PK credit*  
-Enter the SAP posting key for credit account types if necessary. Click the table cell to activate the input field.
+  Click this field to edit the SAP posting key for credit account types.
 
 - *SAP PK debit*  
-Enter the SAP posting key for debit account types if necessary. Click the table cell to activate the input field.
+  Click this field to edit the SAP posting key for debit account types.
 
 - *SAP cost center*  
-Enter the SAP cost center if necessary. Click the table cell to activate the input field.
+  Click this field to edit the SAP cost center.
 
 - *SAP business area*  
-Enter the SAP business area if necessary. Click the table cell to activate the input field.
+  Click this field to edit the SAP business area.
 
-[comment]: <> (BS Soll/Haben = Basic Set oder Büchungsschlüssel, EN = Posting key? RS FH!)
+[comment]: <> (BS Soll/Haben = Basic Set oder Büchungsschlüssel, EN = Posting key? RS Fachreviewer!)
 
 
 - [ADD]  
-Click this button to add a new row.
+  Click this button to add a new mapping.
 
 - [DELETE]  
-Click this button to delete the selected row(s).
+  Click this button to delete the selected mapping(s).
 
 - [SAVE]  
-Click this button to save any changes made in the added rows. Unsaved changes are marked with a small red triangle on the top left corner of the corresponding table cell.
+  Click this button to save any changes made to the account mappings. All unsaved changes are marked with a small red triangle on the top left corner of the corresponding field.

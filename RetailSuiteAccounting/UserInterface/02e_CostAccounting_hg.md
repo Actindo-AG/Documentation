@@ -228,7 +228,7 @@ The input fields below allow to enter or modify the cost object details.
 
 ![Allocation table](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CostAccounting/AllocationTable01.png "[Allocation table]")
 
-- *Select ProfitCenter*
+- *Select ProfitCenter*  
   Click the drop-down list to select a profit center. All available profit centers are displayed in the list. Additionally, the following options are available:
   - **All ProfitCenters**   
     All available profit centers will be included.
@@ -241,7 +241,7 @@ The input fields below allow to enter or modify the cost object details.
 - [UPDATE]  
   Click this button to update the table.
 
-  > [Info] Note that any changes made must be saved first by clicking the [SAVE] button at the bottom. Otherwise, all changes will be rejected when updating the list..
+  > [Info] Note that any changes made must be saved first by clicking the [SAVE] button at the bottom. Otherwise, all changes will be rejected when updating the list.
 
 - [CHANGE PERIOD]  
   Click this button to change the period. The *Select period* window is displayed, see [Select period](#select-period).
@@ -253,10 +253,12 @@ The input fields below allow to enter or modify the cost object details.
   - **Export all**  
     Click this option to export all available allocation tables. The allocation tables are exported in Excel format and saved by default in the Downloads folder in your computer.
 
-[comment]: <> (Check! One file, several files, one excel with several tabs?)
-[comment]: <> (EXCEL wird bei mir wieder nicht angezeigt)
+    > [Info] The [EXCEL] button is only displayed if the *Statistics* module is installed.
 
-The list displays the allocation of costs among the cost centers and objects. Depending on the selected profit center option, the displayed columns may vary.  
+[comment]: <> (Check! One file, several files, one excel with several tabs?)
+
+
+The list displays the allocation of costs among the cost centers and objects. Depending on the selected profit center option, the displayed columns may vary.
 
 - *Cost center*  
   Cost center name. This field is read-only.
@@ -354,9 +356,8 @@ The list displays the allocation of costs among the cost centers and objects. De
 
 ![Select address](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CostAccounting/SelectAddress.png "[Select address]")
 
-For a detailed description of this window and the corresponding functions, see [Customer/supplier list](./02a_DebtorsCreditors.md#customer-supplier-list).
+For a detailed description of this window and the corresponding functions, see [Customer/supplier list](./02a_DebtorsCreditors.md#customersupplier-list).
 
-[comment]: <> (Add Info in Debtors/creditors chapter with correct link: "This tab can also be accessed in the *Select address* window from the COST ACCOUNTING tab in the user interface.")
 
 
 

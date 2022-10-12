@@ -22,6 +22,8 @@ The identical customer/supplier list is available in the *Order management* modu
 
 ![Customer/Supplier list](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/CustomerSupplierList.png "[Customer/supplier list]")
 
+ This tab can also be accessed in the *Select address* window from the COST ACCOUNTING tab in the user interface, see [Select address](02e_CostAccounting.md#select-address).
+
 - [EXCEL]  
   Click this button to display the *EXCEL* context menu. The following options are available:  
 
@@ -2050,36 +2052,10 @@ Click this button to enter an "ignore field", that is, to indicate that the fiel
 
 #### Select file
 
+*Accounting > Settings > Tab DEBTORS/CREDITORS > ...*
+
+[comment]: <> (Add breadcrums von alle 4 mögliche Wege?)
+
 ![Select file](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/SelectFile.png "[Select file]")
 
-- *New documents*  
-  The new uploaded documents are contained in this folder.
-
-- *Registered documents*  
-  The documents that have been registered in the system are contained in this folder.
-
-- *Printed documents*  
-  The documents that have been printed are contained in this folder.
-
-  > [Info] Further folders can be created in the *Documents* module.
-
-- *Name*  
-  Name of folder or file.
-
-- *Size*  
-  Size of folder or file.
-
-- *Type*  
-  Type of item.
-
-- *Changed*  
-  Date and time when the folder or file were modified.
-
-- *Owner*  
-  Person owning the folder or file.
-
-- [CLOSE]  
-  Click this button to close the window.
-
-- [OPEN]  
-  Click this button to open the selected folder.
+For a detailed description of this window and the corresponding functions, see [Select file](./03a_Import.md#select-file).
