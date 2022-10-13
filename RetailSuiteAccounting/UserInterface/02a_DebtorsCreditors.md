@@ -449,7 +449,7 @@ To add further delivery addresses, see [Further addresses](#further-addresses).
 
 
 - [x] *Only cost supplier/ordering process inactive*    
-   Select this checkbox if the supplier is a provider delivering a service, for example an internet provider, but not goods. Otherwise, deselect the checkbox. If the checkbox is selected, the supplier will not be taken into account in the creation of order proposals.
+   Select this checkbox if the supplier is a provider delivering a service, for example an internet provider, but not goods. Otherwise, deselect the checkbox. If this checkbox is selected, the supplier will not be taken into account in the creation of order proposals. Besides, when this checkbox is selected, the *Goods receipt required* checkbox is locked.
 
    > [Info] This option is only relevant when managing supplier receipts.
 
@@ -1532,7 +1532,7 @@ Depending on the supplier selected, the sections and fields displayed may slight
 
 
 - [EDIT]  
-  Click this button to edit the export definition or add a new one. The *Import/export definitions* window is displayed, see [Import/export definitions](#import-export-definitions).
+  Click this button to edit the export definition or add a new one. The *Import/export definitions* window is displayed, see [Import/export definitions](#importexport-definitions).
 
 - *Export file name*  
   Enter the export file name.
@@ -1675,7 +1675,7 @@ Depending on the supplier selected, the sections and fields displayed may slight
 
 
 - [EDIT]  
-  Click this button to edit the import definition or add a new one. The *Import/export definitions* window is displayed, see [Import/export definitions](#import-export-definitions).
+  Click this button to edit the import definition or add a new one. The *Import/export definitions* window is displayed, see [Import/export definitions](#importexport-definitions).
 
 - *Import file name*  
   Enter the import file name.
@@ -1926,135 +1926,21 @@ Click the [CREATE] button to display the *Add* section or select the checkbox of
   Click this button to display a preview of the printable customer card.
 
 
-#### Import/export definitions
+#### Import/export definitions  
+
+*Accounting > Settings > Tab DEBTORS/CREDITORS > Tab Customer/supplier list > Select supplier > Sub-tab Drop shipping > Drop shipping settings side menu > Menu entry Export > Button EDIT*  
+*Accounting > Settings > Tab DEBTORS/CREDITORS > Tab Customer/supplier list > Select supplier > Sub-tab Drop shipping > Drop shipping settings side menu > Menu entry Reimport > Button EDIT*
 
 ![Import/export definitions](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/ImportExportDefinitions.png "[Import/export definitions]")
 
-**Name**
-
-- Import/export definition type  
-  Click the drop-down list to select a preconfigured import/export definition type. If there are any available, the second drop-down list displays the preconfigured definitions of the selected type.
-
-[comment]: <> (Bedeutung von Asterisk neben Namen?)
-
-- Import/export definition
-  Click the drop-down list to select the desired preconfigured import/export definition.
-
-- [ADD]  
-  Click this button to create an import/export definition. The *New import/export definition* window is displayed, see [New import/export definition](#new-import-export-definition).
-
-- [EDIT]  
-  Click this button to rename an import/export definition. The *Rename import/export definition* is displayed, see [Rename import/export definition](#rename-import-export-definition).
-
-- [DELETE]  
-  Click this button to delete an import/export definition. A confirmation window is displayed.
-
-
-**Fields in the definition**  
-This list displays all fields contained in the selected import/export definition. Use the arrow buttons to modify the fields in the list:
-
-- ![Up](../../Assets/Icons/ArrowUp.png "[Up]") (Up)  
-  Use this button to move a selected field up in the list.
-
-- ![Down](../../Assets/Icons/ArrowDown.png "[Down]") (Down)  
-  Use this button to move a selected field down in the list.
-
-- ![Left](../../Assets/Icons/ArrowLeft.png "[Left]") (Left)  
-  Use this button to move a selected field left, from the *Possible fields* list to the *Fields in the definition* list.
-
-- ![Right](../../Assets/Icons/ArrowRight.png "[Right]") (Right)  
-  Use this button to move a selected field right, from the *Fields in the definition* list to the *Possible fields* list.
-
-**Column**  
-The letter and number in brackets indicate the column where a selected field is placed.
-
-**Possible fields**  
-This list displays all fields available for the selected import/export definition.
-
-
-[INSERT IGNORE FIELD]  
-Click this button to enter an "ignore field", that is, to indicate that the field in that position does not need to be exported or imported, in the *Fields in the definition* list.
-
-**CSV format definition**
-
-- *Field separating character*  
-  Enter the character to be used to separate fields. This value may be set up by default to comma or semicolon.
-
-- *Escape character*  
-  Enter the character to be used to escape. This value may be set up by default to backslash.
-
-[comment]: <> (Further info needed! RS HG)
-
-- *Column name*  
-  Click the drop-down list to select the appropriate option to include or not the column name in the export/import. By default, the following options are available:  
-    - **Yes**
-    - **No**
-
-- *Date format*  
-  Click the drop-down list to select the desired date and time format.
-
-- *Example data set*  
-  An example of a data set with the current field definition is displayed. This field is read-only.
-
-[comment]: <> (Unsure! Check!)
-
-- *Field delimiting character*  
-  Enter the character to be used to separate fields. This value may be set up by default to quotation mark.
-
-- *Row end character*  
-  Click the drop-down list to select the appropriate option, either **Automatic** or the applicable operating system.
-
-- *Character set*  
-  Click the drop-down list to select the appropriate option, either **Automatic** or the applicable encoding.
-
-- *Incorrect tow end character*  
-  Click the drop-down list to select the appropriate option. The following options are available:
-    - **Ignore**
-    - **Repair**
-
-- *Number format*  
-  Click the drop-down list to select the desired number format.
-
-- [SAVE]  
-  Click this button to save the changes.
-
-
-#### New import/export definition  
-
-![New import/export definition](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/NewImportExportDefinition.png "[New import/export definition]")
-
-- *For*  
-  Click the drop-down list to select the import/export definition type where the new definition will be added.  
-
-- *Name*  
-  Enter a name for the new import/export definition to be created.
-
-- [SAVE & NEW]  
-  Click this button to create a new import/export definition.  
-
-
-#### Rename import/export definition  
-
-![Rename import/export definition ](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/RenameImportExportDefinition.png "[Rename import/export definition ]")
-
-- *For*  
-  Click the drop-down list to select the import/export definition type where the new definition will be renamed.  
-
-- *Old name*  
-  The previously given name is displayed. This field is read-only.
-
-- *New name*  
-  Enter a new name for the selected import/export.
-
-- [SAVE]  
-  Click this button to rename the selected import/export definition.  
+For a detailed description of this window and the corresponding functions, see [CSV format definitions](./03c_CSVFormatDef.md).
 
 
 #### Select file
 
-*Accounting > Settings > Tab DEBTORS/CREDITORS > ...*
-
-[comment]: <> (Add breadcrums von alle 4 mögliche Wege?)
+*Accounting > Settings > Tab DEBTORS/CREDITORS > Tab Customer/supplier list > Select supplier > Sub-tab Drop shipping > Drop shipping settings side menu > Menu entry Export > Button SEARCH*  
+*Accounting > Settings > Tab DEBTORS/CREDITORS > Tab Customer/supplier list > Select supplier > Sub-tab Drop shipping > Drop shipping settings side menu > Menu entry Receipt export > Button SEARCH*  
+*Accounting > Settings > Tab DEBTORS/CREDITORS > Tab Customer/supplier list > Select supplier > Sub-tab Drop shipping > Drop shipping settings side menu > Menu entry Reimport > Button SEARCH*  
 
 ![Select file](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/SelectFile.png "[Select file]")
 

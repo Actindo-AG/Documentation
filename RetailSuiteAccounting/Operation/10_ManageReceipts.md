@@ -133,7 +133,7 @@ Moreover, this function interacts with the *Purchasing* and *Payment processing*
 [comment]: <> (Evtl. Link zur Funktion Zahlungsvorschlagsliste - Skonto erkennen, automatischer Abzug des Kontos, usw.- in der Zahlungsabwicklung in diesem Unterkapitel hinzufügen, wenn verfügbar.)
 
 
-### Acquire
+### Acquire a supplier receipt
 
 You can enter a supplier receipt uploaded in the system and create and associated manual posting.  
 
@@ -202,9 +202,9 @@ To post a supplier receipt in the system, it needs to be released in the *Purcha
 
 #### Prerequisites
 
-- The supplier receipt has been entered in the system, see [Acquire](#acquire).
-- The supervisor is set to the person responsible for the receipt release in the *CRM information* tab in the suppliers' configuration, see [CRM information](../UserInterface/02a_DebtorsCreditors.md#crm-information-1).
-- The supplier settings are adjusted according to the service or product supplied, see *Default values* section in [Invoicing](02a_DebtorsCreditors.md#invoicing-1).   
+- The supplier receipt has been entered in the system, see [Acquire a supplier receipt](#acquire-a-supplier-receipt).
+- The supervisor is set to the person responsible for the receipt release in the *CRM information* tab in the suppliers' configuration, see [CRM information](../UserInterface/02a_DebtorsCreditors.md#crm-information).
+- The supplier settings are adjusted according to the service or product supplied, see *Default values* section in [Invoicing](02a_DebtorsCreditors.md#invoicing).   
 
 #### Procedure
 

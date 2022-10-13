@@ -4,6 +4,8 @@
 
 ![Import](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Import/Import.png "[Import]")
 
+> [Info] This tab can also be accessed via the *Import postings* window from the [FISCAL YEARS](./02d_FiscalYears.md#import-postings) tab in the user interface.
+
 **Import from:**
 
 The following import options are available in the tab:
@@ -35,7 +37,6 @@ The following import options are available in the tab:
 - [SCHILLING ACCOUNTING]  
   Click this button to import data in Schilling Software proprietary FQBATCH format. The *SCHILLING ACCOUNTING* window is displayed, see [Schilling accounting](#schilling-accounting).
 
-  > [Info] This tab can also be accessed via the *Import postings* window from the [FISCAL YEARS](./02d_FiscalYears.md#import-postings) tab in the user interface.
 
 
 ## Compeso 7.X
@@ -49,18 +50,19 @@ The following import options are available in the tab:
 **Files**
 
   - *backup.ctl*  
-  Select the corresponding file for upload in the ctl-format.
-  - [Choose file]  
-    Click this button to select a file from your device to be uploaded. The explorer is displayed in a new window. If no file has been selected yet, the notice *No file chosen* is displayed to the right of the button.
+  Select the corresponding file for upload in the ctl-format.  
+    - [Choose file]  
+      Click this button to select a file from your device to be uploaded. The explorer is displayed in a new window. If no file has been selected yet, the notice *No file chosen* is displayed to the right of the button.
+
   - *backup.dat*
   Select the corresponding file for upload in the dat-format.
-  - [Choose file]  
-    Click this button to select a file from your device to be uploaded. The explorer is displayed in a new window. If no file has been selected yet, the notice *No file chosen* is displayed to the right of the button.
+    - [Choose file]  
+      Click this button to select a file from your device to be uploaded. The explorer is displayed in a new window. If no file has been selected yet, the notice *No file chosen* is displayed to the right of the button.
+
   - *abrzr.dat*
   Select the corresponding file for upload in the dat-format.
-- [Choose file]  
-    Click this button to select a file from your device to be uploaded. The explorer is displayed in a new window. If no file has been selected yet, the notice *No file chosen* is displayed to the right of the button.
-
+    - [Choose file]  
+      Click this button to select a file from your device to be uploaded. The explorer is displayed in a new window. If no file has been selected yet, the notice *No file chosen* is displayed to the right of the button.
 
 - [UPLOAD]  
   Click this button to upload the selected file(s). The *Compeso 7.x: Step 2* window is displayed. The *Converting...* notice is displayed during the conversion process.
@@ -79,7 +81,7 @@ The following import options are available in the tab:
 
 > [Info] The *Converting...* notice is displayed during the conversion process. As soon as the conversion is completed, the *File imported!* confirmation window is displayed. Click the [OK] button to continue. The *Compeso 7.x: Step 3* window is displayed.
 
-[comment]: <> (Der Prozess geht nicht weiter, System hängt. Ich habe versucht eine exportierte DAT-Datei -Reiter EXPORT- zu importieren, aber es scheint nicht zu funktioniere. Bug oder keine richtige Datei importiert?)
+[comment]: <> (Der Prozess geht nicht weiter, System hängt. Ich habe versucht eine exportierte DAT-Datei - via Reiter EXPORT- zu importieren, aber es scheint nicht zu funktionieren. Bug oder keine richtige Datei importiert?)
 
 
 ## CSV
@@ -96,19 +98,18 @@ The following import options are available in the tab:
   Select the CSV file to be imported.
   - ![Radio button](../../Assets/Icons/RadioButtonChecked.png "[Radio button]") *Local file*  
     Select this radio button to select a local file from your device to be uploaded. The [Choose file] button is displayed in the box.
-- [Choose file]  
-      Click this button to select a file from your device to be uploaded. If no file has been selected yet, the notice *No file chosen* is displayed o the right of the button.
+    - [Choose file]  
+    Click this button to select a file from your device to be uploaded. If no file has been selected yet, the notice *No file chosen* is displayed o the right of the button.
   - ![Radio button](../../Assets/Icons/RadioButtonChecked.png "[Radio button]") *DMS*  
-    Select this radio button to select a file in the *Documents* module to be uploaded. A search bar and the [SEARCH] button are displayed in the box. This radio button is only displayed when the *Documents* module is installed.
+  Select this radio button to select a file in the *Documents* module to be uploaded. A search bar and the [SEARCH] button are displayed in the box. This radio button is only displayed when the *Documents* module is installed.
     - Search field   
       Enter the file path of the file to be uploaded. It is recommended to use the [SEARCH] button to select a file. The file path is automatically entered in the field.
-- [SEARCH]  
-      Click this button to search for a file to be uploaded. The *Select file* window is displayed, see [Select file](#select-file).
 
+- [SEARCH]  
+  Click this button to search for a file to be uploaded. The *Select file* window is displayed, see [Select file](#select-file).
 
 - [UPLOAD]  
   Click this button to upload the selected file. The *Files accepted!* confirmation window is displayed. Click the [OK] button to continue. The selected file is uploaded and the button is locked until the import is completed.
-
 
 - *File content*  
   Click the drop-down list to select to appropriate file content. The following options are available:
@@ -118,7 +119,6 @@ The following import options are available in the tab:
   - **eBay sales history**
 
   Depending on the selected option, the following displayed fields and options vary.
-
 
 [comment]: <> (eBay sales history ist relevant für alle Kunden? Weglassen? Andere Optionen je nach Einstellungen/Module/Plugins?)
 
@@ -132,7 +132,6 @@ The following import options are available in the tab:
 Click this button to edit the selected import definition or to create a new one. The *Import/export definitions* window is displayed, see [Import/export definitions](#importexport-definitions).
 
 
-[comment]: <> (Import def. ändert sich abhängig von Option in File content. Mit eBay sales history kommen extra Felder vor: eBay Debitor und eBay Erlöskonten. Relevant für Doku oder weglassen?)
 
 - *eBay debtor*   
   Enter the debtor number. This field is only displayed when the **eBay sales history** option is selected in the *File content* drop-down list.
@@ -174,7 +173,7 @@ Click the drop-down list to select the appropriate import setting for split post
 
 
 - *Postings*  
-  Define how the handle the postings to be imported. If the import file contained no postings, the notice *No postings in the import file* is displayed.
+  Define how to handle the postings to be imported. If the import file contained no postings, the notice *No postings in the import file* is displayed.
   - *Take over postings?*  
     Click the drop-down list and select the applicable option. The following options are displayed:
     - **Yes**   
@@ -190,7 +189,7 @@ Click the drop-down list to select the appropriate import setting for split post
 
 
 - *Impersonal accounts*
-  Define how the handle the impersonal accounts to be imported. If the import file contained no impersonal accounts, the notice *No impersonal accounts in the import file* is displayed.
+  Define how to handle the impersonal accounts to be imported. If the import file contained no impersonal accounts, the notice *No impersonal accounts in the import file* is displayed.
   - *Take over impersonal accounts?*  
     Click the drop-down list and select the applicable option. The following options are displayed:
     - **Yes**   
@@ -206,7 +205,7 @@ Click the drop-down list to select the appropriate import setting for split post
 
 
 - *Personal accounts*  
-  Define how the handle the personal accounts to be imported. If the import file contained no personal accounts, the notice *No personal accounts in the import file* is displayed.
+  Define how to handle the personal accounts to be imported. If the import file contained no personal accounts, the notice *No personal accounts in the import file* is displayed.
   - *Take over personal accounts?*  
     Click the drop-down list and select the applicable option. The following options are displayed:
     - **Yes**   
@@ -221,8 +220,6 @@ Click the drop-down list to select the appropriate import setting for split post
       No existing personal accounts will be overwritten.
 
 
-
-[comment]: <> (Ich gehe davon aus, dass es so funktioniert. Weiter testen oder RS mit FH.)
 
 - [FINALIZE]  
   Click this button to complete the import process. The *CSV: Step 4* window is displayed.
@@ -279,19 +276,18 @@ Click the drop-down list to select the appropriate import setting for split post
   Select the orders text file to be imported.
   - ![Radio button](../../Assets/Icons/RadioButtonChecked.png "[Radio button]") *Local file*  
     Select this radio button to select a local file from your device to be uploaded. The [Choose file] button is displayed in the box.
-- [Choose file]  
-      Click this button to select a file from your device to be uploaded. If no file has been selected yet, the notice *No file chosen* is displayed o the right of the button.
+    - [Choose file]  
+    Click this button to select a file from your device to be uploaded. If no file has been selected yet, the notice *No file chosen* is displayed o the right of the button.
   - ![Radio button](../../Assets/Icons/RadioButtonChecked.png "[Radio button]") *DMS*  
     Select this radio button to select a file in the *Documents* module to be uploaded. A search bar and the [SEARCH] button are displayed in the box. This radio button is only displayed when the *Documents* module is installed.
     - Search field   
       Enter the file path of the file to be uploaded. It is recommended to use the [SEARCH] button to select a file. The file path is automatically entered in the field.
-- [SEARCH]  
+    - [SEARCH]  
       Click this button to search for a file to be uploaded. The *Select file* window is displayed, see [Select file](#select-file).
 
 
 - [UPLOAD]  
   Click this button to upload the selected file. The *Files accepted!* confirmation window is displayed. Click the [OK] button to continue. The selected file is uploaded and the button is locked until the import is completed.
-
 
 - *CustomerX.txt*  
   Click the drop-down list to select the appropriate import definition. All available import definitions are displayed in the list. The following options are predefined:
@@ -306,6 +302,7 @@ Click the drop-down list to select the appropriate import setting for split post
 
 
   The import definitions can be defined or edited by clicking the [Edit] button to the right of the drop-down list.
+
   - [Edit]  
     Click this button to edit the selected import definition or to create a new one. The *Import/export definitions* window is displayed, see [Import/export definitions](#importexport-definitions).
 
@@ -336,14 +333,14 @@ Click the drop-down list to select the appropriate import setting for split post
   Select the corresponding file for upload in the STD-format.
   - ![Radio button](../../Assets/Icons/RadioButtonChecked.png "[Radio button]") *Local file*  
     Select this radio button to select a local file from your device to be uploaded. The [Choose file] button is displayed in the box.
-- [Choose file]  
+      - [Choose file]  
       Click this button to select a file from your device to be uploaded. If no file has been selected yet, the notice *No file chosen* is displayed o the right of the button.
   - ![Radio button](../../Assets/Icons/RadioButtonChecked.png "[Radio button]") *DMS*  
     Select this radio button to select a file in the *Documents* module to be uploaded. A search bar and the [SEARCH] button are displayed in the box. This radio button is only displayed when the *Documents* module is installed.
     - Search field   
       Enter the file path of the file to be uploaded. It is recommended to use the [SEARCH] button to select a file. The file path is automatically entered in the field.
-- [SEARCH]  
-      Click this button to search for a file to be uploaded. The *Select file* window is displayed, see [Select file](#select-file).
+    - [SEARCH]  
+    Click this button to search for a file to be uploaded. The *Select file* window is displayed, see [Select file](#select-file).
 
 
 - [UPLOAD]  
@@ -392,7 +389,7 @@ Click the drop-down list to select the appropriate import setting for split post
 
 
 - *Impersonal accounts*
-  Define how the handle the impersonal accounts to be imported. If the import file contained no impersonal accounts, the notice *No impersonal accounts in the import file* is displayed.
+  Define how to handle the impersonal accounts to be imported. If the import file contained no impersonal accounts, the notice *No impersonal accounts in the import file* is displayed.
   - *Take over impersonal accounts?*  
     Click the drop-down list and select the applicable option. The following options are displayed:
     - **Yes**   
@@ -408,7 +405,7 @@ Click the drop-down list to select the appropriate import setting for split post
 
 
 - *Personal accounts*  
-  Define how the handle the personal accounts to be imported. If the import file contained no personal accounts, the notice *No personal accounts in the import file* is displayed.
+  Define how to handle the personal accounts to be imported. If the import file contained no personal accounts, the notice *No personal accounts in the import file* is displayed.
   - *Take over personal accounts?*  
     Click the drop-down list and select the applicable option. The following options are displayed:
     - **Yes**   
@@ -422,8 +419,6 @@ Click the drop-down list to select the appropriate import setting for split post
     - **No**   
       No existing personal accounts will be overwritten.
 
-
-[comment]: <> (Ich gehe davon aus, dass es so funktioniert. Weiter testen oder RS mit FH.)
 
 - [FINALIZE]  
   Click this button to complete the import process. The *GDI: Step 4* window is displayed.
@@ -465,14 +460,14 @@ Click the drop-down list to select the appropriate import setting for split post
   Select the XML file to be imported.
   - ![Radio button](../../Assets/Icons/RadioButtonChecked.png "[Radio button]") *Local file*  
     Select this radio button to select a local file from your device to be uploaded. The [Choose file] button is displayed in the box.
-- [Choose file]  
-      Click this button to select a file from your device to be uploaded. If no file has been selected yet, the notice *No file chosen* is displayed o the right of the button.
+    - [Choose file]  
+    Click this button to select a file from your device to be uploaded. If no file has been selected yet, the notice *No file chosen* is displayed o the right of the button.
   - ![Radio button](../../Assets/Icons/RadioButtonChecked.png "[Radio button]") *DMS*  
     Select this radio button to select a file in the *Documents* module to be uploaded. A search bar and the [SEARCH] button are displayed in the box. This radio button is only displayed when the *Documents* module is installed.
     - Search field   
       Enter the file path of the file to be uploaded. It is recommended to use the [SEARCH] button to select a file. The file path is automatically entered in the field.
-- [SEARCH]  
-      Click this button to search for a file to be uploaded. The *Select file* window is displayed, see [Select file](#select-file).
+    - [SEARCH]  
+    Click this button to search for a file to be uploaded. The *Select file* window is displayed, see [Select file](#select-file).
 
 
 - [UPLOAD]  
@@ -516,14 +511,14 @@ Enter the creditor/supplier number.
   Select the corresponding batch file for upload in the txt-format.
   - ![Radio button](../../Assets/Icons/RadioButtonChecked.png "[Radio button]") *Local file*  
     Select this radio button to select a local file from your device to be uploaded. The [Choose file] button is displayed in the box.
-- [Choose file]  
-      Click this button to select a file from your device to be uploaded. If no file has been selected yet, the notice *No file chosen* is displayed o the right of the button.
+    - [Choose file]  
+    Click this button to select a file from your device to be uploaded. If no file has been selected yet, the notice *No file chosen* is displayed o the right of the button.
   - ![Radio button](../../Assets/Icons/RadioButtonChecked.png "[Radio button]") *DMS*  
     Select this radio button to select a file in the *Documents* module to be uploaded. A search bar and the [SEARCH] button are displayed in the box. This radio button is only displayed when the *Documents* module is installed.
     - Search field   
       Enter the file path of the file to be uploaded. It is recommended to use the [SEARCH] button to select a file. The file path is automatically entered in the field.
-- [SEARCH]  
-      Click this button to search for a file to be uploaded. The *Select file* window is displayed, see [Select file](#select-file).
+    - [SEARCH]  
+    Click this button to search for a file to be uploaded. The *Select file* window is displayed, see [Select file](#select-file).
 
 
 - [UPLOAD]  
@@ -571,7 +566,6 @@ For a detailed description of this window and the corresponding functions, see [
 
 > [Info] This window can also be accessed via the [Debtors/creditors](./02a_DebtorsCreditors.md#select-file) tab in the user interface.
 
-[comment]: <> (Remove window in Debtors/creditors tab and add "For a detailed description of this window and the corresponding functions, see Link." with corresponding link) -> CHECK with HG
 
 - *Name*  
   Name of the folder or file. Double-click a folder to access it. By default, the following folders are predefined:
