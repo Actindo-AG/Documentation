@@ -4,7 +4,7 @@
 
 ![Variant sets](../../Assets/Screenshots/PIM/Settings/VariantSets/VariantSets.png "[Variant sets]")
 
-**Variant Set List**
+**Variant set list**
 
 - ![Search](../../Assets/Icons/Search.png "[Search]") (Search)   
   Click this button to display the search bar and search for an variant set.
@@ -22,7 +22,7 @@
   Select the checkbox to display the editing toolbar. If you click the checkbox in the header, all variant sets in the list are selected.
 
 - [EDIT]      
-  Click this button to edit the selected variant set. This button is only displayed if a single checkbox of a variant set is selected. Alternatively, you can click directly a row in the list to edit a variant set. The *Edit variant set* view is displayed.
+  Click this button to edit the selected variant set. This button is only displayed if a single checkbox in the list of variant sets is selected. Alternatively, you can click directly a row in the list to edit a variant set. The *Edit variant set* view is displayed.
   For detailed information, see [Edit a variant set](../Integration/07_ManageVariantSets.md#edit-a-variant-set).
 
 - [DELETE]     
@@ -60,16 +60,19 @@ The list displays all variant sets. All fields are read-only. Depending on the s
   Name and username of the user who created the variant set.
 
 - *Name (Language)*   
-  Attribute set name in the selected language. A single *Name (Language)* column is displayed for the languages *English (United States)* and *Deutsch (Deutschland)*.
+  Attribute set name in the selected language. A single column is displayed for the system languages *English (United States)* and *Deutsch (Deutschland)*.
 
 - ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add)   
   Click this button to create a variant set. The *Create variant set* window is displayed.   
 
 
 ## Create variant set
+
 *PIM > Settings > Tab VARIANT SETS > Button Add*
 
 ![Create variant set](../../Assets/Screenshots/PIM/Settings/VariantSets/CreateVariantSet.png "[Create variant set]")
+
+**Create variant set**
 
 - ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)   
   Click this button to cancel creating a variant set, close the *Create variant set* view and return to the variant sets list. All changes are rejected.
@@ -96,7 +99,7 @@ This section is only displayed if an attribute set is selected.
   Click the field to edit the formula for the SKU of the variant articles. By default, the formula **{master}-{L}** is predefined. The following placeholders are available:
   - {master}: SKU number of the master entity
   - {L}: consecutive number   
-  - In addition to these default placeholders, you can include value of the defining attributes of the variant set into the SKU formula. The corresponding placeholders are displayed when you have added a defining attribute.
+  - In addition to these default placeholders, you can include the value of the defining attributes of the variant set into the SKU formula. The corresponding placeholders are displayed in the *Possible placeholders* section when you have added a defining attribute.
 
 
 **Defining attributes**
@@ -128,13 +131,14 @@ The list displays all defining attributes to the variant set. All fields are rea
   Attribute key. The key is required for API access and must be system wide unique.
 
 - *Data type*   
-  Attribute data type. For detailed information about all data types, see [Data type list](../../DataHub/UserInterface/04_DataTypeList.md).
+  Attribute data type.  
+  For detailed information about all data types, see [Data type list](../../DataHub/UserInterface/04_DataTypeList.md).
 
 - *ID*   
   Attribute identification number. The ID number is automatically assigned by the system.
 
 - ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add)   
-  Click this button to add a defining attribute to the variant set. The *Add defining attributes* view is displayed.
+  Click this button to add a defining attribute to the variant set. The *Add defining attributes* view is displayed, see [Add defining attributes](#add-defining-attributes).
 
 
 **Changeable attributes**
@@ -166,20 +170,23 @@ The list displays all changeable attributes to the variant set. All fields are r
   Attribute key. The key is required for API access and must be system wide unique.
 
 - *Data type*   
-  Attribute data type. For detailed information about all data types, see [Data type list](../../DataHub/UserInterface/04_DataTypeList.md).
+  Attribute data type.  
+  For detailed information about all data types, see [Data type list](../../DataHub/UserInterface/04_DataTypeList.md).
 
 - *ID*   
   Attribute identification number. The ID number is automatically assigned by the system.
 
 - ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add)   
-  Click this button to add a defining attribute to the variant set. The *Add changeable attributes* view is displayed.
+  Click this button to add a defining attribute to the variant set. The *Add changeable attributes* view is displayed, see [Add changeable attributes](#add-changeable-attributes).
 
 
 ## Edit variant set
-*PIM > Settings > Tab VARIANT SETS > Button Add > Button Add variant set*   
-*PIM > Settings > Tab VARIANT SETS > Select variant set > Button Edit*
+
+*PIM > Settings > Tab VARIANT SETS > Select variant set*
 
 ![Edit variant set](../../Assets/Screenshots/PIM/Settings/VariantSets/EditVariantSet.png "[Edit variant set]")
+
+**Edit variant set**
 
 - ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)   
   Click this button to cancel editing the variant set, close the *Edit variant set* view and return to the variant sets list. All changes are rejected.
@@ -204,7 +211,7 @@ The list displays all changeable attributes to the variant set. All fields are r
   Click the field to edit the formula for the SKU of the variant articles. By default, the formula **{master}-{L}** is predefined. The following placeholders are available:
   - {master}: SKU number of the master entity
   - {L}: consecutive number   
-  - In addition to these default placeholders, you can include value of the defining attributes of the variant set into the SKU formula. The corresponding placeholders are displayed when you have added a defining attribute.
+  - In addition to these default placeholders, you can include the value of the defining attributes of the variant set into the SKU formula. The corresponding placeholders are displayed in the *Possible placeholders* section when you have added a defining attribute.
 
 
 **Defining attributes**
@@ -236,13 +243,14 @@ The list displays all defining attributes to the variant set. All fields are rea
   Attribute key. The key is required for API access and must be system wide unique.
 
 - *Data type*   
-  Attribute data type. For detailed information about all data types, see [Data type list](../../DataHub/UserInterface/04_DataTypeList.md).
+  Attribute data type.   
+  For detailed information about all data types, see [Data type list](../../DataHub/UserInterface/04_DataTypeList.md).
 
 - *ID*   
   Attribute identification number. The ID number is automatically assigned by the system.
 
 - ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add)   
-  Click this button to add a defining attribute to the variant set. The *Add defining attributes* view is displayed.
+  Click this button to add a defining attribute to the variant set. The *Add defining attributes* view is displayed, see [Add defining attributes](#add-defining-attributes).
 
 
 **Changeable attributes**
@@ -274,19 +282,21 @@ The list displays all changeable attributes to the variant set. All fields are r
   Attribute key. The key is required for API access and must be system wide unique.
 
 - *Data type*   
-  Attribute data type. For detailed information about all data types, see [Data type list](../../DataHub/UserInterface/04_DataTypeList.md).
+  Attribute data type.   
+  For detailed information about all data types, see [Data type list](../../DataHub/UserInterface/04_DataTypeList.md).
 
 - *ID*   
   Attribute identification number. The ID number is automatically assigned by the system.
 
 - ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add)   
-  Click this button to add a defining attribute to the variant set. The *Add changeable attributes* view is displayed.
+  Click this button to add a defining attribute to the variant set. The *Add changeable attributes* view is displayed, see [Add changeable attributes](#add-changeable-attributes).
 
 
 
 ### Add defining attributes
-*PIM > Settings > Tab VARIANT SETS > Button Add > Button Add variant set > Button Add (Defining attributes)*   
-*PIM > Settings > Tab VARIANT SETS > Select variant set > Button Edit > Button Add (Defining attributes)*
+
+*PIM > Settings > Tab VARIANT SETS > Button Add > Select attribute set > Button Add (Defining attributes)*   
+*PIM > Settings > Tab VARIANT SETS > Select variant set > Button Add (Defining attributes)*
 
 ![Defining attributes](../../Assets/Screenshots/PIM/Settings/VariantSets/AddDefiningAttributes.png "[Defining attributes]")
 
@@ -312,7 +322,7 @@ The list displays all changeable attributes to the variant set. All fields are r
   Click this button to add the selected attribute(s) to the variant set. This button is only displayed if the checkbox of at least one attribute is selected.
 
 - [ADD AND GO BACK]   
-  Click this button to add the selected attribute(s) to the variant set. This button is only displayed if the checkbox of at least one attribute is selected. The *Add defining attributes* view is closed. The defining attributes are displayed in the box *Attributes (defining)*.
+  Click this button to add the selected attribute(s) to the variant set. This button is only displayed if the checkbox of at least one attribute is selected. The *Add defining attributes* view is closed. The defining attributes are displayed in the *Defining attributes* box.
 
 The list displays all available defining attributes. All fields are read-only. Depending on the settings, the displayed columns may vary.
 
@@ -323,15 +333,17 @@ The list displays all available defining attributes. All fields are read-only. D
   Attribute key. The key is required for API access and must be system wide unique.
 
 - *Data type*   
-  Attribute data type. For detailed information about all data types, see [Data type list](../../DataHub/UserInterface/04_DataTypeList.md).
+  Attribute data type.    
+  For detailed information about all data types, see [Data type list](../../DataHub/UserInterface/04_DataTypeList.md).
 
 - *ID*   
   Attribute identification number. The ID number is automatically assigned by the system.
 
 
 ### Add changeable attributes
-*PIM > Settings > Tab VARIANT SETS > Button Add > Button Add variant set > Button Add (changeable attributes box)*   
-*PIM > Settings > Tab VARIANT SETS > Select variant set > Button Edit > Button Add (changeable attributes box)*
+
+*PIM > Settings > Tab VARIANT SETS > Button Add > Select attribute set > Button Add (changeable attributes box)*   
+*PIM > Settings > Tab VARIANT SETS > Select variant set > Button Add (changeable attributes box)*
 
 ![Changeable attributes](../../Assets/Screenshots/PIM/Settings/VariantSets/AddChangeableAttributes.png "[Changeable attributes]")
 
@@ -357,7 +369,7 @@ The list displays all available defining attributes. All fields are read-only. D
   Click this button to add the selected attribute(s) to the variant set. This button is only displayed if the checkbox of at least one attribute is selected.
 
 - [ADD AND GO BACK]   
-  Click this button to add the selected attribute(s) to the variant set. This button is only displayed if the checkbox of at least one attribute is selected. The *Add defining attributes* view is closed. The defining attributes are displayed in the box *Attributes (defining)*.
+  Click this button to add the selected attribute(s) to the variant set. This button is only displayed if the checkbox of at least one attribute is selected. The *Add defining attributes* view is closed. The defining attributes are displayed in the *Changeable attributes* box.
 
 The list displays all available changeable attributes. All fields are read-only. Depending on the settings, the displayed columns may vary.
 
@@ -368,7 +380,8 @@ The list displays all available changeable attributes. All fields are read-only.
   Attribute key. The key is required for API access and must be system wide unique.
 
 - *Data type*   
-  Attribute data type. For detailed information about all data types, see [Data type list](../../DataHub/UserInterface/04_DataTypeList.md).
+  Attribute data type.   
+  For detailed information about all data types, see [Data type list](../../DataHub/UserInterface/04_DataTypeList.md).
 
 - *ID*   
   Attribute identification number. The ID number is automatically assigned by the system.

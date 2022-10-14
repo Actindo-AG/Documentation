@@ -8,7 +8,8 @@
 
 - [ <u>Edit channel list here</u> ]    
   Click this button to switch to the *DataHub* module and edit the channel list or create a channel.   
-  The *CHANNELS* tab is displayed (*DataHub > Settings > Tab CHANNELS*). For detailed information, see [Create a channel](../../DataHub/Integration/04_ManageChannels.md#create-a-channel).
+  The *CHANNELS* tab is displayed (*DataHub > Settings > Tab CHANNELS*).   
+  For detailed information, see [Create a channel](../../DataHub/Integration/04_ManageChannels.md#create-a-channel).
 
 - ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh)   
   Click this button to update the list of channels.
@@ -19,10 +20,10 @@
 The list displays all available channels.
 
 - *Key*   
-  Channel key. The key is required for API access and must be system wide unique. This field is read-only.
+  Channel key. This field is read-only.
 
 - *Description*   
   Description to the channel. This field is read-only.
 
 - *Active*   
-  Enable the toggle to set the channel active. Disable the toggle to set the channel inactive.
+  Enable the toggle to set the channel status to active. Disable the toggle to set the channel status to inactive.

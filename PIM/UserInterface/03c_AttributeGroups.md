@@ -19,7 +19,7 @@
 **Assigned attributes**
 
 - ![Sort](../../Assets/Icons/Sort02.png "[Sort]") (Sort)   
-  Click this button to display the filter bar and customize the active filters. The *x* indicates the number of filters that are currently active. This button is only displayed if an attribute group is selected.
+  Click this button to display the *Assigned Attributes (Sorting Mode)* view in the right side of the workspace. This button is only displayed if an attribute group is selected.
 
 - ![Search](../../Assets/Icons/Search.png "[Search]") (Search)   
   Click this button to display the search bar and search for an attribute. This button is only displayed if an attribute group is selected.
@@ -38,7 +38,7 @@
 
   > [Info] If you remove an attribute from the attribute group, the attribute itself is not deleted, but it is unassigned to the selected attribute group.  
 
-The list displays all attributes assigned to the selected attribute group. All fields are read-only. Depending on the settings, the displayed columns may vary. When no attribute is assigned to the selected attribute group, the notice *No attribute assigned. Use + button to assign one* is displayed.
+The list displays all attributes assigned to the selected attribute group. Depending on the settings, the displayed columns may vary. All fields are read-only. If no attribute is assigned to the selected attribute group, the notice *No attribute assigned. Use + button to assign one* is displayed.
 
 - *Name*   
   Attribute name.
@@ -50,9 +50,7 @@ The list displays all attributes assigned to the selected attribute group. All f
   Description to the attribute.
 
 - *Plugin*   
-  Module or plugin from which the attribute is created. In the *PIM* module, only PIM attributes are displayed.
-
-  [comment]: <> (Is that correct?)
+  Module or plugin that owns the attribute. In the *PIM* module, only PIM attributes are displayed.
 
 
 - *Read-only*   
@@ -69,9 +67,12 @@ The list displays all attributes assigned to the selected attribute group. All f
 
 
 ## Add attributes to attribute group
+
 *PIM > Settings > Tab ATTRIBUTE GROUPS > Button Add*
 
 ![Add attributes](../../Assets/Screenshots/PIM/Settings/AttributeGroups/AddAttributes.png "[Add attributes]")
+
+**Add attributes to group**
 
 - ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)   
   Click this button to cancel adding an attribute to the selected attribute group and close the *Add attributes to attribute group* view.
@@ -96,13 +97,13 @@ The list displays all attributes assigned to the selected attribute group. All f
 - [ADD]   
   Click this button to add the selected attribute to the attribute group. The *Add attributes to attribute group* view is closed.
 
-The list displays all attributes that are not assigned to the selected attribute group. All fields are read-only. Depending on the settings, the displayed columns may vary.
+The list displays all attributes that are not assigned to the selected attribute group. Depending on the settings, the displayed columns may vary. All fields are read-only.
 
 - *Name*   
   Attribute name.
 
 - *Key*   
-  Attribute key. The key is required for API access and must be system wide unique.
+  Attribute key.
 
 - *Current attribute group*   
   Attribute group to which the attribute is currently assigned.
@@ -127,9 +128,12 @@ The list displays all attributes that are not assigned to the selected attribute
 
 
 ## Edit attribute groups
+
 *PIM > Settings > Tab ATTRIBUTE GROUPS > Button Edit*
 
 ![Edit attribute groups](../../Assets/Screenshots/PIM/Settings/AttributeGroups/EditAttributeGroups.png "[Edit attribute groups]")
+
+**Edit attribute groups**
 
 - ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)   
   Click this button to close the *Edit attribute groups* view and return to the *Attribute groups* view. All changes are rejected.
@@ -156,24 +160,29 @@ The list displays all attributes that are not assigned to the selected attribute
   Click this button to add an attribute group or sub-group. A plus sign is displayed in each displayed column. Click the plus sign in the desired column to add a new attribute group or sub-group to the selected attribute group. The *Add element* window is displayed.    
   For detailed information about creating attribute groups or sub-groups, see [Create an attribute group](../Integration/03_ManageAttributeGroups.md#create-an-attribute-group) or [Create an attribute sub-group](../Integration/03_ManageAttributeGroups.md#create-an-attribute-sub-group).
 
+  > [Info] Attribute groups are organized in a tree structure with a maximum depth of two levels. That means that a maximum of one sub-group level can be added to an attribute group.
+
 
 ### Add element
+
 *PIM > Settings > Tab ATTRIBUTE GROUPS > Button Edit > Button Add*
 
 ![Add element](../../Assets/Screenshots/PIM/Settings/AttributeGroups/AddElement.png "[Add element]")
 
 > [Info] The *Add element* window for attribute groups and sub-groups is identical.
 
-- Language   
-  Click the drop-down list and select the language in which the *Name (Language)* field is displayed. All languages that are active in the *PIM* module are displayed.
 
-  [comment]: <> (Is that right? -> language question)
+- Language   
+  Click the drop-down list and select the system language in which the *Name (Language)* and *Description (Language)* fields are displayed. By default, the following options are available:
+  - **English (United States)**
+  - **Deutsch (Deutschland)**
+
 
 - *Name (Language)*   
   Enter an attribute group name in the selected language.
 
 - *Key*   
-  Enter an attribute group key. The key is required for API access and must be system wide unique.
+  Enter an attribute group key. The number of characters is limited to 190.
 
 - [CANCEL]   
   Click this button to cancel adding an attribute group, close the *Add element* window and return to the *Edit attribute groups* view.
@@ -185,32 +194,37 @@ The list displays all attributes that are not assigned to the selected attribute
 
 
 ### Edit attribute group data
+
 *PIM > Settings > Tab ATTRIBUTE GROUPS > Button Edit > Hover over attribute group > Button Edit*
 
 ![Attribute group data](../../Assets/Screenshots/PIM/Settings/AttributeGroups/AttributeGroupData.png "[Attribute group data]")
 
-- Language   
-  Click the drop-down list and select the language in which the *Name (Language)* field is displayed. All languages that are active in the *PIM* module are displayed.
+> [Info] The *Edit group data* window for attribute groups and sub-groups is identical.
 
-  [comment]: <> (Is that right? -> language question)
+
+- Language   
+  Click the drop-down list and select the system language in which the *Name (Language)* and *Description (Language)* fields are displayed. By default, the following options are available:
+  - **English (United States)**
+  - **Deutsch (Deutschland)**
+
 
 - *Name (Language)*   
   Click the field to edit the attribute group name in the selected language.
 
 - *Key*   
-  Click the field to edit the attribute group key. The key is required for API access and must be system wide unique.
+  Click the field to edit the attribute group key. The number of characters is limited to 190.
 
 - ![Delete](../../Assets/Icons/Trash01.png "[Delete]") (Delete)   
   Click this button to remove the selected attribute group.
 
-  > [Info] You have to click the [SAVE] button in the *Edit attribute groups* view to permanently delete the attribute group.
+  > [Info] You must click the [SAVE] button in the *Edit attribute groups* view to permanently delete the attribute group.
 
   > [Warning] Be aware that as soon as you delete an attribute group, you also delete all assigned attribute sub-groups.
 
 - [CANCEL]   
-  Click this button to cancel adding an attribute group, close the window and return to the *Edit attribute groups* view.
+  Click this button to cancel editing the attribute group, close the window and return to the *Edit attribute groups* view.
 
 - [SAVE]   
-  Click this button to add the new attribute group, close the window and return to the *Edit attribute groups* view.
+  Click this button to save any changes to the attribute group, close the window and return to the *Edit attribute groups* view.
 
-  > [Info] You have to click the [SAVE] button in the *Edit attribute groups* view to save the changes.
+  > [Info] You have to click the [SAVE] button in the *Edit attribute groups* view to save the changes. Otherwise, all changes are rejected.
