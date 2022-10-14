@@ -22,11 +22,11 @@
   Select the checkbox to display the editing toolbar. If you click the checkbox in the header, all products in the list are selected.
 
 - [RESTORE PRODUCT] / [RESTORE PRODUCTS]   
-  Click this button to restore the selected product(s). This button is only displayed, when the checkbox of at least one product is selected.
+  Click this button to restore the selected product(s). This button is only displayed if the checkbox of at least one product is selected.
   For detailed information, see [Restore a product](../Operation/03_MoveProducts.md#restore-a-product).
 
 - [MOVE TO RECYCLE BIN]   
-  Click this button to move the selected product(s) to recycle bin. This button is only displayed, when the checkbox of at least one product is selected.
+  Click this button to move the selected product(s) to recycle bin. This button is only displayed if the checkbox of at least one product is selected.
   For detailed information, see [Delete a product](../Operation/03_MoveProducts.md#delete-a-product).
 
 The list displays all archived products. All fields are read-only. Depending on the settings, the displayed columns may vary.

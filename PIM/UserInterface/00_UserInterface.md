@@ -1,5 +1,7 @@
 # User Interface
 
+In this part of the *PIM* documentation, you will find the following chapters:
+
 - [Overview](./01_Overview.md)
 
 
@@ -75,7 +77,7 @@
 - [ATTRIBUTE SETS](./03b_AttributeSets.md)
   - [Create attribute set](./03b_AttributeSets.md#create-attribute-set)
   - [Edit attribute set](./03b_AttributeSets.md#edit-attribute-set)
-    - [Edit attribute for set](./03b_AttributeSets.md#edit-attribute-for-set)
+    - [Edit attribute for set "Attribute set name"](./03b_AttributeSets.md#edit-attribute-for-set-attribute-set-name)
     - [Add mapping](./03b_AttributeSets.md#add-mapping)
 
 
@@ -105,6 +107,3 @@
   - [Edit variant set](./03g_VariantSets.md#edit-variant-set)
     - [Add defining attributes](./03g_VariantSets.md#add-defining-attributes)
     - [Add changeable attributes](./03g_VariantSets.md#add-changeable-attributes)
-
-
-- [Data type list](./04_DataTypeList.md)

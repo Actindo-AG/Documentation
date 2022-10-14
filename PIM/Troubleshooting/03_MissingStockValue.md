@@ -8,7 +8,7 @@
 
 #### Error Description
 
-In a products attribute field with the *Stock Value* data type is no stock displayed, although a stock is specified in the *Warehouse* module.
+No stock is displayed in a product attribute field with the *Stock Value* data type, although a stock is specified in the *Warehouse* module.
 
 Follow the instructions below to display the stock in the product view.
 
@@ -31,16 +31,16 @@ No prerequisites to fulfill.
   ![UCS Warehouse](../../Assets/Screenshots/PIM/Products/List/UCSWarehouse/WarehousingNotActive.png "[UCS Warehouse]")
 
 3. Check if the warehousing is active. If the warehousing is inactive, click the [ACTIVATE WAREHOUSING] button to activate the warehousing for the selected product.   
-  A confirmation window is displayed. After confirmation, the *Warehousing activated* pop-up window is displayed and the warehousing is active. The *Basic data* and the *Warehouse / Suppliers* sub-tabs are displayed in the *UCS Warehouse* tab.
+  A confirmation window is displayed. After confirmation, the *Warehousing activated* pop-up window is displayed and the warehousing is active. The *Basic data* and the *Warehouse / Suppliers* sub-tabs are displayed in the *UCS Warehouse* tab. By default, the *Basic data* sub-tab is preselected.
 
   ![Warehousing activated](../../Assets/Screenshots/PIM/Products/List/UCSWarehouse/WarehousingActivated.png "[Warehousing activated]")
 
-4. In the *Basic data* sub-tab, check if the option **Yes** is selected for the *Warehouse logistics active for this product* drop-down list. If not, select this option.
+4. Check if the option **Yes** is selected in the *Warehouse logistics active for this product* drop-down list. If not, select this option.
 
 5. Click the [SAVE] button in the upper right corner to save any changes.   
-  The changes have been applied. The *Edit attribute* view is closed.
+  The changes have been applied. The *Edit product* view is closed.
 
-6. Press **F5** to initialize the *Core1 Platform*.
+6. Press the **F5** key to initialize the *Core1 Platform*.
 
 7. Click again the product to which the stock was not displayed in the product list.   
   The *Edit product* view is displayed.

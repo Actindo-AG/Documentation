@@ -22,7 +22,7 @@ Every company has its own unique product data management requirements. The *PIM*
 ## Integrative &ndash; simple &ndash; fast to use
 
 **A perfect fit for existing IT**   
-Is your IT infrastructure built on legacy systems such as SAP or AS/400? With Actindo, you don't have to replace your functioning system landscape. The *PIM* module can be easily connected to your existing systems and online shop technology which enables an optimal data exchange. As a result, you can digitize and centralize your trade processes quickly and with little effort.
+Is your IT infrastructure built on legacy systems such as SAP or AS/400? With Actindo, you don't have to replace your functioning system landscape. The *PIM* module can be easily connected to your existing systems and online shop technology, which enables an optimal data exchange. As a result, you can digitize and centralize your trade processes quickly and with little effort.
 
 ## Actindo data accelerator hub
 

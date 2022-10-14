@@ -1,12 +1,14 @@
 # Integration
 
+In this part of the *PIM* documentation, you will find the following chapters:
+
 - [Manage an attribute](./01_ManageAttributes.md)
   - [Create an attribute](./01_ManageAttributes.md#create-an-attribute)
   - [Edit an attribute](./01_ManageAttributes.md#edit-an-attribute)
   - [Deactivate an attribute](./01_ManageAttributes.md#deactivate-an-attribute)
   - [Delete an attribute](./01_ManageAttributes.md#delete-an-attribute)
   - [Recover an attribute](./01_ManageAttributes.md#recover-an-attribute)
-  - [Finally delete an attribute](./01_ManageAttributes.md#finally-delete-an-attribute)
+  - [Permanently delete an attribute](./01_ManageAttributes.md#permanently-delete-an-attribute)
 
 - [Manage an attribute set](./02_ManageAttributeSets.md)  
   - [Create an attribute set](./02_ManageAttributeSets.md#create-an-attribute-set)

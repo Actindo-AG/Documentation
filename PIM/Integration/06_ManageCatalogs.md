@@ -26,7 +26,7 @@ No prerequisites to fulfill.
 ![Catalogs](../../Assets/Screenshots/PIM/Settings/Catalogs/Catalogs.png "[Catalogs]")
 
 1. Click the ![Points](../../Assets/Icons/Points01.png "[Points]") (Points) button to the right of the catalog name in the left column.   
-  The menu is displayed.
+  The catalog context menu is displayed.
 
   ![Menu](../../Assets/Screenshots/PIM/Settings/Catalogs/Menu.png "[Menu]")
 
@@ -37,7 +37,9 @@ No prerequisites to fulfill.
 
 3. Enter a name for the catalog in the text field in the header.    
 
-4. Continue to [add a category](#create-a-category) to the catalog, as at least one category per catalog is required to which you can assign the products.
+4. Proceed to [add a category](#create-a-category) to the catalog.
+
+  > [Info} At least one category per catalog is required to which you can assign the products.
 
 
 
@@ -47,7 +49,7 @@ You need to add at least one category to a catalog to be able to assign products
 
 #### Prerequisites
 
-The catalog basic data has been created, see [Define the catalog basic data](#define-the catalog-basic-data).
+The catalog basic data has been created, see [Define the catalog basic data](#define-the-catalog-basic-data).
 
 #### Procedure
 *PIM > Settings > Tab CATALOGS > Button Create new*
@@ -95,11 +97,11 @@ At least one catalog with one category has been created, see [Create a catalog](
 
 ![Catalogs](../../Assets/Screenshots/PIM/Settings/Catalogs/Catalogs.png "[Catalogs]")
 
-1. Select the catalog you want to create a sub-category to in the drop-down list in the left column.   
+1. Select the catalog in which you want to create a sub-category in the drop-down list in the left column.   
   The catalog name is displayed in the drop-down list.
 
 2. Click the ![Points](../../Assets/Icons/Points01.png "[Points]") (Points) button to the right of the selected catalog.   
-  The menu is displayed.
+  The catalog context menu is displayed.
 
   ![Menu](../../Assets/Screenshots/PIM/Settings/Catalogs/Menu.png "[Menu]")
 
@@ -108,7 +110,7 @@ At least one catalog with one category has been created, see [Create a catalog](
 
   ![Edit Catalog](../../Assets/Screenshots/PIM/Settings/Catalogs/EditCatalog.png "[Edit Catalog]")
 
-4. Select the category to which you want to create a sub-category in the category column.
+4. Select the category in which you want to create a sub-category the category column.
   A sub-category column is displayed to the right of the category column.
 
 5. Click the ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) button in the bottom right corner.   
@@ -128,7 +130,7 @@ At least one catalog with one category has been created, see [Create a catalog](
 9. Click the [SAVE] button.   
   The catalog sub-category has been created. The *Add element* window is closed. The new sub-category is displayed in the sub-category column.
 
-  > [Info] To add an additional sub-category, repeat the steps **4** to **8**. You can create an unlimited number of sub-categories in an unlimited number of levels. The procedure to create a sub-category in another level is identical to creating a sub-category. Just select the category or sub-category to which you want to create another sub-category and click the corresponding plus sign in the column of the respective level.
+  > [Info] To add an additional sub-category, repeat the steps **4** to **8**. You can create an unlimited number of sub-categories in an unlimited number of levels. The procedure to create a sub-category in another level is identical to creating a sub-category. Just select the category or sub-category in which you want to create another sub-category and click the corresponding plus sign in the column of the respective level.
 
 [comment]: <> (number of levels depends on screen size -> should it not be limited to a certain number of level?)
 
@@ -139,7 +141,7 @@ At least one catalog with one category has been created, see [Create a catalog](
 
 ### Change the order of categories
 
-The order of categories within the catalog is also displayed in the products view. If you want to have a different order, change the order of categories in the desired way.
+The order of categories within the catalog is also displayed in the product view. If you want to have a different order, change the order of categories in the desired way.
 
 #### Prerequisites
 
@@ -151,11 +153,11 @@ The order of categories within the catalog is also displayed in the products vie
 
 ![Catalogs](../../Assets/Screenshots/PIM/Settings/Catalogs/Catalogs.png "[Catalogs]")
 
-1. Select the catalog you want to create a sub-category to in the drop-down list in the left column.   
+1. Select the catalog in which you want to create a sub-category in the drop-down list in the left column.   
   The catalog name is displayed in the drop-down list.
 
 2. Click the ![Points](../../Assets/Icons/Points01.png "[Points]") (Points) button to the right of the selected catalog.   
-  The menu is displayed.
+  The catalog context menu is displayed.
 
   ![Menu](../../Assets/Screenshots/PIM/Settings/Catalogs/Menu.png "[Menu]")
 
@@ -189,11 +191,11 @@ Delete a category that is no longer needed. If you delete a category containing 
 
 ![Catalogs](../../Assets/Screenshots/PIM/Settings/Catalogs/Catalogs.png "[Catalogs]")
 
-1. Select the catalog you want to delete a category from in the drop-down list in the left column.   
+1. Select the catalog in which you want to delete a category in the drop-down list in the left column.   
   The catalog name is displayed in the drop-down list.
 
 2. Click the ![Points](../../Assets/Icons/Points01.png "[Points]") (Points) button to the right of the selected catalog.   
-  The menu is displayed.
+  The catalog context menu is displayed.
 
   ![Menu](../../Assets/Screenshots/PIM/Settings/Catalogs/Menu.png "[Menu]")
 
@@ -214,7 +216,7 @@ Delete a category that is no longer needed. If you delete a category containing 
 5. Click the ![Delete](../../Assets/Icons/Trash01.png "[Delete]") (Delete) button in the bottom left corner of the category data window.    
   The selected category has been removed from the category column. The category data window is closed.
 
-  > [Caution] Make sure that no product is assigned to the category that will be deleted as problems may occur to products that are still assigned to a deleted category.
+  > [Warning] Make sure that no product is assigned to the category that will be deleted as problems may occur to products that are still assigned to a deleted category.
 
 6. Click the [SAVE] button in the upper right corner.  
   The category has been deleted. The *Edit category* view is closed.

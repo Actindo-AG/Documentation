@@ -6,7 +6,7 @@
 
 #### Error Description
 
-When entering a floating number in a products attribute field with the *Floating point number*, *Stock Value* or *PIM Price Field* data type, the places of decimals are limited.
+When entering a floating number in a product attribute field with the *Floating point number*, *Stock vValue* or *PIM Price field* data type, the places of decimals are limited.
 
 Follow the instructions below to check why the number of decimals is limited and, if applicable, change the number of decimal places.
 
@@ -37,10 +37,10 @@ No prerequisites to fulfill.
 5. Click the [SAVE] button in the upper right corner to save any changes.   
   The changes have been applied. The *Edit attribute* view is closed.
 
-6. Press **F5** to initialize the *Core1 Platform*.
+6. Press the **F5** key to initialize the *Core1 Platform*.
 
 7. Switch to the *LIST* tab: *PIM > Products > Tab LIST* .   
-  The product list is displayed.
+  The *LIST* tab with the list of products is displayed.
 
   ![Products](../../Assets/Screenshots/PIM/Products/List/Products.png "[Products]")
 

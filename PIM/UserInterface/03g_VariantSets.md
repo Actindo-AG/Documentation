@@ -22,11 +22,11 @@
   Select the checkbox to display the editing toolbar. If you click the checkbox in the header, all variant sets in the list are selected.
 
 - [EDIT]      
-  Click this button to edit the selected variant set. This button is only displayed, when a single checkbox of a variant set is selected. Alternatively, you can click directly a row in the list to edit a variant set. The *Edit variant set* view is displayed.
+  Click this button to edit the selected variant set. This button is only displayed if a single checkbox of a variant set is selected. Alternatively, you can click directly a row in the list to edit a variant set. The *Edit variant set* view is displayed.
   For detailed information, see [Edit a variant set](../Integration/07_ManageVariantSets.md#edit-a-variant-set).
 
 - [DELETE]     
-  Click this button to delete the selected variant sets. This button is only displayed, when the checkbox of at least one variant set is selected.
+  Click this button to delete the selected variant sets. This button is only displayed if the checkbox of at least one variant set is selected.
 
 [comment]: <> (Mostly not possible to delete a variant set -> no integration procedure to delete a variant set -> why is the button still existing? Not working... )
 
@@ -90,7 +90,7 @@ The list displays all variant sets. All fields are read-only. Depending on the s
 
 **FORMULAS**
 
-This section is only displayed when an attribute set is selected.
+This section is only displayed if an attribute set is selected.
 
 - *Formula for SKU*   
   Click the field to edit the formula for the SKU of the variant articles. By default, the formula **{master}-{L}** is predefined. The following placeholders are available:
@@ -117,7 +117,7 @@ This section is only displayed when an attribute set is selected.
   Select the checkbox to display the editing toolbar. If you click the checkbox in the header, all attributes in the list are selected.
 
 - [DELETE]   
-  Click this button to delete the selected attribute from the box. This button is only displayed, when the checkbox of at least one attribute is selected.
+  Click this button to delete the selected attribute from the box. This button is only displayed if the checkbox of at least one attribute is selected.
 
 The list displays all defining attributes to the variant set. All fields are read-only.
 
@@ -128,7 +128,7 @@ The list displays all defining attributes to the variant set. All fields are rea
   Attribute key. The key is required for API access and must be system wide unique.
 
 - *Data type*   
-  Attribute data type. For detailed information about all data types, see [Data type list](./04_DataTypeList.md).
+  Attribute data type. For detailed information about all data types, see [Data type list](../../DataHub/UserInterface/04_DataTypeList.md).
 
 - *ID*   
   Attribute identification number. The ID number is automatically assigned by the system.
@@ -155,7 +155,7 @@ The list displays all defining attributes to the variant set. All fields are rea
   Select the checkbox to display the editing toolbar. If you click the checkbox in the header, all attributes in the list are selected.
 
 - [DELETE]   
-  Click this button to delete the selected attribute from the box. This button is only displayed, when the checkbox of at least one attribute is selected.
+  Click this button to delete the selected attribute from the box. This button is only displayed if the checkbox of at least one attribute is selected.
 
 The list displays all changeable attributes to the variant set. All fields are read-only.
 
@@ -166,7 +166,7 @@ The list displays all changeable attributes to the variant set. All fields are r
   Attribute key. The key is required for API access and must be system wide unique.
 
 - *Data type*   
-  Attribute data type. For detailed information about all data types, see [Data type list](./04_DataTypeList.md).
+  Attribute data type. For detailed information about all data types, see [Data type list](../../DataHub/UserInterface/04_DataTypeList.md).
 
 - *ID*   
   Attribute identification number. The ID number is automatically assigned by the system.
@@ -225,7 +225,7 @@ The list displays all changeable attributes to the variant set. All fields are r
   Select the checkbox to display the editing toolbar. If you click the checkbox in the header, all attributes in the list are selected.
 
 - [DELETE]   
-  Click this button to delete the selected attribute from the box. This button is only displayed, when the checkbox of at least one attribute is selected.
+  Click this button to delete the selected attribute from the box. This button is only displayed if the checkbox of at least one attribute is selected.
 
 The list displays all defining attributes to the variant set. All fields are read-only.
 
@@ -236,7 +236,7 @@ The list displays all defining attributes to the variant set. All fields are rea
   Attribute key. The key is required for API access and must be system wide unique.
 
 - *Data type*   
-  Attribute data type. For detailed information about all data types, see [Data type list](./04_DataTypeList.md).
+  Attribute data type. For detailed information about all data types, see [Data type list](../../DataHub/UserInterface/04_DataTypeList.md).
 
 - *ID*   
   Attribute identification number. The ID number is automatically assigned by the system.
@@ -263,7 +263,7 @@ The list displays all defining attributes to the variant set. All fields are rea
   Select the checkbox to display the editing toolbar. If you click the checkbox in the header, all attributes in the list are selected.
 
 - [DELETE]   
-  Click this button to delete the selected attribute from the box. This button is only displayed, when the checkbox of at least one attribute is selected.
+  Click this button to delete the selected attribute from the box. This button is only displayed if the checkbox of at least one attribute is selected.
 
 The list displays all changeable attributes to the variant set. All fields are read-only.
 
@@ -274,7 +274,7 @@ The list displays all changeable attributes to the variant set. All fields are r
   Attribute key. The key is required for API access and must be system wide unique.
 
 - *Data type*   
-  Attribute data type. For detailed information about all data types, see [Data type list](./04_DataTypeList.md).
+  Attribute data type. For detailed information about all data types, see [Data type list](../../DataHub/UserInterface/04_DataTypeList.md).
 
 - *ID*   
   Attribute identification number. The ID number is automatically assigned by the system.
@@ -309,10 +309,10 @@ The list displays all changeable attributes to the variant set. All fields are r
   Select the checkbox to display the editing toolbar. Alternatively, you can click directly a row in the list to select the attribute. If you click the checkbox in the header, all attributes in the list are selected.
 
 - [ADD]   
-  Click this button to add the selected attribute(s) to the variant set. This button is only displayed, when the checkbox of at least one attribute is selected.
+  Click this button to add the selected attribute(s) to the variant set. This button is only displayed if the checkbox of at least one attribute is selected.
 
 - [ADD AND GO BACK]   
-  Click this button to add the selected attribute(s) to the variant set. This button is only displayed, when the checkbox of at least one attribute is selected. The *Add defining attributes* view is closed. The defining attributes are displayed in the box *Attributes (defining)*.
+  Click this button to add the selected attribute(s) to the variant set. This button is only displayed if the checkbox of at least one attribute is selected. The *Add defining attributes* view is closed. The defining attributes are displayed in the box *Attributes (defining)*.
 
 The list displays all available defining attributes. All fields are read-only. Depending on the settings, the displayed columns may vary.
 
@@ -323,7 +323,7 @@ The list displays all available defining attributes. All fields are read-only. D
   Attribute key. The key is required for API access and must be system wide unique.
 
 - *Data type*   
-  Attribute data type. For detailed information about all data types, see [Data type list](./04_DataTypeList.md).
+  Attribute data type. For detailed information about all data types, see [Data type list](../../DataHub/UserInterface/04_DataTypeList.md).
 
 - *ID*   
   Attribute identification number. The ID number is automatically assigned by the system.
@@ -354,10 +354,10 @@ The list displays all available defining attributes. All fields are read-only. D
   Select the checkbox to display the editing toolbar. Alternatively, you can click directly a row in the list to select the attribute. If you click the checkbox in the header, all attributes in the list are selected.
 
 - [ADD]   
-  Click this button to add the selected attribute(s) to the variant set. This button is only displayed, when the checkbox of at least one attribute is selected.
+  Click this button to add the selected attribute(s) to the variant set. This button is only displayed if the checkbox of at least one attribute is selected.
 
 - [ADD AND GO BACK]   
-  Click this button to add the selected attribute(s) to the variant set. This button is only displayed, when the checkbox of at least one attribute is selected. The *Add defining attributes* view is closed. The defining attributes are displayed in the box *Attributes (defining)*.
+  Click this button to add the selected attribute(s) to the variant set. This button is only displayed if the checkbox of at least one attribute is selected. The *Add defining attributes* view is closed. The defining attributes are displayed in the box *Attributes (defining)*.
 
 The list displays all available changeable attributes. All fields are read-only. Depending on the settings, the displayed columns may vary.
 
@@ -368,7 +368,7 @@ The list displays all available changeable attributes. All fields are read-only.
   Attribute key. The key is required for API access and must be system wide unique.
 
 - *Data type*   
-  Attribute data type. For detailed information about all data types, see [Data type list](./04_DataTypeList.md).
+  Attribute data type. For detailed information about all data types, see [Data type list](../../DataHub/UserInterface/04_DataTypeList.md).
 
 - *ID*   
   Attribute identification number. The ID number is automatically assigned by the system.

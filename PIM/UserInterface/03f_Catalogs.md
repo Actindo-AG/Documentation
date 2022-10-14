@@ -55,7 +55,7 @@ The following buttons and fields are only displayed when you have added a catego
   Click and hold this button to move the selected category to another position in the list using drag and drop.
 
 - ![Edit](../../Assets/Icons/Edit03.png "[Edit]") (Edit)   
-  Click this button to edit the selected category. The category data is displayed. This button is only displayed, when you hover over the category.
+  Click this button to edit the selected category. The category data is displayed. This button is only displayed if you hover over the category.
 
 - First level category   
   Top level category. Click the category to display the second level column and all assigned sub-categories. Hover over the category to display the button ![Edit](../../Assets/Icons/Edit03.png "[Edit]") (Edit).
@@ -88,7 +88,7 @@ The following buttons and fields are only displayed when you have added a catego
   Click and hold this button to move the selected category to another position in the list using drag and drop.
 
 - ![Edit](../../Assets/Icons/Edit03.png "[Edit]") (Edit)   
-  Click this button to edit the selected category. The category data is displayed. This button is only displayed, when you hover over the category.
+  Click this button to edit the selected category. The category data is displayed. This button is only displayed if you hover over the category.
 
 - First level category   
   Top level category. Click the category to display the second level column and all assigned sub-categories. Hover over the category to display the button ![Edit](../../Assets/Icons/Edit03.png "[Edit]") (Edit).
@@ -143,9 +143,9 @@ The following buttons and fields are only displayed when you have added a catego
 - ![Delete](../../Assets/Icons/Trash01.png "[Delete]") (Delete)   
   Click this button to remove the selected category.
 
-  > [Info] You have to click the button [SAVE] in the *Create new catalog* or *Edit catalog* view to finally delete the group.
+  > [Info] You have to click the button [SAVE] in the *Create new catalog* or *Edit catalog* view to permanently delete the group.
 
-  > [Caution] Be aware that as soon as you delete a category, you also delete all assigned sub-categories.
+  > [Warning] Be aware that as soon as you delete a category, you also delete all assigned sub-categories.
 
 - [CANCEL]   
   Click this button to cancel adding a category and close the window.

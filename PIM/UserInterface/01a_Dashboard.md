@@ -28,12 +28,10 @@ In each box the degree of completeness in percent is displayed related to:
 
 ## Recent changes
 
-The box displays a list of recent changes on the products.
-
 - ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh)    
   Click this button to update the list of recent changes.
 
-The fields in the following columns are display fields only. They cannot be changed.
+The list in the box displays all recent changes on the products. All fields are read-only.
 
 - *SKU*  
   Stock Keeping Unit. Identification number for the product.  

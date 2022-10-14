@@ -22,5 +22,5 @@ No prerequisites to fulfill.
 
   > [Info] At least one language has to be activated.
 
-2. Press **F5** to initialize the *Core1 Platform*.   
+2. Press the **F5** key to initialize the *Core1 Platform*.   
   The selected language has been activated in the *PIM* module.

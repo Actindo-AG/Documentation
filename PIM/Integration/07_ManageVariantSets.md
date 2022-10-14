@@ -4,7 +4,7 @@
 
 # Manage a variant set
 
-You can create a variant set for a product. A variant is a special characteristics of a product, for instance the size or the color.
+You can create a variant set for a product. A variant is a special characteristic of a product, for instance the size or the color.
 
 ## Create a variant set
 
@@ -16,7 +16,7 @@ Create a variant set to be able to create variants to products. A variant set is
 
 An attribute set has been created, see [Create an attribute set](./02_ManageAttributeSets.md#create-an-attribute-set).
 
-> [Info] By default, the *PIM Basic Set* attribute set has been predefined in the *Core1 Platform*.
+> [Info] By default, the *PIM Basic Set* attribute set has been created when installing the *PIM* module.
 
 #### Procedure
 *PIM > Settings > Tab VARIANT SETS*
@@ -51,21 +51,21 @@ An attribute set has been created, see [Create an attribute set](./02_ManageAttr
 
 ### Add defining attributes
 
-You have to select at least one defining attribute to create a variant set. You can only select attributes as defining attributes, that are neither multilingual nor multi-channel and assigned to the selected attribute set.
+You have to select at least one defining attribute to create a variant set. You can only select attributes as defining attributes, that are neither multilingual nor multi-channel and that are assigned to the selected attribute set.
 
 #### Prerequisites
 
 - An attribute set has been created, see [Create an attribute set](./02_ManageAttributeSets.md#create-an-attribute-set).
-- The basic data of the variant set has been completed, see [Define the variant set basic data](#Define-the-variant-set-basic-data).
+- The basic data of the variant set has been defined, see [Define the variant set basic data](#define-the-variant-set-basic-data).
 
-> [Info] By default, the *PIM Basic Set* attribute set has been predefined in the *Core1 Platform*.
+> [Info] By default, the *PIM Basic Set* attribute set has been created when installing the *PIM* module.
 
 #### Procedure
 *PIM > Settings > Tab VARIANT SETS > Button Add*
 
 ![Formulas](../../Assets/Screenshots/PIM/Settings/VariantSets/Formulas.png "[Formulas]")
 
-1. In the *Defining attributes* box click the ![Add](../../Assets/Icons/Plus01.png "[Add]") button. This button is only displayed when an attribute set is selected.       
+1. Click the ![Add](../../Assets/Icons/Plus01.png "[Add]") button in the *Defining attributes* box. This button is only displayed if an attribute set is selected.       
   The *Add defining attributes* view is displayed.
 
   ![Add defining attributes](../../Assets/Screenshots/PIM/Settings/VariantSets/AddDefiningAttributes.png "[Add defining attributes]")
@@ -80,7 +80,7 @@ You have to select at least one defining attribute to create a variant set. You 
 
     ![Defining attributes added](../../Assets/Screenshots/PIM/Settings/VariantSets/DefiningAttributesAdded.png "[Defining attributes added]")
 
-    > [Info] You can edit the formula in the *Formula for SKU* field and include the defining attribute placeholder.
+    > [Info] You can edit the formula in the *Formula for SKU* field and include the defining attribute placeholder(s).
 
 4. If desired, add changeable attributes to the variant set, see [Add changeable attributes](#add-changeable-attributes). Otherwise, click the [SAVE] button in the upper right corner.   
   The *Create variant set* view is closed. The new variant set has been saved and is displayed in the list of variant sets.
@@ -89,21 +89,21 @@ You have to select at least one defining attribute to create a variant set. You 
 
 ### Add changeable attributes
 
-You can select changeable attributes for a variant set. If you want to define an attribute for the variants which value may differ from its master product value, you have to define this attribute as a changeable attribute.
+You can select changeable attributes for a variant set. If you want to define an attribute for the variants whose value may differ from its master product value, you have to define this attribute as a changeable attribute.
 
 #### Prerequisites
 
 - An attribute set has been created, see [Create an attribute set](./02_ManageAttributeSets.md#create-an-attribute-set).
-- The basic data of the variant set has been completed, see [Define the variant set basic data](#Define-the-variant-set-basic-data).
+- The basic data of the variant set has been defined, see [Define the variant set basic data](#define-the-variant-set-basic-data).
 
-> [Info] By default, the *PIM Basic Set* attribute set has been predefined in the *Core1 Platform*.
+> [Info] By default, the *PIM Basic Set* attribute set has been created when installing the *PIM* module.
 
 #### Procedure
 *PIM > Settings > Tab VARIANT SETS > Button Add*
 
 ![Formulas](../../Assets/Screenshots/PIM/Settings/VariantSets/Formulas.png "[Formulas]")
 
-1. In the *Changeable attributes* box click the ![Add](../../Assets/Icons/Plus01.png "[Add]") button. This button is only displayed when an attribute set is selected.         
+1. Click the ![Add](../../Assets/Icons/Plus01.png "[Add]") button in the *Changeable attributes* box. This button is only displayed if an attribute set is selected.         
   The *Add changeable attributes* view is displayed.
 
   ![Add changeable attributes](../../Assets/Screenshots/PIM/Settings/VariantSets/AddChangeableAttributes.png "[Add changeable attributes]")
@@ -152,7 +152,7 @@ At least one variant set has been created, see [Create a variant set](#create-a-
 
 ## Remove an attribute from the variant set
 
-You can remove defining and changeable attributes from the variant set. Note, that at least one defining attribute is assigned. If one or more changeable attributes has been assigned to the variant set, also at least one changeable attribute must be assigned.
+You can remove defining and changeable attributes from the variant set. Note that at least one defining attribute must be assigned. If one or more changeable attributes have been previously assigned to the variant set, at least one changeable attribute must remain assigned.
 
 [comment]: <> (is that a bug?)
 
@@ -170,7 +170,7 @@ A variant set has been created, see [Create a variant set](#create-a-variant-set
 
   ![Edit variant set](../../Assets/Screenshots/PIM/Settings/VariantSets/EditVariantSet.png "[Edit variant set]")
 
-2. In the *Defining attributes* box or *Changeable attributes* box, select the checkboxes of the attributes you want to remove.     
+2. Select the checkboxes of the attributes you want to remove either in the *Defining attributes* or the *Changeable attributes* box.     
   The [DELETE] button is displayed in the editing toolbar above the attribute list.
 
 3. Click the [DELETE] button in the toolbar.   

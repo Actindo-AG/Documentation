@@ -13,7 +13,7 @@ The *LIST* tab is the view where you can see and manage the products. To have a 
 
 ## Select a language
 
-You can select the language for which the attribute values of the products are displayed. Only multi-language attributes can have different values in different languages. Otherwise, the value remain the same in all languages. Note that the selected language only refers to the display language of the attribute values but does not equal to the user interface language. To change the interface language, you have to change the user language settings.
+You can select the language for which the attribute values of the products are displayed. Only multi-language attributes can have different values in different languages. Otherwise, the value remains the same in all languages. Note that the selected language only refers to the display language of the attribute values but does not equal the user interface language. To change the interface language, you have to change the user language settings.
 
 #### Prerequisites
 
@@ -32,7 +32,7 @@ At least two languages have been created and activated in the *PIM* module, see 
   > [Info] For detailed information about activating a language in the *PIM* module, see [Configure the language settings](../Integration/04_ConfigureLanguages.md).
 
 2. Select the desired language in the *Language* drop-down list.   
-  The multi-language values in the columns has been changed to the values in the selected language. All single language values remain unchanged.
+  The multi-language values in the columns have been changed to the values in the selected language. All single language values remain unchanged.
 
   > [Info] If a product has no attribute value defined in the selected language, the value in the corresponding columns remains blank.
 
@@ -40,7 +40,7 @@ At least two languages have been created and activated in the *PIM* module, see 
 
 ## Select a channel
 
-You can select the channel for which the attribute values of the products are displayed. Only multi-channel attributes can have different values in different channels. Otherwise, the value remain the same in all channels.
+You can select the channel for which the attribute values of the products are displayed. Only multi-channel attributes can have different values in different channels. Otherwise, the value remains the same in all channels.
 
 #### Prerequisites
 
@@ -61,19 +61,19 @@ At least two channels have been created and activated in the *PIM* module, see [
 2. Select the desired channel in the *Channel* drop-down list.   
   The multi-channel values in the columns have been changed to the values in the selected channel. All single channel values remain unchanged.
 
-  > [Info]  If a product has no attribute value defined in the selected language, the value in the corresponding column remains blank.
+  > [Info]  If a product has no attribute value defined in the selected channel, the value in the corresponding column remains blank.
 
 
 
 ## Select a product category
 
-You can select a product category to limit the number of products to those products that are assigned to a certain category. You can assign a product to one or multiple categories and catalogs in the product view.
+You can select a product category to limit the number of products to those assigned to a certain category. You can assign a product to one or multiple categories and catalogs in the product view.
 
 #### Prerequisites
 
-- At least one catalog has been created, see [Create a catalog](../Integration/06_ManageCatalogs.md##create-a-catalog).
-- At least one category has been created within the catalog, see [Create a category](../Integration/06_ManageCatalogs.md##create-a-category).
-- At least one product has been assigned to a category, see [Assign a product to a catalog category](../Integration/06_ManageCatalogs.md##assign-a-product-to-a-catalog-category)
+- At least one catalog has been created, see [Create a catalog](../Integration/06_ManageCatalogs.md#create-a-catalog).
+- At least one category has been created within the catalog, see [Create a category](../Integration/06_ManageCatalogs.md#create-a-category).
+- At least one product has been assigned to a category, see [Assign a product to a catalog category](../Integration/06_ManageCatalogs.md#assign-a-product-to-a-catalog-category)
 
 #### Procedure
 *PIM > Products > Tab LIST*
@@ -99,7 +99,7 @@ You can select a product category to limit the number of products to those produ
 
 ## Select a variant view
 
-Switch the variant view to either display only the master products and single products in the product list or all products including their variants.
+Switch the variant view to either display only the single and master products in the product list or all products including their variants.
 
 #### Prerequisites
 
@@ -117,7 +117,7 @@ No prerequisites to fulfill.
 
 
 2. Select the desired variant view in the *Variants* drop-down list.
-  Depending on the selection, the product list displays all products or only the master products.
+  Depending on the selection, the product list displays all products including their variants or only the single and master products.
 
 
 
@@ -136,7 +136,7 @@ No prerequisites to fulfill.
 
 ![Product list](../../Assets/Screenshots/PIM/Products/List/Products.png "[Product list]")
 
-1. Select the desired settings for the view, you want to save:
+1. Select the desired settings for the view you want to save:
   + Click the *Language* drop-down list and select the desired language.
   + Click the *Channel* drop-down list and select the desired channel.
   + Click the *Catalog* drop-down list and select the desired catalog and category.
@@ -147,7 +147,7 @@ No prerequisites to fulfill.
   + Click the [ ![Columns](../../Assets/Icons/Columns.png "[Columns]") Columns (x)] button.   
   + Click the *Column* drop-down list, select a column in the list and click the [ADD COLUMN] button to add the column to the columns displayed in the product list.
   + Click the ![Remove](../../Assets/Icons/Cross03.png "[Remove]") (Remove) button next to a column name to remove the corresponding column from the product list.
-  + Click and hold a column name and by using drag and drop, move the selected column to the desired position. The number left to the column name displays the position number of the column in the product list.
+  + Click and hold a column name and move the selected column to the desired position by using drag and drop. The number left to the column name displays the position number of the column in the product list.
   + Click the [APPLY] button to apply the changes.
 
 

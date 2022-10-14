@@ -1,5 +1,7 @@
 # Operation
 
+In this part of the *PIM* documentation, you will find the following chapters:
+
 - [Manage a product](./01_ManageProducts.md)
   - [Create a product](./01_ManageProducts.md#create-a-product)
   - [Edit products](./01_ManageProducts.md#edit-products)
@@ -23,7 +25,7 @@
 - [Move a product](./03_MoveProducts.md)
   - [Archive a product](./03_MoveProducts.md#archive-a-product)
   - [Delete a product](./03_MoveProducts.md#delete-a-product)
-  - [Finally delete a product](./03_MoveProducts.md#finally-delete-a-product)
+  - [Permanently delete a product](./03_MoveProducts.md#permanently-delete-a-product)
   - [Restore a product](./03_MoveProducts.md#restore-a-product)
 
 

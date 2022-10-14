@@ -4,11 +4,11 @@
 
 # Move a product
 
-Move a product to either archive it, move it to the recycle bin, delete it finally or restore it.
+Move a product to either archive it, move it to the recycle bin, delete it permanently or restore it.
 
 ## Archive a product
 
-You can archive products that you are not currently using, but that you still want to access and may want to use again at a later time. Archived products cannot be finally deleted but must first be moved to the recycle bin.
+You can archive products that you are not currently using, but that you still want to access and may want to use again at a later time. Archived products cannot be permanently deleted but must first be moved to the recycle bin.
 
 #### Prerequisites
 
@@ -38,7 +38,7 @@ At least one product has been created, see [Create a product](./01_ManageProduct
 
 ## Delete a product
 
-You can delete products that are no longer needed by moving them to the recycle bin. Products in the recycle bin can still be restored or archived but they also can be finally deleted.
+You can delete products that are no longer needed by moving them to the recycle bin. Products in the recycle bin can still be restored or archived but they also can be permanently deleted.
 
 #### Prerequisites
 
@@ -62,13 +62,13 @@ At least one product has been created, see [Create a product](./01_ManageProduct
 
   The selected products have been moved to the recycle bin.
 
-  > [Info] You find the deleted products in the *RECYCLE BIN* tab where you can either restore or finally delete them.
+  > [Info] You find the deleted products in the *RECYCLE BIN* tab where you can either restore or permanently delete them.
 
 
 
-## Finally delete a product
+## Permanently delete a product
 
-You can permanently delete products Products that have been moved to the recycle bin unless they have any existing dependencies. Be aware that once deleted products cannot be restored as the deletion process cannot be undone.
+You can permanently delete products that have been moved to the recycle bin unless they have any existing dependencies. Be aware that once products have been permanently deleted, they cannot be restored as the deletion process cannot be undone.
 
 #### Prerequisites
 
@@ -83,13 +83,13 @@ At least one product has been moved to the recycle bin, see [Delete a product](#
   The editing toolbar is displayed above the product list.
 
 2. Click the [FINALLY DELETE PRODUCTS] button in the editing toolbar.   
-  The button changes to [DELETING...]. The *Products finally deleted* pop-up window is displayed, indicating the number of finally deleted products.
+  The button changes to [DELETING...]. The *Products finally deleted* pop-up window is displayed, indicating the number of permanently deleted products.
 
   ![Product finally deleted](../../Assets/Screenshots/PIM/Products/RecycleBin/ProductFinallyDeleted.png "[Product finally deleted]")
 
   The selected products have been permanently deleted.
 
-  > [Info] If the deletion is not possible, the *Products deleted* pop-up window is indicating an error for the number of products unable to delete. An error message with further information is displayed in the notifications.
+  > [Info] If the deletion is not possible, the *Products deleted* pop-up window indicates an error for the number of products that cannot be deleted. An error message with further information is displayed in the notifications.
 
   ![Product deleted error](../../Assets/Screenshots/PIM/Products/List/ProductDeletedError.png "[Product deleted error]")
 
@@ -115,7 +115,7 @@ At least one product has been moved to the archive or the recycle bin, see [Arch
   The editing toolbar is displayed above the product list.
 
 2. Click the [RESTORE PRODUCTS] button in the editing toolbar.   
-  The button changes to [RESTORING ...]. The *Products restored* pop-up window is displayed, indicating the number of restored products.
+  The button changes to [RESTORING...]. The *Products restored* pop-up window is displayed, indicating the number of restored products.
 
   ![Products restored](../../Assets/Screenshots/PIM/Products/List/ProductsRestored.png "[Products restored]")
 

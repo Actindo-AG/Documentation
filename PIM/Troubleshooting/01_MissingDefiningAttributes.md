@@ -32,21 +32,22 @@ No prerequisites to fulfill.
   - *Multi-channel*      
     Check if the toggle is disabled. Only single channel attributes can be used as defining attributes for a variant set.
 
-    > [Info] If the respective attribute is multi-language or multi-channel, it cannot be used as defining attribute. [Create a new attribute](../Integration/01_ManageAttributes.md#create-an-attribute) which is not multi-language nor multi-channel to use it as a defining attribute.    
+    > [Info] If the respective attribute is multi-language or multi-channel, it cannot be used as defining attribute. Create a new attribute which is neither multi-language nor multi-channel to use it as a defining attribute, see [Create a new attribute](../Integration/01_ManageAttributes.md#create-an-attribute).    
 
 4. Check if the *Active* toggle is enabled. Only active attributes are displayed in the list of defining attributes for a variant set. If the toggle is disabled, enable the toggle by clicking it.
 
 5. Click the [SAVE] button in the upper right corner to save any changes.   
   The changes have been applied. The *Edit attribute* view is closed.
 
-6. Press **F5** to initialize the *Core1 Platform*.
+6. Press the **F5** key to initialize the *Core1 Platform*.
 
 7. Switch to the *VARIANT SETS* tab: *PIM > Settings > Tab VARIANT SETS* .      
-  The variant sets list is displayed.
+  The *VARIANT SEETS* tab with the list of variant sets is displayed.
 
   ![Variant sets](../../Assets/Screenshots/PIM/Settings/VariantSets/VariantSets.png "[Variant sets]")
 
-8. Create a new variant set or select the variant set to which you want to add the defining attribute. For detailed information, see [Create a variant set](../Integration/07_ManageVariantSets.md#create-a-variant-set) or [Edit a variant set](../Integration/07_ManageVariantSets.md#edit-a-variant-set).
+8. Create a new variant set or select the variant set to which you want to add the defining attribute.   
+  For detailed information, see [Create a variant set](../Integration/07_ManageVariantSets.md#create-a-variant-set) or [Edit a variant set](../Integration/07_ManageVariantSets.md#edit-a-variant-set).
 
   ![Formulas](../../Assets/Screenshots/PIM/Settings/VariantSets/Formulas.png "[Formulas]")
 
@@ -57,7 +58,7 @@ No prerequisites to fulfill.
 
 10. Check if the respective attribute is displayed in the list.
 
-  > [Info] You may click the ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh) button to update the list of defining attributes.    
+  > [Info] If necessary, click the ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh) button to update the list of defining attributes.    
   If the attribute is still not displayed, please contact the Customer Support.    
 
 11. Add the attribute to the variant set as described in [Add defining attributes](../Integration/07_ManageVariantSets.md#add-defining-attributes).
