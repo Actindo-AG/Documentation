@@ -87,7 +87,7 @@ The identical customer/supplier list is available in the *Order management* modu
     - *Price group*   
       Click the drop-down list to select the applicable filter criterion. All available price groups are displayed in the list.
 
-      > [Info] Price groups can be created in the *Settings* menu entry of the *Material management* and the *Order management* modules. A customer can be assigned to a specific price group in the *Invoicing* sub-tab of the *DEBTORS/CREDITORS* tab, see [Invoicing](#invoicing-1).
+      > [Info] Price groups can be created in the *Settings* menu entry of the *Material management* and the *Order management* modules. A customer can be assigned to a specific price group in the *Invoicing* sub-tab of the *DEBTORS/CREDITORS* tab, see [Invoicing](#invoicing).
 
 
   - *FILTER CRITERION*  

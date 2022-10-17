@@ -415,7 +415,7 @@ An individual posting from the cash book can be selected and partially edited be
 
 ## Supplier receipts
 
-### Acquire a receipt
+### Acquire a supplier receipt
 
 *Accounting > Post > Button EDIT > Menu entry Supplier receipts > Tab Acquire*
 
