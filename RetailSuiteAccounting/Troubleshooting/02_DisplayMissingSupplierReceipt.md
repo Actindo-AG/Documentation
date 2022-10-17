@@ -7,7 +7,7 @@ Check and, if necessary, modify the supplier settings to display a supplier rece
 
 #### Error Description
 
-A supplier receipt has been entered in the system but is not displayed in the *Check supplier receipts* tab of the *Purchasing* module and, therefore, cannot be released.
+A supplier receipt has been entered in the system but is not displayed in the *CHECK SUPPLIER RECEIPTS* tab of the *Purchasing* module and, therefore, cannot be released.
 
 Follow the instructions below to check and modify the supplier settings in the *Accounting* module.
 
@@ -26,7 +26,7 @@ A supplier receipt has been entered in the system, see [Acquire a supplier recei
 
   ![Overview](../../Assets/Screenshots/RetailSuiteAccounting/Book/SupplierReceiptsOverview01.png "[Overview]")
 
-2. Check the supplier number for the missing supplier receipt and switch to the *Customer/supplier* tab: *Accounting > Settings > DEBTORS/CREDITORS*.    
+2. Check the supplier number for the missing supplier receipt and switch to the *Customer/supplier* tab: *Accounting > Settings > Tab DEBTORS/CREDITORS*.    
   The *DEBTORS/CREDITORS* tab is displayed. By default, the *Customer/Supplier list* tab is preselected.
 
   ![Customer/supplier list](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/CustomerSupplierList.png "[Customer/supplier list]")
@@ -49,12 +49,12 @@ A supplier receipt has been entered in the system, see [Acquire a supplier recei
 
   ![CRM data saved](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/CRMDataSaved.png "[CRM data saved]")
 
-7. Switch to the *Purchasing* module: *Purchasing > Check supplier receipts*.   
+7. Switch to the *Purchasing* module: *Purchasing > Check supplier receipts > Tab CHECK SUPPLIER RECEIPTS*.   
   The *Check supplier receipts* menu entry is opened. The *CHECK SUPPLIER RECEIPTS* tab with the corresponding supplier receipt is displayed.
 
   ![Check supplier receipt](../../Assets/Screenshots/RetailSuiteAccounting/Book/CheckSupplierReceipts01.png "[Check supplier receipt]")
 
-[comment]: <> (Link to continue process -> 10_ManageReceipts.md#Release a supplier receipt in Purchasing?)
+8. To continue with the release process, see [Release a supplier receipt](../Operation/10_ManageReceipts.md#release-a-supplier-receipt-in-purchasing).
 
 
 ## Was this chapter helpful?
