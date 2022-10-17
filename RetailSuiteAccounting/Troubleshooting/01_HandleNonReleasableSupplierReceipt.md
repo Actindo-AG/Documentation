@@ -62,7 +62,7 @@ Follow the instructions below to check and modify the supplier settings in the *
 
 [comment]: <> (Evtl. Schritt 7 weglassen? Scheint überflüssig zu sein, denn es ist der Ausgangspunkt der Release a supplier receipt in Purchasing - Link im Schritt 8. Gleiches Gilt für 02_DisplayMissingSupplierReceipt. 7 weglassen?)  
 
-8. To continue with the release process, see [Release a supplier receipt](../Operation/10_ManageReceipts.md#release-a-supplier-receipt-in-purchasing).
+8. To continue with the release process, see [Release a supplier receipt in Purchasing](../Operation/10_ManageReceipts.md#release-a-supplier-receipt-in-purchasing).
 
 [comment]: <> (Es gibt eine dritte mögliche Meldung im Purchasing Modul, wenn keine der beiden Checkboxen ausgewählt sind: Zuweisung des Wareneingangs beim Lieferanten ist optional. Info dazu? Man kann trotzdem den Lieferantenbeleg freigeben)
 
