@@ -54,7 +54,7 @@ A supplier receipt has been entered in the system, see [Acquire a supplier recei
 
   ![Check supplier receipt](../../Assets/Screenshots/RetailSuiteAccounting/Book/CheckSupplierReceipts01.png "[Check supplier receipt]")
 
-8. To continue with the release process, see [Release a supplier receipt](../Operation/10_ManageReceipts.md#release-a-supplier-receipt-in-purchasing).
+8. To continue with the release process, see [Release a supplier receipt in Purchasing](../Operation/10_ManageReceipts.md#release-a-supplier-receipt-in-purchasing).
 
 
 ## Was this chapter helpful?
