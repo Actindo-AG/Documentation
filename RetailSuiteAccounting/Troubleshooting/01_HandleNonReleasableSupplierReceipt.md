@@ -7,13 +7,7 @@ Check and, if necessary, modify the supplier settings to release a supplier rece
 
 #### Error Description
 
-A supplier receipt has been entered in the system, is displayed in the *Check supplier receipts* tab of the *Purchasing* module but cannot be released in the *Purchasing* module.
-
-[comment]: <> (Check! Entweder oder? Kann sonst immer freigegeben werden? Work in progress...)
-
-The *No items links* window is displayed in the *Check supplier receipts* in the *Purchasing* module.
-
-  ![No items linked](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/NoItemsLinked.png "[No items linked]")
+When trying to release a supplier receipt, the *No items linked* window with the notice *Please link items first* is displayed in the *CHECK SUPPLIER RECEIPTS* tab in the *Check supplier receipts* menu entry of the *Purchasing* module.
 
 Follow the instructions below to check and modify the supplier settings in the *Accounting* module.
 
@@ -22,14 +16,16 @@ Follow the instructions below to check and modify the supplier settings in the *
 - A supplier receipt has been entered in the system, see [Acquire a supplier receipt](../Operation/10_ManageReceipts.md#acquire-a-supplier-receipt).
 - The supplier receipt to be released is displayed in the *Check supplier receipts*, see [Display a missing supplier receipt](./02.DisplayMissingSupplierReceipt.md).
 
+[comment]: <> (Diese Prerequisites machen hier vielleicht nicht so viel Sinn, denn beide sind Voraussetzungen, damit man überhaupt auf das Error kommt. So lassen oder No prerequisites to fulfill?)
+
 #### Procedure
 
 *Accounting > Post > Button EDIT > Menu entry Supplier receipts > Tab Overview*
 
   ![Overview](../../Assets/Screenshots/RetailSuiteAccounting/Book/SupplierReceiptsOverview01.png "[Overview]")
 
-1. Check the supplier number for the missing supplier receipt in the list of supplier receipts and switch to the *Customer/supplier* tab: *Accounting > Settings > DEBTORS/CREDITORS*.    
-    The *DEBTORS/CREDITORS* tab is displayed. By default, the *Customer/Supplier list* tab is preselected.
+1. Check the supplier number for the non-releasable supplier receipt in the *Overview* tab and switch to the *Customer/supplier* tab: *Accounting > Settings > DEBTORS/CREDITORS*.    
+  The *DEBTORS/CREDITORS* tab is displayed. By default, the *Customer/Supplier list* tab is preselected.
 
   ![Customer/supplier list](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/CustomerSupplierList.png "[Customer/supplier list]")
 
@@ -39,52 +35,37 @@ Follow the instructions below to check and modify the supplier settings in the *
 3. Click the *Invoicing* sub-tab in the *Supplier "Supplier number"* tab.
   The *Invoicing* sub-tab is displayed.
 
-  ![Invoicing](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/Billing02.png "[Invoicing]")
+  ![Invoicing](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/GoodsReceiptNecessary.png "[Invoicing]")
 
-4. Make sure that the *Only cost supplier/ordering process inactive* and *Goods receipt required* checkboxes in the *Default values* section are correctly configured.
+4. Deselect the *Goods receipt required* checkbox in the *Default values* section.
 
-  > [Info] You can hover the mouse over the checkboxes to display the tool tips.   
-  For detailed information about the single fields, see [Invoicing](../UserInterface/02a_DebtorsCreditors.md#invoicing).
+  > [Info] If both *Goods receipt required* and *Only cost supplier/ordering process inactive* checkboxes are selected, the *Goods receipt required* is locked. Deselect the *Only cost supplier/ordering process inactive* checkbox first in order to deselect the *Goods receipt required* checkbox.  
+  You can hover the mouse over the checkboxes to display the tool tips. For detailed information about these fields, see [Invoicing](../UserInterface/02a_DebtorsCreditors.md#invoicing).
 
-[comment]: <> (was ist denn die korrekte Einstellung? Gibt es da eine Vorgabe? Die zweite Checkbox ist bei mir gesperrt und kann gar nicht bearbeitet werden...)
+[comment]: <> (FH/Reviewer: Macht das überhaupt Sinn, dass beide Checkboxen gleichzeitig ausgewählt sind?)
 
+5. If necessary, select the *Only cost supplier/ordering process inactive*.
 
-5. Click the *CRM information* sub-tab in the *Supplier "Supplier number"* tab.  
-  The *CRM information* sub-tab is displayed.
+  > [Info] This checkbox is only applicable if the supplier is a provider delivering a service, for example an internet provider. In this case, no items need to be linked in the *Purchasing* module to release a supplier receipt (the items section is, in fact, completely locked for the selected supplier).
 
-  ![Supplier CRM information](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/CRMInformation02b.png "[Supplier CRM information]")
+  ![Invoicing](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/OnlyCostSupplier.png "[Invoicing]")
 
-6. Click the *Supervisor* drop-down list and select the applicable responsible person in the *General* section.  
+6. Click the [SAVE] button.  
+  The changes in the invoicing information have been saved. The *Successfully saved* pop-up window is displayed.
 
-  > [Info] The supplier receipt to be released is only displayed in the *Purchasing* module to the supervisor configured in the supplier settings.
+  ![Invoicing data saved](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/InvoicingDataSaved.png "[Invoicing data saved]")
 
-7. Click the [SAVE] button.  
-  The changes in the supplier settings have been saved. Depending on the changes made, one or several *Successfully saved* pop-up windows are displayed.
+7. Switch to the *Purchasing* module: *Purchasing > Check supplier receipts > Tab CHECK SUPPLIER RECEIPTS*.   
+  The *Check supplier receipts* menu entry is opened. The *CHECK SUPPLIER RECEIPTS* tab with the supplier receipt is displayed.
 
-  ![Data saved](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/InvoicingCRMDataSaved.png "[Data saved]")
+  ![Check supplier receipts](../../Assets/Screenshots/RetailSuiteAccounting/Book/CheckSupplierReceipts01.png "[Check supplier receipts]")
 
-8. Switch to the *Purchasing* module: *Purchasing > Check supplier receipts* .   
-    The *Check the supplier receipts* menu entry is opened. The *CHECK THE SUPPLIER RECEIPTS* tab with the supplier receipt is displayed.
+[comment]: <> (Evtl. Schritt 7 weglassen? Scheint überflüssig zu sein, denn es ist der Ausgangspunkt der Release a supplier receipt in Purchasing - Link im Schritt 8. Gleiches Gilt für 02_DisplayMissingSupplierReceipt. 7 weglassen?)  
 
-  ![Faulty process](../../Assets/Screenshots/RetailSuiteAccounting/Book/CheckSupplierReceipts01.png "[Faulty process]")
+8. To continue with the release process, see [Release a supplier receipt](../Operation/10_ManageReceipts.md#release-a-supplier-receipt-in-purchasing).
 
-[comment]: <> (Ist hier der Troubleshooting Teil nicht abgeschlossen? Problem war doch, dass der Beleg nicht angezeigt wurde. Jetzt ist er wieder da. Würde nur noch ne Info einfügen, dass der Beleg jetzt released werden kann und den Link zum entsprechenden Kapitel einfügen.)
+[comment]: <> (Es gibt eine dritte mögliche Meldung im Purchasing Modul, wenn keine der beiden Checkboxen ausgewählt sind: Zuweisung des Wareneingangs beim Lieferanten ist optional. Info dazu? Man kann trotzdem den Lieferantenbeleg freigeben)
 
-9. Click the receipt to be released in the list.
-The receipt entered in the system is displayed in the central section of the workspace.  
-
-  ![Faulty process](../../Assets/Screenshots/RetailSuiteAccounting/Book/CheckSupplierReceipts02.png "[Faulty process]")
-
-10. If the supplier receipt is found to be correct, click the [RELEASE] button. A confirmation window with the notice *Would you like to release the selected supplier receipt?* is displayed.
-
-  ![Confirmation window](../../Assets/Screenshots/RetailSuiteAccounting/Book/ReleaseSupplierReceipt.png "[Confirmation window]")
-
-11. Click the [YES] button in the confirmation window to proceed.
-The supplier receipt is no longer displayed in the *CHECK SUPPLIER RECEIPTS* tab.
-
-  > [Info] After it has been released in the *Purchasing* module, the supplier receipt status changes from *New* (red) to *Released* (yellow-green) in the *Status* column of the *Overview* tab of the *Supplier receipts* window.
-
-[comment]: <> (Drei letzte Punkte sind gleich wie "Release a supplier receipt in Purchasing" in 10_ManageReceipts.md#post-a-supplier-receipt. Verlinken oder so lassen? Prozedur geht dann weiter mit Financial accounting takeover. Schritt 12 mit Verlinkung dahin oder so lassen?)
 
 
 ## Was this chapter helpful?
