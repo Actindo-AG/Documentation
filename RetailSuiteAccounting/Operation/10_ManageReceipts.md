@@ -184,7 +184,7 @@ A context menu is displayed.
 
   > [Info] After you have entered at least three characters in the field, a list is displayed with all accounts matching the entry. You can also select the corresponding account in the list. Alternatively, click the drop-down list and select the applicable contra account.
 
-9. Click the *Payment target* drop-down list and select the appropriate payment target for the receipt. The payment target configured in the supplier settings, if any, is preselected, see [Invoicing](../UserInterface/02a_DebtorsCreditors.mdinvoicing).
+9. Click the *Payment target* drop-down list and select the appropriate payment target for the receipt. The payment target configured in the supplier settings, if any, is preselected, see [Invoicing](../UserInterface/02a_DebtorsCreditors.md#invoicing).
 
   > [Info] A split posting can also be performed with the [SPLIT] button, if necessary. For detailed information, see [Split a posting](./09_SplitBooking.md).
 
