@@ -1264,7 +1264,7 @@ By default, the data of the selected receipt is preset in the input line.
   - **6: Liquidity**
   - **20: Monthly balance**
 
-  > [Info] These evaluation reports are preconfigured in the system. All available reports can be completely customized or used as provided, and new reports can also be created. Any newly created reports will be displayed in the drop-down list. For detailed information about creating and managing BWA reports, see [Manage BWA reports](../Operation/07_ManageBWAReports.md).
+  > [Info] These evaluation reports are preconfigured in the system. All available reports can be completely customized or used as provided, and new reports can also be created. Any newly created reports will be displayed in the drop-down list. For detailed information about creating and managing BWA reports, see [Manage BWA reports](../Integration/07_ManageBWAReports.md).
 
 
 - *Layout*  
@@ -1309,7 +1309,7 @@ By default, the data of the selected receipt is preset in the input line.
 - *Cost object group*  
   Click the drop-down list to select a cost object group. If no cost object group is needed, select the option *0 - No group*.  
 
-  > [Info] For detailed information about creating and managing cost objects, see [COST ACCOUNTING](./02e_CostAccounting.md).
+  > [Info] For detailed information about creating and managing cost objects, see [Cost accounting](./02e_CostAccounting.md).
 
 
 - *BWA number*  
@@ -1320,7 +1320,7 @@ By default, the data of the selected receipt is preset in the input line.
   - **6: Liquidity**
   - **20: Monthly balance**
 
-  > [Info] These evaluation reports are preconfigured in the system. All available reports can be completely customized or used as provided, and new reports can also be created. Any newly created reports will be displayed in the drop-down list. For detailed information about creating and managing BWA reports, see [Manage BWA reports](../Operation/07_ManageBWAReports.md).
+  > [Info] These evaluation reports are preconfigured in the system. All available reports can be completely customized or used as provided, and new reports can also be created. Any newly created reports will be displayed in the drop-down list. For detailed information about creating and managing BWA reports, see [Manage BWA reports](../Integration/07_ManageBWAReports.md).
 
 - *Layout*  
   Click the drop-down list to select the desired layout. The following options are available:  
@@ -1355,7 +1355,7 @@ By default, the data of the selected receipt is preset in the input line.
 - *Cost object group*  
   Click the drop-down list to select a cost object group. All available cost object groups are displayed in the list.
 
-  > [Info] For detailed information about creating and managing cost objects, see [COST ACCOUNTING](./02e_CostAccounting.md).
+  > [Info] For detailed information about creating and managing cost objects, see [Cost accounting](./02e_CostAccounting.md).
 
 
 - *BWA number*  
@@ -1366,7 +1366,7 @@ By default, the data of the selected receipt is preset in the input line.
   - **6: Liquidity**
   - **20: Monthly balance**
 
-  > [Info] These evaluation reports are preconfigured in the system. All available reports can be completely customized or used as provided, and new reports can also be created. Any newly created reports will be displayed in the drop-down list. For detailed information about creating and managing BWA reports, see [Manage BWA reports](../Operation/07_ManageBWAReports.md).
+  > [Info] These evaluation reports are preconfigured in the system. All available reports can be completely customized or used as provided, and new reports can also be created. Any newly created reports will be displayed in the drop-down list. For detailed information about creating and managing BWA reports, see [Manage BWA reports](../Integration/07_ManageBWAReports.md).
 
 - [CANCEL]  
   Click this button to cancel your selection. The *Cost object comparison* window is closed.

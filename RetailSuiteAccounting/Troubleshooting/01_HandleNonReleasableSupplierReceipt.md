@@ -14,7 +14,7 @@ Follow the instructions below to check and modify the supplier settings in the *
 #### Prerequisites
 
 - A supplier receipt has been entered in the system, see [Acquire a supplier receipt](../Operation/10_ManageReceipts.md#acquire-a-supplier-receipt).
-- The supplier receipt to be released is displayed in the *Check supplier receipts*, see [Display a missing supplier receipt](./02.DisplayMissingSupplierReceipt.md).
+- The supplier receipt to be released is displayed in the *Check supplier receipts*, see [Display a missing supplier receipt](./02_DisplayMissingSupplierReceipt.md).
 
 [comment]: <> (Diese Prerequisites machen hier vielleicht nicht so viel Sinn, denn beide sind Voraussetzungen, damit man überhaupt auf das Error kommt. So lassen oder No prerequisites to fulfill?)
 

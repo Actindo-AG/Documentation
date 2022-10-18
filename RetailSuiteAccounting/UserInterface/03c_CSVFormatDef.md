@@ -7,7 +7,7 @@
 > [Info] This tab can also be accessed in the *Import/export definitions* window via the following tabs in the user interface:
 - [IMPORT](./03a_Import.md#importexport-definitions)
 - [EXPORT](./03b_Export.md#importexport-definitions)
-- [DEBTORS/CREDITORS](.02a_DebtorsCreditors.md#importexport-definitions)
+- [DEBTORS/CREDITORS](./02a_DebtorsCreditors.md#importexport-definitions)
 
 
 **Name**
