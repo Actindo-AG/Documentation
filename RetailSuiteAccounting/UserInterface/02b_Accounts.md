@@ -168,7 +168,7 @@ The input fields below allow to create, edit or delete accounts. For detailed in
     The account is configured for income received as a result of transactions in foreign currencies and exchange rate differences.
 
 
-[comment]: <> (FS: Bitte Inhalt der Funktionen prüfen! Info fehlt: Vorverrechnungskonto)
+[comment]: <> (FS: Bitte Inhalt der Funktionen prüfen!)
 
 - *Collective account*  
   Enter the account number range for the accounts whose transactions will be registered in the collective account. The drop-down list is only displayed if the **(DA) Debtor collective account** or the **(CA) Creditor collective account** option is selected in the *Special features* drop-down list.

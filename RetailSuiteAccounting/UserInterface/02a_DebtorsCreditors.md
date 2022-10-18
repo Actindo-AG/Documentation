@@ -1819,8 +1819,6 @@ The list displays all additional fields. Depending on the settings, the displaye
 
 Click the [CREATE] button to display the *Add* section or select the checkbox of an additional field to display the *Edit* section. The fields in the *Add* and the *Edit* section are identical.
 
-[comment]: <> (Bilder ändern sich nach Type? Alle abgebildet? Mehrere Bilder Grouppieren? -> Snagit RS HG)
-
 - *Field ID*  
   Enter the field ID. The field ID must contain at least two characters. Only a-z und 0-9 can be used.
 
@@ -1905,8 +1903,6 @@ Click the [CREATE] button to display the *Add* section or select the checkbox of
 *Accounting > Settings > Tab DEBTORS/CREDITORS > Button Back*
 
 ![Loyalty cards](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/LoyaltyCards.png "[Loyalty cards]")
-
-[comment]: <> (HG: Ab hier Korrektur gelesen?)
 
 **Loyalty card printing**
 

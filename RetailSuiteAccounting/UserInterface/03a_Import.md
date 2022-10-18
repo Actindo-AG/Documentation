@@ -564,7 +564,7 @@ For a detailed description of this window and the corresponding functions, see [
 
 ![Select file](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/SelectFile.png "[Select file]")
 
-> [Info] This window can also be accessed via the [Debtors/creditors](./02a_DebtorsCreditors.md#select-file) tab in the user interface.
+> [Info] This window can also be accessed via the [DEBTORS/CREDITORS](./02a_DebtorsCreditors.md#select-file) tab in the user interface.
 
 
 - *Name*  

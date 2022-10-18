@@ -186,11 +186,9 @@ An individual posting from the cash book can be selected and partially edited be
   Click this button to clear all input line fields.
 
 - [SPLIT]    
-  Click this button to split the selected posting.
+  Click this button to split the selected posting. The *Split posting* window is displayed, see [Split posting](#split-posting).
 
-  [comment]: <> (The window "Split posting" is displayed, see ... hinzufügen? Splitbuchungfunktion scheint hier nicht zu funktionieren.  Bug? Fenster trotzdem hinzufügen?)
-
-  [comment]: <> (Fehlermeldungen: beim klicking auf SPLIT -> Unbekannte Bankbuchung. Wenn man versucht, eine Splitbuchung zu machen -> Meldung: Gebucht und in rot "Umsatz, GegKonto, Datum oder Konto leer! Ungültiges Datum!" Alle Felder sind aber richtig ausgefüllt, jetzt zeigen sie aber alle 0, außer Beleg 1, GegKonto und Text)
+  [comment]: <> (Splitbuchungfunktion scheint hier nicht zu funktionieren. Bug? Fehlermeldungen: beim klicking auf SPLIT -> Unbekannte Bankbuchung. Wenn man versucht, eine Splitbuchung zu machen -> Meldung: Gebucht und in rot "Umsatz, GegKonto, Datum oder Konto leer! Ungültiges Datum!" Alle Felder sind aber richtig ausgefüllt, jetzt zeigen sie aber alle 0, außer Beleg 1, GegKonto und Text)
 
 - [SAVE]    
   Click this button to take over the selected postings. The button is only unlocked if at least one posting is selected.
@@ -198,6 +196,13 @@ An individual posting from the cash book can be selected and partially edited be
 - [CANCEL]    
   Click this button to cancel any changes. A confirmation window is displayed. Click the [OK] button to close the *Cash book takeover* window.
 
+### Split posting
+
+*Accounting > Post > Button EDIT > Menu entry Cash book takeover > Button SPLIT*
+
+For a detailed description of the contained elements and the corresponding functions, see [Split posting](./01_InputLine.md#split-posting).
+
+[comment]: <> (HG: H3, d.h. in TOC, hier oder weiter unten und H4?)
 
 ## Bank data takeover  
 
@@ -877,6 +882,7 @@ The input line is unlocked if at least one checkbox is selected.
 
 ![Attached document](../../Assets/Screenshots/RetailSuiteAccounting/Book/Bookings/AttachedDocument.png "[Attached document]")
 
+> [Info] This window can also be accessed via the [ACCOUNT SHEET](./01c_AccountSheet.md#attached-document) tab in the user interface.
 
 **/Folder/Document file name Page x**  
 This path displays the file location, name and page.

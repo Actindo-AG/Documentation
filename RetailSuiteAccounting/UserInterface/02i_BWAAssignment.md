@@ -74,8 +74,6 @@ Click the drop-down list to select the predefined system report to be copied. Th
 
 ## Create report
 
-[comment]: <> (Header Namensänderung anpassen in TOC)
-
 *Accounting > Settings > Tab BWA ASSIGNMENT > Button Add*
 
 ![Create BWA report](../../Assets/Screenshots/RetailSuiteAccounting/Settings/BWAAssignment/CreateBWAReport.png "[Create BWA report]")
@@ -95,8 +93,6 @@ Enter a report name.
 
 
 ## Edit "Report ID"
-
-[comment]: <> (Header Namensänderung anpassen in TOC)
 
 *Accounting > Settings > Tab BWA ASSIGNMENT > Select accounting report*
 
@@ -184,8 +180,6 @@ If no report line has been yet added, the notice *No report lines created. Use +
 
 ## Create report line
 
-[comment]: <> (Header Namensänderung anpassen in TOC)
-
 *Accounting > Settings > Tab BWA ASSIGNMENT > Select accounting report > Button Add*
 
 ![Create report lines](../../Assets/Screenshots/RetailSuiteAccounting/Settings/BWAAssignment/CreateReportLines.png "[Create report lines]")
@@ -213,7 +207,7 @@ If no report line has been yet added, the notice *No report lines created. Use +
   - **New page**  
     Select this option to start a new page in the output file.
 
-[comment]: <> (Output heißt Print im Bericht/Report. Etwas verwirrend.)
+[comment]: <> (Output heißt Print im Bericht/Report. Verwirrend.)
 
 - *Chart type*  
   Click the drop-down list to select the desired chart type for the current line. This drop-down list is mandatory. The following options are available:  
@@ -257,7 +251,6 @@ Click the drop-down list to select the desired function for the current line. Th
 
 ## Edit "Report line ID"
 
-[comment]: <> (Header Namensänderung anpassen in TOC)
 
 *Accounting > Settings > Tab BWA ASSIGNMENT > Select accounting report > Select accounting report line > Button Edit*
 
