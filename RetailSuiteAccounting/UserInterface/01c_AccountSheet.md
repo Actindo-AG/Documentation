@@ -12,7 +12,7 @@ You can either select an account in the *POSTINGS* tab and switch to the *ACCOUN
 
 If a contra account number is specified in the *Contra account* field of the input line, the account sheet for the corresponding contra account is displayed. If no contra account number is entered, but an account number is specified in the *Account* field of the input line, the account sheet for the corresponding account is displayed.
 
-In all tabs of the *Post* menu entry, an identical header is displayed. For detailed information on the contained elements and the corresponding functions, see [Header](./01_Header.md).
+In all tabs of the *Post* menu entry, an identical header is displayed. For detailed information on the contained elements and the corresponding functions, see [Postings header](./01_Header.md).
 
 
 - ![Previous](../../Assets/Icons/Previous.png "[Previous]") (Previous)
@@ -80,7 +80,7 @@ The list displays all postings for the selected account whose number and name ar
 - *Show (all/the last [XXX]) postings*    
   Click the drop-down list to select the preferred display filter.
 
-In all tabs of the *Post* menu entry, an identical footer with the input line is displayed. For detailed information on the contained elements and the corresponding functions, see [Input line](./01_InputLine.md).
+In all tabs of the *Post* menu entry, an identical footer with the input line is displayed. For detailed information on the contained elements and the corresponding functions, see [Postings input line](./01_InputLine.md).
 
 
 ## Attached document

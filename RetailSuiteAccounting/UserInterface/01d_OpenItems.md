@@ -18,7 +18,7 @@ If a contra account number is specified in the *Contra account* field of the inp
 
 If no open items exist for the selection, the notice *No open items exist* is displayed.
 
-In all tabs of the *Post* menu entry, an identical header is displayed. For detailed information on the contained elements and the corresponding functions, see [Header](./01_Header.md).
+In all tabs of the *Post* menu entry, an identical header is displayed. For detailed information on the contained elements and the corresponding functions, see [Postings header](./01_Header.md).
 
 - ![Previous](../../Assets/Icons/Previous.png "[Previous]") (Previous)   
   Click this button to display the open items of the previous available account number.
@@ -95,7 +95,7 @@ Above the corresponding open items in the list, the number, name and currency of
 - [CANCEL CLEARING]  
   Click this button to reverse the manual clearance for the selected items. This button is only displayed if the *Show manually cleared open items* radio button is selected.
 
-In all tabs of the *Post* menu entry, an identical footer with the input line is displayed. In the *Open items* tab, the input line serves the only purpose of selecting an account if no posting is selected in the *POSTINGS* tab. For detailed information on the contained elements and the corresponding functions, see [Input line](./01_InputLine.md).
+In all tabs of the *Post* menu entry, an identical footer with the input line is displayed. In the *Open items* tab, the input line serves the only purpose of selecting an account if no posting is selected in the *POSTINGS* tab. For detailed information on the contained elements and the corresponding functions, see [Postings input line](./01_InputLine.md).
 
 
 ## Attached document

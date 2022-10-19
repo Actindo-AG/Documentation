@@ -6,7 +6,7 @@
 
 The *POSTINGS* tab displays all existing postings in the selected posting period in chronological order. The posting details displayed in columns are read-only.
 
-In all tabs of the *Post* menu entry, an identical header is displayed. For detailed information on the contained elements and the corresponding functions, see [Header](./01_Header.md).
+In all tabs of the *Post* menu entry, an identical header is displayed. For detailed information on the contained elements and the corresponding functions, see [Postings header](./01_Header.md).
 
 **Postings list**
 
@@ -51,7 +51,7 @@ Click the drop-down list to select the preferred display filter.
 - *Text*  
   Posting text.
 
-In all tabs of the *Post* menu entry, an identical footer with the input line is displayed. For detailed information on the contained elements and the corresponding functions, see [Input line](./01_InputLine.md).
+In all tabs of the *Post* menu entry, an identical footer with the input line is displayed. For detailed information on the contained elements and the corresponding functions, see [Postings input line](./01_InputLine.md).
 
 
 ## Attached document

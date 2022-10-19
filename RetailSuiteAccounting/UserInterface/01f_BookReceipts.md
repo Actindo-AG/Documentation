@@ -8,7 +8,7 @@ The *POST RECEIPTS* tab allows to assign manually external receipts uploaded in 
 
 All external receipts uploaded in the *New documents* folder in the *Documents* module are displayed in the *POST RECEIPTS* tab. If there are no receipts to be posted, the notice *No documents left to be registered* is displayed.
 
-In all tabs of the *Post* menu entry, an identical header is displayed. For detailed information on the contained elements and the corresponding functions, see [Header](./01_Header.md).
+In all tabs of the *Post* menu entry, an identical header is displayed. For detailed information on the contained elements and the corresponding functions, see [Postings header](./01_Header.md).
 
 
 **/New Documents/"Document file name" Page x**  
@@ -40,4 +40,4 @@ This path displays the file location, name and page.
 
 A miniature view of the selected document is displayed in the bottom right corner of the workspace.
 
-In all tabs of the *Post* menu entry, an identical footer with the input line is displayed. For detailed information on the contained elements and the corresponding functions, see [Input line](./01_InputLine.md).
+In all tabs of the *Post* menu entry, an identical footer with the input line is displayed. For detailed information on the contained elements and the corresponding functions, see [Postings input line](./01_InputLine.md).
