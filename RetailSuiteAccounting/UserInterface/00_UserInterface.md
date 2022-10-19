@@ -158,9 +158,8 @@
   - [Schilling Accounting](./03a_Import.md#schilling-accounting)
     - [Schilling Accounting: Step 1](./03a_Import.md#schilling-accounting-step-1)
     - [Schilling Accounting: Step 2](./03a_Import.md#schilling-accounting-step-2)
-
-    - [Import/export definitions](./03a_Import.md#importexport-definitions)
-    - [Select file](./03a_Import.md#select-file)
+  - [Import/export definitions](./03a_Import.md#importexport-definitions)
+  - [Select file](./03a_Import.md#select-file)
 
 - [EXPORT](./03b_Export.md)
   - [BMD](./03b_Export.md#bmd)
