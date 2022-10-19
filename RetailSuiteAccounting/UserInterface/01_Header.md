@@ -186,17 +186,21 @@ An individual posting from the cash book can be selected and partially edited be
   Click this button to clear all input line fields.
 
 - [SPLIT]    
-  Click this button to split the selected posting.
+  Click this button to split the selected posting. The *Split posting* window is displayed, see [Split posting](#split-posting).
 
-  [comment]: <> (The window "Split posting" is displayed, see ... hinzufügen? Splitbuchungfunktion scheint hier nicht zu funktionieren.  Bug? Fenster trotzdem hinzufügen?)
-
-  [comment]: <> (Fehlermeldungen: beim klicking auf SPLIT -> Unbekannte Bankbuchung. Wenn man versucht, eine Splitbuchung zu machen -> Meldung: Gebucht und in rot "Umsatz, GegKonto, Datum oder Konto leer! Ungültiges Datum!" Alle Felder sind aber richtig ausgefüllt, jetzt zeigen sie aber alle 0, außer Beleg 1, GegKonto und Text)
+  [comment]: <> (Splitbuchungfunktion scheint hier nicht zu funktionieren. Bug? Fehlermeldungen: beim klicking auf SPLIT -> Unbekannte Bankbuchung. Wenn man versucht, eine Splitbuchung zu machen -> Meldung: Gebucht und in rot "Umsatz, GegKonto, Datum oder Konto leer! Ungültiges Datum!" Alle Felder sind aber richtig ausgefüllt, jetzt zeigen sie aber alle 0, außer Beleg 1, GegKonto und Text)
 
 - [SAVE]    
   Click this button to take over the selected postings. The button is only unlocked if at least one posting is selected.
 
 - [CANCEL]    
   Click this button to cancel any changes. A confirmation window is displayed. Click the [OK] button to close the *Cash book takeover* window.
+
+### Split posting
+
+*Accounting > Post > Button EDIT > Menu entry Cash book takeover > Button SPLIT*
+
+For a detailed description of the contained elements and the corresponding functions, see [Split posting](./01_InputLine.md#split-posting).
 
 
 ## Bank data takeover  
@@ -415,7 +419,7 @@ An individual posting from the cash book can be selected and partially edited be
 
 ## Supplier receipts
 
-### Acquire a receipt
+### Acquire a supplier receipt
 
 *Accounting > Post > Button EDIT > Menu entry Supplier receipts > Tab Acquire*
 
@@ -877,6 +881,7 @@ The input line is unlocked if at least one checkbox is selected.
 
 ![Attached document](../../Assets/Screenshots/RetailSuiteAccounting/Book/Bookings/AttachedDocument.png "[Attached document]")
 
+> [Info] This window can also be accessed via the [ACCOUNT SHEET](./01c_AccountSheet.md#attached-document) tab in the user interface.
 
 **/Folder/Document file name Page x**  
 This path displays the file location, name and page.
@@ -1258,7 +1263,7 @@ By default, the data of the selected receipt is preset in the input line.
   - **6: Liquidity**
   - **20: Monthly balance**
 
-  > [Info] These evaluation reports are preconfigured in the system. All available reports can be completely customized or used as provided, and new reports can also be created. Any newly created reports will be displayed in the drop-down list. For detailed information about creating and managing BWA reports, see [Manage BWA reports](../Operation/07_ManageBWAReports.md).
+  > [Info] These evaluation reports are preconfigured in the system. All available reports can be completely customized or used as provided, and new reports can also be created. Any newly created reports will be displayed in the drop-down list. For detailed information about creating and managing BWA reports, see [Manage BWA reports](../Integration/07_ManageBWAReports.md).
 
 
 - *Layout*  
@@ -1303,7 +1308,7 @@ By default, the data of the selected receipt is preset in the input line.
 - *Cost object group*  
   Click the drop-down list to select a cost object group. If no cost object group is needed, select the option *0 - No group*.  
 
-  > [Info] For detailed information about creating and managing cost objects, see [COST ACCOUNTING](./02e_CostAccounting.md).
+  > [Info] For detailed information about creating and managing cost objects, see [Cost accounting](./02e_CostAccounting.md).
 
 
 - *BWA number*  
@@ -1314,7 +1319,7 @@ By default, the data of the selected receipt is preset in the input line.
   - **6: Liquidity**
   - **20: Monthly balance**
 
-  > [Info] These evaluation reports are preconfigured in the system. All available reports can be completely customized or used as provided, and new reports can also be created. Any newly created reports will be displayed in the drop-down list. For detailed information about creating and managing BWA reports, see [Manage BWA reports](../Operation/07_ManageBWAReports.md).
+  > [Info] These evaluation reports are preconfigured in the system. All available reports can be completely customized or used as provided, and new reports can also be created. Any newly created reports will be displayed in the drop-down list. For detailed information about creating and managing BWA reports, see [Manage BWA reports](../Integration/07_ManageBWAReports.md).
 
 - *Layout*  
   Click the drop-down list to select the desired layout. The following options are available:  
@@ -1349,7 +1354,7 @@ By default, the data of the selected receipt is preset in the input line.
 - *Cost object group*  
   Click the drop-down list to select a cost object group. All available cost object groups are displayed in the list.
 
-  > [Info] For detailed information about creating and managing cost objects, see [COST ACCOUNTING](./02e_CostAccounting.md).
+  > [Info] For detailed information about creating and managing cost objects, see [Cost accounting](./02e_CostAccounting.md).
 
 
 - *BWA number*  
@@ -1360,7 +1365,7 @@ By default, the data of the selected receipt is preset in the input line.
   - **6: Liquidity**
   - **20: Monthly balance**
 
-  > [Info] These evaluation reports are preconfigured in the system. All available reports can be completely customized or used as provided, and new reports can also be created. Any newly created reports will be displayed in the drop-down list. For detailed information about creating and managing BWA reports, see [Manage BWA reports](../Operation/07_ManageBWAReports.md).
+  > [Info] These evaluation reports are preconfigured in the system. All available reports can be completely customized or used as provided, and new reports can also be created. Any newly created reports will be displayed in the drop-down list. For detailed information about creating and managing BWA reports, see [Manage BWA reports](../Integration/07_ManageBWAReports.md).
 
 - [CANCEL]  
   Click this button to cancel your selection. The *Cost object comparison* window is closed.

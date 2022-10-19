@@ -30,9 +30,11 @@ A context menu is displayed.
 2. Click the *Balance carried forward...* menu entry in the context menu.     
   The *Balance carried forward: step 1* window is displayed.
 
+  > [Info] The *Cost accounting* field is displayed only when cost centers and/or cost objects have been created in the fiscal year from which the balance is carried forward.
+
   ![Balance carried forward: step 1](../../Assets/Screenshots/RetailSuiteAccounting/Book/BalanceCarriedForward01.png "[Balance carried forward: step 1]")  
 
-  [comment]: <> (The *Cost accounting* field is displayed only when cost centers and/or cost objects have been created in the fiscal year from which the balance is carried forward.)
+
 
 3. Click the *Carry forward from FY* drop-down list and select the appropriate fiscal year. All available fiscal years prior to the currently selected fiscal year are displayed in the list.
 
@@ -46,7 +48,7 @@ A context menu is displayed.
 
   > [Info] Previously balances carried forward will be then replaced by the new balances carried forward. The original posting in the previous fiscal year is not deleted though.
 
-[comment]: <> (Was genau passiert dann? Wird empfohlen, das zu machen? Oder könnte das Probleme geben, weil Daten gelöscht werden? Weitere Info notwendig. -> Die ursprüngliche Buchung wird nicht gelöscht, nur die Buchung, die als Saldovortrag, also im Journal 98, angezeigt wird. Der neue Saldovortrag wird dann angezeigt.)
+[comment]: <> (Stimmt das so?)
 
 8. Click the [CONTINUE] button.  
 The *Retrieve account balances* window is displayed.
@@ -63,7 +65,6 @@ The *Carry balances forward* window is displayed. The pop-up window *Balance car
 
   ![Balance carried forward completed](../../Assets/Screenshots/RetailSuiteAccounting/Book/BalanceCarriedForwardCompleted02.png "[Balance carried forward completed]")
 
-  [comment]: <> (Wenn keine Kostenrechnung vorgetragen, pop-window zeigt nur Saldovortrag durchgeführt an. S. Screenshot BalanceCarriedForwardCompleted01. Welches verwenden?)
 
 11. Click the [CLOSE] button.  
 The *Carry balances forward* window is closed.

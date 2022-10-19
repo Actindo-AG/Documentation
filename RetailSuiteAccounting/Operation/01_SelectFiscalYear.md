@@ -1,13 +1,30 @@
-[!!User Interface Select fiscal year](../UserInterface/00a_FiscalYear.md)  
-[!!User Interface FY/MONTH/JOURNAL](../UserInterface/01_Book.md#fymonthjournal)  
-[!!User Interface Fixed postings](../UserInterface/02f_FixedBookings.md)  
-[!!Manage the fixed postings](../Integration/06_ManageFixedBookings.md)  
+[!!User Interface Select fiscal year](../UserInterface/00a_FiscalYear.md)
+[!!User Interface Settings fiscal years](../UserInterface/02d_FiscalYears.md)
+[!!User Interface Postings header](../UserInterface/./01_Header.md)
+[!!User Interface Fixed postings](../UserInterface/02f_FixedBookings.md)
+[!!Manage the fiscal year](../Integration/04_ManageFiscalYear.md)
+[!!Manage the fixed postings](../Integration/06_ManageFixedBookings.md)
 
 
 
 # Select the fiscal year
 
-When you open the *Accounting* module for the first time after login or after reloading the system, a window to select the fiscal year is displayed. You have to select the fiscal year, the month and the journal to display the postings in the corresponding period. You must have selected a fiscal year to perform any action in the *Accounting* module.
+A fiscal year is the period over which a company's accounts are calculated, which generally lasts 12 months and which may or may not coincide with the calendar year.
+
+A journal is a chronological record of all accounting transactions posted within a specified period of time. There are two main types of journals preconfigured in the system:
+
+  - General journals (1-12) are paired with the corresponding fiscal year months, regardless of whether the fiscal year coincides with the calendar year or not. This means that all transactions posted automatically in the first month of the fiscal year will be found in journal 1, all transactions posted in the second month of the fiscal year in the journal 2, and so on. Therefore, when selecting a posting period to perform a manual posting, make sure that the selected month and journal match.
+
+  - Special journals (90-99) are preconfigured in the system to post automatically open items and balances to be carried forward from a fiscal year to the next one. The special journals settings can be edited and extended in the *BALANCES CARRIED FORWARD* tab in the *Settings* menu entry. For detailed information, see [Balance carried forward](../UserInterface/02h_BalanceCarriedForward.md). Further journals can be created if necessary.
+
+Special months are also preconfigured in the system for special business transactions, such as balances carried forward or subsequent postings. For detailed information, see [Select fiscal year](../UserInterface/00a_FiscalYear.md).
+
+Journals and months are used to arrange a company's business transactions within a fiscal year. A particular posting period contains only the postings made in that specific period.
+
+
+## Starting the *Accounting* module
+
+When you open the *Accounting* module for the first time after logging or after reloading the system, a window to select the fiscal year is displayed. You have to select the fiscal year, the month and the journal to display the postings in the corresponding period. You must have selected a fiscal year to perform any action in the *Accounting* module.
 
 #### Prerequisites
 
@@ -25,14 +42,9 @@ When you open the *Accounting* module for the first time after login or after re
 
 2. Click the *Month* drop-down list and select a month. The selected month determines the posting period, this means, the period where the transaction is posted. The accounting month plays a determining role when generating system evaluations.
 
-  > [Info] Apart from the calendar months, special posting periods can also be selected to post balances carried forward, subsequent postings and closing postings. For detailed information, see [Select fiscal year](../UserInterface/00a_FiscalYear.md).
-
 3. Enter a journal number in the *Journal* field. The journal, or posting batch, is a superordinate criterion for the arrangement of postings. Selecting the correct journal is extremely important for the data exports. Alternatively, you can click the [LIST] button to display the *Journals* window with the available journals and the postings contained in each of them.
 
   ![Journals](../../Assets/Screenshots/RetailSuiteAccounting/Journals.png "[Journals]")
-
-  > [Info] Journals 1-12 are paired with the corresponding fiscal year months, regardless of whether the fiscal year coincides with the calendar year or not. This means that all transactions posted automatically in the first month of the fiscal year will be found in journal 1, all transactions posted in the second month of the fiscal year in the journal 2, and so on. Therefore, when selecting an accounting period to perform a manual posting, make sure that the selected month and journal match. Journals 90 to 99 are special journals preconfigured in the system to post automatically open items and balances to be carried forward from a fiscal year to the next one. The special journals settings can be edited and extended in the *BALANCES CARRIED FORWARD* tab in the *Settings* menu entry. For detailed information, see [Balance carried forward](../UserInterface/02h_BalanceCarriedForward.md). Further journals can be created if necessary.
-
 
 4. If required, select first the *Include fixed postings* checkbox and then a batch from the displayed list.
 
@@ -40,3 +52,28 @@ When you open the *Accounting* module for the first time after login or after re
 
 5. Click the [OK] button in the bottom right corner.   
   The postings registered in the selected posting period (fiscal year, month and journal) are displayed in the *POSTINGS* tab in the *Post* menu entry.  
+
+
+## Accessing postings from another period
+
+[comment]: <> (Evtl. Datei 13_AccessBookingsPeriod.md löschen. Info hier)
+
+Once a posting period has been selected, it is possible to change to a different one. Accessing postings from other periods may be necessary, for example, if a posting needs to be adjusted or if a transaction performed at a later stage must be manually posted in a specific period.
+
+#### Prerequisites
+
+- A valid fiscal year has been created, see [Create a fiscal year](../Integration/04_ManageFiscalYear.md#create-a-fiscal-year).
+- A fiscal year has been selected, see [Select fiscal year](./01_SelectFiscalYear.md).
+
+#### Procedure
+
+*Accounting > Post > Tab POSTINGS*
+
+![Postings](../../Assets/Screenshots/RetailSuiteAccounting/Book/Bookings/Bookings.png "[Postings]")
+
+1. Click the *FY/MONTH/JOURNAL* button in the postings header.  
+The *Select fiscal year* window is displayed.  
+
+  ![Select fiscal year](../../Assets/Screenshots/RetailSuiteAccounting/SelectFiscalYear.png "[Select fiscal year]")
+
+2. Follow the steps **1** to **5** described in the [Starting the *Accounting* module](#starting-the-accounting-module) section to select the desired posting period.

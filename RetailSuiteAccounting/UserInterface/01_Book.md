@@ -16,5 +16,5 @@ The *Post* User Interface is composed of the following tabs:
 
 
 Additionally, the header and the input line of all tabs in the *Post* menu entry are identical and described in the following chapters:
-- [Header](./01_Header.md)
-- [Input line](./01_InputLine.md)
+- [Postings header](./01_Header.md)
+- [Postings input line](./01_InputLine.md)

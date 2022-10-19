@@ -35,9 +35,6 @@ A filter list with the *Acc. no.* and *Description* entries is displayed.
 
   ![Search for an account](../../Assets/Screenshots/RetailSuiteAccounting/Book/Search/BookExtrasAccounts.png "[Search for an account]")
 
-  ![Search for an account](../../Assets/Screenshots/RetailSuiteAccounting/Book/Search/AccNoDescription.png "[Search for an account]")
-
-[comment]: <> (Erstes Bild muss ersetzt werden - ohne Wellen bzw. ohne zu kürzen. Oder alternativ, zweites Bild? Oder ganz ohne Bild? RS mit HG notwendig.)
 
 2.  If necessary, deselect the checkbox of the *Acc. no.* or *Description* entry to apply the search only to field of the selected option. By default, both options are selected and the all accounts containing the search text in either the *Acc.no.* or the *Description* field will be displayed in the search results.
 

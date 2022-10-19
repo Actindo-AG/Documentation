@@ -14,7 +14,7 @@ The *Accounting* module only works with the base currency configured in the syst
 - The corresponding personal and impersonal accounts are set up in the foreign currency, see [Manage accounts](../Integration/03_ManageAccounts.md).
 - The corresponding revenues and expenses accounts to book exchange rate differences are set up in the base currency, see [Create an account](../Integration/03_ManageAccounts.md#create-an-account).
 
-[comment]: <> (HG: Wird das in dem Kapitel beschrieben? Oder muss das noch ergänzt werden? -> 2150 - Aufw. aus Kursdifferenzen und 2660 Erträge aus Kursdifferenzen in SK03 standardmäßig verfügbar, Funktion aber noch einzustellen bzw. mindestens prüfen. Evtl. eine Prozedur in diesem Kapitel oder in Integration/Manage the accounts dazu hinzufügen, da es nicht so deutlich ist.)
+[comment]: <> (2150 - Aufw. aus Kursdifferenzen und 2660 Erträge aus Kursdifferenzen in SK03 standardmäßig verfügbar, Funktion aber noch einzustellen bzw. mindestens prüfen. Evtl. eine Prozedur in diesem Kapitel oder in Integration/Manage the accounts dazu hinzufügen?)
 
 #### Procedure
 
@@ -48,8 +48,6 @@ The *Foreign currency wizard* window is displayed.
   ![Foreign currency wizard](../../Assets/Screenshots/RetailSuiteAccounting/Book/ForeignCurrencyWizard02.png "[Foreign currency wizard]")
 
 4. Click the ![Calendar](../../Assets/Icons/Calendar.png "[Calendar]") button and select the desired date to post the difference.
-
-[comment]: <> (Oder eher durchgängig "calendar widget"?)
 
 5. Click the [CONTINUE] button.  
 The *Account selection* drop-down list is displayed.

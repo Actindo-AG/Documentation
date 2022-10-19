@@ -36,7 +36,7 @@ After being uploaded, the receipts are stored in the *New documents* folder in t
 - The *Documents* module has been installed.
 - A receipt has been uploaded in the *Documents* module.
 
-[comment]: <> (Ist PDF das einzige unterstütze Format? Nope, JPG und PNG auch. Andere Formate? Info dazu?)
+[comment]: <> (JPG und PNG anscheinend auch unterstützt. Andere Formate?)
 
 #### Procedure
 
@@ -50,10 +50,10 @@ The existing posting details are displayed in the input line fields.
 2. Click the [ASSIGN RECEIPT] button.  
 The *Attach Document* window is displayed.
 
+  > [Info] This button is only displayed if the *Documents* module is installed.
+
   ![Attach document](../../Assets/Screenshots/RetailSuiteAccounting/Book/Bookings/AttachDocument01.png "[Attach document]")
 
-[comment]: <> (Der button wird bei mir nicht angezeigt. Muss da eine bestimmte Einstellung vorgenommen werden, damit das angezeigt wird? Ich habe allerdings auch in der Sandbox Dokumente nicht installiert - ist das eine Voraussetzung? Muss dann auf jeden Fall mit in die Prerequisites, da das nicht als allgemeine Voraussetzung im Kapitel General drin ist...
-Ggf. nochmal Infos dazu einholen.)
 
 3. Click the *New documents* folder in the side bar.  
 All unassigned documents are displayed.
@@ -80,7 +80,6 @@ External receipts uploaded in the system and not yet registered can be assigned 
 - The *Documents* module has been installed.
 - A receipt has been uploaded in the *Documents* module.
 
-[comment]: <> (Ist PDF das einzige unterstützte Format? Nope, JPG und PNG auch. Andere Formate? Info dazu?)
 
 #### Procedure
 
@@ -133,7 +132,7 @@ Moreover, this function interacts with the *Purchasing* and *Payment processing*
 [comment]: <> (Evtl. Link zur Funktion Zahlungsvorschlagsliste - Skonto erkennen, automatischer Abzug des Kontos, usw.- in der Zahlungsabwicklung in diesem Unterkapitel hinzufügen, wenn verfügbar.)
 
 
-### Acquire
+### Acquire a supplier receipt
 
 You can enter a supplier receipt uploaded in the system and create and associated manual posting.  
 
@@ -184,7 +183,7 @@ A context menu is displayed.
 
   > [Info] After you have entered at least three characters in the field, a list is displayed with all accounts matching the entry. You can also select the corresponding account in the list. Alternatively, click the drop-down list and select the applicable contra account.
 
-9. Click the *Payment target* drop-down list and select the appropriate payment target for the receipt. The payment target configured in the supplier settings, if any, is preselected, see [Invoicing](../UserInterface/02a_DebtorsCreditors.mdinvoicing-1).
+9. Click the *Payment target* drop-down list and select the appropriate payment target for the receipt. The payment target configured in the supplier settings, if any, is preselected, see [Invoicing](../UserInterface/02a_DebtorsCreditors.md#invoicing).
 
   > [Info] A split posting can also be performed with the [SPLIT] button, if necessary. For detailed information, see [Split a posting](./09_SplitBooking.md).
 
@@ -202,9 +201,9 @@ To post a supplier receipt in the system, it needs to be released in the *Purcha
 
 #### Prerequisites
 
-- The supplier receipt has been entered in the system, see [Acquire](#acquire).
-- The supervisor is set to the person responsible for the receipt release in the *CRM information* tab in the suppliers' configuration, see [CRM information](../UserInterface/02a_DebtorsCreditors.md#crm-information-1).
-- The supplier settings are adjusted according to the service or product supplied, see *Default values* section in [Invoicing](02a_DebtorsCreditors.md#invoicing-1).   
+- The supplier receipt has been entered in the system, see [Acquire a supplier receipt](#acquire-a-supplier-receipt).
+- The supervisor is set to the person responsible for the receipt release in the *CRM information* tab in the suppliers' configuration, see [CRM information](../UserInterface/02a_DebtorsCreditors.md#crm-information).
+- The supplier settings are adjusted according to the service or product supplied, see *Default values* section in [Invoicing](02a_DebtorsCreditors.md#invoicing).   
 
 #### Procedure
 

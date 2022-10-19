@@ -2,7 +2,7 @@
 
 *Accounting > Settings*
 
-The Accounting *Settings* menu entry is used to manage the accounting settings.
+The Accounting *Settings* menu entry is used to manage the Accounting settings.
 
 The *Settings* User Interface is composed of the following tabs:
 
