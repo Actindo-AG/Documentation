@@ -1,4 +1,4 @@
-[!!Warehouse](RetailSuiteWarehousing)
+[!!Warehouse](../../RetailSuiteWarehousing/Overview/01_General.md)
 [!!User Interface Warehouse](../../RetailSuiteWarehousing/UserInterface/00_UserInterface.md)
 [!!Configure the warehouse for POS](./01_ConfigureWarehouse.md)
 

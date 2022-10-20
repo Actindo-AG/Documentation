@@ -64,7 +64,7 @@ The table displays the list of jobs in Venduo POS and their current status. Depe
   [comment]: <> (What does this column displays?)
 
 - *Bill number in UCS Faktura*   
-  Bill number in the *Invoicing* module.
+  Bill number in the *Order management* module.
 
 - *Bill number at POS*   
   Bill number in the *Venduo POS* module.
