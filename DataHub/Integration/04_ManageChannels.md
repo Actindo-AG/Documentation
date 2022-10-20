@@ -5,7 +5,7 @@
 # Manage the channels
 
 A channel is needed to create offers for a certain connection.
-By default, the *Actindo Basic* channel has been preset.
+By default, the *Actindo Basic* channel is predefined.
 If you want to maintain multiple channels, you have to create and activate the respective channels.
 
 > [Info] A channel does not equal a marketplace or web store connection. It is just a dimension that can be added to the multi-channel attributes.
@@ -79,9 +79,9 @@ At least one channel has been created, see [Create a channel](../Integration/Cre
 
 ## Deactivate a channel
 
-Deactivate a channel when it should not be used for a certain time.
-The channel is no longer available for offers when it is inactive.
-Further, it is recommended to deactivate a channel instead of deleting it to prevent any problems because of existing connections, see [Deactivate a channel](#deactivate-a-channel).
+Deactivate a channel if it will not be used for a certain time.
+If you deactivate a channel, it is no longer available for offers.
+Further, it is recommended to deactivate a channel instead of deleting it to prevent any problems because of existing connections.
 
 #### Prerequisites
 
@@ -109,7 +109,7 @@ At least one channel has been created, see [Create a channel](#create-a-channel)
 
 ## Delete a channel
 
-You can delete a channel if it is no longer needed. As there are usually existing connections via a channel, it is highly recommended not to delete a channel. Instead, you can deactivate a channel and thus prevent its use.
+You can delete a channel if it is no longer needed. As there are usually existing connections via a channel, it is highly recommended not to delete a channel. Instead, you can deactivate a channel and thus prevent its use, see [Deactivate a channel](#deactivate-a-channel).
 
 #### Prerequisites
 
@@ -129,4 +129,4 @@ At least one channel has been created, see [Create a channel](#create-a-channel)
 2. Click the [DELETE] button in the toolbar.  
   The channel has been deleted. The deletion cannot be undone.
 
-  > [Info] If the selected channel cannot be deleted, an error message is displayed in the upper right corner. To prevent the channels use, it is recommended to [deactivate the channel](#deactivate-a-channel) instead of delete it.
+  > [Info] If the selected channel cannot be deleted, an error message is displayed in the upper right corner. To prevent the channels use, it is recommended to deactivate the channel instead of deleting it, see [Deactivate a channel](#deactivate-a-channel).

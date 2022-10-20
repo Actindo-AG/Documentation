@@ -4,7 +4,7 @@
 # Manage the languages
 
 The different languages are needed to be able to maintain attributes in different languages.
-By default, the languages *English (United States)* and *German (Germany)* have been preset.
+By default, the languages *English (United States)* and *German (Germany)* are predefined.
 If you want to maintain further languages, you have to create and activate the respective languages.
 You can create an unlimited number of languages.
 
@@ -75,8 +75,8 @@ At least one language has been created, see [Create a language](../Integration/C
 
 ## Deactivate a language
 
-Deactivate a language when it should not be used for a certain time.
-The language is no longer available when it is inactive.
+Deactivate a language if it will not be used for a certain time.
+If you deactivate a language, it is no longer available.
 Further, it is recommended to deactivate a language instead of deleting it to prevent any problems because of existing dependencies.
 
 #### Prerequisites
@@ -127,4 +127,4 @@ At least one language has been created, see [Create a language](#create-a-langua
 2. Click the [Delete] button in the toolbar.  
   The language has been deleted. The deletion cannot be undone.
 
-  > [Info] If the selected language cannot be deleted, an error message is displayed in the upper right corner. To prevent the languages use, it is recommended to [deactivate the language](#deactivate-a-language) instead of delete it.
+  > [Info] If the selected language cannot be deleted, an error message is displayed in the upper right corner. To prevent the languages use, it is recommended to deactivate the language instead of deleting it, see [Deactivate a language](#deactivate-a-language).

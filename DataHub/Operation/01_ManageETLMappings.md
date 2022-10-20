@@ -40,7 +40,7 @@ At least two attribute sets have been created, see [Create an attribute set](./0
 
 4. Select a language in the *Language* drop-down list. All active languages are displayed in the drop-down list.
 
-  > [Info] The selected language defines the language from which the value of a multilingual attribute is taken when mapping it to a single language attribute.
+  > [Info] The selected language defines the language from which the value of a multi-language attribute is taken when mapping it to a single language attribute.
 
 5. Select a channel in the *Channel* drop-down list. All active channels are displayed in the drop-down list.
 

@@ -122,7 +122,7 @@ At least one attribute group has been created, see [Create an attribute group](#
 
 ### Change the order of attribute groups
 
-The order of attribute groups in the *ATTRIBUTE GROUPS* tab equals to the order of attributes groups in the product view.
+The order of attribute groups in the *ATTRIBUTE GROUPS* tab corresponds to the order of attributes groups in the product view in the *PIM* module.
 You can change the order to display an attribute group in a different place when creating or editing a product.
 
 The procedure to change the order of attribute groups and sub-groups is identical.
@@ -230,13 +230,13 @@ If you add an attribute to an attribute group that is already added to another g
 4. Click the [ADD] button in the toolbar.
   The *Add attributes to attribute group* view is closed. The selected attributes have been added to the attribute group.
 
-  > [Info] The new attributes will be added at the end of the attribute list. If you want to change the position of an attribute in the list, see [Change the order of attributes within a group](#change-the-order-of-attributes-within-a-group).
+  > [Info] The new attributes are always added at the end of the attribute list. If you want to change the position of an attribute in the list, see [Change the order of attributes within a group](#change-the-order-of-attributes-within-a-group).
 
 
 
 ### Change the order of attributes within a group
 
-The order of attributes within an attribute group in the *ATTRIBUTE GROUPS* tab equals to the order of attributes within a group in the product view.
+The order of attributes within an attribute group in the *ATTRIBUTE GROUPS* tab corresponds to the order of attributes within a group in the product view.
 You can change the order to display a certain attribute in a different place in the attribute group when creating or editing a product.   
 
 The procedure to change the order of attributes within attribute groups and sub-groups is identical.
@@ -299,7 +299,7 @@ Just select the attribute sub-group instead of the group and follow the steps de
 
   ![Group attributes](../../Assets/Screenshots/DataHub/Settings/AttributeGroups/GroupAttributes.png "[Group attributes]")
 
-2. Select the checkboxes of the attributes in the list, you want to remove from the selected attribute group.   
+2. Select the checkboxes of the attributes you want to remove from the selected attribute group.   
   The editing toolbar is displayed above the list.
 
 3. Click the ![Remove](../../Assets/Icons/Trash03.png "[Remove]") (Remove) button in the toolbar.   

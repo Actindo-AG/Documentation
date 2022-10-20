@@ -185,9 +185,9 @@ In the *DataHub* module all available attributes can be added to the different a
 
   ![Add attribute](../../Assets/Screenshots/DataHub/Settings/AttributeSets/AddAttributes.png "[Edit attribute set]")
 
-  > [Info] If the message **There are no unassigned attributes.** is displayed in the *Add attributes* view, all active attributes are already included in the selected attribute set. Check if you have selected the appropriate attribute set, click the ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh) button to update the list or [create a new attribute](./01_ManageAttributes.md#create-an-attribute).
+  > [Info] If the *There are no unassigned attributes.* notice is displayed in the *Add attributes* view, all active attributes are already included in the selected attribute set. Check if you have selected the appropriate attribute set, click the ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh) button to update the list or [create a new attribute](./01_ManageAttributes.md#create-an-attribute).
 
-3. Select the checkboxes of the attributes in the list, you want to add to the attribute set.   
+3. Select the checkboxes of the attributes you want to add to the attribute set.   
   The editing toolbar is displayed above the list.
 
 4. Click the [ADD] button in the editing toolbar.   
@@ -200,7 +200,7 @@ In the *DataHub* module all available attributes can be added to the different a
 ### Remove an attribute from the set
 
 Remove an attribute from an attribute set to limit the specifications.
-Inherited attributes or mapped attributes cannot be removed from an attributes set.
+Inherited attributes or mapped attributes cannot be removed from an attribute set.
 
 #### Prerequisites
 
@@ -218,7 +218,7 @@ Inherited attributes or mapped attributes cannot be removed from an attributes s
 
   ![Edit attribute set](../../Assets/Screenshots/DataHub/Settings/AttributeSets/EditAttributeSet.png "[Edit attribute set]")
 
-2. In the *Assigned attributes* section, select the checkboxes of the attributes, you want to remove from the attribute set.   
+2. In the *Assigned attributes* section, select the checkboxes of the attributes you want to remove from the attribute set.   
   The editing toolbar is displayed above the list.
 
 3. Click the ![Delete](../../Assets/Icons/Trash03.png "[Delete]") (Delete) button in the editing toolbar.   

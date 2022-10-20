@@ -169,9 +169,9 @@ At least one attribute has been created, see [Create an attribute](#create-an-at
   > [Info] All dependencies to attribute sets, ETL-mappings and entity entries are displayed in this window. Be aware that problems may occur if you delete an attribute with existing dependencies. For defining attributes, the [CONFIRM] button is not displayed in the *Confirm deletion of attribute?* window as they cannot be deleted.   
 
 3. Click the [CONFIRM] button in the bottom right corner.   
-  The attribute has been deleted and is moved to the *DELETED ATTRIBUTES* tab in the *DataHub* module. The *Confirm deletion of attribute?* window is closed.
+  The attribute has been deleted and is moved to the *DELETED ATTRIBUTES* tab. The *Confirm deletion of attribute?* window is closed.
 
-  > [Warning] Problems may occur if you delete an attribute with existing dependencies.  
+  > [Warning] Be aware that problems may occur if you delete an attribute with existing dependencies.
 
 > [Info] The attribute is moved to the *DELETED ATTRIBUTES* tab, but it can still be recovered. To irretrievably delete the attribute, see [Permanently delete an attribute](#permanently-delete-an-attribute).
 
@@ -204,7 +204,7 @@ At least one attribute has been moved to the *DELETED ATTRIBUTES* tab, see [Dele
 ## Permanently delete an attribute
 
 You can permanently delete an attribute if it is no longer needed.
-As there are usually dependencies on an attribute, for example through an attribute set or created products, it is strongly recommended not to delete an attribute irretrievably.
+As there are usually dependencies on an attribute, for example through an attribute set or created products, it is recommended to deactivate an attribute instead of deleting it permanently.
 Permanently deleted attributes cannot be recovered.
 
 #### Prerequisites
@@ -213,16 +213,16 @@ At least one attribute has been moved to the *DELETED ATTRIBUTES* tab, see [Dele
 
 #### Procedure
 
-*DataHub > Settings > Tab ATTRIBUTES*
+*DataHub > Settings > Tab DELETED ATTRIBUTES*
 
-![Attributes](../../Assets/Screenshots/DataHub/Settings/Attributes/Attributes.png "[Attributes]")
+![Attributes](../../Assets/Screenshots/DataHub/Settings/DeletedAttributes/DeletedAttributes.png "[Attributes]")
 
 1. Select the checkbox of the attribute you want to permanently delete in the list of deleted attributes.    
   The editing toolbar is displayed above the attributes list.
 
-  > [Info] If the deleted attribute is not yet displayed in the list of deleted attributes, click the ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh) button to update the list.
+  > [Info] If the attribute moved to the *DELETED ATTRIBUTES* tab is not yet displayed in the list of deleted attributes, click the ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh) button to update the list.
 
 2. Click the [Delete] button in the toolbar.  
-  The attribute has been irretrievably deleted. The deletion cannot be undone.
+  The attribute has been permanently deleted. The deletion cannot be undone.
 
-  > [Warning] Problems may occur if you delete an attribute with existing dependencies.  
+  > [Warning] Be aware that problems may occur if you delete an attribute with existing dependencies.
