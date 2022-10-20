@@ -79,13 +79,15 @@ The list displays all language. Depending on the settings, the displayed columns
 
 - *Key*   
   Enter a language key. The key is required for API access and must be system wide unique. The language key must fulfill the criteria of the language codes according to [RFC 4646](https://www.heise.de/netze/rfc/rfcs/rfc4646.shtml). For instance, keys with the following structure are valid:
-  - en
-  - en_US
-  - en-US
+  - **en**
+  - **en_US**
+  - **en-US**
+
+  > [Info] It is recommended to use the two-letter ISO 639-1 code for the language separated by a hyphen with the two-letter ISO 3166-1 code for the country, for instance en-US for English (United States), en-UK for English (United Kingdom) or de-DE for German (Germany).
 
 
 - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Active*   
-  Enable this toggle to set the language status to active. Disable the toggle to set the language to inactive. By default, this toggle is disabled.
+  Enable this toggle to set the language status to active. Disable the toggle to set the language status to inactive. By default, this toggle is disabled.
 
 
 

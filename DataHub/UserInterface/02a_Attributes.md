@@ -47,10 +47,12 @@ The list displays all attributes. Depending on the settings, the displayed colum
   Attribute key.
 
 - *Data type*   
-  Attribute data type. For detailed information about all data types, see [Data type list](./04_DataTypeList.md).
+  Attribute data type.   
+  For detailed information about all data types, see [Data type list](./04_DataTypeList.md).
 
 - *Description*   
   Description to the attribute.
+
 
 - *Multi-language*   
   Indication whether the attribute is multi-language or not:
@@ -83,10 +85,10 @@ The list displays all attributes. Depending on the settings, the displayed colum
   Name and username of the user who created the attribute.
 
 - *Name (Language)*   
-  Attribute name in the selected language. A single *Name (Language)* column is displayed for the system languages *English (United States)* and *Deutsch (Deutschland)*.
+  Attribute name in the selected language. A single column is displayed for the system languages *English (United States)* and *Deutsch (Deutschland)*.
 
 - *Description (Language)*   
-  Attribute description in the displayed language. A single *Description (Language)* column is displayed for the system languages *English (United States)* and *Deutsch (Deutschland)*.
+  Attribute description in the selected language. A single column is displayed for the system languages *English (United States)* and *Deutsch (Deutschland)*.
 
 - ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add)   
   Click this button to create an attribute. The *Create attribute* view is displayed.   
@@ -104,11 +106,17 @@ The list displays all attributes. Depending on the settings, the displayed colum
 - ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)   
   Click this button to close the *Create attribute* view and return to the attributes list. All changes are rejected.
 
+
 - Language   
-  Click the drop-down list and select the language in which the *Name (Language)* and *Description (Language)* fields are displayed. By default, the system languages **English (United States)** and **Deutsch (Deutschland)** are available in the drop-down list.
+  Click the drop-down list and select the language in which the *Name (Language)* and *Description (Language)* fields are displayed. By default, the following options are available:
+  - **English (United States)**
+  - **Deutsch (Deutschland)**
+
 
 - [SAVE]   
   Click this button to save the attribute, close the *Create attribute* view and return to the attributes list.
+
+**BASIC DATA**
 
 - *Name (Language)*   
   Enter an attribute name in the selected language.
@@ -117,7 +125,9 @@ The list displays all attributes. Depending on the settings, the displayed colum
   Enter a description to the attribute in the selected language.
 
 - *Data type*   
-  Click the drop-down list and select an attribute data type. For detailed information about all data types, see [Data type list](./04_DataTypeList.md).
+  Click the drop-down list and select an attribute data type. The ![Add](../../Assets/Icons/Plus05.png "[Add]") (Add) button in the *Assigned sets* field is unlocked.   
+  For detailed information about all data types, see [Data type list](./04_DataTypeList.md).
+
 
 - *Key*   
   Enter an attribute key. The key is required for API access and must be system wide unique. An attribute key must fulfill the following criteria:
@@ -125,30 +135,30 @@ The list displays all attributes. Depending on the settings, the displayed colum
   - the key must not start with a number
   - a double underscore ( **___** ) and a trailing underscore are forbidden
 
+
 - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Multi-language*   
-  Enable this toggle to create a multi-language attribute. Disable the toggle to create a single language attribute. By default, this toggle is inactive.
+  Enable this toggle to create a multi-language attribute. Disable the toggle to create a single language attribute. By default, this toggle is disabled.
 
 - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Multi-channel*   
-  Enable this toggle to create a multi-channel attribute. Disable the toggle to create a single channel attribute. By default, this toggle is inactive.
+  Enable this toggle to create a multi-channel attribute. Disable the toggle to create a single channel attribute. By default, this toggle is disabled.
 
 - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Active*   
-  Enable this toggle to set the attribute status to active. Disable the toggle to set the status to inactive. By default, this toggle is active.
+  Enable this toggle to set the attribute status to active. Disable the toggle to set the status to inactive. By default, this toggle is enabled.
 
 - *Assigned sets*   
-  Click the drop-down list and select an attribute set to which the attribute is assigned after creation. All active attribute sets are displayed. The drop-down list is only displayed when at least one attribute set drop-down list has been added.
+  Click the drop-down list and select an attribute set to which the attribute is assigned after creation. All active attribute sets are displayed. This drop-down list is only displayed if you have previously clicked the ![Add](../../Assets/Icons/Plus05.png "[Add]") (Add) button.
+  - ![Add](../../Assets/Icons/Plus05.png "[Add]") (Add)    
+    Click this button to add an attribute set drop-down list. You can add an infinite number of attribute sets.
+  - ![Delete](../../Assets/Icons/Trash01.png "[Delete]") (Delete)   
+    Click this button to delete the corresponding attribute set.
 
-- ![Add](../../Assets/Icons/Plus05.png "[Add]") (Add)    
-  Click this button to add an attribute set drop-down list. You can add an infinite number of attribute sets.
-
-- ![Delete](../../Assets/Icons/Trash01.png "[Delete]") (Delete)   
-  Click this button to delete the corresponding attribute set.
-
-  > [Info] When you assign the attribute to no attribute set in this view, you have to assign the attribute afterwards to an attribute set, see [Add an attribute to the set](../Integration/02_ManageAttributeSets.md#add-an-attribute-to-the-set).
+  > [Info] If you do not assign the attribute to an attribute set at this point, you will have to do it afterwards in the corresponding attribute set(s), see [Add an attribute to the set](../Integration/02_ManageAttributeSets.md#add-an-attribute-to-the-set).
 
 
 **CONFIGURATION**
 
 The *CONFIGURATION* section displays the additional configuration for the selected data type. The configuration fields differ depending on the selected data type.    
+As some data types have no further configuration settings, no *CONFIGURATION* section is displayed for these data types.   
 For detailed information about the different configurations of data types, see [Data type list](./04_DataTypeList.md).
 
 
@@ -163,8 +173,12 @@ For detailed information about the different configurations of data types, see [
 - ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)   
   Click this button to close the *Edit attribute* view and return to the attributes list. All changes are rejected.
 
+
 - Language   
-  Click the drop-down list and select the language in which the *Name (Language)* and *Description (Language)* fields are displayed. By default, the system languages **English (United States)** and **Deutsch (Deutschland)** are available in the drop-down list.
+  Click the drop-down list and select the language in which the *Name (Language)* and *Description (Language)* fields are displayed. By default, the following options are available:
+  - **English (United States)**
+  - **Deutsch (Deutschland)**
+
 
 - [SAVE]   
   Click this button to save the attribute, close the *Edit attribute* view and return to the attributes list.
@@ -183,7 +197,8 @@ For detailed information about the different configurations of data types, see [
   Click the field to edit the description to the attribute in the selected language.
 
 - *Data type*   
-  Attribute data type. In the *Edit attribute* view, this field is locked. For detailed information about all data types, see [Data type list](./04_DataTypeList.md).
+  Attribute data type. In the *Edit attribute* view, this field is locked.    
+  For detailed information about all data types, see [Data type list](./04_DataTypeList.md).
 
 - *Key*   
   Attribute key. In the *Edit attribute* view, this field is locked.

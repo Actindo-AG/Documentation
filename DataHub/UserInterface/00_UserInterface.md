@@ -27,7 +27,7 @@ In this part of the *DataHub* documentation, you will find the following chapter
 - [ATTRIBUTE SETS](./02b_AttributeSets.md)
   - [Create attribute set](./02b_AttributeSets.md#create-attribute-set)
   - [Edit attribute set](./02b_AttributeSets.md#edit-attribute-set)
-    - [Edit attribute for set](./02b_AttributeSets.md#edit-attribute-for-set)
+    - [Edit attribute for set "Attribute set name"](./02b_AttributeSets.md#edit-attribute-for-set-attribute-set-name)
     - [Add mapping](./02b_AttributeSets.md#add-mapping)
 
 

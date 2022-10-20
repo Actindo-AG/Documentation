@@ -16,24 +16,24 @@
       Click this entry to create a view. The *Create view* window is displayed.
 
     - ![Rename](../../Assets/Icons/Edit02.png "[Rename]") rename  
-      Click this entry to rename the selected view. The *Rename view* window is displayed. This menu entry is only displayed when a view is selected.
+      Click this entry to rename the selected view. The *Rename view* window is displayed. This menu entry is only displayed if a view is selected.
 
     - ![Reset](../../Assets/Icons/Reset.png "[Reset]") reset  
-      Click this entry to reset the view to the selected views settings. This menu entry is only displayed when a view is selected and any changes are made to the views settings.
+      Click this entry to reset the view to the selected views settings. This menu entry is only displayed if a view is selected and any changes are made to the views settings.
 
     - ![Publish](../../Assets/Icons/Publish.png "[Publish]") publish  
-      Click this entry to publish the view. This menu entry is only displayed when a view is selected and unpublished.
+      Click this entry to publish the view. This menu entry is only displayed if a view is selected and unpublished.
 
     - ![Unpublish](../../Assets/Icons/Unpublish.png "[Unpublish]") unpublish  
-      Click this entry to unpublish the view. This menu entry is only displayed when a view is selected and published.
+      Click this entry to unpublish the view. This menu entry is only displayed if a view is selected and published.
 
     - ![Save](../../Assets/Icons/Save.png "[Save]") save  
-      Click this entry to save the current view settings in the selected view. This menu entry is only displayed when a view is selected.
+      Click this entry to save the current view settings in the selected view. This menu entry is only displayed if a view is selected.
 
       > [Info] When the settings of a view have been changed, an asterisk is displayed behind the view name. The asterisk is hidden as soon as the changes have been saved.
 
     - ![Delete](../../Assets/Icons/Trash01.png "[Delete]") delete  
-      Click this entry to delete the selected view. A confirmation window to confirm the deletion is displayed. This menu entry is only displayed when a view is selected.
+      Click this entry to delete the selected view. A confirmation window to confirm the deletion is displayed. This menu entry is only displayed if a view is selected.
 
 
 - *Status filter*   

@@ -132,15 +132,15 @@ The list displays all attribute set mappings. Depending on the settings, the dis
   For detailed information, see [Delete an attribute mapping](../Operation/01_ManageAttributes.md#delete-an-etl-attribute-mapping).
 
 - [ADD TO SOURCE SET AND MAP]   
-  Click this button to add the selected destination attribute to the source attribute set and create a mapping. By default, the *Identity-mapping* extension is used to map the attributes. The button is only displayed when no mapping to the selected destination attribute already exists.
+  Click this button to add the selected destination attribute to the source attribute set and create a mapping. By default, the *Identity-mapping* extension is used to map the attributes. The button is only displayed if no mapping to the selected destination attribute already exists.
 
   [comment]: <> (Stimmt das? Warum wird mir bei dem Attribut ve die Option nie angezeigt?)
 
 - [RERUN SELECTED MAPPING]   
-  Click this button to rerun the selected attribute mapping. The button is only displayed when a mapping to the selected destination attribute already exists. The *Rerun single mapping* window is displayed. For detailed information, see [Rerun a single attribute mapping](../Operation/01_ManageETLMappings.md#rerun-a-single-attribute-mapping).
+  Click this button to rerun the selected attribute mapping. The button is only displayed if a mapping to the selected destination attribute already exists. The *Rerun single mapping* window is displayed. For detailed information, see [Rerun a single attribute mapping](../Operation/01_ManageETLMappings.md#rerun-a-single-attribute-mapping).
 
 - [CUSTOM DESTINATION ATTRIBUTE CHANNEL AND LANGUAGE]    
-  Click this button to define a custom channel and/or language attribute mapping for the selected destination attribute. The *Settings* section is displayed on the right side of the *Mapping from source set to destination set* view with a drop-down list for the language and/or channel. The button is only displayed when the destination attribute of the selected mapping is multi-language or multi-channel. For detailed information, see [Add a custom mapping for a destination attribute](../Operation/01_ManageAttributes.md#add-a-custom-mapping-for-a-destination-attribute)
+  Click this button to define a custom channel and/or language attribute mapping for the selected destination attribute. The *Settings* section is displayed on the right side of the *Mapping from source set to destination set* view with a drop-down list for the language and/or channel. The button is only displayed if the destination attribute of the selected mapping is multi-language or multi-channel. For detailed information, see [Add a custom mapping for a destination attribute](../Operation/01_ManageAttributes.md#add-a-custom-mapping-for-a-destination-attribute)
 
 
 The list displays all attribute mappings. Depending on the settings, the displayed columns may vary. All fields are read-only.

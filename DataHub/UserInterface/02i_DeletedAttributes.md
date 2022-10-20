@@ -27,7 +27,7 @@
 
 - [DELETE]   
   Click this button to irretrievably delete the selected attribute. This button is only displayed, when the checkbox of an attribute is selected.       
-  For detailed information, see [Finally delete an attribute](../Integration/01_ManageAttributes.md#finally-delete-an-attribute).
+  For detailed information, see [Permanently delete an attribute](../Integration/01_ManageAttributes.md#permanently-delete-an-attribute).
 
 The list displays all deleted attributes. Depending on the settings, the displayed columns may vary. All fields are read-only.
 

@@ -39,6 +39,7 @@ The list displays all attribute sets. Depending on the settings, the displayed c
 - *Description*   
   Description to the attribute set.
 
+
 - *Status*   
   Attribute set status. The following statuses are available:
   - ![Status](../../Assets/Icons/Status01.png "[Status]") **Active**
@@ -70,10 +71,10 @@ The list displays all attribute sets. Depending on the settings, the displayed c
   Name and username of the user who created the attribute set.
 
 - *Name (Language)*   
-  Attribute name in the selected language. A single *Name (Language)* column is displayed for the system languages *English (United States)* and *Deutsch (Deutschland)*.
+  Attribute name in the selected language. A single column is displayed for the system languages *English (United States)* and *Deutsch (Deutschland)*.
 
 - *Description (Language)*   
-  Attribute description in the displayed language. A single *Description (Language)* column is displayed for the system languages *English (United States)* and *Deutsch (Deutschland)*.
+  Attribute description in the displayed language. A single column is displayed for the system languages *English (United States)* and *Deutsch (Deutschland)*.
 
 - ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add)   
   Click this button to create an attribute set. The *Create attribute set* view is displayed.   
@@ -90,8 +91,11 @@ The list displays all attribute sets. Depending on the settings, the displayed c
 - ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)   
   Click this button to close the *Create attribute set* view and return to the attribute set list. All changes are rejected.
 
-- Language   
-  Click the drop-down list and select the language in which the *Name (Language)* and *Description (Language)* fields are displayed. By default, the system languages **English (United States)** and **Deutsch (Deutschland)** are available in the drop-down list.
+
+- Language      
+  Click the drop-down list and select the system language in which the *Name (Language)* and *Description (Language)* fields are displayed. By default, the following options are available:
+  - **English (United States)**
+  - **Deutsch (Deutschland)**
 
 
 - [SAVE]   
@@ -171,8 +175,12 @@ In the *Create attribute set* view, no attributes are displayed in the list. You
 - ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)   
   Click this button to close the *Edit attribute set* view and return to the attribute set list. All changes are rejected.
 
-- Language   
-  Click the drop-down list and select the language in which the *Name (Language)* and *Description (Language)* fields are displayed. By default, the system languages **English (United States)** and **Deutsch (Deutschland)** are available in the drop-down list.
+
+- Language      
+  Click the drop-down list and select the system language in which the *Name (Language)* and *Description (Language)* fields are displayed. By default, the following options are available:
+  - **English (United States)**
+  - **Deutsch (Deutschland)**
+
 
 - [SAVE]   
   Click this button to save the attribute set, close the *Edit attribute set* view and return to the attribute set list.
@@ -213,7 +221,7 @@ In the *Create attribute set* view, no attributes are displayed in the list. You
   > [Info] The inheritance settings may be read-only for attribute sets predefined by the system.
 
 
-**Assigned Attributes**
+**Assigned attributes**
 
 - ![Settings](../../Assets/Icons/Settings01.png "[Settings]") (Settings)   
   Click this button to unlock the *Required* column in the attributes list. The color of the button switches to blue if the column is unlocked. Click the button again to lock the *Required* column. The button color switches back to gray.
@@ -234,23 +242,25 @@ In the *Create attribute set* view, no attributes are displayed in the list. You
   Select the checkbox to display the editing toolbar. If you click the checkbox in the header, all attributes in the list are selected.
 
 - ![Edit](../../Assets/Icons/Edit01.png "[Edit]") (Edit)   
-  Click this button to edit the configuration of the selected attribute. This button is only displayed, when a single checkbox of an attribute with an editable configuration is selected. The *Edit attribute for set* view is displayed. Alternatively, you can click directly a row in the list to edit an attribute configuration.
+  Click this button to edit the configuration of the selected attribute. This button is only displayed, when a single checkbox of an attribute with an editable configuration is selected. The *Edit attribute for set "Attribute set name"* view is displayed. Alternatively, you can click directly a row in the list to edit an attribute configuration.
 
-[comment]: <> (Edit is not working)
+[comment]: <> (Edit is not working -> Bugticket)
 
 - ![Delete](../../Assets/Icons/Trash03.png "[Delete]") (Delete)   
-  Click this button to remove the selected attribute from the attribute set. This button is only displayed, when at least one checkbox of an attribute is selected.       
+  Click this button to remove the selected attribute from the attribute set. This button is only displayed if at least one checkbox of an attribute is selected.       
 
   > [Info] If you remove an attribute from the attribute set, the attribute itself is not deleted, but it is unassigned to the selected attribute set.   
 
 - [ADD MAPPING]   
   Click this button to add a mapping to the selected attribute. The *Add mapping* view is displayed. You can only add a mapping for attribute sets that are not inherited from another attribute set. This button is only displayed, when a single checkbox of an attribute is selected.
 
+
 The list displays all attributes assigned to the selected attribute set. Depending on the settings, the displayed columns may vary.   
 When the ![Settings](../../Assets/Icons/Settings01.png "[Settings]") (Settings) button is gray, all fields are read-only. When the ![Settings](../../Assets/Icons/Settings02.png "[Settings]") (Settings) button is blue, the field *Required* is editable.
 
 - *Name*   
   Attribute name.
+
 
 - *Calculated field*   
   Indication whether the attribute is calculated by an ETL mapping from other fields to itself or not:
@@ -262,7 +272,8 @@ When the ![Settings](../../Assets/Icons/Settings01.png "[Settings]") (Settings) 
   Attribute key.
 
 - *Data type*   
-  Attribute data type. For detailed information about all data types, see [Data type list](./04_DataTypeList.md).
+  Attribute data type.  
+  For detailed information about all data types, see [Data type list](./04_DataTypeList.md).
 
 - *Inherited from*   
   Inheritance attribute set. The name of the attribute set from which the attribute value is inherited is displayed. If the attribute value is not inherited, the field is empty.
@@ -270,12 +281,13 @@ When the ![Settings](../../Assets/Icons/Settings01.png "[Settings]") (Settings) 
 - *Plugin*   
   Module or plugin that owns the attribute set.
 
+
 - *Required*  
-  Indication whether the attribute value is required or not. The following options are only displayed, when the ![Settings](../../Assets/Icons/Settings01.png "[Settings]") (Settings) button is inactive:
-  When the ![Settings](../../Assets/Icons/Settings02.png "[Settings]") (Settings) button is blue, the *Required* toggle is displayed. Enable the toggle to set the attribute value as a mandatory field. Disable the toggle to set the attribute value as an optional field.   
-  When the ![Settings](../../Assets/Icons/Settings01.png "[Settings]") (Settings) button is gray, the following options are displayed:
-  - ![Check](../../Assets/Icons/Check.png "[Check]") (Checkmark): The attribute is required.  
-  - ![Cross](../../Assets/Icons/Cross02.png "[Cross]") (Cross): The attribute is optional.   
+  Indication whether the attribute value is required or not. The following options are only displayed if the ![Settings](../../Assets/Icons/Settings01.png "[Settings]") (Settings) button is inactive:
+  - If the ![Settings](../../Assets/Icons/Settings02.png "[Settings]") (Settings) button is blue, the *Required* toggle is displayed. Enable the toggle to set the attribute value as a mandatory field. Disable the toggle to set the attribute value as an optional field.   
+  - If the ![Settings](../../Assets/Icons/Settings01.png "[Settings]") (Settings) button is gray, the following options are displayed:
+    - ![Check](../../Assets/Icons/Check.png "[Check]") (Checkmark): The attribute is required.  
+    - ![Cross](../../Assets/Icons/Cross02.png "[Cross]") (Cross): The attribute is optional.
 
 
 - *Read-only*   
@@ -306,24 +318,24 @@ When the ![Settings](../../Assets/Icons/Settings01.png "[Settings]") (Settings) 
 
 
 
-### Edit attribute for set
+### Edit attribute for set "Attribute set name"
 
-[comment]: <> (Not working anymore?)
+[comment]: <> (to be checked! currently not working)
 
 *DataHub > Settings > Tab ATTRIBUTE SETS > Select attribute set > Select attribute*
 
 ![Edit attribute for set](../../Assets/Screenshots/DataHub/Settings/AttributeSets/EditAttributeForSet.png "[Edit attribute for set]")
 
-**Edit attribute for set**
+**Edit attribute for set "Attribute set name"**
 
 - ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)   
-  Click this button to close the *Edit attribute for set* view and return to *Edit attribute set* view. All changes are rejected.
+  Click this button to close the *Edit attribute for set "Attribute set name"* view and return to *Edit attribute set* view. All changes are rejected.
 
 - [CANCEL]   
-  Click this button to cancel editing the configuration, close the *Edit attribute for set* view and return to the *Edit attribute set* view.
+  Click this button to cancel editing the configuration, close the *Edit attribute for set "Attribute set name"* view and return to the *Edit attribute set* view.
 
 - [SAVE]   
-  Click this button to save the changes, close the *Edit attribute for set* view and return to the *Edit attribute set* view.
+  Click this button to save the changes, close the *Edit attribute for set "Attribute set name"* view and return to the *Edit attribute set* view.
 
 **CONFIGURATION**
 
@@ -339,30 +351,46 @@ For detailed information about the different configurations of data types, see [
 
 **Add mapping**
 
-This view equals to the attribute mapping in the *DataHub* module: *DataHub > Settings > Tab ETL > Select attribute set mapping > Select mapping line*   
+This view equals the attribute mapping in the *DataHub* module: *DataHub > Settings > Tab ETL > Select attribute set mapping > Select mapping line*     
+For detailed information, see [ETL settings](./02d_ETL.md#settings).
 
 - ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)   
   Click this button to close the *Edit mapping* view and return to *Edit attribute set* view. All changes are rejected.
 
 - Destination attribute   
-  Selected attribute on the right side of the view. The attribute cannot be changed.
+  The selected destination attribute is displayed in the arrow box on the right side of the view. This field is read-only.
 
 - *Language*   
-  Language of the destination attribute. The drop-down list is read-only. The drop-down list is only displayed when the destination attribute is multi-language.
+  Selected language of the destination attribute. The drop-down list is read-only. This drop-down list is only displayed if the destination attribute is multi-language.
 
 - *Channel*   
-  Channel of the destination attribute. The drop-down list is read-only. The drop-down list is only displayed when the destination attribute is multi-channel.
+  Selected channel of the destination attribute. The drop-down list is read-only. This drop-down list is only displayed if the destination attribute is multi-channel.
 
 - *Extension*   
-  Click the drop-down list and select the desired ETL extension for the mapping. The extensions in the list differ depending on the data type of the destination attribute.
+  Click the drop-down list and select the appropriate ETL extension for the attribute mapping. The displayed extensions depend on the data type of the selected destination attribute.      
+  For detailed information about the ETL extensions and the different data types, see [ETL extensions list](./03_ETLExtensions.md) or [Data type list](./04_DataTypeList.md).
+
 
 - *Override change tracking mode*   
-  Change tracking mode (ETL mode) for the mapping. The drop-down list is read-only. The option **Use default** is preset.
+  Change tracking mode (ETL mode) for the mapping. The drop-down list is read-only. By default, the **Use default** option is selected. The following modes are available:
+  - **Use default**   
+    The mapping configured in the dependency of the specific entities is applied.
+  - **Automatic**   
+    The initial mapping is automatically applied. All value changes or reruns are applied automatically in the mapping.  
+  - **Semi-automatic**   
+    The initial mapping is automatically applied. Values changes or reruns are applied after confirmation.
+  - **Semi-automatic, changes must be confirmed by another user**   
+    The initial mapping as well as values changes or reruns are applied after confirmation by another user.
+  - **Manual**   
+    The initial mapping is automatically applied. Afterwards, the changes in the mapping must be triggered manually to be applied.
 
-The fields on the left side differ depending on the selected ETL extension. For detailed information about the ETL extensions and how to create an attribute mapping, see [ETL extensions](./03_ETLExtensions.md) and [Edit an ETL attribute mapping](../Operation/01_ManageETLMappings.md#edit-an-etl-attribute-mapping).
+
+- *Source attribute*   
+  Click the drop-down list within the arrow box and select the appropriate source attribute for the mapping. Depending on the selected ETL extension one or several *Source attribute* arrow boxes are displayed. The selection in the drop-down list depends on the selected ETL extension which defines the required data type of the source attribute(s). This drop-down list is only displayed if an ETL extension has been selected in the *Extension* drop-down list.       
+
 
 
 **Configuration**
 
-The *CONFIGURATION* section displays the additional configuration settings. The configuration fields differ depending on the data type of the source and/or destination attribute.    
+The *Configuration* section displays the additional configuration settings. The configuration fields differ depending on the data type of the source and/or destination attribute.
 For detailed information about the different configurations of data types, see [Data type list](./04_DataTypeList.md).

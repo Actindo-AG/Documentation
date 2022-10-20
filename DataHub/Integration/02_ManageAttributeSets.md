@@ -69,12 +69,11 @@ In exchange, you can define individually which attributes are required and custo
 
 #### Prerequisites
 
-- Additional attributes for the attribute set have been created, see [Create an attribute](./01_ManageAttributs.md#create-an-attribute).
-- The basic data of the attribute set has been completed, see [Define the attribute set basic data](#define-the-attribute-set-basic-data).
+The basic data of the attribute set has been completed, see [Define the attribute set basic data](#define-the-attribute-set-basic-data).
 
 #### Procedure
 
-*DataHub > Settings > Tab ATTRIBUTE SETS*
+*DataHub > Settings > Tab ATTRIBUTE SETS > Button Add*
 
 ![Create attribute set inheritance](../../Assets/Screenshots/DataHub/Settings/AttributeSets/CreateAttributeSetInheritance.png "[Create attribute set inheritance]")
 
@@ -99,12 +98,11 @@ Each time a change is made in the inheritance attribute set, the linked attribut
 
 #### Prerequisites
 
-- Additional attributes for the attribute set have been created, see [Create an attribute](./01_ManageAttributs.md#create-an-attribute).
-- The basic data of the attribute set has been completed, see [Define the attribute set basic data](#define-the-attribute-set-basic-data).
+The basic data of the attribute set has been completed, see [Define the attribute set basic data](#define-the-attribute-set-basic-data).
 
 #### Procedure
 
-*DataHub > Settings > Tab ATTRIBUTE SETS*
+*DataHub > Settings > Tab ATTRIBUTE SETS > Button Add*
 
 ![Create attribute set inheritance](../../Assets/Screenshots/DataHub/Settings/AttributeSets/CreateAttributeSetInheritance.png "[Create attribute set inheritance]")
 
@@ -131,12 +129,11 @@ Further changes in the copied attribute set or not affecting the created attribu
 
 #### Prerequisites
 
-- Additional attributes for the attribute set have been created, see [Create an attribute](./01_ManageAttributs.md#create-an-attribute).
-- The basic data of the attribute set has been completed, see [Define the attribute set basic data](#define-the-attribute-set-basic-data).
+The basic data of the attribute set has been completed, see [Define the attribute set basic data](#define-the-attribute-set-basic-data).
 
 #### Procedure
 
-*DataHub > Settings > Tab ATTRIBUTE SETS*
+*DataHub > Settings > Tab ATTRIBUTE SETS > Button Add*
 
 ![Create attribute set inheritance](../../Assets/Screenshots/DataHub/Settings/AttributeSets/CreateAttributeSetInheritance.png "[Create attribute set inheritance]")
 
@@ -170,7 +167,7 @@ In the *DataHub* module all available attributes can be added to the different a
 #### Prerequisites
 
 - An attribute set has been created, see [Create an attribute set](#create-an-attribute-set).
-- At least one additional attribute has been created, see [Create an attribute](./01_ManageAttributes.md#create-an-attribute).
+- At least one additional attribute  that is not yet assigned to the attribute set has been created, see [Create an attribute](./01_ManageAttributes.md#create-an-attribute).
 
 #### Procedure
 
@@ -196,8 +193,7 @@ In the *DataHub* module all available attributes can be added to the different a
 4. Click the [ADD] button in the editing toolbar.   
   The selected attributes have been added to the attribute set. The *Add attributes* view is closed. The *Edit attribute set* view is displayed again. The added attributes are displayed in the *Assigned attributes* section.
 
-5. Click the [SAVE] button.   
-  The changes have been saved. The *Edit attribute set* view is closed.
+> [Info] Any changes to the assigned attributes are automatically saved in the attribute set.
 
 
 
@@ -209,7 +205,7 @@ Inherited attributes or mapped attributes cannot be removed from an attributes s
 #### Prerequisites
 
 - An attribute set has been created, see [Create an attribute set](#create-an-attribute-set).
-- At least one additional attribute has been added to the attribute set, see [Add an attribute to the set](#add-an-attribute-to-the-set).
+- At least one additional attribute that is not yet assigned to the attribute set has been created, see [Create an attribute](./01_ManageAttributes.md#create-an-attribute).
 
 #### Procedure
 
@@ -226,12 +222,12 @@ Inherited attributes or mapped attributes cannot be removed from an attributes s
   The editing toolbar is displayed above the list.
 
 3. Click the ![Delete](../../Assets/Icons/Trash03.png "[Delete]") (Delete) button in the editing toolbar.   
-  The selected attributes have been removed from the attribute set. The list of attributes is updated.
 
   > [Info] If the selected attributes cannot be removed from the attribute set, an error message is displayed in the upper right corner.
 
-4. Click the [SAVE] button.   
-  The changes have been saved. The *Edit attribute set* view is closed.
+  The selected attributes have been removed from the attribute set. The list of attributes is updated.
+
+> [Info] Any changes to the assigned attributes are automatically saved in the attribute set.
 
 
 
@@ -246,7 +242,6 @@ Note that inherited attributes can only be changed in the origin attribute set a
 
 Be aware that the activation or deactivation of languages affects the completeness calculation.
 Further, deactivated attributes are not included in the completeness calculation even if they are required.
-
 
 #### Prerequisites
 
@@ -289,6 +284,7 @@ If you deactivate an attribute set, it is no longer available when creating attr
 At least one attribute set has been created, see [Create an attribute set](#create-an-attribute-set).
 
 #### Procedure
+
 *DataHub > Settings > Tab ATTRIBUTE SETS*
 
 ![Attributes](../../Assets/Screenshots/DataHub/Settings/AttributeSets/AttributeSets.png "[Attributes]")
@@ -305,4 +301,4 @@ At least one attribute set has been created, see [Create an attribute set](#crea
 3. Click the [SAVE] button.   
   The attribute set has been deactivated. The *Edit attribute set* view is closed.
 
-4. Press **F5** to initialize the *Core1 Platform* and to apply the changes.
+4. Press the **F5** key to initialize the *Core1 Platform* and to apply the changes.

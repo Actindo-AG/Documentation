@@ -77,6 +77,7 @@ Attribute groups are organized in a tree structure with a maximum depth of two l
 At least one attribute group has been created, see [Create an attribute group](#create-an-attribute-group).
 
 #### Procedure
+
 *DataHub > Settings > Tab ATTRIBUTE GROUPS*
 
 ![Attribute groups](../../Assets/Screenshots/DataHub/Settings/AttributeGroups/AttributeGroups.png "[Attribute groups]")
@@ -144,7 +145,7 @@ At least two attribute groups have been created, see [Create an attribute group]
 
 2. Click and hold the ![Sort](../../Assets/Icons/Sort01.png "[Sort]") (Sort) button to the left of the attribute group you want to move to another position in the list.
 
-3. By using drag and drop, move the selected attribute group to the desired position in the list.
+3. Move the selected attribute group to the desired position in the list by using drag and drop.
 
 4. Click the [SAVE] button in the upper right corner.  
   The new attribute group order has been saved. The *Edit attribute groups* view is closed.
@@ -221,10 +222,10 @@ If you add an attribute to an attribute group that is already added to another g
 
   ![Add attributes](../../Assets/Screenshots/DataHub/Settings/AttributeGroups/AddAttributes.png "[Add attributes]")
 
-3. Select the checkboxes of the attributes in the list, you want to add to the selected attribute group.   
-  A toolbar is displayed above the list.
+3. Select the checkboxes of the attributes you want to add to the selected attribute group.   
+  The editing toolbar is displayed above the list.
 
-  > [Info] Enable the *Only Unassigned Attributes* toggle above the list to hide all attributes that are already assigned to an attribute group.
+  > [Info] Enable the *Only unassigned attributes* toggle above the list to hide all attributes that are already assigned to an attribute group.
 
 4. Click the [ADD] button in the toolbar.
   The *Add attributes to attribute group* view is closed. The selected attributes have been added to the attribute group.
@@ -264,7 +265,7 @@ Just select the attribute sub-group instead of the group and follow the steps de
 
 3. Click and hold the ![Sort](../../Assets/Icons/Sort01.png "[Sort]") (Sort) button to the left of the attribute you want to move to another position in the list.
 
-4. By using drag and drop, move the selected attribute to the desired position in the list.
+4. Move the selected attribute to the desired position in the list by using drag and drop.
 
   > [Info] Repeat the steps **3** and **4** for all attributes whose position in the list you want to change.
 
@@ -299,7 +300,7 @@ Just select the attribute sub-group instead of the group and follow the steps de
   ![Group attributes](../../Assets/Screenshots/DataHub/Settings/AttributeGroups/GroupAttributes.png "[Group attributes]")
 
 2. Select the checkboxes of the attributes in the list, you want to remove from the selected attribute group.   
-  A toolbar is displayed above the list.
+  The editing toolbar is displayed above the list.
 
 3. Click the ![Remove](../../Assets/Icons/Trash03.png "[Remove]") (Remove) button in the toolbar.   
   The selected attributes have been removed from the list.

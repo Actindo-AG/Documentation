@@ -15,4 +15,4 @@ The *Settings* user interface is composed of the following tabs:
   - [DELETED ATTRIBUTES](./02i_DeletedAttributes.md)
   - [HTML TEMPLATES](./02j_HTMLTemplates.md)
 
-The *HTML TEMPLATES* tab is only displayed when the *HTML Templates for ETL* plugin is installed.
+The *HTML TEMPLATES* tab is only displayed if the *HTML Templates for ETL* plugin is installed.

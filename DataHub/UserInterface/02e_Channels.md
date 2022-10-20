@@ -104,7 +104,7 @@ The list displays all channels. Depending on the settings, the displayed columns
 
 
 - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Active*   
-  Enable this toggle to set the channel status to active. Disable the toggle to set the channel to inactive. By default, this toggle is disabled.
+  Enable this toggle to set the channel status to active. Disable the toggle to set the channel status to inactive. By default, this toggle is disabled.
 
 
 

@@ -1,6 +1,9 @@
 # Data type list
 
-To [create an attribute](../../DataHub/Integration/01_ManageAttributes.md#create-an-attribute), you have to define a data type. In the *DataHub* module, all data types from all plugins that interact with the *DataHub* module are available. Depending on the plugins installed in the current system, the list of data types varies. In the following, the available data types, their use and their configuration and their owning plugin are described in detail:
+To create an attribute, you have to define a data type.
+In the *DataHub* module, all data types from all plugins that interact with the *DataHub* module are available.
+Depending on the plugins installed in the current system, the list of data types varies.
+In the following, the available data types, their use and their configuration and their owning plugin are described in detail:
 
 - [Textfield](#textfield)
 - [Checkbox](#checkbox)
@@ -50,8 +53,8 @@ To [create an attribute](../../DataHub/Integration/01_ManageAttributes.md#create
 
 ![Textfield](../../Assets/Screenshots/DataHub/DataTypes/Textfield.png "[Textfield]")
 
-The data type *Textfield* is used for long texts, e. g. for descriptions. You can configure the text length and select to use a basic editor or an WYSIWYG editor (HTML editor).
-In the *PIM Basic Set*, the following attributes have the data type *Textfield*:
+The *Textfield* data type is used for long texts, for example for descriptions. You can configure the text length and select to use a basic editor or an WYSIWYG editor (HTML editor).
+In the *PIM Basic Set*, the following attributes have the *Textfield* data type:
 - Product short description
 - Product description
 - Long text
@@ -75,19 +78,19 @@ The *DataHub* plugin owns this data type.
   Enable this toggle to enable the HTML editor for the textfield. A WYSIWIG-editor is displayed to edit the textfield. Disable the toggle to disable the HTML editor for the textfield. By default, this toggle is disabled.
 
 - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Read only*   
-  Enable this toggle to set the textfield read-only. Disable the toggle to set the textfield editable. By default, this toggle is disabled.
+  Enable this toggle to set the textfield to read-only. Disable the toggle to set the textfield to editable. By default, this toggle is disabled.
 
 
 ## Checkbox
 
 ![Checkbox](../../Assets/Screenshots/DataHub/DataTypes/Checkbox.png "[Checkbox]")
 
-The data type *Checkbox* is used to indicate a statement that is either true or false, e. g. if a product is a digital or real product. The checkbox is displayed by a toggle. In the *PIM Basic Set*, the following attributes have the data type *Checkbox*:
+The *Checkbox* data type is used to indicate a statement that is either true or false, for example if a product is a digital or a real product. The checkbox is displayed by a toggle. In the *PIM Basic Set*, the following attributes have the *Checkbox* data type:
 - Sale item
 - 18+
 - Digital item
 
-> [Info] Note that the date type *Checkbox* also has the third value **not set**. When creating or importing a product, the value **not set** is set for the corresponding attribute. After saving, the value switches automatically to **false** if it was not manually changed to **true**. This may cause problems when connecting to other systems, for example shops or marketplaces, with different default settings for checkboxes.   
+> [Info] Note that the *Checkbox* date type also has the third value **not set**. When creating or importing a product, the value **not set** is set for the corresponding attribute. After saving, the value switches automatically to **false** if it has not been manually changed to **true**. This may cause problems when connecting to other systems, for example shops or marketplaces, with different default settings for checkboxes.   
 
 The *DataHub* plugin owns this data type.
 
@@ -100,7 +103,7 @@ This data type has no further configuration settings.
 
 ![Floating point number](../../Assets/Screenshots/DataHub/DataTypes/FloatingPointNumber.png "[Floating point number]")
 
-The data type *Floating point number* is used to indicate decimal numbers without a unit. You can configure the number of decimal places and the number range.
+The *Floating point number* data type is used to indicate decimal numbers without a unit. You can configure the number of decimal places and the number range.
 
 The *DataHub* plugin owns this data type.
 
@@ -120,14 +123,14 @@ The *DataHub* plugin owns this data type.
   Enter a maximum value for the floating point number.  
 
 - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Read only*   
-  Enable this toggle to set the floating point number read-only. Disable the toggle to set the floating point number editable. By default, this toggle is disabled.
+  Enable this toggle to set the floating point number to read-only. Disable the toggle to set the floating point number to editable. By default, this toggle is disabled.
 
 
 ## Integer
 
 ![Integer](../../Assets/Screenshots/DataHub/DataTypes/Integer.png "[Integer]")
 
-The data type *Integer* is used to indicate whole numbers without a unit. You can configure the number range.
+The *Integer* data type is used to indicate whole numbers without a unit. You can configure the number range.
 
 The *DataHub* plugin owns this data type.
 
@@ -142,14 +145,14 @@ The *DataHub* plugin owns this data type.
   Enter a maximum value for the integer.  
 
 - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Read only*   
-  Enable this toggle to set the integer read-only. Disable the toggle to set the integer editable. By default, this toggle is disabled.
+  Enable this toggle to set the integer to read-only. Disable the toggle to set the integer to editable. By default, this toggle is disabled.
 
 
 ## String
 
 ![String](../../Assets/Screenshots/DataHub/DataTypes/String.png "[String]")
 
-The data type *String* is used for short texts or alphanumeric information, e. g. keywords. You can configure the string length and define regular expressions for the string. In the *PIM Basic Set*, the following attributes have the data type *String*:
+The *String* data type is used for short texts or alphanumeric information, for example keywords. You can configure the string length and define regular expressions for the string. In the *PIM Basic Set*, the following attributes have the *String* data type:
 - Product name
 - EAN-code
 - Customs tariff number
@@ -176,14 +179,14 @@ The *DataHub* plugin owns this data type.
   Enter a regular expression for the string. For detailed information about regular expressions, see https://regex101.com/.
 
 - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Read only*   
-  Enable this toggle to set the string read-only. Disable the toggle to set the string editable. By default, this toggle is disabled.
+  Enable this toggle to set the string to read-only. Disable the toggle to set the string to editable. By default, this toggle is disabled.
 
 
 ## Currency
 
 ![Currency](../../Assets/Screenshots/DataHub/DataTypes/Currency.png "[Currency]")
 
-The data type *Currency* is used to indicate a currency. A drop-down list with all currencies in the system is displayed in the product view.
+The *Currency* data type is used to indicate a currency. A drop-down list with all currencies in the system is displayed in the product view.
 
 The *DataHub* plugin owns this data type.
 
@@ -196,7 +199,7 @@ This data type has no further configuration settings.
 
 ![Language](../../Assets/Screenshots/DataHub/DataTypes/Language.png "[Language]")
 
-The data type *Language* is used to indicate a language. A drop-down list with all languages in the system is displayed in the product view.
+The *Language* data type is used to indicate a language. A drop-down list with all languages in the system is displayed in the product view.
 
 ### Configuration
 
@@ -209,7 +212,7 @@ The *DataHub* plugin owns this data type.
 
 ![Country](../../Assets/Screenshots/DataHub/DataTypes/Country.png "[Country]")
 
-The data type *Country* is used to indicate a country. A drop-down list with all countries in the system is displayed in the product view. In the *PIM Basic Set*, the *Country of origin* attribute has the data type *Country*.
+The *Country* data type is used to indicate a country. A drop-down list with all countries in the system is displayed in the product view. In the *PIM Basic Set*, the *Country of origin* attribute has the *Country* data type.
 
 The *DataHub* plugin owns this data type.
 
@@ -220,7 +223,7 @@ This data type has no further configuration settings.
 
 ## TreeNode
 
-The data type *TreeNode* is used for indications with multiple, predefined selection options. You have to define the different selection options in the configuration. Additionally you can configure whether the selection of values will be a multiple or single selection.
+The *TreeNode* is used for indications with multiple, predefined selection options. You have to define the different selection options in the configuration. Additionally, you can configure whether the selection of values will be a multiple or single selection.
 
 > [Info] Note that tree nodes are monolingual. The values are maintained in one single language, but the values are translatable. For example, when adding an element to a tree node attribute defining different colors, it doesn't make sense to add one element *red* and one element *rot* as both elements describe the same color. Instead, only add the the color element in one language.
 
@@ -231,9 +234,9 @@ The data type *TreeNode* is used for indications with multiple, predefined selec
 ![TreeNode](../../Assets/Screenshots/DataHub/DataTypes/Configuration/TreeNode.png "[TreeNode]")
 
 - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Multi Select*   
-  Enable this toggle to enable a multiple selection of values. Disable the toggle to allow only a single selection of values. By default, this toggle is disabled.
+  Enable this toggle to allow a multiple selection of values. Disable the toggle to allow only a single selection of values. By default, this toggle is disabled.
 
-> [Info] In the product view, the data type *TreeNode* is displayed either by a drop-down list or a a box with all created options. The drop-down list is only displayed for one dimensional single select trees.
+> [Info] In the product view, the *TreeNode* data type is displayed either by a drop-down list or by a box with all created options. The drop-down list is only displayed for one dimensional single-select trees.
 
 **Edit tree**
 
@@ -263,7 +266,7 @@ The *DataHub* plugin owns this data type.
 
 This data type is for internal use only. It is strongly advised not to use this data type without the required knowledge.   
 The data type is used to show the completeness of a product, according to the required fields in the attribute set.
-In the *PIM Basic Set*, the *Completeness* attribute has the data type *Completeness*.
+In the *PIM Basic Set*, the *Completeness* attribute has the *Completeness* data type.
 
 The *DataHub* plugin owns this data type.
 
@@ -272,7 +275,7 @@ The *DataHub* plugin owns this data type.
 
 ![Number with Unit](../../Assets/Screenshots/DataHub/DataTypes/NumberUnit.png "[Number with Unit]")
 
-The data type *Number with Unit* is used for numerical specifications of a certain unit of measurement, e. g. weight specifications. You can configure the applicable dimension and unit of measurement. Depending on the selected dimension, the options for the unit are adapted. In the *PIM Basic Set*, the following attributes have the data type *Number with Unit*:
+The *Number with Unit* is used for numerical specifications of a certain unit of measurement, for example weight specifications. You can configure the applicable dimension and unit of measurement. Depending on the selected dimension, the options for the unit are adapted. In the *PIM Basic Set*, the following attributes have the *Number with Unit* data type:
 - Length
 - Width
 - Depth
@@ -295,7 +298,7 @@ The *DataHub* plugin owns this data type.
 
 ![DateTime](../../Assets/Screenshots/DataHub/DataTypes/DateTime.png "[DateTime]")
 
-The data type *DateTime* is used to indicate a date and/or a time. You can configure whether to display or not the date and the time and you can select a date and time format. A calendar widget to select the date is displayed in the product view. In the *PIM Basic Set*, the *Expiration date* attribute has the data type *DateTime*.
+The *DateTime* data type is used to indicate a date and/or a time. You can configure whether to display or not the date and the time, and you can select a date and time format. A calendar widget to select the date is displayed in the product view. In the *PIM Basic Set*, the *Expiration date* attribute has the *DateTime* data type.
 
 The *DataHub* plugin owns this data type.
 
@@ -305,24 +308,31 @@ The *DataHub* plugin owns this data type.
 
 - *Date*   
   Click the drop-down list to select a date format. The formats below are available. By default, the date format **Short** is selected.
-  - **Do not show date**: hidden date
-  - **Short**: short format, for example 02/11/2021
-  - **Medium**: medium format, writing out the month, for example February 11, 2021
-  - **Long**: long format, adding the weekday and writing out the month, for example Monday, February 11, 2021
+  - **Do not show date**   
+    hidden date
+  - **Short**   
+    short format, for example 02/11/2021
+  - **Medium**   
+    medium format, writing out the month, for example February 11, 2021
+  - **Long**   
+    long format, adding the weekday and writing out the month, for example Monday, February 11, 2021
 
 
 - *Time*    
   Click the drop-down list to select a time format. The formats below are available. By default, the time format **Medium** is selected.
-  - **Do not show time**: hidden time
-  - **Short**: short format, for example 09:00 PM
-  - **Medium**: medium format, including seconds, for example 09:00:00 PM
+  - **Do not show time**   
+    hidden time
+  - **Short**   
+    short format, for example 09:00 PM
+  - **Medium**   
+    medium format, including seconds, for example 09:00:00 PM
 
 
 ## Sales unit value
 
 ![Sales Unit Value](../../Assets/Screenshots/DataHub/DataTypes/SalesUnitValue.png "[Sales Unit Value]")
 
-The data type *Sales Unit Value* is used to define a dimension and a unit. Two drop-down lists to select the applicable dimension and unit are displayed in the product view. Depending on the selected dimension, the options for the unit are adapted. In the *PIM Basic Set*, the *Sale unit* attribute has the data type *Sales Unit Value*.
+The *Sales Unit Value* data type is used to define a dimension and a unit. Two drop-down lists to select the applicable dimension and unit are displayed in the product view. Depending on the selected dimension, the options for the unit are adapted. In the *PIM Basic Set*, the *Sale unit* attribute has the *Sales Unit Value* data type.
 
 The *DataHub* plugin owns this data type.
 
@@ -335,7 +345,7 @@ This data type has no further configuration settings.
 
 ![Simple price field](../../Assets/Screenshots/DataHub/DataTypes/SimplePriceField.png "[Simple price field]")
 
-The data type *Simple price field* is used to indicate a price. You can configure the use of gross or net price, the display of an MSRP field and promotion prices and the currency to be used. Additionally, you can create scale prices in the product view. Unlike the data type *PIM price field*, the data type *Simple price field* requires less information to indicate the price.
+The *Simple price field* data type is used to indicate a price. You can configure the use of gross or net price, the display of an MSRP field and promotion prices, and the currency to be used. Additionally, you can create scale prices in the product view. Unlike the *PIM price field* data type, the *Simple price field* data type requires less information to indicate the price.
 
 The *DataHub* plugin owns this data type.
 
@@ -346,13 +356,13 @@ The *DataHub* plugin owns this data type.
 - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Gross prices*   
   Enable this toggle to display gross prices. Disable the toggle to display net prices. By default, this toggle is enabled.
 
-  > [Info] Note that it is especially for the ETL-mapping very important if prices are net or gross.
+  > [Info] Note that, especially for the ETL-mapping, it is very important if prices are net or gross.
 
 - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Show MSRP field*   
   Enable this toggle to display the MSRP field. Disable the toggle to hide the MSRP field. By default, this toggle is disabled.
 
 - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Use Promotions*    
-  Enable this toggle to enable to enter a promotion period for prices. Disable the toggle to not allow promotion prices. By default, this toggle is disabled.
+  Enable this toggle to allow to enter a promotion period for prices. Disable the toggle to not allow promotion prices. By default, this toggle is disabled.
 
 - *Currency*   
   Click the drop-down list to select the currency to be used. All available currencies are displayed in the drop-down list. By default, the default currency is preselected.
@@ -364,7 +374,7 @@ The *DataHub* plugin owns this data type.
 
 ![Stock Value](../../Assets/Screenshots/DataHub/DataTypes/StockValue.png "[Stock Value]")
 
-The data type *Stock Value* is used to indicate the number of stocks. You can configure the number of decimal places. A new target channel for this stock is created in the *Stock* module for the inventory assignment. In the *PIM Basic Set*, the *Stock* attribute has the data type *Stock value*.
+The *Stock Value* data type is used to indicate the number of stocks. You can configure the number of decimal places. A new target channel for this stock is created in the *Warehouse* module for the inventory assignment. In the *PIM Basic Set*, the *Stock* attribute has the *Stock value* data type.
 
 The *DataHub* plugin owns this data type.
 
@@ -376,7 +386,7 @@ The *DataHub* plugin owns this data type.
   Enter the number of decimals for the stock value. By default the number of decimals is set to **4**.  
 
 - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Read only*   
-  Enable this toggle to set the stock value read-only. Disable the toggle to set the stock value editable. By default, this toggle is enabled.
+  Enable this toggle to set the stock value to read-only. Disable the toggle to set the stock value to editable. By default, this toggle is enabled.
 
   > [Info] If the warehouse logistic for an product is active and the *Warehousing* module is correctly connected, the stocks are transferred from the invoicing and automatically written into this attribute value. It is only recommended to deactivate the toggle *Read only* if the warehouse logistic is inactive and a stock value is needed.
 
@@ -413,9 +423,9 @@ The *DataHub* plugin owns this data type.
 
 ![Taxclass](../../Assets/Screenshots/DataHub/DataTypes/Taxclass.png "[Taxclass]")
 
-The data type *Taxclass* is used to indicate the tax class. A drop-down list with all available tax classes is displayed in the product view.
+The *Taxclass* data type is used to indicate the tax class. A drop-down list with all available tax classes is displayed in the product view.
 
-  > [Info] For detailed information about creating a tax class, see [Create a tax class](to_be_completed_#create-a-tax-class).
+  > [Info] For detailed information about creating a tax class, see [Create a tax class](../../Taxes/Integration/02_ManageTaxClasses.md#create-a-tax-class).
 
 The *Taxes* plugin owns this data type.
 
@@ -428,9 +438,9 @@ This data type has no further configuration settings.
 
 ![Taxzone](../../Assets/Screenshots/DataHub/DataTypes/Taxzone.png "[Taxzone]")
 
-The data type *Taxzone* is used to indicate the tax zone. A drop-down list with all available tax zones is displayed in the product view.
+The *Taxzone* data type is used to indicate the tax zone. A drop-down list with all available tax zones is displayed in the product view.
 
-  > [Info] For detailed information about creating a tax zone, see [Create a tax zone](to_be_completed_#create-a-tax-zone).
+  > [Info] For detailed information about creating a tax zone, see [Create a tax zone](../../Taxes/Integration/03_ManageTaxZones.md#create-a-tax-zone).
 
 The *Taxes* plugin owns this data type.
 
@@ -444,7 +454,7 @@ This data type has no further configuration settings.
 
 ![Images](../../Assets/Screenshots/DataHub/DataTypes/Images.png "[Images]")
 
-The data type *Images* is used to attach images. You can configure the filename prefix of the uploaded image, the allowed number of images and the file extensions. A preview of the uploaded images is displayed in the product view. In the *PIM Basic Set*, the *Images* attribute has the data type *Images*.     
+The *Images* data type is used to attach images. You can configure the filename prefix of the uploaded image, the allowed number of images and the file extensions. A preview of the uploaded images is displayed in the product view. In the *PIM Basic Set*, the *Images* attribute has the *Images* data type.     
 
 The *ECM Integration in DataHub* plugin owns this data type.
 
@@ -453,7 +463,7 @@ The *ECM Integration in DataHub* plugin owns this data type.
 ![Images](../../Assets/Screenshots/DataHub/DataTypes/Configuration/Images.png "[Images]")
 
 - *Field for filename prefix*   
-  Enter a fixed field name whose value will be used as filename prefix for the uploaded image, e. g. **id** or **sku**.
+  Enter a fixed field name whose value will be used as filename prefix for the uploaded image, for example **id** or **sku**.
 
 - *Min number of images*     
   Enter the minimum number of images.
@@ -469,7 +479,7 @@ The *ECM Integration in DataHub* plugin owns this data type.
 
 ![Files](../../Assets/Screenshots/DataHub/DataTypes/Files.png "[Files]")
 
-The data type *Files* is used to attach files. You can configure the filename prefix of the uploaded file, the allowed number of files and the file extensions. The uploaded files are displayed in a list in the product view. In the *PIM Basic Set*, the *Files* attribute has the data type *Files*.    
+The *Files* data type is used to attach files. You can configure the filename prefix of the uploaded file, the allowed number of files and the file extensions. The uploaded files are displayed in a list in the product view. In the *PIM Basic Set*, the *Files* attribute has the *Files* data type.    
 
 The *ECM Integration in DataHub* plugin owns this data type.
 
@@ -478,7 +488,7 @@ The *ECM Integration in DataHub* plugin owns this data type.
 ![Files](../../Assets/Screenshots/DataHub/DataTypes/Configuration/Files.png "[Files]")
 
 - *Field for filename prefix*   
-  Enter a fixed field name whose value will be used as filename prefix for the uploaded file , e. g. **id** or **sku**.
+  Enter a fixed field name whose value will be used as filename prefix for the uploaded file , for example **id** or **sku**.
 
 - *Min number of files*     
   Enter the minimum number of files.
@@ -494,7 +504,7 @@ The *ECM Integration in DataHub* plugin owns this data type.
 ## PIM-Channels connection (internal, not editable)
 
 This data type is for internal use only. It is strongly advised not to use this data type without the required knowledge.   
-In the *PIM Basic Set*, the *PIM Omni-Channel Connection* attribute has the data type *PIM-Channels Connection*.
+In the *PIM Basic Set*, the *PIM Omni-Channel Connection* attribute has the *PIM-Channels Connection* data type.
 
 The *PIM Channels Connection* plugin owns this data type.
 
@@ -508,7 +518,7 @@ The *UCS Product Sync* plugin owns this data type.
 
 ## PIM product variants
 
-This data type is for internal use only. It is strongly advised not to use this data type without the required knowledge. In the *PIM Basic Set*, the *Product variants* attribute has the data type *PIM product variants*.
+This data type is for internal use only. It is strongly advised not to use this data type without the required knowledge. In the *PIM Basic Set*, the *Product variants* attribute has the *PIM product variants* data type.
 
 The *PIM* plugin owns this data type.
 
@@ -524,7 +534,7 @@ The *Omni-Channel* plugin owns this data type.
 
 ![Cloudinary image](../../Assets/Screenshots/DataHub/DataTypes/CloudinaryImage.png "[Cloudinary image]")
 
-The data type *Cloudinary Image* is used to attach image files from Cloudinary. You can configure further data exchange settings for the image files. You can import image files from Cloudinary or upload image files to Cloudinary in the product view. This data type is only available when the *Cloudinary* module is installed.
+The *Cloudinary Image* data type is used to attach image files from Cloudinary. You can configure further data exchange settings for the image files. You can import image files from Cloudinary or upload image files to Cloudinary in the product view. This data type is only available when the *Cloudinary* module is installed.
 
 The *Cloudinary* plugin owns this data type.
 
@@ -533,10 +543,10 @@ The *Cloudinary* plugin owns this data type.
 ![Cloudinary image](../../Assets/Screenshots/DataHub/DataTypes/Configuration/CloudinaryImage.png "[Cloudinary image]")
 
 - *Folder*   
-  Enter a folder name where the images are put into. If the folder is not yet created in Cloudinary, it is automatically created when uploading the first image. Use placeholders to define product specific folder, for instance **{sku}**.
+  Enter a folder name where the images are put into. If the folder is not yet created in Cloudinary, it is automatically created when uploading the first image. Use placeholders to define product specific folders, for example **{sku}**.
 
 - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Read only*   
-  Enable this toggle to set the C*loudinary Image* value read-only. Disable the toggle to set the *Cloudinary Image* value editable. By default, this toggle is disabled.
+  Enable this toggle to set the *Cloudinary Image* value to read-only. Disable the toggle to set the *Cloudinary Image* value to editable. By default, this toggle is disabled.
 
 - *Import Regex*     
   Enter a regular expression to restrict the listed items for the import of images from Cloudinary. The restriction is applied to the filename. If the field is left blank, no restriction is applied. For detailed information about regular expressions, see https://regex101.com/.
@@ -556,7 +566,7 @@ In this section all structured meta data fields from the selected Cloudinary con
 
 ![Cloudinary video](../../Assets/Screenshots/DataHub/DataTypes/CloudinaryVideo.png "[Cloudinary video]")
 
-The data type *Cloudinary Video* is used to attach video files from Cloudinary. You can configure further data exchange settings for the video files. You can import video files from Cloudinary or upload video files to Cloudinary in the product view. This data type is only available when the *Cloudinary* module is installed.
+The *Cloudinary Video* data type is used to attach video files from Cloudinary. You can configure further data exchange settings for the video files. You can import video files from Cloudinary or upload video files to Cloudinary in the product view. This data type is only available when the *Cloudinary* module is installed.
 
 The *Cloudinary* plugin owns this data type.
 
@@ -565,10 +575,10 @@ The *Cloudinary* plugin owns this data type.
 ![Cloudinary video](../../Assets/Screenshots/DataHub/DataTypes/Configuration/CloudinaryVideo.png "[Cloudinary video]")
 
 - *Folder*   
-  Enter a folder name where the videos are put into. If the folder is not yet created in Cloudinary, it is automatically created when uploading the first video file. Use placeholders to define product specific folder, for instance **{sku}**.
+  Enter a folder name where the videos are put into. If the folder is not yet created in Cloudinary, it is automatically created when uploading the first video file. Use placeholders to define product specific folders, for example **{sku}**.
 
 - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Read only*   
-  Enable this toggle to set the *Cloudinary Video* value read-only. Disable the toggle to set the *Cloudinary Video* value editable. By default, this toggle is disabled.
+  Enable this toggle to set the *Cloudinary Video* value to read-only. Disable the toggle to set the *Cloudinary Video* value to editable. By default, this toggle is disabled.
 
 - *Import Regex*     
   Enter a regular expression to restrict the listed items for the import of videos from Cloudinary. The restriction is applied to the filename. If the field is left blank, no restriction is applied. For detailed information about regular expressions, see https://regex101.com/.
@@ -597,7 +607,7 @@ The *DataHub* plugin owns this data type.
 
 ![Offer bundle](../../Assets/Screenshots/DataHub/DataTypes/OfferBundle.png "[Offer bundle]")
 
-The data type *Offer bundle* is used to create bundles of multiple other products. The data type is only used for Omni-Channel offers, but not for PIM products.
+The *Offer bundle* data type is used to create bundles of multiple other products. The data type is only used for Omni-Channel offers, but not for PIM products.
 
 The *Omni-Channel* plugin owns this data type.
 
@@ -632,7 +642,7 @@ The *Global Driver Management* plugin owns this data type.
 
 ![Related products](../../Assets/Screenshots/DataHub/DataTypes/RelatedProducts.png "[Related products]")
 
-The data type *Related products* is used to connect other products to the selected product, e. g. for product recommendations. You can configure the allowed number of related products. You can select each created product as a related product in the product view. In the *PIM Basic Set*, the *Product relations* attribute has the data type *Related products*.
+The *Related products* data type is used to connect other products to the selected product, for example for product recommendations. You can configure the allowed number of related products. You can select each created product as a related product in the product view. In the *PIM Basic Set*, the *Product relations* attribute has the *Related products* data type.
 
 The *PIM* plugin owns this data type.
 
@@ -651,7 +661,7 @@ The *PIM* plugin owns this data type.
 
 ![PIM Price Field](../../Assets/Screenshots/DataHub/DataTypes/PIMPriceField.png "[PIM Price Field]")
 
-The data type *PIM Price Field* is used to indicate a price. You can configure the number of decimals for the price and the supported currencies. In the product view, you must select a tax class for price calculation. Additionally, you can define a MSRP, scale prices and promotion periods. Unlike the data type *Simple price field*, the data type *PIM Price Field* offers more setting options and therefore also a more detailed and extended price specification. In the *PIM Basic Set*, the *Price* attribute has the data type *PIM Price Field*.
+The *PIM Price Field* data type is used to indicate a price. You can configure the number of decimals for the price and the supported currencies. In the product view, you must select a tax class for price calculation. Additionally, you can define a MSRP, scale prices and promotion periods. Unlike the *Simple price field* data type, the *PIM Price Field* data type offers more setting options and therefore also a more detailed and extended price specification. In the *PIM Basic Set*, the *Price* attribute has the *PIM Price Field* data type.
 
 The *PIM* plugin owns this data type.
 
@@ -686,7 +696,7 @@ The *UCS Product Sync* plugin owns this data type.
 
 ![Base price](../../Assets/Screenshots/DataHub/DataTypes/BasePrice.png "[Base price]")
 
-The data type *Base price* is used to indicate a base price. The base price is necessary to calculate the price per unit which is mandatory in th EU. Two drop-down lists to select the applicable dimension and unit and a field to enter the corresponding amount of the product are displayed in the product view. In the *PIM Basic Set*, the *Base unit (Base price)* attribute has the data type *Base price*:
+The *Base price* data type is used to indicate a base price. The base price is necessary to calculate the price per unit, which is mandatory in the EU. Two drop-down lists to select the applicable dimension and unit and a field to enter the corresponding amount of the product are displayed in the product view. In the *PIM Basic Set*, the *Base unit (Base price)* attribute has the *Base price* data type:
 
 The *PIM* plugin owns this data type.
 
@@ -699,7 +709,7 @@ This data type has no further configuration settings.
 
 ![Product bundle](../../Assets/Screenshots/DataHub/DataTypes/ProductBundle.png "[Product bundle]")
 
-The data type *Product bundle* is used to define products that can be sold in a bundle with the selected product. In a product bundle, several different products are sold together, e. g. at a promotional price, without forming a packaging unit. That means, that each product has still its own EAN-code and can also be purchased by itself. You can configure the number of allowed products in a product bundle. In the *PIM Basic Set*, the *Bundle* attribute has the data type *Product bundle*:
+The *Product bundle* data type is used to define products that can be sold in a bundle with the selected product. In a product bundle, several different products are sold together, for example at a promotional price, without forming a packaging unit. That means, that each product has still its own EAN-code and can also be purchased by itself. You can configure the number of allowed products in a product bundle. In the *PIM Basic Set*, the *Bundle* attribute has the *Product bundle* data type:
 
 The *PIM* plugin owns this data type.
 
@@ -718,7 +728,7 @@ The *PIM* plugin owns this data type.
 
 ![Packaging Unit](../../Assets/Screenshots/DataHub/DataTypes/PackagingUnit.png "[Packaging Unit]")
 
-The data type *Packaging Unit* is used to define packaging units. In a packaging unit, several same products are sold together in one fixed package. This package has its own EAN code and is handled as an own product. Therefore the packaging unit must be maintained in the single product. You can create multiple packaging units for a product in the product view.
+The *Packaging Unit* data type is used to define packaging units. In a packaging unit, several identical products are sold together in one fixed package. This package has its own EAN code and is handled as its own product. Therefore the packaging unit must be maintained in the single product. You can create multiple packaging units for a product in the product view.
 
 The *PIM* plugin owns this data type.
 
