@@ -5,7 +5,8 @@
 ![Products](../../Assets/Screenshots/PIM/Products/List/Products.png "[Products]")
 
 - *View*   
-  Click the drop-down list to select the view. All created views are displayed in the drop-down list. Click the ![Points](../../Assets/Icons/Points01.png "[Points]") (Points) button to the right of the *View* drop-down list to display the context menu and create or edit a view. For detailed information, see [Create a view](../Operation/04_ManageView.md#create-a-view).
+  Click the drop-down list to select the view. All created views are displayed in the drop-down list. Click the ![Points](../../Assets/Icons/Points01.png "[Points]") (Points) button to the right of the *View* drop-down list to display the context menu and create or edit a view.    
+  For detailed information, see [Create a view](../Operation/04_ManageView.md#create-a-view).
 
   - View context menu   
     Click the ![Points](../../Assets/Icons/Points01.png "[Points]") (Points) button to the right of the *View* drop-down list to display the context menu. The following menu entries are available:
@@ -62,7 +63,7 @@
   - **All products**   
     All products and their variants are displayed in the product list.   
   - **Hide variants**   
-    No variants are displayed in the product list.
+    No variants are displayed in the product list.   
   For detailed information, see [Select a variant view](../Operation/04_ManageView.md#select-a-variant-view).
 
 
@@ -76,7 +77,7 @@
   Select the checkbox to display the editing toolbar. If you click the checkbox in the header, all products in the list are selected.
 
 - ![Edit](../../Assets/Icons/Edit01.png "[Edit]") (Edit)   
-  Click this button to edit the selected product(s). This button is only displayed if the checkbox of at least one product is selected. Alternatively, you can click directly a row in the list to edit a product.   
+  Click this button to edit the selected product(s). This button is only displayed if the checkbox of at least one product is selected. Alternatively, you can click directly a row in the list to edit a product.    
   For detailed information, see [Edit a product](../Operation/01_ManageProducts.md#edit-a-single-product).
 
 - [COPY PRODUCT]   
@@ -92,7 +93,7 @@
   For detailed information, see [Delete a product](../Operation/03_MoveProducts.md#delete-a-product).
 
 - [START MASS EDITING]   
-  Click this button to edit the selected products. This button is only displayed if the checkbox of at least one product is selected. The mass editing is only recommended if you select more than one product.
+  Click this button to edit the selected products. This button is only displayed if the checkbox of at least one product is selected. The mass editing is only recommended if you select more than one product.   
   For detailed information, see [Mass editing](../Operation/01_ManageProducts.md#mass-editing).
 
 Depending on the selection in the *Variants* drop-down list, the product list displays all products including their variants or only the single and master products. All fields are read-only. Depending on the settings, the displayed columns may vary.
@@ -138,7 +139,7 @@ Depending on the selection in the *Variants* drop-down list, the product list di
   You can add a column for each attribute that is assigned to the product. The column displays the attribute name, the row displays the corresponding attribute value of the product.
 
 - ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add)   
-  Click this button to create a product. The *Create new product* window is displayed.   
+  Click this button to create a product. The *Create new product* window is displayed.    
   For detailed information, see [Create a product](../Operation/01_ManageProducts.md#create-a-product).
 
 
@@ -348,7 +349,7 @@ For each defining attribute a single box to define the attribute value is displa
   Click this button to add a further row to the corresponding attribute where you can enter or select the desired value.
 
 - [CANCEL]   
-  Click this button to cancel adding variants and close the *Select values* wizard window.
+  Click this button to cancel adding variants. The *Select values* wizard window is closed.
 
 - [NEXT]   
   Click this button to proceed to the next step. The *Summary* wizard window is displayed.
@@ -383,10 +384,10 @@ The list displays all selected variants. Depending on the settings, the displaye
   Click this button to go back to the previous step of adding variants. The *Select values* wizard window is displayed.
 
 - [CANCEL]   
-  Click this button to cancel adding variants and close the *Summary* wizard window.
+  Click this button to cancel adding variants. The *Summary* wizard window is closed.
 
 - [FINALIZE]   
-  Click this button to save the listed variants and close the *Summary* wizard window.
+  Click this button to save the listed variants. The *Summary* wizard window is closed.
 
 
 
@@ -443,10 +444,10 @@ The catalog box displays all selected categories and their level. All fields are
   Click the [>] button to the left of a category checkbox to display their sub-categories.
 
 - [CANCEL]   
-  Click this button to cancel selecting categories and close the *Categories* window.
+  Click this button to cancel selecting categories. The *Categories* window is closed.
 
 - [SAVE]   
-  Click this button to save the selected categories and close the *Categories* window.
+  Click this button to save the selected categories. The *Categories* window is closed.
 
 
 
@@ -490,10 +491,10 @@ The box displays all associated products. All fields are read-only. If no produc
 ![Not associated products](../../Assets/Screenshots/PIM/Products/List/Associations/NotAssociatedProducts.png "[Not associated products]")
 
 - [CANCEL]   
-  Click this button to cancel adding products and close the *Not associated products* window.
+  Click this button to cancel adding products. The *Not associated products* window is closed.
 
 - [SAVE]   
-  Click this button to add the selected products to the list and close the *Not associated products* window.
+  Click this button to add the selected products to the list. The *Not associated products* window is closed.
 
 - ![Search](../../Assets/Icons/Search.png "[Search]") (Search)   
   Click this button to display the search bar and search for a product.
@@ -646,7 +647,7 @@ The list displays all created offers to this product. All fields are read-only.
   Click this button to add multiple connections to the product. The *Add to multiple connections* wizard window is displayed.
 
 - ![Cancel](../../Assets/Icons/Cross01.png "[Cancel]") (Cancel)   
-  Click this button to cancel the connection creation and close the current view.
+  Click this button to cancel the connection creation. The current view is closed.
 
 
 ### Add to a single connection
@@ -694,10 +695,10 @@ The list displays all created offers to this product. All fields are read-only.
 
 
 - [CANCEL]   
-  Click this button to cancel adding an offer and close the *Create offer* window.
+  Click this button to cancel adding an offer. The *Create offer* window is closed.
 
 - [SAVE]   
-  Click this button to save the offer and close the *Create offer* window.
+  Click this button to save the offer. The *Create offer* window is closed.
 
 
 ### Add to multiple connections
@@ -742,7 +743,7 @@ The list displays all created offers to this product. All fields are read-only.
   Enable a toggle to select the corresponding connection to create an offer to. All available connections are displayed. By default, all toggles are disabled.
 
 - [CANCEL]   
-  Click this button to cancel adding multi-connection offers and close the *Select connections and status* wizard window.
+  Click this button to cancel adding multi-connection offers. The *Select connections and status* wizard window is closed.
 
 - [CONTINUE]   
   Click this button to proceed to the next step. The *Select destination attribute sets* wizard window is displayed.
@@ -759,10 +760,10 @@ The list displays all created offers to this product. All fields are read-only.
   Click this button to go back to the previous step. The *Select connections and status* wizard window is displayed.
 
 - [CANCEL]   
-  Click this button to cancel adding multi-connection offers and close the *Select destination attribute sets* wizard window.
+  Click this button to cancel adding multi-connection offers. The *Select destination attribute sets* wizard window is closed.
 
 - [FINALIZE]   
-  Click this button to save the multi-connection offers and close the *Select destination attribute sets* wizard window.
+  Click this button to save the multi-connection offers. The *Select destination attribute sets* wizard window is closed.
 
 
 
@@ -943,10 +944,10 @@ All defining attributes of the variant are displayed in this section.
   Enter or select the appropriate value for the defining attribute.
 
 - [CANCEL]   
-  Click this button to cancel adding a variant and close the *Add single variant* window.
+  Click this button to cancel adding a variant. The *Add single variant* window is closed.
 
 - [SAVE]   
-  Click this button to save the variant and close the *Add single variant* window.
+  Click this button to save the variant. The *Add single variant* window is closed.
 
 
 ### Add multiple variants
@@ -968,7 +969,7 @@ For each defining attribute a single box to define the attribute value is displa
   Click this button to add a further row to the corresponding attribute where you can enter or select the desired value.
 
 - [CANCEL]   
-  Click this button to cancel adding variants and close the *Select values* wizard window.
+  Click this button to cancel adding variants. The *Select values* wizard window is closed.
 
 - [NEXT]   
   Click this button to proceed to the next step. The *Summary* wizard window is displayed.
@@ -1003,10 +1004,10 @@ The list displays all selected variants. Depending on the settings, the displaye
   Click this button to go back to the previous step of adding variants. The *Select values* wizard window is displayed.
 
 - [CANCEL]   
-  Click this button to cancel adding variants and close the *Summary* wizard window.
+  Click this button to cancel adding variants. The *Summary* wizard window is closed.
 
 - [FINALIZE]   
-  Click this button to save the listed variants and close the *Summary* wizard window.
+  Click this button to save the listed variants. The *Summary* wizard window is closed.
 
 
 
@@ -1116,10 +1117,10 @@ The box displays all selected categories and their level. All fields are read-on
 Click the [>] button to the left of a category checkbox to display their sub-categories.
 
 - [CANCEL]   
-  Click this button to cancel selecting categories and close the *Categories* window.
+  Click this button to cancel selecting categories. The *Categories* window is closed.
 
 - [SAVE]   
-  Click this button to save the selected categories and close the *Categories* window.
+  Click this button to save the selected categories. The *Categories* window is closed.
 
 
 
@@ -1163,10 +1164,10 @@ The box displays all associated products. All fields are read-only. If no produc
 ![Not associated products](../../Assets/Screenshots/PIM/Products/List/Associations/NotAssociatedProducts.png "[Not associated products]")
 
 - [CANCEL]   
-  Click this button to cancel adding products and close the *Not associated products* window.
+  Click this button to cancel adding products. The *Not associated products* window is closed.
 
 - [SAVE]   
-  Click this button to add the selected products to the list and close the *Not associated products* window.
+  Click this button to add the selected products to the list. The *Not associated products* window is closed.
 
 - ![Search](../../Assets/Icons/Search.png "[Search]") (Search)   
   Click this button to display the search bar and search for a product.
@@ -1468,10 +1469,10 @@ The list displays all created offers to this product. All fields are read-only.
 
 
 - [CANCEL]   
-  Click this button to cancel adding an offer and close the *Create offer* window.
+  Click this button to cancel adding an offer. The *Create offer* window is closed.
 
 - [SAVE]   
-  Click this button to save the offer and close the *Create offer* window.
+  Click this button to save the offer. The *Create offer* window is closed.
 
 
 ### Add to multiple connections
@@ -1507,7 +1508,7 @@ The list displays all created offers to this product. All fields are read-only.
   Enable a toggle to select the corresponding connection to create an offer to. All available connections are displayed. By default, all toggles are disabled.
 
 - [CANCEL]   
-  Click this button to cancel adding multi-connection offers and close the *Select connections and status* wizard window.
+  Click this button to cancel adding multi-connection offers. The *Select connections and status* wizard window is closed.
 
 - [CONTINUE]   
   Click this button to proceed to the next step. The *Select destination attribute sets* wizard window is displayed.
@@ -1524,7 +1525,7 @@ The list displays all created offers to this product. All fields are read-only.
   Click this button to go back to the previous step. The *Select connections and status* wizard window is displayed.
 
 - [CANCEL]   
-  Click this button to cancel adding multi-connection offers and close the *Select destination attribute sets* wizard window.
+  Click this button to cancel adding multi-connection offers. The *Select destination attribute sets* wizard window is closed.
 
 - [FINALIZE]   
-  Click this button to save the multi-connection offers and close the *Select destination attribute sets* wizard window.
+  Click this button to save the multi-connection offers. The *Select destination attribute sets* wizard window is closed.

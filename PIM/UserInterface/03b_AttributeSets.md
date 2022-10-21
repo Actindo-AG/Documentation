@@ -22,7 +22,7 @@
   Select the checkbox to display the editing toolbar. If you click the checkbox in the header, all attribute sets in the list are selected.
 
 - [EDIT]
-  Click this button to edit the selected attribute set. This button is only displayed if a single checkbox in the list of attribute sets is selected. Alternatively, you can click directly a row in the list to edit an attribute set.
+  Click this button to edit the selected attribute set. This button is only displayed if a single checkbox in the list of attribute sets is selected. Alternatively, you can click directly a row in the list to edit an attribute set.   
   For detailed information, see [Edit an attribute set](../Integration/02_ManageAttributeSets.md#edit-an-attribute-set).
 
 - [DELETE]
@@ -100,7 +100,7 @@ The list displays all attribute sets. Depending on the settings, the displayed c
 
 
 - [SAVE]   
-  Click this button to save the attribute set, close the *Create attribute set* view and return to the attribute set list.
+  Click this button to save the attribute set. The *Create attribute set* view is closed.
 
 - *Name (Language)*   
   Enter an attribute set name in the selected language.
@@ -179,7 +179,7 @@ In the *Create attribute set* view, no attributes are displayed in the list. You
 
 
 - [SAVE]   
-  Click this button to save the attribute set, close the *Edit attribute set* view and return to the attribute set list.
+  Click this button to save the attribute set. The *Edit attribute set* view is closed.
 
 - *Name (Language)*   
   Click the field to edit the attribute set name in the selected language.
@@ -215,7 +215,7 @@ In the *Create attribute set* view, no attributes are displayed in the list. You
     The attribute values are applied from the selected attribute set and updated each time if the selected set changes.
 
 
-> [Info] For the *PIM Basic Set* which is predefined by the system, the inheritance settings are read-only.
+> [Info] The inheritance settings may be read-only for attribute sets predefined by the system, for example for the *PIM Basic Set*.
 
 
 **Assigned attributes**
@@ -253,7 +253,7 @@ In the *Create attribute set* view, no attributes are displayed in the list. You
 
 
 The list displays all attributes assigned to the selected attribute set. Depending on the settings, the displayed columns may vary.
-When the ![Settings](../../Assets/Icons/Settings01.png "[Settings]") (Settings) button is gray, all fields are read-only. When the ![Settings](../../Assets/Icons/Settings02.png "[Settings]") (Settings) button is blue, the field *Required* is editable.
+If the ![Settings](../../Assets/Icons/Settings01.png "[Settings]") (Settings) button is gray, all fields are read-only. If the ![Settings](../../Assets/Icons/Settings02.png "[Settings]") (Settings) button is blue, the field *Required* is editable.
 
 - *Name*   
   Attribute name.
@@ -273,7 +273,7 @@ When the ![Settings](../../Assets/Icons/Settings01.png "[Settings]") (Settings) 
   For detailed information about all data types, see [Data type list](../../DataHub/UserInterface/04_DataTypeList.md).
 
 - *Inherited from*   
-  Inheritance attribute set. The name of the attribute set from which the attribute value is inherited is displayed. If the attribute value is not inherited, the row is empty.
+  Inheritance attribute set. The name of the attribute set from which the attribute value is inherited is displayed. If the attribute value is not inherited, the field is empty.
 
 - *Plugin*   
   Module or plugin that owns the attribute set. In the *PIM* module, only PIM attributes are displayed.
@@ -302,6 +302,7 @@ When the ![Settings](../../Assets/Icons/Settings01.png "[Settings]") (Settings) 
 - *Description*   
   Description to the attribute.
 
+
 - *Multi-language*   
   Indication whether the attribute is multilingual or not:
   - ![Check](../../Assets/Icons/Check.png "[Check]") (Checkmark): The attribute is multi-language.  
@@ -315,7 +316,7 @@ When the ![Settings](../../Assets/Icons/Settings01.png "[Settings]") (Settings) 
 
 
 
-### Edit attribute for set "Set name"
+### Edit attribute for set "Attribute set name"
 
 [comment]: <> (to be checked! currently not working)
 
@@ -329,10 +330,10 @@ When the ![Settings](../../Assets/Icons/Settings01.png "[Settings]") (Settings) 
   Click this button to close the *Edit attribute for set "Attribute set name"* view and return to *Edit attribute set* view. All changes are rejected.
 
 - [CANCEL]   
-  Click this button to cancel editing the configuration, close the *Edit attribute for set "Attribute set name"* view and return to the *Edit attribute set* view.
+  Click this button to cancel editing the configuration. The *Edit attribute for set "Attribute set name"* view is closed.
 
 - [SAVE]   
-  Click this button to save the changes, close the *Edit attribute for set "Attribute set name"* view and return to the *Edit attribute set* view.
+  Click this button to save the changes. The *Edit attribute for set "Attribute set name"* view is closed.
 
 **CONFIGURATION**
 

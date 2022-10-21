@@ -34,16 +34,16 @@
 ![Create new catalog](../../Assets/Screenshots/PIM/Settings/Catalogs/CreateNewCatalog.png "[Create new catalog]")
 
 - ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)   
-  Click this button to cancel creating a catalog, close the *Create new catalog* view and return to the catalog selection.
+  Click this button to cancel creating a catalog. The *Create new catalog* is closed.
 
 - Catalog name   
   Enter a catalog name.
 
 - [CANCEL]   
-  Click this button to cancel creating a catalog, close the *Create new catalog* view and return to the catalog selection.
+  Click this button to cancel creating a catalog. The *Create new catalog* view is closed.
 
 - [SAVE]   
-  Click this button to save the new catalog, close the *Create new catalog* view and return to the catalog selection.
+  Click this button to save the new catalog. The *Create new catalog* view is closed.
 
 - ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add)   
   Click this button to add a category to the catalog. A plus sign is displayed in each column. Click the plus sign to add a category or sub-category. The *Add element* window is displayed.   
@@ -76,16 +76,16 @@ The following buttons and fields are only displayed when you have added a catego
 ![Edit catalog](../../Assets/Screenshots/PIM/Settings/Catalogs/EditCatalog.png "[Edit catalog]")
 
 - ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)   
-  Click this button to cancel editing the selected catalog, close the *Edit catalog* view and return to the catalog selection.
+  Click this button to cancel editing the selected catalog. The *Edit catalog* view is closed.
 
 - Catalog name   
   Click this field to edit the catalog name.
 
 - [CANCEL]   
-  Click this button to cancel editing the selected catalog, close the *Edit catalog* view and return to the catalog selection.
+  Click this button to cancel editing the selected catalog. The *Edit catalog* view is closed.
 
 - [SAVE]   
-  Click this button to save the changes, close the *Edit catalog* view and return to the catalog selection.
+  Click this button to save the changes. The *Edit catalog* view is closed.
 
 - ![Sort](../../Assets/Icons/Sort01.png "[Sort]") (Sort)   
   Click and hold this button to move the selected category to another position in the list using drag and drop.
@@ -109,6 +109,7 @@ The following buttons and fields are only displayed when you have added a catego
 
 
 ## Add element
+
 *PIM > Settings > Tab CATALOGS > Button Points > Entry Create new > Button Add*   
 *PIM > Settings > Tab CATALOGS > Button Points > Entry Edit > Button Add*
 
@@ -123,10 +124,10 @@ The following buttons and fields are only displayed when you have added a catego
   Enter a category key. The key is required for API access and must be system wide unique.
 
 - [CANCEL]   
-  Click this button to cancel adding a category and close the *Add element* window.
+  Click this button to cancel adding a category. The *Add element* window is closed.
 
 - [SAVE]   
-  Click this button to add the new category, close the *Add element* window.
+  Click this button to add the new category. The *Add element* window is closed.
 
   > [Info] You have to click the [SAVE] button in the *Create new catalog* or *Edit catalog* view to save the added category.
 
@@ -152,9 +153,9 @@ The following buttons and fields are only displayed when you have added a catego
   > [Warning] Be aware that as soon as you delete a category, you also delete all assigned sub-categories.
 
 - [CANCEL]   
-  Click this button to cancel editing the category and close the window.
+  Click this button to cancel editing the category. The *Edit category data* window is closed.
 
 - [SAVE]   
-  Click this button to save any changes to the category and close the window.
+  Click this button to save any changes to the category. The *Edit category data* the window is closed.
 
   > [Info] You have to click the [SAVE] button in the *Create new catalog* or *Edit catalog* view to save the changes.

@@ -40,6 +40,7 @@ The list displays all attributes. Depending on the settings, the displayed colum
   - ![Status](../../Assets/Icons/Status01.png "[Status]") **Active**
   - ![Status](../../Assets/Icons/Status04.png "[Status]") **Inactive**   
 
+
 - *Group*   
   Attribute group assigned to the attribute. If the attribute is not assigned to any attribute group, *not assigned* is displayed.
 
@@ -113,8 +114,9 @@ The list displays all attributes. Depending on the settings, the displayed colum
   - **English (United States)**
   - **Deutsch (Deutschland)**
 
+
 - [SAVE]   
-  Click this button to save the attribute, close the *Create attribute* view and return to the attributes list.
+  Click this button to save the attribute. The *Create attribute* view is closed.
 
 **BASIC DATA**
 
@@ -130,7 +132,7 @@ The list displays all attributes. Depending on the settings, the displayed colum
 
 
 - *Key*   
-  Attribute key. The key is required for API access and must be system wide unique. An attribute key must fulfill the following criteria:
+  Enter an attribute key. The key is required for API access and must be system wide unique. An attribute key must fulfill the following criteria:
     - valid characters are **a-z** (upper and lower case), **0-9** and the underscore ( **_** )
     - the key must not start with a number
     - a double underscore ( **___** ) and a trailing underscore are forbidden
@@ -159,7 +161,7 @@ The list displays all attributes. Depending on the settings, the displayed colum
 **CONFIGURATION**
 
 The *CONFIGURATION* section displays the additional configuration for the selected data type. The configuration fields differ depending on the selected data type.
-As some data types have no further configuration settings, no *CONFIGURATION* section is displayed for these data types.  
+As some data types have no further configuration settings, no *CONFIGURATION* section is displayed for these data types.    
 For detailed information about the different configurations of data types, see [Data type list](../../DataHub/UserInterface/04_DataTypeList.md).
 
 
@@ -168,6 +170,8 @@ For detailed information about the different configurations of data types, see [
 *PIM > Settings > Tab ATTRIBUTES > Select attribute*
 
 ![Edit attribute](../../Assets/Screenshots/PIM/Settings/Attributes/EditAttribute_Data.png "[Edit attribute]")
+
+**Edit attribute**
 
 - ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)   
   Click this button to close the *Edit attribute* view and return to the attributes list. All changes are rejected.
@@ -180,7 +184,7 @@ For detailed information about the different configurations of data types, see [
 
 
 - [SAVE]   
-  Click this button to save the attribute, close the *Edit attribute* view and return to the attributes list.
+  Click this button to save the attribute. The *Edit attribute* view is closed.
 
 
 ### Edit attribute &ndash; Data
@@ -214,7 +218,7 @@ For detailed information about the different configurations of data types, see [
 **CONFIGURATION**
 
 The *CONFIGURATION* section displays the additional configuration for the selected data type. The configuration fields differ depending on the selected data type.    
-As some data types have no further configuration settings, no *CONFIGURATION* section is displayed for these data types.  
+As some data types have no further configuration settings, no *CONFIGURATION* section is displayed for these data types.    
 For detailed information about the different configurations of data types, see [Data type list](../../DataHub/UserInterface/04_DataTypeList.md).
 
 

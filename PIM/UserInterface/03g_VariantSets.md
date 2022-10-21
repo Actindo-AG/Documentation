@@ -22,7 +22,7 @@
   Select the checkbox to display the editing toolbar. If you click the checkbox in the header, all variant sets in the list are selected.
 
 - [EDIT]      
-  Click this button to edit the selected variant set. This button is only displayed if a single checkbox in the list of variant sets is selected. Alternatively, you can click directly a row in the list to edit a variant set. The *Edit variant set* view is displayed.
+  Click this button to edit the selected variant set. This button is only displayed if a single checkbox in the list of variant sets is selected. Alternatively, you can click directly a row in the list to edit a variant set. The *Edit variant set* view is displayed.   
   For detailed information, see [Edit a variant set](../Integration/07_ManageVariantSets.md#edit-a-variant-set).
 
 - [DELETE]     
@@ -75,7 +75,7 @@ The list displays all variant sets. All fields are read-only. Depending on the s
 **Create variant set**
 
 - ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)   
-  Click this button to cancel creating a variant set, close the *Create variant set* view and return to the variant sets list. All changes are rejected.
+  Click this button to close the *Create variant set* view and return to the variant sets list. All changes are rejected.
 
 - Language   
   Click the drop-down list and select the language in which the *Name (Language)* fields are displayed. The languages *English (United States)* and *Deutsch (Deutschland)* are available in the drop-down list.
@@ -83,7 +83,7 @@ The list displays all variant sets. All fields are read-only. Depending on the s
   [comment]: <> (Is that right? -> language question)
 
 - [SAVE]   
-  Click this button to save the variant set, close the *Create variant set* view and return to the variant set list.
+  Click this button to save the variant set. The *Create variant set* view is closed.
 
 - *Name (Language)*   
   Variant set name in the selected language.
@@ -131,7 +131,7 @@ The list displays all defining attributes to the variant set. All fields are rea
   Attribute key. The key is required for API access and must be system wide unique.
 
 - *Data type*   
-  Attribute data type.  
+  Attribute data type.   
   For detailed information about all data types, see [Data type list](../../DataHub/UserInterface/04_DataTypeList.md).
 
 - *ID*   
@@ -170,7 +170,7 @@ The list displays all changeable attributes to the variant set. All fields are r
   Attribute key. The key is required for API access and must be system wide unique.
 
 - *Data type*   
-  Attribute data type.  
+  Attribute data type.   
   For detailed information about all data types, see [Data type list](../../DataHub/UserInterface/04_DataTypeList.md).
 
 - *ID*   
@@ -189,7 +189,7 @@ The list displays all changeable attributes to the variant set. All fields are r
 **Edit variant set**
 
 - ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)   
-  Click this button to cancel editing the variant set, close the *Edit variant set* view and return to the variant sets list. All changes are rejected.
+  Click this button to close the *Edit variant set* view and return to the variant sets list. All changes are rejected.
 
 - Language   
   Click the drop-down list and select the language in which the *Name (Language)* fields are displayed. The languages *English (United States)* and *Deutsch (Deutschland)* are available in the drop-down list.
@@ -197,7 +197,7 @@ The list displays all changeable attributes to the variant set. All fields are r
   [comment]: <> (Is that right? -> language question)
 
 - [SAVE]   
-  Click this button to save the variant set, close the *Edit variant set* view and return to the variant set list.
+  Click this button to save the variant set. The *Edit variant set* view is closed.
 
 - *Name (Language)*   
   Variant set name in the selected language.
@@ -301,7 +301,7 @@ The list displays all changeable attributes to the variant set. All fields are r
 ![Defining attributes](../../Assets/Screenshots/PIM/Settings/VariantSets/AddDefiningAttributes.png "[Defining attributes]")
 
 - ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)   
-  Click this button to cancel adding defining attributes, close the *Add defining attributes* view and return to the *Edit variant set* view. All changes are rejected.
+  Click this button to close the *Add defining attributes* view and return to the *Edit variant set* view. All changes are rejected.
 
 - ![Search](../../Assets/Icons/Search.png "[Search]") (Search)   
   Click this button to display the search bar and search for an attribute.
@@ -348,7 +348,7 @@ The list displays all available defining attributes. All fields are read-only. D
 ![Changeable attributes](../../Assets/Screenshots/PIM/Settings/VariantSets/AddChangeableAttributes.png "[Changeable attributes]")
 
 - ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)   
-  Click this button to cancel adding defining attributes, close the *Add defining attributes* view and return to the *Edit variant set* view. All changes are rejected.
+  Click this button to close the *Add defining attributes* view and return to the *Edit variant set* view. All changes are rejected.
 
 - ![Search](../../Assets/Icons/Search.png "[Search]") (Search)   
   Click this button to display the search bar and search for an attribute.
