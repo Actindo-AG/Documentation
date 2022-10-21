@@ -142,7 +142,7 @@ This extension is used to map a Cloudinary image to a string attribute. Select a
 ### Configuration
 
 - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Export public ID*   
-  Enable the toggle to export the Cloudinary URL but also its public ID. Disable the toggle to export only the Cloudinary URL.
+  Enable the toggle to export the Cloudinary public ID. Disable the toggle to export the Cloudinary URL instead of the public ID.
 
   [comment]: <> (wenn toggle aktiv, wird die public id ausgegeben und nicht die url > transformation wird geskippt)
   [comment]: <> (wozu ist die public ID gut?)
@@ -895,7 +895,7 @@ This ETL extension has no further configuration settings.
 
 ![Price to tax](../../Assets/Screenshots/DataHub/Settings/ETL/Extensions/PriceToTax.png "[Price to tax]")
 
-This extension is used to map a PIM price field attribute to a decimal number. The PIM price field is Actindo specific and contains not only the simple price, but also the base price, scale prices, promotion prices, the tax class including the tax rate and supported currencies. Each of this data is extracted from the price attribute by the corresponding extension. In this case, the tax rate is mapped to the destination attribute. The tax rate settings are defined in the configuration.
+This extension is used to map a PIM price field attribute to a decimal number. The PIM price field is Actindo specific and contains not only the simple price, but also the base price, scale prices, promotion prices, the tax class including the tax rate and supported currencies. Each of this data is extracted from the price attribute by the corresponding extension. In this case, the tax rate is calculated by the tax class set in the attribute which is based on the destination country selected in the configuration and mapped to the destination attribute. The country and the display type of the tax rate are defined in the configuration.
 
 ### Possible data type mappings
 
@@ -1117,7 +1117,7 @@ This extension is used to either map a source attribute to a tree node attribute
   Enter a separator sign by which a lower level in the string attribute is indicated. For instance, to indicate several gradations for a color (Red|Coral).
 
 - *Destination Field*   
-  Select the field of the tree node attribute whose value will be used for the mapping. The drop-down down list is only displayed when the destination attribute is a tree node attribute.
+  Select the field of the tree node attribute whose value will be used for the mapping. The drop-down down list is only displayed if the destination attribute is a tree node attribute.
   - **Key**: The key value of the tree node attribute is used for the mapping.
   - **Title**: The title value of the tree node attribute is used for the mapping.
 
@@ -1565,7 +1565,7 @@ This extension is used to map a tree node attribute to another tree node attribu
 
 
 - *Relevant Language*   
-  Select the language of the attribute value used for the mapping. All active languages are displayed in the drop-down list. The drop-down list is only displayed, when the **Title** option is selected in the *Match destination node by* drop-down list.
+  Select the language of the attribute value used for the mapping. All active languages are displayed in the drop-down list. The drop-down list is only displayed if the **Title** option is selected in the *Match destination node by* drop-down list.
 
 
 
@@ -1673,7 +1673,7 @@ This extension is used to map an unit attribute to a another unit attribute. A u
 
 
 - *Configured unit*    
-  Select the unit that will be mapped in the destination unit. All units corresponding to the dimension of the destination attribute are displayed in the drop-down list. The drop-down list is only displayed when the  **Configured Unit** option is selected in the *Choose the unit mapping mode* drop-down list.
+  Select the unit that will be mapped in the destination unit. All units corresponding to the dimension of the destination attribute are displayed in the drop-down list. The drop-down list is only displayed if the  **Configured Unit** option is selected in the *Choose the unit mapping mode* drop-down list.
 
 
 
@@ -1752,13 +1752,13 @@ This extension is used to map a variant attribute to a variant attribute. The va
   Enable the toggle to automatically map the assigned variant sets of the source variant attribute and the destination variant attribute. It is recommended to enable the toggle. Otherwise, the variant sets must be mapped manually. By default, the toggle is enabled.
 
 - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Automatically create variant set if no suiting variant set can be found*   
-  Enable the toggle to automatically create a variant set if the assigned variant sets of the source variant attribute and the destination variant attribute do not match. It is recommended to enable the toggle. Otherwise, the variant set must be created manually. By default, the toggle is enabled. This toggle is only displayed when the *Automatically map variant sets* toggle is enabled.
+  Enable the toggle to automatically create a variant set if the assigned variant sets of the source variant attribute and the destination variant attribute do not match. It is recommended to enable the toggle. Otherwise, the variant set must be created manually. By default, the toggle is enabled. This toggle is only displayed if the *Automatically map variant sets* toggle is enabled.
 
 - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Automatically add not mapped defining attributes to destination set when creating variant set*   
-  Enable the toggle to automatically add unmapped defining attributes to the created destination variant set. It is recommended to enable the toggle. Otherwise, the defining attributes must be added manually to the attribute set. By default, the toggle is enabled. This toggle is only displayed when the *Automatically map variant sets* toggle is enabled.
+  Enable the toggle to automatically add unmapped defining attributes to the created destination variant set. It is recommended to enable the toggle. Otherwise, the defining attributes must be added manually to the attribute set. By default, the toggle is enabled. This toggle is only displayed if the *Automatically map variant sets* toggle is enabled.
 
 - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Sync variant set in case they do not match to each other*   
-  Enable the toggle to automatically create a variant set if the assigned variant sets of the source variant attribute and the destination variant attribute do not match. By default, the toggle is disabled. This toggle is only displayed when the *Automatically map variant sets* toggle is disabled.
+  Enable the toggle to automatically create a variant set if the assigned variant sets of the source variant attribute and the destination variant attribute do not match. By default, the toggle is disabled. This toggle is only displayed if the *Automatically map variant sets* toggle is disabled.
 
   - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Do not apply master product status to children*      
   Enable the toggle to manage the status of all variants independently of their master product. Otherwise, the status of the main product is automatically applied to all variants in the destination attribute. By default, the toggle is disabled.

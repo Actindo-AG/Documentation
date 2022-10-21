@@ -126,7 +126,7 @@ At least one channel has been created, see [Create a channel](#create-a-channel)
 1. Select the checkbox of the channel you want to delete in the list of channels.    
   The editing toolbar is displayed above the channel list.
 
-2. Click the [DELETE] button in the toolbar.  
+2. Click the [DELETE] button in the editing toolbar.  
   The channel has been deleted. The deletion cannot be undone.
 
   > [Info] If the selected channel cannot be deleted, an error message is displayed in the upper right corner. To prevent the channels use, it is recommended to deactivate the channel instead of deleting it, see [Deactivate a channel](#deactivate-a-channel).

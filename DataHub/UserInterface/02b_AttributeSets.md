@@ -22,11 +22,11 @@
   Select the checkbox to display the editing toolbar. If you click the checkbox in the header, all attribute sets in the list are selected.
 
 - [EDIT]   
-  Click this button to edit the selected attribute set. This button is only displayed, when a single checkbox of an attribute set is selected. Alternatively, you can click directly a row in the list to edit an attribute set.
+  Click this button to edit the selected attribute set. This button is only displayed if a single checkbox of an attribute set is selected. Alternatively, you can click directly a row in the list to edit an attribute set.
   For detailed information, see [Edit an attribute set](../Integration/02_ManageAttributeSets.md#edit-an-attribute-set).
 
 - [DELETE]   
-  Click this button to delete the selected attribute set. This button is only displayed, when the checkbox of at least one attribute set is selected. An attribute set cannot be deleted if any attribute is assigned to it.      
+  Click this button to delete the selected attribute set. This button is only displayed if the checkbox of at least one attribute set is selected. An attribute set cannot be deleted if any attribute is assigned to it.      
 
 The list displays all attribute sets. Depending on the settings, the displayed columns may vary. All fields are read-only.
 
@@ -99,7 +99,7 @@ The list displays all attribute sets. Depending on the settings, the displayed c
 
 
 - [SAVE]   
-  Click this button to save the attribute set, close the *Create attribute set* view and return to the attribute set list.
+  Click this button to save the attribute set. The *Create attribute set* view is closed.
 
 - *Name (Language)*   
   Enter an attribute set name in the selected language.
@@ -183,7 +183,7 @@ In the *Create attribute set* view, no attributes are displayed in the list. You
 
 
 - [SAVE]   
-  Click this button to save the attribute set, close the *Edit attribute set* view and return to the attribute set list.
+  Click this button to save the attribute set. The *Edit attribute set* view is closed.
 
 - *Name (Language)*   
   Click the field to edit the attribute set name in the selected language.
@@ -242,7 +242,7 @@ In the *Create attribute set* view, no attributes are displayed in the list. You
   Select the checkbox to display the editing toolbar. If you click the checkbox in the header, all attributes in the list are selected.
 
 - ![Edit](../../Assets/Icons/Edit01.png "[Edit]") (Edit)   
-  Click this button to edit the configuration of the selected attribute. This button is only displayed, when a single checkbox of an attribute with an editable configuration is selected. The *Edit attribute for set "Attribute set name"* view is displayed. Alternatively, you can click directly a row in the list to edit an attribute configuration.
+  Click this button to edit the configuration of the selected attribute. This button is only displayed if a single checkbox in the list of attributes is selected and if the selected attribute has an editable configuration. The *Edit attribute for set "Attribute set name"* view is displayed. Alternatively, you can click directly a row in the list to edit an attribute configuration.
 
 [comment]: <> (Edit is not working -> Bugticket)
 
@@ -252,11 +252,11 @@ In the *Create attribute set* view, no attributes are displayed in the list. You
   > [Info] If you remove an attribute from the attribute set, the attribute itself is not deleted, but it is unassigned to the selected attribute set.   
 
 - [ADD MAPPING]   
-  Click this button to add a mapping to the selected attribute. The *Add mapping* view is displayed. You can only add a mapping for attribute sets that are not inherited from another attribute set. This button is only displayed, when a single checkbox of an attribute is selected.
+  Click this button to add a mapping to the selected attribute. The *Add mapping* view is displayed. You can only add a mapping for attribute sets that are not inherited from another attribute set. This button is only displayed if a single checkbox of an attribute is selected.
 
 
 The list displays all attributes assigned to the selected attribute set. Depending on the settings, the displayed columns may vary.   
-When the ![Settings](../../Assets/Icons/Settings01.png "[Settings]") (Settings) button is gray, all fields are read-only. When the ![Settings](../../Assets/Icons/Settings02.png "[Settings]") (Settings) button is blue, the field *Required* is editable.
+If the ![Settings](../../Assets/Icons/Settings01.png "[Settings]") (Settings) button is gray, all fields are read-only. If the ![Settings](../../Assets/Icons/Settings02.png "[Settings]") (Settings) button is blue, the field *Required* is editable.
 
 - *Name*   
   Attribute name.
@@ -305,6 +305,7 @@ When the ![Settings](../../Assets/Icons/Settings01.png "[Settings]") (Settings) 
 - *Description*   
   Description to the attribute.
 
+
 - *Multi-language*   
   Indication whether the attribute is multi-language or not:
   - ![Check](../../Assets/Icons/Check.png "[Check]") (Checkmark): The attribute is multi-language.  
@@ -322,7 +323,7 @@ When the ![Settings](../../Assets/Icons/Settings01.png "[Settings]") (Settings) 
 
 [comment]: <> (to be checked! currently not working)
 
-*DataHub > Settings > Tab ATTRIBUTE SETS > Select attribute set > Select attribute*
+*DataHub > Settings > Tab ATTRIBUTE SETS > Select attribute set > Select attribute with configuration*
 
 ![Edit attribute for set](../../Assets/Screenshots/DataHub/Settings/AttributeSets/EditAttributeForSet.png "[Edit attribute for set]")
 
@@ -332,10 +333,10 @@ When the ![Settings](../../Assets/Icons/Settings01.png "[Settings]") (Settings) 
   Click this button to close the *Edit attribute for set "Attribute set name"* view and return to *Edit attribute set* view. All changes are rejected.
 
 - [CANCEL]   
-  Click this button to cancel editing the configuration, close the *Edit attribute for set "Attribute set name"* view and return to the *Edit attribute set* view.
+  Click this button to cancel editing the configuration. The *Edit attribute for set "Attribute set name"* view is closed.
 
 - [SAVE]   
-  Click this button to save the changes, close the *Edit attribute for set "Attribute set name"* view and return to the *Edit attribute set* view.
+  Click this button to save the changes. The *Edit attribute for set "Attribute set name"* view is closed.
 
 **CONFIGURATION**
 
@@ -387,7 +388,7 @@ For detailed information, see [ETL settings](./02d_ETL.md#settings).
 
 - *Source attribute*   
   Click the drop-down list within the arrow box and select the appropriate source attribute for the mapping. Depending on the selected ETL extension one or several *Source attribute* arrow boxes are displayed. The selection in the drop-down list depends on the selected ETL extension which defines the required data type of the source attribute(s). This drop-down list is only displayed if an ETL extension has been selected in the *Extension* drop-down list.       
-
+  For detailed information about how to set up an attribute mapping, see [Edit an ETL attribute mapping](../Operation/01_ManageETLMappings.md#edit-an-etl-attribute-mapping).
 
 
 **Configuration**

@@ -21,7 +21,7 @@
   Select the checkbox to display the editing toolbar. You cannot select multiple checkboxes at once.
 
 - ![Edit](../../Assets/Icons/Edit01.png "[Edit]") (Edit)   
-  Click this button to edit the selected HTML template. This button is only displayed, when the checkbox of an HTML template is selected. Alternatively, you can click directly a row in the list to edit an HTML template.   
+  Click this button to edit the selected HTML template. This button is only displayed if the checkbox of an HTML template is selected. Alternatively, you can click directly a row in the list to edit an HTML template.   
   For detailed information, see [Edit an HTML template](../Operation/03_ManageHTMLTemplates.md#edit-an-html-template).
 
 The list displays all HTML templates. Depending on the settings, the displayed columns may vary. All fields are read-only.
@@ -51,10 +51,10 @@ The list displays all HTML templates. Depending on the settings, the displayed c
   Click this button to close the *Create HTML template* view and return to the HTML templates list. All changes are rejected.
 
 - [CANCEL]   
-  Click this button to cancel creating an HTML template, close the *Create HTML template* view and return to the HTML template list.
+  Click this button to cancel creating an HTML template. The *Create HTML template* view is closed.
 
 - [SAVE]   
-  Click this button to save the HTML template, close the *Create HTML template* view and return to the attributes list.
+  Click this button to save the HTML template. The *Create HTML template* view is closed.
 
 - *Name*   
   Enter an HTML template name.
@@ -82,10 +82,10 @@ The list displays all HTML templates. Depending on the settings, the displayed c
   Enter the ID of the entity which should be applied within the template.
 
 - [SHOW POSSIBLE VARIABLES]   
-  Click this button to display all variables to the selected entity. The code containing all variables to the entity is displayed in a new window. The possible variables can only be displayed when both, an entity type and an entity ID have been selected.
+  Click this button to display all variables to the selected entity. The code containing all variables to the entity is displayed in a new window. The possible variables can only be displayed if both, an entity type and an entity ID have been selected.
 
 - [SAVE AND PREVIEW TEMPLATE]   
-  Click this button to save the HTML template and display a preview of the template with the selected entity. The preview is displayed in a new window. The preview can only be displayed when both, an entity type and an entity ID have been selected. In the *Create HTML template* view, the button is locked.
+  Click this button to save the HTML template and display a preview of the template with the selected entity. The preview is displayed in a new window. The preview can only be displayed if both, an entity type and an entity ID have been selected. In the *Create HTML template* view, the button is locked.
 
   [comment]: <> (Ist das so gedacht, dass ich den Button nicht klicken kann?)
 
@@ -103,10 +103,10 @@ The list displays all HTML templates. Depending on the settings, the displayed c
   Click this button to close the *Edit HTML template* view and return to the HTML templates list. All changes are rejected.
 
 - [CANCEL]   
-  Click this button to cancel editing an HTML template, close the *Edit HTML template* view and return to the HTML template list.
+  Click this button to cancel editing an HTML template. The *Edit HTML template* view is closed.
 
 - [SAVE]   
-  Click this button to save all changes to the HTML template, close the *Edit HTML template* view and return to the attributes list.
+  Click this button to save all changes to the HTML template. The *Edit HTML template* view is closed.
 
 - *Name*   
   Click the field to edit the HTML template name.
@@ -134,7 +134,7 @@ The list displays all HTML templates. Depending on the settings, the displayed c
   Enter the ID of the entity which should be applied within the template.
 
 - [SHOW POSSIBLE VARIABLES]   
-  Click this button to display all variables to the selected entity. The code containing all variables to the entity is displayed in a new window. The possible variables can only be displayed when both, an entity type and an entity ID have been selected.
+  Click this button to display all variables to the selected entity. The code containing all variables to the entity is displayed in a new window. The possible variables can only be displayed if both, an entity type and an entity ID have been selected.
 
 - [SAVE AND PREVIEW TEMPLATE]   
-  Click this button to save the HTML template and display a preview of the template with the selected entity. The preview is displayed in a new  window. The preview can only be displayed when both, an entity type and an entity ID have been selected.
+  Click this button to save the HTML template and display a preview of the template with the selected entity. The preview is displayed in a new  window. The preview can only be displayed if both, an entity type and an entity ID have been selected.

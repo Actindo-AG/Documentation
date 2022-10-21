@@ -22,11 +22,11 @@
   Select the checkbox to display the editing toolbar. Alternatively, you can click directly a row in the list to select the attribute and display the editing toolbar. If you click the checkbox in the header, all attributes in the list are selected.
 
 - [RECOVER]   
-  Click this button to recover the selected attribute. This button is only displayed, when the checkbox of an attribute is selected.    
+  Click this button to recover the selected attribute. This button is only displayed if the checkbox of an attribute is selected.    
   For detailed information, see [Recover an attribute](../Integration/01_ManageAttributes.md#recover-an-attribute).
 
 - [DELETE]   
-  Click this button to irretrievably delete the selected attribute. This button is only displayed, when the checkbox of an attribute is selected.       
+  Click this button to irretrievably delete the selected attribute. This button is only displayed if the checkbox of an attribute is selected.       
   For detailed information, see [Permanently delete an attribute](../Integration/01_ManageAttributes.md#permanently-delete-an-attribute).
 
 The list displays all deleted attributes. Depending on the settings, the displayed columns may vary. All fields are read-only.
@@ -42,6 +42,7 @@ The list displays all deleted attributes. Depending on the settings, the display
 
 - *Description*   
   Description to the attribute.
+
 
 - *Multi-language*   
   Indication whether the attribute is multi-language or not:
@@ -60,6 +61,7 @@ The list displays all deleted attributes. Depending on the settings, the display
 
 - *ID*   
   Attribute identification number. The ID number is automatically assigned by the system.
+
 
 - *Active*   
   Attribute status. The following statuses are available:

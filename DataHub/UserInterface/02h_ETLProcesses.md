@@ -65,10 +65,10 @@
   Click this button to display the columns bar and customize the displayed columns and the order of columns in the list. The *x* indicates the number of columns that are currently displayed in the list.
 
 - [x]     
-  Select the checkbox to display the editing toolbar. Alternatively you can click directly a row in the list to select the checkbox to the row and display the editing toolbar. You cannot select multiple checkboxes at once.
+  Select the checkbox to display the editing toolbar. Alternatively you can click directly a row in the list to select the corresponding checkbox and display the editing toolbar. You cannot select multiple checkboxes at once.
 
 - [RETRY]   
-  Click this button to restart the selected ETL process. This button is only displayed, when a single checkbox of an ETL process with the **Error** status is selected. The *Process will be retried shortly* pop-up window is displayed in the upper right corner.
+  Click this button to restart the selected ETL process. This button is only displayed if a single checkbox of an ETL process with the **Error** status is selected. The *Process will be retried shortly* pop-up window is displayed in the upper right corner.
 
   ![ETL processes](../../Assets/Screenshots/DataHub/Settings/ETLProcesses/ProcessRetried.png "[ETL processes]")
 
@@ -134,7 +134,7 @@ Depending on the selection in the *VIEW* drop-down list, the ETL processes list 
   Click this button to cancel creating a view. The *Create view* window is closed.
 
 - [SAVE]   
-  Click this button to save the new view. The *Create view* window is closed. The view is saved and displayed in the *VIEW* drop-down list.
+  Click this button to save the new view and display it in the *VIEW* drop-down list. The *Create view* window is closed.
 
 
 ## Rename view
@@ -150,4 +150,4 @@ Depending on the selection in the *VIEW* drop-down list, the ETL processes list 
   Click this button to cancel renaming the view. The *Rename view* window is closed.
 
 - [SAVE]   
-  Click this button to save the changes to the views name. The *Rename view* window is closed. The new name for the view is saved and displayed in the *VIEW* drop-down list.
+  Click this button to save the changes and display it in the *VIEW* drop-down list. The *Rename view* window is closed.

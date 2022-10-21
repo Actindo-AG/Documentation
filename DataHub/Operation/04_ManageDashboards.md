@@ -43,7 +43,7 @@ Customize a dashboard to your special needs by adding the desired dashlets, dele
 
 ### Add a dashlet
 
-Add the desired dashlets to your dashboard to get an overview over the processes and entities within the *DataHub* module.
+Add the desired dashlets to your dashboard to get an overview over the processes and entities within the *DataHub* module.   
 Depending on the purpose of the dashboard, you can add different sets of dashlets to different dashboards.
 
 #### Prerequisites
@@ -154,7 +154,7 @@ Change the arrangement of the dashlets on a dashboard to optimize the view for y
 
 3. Hover over a dashlet until the cursor icon changes to the cross arrows cursor.
 
-4. Click the dashlet and move it on the desired position on the dashboard using drag and drop. When moving the dashlet across the dashboard, the possible positions on the predefined grid are highlighted in dark gray.
+4. Click the dashlet and move it on the desired position on the dashboard using drag and drop. When moving the dashlet across the dashboard, the possible positions on the predefined grid are highlighted.
 
   ![Move dashlet](../../Assets/Screenshots/DataHub/Overview/MoveDashlet.png "[Move dashlet]")
 

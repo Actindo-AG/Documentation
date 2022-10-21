@@ -22,11 +22,11 @@
   Select the checkbox to display the editing toolbar. If you click the checkbox in the header, all channels in the list are selected.
 
 - [EDIT]   
-  Click this button to edit the selected channel. This button is only displayed, when a single checkbox of a channel is selected. Alternatively, you can click directly a row in the list to edit a channel.
+  Click this button to edit the selected channel. This button is only displayed if a single checkbox of a channel is selected. Alternatively, you can click directly a row in the list to edit a channel.
   For detailed information, see [Edit a channel](../Integration/04_ManageChannels.md#edit-a-channel).
 
 - [DELETE]   
-  Click this button to delete the selected channel. This button is only displayed, when the checkbox of at least one channel is selected.       
+  Click this button to delete the selected channel. This button is only displayed if the checkbox of at least one channel is selected.       
 
 The list displays all channels. Depending on the settings, the displayed columns may vary. All fields are read-only.
 
@@ -87,7 +87,7 @@ The list displays all channels. Depending on the settings, the displayed columns
   Click the drop-down list and select the language in which the *Name (Language)* and *Description (Language)* fields are displayed. The system languages **English (United States)** and **Deutsch (Deutschland)** are available in the drop-down list.
 
 - [SAVE]   
-  Click this button to save the channel, close the *Create channel* view and return to the channel list.
+  Click this button to save the channel. The *Create channel* view is closed.
 
 - *Name (Language)*   
   Enter a channel name in the selected language.
@@ -123,7 +123,7 @@ The list displays all channels. Depending on the settings, the displayed columns
   Click the drop-down list and select the language in which the *Name (Language)* and *Description (Language)* fields are displayed. The system languages **English (United States)** and **Deutsch (Deutschland)** are available in the drop-down list.
 
 - [SAVE]   
-  Click this button to save the channel, close the *Edit channel* view and return to the channel list.
+  Click this button to save the channel. The *Edit channel* view is closed.
 
 - *Name (Language)*   
   Click the field to edit the channel name in the selected language.

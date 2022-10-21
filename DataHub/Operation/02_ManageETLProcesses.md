@@ -1,4 +1,4 @@
-[!!Omni-Channel](../../Channels/Overview/01_General.md)
+DataHub[!!Omni-Channel](../../Channels/Overview/01_General.md)
 [!!User Interface ETL processes](../UserInterface/02h_ETLProcesses.md)
 [!!User Interface ETL](../UserInterface/02d_ETL.md)
 [!!Manage the ETL mappings](./01_ManageETLMappings.md)
@@ -15,14 +15,14 @@ You can check the status of a current ETL process, confirm a pending ETL process
 
 After an ETL process has been triggered, the current status is displayed in the *ETL PROCESSES* tab.
 An ETL process can have the following statuses:
-- *Todo*
-- *Error*
-- *Done*
-- *Destination frozen*
-- *Awaiting confirmation*
-- *Synchronous*
-- *Awaiting confirmation different user*
-- *Semi-automatic accepted*   
+- **Todo**
+- **Error**
+- **Done**
+- **Destination frozen**
+- **Awaiting confirmation**
+- **Synchronous**
+- **Awaiting confirmation different user**
+- **Semi-automatic accepted**   
 
 You can check the current status of an ETL process to approve that any changes are applied or if any further actions are required.  
 
@@ -38,7 +38,7 @@ An ETL process has been triggered, for instance by a rerun of mapping, see [Reru
 
 1. Check the list for the appropriate ETL process and note its status.
 
-2. Click the *Status filter* drop-down list and select the status of the respective ETL process in the list. The following statuses are available in the list:
+2. Click the *Status filter* drop-down list and select the status of the respective ETL process in the list. The following statuses are available:
   - **Todo**   
     All pending ETL processes are displayed.
   - **Error**  
@@ -88,15 +88,15 @@ If the selected change tracking mode of an ETL mapping equals **Semi-automatic**
 2. Switch to the *Omni-Channel* module: *Omni-Channel > Offers > Tab SEMI AUTOMATIC MAPPING* .      
   The *SEMI AUTOMATIC MAPPING* tab is displayed.
 
-3. Click the ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh) button to update the list of pending mappings.   
-  The list is updated and all pending mappings are displayed.
+3. Click the ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh) button.   
+  The list of pending mappings is updated and all pending mappings are displayed.
 
   ![Semi-automatic mapping](../../Assets/Screenshots/Channels/Offers/SemiAutomaticMapping/SemiAutomaticMapping.png "[Semi-automatic mapping]")
 
-4. Select the checkboxes of the mappings in the list, you want to confirm.   
+4. Select the checkboxes of the mappings you want to confirm.   
   The editing toolbar is displayed above the list.
 
 5. Click the [CONFIRM] button in the editing toolbar.   
-  The selected mappings have been removed from the list. The mappings have been applied. The confirmed mappings are displayed in the *ETL PROCESSES* tab of the *Datahub* module with the **Semi-automatic accepted** status. As soon as the confirmed mappings are executed, their status change to **Done**.
+  The selected mappings have been removed from the list. The mappings have been applied. The confirmed mappings are displayed in the *ETL PROCESSES* tab of the *DataHub* module with the **Semi-automatic accepted** status. As soon as the confirmed mappings are executed, their status change to **Done**.
 
   > [Info] If the ETL mappings should not be applied, click the [REJECT] button in the editing toolbar instead. The selected mappings will be removed from the list without being rerun.

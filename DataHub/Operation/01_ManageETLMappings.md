@@ -85,11 +85,9 @@ At least one ETL attribute set mapping has been created, see [Create an ETL mapp
 
   ![Mapping settings](../../Assets/Screenshots/DataHub/Settings/ETL/MappingSettings.png "[Mapping settings]")
 
-
   > [Info] Depending on the selected row, the fields displayed in the *Settings* section differ:
   - If the selected row contains only a destination attribute, the destination attribute as well as the *Extension* and *Override change tracking mode* drop-down lists are displayed.
   - If the selected row contains an attribute mapping with source, destination attribute and the extension, the destination attribute as well as the *Source attribute*, *Extension* and *Override change tracking mode* drop-down lists are displayed. The *Source attribute*, *Extension* and *Override change tracking mode* drop-down lists are preset. If the selected extension requires further configuration settings, the *Configuration* section is displayed below the *Settings* section.  
-
 
 3. Select the appropriate option in the *Extension* drop-down list in the *Settings* section. All extensions that are matching the data type of the destination attribute are displayed in the drop-down list.   
   If the selected extension requires further configuration settings, the *Configuration* section is displayed below the *Settings* section.
@@ -155,12 +153,10 @@ Within an attribute set mapping, you can define custom channel and language attr
 
   ![Custom mapping](../../Assets/Screenshots/DataHub/Settings/ETL/CustomMapping.png "[Custom mapping]")
 
-
   > [Info] Depending on the destination attribute, the additional drop-down lists displayed in the *Settings* section differ:
     - If the destination attribute is multi-language, the *Language* drop-down list is displayed additionally below the destination attribute.
     - If the destination attribute is multi-channel, the *Channel* drop-down list is displayed additionally below the destination attribute.
     - If the destination attribute is multi-language and multi-channel, the *Language* and the *Channel* drop-down list are additionally displayed below the destination attribute.
-
 
 4. Select the appropriate language in the *Language* and/or the appropriate channel in the *Channel* drop-down list in the *Settings* section. In the *Language* drop-down list, all active languages are displayed. In the *Channel* drop-down list, all active channels are displayed.    
 
@@ -212,7 +208,7 @@ At least one ETL attribute set mapping has been created, see [Create an ETL mapp
 
   ![Mapping](../../Assets/Screenshots/DataHub/Settings/ETL/Mapping.png "[Mapping]")
 
-2. Select the checkbox of the attribute mapping you want to delete.
+2. Select the checkbox of the attribute mapping you want to delete.   
   The editing toolbar is displayed above the attribute mappings.
 
   ![Mapping selected](../../Assets/Screenshots/DataHub/Settings/ETL/MappingSelected.png "[Mapping selected]")
@@ -274,7 +270,8 @@ At least one ETL attribute set mapping has been created, see [Create an ETL mapp
 
   ![Job triggered](../../Assets/Screenshots/DataHub/Settings/ETL/JobMappingTriggered.png "[Job triggered]")
 
-  The current status of the job is displayed in the *ETL PROCESSES* tab. For detailed information, see [Check the ETL processes](./02_ManageETLProcesses.md#check-the-etl-processes).
+  The current status of the job is displayed in the *ETL PROCESSES* tab.   
+  For detailed information, see [Check the ETL processes](./02_ManageETLProcesses.md#check-the-etl-processes).
 
 
 
@@ -313,4 +310,5 @@ At least one ETL attribute set mapping has been created, see [Create an ETL mapp
 
   ![Job triggered](../../Assets/Screenshots/DataHub/Settings/ETL/JobMappingTriggered.png "[Job triggered]")
 
-  The current status of the job is displayed in the *ETL PROCESSES* tab. For detailed information, see [Check the ETL processes](./02_ManageETLProcesses.md#check-the-etl-processes).
+  The current status of the job is displayed in the *ETL PROCESSES* tab.    
+  For detailed information, see [Check the ETL processes](./02_ManageETLProcesses.md#check-the-etl-processes).

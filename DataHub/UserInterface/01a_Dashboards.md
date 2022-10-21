@@ -13,51 +13,50 @@ In the *DASHBOARDS* tab, the custom tabs with composable dashlets are displayed.
   Click this button to delete the selected tab. The *Confirm Tab Deletion* window is displayed. This button is displayed to the right of the tab name.
 
 
-## Add a new tab &ndash; Create new tab
+
+## Add a new tab
+
+*DataHub > Overview > Tab DASHBOARDS > Button Add*
 
 ![Create new tab](../../Assets/Screenshots/DataHub/Overview/CreateNewTab.png "[Create new tab]")
+
+**Create new tab**
 
 - *Tab Name*   
   Enter a name for the new tab.
 
 - [CANCEL]   
-  Click this button to cancel creating a tab and close the *Add a new Tab* window.
+  Click this button to cancel creating a tab. The *Add a new Tab* window is closed.
 
 - [SAVE]   
-  Click this button to save the tab with the entered name and close the *Add a new Tab* window. The new tab is created.
+  Click this button to save the tab with the entered name. The *Add a new Tab* window is closed. The new tab is created.
 
+**Import existing tab**
 
-## Add a new tab &ndash; Import existing tab
+The *Import existing tab* tab is locked. It is only available in the *Actindo Dashboard*.
 
-![Import existing tab](../../Assets/Screenshots/DataHub/Overview/ImportExistingTab.png "[Import existing tab]")
-
-- *Dashboard Selection*   
-  Click the drop-down list to select the dashboard tab to be imported to the dashboard. All available dashboard tabs that are not yet included in the dashboard are displayed in the list.
-
-- [CANCEL]   
-  Click this button to cancel importing a tab and close the *Add a new Tab* window.
-
-- [SAVE]   
-  Click this button to save the selected tab for import and close the *Add a new Tab* window. The selected tab is imported.
-
-[comment]: <> (tab only available in the Actindo Dashboard - should be removed here -> bug!)
+[comment]: <> (Link zu Actindo dashboard einfügen sobald beschrieben)
 
 
 
 ## Confirm tab deletion
 
+*DataHub > Overview > Tab DASHBOARDS > Button Delete*
+
 ![Confirm tab deletion](../../Assets/Screenshots/DataHub/Overview/ConfirmTabDeletion.png "[Confirm tab deletion]")
 
 - [CANCEL]   
-  Click this button to cancel deleting the selected tab and close the *Confirm Tab Deletion* window.
+  Click this button to cancel deleting the selected tab. The *Confirm Tab Deletion* window is closed.
 
 - [ACCEPT]   
-  Click this button to delete the selected tab and close the *Confirm Tab Deletion* window. The tab and its dashlets are deleted.
-
+  Click this button to delete the selected tab. The *Confirm Tab Deletion* window is closed. The tab and its dashlets are deleted.
 
 
 
 ## Tab
+
+*DataHub > Overview > Tab DASHBOARDS > Select tab*   
+*DataHub > Overview > Tab DASHBOARDS > Button Add > Button Save*   
 
 ![New tab](../../Assets/Screenshots/DataHub/Overview/NewTab.png "[New tab]")
 
@@ -66,6 +65,9 @@ In the *DASHBOARDS* tab, the custom tabs with composable dashlets are displayed.
 
 
 ### Edit tab
+
+*DataHub > Overview > Tab DASHBOARDS > Select tab > Button Settings*   
+*DataHub > Overview > Tab DASHBOARDS > Button Add > Button Save > Button Settings*  
 
 ![Edit tab](../../Assets/Screenshots/DataHub/Overview/EditTab.png "[Edit tab]")
 
@@ -99,9 +101,12 @@ In the *DASHBOARDS* tab, the custom tabs with composable dashlets are displayed.
 
 #### Dashlet picker
 
+*DataHub > Overview > Tab DASHBOARDS > Select tab > Button Settings > Button ADD ELEMENT*   
+*DataHub > Overview > Tab DASHBOARDS > Button Add > Button Save > Button Settings > Button ADD ELEMENT*  
+
 ![Dashlet picker](../../Assets/Screenshots/DataHub/Overview/DashletPicker.png "[Dashlet picker]")
 
-- [x]   
+- [x]    
   Select a checkbox to add the selected dashlet to the tab. You can select multiple checkboxes. If you click the checkbox in the header, all dashlets in the list are selected. A toolbar indicating the number of selected dashlets is displayed above the list when you have selected at least one checkbox.   
   By default, the following dashlets are available:
   - *Attribute Count*   
@@ -134,7 +139,7 @@ In the *DASHBOARDS* tab, the custom tabs with composable dashlets are displayed.
 [comment]: <> (Check dashlet description)
 
 - [CANCEL]   
-  Click this button to cancel adding dashlets and close the *Dashlet Picker* window.
+  Click this button to cancel adding dashlets. The *Dashlet Picker* window is closed.
 
 - [ACCEPT]   
-  Click this button to add the selected dashlets to the tab and close the *Dashlet Picker* window. The dashlets are displayed in the tab.
+  Click this button to add the selected dashlets to the tab. The *Dashlet Picker* window is closed. The dashlets are displayed in the tab.

@@ -1,14 +1,14 @@
 # Key Features
 
-Intelligent Data Orchestration with the *DataHub* module
+Intelligent data orchestration with the *DataHub* module
 
-- Central Data Processing   
+- Central data processing   
   As a central data hub, the *DataHub* module provides the basis for all modules of the *Actindo Core1 Platform*. This allows you to customize the necessary data fields in all modules and for all business processes to best suit your business model.  
 
-- Automated Data Transformation (ETL)   
+- Automated data transformation (ETL)   
   With the help of an integrated ETL system, data from different sources can be aggregated, standardized and transformed according to your individual requirements and application landscape. This makes it very easy to connect to external systems.   
 
-- Import & Export   
+- Import and export   
   The *DataHub* module offers a wide range of options for data imports and exports. Whether manually, time-controlled, or at specific points in the business process: imports and exports are easy to configure with the *DataHub* module. Through formats such as CSV, XML, XML/EDIFACT and EDIFACT (depending on the booked integrations), the data format of any third-party software can be configured fast and easily.  
 
 - Comprehensive API   
@@ -28,6 +28,6 @@ Traditional IT strategies for modernizing the IT landscape include either the co
 
 ## Actindo data accelerator hub
 
-**Agile Product Data Management**   
+**Agile product data management**   
 The *DataHub* module enables a smooth flow of data through your entire IT landscape. One particularly important process for companies that is made much more efficient through the use of data hub and ETL is product data management. Together with the *PIM* module, the *DataHub* module forms the core of your unified commerce strategy: with the help of ETL, data can be extracted, modeled, refined and transferred to external systems completely automatically from a wide variety of data sources.  
 This makes it easy to centrally manage and control product data for all sales channels, from your own online store to international marketplaces and brick-and-mortar retail. This greatly simplifies the listing of your products in all your sales and marketing channels and saves you valuable time.

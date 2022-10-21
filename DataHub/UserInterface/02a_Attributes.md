@@ -22,17 +22,18 @@
   Select the checkbox to display the editing toolbar. You cannot select multiple checkboxes at once.
 
 - [EDIT]   
-  Click this button to edit the selected attribute. This button is only displayed, when the checkbox of an attribute is selected. Alternatively, you can click directly a row in the list to edit an attribute.
+  Click this button to edit the selected attribute. This button is only displayed if the checkbox of an attribute is selected. Alternatively, you can click directly a row in the list to edit an attribute.   
   For detailed information, see [Edit an attribute](../Integration/01_ManageAttributes.md#edit-an-attribute).
 
 - [DELETE]   
-  Click this button to delete the selected attribute. This button is only displayed, when the checkbox of an attribute is selected.       
+  Click this button to delete the selected attribute. This button is only displayed if the checkbox of an attribute is selected.       
   For detailed information, see [Delete an attribute](../Integration/01_ManageAttributes.md#delete-an-attribute).
 
 The list displays all attributes. Depending on the settings, the displayed columns may vary. All fields are read-only.
 
 - *Name*   
   Attribute name.
+
 
 - *Status*   
   Attribute status. The following statuses are available:
@@ -114,7 +115,7 @@ The list displays all attributes. Depending on the settings, the displayed colum
 
 
 - [SAVE]   
-  Click this button to save the attribute, close the *Create attribute* view and return to the attributes list.
+  Click this button to save the attribute. The *Create attribute* view is closed.
 
 **BASIC DATA**
 
@@ -181,7 +182,7 @@ For detailed information about the different configurations of data types, see [
 
 
 - [SAVE]   
-  Click this button to save the attribute, close the *Edit attribute* view and return to the attributes list.
+  Click this button to save the attribute. The *Edit attribute* view is closed.
 
 
 ### Edit attribute &ndash; Data
@@ -214,7 +215,8 @@ For detailed information about the different configurations of data types, see [
 
 **CONFIGURATION**
 
-The *CONFIGURATION* section displays the additional configuration for the selected data type. The configuration fields differ depending on the selected data type.    
+The *CONFIGURATION* section displays the additional configuration for the selected data type. The configuration fields differ depending on the selected data type.   
+As some data types have no further configuration settings, no *CONFIGURATION* section is displayed for these data types.     
 For detailed information about the different configurations of data types, see [Data type list](./04_DataTypeList.md).
 
 

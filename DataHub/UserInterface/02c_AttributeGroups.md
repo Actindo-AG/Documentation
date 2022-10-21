@@ -76,7 +76,7 @@ The list displays all attributes assigned to the selected attribute group. Depen
 **Add attributes to group**
 
 - ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)   
-  Click this button to cancel adding an attribute to the selected attribute group and close the *Add attributes to attribute group* view.
+  Click this button to cancel adding an attribute to the selected attribute group. The *Add attributes to attribute group* view is closed.
 
 - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Only unassigned attributes*   
   Enable this toggle to display only the attributes that are not yet assigned to any attribute group. Disable the toggle to display all attributes. By default, this toggle is disabled.
@@ -142,16 +142,16 @@ The list displays all attributes that are not assigned to the selected attribute
   Click this button to close the *Edit attribute groups* view and return to the *Attribute groups* view. All changes are rejected.
 
 - [CANCEL]   
-  Click this button to cancel editing attribute groups and close the *Edit attribute groups* view.
+  Click this button to cancel editing attribute groups. The *Edit attribute groups* view is closed.
 
 - [SAVE]   
-  Click this button to save all changes and close the *Edit attribute groups* view.
+  Click this button to save all changes. The *Edit attribute groups* view is closed.
 
 - ![Sort](../../Assets/Icons/Sort01.png "[Sort]") (Sort)   
   Click and hold this button to move the selected attribute group to another position in the list using drag and drop.
 
 - ![Edit](../../Assets/Icons/Edit03.png "[Edit]") (Edit)   
-  Click this button to edit the selected attribute group. The attribute group data window is displayed. This button is only displayed, when you hover over an attribute group or sub-group.
+  Click this button to edit the selected attribute group. The attribute group data window is displayed. This button is only displayed if you hover over an attribute group or sub-group.
 
 - Attribute group   
   Top attribute group. Click the attribute group to display the attribute sub-group column and all assigned attribute sub-groups. Hover over the attribute group to display the ![Edit](../../Assets/Icons/Edit03.png "[Edit]") (Edit) button.
@@ -186,27 +186,29 @@ The list displays all attributes that are not assigned to the selected attribute
   Enter an attribute group key. The number of characters is limited to 190.
 
 - [CANCEL]   
-  Click this button to cancel adding an attribute group, close the *Add element* window and return to the *Edit attribute groups* view.
+  Click this button to cancel adding an attribute group. The *Add element* window is closed.
 
 - [SAVE]   
-  Click this button to add the new attribute group, close the *Add element* window and return to the *Edit attribute groups* view.
+  Click this button to add the new attribute group. The *Add element* window is closed.
 
   > [Info] You have to click the [SAVE] button in the *Edit attribute groups* view to save the added attribute group. Otherwise, all changes are rejected.
 
 
 
-### Edit group data
+### Edit attribute group data
 
 *DataHub > Settings > Tab ATTRIBUTE GROUPS > Button Edit > Hover over attribute group > Button Edit*
 
 ![Edit attribute group data](../../Assets/Screenshots/DataHub/Settings/AttributeGroups/EditAttributeGroupData.png "[Edit attribute group data]")
 
-> [Info] The *Edit group data* window for attribute groups and sub-groups is identical.
+> [Info] The *Edit attribute group data* window for attribute groups and sub-groups is identical.
+
 
 - Language   
   Click the drop-down list and select the system language in which the *Name (Language)* and *Description (Language)* fields are displayed. By default, the following options are available:
   - **English (United States)**
   - **Deutsch (Deutschland)**
+
 
 - *Name (Language)*   
   Click the field to edit the attribute group name in the selected language.
@@ -222,9 +224,9 @@ The list displays all attributes that are not assigned to the selected attribute
   > [Warning] Be aware that as soon as you delete an attribute group, you also delete all assigned attribute sub-groups.
 
 - [CANCEL]   
-  Click this button to cancel editing the attribute group, close the window and return to the *Edit attribute groups* view.
+  Click this button to cancel editing the attribute group. The *Edit attribute group data* window is closed.
 
 - [SAVE]   
-  Click this button to save any changes to the attribute group, close the window and return to the *Edit attribute groups* view.
+  Click this button to save any changes to the attribute group. The *Edit attribute group data* window is closed.
 
   > [Info] You have to click the [SAVE] button in the *Edit attribute groups* view to save the changes. Otherwise, all changes are rejected.

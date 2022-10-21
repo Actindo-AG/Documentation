@@ -2,7 +2,7 @@
 
 *DataHub > Setting*
 
-The DataHub *Settings* menu entry is used to manage the DataHub settings.
+The *Settings* menu entry is used to manage the *DataHub* settings.
 
 The *Settings* user interface is composed of the following tabs:
   - [ATTRIBUTES](./02a_Attributes.md)

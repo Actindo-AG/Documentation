@@ -33,7 +33,7 @@ The *HTML Templates for ETL* plugin has been installed.
 
 [comment]: <> (Gibt es noch andere Vorgaben für diesen Key?)
 
-4. Click the textarea and enter the appropriate content for the HTML template. You can either include HTML text or Smarty templates:
+4. Click the textarea and enter the appropriate content for the HTML template. You can either include HTML text and/or Smarty templates:
   - [Include HTML text](#include-html-text)
   - [Include Smarty templates](#include-smarty-templates)
 
@@ -53,11 +53,11 @@ The *HTML Templates for ETL* plugin has been installed.
 
 #### Procedure
 
-> [Info] If you want to include HTML text into a new HTML template, follow the steps described in the [Create an HTML template](#create-an-html-template) procedure before proceeding to the steps below.
-
 *DataHub > Settings > Tab HTML TEMPLATES > Select HTML template*   
 
 ![Edit HTML template](../../Assets/Screenshots/DataHub/Settings/HTMLTemplates/EditHTMLTemplate.png "[Edit HTML template]")
+
+> [Info] If you want to include HTML text into a new HTML template, follow the steps described in the [Create an HTML template](#create-an-html-template) procedure before proceeding to the steps below.
 
 1. Click the textarea and enter the desired HTML text.
 
@@ -72,7 +72,8 @@ The *HTML Templates for ETL* plugin has been installed.
 
 ## Include Smarty templates
 
-You can include Smarty templates into your HTML template. For detailed information about Smarty templates, see [Smarty](https://www.smarty.net/) .
+You can include Smarty templates into your HTML template.    
+For detailed information about Smarty templates, see [Smarty](https://www.smarty.net/).    
 Always use the delimiters *{}* as separator for the Smarty templates.  
 
 #### Prerequisites
@@ -100,7 +101,7 @@ The *HTML Templates for ETL* plugin has been installed.
 
 ### Include attribute variables
 
-You can include variables for attributes via Smarty templates into your HTML template.
+You can include variables for attributes via Smarty templates into your HTML template.   
 Always use the *$* sign to introduce an attribute variable.
 
 #### Prerequisites
@@ -109,11 +110,11 @@ The *HTML Templates for ETL* plugin has been installed.
 
 #### Procedure
 
-> [Info] If you want to include variables into a new HTML template, follow the steps described in the [Create an HTML template](#create-an-html-template) procedure before proceeding to the steps below.
-
 *DataHub > Settings > Tab HTML TEMPLATES > Select HTML template*   
 
 ![Edit HTML template](../../Assets/Screenshots/DataHub/Settings/HTMLTemplates/EditHTMLTemplate.png "[Edit HTML template]")
+
+> [Info] If you want to include variables into a new HTML template, follow the steps described in the [Create an HTML template](#create-an-html-template) procedure before proceeding to the steps below.
 
 1. Click the textarea and, if desired, edit or add the Smarty template(s) and/or HTML text for the template.
 
@@ -127,7 +128,8 @@ The *HTML Templates for ETL* plugin has been installed.
   - *destination language*: Add **__LanguageKey** to include the destination language to the variable. Replace **LanguageKey** by the corresponding language key and note, that all signs must be replaced by a **_**, for instance, add **__de_DE** for the language key *de-DE*. Pay attention to upper and lower case as the variables are case sensitive.
   - *destination channel*: Add **__ChannelKey** to include the destination channel to the variable. Replace **ChannelKey** by the corresponding channel key and note, that all signs must be replaced by a **_**, for instance, add **__actindo_basic** for the channel key *actindo_basic*. Pay attention to upper and lower case as the variables are case sensitive.
 
-  > [Info] You can display all possible variables of a certain entity. For detailed information, see [Display the possible variables](#display-the-possible-variables).
+  > [Info] You can display all possible variables of a certain entity.    
+  For detailed information, see [Display the possible variables](#display-the-possible-variables).
 
 4. If desired, display a [preview of the HTML template](#preview-an-html-template).
 
@@ -138,7 +140,7 @@ The *HTML Templates for ETL* plugin has been installed.
 
 ### Include a tree node variable
 
-A tree node variable is a special type of variables that can be included via Smarty templates into your HTML template.
+A tree node variable is a special type of variables that can be included via Smarty templates into your HTML template.   
 The special rules to be followed to correctly include a tree node variable are described below.
 
 #### Prerequisites
@@ -148,11 +150,11 @@ The special rules to be followed to correctly include a tree node variable are d
 
 #### Procedure
 
-> [Info] If you want to include a tree node variable into a new HTML template, follow the steps described in the [Create an HTML template](#create-an-html-template) procedure before proceeding to the steps below.
-
 *DataHub > Settings > Tab HTML TEMPLATES > Select HTML template*   
 
 ![Edit HTML template](../../Assets/Screenshots/DataHub/Settings/HTMLTemplates/EditHTMLTemplate.png "[Edit HTML template]")
+
+> [Info] If you want to include a tree node variable into a new HTML template, follow the steps described in the [Create an HTML template](#create-an-html-template) procedure before proceeding to the steps below.
 
 1. Click the textarea and, if desired, edit or add the Smarty template(s) and/or HTML text for the template.
 
@@ -172,7 +174,7 @@ The special rules to be followed to correctly include a tree node variable are d
 
 ### Include language independent variables
 
-It is possible to define a variable in such a way, that it is language independent.
+It is possible to define a variable in such a way, that it is language independent.   
 The special rules to be followed to correctly include a language independent variable via Smarty templates into your HTML template are described below.
 
 #### Prerequisites
@@ -241,15 +243,15 @@ The *HTML Templates for ETL* plugin has been installed.
 
 #### Procedure
 
-> [Info] If you want to display the possible variables within a new HTML template, follow the steps described in the [Create an HTML template](#create-an-html-template) procedure before proceeding to the steps below.
-
 *DataHub > Settings > Tab HTML TEMPLATES > Select HTML template*   
 
 ![Edit HTML template](../../Assets/Screenshots/DataHub/Settings/HTMLTemplates/EditHTMLTemplate.png "[Edit HTML template]")
 
+> [Info] If you want to display the possible variables within a new HTML template, follow the steps described in the [Create an HTML template](#create-an-html-template) procedure before proceeding to the steps below.
+
 1. In the *Preview* section at the bottom of the *HTML template* view, select an entity type in the drop-down list *Entity type*. All available entities are displayed in the list.
 
-  > [Info] The available entities depend on the modules installed in your *Core1 Platform*.
+  > [Info] The available entities depend on the plugins installed in your *Core1 Platform*.
 
 2. Enter the corresponding entity identification number of the entity in the field *Entity ID*.
 
@@ -272,21 +274,21 @@ At least one HTML template has been created, see [Create an HTML template](#crea
 
 #### Procedure
 
-> [Info] If you want to preview a new HTML template, follow the steps described in the [Create an HTML template](#create-an-html-template) procedure before proceeding to the steps below.
-
 *DataHub > Settings > Tab HTML TEMPLATES > Select HTML template*   
 
 ![Edit HTML template](../../Assets/Screenshots/DataHub/Settings/HTMLTemplates/EditHTMLTemplate.png "[Edit HTML template]")
 
-2. In the *Preview* section at the bottom of the *Edit HTML template* view, select an entity type in the drop-down list *Entity type*. All available entities are displayed in the list.
+> [Info] If you want to preview a new HTML template, follow the steps described in the [Create an HTML template](#create-an-html-template) procedure before proceeding to the steps below.
 
-  > [Info] The available entities depend on the modules installed in your *Core1 Platform*.
+1. In the *Preview* section at the bottom of the *Edit HTML template* view, select an entity type in the drop-down list *Entity type*. All available entities are displayed in the list.
 
-3. Enter the corresponding entity identification number of the entity for which you want to preview the template in the field *Entity ID*.
+  > [Info] The available entities depend on the plugins installed in your *Core1 Platform*.
 
-4. Click the [SAVE AND PREVIEW TEMPLATE] button.  
+2. Enter the corresponding entity identification number of the entity for which you want to preview the template in the field *Entity ID*.
+
+3. Click the [SAVE AND PREVIEW TEMPLATE] button.  
   The template has been saved and a new browser window is displayed with a preview of the template for the selected entity.
 
   ![Preview](../../Assets/Screenshots/DataHub/Settings/HTMLTemplates/Preview.png "[Preview]")
 
-5. Close the browser window and click the ![Back](../../Assets/Icons/Back02.png "[Back]") (Back) button in the upper left corner to return to the HTML templates list or proceed to [edit the HTML template](#edit-an-html-template).
+4. Close the browser window and click the ![Back](../../Assets/Icons/Back02.png "[Back]") (Back) button in the upper left corner to return to the HTML templates list or proceed to [edit the HTML template](#edit-an-html-template).

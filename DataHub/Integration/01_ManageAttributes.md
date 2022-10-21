@@ -161,12 +161,12 @@ At least one attribute has been created, see [Create an attribute](#create-an-at
 1. Select the checkbox of the attribute you want to delete in the list of attributes.   
   The editing toolbar is displayed above the attributes list.
 
-2. Click the ![Delete](../../Assets/Icons/Trash03.png "[Delete]") (Delete) button in the toolbar.    
+2. Click the ![Delete](../../Assets/Icons/Trash03.png "[Delete]") (Delete) button in the editing toolbar.    
   The *Confirm deletion of attribute?* window is displayed.
 
   ![Confirm deletion of attribute](../../Assets/Screenshots/DataHub/Settings/Attributes/ConfirmDeletionAttribute.png "[Confirm deletion of attribute]")
 
-  > [Info] All dependencies to attribute sets, ETL-mappings and entity entries are displayed in this window. Be aware that problems may occur if you delete an attribute with existing dependencies. For defining attributes, the [CONFIRM] button is not displayed in the *Confirm deletion of attribute?* window as they cannot be deleted.   
+  > [Info] All dependencies to attribute sets, ETL mappings and entity entries are displayed in this window. Be aware that problems may occur if you delete an attribute with existing dependencies. For defining attributes, the [CONFIRM] button is not displayed in the *Confirm deletion of attribute?* window as they cannot be deleted.   
 
 3. Click the [CONFIRM] button in the bottom right corner.   
   The attribute has been deleted and is moved to the *DELETED ATTRIBUTES* tab. The *Confirm deletion of attribute?* window is closed.
@@ -194,7 +194,7 @@ At least one attribute has been moved to the *DELETED ATTRIBUTES* tab, see [Dele
 1. Select the checkbox of the attribute you want to recover in the list of deleted attributes.   
   The editing toolbar is displayed above the deleted attributes list.
 
-2. Click the [RECOVER] button in the toolbar.   
+2. Click the [RECOVER] button in the editing toolbar.   
   The selected attribute has been recovered and is removed from the list of deleted attributes.
 
 [comment]: <> (Why can I not recover certain attributes? Is it a bug?)
@@ -222,7 +222,7 @@ At least one attribute has been moved to the *DELETED ATTRIBUTES* tab, see [Dele
 
   > [Info] If the attribute moved to the *DELETED ATTRIBUTES* tab is not yet displayed in the list of deleted attributes, click the ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh) button to update the list.
 
-2. Click the [Delete] button in the toolbar.  
+2. Click the [Delete] button in the editing toolbar.  
   The attribute has been permanently deleted. The deletion cannot be undone.
 
   > [Warning] Be aware that problems may occur if you delete an attribute with existing dependencies.

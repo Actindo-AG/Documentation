@@ -6,8 +6,7 @@ In this part of the *DataHub* documentation, you will find the following chapter
 
 
 - [DASHBOARDS](./01a_Dashboards.md)
-  - [Add a new tab &ndash; Create new tab](./01a_Dashboards.md#add-a-new-tab--create-new-tab)
-  - [Add a new tab &ndash; Import existing tab](./01a_Dashboards.md#add-a-new-tab--import-existing-tab)
+  - [Add a new tab &ndash; Create new tab](./01a_Dashboards.md#add-a-new-tab)
   - [Confirm tab deletion](./01a_Dashboards.md#confirm-tab-deletion)
   - [Tab](./01a_Dashboards.md#tab)
     - [Edit tab](./01a_Dashboards.md#edit-tab)
@@ -35,7 +34,7 @@ In this part of the *DataHub* documentation, you will find the following chapter
   - [Add attributes to group](./02c_AttributeGroups.md#add-attributes-to-group)
   - [Edit attribute groups](./02c_AttributeGroups.md#edit-attribute-groups)
     - [Add element](./02c_AttributeGroups.md#add-element)
-    - [Edit group data](./02c_AttributeGroups.md#edit-group-data)
+    - [Edit attribute group data](./02c_AttributeGroups.md#edit-attribute-group-data)
 
 
 - [ETL](./02d_ETL.md)
