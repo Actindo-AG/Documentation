@@ -33,16 +33,30 @@
 
 [comment]: <> (Reset auch hier verfügbar?)
 
-- *All statuses*
-  - *New dispatch note*
-  - *Transferred to partner*
-  - *Partner confirmed receival*
-  - *Dispatch note completed*
-  - *Error*
-  - *Void*
+- Status drop-down list  
+  Click the drop-down list and select a dispatch note status. The following options are available:
+  - **All statuses**
+  Select this option to display all dispatch notes, regardless of their status.
+  - **New dispatch note**  
+  Select this option to display all new dispatch notes.
+  - **Transferred to partner**  
+  Select this option to display all dispatch notes that have been transferred to the fulfiller.
+  - **Partner confirmed receival**  
+  Select this option to display all dispatch notes whose receival has been confirmed by the fulfiller.
+  - **Dispatch note completed**  
+  Select this option to displays all dispatch notes that have been completed.
+  - **Error**  
+  Select this option to display all dispatch notes that have given an error.
+  - **Void**  
+  Select this option to display all void dispatch notes.
 
 
-- *All connections*
+- Connections drop-down list  
+  Click the drop-down list and select a connection. The following options are available:
+  - *All connections*  
+  Select this option to display all configured connections.
+  - **Connection name**
+  Select this option to display the dispatch notes corresponding to the selected fulfiller.
 
 
 - ![Search](../../Assets/Icons/Search.png "[Search]") (Search)   
@@ -58,15 +72,64 @@
   Click this button to display the filter bar and customize the active filters. The *x* indicates the number of filters that are currently active.
 
 - [x]     
-  Select the checkbox to display the editing toolbar. If you click the checkbox in the header, all dispatch notes in the list are selected./You cannot select multiple checkboxes at once.
+  Select the checkbox to display the editing toolbar. If you click the checkbox in the header, all dispatch notes in the list are selected.
 
+- [VIEW]
+  Click this button to edit the selected dispatch note. This button is only displayed if a single checkbox in the list is selected. Alternatively, you can click directly a row in the list to view a dispatch note. The *Dispatch note "Number"* view is displayed.
+
+- [EXPORT]
+  Click this button to export manually the dispatch note to the fulfiller. This button is displayed if the checkbox of at least one dispatch note is selected.
+
+  > [Info] The dispatch note is exported automatically by the system. If the export fails for some reason, the dispatch note can be manually reexported. Nevertheless, this is not a standard procedure but a troubleshooting measure. For detailed information, see [Export dispatch note to fulfiller](../Troubleshooting/01_ExportDispatchNoteFulfiller.md).
+
+  - [FORCE COMPLETION]  
+  Click this button to complete the dispatch note.  This button is displayed if the checkbox of at least one dispatch note is selected.
+
+  [comment]: <> (Test, mehr Info dazu)
 
 The list displays all dispatch notes. Depending on the settings, the displayed columns may vary. All fields are read-only.
 
-- *Connection*
-- *Document number*
-- *Status*
-- *Shipment status*
+
+- *Connection*  
+  Connection to fulfiller.
+
+- *Document number*  
+  Dispatch note number.
+
+- *Status*  
+  Dispatch note status. The following statuses are available:
+  - *All statuses*
+
+  - *New dispatch note*
+
+  - *Transferred to partner*
+
+  - *Partner confirmed receival*
+
+  - *Dispatch note completed*
+
+  - *Error*
+
+  - *Void*
+
+
+- *Shipment status*  
+  Status of shipment linked to the dispatch note. The following options are available:
+  - ![Filter](../../Assets/Icons/Cross02.png "[Cross]")  
+  No shipment yet (new dispatch note or transferred to partner)
+
+  - ![Filter](../../Assets/Icons/CircularArrows.png "[Circular arrows]")
+  Waiting for shipment
+
+  - ![Filter](../../Assets/Icons/DoubleCheck.png "[Double check]")
+  	Delivered
+
+  - ![Filter](../../Assets/Icons/Warning02.png "[Error]")
+    Error
+
+  - Empty  
+    If the shipment status is void, the *Shipment status* is empty.
+
 - *Description*
 - *Modified*
 - *Carrier*
@@ -78,12 +141,9 @@ The list displays all dispatch notes. Depending on the settings, the displayed c
 - *ID*
 - *Status ID*
 - *Created*
+- *Carrier*
 
-- [VIEW]
-The *Dispatch note "Number"*
-
-
-- [EXPORT]
+[comment]: <> (Abweichungen zwischen meinem Sandbox und NoE Textaccount - Standard vs. kundenspezifisch? RS S. Walke)
 
 ## Dispatch note "Number"
 
