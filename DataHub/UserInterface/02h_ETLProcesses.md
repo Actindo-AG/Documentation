@@ -42,20 +42,20 @@
     All ETL processes are displayed. By default, this mode is selected.
   - **Todo**   
     All pending ETL processes are displayed.
-  - **Error**   
+  - **Error**  
     All faulty ETL processes are displayed.
   - **Done**   
     All completed ETL processes are displayed.
   - **Destination frozen**   
-    All ETL processes, whose destination attribute is blocked because the corresponding entity is opened by a user, are displayed.
+    All ETL processes whose destination attribute is blocked because the corresponding entity is opened by a user are displayed.
   - **Awaiting confirmation**   
     All ETL processes that must be confirmed are displayed.
   - **Synchronous**   
     All ETL processes that are executed synchronously are displayed for the duration of processing.
   - **Awaiting confirmation different user**   
-    All ETL processes that must be confirmed by another user than the creator are displayed.
+    All ETL processes that must be confirmed by a user other than the creator are displayed.
   - **Semi-automatic accepted**   
-    All ETL processes have been confirmed are displayed.   
+    All ETL processes that have been confirmed are displayed.
 
 
 - ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh)   
@@ -65,14 +65,14 @@
   Click this button to display the columns bar and customize the displayed columns and the order of columns in the list. The *x* indicates the number of columns that are currently displayed in the list.
 
 - [x]     
-  Select the checkbox to display the editing toolbar. Alternatively you can click directly a row in the list to select the corresponding checkbox and display the editing toolbar. You cannot select multiple checkboxes at once.
+  Select the checkbox to display the editing toolbar. Alternatively, you can click directly a row in the list to select the corresponding checkbox and display the editing toolbar. You cannot select multiple checkboxes at once.
 
 - [RETRY]   
   Click this button to restart the selected ETL process. This button is only displayed if a single checkbox of an ETL process with the **Error** status is selected. The *Process will be retried shortly* pop-up window is displayed in the upper right corner.
 
   ![ETL processes](../../Assets/Screenshots/DataHub/Settings/ETLProcesses/ProcessRetried.png "[ETL processes]")
 
-Depending on the selection in the *VIEW* drop-down list, the ETL processes list displays all processes with the selected status. Depending on the settings, the displayed columns may vary. All fields are read-only.
+Depending on the selection in the *Status filter* drop-down list, the ETL processes list displays all processes with the selected status. Depending on the settings, the displayed columns may vary. All fields are read-only.
 
 - *Status*   
   Status of the ETL process. The following statuses are available:
@@ -111,7 +111,7 @@ Depending on the selection in the *VIEW* drop-down list, the ETL processes list 
   Date and time of the confirmation. This field is only displayed for ETL processes with the **Semi-automatic accepted** status.
 
 - *Accepted by*   
-  Name and username of the user who modified the process. This field is only displayed for ETL processes with the **Semi-automatic accepted** status.
+  Name and username of the user who confirmed the process. This field is only displayed for ETL processes with the **Semi-automatic accepted** status.
 
   [comment]: <> (Stimmt das? Hatte da noch nie ne Anzeige...)
 
@@ -144,7 +144,7 @@ Depending on the selection in the *VIEW* drop-down list, the ETL processes list 
 ![Rename view](../../Assets/Screenshots/DataHub/Settings/ETLProcesses/RenameView.png "[Rename view]")
 
 - *Name*   
-  Click this field to edit the views name.
+  Click this field to edit the view name.
 
 - [CANCEL]   
   Click this button to cancel renaming the view. The *Rename view* window is closed.

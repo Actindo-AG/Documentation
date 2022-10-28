@@ -242,7 +242,7 @@ The list displays all attributes. Depending on the settings, the displayed colum
 
 
 - *Required*   
-  Indication whether the attribute is an required field in the attribute set or not:
+  Indication whether the attribute is a required field in the attribute set or not:
   - ![Check](../../Assets/Icons/Check.png "[Check]") (Checkmark): The attribute is required.  
   - ![Cross](../../Assets/Icons/Cross02.png "[Cross]") (Cross): The attribute is optional.
 

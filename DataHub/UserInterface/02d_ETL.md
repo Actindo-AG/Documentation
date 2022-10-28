@@ -22,7 +22,7 @@
 
 - ![Edit](../../Assets/Icons/Edit01.png "[Edit]") (Edit)   
   Click this button to edit the selected attribute set mapping. This button is only displayed if the checkbox of an attribute set mapping is selected. Alternatively, you can click directly a row in the list to edit an attribute set mapping.
-  For detailed information, see [Edit an attribute set mapping](../Operation/01_ManageETLMappings.md#edit-an-etl-attribute-set-mapping).
+  For detailed information, see [Edit an ETL attribute set mapping](../Operation/01_ManageETLMappings.md#edit-an-etl-attribute-set-mapping).
 
 The list displays all attribute set mappings. Depending on the settings, the displayed columns may vary. All fields are read-only.
 
@@ -79,7 +79,7 @@ The list displays all attribute set mappings. Depending on the settings, the dis
   Click the drop-down list and select the channel from which the value of a multi-channel attribute will be taken when mapping it to a single channel attribute. All available channels are displayed in the drop-down list.
 
 - *Copy ETL attribute set mapping*   
-  Click the drop-down list and select the an ETL attribute set mapping to apply all matching attribute mappings to the new ETL attribute set mapping. All attribute set mappings whose destination attribute set matches or has inheritance relations to the selected destination attribute set are displayed in the drop-down list. If no attribute set mapping is selected, no attribute mappings are copied from another mapping. The drop-down list is locked if no attribute set mapping with the selected destination attribute set already exists.
+  Click the drop-down list and select an ETL attribute set mapping to apply all matching attribute mappings to the new ETL attribute set mapping. All attribute set mappings whose destination attribute set matches or has inheritance relations to the selected destination attribute set are displayed in the drop-down list. If no attribute set mapping is selected, no attribute mappings are copied from another mapping. The drop-down list is locked if no attribute set mapping with the selected destination attribute set already exists.
 
 - [CANCEL]   
   Click this button to cancel creating an attribute set mapping. The *Create ETL attribute set mapping* window is closed.
@@ -125,11 +125,11 @@ The list displays all attribute set mappings. Depending on the settings, the dis
 
 - ![Edit](../../Assets/Icons/Edit01.png "[Edit]") (Edit)   
   Click this button to edit the mapping to the selected destination attribute. This button is only displayed if the checkbox of a mapping is selected. Alternatively, you can click directly a row in the list to edit the mapping to a destination attribute.
-  For detailed information, see [Edit an attribute mapping](../Operation/01_ManageETLMappings.md#edit-the-etl-attribute-mappings).
+  For detailed information, see [Edit the ETL attribute mappings](../Operation/01_ManageETLMappings.md#edit-the-etl-attribute-mappings).
 
 - ![Delete](../../Assets/Icons/Trash03.png "[Delete]") (Delete)   
   Click this button to delete the selected mapping to the destination attribute. This button is only displayed if the checkbox of a mapping is selected.       
-  For detailed information, see [Delete an attribute mapping](../Operation/01_ManageAttributes.md#delete-an-etl-attribute-mapping).
+  For detailed information, see [Delete an ETL attribute mapping](../Operation/01_ManageAttributes.md#delete-an-etl-attribute-mapping).
 
 - [ADD TO SOURCE SET AND MAP]   
   Click this button to add the selected destination attribute to the source attribute set and create a mapping. By default, the *Identity-mapping* extension is used to map the attributes. The button is only displayed if no mapping to the selected destination attribute already exists.
@@ -142,7 +142,7 @@ The list displays all attribute set mappings. Depending on the settings, the dis
 
 - [CUSTOM DESTINATION ATTRIBUTE CHANNEL AND LANGUAGE]    
   Click this button to define a custom channel and/or language attribute mapping for the selected destination attribute. The *Settings* section is displayed on the right side of the *Mapping from source set to destination set* view with a drop-down list for the language and/or channel. The button is only displayed if the destination attribute of the selected mapping is multi-language or multi-channel.   
-  For detailed information, see [Add a custom mapping for a destination attribute](../Operation/01_ManageAttributes.md#add-a-custom-mapping-for-a-destination-attribute)
+  For detailed information, see [Add a custom mapping for a destination attribute](../Operation/01_ManageETLMappings.md#add-a-custom-mapping-for-a-destination-attribute)
 
 
 The list displays all attribute mappings. Depending on the settings, the displayed columns may vary. All fields are read-only.
@@ -153,7 +153,7 @@ The list displays all attribute mappings. Depending on the settings, the display
 - *Extension*   
   Selected extension for the mapping. The extension is only displayed if a mapping exists.
 
-- *Destination attribute set*   
+- *Destination attribute*   
   Name of the destination attribute to which the source attribute is mapped.
 
 - *ID*   
@@ -168,7 +168,7 @@ The list displays all attribute mappings. Depending on the settings, the display
 
 
 The *Settings* section on the right side of the *Mapping from source set to destination set* view is only displayed if editing an attribute mapping.   
-Depending on the selected row in the mappings list, the fields displayed in the *Settings* section differ:   
+Depending on the selected row in the list of mappings, the fields displayed in the *Settings* section differ:   
   - If the selected row contains only a destination attribute, the destination attribute as well as the *Extension* and *Override change tracking mode* drop-down lists are displayed.   
   - If the selected row contains an attribute mapping with source, destination attribute and the extension, the destination attribute as well as the *Source attribute*, *Extension* and *Override change tracking mode* drop-down lists are displayed. The *Source attribute*, *Extension* and *Override change tracking mode* drop-down lists are preset. If the selected extension requires further configuration settings, the *Configuration* section is displayed below the *Settings* section.   
 
@@ -191,15 +191,15 @@ Depending on the selected row in the mappings list, the fields displayed in the 
   - **Automatic**   
     The initial mapping is automatically applied. All value changes or reruns are applied automatically in the mapping.  
   - **Semi-automatic**   
-    The initial mapping is automatically applied. Values changes or reruns are applied after confirmation.
+    The initial mapping is automatically applied. Value changes or reruns are applied after confirmation.
   - **Semi-automatic, changes must be confirmed by another user**   
-    The initial mapping as well as values changes or reruns are applied after confirmation by another user.
+    The initial mapping as well as value changes or reruns are applied after confirmation by another user.
   - **Manual**   
     The initial mapping is automatically applied. Afterwards, the changes in the mapping must be triggered manually to be applied.
 
 
 - *Source attribute*   
-  Click the drop-down list within the arrow box and select the appropriate source attribute for the mapping. Depending on the selected ETL extension one or several *Source attribute* arrow boxes are displayed. The selection in the drop-down list depends on the selected ETL extension which defines the required data type of the source attribute(s).    
+  Click the drop-down list within the arrow box and select the appropriate source attribute for the mapping. Depending on the selected ETL extension, one or several *Source attribute* arrow boxes are displayed. The selection in the drop-down list depends on the selected ETL extension, which defines the required data type of the source attribute(s).    
   For detailed information about the ETL extensions and the different data types, see [ETL extensions list](./03_ETLExtensions.md) or [Data type list](./04_DataTypeList.md).  
 
 
@@ -217,7 +217,7 @@ For detailed information about the different configurations of ETL extensions, s
 ![Rerun all mappings](../../Assets/Screenshots/DataHub/Settings/ETL/RerunAllMappings.png "[Rerun all mappings]")
 
 - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Also rerun mappings for entities with manual change tracking?*   
-  Enable this toggle to rerun all attribute mappings regardless their change tracking mode. Disable the toggle to rerun the mapping excluding all mappings with a manual change tracking mode. By default, this toggle is disabled.
+  Enable this toggle to rerun all attribute mappings regardless of their change tracking mode. Disable the toggle to rerun the mapping excluding all mappings with a manual change tracking mode. By default, this toggle is disabled.
 
 - [CANCEL]   
   Click this button to cancel the rerun of all mappings. The *Rerun all mappings* window is closed.
@@ -233,10 +233,10 @@ For detailed information about the different configurations of ETL extensions, s
 ![Rerun sinlge mapping](../../Assets/Screenshots/DataHub/Settings/ETL/RerunSingleMapping.png "[Rerun single mapping]")
 
 - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Also rerun mapping for entities with manual change tracking (or if the change-tracking override of this mapping is manual)?*   
-  Enable this toggle to rerun the attribute mapping regardless its change tracking mode. Disable the toggle to rerun the mapping only if the manual change tracking mode is not assigned to this mapping. By default, this toggle is disabled.
+  Enable this toggle to rerun the attribute mapping regardless of its change tracking mode. Disable the toggle to rerun the mapping only if the manual change tracking mode is not assigned to this mapping. By default, this toggle is disabled.
 
 - [CANCEL]   
-  Click this button to cancel the rerun of all mappings. The *Rerun single mapping* window is closed.
+  Click this button to cancel the rerun of the selected mapping. The *Rerun single mapping* window is closed.
 
 - [SAVE]   
-  Click this button to rerun all attribute mappings within the attribute set. The *Rerun single mapping* window is closed.
+  Click this button to rerun the selected attribute mapping. The *Rerun single mapping* window is closed.

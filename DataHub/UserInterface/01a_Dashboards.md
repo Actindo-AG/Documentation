@@ -7,10 +7,10 @@
 In the *DASHBOARDS* tab, the custom tabs with composable dashlets are displayed. By default no tab is created.
 
 - ![Add](../../Assets/Icons/Plus06.png "[Add]") (Add)   
-  Click this button to add a new tab to display different dashlets. The *Add a new Tab* window is displayed.
+  Click this button to add a new tab to display different dashlets. The *Add a new tab* window is displayed.
 
 - ![Delete](../../Assets/Icons/Cross04.png "[Delete]") (Delete)   
-  Click this button to delete the selected tab. The *Confirm Tab Deletion* window is displayed. This button is displayed to the right of the tab name.
+  Click this button to delete the selected tab. The *Confirm tab deletion* window is displayed. This button is displayed to the right of the tab name.
 
 
 
@@ -26,10 +26,10 @@ In the *DASHBOARDS* tab, the custom tabs with composable dashlets are displayed.
   Enter a name for the new tab.
 
 - [CANCEL]   
-  Click this button to cancel creating a tab. The *Add a new Tab* window is closed.
+  Click this button to cancel creating a tab. The *Add a new tab* window is closed.
 
 - [SAVE]   
-  Click this button to save the tab with the entered name. The *Add a new Tab* window is closed. The new tab is created.
+  Click this button to save the tab with the entered name. The *Add a new tab* window is closed. The new tab is created.
 
 **Import existing tab**
 
@@ -46,10 +46,10 @@ The *Import existing tab* tab is locked. It is only available in the *Actindo Da
 ![Confirm tab deletion](../../Assets/Screenshots/DataHub/Overview/ConfirmTabDeletion.png "[Confirm tab deletion]")
 
 - [CANCEL]   
-  Click this button to cancel deleting the selected tab. The *Confirm Tab Deletion* window is closed.
+  Click this button to cancel deleting the selected tab. The *Confirm tab deletion* window is closed.
 
 - [ACCEPT]   
-  Click this button to delete the selected tab. The *Confirm Tab Deletion* window is closed. The tab and its dashlets are deleted.
+  Click this button to delete the selected tab. The *Confirm tab deletion* window is closed. The tab and its dashlets are deleted.
 
 
 
@@ -86,7 +86,7 @@ The *Import existing tab* tab is locked. It is only available in the *Actindo Da
 
 
 - [ADD ELEMENT]   
-  Click the button to add a dashlet to the selected tab. The *Dashlet Picker* window is displayed.
+  Click the button to add a dashlet to the selected tab. The *Dashlet picker* window is displayed.
 
 - [SAVE]   
   Click this button to save any changes. The changes are applied. The *Edit tab* view is closed.
@@ -116,7 +116,7 @@ The *Import existing tab* tab is locked. It is only available in the *Actindo Da
   -	*Set Count*   
     This dashlet displays the number of attribute sets in the *DataHub* module.
   -	*Entity Type Count*   
-    This dashlet displays the number of different entity types in the *DataHub* module.
+    This dashlet displays the number of entity types in the *DataHub* module.
   -	*Group Count*   
     This dashlet displays the number of groups in the *DataHub* module.
   -	*Channel Count*   
@@ -126,7 +126,7 @@ The *Import existing tab* tab is locked. It is only available in the *Actindo Da
   -	*Mapping Errors*   
     This dashlet displays a chart with the number of mapping errors in the *DataHub* module.
   -	*New and Changed Values*   
-    This dashlet displays a line chart with the number of new and changes values within a certain period of time in the *DataHub* module.
+    This dashlet displays a line chart with the number of new and changed values within a certain period of time in the *DataHub* module.
   -	*Modified Values by Set for Today*   
     This dashlet displays a chart with the number of today's modified values within an attribute set in the *DataHub* module.
   -	*Current Mapping Statistics*   
@@ -139,7 +139,7 @@ The *Import existing tab* tab is locked. It is only available in the *Actindo Da
 [comment]: <> (Check dashlet description)
 
 - [CANCEL]   
-  Click this button to cancel adding dashlets. The *Dashlet Picker* window is closed.
+  Click this button to cancel adding dashlets. The *Dashlet picker* window is closed.
 
 - [ACCEPT]   
-  Click this button to add the selected dashlets to the tab. The *Dashlet Picker* window is closed. The dashlets are displayed in the tab.
+  Click this button to add the selected dashlets to the tab. The *Dashlet picker* window is closed. The dashlets are displayed in the tab.

@@ -46,15 +46,15 @@ An ETL process has been triggered, for instance by a rerun of mapping, see [Reru
   - **Done**   
     All completed ETL processes are displayed.
   - **Destination frozen**   
-    All ETL processes, whose destination attribute is blocked because the corresponding entity is opened by a user, are displayed.
+    All ETL processes whose destination attribute is blocked because the corresponding entity is opened by a user are displayed.
   - **Awaiting confirmation**   
     All ETL processes that must be confirmed are displayed.
   - **Synchronous**   
     All ETL processes that are executed synchronously are displayed for the duration of processing.
   - **Awaiting confirmation different user**   
-    All ETL processes that must be confirmed by another user than the creator are displayed.
+    All ETL processes that must be confirmed by a user other than the creator are displayed.
   - **Semi-automatic accepted**   
-    All ETL processes have been confirmed are displayed.   
+    All ETL processes that have been confirmed are displayed.   
 
   All ETL processes of the selected status are displayed.
 

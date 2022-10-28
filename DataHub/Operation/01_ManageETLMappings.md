@@ -20,7 +20,7 @@ The mapping allows to convert the attributes from the source set to fit the attr
 
 #### Prerequisites
 
-At least two attribute sets have been created, see [Create an attribute set](./02_ManageAttributeSets.md#Create-an-attribute-set).
+At least two attribute sets have been created, see [Create an attribute set](../Integration/02_ManageAttributeSets.md#create-an-attribute-set).
 
 #### Procedure
 
@@ -67,7 +67,7 @@ When editing an ETL attribute mapping, you can create a mapping to an unmapped d
 
 #### Prerequisites
 
-At least one ETL attribute set mapping has been created, see [Create an ETL mapping](#create-an-ETL-mapping).
+At least one ETL attribute set mapping has been created, see [Create an ETL attribute set mapping](#create-an-etl-attribute-set-mapping).
 
 #### Procedure
 
@@ -92,7 +92,7 @@ At least one ETL attribute set mapping has been created, see [Create an ETL mapp
 3. Select the appropriate option in the *Extension* drop-down list in the *Settings* section. All extensions that are matching the data type of the destination attribute are displayed in the drop-down list.   
   If the selected extension requires further configuration settings, the *Configuration* section is displayed below the *Settings* section.
 
-  > [Info] For detailed information about the data types, see [Data type list](../UserInterface/04_DataTypeList.md).   
+  > [Info] For detailed information about the data types, see [Data type list](../UserInterface/04_DataTypeList.md).    
   For detailed information about the ETL extensions, see [ETL extensions list](../UserInterface/03_ETLExtensions.md).
 
 
@@ -109,16 +109,16 @@ At least one ETL attribute set mapping has been created, see [Create an ETL mapp
     The initial mapping is automatically applied. Afterwards, the changes in the mapping must be triggered manually to be applied.
 
 
-5. Select the appropriate attribute that you want to assign to the destination attribute in the *Source attribute* drop-down list. All attributes with a data type that matches to the selected ETL extension are displayed in the drop-down list.
+5. Select the appropriate attribute that you want to assign to the destination attribute in the *Source attribute* drop-down list. All attributes with a data type that matches the selected ETL extension are displayed in the drop-down list.
 
 6. If required, select or enter the corresponding configuration settings in the *Configuration* section.   
 
 7. Click the [SAVE] button in the upper right corner.   
   The changes have been saved. The *Settings* section is hidden.
 
-  > [Info] Be aware that you have to [rerun the mapping](#rerun-an-etl-mapping) to apply the changes made to the attribute.
+  > [Info] Be aware that you have to rerun the mapping to apply the changes made to the attribute, see [Rerun an ETL mapping](#rerun-an-etl-mapping).
 
-8. Repeat step **2** to **7** for all attributes you want to map.
+8. Repeat the steps **2** to **7** for all attributes you want to map.
 
 
 
@@ -129,7 +129,7 @@ Within an attribute set mapping, you can define custom channel and language attr
 
 #### Prerequisites
 
-- At least one ETL attribute set mapping have been created, see [Create an ETL mapping](#create-an-ETL-mapping).
+At least one ETL attribute set mapping has been created, see [Create an ETL attribute set mapping](#create-an-etl-attribute-set-mapping).
 - The destination attribute is multi-language and/or multi-channel.
 
 #### Procedure
@@ -138,7 +138,7 @@ Within an attribute set mapping, you can define custom channel and language attr
 
 ![Attribute set mappings](../../Assets/Screenshots/DataHub/Settings/ETL/AttributeSetMappings.png "[Attribute set mappings]")
 
-1. Click the attribute set mapping you want to add a differing language or channel attribute mapping for a certain destination attribute.   
+1. Click the attribute set mapping to which you want to add a differing language or channel attribute mapping for a certain destination attribute.   
   The *Mapping from source set to destination set* view is displayed.
 
   ![Mapping](../../Assets/Screenshots/DataHub/Settings/ETL/Mapping.png "[Mapping]")
@@ -148,7 +148,7 @@ Within an attribute set mapping, you can define custom channel and language attr
 
   ![Mapping selected](../../Assets/Screenshots/DataHub/Settings/ETL/MappingSelected.png "[Mapping selected]")
 
-3. Click the [CUSTOM DESTINATION ATTRIBUTE CHANNEL AND LANGUAGE] button in the editing toolbar. The button is only displayed when the destination attribute of the selected mapping is multi-language or multi-channel.
+3. Click the [CUSTOM DESTINATION ATTRIBUTE CHANNEL AND LANGUAGE] button in the editing toolbar. This button is only displayed if the destination attribute of the selected mapping is multi-language or multi-channel.
   The *Settings* section is displayed on the right side.
 
   ![Custom mapping](../../Assets/Screenshots/DataHub/Settings/ETL/CustomMapping.png "[Custom mapping]")
@@ -156,7 +156,7 @@ Within an attribute set mapping, you can define custom channel and language attr
   > [Info] Depending on the destination attribute, the additional drop-down lists displayed in the *Settings* section differ:
     - If the destination attribute is multi-language, the *Language* drop-down list is displayed additionally below the destination attribute.
     - If the destination attribute is multi-channel, the *Channel* drop-down list is displayed additionally below the destination attribute.
-    - If the destination attribute is multi-language and multi-channel, the *Language* and the *Channel* drop-down list are additionally displayed below the destination attribute.
+    - If the destination attribute is multi-language and multi-channel, the *Language* and the *Channel* drop-down lists are additionally displayed below the destination attribute.
 
 4. Select the appropriate language in the *Language* and/or the appropriate channel in the *Channel* drop-down list in the *Settings* section. In the *Language* drop-down list, all active languages are displayed. In the *Channel* drop-down list, all active channels are displayed.    
 
@@ -180,7 +180,7 @@ Within an attribute set mapping, you can define custom channel and language attr
     The initial mapping is automatically applied. Afterwards, the changes in the mapping must be triggered manually to be applied.
 
 
-7. Select the appropriate attribute that you want to assign to the destination attribute in the *Source attribute* drop-down list. All attributes with a data type that matches to the selected ETL extension are displayed in the drop-down list.
+7. Select the appropriate attribute that you want to assign to the destination attribute in the *Source attribute* drop-down list. All attributes with a data type that matches the selected ETL extension are displayed in the drop-down list.
 
 8. If required, select or enter the corresponding configuration settings in the *Configuration* section.   
 
@@ -195,7 +195,7 @@ Delete an attribute mapping to cancel the transfer of data to the destination at
 
 #### Prerequisites
 
-At least one ETL attribute set mapping has been created, see [Create an ETL mapping](#create-an-ETL-mapping).
+At least one ETL attribute set mapping has been created, see [Create an ETL attribute set mapping](#create-an-etl-attribute-set-mapping).
 
 #### Procedure
 
@@ -216,11 +216,11 @@ At least one ETL attribute set mapping has been created, see [Create an ETL mapp
 3. Click the ![Delete](../../Assets/Icons/Trash03.png "[Delete]") (Delete) button in the editing toolbar.   
   The attribute mapping has been deleted from the list.
 
-  > [Info] When deleting an attribute mapping, the mapping to the destination attribute, but not the destination attribute itself is deleted from the attribute mapping list. The destination attribute is only deleted when the attribute mapping was a custom language or channel mapping. In this case, the original destination attribute without customized language or channel is still available in the list of attribute mappings.
+  > [Info] When deleting an attribute mapping, the mapping to the destination attribute, but not the destination attribute itself, is deleted from the attribute mapping list. The destination attribute is only deleted if the attribute mapping was a custom language or channel mapping. In this case, the original destination attribute without customized language or channel is still available in the list of attribute mappings.
 
 4. Repeat the steps **2** and **3** for all attributes you want to delete.
 
-  > [Info] Be aware that you have to [rerun the mapping](#rerun-an-etl-mapping) to apply the changes made to the attribute.
+  > [Info] Be aware that you have to rerun the mapping to apply the changes made to the attribute, see [Rerun an ETL mapping](#rerun-an-etl-mapping).
 
 
 
@@ -234,11 +234,11 @@ The mapping is only applied when either a value in the source attribute changes 
 
 To apply changes or a new attribute mapping within an attribute set mapping, you can trigger the rerun of a single attribute mapping.
 It is recommended to use this function when only one or a few attribute mappings are affected.
-When a higher number of changes or new attribute mappings within an attribute set mapping was made, it is recommended to rerun all attribute mappings within the attribute set mapping, see [Rerun an attribute set mapping](#rerun-an-attribute-set-mapping).
+If a higher number of changes or new attribute mappings within an attribute set mapping has been made, it is recommended to rerun all attribute mappings within the attribute set mapping, see [Rerun an attribute set mapping](#rerun-an-attribute-set-mapping).
 
 #### Prerequisites
 
-At least one ETL attribute set mapping has been created, see [Create an ETL mapping](#create-an-ETL-mapping).
+At least one ETL attribute set mapping has been created, see [Create an ETL attribute set mapping](#create-an-etl-attribute-set-mapping).
 
 #### Procedure
 
@@ -278,12 +278,12 @@ At least one ETL attribute set mapping has been created, see [Create an ETL mapp
 ### Rerun an attribute set mapping
 
 To apply changes or a new attribute mapping within an attribute set mapping, you can trigger the rerun of all attribute mappings within an attribute set mapping.
-It is recommended to use this function when a higher number of changes or new attribute mappings within an attribute set mapping was made.
-When only one or a few attribute mappings are affected, it is recommended to rerun the respective attribute mappings separately, see [Rerun a single attribute mapping](#rerun-a-single-attribute-mapping).
+It is recommended to use this function if a higher number of changes or new attribute mappings within an attribute set mapping has been made.
+If only one or a few attribute mappings are affected, it is recommended to rerun the respective attribute mappings separately, see [Rerun a single attribute mapping](#rerun-a-single-attribute-mapping).
 
 #### Prerequisites
 
-At least one ETL attribute set mapping has been created, see [Create an ETL mapping](#create-an-ETL-mapping).
+At least one ETL attribute set mapping has been created, see [Create an ETL attribute set mapping](#create-an-etl-attribute-set-mapping).
 
 #### Procedure
 
@@ -301,11 +301,11 @@ At least one ETL attribute set mapping has been created, see [Create an ETL mapp
 
   ![Rerun all mapping](../../Assets/Screenshots/DataHub/Settings/ETL/RerunSingleMapping.png "[Rerun single mapping]")
 
-4. If desired, enable the *Also rerun mapping for entities with manual change tracking (or if the change tracking override of this mapping is manual)?* toggle.
+3. If desired, enable the *Also rerun mapping for entities with manual change tracking (or if the change tracking override of this mapping is manual)?* toggle.
 
   > [Info] If you enable the *Also rerun mapping for entities with manual change tracking (or if the change-tracking override of this mapping is manual)?* toggle, the mapping will rerun regardless of the selected change tracking mode.     
 
-5. Click the [SAVE] button in the *Rerun single mapping* window.   
+4. Click the [SAVE] button in the *Rerun single mapping* window.   
   The mapping rerun has been started. A pop-up window is displayed to inform that the job has been triggered.
 
   ![Job triggered](../../Assets/Screenshots/DataHub/Settings/ETL/JobMappingTriggered.png "[Job triggered]")

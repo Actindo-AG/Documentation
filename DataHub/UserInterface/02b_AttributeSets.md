@@ -129,7 +129,7 @@ The list displays all attribute sets. Depending on the settings, the displayed c
   - **No inheritance**   
     The values are neither inherited nor copied from an existing attribute set. The *Inherit configuration* toggle and the *Inherit/Copy values* drop-down list are locked.
   - **Attribute set name**   
-    The values inherited or copied from the selected attribute set. All existing attribute sets are displayed in the drop-down list.  
+    The values are inherited or copied from the selected attribute set. All existing attribute sets are displayed in the drop-down list.  
 
 
 - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Inherit configuration*   
@@ -203,7 +203,7 @@ In the *Create attribute set* view, no attributes are displayed in the list. You
   - **No inheritance**   
     The values are neither inherited nor copied from an existing attribute set. The *Inherit configuration* toggle and the *Inherit/Copy values* drop-down list are locked.
   - **Attribute set name**   
-    The values inherited or copied from the selected attribute set. All existing attribute sets are displayed in the drop-down list.  
+    The values are inherited or copied from the selected attribute set. All existing attribute sets are displayed in the drop-down list.  
 
 
 - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Inherit configuration*   
@@ -256,7 +256,7 @@ In the *Create attribute set* view, no attributes are displayed in the list. You
 
 
 The list displays all attributes assigned to the selected attribute set. Depending on the settings, the displayed columns may vary.   
-If the ![Settings](../../Assets/Icons/Settings01.png "[Settings]") (Settings) button is gray, all fields are read-only. If the ![Settings](../../Assets/Icons/Settings02.png "[Settings]") (Settings) button is blue, the field *Required* is editable.
+If the ![Settings](../../Assets/Icons/Settings01.png "[Settings]") (Settings) button is gray, all fields are read-only. If the ![Settings](../../Assets/Icons/Settings02.png "[Settings]") (Settings) button is blue, the  *Required* field is editable.
 
 - *Name*   
   Attribute name.
@@ -379,16 +379,16 @@ For detailed information, see [ETL settings](./02d_ETL.md#settings).
   - **Automatic**   
     The initial mapping is automatically applied. All value changes or reruns are applied automatically in the mapping.  
   - **Semi-automatic**   
-    The initial mapping is automatically applied. Values changes or reruns are applied after confirmation.
+    The initial mapping is automatically applied. Value changes or reruns are applied after confirmation.
   - **Semi-automatic, changes must be confirmed by another user**   
-    The initial mapping as well as values changes or reruns are applied after confirmation by another user.
+    The initial mapping as well as value changes or reruns are applied after confirmation by another user.
   - **Manual**   
     The initial mapping is automatically applied. Afterwards, the changes in the mapping must be triggered manually to be applied.
 
 
 - *Source attribute*   
   Click the drop-down list within the arrow box and select the appropriate source attribute for the mapping. Depending on the selected ETL extension one or several *Source attribute* arrow boxes are displayed. The selection in the drop-down list depends on the selected ETL extension which defines the required data type of the source attribute(s). This drop-down list is only displayed if an ETL extension has been selected in the *Extension* drop-down list.       
-  For detailed information about how to set up an attribute mapping, see [Edit an ETL attribute mapping](../Operation/01_ManageETLMappings.md#edit-an-etl-attribute-mapping).
+  For detailed information about how to set up an attribute mapping, see [Edit the ETL attribute mappings](../Operation/01_ManageETLMappings.md#edit-the-etl-attribute-mappings).
 
 
 **Configuration**

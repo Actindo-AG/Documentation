@@ -31,3 +31,10 @@ In this part of the *DataHub* documentation, you will find the following chapter
 
 
 - [Manage the dashboards](./04_ManageDashboards.md)
+  - [Create a dashboard](./04_ManageDashboards.md#create-a-dashboard)
+  - [Customize a dashboard](./04_ManageDashboards.md#customize-a-dashboard)
+    - [Add a dashlet](./04_ManageDashboards.md#add-a-dashlet)
+    - [Change the viewport](./04_ManageDashboards.md#change-the-viewport)
+    - [Change the dashlets arrangement](./04_ManageDashboards.md#change-the-dashlets-arrangement)
+    - [Remove a dashlet](./04_ManageDashboards.md#remove-a-dashlet)
+  - [Delete a dashboard](./04_ManageDashboards.md#delete-a-dashboard)

@@ -86,8 +86,7 @@ A dashboard tab has been created, see [Create a dashboard](#create-a-dashboard).
 ### Change the viewport
 
 Change the viewport to adjust the view of the dashboard to the currently used device.
-The viewport is saved for a single dashboard.
-So you can create dashboards with different viewports.
+The viewport is saved for a single dashboard, so you can create dashboards with different viewports.
 
 #### Prerequisites
 
@@ -165,7 +164,7 @@ Change the arrangement of the dashlets on a dashboard to optimize the view for y
 
 ### Remove a dashlet
 
-Remove a dashlet from a dashboard if it is not needed for the purposes or was added accidentally to the dashboard.
+Remove a dashlet from a dashboard if it is not needed for the purposes or has been added accidentally to the dashboard.
 
 #### Prerequisites
 
@@ -178,7 +177,7 @@ Remove a dashlet from a dashboard if it is not needed for the purposes or was ad
 
 ![Tab with dashlets](../../Assets/Screenshots/DataHub/Overview/TabDashlets.png "[[Tab with dashlets]")
 
-1. Select the tab of the dashboard to which you want to remove a dashlet.   
+1. Select the tab of the dashboard from which you want to remove a dashlet.   
   The selected dashboard tab is displayed.
 
 2. Click the ![Settings](../../Assets/Icons/Settings01.png "[Settings]") (Settings) button in the upper right corner.    
@@ -202,7 +201,7 @@ Delete a dashboard that is no longer needed to keep track of the other dashboard
 
 #### Prerequisites
 
-A dashboard tab has been created, see [Create a dashboard](#create-a-dashboard).
+A dashboard has been created, see [Create a dashboard](#create-a-dashboard).
 
 #### Procedure
 
@@ -210,7 +209,7 @@ A dashboard tab has been created, see [Create a dashboard](#create-a-dashboard).
 
 ![Multiple dashboards](../../Assets/Screenshots/DataHub/Overview/MultipleDashboards.png "[Multiple dashboards]")
 
-1. Click the ![Delete](../../Assets/Icons/Cross02.png "[Delete]") (Delete) button on the dashboard tab you want to delete.   
+1. Click the ![Delete](../../Assets/Icons/Cross02.png "[Delete]") (Delete) button on the dashboard you want to delete.   
   The *Confirm tab deletion* window is displayed.
 
   ![Confirm tab deletion](../../Assets/Screenshots/DataHub/Overview/ConfirmTabDeletion.png "[Confirm tab deletion]")
