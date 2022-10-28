@@ -76,7 +76,7 @@ At least one ETL attribute set mapping has been created, see [Create an ETL attr
 ![Attribute set mappings](../../Assets/Screenshots/DataHub/Settings/ETL/AttributeSetMappings.png "[Attribute set mappings]")
 
 1. Click the attribute set mapping you want to edit in the list of attribute set mappings.   
-  The *Mapping from source set to destination set* view is displayed.
+  The *Mapping from "Source attribute set name" to "Destination attribute set name"* view is displayed.
 
   ![Mapping](../../Assets/Screenshots/DataHub/Settings/ETL/Mapping.png "[Mapping]")
 
@@ -139,7 +139,7 @@ At least one ETL attribute set mapping has been created, see [Create an ETL attr
 ![Attribute set mappings](../../Assets/Screenshots/DataHub/Settings/ETL/AttributeSetMappings.png "[Attribute set mappings]")
 
 1. Click the attribute set mapping to which you want to add a differing language or channel attribute mapping for a certain destination attribute.   
-  The *Mapping from source set to destination set* view is displayed.
+  The *Mapping from "Source attribute set name" to "Destination attribute set name"* view is displayed.
 
   ![Mapping](../../Assets/Screenshots/DataHub/Settings/ETL/Mapping.png "[Mapping]")
 
@@ -204,7 +204,7 @@ At least one ETL attribute set mapping has been created, see [Create an ETL attr
 ![Attribute set mappings](../../Assets/Screenshots/DataHub/Settings/ETL/AttributeSetMappings.png "[Attribute set mappings]")
 
 1. Click the attribute set mapping in which you want to delete an attribute mapping.   
-  The *Mapping from source set to destination set* view is displayed.
+  The *Mapping from "Source attribute set name" to "Destination attribute set name"* view is displayed.
 
   ![Mapping](../../Assets/Screenshots/DataHub/Settings/ETL/Mapping.png "[Mapping]")
 
@@ -247,7 +247,7 @@ At least one ETL attribute set mapping has been created, see [Create an ETL attr
 ![Attribute set mappings](../../Assets/Screenshots/DataHub/Settings/ETL/AttributeSetMappings.png "[Attribute set mappings]")
 
 1. Click the attribute set mapping to which you have made the changes or created new attribute mappings.   
-  The *Mapping from source set to destination set* view is displayed.
+  The *Mapping from "Source attribute set name" to "Destination attribute set name"* view is displayed.
 
   ![Mapping](../../Assets/Screenshots/DataHub/Settings/ETL/Mapping.png "[Mapping]")
 
@@ -292,7 +292,7 @@ At least one ETL attribute set mapping has been created, see [Create an ETL attr
 ![Attribute set mappings](../../Assets/Screenshots/DataHub/Settings/ETL/AttributeSetMappings.png "[Attribute set mappings]")
 
 1. Click the attribute set mapping to which you have made the changes or created new attribute mappings.   
-  The *Mapping from source set to destination set* view is displayed.
+  The *Mapping from "Source attribute set name" to "Destination attribute set name"* view is displayed.
 
   ![Mapping](../../Assets/Screenshots/DataHub/Settings/ETL/Mapping.png "[Mapping]")
 

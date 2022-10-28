@@ -31,7 +31,7 @@ In this part of the *DataHub* documentation, you will find the following chapter
 
 
 - [ATTRIBUTE GROUPS](./02c_AttributeGroups.md)
-  - [Add attributes to group](./02c_AttributeGroups.md#add-attributes-to-group)
+  - [Add attributes to group "Attribute group name"](./02c_AttributeGroups.md#add-attributes-to-group-attribute-group-name)
   - [Edit attribute groups](./02c_AttributeGroups.md#edit-attribute-groups)
     - [Add element](./02c_AttributeGroups.md#add-element)
     - [Edit attribute group data](./02c_AttributeGroups.md#edit-attribute-group-data)

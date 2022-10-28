@@ -1663,7 +1663,7 @@ This extension is used to map a tree node attribute and a price attribute to a P
 
 The configuration depends on the selected tax class attribute. A single drop-down list is displayed for each tax class defined in the source system.
 
-**Assign tax classes for attribute**
+**Assign tax classes for attribute "Tax class attribute name"**
 
 - *"Tax class name"*     
   Click the drop-down list and select the applicable tax class to be mapped to the tax class in the destination attribute. All available tax rates from the destination attribute are displayed in the list.

@@ -67,16 +67,16 @@ The list displays all attributes assigned to the selected attribute group. Depen
 
 
 
-## Add attributes to group
+## Add attributes to group "Attribute group name"
 
 *DataHub > Settings > Tab ATTRIBUTE GROUPS > Button Add*
 
 ![Add attributes](../../Assets/Screenshots/DataHub/Settings/AttributeGroups/AddAttributes.png "[Add attributes]")
 
-**Add attributes to group**
+**Add attributes to group "Attribute group name"**
 
 - ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)   
-  Click this button to cancel adding an attribute to the selected attribute group. The *Add attributes to attribute group* view is closed.
+  Click this button to cancel adding an attribute to the selected attribute group. The *Add attributes to group "Attribute group name"* view is closed.
 
 - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Only unassigned attributes*   
   Enable this toggle to display only the attributes that are not yet assigned to any attribute group. Disable the toggle to display all attributes. By default, this toggle is disabled.

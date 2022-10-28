@@ -42,7 +42,7 @@ The list displays all attributes. Depending on the settings, the displayed colum
 
 
 - *Group*   
-  Attribute group assigned to the attribute. If the attribute is not assigned to any attribute group, *not assigned* is displayed.
+  Attribute group to which the attributes are assigned. If the attribute is not assigned to any attribute group, *not assigned* is displayed.
 
 - *Key*   
   Attribute key.

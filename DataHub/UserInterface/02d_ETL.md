@@ -96,12 +96,12 @@ The list displays all attribute set mappings. Depending on the settings, the dis
 ![Mapping](../../Assets/Screenshots/DataHub/Settings/ETL/Mapping.png "[Mapping]")
 
 - ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)   
-  Click this button to close the *Mapping from source set to destination set* view and return to the list of attribute set mappings. All changes are rejected.
+  Click this button to close the *Mapping from "Source attribute set name" to "Destination attribute set name"* view and return to the list of attribute set mappings. All changes are rejected.
 
 - [RERUN MAPPINGS]   
   Click this button to rerun all attribute mappings within the attribute set mapping. The *Rerun all mappings* window is displayed. For detailed information, see [Rerun an attribute set mapping](../Operation/01_ManageETLMappings.md#rerun-an-attribute-set-mapping)
 
-**Mapping from source set to destination set**
+**Mapping from "Source attribute set name" to "Destination attribute set name"**
 
 - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Hide inactive destination attributes*   
   Enable this toggle to hide all inactive destination attributes in the list of attribute mappings. Disable the toggle to display all destination attributes independently on their status. By default, this toggle is disabled.
@@ -141,7 +141,7 @@ The list displays all attribute set mappings. Depending on the settings, the dis
   For detailed information, see [Rerun a single attribute mapping](../Operation/01_ManageETLMappings.md#rerun-a-single-attribute-mapping).
 
 - [CUSTOM DESTINATION ATTRIBUTE CHANNEL AND LANGUAGE]    
-  Click this button to define a custom channel and/or language attribute mapping for the selected destination attribute. The *Settings* section is displayed on the right side of the *Mapping from source set to destination set* view with a drop-down list for the language and/or channel. The button is only displayed if the destination attribute of the selected mapping is multi-language or multi-channel.   
+  Click this button to define a custom channel and/or language attribute mapping for the selected destination attribute. The *Settings* section is displayed on the right side of the *Mapping from "Source attribute set name" to "Destination attribute set name"* view with a drop-down list for the language and/or channel. The button is only displayed if the destination attribute of the selected mapping is multi-language or multi-channel.   
   For detailed information, see [Add a custom mapping for a destination attribute](../Operation/01_ManageETLMappings.md#add-a-custom-mapping-for-a-destination-attribute)
 
 
@@ -167,7 +167,7 @@ The list displays all attribute mappings. Depending on the settings, the display
 ![Mapping settings](../../Assets/Screenshots/DataHub/Settings/ETL/MappingSettings.png "[Mapping settings]")
 
 
-The *Settings* section on the right side of the *Mapping from source set to destination set* view is only displayed if editing an attribute mapping.   
+The *Settings* section on the right side of the *Mapping from "Source attribute set name" to "Destination attribute set name"* view is only displayed if editing an attribute mapping.   
 Depending on the selected row in the list of mappings, the fields displayed in the *Settings* section differ:   
   - If the selected row contains only a destination attribute, the destination attribute as well as the *Extension* and *Override change tracking mode* drop-down lists are displayed.   
   - If the selected row contains an attribute mapping with source, destination attribute and the extension, the destination attribute as well as the *Source attribute*, *Extension* and *Override change tracking mode* drop-down lists are displayed. The *Source attribute*, *Extension* and *Override change tracking mode* drop-down lists are preset. If the selected extension requires further configuration settings, the *Configuration* section is displayed below the *Settings* section.   
