@@ -262,7 +262,7 @@ Delete a category that is no longer needed. If you delete a category containing 
 6. Click the [SAVE] button in the upper right corner.  
   The product has been assigned to the selected category. The *Edit product* view is closed. The list of products is displayed again.
 
-6. Select the appropriate catalog and the assigned category in the left side bar.
+7. Select the appropriate catalog and the assigned category in the left side bar.
   The list of products displays only those products that are assigned to the selected category.
 
   ![Select category](../../Assets/Screenshots/PIM/Products/List/SelectCategory.png "[Select category]")
