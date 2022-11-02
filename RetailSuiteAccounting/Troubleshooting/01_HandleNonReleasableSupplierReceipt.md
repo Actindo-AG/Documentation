@@ -1,5 +1,7 @@
 [!!User Interface Supplier receipts](../UserInterface/01_Book.md#supplier-receipts)
 [!!Post a supplier receipt](../Operation/10_ManageReceipts.md#post-a-supplier-receipt)
+[!!Release a supplier receipt in Purchasing](../Operation/10_ManageReceipts.md#release-a-supplier-receipt-in-purchasing)
+
 
 # Handle a non-releasable supplier receipt
 
@@ -37,32 +39,22 @@ No prerequisites to fulfill.
 
 4. Deselect the *Goods receipt required* checkbox in the *Default values* section.
 
-  > [Info] If both *Goods receipt required* and *Only cost supplier/ordering process inactive* checkboxes are selected, the *Goods receipt required* is locked. Deselect the *Only cost supplier/ordering process inactive* checkbox first in order to deselect the *Goods receipt required* checkbox.  
-  You can hover the mouse over the checkboxes to display the tool tips. For detailed information about these fields, see [Invoicing](../UserInterface/02a_DebtorsCreditors.md#invoicing).
+  > [Info] When selecting then *Only cost supplier/ordering process inactive* checkbox, the *Goods receipt required* is automatically locked and the corresponding function in the *Purchasing* module is set to inactive, as no physical items need to be linked to release the supplier receipt. The *Only cost supplier/ordering process inactive* checkbox can be selected when the supplier is a provider delivering a service, for example an internet provider. You can hover the mouse over the checkboxes to display the tool tips. For detailed information about these fields, [Invoicing](../UserInterface/02a_DebtorsCreditors.md#invoicing).
 
-[comment]: <> (FH/Reviewer: Macht das überhaupt Sinn, dass beide Checkboxen gleichzeitig ausgewählt sind?)
-
-5. If necessary, select the *Only cost supplier/ordering process inactive*.
-
-  > [Info] This checkbox is only applicable if the supplier is a provider delivering a service, for example an internet provider. In this case, no items need to be linked in the *Purchasing* module to release a supplier receipt. The items section is, in fact, completely locked for the selected supplier.
-
- 
-
-6. Click the [SAVE] button.  
+5. Click the [SAVE] button.  
   The changes in the invoicing information have been saved. The *Successfully saved* pop-up window is displayed.
 
   ![Invoicing data saved](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/InvoicingDataSaved.png "[Invoicing data saved]")
 
-7. Switch to the *Purchasing* module: *Purchasing > Check supplier receipts > Tab CHECK SUPPLIER RECEIPTS*.   
+6. Switch to the *Purchasing* module: *Purchasing > Check supplier receipts > Tab CHECK SUPPLIER RECEIPTS*.   
   The *CHECK SUPPLIER RECEIPTS* tab is displayed.
 
   ![Check supplier receipts](../../Assets/Screenshots/RetailSuiteAccounting/Book/CheckSupplierReceipts01.png "[Check supplier receipts]")
 
-[comment]: <> (Evtl. Schritt 7 weglassen? Scheint überflüssig zu sein, denn es ist der Ausgangspunkt der Release a supplier receipt in Purchasing - Link im Schritt 8. Gleiches Gilt für 02_DisplayMissingSupplierReceipt. 7 weglassen?)  
+7. Check if the supplier receipt can be released.
+  > [Info] If the supplier receipt cannot still be released, please contact the Customer Support.    
 
-8. To continue with the release process, see [Release a supplier receipt in Purchasing](../Operation/10_ManageReceipts.md#release-a-supplier-receipt-in-purchasing).
-
-[comment]: <> (Es gibt eine dritte mögliche Meldung im Purchasing Modul, wenn keine der beiden Checkboxen ausgewählt sind: Zuweisung des Wareneingangs beim Lieferanten ist optional. Info dazu? Man kann trotzdem den Lieferantenbeleg freigeben)
+8. If desired, continue with the release process, see [Release a supplier receipt in Purchasing](../Operation/10_ManageReceipts.md#release-a-supplier-receipt-in-purchasing).
 
 
 

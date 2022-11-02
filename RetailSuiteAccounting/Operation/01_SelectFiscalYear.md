@@ -56,8 +56,6 @@ The *POSTINGS* tab in the *Post* menu entry is displayed for the selected postin
 
 ## Access postings from another period
 
-[comment]: <> (Evtl. Datei 13_AccessBookingsPeriod.md löschen. Info hier)
-
 Once a posting period has been selected, it is possible to change to a different one. Accessing postings from other periods may be necessary, for example, if a posting needs to be adjusted or if a transaction performed at a later stage must be manually posted in a specific period. The posting period can be changed from each tab within the *Post* menu entry.
 
 #### Prerequisites
@@ -76,4 +74,18 @@ The *Select fiscal year* window is displayed.
 
   ![Select fiscal year](../../Assets/Screenshots/RetailSuiteAccounting/SelectFiscalYear.png "[Select fiscal year]")
 
-2. Follow the steps **1** to **5** described in the [Starting the *Accounting* module](#starting-the-accounting-module) section to select the desired posting period.
+2. Click the *Fiscal year* drop-down list and select a fiscal year. All available fiscal years are displayed in the list.    
+  The *Period* date fields are filled in automatically.
+
+3. Click the *Month* drop-down list and select a month. The selected month determines the posting period, this means, the period where the transaction is posted. The accounting month plays a determining role when generating system evaluations.
+
+4. Enter a journal number in the *Journal* field. Alternatively, you can click the [LIST] button to select a journal in the *Journals* window, which is displaying all available journals and the postings contained in each of them. The journal, or posting batch, is a superordinate criterion for the arrangement of postings. Selecting the correct journal is extremely important for the data exports.
+
+  ![Journals](../../Assets/Screenshots/RetailSuiteAccounting/Journals.png "[Journals]")
+
+5. If required, select first the *Include fixed postings* checkbox and then a batch from the displayed list.
+
+  > [Info] If the *Include fixed postings* checkbox is selected, all fixed postings in the selected batch will be automatically posted when opening the selected period in the fiscal year. For detailed information about creating fixed postings, see [Create fixed postings](../Integration/06_ManageFixedBookings.md#create-fixed-postings).
+
+6. Click the [OK] button in the bottom right corner.   
+The *POSTINGS* tab in the *Post* menu entry is displayed for the selected posting period.  All postings registered in this posting period are displayed in the list of postings.
