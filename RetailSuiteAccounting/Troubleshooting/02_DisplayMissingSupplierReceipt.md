@@ -23,12 +23,12 @@ No prerequisites to fulfill.
 
 ![Overview](../../Assets/Screenshots/RetailSuiteAccounting/Book/SupplierReceiptsOverview01.png "[Overview]")
 
-1. Check and note the supplier number for the missing supplier receipt and switch to the *Customer/supplier* tab: *Accounting > Settings > Tab DEBTORS/CREDITORS*.    
+1. Check and note the supplier number for the missing supplier receipt and switch to the *DEBTORS/CREDITORS* tab: *Accounting > Settings > Tab DEBTORS/CREDITORS*.    
   The *DEBTORS/CREDITORS* tab is displayed. By default, the *Customer/Supplier list* tab is preselected.
 
   ![Customer/supplier list](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/CustomerSupplierList.png "[Customer/supplier list]")
 
-2. Double-click the corresponding supplier in the *Customer/supplier list* tab.
+2. Double-click the corresponding supplier in the *Customer/supplier list* tab.  
   The *Supplier "Supplier number"* tab is displayed.
 
 

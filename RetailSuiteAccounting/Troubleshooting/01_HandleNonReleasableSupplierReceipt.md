@@ -24,22 +24,22 @@ No prerequisites to fulfill.
 
   ![Overview](../../Assets/Screenshots/RetailSuiteAccounting/Book/SupplierReceiptsOverview01.png "[Overview]")
 
-1. Check and note the supplier number for the non-releasable supplier receipt in the *Overview* tab and switch to the *Customer/supplier* tab: *Accounting > Settings > DEBTORS/CREDITORS*.    
+1. Check and note the supplier number for the non-releasable supplier receipt in the *Overview* tab and switch to the *DEBTORS/CREDITORS* tab: *Accounting > Settings > Tab DEBTORS/CREDITORS*.    
   The *DEBTORS/CREDITORS* tab is displayed. By default, the *Customer/Supplier list* tab is preselected.
 
   ![Customer/supplier list](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/CustomerSupplierList.png "[Customer/supplier list]")
 
-2. Double-click the corresponding supplier in the *Customer/supplier list* tab.
+2. Double-click the corresponding supplier in the *Customer/supplier list* tab.  
   The *Supplier "Supplier number"* tab is displayed.
 
-3. Click the *Invoicing* sub-tab in the *Supplier "Supplier number"* tab.
+3. Click the *Invoicing* sub-tab in the *Supplier "Supplier number"* tab.  
   The *Invoicing* sub-tab is displayed.
 
   ![Invoicing](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/GoodsReceiptNecessary.png "[Invoicing]")
 
 4. Deselect the *Goods receipt required* checkbox in the *Default values* section.
 
-  > [Info] When selecting then *Only cost supplier/ordering process inactive* checkbox, the *Goods receipt required* is automatically locked and the corresponding function in the *Purchasing* module is set to inactive, as no physical items need to be linked to release the supplier receipt. The *Only cost supplier/ordering process inactive* checkbox can be selected when the supplier is a provider delivering a service, for example an internet provider. You can hover the mouse over the checkboxes to display the tool tips. For detailed information about these fields, [Invoicing](../UserInterface/02a_DebtorsCreditors.md#invoicing).
+  > [Info] When selecting then *Only cost supplier/ordering process inactive* checkbox, the *Goods receipt required* is automatically locked and the corresponding function in the *Purchasing* module is set to inactive, as no items need to be linked to release the supplier receipt. The *Only cost supplier/ordering process inactive* checkbox can be selected when the supplier is a provider delivering a service, for example an internet provider. You can hover the mouse over the checkboxes to display the tool tips. For detailed information about these fields, [Invoicing](../UserInterface/02a_DebtorsCreditors.md#invoicing).
 
 5. Click the [SAVE] button.  
   The changes in the invoicing information have been saved. The *Successfully saved* pop-up window is displayed.
