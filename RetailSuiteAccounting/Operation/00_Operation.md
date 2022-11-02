@@ -1,8 +1,8 @@
 # Operation
 
 - [Select the fiscal year](./01_SelectFiscalYear.md)
-  - [Starting the *Accounting* module](./01_SelectFiscalYear.md#starting-the-accounting-module)
-  - [Accessing postings from another period](./01_SelectFiscalYear.md#accessing-postings-from-another-period)
+  - [Start the *Accounting* module](./01_SelectFiscalYear.md#starting-the-accounting-module)
+  - [Access postings from another period](./01_SelectFiscalYear.md#accessing-postings-from-another-period)
 
 
 - [Check an account](./02_ReviewAccount.md)
@@ -47,8 +47,6 @@
 
 
 - [Post exchange rate fluctuations](./12_BookExchangeRateFluctuations.md)
-
-- [Access postings from another period](./13_AccessBookingsPeriod.md)
 
 
 - [Search in accounting](./14_SearchAccounting.md)
