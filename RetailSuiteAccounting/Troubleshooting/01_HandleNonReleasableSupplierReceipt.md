@@ -13,10 +13,8 @@ Follow the instructions below to check and modify the supplier settings in the *
 
 #### Prerequisites
 
-- A supplier receipt has been entered in the system, see [Acquire a supplier receipt](../Operation/10_ManageReceipts.md#acquire-a-supplier-receipt).
-- The supplier receipt to be released is displayed in the *Check supplier receipts*, see [Display a missing supplier receipt](./02_DisplayMissingSupplierReceipt.md).
+No prerequisites to fulfill.
 
-[comment]: <> (Diese Prerequisites machen hier vielleicht nicht so viel Sinn, denn beide sind Voraussetzungen, damit man überhaupt auf das Error kommt. So lassen oder No prerequisites to fulfill?)
 
 #### Procedure
 
@@ -24,7 +22,7 @@ Follow the instructions below to check and modify the supplier settings in the *
 
   ![Overview](../../Assets/Screenshots/RetailSuiteAccounting/Book/SupplierReceiptsOverview01.png "[Overview]")
 
-1. Check the supplier number for the non-releasable supplier receipt in the *Overview* tab and switch to the *Customer/supplier* tab: *Accounting > Settings > DEBTORS/CREDITORS*.    
+1. Check and note the supplier number for the non-releasable supplier receipt in the *Overview* tab and switch to the *Customer/supplier* tab: *Accounting > Settings > DEBTORS/CREDITORS*.    
   The *DEBTORS/CREDITORS* tab is displayed. By default, the *Customer/Supplier list* tab is preselected.
 
   ![Customer/supplier list](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/CustomerSupplierList.png "[Customer/supplier list]")
@@ -46,9 +44,9 @@ Follow the instructions below to check and modify the supplier settings in the *
 
 5. If necessary, select the *Only cost supplier/ordering process inactive*.
 
-  > [Info] This checkbox is only applicable if the supplier is a provider delivering a service, for example an internet provider. In this case, no items need to be linked in the *Purchasing* module to release a supplier receipt (the items section is, in fact, completely locked for the selected supplier).
+  > [Info] This checkbox is only applicable if the supplier is a provider delivering a service, for example an internet provider. In this case, no items need to be linked in the *Purchasing* module to release a supplier receipt. The items section is, in fact, completely locked for the selected supplier.
 
-  ![Invoicing](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/OnlyCostSupplier.png "[Invoicing]")
+ 
 
 6. Click the [SAVE] button.  
   The changes in the invoicing information have been saved. The *Successfully saved* pop-up window is displayed.
@@ -56,7 +54,7 @@ Follow the instructions below to check and modify the supplier settings in the *
   ![Invoicing data saved](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/InvoicingDataSaved.png "[Invoicing data saved]")
 
 7. Switch to the *Purchasing* module: *Purchasing > Check supplier receipts > Tab CHECK SUPPLIER RECEIPTS*.   
-  The *Check supplier receipts* menu entry is opened. The *CHECK SUPPLIER RECEIPTS* tab with the supplier receipt is displayed.
+  The *CHECK SUPPLIER RECEIPTS* tab is displayed.
 
   ![Check supplier receipts](../../Assets/Screenshots/RetailSuiteAccounting/Book/CheckSupplierReceipts01.png "[Check supplier receipts]")
 
