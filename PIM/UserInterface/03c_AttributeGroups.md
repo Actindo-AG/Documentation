@@ -113,7 +113,7 @@ The list displays all attributes that are not assigned to the selected attribute
   Description to the attribute.
 
 - *Status*   
-  Attribute status. The following statuses are available:
+  Attribute status. The following options are available:
   - ![Status](../../Assets/Icons/Status01.png "[Status]") **Active**
   - ![Status](../../Assets/Icons/Status04.png "[Status]") **Inactive**   
 

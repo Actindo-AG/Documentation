@@ -1,5 +1,5 @@
 [!!Omni-Channel](../../Channels/Overview/01_General.md)   
-[!!User Interface Product list](../UserInterface/02a_List.md)   
+[!!User interface Product list](../UserInterface/02a_List.md)   
 [!!Manage the variants](./02_ManageVariants.md)
 
 

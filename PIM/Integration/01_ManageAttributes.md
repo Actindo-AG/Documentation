@@ -1,5 +1,5 @@
 [!!DataHub](../../DataHub/Overview/01_General.md)
-[!!User Interface Attributes](../UserInterface/03a_Attributes.md)
+[!!User interface Attributes](../UserInterface/03a_Attributes.md)
 [!!Manage the products](../Operation/01_ManageProducts.md)
 [!!Data type list](../UserInterface/04_DataTypeList.md)
 [!!Recover an attribute](../../DataHub/Integration/01_ManageAttribute.md#recover-an-attribute)
@@ -56,6 +56,7 @@ Create an attribute to specify a new property for a product.
 No prerequisites to fulfill.
 
 #### Procedure
+
 *PIM > Settings > Tab ATTRIBUTES*
 
 ![Attributes](../../Assets/Screenshots/PIM/Settings/Attributes/Attributes.png "[Attributes]")

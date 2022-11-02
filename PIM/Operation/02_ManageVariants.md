@@ -1,4 +1,4 @@
-[!!User Interface Product list](../UserInterface/02a_List.md)   
+[!!User interface Product list](../UserInterface/02a_List.md)   
 [!!Manage the products](./01_ManageProducts.md)
 [!!Create a variant set](../Integration/07_ManageVariantSets.md#create-a-variant-set)
 

@@ -1,5 +1,5 @@
 [!!DataHub](../../DataHub/Overview/01_General.md)
-[!!User Interface Channels](../UserInterface/03e_Channels.md)
+[!!User interface Channels](../UserInterface/03e_Channels.md)
 [!!Create a channel](../../DataHub/Integration/04_ManageChannels.md#create-a-channel)
 
 
@@ -16,6 +16,7 @@ No prerequisites to fulfill.
 > [Info] By default, the *Actindo Basic* channel is created and activated in the *DataHub* module, see [Create a channel](../../DataHub/Integration/04_ManageChannels.md#create-a-channel).
 
 #### Procedure
+
 *PIM > Settings > Tab CHANNELS*
 
 ![Channels](../../Assets/Screenshots/PIM/Settings/Channels/Channels.png "[Channels]")

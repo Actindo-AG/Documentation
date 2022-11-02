@@ -1,4 +1,4 @@
-[!!User Interface Catalogs](../UserInterface/03f_Catalogs.md)
+[!!User interface Catalogs](../UserInterface/03f_Catalogs.md)
 [!!Manage the products](../Operation/01_ManageProducts.md)
 
 
@@ -21,6 +21,7 @@ Create a new catalog and define its name to be able to create one or more catego
 No prerequisites to fulfill.
 
 #### Procedure
+
 *PIM > Settings > Tab CATALOGS*
 
 ![Catalogs](../../Assets/Screenshots/PIM/Settings/Catalogs/Catalogs.png "[Catalogs]")
@@ -52,6 +53,7 @@ You need to add at least one category to a catalog to be able to assign products
 The catalog basic data has been created, see [Define the catalog basic data](#define-the-catalog-basic-data).
 
 #### Procedure
+
 *PIM > Settings > Tab CATALOGS > Button Create new*
 
 1. Click the ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) button in the bottom right corner.   
@@ -93,6 +95,7 @@ Create a sub-category to be able to assign products to individual categories in 
 At least one catalog with one category has been created, see [Create a catalog](#create-a-catalog).
 
 #### Procedure
+
 *PIM > Settings > Tab CATALOGS*
 
 ![Catalogs](../../Assets/Screenshots/PIM/Settings/Catalogs/Catalogs.png "[Catalogs]")
@@ -149,6 +152,7 @@ The order of categories within the catalog is also displayed in the product view
 - At least two categories have been created within the catalog, see [Create a category](#create-a-category).
 
 #### Procedure
+
 *PIM > Settings > Tab CATALOGS*
 
 ![Catalogs](../../Assets/Screenshots/PIM/Settings/Catalogs/Catalogs.png "[Catalogs]")
@@ -187,6 +191,7 @@ Delete a category that is no longer needed. If you delete a category containing 
 - At least one category has been created within the catalog, see [Create a category](#create-a-category).
 
 #### Procedure
+
 *PIM > Settings > Tab CATALOGS*
 
 ![Catalogs](../../Assets/Screenshots/PIM/Settings/Catalogs/Catalogs.png "[Catalogs]")
@@ -225,12 +230,15 @@ Delete a category that is no longer needed. If you delete a category containing 
 
 ## Assign a product to a catalog category
 
+Assign a product to a catalog category to sort the products and find them faster.
+
 #### Prerequisites
 
 - At least one catalog has been created, see [Create a catalog](#create-a-catalog).
 - At least one category has been created within the catalog, see [Create a category](#create-a-category).
 
 #### Procedure
+
 *PIM > Products > Tab LIST*
 
 ![Product list catalog](../../Assets/Screenshots/PIM/Products/List/ProductsWithCatalog.png "[Product list catalog]")

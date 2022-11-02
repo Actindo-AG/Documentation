@@ -1,5 +1,5 @@
 [!!DataHub](../../DataHub/Overview/01_General.md)
-[!!User Interface Languages](../UserInterface/03d_Languages.md)
+[!!User interface Languages](../UserInterface/03d_Languages.md)
 [!!Create a language](../../DataHub/Integration/05_ManageLanguages.md#create-a-language)
 
 
@@ -14,6 +14,7 @@ No prerequisites to fulfill.
 > [Info] By default, the languages *English (United States)* and *Deutsch (Deutschland)* are created and activated in the *DataHub* module, see [Create a language](../../DataHub/Integration/05_ManageLanguages.md#create-a-language).
 
 #### Procedure
+
 *PIM > Settings > Tab LANGUAGES*
 
 ![Languages](../../Assets/Screenshots/PIM/Settings/Languages/Languages.png "[Languages]")

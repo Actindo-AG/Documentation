@@ -1,9 +1,10 @@
 # Settings  
+
 *PIM > Setting*
 
 The *Settings* menu entry is used to manage the *PIM* settings.
 
-The *Settings* User Interface is composed of the following tabs:
+The *Settings* user interface is composed of the following tabs:
   - [ATTRIBUTES](./03a_Attributes.md)
   - [ATTRIBUTE SETS](./03b_AttributeSets.md)
   - [ATTRIBUTE GROUPS](./03c_AttributeGroups.md)

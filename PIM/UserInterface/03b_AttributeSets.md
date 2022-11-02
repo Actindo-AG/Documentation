@@ -133,7 +133,7 @@ The list displays all attribute sets. Depending on the settings, the displayed c
 
 
 - *Inherit/Copy values*   
-  Click the drop-down list to select the inheritance type. The following types are available:    
+  Click the drop-down list to select the inheritance type. The following options are available:    
   - **Copy once**   
     The attribute values are applied once from the selected attribute set, but afterwards they are independent of changes in the selected set.
   - **Inherit**   
@@ -208,7 +208,7 @@ In the *Create attribute set* view, no attributes are displayed in the list. You
 
 
 - *Inherit/Copy values*   
-  Click the drop-down list to select the inheritance type. The following types are available:    
+  Click the drop-down list to select the inheritance type. The following options are available:    
   - **Copy once**   
     The attribute values are applied once from the selected attribute set, but afterwards they are independent of changes in the selected set.
   - **Inherit**   
@@ -370,7 +370,7 @@ For detailed information, see [ETL settings](../../DataHub/UserInterface/02d_ETL
 
 
 - *Override change tracking mode*   
-  Change tracking mode (ETL mode) for the mapping. The drop-down list is read-only. By default, the **Use default** option is selected. The following modes are available:
+  Change tracking mode (ETL mode) for the mapping. The drop-down list is read-only. By default, the **Use default** option is selected. The following options are available:
   - **Use default**   
     The mapping configured in the dependency of the specific entities is applied.
   - **Automatic**   

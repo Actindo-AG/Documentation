@@ -1,4 +1,4 @@
-# User Interface
+# User interface
 
 In this part of the *PIM* documentation, you will find the following chapters:
 

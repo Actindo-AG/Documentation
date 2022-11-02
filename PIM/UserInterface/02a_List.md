@@ -59,7 +59,7 @@
 
 
 - *Variants*   
-  Click the drop-down list to select the display settings for variants. The following settings are available:
+  Click the drop-down list to select the display settings for variants. The following options are available:
   - **All products**   
     All products and their variants are displayed in the product list.   
   - **Hide variants**   
@@ -336,6 +336,8 @@ For each defining attribute a single field or box to define the attribute value 
 
 #### Select values
 
+*PIM > Products > Tab LIST > Button Add > Button CREATE > Tab Variants > Select variant set > Button Add > Button Add multiple variants > Wizard window Select values*
+
 ![Add multiple variants](../../Assets/Screenshots/PIM/Products/List/Variants/AddMultipleVariants01.png "[Add multiple variants]")
 
 For each defining attribute a single box to define the attribute value is displayed.
@@ -356,6 +358,8 @@ For each defining attribute a single box to define the attribute value is displa
 
 
 #### Summary
+
+*PIM > Products > Tab LIST > Button Add > Button CREATE > Tab Variants > Select variant set > Button Add > Button Add multiple variants > Wizard window Summary*
 
 ![Add multiple variants](../../Assets/Screenshots/PIM/Products/List/Variants/AddMultipleVariants02.png "[Add multiple variants]")
 
@@ -557,7 +561,7 @@ The list displays all products. All fields are read-only.
 
 
 - *Status*   
-  Click the drop-down list to change the offer status. The selected status is displayed in the *Pending status/Errors* column. This drop-down list is only displayed if the checkbox of at least one offer is selected. The following statuses are available:
+  Click the drop-down list to change the offer status. The selected status is displayed in the *Pending status/Errors* column. This drop-down list is only displayed if the checkbox of at least one offer is selected. The following options are available:
   - **This drop-down list is only displayed if**      
     The offer is active. It is displayed in the selected connection and can be sold there.   
   - **Inactive**   
@@ -567,7 +571,7 @@ The list displays all products. All fields are read-only.
 
 
 - *Change tracking mode*   
-  Click the drop-down list to change the change tracking mode (ETL mode) of the offer. The currently selected change tracking mode is displayed in the *Change tracking mode* column. This drop-down list is only displayed if the checkbox of one offer is selected. The following change tracking modes are available:    
+  Click the drop-down list to change the change tracking mode (ETL mode) of the offer. The currently selected change tracking mode is displayed in the *Change tracking mode* column. This drop-down list is only displayed if the checkbox of one offer is selected. The following options are available:    
   - **Manual**   
     Changes in a PIM product must be triggered manually to be applied to the offer. The initial offer is automatically applied.
   - **Semi-automatic**   
@@ -593,7 +597,7 @@ The list displays all created offers to this product. All fields are read-only.
 
 
 - *Pending status/Errors*   
-  Indication of the pending status or an error for this offer. The selected status is displayed if you have changed the offer status via the editing toolbar. The following statuses are available:
+  Indication of the pending status or an error for this offer. The selected status is displayed if you have changed the offer status via the editing toolbar. The following options are available:
   - **Active**   
   - **Inactive**   
   - **Offline**
@@ -614,7 +618,7 @@ The list displays all created offers to this product. All fields are read-only.
 
 
 - *Change tracking mode*   
-  Change tracking mode (ETL mode) of the offer. The following modes can be displayed:
+  Change tracking mode (ETL mode) of the offer. The following options are available:
   - **Manual**
   - **Semi-automatic**
   - **Semi-automatic, changes must be confirmed by another user**   
@@ -685,7 +689,7 @@ The list displays all created offers to this product. All fields are read-only.
 
 
 - *Offer status*    
-  Click the drop-down list to select the connection status. The following statuses are available:    
+  Click the drop-down list to select the connection status. The following options are available:    
   - **Active**      
     The offer is active. It is displayed in the selected connection and can be sold there.   
   - **Inactive**   
@@ -707,12 +711,14 @@ The list displays all created offers to this product. All fields are read-only.
 
 #### Select connections and status
 
+*PIM > Products > Tab LIST > Button Add > Button CREATE > Tab Offers > Button Add > Button Add to multiple connections > Wizard window Select connections and status*
+
 ![Add to multiple connections](../../Assets/Screenshots/PIM/Products/List/Offers/MultipleConnections01.png "[Add to multiple connections]")
 
 **Select status and change tracking mode**
 
 - *Status*    
-  Click the drop-down list to select the connection status. The following statuses are available:    
+  Click the drop-down list to select the connection status. The following options are available:    
   - **Active**      
     The offer is active. It is displayed in the selected connection and can be sold there.   
   - **Inactive**   
@@ -750,6 +756,8 @@ The list displays all created offers to this product. All fields are read-only.
 
 
 #### Select destination attribute sets
+
+*PIM > Products > Tab LIST > Button Add > Button CREATE > Tab Offers > Button Add > Button Add to multiple connections > Wizard window Select destination attribute sets*
 
 ![Add to multiple connections](../../Assets/Screenshots/PIM/Products/List/Offers/MultipleConnections02.png "[Add to multiple connections]")
 
@@ -881,7 +889,7 @@ The right side of the *Attributes* tab displays all attributes that are assigned
 The list displays all variants. All fields are read-only. Depending on the settings, the displayed columns may vary.
 
 - *Status*  
-  Status of the variant. The following statuses are available:
+  Status of the variant. The following options are available:
   - **Created after save**: The added variant is created after saving the product.
   - **Created**: The variant is already created.
 
@@ -890,7 +898,7 @@ The list displays all variants. All fields are read-only. Depending on the setti
   Stock Keeping Unit. Identification number for the variant. The SKU for the variant is created depending on the selected settings.
 
 - *Lifecycle status*   
-  Life cycle status of the variant article. The following statuses are available:
+  Life cycle status of the variant article. The following options are available:
   - **active**: The variant is active.
   - **in_archive**: The variant is archived.
   - **in_recycle_bin**: The variant is moved to the recycle bin.
@@ -956,6 +964,8 @@ All defining attributes of the variant are displayed in this section.
 
 #### Select values
 
+*PIM > Products > Tab LIST > Select product > Tab Variants > Select variant set > Button Add > Button Add multiple variants > Wizard window Select values*
+
 ![Add multiple variants](../../Assets/Screenshots/PIM/Products/List/Variants/AddMultipleVariants01.png "[Add multiple variants]")
 
 For each defining attribute a single box to define the attribute value is displayed.
@@ -976,6 +986,8 @@ For each defining attribute a single box to define the attribute value is displa
 
 
 #### Summary
+
+*PIM > Products > Tab LIST > Select product > Tab Variants > Select variant set > Button Add > Button Add multiple variants > Wizard window Summary*
 
 ![Add multiple variants](../../Assets/Screenshots/PIM/Products/List/Variants/AddMultipleVariants02.png "[Add multiple variants]")
 
@@ -1034,7 +1046,7 @@ The list displays all dependencies of the selected product. All fields are read-
   Identification number of the dependent entity.
 
 - *Dependent entity type*   
-  Type of the dependent entity. The following types can be displayed:
+  Type of the dependent entity. The following options are available:
   - **Omni-Channel Offer**
   - **UCS Product**
 
@@ -1042,7 +1054,7 @@ The list displays all dependencies of the selected product. All fields are read-
 
 
 - *Change tracking mode*   
-  Change tracking mode (ETL mode) of the dependent entity. The following modes can be displayed:
+  Change tracking mode (ETL mode) of the dependent entity. The following options are available:
   - **Manual**
   - **Semi-automatic**
   - **Semi-automatic, changes must be confirmed by another user**   
@@ -1325,7 +1337,7 @@ This tab displays the *Basic data* and *Webshop* sub-tabs. These sub-tabs are ex
   Select the checkbox to display the editing toolbar. If you click the checkbox in the header, all offers in the list are selected.
 
 - *Status*   
-  Click the drop-down list to change the offer status. The selected status is displayed in the *Pending status/Errors* column. This drop-down list is only displayed if the checkbox of at least one offer is selected. The following statuses are available:    
+  Click the drop-down list to change the offer status. The selected status is displayed in the *Pending status/Errors* column. This drop-down list is only displayed if the checkbox of at least one offer is selected. The following options are available:    
   - **Active**      
     The offer is active. It is displayed in the selected connection and can be sold there.   
   - **Inactive**   
@@ -1335,7 +1347,7 @@ This tab displays the *Basic data* and *Webshop* sub-tabs. These sub-tabs are ex
 
 
 - *Change tracking mode*   
-  Click the drop-down list to change the change tracking mode (ETL mode) of the offer. The currently selected change tracking mode is displayed in the *Change tracking mode* column. This drop-down list is only displayed if the checkbox of one offer is selected. The following change tracking modes are available:    
+  Click the drop-down list to change the change tracking mode (ETL mode) of the offer. The currently selected change tracking mode is displayed in the *Change tracking mode* column. This drop-down list is only displayed if the checkbox of one offer is selected. The following options are available:    
   - **Manual**   
     Changes in a PIM product must be triggered manually to be applied to the offer. The initial offer is automatically applied.
   - **Semi-automatic**   
@@ -1357,7 +1369,7 @@ The list displays all created offers to this product. All fields are read-only.
   Stock Keeping Unit. Identification number of the product.
 
 - *Status*   
-  Connection status of the offer. The following statuses are available:
+  Connection status of the offer. The following options are available:
   - **Active**      
     The offer is active. It is displayed in the selected connection and can be sold there.   
   - **Inactive**   
@@ -1366,7 +1378,7 @@ The list displays all created offers to this product. All fields are read-only.
     The offer is unknown to the selected connection and cannot be sold there.
 
 - *Pending status/Errors*   
-  Indication of the pending status or an error for this offer. The selected status is displayed if you have changed the offer status via the editing toolbar. The following statuses are available:
+  Indication of the pending status or an error for this offer. The selected status is displayed if you have changed the offer status via the editing toolbar. The following options are available:
   - **Active**   
   - **Inactive**   
   - **Offline**
@@ -1386,7 +1398,7 @@ The list displays all created offers to this product. All fields are read-only.
   Name and username of the user who modified the product.
 
 - *Change tracking mode*   
-  Change tracking mode (ETL mode) of the offer. The following modes can be displayed:
+  Change tracking mode (ETL mode) of the offer. The following options are available:
   - **Manual**
   - **Semi-automatic**
   - **Semi-automatic, changes must be confirmed by another user**   
@@ -1459,7 +1471,7 @@ The list displays all created offers to this product. All fields are read-only.
 
 
 - *Offer status*    
-  Click the drop-down list to select the connection status. The following statuses are available:    
+  Click the drop-down list to select the connection status. The following options are available:    
   - **Active**      
     The offer is active. It is displayed in the selected connection and can be sold there.   
   - **Inactive**   
@@ -1481,12 +1493,14 @@ The list displays all created offers to this product. All fields are read-only.
 
 #### Select connections and status
 
+*PIM > Products > Select product > Tab Offers > Button Add > Button Add to multiple connections > Wizard window Select connections and status*
+
 ![Add to multiple connections](../../Assets/Screenshots/PIM/Products/List/Offers/MultipleConnections01.png "[Add to multiple connections]")
 
 **Select status and change tracking mode**
 
 - *Status*    
-  Click the drop-down list to select the connection status. The following statuses are available:    
+  Click the drop-down list to select the connection status. The following options are available:    
   - **This drop-down list is only displayed if**: The offer is active. It is displayed on the marketplace and can be sold there.
   - **Inactive**: The offer is inactive. It is not displayed on the marketplace and cannot be sold there.   
   - **Offline**: The offer is unknown to the marketplace and therefore cannot be sold there.
@@ -1515,6 +1529,8 @@ The list displays all created offers to this product. All fields are read-only.
 
 
 #### Select destination attribute sets
+
+*PIM > Products > Select product > Tab Offers > Button Add > Button Add to multiple connections > Wizard window Select destination attribute sets*
 
 ![Add to multiple connections](../../Assets/Screenshots/PIM/Products/List/Offers/MultipleConnections02.png "[Add to multiple connections]")
 

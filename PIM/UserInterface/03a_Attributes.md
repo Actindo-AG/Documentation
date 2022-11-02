@@ -36,7 +36,7 @@ The list displays all attributes. Depending on the settings, the displayed colum
 
 
 - *Status*   
-  Attribute status. The following statuses are available:
+  Attribute status. The following options are available:
   - ![Status](../../Assets/Icons/Status01.png "[Status]") **Active**
   - ![Status](../../Assets/Icons/Status04.png "[Status]") **Inactive**   
 

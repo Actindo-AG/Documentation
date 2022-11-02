@@ -1,4 +1,4 @@
-[!!User Interface Attribute groups](../UserInterface/03c_AttributeGroups.md)
+[!!User interface Attribute groups](../UserInterface/03c_AttributeGroups.md)
 [!!Manage the attributes](./01_ManageAttributes.md)
 [!!Manage the attribute sets](./02_ManageAttributeSets.md)
 [!!Manage the products](../Operation/01_ManageProducts.md)

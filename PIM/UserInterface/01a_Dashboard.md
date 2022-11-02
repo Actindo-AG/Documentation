@@ -1,9 +1,10 @@
 # Dashboard
+
 *PIM > Overview > Tab DASHBOARD*
 
 ![Dashboard](../../Assets/Screenshots/PIM/Overview/Dashboard.png "[Dashboard]")
 
-## Completeness by product
+**Completeness by product**
 
 In this section, an overview of the completeness regarding the products is displayed in four boxes.   
 Each box presents one degree of completeness. The following degrees of completeness in percent are displayed:
@@ -15,7 +16,7 @@ Each box presents one degree of completeness. The following degrees of completen
 In addition to the degree of completeness, the number of products in the corresponding level and the percentage of this number of products measured against the total number of products are displayed in each box.
 
 
-## Completeness by channel
+**Completeness by channel**
 
 In this section, an overview of the completeness regarding the channels is displayed in several boxes.    
 Each box presents an existing channel. Additionally, one box presents the completeness of products that are not assigned to a specific channel.
@@ -26,7 +27,7 @@ In each box the degree of completeness in percent is displayed related to:
 - all products in the active languages within that channel (a single percentage for each active language)
 
 
-## Recent changes
+**Recent changes**
 
 - ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh)    
   Click this button to update the list of recent changes.

@@ -97,8 +97,8 @@ This section is only displayed if an attribute set is selected.
 
 - *Formula for SKU*   
   Click the field to edit the formula for the SKU of the variant articles. By default, the formula **{master}-{L}** is predefined. The following placeholders are available:
-  - {master}: SKU number of the master entity
-  - {L}: consecutive number   
+  - **{master}**: SKU number of the master entity
+  - **{L}**: consecutive number   
   - In addition to these default placeholders, you can include the value of the defining attributes of the variant set into the SKU formula. The corresponding placeholders are displayed in the *Possible placeholders* section when you have added a defining attribute.
 
 
@@ -295,7 +295,7 @@ The list displays all changeable attributes to the variant set. All fields are r
 
 ### Add defining attributes
 
-*PIM > Settings > Tab VARIANT SETS > Button Add > Select attribute set > Button Add (Defining attributes)*   
+*PIM > Settings > Tab VARIANT SETS > Button Add > Select attribute set > Button Add (Defining attributes)*    
 *PIM > Settings > Tab VARIANT SETS > Select variant set > Button Add (Defining attributes)*
 
 ![Defining attributes](../../Assets/Screenshots/PIM/Settings/VariantSets/AddDefiningAttributes.png "[Defining attributes]")
