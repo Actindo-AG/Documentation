@@ -166,7 +166,7 @@ Depending on the process status, the editing toolbar displays the following butt
 
 ![Actions](../../Assets/Screenshots/ActindoWorkFlow/Processes/Actions.png "[Actions]")
 
-> [Info] The *Actions* tab is selected by default when selecting a process. This tab is an excerpt of the *Process Actions* menu entry, which displays a list of all process actions. When clicking an action in the *Process Actions* view, the selected action is displayed in the *Actions* tab of the corresponding *Process ID* view. For detailed information, see [Process Actions](./04a_ProcessActions.md).
+> [Info] The *Actions* tab is selected by default when selecting a process. This tab is an excerpt of the *Process actions* menu entry, which displays a list of all process actions. When clicking an action in the *Process actions* view, the selected action is displayed in the *Actions* tab of the corresponding *Process ID* view. For detailed information, see [Process actions](./04a_ProcessActions.md).
 
 - *VIEW*  
   Click the drop-down list to select the view. All created views are displayed in the drop-down list. Click the ![Points](../../Assets/Icons/Points01.png "[Points]") (Points) button to the right of the *VIEW* drop-down list to display the context menu and create a view. For detailed information, see [Create view](#create-view).

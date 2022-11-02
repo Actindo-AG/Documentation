@@ -1,6 +1,6 @@
 # Overview
 
-*Workflows > Queue Types > Tab OVERVIEW*
+*Workflows > Queue types > Tab OVERVIEW*
 
 ![Queue types](../../Assets/Screenshots/ActindoWorkFlow/QueueTypes/Overview.png "[Queue types]")
 
@@ -20,7 +20,7 @@
   Select the checkbox to display the editing toolbar.
 
 - [DELETE]   
-  Click this button to delete the selected queue type. The *QueueType has been deleted* pop-up window is displayed. The *Default* queue type cannot be deleted.  
+  Click this button to delete the selected queue type. The *Queue type has been deleted* pop-up window is displayed. The *Default* queue type cannot be deleted.  
   For detailed information, see [Delete a queue type](../Integration/01_ConfigureQueueTypes.md#delete-a-queue-type).
 
 - [KILL WORKER OF THIS QUEUE TYPE]   
@@ -53,7 +53,7 @@ For detailed information, see [Edit a queue type](../Integration/01_ConfigureQue
 
 ## Create queue type
 
-*Workflows > Queue Types > Tab OVERVIEW > Button Add*
+*Workflows > Queue types > Tab OVERVIEW > Button Add*
 
 ![Create queue type](../../Assets/Screenshots/ActindoWorkFlow/QueueTypes/CreateQueueType.png "[Create queue types]")
 
@@ -83,7 +83,7 @@ For detailed information, see [Edit a queue type](../Integration/01_ConfigureQue
 
 ## Edit queue type
 
-*Workflows > Queue Types > Tab OVERVIEW > Select queue type*
+*Workflows > Queue types > Tab OVERVIEW > Select queue type*
 
 ![Edit queue type](../../Assets/Screenshots/ActindoWorkFlow/QueueTypes/EditQueueType.png "[Edit queue types]")
 

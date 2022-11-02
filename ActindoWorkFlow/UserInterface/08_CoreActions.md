@@ -1,4 +1,4 @@
-# Workflow Core actions
+# Workflow core actions
 
 ![Core actions](../../Assets/Screenshots/ActindoWorkFlow/Workflows/CoreActions/CoreActions.png "[Core actions]")
 

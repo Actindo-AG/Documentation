@@ -74,10 +74,10 @@ Further details about the process actions included in the diagram as well as abo
 
 
 3. Check the actions displayed in the diagram. The workflow process diagram displays the actions in different colors depending on their current status:
-  - In progress (blue)
-  - Done (green)
-  - Error (red)
-  - Pending (white)
+  - **In progress** (blue)
+  - **Done** (green)
+  - **Error** (red)
+  - **Pending** (white)
 
 
 4. Click the action to be checked in the diagram.   
@@ -85,14 +85,14 @@ Further details about the process actions included in the diagram as well as abo
 
 
 5. Check the action status in the *Status* column. The following statuses can be displayed:
-  - *In progress*
-  - *Done*  
-  - *Error*   
-  - *Suspended*  
-  - *Process aborted*
+  - **In progress**
+  - **Done**  
+  - **Error**   
+  - **Suspended**  
+  - **Process aborted**
 
 
-6.  Check the number of tries for the action in the *Tries* column.
+6. Check the number of tries for the action in the *Tries* column.
 
 7. Check the number of times an action must be retried after error in the *Maximal retries after error* column.
 
@@ -100,9 +100,9 @@ Further details about the process actions included in the diagram as well as abo
 
   > [Info] The queue type is assigned to an action when editing a workflow, see [Edit an action](./01_ManageWorkflows.md#edit-an-action).
 
-9.  Check when the action will be executed next time in the *Defer until* column.
+9. Check when the action will be executed next time in the *Defer until* column.
 
-> [Info] A list of all actions, regardless of the process they are part of, can be displayed in the *Process Actions* tab. There they can be filtered according to their status and modified simultaneously, if necessary. By clicking a specific action in the process actions list, the corresponding *Process ID* view will be displayed. For detailed information, see [Process actions](ActindoWorkFlow/UserInterface/04a_ProcessActions.md).
+> [Info] A list of all actions, regardless of the process they are part of, can be displayed in the *Process actions* tab. There they can be filtered according to their status and modified simultaneously, if necessary. By clicking a specific action in the process actions list, the corresponding *Process ID* view will be displayed. For detailed information, see [Process actions](ActindoWorkFlow/UserInterface/04a_ProcessActions.md).
 
 
 
@@ -143,10 +143,10 @@ A process is started with a single token at the start place, which will be input
 
 
 5. Check the token status in the *Status* column. The following statuses are available:
-  - Processed (green)
-  - Being processed (blue)
-  - Error (red)
-  - Unprocessed (white)
+  - **Processed** (green)
+  - **Being processed** (blue)
+  - **Error** (red)
+  - **Unprocessed** (white)
 
 
 6. Check the place where the token is located in the *Place* column.

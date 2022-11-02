@@ -484,7 +484,7 @@ The *Search for an action* window displays a list of possible transitions for th
 - [SAVE]  
   Click this button to save the new view. The *Create view* window is closed. The view is saved and displayed in the *View* drop-down list.
 
-> [Info] This window can also be accessed from the following tabs in the user interface:
+This window can also be accessed from the following tabs in the user interface:
 - [OVERVIEW (Processes)](./03a_Processes.md#create-view)
 - [OVERVIEW (Process actions)](./04a_ProcessActions.md#create-view)
 - [OVERVIEW (Logs)](./06a_Logs.md#create-view)
@@ -505,7 +505,7 @@ The *Search for an action* window displays a list of possible transitions for th
 - [SAVE]  
   Click this button to save the changes to the view name. The *Rename view* window is closed. The new name for the view is saved and displayed in the *View* drop-down list.
 
-> [Info] This window can also be accessed from the following tabs in the user interface:
+This window can also be accessed from the following tabs in the user interface:
 - [OVERVIEW (Processes)](./03a_Processes.md#rename-view)
 - [OVERVIEW (Process actions)](./04a_ProcessActions.md#rename-view)
 - [OVERVIEW (Logs)](./06a_Logs.md#rename-view)
