@@ -65,7 +65,7 @@ It is also possible to include a static input via the unconnected input ports. T
 ### Configuration   
 
 - *PHP Code*   
-  Click this field to display the code editor and enter the desired PHP code. There are no restrictions in the PHP code. Remember to include the input ports whose date should be read using **$in0** for the *in0* input port, **$in1** for the *in1* input port, etc. as well as to specify the output via the output ports using the *return [output1, output2];* return array. The first value within the array is output via the *out0* output port, the second value via the *out1* output port, etc.  
+  Click this field to display the code editor and enter the desired PHP code. There are no restrictions in the PHP code. Remember to include the input ports whose data should be read using **$in0** for the *in0* input port, **$in1** for the *in1* input port, etc. as well as to specify the output via the output ports using the *return [output1, output2];* return array. The first value within the array is output via the *out0* output port, the second value via the *out1* output port, etc.  
 
   ![PHP code editor](../../Assets/Screenshots/ActindoWorkFlow/Workflows/CoreActions/PHPCodeEditor.png "[PHP code editor]")
 
