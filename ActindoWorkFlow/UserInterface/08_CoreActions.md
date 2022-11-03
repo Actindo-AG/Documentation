@@ -4,7 +4,8 @@
 
 To create a workflow, you must include one or several workflow actions.   
 In the *Workflows* module, a certain number of workflow actions is always preconfigured, the so-called *Core actions*. These core actions are used to build control flow structures in a workflow.   
-Other workflow actions are available depending on the plugins installed in the current system.
+Other workflow actions are available depending on the plugins installed in the current system.   
+
 In the following, the core actions, their use and their settings are described in detail:
 
 - [Change process priority](#change-process-priority)
@@ -40,7 +41,7 @@ This core action has no further configuration settings.
 ![Multiply input action](../../Assets/Screenshots/ActindoWorkFlow/Workflows/CoreActions/MultiplyInputAction.png "[Multiply input action]")
 
 The *Multiply input action* core action is used to output the data coming in via one input port to two output ports. This core action is often used when the same data is needed for two different purposes. To merge the duplicated data again, the *Wait for parallel input* core action can be used, see [Wait for parallel input](#wait-for-parallel-input) .   
-The data runs via the *p* input port into the workflow action and is output via both the *p0* and the *p1* output port.
+The data runs via the *p* input port into the workflow action and is output via both the *p0* and the *p1* output ports.
 
 [comment]: <> (ticket in arbeit: mehr als zwei output port sollen hinzukommen)
 
@@ -55,7 +56,7 @@ This core action has no further configuration settings.
 ![Execute PHP code](../../Assets/Screenshots/ActindoWorkFlow/Workflows/CoreActions/ExecutePHPCode.png "[Execute PHP code]")
 
 The *Execute PHP code* core action is used to execute a custom PHP code defined in the configuration.
-As the complete functionality of the PHP code is accessible, this core action enables complete variability in programming and is therefore often used when more complex actions which require more logic need be executed within a workflow step.   
+As the complete functionality of the PHP code is accessible, this core action enables complete variability in programming. Therefore, it is often used when more complex actions which require more logic need be executed within a workflow step.   
 Depending on which ports are connected to the places and which ports are defined in the PHP code, the data runs via the *in0* to *in9* input ports into the workflow action and is output via the *out0* to *out9* output ports.   
 It is also possible to include a static input via the unconnected input ports. These inputs must be defined in the *Static inputs* section in the settings side bar, see [Transitions](../Overview/04_WorkflowProcessElements#transitions).
 
@@ -64,7 +65,7 @@ It is also possible to include a static input via the unconnected input ports. T
 ### Configuration   
 
 - *PHP Code*   
-  Click this field to display the code editor and enter the desired PHP code. There are no restrictions in the PHP code. Just remember to include the input ports whose date should be read using **$in0** for the *in0* input port, **$in1** for the *in1* input port, etc. as well as to return the output via the output ports using the *return [output1, output2];* return array. The first value within the array is output via the *out0* output port, the second value via the *out1* output port, etc.  
+  Click this field to display the code editor and enter the desired PHP code. There are no restrictions in the PHP code. Remember to include the input ports whose date should be read using **$in0** for the *in0* input port, **$in1** for the *in1* input port, etc. as well as to specify the output via the output ports using the *return [output1, output2];* return array. The first value within the array is output via the *out0* output port, the second value via the *out1* output port, etc.  
 
   ![PHP code editor](../../Assets/Screenshots/ActindoWorkFlow/Workflows/CoreActions/PHPCodeEditor.png "[PHP code editor]")
 
@@ -74,8 +75,8 @@ It is also possible to include a static input via the unconnected input ports. T
 
 ![Split by criterion](../../Assets/Screenshots/ActindoWorkFlow/Workflows/CoreActions/SplitByCriterion.png "[Split by criterion]")
 
-The *Split by criterion* core action is used to compare the input value with a certain criterion and if it matches, a different branch is followed up than if it differs.   
-The data runs via the *in* input port into the workflow action and is either output via the *match* output port if the input value matches the criterion to be compared with, or via the *noMatch* output port if the input value does not match the criterion to be compared with.   
+The core action *Split by criterion* is used to compare the input value with a defined criterion and output it via a different branch depending on whether the input value matches or not.
+The data runs via the *in* input port into the workflow action and is output either via the *match* output port if the input value matches the criterion to be compared with, or via the *noMatch* output port if the input value does not match the criterion to be compared with.   
 The criterion to be compared with is defined in the configuration.
 
 > [Info] It is recommended to give the action a name that describes with which criterion the input value is compared.
@@ -95,9 +96,9 @@ The criterion to be compared with is defined in the configuration.
   - **!=**    
     It is a match if the input value does not equals the defined value.
   - **in**    
-    It is a match if the input value is included in the defined value. For this operator, it is possible to enter an array in the *Value* field.
+    It is a match if the input value is included within the defined values. For this operator, it is possible to enter an array in the *Value* field.
   - **notIn**   
-    It is a match if the input value is not included in the defined value. For this operator, it is possible to enter an array in the *Value* field.
+    It is a match if the input value is not included within the defined values. For this operator, it is possible to enter an array in the *Value* field.
   - **regexp**   
     It is a match if the input value equals the regular expression entered in the *Value* field.    
     For detailed information about regular expressions, see https://regex101.com/.
@@ -131,7 +132,7 @@ The subprocess to be started is defined in the configuration.
 
 The *Switch case action* core action is used to compare the input value with up to 6 criteria and output this value via a different branch for each case. Additionally, this core action enables to output the input value via a separate branch if the input value does not match any of the specified cases or to output the input value without any comparison by a separate branch.    
 The data runs via the *in* input port into the workflow action and can be output via each connected output port. If the *origin* output port is connected, the input value is always output via this port without any further action. Additionally, if one or several of the *case1* to *case6* output ports are connected, the input value is compared with the criterion specified in the respective case and output via the output port of the case where the criterion matches the input value. If no criterion of the cases matches the input value, the input value is output via the *default* output port, or, if the *default* output port is not connected, the action fails.    
-The criteria to be compared with are defined in the configuration. Further, you can configure to stop the comparison after a match.
+The criteria to be compared with are defined in the configuration. Further, you can set the comparison to be stopped after a match.
 
 [comment]: <> (Wird der default value nur ausgegeben, wenn auch der origin port nicht verbunden ist?)
 
@@ -171,7 +172,7 @@ This core action has no further configuration settings.
 ![Wait for criterion](../../Assets/Screenshots/ActindoWorkFlow/Workflows/CoreActions/WaitForCriterion.png "[Wait for criterion]")
 
 The *Wait for criterion* core action is used to insert a breakpoint when you must wait that the data input matches a certain criterion.   
-The data runs via the *in* input port into the workflow action and is output via the *match* output port once the input value matches the criterion to be compared with. If the input value does not match the criterion to be compared with after a defined timeout, the data is, depending on the configuration, either output via the *timeout* output port, or the actions fails.   
+The data runs via the *in* input port into the workflow action and is output via the *match* output port once the input value matches the criterion to be compared with. If the input value does not match the criterion to be compared with after a defined timeout, the data is, depending on the configuration, output via the *timeout* output port, or the actions fails.   
 The criterion to be compared with as well as the wait time settings are defined in the configuration.
 
 > [Info] It is recommended to give the action a name that describes which input value the criterion is waiting for.
@@ -187,7 +188,7 @@ The criterion to be compared with as well as the wait time settings are defined 
   Enter the time in minutes to wait for each additional comparison attempt if the criterion does not yet match the input data.
 
 - *Timeout*   
-  Enter the time in minutes after which no further attempts should be started and the input data will either be output via the *timeout* output port or the action will fail.
+  Enter the time in minutes after which no further attempts should be started and either the input data will be output via the *timeout* output port or the action will fail.
 
 - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Fail on timeout*   
   Enable this toggle to make the action fail after the defined timeout. Disable the toggle to output the current input value via the *timeout* output port after the defined timeout. By default, this toggle is disabled.
@@ -205,9 +206,9 @@ The criterion to be compared with as well as the wait time settings are defined 
   - **!=**    
     It is a match if the input value does not equals the defined value.
   - **in**    
-    It is a match if the input value is included in the defined value. For this operator, it is possible to enter an array in the *Value* field.
+    It is a match if the input value is included within the defined values. For this operator, it is possible to enter an array in the *Value* field.
   - **notIn**   
-    It is a match if the input value is not included in the defined value. For this operator, it is possible to enter an array in the *Value* field.
+    It is a match if the input value is not included within the defined values. For this operator, it is possible to enter an array in the *Value* field.
   - **regexp**   
     It is a match if the input value equals the regular expression entered in the *Value* field.    
     For detailed information about regular expressions, see https://regex101.com/.
@@ -238,7 +239,7 @@ This core action has no further configuration settings.
 ![Waiting action](../../Assets/Screenshots/ActindoWorkFlow/Workflows/CoreActions/WaitingAction.png "[Waiting action]")
 
 The *Waiting action* core action is used to insert a breakpoint when you want to wait for a certain time before proceeding to the next action within the process. The data runs via the *p* input port into the workflow action and is output via the *p* output port. However, the data is only output after a defined period of time.    
-This waiting time is defined in the configuration.
+This period of time is defined in the configuration.
 
 ### Configuration  
 
