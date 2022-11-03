@@ -37,9 +37,9 @@
 
 [comment]: <> (Reset auch hier verfügbar?)
 
-- Status
+- Status  
   Click the drop-down list and select a dispatch note status. The following options are available:
-  - **All statuses**
+  - **All statuses**  
   Select this option to display all dispatch notes, regardless of their status.
   - **New dispatch note**  
   Select this option to display all new dispatch notes.
@@ -59,8 +59,8 @@
   Click the drop-down list and select a connection. The following options are available:
   - *All connections*  
   Select this option to display all configured connections.
-  - **Connection name**
-  Select this option to display the dispatch notes corresponding to the selected connections.
+  - **Connection name**  
+  Select this option to display the dispatch notes corresponding to the selected connection.
 
 
 - ![Search](../../Assets/Icons/Search.png "[Search]") (Search)   
@@ -78,18 +78,21 @@
 - [x]     
   Select the checkbox to display the editing toolbar. If you click the checkbox in the header, all dispatch notes in the list are selected.
 
-- [VIEW]
+- [VIEW]  
   Click this button to edit the selected dispatch note. This button is only displayed if the checkbox of a dispatch note is selected. Alternatively, you can click directly a row in the list to view a dispatch note. The *Dispatch note "Number"* view is displayed. The *Attributes* tab is preselected.
 
 [comment]: <> (Alternativ: This button is only displayed if a single checkbox of the list is selected.)  
 
-- [EXPORT]
+- [EXPORT]  
   Click this button to export manually the dispatch note to the fulfiller. This button is displayed if the checkbox of at least one dispatch note is selected.
 
-  > [Info] The dispatch note is exported automatically by the system. If the export fails for some reason, the dispatch note can be manually reexported. Nevertheless, this is not a standard procedure but a troubleshooting measure. For detailed information, see [Export dispatch note to fulfiller](../Troubleshooting/01_ExportDispatchNoteFulfiller.md).
+  > [Info] The dispatch note is exported automatically by the system. If the export fails for some reason, the dispatch note can be manually reexported. Nevertheless, this is not to be meant a usual procedure but a exceptional measure. For detailed information, see [Export a dispatch note](../Integration/01_ManageDispatchNote.md#export-a-dispatch-note).
 
 - [FORCE COMPLETION]  
 Click this button to complete the dispatch note. This button is displayed if the checkbox of at least one dispatch note is selected.
+
+- [CANCEL]  
+[comment]: <> (Bei Hannah kommt dieses Button vor, s. JIRA ticket für Screenshot)
 
 [comment]: <> (Test, mehr Info dazu)
 
@@ -101,19 +104,26 @@ The list displays all dispatch notes. Depending on the settings, the displayed c
 - *Document number*  
   Dispatch note number.
 
+[comment]: <> (Stimmt das so? Welches Document?)
+
 - *Status*  
   Dispatch note status. The following statuses are available:
-  - *All statuses*
-  - *New dispatch note*
-  - *Transferred to partner*
-  - *Partner confirmed receival*
-  - *Dispatch note completed*
-  - *Error*
-  - *Void*
+  - **New dispatch note**  
+    The dispatch note has been newly created.
+  - **Transferred to partner**  
+    The dispatch note has been transferred to the fulfiller.
+  - **Partner confirmed receival**  
+    The fulfiller has confirmed receival of the dispatch note.
+  - **Dispatch note completed**  
+    The dispatch note has been completed.
+  - **Error**  
+    The dispatch note has given an error.
+  - **Void**  
+    The dispatch note is void.
 
 
 - *Shipment information*  
-  Status of shipment associated with the dispatch note. The following options are available:
+  Additional shipment information.
 
 [comment]: <> (S. Shipment status -> kundenspezifisch oder Standard. In meinem Sandbox nichts angezeigt in Shipment information.)
 
@@ -162,7 +172,7 @@ The list displays all dispatch notes. Depending on the settings, the displayed c
   Dispatch note description as defined by the user. Numbers, letters or a combination of characters may be used. The information provided in this field can be entered in the search bar to search for a specific dispatch note.
 
 - *Shipping type*  
-  Shipping type. The following options are available:  
+  Type of shipment. The following options are available:  
     - **STND**  
       Standard shipping type.
     - **EXPR**  
@@ -172,7 +182,9 @@ The list displays all dispatch notes. Depending on the settings, the displayed c
 
 
 - *Shipping method*  
-  Shipping type identification number. This number is automatically assigned by the system.
+  Shipping method identification number.
+
+[comment]: <> (This number is automatically assigned by the system.?)
 
 - *Receiver name*  
   Shipment receiver name.
@@ -250,6 +262,11 @@ The right side of the *Attributes* tab displays all attributes that are assigned
 
 The attributes assigned to each group can be managed and customized in the *DataHub* module. For detailed information, see [Attribute groups](../../../DataHub/UserInterface/02c_AttributeGroups.md).
 
+- ![Folders](../../Assets/Icons/Folders01.png "[Folders]") (Folders)  
+  Attribute group that contains attribute sub-groups. Click the attribute group or the arrow *>* left to the attribute group to unfold the group and display the attribute sub-groups.
+
+[comment]: <> (Nicht im Screenshot, aber vermutlich auch verfügar, wenn Ordner Unterordner enthält. Check with S. Walke)
+
 - ![Folder](../../Assets/Icons/Folder01.png "[Folder]") (Folder)  
   Attribute group. Click the attribute group to display all attributes that are assigned to the selected attribute group on the right side of the *Attributes* tab.
 
@@ -296,11 +313,17 @@ This tab has no function in the *Fulfillment* module, since dispatch notes have 
 
 - *Status*  
   Shipment status. The following options are available:
+    - **New shipment**
     - **Shipped**
-    -
-[comment]: <> (Andere Status?)
+    - **Delivered**
+    - **Void**
+    - **Error**
+
 
 - *Status info*  
+  Additional status information. The following options are available:
+    - **Status changed via dispatch note**
+[comment]: <> (Andere Optionen möglich?)
 
 - *Created*  
   Date and time of the creation.
@@ -315,28 +338,36 @@ This tab has no function in the *Fulfillment* module, since dispatch notes have 
   Shipment receiver zip code.
 
 - *Tracking numbers*  
+  Shipment tracking numbers.
+
 - *Tracking URLs*  
+  Shipment tracking URLs.
+
 - *Proof of delivery*  
+[comment]: <> (Proof of delivery required?)
+
 - *Parcels*  
-- *Error date*
+[comment]: <> (Info)
+
+- *Error date*  
+  Date and time when the error has occurred.
+
 - *Error message*  
+  Error message produced.
 
 
-- [BACK]  
-  Click this button to go back to the previous step. The ... window is displayed.
+### Shipment attributes
 
-### ATTRIBUTES
-
-*Fulfillment > Dispatch notes > Tab LIST > Select a dispatch note > Tab Shipments > Tab ATTRIBUTES*
+*Fulfillment > Dispatch notes > Tab LIST > Select a dispatch note > Tab Shipments > Sub-tab ATTRIBUTES*
 
 ![Shipments](../../Assets/Screenshots/Fulfillment/DispatchNotes/ShipmentsAttributesAttributes.png "[Shipments]")
 
-- Shipment "Shipment ID"
+**Shipment "Shipment ID"**
 
 - [BACK]
-  Click this button to go back to the previous step. The ... window is displayed.
+  Click this button to go back to the previous step. The *Shipments* view is displayed.
 
-### ATTRIBUTES &ndash; Attributes
+### Attributes &ndash; Attributes
 
 In the left margin column, all available attribute groups are displayed. Click a group to display the attributes that are assigned to this group on the right side of the *Attributes* tab. If the product contains attributes that are unassigned, the *Unassigned Group* group is automatically displayed in the left margin column.
 
@@ -344,47 +375,81 @@ The right side of the *Attributes* tab displays all attributes that are assigned
 
 The attributes assigned to each group can be managed and customized in the *DataHub* module. For detailed information, see [Attribute groups](../../../DataHub/UserInterface/02c_AttributeGroups.md).
 
+- ![Folders](../../Assets/Icons/Folders01.png "[Folders]") (Folders)  
+  Attribute group that contains attribute sub-groups. Click the attribute group or the arrow *>* left to the attribute group to unfold the group and display the attribute sub-groups.
+
+[comment]: <> (Nicht im Screenshot, aber vermutlich auch verfügar, wenn Ordner Unterordner enthält. Check with S. Walke)
+
 - ![Folder](../../Assets/Icons/Folder01.png "[Folder]") (Folder)  
   Attribute group. Click the attribute group to display all attributes that are assigned to the selected attribute group on the right side of the *Attributes* tab.
 
 - ![Fade in/out](../../Assets/Icons/FadeInOut01.png "[Fade in/out]") (Fade in/out)    
   Click this button to hide or display the left margin column with the attribute groups. When the left margin is displayed and you click this button, the column is hidden. When the column is hidden and you click this button, the column is displayed again.
 
-
-### ATTRIBUTES &ndash; Dependencies
+### Attributes &ndash; Dependencies
 
 This tab has no function in the *Fulfillment* module, since dispatch notes have no dependent entities. The notice *No other entities depend on this entity* is displayed.
 
 
-### PACKAGES
+### Shipment packages
 
-
-*Fulfillment > Dispatch notes > Tab LIST > Select a dispatch note > Tab Shipments > Tab PACKAGES*
+*Fulfillment > Dispatch notes > Tab LIST > Select a dispatch note > Tab Shipments > Sub-tab PACKAGES*
 
 ![Shipments](../../Assets/Screenshots/Fulfillment/DispatchNotes/ShipmentsPackages.png "[Shipments]")
 
+The list displays all packages contained in the selected shipment. Depending on the settings, the displayed columns may vary. All fields are read-only.
 
-- *Package type*
-- *Created*
-- *Modified*
-- *Tracking number*
-- *Tracking link*
-- *Package ID*
-- *Proof of delivery*
-- *ID*
-- *SSCC number*
-- *Shipping method*
-- *Identified override*
-- *Shipping method override*
-- *Packaging type override*
+- *Package type*  
+  Package type identifier. Packages types can be defined in the *PACKAGE TYPES* tab of the *Settings* menu entry, see [Manage the package types](../Integration/02_ManagePackageTypes.md).
+
+- *Created*  
+  Date and time of the creation.
+
+- *Modified*  
+  Date and time of the last modification.
+
+- *Tracking number*  
+  Package tracking number.
+
+- *Tracking link*  
+  Package tracking link.
+
+- *Package ID*  
+  Package identification number.
+
+- *Proof of delivery*  
+  [comment]: <> (Proof of delivery required?)
+
+- *ID*  
+  Package identification number. This number is automatically assigned by the system.
+
+- *SSCC number*  
+   Serial shipping container code number as defined by the fulfiller.
+
+- *Shipping method*  
+  Shipping method identification number as defined by the fulfiller.
+
+- *Identifier override*  
+  Identifier override value as defined by the fulfiller.
+
+- *Shipping method override*  
+  Shipping method override value as defined by the fulfiller.
+
+- *Packaging type override*  
+  Packaging type override value as defined by the fulfiller.
+
+[comment]: <> (Was ist override?)
 
 #### Items
 
-*Fulfillment > Dispatch notes > Tab LIST > Select a dispatch note > Tab Shipments > Tab PACKAGES > Select a package*
+*Fulfillment > Dispatch notes > Tab LIST > Select a dispatch note > Tab Shipments > Sub-tab PACKAGES > Select a package*
 
 ![Shipments](../../Assets/Screenshots/Fulfillment/DispatchNotes/Items01.png "[Shipments]")
 
+The list displays all items contained in the selected package. Depending on the settings, the displayed columns may vary. All fields are read-only.
+
 - *Item number*  
+  Item identification number.
 
 - *SKU*  
   Stock Keeping Unit. Identification number of the product.
@@ -393,23 +458,25 @@ This tab has no function in the *Fulfillment* module, since dispatch notes have 
   Amount of units contained in the item.
 
 - *Serial number*  
-  Serial number of the product.
+  Item serial number.
 
 - *Unit net value*  
+  Item unit net value.
 
 - *Unit gross value*  
+  Item unit gross value.
 
 - *Total net value*  
+  Item total net value.
 
 - *Currency*  
+  Item currency.
 
 - *Dangerous goods indicator*  
   Indication whether the item has been classified as a dangerous product.
 
 - *ID*  
   Item identification number. The ID number is automatically assigned by the system.
-
-
 
 
 [comment]: <> (NO close button in this window. Bug?)
