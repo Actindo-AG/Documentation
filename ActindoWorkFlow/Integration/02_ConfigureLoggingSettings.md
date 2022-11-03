@@ -1,4 +1,4 @@
-[!!User Interface Logging settings](../UserInterface/07a_Settings.md)
+[!!User interface Logging settings](../UserInterface/07a_Settings.md)
 
 
 # Configure the logging settings

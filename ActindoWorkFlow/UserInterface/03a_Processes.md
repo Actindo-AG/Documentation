@@ -1,3 +1,8 @@
+[!!Create a workflow](../Operation/01_ManageWorkflows.md#create-a-workflow)
+[!!Configure the queue types](../Integration/01_ConfigureQueueTypes.md)
+[!!Process actions](./04a_ProcessActions.md)
+[!!Edit an action](../Operation/01_ManageWorkflows.md#edit-an-action)
+
 # Overview
 
 *Workflows > Processes > Tab OVERVIEW*
@@ -7,33 +12,33 @@
 **Processes**
 
 - *VIEW*  
-  Click the drop-down list to select the view. All created views are displayed in the drop-down list. Click the ![Points](../../Assets/Icons/Points01.png "[Points]") (Points) button to the right of the *VIEW* drop-down list to display the context menu and create a view. For detailed information, see [Create view](#create-view).
+  Click the drop-down list to select the view. All created views are displayed in the drop-down list. Click the ![Points](../../Assets/Icons/Points01.png "[Points]") (Points) button to the right of the *VIEW* drop-down list to display the context menu and create a view.   
 
   - ![Points](../../Assets/Icons/Points01.png "[Points]") (Points)      
     Click this button to the right of the *View* drop-down list to display the context menu. The following menu entries are available:
 
     - ![Create](../../Assets/Icons/Plus06.png "[Create]") create  
-      Click this entry to create a view. The *Create view* window is displayed.
+      Click this entry to create a view. The *Create view* window is displayed, see [Create view](#create-view).
 
     - ![Rename](../../Assets/Icons/Edit02.png "[Rename]") rename  
-      Click this entry to rename the selected view. The *Rename view* window is displayed. This menu entry is only displayed when a view is selected.
+      Click this entry to rename the selected view. The *Rename view* window is displayed, see [Rename view](#rename-view). This menu entry is only displayed if a view has been selected.
 
     - ![Reset](../../Assets/Icons/Reset.png "[Reset]") reset  
-      Click this entry to reset the view to the selected views settings. This menu entry is only displayed when a view is selected and any changes are made to the views settings.
+      Click this entry to reset all unsaved changes to the settings of the selected view. This menu entry is only displayed if a view has been selected and any changes have been made to the view settings.
 
     - ![Publish](../../Assets/Icons/Publish.png "[Publish]") publish  
-      Click this entry to publish the view. This menu entry is only displayed when a view is selected and unpublished.
+      Click this entry to publish the view. This menu entry is only displayed if a view has been selected and unpublished.
 
     - ![Unpublish](../../Assets/Icons/Unpublish.png "[Unpublish]") unpublish  
-      Click this entry to unpublish the view. This menu entry is only displayed when a view is selected and published.
+      Click this entry to unpublish the view. This menu entry is only displayed if a view has been selected and published.
 
     - ![Save](../../Assets/Icons/Save.png "[Save]") save  
-      Click this entry to save the current view settings in the selected view. This menu entry is only displayed when a view is selected.
+      Click this entry to save the current view settings in the selected view. This menu entry is only displayed if a view has been selected.
 
-      > [Info] When the settings of a view have been changed, an asterisk is displayed behind the view name. The asterisk is hidden as soon as the changes have been saved.
+      > [Info] When the settings of a view have been changed, an asterisk is displayed next to the view name. The asterisk is hidden as soon as the changes have been saved.
 
     - ![Delete](../../Assets/Icons/Trash01.png "[Delete]") delete  
-      Click this entry to delete the selected view. A confirmation window to confirm the deletion is displayed. This menu entry is only displayed when a view is selected.
+      Click this entry to delete the selected view. A confirmation window to confirm the deletion is displayed. This menu entry is only displayed if a view has been selected.
 
 
 - *Status*  
@@ -57,9 +62,7 @@
 
 
 - *Workflow*  
-  Click the drop-down list to display a specific workflow type. All workflows created in the *Workflows* menu entry are available in the list. For detailed information about creating a workflow, see [Create a workflow](../Operation/01_ManageWorkflows.md#create-a-workflow).
-
-
+  Click the drop-down list to display a specific workflow type. All workflows created in the *Workflows* menu entry are available in the list.
 
 - ![Search](../../Assets/Icons/Search.png "[Search]") (Search)  
   Click this button to display the search bar and search for a workflow.  
@@ -70,10 +73,10 @@
   Click this button to update the list of workflows.
 
 - ![Columns](../../Assets/Icons/Columns.png "[Columns]") Columns (x)  
-  Click this button to display the columns bar and customize the displayed columns and the order of columns in the list. The x indicates the number of columns that are currently displayed in the list.
+  Click this button to display the columns bar and customize the displayed columns and the order of columns in the list. The *x* indicates the number of columns that are currently displayed in the list.
 
 - ![Filter](../../Assets/Icons/Filter.png "[Filter]") Filter (x)  
-  Click this button to display the filter bar and customize the active filters. The x indicates the number of filters that are currently active.
+  Click this button to display the filter bar and customize the active filters. The *x* indicates the number of filters that are currently active.
 
 
 The list displays all processes that are matching the selected values (status and workflow type). Depending on the settings, the displayed columns may vary. All fields are read-only. Click a process in the list to display the *Process ID* view with a process diagram and detailed information about the selected process.
@@ -84,13 +87,13 @@ The list displays all processes that are matching the selected values (status an
 Depending on the process status, the editing toolbar displays the following buttons:
 
 - ![Abort](../../Assets/Icons/Stop.png "[Abort]") (Abort)  
-  Click this button to end the process. This button is displayed when the process status is *Error* or *In progress*. When clicking this button, the process status changes to *Aborted*.
+  Click this button to end the process. This button is displayed if the process status is *Error* or *In progress*. When clicking this button, the process status changes to *Aborted*.
 
 - ![Suspend](../../Assets/Icons/Pause.png "[Suspend]") (Suspend)  
-  Click this button to suspend the process temporarily. This button is displayed when the process status is *In progress*.  When clicking this button, the process status changes to *Suspended*.
+  Click this button to suspend the process temporarily. This button is displayed if the process status is *In progress*.  When clicking this button, the process status changes to *Suspended*.
 
 - ![Start](../../Assets/Icons/Play.png "[Start]") (Start)  
-  Click this button to resume the process. This button is displayed when the process status is *Suspended*. When clicking this button, process status changes again to *In progress*.
+  Click this button to resume the process. This button is displayed if the process status is *Suspended*. When clicking this button, process status changes again to *In progress*.
 
 
 - *Status*  
@@ -114,7 +117,7 @@ Depending on the process status, the editing toolbar displays the following butt
   Name of the corresponding workflow.
 
 - *Queue type*  
-  Queue type configured in the process. This column displays the queue type name or the text "According to configuration in workflow". For detailed information about configuring the queue types, see [Configure the queue types](ActindoWorkFlow/Integration/01_ConfigureQueueTypes.md).
+  Queue type configured in the process. This column displays the queue type name or **According to configuration in workflow**.
 
 - *Priority*  
   Process priority set up in the system. The higher the number, the higher the priority.
@@ -131,7 +134,7 @@ Depending on the process status, the editing toolbar displays the following butt
 - *Owning module*  
   Module that has created the workflow.
 
-  > [Info] When a workflow is manually created in the *Workflow* module, the text "ActindoWorkFlow" is displayed. A workflow can also be created automatically by a different module. In this case, the name of the corresponding module is displayed.  
+  > [Info] When a workflow is manually created in the *Workflow* module, **ActindoWorkFlow** is displayed. A workflow can also be created automatically by a different module. In this case, the name of the corresponding module is displayed.  
 
 - *Created by*  
   Name and user name of the user who initiated the process.
@@ -150,7 +153,7 @@ Depending on the process status, the editing toolbar displays the following butt
 **Process ID**
 
 - ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)  
-  Click this button to close the *Process ID* view and return to the list of processes.
+  Click this button to close the *Process ID* view and return to the list of processes. All changes are rejected.
 
 - *Process ID*  
   Process identification number. The ID number is automatically assigned by the system.
@@ -166,36 +169,36 @@ Depending on the process status, the editing toolbar displays the following butt
 
 ![Actions](../../Assets/Screenshots/ActindoWorkFlow/Processes/Actions.png "[Actions]")
 
-> [Info] The *Actions* tab is selected by default when selecting a process. This tab is an excerpt of the *Process actions* menu entry, which displays a list of all process actions. When clicking an action in the *Process actions* view, the selected action is displayed in the *Actions* tab of the corresponding *Process ID* view. For detailed information, see [Process actions](./04a_ProcessActions.md).
+> [Info] The *Actions* tab is selected by default when selecting a process. This tab is an excerpt of the *Process actions* menu entry, which displays a list of all process actions. When clicking an action in the *Process actions* view, the selected action is displayed in the *Actions* tab of the corresponding *Process ID* view.
 
 - *VIEW*  
-  Click the drop-down list to select the view. All created views are displayed in the drop-down list. Click the ![Points](../../Assets/Icons/Points01.png "[Points]") (Points) button to the right of the *VIEW* drop-down list to display the context menu and create a view. For detailed information, see [Create view](#create-view).
+  Click the drop-down list to select the view. All created views are displayed in the drop-down list. Click the ![Points](../../Assets/Icons/Points01.png "[Points]") (Points) button to the right of the *VIEW* drop-down list to display the context menu and create a view.   
 
   - ![Points](../../Assets/Icons/Points01.png "[Points]") (Points)      
     Click this button to the right of the *View* drop-down list to display the context menu. The following menu entries are available:
 
     - ![Create](../../Assets/Icons/Plus06.png "[Create]") create  
-      Click this entry to create a view. The *Create view* window is displayed.
+      Click this entry to create a view. The *Create view* window is displayed, see [Create view](#create-view).
 
     - ![Rename](../../Assets/Icons/Edit02.png "[Rename]") rename  
-      Click this entry to rename the selected view. The *Rename view* window is displayed. This menu entry is only displayed when a view is selected.
+      Click this entry to rename the selected view. The *Rename view* window is displayed, see [Rename view](#rename-view). This menu entry is only displayed if a view has been selected.
 
     - ![Reset](../../Assets/Icons/Reset.png "[Reset]") reset  
-      Click this entry to reset the view to the selected views settings. This menu entry is only displayed when a view is selected and any changes are made to the views settings.
+      Click this entry to reset all unsaved changes to the settings of the selected view. This menu entry is only displayed if a view has been selected and any changes have been made to the view settings.
 
     - ![Publish](../../Assets/Icons/Publish.png "[Publish]") publish  
-      Click this entry to publish the view. This menu entry is only displayed when a view is selected and unpublished.
+      Click this entry to publish the view. This menu entry is only displayed if a view has been selected and unpublished.
 
     - ![Unpublish](../../Assets/Icons/Unpublish.png "[Unpublish]") unpublish  
-      Click this entry to unpublish the view. This menu entry is only displayed when a view is selected and published.
+      Click this entry to unpublish the view. This menu entry is only displayed if a view has been selected and published.
 
     - ![Save](../../Assets/Icons/Save.png "[Save]") save  
-      Click this entry to save the current view settings in the selected view. This menu entry is only displayed when a view is selected.
+      Click this entry to save the current view settings in the selected view. This menu entry is only displayed if a view has been selected.
 
-      > [Info] When the settings of a view have been changed, an asterisk is displayed behind the view name. The asterisk is hidden as soon as the changes have been saved.
+      > [Info] When the settings of a view have been changed, an asterisk is displayed next to the view name. The asterisk is hidden as soon as the changes have been saved.
 
     - ![Delete](../../Assets/Icons/Trash01.png "[Delete]") delete  
-      Click this entry to delete the selected view. A confirmation window to confirm the deletion is displayed. This menu entry is only displayed when a view is selected.
+      Click this entry to delete the selected view. A confirmation window to confirm the deletion is displayed. This menu entry is only displayed if a view has been selected.
 
 
 - *Status*  
@@ -238,16 +241,16 @@ The list displays all executed actions that are matching the selected status. De
 Depending of the process status, the editing toolbar may display different options.
 
 - ![Retry](../../Assets/Icons/Retry01.png "[Retry]") (Retry)  
-  Click this button to retry the action. This button is displayed when the action status is *Error*.
+  Click this button to retry the action. This button is displayed if the action status is *Error*.
 
 - ![Suspend](../../Assets/Icons/Pause.png "[Suspend]") (Suspend)  
-  Click this button to suspend the action temporarily. This button is displayed when the action status is *In progress*. When clicking this button, the action status changes to *Suspended*.
+  Click this button to suspend the action temporarily. This button is displayed if the action status is *In progress*. When clicking this button, the action status changes to *Suspended*.
 
 - ![Start](../../Assets/Icons/Play.png "[Start]") (Start)  
-  Click this button to resume the action. This button is displayed when the action status is *Suspended*. When clicking this button, the action status changes again to *In progress*. The warning sign in the *Suspended actions* column of the *Processes* view is no longer displayed.
+  Click this button to resume the action. This button is displayed if the action status is *Suspended*. When clicking this button, the action status changes again to *In progress*. The warning sign in the *Suspended actions* column of the *Processes* view is no longer displayed.
 
 - [REMOVE DEFER TIME]  
-  Click this button to skip the defer time preconfigured in the action, if any. The action is then executed immediately. This button is displayed when the action status is *In progress*.
+  Click this button to skip the defer time preconfigured in the action, if any. The action is then executed immediately. This button is displayed if the action status is *In progress*.
 
   > [Info] The defer time is preconfigured pro action in the system. If the defer time is removed once, the action is executed immediately. If the action gives an error again, it will be retried once that preconfigured defer time has elapsed.
 
@@ -271,9 +274,9 @@ Depending of the process status, the editing toolbar may display different optio
   Number of times the action execution must be retried after error. This setting depends on the transition and is usually preconfigured. In the current version, this value can be modified in the *Import JSON* window, see [Import JSON](./02a_Workflows.md#import-json).
 
 - *Queue type*  
-  Queue type assigned to the action. By default, the *Default* queue type is assigned. For detailed information about configuring queue types, see [Configure the queue types](../Integration/01_ConfigureQueueTypes.md).
+  Queue type assigned to the action. By default, the *Default* queue type is assigned.
 
-  > [Info] A different queue type can be selected by editing an action in the workflow editor, see [Edit an action](../Operation/01_ManageWorkflows.md#edit-an-action).
+  > [Info] A different queue type can be selected by editing an action in the workflow editor.
 
 - *Defer until*  
   Next point in time when the action is being tried. This setting depends on the action and is not available in all actions.
@@ -302,33 +305,33 @@ Depending of the process status, the editing toolbar may display different optio
 
 
 - *VIEW*  
-  Click the drop-down list to select the view. All created views are displayed in the drop-down list. Click the ![Points](../../Assets/Icons/Points01.png "[Points]") (Points) button to the right of the *VIEW* drop-down list to display the context menu and create a view. For detailed information, see [Create view](#create-view).
+  Click the drop-down list to select the view. All created views are displayed in the drop-down list. Click the ![Points](../../Assets/Icons/Points01.png "[Points]") (Points) button to the right of the *VIEW* drop-down list to display the context menu and create a view.   
 
   - ![Points](../../Assets/Icons/Points01.png "[Points]") (Points)      
     Click this button to the right of the *View* drop-down list to display the context menu. The following menu entries are available:
 
     - ![Create](../../Assets/Icons/Plus06.png "[Create]") create  
-      Click this entry to create a view. The *Create view* window is displayed.
+      Click this entry to create a view. The *Create view* window is displayed, see [Create view](#create-view).
 
     - ![Rename](../../Assets/Icons/Edit02.png "[Rename]") rename  
-      Click this entry to rename the selected view. The *Rename view* window is displayed. This menu entry is only displayed when a view is selected.
+      Click this entry to rename the selected view. The *Rename view* window is displayed, see [Rename view](#rename-view). This menu entry is only displayed if a view has been selected.
 
     - ![Reset](../../Assets/Icons/Reset.png "[Reset]") reset  
-      Click this entry to reset the view to the selected views settings. This menu entry is only displayed when a view is selected and any changes are made to the views settings.
+      Click this entry to reset all unsaved changes to the settings of the selected view. This menu entry is only displayed if a view has been selected and any changes have been made to the view settings.
 
     - ![Publish](../../Assets/Icons/Publish.png "[Publish]") publish  
-      Click this entry to publish the view. This menu entry is only displayed when a view is selected and unpublished.
+      Click this entry to publish the view. This menu entry is only displayed if a view has been selected and unpublished.
 
     - ![Unpublish](../../Assets/Icons/Unpublish.png "[Unpublish]") unpublish  
-      Click this entry to unpublish the view. This menu entry is only displayed when a view is selected and published.
+      Click this entry to unpublish the view. This menu entry is only displayed if a view has been selected and published.
 
     - ![Save](../../Assets/Icons/Save.png "[Save]") save  
-      Click this entry to save the current view settings in the selected view. This menu entry is only displayed when a view is selected.
+      Click this entry to save the current view settings in the selected view. This menu entry is only displayed if a view has been selected.
 
-      > [Info] When the settings of a view have been changed, an asterisk is displayed behind the view name. The asterisk is hidden as soon as the changes have been saved.
+      > [Info] When the settings of a view have been changed, an asterisk is displayed next to the view name. The asterisk is hidden as soon as the changes have been saved.
 
     - ![Delete](../../Assets/Icons/Trash01.png "[Delete]") delete  
-      Click this entry to delete the selected view. A confirmation window to confirm the deletion is displayed. This menu entry is only displayed when a view is selected.
+      Click this entry to delete the selected view. A confirmation window to confirm the deletion is displayed. This menu entry is only displayed if a view has been selected.
 
 
 - *Log level*  
@@ -419,7 +422,7 @@ The list displays all logs that are matching the selected log level. Depending o
 ![Log ID](../../Assets/Screenshots/ActindoWorkFlow/Processes/LogID.png "[Log ID]")
 
 - ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)  
-  Click this button to close the *Log ID* view and return to the *Logs* tab in the *Process ID* view.
+  Click this button to close the *Log ID* view and return to the *Logs* tab in the *Process ID* view. All changes are rejected.
 
 For a detailed description of this window and the corresponding functions, see [Log ID](./06a_Logs.md#log-id).
 
@@ -435,33 +438,33 @@ For a detailed description of this window and the corresponding functions, see [
   Disable this toggle to display all tokens, including the ones that have already been processed. Enable the toggle to hide all processed tokens. By default, this toggle is enabled.
 
 - *VIEW*  
-  Click the drop-down list to select the view. All created views are displayed in the drop-down list. Click the ![Points](../../Assets/Icons/Points01.png "[Points]") (Points) button to the right of the *VIEW* drop-down list to display the context menu and create a view. For detailed information, see [Create view](#create-view).
+  Click the drop-down list to select the view. All created views are displayed in the drop-down list. Click the ![Points](../../Assets/Icons/Points01.png "[Points]") (Points) button to the right of the *VIEW* drop-down list to display the context menu and create a view.   
 
   - ![Points](../../Assets/Icons/Points01.png "[Points]") (Points)      
     Click this button to the right of the *View* drop-down list to display the context menu. The following menu entries are available:
 
     - ![Create](../../Assets/Icons/Plus06.png "[Create]") create  
-      Click this entry to create a view. The *Create view* window is displayed.
+      Click this entry to create a view. The *Create view* window is displayed, see [Create view](#create-view).
 
     - ![Rename](../../Assets/Icons/Edit02.png "[Rename]") rename  
-      Click this entry to rename the selected view. The *Rename view* window is displayed. This menu entry is only displayed when a view is selected.
+      Click this entry to rename the selected view. The *Rename view* window is displayed, see [Rename view](#rename-view). This menu entry is only displayed if a view has been selected.
 
     - ![Reset](../../Assets/Icons/Reset.png "[Reset]") reset  
-      Click this entry to reset the view to the selected views settings. This menu entry is only displayed when a view is selected and any changes are made to the views settings.
+      Click this entry to reset all unsaved changes to the settings of the selected view. This menu entry is only displayed if a view has been selected and any changes have been made to the view settings.
 
     - ![Publish](../../Assets/Icons/Publish.png "[Publish]") publish  
-      Click this entry to publish the view. This menu entry is only displayed when a view is selected and unpublished.
+      Click this entry to publish the view. This menu entry is only displayed if a view has been selected and unpublished.
 
     - ![Unpublish](../../Assets/Icons/Unpublish.png "[Unpublish]") unpublish  
-      Click this entry to unpublish the view. This menu entry is only displayed when a view is selected and published.
+      Click this entry to unpublish the view. This menu entry is only displayed if a view has been selected and published.
 
     - ![Save](../../Assets/Icons/Save.png "[Save]") save  
-      Click this entry to save the current view settings in the selected view. This menu entry is only displayed when a view is selected.
+      Click this entry to save the current view settings in the selected view. This menu entry is only displayed if a view has been selected.
 
-      > [Info] When the settings of a view have been changed, an asterisk is displayed behind the view name. The asterisk is hidden as soon as the changes have been saved.
+      > [Info] When the settings of a view have been changed, an asterisk is displayed next to the view name. The asterisk is hidden as soon as the changes have been saved.
 
     - ![Delete](../../Assets/Icons/Trash01.png "[Delete]") delete  
-      Click this entry to delete the selected view. A confirmation window to confirm the deletion is displayed. This menu entry is only displayed when a view is selected.
+      Click this entry to delete the selected view. A confirmation window to confirm the deletion is displayed. This menu entry is only displayed if a view has been selected.
 
 
 - ![Search](../../Assets/Icons/Search.png "[Search]") (Search)  
@@ -473,10 +476,10 @@ For a detailed description of this window and the corresponding functions, see [
   Click this button to update the list of tokens.
 
 - ![Columns](../../Assets/Icons/Columns.png "[Columns]") Columns (x)  
-  Click this button to display the columns bar and customize the displayed columns and the order of columns in the list. The x indicates the number of columns that are currently displayed in the list.
+  Click this button to display the columns bar and customize the displayed columns and the order of columns in the list. The *x* indicates the number of columns that are currently displayed in the list.
 
 - ![Filter](../../Assets/Icons/Filter.png "[Filter]") Filter (x)  
-  Click this button to display the filter bar and customize the active filters. The x indicates the number of filters that are currently active.
+  Click this button to display the filter bar and customize the active filters. The *x* indicates the number of filters that are currently active.
 
 
 The list displays all tokens if the *Hide processed* toggle is disabled. Depending on the settings, the displayed columns may vary. All fields are read-only.

@@ -1,6 +1,6 @@
-[!!User Interface Workflows](../UserInterface/02a_Workflows.md)
-[!!User Interface Processes](../UserInterface/03a_Processes.md)
-[!!User Interface Process actions](../UserInterface/04a_ProcessActions.md)
+[!!User interface Workflows](../UserInterface/02a_Workflows.md)
+[!!User interface Processes](../UserInterface/03a_Processes.md)
+[!!User interface Process actions](../UserInterface/04a_ProcessActions.md)
 [!!Retry a process action](../Troubleshooting/01_RetryProcessAction.md)
 [!!Workflow and process elements](../Overview/04_WorkflowProcessElements.md)
 

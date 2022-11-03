@@ -1,5 +1,5 @@
-[!!User Interface Processes](../UserInterface/03a_Processes.md)
-[!!User Interface Process actions](../UserInterface/04a_ProcessActions.md)
+[!!User interface Processes](../UserInterface/03a_Processes.md)
+[!!User interface Process actions](../UserInterface/04a_ProcessActions.md)
 [!!Track a workflow process](../Operation/02_TrackWorkflowProcess)
 [!!Workflow and process elements](../Overview/04_WorkflowProcessElements.md)
 

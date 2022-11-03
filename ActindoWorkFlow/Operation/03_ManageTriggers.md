@@ -1,4 +1,4 @@
-[!!User Interface Workflows](../UserInterface/02a_Workflows.md)
+[!!User interface Workflows](../UserInterface/02a_Workflows.md)
 
 
 # Manage the triggers

@@ -1,4 +1,4 @@
-[!!User Interface Queue types](../UserInterface/05a_QueueTypes.md)
+[!!User interface Queue types](../UserInterface/05a_QueueTypes.md)
 [!!Workflow and process elements](../Overview/04_WorkflowProcessElements.md)
 [!!Manage the workflows](../Operation/01_ManageWorkflows.md)
 

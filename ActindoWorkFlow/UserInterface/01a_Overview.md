@@ -7,10 +7,10 @@
 In the *DASHBOARDS* tab, the custom tabs with composable dashlets are displayed. By default no tab is created.
 
 - ![Add](../../Assets/Icons/Plus06.png "[Add]") (Add)   
-  Click this button to add a new tab to display different dashlets. The *Add a new tab* window is displayed.
+  Click this button to add a new tab to display different dashlets. The *Add a new tab* window is displayed, see [Add a new tab](#add-a-new-tab).
 
 - ![Delete](../../Assets/Icons/Cross04.png "[Delete]") (Delete)   
-  Click this button to delete the selected tab. The *Confirm tab deletion* window is displayed. This button is only displayed next to a created tab.
+  Click this button to delete the selected tab. The *Confirm tab deletion* window is displayed, see [Confirm tab deletion](#confirm-tab-deletion). This button is only displayed next to a created tab.
 
 
 ## Add a new tab
@@ -48,7 +48,7 @@ The *Import existing tab* tab is locked. It is only available in the *Actindo Da
   Click this button to cancel deleting the selected tab. The *Confirm tab deletion* window is closed.
 
 - [ACCEPT]   
-  Click this button to delete the selected tab and close the *Confirm tab deletion* window. The tab and its dashlets are deleted.
+  Click this button to delete the selected tab. The *Confirm tab deletion* window is closed. The tab and its dashlets are deleted.
 
 
 ## Tab
@@ -59,7 +59,7 @@ The *Import existing tab* tab is locked. It is only available in the *Actindo Da
 ![New tab](../../Assets/Screenshots/ActindoWorkFlow/Overview/NewTab.png "[New tab]")
 
 - ![Settings](../../Assets/Icons/Settings01.png "[Tool]") (Settings)   
-  Click this button to edit the tab. The *Edit tab* view is displayed.  
+  Click this button to edit the tab. The *Edit tab* view is displayed, see [Edit tab](#edit-tab).  
 
 ### Edit tab
 
@@ -84,7 +84,7 @@ The *Import existing tab* tab is locked. It is only available in the *Actindo Da
 
 
 - [ADD ELEMENT]   
-  Click the button to add a dashlet to the selected tab. The *Dashlet picker* window is displayed. The button is only displayed in the *Edit tab* view.
+  Click the button to add a dashlet to the selected tab. The *Dashlet picker* window is displayed, see [Dashlet picker](#dashlet-picker). The button is only displayed in the *Edit tab* view.
 
 - [SAVE]   
   Click this button to save any changes. The changes are applied. The *Edit tab* view is closed.
@@ -119,4 +119,4 @@ The *Import existing tab* tab is locked. It is only available in the *Actindo Da
   Click this button to cancel adding dashlets. The *Dashlet picker* window is closed.
 
 - [ACCEPT]   
-  Click this button to add the selected dashlets to the tab and close the *Dashlet picker* window. The dashlets are displayed in the tab.
+  Click this button to add the selected dashlets to the tab. The *Dashlet picker* window is closed. The dashlets are displayed in the tab.
