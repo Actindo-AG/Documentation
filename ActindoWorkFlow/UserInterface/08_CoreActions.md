@@ -25,7 +25,7 @@ In the following, the core actions, their use and their settings are described i
 ![Change process priority](../../Assets/Screenshots/ActindoWorkFlow/Workflows/CoreActions/ChangeProcessPriority.png "[Change process priority]")
 
 The *Change process priority* core action is used to change the preconfigured priority of the process while the process is already running.   
-The data runs via the *loop_through* input port into the workflow action and is output via the *p* output port. However, the data is only output when data has also been incoming in the *priority* input port. The input value of the *priority* input port must be an integer. This integer will be used as the new priority.
+The data runs via the *loop_through* input port into the workflow action and is output via the *p* output port. However, the data is only output when data has also been incoming via the *priority* input port. The input value of the *priority* input port must be an integer. This integer will be used as the new priority.
 
 [comment]: <> (ticket in arbeit: static inputs sollen im priority input port möglich sein, ändern sobald möglich)
 
