@@ -111,7 +111,7 @@ At least one connection has been established, see [Create a connection](#create-
 
 ![Connections](../../Assets/Screenshots/Channels/Settings/Connections/Connections.png "[Connections]")
 
-1. Click the checkbox of the connection you want to synchronize in the list of connections.   
+1. Select the checkbox of the connection you want to synchronize in the list of connections.   
   The editing toolbar is displayed above the list of connections.
 
 2. Click the [SYNCHRONIZE] button in the toolbar.   
@@ -138,7 +138,7 @@ Once a connection has been established, it cannot be deleted. Nevertheless, the 
 
 ![Connections](../../Assets/Screenshots/Channels/Settings/Connections/Connections.png "[Connections]")
 
-1. Click the checkbox of the connection you want to disable in the list of connections.   
+1. Select the checkbox of the connection you want to disable in the list of connections.   
   The editing toolbar is displayed above the list of connections.
 
 2. Click the [DISABLE] button in the toolbar.   
