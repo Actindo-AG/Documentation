@@ -215,6 +215,10 @@ The list displays all dispatch notes. Depending on the settings, the displayed c
 - [SAVE]   
   Click this button to save the new view and display it in the *VIEW* drop-down list. The *Create view* window is closed.
 
+This window can also be accessed from the following tabs in the user interface:
+
+- [CONNECTIONS (Logging)](02a_Connections.md)
+- [CONNECTIONS (Settings)](03a_Connections.md)
 
 ## Rename view
 
