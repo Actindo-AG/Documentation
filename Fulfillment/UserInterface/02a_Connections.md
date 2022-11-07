@@ -56,14 +56,47 @@
 - [SHOW MESSAGE]  
   Click this button to display the selected log message. This button is only displayed if the checkbox of a dispatch note is selected. Alternatively, you can click directly a row in the list to view a dispatch note. The *List of messages* view is displayed.
 
-- *Name*
-- *Number of messages*
-- *Created at*
-- *Created by*
-- *Max log level of message*
-- *ID*
-- *Preview*
-- *Short preview*
+
+The list displays all event logs. Depending on the settings, the displayed columns may vary. All fields are read-only.
+
+- *Name*  
+  Description of log.
+
+- *Number of messages*  
+  Number of messages contained in the log.
+
+- *Created at*  
+  Date and time of the creation.
+
+- *Created by*  
+  Name and username of the user who created the log.  
+
+[comment]: <> (Bei NoE test account Background-API Arvato -> Always automatically created? User or Connection name? Logs created by a person or automatically by the system/connection?)  
+
+- *Max log level of message*  
+  Maximal log level type of the message(s) contained in the event log. The following levels are available:
+  - **Debug**
+  - **Info**
+  - **Notice**
+  - **Warning**
+  - **Error**
+  - **Critical**
+  - **Alert**
+  - **Emergency**
+
+[comment]: <> (Levels in Workflows + Omni-Channel)  
+
+- *ID*  
+  Log identification number. The ID number is automatically assigned by the system.
+
+- *Preview*  
+  Preview of log details.
+
+- *Short preview*  
+  Short preview of log details.
+
+[comment]: <> (Beide scheinen gleich aus oder sehr ähnlich. Unterschied?)
+
 
 ## Create view
 
@@ -71,15 +104,7 @@
 
 ![Create view](../../Assets/Screenshots/Fulfillment/DispatchNotes/CreateView.png "[Create view]")
 
-- *Name*   
-  Enter a name for the view.
-
-- [CANCEL]   
-  Click this button to cancel creating a view. The *Create view* window is closed.
-
-- [SAVE]   
-  Click this button to save the new view and display it in the *VIEW* drop-down list. The *Create view* window is closed.
-
+For a detailed description of this window and the corresponding functions, see [Create view](./01a_List.md#create-view).
 
 ## Rename view
 
@@ -87,14 +112,7 @@
 
 ![Rename view](../../Assets/Screenshots/Fulfillment/DispatchNotes/RenameView.png "[Rename view]")
 
-- *Name*   
-  Click this field to edit the view name.
-
-- [CANCEL]   
-  Click this button to cancel renaming the view. The *Rename view* window is closed.
-
-- [SAVE]   
-  Click this button to save the changes and display it in the *VIEW* drop-down list. The *Rename view* window is closed.
+For a detailed description of this window and the corresponding functions, see [Rename view](./01a_List.md#rename-view).
 
 
 ## List of Messages
@@ -116,14 +134,24 @@
 - ![View](../../Assets/Icons/Eye02.png "[View]")  
   Click this button to view the log message details.
 
+
+The list displays all messages contained in the selected event log. Depending on the settings, the displayed columns may vary. All fields are read-only.
+
 - *Title*  
-  Log message description.
+  Description of the log message.
 
 - *Log level*  
-  Log message level. The following levels are available:
-    - **Notice**
-    - **Error**
-[comment]: <> (Other levels?)
+  Log level type. The following levels are available:
+  - **Debug**
+  - **Info**
+  - **Notice**
+  - **Warning**
+  - **Error**
+  - **Critical**
+  - **Alert**
+  - **Emergency**
+
+[comment]: <> (Levels in Workflows + Omni-Channel)
 
 - *Created at*  
   Date and time of the creation.
@@ -131,10 +159,10 @@
 - *Created by*  
   Name and username of the user who created the event log.
 
-[comment]: <> (Bei NoE test account Background-API Arvato -> Always automatically created? User or Connection name?)
+[comment]: <> (Bei NoE test account Background-API Arvato -> Always automatically created? User or Connection name? Logs created by a person or automatically by the system/connection?)
 
 - *Message*  
-  Details of log message.
+  Details of the log message.
 
 - *ID*  
   Log message identification number. The ID number is automatically assigned by the system.
@@ -144,9 +172,7 @@
 
 *Fulfillment > Logging > Tab CONNECTIONS > Select an event log > Select a log message*
 
-![List of messages](../../Assets/Screenshots/Fulfillment/Logging/ListMessages.png "[List of messages]")
-
-**Message:**
+![List of messages](../../Assets/Screenshots/Fulfillment/Logging/DetailLogMessageAttributes.png "[List of messages]")
 
 - ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)   
   Click this button to close the *Detail of log message "Log message name"* view and return to the List of messages.
@@ -156,18 +182,48 @@
 
 [comment]: <> (Beide tun das gleiche)
 
+- Message  
+  Short description of the log message.
+
+- *Message:*  
+  Short description of the log message.
+
+[comment]: <> (Hier Info wiederholt sich. Report als Bug?)
+
+
 ### Detail of log message "Log message name" &ndash; Attributes
 
 *Fulfillment > Logging > Tab CONNECTIONS > Select an event log > Select a log message > Tab Attributes*
 
-![List of messages](../../Assets/Screenshots/Fulfillment/Logging/DetailLogMessageAttributes02.png "[List of messages]")
+![Detail Log Message Attributes](../../Assets/Screenshots/Fulfillment/Logging/DetailLogMessageAttributes.png "[Detail Log Message Attributes]")
 
-[comment]: <> (Felder ändern sich abhängig von message attributes?)
+The *Attributes* tab displays further details of the selected log message. Depending on the message title, the assigned attributes, and therefore the fields displayed, may vary. All fields are read-only.
 
-- *Code*
+By default, the following fields are displayed:
+
+[comment]: <> (Felder ändern sich abhängig von Title - vgl. NotFoundException und updateDeliveryStatus?)
+
+- *Code*  
+  Code number.  
+
 - *Endpoint and method*
 - *Request*
 - *Response*
+- *Exception*
+
+- *Error code*  
+  Error code number.
+
+- *File*  
+  File where the error has occurred.
+
+- *Line*  
+  Line where the error has occurred.
+
+- *Exception class*  
+
+- *Trace as string*  
+
 - *Exception*
 
 ### Detail of log message "Log message name" &ndash; Dependencies
