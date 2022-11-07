@@ -39,10 +39,10 @@
 
 
 - ![Search](../../Assets/Icons/Search.png "[Search]") (Search)   
-  Click this button to display the search bar and search for dispatch notes.
+  Click this button to display the search bar and search for event logs.
 
 - ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh)   
-  Click this button to update the list of dispatch notes.
+  Click this button to update the list of an event logs.
 
 - ![Columns](../../Assets/Icons/Columns.png "[Columns]") Columns (x)   
   Click this button to display the columns bar and customize the displayed columns and the order of columns in the list. The *x* indicates the number of columns that are currently displayed in the list.
@@ -54,7 +54,7 @@
   Select the checkbox to display the editing toolbar. Only one log message can be selected at a time.
 
 - [SHOW MESSAGE]  
-  Click this button to display the selected log message. This button is only displayed if the checkbox of a dispatch note is selected. Alternatively, you can click directly a row in the list to view a dispatch note. The *List of messages* view is displayed.
+  Click this button to display the selected log message. This button is only displayed if the checkbox of an event log is selected. Alternatively, you can click directly a row in the list to view an event log. The *List of messages* view is displayed.
 
 
 The list displays all event logs. Depending on the settings, the displayed columns may vary. All fields are read-only.
@@ -232,6 +232,6 @@ By default, the following fields are displayed:
 
 ![List of messages](../../Assets/Screenshots/Fulfillment/Logging/DetailLogMessageDependencies02.png "[List of messages]")
 
-This tab has no function in the *Fulfillment* module, since dispatch notes have no dependent entities. The notice *No other entities depend on this entity* is displayed.
+This tab has no function in the *Fulfillment* module, since log messages have no dependent entities. The notice *No other entities depend on this entity* is displayed.
 
 [comment]: <> (No function at all? Fliegt evtl. raus? RS SW)
