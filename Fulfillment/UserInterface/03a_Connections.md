@@ -1,4 +1,4 @@
-# Connections
+# Connections (Settings)
 
 *Fulfillment > Settings > Tab CONNECTIONS*
 
@@ -46,7 +46,10 @@
   Select the checkbox to display the editing toolbar. If you click the checkbox in the header, all connections in the list are selected.
 
 - [DISABLE]  
-  Click this button to disable the selected connection. This button is displayed if the checkbox of at least one connection is selected. For detailed information see [Enable/disable a connection](../Integration/01_ManageConnections.md#enabledisable-a-connection).
+  Click this button to disable one or several selected connections. This button is displayed if the checkbox of at least one active connection is selected. For detailed information see [Enable/disable a connection](../Integration/01_ManageConnections.md#enabledisable-a-connection).
+
+- [ENABLE]  
+  Click this button to enable one or several selected connections. This button is displayed if the checkbox of at least one inactive connection is selected. For detailed information see [Enable/disable a connection](../Integration/01_ManageConnections.md#enabledisable-a-connection).
 
 - ![Edit](../../Assets/Icons/Edit01.png "[Edit]") (Edit)  
   Click this button to edit the selected connection. This button is only displayed if the checkbox of a connection is selected. Alternatively, you can click directly a row in the list to view a connection. The *\"Connection name\"* view is displayed. The *Credentials* tab is preselected.
@@ -93,7 +96,7 @@ For a detailed description of this window and the corresponding functions, see [
 
 *Fulfillment > Settings > Tab CONNECTIONS > Button Add*
 
-![Create connection](../../Assets/Screenshots/Fulfillment/Settings/AddConnection.png "[Create connection]")
+![Create connection](../../Assets/Screenshots/Fulfillment/Settings/CreateConnection.png "[Create connection]")
 
 - ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)   
 Click this button to close the *\"Connection name\"* view and return to the connection list. All changes are rejected.
@@ -105,10 +108,10 @@ Click this button to close the *\"Connection name\"* view and return to the conn
   Click this button to confirm the connection name.
 
 - ![Edit](../../Assets/Icons/Edit02.png "[Edit]") (Edit)  
-  Click this button to edit the connection name. This button is displayed after confirming the connection name with the previously displayed check button.
+  Click this button to edit the connection name. This button is displayed after the connection name has been confirmed with the previously displayed check button.
 
 - *Driver*  
-  Click the drop-down list and select the desired driver. All configured drivers are displayed. Alternatively, select the option **more** to configure further drivers. The *Credentials* section is displayed. Depending on the driver selected, the credentials fields vary.
+  Click the drop-down list and select the desired driver. All installed drivers are displayed. Alternatively, select the option **more** to install further drivers. The *Credentials* section is displayed. Depending on the driver selected, the credentials fields vary.
 
   > [Info] When selecting the **more** option, the notice *Get more drivers from the app store* is displayed. Drivers are licensed and must be acquired via the app store. The applicable driver credentials to establish the connection are provided by the fulfiller. For detailed information, see [Create a connection](../Integration/01_ManageConnections.md#create-a-connection).
 
@@ -137,7 +140,7 @@ The fields displayed in the *Credentials* section vary depending on the driver s
 
 *Fulfillment > Settings > Tab CONNECTIONS > Select a connection*
 
-![Edit connection](../../Assets/Screenshots/Fulfillment/Settings/EditConnection.png "[Edit connection]")
+![Edit connection](../../Assets/Screenshots/Fulfillment/Settings/EditConnectionCredentials.png "[Edit connection]")
 
 - ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)   
 Click this button to close the *\"Connection name\"* view and return to the connection list. All changes are rejected.
@@ -161,10 +164,7 @@ Click this button to close the *\"Connection name\"* view and return to the conn
 ![Create connection](../../Assets/Screenshots/Fulfillment/Settings/EditConnectionCredentials.png "[Create connection]")
 
 - *Driver*  
-  Click the drop-down list and select the desired driver. All configured drivers are displayed. Alternatively, select the option **more** to configure further drivers. The *Credentials* section is displayed. Depending on the driver selected, the credentials fields vary.
-
-  > [Info] When selecting the **more** option, the notice *Get more drivers from the app store* is displayed. Drivers are licensed and must be acquired via the app store. The applicable driver credentials to establish the connection are provided by the fulfiller. For detailed information, see [Create a connection](../Integration/01_ManageConnections.md#create-a-connection).
-
+  Driver name selected. This drop-down list is locked and cannot be edited.
 
 The fields displayed in the *Credentials* section vary depending on the driver selected. By default, the following fields are displayed:
 
@@ -175,7 +175,7 @@ The fields displayed in the *Credentials* section vary depending on the driver s
   Click this field to edit the password for the connection.
 
 - [SAVE]  
-  Click this button to save the connection.
+  Click this button to save any changes made.
 
 
 ### Edit connection &ndash; Settings
@@ -183,6 +183,10 @@ The fields displayed in the *Credentials* section vary depending on the driver s
 *Fulfillment > Settings > Tab CONNECTIONS > Select a connection > Tab Settings*
 
 ![Edit connection](../../Assets/Screenshots/Fulfillment/Settings/EditConnectionSettings.png "[Edit connection]")
+
+The settings can only be configured after the connection has been established. The fields displayed vary depending on the selected driver and the user's preferences.
+
+[comment]: <> (Info aus ACD-618/Channels/Integration/01b_Shopify.md)
 
 [comment]: <> (Wo werden die Settings erstellt? Hängt von Driver ab oder wovon? Arvato ja, B2BFE/Unit Test Connection nein)
 
@@ -192,6 +196,8 @@ The fields displayed in the *Credentials* section vary depending on the driver s
 - *Email list*
 - *Email type*
 - *From*
+
+[comment]: <> (Ich gehe davon aus, dass diese nur für NoE zutreffen? Standard-Felder?)
 
 - [SAVE]  
   Click this button to save any changes made.
