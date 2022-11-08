@@ -219,6 +219,7 @@ This window can also be accessed from the following tabs in the user interface:
 
 - [CONNECTIONS (Logging)](02a_Connections.md)
 - [CONNECTIONS (Settings)](03a_Connections.md)
+- [PACKAGE TYPES](03b_PackageTypes.md)
 
 ## Rename view
 
@@ -234,6 +235,12 @@ This window can also be accessed from the following tabs in the user interface:
 
 - [SAVE]   
   Click this button to save the changes and display it in the *VIEW* drop-down list. The *Rename view* window is closed.
+
+This window can also be accessed from the following tabs in the user interface:
+
+- [CONNECTIONS (Logging)](02a_Connections.md)
+- [CONNECTIONS (Settings)](03a_Connections.md)
+- [PACKAGE TYPES](03b_PackageTypes.md)
 
 
 ## Dispatch note "Dispatch note ID"
