@@ -120,7 +120,7 @@ The list displays all package types. Depending on the settings, the displayed co
 [comment]: <> (Weitere Infos benötigt)
 
 - *Zip code RegEx pattern*  
-  Zip code regular expression pattern.
+  Regular expression pattern for the ship-to zip code.
 
 
 - *Battery allowed*  
@@ -148,9 +148,9 @@ The list displays all package types. Depending on the settings, the displayed co
 
 
 - *Age verification*  
-  Indication of whether age verification is necessary or not. The following options are displayed:  
-    - **Yes**: Age verification is necessary.
-    - **No**: Age verification is not necessary.
+  Indication of whether age verification is mandatory or not. The following options are displayed:  
+    - **Yes**: Age verification is mandatory.
+    - **No**: Age verification is optional.
 
 
 ## Create view
@@ -178,7 +178,7 @@ For a detailed description of this window and the corresponding functions, see [
 ![Create view](../../Assets/Screenshots/Fulfillment/Settings/CreatePackageType.png "[Create view]")
 
 - ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)   
-  Click this button to close the *Create package type* view and return to the attributes list. All changes are rejected.
+  Click this button to close the *Create package type* view and return to the list of package types. All changes are rejected.
 
 - Language      
   Click the drop-down list and select the language in which the *Name (Language)* and *Description (Language)* fields are displayed. The following languages are available in the drop-down list:
@@ -210,64 +210,87 @@ For a detailed description of this window and the corresponding functions, see [
   Enable this toggle to set the package type status to active. Disable the toggle to set the status to inactive. By default, this toggle is disabled.
 
 - *Connection*  
-
-- *Connection ID*  
+  Click the drop-down list and select the desired connection. All available connections are displayed.
 
 
 - *Max height*  
+  Maximal height allowed for the package type.
   - *Quantity*  
+    Enter the desired value.
   - *Unit*  
+    Click the drop-down list and select the applicable unit.
 
 
 - *Max width*   
+  Maximal width allowed for the package type.
   - *Quantity*  
+    Enter the desired value.
   - *Unit*  
+    Click the drop-down list and select the applicable unit.
 
 
 - *Max weight*  
+  Maximal weight allowed for the package type.
   - *Quantity*  
+    Enter the desired value.
   - *Unit*  
+    Click the drop-down list and select the applicable unit.
 
 
 - *Max value*  
-  - *Base price*  
-  - *Current price range*  
-  - *Scale prices*  
+  If desired, the maximal monetary value allowed for the package type can be configured.
   - [ADD PRICE]
-    The *Edit price* window is displayed, see [Edit price](#edit-price).
+    Click this button to enter the base price and scale prices. The *Edit price* window is displayed, see [Edit price](#edit-price).
+  - *Base price*  
+    This field is read-only and can only be edited in the *Edit price* window.
+  - *Current price range*  
+    This field is read-only and can only be edited in the *Edit price* window.
+  - *Scale prices*  
+    This field is read-only and can only be edited in the *Edit price* window.  
 
+[comment]: <> (Stimmt das so? Check)
 
 - *Carrier*  
+  Enter the carried identifier.
+
+[comment]: <> (Wo/Wie ist diese Nummer bestimmt/konfiguriert?)
 
 - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Express*  
-  Enable this toggle to set the package type shipping method to express. Disable the toggle to set the package type shipping method to standard. By default, this toggle is disabled.  
+  Enable this toggle to set the shipping type for the package type to express. Disable the toggle to set the shipping type for the package type to standard. By default, this toggle is disabled.  
 
 - *Identifier (package type)*  
+  Enter the package type identifier.
+
+  [comment]: <> (Wo/Wie ist diese Nummer bestimmt/konfiguriert?)
 
 - *Ship-to country*  
+  Click the drop-down list and select the country where the package type is shipped to.
 
 - *Priority*  
+  Enter a number to set the priority for the package type.
 
 - *Additional services (shipping method)*  
+  Enter the additional services identifier.
+
+[comment]: <> (Wo/Wie ist diese Nummer bestimmt/konfiguriert?)
 
 - *Zip code RegEx pattern*   
+  If desired, enter a regular expression pattern for the ship-to zip code. The site https://regex101.com/ can be useful to test regular expressions.
 
 - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Battery allowed*  
-  Enable this toggle to allow batteries for this package type. Disable the toggle to not allow batteries for this package type. By default, this toggle is disabled.  
+  Enable this toggle to allow batteries for the package type. Disable the toggle to not allow batteries for the package type. By default, this toggle is disabled.  
 
 - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Shipment tracking*  
-  Enable this toggle to make shipment tracking for this package type available. Disable the toggle to not make shipment tracking for this package type available. By default, this toggle is disabled.  
+  Enable this toggle to make shipment tracking for the package type available. Disable the toggle to make shipment tracking for the package type unavailable. By default, this toggle is disabled.  
 
 - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Preorder*  
-  Enable this toggle to make preorder for this package type available. Disable the toggle to not make preorder for this package type available. By default, this toggle is disabled.  
+  Enable this toggle to make preorder for the package type available. Disable the toggle to make preorder for the package type unavailable. By default, this toggle is disabled.  
 
 - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Return*  
-  Enable this toggle to make return for this package type available. Disable the toggle to not make return for this package type available. By default, this toggle is disabled.  
+  Enable this toggle to make return for the package type available. Disable the toggle to make return for the package type unavailable. By default, this toggle is disabled.  
 
 - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Age verification*  
-
-
-- [SAVE]
+  Enable this toggle to make age verification for the package type mandatory. Disable the toggle to make age verification for the package type optional. By default, this toggle is disabled.  
 
 
 ### Edit price
@@ -278,19 +301,26 @@ For a detailed description of this window and the corresponding functions, see [
 
 **BASE PRICE CALCULATION**
 
-- *Base price*
+- *Base price*    
+  Enter a base price for the product.
+
+[comment]: <> (base price for the product contained in the package or for the package type?)
 
 **Scale prices**
 
-- *Price*
-- *From*
+- *Price*  
+  Enter a scale price.
+- *From*  
+  Enter a quantity value to scale the product price.
 
 - [ADD SCALE PRICE]   
   The *Edit scale price* window is displayed, see [Edit scale price](#edit-scale-price).
 
-- [CANCEL]
+- [CANCEL]  
+  Click this button to cancel editing a price. The *Edit price* window is closed.
 
-- [SAVE]
+- [SAVE]  
+  Click this button to save the price, close the *Edit price* window and return to the *Create package type* view.
 
 
 #### Edit scale price
@@ -302,9 +332,11 @@ For a detailed description of this window and the corresponding functions, see [
 - *Price*
 - *From*
 
-- [CANCEL]
+- [CANCEL]  
+  Click this button to cancel editing a scale price. The *Edit scale price* window is closed.
 
-- [SAVE]
+- [SAVE]  
+  Click this button to save the scale price, close the *Edit scale price* window and return to the *Edit price* window.
 
 
 ## Edit package type
@@ -312,6 +344,121 @@ For a detailed description of this window and the corresponding functions, see [
 *Fulfillment > Settings > Tab PACKAGE TYPES > Select package type*
 
 ![Edit package type](../../Assets/Screenshots/Fulfillment/Settings/EditPackageType.png "[Edit package type]")
+
+- ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)   
+  Click this button to close the *Edit package type* view and return to the list of package types. All changes are rejected.
+
+- Language      
+  Click the drop-down list and select a different language in which the *Name (Language)* and *Description (Language)* fields are displayed. The following languages are available in the drop-down list:
+    - *Deutsch (Deutschland)*  
+    - *Deutsch*
+    - *English*  
+    - *Deutsch (Österreich)*  
+    - *Deutsch (Schweiz)*
+    - *English (United States)*
+    - *French*
+    - *Spanish*
+    - *Italian*
+    - *Portuguese*
+    - *Dutch*
+    - *French (Belgium)*
+    - *French (Switzerland)*
+    - *Italian (Switzerland)*
+    - *Dutch (Belgium)*
+
+[comment]: <> (Is that right? -> language question = PIM/DataHub question, aber mehr Spachen verfügbar. Wieso?)
+
+- [SAVE]   
+  Click this button to save any changes made to the package type, close the *Edit package type* view and return to the list of package types.
+
+- *Name*  
+  Click this field to edit the package type name.
+
+- ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Active*   
+  Enable this toggle to set the package type status to active. Disable the toggle to set the status to inactive.
+
+- *Connection*  
+  Click the drop-down list and select the applicable connection. All available connections are displayed.
+
+
+- *Max height*  
+  Click these fields to edit the maximal height allowed for the package type.
+  - *Quantity*  
+    Click this field to edit the desired value.
+  - *Unit*  
+    Click the drop-down list and select the applicable unit.
+
+
+- *Max width*   
+  Click these fields to edit the maximal width allowed for the package type.
+  - *Quantity*  
+    Click this field to edit the desired value.
+  - *Unit*  
+    Click the drop-down list and select the applicable unit.
+
+
+- *Max weight*  
+  Click these fields to edit the maximal weight allowed for the package type.
+  - *Quantity*  
+    Click this field to edit the desired value.
+  - *Unit*  
+    Click the drop-down list and select the applicable unit.
+
+
+- *Max value*  
+  If desired, the maximal monetary value allowed for the package type can be edited.
+  - [ADD PRICE]
+    Click this button to edit the base price and scale prices. The *Edit price* window is displayed, see [Edit price](#edit-price).
+  - *Base price*  
+    This field is read-only and can only be edited in the *Edit price* window.
+  - *Current price range*  
+    This field is read-only and can only be edited in the *Edit price* window.
+  - *Scale prices*  
+    This field is read-only and can only be edited in the *Edit price* window.  
+
+[comment]: <> (Stimmt das so? Check)
+
+- *Carrier*  
+  Click this field to edit the carried identifier.
+
+[comment]: <> (Wo/Wie ist diese Nummer bestimmt/konfiguriert?)
+
+- ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Express*  
+  Enable this toggle to set the shipping type for the package type to express. Disable the toggle to set the shipping type for the package type to standard.   
+
+- *Identifier (package type)*  
+  Click this field to edit the package type identifier.
+
+  [comment]: <> (Wo/Wie ist diese Nummer bestimmt/konfiguriert?)
+
+- *Ship-to country*  
+  Click the drop-down list and select the country where the package type is shipped to.
+
+- *Priority*  
+  Click this field to edit the priority for the package type.
+
+- *Additional services (shipping method)*  
+  Click this field to edit the additional services identifier.
+
+[comment]: <> (Wo/Wie ist diese Nummer bestimmt/konfiguriert?)
+
+- *Zip code RegEx pattern*   
+  Click this to edit the regular expression pattern for the ship-to zip code. The site https://regex101.com/ can be useful to test regular expressions.
+
+- ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Battery allowed*  
+  Enable this toggle to allow batteries for the package type. Disable the toggle to not allow batteries for the package type.  
+
+- ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Shipment tracking*  
+  Enable this toggle to make shipment tracking for the package type available. Disable the toggle to make shipment tracking for the package type unavailable.   
+
+- ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Preorder*  
+  Enable this toggle to make preorder for the package type available. Disable the toggle to make preorder for the package type unavailable.   
+
+- ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Return*  
+  Enable this toggle to make return for the package type available. Disable the toggle to make return for the package type unavailable.   
+
+- ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Age verification*  
+  Enable this toggle to make age verification for the package type mandatory. Disable the toggle to make age verification for the package type optional.   
 
 
 ### Edit price
