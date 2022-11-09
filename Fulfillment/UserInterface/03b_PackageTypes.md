@@ -79,6 +79,11 @@ The list displays all package types. Depending on the settings, the displayed co
 - *Connection ID*  
   Connection identification number. The ID number is automatically assigned by the system.
 
+- *Attribute*    
+  You can add a column for each attribute that is assigned to the package type. The column displays the attribute name, the row displays the corresponding attribute value of the product.
+
+[comment]: <> (Check mit Stefan, welche Attribute standard sind und welche kundenspezifisch!)
+
 - *Max height*  
   Maximal height configured for the package type.
 
@@ -180,12 +185,11 @@ For a detailed description of this window and the corresponding functions, see [
 - ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)   
   Click this button to close the *Create package type* view and return to the list of package types. All changes are rejected.
 
-- Actindo Basic  
-  Click the drop-down list and select ...
+- *Channel*  
+  Click the drop-down list to select the channel. All available channels are displayed in the drop-down list. By default, the Actindo Basic channel is preselected.
 
-[comment]: <> (Nicht in NoE test account, nur in Sandbox. Was ist das?)
-
-- Language      
+[comment]: <> (Nicht in NoE, in Sandbox. Stimmt das so?)
+- *Language*      
   Click the drop-down list and select the language in which the fields are displayed. All available languages are displayed.
 
 [comment]: <> (Is that right? -> language question = PIM/DataHub question, aber mehr Spachen verfügbar. Wieso? In meinem Sandbox, nur Englisch und Deutsch. Standard Optionen?)
@@ -341,12 +345,12 @@ For a detailed description of this window and the corresponding functions, see [
 - ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)   
   Click this button to close the *Edit package type* view and return to the list of package types. All changes are rejected.
 
-- Actindo Basic  
-  Click the drop-down list and select ...
+- *Channel*  
+  Click the drop-down list to select the channel. All available  are displayed in the drop-down list. By default, the Actindo Basic channel is preselected.
 
-[comment]: <> (Nicht in NoE test account, nur in Sandbox. Was ist das?)
+[comment]: <> (Nicht in NoE test account, nur in Sandbox. Stimmt das so?)
 
-- Language      
+- *Language*      
   Click the drop-down list and select a different language in which the fields are displayed. All available languages are displayed.
 
 [comment]: <> (Is that right? -> language question = PIM/DataHub question, aber mehr Spachen verfügbar. Wieso? In Sandbox nur Englisch und Deutsch. Standard?)
