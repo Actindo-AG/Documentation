@@ -39,10 +39,10 @@
 
 
 - ![Search](../../Assets/Icons/Search.png "[Search]") (Search)   
-  Click this button to display the search bar and search for event logs.
+  Click this button to display the search bar and search for package types.
 
 - ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh)   
-  Click this button to update the list of an event logs.
+  Click this button to update the list of package types.
 
 - ![Columns](../../Assets/Icons/Columns.png "[Columns]") Columns (x)   
   Click this button to display the columns bar and customize the displayed columns and the order of columns in the list. The *x* indicates the number of columns that are currently displayed in the list.
@@ -54,7 +54,7 @@
   Select the checkbox to display the editing toolbar.
 
 - [EDIT]  
-  Click this button to edit the selected package type. This button is only displayed if the checkbox of a package type is selected. Alternatively, you can click directly a row in the list to view an event log. The *List of messages* view is displayed.
+  Click this button to edit the selected package type. This button is only displayed if the checkbox of a package type is selected. Alternatively, you can click directly a row in the list to view a package type. The *Edit package types* view is displayed.
 
 - [DELETE]  
   Click this button to delete one or several selected package types.
@@ -70,7 +70,7 @@ The list displays all package types. Depending on the settings, the displayed co
 - *Active*  
   Package type status. The following statuses are displayed:
   - ![Status](../../Assets/Icons/Check.png "[Status]") (Checkmark): The package type is active.
-  - ![Status](../../Assets/Icons/Cross02.png "[Status]") (Cross): the package type is inactive.
+  - ![Status](../../Assets/Icons/Cross02.png "[Status]") (Cross): The package type is inactive.
 
 
 - *Connection*  
@@ -106,7 +106,7 @@ The list displays all package types. Depending on the settings, the displayed co
 
 [comment]: <> (Weitere Infos benötigt)
 
-- *Ship to country*  
+- *Ship-to country*  
   Country where the package type is shipped to.
 
 - *Priority*  
@@ -142,7 +142,7 @@ The list displays all package types. Depending on the settings, the displayed co
 
 
 - *Return*  
-  Indication of whether shipment is available or not. The following options are displayed:  
+  Indication of whether return is available or not. The following options are displayed:  
     - **Yes**: Return is available.
     - **No**: Return is not available.
 
@@ -180,25 +180,15 @@ For a detailed description of this window and the corresponding functions, see [
 - ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)   
   Click this button to close the *Create package type* view and return to the list of package types. All changes are rejected.
 
-- Language      
-  Click the drop-down list and select the language in which the *Name (Language)* and *Description (Language)* fields are displayed. The following languages are available in the drop-down list:
-    - *Deutsch (Deutschland)*  
-    - *Deutsch*
-    - *English*  
-    - *Deutsch (Österreich)*  
-    - *Deutsch (Schweiz)*
-    - *English (United States)*
-    - *French*
-    - *Spanish*
-    - *Italian*
-    - *Portuguese*
-    - *Dutch*
-    - *French (Belgium)*
-    - *French (Switzerland)*
-    - *Italian (Switzerland)*
-    - *Dutch (Belgium)*
+- Actindo Basic  
+  Click the drop-down list and select ...
 
-[comment]: <> (Is that right? -> language question = PIM/DataHub question, aber mehr Spachen verfügbar. Wieso?)
+[comment]: <> (Nicht in NoE test account, nur in Sandbox. Was ist das?)
+
+- Language      
+  Click the drop-down list and select the language in which the fields are displayed. All available languages are displayed.
+
+[comment]: <> (Is that right? -> language question = PIM/DataHub question, aber mehr Spachen verfügbar. Wieso? In meinem Sandbox, nur Englisch und Deutsch. Standard Optionen?)
 
 - [SAVE]   
   Click this button to save the package type, close the *Create package type* view and return to the list of package types.
@@ -239,16 +229,16 @@ For a detailed description of this window and the corresponding functions, see [
 
 - *Max value*  
   If desired, the maximal monetary value allowed for the package type can be configured.
-  - [ADD PRICE]
+  - [ADD PRICE]  
     Click this button to enter the base price and scale prices. The *Edit price* window is displayed, see [Edit price](#edit-price).
   - *Base price*  
-    This field is read-only and can only be edited in the *Edit price* window.
+    Base price defined for the product. This field is read-only and can only be edited in the *Edit price* window.
   - *Current price range*  
-    This field is read-only and can only be edited in the *Edit price* window.
+    Price range defined for the product. This field is read-only and can only be edited in the *Edit price* window.
   - *Scale prices*  
-    This field is read-only and can only be edited in the *Edit price* window.  
+    Scale prices defined for the product. This field is read-only and can only be edited in the *Edit price* window.  
 
-[comment]: <> (Stimmt das so? Check)
+[comment]: <> (Stimmt das so? Check -> Button SAVE funktioniert nicht. Bug in OneNote. S. Termfrage auch: scale price oder scaled price vs. price scale?)
 
 - *Carrier*  
   Enter the carried identifier.
@@ -329,8 +319,11 @@ For a detailed description of this window and the corresponding functions, see [
 
 ![Edit scale price](../../Assets/Screenshots/Fulfillment/Settings/EditScalePrice.png "[Edit scale price]")
 
-- *Price*
-- *From*
+- *Price*  
+  Enter a price value.
+- *From*  
+  Enter a quantity value to scale the product price.
+
 
 - [CANCEL]  
   Click this button to cancel editing a scale price. The *Edit scale price* window is closed.
@@ -348,25 +341,15 @@ For a detailed description of this window and the corresponding functions, see [
 - ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)   
   Click this button to close the *Edit package type* view and return to the list of package types. All changes are rejected.
 
-- Language      
-  Click the drop-down list and select a different language in which the *Name (Language)* and *Description (Language)* fields are displayed. The following languages are available in the drop-down list:
-    - *Deutsch (Deutschland)*  
-    - *Deutsch*
-    - *English*  
-    - *Deutsch (Österreich)*  
-    - *Deutsch (Schweiz)*
-    - *English (United States)*
-    - *French*
-    - *Spanish*
-    - *Italian*
-    - *Portuguese*
-    - *Dutch*
-    - *French (Belgium)*
-    - *French (Switzerland)*
-    - *Italian (Switzerland)*
-    - *Dutch (Belgium)*
+- Actindo Basic  
+  Click the drop-down list and select ...
 
-[comment]: <> (Is that right? -> language question = PIM/DataHub question, aber mehr Spachen verfügbar. Wieso?)
+[comment]: <> (Nicht in NoE test account, nur in Sandbox. Was ist das?)
+
+- Language      
+  Click the drop-down list and select a different language in which the fields are displayed. All available languages are displayed.
+
+[comment]: <> (Is that right? -> language question = PIM/DataHub question, aber mehr Spachen verfügbar. Wieso? In Sandbox nur Englisch und Deutsch. Standard?)
 
 - [SAVE]   
   Click this button to save any changes made to the package type, close the *Edit package type* view and return to the list of package types.
@@ -407,14 +390,14 @@ For a detailed description of this window and the corresponding functions, see [
 
 - *Max value*  
   If desired, the maximal monetary value allowed for the package type can be edited.
-  - [ADD PRICE]
-    Click this button to edit the base price and scale prices. The *Edit price* window is displayed, see [Edit price](#edit-price).
+  - [ADD PRICE]  
+    Click this button to edit the base price and scale prices. The *Edit price* window is displayed, see [Edit price](#edit-price_1).
   - *Base price*  
-    This field is read-only and can only be edited in the *Edit price* window.
+    Base price defined for the product. This field is read-only and can only be edited in the *Edit price* window.
   - *Current price range*  
-    This field is read-only and can only be edited in the *Edit price* window.
+    Price range defined for the product. This field is read-only and can only be edited in the *Edit price* window.
   - *Scale prices*  
-    This field is read-only and can only be edited in the *Edit price* window.  
+    Scale prices defined for the product. This field is read-only and can only be edited in the *Edit price* window.  
 
 [comment]: <> (Stimmt das so? Check)
 
@@ -467,7 +450,9 @@ For a detailed description of this window and the corresponding functions, see [
 
 ![Edit price](../../Assets/Screenshots/Fulfillment/Settings/EditPrice02.png "[Edit price]")
 
-[comment]: <> (Verweis auf Abschnitt unter Create packate type?)
+For a detailed description of this window and the corresponding functions, see [Edit price](#edit-price).
+
+[comment]: <> (Verweis auf Abschnitt unter Create package type oder wiederholen?)
 
 #### Edit scale price
 
@@ -475,5 +460,6 @@ For a detailed description of this window and the corresponding functions, see [
 
 ![Edit scale price](../../Assets/Screenshots/Fulfillment/Settings/EditScalePrice.png "[Edit scale price]")
 
+For a detailed description of this window and the corresponding functions, see [Edit scale price](#create-scale-price).
 
-[comment]: <> (Verweis auf Abschnitt unter Create packate type?)
+[comment]: <> (Verweis auf Abschnitt unter Create packate type oder wiederholen?)
