@@ -4,7 +4,7 @@
 
 ![Dispatch notes](../../Assets/Screenshots/Fulfillment/DispatchNotes/DispatchNotes.png "[Dispatch notes]")
 
-**Dispatch Notes**
+**Dispatch notes**
 
 - *VIEW*  
   Click the drop-down list to select the view. All created views are displayed in the drop-down list. Click the ![Points](../../Assets/Icons/Points01.png "[Points]") (Points) button to the right of the *VIEW* drop-down list to display the context menu and create a view. For detailed information, see [Create view](#create-view).
@@ -54,10 +54,11 @@
   - **Void**  
   Select this option to display all void dispatch notes.
 
+[comment]: <> (Standard?)
 
 - Connections  
   Click the drop-down list and select a connection. The following options are available:
-  - *All connections*  
+  - **All connections**  
   Select this option to display all configured connections.
   - **Connection name**  
   Select this option to display the dispatch notes corresponding to the selected connection.
@@ -79,9 +80,9 @@
   Select the checkbox to display the editing toolbar. If you click the checkbox in the header, all dispatch notes in the list are selected.
 
 - [VIEW]  
-  Click this button to edit the selected dispatch note. This button is only displayed if the checkbox of a dispatch note is selected. Alternatively, you can click directly a row in the list to view a dispatch note. The *Dispatch note "Number"* view is displayed. The *Attributes* tab is preselected.
+  Click this button to edit the selected dispatch note. This button is only displayed if the checkbox of a dispatch note is selected. Alternatively, you can click directly a row in the list to view a dispatch note. The *Dispatch note "ID"* view is displayed. The *Attributes* tab is preselected.
 
-[comment]: <> (Alternativ: This button is only displayed if a single checkbox of the list is selected.)  
+[comment]: <> (Abweichungen Noe / Sandbox: Dispatch note ID vs. Dispatch Notes from connect XYZ)  
 
 - [EXPORT]  
   Click this button to export manually the dispatch note to the fulfiller. This button is displayed if the checkbox of at least one dispatch note is selected.
@@ -91,10 +92,12 @@
 - [FORCE COMPLETION]  
 Click this button to complete the dispatch note. This button is displayed if the checkbox of at least one dispatch note is selected.
 
+[comment]: <> (Nicht Standard/im Sandbox)
+
 - [CANCEL]  
+
 [comment]: <> (Bei Hannah kommt dieses Button vor, s. JIRA ticket für Screenshot)
 
-[comment]: <> (Test, mehr Info dazu)
 
 The list displays all dispatch notes. Depending on the settings, the displayed columns may vary. All fields are read-only.
 
@@ -125,7 +128,7 @@ The list displays all dispatch notes. Depending on the settings, the displayed c
 - *Shipment information*  
   Additional shipment information.
 
-[comment]: <> (S. Shipment status -> kundenspezifisch oder Standard. In meinem Sandbox nichts angezeigt in Shipment information.)
+[comment]: <> (NoE Shipment status -> kundenspezifisch vs. Standard?)
 
 - *Carrier*  
   Carrier identification number.
@@ -151,16 +154,16 @@ The list displays all dispatch notes. Depending on the settings, the displayed c
 
 - *Shipment status*  
   Status of shipment associated with the dispatch note. The following options are available:
-  - ![Filter](../../Assets/Icons/Cross02.png "[Cross]") (Cross)   
+  - ![Cross](../../Assets/Icons/Cross02.png "[Cross]") (Cross)   
     No shipment yet. The associated dispatch note is new or has just been transferred to the fulfiller.
 
-  - ![Filter](../../Assets/Icons/CircularArrows.png "[Circular arrows]") (Circular arrows)   
-    Waiting for shipment/Shipped/New Shipment. The fullfiller has confirmed receival of the dispatch note and the shipment will be arranged shortly.   
+  - ![Circular arrows](../../Assets/Icons/CircularArrows.png "[Circular arrows]") (Circular arrows)   
+    Waiting for shipment/Shipped/New Shipment. The fulfiller has confirmed receival of the dispatch note and the shipment will be arranged shortly.   
 
-  - ![Filter](../../Assets/Icons/DoubleCheck.png "[Double check]") (Double check)    
+  - ![Double check](../../Assets/Icons/DoubleCheck.png "[Double check]") (Double check)    
   	Delivered. The shipment has been delivered.
 
-  - ![Filter](../../Assets/Icons/Warning02.png "[Error]") (Warning)    
+  - ![Error](../../Assets/Icons/Warning02.png "[Error]") (Error)    
     Error. The shipment has produced an error.
 
   - Empty  
@@ -171,6 +174,8 @@ The list displays all dispatch notes. Depending on the settings, the displayed c
 - *Description*  
   Dispatch note description as defined by the user. Numbers, letters or a combination of characters may be used. The information provided in this field can be entered in the search bar to search for a specific dispatch note.
 
+[comment]: <> (Nicht Standard/im Sandbox)
+
 - *Shipping type*  
   Type of shipment. The following options are available:  
     - **STND**  
@@ -180,6 +185,7 @@ The list displays all dispatch notes. Depending on the settings, the displayed c
 
   > [Info] The shipping type can be set up in the *PACKAGE TYPES* tab in the *Settings* menu entry, see [Package types](./03b_PackageTypes.md).
 
+[comment]: <> (Nicht Standard/im Sandbox)
 
 - *Shipping method*  
   Shipping method identification number.
@@ -197,7 +203,7 @@ The list displays all dispatch notes. Depending on the settings, the displayed c
 
 [comment]: <> (Check!)     
 
-[comment]: <> (Abweichungen zwischen meinem Sandbox und NoE test account - Standard vs. kundenspezifisch? RS S. Walke)
+[comment]: <> (Ab Shipment status nicht in Sandbox. Abweichungen zwischen meinem Sandbox und NoE test account - Standard vs. kundenspezifisch?)
 
 
 ## Create view
@@ -217,9 +223,9 @@ The list displays all dispatch notes. Depending on the settings, the displayed c
 
 This window can also be accessed from the following tabs in the user interface:
 
-- [CONNECTIONS (Logging)](02a_Connections.md)
-- [CONNECTIONS (Settings)](03a_Connections.md)
-- [PACKAGE TYPES](03b_PackageTypes.md)
+- [CONNECTIONS (Logging)](02a_Connections.md#create-view)
+- [CONNECTIONS (Settings)](03a_Connections.md#create-view)
+- [PACKAGE TYPES](03b_PackageTypes.md#create-view)
 
 ## Rename view
 
@@ -238,9 +244,9 @@ This window can also be accessed from the following tabs in the user interface:
 
 This window can also be accessed from the following tabs in the user interface:
 
-- [CONNECTIONS (Logging)](02a_Connections.md)
-- [CONNECTIONS (Settings)](03a_Connections.md)
-- [PACKAGE TYPES](03b_PackageTypes.md)
+- [CONNECTIONS (Logging)](02a_Connections.md#rename-view)
+- [CONNECTIONS (Settings)](03a_Connections.md#rename-view)
+- [PACKAGE TYPES](03b_PackageTypes.md#rename-view)
 
 
 ## Dispatch note "Dispatch note ID"
@@ -267,11 +273,15 @@ This window can also be accessed from the following tabs in the user interface:
 
 ![Attributes](../../Assets/Screenshots/Fulfillment/DispatchNotes/DispatchNoteAttributes.png "[Attributes]")
 
-In the left margin column, all available attribute groups are displayed. Click a group to display the attributes that are assigned to this group on the right side of the *Attributes* tab. If the product contains attributes that are unassigned, the *Unassigned Group* group is automatically displayed in the left margin column.
+In the left margin column, all available attribute groups are displayed. Click a group to display the attributes that are assigned to this group on the right side of the *Attributes* tab. If the dispatch note contains attributes that are unassigned, the *Unassigned Group* group is automatically displayed in the left margin column.
 
-The right side of the *Attributes* tab displays all attributes that are assigned to the selected group in the left margin column. Depending on the attribute group selected, the fields displayed vary. All fields are locked and, therefore, read-only.
+The right side of the *Attributes* tab displays all attributes that are assigned to the selected group in the left margin column. Depending on the attribute group selected, the fields displayed vary. The dispatch note attributes are imported via the fulfiller driver. All fields are locked and, therefore, read-only.
+
+[comment]: <> (Stimmt das so?)
 
 The attributes assigned to each group can be managed and customized in the *DataHub* module. For detailed information, see [Attribute groups](../../../DataHub/UserInterface/02c_AttributeGroups.md).
+
+[comment]: <> (Wenn die importiert werden, macht das hier wahrscheinlich keinen Sinn!)
 
 - ![Folders](../../Assets/Icons/Folders01.png "[Folders]") (Folders)  
   Attribute group that contains attribute sub-groups. Click the attribute group or the arrow *>* left to the attribute group to unfold the group and display the attribute sub-groups.
@@ -293,7 +303,7 @@ The attributes assigned to each group can be managed and customized in the *Data
 
 This tab has no function in the *Fulfillment* module, since dispatch notes have no dependent entities. The notice *No other entities depend on this entity* is displayed.
 
-[comment]: <> (No function at all? Fliegt evtl. raus? RS SW)
+[comment]: <> (No function at all? Fliegt evtl. raus?)
 
 
 ## Dispatch note "Dispatch note ID" &ndash; Shipments
@@ -301,6 +311,9 @@ This tab has no function in the *Fulfillment* module, since dispatch notes have 
 *Fulfillment > Dispatch notes > Tab LIST > Select a dispatch note > Tab Shipments*
 
 ![Shipments](../../Assets/Screenshots/Fulfillment/DispatchNotes/DispatchNoteShipments.png "[Shipments]")
+
+[comment]: <> (Shipment nicht im Sandbox trotz Status Dispatch note completed. Wieso? Unten beschriebene Felder aus NoE Test-Account. Was ist Standard?)
+
 
 - ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh)   
   Click this button to update the list of dispatch notes.
@@ -378,13 +391,17 @@ This tab has no function in the *Fulfillment* module, since dispatch notes have 
 - [BACK]
   Click this button to go back to the previous step. The *Shipments* view is displayed.
 
-### Attributes &ndash; Attributes
+#### Shipment attributes &ndash; Attributes
 
-In the left margin column, all available attribute groups are displayed. Click a group to display the attributes that are assigned to this group on the right side of the *Attributes* tab. If the product contains attributes that are unassigned, the *Unassigned Group* group is automatically displayed in the left margin column.
+In the left margin column, all available attribute groups are displayed. Click a group to display the attributes that are assigned to this group on the right side of the *Attributes* tab. If the shipment contains attributes that are unassigned, the *Unassigned Group* group is automatically displayed in the left margin column.
 
 The right side of the *Attributes* tab displays all attributes that are assigned to the selected group in the left margin column. Depending on the attribute group selected, the fields displayed vary. All fields are locked and, therefore, read-only.
 
+[comment]: <> (Vgl. The dispatch note attributes are imported via the fulfiller driver. -> Vermutlich Shipment info auch vom Fulfiller via Driver geschickt?)
+
 The attributes assigned to each group can be managed and customized in the *DataHub* module. For detailed information, see [Attribute groups](../../../DataHub/UserInterface/02c_AttributeGroups.md).
+
+[comment]: <> (Wenn vom Fulfiller geschickt, macht das hier Sinn?)
 
 - ![Folders](../../Assets/Icons/Folders01.png "[Folders]") (Folders)  
   Attribute group that contains attribute sub-groups. Click the attribute group or the arrow *>* left to the attribute group to unfold the group and display the attribute sub-groups.
@@ -397,7 +414,7 @@ The attributes assigned to each group can be managed and customized in the *Data
 - ![Fade in/out](../../Assets/Icons/FadeInOut01.png "[Fade in/out]") (Fade in/out)    
   Click this button to hide or display the left margin column with the attribute groups. When the left margin is displayed and you click this button, the column is hidden. When the column is hidden and you click this button, the column is displayed again.
 
-### Attributes &ndash; Dependencies
+#### Shipment attributes &ndash; Dependencies
 
 This tab has no function in the *Fulfillment* module, since dispatch notes have no dependent entities. The notice *No other entities depend on this entity* is displayed.
 
@@ -429,6 +446,7 @@ The list displays all packages contained in the selected shipment. Depending on 
   Package identification number.
 
 - *Proof of delivery*  
+
   [comment]: <> (Proof of delivery required?)
 
 - *ID*  
