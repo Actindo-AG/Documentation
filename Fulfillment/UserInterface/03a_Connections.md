@@ -186,20 +186,9 @@ The fields displayed in the *Credentials* section vary depending on the driver s
 
 ![Edit connection](../../Assets/Screenshots/Fulfillment/Settings/EditConnectionSettings.png "[Edit connection]")
 
-The settings can only be configured after the connection has been established. The fields displayed vary depending on the selected driver and the user's preferences.
+The settings can only be configured after the connection has been established. The fields displayed vary depending on the driver installed.
 
-[comment]: <> (Info aus ACD-618/Channels/Integration/01b_Shopify.md)
-
-[comment]: <> (Wo werden die Settings erstellt? Hängt von Driver ab oder wovon? Arvato ja, B2BFE/Unit Test Connection nein. In meinem Sandbox, There are no settings available.)
-
-**STOCK UPDATE**
-
-- *Email type*
-- *Email list*
-- *Email type*
-- *From*
-
-[comment]: <> (Ich gehe davon aus, dass diese nur für NoE zutreffen? Standard-Felder?)
+[comment]: <> (Settings werden via Treiber importiert/installiert. Also, einige Connections haben keine Settings, z.B. Arvato ja, B2BFE/Unit Test Connection nein. In meinem Sandbox, There are no settings available. Wenn Treiber installiert, dann erst können ggf. Settings angepasst werden, z.B. wie bei NoE. Stimmt das so?)
 
 - [SAVE]  
   Click this button to save any changes made.
