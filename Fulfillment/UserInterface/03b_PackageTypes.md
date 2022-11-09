@@ -72,6 +72,7 @@ The list displays all package types. Depending on the settings, the displayed co
   - ![Status](../../Assets/Icons/Check.png "[Status]") (Checkmark): The package type is active.
   - ![Status](../../Assets/Icons/Cross02.png "[Status]") (Cross): The package type is inactive.
 
+[comment]: <> (Nicht standard)
 
 - *Connection*  
   Connection name.
@@ -106,10 +107,10 @@ The list displays all package types. Depending on the settings, the displayed co
     - **No**: Standard shipping type
 
 
-- *Identifier (package type)*  
+- *Package type identifier*  
   Package type identifier.
 
-[comment]: <> (Weitere Infos benötigt)
+[comment]: <> (Weitere Infos?)
 
 - *Ship-to country*  
   Country where the package type is shipped to.
@@ -127,6 +128,7 @@ The list displays all package types. Depending on the settings, the displayed co
 - *Zip code RegEx pattern*  
   Regular expression pattern for the ship-to zip code.
 
+[comment]: <> (Nicht standard)
 
 - *Battery allowed*  
   Indication of whether battery is allowed or not. The following options are displayed:  
@@ -156,6 +158,8 @@ The list displays all package types. Depending on the settings, the displayed co
   Indication of whether age verification is mandatory or not. The following options are displayed:  
     - **Yes**: Age verification is mandatory.
     - **No**: Age verification is optional.
+
+[comment]: <> (Alles 5 toggles nicht standard)
 
 
 ## Create view
@@ -189,10 +193,11 @@ For a detailed description of this window and the corresponding functions, see [
   Click the drop-down list to select the channel. All available channels are displayed in the drop-down list. By default, the Actindo Basic channel is preselected.
 
 [comment]: <> (Nicht in NoE, in Sandbox. Stimmt das so?)
-- *Language*      
-  Click the drop-down list and select the language in which the fields are displayed. All available languages are displayed.
 
-[comment]: <> (Is that right? -> language question = PIM/DataHub question, aber mehr Spachen verfügbar. Wieso? In meinem Sandbox, nur Englisch und Deutsch. Standard Optionen?)
+- *Language*      
+  Click the drop-down list and select the language in which the fields are displayed. All available languages are displayed. By default, the language set up in the system is preselected.
+
+[comment]: <> (Is that right? Sprachen, die in DataHub eingestellt/aktiv sind? In meinem Sandbox, nur Englisch und Deutsch. Standard Optionen?)
 
 - [SAVE]   
   Click this button to save the package type, close the *Create package type* view and return to the list of package types.
@@ -203,9 +208,12 @@ For a detailed description of this window and the corresponding functions, see [
 - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Active*   
   Enable this toggle to set the package type status to active. Disable the toggle to set the status to inactive. By default, this toggle is disabled.
 
+[comment]: <> (Nicht standard/im Sandbox)
+
 - *Connection*  
   Click the drop-down list and select the desired connection. All available connections are displayed.
 
+[comment]: <> (Im Sandbox ganz unten)
 
 - *Max height*  
   Maximal height allowed for the package type.
@@ -240,7 +248,11 @@ For a detailed description of this window and the corresponding functions, see [
   - *Current price range*  
     Price range defined for the product. This field is read-only and can only be edited in the *Edit price* window.
   - *Scale prices*  
-    Scale prices defined for the product. This field is read-only and can only be edited in the *Edit price* window.  
+    Scale prices defined for the product. This field is read-only and can only be edited in the *Edit price* window.
+  - ![Edit](../../Assets/Icons/Edit02.png "[Edit]") (Edit)  
+  Click this button to edit a configured price. This button is displayed when hovering the mouse over a configured price.
+  - ![Delete](../../Assets/Icons/Trash01.png "[Delete]") (Delete)  
+  Click this button to deleted the configured price. This button is displayed when hovering the mouse over a configured price.
 
 [comment]: <> (Stimmt das so? Check -> Button SAVE funktioniert nicht. Bug in OneNote. S. Termfrage auch: scale price oder scaled price vs. price scale?)
 
@@ -252,7 +264,7 @@ For a detailed description of this window and the corresponding functions, see [
 - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Express*  
   Enable this toggle to set the shipping type for the package type to express. Disable the toggle to set the shipping type for the package type to standard. By default, this toggle is disabled.  
 
-- *Identifier (package type)*  
+- *Package type identifier*  
   Enter the package type identifier.
 
   [comment]: <> (Wo/Wie ist diese Nummer bestimmt/konfiguriert?)
@@ -271,6 +283,8 @@ For a detailed description of this window and the corresponding functions, see [
 - *Zip code RegEx pattern*   
   If desired, enter a regular expression pattern for the ship-to zip code. The site https://regex101.com/ can be useful to test regular expressions.
 
+[comment]: <> (Nicht standard/im Sandbox)
+
 - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Battery allowed*  
   Enable this toggle to allow batteries for the package type. Disable the toggle to not allow batteries for the package type. By default, this toggle is disabled.  
 
@@ -285,6 +299,8 @@ For a detailed description of this window and the corresponding functions, see [
 
 - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Age verification*  
   Enable this toggle to make age verification for the package type mandatory. Disable the toggle to make age verification for the package type optional. By default, this toggle is disabled.  
+
+[comment]: <> (Toggles nicht standard/im Sandbox)
 
 
 ### Edit price
@@ -303,9 +319,9 @@ For a detailed description of this window and the corresponding functions, see [
 **Scale prices**
 
 - *Price*  
-  Enter a scale price.
+  Scale price defined for the product. This field is read-only and can only be edited in the *Edit scale price* window.
 - *From*  
-  Enter a quantity value to scale the product price.
+  Quantity value applicable to scale price. This field is read-only and can only be edited in the *Edit scale price* window.
 
 - [ADD SCALE PRICE]   
   The *Edit scale price* window is displayed, see [Edit scale price](#edit-scale-price).
@@ -326,7 +342,7 @@ For a detailed description of this window and the corresponding functions, see [
 - *Price*  
   Enter a price value.
 - *From*  
-  Enter a quantity value to scale the product price.
+  Enter a quantity value applicable to scale price.
 
 
 - [CANCEL]  
@@ -351,7 +367,7 @@ For a detailed description of this window and the corresponding functions, see [
 [comment]: <> (Nicht in NoE test account, nur in Sandbox. Stimmt das so?)
 
 - *Language*      
-  Click the drop-down list and select a different language in which the fields are displayed. All available languages are displayed.
+  Click the drop-down list and select a different language in which the fields are displayed. All available languages are displayed. By default, the language set up in the system is preselected.  
 
 [comment]: <> (Is that right? -> language question = PIM/DataHub question, aber mehr Spachen verfügbar. Wieso? In Sandbox nur Englisch und Deutsch. Standard?)
 
@@ -364,9 +380,12 @@ For a detailed description of this window and the corresponding functions, see [
 - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Active*   
   Enable this toggle to set the package type status to active. Disable the toggle to set the status to inactive.
 
+[comment]: <> (nicht standard/im Sandbox)
+
 - *Connection*  
   Click the drop-down list and select the applicable connection. All available connections are displayed.
 
+[comment]: <> (im Sandbox ganz unten)
 
 - *Max height*  
   Click these fields to edit the maximal height allowed for the package type.
@@ -399,10 +418,14 @@ For a detailed description of this window and the corresponding functions, see [
   - *Base price*  
     Base price defined for the product. This field is read-only and can only be edited in the *Edit price* window.
   - *Current price range*  
-    Price range defined for the product. This field is read-only and can only be edited in the *Edit price* window.
-  - *Scale prices*  
-    Scale prices defined for the product. This field is read-only and can only be edited in the *Edit price* window.  
-
+    Price range defined for the product. This field changes automatically when the scale prices are edited in the *Edit price* window.
+  - *No. scale prices*  
+    Number of scale prices defined for the product. This field is read-only and can only be edited in the *Edit price* window.  
+  - ![Edit](../../Assets/Icons/Edit02.png "[Edit]") (Edit)  
+  Click this button to edit a configured price. This button is displayed when hovering the mouse over a configured price.
+  - ![Delete](../../Assets/Icons/Trash01.png "[Delete]") (Delete)  
+  Click this button to deleted the configured price. This button is displayed when hovering the mouse over a configured price.
+  
 [comment]: <> (Stimmt das so? Check)
 
 - *Carrier*  
@@ -413,7 +436,7 @@ For a detailed description of this window and the corresponding functions, see [
 - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Express*  
   Enable this toggle to set the shipping type for the package type to express. Disable the toggle to set the shipping type for the package type to standard.   
 
-- *Identifier (package type)*  
+- *Package type identifier*  
   Click this field to edit the package type identifier.
 
   [comment]: <> (Wo/Wie ist diese Nummer bestimmt/konfiguriert?)
@@ -432,6 +455,8 @@ For a detailed description of this window and the corresponding functions, see [
 - *Zip code RegEx pattern*   
   Click this to edit the regular expression pattern for the ship-to zip code. The site https://regex101.com/ can be useful to test regular expressions.
 
+[comment]: <> (nicht standard/im Sandbox)
+
 - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Battery allowed*  
   Enable this toggle to allow batteries for the package type. Disable the toggle to not allow batteries for the package type.  
 
@@ -446,6 +471,8 @@ For a detailed description of this window and the corresponding functions, see [
 
 - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Age verification*  
   Enable this toggle to make age verification for the package type mandatory. Disable the toggle to make age verification for the package type optional.   
+
+[comment]: <> (Toggles nicht standard/im Sandbox)
 
 
 ### Edit price
