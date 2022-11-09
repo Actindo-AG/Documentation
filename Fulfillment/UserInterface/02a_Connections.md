@@ -4,6 +4,8 @@
 
 ![List of intents](../../Assets/Screenshots/Fulfillment/Logging/ListIntents.png "[List of intents]")
 
+[comment]: <> (Nichts angezeigt im Sandbox. Alle beschriebenen Felder aus NoE test account. Was ist standard und was kundenspezifisch?)
+
 **List of intents**
 
 - *VIEW*  
@@ -201,7 +203,7 @@ The *Attributes* tab displays further details of the selected log message. Depen
 
 By default, the following fields are displayed:
 
-[comment]: <> (Felder ändern sich abhängig von Title - vgl. NotFoundException und updateDeliveryStatus?)
+[comment]: <> (Felder ändern sich abhängig von Title - vgl. NotFoundException und updateDeliveryStatus? Vermutlich abhängig von Attributes, also Standardsatz dazu und keine Felder? Oder gibt es Standardfelder?)
 
 - *Code*  
   Code number.  
