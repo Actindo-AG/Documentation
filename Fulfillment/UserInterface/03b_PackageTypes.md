@@ -425,7 +425,7 @@ For a detailed description of this window and the corresponding functions, see [
   Click this button to edit a configured price. This button is displayed when hovering the mouse over a configured price.
   - ![Delete](../../Assets/Icons/Trash01.png "[Delete]") (Delete)  
   Click this button to deleted the configured price. This button is displayed when hovering the mouse over a configured price.
-  
+
 [comment]: <> (Stimmt das so? Check)
 
 - *Carrier*  
@@ -491,6 +491,6 @@ For a detailed description of this window and the corresponding functions, see [
 
 ![Edit scale price](../../Assets/Screenshots/Fulfillment/Settings/EditScalePrice.png "[Edit scale price]")
 
-For a detailed description of this window and the corresponding functions, see [Edit scale price](#create-scale-price).
+For a detailed description of this window and the corresponding functions, see [Edit scale price](#edit-scale-price).
 
 [comment]: <> (Verweis auf Abschnitt unter Create packate type oder wiederholen?)
