@@ -259,10 +259,10 @@ This window can also be accessed from the following tabs in the user interface:
 **Dispatch note "Dispatch note ID"**
 
 - ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)   
-  Click this button to close the *Dispatch note "Dispatch note ID"* view and return to the dispatch note list.
+  Click this button to close the *Dispatch note "Dispatch note ID"* view and return to the list of dispatch notes.
 
 - [CLOSE]  
-  Click this button to close the *Dispatch note "Dispatch note ID"* view. The dispatch note list is displayed.
+  Click this button to close the *Dispatch note "Dispatch note ID"* view. The list of dispatch notes is displayed.
 
 [comment]: <> (Beide Buttons tun das gleiche. All changes are rejected macht hier keinen Sinn, da keine Änderungen möglich)
 
@@ -318,7 +318,7 @@ This tab has no function in the *Fulfillment* module, since dispatch notes have 
 - ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh)   
   Click this button to update the list of dispatch notes.
 
-- ![Columns](../../Assets/Icons/Columns.png "[Columns]")  Columns (x)   
+- ![Columns](../../Assets/Icons/Columns.png "[Columns]") Columns (x)   
   Click this button to display the columns bar and customize the displayed columns and the order of columns in the list. The *x* indicates the number of columns that are currently displayed in the list.
 
 - ![Filter](../../Assets/Icons/Filter.png "[Filter]") Filter (x)   
