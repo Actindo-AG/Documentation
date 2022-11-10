@@ -126,7 +126,7 @@ For a detailed description of this window and the corresponding functions, see [
 **List of messages**
 
 - ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)   
-  Click this button to close the *List of messages* view and return to the List of intents.
+  Click this button to close the *List of messages* view and return to the list of intents.
 
 - ![Unpublish](../../Assets/Icons/Unpublish02.png "[Unpublish]")  
   Click this to unpublish the log message.
@@ -177,10 +177,10 @@ The list displays all messages contained in the selected event log. Depending on
 ![List of messages](../../Assets/Screenshots/Fulfillment/Logging/DetailLogMessageAttributes.png "[List of messages]")
 
 - ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)   
-  Click this button to close the *Detail of log message "Log message name"* view and return to the List of messages.
+  Click this button to close the *Detail of log message "Log message name"* view and return to the list of messages.
 
 - [CANCEL]  
-  Click this button to close the *Detail of log message "Log message name"* view and return to the List of messages.
+  Click this button to close the *Detail of log message "Log message name"* view and return to the list of messages.
 
 [comment]: <> (Beide tun das gleiche)
 
