@@ -1,4 +1,4 @@
-# Connections
+# Connections (Logging)
 
 *Fulfillment > Logging > Tab CONNECTIONS*
 
@@ -117,7 +117,7 @@ For a detailed description of this window and the corresponding functions, see [
 For a detailed description of this window and the corresponding functions, see [Rename view](./01a_List.md#rename-view).
 
 
-## List of Messages
+## List of messages
 
 *Fulfillment > Logging > Tab CONNECTIONS > Select an event log*
 
