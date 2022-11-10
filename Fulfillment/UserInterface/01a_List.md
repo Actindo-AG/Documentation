@@ -391,7 +391,7 @@ This tab has no function in the *Fulfillment* module, since dispatch notes have 
 - [BACK]
   Click this button to go back to the previous step. The *Shipments* view is displayed.
 
-#### Shipment attributes &ndash; Attributes
+### Shipment attributes &ndash; Attributes
 
 In the left margin column, all available attribute groups are displayed. Click a group to display the attributes that are assigned to this group on the right side of the *Attributes* tab. If the shipment contains attributes that are unassigned, the *Unassigned Group* group is automatically displayed in the left margin column.
 
@@ -414,7 +414,7 @@ The attributes assigned to each group can be managed and customized in the *Data
 - ![Fade in/out](../../Assets/Icons/FadeInOut01.png "[Fade in/out]") (Fade in/out)    
   Click this button to hide or display the left margin column with the attribute groups. When the left margin is displayed and you click this button, the column is hidden. When the column is hidden and you click this button, the column is displayed again.
 
-#### Shipment attributes &ndash; Dependencies
+### Shipment attributes &ndash; Dependencies
 
 This tab has no function in the *Fulfillment* module, since dispatch notes have no dependent entities. The notice *No other entities depend on this entity* is displayed.
 
