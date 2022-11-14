@@ -5,16 +5,43 @@ You can import an offer from your marketplace to the *Omni-Channel* module, for 
 
 ## Import offers from a marketplace
 
-[comment]: <> (add)
+You can import offers from an existing marketplace where you are already selling products and include these products to your *PIM* module.
+You can either import a certain offer, import all importable offers or import all products to the offers from your marketplace.
 
-### Import a single offer
 
-[comment]: <> (add)
+### Download all importable offers
+
+Before you can import an offer from our marketplace to the *Omni-Channel* module, you have to download the importable offers from the marketplace.
 
 #### Prerequisites
 
 - A connection to a marketplace has been established, see [Create a connection](../../Integration/01_ManageConnections.md#create-a-connection).
-- At least one offer that has not yet been imported to *Omni-Channel* is on the marketplace.
+- At least one importable offer is on the marketplace.
+
+#### Procedure
+
+*Omni-Channel > Offer Import > Tab OFFER IMPORT*
+
+![Offer import](../../Assets/Screenshots/Channels/OfferImport/OfferImport.png "[Offer import]")
+
+1. Click the *Select connection* drop-down list and select the connection for which you want to import offers. All supported drivers are displayed in the list.
+  All offers on the selected marketplace are displayed in the list of importable products.
+
+  ![Offer import connection](../../Assets/Screenshots/Channels/OfferImport/OfferImportConnection.png "[Offer import connection]")
+
+2. Click the [DOWNLOAD IMPORTABLE PRODUCTS] button above the list.
+
+[comment]: <> (what happens next? Wo darf ich das ausprobieren/screenshoten?)
+
+
+### Import a single offer
+
+You can select a certain offer from your marketplace and import this single offer to the *Omni-Channel* module.
+
+#### Prerequisites
+
+- The importable offers have been downloaded, see [Download all importable offers](#download-all-importable-offers).
+- At least one importable offer has not yet been imported to the *Omni-Channel* module.
 
 #### Procedure
 
@@ -35,41 +62,14 @@ You can import an offer from your marketplace to the *Omni-Channel* module, for 
 [comment]: <> (what happens next? Wo darf ich das ausprobieren/screenshoten?)
 
 
+### Import all listed offers
 
-### Import all importable offers
-
-[comment]: <> (add)
-
-#### Prerequisites
-
-- A connection to a marketplace has been established, see [Create a connection](../../Integration/01_ManageConnections.md#create-a-connection).
-- At least one offer that has not yet been imported to *Omni-Channel* is on the marketplace.
-
-#### Procedure
-
-*Omni-Channel > Offer Import > Tab OFFER IMPORT*
-
-![Offer import](../../Assets/Screenshots/Channels/OfferImport/OfferImport.png "[Offer import]")
-
-1. Click the *Select connection* drop-down list and select the connection for which you want to import offers. All supported drivers are displayed in the list.
-  All offers on the selected marketplace are displayed in the list of importable products.
-
-  ![Offer import connection](../../Assets/Screenshots/Channels/OfferImport/OfferImportConnection.png "[Offer import connection]")
-
-2. Click the [DOWNLOAD IMPORTABLE PRODUCTS] button above the list.
-
-[comment]: <> (what happens next? Wo darf ich das ausprobieren/screenshoten?)
-
-
-
-### Import all products
-
-[comment]: <> (add)
+You can import all importable offers from your marketplace at once to the *Omni-Channel* module.
 
 #### Prerequisites
 
-- A connection to a marketplace has been established, see [Create a connection](../../Integration/01_ManageConnections.md#create-a-connection).
-- At least one offer that has not yet been imported to *Omni-Channel* is on the marketplace.
+- The importable offers have been downloaded, see [Download all importable offers](#download-all-importable-offers).
+- At least one importable offer has not yet been imported to the *Omni-Channel* module.
 
 #### Procedure
 
@@ -91,12 +91,11 @@ You can import an offer from your marketplace to the *Omni-Channel* module, for 
 
 ## Map an offer to an existing PIM product
 
-[comment]: <> (add)
+Once a offer has been imported from a marketplace to the *Omni-Channel* module, you can map the product to the offer to an existing PIM product or even import new products to your *PIM* module.
 
 #### Prerequisites
 
-- A connection to a marketplace has been established, see [Create a connection](../../Integration/01_ManageConnections.md#create-a-connection).
-- At least one offer has been imported from a marketplace to *Omni-Channel*, see [Import offers from a marketplace](Import-offers-from-a-marketplace).
+At least one offer has been imported from a marketplace to *Omni-Channel*, see [Import offers from a marketplace](Import-offers-from-a-marketplace).
 
 #### Procedure
 
@@ -129,11 +128,13 @@ You can import an offer from your marketplace to the *Omni-Channel* module, for 
 
   ![Adjust mappings](../../Assets/Screenshots/Channels/OfferImport/AdjustMappings.png "[Adjust mappings]")
 
+  [comment]: <> (Step 3: Select matching attributes? Wird bei mir nicht angezeigt. Nur, wenn bereits entsprechende attribute existieren?)
+
 5. Configure the following settings:
 
   + Click the *Channels set* drop-down list and select the *Omni-Channel* attribute set for mapping. All available *Omni-Channel* attribute sets are displayed in the list.       
 
-  + Click the *PIM attribue set* drop-down list and select the *PIM* attribute set for mapping. All available *PIM* attribute sets are displayed in the list.     
+  + Click the *PIM attribute set* drop-down list and select the *PIM* attribute set for mapping. All available *PIM* attribute sets are displayed in the list.     
   The *Mapping from "Omni-Channel attribute set name" to "PIM attribute set name"* section is displayed below the *Select channels set and PIM attribute set* box.
 
   ![Adjust mappings mapping](../../Assets/Screenshots/Channels/OfferImport/AdjustMappingsMapping.png "[Adjust mappings mapping]")
@@ -141,6 +142,7 @@ You can import an offer from your marketplace to the *Omni-Channel* module, for 
   + Adjust the attribute mapping from the selected *Omni-Channel* attribute set to the selected *PIM* attribute set as desired.   
     For detailed information about editing the mapping, see [Edit the ETL attribute mappings](../../../DataHub/Operation/01_ManageETLMappings#edit-the-etl-attribute-mappings).
 
+  > [Info] A default mapping is preconfigured by all drivers supporting the offer import.
 
 6. Click the [CONTINUE] button in the bottom right corner.   
   The *Matching and behavior after import* wizard window is displayed.
@@ -172,9 +174,40 @@ You can import an offer from your marketplace to the *Omni-Channel* module, for 
   ![Wizard finalized](../../Assets/Screenshots/Channels/OfferImport/WizardFinalized.png "[Wizard finalized]")
 
 9. Click the [Finalize] button in the bottom right corner.   
-  The *Summary* wizard window is closed. The wizard has been finalized and the import from *Omni-Channels* to *PIM* has been started.
+  The *Summary* wizard window is closed. The *Offers* window with all offers to be imported to PIM is displayed.
 
-[comment]: <> (stimmt das?what happens next? Wo darf ich das ausprobieren/screenshoten?)
+  ![Offers](../../Assets/Screenshots/Channels/OfferImport/Offers.png "[Offers]")
+
+10. Click the [IMPORT/MAP ALL OFFERS TO PIM PRODUCTS] button in the header to import all offers in the list or select the checkboxes of all offers in the list you want to import and click the [CREATE PIM PRODUCTS/MAP OFFERS TO EXISTING PIM PRODUCTS] button in the editing toolbar.   
+  The *Summary* window is displayed.
+
+  ![Summary import](../../Assets/Screenshots/Channels/OfferImport/SummaryImport.png "[Summary import]")
+
+11. Enter a name for the PIM product in the *Import name* field.
+
+12. Click the [PREPARE IMPORT] button.  
+
+  wizard has been finalized and the import from *Omni-Channels* to *PIM* has been started.
+
+[comment]: <> (stimmt das? what happens next? Wo darf ich das ausprobieren/screenshoten?)
 
 
 ## Import an offer to a new PIM product
+
+[comment]: <> (Unterschiede zu vorheriger Procedure? Step 3 Select matching attributes?)
+
+
+## Check the scheduled offer imports
+
+You can check if any offer imports are still pending, for example after having made any changes to a product in PIM, by checking the queue of scheduled imports.
+
+[comment]: <> (Wo wird der offer import angezeigt? in PIM->Channels oder in Offer upload? grundsätzlich import = übertrag aus PIm zu channels und upload übertrag aus channels zu marktplatz?)
+
+#### Prerequisites
+
+- A connection to a marketplace has been established, see [Create a connection](../../Integration/01_ManageConnections.md#create-a-connection).
+- At least one offer has been imported from a marketplace to *Omni-Channel*, see [Import offers from a marketplace](Import-offers-from-a-marketplace).
+
+#### Procedure
+
+*Omni-Channel > Offer Import > Tab PIM->CHANNELS*

@@ -11,7 +11,7 @@ You can create manual offer or offers from PIM products, edit offers, change the
 
 ## Create an offer
 
-You can either create an offer for a PIM product or an offer for a new product.
+To offer a product ion a marketplace, you have to create an offer to the product. You can either create an offer for a PIM product or an offer for a new product.
 
 ### Create an offer from a PIM product
 
