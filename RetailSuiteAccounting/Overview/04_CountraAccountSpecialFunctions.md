@@ -1,7 +1,9 @@
 [!!Create a manual posting](../Operation/04_CreateManualBooking.md)
 [!!Cancel a posting](../Operation/05_CancelBooking.md)
 [!!Split a posting](../Operation/09_SplitBooking.md)
-[!!Review an account](../Operation/02_ReviewAccount.md)
+[!!Manage the tax keys](../Integration/02_ManageTaxKeys.md)
+[!!Manage the accounts](../Integration/03_ManageAccounts.md)
+
 
 # Contra account and special functions
 
@@ -25,7 +27,7 @@ A few examples of BU-keys:
 
 ## Correction key
 
-Correction keys are used to cancel postings, create postings for EU transactions or postings with individual tax keys longer than 1 digit.
+Correction keys are used to cancel postings, create postings for EU transactions or postings with customized tax keys longer than 1 digit.
 
 ## Tax key
 
@@ -38,12 +40,12 @@ Tax keys are used to create postings with single-digit tax keys like input VAT.
 | Number      | Meaning     | Explanation |
 |-------------|-------------|-------------|
 | 0 / empty | without cancellation key | This cancellation key is used when no other cancellation key has been specified. The meaning of the tax key is defined as follows: <br> <br> &bull; 0: No tax posting <br> &bull; 1: No meaning <br> &bull; 2: Reduced VAT rate (7%) <br> &bull; 3: Standard VAT rate (19%) <br> &bull; 5: Old standard VAT rate (16%) <br> &bull; 7: Old standard deductible input tax rate (16%) <br> &bull; 8: Reduced deductible input tax rate (7%) <br> &bull; 9: Standard deductible input tax rate (19%)|
-| 1 |EU posting| The cancellation key 1, together with a tax key, triggers a EU posting. In this case, the tax keys have the following meaning: <br> <br> &bull; 0: Supply of goods/services taxable in another EU country <br> &bull; 1: Tax-free intra-EU supply of goods <br> &bull; 2: Im Inland steuerpflichtige EG-Lieferungen ermäßigter Satz (7%) <br> &bull; 3: Im Inland steuerpflichtige EG-Lieferungen normaler Satz (19%) <br> &bull; 5: Im Inland steuerpflichtige EG-Lieferungen alter Normalsatz (16%) <br> &bull; 7: Steuerpflichtige innergemeinschaftliche Erwerbe alter Normalsatz (16%) <br> &bull; 8: Steuerpflichtige innergemeinschaftliche Erwerbe ermäßigter Satz (7%) <br> &bull; 9: Steuerpflichtige innergemeinschaftliche Erwerbe normaler Satz (19%)|
-|2|Generalumkehr|Die Stornierung einer „normalen" Buchung erfolgt durch Eintrag der Ziffer 2 im ersten Feld des Gegenkontos. Der Umsatz wird mit umgekehrtem Vorzeichen eingegeben. Die hierdurch entstehende Buchung neutralisiert die angeklickte Buchung, ohne dass diese gelöscht wird.|
-|3|Generalumkehr bei aufzuteilender Vorsteuer|Der Stornoschlüssel 3 dient zur Aufhebung von Buchungen, die mit dem Stornoschlüssel 9 eingegeben wurden.|
-|4|Aufhebung der Automatik|Durch die Eingabe des Stornoschlüssels 4 wird die automatische „Heraus-Rechnung" von Vorsteuer oder Umsatzsteuer gesperrt. Auch Sammelkonten können durch die Eingabe des Steuerschlüssels 4 bebucht werden.|
-|5|Individueller Steuerschlüssel|Der Stornoschlüssel 5 bereitet die Eingabe mehrstelliger Steuerschlüssel vor. Hierzu öffnet sich direkt beim Verlassen des Feldes „GegKonto" ein Fenster.|
-|6|Generalumkehr bei Schlüssel 1 - EG-Buchung|Der Stornoschlüssel 6 dient zur Aufhebung von Buchungen, die mit dem Stornoschlüssel 1 eingegeben wurden. Hier muss natürlich der Ursprüngliche Steuerschlüssel mit angegeben werden.|
-|7|Generalumkehr bei Schlüssel 5 - Individuellem Steuerschlüssel|-|
-|8|Generalumkehr bei Schlüssel 4 - Aufhebung der Buchungsautomatik|Der Stornoschlüssel 8 dient zur Aufhebung von Buchungen, die mit dem Stornoschlüssel 4 eingegeben wurden.|
-|9|Aufzuteilende Vorsteuer|Der Stornoschlüssel 9 löst zusammen mit den Steuerschlüsseln 6 - 9 eine Verbuchung der Vorsteuer auf die Konten für aufzuteilende Vorsteuer aus (anstatt auf die Konten für abzuziehende Vorsteuer).|
+| 1 | EU posting | The cancellation key 1, together with a tax key, triggers a EU posting. In this case, the tax keys have the following meaning: <br> <br> &bull; 0: Supply of goods/services taxable in another EU country <br> &bull; 1: Tax-free EU supply of goods within the EU <br> &bull; 2: Supplies of goods taxable in Germany reduced VAT rate (7%) <br> &bull; 3: Supplies of goods taxable in Germany standard VAT rate (19%) <br> &bull; 5: Supplies of goods taxable in Germany old standard VAT rate (16%) <br> &bull; 7: Intra-community taxable acquisitions of goods old standard VAT rate (16%) <br> &bull; 8: Intra-community taxable acquisitions of goods standard VAT rate (7%) <br> &bull; 9: Intra-community taxable acquisitions of goods standard VAT rate (19%)|
+| 2 | General reversal | The cancellation of a "normal" posting is performed by entering the number 2 in the first digit of the contra account. The turnover is then input with the reversed sign. The resulting posting cancels the selected posting without deleting it.|
+| 3 | General reversal with input tax distribution | The cancellation key 3 is used to cancel postings that were originally entered with the cancellation key 9.|
+| 4 | Cancellation of automatic function | By entering the cancellation key 4, the automatic deducting of input tax or VAT is blocked. Besides, collective accounts can also be posted to by entering the tax key 4.|
+| 5 | Individual tax key | The cancellation key 5 offers the possibility to enter multi-digit tax keys. For this purpose, a window opens directly after leaving the field "Contra account". |
+| 6 | General reversal with key 1 - EU-posting | The cancellation key 6 is used to cancel postings that were originally entered with the tax key 1. The original tax key must be specified in this case too.|
+| 7 | General reversal with key 5 - Specific tax key |-|
+| 8 | General reversal with key 4 - Cancellation of the posting automatic function | The cancellation key 8 is used to cancel postings that were originally entered with the tax key 4.|
+| 9 | Input tax distribution | The tax key 9, together with the tax keys 6 to 9, triggers a posting of the input tax to the accounts for input tax distribution (instead of the accounts for input tax deduction).|
