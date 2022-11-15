@@ -122,7 +122,7 @@ Click this button to close the *\"Connection name\" Connection* view and return 
 
 *Fulfillment > Settings > Tab CONNECTIONS > Button Add > Select driver*
 
-![Create connection](../../Assets/Screenshots/Fulfillment/Settings/Connections/SelectConnectionDriver.png "[Create connection]")
+![Create connection](../../Assets/Screenshots/Fulfillment/Settings/Connections/Credentials.png "[Create connection]")
 
 The fields displayed in the *Credentials* section vary depending on the driver selected. By default, the following fields are displayed:
 
