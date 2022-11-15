@@ -15,12 +15,12 @@ To offer a product ion a marketplace, you have to create an offer to the product
 
 ### Create an offer from a PIM product
 
-If the Actindo *PIM* module is used, offers can be created directly from the *PIM* products.
+If the Actindo *PIM* module is used, offers can be created directly from the PIM products.
 
 #### Prerequisites
 
 - The Actindo *PIM* module is installed.
-- At least one *PIM* product has been created, see [Create a product](../../PIM/Operation/01_ManageProducts.md#create-a-product).
+- At least one PIM product has been created, see [Create a product](../../PIM/Operation/01_ManageProducts.md#create-a-product).
 
 #### Procedure
 
@@ -222,6 +222,30 @@ At least one offer has been created, see [Create an offer](#create-an-offer).
   Th status change has been triggered. The selected status is displayed in the *Pending status/Error* column of the corresponding offer. When the status has been changed, it is displayed in the *Status* column.
 
   > [Info] It may take some time until the status has been changed. Click the ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh) button in the upper right corner to update the list of offers.   
+
+
+## Check the scheduled offer imports
+
+You can check if any offer imports from *PIM* to *Omni-Channel* are still pending, for example after having created a new offer to a PIM product, by checking the queue of scheduled imports.
+
+[comment]: <> (Wo wird der offer import angezeigt? in PIM->Channels oder in Offer upload? grundsätzlich import = übertrag aus PIm zu channels und upload übertrag aus channels zu marktplatz?)
+
+#### Prerequisites
+
+At least one offer import from *PIM* to *Omni-Channel* has been triggered, see [Create an offer from a PIM product](#create-an-offer-from-a-pim-product).
+
+#### Procedure
+
+*Omni-Channel > Offer Import > Tab PIM->CHANNELS*
+
+![PIMChannels](../../Assets/Screenshots/Channels/OfferImport/PIMChannels.png "[PIMChannels]")
+
+1. Click the ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh) button in the upper right corner to update the list of offers to be created from PIM products.   
+  All pending offers to be created are displayed in the list.
+
+2. Check the list for the respective offer imports.   
+
+  > [Info] The offer imports are only displayed in the list as long as they have not yet been imported to *Omni-Channel*. Click the ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh) button again to update the list.   
 
 
 

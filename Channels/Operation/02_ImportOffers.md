@@ -176,7 +176,7 @@ At least one offer has been imported from a marketplace to *Omni-Channel*, see [
 9. Click the [Finalize] button in the bottom right corner.   
   The *Summary* wizard window is closed. The *Offers* window with all offers to be imported to PIM is displayed.
 
-  ![Offers](../../Assets/Screenshots/Channels/OfferImport/Offers.png "[Offers]")
+  ![Offers](../../Assets/Screenshots/Channels/Offer Import/Offers.png "[Offers]")
 
 10. Click the [IMPORT/MAP ALL OFFERS TO PIM PRODUCTS] button in the header to import all offers in the list or select the checkboxes of all offers in the list you want to import and click the [CREATE PIM PRODUCTS/MAP OFFERS TO EXISTING PIM PRODUCTS] button in the editing toolbar.   
   The *Summary* window is displayed.
@@ -187,27 +187,9 @@ At least one offer has been imported from a marketplace to *Omni-Channel*, see [
 
 12. Click the [PREPARE IMPORT] button.  
 
-  wizard has been finalized and the import from *Omni-Channels* to *PIM* has been started.
-
 [comment]: <> (stimmt das? what happens next? Wo darf ich das ausprobieren/screenshoten?)
 
 
 ## Import an offer to a new PIM product
 
 [comment]: <> (Unterschiede zu vorheriger Procedure? Step 3 Select matching attributes?)
-
-
-## Check the scheduled offer imports
-
-You can check if any offer imports are still pending, for example after having made any changes to a product in PIM, by checking the queue of scheduled imports.
-
-[comment]: <> (Wo wird der offer import angezeigt? in PIM->Channels oder in Offer upload? grundsätzlich import = übertrag aus PIm zu channels und upload übertrag aus channels zu marktplatz?)
-
-#### Prerequisites
-
-- A connection to a marketplace has been established, see [Create a connection](../../Integration/01_ManageConnections.md#create-a-connection).
-- At least one offer has been imported from a marketplace to *Omni-Channel*, see [Import offers from a marketplace](Import-offers-from-a-marketplace).
-
-#### Procedure
-
-*Omni-Channel > Offer Import > Tab PIM->CHANNELS*

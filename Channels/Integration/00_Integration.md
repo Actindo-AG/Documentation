@@ -61,3 +61,9 @@
 - [Configure the logging settings](./03_ConfigureLogging.md)
   - [Define the minimum log level](./03_ConfigureLogging.md#define-the-minimum-log-level)
   - [Define the retention time](./03_ConfigureLogging.md#define-the-retention-time)
+
+
+
+- [Configure the orders and returns](./04_ConfigureOrdersReturns.md)
+  - [Configure the order import](./04_ConfigureOrdersReturns.md#configure-the-order-import)
+  - [Configure the return import](./04_ConfigureOrdersReturns.md#configure-the-return-import)
