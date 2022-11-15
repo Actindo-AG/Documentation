@@ -1,16 +1,13 @@
-[!!User Interface Connections](../UserInterface/to_be_completed)
+[!!User Interface Connections](../UserInterface/03a_Connections.md)
 
 # Manage the connections
 
-Establish connections to your fulfillers via driver with the *Actindo Core1 Platform*. You can establish an unlimited number of connections per driver.
+Establish connections to your fulfillers via driver with the *Actindo Core1 Platform*. You can establish an unlimited number of connections per driver if necessary.
 
-In the following, the general settings to create, edit and enable/disable connections are described. For certain connection drivers, you have to setup special configurations. Therefore, the connections below are described in separate documents:
-- Arvato connection
-- Figge connection
--
+In the following, the general settings to create, edit and disable connections are described. For certain connection drivers, you have to setup special configurations. Therefore, the connections below are described in separate documents:
+- Fiege connection
 
-[comment]: <> (synchronize available in Fulfillment? Delete connection possible? Button vorhanden in editing toolbar)
-[comment]: <> (check mit Stefan -Arvato, Figge, andere? Links zu Connections einfügen)
+[comment]: <> (Link zu Connection einfügen)
 
 
 ## Create a connection
@@ -32,7 +29,7 @@ At least one driver has been installed.
 1. Click the ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) button in the bottom right corner.   
   The *Create connection* view is displayed.
 
-  ![Create connection](../../Assets/Screenshots/Channels/Settings/Connections/CreateConnection.png "[Create connection]")
+  ![Create connection](../../Assets/Screenshots/Fulfillment/Settings/Connections/CreateConnection.png "[Create connection]")
 
 2. Enter a name for the connection in the *Name* field.
 
@@ -42,20 +39,22 @@ At least one driver has been installed.
 
   Depending on the driver, a *Credentials* section is displayed below the drop-down list.
 
-  ![Credentials](../../Assets/Screenshots/Channels/Settings/Connections/Credentials.png "[Credentials]")
+  ![Credentials](../../Assets/Screenshots/Fulfillment/Settings/Connections/Credentials.png "[Credentials]")
 
   > [Info] Depending on the driver of the connection, the fields in the *Credentials* section differ.
+
+[comment]: <> (Manage the drivers? Zusätzliche Datei? Ticket erstellen)
 
 4. If necessary, enter the required data in the fields in the *Credentials* section.
 
 5. Click the [SAVE] button.   
-  The connection will be established. The *Checking credentials...* notice is displayed.
+  The connection will be established. The *Checking credentials...* notice is displayed. After a few seconds, the notice *Loading data...* is displayed.
 
-  ![Credentials](../../Assets/Screenshots/Channels/Settings/Connections/CheckingCredentials.png "[Credentials]")
+  ![Checking credentials](../../Assets/Screenshots/Fulfillment/Settings/Connections/CheckingCredentials.png "[Checking credentials]")
 
-  The *Create connection* view is automatically closed when the connection has been established. The initial sync has been automatically triggered. The *Sync triggered* pop-up window is displayed.
+  The *Create connection* view is automatically closed when the connection has been established. The new connection *Connection \"Connection name\"* view is displayed with the *Settings* tab preselected.
 
-  ![Sync triggered](../../Assets/Screenshots/Channels/Settings/Connections/SyncTriggered.png "[Sync triggered]")
+[comment]: <> (Connection Connection name oder Connection name Connection?)
 
 
 ## Edit a connection
@@ -70,14 +69,14 @@ At least one connection has been established, see [Create a connection](#create-
 
 *Fulfillment > Settings > Tab CONNECTIONS*
 
-![Connections](../../Assets/Screenshots/Channels/Settings/Connections/Connections.png "[Connections]")
+![Connections](../../Assets/Screenshots/Fulfillment/Settings/Connections/ExistingConnections.png "[Connections]")
 
 1. Click the connection you want to edit in the list of connections.   
   The *Edit connection* view is displayed.
 
   > [Info] Depending on the driver of the connection, the *Credentials* and the *Settings* tab are displayed in the *Edit connection* view.
 
-  ![Edit connection](../../Assets/Screenshots/Channels/Settings/Connections/EditConnection.png "[Edit connection]")
+  ![Edit connection](../../Assets/Screenshots/Fulfillment/Settings/Connections/EditConnectionCredentials.png "[Edit connection]")
 
 2. Edit the desired data of the connection in the corresponding fields in the *Credentials* tab.
 
@@ -86,43 +85,14 @@ At least one connection has been established, see [Create a connection](#create-
 4. Click the [SAVE] button.   
   The *Checking credentials...* notice is displayed.
 
-  ![Credentials](../../Assets/Screenshots/Channels/Settings/Connections/CheckingCredentials.png "[Credentials]")
+  ![Credentials](../../Assets/Screenshots/Fulfillment/Settings/Connections/CheckingCredentials.png "[Credentials]")
 
-  The *Edit connection* view is automatically closed when the changes have been saved. The sync has been automatically triggered. The *Sync triggered* pop-up window is displayed.
-
-  ![Sync triggered](../../Assets/Screenshots/Channels/Settings/Connections/SyncTriggered.png "[Sync triggered]")
-
-
-
-## Synchronize a connection
-
-If any changes have been made in the marketplace, it is necessary to synchronize the connection to apply these changes to the *Actindo Core1 Platform*.
-
-#### Prerequisites
-
-At least one connection has been established, see [Create a connection](#create-a-connection).
-
-#### Procedure
-
-*Fulfillment > Settings > Tab CONNECTIONS*
-
-![Connections](../../Assets/Screenshots/Channels/Settings/Connections/Connections.png "[Connections]")
-
-1. Select the checkbox of the connection you want to synchronize in the list of connections.   
-  The editing toolbar is displayed above the list of connections.
-
-2. Click the [SYNCHRONIZE] button in the toolbar.   
-  The sync has been started. The *Sync triggered* pop-up window is displayed.
-
-  ![Sync triggered](../../Assets/Screenshots/Channels/Settings/Connections/SyncTriggered.png "[Sync triggered]")
-
-  > [Info] It may take several minutes until the sync has been completed. Click the ![Processes](../../Assets/Icons/Process.png "[Processes]") (Processes) button in the header to check for currently running jobs.
-
+  The *Edit connection* view is automatically closed and the *Existing connections* view is displayed again.
 
 
 ## Disable a connection
 
-Once a connection has been established, it cannot be deleted. Nevertheless, the connection can be disabled to prevent any further data from being synchronized via the connection.
+Once a connection has been established, it cannot be deleted. Nevertheless, the connection can be disabled if it is no longer used.
 
 #### Prerequisites
 
@@ -133,7 +103,7 @@ Once a connection has been established, it cannot be deleted. Nevertheless, the 
 
 *Fulfillment > Settings > Tab CONNECTIONS*
 
-![Connections](../../Assets/Screenshots/Channels/Settings/Connections/Connections.png "[Connections]")
+![Connections](../../Assets/Screenshots/Fulfillment/Settings/Connections/ExistingConnections.png "[Connections]")
 
 1. Select the checkbox of the connection you want to disable in the list of connections.   
   The editing toolbar is displayed above the list of connections.
