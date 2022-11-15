@@ -2,7 +2,7 @@
 
 *Fulfillment > Settings > Tab CONNECTIONS*
 
-![Existing connections](../../Assets/Screenshots/Fulfillment/Settings/ExistingConnections.png "[Existing connections]")
+![Existing connections](../../Assets/Screenshots/Fulfillment/Settings/Connections/ExistingConnections.png "[Existing connections]")
 
 **Existing connections**
 
@@ -96,7 +96,7 @@ For a detailed description of this window and the corresponding functions, see [
 
 *Fulfillment > Settings > Tab CONNECTIONS > Button Add*
 
-![Create connection](../../Assets/Screenshots/Fulfillment/Settings/CreateConnection.png "[Create connection]")
+![Create connection](../../Assets/Screenshots/Fulfillment/Settings/Connections/CreateConnection.png "[Create connection]")
 
 - ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)   
 Click this button to close the *\"Connection name\" Connection* view and return to the connection list. All changes are rejected.
@@ -122,7 +122,7 @@ Click this button to close the *\"Connection name\" Connection* view and return 
 
 *Fulfillment > Settings > Tab CONNECTIONS > Button Add > Select driver*
 
-![Create connection](../../Assets/Screenshots/Fulfillment/Settings/SelectConnectionDriver.png "[Create connection]")
+![Create connection](../../Assets/Screenshots/Fulfillment/Settings/Connections/SelectConnectionDriver.png "[Create connection]")
 
 The fields displayed in the *Credentials* section vary depending on the driver selected. By default, the following fields are displayed:
 
@@ -142,7 +142,7 @@ The fields displayed in the *Credentials* section vary depending on the driver s
 
 *Fulfillment > Settings > Tab CONNECTIONS > Select a connection*
 
-![Edit connection](../../Assets/Screenshots/Fulfillment/Settings/EditConnectionCredentials.png "[Edit connection]")
+![Edit connection](../../Assets/Screenshots/Fulfillment/Settings/Connections/EditConnectionCredentials.png "[Edit connection]")
 
 - ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)   
 Click this button to close the *\"Connection name\" Connection* view and return to the connection list. All changes are rejected.
@@ -163,7 +163,7 @@ Click this button to close the *\"Connection name\" Connection* view and return 
 
 *Fulfillment > Settings > Tab CONNECTIONS > Select a connection > Tab Credentials*
 
-![Create connection](../../Assets/Screenshots/Fulfillment/Settings/EditConnectionCredentials.png "[Create connection]")
+![Create connection](../../Assets/Screenshots/Fulfillment/Settings/Connections/EditConnectionCredentials.png "[Create connection]")
 
 - *Driver*  
   Driver name selected. This drop-down list is locked and cannot be edited.
@@ -184,7 +184,7 @@ The fields displayed in the *Credentials* section vary depending on the driver s
 
 *Fulfillment > Settings > Tab CONNECTIONS > Select a connection > Tab Settings*
 
-![Edit connection](../../Assets/Screenshots/Fulfillment/Settings/EditConnectionSettings.png "[Edit connection]")
+![Edit connection](../../Assets/Screenshots/Fulfillment/Settings/Connections/EditConnectionSettings.png "[Edit connection]")
 
 The settings can only be configured after the connection has been established. The fields displayed vary depending on the driver installed.
 
