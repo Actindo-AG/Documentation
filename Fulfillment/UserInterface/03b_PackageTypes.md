@@ -2,7 +2,7 @@
 
 *Fulfillment > Settings > Tab PACKAGE TYPES*
 
-![List of package types](../../Assets/Screenshots/Fulfillment/Settings/ListPackageTypes.png "[List of package types]")
+![List of package types](../../Assets/Screenshots/Fulfillment/Settings/PackageTypes/ListPackageTypes.png "[List of package types]")
 
 **List of package types**
 
@@ -184,7 +184,7 @@ For a detailed description of this window and the corresponding functions, see [
 
 *Fulfillment > Settings > Tab PACKAGE TYPES > Button Add*
 
-![Create view](../../Assets/Screenshots/Fulfillment/Settings/CreatePackageType.png "[Create view]")
+![Create view](../../Assets/Screenshots/Fulfillment/Settings/PackageTypes/CreatePackageType.png "[Create view]")
 
 - ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)   
   Click this button to close the *Create package type* view and return to the list of package types. All changes are rejected.
@@ -307,7 +307,7 @@ For a detailed description of this window and the corresponding functions, see [
 
 *Fulfillment > Settings > Tab PACKAGE TYPES > Button Add > Button ADD PRICE*
 
-![Edit price](../../Assets/Screenshots/Fulfillment/Settings/EditPrice.png "[Edit price]")
+![Edit price](../../Assets/Screenshots/Fulfillment/Settings/PackageTypes/EditPrice.png "[Edit price]")
 
 **BASE PRICE CALCULATION**
 
@@ -337,7 +337,7 @@ For a detailed description of this window and the corresponding functions, see [
 
 *Fulfillment > Settings > Tab PACKAGE TYPES > Button Add > Button ADD PRICE > Button ADD SCALE PRICE*
 
-![Edit scale price](../../Assets/Screenshots/Fulfillment/Settings/EditScalePrice.png "[Edit scale price]")
+![Edit scale price](../../Assets/Screenshots/Fulfillment/Settings/PackageTypes/EditScalePrice.png "[Edit scale price]")
 
 - *Price*  
   Enter a price value.
@@ -356,7 +356,7 @@ For a detailed description of this window and the corresponding functions, see [
 
 *Fulfillment > Settings > Tab PACKAGE TYPES > Select package type*
 
-![Edit package type](../../Assets/Screenshots/Fulfillment/Settings/EditPackageType.png "[Edit package type]")
+![Edit package type](../../Assets/Screenshots/Fulfillment/Settings/PackageTypes/EditPackageType.png "[Edit package type]")
 
 - ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)   
   Click this button to close the *Edit package type* view and return to the list of package types. All changes are rejected.
@@ -479,7 +479,7 @@ For a detailed description of this window and the corresponding functions, see [
 
 *Fulfillment > Settings > Tab PACKAGE TYPES > Select package type > Button Edit*
 
-![Edit price](../../Assets/Screenshots/Fulfillment/Settings/EditPrice02.png "[Edit price]")
+![Edit price](../../Assets/Screenshots/Fulfillment/Settings/PackageTypes/EditPrice02.png "[Edit price]")
 
 For a detailed description of this window and the corresponding functions, see [Edit price](#edit-price).
 
@@ -489,7 +489,7 @@ For a detailed description of this window and the corresponding functions, see [
 
 *Fulfillment > Settings > Tab PACKAGE TYPES > Select package type > Button Edit > Button ADD SCALE PRICE*
 
-![Edit scale price](../../Assets/Screenshots/Fulfillment/Settings/EditScalePrice.png "[Edit scale price]")
+![Edit scale price](../../Assets/Screenshots/Fulfillment/Settings/PackageTypes/EditScalePrice.png "[Edit scale price]")
 
 For a detailed description of this window and the corresponding functions, see [Edit scale price](#edit-scale-price).
 
