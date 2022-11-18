@@ -31,7 +31,7 @@ In the following, the core actions, their use and their settings are described i
 The *Change process priority* core action is used to change the preconfigured priority of the process while the process is already running.   
 The data runs via the *loop_through* input port into the workflow action and is output via the *p* output port. However, the data is only output when data has also been incoming via the *priority* input port. The input value of the *priority* input port must be an integer. This integer will be used as the new priority.
 
-[comment]: <> (ticket in arbeit: static inputs sollen im priority input port möglich sein, ändern sobald möglich)
+[comment]: <> (ticket ICBPM-199 in arbeit: static inputs sollen im priority input port möglich sein, ändern sobald möglich)
 
 ### Configuration   
 
@@ -46,7 +46,7 @@ This core action has no further configuration settings.
 The *Multiply input action* core action is used to output the data coming in via one input port to two output ports. This core action is often used when the same data is needed for two different purposes. To merge the duplicated data again, the *Wait for parallel input* core action can be used, see [Wait for parallel input](#wait-for-parallel-input) .   
 The data runs via the *p* input port into the workflow action and is output via both the *p0* and the *p1* output ports.
 
-[comment]: <> (ticket in arbeit: mehr als zwei output port sollen hinzukommen)
+[comment]: <> (ticket ICBPM-200 in arbeit: mehr als zwei output port sollen hinzukommen)
 
 ### Configuration   
 
@@ -87,7 +87,7 @@ The criterion to be compared with is defined in the configuration.
 ### Configuration  
 
 - *Path*   
-  Enter the path to the property of the input object to be compared with.
+  Enter the path to the property of the input object to be compared with. If the input data is of a primitive type, for instance *string* or *number*, you can also leave the path blank to compare the input data directly.
 
   > [Info] The properties of an entity you can refer to are described in the relevant API documentation.
 
@@ -97,7 +97,7 @@ The criterion to be compared with is defined in the configuration.
   - **=**  
     It is a match if the input value equals the defined value.
   - **!=**    
-    It is a match if the input value does not equals the defined value.
+    It is a match if the input value does not equal the defined value.
   - **in**    
     It is a match if the input value is included within the defined values. For this operator, it is possible to enter an array in the *Value* field.
   - **notIn**   
@@ -110,7 +110,7 @@ The criterion to be compared with is defined in the configuration.
 - *Value*   
   Enter the value to be compared with the input value. The value must be valid JSON and is type strict, for example a string must be specified as a string (**\"example\"**), an integer as an integer (**123**), and so on.
 
-[comment]: <> (Weitere operatoren geplant: <=, <, >=, >)
+[comment]: <> (Ticket ICBPM-197 in Arbeit: Weitere operatoren geplant: <=, <, >=, >)
 
 
 
@@ -125,7 +125,7 @@ The subprocess to be started is defined in the configuration.
 ### Configuration
 
 - *Workflow Key*   
-  Enter the workflow key of the workflow that will be started as a subprocess.
+  Enter the workflow key of the workflow that will be started as a subprocess. Always the latest published version of the specified workflow will be started.
 
 
 
@@ -133,16 +133,14 @@ The subprocess to be started is defined in the configuration.
 
 ![Switch case action](../../Assets/Screenshots/ActindoWorkFlow/Workflows/CoreActions/SwitchCaseAction.png "[Switch case action]")
 
-The *Switch case action* core action is used to compare the input value with up to 6 criteria and output this value via a different branch for each case. Additionally, this core action enables to output the input value via a separate branch if the input value does not match any of the specified cases or to output the input value without any comparison by a separate branch.    
-The data runs via the *in* input port into the workflow action and can be output via each connected output port. If the *origin* output port is connected, the input value is always output via this port without any further action. Additionally, if one or several of the *case1* to *case6* output ports are connected, the input value is compared with the criterion specified in the respective case and output via the output port of the case where the criterion matches the input value. If no criterion of the cases matches the input value, the input value is output via the *default* output port, or, if the *default* output port is not connected, the action fails.    
-The criteria to be compared with are defined in the configuration. Further, you can set the comparison to be stopped after a match.
-
-[comment]: <> (Wird der default value nur ausgegeben, wenn auch der origin port nicht verbunden ist?)
+The *Switch case action* core action is used to compare the input value with up to 6 criteria and output this value via a different branch for each case. Additionally, this core action enables to output the input value via a separate branch if the input value does not match any of the specified cases or to output the input value without any match by a separate branch.    
+The data runs via the *in* input port into the workflow action and can be output via each connected output port. The *origin* output port must be connected and the input value is always output via this port without any further action. Additionally, if one or several of the *case1* to *case6* output ports are connected, the input value is compared with the criterion specified in the respective case and output via the output port of the case where the criterion matches the input value. If no criterion of the cases matches the input value, the input value is output via the *default* output port, or, if the *default* output port is not connected, the action fails.    
+The criteria to be compared with are defined in the configuration. Further, you can set the comparison to be stopped after a match. Otherwise all remaining cases are evaluated.
 
 ### Configuration  
 
 - *Path*   
-  Enter the path to the property of the input object to be compared with.
+  Enter the path to the property of the input object to be compared with. If the input data is of a primitive type, for instance *string* or *number*, you can also leave the path blank to compare the input data directly.
 
   > [Info] The properties of an entity you can refer to are described in the relevant API documentation.
 
@@ -152,8 +150,6 @@ The criteria to be compared with are defined in the configuration. Further, you 
 - *Case X*    
   Enter the value to be compared with the input value. The value must be valid JSON. You can enter a single value or an array with multiple values. If you enter single value, it is checked if the input value equals the specified value. If you enter an array, it is checked if the input value equals one of the values in the array.   
   You can specify up to 6 different cases. The cases are checked in order, that means, first *Case 1*, then *Case 2*, etc.
-
-[comment]: <> (sind die values in den Feldern auch type strict?)
 
 
 
@@ -191,13 +187,13 @@ The criterion to be compared with as well as the wait time settings are defined 
   Enter the time in minutes to wait for each additional comparison attempt if the criterion does not yet match the input data.
 
 - *Timeout*   
-  Enter the time in minutes after which no further attempts should be started and either the input data will be output via the *timeout* output port or the action will fail.
+  Enter the time in minutes after which no further attempts should be started. Depending on the configuration, either the input data will be output via the *timeout* output port or the action will fail.
 
 - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Fail on timeout*   
   Enable this toggle to make the action fail after the defined timeout. Disable the toggle to output the current input value via the *timeout* output port after the defined timeout. By default, this toggle is disabled.
 
 - *Path*   
-  Enter the path to the property of the input object to be compared with.
+  Enter the path to the property of the input object to be compared with. Use objects or models whose values change by external influences between the tries as input type, since simple input data of a primitive type, for instance *string* or *number*, are static and will never change.
 
   > [Info] The properties of an entity you can refer to are described in the relevant API documentation.
 
@@ -207,7 +203,7 @@ The criterion to be compared with as well as the wait time settings are defined 
   - **=**  
     It is a match if the input value equals the defined value.
   - **!=**    
-    It is a match if the input value does not equals the defined value.
+    It is a match if the input value does not equal the defined value.
   - **in**    
     It is a match if the input value is included within the defined values. For this operator, it is possible to enter an array in the *Value* field.
   - **notIn**   
@@ -220,7 +216,7 @@ The criterion to be compared with as well as the wait time settings are defined 
 - *Value*   
   Enter the value to be compared with the input value. The value must be valid JSON and is type strict, for example a string must be specified as a string (**\"example\"**), an integer as an integer (**123**), and so on.
 
-[comment]: <> (Weitere operatoren geplant: <=, <, >=, >)
+[comment]: <> (Ticket ICBPM-197 in Arbeit: Weitere operatoren geplant: <=, <, >=, >)
 
 
 
