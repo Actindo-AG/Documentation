@@ -1,24 +1,23 @@
-[!!User Interface Connections](../UserInterface/to_be_completed)
+[!!User interface Connections](../UserInterface/to_be_completed)
 
 # Manage the connections
 
-Establish connections via drivers to connect your marketplaces with the *Actindo Core1 Platform*. A marketplace can be either an online shop or a point of sale. You can establish an unlimited number of connection per driver.
+Establish connections via drivers to connect your marketplaces with the *Actindo Core1 Platform*. A marketplace can be either an online shop or a point of sale. You can establish an unlimited number of connections per driver.
 
 In the following, the general settings to create, edit, synchronize or disable connections are described. For certain connection drivers, you have to setup special configurations. Therefore, the connections below are described in separate documents:
-- Shopware 6 connection
-- Shopify connection
-- Sales Force Commerce Cloud connection
-- Amazon connection
-- Magento 2 connection
-- Tradebyte connection
-- Scayle connection
-- eBay connection
+- [Shopware 6 connection](./01a_Shopware6.md)
+- [Shopify connection](./01b_Shopify.md)
+- [Sales Force Commerce Cloud connection](./01c_Salesforce.md)
+- [Amazon connection](./01d_Amazon.md)
+- [Magento 2 connection](./01e_Magento2.md)
+- [Tradebyte connection](./01f_Tradebyte.md)
+- [Scayle connection](./01g_Scayle.md)
+- [eBay connection](./01h_eBay.md)
 
-[comment]: <> (Links zu Connections einfügen)
 
 ## Create a connection
 
-Create a connection to a certain marketplace. As soon as a connection has been established, an initial synchronization will be triggered, which will transfer the entire data model of the connected marketplace mirrored to Actindo. This means that all attributes and attribute sets from the marketplace are also transferred to Actindo and can be accessed in the *DataHub* module. Depending on the marketplace to be connected, special configurations may be necessary.
+Create a connection to a certain marketplace. As soon as a connection has been established, an initial synchronization will be triggered, which will transfer the entire data model of the connected marketplace mirrored to Actindo. This means that all attributes and attribute sets from the marketplace are also transferred to Actindo and can be accessed in the *DataHub* module. Depending on the marketplace to be connected, special configurations are necessary.
 
 [comment]: <> (POS auch in eigener Procedure erklären?)
 
@@ -32,7 +31,7 @@ At least one driver has been installed.
 
 ![Connection](../../Assets/Screenshots/Channels/Settings/Connections/Connection.png "[Connection]")
 
-1. Click the ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) button in the bottom right corner.   
+1. Click the ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) button in the bottom right corner.    
   The *Create connection* view is displayed.
 
   ![Create connection](../../Assets/Screenshots/Channels/Settings/Connections/CreateConnection.png "[Create connection]")
@@ -41,17 +40,18 @@ At least one driver has been installed.
 
 3. Click the *Driver* drop-down list and select the desired driver. All available drivers are displayed in the list.   
 
-  > [Info] Drivers must be purchased from the main account and then be installed separately in each sandbox or account where you want to use it. For detailed information, see [Manage the drivers](to_be_completed).
+  > [Info] Drivers must be purchased from the main account and then be installed separately in each sandbox or account where you want to use it.    
+  For detailed information, see [Manage the drivers](to_be_completed).
 
-  Depending on the driver, a *Credentials* section is displayed below the drop-down list.
+  Depending on the selected driver, a *Credentials* section is displayed below the drop-down list.
 
   ![Credentials](../../Assets/Screenshots/Channels/Settings/Connections/Credentials.png "[Credentials]")
 
-  > [Info] Depending on the driver of the connection, the fields in the *Credentials* section differ.
+  > [Info] Depending on the driver of the selection, the fields in the *Credentials* section differ.
 
 4. If necessary, enter the required data in the fields in the *Credentials* section.
 
-5. Click the [SAVE] button.   
+5. Click the [SAVE] button.    
   The connection will be established. The *Checking credentials...* notice is displayed.
 
   ![Credentials](../../Assets/Screenshots/Channels/Settings/Connections/CheckingCredentials.png "[Credentials]")
@@ -84,7 +84,7 @@ At least one connection has been established, see [Create a connection](#create-
 
 2. Edit the desired data of the connection in the corresponding fields in the *Credentials* tab.
 
-3. If necessary, click the *Settings* tab and edit the desired settings of the connection in the corresponding fields.
+3. If available, click the *Settings* tab and edit the desired settings of the connection in the corresponding fields.
 
 4. Click the [SAVE] button.   
   The *Checking credentials...* notice is displayed.
@@ -141,8 +141,8 @@ Once a connection has been established, it cannot be deleted. Nevertheless, the 
 1. Select the checkbox of the connection you want to disable in the list of connections.   
   The editing toolbar is displayed above the list of connections.
 
-2. Click the [DISABLE] button in the toolbar.   
+2. Click the [DISABLE] button in the editing toolbar.   
   The connection has been deactivated.
 
-3. Click the (Refresh) button to update the list of connections.   
+3. Click the ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh) button in the top right corner to update the list of connections.   
   The status of the disabled connection in the *Status* column has switched to **Inactive**.

@@ -1,4 +1,4 @@
-[!!User Interface Variant sets](../UserInterface/to_be_completed)
+[!!User interface Variant sets](../UserInterface/to_be_completed)
 [!!Manage the variant sets in PIM](../../PIM/Integration/07_ManageVariantSets.md)
 
 # Manage a variant set
@@ -9,7 +9,7 @@ If both the *Omni-Channel* and the Actindo *PIM* modules are used, there is a pr
 
 ## Create a variant set
 
-Create a variant set to be able to create variants to products. A variant set is always assigned to a certain attribute set. When a variant set is created to an attribute set, you can create variants to all products with this attribute set. You must assign at least one defining attribute to a variant set. Further, you can assign more defining as well as changeable attributes.   
+Create a variant set to be able to create variants to products. A variant set is always assigned to a certain attribute set. When a variant set is created to an attribute set, you can create variants to all products with this attribute set. You must assign at least one defining attribute to a variant set. Moreover, you can assign further defining and changeable attributes.   
 
 ### Define the variant set basic data
 
@@ -20,6 +20,7 @@ Define the basic inputs, such as name and attribute set, for the variant set.
 An attribute set has been created in DataHub, see [Create an attribute set](../../DataHub/Integration/02_ManageAttributeSets.md#create-an-attribute-set).
 
 #### Procedure
+
 *Omni-Channel > Settings > Tab VARIANT SETS*
 
 ![Variant sets](../../Assets/Screenshots/Channels/Settings/VariantSets/VariantSets.png "[Variant sets]")
@@ -43,16 +44,15 @@ An attribute set has been created in DataHub, see [Create an attribute set](../.
   > [Info] The value of the defining attributes can be included into the SKU formula. When you have added a defining attribute, the corresponding placeholder for this attribute is displayed in the *Formulas* section.
 
 5. For the next steps to create a variant set, follow the procedures below:   
-      - [Add defining attributes](#add-defining-attributes)
-      - [Add changeable attributes](#add-changeable-attributes)
-
+  - [Add defining attributes](#add-defining-attributes)
+  - [Add changeable attributes](#add-changeable-attributes)
 
   > [Info] At least one defining attribute is required to create a variant set. Changeable attributes can be selected optionally.
 
 
 ### Add defining attributes
 
-You have to select at least one defining attribute to create a variant set. You can only select attributes as defining attributes, that are neither multilingual nor multi-channel and assigned to the selected attribute set.
+You have to select at least one defining attribute to create a variant set. You can only select attributes as defining attributes, that are neither multi-language nor multi-channel and assigned to the selected attribute set.
 
 #### Prerequisites
 
@@ -60,6 +60,7 @@ You have to select at least one defining attribute to create a variant set. You 
 - The basic data of the variant set has been completed, see [Define the variant set basic data](#Define-the-variant-set-basic-data).
 
 #### Procedure
+
 *Omni-Channel > Settings > Tab VARIANT SETS > Button Add*
 
 ![Formulas](../../Assets/Screenshots/Channels/Settings/VariantSets/Formulas.png "[Formulas]")
@@ -96,6 +97,7 @@ You can select changeable attributes for a variant set. If you want to define an
 - The basic data of the variant set has been completed, see [Define the variant set basic data](#Define-the-variant-set-basic-data).
 
 #### Procedure
+
 *Omni-Channel > Settings > Tab VARIANT SETS > Button Add*
 
 ![Formulas](../../Assets/Screenshots/Channels/Settings/VariantSets/Formulas.png "[Formulas]")
@@ -129,6 +131,7 @@ After you have created a variant set, you can edit it. However, only some fields
 At least one variant set has been created, see [Create a variant set](#create-a-variant-set).
 
 #### Procedure
+
 *Omni-Channel > Settings > Tab VARIANT SETS*
 
 ![Variant sets](../../Assets/Screenshots/Channels/Settings/VariantSets/VariantSets.png "[Variant sets]")
@@ -158,6 +161,7 @@ You can remove defining and changeable attributes from the variant set. Note, th
 A variant set has been created, see [Create a variant set](#create-a-variant-set).
 
 #### Procedure
+
 *Omni-Channel > Settings > Tab VARIANT SETS*
 
 ![Variant sets](../../Assets/Screenshots/Channels/Settings/VariantSets/VariantSets.png "[Variant sets]")
@@ -170,7 +174,7 @@ A variant set has been created, see [Create a variant set](#create-a-variant-set
 2. In the *Defining attributes* box or *Changeable attributes* box, select the checkboxes of the attributes you want to remove.     
   The [DELETE] button is displayed in the editing toolbar above the attribute list.
 
-3. Click the [DELETE] button in the toolbar.   
+3. Click the [DELETE] button in the editing toolbar.   
   The attribute is removed from the list.
 
 4. Click the [SAVE] button in the upper right corner.   

@@ -18,7 +18,7 @@ A connection to a marketplace has been established, see [Create a connection](..
 
 ![Orders](../../Assets/Screenshots/Channels/OrdersReturns/Orders/Orders.png "[Orders]")
 
-1. Click the *All connections* drop-down list and select the connection for which you want to configure the import settings. All connections are displayed in the list.
+1. Click the *All connections* drop-down list and select the connection for which you want to configure the import settings. All connections are displayed in the list.   
   The *Download orders automatically* drop-down list and the [SAVE] button are displayed to the right of the *All connections* drop-down list.
 
   ![Orders connection](../../Assets/Screenshots/Channels/OrdersReturns/Orders/OrdersConnection.png "[Orders connection]")
@@ -44,6 +44,8 @@ A connection to a marketplace has been established, see [Create a connection](..
 
 
 
+[comment]: <> (returns vorerst ignoieren)
+
 ## Configure the return import
 
 Configure the time interval at which the returns will be automatically downloaded. You can configure a different interval for each connection.
@@ -58,7 +60,7 @@ A connection to a marketplace has been established, see [Create a connection](..
 
 ![Returns](../../Assets/Screenshots/Channels/OrdersReturns/Returns/Returns.png "[Returns]")
 
-1. Click the *All connections* drop-down list and select the connection for which you want to configure the import settings. All connections are displayed in the list.
+1. Click the *All connections* drop-down list and select the connection for which you want to configure the import settings. All connections are displayed in the list.   
   The *Download returns automatically* drop-down list and the [SAVE] button are displayed to the right of the *All connections* drop-down list.
 
   ![Returns connection](../../Assets/Screenshots/Channels/OrdersReturns/Returns/ReturnsConnection.png "[Returns connection]")
