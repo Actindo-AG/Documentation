@@ -1,3 +1,5 @@
+[!!User interface Offer upload](../UserInterface/to_be_completed)   
+
 
 # Retry a faulty offer upload
 
@@ -28,6 +30,7 @@ The cause of the faulty offer upload has been fixed.
   ![Upload triggered](../../Assets/Screenshots/Channels/OfferUpload/UploadTriggered.png "[Upload triggered]")
 
   If the retry is successful, the offer will be removed from the list of export errors.
+
 
 
 ## Was this chapter helpful?

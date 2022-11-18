@@ -1,3 +1,8 @@
+[!!User interface Orders and returns](../UserInterface/to_be_completed)   
+[Configure the order import](../Integration/04_ConfigureOrdersReturns.md#configure-the-order-import)
+[Configure the return import](../Integration/04_ConfigureOrdersReturns.md#configure-the-return-import)
+
+
 # Manage the orders and returns
 
 When an order is placed on the marketplace, this order must be imported into *Omni-Channel* to further process it in the *Order Management* module.   
@@ -7,10 +12,9 @@ For certain marketplaces, it is possible to announce a return. In this case, the
 You can configure an automatic import of returns for a certain time interval, see [Configure the return import](../Integration/04_ConfigureOrdersReturns.md#configure-the-return-import). You can also manually trigger the import of returns at any time.
 
 
-
 ## Import orders manually
 
-If you want to import the orders from a marketplace outside the specified time interval, you can manually trigger the import either for a certain connection or for all configured connection at once.
+If you want to import the orders from a marketplace outside the specified time interval, you can manually trigger the import either for a certain connection or for all configured connections at once.
 
 ### Import orders for a single connection
 
@@ -18,7 +22,10 @@ If you only want to import the orders from a certain marketplace, trigger the im
 
 #### Prerequisites
 
-A connection to a marketplace has been established, see [Create a connection](../../Integration/01_ManageConnections.md#create-a-connection).
+- A connection to a marketplace has been established, see [Create a connection](../../Integration/01_ManageConnections.md#create-a-connection).
+- The marketplace supports the order import.
+
+[comment]: <> (Unterstützen nicht alle Marktplätze den Bestellimport?)
 
 #### Procedure
 
@@ -45,7 +52,10 @@ If you want to import the orders from all connected marketplaces, trigger the im
 
 #### Prerequisites
 
-A connection to a marketplace has been established, see [Create a connection](../../Integration/01_ManageConnections.md#create-a-connection).
+- A connection to a marketplace has been established, see [Create a connection](../../Integration/01_ManageConnections.md#create-a-connection).
+- The marketplace supports the order import.
+
+[comment]: <> (Unterstützen nicht alle Marktplätze den Bestellimport?)
 
 #### Procedure
 
@@ -53,7 +63,7 @@ A connection to a marketplace has been established, see [Create a connection](..
 
 ![Orders](../../Assets/Screenshots/Channels/OrdersReturns/Orders/Orders.png "[Orders]")
 
-Click the [Import orders for all connections] button.   
+Click the [Import orders for all connections] button. This button is only displayed, if no connection has been selected in the *All connections* drop-down list.       
   The order import has been triggered. The *Order import triggered* pop-up window is displayed. The orders will be downloaded.
 
   ![Order import triggered](../../Assets/Screenshots/Channels/OrdersReturns/Orders/OrderImportTriggered.png "[Order import triggered]")
@@ -65,11 +75,11 @@ Click the [Import orders for all connections] button.
 
 
 
-
+[comment]: <> (returns vorerst ignorieren?!)
 
 ## Import returns
 
-If you want to import the returns from a marketplace outside the specified time interval, you can manually trigger the import either for a certain connection or for all configured connection at once.
+If you want to import the returns from a marketplace outside the specified time interval, you can manually trigger the import either for a certain connection or for all configured connections at once.
 
 ### Import returns for a certain connection
 
@@ -115,7 +125,7 @@ If you want to import the returns from all connected marketplaces, trigger the i
 
 ![Returns](../../Assets/Screenshots/Channels/OrdersReturns/Returns/Returns.png "[Returns]")
 
-Click the [Import returns for all connections] button.   
+Click the [Import returns for all connections] button. This button is only displayed, if no connection has been selected in the *All connections* drop-down list.      
   The return import has been triggered. The *Returns import triggered* pop-up window is displayed. The returns will be downloaded.
 
   ![Return import triggered](../../Assets/Screenshots/Channels/OrdersReturns/Returns/ReturnImportTriggered.png "[Return import triggered]")

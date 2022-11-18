@@ -1,3 +1,7 @@
+[!!User interface Offer upload](../UserInterface/to_be_completed)   
+[Retry a faulty offer upload](../Troubleshooting/01_RetryFaultyUpload.md)
+
+
 # Check the offer upload
 
 When an offer has been changed, for example by changing the corresponding product in *PIM*, the changed offer is automatically uploaded to the marketplace. If a larger number of offers are changed at once, it may take some time until all offers have been uploaded. You can then use the upload queue to check which offers are still pending for upload. Further, you can check the list of export errors to determine if an export has failed and for what reason.    
@@ -8,12 +12,13 @@ You can check if any offer uploads of a certain or all connections are still pen
 
 [comment]: <> (upload = übertrag aus channels zu marktplatz?)
 
+#### Prerequisites
 
 At least one offer upload from *Omni-Channel* to the marketplace has been triggered, see [Create an offer from a PIM product](#create-an-offer-from-a-pim-product).
 
 #### Procedure
 
-*Omni-Channel > Offer Import > Tab SCHEDULED UPLOADS*
+*Omni-Channel > Offer Upload > Tab SCHEDULED UPLOADS*
 
 ![PIMChannels](../../Assets/Screenshots/Channels/OfferImport/PIMChannels.png "[PIMChannels]")
 
@@ -46,13 +51,13 @@ At least one offer upload has been failed.
 
 1. Check the list of export errors for the searched faulty offer upload.
 
-2. Click the corresponding faulty offer upload.
+2. Click the corresponding faulty offer upload.   
   The *Detail of log message "Log message title"* view is displayed. By default, the *Attributes* tab is preselected.
 
   ![Detail of log message](../../Assets/Screenshots/Channels/OfferUpload/DetailLogMessage.png "[Detail of log message]")
 
 3. Check the details of the log message in the *Attributes* tab.
 
-  > [Info] If you have fixed the reson for the faulty upload, you can retry the offer upload, see [Retry a faulty offer upload](../Troubleshooting/01_RetryFaultyUpload.md).
+  > [Info] If you have fixed the reason for the faulty upload, you can retry the offer upload, see [Retry a faulty offer upload](../Troubleshooting/01_RetryFaultyUpload.md).
 
 [comment]: <> (TS: Retry a faulty offer upload)

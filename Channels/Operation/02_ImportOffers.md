@@ -1,3 +1,5 @@
+[!!User interface Offer import](../UserInterface/to_be_completed)   
+
 # Import an offer
 
 You can import an offer from your marketplace to the *Omni-Channel* module, for instance if you already offer products on your marketplace that are not yet in your *PIM* module. After you have imported the offer, you can import the product of the corresponding offer to the *PIM* module.
