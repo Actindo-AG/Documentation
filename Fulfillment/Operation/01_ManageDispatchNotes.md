@@ -13,13 +13,13 @@ The *Fulfillment* module works together with the *Workflows* module. Once the *F
 
 ## Check a dispatch note
 
-The dispatch note provides numerous data about the order, which may vary depending on the connection settings. Some of the details that can be checked are explained in detail below:
+The dispatch note provides numerous data about the order, which may vary depending on the connection settings. The following procedures to check specific data are described in detail below:
 
   - Dispatch note status, see [Check dispatch note status](#check-dispatch-note-status)
   - Shipment status, see [Check shipment status](#check-shipment-status)
-  - Shipment details, see [Check shipment details](#check-shipment-details)
+  - Check shipment details, see [Check shipment details](#check-shipment-details)
 
-Besides, the following general details can be checked in the list of dispatch notes:
+Besides, the following general data can be checked in the list of dispatch notes:
 - Document number, which equals the delivery note number in the *Order management* module
 - Shipping type
 - Carrier
@@ -27,6 +27,11 @@ Besides, the following general details can be checked in the list of dispatch no
 - Error (Dispatch note status - Shipment status: Error -> Fulfiller hat Fehler gemeldet)
 
 [comment]: <> (Überhaupt relevant/notwendig?)
+
+
+### Check dispatch note status
+
+The dispatch note status can be checked in the list of dispatch notes.
 
 #### Prerequisites
 
@@ -39,7 +44,15 @@ Besides, the following general details can be checked in the list of dispatch no
 
 ![Dispatch notes](../../Assets/Screenshots/Fulfillment/DispatchNotes/DispatchNotes.png "[Dispatch notes]")
 
-1. Check the Document number -> Order management module -> necessary/useful?
+-> Link auf Force completion
+
+-> Link auf Export
+
+
+
+
+
+
 
 2. Dispatch note status: The dispatch note status displays the current stage in the fufillment process.
   - EXPORT -> if it has not been received, it is possible to click on EXPORT button to resend it to the fulfiller, e.g. (Dispatch note) Status **Error** - Shipment status x (dispatch note has not shipments yet)
@@ -49,18 +62,6 @@ Besides, the following general details can be checked in the list of dispatch no
 3. Shipment status: the shipment status is displayed with an icon. Meanings:
 
 4. Receiver details (name and zip code) - necessary/useful?
-
-
-### Check dispatch note status
-
-#### Prerequisites
-
-#### Procedure
-
--> Link auf Force completion
-
--> Link auf Export
-
 
 
 ### Check shipment status
@@ -142,7 +143,7 @@ Occasionally, the message sent by the fulfiller to confirm delivery may fail or 
 5. Click the [FORCE COMPLETION] button.  
   The message ... is displayed.
 
-6. 
+6.
 
 
 ## Cancel a dispatch note
