@@ -100,11 +100,11 @@ A connection to a marketplace has been established, see [Create a connection](..
 
 [comment]: <> (returns vorerst ignorieren?!)
 
-## Import returns
+## Import returns manually
 
 If you want to import the returns from a marketplace outside the specified time interval, you can manually trigger the import either for a certain connection or for all configured connections at once.
 
-### Import returns for a certain connection
+### Import returns for a single connection
 
 If you only want to import the returns from a certain marketplace, trigger the import for this single connection.
 
@@ -130,8 +130,6 @@ If you only want to import the returns from a certain marketplace, trigger the i
   The return import has been triggered. The *Return import triggered* pop-up window is displayed. The returns will be downloaded.
 
   ![Return import triggered](../../Assets/Screenshots/Channels/OrdersReturns/Returns/ReturnImportTriggered.png "[Return import triggered]")
-
-
 
 
 ### Import returns for all connections

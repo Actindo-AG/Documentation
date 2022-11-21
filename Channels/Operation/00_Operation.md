@@ -27,3 +27,16 @@ In this part of the *Omni-Channel* documentation, you will find the following ch
 - [Check the offer upload](./03_CheckOfferUpload.md)
   - [Check the scheduled offer uploads](./03_CheckOfferUpload.md#check-the-scheduled-offer-uploads)
   - [Check the failed offer uploads](./03_CheckOfferUpload.md#check-the-failed-offer-uploads)
+
+
+- [Manage the orders and returns](./04_ManageOrdersReturns.md)
+  - [Import orders manually](./04_ManageOrdersReturns.md#import-orders-manually)
+    - [Import orders for a single connection](./04_ManageOrdersReturns.md#import-orders-for-a-single-connection)
+    - [Import orders for all connections](./04_ManageOrdersReturns.md#import-orders-for-all-connections)
+  - [Export orders manually](./04_ManageOrdersReturns.md#export-orders-manually)
+  - [Import returns manually](./04_ManageOrdersReturns.md#import-returns-manually)
+    - [Import returns for a single connection](./04_ManageOrdersReturns.md#import-returns-for-a-single-connection)
+    - [Import returns for all connections](./04_ManageOrdersReturns.md#import-returns-for-all-connections)
+  - [Export returns manually](./04_ManageOrdersReturns.md#export-returns-manually)
+  - [Check the scheduled exports](./04_ManageOrdersReturns.md#check-the-scheduled-exports)
+  - [Check the failed orders and returns](./04_ManageOrdersReturns.md#check-the-failed-orders-and-returns)
