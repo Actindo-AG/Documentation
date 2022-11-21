@@ -243,7 +243,7 @@ At least one offer import from *PIM* to *Omni-Channel* has been triggered, see [
 1. Click the ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh) button in the upper right corner to update the list of offers to be created from PIM products.   
   All pending offers to be created are displayed in the list.
 
-2. Check the list for the respective offer imports.   
+2. Check the list for the respective offer import(s).   
 
   > [Info] The offer imports are only displayed in the list as long as they have not yet been imported to *Omni-Channel*. Click the ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh) button again to update the list.   
 

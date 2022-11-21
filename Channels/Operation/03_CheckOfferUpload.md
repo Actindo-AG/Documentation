@@ -59,5 +59,3 @@ At least one offer upload has been failed.
 3. Check the details of the log message in the *Attributes* tab.
 
   > [Info] If you have fixed the reason for the faulty upload, you can retry the offer upload, see [Retry a faulty offer upload](../Troubleshooting/01_RetryFaultyUpload.md).
-
-[comment]: <> (TS: Retry a faulty offer upload)

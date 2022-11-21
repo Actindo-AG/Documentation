@@ -44,7 +44,7 @@ A connection to a marketplace has been established, see [Create a connection](..
 
 
 
-[comment]: <> (returns vorerst ignoieren)
+[comment]: <> (returns vorerst ignorieren)
 
 ## Configure the return import
 
