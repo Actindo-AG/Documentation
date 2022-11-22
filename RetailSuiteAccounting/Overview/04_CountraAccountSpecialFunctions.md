@@ -42,6 +42,6 @@ The tax rates specified below are the ones applicable in Germany.
 | 6 | General reversal with key **1** - EU-posting | The cancellation key **6** is used to cancel postings that have been entered with the cancellation key **1**. In this case, the original tax key must be specified as well.|
 | 7 | General reversal with key **5** - Individual tax key | The cancellation key **7** is used to cancel postings that have been entered with the cancellation key **5**.|
 | 8 | General reversal with key **4** - Cancellation of the posting automatic function | The cancellation key **8** is used to cancel postings that have been entered with the cancellation key **4**.|
-| 9 | Distributable input tax | The cancellation key 9 triggers, together with the tax keys 6 to 9, a posting of the input tax to the accounts for distributable input tax (instead of to the accounts for deductible input tax).|
+| 9 | Distributable input tax | The cancellation key **9** triggers, together with the tax keys **6** to **9**, a posting of the input tax to the accounts for distributable input tax (instead of to the accounts for deductible input tax).|
 
 [comment]: <> (Termfrage: Individual key oder customized/personalized key? Fehlende Info in Zeile 7 aus alter Doku genommen: https://www.actindo.com/de/doku/app-hilfe/handbuch/retailsuiteaccounting/latest/Grundlagen/Grundlagen.html Kurz getestet, scheint bei mir nicht zu funktionieren)
