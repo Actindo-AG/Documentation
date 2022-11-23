@@ -1,4 +1,4 @@
-[!!User Interface Logging](../UserInterface/to_be_completed)
+[!!User interface Logging](../UserInterface/to_be_completed)
 
 # Configure the logging settings
 
@@ -61,23 +61,23 @@ No prerequisites to fulfill.
 ![Logging](../../Assets/Screenshots/Channels/Settings/Logging/Logging.png "[Logging]")
 
 1. Click the log level of the log message whose retention time you want to edit in the left *Setting* side menu. The following logs levels are available:
-  - Emergency
-  - Alert
-  - Critical
-  - Error
-  - Warning
-  - Notice
-  - Info
-  - Debug   
+  - *Emergency*
+  - *Alert*
+  - *Critical*
+  - *Error*
+  - *Warning*
+  - *Notice*
+  - *Info*
+  - *Debug*
 
   The retention time of the selected log level is displayed on the right side.
 
   ![Notice](../../Assets/Screenshots/Channels/Settings/Logging/Notice.png "[Notice]")
 
-  >[Info] The procedure to change the log's retention time is identical for all log levels.
+  >[Info] The procedure to change the log retention time is identical for all log levels.
 
 2. Disable the *Apply from default* toggle in the upper right corner.   
-  The field to define the log's retention time until cleanup is unlocked.
+  The field to define the log retention time until cleanup is unlocked.
 
   ![Retention time](../../Assets/Screenshots/Channels/Settings/Logging/RetentionTime.png "[Retention time]")
 

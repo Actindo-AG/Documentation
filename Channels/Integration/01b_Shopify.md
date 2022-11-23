@@ -81,11 +81,11 @@ A Shopify connection has been established, see [Create a Shopify connection](#cr
   ![Edit connection credentials](../../Assets/Screenshots/Channels/Settings/Connections/Shopify/EditConnectionCredentials.png "[Edit connection credentials]")
 
 2. Click the *Settings* tab.   
-  The *Settings* tab is displayed. By default, the *Id in Shop* setting is displayed.
+  The *Settings* tab is displayed. By default, the *ID in Shop* setting is displayed.
 
   ![Edit connection settings ID](../../Assets/Screenshots/Channels/Settings/Connections/Shopify/EditConnectionSettings_ID.png "[Edit connection settings ID]")
 
-3. If necessary, enable the *Enable OrderName as Id in Shop* toggle to use the order name instead of the order ID as ID in the Shopify shop.
+3. If necessary, enable the *Enable OrderName as ID in Shop* toggle to use the order name instead of the order ID as ID in the Shopify shop.
 
 4. Click the *Default Tax Class for Order import* menu entry in the left side bar.   
   The *Default Tax Class for Order import* view is displayed on the right side.
@@ -102,7 +102,8 @@ A Shopify connection has been established, see [Create a Shopify connection](#cr
 7. If necessary, configure the following settings:
   + Click the *Select default Tax Class* drop-down list and select a tax class that will be set as default tax class for the offer import if no tax class could be found for the offer, neither within Shopify nor within *Omni-Channel*. All available tax classes are displayed in the list.  
   + Enter the shopify collection names you want to assign a certain tax class to in the field of the corresponding tax class within the *Save the title of the collections for each Tax Class here* section. For each available tax class, a single field is displayed.   
-  When importing the offers, the respective tax class is assigned to all products within collections specified in the corresponding tax class field. If a collection is not specified in any of the tax class fields, the default tax class specified in the *Select default Tax Class* drop-down list is applied to all products of this collection.
+
+  > [Info] When importing the offers, the respective tax class is assigned to all products within collections specified in the corresponding tax class field. If a collection is not specified in any of the tax class fields, the default tax class specified in the *Select default Tax Class* drop-down list is applied to all products of this collection.
 
 8. Click the [Save] button.   
   All changes have been saved. The *Saving successful* pop-up window is displayed.
@@ -111,7 +112,6 @@ A Shopify connection has been established, see [Create a Shopify connection](#cr
 
 
 ## Configure the Shopify ETL mapping
-
 
 Überverkauf (Lagerbestand = 0 -> Shopify sagt ausverkauft oder nicht -> wenn zum Zeitpunkt der Treiberinstallation PIM + PIM Channels Connection installiert war, wird das Feld per default auf NEIN gesetzt.  
 
