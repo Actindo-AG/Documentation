@@ -1,3 +1,7 @@
+[!!Manage the ETL Mappings](../Operation/01_ManageETLMappings.md)
+[!!Data type list](./04_DataTypeList.md)
+
+
 # ETL extensions list
 
 The ETL (Extract Transform Load) is used to extract data from a certain source, transform it in a specific way and load it into a defined destination. In the *DataHub* module, the attribute sets are mapped via ETL. The attributes of the source attribute set are mapped to the attributes of the destination attribute set.   

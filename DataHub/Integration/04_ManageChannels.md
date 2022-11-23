@@ -1,4 +1,4 @@
-[!!User Interface Channels](../UserInterface/02e_Channels.md)
+[!!User interface Channels](../UserInterface/02e_Channels.md)
 [!!Configure the channel settings](../../PIM/Integration/ConfigureChannels.md)
 
 
@@ -55,7 +55,7 @@ After you have created a channel, you can edit its name, description and key.
 
 #### Prerequisites
 
-At least one channel has been created, see [Create a channel](../Integration/CreateChannel.md).
+At least one channel has been created, see [Create a channel](#create-a-channel).
 
 > [Info] By default, the *Actindo Basic* channel has been predefined in the *Core1 Platform*.
 

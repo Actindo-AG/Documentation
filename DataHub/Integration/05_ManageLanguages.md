@@ -1,4 +1,4 @@
-[!!User Interface Languages](../UserInterface/02f_Languages.md)
+[!!User interface Languages](../UserInterface/02f_Languages.md)
 [!!Configure the language settings](../../PIM/Integration/ConfigureLanguages.md)
 
 # Manage the languages
@@ -51,7 +51,7 @@ After you have created a language, you can edit its name or key.
 
 #### Prerequisites
 
-At least one language has been created, see [Create a language](../Integration/CreateLanguage.md).
+At least one language has been created, see [Create a language](#create-a-language).
 
 > [Info] By default, the languages *English (United States)* and *German (Germany)* have been predefined in the *Core1 Platform*.
 

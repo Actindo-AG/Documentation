@@ -1,3 +1,8 @@
+[!!Recover an attribute](../Integration/01_ManageAttributes.md#recover-an-attribute)
+[!!Permanently delete an attribute](../Integration/01_ManageAttributes.md#permanently-delete-an-attribute)
+[!!Data type list](./04_DataTypeList.md)
+
+
 # Deleted attributes
 
 *DataHub > Settings > Tab DELETED ATTRIBUTES*
@@ -23,11 +28,9 @@
 
 - [RECOVER]   
   Click this button to recover the selected attribute. This button is only displayed if the checkbox of an attribute is selected.    
-  For detailed information, see [Recover an attribute](../Integration/01_ManageAttributes.md#recover-an-attribute).
 
 - [DELETE]   
   Click this button to irretrievably delete the selected attribute. This button is only displayed if the checkbox of an attribute is selected.       
-  For detailed information, see [Permanently delete an attribute](../Integration/01_ManageAttributes.md#permanently-delete-an-attribute).
 
 The list displays all deleted attributes. Depending on the settings, the displayed columns may vary. All fields are read-only.
 
@@ -38,7 +41,7 @@ The list displays all deleted attributes. Depending on the settings, the display
   Attribute key.
 
 - *Data type*   
-  Attribute data type. For detailed information about all data types, see [Data type list](./04_DataTypeList.md).
+  Attribute data type.
 
 - *Description*   
   Description to the attribute.

@@ -1,3 +1,5 @@
+[!!Manage the dashboards](../Operation/04_ManageDashboards.md)
+
 # Dashboards
 
 *DataHub > Overview > Tab DASHBOARDS*

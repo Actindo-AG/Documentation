@@ -1,3 +1,9 @@
+[!!Create a language](../Integration/05_ManageLanguages.md#create-a-language)
+[!!Edit a language](../Integration/05_ManageLanguages.md#edit-a-language)
+[!!Delete a language](../Integration/05_ManageLanguages.md#delete-a-language)
+[!!Deactivate a language](../Integration/05_ManageLanguages.md#deactivate-a-language)
+
+
 # Languages
 
 *DataHub > Settings > Tab LANGUAGES*
@@ -23,7 +29,6 @@
 
 - [EDIT]   
   Click this button to edit the selected language. This button is only displayed if a single checkbox of a language is selected. Alternatively, you can click directly a row in the list to edit a language.
-  For detailed information, see [Edit a language](../Integration/05_ManageLanguages.md#edit-a-language).
 
 - [DELETE]   
   Click this button to delete the selected language. This button is only displayed if the checkbox of at least one language is selected.       

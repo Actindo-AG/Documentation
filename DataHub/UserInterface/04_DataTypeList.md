@@ -1,3 +1,5 @@
+[!!Create an attribute](../Integration/01_ManageAttributes.md#create-an-attribute)
+
 # Data type list
 
 To create an attribute, you have to define a data type.

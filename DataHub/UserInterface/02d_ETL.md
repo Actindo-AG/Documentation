@@ -1,3 +1,13 @@
+[!!Edit an ETL attribute set mapping](../Operation/01_ManageETLMappings.md#edit-an-etl-attribute-set-mapping)
+[!!Rerun an attribute set mapping](../Operation/01_ManageETLMappings.md#rerun-an-attribute-set-mapping)
+[!!Rerun a single attribute mapping](../Operation/01_ManageETLMappings.md#rerun-a-single-attribute-mapping)
+[!!Edit the ETL attribute mappings](../Operation/01_ManageETLMappings.md#edit-the-etl-attribute-mappings)
+[!!Delete an ETL attribute mapping](../Operation/01_ManageAttributes.md#delete-an-etl-attribute-mapping)
+[!!Add a custom mapping for a destination attribute](../Operation/01_ManageETLMappings.md#add-a-custom-mapping-for-a-destination-attribute)
+[!!ETL extensions list](./03_ETLExtensions.md)
+[!!Data type list](./04_DataTypeList.md)
+
+
 # ETL
 
 *DataHub > Settings > Tab ETL*
@@ -22,7 +32,6 @@
 
 - ![Edit](../../Assets/Icons/Edit01.png "[Edit]") (Edit)   
   Click this button to edit the selected attribute set mapping. This button is only displayed if the checkbox of an attribute set mapping is selected. Alternatively, you can click directly a row in the list to edit an attribute set mapping.
-  For detailed information, see [Edit an ETL attribute set mapping](../Operation/01_ManageETLMappings.md#edit-an-etl-attribute-set-mapping).
 
 The list displays all attribute set mappings. Depending on the settings, the displayed columns may vary. All fields are read-only.
 
@@ -99,7 +108,7 @@ The list displays all attribute set mappings. Depending on the settings, the dis
   Click this button to close the *Mapping from "Source attribute set name" to "Destination attribute set name"* view and return to the list of attribute set mappings. All changes are rejected.
 
 - [RERUN MAPPINGS]   
-  Click this button to rerun all attribute mappings within the attribute set mapping. The *Rerun all mappings* window is displayed. For detailed information, see [Rerun an attribute set mapping](../Operation/01_ManageETLMappings.md#rerun-an-attribute-set-mapping)
+  Click this button to rerun all attribute mappings within the attribute set mapping. The *Rerun all mappings* window is displayed. 
 
 **Mapping from "Source attribute set name" to "Destination attribute set name"**
 
@@ -125,11 +134,9 @@ The list displays all attribute set mappings. Depending on the settings, the dis
 
 - ![Edit](../../Assets/Icons/Edit01.png "[Edit]") (Edit)   
   Click this button to edit the mapping to the selected destination attribute. This button is only displayed if the checkbox of a mapping is selected. Alternatively, you can click directly a row in the list to edit the mapping to a destination attribute.
-  For detailed information, see [Edit the ETL attribute mappings](../Operation/01_ManageETLMappings.md#edit-the-etl-attribute-mappings).
 
 - ![Delete](../../Assets/Icons/Trash03.png "[Delete]") (Delete)   
   Click this button to delete the selected mapping to the destination attribute. This button is only displayed if the checkbox of a mapping is selected.       
-  For detailed information, see [Delete an ETL attribute mapping](../Operation/01_ManageAttributes.md#delete-an-etl-attribute-mapping).
 
 - [ADD TO SOURCE SET AND MAP]   
   Click this button to add the selected destination attribute to the source attribute set and create a mapping. By default, the *Identity-mapping* extension is used to map the attributes. The button is only displayed if no mapping to the selected destination attribute already exists.
@@ -137,13 +144,10 @@ The list displays all attribute set mappings. Depending on the settings, the dis
   [comment]: <> (Stimmt das? Warum wird mir bei dem Attribut ve die Option nie angezeigt?)
 
 - [RERUN SELECTED MAPPING]   
-  Click this button to rerun the selected attribute mapping. The button is only displayed if a mapping to the selected destination attribute already exists. The *Rerun single mapping* window is displayed.   
-  For detailed information, see [Rerun a single attribute mapping](../Operation/01_ManageETLMappings.md#rerun-a-single-attribute-mapping).
+  Click this button to rerun the selected attribute mapping. The button is only displayed if a mapping to the selected destination attribute already exists. The *Rerun single mapping* window is displayed.
 
 - [CUSTOM DESTINATION ATTRIBUTE CHANNEL AND LANGUAGE]    
   Click this button to define a custom channel and/or language attribute mapping for the selected destination attribute. The *Settings* section is displayed on the right side of the *Mapping from "Source attribute set name" to "Destination attribute set name"* view with a drop-down list for the language and/or channel. The button is only displayed if the destination attribute of the selected mapping is multi-language or multi-channel.   
-  For detailed information, see [Add a custom mapping for a destination attribute](../Operation/01_ManageETLMappings.md#add-a-custom-mapping-for-a-destination-attribute)
-
 
 The list displays all attribute mappings. Depending on the settings, the displayed columns may vary. All fields are read-only.
 
@@ -181,8 +185,6 @@ Depending on the selected row in the list of mappings, the fields displayed in t
 
 - *Extension*   
   Click the drop-down list and select the appropriate ETL extension for the attribute mapping. The displayed extensions depend on the data type of the selected destination attribute.    
-  For detailed information about the ETL extensions and the different data types, see [ETL extensions list](./03_ETLExtensions.md) or [Data type list](./04_DataTypeList.md).
-
 
 - *Override change tracking mode*   
   Click the drop-down list and select the change tracking mode of the mapping. By default, the **Use default** option is selected. The following modes are available:
@@ -200,13 +202,11 @@ Depending on the selected row in the list of mappings, the fields displayed in t
 
 - *Source attribute*   
   Click the drop-down list within the arrow box and select the appropriate source attribute for the mapping. Depending on the selected ETL extension, one or several *Source attribute* arrow boxes are displayed. The selection in the drop-down list depends on the selected ETL extension, which defines the required data type of the source attribute(s).    
-  For detailed information about the ETL extensions and the different data types, see [ETL extensions list](./03_ETLExtensions.md) or [Data type list](./04_DataTypeList.md).  
 
 
 **Configuration**
 
 The *Configuration* section displays the additional configuration for the mapping. The configuration fields differ depending on the selected ETL extension.    
-For detailed information about the different configurations of ETL extensions, see [ETL extensions list](./03_ETLExtensions.md).
 
 
 

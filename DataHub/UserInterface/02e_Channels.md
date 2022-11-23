@@ -1,3 +1,9 @@
+[!!Create a channel](../Integration/04_ManageChannels.md#create-a-channel)
+[!!Edit a channel](../Integration/04_ManageChannels.md#edit-a-channel)
+[!!Delete a channel](../Integration/04_ManageChannels.md#delete-a-channel)
+[!!Deactivate a channel](../Integration/04_ManageChannels.md#deactivate-a-channel)
+
+
 # Channels
 
 *DataHub > Settings > Tab CHANNELS*
@@ -23,7 +29,6 @@
 
 - [EDIT]   
   Click this button to edit the selected channel. This button is only displayed if a single checkbox of a channel is selected. Alternatively, you can click directly a row in the list to edit a channel.
-  For detailed information, see [Edit a channel](../Integration/04_ManageChannels.md#edit-a-channel).
 
 - [DELETE]   
   Click this button to delete the selected channel. This button is only displayed if the checkbox of at least one channel is selected.       

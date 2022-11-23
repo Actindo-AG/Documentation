@@ -1,3 +1,7 @@
+[!!Create an HTML template](../Operation/03_ManageHTMLTemplates.md#create-an-html-template)
+[!!Edit an HTML template](../Operation/03_ManageHTMLTemplates.md#edit-an-html-template)
+
+
 # HTML templates
 
 *DataHub > Settings > Tab HTML TEMPLATES*
@@ -22,7 +26,6 @@
 
 - ![Edit](../../Assets/Icons/Edit01.png "[Edit]") (Edit)   
   Click this button to edit the selected HTML template. This button is only displayed if the checkbox of an HTML template is selected. Alternatively, you can click directly a row in the list to edit an HTML template.   
-  For detailed information, see [Edit an HTML template](../Operation/03_ManageHTMLTemplates.md#edit-an-html-template).
 
 The list displays all HTML templates. Depending on the settings, the displayed columns may vary. All fields are read-only.
 
@@ -67,8 +70,6 @@ The list displays all HTML templates. Depending on the settings, the displayed c
 
 - Textarea   
   Enter the content for the HTML template. Use the Smarty template engine to include variables and tags to the template, see [Smarty](https://www.smarty.net/) .    
-  For detailed information, see [Create an HTML template](./03_ManageHTMLTemplates#create-an-html-template).
-
 
 **Preview**
 
@@ -119,8 +120,6 @@ The list displays all HTML templates. Depending on the settings, the displayed c
 
 - Textarea   
   Click the field to edit the content for the HTML template. Use the Smarty template engine to include variables and tags to the template, see [Smarty](https://www.smarty.net/) .   
-  For detailed information, see [Edit an HTML template](./03_ManageHTMLTemplates#edit-an-html-template).
-
 
 **Preview**
 

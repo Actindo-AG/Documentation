@@ -1,6 +1,6 @@
-DataHub[!!Omni-Channel](../../Channels/Overview/01_General.md)
-[!!User Interface ETL processes](../UserInterface/02h_ETLProcesses.md)
-[!!User Interface ETL](../UserInterface/02d_ETL.md)
+[!!Omni-Channel](../../Channels/Overview/01_General.md)
+[!!User interface ETL processes](../UserInterface/02h_ETLProcesses.md)
+[!!User interface ETL](../UserInterface/02d_ETL.md)
 [!!Manage the ETL mappings](./01_ManageETLMappings.md)
 [!!ETL extensions list](../UserInterface/03_ETLExtensions.md)
 

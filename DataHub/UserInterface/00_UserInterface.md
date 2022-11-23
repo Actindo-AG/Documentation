@@ -1,4 +1,4 @@
-# User Interface
+# User interface
 
 In this part of the *DataHub* documentation, you will find the following chapters:
 

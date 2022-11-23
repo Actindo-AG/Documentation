@@ -1,4 +1,4 @@
-[!!User Interface Attribute sets](../UserInterface/02b_AttributeSets.md)
+[!!User interface Attribute sets](../UserInterface/02b_AttributeSets.md)
 [!!Manage the attributes](./01_ManageAttributes.md)
 
 
@@ -25,7 +25,7 @@ Define the basic inputs, such as name and description, for the attribute set.
 
 #### Prerequisites
 
-Additional attributes for the attribute set have been created, see [Create an attribute](./01_ManageAttributs.md#create-an-attribute).
+Additional attributes for the attribute set have been created, see [Create an attribute](./01_ManageAttributes.md#create-an-attribute).
 
 #### Procedure
 
@@ -167,7 +167,7 @@ In the *DataHub* module all available attributes can be added to the different a
 #### Prerequisites
 
 - An attribute set has been created, see [Create an attribute set](#create-an-attribute-set).
-- At least one additional attribute  that is not yet assigned to the attribute set has been created, see [Create an attribute](./01_ManageAttributes.md#create-an-attribute).
+- At least one additional attribute that is not yet assigned to the attribute set has been created, see [Create an attribute](./01_ManageAttributes.md#create-an-attribute).
 
 #### Procedure
 

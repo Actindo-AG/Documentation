@@ -1,9 +1,9 @@
 [!!PIM](../../PIM/Overview/01_General.md)
-[!!User Interface Attributes](../UserInterface/02a_Attributes.md)
+[!!User interface Attributes](../UserInterface/02a_Attributes.md)
 [!!Manage the products](../../PIM/Operation/01_ManageProducts.md)
 [!!Manage the attribute sets](./02_ManageAttributeSets.md)
 [!!Data type list](../UserInterface/04_DataTypeList.md)
-
+[!!Create a variant set](../../PIM/Integration/07_ManageVariantSets.md#create-a-variant-set)
 
 # Manage an attribute
 

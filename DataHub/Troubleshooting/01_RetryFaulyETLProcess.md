@@ -1,4 +1,6 @@
-[!!User Interface ETL processes](../UserInterface/02h_ETLProcesses.md)
+[!!User interface ETL processes](../UserInterface/02h_ETLProcesses.md)
+[!!Manage the ETL processes](../Operation/02_ManageETLProcesses.md)
+
 
 # Retry a faulty ETL process
 

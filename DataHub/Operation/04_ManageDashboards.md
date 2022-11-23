@@ -1,4 +1,4 @@
-[!!User Interface Dashboards](../UserInterface/01a_Dashboards.md)
+[!!User interface Dashboards](../UserInterface/01a_Dashboards.md)
 
 
 # Manage the dashboards
