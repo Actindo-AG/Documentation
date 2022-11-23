@@ -1,9 +1,9 @@
 [!!PIM](../../PIM/Overview/01_General.md)
-[!!User Interface PIM](../../PIM/UserInterface/00_UserInterface.md)
+[!!User interface PIM](../../PIM/UserInterface/00_UserInterfmustace.md)
 [!!Manage the attributes](../../PIM/Integration/01_ManageAttributes.md)
-[!!Data type list](../../PIM/UserInterface/04_DataTypeList.md)
+[!!Data type list](../../DataHub/UserInterface/04_DataTypeList.md)
 [!!Manage the Cloudinary files](../Operation/01_ManageCloudinaryFiles.md)
-
+[!!Create a variant set](../../PIM/Operation/07_ManageVariantSets.md#create-a-variant-set)
 
 # Manage the Cloudinary attributes
 
@@ -20,7 +20,7 @@ Create a Cloudinary attribute to enable the upload of files from Actindo to Clou
 #### Prerequisites
 
 - A Cloudinary connection has been established, see [Establish a connection to Cloudinary](./01_EstablishConnection.md).
-- An attribute set has been created, see [Create an attribute set](../../PIM/Integration/02_ManageAttributeSets.md#Create-an-attribute-set).
+- An attribute set has been created, see [Create an attribute set](../../PIM/Integration/02_ManageAttributeSets.md#create-an-attribute-set).
 
 #### Procedure
 *PIM > Settings > Tab ATTRIBUTES*
@@ -45,7 +45,7 @@ Create a Cloudinary attribute to enable the upload of files from Actindo to Clou
 
 5. If desired, activate the *Multi-language* toggle to assign values in multiple languages to the attribute or activate the *Multi-channel* toggle to assign different attribute values in different channels.
 
-  > [Info] Be aware that only attributes which are neither multi-language nor multi-channel can be used as defining attributes for variants. For detailed information, see [Create a variant set](./07_ManageVariantSets.md#create-a-variant-set).
+  > [Info] Be aware that only attributes which are neither multi-language nor multi-channel can be used as defining attributes for variants. For detailed information, see [Create a variant set](../../PIM/Operation/07_ManageVariantSets.md#create-a-variant-set).
 
 6. Enable the *Active* toggle to activate the attribute after creation.
 
@@ -62,7 +62,7 @@ For detailed information about the Cloudinary configuration settings, see [Confi
 10. Click the [SAVE] button in the upper right corner.   
   The new Cloudinary attribute has been saved. The *Create attribute* view is closed.  
 
-11. Press **F5** to initialize the *Core1 Platform* and to apply the changes.   
+11. Press the **F5** key to initialize the *Core1 Platform* and to apply the changes.   
 
 
 ## Configure a Cloudinary attribute
@@ -110,4 +110,4 @@ All available structured metadata fields from the selected Cloudinary connection
 8. Click the [SAVE] button in the upper right corner.   
   The Cloudinary attribute has been saved with the corresponding configuration. The *Create attribute* view is closed.  
 
-9. Press **F5** to initialize the *Core1 Platform* and to apply the changes.   
+9. Press the **F5** key to initialize the *Core1 Platform* and to apply the changes.   
