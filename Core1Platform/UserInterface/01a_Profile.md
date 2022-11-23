@@ -1,3 +1,6 @@
+[!!Set up U2F from the administrator side](../MFA/Integration/02_AdminSetupActindo.md)
+
+
 # Profile
 
 *Avator icon > Menu entry Settings > Tab PROFILE*
