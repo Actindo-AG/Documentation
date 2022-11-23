@@ -148,7 +148,7 @@ The criteria to be compared with are defined in the configuration. Further, you 
   Enable this toggle to stop comparing the input value with the specified cases once the input value matches the first case. Disable the toggle to compare the input value with all specified cases, regardless of whether a case matches or not. By default, this toggle is disabled.
 
 - *Case X*    
-  Enter the value to be compared with the input value. The value must be valid JSON. You can enter a single value or an array with multiple values. If you enter single value, it is checked if the input value equals the specified value. If you enter an array, it is checked if the input value equals one of the values in the array.   
+  Enter the value to be compared with the input value. The value must be valid JSON and is type strict, for example a string must be specified as a string (**\"example\"**), an integer as an integer (**123**), and so on. You can enter a single value or an array with multiple values. If you enter single value, it is checked if the input value equals the specified value. If you enter an array, it is checked if the input value equals one of the values in the array.   
   You can specify up to 6 different cases. The cases are checked in order, that means, first *Case 1*, then *Case 2*, etc.
 
 
