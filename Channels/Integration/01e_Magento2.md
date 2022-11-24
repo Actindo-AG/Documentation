@@ -34,7 +34,7 @@ After the connection to a Magento2 shop has been established, further settings c
 
 3. Click the desired *Store view* drop-down list and select the appropriate language. The available languages are displayed in the drop-down list.  
 
-    > [Info] The selected language determines the language of the products to be uploaded in the corresponding store view. If further languages are needed, they must be added in the *DataHub* module first, see [Manage the languages] (../../../DataHub/Integration/05_ManageLanguages.md).
+    > [Info] The selected language determines the language of the products to be uploaded in the corresponding store view. If further languages are needed, they must be added in the *DataHub* module first, see [Manage the languages](../../../DataHub/Integration/05_ManageLanguages.md).
 
 [comment]: <> (Stimmt das so?)
 
