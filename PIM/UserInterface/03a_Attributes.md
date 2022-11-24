@@ -1,3 +1,9 @@
+[!!Edit an attribute](../Integration/01_ManageAttributes.md#edit-an-attribute)
+[!!Delete an attribute](../Integration/01_ManageAttributes.md#delete-an-attribute)
+[!!Add an attribute to the set](../Integration/02_ManageAttributeSets.md#add-an-attribute-to-the-set)
+[!!Data type list](../../DataHub/UserInterface/04_DataTypeList.md)
+
+
 # Attributes
 
 *PIM > Settings > Tab ATTRIBUTES*
@@ -23,11 +29,9 @@
 
 - [EDIT]      
   Click this button to edit the selected attribute. This button is only displayed if the checkbox of an attribute is selected. Alternatively, you can click directly a row in the list to edit an attribute.   
-  For detailed information, see [Edit an attribute](../Integration/01_ManageAttributes.md#edit-an-attribute).
 
 - [DELETE]   
   Click this button to delete the selected attribute. This button is only displayed if the checkbox of an attribute is selected.       
-  For detailed information, see [Delete an attribute](../Integration/01_ManageAttributes.md#delete-an-attribute).
 
 The list displays all attributes. Depending on the settings, the displayed columns may vary. All fields are read-only.
 
@@ -49,7 +53,6 @@ The list displays all attributes. Depending on the settings, the displayed colum
 
 - *Data type*   
   Attribute data type.    
-  For detailed information about all data types, see [Data type list](../../DataHub/UserInterface/04_DataTypeList.md).
 
 - *Description*   
   Description to the attribute.
@@ -128,7 +131,6 @@ The list displays all attributes. Depending on the settings, the displayed colum
 
 - *Data type*   
   Click the drop-down list and select an attribute data type. The ![Add](../../Assets/Icons/Plus05.png "[Add]") (Add) button in the *Assigned sets* field is unlocked.   
-  For detailed information about all data types, see [Data type list](../../DataHub/UserInterface/04_DataTypeList.md).
 
 
 - *Key*   
@@ -162,8 +164,6 @@ The list displays all attributes. Depending on the settings, the displayed colum
 
 The *CONFIGURATION* section displays the additional configuration for the selected data type. The configuration fields differ depending on the selected data type.
 As some data types have no further configuration settings, no *CONFIGURATION* section is displayed for these data types.    
-For detailed information about the different configurations of data types, see [Data type list](../../DataHub/UserInterface/04_DataTypeList.md).
-
 
 ## Edit attribute
 
@@ -201,7 +201,6 @@ For detailed information about the different configurations of data types, see [
 
 - *Data type*   
   Attribute data type. In the *Edit attribute* view, this field is locked.    
-  For detailed information about all data types, see [Data type list](../../DataHub/UserInterface/04_DataTypeList.md).
 
 - *Key*   
   Attribute key. In the *Edit attribute* view, this field is locked.
@@ -219,8 +218,6 @@ For detailed information about the different configurations of data types, see [
 
 The *CONFIGURATION* section displays the additional configuration for the selected data type. The configuration fields differ depending on the selected data type.    
 As some data types have no further configuration settings, no *CONFIGURATION* section is displayed for these data types.    
-For detailed information about the different configurations of data types, see [Data type list](../../DataHub/UserInterface/04_DataTypeList.md).
-
 
 
 ### Edit attribute &ndash; Attribute set assignments

@@ -1,7 +1,9 @@
 [!!DataHub](../../DataHub/Overview/01_General.md)
 [!!User interface Attributes](../UserInterface/03a_Attributes.md)
 [!!Manage the products](../Operation/01_ManageProducts.md)
-[!!Data type list](../UserInterface/04_DataTypeList.md)
+[!!Create a variant set](./07_ManageVariantSets.md#create-a-variant-set)
+[!!Manage an attribute set](../Integration/02_ManageAttributeSets.md)
+[!!Data type list](../../DataHub/UserInterface/04_DataTypeList.md)
 [!!Recover an attribute](../../DataHub/Integration/01_ManageAttribute.md#recover-an-attribute)
 [!!Permanently delete an attribute](../../DataHub/Integration/01_ManageAttributes.md#permanently-delete-an-attribute)
 
@@ -70,7 +72,7 @@ No prerequisites to fulfill.
 
 3. Select a data type in the *Data type* drop-down list.   
  The ![Add](../../Assets/Icons/Plus05.png "[Add]") (Add) button in the *Assigned sets* field is unlocked. Depending on the selected data type, the *CONFIGURATION* section is displayed.    
- For detailed information about all data types, see [Data type list](../UserInterface/04_DataTypeList.md).
+ For detailed information about all data types, see [Data type list](../../Datahub/UserInterface/04_DataTypeList.md).
 
    > [Info] The settings displayed in the *CONFIGURATION* section depend on the selected data type.
 
@@ -93,7 +95,7 @@ No prerequisites to fulfill.
   > [Info] You can assign the attribute to multiple sets. Repeat the steps **7** to **8** to assign the attribute to a further attribute set. To delete the assignment to a selected set, click the ![Delete](../../Assets/Icons/Trash01.png "[Delete]") (Delete) button right to the set.
 
 8. If required, configure the settings in the *CONFIGURATION* section.   
-  For detailed information about the different configuration settings, see [Data type list](../UserInterface/04_DataTypeList.md).
+  For detailed information about the different configuration settings, see [Data type list](../../Datahub/UserInterface/04_DataTypeList.md).
 
   > [Info] By default, the status of a new attribute is set to active. To deactivate a new attribute for use, disable the *Active* toggle.    
   For detailed information, see [Deactivate an attribute](#deactivate-an-attribute).
@@ -106,7 +108,7 @@ No prerequisites to fulfill.
 ## Edit an attribute
 
 After you have created an attribute, you can edit it. However, only some attribute properties are editable. For instance, the data type and the attribute key cannot be subsequently modified.
-The assignment of an attribute to an attribute set must be changed in the [attribute set](ManageAttributeSet.md) itself.   
+The assignment of an attribute to an attribute set must be changed in the attribute set itself, see [Manage an attribute set](../Integration/02_ManageAttributeSets.md).   
 There are also some attributes that are automatically created by the system, for instance when installing a plugin or module.
 Some of these system attributes are read-only and cannot be edited at all. It is highly recommended not to deactivate these system attributes to avoid interfering with the functioning of the *Core1 Platform*.
 
@@ -135,7 +137,7 @@ At least one attribute has been created, see [Create an attribute](#create-an-at
 
   ![Edit attribute assignments](../../Assets/Screenshots/PIM/Settings/Attributes/EditAttribute_Assignments.png "[Edit attribute assignments]")
 
-  > [Info] If you want to change the attribute set assignments of the selected attribute, you have to modify the corresponding attribute set, see [Manage the attribute sets](./02_ManageAttributeSets.md).
+  > [Info] If you want to change the attribute set assignments of the selected attribute, you have to modify the corresponding attribute set, see [Manage an attribute set](./02_ManageAttributeSets.md).
 
 4. Click the [SAVE] button in the upper right corner.   
   The changes have been saved. The *Edit attribute* view is closed.  

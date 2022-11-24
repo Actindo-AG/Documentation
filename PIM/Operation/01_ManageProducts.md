@@ -1,6 +1,7 @@
 [!!Omni-Channel](../../Channels/Overview/01_General.md)   
 [!!User interface Product list](../UserInterface/02a_List.md)   
 [!!Manage the variants](./02_ManageVariants.md)
+[!!Manage an attribute set](./02_ManageAttributeSets.md)
 
 
 # Manage a product
@@ -66,6 +67,7 @@ Edit one or several attribute values for a single product.
 At least one product has been created, see [Create a product](#create-a-product).
 
 #### Procedure
+
 *PIM > Products > Tab LIST*
 
 ![Product list](../../Assets/Screenshots/PIM/Products/List/Products.png "[Product list]")
@@ -271,6 +273,7 @@ To create offers to a product for several connections at the same time, you can 
 [comment]: <> (Add link to chapter in Channels when documentation is written)
 
 #### Procedure
+
 *PIM > Products > Tab LIST*
 
 ![PIM Products](../../Assets/Screenshots/PIM/Products/List/Products.png "[PIM Products]")

@@ -1,3 +1,8 @@
+[!!Create an attribute group](../Integration/03_ManageAttributeGroups.md#create-an-attribute-group)
+[!!Edit an attribute group](../Integration/03_ManageAttributeGroups.md#edit-an-attribute-group)
+[!!Create an attribute sub-group](../Integration/03_ManageAttributeGroups.md#create-an-attribute-sub-group)
+
+
 # Attribute groups
 
 *PIM > Settings > Tab ATTRIBUTE GROUPS*
@@ -8,7 +13,6 @@
 
 - ![Edit](../../Assets/Icons/Edit02.png "[Edit]") (Edit)   
   Click this button to edit the attribute groups. The *Edit attribute groups* view is displayed.   
-  For detailed information, see [Edit an attribute group](../Integration/03_ManageAttributeGroups.md#edit-an-attribute-group).
 
 - ![Folders](../../Assets/Icons/Folders01.png "[Folders]") (Folders)  
   Attribute group that contains attribute sub-groups. Click the attribute group or the arrow *>* left to the attribute group to unfold the group and display the attribute sub-groups.
@@ -159,7 +163,6 @@ The list displays all attributes that are not assigned to the selected attribute
 
 - ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add)   
   Click this button to add an attribute group or sub-group. A plus sign is displayed in each displayed column. Click the plus sign in the desired column to add a new attribute group or sub-group to the selected attribute group. The *Add element* window is displayed.    
-  For detailed information about creating attribute groups or sub-groups, see [Create an attribute group](../Integration/03_ManageAttributeGroups.md#create-an-attribute-group) or [Create an attribute sub-group](../Integration/03_ManageAttributeGroups.md#create-an-attribute-sub-group).
 
   > [Info] Attribute groups are organized in a tree structure with a maximum depth of two levels. That means that a maximum of one sub-group level can be added to an attribute group.
 

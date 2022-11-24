@@ -1,6 +1,6 @@
 [!!User interface Product list](../UserInterface/02a_List.md)   
 [!!Manage the products](./01_ManageProducts.md)
-[!!Create a variant set](../Integration/07_ManageVariantSets.md#create-a-variant-set)
+[!!Manage a variant set](../Integration/07_ManageVariantSets.md)
 
 
 # Manage a variant
@@ -21,6 +21,7 @@ Define the basic inputs, such as name and description, for the variant.
 A variant set has been created to the attribute set of the product you want to assign the variants to, see [Create a variant set](../Integration/07_ManageVariantSets.md#create-a-variant-set).
 
 #### Procedure
+
 *PIM > Products > Tab LIST*
 
 ![Product list](../../Assets/Screenshots/PIM/Products/List/Products.png "[Product list]")
@@ -70,6 +71,7 @@ Create a single variant to a product.
 A variant set has been created to the attribute set of the product you want to assign the variants to, see [Create a variant set](../Integration/07_ManageVariantSets.md#create-a-variant-set).
 
 #### Procedure
+
 *PIM > Products > Tab LIST > Button Add > Tab Variants > Select variant set > Button Add*   
 *PIM > Products > Tab LIST > Select Product > Tab Variants > Button Add*
 
@@ -103,6 +105,7 @@ Create multiple variants at once for the same master product.
 A variant set has been created to the attribute set of the product you want to assign the variants to, see [Create a variant set](../Integration/07_ManageVariantSets.md#create-a-variant-set).
 
 #### Procedure
+
 *PIM > Products > Tab LIST > Button Add > Tab Variants > Select variant set > Button Add*   
 *PIM > Products > Tab LIST > Select Product > Tab Variants > Button Add*
 
@@ -157,6 +160,7 @@ You can add a single or multiple variants to an existing product.
 - A variant set has been created to the attribute set of the master product, see [Create a variant set](../Integration/07_ManageVariantSets.md#create-a-variant-set).
 
 #### Procedure
+
 *PIM > Products > Tab LIST*
 
 ![Product list](../../Assets/Screenshots/PIM/Products/List/Products.png "[Product list]")
@@ -193,6 +197,7 @@ After you have created a variant, you can edit it. Note that only defining and c
 At least one variant has been created, see [Create variants](#create-variants) or [Add variants](#add-variants).
 
 #### Procedure
+
 *PIM > Products > Tab LIST*
 
 ![Product list](../../Assets/Screenshots/PIM/Products/List/Products.png "[Product list]")

@@ -1,10 +1,11 @@
 [!!DataHub](../../DataHub/Overview/01_General.md)
 [!!User interface Product list](../UserInterface/02a_List.md)   
-[!!Create a language](../../DataHub/Integration/CreateLanguage.md)
+[!!Create a language in DataHub](../../DataHub/Integration/CreateLanguage.md)
 [!!Configure the language settings](../Integration/04_ConfigureLanguages.md)
-[!!Create a channel](../../DataHub/Integration/CreateChannel.md)
+[!!Create a channel in DataHub](../../DataHub/Integration/CreateChannel.md)
 [!!Configure the channel settings](../Integration/05_ConfigureChannels.md)
 [!!Manage the catalogs](../Integration/06_ManageCatalogs.md)
+
 
 # Manage the view
 
@@ -22,6 +23,7 @@ At least two languages have been created and activated in the *PIM* module, see 
 > [Info] By default, the languages *English (United States)* and *Deutsch (Deutschland)* are created and activated in the *PIM* module.
 
 #### Procedure
+
 *PIM > Products > Tab LIST*
 
 ![Product list](../../Assets/Screenshots/PIM/Products/List/Products.png "[Product list]")
@@ -49,6 +51,7 @@ At least two channels have been created and activated in the *PIM* module, see [
 > [Info] By default, the channel *Actindo Basic* is created and activated in the *PIM* module.
 
 #### Procedure
+
 *PIM > Products > Tab LIST*
 
 ![Product list](../../Assets/Screenshots/PIM/Products/List/Products.png "[Product list]")
@@ -76,6 +79,7 @@ You can select a product category to limit the number of products to those assig
 - At least one product has been assigned to a category, see [Assign a product to a catalog category](../Integration/06_ManageCatalogs.md#assign-a-product-to-a-catalog-category)
 
 #### Procedure
+
 *PIM > Products > Tab LIST*
 
 ![Product list](../../Assets/Screenshots/PIM/Products/List/Products.png "[Product list]")
@@ -132,6 +136,7 @@ No prerequisites to fulfill.
 > [Info] Depending on the view you want to create, it is necessary to fulfill the corresponding prerequisites in the chapters [Select a language](#select-a-language), [Select a channel](#select-a-channel) or [Select a product category](#select-a-product-category).
 
 #### Procedure
+
 *PIM > Products > Tab LIST*
 
 ![Product list](../../Assets/Screenshots/PIM/Products/List/Products.png "[Product list]")

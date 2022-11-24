@@ -1,3 +1,13 @@
+[!!Manage the view](../Operation/04_ManageView.md)
+[!!Create a product](../Operation/01_ManageProducts.md#create-a-product)
+[!!Edit a product](../Operation/01_ManageProducts.md#edit-a-single-product)
+[!!Mass editing](../Operation/01_ManageProducts.md#mass-editing)
+[!!Copy a product](../Operation/01_ManageProducts.md#copy-a-product)
+[!!Archive a product](../Operation/03_MoveProducts.md#archive-a-product)
+[!!Delete a product](../Operation/03_MoveProducts.md#delete-a-product)
+[!!Data type list](../../DataHub/UserInterface/04_DataTypeList.md)
+
+
 # List
 
 *PIM > Products > Tab LIST*
@@ -6,7 +16,6 @@
 
 - *View*   
   Click the drop-down list to select the view. All created views are displayed in the drop-down list. Click the ![Points](../../Assets/Icons/Points01.png "[Points]") (Points) button to the right of the *View* drop-down list to display the context menu and create or edit a view.    
-  For detailed information, see [Create a view](../Operation/04_ManageView.md#create-a-view).
 
   - View context menu   
     Click the ![Points](../../Assets/Icons/Points01.png "[Points]") (Points) button to the right of the *View* drop-down list to display the context menu. The following menu entries are available:
@@ -38,16 +47,12 @@
 
 - *Language*   
   Click the drop-down list to select the language. All languages that are active in the *PIM* module are displayed in the drop-down list.    
-  For detailed information, see [Select a language](../Operation/04_ManageView.md#select-a-language).
 
 - *Channel*   
   Click the drop-down list to select the channel. All channels that are active in the *PIM* module are displayed in the drop-down list. By default, the **Actindo Basic** channel is preselected.   
-  For detailed information, see [Select a channel](../Operation/04_ManageView.md#select-a-channel).
 
 - *Catalog*   
   Click the drop-down list to select the catalog. All catalogs are displayed in the drop-down list. After having selected a catalog, all categories and sub-categories of the selected catalog are displayed. Click a category or sub-category to limit the product list to those products that are assigned to the selected category. By default, the **Product Categories** catalog is preselected.    
-  For detailed information, see [Select a product category](../Operation/04_ManageView.md#select-a-product-category).
-
 
 **Products**
 
@@ -64,8 +69,7 @@
     All products and their variants are displayed in the product list.   
   - **Hide variants**   
     No variants are displayed in the product list.   
-  For detailed information, see [Select a variant view](../Operation/04_ManageView.md#select-a-variant-view).
-
+    
 
 - ![Columns](../../Assets/Icons/Columns.png "[Columns]") Columns (x)   
   Click this button to display the columns bar and customize the displayed columns and the order of columns in the list. The *x* indicates the number of columns that are currently displayed in the list.
@@ -78,23 +82,18 @@
 
 - ![Edit](../../Assets/Icons/Edit01.png "[Edit]") (Edit)   
   Click this button to edit the selected product(s). This button is only displayed if the checkbox of at least one product is selected. Alternatively, you can click directly a row in the list to edit a product.    
-  For detailed information, see [Edit a product](../Operation/01_ManageProducts.md#edit-a-single-product).
 
 - [COPY PRODUCT]   
   Click this button to copy the selected product. This button is only displayed if the checkbox of a single product is selected.   
-  For detailed information, see [Copy a product](../Operation/01_ManageProducts.md#copy-a-product).
 
 - [ARCHIVE PRODUCT] / [ARCHIVE PRODUCTS]   
   Click this button to archive the selected product(s). This button is only displayed if the checkbox of at least one product is selected.   
-  For detailed information, see [Archive a product](../Operation/03_MoveProducts.md#archive-a-product).
 
 - [MOVE TO RECYCLE BIN]   
   Click this button to move the selected product(s) to the recycle bin. This button is only displayed if the checkbox of at least one product is selected.   
-  For detailed information, see [Delete a product](../Operation/03_MoveProducts.md#delete-a-product).
 
 - [START MASS EDITING]   
   Click this button to edit the selected products. This button is only displayed if the checkbox of at least one product is selected. The mass editing is only recommended if you select more than one product.   
-  For detailed information, see [Mass editing](../Operation/01_ManageProducts.md#mass-editing).
 
 Depending on the selection in the *Variants* drop-down list, the product list displays all products including their variants or only the single and master products. All fields are read-only. Depending on the settings, the displayed columns may vary.
 
@@ -140,7 +139,6 @@ Depending on the selection in the *Variants* drop-down list, the product list di
 
 - ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add)   
   Click this button to create a product. The *Create new product* window is displayed.    
-  For detailed information, see [Create a product](../Operation/01_ManageProducts.md#create-a-product).
 
 
 
@@ -327,7 +325,7 @@ For each defining attribute a single field or box to define the attribute value 
   Click this button to cancel adding a variant. The *Add single variant* window is closed.
 
 - [SAVE]   
-  Click this button to save the variant. The *Add single variant* window is closed..
+  Click this button to save the variant. The *Add single variant* window is closed.
 
 
 ### Add multiple variants
@@ -462,8 +460,6 @@ The catalog box displays all selected categories and their level. All fields are
 ![Associations](../../Assets/Screenshots/PIM/Products/List/Associations/AssociationsCreate.png "[Associations]")
 
 In this tab, boxes of all attributes with the *Related products* data type are displayed. The box titles differ depending on the corresponding attribute names, but the structure of all boxes is identical.   
-
-> [Info] For detailed information about the data types, see [Data type list](../../DataHub/UserInterface/04_DataTypeList.md).
 
 - [ADD]   
   Click this button to add an associated product to the list. The *Not associated products* window is displayed.
@@ -822,7 +818,7 @@ The list displays all created offers to this product. All fields are read-only.
 - *Sets*   
   Click the drop-down list to change the attribute set for the product. All available attribute sets are displayed in the drop-down list. The currently selected attribute set is highlighted in bold.
 
-  > [Warning] Changing the attribute set can cause a loss of data. Therefore, a confirmation window is displayed to confirm the attribute set change. It is recommended not to change the attribute set subsequently. Note that the change cannot be undone once you have saved the changes.
+  > [Caution] Changing the attribute set can cause a loss of data. Therefore, a confirmation window is displayed to confirm the attribute set change. It is recommended not to change the attribute set subsequently. Note that the change cannot be undone once you have saved the changes.
 
 
 ### Completeness
@@ -1143,8 +1139,6 @@ Click the [>] button to the left of a category checkbox to display their sub-cat
 ![Associations](../../Assets/Screenshots/PIM/Products/List/Associations/AssociationsEdit.png "[Associations]")
 
 In this tab, boxes of all attributes with the *Related products* data type are displayed. The box titles differ depending on the corresponding attribute names, but the structure of all boxes is identical.
-
-> [Info] For detailed information about the data types, see [Data type list](../../DataHub/UserInterface/04_DataTypeList.md).
 
 - [ADD]   
   Click this button to add an associated product to the list. The *Not associated products* window is displayed.

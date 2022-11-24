@@ -1,7 +1,7 @@
 [!!Warehouse](../../RetailSuiteWarehousing/Overview/01_General.md)
 [!!User interface Product list](../UserInterface/02a_List.md)   
 [!!User interface Warehouse](../../RetailSuiteWarehousing/UserInterface/00_UserInterface.md)
-[!!Data type list](../UserInterface/04_DataTypeList.md)
+[!!Data type list](../../Datahub/UserInterface/04_DataTypeList.md)
 
 
 # Add a missing stock value
@@ -17,6 +17,7 @@ Follow the instructions below to display the stock in the product view.
 No prerequisites to fulfill.
 
 #### Procedure
+
 *PIM > Products > Tab LIST*
 
 ![Products](../../Assets/Screenshots/PIM/Products/List/Products.png "[Products]")

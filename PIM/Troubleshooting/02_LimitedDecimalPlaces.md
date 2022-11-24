@@ -1,5 +1,5 @@
 [!!User interface Attributes](../UserInterface/03a_Attributes.md)
-[!!Data type list](../UserInterface/04_DataTypeList.md)
+[!!Data type list](../../Datahub/UserInterface/04_DataTypeList.md)
 
 
 # Edit a limited number of decimal places
@@ -17,6 +17,7 @@ Follow the instructions below to check why the number of decimals is limited and
 No prerequisites to fulfill.
 
 #### Procedure
+
 *PIM > Settings > Tab ATTRIBUTES*
 
 ![Attributes](../../Assets/Screenshots/PIM/Settings/Attributes/Attributes.png "[Attributes]")

@@ -1,3 +1,7 @@
+[!!Edit a variant set](../Integration/07_ManageVariantSets.md#edit-a-variant-set)
+[!!Data type list](../../DataHub/UserInterface/04_DataTypeList.md)
+
+
 # Variant Sets
 
 *PIM > Settings > Tab VARIANT SETS*
@@ -23,7 +27,6 @@
 
 - [EDIT]      
   Click this button to edit the selected variant set. This button is only displayed if a single checkbox in the list of variant sets is selected. Alternatively, you can click directly a row in the list to edit a variant set. The *Edit variant set* view is displayed.   
-  For detailed information, see [Edit a variant set](../Integration/07_ManageVariantSets.md#edit-a-variant-set).
 
 - [DELETE]     
   Click this button to delete the selected variant sets. This button is only displayed if the checkbox of at least one variant set is selected.
@@ -132,7 +135,6 @@ The list displays all defining attributes to the variant set. All fields are rea
 
 - *Data type*   
   Attribute data type.   
-  For detailed information about all data types, see [Data type list](../../DataHub/UserInterface/04_DataTypeList.md).
 
 - *ID*   
   Attribute identification number. The ID number is automatically assigned by the system.
@@ -171,7 +173,6 @@ The list displays all changeable attributes to the variant set. All fields are r
 
 - *Data type*   
   Attribute data type.   
-  For detailed information about all data types, see [Data type list](../../DataHub/UserInterface/04_DataTypeList.md).
 
 - *ID*   
   Attribute identification number. The ID number is automatically assigned by the system.
@@ -244,7 +245,6 @@ The list displays all defining attributes to the variant set. All fields are rea
 
 - *Data type*   
   Attribute data type.   
-  For detailed information about all data types, see [Data type list](../../DataHub/UserInterface/04_DataTypeList.md).
 
 - *ID*   
   Attribute identification number. The ID number is automatically assigned by the system.
@@ -283,7 +283,6 @@ The list displays all changeable attributes to the variant set. All fields are r
 
 - *Data type*   
   Attribute data type.   
-  For detailed information about all data types, see [Data type list](../../DataHub/UserInterface/04_DataTypeList.md).
 
 - *ID*   
   Attribute identification number. The ID number is automatically assigned by the system.
@@ -334,7 +333,6 @@ The list displays all available defining attributes. All fields are read-only. D
 
 - *Data type*   
   Attribute data type.    
-  For detailed information about all data types, see [Data type list](../../DataHub/UserInterface/04_DataTypeList.md).
 
 - *ID*   
   Attribute identification number. The ID number is automatically assigned by the system.
@@ -381,7 +379,6 @@ The list displays all available changeable attributes. All fields are read-only.
 
 - *Data type*   
   Attribute data type.   
-  For detailed information about all data types, see [Data type list](../../DataHub/UserInterface/04_DataTypeList.md).
 
 - *ID*   
   Attribute identification number. The ID number is automatically assigned by the system.

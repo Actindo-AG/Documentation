@@ -1,5 +1,6 @@
 [!!User interface Variant sets](../UserInterface/03g_VariantSets.md)
 [!!Manage the variants](../Operation/02_ManageVariants.md)
+[!!Manage an attribute set](./02_ManageAttributeSets.md)
 
 
 # Manage a variant set
@@ -12,6 +13,8 @@ Create a variant set to be able to create variants to products. A variant set is
 
 ### Define the variant set basic data
 
+Define the basic inputs, such as name and attribute set, for the variant set.
+
 #### Prerequisites
 
 An attribute set has been created, see [Create an attribute set](./02_ManageAttributeSets.md#create-an-attribute-set).
@@ -19,6 +22,7 @@ An attribute set has been created, see [Create an attribute set](./02_ManageAttr
 > [Info] By default, the *PIM Basic Set* attribute set has been created when installing the *PIM* module.
 
 #### Procedure
+
 *PIM > Settings > Tab VARIANT SETS*
 
 ![Variant sets](../../Assets/Screenshots/PIM/Settings/VariantSets/VariantSets.png "[Variant sets]")
@@ -61,6 +65,7 @@ You have to select at least one defining attribute to create a variant set. You 
 > [Info] By default, the *PIM Basic Set* attribute set has been created when installing the *PIM* module.
 
 #### Procedure
+
 *PIM > Settings > Tab VARIANT SETS > Button Add*
 
 ![Formulas](../../Assets/Screenshots/PIM/Settings/VariantSets/Formulas.png "[Formulas]")
@@ -99,6 +104,7 @@ You can select changeable attributes for a variant set. If you want to define an
 > [Info] By default, the *PIM Basic Set* attribute set has been created when installing the *PIM* module.
 
 #### Procedure
+
 *PIM > Settings > Tab VARIANT SETS > Button Add*
 
 ![Formulas](../../Assets/Screenshots/PIM/Settings/VariantSets/Formulas.png "[Formulas]")
@@ -132,6 +138,7 @@ After you have created a variant set, you can edit it. However, only some fields
 At least one variant set has been created, see [Create a variant set](#create-a-variant-set).
 
 #### Procedure
+
 *PIM > Settings > Tab VARIANT SETS*
 
 ![Variant sets](../../Assets/Screenshots/PIM/Settings/VariantSets/VariantSets.png "[Variant sets]")
@@ -161,6 +168,7 @@ You can remove defining and changeable attributes from the variant set. Note tha
 A variant set has been created, see [Create a variant set](#create-a-variant-set).
 
 #### Procedure
+
 *PIM > Settings > Tab VARIANT SETS*
 
 ![Variant sets](../../Assets/Screenshots/PIM/Settings/VariantSets/VariantSets.png "[Variant sets]")

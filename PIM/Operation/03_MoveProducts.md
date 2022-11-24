@@ -15,6 +15,7 @@ You can archive products that you are not currently using, but that you still wa
 At least one product has been created, see [Create a product](./01_ManageProducts.md#create-a-product).
 
 #### Procedure
+
 *PIM > Products > Tab LIST*    
 *PIM > Products > Tab RECYCLE BIN*
 
@@ -45,6 +46,7 @@ You can delete products that are no longer needed by moving them to the recycle 
 At least one product has been created, see [Create a product](./01_ManageProducts.md#create-a-product).
 
 #### Procedure
+
 *PIM > Products > Tab LIST*   
 *PIM > Products > Tab ARCHIVE*
 
@@ -75,6 +77,7 @@ You can permanently delete products that have been moved to the recycle bin unle
 At least one product has been moved to the recycle bin, see [Delete a product](#delete-a-product).
 
 #### Procedure
+
 *PIM > Products > Tab RECYCLE BIN*
 
 ![Recycle bin](../../Assets/Screenshots/PIM/Products/RecycleBin/RecycleBin.png "[Recycle bin]")
@@ -104,6 +107,7 @@ You can restore products that have been moved to the archive or the recycle bin 
 At least one product has been moved to the archive or the recycle bin, see [Archive a product](#archive-a-product) or [Delete a product](#delete-a-product).
 
 #### Procedure
+
 *PIM > Products > Tab ARCHIVE*   
 *PIM > Products > Tab RECYCLE BIN*
 

@@ -1,6 +1,6 @@
 [!!DataHub](../../DataHub/Overview/01_General.md)
 [!!User interface Channels](../UserInterface/03e_Channels.md)
-[!!Create a channel](../../DataHub/Integration/04_ManageChannels.md#create-a-channel)
+[!!Create a channel in DataHub](../../DataHub/Integration/04_ManageChannels.md#create-a-channel)
 
 
 # Configure the channel settings

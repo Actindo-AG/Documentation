@@ -1,3 +1,10 @@
+[!!Edit an attribute set](../Integration/02_ManageAttributeSets.md#edit-an-attribute-set)
+[!!ETL settings](../../DataHub/UserInterface/02d_ETL.md#settings)
+[!!Edit an ETL attribute mapping](../../DataHub/Operation/01_ManageETLMappings.md#edit-an-etl-attribute-mapping)
+[!!ETL extensions list](../../DataHub/UserInterface/03_ETLExtensions.md)
+[!!Data type list](../../DataHub/UserInterface/04_DataTypeList.md)
+
+
 # Attribute Sets
 
 *PIM > Settings > Tab ATTRIBUTE SETS*
@@ -23,7 +30,6 @@
 
 - [EDIT]
   Click this button to edit the selected attribute set. This button is only displayed if a single checkbox in the list of attribute sets is selected. Alternatively, you can click directly a row in the list to edit an attribute set.   
-  For detailed information, see [Edit an attribute set](../Integration/02_ManageAttributeSets.md#edit-an-attribute-set).
 
 - [DELETE]
   Click this button to delete the selected attribute set. This button is only displayed if the checkbox of at least one attribute set is selected. An attribute set cannot be deleted if any attribute is assigned to it.       
@@ -338,7 +344,6 @@ If the ![Settings](../../Assets/Icons/Settings01.png "[Settings]") (Settings) bu
 **CONFIGURATION**
 
 The *CONFIGURATION* section displays the additional configuration for the data type of the selected attribute. The configuration fields differ depending on the data type of the attribute.    
-For detailed information about the different configurations of data types, see [Data type list](../../DataHub/UserInterface/04_DataTypeList.md).
 
 
 ### Add mapping
@@ -350,7 +355,6 @@ For detailed information about the different configurations of data types, see [
 **Add mapping**
 
 This view equals the attribute mapping in the *DataHub* module: *DataHub > Settings > Tab ETL > Select attribute set mapping > Select mapping line*     
-For detailed information, see [ETL settings](../../DataHub/UserInterface/02d_ETL.md#settings).
 
 - ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)   
   Click this button to close the *Edit mapping* view and return to *Edit attribute set* view. All changes are rejected.
@@ -366,8 +370,7 @@ For detailed information, see [ETL settings](../../DataHub/UserInterface/02d_ETL
 
 - *Extension*   
   Click the drop-down list and select the appropriate ETL extension for the attribute mapping. The displayed extensions depend on the data type of the selected destination attribute.      
-  For detailed information about the ETL extensions and the different data types, see [ETL extensions list](../../DataHub/UserInterface/03_ETLExtensions.md) or [Data type list](../../DataHub/UserInterface/04_DataTypeList.md).
-
+  
 
 - *Override change tracking mode*   
   Change tracking mode (ETL mode) for the mapping. The drop-down list is read-only. By default, the **Use default** option is selected. The following options are available:
@@ -385,10 +388,7 @@ For detailed information, see [ETL settings](../../DataHub/UserInterface/02d_ETL
 
 - *Source attribute*   
   Click the drop-down list within the arrow box and select the appropriate source attribute for the mapping. Depending on the selected ETL extension one or several *Source attribute* arrow boxes are displayed. The selection in the drop-down list depends on the selected ETL extension which defines the required data type of the source attribute(s). This drop-down list is only displayed if an ETL extension has been selected in the *Extension* drop-down list.       
-  For detailed information about how to set up an attribute mapping, see [Edit an ETL attribute mapping](../../DataHub/Operation/01_ManageETLMappings.md#edit-an-etl-attribute-mapping).
-
 
 **Configuration**
 
 The *Configuration* section displays the additional configuration settings. The configuration fields differ depending on the data type of the source and/or destination attribute.    
-For detailed information about the different configurations of data types, see [Data type list](../../DataHub/UserInterface/04_DataTypeList.md).

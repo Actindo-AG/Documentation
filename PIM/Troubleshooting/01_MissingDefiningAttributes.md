@@ -1,5 +1,6 @@
 [!!User interface Attributes](../UserInterface/03a_Attributes.md)
-[!!Data type list](../UserInterface/04_DataTypeList.md)
+[!!Data type list](../../Datahub/UserInterface/04_DataTypeList.md)
+[!!Manage a variant set](../Integration/07_ManageVariantSets.md)
 
 
 # Add a missing defining attribute
@@ -15,6 +16,7 @@ Follow the instructions below to check why the attribute is not displayed and, i
 No prerequisites to fulfill.
 
 #### Procedure
+
 *PIM > Settings > Tab ATTRIBUTES*
 
 ![Attributes](../../Assets/Screenshots/PIM/Settings/Attributes/Attributes.png "[Attributes]")

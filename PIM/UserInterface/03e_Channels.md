@@ -1,3 +1,7 @@
+[!!Create a channel in DataHub](../../DataHub/Integration/04_ManageChannels.md#create-a-channel)
+[!!Configure the channel settings](../Integration/05_ConfigureChannels.md)
+
+
 # Channels
 
 *PIM > Settings > Tab CHANNELS*
@@ -9,7 +13,6 @@
 - [ <u>Edit channel list here</u> ]    
   Click this button to switch to the *DataHub* module and edit the channel list or create a channel.   
   The *CHANNELS* tab is displayed (*DataHub > Settings > Tab CHANNELS*).    
-  For detailed information, see [Create a channel](../../DataHub/Integration/04_ManageChannels.md#create-a-channel).
 
 - ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh)   
   Click this button to update the list of channels.

@@ -1,3 +1,7 @@
+[!!Create a category](../Integration/06_ManageCatalogs.md#create-a-category)
+[!!Create a sub-category](../Integration/06_ManageCatalogs.md#create-a-sub-category).
+
+
 # Catalogs
 
 [comment]: <> (UI will be changed)
@@ -47,7 +51,6 @@
 
 - ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add)   
   Click this button to add a category to the catalog. A plus sign is displayed in each column. Click the plus sign to add a category or sub-category. The *Add element* window is displayed.   
-  For detailed information about creating categories or sub-categories, see [Create a category](../Integration/06_ManageCatalogs.md#create-a-category) or [Create a sub-category](../Integration/06_ManageCatalogs.md#create-a-sub-category).
 
   > [Info] If you add a category, a second column is displayed. When you click the button ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) again, you can also create a sub-category in the second column. Each time, you add a new sub-category, the next column is displayed. You can add an unlimited number of sub-categories in an unlimited number of levels.
 
@@ -104,8 +107,6 @@ The following buttons and fields are only displayed when you have added a catego
 
 - ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add)   
   Click this button to add a category to the catalog. A plus sign is displayed in each column. Click the plus sign to add a category or sub-category. The *Add element* window is displayed.   
-  For detailed information about creating categories or sub-categories, see [Create a category](../Integration/06_ManageCatalogs.md#create-a-category) or [Create a sub-category](../Integration/06_ManageCatalogs.md#create-a-sub-category).
-
 
 
 ## Add element
