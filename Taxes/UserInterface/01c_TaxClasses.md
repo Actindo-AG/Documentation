@@ -1,3 +1,6 @@
+
+[!!Manage the tax classes](../Integration/02_ManageTaxClasses.md)
+
 # Tax classes
 
 *Taxes > Settings > Tab TAX CLASSES*

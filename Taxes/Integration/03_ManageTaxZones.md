@@ -1,5 +1,5 @@
 [!!Accounting](../../RetailSuiteAccounting/Overview/01_General.md)
-[!!User Interface Tax zones](../UserInterface/01d_TaxZones.md)
+[!!User interface Tax zones](../UserInterface/01d_TaxZones.md)
 [!!Manage the tax rates](./01_ManageTaxRates.md)
 [!!Manage the tax classes](./02_ManageTaxClasses.md)
 [!!Manage the decision matrix](../Operation/01_ManageDecisionMatrix.md)
@@ -50,7 +50,7 @@ No prerequisites to fulfill.
 
   ![Changes saved](../../Assets/Screenshots/Taxes/Settings/TaxClasses/ChangesSaved.png "[Changes saved]")
 
-5. Press **F5** to initialize the *Core1 Platform* and to apply the changes.   
+5. Press the **F5** key to initialize the *Core1 Platform* and to apply the changes.   
   The new tax zone is displayed in the list of tax zones.
 
 
@@ -78,7 +78,7 @@ A tax zone has been created, see [Create a tax zone](#create-a-tax-zone).
 
   ![Changes saved](../../Assets/Screenshots/Taxes/Settings/TaxClasses/ChangesSaved.png "[Changes saved]")
 
-4. Press **F5** to initialize the *Core1 Platform* and to apply the changes.  
+4. Press the **F5** key to initialize the *Core1 Platform* and to apply the changes.  
   The edited tax zone is displayed in the list of tax rates.
 
 
@@ -107,5 +107,5 @@ A tax zone has been created, see [Create a tax zone](#create-a-tax-zone).
 
   ![Changes saved](../../Assets/Screenshots/Taxes/Settings/TaxClasses/ChangesSaved.png "[Changes saved]")
 
-4. Press **F5** to initialize the *Core1 Platform* and to apply the changes.  
+4. Press the **F5** key to initialize the *Core1 Platform* and to apply the changes.  
   The deleted tax zone is no longer displayed in the list of tax rates.

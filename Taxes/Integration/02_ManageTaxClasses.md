@@ -1,5 +1,5 @@
 [!!Accounting](../../RetailSuiteAccounting/Overview/01_General.md)
-[!!User Interface Tax classes](../UserInterface/01c_TaxClasses.md)
+[!!User interface Tax classes](../UserInterface/01c_TaxClasses.md)
 [!!Manage the tax rates](./01_ManageTaxRates.md)
 
 # Manage the tax classes
@@ -33,7 +33,7 @@ No prerequisites to fulfill.
 3. Click the [SAVE] button.  
   The tax class has been saved.
 
-4. Press **F5** to initialize the *Core1 Platform* and to apply the changes.   
+4. Press the **F5** key to initialize the *Core1 Platform* and to apply the changes.   
   The new tax class is displayed in the list of tax classes.
 
 [comment]: <> (By creating a tax class, SAVE does NOT show the confirmation message/any reaction from system. Probably misleading for user. Stand 19.09.22)
@@ -60,7 +60,7 @@ A tax class has been created, see [Create a tax class](#create-a-tax-class).
 
   ![Changes saved](../../Assets/Screenshots/Taxes/Settings/TaxClasses/ChangesSaved.png "[Changes saved]")
 
-3. Press **F5** to initialize the *Core1 Platform* and to apply the changes.  
+3. Press the **F5** key to initialize the *Core1 Platform* and to apply the changes.  
   The renamed tax class is displayed in the list of tax classes.
 
 
@@ -89,5 +89,5 @@ A tax class has been created, see [Create a tax class](#create-a-tax-class).
 
   ![Changes saved](../../Assets/Screenshots/Taxes/Settings/TaxClasses/ChangesSaved.png "[Changes saved]")
 
-3. Press **F5** to initialize the *Core1 Platform* and to apply the changes.  
+3. Press the **F5** key to initialize the *Core1 Platform* and to apply the changes.  
   The deleted tax class is no longer displayed in the list of tax classes.  
