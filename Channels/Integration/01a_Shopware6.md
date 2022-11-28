@@ -39,20 +39,20 @@ Be aware that, before a Shopware 6 connection can be established in the *Actindo
 
 5. In a new browser, go to your Shopware 6 shop and log in to your Shopware 6 account. 
 
-6. In the Shopware 6 backend, go to *Settings/System/Integrations* and click the *Create integration* button.  
+6. In the Shopware 6 backend, go to *Settings/System/Integrations* and click the *Create integration* button in the top right corner.  
   The *Create integraton* window is displayed.
 
   ![Create integration](../../Assets/Screenshots/Channels/Settings/Connections/Shopware6/CreateIntegration.png "[Create integration]")
 
-7. Enter a description for the integration in the *Name* field and enable the *Administrator* toggle.
+7. Enter a name for the integration in the *Name* field and enable the *Administrator* toggle.
 
 8. Copy the code provided in the *Access ID* field to the clipboard.
 
 9. Switch to the *Actindo Core1 Platform* and paste the copied access ID from your clipboard in the *Access key ID* field in the *Credentials* section.  
-  Repeat steps **4** and **5** for the *Safety key* field.
+  Repeat steps **8** and **9** for the *Safety key* field.
 
 10. Switch back to Shopware 6 and click the *Create integration* button.  
-  The *Success* window with the notice *Integration erfolgreich gespeichert* is displayed.
+  The *Success* window with the notice *Integration successfully created* is displayed.
 
   ![Integration  created](../../Assets/Screenshots/Channels/Settings/Connections/Shopware6/IntegrationCreated.png "[Integration created]")
 
@@ -63,11 +63,10 @@ Be aware that, before a Shopware 6 connection can be established in the *Actindo
 
   ![Shopware 6 connection](../../Assets/Screenshots/Channels/Settings/Connections/Shopware6/Connection.png "[Shopware 6]")
 
-12. If necessary, continue to [configure the Shopify connection](#configure-the-shopify-connection).
+12. If necessary, continue to [Configure the Shopware 6 connection](#configure-the-shopify-connection).
 
+[comment]: <> (Was genau passiert nach SAVE in Core1? Einige Minuten Zeit/Sync/Platform initialized? Satz aus Shopify genommen.)
 
-[comment]: <> (S. Wissenstransfer ab Min. ca. 5:25-> Shopware 6 Seite -> zu beschreiben wie in Shopify?)
-[comment]: <> (Shop URL muss auch in Credentials angegeben werden, muss aber in einem Schrrit beschrieben werden? Es ist eher standard...)
 
 
 ## Configure the Shopware 6 connection   
@@ -76,13 +75,7 @@ After the connection to a Shopware 6 shop has been established, further settings
 
 #### Prerequisites
 
-- A Shopware 6 account has been created.
-- The *Shopware 6* plugin has been installed.
 - A Shopware 6 connection has been established.
-
-> [Info] For the *Omni-Channel* module version 4.1.0 or higher, the *Shopware 6* plugin is required in at least version 1.0.0.
-
-[comment]: <> (Stimmt das so? In Platform Manager Shopware 6 2 1.1.1 Version und Magento 2 B.B. 1.0.0 verfügbar.)
 
 #### Procedure
 
@@ -114,7 +107,7 @@ After the connection to a Shopware 6 shop has been established, further settings
 
     - If desired, click the *Order state to set in shop after the order is fully shipped* drop-down list and select the appropriate state. All states available in Shopware 6 are displayed.
 
-    - If desired, enable the applicable toogle(s) for every available payment method. For every payment method you can select payment states an oder has to have for it to be imported. If you select no payment states for a certain payment method, all orders with this method will be imported.The following payment methods are available:   
+    - If desired, enable the applicable toogle(s) for every available payment method. For every payment method you can select payment states an oder has to have for it to be imported. If you select no payment states for a certain payment method, all orders with this payment method will be imported. The following payment methods are available:   
       - *Paypal*  
       - *Cash on delivery*  
       - *Prepayment*  
@@ -146,23 +139,23 @@ After the connection to a Shopware 6 shop has been established, further settings
 
 
 5. Click the *Tax classes* menu entry in the left side bar.  
-    The tax classes available in the Shopware 6 platform are displayed in the right side bar.  
+    The tax classes available in Shopware 6 are displayed in the right side bar.  
 
 6. Click the *Select Core1 tax class for Shopware 6 "tax class"* drop-down list and select the applicable Core1 tax class. All available tax classes are displayed in the list. Repeat this step for all the applicable tax classes.
 
 7. If available, click the *Ratepay* menu entry in the left side bar.  
-  The Ratepay settings are display in the the right side bar.
+  The Ratepay settings are display in the right side bar.
 
-  > [Info] The Ratepay menu entry is onlay displayed when the Ratepay Integration for Shopware 6 has been installed, which in turn requires that the Ratepay integration has been activated in your Shopware 6 account. The Shopware 6 extension provides additional information to the orders, which can be imported, if necessary, for further processing.  
+  > [Info] The Ratepay menu entry is only displayed when the Ratepay Integration for Shopware 6 has been installed, which in turn requires that the Ratepay integration has been activated in the Shopware 6 account. The Shopware 6 extension provides additional information to the orders, which can be imported, if necessary, for further processing.  
  
   [comment]: <> (nicht standard / Extension für Treiber - beschreiben oder wegglassen?)
 
 8. Click the *Price rules* menu entry in the left side bar.  
   The price rules available in Shopware 6 are displayed in the right side bar.
 
-9. Enable the applicable toggle(s) to create price attributes to the corresponding price rule in the *Actindo Core1 Platform*.  
+9. Enable the applicable toggle(s) to create price attributes for the corresponding price rule in the *Actindo Core1 Platform*.  
 
-  > [Info] Once the attributes have been created, they cannot be deleted from *DataHub* anymore. If another toggle in enabled subsequently, and therefore the corresponding attribute is created in *DataHub*, the changes must be saved and the connection must be synchronized 
+  > [Info] Once the attributes have been created, they cannot be deleted from *DataHub* anymore. If another toggle is enabled subsequently, and therefore the corresponding attribute is created in *DataHub*, the changes must be saved and the connection must be synchronized.
 
 10. Click the [Save] button.  
   All changes have been saved. The *Saving successful* pop-up window is displayed.
