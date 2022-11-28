@@ -46,12 +46,12 @@ Be aware that, before a Shopware 6 connection can be established in the *Actindo
 
 7. Enter a name for the integration in the *Name* field and enable the *Administrator* toggle.
 
-8. Copy the code provided in the *Access ID* field to the clipboard.
+8. Copy the code provided in the *Access key ID* field to the clipboard.
 
 9. Switch to the *Actindo Core1 Platform* and paste the copied access ID from your clipboard in the *Access key ID* field in the *Credentials* section.  
-  Repeat steps **8** and **9** for the *Safety key* field.
+  Repeat steps **8** and **9** for the *Secret access key* field.
 
-10. Switch back to Shopware 6 and click the *Create integration* button.  
+10. Switch back to Shopware 6 and click the *Save integration* button.  
   The *Success* window with the notice *Integration successfully created* is displayed.
 
   ![Integration  created](../../Assets/Screenshots/Channels/Settings/Connections/Shopware6/IntegrationCreated.png "[Integration created]")
