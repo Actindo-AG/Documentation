@@ -7,14 +7,67 @@ To establish a connection to a Shopware 6 shop, there are several particularitie
 
 Create the connection to a Shopware 6 shop using the Shopware 6 driver. Further settings can only be configured after the connection has been established.
 
-Shop URL  
-API credentials (erzeugt in Shopware backend)
-Access key ID
-Secret access key
+Be aware that, before a Shopware 6 connection can be established in the *Actindo Core1 Platform*, the corresponding integration must be created in Shopware 6. Besides, all languages configured in Shopware 6 must be available in the *DataHub* module. Otherwise, an error is displayed when trying to create the connection in the *Actindo Core1 Platform*. The connection creation is then cancelled.
+
+#### Prerequisites
+
+- A Shopware 6 account has been created.
+- The *Shopware 6* plugin has been installed.  
+- All languages configured in Shopware 6 have been created in *DataHub*, see [Manage the languages](../../../DataHub/Integration/05_ManageLanguages.md). 
+
+> [Info] For the *Omni-Channel* module version 4.1.0 or higher, the *Shopware 6* plugin is required in at least version 4.0.0.
+
+[comment]: <> (Stimmt Version? 4.0.0 ist die neueste. Stimmen prerequisites? Oder besser Zwei subprocedures: 1 create integration in Shopware 6 + create connection in Core1? -> Verweis auf Manage connections?)
+
+#### Procedure
+
+*Omni-Channel > Settings > Tab CONNECTIONS*
+
+![Connection](../../Assets/Screenshots/Channels/Settings/Connections/Connection.png "[Connection]")
+
+1. Click the [Add](../../Assets/Icons/Plus01.png "[Add]") (Add) button in the bottom right corner.    
+  The *Create connection* view is displayed.
+
+    ![Create connection](../../Assets/Screenshots/Channels/Settings/Connections/CreateConnection.png "[Create connection]")
+
+2. Enter a name for the connection in the *Name* field.
+
+3. Click the *Driver* drop-down list and select *Shopware 6* driver.  
+  The *Credentials* section is displayed below the drop-down list.
+
+4. Enter the shop URL in the *URL* field.  
+
+5. In a new browser, go to your Shopware 6 shop and log in to your Shopware 6 account. 
+
+6. In the Shopware 6 backend, go to *Settings/System/Integrations* and click the *Create integration* button.  
+  The *Create integraton* window is displayed.
+
+  ![Create integration](../../Assets/Screenshots/Channels/Settings/Connections/Shopware6/CreateIntegration.png "[Create integration]")
+
+7. Enter a description for the integration in the *Name* field and enable the *Administrator* toggle.
+
+8. Copy the code provided in the *Access ID* field to the clipboard.
+
+9. Switch to the *Actindo Core1 Platform* and paste the copied access ID from your clipboard in the *Access key ID* field in the *Credentials* section.  
+  Repeat steps **4** and **5** for the *Safety key* field.
+
+10. Switch back to Shopware 6 and click the *Create integration* button.  
+  The *Success* window with the notice *Integration erfolgreich gespeichert* is displayed.
+
+  ![Integration  created](../../Assets/Screenshots/Channels/Settings/Connections/Shopware6/IntegrationCreated.png "[Integration created]")
+
+11. Switch to the *Actindo Core1 Platform* and click the [SAVE] button.  
+  The connection has been created.
+  
+  The *CONNECTIONS* tab in the *Settings* menu entry of the *Omni-Channel* module is displayed when the connection has been established. The *Shopware 6* connection is displayed in the list of connections.
+
+  ![Shopware 6 connection](../../Assets/Screenshots/Channels/Settings/Connections/Shopware6/Connection.png "[Shopware 6]")
+
+12. If necessary, continue to [configure the Shopify connection](#configure-the-shopify-connection).
+
 
 [comment]: <> (S. Wissenstransfer ab Min. ca. 5:25-> Shopware 6 Seite -> zu beschreiben wie in Shopify?)
-
-Besonderheit: Alle Sprachen konfiguriert in Shopware müssen auch in Core1 (DataHub) angelegt sein, sonst Fehler bzw. Verbindungerstellung abgebrochen/nicht möglich (Shopware 6 bricht die Installation ab). 
+[comment]: <> (Shop URL muss auch in Credentials angegeben werden, muss aber in einem Schrrit beschrieben werden? Es ist eher standard...)
 
 
 ## Configure the Shopware 6 connection   
@@ -24,10 +77,10 @@ After the connection to a Shopware 6 shop has been established, further settings
 #### Prerequisites
 
 - A Shopware 6 account has been created.
-- The *Shopware 6 Integration* plugin has been installed.
+- The *Shopware 6* plugin has been installed.
 - A Shopware 6 connection has been established.
 
-> [Info] For the *Omni-Channel* module version 4.1.0 or higher, the *Shopware 6 Integration* plugin is required in at least version 1.0.0.
+> [Info] For the *Omni-Channel* module version 4.1.0 or higher, the *Shopware 6* plugin is required in at least version 1.0.0.
 
 [comment]: <> (Stimmt das so? In Platform Manager Shopware 6 2 1.1.1 Version und Magento 2 B.B. 1.0.0 verfügbar.)
 
@@ -57,13 +110,62 @@ After the connection to a Shopware 6 shop has been established, further settings
 
     - Enable the applicable toggle(s) to determine the order status. All statuses available in Shopware 6 are displayed.
         
-    - If desired, click the *Order state to set in shop after successful import* drop-down list and select the appropriate status. All statuses available in Shopware 6 are displayed.
+    - If desired, click the *Order state to set in shop after successful import* drop-down list and select the appropriate state. All states available in Shopware 6 are displayed.
 
-    - If desired, click the *Order state to set in shop after the order is fully shipped* drop-down list and select the appropriate status. All statuses available in Shopware 6 are displayed.
+    - If desired, click the *Order state to set in shop after the order is fully shipped* drop-down list and select the appropriate state. All states available in Shopware 6 are displayed.
+
+    - If desired, enable the applicable toogle(s) for every available payment method. For every payment method you can select payment states an oder has to have for it to be imported. If you select no payment states for a certain payment method, all orders with this method will be imported.The following payment methods are available:   
+      - *Paypal*  
+      - *Cash on delivery*  
+      - *Prepayment*  
+      - *Pay upon invoice*  
+      - *Ratepay Prepayment*
+      - *Ratepay Direct Debit*
+      - *Ratepay Open invoice*
+      - *Ratepay Payment by Installment*
+      - *Ratepay 0% Financing*
+      - *PAYONE Apple Pay*
+      - *Credit card (Visa/Mastercard)*
+      - *Payment SEPA Direct Debit*
+      - *PAYONE PayPal*
+      - *Mastercard*
+      - *PAYONE Paysafe Pay Later Installment*
+      - *PAYONE Paysafe Pay Later Invoice*
+      - *Sofortüberweisung*
+      - *PAYONE Paysafe Pay Later Debit*
+      - *PAYONE iDeal*
+      - *PAYONE EPS*
+      - *PAYONE Secure Invoice*
+      - *PAYONE Invoice*
+      - *PAYONE Paydirekt*
+      - *PAYONE Bancontact*
+      - *PAYONE Prepayment*
+      - *PAYONE Trustly*
+      - *Direct debit*
+      - *Paydirekt*
+
 
 5. Click the *Tax classes* menu entry in the left side bar.  
-    The available tax classes are displayed in the right side bar.  
+    The tax classes available in the Shopware 6 platform are displayed in the right side bar.  
 
-6. Ratepay (nicht standard / Extension für Treiber - beschreiben?)
+6. Click the *Select Core1 tax class for Shopware 6 "tax class"* drop-down list and select the applicable Core1 tax class. All available tax classes are displayed in the list. Repeat this step for all the applicable tax classes.
 
-7. Price rules
+7. If available, click the *Ratepay* menu entry in the left side bar.  
+  The Ratepay settings are display in the the right side bar.
+
+  > [Info] The Ratepay menu entry is onlay displayed when the Ratepay Integration for Shopware 6 has been installed, which in turn requires that the Ratepay integration has been activated in your Shopware 6 account. The Shopware 6 extension provides additional information to the orders, which can be imported, if necessary, for further processing.  
+ 
+  [comment]: <> (nicht standard / Extension für Treiber - beschreiben oder wegglassen?)
+
+8. Click the *Price rules* menu entry in the left side bar.  
+  The price rules available in Shopware 6 are displayed in the right side bar.
+
+9. Enable the applicable toggle(s) to create price attributes to the corresponding price rule in the *Actindo Core1 Platform*.  
+
+  > [Info] Once the attributes have been created, they cannot be deleted from *DataHub* anymore. If another toggle in enabled subsequently, and therefore the corresponding attribute is created in *DataHub*, the changes must be saved and the connection must be synchronized 
+
+10. Click the [Save] button.  
+  All changes have been saved. The *Saving successful* pop-up window is displayed.
+
+    ![Saving successful](../../Assets/Screenshots/Channels/Settings/Connections/SavingSuccessful.png "[Saving successful]")
+
