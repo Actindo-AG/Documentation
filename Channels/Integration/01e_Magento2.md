@@ -1,18 +1,18 @@
-# Manage the Magento2 connection
+# Manage the Magento 2 connection
 
-To establish a connection to a Magento2 shop, there are several particularities to consider. Therefore, the configuration of the Magento2 connection is described in detail below.
+To establish a connection to a Magento 2 shop, there are several particularities to consider. Therefore, the configuration of the Magento 2 connection is described in detail below.
 
-## Configure the Magento2 connection   
+## Configure the Magento 2 connection   
 
-After the connection to a Magento2 shop has been established, further settings can be configured for the connection.
+After the connection to a Magento 2 shop has been established, further settings can be configured for the connection.
 
 #### Prerequisites
 
-- A Magento2 account has been created.
-- The *Magento2 Integration* plugin has been installed.
-- A Magento2 connection has been established.
+- A Magento 2 account has been created.
+- The *Magento 2* plugin has been installed.
+- A Magento 2 connection has been established.
 
-> [Info] For the *Omni-Channel* module version 4.1.0 or higher, the *Magento2 Integration* plugin is required in at least version 1.0.0.
+> [Info] For the *Omni-Channel* module version 4.1.0 or higher, the *Magento 2* plugin is required in at least version 1.0.0.
 
 [comment]: <> (Stimmt das so? In Platform Manager Magento 2 1.1.1 Version und Magento 2 B.B. 1.0.0 verfügbar.)
 
@@ -20,9 +20,9 @@ After the connection to a Magento2 shop has been established, further settings c
 
 *Omni-Channel > Settings > Tab CONNECTIONS*
 
-![Magento2 connection](../../Assets/Screenshots/Channels/Settings/Connections/Magento2/Connection.png "[Magento2 connection]")
+![Magento 2 connection](../../Assets/Screenshots/Channels/Settings/Connections/Magento2/Connection.png "[Magento 2 connection]")
 
-1. Click the Magento2 connection in the list of connections.   
+1. Click the Magento 2 connection in the list of connections.   
   The *Edit connection* view is displayed. By default, the *Credentials* tab is displayed.
 
   ![Edit connection credentials](../../Assets/Screenshots/Channels/Settings/Connections/Magento2/EditConnectionCredentials.png "[Edit connection credentials]")
@@ -75,7 +75,7 @@ After the connection to a Magento2 shop has been established, further settings c
 
 6. Configure the following settings to define the desired order statuses or states to be set after a certain event has occurred in the *Update order state and status on certain events* box:   
 
-    - Click the *Order state to set in shop after successful import* drop-down list and select the desired state. The following states are available:  
+    - Click the *Order state to be set in shop after successful import* drop-down list and select the desired state. The following states are available:  
         - **new**
         - **pending**
         - **pending_payment**
@@ -86,11 +86,11 @@ After the connection to a Magento2 shop has been established, further settings c
         - **closed**
         - **canceled**  
 
-    - Enter the desired order status to be set when an order has been successfully imported in the *Order status to set in shop after successful import* field.
+    - Enter the desired order status to be set when an order has been successfully imported in the *Order status to be set in shop after successful import* field.
     
-    - Enter the desired order status to be set when an order has been partially shipped in the *Order status to set in shop after partially shipped* field.
+    - Enter the desired order status to be set when an order has been partially shipped in the *Order status to be set in shop after partially shipped* field.
 
-    - Click the *Order state to set in shop after fully shipped* drop-down list and select the desired state. The following states are available:  
+    - Click the *Order state to be set in shop after fully shipped* drop-down list and select the desired state. The following states are available:  
         - **new**
         - **pending**
         - **pending_payment**
@@ -101,19 +101,19 @@ After the connection to a Magento2 shop has been established, further settings c
         - **closed**
         - **canceled**  
 
-    - Enter the desired order status to be set when an order has been fully shipped in the *Order status to set in shop fully shipped* field.
+    - Enter the desired order status to be set when an order has been fully shipped in the *Order status to be set in shop after fully shipped* field.
 
-    - Enter the desired order status to be set when an order has been partially paid in the *Order status to set in shop after partially paid* field.
+    - Enter the desired order status to be set when an order has been partially paid in the *Order status to be set in shop after partially paid* field.
 
-    - Enter the desired order status to be set when an order has been fully paid in the *Order status to set in shop after fully paid* field.
+    - Enter the desired order status to be set when an order has been fully paid in the *Order status to be set in shop after fully paid* field.
 
-    - Enter the desired order status to be set when a tracking number has been set for the order in the *Order status to set in shop after tracking number set* field.
+    - Enter the desired order status to be set when a tracking number has been set for the order in the *Order status to be set in shop after tracking number set* field.
 
 7.  If necessary, configure the following settings in the *Magento invoice handling* box:
 
     - Enable the *Create an invoice in Magento for orders that are fully paid* toggle. 
     
-        > [Info] If enabled, invoice creation is triggered in Magento2 as soon as an order is fully paid. This function is particularly relevant for the correct processing of vouchers.  
+        > [Info] If enabled, invoice creation is triggered in Magento 2 as soon as an order is fully paid. This function is particularly relevant for the correct processing of vouchers.  
     
         The *Notify customer about the invoice* toggle is unlocked.
 
@@ -123,7 +123,7 @@ After the connection to a Magento2 shop has been established, further settings c
 8. Click the *Tax classes* menu entry in the left side bar.  
     The tax classes available in the *Actindo Core1 Platform* are displayed in the right side bar.
 
-9. Click the *Select Magento2 tax class for Core1 tax class* drop-down list and select the applicable Magento tax class. All available tax classes are displayed in the list. Repeat this step for all the applicable tax classes.
+9. Click the *Select Magento 2 tax class for Core1 tax class* drop-down list and select the applicable Magento tax class. All available tax classes are displayed in the list. Repeat this step for all the applicable tax classes.
 
 [comment]: <> (Gibt es Default tax classes bei Magento, z.B. die auf dem Video angezeigt oder abhängig von weiteren (Vor-)Einstellungen in Magento? Neue tax classes können bei Magento auch erstellt werden, also: All available tax classes are displayed in the list oder By default, the following options are available?)
 
@@ -135,9 +135,9 @@ After the connection to a Magento2 shop has been established, further settings c
 [comment]: <> (Unklar - RS mit Oli)
 
 12. Click the *Image handling* menu entry in the left side bar.  
-    All available image attributes available in the Magento2 gallery are displayed in the right side bar.
+    All available image attributes available in the Magento 2 gallery are displayed in the right side bar.
 
-13. Enable the applicable toggles as necessary to hide or display the corresponding images in the Magento2 gallery. 
+13. Enable the applicable toggles as necessary to hide or display the corresponding images in the Magento 2 gallery. 
 
 14. Click the *Image name* menu entry in the left side bar.  
     The *Imagen name* settings are displayed are displayed in the right side bar.
@@ -162,7 +162,7 @@ The site https://regex101.com/ can be useful to test regular expressions.
 
 
 
-## Configure the Magento2 ETL mapping
+## Configure the Magento 2 ETL mapping
 
 Basic ETL???
 
