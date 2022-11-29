@@ -106,3 +106,6 @@ An Amazon connection has been established.
 
 2. Click the *Settings* tab.   
   The *Settings* tab is displayed. By default, the *Default language* setting is displayed. Shopware 6 default language is displayed in the right side bar.
+
+- Angebote
+Von Default übernehmen toggle nicht ändern, denn für FBA Angebote 
