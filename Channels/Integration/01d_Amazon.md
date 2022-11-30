@@ -84,7 +84,6 @@ Create the connection to an Amazon shop using the Amazon driver. Further setting
 12. If necessary, continue to [Configure the Amazon connection](#configure-the-amazon-connection).
 
 
-
 ## Configure the Amazon connection   
 
 After the connection to an Amazon shop has been established, further settings can be configured for the connection.
@@ -102,10 +101,72 @@ An Amazon connection has been established.
 1. Click the Amazon connection in the list of connections.   
   The *Edit connection* view is displayed. By default, the *Credentials* tab is displayed.
 
-  ![Edit connection credentials](../../Assets/Screenshots/Channels/Settings/Connections/Shopware6/EditConnectionCredentials.png "[Edit connection credentials]")
+    ![Edit connection credentials](../../Assets/Screenshots/Channels/Settings/Connections/Amazon/Credentials.png "[Edit connection credentials]")
 
 2. Click the *Settings* tab.   
-  The *Settings* tab is displayed. By default, the *Default language* setting is displayed. Shopware 6 default language is displayed in the right side bar.
+  The *Settings* tab is displayed. By default, the *Offers* setting is displayed. In the right side bar, the *Apply from default* toggle is preselected and the *Update stock for 'Fulfillment by Amazon (FBA)' offers* is locked.  
 
-- Angebote
-Von Default übernehmen toggle nicht ändern, denn für FBA Angebote 
+    > [Info] It is recommended to leave this settings unchanged, since Amazon manages stock for FBA offers.
+
+    ![Offers](../../Assets/Screenshots/Channels/Settings/Connections/Amazon/Settings_Offers.png "[Offers]")
+
+3. Click the *Order import* menu entry in the left side bar.    
+  The *Order import* setting is displayed in the right side bar.    
+
+    ![Order import](../../Assets/Screenshots/Channels/Settings/Connections/Amazon/Settings_OrderImport.png "[Order import]")
+
+4. Configure the following settings to filter the orders to be imported:
+
+  - In the *'Merchant Fulfilled Network' (MFN) orders* section: 
+    - Enable or disable the *Import 'Merchant Fulfilled Network' (MFN) orders* and *Import 'Prime by Merchant' orders* toggles to determine the MFN orders to be imported.  
+
+    - If desired, enter a date in the *Import MFN orders from* field to import orders from the entered date onwards. The valid date format is DD.MM.YYYY. 
+
+  - In the *'Fulfillment by Amazon' (AFN) orders* section:  
+    - Enable or disable the *Import 'Fulfillment by Amazon' (AFN) orders* toggle to import the AFN, also called FBA, orders. 
+  
+    - Enable or disable the *Mark 'Fulfillment by Amazon' orders as shipped during import and disable warehousing* to determine the further processing of AFN orders.  
+  
+    - Enable or disabled as necessary the *Is the VAT calculation services (VCS) enabled?* toggle. This feature is needed to determine whether the prices in the FBA reports are gross (VCS disabled) or net (VCS enabled).  
+
+    > [Info] When importing AFN orders, it is highly recommended to enable the VCS to makes sure that the gross/net prices are imported correctly from Amazon reports.
+
+    - If desired, enter a date in the *Import AFN/FBA orders from* field to import orders from the entered date onwards. The valid date format is DD.MM.YYYY. 
+
+  - In the *Addresses* section:
+    - Click the *Packstation address split* drop-down list and select the appropriate option. The following options are available:  
+      - **Customer number in address line**
+      - **Customer number in company** 
+
+5. Click the *Order export/invoice upload* menu entry in the left side bar.    
+  The *Order export/invoice upload* setting is displayed in the right side bar.    
+
+    ![Order export/invoice upload](../../Assets/Screenshots/Channels/Settings/Connections/Amazon/Settings_OrderExport.png "[Order export/invoice upload]")
+
+6. If necessary, disable the *Apply from default* toggle to unlock the checkboxes.
+
+7. Once unlocked, select the checkboxes corresponding to the relevant marketplaces.
+
+8. Click the *Shipping provider mapping* menu entry in the left side bar.    
+  The *Shipping provider mapping* setting is displayed in the right side bar. All shipping methods offered by Amazon are displayed in the AmazonShipOption section. All available shipping methods must be assigned to a shipping provider in the *Assigned shipping provider* section.  
+
+    ![Shipping provider mapping](../../Assets/Screenshots/Channels/Settings/Connections/Amazon/Settings_ShippingProviderMapping.png "[Shipping provider mapping]")
+
+9.  If necessary, click the corresponding drop-down list in the *Assigned shipping provider* section and select the applicable shipping provider. If no shipping provider is selected, the default shipping provider applies.
+
+  > [Info] The shipping provider can be set up in the *Order management* module.
+
+[comment]: <> (Wo, wie? Link oder Pfad dahin?)
+
+10. Click [SAVE].  
+    All changes have been saved. The *Saving successful* pop-up window is displayed.
+
+    ![Saving successful](../../Assets/Screenshots/Channels/Settings/Connections/SavingSuccessful.png "[Saving successful]")
+
+[comment]: <> (Check, ob das auch bei Amazon stimmt)
+
+11. After saving, it is necessary to synchronize the connection to update the corresponding ETL mapping. 
+  The *Synchronization triggered* pop-up window is displayed with the notice 'The synchronization has been triggered and will be performed shortly in the background'.
+
+[comment]: <> (Wie macht man Sync? Nicht deutlich in Wissenstranfer. Connection checkbox auswählen und SYNCHRONIZE button in editing tool? Verweis darauf?)
+
