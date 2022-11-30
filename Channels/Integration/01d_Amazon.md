@@ -25,7 +25,7 @@ Create the connection to an Amazon shop using the Amazon driver. Further setting
 
 ![Connection](../../Assets/Screenshots/Channels/Settings/Connections/Connection.png "[Connection]")
 
-1. Click the [Add](../../Assets/Icons/Plus01.png "[Add]") (Add) button in the bottom right corner.    
+1. Click the ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) button in the bottom right corner.    
   The *Create connection* view is displayed.
 
     ![Create connection](../../Assets/Screenshots/Channels/Settings/Connections/CreateConnection.png "[Create connection]")
