@@ -1,4 +1,4 @@
-# User Interface
+# User interface
 
 In this part of the *Cloudinary* documentation, you will find the following chapters:
 
