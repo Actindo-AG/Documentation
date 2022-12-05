@@ -1,9 +1,10 @@
 # User Interface
 
+In this part of the *Venduo POS* documentation, you will find the following chapters:
+
 - [Sales](./01_Sales.md)
   - [Select store and pay desk](./01_Sales.md#select-store-and-pay-desk)
   - [Select opening float](./01_Sales.md#select-opening-float)
-
 
 
 - [CASHPOINT](./01a_Cashpoint.md)
@@ -20,9 +21,7 @@
   - [Product details](./01a_Cashpoint.md#product-details)
 
 
-
 - [HISTORY](./01b_History.md)
-
 
 
 - [CASH REGISTER](./01c_CashRegister.md)
@@ -33,20 +32,16 @@
     - [Cash out](./01c_CashRegister.md#cash-out)
 
 
-
 - [VOUCHERS](./01d_Vouchers.md)
-
 
 
 - [RETOUREN](./01e_Returns.md)
   - [Add return](./01e_Returns.md#add-return)
 
 
-
 - [SETTINGS](./01f_Settings.md)
   - [Kasse öffnen bei Barzahlung](./01f_Settings.md#kasse-öffnen-bei-barzahlung)
   - [Kasse öffnen nach bargeldlosem Zahlen](./01f_Settings.md#kasse-öffnen-nach-bargeldlosem-zahlen)
-
 
 
 - [WARENEINGANG](./01g_Wareneingang.md)
@@ -93,7 +88,6 @@
     - [Kundendaten aus RetailSuite übernehmen](./02a_GlobalSettings.md#kundendaten-aus-retailsuite-übernehmen)
 
 
-
 - [STORES](./02b_Stores.md)
   - [Create store](./02b_Stores.md#create-store)
   - [Create store via wizard](./02b_Stores.md#create-store-via-wizard)
@@ -108,22 +102,17 @@
     - [Transactions](./02b_Stores.md#transactions)
 
 
-
 - [MAPPING FROM PIM](./02c_MappingFromPIM.md)
-
 
 
 - [ACCOUNTING SYNC](./02d_AccountingSync.md)
   - [Accounting sync details](./02d_AccountingSync.md#accounting-sync-details)
 
 
-
 - [ABGESCHLOSSENE LIEFERSCHEINE](./02e_ProcessedDeliveryNotes.md)
 
 
-
 - [OFFENE LIEFERSCHEINE](./02f_UnprocessedDeliveryNotes.md)
-
 
 
 - [WARENEINGANGS-SYNC](./02g_WareneingangsSync.md)

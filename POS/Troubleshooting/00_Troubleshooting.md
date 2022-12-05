@@ -1,5 +1,7 @@
 # Troubleshooting
 
+In this part of the *Venduo POS* documentation, you will find the following chapters:
+
 - [Handle an out-of-stock order](./01_OutOfStockOrder.md)
 
 - [Restart a faulty export](./02_RestartFaultyExport.md)
