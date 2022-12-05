@@ -1,4 +1,4 @@
-[!!User Interface Queue types](../UserInterface/05a_QueueTypes.md)
+[!!User interface Queue types](../UserInterface/05a_QueueTypes.md)
 [!!Workflow and process elements](../Overview/04_WorkflowProcessElements.md)
 [!!Manage the workflows](../Operation/01_ManageWorkflows.md)
 
@@ -38,8 +38,10 @@ No prerequisites to fulfill.
 
 
 4. Click the *Execution priority* drop-down list and select the appropriate execution priority. The following options are available:
-  - **Oldest executable action**: The oldest executable actions within all existing processes is executed first by the workers.
-  - **Executable actions of oldest process**: The executable actions within the oldest process are executed first by the workers.
+  - **Oldest executable action**   
+    The oldest executable actions within all existing processes is executed first by the workers.
+  - **Executable actions of oldest process**   
+    The executable actions within the oldest process are executed first by the workers.
 
 
 5. Click the [SAVE] button in the upper right corner.   
@@ -120,8 +122,10 @@ At least one queue type has been created, see [Create a queue type](#create-a-qu
   + Click the *Name* field and edit the name of the queue type.
 
   + Click the *Execution priority* drop-down list and select the appropriate execution priority in the list. The following options are available:
-    - **Oldest executable action**: The oldest executable actions within all existing processes is executed first by the workers.
-    - **Executable actions of oldest process**: The executable actions within the oldest process are executed first by the workers.
+    - **Oldest executable action**   
+      The oldest executable actions within all existing processes is executed first by the workers.
+    - **Executable actions of oldest process**   
+      The executable actions within the oldest process are executed first by the workers.
 
 
 3. Click the [SAVE] button in the upper right corner.   
@@ -222,7 +226,7 @@ You can delete a queue type that is obsolete to release workers for other queue 
   ![Toolbar](../../Assets/Screenshots/ActindoWorkFlow/QueueTypes/Toolbar.png "[Toolbar]")
 
 2. Click the [DELETE] button in the toolbar.   
-  The queue type has been deleted. The *QueueType has been deleted* pop-up window is displayed.
+  The queue type has been deleted. The *Queue type has been deleted* pop-up window is displayed.
 
   ![Queue type deleted](../../Assets/Screenshots/ActindoWorkFlow/QueueTypes/QueueTypeDeleted.png "[Queue type deleted]")
 

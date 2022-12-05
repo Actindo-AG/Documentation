@@ -1,4 +1,4 @@
-[!!User Interface Logging settings](../UserInterface/07a_Settings.md)
+[!!User interface Logging settings](../UserInterface/07a_Settings.md)
 
 
 # Configure the logging settings
@@ -15,15 +15,15 @@ No prerequisites to fulfill.
 
 ![Settings](../../Assets/Screenshots/ActindoWorkFlow/Settings/Settings.png "[Settings]")
 
-1. Select the log lifetime type you want to edit in the *LOG LIFETIMES* section of the left *Settings* side menu. The following logs types are available:
-  - Emergency-log lifetime
-  - Alert-log lifetime
-  - Critical-log lifetime
-  - Error-log lifetime
-  - Warning-log lifetime
-  - Notice-log lifetime
-  - Info-log lifetime
-  - Debug-log lifetime
+1. Select the log lifetime type you want to edit in the *LOG LIFETIMES* section of the left *Settings* side menu. The following log types are available:
+  - **Emergency-log lifetime**
+  - **Alert-log lifetime**
+  - **Critical-log lifetime**
+  - **Error-log lifetime**
+  - **Warning-log lifetime**
+  - **Notice-log lifetime**
+  - **Info-log lifetime**
+  - **Debug-log lifetime**
 
 
   The lifetime view of the selected log type is displayed on the right side.
