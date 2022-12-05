@@ -1,3 +1,5 @@
+[!!Manage the tax zones](../Integration/03_ManageTaxZones.md)
+
 # Tax zones
 
 *Taxes > Settings > Tab TAX ZONES*
@@ -20,7 +22,7 @@
 
 
 - ![Delete](../../Assets/Icons/Trash08.png "[Delete]") (Delete)  
-  Click this button to delete the corresponding tax zone. This button is only displayed when the corresponding tax zone is currently not selected in the decision matrix. Otherwise, it cannot be deleted and the![Delete](../../Assets/Icons/Trash08.png "[Delete]") (Delete) button is not displayed.
+  Click this button to delete the corresponding tax zone. This button is only displayed when the corresponding tax zone is currently not selected in the decision matrix. Otherwise, it cannot be deleted and the ![Delete](../../Assets/Icons/Trash08.png "[Delete]") (Delete) button is not displayed.
 
 - [SAVE]  
   Click this button to save any changes made.

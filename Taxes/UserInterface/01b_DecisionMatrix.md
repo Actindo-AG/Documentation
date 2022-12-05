@@ -1,3 +1,6 @@
+[!!Manage the decision matrix](../Operation/01_ManageDecisionMatrix.md)
+[!!Manage the tax zones](../Integration/03_ManageTaxZones.md)
+
 # Decision matrix
 
 *Taxes > Settings > Tab DECISION MATRIX*
