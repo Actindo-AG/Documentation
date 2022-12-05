@@ -64,7 +64,7 @@ Please note that these two jobs must be configured in the Salesforce Commerce Cl
     The job step has been configured.
 
 9. Click again the [New Job] button in the upper right corner to create the data import job.  
-    The *New Job* window is displayed in the right side of the workspace.
+    The *New Job* window is displayed on the right side of the workspace.
 
 10. Enter the job name "MSN-SiteDataImport" in the *ID* field and, if desired, a job description in the *Description* field, and click the [Create] button.  
     The new job has been created. The job page is displayed.
@@ -88,7 +88,7 @@ Please note that these two jobs must be configured in the Salesforce Commerce Cl
         | AfterImportFileHandling* | Archive                 |
         | ArchiveFolder            | archive/catalogs        |  
 
-        > [Info] Import/catalogs folder must be previously created in WebDAV. Otherwise, the data cannot be imported. For detailed information, see [Using WebDAV](https://documentation.b2c.commercecloud.salesforce.com/DOC1/index.jsp?topic=%2Fcom.demandware.dochelp%2Fcontent%2Fb2c_commerce%2Ftopics%2Fimport_export%2Fb2c_using_web_dav.html).
+        > [Info] The Import/catalogs working folder must be previously created in WebDAV. Otherwise, the data cannot be imported. For detailed information, see [Using WebDAV](https://documentation.b2c.commercecloud.salesforce.com/DOC1/index.jsp?topic=%2Fcom.demandware.dochelp%2Fcontent%2Fb2c_commerce%2Ftopics%2Fimport_export%2Fb2c_using_web_dav.html).
 
     - BundleProductsImport (Scope: Organization)  
 
@@ -140,7 +140,7 @@ Please note that these two jobs must be configured in the Salesforce Commerce Cl
         | ArchiveFolder            | archive/pricebooks      |  
 
 
-    > [Info] Import/pricebooks folder must be previously created in WebDAV. Otherwise, the data cannot be imported. For detailed information, see [Using WebDAV](https://documentation.b2c.commercecloud.salesforce.com/DOC1/index.jsp?topic=%2Fcom.demandware.dochelp%2Fcontent%2Fb2c_commerce%2Ftopics%2Fimport_export%2Fb2c_using_web_dav.html).
+    > [Info] The Import/pricebooks working folder must be previously created in WebDAV. Otherwise, the data cannot be imported. For detailed information, see [Using WebDAV](https://documentation.b2c.commercecloud.salesforce.com/DOC1/index.jsp?topic=%2Fcom.demandware.dochelp%2Fcontent%2Fb2c_commerce%2Ftopics%2Fimport_export%2Fb2c_using_web_dav.html).
 
 
     - SearchReindex (Scope: client site, therefore the step configuration is not relevant for the Core1)
@@ -198,8 +198,53 @@ Create the connection to a Salesforce Commerce Cloud shop using the Salesforce C
 
 #### Prerequisites
 
-- The Salesforce Commerce Cloud shop has been configured, see [Configuration of Salesforce Commerce Cloud shop](#configuration-of-salesforce-commerce-cloud-shop). 
+- Salesforce Commerce Cloud has been configured, see [Configuration of Salesforce Commerce Cloud](#configuration-of-salesforce-commerce-cloud). 
 - The *Salesforce Commerce Cloud* plugin has been installed.  
+
+#### Procedure
+
+*Omni-Channel > Settings > Tab CONNECTIONS*
+
+![SSFC connection](../../Assets/Screenshots/Channels/Settings/Connections/SFCC/Connection.png "[SSFC connection]")
+
+1. Click the [Add](../../Assets/Icons/Plus01.png "[Add]") (Add) button in the bottom right corner.    
+  The *Create connection* view is displayed.
+
+    ![Create connection](../../Assets/Screenshots/Channels/Settings/Connections/CreateConnection.png "[Create connection]")
+
+2. Enter a name for the connection in the *Name* field.
+
+3. Click the *Driver* drop-down list and select the *Salesforce Commerce Cloud* driver.  
+  The *Credentials* section is displayed below the drop-down list.
+
+  > [Info] Salesforce offers the possibility to work with two separate environments, a staging one for customizing and testing purposes and a live one for production. Product data are uploaded to the staging environment and, if applicable, replicated in the live environment after acceptance. This structure is supported by the *Actindo Core1 Platform*. 
+
+4. For a staging environment, the following credentials must be filled:
+    - Enter the shop URL in the *URL* field.  
+    - Enter the client ID in the *Client ID* field and the client password in the *Client password* field for the Salesforce Commerce Cloud shop API.
+    - Enter the user's business manager login details, that is, the username (email), user password and  the user API access token in the *Username*, *User password* and *Access token* fields. 
+
+5. If you want to work on a live environment as well, enable the *Production mode* toggle. In this case, the following credentials must be additionally filled:  
+    - *URL (Production)*
+    - *Client ID (Production)*
+    - *Client password (Production)*
+    - *Username (Production)*
+    - *User password (Production)*
+    - *Access token (Production)*
+
+    > [Info] As soon as a the production mode is enabled, the order and the inventory data are uploaded in production, whereas the product data are uploaded in staging.
+
+6. Click the [SAVE] button.  
+    The connection has been created.
+  
+  The *CONNECTIONS* tab in the *Settings* menu entry of the *Omni-Channel* module is displayed when the connection has been established. The *Salesforce Commerce Cloud* connection is displayed in the list of connections.
+
+  ![Salesforce Commerce Cloud connection](../../Assets/Screenshots/Channels/Settings/Connections/SFCC/Connection.png "[Salesforce Commerce Cloud connection]")
+
+12. If necessary, continue to [Configure the Salesforce Commerce Cloud connection](#configure-the-salesforce-commerce-cloud-connection).
+
+[comment]: <> (Was genau passiert nach SAVE in Core1? Einige Minuten Zeit/Sync/Platform initialized? Satz aus Shopify genommen.)
+
 
 
 ## Configure the Salesforce Commerce Cloud connection   
@@ -209,7 +254,6 @@ After the connection to a Salesforce Commerce Cloud shop has been established, f
 #### Prerequisites
 
 A Salesforce Commerce Cloud connection has been established.
-
 
 #### Procedure
 
