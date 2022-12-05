@@ -207,7 +207,7 @@ Create the connection to a Salesforce Commerce Cloud shop using the Salesforce C
 
 ![SSFC connection](../../Assets/Screenshots/Channels/Settings/Connections/SFCC/Connection.png "[SSFC connection]")
 
-1. Click the [Add](../../Assets/Icons/Plus01.png "[Add]") (Add) button in the bottom right corner.    
+1. Click the ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) button in the bottom right corner.    
   The *Create connection* view is displayed.
 
     ![Create connection](../../Assets/Screenshots/Channels/Settings/Connections/CreateConnection.png "[Create connection]")
@@ -217,7 +217,7 @@ Create the connection to a Salesforce Commerce Cloud shop using the Salesforce C
 3. Click the *Driver* drop-down list and select the *Salesforce Commerce Cloud* driver.  
   The *Credentials* section is displayed below the drop-down list.
 
-  > [Info] Salesforce offers the possibility to work with two separate environments, a staging one for customizing and testing purposes and a live one for production. Product data are uploaded to the staging environment and, if applicable, replicated in the live environment after acceptance. This structure is supported by the *Actindo Core1 Platform*. 
+  > [Info] Salesforce Commerce Cloud offers the possibility to work with two separate environments, a staging one for customizing and testing purposes and a live one for production. Product data are uploaded to the staging environment and, if applicable, replicated in the live environment after acceptance. This structure is supported by the *Actindo Core1 Platform*. 
 
 4. For a staging environment, the following credentials must be filled:
     - Enter the shop URL in the *URL* field.  
@@ -302,7 +302,7 @@ A Salesforce Commerce Cloud connection has been established.
 
     ![Tax classes](../../Assets/Screenshots/Channels/Settings/Connections/SFCC/Settings_TaxClasses.png "[Tax classes]")
 
-9. Enter the applicable Salesforce Commerce Cloud tax code in the *Commerce Cloud Code* field and the corresponding tax code in the *Actindo Core1 Platform in the *Actindo ID* field. The Actindo tax codes can be found in the *Taxes* module. Further tax codes can be added if necessary using the ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) button.  
+9. Enter the applicable Salesforce Commerce Cloud tax code in the *Commerce Cloud Code* field and the corresponding tax code in the *Actindo Core1 Platform* in the *Actindo ID* field. The Actindo tax codes can be found in the *Taxes* module. Further tax codes can be added if necessary using the ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) button.  
 
 10. Click the *Ignored Product Attributes* menu entry in the left side bar.  
     The ignored product attributes setting is displayed in the right side bar.
@@ -311,7 +311,7 @@ A Salesforce Commerce Cloud connection has been established.
 
 11. Enter the ID of any fields that should not be imported in the *SFCC Attribute ID* field. The field IDs can be found in the catalog.xsd schema, see [catalog.xsd](https://documentation.b2c.commercecloud.salesforce.com/DOC3/index.jsp?topic=%2Fcom.demandware.dochelp%2FDWAPI%2Fxsd%2FSchemas.html). Further fields can be added if necessary using the ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) button.  
 
-    > [Info] If there custom fields that should not be imported, this must be specified here as well. Bear in mind that custom fields in *Salesforce Commerce Cloud*. contain the prefix *c_FieldName*.
+    > [Info] If there are custom fields that should not be imported, this must be specified here as well. Bear in mind that custom fields in *Salesforce Commerce Cloud* contain the prefix *c_", that is, *c_FieldName*.
 
 12. Click the *Default language* menu entry in the left side bar.  
     The default language setting is displayed in the right side bar.
@@ -336,14 +336,14 @@ A Salesforce Commerce Cloud connection has been established.
 17. Click the *Job ID data import* menu entry in the left side bar.  
     The Job ID data import setting is displayed in the right side bar.   
 
-    ![Job ID data import](../../Assets/Screenshots/Channels/Settings/Connections/SFCC/Settings_JobIdDataImport.png "[Job ID data import]")
+    ![Job ID data import](../../Assets/Screenshots/Channels/Settings/Connections/SFCC/Settings_JobIDDataImport.png "[Job ID data import]")
 
 18. Enter the applicable Salesforce Commerce Cloud job ID in the *Job ID data import* field. 
 
 19. Click the *Job ID inventory import* menu entry in the left side bar.  
     The Job ID inventory import setting is displayed in the right side bar.   
 
-    ![Job ID inventory import](../../Assets/Screenshots/Channels/Settings/Connections/SFCC/Settings_JobIdInventoryImport.png "[Job ID inventory import]")
+    ![Job ID inventory import](../../Assets/Screenshots/Channels/Settings/Connections/SFCC/Settings_JobIDInventoryImport.png "[Job ID inventory import]")
 
 20. Enter the applicable Salesforce Commerce Cloud job ID in the *Job ID inventory import* field.
 
@@ -384,4 +384,7 @@ A Salesforce Commerce Cloud connection has been established.
 
 30. If desired, select the *Handle inventory custom fields* checkbox if inventory custom fields are imported and must be maintained in the system.
 
+31. Click the [Save] button.  
+    All changes have been saved. The *Saving successful* pop-up window is displayed.
 
+    ![Saving successful](../../Assets/Screenshots/Channels/Settings/Connections/SavingSuccessful.png "[Saving successful]")
