@@ -39,7 +39,7 @@ Workflow processes, as well as the workflows itself, consists of certain element
 
 The transitions act as building blocks that are chained together through places to configure a workflow. They are represented by a rectangle. Transitions are also called workflow actions.
 
-The transitions available to create workflows depend on the modules installed in the system. Every API endpoint of the modules automatically becomes available as a transition and can be used in any workflow. However, you can also build your own transitions independent from the API. Some transition may have configuration options, but most of them do not.
+The transitions available to create workflows depend on the modules installed in the system. A certain number of transitions is always preconfigured in the *Workflows* module, the so-called *Core actions*, see [Workflow core actions](../UserInterface/08_CoreActions.md). Every API endpoint of the modules automatically becomes available as a transition and can be used in any workflow. However, you can also build your own transitions independent from the API. Some transition may have configuration options, but most of them do not.
 
 All transitions contain a certain, predefined number of input and output ports, at least one of each, which can be mandatory or optional.    
 For detailed information about the types of input/output ports, see [Input and output ports](#input-and-output-ports).
