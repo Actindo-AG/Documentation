@@ -3,6 +3,14 @@
 To establish a connection to an Amazon shop, there are several particularities to consider. Therefore, the creation and the configuration of the Amazon connection are described in detail below.
 
 
+
+## Configuration of Amazon Seller Account
+
+All columns of the order reports have to be activated
+A standard ship-from-address should be set
+
+[commment]: <> (S. https://actindo.atlassian.net/wiki/spaces/DEVELOPMEN/pages/21561363/Amazon)
+
 ## Create a Amazon connection
 
 Create the connection to an Amazon shop using the Amazon driver. Further settings can only be configured after the connection has been established.
@@ -13,7 +21,7 @@ Create the connection to an Amazon shop using the Amazon driver. Further setting
 - The *Omni-Channel Amazon Integration* plugin has been installed. 
 - The OAuth authorization URI has been constructed, see [Construct an OAuth authorization URI](https://developer-docs.amazon.com/sp-api/docs/authorizing-selling-partner-api-applications).
 
-> [Info] For the *Omni-Channel* module version 4.1.0 or higher, the *Omni-Channel Amazon Integration* plugin is required in at least version 1.5.0. 
+> [Info] For the *Omni-Channel* module version 4.1.0 or higher, the *Omni-Channel Amazon Integration* plugin is required in at least version 1.4.22. 
 
 [comment]: <> (Omni-Channel Amazon Integration - aktuell nur mit Omni-Channel Version 2.6.13? In der Zukunft auch mit 4. Version möglich? Check versions!) 
 
@@ -32,7 +40,7 @@ Create the connection to an Amazon shop using the Amazon driver. Further setting
 
 2. Enter a name for the connection in the *Name* field.
 
-3. Click the *Driver* drop-down list and select *Omni-Channel Amazon Integration* driver.  
+3. Click the *Driver* drop-down list and select the *Amazon* driver.  
   The *Credentials* section is displayed below the drop-down list.  
 
     ![Credentials](../../Assets/Screenshots/Channels/Settings/Connections/Amazon/Credentials.png "[Credentials]")
@@ -52,28 +60,28 @@ Create the connection to an Amazon shop using the Amazon driver. Further setting
 
     ![Merchant token](../../Assets/Screenshots/Channels/Settings/Connections/Amazon/MerchantToken.png "[Merchant token]")
 
-7. Copy the *Merchant Token* to your clipboard, then switch back to the *Core1 Actindo Platform* and paste it in the *Seller ID* field in the *Credentials* section.
+7. Copy the *Merchant Token* to your clipboard, then switch back to the *Actindo Core1 Platform* and paste it in the *Seller ID* field in the *Credentials* section.
 
 8. Click [AUTHORIZE].  
     You are automatically redirected to the *Authorize Actindo* window in the Amazon Seller Central.
 
     ![Actindo Authorization](../../Assets/Screenshots/Channels/Settings/Connections/Amazon/ActindoAuthorization.png "[Actindo Authorization]")
 
-9. Select the checkbox with the notice *I request Amazon to grant Actindo access to my seller account and the corresponding data. I am responsible for all measures that may be taken by this application* and click [Confirm].  
+9. Select the checkbox with the notice *I request Amazon to grant Actindo access to my seller account and the corresponding data. I am responsible for all measures that may be taken by this application.*, and click [Confirm].  
 
-    A new window with the notice *We authorize Actindo to access your seller details* is displayed. You are redirected back to the *Actindo Core1 Platform*. The *Access Token* field has been automatically filled in.
+    A new window with the notice *We authorize Actindo to access your seller details.* is displayed. You are redirected back to the *Actindo Core1 Platform*. The *Access token* field has been automatically filled in.
 
     ![Access token](../../Assets/Screenshots/Channels/Settings/Connections/Amazon/AccessToken.png "[Access token]")
 
 [comment]: <> (Selber übersetzt. Nicht sicher, was eigentlich steht. Fraglich, ob man alle Screenshots bekommen kann. Prüfen und ggf. rauslassen)
 
-10. Click the *Amazon Marketplace* drop-down list and select the applicable marketplace.
+10. Click the *Amazon marketplace* drop-down list and select the applicable marketplace.
     > [Info] Once it has been saved, the selected marketplace cannot be edited anymore.
 
 11. Click [SAVE].  
-    A new window with the notice *Checking credentials* is displayed. The credentials are checked, the connection established and the synchrozation is triggered. The *Synchronization triggered* is displayed. 
+    A new window with the notice *Checking credentials* is displayed. The credentials are checked, the connection established and the synchronization is triggered. The *Sync triggered* is displayed. 
 
-    ![Synchronization triggered](../../Assets/Screenshots/Channels/Settings/Connections/Amazon/SynchronizationTriggered.png "[Synchronization triggered]")
+    ![Sync triggered](../../Assets/Screenshots/Channels/Settings/Connections/SyncTriggered.png "[Sync triggered]")
 
     The *CONNECTIONS* tab in the *Settings* menu entry of the *Omni-Channel* module is displayed when the connection has been established. The *Amazon* connection is displayed in the list of connections.
 
