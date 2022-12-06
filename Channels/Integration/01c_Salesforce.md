@@ -143,7 +143,7 @@ Please note that these two jobs must be configured in the Salesforce Commerce Cl
     > [Info] The Import/pricebooks working folder must be previously created in WebDAV. Otherwise, the data cannot be imported. For detailed information, see [Using WebDAV](https://documentation.b2c.commercecloud.salesforce.com/DOC1/index.jsp?topic=%2Fcom.demandware.dochelp%2Fcontent%2Fb2c_commerce%2Ftopics%2Fimport_export%2Fb2c_using_web_dav.html).
 
 
-    - SearchReindex (Scope: client site, therefore the step configuration is not relevant for the Core1)
+    - SearchReindex (Scope: client site, therefore the step configuration is not relevant for the *Actindo Core1 Platform*)
 
 [comment]: <> (Evtl. dieser Step rauslassen? Oder etwas dazu erklären?)
 
@@ -200,6 +200,10 @@ Create the connection to a Salesforce Commerce Cloud shop using the Salesforce C
 
 - Salesforce Commerce Cloud has been configured, see [Configuration of Salesforce Commerce Cloud](#configuration-of-salesforce-commerce-cloud). 
 - The *Salesforce Commerce Cloud* plugin has been installed.  
+
+> [Info] For the *Omni-Channel* module version 4.1.0 or higher, the *Salesforce Commerce Cloud* plugin is required in at least version 1.2.0.
+
+[comment]: <> (check!)
 
 #### Procedure
 
@@ -388,3 +392,96 @@ A Salesforce Commerce Cloud connection has been established.
     All changes have been saved. The *Saving successful* pop-up window is displayed.
 
     ![Saving successful](../../Assets/Screenshots/Channels/Settings/Connections/SavingSuccessful.png "[Saving successful]")
+
+
+## Configure the Shopify ETL mapping
+
+There are a few particularities regarding the Salesforce Commerce Cloud connection that must be taking into account:  
+
+1. Every product must be assigned to a catalog, which is similar to a product category in a shop. A master catalog determines which fields from Salesforce Commerce Cloud are available. 
+
+2. All Salesforce fields, e.g. multilingual and site-specific fields, can be replicated in the *Actindo Core1 Platform* except for the Boolean site-specific fields, represented by checkboxes in the user interface, that cannot be replicated due to different numbers of values.
+
+3. Fields cannot be dynamically created in the *Actindo Core1 Platform*.
+
+4. Regarding specifically the ETL mapping configuration, the following values must be set:
+
+    a. Product variants > Variants to Variants > Variants (CommerceCloud Actindo)
+
+    In the *Configuration* section, on the right side of the workspace, the following toggles must be enabled:
+        
+    - Automatically generate all child entities when main entity is created  
+    - Automatically map variant sets  
+    - Automatically create variant set if no suiting variant can be found  
+
+    The following toggles, on the other hand, must be disabled:
+
+    - Automatically add not mapped defining attributes to destination set when creating variant set
+    - Do not transfer the status of the master offer to the child offer
+
+    [comment]: <> (Screenshot hinzufügen aus ETL mapping)
+
+    b. (empty) > Constant value > Master catalog (CommerceCloud Actind)  
+    
+    In the *Configuration* section, on the right side of the workspace, click the *Master catalog (Commerce Cloud Actind* drop-down list and select the appropriate option. The master catalog must necessarily be set. Otherwise, the upload will fail.
+
+    [comment]: <> (Screenshot hinzufügen aus ETL mapping)
+
+    c. Geo-Code > Tree-To-String defining values (CommerceCloud) > Product Language (CommerceCloud Actind) 
+    
+    In Salesforce variants can be translated, whereas in the *Actindo Core1 Platform* variant attributes cannot be multilingual. A special mapping must be used to import the variants fields from Salesforce.  
+    
+    [comment]: <> (Screenshot hinzufügen aus ETL mapping)
+
+    Using this mapping, the system uploads the translations created in the *PIM* module.
+
+    It is important to note that any changes made to the translations in the *PIM* module will not be uploaded automatically, even if rerunning the mapping. A workaround is to set momentarily the product to inactive and set it to active again. 
+
+    [comment]: <> (momentan blindspot, aufgrund von Prozess: er schreibt nicht die Übersetzung sondern die ID, daher bei Rerun passiert nichts, da ID gleich bleibt. -> Irgendwie erklären??? Workaround: Produkt auf inaktiv setzen und wieder auf aktiv, dann lädt er hoch) 
+
+5. The *Actindo Core1 Platform* uploads only the changes made in the system but does not modify any new fields or categories created in the shop.
+
+6. When creating an offer, a new site-specific attribute, if applicable, will be additionally created for every relevant site. When a new site is created, the connection must be then synchronize again for these site-specific attributes to be created in the newly created site too.
+
+[comment]: <> (s. Angebote, Attribute, Search Placement)
+
+7. The inventory is initially uploaded via XML file. Additional changes to inventory subsequently made will be uploaded via API, and therefore no inventory import jobs will be displayed.  
+
+
+8. There are two API end points that may be useful for the user. API endpoints can be used to make an API request for different purposes:
+
+    a. Debug (Actindo.Extensions.Actindo.CommerceCloud.OrderDebug.orderDebug?connectionId=x&orderNumber=x&siteId=x)
+
+    In the API URL above, *x* stands for the specific parameter information that must be added:
+
+    - Connection ID (*Connections* > *ID* column)
+    - Order number (*Orders and returns* > *Remote ID* column)
+    - ID of the site where the order has been placed 
+
+
+    b. Inventory upload (Actindo.Extensions.Actindo.CommerceCloud.ReuploadStock.trigger?connectionId=x)
+
+    In the API URL above, *x* stands for the specific parameter information that must be added:
+
+    - Connection ID (*Connections* > *ID* column)
+
+
+[comment]: <> (Relevant für User? Evtl./besser bei Troubleshooting?)
+
+
+9. Product options, for instance, adding a warranty to a product, are generally not supported in the Core1. Nevertheless, it is possible to replicate and assign shared product options but they cannot be maintained in the system.
+
+[comment]: <> (Können Sie gepflegt werden oder nicht? Unsicher)
+
+10) There are three different offer status in the *Actindo Core1 Platform*:  
+
+    - **Active**: online and available in shop   
+    - **Inactive**: online but not available in shop   
+    - **Not available**: offline
+
+It is possible to override the active status of an offer, that means, set an offer can to inactive in individual sites if necessary, see *Offer > Select an offer > Attributes > Basic data > Override online (only active products) status for "Site ID"*. Bear in mind that the offer status in *Actindo Core1 Platform* must always be *Active*. 
+
+> [Info] If an offer is set to inactive in the *Actindo Core1 Platform*, it will be inactive in all sites in Salesforce Commerce Cloud. 
+
+[comment]: <> (Wie/wo kann man dann auf Inaktiv in den einzelnen Seiten setzen? In PIM?)    
+
