@@ -125,7 +125,7 @@ After the connection to a Magento 2 shop has been established, further settings 
 
 9. Click the *Select Magento 2 tax class for Core1 tax class* drop-down list and select the applicable Magento tax class. All available tax classes are displayed in the list. Repeat this step for all the applicable tax classes.
 
-[comment]: <> (Gibt es Default tax classes bei Magento, z.B. die auf dem Video angezeigt oder abhängig von weiteren (Vor-)Einstellungen in Magento? Neue tax classes können bei Magento auch erstellt werden, also: All available tax classes are displayed in the list oder By default, the following options are available?)
+[comment]: <> (Gibt es Default tax classes bei Magento, z.B. die auf dem Video angezeigt oder abhängig von weiteren Vor-/Einstellungen in Magento? Neue tax classes können bei Magento auch erstellt werden, also: All available tax classes are displayed in the list oder By default, the following options are available?)
 
 10. Click the *Global default language for Magento 2* menu entry in the left side bar.  
     The *Select global default language for Magento backend* section is displayed in the right side bar.
@@ -158,12 +158,10 @@ The site https://regex101.com/ can be useful to test regular expressions.
     ![Saving successful](../../Assets/Screenshots/Channels/Settings/Connections/SavingSuccessful.png "[Saving successful]")
 
 
+
+[comment]: <> (Muss man die Verbindung auch synchronisieren oder wird automatisch synchronisiert nach dem Speichern?)
+
 [comment]: <> (Steps 5, 6 und 7 -alle unter Order States menu entry- könnten in einem großen Schritt zusammengelegt werden, mit weitere Unterschritte geteilt werden, wobei er wäre extrem lang und nicht so überschauber. Meinung dazu?)
 
 
 
-## Configure the Magento 2 ETL mapping
-
-Basic ETL???
-
-[comment]: <> (Oli fragen)
