@@ -28,7 +28,7 @@ An Amazon Seller Account has been created.
 
 3. Add all columns to the order reports. Otherwise, the shipping costs may not be imported.
 
-4. Click [Save changes].
+4. Click the [Save changes] button.
 
 5. Now go to *Settings > Shipping Settings > General Shipping Settings*.
 
@@ -38,7 +38,7 @@ An Amazon Seller Account has been created.
 
 7. Enter the default ship-from address.
 
-8. Click [Save].
+8. Click the [Save] button.
 
 
 [comment]: <> (RS Johannes - Procedure und Screenshots? S. auch https://internal-jira.actindo.com/browse/ACDP-150)
@@ -80,10 +80,9 @@ Create the connection to an Amazon shop using the Amazon driver. Further setting
 
     ![Credentials](../../Assets/Screenshots/Channels/Settings/Connections/Amazon/Credentials.png "[Credentials]")
 
-
 4. To find your Seller ID, log in to your seller account in the Amazon Seller Central.
 
-    ![Amazon Seller Profile](../../Assets/Screenshots/Channels/Settings/Connections/Amazon/AmazonSellerProfile.png "[Amazon Seller Profile]")
+    ![Amazon seller profile](../../Assets/Screenshots/Channels/Settings/Connections/Amazon/AmazonSellerProfile.png "[Amazon seller profile]")
 
 5. Click *Settings* on the upper right corner and select the *Account Info* menu entry.  
     The *Seller Account Information* window is displayed.
@@ -100,9 +99,9 @@ Create the connection to an Amazon shop using the Amazon driver. Further setting
 8. Click [AUTHORIZE].  
     You are automatically redirected to the *Authorize Actindo* window in the Amazon Seller Central.
 
-    ![Actindo Authorization](../../Assets/Screenshots/Channels/Settings/Connections/Amazon/ActindoAuthorization.png "[Actindo Authorization]")
+    ![Actindo authorization](../../Assets/Screenshots/Channels/Settings/Connections/Amazon/ActindoAuthorization.png "[Actindo authorization]")
 
-9. Select the checkbox with the notice *I request Amazon to grant Actindo access to my seller account and the corresponding data. I am responsible for all measures that may be taken by this application.*, and click [Confirm].  
+9. Select the checkbox with the notice *I request Amazon to grant Actindo access to my seller account and the corresponding data. I am responsible for all measures that may be taken by this application.*, and click  the [Confirm] button.  
 
     A new window with the notice *We authorize Actindo to access your seller details.* is displayed. You are redirected back to the *Actindo Core1 Platform*. The *Access token* field has been automatically filled in.
 
@@ -113,8 +112,8 @@ Create the connection to an Amazon shop using the Amazon driver. Further setting
 10. Click the *Amazon marketplace* drop-down list and select the applicable marketplace.
     > [Info] Once it has been saved, the selected marketplace cannot be edited anymore.
 
-11. Click [SAVE].  
-    A new window with the notice *Checking credentials* is displayed. The credentials are checked, the connection established and the synchronization is triggered. The *Sync triggered* pop-up window is displayed. 
+11. Click the [SAVE] button.  
+    The *Checking credentials* notice is displayed. The connection is established and the synchronization is triggered. The *Sync triggered* pop-up window is displayed. 
 
     ![Sync triggered](../../Assets/Screenshots/Channels/Settings/Connections/SyncTriggered.png "[Sync triggered]")
 
@@ -122,7 +121,7 @@ Create the connection to an Amazon shop using the Amazon driver. Further setting
 
     ![Amazon connection](../../Assets/Screenshots/Channels/Settings/Connections/Amazon/Connection.png "[Amazon connection]")
 
-[comment]: <> (Letzter Satz von Shopify genommen. Evtl. mit Result oben -11- integrieren. Alle Dateien vereinheitlichen, wenn möglich.)
+[comment]: <> (Letzter Satz von Shopify genommen. Evtl. mit Result oben -11- integrieren?)
 
 12. If necessary, continue to [Configure the Amazon connection](#configure-the-amazon-connection).
 
@@ -133,7 +132,7 @@ After the connection to an Amazon shop has been established, further settings ca
 
 #### Prerequisites
 
-An Amazon connection has been established.
+An Amazon connection has been established, see [Create an Amazon connection](#create-an-amazon-connection).
 
 #### Procedure
 
@@ -191,7 +190,7 @@ An Amazon connection has been established.
 7. Once unlocked, select the checkboxes corresponding to the relevant marketplaces.
 
 8. Click the *Shipping provider mapping* menu entry in the left side bar.    
-  The *Shipping provider mapping* setting is displayed in the right side bar. All shipping methods offered by Amazon are displayed in the AmazonShipOption section. All available shipping methods must be assigned to a shipping provider in the *Assigned shipping provider* section.  
+  The *Shipping provider mapping* setting is displayed in the right side bar. All shipping methods offered by Amazon are displayed in the AmazonShipOption section. Each available shipping method must be assigned to a shipping provider in the *Assigned shipping provider* section.  
 
     ![Shipping provider mapping](../../Assets/Screenshots/Channels/Settings/Connections/Amazon/Settings_ShippingProviderMapping.png "[Shipping provider mapping]")
 
@@ -201,21 +200,21 @@ An Amazon connection has been established.
 
 [comment]: <> (Wo, wie? Link oder Pfad dahin?)
 
-[comment]: <> (Hinzufügen? -> The shipping-provider mapping needs the connection to be synced afterwards! The status of the VAT calculation service can be checked/changed -> in Seller Central. Ist das hier überhaupt relevant? Vielleicht in Fakturierung? Quelle: https://actindo.atlassian.net/wiki/spaces/DEVELOPMEN/pages/21561363/Amazon)
+[comment]: <> (Hinzufügen? -> The shipping-provider mapping needs the connection to be synced afterwards! -> Sync passiert automatisch nach dem Speichern oder muss man extra über editing toolbar > Sync button gehen? Auch: The status of the VAT calculation service can be checked/changed -> in Seller Central. Ist das hier überhaupt relevant? Vielleicht in Fakturierung? Quelle: https://actindo.atlassian.net/wiki/spaces/DEVELOPMEN/pages/21561363/Amazon)
 
-10. Click [SAVE].  
+10. Click the [SAVE] button.  
     All changes have been saved. The *Saving successful* pop-up window is displayed.
 
     ![Saving successful](../../Assets/Screenshots/Channels/Settings/Connections/SavingSuccessful.png "[Saving successful]")
 
-  > [Info] After saving, it is necessary to synchronize the connection to update the corresponding ETL mapping.
+    > [Info] After saving, it is necessary to synchronize the connection to update the corresponding ETL mapping.
 
-[comment]: <> (Check, ob Saving successful pop-up auch bei Amazon stimmt)
+[comment]: <> (Saving successful aus Shopify Datei. Check, ob Saving successful pop-up auch bei Amazon vorkommt)
 
-11. Synchronize the connection to update the ETL mapping.    
+11. Synchronize the connection to update the ETL mapping, see [Synchronize a connection](../Integration/01_ManageConnections.md#synchronize-a-connection)    
   The *Sync triggered* pop-up window is displayed.
 
     ![Sync triggered](../../Assets/Screenshots/Channels/Settings/Connections/SyncTriggered.png "[Sync triggered]")
 
-[comment]: <> (Wie macht man Sync? Nicht deutlich in Wissenstranfer. Connection checkbox auswählen und SYNCHRONIZE button in editing tool? Verweis darauf?)
+[comment]: <> (Wie macht man Sync? Nicht deutlich in Wissenstranfer. Connection checkbox auswählen und SYNCHRONIZE button in editing tool? Verweis darauf oder Schritte hier?)
 
