@@ -3,13 +3,46 @@
 To establish a connection to an Amazon shop, there are several particularities to consider. Therefore, the creation and the configuration of the Amazon connection are described in detail below.
 
 
-
 ## Configuration of Amazon Seller Account
 
-All columns of the order reports have to be activated
-A standard ship-from-address should be set
+Before a connection between Amazon and *Actindo Core1 Platform* can be established, the following adjustments must be made in the Amazon Seller Central for the connection to work correctly:
 
-[commment]: <> (S. https://actindo.atlassian.net/wiki/spaces/DEVELOPMEN/pages/21561363/Amazon)
+- All columns of the order reports must be activated  
+- A standard ship-from address must be set
+
+Follow the instructions below to configure your Amazon Seller Account.
+
+[commment]: <> (Andere pre-settings? RS Johannes. S. https://actindo.atlassian.net/wiki/spaces/DEVELOPMEN/pages/21561363/Amazon)
+
+#### Prerequisites  
+
+An Amazon Seller Account has been created.
+
+#### Procedure
+
+1. In a browser window, go to the *Amazon Seller Central* platform and log in to your account.
+
+2. In your Seller profile, go to *Orders > Order reports > Add or remove order report columns*.
+
+  ![Order reports](../../Assets/Screenshots/Channels/Settings/Connections/Amazon/.png "[Order reports]")
+
+3. Add all columns to the order reports. Otherwise, the shipping costs may not be imported.
+
+4. Click [Save changes].
+
+5. Now go to *Settings > Shipping Settings > General Shipping Settings*.
+
+  ![Shipping settings](../../Assets/Screenshots/Channels/Settings/Connections/Amazon/.png "[Shipping settings]")
+
+6. Click the [Edit] icon next to the *Ship from location*.
+
+7. Enter the default ship-from address.
+
+8. Click [Save].
+
+
+[comment]: <> (RS Johannes - Procedure und Screenshots? S. auch https://internal-jira.actindo.com/browse/ACDP-150)
+
 
 ## Create a Amazon connection
 
@@ -17,7 +50,7 @@ Create the connection to an Amazon shop using the Amazon driver. Further setting
 
 #### Prerequisites
 
-- An Amazon seller account has been created.
+- The Amazon seller account has been configured, see [#configuration-of-amazon-seller-account].
 - The *Omni-Channel Amazon Integration* plugin has been installed. 
 - The OAuth authorization URI has been constructed, see [Construct an OAuth authorization URI](https://developer-docs.amazon.com/sp-api/docs/authorizing-selling-partner-api-applications).
 
@@ -26,6 +59,8 @@ Create the connection to an Amazon shop using the Amazon driver. Further setting
 [comment]: <> (Omni-Channel Amazon Integration - aktuell nur mit Omni-Channel Version 2.6.13? In der Zukunft auch mit 4. Version möglich? Check versions!) 
 
 [comment]: <> (The OAuth authorization URI redirects a browser to an Amazon consent page, where you or a selling partner can give your application consent to make calls to the Selling Partner API.)
+
+[comment]: <> (Prerequisites? -> Versandanbieter erstellen & mappen, Rechnungsupload aktivieren, Amazon Payments Verbindung einrichten, Konto in der Zahlungsabwicklung einrichten,  Für den Angebotsupload muss in den Omni-Channel Angeboten das Feld "Herkunftsland" gesetzt sein. Leider wird diese Information beim Import von Angeboten nicht übermittelt. -> Quelle: https://internal-jira.actindo.com/browse/ACDP-150)
 
 #### Procedure
 
@@ -55,7 +90,7 @@ Create the connection to an Amazon shop using the Amazon driver. Further setting
 
     ![Seller account information](../../Assets/Screenshots/Channels/Settings/Connections/Amazon/SellerAccountInfo.png "[Seller account information]")
 
-6. Click *Your Merchan Token* in the *Business Information* section.  
+6. Click *Your Merchant Token* in the *Business Information* section.  
     The *Merchant Token* window is displayed.
 
     ![Merchant token](../../Assets/Screenshots/Channels/Settings/Connections/Amazon/MerchantToken.png "[Merchant token]")
@@ -165,6 +200,8 @@ An Amazon connection has been established.
   > [Info] The shipping provider can be set up in the *Order management* module.
 
 [comment]: <> (Wo, wie? Link oder Pfad dahin?)
+
+[comment]: <> (Hinzufügen? -> The shipping-provider mapping needs the connection to be synced afterwards! The status of the VAT calculation service can be checked/changed -> in Seller Central. Ist das hier überhaupt relevant? Vielleicht in Fakturierung? Quelle: https://actindo.atlassian.net/wiki/spaces/DEVELOPMEN/pages/21561363/Amazon)
 
 10. Click [SAVE].  
     All changes have been saved. The *Saving successful* pop-up window is displayed.
