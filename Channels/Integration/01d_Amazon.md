@@ -3,9 +3,9 @@
 To establish a connection to an Amazon shop, there are several particularities to consider. Therefore, the creation and the configuration of the Amazon connection are described in detail below.
 
 
-## Configuration of Amazon Seller Account
+## Configuration of the Amazon Seller Account
 
-Before a connection between Amazon and *Actindo Core1 Platform* can be established, the following adjustments must be made in the Amazon Seller Central for the connection to work correctly:
+Before a connection between Amazon and the *Actindo Core1 Platform* can be established, the following adjustments must be made in the Amazon Seller Central for the connection to work correctly:
 
 - All columns of the order reports must be activated  
 - A standard ship-from address must be set
@@ -44,13 +44,13 @@ An Amazon Seller Account has been created.
 [comment]: <> (RS Johannes - Procedure und Screenshots? S. auch https://internal-jira.actindo.com/browse/ACDP-150)
 
 
-## Create a Amazon connection
+## Create an Amazon connection
 
 Create the connection to an Amazon shop using the Amazon driver. Further settings can only be configured after the connection has been established.
 
 #### Prerequisites
 
-- The Amazon seller account has been configured, see [#configuration-of-amazon-seller-account].
+- The Amazon seller account has been configured, see [Configuration of the Amazon Seller Account](#configuration-of-the-amazon-seller-account).
 - The *Omni-Channel Amazon Integration* plugin has been installed. 
 - The OAuth authorization URI has been constructed, see [Construct an OAuth authorization URI](https://developer-docs.amazon.com/sp-api/docs/authorizing-selling-partner-api-applications).
 
@@ -108,7 +108,7 @@ Create the connection to an Amazon shop using the Amazon driver. Further setting
 
     ![Access token](../../Assets/Screenshots/Channels/Settings/Connections/Amazon/AccessToken.png "[Access token]")
 
-[comment]: <> (Selber übersetzt. Nicht sicher, was eigentlich steht. Fraglich, ob man alle Screenshots bekommen kann. Prüfen und ggf. rauslassen)
+[comment]: <> (Selber übersetzt. Nicht sicher, was eigentlich steht. Nach Screenshots fragen, wenn möglich.)
 
 10. Click the *Amazon marketplace* drop-down list and select the applicable marketplace.
     > [Info] Once it has been saved, the selected marketplace cannot be edited anymore.
