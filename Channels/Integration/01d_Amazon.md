@@ -114,7 +114,7 @@ Create the connection to an Amazon shop using the Amazon driver. Further setting
     > [Info] Once it has been saved, the selected marketplace cannot be edited anymore.
 
 11. Click [SAVE].  
-    A new window with the notice *Checking credentials* is displayed. The credentials are checked, the connection established and the synchronization is triggered. The *Sync triggered* is displayed. 
+    A new window with the notice *Checking credentials* is displayed. The credentials are checked, the connection established and the synchronization is triggered. The *Sync triggered* pop-up window is displayed. 
 
     ![Sync triggered](../../Assets/Screenshots/Channels/Settings/Connections/SyncTriggered.png "[Sync triggered]")
 
@@ -208,10 +208,14 @@ An Amazon connection has been established.
 
     ![Saving successful](../../Assets/Screenshots/Channels/Settings/Connections/SavingSuccessful.png "[Saving successful]")
 
-[comment]: <> (Check, ob das auch bei Amazon stimmt)
+  > [Info] After saving, it is necessary to synchronize the connection to update the corresponding ETL mapping.
 
-11. After saving, it is necessary to synchronize the connection to update the corresponding ETL mapping. 
-  The *Synchronization triggered* pop-up window is displayed with the notice 'The synchronization has been triggered and will be performed shortly in the background'.
+[comment]: <> (Check, ob Saving successful pop-up auch bei Amazon stimmt)
+
+11. Synchronize the connection to update the ETL mapping.    
+  The *Sync triggered* pop-up window is displayed.
+
+    ![Sync triggered](../../Assets/Screenshots/Channels/Settings/Connections/SyncTriggered.png "[Sync triggered]")
 
 [comment]: <> (Wie macht man Sync? Nicht deutlich in Wissenstranfer. Connection checkbox auswählen und SYNCHRONIZE button in editing tool? Verweis darauf?)
 
