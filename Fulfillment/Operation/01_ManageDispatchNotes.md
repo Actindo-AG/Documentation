@@ -13,25 +13,24 @@ The *Fulfillment* module works together with the *Workflows* module. Once the *F
 
 ## Check a dispatch note
 
-The dispatch note provides numerous data about the order, which may vary depending on the connection settings. The following procedures to check specific data are described in detail below:
+The dispatch note provides numerous data about the order, which may vary depending on the connection settings. 
 
-  - Dispatch note status, see [Check dispatch note status](#check-dispatch-note-status)
-  - Shipment status, see [Check shipment status](#check-shipment-status)
-  - Check shipment details, see [Check shipment details](#check-shipment-details)
+Following order-related data can be checked:
 
-Besides, the following general data can be checked in the list of dispatch notes:
+- Dispatch note status
 - Document number, which equals the delivery note number in the *Order management* module
+- Shipment status, see [Check shipment](02_CheckShipment.md)  
 - Shipping type
 - Carrier
 - Receiver details (name and zip code)
-- Error (Dispatch note status - Shipment status: Error -> Fulfiller hat Fehler gemeldet)
+
 
 [comment]: <> (Überhaupt relevant/notwendig?)
 
 
 ### Check dispatch note status
 
-The dispatch note status can be checked in the list of dispatch notes.
+The dispatch note status can be checked in the list of dispatch notes. The dispatch note status displays the current stage in the fulfillment process.
 
 #### Prerequisites
 
@@ -44,73 +43,40 @@ The dispatch note status can be checked in the list of dispatch notes.
 
 ![Dispatch notes](../../Assets/Screenshots/Fulfillment/DispatchNotes/DispatchNotes.png "[Dispatch notes]")
 
--> Link auf Force completion
+1. Check the status displayed in the *Status* column. The following options can be displayed:  
+  - **New dispatch note**  
+    The dispatch note has been newly created.
+  - **Transferred to partner**  
+    The dispatch note has been transferred to partner but no receival has been confirmed yet. In rare occasions, the fulfiller may note receive a dispatch note. In that case, it may be necessary to resend the dispatch note, see [Export a dispatch note](#export-a-dispatch-note).
+  - **Partner confirmed receival**  
+    The fulfiller has confirmed receival of the dispatch note. The shipment status will be updated shortly, see [Check shipment status](02_CheckShipment.md#check-the-shipment-status). Occasionally, the receival may not be confirmed by the fulfiller. In this case, it is possible to click on the [FORCE COMPLETION] button to confirm the dispatch note as complete to prevent subsequent processes from remaining waiting for confirmation, see [Complete a dispatch note](#complete-a-dispatch-note).
+  - **Dispatch note completed**  
+    The dispatch note has been processed.
+  - **Error**  
+    The dispatch note has given an error. 
+    
+    [comment]: <> (Dispatch note status: Error - Shipment status: Error -> Fulfiller hat Fehler gemeldet; Dispatch status Error - Shipment status New shipment, Error - No shipment, Error - Error, Error - Delivered -> Ist das überhaupt möglich? Keine Korrelation Dispatch note status - Shipment status???)
+  - **Void**  
+    The dispatch note is not valid.
 
--> Link auf Export
 
 
+2. Check the document number
 
-
-
-
-
-2. Dispatch note status: The dispatch note status displays the current stage in the fufillment process.
-  - EXPORT -> if it has not been received, it is possible to click on EXPORT button to resend it to the fulfiller, e.g. (Dispatch note) Status **Error** - Shipment status x (dispatch note has not shipments yet)
-  - FORCE COMPLETION -> if shipment status has not been updated by fulfiller, it is possible to click on FORCE COMPLETION to confirm dispatch note as complete, so that no subsequent processes remain waiting/stuck
-
-
-3. Shipment status: the shipment status is displayed with an icon. Meanings:
+3. Check the shipment status, see [Check shipment status](./02_CheckShipment.md#check-the-shipment-status).
 
 4. Receiver details (name and zip code) - necessary/useful?
 
 
-### Check shipment status
-
-#### Prerequisites
-
-#### Procedure
-
-
-
-### Check the shipment details
-
-Once the shipment has been arranged by the fulfiller, the shipment status is updated. The information provided by the fulfiller, such as tracking number or tracking link, can be checked.  
-
-#### Prerequisites
-
-- The dispatch note status is *Partner confirmed receival* or *Dispatch note completed*.
-
-#### Procedure
-
-*Fulfillment > Dispatch notes > Tab LIST*
-
-![Dispatch notes](../../Assets/Screenshots/Fulfillment/DispatchNotes/DispatchNotes.png "[Dispatch notes]")
-
-1. Click the dispatch note related to the shipment you want to check. Alternatively, you can click the checkbox of the dispatch note to be checked and click the [VIEW] button in the editing toolbar.  
-  The *Dispatch note ID* view is displayed. The *ATTRIBUTES* tab is by default preselected.
-
-  ![Dispatch note ID](../../Assets/Screenshots/Fulfillment/DispatchNotes/DispatchNoteAttributes.png "[Dispatch note ID]")
-
-2. Select the *Shipments* tab.  
-  All shipments included in the dispatch note are displayed.
-
-  ![Shipments](../../Assets/Screenshots/Fulfillment/DispatchNotes/DispatchNoteShipments.png "[Shipments]")
-
-3. Click the shipment to be checked.  
-   The *Shipment ID* view is displayed. The *ATTRIBUTES* sub-tab is per default preselected.
-
-   ![Shipment ID](../../Assets/Screenshots/Fulfillment/DispatchNotes/ShipmentsAttributesAttributes.png "[Shipment ID]")
-
-4. Select the *PACKAGES* sub-tab.
-  The package(s) included in the shipment, together with any additional information provided by the fulfiller, such as tracking number or tracking link, is displayed.
-
-  ![Shipment packages](../../Assets/Screenshots/Fulfillment/DispatchNotes/ShipmentsPackages.png "[Shipment packages]")
 
 
 
 ## Complete a dispatch note
 
 Occasionally, the message sent by the fulfiller to confirm delivery may fail or may not be received. In this case, the dispatch note status will stay as **Partner confirmed receival**. To prevent subsequent processes from staying stuck/waiting for the complete status, the dispatch note status can be updated manually if necessary.
+
+
+
 
 [comment]: <> (Unsicher von Ausgangssituation. Macht das so Sinn? Vielleicht Fehler festgestellt in Workflows? Wie weiß ich sonst, welche Dispatch note status nicht aktualisiert worden ist? Ich muss erst in Shipments prüfen...)
 
