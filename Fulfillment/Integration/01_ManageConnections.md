@@ -7,7 +7,7 @@ Establish connections to your fulfillers via driver with the *Actindo Core1 Plat
 In the following, the general settings to create, edit and disable connections are described. For certain connection drivers, you have to setup special configurations. Therefore, the connections below are described in separate documents:
 - Fiege connection
 
-[comment]: <> (Link zu Connection einfügen)
+[comment]: <> (Prüfen! Ggf. Link zu Connection einfügen)
 
 
 ## Create a connection
@@ -24,7 +24,7 @@ At least one driver has been installed.
 
 *Fulfillment > Settings > Tab CONNECTIONS*
 
-![Connection](../../Assets/Screenshots/Fulfillment/Settings/Connections/ExistingConnections.png "[Connection]")
+![Connection](../../Assets/Screenshots/Fulfillment/Settings/Connections/Connections.png "[Connection]")
 
 1. Click the ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) button in the bottom right corner.   
   The *Create connection* view is displayed.
@@ -37,15 +37,15 @@ At least one driver has been installed.
 
   > [Info] Drivers must be purchased from the main account and then be installed separately in each sandbox or account where you want to use it. For detailed information, see [Manage the drivers](to_be_completed).
 
-  Depending on the driver, a *Credentials* section is displayed below the drop-down list.
+  The *Credentials* section is displayed below the drop-down list.
 
   ![Credentials](../../Assets/Screenshots/Fulfillment/Settings/Connections/Credentials.png "[Credentials]")
 
-  > [Info] Depending on the driver of the connection, the fields in the *Credentials* section differ.
+  > [Info] Depending on the selected driver, the fields in the *Credentials* section differ.
 
 [comment]: <> (Manage the drivers? Zusätzliche Datei? Ticket erstellen)
 
-4. If necessary, enter the required data in the fields in the *Credentials* section.
+4. Enter the required data in the fields in the *Credentials* section.
 
 5. Click the [SAVE] button.   
   The connection will be established. The *Checking credentials...* notice is displayed. After a few seconds, the notice *Loading data...* is displayed.
@@ -55,6 +55,8 @@ At least one driver has been installed.
   The *Create connection* view is automatically closed when the connection has been established. The new connection *Connection \"Connection name\"* view is displayed with the *Settings* tab preselected.
 
 [comment]: <> (Connection Connection name oder Connection name Connection?)
+
+[comment]: <> (Initial Sync?)
 
 
 ## Edit a connection
@@ -69,7 +71,7 @@ At least one connection has been established, see [Create a connection](#create-
 
 *Fulfillment > Settings > Tab CONNECTIONS*
 
-![Connections](../../Assets/Screenshots/Fulfillment/Settings/Connections/ExistingConnections.png "[Connections]")
+![Connections](../../Assets/Screenshots/Fulfillment/Settings/Connections/Connections.png "[Connections]")
 
 1. Click the connection you want to edit in the list of connections.   
   The *Edit connection* view is displayed.
@@ -87,7 +89,7 @@ At least one connection has been established, see [Create a connection](#create-
 
   ![Credentials](../../Assets/Screenshots/Fulfillment/Settings/Connections/CheckingCredentials.png "[Credentials]")
 
-  The *Edit connection* view is automatically closed and the *Existing connections* view is displayed again.
+  The *Edit connection* view is automatically closed and the *Connections* view is displayed again.
 
 
 ## Disable a connection
@@ -103,7 +105,7 @@ Once a connection has been established, it cannot be deleted. Nevertheless, the 
 
 *Fulfillment > Settings > Tab CONNECTIONS*
 
-![Connections](../../Assets/Screenshots/Fulfillment/Settings/Connections/ExistingConnections.png "[Connections]")
+![Connections](../../Assets/Screenshots/Fulfillment/Settings/Connections/Connections.png "[Connections]")
 
 1. Select the checkbox of the connection you want to disable in the list of connections.   
   The editing toolbar is displayed above the list of connections.
@@ -111,5 +113,5 @@ Once a connection has been established, it cannot be deleted. Nevertheless, the 
 2. Click the [DISABLE] button in the toolbar.   
   The connection has been deactivated.
 
-3. Click the (Refresh) button to update the list of connections.   
+3. Click the ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh) button to update the list of connections.   
   The status of the disabled connection in the *Status* column has switched to **Inactive**.
