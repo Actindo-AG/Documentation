@@ -1,6 +1,5 @@
-[!!User interface Offers](../UserInterface/to_be_completed)   
-[!!User interface Recycle bin](../UserInterface/to_be_completed)   
-[Check the offer upload](./03_CheckOfferUpload)
+[!!User interface Offers](../UserInterface/02_Offers.md)   
+[!!Check the offer upload](./03_CheckOfferUpload.md)
 
 # Manage the offers
 

@@ -1,6 +1,6 @@
-[!!User interface Orders and returns](../UserInterface/to_be_completed)   
-[Configure the order import](../Integration/04_ConfigureOrdersReturns.md#configure-the-order-import)
-[Configure the return import](../Integration/04_ConfigureOrdersReturns.md#configure-the-return-import)
+[!!User interface Orders and returns](../UserInterface/05_OrdersReturns.md)   
+[!!Configure the order import](../Integration/04_ConfigureOrdersReturns.md#configure-the-order-import)
+[!!Configure the return import](../Integration/04_ConfigureOrdersReturns.md#configure-the-return-import)
 
 
 # Manage the orders and returns

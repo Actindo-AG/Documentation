@@ -1,5 +1,5 @@
-[!!User interface Offer upload](../UserInterface/to_be_completed)   
-[Retry a faulty offer upload](../Troubleshooting/01_RetryFaultyUpload.md)
+[!!User interface Offer upload](../UserInterface/03_OfferUpload.md)   
+[!!Retry a faulty offer upload](../Troubleshooting/01_RetryFaultyUpload.md)
 
 
 # Check the offer upload
@@ -41,7 +41,7 @@ If an offer upload has failed, the corresponding offer is displayed in the list 
 
 #### Prerequisites
 
-At least one offer upload has been failed.
+At least one offer upload has failed.
 
 #### Procedure
 
@@ -49,7 +49,7 @@ At least one offer upload has been failed.
 
 ![Export errors](../../Assets/Screenshots/Channels/OfferUpload/ExportErrors.png "[Export errors]")
 
-1. Check the list of export errors for the searched faulty offer upload.
+1. Check the list of export errors for the faulty offer upload.
 
 2. Click the corresponding faulty offer upload.   
   The *Detail of log message "Log message title"* view is displayed. By default, the *Attributes* tab is preselected.

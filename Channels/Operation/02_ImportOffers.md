@@ -1,4 +1,4 @@
-[!!User interface Offer import](../UserInterface/to_be_completed)   
+[!!User interface Offer import](../UserInterface/04_OfferImport.md)   
 
 # Import an offer
 

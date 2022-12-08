@@ -1,10 +1,10 @@
-[!!User interface Connections](../UserInterface/to_be_completed)
+[!!User interface Connections](../UserInterface/08a_Connections.md)
 
 # Manage the connections
 
 Establish connections via drivers to connect your marketplaces with the *Actindo Core1 Platform*. A marketplace can be either an online shop or a point of sale. You can establish an unlimited number of connections per driver.
 
-In the following, the general settings to create, edit, synchronize or disable connections are described. For certain connection drivers, you have to setup special configurations. Therefore, the connections below are described in separate documents:
+In the following, the general settings to create, edit, synchronize or disable connections are described. For certain connection drivers, you have to set up special configurations. Therefore, the connections below are described in separate documents:
 - [Shopware 6 connection](./01a_Shopware6.md)
 - [Shopify connection](./01b_Shopify.md)
 - [Sales Force Commerce Cloud connection](./01c_Salesforce.md)
@@ -47,9 +47,9 @@ At least one driver has been installed.
 
   ![Credentials](../../Assets/Screenshots/Channels/Settings/Connections/Credentials.png "[Credentials]")
 
-  > [Info] Depending on the driver of the selection, the fields in the *Credentials* section differ.
+  > [Info] Depending on the selected driver, the fields in the *Credentials* section differ.
 
-4. If necessary, enter the required data in the fields in the *Credentials* section.
+4. If available, enter the required data in the fields in the *Credentials* section.
 
 5. Click the [SAVE] button.    
   The connection will be established. The *Checking credentials...* notice is displayed.

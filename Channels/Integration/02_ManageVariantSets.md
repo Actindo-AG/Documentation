@@ -1,10 +1,10 @@
-[!!User interface Variant sets](../UserInterface/to_be_completed)
+[!!User interface Variant sets](../UserInterface/08b_VariantSets.md)
 [!!Manage the variant sets in PIM](../../PIM/Integration/07_ManageVariantSets.md)
 
 
 # Manage a variant set
 
-The variant sets in *Omni-Channel* are based on the same data model as in the Actindo *PIM* module. However, since the *Omni-Channel* and the Actindo *PIM* module are independent modules and *Omni-Channel* can also be used without the Actindo *PIM* module, the variant sets for products can also be managed within the *Omni-Channel* module.    
+The variant sets in *Omni-Channel* are based on the same data model as in the Actindo *PIM* module. However, since the *Omni-Channel* and the Actindo *PIM* modules are independent of each other and *Omni-Channel* can also be used without the Actindo *PIM* module, the variant sets for products can also be managed within the *Omni-Channel* module.    
 If both the *Omni-Channel* and the Actindo *PIM* modules are used, there is a predefined mapping that automatically applies the variant sets from *PIM* to *Omni-Channel*. In this case, you do not have to manage the variant sets in *Omni-Channel*, but in the Actindo *PIM* module, see [Manage the variant sets in PIM](../../PIM/Integration/07_ManageVariantSets.md).
 
 
@@ -53,7 +53,7 @@ An attribute set has been created in DataHub, see [Create an attribute set](../.
 
 ### Add defining attributes
 
-You have to select at least one defining attribute to create a variant set. You can only select attributes as defining attributes, that are neither multi-language nor multi-channel and assigned to the selected attribute set.
+You have to select at least one defining attribute to create a variant set. You can only select attributes as defining attributes that are neither multi-language nor multi-channel and that are assigned to the selected attribute set.
 
 #### Prerequisites
 

@@ -1,7 +1,11 @@
+[!!User interface Orders](../UserInterface/05a_Orders.md)
+[!!User interface Returns](../UserInterface/05b_Returns.md)
+
+
 # Configure the orders and returns
 
 When an order is placed on the marketplace, this order must be imported into *Omni-Channel* in order to further process it in the *Order Management* module.   
-To import orders and return to *Omni-Channel*, you can configure an automatic import in a certain time interval.
+To import orders and returns to *Omni-Channel*, you can configure an automatic import at a certain time interval.
 
 
 ## Configure the order import
@@ -14,11 +18,11 @@ A connection to a marketplace has been established, see [Create a connection](..
 
 #### Procedure
 
-*Omni-Channel > Orders and Returns > Tab OFFERS*
+*Omni-Channel > Orders and Returns > Tab ORDERS*
 
 ![Orders](../../Assets/Screenshots/Channels/OrdersReturns/Orders/Orders.png "[Orders]")
 
-1. Click the *All connections* drop-down list and select the connection for which you want to configure the import settings. All connections are displayed in the list.   
+1. Click the *All connections* drop-down list and select the connection for which you want to configure the import settings. All available connections are displayed in the list.   
   The *Download orders automatically* drop-down list and the [SAVE] button are displayed to the right of the *All connections* drop-down list.
 
   ![Orders connection](../../Assets/Screenshots/Channels/OrdersReturns/Orders/OrdersConnection.png "[Orders connection]")
@@ -60,7 +64,7 @@ A connection to a marketplace has been established, see [Create a connection](..
 
 ![Returns](../../Assets/Screenshots/Channels/OrdersReturns/Returns/Returns.png "[Returns]")
 
-1. Click the *All connections* drop-down list and select the connection for which you want to configure the import settings. All connections are displayed in the list.   
+1. Click the *All connections* drop-down list and select the connection for which you want to configure the import settings. All available connections are displayed in the list.   
   The *Download returns automatically* drop-down list and the [SAVE] button are displayed to the right of the *All connections* drop-down list.
 
   ![Returns connection](../../Assets/Screenshots/Channels/OrdersReturns/Returns/ReturnsConnection.png "[Returns connection]")

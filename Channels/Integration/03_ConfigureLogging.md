@@ -1,4 +1,4 @@
-[!!User interface Logging](../UserInterface/to_be_completed)
+[!!User interface Logging](../UserInterface/08d_Logging.md)
 
 # Configure the logging settings
 
@@ -7,7 +7,7 @@ Configure in the logging settings the log levels of messages to be stored and th
 
 ## Define the minimum log level
 
-Define the minimum log level from which all messages will be stored with the selected and higher level.
+Define the minimum log level for the messages to be stored.
 Messages with the log levels *Emergency*, *Alert*, *Critical*, *Error* and *Warning* are always stored.
 
 #### Prerequisites
@@ -20,9 +20,9 @@ No prerequisites to fulfill.
 
 ![Logging](../../Assets/Screenshots/Channels/Settings/Logging/Logging.png "[Logging]")
 
-> [Info] By default, the *Log Level* menu entry in the left *Setting* side menu is preselected if you click the *LOGGING* tab for the first time in your current session.
+> [Info] By default, the *Log Level* menu entry in the left *Settings* side menu is preselected if you click the *LOGGING* tab for the first time in your current session.
 
-1. If necessary, click the *Log Level* menu entry in the left *Setting* side menu.   
+1. If necessary, click the *Log Level* menu entry in the left *Settings* side menu.   
   The *Log Level* view is displayed on the right side.
 
 2. Disable the *Apply from default* toggle in the upper right corner.   
@@ -60,7 +60,7 @@ No prerequisites to fulfill.
 
 ![Logging](../../Assets/Screenshots/Channels/Settings/Logging/Logging.png "[Logging]")
 
-1. Click the log level of the log message whose retention time you want to edit in the left *Setting* side menu. The following logs levels are available:
+1. Click the log level of the message whose retention time you want to edit in the left *Settings* side menu. The following logs levels are available:
   - *Emergency*
   - *Alert*
   - *Critical*
