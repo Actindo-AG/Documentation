@@ -1,4 +1,7 @@
 [!!User Interface Dispatch notes](../UserInterface/01a_List.md)
+[!!User Interface Logging](../UserInterface/02a_Connections.md)
+[!!User Interface Package types](../UserInterface/03b_PackageTypes.md)
+
 
 # Manage the dispatch notes
 
@@ -13,24 +16,7 @@ The *Fulfillment* module works together with the *Workflows* module. Once the *F
 
 ## Check a dispatch note
 
-The dispatch note provides numerous data about the order, which may vary depending on the connection settings. 
-
-Following order-related data can be checked:
-
-- Dispatch note status
-- Document number, which equals the delivery note number in the *Order management* module
-- Shipment status, see [Check shipment](02_CheckShipment.md)  
-- Shipping type
-- Carrier
-- Receiver details (name and zip code)
-
-
-[comment]: <> (Überhaupt relevant/notwendig?)
-
-
-### Check dispatch note status
-
-The dispatch note status can be checked in the list of dispatch notes. The dispatch note status displays the current stage in the fulfillment process.
+A dispatch note provides numerous order-related details, which may vary depending on the connection settings. The following order-related details, among others, can be checked in the list of dispatch notes.
 
 #### Prerequisites
 
@@ -43,13 +29,13 @@ The dispatch note status can be checked in the list of dispatch notes. The dispa
 
 ![Dispatch notes](../../Assets/Screenshots/Fulfillment/DispatchNotes/DispatchNotes.png "[Dispatch notes]")
 
-1. Check the status displayed in the *Status* column. The following options can be displayed:  
+1. Check the dispatch note status in the *Status* column. The status displays the current stage in the fulfillment process. The following options are available:  
   - **New dispatch note**  
     The dispatch note has been newly created.
   - **Transferred to partner**  
     The dispatch note has been transferred to partner but no receival has been confirmed yet. In rare occasions, the fulfiller may note receive a dispatch note. In that case, it may be necessary to resend the dispatch note, see [Export a dispatch note](#export-a-dispatch-note).
   - **Partner confirmed receival**  
-    The fulfiller has confirmed receival of the dispatch note. The shipment status will be updated shortly, see [Check shipment status](02_CheckShipment.md#check-the-shipment-status). Occasionally, the receival may not be confirmed by the fulfiller. In this case, it is possible to click on the [FORCE COMPLETION] button to confirm the dispatch note as complete to prevent subsequent processes from remaining waiting for confirmation, see [Complete a dispatch note](#complete-a-dispatch-note).
+    The fulfiller has confirmed receival of the dispatch note. The shipment status will be updated shortly, see [Check the shipment status](02_CheckShipment.md#check-the-shipment-status). Occasionally, the receival may not be confirmed by the fulfiller. In this case, it is possible to click the [FORCE COMPLETION] button to confirm the dispatch note as complete to prevent subsequent processes from remaining stuck waiting for confirmation, see [Complete a dispatch note](#complete-a-dispatch-note).
   - **Dispatch note completed**  
     The dispatch note has been processed.
   - **Error**  
@@ -59,31 +45,32 @@ The dispatch note status can be checked in the list of dispatch notes. The dispa
   - **Void**  
     The dispatch note is not valid.
 
+    If further information on the dispatch note status is needed, the list of messages generated in the communication process between the Core1 and the fulfiller can be checked in the *Logging* menu entry, see [Logging](../UserInterface/02_Logging.md).
 
+2. Check the document number in the *Document number* column.
+The document number equals the delivery note number and can be useful to find further order-related details in the *Order management* module.
 
-2. Check the document number
+3. Check the order document number in the *Description* column. The order number is a customer-defined field. It can be useful to find further order-related details in the *Order management* module.
 
-3. Check the shipment status, see [Check shipment status](./02_CheckShipment.md#check-the-shipment-status).
+4. Check the package type identification number in the *Package type* column. Alternatively, click a dispatch note and select the *Attributes* sub-tab.  
+  The package type identification number is displayed in the *FULFILLMENT DISPATCH NOTE BASE ATTRIBUTES* section.  
 
-4. Receiver details (name and zip code) - necessary/useful?
+    > [Info] The package types are defined in the *PACKAGE TYPES* tab of *Settings* menu entry and provide detailed information of the package used for shipment, the shipping type, and the ship-to country, among others. For detailed information, see [Package types](../UserInterface/03b_PackageTypes.md).  
 
-
-
+5. Check the shipment status in the *Shipment status* column. For further information, see [Check the shipment status](./02_CheckShipment.md#check-the-shipment-status).
 
 
 ## Complete a dispatch note
 
-Occasionally, the message sent by the fulfiller to confirm delivery may fail or may not be received. In this case, the dispatch note status will stay as **Partner confirmed receival**. To prevent subsequent processes from staying stuck/waiting for the complete status, the dispatch note status can be updated manually if necessary.
+Occasionally, fulfillers do not notify, or the notification fails, when the order has been delivered. In this case, the dispatch note status is not automatically updated to completed. To prevent subsequent processes from remaining stuck waiting for the completed status, the dispatch note status can be updated manually if necessary.
 
-
-
-
-[comment]: <> (Unsicher von Ausgangssituation. Macht das so Sinn? Vielleicht Fehler festgestellt in Workflows? Wie weiß ich sonst, welche Dispatch note status nicht aktualisiert worden ist? Ich muss erst in Shipments prüfen...)
+[comment]: <> (Unsicher von Ausgangssituation. Macht das so Sinn? Vielleicht Fehler festgestellt in Workflows? Wie weiß ich sonst, welcher Dispatch note status nicht aktualisiert worden ist? Ich muss erst in Shipments prüfen...)
 
 #### Prerequisites
 
 - The shipment has been delivered.
 - The dispatch note status is **Partner confirmed receival**.
+- The shipment status stays as ![Circular arrows](../../Assets/Icons/CircularArrows.png "[Circular arrows]") (In progress).
 
 #### Procedure
 
@@ -97,19 +84,21 @@ Occasionally, the message sent by the fulfiller to confirm delivery may fail or 
 2. Click the *Shipments* tab.  
   All shipments included in the dispatch note are displayed.
 
-3. Check the shipment status (?)
+3. Check the shipment status: (?)
   - If delivered, ...
   - If other than delivered, ...
 
-[comment]: <> (Ist es überhaupt möglich/nötig? Wäre der Shipment status in der Dispatch notes nicht aktualisiert? Wie kann das passieren? Kommt ein Fehler von Workflows o.ä.?)
+[comment]: <> (Ist es überhaupt möglich/nötig? Wäre der Shipment status in der Dispatch notes aktualisiert oder nicht? Wie kann das passieren? Kommt ein Fehler von Workflows o.ä.?)
 
-4. Click the checkbox of the dispatch note to be completed.
+4. Click the checkbox of the dispatch note(s) to be completed.
   The editing toolbar is displayed.
 
-5. Click the [FORCE COMPLETION] button.  
+    > [Info] It is possible to update the status of several dispatch notes at once.
+
+5. Click the [FORCE COMPLETION] button in the editing toolbar.  
   The message ... is displayed.
 
-6.
+[comment]: <> (Testen im Sandbox mit neuer Version. Screenshot mit Bestätigungsnachricht hinzufügen)
 
 
 ## Cancel a dispatch note
@@ -135,7 +124,7 @@ You can resend a dispatch note to the fulfiller if it has not been received for 
 - The dispatch note status is **Transferred to partner**.
 - The shipment status is ![Cross](../../Assets/Icons/Cross02.png "[Cross]") (Cross), that is, no shipment has been arranged yet.
 
-[comment]: <> (Stimmt das so? Oder Error - richtiger Weg zur Lösung wäre aber über Workflows, denn der Prozess schlägt auch fehlt... S. Wissenstransfers Part 1, Min. 48)
+[comment]: <> (Stimmt das so? Oder Error - richtiger Weg zur Lösung wäre aber über Workflows, denn der Prozess schlägt auch fehl... S. Wissenstransfers Part 1, Min. 48)
 
 #### Procedure
 
@@ -143,4 +132,16 @@ You can resend a dispatch note to the fulfiller if it has not been received for 
 
 ![Dispatch notes](../../Assets/Screenshots/Fulfillment/DispatchNotes/DispatchNotes.png "[Dispatch notes]")
 
-1.
+1. Click the checkbox of the dispatch note to be reexported.
+  The editing toolbar is displayed.
+
+2. Click the [EXPORT] button.
+  A confirmation window is displayed with the notice "...*.
+
+    > [Info] The [EXPORT] button should only be used in exceptional cases. Since the related workflow process would display an error, it is highly recommended to address this issue in the *Workflows* module, see [Retry a single process action](../../ActindoWorkFlow/Troubleshooting/01_RetryProcessAction.md#retry-a-single-process-action).
+
+[comment]: <> (Unsicher. Wie kann man das Problem über Workflows lösen? Gibt es ein Action vorher, die man wieder anstoßen kann?) 
+
+3. Click the [OK] button in the confirmation window.  
+  The dispatch note has been reexported.
+
