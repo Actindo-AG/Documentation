@@ -35,7 +35,7 @@ A dispatch note provides numerous order-related details, which may vary dependin
   - **Transferred to partner**  
     The dispatch note has been transferred to partner but no receival has been confirmed yet. In rare occasions, the fulfiller may note receive a dispatch note. In that case, it may be necessary to resend the dispatch note, see [Export a dispatch note](#export-a-dispatch-note).
   - **Partner confirmed receival**  
-    The fulfiller has confirmed receival of the dispatch note. The shipment status will be updated shortly, see [Check the shipment status](02_CheckShipment.md#check-the-shipment-status). Occasionally, the receival may not be confirmed by the fulfiller. In this case, it is possible to click the [FORCE COMPLETION] button to confirm the dispatch note as complete to prevent subsequent processes from remaining stuck waiting for confirmation, see [Complete a dispatch note](#complete-a-dispatch-note).
+    The fulfiller has confirmed receival of the dispatch note. The shipment status will be updated shortly, see [Check the shipment status](02_CheckShipment.md#check-the-shipment-status). Occasionally, the receival may not be confirmed by the fulfiller. In this case, it is possible to click the [FORCE COMPLETION] button to confirm the dispatch note as completed to prevent subsequent processes from remaining stuck waiting for confirmation, see [Complete a dispatch note](#complete-a-dispatch-note).
   - **Dispatch note completed**  
     The dispatch note has been processed.
   - **Error**  
@@ -45,20 +45,21 @@ A dispatch note provides numerous order-related details, which may vary dependin
   - **Void**  
     The dispatch note is not valid.
 
-    If further information on the dispatch note status is needed, the list of messages generated in the communication process between the Core1 and the fulfiller can be checked in the *Logging* menu entry, see [Logging](../UserInterface/02_Logging.md).
+    If further information on the dispatch note status is needed, the list of messages generated in the communication process between the Core1 and the fulfiller can be checked in the *Logging* menu entry, see [Logging](../UserInterface/02a_Connections.md).
 
-2. Check the document number in the *Document number* column.
+2. Check the dispatch note number in the *Document number* column.
 The document number equals the delivery note number and can be useful to find further order-related details in the *Order management* module.
 
-3. Check the order document number in the *Description* column. The order number is a customer-defined field. It can be useful to find further order-related details in the *Order management* module.
+3. Check the order number in the *Description* column. The order number is a customer-defined field. It can be useful to find further order-related details in the *Order management* module.
 
-4. Check the package type identification number in the *Package type* column. Alternatively, click a dispatch note and select the *Attributes* sub-tab.  
+4. Check the package type identification number in the *Package type* column. Alternatively, click a dispatch note and select the *Attributes* sub-tab, if it is not preselected.  
   The package type identification number is displayed in the *FULFILLMENT DISPATCH NOTE BASE ATTRIBUTES* section.  
 
-    > [Info] The package types are defined in the *PACKAGE TYPES* tab of *Settings* menu entry and provide detailed information of the package used for shipment, the shipping type, and the ship-to country, among others. For detailed information, see [Package types](../UserInterface/03b_PackageTypes.md).  
+    > [Info] The package types are defined in the *PACKAGE TYPES* tab of *Settings* menu entry and provide detailed information on the package used for shipment, the shipping type, and the ship-to country, among others. For detailed information, see [Package types](../UserInterface/03b_PackageTypes.md).  
 
-5. Check the shipment status in the *Shipment status* column. For further information, see [Check the shipment status](./02_CheckShipment.md#check-the-shipment-status).
+6. Check the shipment status in the *Shipment status* column. For further information, see [Check the shipment status](./02_CheckShipment.md#check-the-shipment-status).
 
+[comment]: <> (Evtl. weiteren Schritt zu Dispatch note attributes? Felder angezeigt abhängig von Mapping... oder gibt es Standardattribute, z.B. Package type, Receiver name...?)
 
 ## Complete a dispatch note
 
