@@ -2,13 +2,13 @@
 
 ## Manage the package types
 
-Package types serve as suggestion for the fulfiller about the type of packaging and carrier which may be applied for a shipment. Package types can be defined using many different parameters. All relevant fields (attributes) used are mapped via ETL from the business document.  
+Package types serve as suggestion for the fulfiller about the type of packaging and carrier which may be applied for a shipment. Package types can be defined using many different criteria. All relevant fields (attributes) used are mapped via ETL from the business document.  
 
 [comment]: <> (It may not be applicable for all customers, e.g. in case of non-physical shipments or the fulfiller has his own package types defined.)
 
 ### Create a package type
 
-Create a package type to define the parameters applicable to a shipment.
+Create a package type to define the criteria applicable to a shipment.
 
 #### Prerequisites
 
@@ -64,14 +64,14 @@ No prerequisite to fulfill.
 
 6. Enable the *Express* toggle if express delivery applies for the shipment.  
 
-7. Enter the package type identifier in the *Package type identifier* field.
+7. Enter the applicable package type identifier in the *Package type identifier* field.
 
 8. Click the *Ship-to country* drop-down list and select the country where the shipment is to be sent to.
 
 9. Enter the applicable priority value in the *Priority* field.  
-    > [Info] The priority value is used by the system to determine the package type to be used for a shipment when two or more package types have the same parameters. The priority value becomes then the decisive parameter. In the priority scale, the lower number the higher the priority, that is, priority 1 is higher than priority 4.
+    > [Info] The priority value is used by the system to determine the package type to be used for a shipment when two or more package types have the same criteria. The priority value becomes then the decisive criterion. In the priority scale, the lower the number the higher the priority, that is, priority 1 is higher than priority 4.
 
-10. Enter a number in the *Additional services (shipping method)* field.
+10. Enter the applicable number in the *Additional services (shipping method)* field.
 
 11. Click the *Connection* drop-down list and select the applicable connection for the shipment.
 
@@ -90,7 +90,7 @@ No prerequisite to fulfill.
 
 ### Edit a package type
 
-Edit a package type to update any set parameters.
+Edit a package type to update any set criteria.
 
 #### Prerequisites
 
@@ -102,10 +102,10 @@ A package type has been created, see [Create a package type](#create-a-package-t
 
 ![Package types](../../Assets/Screenshots/Fulfillment/Settings/PackageTypes/ListPackageTypes.png "[Package types]")
 
-1. Click the package type to be edited. Alternatively, click the checkbox of the package type to be edited and the [EDIT] button in the editing toolbar.
+1. Click the package type to be edited. Alternatively, click the checkbox of the package type to be edited and the [EDIT] button in the editing toolbar.  
     The *Edit package type* view is displayed.
 
-2. Edit the desired parameters of the package type in the corresponding fields.
+2. Edit the desired criteria of the package type in the corresponding fields.
 
 3. Click the [SAVE] button.   
   The *Submitting data...* notice is displayed while saving and then the *Update successful* pop-up window. 
