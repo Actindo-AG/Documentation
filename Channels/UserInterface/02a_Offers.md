@@ -1,3 +1,6 @@
+[!!Tag](../Integration/tobecompleted.md)
+[!!Tag](../Integration/tobecompleted.md)
+
 # Offers
 
 *Omni-Channel > Offers > Tab OFFERS*
@@ -16,7 +19,7 @@
 
 - *View*   
   Click the drop-down list to select the view. All created views are displayed in the drop-down list. Click the ![Points](../../Assets/Icons/Points01.png "[Points]") (Points) button to the right of the *View* drop-down list to display the context menu and create or edit a view.    
-  For detailed information, see [Create a view](../Operation/04_ManageView.md#create-a-view).
+  For detailed information, see [Create a view](#create-a-view).
 
 [comment]: <> (Link verweist worauf?)
 
@@ -408,3 +411,48 @@ Dependent entity type
 Change tracking	Change tracking mode
 Dependent entity friendly identifier	
 No other entities depend on this entity	
+
+
+## Create view
+
+*Omni-Channel > Offers > Tab OFFERS > Button Points > Menu entry create*
+
+![Create view](../../Assets/Screenshots/Channels/CreateView.png "[Create view]")
+
+- *Name*   
+  Enter a name for the view.
+
+- [CANCEL]   
+  Click this button to cancel creating a view. The *Create view* window is closed.
+
+- [SAVE]   
+  Click this button to save the new view and display it in the *VIEW* drop-down list. The *Create view* window is closed.
+
+This window can also be accessed from the following tabs in the user interface:
+
+- [Connections](08a_Connections.md#create-view)
+- [TAB](0Xx_ToBeCompleted.md#create-view)
+- [TAB](0Xx_ToBeCompleted.md#create-view)
+
+
+## Rename view
+
+*Omni-Channel > Offers > Tab OFFERS > Button Points > Menu entry rename*
+
+![Rename view](../../Assets/Screenshots/Channels/RenameView.png "[Rename view]")
+
+
+- *Name*   
+  Click this field to edit the view name.
+
+- [CANCEL]   
+  Click this button to cancel renaming the view. The *Rename view* window is closed.
+
+- [SAVE]   
+  Click this button to save the changes and display it in the *VIEW* drop-down list. The *Rename view* window is closed.
+
+This window can also be accessed from the following tabs in the user interface:
+
+- [Connections](08a_Connections.md#rename-view)
+- [TAB](0Xx_ToBeCompleted.md#rename-view)
+- [TAB](0Xx_ToBeCompleted.md#rename-view)
