@@ -430,8 +430,8 @@ No other entities depend on this entity
 
 This window can also be accessed from the following tabs in the user interface:
 
+- [Log](06a_Log.md#create-view)
 - [Connections](08a_Connections.md#create-view)
-- [TAB](0Xx_ToBeCompleted.md#create-view)
 - [TAB](0Xx_ToBeCompleted.md#create-view)
 
 
@@ -453,6 +453,6 @@ This window can also be accessed from the following tabs in the user interface:
 
 This window can also be accessed from the following tabs in the user interface:
 
+- [Log](06a_Log.md#rename-view)
 - [Connections](08a_Connections.md#rename-view)
-- [TAB](0Xx_ToBeCompleted.md#rename-view)
 - [TAB](0Xx_ToBeCompleted.md#rename-view)

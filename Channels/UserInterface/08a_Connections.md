@@ -1,3 +1,4 @@
+[!!Integration](../Integration/00_Integration.md)
 [!!Manage the connections](../Integration/01_ManageConnections.md)
 [!!Create a connection](../Integration/01_ManageConnections.md#create-a-connection)
 [!!Synchronize a connection](../Integration/01_ManageConnections.md#synchronize-a-connection)
@@ -68,7 +69,7 @@
 - [ENABLE]  
   Click this button to enable one or several selected connections. This button is displayed if the checkbox of at least one inactive connection is selected. 
 
- [comment]: <> (Evtl. Procedure Enable a connection in Manage connections hinzufügen, oder Enable/disable a connection? Wenn ja, Verweis auch hier hinzufügen.)
+ [comment]: <> (Evtl. Procedure Enable a connection in Manage connections hinzufügen, oder Enable/disable a connection? Wenn ja, Verweis/Tag oben hinzufügen.)
 
 - ![Edit](../../Assets/Icons/Edit01.png "[Edit]") (Edit)  
   Click this button to edit the selected connection. This button is only displayed if a single checkbox in the list of connections is selected. Alternatively, you can click directly a row in the list to edit a connection. The *Edit connection* view is displayed, see [Edit connection](#edit-connection). The *Credentials* tab is preselected.
@@ -87,11 +88,9 @@ The list displays all available connections. Depending on the settings, the disp
   - ![Status](../../Assets/Icons/Status04.png "[Status]") **Inactive**  
 
 - *Order/Return have errors*  
-    Indication whether the order/the return have errors or not. The following options are available:  
-        - **Yes**  
-        - **No**
-
-[comment]: <> (Further Info needed)
+    Indication whether there are errors in orders or  returns or not:  
+  - **Yes**: there are errors.   
+  - **No**: there are no errors.
 
 - *Driver*  
   Driver name.
@@ -107,7 +106,7 @@ The list displays all available connections. Depending on the settings, the disp
 ![Create connection](../../Assets/Screenshots/Channels/Settings/Connections/CreateConnection.png "[Create connection]")
 
 - ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)   
-Click this button to close the *\"Connection name\" Connection* view and return to the connection list. All changes are rejected.
+Click this button to close the *Create connection* view and return to the connection list. All changes are rejected.
 
 - *Name*   
   Enter a connection name.
@@ -123,6 +122,7 @@ Click this button to close the *\"Connection name\" Connection* view and return 
 
   > [Info] When selecting the **more** option, the notice *Get more drivers from the app store* is displayed. Drivers are licensed and must be acquired via the app store. The applicable driver credentials to establish the connection are obtained when acquiring the corresponding license.
 
+[comment]: <> (oder: Drivers are licensed and must be acquired via the app store or the corresponding e-commerce partner platform.)
 
 ### Create connection &ndash; Credentials
 
@@ -130,7 +130,7 @@ Click this button to close the *\"Connection name\" Connection* view and return 
 
 ![Create connection](../../Assets/Screenshots/Channels/Settings/Connections/Credentials.png "[Create connection]")
 
-The fields displayed in the *Credentials* section vary depending on the driver selected. By default, the following fields are displayed:
+The fields displayed in the *Credentials* section vary depending on the selected driver. By default, the following fields are displayed:
 
 - *Username*  
   Enter the applicable username for the connection.
@@ -162,6 +162,9 @@ Click this button to close the *Edit connection* view and return to the connecti
 - ![Check](../../Assets/Icons/Check.png "[Check]") (Check)  
   Click this button to confirm the edited connection name. The *Name* field is locked again.
 
+- *Created*  
+  Creation date of the connection. Date format is DD/MM/YYYY. This field is locked.  
+
 
 ### Edit connection &ndash; Credentials
 
@@ -172,7 +175,7 @@ Click this button to close the *Edit connection* view and return to the connecti
 - *Driver*  
   Driver name selected. This drop-down list is locked and cannot be edited.
 
-The fields displayed in the *Credentials* section vary depending on the driver selected. By default, the following fields are displayed:
+The fields displayed in the *Credentials* section vary depending on the selected driver. By default, the following fields are displayed:
 
 - *Username*  
   Click this field to edit the username for the connection.
@@ -190,14 +193,14 @@ The fields displayed in the *Credentials* section vary depending on the driver s
 
 ![Edit settings](../../Assets/Screenshots/Channels/Settings/Connections/Settings.png "[Edit settings]")
 
-The settings can only be configured after the connection has been established. The fields displayed vary depending on the driver installed.
+The settings can only be configured after the connection has been established. The fields displayed vary depending on the driver installed. Some drivers have no settings and, therefore, this tab is not displayed.
 
-[comment]: <> (Verweis auf unterschiedliche Drivers für Settings?)
+  > [Info] For driver-specific settings, see the corresponding file in the [Integration](../Integration/00_Integration.md) chapter.
 
 - [SAVE]  
   Click this button to save any changes made.
 
-> [Info] If no settings are available for the selected connection, the notice *There are no settings available* is displayed.
+  > [Info] If no settings are available for the selected connection, the notice *There are no settings available* is displayed.
 
 
 ## Create view
