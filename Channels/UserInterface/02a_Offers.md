@@ -21,8 +21,6 @@
   Click the drop-down list to select the view. All created views are displayed in the drop-down list. Click the ![Points](../../Assets/Icons/Points01.png "[Points]") (Points) button to the right of the *View* drop-down list to display the context menu and create or edit a view.    
   For detailed information, see [Create a view](#create-a-view).
 
-[comment]: <> (Link verweist worauf?)
-
   - View context menu   
     Click the ![Points](../../Assets/Icons/Points01.png "[Points]") (Points) button to the right of the *View* drop-down list to display the context menu. The following menu entries are available:
 
@@ -430,9 +428,9 @@ No other entities depend on this entity
 
 This window can also be accessed from the following tabs in the user interface:
 
+- [Orders](05a_Orders.md#create-view)
 - [Log](06a_Log.md#create-view)
 - [Connections](08a_Connections.md#create-view)
-- [TAB](0Xx_ToBeCompleted.md#create-view)
 
 
 ## Rename view
@@ -453,6 +451,6 @@ This window can also be accessed from the following tabs in the user interface:
 
 This window can also be accessed from the following tabs in the user interface:
 
+- [Orders](05a_Orders.md#rename-view)
 - [Log](06a_Log.md#rename-view)
 - [Connections](08a_Connections.md#rename-view)
-- [TAB](0Xx_ToBeCompleted.md#rename-view)
