@@ -88,9 +88,9 @@ The list displays all available connections. Depending on the settings, the disp
   - ![Status](../../Assets/Icons/Status04.png "[Status]") **Inactive**  
 
 - *Order/Return have errors*  
-    Indication whether there are errors in orders or  returns or not:  
-  - **Yes**: there are errors.   
-  - **No**: there are no errors.
+    Indication whether errors have occurred in orders or  returns:  
+  - **Yes**: Errors have occurred.   
+  - **No**: No errors have occurred.
 
 - *Driver*  
   Driver name.
@@ -163,7 +163,7 @@ Click this button to close the *Edit connection* view and return to the connecti
   Click this button to confirm the edited connection name. The *Name* field is locked again.
 
 - *Created*  
-  Creation date of the connection. Date format is DD/MM/YYYY. This field is locked.  
+  Creation date of the connection. Date format is DD/MM/YYYY. This field is read-only.  
 
 
 ### Edit connection &ndash; Credentials

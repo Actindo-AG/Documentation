@@ -11,7 +11,7 @@
 **Orders**
 
 - *Combined status*  
-    Combined of all orders. The following statuses are available:
+    Combined status of all orders. The following statuses are available:
     - ![red](../../Assets/Icons/Status02.png "[red]") (red)  
         There are errors in the orders. Click the *>> more* button to switch to the *ERRORS* tab.   
     - ![yellow](../../Assets/Icons/Status05.png "[yellow]") (yellow)  
@@ -179,13 +179,24 @@ The list displays all orders available. All fields are read-only. Depending on t
 - [CLOSE]  
   Click this button to close the *Order from connection "Connection name"* view. The list of orders is displayed.
 
-- *ID in Shop:*  
+- *ID in shop:*  
+  Identification number in the marketplace. 
 
 - *Bill ID:*  
+  Identification number in the *Order management* module. This number equals the order confirmation.  
 
-- *Import status:*    
+[comment]: <> (Warum Bill ID? Order confirmation nr. = Invoice nr.?)
+
+- *Import status:*  
+  Order import status from the marketplace to the *Omni-Channel* module. The following statuses are available:  
+    - **Order complete**  
+    - **Canceled**
+
 
 - *Export status:*  
+   Order export status from the *Omni-Channel* module to the  marketplace. The following statuses are available:  
+    
+  [comment]: <> (Feld immer leer. Export to marketplace oder export to OMS gemeint?)
 
 - [EXPORT TO OMS]  
   Click this button to export the order to the *Order management* module. This button is only displayed if the status in the *Status of export to OMS* column is **Not exported: Pending > 30 minutes to OMS**.

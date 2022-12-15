@@ -33,7 +33,7 @@
     - ![Publish](../../Assets/Icons/Publish.png "[Publish]") publish  
       Click this entry to publish the view. This menu entry is only displayed if a view has been selected and unpublished.
 
-    - ![Unpublish](../../Assets/Icons/Unpublish.png "[Unpublish]") unpublish  
+    - ![Unpublish](../../Assets/Icons/Unpublish.png "[Unpublish]") private view  
       Click this entry to unpublish the view. This menu entry is only displayed if a view has been selected and published.
 
     - ![Save](../../Assets/Icons/Save.png "[Save]") save  
@@ -116,12 +116,13 @@ The list displays all intents. Depending on the settings, the displayed columns 
 - ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)   
   Click this button to close the *List of messages* view and return to the list of intents.
 
-- ![Unpublish](../../Assets/Icons/Unpublish02.png "[Unpublish]")  
+- ![Unpublish](../../Assets/Icons/Unpublish02.png "[Unpublish]") (Unpublish)  
+
   Click this to unpublish the log message.
 
-[comment]: <> (Unpublish? Bedeutung?)
+[comment]: <> (Unpublish oder private view? Bedeutung?)
 
-- ![View](../../Assets/Icons/Eye02.png "[View]")  
+- ![View](../../Assets/Icons/Eye02.png "[View]") (Eye)    
   Click this button to view the log message details.
 
 
