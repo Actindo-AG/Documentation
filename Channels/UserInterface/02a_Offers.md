@@ -61,36 +61,8 @@ Click this button to display the filter bar and customize the active filters. Th
 - [x]     
   Select the checkbox to display the editing toolbar. If you click the checkbox in the header, all offers in the list are selected.
 
-  
-The list displays all offers available. All fields are read-only. Depending on the settings, the displayed columns may vary.
-
-- *SKU*   
-  Stock Keeping Unit. Identification number for the offer. 
- 
-- *Variant status*  
-    - **Master offer**  
-    - **Variant offer**  
-- *Status*	  
-    - **Active**	  
-    - **Inactive**  
-    - **Not available**  	  
-- *Pending status/Errors*  
-    - **Active**	  
-    - **Inactive**   	 
-    - **Not available**  
-- *Last upload*	  
-- *Connection*  
-- *Attribute set*  
-- *Created on*  
-- *Created by*  
-- *Modified on*  
-- *Modified by*  
-- *ID*	
-
-The editing toolbar is displayed in the upper right corner above the list of offers when the checkbox of one or more offers is selected.
-
 - *Change status to*  
-    Click this drop-down list to change the offer status. The following options are available:   
+    Click this drop-down list to change the offer status. This drop-down list is displayed when the checkbox of one or more offers is selected. The following options are available:   
     - **Active**  
         Select this option to change the offer status to active.
     - **Inactive**  
@@ -98,10 +70,62 @@ The editing toolbar is displayed in the upper right corner above the list of off
     - **Not available**  
         Select this option to change the offer status to not available.  	
 
-
 - ![Edit](../../Assets/Icons/Edit03.png "[Edit]") (Edit)           
   Click this button to edit an offer. This button is only displayed when the checkbox of one offer is selected.  Alternatively, you can click the offer to be edited.  
   The *Edit offer "SKU"* view is displayed, see [Edit offer](#edit-offer).
+
+
+The list displays all offers available. All fields are read-only. Depending on the settings, the displayed columns may vary.
+
+- *SKU*   
+  Stock Keeping Unit. Identification number for the offer. 
+ 
+- *Variant status*  
+  Indication whether the the offer is based on a master product or a variant of it. The following options are available:  
+    - **Master offer**  
+    - **Variant offer**  
+
+[comment]: <> (Bessere Erklärung?)
+
+- *Status*  
+  Offer status. The following options are available:  
+    - **Active**  
+      The offer is uploaded and available to be sold in the marketplace.
+    - **Inactive**  
+      The offer is uploaded but not available to be sold in the marketplace.
+    - **Not available**  
+      The offer is offline, that is, neither uploaded nor available to be sold in the marketplace.
+
+- *Pending status/Errors*  
+    - **Active**	  
+    - **Inactive**   	 
+    - **Not available**  
+
+[comment]: <> (Info fehlt)
+
+- *Last upload*  
+  Date and time of last offer upload.
+
+- *Connection*  
+  Connection via which the upload has been performed.
+
+- *Attribute set*  
+  Attribute set assigned to the offer.  
+
+- *Created on*  
+  Date and time of the creation.
+
+- *Created by*  
+  Name and username of the user who created the offer.
+
+- *Modified on*  
+  Date and time of the last modification.
+
+- *Modified by*  
+  Name and username of the user who modified the offer.
+
+- *ID*  
+  Offer identification number. The ID number is automatically assigned by the system.
 
 
 - ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add)           
@@ -115,7 +139,7 @@ The editing toolbar is displayed in the upper right corner above the list of off
 ![Add offer](../../Assets/Screenshots/Channels/Offers/Offers/AddOffer.png "[Add offer]")
 
 - [Manual offer ![Documents](../../Assets/Icons/Documents.png "[Documents]") ]    
-  Click this button to create a manual offer. The *Create offer* window is displayed, see [Create manual offer](#create-offer).
+  Click this button to create a manual offer. The *Create offer* window is displayed, see [Create manual offer](#create-manual-offer).
 
 - [Create from PIM product ![Documents](../../Assets/Icons/Documents.png "[Documents]") ]    
   Click this button to create an offer from a PIM product. The *Create from PIM product* wizard window is displayed, see [Create from PIM product](#create-from-PIM-product).
