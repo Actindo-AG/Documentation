@@ -101,26 +101,33 @@
 
 The list displays all orders available. All fields are read-only. Depending on the settings, the displayed columns may vary.
 
-- *Connection*	
+- *Connection*  
    Connection name. 
 
-- *Status of import from Omni-Channel*   
-   Status of the order import from Omni-Channel to ... 
-    - **Order complete**  	
-    - **Canceled**  	
+- *Status of import from channel*   
+   Status of the order import from the marketplace to the *Omni-Channel* module. The following options are available:  
+    - **Order complete**  
+      The order import has been successfully completed.   	
+    - **Canceled**  
+      The order import has been canceled.
 
-[comment]: <> (Status of import from marketplace into Omni-Channel? Further info needed)
-
-- *Status of export to Omni-Channel*  
-    - **Exported**	
-    - **No changes to sync**	
+- *Status of export to channel*  
+  Status of the order export from the *Omni-Channel* module to the marketplace. The following options are available:  
+    - **Exported**  
+      The order has been successfully exported.  
+    - **No changes to sync**  
+      There are no changes to synchronize.
 
 - *Status of export to OMS*  
-   Status of the order export to the *Order management* module for further processing. The following options are available: 
-    - **Exported**	
-    - **Not exported**	
-    - **Not exported: Pending > 30 minutes to OMS**
-    - **Being exported**
+   Status of the order export from the *Omni-Channel* module to the *Order management* module for further processing. The following options are available:  
+    - **Exported**  
+      The order has been successfully exported.
+    - **Not exported**  
+      The order has not been exported.  
+    - **Not exported: Pending > 30 minutes to OMS**  
+      The order export is pending.
+    - **Being exported**  
+      The order is currently being exported.
 
 - *Created on*  
    Date and time of the creation. 
@@ -133,63 +140,18 @@ The list displays all orders available. All fields are read-only. Depending on t
 - *ID in OMS*  
    Identification number in the *Order management* module. This number equals the order confirmation.   
 
-[comment]: <> (AB oder LI? S. Fakturierung)
+[comment]: <> (AB oder LI? Oder beide? S. Fakturierung)
 
 - *\# Line items*  
   Number of line items contained in the order.
 
 - *Line items*  
-   SKU of line item contained in the order. 
+   SKU of line item(s) contained in the order. 
 
 - *ID*  
    Order identification number. The ID number is automatically assigned by the system.
 
-- *Order number*  
-   Order number as defined in the marketplace. 
-
-- *Order ID*  
-   Order identification number. The ID number is automatically assigned by the system.
-
-[comment]: <> (Unterschied zwischen ID, Order number und Order ID?)
-
-- *Total (net)*  
-   Order total net value. 
-
-- *Total (gross)*  
-   Order total gross value. 
-
-- *Currency*  
-   Currency in which the order has been invoiced. 
-
-- *Discount percent*  
-   Discount percent applied to the order. 
-
-- *Price bracket*  
-   Price range of the product(s) ordered. 
-
-- *Order time*  
-   Date and time when the order has been placed. 
-
-- *Payment method*  
-   Payment method used to place the order. 
-
-- *Payment method marketplace*  
-   Payment method  used to place the order in the marketplace.
-
-[comment]: <> (Unterschied zwischen Payment method and Payment method marketplace?)
-
-- *Purchaser name*  
-   Buyer name. 
-
-- *Order status*
-
-- *Payment reference*
-
-- *Basket ID*
-
-- *Language*	
-
-- *Customer comment*	
+[comment]: <> (Ab hier Attributes? Im mehreren Sandboxen unter Order > Attributes geprüft und nicht gefunden)
 
 - *Bill number*	
 
@@ -204,7 +166,6 @@ The list displays all orders available. All fields are read-only. Depending on t
 - *Merchant receipt*	
 
 
-[comment]: <> (Felder/Spalten aus UI File genommen. Die meisten sind aber Attributes, s. Order > Attributes Tab. Relevant/Standard oder weglassen?)
 
 ## Order from connection "Connection name"
 
@@ -226,8 +187,13 @@ The list displays all orders available. All fields are read-only. Depending on t
 
 - *Export status:*  
 
-- [EXPORT TO OMS]
+- [EXPORT TO OMS]  
+  Click this button to export the order to the *Order management* module. This button is only displayed if the status in the *Status of export to OMS* column is **Not exported: Pending > 30 minutes to OMS**.
 
+- [RE-TRIGGER IMPORT]    
+  Click this button to trigger the order import again. This button is only displayed if the status in the *Status of import from Channels* column is **Not imported**.
+
+[comment]: <> (Andere Buttons möglich?)
 
 ## Order from connection "Connection name" &ndash; Attributes
 
@@ -235,11 +201,13 @@ The list displays all orders available. All fields are read-only. Depending on t
 
 ![Order connection attributes](../../Assets/Screenshots/Channels/OrdersReturns/Orders/OrderConnectionAttributes.png "[Order connection attributes]")
 
+[comment]: <> (Hinzufügen/erklären? The attributes tab reproduces the fields available in the marketplace.)
+
 In the left margin column, all available attribute groups are displayed. Click an attribute group to display the attributes that are assigned to this group on the right side of the *Attributes* tab. If the order contains attributes that are unassigned, the *Unassigned group* attribute group is automatically displayed in the left margin column.
 
-The right side of the *Attributes* tab displays all attributes that are assigned to the selected group in the left margin column. Depending on the attribute group selected, the fields displayed vary. The dispatch note attributes are imported via the connection driver. All fields are locked and, therefore, read-only.
+The right side of the *Attributes* tab displays all attributes that are assigned to the selected group in the left margin column. Depending on the attribute group selected, the fields displayed vary. The order attributes are imported via the connection driver. All fields are locked and, therefore, read-only.
 
-The attributes assigned to each group can be managed and customized in the *DataHub* module. For detailed information, see [Attribute groups](../../../DataHub/UserInterface/02c_AttributeGroups.md).
+The attributes assigned to each group can be managed and customized in the *DataHub* module. For detailed information, see [Attribute groups](../../DataHub/UserInterface/02c_AttributeGroups.md).
 
 
 - ![Folders](../../Assets/Icons/Folders01.png "[Folders]") (Folders)  
@@ -337,10 +305,10 @@ The list displays all dependencies available. All fields are read-only. Dependin
   Click this button to display the filter bar and customize the active filters. The *x* indicates the number of filters that are currently active.
 
 - [x]     
-  Select the checkbox to display the editing toolbar. If you click the checkbox in the header, all orders in the list are selected.
+  Select the checkbox to display the editing toolbar. Only one checkbox can be selected at a time. 
 
 - [VIEW]  
-  Click this button to view a selected line item. This button is only displayed if a single checkbox in the list of line items is selected.
+  Click this button to view a selected line item. This button is only displayed if a checkbox in the list of line items is selected.
 
 The list displays all line items available. All fields are read-only. Depending on the settings, the displayed columns may vary.
 
@@ -370,12 +338,61 @@ The list displays all line items available. All fields are read-only. Depending 
 
 ![Line item attributes](../../Assets/Screenshots/Channels/OrdersReturns/Orders/LineItemAttributes.png "[Line item attributes]")
 
+[comment]: <> (Hinzufügen/erklären? The attributes tab reproduces the fields available in the marketplace.)
+
+In the left margin column, all available attribute groups are displayed. Click an attribute group to display the attributes that are assigned to this group on the right side of the *Attributes* tab. If the order contains attributes that are unassigned, the *Unassigned group* attribute group is automatically displayed in the left margin column.
+
+The right side of the *Attributes* tab displays all attributes that are assigned to the selected group in the left margin column. Depending on the attribute group selected, the fields displayed vary. The line item attributes are imported via the connection driver. All fields are locked and, therefore, read-only.
+
+The attributes assigned to each group can be managed and customized in the *DataHub* module. For detailed information, see [Attribute groups](../../DataHub/UserInterface/02c_AttributeGroups.md).
+
+
+- ![Folders](../../Assets/Icons/Folders01.png "[Folders]") (Folders)  
+  Attribute group that contains attribute sub-groups. Click the attribute group or the arrow *>* left to the attribute group to unfold the group and display the attribute sub-groups.
+
+- ![Folder](../../Assets/Icons/Folder01.png "[Folder]") (Folder)  
+  Attribute group. Click the attribute group to display all attributes that are assigned to the selected attribute group on the right side of the *Attributes* tab.
+
+
+- ![Fade in/out](../../Assets/Icons/FadeInOut01.png "[Fade in/out]") (Fade in/out)    
+  Click this button to hide or display the left margin column with the attribute groups. When the left margin is displayed and you click this button, the column is hidden. When the column is hidden and you click this button, the column is displayed again.
+
 
 ### Line item &ndash; Dependencies
 
 *Omni-Channel > Orders and returns > Tab ORDERS > Select an order > Tab Line items > Select line item > Tab Dependencies*
 
 ![Line item dependencies](../../Assets/Screenshots/Channels/OrdersReturns/Orders/LineItemDependencies.png "[Line item dependencies]")
+
+**Dependencies**
+
+- ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh)   
+  Click this button to update the list of dependencies.
+
+- ![Columns](../../Assets/Icons/Columns.png "[Columns]") Columns (x)   
+  Click this button to display the columns bar and customize the displayed columns and the order of columns in the list. The *x* indicates the number of columns that are currently displayed in the list.
+
+- [x]     
+  Select the checkbox to display the editing toolbar. If you click the checkbox in the header, all dependencies in the list are selected.
+
+- [RERUN MAPPING]  
+
+The list displays all dependencies available. All fields are read-only. Depending on the settings, the displayed columns may vary.
+
+- *Dependent entity ID*  
+
+- *Dependent entity type*  
+
+- *Change tracking*  
+
+- *Dependent entity friendly identifier*  
+
+
+## Order from connection "Connection name" &ndash; Shipments
+
+## Order from connection "Connection name" &ndash; Cancellation
+
+[comment]: <> (Shipments and Cancellation tabs bei NoE test account. Standard/relevant für alle Kunden oder kundenspezifisch?)
 
 
 ## Order from connection "Connection name" &ndash; Errors
@@ -399,29 +416,37 @@ The list displays all line items available. All fields are read-only. Depending 
   Click this button to display the filter bar and customize the active filters. The *x* indicates the number of filters that are currently active.
 
 - [x]     
-  Select the checkbox to display the editing toolbar. If you click the checkbox in the header, all orders in the list are selected.
+  Select the checkbox to display the editing toolbar. If you click the checkbox in the header, all errors in the list are selected.
 
 - [VIEW]  
   Click this button to view a selected error. This button is only displayed if a single checkbox in the list of line errors is selected.
 
-[comment]: <> (Check, ob das stimmt, wenn errors vorhanden)
+[comment]: <> (Check, ob das stimmt, wenn errors vorhanden. Vielleicht: This button is only displayed if a checkbox in the list of errors is selected. In checkbox oben dann: Only one checkbox can be selected at a time.)
 
-The list displays all line errors available. All fields are read-only. Depending on the settings, the displayed columns may vary.
+The list displays all errors available. All fields are read-only. Depending on the settings, the displayed columns may vary.
 
-- *Log*  
+- *Log ID*  
+  Log identification number. The ID number is automatically assigned by the system.   
 
 - *Message*  
+  Description of the error.
 
 - *Message*  
+  Detailed description of the error.
 
-- *Created* 
+- *Created*  
+  Date and time of the creation.
 
 - *Creator*  
+  Name and username of the user who created the error.
 
 - *Last modified*  
+  Date and time of the last modification.
 
 - *Editor*  
+  Name and username of the user who modified the error.  
 
+[comment]: <> (Check, ob es stimmt mit errors)
 
 ## Create view
 
