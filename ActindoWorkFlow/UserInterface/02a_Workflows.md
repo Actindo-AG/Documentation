@@ -267,7 +267,7 @@ The list displays all workflow versions of the selected workflow. Depending on t
 
 
 - Transition  
-  Building blocks that are chained together through places to configure a workflow, represented by a rectangle. All transitions contain a certain, predefined number of input and output ports, represented by a small square to the link and the right of the transition.   
+  Building blocks that are chained together through places to configure a workflow, represented by a rectangle. All transitions contain a certain, predefined number of input and output ports, represented by a small square to the left and the right of the transition.   
   When clicking a transition in the workflow editor, it becomes highlighted and the corresponding element settings are displayed in the settings side bar.
 
   ![Settings side bar](../../Assets/Screenshots/ActindoWorkFlow/Workflows/SettingsSideBar02.png "[Settings side bar]")
