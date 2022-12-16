@@ -1,0 +1,209 @@
+{
+    "key": "create_delivery_notes",
+    "version": 1,
+    "name": "Import channels order in OMS and create Delivery Notes",
+    "published": true,
+    "places": {
+        "input": "Modules.Actindo.Channels.Models.Order",
+        "output": "Modules.RetailSuite.RetailSuiteFaktBase.Models.BusinessDocument",
+        "p-businessDocument-0": "ReadOnly.Modules.RetailSuite.RetailSuiteFaktBase.Models.BusinessDocumentContainer",
+        "p-data-0": "Extensions.Actindo.UCSProductSync.Models.RetailSuiteOrder",
+        "p-in0-0": "anyValue",
+        "p-out0-0": "anyValue",
+        "p-p-0": "anyValue",
+        "p-ucssyncOrder-0": "ReadOnly.Extensions.Actindo.UCSProductSync.Models.RetailSuiteOrderContainer",
+        "p-ucssyncOrder-1": "ReadOnly.Extensions.Actindo.UCSProductSync.Models.RetailSuiteOrderContainer"
+    },
+    "transitions": [
+        {
+            "maxTries": 1,
+            "queueType": "1",
+            "key": "t-executePHP-0",
+            "action": "executePHP",
+            "config": {
+                "code": "$in0->setDispatchAllowed(true);\n$ret = new \\___WorkflowAutogen___\\RequestHydration\\Modules\\RetailSuite\\RetailSuiteFaktBase\\Models\\BusinessDocumentContainerChange($in0);\n$ret->setSerializableFields(['id','dispatchAllowed']);\nreturn $in0->getType() != 'RB' ? [$ret] : [null, $in0];"
+            },
+            "description": "Split AB, RB; Prepare Allow Dispatch"
+        },
+        {
+            "maxTries": 1,
+            "queueType": "1",
+            "key": "t-Extensions.Actindo.UCSProductSync.RetailSuiteOrderSync.exportBaseOrder-0",
+            "action": "Extensions.Actindo.UCSProductSync.RetailSuiteOrderSync.exportBaseOrder",
+            "description": "exportBaseOrder"
+        },
+        {
+            "maxTries": 1,
+            "queueType": "1",
+            "key": "t-Extensions.Actindo.UCSProductSync.RetailSuiteOrderSync.exportPositions-0",
+            "action": "Extensions.Actindo.UCSProductSync.RetailSuiteOrderSync.exportPositions",
+            "description": "exportPositions"
+        },
+        {
+            "maxTries": 1,
+            "queueType": "1",
+            "key": "t-Extensions.Actindo.UCSProductSync.RetailSuiteOrderSync.finishExport-0",
+            "action": "Extensions.Actindo.UCSProductSync.RetailSuiteOrderSync.finishExport",
+            "description": "finishOrderExport"
+        },
+        {
+            "maxTries": 1,
+            "queueType": "1",
+            "key": "t-Extensions.Actindo.UCSProductSync.RetailSuiteOrderSync.setupOrderExport-0",
+            "action": "Extensions.Actindo.UCSProductSync.RetailSuiteOrderSync.setupOrderExport",
+            "description": "setupOrderExport"
+        },
+        {
+            "maxTries": 1,
+            "queueType": "1",
+            "key": "t-Modules.RetailSuite.RetailSuiteFaktBase.BusinessDocuments.createDelivery-0",
+            "action": "Modules.RetailSuite.RetailSuiteFaktBase.BusinessDocuments.createDelivery",
+            "description": "createDeliveries"
+        },
+        {
+            "maxTries": 1,
+            "queueType": "1",
+            "key": "t-Modules.RetailSuite.RetailSuiteFaktBase.BusinessDocuments.save-0",
+            "action": "Modules.RetailSuite.RetailSuiteFaktBase.BusinessDocuments.save",
+            "description": "Allow Dispatch"
+        },
+        {
+            "maxTries": 1,
+            "queueType": "1",
+            "key": "t-startSubprocess-0",
+            "action": "startSubprocess",
+            "config": {
+                "workflowKey": "delivery_notes"
+            },
+            "description": "Start Subprocess"
+        }
+    ],
+    "arcs": [
+        "input -> t-Extensions.Actindo.UCSProductSync.RetailSuiteOrderSync.setupOrderExport-0(order)",
+        "t-Extensions.Actindo.UCSProductSync.RetailSuiteOrderSync.setupOrderExport-0(data) -> p-ucssyncOrder-0",
+        "p-ucssyncOrder-0 -> t-Extensions.Actindo.UCSProductSync.RetailSuiteOrderSync.exportBaseOrder-0(ucssyncOrder)",
+        "t-Extensions.Actindo.UCSProductSync.RetailSuiteOrderSync.exportBaseOrder-0(data) -> p-data-0",
+        "p-data-0 -> t-Extensions.Actindo.UCSProductSync.RetailSuiteOrderSync.exportPositions-0(ucssyncOrder)",
+        "t-Extensions.Actindo.UCSProductSync.RetailSuiteOrderSync.exportPositions-0(data) -> p-ucssyncOrder-1",
+        "p-ucssyncOrder-1 -> t-Extensions.Actindo.UCSProductSync.RetailSuiteOrderSync.finishExport-0(ucssyncOrder)",
+        "t-Extensions.Actindo.UCSProductSync.RetailSuiteOrderSync.finishExport-0(businessDocument) -> p-in0-0",
+        "p-in0-0 -> t-executePHP-0(in0)",
+        "t-executePHP-0(out1) -> output",
+        "t-executePHP-0(out0) -> p-out0-0",
+        "p-out0-0 -> t-Modules.RetailSuite.RetailSuiteFaktBase.BusinessDocuments.save-0(businessDocument)",
+        "t-Modules.RetailSuite.RetailSuiteFaktBase.BusinessDocuments.save-0(data) -> p-businessDocument-0",
+        "p-businessDocument-0 -> t-Modules.RetailSuite.RetailSuiteFaktBase.BusinessDocuments.createDelivery-0(businessDocument)",
+        "t-Modules.RetailSuite.RetailSuiteFaktBase.BusinessDocuments.createDelivery-0(data) -> p-p-0",
+        "t-startSubprocess-0(p) -> output",
+        "p-p-0 -> t-startSubprocess-0(p)"
+    ],
+    "triggers": [
+        {
+            "name": "Order Created",
+            "event": "postPersist",
+            "active": true,
+            "unique": true,
+            "processPriority": 1,
+            "model": "Actindo\\Modules\\Actindo\\Channels\\Models\\Order",
+            "allConditionsRequired": true,
+            "conditions": [
+                {
+                    "operator": "eq",
+                    "value": "2",
+                    "property": "entity.importStatus"
+                }
+            ]
+        },
+        {
+            "name": "Order Updated",
+            "event": "postUpdate",
+            "active": true,
+            "unique": true,
+            "processPriority": 1,
+            "model": "Actindo\\Modules\\Actindo\\Channels\\Models\\Order",
+            "allConditionsRequired": true,
+            "conditions": [
+                {
+                    "operator": "isset",
+                    "value": "1",
+                    "property": "changeset.importStatus"
+                },
+                {
+                    "operator": "eq",
+                    "value": "2",
+                    "property": "entity.importStatus"
+                }
+            ]
+        }
+    ],
+    "nodePositions": {
+        "t-executePHP-0": {
+            "x": 1110.5,
+            "y": 10.25
+        },
+        "t-Extensions.Actindo.UCSProductSync.RetailSuiteOrderSync.exportBaseOrder-0": {
+            "x": 75.5,
+            "y": 10.25
+        },
+        "t-Extensions.Actindo.UCSProductSync.RetailSuiteOrderSync.exportPositions-0": {
+            "x": 420.5,
+            "y": 10.25
+        },
+        "t-Extensions.Actindo.UCSProductSync.RetailSuiteOrderSync.finishExport-0": {
+            "x": 765.5,
+            "y": 10.25
+        },
+        "t-Extensions.Actindo.UCSProductSync.RetailSuiteOrderSync.setupOrderExport-0": {
+            "x": -269.5,
+            "y": 10.25
+        },
+        "t-Modules.RetailSuite.RetailSuiteFaktBase.BusinessDocuments.createDelivery-0": {
+            "x": 1800.5,
+            "y": 47.75
+        },
+        "t-Modules.RetailSuite.RetailSuiteFaktBase.BusinessDocuments.save-0": {
+            "x": 1455.5,
+            "y": 47.75
+        },
+        "t-startSubprocess-0": {
+            "x": 2145.5,
+            "y": 47.75
+        },
+        "input": {
+            "x": -444.25,
+            "y": 10.25
+        },
+        "output": {
+            "x": 2320.25,
+            "y": 10.25
+        },
+        "p-businessDocument-0": {
+            "x": 1628,
+            "y": 47.75
+        },
+        "p-data-0": {
+            "x": 248,
+            "y": 10.25
+        },
+        "p-in0-0": {
+            "x": 938,
+            "y": 10.25
+        },
+        "p-out0-0": {
+            "x": 1283,
+            "y": 47.75
+        },
+        "p-p-0": {
+            "x": 1973,
+            "y": 47.75
+        },
+        "p-ucssyncOrder-0": {
+            "x": -97,
+            "y": 10.25
+        },
+        "p-ucssyncOrder-1": {
+            "x": 593,
+            "y": 10.25
+        }
+    }
+}

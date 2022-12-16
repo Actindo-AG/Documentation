@@ -1,0 +1,231 @@
+{
+    "key": "delivery_notes",
+    "version": 3,
+    "name": "Handle Delivery Notes",
+    "published": true,
+    "places": {
+        "input": "Modules.RetailSuite.RetailSuiteFaktBase.Models.BusinessDocument",
+        "output": "Modules.RetailSuite.RetailSuiteFaktBase.Models.BusinessDocument",
+        "p-businessDocument-1": "ReadOnly.Modules.RetailSuite.RetailSuiteFaktBase.Models.BusinessDocumentContainer",
+        "p-data-1": "Modules.RetailSuite.RetailSuiteFaktBase.Models.BusinessDocument",
+        "p-dispatchNote-0": "Modules.Actindo.Fulfillment.Models.DispatchNoteContainerCreate",
+        "p-dispatchNote-00": "Modules.Actindo.Fulfillment.Models.DispatchNoteContainerCreate",
+        "p-dispatchNote-1": "ReadOnly.Modules.Actindo.Fulfillment.Models.DispatchNoteContainer",
+        "p-dispatchNote-2": "Modules.Actindo.Fulfillment.Models.DispatchNote",
+        "p-in0-0": "anyValue",
+        "p-p_data-0": "anyValue",
+        "p-p-1": "anyValue",
+        "p-p-3": "scalarValue",
+        "p-shipped-0": "Modules.Actindo.Fulfillment.Models.DispatchNote"
+    },
+    "transitions": [
+        {
+            "maxTries": 1,
+            "queueType": "1",
+            "key": "t-Actindo\\Modules\\Actindo\\Fulfillment\\Components\\Actions\\WaitForDispatchNoteAction-0",
+            "action": "Actindo\\Modules\\Actindo\\Fulfillment\\Components\\Actions\\WaitForDispatchNoteAction",
+            "description": "Wait for dispatch note update"
+        },
+        {
+            "maxTries": 1,
+            "queueType": "1",
+            "key": "t-deprecated_duplicate_input-0",
+            "action": "deprecated_duplicate_input",
+            "description": "Duplicate input action"
+        },
+        {
+            "maxTries": 1,
+            "queueType": "1",
+            "key": "t-deprecated_wait_for_parallel_input-0",
+            "action": "deprecated_wait_for_parallel_input",
+            "description": "Wait for parallel input"
+        },
+        {
+            "maxTries": 1,
+            "queueType": "1",
+            "key": "t-executePHP-0",
+            "action": "executePHP",
+            "config": {
+                "code": "$connectionId = $in0->getForceLagerGroupId() == 50 ? 2 : 12;$ret = new \\___WorkflowAutogen___\\RequestHydration\\Modules\\Actindo\\Fulfillment\\Models\\DispatchNoteContainerCreate(['businessDocument' => ['id' => $in0->getId()],'connection' => ['id' => $connectionId]]); return $connectionId==2 ?  [$ret] : [null, $ret];"
+            },
+            "description": "Build Request"
+        },
+        {
+            "maxTries": 1,
+            "queueType": "1",
+            "key": "t-Extensions.Actindo.UCSProductSync.OrderStatusSync.syncShipments-0",
+            "action": "Extensions.Actindo.UCSProductSync.OrderStatusSync.syncShipments",
+            "description": ".syncShipments | /***/ (/Actindo.Extensions.Actindo.UCSProductSync.OrderStatusSync.syncShipments)"
+        },
+        {
+            "maxTries": 1,
+            "queueType": "1",
+            "key": "t-Extensions.Actindo.UCSProductSync.OrderStatusSync.syncShipments-1",
+            "action": "Extensions.Actindo.UCSProductSync.OrderStatusSync.syncShipments",
+            "description": ".syncShipments | /***/ (/Actindo.Extensions.Actindo.UCSProductSync.OrderStatusSync.syncShipments)"
+        },
+        {
+            "maxTries": 1,
+            "queueType": "1",
+            "key": "t-Modules.Actindo.Fulfillment.DispatchNotes.create-0",
+            "action": "Modules.Actindo.Fulfillment.DispatchNotes.create",
+            "description": "Create Dispatch"
+        },
+        {
+            "maxTries": 1,
+            "queueType": "1",
+            "key": "t-Modules.Actindo.Fulfillment.DispatchNotes.create-00",
+            "action": "Modules.Actindo.Fulfillment.DispatchNotes.create",
+            "description": "Create Dispatch"
+        },
+        {
+            "maxTries": 1,
+            "queueType": "1",
+            "key": "t-Modules.Actindo.Fulfillment.DispatchNotes.export-0",
+            "action": "Modules.Actindo.Fulfillment.DispatchNotes.export",
+            "description": "Export Dispatch to LSP"
+        },
+        {
+            "maxTries": 1,
+            "queueType": "1",
+            "key": "t-Modules.RetailSuite.RetailSuiteFaktBase.BusinessDocuments.copy-0",
+            "action": "Modules.RetailSuite.RetailSuiteFaktBase.BusinessDocuments.copy",
+            "description": "Create Invoice"
+        },
+        {
+            "maxTries": 1,
+            "queueType": "1",
+            "key": "t-Modules.RetailSuite.RetailSuiteFaktBase.BusinessDocuments.post-0",
+            "action": "Modules.RetailSuite.RetailSuiteFaktBase.BusinessDocuments.post",
+            "description": "Post Invoice to Accounting"
+        }
+    ],
+    "arcs": [
+        "p-dispatchNote-2 -> t-Actindo\\Modules\\Actindo\\Fulfillment\\Components\\Actions\\WaitForDispatchNoteAction-0(dispatchNote)",
+        "t-Actindo\\Modules\\Actindo\\Fulfillment\\Components\\Actions\\WaitForDispatchNoteAction-0(shipped) -> p-shipped-0",
+        "p-in0-0 -> t-deprecated_duplicate_input-0(p)",
+        "t-deprecated_duplicate_input-0(p0) -> p-p-1",
+        "t-deprecated_duplicate_input-0(p1) -> p-p_data-0",
+        "p-shipped-0 -> t-deprecated_wait_for_parallel_input-0(p_trigger)",
+        "p-p_data-0 -> t-deprecated_wait_for_parallel_input-0(p_data)",
+        "t-deprecated_wait_for_parallel_input-0(p) -> p-p-3",
+        "t-executePHP-0(out0) -> p-dispatchNote-0",
+        "t-executePHP-0(out1) -> p-dispatchNote-00",
+        "p-p-1 -> t-executePHP-0(in0)",
+        "input -> t-Extensions.Actindo.UCSProductSync.OrderStatusSync.syncShipments-0(businessDocument)",
+        "t-Extensions.Actindo.UCSProductSync.OrderStatusSync.syncShipments-0(data) -> p-businessDocument-1",
+        "p-p-3 -> t-Extensions.Actindo.UCSProductSync.OrderStatusSync.syncShipments-1(businessDocument)",
+        "t-Extensions.Actindo.UCSProductSync.OrderStatusSync.syncShipments-1(data) -> output",
+        "p-dispatchNote-0 -> t-Modules.Actindo.Fulfillment.DispatchNotes.create-0(dispatchNote)",
+        "t-Modules.Actindo.Fulfillment.DispatchNotes.create-0(data) -> p-dispatchNote-1",
+        "p-dispatchNote-00 -> t-Modules.Actindo.Fulfillment.DispatchNotes.create-00(dispatchNote)",
+        "t-Modules.Actindo.Fulfillment.DispatchNotes.create-00(data) -> p-dispatchNote-1",
+        "p-dispatchNote-1 -> t-Modules.Actindo.Fulfillment.DispatchNotes.export-0(dispatchNote)",
+        "t-Modules.Actindo.Fulfillment.DispatchNotes.export-0(data) -> p-dispatchNote-2",
+        "t-Modules.RetailSuite.RetailSuiteFaktBase.BusinessDocuments.copy-0(data) -> p-data-1",
+        "t-Modules.RetailSuite.RetailSuiteFaktBase.BusinessDocuments.copy-0(origin) -> p-in0-0",
+        "p-businessDocument-1 -> t-Modules.RetailSuite.RetailSuiteFaktBase.BusinessDocuments.copy-0(businessDocument)",
+        "p-data-1 -> t-Modules.RetailSuite.RetailSuiteFaktBase.BusinessDocuments.post-0(businessDocument)",
+        "t-Modules.RetailSuite.RetailSuiteFaktBase.BusinessDocuments.post-0(data) -> output",
+        "\"RE\" -> t-Modules.RetailSuite.RetailSuiteFaktBase.BusinessDocuments.copy-0(destinationType)"
+    ],
+    "triggers": [],
+    "nodePositions": {
+        "t-Actindo\\Modules\\Actindo\\Fulfillment\\Components\\Actions\\WaitForDispatchNoteAction-0": {
+            "x": 1743,
+            "y": 120
+        },
+        "t-deprecated_duplicate_input-0": {
+            "x": 363,
+            "y": 180
+        },
+        "t-deprecated_wait_for_parallel_input-0": {
+            "x": 2088,
+            "y": 180
+        },
+        "t-executePHP-0": {
+            "x": 708,
+            "y": 120
+        },
+        "t-Extensions.Actindo.UCSProductSync.OrderStatusSync.syncShipments-0": {
+            "x": -327,
+            "y": 120
+        },
+        "t-Extensions.Actindo.UCSProductSync.OrderStatusSync.syncShipments-1": {
+            "x": 2433,
+            "y": 180
+        },
+        "t-Modules.Actindo.Fulfillment.DispatchNotes.create-0": {
+            "x": 1053,
+            "y": 60
+        },
+        "t-Modules.Actindo.Fulfillment.DispatchNotes.create-00": {
+            "x": 1053,
+            "y": 180
+        },
+        "t-Modules.Actindo.Fulfillment.DispatchNotes.export-0": {
+            "x": 1398,
+            "y": 120
+        },
+        "t-Modules.RetailSuite.RetailSuiteFaktBase.BusinessDocuments.copy-0": {
+            "x": 18,
+            "y": 120
+        },
+        "t-Modules.RetailSuite.RetailSuiteFaktBase.BusinessDocuments.post-0": {
+            "x": 2088,
+            "y": -37.5
+        },
+        "input": {
+            "x": -501.75,
+            "y": 120
+        },
+        "output": {
+            "x": 2607.75,
+            "y": 120
+        },
+        "p-businessDocument-1": {
+            "x": -154.5,
+            "y": 120
+        },
+        "p-data-1": {
+            "x": 1915.5,
+            "y": -37.5
+        },
+        "p-dispatchNote-0": {
+            "x": 880.5,
+            "y": 60
+        },
+        "p-dispatchNote-00": {
+            "x": 880.5,
+            "y": 180
+        },
+        "p-dispatchNote-1": {
+            "x": 1225.5,
+            "y": 120
+        },
+        "p-dispatchNote-2": {
+            "x": 1570.5,
+            "y": 120
+        },
+        "p-in0-0": {
+            "x": 190.5,
+            "y": 180
+        },
+        "p-p_data-0": {
+            "x": 1915.5,
+            "y": 277.5
+        },
+        "p-p-1": {
+            "x": 535.5,
+            "y": 120
+        },
+        "p-p-3": {
+            "x": 2260.5,
+            "y": 180
+        },
+        "p-shipped-0": {
+            "x": 1915.5,
+            "y": 120
+        }
+    }
+}
