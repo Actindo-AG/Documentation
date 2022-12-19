@@ -1,3 +1,7 @@
+[!!Manage the connections](./01_ManageConnections.md)
+[!!Create an attribute](../../PIM/Integration/01_ManageAttributes.md#create-an-attribute)
+[!!Manage the ETL mappings](../../DataHub/Operation/01_ManageETLMappings.md)
+
 # Manage the Shopify connection
 
 To establish a connection to a Shopify shop, there are several particularities to consider. Therefore, the creation and the configuration of the Shopify connection are described in detail below.
@@ -113,7 +117,10 @@ A Shopify connection has been established, see [Create a Shopify connection](#cr
 
 ## Configure the Shopify ETL mapping
 
-When the connection to a Shopify shop is established, the corresponding attribute set to the Shopify shop is automatically created. Further, the attribute set mapping from the *PIM basic set* to the Shopify shop is automatically created if the *PIM* module as well as the *PIM-Channels connection* plugin have been installed at the time of connection. Otherwise, the attribute set mapping must be created manually. Anyway, it is recommended to check and, if necessary, configure the attribute mappings described below to enable the correct upload of products.
+In Shopify, there are especially three attributes that are important for the correct upload of products in the Shopify shop, namely *Permit oversales*, *Taxes*, and *Dispatch required*. 
+When the connection to a Shopify shop is established, the corresponding attribute set to the Shopify shop is automatically created. Further, the attribute set mapping from the *PIM basic set* to the Shopify shop is automatically created if the *PIM* module as well as the *PIM-Channels connection* plugin have been installed at the time of connection. In this case, also the three attributes specified above are automatically mapped with a predefined constant value.
+Otherwise, the affected attributes (*Permit oversales*, *Taxes*, and *Dispatch required*) must be created manually in the *PIM* module, and the attribute set mapping must also be created manually.
+Anyway, it is recommended to check the attribute mappings described below to enable the correct upload of products.
 
 ### Configure the oversells permission
 
@@ -135,6 +142,8 @@ By default, the corresponding attribute mapping is already configured as describ
   The *Mapping from PIM basic set to "Shopify attribute set name"* view is displayed.
 
   ![Mapping Shopify](../../Assets/Screenshots/DataHub/Settings/ETL/MappingShopify.png "[Mapping Shopify]")
+
+[comment]: <> (Ist das mapping immer vom PIM basisset auf das shopifyset? oder ist das variabel, welches Attributset das source attribute set ist?)
 
 2. Click the row of the *Permit oversells* destination attribute on the left side.   
   The *Settings* section for the *Permit oversells* attribute mapping is displayed on the right side.
@@ -268,9 +277,11 @@ When creating variants to a master product, you must at least add one defining a
 5. Click the attribute in the list.   
   The *Edit attribute* view is displayed.
   
-  ![Edit attribute Shopify](../../Assets/Screenshots/Channels/Settings/Connections/Shopify/EditAttribute.png "[Edit attribute Shopify]")
+  ![Edit attribute Shopify](../../Assets/Screenshots/Datahub/Settings/Attributes/EditAttributeShopify.png "[Edit attribute Shopify]")
 
 6. Scroll down to the *Edit tree* box and check if all elements in the box have a different name.
+
+  ![Edit tree Shopify](../../Assets/Screenshots/Datahub/Settings/Attributes/EditTreeShopify.png "[Edit tree Shopify]")
 
 7. If necessary, rename the elements with the identical name by doing the following:
   + Hover over the element to be renamed in the *Edit tree* box and click the ![Edit](../../Assets/Icons/Edit03.png "[Edit]")(Edit) button.
@@ -282,7 +293,3 @@ When creating variants to a master product, you must at least add one defining a
 
 8. Click the [SAVE] button in the upper right corner.   
   The changes have been saved. The *Edit attribute* view is closed. 
- 
-
-
-[comment]: <> (im PIM Felder erstellen/Felder übernehmen - wann?)
