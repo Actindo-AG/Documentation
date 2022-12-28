@@ -11,13 +11,13 @@
 **Orders**
 
 - *Combined status*  
-    Combined status of all orders. The following statuses are available:
-    - ![red](../../Assets/Icons/Status02.png "[red]") (red)  
-        There are errors in the orders. Click the *>> more* button to switch to the *ERRORS* tab.   
-    - ![yellow](../../Assets/Icons/Status05.png "[yellow]") (yellow)  
-        There are pending orders.
-    - ![green](../../Assets/Icons/Status03.png "[green]") (green)  
-        There are no errors in the orders.
+ Combined status of all orders. The following statuses are available:
+  - ![red](../../Assets/Icons/Status02.png "[red]") (red)  
+    There are errors in the orders. Click the *>> more* button to switch to the *ERRORS* tab.   
+  - ![yellow](../../Assets/Icons/Status05.png "[yellow]") (yellow)  
+    There are pending orders.
+  - ![green](../../Assets/Icons/Status03.png "[green]") (green)  
+    There are no errors in the orders.
 
 - ![Search](../../Assets/Icons/Search.png "[Search]") (Search)   
   Click this button to display the search bar and search for an order.
@@ -26,45 +26,43 @@
   Click this button to update the list of orders.
 
 - *VIEW*  
- Click the drop-down list to select the view. All created views are displayed in the drop-down list. Click the ![Points](../../Assets/Icons/Points01.png "[Points]") (Points) button to the right of the *View* drop-down list to display the context menu and create or edit a view.    
-  For detailed information, see [Create a view](#create-a-view).
+  Click the drop-down list to select the view. All created views are displayed in the drop-down list. Click the ![Points](../../Assets/Icons/Points01.png "[Points]") (Points) button to the right of the *VIEW* drop-down list to display the context menu and create a view.   
 
-  - View context menu   
-    Click the ![Points](../../Assets/Icons/Points01.png "[Points]") (Points) button to the right of the *View* drop-down list to display the context menu. The following menu entries are available:
+  - ![Points](../../Assets/Icons/Points01.png "[Points]") (Points)      
+    Click this button to the right of the *View* drop-down list to display the context menu. The following menu entries are available:
 
-    - ![Create](../../Assets/Icons/Plus06.png "[Create]") create   
-      Click this entry to create a view. The *Create view* window is displayed.
+    - ![Create](../../Assets/Icons/Plus06.png "[Create]") create  
+      Click this entry to create a view. The *Create view* window is displayed, see [Create view](#create-view).
 
-    - ![Rename](../../Assets/Icons/Edit02.png "[Rename]") rename    
-      Click this entry to rename the selected view. The *Rename view* window is displayed. This menu entry is only displayed if a view has been selected.
+    - ![Rename](../../Assets/Icons/Edit02.png "[Rename]") rename  
+      Click this entry to rename the selected view. The *Rename view* window is displayed, see [Rename view](#rename-view). This menu entry is only displayed if a view has been selected.
 
-    - ![Reset](../../Assets/Icons/Reset.png "[Reset]") reset    
+    - ![Reset](../../Assets/Icons/Reset.png "[Reset]") reset  
       Click this entry to reset all unsaved changes to the settings of the selected view. This menu entry is only displayed if a view has been selected and any changes have been made to the view settings.
 
-    - ![Publish](../../Assets/Icons/Publish.png "[Publish]") publish    
+    - ![Publish](../../Assets/Icons/Publish.png "[Publish]") publish  
       Click this entry to publish the view. This menu entry is only displayed if a view has been selected and unpublished.
 
-    - ![Private view](../../Assets/Icons/Unpublish.png "[Unpublish]") private view    
+    - ![Unpublish](../../Assets/Icons/Unpublish.png "[Unpublish]") unpublish  
       Click this entry to unpublish the view. This menu entry is only displayed if a view has been selected and published.
 
-    [comment]: <> (Private view oder unpublish? Cf. default sentences)
-
-    - ![Save](../../Assets/Icons/Save.png "[Save]") save    
+    - ![Save](../../Assets/Icons/Save.png "[Save]") save  
       Click this entry to save the current view settings in the selected view. This menu entry is only displayed if a view has been selected.
 
       > [Info] When the settings of a view have been changed, an asterisk is displayed next to the view name. The asterisk is hidden as soon as the changes have been saved.
 
-    - ![Delete](../../Assets/Icons/Trash01.png "[Delete]") delete    
-      Click this entry to delete the selected view. A confirmation window is displayed to confirm the deletion. This menu entry is only displayed if a view has been selected.
+    - ![Delete](../../Assets/Icons/Trash01.png "[Delete]") delete  
+      Click this entry to delete the selected view. A confirmation window to confirm the deletion is displayed. This menu entry is only displayed if a view has been selected.
+
 
 - *All Connections*    
-  Click the drop-down list to select a connection. All supported connections are displayed in the list. When selecting a connection, the [Import orders for all connections] button changes to the [Import orders] button.
+  Click the drop-down list to select a connection. All available connections are displayed in the list. When selecting a connection, the [Import orders for all connections] button changes to the [Import orders] button.
 
 - [Import orders for all connections]  
-  Click this button to import orders for all connections.
+  Click this button to import orders for all connections. This button is only displayed if no connection has been selected in the *All connections* drop-down list.
 
 - [Import orders]  
-  Click this button to import only orders for the selected connection. This button is only displayed, if a connection has been selected in the *All connections* drop-down list.
+  Click this button to import all orders for the selected connection. This button is only displayed, if a connection has been selected in the *All connections* drop-down list.
 
 - [Download orders automatically]  
   Click the drop-down list and select the desired time interval at which the orders should be automatically downloaded. This button is only displayed, if a connection has been selected in the *All connections* drop-down list. The following options are available:

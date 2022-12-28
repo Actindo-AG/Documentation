@@ -209,11 +209,10 @@ At least one offer has been created, see [Create an offer](#create-an-offer).
   - **Inactive**   
     The offer is inactive. It is not longer displayed on the marketplace and thus cannot be sold anymore.   
   - **Not available**   
-    The offer is deleted from the marketplace.   
+    The offer is deleted from the marketplace.      
+    The *Change offer status* confirmation window is displayed. If the variant status of the selected offer equals **Master offer**, an additional toggle is displayed within the confirmation window.   
 
-  The *Change offer status* confirmation window is displayed. If the variant status of the selected offer equals **Master offer**, an additional toggle is displayed within the confirmation window.   
-
-  ![Change offer status](../../Assets/Screenshots/Channels/Offers/Offers/ChangeOfferStatus.png "[Change offer status]")
+    ![Change offer status](../../Assets/Screenshots/Channels/Offers/Offers/ChangeOfferStatus.png "[Change offer status]")
 
 3. If desired, enable the *Apply parent status to all child offers?* toggle to apply the selected status to the master offer and all corresponding child offers. By default, the toggle is disabled. The toggle is only displayed if a master offer has been selected.
 
