@@ -222,42 +222,42 @@ If you want to offer the product on a single connection only or you have just on
 
 5. Configure the following settings:
 
-  + Click the *Select connection* drop-down list and select the connection for which you want to create the offer. All active connections are displayed in the list.    
-    The *Select attribute set* drop-down list is unlocked.
+    + Click the *Select connection* drop-down list and select the connection for which you want to create the offer. All active connections are displayed in the list.    
+      The *Select attribute set* drop-down list is unlocked.
 
-  + Click the *Select attribute set* drop-down list and select the appropriate attribute set for the offer. All active attribute sets are displayed in the list.   
+    + Click the *Select attribute set* drop-down list and select the appropriate attribute set for the offer. All active attribute sets are displayed in the list.   
 
-  + Enable the *Generate SKU* toggle to automatically create a SKU for the product offer.   
+    + Enable the *Generate SKU* toggle to automatically create a SKU for the product offer.   
 
-  + Select the appropriate option for change tracking in the *Change tracking mode* section:   
-    - ![Radionbutton](../../Assets/Icons/Radiobutton.png "[Radiobutton]") *Manual*   
-      Changes in a PIM product must be triggered manually to be applied to the offer. The initial offer is automatically applied.   
-    - ![Radionbutton](../../Assets/Icons/Radiobutton.png "[Radiobutton]") *Semi-automatic*   
-      Changes in a PIM product are automatically applied to the offer after confirmation. The initial offer is automatically applied without confirmation.   
-    - ![Radionbutton](../../Assets/Icons/Radiobutton.png "[Radiobutton]") *Semi-automatic, changes must be confirmed by another user*   
-      Changes in a PIM product are automatically applied to the offer after confirmation by another user. The initial offer is only applied after confirmation by another user.    
-    - ![Radionbutton](../../Assets/Icons/Radiobutton.png "[Radiobutton]") *Automatic*   
-      Changes in a PIM product are automatically applied to the offer. The initial offer is also automatically applied.
+    + Select the appropriate option for change tracking in the *Change tracking mode* section:   
+        - ![Radionbutton](../../Assets/Icons/Radiobutton.png "[Radiobutton]") *Manual*   
+          Changes in a PIM product must be triggered manually to be applied to the offer. The initial offer is automatically applied.   
+        - ![Radionbutton](../../Assets/Icons/Radiobutton.png "[Radiobutton]") *Semi-automatic*   
+          Changes in a PIM product are automatically applied to the offer after confirmation. The initial offer is automatically applied without confirmation.   
+        - ![Radionbutton](../../Assets/Icons/Radiobutton.png "[Radiobutton]") *Semi-automatic, changes must be confirmed by another user*   
+          Changes in a PIM product are automatically applied to the offer after confirmation by another user. The initial offer is only applied after confirmation by another user.    
+        - ![Radionbutton](../../Assets/Icons/Radiobutton.png "[Radiobutton]") *Automatic*   
+          Changes in a PIM product are automatically applied to the offer. The initial offer is also automatically applied.
 
-  + Click the *Offer status* drop-down list and select the initial offer status. The statuses below are available:   
-    - **Active**      
-      The offer is active. It is displayed in the selected connection and can be sold there.   
-    - **Inactive**   
-      The offer is inactive. It is not displayed in the selected connection and cannot be sold there.   
-    - **Offline**   
-      The offer is unknown to the selected connection and cannot be sold there.   
+    + Click the *Offer status* drop-down list and select the initial offer status. The statuses below are available:   
+        - **Active**      
+          The offer is active. It is displayed in the selected connection and can be sold there.   
+        - **Inactive**   
+          The offer is inactive. It is not displayed in the selected connection and cannot be sold there.   
+        - **Offline**   
+          The offer is unknown to the selected connection and cannot be sold there.   
 
 
 6. Click the [SAVE] button in the bottom right corner of the *Create offer* window.   
   The single offer is added to the list of offers. The *Create offer* window is closed.
 
-  > [Info] The product must be saved to start the creation process of the offer.
+   > [Info] The product must be saved to start the creation process of the offer.
 
 
 7. Click the [SAVE] button in the upper right corner of the *Edit product* view.   
   The *Edit product* view is closed. The *LIST* tab with the product list is displayed again. The new offer will be created.
 
-  > [Info] The offer creation is performed asynchronously. That means that it may take  some time until the offer has been finally created.
+   > [Info] The offer creation is performed asynchronously. That means that it may take  some time until the offer has been finally created.
 
 
 

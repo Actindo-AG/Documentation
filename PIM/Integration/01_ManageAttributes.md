@@ -169,7 +169,7 @@ At least one attribute has been created, see [Create an attribute](#create-an-at
 
 2. Disable the *Active* toggle in the *Data* tab.
 
-   > [Info] If you want to reactivate an attribute, enable the *Active* toggle.
+  > [Info] If you want to reactivate an attribute, enable the *Active* toggle.
 
 3. Click the [SAVE] button in the upper right corner.   
   The attribute has been deactivated. The *Edit attribute* view is closed.
