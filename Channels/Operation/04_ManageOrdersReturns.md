@@ -1,4 +1,4 @@
-[!!User interface Orders and returns](../UserInterface/05_OrdersReturns.md)   
+[!!User interface Orders and returns](../UserInterface/05_OrdersReturns.md)
 [!!Configure the order import](../Integration/04_ConfigureOrdersReturns.md#configure-the-order-import)
 [!!Configure the return import](../Integration/04_ConfigureOrdersReturns.md#configure-the-return-import)
 

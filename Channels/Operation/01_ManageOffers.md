@@ -1,5 +1,7 @@
-[!!User interface Offers](../UserInterface/02_Offers.md)   
+[!!User interface Offers](../UserInterface/02_Offers.md)
+[!!User interface Semi automatic mapping](../UserInterface/02c_SemiAutomaticMapping.md)
 [!!Check the offer upload](./03_CheckOfferUpload.md)
+
 
 # Manage the offers
 

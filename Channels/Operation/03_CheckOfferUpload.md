@@ -1,4 +1,4 @@
-[!!User interface Offer upload](../UserInterface/03_OfferUpload.md)   
+[!!User interface Offer upload](../UserInterface/03_OfferUpload.md)
 [!!Retry a faulty offer upload](../Troubleshooting/01_RetryFaultyUpload.md)
 
 
@@ -20,7 +20,7 @@ At least one offer upload from *Omni-Channel* to the marketplace has been trigge
 
 *Omni-Channel > Offer Upload > Tab SCHEDULED UPLOADS*
 
-![PIMChannels](../../Assets/Screenshots/Channels/OfferImport/PIMChannels.png "[PIMChannels]")
+![Scheduled uploads](../../Assets/Screenshots/Channels/OfferUpload/ScheduledUploads/ScheduledUploads.png "[Scheduled uploads]")
 
 1. Click the ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh) button in the upper right corner to update the list of offers to be uploaded to the marketplace.   
   All pending offers to be uploaded are displayed in the list.
@@ -47,14 +47,14 @@ At least one offer upload has failed.
 
 *Omni-Channel > Offer Upload > Tab ERRORS*
 
-![Export errors](../../Assets/Screenshots/Channels/OfferUpload/ExportErrors.png "[Export errors]")
+![Export errors](../../Assets/Screenshots/Channels/OfferUpload/Errors/ExportErrors.png "[Export errors]")
 
 1. Check the list of export errors for the faulty offer upload.
 
 2. Click the corresponding faulty offer upload.   
   The *Detail of log message "Log message title"* view is displayed. By default, the *Attributes* tab is preselected.
 
-  ![Detail of log message](../../Assets/Screenshots/Channels/OfferUpload/DetailLogMessage.png "[Detail of log message]")
+  ![Detail of log message](../../Assets/Screenshots/Channels/OfferUpload/Errors/DetailLogMessage.png "[Detail of log message]")
 
 3. Check the details of the log message in the *Attributes* tab.
 

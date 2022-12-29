@@ -1,6 +1,5 @@
-[!!Select a language](../Operation/04_ManageView.md#select-a-language)
-[!!Select a channel](../Operation/04_ManageView.md#select-a-channel)
-[!!Select a product category](../Operation/04_ManageView.md#select-a-product-category)
+[!!Manage the view](../../PIM/Operation/04_ManageView.md)
+[!!Manage the offers](../Operation/01_ManageOffers.md)
 
 
 # Offers
@@ -50,7 +49,7 @@
 
 
 - *All Connections*    
-  Click the drop-down list to select a connection. All available connections are displayed in the list.
+  Click the drop-down list to select a connection. All available connections are displayed in the list. If you select a connection, the list of offers is limited to those offers of the selected connection. Otherwise, the offers of all connections are displayed in the list of offers.
 
 - ![Columns](../../Assets/Icons/Columns.png "[Columns]") Columns (x)   
   Click this button to display the columns bar and customize the displayed columns and the order of columns in the list. The *x* indicates the number of columns that are currently displayed in the list.

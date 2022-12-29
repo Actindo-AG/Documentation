@@ -1,5 +1,4 @@
-[!!User interface Errors](../UserInterface/03b_Errors.md)   
-
+[!!User interface Errors](../UserInterface/03b_Errors.md)
 
 # Retry a faulty offer upload
 
@@ -19,7 +18,7 @@ The cause of the faulty offer upload has been fixed.
 
 *Omni-Channel > Offer Upload > Tab ERRORS*
 
-![Export errors](../../Assets/Screenshots/Channels/OfferUpload/ExportErrors.png "[Export errors]")
+![Export errors](../../Assets/Screenshots/Channels/OfferUpload/Errors/ExportErrors.png "[Export errors]")
 
 1. Select the checkbox of the faulty offer upload you want to restart.   
   The editing toolbar is displayed above the list.
@@ -27,7 +26,7 @@ The cause of the faulty offer upload has been fixed.
 2. Click the [RETRY UPLOAD] button in the editing toolbar.   
   The selected offer upload has been triggered. The pop-up window *Upload triggered* is displayed.
 
-  ![Upload triggered](../../Assets/Screenshots/Channels/OfferUpload/UploadTriggered.png "[Upload triggered]")
+  ![Upload triggered](../../Assets/Screenshots/Channels/OfferUpload/Errors/UploadTriggered.png "[Upload triggered]")
 
   If the retry is successful, the offer will be removed from the list of export errors.
 

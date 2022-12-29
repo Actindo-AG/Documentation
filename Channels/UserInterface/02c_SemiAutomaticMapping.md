@@ -1,4 +1,13 @@
+
+[!!Manage the offers](../Operation/01_ManageOffers.md)
+
 # Semi automatic mapping
+
+*Omni-Channel > Offers > Tab SEMI AUTOMATIC MAPPING*
+
+![Semi automatic mapping](../../Assets/Screenshots/Channels/Offers/SemiAutomaticMapping/SemiAutomaticMapping.png "[Semi automatic mapping]")
+
+[comment]: <> (add screenshot)
 
 **Semi-automatic changes awaiting confirmation**
 

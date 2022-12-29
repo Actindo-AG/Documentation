@@ -1,3 +1,8 @@
+[!!Delete an offer](../Operation/01_ManageOffers.md#delete-an-offer)
+[!!Permanently delete an offer](../Operation/01_ManageOffers.md#permanently-delete-an-offer)
+[!!Recover an offer](../Operation/01_ManageOffers.md#recover-an-offer)
+
+
 # Recycle bin
 
 *Omni-Channel > Offers > Tab RECYCLE BIN*
@@ -43,7 +48,7 @@
 
 
 - *All Connections*    
-  Click the drop-down list to select a connection. All supported connections are displayed in the list.
+  Click the drop-down list to select a connection. All supported connections are displayed in the list. If you select a connection, the list of recycled offers is limited to those offers of the selected connection. Otherwise, the offers of all connections are displayed in the list of recycled offers.
 
 - ![Columns](../../Assets/Icons/Columns.png "[Columns]") Columns (x)   
   Click this button to display the columns bar and customize the displayed columns and the order of columns in the list. The *x* indicates the number of columns that are currently displayed in the list.
