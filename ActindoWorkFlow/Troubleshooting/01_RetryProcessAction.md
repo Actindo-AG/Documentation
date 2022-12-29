@@ -1,5 +1,5 @@
-[!!User Interface Processes](../UserInterface/03a_Processes.md)
-[!!User Interface Process actions](../UserInterface/04a_ProcessActions.md)
+[!!User interface Processes](../UserInterface/03a_Processes.md)
+[!!User interface Process actions](../UserInterface/04a_ProcessActions.md)
 [!!Track a workflow process](../Operation/02_TrackWorkflowProcess)
 [!!Workflow and process elements](../Overview/04_WorkflowProcessElements.md)
 
@@ -66,9 +66,9 @@ The cause of the faulty process actions has been fixed.
 
 #### Procedure
 
-*Workflows > Process Actions > Tab OVERVIEW*
+*Workflows > Process actions > Tab OVERVIEW*
 
-[comment]: <> (Vor nächster Version prüfen; bald neuer Pfad: *Workflows > Process Actions > Tab OVERVIEW*)
+[comment]: <> (Vor nächster Version prüfen; bald neuer Pfad: *Workflows > Process actions > Tab OVERVIEW*)
 
 ![Process actions](../../Assets/Screenshots/ActindoWorkFlow/ProcessActions/ProcessActions.png "[Process actions]")
 

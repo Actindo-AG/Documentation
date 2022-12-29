@@ -1,6 +1,13 @@
+[!!Delete a queue type](../Integration/01_ConfigureQueueTypes.md#delete-a-queue-type)
+[!!Kill all workers](../Integration/01_ConfigureQueueTypes.md#kill-all-workers)
+[!!Kill the workers of a single queue type](../Integration/01_ConfigureQueueTypes.md#kill-the-workers-of-a-single-queue-type)
+[!!Edit a queue type](../Integration/01_ConfigureQueueTypes.md#edit-a-queue-type)
+[!!Edit the workers number](../Integration/01_ConfigureQueueTypes.md#edit-the-workers-number)
+
+
 # Overview
 
-*Workflows > Queue Types > Tab OVERVIEW*
+*Workflows > Queue types > Tab OVERVIEW*
 
 ![Queue types](../../Assets/Screenshots/ActindoWorkFlow/QueueTypes/Overview.png "[Queue types]")
 
@@ -8,7 +15,6 @@
 
 - [KILL WORKER]   
   Click this button to stop all workers that are currently executing actions in all processes.   
-  For detailed information, see [Kill all workers](../Integration/01_ConfigureQueueTypes.md#kill-all-workers).
 
 - ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh)   
   Click this button to update the list of queue types.
@@ -20,15 +26,12 @@
   Select the checkbox to display the editing toolbar.
 
 - [DELETE]   
-  Click this button to delete the selected queue type. The *QueueType has been deleted* pop-up window is displayed. The *Default* queue type cannot be deleted.  
-  For detailed information, see [Delete a queue type](../Integration/01_ConfigureQueueTypes.md#delete-a-queue-type).
+  Click this button to delete the selected queue type. The *Queue type has been deleted* pop-up window is displayed. The *Default* queue type cannot be deleted.  
 
 - [KILL WORKER OF THIS QUEUE TYPE]   
   Click this button to stop all workers that are currently executing an action of the selected queue type.   
-  For detailed information, see [Kill the workers of a single queue type](../Integration/01_ConfigureQueueTypes.md#kill-the-workers-of-a-single-queue-type).
 
-The list displays all queue types. All fields are read-only. Depending on the settings, the displayed columns may vary. Click a queue type in the list to display the *Edit queue type* view.   
-For detailed information, see [Edit a queue type](../Integration/01_ConfigureQueueTypes.md#edit-a-queue-type).
+The list displays all queue types. All fields are read-only. Depending on the settings, the displayed columns may vary. Click a queue type in the list to display the *Edit queue type* view.    
 
 - *ID*   
   Queue type identification number. The ID number is automatically assigned by the system when the queue type is created.
@@ -46,14 +49,13 @@ For detailed information, see [Edit a queue type](../Integration/01_ConfigureQue
 
 
 - ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add)   
-  Click this button to create a queue type. The *Create queue type* view is displayed.   
-  For detailed information, see [Create a queue type](../Integration/01_ConfigureQueueTypes.md#create-a-queue-type).
+  Click this button to create a queue type. The *Create queue type* view is displayed, see [Create a queue type](../Integration/01_ConfigureQueueTypes.md#create-a-queue-type).
 
 
 
 ## Create queue type
 
-*Workflows > Queue Types > Tab OVERVIEW > Button Add*
+*Workflows > Queue types > Tab OVERVIEW > Button Add*
 
 ![Create queue type](../../Assets/Screenshots/ActindoWorkFlow/QueueTypes/CreateQueueType.png "[Create queue types]")
 
@@ -83,7 +85,7 @@ For detailed information, see [Edit a queue type](../Integration/01_ConfigureQue
 
 ## Edit queue type
 
-*Workflows > Queue Types > Tab OVERVIEW > Select queue type*
+*Workflows > Queue types > Tab OVERVIEW > Select queue type*
 
 ![Edit queue type](../../Assets/Screenshots/ActindoWorkFlow/QueueTypes/EditQueueType.png "[Edit queue types]")
 
@@ -99,7 +101,6 @@ For detailed information, see [Edit a queue type](../Integration/01_ConfigureQue
 
 - *Number of workers*   
   Click this field to edit the number of workers for the queue type. To edit the number of workers, no more workers must be active.   
-  For detailed information, see [Edit the workers number](../Integration/01_ConfigureQueueTypes.md#edit-the-workers-number).
 
   > [Info] The number of workers you can assign to queue types depends on the number of booked vCores. For one worker, 4 vCores are needed. Additionally, 10 % of the booked vCores, but at least 4 vCores are blocked for the daily business and cannot be used for workers. The number of vCores needed always refers to the total number of workers in all queue types. For example, for a queue type with 2 workers and a queue type of 4 workers, 28 vCores are needed:   
   *4 vCores per worker (4 * 6 = 24) plus 4 vCores blocked for the daily business (24 + 4 = 28)*

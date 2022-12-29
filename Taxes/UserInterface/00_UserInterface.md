@@ -1,4 +1,4 @@
-# User Interface
+# User interface
 
 In this part of the *Taxes* documentation, you will find the following chapters:
 

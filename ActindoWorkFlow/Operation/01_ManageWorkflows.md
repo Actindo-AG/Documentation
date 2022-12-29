@@ -1,5 +1,5 @@
 [!!Tasks](../../Tasks/Overview/01_General.md)
-[!!User Interface Workflows](../UserInterface/02a_Workflows.md)
+[!!User interface Workflows](../UserInterface/02a_Workflows.md)
 [!!Workflow and process elements](../Overview/04_WorkflowProcessElements.md)
 [!!Track a workflow process](./02_TrackWorkflowProcess.md)
 
@@ -178,7 +178,7 @@ Edit the place settings to change or define the place data type.
 
   ![Place](../../Assets/Screenshots/ActindoWorkFlow/Workflows/Place.png "[Place]")
 
-2. Click the *Data Container* field in the settings side bar and select the appropriate data type in the list of data types.
+2. Click the *Data container* field in the settings side bar and select the appropriate data type in the list of data types.
 
   > [Info] Only values of those data types that match with the connected output and input port of the selected place are displayed in the list.     
 
@@ -207,7 +207,7 @@ You can change the ports of the place by deleting an existing arc and creating a
 
   ![Input](../../Assets/Screenshots/ActindoWorkFlow/Workflows/ArrowInput.png "[Input]")
 
-3. Press **BackSpace** or **Delete** to remove the selected arc.    
+3. Press the **BackSpace** or the **Delete** key to remove the selected arc.    
   The selected arc between the place and the port has been deleted.
 
   > [Info] If the port whose connection is deleted is mandatory, a new place connected to this port is automatically displayed.
@@ -243,7 +243,7 @@ Delete a place that is no longer needed, for instance if a transition is removed
 
   ![Input](../../Assets/Screenshots/ActindoWorkFlow/Workflows/Place.png "[Input]")
 
-3. Press **Delete** to remove the selected place.    
+3. Press the **Delete** key to remove the selected place.    
   The selected place and its arcs have been deleted.
 
   > [Info] If a one of the arcs has been connected to a mandatory input or output port, a new place connected to this port will be automatically displayed.
@@ -317,14 +317,14 @@ Edit a transition to define its settings.
 
   + Click the *Label* field and edit the name of the transition displayed in the workflow editor.
 
-  + Click the *Queue Type* drop-down list and select the appropriate queue type for the transition. All available queue types are displayed in the drop-down list. By default the *Default* queue type is selected. You can define a different queue type for each transition within the workflow.   
+  + Click the *Queue type* drop-down list and select the appropriate queue type for the transition. All available queue types are displayed in the drop-down list. By default the *Default* queue type is selected. You can define a different queue type for each transition within the workflow.   
   For detailed information about the queue types, see [Configure the queue types](../Integration/01_ConfigureQueueTypes.md).
 
-  + Click the *Task Event* drop-down list and select an event connected to the transition. The event is triggered and the corresponding task is assigned when the process action has failed. All available task events are displayed in the drop-down list. By default, the *ActindoWorkflow Process Execution Failed* event is preselected. The drop-down list is only displayed when the *Task* module is installed and the current user has the required rights to configure it.
+  + Click the *Task event* drop-down list and select an event connected to the transition. The event is triggered and the corresponding task is assigned when the process action has failed. All available task events are displayed in the drop-down list. By default, the *ActindoWorkflow process execution failed* event is preselected. The drop-down list is only displayed when the *Task* module is installed and the current user has the required rights to configure it.
 
   + Edit the field(s) in the *Configuration* section to define further configuration settings to the selected transition. This section is only displayed for certain transitions. The fields displayed in the *Configuration* section depend on the selected transition.
 
-  + Click the ![Add](../../Assets/Icons/Plus04.png "[Add]") (Add) button right to an input name in the *Static Inputs* section to add a static data value to the corresponding input. All input ports that are not yet connected to a place are displayed in this section. Enter the appropriate value in the text field below the input name. The value entered must be a valid JSON value. Click the ![Delete](../../Assets/Icons/Trash07.png "[Delete]") (Delete) button right to a value to delete it. This section is only displayed for certain transitions.
+  + Click the ![Add](../../Assets/Icons/Plus04.png "[Add]") (Add) button right to an input name in the *Static inputs* section to add a static data value to the corresponding input. All input ports that are not yet connected to a place are displayed in this section. Enter the appropriate value in the text field below the input name. The value entered must be a valid JSON value. Click the ![Delete](../../Assets/Icons/Trash07.png "[Delete]") (Delete) button right to a value to delete it. This section is only displayed for certain transitions.
 
   > [Info] Input ports with a static input value cannot be connected to a place. Therefore, a small arrow without a place is displayed in front of an input port with a static input value. Delete the static input value from the port to be able to connect it with a place.     
 

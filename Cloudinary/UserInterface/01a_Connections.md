@@ -1,3 +1,5 @@
+[!!Establish a connection to Cloudinary](../Integration/01_EstablishConnection.md)
+
 # Connections
 
 *Cloudinary > Settings > Tab CONNECTIONS*

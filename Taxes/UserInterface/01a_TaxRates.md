@@ -1,3 +1,9 @@
+[!!Create a tax rate](../Integration/01_ManageTaxRates.md#create-a-tax-rate)
+[!!Edit a tax rate](../Integration/01_ManageTaxRates.md#edit-a-tax-rate)
+[!!Delete a tax rate](../Integration/01_ManageTaxRates.md#delete-a-tax-rate)
+[!!Manage the tax keys](../../RetailSuiteAccounting/Integration/02_ManageTaxKeys.md)
+
+
 # Tax rates
 
 *Taxes > Settings > Tab TAX RATES*
@@ -22,13 +28,11 @@
 
 - [EDIT]   
   Click this button to edit the selected tax rate. This button is only displayed, when the checkbox of a tax rate is selected. Alternatively, you can click directly a row in the list to edit a tax rate. The *Edit tax rate* view is displayed, see [Edit tax rate](#edit-tax-rate).   
-  For detailed information, see [Edit a tax rate](../Integration/01_ManageTaxRates.md#edit-a-tax-rate).
 
 [comment]: <> (Ändern in der Zukunft? In neuer UI, Edit-Fenster werden einfach den Namen des ausgewählten Tax rates/Produktes, usw.; Create-Fenster werden "New ..." heißen. Besprochen in UX-Docu Meeting 08.08.22)
 
 - [DELETE]  
   Click this button to delete the selected tax rate. This button is only displayed, when the checkbox of a tax rate is selected.   
-  For detailed information, see [Delete a tax rate](../Integration/01_ManageTaxRates.md#delete-a-tax-rate).
 
 
 The list displays all available tax rates. All fields are read-only. Depending on the settings, the displayed columns may vary.
@@ -103,8 +107,7 @@ The list displays all available tax rates. All fields are read-only. Depending o
   Click the field to edit the tax rate.
 
 - *Tax key*  
-  Click the field to edit the tax key.   
-  The tax keys can be managed in the *Accounting* module, see [Manage the tax keys](../../RetailSuiteAccounting/Integration/02_ManageTaxKeys.md).
+  Click the field to edit the tax key. The tax keys are managed in the *Accounting* module.
 
 - *Tax zone*  
   Click the drop-down list to select a different tax zone.

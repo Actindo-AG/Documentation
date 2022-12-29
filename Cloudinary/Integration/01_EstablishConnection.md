@@ -1,4 +1,4 @@
-[!!User Interface Cloudinary](../UserInterface/01a_Connections.md)
+[!!User interface Connections](../UserInterface/01a_Connections.md)
 [!!Manage the Cloudinary files](../Operation/01_ManageCloudinaryFiles.md)
 
 

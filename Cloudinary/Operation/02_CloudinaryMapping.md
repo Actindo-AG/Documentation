@@ -1,8 +1,9 @@
 [!!DataHub](../../DataHub/Overview/01_General.md)
-[!!User Interface DataHub](../../DataHub/UserInterface/00_UserInterface.md)
+[!!User interface DataHub](../../DataHub/UserInterface/00_UserInterface.md)
 [!!Manage the ETL mappings](../../DataHub/Operation/01_ManageETLMappings.md)
 [!!ETL extensions list](../../DataHub/UserInterface/03_ETLExtensions.md)
-[!!Data type list](../../PIM/UserInterface/04_DataTypeList.md)
+[!!Data type list](../../DataHub/UserInterface/04_DataTypeList.md)
+[!!Rerun an ETL mapping](../../DataHub/Operation/01_ManageETLMappings.md#rerun-an-etl-mapping)
 
 # Map a Cloudinary file
 
@@ -52,7 +53,7 @@ Map a source attribute set with a Cloudinary attribute to a certain destination 
   The *Configuration* section is displayed below the *Settings* section.
 
   > [Info] For detailed information about the ETL extensions, see [ETL extensions list](../../DataHub/UserInterface/03_ETLExtensions.md).   
-  For detailed information about the data types, see [Data type list](../../PIM/UserInterface/04_DataTypeList.md).
+  For detailed information about the data types, see [Data type list](../../DataHub/UserInterface/04_DataTypeList.md).
 
 
 4. Select the appropriate tracking mode in the *Override change tracking mode* drop-down list. By default, the **Use default** option is preselected. The following modes are available:
@@ -80,7 +81,7 @@ If the *Cloudinary to string* ETL extension has been selected, enable or disable
 7. Click the [SAVE] button in the upper right corner.   
   The changes have been saved. The *Settings* section is hidden.
 
-  > [Info] Be aware that you have to [rerun the mapping](../../DataHub/Operation/01_ManageETLMappings.md#rerun-an-etl-mapping) to apply the changes made to the attribute.
+  > [Info] Be aware that you have to rerun the mapping to apply the changes made to the attribute, see [Rerun an ETL mapping](../../DataHub/Operation/01_ManageETLMappings.md#rerun-an-etl-mapping).
 
 
 
@@ -143,11 +144,11 @@ Map a certain source attribute set to a destination attribute set with a Cloudin
 - For the *Copy Cloudinary image value* ETL extension, you have to select a source attribute with the *Cloudinary image* data type.   
 - For the *Import from Cloudinary folder* ETL extension, you can select one to four source attributes with the *String* data type.   
 
-  > [Info] For detailed information about the data types, see [Data type list](../../PIM/UserInterface/04_DataTypeList.md).
+  > [Info] For detailed information about the data types, see [Data type list](../../DataHub/UserInterface/04_DataTypeList.md).
 
 6. If the *Copy Cloudinary image value* ETL extension has been selected, enter the Cloudinary folder from which the images will be imported in the *Folder* field of the *Configuration* section.   
 
 7. Click the [SAVE] button in the upper right corner.   
   The changes have been saved. The *Settings* section is hidden.
 
-  > [Info] Be aware that you have to [rerun the mapping](../../DataHub/Operation/01_ManageETLMappings.md#rerun-an-etl-mapping) to apply the changes made to the attribute.
+  > [Info] Be aware that you have to rerun the mapping to apply the changes made to the attribute, see [Rerun an ETL mapping](../../DataHub/Operation/01_ManageETLMappings.md#rerun-an-etl-mapping).

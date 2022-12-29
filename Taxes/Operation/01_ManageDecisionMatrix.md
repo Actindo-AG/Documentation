@@ -1,5 +1,5 @@
 [!!Accounting](../../RetailSuiteAccounting/Overview/01_General.md)
-[!!User Interface Decision matrix](../UserInterface/01b_DecisionMatrix.md)
+[!!User interface Decision matrix](../UserInterface/01b_DecisionMatrix.md)
 [!!Manage the tax rates](../Integration/01_ManageTaxRates.md)
 [!!Manage the tax classes](../Integration/02_ManageTaxClasses.md)
 [!!Manage the tax zones](../Integration/03_ManageTaxZones.md)
@@ -41,22 +41,32 @@ Create an entry to determine a new tax zone.
 1. Click the ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) button in the upper left corner.   
   A new data input line is displayed.
 
+
 2. Click the *VAT ID* drop-down list and select the appropriate option. In this case, the VAT ID refers to the buyer's VAT ID number. The following options are available:
   - **Yes**  
     Select this option if the customer is a company and, therefore, has a VAT ID number (B2B transaction).
   - **No**  
     Select this option if the customer is a private individual and, therefore, has no VAT ID number (B2C transaction).
+  - **Any**   
+    To match any of the previous two cases.
 
+  > [Info] To change the selection of a drop-down list back to **Any**, reselect the already selected option in the drop-down list.  
 
-3. Click the *Country of origin* drop-down list and select the appropriate option. Use the drop-down list on the left to select a group of countries or the one on the right to select an individual country. As a group of countries, only the **EU - European Union** option is available. In the drop-down list of individual countries, all available countries in the system are displayed. When a group of countries is selected, the drop-down list on the right is locked.
+3. Click the *Country of origin* drop-down list and select the appropriate option.   
+  Use the drop-down list on the left to select a group of countries or the one on the right to select an individual country. As a group of countries, only the **EU - European Union** option is available. In the drop-down list of individual countries, all available countries in the system are displayed.    
+  When a group of countries is selected, the drop-down list on the right is locked.
 
-4. Click the *Ship-to country* drop-down list and select the appropriate option. Use the drop-down list on the left to select a group of countries or the one on the right to select an individual country. As a group of countries, only the **EU - European Union** option is available. In the drop-down list of individual countries, all available countries in the system are displayed. When a group of countries is selected, the drop-down list on the right is locked.
+4. Click the *Ship-to country* drop-down list and select the appropriate option.   
+  Use the drop-down list on the left to select a group of countries or the one on the right to select an individual country. As a group of countries, only the **EU - European Union** option is available. In the drop-down list of individual countries, all available countries in the system are displayed.   
+  When a group of countries is selected, the drop-down list on the right is locked.
+
 
 5. If necessary, click the *Ship-to postcode* drop-down list and select the appropriate option. The following options are available:
   - **Range**  
-    Select this option to specify a numeric postcode range, for example 27498 or 52001-52006.
+    Select this option to specify a numeric postcode range, for example **27498** or **52001-52006**.
   - **Regex**  
-    Select this option to specify a postcode containing alphanumeric characters with regular expressions, for example /^BT.*/ in case of Northern Ireland. The site https://regex101.com/ can be useful to test regular expressions.  
+    Select this option to specify a postcode containing alphanumeric characters with regular expressions, for example **/^BT.*/** in case of Northern Ireland..   
+    The site https://regex101.com/ can be useful to test regular expressions.  
 
   The field to the right of the *Ship-to postcode* drop-down list is unlocked.
 
@@ -190,6 +200,8 @@ All applicable tax rates have been defined for delivery thresholds, see [Define 
 
 4. Click the *Ship-to country* drop-down list on the right to select the country where the product is to be shipped to. The *Ship-to country* drop-down list on the left must remain blank (**Any**).
 
+  > [Info] To change the selection of a drop-down list back to **Any**, reselect the already selected option in the drop-down list.
+
 5. If necessary, click the *Ship-to postcode* drop-down list and select the appropriate option. Specify a postcode in the unlocked field on the right of the *Ship-to postcode* drop-down list. For detailed information, see [Define tax exceptions on ZIP code level](#define-tax-exceptions-on-ZIP-code-level).
 
 6. If necessary, click the *Net value of goods smaller than* drop-down list and select the applicable currency. Enter the applicable amount in the unlocked field on the right of the *Net value of goods smaller than* drop-down list by using the keyboard or by clicking the increase and decrease arrows on the right of the field.   
@@ -228,6 +240,7 @@ These tax exceptions can be defined using the *Ship-to postcode* fields.
 1. Click the ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) button in the upper left corner.   
   A new data input line is displayed.
 
+
 2. Click the *VAT ID* drop-down list and select the appropriate option. The following options are available:
   - **Yes**  
     The customer is a company and, therefore, has a VAT ID number (B2B transaction).
@@ -236,21 +249,28 @@ These tax exceptions can be defined using the *Ship-to postcode* fields.
   - **Any**   
     To match any of the previous two cases.
 
+  > [Info] To change the selection of a drop-down list back to **Any**, reselect the already selected option in the drop-down list.  
 
-3. Click the *Country of origin* drop-down list and select the appropriate option. Use the drop-down list on the left to select a group of countries or the one on the right to select an individual country. As a group of countries, only the **EU - European Union** option is available. In the drop-down list of individual countries, all available countries in the system are displayed. When a group of countries is selected, the drop-down list on the right is locked.
+3. Click the *Country of origin* drop-down list and select the appropriate option.   
+  Use the drop-down list on the left to select a group of countries or the one on the right to select an individual country. As a group of countries, only the **EU - European Union** option is available. In the drop-down list of individual countries, all available countries in the system are displayed.   
+  When a group of countries is selected, the drop-down list on the right is locked.
 
 4. Click the *Ship-to country* drop-down list on the right to select the country where the product is to be shipped to. The *Ship-to country* drop-down list on the left must remain blank (**Any**).
 
   > [Info] To change the selection of a drop-down list back to **Any**, reselect the already selected option in the drop-down list.  
 
+
 5. Click the *Ship-to postcode* drop-down list and select the appropriate option. The following options are available:
   - **Range**  
-    Select this option to specify a numeric postcode range, for example 27498 or 52001-52006.
+    Select this option to specify a numeric postcode range, for example **27498** or **52001-52006**.
   - **Regex**  
-    Select this option to specify a postcode containing alphanumeric characters with regular expressions, for example /^BT.*/. For detailed information about regular expressions, see https://regex101.com/.
+    Select this option to specify a postcode containing alphanumeric characters with regular expressions, for example **/^BT.*/** in case of Northern Ireland.   
+    The site https://regex101.com/ can be useful to test regular expressions.
+
+    The field to the right of the *Ship-to postcode* drop-down list is unlocked.
 
 
-6. Enter a postcode range or a regular expression to define a specific tax exception area in the selected country.
+6. Enter the applicable postcode range or regular expression in the unlocked field on the right of the *Ship-to postcode* drop-down list.
 
 7. If necessary, click the *Net value of goods smaller than* drop-down list and select the applicable currency. Enter the applicable amount in the unlocked field on the right of the *Net value of goods smaller than* drop-down list by using the keyboard or by clicking the increase and decrease arrows on the right of the field.
 

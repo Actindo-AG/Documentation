@@ -6,8 +6,7 @@ In this part of the *Workflows* documentation, you will find the following chapt
 
 
 - [DASHBOARDS](./01a_Overview.md)
-  - [Add a new tab &ndash; Create new tab](./01a_Overview.md#add-a-new-tab--create-new-tab)
-  - [Add a new tab &ndash; Import existing tab](./01a_Overview.md#add-a-new-tab--import-existing-tab)
+  - [Add a new tab](./01a_Overview.md#add-a-new-tab)
   - [Confirm tab deletion](./01a_Overview.md#confirm-tab-deletion)
   - [Tab](./01a_Overview.md#tab)
     - [Edit tab](./01a_Overview.md#edit-tab)
@@ -87,4 +86,15 @@ In this part of the *Workflows* documentation, you will find the following chapt
   - [Debug-log lifetime](./07a_Settings.md#debug-log-lifetime)
 
 
-[comment]: <> (Add chapter workflow core actions)
+
+- [Workflow core actions](./08_CoreActions.md)
+  - [Change process priority](./08_CoreActions.md#change-process-priority)
+  - [Multiply input action](./08_CoreActions.md#multiply-input-action)
+  - [Execute PHP code](./08_CoreActions.md#execute-php-code)
+  - [Split by criterion](./08_CoreActions.md#split-by-criterion)
+  - [Start subprocess](./08_CoreActions.md#start-subprocess)
+  - [Switch case action](./08_CoreActions.md#switch-case-action)
+  - [Update process name and search string](./08_CoreActions.md#update-process-name-and-search-string)
+  - [Wait for criterion](./08_CoreActions.md#wait-for-criterion)
+  - [Wait for parallel input](./08_CoreActions.md#wait-for-parallel-input)
+  - [Waiting action](./08_CoreActions.md#waiting-action)
