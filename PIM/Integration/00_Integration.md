@@ -50,7 +50,7 @@ In this part of the *PIM* documentation, you will find the following chapters:
   - [Assign a product to a catalog category](./06_ManageCatalogs.md#assign-a-product-to-a-catalog-category)
 
 
-- [Manage the variant sets](./07_ManageVariantSets.md)
+- [Manage a variant set](./07_ManageVariantSets.md)
   - [Create a variant set](./07_ManageVariantSets.md#create-a-variant-set)
     - [Define the variant set basic data](./07_ManageVariantSets.md#define-the-variant-set-basic-data)
     - [Add defining attributes](./07_ManageVariantSets.md#add-defining-attributes)

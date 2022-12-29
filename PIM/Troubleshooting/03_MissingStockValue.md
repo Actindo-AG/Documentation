@@ -1,5 +1,5 @@
 [!!Warehouse](../../RetailSuiteWarehousing/Overview/01_General.md)
-[!!User interface Product list](../UserInterface/02a_List.md)   
+[!!User interface Product list](../UserInterface/02a_List.md)
 [!!User interface Warehouse](../../RetailSuiteWarehousing/UserInterface/00_UserInterface.md)
 [!!Data type list](../../Datahub/UserInterface/04_DataTypeList.md)
 

@@ -1495,16 +1495,16 @@ The list displays all created offers to this product. All fields are read-only.
 
 - *Status*    
   Click the drop-down list to select the connection status. The following options are available:    
-  - **This drop-down list is only displayed if**: The offer is active. It is displayed on the marketplace and can be sold there.
+  - **Active**: The offer is active. It is displayed on the marketplace and can be sold there.
   - **Inactive**: The offer is inactive. It is not displayed on the marketplace and cannot be sold there.   
   - **Offline**: The offer is unknown to the marketplace and therefore cannot be sold there.
 
 
 - Select the appropriate change tracking mode. The following options are available:   
-   ![Radionbutton](../../Assets/Icons/Radiobutton.png "[Radiobutton]") *manual*: Changes in a PIM product must be triggered manually to be applied to the offer. The initial offer is automatically applied.   
-   ![Radionbutton](../../Assets/Icons/Radiobutton.png "[Radiobutton]") *semi-automatic*: Changes in a PIM product are automatically applied to the offer after confirmation in the *Omni-Channel* module. The initial offer is automatically applied without confirmation.   
-   ![Radionbutton](../../Assets/Icons/Radiobutton.png "[Radiobutton]") *semi-automatic, changes must be confirmed by another user*: Changes in a PIM product are automatically applied to the offer after confirmation in the *Omni-Channel* module by another user. The initial offer is only applied after confirmation by another user.    
-   ![Radionbutton](../../Assets/Icons/Radiobutton.png "[Radiobutton]") *automatic*: Changes in a PIM product are automatically applied to the offer. The initial offer is also automatically applied.
+  - ![Radionbutton](../../Assets/Icons/Radiobutton.png "[Radiobutton]") *manual*: Changes in a PIM product must be triggered manually to be applied to the offer. The initial offer is automatically applied.   
+  - ![Radionbutton](../../Assets/Icons/Radiobutton.png "[Radiobutton]") *semi-automatic*: Changes in a PIM product are automatically applied to the offer after confirmation in the *Omni-Channel* module. The initial offer is automatically applied without confirmation.   
+  - ![Radionbutton](../../Assets/Icons/Radiobutton.png "[Radiobutton]") *semi-automatic, changes must be confirmed by another user*: Changes in a PIM product are automatically applied to the offer after confirmation in the *Omni-Channel* module by another user. The initial offer is only applied after confirmation by another user.    
+  - ![Radionbutton](../../Assets/Icons/Radiobutton.png "[Radiobutton]") *automatic*: Changes in a PIM product are automatically applied to the offer. The initial offer is also automatically applied.
 
 
 **Select connections**
