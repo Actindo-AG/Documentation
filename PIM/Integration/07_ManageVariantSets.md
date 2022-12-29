@@ -9,7 +9,7 @@ You can create a variant set for a product. A variant is a special characteristi
 
 ## Create a variant set
 
-Create a variant set to be able to create variants to products. A variant set is always assigned to a certain attribute set. When a variant set is created to an attribute set, you can create variants to all products with this attribute set. You must assign at least one defining attribute to a variant set. Further, you can assign more defining as well as changeable attributes.   
+Create a variant set to be able to create variants to products. A variant set is always assigned to a certain attribute set. When a variant set is created to an attribute set, you can create variants to all products with this attribute set. You must assign at least one defining attribute to a variant set. Moreover, you can assign further defining and changeable attributes.   
 
 ### Define the variant set basic data
 
@@ -55,7 +55,7 @@ An attribute set has been created, see [Create an attribute set](./02_ManageAttr
 
 ### Add defining attributes
 
-You have to select at least one defining attribute to create a variant set. You can only select attributes as defining attributes, that are neither multilingual nor multi-channel and that are assigned to the selected attribute set.
+You have to select at least one defining attribute to create a variant set. You can only select attributes as defining attributes that are neither multi-language nor multi-channel and that are assigned to the selected attribute set.
 
 #### Prerequisites
 
@@ -181,7 +181,7 @@ A variant set has been created, see [Create a variant set](#create-a-variant-set
 2. Select the checkboxes of the attributes you want to remove either in the *Defining attributes* or the *Changeable attributes* box.     
   The [DELETE] button is displayed in the editing toolbar above the attribute list.
 
-3. Click the [DELETE] button in the toolbar.   
+3. Click the [DELETE] button in the editing toolbar.   
   The attribute is removed from the list.
 
 4. Click the [SAVE] button in the upper right corner.   

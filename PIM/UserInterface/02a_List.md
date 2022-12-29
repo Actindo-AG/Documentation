@@ -558,7 +558,7 @@ The list displays all products. All fields are read-only.
 
 - *Status*   
   Click the drop-down list to change the offer status. The selected status is displayed in the *Pending status/Errors* column. This drop-down list is only displayed if the checkbox of at least one offer is selected. The following options are available:
-  - **This drop-down list is only displayed if**      
+  - **Active**      
     The offer is active. It is displayed in the selected connection and can be sold there.   
   - **Inactive**   
     The offer is inactive. It is not displayed in the selected connection and cannot be sold there.   
@@ -604,13 +604,13 @@ The list displays all created offers to this product. All fields are read-only.
   Selected connection for the offer.
 
 - *Attribute set*   
-  Selected attribute set for the offer.
+  Attribute set assigned to the offer.
 
 - *Last edited on*   
   Date and time of the last modification. In the *Create product* view, no date is displayed.
 
 - *Modified by*   
-  Name and username of the user who modified the product. In the *Create product* view, no name is displayed.
+  Name and username of the user who modified the offer. In the *Create product* view, no name is displayed.
 
 
 - *Change tracking mode*   
@@ -628,7 +628,7 @@ The list displays all created offers to this product. All fields are read-only.
   Date and time of the creation. In the *Create product* view, no date is displayed.
 
 - *Created by*   
-  Name and username of the user who created the product. In the *Create product* view, no name is displayed.
+  Name and username of the user who created the offer. In the *Create product* view, no name is displayed.
 
 - ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add)   
   Click this button to create a new offer. The [Add to a single connection ![Add to a single connection](../../Assets/Icons/Document.png "[Single connection]") ] button and the [Add to multiple connections ![Multiple connections](../../Assets/Icons/Documents.png "[Multiple connections]") ] button are displayed.
@@ -659,7 +659,7 @@ The list displays all created offers to this product. All fields are read-only.
 **Create offer**
 
 - *Select connection*   
-  Click the drop-down list to select a connection for the offer. All available connections are displayed in the list.
+  Click the drop-down list to select a connection for the offer. All available connections are displayed in the list. Once a connection has been selected, the *Select attribute set* drop-down list is unlocked.
 
 - *Attribute set*   
   Click the drop-down list to select an attribute set for the offer. All active attribute sets are displayed in the drop-down list. The drop-down list is locked if no connection is selected.
@@ -1512,7 +1512,7 @@ The list displays all created offers to this product. All fields are read-only.
 - [SELECT ALL]   
   Click this button to select all available connections.
 
-- ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") "Connection name"     
+- ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *"Connection name"*     
   Enable a toggle to select the corresponding connection to create an offer to. All available connections are displayed. By default, all toggles are disabled.
 
 - [CANCEL]   
