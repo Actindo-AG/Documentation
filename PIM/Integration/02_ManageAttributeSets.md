@@ -61,7 +61,7 @@ In exchange, you can define individually which attributes are required and custo
 
 #### Prerequisites
 
-The basic data of the attribute set has been completed, see [Define the attribute set basic data](#define-the-attribute-set-basic-data)
+The basic data of the attribute set has been completed, see [Define the attribute set basic data](#define-the-attribute-set-basic-data).
 
 #### Procedure
 
@@ -90,7 +90,7 @@ Each time a change is made in the inheritance attribute set, the linked attribut
 
 #### Prerequisites
 
-The basic data of the attribute set has been completed, see [Define the attribute set basic data](#define-the-attribute-set-basic-data)
+The basic data of the attribute set has been completed, see [Define the attribute set basic data](#define-the-attribute-set-basic-data).
 
 #### Procedure
 
@@ -121,7 +121,7 @@ Further changes in the copied attribute set are not affecting the created attrib
 
 #### Prerequisites
 
-The basic data of the attribute set has been completed, see [Define the attribute set basic data](#define-the-attribute-set-basic-data)
+The basic data of the attribute set has been completed, see [Define the attribute set basic data](#define-the-attribute-set-basic-data).
 
 #### Procedure
 

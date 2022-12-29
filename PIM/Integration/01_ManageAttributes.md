@@ -210,7 +210,7 @@ At least one attribute has been created, see [Create an attribute](#create-an-at
 3. Click the [CONFIRM] button in the bottom right corner.   
   The attribute has been deleted and moved to the *DELETED ATTRIBUTES* tab in the *DataHub* module. The *Confirm deletion of attribute?* window is closed.
 
-  > [Warning] Be aware that problems may occur if you delete an attribute with existing dependencies.
+  > [Caution] Be aware that problems may occur if you delete an attribute with existing dependencies.
 
 > [Info] The attribute is deleted in the PIM product and moved to the *DELETED ATTRIBUTES* tab in the *DataHub* module, but it can still be recovered. To permanently delete the attribute, see [Permanently delete an attribute](#permanently-delete-an-attribute).
 

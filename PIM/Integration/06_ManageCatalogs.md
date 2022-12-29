@@ -221,7 +221,7 @@ Delete a category that is no longer needed. If you delete a category containing 
 5. Click the ![Delete](../../Assets/Icons/Trash01.png "[Delete]") (Delete) button in the bottom left corner of the category data window.    
   The selected category has been removed from the category column. The category data window is closed.
 
-  > [Warning] Make sure that no product is assigned to the category that will be deleted as problems may occur to products that are still assigned to a deleted category.
+  > [Caution] Make sure that no product is assigned to the category that will be deleted as problems may occur to products that are still assigned to a deleted category.
 
 6. Click the [SAVE] button in the upper right corner.  
   The category has been deleted. The *Edit category* view is closed.
