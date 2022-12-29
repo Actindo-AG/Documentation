@@ -23,7 +23,7 @@ No prerequisites to fulfill.
 
 1. Enable the *Active* toggle in the row of the channel you want to activate in the *PIM* module.
 
-  > [Info] At least one channel has to be activated.
+    > [Info] At least one channel has to be activated.
 
 2. Press the **F5** key to initialize the *Core1 Platform*.   
   The selected channel has been activated in the *PIM* module.

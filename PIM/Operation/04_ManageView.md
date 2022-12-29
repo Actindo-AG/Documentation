@@ -31,12 +31,12 @@ At least two languages have been created and activated in the *PIM* module, see 
 1. Click the *Language* drop-down list in the left column.  
   All languages that are activated in the *PIM* module are displayed in the list.   
 
-  > [Info] For detailed information about activating a language in the *PIM* module, see [Configure the language settings](../Integration/04_ConfigureLanguages.md).
+    > [Info] For detailed information about activating a language in the *PIM* module, see [Configure the language settings](../Integration/04_ConfigureLanguages.md).
 
 2. Select the desired language in the *Language* drop-down list.   
   The multi-language values in the columns have been changed to the values in the selected language. All single language values remain unchanged.
 
-  > [Info] If a product has no attribute value defined in the selected language, the value in the corresponding columns remains blank.
+    > [Info] If a product has no attribute value defined in the selected language, the value in the corresponding columns remains blank.
 
 
 
@@ -59,12 +59,12 @@ At least two channels have been created and activated in the *PIM* module, see [
 1. Click the *Channel* drop-down list in the left column.  
   All channels that are activated in the *PIM* module are displayed in the list.   
 
-  > [Info] For detailed information about activating a channel in the *PIM* module, see [Configure the channel settings](../Integration/05_ConfigureChannels.md).
+   > [Info] For detailed information about activating a channel in the *PIM* module, see [Configure the channel settings](../Integration/05_ConfigureChannels.md).
 
 2. Select the desired channel in the *Channel* drop-down list.   
   The multi-channel values in the columns have been changed to the values in the selected channel. All single channel values remain unchanged.
 
-  > [Info]  If a product has no attribute value defined in the selected channel, the value in the corresponding column remains blank.
+   > [Info]  If a product has no attribute value defined in the selected channel, the value in the corresponding column remains blank.
 
 
 
@@ -87,7 +87,7 @@ You can select a product category to limit the number of products to those assig
 1. Click the *Catalog* drop-down list in the left column.  
   All available catalogs are displayed in the list.   
 
-  > [Info] For detailed information about creating a catalog or categories, see [Manage the catalogs](../Integration/06_ManageCatalogs.md).
+    > [Info] For detailed information about creating a catalog or categories, see [Manage the catalogs](../Integration/06_ManageCatalogs.md).
 
 2. Select the desired catalog in the *Catalog* drop-down list.      
   All corresponding categories and sub-categories are displayed below the selected catalog.
@@ -97,7 +97,7 @@ You can select a product category to limit the number of products to those assig
 
   ![Select category](../../Assets/Screenshots/PIM/Products/List/SelectCategory.png "[Select category]")
 
-  > [Info] When you create a product, it will be automatically assigned to the currently selected category.
+   > [Info] When you create a product, it will be automatically assigned to the currently selected category.
 
 
 
@@ -116,8 +116,8 @@ No prerequisites to fulfill.
 
 1. Click the *Variants* drop-down list at the top of the product list.   
   The options below are displayed:
-  - **All products**: All products and their variants are displayed in the product list.   
-  - **Hide variants**: No variants are displayed in the product list.
+    - **All products**: All products and their variants are displayed in the product list.   
+    - **Hide variants**: No variants are displayed in the product list.
 
 
 2. Select the desired variant view in the *Variants* drop-down list.
@@ -142,26 +142,26 @@ No prerequisites to fulfill.
 ![Product list](../../Assets/Screenshots/PIM/Products/List/Products.png "[Product list]")
 
 1. Select the desired settings for the view you want to save:
-  + Click the *Language* drop-down list and select the desired language.
-  + Click the *Channel* drop-down list and select the desired channel.
-  + Click the *Catalog* drop-down list and select the desired catalog and category.
-  + Click the *Variants* drop-down list and select the desired variant view.   
+    + Click the *Language* drop-down list and select the desired language.
+    + Click the *Channel* drop-down list and select the desired channel.
+    + Click the *Catalog* drop-down list and select the desired catalog and category.
+    + Click the *Variants* drop-down list and select the desired variant view.   
 
 
 2. If desired, adjust the displayed columns in the product list by following the steps below:
-  + Click the [ ![Columns](../../Assets/Icons/Columns.png "[Columns]") Columns (x)] button.   
-  + Click the *Column* drop-down list, select a column in the list and click the [ADD COLUMN] button to add the column to the columns displayed in the product list.
-  + Click the ![Remove](../../Assets/Icons/Cross03.png "[Remove]") (Remove) button next to a column name to remove the corresponding column from the product list.
-  + Click and hold a column name and move the selected column to the desired position by using drag and drop. The number left to the column name displays the position number of the column in the product list.
-  + Click the [APPLY] button to apply the changes.
+    + Click the [ ![Columns](../../Assets/Icons/Columns.png "[Columns]") Columns (x)] button.   
+    + Click the *Column* drop-down list, select a column in the list and click the [ADD COLUMN] button to add the column to the columns displayed in the product list.
+    + Click the ![Remove](../../Assets/Icons/Cross03.png "[Remove]") (Remove) button next to a column name to remove the corresponding column from the product list.
+    + Click and hold a column name and move the selected column to the desired position by using drag and drop. The number left to the column name displays the position number of the column in the product list.
+    + Click the [APPLY] button to apply the changes.
 
 
 3. If desired, add a filter to the product list by following the steps below:
-  + Click the [ ![Filter](../../Assets/Icons/Filter.png "[Filter]") Filter (x)] button.   
-  + Click the *Column* drop-down list and select a column to which you want to add a filter.
-  + Click the *Relation* drop-down list and select a filter relation. Depending on the selected column, the filter relations vary.
-  + Click the *Value* drop-down list and enter a value for the filter.
-  + Click the [ADD FILTER] button to apply the filter.
+    + Click the [ ![Filter](../../Assets/Icons/Filter.png "[Filter]") Filter (x)] button.   
+    + Click the *Column* drop-down list and select a column to which you want to add a filter.
+    + Click the *Relation* drop-down list and select a filter relation. Depending on the selected column, the filter relations vary.
+    + Click the *Value* drop-down list and enter a value for the filter.
+    + Click the [ADD FILTER] button to apply the filter.
 
 
 4. Click the ![Points](../../Assets/Icons/Points01.png "[Points]") (Points) button next to the *View* drop-down list.   
@@ -169,7 +169,7 @@ No prerequisites to fulfill.
 
   ![View context menu](../../Assets/Screenshots/PIM/Products/List/ViewContextMenu.png "[View context menu]")
 
-  > [Info] If no view is selected when clicking the ![Points](../../Assets/Icons/Points01.png "[Points]") (Points) button, only the *+ create* menu entry is displayed in the context menu.
+   > [Info] If no view is selected when clicking the ![Points](../../Assets/Icons/Points01.png "[Points]") (Points) button, only the *+ create* menu entry is displayed in the context menu.
 
 5. Click the *+ create* menu entry in the context menu.   
   The *Create view* window is displayed.
@@ -181,4 +181,4 @@ No prerequisites to fulfill.
 7. Click the [SAVE] button.   
   The view has been saved and preselected in the *View* drop-down list.
 
-> [Info] To change the view, click the *View* drop-down list and select the view you want to display. The view will change depending on the saved settings.
+  > [Info] To change the view, click the *View* drop-down list and select the view you want to display. The view will change depending on the saved settings.

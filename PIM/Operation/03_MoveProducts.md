@@ -33,7 +33,7 @@ At least one product has been created, see [Create a product](./01_ManageProduct
 
   The selected products have been archived.
 
-  > [Info] You find the archived products in the *ARCHIVE* tab where you can either restore or delete them.
+   > [Info] You find the archived products in the *ARCHIVE* tab where you can either restore or delete them.
 
 
 
@@ -64,7 +64,7 @@ At least one product has been created, see [Create a product](./01_ManageProduct
 
   The selected products have been moved to the recycle bin.
 
-  > [Info] You find the deleted products in the *RECYCLE BIN* tab where you can either restore or permanently delete them.
+   > [Info] You find the deleted products in the *RECYCLE BIN* tab where you can either restore or permanently delete them.
 
 
 
@@ -92,7 +92,7 @@ At least one product has been moved to the recycle bin, see [Delete a product](#
 
   The selected products have been permanently deleted.
 
-  > [Info] If the deletion is not possible, the *Products deleted* pop-up window indicates an error for the number of products that cannot be deleted. An error message with further information is displayed in the notifications.
+   > [Info] If the deletion is not possible, the *Products deleted* pop-up window indicates an error for the number of products that cannot be deleted. An error message with further information is displayed in the notifications.
 
   ![Product deleted error](../../Assets/Screenshots/PIM/Products/List/ProductDeletedError.png "[Product deleted error]")
 
@@ -125,4 +125,4 @@ At least one product has been moved to the archive or the recycle bin, see [Arch
 
   The selected products have been restored.
 
-  > [Info] You find the restored products in the *LIST* tab.
+    > [Info] You find the restored products in the *LIST* tab.

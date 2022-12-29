@@ -52,9 +52,9 @@ Additional attributes for the attribute group have been created, see [Create an 
 
   ![Attribute group created](../../Assets/Screenshots/PIM/Settings/AttributeGroups/AttributeGroupCreated.png "[Attribute group created]")
 
-  > [Info] If you want to change the order of the attribute groups in the list, see [Change the order of attribute groups](#change-the-order-of-attribute-groups).
+    > [Info] If you want to change the order of the attribute groups in the list, see [Change the order of attribute groups](#change-the-order-of-attribute-groups).
 
-7. Click the [SAVE] button in the upper right corner.  
+7. Click the [SAVE] button in the upper right corner.   
   The new attribute group has been saved. The *Edit attribute groups* view is closed.
 
 
@@ -111,12 +111,12 @@ At least one attribute group has been created, see [Create an attribute group](#
 
   ![Attribute sub-group created](../../Assets/Screenshots/PIM/Settings/AttributeGroups/AttributeSubGroupCreated.png "[Attribute sub-group created]")
 
-  > [Info] If you want to change the order of the attribute sub-groups in the list, see [Change the order of attribute groups](#change-the-order-of-attribute-groups).
+    > [Info] If you want to change the order of the attribute sub-groups in the list, see [Change the order of attribute groups](#change-the-order-of-attribute-groups).
 
-8. Click the [SAVE] button in the upper right corner.  
+8. Click the [SAVE] button in the upper right corner.   
   The new attribute sub-group has been saved. The *Edit attribute groups* view is closed.
 
-  > [Info] Note that if the attribute group already contained attributes, these attributes are automatically moved to first sub-group.
+    > [Info] Note that if the attribute group already contained attributes, these attributes are automatically moved to first sub-group.
 
 
 
@@ -141,7 +141,7 @@ At least two attribute groups have been created, see [Create an attribute group]
 1. Click the ![Edit](../../Assets/Icons/Edit02.png "[Edit]") (Edit) button to the right of the *Attribute groups* section in the left column.   
   The *Edit attribute groups* view is displayed.
 
-  ![Edit attribute groups](../../Assets/Screenshots/PIM/Settings/AttributeGroups/EditAttributeGroups.png "[Edit attribute groups]")
+ ![Edit attribute groups](../../Assets/Screenshots/PIM/Settings/AttributeGroups/EditAttributeGroups.png "[Edit attribute groups]")
 
 2. Click and hold the ![Sort](../../Assets/Icons/Sort01.png "[Sort]") (Sort) button to the left of the attribute group you want to move to another position in the list.
 
@@ -214,7 +214,7 @@ If you add an attribute to an attribute group that is already added to another g
 1. Click the attribute group or sub-group to which you want to add an attribute.   
   The selected attribute group is highlighted. The attributes assigned to the group are displayed on the right side.
 
-  > [Info] If an attribute group has at least one attribute sub-group, you can only add an attribute to the sub-group.
+   > [Info] If an attribute group has at least one attribute sub-group, you can only add an attribute to the sub-group.
 
   ![Group attributes](../../Assets/Screenshots/PIM/Settings/AttributeGroups/GroupAttributes.png "[Group attributes]")
 
@@ -226,12 +226,12 @@ If you add an attribute to an attribute group that is already added to another g
 3. Select the checkboxes of the attributes you want to add to the selected attribute group.   
   The editing toolbar is displayed above the list.
 
-  > [Info] Enable the *Only Unassigned Attributes* toggle above the list to hide all attributes that are already assigned to an attribute group.
+    > [Info] Enable the *Only Unassigned Attributes* toggle above the list to hide all attributes that are already assigned to an attribute group.
 
 4. Click the [ADD] button in the editing toolbar.
   The *Add attributes to attribute group* view is closed. The selected attributes have been added to the attribute group.
 
-  > [Info] The new attributes are always added at the end of the attribute list. If you want to change the position of an attribute in the list, see [Change the order of attributes within a group](#change-the-order-of-attributes-within-a-group).
+    > [Info] The new attributes are always added at the end of the attribute list. If you want to change the position of an attribute in the list, see [Change the order of attributes within a group](#change-the-order-of-attributes-within-a-group).
 
 
 
@@ -267,7 +267,7 @@ Just select the attribute sub-group instead of the group and follow the steps de
 
 4. Move the selected attribute to the desired position in the list by using drag and drop.
 
-  > [Info] Repeat the steps **3** and **4** for all attributes whose position in the list you want to change.
+    > [Info] Repeat the steps **3** and **4** for all attributes whose position in the list you want to change.
 
 5. Click the [SAVE] button in the upper right corner.
   The new order of attributes within the selected attribute group has been saved. The *Assigned attributes (Sorting mode)* view is closed.

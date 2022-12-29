@@ -47,7 +47,7 @@ No prerequisites to fulfill.
 
 8. Click the respective product in the list of products, select the *Attributes* tab in the *Edit product* view and retry to edit the floating point number in the corresponding attribute field as desired.
 
-  > [Info] If the number of decimals is still limited, please contact the Customer Support.    
+    > [Info] If the number of decimals is still limited, please contact the Customer Support.    
 
 
 

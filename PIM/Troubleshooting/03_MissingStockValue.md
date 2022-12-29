@@ -50,7 +50,7 @@ No prerequisites to fulfill.
 
 8. Switch to the *Attributes* tab and check if the stock value is displayed.
 
-  > [Info] If the stock value is still missing, please contact the Customer Support.    
+   > [Info] If the stock value is still missing, please contact the Customer Support.    
 
 
 

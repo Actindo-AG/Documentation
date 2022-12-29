@@ -35,7 +35,7 @@ A variant set has been created to the attribute set of the product you want to a
 
 3. Enter a SKU for the product in the *SKU* field.
 
-  > [Info] The SKU (Stock Keeping Unit) is an identification number for the product. Therefore, it should be unique within the *PIM* module.
+   > [Info] The SKU (Stock Keeping Unit) is an identification number for the product. Therefore, it should be unique within the *PIM* module.
 
 4. Click the [CREATE] button.   
   The *Create product* view is displayed. The *Attributes* tab is preselected.
@@ -44,7 +44,7 @@ A variant set has been created to the attribute set of the product you want to a
 
 5. Enter the data for the product in the *Attributes* tab. It is recommended to complete at least the *Product name*, *Price* and *Tax class* fields.   
 
-  > [Info] All fields marked with the note *(required)* are used for the completeness calculation of product attributes. When editing a product, you can enable the *Show empty required attributes only* toggle to display only the incomplete required attribute fields for the selected product.
+    > [Info] All fields marked with the note *(required)* are used for the completeness calculation of product attributes. When editing a product, you can enable the *Show empty required attributes only* toggle to display only the incomplete required attribute fields for the selected product.
 
 6. Click the *Variants* tab.   
   The *Variants* tab is displayed.
@@ -55,11 +55,11 @@ A variant set has been created to the attribute set of the product you want to a
   A single ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) button is displayed in each variants  box.
 
 8. Click the ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) button in the variants box.   
-The [Add single variant ![Add single variant](../../Assets/Icons/Document.png "[Add single variant]") ] button and the [Add multiple variants ![Add multiple variants](../../Assets/Icons/Documents.png "[Add multiple variants]") ] button are displayed.
+  The [Add single variant ![Add single variant](../../Assets/Icons/Document.png "[Add single variant]") ] button and the [Add multiple variants ![Add multiple variants](../../Assets/Icons/Documents.png "[Add multiple variants]") ] button are displayed.
 
 9. Follow one of the described procedures:
-  - To create a single variant to the product, see [Create a single variant](#create-a-single-variant).
-  - To create multiple variants to the product, see [Create multiple variants](#create-multiple-variants).
+    - To create a single variant to the product, see [Create a single variant](#create-a-single-variant).
+    - To create multiple variants to the product, see [Create multiple variants](#create-multiple-variants).
 
 
 ### Create a single variant
@@ -122,12 +122,12 @@ A variant set has been created to the attribute set of the product you want to a
 3. Click the [ADD VALUE] button in the upper right corner of the box to add a further variant with another value.   
   A further row is displayed in the box.
 
-  > [Info] If you want to add a variant for each existing value, click the [ADD ALL VALUES] button in the box. This button is only available for certain attributes.
+    > [Info] If you want to add a variant for each existing value, click the [ADD ALL VALUES] button in the box. This button is only available for certain attributes.
 
 4. Select a value for the attribute in the new row.
   The selected attribute value is displayed in the box.
 
-  > [Info] Repeat the steps **3** and **4** to add further variants.
+    > [Info] Repeat the steps **3** and **4** to add further variants.
 
 5. Click the [NEXT] button in the bottom right corner of the window.   
   The *Summary* wizard window is displayed.
@@ -136,7 +136,7 @@ A variant set has been created to the attribute set of the product you want to a
 
 6. Check if all variants listed in the *Variants that will be created (ignoring duplicated)* box are correct.
 
-  > [Info] To remove a variant from the list, select the checkbox of the variant and click the ![Delete](../../Assets/Icons/Trash03.png "[Delete]") (Delete) button in the editing toolbar displayed above the list.
+   > [Info] To remove a variant from the list, select the checkbox of the variant and click the ![Delete](../../Assets/Icons/Trash03.png "[Delete]") (Delete) button in the editing toolbar displayed above the list.
 
 7. Click the [FINISH] button in the bottom right corner.   
   The new variants have been added to the product. The *Summary* wizard window is closed. The variants are displayed in the variants list.
@@ -146,7 +146,7 @@ A variant set has been created to the attribute set of the product you want to a
 8. Click the [SAVE] button in the upper right corner.   
   The variants have been saved. The product view is closed. The variants are displayed in the product list when you enable the **All products** option in the *Variants* drop-down list at the top of the product list.
 
-  > [Info] For detailed information about the different views, see [Manage the view](./04_ManageView.md).
+    > [Info] For detailed information about the different views, see [Manage the view](./04_ManageView.md).
 
 
 
@@ -177,14 +177,14 @@ You can add a single or multiple variants to an existing product.
 
 3. Click the *Variant set* drop-down list and select a variant set. All active variant sets to the corresponding attribute set of the product are displayed in the list.
 
-  > [Info] If the selected master product has already one ore more variants, the variant set is selected and read-only. It cannot be edited subsequently.
+    > [Info] If the selected master product has already one ore more variants, the variant set is selected and read-only. It cannot be edited subsequently.
 
 4. Click the ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) button in the variants box.   
   The [Add single variant ![Add single variant](../../Assets/Icons/Document.png "[Add single variant]") ] button and the [Add multiple variants ![Add multiple variants](../../Assets/Icons/Documents.png "[Add multiple variants]") ] button are displayed.
 
 5. Follow one of the described procedures:
-  - To add a single variant to the product, see [Create a single variant](#create-a-single-variant).
-  - To add multiple variants to the product, see [Create multiple variants](#create-multiple-variants).
+    - To add a single variant to the product, see [Create a single variant](#create-a-single-variant).
+    - To add multiple variants to the product, see [Create multiple variants](#create-multiple-variants).
 
 
 
@@ -214,7 +214,7 @@ At least one variant has been created, see [Create variants](#create-variants) o
 
 3. Go to the attributes that are not defined by the master product and edit the desired data of the variant.
 
-  > [Info] Note that changes of the defining attributes are also applied to the variant settings of the master product. Especially if you are using a SKU with the defining attribute values as a placeholder, it is not recommended to modify a defining attribute value.
+   > [Info] Note that changes of the defining attributes are also applied to the variant settings of the master product. Especially if you are using a SKU with the defining attribute values as a placeholder, it is not recommended to modify a defining attribute value.
 
 4. Click the [SAVE] button in the upper right corner.   
   The changes have been saved. The *Edit product* view is closed.
