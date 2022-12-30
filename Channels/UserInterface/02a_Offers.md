@@ -132,7 +132,9 @@ The list displays all available offers. All fields are read-only. Depending on t
 - *ID*  
   Offer identification number. The ID number is automatically assigned by the system after creation.
 
-
+- Attribute    
+  You can add a column for each attribute that is assigned to the offer. The column displays the attribute name, the row displays the corresponding attribute value of the offer.
+  
 - ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add)           
   Click this button to add an offer. The [Manual offer ![Document](../../Assets/Icons/Document.png "[Document]") ] button and the [Create from PIM product ![Documents](../../Assets/Icons/Documents.png "[Documents]") ] button are displayed. For detailed information, see [Add offer](#add-offer).
 

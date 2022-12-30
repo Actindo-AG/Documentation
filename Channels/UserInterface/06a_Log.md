@@ -150,8 +150,6 @@ The list displays all messages contained in the selected intent. Depending on th
 - *Created by*  
   Name and username of the user who created the intent.
 
-[comment]: <> (Or who created/generated the log message?)
-
 - *Message*  
   Details of the log message.
 
@@ -159,17 +157,17 @@ The list displays all messages contained in the selected intent. Depending on th
   Log message identification number. The ID number is automatically assigned by the system.
 
 
-### Detail of log message "Log message name"
+### Detail of log message "Log message title"
 
 *Omni-Channel > Logging > Tab LOG > Select an intent > Select a log message*
 
 ![List of messages](../../Assets/Screenshots/Channels/Logging/DetailLogMessageAttributes.png "[List of messages]")
 
 - ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)   
-  Click this button to close the *Detail of log message "Log message name"* view and return to the list of messages.
+  Click this button to close the *Detail of log message "Log message title"* view and return to the list of messages.
 
 - [CANCEL]  
-  Click this button to close the *Detail of log message "Log message name"* view and return to the list of messages.
+  Click this button to close the *Detail of log message "Log message title"* view and return to the list of messages.
 
 [comment]: <> (Beide tun praktisch das gleiche)
 
@@ -181,8 +179,13 @@ The list displays all messages contained in the selected intent. Depending on th
 
 [comment]: <> (Hier Info wiederholt sich. Report als Bug?)
 
+This view can also be accessed from the following tabs in the user interface:
+- [ERRORS](./03b_Errors.md#detail-of-log-message-log-message-title)
+- [OFFER IMPORT](./04a_OfferImport.md#detail-of-log-message-log-message-title)
+- [ERRORS](./05c_Errors.md#detail-of-log-message-log-message-title)
 
-### Detail of log message "Log message name" &ndash; Attributes
+
+### Detail of log message "Log message title" &ndash; Attributes
 
 *Omni-Channel > Logging > Tab LOG > Select an intent > Select a log message > Tab Attributes*
 
@@ -212,7 +215,7 @@ By default, the following fields are displayed:
 
 [comment]: <> (Further info needed)
 
-### Detail of log message "Log message name" &ndash; Dependencies
+### Detail of log message "Log message title" &ndash; Dependencies
 
 *Omni-Channel > Logging > Tab LOG > Select an intent > Select a log message > Tab Dependencies*
 

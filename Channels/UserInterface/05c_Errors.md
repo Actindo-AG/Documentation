@@ -28,7 +28,7 @@
   Select the checkbox to display the editing toolbar. If you click the checkbox in the header, all orders in the list are selected.
 
 - [SHOW LOG]  
-  Click this button to display the details of the log message. This button is only displayed if a single checkbox in the list of errors is selected. The [ Detail of log message "Log message name"](#detail-of-log-message-log-message-name) is displayed.
+  Click this button to display the details of the log message. This button is only displayed if a single checkbox in the list of errors is selected. The [Detail of log message "Log message title"](#detail-of-log-message-log-message-name) is displayed.
 
 - [VIEW ORDER]  
   Click this button to display the order details in the *ORDERS* tab. This button is only displayed if a single checkbox in the list of errors is selected. The [Order from connection "Connection name"](./05a_Orders.md#order-from-connection-connection-name) is displayed.
@@ -85,7 +85,7 @@ The list displays all errors available. All fields are read-only. Depending on t
     Name and username of the user who created the error.
 
 
-## Detail of log message "Log message name"
+## Detail of log message "Log message title"
 
 *Omni-Channel > Orders and returns > Tab ERRORS > Select an error*
 
@@ -93,10 +93,10 @@ The list displays all errors available. All fields are read-only. Depending on t
 
 
 - ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)   
-  Click this button to close the *Detail of log message "Log message name"* view and return to the list of errors.
+  Click this button to close the *Detail of log message "Log message title"* view and return to the list of errors.
 
 - [CANCEL]  
-  Click this button to close the *Detail of log message "Log message name"* view and return to the list of errors.
+  Click this button to close the *Detail of log message "Log message title"* view and return to the list of errors.
 
 [comment]: <> (Beide tun praktisch das gleiche)
 
@@ -109,7 +109,7 @@ The list displays all errors available. All fields are read-only. Depending on t
 [comment]: <> (Hier Info wiederholt sich. Report als Bug?)
 
 
-### Detail of log message "Log message name" &ndash; Attributes
+### Detail of log message "Log message title" &ndash; Attributes
 
 *Omni-Channel > Orders and returns > Tab ERRORS > Select an error > Tab Attributes*
 
@@ -139,7 +139,7 @@ By default, the following fields are displayed:
 
 [comment]: <> (Further info needed)
 
-### Detail of log message "Log message name" &ndash; Dependencies
+### Detail of log message "Log message title" &ndash; Dependencies
 
 *Omni-Channel > Orders and returns > Tab ERRORS > Select an error > Tab Dependencies*
 

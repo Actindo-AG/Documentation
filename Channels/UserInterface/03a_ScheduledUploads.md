@@ -2,6 +2,8 @@
 
 # Scheduled uploads
 
+*Omni-Channel > Offer upload > Tab SCHEDULED UPLOADS*
+
 ![Scheduled uploads](../../Assets/Screenshots/Channels/OfferUpload/ScheduledUploads/ScheduledUploads.png "[Scheduled uploads]")
 
 **Scheduled Exports**

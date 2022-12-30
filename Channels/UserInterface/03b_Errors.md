@@ -4,6 +4,8 @@
 
 # Errors
 
+*Omni-Channel > Offer upload > Tab ERRORS*
+
 ![Errors](../../Assets/Screenshots/Channels/OfferUpload/Errors/ExportErrors.png "[Errors]")
 
 **Export errors**
@@ -59,22 +61,22 @@ The list displays all offer export errors. All fields are read-only. Depending o
   Assigned connection of the offer.
 
 - *Fast/Default Queue*    
-    Indication via which queue the offer was uploaded. The following options are available:
+  Indication via which queue the offer was uploaded. The following options are available:
     - **Default queue**   
-        The offer was uploaded via the default queue. This queue is selected by default.
+      The offer was uploaded via the default queue. This queue is selected by default.
     - **Fast queue**   
-        The offer was prioritized and therefore uploaded via the fast queue.
+      The offer was prioritized and therefore uploaded via the fast queue.
 
 [comment]: <> (Stimmt das?Wo wähle ich das aus/ordne ich das zu? Workflows?)
 
 - *Log Message Title*    
-    Title of the error log message.
+  Title of the error log message.
 
 - *Log Message*   
-    Complete log message to the error. Click the corresponding row of the error to display the *Detail of log message "Log message title"* view and check further details of the error.
+  Complete log message to the error. Click the corresponding row of the error to display the *Detail of log message "Log message title"* view and check further details of the error.
 
 - *Finally Failed*   
-    Indication whether the offer upload finally failed or not:
+  Indication whether the offer upload finally failed or not:
     - ![Check](../../Assets/Icons/Check.png "[Check]") (Checkmark): The offer upload finally failed.
     - ![Cross](../../Assets/Icons/Cross02.png "[Cross]") (Cross): The offer upload can be retried.
 
@@ -94,3 +96,14 @@ The list displays all offer export errors. All fields are read-only. Depending o
   Name and username of the user who modified the offer.
 
 [comment]: <> (Spaltenbeschreibung prüfen - was bezieht sich auf den Error und was auf das offer selbst?)
+
+
+## Detail of log message "Log message title"
+
+*Omni-Channel > Offer import > Tab ERRORS > Select export error*
+
+![Detail of log message](../../Assets/Screenshots/Channels/OOfferUpload/Errors/DetailLogMessage.png "[Detail of log message]")
+
+[comment]: <> (Add screenshot)
+
+For a detailed description of this view and the corresponding functions, see [LOG](./06a_Log.md#detail-of-log-message-log-message-title).
