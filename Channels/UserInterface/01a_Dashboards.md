@@ -18,7 +18,7 @@ In the *DASHBOARDS* tab, the custom tabs with composable dashlets are displayed.
 
 *Omni-Channel > Overview > Tab DASHBOARDS > Button Add*
 
-![Create new tab](../../Assets/Screenshots/Channels/Overview/CreateNewTab.png "[Create new tab]")
+![Add new tab](../../Assets/Screenshots/Channels/Overview/AddNewTab.png "[Add new tab]")
 
 **Create new tab**
 
@@ -73,16 +73,16 @@ The *Import existing tab* tab is locked. It is only available in the *Actindo Da
 
 - *Select Viewport*   
   Click the drop-down list to select the view to be applied to the tab. A different view can be selected for each tab. The drop-down list is only displayed in the *Edit tab* view. The following options are available:    
-  - **Automatic**   
-    The system automatically detects the appropriate view and applies it to the tab.
-  - **Mobile**   
-    The mobile view is applied to the tab.  
-  - **Tablet**   
-    The tablet view is applied to the tab.  
-  - **Laptop**   
-    The laptop view is applied to the tab.  
-  - **Desktop**   
-    The desktop view is applied to the tab.  
+    - **Automatic**   
+      The system automatically detects the appropriate view and applies it to the tab.
+    - **Mobile**   
+      The mobile view is applied to the tab.  
+    - **Tablet**   
+      The tablet view is applied to the tab.  
+    - **Laptop**   
+      The laptop view is applied to the tab.  
+    - **Desktop**   
+      The desktop view is applied to the tab.  
 
 
 - [ADD ELEMENT]   
@@ -109,16 +109,16 @@ The *Import existing tab* tab is locked. It is only available in the *Actindo Da
 - [x]    
   Select a checkbox to add the selected dashlet to the tab. You can select multiple checkboxes. If you click the checkbox in the header, all dashlets in the list are selected. A toolbar indicating the number of selected dashlets is displayed above the list when you have selected at least one checkbox.   
   By default, the following dashlets are available:
-  - *Channels Status*   
-    This dashlet displays the status of each connection in the *Omni-Channel* module.
-  - *Statistics by channel*   
-    This dashlet displays the statistics of each connection in the *Omni-Channel* module.
-  -	*Connector summary*   
-    This dashlet displays a summary of each connection in the *Omni-Channel* module.
-  -	*Statistics over time*   
-    This dashlet displays the statistics of each connection over time in the *Omni-Channel* module.
-  -	*Connection status*   
-    This dashlet displays the status of each connection in the *Omni-Channel* module. You can display all active or inactive connections.
+    - *Channels Status*   
+      This dashlet displays the status of each connection in the *Omni-Channel* module.
+    - *Statistics by channel*   
+      This dashlet displays the statistics of each connection in the *Omni-Channel* module.
+    -	*Connector summary*   
+      This dashlet displays a summary of each connection in the *Omni-Channel* module.
+    -	*Statistics over time*   
+      This dashlet displays the statistics of each connection over time in the *Omni-Channel* module.
+    -	*Connection status*   
+      This dashlet displays the status of each connection in the *Omni-Channel* module. You can display all active or inactive connections.
 
 [comment]: <> (Check dashlet description)
 

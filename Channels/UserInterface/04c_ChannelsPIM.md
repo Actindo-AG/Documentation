@@ -202,7 +202,7 @@ Click this button to display the filter bar and customize the active filters. Th
   Click this button to import the selected offers in the list. The *Summary* window is displayed, see [Summary](#summary-1).
 
 
-The list displays all offers to be imported. All fields are read-only. Depending on the settings, the displayed columns may vary.
+The list displays all offers to be imported. Depending on the settings, the displayed columns may vary. All fields are read-only. 
 
 - *SKU*   
   Stock Keeping Unit. Identification number of the product to the offer. 
@@ -219,9 +219,9 @@ The list displays all offers to be imported. All fields are read-only. Depending
 - *Status*  
   Status of the offer. The following options are available:  
   - **Active**   
-    The offer is active. It is displayed on the marketplace, where it can be sold.   
+    The offer is active. It is displayed in the marketplace, where it can be sold.   
   - **Inactive**   
-    The offer is inactive. It is not longer displayed on the marketplace and thus cannot be sold anymore.   
+    The offer is inactive. It is not longer displayed in the marketplace and thus cannot be sold anymore.   
   - **Not available**   
     The offer is deleted from the marketplace.   
     The *Change offer status* confirmation window is displayed. If the variant status of the selected offer equals **Master offer**, an additional toggle is displayed within the confirmation window.   

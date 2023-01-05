@@ -19,7 +19,7 @@ Before you can import an offer from our marketplace to the *Omni-Channel* module
 #### Prerequisites
 
 - A connection to a marketplace has been established, see [Create a connection](../../Integration/01_ManageConnections.md#create-a-connection).
-- At least one importable offer is on the marketplace.
+- At least one importable offer is in the marketplace.
 
 #### Procedure
 

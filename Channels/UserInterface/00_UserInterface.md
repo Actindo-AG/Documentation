@@ -39,9 +39,9 @@ In this part of the *Omni-Channel* documentation, you will find the following ch
 
 - [OFFER IMPORT](./04a_OfferImport.md)
 
-- [CHANNELS->PIM](./04b_ChannelsPIM.md)
+- [PIM->CHANNELS](./04b_PIMChannels.md)
 
-- [PIM->CHANNELS](./04c_PIMChannels.md)
+- [CHANNELS->PIM](./04c_ChannelsPIM.md)
 
 
 
@@ -65,24 +65,16 @@ In this part of the *Omni-Channel* documentation, you will find the following ch
 
 
 
-- [Feed offers](./07_FeedOffers.md)
+
+- [Settings](./07_Settings.md)
 
 
-- [FEED OFFERS](./07a_FeedOffers.md)
+- [CONNECTIONS](./07a_Connections.md)
 
-- [RECYCLE BIN](./07b_RecycleBin.md)
+- [VARIANT SETS](./07b_VariantSets.md)
 
+- [FEED CONNECTIONS](./07c_FeedConnections.md)
 
+- [LOGGING](./07d_Logging.md)
 
-- [Settings](./08_Settings.md)
-
-
-- [CONNECTIONS](./08a_Connections.md)
-
-- [VARIANT SETS](./08b_VariantSets.md)
-
-- [FEED CONNECTIONS](./08c_FeedConnections.md)
-
-- [LOGGING](./08d_Logging.md)
-
-- [HTML TEMPLATES](./08e_HTMLTemplates.md)
+- [HTML TEMPLATES](./07e_HTMLTemplates.md)

@@ -1,4 +1,4 @@
-[!!User interface Connections](../UserInterface/08a_Connections.md)
+[!!User interface Connections](../UserInterface/07a_Connections.md)
 
 # Manage the connections
 
@@ -127,6 +127,8 @@ At least one connection has been established, see [Create a connection](#create-
 
 Once a connection has been established, it cannot be deleted. Nevertheless, the connection can be disabled to prevent any further data from being synchronized via the connection.
 
+[comment]: <> (Stimmt es, dass connections nicht mehr gelöscht werden können? Warum gibt es dann einen Delete button?)
+
 #### Prerequisites
 
 - At least one connection has been established, see [Create a connection](#create-a-connection).
@@ -146,3 +148,28 @@ Once a connection has been established, it cannot be deleted. Nevertheless, the 
 
 3. Click the ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh) button in the top right corner to update the list of connections.   
   The status of the disabled connection in the *Status* column has switched to **Inactive**.
+
+
+
+## Enable a connection
+
+A connection can only be used if it is active. Otherwise, no data is being synchronized via the connection. By default, all connection that has been established are active. If a connection has been disabled, you can enable this connection again.
+
+#### Prerequisites
+
+At least one connection has been disabled, see [Disable a connection](#disable-a-connection).
+
+#### Procedure
+
+*Omni-Channel > Settings > Tab CONNECTIONS*
+
+![Connections](../../Assets/Screenshots/Channels/Settings/Connections/Connections.png "[Connections]")
+
+1. Select the checkbox of the connection you want to enable in the list of connections.   
+  The editing toolbar is enabled above the list of connections.
+
+2. Click the [ENABLE] button in the editing toolbar.   
+  The connection has been activated.
+
+3. Click the ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh) button in the top right corner to update the list of connections.   
+  The status of the enabled connection in the *Status* column has switched to **Active**.

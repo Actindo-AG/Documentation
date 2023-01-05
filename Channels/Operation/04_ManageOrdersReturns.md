@@ -5,7 +5,7 @@
 
 # Manage the orders and returns
 
-When an order is placed on the marketplace, this order must be imported into *Omni-Channel* to further process it in the *Order Management* module.   
+When an order is placed in the marketplace, this order must be imported into *Omni-Channel* to further process it in the *Order Management* module.   
 You can configure an automatic import of orders for a certain time interval, see [Configure the order import](../Integration/04_ConfigureOrdersReturns.md#configure-the-order-import). You can also manually trigger the import of orders at any time.
 
 For certain marketplaces, it is possible to announce a return. In this case, these returns can be imported to *Omni-Channel* to further process them in the *Return management* module.   
@@ -226,6 +226,6 @@ At least one order or return import or export has been failed.
 2. Click the corresponding faulty order/return export/import.   
   The *Detail of log message "Log message title"* view is displayed. By default, the *Attributes* tab is preselected.
 
-  ![Detail of log message](../../Assets/Screenshots/Channels/OrdersReturns/Errors/DetailLogMessage.png "[Detail of log message]")
+  ![Detail of log message attributes](../../Assets/Screenshots/Channels/OrdersReturns/Errors/DetailLogMessageAttributes.png "[Detail of log message attributes]")
 
 3. Check the details of the log message in the *Attributes* tab.

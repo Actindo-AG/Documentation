@@ -4,7 +4,7 @@
 
 # Configure the orders and returns
 
-When an order is placed on the marketplace, this order must be imported into *Omni-Channel* in order to further process it in the *Order Management* module.   
+When an order is placed in the marketplace, this order must be imported into *Omni-Channel* in order to further process it in the *Order Management* module.   
 To import orders and returns to *Omni-Channel*, you can configure an automatic import at a certain time interval.
 
 

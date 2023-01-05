@@ -52,7 +52,7 @@
 - ![Filter](../../Assets/Icons/Filter.png "[Filter]") Filter (x)   
 Click this button to display the filter bar and customize the active filters. The *x* indicates the number of filters that are currently active.
 
-The list displays all offer export errors. All fields are read-only. Depending on the settings, the displayed columns may vary. If no errors exists currently, the *There are no export errors for this offer* notice is displayed.
+The list displays all offer export errors. Depending on the settings, the displayed columns may vary. All fields are read-only. If no errors exists currently, the *There are no export errors for this offer* notice is displayed.
 
 - *SKU*   
   Stock Keeping Unit. Identification number for the offer.
@@ -102,7 +102,7 @@ The list displays all offer export errors. All fields are read-only. Depending o
 
 *Omni-Channel > Offer import > Tab ERRORS > Select export error*
 
-![Detail of log message](../../Assets/Screenshots/Channels/OOfferUpload/Errors/DetailLogMessage.png "[Detail of log message]")
+![Detail of log message attributes](../../Assets/Screenshots/Channels/OfferUpload/Errors/DetailLogMessageAttributes.png "[Detail of log message attributes]")
 
 [comment]: <> (Add screenshot)
 

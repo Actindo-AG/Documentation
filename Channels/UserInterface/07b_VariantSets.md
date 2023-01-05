@@ -30,7 +30,7 @@
 
 [comment]: <> (Mostly not possible to delete a variant set -> no integration procedure to delete a variant set -> why is the button still existing? Not working... )
 
-The list displays all variant sets. All fields are read-only. Depending on the settings, the displayed columns may vary.
+The list displays all variant sets. Depending on the settings, the displayed columns may vary. All fields are read-only. 
 
 - *Name*   
   Variant set name.
@@ -324,7 +324,7 @@ The list displays all changeable attributes to the variant set. All fields are r
 - [ADD AND GO BACK]   
   Click this button to add the selected attribute(s) to the variant set. This button is only displayed if the checkbox of at least one attribute is selected. The *Add defining attributes* view is closed. The defining attributes are displayed in the *Defining attributes* box.
 
-The list displays all available defining attributes. All fields are read-only. Depending on the settings, the displayed columns may vary.
+The list displays all available defining attributes. Depending on the settings, the displayed columns may vary. All fields are read-only. 
 
 - *Name*   
   Attribute name.
@@ -371,7 +371,7 @@ The list displays all available defining attributes. All fields are read-only. D
 - [ADD AND GO BACK]   
   Click this button to add the selected attribute(s) to the variant set. This button is only displayed if the checkbox of at least one attribute is selected. The *Add defining attributes* view is closed. The defining attributes are displayed in the *Changeable attributes* box.
 
-The list displays all available changeable attributes. All fields are read-only. Depending on the settings, the displayed columns may vary.
+The list displays all available changeable attributes. Depending on the settings, the displayed columns may vary. All fields are read-only. 
 
 - *Name*   
   Attribute name.

@@ -1,4 +1,4 @@
-[!!User interface Errors](../UserInterface/03b_Errors.md)
+[!!User interface Errors (Offer Upload)](../UserInterface/03b_Errors.md)
 
 # Retry a faulty offer upload
 

@@ -1,4 +1,3 @@
-
 [!!Manage the offers](../Operation/01_ManageOffers.md)
 
 # Semi automatic mapping
@@ -45,7 +44,7 @@
 
 
 - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *List changes that cannot be confirmed by you*    
-    Enable this toggle to list all offers including those that cannot be confirmed by you. Disable the toggle to list only offers that can be confirmed by you. By default, this toggle is disabled.
+  Enable this toggle to list all offers including those that cannot be confirmed by you. Disable the toggle to list only offers that can be confirmed by you. By default, this toggle is disabled.
 
 - ![Columns](../../Assets/Icons/Columns.png "[Columns]") Columns (x)   
   Click this button to display the columns bar and customize the displayed columns and the order of columns in the list. The *x* indicates the number of columns that are currently displayed in the list.
@@ -54,15 +53,15 @@
   Select the checkbox to display the editing toolbar. If you click the checkbox in the header, all offers in the list are selected.
 
 - ![Lock](../../Assets/Icons/Lock01.png "[Lock]") (Lock)   
-    Locked offers cannot be confirmed by you. These offers are greyed out and cannot be selected.
+  Locked offers cannot be confirmed by you. These offers are greyed out and cannot be selected.
     
 - [CONFIRM]    
-    Click this button to confirm the changes in the selected offer(s). The offer is uploaded with the confirmed changes and removed from the list. 
+  Click this button to confirm the changes in the selected offer(s). The offer is uploaded with the confirmed changes and removed from the list. 
 
 - [REJECT]   
-    Click this button to reject the changes in the selected offer(s). The offer is removed from the list. 
+  Click this button to reject the changes in the selected offer(s). The offer is removed from the list. 
 
-Depending on whether the *List changes that cannot be confirmed by you* drop-down list is enabled or not, the list displays all offers including those that cannot be confirmed by you or only offer that can be confirmed by you. All fields are read-only. Depending on the settings, the displayed columns may vary.
+Depending on whether the *List changes that cannot be confirmed by you* drop-down list is enabled or not, the list displays all offers including those that cannot be confirmed by you or only offer that can be confirmed by you. Depending on the settings, the displayed columns may vary. All fields are read-only. 
 
 - *SKU*      
   Stock Keeping Unit. Identification number of the product.
@@ -74,24 +73,24 @@ Depending on whether the *List changes that cannot be confirmed by you* drop-dow
   Name and username of the user who created the offer.
 
 - *Attribute*   
-    Name of the attribute that has been changed in the offer.
+  Name of the attribute that has been changed in the offer.
 
 - *Language*   
-    Language of the offer that has been changed.
+  Language of the offer that has been changed.
 
 - *Channel*   
-    Channel of the offer that has been changed.    
+  Channel of the offer that has been changed.    
 
 - *Current value*   
-    Current value of the attribute in the offer that has to be changed.
+  Current value of the attribute in the offer that has to be changed.
 
 - *New value*   
-    New value of the attribute in the offer that has to be changed.
+  New value of the attribute in the offer that has to be changed.
 
 - *ID*  
   Offer identification number. The ID number is automatically assigned by the system after creation.
 
 - *Cannot be confirmed by user*   
-    Indication whether the offer can be confirmed by the current user or not:
-    - ![Check](../../Assets/Icons/Check.png "[Check]") (Checkmark): The offer can be confirmed by you.  
-    - ![Cross](../../Assets/Icons/Cross02.png "[Cross]") (Cross): The offer cannot be confirmed by you.
+  Indication whether the offer can be confirmed by the current user or not:
+  - ![Check](../../Assets/Icons/Check.png "[Check]") (Checkmark): The offer can be confirmed by you.  
+  - ![Cross](../../Assets/Icons/Cross02.png "[Cross]") (Cross): The offer cannot be confirmed by you.

@@ -56,16 +56,16 @@
 
 
 - *All Connections*    
-  Click the drop-down list to select a connection. All available connections are displayed in the list. When selecting a connection, the [Import orders for all connections] button changes to the [Import orders] button.
+  Click the drop-down list to select a connection. All available connections are displayed in the list. When selecting a connection, the [Import orders] button, the *Download orders automatically* drop-down list and the [SAVE] button are displayed.
 
 - [Import orders for all connections]  
-  Click this button to import orders for all connections. This button is only displayed if no connection has been selected in the *All connections* drop-down list.
+  Click this button to import the orders for all connections. This button is only displayed if no connection has been selected in the *All connections* drop-down list.
 
 - [Import orders]  
   Click this button to import all orders for the selected connection. This button is only displayed, if a connection has been selected in the *All connections* drop-down list.
 
 - [Download orders automatically]  
-  Click the drop-down list and select the desired time interval at which the orders should be automatically downloaded. This button is only displayed, if a connection has been selected in the *All connections* drop-down list. The following options are available:
+  Click the drop-down list and select the desired time interval for the automatic download of orders. This drop-down list is only displayed, if a connection has been selected in the *All connections* drop-down list. The following options are available:
     - **never**
     - **every 2 minutes**
     - **every 5 minutes**
@@ -76,7 +76,7 @@
     - **every 60 minutes**
 
 - [SAVE]  
-  Click this button to save the settings.
+  Click this button to save the settings for the automatic download of orders. This button is only displayed, if a connection has been selected in the *All connections* drop-down list.
 
 - ![Columns](../../Assets/Icons/Columns.png "[Columns]") Columns (x)   
   Click this button to display the columns bar and customize the displayed columns and the order of columns in the list. The *x* indicates the number of columns that are currently displayed in the list.
@@ -88,22 +88,24 @@
   Select the checkbox to display the editing toolbar. If you click the checkbox in the header, all orders in the list are selected.
 
 - [VIEW]  
-  Click this button to view a selected order. This button is only displayed if a single checkbox in the list of connections is selected.
+  Click this button to display the *Order from connection "Connection name"* view of the selected order. Alternatively, you can click directly a row in the list to edit the corresponding order. This button is only displayed if a single checkbox in the list of connections is selected.
 
 - [EXPORT TO OMS]  
-  Click this button to view one or several selected orders. This button is only displayed if the checkbox of at least one order is selected.
+  Click this button to export the selected order(s) to the *Order management* module. This button is only displayed if the checkbox of at least one order is selected.
 
 - [RETRY IMPORT]  
-  Click this button to view one or several selected orders. This button is only displayed if the checkbox of at least two orders is selected.
+  Click this button to retry the import of the selected order(s). This button is only displayed if the checkbox of at least one order is selected. The *Import will be retried* pop-up window is displayed.
+
+  ![Import will be retried](../../Assets/Screenshots/Channels/OrdersReturns/Orders/ImportRetried.png "[Import will be retried]")
 
 
-The list displays all orders available. All fields are read-only. Depending on the settings, the displayed columns may vary.
+The list displays all orders, either for all connections or for the selected connection. Depending on the settings, the displayed columns may vary. All fields are read-only. 
 
 - *Connection*  
-   Connection name. 
+  Connection name. 
 
 - *Status of import from channel*   
-   Status of the order import from the marketplace to the *Omni-Channel* module. The following options are available:  
+  Status of the order import from the marketplace to the *Omni-Channel* module. The following options are available:  
     - **Order complete**  
       The order import has been successfully completed.   	
     - **Canceled**  
@@ -117,7 +119,7 @@ The list displays all orders available. All fields are read-only. Depending on t
       There are no changes to synchronize.
 
 - *Status of export to OMS*  
-   Status of the order export from the *Omni-Channel* module to the *Order management* module for further processing. The following options are available:  
+  Status of the order export from the *Omni-Channel* module to the *Order management* module for further processing. The following options are available:  
     - **Exported**  
       The order has been successfully exported.
     - **Not exported**  
@@ -128,71 +130,58 @@ The list displays all orders available. All fields are read-only. Depending on t
       The order is currently being exported.
 
 - *Created on*  
-   Date and time of the creation. 
+  Date and time of the creation. 
 
-- *Edited*  
-   Date and time of the last modification. 
+- *Modified on*  
+  Date and time of the last modification. 
 
 - *Remote ID*  
+  Remote identification number of the order.
 
 - *ID in OMS*  
-   Identification number in the *Order management* module. This number equals the order confirmation.   
-
-[comment]: <> (AB oder LI? Oder beide? S. Fakturierung)
+  Identification number of the document in the *Order management* module.    
 
 - *\# Line items*  
   Number of line items contained in the order.
 
 - *Line items*  
-   SKU of line item(s) contained in the order. 
+  SKU of line item(s) contained in the order. 
 
 - *ID*  
-   Order identification number. The ID number is automatically assigned by the system.
+  Order identification number. The ID number is automatically assigned by the system.
 
-[comment]: <> (Ab hier Attributes? Im mehreren Sandboxen unter Order > Attributes geprüft und nicht gefunden)
-
-- *Bill number*	
-
-- *Note*	
-
-- *Discount description*	
-
-- *Amount to pay (after voucher)*	
-
-- *Customer receipt*
-
-- *Merchant receipt*	
+- Attribute    
+  You can add a column for each attribute that is assigned to the order. The column displays the attribute name, the row displays the corresponding attribute value of the order.
 
 
 
 ## Order from connection "Connection name"
 
-*Omni-Channel > Orders and returns > Tab ORDERS > Select an order*
+*Omni-Channel > Orders and returns > Tab ORDERS > Select order*
 
 ![Order connection](../../Assets/Screenshots/Channels/OrdersReturns/Orders/OrderConnectionAttributes.png "[Order connection]")
 
 - ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)   
-  Click this button to close the *Order from connection "Connection name"* view and return to the list of orders.
+  Click this button to close the *Order from connection "Connection name"* view and return to the order list. All changes are rejected.
 
 - [CLOSE]  
-  Click this button to close the *Order from connection "Connection name"* view. The list of orders is displayed.
+  Click this button to close the *Order from connection "Connection name"* view.
 
 - *ID in shop:*  
-  Identification number in the marketplace. 
+  Identification number of the order in the marketplace. 
 
-- *Bill ID:*  
-  Identification number in the *Order management* module. This number equals the order confirmation.  
-
-[comment]: <> (Warum Bill ID? Order confirmation nr. = Invoice nr.?)
-
+- *Document ID:*  
+  Identification number of the document in the *Order management* module.   
+  
 - *Import status:*  
   Order import status from the marketplace to the *Omni-Channel* module. The following statuses are available:  
+    - **Not imported**
     - **Order complete**  
     - **Canceled**
-
+    - **Error**
 
 - *Export status:*  
-   Order export status from the *Omni-Channel* module to the  marketplace. The following statuses are available:  
+  Order export status from the *Omni-Channel* module to the  marketplace. The following statuses are available:  
     
   [comment]: <> (Feld immer leer. Export to marketplace oder export to OMS gemeint?)
 
@@ -200,13 +189,16 @@ The list displays all orders available. All fields are read-only. Depending on t
   Click this button to export the order to the *Order management* module. This button is only displayed if the status in the *Status of export to OMS* column is **Not exported: Pending > 30 minutes to OMS**.
 
 - [RE-TRIGGER IMPORT]    
-  Click this button to trigger the order import again. This button is only displayed if the status in the *Status of import from Channels* column is **Not imported**.
+  Click this button to trigger the order import again. This button is only displayed if the status in the *Status of import from channel* column is **Not imported**. The *Order import triggered* pop-up window is displayed.
+
+  ![Order import triggered](../../Assets/Screenshots/Channels/OrdersReturns/Orders/OrderImportTriggered.png "[Order import triggered]")
 
 [comment]: <> (Andere Buttons möglich?)
 
+
 ## Order from connection "Connection name" &ndash; Attributes
 
-*Omni-Channel > Orders and returns > Tab ORDERS > Select an order > Tab Attributes*
+*Omni-Channel > Orders and returns > Tab ORDERS > Select order > Tab Attributes*
 
 ![Order connection attributes](../../Assets/Screenshots/Channels/OrdersReturns/Orders/OrderConnectionAttributes.png "[Order connection attributes]")
 
@@ -214,17 +206,13 @@ The list displays all orders available. All fields are read-only. Depending on t
 
 In the left margin column, all available attribute groups are displayed. Click an attribute group to display the attributes that are assigned to this group on the right side of the *Attributes* tab. If the order contains attributes that are unassigned, the *Unassigned group* attribute group is automatically displayed in the left margin column.
 
-The right side of the *Attributes* tab displays all attributes that are assigned to the selected group in the left margin column. Depending on the attribute group selected, the fields displayed vary. The order attributes are imported via the connection driver. All fields are locked and, therefore, read-only.
-
-The attributes assigned to each group can be managed and customized in the *DataHub* module. For detailed information, see [Attribute groups](../../DataHub/UserInterface/02c_AttributeGroups.md).
-
-
 - ![Folders](../../Assets/Icons/Folders01.png "[Folders]") (Folders)  
-  Attribute group that contains attribute sub-groups. Click the attribute group or the arrow *>* left to the attribute group to unfold the group and display the attribute sub-groups.
+  Attribute group that contains attribute sub-groups. Click the attribute group or the arrow left to the attribute group to unfold the group and display the attribute sub-groups.
 
 - ![Folder](../../Assets/Icons/Folder01.png "[Folder]") (Folder)  
   Attribute group. Click the attribute group to display all attributes that are assigned to the selected attribute group on the right side of the *Attributes* tab.
 
+The right side of the *Attributes* tab displays all attributes that are assigned to the selected group in the left margin column. All fields are read-only.
 
 - ![Fade in/out](../../Assets/Icons/FadeInOut01.png "[Fade in/out]") (Fade in/out)    
   Click this button to hide or display the left margin column with the attribute groups. When the left margin is displayed and you click this button, the column is hidden. When the column is hidden and you click this button, the column is displayed again.
@@ -232,7 +220,7 @@ The attributes assigned to each group can be managed and customized in the *Data
 
 ## Order from connection "Connection name" &ndash; Dependencies
 
-*Omni-Channel > Orders and returns > Tab ORDERS > Select an order > Tab Dependencies*
+*Omni-Channel > Orders and returns > Tab ORDERS > Select order > Tab Dependencies*
 
 ![Order connection dependencies](../../Assets/Screenshots/Channels/OrdersReturns/Orders/OrderConnectionDependencies.png "[Order connection dependencies]")
 
@@ -248,64 +236,78 @@ The attributes assigned to each group can be managed and customized in the *Data
   Select the checkbox to display the editing toolbar. If you click the checkbox in the header, all dependencies in the list are selected.
 
 - [RERUN MAPPING]  
+  Click this button to rerun the mapping of the selected entity. This button is only displayed if the checkbox of at least one dependency is selected.
 
-The list displays all dependencies available. All fields are read-only. Depending on the settings, the displayed columns may vary.
+The list displays all dependencies of the selected order. Depending on the settings, the displayed columns may vary. All fields are read-only. 
 
-- *Dependent entity ID*  
+- *Dependent entity ID*   
+  Identification number of the dependent entity.
 
-- *Dependent entity type*  
+- *Dependent entity type*   
+  Type of the dependent entity. The following options are available:
+  - **Omni-Channel Offer**
+  - **UCS Product**
 
-- *Change tracking*  
+  [comment]: <> (what else?)
 
-- *Dependent entity friendly identifier*  
+
+- *Change tracking mode*   
+  Change tracking mode (ETL mode) of the dependent entity. The following options are available:
+  - **Manual**
+  - **Semi-automatic**
+  - **Semi-automatic, changes must be confirmed by another user**   
+  - **Automatic**
+
+
+- *Dependent entity friendly identifier*   
+
+[comment]: <> (what id number is that? How is it created?)
+
 
 
 ## Order from connection "Connection name" &ndash; Line items
 
-*Omni-Channel > Orders and returns > Tab ORDERS > Select an order > Tab Line items*
+*Omni-Channel > Orders and returns > Tab ORDERS > Select order > Tab Line items*
 
 ![Order connection line items](../../Assets/Screenshots/Channels/OrdersReturns/Orders/OrderConnectionLineItems.png "[Order connection line items]")
 
 **Line items**
 
 - *VIEW*  
- Click the drop-down list to select the view. All created views are displayed in the drop-down list. Click the ![Points](../../Assets/Icons/Points01.png "[Points]") (Points) button to the right of the *View* drop-down list to display the context menu and create or edit a view.    
-  For detailed information, see [Create a view](#create-a-view).
+  Click the drop-down list to select the view. All created views are displayed in the drop-down list. Click the ![Points](../../Assets/Icons/Points01.png "[Points]") (Points) button to the right of the *VIEW* drop-down list to display the context menu and create a view.   
 
-  - View context menu   
-    Click the ![Points](../../Assets/Icons/Points01.png "[Points]") (Points) button to the right of the *View* drop-down list to display the context menu. The following menu entries are available:
+  - ![Points](../../Assets/Icons/Points01.png "[Points]") (Points)      
+    Click this button to the right of the *View* drop-down list to display the context menu. The following menu entries are available:
 
-    - ![Create](../../Assets/Icons/Plus06.png "[Create]") create   
-      Click this entry to create a view. The *Create view* window is displayed.
+    - ![Create](../../Assets/Icons/Plus06.png "[Create]") create  
+      Click this entry to create a view. The *Create view* window is displayed, see [Create view](#create-view).
 
-    - ![Rename](../../Assets/Icons/Edit02.png "[Rename]") rename    
-      Click this entry to rename the selected view. The *Rename view* window is displayed. This menu entry is only displayed if a view has been selected.
+    - ![Rename](../../Assets/Icons/Edit02.png "[Rename]") rename  
+      Click this entry to rename the selected view. The *Rename view* window is displayed, see [Rename view](#rename-view). This menu entry is only displayed if a view has been selected.
 
-    - ![Reset](../../Assets/Icons/Reset.png "[Reset]") reset    
+    - ![Reset](../../Assets/Icons/Reset.png "[Reset]") reset  
       Click this entry to reset all unsaved changes to the settings of the selected view. This menu entry is only displayed if a view has been selected and any changes have been made to the view settings.
 
-    - ![Publish](../../Assets/Icons/Publish.png "[Publish]") publish    
+    - ![Publish](../../Assets/Icons/Publish.png "[Publish]") publish  
       Click this entry to publish the view. This menu entry is only displayed if a view has been selected and unpublished.
 
-    - ![Private view](../../Assets/Icons/Unpublish.png "[Unpublish]") private view    
+    - ![Unpublish](../../Assets/Icons/Unpublish.png "[Unpublish]") unpublish  
       Click this entry to unpublish the view. This menu entry is only displayed if a view has been selected and published.
 
-    [comment]: <> (Private view oder unpublish? Cf. default sentences)
-
-    - ![Save](../../Assets/Icons/Save.png "[Save]") save    
+    - ![Save](../../Assets/Icons/Save.png "[Save]") save  
       Click this entry to save the current view settings in the selected view. This menu entry is only displayed if a view has been selected.
 
       > [Info] When the settings of a view have been changed, an asterisk is displayed next to the view name. The asterisk is hidden as soon as the changes have been saved.
 
-    - ![Delete](../../Assets/Icons/Trash01.png "[Delete]") delete    
-      Click this entry to delete the selected view. A confirmation window is displayed to confirm the deletion. This menu entry is only displayed if a view has been selected.
+    - ![Delete](../../Assets/Icons/Trash01.png "[Delete]") delete  
+      Click this entry to delete the selected view. A confirmation window to confirm the deletion is displayed. This menu entry is only displayed if a view has been selected.
 
 
 - ![Search](../../Assets/Icons/Search.png "[Search]") (Search)   
-  Click this button to display the search bar and search for an order.
+  Click this button to display the search bar and search for a line item.
 
 - ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh)   
-  Click this button to update the list of orders.
+  Click this button to update the list of line items.
 
 - ![Columns](../../Assets/Icons/Columns.png "[Columns]") Columns (x)   
   Click this button to display the columns bar and customize the displayed columns and the order of columns in the list. The *x* indicates the number of columns that are currently displayed in the list.
@@ -314,54 +316,60 @@ The list displays all dependencies available. All fields are read-only. Dependin
   Click this button to display the filter bar and customize the active filters. The *x* indicates the number of filters that are currently active.
 
 - [x]     
-  Select the checkbox to display the editing toolbar. Only one checkbox can be selected at a time. 
+  Select the checkbox to display the editing toolbar. You can only select one checkbox at a time. 
 
 - [VIEW]  
-  Click this button to view a selected line item. This button is only displayed if a checkbox in the list of line items is selected.
+  Click this button to display the *Line item* view of the selected line item. Alternatively, you can click directly a row in the list to edit the corresponding line item.
 
-The list displays all line items available. All fields are read-only. Depending on the settings, the displayed columns may vary.
+The list displays all items of the selected order. Depending on the settings, the displayed columns may vary. All fields are read-only. 
 
 - *SKU*  
+  Stock Keeping Unit. Identification number of the product to the order.
 
 - *Type*  
+  Item type. The following options are available:
+    - **Line item**
+    - **Shipping**
+
+  [comment]: <> (what else?)
 
 - *ID*  
+  Order identification number. The ID number is automatically assigned by the system after creation.
 
-- ...
+- Attribute    
+  You can add a column for each attribute that is assigned to the order. The column displays the attribute name, the row displays the corresponding attribute value of the order.
+
 
 ### Line item 
 
-*Omni-Channel > Orders and returns > Tab ORDERS > Select an order > Tab Line items > Select line item*
+*Omni-Channel > Orders and returns > Tab ORDERS > Select order > Tab Line items > Select line item*
 
 ![Line item](../../Assets/Screenshots/Channels/OrdersReturns/Orders/LineItemAttributes.png "[Line item]")
 
 - ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)   
-  Click this button to close the *Line item* view and return to the list of line items.
+  Click this button to close the *Line item* view and return to the list of line items. All changes are rejected.
 
 - [CANCEL]  
-  Click this button to close the *Line item* view. The list of line items is displayed.
+  Click this button to close the *Line item* view.
 
+  
 ### Line item &ndash; Attributes
 
-*Omni-Channel > Orders and returns > Tab ORDERS > Select an order > Tab Line items > Select line item > Tab Attributes*
+*Omni-Channel > Orders and returns > Tab ORDERS > Select order > Tab Line items > Select line item > Tab Attributes*
 
 ![Line item attributes](../../Assets/Screenshots/Channels/OrdersReturns/Orders/LineItemAttributes.png "[Line item attributes]")
 
 [comment]: <> (Hinzufügen/erklären? The attributes tab reproduces the fields available in the marketplace.)
 
-In the left margin column, all available attribute groups are displayed. Click an attribute group to display the attributes that are assigned to this group on the right side of the *Attributes* tab. If the order contains attributes that are unassigned, the *Unassigned group* attribute group is automatically displayed in the left margin column.
-
-The right side of the *Attributes* tab displays all attributes that are assigned to the selected group in the left margin column. Depending on the attribute group selected, the fields displayed vary. The line item attributes are imported via the connection driver. All fields are locked and, therefore, read-only.
-
-The attributes assigned to each group can be managed and customized in the *DataHub* module. For detailed information, see [Attribute groups](../../DataHub/UserInterface/02c_AttributeGroups.md).
-
+In the left margin column, all available attribute groups are displayed. Click an attribute group to display the attributes that are assigned to this group on the right side of the *Attributes* tab. If the line item contains attributes that are unassigned, the *Unassigned group* attribute group is automatically displayed in the left margin column.
 
 - ![Folders](../../Assets/Icons/Folders01.png "[Folders]") (Folders)  
-  Attribute group that contains attribute sub-groups. Click the attribute group or the arrow *>* left to the attribute group to unfold the group and display the attribute sub-groups.
+  Attribute group that contains attribute sub-groups. Click the attribute group or the arrow left to the attribute group to unfold the group and display the attribute sub-groups.
 
 - ![Folder](../../Assets/Icons/Folder01.png "[Folder]") (Folder)  
   Attribute group. Click the attribute group to display all attributes that are assigned to the selected attribute group on the right side of the *Attributes* tab.
 
+The right side of the *Attributes* tab displays all attributes that are assigned to the selected group in the left margin column. All fields are read-only.
 
 - ![Fade in/out](../../Assets/Icons/FadeInOut01.png "[Fade in/out]") (Fade in/out)    
   Click this button to hide or display the left margin column with the attribute groups. When the left margin is displayed and you click this button, the column is hidden. When the column is hidden and you click this button, the column is displayed again.
@@ -369,7 +377,7 @@ The attributes assigned to each group can be managed and customized in the *Data
 
 ### Line item &ndash; Dependencies
 
-*Omni-Channel > Orders and returns > Tab ORDERS > Select an order > Tab Line items > Select line item > Tab Dependencies*
+*Omni-Channel > Orders and returns > Tab ORDERS > Select order > Tab Line items > Select line item > Tab Dependencies*
 
 ![Line item dependencies](../../Assets/Screenshots/Channels/OrdersReturns/Orders/LineItemDependencies.png "[Line item dependencies]")
 
@@ -385,16 +393,33 @@ The attributes assigned to each group can be managed and customized in the *Data
   Select the checkbox to display the editing toolbar. If you click the checkbox in the header, all dependencies in the list are selected.
 
 - [RERUN MAPPING]  
+  Click this button to rerun the mapping of the selected entity. This button is only displayed if the checkbox of at least one dependency is selected.
 
-The list displays all dependencies available. All fields are read-only. Depending on the settings, the displayed columns may vary.
+The list displays all dependencies of the selected line item. Depending on the settings, the displayed columns may vary. All fields are read-only. 
 
-- *Dependent entity ID*  
+- *Dependent entity ID*   
+  Identification number of the dependent entity.
 
-- *Dependent entity type*  
+- *Dependent entity type*   
+  Type of the dependent entity. The following options are available:
+  - **Omni-Channel Offer**
+  - **UCS Product**
 
-- *Change tracking*  
+  [comment]: <> (what else?)
 
-- *Dependent entity friendly identifier*  
+
+- *Change tracking mode*   
+  Change tracking mode (ETL mode) of the dependent entity. The following options are available:
+  - **Manual**
+  - **Semi-automatic**
+  - **Semi-automatic, changes must be confirmed by another user**   
+  - **Automatic**
+
+
+- *Dependent entity friendly identifier*   
+
+[comment]: <> (what id number is that? How is it created?)
+
 
 
 ## Order from connection "Connection name" &ndash; Shipments
@@ -406,7 +431,7 @@ The list displays all dependencies available. All fields are read-only. Dependin
 
 ## Order from connection "Connection name" &ndash; Errors
 
-*Omni-Channel > Orders and returns > Tab ORDERS > Select an order > Tab Errors*
+*Omni-Channel > Orders and returns > Tab ORDERS > Select order > Tab Errors*
 
 ![Order connection errors](../../Assets/Screenshots/Channels/OrdersReturns/Orders/OrderConnectionErrors.png "[Order connection errors]")
 
@@ -428,11 +453,11 @@ The list displays all dependencies available. All fields are read-only. Dependin
   Select the checkbox to display the editing toolbar. If you click the checkbox in the header, all errors in the list are selected.
 
 - [VIEW]  
-  Click this button to view a selected error. This button is only displayed if a single checkbox in the list of line errors is selected.
+  Click this button to display the the *Detail of log message "Log message title"* view of the selected error. Alternatively, you can click directly a row in the list to display the corresponding error. This button is only displayed if a single checkbox in the list of errors is selected.
 
 [comment]: <> (Check, ob das stimmt, wenn errors vorhanden. Vielleicht: This button is only displayed if a checkbox in the list of errors is selected. In checkbox oben dann: Only one checkbox can be selected at a time.)
 
-The list displays all errors available. All fields are read-only. Depending on the settings, the displayed columns may vary.
+The list displays all errors of the selected order. Depending on the settings, the displayed columns may vary. All fields are read-only.
 
 - *Log ID*  
   Log identification number. The ID number is automatically assigned by the system.   
@@ -457,12 +482,23 @@ The list displays all errors available. All fields are read-only. Depending on t
 
 [comment]: <> (Check, ob es stimmt mit errors)
 
+
+### Detail of log message "Log message title"
+
+*Omni-Channel > Orders and returns > Tab ORDERS > Select order > Tab Errors > Select export error*
+
+![Detail of log message attributes](../../Assets/Screenshots/Channels/OrdersReturns/Orders/Errors/DetailLogMessageAttributes.png "[Detail of log message attributes]")
+
+[comment]: <> (Add screenshot)
+
+For a detailed description of this view and the corresponding functions, see [LOG](./06a_Log.md#detail-of-log-message-log-message-title).
+
+
 ## Create view
 
 *Omni-Channel > Orders and returns > Tab ORDERS > Button Points > Menu entry create*
 
 ![Create view](../../Assets/Screenshots/Channels/CreateView.png "[Create view]")
-
 
 For a detailed description of this window and the corresponding functions, see [Create view](./02a_Offers.md#create-view).
 
@@ -472,6 +508,5 @@ For a detailed description of this window and the corresponding functions, see [
 *Omni-Channel > Orders and returns > Tab ORDERS > Button Points > Menu entry rename*
 
 ![Rename view](../../Assets/Screenshots/Channels/RenameView.png "[Rename view]")
-
 
 For a detailed description of this window and the corresponding functions, see [Rename view](./02a_Offers.md#rename-view).

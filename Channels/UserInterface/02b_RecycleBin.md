@@ -64,7 +64,7 @@
   Click this button to delete the selected offer(s) permanently. This button is only displayed if the checkbox of at least one offer is selected.   
   For detailed information, see [Delete an offer](../Operation/01_ManageOffers.md#delete-an-offer).
 
-The list displays all offers moved to recycle bin. All fields are read-only. Depending on the settings, the displayed columns may vary.
+The list displays all offers moved to recycle bin. Depending on the settings, the displayed columns may vary. All fields are read-only. 
 
 - *SKU*   
   Stock Keeping Unit. Identification number for the offer.  

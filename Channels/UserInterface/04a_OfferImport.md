@@ -68,7 +68,7 @@ Click this button to display the filter bar and customize the active filters. Th
   Click this button to display the *Detail of log message "Log message title"* view and check further details of the error. This button is only displayed if a connection has been selected in the *Select connection* drop-down list and if the checkbox of a single offer with an error is selected.
 
 
-The list displays all offer imports. All fields are read-only. Depending on the settings, the displayed columns may vary. If no offer imports are available, the *Please select a connection to import products from* notice is displayed. The available columns differ depending on the selected connection in the *Select Connection* drop-down list. Therefore, only those columns that are available for all connections are described in the following.
+The list displays all offer imports. Depending on the settings, the displayed columns may vary. All fields are read-only. If no offer imports are available, the *Please select a connection to import products from* notice is displayed. The available columns differ depending on the selected connection in the *Select Connection* drop-down list. Therefore, only those columns that are available for all connections are described in the following.
 
 - *Error message*   
   Error log message if an error has occurred. Select the checkbox of the corresponding row and click the [DETAILS] button in the editing toolbar to display further details to the error. If no error has occurred, the field is empty.
@@ -90,7 +90,7 @@ The list displays all offer imports. All fields are read-only. Depending on the 
 
 *Omni-Channel > Offer import > Tab OFFER IMPORT > Select chceckbox of a faulty import > Button DETAILS*
 
-![Detail of log message](../../Assets/Screenshots/Channels/OfferImport/OfferImport/DetailLogMessage.png "[Detail of log message]")
+![Detail of log message attributes](../../Assets/Screenshots/Channels/OfferImport/OfferImport/DetailLogMessageAttributes.png "[Detail of log message attributes]")
 
 [comment]: <> (Add screenshot)
 

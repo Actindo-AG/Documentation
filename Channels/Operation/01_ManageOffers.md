@@ -87,9 +87,9 @@ If the Actindo *PIM* module is used, offers can be created directly from the PIM
 
   + Select the appropriate initial status for the offer in the *Initial offer status* section:   
     - ![Radionbutton](../../Assets/Icons/Radiobutton.png "[Radiobutton]") *Active*   
-      The offer is active. It is uploaded to the marketplace and activated directly. Thus, it is also displayed on the marketplace, where it can be sold immediately.   
+      The offer is active. It is uploaded to the marketplace and activated directly. Thus, it is also displayed in the marketplace, where it can be sold immediately.   
     - ![Radionbutton](../../Assets/Icons/Radiobutton.png "[Radiobutton]") *Inactive*   
-      The offer is inactive. It is uploaded to the marketplace, but still remains inactive. Thus, it is not displayed on the marketplace and cannot yet be sold.   
+      The offer is inactive. It is uploaded to the marketplace, but still remains inactive. Thus, it is not displayed in the marketplace and cannot yet be sold.   
     - ![Radionbutton](../../Assets/Icons/Radiobutton.png "[Radiobutton]") *Offline*   
       The offer is created in *Omni-Channel*, but not yet uploaded to the marketplace. Thus, it is unknown to the marketplace and cannot be sold there.
 
@@ -156,7 +156,7 @@ At least one connection has been created, see [Create a connection](../Integrati
 ## Edit an offer
 
 After you have created an offer, you can edit it. However, only some fields are editable, for instance, all attributes that are imported from the *PIM* module cannot be edited.   
-Note that any changes to an offer will trigger an automatic upload, so that any changes are applied to the products on the marketplace.
+Note that any changes to an offer will trigger an automatic upload, so that any changes are applied to the products in the marketplace.
 
 [comment]: <> (welche felder sind editierbar? prüfen!)
 
@@ -189,7 +189,7 @@ At least one offer has been created, see [Create an offer](#create-an-offer).
 
 ## Change the offer status
 
-The offer status specifies the behavior of the offer on the marketplace. By changing the offer status, you can provide an offer on a marketplace, hide an offer on a marketplace or remove an offer from a marketplace.
+The offer status specifies the behavior of the offer in the marketplace. By changing the offer status, you can provide an offer on a marketplace, hide an offer on a marketplace or remove an offer from a marketplace.
 It is recommended to change the offer status instead of deleting an offer to prevent any problems because of existing dependencies.   
 
 #### Prerequisites
@@ -207,9 +207,9 @@ At least one offer has been created, see [Create an offer](#create-an-offer).
 
 2. Click the *Change status to* drop-down list in the editing toolbar and select the desired status. The following statuses are displayed:
   - **Active**   
-    The offer is active. It is displayed on the marketplace, where it can be sold.   
+    The offer is active. It is displayed in the marketplace, where it can be sold.   
   - **Inactive**   
-    The offer is inactive. It is not longer displayed on the marketplace and thus cannot be sold anymore.   
+    The offer is inactive. It is not longer displayed in the marketplace and thus cannot be sold anymore.   
   - **Not available**   
     The offer is deleted from the marketplace.      
     The *Change offer status* confirmation window is displayed. If the variant status of the selected offer equals **Master offer**, an additional toggle is displayed within the confirmation window.   

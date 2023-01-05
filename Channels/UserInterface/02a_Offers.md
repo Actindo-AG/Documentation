@@ -63,18 +63,18 @@ Click this button to display the filter bar and customize the active filters. Th
 - *Change status to*  
   Click the drop-down list to change the offer status. The selected status is displayed in the *Pending status/Errors* column. This drop-down list is only displayed if the checkbox of at least one offer is selected. The following options are available:   
   - **Active**   
-    The offer is active. It is displayed on the marketplace, where it can be sold.   
+    The offer is active. It is displayed in the marketplace, where it can be sold.   
   - **Inactive**   
-    The offer is inactive. It is not longer displayed on the marketplace and thus cannot be sold anymore.   
+    The offer is inactive. It is not longer displayed in the marketplace and thus cannot be sold anymore.   
   - **Not available**   
     The offer is deleted from the marketplace.   	
 
 - ![Edit](../../Assets/Icons/Edit03.png "[Edit]") (Edit)           
-   Click this button to edit the selected offer from the list. This button is only displayed if a single checkbox in the list of offers is selected. Alternatively, you can click directly a row in the list to edit the corresponding offer.  
+  Click this button to edit the selected offer from the list. This button is only displayed if a single checkbox in the list of offers is selected. Alternatively, you can click directly a row in the list to edit the corresponding offer.  
   The *Edit offer "Offer SKU"* view is displayed, see [Edit offer](#edit-offer).
 
 
-The list displays all available offers. All fields are read-only. Depending on the settings, the displayed columns may vary.
+The list displays all available offers. Depending on the settings, the displayed columns may vary. All fields are read-only. 
 
 - *SKU*   
   Stock Keeping Unit. Identification number of the product to the offer. 
@@ -91,9 +91,9 @@ The list displays all available offers. All fields are read-only. Depending on t
 - *Status*  
   Status of the offer. The following options are available:  
   - **Active**   
-    The offer is active. It is displayed on the marketplace, where it can be sold.   
+    The offer is active. It is displayed in the marketplace, where it can be sold.   
   - **Inactive**   
-    The offer is inactive. It is not longer displayed on the marketplace and thus cannot be sold anymore.   
+    The offer is inactive. It is not longer displayed in the marketplace and thus cannot be sold anymore.   
   - **Not available**   
     The offer is deleted from the marketplace.   
     The *Change offer status* confirmation window is displayed. If the variant status of the selected offer equals **Master offer**, an additional toggle is displayed within the confirmation window.   
@@ -185,7 +185,7 @@ The list displays all available offers. All fields are read-only. Depending on t
 
 ![Create offer](../../Assets/Screenshots/Channels/Offers/Offers/CreateOffer.png "[Create offer]")
 
- ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)   
+- ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)   
   Click this button to close the *Create offer* view and return to the offer list. All changes are rejected.
 
 - [CANCEL]   
@@ -244,7 +244,7 @@ The right side of the *Attributes* tab displays all attributes that are assigned
 - ![Columns](../../Assets/Icons/Columns.png "[Columns]") Columns (x)   
   Click this button to display the columns bar and customize the displayed columns and the order of columns in the list. The *x* indicates the number of columns that are currently displayed in the list.
 
-The list displays all variants of the selected product. All fields are read-only. Depending on the settings, the displayed columns may vary.
+The list displays all variants of the selected product. Depending on the settings, the displayed columns may vary. All fields are read-only. 
 
 - *Status*  
   Status of the variant. In the *Create product* view, the **Created after save** status is displayed if you have added a variant.
@@ -578,7 +578,7 @@ The box displays all source and destination attribute sets of the offers to be c
 
 ![Edit offer](../../Assets/Screenshots/Channels/Offers/Offers/EditOffer.png "[Edit offer]")
 
- ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)   
+- ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)   
   Click this button to close the *Edit offer* view and return to the offer list. All changes are rejected.
 
 - [CANCEL]   
@@ -659,7 +659,7 @@ The right side of the *Attributes* tab displays all attributes that are assigned
 - ![Columns](../../Assets/Icons/Columns.png "[Columns]") Columns (x)   
   Click this button to display the columns bar and customize the displayed columns and the order of columns in the list. The *x* indicates the number of columns that are currently displayed in the list.
 
-The list displays all variants. All fields are read-only. Depending on the settings, the displayed columns may vary.
+The list displays all variants. Depending on the settings, the displayed columns may vary. All fields are read-only. 
 
 - *Status*  
   Status of the variant. The following options are available:
@@ -806,7 +806,7 @@ The list displays all selected variants. Depending on the settings, the displaye
 - [x]     
   Select the checkbox to display the editing toolbar. If you click the checkbox in the header, all dependent entities in the list are selected. If no dependency exists for the offer, the *No other entities depend on this entity* notice is displayed.
 
-The list displays all dependencies of the selected product. All fields are read-only. Depending on the settings, the displayed columns may vary.
+The list displays all dependencies of the selected product. Depending on the settings, the displayed columns may vary. All fields are read-only. 
 
 - *Dependent entity ID*   
   Identification number of the dependent entity.
@@ -851,9 +851,10 @@ The list displays all dependencies of the selected product. All fields are read-
   Click this button to save the new view and display it in the *VIEW* drop-down list. The *Create view* window is closed.
 
 This window can also be accessed from the following tabs in the user interface:
-- [Orders](05a_Orders.md#create-view)
-- [Log](06a_Log.md#create-view)
-- [Connections](08a_Connections.md#create-view)
+- [ORDERS](05a_Orders.md#create-view)
+- [RETURNS](05b_Returns.md#rename-view)
+- [LOG](06a_Log.md#create-view)
+- [CONNECTIONS](08a_Connections.md#create-view)
 
 
 ## Rename view
@@ -874,6 +875,7 @@ This window can also be accessed from the following tabs in the user interface:
 
 This window can also be accessed from the following tabs in the user interface:
 
-- [Orders](05a_Orders.md#rename-view)
-- [Log](06a_Log.md#rename-view)
-- [Connections](08a_Connections.md#rename-view)
+- [ORDERS](05a_Orders.md#rename-view)
+- [RETURNS](05b_Returns.md#rename-view)
+- [LOG](06a_Log.md#rename-view)
+- [CONNECTIONS](08a_Connections.md#rename-view)
