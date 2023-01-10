@@ -65,7 +65,7 @@ Be aware that, before a Shopware 6 connection can be established in the *Actindo
 
     ![Shopware 6 connection](../../Assets/Screenshots/Channels/Settings/Connections/Shopware6/Connection.png "[Shopware 6]")
 
-12. If necessary, continue to [Configure the Shopware 6 connection](#configure-the-shopware-6-connection).
+13. If necessary, continue to [Configure the Shopware 6 connection](#configure-the-shopware-6-connection).
 
 [comment]: <> (Was genau passiert nach SAVE in Core1? Einige Minuten Zeit/Sync/Platform initialized? Satz aus Shopify genommen.)
 
@@ -99,10 +99,10 @@ A Shopware 6 connection has been established, see [Create a Shopware 6 connectio
 
     ![Edit connection settings](../../Assets/Screenshots/Channels/Settings/Connections/Shopware6/EditConnectionSettings.png "[Edit connection settings]")
 
-3. Click the *Orders* menu entry in the left side bar.  
+4. Click the *Orders* menu entry in the left side bar.  
   The import settings for orders are displayed on the right side.  
 
-4. Configure the following settings:
+5. Configure the following settings:
   + If desired, enter an order number in the *Import only orders with a higher number than this* field. Only orders with a higher order number than the specified number will be imported.  
 
   + Enable the toggles of all statuses for which the orders are to be imported. All statuses available in Shopware 6 are displayed.
@@ -113,67 +113,37 @@ A Shopware 6 connection has been established, see [Create a Shopware 6 connectio
 
   + If desired, click the *Order state to set in shop after the order is fully shipped* drop-down list and select the state that will be set for the order if the shipment has been completed. All states available in Shopware 6 are displayed.
  
-  + If desired, enable for each payment method the toggles of all states for which the orders are to be imported. If you select no payment states for a certain payment method, all orders with this payment method, regardless their state, will be imported. All states available in Shopware 6 are displayed for each payment method. 
-  The following payment methods are available:   
-    - *Paypal*  
-    - *Cash on delivery*  
-    - *Prepayment*  
-    - *Pay upon invoice*  
-    - *Ratepay Prepayment*
-    - *Ratepay Direct Debit*
-    - *Ratepay Open invoice*
-    - *Ratepay Payment by Installment*
-    - *Ratepay 0% Financing*
-    - *PAYONE Apple Pay*
-    - *Credit card (Visa/Mastercard)*
-    - *Payment SEPA Direct Debit*
-    - *PAYONE PayPal*
-    - *Mastercard*
-    - *PAYONE Paysafe Pay Later Installment*
-    - *PAYONE Paysafe Pay Later Invoice*
-    - *Sofortüberweisung*
-    - *PAYONE Paysafe Pay Later Debit*
-    - *PAYONE iDeal*
-    - *PAYONE EPS*
-    - *PAYONE Secure Invoice*
-    - *PAYONE Invoice*
-    - *PAYONE Paydirekt*
-    - *PAYONE Bancontact*
-    - *PAYONE Prepayment*
-    - *PAYONE Trustly*
-    - *Direct debit*
-    - *Paydirekt*
+  + If desired, enable for each payment method the toggles of all states for which the orders are to be imported. If you select no payment states for a certain payment method, all orders with this payment method, regardless of their state, will be imported. All states available in Shopware 6 are displayed for each payment method. All payment methods configured in Shopware 6 are displayed.
 
-
-5. Click the *Tax classes* menu entry in the left side bar.  
+6. Click the *Tax classes* menu entry in the left side bar.  
   The tax classes available in Shopware 6 are displayed on the right side.  
 
-6. Click the *Select Core1 tax class for Shopware 6 "Shopware tax class name"* drop-down list and select the corresponding tax class in the *Actindo Core1 Platform*. All available tax classes are displayed in the list. Repeat this step for all Shopware 6 tax classes.
+7. Click the *Select Core1 tax class for Shopware 6 "Shopware tax class name"* drop-down list and select the corresponding tax class in the *Actindo Core1 Platform*. All available tax classes are displayed in the list. Repeat this step for all Shopware 6 tax classes.
 
-7. If available, click the *Ratepay* menu entry in the left side bar.  
+8. If available, click the *Ratepay* menu entry in the left side bar.  
   The Ratepay settings are displayed on the right side.
 
   > [Info] The *Ratepay* menu entry is only displayed if the *Ratepay Integration for Shopware 6* plugin has been installed in your *Actindo Core1 Platform* and the *Ratepay Payment Plugin for Shopware 6* has been installed in your Shopware 6 account.
   
-8. If desired, enable the *Enable Ratepay integration for this connection* toggle.  
+9. If desired, enable the *Enable Ratepay integration for this connection* toggle.  
 
   > [Info] The *Ratepay Payment Plugin for Shopware 6* provides additional information to the orders, which can be imported for further processing.  
  
   [comment]: <> (nicht standard / Extension für Treiber - beschreiben oder wegglassen? -> RS Oli)
 
-9. Click the *Price rules* menu entry in the left side bar.  
+10. Click the *Price rules* menu entry in the left side bar.  
   The price rule settings are displayed on the right side.
 
-10. Enable the toggles for all price rules for which you want to create a price attribute in the *Actindo Core1 Platform* to maintain deviating prices. All price rules available in Shopware 6 are displayed. 
+11. Enable the toggles for all price rules for which you want to create a price attribute in the *Actindo Core1 Platform* to maintain deviating prices. All price rules available in Shopware 6 are displayed. 
 
     > [Info] You have to save the changes and synchronize the connection to create the corresponding price attribute. Once a price attribute has been created, the corresponding toggle is locked and cannot be disabled anymore.
 
-11. Click the [SAVE] button.  
+12. Click the [SAVE] button.  
   All changes have been saved. The *Saving successful* pop-up window is displayed.
 
     ![Saving successful](../../Assets/Screenshots/Channels/Settings/Connections/SavingSuccessful.png "[Saving successful]")
 
-12. Synchronize the connection to update the ETL mapping, see [Synchronize a connection](../Integration/01_ManageConnections.md#synchronize-a-connection)    
+13. Synchronize the connection to update the ETL mapping, see [Synchronize a connection](../Integration/01_ManageConnections.md#synchronize-a-connection)    
   The *Sync triggered* pop-up window is displayed.
 
     ![Sync triggered](../../Assets/Screenshots/Channels/Settings/Connections/SyncTriggered.png "[Sync triggered]")

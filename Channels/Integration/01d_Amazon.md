@@ -3,64 +3,23 @@
 To establish a connection to an Amazon shop, there are several particularities to consider. Therefore, the creation and the configuration of the Amazon connection are described in detail below.
 
 
-## Configuration of the Amazon Seller Account
-
-Before a connection between Amazon and the *Actindo Core1 Platform* can be established, the following adjustments must be made in the Amazon Seller Central for the connection to work correctly:
-
-- All columns of the order reports must be activated  
-- A standard ship-from address must be set
-
-Follow the instructions below to configure your Amazon Seller Account.
-
-[commment]: <> (Andere pre-settings? RS Johannes. S. https://actindo.atlassian.net/wiki/spaces/DEVELOPMEN/pages/21561363/Amazon)
-
-#### Prerequisites  
-
-An Amazon Seller Account has been created.
-
-#### Procedure
-
-1. In a new browser window, go to the *Amazon Seller Central* platform and log in to your account.
-
-2. In your Seller profile, go to *Orders > Order reports > Add or remove order report columns*.
-
-    ![Order reports](../../Assets/Screenshots/Channels/Settings/Connections/Amazon/.png "[Order reports]")
-
-3. Add all columns to the order reports. Otherwise, the shipping costs may not be imported.
-
-4. Click the [Save changes] button.
-
-5. Now go to *Settings > Shipping Settings > General Shipping Settings*.
-
-    ![Shipping settings](../../Assets/Screenshots/Channels/Settings/Connections/Amazon/.png "[Shipping settings]")
-
-6. Click the [Edit] icon next to the *Ship from location*.
-
-7. Enter the default ship-from address.
-
-8. Click the [Save] button.
-
-
-[comment]: <> (RS Johannes - Procedure und Screenshots? S. auch https://internal-jira.actindo.com/browse/ACDP-150)
-
-
 ## Create an Amazon connection
 
 Create the connection to an Amazon shop using the Amazon driver. Further settings can only be configured after the connection has been established.
 
 #### Prerequisites
 
-- The Amazon seller account has been configured, see [Configuration of the Amazon Seller Account](#configuration-of-the-amazon-seller-account).
-- The *Omni-Channel Amazon Integration* plugin has been installed. 
+- An Amazon seller account has been created.
+- All columns of the order reports must be activated in your Amazon seller account, see [Add or remove order report columns](https://sellercentral.amazon.de/order-reports-and-feeds/column-picker?source=/order-reports-and-feeds/reports/ref=xx_orderrpt_dnav_xx).  
+- A standard ship-from address must be set in your Amazon seller account, see [Set up a ship-from address](https://sellercentral.amazon.de/help/hub/reference/G201841320).
 - The OAuth authorization URI has been constructed, see [Construct an OAuth authorization URI](https://developer-docs.amazon.com/sp-api/docs/authorizing-selling-partner-api-applications).
+- The *Omni-Channel Amazon Integration* plugin has been installed. 
 
 > [Info] For the *Omni-Channel* module version 4.1.0 or higher, the *Omni-Channel Amazon Integration* plugin is required in at least version 1.4.22. 
 
 [comment]: <> (Omni-Channel Amazon Integration - aktuell nur mit Omni-Channel Version 2.6.13? In der Zukunft auch mit 4. Version möglich? Check versions!) 
 
-[comment]: <> (The OAuth authorization URI redirects a browser to an Amazon consent page, where you or a selling partner can give your application consent to make calls to the Selling Partner API.)
-
-[comment]: <> (Prerequisites? -> Versandanbieter erstellen & mappen, Rechnungsupload aktivieren, Amazon Payments Verbindung einrichten, Konto in der Zahlungsabwicklung einrichten,  Für den Angebotsupload muss in den Omni-Channel Angeboten das Feld "Herkunftsland" gesetzt sein. Leider wird diese Information beim Import von Angeboten nicht übermittelt. -> Quelle: https://internal-jira.actindo.com/browse/ACDP-150)
+[comment]: <> (Our app can be configured here: https://sellercentral.amazon.de/marketplacedeveloper/applications#  - Add Link? Zugänglich für alle User, die ein Seller Account haben?)
 
 #### Procedure
 
@@ -85,7 +44,7 @@ Create the connection to an Amazon shop using the Amazon driver. Further setting
 
     ![Amazon seller profile](../../Assets/Screenshots/Channels/Settings/Connections/Amazon/AmazonSellerProfile.png "[Amazon seller profile]")
 
-5. Click first the ![Settings](../../Assets/Icons/Settings03.png "[Settings]")(Settings) button in the upper right corner and then the *Account Info* menu entry.  
+5. Click first the ![Settings](../../Assets/Icons/Settings03.png "[Settings]") (Settings) button in the upper right corner and then the *Account Info* menu entry.  
     The *Seller Account Information* window is displayed.
 
     ![Seller account information](../../Assets/Screenshots/Channels/Settings/Connections/Amazon/SellerAccountInfo.png "[Seller account information]")
@@ -110,12 +69,10 @@ Create the connection to an Amazon shop using the Amazon driver. Further setting
 
     ![Access token](../../Assets/Screenshots/Channels/Settings/Connections/Amazon/AccessToken.png "[Access token]")
 
-[comment]: <> (Selber übersetzt. Nicht sicher, was eigentlich steht. Nach Screenshots fragen, wenn möglich.)
-
-10. Click the *Amazon marketplace* drop-down list and select the applicable marketplace.
+11. Click the *Amazon marketplace* drop-down list and select the applicable marketplace.
     > [Info] Once the connection has been saved, the selected marketplace cannot be changed.
 
-11. Click the [SAVE] button.  
+12. Click the [SAVE] button.  
     The *Checking credentials* notice is displayed. The connection will be established and the synchronization is triggered. The *Sync triggered* pop-up window is displayed.  
 
     ![Sync triggered](../../Assets/Screenshots/Channels/Settings/Connections/SyncTriggered.png "[Sync triggered]")
@@ -124,7 +81,7 @@ Create the connection to an Amazon shop using the Amazon driver. Further setting
 
     ![Amazon connection](../../Assets/Screenshots/Channels/Settings/Connections/Amazon/Connection.png "[Amazon connection]")
 
-12. If necessary, continue to [Configure the Amazon connection](#configure-the-amazon-connection).
+13. If necessary, continue to [Configure the Amazon connection](#configure-the-amazon-connection).
 
 
 ## Configure the Amazon connection   
@@ -173,18 +130,19 @@ An Amazon connection has been established, see [Create an Amazon connection](#cr
   
   + Enable the *Mark 'Fulfillment by Amazon' orders as shipped during import and disable warehousing.* toggle in the *'Fulfillment by Amazon' (FBA) orders* section to prevent that the warehousing and the shipping for the FBA order is managed in Actindo. Otherwise, disable the toggle. 
   
-   + Enable or disable the *Is the VAT calculation services (VCS) enabled?* toggle to specify if this feature is active in Amazon. If the VCS is disabled, the prices in the FBA reports are gross, if the VCS is enabled, the prices are net.  
-      > [Info] When importing AFN orders, it is highly recommended to enable the VCS to makes sure that the gross/net prices are imported correctly from Amazon reports.  
-
-[comment]: <> (Stimmt das so?)
+   + Enable or disable the *Is the VAT calculation services (VCS) enabled?* toggle to specify if this feature is active in Amazon. If the VCS is disabled, the prices in the FBA reports are gross, if the VCS is enabled, the prices are net. 
+    
+      > [Info] To check or modify the status status of the VCS, see [VAT calculation services](https://sellercentral.amazon.de/tax/settings/summary).
+     
+  [comment]: <> (Link aus https://actindo.atlassian.net/wiki/spaces/DEVELOPMEN/pages/21561363/Amazon)
 
   + If desired, click the ![Calendar](../../Assets/Icons/Calendar.png "[Calendar]") (Calendar) button in the  *Import FBA orders from* field and select a date from which to import the orders. Alternatively, enter directly a date in the field. The valid date format is DD.MM.YYYY. If no date is selected, the orders of the last 90 days are automatically imported.
 
   + Click the *Packing station address layout* drop-down list in the *Addresses* section and select the position of the customer number if you use a packing station as address. The following options are available:  
       - **Customer number in address line**
       - **Customer number in company** 
-      
-> [Info] The orders are imported from Amazon via order reports. As only a limited of reports can be imported simultaneously, it may take some time to import a greater number of orders. Further, for each order to be imported, two order reports must be retrieved. Therefore, the order status is always **Not imported** after the first order report has been retrieved and changes to **Order complete** as soon as the second order reports has been retrieved. This retrieval may take some time.         
+  
+    > [Info] The orders are imported from Amazon via order reports. As only a limited of reports can be imported simultaneously, it may take some time to import a greater number of orders. Further, for each order to be imported, two order reports must be retrieved. Therefore, the order status is always **Not imported** after the first order report has been retrieved and changes to **Order complete** as soon as the second order reports has been retrieved. This retrieval may take some time.         
 
 7. Click the *Order export/invoice upload* menu entry in the left side bar.    
   The *Order export/invoice upload* settings are displayed on the right side. By default, the *Apply from default* toggle is enabled and all fields are locked.    
@@ -213,19 +171,12 @@ All checkboxes are unlocked.
 
     > [Info] You have to save the changes and synchronize the connection to apply the settings.
 
-[comment]: <> (Hinzufügen? -> The shipping-provider mapping needs the connection to be synced afterwards! -> Sync passiert automatisch nach dem Speichern oder muss man extra über editing toolbar > Sync button gehen? Auch: The status of the VAT calculation service can be checked/changed -> in Seller Central. Ist das hier überhaupt relevant? Vielleicht in Fakturierung? Quelle: https://actindo.atlassian.net/wiki/spaces/DEVELOPMEN/pages/21561363/Amazon)
-
 13. Click the [SAVE] button.  
     All changes have been saved. The *Saving successful* pop-up window is displayed.
 
     ![Saving successful](../../Assets/Screenshots/Channels/Settings/Connections/SavingSuccessful.png "[Saving successful]")
 
-[comment]: <> (Saving successful aus Shopify Datei. Check, ob Saving successful pop-up auch bei Amazon vorkommt)
-
 14. Synchronize the connection to update the ETL mapping, see [Synchronize a connection](../Integration/01_ManageConnections.md#synchronize-a-connection)    
   The *Sync triggered* pop-up window is displayed.
 
     ![Sync triggered](../../Assets/Screenshots/Channels/Settings/Connections/SyncTriggered.png "[Sync triggered]")
-
-[comment]: <> (Wie macht man Sync? Nicht deutlich in Wissenstranfer. Connection checkbox auswählen und SYNCHRONIZE button in editing tool? Verweis darauf oder Schritte hier?)
-

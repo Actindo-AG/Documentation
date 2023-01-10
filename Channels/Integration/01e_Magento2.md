@@ -2,8 +2,58 @@
 
 To establish a connection to a Magento 2 shop, there are several particularities to consider. Therefore, the configuration of the Magento 2 connection is described in detail below.
 
+
+## Create a Magento 2 connection
+
+Create the connection to a Magento 2 shop using the Magento 2 driver. Further settings can only be configured after the connection has been established.
+
+All necessary credentials to establish the connection, that is username and password, are provided in the Magento 2 admin backend.
+
+[comment]: <> (Stimmt das so? Prerequisites unten dementsprechend anpassen)
+
+#### Prerequisites
+
 - A Magento 2 account has been created.
+- The user has administrator rights in Magento 2.
 - The *Magento 2* plugin has been installed.
+
+> [Info] For the *Omni-Channel* module version 4.1.0 or higher, the *Magento 2* plugin is required in at least version 1.0.0.
+
+[comment]: <> (Stimmt das so? In Platform Manager bis Magento 2 1.1.1 Version und Magento 2 B.B. 1.0.0 verfügbar. Pre-releases 1.1.2 und 1.2.0)
+
+#### Procedure
+
+*Omni-Channel > Settings > Tab CONNECTIONS*
+
+![Connection](../../Assets/Screenshots/Channels/Settings/Connections/Connection.png "[Connection]")
+
+1. Click the ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) button in the bottom right corner.    
+  The *Create connection* view is displayed.
+
+    ![Create connection](../../Assets/Screenshots/Channels/Settings/Connections/CreateConnection.png "[Create connection]")
+
+2. Enter a name for the connection in the *Name* field.
+
+3. Click the *Driver* drop-down list and select the *Magento 2* driver.  
+  The *Credentials* section is displayed below the drop-down list.
+
+4. Enter the shop URL in the *URL* field.
+
+5. Enter the username in the *Username* field.
+
+6. Enter the password in the *Password* field.
+
+7. Click the [SAVE] button.  
+  The *Checking credentials* notice is displayed. The connection will be established and the synchronization is triggered. The *Sync triggered* pop-up window is displayed.  
+
+    ![Sync triggered](../../Assets/Screenshots/Channels/Settings/Connections/SyncTriggered.png "[Sync triggered]")
+
+    The *CONNECTIONS* tab in the *Settings* menu entry of the *Omni-Channel* module is displayed when the connection has been established. The *Magento 2* connection is displayed in the list of connections.
+
+    ![Magento 2 connection](../../Assets/Screenshots/Channels/Settings/Connections/Magento/Connection.png "[Magento 2 connection]")	
+
+10. If necessary, continue to [Configure the Magento 2  connection](#configure-the-Magento-2-connection).
+
 
 ## Configure the Magento 2 connection   
 
@@ -11,11 +61,7 @@ After the connection to a Magento 2 shop has been established, further settings 
 
 #### Prerequisites
 
-- A Magento 2 connection has been established.
-
-> [Info] For the *Omni-Channel* module version 4.1.0 or higher, the *Magento 2* plugin is required in at least version 1.0.0.
-
-[comment]: <> (Stimmt das so? In Platform Manager Magento 2 1.1.1 Version und Magento 2 B.B. 1.0.0 verfügbar.)
+A Magento 2 connection has been established.
 
 #### Procedure
 
@@ -69,6 +115,8 @@ After the connection to a Magento 2 shop has been established, further settings 
         - *Pending PayPal*
         - *PayPal Reversed*
         - *Refunded*
+
+[comment]: <> (Sind diese Default-Status in allen Magento 2 Systemen oder eher "All available status in Magento 2 are displayed", da der Administrator selber neue Status erstellen kann?)
 
 6. Configure the following settings to define the order states and/or statuses to be set after a certain event has occurred in the *Update order state and status on certain events* section:  
 
@@ -127,31 +175,27 @@ After the connection to a Magento 2 shop has been established, further settings 
 12. Click the *Image handling* menu entry in the left side bar.  
     All available image attributes available in the Magento 2 gallery are displayed on the right side.
 
-13. Enable the applicable toggles as necessary to hide or display the corresponding images in the Magento 2 gallery. 
+13. Enable all toggles of the image attributes whose images you want to be hidden in the Magento 2 gallery. 
 
 14. Click the *Image name* menu entry in the left side bar.  
-    The *Imagen name* settings are displayed are displayed on the right side.
+    The *Image name* settings are displayed are displayed on the right side.
 
-15. Disable the *Apply from default* toggle.  
-    The *Use ECM image name* toggle und the *Regular expressions* field are unlocked.
+15. Disable the *Apply from default* toggle to configure how the image names should be customized before uploading to the Magento 2 shop.    
+    The *Use ECM image name* toggle and the *Regular expressions* field are unlocked.
 
-16. If necessary, disable the *Use ECM image name*.
+    > [Info]  The following settings are used to improve the SEO of your images.
 
-17. If desired, create regular expressions to define words or descriptions to be removed from the image name.  
-The site https://regex101.com/ can be useful to test regular expressions. 
+16. If desired, disable the *Use ECM image name* toggle. By default, the toggle is enabled.
 
-    > [Info] This function allows to create customized image names to make them SEO-friendly and improve search rankings.
+17. If desired, define regular expressions that will be removed from the image name.  
+For detailed information about regular expressions, see https://regex101.com/. 
 
-18. Click the [Save] button.  
+18. Click the [SAVE] button.  
     All changes have been saved. The *Saving successful* pop-up window is displayed.
 
     ![Saving successful](../../Assets/Screenshots/Channels/Settings/Connections/SavingSuccessful.png "[Saving successful]")
 
 
-
-[comment]: <> (Muss man die Verbindung auch synchronisieren oder wird automatisch synchronisiert nach dem Speichern?)
-
-[comment]: <> (Steps 5, 6 und 7 -alle unter Order States menu entry- könnten in einem großen Schritt zusammengelegt werden, mit weitere Unterschritte geteilt werden, wobei er wäre extrem lang und nicht so überschauber. Meinung dazu?)
 
 
 

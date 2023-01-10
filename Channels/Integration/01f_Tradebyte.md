@@ -3,19 +3,68 @@
 To establish a connection to a Tradebyte shop, there are several particularities to consider. Therefore, the configuration of the Tradebyte connection is described in detail below.
 
 
+## Create a Tradebyte connection
+
+Create the connection to a Tradebyte shop using the Tradebyte driver. Further settings can only be configured after the connection has been established.
+
+All necessary credentials to establish the connection are provided when an account has been created in Tradebyte.
+
+#### Prerequisites
+
+- A Tradebyte account has been created.
+- The *Tradebyte Integration* plugin has been installed.
+
+> [Info] For the *Omni-Channel* module version 4.1.0 or higher, the *Tradebyte Integration* plugin is required in at least version 1.2.0.
+
+[comment]: <> (Versions prüfen: Tradebyte Integration noch in Pre-release 1.2.1 und 4.0.0)
+
+#### Procedure
+
+*Omni-Channel > Settings > Tab CONNECTIONS*
+
+![Connection](../../Assets/Screenshots/Channels/Settings/Connections/Connection.png "[Connection]")
+
+1. Click the ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) button in the bottom right corner.    
+  The *Create connection* view is displayed.
+
+    ![Create connection](../../Assets/Screenshots/Channels/Settings/Connections/CreateConnection.png "[Create connection]")
+
+2. Enter a name for the connection in the *Name* field.
+
+3. Click the *Driver* drop-down list and select the *Tradebyte* driver.  
+  The *Credentials* section is displayed below the drop-down list.
+
+4. Enter the merchant number in the *Merchant number* field.
+
+5. Enter the shop name in the *Shop name* field.
+
+6. Enter the username and password in the corresponding *Username (REST)* and *Password (REST)* fields for API access.
+
+7. Enter the username and password in the corresponding *Username (SFTP)* and *Password (SFTP)* fields for server access.
+
+8. If desired, enable the *Test API?* toggle to activate the Tradebyte testing version. 
+	
+[comment]: <> (Unsicher, was gemeint ist; stating version, testing system? Check!)
+
+9. Click the [SAVE] button.  
+  The *Checking credentials* notice is displayed. The connection will be established and the synchronization is triggered. The *Sync triggered* pop-up window is displayed.  
+
+    ![Sync triggered](../../Assets/Screenshots/Channels/Settings/Connections/SyncTriggered.png "[Sync triggered]")
+
+    The *CONNECTIONS* tab in the *Settings* menu entry of the *Omni-Channel* module is displayed when the connection has been established. The *Tradebyte* connection is displayed in the list of connections.
+
+    ![Tradebyte connection](../../Assets/Screenshots/Channels/Settings/Connections/Tradebyte/Connection.png "[Tradebyte connection]")	
+
+10. If necessary, continue to [Configure the Tradebyte connection](#configure-the-Tradebyte-connection).
+
+
 ## Configure the Tradebyte connection   
 
 After the connection to a Tradebyte shop has been established, further settings can be configured for the connection.
 
 #### Prerequisites
 
-- A Tradebyte account has been created.
-- The *Tradebyte Integration* plugin has been installed.
-- A Tradebyte connection has been established.
-
-> [Info] For the *Omni-Channel* module version 4.1.0 or higher, the *Tradebyte Integration* plugin is required in at least version 1.0.0.
-
-[comment]: <> (Stimmt das so? In Platform Manager Tradebyte 1.0.0 bis 1.2.0 verfügbar.)
+A Tradebyte connection has been established.
 
 #### Procedure
 
@@ -24,28 +73,26 @@ After the connection to a Tradebyte shop has been established, further settings 
 ![Tradebyte connection](../../Assets/Screenshots/Channels/Settings/Connections/Tradebyte/Connection.png "[Tradebyte connection]")
 
 1. Click the Tradebyte connection in the list of connections.   
-  The *Edit connection* view is displayed. By default, the *Credentials* tab is displayed.
+  The *Edit connection* view is displayed. By default, the *Credentials* tab is selected.
 
-  ![Edit connection credentials](../../Assets/Screenshots/Channels/Settings/Connections/Tradebyte/EditConnectionCredentials.png "[Edit connection credentials]")
+    ![Edit connection credentials](../../Assets/Screenshots/Channels/Settings/Connections/Tradebyte/EditConnectionCredentials.png "[Edit connection credentials]")
 
 2. Click the *Settings* tab.   
-  The *Settings* tab is displayed. By default, the *Selected sales channels* setting is displayed. All sales channels available in Tradebyte are displayed in the right side bar. 
+  The *Settings* tab is displayed. By default, the *Selected sales channels* settings are selected. 
 
-  ![Edit connection settings](../../Assets/Screenshots/Channels/Settings/Connections/Tradebyte/EditConnectionSettings.png "[Edit connection settings]")
+    ![Edit connection settings](../../Assets/Screenshots/Channels/Settings/Connections/Tradebyte/EditConnectionSettings.png "[Edit connection settings]")
 
-3. Select the checkbox of the sales channels you want to use.  
+3. Select the checkboxes of the sales channels you want to activate.  
 
 4. Click the *Enable languages* menu entry in the left side bar.  
-    All languages available in Tradebyte are displayed in the right side bar. 
+    The language settings are displayed on the right side. 
 
-5. Enable the toggles of the languages you want to use.
+5. Enable the toggles of the languages you want to maintain in the *Actindo Core1 Platform*. All languages available in Tradebyte are displayed.
 
     > [Info] The default language is automatically set and cannot be edited.
 
-6. Click the [Save] button.  
+6. Click the [SAVE] button.  
     All changes have been saved. The *Saving successful* pop-up window is displayed
 
     ![Saving successful](../../Assets/Screenshots/Channels/Settings/Connections/SavingSuccessful.png "[Saving successful]")
 
-
-[comment]: <> (Evtl. noch Header Configure the Magento2 ETL mapping hinzufügen mit der Erklärung Tradebyte driver uses the standard ETL mapping. Therefore, there are no further specific settings/aspects to be considered... oder sowas. Gleiches gilt für Magento.)
