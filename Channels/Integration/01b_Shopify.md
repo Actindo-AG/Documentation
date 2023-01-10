@@ -113,7 +113,7 @@ A Shopify connection has been established, see [Create a Shopify connection](#cr
   + Click the *Select default Tax Class* drop-down list and select a tax class that will be set as default tax class for the offer import if no tax class could be found for the offer within Shopify. All available tax classes are displayed in the list.
   + Enter the Shopify collection names you want to assign a certain tax class to in the field of the corresponding tax class within the *Save the title of the collections for each Tax Class here* section. If you want to assign two or more collections separate them by comma and do not add spaces between them. For each available tax class, a single field is displayed.
 
-  > [Info] When importing the offers, the respective tax class is assigned to all products within collections specified in the corresponding tax class field. If a collection is not specified in any of the tax class fields, the default tax class specified in the *Select default Tax Class* drop-down list is applied to all products of this collection. Please make sure that all collection names used for import tax classes are unique in your Shopify shop.
+  > [Info] When importing the offers, the respective tax class is assigned to all products within collections specified in the corresponding tax class field. If a collection is not specified in any of the tax class fields, the default tax class specified in the *Select default Tax Class* drop-down list is applied to all products of this collection. Please make sure that all entered names for collections are unique in your Shopify shop.
 
 8. Click the [Save] button.   
   All changes have been saved. The *Saving successful* pop-up window is displayed.
