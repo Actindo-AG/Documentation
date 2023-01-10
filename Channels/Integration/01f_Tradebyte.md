@@ -1,6 +1,6 @@
 # Manage the Tradebyte connection
 
-To establish a connection to a Tradebyte shop, there are several particularities to consider. Therefore, the configuration of the Tradebyte connection is described in detail below.
+To establish a connection to a Tradebyte shop, there are several particularities to consider. Therefore,  the creation and the configuration of the Tradebyte connection are described in detail below.
 
 
 ## Create a Tradebyte connection

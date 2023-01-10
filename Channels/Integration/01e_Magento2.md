@@ -1,6 +1,6 @@
 # Manage the Magento 2 connection
 
-To establish a connection to a Magento 2 shop, there are several particularities to consider. Therefore, the configuration of the Magento 2 connection is described in detail below.
+To establish a connection to a Magento 2 shop, there are several particularities to consider. Therefore, the creation and the configuration of the Magento 2 connection are described in detail below.
 
 
 ## Create a Magento 2 connection
