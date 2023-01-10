@@ -48,7 +48,7 @@ Create the connection to a Shopify shop using the Shopify driver. Further settin
 
 6. Switch back to the *Shopify Installation* window and paste the workspace URL from your clipboard in the red highlighted part of the *Workspace URL* field.
 
-  > [Info] Make sure you are logged in to your Actindo account during setup, as this is required for installation.
+  > [Info] Make sure you are logged in to your Actindo account and have the *Shopify Integration* installed during setup, as this is required.
 
 7. Click the [START SETUP] button in the bottom right corner.   
   You are redirected to your Actindo account. The connection will be established and all necessary data will be synchronized. The *Core1 Platform* is being initialized.
@@ -89,25 +89,31 @@ A Shopify connection has been established, see [Create a Shopify connection](#cr
 
   ![Edit connection settings ID](../../Assets/Screenshots/Channels/Settings/Connections/Shopify/EditConnectionSettings_ID.png "[Edit connection settings ID]")
 
-3. If necessary, enable the *Enable OrderName as ID in Shop* toggle to use the order name instead of the order ID as ID in the Shopify shop.
+3. If necessary, enable the *Enable OrderName as ID in Shop* toggle. If activated, all new imported orders will use the order number including prefix and suffix as *ID in Shop*. The *ID in Shop* is visible in the top right corner on the order detail page in *Omni-Channels*The prefix and suffix are defined in your Shopify shop.
+
+  ![View ID in Shop](../../Assets/Screenshots/Channels/Settings/Connections/Shopify/IDinShop.png "[View ID in Shop]")
 
 4. Click the *Default Tax Class for Order import* menu entry in the left side bar.   
   The *Default Tax Class for Order import* view is displayed on the right side.
 
   ![Default Tax Class for Order import](../../Assets/Screenshots/Channels/Settings/Connections/Shopify/EditConnectionSettings_TaxClassImport.png "[Default Tax Class for Order import]")
 
-5. If necessary, click the *Select default Tax Class* drop-down list and select a tax class that will be set as default tax class for the order import if no tax class could be found for the order, neither within Shopify nor within *Omni-Channel*. All available tax classes are displayed in the list.  
+5. If necessary, click the *Select default Tax Class* drop-down list and select a tax class that will be set as default tax class for the order import if no tax class could be found for the order, neither within Shopify nor within *Omni-Channel*. All available tax classes are displayed in the list. This setting shouldn't be empty.
 
 6. Click the *Configuration for Offer import* menu entry in the left side bar.   
   The *Configuration for Offer import* view is displayed on the right side.
 
   ![Configuration for Offer import](../../Assets/Screenshots/Channels/Settings/Connections/Shopify/EditConnectionSettings_ConfigurationImport.png "[Configuration for Offer import]")
 
-7. If necessary, configure the following settings:
-  + Click the *Select default Tax Class* drop-down list and select a tax class that will be set as default tax class for the offer import if no tax class could be found for the offer, neither within Shopify nor within *Omni-Channel*. All available tax classes are displayed in the list.  
-  + Enter the Shopify collection names you want to assign a certain tax class to in the field of the corresponding tax class within the *Save the title of the collections for each Tax Class here* section. For each available tax class, a single field is displayed.   
+[comment]: <> (maybe you can use this, where the comma separation is depicted, needs some work on the image though)
 
-  > [Info] When importing the offers, the respective tax class is assigned to all products within collections specified in the corresponding tax class field. If a collection is not specified in any of the tax class fields, the default tax class specified in the *Select default Tax Class* drop-down list is applied to all products of this collection.
+  ![Configuration for Offer import V2](../../Assets/Screenshots/Channels/Settings/Connections/Shopify/EditConnectionSettings_ConfigurationImport_V2.png "[Configuration for Offer import V2]")
+
+7. If necessary, configure the following settings:
+  + Click the *Select default Tax Class* drop-down list and select a tax class that will be set as default tax class for the offer import if no tax class could be found for the offer within Shopify. All available tax classes are displayed in the list.
+  + Enter the Shopify collection names you want to assign a certain tax class to in the field of the corresponding tax class within the *Save the title of the collections for each Tax Class here* section. If you want to assign two or more collections separate them by comma and do not add spaces between them. For each available tax class, a single field is displayed.
+
+  > [Info] When importing the offers, the respective tax class is assigned to all products within collections specified in the corresponding tax class field. If a collection is not specified in any of the tax class fields, the default tax class specified in the *Select default Tax Class* drop-down list is applied to all products of this collection. Please make sure that all collection names used for import tax classes are unique in your Shopify shop.
 
 8. Click the [Save] button.   
   All changes have been saved. The *Saving successful* pop-up window is displayed.
@@ -117,10 +123,13 @@ A Shopify connection has been established, see [Create a Shopify connection](#cr
 
 ## Configure the Shopify ETL mapping
 
-In Shopify, there are especially three attributes that are important for the correct upload of products in the Shopify shop, namely *Permit oversales*, *Taxes*, and *Dispatch required*. 
+In Shopify, there are especially three attributes that are important for the correct upload of products in the Shopify shop, namely *Allow oversales*, *Taxes*, and *Dispatch required*.
 When the connection to a Shopify shop is established, the corresponding attribute set to the Shopify shop is automatically created. Further, the attribute set mapping from the *PIM basic set* to the Shopify shop is automatically created if the *PIM* module as well as the *PIM-Channels connection* plugin have been installed at the time of connection. In this case, also the three attributes specified above are automatically mapped with a predefined constant value.
-Otherwise, the affected attributes (*Permit oversales*, *Taxes*, and *Dispatch required*) must be created manually in the *PIM* module, and the attribute set mapping must also be created manually.
+Otherwise, the affected attributes (*Allow oversales*, *Taxes*, and *Dispatch required*) must be created manually in the *PIM* module, and the attribute set mapping must also be created manually. This also has to be done if you don't want to use the predefined constant values.
 Anyway, it is recommended to check the attribute mappings described below to enable the correct upload of products.
+Important: If you use other attribute sets in your *PIM* no mapping from this set to the shopify attribute set will be created automatically. This mapping has to be created manually.
+
+[comment]: <> (is there a guid for creating mapping? insert a link here if possible)
 
 ### Configure the oversells permission
 
@@ -143,7 +152,11 @@ By default, the corresponding attribute mapping is already configured as describ
 
   ![Mapping Shopify](../../Assets/Screenshots/DataHub/Settings/ETL/MappingShopify.png "[Mapping Shopify]")
 
+[comment]: <> (added the MappingShopify.png, again needs some work to remove unneeded parts of the image)
+
 [comment]: <> (Ist das mapping immer vom PIM basisset auf das shopifyset? oder ist das variabel, welches Attributset das source attribute set ist?)
+
+[comment]: <> (Das automatische mapping geht nur mit dem PIM basisset. Falls eine Kunde nicht nur das Basisset verwendet muss er das mapping für dies sets selber anlegen.)
 
 2. Click the row of the *Permit oversells* destination attribute on the left side.   
   The *Settings* section for the *Permit oversells* attribute mapping is displayed on the right side.
@@ -206,7 +219,7 @@ By default, the corresponding attribute mapping is already configured as describ
 
 ### Configure the requirement for dispatch
 
-The *Dispatch required* attribute is an important attribute regarding the Shopify connection. This attribute ensures that taxes are applied to the products.    
+The *Dispatch required* attribute is an important attribute regarding the Shopify connection. This attribute ensures that the product requires shipment.
 By default, the corresponding attribute mapping is already configured as described below, if the *PIM* module as well as the *PIM-Channels connection* plugin have been installed at the time of connection. Nevertheless, you should check the correct mapping to prevent any problems during the upload process.
 
 #### Prerequisites
