@@ -106,8 +106,8 @@ At least two products have been created, see [Create a product](#create-a-produc
 
   ![Mass editing](../../Assets/Screenshots/PIM/Products/List/MassEditing.png "[Mass editing]")
 
-   > [Info] You can still add products to the mass editing process when the side bar is displayed. Just select the checkboxes of the products in the list and click the [MASS EDITING >] button in the editing toolbar to add the selected products to the mass editing list.    
-   To remove a product from the mass editing list, click the ![Remove](../../Assets/Icons/Trash01.png "[Remove]") (Remove) button right to the respective product. The ![Remove](../../Assets/Icons/Trash01.png "[Remove]") (Remove) button is only displayed if you hover over a product in the list.
+    > [Info] You can still add products to the mass editing process when the side bar is displayed. Just select the checkboxes of the products in the list and click the [MASS EDITING >] button in the editing toolbar to add the selected products to the mass editing list.    
+    To remove a product from the mass editing list, click the ![Remove](../../Assets/Icons/Trash01.png "[Remove]") (Remove) button right to the respective product. The ![Remove](../../Assets/Icons/Trash01.png "[Remove]") (Remove) button is only displayed if you hover over a product in the list.
 
 3. Click the [START] button in the upper right corner of the side bar to start the mass editing wizard.   
   The *Select Attributes* wizard window is displayed.
@@ -126,7 +126,7 @@ At least two products have been created, see [Create a product](#create-a-produc
 
 6. Edit the desired product data in the corresponding fields.  
 
-   > [Info] Click the ![Points](../../Assets/Icons/Points02.png "[Points]") (Points) button next to an attribute value field to apply the corresponding value to either all attributes in the column or to the attributes in the column of the selected products.   
+    > [Info] Click the ![Points](../../Assets/Icons/Points02.png "[Points]") (Points) button next to an attribute value field to apply the corresponding value to either all attributes in the column or to the attributes in the column of the selected products.   
 
 7.  Click the [CONTINUE] button in the bottom right corner.   
 The *Applying changes* wizard window and the *Mass editing has been triggered* pop-up window are displayed.
@@ -251,13 +251,13 @@ If you want to offer the product on a single connection only or you have just on
 6. Click the [SAVE] button in the bottom right corner of the *Create offer* window.   
   The single offer is added to the list of offers. The *Create offer* window is closed.
 
-   > [Info] The product must be saved to start the creation process of the offer.
+    > [Info] The product must be saved to start the creation process of the offer.
 
 
 7. Click the [SAVE] button in the upper right corner of the *Edit product* view.   
   The *Edit product* view is closed. The *LIST* tab with the product list is displayed again. The new offer will be created.
 
-   > [Info] The offer creation is performed asynchronously. That means that it may take  some time until the offer has been finally created.
+    > [Info] The offer creation is performed asynchronously. That means that it may take  some time until the offer has been finally created.
 
 
 
@@ -325,9 +325,9 @@ To create offers to a product for several connections at the same time, you can 
 
   ![Select destination attribute sets](../../Assets/Screenshots/PIM/Products/List/Offers/MultipleConnections02.png "[Select destination attribute sets]")
 
-   > [Info] The attribute destination sets for the selected connections are automatically selected. You cannot edit the selection.
+    > [Info] The attribute destination sets for the selected connections are automatically selected. You cannot edit the selection.
 
-  [comment]: <> (Is that correct? Why does this window exist when I cannot make any changes?)
+[comment]: <> (Is that correct? Why does this window exist when I cannot make any changes?)
 
 7. Click the [FINISH] button in the bottom right corner of the window.   
   The new offers are added to the list of offers. The *Select destination attribute sets* wizard window is closed.

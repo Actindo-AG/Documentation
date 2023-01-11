@@ -137,7 +137,7 @@ At least one attribute has been created, see [Create an attribute](#create-an-at
 
   ![Edit attribute assignments](../../Assets/Screenshots/PIM/Settings/Attributes/EditAttribute_Assignments.png "[Edit attribute assignments]")
 
-   > [Info] If you want to change the attribute set assignments of the selected attribute, you have to modify the corresponding attribute set, see [Manage an attribute set](./02_ManageAttributeSets.md).
+    > [Info] If you want to change the attribute set assignments of the selected attribute, you have to modify the corresponding attribute set, see [Manage an attribute set](./02_ManageAttributeSets.md).
 
 4. Click the [SAVE] button in the upper right corner.   
   The changes have been saved. The *Edit attribute* view is closed.  

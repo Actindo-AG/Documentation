@@ -1,10 +1,12 @@
-[!!Warehouse](../../RetailSuiteWarehousing/Overview/01_General.md)
 [!!User interface Product list](../UserInterface/02a_List.md)
-[!!User interface Warehouse](../../RetailSuiteWarehousing/UserInterface/00_UserInterface.md)
 [!!Data type list](../../Datahub/UserInterface/04_DataTypeList.md)
+
+[comment]: <> (add links to Warehouse, UI Warehouse)
 
 
 # Add a missing stock value
+
+If the *PIM* module and the *Warehouse* module are correctly configured, the stock of a product in the warehouse can be displayed in an attribute field in the *PIM* module.
 
 #### Error Description
 
@@ -50,10 +52,10 @@ No prerequisites to fulfill.
 
 8. Switch to the *Attributes* tab and check if the stock value is displayed.
 
-   > [Info] If the stock value is still missing, please contact the Customer Support.    
+    > [Info] If the stock value is still missing, please contact the Customer Support.    
 
 
 
-## Was this chapter helpful?
+#### Was this chapter helpful?
 
 If you need further assistance, please contact the Customer Support.

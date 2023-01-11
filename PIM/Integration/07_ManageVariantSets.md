@@ -49,7 +49,6 @@ An attribute set has been created, see [Create an attribute set](./02_ManageAttr
     - [Add defining attributes](#add-defining-attributes)
     - [Add changeable attributes](#add-changeable-attributes)
 
-
     > [Info] At least one defining attribute is required to create a variant set. Changeable attributes can be selected optionally.
 
 
@@ -187,4 +186,4 @@ A variant set has been created, see [Create a variant set](#create-a-variant-set
 4. Click the [SAVE] button in the upper right corner.   
   The changes have been saved. The *Edit variant set* view is closed.
 
-  [comment]: <> (I have to refresh the list to apply the changes - is that a bug?)
+[comment]: <> (I have to refresh the list to apply the changes - is that a bug?)

@@ -4,9 +4,11 @@
 
 # Edit a limited number of decimal places
 
+Different product number fields require entering a floating point number. The number of decimal places for these floating point numbers is configured in the corresponding attribute settings.
+
 #### Error Description
 
-When entering a floating number in a product attribute field with the *Floating point number*, *Stock vValue* or *PIM Price field* data type, the places of decimals are limited.
+When entering a floating number in a product attribute field with the *Floating point number*, *Stock value* or *PIM Price field* data type, the places of decimals are limited.
 
 Follow the instructions below to check why the number of decimals is limited and, if applicable, change the number of decimal places.
 
@@ -51,6 +53,6 @@ No prerequisites to fulfill.
 
 
 
-## Was this chapter helpful?
+#### Was this chapter helpful?
 
 If you need further assistance, please contact the Customer Support.

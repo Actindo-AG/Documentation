@@ -35,7 +35,7 @@ A variant set has been created to the attribute set of the product you want to a
 
 3. Enter a SKU for the product in the *SKU* field.
 
-   > [Info] The SKU (Stock Keeping Unit) is an identification number for the product. Therefore, it should be unique within the *PIM* module.
+    > [Info] The SKU (Stock Keeping Unit) is an identification number for the product. Therefore, it should be unique within the *PIM* module.
 
 4. Click the [CREATE] button.   
   The *Create product* view is displayed. The *Attributes* tab is preselected.
@@ -136,7 +136,7 @@ A variant set has been created to the attribute set of the product you want to a
 
 6. Check if all variants listed in the *Variants that will be created (ignoring duplicated)* box are correct.
 
-   > [Info] To remove a variant from the list, select the checkbox of the variant and click the ![Delete](../../Assets/Icons/Trash03.png "[Delete]") (Delete) button in the editing toolbar displayed above the list.
+    > [Info] To remove a variant from the list, select the checkbox of the variant and click the ![Delete](../../Assets/Icons/Trash03.png "[Delete]") (Delete) button in the editing toolbar displayed above the list.
 
 7. Click the [FINISH] button in the bottom right corner.   
   The new variants have been added to the product. The *Summary* wizard window is closed. The variants are displayed in the variants list.
@@ -214,7 +214,7 @@ At least one variant has been created, see [Create variants](#create-variants) o
 
 3. Go to the attributes that are not defined by the master product and edit the desired data of the variant.
 
-   > [Info] Note that changes of the defining attributes are also applied to the variant settings of the master product. Especially if you are using a SKU with the defining attribute values as a placeholder, it is not recommended to modify a defining attribute value.
+    > [Info] Note that changes of the defining attributes are also applied to the variant settings of the master product. Especially if you are using a SKU with the defining attribute values as a placeholder, it is not recommended to modify a defining attribute value.
 
 4. Click the [SAVE] button in the upper right corner.   
   The changes have been saved. The *Edit product* view is closed.

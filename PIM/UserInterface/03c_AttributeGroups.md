@@ -56,12 +56,10 @@ The list displays all attributes assigned to the selected attribute group. Depen
 - *Plugin*   
   Module or plugin that owns the attribute. In the *PIM* module, only PIM attributes are displayed.
 
-
 - *Read-only*   
   Indication whether the attribute is read-only or not:
   - ![Check](../../Assets/Icons/Check.png "[Check]") (Checkmark): The attribute is read-only.  
   - ![Cross](../../Assets/Icons/Cross02.png "[Cross]") (Cross): The attribute can be edited.
-
 
 - *ID*   
   Attribute identification number. The ID number is automatically assigned by the system.
@@ -121,12 +119,10 @@ The list displays all attributes that are not assigned to the selected attribute
   - ![Status](../../Assets/Icons/Status01.png "[Status]") **Active**
   - ![Status](../../Assets/Icons/Status04.png "[Status]") **Inactive**   
 
-
 - *Read-only*   
   Indication whether the attribute is read-only or not:
   - ![Check](../../Assets/Icons/Check.png "[Check]") (Checkmark): The attribute is read-only.  
   - ![Cross](../../Assets/Icons/Cross02.png "[Cross]") (Cross): The attribute can be edited.
-
 
 - *ID*   
   Attribute identification number. The ID number is automatically assigned by the system.
@@ -175,12 +171,10 @@ The list displays all attributes that are not assigned to the selected attribute
 
 > [Info] The *Add element* window for attribute groups and sub-groups is identical.
 
-
 - Language   
   Click the drop-down list and select the system language in which the *Name (Language)* and *Description (Language)* fields are displayed. By default, the following options are available:
   - **English (United States)**
   - **Deutsch (Deutschland)**
-
 
 - *Name (Language)*   
   Enter an attribute group name in the selected language.
@@ -205,12 +199,10 @@ The list displays all attributes that are not assigned to the selected attribute
 
 > [Info] The *Edit attribute group data* window for attribute groups and sub-groups is identical.
 
-
 - Language   
   Click the drop-down list and select the system language in which the *Name (Language)* and *Description (Language)* fields are displayed. By default, the following options are available:
   - **English (United States)**
   - **Deutsch (Deutschland)**
-
 
 - *Name (Language)*   
   Click the field to edit the attribute group name in the selected language.
@@ -223,7 +215,7 @@ The list displays all attributes that are not assigned to the selected attribute
 
   > [Info] You must click the [SAVE] button in the *Edit attribute groups* view to permanently delete the attribute group.
 
-  > [Warning] Be aware that as soon as you delete an attribute group, you also delete all assigned attribute sub-groups.
+  > [Caution] Be aware that as soon as you delete an attribute group, you also delete all assigned attribute sub-groups.
 
 - [CANCEL]   
   Click this button to cancel editing the attribute group. The *Edit attribute group data* window is closed.

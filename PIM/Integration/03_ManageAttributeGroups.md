@@ -141,7 +141,7 @@ At least two attribute groups have been created, see [Create an attribute group]
 1. Click the ![Edit](../../Assets/Icons/Edit02.png "[Edit]") (Edit) button to the right of the *Attribute groups* section in the left column.   
   The *Edit attribute groups* view is displayed.
 
- ![Edit attribute groups](../../Assets/Screenshots/PIM/Settings/AttributeGroups/EditAttributeGroups.png "[Edit attribute groups]")
+  ![Edit attribute groups](../../Assets/Screenshots/PIM/Settings/AttributeGroups/EditAttributeGroups.png "[Edit attribute groups]")
 
 2. Click and hold the ![Sort](../../Assets/Icons/Sort01.png "[Sort]") (Sort) button to the left of the attribute group you want to move to another position in the list.
 
@@ -214,7 +214,7 @@ If you add an attribute to an attribute group that is already added to another g
 1. Click the attribute group or sub-group to which you want to add an attribute.   
   The selected attribute group is highlighted. The attributes assigned to the group are displayed on the right side.
 
-   > [Info] If an attribute group has at least one attribute sub-group, you can only add an attribute to the sub-group.
+    > [Info] If an attribute group has at least one attribute sub-group, you can only add an attribute to the sub-group.
 
   ![Group attributes](../../Assets/Screenshots/PIM/Settings/AttributeGroups/GroupAttributes.png "[Group attributes]")
 

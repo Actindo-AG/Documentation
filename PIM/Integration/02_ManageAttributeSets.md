@@ -32,7 +32,7 @@ Additional attributes for the attribute set have been created, see [Create an at
 1. Click the ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) button in the bottom right corner.   
   The *Create attribute set* view is displayed.
 
-    ![Create attribute set](../../Assets/Screenshots/PIM/Settings/AttributeSets/CreateAttributeSet.png "[Create attribute set]")
+  ![Create attribute set](../../Assets/Screenshots/PIM/Settings/AttributeSets/CreateAttributeSet.png "[Create attribute set]")
 
 2. Enter a name for the attribute set in the *Name* field and, if desired, add an attribute set description in the *Description* field.
 

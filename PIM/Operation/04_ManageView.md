@@ -59,12 +59,12 @@ At least two channels have been created and activated in the *PIM* module, see [
 1. Click the *Channel* drop-down list in the left column.  
   All channels that are activated in the *PIM* module are displayed in the list.   
 
-   > [Info] For detailed information about activating a channel in the *PIM* module, see [Configure the channel settings](../Integration/05_ConfigureChannels.md).
+    > [Info] For detailed information about activating a channel in the *PIM* module, see [Configure the channel settings](../Integration/05_ConfigureChannels.md).
 
 2. Select the desired channel in the *Channel* drop-down list.   
   The multi-channel values in the columns have been changed to the values in the selected channel. All single channel values remain unchanged.
 
-   > [Info]  If a product has no attribute value defined in the selected channel, the value in the corresponding column remains blank.
+    > [Info]  If a product has no attribute value defined in the selected channel, the value in the corresponding column remains blank.
 
 
 
@@ -97,7 +97,7 @@ You can select a product category to limit the number of products to those assig
 
   ![Select category](../../Assets/Screenshots/PIM/Products/List/SelectCategory.png "[Select category]")
 
-   > [Info] When you create a product, it will be automatically assigned to the currently selected category.
+    > [Info] When you create a product, it will be automatically assigned to the currently selected category.
 
 
 
@@ -169,7 +169,7 @@ No prerequisites to fulfill.
 
   ![View context menu](../../Assets/Screenshots/PIM/Products/List/ViewContextMenu.png "[View context menu]")
 
-   > [Info] If no view is selected when clicking the ![Points](../../Assets/Icons/Points01.png "[Points]") (Points) button, only the *+ create* menu entry is displayed in the context menu.
+  > [Info] If no view is selected when clicking the ![Points](../../Assets/Icons/Points01.png "[Points]") (Points) button, only the *+ create* menu entry is displayed in the context menu.
 
 5. Click the *+ create* menu entry in the context menu.   
   The *Create view* window is displayed.

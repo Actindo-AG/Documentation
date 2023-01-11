@@ -5,6 +5,8 @@
 
 # Add a missing defining attribute
 
+At least one defining attribute is required to create a variant set. When adding defining attributes to a variant set, a list of all available defining attributes is displayed.  
+
 #### Error Description
 
 A certain attribute is missing in the list of defining attributes for a variant set.
@@ -60,13 +62,13 @@ No prerequisites to fulfill.
 
 10. Check if the respective attribute is displayed in the list.
 
-   > [Info] If necessary, click the ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh) button to update the list of defining attributes.    
-   If the attribute is still not displayed, please contact the Customer Support.    
+    > [Info] If necessary, click the ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh) button to update the list of defining attributes.    
+    If the attribute is still not displayed, please contact the Customer Support.    
 
-11. Add the attribute to the variant set as described in [Add defining attributes](../Integration/07_ManageVariantSets.md#add-defining-attributes).
+11. Add the attribute to the variant set, see [Add defining attributes](../Integration/07_ManageVariantSets.md#add-defining-attributes).
 
 
 
-## Was this chapter helpful?
+#### Was this chapter helpful?
 
 If you need further assistance, please contact the Customer Support.

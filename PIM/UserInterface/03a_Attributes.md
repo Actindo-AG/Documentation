@@ -38,12 +38,10 @@ The list displays all attributes. Depending on the settings, the displayed colum
 - *Name*   
   Attribute name.
 
-
 - *Status*   
   Attribute status. The following options are available:
   - ![Status](../../Assets/Icons/Status01.png "[Status]") **Active**
   - ![Status](../../Assets/Icons/Status04.png "[Status]") **Inactive**   
-
 
 - *Group*   
   Attribute group assigned to the attribute. If the attribute is not assigned to any attribute group, *not assigned* is displayed.
@@ -57,23 +55,20 @@ The list displays all attributes. Depending on the settings, the displayed colum
 - *Description*   
   Description to the attribute.
 
-
 - *Multi-language*   
   Indication whether the attribute is multi-language or not:
   - ![Check](../../Assets/Icons/Check.png "[Check]") (Checkmark): The attribute is multi-language.  
   - ![Cross](../../Assets/Icons/Cross02.png "[Cross]") (Cross): The attribute is single language.
-
 
 - *Multi-channel*   
   Indication whether the attribute is multi-channel or not:  
   - ![Check](../../Assets/Icons/Check.png "[Check]") (Checkmark): The attribute is multi-channel.  
   - ![Cross](../../Assets/Icons/Cross02.png "[Cross]") (Cross): The attribute is single channel.
 
-
 - *Plugin*   
   Module or plugin that owns the attribute. In the *PIM* module, only PIM attributes are displayed.
 
-  [comment]: <> (What sense has this column in the PIM module when only PIM attributes are displayed?)
+[comment]: <> (What sense has this column in the PIM module when only PIM attributes are displayed?)
 
 - *ID*   
   Attribute identification number. The ID number is automatically assigned by the system.
@@ -111,12 +106,10 @@ The list displays all attributes. Depending on the settings, the displayed colum
 - ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)   
   Click this button to close the *Create attribute* view and return to the attributes list. All changes are rejected.
 
-
 - Language      
   Click the drop-down list and select the system language in which the *Name (Language)* and *Description (Language)* fields are displayed. By default, the following options are available:
   - **English (United States)**
   - **Deutsch (Deutschland)**
-
 
 - [SAVE]   
   Click this button to save the attribute. The *Create attribute* view is closed.
@@ -132,13 +125,11 @@ The list displays all attributes. Depending on the settings, the displayed colum
 - *Data type*   
   Click the drop-down list and select an attribute data type. The ![Add](../../Assets/Icons/Plus05.png "[Add]") (Add) button in the *Assigned sets* field is unlocked.   
 
-
 - *Key*   
   Enter an attribute key. The key is required for API access and must be system wide unique. An attribute key must fulfill the following criteria:
-    - valid characters are **a-z** (upper and lower case), **0-9** and the underscore ( **_** )
-    - the key must not start with a number
-    - a double underscore ( **___** ) and a trailing underscore are forbidden
-
+  - valid characters are **a-z** (upper and lower case), **0-9** and the underscore ( **_** )
+  - the key must not start with a number
+  - a double underscore ( **___** ) and a trailing underscore are forbidden
 
 - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Multi-language*   
   Enable this toggle to create a multi-lingual attribute. Disable the toggle to create a single language attribute. By default, this toggle is disabled.
@@ -149,7 +140,6 @@ The list displays all attributes. Depending on the settings, the displayed colum
 - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Active*   
   Enable this toggle to set the attribute status to active. Disable the toggle to set the status to inactive. By default, this toggle is enabled.
 
-
 - *Assigned sets*   
   Click the drop-down list and select an attribute set to which the attribute is assigned after creation. All active attribute sets are displayed. This drop-down list is only displayed if you have previously clicked the ![Add](../../Assets/Icons/Plus05.png "[Add]") (Add) button.
   - ![Add](../../Assets/Icons/Plus05.png "[Add]") (Add)    
@@ -157,7 +147,7 @@ The list displays all attributes. Depending on the settings, the displayed colum
   - ![Delete](../../Assets/Icons/Trash01.png "[Delete]") (Delete)   
     Click this button to delete the corresponding attribute set.
 
-  > [Info] If you do not assign the attribute to an attribute set at this point, you will have to do it afterwards in the corresponding attribute set(s), see [Add an attribute to the set](../Integration/02_ManageAttributeSets.md#add-an-attribute-to-the-set).
+  > [Info] If you do not assign the attribute to an attribute set at this point, you will have to do it afterwards in the corresponding attribute set(s).
 
 
 **CONFIGURATION**
@@ -176,12 +166,10 @@ As some data types have no further configuration settings, no *CONFIGURATION* se
 - ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)   
   Click this button to close the *Edit attribute* view and return to the attributes list. All changes are rejected.
 
-
 - Language      
   Click the drop-down list and select the system language in which the *Name (Language)* and *Description (Language)* fields are displayed. By default, the following options are available:
   - **English (United States)**
   - **Deutsch (Deutschland)**
-
 
 - [SAVE]   
   Click this button to save the attribute. The *Edit attribute* view is closed.
@@ -239,18 +227,15 @@ The list displays all attributes. Depending on the settings, the displayed colum
 - *Attribute set*   
   Assigned attribute set.
 
-
 - *Required*   
   Indication whether the attribute is a required field in the attribute set or not:
   - ![Check](../../Assets/Icons/Check.png "[Check]") (Checkmark): The attribute is required.  
   - ![Cross](../../Assets/Icons/Cross02.png "[Cross]") (Cross): The attribute is optional.
 
-
 - *Inherited*   
   Indication whether the attribute is an inherited attribute to the attribute set or not:
   - ![Check](../../Assets/Icons/Check.png "[Check]") (Checkmark): The attribute is inherited.  
   - ![Cross](../../Assets/Icons/Cross02.png "[Cross]") (Cross): The attribute is not inherited.
-
 
 - *Calculated field*   
   Indication whether the attribute is calculated by an ETL mapping from other fields to itself or not:
