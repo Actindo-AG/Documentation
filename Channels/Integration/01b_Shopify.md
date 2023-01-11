@@ -44,16 +44,16 @@ Create the connection to a Shopify shop using the Shopify driver. Further settin
 
 5. Switch to your Actindo account and copy the workspace URL of your Actindo account from the address bar to the clipboard.
 
-  > [Info] The workspace URL is the part of the URL between *https://* and *.actindo.com*.
+    > [Info] The workspace URL is the part of the URL between *https://* and *.actindo.com*.
 
 6. Switch back to the *Shopify Installation* window and paste the workspace URL from your clipboard in the red highlighted part of the *Workspace URL* field.
 
-  > [Info] Make sure you are logged in to your Actindo account during setup, as this is required for installation.
+    > [Info] Make sure you are logged in to your Actindo account during setup, as this is required for installation.
 
 7. Click the [START SETUP] button in the bottom right corner.   
   You are redirected to your Actindo account. The connection will be established and all necessary data will be synchronized. The *Core1 Platform* is being initialized.
 
-  > [Info] It may take several minutes until the connection has been established and the sync has been completed.
+   > [Info] It may take several minutes until the connection has been established and the sync has been completed.
 
   ![Initialize platform](../../Assets/Screenshots/Channels/Settings/Connections/InitializeCore1.png "[Initialize platform]")
 
@@ -61,7 +61,7 @@ Create the connection to a Shopify shop using the Shopify driver. Further settin
 
   ![Shopify connection](../../Assets/Screenshots/Channels/Settings/Connections/Shopify/Connection.png "[Shopify connection]")
 
-8. If necessary, continue to [configure the Shopify connection](#configure-the-Shopify-connection).
+8. If necessary, continue to configure the Shopify connection settings, see [Configure the Shopify connection](#configure-the-Shopify-connection).
 
 
 
@@ -89,14 +89,18 @@ A Shopify connection has been established, see [Create a Shopify connection](#cr
 
   ![Edit connection settings ID](../../Assets/Screenshots/Channels/Settings/Connections/Shopify/EditConnectionSettings_ID.png "[Edit connection settings ID]")
 
-3. If necessary, enable the *Enable OrderName as ID in Shop* toggle to use the order name instead of the order ID as ID in the Shopify shop.
+3. If necessary, enable the *Enable OrderName as ID in Shop* toggle. If enabled, all new imported to use the order number including the prefix and suffix as ID in the Shopify shop. If disabled, only the order ID is displayed as ID in the Shopify shop.
+
+    > [Info] The order ID is displayed in the *Remote ID* column of the *Orders* view and in the header of the *Order from connection "Connection name"* view, see [User interface Orders](../UserInterface/05a_Orders.md). The prefix and the suffix are defined in your Shopify shop.
 
 4. Click the *Default Tax Class for Order import* menu entry in the left side bar.   
   The *Default Tax Class for Order import* view is displayed on the right side.
 
   ![Default Tax Class for Order import](../../Assets/Screenshots/Channels/Settings/Connections/Shopify/EditConnectionSettings_TaxClassImport.png "[Default Tax Class for Order import]")
 
-5. If necessary, click the *Select default Tax Class* drop-down list and select a tax class that will be set as default tax class for the order import if no tax class could be found for the order, neither within Shopify nor within *Omni-Channel*. All available tax classes are displayed in the list.  
+5. Click the *Select default Tax Class* drop-down list and select a tax class that will be set as default tax class for the order import if no tax class could be found for the order within Shopify. All available tax classes are displayed in the list. 
+
+    > [Info] This setting is important for correct functionality and should therefore always be set.
 
 6. Click the *Configuration for Offer import* menu entry in the left side bar.   
   The *Configuration for Offer import* view is displayed on the right side.
@@ -104,27 +108,31 @@ A Shopify connection has been established, see [Create a Shopify connection](#cr
   ![Configuration for Offer import](../../Assets/Screenshots/Channels/Settings/Connections/Shopify/EditConnectionSettings_ConfigurationImport.png "[Configuration for Offer import]")
 
 7. If necessary, configure the following settings:
-  + Click the *Select default Tax Class* drop-down list and select a tax class that will be set as default tax class for the offer import if no tax class could be found for the offer, neither within Shopify nor within *Omni-Channel*. All available tax classes are displayed in the list.  
-  + Enter the Shopify collection names you want to assign a certain tax class to in the field of the corresponding tax class within the *Save the title of the collections for each Tax Class here* section. For each available tax class, a single field is displayed.   
+    + Click the *Select default Tax Class* drop-down list and select a tax class that will be set as default tax class for the offer import if no tax class could be found for the offer within Shopify. All available tax classes are displayed in the list.  
+    + Enter the Shopify collection names you want to assign a certain tax class to in the field of the corresponding tax class within the *Save the title of the collections for each Tax Class here* section. To assign multiple collections to a tax class, separate the names with a comma, but without adding spaces. For each available tax class, a single field is displayed. Make sure that all collection names entered are unique in your Shopify store.   
 
-  > [Info] When importing the offers, the respective tax class is assigned to all products within collections specified in the corresponding tax class field. If a collection is not specified in any of the tax class fields, the default tax class specified in the *Select default Tax Class* drop-down list is applied to all products of this collection.
+    > [Info] When importing the offers, the respective tax class is assigned to all products within collections specified in the corresponding tax class field. If a collection is not specified in any of the tax class fields, the default tax class specified in the *Select default Tax Class* drop-down list is applied to all products of this collection. 
 
 8. Click the [Save] button.   
   All changes have been saved. The *Saving successful* pop-up window is displayed.
 
-  ![Saving successful](../../Assets/Screenshots/Channels/Settings/Connections/SavingSuccessful.png "[Saving successful]")
+ ![Saving successful](../../Assets/Screenshots/Channels/Settings/Connections/SavingSuccessful.png "[Saving successful]")
 
 
 ## Configure the Shopify ETL mapping
 
-In Shopify, there are especially three attributes that are important for the correct upload of products in the Shopify shop, namely *Permit oversales*, *Taxes*, and *Dispatch required*. 
-When the connection to a Shopify shop is established, the corresponding attribute set to the Shopify shop is automatically created. Further, the attribute set mapping from the *PIM basic set* to the Shopify shop is automatically created if the *PIM* module as well as the *PIM-Channels connection* plugin have been installed at the time of connection. In this case, also the three attributes specified above are automatically mapped with a predefined constant value.
-Otherwise, the affected attributes (*Permit oversales*, *Taxes*, and *Dispatch required*) must be created manually in the *PIM* module, and the attribute set mapping must also be created manually.
-Anyway, it is recommended to check the attribute mappings described below to enable the correct upload of products.
+In Shopify, there are especially three attributes that are important for the correct upload of products in the Shopify shop, namely *Allow oversells*, *Taxes*, and *Dispatch required*.   
+When the connection to a Shopify shop is established, the corresponding attribute set to the Shopify shop is automatically created. Further, the attribute set mapping from the *PIM basic set* to the Shopify shop is automatically created if the *PIM* module as well as the *PIM-Channels connection* plugin have been installed at the time of connection. In this case, also the three attributes specified above are automatically mapped with a predefined constant value.      
+
+> [Info] Note that the attribute set mapping is created automatically only for the *PIM basic set*. For all other attribute sets used in the *PIM* module, you must create the mapping manually, see [Create an ETL attribute set mapping](../../DataHub/Operation/01_ManageETLMappings.md#create-an-etl-attribute-set-mapping).   
+
+Otherwise, the affected attributes (*Allow oversells*, *Taxes*, and *Dispatch required*) must be created manually in the *PIM* module, and the attribute set mapping must also be created manually. The manual creation must also be done if you want to use customized values for the attributes instead of the predefined constant values.   
+Anyway, it is recommended to check the attribute mappings described below to enable the correct upload of products. 
+
 
 ### Configure the oversells permission
 
-The *Permit oversells* attribute is an important attribute regarding the Shopify connection. This attribute ensures that products whose stock reaches zero are displayed as sold out in the Shopify shop. 
+The *Allow oversells* attribute is an important attribute regarding the Shopify connection. This attribute ensures that products whose stock reaches zero are displayed as sold out in the Shopify shop.    
 By default, the corresponding attribute mapping is already configured as described below, if the *PIM* module as well as the *PIM-Channels connection* plugin have been installed at the time of connection. Nevertheless, you should check the correct mapping to prevent any problems during the upload process.
 
 #### Prerequisites
@@ -143,17 +151,15 @@ By default, the corresponding attribute mapping is already configured as describ
 
   ![Mapping Shopify](../../Assets/Screenshots/DataHub/Settings/ETL/MappingShopify.png "[Mapping Shopify]")
 
-[comment]: <> (Ist das mapping immer vom PIM basisset auf das shopifyset? oder ist das variabel, welches Attributset das source attribute set ist?)
-
-2. Click the row of the *Permit oversells* destination attribute on the left side.   
-  The *Settings* section for the *Permit oversells* attribute mapping is displayed on the right side.
+2. Click the row of the *Allow oversells* destination attribute on the left side.   
+  The *Settings* section for the *Allow oversells* attribute mapping is displayed on the right side.
 
   ![Mapping oversell](../../Assets/Screenshots/Channels/Settings/Connections/Shopify/ETLOversells.png "[Mapping oversell]")
 
-3. Select the **Constant value** option in the *Extension* drop-down list in the *Settings* section.
+3. Click the *Extension* drop-down list in the *Settings* section and select the **Constant value** option.
   The *Configuration* section is displayed below the *Settings* section.
 
-4. Click the *Permit oversells* drop-down list in the *Configuration* section and select the **No** option.
+4. Click the *Allow oversells* drop-down list in the *Configuration* section and select the **No** option.
 
   ![Constant value oversell](../../Assets/Screenshots/Channels/Settings/Connections/Shopify/ETLOversellsConstant.png "[Constant value oversell]")
 
@@ -190,7 +196,7 @@ By default, the corresponding attribute mapping is already configured as describ
 
   ![Mapping taxes](../../Assets/Screenshots/Channels/Settings/Connections/Shopify/ETLTaxes.png "[Mapping taxes]")
 
-3. Select the **Constant value** option in the *Extension* drop-down list in the *Settings* section.
+3. Click the *Extension* drop-down list in the *Settings* section and select the **Constant value** option.
   The *Configuration* section is displayed below the *Settings* section.
 
 4. Enable the *Taxes* toggle in the *Configuration* section.
@@ -206,7 +212,7 @@ By default, the corresponding attribute mapping is already configured as describ
 
 ### Configure the requirement for dispatch
 
-The *Dispatch required* attribute is an important attribute regarding the Shopify connection. This attribute ensures that taxes are applied to the products.    
+The *Dispatch required* attribute is an important attribute regarding the Shopify connection. This attribute ensures that the product requires shipment.     
 By default, the corresponding attribute mapping is already configured as described below, if the *PIM* module as well as the *PIM-Channels connection* plugin have been installed at the time of connection. Nevertheless, you should check the correct mapping to prevent any problems during the upload process.
 
 #### Prerequisites
@@ -230,7 +236,7 @@ By default, the corresponding attribute mapping is already configured as describ
 
   ![Mapping dispatch](../../Assets/Screenshots/Channels/Settings/Connections/Shopify/ETLDispatch.png "[Mapping dispatch]")
 
-3. Select the **Constant value** option in the *Extension* drop-down list in the *Settings* section.
+3. Click the the *Extension* drop-down list in the *Settings* section and select the **Constant value** option.
   The *Configuration* section is displayed below the *Settings* section.
 
 4. Enable the *Dispatch required* toggle in the *Configuration* section.
@@ -238,7 +244,7 @@ By default, the corresponding attribute mapping is already configured as describ
   ![Constant value dispatch](../../Assets/Screenshots/Channels/Settings/Connections/Shopify/ETLDispatchConstant.png "[Constant value dispatch]")
 
 5. Click the [SAVE] button in the upper right corner.   
-  The changes have been saved. The *Settings* section iss hidden. The assigned mapping is displayed in the list of attribute mappings on the left side.
+  The changes have been saved. The *Settings* section is hidden. The assigned mapping is displayed in the list of attribute mappings on the left side.
 
   > [Info] Be aware that you have to rerun the mapping to apply the changes made to the attribute, see [Rerun an ETL mapping](../../DataHub/Operation/01_ManageETLMappings.md#rerun-an-etl-mapping).
 
@@ -284,12 +290,14 @@ When creating variants to a master product, you must at least add one defining a
   ![Edit tree Shopify](../../Assets/Screenshots/Datahub/Settings/Attributes/EditTreeShopify.png "[Edit tree Shopify]")
 
 7. If necessary, rename the elements with the identical name by doing the following:
-  + Hover over the element to be renamed in the *Edit tree* box and click the ![Edit](../../Assets/Icons/Edit03.png "[Edit]")(Edit) button.
-  + Click the *Name* field and edit the name.
-  + Click the [SAVE] button.   
-  The changes to the elements name have been applied.
+    + Hover over the element to be renamed in the *Edit tree* box and click the ![Edit](../../Assets/Icons/Edit03.png "[Edit]")(Edit) button.
+    + Click the *Name* field and edit the name.
+    + Click the [SAVE] button.   
+    The changes to the elements name have been applied.
 
   > [Info] Repeat the step **7** for all elements with identical names.
 
 8. Click the [SAVE] button in the upper right corner.   
   The changes have been saved. The *Edit attribute* view is closed. 
+
+[comment]: <> (Bilder anpassen -> aktuell verschiedene tabs) 
