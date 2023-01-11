@@ -12,7 +12,7 @@ Create the connection to an Amazon shop using the Amazon driver. Further setting
 - An Amazon seller account has been created.
 - All columns of the order reports must be activated in your Amazon seller account, see [Add or remove order report columns](https://sellercentral.amazon.de/order-reports-and-feeds/column-picker?source=/order-reports-and-feeds/reports/ref=xx_orderrpt_dnav_xx).  
 - A standard ship-from address must be set in your Amazon seller account, see [Set up a ship-from address](https://sellercentral.amazon.de/help/hub/reference/G201841320).
-- The OAuth authorization URI has been constructed, see [Construct an OAuth authorization URI](https://developer-docs.amazon.com/sp-api/docs/authorizing-selling-partner-api-applications).
+- The OAuth authorization URI has been constructed, see [Construct an OAuth authorization URI](https://developer-docs.amazon.com/sp-api/docs/authorizing-selling-partner-api-applications#construct-an-oauth-authorization-uri).
 - The *Omni-Channel Amazon Integration* plugin has been installed. 
 
 > [Info] For the *Omni-Channel* module version 4.1.0 or higher, the *Omni-Channel Amazon Integration* plugin is required in at least version 1.4.22. 
@@ -132,7 +132,7 @@ An Amazon connection has been established, see [Create an Amazon connection](#cr
   
    + Enable or disable the *Is the VAT calculation services (VCS) enabled?* toggle to specify if this feature is active in Amazon. If the VCS is disabled, the prices in the FBA reports are gross, if the VCS is enabled, the prices are net. 
     
-      > [Info] To check or modify the status status of the VCS, see [VAT calculation services](https://sellercentral.amazon.de/tax/settings/summary).
+      > [Info] To check or modify the status of the VCS, see [VAT calculation services](https://sellercentral.amazon.de/tax/settings/summary).
      
   [comment]: <> (Link aus https://actindo.atlassian.net/wiki/spaces/DEVELOPMEN/pages/21561363/Amazon)
 

@@ -42,9 +42,7 @@ All necessary credentials to establish the connection are provided when an accou
 
 7. Enter the username and password in the corresponding *Username (SFTP)* and *Password (SFTP)* fields for server access.
 
-8. If desired, enable the *Test API?* toggle to activate the Tradebyte testing version. 
-	
-[comment]: <> (Unsicher, was gemeint ist; stating version, testing system? Check!)
+8. If desired, enable the *Test API?* toggle to connect to a test system. Leave the toggle disabled to connect to a live system. 
 
 9. Click the [SAVE] button.  
   The *Checking credentials* notice is displayed. The connection will be established and the synchronization is triggered. The *Sync triggered* pop-up window is displayed.  
