@@ -9,7 +9,7 @@ Create the connection to a Magento 2 shop using the Magento 2 driver. Further se
 
 All necessary credentials to establish the connection, that is username and password, are provided in the Magento 2 admin backend.
 
-[comment]: <> (Stimmt das so? Prerequisites unten dementsprechend anpassen)
+[comment]: <> (Stimmt das so? Prerequisites unten dementsprechend anpassen > ggf. eher in Procedure als Info oder direkt in Schritt einbinden (genauere Info von Oli, wo das zu finden ist)
 
 #### Prerequisites
 
@@ -84,8 +84,6 @@ A Magento 2 connection has been established.
 4. Click the *Order states* menu entry in the left side bar.  
     The order states settings are displayed on the right side.  
 
-    > [Info] An order state is a position of an order in the current processing flow. Order states are used internally and are not customizable. Each order state can have one or more order statuses assigned to it. Order statuses are customizable by the store administrator in the Magento system. 
-
 5. Configure the following settings to filter the orders to be imported in the *Filter orders to import* section:   
     
     + Enable the toggles of all states for which the orders are to be imported. The following states are available:
@@ -101,22 +99,7 @@ A Magento 2 connection has been established.
    
     + If desired, enter an order number in the *Import only orders with a higher number than this* field. Only orders with a higher order number than the specified number will be imported.  
     
-    + If desired, enter the status for which the orders are to be imported in the *Status to filter for (leave empty if not required)* field. By default, the following statuses are available:
-        - *Suspect Fraud*
-        - *Processing*
-        - *Pending Payment*
-        - *Payment Review*
-        - *Pending*
-        - *On Hold*
-        - *Complete*
-        - *Closed*
-        - *Canceled*
-        - *PayPal Canceled Reversal*
-        - *Pending PayPal*
-        - *PayPal Reversed*
-        - *Refunded*
-
-[comment]: <> (Sind diese Default-Status in allen Magento 2 Systemen oder eher "All available status in Magento 2 are displayed", da der Administrator selber neue Status erstellen kann?)
+    + If desired, enter the status for which the orders are to be imported in the *Status to filter for (leave empty if not required)* field. All statuses configured in Magento 2 are available.
 
 6. Configure the following settings to define the order states and/or statuses to be set after a certain event has occurred in the *Update order state and status on certain events* section:  
 
