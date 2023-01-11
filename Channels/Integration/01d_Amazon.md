@@ -15,9 +15,9 @@ Create the connection to an Amazon shop using the Amazon driver. Further setting
 - The OAuth authorization URI has been constructed, see [Construct an OAuth authorization URI](https://developer-docs.amazon.com/sp-api/docs/authorizing-selling-partner-api-applications#construct-an-oauth-authorization-uri).
 - The *Omni-Channel Amazon Integration* plugin has been installed. 
 
-> [Info] For the *Omni-Channel* module version 4.1.0 or higher, the *Omni-Channel Amazon Integration* plugin is required in at least version 1.4.22. 
+> [Info] For the *Omni-Channel* module version 4.1.0 or higher, the *Omni-Channel Amazon Integration* plugin is required in at least version 4.0.0. 
 
-[comment]: <> (Omni-Channel Amazon Integration - aktuell nur mit Omni-Channel Version 2.6.13? In der Zukunft auch mit 4. Version möglich? Check versions!) 
+[comment]: <> (Gibt es schon ein Release-Datum?) 
 
 [comment]: <> (Our app can be configured here: https://sellercentral.amazon.de/marketplacedeveloper/applications#  - Add Link? Zugänglich für alle User, die ein Seller Account haben?)
 

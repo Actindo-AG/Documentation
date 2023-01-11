@@ -188,7 +188,7 @@ An inventory import job has been created.
 
     > [Info] The values in the *AfterImportFileHandling* and the *ArchiveFolder* fields can be arbitrarily selected.
 
-  17. Click the [Assign] button in the bottom right corner.    
+17. Click the [Assign] button in the bottom right corner.    
   The step has been configured.
 
 18. Click the [] (Add) button below the third flow.
@@ -484,7 +484,7 @@ Create the connection to a Salesforce shop using the Salesforce Commerce Cloud d
 
     ![Salesforce Commerce Cloud connection](../../Assets/Screenshots/Channels/Settings/Connections/SFCC/Connection.png "[Salesforce Commerce Cloud connection]")
 
-12. If necessary, continue to [Configure the Salesforce Commerce Cloud connection](#configure-the-salesforce-commerce-cloud-connection).
+7. If necessary, continue to [Configure the Salesforce Commerce Cloud connection](#configure-the-salesforce-commerce-cloud-connection).
 
 
 ## Configure the Salesforce Commerce Cloud connection   
@@ -618,7 +618,7 @@ The Salesforce connection has been established, see [Create a Salesforce Commerc
 25. Enter a custom query to search for all new imported orders.    
   Alternatively, enable the *Apply from default* toggle to apply the default search query.  
   
-    > [Info] As soon as an order has been imported, the order *Export status* is set to **Exported** in the Salesforce Commerce Cloud. The order *Export status* can be check in *Merchant Tools > Ordering > Orders > Search for an order > Select an order*.  
+    > [Info] As soon as an order has been imported, the order *Export status* is set to **Exported** in the Salesforce Commerce Cloud. The order *Export status* can be checked in *Merchant Tools > Ordering > Orders > Search for an order > Select an order*.  
 
 26. Click the *Number of parallel jobs* menu entry in the left side bar.  
     The number of parallel jobs settings are displayed on the right side.
@@ -671,31 +671,31 @@ It is mandatory that the master catalog is set in all ETL mappings to the Salesf
 1. Click the attribute set mapping from a PIM attribute set to the Salesforce attribute set in the list of attribute set mappings.   
   The *Mapping from "PIM attribute set name" to "Salesforce attribute set name"* view is displayed.
 
-  ![Mapping Salesforce](../../Assets/Screenshots/DataHub/Settings/ETL/MappingSalesforce.png "[Mapping Salesforce]")
+    ![Mapping Salesforce](../../Assets/Screenshots/DataHub/Settings/ETL/MappingSalesforce.png "[Mapping Salesforce]")
 
 2. Click the row of the *Master catalog (CommerceCloud Actindo)* destination attribute on the left side.   
   The *Settings* section for the *Master catalog (CommerceCloud Actindo)* attribute mapping is displayed on the right side.
 
-  ![Mapping master catalog](../../Assets/Screenshots/Channels/Settings/Connections/Salesforce/ETLMasterCatalog.png "[Mapping master catalog]")
+    ![Mapping master catalog](../../Assets/Screenshots/Channels/Settings/Connections/Salesforce/ETLMasterCatalog.png "[Mapping master catalog]")
 
 3. Click the *Extension* drop-down list in the *Settings* section and select the **Constant value** option. All extensions that are matching the data type of the destination attribute are displayed in the list.      
   The *Configuration* section is displayed below the *Settings* section.
 
 4. Click the *Master catalog (CommerceCloud Actindo)* drop-down list in the *Configuration* section and select the applicable master catalog from Salesforce. All available Salesforce catalogs are displayed in the list.
 
-  ![Constant value master catalog](../../Assets/Screenshots/Channels/Settings/Connections/Salesforce/ETLMasterCatalogConstant.png "[Constant value master catalog]")
+    ![Constant value master catalog](../../Assets/Screenshots/Channels/Settings/Connections/Salesforce/ETLMasterCatalogConstant.png "[Constant value master catalog]")
 
 5. Click the [SAVE] button in the upper right corner.   
   The changes have been saved. The *Settings* section is hidden. The assigned mapping is displayed in the list of attribute mappings on the left side.
 
-  > [Info] Be aware that you have to rerun the mapping to apply the changes made to the attribute, see [Rerun an ETL mapping](../../DataHub/Operation/01_ManageETLMappings.md#rerun-an-etl-mapping).
+    > [Info] Be aware that you have to rerun the mapping to apply the changes made to the attribute, see [Rerun an ETL mapping](../../DataHub/Operation/01_ManageETLMappings.md#rerun-an-etl-mapping).
 
 [comment]: <> (Screenshots hinzufügen)
 
 
 ### Configure the variants
 
-When mapping the product variants from Actindo to Salesforce, it is import to set the correct settings to avoid any upload problems.
+When mapping the product variants from Actindo to Salesforce, it is important to set the correct settings to avoid any upload problems.
 
 #### Prerequisites
 
@@ -711,12 +711,12 @@ When mapping the product variants from Actindo to Salesforce, it is import to se
 1. Click the attribute set mapping from a PIM attribute set to the Salesforce attribute set in the list of attribute set mappings.   
   The *Mapping from "PIM attribute set name" to "Salesforce attribute set name"* view is displayed.
 
-  ![Mapping Salesforce](../../Assets/Screenshots/DataHub/Settings/ETL/MappingSalesforce.png "[Mapping Salesforce]")
+    ![Mapping Salesforce](../../Assets/Screenshots/DataHub/Settings/ETL/MappingSalesforce.png "[Mapping Salesforce]")
 
 2. Click the row of the *Variants (CommerceCloud Actindo)* destination attribute on the left side.   
   The *Settings* section for the *Variants (CommerceCloud Actindo)* attribute mapping is displayed on the right side.
 
-  ![Mapping variants](../../Assets/Screenshots/Channels/Settings/Connections/Salesforce/ETLVariants.png "[Mapping variants]")
+    ![Mapping variants](../../Assets/Screenshots/Channels/Settings/Connections/Salesforce/ETLVariants.png "[Mapping variants]")
 
 3. Click the *Extension* drop-down list in the *Settings* section and select the **Variant-to-variant** option. All extensions that are matching the data type of the destination attribute are displayed in the list.      
   The *Source attribute* drop-down list is displayed left to the *Extension* drop-down list and the *Configuration* section is displayed below the *Settings* section.
@@ -730,15 +730,15 @@ When mapping the product variants from Actindo to Salesforce, it is import to se
     
 6. Make sure that the following toggles are disabled:
    - *Automatically add not mapped defining attributes to destination set when creating variant set*
-      > [Info] In no case, the *Automatically add not mapped defining attributes to destination set when creating variant set* toggle may be activated as the upload from Actindo to Salesforce will cause problems, see [Fields and attributes](#salesforce-product-data-particularities).
+      > [Info] In no case may the *Automatically add not mapped defining attributes to destination set when creating variant set* toggle be activated, as the upload from Actindo to Salesforce will cause problems, see [Fields and attributes](#salesforce-product-data-particularities).
     - *Do not transfer the status of the master offer to the child offer*
 
-  ![Configuration variants](../../Assets/Screenshots/Channels/Settings/Connections/Salesforce/ETLVariantsConfiguration.png "[Configuration variants]")
+    ![Configuration variants](../../Assets/Screenshots/Channels/Settings/Connections/Salesforce/ETLVariantsConfiguration.png "[Configuration variants]")
 
 7. Click the [SAVE] button in the upper right corner.   
   The changes have been saved. The *Settings* section is hidden. The assigned mapping is displayed in the list of attribute mappings on the left side.
 
-  > [Info] Be aware that you have to rerun the mapping to apply the changes made to the attribute, see [Rerun an ETL mapping](../../DataHub/Operation/01_ManageETLMappings.md#rerun-an-etl-mapping).
+    > [Info] Be aware that you have to rerun the mapping to apply the changes made to the attribute, see [Rerun an ETL mapping](../../DataHub/Operation/01_ManageETLMappings.md#rerun-an-etl-mapping).
 
 [comment]: <> (Screenshots hinzufügen)
 
@@ -751,7 +751,7 @@ In Salesforce, it is possible to create translations to variables. In Actindo, v
 
 - A Salesforce connection has been established, see [Create a Salesforce connection](#create-a-salesforce-commerce-cloud-connection).
 - At least one attribute set mapping from a PIM attribute set to the Salesforce attribute set has been created. 
-- The *Geo code* tree node attribute is created in the *PIM* module containing the variant specific translations. 
+- The *Geo code* tree node attribute has been created in the *PIM* module containing the variant specific translations. 
 
 [comment]: <> (ist das immer das geo code attribut? und was genau enthält er? wirklich die translations oder nur ländercodes? genauere Erklärung oder beispiel zeigen!)
 
@@ -764,12 +764,12 @@ In Salesforce, it is possible to create translations to variables. In Actindo, v
 1. Click the attribute set mapping from a PIM attribute set to the Salesforce attribute set in the list of attribute set mappings.   
   The *Mapping from "PIM attribute set name" to "Salesforce attribute set name"* view is displayed.
 
-  ![Mapping Salesforce](../../Assets/Screenshots/DataHub/Settings/ETL/MappingSalesforce.png "[Mapping Salesforce]")
+    ![Mapping Salesforce](../../Assets/Screenshots/DataHub/Settings/ETL/MappingSalesforce.png "[Mapping Salesforce]")
 
 2. Click the row of the *Product Language (CommerceCloud Actindo)* destination attribute on the left side.   
   The *Settings* section for the *Product Language (CommerceCloud Actindo)* attribute mapping is displayed on the right side.
 
-  ![Mapping translatable variants](../../Assets/Screenshots/Channels/Settings/Connections/Salesforce/ETLTranslatableVariants.png "[Mapping translatable variants]")
+    ![Mapping translatable variants](../../Assets/Screenshots/Channels/Settings/Connections/Salesforce/ETLTranslatableVariants.png "[Mapping translatable variants]")
 
 3. Click the *Extension* drop-down list in the *Settings* section and select the **Tree-To-String defining values (CommerceCloud)** option. All extensions that are matching the data type of the destination attribute are displayed in the drop-down list.      
   The *Source attribute* drop-down list is displayed left to the *Extension* drop-down list and the *Configuration* section is displayed below the *Settings* section.
@@ -780,16 +780,21 @@ In Salesforce, it is possible to create translations to variables. In Actindo, v
 
 6. Click the *Relevant locale (applies for single language attributes)* drop-down list and select the **Englisch** option. All available languages are displayed in the list. 
 
-  ![Configuration translatable variants](../../Assets/Screenshots/Channels/Settings/Connections/Salesforce/ETLTranslatableVariantsConfiguration.png "[Configuration translatable variants]")
+    ![Configuration translatable variants](../../Assets/Screenshots/Channels/Settings/Connections/Salesforce/ETLTranslatableVariantsConfiguration.png "[Configuration translatable variants]")
+
+[comment]: <> (Englisch oder English?)
 
 7. Click the [SAVE] button in the upper right corner.   
   The changes have been saved. The *Settings* section is hidden. The assigned mapping is displayed in the list of attribute mappings on the left side.
 
-  > [Info] Be aware that you have to rerun the mapping to apply the changes made to the attribute, see [Rerun an ETL mapping](../../DataHub/Operation/01_ManageETLMappings.md#rerun-an-etl-mapping).
+    > [Info] Be aware that you have to rerun the mapping to apply the changes made to the attribute, see [Rerun an ETL mapping](../../DataHub/Operation/01_ManageETLMappings.md#rerun-an-etl-mapping).
+
+    > [Info] Note that any changes made to the translations in the tree node attribute will not be uploaded automatically, even if rerunning the mapping. You must set the corresponding offer to inactive and set it to active again to synchronize the changes. 
 
 [comment]: <> (Screenshots hinzufügen, stimmt das mit der Configuration? oder ist das individuell bzw. vom shop abhängig?)
 
-> [Info] Note that any changes made to the translations in the tree node attribute will not be uploaded automatically, even if rerunning the mapping. You must set the corresponding offer to inactive and set it to active again to synchronize the changes. 
+[comment]: <> (Zwei Infos nacheinander?)
+
 
 ## Salesforce product data particularities
 
@@ -798,14 +803,16 @@ There are a few particularities regarding the Salesforce Commerce Cloud product 
 **Master catalog**
 
 Every product in Salesforce must be assigned to a catalog, which is similar to a product category in a shop. There must be a master catalog in Salesforce that determines which fields are available.  
-In Actindo, all fields from Salesforce are available as there exists only one single attribute set for Salesforce. This Salesforce attribute set must be mapped to the master catalog, see [Configure the master catalog](#configure-the-master-catalog).  
+
+In Actindo, all fields from Salesforce are available, as there exists only one single attribute set for Salesforce. This Salesforce attribute set must be mapped to the master catalog, see [Configure the master catalog](#configure-the-master-catalog).  
 
 [comment]: <> (s.o.: ist der master catalog in Salesforce oder in Actindo?)
 
 **Sites**
 
-Salesforce offers the possibility to create different sites for the order import. In Actindo, these sites are created as sub-shops. That means, that every single shop is a sub-account and also available as a sub-account in the stock withdrawal matrix in the *Warehouse* module.
+Salesforce offers the possibility to create different sites for the order import. In Actindo, these sites are created as sub-shops. That means that every single shop is a sub-account and is also available as a sub-account in the stock withdrawal matrix in the *Warehouse* module.
 
+[comment]: <> (every single shop is a sub-account ... wo? Actindo Modul spezifiezieren?)
 
 **Fields and attributes**
 
@@ -815,8 +822,9 @@ Actindo supports both multi-language fields and site-specific fields from Salesf
 
 All fields must be created in Salesforce and cannot be created in Actindo and dynamically be added to Salesforce.
 
-Site-specific attributes are additionally created for each site. That means, when creating an offer, the site specific attribute is created once as a non site-specific attribute containing a default value for all sites without another value. Additionally, the attribute is created as a site-specific attribute for every available site. When a new site is subsequently created, the corresponding site-specific attribute is automatically created after the connection has been synchronized.
+Site-specific attributes are additionally created for each site. That means, when creating an offer, the site-specific attribute is created once as a non site-specific attribute containing a default value for all sites without another value. Additionally, the attribute is created as a site-specific attribute for every available site. When a new site is subsequently created, the corresponding site-specific attribute is automatically created after the connection has been synchronized.
 
+[comment]: <> (non site-specific oder non-site-specific oder site-non-specific? Even site-unspecific/unspecified? Sorry, Zungenbrecher...)
 
 **Site-specific status**
 
@@ -829,30 +837,25 @@ An offer in Actindo can have one of the following three statuses:
   The offer is deleted from the marketplace.
 
 By default, the status of an offer applies to the offer in all sites. As there exists the *Override online (only active products) status for Site "site ID"* site-specific attribute, it is possible to override the *active* status of an offer for the specific site. That means, an active offer can be switched to inactive for the individual sites.   
-Note that the side-specific status change is only possible in one direction: If the status of an offer is set to **inactive**, it will be inactive on all sites and cannot be changed to **active** for single sites. 
-
+Note that the site-specific status change is only possible in one direction: If the status of an offer is set to **inactive**, it will be inactive on all sites and cannot be changed to **active** for single sites. 
 
 **Product categories**
 
-You can create new product categories in Salesforce as well as in Actindo. When uploading a product category from Actindo to Salesforce, the existing product categories are not overwritten, but merely added to the existing categories in Salesforce. Further, only categories that are created and added by Actindo can also be deleted by Actindo. All categories, that are created or edited by Salesforce, are not touched by Actindo at all. Only the changes made in Actindo that does not affect the Salesforce categories are uploaded.
+You can create new product categories in Salesforce as well as in Actindo. When uploading a product category from Actindo to Salesforce, the existing product categories are not overwritten, but merely added to the existing categories in Salesforce. Further, only categories that are created and added by Actindo can also be deleted by Actindo. All categories, that are created or edited by Salesforce, are not touched by Actindo at all. Only the changes made in Actindo that do not affect the Salesforce categories are uploaded.
 
-[comment]: <> (bezieht sich das nur auf categories?)
-
+[comment]: <> (bezieht sich das nur auf categories? MV: are not touched by Actindo at all -> sagt man touch hier? Klingt ein wenig wie Deutsch oder Spanisch für mich... aber unsicher)
 
 **Inventory**
 
 For the initial product upload, the inventory is imported via a XML file, which is processed by an inventory import job. All changes in inventory of already uploaded products will be processed via the Open Commerce Cloud API. Since the inventory update via API runs without generating an inventory import job, no inventory import jobs are displayed even if the inventory is updated.  
 
-
 **Product options**
 
 Product options, for instance, adding a warranty to a product, are generally not supported by Actindo. However, it is possible to assign so-called *shared options* to all products, but these cannot be maintained by Actindo.
 
-
 **Image handling**
 
 The image handling is currently not supported by Actindo.
-
 
 **Order endpoint**
 
@@ -866,7 +869,6 @@ The *x* in the endpoint above must be replaced by the corresponding parameter in
 - Site ID of the site where the order has been placed. You have to know the site ID by heart.
 
 [comment]: <> (order number -> nur einsehbar, wenn Bestellung schon importiert. Wann wendet man den Endpoint am ehesten an? Vor oder nach dem Import?)
-
 
 **Inventory endpoint**
 
