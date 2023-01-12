@@ -12,9 +12,9 @@ Please note that these two jobs must be configured in your Salesforce account in
 
 ### Create an inventory import job
 
-Create an inventory import job to import inventory-related data.
+Create a job to import inventory-related data.
 
-[comment]: <> (Check! Order-related data, s. API unten? Product category-related data?)
+[comment]: <> (Was wird genau importiert in diesem Job?)
 
 #### Prerequisites
 
@@ -25,9 +25,9 @@ Create an inventory import job to import inventory-related data.
 
 *Salesforce Commerce Cloud*
 
-[comment]: <> (Screenshot von Salesforce)
+[comment]: <> (Salesforce Commerce Cloud backend? Or account?)
 
-1. In a new browser window, go to the *Salesforce Commerce Cloud* platform and log in to your account.
+[comment]: <> (Screenshot von Salesforce)
 
 2. Click the *Select a Site* drop-down list in the navigation bar at the top of the page and select the applicable shop. All available shops are displayed in the list.  
     The *Welcome to the Business Manager* page is displayed.
@@ -43,11 +43,11 @@ Create an inventory import job to import inventory-related data.
     ![Jobs](../../Assets/Screenshots/Channels/Settings/Connections/SFCC/Jobs.png "[Jobs]")
 
 5. Click the [New Job] button in the upper right corner to create the inventory import job.  
-    The *New Job* window is displayed on the right side of the page.
+    The *New Job* window is displayed.
 
     ![New Job](../../Assets/Screenshots/Channels/Settings/Connections/SFCC/Jobs.png "[New Job]")
 
-[comment]: <> (window oder page? workspace haben wir in Actindo. Hier hast du bislang immer von page gesprochen, dann würde ich auch dabei bleiben. Woher kommt die Info mit dem Fenster an der Seite?)
+[comment]: <> (Window oder page? Wie sieht es aus? Wo angezeigt? RS mit JS)
 
 6. Enter a name for the inventory import job, for example **InventoryImport**, in the *ID* field and, if desired, a job description in the *Description* field, and click the [Create] button.  
   The new job has been created. The *"JobID"* page is displayed.
@@ -81,24 +81,42 @@ Create an inventory import job to import inventory-related data.
 11. Click the [Assign] button in the bottom right corner.    
     The step has been configured.
 
-[comment]: <> (Würde getrennte Procedures für die beiden Jobs machen, dann sind es auch nicht so viele steps.)
 
 
 ### Create a data import job
 
-Create a data import job to import product-related data.
+Create a job to import product-related data.
 
 #### Prerequisites
 
-An inventory import job has been created.
+- A Salesforce Commerce Cloud account has been created.
+- The user has the required rights.
 
 [comment]: <> (Stimmt das so, also erst inventory dann data? Oder egal welche Reihenfolge, d.h. Create a data import job sollte mit 1. wie oben anfangen: Administration > Operations > Jobs...)
 
 #### Procedure 
 
-*Salesforce Commerce Cloud > Administration > Operations > Jobs > ...*
+*Salesforce Commerce Cloud*
+
+[comment]: <> (Salesforce Commerce Cloud backend? Or account?)
 
 [comment]: <> (Screenshot von Salesforce)
+
+
+2. Click the *Select a Site* drop-down list in the navigation bar at the top of the page and select the applicable shop. All available shops are displayed in the list.  
+    The *Welcome to the Business Manager* page is displayed.
+
+    ![Welcome to Business Manager](../../Assets/Screenshots/Channels/Settings/Connections/SFCC/BusinessManager.png "[Welcome to Business Manager]")
+
+3. Click the *Administration* drop-down list in the navigation bar at the top of the page. 
+   The *Administration* page is displayed.
+   
+4. Click first the *Operations* and then the *Jobs* module.  
+    The *Jobs* page is displayed.
+
+    ![Jobs](../../Assets/Screenshots/Channels/Settings/Connections/SFCC/Jobs.png "[Jobs]")
+
+[comment]: <> (Nummern anpassen...)
 
 1. Click the [New Job] button in the upper right corner to create the data import job.  
     The *New Job* window is displayed on the right side of the page.
@@ -231,7 +249,7 @@ The corresponding API settings must be configured in Salesforce as described bel
 - The necessary jobs have been created in Salesforce Commerce Cloud.
 - The client ID has been generated in Salesforce, see Salesforce documentation, [Generate an API Client ID](https://documentation.b2c.commercecloud.salesforce.com/DOC1/index.jsp?topic=%2Fcom.demandware.dochelp%2Fcontent%2Fb2c_commerce%2Ftopics%2Fanalytics%2Fb2c_generate_api_client_id.html).
 
-[comment]: <> (jobs have been created -> muss das ne Voraussetzung sein? woher kommt die Info?)
+[comment]: <> (The necessary jobs have been created in Salesforce Commerce Cloud. -> Stimmt das so? Muss man erst die Jobs erstellen und dann die API konfigurieren oder Reihenfolge egal?)
 
 #### Procedure
 
@@ -535,9 +553,7 @@ The Salesforce connection has been established, see [Create a Salesforce Commerc
     - **Cron**    
         Select this option to schedule the upload and perform it periodically at a fixed time, date or interval. When selected, the *Cron line* field is displayed. Enter a valid cron expression to specify the time interval in which product data should be uploaded in the field. For detailed information, see https://crontab.guru/.
     
-      Alternatively, you can enable the *Apply from default* toggle to apply the predefined values.
-
-[comment]: <> (Welcher ist denn der predefined value? das sollten wir ergänzen, wenn wir den Satz übernehmen.)
+      Alternatively, you can enable the *Apply from default* toggle to apply the default value, displayed in the field as read-only.
 
 8. Click the *Tax classes* menu entry in the left side bar.  
     The tax classes settings are displayed on the right side.
@@ -583,6 +599,10 @@ The Salesforce connection has been established, see [Create a Salesforce Commerc
     ![Job ID data import](../../Assets/Screenshots/Channels/Settings/Connections/SFCC/Settings_JobIDDataImport.png "[Job ID data import]")
 
 17. Enter the applicable Salesforce Commerce Cloud job ID in the *Job ID data import* field. 
+
+[comment]: <> (The ID has been chosen in the Salesforce Commerce Cloud platform, see Configure... - Link auf oben. Satz und Verweis auch in Job ID inventory import)
+
+[comment]: <> (Salesforce commerce cloud zu Salesforce kürzen) 
 
 18. Click the *Job ID inventory import* menu entry in the left side bar.  
     The Job ID inventory import settings are displayed on the right side.   
@@ -778,11 +798,9 @@ In Salesforce, it is possible to create translations to variables. In Actindo, v
 
 5. Enter a comma **,** in the *Separator* field in the *Configuration* section.
 
-6. Click the *Relevant locale (applies for single language attributes)* drop-down list and select the **Englisch** option. All available languages are displayed in the list. 
+6. Click the *Relevant locale (applies for single language attributes)* drop-down list and select the **English** option. All available languages are displayed in the list. 
 
     ![Configuration translatable variants](../../Assets/Screenshots/Channels/Settings/Connections/Salesforce/ETLTranslatableVariantsConfiguration.png "[Configuration translatable variants]")
-
-[comment]: <> (Englisch oder English?)
 
 7. Click the [SAVE] button in the upper right corner.   
   The changes have been saved. The *Settings* section is hidden. The assigned mapping is displayed in the list of attribute mappings on the left side.
@@ -810,9 +828,7 @@ In Actindo, all fields from Salesforce are available, as there exists only one s
 
 **Sites**
 
-Salesforce offers the possibility to create different sites for the order import. In Actindo, these sites are created as sub-shops. That means that every single shop is a sub-account and is also available as a sub-account in the stock withdrawal matrix in the *Warehouse* module.
-
-[comment]: <> (every single shop is a sub-account ... wo? Actindo Modul spezifiezieren?)
+Salesforce offers the possibility to create different sites for the order import. In Actindo, these sites are created as sub-shops. That means that every single shop is a sub-account, available in the stock withdrawal matrix in the *Warehouse* module.
 
 **Fields and attributes**
 
@@ -822,9 +838,7 @@ Actindo supports both multi-language fields and site-specific fields from Salesf
 
 All fields must be created in Salesforce and cannot be created in Actindo and dynamically be added to Salesforce.
 
-Site-specific attributes are additionally created for each site. That means, when creating an offer, the site-specific attribute is created once as a non site-specific attribute containing a default value for all sites without another value. Additionally, the attribute is created as a site-specific attribute for every available site. When a new site is subsequently created, the corresponding site-specific attribute is automatically created after the connection has been synchronized.
-
-[comment]: <> (non site-specific oder non-site-specific oder site-non-specific? Even site-unspecific/unspecified? Sorry, Zungenbrecher...)
+Site-specific attributes are additionally created for each site. That means, when creating an offer, the site-specific attribute is created once as a non-site-specific attribute containing a default value for all sites without another value. Additionally, the attribute is created as a site-specific attribute for every available site. When a new site is subsequently created, the corresponding site-specific attribute is automatically created after the connection has been synchronized.
 
 **Site-specific status**
 
@@ -842,8 +856,6 @@ Note that the site-specific status change is only possible in one direction: If 
 **Product categories**
 
 You can create new product categories in Salesforce as well as in Actindo. When uploading a product category from Actindo to Salesforce, the existing product categories are not overwritten, but merely added to the existing categories in Salesforce. Further, only categories that are created and added by Actindo can also be deleted by Actindo. All categories, that are created or edited by Salesforce, are not touched by Actindo at all. Only the changes made in Actindo that do not affect the Salesforce categories are uploaded.
-
-[comment]: <> (bezieht sich das nur auf categories? MV: are not touched by Actindo at all -> sagt man touch hier? Klingt ein wenig wie Deutsch oder Spanisch für mich... aber unsicher)
 
 **Inventory**
 
