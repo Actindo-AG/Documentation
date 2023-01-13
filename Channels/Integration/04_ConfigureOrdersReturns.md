@@ -27,17 +27,15 @@ A connection to a marketplace has been established, see [Create a connection](..
 
   ![Orders connection](../../Assets/Screenshots/Channels/OrdersReturns/Orders/OrdersConnection.png "[Orders connection]")
 
-
 2. Click the *Download orders automatically* drop-down list and select the desired time interval at which the orders will be automatically downloaded. The following options are available:   
-  - **never**
-  - **every 2 minutes**
-  - **every 5 minutes**
-  - **every 10 minutes**
-  - **every 15 minutes**
-  - **every 20 minutes**
-  - **every 30 minutes**
-  - **every 60 minutes**
-
+    - **never**
+    - **every 2 minutes**
+    - **every 5 minutes**
+    - **every 10 minutes**
+    - **every 15 minutes**
+    - **every 20 minutes**
+    - **every 30 minutes**
+    - **every 60 minutes**
 
 3. Click the [SAVE] button.    
   The configured time interval is saved for the selected connection.
@@ -69,17 +67,15 @@ A connection to a marketplace has been established, see [Create a connection](..
 
   ![Returns connection](../../Assets/Screenshots/Channels/OrdersReturns/Returns/ReturnsConnection.png "[Returns connection]")
 
-
 2. Click the *Download returns automatically* drop-down list and select the desired time interval at which the returns will be automatically downloaded. The following options are available:   
-  - **never**
-  - **every 2 minutes**
-  - **every 5 minutes**
-  - **every 10 minutes**
-  - **every 15 minutes**
-  - **every 20 minutes**
-  - **every 30 minutes**
-  - **every 60 minutes**   
-
+    - **never**
+    - **every 2 minutes**
+    - **every 5 minutes**
+    - **every 10 minutes**
+    - **every 15 minutes**
+    - **every 20 minutes**
+    - **every 30 minutes**
+    - **every 60 minutes**   
 
 3. Click the [SAVE] button.    
   The configured time interval is saved for the selected connection.

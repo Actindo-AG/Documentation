@@ -1,10 +1,13 @@
+[!!Manage the connections](./01_ManageConnections.md)
+[!!Manage the ETL mappings](../../DataHub/Operation/01_ManageETLMappings.md)
+
 # Manage the Salesforce Commerce Cloud connection
 
-To establish a connection to a Salesforce Commerce Cloud shop, there are several particularities to consider. Therefore, the creation and the configuration of the Salesforce Commerce Cloud (Salesforce) connection are described in detail below.
+To establish a connection to a Salesforce shop, there are several particularities to consider. Therefore, the creation and the configuration of the Salesforce Commerce Cloud (Salesforce) connection are described in detail below.
 
-## Configure the Salesforce Commerce Cloud
+## Configure the Salesforce Commerce Cloud platform
 
-Before a Salesforce connection can be established, the following two configuration processes must be performed.  
+Before a Salesforce connection can be established, the following two configuration processes must be performed in the Salesforce Commerce Cloud platform.  
 
 In Salesforce, data are uploaded via XML files, which are then imported with a job into the shop. There are two jobs, one for inventory import and one for data import.   
 Please note that these two jobs must be configured in your Salesforce account in the exact order and using the specified values as described below.
@@ -18,55 +21,55 @@ Create a job to import inventory-related data.
 
 #### Prerequisites
 
-- A Salesforce Commerce Cloud account has been created.
+- A Salesforce account has been created.
 - The user has the required rights.
 
 #### Procedure 
 
-*Salesforce Commerce Cloud*
+*Salesforce Commerce Cloud platform*
 
-[comment]: <> (Salesforce Commerce Cloud backend? Or account?)
+[comment]: <> (platform? backend? account?)
 
 [comment]: <> (Screenshot von Salesforce)
 
-2. Click the *Select a Site* drop-down list in the navigation bar at the top of the page and select the applicable shop. All available shops are displayed in the list.  
-    The *Welcome to the Business Manager* page is displayed.
+1. Click the *Select a Site* drop-down list in the navigation bar at the top of the page and select the applicable shop. All available shops are displayed in the list.  
+  The *Welcome to the Business Manager* page is displayed.
 
-    ![Welcome to Business Manager](../../Assets/Screenshots/Channels/Settings/Connections/SFCC/BusinessManager.png "[Welcome to Business Manager]")
+  ![Welcome to Business Manager](../../Assets/Screenshots/Channels/Settings/Connections/SFCC/BusinessManager.png "[Welcome to Business Manager]")
 
-3. Click the *Administration* drop-down list in the navigation bar at the top of the page. 
-   The *Administration* page is displayed.
+2. Click the *Administration* drop-down list in the navigation bar at the top of the page. 
+  The *Administration* page is displayed.
    
-4. Click first the *Operations* and then the *Jobs* module.  
-    The *Jobs* page is displayed.
+3. Click first the *Operations* and then the *Jobs* module.  
+  The *Jobs* page is displayed.
 
-    ![Jobs](../../Assets/Screenshots/Channels/Settings/Connections/SFCC/Jobs.png "[Jobs]")
+  ![Jobs](../../Assets/Screenshots/Channels/Settings/Connections/SFCC/Jobs.png "[Jobs]")
 
-5. Click the [New Job] button in the upper right corner to create the inventory import job.  
-    The *New Job* window is displayed.
+4. Click the [New Job] button in the upper right corner to create the inventory import job.  
+  The *New Job* window is displayed.
 
-    ![New Job](../../Assets/Screenshots/Channels/Settings/Connections/SFCC/Jobs.png "[New Job]")
+  ![New Job](../../Assets/Screenshots/Channels/Settings/Connections/SFCC/Jobs.png "[New Job]")
 
 [comment]: <> (Window oder page? Wie sieht es aus? Wo angezeigt? RS mit JS)
 
-6. Enter a name for the inventory import job, for example **InventoryImport**, in the *ID* field and, if desired, a job description in the *Description* field, and click the [Create] button.  
+5. Enter a name for the inventory import job, for example **InventoryImport**, in the *ID* field and, if desired, a job description in the *Description* field, and click the [Create] button.  
   The new job has been created. The *"JobID"* page is displayed.
   
     > [Info] Note this ID, as it must be specified in the *Omni-Channel* module when establishing the connection to Salesforce.
 
-7. Click the *Job Steps* tab in the header of the *"JobID"* page and click the [] (Add) button.
-   A new flow has been added to the job. 
+6. Click the *Job Steps* tab in the header of the *"JobID"* page and click the [] (Add) button.
+  A new flow has been added to the job. 
    
 [comment]: <> (Add button hinzufügen)
 
-8. Select the **Organization** option as a scope for the flow.
+7. Select the **Organization** option as a scope for the flow.
 
-9. Click the [Configure a step] button in the flow box and select the *ImportInventoryLists* step.  
-   The *Select and Configure Step* side bar is displayed on the right side of the page.
+8. Click the [Configure a step] button in the flow box and select the *ImportInventoryLists* step.  
+  The *Select and Configure Step* side bar is displayed on the right side of the page.
 
 [comment]: <> (Müssen wir noch prüfen, ob das so beim Anlegen eines neuen Flows/steps funktioniert. Aber auf jeden fall kann ich nirgends drauf klicken, bevor ich keinen Flow angelegt habe. Select a step -> aus ner drop-down list? wenn ja, wo werden die vorangelegt? Vgl. auch https://documentation.b2c.commercecloud.salesforce.com/DOC1/index.jsp?topic=%2Fcom.demandware.dochelp%2FDWAPI%2Fxsd%2FSchemas.html)
 
-10. Configure the following values in the corresponding fields of the *Select and Configure Step* side bar for the *ImportInventoryLists* step:  
+9. Configure the following values in the corresponding fields of the *Select and Configure Step* side bar for the *ImportInventoryLists* step:  
 
     | Field                   | Value     |
     |-------------------------|-------------------------|
@@ -78,8 +81,8 @@ Create a job to import inventory-related data.
  
     > [Info] The values in the *AfterImportFileHandling* and the *ArchiveFolder* fields can be arbitrarily selected.
 
-11. Click the [Assign] button in the bottom right corner.    
-    The step has been configured.
+10. Click the [Assign] button in the bottom right corner.    
+  The step has been configured.
 
 
 
@@ -89,58 +92,56 @@ Create a job to import product-related data.
 
 #### Prerequisites
 
-- A Salesforce Commerce Cloud account has been created.
+- A Salesforce account has been created.
 - The user has the required rights.
 
 [comment]: <> (Stimmt das so, also erst inventory dann data? Oder egal welche Reihenfolge, d.h. Create a data import job sollte mit 1. wie oben anfangen: Administration > Operations > Jobs...)
 
 #### Procedure 
 
-*Salesforce Commerce Cloud*
+*Salesforce Commerce Cloud platform*
 
-[comment]: <> (Salesforce Commerce Cloud backend? Or account?)
+[comment]: <> (s.o.)
 
 [comment]: <> (Screenshot von Salesforce)
 
 
-2. Click the *Select a Site* drop-down list in the navigation bar at the top of the page and select the applicable shop. All available shops are displayed in the list.  
-    The *Welcome to the Business Manager* page is displayed.
+1. Click the *Select a Site* drop-down list in the navigation bar at the top of the page and select the applicable shop. All available shops are displayed in the list.  
+  The *Welcome to the Business Manager* page is displayed.
 
-    ![Welcome to Business Manager](../../Assets/Screenshots/Channels/Settings/Connections/SFCC/BusinessManager.png "[Welcome to Business Manager]")
+  ![Welcome to Business Manager](../../Assets/Screenshots/Channels/Settings/Connections/SFCC/BusinessManager.png "[Welcome to Business Manager]")
 
-3. Click the *Administration* drop-down list in the navigation bar at the top of the page. 
-   The *Administration* page is displayed.
+2. Click the *Administration* drop-down list in the navigation bar at the top of the page. 
+  The *Administration* page is displayed.
    
-4. Click first the *Operations* and then the *Jobs* module.  
-    The *Jobs* page is displayed.
+3. Click first the *Operations* and then the *Jobs* module.  
+  The *Jobs* page is displayed.
 
-    ![Jobs](../../Assets/Screenshots/Channels/Settings/Connections/SFCC/Jobs.png "[Jobs]")
+  ![Jobs](../../Assets/Screenshots/Channels/Settings/Connections/SFCC/Jobs.png "[Jobs]")
 
-[comment]: <> (Nummern anpassen...)
+4. Click the [New Job] button in the upper right corner to create the data import job.  
+  The *New Job* window is displayed on the right side of the page.
 
-1. Click the [New Job] button in the upper right corner to create the data import job.  
-    The *New Job* window is displayed on the right side of the page.
-
-2. Enter a name for the data import job, for example **SiteDataImport**, in the *ID* field and, if desired, a job description in the *Description* field, and click the [Create] button.  
+5. Enter a name for the data import job, for example **SiteDataImport**, in the *ID* field and, if desired, a job description in the *Description* field, and click the [Create] button.  
   The new job has been created. The *"JobID"* page is displayed.
   
     > [Info] Note this ID, as it must be specified in the *Omni-Channel* module when establishing the connection to Salesforce.
   
-3. Click the *Job Steps* tab in the header of the *"JobID"* page and click the [] (Add) button.  
-   A new flow has been added to the job. 
+6. Click the *Job Steps* tab in the header of the *"JobID"* page and click the [] (Add) button.  
+  A new flow has been added to the job. 
    
    > [Info] The data import job must import different types of data and therefore contains sequential flows. 
    
-4. Select the **Organization** option as a scope for the flow.
+7. Select the **Organization** option as a scope for the flow.
 
 [comment]: <> (Add button hinzufügen)
 
-5. Click the [Configure a step] button in the flow box and select the *StandardProductsImport* step.  
-   The *Select and Configure Step* side bar is displayed on the right side of the page.
+8. Click the [Configure a step] button in the flow box and select the *StandardProductsImport* step.  
+  The *Select and Configure Step* side bar is displayed on the right side of the page.
    
-   > [Info] Make sure that all folders specified within a step have been previously created in WebDAV. Otherwise, the data cannot be imported. For detailed information about WebDAV, see the Salesforce documentation, [Using WebDAV](https://documentation.b2c.commercecloud.salesforce.com/DOC1/topic/com.demandware.dochelp/content/b2c_commerce/topics/import_export/b2c_using_web_dav.html).
+    > [Info] Make sure that all folders specified within a step have been previously created in WebDAV. Otherwise, the data cannot be imported. For detailed information about WebDAV, see the Salesforce documentation, [Using WebDAV](https://documentation.b2c.commercecloud.salesforce.com/DOC1/topic/com.demandware.dochelp/content/b2c_commerce/topics/import_export/b2c_using_web_dav.html).
    
-6. Configure the following values in the corresponding fields of the *Select and Configure Step* side bar for the *StandardProductsImport* step: 
+9. Configure the following values in the corresponding fields of the *Select and Configure Step* side bar for the *StandardProductsImport* step: 
 
     | Field                   | Value     |
     |-------------------------|-------------------------|
@@ -152,22 +153,22 @@ Create a job to import product-related data.
     
     > [Info] The values in the *AfterImportFileHandling* and the *ArchiveFolder* fields can be arbitrarily selected.
 
-7. Click the [Assign] button in the bottom right corner.    
-    The step has been configured.
+10. Click the [Assign] button in the bottom right corner.    
+  The step has been configured.
 
-8. Click the [] (Add) button below the first flow.
-   A new flow has been added below the first flow. 
+11. Click the [] (Add) button below the first flow.
+  A new flow has been added below the first flow. 
 
 [comment]: <> (Add button hinzufügen)
    
-9. Select the **Organization** option as a scope for the flow.
+12. Select the **Organization** option as a scope for the flow.
 
-10. Click the [Configure a step] button in the flow box and select the *BundleProductsImport* step.
-   The *Select and Configure Step* side bar is displayed on the right side of the page.
+13. Click the [Configure a step] button in the flow box and select the *BundleProductsImport* step.
+  The *Select and Configure Step* side bar is displayed on the right side of the page.
    
     > [Info] Make sure that all folders specified within a step have been previously created in WebDAV. Otherwise, the data cannot be imported. For detailed information about WebDAV, see the Salesforce documentation, [Using WebDAV](https://documentation.b2c.commercecloud.salesforce.com/DOC1/topic/com.demandware.dochelp/content/b2c_commerce/topics/import_export/b2c_using_web_dav.html).
    
-11. Configure the following values in the corresponding fields of the *Select and Configure Step* side bar for the *BundleProductsImport* step: 
+14. Configure the following values in the corresponding fields of the *Select and Configure Step* side bar for the *BundleProductsImport* step: 
 
     | Field                   | Value     |
     |-------------------------|-------------------------|
@@ -179,22 +180,22 @@ Create a job to import product-related data.
 
     > [Info] The values in the *AfterImportFileHandling* and the *ArchiveFolder* fields can be arbitrarily selected.
 
-12. Click the [Assign] button in the bottom right corner.    
-    The step has been configured.
+15. Click the [Assign] button in the bottom right corner.    
+  The step has been configured.
 
-13. Click the [] (Add) button below the second flow.
-   A new flow has been added below the second flow. 
+16. Click the [] (Add) button below the second flow.
+  A new flow has been added below the second flow. 
    
 [comment]: <> (Add button hinzufügen)
 
-14. Select the **Organization** option as a scope for the flow.
+17. Select the **Organization** option as a scope for the flow.
 
-15. Click the [Configure a step] button in the flow box and select the *CategoryAssignmentImport* step.
-   The *Select and Configure Step* side bar is displayed on the right side of the page.
-   
+18. Click the [Configure a step] button in the flow box and select the *CategoryAssignmentImport* step.
+  The *Select and Configure Step* side bar is displayed on the right side of the page.
+  
     > [Info] Make sure that all folders specified within a step have been previously created in WebDAV. Otherwise, the data cannot be imported. For detailed information about WebDAV, see the Salesforce documentation, [Using WebDAV](https://documentation.b2c.commercecloud.salesforce.com/DOC1/topic/com.demandware.dochelp/content/b2c_commerce/topics/import_export/b2c_using_web_dav.html).
-   
-16. Configure the following values in the corresponding fields of the *Select and Configure Step* side bar for the *CategoryAssignmentImport* step: 
+  
+19. Configure the following values in the corresponding fields of the *Select and Configure Step* side bar for the *CategoryAssignmentImport* step: 
 
     | Field                   | Value     |
     |-------------------------|-------------------------|
@@ -206,22 +207,22 @@ Create a job to import product-related data.
 
     > [Info] The values in the *AfterImportFileHandling* and the *ArchiveFolder* fields can be arbitrarily selected.
 
-17. Click the [Assign] button in the bottom right corner.    
+20. Click the [Assign] button in the bottom right corner.    
   The step has been configured.
 
 18. Click the [] (Add) button below the third flow.
-   A new flow has been added below the third flow. 
+  A new flow has been added below the third flow. 
 
 [comment]: <> (Add button hinzufügen)
   
-19. Select the **Organization** option as a scope for the flow.
+21. Select the **Organization** option as a scope for the flow.
 
-20. Click the [Configure a step] button in the flow box and select the *PricebookImport* step.
-   The *Select and Configure Step* side bar is displayed on the right side of the page.
+22. Click the [Configure a step] button in the flow box and select the *PricebookImport* step.
+  The *Select and Configure Step* side bar is displayed on the right side of the page.
    
     > [Info] Make sure that all folders specified within a step have been previously created in WebDAV. Otherwise, the data cannot be imported. For detailed information about WebDAV, see the Salesforce documentation, [Using WebDAV](https://documentation.b2c.commercecloud.salesforce.com/DOC1/topic/com.demandware.dochelp/content/b2c_commerce/topics/import_export/b2c_using_web_dav.html).
    
-21. Configure the following values in the corresponding fields of the *Select and Configure Step* side bar for the *PricebookImport* step:
+23. Configure the following values in the corresponding fields of the *Select and Configure Step* side bar for the *PricebookImport* step:
 
     | Field                   | Value     |
     |-------------------------|-------------------------|
@@ -233,8 +234,8 @@ Create a job to import product-related data.
 
     > [Info] The values in the *AfterImportFileHandling* and the *ArchiveFolder* fields can be arbitrarily selected.
 
-22. Click the [Assign] button in the bottom right corner.    
-    The step has been configured.
+24. Click the [Assign] button in the bottom right corner.    
+  The step has been configured.
 
 
 ### Configure the Open Commerce API Settings
@@ -246,48 +247,48 @@ The corresponding API settings must be configured in Salesforce as described bel
 
 #### Prerequisites
 
-- The necessary jobs have been created in Salesforce Commerce Cloud.
-- The client ID has been generated in Salesforce, see Salesforce documentation, [Generate an API Client ID](https://documentation.b2c.commercecloud.salesforce.com/DOC1/index.jsp?topic=%2Fcom.demandware.dochelp%2Fcontent%2Fb2c_commerce%2Ftopics%2Fanalytics%2Fb2c_generate_api_client_id.html).
+- The necessary jobs have been created in Salesforce.
+- The client ID has been generated in Salesforce, see the Salesforce documentation, [Generate an API Client ID](https://documentation.b2c.commercecloud.salesforce.com/DOC1/index.jsp?topic=%2Fcom.demandware.dochelp%2Fcontent%2Fb2c_commerce%2Ftopics%2Fanalytics%2Fb2c_generate_api_client_id.html).
 
-[comment]: <> (The necessary jobs have been created in Salesforce Commerce Cloud. -> Stimmt das so? Muss man erst die Jobs erstellen und dann die API konfigurieren oder Reihenfolge egal?)
+[comment]: <> (The necessary jobs have been created in Salesforce. -> Stimmt das so? Muss man erst die Jobs erstellen und dann die API konfigurieren oder Reihenfolge egal?)
 
 #### Procedure
 
-*Salesforce Commerce Cloud > Administration > Site Development > Open Commerce API Settings*
+*Salesforce Commerce Cloud platform > Administration > Site Development > Open Commerce API Settings*
 
 [comment]: <> (Screenshot von Open Commerce API Settings? Vgl. Procedure oben.)
 
 1. Click the *Select type* drop-down list and select the **Shop** option.
-   The current shop API is displayed in the text area.  
+  The current shop API is displayed in the text area.  
    
 2. Click the *Select Context* drop-down list and select the **Global (organization-wide)** option. 
 
 3. In the text area, check the JSON document for the following code entry and, if not available, include the code entry:
 
-```json
-{
-"client_id": "CLIENTID",
-"resources": [
-    {
-        "resource_id": "/order_search",
-        "methods": [
-            "post"
-        ],
-        "read_attributes": "(**)",
-        "write_attributes": "(**)"
-    },
-    {
-        "resource_id": "/orders/*",
-        "methods": [
-            "get",
-            "patch"
-        ],
-        "read_attributes": "(**)",
-        "write_attributes": "(**)"
-    }
-]
-}
-```
+  ```json
+  {
+  "client_id": "CLIENTID",
+  "resources": [
+      {
+          "resource_id": "/order_search",
+          "methods": [
+              "post"
+          ],
+          "read_attributes": "(**)",
+          "write_attributes": "(**)"
+      },
+      {
+          "resource_id": "/orders/*",
+          "methods": [
+              "get",
+              "patch"
+          ],
+          "read_attributes": "(**)",
+          "write_attributes": "(**)"
+      }
+  ]
+  }
+  ```
 
 4. Replace the **CLIENTID** description for the *client_id* property with your corresponding client ID.
 
@@ -295,171 +296,172 @@ The corresponding API settings must be configured in Salesforce as described bel
   All changes to the shop API have been saved.
 
 6. Click the *Select type* drop-down list and select the **Data** option.  
-   The current data API is displayed in the text area.    
+  The current data API is displayed in the text area.    
 
 7. Click the *Select Context* drop-down list and select the **Global (organization-wide)** option. 
 
 8. In the text area, check the JSON document for the following code entry and, if not available, include the code entry:
 
-```json
-{
-"client_id": "CLIENTID",
-"resources": [
-    {
-        "resource_id": "/jobs/*/executions",
-        "methods": [
-            "post"
-        ],
-        "read_attributes": "(**)",
-        "write_attributes": "(**)"
-    },
-    {
-        "resource_id": "/jobs/*/executions/*",
-        "methods": [
-            "get"
-        ],
-        "read_attributes": "(**)",
-        "write_attributes": "(**)"
-    },
-    {
-        "resource_id": "/job_execution_search",
-        "methods": [
-            "post"
-        ],
-        "read_attributes": "(**)",
-        "write_attributes": "(**)"
-    },
-    {
-        "resource_id": "/locale_info/locales",
-        "methods": [
-            "get"
-        ],
-        "read_attributes": "(**)",
-        "write_attributes": "(**)"
-    },
-    {
-        "resource_id": "/system_object_definitions/Product/attribute_definitions/*",
-        "methods": [
-            "get"
-        ],
-        "read_attributes": "(**)",
-        "write_attributes": "(**)"
-    },
-    {
-        "resource_id": "/system_object_definitions/Product/attribute_groups/*",
-        "methods": [
-            "get"
-        ],
-        "read_attributes": "(**)",
-        "write_attributes": "(**)"
-    },
-    {
-        "resource_id": "/system_object_definitions/ProductInventoryRecord/attribute_definitions/*",
-        "methods": [
-            "get"
-        ],
-        "read_attributes": "(**)",
-        "write_attributes": "(**)"
-    },
-    {
-        "resource_id": "/system_object_definitions/ProductInventoryRecord/attribute_groups/*",
-        "methods": [
-            "get"
-        ],
-        "read_attributes": "(**)",
-        "write_attributes": "(**)"
-    },
-    {
-        "resource_id": "/system_object_definitions/ProductInventoryRecord/attribute_definitions",
-        "methods": [
-            "get"
-        ],
-        "read_attributes": "(**)",
-        "write_attributes": "(**)"
-    },
-    {
-        "resource_id": "/catalogs",
-        "methods": [
-            "get"
-        ],
-        "read_attributes": "(**)",
-        "write_attributes": "(**)"
-    },
-    {
-        "resource_id": "/catalogs/*/categories",
-        "methods": [
-            "get"
-        ],
-        "read_attributes": "(**)",
-        "write_attributes": "(**)"
-    },
-    {
-        "resource_id": "/inventory_lists",
-        "methods": [
-            "get"
-        ],
-        "read_attributes": "(**)",
-        "write_attributes": "(**)"
-    },
-    {
-        "resource_id": "/system_object_definitions/Product/attribute_groups",
-        "methods": [
-            "get"
-        ],
-        "read_attributes": "(**)",
-        "write_attributes": "(**)"
-    },
-    {
-        "resource_id": "/system_object_definitions/Product/attribute_definitions",
-        "methods": [
-            "get"
-        ],
-        "read_attributes": "(**)",
-        "write_attributes": "(**)"
-    },
-    {
-        "resource_id": "/sites",
-        "methods": [
-            "get"
-        ],
-        "read_attributes": "(**)",
-        "write_attributes": "(**)"
-    },
-    {
-        "resource_id": "/inventory_lists/*/product_inventory_records/*",
-        "methods": [
-            "put", "delete"
-        ],
-        "read_attributes": "(**)",
-        "write_attributes": "(**)"
-    },
-    {
-        "resource_id": "/sites/*/orders/*/export_status",
-        "methods": [
-            "put"
-        ],
-        "read_attributes": "(**)",
-        "write_attributes": "(**)"
-    }
-]
-}
-```
+  ```json
+  {
+  "client_id": "CLIENTID",
+  "resources": [
+      {
+          "resource_id": "/jobs/*/executions",
+          "methods": [
+              "post"
+          ],
+          "read_attributes": "(**)",
+          "write_attributes": "(**)"
+      },
+      {
+          "resource_id": "/jobs/*/executions/*",
+          "methods": [
+              "get"
+          ],
+          "read_attributes": "(**)",
+          "write_attributes": "(**)"
+      },
+      {
+          "resource_id": "/job_execution_search",
+          "methods": [
+              "post"
+          ],
+          "read_attributes": "(**)",
+          "write_attributes": "(**)"
+      },
+      {
+          "resource_id": "/locale_info/locales",
+          "methods": [
+              "get"
+          ],
+          "read_attributes": "(**)",
+          "write_attributes": "(**)"
+      },
+      {
+          "resource_id": "/system_object_definitions/Product/attribute_definitions/*",
+          "methods": [
+              "get"
+          ],
+          "read_attributes": "(**)",
+          "write_attributes": "(**)"
+      },
+      {
+          "resource_id": "/system_object_definitions/Product/attribute_groups/*",
+          "methods": [
+              "get"
+          ],
+          "read_attributes": "(**)",
+          "write_attributes": "(**)"
+      },
+      {
+          "resource_id": "/system_object_definitions/ProductInventoryRecord/attribute_definitions/*",
+          "methods": [
+              "get"
+          ],
+          "read_attributes": "(**)",
+          "write_attributes": "(**)"
+      },
+      {
+          "resource_id": "/system_object_definitions/ProductInventoryRecord/attribute_groups/*",
+          "methods": [
+              "get"
+          ],
+          "read_attributes": "(**)",
+          "write_attributes": "(**)"
+      },
+      {
+          "resource_id": "/system_object_definitions/ProductInventoryRecord/attribute_definitions",
+          "methods": [
+              "get"
+          ],
+          "read_attributes": "(**)",
+          "write_attributes": "(**)"
+      },
+      {
+          "resource_id": "/catalogs",
+          "methods": [
+              "get"
+          ],
+          "read_attributes": "(**)",
+          "write_attributes": "(**)"
+      },
+      {
+          "resource_id": "/catalogs/*/categories",
+          "methods": [
+              "get"
+          ],
+          "read_attributes": "(**)",
+          "write_attributes": "(**)"
+      },
+      {
+          "resource_id": "/inventory_lists",
+          "methods": [
+              "get"
+          ],
+          "read_attributes": "(**)",
+          "write_attributes": "(**)"
+      },
+      {
+          "resource_id": "/system_object_definitions/Product/attribute_groups",
+          "methods": [
+              "get"
+          ],
+          "read_attributes": "(**)",
+          "write_attributes": "(**)"
+      },
+      {
+          "resource_id": "/system_object_definitions/Product/attribute_definitions",
+          "methods": [
+              "get"
+          ],
+          "read_attributes": "(**)",
+          "write_attributes": "(**)"
+      },
+      {
+          "resource_id": "/sites",
+          "methods": [
+              "get"
+          ],
+          "read_attributes": "(**)",
+          "write_attributes": "(**)"
+      },
+      {
+          "resource_id": "/inventory_lists/*/product_inventory_records/*",
+          "methods": [
+              "put", "delete"
+          ],
+          "read_attributes": "(**)",
+          "write_attributes": "(**)"
+      },
+      {
+          "resource_id": "/sites/*/orders/*/export_status",
+          "methods": [
+              "put"
+          ],
+          "read_attributes": "(**)",
+          "write_attributes": "(**)"
+      }
+  ]
+  }
+  ```
 
 9. Replace the **CLIENTID** description for the *client_id* property with your corresponding client ID.
 
 10. Click the [Save] button.  
   All changes to the data API have been saved.
 
-    > [Info] For detailed information, see Salesforce documentation, [OCAPI Settings 22.10](https://documentation.b2c.commercecloud.salesforce.com/DOC1/topic/com.demandware.dochelp/OCAPI/current/usage/OCAPISettings.html).
+    > [Info] For detailed information, see the Salesforce documentation, [OCAPI Settings](https://documentation.b2c.commercecloud.salesforce.com/DOC1/topic/com.demandware.dochelp/OCAPI/current/usage/OCAPISettings.html).
 
 
-## Create a Salesforce Commerce Cloud connection
+
+## Create a Salesforce connection
 
 Create the connection to a Salesforce shop using the Salesforce Commerce Cloud driver. Further settings can only be configured after the connection has been established.
 
 #### Prerequisites
 
-- The Salesforce Commerce Cloud has been configured, see [Configure the Salesforce Commerce Cloud](#configure-the-salesforce-commerce-cloud). 
+- The Salesforce Commerce Cloud platform has been configured, see [Configure the Salesforce Commerce Cloud platform](#configure-the-salesforce-commerce-cloud-platform). 
 - The *Salesforce Commerce Cloud* plugin has been installed.  
 
 > [Info] For the *Omni-Channel* module version 4.1.0 or higher, the *Salesforce Commerce Cloud* plugin is required in at least version 1.2.0.
@@ -475,7 +477,7 @@ Create the connection to a Salesforce shop using the Salesforce Commerce Cloud d
 1. Click the ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) button in the bottom right corner.    
   The *Create connection* view is displayed.
 
-    ![Create connection](../../Assets/Screenshots/Channels/Settings/Connections/CreateConnection.png "[Create connection]")
+  ![Create connection](../../Assets/Screenshots/Channels/Settings/Connections/CreateConnection.png "[Create connection]")
 
 2. Enter a name for the connection in the *Name* field.
 
@@ -485,33 +487,32 @@ Create the connection to a Salesforce shop using the Salesforce Commerce Cloud d
     > [Info] Salesforce offers the possibility to work with two separate environments, a staging environment for customizing and testing purposes and a live environment for production. The connection to the environments must be specified separately. 
 
 4. For the staging environment, enter the following credentials:
-    - Enter the shop URL of the staging environment in the *URL* field.  
-    - Enter the client ID in the *Client ID* field and the client password in the *Client password* field.
-    - Enter the username (email address) in the *Username* field, the user password in the *User password* field and the user API access token in the *Access token* field. These so-called *business manager login data* are needed to work with orders. 
+    + Enter the shop URL of the staging environment in the *URL* field.  
+    + Enter the client ID in the *Client ID* field and the client password in the *Client password* field.
+    + Enter the username (email address) in the *Username* field, the user password in the *User password* field and the user API access token in the *Access token* field. These so-called *business manager login data* are needed to work with orders. 
 
 5. For the live environment, enter the following credentials and enable the *Production mode* toggle:  
-    - Enter the shop URL of the production environment in the *URL (Production)* field.  
-    - Enter the corresponding client ID in the *Client ID (Production)* field and the client password in the *Client password (Production)* field.
-    - Enter the username (email address) in the *Username (Production)* field, the user password in the *User password (Production)* field and the user API access token in the *Access token (Production)* field. These so-called *business manager login data* are needed to work with orders.
+    + Enter the shop URL of the production environment in the *URL (Production)* field.  
+    + Enter the corresponding client ID in the *Client ID (Production)* field and the client password in the *Client password (Production)* field.
+    + Enter the username (email address) in the *Username (Production)* field, the user password in the *User password (Production)* field and the user API access token in the *Access token (Production)* field. These so-called *business manager login data* are needed to work with orders.
 
-    > [Info] As soon as the production mode is enabled, the order import and the stock upload are synchronized with the production environment, whereas the product data are still synchronized with the staging environment.
+      > [Info] As soon as the production mode is enabled, the order import and the stock upload are synchronized with the production environment, whereas the product data are still synchronized with the staging environment.
 
 6. Click the [SAVE] button.  
-    The connection has been created.   
-  The *CONNECTIONS* tab in the *Settings* menu entry of the *Omni-Channel* module is displayed when the connection has been established. The *Salesforce Commerce Cloud* connection is displayed in the list of connections.
+  The connection has been created. The *CONNECTIONS* tab in the *Settings* menu entry of the *Omni-Channel* module is displayed when the connection has been established. The *Salesforce Commerce Cloud* connection is displayed in the list of connections.
 
-    ![Salesforce Commerce Cloud connection](../../Assets/Screenshots/Channels/Settings/Connections/SFCC/Connection.png "[Salesforce Commerce Cloud connection]")
+  ![Salesforce Commerce Cloud connection](../../Assets/Screenshots/Channels/Settings/Connections/SFCC/Connection.png "[Salesforce Commerce Cloud connection]")
 
-7. If necessary, continue to [Configure the Salesforce Commerce Cloud connection](#configure-the-salesforce-commerce-cloud-connection).
+7. If necessary, continue to configure the Salesforce connection, see [Configure the Salesforce connection](#configure-the-salesforce-connection).
 
 
-## Configure the Salesforce Commerce Cloud connection   
+## Configure the Salesforce connection   
 
-After the connection to a Salesforce Commerce Cloud shop has been established, further settings can be configured for the connection.
+After the connection to a Salesforce shop has been established, further settings can be configured for the connection.
 
 #### Prerequisites
 
-The Salesforce connection has been established, see [Create a Salesforce Commerce Cloud connection](#create-a-salesforce-commerce-cloud-connection).
+The Salesforce connection has been established, see [Create a Salesforce connection](#create-a-salesforce-connection).
 
 #### Procedure
 
@@ -519,149 +520,147 @@ The Salesforce connection has been established, see [Create a Salesforce Commerc
 
 ![SFCC connection](../../Assets/Screenshots/Channels/Settings/Connections/SFCC/Connection.png "[SFCC connection]")
 
-1. Click the Salesforce Commerce Cloud connection in the list of connections.   
+1. Click the Salesforce connection in the list of connections.   
   The *Edit connection* view is displayed. By default, the *Credentials* tab is selected.
 
-    ![Edit connection credentials](../../Assets/Screenshots/Channels/Settings/Connections/SFCC/Credentials.png "[Edit connection credentials]")
+  ![Edit connection credentials](../../Assets/Screenshots/Channels/Settings/Connections/SFCC/Credentials.png "[Edit connection credentials]")
 
 2. Click the *Settings* tab.   
   The *Settings* tab is displayed. By default, the *Price books* settings are selected. 
 
-    ![Price books](../../Assets/Screenshots/Channels/Settings/Connections/SFCC/Settings_PriceBooks.png "[Price books]")
+  ![Price books](../../Assets/Screenshots/Channels/Settings/Connections/SFCC/Settings_PriceBooks.png "[Price books]")
 
 3. Enter the price book ID in the *ID* field and the applicable three letter currency code according to ISO 4217 in the *Currency* field for each price book in Salesforce. To add another price book, click the ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) button.  
 
-    > [Info] The price books must be set up manually, as they cannot be retrieved via API from Salesforce Commerce Cloud.
+    > [Info] The price books must be set up manually, as they cannot be retrieved via API from Salesforce.
 
-4.  Click the *Payment methods* menu entry in the left side bar.  
-    The payment methods settings are displayed on the right side.   
+4. Click the *Payment methods* menu entry in the left side bar.  
+  The payment methods settings are displayed on the right side.   
 
-     ![Payment methods](../../Assets/Screenshots/Channels/Settings/Connections/SFCC/Settings_PaymentMethods.png "[Payment methods]")
+  ![Payment methods](../../Assets/Screenshots/Channels/Settings/Connections/SFCC/Settings_PaymentMethods.png "[Payment methods]")
 
 5. Enter the payment method ID in the *ID* field and a description in the *Name* field for each payment method in Salesforce. To add another payment method, click the ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) button.   
 
 6. Click the *Upload mode* menu entry in the left side bar.  
-    The upload mode settings are displayed on the right side.
+  The upload mode settings are displayed on the right side.
 
-    ![Upload mode](../../Assets/Screenshots/Channels/Settings/Connections/SFCC/Settings_UploadMode.png "[Upload mode]")
+  ![Upload mode](../../Assets/Screenshots/Channels/Settings/Connections/SFCC/Settings_UploadMode.png "[Upload mode]")
 
 7. Click the *Upload mode* drop-down list and select the appropriate mode for the product data upload. The following options are available:  
     - **Immediately**    
-        Select this option to upload any changes as soon as they are made.
+      Select this option to upload any changes as soon as they are made.
     - **Delayed**    
-        Select this option to upload any changes after a specified period of time. When selected, the *Delay in minutes* field is displayed. Enter the desired delay in minutes in the field. By default, a 10 minutes delay is predefined. 
+      Select this option to upload any changes after a specified period of time. When selected, the *Delay in minutes* field is displayed. Enter the desired delay in minutes in the field. By default, a 10 minutes delay is predefined. 
     - **Cron**    
-        Select this option to schedule the upload and perform it periodically at a fixed time, date or interval. When selected, the *Cron line* field is displayed. Enter a valid cron expression to specify the time interval in which product data should be uploaded in the field. For detailed information, see https://crontab.guru/.
+      Select this option to schedule the upload and perform it periodically at a fixed time, date or interval. When selected, the *Cron line* field is displayed. Enter a valid cron expression to specify the time interval in which product data should be uploaded in the field. For detailed information, see https://crontab.guru/.
     
-      Alternatively, you can enable the *Apply from default* toggle to apply the default value, displayed in the field as read-only.
+    Alternatively, you can enable the *Apply from default* toggle to apply the default value, displayed in the field as read-only.
 
 8. Click the *Tax classes* menu entry in the left side bar.  
-    The tax classes settings are displayed on the right side.
+  The tax classes settings are displayed on the right side.
 
-    ![Tax classes](../../Assets/Screenshots/Channels/Settings/Connections/SFCC/Settings_TaxClasses.png "[Tax classes]")
+  ![Tax classes](../../Assets/Screenshots/Channels/Settings/Connections/SFCC/Settings_TaxClasses.png "[Tax classes]")
 
-9. Enter the Salesforce Commerce Cloud ID for the tax class in the *Commerce Cloud Code* field and the corresponding Actindo tax class ID in the *Actindo ID* field. The Actindo tax class IDs can be found in the *Taxes* module.  
+9. Enter the Salesforce ID for the tax class in the *Commerce Cloud Code* field and the corresponding Actindo tax class ID in the *Actindo ID* field. The Actindo tax class IDs can be found in the *Taxes* module.  
 
-   > [Info] Repeat the step **9** for each tax class in Salesforce. Further tax class fields can be added by clicking the ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) button.   
+    > [Info] Repeat the step **9** for each tax class in Salesforce. Further tax class fields can be added by clicking the ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) button.   
 
 [comment]: <> (Problem: ich finde die Actindo Tax Class IDs nicht im Taxes Modul. Nachfragen, wo die angezeigt werden und genauer spezifizieren!)
 
 10. Click the *Ignored Product Attributes* menu entry in the left side bar.  
-    The ignored product attributes settings are displayed on the right side.
+  The ignored product attributes settings are displayed on the right side.
 
-    ![Ignored product attributes](../../Assets/Screenshots/Channels/Settings/Connections/SFCC/Settings_IgnoredProductAttributes.png "[Ignored product attributes]")
+  ![Ignored product attributes](../../Assets/Screenshots/Channels/Settings/Connections/SFCC/Settings_IgnoredProductAttributes.png "[Ignored product attributes]")
 
 11. Enter the ID of the attribute that should not be imported to Salesforce in the *SFCC Attribute ID* field. The corresponding attribute IDs are described in the *catalog.xsd* schema, see [catalog.xsd](https://documentation.b2c.commercecloud.salesforce.com/DOC3/index.jsp?topic=%2Fcom.demandware.dochelp%2FDWAPI%2Fxsd%2FSchemas.html).  
 
-    > [Info] Repeat the step **11** for each attribute to be ignored. Further attribute fields can be added by clicking the ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) button. If there are custom attributes that should not be imported to Salesforce, bear in mind to add the prefix **c_**, that is, **c_AttributeName**.
+    > [Info] Repeat the step **11** for each attribute to be ignored. Further attribute fields can be added by clicking the ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) button. If there are custom attributes that should not be imported to Salesforce, Note to add the prefix **c_**, that is, **c_AttributeName**.
 
 12. Click the *Default language* menu entry in the left side bar.  
-    The default language settings are displayed on the right side.
+  The default language settings are displayed on the right side.
 
-    ![Default language](../../Assets/Screenshots/Channels/Settings/Connections/SFCC/Settings_DefaultLanguage.png "[Default language]")
+  ![Default language](../../Assets/Screenshots/Channels/Settings/Connections/SFCC/Settings_DefaultLanguage.png "[Default language]")
 
 13. Click the *Language used for default value* drop-down list and select the language that should be used if the default language is selected in Salesforce. All available languages are displayed in the list.  
 
     > [Info] In contrast to Salesforce,  no default language is defined in the *Actindo Core1 Platform*. For this reason, a language must be specified to be used as default value.    
 
 14. Click the *Skip as variation attribute* menu entry in the left side bar.  
-     The skip as variation attribute settings are displayed on the right side.
+  The skip as variation attribute settings are displayed on the right side.
 
-    ![Skip as variation attribute](../../Assets/Screenshots/Channels/Settings/Connections/SFCC/Settings_SkipVariationAttributes.png "[Skip as variation attribute]")
+  ![Skip as variation attribute](../../Assets/Screenshots/Channels/Settings/Connections/SFCC/Settings_SkipVariationAttributes.png "[Skip as variation attribute]")
 
 15. Enter the Salesforce ID of the variant that should not be imported to Salesforce in the *SFCC Attribute ID* field.   
 
-    > [Info] Repeat the step **15** for each variant to be ignored. Further variant fields can be added by clicking the ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) button. 
+  > [Info] Repeat the step **15** for each variant to be ignored. Further variant fields can be added by clicking the ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) button. 
 
 16. Click the *Job ID data import* menu entry in the left side bar.  
-    The Job ID data import settings are displayed on the right side.   
+  The Job ID data import settings are displayed on the right side.   
 
-    ![Job ID data import](../../Assets/Screenshots/Channels/Settings/Connections/SFCC/Settings_JobIDDataImport.png "[Job ID data import]")
+  ![Job ID data import](../../Assets/Screenshots/Channels/Settings/Connections/SFCC/Settings_JobIDDataImport.png "[Job ID data import]")
 
-17. Enter the applicable Salesforce Commerce Cloud job ID in the *Job ID data import* field. 
+17. Enter the applicable Salesforce job ID in the *Job ID data import* field. 
 
 [comment]: <> (The ID has been chosen in the Salesforce Commerce Cloud platform, see Configure... - Link auf oben. Satz und Verweis auch in Job ID inventory import)
 
-[comment]: <> (Salesforce commerce cloud zu Salesforce kürzen) 
-
 18. Click the *Job ID inventory import* menu entry in the left side bar.  
-    The Job ID inventory import settings are displayed on the right side.   
+  The Job ID inventory import settings are displayed on the right side.   
 
-    ![Job ID inventory import](../../Assets/Screenshots/Channels/Settings/Connections/SFCC/Settings_JobIDInventoryImport.png "[Job ID inventory import]")
+  ![Job ID inventory import](../../Assets/Screenshots/Channels/Settings/Connections/SFCC/Settings_JobIDInventoryImport.png "[Job ID inventory import]")
 
-19. Enter the applicable Salesforce Commerce Cloud job ID in the *Job ID inventory import* field.
+19. Enter the applicable Salesforce job ID in the *Job ID inventory import* field.
 
 20. Click the *Order status fields* menu entry in the left side bar.  
-    The order status fields settings are displayed on the right side.
+  The order status fields settings are displayed on the right side.
 
-    ![Order status fields](../../Assets/Screenshots/Channels/Settings/Connections/SFCC/Settings_OrderStatusFields.png "[Order status fields]")
+  ![Order status fields](../../Assets/Screenshots/Channels/Settings/Connections/SFCC/Settings_OrderStatusFields.png "[Order status fields]")
 
 [comment]: <> (Steps 16-20: Überlegen, ob wir das hier beschreiben wollen -mit Verweis auf Create jobs- oder im Create jobs Abschnitt selbst und hier nur den Hinweis hinterlassen, dass es bereits konfiguriert wurde.)
 
-21. Enter the custom IDs of the corresponding status fields in the *Order status*, *Payment status* and *Deliver status* fields.    
-  Alternatively, enable the *Apply from default* toggle to apply the Salesforce default values.  
+21. Enter the custom IDs of the corresponding status fields in the *Order status*, *Payment status* and *Deliver status* fields.   
+Alternatively, enable the *Apply from default* toggle to apply the Salesforce default values.  
 
-    > [Info] Bear in mind to add the prefix **c_** for any custom field names, that is, **c_StatusID**.
+    > [Info] Note to add the prefix **c_** for any custom field names, that is, **c_StatusID**.
 
 22. Click the *Upload stock only* menu entry in the left side bar.  
-    The upload stock only settings are displayed on the right side.
+  The upload stock only settings are displayed on the right side.
 
-    ![Upload stock only](../../Assets/Screenshots/Channels/Settings/Connections/SFCC/Settings_UploadStockOnly.png "[Upload stock only]")
+  ![Upload stock only](../../Assets/Screenshots/Channels/Settings/Connections/SFCC/Settings_UploadStockOnly.png "[Upload stock only]")
 
 23. Select the *Upload stock only* checkbox if you want to upload only stock but no product data. Leave the checkbox unchecked to upload both stock and product data. By default, the checkbox is unchecked.  
 
 24. Click the *Order search query* menu entry in the left side bar.  
-    The order search query settings are displayed on the right side.
+  The order search query settings are displayed on the right side.
 
-    ![Order search query](../../Assets/Screenshots/Channels/Settings/Connections/SFCC/Settings_OrderSearchQuery.png "[Order search query]")
+  ![Order search query](../../Assets/Screenshots/Channels/Settings/Connections/SFCC/Settings_OrderSearchQuery.png "[Order search query]")
 
 25. Enter a custom query to search for all new imported orders.    
   Alternatively, enable the *Apply from default* toggle to apply the default search query.  
   
-    > [Info] As soon as an order has been imported, the order *Export status* is set to **Exported** in the Salesforce Commerce Cloud. The order *Export status* can be checked in *Merchant Tools > Ordering > Orders > Search for an order > Select an order*.  
+    > [Info] As soon as an order has been imported, the order *Export status* is set to **Exported** in Salesforce. The order *Export status* can be checked in *Merchant Tools > Ordering > Orders > Search for an order > Select an order*.  
 
 26. Click the *Number of parallel jobs* menu entry in the left side bar.  
-    The number of parallel jobs settings are displayed on the right side.
+  The number of parallel jobs settings are displayed on the right side.
 
-    ![Number of parallel jobs](../../Assets/Screenshots/Channels/Settings/Connections/SFCC/Settings_NumberParallelJobs.png "[Number of parallel jobs]")
+  ![Number of parallel jobs](../../Assets/Screenshots/Channels/Settings/Connections/SFCC/Settings_NumberParallelJobs.png "[Number of parallel jobs]")
 
 27.  Enter the number of jobs that may be processed in parallel in the *Number of parallel jobs* field.     
-  Alternatively, enable the *Apply from default* toggle to apply the default value for the number of parallel jobs.  
+Alternatively, enable the *Apply from default* toggle to apply the default value for the number of parallel jobs.  
 
-      > [Info] Increase the number of parallel jobs to handle a higher order volume. Be aware that a higher number of parallel jobs also requires a higher number of vCores. 
+    > [Info] Increase the number of parallel jobs to handle a higher order volume. Be aware that a higher number of parallel jobs also requires a higher number of vCores. 
 
 28. Click the *Custom inventory fields* menu entry in the left side bar.  
-    The custom inventory fields settings are displayed on the right side.
+  The custom inventory fields settings are displayed on the right side.
 
-    ![Custom inventory fields](../../Assets/Screenshots/Channels/Settings/Connections/SFCC/Settings_CustomInventoryFields.png "[Custom inventory fields]")
+  ![Custom inventory fields](../../Assets/Screenshots/Channels/Settings/Connections/SFCC/Settings_CustomInventoryFields.png "[Custom inventory fields]")
 
 29. Select the *Handle inventory custom fields* checkbox to import the custom inventory fields from Salesforce and also maintain them in Actindo.    
-  Alternatively, enable the *Apply from default* toggle or leave the checkbox unchecked to ignore any custom inventory fields from Salesforce.
+Alternatively, enable the *Apply from default* toggle or leave the checkbox unchecked to ignore any custom inventory fields from Salesforce.
 
 30. Click the [Save] button.  
-    All changes have been saved. The *Saving successful* pop-up window is displayed.
+  All changes have been saved. The *Saving successful* pop-up window is displayed.
 
-    ![Saving successful](../../Assets/Screenshots/Channels/Settings/Connections/SavingSuccessful.png "[Saving successful]")
+  ![Saving successful](../../Assets/Screenshots/Channels/Settings/Connections/SavingSuccessful.png "[Saving successful]")
 
 
 ## Configure the Salesforce ETL mapping
@@ -670,7 +669,7 @@ The ETL mapping is important for the correct functionality of the Salesforce con
 
 ### Configure the master catalog
 
-A Salesforce catalog must be mapped to the Actindo master catalog to determine the available fields in Actindo.   
+The Salesforce master catalog must be mapped in Actindo to determine the available fields in Actindo.   
 It is mandatory that the master catalog is set in all ETL mappings to the Salesforce attribute set.  
 
 [comment]: <> (noch etwas verwirrend: ist der master catalog in Salesforce oder in Actindo?)
@@ -691,26 +690,24 @@ It is mandatory that the master catalog is set in all ETL mappings to the Salesf
 1. Click the attribute set mapping from a PIM attribute set to the Salesforce attribute set in the list of attribute set mappings.   
   The *Mapping from "PIM attribute set name" to "Salesforce attribute set name"* view is displayed.
 
-    ![Mapping Salesforce](../../Assets/Screenshots/DataHub/Settings/ETL/MappingSalesforce.png "[Mapping Salesforce]")
+  ![Mapping Salesforce](../../Assets/Screenshots/DataHub/Settings/ETL/Salesforce/Mapping.png "[Mapping Salesforce]")
 
 2. Click the row of the *Master catalog (CommerceCloud Actindo)* destination attribute on the left side.   
   The *Settings* section for the *Master catalog (CommerceCloud Actindo)* attribute mapping is displayed on the right side.
 
-    ![Mapping master catalog](../../Assets/Screenshots/Channels/Settings/Connections/Salesforce/ETLMasterCatalog.png "[Mapping master catalog]")
+  ![Mapping master catalog](../../Assets/Screenshots/DataHub/Settings/ETL/Salesforce/MasterCatalog.png "[Mapping master catalog]")
 
 3. Click the *Extension* drop-down list in the *Settings* section and select the **Constant value** option. All extensions that are matching the data type of the destination attribute are displayed in the list.      
   The *Configuration* section is displayed below the *Settings* section.
 
 4. Click the *Master catalog (CommerceCloud Actindo)* drop-down list in the *Configuration* section and select the applicable master catalog from Salesforce. All available Salesforce catalogs are displayed in the list.
 
-    ![Constant value master catalog](../../Assets/Screenshots/Channels/Settings/Connections/Salesforce/ETLMasterCatalogConstant.png "[Constant value master catalog]")
+  ![Configuration master catalog](../../Assets/Screenshots/DataHub/Settings/ETL/Salesforce/ConfigurationMasterCatalog.png "[Configuration master catalog]")
 
 5. Click the [SAVE] button in the upper right corner.   
   The changes have been saved. The *Settings* section is hidden. The assigned mapping is displayed in the list of attribute mappings on the left side.
 
     > [Info] Be aware that you have to rerun the mapping to apply the changes made to the attribute, see [Rerun an ETL mapping](../../DataHub/Operation/01_ManageETLMappings.md#rerun-an-etl-mapping).
-
-[comment]: <> (Screenshots hinzufügen)
 
 
 ### Configure the variants
@@ -731,12 +728,12 @@ When mapping the product variants from Actindo to Salesforce, it is important to
 1. Click the attribute set mapping from a PIM attribute set to the Salesforce attribute set in the list of attribute set mappings.   
   The *Mapping from "PIM attribute set name" to "Salesforce attribute set name"* view is displayed.
 
-    ![Mapping Salesforce](../../Assets/Screenshots/DataHub/Settings/ETL/MappingSalesforce.png "[Mapping Salesforce]")
+  ![Mapping Salesforce](../../Assets/Screenshots/DataHub/Settings/ETL/Salesforce/Mapping.png "[Mapping Salesforce]")
 
 2. Click the row of the *Variants (CommerceCloud Actindo)* destination attribute on the left side.   
   The *Settings* section for the *Variants (CommerceCloud Actindo)* attribute mapping is displayed on the right side.
 
-    ![Mapping variants](../../Assets/Screenshots/Channels/Settings/Connections/Salesforce/ETLVariants.png "[Mapping variants]")
+  ![Mapping variants](../../Assets/Screenshots/DataHub/Settings/ETL/Salesforce/Variants.png "[Mapping variants]")
 
 3. Click the *Extension* drop-down list in the *Settings* section and select the **Variant-to-variant** option. All extensions that are matching the data type of the destination attribute are displayed in the list.      
   The *Source attribute* drop-down list is displayed left to the *Extension* drop-down list and the *Configuration* section is displayed below the *Settings* section.
@@ -753,14 +750,12 @@ When mapping the product variants from Actindo to Salesforce, it is important to
       > [Info] In no case may the *Automatically add not mapped defining attributes to destination set when creating variant set* toggle be activated, as the upload from Actindo to Salesforce will cause problems, see [Fields and attributes](#salesforce-product-data-particularities).
     - *Do not transfer the status of the master offer to the child offer*
 
-    ![Configuration variants](../../Assets/Screenshots/Channels/Settings/Connections/Salesforce/ETLVariantsConfiguration.png "[Configuration variants]")
+  ![Configuration variants](../../Assets/Screenshots/DataHub/Settings/ETL/Salesforce/ConfigurationVariants.png "[Configuration variants]")
 
 7. Click the [SAVE] button in the upper right corner.   
   The changes have been saved. The *Settings* section is hidden. The assigned mapping is displayed in the list of attribute mappings on the left side.
 
     > [Info] Be aware that you have to rerun the mapping to apply the changes made to the attribute, see [Rerun an ETL mapping](../../DataHub/Operation/01_ManageETLMappings.md#rerun-an-etl-mapping).
-
-[comment]: <> (Screenshots hinzufügen)
 
 
 ### Configure the translatable variants
@@ -784,12 +779,12 @@ In Salesforce, it is possible to create translations to variables. In Actindo, v
 1. Click the attribute set mapping from a PIM attribute set to the Salesforce attribute set in the list of attribute set mappings.   
   The *Mapping from "PIM attribute set name" to "Salesforce attribute set name"* view is displayed.
 
-    ![Mapping Salesforce](../../Assets/Screenshots/DataHub/Settings/ETL/MappingSalesforce.png "[Mapping Salesforce]")
+  ![Mapping Salesforce](../../Assets/Screenshots/DataHub/Settings/ETL/Salesforce/Mapping.png "[Mapping Salesforce]")
 
 2. Click the row of the *Product Language (CommerceCloud Actindo)* destination attribute on the left side.   
   The *Settings* section for the *Product Language (CommerceCloud Actindo)* attribute mapping is displayed on the right side.
 
-    ![Mapping translatable variants](../../Assets/Screenshots/Channels/Settings/Connections/Salesforce/ETLTranslatableVariants.png "[Mapping translatable variants]")
+  ![Mapping translation](../../Assets/Screenshots/DataHub/Settings/ETL/Salesforce/Translation.png "[Mapping translation]")
 
 3. Click the *Extension* drop-down list in the *Settings* section and select the **Tree-To-String defining values (CommerceCloud)** option. All extensions that are matching the data type of the destination attribute are displayed in the drop-down list.      
   The *Source attribute* drop-down list is displayed left to the *Extension* drop-down list and the *Configuration* section is displayed below the *Settings* section.
@@ -800,29 +795,29 @@ In Salesforce, it is possible to create translations to variables. In Actindo, v
 
 6. Click the *Relevant locale (applies for single language attributes)* drop-down list and select the **English** option. All available languages are displayed in the list. 
 
-    ![Configuration translatable variants](../../Assets/Screenshots/Channels/Settings/Connections/Salesforce/ETLTranslatableVariantsConfiguration.png "[Configuration translatable variants]")
+  ![Configuration translation](../../Assets/Screenshots/DataHub/Settings/ETL/Salesforce/ConfigurationTranslation.png "[Configuration translation]")
 
 7. Click the [SAVE] button in the upper right corner.   
   The changes have been saved. The *Settings* section is hidden. The assigned mapping is displayed in the list of attribute mappings on the left side.
 
-    > [Info] Be aware that you have to rerun the mapping to apply the changes made to the attribute, see [Rerun an ETL mapping](../../DataHub/Operation/01_ManageETLMappings.md#rerun-an-etl-mapping).
+    > [Info] Be aware that you have to rerun the mapping to apply the changes made to the attribute, see [Rerun an ETL mapping](../../DataHub/Operation/01_ManageETLMappings.md#rerun-an-etl-mapping).   
+    Note that any changes made to the translations in the tree node attribute will not be uploaded automatically, even if rerunning the mapping. You must set the corresponding offer to inactive and set it to active again to synchronize the changes. 
 
-    > [Info] Note that any changes made to the translations in the tree node attribute will not be uploaded automatically, even if rerunning the mapping. You must set the corresponding offer to inactive and set it to active again to synchronize the changes. 
+[comment]: <> (Stimmt das mit der Configuration? oder ist das individuell bzw. vom shop abhängig?)
 
-[comment]: <> (Screenshots hinzufügen, stimmt das mit der Configuration? oder ist das individuell bzw. vom shop abhängig?)
-
-[comment]: <> (Zwei Infos nacheinander?)
 
 
 ## Salesforce product data particularities
 
-There are a few particularities regarding the Salesforce Commerce Cloud product data that must be taking into account:  
+There are a few particularities regarding the Salesforce product data that must be taking into account:  
 
 **Master catalog**
 
-Every product in Salesforce must be assigned to a catalog, which is similar to a product category in a shop. There must be a master catalog in Salesforce that determines which fields are available.  
+Every product in Salesforce must be assigned to a catalog which is similar to a product category in a shop. There must be a master catalog in Salesforce that determines which fields are available.   
+The Salesforce master catalog must be mapped in Actindo to determine the available fields in Actindo.   
+It is mandatory that the master catalog is set in all ETL mappings to the Salesforce attribute set, see [Configure the master catalog](#configure-the-master-catalog).
 
-In Actindo, all fields from Salesforce are available, as there exists only one single attribute set for Salesforce. This Salesforce attribute set must be mapped to the master catalog, see [Configure the master catalog](#configure-the-master-catalog).  
+In Actindo, all fields from Salesforce are available, as there exists only one single attribute set for Salesforce.    
 
 [comment]: <> (s.o.: ist der master catalog in Salesforce oder in Actindo?)
 

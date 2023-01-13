@@ -130,7 +130,7 @@ Otherwise, the affected attributes (*Allow oversells*, *Taxes*, and *Dispatch re
 Anyway, it is recommended to check the attribute mappings described below to enable the correct upload of products. 
 
 
-### Configure the oversells permission
+### Configure the oversells allowance
 
 The *Allow oversells* attribute is an important attribute regarding the Shopify connection. This attribute ensures that products whose stock reaches zero are displayed as sold out in the Shopify shop.    
 By default, the corresponding attribute mapping is already configured as described below, if the *PIM* module as well as the *PIM-Channels connection* plugin have been installed at the time of connection. Nevertheless, you should check the correct mapping to prevent any problems during the upload process.

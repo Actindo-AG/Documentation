@@ -18,35 +18,34 @@
 - ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh)   
   Click this button to update the list of offers.
 
-- *VIEW*  
-  Click the drop-down list to select the view. All created views are displayed in the drop-down list. Click the ![Points](../../Assets/Icons/Points01.png "[Points]") (Points) button to the right of the *VIEW* drop-down list to display the context menu and create a view.   
+- *View*   
+  Click the drop-down list to select the view. All created views are displayed in the drop-down list. Click the ![Points](../../Assets/Icons/Points01.png "[Points]") (Points) button to the right of the *View* drop-down list to display the context menu and create or edit a view.    
 
-  - ![Points](../../Assets/Icons/Points01.png "[Points]") (Points)      
-    Click this button to the right of the *View* drop-down list to display the context menu. The following menu entries are available:
+  - View context menu   
+    Click the ![Points](../../Assets/Icons/Points01.png "[Points]") (Points) button to the right of the *View* drop-down list to display the context menu. The following menu entries are available:
 
-    - ![Create](../../Assets/Icons/Plus06.png "[Create]") create  
-      Click this entry to create a view. The *Create view* window is displayed, see [Create view](#create-view).
+      - ![Create](../../Assets/Icons/Plus06.png "[Create]") create   
+        Click this entry to create a view. The *Create view* window is displayed.
 
-    - ![Rename](../../Assets/Icons/Edit02.png "[Rename]") rename  
-      Click this entry to rename the selected view. The *Rename view* window is displayed, see [Rename view](#rename-view). This menu entry is only displayed if a view has been selected.
+      - ![Rename](../../Assets/Icons/Edit02.png "[Rename]") rename    
+        Click this entry to rename the selected view. The *Rename view* window is displayed. This menu entry is only displayed if a view has been selected.
 
-    - ![Reset](../../Assets/Icons/Reset.png "[Reset]") reset  
-      Click this entry to reset all unsaved changes to the settings of the selected view. This menu entry is only displayed if a view has been selected and any changes have been made to the view settings.
+      - ![Reset](../../Assets/Icons/Reset.png "[Reset]") reset    
+        Click this entry to reset all unsaved changes to the settings of the selected view. This menu entry is only displayed if a view has been selected and any changes have been made to the view settings.
 
-    - ![Publish](../../Assets/Icons/Publish.png "[Publish]") publish  
-      Click this entry to publish the view. This menu entry is only displayed if a view has been selected and unpublished.
+      - ![Publish](../../Assets/Icons/Publish.png "[Publish]") publish    
+        Click this entry to publish the view. This menu entry is only displayed if a view has been selected and unpublished.
 
-    - ![Unpublish](../../Assets/Icons/Unpublish.png "[Unpublish]") unpublish  
-      Click this entry to unpublish the view. This menu entry is only displayed if a view has been selected and published.
+      - ![Private view](../../Assets/Icons/Unpublish.png "[Unpublish]") private view    
+        Click this entry to unpublish the view. This menu entry is only displayed if a view has been selected and published.
 
-    - ![Save](../../Assets/Icons/Save.png "[Save]") save  
-      Click this entry to save the current view settings in the selected view. This menu entry is only displayed if a view has been selected.
+      - ![Save](../../Assets/Icons/Save.png "[Save]") save    
+        Click this entry to save the current view settings in the selected view. This menu entry is only displayed if a view has been selected.
 
-      > [Info] When the settings of a view have been changed, an asterisk is displayed next to the view name. The asterisk is hidden as soon as the changes have been saved.
+        > [Info] When the settings of a view have been changed, an asterisk is displayed next to the view name. The asterisk is hidden as soon as the changes have been saved.
 
-    - ![Delete](../../Assets/Icons/Trash01.png "[Delete]") delete  
-      Click this entry to delete the selected view. A confirmation window to confirm the deletion is displayed. This menu entry is only displayed if a view has been selected.
-
+      - ![Delete](../../Assets/Icons/Trash01.png "[Delete]") delete    
+        Click this entry to delete the selected view. A confirmation window is displayed to confirm the deletion. This menu entry is only displayed if a view has been selected.
 
 - *All Connections*    
   Click the drop-down list to select a connection. All available connections are displayed in the list. If you select a connection, the list of offers is limited to those offers of the selected connection. Otherwise, the offers of all connections are displayed in the list of offers.
@@ -55,7 +54,7 @@
   Click this button to display the columns bar and customize the displayed columns and the order of columns in the list. The *x* indicates the number of columns that are currently displayed in the list.
 
 - ![Filter](../../Assets/Icons/Filter.png "[Filter]") Filter (x)   
-Click this button to display the filter bar and customize the active filters. The *x* indicates the number of filters that are currently active.
+  Click this button to display the filter bar and customize the active filters. The *x* indicates the number of filters that are currently active.
 
 - [x]     
   Select the checkbox to display the editing toolbar. If you click the checkbox in the header, all offers in the list are selected.
@@ -81,12 +80,12 @@ The list displays all available offers. Depending on the settings, the displayed
  
 - *Variant status*  
   Variant type of the offer. The following options are available:  
-    - **Master offer**   
-      This offer refers to a master product.
-    - **Variant offer**   
-      This offer refers to a variant.
-    - **Standalone Offer**  
-      This offer refers to a single product.
+  - **Master offer**   
+    This offer refers to a master product.
+  - **Variant offer**   
+    This offer refers to a variant.
+  - **Standalone Offer**  
+    This offer refers to a single product.
 
 - *Status*  
   Status of the offer. The following options are available:  
@@ -102,9 +101,9 @@ The list displays all available offers. Depending on the settings, the displayed
 
 - *Pending status/Errors*  
   Indication of the pending status or an error for this offer. The selected status is displayed if you have changed the offer status via the editing toolbar. The following options are available:
-    - **Active**	  
-    - **Inactive**   	 
-    - **Not available**  
+  - **Active**	  
+  - **Inactive**   	 
+  - **Not available**  
 
 [comment]: <> (when is an error displayed here? what is displayed? The Error code or message?)
 
@@ -155,233 +154,6 @@ The list displays all available offers. Depending on the settings, the displayed
   Click this button to hide the buttons and return to the *OFFERS* tab.
 
 
-### Create manual offer
-
-*Omni-Channel > Offers > Tab OFFERS > Button Add > Button Manual offer*
-
-![Create manual offer](../../Assets/Screenshots/Channels/Offers/Offers/CreateManualOffer.png "[Create manual offer]")
-
-**Create offer**
-
-- *SKU*  
-  Enter an individual SKU for the offer. The SKU (Stock Keeping Unit) is an identification number and should be assigned only once. 
-
-- *Selection connection*  
-  Click the drop-down list to select a connection for the offer. All available connections are displayed in the list. Once a connection has been selected, the *Select attribute set* drop-down list is unlocked.
-
-- *Select attribute set*  
-  Click the drop-down list to select an attribute set for the offer. All active attribute sets are displayed in the drop-down list. The drop-down list is locked if no connection is selected.
-
-- [CANCEL]   
-  Click this button to cancel adding an offer. The *Create manual offer* window is closed.
-
-- [SAVE]  
-  Click this button to save the offer. The *Create manual offer* window is closed.
-
-
-## Create offer
-
-*Omni-Channel > Offers > Tab OFFERS > Button Add > Button Manual offer > Button SAVE*
-
-![Create offer](../../Assets/Screenshots/Channels/Offers/Offers/CreateOffer.png "[Create offer]")
-
-- ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)   
-  Click this button to close the *Create offer* view and return to the offer list. All changes are rejected.
-
-- [CANCEL]   
-  Click this button to cancel creating the offer. The *Create offer* view is closed.
-
-- [SAVE]   
-  Click this button to save the new offer. The *Create offer* view is closed. The new offer is added to the offer list.
-
-- *SKU*   
-  Stock Keeping Unit. Identification number for the product. The SKU (Stock Keeping Unit) is an identification number for the product. Therefore, it should be uniquely assigned to a single product.   
-  Click the button ![Edit](../../Assets/Icons/Edit02.png "[Edit]") (Edit) to the right of the SKU to edit it.
-
-- ![Edit](../../Assets/Icons/Edit02.png "[Edit]") (Edit)   
-  Click this button to edit the SKU.
-
-- ![Apply](../../Assets/Icons/Check.png "[Apply]") (Apply)   
-  Click this button to apply the changes to the SKU. This button is only displayed if you are editing the SKU.
-
-- *Language*   
-  Click the drop-down list to select a language for the offer. All active languages are displayed in the drop-down list. The default language is preselected.
-
-- [Completeness: Not available]     
-  Completeness of the offer. In the *Create offer* view, the completeness cannot be indicated. The completeness is indicated once the offer have been saved.
-
-
-
-## Create offer &ndash; Attributes
-
-*Omni-Channel > Offers > Tab OFFERS > Button Add > Button Manual offer > Button SAVE > Tab Attributes*
-
-![Attributes](../../Assets/Screenshots/Channels/Offers/Offers/CreateOffer.png "[Attributes]")
-
-In the left margin column, all available attribute groups are displayed. Click an attribute group to display the attributes that are assigned to this group on the right side of the *Attributes* tab. If the offer contains attributes that are unassigned, the *Unassigned group* attribute group is automatically displayed in the left margin column.
-
-The right side of the *Attributes* tab displays all attributes that are assigned to the selected group in the left margin column.
-
-- ![Fade in/out](../../Assets/Icons/FadeInOut01.png "[Fade in/out]") (Fade in/out)    
-  Click this button to hide or display the left margin column with the attribute groups. When the left margin is displayed and you click this button, the column is hidden. When the column is hidden and you click this button, the column is displayed again.
-
-
-
-## Create offer &ndash; Variants
-
-*Omni-Channel > Offers > Tab OFFERS > Button Add > Button Manual offer > Button SAVE > Tab Variants*
-
-[comment]: <> (Bild einfügen)
-
-- *Variant set*   
-  Click the drop-down list to select a variant set for the product. All variant sets to the corresponding attribute set of the product are displayed in the drop-down list. The ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) button is displayed in the variants box below if a variant set is selected.
-
-**Variants box**
-
-- ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh)   
-  Click this button to update the list of variants.
-
-- ![Columns](../../Assets/Icons/Columns.png "[Columns]") Columns (x)   
-  Click this button to display the columns bar and customize the displayed columns and the order of columns in the list. The *x* indicates the number of columns that are currently displayed in the list.
-
-The list displays all variants of the selected product. Depending on the settings, the displayed columns may vary. All fields are read-only. 
-
-- *Status*  
-  Status of the variant. In the *Create product* view, the **Created after save** status is displayed if you have added a variant.
-
-- *SKU*  
-  Stock Keeping Unit. Identification number for the variant. The SKU for the variant is created depending on the selected settings.
-
-- *ID*   
-  Variant identification number. The ID is created after saving. In the *Create product* view, no ID is displayed.
-
-- Defining/changeable attribute    
-  You can add a column for each attribute that is assigned as a defining or changeable attribute to the selected variant set. The column displays the attribute name, the row displays the attribute value.
-
-- ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add)   
-  Click this button to add a new variant to the product. The [Add single variant ![Document](../../Assets/Icons/Document.png "[Document]") ] button and the [Add multiple variants ![Documents](../../Assets/Icons/Documents.png "[Documents]") ] button are displayed.
-
-
-### Add variant
-
-*PIM > Products > Tab LIST > Button Add > Button CREATE > Tab Variants > Select variant set > Button Add*
-
-![Add variant](../../Assets/Screenshots/PIM/Products/List/Variants/AddVariantCreate.png "[Add variant]")
-
-- [Add single variant ![Document](../../Assets/Icons/Document.png "[Document]") ]    
-  Click this button to add a single variant. The *Add single variant* window is displayed.
-
-- [Add multiple variants ![Documents](../../Assets/Icons/Documents.png "[Documents]") ]    
-  Click this button to add multiple variants. The *Select values* wizard window is displayed.
-
-- ![Cancel](../../Assets/Icons/Cross01.png "[Cancel]") (Cancel)   
-  Click this button to hide the buttons and return to the *Variants* tab.
-
-
-### Add single variant
-
-*PIM > Products > Tab LIST > Button Add > Button CREATE > Tab Variants > Select variant set > Button Add > Button Add single variant*
-
-![Add single variant](../../Assets/Screenshots/PIM/Products/List/Variants/AddSingleVariant.png "[Add single variant]")
-
-**Additional fields**
-
-- *SKU*   
-  Identification number for the variant. The SKU (Stock Keeping Unit) is an identification number and should be assigned only once. This field is read-only as long as the *Use formula* toggle is enabled. Disable the toggle to edit the SKU.
-
-- ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Use formula*   
-  Enable this toggle to apply the formula defined in the settings for the variant sets to the variant SKU. When the toggle is enabled, the *SKU* field is read-only. Disable the toggle to enter a different SKU. By default, this toggle is enabled.
-
-**Defined values**
-
-For each defining attribute a single field or box to define the attribute value is displayed.
-
-> [Info] If more than one defining attribute is assigned to the variant, you have to select a value for each defining attribute to add a variant.
-
-- Defining attribute(s)   
-  Enter or select the appropriate value for the defining attribute(s).
-
-- [CANCEL]   
-  Click this button to cancel adding a variant. The *Add single variant* window is closed.
-
-- [SAVE]   
-  Click this button to save the variant. The *Add single variant* window is closed..
-
-
-### Add multiple variants
-
-*PIM > Products > Tab LIST > Button Add > Button CREATE > Tab Variants > Select variant set > Button Add > Button Add multiple variants*
-
-#### Select values
-
-*PIM > Products > Tab LIST > Button Add > Button CREATE > Tab Variants > Select variant set > Button Add > Button Add multiple variants > Wizard window Select values*
-
-![Add multiple variants](../../Assets/Screenshots/PIM/Products/List/Variants/AddMultipleVariants01.png "[Add multiple variants]")
-
-For each defining attribute a single box to define the attribute value is displayed.
-
-> [Info] If more than one defining attribute is assigned to the variant, you have to select a value for each defining attribute to add a variant.
-
-- [ADD ALL VALUES]   
-  Click this button to add all available values in the box for the corresponding defining attribute. This button is only displayed for attributes with the *TreeNode* data type.
-
-- [ADD VALUE]   
-  Click this button to add a further row to the corresponding attribute where you can enter or select the desired value.
-
-- [CANCEL]   
-  Click this button to cancel adding variants. The *Select values* wizard window is closed.
-
-- [NEXT]   
-  Click this button to proceed to the next step. The *Summary* wizard window is displayed.
-
-
-#### Summary
-
-*PIM > Products > Tab LIST > Button Add > Button CREATE > Tab Variants > Select variant set > Button Add > Button Add multiple variants > Wizard window Summary*
-
-![Add multiple variants](../../Assets/Screenshots/PIM/Products/List/Variants/AddMultipleVariants02.png "[Add multiple variants]")
-
-The box displays all variants that will be created from the selected attribute values. For each possible combination of the selected attributes, a new variant is created. Variants that already exist will not be created even if they are listed in the box.
-
-**Variants that will be created (ignoring duplicated)**
-
-- ![Columns](../../Assets/Icons/Columns.png "[Columns]") Columns (x)   
-  Click this button to display the columns bar and customize the displayed columns and the order of columns in the list. The *x* indicates the number of columns that are currently displayed in the list.
-
-- [x]     
-  Select the checkbox to display the editing toolbar. If you click the checkbox in the header, all variants in the list are selected.
-
-- ![Delete](../../Assets/Icons/Trash03.png "[Delete]") (Delete)   
-  Click this button to delete the selected variant from the list. This button is only displayed if the checkbox of a variant is selected.
-
-The list displays all selected variants. Depending on the settings, the displayed columns may vary.
-
-- *SKU*      
-  Stock Keeping Unit. Identification number for the variant. Click this field to edit the SKU of the selected variant.
-
-- Defining attribute     
-  You can add a column for each defining attribute. The column displays the attribute name, the row displays the corresponding attribute value. These fields are read-only.
-
-- [< GO BACK]   
-  Click this button to go back to the previous step of adding variants. The *Select values* wizard window is displayed.
-
-- [CANCEL]   
-  Click this button to cancel adding variants. The *Summary* wizard window is closed.
-
-- [FINALIZE]   
-  Click this button to save the listed variants. The *Summary* wizard window is closed.
-
-
-## Create offer &ndash; Dependencies
-
-*Omni-Channel > Offers > Tab OFFERS > Button Add > Button Manual offer > Button SAVE > Tab Dependencies*
-
-[comment]: <> (Bild einfügen)
-
-In the *Create offer* view, the notice *Information about dependencies are not available* is displayed in this tab. Dependencies are displayed only after saving.
-
-
-
 ### Create from PIM product
 
 *Omni-Channel > Offers > Tab OFFERS > Button Add > Button Create from PIM product*
@@ -390,8 +162,7 @@ In the *Create offer* view, the notice *Information about dependencies are not a
 
 *Omni-Channel > Offers > Tab OFFERS > Button Add > Button Create from PIM product > Wizard window Select marketplace*
 
-![Select marketplace](../../Assets/Screenshots/Channels/Offers/Offers/PIMOffer01.png "[Select marketplace]")
-
+![Select marketplace](../../Assets/Screenshots/Channels/Offers/Offers/SelectMarketplace.png "[Select marketplace]")
 
 **Select marketplace**
 
@@ -419,38 +190,38 @@ In the *Create offer* view, the notice *Information about dependencies are not a
 
 *Omni-Channel > Offers > Tab OFFERS > Button Add > Button Create from PIM product > Wizard window Select products*
 
-![Select products](../../Assets/Screenshots/Channels/Offers/Offers/PIMOffer02.png "[Select products]")
+![Select products](../../Assets/Screenshots/Channels/Offers/Offers/SelectProducts.png "[Select products]")
 
 **Select products**
 
-- *VIEW*  
-  Click the drop-down list to select the view. All created views are displayed in the drop-down list. Click the ![Points](../../Assets/Icons/Points01.png "[Points]") (Points) button to the right of the *VIEW* drop-down list to display the context menu and create a view.   
+- *View*   
+  Click the drop-down list to select the view. All created views are displayed in the drop-down list. Click the ![Points](../../Assets/Icons/Points01.png "[Points]") (Points) button to the right of the *View* drop-down list to display the context menu and create or edit a view.    
 
-  - ![Points](../../Assets/Icons/Points01.png "[Points]") (Points)      
-    Click this button to the right of the *View* drop-down list to display the context menu. The following menu entries are available:
+  - View context menu   
+    Click the ![Points](../../Assets/Icons/Points01.png "[Points]") (Points) button to the right of the *View* drop-down list to display the context menu. The following menu entries are available:
 
-    - ![Create](../../Assets/Icons/Plus06.png "[Create]") create  
-      Click this entry to create a view. The *Create view* window is displayed, see [Create view](#create-view).
+      - ![Create](../../Assets/Icons/Plus06.png "[Create]") create   
+        Click this entry to create a view. The *Create view* window is displayed.
 
-    - ![Rename](../../Assets/Icons/Edit02.png "[Rename]") rename  
-      Click this entry to rename the selected view. The *Rename view* window is displayed, see [Rename view](#rename-view). This menu entry is only displayed if a view has been selected.
+      - ![Rename](../../Assets/Icons/Edit02.png "[Rename]") rename    
+        Click this entry to rename the selected view. The *Rename view* window is displayed. This menu entry is only displayed if a view has been selected.
 
-    - ![Reset](../../Assets/Icons/Reset.png "[Reset]") reset  
-      Click this entry to reset all unsaved changes to the settings of the selected view. This menu entry is only displayed if a view has been selected and any changes have been made to the view settings.
+      - ![Reset](../../Assets/Icons/Reset.png "[Reset]") reset    
+        Click this entry to reset all unsaved changes to the settings of the selected view. This menu entry is only displayed if a view has been selected and any changes have been made to the view settings.
 
-    - ![Publish](../../Assets/Icons/Publish.png "[Publish]") publish  
-      Click this entry to publish the view. This menu entry is only displayed if a view has been selected and unpublished.
+      - ![Publish](../../Assets/Icons/Publish.png "[Publish]") publish    
+        Click this entry to publish the view. This menu entry is only displayed if a view has been selected and unpublished.
 
-    - ![Unpublish](../../Assets/Icons/Unpublish.png "[Unpublish]") unpublish  
-      Click this entry to unpublish the view. This menu entry is only displayed if a view has been selected and published.
+      - ![Private view](../../Assets/Icons/Unpublish.png "[Unpublish]") private view    
+        Click this entry to unpublish the view. This menu entry is only displayed if a view has been selected and published.
 
-    - ![Save](../../Assets/Icons/Save.png "[Save]") save  
-      Click this entry to save the current view settings in the selected view. This menu entry is only displayed if a view has been selected.
+      - ![Save](../../Assets/Icons/Save.png "[Save]") save    
+        Click this entry to save the current view settings in the selected view. This menu entry is only displayed if a view has been selected.
 
-      > [Info] When the settings of a view have been changed, an asterisk is displayed next to the view name. The asterisk is hidden as soon as the changes have been saved.
+        > [Info] When the settings of a view have been changed, an asterisk is displayed next to the view name. The asterisk is hidden as soon as the changes have been saved.
 
-    - ![Delete](../../Assets/Icons/Trash01.png "[Delete]") delete  
-      Click this entry to delete the selected view. A confirmation window to confirm the deletion is displayed. This menu entry is only displayed if a view has been selected.
+      - ![Delete](../../Assets/Icons/Trash01.png "[Delete]") delete    
+        Click this entry to delete the selected view. A confirmation window is displayed to confirm the deletion. This menu entry is only displayed if a view has been selected.
 
 - *Language*   
   Click the drop-down list to select the language. All languages that are active in the *PIM* module are displayed in the drop-down list.    
@@ -511,12 +282,11 @@ The list in the selection side bar displays all selected products. The *x* indic
   Click this button to proceed to the next step. The *Review and finalize* wizard window is displayed.
 
 
-
 #### Review and finalize
 
 *Omni-Channel > Offers > Tab OFFERS > Button Add > Button Create from PIM product > Wizard window Review and finalize*
 
-![Review and finalize](../../Assets/Screenshots/Channels/Offers/Offers/PIMOffer03.png "[Review and finalize]")
+![Review and finalize](../../Assets/Screenshots/Channels/Offers/Offers/ReviewFinalize.png "[Review and finalize]")
 
 The window displays a summary of the offers from the selected products. The offers are divided as follows:
 - **Matched**	   
@@ -528,7 +298,6 @@ The window displays a summary of the offers from the selected products. The offe
 - **Already have offers on this connection and would create duplicates.**   
   Number of offers that already exist on the selected connection. Depending on the corresponding option that has been selected in the previous step, these offers will either be ignored or created after finalizing the wizard.
 
-
 - *Change tracking mode*  
   Select the change tracking mode (ETL mode) for the offers to be created. The following options are available:   
     - ![Radionbutton](../../Assets/Icons/Radiobutton.png "[Radiobutton]") *Manual*    
@@ -539,7 +308,6 @@ The window displays a summary of the offers from the selected products. The offe
     Changes in a PIM product are automatically applied to the offer after confirmation by another user. The initial offer is only applied after confirmation by another user.       
   - ![Radionbutton](../../Assets/Icons/Radiobutton.png "[Radiobutton]") *Automatic*   
     Changes in a PIM product are automatically applied to the offer. The initial offer is also automatically applied.
-
 
 - *Initial offer status*	
   Select the initial status for the offers to be created. The following options are available:    
@@ -569,6 +337,234 @@ The box displays all source and destination attribute sets of the offers to be c
 
 - [CREATE OFFERS]   
   Click this button to create all available offers. The *Review and finalize* wizard window is closed.
+
+
+
+### Create manual offer
+
+*Omni-Channel > Offers > Tab OFFERS > Button Add > Button Manual offer*
+
+![Create manual offer](../../Assets/Screenshots/Channels/Offers/Offers/CreateManualOffer.png "[Create manual offer]")
+
+**Create offer**
+
+- *SKU*  
+  Enter an individual SKU for the offer. The SKU (Stock Keeping Unit) is an identification number and should be assigned only once. 
+
+- *Selection connection*  
+  Click the drop-down list to select a connection for the offer. All available connections are displayed in the list. Once a connection has been selected, the *Select attribute set* drop-down list is unlocked.
+
+- *Select attribute set*  
+  Click the drop-down list to select an attribute set for the offer. All active attribute sets are displayed in the drop-down list. The drop-down list is locked if no connection is selected.
+
+- [CANCEL]   
+  Click this button to cancel adding an offer. The *Create manual offer* window is closed.
+
+- [SAVE]  
+  Click this button to save the offer. The *Create manual offer* window is closed. The *Create offer* view is displayed, see [Create offer](#create-offer).
+
+
+
+## Create offer
+
+*Omni-Channel > Offers > Tab OFFERS > Button Add > Button Manual offer > Button SAVE*
+
+![Create offer](../../Assets/Screenshots/Channels/Offers/Offers/CreateOffer.png "[Create offer]")
+
+- ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)   
+  Click this button to close the *Create offer* view and return to the offer list. All changes are rejected.
+
+- [CANCEL]   
+  Click this button to cancel creating the offer. The *Create offer* view is closed.
+
+- [SAVE]   
+  Click this button to save the new offer. The *Create offer* view is closed. The new offer is added to the offer list.
+
+- *SKU*   
+  Stock Keeping Unit. Identification number for the product. The SKU (Stock Keeping Unit) is an identification number for the product. Therefore, it should be uniquely assigned to a single product.   
+  Click the button ![Edit](../../Assets/Icons/Edit02.png "[Edit]") (Edit) to the right of the SKU to edit it.
+
+- ![Edit](../../Assets/Icons/Edit02.png "[Edit]") (Edit)   
+  Click this button to edit the SKU.
+
+- ![Apply](../../Assets/Icons/Check.png "[Apply]") (Apply)   
+  Click this button to apply the changes to the SKU. This button is only displayed if you are editing the SKU.
+
+- *Language*   
+  Click the drop-down list to select a language for the offer. All active languages are displayed in the drop-down list. The default language is preselected.
+
+- [Completeness: Not available]     
+  Completeness of the offer. In the *Create offer* view, the completeness cannot be indicated. The completeness is indicated once the offer have been saved.
+
+
+
+## Create offer &ndash; Attributes
+
+*Omni-Channel > Offers > Tab OFFERS > Button Add > Button Manual offer > Button SAVE > Tab Attributes*
+
+![Attributes](../../Assets/Screenshots/Channels/Offers/Offers/Attributes/AttributesCreate.png "[Attributes]")
+
+In the left margin column, all available attribute groups are displayed. Click an attribute group to display the attributes that are assigned to this group on the right side of the *Attributes* tab. If the offer contains attributes that are unassigned, the *Unassigned group* attribute group is automatically displayed in the left margin column.
+
+The right side of the *Attributes* tab displays all attributes that are assigned to the selected group in the left margin column.
+
+- ![Fade in/out](../../Assets/Icons/FadeInOut01.png "[Fade in/out]") (Fade in/out)    
+  Click this button to hide or display the left margin column with the attribute groups. When the left margin is displayed and you click this button, the column is hidden. When the column is hidden and you click this button, the column is displayed again.
+
+
+
+## Create offer &ndash; Variants
+
+*Omni-Channel > Offers > Tab OFFERS > Button Add > Button Manual offer > Button SAVE > Tab Variants*
+
+![Variants](../../Assets/Screenshots/Channels/Offers/Offers/Variants/VariantsCreate.png "[Variants]")
+
+- *Variant set*   
+  Click the drop-down list to select a variant set for the product. All variant sets to the corresponding attribute set of the product are displayed in the drop-down list. The ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) button is displayed in the variants box below if a variant set is selected.
+
+**Variants box**
+
+- ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh)   
+  Click this button to update the list of variants.
+
+- ![Columns](../../Assets/Icons/Columns.png "[Columns]") Columns (x)   
+  Click this button to display the columns bar and customize the displayed columns and the order of columns in the list. The *x* indicates the number of columns that are currently displayed in the list.
+
+The list displays all variants of the selected product. Depending on the settings, the displayed columns may vary. All fields are read-only. 
+
+- *Status*  
+  Status of the variant. In the *Create product* view, the **Created after save** status is displayed if you have added a variant.
+
+- *SKU*  
+  Stock Keeping Unit. Identification number for the variant. The SKU for the variant is created depending on the selected settings.
+
+- *ID*   
+  Variant identification number. The ID is created after saving. In the *Create product* view, no ID is displayed.
+
+- Defining/changeable attribute    
+  You can add a column for each attribute that is assigned as a defining or changeable attribute to the selected variant set. The column displays the attribute name, the row displays the attribute value.
+
+- ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add)   
+  Click this button to add a new variant to the product. The [Add single variant ![Document](../../Assets/Icons/Document.png "[Document]") ] button and the [Add multiple variants ![Documents](../../Assets/Icons/Documents.png "[Documents]") ] button are displayed.
+
+
+### Add variant
+
+*Omni-Channel > Offers > Tab OFFERS > Button Add > Button Manual offer > Button SAVE > Tab Variants > Select variant set > Button Add*
+
+![Add variant](../../Assets/Screenshots/Channels/Offers/Offers/Variants/AddVariantCreate.png "[Add variant]")
+
+- [Add single variant ![Document](../../Assets/Icons/Document.png "[Document]") ]    
+  Click this button to add a single variant. The *Add single variant* window is displayed.
+
+- [Add multiple variants ![Documents](../../Assets/Icons/Documents.png "[Documents]") ]    
+  Click this button to add multiple variants. The *Select values* wizard window is displayed.
+
+- ![Cancel](../../Assets/Icons/Cross01.png "[Cancel]") (Cancel)   
+  Click this button to hide the buttons and return to the *Variants* tab.
+
+
+### Add single variant
+
+*Omni-Channel > Offers > Tab OFFERS > Button Add > Button Manual offer > Button SAVE > Tab Variants > Select variant set > Button Add > Button Add single variant*
+
+![Add single variant](../../Assets/Screenshots/Channels/Offers/Offers/Variants/AddSingleVariant.png "[Add single variant]")
+
+**Additional fields**
+
+- *SKU*   
+  Identification number for the variant. The SKU (Stock Keeping Unit) is an identification number and should be assigned only once. This field is read-only as long as the *Use formula* toggle is enabled. Disable the toggle to edit the SKU.
+
+- ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Use formula*   
+  Enable this toggle to apply the formula defined in the settings for the variant sets to the variant SKU. When the toggle is enabled, the *SKU* field is read-only. Disable the toggle to enter a different SKU. By default, this toggle is enabled.
+
+**Defined values**
+
+For each defining attribute a single field or box to define the attribute value is displayed.
+
+> [Info] If more than one defining attribute is assigned to the variant, you have to select a value for each defining attribute to add a variant.
+
+- Defining attribute(s)   
+  Enter or select the appropriate value for the defining attribute(s).
+
+- [CANCEL]   
+  Click this button to cancel adding a variant. The *Add single variant* window is closed.
+
+- [SAVE]   
+  Click this button to save the variant. The *Add single variant* window is closed..
+
+
+### Add multiple variants
+
+*Omni-Channel > Offers > Tab OFFERS > Button Add > Button Manual offer > Button SAVE > Tab Variants > Select variant set > Button Add > Button Add multiple variants*
+
+#### Select values
+
+*Omni-Channel > Offers > Tab OFFERS > Button Add > Button Manual offer > Button SAVE > Tab Variants > Select variant set > Button Add > Button Add multiple variants > Wizard window Select values*
+
+![Select values](../../Assets/Screenshots/Channels/Offers/Offers/Variants/SelectValues.png "[[Select values]")
+
+For each defining attribute a single box to define the attribute value is displayed.
+
+> [Info] If more than one defining attribute is assigned to the variant, you have to select a value for each defining attribute to add a variant.
+
+- [ADD ALL VALUES]   
+  Click this button to add all available values in the box for the corresponding defining attribute. This button is only displayed for attributes with the *TreeNode* data type.
+
+- [ADD VALUE]   
+  Click this button to add a further row to the corresponding attribute where you can enter or select the desired value.
+
+- [CANCEL]   
+  Click this button to cancel adding variants. The *Select values* wizard window is closed.
+
+- [CONTINUE]   
+  Click this button to proceed to the next step. The *Summary* wizard window is displayed.
+
+
+#### Summary
+
+*Omni-Channel > Offers > Tab OFFERS > Button Add > Button Manual offer > Button SAVE > Tab Variants > Select variant set > Button Add > Button Add multiple variants > Wizard window Summary*
+
+![Summary](../../Assets/Screenshots/Channels/Offers/Offers/Variants/Summary.png "[Summary]")
+
+The box displays all variants that will be created from the selected attribute values. For each possible combination of the selected attributes, a new variant is created. Variants that already exist will not be created even if they are listed in the box.
+
+**Variants that will be created (ignoring duplicated)**
+
+- ![Columns](../../Assets/Icons/Columns.png "[Columns]") Columns (x)   
+  Click this button to display the columns bar and customize the displayed columns and the order of columns in the list. The *x* indicates the number of columns that are currently displayed in the list.
+
+- [x]     
+  Select the checkbox to display the editing toolbar. If you click the checkbox in the header, all variants in the list are selected.
+
+- ![Delete](../../Assets/Icons/Trash03.png "[Delete]") (Delete)   
+  Click this button to delete the selected variant from the list. This button is only displayed if the checkbox of a variant is selected.
+
+The list displays all selected variants. Depending on the settings, the displayed columns may vary.
+
+- *SKU*      
+  Stock Keeping Unit. Identification number for the variant. Click this field to edit the SKU of the selected variant.
+
+- Defining attribute     
+  You can add a column for each defining attribute. The column displays the attribute name, the row displays the corresponding attribute value. These fields are read-only.
+
+- [< GO BACK]   
+  Click this button to go back to the previous step of adding variants. The *Select values* wizard window is displayed.
+
+- [CANCEL]   
+  Click this button to cancel adding variants. The *Summary* wizard window is closed.
+
+- [FINALIZE]   
+  Click this button to save the listed variants. The *Summary* wizard window is closed.
+
+
+## Create offer &ndash; Dependencies
+
+*Omni-Channel > Offers > Tab OFFERS > Button Add > Button Manual offer > Button SAVE > Tab Dependencies*
+
+![Summary](../../Assets/Screenshots/Channels/Offers/Offers/Dependencies/DependenciesCreate.png "[Summary]")
+
+In the *Create offer* view, the notice *Information about dependencies are not available* is displayed in this tab. Dependencies are displayed only after saving.
 
 
 
@@ -619,11 +615,11 @@ The box displays all source and destination attribute sets of the offers to be c
     The offer is unknown to the selected connection and cannot be sold there.
 
 
-## Create offer &ndash; Attributes
+## Edit offer &ndash; Attributes
 
-*Omni-Channel > Offers > Tab OFFERS > Button Add > Button Manual offer > Button SAVE > Tab Attributes*
+*Omni-Channel > Offers > Tab OFFERS > Select offer > Tab Attributes*
 
-![Attributes](../../Assets/Screenshots/Channels/Offers/Offers/CreateOffer.png "[Attributes]")
+![Attributes](../../Assets/Screenshots/Channels/Offers/Offers/Attributes/AttributesEdit.png "[Attributes]")
 
 In the left margin column, all available attribute groups are displayed. Click an attribute group to display the attributes that are assigned to this group on the right side of the *Attributes* tab. If the offer contains attributes that are unassigned, the *Unassigned group* attribute group is automatically displayed in the left margin column.
 
@@ -634,11 +630,11 @@ The right side of the *Attributes* tab displays all attributes that are assigned
 
 
 
-## Create offer &ndash; Variants
+## Edit offer &ndash; Variants
 
-*Omni-Channel > Offers > Tab OFFERS > Button Add > Button Manual offer > Button SAVE > Tab Variants*
+*Omni-Channel > Offers > Tab OFFERS > Select offer > Tab Variants*
 
-[comment]: <> (Bild einfügen)
+![Variants](../../Assets/Screenshots/Channels/Offers/Offers/Variants/VariantsEdit.png "[Variants]")
 
 - *Variant set*   
   Click the drop-down list to select a variant set for the product. All available variant sets are displayed in the drop-down list. The ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) button is displayed in the variants box below if a variant set is selected.
@@ -681,9 +677,9 @@ The list displays all variants. Depending on the settings, the displayed columns
 
 ### Add variant
 
-*PIM > Products > Tab LIST > Button Add > Button CREATE > Tab Variants > Select variant set > Button Add*
+*Omni-Channel > Offers > Tab OFFERS > Select offer > Tab Variants > Select variant set > Button Add*
 
-![Add variant](../../Assets/Screenshots/PIM/Products/List/Variants/AddVariantCreate.png "[Add variant]")
+![Add variant](../../Assets/Screenshots/Channels/Offers/Offers/Variants/AddVariantEdit.png "[Add variant]")
 
 - [Add single variant ![Document](../../Assets/Icons/Document.png "[Document]") ]    
   Click this button to add a single variant. The *Add single variant* window is displayed.
@@ -697,9 +693,9 @@ The list displays all variants. Depending on the settings, the displayed columns
 
 ### Add single variant
 
-*PIM > Products > Tab LIST > Button Add > Button CREATE > Tab Variants > Select variant set > Button Add > Button Add single variant*
+*Omni-Channel > Offers > Tab OFFERS > Select offer > Tab Variants > Select variant set > Button Add > Button Add single variant*
 
-![Add single variant](../../Assets/Screenshots/PIM/Products/List/Variants/AddSingleVariant.png "[Add single variant]")
+![Add single variant](../../Assets/Screenshots/Channels/Offers/Offers/Variants/AddSingleVariant.png "[Add single variant]")
 
 **Additional fields**
 
@@ -727,13 +723,13 @@ For each defining attribute a single field or box to define the attribute value 
 
 ### Add multiple variants
 
-*PIM > Products > Tab LIST > Button Add > Button CREATE > Tab Variants > Select variant set > Button Add > Button Add multiple variants*
+*Omni-Channel > Offers > Tab OFFERS > Select offer > Tab Variants > Select variant set > Button Add > Button Add multiple variants*
 
 #### Select values
 
-*PIM > Products > Tab LIST > Button Add > Button CREATE > Tab Variants > Select variant set > Button Add > Button Add multiple variants > Wizard window Select values*
+*Omni-Channel > Offers > Tab OFFERS > Select offer > Tab Variants > Select variant set > Button Add > Button Add multiple variants > Wizard window Select values*
 
-![Add multiple variants](../../Assets/Screenshots/PIM/Products/List/Variants/AddMultipleVariants01.png "[Add multiple variants]")
+![Select values](../../Assets/Screenshots/Channels/Offers/Offers/Variants/SelectValues.png "[Select values]")
 
 For each defining attribute a single box to define the attribute value is displayed.
 
@@ -748,15 +744,15 @@ For each defining attribute a single box to define the attribute value is displa
 - [CANCEL]   
   Click this button to cancel adding variants. The *Select values* wizard window is closed.
 
-- [NEXT]   
+- [CONTINUE]   
   Click this button to proceed to the next step. The *Summary* wizard window is displayed.
 
 
 #### Summary
 
-*PIM > Products > Tab LIST > Button Add > Button CREATE > Tab Variants > Select variant set > Button Add > Button Add multiple variants > Wizard window Summary*
+*Omni-Channel > Offers > Tab OFFERS > Select offer > Tab Variants > Select variant set > Button Add > Button Add multiple variants > Wizard window Summary*
 
-![Add multiple variants](../../Assets/Screenshots/PIM/Products/List/Variants/AddMultipleVariants02.png "[Add multiple variants]")
+![Summary](../../Assets/Screenshots/Channels/Offers/Offers/Variants/Summary.png "[Summary]")
 
 The box displays all variants that will be created from the selected attribute values. For each possible combination of the selected attributes, a new variant is created. Variants that already exist will not be created even if they are listed in the box.
 
@@ -793,7 +789,7 @@ The list displays all selected variants. Depending on the settings, the displaye
 
 *Omni-Channel > Offers > Tab OFFERS > Button Add > Button Manual offer > Button SAVE > Tab Dependencies*
 
-[comment]: <> (Bild einfügen)
+![Dependencies](../../Assets/Screenshots/Channels/Offers/Offers/Dependencies/DependenciesEdit.png "[Dependencies]")
 
 **Dependencies**
 

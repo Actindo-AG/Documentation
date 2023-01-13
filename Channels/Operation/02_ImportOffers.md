@@ -115,20 +115,20 @@ At least one offer has been imported from a marketplace to *Omni-Channel*, see [
 
 3. Configure the following settings:
 
-  + Click the *Language in PIM* drop-down list and select the default language to be applied for the PIM product. All available languages in PIM are displayed in the list.     
+    + Click the *Language in PIM* drop-down list and select the default language to be applied for the PIM product. All available languages in PIM are displayed in the list.     
 
-  + Click the *Channel in PIM* drop-down list and select the default channel to be applied for the PIM product. All available channels in *PIM* are displayed in the list.
+    + Click the *Channel in PIM* drop-down list and select the default channel to be applied for the PIM product. All available channels in *PIM* are displayed in the list.
 
-  + Click the *Assigned PIM attribute set* drop-down list and select the attribute set to be applied for the *Omni-Channel* source attribute set in the corresponding box. All available attribute sets in *PIM* that are mapped to the corresponding source attribute set in *Omni-Channel* are displayed in the list.   
+    + Click the *Assigned PIM attribute set* drop-down list and select the attribute set to be applied for the *Omni-Channel* source attribute set in the corresponding box. All available attribute sets in *PIM* that are mapped to the corresponding source attribute set in *Omni-Channel* are displayed in the list.   
 
-  > [Info] A single box is displayed for each attribute set available in *Omni-Channel*.
+      > [Info] A single box is displayed for each attribute set available in *Omni-Channel*.
 
 4. Click the [CONTINUE] button in the bottom right corner.   
   The *Adjust mappings* wizard window is displayed.
 
   ![Adjust mappings](../../Assets/Screenshots/Channels/OfferImport/ChannelsPIM/AdjustMappings.png "[Adjust mappings]")
 
-  [comment]: <> (Step 3: Select matching attributes? Wird bei mir nicht angezeigt. Nur, wenn bereits entsprechende attribute existieren?)
+[comment]: <> (Step 3: Select matching attributes? Wird bei mir nicht angezeigt. Nur, wenn bereits entsprechende attribute existieren?)
 
 5. Configure the following settings:
 
@@ -150,15 +150,15 @@ At least one offer has been imported from a marketplace to *Omni-Channel*, see [
 
 7. Configure the following settings:
 
-  + Click the *Mode* drop-down list in the *Behaviour if a matched PIM product has been found* box and select the appropriate behaviour. The following options are available:
-    - **Link only**   
-    - **Link and transfer data**       
+    + Click the *Mode* drop-down list in the *Behaviour if a matched PIM product has been found* box and select the appropriate behaviour. The following options are available:
+        - **Link only**   
+        - **Link and transfer data**       
 
-  + Click the *Mode* drop-down list in the *Behaviour on change of the PIM product* box and select the appropriate behaviour. The following options are available:
-    - **manual**
-    - **semi-automatic**
-    - **semi-automatic, changes must be confirmed by another user**
-    - **automatic**   
+    + Click the *Mode* drop-down list in the *Behaviour on change of the PIM product* box and select the appropriate behaviour. The following options are available:
+        - **manual**
+        - **semi-automatic**
+        - **semi-automatic, changes must be confirmed by another user**
+        - **automatic**   
 
 
 8. Click the [CONTINUE] button in the bottom right corner.   

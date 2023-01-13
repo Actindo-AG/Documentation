@@ -6,7 +6,7 @@
 
 ![Orders](../../Assets/Screenshots/Channels/OrdersReturns/Errors/Errors.png "[Orders]")
 
-[comment]: <> (Screenshot aus NoE test account)
+[comment]: <> (Screenshot neu! Tabs fehlen)
 
 **Scheduled exports**
 
@@ -42,12 +42,12 @@ The list displays all scheduled exports. Depending on the settings, the displaye
 
 - *Status*   
   Status of the scheduled export. The following options are available:
-    - **Pending**  
-      The export is pending.
-    - **Finally failed**  
-      The export has failed permanently.
+  - **Pending**  
+    The export is pending.
+  - **Finally failed**  
+    The export has failed permanently.
 
-[comment]: <> (welches status gibt es noch?)
+[comment]: <> (welche status gibt es noch?)
 
 - *Connection*  
   Name of the connection via which the export will be performed.
@@ -57,10 +57,10 @@ The list displays all scheduled exports. Depending on the settings, the displaye
     
 - *Order/Return*  
   Indication where the error has occurred. The following options are available:
-    - **Order**   
-      The error has occurred in an order.
-    - **Return**
-      The error has occurred in a return.
+  - **Order**   
+    The error has occurred in an order.
+  - **Return**
+    The error has occurred in a return.
 
 
 ## Detail of log message "Log message title"

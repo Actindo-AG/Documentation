@@ -25,35 +25,34 @@
 - ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh)   
   Click this button to update the list of orders.
 
-- *VIEW*  
-  Click the drop-down list to select the view. All created views are displayed in the drop-down list. Click the ![Points](../../Assets/Icons/Points01.png "[Points]") (Points) button to the right of the *VIEW* drop-down list to display the context menu and create a view.   
+- *View*   
+  Click the drop-down list to select the view. All created views are displayed in the drop-down list. Click the ![Points](../../Assets/Icons/Points01.png "[Points]") (Points) button to the right of the *View* drop-down list to display the context menu and create or edit a view.    
 
-  - ![Points](../../Assets/Icons/Points01.png "[Points]") (Points)      
-    Click this button to the right of the *View* drop-down list to display the context menu. The following menu entries are available:
+  - View context menu   
+    Click the ![Points](../../Assets/Icons/Points01.png "[Points]") (Points) button to the right of the *View* drop-down list to display the context menu. The following menu entries are available:
 
-    - ![Create](../../Assets/Icons/Plus06.png "[Create]") create  
-      Click this entry to create a view. The *Create view* window is displayed, see [Create view](#create-view).
+      - ![Create](../../Assets/Icons/Plus06.png "[Create]") create   
+        Click this entry to create a view. The *Create view* window is displayed.
 
-    - ![Rename](../../Assets/Icons/Edit02.png "[Rename]") rename  
-      Click this entry to rename the selected view. The *Rename view* window is displayed, see [Rename view](#rename-view). This menu entry is only displayed if a view has been selected.
+      - ![Rename](../../Assets/Icons/Edit02.png "[Rename]") rename    
+        Click this entry to rename the selected view. The *Rename view* window is displayed. This menu entry is only displayed if a view has been selected.
 
-    - ![Reset](../../Assets/Icons/Reset.png "[Reset]") reset  
-      Click this entry to reset all unsaved changes to the settings of the selected view. This menu entry is only displayed if a view has been selected and any changes have been made to the view settings.
+      - ![Reset](../../Assets/Icons/Reset.png "[Reset]") reset    
+        Click this entry to reset all unsaved changes to the settings of the selected view. This menu entry is only displayed if a view has been selected and any changes have been made to the view settings.
 
-    - ![Publish](../../Assets/Icons/Publish.png "[Publish]") publish  
-      Click this entry to publish the view. This menu entry is only displayed if a view has been selected and unpublished.
+      - ![Publish](../../Assets/Icons/Publish.png "[Publish]") publish    
+        Click this entry to publish the view. This menu entry is only displayed if a view has been selected and unpublished.
 
-    - ![Unpublish](../../Assets/Icons/Unpublish.png "[Unpublish]") unpublish  
-      Click this entry to unpublish the view. This menu entry is only displayed if a view has been selected and published.
+      - ![Private view](../../Assets/Icons/Unpublish.png "[Unpublish]") private view    
+        Click this entry to unpublish the view. This menu entry is only displayed if a view has been selected and published.
 
-    - ![Save](../../Assets/Icons/Save.png "[Save]") save  
-      Click this entry to save the current view settings in the selected view. This menu entry is only displayed if a view has been selected.
+      - ![Save](../../Assets/Icons/Save.png "[Save]") save    
+        Click this entry to save the current view settings in the selected view. This menu entry is only displayed if a view has been selected.
 
-      > [Info] When the settings of a view have been changed, an asterisk is displayed next to the view name. The asterisk is hidden as soon as the changes have been saved.
+        > [Info] When the settings of a view have been changed, an asterisk is displayed next to the view name. The asterisk is hidden as soon as the changes have been saved.
 
-    - ![Delete](../../Assets/Icons/Trash01.png "[Delete]") delete  
-      Click this entry to delete the selected view. A confirmation window to confirm the deletion is displayed. This menu entry is only displayed if a view has been selected.
-
+      - ![Delete](../../Assets/Icons/Trash01.png "[Delete]") delete    
+        Click this entry to delete the selected view. A confirmation window is displayed to confirm the deletion. This menu entry is only displayed if a view has been selected.
 
 - *All Connections*    
   Click the drop-down list to select a connection. All available connections are displayed in the list. When selecting a connection, the [Import orders] button, the *Download orders automatically* drop-down list and the [SAVE] button are displayed.
@@ -66,14 +65,14 @@
 
 - [Download orders automatically]  
   Click the drop-down list and select the desired time interval for the automatic download of orders. This drop-down list is only displayed, if a connection has been selected in the *All connections* drop-down list. The following options are available:
-    - **never**
-    - **every 2 minutes**
-    - **every 5 minutes**
-    - **every 10 minutes**
-    - **every 15 minutes**
-    - **every 20 minutes**
-    - **every 30 minutes**
-    - **every 60 minutes**
+  - **never**
+  - **every 2 minutes**
+  - **every 5 minutes**
+  - **every 10 minutes**
+  - **every 15 minutes**
+  - **every 20 minutes**
+  - **every 30 minutes**
+  - **every 60 minutes**
 
 - [SAVE]  
   Click this button to save the settings for the automatic download of orders. This button is only displayed, if a connection has been selected in the *All connections* drop-down list.
@@ -106,28 +105,28 @@ The list displays all orders, either for all connections or for the selected con
 
 - *Status of import from channel*   
   Status of the order import from the marketplace to the *Omni-Channel* module. The following options are available:  
-    - **Order complete**  
-      The order import has been successfully completed.   	
-    - **Canceled**  
-      The order import has been canceled.
+  - **Order complete**  
+    The order import has been successfully completed.   	
+  - **Canceled**  
+    The order import has been canceled.
 
 - *Status of export to channel*  
   Status of the order export from the *Omni-Channel* module to the marketplace. The following options are available:  
-    - **Exported**  
-      The order has been successfully exported.  
-    - **No changes to sync**  
-      There are no changes to synchronize.
+  - **Exported**  
+    The order has been successfully exported.  
+  - **No changes to sync**  
+    There are no changes to synchronize.
 
 - *Status of export to OMS*  
   Status of the order export from the *Omni-Channel* module to the *Order management* module for further processing. The following options are available:  
-    - **Exported**  
-      The order has been successfully exported.
-    - **Not exported**  
-      The order has not been exported.  
-    - **Not exported: Pending > 30 minutes to OMS**  
-      The order export is pending.
-    - **Being exported**  
-      The order is currently being exported.
+  - **Exported**  
+    The order has been successfully exported.
+  - **Not exported**  
+    The order has not been exported.  
+  - **Not exported: Pending > 30 minutes to OMS**  
+    The order export is pending.
+  - **Being exported**  
+    The order is currently being exported.
 
 - *Created on*  
   Date and time of the creation. 
@@ -175,10 +174,10 @@ The list displays all orders, either for all connections or for the selected con
   
 - *Import status:*  
   Order import status from the marketplace to the *Omni-Channel* module. The following statuses are available:  
-    - **Not imported**
-    - **Order complete**  
-    - **Canceled**
-    - **Error**
+  - **Not imported**
+  - **Order complete**  
+  - **Canceled**
+  - **Error**
 
 - *Export status:*  
   Order export status from the *Omni-Channel* module to the  marketplace. The following statuses are available:  
@@ -273,34 +272,34 @@ The list displays all dependencies of the selected order. Depending on the setti
 
 **Line items**
 
-- *VIEW*  
-  Click the drop-down list to select the view. All created views are displayed in the drop-down list. Click the ![Points](../../Assets/Icons/Points01.png "[Points]") (Points) button to the right of the *VIEW* drop-down list to display the context menu and create a view.   
+- *View*   
+  Click the drop-down list to select the view. All created views are displayed in the drop-down list. Click the ![Points](../../Assets/Icons/Points01.png "[Points]") (Points) button to the right of the *View* drop-down list to display the context menu and create or edit a view.    
 
-  - ![Points](../../Assets/Icons/Points01.png "[Points]") (Points)      
-    Click this button to the right of the *View* drop-down list to display the context menu. The following menu entries are available:
+  - View context menu   
+    Click the ![Points](../../Assets/Icons/Points01.png "[Points]") (Points) button to the right of the *View* drop-down list to display the context menu. The following menu entries are available:
 
-    - ![Create](../../Assets/Icons/Plus06.png "[Create]") create  
-      Click this entry to create a view. The *Create view* window is displayed, see [Create view](#create-view).
+      - ![Create](../../Assets/Icons/Plus06.png "[Create]") create   
+        Click this entry to create a view. The *Create view* window is displayed.
 
-    - ![Rename](../../Assets/Icons/Edit02.png "[Rename]") rename  
-      Click this entry to rename the selected view. The *Rename view* window is displayed, see [Rename view](#rename-view). This menu entry is only displayed if a view has been selected.
+      - ![Rename](../../Assets/Icons/Edit02.png "[Rename]") rename    
+        Click this entry to rename the selected view. The *Rename view* window is displayed. This menu entry is only displayed if a view has been selected.
 
-    - ![Reset](../../Assets/Icons/Reset.png "[Reset]") reset  
-      Click this entry to reset all unsaved changes to the settings of the selected view. This menu entry is only displayed if a view has been selected and any changes have been made to the view settings.
+      - ![Reset](../../Assets/Icons/Reset.png "[Reset]") reset    
+        Click this entry to reset all unsaved changes to the settings of the selected view. This menu entry is only displayed if a view has been selected and any changes have been made to the view settings.
 
-    - ![Publish](../../Assets/Icons/Publish.png "[Publish]") publish  
-      Click this entry to publish the view. This menu entry is only displayed if a view has been selected and unpublished.
+      - ![Publish](../../Assets/Icons/Publish.png "[Publish]") publish    
+        Click this entry to publish the view. This menu entry is only displayed if a view has been selected and unpublished.
 
-    - ![Unpublish](../../Assets/Icons/Unpublish.png "[Unpublish]") unpublish  
-      Click this entry to unpublish the view. This menu entry is only displayed if a view has been selected and published.
+      - ![Private view](../../Assets/Icons/Unpublish.png "[Unpublish]") private view    
+        Click this entry to unpublish the view. This menu entry is only displayed if a view has been selected and published.
 
-    - ![Save](../../Assets/Icons/Save.png "[Save]") save  
-      Click this entry to save the current view settings in the selected view. This menu entry is only displayed if a view has been selected.
+      - ![Save](../../Assets/Icons/Save.png "[Save]") save    
+        Click this entry to save the current view settings in the selected view. This menu entry is only displayed if a view has been selected.
 
-      > [Info] When the settings of a view have been changed, an asterisk is displayed next to the view name. The asterisk is hidden as soon as the changes have been saved.
+        > [Info] When the settings of a view have been changed, an asterisk is displayed next to the view name. The asterisk is hidden as soon as the changes have been saved.
 
-    - ![Delete](../../Assets/Icons/Trash01.png "[Delete]") delete  
-      Click this entry to delete the selected view. A confirmation window to confirm the deletion is displayed. This menu entry is only displayed if a view has been selected.
+      - ![Delete](../../Assets/Icons/Trash01.png "[Delete]") delete    
+        Click this entry to delete the selected view. A confirmation window is displayed to confirm the deletion. This menu entry is only displayed if a view has been selected.
 
 
 - ![Search](../../Assets/Icons/Search.png "[Search]") (Search)   
@@ -328,10 +327,10 @@ The list displays all items of the selected order. Depending on the settings, th
 
 - *Type*  
   Item type. The following options are available:
-    - **Line item**
-    - **Shipping**
+  - **Line item**
+  - **Shipping**
 
-  [comment]: <> (what else?)
+[comment]: <> (what else?)
 
 - *ID*  
   Order identification number. The ID number is automatically assigned by the system after creation.
@@ -405,7 +404,7 @@ The list displays all dependencies of the selected line item. Depending on the s
   - **Omni-Channel Offer**
   - **UCS Product**
 
-  [comment]: <> (what else?)
+[comment]: <> (what else?)
 
 
 - *Change tracking mode*   
@@ -424,9 +423,8 @@ The list displays all dependencies of the selected line item. Depending on the s
 
 ## Order from connection "Connection name" &ndash; Shipments
 
-## Order from connection "Connection name" &ndash; Cancellation
 
-[comment]: <> (Shipments and Cancellation tabs bei NoE test account. Standard/relevant für alle Kunden oder kundenspezifisch?)
+## Order from connection "Connection name" &ndash; Cancellation
 
 
 ## Order from connection "Connection name" &ndash; Errors
@@ -485,9 +483,9 @@ The list displays all errors of the selected order. Depending on the settings, t
 
 ### Detail of log message "Log message title"
 
-*Omni-Channel > Orders and returns > Tab ORDERS > Select order > Tab Errors > Select export error*
+*Omni-Channel > Orders and returns > Tab ORDERS > Select order > Tab Errors > Select error*
 
-![Detail of log message attributes](../../Assets/Screenshots/Channels/OrdersReturns/Orders/Errors/DetailLogMessageAttributes.png "[Detail of log message attributes]")
+![Detail of log message](../../Assets/Screenshots/Channels/OrdersReturns/Orders/Errors/DetailLogMessage.png "[Detail of log message]")
 
 [comment]: <> (Add screenshot)
 

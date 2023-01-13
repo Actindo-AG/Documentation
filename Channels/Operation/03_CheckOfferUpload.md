@@ -8,9 +8,7 @@ When an offer has been changed, for example by changing the corresponding produc
 
 ## Check the scheduled offer uploads
 
-You can check if any offer uploads of a certain or all connections are still pending, for example after having made any changes to a product, by checking the queue of scheduled uploads.
-
-[comment]: <> (upload = übertrag aus channels zu marktplatz?)
+You can check if any offer uploads of a certain or all connections are still pending by checking the queue of scheduled uploads, for example after having made any changes to a product.
 
 #### Prerequisites
 
@@ -31,7 +29,7 @@ At least one offer upload from *Omni-Channel* to the marketplace has been trigge
 
 3. Check the list for the respective offer uploads, for information about the current status, the pending status and the user who created the offer upload.   
 
-  > [Info] The offer uploads are only displayed in the list as long as they have not yet been uploaded to the marketplace. Click the ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh) button again to update the list.   
+    > [Info] The offer uploads are only displayed in the list as long as they have not yet been uploaded to the marketplace. Click the ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh) button again to update the list.   
 
 
 
@@ -51,7 +49,7 @@ At least one offer upload has failed.
 
 1. Check the list of export errors for the faulty offer upload.
 
-2. Click the corresponding faulty offer upload.   
+2. Click the corresponding row of the faulty offer upload.   
   The *Detail of log message "Log message title"* view is displayed. By default, the *Attributes* tab is preselected.
 
   ![Detail of log message](../../Assets/Screenshots/Channels/OfferUpload/Errors/DetailLogMessage.png "[Detail of log message]")

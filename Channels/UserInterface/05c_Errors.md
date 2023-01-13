@@ -47,19 +47,19 @@ The list displays all errors to the orders and returns. Depending on the setting
 
 - *Type*  
   Error type. The following options are available:   
-    - **Import from channel**  
-      The error has occurred while importing the order from the marketplace.   
-    - **Export to channel**  
-      The error has occurred while exporting the order to the marketplace.  
-    - **Export to OMS**  
-      The error has occurred while exporting the order to the *Order management* module.
+  - **Import from channel**  
+    The error has occurred while importing the order from the marketplace.   
+  - **Export to channel**  
+    The error has occurred while exporting the order to the marketplace.  
+  - **Export to OMS**  
+    The error has occurred while exporting the order to the *Order management* module.
 
 - *Order/Return*  
   Indication where the error has occurred. The following options are available:
-    - **Order**   
-      The error has occurred in an order.
-    - **Return**
-      The error has occurred in a return.
+  - **Order**   
+    The error has occurred in an order.
+  - **Return**
+    The error has occurred in a return.
 
 - *ID in shop*  
   Identification number of the order in the marketplace. 
@@ -90,6 +90,6 @@ The list displays all errors to the orders and returns. Depending on the setting
 
 *Omni-Channel > Orders and returns > Tab ERRORS > Select an error*
 
-![Detail of log message](../../Assets/Screenshots/Channels/OrdersReturns/Errors/DetailLogMessageAttributes.png "[Detail of log message]")
+![Detail of log message](../../Assets/Screenshots/Channels/OrdersReturns/Errors/DetailLogMessage.png "[Detail of log message]")
 
 For a detailed description of this view and the corresponding functions, see [LOG](./06a_Log.md#detail-of-log-message-log-message-title).

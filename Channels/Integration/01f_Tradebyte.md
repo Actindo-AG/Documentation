@@ -1,3 +1,5 @@
+[!!Manage the connections](./01_ManageConnections.md)
+
 # Manage the Tradebyte connection
 
 To establish a connection to a Tradebyte shop, there are several particularities to consider. Therefore,  the creation and the configuration of the Tradebyte connection are described in detail below.
@@ -27,7 +29,7 @@ All necessary credentials to establish the connection are provided when an accou
 1. Click the ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) button in the bottom right corner.    
   The *Create connection* view is displayed.
 
-    ![Create connection](../../Assets/Screenshots/Channels/Settings/Connections/CreateConnection.png "[Create connection]")
+  ![Create connection](../../Assets/Screenshots/Channels/Settings/Connections/CreateConnection.png "[Create connection]")
 
 2. Enter a name for the connection in the *Name* field.
 
@@ -47,13 +49,13 @@ All necessary credentials to establish the connection are provided when an accou
 9. Click the [SAVE] button.  
   The *Checking credentials* notice is displayed. The connection will be established and the synchronization is triggered. The *Sync triggered* pop-up window is displayed.  
 
-    ![Sync triggered](../../Assets/Screenshots/Channels/Settings/Connections/SyncTriggered.png "[Sync triggered]")
+  ![Sync triggered](../../Assets/Screenshots/Channels/Settings/Connections/SyncTriggered.png "[Sync triggered]")
 
-    The *CONNECTIONS* tab in the *Settings* menu entry of the *Omni-Channel* module is displayed when the connection has been established. The *Tradebyte* connection is displayed in the list of connections.
+  The *CONNECTIONS* tab in the *Settings* menu entry of the *Omni-Channel* module is displayed when the connection has been established. The *Tradebyte* connection is displayed in the list of connections.
 
-    ![Tradebyte connection](../../Assets/Screenshots/Channels/Settings/Connections/Tradebyte/Connection.png "[Tradebyte connection]")	
+  ![Tradebyte connection](../../Assets/Screenshots/Channels/Settings/Connections/Tradebyte/Connection.png "[Tradebyte connection]")	
 
-10. If necessary, continue to [Configure the Tradebyte connection](#configure-the-Tradebyte-connection).
+10. If necessary, continue to configure the Tradebyte connection, see [Configure the Tradebyte connection](#configure-the-Tradebyte-connection).
 
 
 ## Configure the Tradebyte connection   
@@ -73,24 +75,24 @@ A Tradebyte connection has been established.
 1. Click the Tradebyte connection in the list of connections.   
   The *Edit connection* view is displayed. By default, the *Credentials* tab is selected.
 
-    ![Edit connection credentials](../../Assets/Screenshots/Channels/Settings/Connections/Tradebyte/EditConnectionCredentials.png "[Edit connection credentials]")
+  ![Edit connection credentials](../../Assets/Screenshots/Channels/Settings/Connections/Tradebyte/EditConnectionCredentials.png "[Edit connection credentials]")
 
 2. Click the *Settings* tab.   
   The *Settings* tab is displayed. By default, the *Selected sales channels* settings are selected. 
 
-    ![Edit connection settings](../../Assets/Screenshots/Channels/Settings/Connections/Tradebyte/EditConnectionSettings.png "[Edit connection settings]")
+  ![Edit connection settings](../../Assets/Screenshots/Channels/Settings/Connections/Tradebyte/EditConnectionSettings.png "[Edit connection settings]")
 
 3. Select the checkboxes of the sales channels you want to activate.  
 
 4. Click the *Enable languages* menu entry in the left side bar.  
-    The language settings are displayed on the right side. 
+  The language settings are displayed on the right side. 
 
 5. Enable the toggles of the languages you want to maintain in the *Actindo Core1 Platform*. All languages available in Tradebyte are displayed.
 
     > [Info] The default language is automatically set and cannot be edited.
 
 6. Click the [SAVE] button.  
-    All changes have been saved. The *Saving successful* pop-up window is displayed
+  All changes have been saved. The *Saving successful* pop-up window is displayed
 
-    ![Saving successful](../../Assets/Screenshots/Channels/Settings/Connections/SavingSuccessful.png "[Saving successful]")
+  ![Saving successful](../../Assets/Screenshots/Channels/Settings/Connections/SavingSuccessful.png "[Saving successful]")
 

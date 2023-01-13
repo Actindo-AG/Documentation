@@ -32,6 +32,6 @@ The cause of the faulty offer upload has been fixed.
 
 
 
-## Was this chapter helpful?
+#### Was this chapter helpful?
 
 If you need further assistance, please contact the Customer Support.

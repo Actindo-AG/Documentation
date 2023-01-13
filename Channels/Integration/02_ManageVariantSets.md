@@ -1,5 +1,7 @@
 [!!User interface Variant sets](../UserInterface/07b_VariantSets.md)
 [!!Manage the variant sets in PIM](../../PIM/Integration/07_ManageVariantSets.md)
+[!!Manage the variants in PIM](../../PIM/Operation/02_ManageVariants.md)
+[!!Manage an attribute set in DataHub](../../DataHub/Integration/02_ManageAttributeSets.md)
 
 
 # Manage a variant set
