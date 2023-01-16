@@ -1,9 +1,9 @@
 
-- Standard??? (Nicht im Sandbox)
-- Andere Sandboxes zur Verfügung? Bei NoE keine Shipment errors oder Cancellation errors zu sehen... Bei Amazon nur ein tab aber ohne Info
-
 [!!Check the failed orders and returns](../Operation/04_ManageOrdersReturns.md#check-the-failed-orders-and-returns)
 [!!User interface Log](./06a_Log.md)
+
+[comment]: <> (- Standard???, nicht im Sandbox; andere Sandboxes zur Verfügung? Bei NoE keine Shipment errors oder Cancellation errors zu sehen... Bei Amazon nur ein tab aber ohne Info)
+
 
 # Shipment errors
 
@@ -44,7 +44,7 @@
 [comment]: <> (prüfen, ob das pop-up window auch hier angezeigt wird.)
 
 
-The list displays all errors to the shipments. Depending on the settings, the displayed columns may vary. All fields are read-only. If no error has been occurred, the *There are currently no errors* notice is displayed.
+The list displays all errors to the shipments. Depending on the settings, the displayed columns may vary. All fields are read-only. If no error has occurred, the *There are currently no errors* notice is displayed.
 
 - *Connection*  
   Name of the connection where the error has occurred.
