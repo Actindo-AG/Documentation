@@ -9,7 +9,6 @@ To establish a connection to a Magento 2 shop, there are several particularities
 
 Create the connection to a Magento 2 shop using the Magento 2 driver. Further settings can only be configured after the connection has been established.
 
-All necessary credentials to establish the connection, that is username and password, are provided in the Magento 2 admin backend.
 
 [comment]: <> (Stimmt das so? Prerequisites unten dementsprechend anpassen, also Administrator righsts notwendig? > ggf. eher in Procedure als Info oder direkt in Schritt einbinden -> genauere Info von Oli, wo das zu finden ist)
 
@@ -17,11 +16,10 @@ All necessary credentials to establish the connection, that is username and pass
 
 - A Magento 2 account has been created.
 - The user has administrator rights in Magento 2.
-- The *Magento 2* plugin has been installed.
+- In the Magento 2 account, the *Allow OAuth Access Tokens to be used as stand-alone Bearer tokens* drop-down list in the *Consumer Settings* has been set to **Yes**. To do this, go to Stores > Configuration > SERVICES > OAuth > Consumer Settings. Bear in mind that the Magento version must be 2.4.4.
+- The *Magento 2* plugin has been installed. 
 
-> [Info] For the *Omni-Channel* module version 4.1.0 or higher, the *Magento 2* plugin is required in at least version 1.0.0.
-
-[comment]: <> (Stimmt das so? In Platform Manager bis Magento 2 1.1.1 Version und Magento 2 B.B. 1.0.0 verfügbar. Pre-releases 1.1.2 und 1.2.0)
+> [Info] For the *Omni-Channel* module version 4.1.0 or higher, the *Magento 2* plugin is required in at least version 4.0.0.
 
 #### Procedure
 
@@ -32,7 +30,7 @@ All necessary credentials to establish the connection, that is username and pass
 1. Click the ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) button in the bottom right corner.    
   The *Create connection* view is displayed.
 
-  ![Create connection](../../Assets/Screenshots/Channels/Settings/Connections/CreateConnection.png "[Create connection]")
+    ![Create connection](../../Assets/Screenshots/Channels/Settings/Connections/CreateConnection.png "[Create connection]")
 
 2. Enter a name for the connection in the *Name* field.
 
@@ -48,7 +46,7 @@ All necessary credentials to establish the connection, that is username and pass
 7. Click the [SAVE] button.  
   The *Checking credentials* notice is displayed. The connection will be established and the synchronization is triggered. The *Sync triggered* pop-up window is displayed.  
 
-  ![Sync triggered](../../Assets/Screenshots/Channels/Settings/Connections/SyncTriggered.png "[Sync triggered]")
+    ![Sync triggered](../../Assets/Screenshots/Channels/Settings/Connections/SyncTriggered.png "[Sync triggered]")
 
   The *CONNECTIONS* tab in the *Settings* menu entry of the *Omni-Channel* module is displayed when the connection has been established. The *Magento 2* connection is displayed in the list of connections.
 
