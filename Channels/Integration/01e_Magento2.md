@@ -11,7 +11,7 @@ Create the connection to a Magento 2 shop using the Magento 2 driver. Further se
 
 All necessary credentials to establish the connection, that is username and password, are provided in the Magento 2 admin backend.
 
-[comment]: <> (Stimmt das so? Prerequisites unten dementsprechend anpassen > ggf. eher in Procedure als Info oder direkt in Schritt einbinden (genauere Info von Oli, wo das zu finden ist)
+[comment]: <> (Stimmt das so? Prerequisites unten dementsprechend anpassen, also Administrator righsts notwendig? > ggf. eher in Procedure als Info oder direkt in Schritt einbinden -> genauere Info von Oli, wo das zu finden ist)
 
 #### Prerequisites
 
