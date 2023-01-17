@@ -14,14 +14,9 @@ Create the connection to an Amazon shop using the Amazon driver. Further setting
 - An Amazon seller account has been created.
 - All columns of the order reports must be activated in your Amazon seller account, see [Add or remove order report columns](https://sellercentral.amazon.de/order-reports-and-feeds/column-picker?source=/order-reports-and-feeds/reports/ref=xx_orderrpt_dnav_xx).  
 - A standard ship-from address must be set in your Amazon seller account, see [Set up a ship-from address](https://sellercentral.amazon.de/help/hub/reference/G201841320).
-- The OAuth authorization URI has been constructed, see [Construct an OAuth authorization URI](https://developer-docs.amazon.com/sp-api/docs/authorizing-selling-partner-api-applications#construct-an-oauth-authorization-uri).
 - The *Omni-Channel Amazon Integration* plugin has been installed. 
 
 > [Info] For the *Omni-Channel* module version 4.1.0 or higher, the *Omni-Channel Amazon Integration* plugin is required in at least version 4.0.0. 
-
-[comment]: <> (Gibt es schon ein Release-Datum?) 
-
-[comment]: <> (Our app can be configured here: https://sellercentral.amazon.de/marketplacedeveloper/applications#  - Add Link? Zugänglich für alle User, die ein Seller Account haben?)
 
 #### Procedure
 
@@ -122,9 +117,10 @@ An Amazon connection has been established, see [Create an Amazon connection](#cr
 6. Configure the following settings:
 
     + Enable the toggles of all orders you want to import in the *'Merchant Fulfilled Network' (MFN) orders* section. The following import options are available:
+
         - *Import 'Merchant Fulfilled Network' (MFN) orders.*
         - *Import 'Prime by Merchant' orders.* 
-
+         
     + If desired, click the ![Calendar](../../Assets/Icons/Calendar.png "[Calendar]") (Calendar) button in the *Import MFN orders from* field and select a date from which to import the orders. Alternatively, enter directly a date in the field. The valid date format is DD.MM.YYYY. If no date is selected, the orders of the last 90 days are automatically imported.
 
     + Enable the *Import 'Fulfillment by Amazon' (FBA) orders.* toggle in the *'Fulfillment by Amazon' (FBA) orders* section to import the FBA orders. Otherwise, disable the toggle.
@@ -133,10 +129,8 @@ An Amazon connection has been established, see [Create an Amazon connection](#cr
     
     + Enable or disable the *Is the VAT calculation services (VCS) enabled?* toggle to specify if this feature is active in Amazon. If the VCS is disabled, the prices in the FBA reports are gross, if the VCS is enabled, the prices are net. 
     
-      > [Info] To check or modify the status of the VCS, see [VAT calculation services](https://sellercentral.amazon.de/tax/settings/summary).
+      > [Info] To check or modify the status of the VCS in the Amazon seller account, see [VAT calculation services](https://sellercentral.amazon.de/tax/settings/summary).
      
-  [comment]: <> (Link aus https://actindo.atlassian.net/wiki/spaces/DEVELOPMEN/pages/21561363/Amazon)
-
     + If desired, click the ![Calendar](../../Assets/Icons/Calendar.png "[Calendar]") (Calendar) button in the  *Import FBA orders from* field and select a date from which to import the orders. Alternatively, enter directly a date in the field. The valid date format is DD.MM.YYYY. If no date is selected, the orders of the last 90 days are automatically imported.
 
     + Click the *Packing station address layout* drop-down list in the *Addresses* section and select the position of the customer number if you use a packing station as address. The following options are available:  
@@ -177,7 +171,7 @@ All checkboxes are unlocked.
 
   ![Saving successful](../../Assets/Screenshots/Channels/Settings/Connections/SavingSuccessful.png "[Saving successful]")
 
-14. Synchronize the connection to update the ETL mapping, see [Synchronize a connection](../Integration/01_ManageConnections.md#synchronize-a-connection)    
+14. If the shipping provider mapping has been modified, synchronize the connection to update the ETL mapping, see [Synchronize a connection](../Integration/01_ManageConnections.md#synchronize-a-connection)    
   The *Sync triggered* pop-up window is displayed.
 
   ![Sync triggered](../../Assets/Screenshots/Channels/Settings/Connections/SyncTriggered.png "[Sync triggered]")

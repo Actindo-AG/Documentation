@@ -18,8 +18,6 @@ All necessary credentials to establish the connection are provided when an accou
 
 > [Info] For the *Omni-Channel* module version 4.1.0 or higher, the *Tradebyte Integration* plugin is required in at least version 1.2.0.
 
-[comment]: <> (Versions prüfen: Tradebyte Integration noch in Pre-release 1.2.1 und 4.0.0)
-
 #### Procedure
 
 *Omni-Channel > Settings > Tab CONNECTIONS*
@@ -29,7 +27,7 @@ All necessary credentials to establish the connection are provided when an accou
 1. Click the ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) button in the bottom right corner.    
   The *Create connection* view is displayed.
 
-  ![Create connection](../../Assets/Screenshots/Channels/Settings/Connections/CreateConnection.png "[Create connection]")
+    ![Create connection](../../Assets/Screenshots/Channels/Settings/Connections/CreateConnection.png "[Create connection]")
 
 2. Enter a name for the connection in the *Name* field.
 
@@ -44,16 +42,18 @@ All necessary credentials to establish the connection are provided when an accou
 
 7. Enter the username and password in the corresponding *Username (SFTP)* and *Password (SFTP)* fields for server access.
 
-8. If desired, enable the *Test API?* toggle to connect to a test system. Leave the toggle disabled to connect to a live system. By default, the toggle is disabled.
+8. If desired, enable the *Test API?* toggle if the API to be connected corresponds to a test account. Leave the toggle disabled if the API to be connected to corresponds to a productive account. By default, the toggle is disabled.
+
+    [Info] This information is provided by Tradebyte together with the the necessary credentials to establish the connection. 
 
 9. Click the [SAVE] button.  
   The *Checking credentials* notice is displayed. The connection will be established and the synchronization is triggered. The *Sync triggered* pop-up window is displayed.  
 
-  ![Sync triggered](../../Assets/Screenshots/Channels/Settings/Connections/SyncTriggered.png "[Sync triggered]")
+    ![Sync triggered](../../Assets/Screenshots/Channels/Settings/Connections/SyncTriggered.png "[Sync triggered]")
 
-  The *CONNECTIONS* tab in the *Settings* menu entry of the *Omni-Channel* module is displayed when the connection has been established. The *Tradebyte* connection is displayed in the list of connections.
+    The *CONNECTIONS* tab in the *Settings* menu entry of the *Omni-Channel* module is displayed when the connection has been established. The *Tradebyte* connection is displayed in the list of connections.
 
-  ![Tradebyte connection](../../Assets/Screenshots/Channels/Settings/Connections/Tradebyte/Connection.png "[Tradebyte connection]")	
+    ![Tradebyte connection](../../Assets/Screenshots/Channels/Settings/Connections/Tradebyte/Connection.png "[Tradebyte connection]")	
 
 10. If necessary, continue to configure the Tradebyte connection, see [Configure the Tradebyte connection](#configure-the-Tradebyte-connection).
 
@@ -75,17 +75,19 @@ A Tradebyte connection has been established.
 1. Click the Tradebyte connection in the list of connections.   
   The *Edit connection* view is displayed. By default, the *Credentials* tab is selected.
 
-  ![Edit connection credentials](../../Assets/Screenshots/Channels/Settings/Connections/Tradebyte/EditConnectionCredentials.png "[Edit connection credentials]")
+    ![Edit connection credentials](../../Assets/Screenshots/Channels/Settings/Connections/Tradebyte/Credentials.png "[Edit connection credentials]")
 
 2. Click the *Settings* tab.   
   The *Settings* tab is displayed. By default, the *Selected sales channels* settings are selected. 
 
-  ![Edit connection settings](../../Assets/Screenshots/Channels/Settings/Connections/Tradebyte/EditConnectionSettings.png "[Edit connection settings]")
+    ![Settings selected sales channels](../../Assets/Screenshots/Channels/Settings/Connections/Tradebyte/Settings_SelectedSalesChannels.png "[Settings selected sales channels]")
 
 3. Select the checkboxes of the sales channels you want to activate.  
 
 4. Click the *Enable languages* menu entry in the left side bar.  
   The language settings are displayed on the right side. 
+
+  ![Settings enable languages](../../Assets/Screenshots/Channels/Settings/Connections/Tradebyte/Settings_EnableLanguages.png "[Settings enable languages]")
 
 5. Enable the toggles of the languages you want to maintain in the *Actindo Core1 Platform*. All languages available in Tradebyte are displayed.
 
@@ -94,5 +96,9 @@ A Tradebyte connection has been established.
 6. Click the [SAVE] button.  
   All changes have been saved. The *Saving successful* pop-up window is displayed
 
-  ![Saving successful](../../Assets/Screenshots/Channels/Settings/Connections/SavingSuccessful.png "[Saving successful]")
+    ![Saving successful](../../Assets/Screenshots/Channels/Settings/Connections/SavingSuccessful.png "[Saving successful]")
 
+7. If the selected sales channels have modified, synchronize the connection to update the ETL mapping, see [Synchronize a connection](../Integration/01_ManageConnections.md#synchronize-a-connection)    
+  The *Sync triggered* pop-up window is displayed.
+
+    ![Sync triggered](../../Assets/Screenshots/Channels/Settings/Connections/SyncTriggered.png "[Sync triggered]")
