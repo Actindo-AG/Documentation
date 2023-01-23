@@ -72,7 +72,7 @@
 
     ![Change offer status](../../Assets/Screenshots/Channels/Offers/Offers/ChangeOfferStatus.png "[Change offer status]")
 
-[comment]: <> (An additional toggle is displayed within the confirmation window? Diese Info stimmt hier nicht ganz. Bei mir/im Screenshot sieht man unterschiedliche Fenster, je nach variant und status. Fenster nicht konsistent. RS mit Oli/Hannah)
+[comment]: <> (Fenster mit Zielstatus Inactive und Not available unterschieldlich. Toggle kommt nur vor, wenn man ein Master offer zu Inactive setzt. Sonst kommt einfach eine Warnung vor. Unterschied beschreiben oder so ok?)
 
 - ![Edit](../../Assets/Icons/Edit03.png "[Edit]") (Edit)           
   Click this button to edit the selected offer from the list. This button is only displayed if a single checkbox in the list of offers is selected. Alternatively, you can click directly a row in the list to edit the corresponding offer.  
@@ -108,7 +108,9 @@ The list displays all available offers. Depending on the settings, the displayed
   - **Inactive**   	 
   - **Not available**  
 
-[comment]: <> (when is an error displayed here? what is displayed? The Error code or message?)
+  If an error occurs when uploading an offer, the start of an error message is displayed followed by a *more* button. By clicking the *more* button, additional information on the error is displayed in the *Logging* menu entry. 
+
+[comment]: <> (Von Oli erklärt. S. OffeneFragen-20230123_Shopware6_Magento2, ca. Min. 26)
 
 - *Last upload*  
   Date and time of the last offer upload.
@@ -161,7 +163,7 @@ The list displays all available offers. Depending on the settings, the displayed
 
 *Omni-Channel > Offers > Tab OFFERS > Button Add > Button Create from PIM product*
 
-[comment]: <> (Screenshot hinzufügen? Vgl. Create manual offer)
+[comment]: <> (Screenshot hinzufügen, auch wenn wiederholt, i.e. Select marketplace? Vgl. Create manual offer. Oder Kurzer Einführungstext vor dem ersten Wizard-Fenster?)
 
 #### Select marketplace
 
@@ -249,8 +251,6 @@ The list displays all available offers. Depending on the settings, the displayed
 - [SELECT ALL X PRODUCTS]   
   Click this button to select all displayed products. The *x* indicates the number of products that are currently displayed in the list. The *Review and finalize* wizard window is displayed.
 
-[comment]: <> (Sollte dieses Button was machen? Wenn man darauf klickt, springt man direkt auf die Review and finalize wizard window, aber keine Produkte sind ausgewählt worden, also man kann nichts weitermachen als zurückgehen und die Produkte einzeln auswählen. Bug?) 
-
 - ![Columns](../../Assets/Icons/Columns.png "[Columns]") Columns (x)   
   Click this button to display the columns bar and customize the displayed columns and the order of columns in the list. The *x* indicates the number of columns that are currently displayed in the list.
 
@@ -261,7 +261,7 @@ The list displays all available offers. Depending on the settings, the displayed
   Select the checkbox to display the editing toolbar. If you click the checkbox in the header, all products in the list are selected.
 
 - [ADD TO SELECTION >]  
-Click this button to add the selected products to the selection section in the right side bar. This button is only displayed if the checkbox of at least one product is selected.
+  Click this button to add the selected products to the selection section in the right side bar. This button is only displayed if the checkbox of at least one product is selected.
 
 
 **Add to selection x products**
@@ -317,7 +317,7 @@ The window displays a summary of the offers from the selected products. The offe
   - ![Radionbutton](../../Assets/Icons/Radiobutton.png "[Radiobutton]") *Automatic*   
     Changes in a PIM product are automatically applied to the offer. The initial offer is also automatically applied.
 
-- *Initial offer status*	
+- *Initial offer status*  
   Select the initial status for the offers to be created. The following options are available:    
   - ![Radionbutton](../../Assets/Icons/Radiobutton.png "[Radiobutton]") *Active*       
     The offer is active. It is displayed in the selected connection and can be sold there.   
@@ -326,19 +326,22 @@ The window displays a summary of the offers from the selected products. The offe
   - ![Radionbutton](../../Assets/Icons/Radiobutton.png "[Radiobutton]") *Offline*   
     The offer is unknown to the selected connection and cannot be sold there.
 
+[comment]: <> (Not available statt unknown? Dann haben wir beide bekannten Begriffe drin...)
 
 **Map attribute sets**
 
 The box displays all source and destination attribute sets of the offers to be created.
 
-- *Source attribute set*
+- *Source attribute set*  
   Name of the source attribute set for the offer.
 
-- *Destination attribute set*	
-  Name of the source attribute set for the offer. If no matching destination attribute set for the source attribute set has been found, an error message is displayed instead of the destination attribute set name.
+- *Destination attribute set*	  
+  Name of the destination attribute set for the offer. If no matching destination attribute set for the source attribute set has been found, an error message is displayed instead of the destination attribute set name.
 
 - [< BACK]   
   Click this button to go back to the previous step. The *Select marketplace* wizard window or the *Select products* wizard window is displayed.
+
+[comment]: <> (Wenn ich auf BACK drucke, wird Step 2, also Select products, angezeigt. Oder ist es von etwas abhängig?)
 
 - [CANCEL]   
   Click this button to cancel creating offers from PIM products. The *Review and finalize* wizard window is closed.
@@ -357,7 +360,7 @@ The box displays all source and destination attribute sets of the offers to be c
 **Create offer**
 
 - *SKU*  
-  Enter an individual SKU for the offer. The SKU (Stock Keeping Unit) is an identification number and should be assigned only once. 
+  Enter an individual SKU for the offer. The SKU (Stock Keeping Unit) is an identification number and should be assigned only once.  
 
 - *Selection connection*  
   Click the drop-down list to select a connection for the offer. All available connections are displayed in the list. Once a connection has been selected, the *Select attribute set* drop-down list is unlocked.
@@ -389,7 +392,7 @@ The box displays all source and destination attribute sets of the offers to be c
   Click this button to save the new offer. The *Create offer* view is closed. The new offer is added to the offer list.
 
 - *SKU*   
-  Stock Keeping Unit. Identification number for the product. The SKU (Stock Keeping Unit) is an identification number for the product. Therefore, it should be uniquely assigned to a single product.   
+  Stock Keeping Unit. Identification number for the product. The SKU (Stock Keeping Unit) is an identification number and should be assigned only once.     
   Click the button ![Edit](../../Assets/Icons/Edit02.png "[Edit]") (Edit) to the right of the SKU to edit it.
 
 - ![Edit](../../Assets/Icons/Edit02.png "[Edit]") (Edit)   
@@ -438,16 +441,22 @@ The right side of the *Attributes* tab displays all attributes that are assigned
 - ![Columns](../../Assets/Icons/Columns.png "[Columns]") Columns (x)   
   Click this button to display the columns bar and customize the displayed columns and the order of columns in the list. The *x* indicates the number of columns that are currently displayed in the list.
 
+[comment]: <> (Checkbox - Beim Anklicken, "editing toolbar" angezeigt, aber keine Buttons/Icons. Variants nicht mehr editierbar? Bug?)
+
 The list displays all variants of the selected product. Depending on the settings, the displayed columns may vary. All fields are read-only. 
 
 - *Status*  
   Status of the variant. In the *Create product* view, the **Created after save** status is displayed if you have added a variant.
+
+[comment]: <> (Create product -aus PIM?- oder Create offer?)
 
 - *SKU*  
   Stock Keeping Unit. Identification number for the variant. The SKU for the variant is created depending on the selected settings.
 
 - *ID*   
   Variant identification number. The ID is created after saving. In the *Create product* view, no ID is displayed.
+
+[comment]: <> (Create product -aus PIM?- oder Create offer?)
 
 - Defining/changeable attribute    
   You can add a column for each attribute that is assigned as a defining or changeable attribute to the selected variant set. The column displays the attribute name, the row displays the attribute value.
@@ -492,6 +501,8 @@ For each defining attribute a single field or box to define the attribute value 
 
 > [Info] If more than one defining attribute is assigned to the variant, you have to select a value for each defining attribute to add a variant.
 
+[comment]: <> (Es scheint möglich zu sein, nur ein Attribute zu definieren, also color Pink, Storage undefined. Stimmt das?)
+
 - Defining attribute(s)   
   Enter or select the appropriate value for the defining attribute(s).
 
@@ -499,12 +510,14 @@ For each defining attribute a single field or box to define the attribute value 
   Click this button to cancel adding a variant. The *Add single variant* window is closed.
 
 - [SAVE]   
-  Click this button to save the variant. The *Add single variant* window is closed..
+  Click this button to save the variant. The *Add single variant* window is closed.
 
 
 ### Add multiple variants
 
 *Omni-Channel > Offers > Tab OFFERS > Button Add > Button Manual offer > Button SAVE > Tab Variants > Select variant set > Button Add > Button Add multiple variants*
+
+[comment]: <> (Einführungstext oder Screenshot?)
 
 #### Select values
 
@@ -521,6 +534,8 @@ For each defining attribute a single box to define the attribute value is displa
 
 - [ADD VALUE]   
   Click this button to add a further row to the corresponding attribute where you can enter or select the desired value.
+
+[comment]: <> (Unsicher, ob es bei mir funktioniert/falsch verstanden. Beim Ankliken von ADD VALUE, wird keine weitere Zeile hinzugefügt. Sollte es?)
 
 - [CANCEL]   
   Click this button to cancel adding variants. The *Select values* wizard window is closed.
@@ -556,7 +571,7 @@ The list displays all selected variants. Depending on the settings, the displaye
 - Defining attribute     
   You can add a column for each defining attribute. The column displays the attribute name, the row displays the corresponding attribute value. These fields are read-only.
 
-- [< GO BACK]   
+- [< BACK]   
   Click this button to go back to the previous step of adding variants. The *Select values* wizard window is displayed.
 
 - [CANCEL]   
@@ -572,8 +587,7 @@ The list displays all selected variants. Depending on the settings, the displaye
 
 ![Summary](../../Assets/Screenshots/Channels/Offers/Offers/Dependencies/DependenciesCreate.png "[Summary]")
 
-In the *Create offer* view, the notice *Information about dependencies are not available* is displayed in this tab. Dependencies are displayed only after saving.
-
+In the *Create offer* view, the notice *Information about dependencies is not available* is displayed in this tab. Dependencies are displayed only after saving.
 
 
 ## Edit offer
@@ -592,7 +606,7 @@ In the *Create offer* view, the notice *Information about dependencies are not a
   Click this button to save any changes to the offer. The *Edit offer* view is closed.
 
 - *SKU*   
-  Stock Keeping Unit. Identification number for the product. The SKU (Stock Keeping Unit) is an identification number for the product. Therefore, it should be uniquely assigned to a single product.   
+  Stock Keeping Unit. Identification number for the product. The SKU (Stock Keeping Unit) is an identification number and should be assigned only once.      
   Click the button ![Edit](../../Assets/Icons/Edit02.png "[Edit]") (Edit) to the right of the SKU to edit it.
 
 - ![Edit](../../Assets/Icons/Edit02.png "[Edit]") (Edit)   
@@ -622,6 +636,7 @@ In the *Create offer* view, the notice *Information about dependencies are not a
   - **Offline**   
     The offer is unknown to the selected connection and cannot be sold there.
 
+[comment]: <> (Not available statt unknown? Dann haben wir beide bekannten Begriffe drin...)
 
 ## Edit offer &ndash; Attributes
 
@@ -649,9 +664,12 @@ The right side of the *Attributes* tab displays all attributes that are assigned
   If the product is a master product, the corresponding variant set is preselected in the drop-down list. The drop-down list is locked. The corresponding variants and the ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) button are displayed in the variants box.
   If the product is a variant, the *Variant set* drop-down list is not displayed, but the *Variant* field.
 
+[comment]: <> (Bei mir wird nur "Child Entity" angezeigt, wenn Child offer ausgewählt. Bei Master offer, keine Möglichkeit drop-down list auszuwählen, da schon ausgewählt und gesperrt/ausgegraut.)
+
 - *Variant*   
   Indication that the selected product is a variant. This field is read-only. The value can be changed within the *Attributes* tab. This field is only displayed for variants.
 
+[comment]: <> (Bei mir nicht angezeigt, nur Child Entity)
 
 **Variants box**
 
@@ -783,7 +801,7 @@ The list displays all selected variants. Depending on the settings, the displaye
 - Defining attribute     
   You can add a column for each defining attribute. The column displays the attribute name, the row displays the corresponding attribute value. These fields are read-only.
 
-- [< GO BACK]   
+- [< BACK]   
   Click this button to go back to the previous step of adding variants. The *Select values* wizard window is displayed.
 
 - [CANCEL]   
