@@ -137,9 +137,7 @@ A Shopware 6 connection has been established, see [Create a Shopware 6 connectio
 
 11. If desired, enable the *Enable Klarna plugin integration for this connection* toggle.  
   
-    [Info] The *Klarna integration for Shopware 6* plugin imports the additional fields *captured_amount*, *currency*, *decimal_precision*, *expiry_date*, *fraud_status*, *initial_payment_method*, *order_amount*, *order_id*, *order_number*, *order_status*, *reference*, *refunded_amount*, and *remaining_amount* from shop for further processing.  
-
-[comment]: <> (Check, ob es so stimmt)
+    > [Info] The *Klarna integration for Shopware 6* plugin imports the additional fields *captured_amount*, *currency*, *decimal_precision*, *expiry_date*, *fraud_status*, *initial_payment_method*, *order_amount*, *order_id*, *order_number*, *order_status*, *reference*, *refunded_amount*, and *remaining_amount* from shop for further processing.  
 
 12. Click the *Price rules* menu entry in the left side bar.  
   The price rule settings are displayed on the right side.
