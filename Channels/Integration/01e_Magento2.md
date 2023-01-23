@@ -12,13 +12,12 @@ Create the connection to a Magento 2 shop using the Magento 2 driver. Further se
 #### Prerequisites
 
 - A Magento 2 account has been created.
-- The Magento 2 platform has been updated to version 2.4.4. 
-- An integration has been created and activated in Magento 2.
+- An integration has been created and activated in Magento 2, go to *System > Integrations > Add New Integration*. 
 - The *Magento 2* plugin has been installed in the *Actindo Core1 Platform*. 
 
 > [Info] For the *Omni-Channel* module version 4.1.0 or higher, the *Magento 2* plugin is required in at least version 4.0.0.
 
-[comment]: <> (Stimmt alles so? Admin-Rechte notwendig oder hinfällig? Link zu create integration verfügbar oder eher in einem separaten Procedure beschreiben? Oder gar nicht separat beschreiben, da Magento 2 "internes" Procedure? In dem Fall, Link.)
+[comment]: <> (Create integration in Magento 2 -> Klickpfad ausreichend? Kein Link zu Magento-Doku verfügbar)
 
 #### Procedure
 
@@ -44,29 +43,11 @@ Create the connection to a Magento 2 shop using the Magento 2 driver. Further se
 
     > [Info] The connection username and password equal the login details for the Magento 2 admin backend.   
 
-[comment]: <> (Sind Username and Password komplett hinfällig? Haben alle Kunden Magento 2 Version 2.4.4., oder ist es möglich, dass einige nicht aktualisieren?)
+[comment]: <> (Mit jetziger Magento 2 Treiber Version muss man sich über Username und Password authentifizieren; access token Feld leer lassen; mit neuem Release, noch kein festes Datum: Access token eingeben, Username und Password leer lassen.)
 
-7. Switch to the Magento 2 admin backend and follow the procedure below to change the access token lifetime:
+7. Ignore the *Access token* field.
 
-    + Go to *Stores > Configuration > SERVICES > OAuth > Consumer Settings*.
-
-    + Click the *Allow OAuth Access Tokens to be used as stand-alone Bearer tokens* drop-down list and set it to **Yes**. By default, this option is set to **No**.
-
-    + Click the [Save Config] button in the upper right corner.
-
-    +  Repeat this procedure for all available stores.
-
-    For detailed information, see [Integration tokens](https://developer.adobe.com/commerce/webapi/get-started/authentication/gs-authentication-token/#integration-tokens). 
-
-8. In the Magento 2 admin backend, go to *System > Integrations > Select an integration > Button Edit > Access token* and copy the access token to your clipboard.
-
-9. Switch to the *Actindo Core1 Platform* and paste the access token from your clipboard to the *Access token* field.
-
-    > [Info] If an access token is used, the *Username* and *Password* fields can be left empty in the *Actindo Core1 Platform*. 
-
-[comment]: <> (Evtl. aktualisieren/anpassen, wenn Username und Password aus der UI)
-
-10. Click the [SAVE] button.  
+8. Click the [SAVE] button.  
   The *Checking credentials* notice is displayed. The connection will be established and the synchronization is triggered. The *Sync triggered* pop-up window is displayed.  
 
     ![Sync triggered](../../Assets/Screenshots/Channels/Settings/Connections/SyncTriggered.png "[Sync triggered]")
@@ -75,7 +56,7 @@ Create the connection to a Magento 2 shop using the Magento 2 driver. Further se
 
   ![Magento 2 connection](../../Assets/Screenshots/Channels/Settings/Connections/Magento/Connection.png "[Magento 2 connection]")	
 
-11. If necessary, continue to [Configure the Magento 2 connection](#configure-the-Magento-2-connection).
+9. If necessary, continue to [Configure the Magento 2 connection](#configure-the-Magento-2-connection).
 
 
 
@@ -112,9 +93,7 @@ A Magento 2 connection has been established.
     
     + Enable the toggles of all states for which the orders are to be imported. All states configured in Magento 2 are available.
 
-        > [Info] States and statuses can be defined by the user in Magento 2. To add or edit a state or a status, go to *Stores > Order Status > Create New Status*. All states and statuses available in Magento 2 are retrieved via synchronization and displayed in the *Actindo Core1 Platform*.
-
-    [comment]: <> (Ich habe nirgendwo finden können, wo man states anlegen kann. Ich habe das Gefühl, dass states fest voreingestellt sind. Man kann neue status erstellen und die Zuordnung zu den verfügbaren states ändern. Oder bin ich da falsch?)
+        > [Info] States are predefined in the system, while statuses can be defined by the user in the Magento 2 admin backend. To add or edit a status, go to *Stores > Order Status > Create New Status*. All states and statuses available in Magento 2 are retrieved via synchronization and displayed in the *Actindo Core1 Platform*.
    
     + If desired, enter an order number in the *Import only orders with a higher number than this* field. Only orders with a higher order number than the specified number will be imported.  
     
