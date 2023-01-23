@@ -68,6 +68,12 @@
   - **Not available**   
     The offer is deleted from the marketplace.   	
 
+  The *Change offer status* confirmation window is displayed. If the variant status of the selected offer equals **Master offer**, an additional toggle is displayed within the confirmation window.   
+
+    ![Change offer status](../../Assets/Screenshots/Channels/Offers/Offers/ChangeOfferStatus.png "[Change offer status]")
+
+[comment]: <> (An additional toggle is displayed within the confirmation window? Diese Info stimmt hier nicht ganz. Bei mir/im Screenshot sieht man unterschiedliche Fenster, je nach variant und status. Fenster nicht konsistent. RS mit Oli/Hannah)
+
 - ![Edit](../../Assets/Icons/Edit03.png "[Edit]") (Edit)           
   Click this button to edit the selected offer from the list. This button is only displayed if a single checkbox in the list of offers is selected. Alternatively, you can click directly a row in the list to edit the corresponding offer.  
   The *Edit offer "Offer SKU"* view is displayed, see [Edit offer](#edit-offer).
@@ -95,9 +101,6 @@ The list displays all available offers. Depending on the settings, the displayed
     The offer is inactive. It is not longer displayed in the marketplace and thus cannot be sold anymore.   
   - **Not available**   
     The offer is deleted from the marketplace.   
-    The *Change offer status* confirmation window is displayed. If the variant status of the selected offer equals **Master offer**, an additional toggle is displayed within the confirmation window.   
-
-      ![Change offer status](../../Assets/Screenshots/Channels/Offers/Offers/ChangeOfferStatus.png "[Change offer status]")
 
 - *Pending status/Errors*  
   Indication of the pending status or an error for this offer. The selected status is displayed if you have changed the offer status via the editing toolbar. The following options are available:
@@ -157,6 +160,8 @@ The list displays all available offers. Depending on the settings, the displayed
 ### Create from PIM product
 
 *Omni-Channel > Offers > Tab OFFERS > Button Add > Button Create from PIM product*
+
+[comment]: <> (Screenshot hinzufügen? Vgl. Create manual offer)
 
 #### Select marketplace
 
@@ -241,7 +246,10 @@ The list displays all available offers. Depending on the settings, the displayed
 - ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh)   
   Click this button to update the list of products.
 
-[SELECT ALL X PRODUCTS]   
+- [SELECT ALL X PRODUCTS]   
+  Click this button to select all displayed products. The *x* indicates the number of products that are currently displayed in the list. The *Review and finalize* wizard window is displayed.
+
+[comment]: <> (Sollte dieses Button was machen? Wenn man darauf klickt, springt man direkt auf die Review and finalize wizard window, aber keine Produkte sind ausgewählt worden, also man kann nichts weitermachen als zurückgehen und die Produkte einzeln auswählen. Bug?) 
 
 - ![Columns](../../Assets/Icons/Columns.png "[Columns]") Columns (x)   
   Click this button to display the columns bar and customize the displayed columns and the order of columns in the list. The *x* indicates the number of columns that are currently displayed in the list.
@@ -252,7 +260,7 @@ The list displays all available offers. Depending on the settings, the displayed
 - [x]     
   Select the checkbox to display the editing toolbar. If you click the checkbox in the header, all products in the list are selected.
 
-[ADD TO SELECTION >]	
+- [ADD TO SELECTION >]  
 Click this button to add the selected products to the selection section in the right side bar. This button is only displayed if the checkbox of at least one product is selected.
 
 
@@ -266,7 +274,7 @@ The list in the selection side bar displays all selected products. The *x* indic
 - *SKU*      
   Stock Keeping Unit. Identification number of the product.
 
-- *Images*
+- *Images*  
   Image of the product.
 
 - ![Delete](../../Assets/Icons/Trash01.png "[Delete]") (Delete)   
