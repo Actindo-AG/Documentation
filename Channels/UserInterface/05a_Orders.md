@@ -561,7 +561,9 @@ The list displays all dependencies of the selected order. Depending on the setti
 
 *Omni-Channel > Orders and returns > Tab ORDERS > Select order > Tab Shipments > Select shipment > Tab Shipment line items*
 
-![Shipment line items](../../Assets/Screenshots/Channels/OrdersReturns/Orders/ShipmentDependencies.png "[Shipment line items]")
+![Shipment line items](../../Assets/Screenshots/Channels/OrdersReturns/Orders/ShipmentLineItems.png "[Shipment line items]")
+
+**Shipment line items**
 
 - ![Search](../../Assets/Icons/Search.png "[Search]") (Search)   
   Click this button to display the search bar and search for a line item.
@@ -637,7 +639,7 @@ The right side of the *Attributes* tab displays all attributes that are assigned
 
 *Omni-Channel > Orders and returns > Tab ORDERS > Select order > Tab Shipments > Select shipment > Tab Shipment line items > Select line item > Tab Dependencies*
 
-![Shipment line item dependencies](../../Assets/Screenshots/Channels/OrdersReturns/Orders/ShipmentLineItemDepenpdencies.png "[Shipment line item dependencies]")
+![Shipment line item dependencies](../../Assets/Screenshots/Channels/OrdersReturns/Orders/ShipmentLineItemDependencies.png "[Shipment line item dependencies]")
 
 
 - ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh)   
