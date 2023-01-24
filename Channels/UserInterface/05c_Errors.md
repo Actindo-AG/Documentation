@@ -58,7 +58,7 @@ The list displays all errors to the orders and returns. Depending on the setting
   Indication where the error has occurred. The following options are available:
   - **Order**   
     The error has occurred in an order.
-  - **Return**
+  - **Return**  
     The error has occurred in a return.
 
 - *ID in shop*  

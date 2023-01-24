@@ -167,9 +167,9 @@ The list displays all messages contained in the selected intent. Depending on th
   Description of the log message.
 
 This view can also be accessed from the following tabs in the user interface:
-- [ERRORS](./03b_Errors.md#detail-of-log-message-log-message-title)
+- [ERRORS (Offer upload)](./03b_Errors.md#detail-of-log-message-log-message-title)
 - [OFFER IMPORT](./04a_OfferImport.md#detail-of-log-message-log-message-title)
-- [ERRORS](./05c_Errors.md#detail-of-log-message-log-message-title)
+- [ERRORS (Orders and returns)](./05c_Errors.md#detail-of-log-message-log-message-title)
 - [SHIPMENT ERRORS](./05d_ShipmentErrors.md#detail-of-log-message-log-message-title)
 - [CANCELLATION ERRORS](./05e_CancellationErrors.md#detail-of-log-message-log-message-title)
 
