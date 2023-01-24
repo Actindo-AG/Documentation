@@ -87,7 +87,7 @@ A Tradebyte connection has been established.
 4. Click the *Enable languages* menu entry in the left side bar.  
   The language settings are displayed on the right side. 
 
-  ![Settings enable languages](../../Assets/Screenshots/Channels/Settings/Connections/Tradebyte/Settings_EnableLanguages.png "[Settings enable languages]")
+    ![Settings enable languages](../../Assets/Screenshots/Channels/Settings/Connections/Tradebyte/Settings_EnableLanguages.png "[Settings enable languages]")
 
 5. Enable the toggles of the languages you want to maintain in the *Actindo Core1 Platform*. All languages available in Tradebyte are displayed.
 
