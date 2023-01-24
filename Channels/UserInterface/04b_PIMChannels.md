@@ -32,15 +32,19 @@ The list displays all scheduled offer imports. Depending on the settings, the di
 
 - *Change tracking mode*  
   Change tracking mode (ETL mode) of the dependent entity. The following options are available:  
-  - **Manual**  
-  - **Semi-automatic**  
-  - **Semi-automatic, changes must be confirmed by another user**   
-  - **Automatic**  
+   - **manual**   
+    Changes in a PIM product must be triggered manually to be applied to the offer. The initial offer is automatically applied.
+  - **semi-automatic**   
+    Changes in a PIM product are automatically applied to the offer after confirmation. The initial offer is automatically applied without confirmation.   
+  - **semi-automatic, changes must be confirmed by another user**   
+    Changes in a PIM product are automatically applied to the offer after confirmation by another user. The initial offer is only applied after confirmation by another user.       
+  - **automatic**    
+    Changes in a PIM product are automatically applied to the offer. The initial offer is also automatically applied.
 
 - *Created*  
   Date and time of the offer import creation.
 
-- *Author*	
+- *Author*  
   Name and username of the user who changed the offer and triggered the import.
 
 [comment]: <> (oder eher: user who triggered the import)
