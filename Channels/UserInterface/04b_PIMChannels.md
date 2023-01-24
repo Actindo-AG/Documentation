@@ -1,6 +1,6 @@
 [!! Import an offer](../Operation/02_ImportOffers.md)
 
-[comment]: (S. Ticket ACD-736. Operation chapter noch in progress)
+[comment]: <> (S. Ticket ACD-736. Operation chapter noch in progress)
 
 # PIM->CHANNELS
 
