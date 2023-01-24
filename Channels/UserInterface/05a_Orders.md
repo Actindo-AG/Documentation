@@ -87,7 +87,7 @@
   Select the checkbox to display the editing toolbar. If you click the checkbox in the header, all orders in the list are selected.
 
 - [VIEW]  
-  Click this button to display the *Order from connection "Connection name"* view of the selected order. Alternatively, you can click directly a row in the list to edit the corresponding order. This button is only displayed if a single checkbox in the list of connections is selected.
+  Click this button to display the *Order from connection "Connection name"* view of the selected order. Alternatively, you can click directly a row in the list to view the corresponding order. This button is only displayed if a single checkbox in the list of connections is selected.
 
 - [EXPORT TO OMS]  
   Click this button to export the selected order(s) to the *Order management* module. This button is only displayed if the checkbox of at least one order is selected.
@@ -106,10 +106,14 @@ The list displays all orders, either for all connections or for the selected con
 
 - *Status of import from channel*   
   Status of the order import from the marketplace to the *Omni-Channel* module. The following options are available:  
-  - **Order complete**  
+  - **Not imported**  
+    The order import has not been performed.
+  - **Complete**  
     The order import has been successfully completed.   	
   - **Canceled**  
-    The order import has been canceled.
+    The order import has been canceled.  
+  - **Error**  
+    The order import has given an error.
 
 - *Status of export to channel*  
   Status of the order export from the *Omni-Channel* module to the marketplace. The following options are available:  
@@ -176,14 +180,17 @@ The list displays all orders, either for all connections or for the selected con
 - *Import status:*  
   Order import status from the marketplace to the *Omni-Channel* module. The following statuses are available:  
   - **Not imported**
-  - **Order complete**  
+  - **Complete**  
   - **Canceled**
   - **Error**
 
 - *Export status:*  
   Order export status from the *Omni-Channel* module to the  marketplace. The following statuses are available:  
+    - **Exported**
+    - **Being exported**  
+    - **Not exported: Pending > 30 minutes to OMS**  
     
-  [comment]: <> (Feld immer leer. Export to marketplace oder export to OMS gemeint?)
+  [comment]: <> (Feld immer/meistens leer hier, auch wenn in Order Liste Status angezeigt. Bezieht sich auf Status of Export to Channel oder Status of Export to OMS? Andere Möglichkeiten?)
 
 - [EXPORT TO OMS]  
   Click this button to export the order to the *Order management* module. This button is only displayed if the status in the *Status of export to OMS* column is **Not exported: Pending > 30 minutes to OMS**.
@@ -319,7 +326,8 @@ The list displays all dependencies of the selected order. Depending on the setti
   Select the checkbox to display the editing toolbar. You can only select one checkbox at a time. 
 
 - [VIEW]  
-  Click this button to display the *Line item* view of the selected line item. Alternatively, you can click directly a row in the list to edit the corresponding line item.
+  Click this button to display the *Line item* view of the selected line item. Alternatively, you can click directly a row in the list to view the corresponding line item.  This button is only displayed if a single checkbox in the list of line items is selected.
+
 
 The list displays all items of the selected order. Depending on the settings, the displayed columns may vary. All fields are read-only. 
 
@@ -421,11 +429,68 @@ The list displays all dependencies of the selected line item. Depending on the s
 [comment]: <> (what id number is that? How is it created?)
 
 
-
 ## Order from connection "Connection name" &ndash; Shipments
 
+*Omni-Channel > Orders and returns > Tab ORDERS > Select order > Tab Shipments*
 
-## Order from connection "Connection name" &ndash; Cancellation
+![Order connection shipments](../../Assets/Screenshots/Channels/OrdersReturns/Orders/OrderConnectionShipments.png "[Order connection shipments]")
+
+**Shipments**
+
+- ![Search](../../Assets/Icons/Search.png "[Search]") (Search)   
+  Click this button to display the search bar and search for an error.
+
+- ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh)   
+  Click this button to update the list of errors.
+
+- ![Columns](../../Assets/Icons/Columns.png "[Columns]") Columns (x)   
+  Click this button to display the columns bar and customize the displayed columns and the order of columns in the list. The *x* indicates the number of columns that are currently displayed in the list.
+
+- ![Filter](../../Assets/Icons/Filter.png "[Filter]") Filter (x)   
+  Click this button to display the filter bar and customize the active filters. The *x* indicates the number of filters that are currently active.
+
+- [x]     
+  Select the checkbox to display the editing toolbar. If you click the checkbox in the header, all errors in the list are selected.
+
+- [VIEW]  
+  Click this button to display the *Shipment for order* view of the selected shipment. Alternatively, you can click directly a row in the list to view the corresponding shipment. This button is only displayed if a single checkbox in the list of shipments is selected.
+
+The list displays all shipments to the selected order. Depending on the settings, the displayed columns may vary. All fields are read-only. 
+
+- *Status of import from channel*  
+  Status of the order import from the marketplace to the *Omni-Channel* module. The following options are available:  
+  - **Not imported**  
+    The order import has not been performed.
+  - **Complete**  
+    The order import has been successfully completed.   	
+  - **Canceled**  
+    The order import has been canceled.  
+  - **Error**  
+    The order import has given an error.
+
+- *Status of export to channel*  
+  Status of the order export from the *Omni-Channel* module to the marketplace. The following options are available:  
+  - **Exported**  
+    The order has been successfully exported.  
+  - **No changes to sync**  
+     There are no changes to synchronize.
+
+[comment]: <> (Check, ob es stimmt. Status bezieht sich auf Order oder Shipment? Andere Möglichkeiten?)
+
+- *ID*  
+  Shipment identification number. The ID number is automatically assigned by the system.
+
+- Attribute  
+  You can add a column for each attribute that is assigned to the shipment. The column displays the attribute name, the row displays the corresponding attribute value of the shipment.
+
+
+## Order from connection "Connection name" &ndash; Cancellations
+
+*Omni-Channel > Orders and returns > Tab ORDERS > Select order > Tab Cancellations*
+
+![Order connection cancellations](../../Assets/Screenshots/Channels/OrdersReturns/Orders/OrderConnectionCancellations.png "[Order connection cancellations]")
+
+**Cancellations**
 
 
 ## Order from connection "Connection name" &ndash; Errors

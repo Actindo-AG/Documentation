@@ -39,12 +39,12 @@ Create the connection to an Amazon shop using the Amazon driver. Further setting
 4. In a new browser window, go to your Amazon Seller account and log in.   
   The amazon seller central start page is displayed.
 
-      ![Amazon seller profile](../../Assets/Screenshots/Channels/Settings/Connections/Amazon/AmazonSellerProfile.png "[Amazon seller profile]")
+      ![Amazon seller account](../../Assets/Screenshots/Channels/Settings/Connections/Amazon/AmazonSellerAccount.png "[Amazon seller account]")
 
 5. Click first the ![Settings](../../Assets/Icons/Settings03.png "[Settings]") (Settings) button in the upper right corner and then the *Account Info* menu entry.  
   The *Seller Account Information* window is displayed.
 
-    ![Seller account information](../../Assets/Screenshots/Channels/Settings/Connections/Amazon/SellerAccountInfo.png "[Seller account information]")
+    ![Seller account information](../../Assets/Screenshots/Channels/Settings/Connections/Amazon/SellerAccountInformation.png "[Seller account information]")
 
 6. Click the [Your Merchant Token] button in the *Business Information* section.  
   The *Merchant Token* window is displayed.
@@ -60,10 +60,14 @@ Create the connection to an Amazon shop using the Amazon driver. Further setting
 
     ![Actindo authorization](../../Assets/Screenshots/Channels/Settings/Connections/Amazon/ActindoAuthorization.png "[Actindo authorization]")
 
+[comment]: <> (Überhaupt notwendig? Das ist nur möglich beim Erstellen der Verbidung. Johannes fragen oder einfach lassen?)
+
 10. Select the *I request Amazon to grant Actindo access to my seller account and the corresponding data. I am responsible for all measures that may be taken by this application.* checkbox and click the [Confirm] button.    
   The *We authorize Actindo to access your seller details.* notice is displayed. As soon as the authorization has been completed, you are redirected to the *Actindo Core1 Platform*. If the authorization has been successful, the *Access token* field is filled in.
 
     ![Access token](../../Assets/Screenshots/Channels/Settings/Connections/Amazon/AccessToken.png "[Access token]")
+
+[comment]: <> (Überhaupt notwendig? Das ist nur möglich beim Erstellen der Verbidung. Johannes fragen oder einfach lassen?)
 
 11. Click the *Amazon marketplace* drop-down list and select the applicable marketplace.
     > [Info] Once the connection has been saved, the selected marketplace cannot be changed.
