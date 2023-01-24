@@ -140,7 +140,7 @@ The list displays all orders, either for all connections or for the selected con
   Date and time of the last modification. 
 
 - *Remote ID*  
-  Remote identification number of the order.
+  Identification number of the order in the marketplace.
 
 - *ID in OMS*  
   Identification number of the document in the *Order management* module.    
@@ -176,6 +176,8 @@ The list displays all orders, either for all connections or for the selected con
 
 - *Document ID:*  
   Identification number of the document in the *Order management* module.   
+
+[comment]: <> (Jetzt in UI Bill ID?)
   
 - *Import status:*  
   Order import status from the marketplace to the *Omni-Channel* module. The following statuses are available:  
@@ -187,10 +189,9 @@ The list displays all orders, either for all connections or for the selected con
 - *Export status:*  
   Order export status from the *Omni-Channel* module to the  marketplace. The following statuses are available:  
     - **Exported**
-    - **Being exported**  
-    - **Not exported: Pending > 30 minutes to OMS**  
+    - **No changes to sync**  
     
-  [comment]: <> (Feld immer/meistens leer hier, auch wenn in Order Liste Status angezeigt. Bezieht sich auf Status of Export to Channel oder Status of Export to OMS? Andere Möglichkeiten?)
+  [comment]: <> (Stimmt das? Feld immer/meistens leer hier, auch wenn in Order Liste Status angezeigt. Bezieht sich auf Status of Export to Channel oder Status of Export to OMS? Andere Möglichkeiten?)
 
 - [EXPORT TO OMS]  
   Click this button to export the order to the *Order management* module. This button is only displayed if the status in the *Status of export to OMS* column is **Not exported: Pending > 30 minutes to OMS**.
@@ -254,9 +255,9 @@ The list displays all dependencies of the selected order. Depending on the setti
   Type of the dependent entity. The following options are available:
   - **Omni-Channel Offer**
   - **UCS Product**
+  - **UCS Faktura**
 
-  [comment]: <> (what else?)
-
+  [comment]: <> (Standardsatz wie All dependent entity types are displayed?)
 
 - *Change tracking mode*   
   Change tracking mode (ETL mode) of the dependent entity. The following options are available:
@@ -264,7 +265,6 @@ The list displays all dependencies of the selected order. Depending on the setti
   - **Semi-automatic**
   - **Semi-automatic, changes must be confirmed by another user**   
   - **Automatic**
-
 
 - *Dependent entity friendly identifier*   
 
@@ -329,23 +329,23 @@ The list displays all dependencies of the selected order. Depending on the setti
   Click this button to display the *Line item* view of the selected line item. Alternatively, you can click directly a row in the list to view the corresponding line item.  This button is only displayed if a single checkbox in the list of line items is selected.
 
 
-The list displays all items of the selected order. Depending on the settings, the displayed columns may vary. All fields are read-only. 
+The list displays all line items of the selected order. Depending on the settings, the displayed columns may vary. All fields are read-only. 
 
 - *SKU*  
   Stock Keeping Unit. Identification number of the product to the order.
 
 - *Type*  
-  Item type. The following options are available:
+  Line item type. The following options are available:
   - **Line item**
   - **Shipping**
 
-[comment]: <> (what else?)
+[comment]: <> (What else? Oder Standardsatz wie All available line item types are displayed?)
 
 - *ID*  
   Order identification number. The ID number is automatically assigned by the system after creation.
 
 - Attribute    
-  You can add a column for each attribute that is assigned to the order. The column displays the attribute name, the row displays the corresponding attribute value of the order.
+  You can add a column for each attribute that is assigned to the line item. The column displays the attribute name, the row displays the corresponding attribute value of the item.
 
 
 ### Line item 
@@ -412,9 +412,9 @@ The list displays all dependencies of the selected line item. Depending on the s
   Type of the dependent entity. The following options are available:
   - **Omni-Channel Offer**
   - **UCS Product**
+  - **UCS Faktura Order Position**
 
-[comment]: <> (what else?)
-
+  [comment]: <> (What else? Vermutlich eher Standardsatz wie All available dependent entity types are displayed.)
 
 - *Change tracking mode*   
   Change tracking mode (ETL mode) of the dependent entity. The following options are available:
@@ -422,7 +422,6 @@ The list displays all dependencies of the selected line item. Depending on the s
   - **Semi-automatic**
   - **Semi-automatic, changes must be confirmed by another user**   
   - **Automatic**
-
 
 - *Dependent entity friendly identifier*   
 
@@ -455,7 +454,7 @@ The list displays all dependencies of the selected line item. Depending on the s
 - [VIEW]  
   Click this button to display the *Shipment for order* view of the selected shipment. Alternatively, you can click directly a row in the list to view the corresponding shipment. This button is only displayed if a single checkbox in the list of shipments is selected.
 
-The list displays all shipments to the selected order. Depending on the settings, the displayed columns may vary. All fields are read-only. 
+The list displays all shipments for the selected order. Depending on the settings, the displayed columns may vary. All fields are read-only. 
 
 - *Status of import from channel*  
   Status of the order import from the marketplace to the *Omni-Channel* module. The following options are available:  
@@ -483,6 +482,199 @@ The list displays all shipments to the selected order. Depending on the settings
 - Attribute  
   You can add a column for each attribute that is assigned to the shipment. The column displays the attribute name, the row displays the corresponding attribute value of the shipment.
 
+### Shipment for order "Order ID"
+
+*Omni-Channel > Orders and returns > Tab ORDERS > Select order > Tab Shipments > Select shipment*
+
+![Shipment attributes](../../Assets/Screenshots/Channels/OrdersReturns/Orders/ShipmentAttributes.png "[Shipment attributes]")
+
+- ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)   
+  Click this button to close the *Shipment for order "Order ID"* view and return to the shipment list. All changes are rejected.
+
+- [CLOSE]  
+  Click this button to close the *Shipment for order "Order ID"* view.
+
+### Shipment for order "Order ID" &ndash; Attributes
+
+*Omni-Channel > Orders and returns > Tab ORDERS > Select order > Tab Shipments > Select shipment > Tab Attributes*
+
+![Shipment attributes](../../Assets/Screenshots/Channels/OrdersReturns/Orders/ShipmentAttributes.png "[Shipment attributes]")
+
+In the left margin column, all available attribute groups are displayed. Click an attribute group to display the attributes that are assigned to this group on the right side of the *Attributes* tab. If the line item contains attributes that are unassigned, the *Unassigned group* attribute group is automatically displayed in the left margin column.
+
+- ![Folders](../../Assets/Icons/Folders01.png "[Folders]") (Folders)  
+  Attribute group that contains attribute sub-groups. Click the attribute group or the arrow left to the attribute group to unfold the group and display the attribute sub-groups.
+
+- ![Folder](../../Assets/Icons/Folder01.png "[Folder]") (Folder)  
+  Attribute group. Click the attribute group to display all attributes that are assigned to the selected attribute group on the right side of the *Attributes* tab.
+
+The right side of the *Attributes* tab displays all attributes that are assigned to the selected group in the left margin column. All fields are read-only.
+
+- ![Fade in/out](../../Assets/Icons/FadeInOut01.png "[Fade in/out]") (Fade in/out)    
+  Click this button to hide or display the left margin column with the attribute groups. When the left margin is displayed and you click this button, the column is hidden. When the column is hidden and you click this button, the column is displayed again.
+
+### Shipment for order "Order ID" &ndash; Dependencies
+
+*Omni-Channel > Orders and returns > Tab ORDERS > Select order > Tab Shipments > Select shipment > Tab Dependencies*
+
+![Shipment dependencies](../../Assets/Screenshots/Channels/OrdersReturns/Orders/ShipmentDependencies.png "[Shipment dependencies]")
+
+**Dependencies**
+
+- ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh)   
+  Click this button to update the list of dependencies.
+
+- ![Columns](../../Assets/Icons/Columns.png "[Columns]") Columns (x)   
+  Click this button to display the columns bar and customize the displayed columns and the order of columns in the list. The *x* indicates the number of columns that are currently displayed in the list.
+
+- [x]     
+  Select the checkbox to display the editing toolbar. If you click the checkbox in the header, all dependencies in the list are selected.
+
+- [RERUN MAPPING]  
+  Click this button to rerun the mapping of the selected entity. This button is only displayed if the checkbox of at least one dependency is selected.
+
+The list displays all dependencies of the selected order. Depending on the settings, the displayed columns may vary. All fields are read-only. 
+
+- *Dependent entity ID*   
+  Identification number of the dependent entity.
+
+- *Dependent entity type*   
+  Type of the dependent entity. The following options are available:
+  - **Omni-Channel Offer**
+  - **UCS Product**
+  
+  [comment]: <> (What else? Vermutlich eher Standardsatz wie All available dependent entity types are displayed.)
+
+- *Change tracking mode*   
+  Change tracking mode (ETL mode) of the dependent entity. The following options are available:
+  - **Manual**
+  - **Semi-automatic**
+  - **Semi-automatic, changes must be confirmed by another user**   
+  - **Automatic**
+
+- *Dependent entity friendly identifier*   
+
+[comment]: <> (what id number is that? How is it created?)
+
+
+### Shipment for order "Order ID" &ndash; Shipment line items
+
+*Omni-Channel > Orders and returns > Tab ORDERS > Select order > Tab Shipments > Select shipment > Tab Shipment line items*
+
+![Shipment line items](../../Assets/Screenshots/Channels/OrdersReturns/Orders/ShipmentDependencies.png "[Shipment line items]")
+
+- ![Search](../../Assets/Icons/Search.png "[Search]") (Search)   
+  Click this button to display the search bar and search for a line item.
+
+- ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh)   
+  Click this button to update the list of line items.
+
+- ![Columns](../../Assets/Icons/Columns.png "[Columns]") Columns (x)   
+  Click this button to display the columns bar and customize the displayed columns and the order of columns in the list. The *x* indicates the number of columns that are currently displayed in the list.
+
+- ![Filter](../../Assets/Icons/Filter.png "[Filter]") Filter (x)   
+  Click this button to display the filter bar and customize the active filters. The *x* indicates the number of filters that are currently active.
+
+- [x]     
+  Select the checkbox to display the editing toolbar. You can only select one checkbox at a time. 
+
+- [VIEW]  
+  Click this button to display the *Line item* view of the selected line item. Alternatively, you can click directly a row in the list to view the corresponding line item.  This button is only displayed if a single checkbox in the list of line items is selected.
+
+
+The list displays all items of the selected order. Depending on the settings, the displayed columns may vary. All fields are read-only. 
+
+- *SKU*  
+  Stock Keeping Unit. Identification number of the product to the order.
+
+- *Type*  
+  Item type. The following options are available:
+  - **Line item**
+  - **Shipping**
+
+[comment]: <> (what else? Standardsatz All available item types are displayed.)
+
+- *ID*  
+  Order identification number. The ID number is automatically assigned by the system after creation.
+
+- Attribute    
+  You can add a column for each attribute that is assigned to the order. The column displays the attribute name, the row displays the corresponding attribute value of the order.
+
+#### Shipment line item
+
+*Omni-Channel > Orders and returns > Tab ORDERS > Select order > Tab Shipments > Select shipment > Tab Shipment line items > Select line item*
+
+![Shipment line item](../../Assets/Screenshots/Channels/OrdersReturns/Orders/ShipmentLineItemAttributes.png "[Shipment line item]")
+
+- ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)   
+  Click this button to close the *Shipment line item* view and return to the shipment line item list. All changes are rejected.
+
+- [CANCEL]  
+  Click this button to close the *Shipment line item* view.
+
+
+#### Shipment line item &ndash; Attributes
+
+*Omni-Channel > Orders and returns > Tab ORDERS > Select order > Tab Shipments > Select shipment > Tab Shipment line items > Select line item > Tab Attributes*
+
+![Shipment line item attributes](../../Assets/Screenshots/Channels/OrdersReturns/Orders/ShipmentLineItemAttributes.png "[Shipment line item attributes]")
+
+In the left margin column, all available attribute groups are displayed. Click an attribute group to display the attributes that are assigned to this group on the right side of the *Attributes* tab. If the line item contains attributes that are unassigned, the *Unassigned group* attribute group is automatically displayed in the left margin column.
+
+- ![Folders](../../Assets/Icons/Folders01.png "[Folders]") (Folders)  
+  Attribute group that contains attribute sub-groups. Click the attribute group or the arrow left to the attribute group to unfold the group and display the attribute sub-groups.
+
+- ![Folder](../../Assets/Icons/Folder01.png "[Folder]") (Folder)  
+  Attribute group. Click the attribute group to display all attributes that are assigned to the selected attribute group on the right side of the *Attributes* tab.
+
+The right side of the *Attributes* tab displays all attributes that are assigned to the selected group in the left margin column. All fields are read-only.
+
+- ![Fade in/out](../../Assets/Icons/FadeInOut01.png "[Fade in/out]") (Fade in/out)    
+  Click this button to hide or display the left margin column with the attribute groups. When the left margin is displayed and you click this button, the column is hidden. When the column is hidden and you click this button, the column is displayed again.
+
+
+#### Shipment line item &ndash; Dependencies
+
+*Omni-Channel > Orders and returns > Tab ORDERS > Select order > Tab Shipments > Select shipment > Tab Shipment line items > Select line item > Tab Dependencies*
+
+![Shipment line item dependencies](../../Assets/Screenshots/Channels/OrdersReturns/Orders/ShipmentLineItemDepenpdencies.png "[Shipment line item dependencies]")
+
+
+- ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh)   
+  Click this button to update the list of dependencies.
+
+- ![Columns](../../Assets/Icons/Columns.png "[Columns]") Columns (x)   
+  Click this button to display the columns bar and customize the displayed columns and the order of columns in the list. The *x* indicates the number of columns that are currently displayed in the list.
+
+- [x]     
+  Select the checkbox to display the editing toolbar. If you click the checkbox in the header, all dependencies in the list are selected.
+
+- [RERUN MAPPING]  
+  Click this button to rerun the mapping of the selected entity. This button is only displayed if the checkbox of at least one dependency is selected.
+
+The list displays all dependencies of the selected order. Depending on the settings, the displayed columns may vary. All fields are read-only. 
+
+- *Dependent entity ID*   
+  Identification number of the dependent entity.
+
+- *Dependent entity type*   
+  Type of the dependent entity. The following options are available:
+  - **Omni-Channel Offer**
+  - **UCS Product**
+
+  [comment]: <> (what else? Standardsatz)
+
+- *Change tracking mode*   
+  Change tracking mode (ETL mode) of the dependent entity. The following options are available:
+  - **Manual**
+  - **Semi-automatic**
+  - **Semi-automatic, changes must be confirmed by another user**   
+  - **Automatic**
+
+- *Dependent entity friendly identifier*   
+
+[comment]: <> (what id number is that? How is it created?)
+
 
 ## Order from connection "Connection name" &ndash; Cancellations
 
@@ -491,6 +683,51 @@ The list displays all shipments to the selected order. Depending on the settings
 ![Order connection cancellations](../../Assets/Screenshots/Channels/OrdersReturns/Orders/OrderConnectionCancellations.png "[Order connection cancellations]")
 
 **Cancellations**
+
+- ![Search](../../Assets/Icons/Search.png "[Search]") (Search)   
+  Click this button to display the search bar and search for an error.
+
+- ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh)   
+  Click this button to update the list of errors.
+
+- ![Columns](../../Assets/Icons/Columns.png "[Columns]") Columns (x)   
+  Click this button to display the columns bar and customize the displayed columns and the order of columns in the list. The *x* indicates the number of columns that are currently displayed in the list.
+
+- ![Filter](../../Assets/Icons/Filter.png "[Filter]") Filter (x)   
+  Click this button to display the filter bar and customize the active filters. The *x* indicates the number of filters that are currently active.
+
+- [x]     
+  Select the checkbox to display the editing toolbar. If you click the checkbox in the header, all errors in the list are selected.
+
+- [VIEW]  
+  Click this button to display the *Shipment for order* view of the selected shipment. Alternatively, you can click directly a row in the list to view the corresponding shipment. This button is only displayed if a single checkbox in the list of shipments is selected.
+
+The list displays all shipments for the selected order. Depending on the settings, the displayed columns may vary. All fields are read-only. 
+
+- *Status of import from channel*  
+  Status of the order import from the marketplace to the *Omni-Channel* module. The following options are available:  
+  - **Not imported**  
+    The order import has not been performed.
+  - **Complete**  
+    The order import has been successfully completed.   	
+  - **Canceled**  
+    The order import has been canceled.  
+  - **Error**  
+    The order import has given an error.
+
+- *Status of export to channel*  
+  Status of the order export from the *Omni-Channel* module to the marketplace. The following options are available:  
+  - **Exported**  
+    The order has been successfully exported.  
+  - **No changes to sync**  
+     There are no changes to synchronize.
+
+[comment]: <> (Check, ob es stimmt. Status bezieht sich auf Order oder Shipment? Andere Möglichkeiten?)
+
+- *ID*  
+  Shipment identification number. The ID number is automatically assigned by the system.
+
+[comment]: <> (Unterfenster wie bei Shipments?)
 
 
 ## Order from connection "Connection name" &ndash; Errors
@@ -551,7 +788,7 @@ The list displays all errors of the selected order. Depending on the settings, t
 
 *Omni-Channel > Orders and returns > Tab ORDERS > Select order > Tab Errors > Select error*
 
-![Detail of log message](../../Assets/Screenshots/Channels/OrdersReturns/Orders/Errors/DetailLogMessage.png "[Detail of log message]")
+![Detail of log message](../../Assets/Screenshots/Channels/OrdersReturns/Errors/DetailLogMessage.png "[Detail of log message]")
 
 [comment]: <> (Add screenshot)
 
