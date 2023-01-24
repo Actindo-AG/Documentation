@@ -61,10 +61,10 @@
   Click this button to import the orders for all connections. This button is only displayed if no connection has been selected in the *All connections* drop-down list.
 
 - [Import orders]  
-  Click this button to import all orders for the selected connection. This button is only displayed, if a connection has been selected in the *All connections* drop-down list.
+  Click this button to import all orders for the selected connection. This button is only displayed if a connection has been selected in the *All connections* drop-down list.
 
 - [Download orders automatically]  
-  Click the drop-down list and select the desired time interval for the automatic download of orders. This drop-down list is only displayed, if a connection has been selected in the *All connections* drop-down list. The following options are available:
+  Click the drop-down list and select the desired time interval for the automatic download of orders. This drop-down list is only displayed if a connection has been selected in the *All connections* drop-down list. The following options are available:
   - **never**
   - **every 2 minutes**
   - **every 5 minutes**
@@ -75,7 +75,7 @@
   - **every 60 minutes**
 
 - [SAVE]  
-  Click this button to save the settings for the automatic download of orders. This button is only displayed, if a connection has been selected in the *All connections* drop-down list.
+  Click this button to save the settings for the automatic download of orders. This button is only displayed if a connection has been selected in the *All connections* drop-down list.
 
 - ![Columns](../../Assets/Icons/Columns.png "[Columns]") Columns (x)   
   Click this button to display the columns bar and customize the displayed columns and the order of columns in the list. The *x* indicates the number of columns that are currently displayed in the list.
@@ -97,6 +97,7 @@
 
   ![Import will be retried](../../Assets/Screenshots/Channels/OrdersReturns/Orders/ImportRetried.png "[Import will be retried]")
 
+[comment]: <> (at least one or at least two orders? Getestet in NoE, mindestens 2 nötig)
 
 The list displays all orders, either for all connections or for the selected connection. Depending on the settings, the displayed columns may vary. All fields are read-only. 
 
