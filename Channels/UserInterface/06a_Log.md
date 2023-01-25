@@ -119,7 +119,7 @@ The list displays all intents. Depending on the settings, the displayed columns 
 [comment]: <> (Unpublish oder private view? Bedeutung?)
 
 - ![Eye](../../Assets/Icons/Eye02.png "[Eye]") (Eye)    
-  Click this button to display the details of the log message. Alternatively, you can click directly a row in the list to display the details of the log message. The *Detail of log message "Log message title"* view is displayed, see [Detail of log message "Log message title"](#detail-of-log-message-log-message-name). 
+  Click this button to display the details of the log message. Alternatively, you can click directly a row in the list to display the details of the log message. The *Detail of log message "Log message title"* view is displayed, see [Detail of log message "Log message title"](#detail-of-log-message-log-message-title). 
 
 
 The list displays all messages contained in the selected intent. Depending on the settings, the displayed columns may vary. All fields are read-only.
@@ -172,6 +172,7 @@ This view can also be accessed from the following tabs in the user interface:
 - [ERRORS (Orders and returns)](./05c_Errors.md#detail-of-log-message-log-message-title)
 - [SHIPMENT ERRORS](./05d_ShipmentErrors.md#detail-of-log-message-log-message-title)
 - [CANCELLATION ERRORS](./05e_CancellationErrors.md#detail-of-log-message-log-message-title)
+- [SCHEDULED EXPORTS](./05f_ScheduledExports.md#detail-of-log-message-log-message-title)
 
 
 ### Detail of log message "Log message title" &ndash; Attributes
