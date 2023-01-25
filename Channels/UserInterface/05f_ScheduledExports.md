@@ -4,7 +4,7 @@
 
 *Omni-Channel > Orders and returns > Tab SCHEDULED EXPORTS*
 
-![Orders](../../Assets/Screenshots/Channels/OrdersReturns/ScheduledExports/ScheduledExports.png "[Orders]")
+![Scheduled exports](../../Assets/Screenshots/Channels/OrdersReturns/ScheduledExports/ScheduledExports.png "[Scheduled exports]")
 
 
 **Scheduled exports**
