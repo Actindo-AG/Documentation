@@ -4,9 +4,8 @@
 
 *Omni-Channel > Orders and returns > Tab SCHEDULED EXPORTS*
 
-![Orders](../../Assets/Screenshots/Channels/OrdersReturns/Errors/Errors.png "[Orders]")
+![Orders](../../Assets/Screenshots/Channels/OrdersReturns/ScheduledExports/ScheduledExports.png "[Orders]")
 
-[comment]: <> (Screenshot neu! Tabs fehlen)
 
 **Scheduled exports**
 
@@ -22,11 +21,13 @@
 - [x]     
   Select the checkbox to display the editing toolbar. If you click the checkbox in the header, all orders in the list are selected.
 
+[comment]: <> (Wenn keine Fehlermeldung in Error message Spalte angezeigt und Pending Status, kein Button in editing toolbar angezeigt, wenn nur ein checkbox ausgewählt. Bei zwei, button Retry import. Ist es so gewollt oder ein Bug? In der Doku beschreiben?)
+
 - [SHOW LOG]  
-  Click this button to display the details of the log message. This button is only displayed if a single checkbox in the list of scheduled exports is selected. The *Detail of log message "Log message title"* view is displayed, see [Detail of log message "Log message title"](#detail-of-log-message-log-message-name).
+  Click this button to display the details of the log message. This button is only displayed if a single checkbox in the list of scheduled exports is selected. The *Detail of log message "Log message title"* view is displayed, see [Detail of log message "Log message title"](#detail-of-log-message-log-message-title).
 
 - [RETRY EXPORT]  
-  Click this button to retry the selected scheduled export(s). This button is only displayed if the checkbox of at least one failed export is selected.
+  Click this button to retry the selected scheduled export(s). This button is only displayed if the checkbox of at least one scheduled export is selected.
 
 [comment]: <> (prüfen, ob irgendein pop-up window angezeigt wird.)
 
@@ -38,7 +39,7 @@ The list displays all scheduled exports. Depending on the settings, the displaye
 [comment]: <> (Stimmt das?)
 
 - *Error message*  
-  Error log message if an error has occurred. Select the checkbox of the corresponding row and click the [SHOW LOG] button in the editing toolbar to display further details to the error. If no error has occurred, the field is empty.
+  Error log message if an error has occurred. Select the checkbox of the corresponding row and click the [SHOW LOG] button in the editing toolbar to display further details to the error. If no error has occurred, this field is empty.
 
 - *Status*   
   Status of the scheduled export. The following options are available:
