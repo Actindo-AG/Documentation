@@ -12,8 +12,10 @@ Create the connection to an Amazon shop using the Amazon driver. Further setting
 #### Prerequisites
 
 - An Amazon seller account has been created.
-- All columns of the order reports must be activated in your Amazon seller account, see [Add or remove order report columns](https://sellercentral.amazon.de/order-reports-and-feeds/column-picker?source=/order-reports-and-feeds/reports/ref=xx_orderrpt_dnav_xx). The user must be logged into the Amazon seller account to access the link. 
-- A standard ship-from address must be set in your Amazon seller account, see [Set up a ship-from address](https://sellercentral.amazon.de/help/hub/reference/G201841320). The user must be logged into the Amazon seller account to access the link. 
+- All columns of the order reports must be activated in your Amazon seller account, see [Add or remove order report columns](https://sellercentral.amazon.de/order-reports-and-feeds/column-picker?source=/order-reports-and-feeds/reports/ref=xx_orderrpt_dnav_xx). 
+- A standard ship-from address must be set in your Amazon seller account, see [Set up a ship-from address](https://sellercentral.amazon.de/help/hub/reference/G201841320). 
+  > [Info] Make sure that you are logged in to your Amazon seller account to access the links above. 
+
 - The *Omni-Channel Amazon Integration* plugin has been installed. 
 
 > [Info] For the *Omni-Channel* module version 4.1.0 or higher, the *Omni-Channel Amazon Integration* plugin is required in at least version 4.0.0. 
@@ -36,10 +38,10 @@ Create the connection to an Amazon shop using the Amazon driver. Further setting
 
     ![Credentials](../../Assets/Screenshots/Channels/Settings/Connections/Amazon/Credentials.png "[Credentials]")
 
-4. In a new browser window, go to your Amazon Seller account and log in.   
+4. In a new browser window, go to your Amazon seller account and log in.   
   The amazon seller central start page is displayed.
 
-      ![Amazon seller account](../../Assets/Screenshots/Channels/Settings/Connections/Amazon/AmazonSellerAccount.png "[Amazon seller account]")
+    ![Amazon seller account](../../Assets/Screenshots/Channels/Settings/Connections/Amazon/AmazonSellerAccount.png "[Amazon seller account]")
 
 5. Click first the ![Settings](../../Assets/Icons/Settings03.png "[Settings]") (Settings) button in the upper right corner and then the *Account Info* menu entry.  
   The *Seller Account Information* window is displayed.
@@ -51,23 +53,25 @@ Create the connection to an Amazon shop using the Amazon driver. Further setting
 
     ![Merchant token](../../Assets/Screenshots/Channels/Settings/Connections/Amazon/MerchantToken.png "[Merchant token]")
 
+[comment]: <> (Dürfen wir den Merchant Token zeigen?)
+
 7. Copy the merchant token in the *Merchant token* field to your clipboard.
 
 8. Switch back to the *Actindo Core1 Platform* and paste the merchant token from your clipboard in the *Seller ID* field in the *Credentials* section.
 
 9. Click the [AUTHORIZE] button.  
-  You are automatically redirected to the *Authorize Actindo* window in your Amazon Seller account.
+  You are automatically redirected to the *Authorize Actindo* window in your Amazon seller account.
 
     ![Actindo authorization](../../Assets/Screenshots/Channels/Settings/Connections/Amazon/ActindoAuthorization.png "[Actindo authorization]")
 
-[comment]: <> (Überhaupt notwendig? Das ist nur möglich beim Erstellen der Verbidung. Johannes fragen oder einfach lassen?)
+[comment]: <> (SC überhaupt notwendig? Das ist nur möglich beim Erstellen der Verbindung. Johannes fragen oder einfach lassen?)
 
 10. Select the *I request Amazon to grant Actindo access to my seller account and the corresponding data. I am responsible for all measures that may be taken by this application.* checkbox and click the [Confirm] button.    
   The *We authorize Actindo to access your seller details.* notice is displayed. As soon as the authorization has been completed, you are redirected to the *Actindo Core1 Platform*. If the authorization has been successful, the *Access token* field is filled in.
 
     ![Access token](../../Assets/Screenshots/Channels/Settings/Connections/Amazon/AccessToken.png "[Access token]")
 
-[comment]: <> (Überhaupt notwendig? Das ist nur möglich beim Erstellen der Verbidung. Johannes fragen oder einfach lassen?)
+[comment]: <> (Dürfen wir den Access Token zeigen?)
 
 11. Click the *Amazon marketplace* drop-down list and select the applicable marketplace.
     > [Info] Once the connection has been saved, the selected marketplace cannot be changed.
@@ -81,7 +85,7 @@ Create the connection to an Amazon shop using the Amazon driver. Further setting
 
   ![Amazon connection](../../Assets/Screenshots/Channels/Settings/Connections/Amazon/Connection.png "[Amazon connection]")
 
-13. If necessary, continue to [Configure the Amazon connection](#configure-the-amazon-connection).
+13. If necessary, continue to configure the Amazon connection, see [Configure the Amazon connection](#configure-the-amazon-connection).
 
 
 ## Configure the Amazon connection   
@@ -101,27 +105,26 @@ An Amazon connection has been established, see [Create an Amazon connection](#cr
 1. Click the Amazon connection in the list of connections.   
   The *Edit connection* view is displayed. By default, the *Credentials* tab is selected.
 
-    ![Edit connection credentials](../../Assets/Screenshots/Channels/Settings/Connections/Amazon/Credentials.png "[Edit connection credentials]")
+    ![Edit connection Credentials](../../Assets/Screenshots/Channels/Settings/Connections/Amazon/EditConnectionCredentials.png "[Edit connection Credentials]")
 
 2. Click the *Settings* tab.   
-  The *Settings* tab is displayed. By default, the *Offers* settings are selected. By default, the *Apply from default* toggle is enabled and all fields are locked.    
+  The *Settings* tab is displayed. By default, the *Offers* menu entry in the left side bar is selected and the offer settings are displayed on the right side.    
 
-3. If necessary, disable the *Apply from default* toggle.  By default, the toggle is enabled.
+    ![Offers](../../Assets/Screenshots/Channels/Settings/Connections/Amazon/Settings_Offers.png "[Offers]")
+
+3. If necessary, disable the *Apply from default* toggle. By default, the toggle is enabled.
   The *Update stock for 'Fulfillment by Amazon (FBA)' offers* toggle is unlocked.
 
 4. Enable the *Update stock for 'Fulfillment by Amazon (FBA)' offers* toggle to manage the stock also via Actindo. It is recommended to leave this toggle disabled, since Amazon manages the stock for FBA offers.
 
-    ![Offers](../../Assets/Screenshots/Channels/Settings/Connections/Amazon/Settings_Offers.png "[Offers]")
-
 5. Click the *Order import* menu entry in the left side bar.    
-  The *Order import* settings are displayed on the right side.    
+  The order import settings are displayed on the right side.    
 
     ![Order import](../../Assets/Screenshots/Channels/Settings/Connections/Amazon/Settings_OrderImport.png "[Order import]")
 
 6. Configure the following settings:
 
-    + Enable the toggles of all orders you want to import in the *'Merchant Fulfilled Network' (MFN) orders* section. The following import options are available:
-
+    + Enable the toggles of all orders you want to import in the *'Merchant Fulfilled Network' (MFN) orders* section. The following options are available:
         - *Import 'Merchant Fulfilled Network' (MFN) orders.*
         - *Import 'Prime by Merchant' orders.* 
          
@@ -133,22 +136,22 @@ An Amazon connection has been established, see [Create an Amazon connection](#cr
     
     + Enable or disable the *Is the VAT calculation services (VCS) enabled?* toggle to specify if this feature is active in Amazon. If the VCS is disabled, the prices in the FBA reports are gross, if the VCS is enabled, the prices are net. 
     
-      > [Info] To check or modify the status of the VCS in the Amazon seller account, see [VAT calculation services](https://sellercentral.amazon.de/tax/settings/summary).
-     
+      > [Info] To check or modify the status of the VCS in the Amazon seller account, see [VAT calculation services](https://sellercentral.amazon.de/tax/settings/summary). Make sure that you are logged in to your Amazon seller account to access the link above. 
+
     + If desired, click the ![Calendar](../../Assets/Icons/Calendar.png "[Calendar]") (Calendar) button in the  *Import FBA orders from* field and select a date from which to import the orders. Alternatively, enter directly a date in the field. The valid date format is DD.MM.YYYY. If no date is selected, the orders of the last 90 days are automatically imported.
 
     + Click the *Packing station address layout* drop-down list in the *Addresses* section and select the position of the customer number if you use a packing station as address. The following options are available:  
         - **Customer number in address line**
         - **Customer number in company** 
     
-      > [Info] The orders are imported from Amazon via order reports. As only a limited of reports can be imported simultaneously, it may take some time to import a greater number of orders. Further, for each order to be imported, two order reports must be retrieved. Therefore, the order status is always **Not imported** after the first order report has been retrieved and changes to **Order complete** as soon as the second order reports has been retrieved. This retrieval may take some time.         
+    > [Info] The orders are imported from Amazon via order reports. As only a limited of reports can be imported simultaneously, it may take some time to import a greater number of orders. Further, for each order to be imported, two order reports must be retrieved. Therefore, the order status is always **Not imported** after the first order report has been retrieved and changes to **Order complete** as soon as the second order report has been retrieved. This retrieval may take some time.         
 
 7. Click the *Order export/invoice upload* menu entry in the left side bar.    
-  The *Order export/invoice upload* settings are displayed on the right side. By default, the *Apply from default* toggle is enabled and all fields are locked.    
+  The order export and invoice upload settings are displayed on the right side.    
 
     ![Order export/invoice upload](../../Assets/Screenshots/Channels/Settings/Connections/Amazon/Settings_OrderExport.png "[Order export/invoice upload]")
 
-8. If necessary, disable the *Apply from default* toggle.    
+8. If necessary, disable the *Apply from default* toggle. By default, the toggle is enabled.  
 All checkboxes are unlocked.
 
 9. Configure the following settings:
@@ -158,24 +161,24 @@ All checkboxes are unlocked.
     + Select the checkboxes of all marketplaces for whose orders you want to export the invoices in the *Export invoices* section. You can specify the marketplaces for B2B orders in the *B2B orders* section and for B2C orders in the *B2B orders* section. All available marketplaces from Amazon are displayed in the list.
 
 10. Click the *Shipping provider mapping* menu entry in the left side bar.    
-  The *Shipping provider mapping* settings are displayed on the right side. All shipping methods offered by Amazon are displayed in the *AmazonShipOption* section.   
+  The shipping provider mapping settings with all shipping options offered by Amazon are displayed on the right side.
 
     ![Shipping provider mapping](../../Assets/Screenshots/Channels/Settings/Connections/Amazon/Settings_ShippingProviderMapping.png "[Shipping provider mapping]")
 
-11. Click the first *UCS shipping provider* drop-down list for the default shipping provider in the *Assigned shipping provider* section and select the applicable shipping provider. All available shipping providers are displayed in the list. The default shipping provider is used a fallback shipping provider for all shipping options that have no shipping provider assigned.
+11. Click the *UCS shipping provider* drop-down list for the default shipping option in the *Assigned shipping provider* column and select the applicable shipping provider. All available shipping providers are displayed in the list.   
+ 
+    > [Info] The default shipping provider is used a fallback shipping provider for all shipping options that have no shipping provider assigned.
 
-    > [Info] The shipping providers can be set up in the *Order management* module: *Order management > Settings > Tab SHIPPING PROVIDER*.
+12. Click the *UCS shipping provider* drop-down list for each shipping option in the *Assigned shipping provider* column and select the applicable shipping provider. All available shipping providers are displayed in the list. If no shipping provider is selected, the default shipping provider applies.
 
-12. Click the *UCS shipping provider* drop-down list for each shipping option in the *Assigned shipping provider* section and select the applicable shipping provider. All available shipping providers are displayed in the list. If no shipping provider is selected, the default shipping provider applies.
-
-    > [Info] You have to save the changes and synchronize the connection to apply the settings.
+    > [Info] The shipping providers are set up in the *Order management* module: *Order management > Settings > Tab SHIPPING PROVIDER*.
 
 13. Click the [SAVE] button.  
   All changes have been saved. The *Saving successful* pop-up window is displayed.
 
     ![Saving successful](../../Assets/Screenshots/Channels/Settings/Connections/SavingSuccessful.png "[Saving successful]")
 
-14. If the shipping provider mapping has been modified, synchronize the connection to update the ETL mapping, see [Synchronize a connection](../Integration/01_ManageConnections.md#synchronize-a-connection).    
+14. If the shipping provider mapping has been modified, synchronize the connection to apply all changes to the mapping, see [Synchronize a connection](../Integration/01_ManageConnections.md#synchronize-a-connection).    
   The *Sync triggered* pop-up window is displayed.
 
     ![Sync triggered](../../Assets/Screenshots/Channels/Settings/Connections/SyncTriggered.png "[Sync triggered]")

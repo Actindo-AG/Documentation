@@ -9,13 +9,13 @@ To establish a connection to a Shopware 6 shop, there are several particularitie
 
 Create the connection to a Shopware 6 shop using the Shopware 6 driver. Further settings can only be configured after the connection has been established.
 
-Be aware that, before a Shopware 6 connection can be established in the *Actindo Core1 Platform*, the corresponding integration must be created in Shopware 6. Besides, all languages configured in Shopware 6 must be available in the *DataHub* module. Otherwise, an error is displayed when trying to create the connection in the *Actindo Core1 Platform*. The connection creation is then cancelled.
+Be aware that, before a Shopware 6 connection can be established in the *Actindo Core1 Platform*, the corresponding integration must be created in Shopware 6. Besides, all languages configured in Shopware 6 must be available in the *DataHub* module. Otherwise, an error is displayed when trying to create the connection in the *Actindo Core1 Platform* and the connection creation is cancelled.
 
 #### Prerequisites
 
 - A Shopware 6 account has been created.
 - The *Shopware 6* plugin has been installed.  
-- All languages configured in the Shopware 6 account have also been created in the *DataHub* module, see [Create a language](../../DataHub/Integration/05_ManageLanguages.md#create-a-language). 
+- All languages configured in the Shopware 6 account have been created in the *DataHub* module, see [Create a language](../../DataHub/Integration/05_ManageLanguages.md#create-a-language). 
 
 > [Info] For the *Omni-Channel* module version 4.1.0 or higher, the *Shopware 6* plugin is required in at least version 4.0.0.
 
@@ -63,7 +63,7 @@ Be aware that, before a Shopware 6 connection can be established in the *Actindo
 12. Switch to the *Actindo Core1 Platform* and click the [SAVE] button.  
   The connection has been created. The *CONNECTIONS* tab in the *Settings* menu entry of the *Omni-Channel* module is displayed when the connection has been established. The *Shopware 6* connection is displayed in the list of connections.
 
-     ![Shopware 6 connection](../../Assets/Screenshots/Channels/Settings/Connections/Shopware6/Connection.png "[Shopware 6]")
+    ![Shopware 6 connection](../../Assets/Screenshots/Channels/Settings/Connections/Shopware6/Connection.png "[Shopware 6]")
 
 13. If necessary, continue to configure the Shopware 6 connection settings, see [Configure the Shopware 6 connection](#configure-the-shopware-6-connection).
 
@@ -88,11 +88,11 @@ A Shopware 6 connection has been established, see [Create a Shopware 6 connectio
     ![Edit connection credentials](../../Assets/Screenshots/Channels/Settings/Connections/Shopware6/Credentials.png "[Edit connection credentials]")
 
 2. Click the *Settings* tab.   
-  The *Settings* tab is displayed. By default, the *Default language* menu entry is selected.
+  The *Settings* tab is displayed. By default, the *Default language* menu entry is selected. If not, click the the *Default language* menu entry in the left side bar to display the default language settings on the right side.
   
     ![Default language settings](../../Assets/Screenshots/Channels/Settings/Connections/Shopware6/Settings_Language.png "[Default language settings]")
 
-3. In the *Default language* settings, click the *Select Shopware default language* drop-down list and select the appropriate language. The languages available in the *Actindo Core1 Platform* are displayed in the drop-down list.  
+3. Click the *Select Shopware default language* drop-down list and select the appropriate language. All languages available in the *DataHub* module are displayed in the list.  
 
     > [Info] In Shopware 6 there is a standard language, which is configured during the installation and cannot be subsequently edited. The standard language cannot be detected via API and must be therefore manually configured in the *Actindo Core1 Platform* after the connection has been established. When uploading products, Shopware 6 requires some fields to be filled for the standard language. 
 
@@ -127,17 +127,30 @@ A Shopware 6 connection has been established, see [Create a Shopware 6 connectio
     > [Info] The *Ratepay* menu entry is only displayed if the *Ratepay Integration for Shopware 6* plugin has been installed in your *Actindo Core1 Platform* and the *Ratepay Payment Plugin for Shopware 6* has been installed in your Shopware 6 account.
   
 9. If desired, enable the *Enable Ratepay integration for this connection* toggle.  
-
-    > [Info] The *Ratepay Payment Plugin for Shopware 6* imports the additional fields *transactionId* and *descriptor* from shop for further processing. 
+  The *Ratepay Payment Plugin for Shopware 6* imports the following additional fields from the shop for further processing:   
+    - *transactionId*   
+    - *descriptor*    
     
 10. If available, click the *Klarna* menu entry in the left side bar.  
   The Klarna settings are displayed on the right side.
 
     > [Info] The *Klarna* menu entry is only displayed if the *Klarna Integration for Shopware 6* plugin has been installed in your *Actindo Core1 Platform* and the *Klarna Payment Plugin for Shopware 6* has been installed in your Shopware 6 account.
 
-11. If desired, enable the *Enable Klarna plugin integration for this connection* toggle.  
-  
-    > [Info] The *Klarna integration for Shopware 6* plugin imports the additional fields *captured_amount*, *currency*, *decimal_precision*, *expiry_date*, *fraud_status*, *initial_payment_method*, *order_amount*, *order_id*, *order_number*, *order_status*, *reference*, *refunded_amount*, and *remaining_amount* from shop for further processing.  
+11. If desired, enable the *Enable Klarna plugin integration for this connection* toggle.    
+  The *Klarna integration for Shopware 6* plugin imports the following additional fields from the shop for further processing:
+    - *captured_amount*
+    - *currency*
+    - *decimal_precision*
+    - *expiry_date*
+    - *fraud_status*
+    - *initial_payment_method*
+    - *order_amount* 
+    - *order_id* 
+    - *order_number* 
+    - *order_status* 
+    - *reference* 
+    - *refunded_amount*
+    - *remaining_amount*  
 
 12. Click the *Price rules* menu entry in the left side bar.  
   The price rule settings are displayed on the right side.
@@ -150,4 +163,3 @@ A Shopware 6 connection has been established, see [Create a Shopware 6 connectio
   All changes have been saved. The *Saving successful* pop-up window is displayed.
 
     ![Saving successful](../../Assets/Screenshots/Channels/Settings/Connections/SavingSuccessful.png "[Saving successful]")
-
