@@ -88,7 +88,7 @@ The list displays all offer imports. Depending on the settings, the displayed co
 
 ## Detail of log message "Log message title"
 
-*Omni-Channel > Offer import > Tab OFFER IMPORT > Select chceckbox of a faulty import > Button DETAILS*
+*Omni-Channel > Offer import > Tab OFFER IMPORT > Select checkbox of a faulty import > Button DETAILS*
 
 ![Detail of log message](../../Assets/Screenshots/Channels/OfferImport/OfferImport/DetailLogMessage.png "[Detail of log message]")
 
