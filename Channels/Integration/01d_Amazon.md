@@ -29,29 +29,29 @@ Create the connection to an Amazon shop using the Amazon driver. Further setting
 1. Click the ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) button in the bottom right corner.    
   The *Create connection* view is displayed.
 
-    ![Create connection](../../Assets/Screenshots/Channels/Settings/Connections/CreateConnection.png "[Create connection]")
+  ![Create connection](../../Assets/Screenshots/Channels/Settings/Connections/CreateConnection.png "[Create connection]")
 
 2. Enter a name for the connection in the *Name* field.
 
 3. Click the *Driver* drop-down list and select the *Amazon* driver.  
   The *Credentials* section is displayed below the drop-down list.  
 
-    ![Credentials](../../Assets/Screenshots/Channels/Settings/Connections/Amazon/Credentials.png "[Credentials]")
+  ![Credentials](../../Assets/Screenshots/Channels/Settings/Connections/Amazon/Credentials.png "[Credentials]")
 
 4. In a new browser window, go to your Amazon seller account and log in.   
   The amazon seller central start page is displayed.
 
-    ![Amazon seller account](../../Assets/Screenshots/Channels/Settings/Connections/Amazon/AmazonSellerAccount.png "[Amazon seller account]")
+  ![Amazon seller account](../../Assets/Screenshots/Channels/Settings/Connections/Amazon/AmazonSellerAccount.png "[Amazon seller account]")
 
 5. Click first the ![Settings](../../Assets/Icons/Settings03.png "[Settings]") (Settings) button in the upper right corner and then the *Account Info* menu entry.  
   The *Seller Account Information* window is displayed.
 
-    ![Seller account information](../../Assets/Screenshots/Channels/Settings/Connections/Amazon/SellerAccountInformation.png "[Seller account information]")
+  ![Seller account information](../../Assets/Screenshots/Channels/Settings/Connections/Amazon/SellerAccountInformation.png "[Seller account information]")
 
 6. Click the [Your Merchant Token] button in the *Business Information* section.  
   The *Merchant Token* window is displayed.
 
-    ![Merchant token](../../Assets/Screenshots/Channels/Settings/Connections/Amazon/MerchantToken.png "[Merchant token]")
+  ![Merchant token](../../Assets/Screenshots/Channels/Settings/Connections/Amazon/MerchantToken.png "[Merchant token]")
 
 [comment]: <> (Dürfen wir den Merchant Token zeigen?)
 
@@ -62,14 +62,14 @@ Create the connection to an Amazon shop using the Amazon driver. Further setting
 9. Click the [AUTHORIZE] button.  
   You are automatically redirected to the *Authorize Actindo* window in your Amazon seller account.
 
-    ![Actindo authorization](../../Assets/Screenshots/Channels/Settings/Connections/Amazon/ActindoAuthorization.png "[Actindo authorization]")
+  ![Actindo authorization](../../Assets/Screenshots/Channels/Settings/Connections/Amazon/ActindoAuthorization.png "[Actindo authorization]")
 
 [comment]: <> (SC überhaupt notwendig? Das ist nur möglich beim Erstellen der Verbindung. Johannes fragen oder einfach lassen?)
 
 10. Select the *I request Amazon to grant Actindo access to my seller account and the corresponding data. I am responsible for all measures that may be taken by this application.* checkbox and click the [Confirm] button.    
   The *We authorize Actindo to access your seller details.* notice is displayed. As soon as the authorization has been completed, you are redirected to the *Actindo Core1 Platform*. If the authorization has been successful, the *Access token* field is filled in.
 
-    ![Access token](../../Assets/Screenshots/Channels/Settings/Connections/Amazon/AccessToken.png "[Access token]")
+  ![Access token](../../Assets/Screenshots/Channels/Settings/Connections/Amazon/AccessToken.png "[Access token]")
 
 [comment]: <> (Dürfen wir den Access Token zeigen?)
 
@@ -79,11 +79,11 @@ Create the connection to an Amazon shop using the Amazon driver. Further setting
 12. Click the [SAVE] button.  
   The *Checking credentials* notice is displayed. The connection will be established and the synchronization is triggered. The *Sync triggered* pop-up window is displayed.  
 
-    ![Sync triggered](../../Assets/Screenshots/Channels/Settings/Connections/SyncTriggered.png "[Sync triggered]")
+  ![Sync triggered](../../Assets/Screenshots/Channels/Settings/Connections/SyncTriggered.png "[Sync triggered]")
 
    The *CONNECTIONS* tab in the *Settings* menu entry of the *Omni-Channel* module is displayed when the connection has been established. The *Amazon* connection is displayed in the list of connections.
 
-    ![Amazon connection](../../Assets/Screenshots/Channels/Settings/Connections/Amazon/Connection.png "[Amazon connection]")
+  ![Amazon connection](../../Assets/Screenshots/Channels/Settings/Connections/Amazon/Connection.png "[Amazon connection]")
 
 13. If necessary, continue to configure the Amazon connection, see [Configure the Amazon connection](#configure-the-amazon-connection).
 
@@ -105,12 +105,12 @@ An Amazon connection has been established, see [Create an Amazon connection](#cr
 1. Click the Amazon connection in the list of connections.   
   The *Edit connection* view is displayed. By default, the *Credentials* tab is selected.
 
-    ![Edit connection Credentials](../../Assets/Screenshots/Channels/Settings/Connections/Amazon/EditConnectionCredentials.png "[Edit connection Credentials]")
+  ![Edit connection Credentials](../../Assets/Screenshots/Channels/Settings/Connections/Amazon/EditConnectionCredentials.png "[Edit connection Credentials]")
 
 2. Click the *Settings* tab.   
   The *Settings* tab is displayed. By default, the *Offers* menu entry in the left side bar is selected and the offer settings are displayed on the right side.    
 
-    ![Offers](../../Assets/Screenshots/Channels/Settings/Connections/Amazon/Settings_Offers.png "[Offers]")
+  ![Offers](../../Assets/Screenshots/Channels/Settings/Connections/Amazon/Settings_Offers.png "[Offers]")
 
 3. If necessary, disable the *Apply from default* toggle. By default, the toggle is enabled.
   The *Update stock for 'Fulfillment by Amazon (FBA)' offers* toggle is unlocked.
@@ -120,7 +120,7 @@ An Amazon connection has been established, see [Create an Amazon connection](#cr
 5. Click the *Order import* menu entry in the left side bar.    
   The order import settings are displayed on the right side.    
 
-    ![Order import](../../Assets/Screenshots/Channels/Settings/Connections/Amazon/Settings_OrderImport.png "[Order import]")
+  ![Order import](../../Assets/Screenshots/Channels/Settings/Connections/Amazon/Settings_OrderImport.png "[Order import]")
 
 6. Configure the following settings:
 
@@ -164,7 +164,7 @@ All checkboxes are unlocked.
 10. Click the *Shipping provider mapping* menu entry in the left side bar.    
   The shipping provider mapping settings with all shipping options offered by Amazon are displayed on the right side.
 
-    ![Shipping provider mapping](../../Assets/Screenshots/Channels/Settings/Connections/Amazon/Settings_ShippingProviderMapping.png "[Shipping provider mapping]")
+  ![Shipping provider mapping](../../Assets/Screenshots/Channels/Settings/Connections/Amazon/Settings_ShippingProviderMapping.png "[Shipping provider mapping]")
 
 11. Click the *UCS shipping provider* drop-down list for the default shipping option in the *Assigned shipping provider* column and select the applicable shipping provider. All available shipping providers are displayed in the list.   
  
@@ -177,9 +177,9 @@ All checkboxes are unlocked.
 13. Click the [SAVE] button.  
   All changes have been saved. The *Saving successful* pop-up window is displayed.
 
-    ![Saving successful](../../Assets/Screenshots/Channels/Settings/Connections/SavingSuccessful.png "[Saving successful]")
+  ![Saving successful](../../Assets/Screenshots/Channels/Settings/Connections/SavingSuccessful.png "[Saving successful]")
 
 14. If the shipping provider mapping has been modified, synchronize the connection to apply all changes to the mapping, see [Synchronize a connection](../Integration/01_ManageConnections.md#synchronize-a-connection).    
   The *Sync triggered* pop-up window is displayed.
 
-    ![Sync triggered](../../Assets/Screenshots/Channels/Settings/Connections/SyncTriggered.png "[Sync triggered]")
+  ![Sync triggered](../../Assets/Screenshots/Channels/Settings/Connections/SyncTriggered.png "[Sync triggered]")
