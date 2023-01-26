@@ -35,6 +35,7 @@ Create the connection to a Magento 2 shop using the Magento 2 driver. Further se
 3. Click the *Driver* drop-down list and select the *Magento 2* driver.  
   The *Credentials* section is displayed below the drop-down list.
 
+    ![Create connection](../../Assets/Screenshots/Channels/Settings/Connections/Magento2/CreateConnectionCredentials.png "[Create connection]")
 4. Enter the Magento 2 shop URL in the *URL* field.
 
 5. Enter the username in the *Username* field.
@@ -54,7 +55,7 @@ Create the connection to a Magento 2 shop using the Magento 2 driver. Further se
 
   The *CONNECTIONS* tab in the *Settings* menu entry of the *Omni-Channel* module is displayed when the connection has been established. The *Magento 2* connection is displayed in the list of connections.
 
-  ![Magento 2 connection](../../Assets/Screenshots/Channels/Settings/Connections/Magento/Connection.png "[Magento 2 connection]")	
+  ![Magento 2 connection](../../Assets/Screenshots/Channels/Settings/Connections/Magento2/Connections.png "[Magento 2 connection]")	
 
 9. If necessary, continue to [Configure the Magento 2 connection](#configure-the-Magento-2-connection).
 
@@ -72,22 +73,24 @@ A Magento 2 connection has been established.
 
 *Omni-Channel > Settings > Tab CONNECTIONS*
 
-![Magento 2 connection](../../Assets/Screenshots/Channels/Settings/Connections/Magento2/Connection.png "[Magento 2 connection]")
+![Magento 2 connection](../../Assets/Screenshots/Channels/Settings/Connections/Magento2/Connections.png "[Magento 2 connection]")	
 
 1. Click the Magento 2 connection in the list of connections.   
   The *Edit connection* view is displayed. By default, the *Credentials* tab is selected.
 
-  ![Edit connection credentials](../../Assets/Screenshots/Channels/Settings/Connections/Magento2/EditConnectionCredentials.png "[Edit connection credentials]")
+    ![Edit connection credentials](../../Assets/Screenshots/Channels/Settings/Connections/Magento2/EditConnectionCredentials.png "[Edit connection credentials]")
 
 2. Click the *Settings* tab.   
   The *Settings* tab is displayed. By default, the *Store view languages* setting is selected.
 
-  ![Edit connection settings](../../Assets/Screenshots/Channels/Settings/Connections/Magento2/EditConnectionSettings.png "[Edit connection settings]")
+    ![Settings store view languages](../../Assets/Screenshots/Channels/Settings/Connections/Magento2/EditConnectionSettings_StoreviewLanguages.png "[Settings store view languages]")
 
 3. Click the *Store view* drop-down list and select the language in which the products will be uploaded to the store. All available languages are displayed in the list.    
    
 4. Click the *Order states* menu entry in the left side bar.  
   The order states settings are displayed on the right side.  
+
+    ![Settings order states](../../Assets/Screenshots/Channels/Settings/Connections/Magento2/EditConnectionSettings_OrderStates.png "[Settings order states]")
 
 5. Configure the following settings to filter the orders to be imported in the *Filter orders to import* section:   
     
@@ -125,11 +128,15 @@ A Magento 2 connection has been established.
     
 8. Click the *Tax classes* menu entry in the left side bar.  
   All tax classes available in the *Actindo Core1 Platform* are displayed on the right side.
+  
+    ![Settings tax classes](../../Assets/Screenshots/Channels/Settings/Connections/Magento2/EditConnectionSettings_TaxClasses.png "[Settings tax classes]")
 
 9. Click the *Select Magento 2 tax class for Core1 tax class* drop-down list and select the applicable Magento tax class. All tax classes available in Magento 2 are displayed in the list. Repeat this step for all displayed tax classes.
 
 10. Click the *Global default language for Magento 2* menu entry in the left side bar.  
   The *Select global default language for Magento backend* section is displayed on the right side.
+
+    ![Settings global default language for Magento 2](../../Assets/Screenshots/Channels/Settings/Connections/Magento2/EditConnectionSettings_GlobalDefaultLanguageMagento2.png "[Settings global default language for Magento 2]")
 
 11. Click the *Select Core1 language to be set as default* drop-down list and select the appropriate language. All languages available in the *Actindo Core1 Platform* are displayed. If necessary, a language can be added in the *DataHub* module, see [Create a language](../../DataHub/Integration/05_ManageLanguages.md#create-a-language). 
 
@@ -138,10 +145,14 @@ A Magento 2 connection has been established.
 12. Click the *Image handling* menu entry in the left side bar.  
   All available image attributes available in the Magento 2 gallery are displayed on the right side.
 
+    ![Settings image handling](../../Assets/Screenshots/Channels/Settings/Connections/Magento2/EditConnectionSettings_ImageHandling.png "[Settings image handling]")
+
 13. Enable all toggles of the image attributes whose images you want to be hidden in the Magento 2 gallery. 
 
 14. Click the *Image name* menu entry in the left side bar.  
   The *Image name* settings are displayed are displayed on the right side.
+
+    ![Settings image name](../../Assets/Screenshots/Channels/Settings/Connections/Magento2/EditConnectionSettings_ImageName.png "[Settings image name]")
 
 15. Disable the *Apply from default* toggle to configure how the image names should be customized before uploading to the Magento 2 shop. Otherwise, the default setting is applied, that is, a randomly generated image name will be uploaded to the Magento 2 shop.   
   The *Use ECM image name* toggle and the *Regular expressions* field are unlocked.

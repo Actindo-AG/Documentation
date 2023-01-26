@@ -55,7 +55,7 @@ All necessary credentials to establish the connection are provided when an accou
 
     The *CONNECTIONS* tab in the *Settings* menu entry of the *Omni-Channel* module is displayed when the connection has been established. The *Tradebyte* connection is displayed in the list of connections.
 
-    ![Tradebyte connection](../../Assets/Screenshots/Channels/Settings/Connections/Tradebyte/Connection.png "[Tradebyte connection]")	
+    ![Tradebyte connection](../../Assets/Screenshots/Channels/Settings/Connections/Tradebyte/Connections.png "[Tradebyte connection]")	
 
 10. If necessary, continue to configure the Tradebyte connection, see [Configure the Tradebyte connection](#configure-the-Tradebyte-connection).
 
@@ -72,7 +72,7 @@ A Tradebyte connection has been established.
 
 *Omni-Channel > Settings > Tab CONNECTIONS*
 
-![Tradebyte connection](../../Assets/Screenshots/Channels/Settings/Connections/Tradebyte/Connection.png "[Tradebyte connection]")
+![Tradebyte connection](../../Assets/Screenshots/Channels/Settings/Connections/Tradebyte/Connections.png "[Tradebyte connection]")
 
 1. Click the Tradebyte connection in the list of connections.   
   The *Edit connection* view is displayed. By default, the *Credentials* tab is selected.
@@ -82,14 +82,14 @@ A Tradebyte connection has been established.
 2. Click the *Settings* tab.   
   The *Settings* tab is displayed. By default, the *Selected sales channels* settings are selected. 
 
-    ![Settings selected sales channels](../../Assets/Screenshots/Channels/Settings/Connections/Tradebyte/Settings_SelectedSalesChannels.png "[Settings selected sales channels]")
+    ![Settings selected sales channels](../../Assets/Screenshots/Channels/Settings/Connections/Tradebyte/EditConnectionSettings_SelectedSalesChannels.png "[Settings selected sales channels]")
 
 3. Select the checkboxes of the sales channels you want to activate.  
 
 4. Click the *Enable languages* menu entry in the left side bar.  
   The language settings are displayed on the right side. 
 
-    ![Settings enable languages](../../Assets/Screenshots/Channels/Settings/Connections/Tradebyte/Settings_EnableLanguages.png "[Settings enable languages]")
+    ![Settings enable languages](../../Assets/Screenshots/Channels/Settings/Connections/Tradebyte/EditConnectionSettings_EnableLanguages.png "[Settings enable languages]")
 
 5. Enable the toggles of the languages you want to maintain in the *Actindo Core1 Platform*. All languages available in Tradebyte are displayed.
 
