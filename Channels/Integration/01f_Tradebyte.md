@@ -34,6 +34,8 @@ All necessary credentials to establish the connection are provided when an accou
 3. Click the *Driver* drop-down list and select the *Tradebyte* driver.  
   The *Credentials* section is displayed below the drop-down list.
 
+    ![Create connection](../../Assets/Screenshots/Channels/Settings/Connections/Tradebyte/CreateConnectionCredentials.png "[Create connection]")
+
 4. Enter the merchant number in the *Merchant number* field.
 
 5. Enter the shop name in the *Shop name* field.
@@ -75,7 +77,7 @@ A Tradebyte connection has been established.
 1. Click the Tradebyte connection in the list of connections.   
   The *Edit connection* view is displayed. By default, the *Credentials* tab is selected.
 
-    ![Edit connection credentials](../../Assets/Screenshots/Channels/Settings/Connections/Tradebyte/Credentials.png "[Edit connection credentials]")
+    ![Edit connection credentials](../../Assets/Screenshots/Channels/Settings/Connections/Tradebyte/EditConnectionCredentials.png "[Edit connection credentials]")
 
 2. Click the *Settings* tab.   
   The *Settings* tab is displayed. By default, the *Selected sales channels* settings are selected. 
