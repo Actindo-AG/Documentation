@@ -23,31 +23,31 @@ Be aware that, before a Shopware 6 connection can be established in the *Actindo
 
 *Omni-Channel > Settings > Tab CONNECTIONS*
 
-![Connection](../../Assets/Screenshots/Channels/Settings/Connections/Connection.png "[Connection]")
+![Connections](../../Assets/Screenshots/Channels/Settings/Connections/Connection.png "[Connections]")
 
 1. Click the ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) button in the bottom right corner.    
   The *Create connection* view is displayed.
 
-  ![Create connection](../../Assets/Screenshots/Channels/Settings/Connections/CreateConnection.png "[Create connection]")
+    ![Create connection](../../Assets/Screenshots/Channels/Settings/Connections/CreateConnection.png "[Create connection]")
 
 2. Enter a name for the connection in the *Name* field.
 
 3. Click the *Driver* drop-down list and select the *Shopware 6* driver.  
   The *Credentials* section is displayed below the drop-down list.
 
-  ![Create connection credentials](../../Assets/Screenshots/Channels/Settings/Connections/Shopware6/Credentials.png "[Create connection credentials]")
+    ![Create connection credentials](../../Assets/Screenshots/Channels/Settings/Connections/Shopware6/CreateConnectionCredentials.png "[Create connection credentials]")
 
 4. Enter the shop URL in the *URL* field.  
 
 5. In a new browser window, go to your Shopware 6 account and log in.  
   The Shopware 6 dashboard is displayed.
 
-  ![Shopware 6 dashboard](../../Assets/Screenshots/Channels/Settings/Connections/Shopware6/Dashboard.png "[Shopware 6 dashboard]")
+    ![Shopware 6 dashboard](../../Assets/Screenshots/Channels/Settings/Connections/Shopware6/Dashboard.png "[Shopware 6 dashboard]")
 
 6. In the Shopware 6 backend, go to *Settings > System > Integrations* and click the [Add integration] button in the top right corner.  
   The *Create integration* window is displayed.
 
-  ![Create integration](../../Assets/Screenshots/Channels/Settings/Connections/Shopware6/CreateIntegration.png "[Create integration]")
+    ![Create integration](../../Assets/Screenshots/Channels/Settings/Connections/Shopware6/CreateIntegration.png "[Create integration]")
 
 7. Enter a name for the integration in the *Name* field and enable the *Administrator* toggle.
 
@@ -57,15 +57,17 @@ Be aware that, before a Shopware 6 connection can be established in the *Actindo
   
 10. Repeat the steps **8** and **9** for the secret access key in the *Secret access key* field.
 
+    ![Create connection credentials complete](../../Assets/Screenshots/Channels/Settings/Connections/Shopware6/CreateConnectionCredentialsComplete.png "[Create connection credentials complete]")
+
 11. Switch to your Shopware 6 account and click the [Save integration] button.  
   The integration is saved. The *Success* pop-up window is displayed.
 
-  ![Integration saved](../../Assets/Screenshots/Channels/Settings/Connections/Shopware6/IntegrationSaved.png "[Integration saved]")
+    ![Integration saved](../../Assets/Screenshots/Channels/Settings/Connections/Shopware6/IntegrationSaved.png "[Integration saved]")
 
 12. Switch to the *Actindo Core1 Platform* and click the [SAVE] button.  
   The connection has been created. The *CONNECTIONS* tab in the *Settings* menu entry of the *Omni-Channel* module is displayed when the connection has been established. The *Shopware 6* connection is displayed in the list of connections.
 
-  ![Shopware 6 connection](../../Assets/Screenshots/Channels/Settings/Connections/Shopware6/Connection.png "[Shopware 6]")
+    ![Shopware 6 connection](../../Assets/Screenshots/Channels/Settings/Connections/Shopware6/Connections.png "[Shopware 6 connection]")
 
 13. If necessary, continue to configure the Shopware 6 connection settings, see [Configure the Shopware 6 connection](#configure-the-shopware-6-connection).
 
@@ -82,17 +84,17 @@ A Shopware 6 connection has been established, see [Create a Shopware 6 connectio
 
 *Omni-Channel > Settings > Tab CONNECTIONS*
 
-![Shopware 6 connection](../../Assets/Screenshots/Channels/Settings/Connections/Shopware6/Connection.png "[Shopware 6 connection]")
+![Shopware 6 connection](../../Assets/Screenshots/Channels/Settings/Connections/Shopware6/Connections.png "[Shopware 6 connection]")
 
 1. Click the Shopware 6 connection in the list of connections.   
   The *Edit connection* view is displayed. By default, the *Credentials* tab is selected.
 
-  ![Edit connection](../../Assets/Screenshots/Channels/Settings/Connections/Shopware6/EditConnection.png "[Edit connection]")
+    ![Edit connection credentials](../../Assets/Screenshots/Channels/Settings/Connections/Shopware6/EditConnectionCredentials.png "[Edit connection credentials]")
 
 2. Click the *Settings* tab.   
   The *Settings* tab is displayed. By default, the *Default language* menu entry is selected.
   
-  ![Default language settings](../../Assets/Screenshots/Channels/Settings/Connections/Shopware6/Settings_Language.png "[Default language settings]")
+    ![Settings default language](../../Assets/Screenshots/Channels/Settings/Connections/Shopware6/EditConnectionSettings_DefaultLanguage.png "[Settings default language]")
 
 3. Click the *Select Shopware default language* drop-down list and select the appropriate language. All languages available in the *DataHub* module are displayed in the list.  
 
@@ -101,7 +103,7 @@ A Shopware 6 connection has been established, see [Create a Shopware 6 connectio
 4. Click the *Orders* menu entry in the left side bar.  
   The import settings for orders are displayed on the right side.
 
-  ![Orders settings](../../Assets/Screenshots/Channels/Settings/Connections/Shopware6/Settings_Orders.png "[Orders settings]")
+      ![Settings orders](../../Assets/Screenshots/Channels/Settings/Connections/Shopware6/EditConnectionSettings_Orders.png "[Settings orders]")
 
 5. Configure the following settings:
     + If desired, enter an order number in the *Import only orders with a higher number than this* field. Only orders with a higher order number than the specified number will be imported.  
@@ -119,7 +121,7 @@ A Shopware 6 connection has been established, see [Create a Shopware 6 connectio
 6. Click the *Tax classes* menu entry in the left side bar.  
   The tax classes available in Shopware 6 are displayed on the right side.  
 
-  ![Tax classes settings](../../Assets/Screenshots/Channels/Settings/Connections/Shopware6/Settings_TaxClasses.png "[Tax classes settings]")
+    ![Settings tax classes](../../Assets/Screenshots/Channels/Settings/Connections/Shopware6/EditConnectionSettings_TaxClasses.png "[Settings tax classes]")
 
 7. Click the *Select Core1 tax class for Shopware 6 "Shopware tax class name"* drop-down list and select the corresponding tax class in the *Actindo Core1 Platform*. All available tax classes are displayed in the list. Repeat this step for all Shopware 6 tax classes.
 
@@ -131,6 +133,8 @@ A Shopware 6 connection has been established, see [Create a Shopware 6 connectio
 8. If available, click the *Ratepay* menu entry in the left side bar.  
   The Ratepay settings are displayed on the right side.
 
+    ![Settings Ratepay](../../Assets/Screenshots/Channels/Settings/Connections/Shopware6/EditConnectionSettings_Ratepay.png "[Settings Ratepay]")
+
     > [Info] The *Ratepay* menu entry is only displayed if the *Ratepay Integration for Shopware 6* plugin has been installed in your *Actindo Core1 Platform* and the *Ratepay Payment Plugin for Shopware 6* has been installed in your Shopware 6 account.
   
 9. If desired, enable the *Enable Ratepay integration for this connection* toggle.  
@@ -140,6 +144,8 @@ A Shopware 6 connection has been established, see [Create a Shopware 6 connectio
     
 10. If available, click the *Klarna* menu entry in the left side bar.  
   The Klarna settings are displayed on the right side.
+    
+    ![Settings Klarna](../../Assets/Screenshots/Channels/Settings/Connections/Shopware6/EditConnectionSettings_Klarna.png "[Settings Klarna]")
 
     > [Info] The *Klarna* menu entry is only displayed if the *Klarna Integration for Shopware 6* plugin has been installed in your *Actindo Core1 Platform* and the *Klarna Payment Plugin for Shopware 6* has been installed in your Shopware 6 account.
 
@@ -162,7 +168,7 @@ A Shopware 6 connection has been established, see [Create a Shopware 6 connectio
 12. Click the *Price rules* menu entry in the left side bar.  
   The price rule settings are displayed on the right side.
 
-  ![Price rule settings](../../Assets/Screenshots/Channels/Settings/Connections/Shopware6/Settings_PriceRules.png "[Price rule settings]")
+    ![Settings price rules](../../Assets/Screenshots/Channels/Settings/Connections/Shopware6/EditConnectionSettings_PriceRules.png "[Settings price rules]")
 
 13. Enable the toggles for all price rules for which you want to create a price attribute in the *Actindo Core1 Platform* to maintain deviating prices. All price rules available in Shopware 6 are displayed. 
 
@@ -171,4 +177,4 @@ A Shopware 6 connection has been established, see [Create a Shopware 6 connectio
 14. Click the [SAVE] button.  
   All changes have been saved. The *Saving successful* pop-up window is displayed.
 
-  ![Saving successful](../../Assets/Screenshots/Channels/Settings/Connections/SavingSuccessful.png "[Saving successful]")
+    ![Saving successful](../../Assets/Screenshots/Channels/Settings/Connections/SavingSuccessful.png "[Saving successful]")
