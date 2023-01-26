@@ -159,6 +159,8 @@ A Magento 2 connection has been established.
 
     > [Info]  The following settings are used to improve the SEO of your images.
 
+    ![Settings image name regular expressions](../../Assets/Screenshots/Channels/Settings/Connections/Magento2/EditConnectionSettings_ImageNameRegEx.png "[Settings image name regular expressions]")
+
 16. If desired, disable the *Use ECM image name* toggle. By default, the toggle is enabled.  
   If disabled, an image name is generated randomly by upload. If enabled, the image names configured in the *ECM* module are uploaded.
   
