@@ -1,4 +1,4 @@
-[!!Create a language](../../DataHub/Integration/05_ManageLanguages.md#create-a-language)
+[!!Manage the languages in DataHub](../../DataHub/Integration/05_ManageLanguages.md)
 
 # Manage the Shopware 6 connection
 
@@ -35,12 +35,14 @@ Be aware that, before a Shopware 6 connection can be established in the *Actindo
 3. Click the *Driver* drop-down list and select the *Shopware 6* driver.  
   The *Credentials* section is displayed below the drop-down list.
 
-    ![Create connection credentials](../../Assets/Screenshots/Channels/Settings/Connections/Shopware6/Connection01.png "[Create connection credentials]")
+    ![Create connection credentials](../../Assets/Screenshots/Channels/Settings/Connections/Shopware6/Credentials.png "[Create connection credentials]")
 
 4. Enter the shop URL in the *URL* field.  
 
 5. In a new browser window, go to your Shopware 6 account and log in.  
   The Shopware 6 dashboard is displayed.
+
+    ![Shopware 6 dashboard](../../Assets/Screenshots/Channels/Settings/Connections/Shopware6/Dashboard.png "[Shopware 6 dashboard]")
 
 6. In the Shopware 6 backend, go to *Settings > System > Integrations* and click the [Add integration] button in the top right corner.  
   The *Create integration* window is displayed.
@@ -70,7 +72,7 @@ Be aware that, before a Shopware 6 connection can be established in the *Actindo
 
 ## Configure the Shopware 6 connection   
 
-After the connection to a Shopware 6 shop has been established, further settings can be configured for the connection.
+After the Shopware 6 connection has been established, further settings can be configured for the connection.
 
 #### Prerequisites
 
@@ -85,16 +87,16 @@ A Shopware 6 connection has been established, see [Create a Shopware 6 connectio
 1. Click the Shopware 6 connection in the list of connections.   
   The *Edit connection* view is displayed. By default, the *Credentials* tab is selected.
 
-    ![Edit connection credentials](../../Assets/Screenshots/Channels/Settings/Connections/Shopware6/Credentials.png "[Edit connection credentials]")
+    ![Edit connection](../../Assets/Screenshots/Channels/Settings/Connections/Shopware6/EditConnection.png "[Edit connection]")
 
 2. Click the *Settings* tab.   
-  The *Settings* tab is displayed. By default, the *Default language* menu entry is selected. If not, click the the *Default language* menu entry in the left side bar to display the default language settings on the right side.
+  The *Settings* tab is displayed. By default, the *Default language* menu entry is selected.
   
     ![Default language settings](../../Assets/Screenshots/Channels/Settings/Connections/Shopware6/Settings_Language.png "[Default language settings]")
 
 3. Click the *Select Shopware default language* drop-down list and select the appropriate language. All languages available in the *DataHub* module are displayed in the list.  
 
-    > [Info] In Shopware 6 there is a standard language, which is configured during the installation and cannot be subsequently edited. The standard language cannot be detected via API and must be therefore manually configured in the *Actindo Core1 Platform* after the connection has been established. When uploading products, Shopware 6 requires some fields to be filled for the standard language. 
+    > [Info] In Shopware 6, the default language is configured during installation, which cannot be edited subsequently. This default language must be defined manually in the *Actindo Core1 Platform*, as it cannot be detected via API. 
 
 4. Click the *Orders* menu entry in the left side bar.  
   The import settings for orders are displayed on the right side.
@@ -120,6 +122,11 @@ A Shopware 6 connection has been established, see [Create a Shopware 6 connectio
     ![Tax classes settings](../../Assets/Screenshots/Channels/Settings/Connections/Shopware6/Settings_TaxClasses.png "[Tax classes settings]")
 
 7. Click the *Select Core1 tax class for Shopware 6 "Shopware tax class name"* drop-down list and select the corresponding tax class in the *Actindo Core1 Platform*. All available tax classes are displayed in the list. Repeat this step for all Shopware 6 tax classes.
+
+    > [Info] If the *Ratepay* menu entry is available, proceed with step **8**.   
+    If the *Klarna* menu entry is available, proceed with step **10**.   
+    In any other case, proceed with step **12**.
+
 
 8. If available, click the *Ratepay* menu entry in the left side bar.  
   The Ratepay settings are displayed on the right side.
@@ -155,9 +162,11 @@ A Shopware 6 connection has been established, see [Create a Shopware 6 connectio
 12. Click the *Price rules* menu entry in the left side bar.  
   The price rule settings are displayed on the right side.
 
+    ![Price rule settings](../../Assets/Screenshots/Channels/Settings/Connections/Shopware6/Settings_PriceRules.png "[Price rule settings]")
+
 13. Enable the toggles for all price rules for which you want to create a price attribute in the *Actindo Core1 Platform* to maintain deviating prices. All price rules available in Shopware 6 are displayed. 
 
-    > [Info] You have to save the changes and synchronize the connection to create the corresponding price attribute. Once a price attribute has been created, the corresponding toggle is locked and cannot be disabled anymore.
+    > [Info] You have to synchronize the connection to create the corresponding price attribute, see [Synchronize a connection](./01_ManageConnections.md#synchronize-a-connection). Once a price attribute has been created, the corresponding toggle is locked and cannot be disabled anymore.
 
 14. Click the [SAVE] button.  
   All changes have been saved. The *Saving successful* pop-up window is displayed.

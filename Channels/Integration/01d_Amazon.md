@@ -14,7 +14,7 @@ Create the connection to an Amazon shop using the Amazon driver. Further setting
 - An Amazon seller account has been created.
 - All columns of the order reports must be activated in your Amazon seller account, see [Add or remove order report columns](https://sellercentral.amazon.de/order-reports-and-feeds/column-picker?source=/order-reports-and-feeds/reports/ref=xx_orderrpt_dnav_xx). 
 - A standard ship-from address must be set in your Amazon seller account, see [Set up a ship-from address](https://sellercentral.amazon.de/help/hub/reference/G201841320). 
-  > [Info] Make sure that you are logged in to your Amazon seller account to access the links above. 
+   > [Info] Make sure that you are logged in to your Amazon seller account to access the links above. 
 
 - The *Omni-Channel Amazon Integration* plugin has been installed. 
 
@@ -81,9 +81,9 @@ Create the connection to an Amazon shop using the Amazon driver. Further setting
 
     ![Sync triggered](../../Assets/Screenshots/Channels/Settings/Connections/SyncTriggered.png "[Sync triggered]")
 
-  The *CONNECTIONS* tab in the *Settings* menu entry of the *Omni-Channel* module is displayed when the connection has been established. The *Amazon* connection is displayed in the list of connections.
+   The *CONNECTIONS* tab in the *Settings* menu entry of the *Omni-Channel* module is displayed when the connection has been established. The *Amazon* connection is displayed in the list of connections.
 
-  ![Amazon connection](../../Assets/Screenshots/Channels/Settings/Connections/Amazon/Connection.png "[Amazon connection]")
+    ![Amazon connection](../../Assets/Screenshots/Channels/Settings/Connections/Amazon/Connection.png "[Amazon connection]")
 
 13. If necessary, continue to configure the Amazon connection, see [Configure the Amazon connection](#configure-the-amazon-connection).
 
@@ -136,7 +136,8 @@ An Amazon connection has been established, see [Create an Amazon connection](#cr
     
     + Enable or disable the *Is the VAT calculation services (VCS) enabled?* toggle to specify if this feature is active in Amazon. If the VCS is disabled, the prices in the FBA reports are gross, if the VCS is enabled, the prices are net. 
     
-      > [Info] To check or modify the status of the VCS in the Amazon seller account, see [VAT calculation services](https://sellercentral.amazon.de/tax/settings/summary). Make sure that you are logged in to your Amazon seller account to access the link above. 
+      > [Info] To check or modify the status of the VCS in the Amazon seller account, see [VAT calculation services](https://sellercentral.amazon.de/tax/settings/summary).   
+      Make sure that you are logged in to your Amazon seller account to access the link above. 
 
     + If desired, click the ![Calendar](../../Assets/Icons/Calendar.png "[Calendar]") (Calendar) button in the  *Import FBA orders from* field and select a date from which to import the orders. Alternatively, enter directly a date in the field. The valid date format is DD.MM.YYYY. If no date is selected, the orders of the last 90 days are automatically imported.
 
@@ -167,7 +168,7 @@ All checkboxes are unlocked.
 
 11. Click the *UCS shipping provider* drop-down list for the default shipping option in the *Assigned shipping provider* column and select the applicable shipping provider. All available shipping providers are displayed in the list.   
  
-    > [Info] The default shipping provider is used a fallback shipping provider for all shipping options that have no shipping provider assigned.
+    > [Info] The default shipping provider is used as a fallback shipping provider for all shipping options that have no shipping provider assigned.
 
 12. Click the *UCS shipping provider* drop-down list for each shipping option in the *Assigned shipping provider* column and select the applicable shipping provider. All available shipping providers are displayed in the list. If no shipping provider is selected, the default shipping provider applies.
 
