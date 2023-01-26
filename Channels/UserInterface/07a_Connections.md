@@ -51,7 +51,7 @@
   Select the checkbox to display the editing toolbar. If you click the checkbox in the header, all connections in the list are selected.
 
 - [DELETE]  
-  Click this button to delete the selected connection(s). This button is only displayed if the checkbox of at least one connection is selected.
+  Click this button to delete the selected connection. This button is only displayed if a single checkbox in the list of connections is selected.
 
 [comment]: <> (Button funktioniert nicht. Ist es überhaupt vorgesehen, dass connections gelöscht werden können? Wenn nicht -> button raus, wenn doch -> unter welchen voraussetzungen?)
 
@@ -69,8 +69,6 @@
 - ![Edit](../../Assets/Icons/Edit01.png "[Edit]") (Edit)  
   Click this button to edit the selected connection. This button is only displayed if a single checkbox in the list of connections is selected. Alternatively, you can click directly a row in the list to edit a connection. The *Edit connection* view is displayed, see [Edit connection](#edit-connection).
 
-[comment]: <> (Vgl. Fulfillment und vereinheitlichen -> Create connection/Edit connection)
-
 
 The list displays all available connections. Depending on the settings, the displayed columns may vary. All fields are read-only.
 
@@ -85,7 +83,7 @@ The list displays all available connections. Depending on the settings, the disp
     The connection is disabled and no data is being synchronized via the connection.   
 
 - *Order/Return have errors*  
-  Indication whether errors have occurred in orders or  returns:  
+  Indication whether errors have occurred in orders or  returns:. The following options are available:  
   - **Yes**   
     Errors have occurred.   
   - **No**   
@@ -96,6 +94,9 @@ The list displays all available connections. Depending on the settings, the disp
 
 - *ID*  
   Connection identification number. The ID number is automatically assigned by the system.
+
+- ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add)  
+  Click this button to add a connection. The *Create connection* view is displayed, see [Create connection](#create-connection).
 
 
 ## Create connection
@@ -111,7 +112,7 @@ Click this button to close the *Create connection* view and return to the connec
   Enter a connection name.
 
 - ![Apply](../../Assets/Icons/Check.png "[Apply]") (Apply)  
-  Click this button to apply the connection name. This button is only displayed if the connection name has not yet been confirmed. 
+  Click this button to apply the entered connection name. This button is only displayed if the connection name has not yet been confirmed. 
 
 [comment]: <> (Der button ist ziemlich sinnfrei: Auch wenn ich nicht den button klicke, aber anschließend auf SAVE klicke, werden Änderungen im Namen übernommen - wozu ist der also da?)
 
@@ -119,11 +120,9 @@ Click this button to close the *Create connection* view and return to the connec
   Click this button to edit the connection name. This button is only displayed if the connection name has been confirmed. 
 
 - *Driver*  
-  Click the drop-down list and select the desired driver. All installed drivers are displayed. Alternatively, select the option **more** to install further drivers. Depending on the connection driver, a *Credentials* section is displayed below the drop-down list.
+  Click the drop-down list and select the desired driver. All installed drivers are displayed. Depending on the connection driver, a *Credentials* section is displayed below the drop-down list.
 
-  > [Info] When selecting the **more** option, the notice *Get more drivers from the app store* is displayed. Drivers are licensed and must be acquired via the app store. The applicable driver credentials to establish the connection are obtained when acquiring the corresponding license.
-
-[comment]: <> (oder: Drivers are licensed and must be acquired via the app store or the corresponding e-commerce partner platform. HG: würde das komplette more und driver installieren hier rauslassen. Das machen wir meistens für den Kunden und außerdem klappt es eh nicht...)
+  > [Info] Drivers are licensed and must be acquired via the app store or the corresponding e-commerce partner platform. The applicable driver credentials to establish the connection are obtained when acquiring the corresponding license.
 
 
 **Credentials**
@@ -157,7 +156,7 @@ Click this button to close the *Edit connection* view and return to the connecti
   Creation date of the connection. This field is read-only.  
 
 
-### Edit connection &ndash; Credentials
+## Edit connection &ndash; Credentials
 
 *Omni-Channel > Settings > Tab CONNECTIONS > Select a connection > Tab Credentials*
 
@@ -176,13 +175,13 @@ The fields displayed in the *Credentials* section vary depending on the selected
   Click this button to save any changes made.
 
 
-### Edit connection &ndash; Settings
+## Edit connection &ndash; Settings
 
 *Omni-Channel > Settings > Tab CONNECTIONS > Select a connection > Tab Settings*
 
 ![Edit settings](../../Assets/Screenshots/Channels/Settings/Connections/Settings.png "[Edit settings]")
 
-This tab is only displayed for drivers with further credentials.
+This tab is only displayed for drivers with further settings.
 The fields displayed vary depending on the driver.
 
 - [SAVE]  

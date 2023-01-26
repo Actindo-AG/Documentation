@@ -2,7 +2,7 @@
 
 *Omni-Channel > Logging > Tab LOG*
 
-[comment]: <> (Datei Fulfillment/UserInterface/02a_Connections.md als Referenz. Ggf. Änderungen konsistent in beiden Dateien übernehmen. Event log hier zu intent genädert)
+[comment]: <> (Datei Fulfillment/UserInterface/02a_Connections.md als Referenz. Ggf. Änderungen konsistent in beiden Dateien übernehmen. Event log hier zu intent geändert. Unsicher zu Terminologe: Unterschied zwischen Log und Intent? Oder eher intent log verwenden?)
 
 [comment]: <> (Keine Logs im Sandbox. Info und Screenshots aus NoE test account -> Vorsicht: in Detail log message Kundenname -> anonymisieren!)
 
@@ -10,8 +10,6 @@
 
 
 **List of intents**
-
-[comment]: <> (intent? umbenennen?)
 
 - ![Search](../../Assets/Icons/Search.png "[Search]") (Search)   
   Click this button to display the search bar and search for an intent.
@@ -58,7 +56,7 @@
   Select the checkbox to display the editing toolbar. You can only select one checkbox at a time.
 
 - [SHOW MESSAGE]  
-  Click this button to display the selected intent. This button is only displayed if the checkbox of an intent is selected. Alternatively, you can click directly a row in the list to display the corresponding intent. The *List of messages* view is displayed.
+  Click this button to display the selected intent. This button is only displayed if the checkbox of an intent is selected. Alternatively, you can click directly a row in the list to display the corresponding intent. The *List of messages* view is displayed, see [List of messages](#list-of-messages).
 
 
 The list displays all intents. Depending on the settings, the displayed columns may vary. All fields are read-only.
@@ -73,7 +71,7 @@ The list displays all intents. Depending on the settings, the displayed columns 
   Date and time of the creation.
 
 - *Created by*  
-  Name and username of the user who created the intent. If the intent was created automatically by the system, the field is empty. 
+  Name and username of the user who created the intent. If the intent was created automatically by the system, this field is empty. 
 
 - *Max log level of message*  
   Maximum log level of the message(s) contained in the intent. The following levels are available:
@@ -98,7 +96,6 @@ The list displays all intents. Depending on the settings, the displayed columns 
   Complete log message.
 
 
-
 ## List of messages
 
 *Omni-Channel > Logging > Tab LOG > Select intent*
@@ -118,8 +115,8 @@ The list displays all intents. Depending on the settings, the displayed columns 
 
 [comment]: <> (Unpublish oder private view? Bedeutung?)
 
-- ![Eye](../../Assets/Icons/Eye02.png "[Eye]") (Eye)    
-  Click this button to display the details of the log message. Alternatively, you can click directly a row in the list to display the details of the log message. The *Detail of log message "Log message title"* view is displayed, see [Detail of log message "Log message title"](#detail-of-log-message-log-message-name). 
+- ![View](../../Assets/Icons/Eye02.png "[View]") (View)    
+  Click this button to display the details of the log message. Alternatively, you can click directly a row in the list to display the details of the log message. The *Detail of log message "Log message title"* view is displayed, see [Detail of log message "Log message title"](#detail-of-log-message-log-message-title). 
 
 
 The list displays all messages contained in the selected intent. Depending on the settings, the displayed columns may vary. All fields are read-only.
@@ -142,13 +139,13 @@ The list displays all messages contained in the selected intent. Depending on th
   Date and time of the creation.
 
 - *Created by*  
-  Name and username of the user who created the intent.
+  Name and username of the user who created the intent. If the intent was created automatically by the system, this field is empty. 
 
 - *Message*  
   Log message to the intent.
 
 - *ID*  
-  Log message identification number. The ID number is automatically assigned by the system.
+  Log identification number. The ID number is automatically assigned by the system.
 
 
 ### Detail of log message "Log message title"
@@ -172,6 +169,7 @@ This view can also be accessed from the following tabs in the user interface:
 - [ERRORS (Orders and returns)](./05c_Errors.md#detail-of-log-message-log-message-title)
 - [SHIPMENT ERRORS](./05d_ShipmentErrors.md#detail-of-log-message-log-message-title)
 - [CANCELLATION ERRORS](./05e_CancellationErrors.md#detail-of-log-message-log-message-title)
+- [SCHEDULED EXPORTS](./05f_ScheduledExports.md#detail-of-log-message-log-message-title)
 
 
 ### Detail of log message "Log message title" &ndash; Attributes
@@ -180,11 +178,13 @@ This view can also be accessed from the following tabs in the user interface:
 
 ![Detail of log message attributes](../../Assets/Screenshots/Channels/Logging/DetailLogMessageAttributes.png "[Detail of log message attributes]")
 
+[comment]: <> (ACTHUNG! Screenshot aus NoE -> anonymysieren oder ein anderes Screenshot ziehen)
+
 **Attributes**
 
-[comment]: <> (wovon sind die Felder abhängig?)
+The *Attributes* tab displays further details of the selected log message. Depending on the error message the fields vary. All fields are read-only.
 
-The *Attributes* tab displays further details of the selected log message. Depending on ? the fields vary. All fields are read-only.
+[comment]: <> (wovon sind die Felder abhängig? Attributes that are assigned somewhere?)
 
 - *Error code*  
   Error code number.
@@ -288,8 +288,7 @@ The list displays all dependencies of the selected product. Depending on the set
   - **Omni-Channel Offer**
   - **UCS Product**
 
-[comment]: <> (what else?)
-
+[comment]: <> (what else? Vermutlich Standarsatz "All available/relevant dependent entity types are displayed".)
 
 - *Change tracking mode*   
   Change tracking mode (ETL mode) of the dependent entity. The following options are available:

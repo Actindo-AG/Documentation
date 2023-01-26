@@ -31,7 +31,7 @@
 [comment]: <> (Buttons unten beschrieben aus ERRORS tab. Prüfen, ob auch in SHIPMENT ERRORS vorkommen)
 
 - [SHOW LOG]  
-  Click this button to display the details of the error log message. This button is only displayed if a single checkbox in the list of errors is selected. Alternatively, you can click directly a row in the list to display the details of the error log message. The *Detail of log message "Log message title"* view is displayed, see [Detail of log message "Log message title"](#detail-of-log-message-log-message-name).
+  Click this button to display the details of the error log message. This button is only displayed if a single checkbox in the list of errors is selected. Alternatively, you can click directly a row in the list to display the details of the error log message. The *Detail of log message "Log message title"* view is displayed, see [Detail of log message "Log message title"](#detail-of-log-message-log-message-title).
 
 - [VIEW ORDER]  
   Click this button to display the corresponding order to the error. This button is only displayed if a single checkbox in the list of errors is selected. The *Order from connection "Connection name"* view is displayed in the *ORDERS* tab, see [Order from connection "Connection name"](./05a_Orders.md#order-from-connection-connection-name).

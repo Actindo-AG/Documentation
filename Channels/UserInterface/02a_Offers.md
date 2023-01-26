@@ -873,10 +873,10 @@ The list displays all dependencies of the selected product. Depending on the set
   Click this button to save the new view and display it in the *VIEW* drop-down list. The *Create view* window is closed.
 
 This window can also be accessed from the following tabs in the user interface:
-- [ORDERS](05a_Orders.md#create-view)
-- [RETURNS](05b_Returns.md#rename-view)
-- [LOG](06a_Log.md#create-view)
-- [CONNECTIONS](08a_Connections.md#create-view)
+- [ORDERS](./05a_Orders.md#create-view)
+- [RETURNS](./05b_Returns.md#create-view)
+- [LOG](./06a_Log.md#create-view)
+- [CONNECTIONS](./07a_Connections.md#create-view)
 
 
 ## Rename view
@@ -897,7 +897,7 @@ This window can also be accessed from the following tabs in the user interface:
 
 This window can also be accessed from the following tabs in the user interface:
 
-- [ORDERS](05a_Orders.md#rename-view)
-- [RETURNS](05b_Returns.md#rename-view)
-- [LOG](06a_Log.md#rename-view)
-- [CONNECTIONS](08a_Connections.md#rename-view)
+- [ORDERS](./05a_Orders.md#rename-view)
+- [RETURNS](./05b_Returns.md#rename-view)
+- [LOG](./06a_Log.md#rename-view)
+- [CONNECTIONS](./07a_Connections.md#rename-view)
