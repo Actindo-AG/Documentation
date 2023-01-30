@@ -71,20 +71,18 @@ Create a job to import inventory-related data.
 
 6. Click the *Job Steps* tab in the header of the *"JobID"* page and click the ![Add](../../Assets/Icons/Plus07.png "[Add]") (Add) button.
   A new flow has been added to the job. 
-   
-  ![Select and configure step](../../Assets/Screenshots/Channels/Settings/Connections/SFCC/InventoryImport_Select&ConfigureStep.png "[Select and configure step]")
 
-[comment]: <> (Screenshot stimmt nicht ganz, da Organisation schon ausgewählt. Alternatives Screenshot erstellen lassen.) 
+[comment]: <> (Screenshot fehlt?)
 
 7. Select the **Organization** option as a scope for the flow.
 
 8. Click the [Configure a step] button in the flow box and select the *ImportInventoryLists* step.  
   The *Select and Configure Step* side bar is displayed on the right side of the page.
 
-  ![Import inventory lists](../../Assets/Screenshots/Channels/Settings/Connections/SFCC/JobStep_ImportInventoryLists.png "[Import inventory lists]")
+  ![Select and configure step](../../Assets/Screenshots/Channels/Settings/Connections/SFCC/InventoryImport_Select&ConfigureStep.png "[Select and configure step]")
 
-[comment]: <> (Müssen wir noch prüfen, ob das so beim Anlegen eines neuen Flows/steps funktioniert. Aber auf jeden fall kann ich nirgends drauf klicken, bevor ich keinen Flow angelegt habe. Select a step -> aus ner drop-down list? wenn ja, wo werden die vorangelegt? Vgl. auch https://documentation.b2c.commercecloud.salesforce.com/DOC1/index.jsp?topic=%2Fcom.demandware.dochelp%2FDWAPI%2Fxsd%2FSchemas.html)
-
+[comment]: <> (Screenshot editiert / Felder gelöscht. Stimmt das so wenn leer?) 
+ 
 9. Configure the following values in the corresponding fields of the *Select and Configure Step* side bar for the *ImportInventoryLists* step:  
 
     | Field                   | Value     |
@@ -97,9 +95,12 @@ Create a job to import inventory-related data.
  
     > [Info] The values in the *AfterImportFileHandling* and the *ArchiveFolder* fields can be arbitrarily selected.
 
+  ![Import inventory lists](../../Assets/Screenshots/Channels/Settings/Connections/SFCC/JobStep_ImportInventoryLists.png "[Import inventory lists]")
+
+  [comment]: <> (Screenshot UND Tabelle oder eins wählen?)
+
 10. Click the [Assign] button in the bottom right corner.    
   The step has been configured.
-
 
 
 ### Create a data import job
@@ -111,32 +112,42 @@ Create a job to import product-related data.
 - A Salesforce account has been created.
 - The user has the required rights.
 
-[comment]: <> (Stimmt das so, also erst inventory dann data? Oder egal welche Reihenfolge, d.h. Create a data import job sollte mit 1. wie oben anfangen: Administration > Operations > Jobs...)
-
 #### Procedure 
 
 *Salesforce Commerce Cloud Business Manager*
 
-[comment]: <> (s.o.)
+![Welcome to Business Manager](../../Assets/Screenshots/Channels/Settings/Connections/SFCC/BusinessManager.png "[Welcome to Business Manager]")
 
-[comment]: <> (Screenshot von Salesforce)
+[comment]: <> (Screenshot oben ist nicht wirklich das allererste: auf Drop-down Lists sollte "Select a Site" stehen. Neues Screenshot oder Step 1 anpassen?)
 
 
 1. Click the *Select a Site* drop-down list in the navigation bar at the top of the page and select the applicable shop. All available shops are displayed in the list.  
-  The *Welcome to the Business Manager* page is displayed.
+  The *Welcome to the Business Manager* page for the corresponding shop is displayed.
 
-    ![Welcome to Business Manager](../../Assets/Screenshots/Channels/Settings/Connections/SFCC/BusinessManager.png "[Welcome to Business Manager]")
+  ![Welcome to Business Manager](../../Assets/Screenshots/Channels/Settings/Connections/SFCC/BusinessManager.png "[Welcome to Business Manager]")
 
-2. Click the *Administration* drop-down list in the navigation bar at the top of the page. 
+2. Click the *Administration* tab in the navigation bar at the top of the page. 
   The *Administration* page is displayed.
+
+  ![Administration](../../Assets/Screenshots/Channels/Settings/Connections/SFCC/Administration.png "[Administration]")
+
+  ![Administration](../../Assets/Screenshots/Channels/Settings/Connections/SFCC/Administration_00.png "[Administration]")
+
+[comment]: <> (Vorübergehendes Screenshot oben. Entscheiden ob erstes oder zweites, s. Wissenstransfer Offene Fragen Min. 11:40, und Schritt 3 dementsprechend anpassen)
    
 3. Click first the *Operations* and then the *Jobs* module.  
   The *Jobs* page is displayed.
 
-    ![Jobs](../../Assets/Screenshots/Channels/Settings/Connections/SFCC/Jobs.png "[Jobs]")
+[comment]: <> (Alternativ, je nach dem Screenshot oben: Click the downwards arrow in the *Administration* tab to display the context menu and select the option *Jobs* under the *Operation* section.)
+
+  ![Jobs](../../Assets/Screenshots/Channels/Settings/Connections/SFCC/Jobs_00.png "[Jobs]")
+
+[comment]: <> (s. Wissenstransfer Offenen Fragen ab Min. 11:46. Vorübergehendes Screenshot oben!)
 
 4. Click the [New Job] button in the upper right corner to create the data import job.  
-  The *New Job* window is displayed on the right side of the page.
+  The *New Job* page is displayed.
+
+[comment]: <> (Screenshot fehlt)
 
 5. Enter a name for the data import job, for example **SiteDataImport**, in the *ID* field and, if desired, a job description in the *Description* field, and click the [Create] button.  
   The new job has been created. The *"JobID"* page is displayed.
@@ -150,6 +161,8 @@ Create a job to import product-related data.
   A new flow has been added to the job. 
    
    > [Info] The data import job must import different types of data and therefore contains sequential flows. 
+
+[comment]: <> (Screenshot hinzufügen?)
    
 7. Select the **Organization** option as a scope for the flow.
 
@@ -157,8 +170,7 @@ Create a job to import product-related data.
   The *Select and Configure Step* side bar is displayed on the right side of the page.
    
     > [Info] Make sure that all folders specified within a step have been previously created in WebDAV. Otherwise, the data cannot be imported. For detailed information about WebDAV, see the Salesforce documentation, [Using WebDAV](https://documentation.b2c.commercecloud.salesforce.com/DOC1/topic/com.demandware.dochelp/content/b2c_commerce/topics/import_export/b2c_using_web_dav.html).
-
-    
+   
 9. Configure the following values in the corresponding fields of the *Select and Configure Step* side bar for the *StandardProductsImport* step: 
 
     | Field                   | Value     |
@@ -278,7 +290,7 @@ The corresponding API settings must be configured in Salesforce as described bel
 
 ![Open Commerce API Settings](../../Assets/Screenshots/Channels/Settings/Connections/SFCC/OpenCommerceAPISettings_Shop.png "[Open Commerce API Settings]")
 
-[comment]: <> (Anderes "allgemeines" Screenshot suchen?)
+[comment]: <> (Anderes "allgemeines" Screenshot verfügbar?)
 
 1. Click the *Select type* drop-down list and select the **Shop** option.
   The current shop API is displayed in the text area.  
@@ -482,7 +494,9 @@ The corresponding API settings must be configured in Salesforce as described bel
 
 ### Generate an access key
 
-An access key must be generated to be able to create connection between the Salesforce Commerce Cloud and the *Actindo Core1 Platform* 
+An access key must be generated to be specified as an access token in the *Omni-Channel* module when establishing the connection to Salesforce. The access key is site-specific, that means, an access key must be generated for each shop.
+
+[comment]: <> (Stimmt das so?)
 
 #### Prerequisites
 
@@ -494,14 +508,14 @@ An access key must be generated to be able to create connection between the Sale
 *Salesforce Commerce Cloud Business Manager*
 
 1. Go to your user profile via the *Administration* tab or the *Administration feature lookup*.  
- The *My profile* window is displayed.
+ The *My profile* page is displayed.
 
  ![My profile](../../Assets/Screenshots/Channels/Settings/Connections/SFCC/MyProfile.png "[My profile]")
 
-[comment]: <> (Alternativen Pfad? Screenshot weitereditieren)
+[comment]: <> (Alternativen Pfad? Evtl. Screenshot weiter verabeiten)
 
 2. Click the [Manage Access Keys] button.  
-  The *Manage Access Keys* window is displayed.
+  The *Manage Access Keys* page is displayed.
 
 3. Click the [Generate Access Key] button.  
   The *Generate Access Key* window is displayed.
@@ -513,14 +527,15 @@ An access key must be generated to be able to create connection between the Sale
 5. Click the [Generate] button.  
   The access key is generated. The *Generate Access Key* window displays an access key with the following notice: *After you close this window, you can't view or download teh access key again. We recommend copying it or clicking **Download** to download a CSV file with your access key*.
 
-    [Info] The access key is subsequently needed to create the connection with the Salesforce Commerce Cloud in the *Actindo Core1 Platform*. Once the *Generate Access Key* window is closed, the access key cannot be read anymore and therefore must be noted at this point and kept safe for future reference.
+    [Info] The access key is subsequently needed to establish the connection with the Salesforce Commerce Cloud in the *Omni-Channel* module. Once the *Generate Access Key* window is closed, the access key cannot be read anymore and therefore must be noted at this point and kept safe for future reference.
 
   ![Access Key created](../../Assets/Screenshots/Channels/Settings/Connections/SFCC/AccessKeyCreated.png "[Access Key created]")
 
 6. Copy the key to your clipboard or click the [Download] button and click the [Close] button.
-  The generated access key is saved in the system and listed in the *Scope* section of the *Manage Access Keys* window. 
+  The generated access key is saved in the system and listed in the *Scope* section of the *Manage Access Keys* page. 
 
   ![Manage access keys list](../../Assets/Screenshots/Channels/Settings/Connections/SFCC/ManageAccessKeys_List.png "[Manage access keys list]")
+
 
 ## Create a Salesforce connection
 
