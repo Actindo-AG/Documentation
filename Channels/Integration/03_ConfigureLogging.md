@@ -2,7 +2,7 @@
 
 # Configure the logging settings
 
-Configure in the logging settings the log levels of messages to be stored and their retention time.
+Configure in the logging settings the log levels for the messages to be stored and their retention time.
 
 
 ## Define the minimum log level
@@ -20,21 +20,21 @@ No prerequisites to fulfill.
 
 ![Logging](../../Assets/Screenshots/Channels/Settings/Logging/Logging.png "[Logging]")
 
-> [Info] By default, the *Log Level* menu entry in the left *Settings* side menu is preselected if you click the *LOGGING* tab for the first time in your current session.
+> [Info] By default, the *Log level* menu entry in the left *Settings* side menu is preselected if you click the *LOGGING* tab for the first time in your current session.
 
-1. If necessary, click the *Log Level* menu entry in the left *Settings* side menu.   
-  The *Log Level* view is displayed on the right side.
+1. If necessary, click the *Log level* menu entry in the left *Settings* side menu.   
+  The *Log level* view is displayed on the right side.
 
 2. Disable the *Apply from default* toggle in the upper right corner.   
-  The *Min Log Level* drop-down list is unlocked.
+  The *Min log level* drop-down list is unlocked.
 
-3. Click the *Min Log Level* drop-down list and select the desired option. The following log levels are available (in descending order):
-  - **Warning**
-  - **Notice**
-  - **Info**
-  - **Debug**
+3. Click the *Min log level* drop-down list and select the desired option. The following log levels are available (in descending order):
+    - **Warning**
+    - **Notice**
+    - **Info**
+    - **Debug**
 
-  > [Info] All messages with the selected or a higher log level will be stored. The retention time for the individual log levels has to be defined separately, see [Define the retention time](#define-the-retention-time).
+    > [Info] All messages with the selected or a higher log level will be stored. The retention time for the individual log levels has to be defined separately, see [Define the retention time](#define-the-retention-time).
 
   ![Logging](../../Assets/Screenshots/Channels/Settings/Logging/LogLevel.png "[Logging]")
 
@@ -48,7 +48,7 @@ No prerequisites to fulfill.
 
 ## Define the retention time
 
-By default, all logs are automatically deleted after one day. You can edit the log lifetime and define a custom lifetime.
+By default, all logs are automatically deleted after one day. You can edit the log lifetime and define a custom retention time.
 
 #### Prerequisites
 
@@ -61,20 +61,20 @@ No prerequisites to fulfill.
 ![Logging](../../Assets/Screenshots/Channels/Settings/Logging/Logging.png "[Logging]")
 
 1. Click the log level of the message whose retention time you want to edit in the left *Settings* side menu. The following logs levels are available:
-  - *Emergency*
-  - *Alert*
-  - *Critical*
-  - *Error*
-  - *Warning*
-  - *Notice*
-  - *Info*
-  - *Debug*
+    - *Emergency*
+    - *Alert*
+    - *Critical*
+    - *Error*
+    - *Warning*
+    - *Notice*
+    - *Info*
+    - *Debug*
 
   The retention time of the selected log level is displayed on the right side.
 
   ![Notice](../../Assets/Screenshots/Channels/Settings/Logging/Notice.png "[Notice]")
 
-  >[Info] The procedure to change the log retention time is identical for all log levels.
+    > [Info] The procedure to change the log retention time is identical for all log levels.
 
 2. Disable the *Apply from default* toggle in the upper right corner.   
   The field to define the log retention time until cleanup is unlocked.

@@ -8,7 +8,7 @@
 An offer represents a specific product on a marketplace. The structure of the offers is similar to the product structure: There are offers to master products, variants and single products.   
 In contrast to the PIM products, the connected driver determines all attributes that are displayed within an offer. This means that regardless of which attributes are assigned to a product in the *PIM* module, the offer for the corresponding product in the *Omni-Channel* module displays those attributes that are assigned to the product by the marketplace. Consequently, the offer must not contain all PIM attributes, but can also contain additional attributes that are not included in the *PIM* module.
 
-You can create manual offers or offers from PIM products, edit offers, change their status and delete offers that are no longer used.
+You can create manual offers or offers from PIM products, edit offers, change their status, check the scheduled offer imports and delete offers that are no longer used.
 
 
 ## Create an offer
@@ -68,7 +68,7 @@ If the Actindo *PIM* module is used, offers can be created directly from the PIM
 6. Click the [ADD TO SELECTION >] button in the editing toolbar.   
   The selected products are added to the right side bar of the wizard window. The [CONTINUE] button is unlocked.
 
-7. Click the [CONTINUE] button in the upper right corner.   
+7. Click the [CONTINUE] button in the bottom right corner.   
   The *Review and finalize* wizard window is displayed.
 
   ![Review and finalize](../../Assets/Screenshots/Channels/Offers/Offers/ReviewFinalize.png "[Review and finalize]")
@@ -101,7 +101,7 @@ If the Actindo *PIM* module is used, offers can be created directly from the PIM
   ![Import scheduled](../../Assets/Screenshots/Channels/Offers/Offers/ProductImportScheduled.png "[Import scheduled]")
 
 > [Info]  As the creation process starts asynchronously, it may take some time until the offer creation has been started and all offers have been created. Click the ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh) button in the upper right corner to update the list of offers.   
-Switch to *Offer Import > Tab PIM->CHANNELS* to check the queue for all scheduled offer imports from *PIM*, see [Check the scheduled offer imports](#check-the-scheduled-offer-uploads).
+Switch to *Offer Import > Tab PIM->CHANNELS* to check the queue for all scheduled offer imports from *PIM*, see [Check the scheduled offer imports](#check-the-scheduled-offer-imports).
 
 
 
@@ -183,7 +183,7 @@ At least one offer has been created, see [Create an offer](#create-an-offer).
 3. Click the [SAVE] button in the upper right corner.   
   The changes have been saved. The *Edit offer* view is closed. The automatic upload has been triggered.
 
-    > [Info] Switch to *Offer Upload > Tab SCHEDULED UPLOADS* to check the queue for all scheduled offer uploads, see [Check the offer upload](./03_CheckOfferUpload).
+    > [Info] Switch to *Offer Upload > Tab SCHEDULED UPLOADS* to check the queue for all scheduled offer uploads, see [Check the offer upload](./03_CheckOfferUpload.md).
 
 [comment]: <> (wo bearbeite ich ein Angebot? in Omni-channel? oder eher in PIM, wenn installiert?)
 
@@ -211,7 +211,7 @@ At least one offer has been created, see [Create an offer](#create-an-offer).
     - **Active**   
       The offer is active. It is displayed in the marketplace, where it can be sold.   
     - **Inactive**   
-      The offer is inactive. It is not longer displayed in the marketplace and thus cannot be sold anymore.   
+      The offer is inactive. It is no longer displayed in the marketplace and thus cannot be sold anymore.   
     - **Not available**   
       The offer is deleted from the marketplace.      
       The *Change offer status* confirmation window is displayed. If the variant status of the selected offer equals **Master offer**, an additional toggle is displayed within the confirmation window.   
@@ -272,7 +272,7 @@ Only offers with the *Not available* status can be moved to the recycle bin. Off
 
 ![Offers not available](../../Assets/Screenshots/Channels/Offers/Offers/OffersNotAvailable.png "[Offers not available]")
 
-1. Select the checkbox of the offer you want to delete in the list of offers.   
+1. Select the checkbox of the offer you want to move to the recycle bin in the list of offers.   
   The editing toolbar is displayed above the list.
 
     > [Info] You can also select multiple checkboxes to move multiple offers at once to the recycle bin. Note that all offers must have the *Not available* status to be deleted. Otherwise, the *Delete offers?* confirmation window is displayed, indicating the number of the selected offers that are not deletable.
@@ -295,7 +295,6 @@ Only offers with the *Not available* status can be moved to the recycle bin. Off
 You can permanently delete an offer if it is no longer needed. The offer has to be moved to the *RECYCLE BIN* tab before it can be permanently deleted.  
 As there are usually dependencies on an offer, it is strongly recommended not to delete an offer permanently. Permanently deleted offers cannot be recovered.
 Instead, you can change the offer status and thus prevent its use, see [Change the offer status](#change-the-offer-status).
-
 
 #### Prerequisites
 
@@ -324,7 +323,6 @@ At least one attribute has been moved to the *RECYCLE BIN* tab, see [Move an off
 ## Recover an offer
 
 If you have moved an offer to the *RECYCLE BIN* tab, it is not permanently deleted. You can still recover the offer and make the deletion undone.
-
 
 #### Prerequisites
 

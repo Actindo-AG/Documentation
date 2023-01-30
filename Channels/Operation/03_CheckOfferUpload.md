@@ -12,7 +12,7 @@ You can check if any offer uploads of a certain or all connections are still pen
 
 #### Prerequisites
 
-At least one offer upload from *Omni-Channel* to the marketplace has been triggered, see [Create an offer from a PIM product](#create-an-offer-from-a-pim-product).
+At least one offer upload from *Omni-Channel* to the marketplace has been triggered, see [Create an offer from a PIM product](../Operation/01_ManageOffers.md#create-an-offer-from-a-pim-product).
 
 #### Procedure
 
@@ -56,4 +56,4 @@ At least one offer upload has failed.
 
 3. Check the details of the log message in the *Attributes* tab.
 
-  > [Info] If you have fixed the reason for the faulty upload, you can retry the offer upload, see [Retry a faulty offer upload](../Troubleshooting/01_RetryFaultyUpload.md).
+    > [Info] If you have fixed the reason for the faulty upload, you can retry the offer upload, see [Retry a faulty offer upload](../Troubleshooting/01_RetryFaultyUpload.md).

@@ -59,7 +59,7 @@ Create the connection to a Shopify shop using the Shopify driver. Further settin
 
   The *CONNECTIONS* tab in the *Settings* menu entry of the *Omni-Channel* module is displayed when the connection has been established. The *Shopify* connection is displayed in the list of connections.
 
-  ![Shopify connection](../../Assets/Screenshots/Channels/Settings/Connections/Shopify/Connection.png "[Shopify connection]")
+  ![Shopify connection](../../Assets/Screenshots/Channels/Settings/Connections/Shopify/Connections.png "[Shopify connection]")
 
 8. If necessary, continue to configure the Shopify connection settings, see [Configure the Shopify connection](#configure-the-Shopify-connection).
 
@@ -77,7 +77,7 @@ A Shopify connection has been established, see [Create a Shopify connection](#cr
 
 *Omni-Channel > Settings > Tab CONNECTIONS*
 
-![Shopify connection](../../Assets/Screenshots/Channels/Settings/Connections/Shopify/Connection.png "[Shopify connection]")
+![Shopify connection](../../Assets/Screenshots/Channels/Settings/Connections/Shopify/Connections.png "[Shopify connection]")
 
 1. Click the Shopify connection in the list of connections.   
   The *Edit connection* view is displayed. By default, the *Credentials* tab is selected.
@@ -111,7 +111,7 @@ A Shopify connection has been established, see [Create a Shopify connection](#cr
     + Click the *Select default Tax Class* drop-down list and select a tax class that will be set as default tax class for the offer import if no tax class could be found for the offer within Shopify. All available tax classes are displayed in the list.  
     + Enter the Shopify collection names you want to assign a certain tax class to in the field of the corresponding tax class within the *Save the title of the collections for each Tax Class here* section. To assign multiple collections to a tax class, separate the names with a comma, but without adding spaces. For each available tax class, a single field is displayed. Make sure that all collection names entered are unique in your Shopify store.   
 
-    > [Info] When importing the offers, the respective tax class is assigned to all products within collections specified in the corresponding tax class field. If a collection is not specified in any of the tax class fields, the default tax class specified in the *Select default Tax Class* drop-down list is applied to all products of this collection. 
+    > [Info] When importing the offers, the respective tax class is assigned to all products within the collections specified in the corresponding tax class field. If a collection is not specified in any of the tax class fields, the default tax class specified in the *Select default Tax Class* drop-down list is applied to all products of this collection. 
 
 8. Click the [Save] button.   
   All changes have been saved. The *Saving successful* pop-up window is displayed.
@@ -149,19 +149,19 @@ By default, the corresponding attribute mapping is already configured as describ
 1. Click the attribute set mapping from the *PIM basic set* to the Shopify attribute set in the list of attribute set mappings.   
   The *Mapping from PIM basic set to "Shopify attribute set name"* view is displayed.
 
-  ![Mapping Shopify](../../Assets/Screenshots/DataHub/Settings/ETL/MappingShopify.png "[Mapping Shopify]")
+  ![Mapping Shopify](../../Assets/Screenshots/DataHub/Settings/ETL/Shopify/MappingShopify.png "[Mapping Shopify]")
 
 2. Click the row of the *Allow oversells* destination attribute on the left side.   
   The *Settings* section for the *Allow oversells* attribute mapping is displayed on the right side.
 
-  ![Mapping oversell](../../Assets/Screenshots/Channels/Settings/Connections/Shopify/ETLOversells.png "[Mapping oversell]")
+  ![Mapping oversell](../../Assets/Screenshots/DataHub/Settings/ETL/Shopify/ETLOversells.png "[Mapping oversell]")
 
 3. Click the *Extension* drop-down list in the *Settings* section and select the **Constant value** option.
   The *Configuration* section is displayed below the *Settings* section.
 
 4. Click the *Allow oversells* drop-down list in the *Configuration* section and select the **No** option.
 
-  ![Constant value oversell](../../Assets/Screenshots/Channels/Settings/Connections/Shopify/ETLOversellsConstant.png "[Constant value oversell]")
+  ![Constant value oversell](../../Assets/Screenshots/DataHub/Settings/ETL/Shopify/ETLOversellsConstant.png "[Constant value oversell]")
 
 5. Click the [SAVE] button in the upper right corner.   
   The changes have been saved. The *Settings* section is hidden. The assigned mapping is displayed in the list of attribute mappings on the left side.
@@ -189,19 +189,19 @@ By default, the corresponding attribute mapping is already configured as describ
 1. Click the attribute set mapping from the *PIM basic set* to the Shopify attribute set in the list of attribute set mappings.   
   The *Mapping from PIM basic set to "Shopify attribute set name"* view is displayed.
 
-  ![Mapping Shopify](../../Assets/Screenshots/DataHub/Settings/ETL/MappingShopify.png "[Mapping Shopify]")
+  ![Mapping Shopify](../../Assets/Screenshots/DataHub/Settings/ETL/Shopify/MappingShopify.png "[Mapping Shopify]")
 
 2. Click the row of the *Taxes* destination attribute on the left side.   
   The *Settings* section for the *Taxes* attribute mapping is displayed on the right side.
 
-  ![Mapping taxes](../../Assets/Screenshots/Channels/Settings/Connections/Shopify/ETLTaxes.png "[Mapping taxes]")
+  ![Mapping taxes](../../Assets/Screenshots/DataHub/Settings/ETL/Shopify/ETLTaxes.png "[Mapping taxes]")
 
 3. Click the *Extension* drop-down list in the *Settings* section and select the **Constant value** option.
   The *Configuration* section is displayed below the *Settings* section.
 
 4. Enable the *Taxes* toggle in the *Configuration* section.
 
-  ![Constant value taxes](../../Assets/Screenshots/Channels/Settings/Connections/Shopify/ETLTaxesConstant.png "[Constant value taxes]")
+  ![Constant value taxes](../../Assets/Screenshots/DataHub/Settings/ETL/Shopify/ETLTaxesConstant.png "[Constant value taxes]")
 
 5. Click the [SAVE] button in the upper right corner.   
   The changes have been saved. The *Settings* section is hidden. The assigned mapping is displayed in the list of attribute mappings on the left side.
@@ -229,19 +229,19 @@ By default, the corresponding attribute mapping is already configured as describ
 1. Click the attribute set mapping from the *PIM basic set* to the Shopify attribute set in the list of attribute set mappings.   
   The *Mapping from PIM basic set to "Shopify attribute set name"* view is displayed.
 
-  ![Mapping Shopify](../../Assets/Screenshots/DataHub/Settings/ETL/MappingShopify.png "[Mapping Shopify]")
+  ![Mapping Shopify](../../Assets/Screenshots/DataHub/Settings/ETL/Shopify/MappingShopify.png "[Mapping Shopify]")
 
 2. Click the row of the *Dispatch required* destination attribute on the left side.   
   The *Settings* section for the *Dispatch required* attribute mapping is displayed on the right side.
 
-  ![Mapping dispatch](../../Assets/Screenshots/Channels/Settings/Connections/Shopify/ETLDispatch.png "[Mapping dispatch]")
+  ![Mapping dispatch](../../Assets/Screenshots/DataHub/Settings/ETL/Shopify/ETLDispatch.png "[Mapping dispatch]")
 
 3. Click the the *Extension* drop-down list in the *Settings* section and select the **Constant value** option.
   The *Configuration* section is displayed below the *Settings* section.
 
 4. Enable the *Dispatch required* toggle in the *Configuration* section.
 
-  ![Constant value dispatch](../../Assets/Screenshots/Channels/Settings/Connections/Shopify/ETLDispatchConstant.png "[Constant value dispatch]")
+  ![Constant value dispatch](../../Assets/Screenshots/DataHub/Settings/ETL/Shopify/ETLDispatchConstant.png "[Constant value dispatch]")
 
 5. Click the [SAVE] button in the upper right corner.   
   The changes have been saved. The *Settings* section is hidden. The assigned mapping is displayed in the list of attribute mappings on the left side.
