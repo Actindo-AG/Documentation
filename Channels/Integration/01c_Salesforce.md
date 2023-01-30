@@ -17,8 +17,6 @@ Please note that these two jobs must be configured in your Salesforce account in
 
 Create a job to import inventory-related data.
 
-[comment]: <> (Was wird genau importiert in diesem Job?)
-
 #### Prerequisites
 
 - A Salesforce account has been created.
@@ -190,6 +188,8 @@ Create a job to import product-related data.
 
 11. Click the ![Add](../../Assets/Icons/Plus07.png "[Add]") (Add) button below the first flow.
   A new flow has been added below the first flow. 
+
+[comment]: <> (Ergebnis passt nicht ganz mit Screenshot, wo alle Steps sind schon hinzugefügt worden. Das gilt für alle Schritte. Beschreibung ändern oder so lassen?)
 
 12. Select the **Organization** option as a scope for the flow.
 
@@ -494,7 +494,7 @@ The corresponding API settings must be configured in Salesforce as described bel
 
 ### Generate an access key
 
-An access key must be generated to be specified as an access token in the *Omni-Channel* module when establishing the connection to Salesforce. The access key is site-specific, that means, an access key must be generated for each shop.
+An access key must be generated to be specified as an access token in the *Omni-Channel* module when establishing the connection to Salesforce. The access key is site-specific, that means that an access key must be generated for each shop.
 
 [comment]: <> (Stimmt das so?)
 
@@ -505,14 +505,16 @@ An access key must be generated to be specified as an access token in the *Omni-
 
 #### Procedure
 
-*Salesforce Commerce Cloud Business Manager*
+*Salesforce Commerce Cloud Business Manager > Administration*
 
-1. Go to your user profile via the *Administration* tab or the *Administration feature lookup*.  
+![Administration](../../Assets/Screenshots/Channels/Settings/Connections/SFCC/Administration.png "[Administration]")
+
+1. Go to your user profile via the *Administration* context menu or the *Administration feature lookup*.  
  The *My profile* page is displayed.
 
  ![My profile](../../Assets/Screenshots/Channels/Settings/Connections/SFCC/MyProfile.png "[My profile]")
 
-[comment]: <> (Alternativen Pfad? Evtl. Screenshot weiter verabeiten)
+[comment]: <> (Alternativen Pfad oben? Ggf. My Profile Screenshot weiter verabeiten)
 
 2. Click the [Manage Access Keys] button.  
   The *Manage Access Keys* page is displayed.
@@ -522,16 +524,19 @@ An access key must be generated to be specified as an access token in the *Omni-
 
   ![Generate Access Key](../../Assets/Screenshots/Channels/Settings/Connections/SFCC/GenerateAccessKey.png "[Generate Access Key]")
 
-4. Click the drop-down list to and select the *Agent User Login and OCAPI* option as authentication scope.
+4. Click the drop-down list and select the *Agent User Login and OCAPI* option as authentication scope.
 
 5. Click the [Generate] button.  
-  The access key is generated. The *Generate Access Key* window displays an access key with the following notice: *After you close this window, you can't view or download teh access key again. We recommend copying it or clicking **Download** to download a CSV file with your access key*.
+  The access key is generated. The *Generate Access Key* window displays an access key with the following notice: *After you close this window, you can't view or download the access key again. We recommend copying it or clicking **Download** to download a CSV file with your access key*.
 
     [Info] The access key is subsequently needed to establish the connection with the Salesforce Commerce Cloud in the *Omni-Channel* module. Once the *Generate Access Key* window is closed, the access key cannot be read anymore and therefore must be noted at this point and kept safe for future reference.
 
   ![Access Key created](../../Assets/Screenshots/Channels/Settings/Connections/SFCC/AccessKeyCreated.png "[Access Key created]")
 
-6. Copy the key to your clipboard or click the [Download] button and click the [Close] button.
+6. Copy the key to your clipboard or click the [Download] button.  
+  The access key is copied or downloaded to be later retrieved.
+
+7. Click the [Close] button.  
   The generated access key is saved in the system and listed in the *Scope* section of the *Manage Access Keys* page. 
 
   ![Manage access keys list](../../Assets/Screenshots/Channels/Settings/Connections/SFCC/ManageAccessKeys_List.png "[Manage access keys list]")
@@ -543,7 +548,7 @@ Create the connection to a Salesforce shop using the Salesforce Commerce Cloud d
 
 #### Prerequisites
 
-- The Salesforce Commerce Cloud platform has been configured, see [Configure the Salesforce Commerce Cloud platform](#configure-the-salesforce-commerce-cloud-platform). 
+- The Salesforce Commerce Cloud Business Manager has been configured, see [Configure the Salesforce Commerce Cloud Business Manager](#configure-the-salesforce-commerce-cloud-business-manager). 
 - The *Salesforce Commerce Cloud* plugin has been installed.  
 
 > [Info] For the *Omni-Channel* module version 4.1.0 or higher, the *Salesforce Commerce Cloud* plugin is required in at least version 1.2.0.
