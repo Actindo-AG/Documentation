@@ -49,8 +49,7 @@ Additional attributes for the attribute set have been created, see [Create an at
     - [Create an attribute set without attribute inheritance](#create-an-attribute-set-without-attribute-inheritance)
     - [Create an attribute set with attribute inheritance](#create-an-attribute-set-with-attribute-inheritance)
     - [Create an attribute set with attribute copying](#create-an-attribute-set-with-attribute-copying)
-
-      > [Info] Test info
+   	
 
 
 ### Create an attribute set without attribute inheritance
@@ -70,12 +69,12 @@ The basic data of the attribute set has been completed, see [Define the attribut
 ![Create attribute set inheritance](../../Assets/Screenshots/PIM/Settings/AttributeSets/CreateAttributeSetInheritance.png "[Create attribute set inheritance]")
 
 1. Select the **No inheritance** option in the *Inherit/Copy values from* drop-down list.   
-  The *Inherit configuration* toggle and the *Inherit/Copy values* drop-down list are locked.
+    The *Inherit configuration* toggle and the *Inherit/Copy values* drop-down list are locked.
 
 2. Click the [SAVE] button.   
-  The new attribute set has been saved. The *Create attribute set* view changes to the *Edit attribute set* view. The *Attribute set created* pop-up window is displayed.   
+    The new attribute set has been saved. The *Create attribute set* view changes to the *Edit attribute set* view. The *Attribute set created* pop-up window is displayed.   
 
-   ![Attribute set created](../../Assets/Screenshots/PIM/Settings/AttributeSets/AttributeSetCreated.png "[Attribute set created]")
+    ![Attribute set created](../../Assets/Screenshots/PIM/Settings/AttributeSets/AttributeSetCreated.png "[Attribute set created]")
 
 3. Click the ![Back](../../Assets/Icons/Back02.png "[Back]") (Back) button in the upper left corner to return to the list of attribute sets or proceed to edit the attribute set, see [Edit an attribute set](#edit-an-attribute-set).
 
@@ -105,7 +104,7 @@ The basic data of the attribute set has been completed, see [Define the attribut
 3. Select the **Inherit** option in the *Inherit/Copy values* drop-down list.
 
 4. Click the [SAVE] button.   
-  The new attribute set has been saved. The *Create attribute set* view changes to the *Edit attribute set* view. The *Attribute set created* pop-up window is displayed.   
+    The new attribute set has been saved. The *Create attribute set* view changes to the *Edit attribute set* view. The *Attribute set created* pop-up window is displayed.   
 
     ![Attribute set created](../../Assets/Screenshots/PIM/Settings/AttributeSets/AttributeSetCreated.png "[Attribute set created]")  
 
@@ -136,9 +135,9 @@ The basic data of the attribute set has been completed, see [Define the attribut
 3. Select the **Copy once** option in the *Inherit/Copy values* drop-down list.
 
 4. Click the [SAVE] button.   
-  The new attribute set has been saved. The *Create attribute set* view changes to the *Edit attribute set* view. The *Attribute set created* pop-up window is displayed.   
+    The new attribute set has been saved. The *Create attribute set* view changes to the *Edit attribute set* view. The *Attribute set created* pop-up window is displayed.   
 
-   ![Attribute set created](../../Assets/Screenshots/PIM/Settings/AttributeSets/AttributeSetCreated.png "[Attribute set created]")  
+    ![Attribute set created](../../Assets/Screenshots/PIM/Settings/AttributeSets/AttributeSetCreated.png "[Attribute set created]")  
 
 5. Click the ![Back](../../Assets/Icons/Back02.png "[Back]") (Back) button in the upper left corner to return to the list of attribute sets or proceed to [edit the attribute set](#edit-an-attribute-set).
 
@@ -169,12 +168,12 @@ Add a new attribute to an attribute set to define any further specifications.
 ![Attributes](../../Assets/Screenshots/PIM/Settings/AttributeSets/AttributeSets.png "[Attributes]")
 
 1. Click the attribute set you want to edit in the list of attribute sets.   
-  The *Edit attribute set* view is displayed.
+    The *Edit attribute set* view is displayed.
 
-   ![Edit attribute set](../../Assets/Screenshots/PIM/Settings/AttributeSets/EditAttributeSet.png "[Edit attribute set]")
+    ![Edit attribute set](../../Assets/Screenshots/PIM/Settings/AttributeSets/EditAttributeSet.png "[Edit attribute set]")
 
 2. Click the ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) button in the *Assigned attributes* section.   
-  The *Add attributes* view is displayed. All active attributes that are not yet included in the selected attribute set are displayed in the list.
+    The *Add attributes* view is displayed. All active attributes that are not yet included in the selected attribute set are displayed in the list.
 
     ![Add attribute](../../Assets/Screenshots/PIM/Settings/AttributeSets/AddAttributes.png "[Edit attribute set]")
 
@@ -184,7 +183,7 @@ Add a new attribute to an attribute set to define any further specifications.
   The editing toolbar is displayed above the list.
 
 4. Click the [ADD] button in the editing toolbar.   
-  The selected attributes have been added to the attribute set. The *Add attributes* view is closed. The *Edit attribute set* view is displayed again. The added attributes are displayed in the *Assigned attributes* section.
+    The selected attributes have been added to the attribute set. The *Add attributes* view is closed. The *Edit attribute set* view is displayed again. The added attributes are displayed in the *Assigned attributes* section.
 
     > [Info] Any changes to the assigned attributes are automatically saved in the attribute set.
 
@@ -208,18 +207,18 @@ Remove an attribute from an attribute set to limit the specifications. Inherited
 ![Attributes](../../Assets/Screenshots/PIM/Settings/AttributeSets/AttributeSets.png "[Attributes]")
 
 1. Click the attribute set you want to edit in the list of attribute sets.   
-  The *Edit attribute set* view is displayed.
+    The *Edit attribute set* view is displayed.
 
     ![Edit attribute set](../../Assets/Screenshots/PIM/Settings/AttributeSets/EditAttributeSet.png "[Edit attribute set]")
 
 2. In the *Assigned attributes* section, select the checkboxes of the attributes you want to remove from the attribute set.   
-  The editing toolbar is displayed above the list.
+    The editing toolbar is displayed above the list.
 
 3. Click the ![Delete](../../Assets/Icons/Trash03.png "[Delete]") (Delete) button in the editing toolbar.   
 
     > [Info] If the selected attributes cannot be removed from the attribute set, an error message is displayed in the upper right corner.
 
-  The selected attributes have been removed from the attribute set. The list of attributes is updated.
+    The selected attributes have been removed from the attribute set. The list of attributes is updated.
 
 > [Info] Any changes to the assigned attributes are automatically saved in the attribute set.
 
@@ -250,21 +249,21 @@ An attribute set has been created, see [Create an attribute set](#create-an-attr
 ![Attributes](../../Assets/Screenshots/PIM/Settings/AttributeSets/AttributeSets.png "[Attributes]")
 
 1. Click the attribute set you want to edit in the list of attribute sets.   
-  The *Edit attribute set* view is displayed.
+    The *Edit attribute set* view is displayed.
 
-  ![Edit attribute set](../../Assets/Screenshots/PIM/Settings/AttributeSets/EditAttributeSet.png "[Edit attribute set]")
+    ![Edit attribute set](../../Assets/Screenshots/PIM/Settings/AttributeSets/EditAttributeSet.png "[Edit attribute set]")
 
 2. Click the ![Settings](../../Assets/Icons/Settings01.png "[Settings]") (Settings) button in the *Assigned attributes* section.   
-  The *Required* column in the list of attributes is unlocked. The color of the ![Settings](../../Assets/Icons/Settings01.png "[Settings]") (Settings) button switches to blue.
+    The *Required* column in the list of attributes is unlocked. The color of the ![Settings](../../Assets/Icons/Settings01.png "[Settings]") (Settings) button switches to blue.
 
-  ![Required](../../Assets/Screenshots/PIM/Settings/AttributeSets/Required.png "[Required]")
+    ![Required](../../Assets/Screenshots/PIM/Settings/AttributeSets/Required.png "[Required]")
 
 3. Enable or disable the *Required* toggle in the *Required* column to define whether or not an attribute value should be required in the selected attribute set.
 
     > [Info] Be aware that you can only edit the *Required* option for attributes that are not inherited.
 
 4. Click the ![Settings](../../Assets/Icons/Settings02.png "[Settings]") (Settings) button in the *Assigned attributes* section.       
-  The *Required* column in the list of attributes is locked. All changes in the attribute list have been saved.
+    The *Required* column in the list of attributes is locked. All changes in the attribute list have been saved.
 
 5. Click the ![Back](../../Assets/Icons/Back02.png "[Back]") (Back) button in the upper left corner to return to the list of attribute sets or proceed to [edit the attribute set](#edit-an-attribute-set).
 
@@ -288,15 +287,15 @@ An attribute set has been created, see [Create an attribute set](#create-an-attr
 ![Attributes](../../Assets/Screenshots/PIM/Settings/AttributeSets/AttributeSets.png "[Attributes]")
 
 1. Click the attribute set you want to deactivate in the list of attribute sets.   
-  The *Edit attribute set* view is displayed.
+    The *Edit attribute set* view is displayed.
 
-  ![Edit attribute set](../../Assets/Screenshots/PIM/Settings/AttributeSets/EditAttributeSet.png "[Edit attribute set]")
+    ![Edit attribute set](../../Assets/Screenshots/PIM/Settings/AttributeSets/EditAttributeSet.png "[Edit attribute set]")
 
 2. Disable the *Active* toggle.
 
     > [Info] If you want to reactivate an attribute set, enable the *Active* toggle.
 
 3. Click the [SAVE] button.   
-  The attribute set has been deactivated. The *Edit attribute set* view is closed.
+   The attribute set has been deactivated. The *Edit attribute set* view is closed.
 
 4. Press the **F5** key to initialize the *Core1 Platform* and to apply the changes.

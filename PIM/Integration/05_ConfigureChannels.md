@@ -1,6 +1,6 @@
 [!!DataHub](../../DataHub/Overview/01_General.md)
 [!!User interface Channels](../UserInterface/03e_Channels.md)
-[!!Create a channel in DataHub](../../DataHub/Integration/04_ManageChannels.md#create-a-channel)
+[!!Manage the channels in DataHub](../../DataHub/Integration/04_ManageChannels.md)
 
 
 # Configure the channel settings
@@ -26,4 +26,4 @@ No prerequisites to fulfill.
     > [Info] At least one channel has to be activated.
 
 2. Press the **F5** key to initialize the *Core1 Platform*.   
-  The selected channel has been activated in the *PIM* module.
+    The selected channel has been activated in the *PIM* module.

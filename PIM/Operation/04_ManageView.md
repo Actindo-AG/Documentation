@@ -29,12 +29,12 @@ At least two languages have been created and activated in the *PIM* module, see 
 ![Product list](../../Assets/Screenshots/PIM/Products/List/Products.png "[Product list]")
 
 1. Click the *Language* drop-down list in the left column.  
-  All languages that are activated in the *PIM* module are displayed in the list.   
+    All languages that are activated in the *PIM* module are displayed in the list.   
 
     > [Info] For detailed information about activating a language in the *PIM* module, see [Configure the language settings](../Integration/04_ConfigureLanguages.md).
 
 2. Select the desired language in the *Language* drop-down list.   
-  The multi-language values in the columns have been changed to the values in the selected language. All single language values remain unchanged.
+    The multi-language values in the columns have been changed to the values in the selected language. All single language values remain unchanged.
 
     > [Info] If a product has no attribute value defined in the selected language, the value in the corresponding columns remains blank.
 
@@ -57,14 +57,14 @@ At least two channels have been created and activated in the *PIM* module, see [
 ![Product list](../../Assets/Screenshots/PIM/Products/List/Products.png "[Product list]")
 
 1. Click the *Channel* drop-down list in the left column.  
-  All channels that are activated in the *PIM* module are displayed in the list.   
+    All channels that are activated in the *PIM* module are displayed in the list.   
 
     > [Info] For detailed information about activating a channel in the *PIM* module, see [Configure the channel settings](../Integration/05_ConfigureChannels.md).
 
 2. Select the desired channel in the *Channel* drop-down list.   
-  The multi-channel values in the columns have been changed to the values in the selected channel. All single channel values remain unchanged.
+    The multi-channel values in the columns have been changed to the values in the selected channel. All single channel values remain unchanged.
 
-    > [Info]  If a product has no attribute value defined in the selected channel, the value in the corresponding column remains blank.
+    > [Info] If a product has no attribute value defined in the selected channel, the value in the corresponding column remains blank.
 
 
 
@@ -85,17 +85,17 @@ You can select a product category to limit the number of products to those assig
 ![Product list](../../Assets/Screenshots/PIM/Products/List/Products.png "[Product list]")
 
 1. Click the *Catalog* drop-down list in the left column.  
-  All available catalogs are displayed in the list.   
+    All available catalogs are displayed in the list.   
 
     > [Info] For detailed information about creating a catalog or categories, see [Manage the catalogs](../Integration/06_ManageCatalogs.md).
 
 2. Select the desired catalog in the *Catalog* drop-down list.      
-  All corresponding categories and sub-categories are displayed below the selected catalog.
+    All corresponding categories and sub-categories are displayed below the selected catalog.
 
 3. Select the desired category or sub-category in the left column.   
-  Only those products that are assigned to the selected category or sub-category are displayed in the list of products on the right side.
+    Only those products that are assigned to the selected category or sub-category are displayed in the list of products on the right side.
 
-  ![Select category](../../Assets/Screenshots/PIM/Products/List/SelectCategory.png "[Select category]")
+    ![Select category](../../Assets/Screenshots/PIM/Products/List/SelectCategory.png "[Select category]")
 
     > [Info] When you create a product, it will be automatically assigned to the currently selected category.
 
@@ -115,13 +115,15 @@ No prerequisites to fulfill.
 ![Product list](../../Assets/Screenshots/PIM/Products/List/Products.png "[Product list]")
 
 1. Click the *Variants* drop-down list at the top of the product list.   
-  The options below are displayed:
-    - **All products**: All products and their variants are displayed in the product list.   
-    - **Hide variants**: No variants are displayed in the product list.
+    The options below are displayed:
+    - **All products**   
+        All products and their variants are displayed in the product list.   
+    - **Hide variants**   
+        No variants are displayed in the product list.
 
 
 2. Select the desired variant view in the *Variants* drop-down list.
-  Depending on the selection, the product list displays all products including their variants or only the single and master products.
+    Depending on the selection, the product list displays all products including their variants or only the single and master products.
 
 
 
@@ -165,20 +167,20 @@ No prerequisites to fulfill.
 
 
 4. Click the ![Points](../../Assets/Icons/Points01.png "[Points]") (Points) button next to the *View* drop-down list.   
-  The view context menu is displayed.
+    The view context menu is displayed.
 
-  ![View context menu](../../Assets/Screenshots/PIM/Products/List/ViewContextMenu.png "[View context menu]")
+    ![View context menu](../../Assets/Screenshots/PIM/Products/List/ViewContextMenu.png "[View context menu]")
 
-  > [Info] If no view is selected when clicking the ![Points](../../Assets/Icons/Points01.png "[Points]") (Points) button, only the *+ create* menu entry is displayed in the context menu.
+    > [Info] If no view is selected when clicking the ![Points](../../Assets/Icons/Points01.png "[Points]") (Points) button, only the *+ create* menu entry is displayed in the context menu.
 
 5. Click the *+ create* menu entry in the context menu.   
-  The *Create view* window is displayed.
+    The *Create view* window is displayed.
 
-  ![Create view](../../Assets/Screenshots/PIM/Products/List/CreateView.png "[Create view]")
+    ![Create view](../../Assets/Screenshots/PIM/Products/List/CreateView.png "[Create view]")
 
 6. Enter a name for the view in the *Name* field.
 
 7. Click the [SAVE] button.   
-  The view has been saved and preselected in the *View* drop-down list.
+    The view has been saved and preselected in the *View* drop-down list.
 
-  > [Info] To change the view, click the *View* drop-down list and select the view you want to display. The view will change depending on the saved settings.
+    > [Info] To change the view, click the *View* drop-down list and select the view you want to display. The view will change depending on the saved settings.
