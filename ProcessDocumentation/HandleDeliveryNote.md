@@ -2,13 +2,35 @@
 
 ![Handle delivery note](../Assets/Screenshots/ProcessDocumentation/HandleDeliveryNotes.png "[Handle delivery note]")
 
-The *Handle delivery note* workflow is used to process the delivery of the order handled in the [*Import order and create delivery note*](./ImportOrderCreateDeliveryNote.md) workflow. The aim of this process is to ship the order to the customer. The process is triggered by the subordinate [*Import order and create delivery note*](./ImportOrderCreateDeliveryNote.md) process.
+**Short description**
 
-In a first step, the shipments in the *Omni-Channel* module are synchronized, that means, that the deliveries are created in the *Omni-Channel* module and uploaded asynchronously by the driver to the marketplace or webshop.    
-Then, an invoice is created from the delivery note. The invoice is processed in two different ways: 
-On the one hand, the invoice is exported to an external system, for example, an accounting system.   
-On the other hand, the invoice is transferred to an external logistics service provider (LSP) by the *Fulfillment* module. In the *Fulfillment* module, a dispatch note is created and transferred to the LSP. If required, different LSP can be implemented, depending on whether the delivery is sent to Germany or to a foreign country. As soon as the LSP reports the shipment of the order, the shop status is being updated to **closed** and the dispatch note is processed for another sync.    
-At the end of this workflow, the order has been sent to the customer.
+The *Handle delivery note* workflow is used to process the delivery of the order handled in the [*Import order and create delivery note*](./ImportOrderCreateDeliveryNote.md) workflow. 
+
+**Summary**
+
+|    |    |  
+|----|----|
+|**Purpose** | Ship the order to the customer. |
+|**Affected entities** | Actindo.Modules.Actindo.Channels.Models.Order <br> Actindo.Extensions.Actindo.UCSProductSync.Models.RetailSuiteOrder <br> Actindo.Modules.RetailSuite.RetailSuiteFaktBase.Models.BusinessDocument <br> Actindo.Modules.Actindo.Fulfillment.Models.DispatchNote <br> Actindo.Modules.Actindo.Channels.Models.Shipment (indirectly)|
+|**Included plugins** | Workflows <br> Omni-Channel <br> PIM <br> Order Management <br> Warehouse <br> Accounting <br> Taxes <br> Fulfillment <br> DataHub | 
+|**Included thrid party software** | (optional) |   
+|**Trigger** |  The process is triggered by the subordinate [*Import order and create delivery note*](./ImportOrderCreateDeliveryNote.md) process. | 
+|**Alternative workflows** |   |
+|    |     |
+
+
+**Included steps**
+
+- Synchronization of the shipments in the *Omni-Channel* module
+- Delivery creation in the *Omni-Channel* module and upload to the channel (marketplace or webshop) 
+- Invoice creation from the delivery note
+- Invoice export to an external system, for example an accounting system (optional)
+- Dispatch note creation in the *Fulfillment* module
+- Dispatch note transfer to an external logistics provider
+- Differentiation between multiple LSPs (optional)
+- Shipment status update in the channel after report by the LSP
+- Synchronitation of the dispatch note
+
 
 
 ## How to set up a delivery note workflow
@@ -94,19 +116,7 @@ In the following, it is described how to build a workflow template that is cover
 ## Description of the *Handle delivery note* process
 
 Within a workflow, several actions are performed. If a certain number of actions are executed in a specific order with a common objective that can only be achieved by executing all of these actions, we speak of a so-called *snippet*. 
-In the following, all snippets and single actions within the process as well as their start and end place are described in detail, specifying their function and settings.
-
-### Start place
-
-As soon as a delivery note is put in the start place by the subordinate [*Import order and create delivery note*](./ImportOrderCreateDeliveryNote.md) process, the *Handle delivery note* process is triggered.
-
-#### Settings
-
-- *Key*     
-  Input
-
-- *DataContainer*   
-  Modules.RetailSuite.RetailSuiteFaktBase.Models.BusinessDocument
+In the following, all snippets and single actions within the process are described in detail, specifying their function and functional settings.
 
 
 ### Sync shipments
@@ -117,20 +127,10 @@ The *Sync shipments* action is used to create the *shipment* entity in the *Omni
 
 #### Settings
 
+The *Description* field contains the API endpoint that is addressed in this action. The *Key*, *Label*, *Queue type* and *Max tries* field have no functional meaning for the action.  
+
 - *Description*   
   .syncShipments | syncShipments (/Actindo.Extensions.Actindo.UCSProductSync.OrderStatusSync.syncShipments)
-
-- *Key*    
-  t-Extensions.Actindo.UCSProductSync.OrderStatusSync.syncShipments-0
-
-- *Label*    
-  Sync shipments
-
-- *Queue type*   
-  Default
-
-- *Max tries*
-  1
 
 
 ### Create invoice 
@@ -142,20 +142,10 @@ In this template case, the incoming delivery note is copied. Via the *origin* ou
 
 #### Settings
 
+The *Description* field contains the API endpoint that is addressed in this action. The *Key*, *Label*, *Queue type* and *Max tries* field have no functional meaning for the action.  
+
 - *Description*   
   .copy | Create a copy of the given business document (/Actindo.Modules.RetailSuite.RetailSuiteFaktBase.BusinessDocuments.copy)
-
-- *Key*    
-  t-Modules.RetailSuite.RetailSuiteFaktBase.BusinessDocuments.copy-0
-
-- *Label*    
-  Create Invoice
-
-- *Queue type*   
-  Default
-
-- *Max tries*
-  1
 
 **Static inputs**
 
@@ -173,20 +163,10 @@ The *Post invoice to accounting* action is used to post the document, dependent 
 
 #### Settings
 
+The *Description* field contains the API endpoint that is addressed in this action. The *Key*, *Label*, *Queue type* and *Max tries* field have no functional meaning for the action.  
+
 - *Description*   
   .post | Post a business document to stock and/or accounting (/Actindo.Modules.RetailSuite.RetailSuiteFaktBase.BusinessDocuments.post)
-
-- *Key*    
-  t-Modules.RetailSuite.RetailSuiteFaktBase.BusinessDocuments.post-0
-
-- *Label*    
-  Post Invoice to Accounting
-
-- *Queue type*   
-  Default
-
-- *Max tries*
-  1
 
 **Static inputs**
 
@@ -214,20 +194,10 @@ The *Duplicate input action* action is used to duplicate the input and output it
 
 #### Settings
 
+The *Description* field contains the API endpoint that is addressed in this action. The *Key*, *Label*, *Queue type* and *Max tries* field have no functional meaning for the action.  
+
 - *Description*   
   Multiply input action
-
-- *Key*    
-  t-deprecated_duplicate_input-0
-
-- *Label*    
-  Duplicate input action
-
-- *Queue type*   
-  Default
-
-- *Max tries*
-  1
 
 
 ### Build request
@@ -238,20 +208,10 @@ The *Build request* action is used to determine the delivery country in the invo
 
 #### Settings
 
+The *Description* field contains the API endpoint that is addressed in this action. The *Key*, *Label*, *Queue type* and *Max tries* field have no functional meaning for the action.  
+
 - *Description*   
   Execute PHP Code
-
-- *Key*    
-  t-executePHP-0
-
-- *Label*    
-  Build Request
-
-- *Queue type*   
-  Default
-
-- *Max tries*
-  1
 
 **Configuration**
 
@@ -277,20 +237,10 @@ The *Create dispatch* action is used to create and persist a dispatch note in th
 
 #### Settings
 
+The *Description* field contains the API endpoint that is addressed in this action. The *Key*, *Label*, *Queue type* and *Max tries* field have no functional meaning for the action.  
+
 - *Description*   
   .create | Creates and persists a new dispatch note from an existing business document. (/Actindo.Modules.Actindo.Fulfillment.DispatchNotes.create)
-
-- *Key*    
-  t-Modules.Actindo.Fulfillment.DispatchNotes.create-0
-
-- *Label*    
-  Create Dispatch
-
-- *Queue type*   
-  Default
-
-- *Max tries*
-  1
 
 **Static inputs**
 
@@ -305,20 +255,10 @@ The *Export dispatch to LSP* action is used to export the dispatch note through 
 
 #### Settings
 
+The *Description* field contains the API endpoint that is addressed in this action. The *Key*, *Label*, *Queue type* and *Max tries* field have no functional meaning for the action.  
+
 - *Description*   
   .export | Exports the dispatch note through its configured fulfillment driver (/Actindo.Modules.Actindo.Fulfillment.DispatchNotes.export)
-
-- *Key*    
-  t-Modules.Actindo.Fulfillment.DispatchNotes.export-0
-
-- *Label*    
-  Export Dispatch to LSP
-
-- *Queue type*   
-  Default
-
-- *Max tries*
-  1
 
 
 ### Wait for dispatch note update
@@ -329,20 +269,10 @@ The *Wait for dispatch note update* action is used to wait for the feedback from
 
 #### Settings
 
+The *Description* field contains the API endpoint that is addressed in this action. The *Key*, *Label*, *Queue type* and *Max tries* field have no functional meaning for the action.  
+
 - *Description*   
   Wait for dispatch note update
-
-- *Key*    
-  t-Actindo\Modules\Actindo\Fulfillment\Components\Actions\WaitForDispatchNoteAction-0
-
-- *Label*    
-  Wait for dispatch note update
-
-- *Queue type*   
-  Default
-
-- *Max tries*
-  1
 
 
 ### Wait for parallel input
@@ -353,20 +283,10 @@ The *Wait for parallel input* action is used to wait for two inputs to be receiv
 
 #### Settings
 
+The *Description* field contains the API endpoint that is addressed in this action. The *Key*, *Label*, *Queue type* and *Max tries* field have no functional meaning for the action.  
+
 - *Description*   
   Wait for parallel input
-
-- *Key*    
-  t-deprecated_wait_for_parallel_input-0
-
-- *Label*    
-  Wait for parallel input
-
-- *Queue type*   
-  Default
-
-- *Max tries*
-  1
 
 
 ### Sync shipments
@@ -377,33 +297,9 @@ The *Sync shipments* action is used to change the *shipment* entity status to **
 
 #### Settings
 
+The *Description* field contains the API endpoint that is addressed in this action. The *Key*, *Label*, *Queue type* and *Max tries* field have no functional meaning for the action.  
+
 - *Description*   
   .syncShipments | syncShipments (/Actindo.Extensions.Actindo.UCSProductSync.OrderStatusSync.syncShipments)
-
-- *Key*    
-  t-Extensions.Actindo.UCSProductSync.OrderStatusSync.syncShipments-1
-
-- *Label*    
-  Sync shipments
-
-- *Queue type*   
-  Default
-
-- *Max tries*
-  1
-
-
-### End place
-
-The process is completed as soon as an invoice and a delivery note have been put in the end place.
-
-#### Settings
-
-- *Key*     
-  Output
-
-- *DataContainer*   
-  Modules.RetailSuite.RetailSuiteFaktBase.Models.BusinessDocument
-
 
 

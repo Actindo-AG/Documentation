@@ -1,13 +1,32 @@
 # Import order and create delivery notes
 
-![Import order and create delivery notes](../Assets/Screenshots/ProcessDocumentation/ImportChannelsOrderInOMSAndCreateDeliveryNotes.png "[Import order and create delivery notes]")
+![Import order and create delivery notes](../Assets/Screenshots/ProcessDocumentation/ImportChannelsOrderInOMSAndCreateDeliveryNotes_New.png "[Import order and create delivery notes]")
 
-The *Import order and create delivery note* workflow is used to import orders from the *Omni-Channel* module to the *Order management* module, generate a leading document and, if required, a delivery note and trigger the further delivery process. The delivery process is handled in the subordinate [*Handle delivery note*](./HandleDeliveryNote.md) workflow. The aim of this process is to import the order to the *Order management* module. The process is triggered as soon as an order is completely imported from the channel (marketplace or webshop) to *Omni-Channel*.
+**Short description**
 
-In a first step, the order is imported to the *Order management* module and a leading document is created. The type of the document depends on the type which is defined by customer in the ETL mapping. Mostly, an order confirmation or a cash invoice for POS is created.
-If a cash invoice has been created, no further steps are required, as no delivery is necessary. If needed, a payment sync from the *Venduo POS* module to the *Accounting* module can be performed, otherwise, the workflow ends with the cash invoice. 
-If an order confirmation or any other document than a cash invoice has been created as a leading document, this document is further processed. Depending on whether a payment is required for further processing, either the receipt of payment is awaited or the document is processed regardless of payment. Anyway, a delivery note is created and the subordinate [*Handle delivery note*](./HandleDeliveryNote.md) workflow is started. The delivery note is important to handle that the order leaves the warehouse and is delivered, because the leading document only reserves the stock in the warehouse.
-At the end of this process, the order has been processed and the delivery process has been triggered.
+The *Import order and create delivery note* workflow is used to import orders from the *Omni-Channel* module to the *Order management* module, generate a leading document and, if required, a delivery note and trigger the further delivery process. The delivery process itself is handled in the subordinate [*Handle delivery note*](./HandleDeliveryNote.md) workflow. 
+
+**Summary**
+
+|    |    |  
+|----|----|
+|**Purpose** | Import the order to the *Order management* module. |
+|**Affected entities** | Actindo.Modules.Actindo.Channels.Models.Order <br> Actindo.Extensions.Actindo.UCSProductSync.Models.RetailSuiteOrder <br> Actindo.Modules.RetailSuite.RetailSuiteFaktBase.Models.BusinessDocument |
+|**Included plugins** | Workflows <br> Omni-Channel <br> PIM <br> Order Management <br> Warehouse <br> Accounting <br> Taxes <br> Fulfillment <br> Venduo POS (optional) | 
+|**Included thrid party software** | None |   
+|**Trigger** | The process is triggered as soon as an order is completely imported from the channel (marketplace or webshop) to *Omni-Channel*. | 
+|**Alternative workflows** |   |
+|    |     |
+
+
+**Included steps**
+
+- Order import from the *Omni-Channel* to the *Order management* module
+- Leading document creation
+- Payment sync from the *Venduo POS* module to the *Accounting* module (optional, if the *Venduo POS* module is installed)
+- Delivery note creation
+- Triggering of the subordinate [*Handle delivery note*](./HandleDeliveryNote.md) workflow
+
 
 
 ## How to set up an order import workflow
@@ -88,29 +107,16 @@ In the following, it is described how to build a workflow template that is cover
 ## Description of the *Import order and create delivery notes* process
 
 Within a workflow, several actions are performed. If a certain number of actions are executed in a specific order with a common objective that can only be achieved by executing all of these actions, we speak of a so-called *snippet*. 
-In the following, all snippets and single actions within the process as well as their start and end place are described in detail, specifying their function and settings.
-
-
-### Start place
-
-As soon as an order is completely imported from the channel (marketplace or webshop) to *Omni-Channel*, the *Import order and create delivery note* process is triggered. The order is put in the start place.
-
-#### Settings
-
-- *Key*     
-  Input
-
-- *DataContainer*   
-  Modules.Actindo.Channels.Models.Order
+In the following, all snippets and single actions within the process are described in detail, specifying their function and their functional settings.
 
 
 ### Import an order to OMS
 
 To import an order from the *Omni-Channel* module to the *Order management* module, the following four actions are required:
-- Setup order for export
-- Export base order
-- Export positions
-- Finish order export
+- [Setup order for export](#setup-order-for-export)
+- [Export base order](#export-base-order)
+- [Export positions](#export-positions)
+- [Finish order export](#finish-order-export)
 
 
 ### Setup order for export    
@@ -121,20 +127,10 @@ The *Setup order for export* action is used to prepare the order in the *Omni-Ch
 
 #### Settings
 
+The *Description* field contains the API endpoint that is addressed in this action. The *Key*, *Label*, *Queue type* and *Max tries* field have no functional meaning for the action.  
+
 - *Description*   
   .setupOrderExport | setting up ucssync order to be exported (/Actindo.Extensions.Actindo.UCSProductSync.RetailSuiteOrderSync.setupOrderExport)
-
-- *Key*    
-  t-Extensions.Actindo.UCSProductSync.RetailSuiteOrderSync.setupOrderExport-0
-
-- *Label*    
-  setupOrderExport
-
-- *Queue type*   
-  Default
-
-- *Max tries*
-  1
 
 
 ### Export base order
@@ -145,83 +141,79 @@ The *Setup order for export* action is used to export the document header, for e
 
 #### Settings
 
+The *Description* field contains the API endpoint that is addressed in this action. The *Key*, *Label*, *Queue type* and *Max tries* field have no functional meaning for the action.  
+
 - *Description*   
   .exportBaseOrder | exportBaseOrder (/Actindo.Extensions.Actindo.UCSProductSync.RetailSuiteOrderSync.exportBaseOrder)
-
-- *Key*    
-  t-Extensions.Actindo.UCSProductSync.RetailSuiteOrderSync.exportBaseOrder-0
-
-- *Label*    
-  exportBaseOrder
-
-- *Queue type*   
-  Default
-
-- *Max tries*
-  1
 
 
 ### Export positions
 
 ![Export positions](../Assets/Screenshots/ProcessDocumentation/ExportPositions.png "[Export positions]")
 
-The *Setup order for export* action is used to export the item data of the order and to determine from which warehouse the items are taken.
+The *Setup order for export* action is used to export the item data of the order and to determine from which warehouse the items are taken. The warehouse is determined in the stock withdrawal matrix: *Warehouse > Settings > Tab WAREHOUSE > Sub-tab Stock withdrawal matrix*. 
+
+[comment]: <> (Verweis auf Lager-Doku)
 
 #### Settings
 
+The *Description* field contains the API endpoint that is addressed in this action. The *Key*, *Label*, *Queue type* and *Max tries* field have no functional meaning for the action.  
+
 - *Description*   
   .exportPositions | exportPositions (/Actindo.Extensions.Actindo.UCSProductSync.RetailSuiteOrderSync.exportPositions)
-
-- *Key*    
-  t-Extensions.Actindo.UCSProductSync.RetailSuiteOrderSync.exportPositions-0
-
-- *Label*    
-  exportPositions
-
-- *Queue type*   
-  Default
-
-- *Max tries*
-  1
 
 
 ### Finish order export
 
 ![Finish order export](../Assets/Screenshots/ProcessDocumentation/FinishOrderExport.png "[Finish order export]")
 
-The *Finish order export* action is used to finish the order export to OMS and post the leading document. Most of the time, this leading document is a cash invoice or an order confirmation, but in general, the customer can define the type of document individually in the ETL mapping.
+The *Finish order export* action is used to finish the order export to OMS and post the leading document. Most of the time, this leading document is a cash invoice or an order confirmation, but in general, the customer can define the type of document individually in the ETL mapping.   
+The corresponding mapping is the mapping from the *Orders channel "Connection Name"* attribute set of the respective collection to the *Retailsuite Order Set* attribute set. 
+
+![Finish order export mapping](../Assets/Screenshots/ProcessDocumentation/FinishOrderExportTypeMapping.png "[Finish order export mapping]")
+
+The document type must be defined by entering the key of the desired document type as a constant value for the *Bill Type* destination attribute in the *Bill Type* field of the *Configuration* section. The following document types are available:
+  - AN: Offer
+  - AB: Order confirmation
+  - RE: Invoice
+  - RB: Cash invoice
+  - AR: Budget billing invoice
+  - GU: Correction invoice
+  - WG: Value credit
+  - LI: Delivery note
+  - MA: Dunning notice
+  - BE: Purchase order
+  - LB: Loan voucher
+  - PR: Pro forma invoice
+  - ST: Reversal document
+  - LD: Dropship delivery note
+  - RT: Return
+  - RS: Return to customer
+
+For detailed information about mapping an attribute, see [Edit the ETL attribute mappings](../DataHub/Operation/01_ManageETLMappings.md#edit-the-etl-attribute-mappings)
 
 #### Settings
+
+The *Description* field contains the API endpoint that is addressed in this action. The *Key*, *Label*, *Queue type* and *Max tries* field have no functional meaning for the action.  
 
 - *Description*   
   .finishExport | finishExport (/Actindo.Extensions.Actindo.UCSProductSync.RetailSuiteOrderSync.finishExport)
 
-- *Key*    
-  t-Extensions.Actindo.UCSProductSync.RetailSuiteOrderSync.finishExport-0
-
-- *Label*    
-  finishOrderExport
-
-- *Queue type*   
-  Default
-
-- *Max tries*
-  1
-
-
 
 ### Finalize cash invoice or create delivery note
 
-To finalize the document in case of a cash invoice or to create a delivery note for any other document type, the following four actions are required:
-- Split AB, RB; Prepare Allow Dispatch
-- Allow dispatch
+To finalize the document in case of a cash invoice or to create a delivery note for any other document type, the following six actions are required:
+- Split by criterion
+- Extract value
+- Create container
+- Save document
 - Create deliveries
 - Start subprocess 
 
 
 ### Split AB, RB; Prepare Allow Dispatch
 
-![Execute PHP Code](../Assets/Screenshots/ProcessDocumentation/ExecutePHPCode.png "[Execute PHP Code]")
+![Execute PHP Code](../Assets/Screenshots/ProcessDocumentation/ExecutePHPCode.png "[Execute  PHP Code]")
 
 The *Split AB, RB; Prepare Allow Dispatch* action is used to determine the type of document and, depending on the document type, output the document in a different output port. By doing so, different ways can be specified for the different document types.
 The  corresponding PHP code defining which document types are being output via which output port must be entered in the *Configuration* section of the action settings. In this template case, cash invoices are output via the output port 0, all other document types via the output port 1. By this distinction, the cash invoice can be directly finalized whereas the any other document types trigger the delivery note creation and the related processing. 
@@ -229,20 +221,10 @@ Further, a request is build to set the *dispatch allowed* field to **true**.
 
 #### Settings
 
+The *Description* field contains the API endpoint that is addressed in this action. The *Key*, *Label*, *Queue type* and *Max tries* field have no functional meaning for the action.  
+
 - *Description*   
   Execute PHP Code
-
-- *Key*    
-  t-executePHP-0
-
-- *Label*    
-  Split AB, RB; Prepare Allow Dispatch
-
-- *Queue type*   
-  Default
-
-- *Max tries*
-  1
 
  **Configuration**
 
@@ -269,20 +251,10 @@ The *Allow dispatch* action is used to save the changes on the document requeste
 
 #### Settings
 
+The *Description* field contains the API endpoint that is addressed in this action. The *Key*, *Label*, *Queue type* and *Max tries* field have no functional meaning for the action.  
+
 - *Description*   
   .save | Save changes on a business document (/Actindo.Modules.RetailSuite.RetailSuiteFaktBase.BusinessDocuments.save)
-
-- *Key*    
-  t-Modules.RetailSuite.RetailSuiteFaktBase.BusinessDocuments.save-0
-
-- *Label*    
-  Allow Dispatch
-
-- *Queue type*   
-  Default
-
-- *Max tries*
-  1
 
 
 ### Create deliveries
@@ -293,20 +265,10 @@ The *Create deliveries* action is used to create the delivery note/s. For each (
 
 #### Settings
 
+The *Description* field contains the API endpoint that is addressed in this action. The *Key*, *Label*, *Queue type* and *Max tries* field have no functional meaning for the action.  
+
 - *Description*   
   .createDelivery | Create a delivery (delivery notes or dropship delivery notes) for a business document (/Actindo.Modules.RetailSuite.RetailSuiteFaktBase.BusinessDocuments.createDelivery)
-
-- *Key*    
-  t-Modules.RetailSuite.RetailSuiteFaktBase.BusinessDocuments.createDelivery-0
-
-- *Label*    
-  createDeliveries
-
-- *Queue type*   
-  Default
-
-- *Max tries*
-  1
 
 **Static inputs**
 
@@ -321,36 +283,12 @@ The *Start subprocess* action is used to start the process specified in the conf
 
 #### Settings
 
+The *Description* field contains the API endpoint that is addressed in this action. The *Key*, *Label*, *Queue type* and *Max tries* field have no functional meaning for the action.  
+
 - *Description*   
   Start Subprocess
 
-- *Key*    
-  t-startSubprocess-0
-
-- *Label*    
-  Start Subprocess
-
-- *Queue type*   
-  Default
-
-- *Max tries*
-  1
-  
 **Configuration**
 
 - *Workflow Key*   
   delivery_notes
-
-
-
-### End place
-
-The process is completed as soon as one or multiple delivery notes and or the cash invoice have been created and put in the end place.
-
-#### Settings
- 
-- *Key*     
-  Output
-
-- *DataContainer*   
-  Modules.RetailSuite.RetailSuiteFaktBase.Models.BusinessDocument
