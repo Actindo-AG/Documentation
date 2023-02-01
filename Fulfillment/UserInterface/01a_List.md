@@ -360,9 +360,21 @@ The list displays all packages contained in the selected shipment. Depending on 
 - *ID*  
     Package identification number. This number is automatically assigned by the system.
 
+-  *Tracking number*  
+    Package tracking number.
+
+- *Tracking link*  
+    Package tracking link.
+
+- *Package ID*  
+    Package identification number.
+
+- *Proof of delivery*  
+  Proof of delivery, if required.
+
 - Attribute    
     You can add a column for each attribute that is assigned to the shipment package. The column displays the attribute name, the row displays the corresponding attribute value of the shipment package.
-
+    
 - *SSCC number*  
    Serial shipping container code number as defined by the fulfiller.
 
