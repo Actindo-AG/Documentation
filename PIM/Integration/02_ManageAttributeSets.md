@@ -30,7 +30,7 @@ Additional attributes for the attribute set have been created, see [Create an at
 ![Attribute sets](../../Assets/Screenshots/PIM/Settings/AttributeSets/AttributeSets.png "[Attribute sets]")
 
 1. Click the ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) button in the bottom right corner.   
-  The *Create attribute set* view is displayed.
+    The *Create attribute set* view is displayed.
 
     ![Create attribute set](../../Assets/Screenshots/PIM/Settings/AttributeSets/CreateAttributeSet.png "[Create attribute set]")
 
@@ -50,9 +50,8 @@ Additional attributes for the attribute set have been created, see [Create an at
     - [Create an attribute set with attribute inheritance](#create-an-attribute-set-with-attribute-inheritance)
     - [Create an attribute set with attribute copying](#create-an-attribute-set-with-attribute-copying)
 
-        > [Info] Test info
-      
       > [Info] Test info
+
 
 ### Create an attribute set without attribute inheritance
 
@@ -211,7 +210,7 @@ Remove an attribute from an attribute set to limit the specifications. Inherited
 1. Click the attribute set you want to edit in the list of attribute sets.   
   The *Edit attribute set* view is displayed.
 
-   ![Edit attribute set](../../Assets/Screenshots/PIM/Settings/AttributeSets/EditAttributeSet.png "[Edit attribute set]")
+    ![Edit attribute set](../../Assets/Screenshots/PIM/Settings/AttributeSets/EditAttributeSet.png "[Edit attribute set]")
 
 2. In the *Assigned attributes* section, select the checkboxes of the attributes you want to remove from the attribute set.   
   The editing toolbar is displayed above the list.
