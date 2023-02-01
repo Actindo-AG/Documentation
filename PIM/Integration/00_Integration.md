@@ -58,4 +58,3 @@ In this part of the *PIM* documentation, you will find the following chapters:
   - [Edit a variant set](./07_ManageVariantSets.md#edit-a-variant-set)
   - [Remove an attribute from the variant set](./07_ManageVariantSets.md#remove-an-attribute-from-the-variant-set)
 
-[comment]: <> (changes in the chapters below - have to be reviewed later: Import an attribute set, Export an attribute set, Manage a catalog)
