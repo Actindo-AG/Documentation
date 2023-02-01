@@ -438,9 +438,11 @@ The list displays all items contained in the selected package. Depending on the 
 
 [comment]: <> (SW: Vermutlich ab Unit net value alle Attribute. Beschreiben?)
 
-### Shipment attributes &ndash; Dependencies
+## Dispatch note "Dispatch note ID" &ndash; Logs
 
-*Fulfillment > Dispatch notes > Tab LIST > Select a dispatch note > Tab Shipments > Sub-tab PACKAGES > Select a package*
+*Fulfillment > Dispatch notes > Tab LIST > Select a dispatch note > Tab Logs*
+
+![Dispatch note logs](../../Assets/Screenshots/Fulfillment/DispatchNotes/DispatchNoteLogs.png "[Dispatch note logs]")
 
 [comment]: <> (SW: Bug in Logs Tab? Unterschied zu Menüpunkt Logging?)
 
