@@ -5,6 +5,8 @@
 
 # Add a missing defining attribute
 
+At least one defining attribute is required to create a variant set. When adding defining attributes to a variant set, a list of all available defining attributes is displayed.  
+
 #### Error Description
 
 A certain attribute is missing in the list of defining attributes for a variant set.
@@ -29,12 +31,12 @@ No prerequisites to fulfill.
   ![Edit attribute](../../Assets/Screenshots/PIM/Settings/Attributes/EditAttribute_Data.png "[Edit attribute]")
 
 3. Check the following attribute settings:
-  - *Multi-language*      
-    Check if the toggle is disabled. Only single language attributes can be used as defining attributes for a variant set.
-  - *Multi-channel*      
-    Check if the toggle is disabled. Only single channel attributes can be used as defining attributes for a variant set.
+    - *Multi-language*      
+      Check if the toggle is disabled. Only single language attributes can be used as defining attributes for a variant set.
+    - *Multi-channel*      
+      Check if the toggle is disabled. Only single channel attributes can be used as defining attributes for a variant set.
 
-    > [Info] If the respective attribute is multi-language or multi-channel, it cannot be used as defining attribute. Create a new attribute which is neither multi-language nor multi-channel to use it as a defining attribute, see [Create a new attribute](../Integration/01_ManageAttributes.md#create-an-attribute).    
+      > [Info] If the respective attribute is multi-language or multi-channel, it cannot be used as defining attribute. Create a new attribute which is neither multi-language nor multi-channel to use it as a defining attribute, see [Create a new attribute](../Integration/01_ManageAttributes.md#create-an-attribute).    
 
 4. Check if the *Active* toggle is enabled. Only active attributes are displayed in the list of defining attributes for a variant set. If the toggle is disabled, enable the toggle by clicking it.
 
@@ -44,7 +46,7 @@ No prerequisites to fulfill.
 6. Press the **F5** key to initialize the *Core1 Platform*.
 
 7. Switch to the *VARIANT SETS* tab: *PIM > Settings > Tab VARIANT SETS* .      
-  The *VARIANT SEETS* tab with the list of variant sets is displayed.
+  The *VARIANT SETS* tab with the list of variant sets is displayed.
 
   ![Variant sets](../../Assets/Screenshots/PIM/Settings/VariantSets/VariantSets.png "[Variant sets]")
 
@@ -60,13 +62,13 @@ No prerequisites to fulfill.
 
 10. Check if the respective attribute is displayed in the list.
 
-  > [Info] If necessary, click the ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh) button to update the list of defining attributes.    
-  If the attribute is still not displayed, please contact the Customer Support.    
+    > [Info] If necessary, click the ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh) button to update the list of defining attributes.    
+    If the attribute is still not displayed, please contact the Customer Support.    
 
-11. Add the attribute to the variant set as described in [Add defining attributes](../Integration/07_ManageVariantSets.md#add-defining-attributes).
+11. Add the attribute to the variant set, see [Add defining attributes](../Integration/07_ManageVariantSets.md#add-defining-attributes).
 
 
 
-## Was this chapter helpful?
+#### Was this chapter helpful?
 
 If you need further assistance, please contact the Customer Support.

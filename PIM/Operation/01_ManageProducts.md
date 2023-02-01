@@ -37,7 +37,7 @@ An attribute set has been created, see [Create an attribute set](../Integration/
 
 3. Enter a SKU for the product in the *SKU* field.
 
-  > [Info] The SKU (Stock Keeping Unit) is an identification number for the product. Therefore, it should be unique within the *PIM* module.
+    > [Info] The SKU (Stock Keeping Unit) is an identification number for the product. Therefore, it should be unique within the *PIM* module.
 
 4. Click the [CREATE] button.   
   The *Create product* view is displayed. The *Attributes* tab is preselected.
@@ -46,7 +46,7 @@ An attribute set has been created, see [Create an attribute set](../Integration/
 
 5. Enter the product data in the *Attributes* tab. It is recommended to complete at least the *Product name*, *Price* and *Tax class* fields.   
 
-  > [Info] All fields marked with the note *(required)* are used for the completeness calculation of product attributes. When editing a product, you can enable the *Show empty required attributes only* toggle to display only the incomplete required attribute fields for the selected product.
+    > [Info] All fields marked with the note *(required)* are used for the completeness calculation of product attributes. When editing a product, you can enable the *Show empty required attributes only* toggle to display only the incomplete required attribute fields for the selected product.
 
 6. Click the [SAVE] button in the upper right corner.   
   The new product has been saved and is added to the product list. The *Create product* view is closed. The product list is displayed.
@@ -106,8 +106,8 @@ At least two products have been created, see [Create a product](#create-a-produc
 
   ![Mass editing](../../Assets/Screenshots/PIM/Products/List/MassEditing.png "[Mass editing]")
 
-  > [Info] You can still add products to the mass editing process when the side bar is displayed. Just select the checkboxes of the products in the list and click the [MASS EDITING >] button in the editing toolbar to add the selected products to the mass editing list.    
-  To remove a product from the mass editing list, click the ![Remove](../../Assets/Icons/Trash01.png "[Remove]") (Remove) button right to the respective product. The ![Remove](../../Assets/Icons/Trash01.png "[Remove]") (Remove) button is only displayed if you hover over a product in the list.
+    > [Info] You can still add products to the mass editing process when the side bar is displayed. Just select the checkboxes of the products in the list and click the [MASS EDITING >] button in the editing toolbar to add the selected products to the mass editing list.    
+    To remove a product from the mass editing list, click the ![Remove](../../Assets/Icons/Trash01.png "[Remove]") (Remove) button right to the respective product. The ![Remove](../../Assets/Icons/Trash01.png "[Remove]") (Remove) button is only displayed if you hover over a product in the list.
 
 3. Click the [START] button in the upper right corner of the side bar to start the mass editing wizard.   
   The *Select Attributes* wizard window is displayed.
@@ -126,7 +126,7 @@ At least two products have been created, see [Create a product](#create-a-produc
 
 6. Edit the desired product data in the corresponding fields.  
 
-  > [Info] Click the ![Points](../../Assets/Icons/Points02.png "[Points]") (Points) button next to an attribute value field to apply the corresponding value to either all attributes in the column or to the attributes in the column of the selected products.   
+    > [Info] Click the ![Points](../../Assets/Icons/Points02.png "[Points]") (Points) button next to an attribute value field to apply the corresponding value to either all attributes in the column or to the attributes in the column of the selected products.   
 
 7.  Click the [CONTINUE] button in the bottom right corner.   
 The *Applying changes* wizard window and the *Mass editing has been triggered* pop-up window are displayed.
@@ -135,7 +135,7 @@ The *Applying changes* wizard window and the *Mass editing has been triggered* p
 
   The progress bar in the *Applying changes* wizard window displays **100%** when the changes has been applied.
 
-  > [Info] As the change job is executed in the background, the wizard window can be closed before the progress bar reaches **100%**.
+    > [Info] As the change job is executed in the background, the wizard window can be closed before the progress bar reaches **100%**.
 
   ![Applying changes](../../Assets/Screenshots/PIM/Products/List/MassEditingWizard/ApplyingChanges.png "[Applying changes]")
 
@@ -168,13 +168,13 @@ At least one product has been created, see [Create a product](#create-a-product)
 
 3. Click the *SKU* field and edit the SKU for the new product.
 
-  > [Info] The SKU (Stock Keeping Unit) is an identification number for the product. Therefore, it should be unique within the *PIM* module.
+    > [Info] The SKU (Stock Keeping Unit) is an identification number for the product. Therefore, it should be unique within the *PIM* module.
 
 4. Click the  *Product name* field and edit the product name for the new product.
 
 5. Add or edit the product data in the *Attributes* tab. It is recommended to complete at least the *Product name*, *Price* and *Tax class* fields.   
 
-  > [Info] All fields marked with the note *(required)* are used for the completeness calculation of product attributes. When editing a product, you can enable the *Show empty required attributes only* toggle to display only the incomplete required attribute fields for the selected product.
+    > [Info] All fields marked with the note *(required)* are used for the completeness calculation of product attributes. When editing a product, you can enable the *Show empty required attributes only* toggle to display only the incomplete required attribute fields for the selected product.
 
 6. Click the [SAVE] button in the upper right corner.   
   The product has been saved and is added to the product list. The *Edit product (Copy)* view is closed. The product list is displayed.
@@ -208,22 +208,22 @@ If you want to offer the product on a single connection only or you have just on
 2. Click the *Offers* tab in the product view.   
   The *Offers* tab with a list of all existing offers to the product in all connections is displayed.
 
-   ![Offers](../../Assets/Screenshots/PIM/Products/List/Offers/OffersEdit.png "[Offers]")
+  ![Offers](../../Assets/Screenshots/PIM/Products/List/Offers/OffersEdit.png "[Offers]")
 
 3. Click the ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) button in the bottom right corner.   
-   The [Add to a single connection ![Add to a single connection](../../Assets/Icons/Document.png "[Single connection]") ] button and the [Add to multiple connections ![Multiple connections](../../Assets/Icons/Documents.png "[Multiple connections]") ] button are displayed.
+  The [Add to a single connection ![Add to a single connection](../../Assets/Icons/Document.png "[Single connection]") ] button and the [Add to multiple connections ![Multiple connections](../../Assets/Icons/Documents.png "[Multiple connections]") ] button are displayed.
 
   ![Add Offer](../../Assets/Screenshots/PIM/Products/List/Offers/AddEdit.png "[Add Offer]")
 
 4. Click the [Add to a single connection ![Add to a single connection](../../Assets/Icons/Document.png "[Single connection]") ] button to create an offer from the selected PIM product to a single connection.   
-   The *Create offer* window is displayed.
+  The *Create offer* window is displayed.
 
-   ![Single connection offer](../../Assets/Screenshots/PIM/Products/List/Offers/SingleConnection.png "[Single connection offer]")
+  ![Single connection offer](../../Assets/Screenshots/PIM/Products/List/Offers/SingleConnection.png "[Single connection offer]")
 
 5. Configure the following settings:
 
     + Click the *Select connection* drop-down list and select the connection for which you want to create the offer. All active connections are displayed in the list.    
-      The *Select attribute set* drop-down list is unlocked.
+    The *Select attribute set* drop-down list is unlocked.
 
     + Click the *Select attribute set* drop-down list and select the appropriate attribute set for the offer. All active attribute sets are displayed in the list.   
 
@@ -251,13 +251,13 @@ If you want to offer the product on a single connection only or you have just on
 6. Click the [SAVE] button in the bottom right corner of the *Create offer* window.   
   The single offer is added to the list of offers. The *Create offer* window is closed.
 
-   > [Info] The product must be saved to start the creation process of the offer.
+    > [Info] The product must be saved to start the creation process of the offer.
 
 
 7. Click the [SAVE] button in the upper right corner of the *Edit product* view.   
   The *Edit product* view is closed. The *LIST* tab with the product list is displayed again. The new offer will be created.
 
-   > [Info] The offer creation is performed asynchronously. That means that it may take  some time until the offer has been finally created.
+    > [Info] The offer creation is performed asynchronously. That means that it may take  some time until the offer has been finally created.
 
 
 
@@ -284,57 +284,57 @@ To create offers to a product for several connections at the same time, you can 
 2. Click the *Offers* tab.   
   The *Offers* tab with a list of all existing offers of the product in all connections is displayed.
 
-   ![Offers](../../Assets/Screenshots/PIM/Products/List/Offers/OffersEdit.png "[Offers]")
+  ![Offers](../../Assets/Screenshots/PIM/Products/List/Offers/OffersEdit.png "[Offers]")
 
 3. Click the ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) button in the bottom right corner.   
-   The [Add to a single connection ![Add to a single connection](../../Assets/Icons/Document.png "[Single connection]") ] button and the [Add to multiple connections ![Multiple connections](../../Assets/Icons/Documents.png "[Multiple connections]") ] button are displayed.
+  The [Add to a single connection ![Add to a single connection](../../Assets/Icons/Document.png "[Single connection]") ] button and the [Add to multiple connections ![Multiple connections](../../Assets/Icons/Documents.png "[Multiple connections]") ] button are displayed.
 
   ![Add Offer](../../Assets/Screenshots/PIM/Products/List/Offers/AddEdit.png "[Add Offer]")
 
 4. Click the [Add to multiple connections ![Multiple connections](../../Assets/Icons/Documents.png "[Multiple connections]") ] button to create an offer from the selected PIM product to multiple connections.   
   The *Select connections and status* wizard window is displayed.
 
-   ![Select connections and status](../../Assets/Screenshots/PIM/Products/List/Offers/MultipleConnections01.png "[Select connections and status]")
+  ![Select connections and status](../../Assets/Screenshots/PIM/Products/List/Offers/MultipleConnections01.png "[Select connections and status]")
 
 5. Configure the following settings:
 
-  + Click the *Offer status* drop-down list and select the initial offer status. The statuses below are available:   
-    - **Active**      
-      The offer is active. It is displayed in the selected connection and can be sold there.   
-    - **Inactive**   
-      The offer is inactive. It is not displayed in the selected connection and cannot be sold there.   
-    - **Offline**   
-      The offer is unknown to the selected connection and cannot be sold there.   
+    + Click the *Offer status* drop-down list and select the initial offer status. The statuses below are available:   
+        - **Active**      
+          The offer is active. It is displayed in the selected connection and can be sold there.   
+        - **Inactive**   
+          The offer is inactive. It is not displayed in the selected connection and cannot be sold there.   
+        - **Offline**   
+          The offer is unknown to the selected connection and cannot be sold there.   
 
 
-  + Select the appropriate option for the change tracking mode:
-    - ![Radionbutton](../../Assets/Icons/Radiobutton.png "[Radiobutton]") *Manual*   
-      Changes in a PIM product must be triggered manually to be applied to the offer. The initial offer is automatically applied.   
-    - ![Radionbutton](../../Assets/Icons/Radiobutton.png "[Radiobutton]") *Semi-automatic*   
-      Changes in a PIM product are automatically applied to the offer after confirmation. The initial offer is automatically applied without confirmation.   
-    - ![Radionbutton](../../Assets/Icons/Radiobutton.png "[Radiobutton]") *Semi-automatic, changes must be confirmed by another user*   
-      Changes in a PIM product are automatically applied to the offer after confirmation by another user. The initial offer is only applied after confirmation by another user.    
-    - ![Radionbutton](../../Assets/Icons/Radiobutton.png "[Radiobutton]") *Automatic*   
-      Changes in a PIM product are automatically applied to the offer. The initial offer is also automatically applied.
+    + Select the appropriate option for the change tracking mode:
+        - ![Radionbutton](../../Assets/Icons/Radiobutton.png "[Radiobutton]") *Manual*   
+          Changes in a PIM product must be triggered manually to be applied to the offer. The initial offer is automatically applied.   
+        - ![Radionbutton](../../Assets/Icons/Radiobutton.png "[Radiobutton]") *Semi-automatic*   
+          Changes in a PIM product are automatically applied to the offer after confirmation. The initial offer is automatically applied without confirmation.   
+        - ![Radionbutton](../../Assets/Icons/Radiobutton.png "[Radiobutton]") *Semi-automatic, changes must be confirmed by another user*   
+          Changes in a PIM product are automatically applied to the offer after confirmation by another user. The initial offer is only applied after confirmation by another user.    
+        - ![Radionbutton](../../Assets/Icons/Radiobutton.png "[Radiobutton]") *Automatic*   
+          Changes in a PIM product are automatically applied to the offer. The initial offer is also automatically applied.
 
 
-  + Enable the toggles of the connections for which you want to create offers in the *Select connections* section. If you want to create an offer for all displayed connections, click the [SELECT ALL] button to enable all toggles. All active connections are displayed in the list.    
+   + Enable the toggles of the connections for which you want to create offers in the *Select connections* section. If you want to create an offer for all displayed connections, click the [SELECT ALL] button to enable all toggles. All active connections are displayed in the list.    
 
 6. Click the [CONTINUE] button in the bottom right corner of the window.   
   The *Select destination attribute sets* wizard window is displayed.
 
-   ![Select destination attribute sets](../../Assets/Screenshots/PIM/Products/List/Offers/MultipleConnections02.png "[Select destination attribute sets]")
+  ![Select destination attribute sets](../../Assets/Screenshots/PIM/Products/List/Offers/MultipleConnections02.png "[Select destination attribute sets]")
 
-   > [Info] The attribute destination sets for the selected connections are automatically selected. You cannot edit the selection.
+    > [Info] The attribute destination sets for the selected connections are automatically selected. You cannot edit the selection.
 
-  [comment]: <> (Is that correct? Why does this window exist when I cannot make any changes?)
+[comment]: <> (Is that correct? Why does this window exist when I cannot make any changes?)
 
 7. Click the [FINISH] button in the bottom right corner of the window.   
   The new offers are added to the list of offers. The *Select destination attribute sets* wizard window is closed.
 
-  > [Info] The product must be saved to start the creation process of the offers.
+    > [Info] The product must be saved to start the creation process of the offers.
 
 8. Click the [SAVE] button in the upper right corner of the *Edit product* view.   
   The *Edit product* view is closed. The *LIST* tab with the product list is displayed again. The new offers will be created.
 
-  > [Info] The offer creation is performed asynchronously. That means that it may take  some time until the offer has been finally created.
+    > [Info] The offer creation is performed asynchronously. That means that it may take  some time until the offer has been finally created.

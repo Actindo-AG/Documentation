@@ -83,8 +83,6 @@ The list displays all variant sets. All fields are read-only. Depending on the s
 - Language   
   Click the drop-down list and select the language in which the *Name (Language)* fields are displayed. The languages *English (United States)* and *Deutsch (Deutschland)* are available in the drop-down list.
 
-  [comment]: <> (Is that right? -> language question)
-
 - [SAVE]   
   Click this button to save the variant set. The *Create variant set* view is closed.
 
@@ -194,8 +192,6 @@ The list displays all changeable attributes to the variant set. All fields are r
 
 - Language   
   Click the drop-down list and select the language in which the *Name (Language)* fields are displayed. The languages *English (United States)* and *Deutsch (Deutschland)* are available in the drop-down list.
-
-  [comment]: <> (Is that right? -> language question)
 
 - [SAVE]   
   Click this button to save the variant set. The *Edit variant set* view is closed.

@@ -40,7 +40,7 @@ No prerequisites to fulfill.
 
 4. Proceed to [add a category](#create-a-category) to the catalog.
 
-  > [Info} At least one category per catalog is required to which you can assign the products.
+    > [Info} At least one category per catalog is required to which you can assign the products.
 
 
 
@@ -75,7 +75,7 @@ The catalog basic data has been created, see [Define the catalog basic data](#de
 
   ![Category created](../../Assets/Screenshots/PIM/Settings/Catalogs/CategoryCreated.png "[Category created]")
 
-  > [Info] To add an additional category, repeat the steps **1** to **5**. To add a sub-category, see [Create a sub-category](#create-a-sub-category).  
+    > [Info] To add an additional category, repeat the steps **1** to **5**. To add a sub-category, see [Create a sub-category](#create-a-sub-category).  
 
 6. Click the [SAVE] button in the upper right corner.  
   The new catalog has been saved. The *Create new catalog* view is closed.
@@ -133,7 +133,7 @@ At least one catalog with one category has been created, see [Create a catalog](
 9. Click the [SAVE] button.   
   The catalog sub-category has been created. The *Add element* window is closed. The new sub-category is displayed in the sub-category column.
 
-  > [Info] To add an additional sub-category, repeat the steps **4** to **8**. You can create an unlimited number of sub-categories in an unlimited number of levels. The procedure to create a sub-category in another level is identical to creating a sub-category. Just select the category or sub-category in which you want to create another sub-category and click the corresponding plus sign in the column of the respective level.
+    > [Info] To add an additional sub-category, repeat the steps **4** to **8**. You can create an unlimited number of sub-categories in an unlimited number of levels. The procedure to create a sub-category in another level is identical to creating a sub-category. Just select the category or sub-category in which you want to create another sub-category and click the corresponding plus sign in the column of the respective level.
 
 [comment]: <> (number of levels depends on screen size -> should it not be limited to a certain number of level?)
 
@@ -170,7 +170,7 @@ The order of categories within the catalog is also displayed in the product view
 
   ![Edit Catalog](../../Assets/Screenshots/PIM/Settings/Catalogs/EditCatalog.png "[Edit Catalog]")
 
-  > [Info] The procedure to change the order of categories and sub-categories is identical. Just select the sub-category instead of the category and follow the steps described below.
+    > [Info] The procedure to change the order of categories and sub-categories is identical. Just select the sub-category instead of the category and follow the steps described below.
 
 4. Click and hold the ![Sort](../../Assets/Icons/Sort01.png "[Sort]") (Sort) button to the left of the category you want to move to another position in the list.
 
@@ -209,14 +209,14 @@ Delete a category that is no longer needed. If you delete a category containing 
 
   ![Edit Catalog](../../Assets/Screenshots/PIM/Settings/Catalogs/EditCatalog.png "[Edit Catalog]")
 
-  > [Info] The procedure to delete categories and sub-categories is identical. Just select the sub-category instead of the category and follow the steps described below.
+    > [Info] The procedure to delete categories and sub-categories is identical. Just select the sub-category instead of the category and follow the steps described below.
 
 4. Click the ![Edit](../../Assets/Icons/Edit03.png "[Edit]") (Edit) button to the right of the category you want to delete.   
   The category data is displayed in a window in the category column.
 
   ![Category data](../../Assets/Screenshots/PIM/Settings/Catalogs/EditCategoryData.png "[Category data]")
 
-  > [Info] The ![Edit](../../Assets/Icons/Edit03.png "[Edit]") (Edit) button is only displayed if you hover over the respective category.
+    > [Info] The ![Edit](../../Assets/Icons/Edit03.png "[Edit]") (Edit) button is only displayed if you hover over the respective category.
 
 5. Click the ![Delete](../../Assets/Icons/Trash01.png "[Delete]") (Delete) button in the bottom left corner of the category data window.    
   The selected category has been removed from the category column. The category data window is closed.
@@ -260,7 +260,7 @@ Assign a product to a catalog category to sort the products and find them faster
 
 4. Select the checkbox of the category or sub-category you want to assign the product to.    
 
-  > [Info] You can assign a product to several categories or sub-categories.
+    > [Info] You can assign a product to several categories or sub-categories.
 
 5. Click the [SAVE] button in the bottom right corner of the window.    
   The window is closed. The selected category is displayed in the section of the catalog.

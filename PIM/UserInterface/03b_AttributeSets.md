@@ -46,18 +46,15 @@ The list displays all attribute sets. Depending on the settings, the displayed c
 - *Description*   
   Description to the attribute set.
 
-
 - *Status*   
   Attribute set status. The following statuses are displayed:
   - ![Status](../../Assets/Icons/Status01.png "[Status]") **Active**
   - ![Status](../../Assets/Icons/Status04.png "[Status]") **Inactive**   
 
-
 - *Read-only*   
   Indication whether the attribute set is read-only or not:
   - ![Check](../../Assets/Icons/Check.png "[Check]") (Checkmark): The attribute set is read-only.  
   - ![Cross](../../Assets/Icons/Cross02.png "[Cross]") (Cross): The attribute set can be edited.
-
 
 - *Plugin*   
   Module or plugin that owns the attribute set. In the *PIM* module, only PIM attribute sets are displayed.
@@ -98,12 +95,10 @@ The list displays all attribute sets. Depending on the settings, the displayed c
 - ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)   
   Click this button to close the *Create attribute set* view and return to the attribute set list. All changes are rejected.
 
-
 - Language      
   Click the drop-down list and select the system language in which the *Name (Language)* and *Description (Language)* fields are displayed. By default, the following options are available:
   - **English (United States)**
   - **Deutsch (Deutschland)**
-
 
 - [SAVE]   
   Click this button to save the attribute set. The *Create attribute set* view is closed.
@@ -114,17 +109,14 @@ The list displays all attribute sets. Depending on the settings, the displayed c
 - *Description (Language)*   
   Enter a description to the attribute set in the selected language.
 
-
 - *Key*   
   Enter an attribute set key. The key is required for API access and must be system wide unique. An attribute set key must fulfill the following criteria:
   - valid characters are **a-z** (upper and lower case), **0-9** and the underscore ( **_** )
   - the key must not start with a number
   - a double underscore ( **___** ) and a trailing underscore are forbidden
 
-
 - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Active*   
   Enable this toggle to set the attribute set status to active. Disable the toggle to set the status to inactive. By default, this toggle is enabled.
-
 
 - *Inherit/Copy values from*   
   Click the drop-down list to select whether or not the values for the new attribute set should be inherited or copied from an existing attribute set. The following options are available:    
@@ -133,10 +125,8 @@ The list displays all attribute sets. Depending on the settings, the displayed c
   - **Attribute set name**   
     The values inherited or copied from the selected attribute set. All existing attribute sets are displayed in the drop-down list.
 
-
 - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Inherit configuration*   
   Enable this toggle to inherit not only the values of the selected attribute set, but also their configuration. Disable the toggle to inherit the values without configuration. By default, this toggle is enabled. This toggle is locked if the **No inheritance** option is selected in the *Inherit/Copy values from* drop-down list.
-
 
 - *Inherit/Copy values*   
   Click the drop-down list to select the inheritance type. The following options are available:    
@@ -177,12 +167,10 @@ In the *Create attribute set* view, no attributes are displayed in the list. You
 - ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)   
   Click this button to close the *Edit attribute set* view and return to the attribute set list. All changes are rejected.
 
-
 - Language      
   Click the drop-down list and select the system language in which the *Name (Language)* and *Description (Language)* fields are displayed. By default, the following options are available:
   - **English (United States)**
   - **Deutsch (Deutschland)**
-
 
 - [SAVE]   
   Click this button to save the attribute set. The *Edit attribute set* view is closed.
@@ -199,7 +187,6 @@ In the *Create attribute set* view, no attributes are displayed in the list. You
 - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Active*   
   Enable this toggle to set the attribute set status to active. Disable the toggle to set the status to inactive. By default, this toggle is enabled.
 
-
 - *Inherit/Copy values from*   
   Click the drop-down list to select whether or not the values for the new attribute set should be inherited or copied from an existing attribute set. The following options are available:    
   - **No inheritance**   
@@ -207,11 +194,8 @@ In the *Create attribute set* view, no attributes are displayed in the list. You
   - **Attribute set name**   
     The values inherited or copied from the selected attribute set. All existing attribute sets are displayed in the drop-down list.  
 
-
-
 - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Inherit configuration*   
   Enable this toggle to inherit not only the values of the selected attribute set, but also their configuration. Disable the toggle to inherit the values without configuration. By default, this toggle is enabled. This toggle is locked if the **No inheritance** option is selected in the *Inherit/Copy values from* drop-down list.
-
 
 - *Inherit/Copy values*   
   Click the drop-down list to select the inheritance type. The following options are available:    
@@ -219,7 +203,6 @@ In the *Create attribute set* view, no attributes are displayed in the list. You
     The attribute values are applied once from the selected attribute set, but afterwards they are independent of changes in the selected set.
   - **Inherit**   
     The attribute values are applied from the selected attribute set and updated each time if the selected set changes.
-
 
 > [Info] The inheritance settings may be read-only for attribute sets predefined by the system, for example for the *PIM Basic Set*.
 
@@ -264,12 +247,10 @@ If the ![Settings](../../Assets/Icons/Settings01.png "[Settings]") (Settings) bu
 - *Name*   
   Attribute name.
 
-
 - *Calculated field*   
   Indication whether the attribute is calculated by an ETL mapping from other fields to itself or not:
   - ![Check](../../Assets/Icons/Check.png "[Check]") (Checkmark): The attribute is a calculated field.  
   - ![Cross](../../Assets/Icons/Cross02.png "[Cross]") (Cross): The attribute is no calculated field.
-
 
 - *Key*   
   Attribute key.
@@ -284,20 +265,17 @@ If the ![Settings](../../Assets/Icons/Settings01.png "[Settings]") (Settings) bu
 - *Plugin*   
   Module or plugin that owns the attribute set. In the *PIM* module, only PIM attributes are displayed.
 
-
 - *Required*   
   Indication whether the attribute value is required or not. The following options are only displayed if the ![Settings](../../Assets/Icons/Settings01.png "[Settings]") (Settings) button is inactive:
   - If the ![Settings](../../Assets/Icons/Settings02.png "[Settings]") (Settings) button is blue, the *Required* toggle is displayed. Enable the toggle to set the attribute value as a mandatory field. Disable the toggle to set the attribute value as an optional field.   
   - If the ![Settings](../../Assets/Icons/Settings01.png "[Settings]") (Settings) button is gray, the following options are displayed:
-    - ![Check](../../Assets/Icons/Check.png "[Check]") (Checkmark): The attribute is required.  
-    - ![Cross](../../Assets/Icons/Cross02.png "[Cross]") (Cross): The attribute is optional.
-
+      - ![Check](../../Assets/Icons/Check.png "[Check]") (Checkmark): The attribute is required.  
+      - ![Cross](../../Assets/Icons/Cross02.png "[Cross]") (Cross): The attribute is optional.
 
 - *Read-only*   
   Indication whether the attribute value is read-only or not:
   - ![Check](../../Assets/Icons/Check.png "[Check]") (Checkmark): The attribute value is read-only.  
   - ![Cross](../../Assets/Icons/Cross02.png "[Cross]") (Cross): The attribute value can be edited.
-
 
 - *Configuration*   
   Attribute configuration.
@@ -308,12 +286,10 @@ If the ![Settings](../../Assets/Icons/Settings01.png "[Settings]") (Settings) bu
 - *Description*   
   Description to the attribute.
 
-
 - *Multi-language*   
   Indication whether the attribute is multilingual or not:
   - ![Check](../../Assets/Icons/Check.png "[Check]") (Checkmark): The attribute is multi-language.  
   - ![Cross](../../Assets/Icons/Cross02.png "[Cross]") (Cross): The attribute is single language.
-
 
 - *Multi-channel*   
   Indication whether the attribute is multi-channel or not:
@@ -371,7 +347,6 @@ This view equals the attribute mapping in the *DataHub* module: *DataHub > Setti
 - *Extension*   
   Click the drop-down list and select the appropriate ETL extension for the attribute mapping. The displayed extensions depend on the data type of the selected destination attribute.      
   
-
 - *Override change tracking mode*   
   Change tracking mode (ETL mode) for the mapping. The drop-down list is read-only. By default, the **Use default** option is selected. The following options are available:
   - **Use default**   
@@ -384,7 +359,6 @@ This view equals the attribute mapping in the *DataHub* module: *DataHub > Setti
     The initial mapping as well as values changes or reruns are applied after confirmation by another user.
   - **Manual**   
     The initial mapping is automatically applied. Afterwards, the changes in the mapping must be triggered manually to be applied.
-
 
 - *Source attribute*   
   Click the drop-down list within the arrow box and select the appropriate source attribute for the mapping. Depending on the selected ETL extension one or several *Source attribute* arrow boxes are displayed. The selection in the drop-down list depends on the selected ETL extension which defines the required data type of the source attribute(s). This drop-down list is only displayed if an ETL extension has been selected in the *Extension* drop-down list.       

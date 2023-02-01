@@ -20,28 +20,28 @@
   - View context menu   
     Click the ![Points](../../Assets/Icons/Points01.png "[Points]") (Points) button to the right of the *View* drop-down list to display the context menu. The following menu entries are available:
 
-    - ![Create](../../Assets/Icons/Plus06.png "[Create]") create   
-      Click this entry to create a view. The *Create view* window is displayed.
+      - ![Create](../../Assets/Icons/Plus06.png "[Create]") create   
+        Click this entry to create a view. The *Create view* window is displayed.
 
-    - ![Rename](../../Assets/Icons/Edit02.png "[Rename]") rename    
-      Click this entry to rename the selected view. The *Rename view* window is displayed. This menu entry is only displayed if a view has been selected.
+      - ![Rename](../../Assets/Icons/Edit02.png "[Rename]") rename    
+        Click this entry to rename the selected view. The *Rename view* window is displayed. This menu entry is only displayed if a view has been selected.
 
-    - ![Reset](../../Assets/Icons/Reset.png "[Reset]") reset    
-      Click this entry to reset all unsaved changes to the settings of the selected view. This menu entry is only displayed if a view has been selected and any changes have been made to the view settings.
+      - ![Reset](../../Assets/Icons/Reset.png "[Reset]") reset    
+        Click this entry to reset all unsaved changes to the settings of the selected view. This menu entry is only displayed if a view has been selected and any changes have been made to the view settings.
 
-    - ![Publish](../../Assets/Icons/Publish.png "[Publish]") publish    
-      Click this entry to publish the view. This menu entry is only displayed if a view has been selected and unpublished.
+      - ![Publish](../../Assets/Icons/Publish.png "[Publish]") publish    
+        Click this entry to publish the view. This menu entry is only displayed if a view has been selected and unpublished.
 
-    - ![Private view](../../Assets/Icons/Unpublish.png "[Unpublish]") private view    
-      Click this entry to unpublish the view. This menu entry is only displayed if a view has been selected and published.
+      - ![Private view](../../Assets/Icons/Unpublish.png "[Unpublish]") private view    
+        Click this entry to unpublish the view. This menu entry is only displayed if a view has been selected and published.
 
-    - ![Save](../../Assets/Icons/Save.png "[Save]") save    
-      Click this entry to save the current view settings in the selected view. This menu entry is only displayed if a view has been selected.
+      - ![Save](../../Assets/Icons/Save.png "[Save]") save    
+        Click this entry to save the current view settings in the selected view. This menu entry is only displayed if a view has been selected.
 
-      > [Info] When the settings of a view have been changed, an asterisk is displayed next to the view name. The asterisk is hidden as soon as the changes have been saved.
+        > [Info] When the settings of a view have been changed, an asterisk is displayed next to the view name. The asterisk is hidden as soon as the changes have been saved.
 
-    - ![Delete](../../Assets/Icons/Trash01.png "[Delete]") delete    
-      Click this entry to delete the selected view. A confirmation window is displayed to confirm the deletion. This menu entry is only displayed if a view has been selected.
+      - ![Delete](../../Assets/Icons/Trash01.png "[Delete]") delete    
+        Click this entry to delete the selected view. A confirmation window is displayed to confirm the deletion. This menu entry is only displayed if a view has been selected.
 
 [comment]: <> (when can I reset a view? -> cannot track when this entry is displayed; where is a view published?)
 
@@ -62,7 +62,6 @@
 - ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh)   
   Click this button to update the list of products.
 
-
 - *Variants*   
   Click the drop-down list to select the display settings for variants. The following options are available:
   - **All products**   
@@ -70,7 +69,6 @@
   - **Hide variants**   
     No variants are displayed in the product list.   
     
-
 - ![Columns](../../Assets/Icons/Columns.png "[Columns]") Columns (x)   
   Click this button to display the columns bar and customize the displayed columns and the order of columns in the list. The *x* indicates the number of columns that are currently displayed in the list.
 
@@ -114,7 +112,6 @@ Depending on the selection in the *Variants* drop-down list, the product list di
     The product is a variant. Additionally, the defining attributes to the variant and their values are indicated.
   - Empty   
     The product is a single product. No variant type is indicated for single products.
-
 
 - *Attribute set*   
   Assigned attribute set.
@@ -478,7 +475,7 @@ The box displays all associated products. All fields are read-only. If no produc
 - ![Eye](../../Assets/Icons/Eye01.png "[Eye]") (Eye)   
   The button is only displayed, when you hover over a product in the list.  
 
-  [comment]: <> (what should be displayed? loading never ends...)
+[comment]: <> (what should be displayed? loading never ends...)
 
 - ![Delete](../../Assets/Icons/Trash01.png "[Delete]") (Delete)   
   Click this button to delete the selected product from the list. The button is only displayed, when you hover over a product in the list.
@@ -527,7 +524,7 @@ The list displays all products. All fields are read-only.
 
 ![UCS Warehouse](../../Assets/Screenshots/PIM/Products/List/UCSWarehouse/UCSWarehouseCreate.png "[UCS Warehouse]")
 
- In the *Create product* view, the notice *Available after saving the product.* is displayed in this tab. The warehouse information is displayed only after saving.  
+In the *Create product* view, the notice *Available after saving the product.* is displayed in this tab. The warehouse information is displayed only after saving.  
 
 
 
@@ -537,7 +534,7 @@ The list displays all products. All fields are read-only.
 
 ![UCS Marketplaces](../../Assets/Screenshots/PIM/Products/List/UCSMarketplaces/UCSMarketplacesCreate.png "[UCS Marketplaces]")
 
- In the *Create product* view, the notice *Available after saving the product.* is displayed in this tab. The marketplaces information is displayed only after saving.  
+In the *Create product* view, the notice *Available after saving the product.* is displayed in this tab. The marketplaces information is displayed only after saving.  
 
 
 
@@ -555,7 +552,6 @@ The list displays all products. All fields are read-only.
 - [x]     
   Select the checkbox to display the editing toolbar. If you click the checkbox in the header, all offers in the list are selected.
 
-
 - *Status*   
   Click the drop-down list to change the offer status. The selected status is displayed in the *Pending status/Errors* column. This drop-down list is only displayed if the checkbox of at least one offer is selected. The following options are available:
   - **Active**      
@@ -564,7 +560,6 @@ The list displays all products. All fields are read-only.
     The offer is inactive. It is not displayed in the selected connection and cannot be sold there.   
   - **Offline**   
     The offer is unknown to the selected connection and cannot be sold there.      
-
 
 - *Change tracking mode*   
   Click the drop-down list to change the change tracking mode (ETL mode) of the offer. The currently selected change tracking mode is displayed in the *Change tracking mode* column. This drop-down list is only displayed if the checkbox of one offer is selected. The following options are available:    
@@ -576,7 +571,6 @@ The list displays all products. All fields are read-only.
     Changes in a PIM product are automatically applied to the offer after confirmation by another user. The initial offer is only applied after confirmation by another user.       
   - **Automatic**   
     Changes in a PIM product are automatically applied to the offer. The initial offer is also automatically applied.
-
 
 - ![Edit](../../Assets/Icons/Edit01.png "[Edit]") (Edit)   
   Click this button to edit the selected offer from the list. This button is only displayed if the checkbox of at least one offer is selected.
@@ -591,14 +585,13 @@ The list displays all created offers to this product. All fields are read-only.
 - *Status*   
   Connection status of the offer. In the *Create product* view, **Offline** is displayed.
 
-
 - *Pending status/Errors*   
   Indication of the pending status or an error for this offer. The selected status is displayed if you have changed the offer status via the editing toolbar. The following options are available:
   - **Active**   
   - **Inactive**   
   - **Offline**
 
-  [comment]: <> (when is an error displayed here? what is displayed? The Error code or message?)
+[comment]: <> (when is an error displayed here? what is displayed? The Error code or message?)
 
 - *Connection*   
   Selected connection for the offer.
@@ -612,14 +605,12 @@ The list displays all created offers to this product. All fields are read-only.
 - *Modified by*   
   Name and username of the user who modified the offer. In the *Create product* view, no name is displayed.
 
-
 - *Change tracking mode*   
   Change tracking mode (ETL mode) of the offer. The following options are available:
   - **Manual**
   - **Semi-automatic**
   - **Semi-automatic, changes must be confirmed by another user**   
   - **Automatic**
-
 
 - *ID*   
   Product identification number. The ID number is automatically assigned by the system after creation.
@@ -668,7 +659,7 @@ The list displays all created offers to this product. All fields are read-only.
   Enable this toggle to automatically generate a SKU for the offer. Disable the toggle to enter a SKU manually. By default, this toggle is enabled.
 
 - *SKU*    
-  Enter an individual SKU for the offer. The SKU (Stock Keeping Unit) is an identification number and should be assigned only once.
+  Enter an individual SKU for the offer. The SKU (Stock Keeping Unit) is an identification number and should be assigned only once. This field is only displayed if the *Generate SKU* toggle is disabled.
 
 [comment]: <> (offer or product? how does this work? When I enter a different SKU, The SKU is automatically overwritten)
 
@@ -683,16 +674,14 @@ The list displays all created offers to this product. All fields are read-only.
   - ![Radionbutton](../../Assets/Icons/Radiobutton.png "[Radiobutton]") *Automatic*   
     Changes in a PIM product are automatically applied to the offer. The initial offer is also automatically applied.
 
-
 - *Offer status*    
-  Click the drop-down list to select the connection status. The following options are available:    
+  Click the drop-down list to select the offer status. The following options are available:    
   - **Active**      
     The offer is active. It is displayed in the selected connection and can be sold there.   
   - **Inactive**   
     The offer is inactive. It is not displayed in the selected connection and cannot be sold there.   
   - **Offline**   
     The offer is unknown to the selected connection and cannot be sold there.
-
 
 - [CANCEL]   
   Click this button to cancel adding an offer. The *Create offer* window is closed.
@@ -714,14 +703,13 @@ The list displays all created offers to this product. All fields are read-only.
 **Select status and change tracking mode**
 
 - *Status*    
-  Click the drop-down list to select the connection status. The following options are available:    
+  Click the drop-down list to select the offer status. The following options are available:    
   - **Active**      
     The offer is active. It is displayed in the selected connection and can be sold there.   
   - **Inactive**   
     The offer is inactive. It is not displayed in the selected connection and cannot be sold there.   
   - **Offline**   
     The offer is unknown to the selected connection and cannot be sold there.
-
 
 - Change tracking mode
   Select the appropriate option for the change tracking mode (ETL mode). The following options are available:   
@@ -805,7 +793,6 @@ The list displays all created offers to this product. All fields are read-only.
 - *Language*   
   Click the drop-down list to select a language for the product. All active languages are displayed in the drop-down list. The default language is preselected.
 
-
 - [COMPLETE]     
   Completeness of the product for all available channels and languages. The percentage of completeness is displayed in the button. Click the button to display the *Completeness* window. If the completeness is less than 100%, the number of missing require attributes is displayed to the right of the completeness button.
   If the completeness cannot be calculated, *Completeness: Not available* is displayed and the button is not clickable.
@@ -886,19 +873,22 @@ The list displays all variants. All fields are read-only. Depending on the setti
 
 - *Status*  
   Status of the variant. The following options are available:
-  - **Created after save**: The added variant is created after saving the product.
-  - **Created**: The variant is already created.
-
+  - **Created after save**   
+    The added variant is created after saving the product.
+  - **Created**   
+    The variant is already created.
 
 - *SKU*  
   Stock Keeping Unit. Identification number for the variant. The SKU for the variant is created depending on the selected settings.
 
 - *Lifecycle status*   
   Life cycle status of the variant article. The following options are available:
-  - **active**: The variant is active.
-  - **in_archive**: The variant is archived.
-  - **in_recycle_bin**: The variant is moved to the recycle bin.
-
+  - **active**   
+    The variant is active.
+  - **in_archive**   
+    The variant is archived.
+  - **in_recycle_bin**   
+    The variant is moved to the recycle bin.
 
 - *ID*   
   Variant identification number. The ID number is automatically assigned by the system after saving. In the *Create product* view, no ID is displayed.
@@ -1046,8 +1036,7 @@ The list displays all dependencies of the selected product. All fields are read-
   - **Omni-Channel Offer**
   - **UCS Product**
 
-  [comment]: <> (what else?)
-
+[comment]: <> (what else?)
 
 - *Change tracking mode*   
   Change tracking mode (ETL mode) of the dependent entity. The following options are available:
@@ -1055,7 +1044,6 @@ The list displays all dependencies of the selected product. All fields are read-
   - **Semi-automatic**
   - **Semi-automatic, changes must be confirmed by another user**   
   - **Automatic**
-
 
 - *Dependent entity friendly identifier*   
 
@@ -1157,7 +1145,7 @@ The box displays all associated products. All fields are read-only. If no produc
 - ![Eye](../../Assets/Icons/Eye01.png "[Eye]") (Eye)   
   The button is only displayed, when you hover over a product in the list.
 
-  [comment]: <> (what should be displayed? loading never ends...)
+[comment]: <> (what should be displayed? loading never ends...)
 
 - ![Delete](../../Assets/Icons/Trash01.png "[Delete]") (Delete)   
   Click this button to delete the selected product from the list. This button is only displayed if you hover over a product in the list.
@@ -1339,7 +1327,6 @@ This tab displays the *Basic data* and *Webshop* sub-tabs. These sub-tabs are ex
   - **Offline**   
     The offer is unknown to the selected connection and cannot be sold there.
 
-
 - *Change tracking mode*   
   Click the drop-down list to change the change tracking mode (ETL mode) of the offer. The currently selected change tracking mode is displayed in the *Change tracking mode* column. This drop-down list is only displayed if the checkbox of one offer is selected. The following options are available:    
   - **Manual**   
@@ -1377,7 +1364,7 @@ The list displays all created offers to this product. All fields are read-only.
   - **Inactive**   
   - **Offline**
 
-  [comment]: <> (when is an error displayed here?)
+[comment]: <> (when is an error displayed here?)
 
 - *Connection*   
   Selected connection for the offer.
@@ -1397,8 +1384,6 @@ The list displays all created offers to this product. All fields are read-only.
   - **Semi-automatic**
   - **Semi-automatic, changes must be confirmed by another user**   
   - **Automatic**
-
-
 
 - *ID*   
   Product identification number. The ID number is automatically assigned by the system.
@@ -1462,17 +1447,14 @@ The list displays all created offers to this product. All fields are read-only.
   - ![Radionbutton](../../Assets/Icons/Radiobutton.png "[Radiobutton]") *Automatic*   
     Changes in a PIM product are automatically applied to the offer. The initial offer is also automatically applied.
 
-
-
 - *Offer status*    
-  Click the drop-down list to select the connection status. The following options are available:    
+  Click the drop-down list to select the offer status. The following options are available:    
   - **Active**      
     The offer is active. It is displayed in the selected connection and can be sold there.   
   - **Inactive**   
     The offer is inactive. It is not displayed in the selected connection and cannot be sold there.   
   - **Offline**   
     The offer is unknown to the selected connection and cannot be sold there.
-
 
 - [CANCEL]   
   Click this button to cancel adding an offer. The *Create offer* window is closed.
@@ -1494,11 +1476,13 @@ The list displays all created offers to this product. All fields are read-only.
 **Select status and change tracking mode**
 
 - *Status*    
-  Click the drop-down list to select the connection status. The following options are available:    
-  - **Active**: The offer is active. It is displayed on the marketplace and can be sold there.
-  - **Inactive**: The offer is inactive. It is not displayed on the marketplace and cannot be sold there.   
-  - **Offline**: The offer is unknown to the marketplace and therefore cannot be sold there.
-
+  Click the drop-down list to select the offer status. The following options are available:    
+  - **Active**   
+    The offer is active. It is displayed on the marketplace and can be sold there.
+  - **Inactive**   
+    The offer is inactive. It is not displayed on the marketplace and cannot be sold there.   
+  - **Offline**   
+    The offer is unknown to the marketplace and therefore cannot be sold there.
 
 - Select the appropriate change tracking mode. The following options are available:   
   - ![Radionbutton](../../Assets/Icons/Radiobutton.png "[Radiobutton]") *manual*: Changes in a PIM product must be triggered manually to be applied to the offer. The initial offer is automatically applied.   

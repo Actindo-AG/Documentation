@@ -1,11 +1,10 @@
-[!!DataHub](../../DataHub/Overview/01_General.md)
 [!!User interface Attributes](../UserInterface/03a_Attributes.md)
 [!!Manage the products](../Operation/01_ManageProducts.md)
-[!!Create a variant set](./07_ManageVariantSets.md#create-a-variant-set)
-[!!Manage an attribute set](../Integration/02_ManageAttributeSets.md)
+[!!Manage a variant set](./07_ManageVariantSets.md)
+[!!Manage an attribute set](./02_ManageAttributeSets.md)
+[!!DataHub](../../DataHub/Overview/01_General.md)
+[!!Manage the attributes in DataHub](../../DataHub/Integration/01_ManageAttribute.md)
 [!!Data type list](../../DataHub/UserInterface/04_DataTypeList.md)
-[!!Recover an attribute](../../DataHub/Integration/01_ManageAttribute.md#recover-an-attribute)
-[!!Permanently delete an attribute](../../DataHub/Integration/01_ManageAttributes.md#permanently-delete-an-attribute)
 
 
 # Manage an attribute
@@ -74,12 +73,12 @@ No prerequisites to fulfill.
  The ![Add](../../Assets/Icons/Plus05.png "[Add]") (Add) button in the *Assigned sets* field is unlocked. Depending on the selected data type, the *CONFIGURATION* section is displayed.    
  For detailed information about all data types, see [Data type list](../../Datahub/UserInterface/04_DataTypeList.md).
 
-   > [Info] The settings displayed in the *CONFIGURATION* section depend on the selected data type.
+  > [Info] The settings displayed in the *CONFIGURATION* section depend on the selected data type.
 
 4. Enter a key for the attribute in the *Key* field. The key is required for API access and must be system wide unique. An attribute key must fulfill the following criteria:
-  - valid characters are **a-z** (upper and lower case), **0-9** and the underscore ( **_** )
-  - the key must not start with a number
-  - a double underscore ( **___** ) and a trailing underscore are forbidden
+    - valid characters are **a-z** (upper and lower case), **0-9** and the underscore ( **_** )
+    - the key must not start with a number
+    - a double underscore ( **___** ) and a trailing underscore are forbidden
 
   > [Info] In order to facilitate the assignment of attributes in the further process (for instance in the ETL mapping), it is recommended to add the prefix **pim_** to all attributes created in the *PIM* module.     
 

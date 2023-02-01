@@ -37,20 +37,19 @@ An attribute set has been created, see [Create an attribute set](./02_ManageAttr
 3. Select an attribute set in the *Attribute set* drop-down list. All active attribute sets are displayed in the list.    
   The *Formulas* section with the *Formula for SKU* field is displayed.
 
-  > [Info] You need to specify defining and changeable attributes for the variant set at a later step. Be aware that only those attributes assigned to the selected attribute set will be available.
+    > [Info] You need to specify defining and changeable attributes for the variant set at a later step. Be aware that only those attributes assigned to the selected attribute set will be available.
 
   ![Formulas](../../Assets/Screenshots/PIM/Settings/VariantSets/Formulas.png "[Formulas]")
 
 4. Enter a formula for the variants SKU in the *Formula for SKU* field using the displayed placeholders. By default, you can enter the formula **{master}-{L}**.   
 
-  > [Info] The value of the defining attributes can be included into the SKU formula. When you have added a defining attribute, the corresponding placeholder for this attribute is displayed in the *Formulas* section.
+    > [Info] The value of the defining attributes can be included into the SKU formula. When you have added a defining attribute, the corresponding placeholder for this attribute is displayed in the *Formulas* section.
 
 5. For the next steps to create a variant set, follow the procedures below:   
-      - [Add defining attributes](#add-defining-attributes)
-      - [Add changeable attributes](#add-changeable-attributes)
+    - [Add defining attributes](#add-defining-attributes)
+    - [Add changeable attributes](#add-changeable-attributes)
 
-
-  > [Info] At least one defining attribute is required to create a variant set. Changeable attributes can be selected optionally.
+    > [Info] At least one defining attribute is required to create a variant set. Changeable attributes can be selected optionally.
 
 
 ### Add defining attributes
@@ -78,12 +77,12 @@ You have to select at least one defining attribute to create a variant set. You 
 2. Select the checkboxes of the attributes you want to be a defining attribute for the selected variant.   
   The editing toolbar is displayed above the attribute list.
 
-  > [Info] The defining attributes are those attributes that characterize the variant, so those attributes that are defining the variants of the master product.
+    > [Info] The defining attributes are those attributes that characterize the variant, so those attributes that are defining the variants of the master product.
 
 3. Click the [ADD AND GO BACK] button.     
-    The *Add defining attributes* view is closed. The selected attributes are displayed in the *Defining attributes* box. A placeholder for the added attribute is displayed in the *Formulas* section.   
+  The *Add defining attributes* view is closed. The selected attributes are displayed in the *Defining attributes* box. A placeholder for the added attribute is displayed in the *Formulas* section.   
 
-    ![Defining attributes added](../../Assets/Screenshots/PIM/Settings/VariantSets/DefiningAttributesAdded.png "[Defining attributes added]")
+  ![Defining attributes added](../../Assets/Screenshots/PIM/Settings/VariantSets/DefiningAttributesAdded.png "[Defining attributes added]")
 
     > [Info] You can edit the formula in the *Formula for SKU* field and include the defining attribute placeholder(s).
 
@@ -117,7 +116,7 @@ You can select changeable attributes for a variant set. If you want to define an
 2. Select the checkboxes of the attributes you want to be a changeable attribute for the selected variant.   
   The editing toolbar is displayed above the attribute list.
 
-  > [Info] Generally, a variant inherits all attribute values from its master product. These attribute values are locked in the variant and can only be edited in the master product. Attribute values that differ from the master product and must be maintained individually in the variant itself must be added to the list of changeable attributes.
+    > [Info] Generally, a variant inherits all attribute values from its master product. These attribute values are locked in the variant and can only be edited in the master product. Attribute values that differ from the master product and must be maintained individually in the variant itself must be added to the list of changeable attributes.
 
 3. Click the [ADD AND GO BACK] button.   
   The *Add changeable attributes* view is closed. The selected attributes are displayed in the *Changeable attributes* box.
@@ -187,4 +186,4 @@ A variant set has been created, see [Create a variant set](#create-a-variant-set
 4. Click the [SAVE] button in the upper right corner.   
   The changes have been saved. The *Edit variant set* view is closed.
 
-  [comment]: <> (I have to refresh the list to apply the changes - is that a bug?)
+[comment]: <> (I have to refresh the list to apply the changes - is that a bug?)

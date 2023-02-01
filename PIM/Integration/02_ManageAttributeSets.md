@@ -38,12 +38,12 @@ Additional attributes for the attribute set have been created, see [Create an at
 
 
 3. Enter a key for the attribute set in the *Key* field. The key is required for API access and must be system wide unique. An attribute set key must fulfill the following criteria:
-  - valid characters are **a-z** (upper and lower case), **0-9** and the underscore ( **_** )
-  - the key must not start with a number
-  - a double underscore ( **___** ) and a trailing underscore are forbidden
+    - valid characters are **a-z** (upper and lower case), **0-9** and the underscore ( **_** )
+    - the key must not start with a number
+    - a double underscore ( **___** ) and a trailing underscore are forbidden
 
 
-  > [Info] In order to facilitate the assignment of sets in the further process, it is recommended to add the prefix **pimset_** to all attribute sets created in the *PIM* module.
+    > [Info] In order to facilitate the assignment of sets in the further process, it is recommended to add the prefix **pimset_** to all attribute sets created in the *PIM* module.
 
 
 4. For the next steps to create an attribute set, follow the appropriate procedure:   
@@ -178,7 +178,7 @@ Add a new attribute to an attribute set to define any further specifications.
 
   ![Add attribute](../../Assets/Screenshots/PIM/Settings/AttributeSets/AddAttributes.png "[Edit attribute set]")
 
-  > [Info] If the *There are no unassigned attributes.* notice is displayed in the *Add attributes* view, all active attributes are already included in the selected attribute set. Check if you have selected the appropriate attribute set, click the ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh) button to update the list or [create a new attribute](./01_ManageAttributes.md#create-an-attribute).
+    > [Info] If the *There are no unassigned attributes.* notice is displayed in the *Add attributes* view, all active attributes are already included in the selected attribute set. Check if you have selected the appropriate attribute set, click the ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh) button to update the list or [create a new attribute](./01_ManageAttributes.md#create-an-attribute).
 
 3. Select the checkboxes of the attributes you want to add to the attribute set.   
   The editing toolbar is displayed above the list.
@@ -186,7 +186,7 @@ Add a new attribute to an attribute set to define any further specifications.
 4. Click the [ADD] button in the editing toolbar.   
   The selected attributes have been added to the attribute set. The *Add attributes* view is closed. The *Edit attribute set* view is displayed again. The added attributes are displayed in the *Assigned attributes* section.
 
-> [Info] Any changes to the assigned attributes are automatically saved in the attribute set.
+  > [Info] Any changes to the assigned attributes are automatically saved in the attribute set.
 
 
 
@@ -217,11 +217,11 @@ Remove an attribute from an attribute set to limit the specifications. Inherited
 
 3. Click the ![Delete](../../Assets/Icons/Trash03.png "[Delete]") (Delete) button in the editing toolbar.   
 
-  > [Info] If the selected attributes cannot be removed from the attribute set, an error message is displayed in the upper right corner.
+    > [Info] If the selected attributes cannot be removed from the attribute set, an error message is displayed in the upper right corner.
 
   The selected attributes have been removed from the attribute set. The list of attributes is updated.
 
-> [Info] Any changes to the assigned attributes are automatically saved in the attribute set.
+  > [Info] Any changes to the assigned attributes are automatically saved in the attribute set.
 
 
 
@@ -261,7 +261,7 @@ An attribute set has been created, see [Create an attribute set](#create-an-attr
 
 3. Enable or disable the *Required* toggle in the *Required* column to define whether or not an attribute value should be required in the selected attribute set.
 
-  > [Info] Be aware that you can only edit the *Required* option for attributes that are not inherited.
+    > [Info] Be aware that you can only edit the *Required* option for attributes that are not inherited.
 
 4. Click the ![Settings](../../Assets/Icons/Settings02.png "[Settings]") (Settings) button in the *Assigned attributes* section.       
   The *Required* column in the list of attributes is locked. All changes in the attribute list have been saved.
@@ -294,7 +294,7 @@ An attribute set has been created, see [Create an attribute set](#create-an-attr
 
 2. Disable the *Active* toggle.
 
-  > [Info] If you want to reactivate an attribute set, enable the *Active* toggle.
+    > [Info] If you want to reactivate an attribute set, enable the *Active* toggle.
 
 3. Click the [SAVE] button.   
   The attribute set has been deactivated. The *Edit attribute set* view is closed.
