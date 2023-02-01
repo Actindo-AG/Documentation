@@ -28,18 +28,18 @@ An attribute set has been created, see [Create an attribute set](./02_ManageAttr
 ![Variant sets](../../Assets/Screenshots/PIM/Settings/VariantSets/VariantSets.png "[Variant sets]")
 
 1. Click the ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) button in the bottom right corner.   
-  The *Create variant set* view is displayed.
+    The *Create variant set* view is displayed.
 
-  ![Create variant set](../../Assets/Screenshots/PIM/Settings/VariantSets/CreateVariantSet.png "[Create variant set]")
+    ![Create variant set](../../Assets/Screenshots/PIM/Settings/VariantSets/CreateVariantSet.png "[Create variant set]")
 
 2. Enter a name for the variant set in the *Name* field.
 
 3. Select an attribute set in the *Attribute set* drop-down list. All active attribute sets are displayed in the list.    
-  The *Formulas* section with the *Formula for SKU* field is displayed.
+    The *Formulas* section with the *Formula for SKU* field is displayed.
 
     > [Info] You need to specify defining and changeable attributes for the variant set at a later step. Be aware that only those attributes assigned to the selected attribute set will be available.
 
-  ![Formulas](../../Assets/Screenshots/PIM/Settings/VariantSets/Formulas.png "[Formulas]")
+    ![Formulas](../../Assets/Screenshots/PIM/Settings/VariantSets/Formulas.png "[Formulas]")
 
 4. Enter a formula for the variants SKU in the *Formula for SKU* field using the displayed placeholders. By default, you can enter the formula **{master}-{L}**.   
 
@@ -49,7 +49,7 @@ An attribute set has been created, see [Create an attribute set](./02_ManageAttr
     - [Add defining attributes](#add-defining-attributes)
     - [Add changeable attributes](#add-changeable-attributes)
 
-    > [Info] At least one defining attribute is required to create a variant set. Changeable attributes can be selected optionally.
+       > [Info] At least one defining attribute is required to create a variant set. Changeable attributes can be selected optionally.
 
 
 ### Add defining attributes
@@ -69,25 +69,25 @@ You have to select at least one defining attribute to create a variant set. You 
 
 ![Formulas](../../Assets/Screenshots/PIM/Settings/VariantSets/Formulas.png "[Formulas]")
 
-1. Click the ![Add](../../Assets/Icons/Plus01.png "[Add]") button in the *Defining attributes* box. This button is only displayed if an attribute set is selected.       
-  The *Add defining attributes* view is displayed.
+1. Click the ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) button in the *Defining attributes* box. This button is only displayed if an attribute set is selected.       
+    The *Add defining attributes* view is displayed.
 
-  ![Add defining attributes](../../Assets/Screenshots/PIM/Settings/VariantSets/AddDefiningAttributes.png "[Add defining attributes]")
+    ![Add defining attributes](../../Assets/Screenshots/PIM/Settings/VariantSets/AddDefiningAttributes.png "[Add defining attributes]")
 
 2. Select the checkboxes of the attributes you want to be a defining attribute for the selected variant.   
-  The editing toolbar is displayed above the attribute list.
+    The editing toolbar is displayed above the attribute list.
 
     > [Info] The defining attributes are those attributes that characterize the variant, so those attributes that are defining the variants of the master product.
 
 3. Click the [ADD AND GO BACK] button.     
-  The *Add defining attributes* view is closed. The selected attributes are displayed in the *Defining attributes* box. A placeholder for the added attribute is displayed in the *Formulas* section.   
+    The *Add defining attributes* view is closed. The selected attributes are displayed in the *Defining attributes* box. A placeholder for the added attribute is displayed in the *Formulas* section.   
 
-  ![Defining attributes added](../../Assets/Screenshots/PIM/Settings/VariantSets/DefiningAttributesAdded.png "[Defining attributes added]")
+    ![Defining attributes added](../../Assets/Screenshots/PIM/Settings/VariantSets/DefiningAttributesAdded.png "[Defining attributes added]")
 
     > [Info] You can edit the formula in the *Formula for SKU* field and include the defining attribute placeholder(s).
 
 4. If desired, add changeable attributes to the variant set, see [Add changeable attributes](#add-changeable-attributes). Otherwise, click the [SAVE] button in the upper right corner.   
-  The *Create variant set* view is closed. The new variant set has been saved and is displayed in the list of variant sets.
+    The *Create variant set* view is closed. The new variant set has been saved and is displayed in the list of variant sets.
 
 
 
@@ -108,23 +108,23 @@ You can select changeable attributes for a variant set. If you want to define an
 
 ![Formulas](../../Assets/Screenshots/PIM/Settings/VariantSets/Formulas.png "[Formulas]")
 
-1. Click the ![Add](../../Assets/Icons/Plus01.png "[Add]") button in the *Changeable attributes* box. This button is only displayed if an attribute set is selected.         
-  The *Add changeable attributes* view is displayed.
+1. Click the ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) button in the *Changeable attributes* box. This button is only displayed if an attribute set is selected.         
+    The *Add changeable attributes* view is displayed.
 
-  ![Add changeable attributes](../../Assets/Screenshots/PIM/Settings/VariantSets/AddChangeableAttributes.png "[Add changeable attributes]")
+    ![Add changeable attributes](../../Assets/Screenshots/PIM/Settings/VariantSets/AddChangeableAttributes.png "[Add changeable attributes]")
 
 2. Select the checkboxes of the attributes you want to be a changeable attribute for the selected variant.   
-  The editing toolbar is displayed above the attribute list.
+    The editing toolbar is displayed above the attribute list.
 
     > [Info] Generally, a variant inherits all attribute values from its master product. These attribute values are locked in the variant and can only be edited in the master product. Attribute values that differ from the master product and must be maintained individually in the variant itself must be added to the list of changeable attributes.
 
 3. Click the [ADD AND GO BACK] button.   
-  The *Add changeable attributes* view is closed. The selected attributes are displayed in the *Changeable attributes* box.
+    The *Add changeable attributes* view is closed. The selected attributes are displayed in the *Changeable attributes* box.
 
-  ![Changeable attributes added](../../Assets/Screenshots/PIM/Settings/VariantSets/ChangeableAttributesAdded.png "[Changeable attributes added]")
+    ![Changeable attributes added](../../Assets/Screenshots/PIM/Settings/VariantSets/ChangeableAttributesAdded.png "[Changeable attributes added]")
 
 4. Click the [SAVE] button in the upper right corner.   
-  The *Create variant set* view is closed. The new variant set has been saved and is displayed in the list of variant sets.
+    The *Create variant set* view is closed. The new variant set has been saved and is displayed in the list of variant sets.
 
 
 
@@ -143,14 +143,14 @@ At least one variant set has been created, see [Create a variant set](#create-a-
 ![Variant sets](../../Assets/Screenshots/PIM/Settings/VariantSets/VariantSets.png "[Variant sets]")
 
 1. Click the variant set you want to edit in the list of variant sets.   
-  The *Edit variant set* view is displayed.
+    The *Edit variant set* view is displayed.
 
-  ![Edit variant set](../../Assets/Screenshots/PIM/Settings/VariantSets/EditVariantSet.png "[Edit variant set]")
+    ![Edit variant set](../../Assets/Screenshots/PIM/Settings/VariantSets/EditVariantSet.png "[Edit variant set]")
 
 2. Edit the desired data of the variant set in the corresponding fields.
 
 3. Click the [SAVE] button in the upper right corner.   
-  The changes have been saved. The *Edit variant set* view is closed.
+    The changes have been saved. The *Edit variant set* view is closed.
 
 [comment]: <> (I have to refresh the list to apply the changes - is that a bug?)
 
@@ -173,17 +173,17 @@ A variant set has been created, see [Create a variant set](#create-a-variant-set
 ![Variant sets](../../Assets/Screenshots/PIM/Settings/VariantSets/VariantSets.png "[Variant sets]")
 
 1. Click the variant set you want to edit in the list of variant sets.   
-  The *Edit variant set* view is displayed.
+    The *Edit variant set* view is displayed.
 
-  ![Edit variant set](../../Assets/Screenshots/PIM/Settings/VariantSets/EditVariantSet.png "[Edit variant set]")
+    ![Edit variant set](../../Assets/Screenshots/PIM/Settings/VariantSets/EditVariantSet.png "[Edit variant set]")
 
 2. Select the checkboxes of the attributes you want to remove either in the *Defining attributes* or the *Changeable attributes* box.     
-  The [DELETE] button is displayed in the editing toolbar above the attribute list.
+    The [DELETE] button is displayed in the editing toolbar above the attribute list.
 
 3. Click the [DELETE] button in the editing toolbar.   
-  The attribute is removed from the list.
+    The attribute is removed from the list.
 
 4. Click the [SAVE] button in the upper right corner.   
-  The changes have been saved. The *Edit variant set* view is closed.
+    The changes have been saved. The *Edit variant set* view is closed.
 
 [comment]: <> (I have to refresh the list to apply the changes - is that a bug?)

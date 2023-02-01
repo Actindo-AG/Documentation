@@ -3,16 +3,16 @@
 Intelligent product data management for all sales channels:
 
 - A fully dynamic data model   
-  The flexible data model of *PIM* module allows attribute sets, attributes and variant sets as well as variants to be fully customized. Products can be maintained in bulk and even the most complex product structures can be mapped.
+    The flexible data model of *PIM* module allows attribute sets, attributes and variant sets as well as variants to be fully customized. Products can be maintained in bulk and even the most complex product structures can be mapped.
 
 - Central control of all marketplaces   
-  All your sales channels, whether it is an online shop, a POS or marketplaces, can be controlled centrally and individually via the *PIM* module of Actindo. Completeness check for maintained products can be carried out for each marketplace individually.
+    All your sales channels, whether it is an online shop, a POS or marketplaces, can be controlled centrally and individually via the *PIM* module of Actindo. Completeness check for maintained products can be carried out for each marketplace individually.
 
 - Management, preparation and output of your data  
-  Data can be imported and exported manually or automatically in various data formats. Via ETL, neutral product data can be prepared and played out in the *PIM* module for all marketplaces individually and automatically.
+    Data can be imported and exported manually or automatically in various data formats. Via ETL, neutral product data can be prepared and played out in the *PIM* module for all marketplaces individually and automatically.
 
 - Flexible integration options   
-  The *PIM* module can be flexibly connected to existing a/o legacy systems and data transformations from those could be easily implemented. A variety of other integrations are also available.  
+    The *PIM* module can be flexibly connected to existing a/o legacy systems and data transformations from those could be easily implemented. A variety of other integrations are also available.  
 
 ## Always agile &ndash; always prepared for growth
 

@@ -26,39 +26,39 @@ No prerequisites to fulfill.
 1. Search for the respective attribute in the attribute list.
 
 2. Click the respective attribute in the attribute list.   
-  The *Edit attribute* view is displayed.
+    The *Edit attribute* view is displayed.
 
-  ![Edit attribute](../../Assets/Screenshots/PIM/Settings/Attributes/EditAttribute_Data.png "[Edit attribute]")
+    ![Edit attribute](../../Assets/Screenshots/PIM/Settings/Attributes/EditAttribute_Data.png "[Edit attribute]")
 
 3. Check the following attribute settings:
     - *Multi-language*      
-      Check if the toggle is disabled. Only single language attributes can be used as defining attributes for a variant set.
+        Check if the toggle is disabled. Only single language attributes can be used as defining attributes for a variant set.
     - *Multi-channel*      
-      Check if the toggle is disabled. Only single channel attributes can be used as defining attributes for a variant set.
+        Check if the toggle is disabled. Only single channel attributes can be used as defining attributes for a variant set.
 
-      > [Info] If the respective attribute is multi-language or multi-channel, it cannot be used as defining attribute. Create a new attribute which is neither multi-language nor multi-channel to use it as a defining attribute, see [Create a new attribute](../Integration/01_ManageAttributes.md#create-an-attribute).    
+        > [Info] If the respective attribute is multi-language or multi-channel, it cannot be used as defining attribute. Create a new attribute which is neither multi-language nor multi-channel to use it as a defining attribute, see [Create a new attribute](../Integration/01_ManageAttributes.md#create-an-attribute).    
 
 4. Check if the *Active* toggle is enabled. Only active attributes are displayed in the list of defining attributes for a variant set. If the toggle is disabled, enable the toggle by clicking it.
 
 5. Click the [SAVE] button in the upper right corner to save any changes.   
-  The changes have been applied. The *Edit attribute* view is closed.
+    The changes have been applied. The *Edit attribute* view is closed.
 
 6. Press the **F5** key to initialize the *Core1 Platform*.
 
 7. Switch to the *VARIANT SETS* tab: *PIM > Settings > Tab VARIANT SETS* .      
-  The *VARIANT SETS* tab with the list of variant sets is displayed.
+    The *VARIANT SETS* tab with the list of variant sets is displayed.
 
-  ![Variant sets](../../Assets/Screenshots/PIM/Settings/VariantSets/VariantSets.png "[Variant sets]")
+    ![Variant sets](../../Assets/Screenshots/PIM/Settings/VariantSets/VariantSets.png "[Variant sets]")
 
 8. Create a new variant set or select the variant set to which you want to add the defining attribute.   
   For detailed information, see [Create a variant set](../Integration/07_ManageVariantSets.md#create-a-variant-set) or [Edit a variant set](../Integration/07_ManageVariantSets.md#edit-a-variant-set).
 
-  ![Formulas](../../Assets/Screenshots/PIM/Settings/VariantSets/Formulas.png "[Formulas]")
+    ![Formulas](../../Assets/Screenshots/PIM/Settings/VariantSets/Formulas.png "[Formulas]")
 
 9. In the *Defining attributes* box, click the ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) button.    
-  The *Add defining attributes* view is displayed.
+    The *Add defining attributes* view is displayed.
 
-  ![Add defining attributes](../../Assets/Screenshots/PIM/Settings/VariantSets/AddDefiningAttributes.png "[Add defining attributes]")
+    ![Add defining attributes](../../Assets/Screenshots/PIM/Settings/VariantSets/AddDefiningAttributes.png "[Add defining attributes]")
 
 10. Check if the respective attribute is displayed in the list.
 

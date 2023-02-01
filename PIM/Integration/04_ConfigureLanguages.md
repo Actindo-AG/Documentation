@@ -1,6 +1,6 @@
 [!!DataHub](../../DataHub/Overview/01_General.md)
 [!!User interface Languages](../UserInterface/03d_Languages.md)
-[!!Create a language in DataHub](../../DataHub/Integration/05_ManageLanguages.md#create-a-language)
+[!!Manage the languages in DataHub](../../DataHub/Integration/05_ManageLanguages.md)
 
 
 # Configure the language settings
@@ -24,4 +24,4 @@ No prerequisites to fulfill.
     > [Info] At least one language has to be activated.
 
 2. Press the **F5** key to initialize the *Core1 Platform*.   
-  The selected language has been activated in the *PIM* module.
+    The selected language has been activated in the *PIM* module.

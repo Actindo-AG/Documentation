@@ -30,18 +30,18 @@ In each box the degree of completeness in percent is displayed related to:
 **Recent changes**
 
 - ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh)    
-  Click this button to update the list of recent changes.
+    Click this button to update the list of recent changes.
 
 The list in the box displays all recent changes on the products. All fields are read-only.
 
 - *SKU*  
-  Stock Keeping Unit. Identification number for the product.  
+    Stock Keeping Unit. Identification number for the product.  
 
 - *Date*  
-  Date and time of the change.  
+    Date and time of the change.  
 
 - *Author*   
-  Name and username of the author who made the change.
+    Name and username of the author who made the change.
 
 - *Changed elements*   
-  Elements that have been changed on the product.
+    Elements that have been changed on the product.
