@@ -1,3 +1,5 @@
+[!!Manage the dispatch notes](../Operation/01_ManageDispatchNotes.md)
+
 # List
 
 *Fulfillment > Dispatch notes > Tab LIST*
@@ -83,7 +85,7 @@
 - [EXPORT]  
     Click this button to export manually the dispatch note to the fulfiller. This button is displayed if the checkbox of at least one dispatch note is selected.
 
-    > [Info] The dispatch note is exported automatically by the system. If the export fails, the dispatch note can be manually reexported. Nevertheless, this is not to be meant a usual procedure but an exceptional measure. For detailed information, see [Export a dispatch note](../Integration/01_ManageDispatchNote.md#export-a-dispatch-note).
+    > [Info] The dispatch note is exported automatically by the system. If the export fails, the dispatch note can be manually reexported. Nevertheless, this is not to be meant a usual procedure but an exceptional measure. For detailed information, see [Export a dispatch note](../Operation/01_ManageDispatchNotes.md#export-a-dispatch-note).
 
 - [FORCE COMPLETION]  
     Click this button to complete the dispatch note. This button is displayed if the checkbox of at least one dispatch note is selected.
@@ -248,17 +250,18 @@ This tab has no function in the *Fulfillment* module, since dispatch notes have 
 
 ![Shipments](../../Assets/Screenshots/Fulfillment/DispatchNotes/DispatchNoteShipments.png "[Shipments]")
 
-[comment]: <> (SW: Unten beschriebene Felder aus NoE Test-Account. Was ist Standard?)
-
 
 - ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh)   
-    Click this button to update the list of dispatch notes.
+    Click this button to update the list of shipments.
 
 - ![Columns](../../Assets/Icons/Columns.png "[Columns]") Columns (x)   
     Click this button to display the columns bar and customize the displayed columns and the order of columns in the list. The *x* indicates the number of columns that are currently displayed in the list.
 
 - ![Filter](../../Assets/Icons/Filter.png "[Filter]") Filter (x)   
     Click this button to display the filter bar and customize the active filters. The *x* indicates the number of filters that are currently active.
+
+
+The list displays all shipments. Depending on the settings, the displayed columns may vary. All fields are read-only.
 
 - *ID*  
     Shipment identification number. The ID number is automatically assigned by the system.
@@ -298,7 +301,7 @@ This tab has no function in the *Fulfillment* module, since dispatch notes have 
 
 ### Shipment attributes
 
-*Fulfillment > Dispatch notes > Tab LIST > Select a dispatch note > Tab Shipments > Sub-tab ATTRIBUTES*
+*Fulfillment > Dispatch notes > Tab LIST > Select a dispatch note > Tab Shipments > Select a shipment > Sub-tab ATTRIBUTES*
 
 ![Shipments](../../Assets/Screenshots/Fulfillment/DispatchNotes/ShipmentsAttributesAttributes.png "[Shipments]")
 
@@ -309,7 +312,7 @@ This tab has no function in the *Fulfillment* module, since dispatch notes have 
 
 ### Shipment attributes &ndash; Attributes
 
-*Fulfillment > Dispatch notes > Tab LIST > Select a dispatch note > Tab Shipments > Sub-tab ATTRIBUTES > Tab Attributes*
+*Fulfillment > Dispatch notes > Tab LIST > Select a dispatch note > Tab Shipments > Select a shipment > Sub-tab ATTRIBUTES > Tab Attributes*
 
 ![Shipment attributes](../../Assets/Screenshots/Fulfillment/DispatchNotes/ShipmentsAttributesAttributes.png "[Shipment attributes]")
 
@@ -332,7 +335,7 @@ The right side of the *Attributes* tab displays all attributes that are assigned
 
 ### Shipment attributes &ndash; Dependencies
 
-*Fulfillment > Dispatch notes > Tab LIST > Select a dispatch note > Tab Shipments > Sub-tab ATTRIBUTES > Tab Dependencies*
+*Fulfillment > Dispatch notes > Tab LIST > Select a dispatch note > Tab Shipments > Select a shipment > Sub-tab ATTRIBUTES > Tab Dependencies*
 
 ![Shipment dependencies](../../Assets/Screenshots/Fulfillment/DispatchNotes/ShipmentsAttributesDependencies.png "[Shipment dependencies]")
 
@@ -342,9 +345,23 @@ This tab has no function in the *Fulfillment* module, since dispatch notes have 
 
 ### Shipment packages
 
-*Fulfillment > Dispatch notes > Tab LIST > Select a dispatch note > Tab Shipments > Sub-tab PACKAGES*
+*Fulfillment > Dispatch notes > Tab LIST > Select a dispatch note > Tab Shipments > Select a shipment > Sub-tab PACKAGES*
 
 ![Shipments](../../Assets/Screenshots/Fulfillment/DispatchNotes/ShipmentsPackages.png "[Shipments]")
+
+
+- ![Search](../../Assets/Icons/Search.png "[Search]") (Search)   
+    Click this button to display the search bar and search for packages.
+
+- ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh)   
+    Click this button to update the list of packages.
+
+- ![Columns](../../Assets/Icons/Columns.png "[Columns]") Columns (x)   
+    Click this button to display the columns bar and customize the displayed columns and the order of columns in the list. The *x* indicates the number of columns that are currently displayed in the list.
+
+- ![Filter](../../Assets/Icons/Filter.png "[Filter]") Filter (x)   
+    Click this button to display the filter bar and customize the active filters. The *x* indicates the number of filters that are currently active.
+
 
 The list displays all packages contained in the selected shipment. Depending on the settings, the displayed columns may vary. All fields are read-only.
 
@@ -375,29 +392,22 @@ The list displays all packages contained in the selected shipment. Depending on 
 - Attribute    
     You can add a column for each attribute that is assigned to the shipment package. The column displays the attribute name, the row displays the corresponding attribute value of the shipment package.
     
-- *SSCC number*  
-   Serial shipping container code number as defined by the fulfiller.
-
-- *Shipping method*  
-    Shipping method identification number as defined by the fulfiller.
-
-- *Identifier override*  
-    Identifier override value as defined by the fulfiller.
-
-- *Shipping method override*  
-    Shipping method override value as defined by the fulfiller.
-
-- *Packaging type override*  
-    Packaging type override value as defined by the fulfiller.
-
-[comment]: <> (SW: Vermutlich ab SSCC alle Attribute)
-
 
 #### Items
 
-*Fulfillment > Dispatch notes > Tab LIST > Select a dispatch note > Tab Shipments > Sub-tab PACKAGES > Select a package*
+*Fulfillment > Dispatch notes > Tab LIST > Select a dispatch note > Tab Shipments > Select a shipment > Sub-tab PACKAGES > Select a package*
 
-![Shipments](../../Assets/Screenshots/Fulfillment/DispatchNotes/Items01.png "[Shipments]")
+![Items](../../Assets/Screenshots/Fulfillment/DispatchNotes/Items01.png "[Items]")
+
+
+- ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh)   
+    Click this button to update the list of items.
+
+- ![Columns](../../Assets/Icons/Columns.png "[Columns]") Columns (x)   
+    Click this button to display the columns bar and customize the displayed columns and the order of columns in the list. The *x* indicates the number of columns that are currently displayed in the list.
+
+- ![Filter](../../Assets/Icons/Filter.png "[Filter]") Filter (x)   
+    Click this button to display the filter bar and customize the active filters. The *x* indicates the number of filters that are currently active.
 
 The list displays all items contained in the selected package. Depending on the settings, the displayed columns may vary. All fields are read-only.
 
@@ -418,9 +428,6 @@ The list displays all items contained in the selected package. Depending on the 
 - *ID*  
     Item identification number. The ID number is automatically assigned by the system.
 
-- Attribute    
-    You can add a column for each attribute that is assigned to the item. The column displays the attribute name, the row displays the corresponding attribute value of the item.
-
 - *Unit net value*  
     Item unit net value.
 
@@ -436,7 +443,12 @@ The list displays all items contained in the selected package. Depending on the 
 - *Dangerous goods indicator*  
     Indication whether the item has been classified as a dangerous product.
 
-[comment]: <> (SW: Vermutlich ab Unit net value alle Attribute. Beschreiben?)
+- Attribute    
+    You can add a column for each attribute that is assigned to the item. The column displays the attribute name, the row displays the corresponding attribute value of the item.
+
+[comment]: <> (SW: Vermutlich ab Unit net value alle Attribute. Standard oder Kundenspezifisch, i.e. Beschreiben?)
+
+[comment]: <> (SW: Kein CLOSE button in Items window. Bug)
 
 ## Dispatch note "Dispatch note ID" &ndash; Logs
 
