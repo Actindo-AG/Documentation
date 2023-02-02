@@ -13,8 +13,8 @@ Be aware that, before a Shopware 6 connection can be established in the *Actindo
 
 #### Prerequisites
 
-- A Shopware 6 account has been created.
-- The *Shopware 6* plugin has been installed.  
+- A Shopware 6 shop is installed.
+- The *Shopware 6* driver plugin has been installed in the Core1 account.
 - All languages configured in the Shopware 6 account have been created in the *DataHub* module, see [Create a language](../../DataHub/Integration/05_ManageLanguages.md#create-a-language). 
 
 > [Info] For the *Omni-Channel* module version 4.1.0 or higher, the *Shopware 6* plugin is required in at least version 4.0.0.
@@ -37,9 +37,9 @@ Be aware that, before a Shopware 6 connection can be established in the *Actindo
 
     ![Create connection credentials](../../Assets/Screenshots/Channels/Settings/Connections/Shopware6/CreateConnectionCredentials.png "[Create connection credentials]")
 
-4. Enter the shop URL in the *URL* field.  
+4. Enter the shops base URL in the *URL* field.  
 
-5. In a new browser window, go to your Shopware 6 account and log in.  
+5. In a new browser window, go to your Shopware 6 backend and log in.    
   The Shopware 6 dashboard is displayed.
 
     ![Shopware 6 dashboard](../../Assets/Screenshots/Channels/Settings/Connections/Shopware6/Dashboard.png "[Shopware 6 dashboard]")
@@ -71,6 +71,10 @@ Be aware that, before a Shopware 6 connection can be established in the *Actindo
 
 13. If necessary, continue to configure the Shopware 6 connection settings, see [Configure the Shopware 6 connection](#configure-the-shopware-6-connection).
 
+14. After creating the connection, it has to be synchronized in order for all configuration options to be fully available.
+
+[comment]: <> (HG: Laut Oli springt man nach der Verbindung-Herstellung direkt zum Einstellungen-Screen. Das würde mit unserer Beschreibung im Schritt 12 dann nicht übereinstimmen... Wenn das so ist, sollte man mit dem Back-Button wieder raus in die Verbindungsliste, die Verbindung auswählen und auf Sync klicken. Oli meint, Sync geht eh automatisch. Alterntiv würde ich eine Info unter dem Schritt 12 und fertig.)
+
 
 ## Configure the Shopware 6 connection   
 
@@ -96,7 +100,7 @@ A Shopware 6 connection has been established, see [Create a Shopware 6 connectio
   
     ![Settings default language](../../Assets/Screenshots/Channels/Settings/Connections/Shopware6/EditConnectionSettings_DefaultLanguage.png "[Settings default language]")
 
-3. Click the *Select Shopware default language* drop-down list and select the appropriate language. All languages available in the *DataHub* module are displayed in the list.  
+3. Click the *Select Shopware default language* drop-down list and select the appropriate language. All languages configured in Shopware 6 are displayed in the list.   
 
     > [Info] In Shopware 6, the default language is configured during installation, which cannot be edited subsequently. This default language must be defined manually in the *Actindo Core1 Platform*, as it cannot be detected via API. 
 
@@ -116,7 +120,7 @@ A Shopware 6 connection has been established, see [Create a Shopware 6 connectio
 
     + If desired, click the *Order state to set in shop after the order is fully shipped* drop-down list and select the state that will be set for the order if the shipment has been completed. All states available in Shopware 6 are displayed.
   
-    + If desired, enable for each payment method the toggles of all states for which the orders are to be imported. If you select no order state for a certain payment method, all orders with this payment method, regardless of their state, will be imported. All states available in Shopware 6 are displayed for each payment method. All payment methods configured in Shopware 6 are displayed.
+    + If desired, enable for each payment method the toggles of all states for which the orders are to be imported. If you select no order state for a certain payment method, all orders with this payment method, regardless of their state, will be imported. All states available in Shopware 6 are displayed for each payment method. All payment methods configured in Shopware 6 are displayed. This allows you, for example, to only process payed orders for methods like PayPal where it is uncommon to process orders prior to them being paid.
 
 6. Click the *Tax classes* menu entry in the left side bar.  
   The tax classes available in Shopware 6 are displayed on the right side.  
@@ -141,6 +145,8 @@ A Shopware 6 connection has been established, see [Create a Shopware 6 connectio
   The *Ratepay Payment Plugin for Shopware 6* imports the following additional fields from the shop for further processing:   
     - *transactionId*   
     - *descriptor*    
+
+    > [Info] After enabling the Ratepay integration for the first time, you have to synchronize the connection so the new order attributes are created for this connection.
     
 10. If available, click the *Klarna* menu entry in the left side bar.  
   The Klarna settings are displayed on the right side.
@@ -165,6 +171,8 @@ A Shopware 6 connection has been established, see [Create a Shopware 6 connectio
     - *refunded_amount*
     - *remaining_amount*  
 
+    > [Info] After enabling the Klarna integration for the first time, you have to synchronize the connection so the new order attributes are created for this connection.
+
 12. Click the *Price rules* menu entry in the left side bar.  
   The price rule settings are displayed on the right side.
 
@@ -172,7 +180,11 @@ A Shopware 6 connection has been established, see [Create a Shopware 6 connectio
 
 13. Enable the toggles for all price rules for which you want to create a price attribute in the *Actindo Core1 Platform* to maintain deviating prices. All price rules available in Shopware 6 are displayed. 
 
+    > [Info] In case the rule you are looking for is not visible, make sure that *Price* is enabled in the *Type* selection of the according rule in the Shopware 6 backend. After changing a rule's type, you have to synchronize the connection before returning to this setting.
+
     > [Info] You have to synchronize the connection to create the corresponding price attribute, see [Synchronize a connection](./01_ManageConnections.md#synchronize-a-connection). Once a price attribute has been created, the corresponding toggle is locked and cannot be disabled anymore.
+
+[comment]: <> (HG: Erste Info ist eine Korrektur von Oli. Zweite Info dann besser als Step?)
 
 14. Click the [SAVE] button.  
   All changes have been saved. The *Saving successful* pop-up window is displayed.
