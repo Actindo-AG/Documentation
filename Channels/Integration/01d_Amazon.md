@@ -164,20 +164,26 @@ All checkboxes are unlocked.
 
     ![Settings shipping provider mapping](../../Assets/Screenshots/Channels/Settings/Connections/Amazon/EditConnectionSettings_ShippingProviderMapping.png "[Settings shipping provider mapping]")
 
-11. Click the *UCS shipping provider* drop-down list for the default shipping option in the *Assigned shipping provider* column and select the applicable shipping provider. All available shipping providers are displayed in the list.   
- 
+11. Click the *UCS shipping provider* drop-down list for the default shipping option in the *Assigned shipping provider* column and select the applicable shipping provider. All available shipping providers are displayed in the list. 
+
     > [Info] The default shipping provider is used as a fallback shipping provider for all shipping options that have no shipping provider assigned.
 
-12. Click the *UCS shipping provider* drop-down list for each shipping option in the *Assigned shipping provider* column and select the applicable shipping provider. All available shipping providers are displayed in the list. If no shipping provider is selected, the default shipping provider applies.
+12. If desired, click the *UCS shipping provider* drop-down list for the gift wrap option in the *Assigned shipping provider* column and select **Gift wrap**, so that a line item for gift wraps can be added to the OMS orders if needed. This is independent from the other shipping provider mappings. 
+
+    > [Info] The gift wrap option is set up in the *Order management* module: *Order management > Settings > Tab SHIPPING PROVIDER*. Please create a (pseudo) shipping provider, which will show up on invoices as a gift wrap line item. Set the Shipping-provider to CSV, and disable Export, Beleg-Export and Re-Import.
+
+[comment]: <> (HG: Schritt 12 ist neu hinzugefügt. Erklärung wurde von Johannes ergänzt. Beleg-Export habe ich so gelassen, da Fakturierung noch nicht lokalsiert. Neues screenshot mit gift wrap Option auch hinzugefügt.)
+ 
+13. Click the *UCS shipping provider* drop-down list for each shipping option in the *Assigned shipping provider* column and select the applicable shipping provider. All available shipping providers are displayed in the list. If no shipping provider is selected, the default shipping provider applies.
 
     > [Info] The shipping providers are set up in the *Order management* module: *Order management > Settings > Tab SHIPPING PROVIDER*.
 
-13. Click the [SAVE] button.  
+14. Click the [SAVE] button.  
   All changes have been saved. The *Saving successful* pop-up window is displayed.
 
     ![Saving successful](../../Assets/Screenshots/Channels/Settings/Connections/SavingSuccessful.png "[Saving successful]")
 
-14. If the shipping provider mapping has been modified, synchronize the connection to apply all changes to the mapping, see [Synchronize a connection](../Integration/01_ManageConnections.md#synchronize-a-connection).    
+15. If the shipping provider mapping has been modified, synchronize the connection to apply all changes to the mapping, see [Synchronize a connection](../Integration/01_ManageConnections.md#synchronize-a-connection).    
   The *Sync triggered* pop-up window is displayed.
 
     ![Sync triggered](../../Assets/Screenshots/Channels/Settings/Connections/SyncTriggered.png "[Sync triggered]")
