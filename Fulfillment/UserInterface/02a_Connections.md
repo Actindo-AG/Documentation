@@ -4,79 +4,78 @@
 
 ![List of intents](../../Assets/Screenshots/Fulfillment/Logging/ListIntents.png "[List of intents]")
 
-[comment]: <> (Nichts angezeigt im Sandbox. Alle beschriebenen Felder aus NoE test account. Was ist standard und was kundenspezifisch?)
+[comment]: <> (Nichts angezeigt im Sandbox. Bug bei mir? Alle beschriebenen Felder aus NoE test account. Was ist standard und was kundenspezifisch?)
+
 
 **List of intents**
 
 - *VIEW*  
-  Click the drop-down list to select the view. All created views are displayed in the drop-down list. Click the ![Points](../../Assets/Icons/Points01.png "[Points]") (Points) button to the right of the *VIEW* drop-down list to display the context menu and create a view. For detailed information, see [Create view](#create-view).
+    Click the drop-down list to select the view. All created views are displayed in the drop-down list. Click the ![Points](../../Assets/Icons/Points01.png "[Points]") (Points) button to the right of the *VIEW* drop-down list to display the context menu and create a view. For detailed information, see [Create view](#create-view).
 
-  - ![Points](../../Assets/Icons/Points01.png "[Points]") (Points)      
-    Click this button to the right of the *View* drop-down list to display the context menu. The following menu entries are available:
+    - ![Points](../../Assets/Icons/Points01.png "[Points]") (Points)      
+        Click this button to the right of the *View* drop-down list to display the context menu. The following menu entries are available:
 
-    - ![Create](../../Assets/Icons/Plus06.png "[Create]") create  
-      Click this entry to create a view. The *Create view* window is displayed.
+      - ![Create](../../Assets/Icons/Plus06.png "[Create]") create  
+        Click this entry to create a view. The *Create view* window is displayed.
 
-    - ![Rename](../../Assets/Icons/Edit02.png "[Rename]") rename  
-      Click this entry to rename the selected view. The *Rename view* window is displayed. This menu entry is only displayed if a view has been selected.
+      - ![Rename](../../Assets/Icons/Edit02.png "[Rename]") rename  
+        Click this entry to rename the selected view. The *Rename view* window is displayed. This menu entry is only displayed if a view has been selected.
 
-    - ![Reset](../../Assets/Icons/Reset.png "[Reset]") reset  
-      Click this entry to reset all unsaved changes to the settings of the selected view. This menu entry is only displayed if a view has been selected and any changes have been made to the view settings.
+      - ![Reset](../../Assets/Icons/Reset.png "[Reset]") reset  
+        Click this entry to reset all unsaved changes to the settings of the selected view. This menu entry is only displayed if a view has been selected and any changes have been made to the view settings.
 
-    - ![Publish](../../Assets/Icons/Publish.png "[Publish]") publish  
-      Click this entry to publish the view. This menu entry is only displayed if a view has been selected and unpublished.
+      - ![Publish](../../Assets/Icons/Publish.png "[Publish]") publish  
+        Click this entry to publish the view. This menu entry is only displayed if a view has been selected and unpublished.
 
-    - ![Unpublish](../../Assets/Icons/Unpublish.png "[Unpublish]") unpublish  
-      Click this entry to unpublish the view. This menu entry is only displayed if a view has been selected and published.
+      - ![Unpublish](../../Assets/Icons/Unpublish.png "[Unpublish]") unpublish  
+        Click this entry to unpublish the view. This menu entry is only displayed if a view has been selected and published.
 
-    - ![Save](../../Assets/Icons/Save.png "[Save]") save  
-      Click this entry to save the current view settings in the selected view. This menu entry is only displayed if a view has been selected.
+      - ![Save](../../Assets/Icons/Save.png "[Save]") save  
+        Click this entry to save the current view settings in the selected view. This menu entry is only displayed if a view has been selected.
 
-      > [Info] When the settings of a view have been changed, an asterisk is displayed next to the view name. The asterisk is hidden as soon as the changes have been saved.
+        > [Info] When the settings of a view have been changed, an asterisk is displayed next to the view name. The asterisk is hidden as soon as the changes have been saved.
 
-    - ![Delete](../../Assets/Icons/Trash01.png "[Delete]") delete  
-      Click this entry to delete the selected view. A confirmation window to confirm the deletion is displayed. This menu entry is only displayed if a view has been selected.
-
-[comment]: <> (Reset auch hier verfügbar?)
+      - ![Delete](../../Assets/Icons/Trash01.png "[Delete]") delete  
+        Click this entry to delete the selected view. A confirmation window to confirm the deletion is displayed. This menu entry is only displayed if a view has been selected.
 
 
 - ![Search](../../Assets/Icons/Search.png "[Search]") (Search)   
-  Click this button to display the search bar and search for event logs.
+    Click this button to display the search bar and search for an intent.
 
 - ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh)   
-  Click this button to update the list of an event logs.
+    Click this button to update the list of intents.
 
 - ![Columns](../../Assets/Icons/Columns.png "[Columns]") Columns (x)   
-  Click this button to display the columns bar and customize the displayed columns and the order of columns in the list. The *x* indicates the number of columns that are currently displayed in the list.
+    Click this button to display the columns bar and customize the displayed columns and the order of columns in the list. The *x* indicates the number of columns that are currently displayed in the list.
 
 - ![Filter](../../Assets/Icons/Filter.png "[Filter]") Filter (x)   
-  Click this button to display the filter bar and customize the active filters. The *x* indicates the number of filters that are currently active.
+    Click this button to display the filter bar and customize the active filters. The *x* indicates the number of filters that are currently active.
 
 - [x]     
-  Select the checkbox to display the editing toolbar. Only one log message can be selected at a time.
+    Select the checkbox to display the editing toolbar. Only one log message can be selected at a time.
 
 - [SHOW MESSAGE]  
-  Click this button to display the selected log message. This button is only displayed if the checkbox of an event log is selected. Alternatively, you can click directly a row in the list to view an event log. The *List of messages* view is displayed.
+    Click this button to display the selected log message. This button is only displayed if a single checkbox in the list of intents is selected. Alternatively, you can click directly a row in the list to view an intent. The *List of messages* view is displayed.
 
 
-The list displays all event logs. Depending on the settings, the displayed columns may vary. All fields are read-only.
+The list displays all intents. Depending on the settings, the displayed columns may vary. All fields are read-only.
 
 - *Name*  
-  Description of log.
+    Description of log.
 
 - *Number of messages*  
-  Number of messages contained in the log.
+    Number of messages contained in the log.
 
 - *Created at*  
-  Date and time of the creation.
+    Date and time of the creation.
 
 - *Created by*  
-  Name and username of the user who created the log.  
+    Name and username of the user who created the log.  
 
 [comment]: <> (Bei NoE test account Background-API Arvato -> Always automatically created? User or Connection name? Logs created by a person or automatically by the system/connection?)  
 
 - *Max log level of message*  
-  Maximal log level type of the message(s) contained in the event log. The following levels are available:
+    Maximal log level type of the message(s) contained in the intent. The following levels are available:
   - **Debug**
   - **Info**
   - **Notice**
@@ -89,13 +88,13 @@ The list displays all event logs. Depending on the settings, the displayed colum
 [comment]: <> (Levels in Workflows + Omni-Channel)  
 
 - *ID*  
-  Log identification number. The ID number is automatically assigned by the system.
+    Log identification number. The ID number is automatically assigned by the system.
 
 - *Preview*  
-  Preview of log details.
+    Preview of log details.
 
 - *Short preview*  
-  Short preview of log details.
+    Short preview of log details.
 
 [comment]: <> (Beide scheinen gleich aus oder sehr ähnlich. Unterschied?)
 
@@ -119,31 +118,31 @@ For a detailed description of this window and the corresponding functions, see [
 
 ## List of messages
 
-*Fulfillment > Logging > Tab CONNECTIONS > Select an event log*
+*Fulfillment > Logging > Tab CONNECTIONS > Select an intent*
 
 ![List of messages](../../Assets/Screenshots/Fulfillment/Logging/ListMessages.png "[List of messages]")
 
 **List of messages**
 
 - ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)   
-  Click this button to close the *List of messages* view and return to the list of intents.
+    Click this button to close the *List of messages* view and return to the list of intents.
 
 - ![Unpublish](../../Assets/Icons/Unpublish02.png "[Unpublish]")  
-  Click this to unpublish the log message.
+    Click this to unpublish the log message.
 
 [comment]: <> (Unpublish? Bedeutung?)
 
 - ![View](../../Assets/Icons/Eye02.png "[View]")  
-  Click this button to view the log message details.
+    Click this button to view the log message details.
 
 
-The list displays all messages contained in the selected event log. Depending on the settings, the displayed columns may vary. All fields are read-only.
+The list displays all messages contained in the selected intent. Depending on the settings, the displayed columns may vary. All fields are read-only.
 
 - *Title*  
-  Description of the log message.
+    Description of the log message.
 
 - *Log level*  
-  Log level type. The following levels are available:
+    Log level type. The following levels are available:
   - **Debug**
   - **Info**
   - **Notice**
@@ -156,84 +155,56 @@ The list displays all messages contained in the selected event log. Depending on
 [comment]: <> (Levels in Workflows + Omni-Channel)
 
 - *Created at*  
-  Date and time of the creation.
+    Date and time of the creation.
 
 - *Created by*  
-  Name and username of the user who created the event log.
+    Name and username of the user who created the intent.
 
 [comment]: <> (Bei NoE test account Background-API Arvato -> Always automatically created? User or Connection name? Logs created by a person or automatically by the system/connection?)
 
 - *Message*  
-  Details of the log message.
+    Details of the log message.
 
 - *ID*  
-  Log message identification number. The ID number is automatically assigned by the system.
+    Log message identification number. The ID number is automatically assigned by the system.
 
 
 ### Detail of log message "Log message name"
 
-*Fulfillment > Logging > Tab CONNECTIONS > Select an event log > Select a log message*
+*Fulfillment > Logging > Tab CONNECTIONS > Select an intent > Select a log message*
 
 ![List of messages](../../Assets/Screenshots/Fulfillment/Logging/DetailLogMessageAttributes.png "[List of messages]")
 
 - ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)   
-  Click this button to close the *Detail of log message "Log message name"* view and return to the list of messages.
+    Click this button to close the *Detail of log message "Log message name"* view and return to the list of messages.
 
 - [CANCEL]  
-  Click this button to close the *Detail of log message "Log message name"* view and return to the list of messages.
-
-[comment]: <> (Beide tun das gleiche)
+    Click this button to close the *Detail of log message "Log message name"* view. The list of messages is displayed.
 
 - Message  
-  Short description of the log message.
+    Short description of the log message.
 
 - *Message:*  
-  Short description of the log message.
+    Short description of the log message.
 
 [comment]: <> (Hier Info wiederholt sich. Report als Bug?)
 
 
 ### Detail of log message "Log message name" &ndash; Attributes
 
-*Fulfillment > Logging > Tab CONNECTIONS > Select an event log > Select a log message > Tab Attributes*
+*Fulfillment > Logging > Tab CONNECTIONS > Select an intent > Select a log message > Tab Attributes*
 
 ![Detail Log Message Attributes](../../Assets/Screenshots/Fulfillment/Logging/DetailLogMessageAttributes.png "[Detail Log Message Attributes]")
 
-The *Attributes* tab displays further details of the selected log message. Depending on the message title, the assigned attributes, and therefore the fields displayed, may vary. All fields are read-only.
+The *Attributes* tab displays further details of the selected log message. Depending on the message type, the assigned attributes, and therefore the fields displayed, may vary. All fields are read-only.
 
-By default, the following fields are displayed:
-
-[comment]: <> (Felder ändern sich abhängig von Title - vgl. NotFoundException und updateDeliveryStatus? Vermutlich abhängig von Attributes, also Standardsatz dazu und keine Felder? Oder gibt es Standardfelder?)
-
-- *Code*  
-  Code number.  
-
-- *Endpoint and method*
-- *Request*
-- *Response*
-- *Exception*
-
-- *Error code*  
-  Error code number.
-
-- *File*  
-  File where the error has occurred.
-
-- *Line*  
-  Line where the error has occurred.
-
-- *Exception class*  
-
-- *Trace as string*  
-
-- *Exception*
 
 ### Detail of log message "Log message name" &ndash; Dependencies
 
-*Fulfillment > Logging > Tab CONNECTIONS > Select an event log > Select a log message > Tab Dependencies*
+*Fulfillment > Logging > Tab CONNECTIONS > Select an intent > Select a log message > Tab Dependencies*
 
 ![List of messages](../../Assets/Screenshots/Fulfillment/Logging/DetailLogMessageDependencies02.png "[List of messages]")
 
 This tab has no function in the *Fulfillment* module, since log messages have no dependent entities. The notice *No other entities depend on this entity* is displayed.
 
-[comment]: <> (No function at all? Fliegt evtl. raus? RS SW)
+[comment]: <> (Gar keine Dependencies oder könnte es geben, also standardmäßig beschreiben, wie im Channels?)
