@@ -91,8 +91,6 @@ A Tradebyte connection has been established.
 
     ![Settings enable languages](../../Assets/Screenshots/Channels/Settings/Connections/Tradebyte/EditConnectionSettings_EnableLanguages.png "[Settings enable languages]")
 
-[comment]: <> (Screenshot fehlt wegen Bugs in Settings. Warten auf OK von Gehring fürs Update.)
-
 5. Enable the toggles of the languages you want to maintain in the *Actindo Core1 Platform*. All languages available in Tradebyte are displayed.
 
     > [Info] The default language is automatically set and cannot be edited.
