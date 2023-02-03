@@ -61,9 +61,9 @@ In the following, it is described how to build a workflow template that is cover
 ![Workflows](../Assets/Screenshots/ActindoWorkFlow/Workflows/Workflows.png "[Workflows]")
 
 1. Click the ![Add](../Assets/Icons/Plus01.png "[Add]") (Add) button in the bottom right corner.   
-  The *New workflow* window is displayed.
+    The *New workflow* window is displayed.
 
-  ![New workflow](../Assets/Screenshots/ActindoWorkFlow/Workflows/NewWorkflow.png "[New workflow]")
+    ![New workflow](../Assets/Screenshots/ActindoWorkFlow/Workflows/NewWorkflow.png "[New workflow]")
 
 2. Enter **Handle Delivery Notes** in the *Select a name for your new workflow* field.
 
@@ -71,45 +71,45 @@ In the following, it is described how to build a workflow template that is cover
 
 4. Select the **___WorkflowAutogen___\Actindo\Modules\RetailSuite\RetailSuiteFaktBase\Models\BusinessDocument** option as start place type in the *Choose the data type of your start place* field.
 
-  > [Info] Enter a keyword in the field, for example **business**, to limit the data types displayed in the list. The list of data types is filtered for your keyword as you type.
+    > [Info] Enter a keyword in the field, for example **business**, to limit the data types displayed in the list. The list of data types is filtered for your keyword as you type.
 
 5. Select the **___WorkflowAutogen___\Actindo\Modules\RetailSuite\RetailSuiteFaktBase\Models\BusinessDocument** option as end place type in the *Choose the data type of your end place* field.
 
-  > [Info] Enter a keyword in the field, for example **business**, to limit the data types displayed in the list. The list of data types is filtered for your keyword as you type.
+    > [Info] Enter a keyword in the field, for example **business**, to limit the data types displayed in the list. The list of data types is filtered for your keyword as you type.
 
 6. Click the [CREATE] button in the bottom right corner.   
-  The new workflow has been created. The *New workflow* window is closed. The workflow editor with the defined start and end places is displayed.  
+    The new workflow has been created. The *New workflow* window is closed. The workflow editor with the defined start and end places is displayed.  
 
-  ![Workflow editor new](../Assets/Screenshots/ActindoWorkFlow/Workflows/WorkflowEditorNew.png "[Workflow editor new]")
+    ![Workflow editor new](../Assets/Screenshots/ActindoWorkFlow/Workflows/WorkflowEditorNew.png "[Workflow editor new]")
 
 7. In a new window, open the JSON library for workflows and copy the JSON code for the *Handle Delivery Notes* workflow to your clipboard, see [JSON Handle Delivery Note](./HandleDeliveryNote.json).
 
 8. In the workflow editor, click the ![Points](../Assets/Icons/Points02.png "[Points]") (Points) button in the upper left corner next to the workflow name.   
-  The workflow context menu is displayed.
+    The workflow context menu is displayed.
 
-  ![Context menu](../Assets/Screenshots/ActindoWorkFlow/Workflows/ContextMenu.png "[Context menu]")
+    ![Context menu](../Assets/Screenshots/ActindoWorkFlow/Workflows/ContextMenu.png "[Context menu]")
 
 9. Click the *Import JSON ..* menu entry in the context menu.   
-  The *Import JSON* window with the JSON code for the current workflow is displayed.
+    The *Import JSON* window with the JSON code for the current workflow is displayed.
 
-  ![Import JSON](../Assets/Screenshots/ActindoWorkFlow/Workflows/ImportJSON.png "[Import JSON]")
+    ![Import JSON](../Assets/Screenshots/ActindoWorkFlow/Workflows/ImportJSON.png "[Import JSON]")
 
 10. Select the complete JSON code in the window, replace it by the JSON code in your clipboard and click the [IMPORT JSON] button in the bottom right corner.
-  The *Import JSON* window is closed. The copied workflow is displayed in the workflow editor.
+    The *Import JSON* window is closed. The copied workflow is displayed in the workflow editor.
 
-  ![Workflow editor copied](../Assets/Screenshots/ActindoWorkFlow/Workflows/WorkflowEditorCopied.png "[Workflow editor copied]")
+    ![Workflow editor copied](../Assets/Screenshots/ActindoWorkFlow/Workflows/WorkflowEditorCopied.png "[Workflow editor copied]")
 
-  > [Info] You can edit the workflow as desired before deploying it.
+    > [Info] You can edit the workflow as desired before deploying it.
 
 11. Click the ![Points](../Assets/Icons/Points02.png "[Points]") (Points) button in the upper left corner next to the workflow name.   
-  The workflow context menu is displayed.
+    The workflow context menu is displayed.
 
-  ![Context menu](../Assets/Screenshots/ActindoWorkFlow/Workflows/ContextMenu.png "[Context menu]")
+    ![Context menu](../Assets/Screenshots/ActindoWorkFlow/Workflows/ContextMenu.png "[Context menu]")
 
 12. Click the *Deploy* menu entry in the context menu.   
-  The copied workflow has been deployed and published.
+    The copied workflow has been deployed and published.
 
-  > [Info] For detailed information about the single actions, see [Link zu action description](to_be_completed).
+    > [Info] For detailed information about the single actions, see [Description of the *Handle delivery note* process](#description-of-the-handle-delivery-note-process).
 
 
 
@@ -121,38 +121,39 @@ In the following, all snippets and single actions within the process are describ
 
 ### Sync shipments
 
-![Sync shipments](../Assets/Screenshots/ProcessDocumentation/SyncShipments01.png "[Sync shipments]")
+![Sync shipments](../Assets/Screenshots/ProcessDocumentation/SyncShipmentToChannels.png "[Sync shipments]")
 
 The *Sync shipments* action is used to create the *shipment* entity in the *Omni-Channel* module and set its status to **open**. Depending on the driver of the connection, the channel is updated asynchronously.
 
 #### Settings
 
-The *Description* field contains the API endpoint that is addressed in this action. The *Key*, *Label*, *Queue type* and *Max tries* field have no functional meaning for the action.  
+The *Description* field contains the API endpoint that is addressed in this action. The *Key*, *Label*, *Queue type*, *Max tries* and *Long Description* fields have no functional meaning for the action.    
 
 - *Description*   
-  .syncShipments | syncShipments (/Actindo.Extensions.Actindo.UCSProductSync.OrderStatusSync.syncShipments)
+    .syncShipments | syncShipments (/Actindo.Extensions.Actindo.UCSProductSync.OrderStatusSync.syncShipments)
 
 
 ### Create invoice 
 
 ![Create invoice](../Assets/Screenshots/ProcessDocumentation/CreateInvoice.png "[Create invoice]")
 
-The *Create invoice* action is used to copy the document and create a document specified in the static inputs from the input document.
-In this template case, the incoming delivery note is copied. Via the *origin* output port, the copied original document, that is the delivery note, is output. Via the *data* output port, an invoice is output. The destination type of the document which is output via the *data* output port is specified in the *Destination type* static input.
+The *Create invoice* action is used to duplicate the document and create a document specified in the static inputs from the input document.
+In this template case, the incoming delivery note is duplicated and an invoice is created. Via the *origin* output port, the duplicated original document, that is the delivery note, is output. Via the *data* output port, the invoice is output. The destination type of the document which is output via the *data* output port is specified in the *Destination type* static input.
+The delivery note must be duplicated, as it is needed in the *Wait for parallel input* action together with the dispatch note from the *Fulfillment* module for the further process. 
 
 #### Settings
 
-The *Description* field contains the API endpoint that is addressed in this action. The *Key*, *Label*, *Queue type* and *Max tries* field have no functional meaning for the action.  
+The *Description* field contains the API endpoint that is addressed in this action. The *Key*, *Label*, *Queue type*, *Max tries* and *Long Description* fields have no functional meaning for the action.    
 
 - *Description*   
-  .copy | Create a copy of the given business document (/Actindo.Modules.RetailSuite.RetailSuiteFaktBase.BusinessDocuments.copy)
+    .copy | Create a copy of the given business document (/Actindo.Modules.RetailSuite.RetailSuiteFaktBase.BusinessDocuments.copy)
 
 **Static inputs**
 
 - *Destination type*   
-  "RE"
+    Enter **"RE"** as value for the *destinationType* variable to create an invoice from the delivery note. 
 
-Other static inputs are not defined.
+    > [Info] The value must be valid JSON and is type strict. Therefore, **"RE"** must be specified as a string with quotation marks.
 
 
 ### Post invoice to accounting
@@ -163,27 +164,24 @@ The *Post invoice to accounting* action is used to post the document, dependent 
 
 #### Settings
 
-The *Description* field contains the API endpoint that is addressed in this action. The *Key*, *Label*, *Queue type* and *Max tries* field have no functional meaning for the action.  
+The *Description* field contains the API endpoint that is addressed in this action. The *Key*, *Label*, *Queue type*, *Max tries* and *Long Description* fields have no functional meaning for the action.    
 
 - *Description*   
-  .post | Post a business document to stock and/or accounting (/Actindo.Modules.RetailSuite.RetailSuiteFaktBase.BusinessDocuments.post)
-
-**Static inputs**
-
-No static inputs defined.
+    .post | Post a business document to stock and/or accounting (/Actindo.Modules.RetailSuite.RetailSuiteFaktBase.BusinessDocuments.post)
 
 
 
-### Ship the order 
+## Ship the order 
 
 To ship an order, the following actions are required:
-- Duplicate input action
-- Execute PHP code
-- Create dispatch
-- Export dispatch to LSP
-- Wait for dispatch note update
-- Wait for parallel input
-- Sync shipments
+- [Duplicate input action](#duplicate-input-action)
+- [Split by criterion](#split-by-criterion)
+- [Create create container](#create-create-container)
+- [Create dispatch](#create-dispatch)
+- [Export dispatch to LSP](#export-dispatch-to-lsp)
+- [Wait for dispatch note update](#wait-for-dispatch-note-update)
+- [Wait for parallel input](#wait-for-parallel-input)
+- [Sync shipments](#sync-shipments)
 
 
 ### Duplicate input action
@@ -194,71 +192,103 @@ The *Duplicate input action* action is used to duplicate the input and output it
 
 #### Settings
 
-The *Description* field contains the API endpoint that is addressed in this action. The *Key*, *Label*, *Queue type* and *Max tries* field have no functional meaning for the action.  
+The *Description* field contains the API endpoint that is addressed in this action. The *Key*, *Label*, *Queue type*, *Max tries* and *Long Description* fields have no functional meaning for the action.    
 
 - *Description*   
-  Multiply input action
+    Multiply input action
 
 
-### Build request
+### Split by criterion
 
-![Build request](../Assets/Screenshots/ProcessDocumentation/BuildRequest.png "[Build request]")
+![Split by criterion](../Assets/Screenshots/ProcessDocumentation/SplitByCriterion_Warehouse.png "[Split by criterion]")
 
-The *Build request* action is used to determine the delivery country in the invoice and, depending on whether the delivery country is Germany or a foreign country, output the invoice in a different output port. By doing so, a different logistics service provider (LSP) can be specified for domestic and foreign deliveries.
+The *Split by criterion* action is used to compare the warehouse ID of the invoice in the input value with the warehouse ID defined in the action and output the invoice in a different output port depending on whether the input value matches or does not match the defined warehouse ID. By doing so, different ways can be specified for the different warehouse IDs and, consequently, the different logistics service provider (LSP) for domestic and foreign deliveries. 
+The warehouse ID with which the input value is compared must be configured in the *Configuration* section of the action setting. In this template case, documents with the warehouse ID defined in the *Value* field are output via the *match* output port, all other document types via the *noMatch* output port. 
+The warehouse with the ID defined in the *Value* field is assigned to the LSP for domestic deliveries, all warehouses with a different ID are assigned to the LSP for foreign deliveries.
+By this distinction, the different LSPs can be specified for domestic and foreign deliveries. 
+The warehouses and the LSPs are determined in the stock withdrawal matrix: *Warehouse > Settings > Tab WAREHOUSE > Sub-tab Stock withdrawal matrix*.  
 
 #### Settings
 
-The *Description* field contains the API endpoint that is addressed in this action. The *Key*, *Label*, *Queue type* and *Max tries* field have no functional meaning for the action.  
+The *Description* field contains the API endpoint that is addressed in this action. The *Key*, *Label*, *Queue type*, *Max tries* and *Long Description* fields have no functional meaning for the action.  
 
 - *Description*   
-  Execute PHP Code
+    Split by criterion
 
 **Configuration**
 
-- *PHP code*   
-  ```php
-  <?php
-  $connectionId = $in0->getForceLagerGroupId() == 50 ? 1 : 11;
-  $ret = new \___WorkflowAutogen___\RequestHydration\Modules\Actindo\Fulfillment\Models\DispatchNoteContainerCreate(['businessDocument' => ['id' => $in0->getId()],'connection' => ['id' => $connectionId]]);
-  return $connectionId==1 ?  [$ret] : [null, $ret];
-  ?>
-  ```
+- *Path*    
+    Enter **forceLagerGroupId** as path to the property of the input object to be compared with.
+
+    > [Info] The properties of an entity you can refer to are described in the relevant API documentation: *Dev Tools > API > Tab DATA MODELS*. 
+
+[comment]: <> (link to api docu?)
+
+- *Operator*   
+    Enter **=** as operator for the comparison, so that it is a match if the input value equals the defined value.
+
+- *Value*   
+    Enter the applicable ID of the warehouse group as value to be compared with the input value. 
+    
+    > [Info] The value must be valid JSON and is type strict. Therefore, the warehouse ID must be specified as a string with quotation marks.
+
+
+### Create create container
+
+![Create create container](../Assets/Screenshots/ProcessDocumentation/CreateCreateContainer.png "[Create create container]")
+
+The *Create create container* action is used to create a container that allows to hand over the invoice from the input port and the connection ID configured in the *Static inputs* section to the next action.
+In this template case, the invoice is taken and the ID of the applicable connection are combined and handed over to the *Create dispatch note* action. The *connection* variable must be defined with the JSON input in the static inputs.
+
+
+#### Settings
+
+The *Description* field contains the API endpoint that is addressed in this action. The *Key*, *Label*, *Queue type*, *Max tries* and *Long Description* fields have no functional meaning for the action.  
+
+- *Description*   
+    Create (#/components/schemas/RequestHydration.Modules.Actindo.Fulfillment.Models.DispatchNoteContainerCreate)
 
 **Static inputs**
 
-No static inputs defined.
+- *connection*   
+    Enter the applicable ID as value for the *connection* variable to create a dispatch note for the corresponding connection in the *Create dispatch note* action. All database objects can be configured by a static JSON input in the *Static inputs* section of the action settings. The connection ID must be specified as an object, for instance **{"id":12}**.
+
+    > [Info]  The value must be valid JSON and is type strict, for example a string must be specified as a string (**\"example\"**), an integer as an integer (**123**), and so on.. 
+
 
 
 ### Create dispatch
 
 ![Create dispatch](../Assets/Screenshots/ProcessDocumentation/CreateDispatch.png "[Create dispatch]")
 
-The *Create dispatch* action is used to create and persist a dispatch note in the *Fulfillment* module from the delivery note. The data are mapped via ETL.
+The *Create dispatch* action is used to create and persist a dispatch note in the *Fulfillment* module from the delivery note: *Fulfillment > Dispatch Notes > Tab LIST*.   
+The data are mapped via ETL.
+
+[comment]: <> (link auf Fulfillment)
 
 #### Settings
 
-The *Description* field contains the API endpoint that is addressed in this action. The *Key*, *Label*, *Queue type* and *Max tries* field have no functional meaning for the action.  
+The *Description* field contains the API endpoint that is addressed in this action. The *Key*, *Label*, *Queue type*, *Max tries* and *Long Description* fields have no functional meaning for the action.    
 
 - *Description*   
-  .create | Creates and persists a new dispatch note from an existing business document. (/Actindo.Modules.Actindo.Fulfillment.DispatchNotes.create)
+    .create | Creates and persists a new dispatch note from an existing business document. (/Actindo.Modules.Actindo.Fulfillment.DispatchNotes.create)
 
-**Static inputs**
-
-No static inputs defined.
 
 
 ### Export dispatch to LSP
 
 ![Export dispatch to LSP](../Assets/Screenshots/ProcessDocumentation/ExportDispatchToLSP.png "[Export dispatch to LSP]")
 
-The *Export dispatch to LSP* action is used to export the dispatch note through its configured driver in the *Fulfillment* module to the logistics service provider (LSP).
+[comment]: <> (screenshot anpassen)
+
+The *Export dispatch to LSP* action is used to export the dispatch note through its configured driver based on the connection of the dispatch note in the *Fulfillment* module to the logistics service provider (LSP).
 
 #### Settings
 
-The *Description* field contains the API endpoint that is addressed in this action. The *Key*, *Label*, *Queue type* and *Max tries* field have no functional meaning for the action.  
+The *Description* field contains the API endpoint that is addressed in this action. The *Key*, *Label*, *Queue type*, *Max tries* and *Long Description* fields have no functional meaning for the action.    
 
 - *Description*   
-  .export | Exports the dispatch note through its configured fulfillment driver (/Actindo.Modules.Actindo.Fulfillment.DispatchNotes.export)
+    .export | Exports the dispatch note through its configured fulfillment driver (/Actindo.Modules.Actindo.Fulfillment.DispatchNotes.export)
 
 
 ### Wait for dispatch note update
@@ -269,37 +299,37 @@ The *Wait for dispatch note update* action is used to wait for the feedback from
 
 #### Settings
 
-The *Description* field contains the API endpoint that is addressed in this action. The *Key*, *Label*, *Queue type* and *Max tries* field have no functional meaning for the action.  
+The *Description* field contains the API endpoint that is addressed in this action. The *Key*, *Label*, *Queue type*, *Max tries* and *Long Description* fields have no functional meaning for the action.    
 
 - *Description*   
-  Wait for dispatch note update
+    Wait for dispatch note update
 
 
 ### Wait for parallel input
 
 ![Wait for parallel input](../Assets/Screenshots/ProcessDocumentation/WaitForParallelInput.png "[Wait for parallel input]")
 
-The *Wait for parallel input* action is used to wait for two inputs to be received by the action before executing the action. In this template case, the action awaits the delivery note and the dispatch note and outputs the delivery note.
+The *Wait for parallel input* action is used to wait for two inputs to be received by the action before executing the action. In this template case, the action awaits the delivery note and the dispatch note and outputs the delivery note as the delivery note is needed for the sync in the following *Sync shipments* action.
 
 #### Settings
 
-The *Description* field contains the API endpoint that is addressed in this action. The *Key*, *Label*, *Queue type* and *Max tries* field have no functional meaning for the action.  
+The *Description* field contains the API endpoint that is addressed in this action. The *Key*, *Label*, *Queue type*, *Max tries* and *Long Description* fields have no functional meaning for the action.    
 
 - *Description*   
-  Wait for parallel input
+    Wait for parallel input
 
 
 ### Sync shipments
 
-![Sync shipments](../Assets/Screenshots/ProcessDocumentation/SyncShipments02.png "[Sync shipments]")
+![Sync shipments](../Assets/Screenshots/ProcessDocumentation/SyncShipments.png "[Sync shipments]")
 
 The *Sync shipments* action is used to change the *shipment* entity status to **closed**. Depending on the driver of the connection, the channel is updated asynchronously.
 
 #### Settings
 
-The *Description* field contains the API endpoint that is addressed in this action. The *Key*, *Label*, *Queue type* and *Max tries* field have no functional meaning for the action.  
+The *Description* field contains the API endpoint that is addressed in this action. The *Key*, *Label*, *Queue type*, *Max tries* and *Long Description* fields have no functional meaning for the action.    
 
 - *Description*   
-  .syncShipments | syncShipments (/Actindo.Extensions.Actindo.UCSProductSync.OrderStatusSync.syncShipments)
+    .syncShipments | syncShipments (/Actindo.Extensions.Actindo.UCSProductSync.OrderStatusSync.syncShipments)
 
 

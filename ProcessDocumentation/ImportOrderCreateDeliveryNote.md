@@ -53,9 +53,9 @@ In the following, it is described how to build a workflow template that is cover
 ![Workflows](../Assets/Screenshots/ActindoWorkFlow/Workflows/Workflows.png "[Workflows]")
 
 1. Click the ![Add](../Assets/Icons/Plus01.png "[Add]") (Add) button in the bottom right corner.   
-  The *New workflow* window is displayed.
+    The *New workflow* window is displayed.
 
-  ![New workflow](../Assets/Screenshots/ActindoWorkFlow/Workflows/NewWorkflow.png "[New workflow]")
+    ![New workflow](../Assets/Screenshots/ActindoWorkFlow/Workflows/NewWorkflow.png "[New workflow]")
 
 2. Enter **Import channels order in OMS and create Delivery Notes** in the *Select a name for your new workflow* field.
 
@@ -63,45 +63,45 @@ In the following, it is described how to build a workflow template that is cover
 
 4. Select the **___WorkflowAutogen___\Actindo\Modules\Actindo\Channels\Models\Order** option as start place type in the *Choose the data type of your start place* field.
 
-  > [Info] Enter a keyword in the field, for example **order**, to limit the data types displayed in the list. The list of data types is filtered for your keyword as you type.
+    > [Info] Enter a keyword in the field, for example **order**, to limit the data types displayed in the list. The list of data types is filtered for your keyword as you type.
 
 5. Select the **___WorkflowAutogen___\Actindo\Modules\RetailSuite\RetailSuiteFaktBase\Models\BusinessDocument** option as end place type in the *Choose the data type of your end place* field.
 
-  > [Info] Enter a keyword in the field, for example **business**, to limit the data types displayed in the list. The list of data types is filtered for your keyword as you type.
+    > [Info] Enter a keyword in the field, for example **business**, to limit the data types displayed in the list. The list of data types is filtered for your keyword as you type.
 
-6. Click the [CREATE] button in the bottom right corner.   
-  The new workflow has been created. The *New workflow* window is closed. The workflow editor with the defined start and end places is displayed.  
+  6. Click the [CREATE] button in the bottom right corner.   
+    The new workflow has been created. The *New workflow* window is closed. The workflow editor with the defined start and end places is displayed.  
 
-  ![Workflow editor new](../Assets/Screenshots/ActindoWorkFlow/Workflows/WorkflowEditorNew.png "[Workflow editor new]")
+    ![Workflow editor new](../Assets/Screenshots/ActindoWorkFlow/Workflows/WorkflowEditorNew.png "[Workflow editor new]")
 
 7. In a new window, open the JSON library for workflows and copy the JSON code for the *Import channels order in OMS and create Delivery Notes* workflow to your clipboard, see [JSON Import channels order in OMS and create Delivery Notes](./ImportOrderCreateDeliveryNote.json).
 
 8. In the workflow editor, click the ![Points](../Assets/Icons/Points02.png "[Points]") (Points) button in the upper left corner next to the workflow name.   
-  The workflow context menu is displayed.
+    The workflow context menu is displayed.
 
-  ![Context menu](../Assets/Screenshots/ActindoWorkFlow/Workflows/ContextMenu.png "[Context menu]")
+    ![Context menu](../Assets/Screenshots/ActindoWorkFlow/Workflows/ContextMenu.png "[Context menu]")
 
 9. Click the *Import JSON ..* menu entry in the context menu.   
-  The *Import JSON* window with the JSON code for the current workflow is displayed.
+    The *Import JSON* window with the JSON code for the current workflow is displayed.
 
-  ![Import JSON](../Assets/Screenshots/ActindoWorkFlow/Workflows/ImportJSON.png "[Import JSON]")
+    ![Import JSON](../Assets/Screenshots/ActindoWorkFlow/Workflows/ImportJSON.png "[Import JSON]")
 
 10. Select the complete JSON code in the window, replace it by the JSON code in your clipboard and click the [IMPORT JSON] button in the bottom right corner.
-  The *Import JSON* window is closed. The copied workflow is displayed in the workflow editor.
+    The *Import JSON* window is closed. The copied workflow is displayed in the workflow editor.
 
-  ![Workflow editor copied](../Assets/Screenshots/ActindoWorkFlow/Workflows/WorkflowEditorCopied.png "[Workflow editor copied]")
+    ![Workflow editor copied](../Assets/Screenshots/ActindoWorkFlow/Workflows/WorkflowEditorCopied.png "[Workflow editor copied]")
 
-  > [Info] You can edit the workflow as desired before deploying it.
+    > [Info] You can edit the workflow as desired before deploying it.
 
 11. Click the ![Points](../Assets/Icons/Points02.png "[Points]") (Points) button in the upper left corner next to the workflow name.   
-  The workflow context menu is displayed.
+    The workflow context menu is displayed.
 
-  ![Context menu](../Assets/Screenshots/ActindoWorkFlow/Workflows/ContextMenu.png "[Context menu]")
+    ![Context menu](../Assets/Screenshots/ActindoWorkFlow/Workflows/ContextMenu.png "[Context menu]")
 
 12. Click the *Deploy* menu entry in the context menu.   
-  The copied workflow has been deployed and published.
+    The copied workflow has been deployed and published.
 
-  > [Info] For detailed information about the single actions, see [Link zu action description](to_be_completed).
+    > [Info] For detailed information about the single actions, see [Description of the *Import order and create delivery notes* process](#description-of-the-import-order-and-create-delivery-notes-process).
 
 
 ## Description of the *Import order and create delivery notes* process
@@ -110,7 +110,7 @@ Within a workflow, several actions are performed. If a certain number of actions
 In the following, all snippets and single actions within the process are described in detail, specifying their function and their functional settings.
 
 
-### Import an order to OMS
+## Import an order to OMS
 
 To import an order from the *Omni-Channel* module to the *Order management* module, the following four actions are required:
 - [Setup order for export](#setup-order-for-export)
@@ -127,10 +127,10 @@ The *Setup order for export* action is used to prepare the order in the *Omni-Ch
 
 #### Settings
 
-The *Description* field contains the API endpoint that is addressed in this action. The *Key*, *Label*, *Queue type* and *Max tries* field have no functional meaning for the action.  
+The *Description* field contains the API endpoint that is addressed in this action. The *Key*, *Label*, *Queue type*, *Max tries* and *Long Description* fields have no functional meaning for the action.  
 
 - *Description*   
-  .setupOrderExport | setting up ucssync order to be exported (/Actindo.Extensions.Actindo.UCSProductSync.RetailSuiteOrderSync.setupOrderExport)
+    .setupOrderExport | setting up ucssync order to be exported (/Actindo.Extensions.Actindo.UCSProductSync.RetailSuiteOrderSync.setupOrderExport)
 
 
 ### Export base order
@@ -141,10 +141,10 @@ The *Setup order for export* action is used to export the document header, for e
 
 #### Settings
 
-The *Description* field contains the API endpoint that is addressed in this action. The *Key*, *Label*, *Queue type* and *Max tries* field have no functional meaning for the action.  
+The *Description* field contains the API endpoint that is addressed in this action. The *Key*, *Label*, *Queue type*, *Max tries* and *Long Description* fields have no functional meaning for the action.  
 
 - *Description*   
-  .exportBaseOrder | exportBaseOrder (/Actindo.Extensions.Actindo.UCSProductSync.RetailSuiteOrderSync.exportBaseOrder)
+    .exportBaseOrder | exportBaseOrder (/Actindo.Extensions.Actindo.UCSProductSync.RetailSuiteOrderSync.exportBaseOrder)
 
 
 ### Export positions
@@ -157,10 +157,10 @@ The *Setup order for export* action is used to export the item data of the order
 
 #### Settings
 
-The *Description* field contains the API endpoint that is addressed in this action. The *Key*, *Label*, *Queue type* and *Max tries* field have no functional meaning for the action.  
+The *Description* field contains the API endpoint that is addressed in this action. The *Key*, *Label*, *Queue type*, *Max tries* and *Long Description* fields have no functional meaning for the action.  
 
 - *Description*   
-  .exportPositions | exportPositions (/Actindo.Extensions.Actindo.UCSProductSync.RetailSuiteOrderSync.exportPositions)
+    .exportPositions | exportPositions (/Actindo.Extensions.Actindo.UCSProductSync.RetailSuiteOrderSync.exportPositions)
 
 
 ### Finish order export
@@ -173,85 +173,132 @@ The corresponding mapping is the mapping from the *Orders channel "Connection Na
 ![Finish order export mapping](../Assets/Screenshots/ProcessDocumentation/FinishOrderExportTypeMapping.png "[Finish order export mapping]")
 
 The document type must be defined by entering the key of the desired document type as a constant value for the *Bill Type* destination attribute in the *Bill Type* field of the *Configuration* section. The following document types are available:
-  - AN: Offer
-  - AB: Order confirmation
-  - RE: Invoice
-  - RB: Cash invoice
-  - AR: Budget billing invoice
-  - GU: Correction invoice
-  - WG: Value credit
-  - LI: Delivery note
-  - MA: Dunning notice
-  - BE: Purchase order
-  - LB: Loan voucher
-  - PR: Pro forma invoice
-  - ST: Reversal document
-  - LD: Dropship delivery note
-  - RT: Return
-  - RS: Return to customer
+- AN: Offer
+- AB: Order confirmation
+- RE: Invoice
+- RB: Cash invoice
+- AR: Budget billing invoice
+- GU: Correction invoice
+- WG: Value credit
+- LI: Delivery note
+- MA: Dunning notice
+- BE: Purchase order
+- LB: Loan voucher
+- PR: Pro forma invoice
+- ST: Reversal document
+- LD: Dropship delivery note
+- RT: Return
+- RS: Return to customer
 
 For detailed information about mapping an attribute, see [Edit the ETL attribute mappings](../DataHub/Operation/01_ManageETLMappings.md#edit-the-etl-attribute-mappings)
 
 #### Settings
 
-The *Description* field contains the API endpoint that is addressed in this action. The *Key*, *Label*, *Queue type* and *Max tries* field have no functional meaning for the action.  
+The *Description* field contains the API endpoint that is addressed in this action. The *Key*, *Label*, *Queue type*, *Max tries* and *Long Description* fields have no functional meaning for the action.  
 
 - *Description*   
-  .finishExport | finishExport (/Actindo.Extensions.Actindo.UCSProductSync.RetailSuiteOrderSync.finishExport)
+    .finishExport | finishExport (/Actindo.Extensions.Actindo.UCSProductSync.RetailSuiteOrderSync.finishExport)
 
 
-### Finalize cash invoice or create delivery note
+
+## Finalize cash invoice or create delivery note
 
 To finalize the document in case of a cash invoice or to create a delivery note for any other document type, the following six actions are required:
-- Split by criterion
-- Extract value
-- Create container
-- Save document
-- Create deliveries
-- Start subprocess 
+- [Split by criterion](#split-by-criterion)
+- [Extract value](#extract-value)
+- [Create change container](#create-change-container)
+- [Save document](#save-document)
+- [Create deliveries](#create-deliveries)
+- [Start subprocess](#start-subprocess)
 
 
-### Split AB, RB; Prepare Allow Dispatch
+### Split by criterion
 
-![Execute PHP Code](../Assets/Screenshots/ProcessDocumentation/ExecutePHPCode.png "[Execute  PHP Code]")
+![Split by criterion](../Assets/Screenshots/ProcessDocumentation/SplitByCriterion_DocumentType.png "[Split by criterion]")
 
-The *Split AB, RB; Prepare Allow Dispatch* action is used to determine the type of document and, depending on the document type, output the document in a different output port. By doing so, different ways can be specified for the different document types.
-The  corresponding PHP code defining which document types are being output via which output port must be entered in the *Configuration* section of the action settings. In this template case, cash invoices are output via the output port 0, all other document types via the output port 1. By this distinction, the cash invoice can be directly finalized whereas the any other document types trigger the delivery note creation and the related processing. 
-Further, a request is build to set the *dispatch allowed* field to **true**. 
+The *Split by criterion* action is used to compare the type of document in the input value with a document type defined in the action and output the document in a different output port depending on whether the input value matches or does not match the defined document type. By doing so, different ways can be specified for the different document types.
+The document type with which the input value is compared must be configured in the *Configuration* section of the action setting. In this template case, cash invoices are output via the *match* output port, all other document types via the *noMatch* output port. By this distinction, the cash invoice can be directly finalized whereas the any other document types trigger the delivery note creation and the related processing. 
 
 #### Settings
 
-The *Description* field contains the API endpoint that is addressed in this action. The *Key*, *Label*, *Queue type* and *Max tries* field have no functional meaning for the action.  
+The *Description* field contains the API endpoint that is addressed in this action. The *Key*, *Label*, *Queue type*, *Max tries* and *Long Description* fields have no functional meaning for the action.  
 
 - *Description*   
-  Execute PHP Code
+    Split by criterion
+
+**Configuration**
+
+- *Path*    
+    Enter **type** as path to the property of the input object to be compared with.
+
+    > [Info] The properties of an entity you can refer to are described in the relevant API documentation: *Dev Tools > API > Tab DATA MODELS*.. 
+
+[comment]: <> (link to api docu?)
+
+- *Operator*   
+    Enter **=** as operator for the comparison, so that it is a match if the input value equals the defined value.
+
+- *Value*   
+    Enter **"RB"** as value to be compared with the input value. 
+    
+    > [Info] The value must be valid JSON and is type strict. Therefore, **"RB"** must be specified as a string with quotation marks.
+
+
+### Extract value
+
+![Extract value](../Assets/Screenshots/ProcessDocumentation/ExtractValue.png "[Extract value]")
+
+The *Extract value* action is used to extract a certain value from the object in the input port and provide it for the further process.
+The path to the value which should be extracted must be configured in the *Configuration* section of the action setting. In this template case, the ID of the document is extracted. By doing so, the *allowDispatch* attribute of the document with the corresponding ID can be changed in the following action. 
+
+[comment]: <> (Stimmt das? Ist mir noch nicht so ganz klar...)
+
+#### Settings
+
+The *Description* field contains the API endpoint that is addressed in this action. The *Key*, *Label*, *Queue type*, *Max tries* and *Long Description* fields have no functional meaning for the action.  
+
+- *Description*   
+    Extract value
 
  **Configuration**
 
-- *PHP code*    
-  ```php
-  <?php
-  $in0->setDispatchAllowed(true);
-  $ret = new \___WorkflowAutogen___\RequestHydration\Modules\RetailSuite\RetailSuiteFaktBase\Models\BusinessDocumentContainerChange($in0);
-  $ret->setSerializableFields(['id','dispatchAllowed']);
-  return $in0->getType() != 'RB' ? [$ret] : [null, $in0];
-  ?>
-  ```
-
-**Static inputs**
-
-No static inputs defined.
+- *Path to value*    
+    Enter **id** as path to the value that should be extracted from the input object.
 
 
-### Allow dispatch
+### Create change container
 
-![Allow dispatch](../Assets/Screenshots/ProcessDocumentation/AllowDispatch.png "[Allow dispatch]")
+![Create change container](../Assets/Screenshots/ProcessDocumentation/CreateChangeContainer.png "[Create change container]")
 
-The *Allow dispatch* action is used to save the changes on the document requested in the preceding *Split AB, RB; Prepare Allow Dispatch* action. The field *Dispatch allowed* in the document is changed to **true** to allow the further delivery note creation.
+The *Create change container* action is used to create a container that allows to edit the document.
+In this template case, the document is specified by the ID which has been extracted in the preceding action and which is put in the *id* input port. The *dispatchAllowed* variable must be defined as true by the corresponding JSPN input in the static inputs.
+
 
 #### Settings
 
-The *Description* field contains the API endpoint that is addressed in this action. The *Key*, *Label*, *Queue type* and *Max tries* field have no functional meaning for the action.  
+The *Description* field contains the API endpoint that is addressed in this action. The *Key*, *Label*, *Queue type*, *Max tries* and *Long Description* fields have no functional meaning for the action.  
+
+- *Description*   
+    Create (#/components/schemas/RequestHydration.Modules.RetailSuite.RetailSuiteFaktBase.Models.BusinessDocumentContainerChange)
+
+ **Static inputs**
+
+- *dispatchAllowed*   
+    Enter **"1"** as value for the *dispatchAllow* variable to allow the dispatch without further payment verification. 
+    Use this value if no further waiting for an receipt of payment is required, for example, if a secured payment type has been selected or if a capture process applies to the payment type, so the payment can still be processed at a later time.
+
+    > [Info] The value must be valid JSON and is type strict. Therefore, **"1"** must be specified as a string with quotation marks.
+
+
+### Save document
+
+![Save document](../Assets/Screenshots/ProcessDocumentation/SaveDocument.png "[Save document]")
+
+The *Save document* action is used to save the changes on the document made in the preceding actions. The *dispatchAllowed* variable in the document is changed to **true** to allow the further delivery note creation.
+
+#### Settings
+
+The *Description* field contains the API endpoint that is addressed in this action. The *Key*, *Label*, *Queue type*, *Max tries* and *Long Description* fields have no functional meaning for the action.  
 
 - *Description*   
   .save | Save changes on a business document (/Actindo.Modules.RetailSuite.RetailSuiteFaktBase.BusinessDocuments.save)
@@ -261,18 +308,15 @@ The *Description* field contains the API endpoint that is addressed in this acti
 
 ![Create  deliveries](../Assets/Screenshots/ProcessDocumentation/CreateDeliveries.png "[Create deliveries]")
 
-The *Create deliveries* action is used to create the delivery note/s. For each (partial) delivery, a single delivery note is created in the *Order management* module. The delivery note is necessary to trigger that the order will leave the warehouse. 
+The *Create deliveries* action is used to create the delivery note(s). For each (partial) delivery, a single delivery note is created in the *Order management* module. The delivery note is necessary to trigger that the order will leave the warehouse. 
+If there is no stock in the warehouse, the action will run on error and the process will be canceled.
 
 #### Settings
 
-The *Description* field contains the API endpoint that is addressed in this action. The *Key*, *Label*, *Queue type* and *Max tries* field have no functional meaning for the action.  
+The *Description* field contains the API endpoint that is addressed in this action. The *Key*, *Label*, *Queue type*, *Max tries* and *Long Description* fields have no functional meaning for the action.  
 
 - *Description*   
   .createDelivery | Create a delivery (delivery notes or dropship delivery notes) for a business document (/Actindo.Modules.RetailSuite.RetailSuiteFaktBase.BusinessDocuments.createDelivery)
-
-**Static inputs**
-
-No static inputs defined.
 
 
 ### Start subprocess 
@@ -283,7 +327,7 @@ The *Start subprocess* action is used to start the process specified in the conf
 
 #### Settings
 
-The *Description* field contains the API endpoint that is addressed in this action. The *Key*, *Label*, *Queue type* and *Max tries* field have no functional meaning for the action.  
+The *Description* field contains the API endpoint that is addressed in this action. The *Key*, *Label*, *Queue type*, *Max tries* and *Long Description* fields have no functional meaning for the action.  
 
 - *Description*   
   Start Subprocess
