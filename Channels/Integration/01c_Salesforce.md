@@ -24,64 +24,45 @@ Create a job to import inventory-related data.
 
 #### Procedure 
 
-*Salesforce Commerce Cloud Business Manager*
+*Salesforce Commerce Cloud Business Manager > Select a site*
 
 ![Welcome to Business Manager](../../Assets/Screenshots/Channels/Settings/Connections/SFCC/BusinessManager.png "[Welcome to Business Manager]")
 
-[comment]: <> (Screenshot oben ist nicht wirklich das allererste: auf Drop-down Lists sollte "Select a Site" stehen. Neues Screenshot oder Step 1 anpassen?)
+1. Click the arrow in the *Administration* tab in the navigation bar at the top of the page.    
+    The administration menu window is displayed.
 
-1. Click the *Select a Site* drop-down list in the navigation bar at the top of the page and select the applicable shop. All available shops are displayed in the list.  
-  The *Welcome to the Business Manager* page for the corresponding shop is displayed.
-
-  ![Shop Business Manager](../../Assets/Screenshots/Channels/Settings/Connections/SFCC/BusinessManager.png "[Shop Business Manager]")
-
-2. Click the *Administration* tab in the navigation bar at the top of the page. 
-  The *Administration* page is displayed.
-
-  ![Administration](../../Assets/Screenshots/Channels/Settings/Connections/SFCC/Administration.png "[Administration]")
-
-  ![Administration](../../Assets/Screenshots/Channels/Settings/Connections/SFCC/Administration_00.png "[Administration]")
-
- [comment]: <> (Vorübergehendes Screenshot oben. Entscheiden ob erstes oder zweites, s. Wissenstransfer Offene Fragen Min. 11:40, und Schritt 3 dementsprechend anpassen)
+    ![Administration](../../Assets/Screenshots/Channels/Settings/Connections/SFCC/Administration.png "[Administration]")
    
-3. Click first the *Operations* and then the *Jobs* module.  
-  The *Jobs* page is displayed.
+2. Click the *Jobs* entry in the *Operations* section of the administration menu window.    
+    The *Jobs* page is displayed.
 
-[comment]: <> (Alternativ, je nach dem Screenshot oben: Click the downwards arrow in the *Administration* tab to display the context menu and select the option *Jobs* under the *Operation* section.)
+    ![Jobs](../../Assets/Screenshots/Channels/Settings/Connections/SFCC/Jobs_00.png "[Jobs]")
 
-  ![Jobs](../../Assets/Screenshots/Channels/Settings/Connections/SFCC/Jobs_00.png "[Jobs]")
+[comment]: <> (Ist der Screenshot aus dem Video?)
 
-[comment]: <> (s. Wissenstransfer Offenen Fragen ab Min. 11:46. Vorübergehendes Screenshot oben!)
+3. Click the [New Job] button in the upper right corner to create the inventory import job.  
+    The *New Job* window is displayed under the [New Job] button.
 
-4. Click the [New Job] button in the upper right corner to create the inventory import job.  
-  The *New Job* page is displayed.
+    ![New Job](../../Assets/Screenshots/Channels/Settings/Connections/SFCC/NewJob.png "[New Job]")
 
-  ![New Job](../../Assets/Screenshots/Channels/Settings/Connections/SFCC/NewJob.png "[New Job]")
+4. Enter a name for the inventory import job, for example **InventoryImport**, in the *ID* field and, if desired, a job description in the *Description* field, and click the [Create] button.  
+    The new job has been created. The *"Job ID name"* page is displayed. By default, the *General* tab in the header of the *"Job ID name"* page is preselected.
 
-[comment]: <> (Screenshot fehlt)
+    ![General](../../Assets/Screenshots/Channels/Settings/Connections/SFCC/InventoryImport_General.png "[General]")
 
-5. Enter a name for the inventory import job, for example **InventoryImport**, in the *ID* field and, if desired, a job description in the *Description* field, and click the [Create] button.  
-  The new job has been created. The *"JobID"* page is displayed.
+    > [Info] Note the ID of the inventory import job, as it must be specified in the *Omni-Channel* module when establishing the connection to Salesforce.
 
-    > [Info] Note this ID, as it must be specified in the *Omni-Channel* module when establishing the connection to Salesforce.
+5. Click the *Job Steps* tab in the header of the *"Job ID name"* page.   
+    By default, an empty flow box has been preconfigured.
 
-![Job inventory import](../../Assets/Screenshots/Channels/Settings/Connections/SFCC/Job_InventoryImport.png "[Job inventory import]")
+    ![Job steps](../../Assets/Screenshots/Channels/Settings/Connections/SFCC/InventoryImport_JobSteps.png "[Job steps]")
 
-6. Click the *Job Steps* tab in the header of the *"JobID"* page and click the ![Add](../../Assets/Icons/Plus07.png "[Add]") (Add) button.
-  A new flow has been added to the job. 
+6. Click the [Configure a step] button in the flow box and select the *ImportInventoryLists* step.  
+    The *Select and Configure Step* side bar is displayed on the right side of the page.
 
-[comment]: <> (Screenshot fehlt?)
+    ![Select and configure step](../../Assets/Screenshots/Channels/Settings/Connections/SFCC/InventoryImport_SelectConfigureStep.png "[Select and configure step]")
 
-7. Select the **Organization** option as a scope for the flow.
-
-8. Click the [Configure a step] button in the flow box and select the *ImportInventoryLists* step.  
-  The *Select and Configure Step* side bar is displayed on the right side of the page.
-
-  ![Select and configure step](../../Assets/Screenshots/Channels/Settings/Connections/SFCC/InventoryImport_Select&ConfigureStep.png "[Select and configure step]")
-
-[comment]: <> (Screenshot editiert / Felder gelöscht. Stimmt das so wenn leer?) 
- 
-9. Configure the following values in the corresponding fields of the *Select and Configure Step* side bar for the *ImportInventoryLists* step:  
+7. Enter a name for the step, for example **ImportInventoryLists**, in the *ID* field and, if desired, a step description in the *Description* field, and configure the following values in the corresponding fields of the *Select and Configure Step* side bar for the *ImportInventoryLists* step:  
 
     | Field                   | Value     |
     |-------------------------|-------------------------|
@@ -93,12 +74,13 @@ Create a job to import inventory-related data.
  
     > [Info] The values in the *AfterImportFileHandling* and the *ArchiveFolder* fields can be arbitrarily selected.
 
-  ![Import inventory lists](../../Assets/Screenshots/Channels/Settings/Connections/SFCC/JobStep_ImportInventoryLists.png "[Import inventory lists]")
+    ![Select and configure step complete](../../Assets/Screenshots/Channels/Settings/Connections/SFCC/InventoryImport_SelectConfigureStepComplete.png "[Select and configure step complete]")
 
-  [comment]: <> (Screenshot UND Tabelle oder eins wählen?)
+9. Click the [Assign] button in the bottom right corner of the *Select and Configure Step* side bar.    
+    The step has been configured and is displayed in the flow box.
 
-10. Click the [Assign] button in the bottom right corner.    
-  The step has been configured.
+    ![Import inventory lists](../../Assets/Screenshots/Channels/Settings/Connections/SFCC/InventoryImport_ImportInventoryLists.png "[Import inventory lists]")
+
 
 
 ### Create a data import job
@@ -112,64 +94,49 @@ Create a job to import product-related data.
 
 #### Procedure 
 
-*Salesforce Commerce Cloud Business Manager*
+*Salesforce Commerce Cloud Business Manager > Select a site*
 
 ![Welcome to Business Manager](../../Assets/Screenshots/Channels/Settings/Connections/SFCC/BusinessManager.png "[Welcome to Business Manager]")
 
-[comment]: <> (Screenshot oben ist nicht wirklich das allererste: auf Drop-down Lists sollte "Select a Site" stehen. Neues Screenshot oder Step 1 anpassen?)
+1. Click the arrow in the *Administration* tab in the navigation bar at the top of the page.    
+    The administration menu window is displayed.
 
-
-1. Click the *Select a Site* drop-down list in the navigation bar at the top of the page and select the applicable shop. All available shops are displayed in the list.  
-  The *Welcome to the Business Manager* page for the corresponding shop is displayed.
-
-  ![Welcome to Business Manager](../../Assets/Screenshots/Channels/Settings/Connections/SFCC/BusinessManager.png "[Welcome to Business Manager]")
-
-2. Click the *Administration* tab in the navigation bar at the top of the page. 
-  The *Administration* page is displayed.
-
-  ![Administration](../../Assets/Screenshots/Channels/Settings/Connections/SFCC/Administration.png "[Administration]")
-
-  ![Administration](../../Assets/Screenshots/Channels/Settings/Connections/SFCC/Administration_00.png "[Administration]")
-
-[comment]: <> (Vorübergehendes Screenshot oben. Entscheiden ob erstes oder zweites, s. Wissenstransfer Offene Fragen Min. 11:40, und Schritt 3 dementsprechend anpassen)
+    ![Administration](../../Assets/Screenshots/Channels/Settings/Connections/SFCC/Administration.png "[Administration]")
    
-3. Click first the *Operations* and then the *Jobs* module.  
-  The *Jobs* page is displayed.
+2. Click the *Jobs* entry in the *Operations* section of the administration menu window.    
+    The *Jobs* page is displayed.
 
-[comment]: <> (Alternativ, je nach dem Screenshot oben: Click the downwards arrow in the *Administration* tab to display the context menu and select the option *Jobs* under the *Operation* section.)
+    ![Jobs](../../Assets/Screenshots/Channels/Settings/Connections/SFCC/Jobs_00.png "[Jobs]")
 
-  ![Jobs](../../Assets/Screenshots/Channels/Settings/Connections/SFCC/Jobs_00.png "[Jobs]")
+[comment]: <> (Ist der Screenshot aus dem Video?)
 
-[comment]: <> (s. Wissenstransfer Offenen Fragen ab Min. 11:46. Vorübergehendes Screenshot oben!)
+3. Click the [New Job] button in the upper right corner to create the inventory import job.  
+    The *New Job* window is displayed under the [New Job] button.
 
-4. Click the [New Job] button in the upper right corner to create the data import job.  
-  The *New Job* page is displayed.
+    ![New Job](../../Assets/Screenshots/Channels/Settings/Connections/SFCC/NewJob.png "[New Job]")
 
-[comment]: <> (Screenshot fehlt)
-
-5. Enter a name for the data import job, for example **SiteDataImport**, in the *ID* field and, if desired, a job description in the *Description* field, and click the [Create] button.  
-  The new job has been created. The *"JobID"* page is displayed.
+4. Enter a name for the data import job, for example **SiteDataImport**, in the *ID* field and, if desired, a job description in the *Description* field, and click the [Create] button.  
+    The new job has been created. The *"Job ID name"* page is displayed. By default, the *General* tab in the header of the *"Job ID name"* page is preselected.
   
-    > [Info] Note this ID, as it must be specified in the *Omni-Channel* module when establishing the connection to Salesforce.
+    ![General](../../Assets/Screenshots/Channels/Settings/Connections/SFCC/SiteDataImport_General.png "[General]")
 
-  ![Job site data import](../../Assets/Screenshots/Channels/Settings/Connections/SFCC/Job_SiteDataImport.png "[Job site data import]")
-
+    > [Info] Note the ID of the data import job, as it must be specified in the *Omni-Channel* module when establishing the connection to Salesforce.
   
-6. Click the *Job Steps* tab in the header of the *"JobID"* page and click the ![Add](../../Assets/Icons/Plus07.png "[Add]") (Add) button.  
-  A new flow has been added to the job. 
+5. Click the *Job Steps* tab in the header of the *"Job ID name"* page.   
+    By default, an empty flow box has been preconfigured.
    
    > [Info] The data import job must import different types of data and therefore contains sequential flows. 
 
-[comment]: <> (Screenshot hinzufügen?)
+    ![Job steps](../../Assets/Screenshots/Channels/Settings/Connections/SFCC/SiteDataImport_JobSteps.png "[Job steps]")
    
-7. Select the **Organization** option as a scope for the flow.
+6. Click the [Configure a step] button in the flow box and select the *StandardProductsImport* step.  
+    The *Select and Configure Step* side bar is displayed on the right side of the page.
+   
+    ![Select and configure step](../../Assets/Screenshots/Channels/Settings/Connections/SFCC/StandardProductsImport_SelectConfigureStep.png "[Select and configure step]")
 
-8. Click the [Configure a step] button in the flow box and select the *StandardProductsImport* step.  
-  The *Select and Configure Step* side bar is displayed on the right side of the page.
-   
     > [Info] Make sure that all folders specified within a step have been previously created in WebDAV. Otherwise, the data cannot be imported. For detailed information about WebDAV, see the Salesforce documentation, [Using WebDAV](https://documentation.b2c.commercecloud.salesforce.com/DOC1/topic/com.demandware.dochelp/content/b2c_commerce/topics/import_export/b2c_using_web_dav.html).
    
-9. Configure the following values in the corresponding fields of the *Select and Configure Step* side bar for the *StandardProductsImport* step: 
+7. Enter a name for the step, for example **ImportInventoryLists**, in the *ID* field and, if desired, a step description in the *Description* field, and configure the following values in the corresponding fields of the *Select and Configure Step* side bar for the *StandardProductsImport* step: 
 
     | Field                   | Value     |
     |-------------------------|-------------------------|
@@ -181,24 +148,24 @@ Create a job to import product-related data.
     
     > [Info] The values in the *AfterImportFileHandling* and the *ArchiveFolder* fields can be arbitrarily selected.
 
-  ![Job step standard products import](../../Assets/Screenshots/Channels/Settings/Connections/SFCC/JobStep_StandardProductsImport.png "[Job step standard products import]")
+    ![Select and configure step complete](../../Assets/Screenshots/Channels/Settings/Connections/SFCC/StandardProductsImport_SelectConfigureStepComplete.png "[Select and configure step complete]")
 
-10. Click the [Assign] button in the bottom right corner.    
-  The step has been configured.
+8. Click the [Assign] button in the bottom right corner.    
+    The step has been configured and is displayed in the flow box.
+  
+    ![Standard products import](../../Assets/Screenshots/Channels/Settings/Connections/SFCC/SiteDataImport_StandardProductsImport.png "[Standard products import]")
 
-11. Click the ![Add](../../Assets/Icons/Plus07.png "[Add]") (Add) button below the first flow.
-  A new flow has been added below the first flow. 
+9. Click the ![Add](../../Assets/Icons/Plus07.png "[Add]") (Add) button below the first flow box.  
+    An empty flow box has been added below the first flow box. 
 
-[comment]: <> (Ergebnis passt nicht ganz mit Screenshot, wo alle Steps sind schon hinzugefügt worden. Das gilt für alle Schritte. Beschreibung ändern oder so lassen?)
-
-12. Select the **Organization** option as a scope for the flow.
-
-13. Click the [Configure a step] button in the flow box and select the *BundleProductsImport* step.
-  The *Select and Configure Step* side bar is displayed on the right side of the page.
+10. Click the [Configure a step] button in the flow box and select the *BundleProductsImport* step.
+    The *Select and Configure Step* side bar is displayed on the right side of the page.
    
+    ![Select and configure step](../../Assets/Screenshots/Channels/Settings/Connections/SFCC/BundleProductsImport_SelectConfigureStep.png "[Select and configure step]")
+
     > [Info] Make sure that all folders specified within a step have been previously created in WebDAV. Otherwise, the data cannot be imported. For detailed information about WebDAV, see the Salesforce documentation, [Using WebDAV](https://documentation.b2c.commercecloud.salesforce.com/DOC1/topic/com.demandware.dochelp/content/b2c_commerce/topics/import_export/b2c_using_web_dav.html).
    
-14. Configure the following values in the corresponding fields of the *Select and Configure Step* side bar for the *BundleProductsImport* step: 
+11. Enter a name for the step, for example **BundleProductsImport**, in the *ID* field and, if desired, a step description in the *Description* field, and configure the following values in the corresponding fields of the *Select and Configure Step* side bar for the *BundleProductsImport* step: 
 
     | Field                   | Value     |
     |-------------------------|-------------------------|
@@ -210,22 +177,24 @@ Create a job to import product-related data.
 
     > [Info] The values in the *AfterImportFileHandling* and the *ArchiveFolder* fields can be arbitrarily selected.
 
-  ![Job step bundle products import](../../Assets/Screenshots/Channels/Settings/Connections/SFCC/JobStep_BundleProductsImport.png "[Job step bundle products import]")
+    ![Select and configure step complete](../../Assets/Screenshots/Channels/Settings/Connections/SFCC/BundleProductsImport_SelectConfigureStepComplete.png "[Select and configure step complete]")
 
-15. Click the [Assign] button in the bottom right corner.    
-  The step has been configured.
-
-16. Click the ![Add](../../Assets/Icons/Plus07.png "[Add]") (Add) button below the second flow.
-  A new flow has been added below the second flow. 
-   
-17. Select the **Organization** option as a scope for the flow.
-
-18. Click the [Configure a step] button in the flow box and select the *CategoryAssignmentImport* step.
-  The *Select and Configure Step* side bar is displayed on the right side of the page.
+12. Click the [Assign] button in the bottom right corner.    
+    The step has been configured and is displayed in the flow box.
   
+    ![Bundle products import](../../Assets/Screenshots/Channels/Settings/Connections/SFCC/SiteDataImport_BundleProductsImport.png "[Bundle products import]")
+
+13. Click the ![Add](../../Assets/Icons/Plus07.png "[Add]") (Add) button below the second flow box.
+    An empty flow box has been added below the second flow box. 
+   
+14. Click the [Configure a step] button in the flow box and select the *CategoryAssignmentImport* step.
+    The *Select and Configure Step* side bar is displayed on the right side of the page.
+  
+    ![Select and configure step](../../Assets/Screenshots/Channels/Settings/Connections/SFCC/CategoryAssignmentImport_SelectConfigureStep.png "[Select and configure step]")
+
     > [Info] Make sure that all folders specified within a step have been previously created in WebDAV. Otherwise, the data cannot be imported. For detailed information about WebDAV, see the Salesforce documentation, [Using WebDAV](https://documentation.b2c.commercecloud.salesforce.com/DOC1/topic/com.demandware.dochelp/content/b2c_commerce/topics/import_export/b2c_using_web_dav.html).
   
-19. Configure the following values in the corresponding fields of the *Select and Configure Step* side bar for the *CategoryAssignmentImport* step: 
+15. Enter a name for the step, for example **CategoryAssignmentImport**, in the *ID* field and, if desired, a step description in the *Description* field, and configure the following values in the corresponding fields of the *Select and Configure Step* side bar for the *CategoryAssignmentImport* step:   
 
     | Field                   | Value     |
     |-------------------------|-------------------------|
@@ -237,22 +206,24 @@ Create a job to import product-related data.
 
     > [Info] The values in the *AfterImportFileHandling* and the *ArchiveFolder* fields can be arbitrarily selected.
 
-  ![Job step category assignment import](../../Assets/Screenshots/Channels/Settings/Connections/SFCC/JobStep_CategoryAssignmentImport.png "[Job step category assignment import]")
+    ![Select and configure step complete](../../Assets/Screenshots/Channels/Settings/Connections/SFCC/CategoryAssignmentImport_SelectConfigureStepComplete.png "[Select and configure step complete]")
 
-20. Click the [Assign] button in the bottom right corner.    
-  The step has been configured.
+16. Click the [Assign] button in the bottom right corner.    
+    The step has been configured and is displayed in the flow box.
+  
+    ![Category assignment import](../../Assets/Screenshots/Channels/Settings/Connections/SFCC/SiteDataImport_CategoryAssignmentImport.png "[Category assignment import]")
 
-18. Click the ![Add](../../Assets/Icons/Plus07.png "[Add]") (Add) button below the third flow.
-  A new flow has been added below the third flow. 
+17. Click the ![Add](../../Assets/Icons/Plus07.png "[Add]") (Add) button below the third flow box.
+    An empty flow box has been added below the third flow box. 
 
-21. Select the **Organization** option as a scope for the flow.
-
-22. Click the [Configure a step] button in the flow box and select the *PricebookImport* step.
-  The *Select and Configure Step* side bar is displayed on the right side of the page.
+18. Click the [Configure a step] button in the flow box and select the *PricebookImport* step.
+    The *Select and Configure Step* side bar is displayed on the right side of the page.
    
+    ![Select and configure step](../../Assets/Screenshots/Channels/Settings/Connections/SFCC/PricebookImport_SelectConfigureStep.png "[Select and configure step]")
+
     > [Info] Make sure that all folders specified within a step have been previously created in WebDAV. Otherwise, the data cannot be imported. For detailed information about WebDAV, see the Salesforce documentation, [Using WebDAV](https://documentation.b2c.commercecloud.salesforce.com/DOC1/topic/com.demandware.dochelp/content/b2c_commerce/topics/import_export/b2c_using_web_dav.html).
    
-23. Configure the following values in the corresponding fields of the *Select and Configure Step* side bar for the *PricebookImport* step:
+19. Enter a name for the step, for example **PricebookImport**, in the *ID* field and, if desired, a step description in the *Description* field, and configure the following values in the corresponding fields of the *Select and Configure Step* side bar for the *PricebookImport* step:
 
     | Field                   | Value     |
     |-------------------------|-------------------------|
@@ -264,10 +235,15 @@ Create a job to import product-related data.
 
     > [Info] The values in the *AfterImportFileHandling* and the *ArchiveFolder* fields can be arbitrarily selected.
 
-  ![Job step price book import](../../Assets/Screenshots/Channels/Settings/Connections/SFCC/JobStep_PricebookImport.png "[Job step price book import]")
+    ![Select and configure step](../../Assets/Screenshots/Channels/Settings/Connections/SFCC/PricebookImport_SelectConfigureStepComplete.png "[Select and configure step complete]")
 
-24. Click the [Assign] button in the bottom right corner.    
-  The step has been configured.
+20. Click the [Assign] button in the bottom right corner.    
+    The step has been configured and is displayed in the flow box.
+  
+    ![Price book import](../../Assets/Screenshots/Channels/Settings/Connections/SFCC/SiteDataImport_PricebookImport.png "[Price book import]")
+
+> [Info] All required steps for the data import job has been configured.
+
 
 
 ### Configure the Open Commerce API Settings
@@ -293,7 +269,7 @@ The corresponding API settings must be configured in Salesforce as described bel
 [comment]: <> (Anderes "allgemeines" Screenshot verfügbar?)
 
 1. Click the *Select type* drop-down list and select the **Shop** option.
-  The current shop API is displayed in the text area.  
+    The current shop API is displayed in the text area.  
 
 ![Open Commerce API Settings Shop](../../Assets/Screenshots/Channels/Settings/Connections/SFCC/OpenCommerceAPISettings_Shop.png "[Open Commerce API Settings Shop]")
    
@@ -301,193 +277,193 @@ The corresponding API settings must be configured in Salesforce as described bel
 
 3. In the text area, check the JSON document for the following code entry and, if not available, include the code entry:
 
-  ```json
-  {
-  "client_id": "CLIENTID",
-  "resources": [
-      {
-          "resource_id": "/order_search",
-          "methods": [
-              "post"
-          ],
-          "read_attributes": "(**)",
-          "write_attributes": "(**)"
-      },
-      {
-          "resource_id": "/orders/*",
-          "methods": [
-              "get",
-              "patch"
-          ],
-          "read_attributes": "(**)",
-          "write_attributes": "(**)"
-      }
-  ]
-  }
-  ```
+    ```json
+    {
+    "client_id": "CLIENTID",
+    "resources": [
+        {
+            "resource_id": "/order_search",
+            "methods": [
+                "post"
+            ],
+            "read_attributes": "(**)",
+            "write_attributes": "(**)"
+        },
+        {
+            "resource_id": "/orders/*",
+            "methods": [
+                "get",
+                "patch"
+            ],
+            "read_attributes": "(**)",
+            "write_attributes": "(**)"
+        }
+    ]
+    }
+    ```
 
 4. Replace the **CLIENTID** description for the *client_id* property with your corresponding client ID.
 
 5. Click the [Save] button.  
-  All changes to the shop API have been saved.
+    All changes to the shop API have been saved.
 
 6. Click the *Select type* drop-down list and select the **Data** option.  
-  The current data API is displayed in the text area.  
+    The current data API is displayed in the text area.  
 
-  ![Open Commerce API Settings Data](../../Assets/Screenshots/Channels/Settings/Connections/SFCC/OpenCommerceAPISettings_Data.png "[Open Commerce API Settings Data]")  
+    ![Open Commerce API Settings Data](../../Assets/Screenshots/Channels/Settings/Connections/SFCC/OpenCommerceAPISettings_Data.png "[Open Commerce API Settings Data]")  
 
 7. Click the *Select Context* drop-down list and select the **Global (organization-wide)** option. 
 
 8. In the text area, check the JSON document for the following code entry and, if not available, include the code entry:
 
-  ```json
-  {
-  "client_id": "CLIENTID",
-  "resources": [
-      {
-          "resource_id": "/jobs/*/executions",
-          "methods": [
-              "post"
-          ],
-          "read_attributes": "(**)",
-          "write_attributes": "(**)"
-      },
-      {
-          "resource_id": "/jobs/*/executions/*",
-          "methods": [
-              "get"
-          ],
-          "read_attributes": "(**)",
-          "write_attributes": "(**)"
-      },
-      {
-          "resource_id": "/job_execution_search",
-          "methods": [
-              "post"
-          ],
-          "read_attributes": "(**)",
-          "write_attributes": "(**)"
-      },
-      {
-          "resource_id": "/locale_info/locales",
-          "methods": [
-              "get"
-          ],
-          "read_attributes": "(**)",
-          "write_attributes": "(**)"
-      },
-      {
-          "resource_id": "/system_object_definitions/Product/attribute_definitions/*",
-          "methods": [
-              "get"
-          ],
-          "read_attributes": "(**)",
-          "write_attributes": "(**)"
-      },
-      {
-          "resource_id": "/system_object_definitions/Product/attribute_groups/*",
-          "methods": [
-              "get"
-          ],
-          "read_attributes": "(**)",
-          "write_attributes": "(**)"
-      },
-      {
-          "resource_id": "/system_object_definitions/ProductInventoryRecord/attribute_definitions/*",
-          "methods": [
-              "get"
-          ],
-          "read_attributes": "(**)",
-          "write_attributes": "(**)"
-      },
-      {
-          "resource_id": "/system_object_definitions/ProductInventoryRecord/attribute_groups/*",
-          "methods": [
-              "get"
-          ],
-          "read_attributes": "(**)",
-          "write_attributes": "(**)"
-      },
-      {
-          "resource_id": "/system_object_definitions/ProductInventoryRecord/attribute_definitions",
-          "methods": [
-              "get"
-          ],
-          "read_attributes": "(**)",
-          "write_attributes": "(**)"
-      },
-      {
-          "resource_id": "/catalogs",
-          "methods": [
-              "get"
-          ],
-          "read_attributes": "(**)",
-          "write_attributes": "(**)"
-      },
-      {
-          "resource_id": "/catalogs/*/categories",
-          "methods": [
-              "get"
-          ],
-          "read_attributes": "(**)",
-          "write_attributes": "(**)"
-      },
-      {
-          "resource_id": "/inventory_lists",
-          "methods": [
-              "get"
-          ],
-          "read_attributes": "(**)",
-          "write_attributes": "(**)"
-      },
-      {
-          "resource_id": "/system_object_definitions/Product/attribute_groups",
-          "methods": [
-              "get"
-          ],
-          "read_attributes": "(**)",
-          "write_attributes": "(**)"
-      },
-      {
-          "resource_id": "/system_object_definitions/Product/attribute_definitions",
-          "methods": [
-              "get"
-          ],
-          "read_attributes": "(**)",
-          "write_attributes": "(**)"
-      },
-      {
-          "resource_id": "/sites",
-          "methods": [
-              "get"
-          ],
-          "read_attributes": "(**)",
-          "write_attributes": "(**)"
-      },
-      {
-          "resource_id": "/inventory_lists/*/product_inventory_records/*",
-          "methods": [
-              "put", "delete"
-          ],
-          "read_attributes": "(**)",
-          "write_attributes": "(**)"
-      },
-      {
-          "resource_id": "/sites/*/orders/*/export_status",
-          "methods": [
-              "put"
-          ],
-          "read_attributes": "(**)",
-          "write_attributes": "(**)"
-      }
-  ]
-  }
-  ```
+    ```json
+    {
+    "client_id": "CLIENTID",
+    "resources": [
+        {
+            "resource_id": "/jobs/*/executions",
+            "methods": [
+                "post"
+            ],
+            "read_attributes": "(**)",
+            "write_attributes": "(**)"
+        },
+        {
+            "resource_id": "/jobs/*/executions/*",
+            "methods": [
+                "get"
+            ],
+            "read_attributes": "(**)",
+            "write_attributes": "(**)"
+        },
+        {
+            "resource_id": "/job_execution_search",
+            "methods": [
+                "post"
+            ],
+            "read_attributes": "(**)",
+            "write_attributes": "(**)"
+        },
+        {
+            "resource_id": "/locale_info/locales",
+            "methods": [
+                "get"
+            ],
+            "read_attributes": "(**)",
+            "write_attributes": "(**)"
+        },
+        {
+            "resource_id": "/system_object_definitions/Product/attribute_definitions/*",
+            "methods": [
+                "get"
+            ],
+            "read_attributes": "(**)",
+            "write_attributes": "(**)"
+        },
+        {
+            "resource_id": "/system_object_definitions/Product/attribute_groups/*",
+            "methods": [
+                "get"
+            ],
+            "read_attributes": "(**)",
+            "write_attributes": "(**)"
+        },
+        {
+            "resource_id": "/system_object_definitions/ProductInventoryRecord/attribute_definitions/*",
+            "methods": [
+                "get"
+            ],
+            "read_attributes": "(**)",
+            "write_attributes": "(**)"
+        },
+        {
+            "resource_id": "/system_object_definitions/ProductInventoryRecord/attribute_groups/*",
+            "methods": [
+                "get"
+            ],
+            "read_attributes": "(**)",
+            "write_attributes": "(**)"
+        },
+        {
+            "resource_id": "/system_object_definitions/ProductInventoryRecord/attribute_definitions",
+            "methods": [
+                "get"
+            ],
+            "read_attributes": "(**)",
+            "write_attributes": "(**)"
+        },
+        {
+            "resource_id": "/catalogs",
+            "methods": [
+                "get"
+            ],
+            "read_attributes": "(**)",
+            "write_attributes": "(**)"
+        },
+        {
+            "resource_id": "/catalogs/*/categories",
+            "methods": [
+                "get"
+            ],
+            "read_attributes": "(**)",
+            "write_attributes": "(**)"
+        },
+        {
+            "resource_id": "/inventory_lists",
+            "methods": [
+                "get"
+            ],
+            "read_attributes": "(**)",
+            "write_attributes": "(**)"
+        },
+        {
+            "resource_id": "/system_object_definitions/Product/attribute_groups",
+            "methods": [
+                "get"
+            ],
+            "read_attributes": "(**)",
+            "write_attributes": "(**)"
+        },
+        {
+            "resource_id": "/system_object_definitions/Product/attribute_definitions",
+            "methods": [
+                "get"
+            ],
+            "read_attributes": "(**)",
+            "write_attributes": "(**)"
+        },
+        {
+            "resource_id": "/sites",
+            "methods": [
+                "get"
+            ],
+            "read_attributes": "(**)",
+            "write_attributes": "(**)"
+        },
+        {
+            "resource_id": "/inventory_lists/*/product_inventory_records/*",
+            "methods": [
+                "put", "delete"
+            ],
+            "read_attributes": "(**)",
+            "write_attributes": "(**)"
+        },
+        {
+            "resource_id": "/sites/*/orders/*/export_status",
+            "methods": [
+                "put"
+            ],
+            "read_attributes": "(**)",
+            "write_attributes": "(**)"
+        }
+    ]
+    }
+    ```
 
 9. Replace the **CLIENTID** description for the *client_id* property with your corresponding client ID.
 
 10. Click the [Save] button.  
-  All changes to the data API have been saved.
+    All changes to the data API have been saved.
 
     > [Info] For detailed information, see the Salesforce documentation, [OCAPI Settings](https://documentation.b2c.commercecloud.salesforce.com/DOC1/topic/com.demandware.dochelp/OCAPI/current/usage/OCAPISettings.html).
 
@@ -686,7 +662,7 @@ The Salesforce connection has been established, see [Create a Salesforce connect
 16. Click the *Job ID data import* menu entry in the left side bar.  
   The Job ID data import settings are displayed on the right side.   
 
-  ![Settings job ID data import](../../Assets/Screenshots/Channels/Settings/Connections/SFCC/EditConnectionSettings_JobIDDataImport.png "[Settings job ID data import]")
+  ![Settings job ID data import](../../Assets/Screenshots/Channels/Settings/Connections/SFCC/EditConnectionSettings_Job ID nameDataImport.png "[Settings job ID data import]")
 
 17. Enter the applicable Salesforce job ID in the *Job ID data import* field. 
 
@@ -695,7 +671,7 @@ The Salesforce connection has been established, see [Create a Salesforce connect
 18. Click the *Job ID inventory import* menu entry in the left side bar.  
   The Job ID inventory import settings are displayed on the right side.   
 
-  ![Settings job ID inventory import](../../Assets/Screenshots/Channels/Settings/Connections/SFCC/EditConnectionSettings_JobIDInventoryImport.png "[Settings job ID inventory import]")
+  ![Settings job ID inventory import](../../Assets/Screenshots/Channels/Settings/Connections/SFCC/EditConnectionSettings_Job ID nameInventoryImport.png "[Settings job ID inventory import]")
 
 19. Enter the applicable Salesforce job ID in the *Job ID inventory import* field.
 

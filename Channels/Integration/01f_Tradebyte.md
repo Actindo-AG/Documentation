@@ -2,14 +2,14 @@
 
 # Manage the Tradebyte connection
 
-To establish a connection to a Tradebyte shop, there are several particularities to consider. Therefore,  the creation and the configuration of the Tradebyte connection are described in detail below.
+To establish a connection to a Tradebyte shop, there are several particularities to consider. Therefore, the creation and the configuration of the Tradebyte connection are described in detail below.
 
 
 ## Create a Tradebyte connection
 
 Create the connection to a Tradebyte shop using the Tradebyte driver. Further settings can only be configured after the connection has been established.
 
-All necessary credentials to establish the connection are provided when an account has been created in Tradebyte.
+All necessary credentials and information to establish the connection are provided by Tradebyte when an account has been created in Tradebyte.
 
 #### Prerequisites
 
@@ -25,14 +25,14 @@ All necessary credentials to establish the connection are provided when an accou
 ![Connection](../../Assets/Screenshots/Channels/Settings/Connections/Connection.png "[Connection]")
 
 1. Click the ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) button in the bottom right corner.    
-  The *Create connection* view is displayed.
+    The *Create connection* view is displayed.
 
     ![Create connection](../../Assets/Screenshots/Channels/Settings/Connections/CreateConnection.png "[Create connection]")
 
 2. Enter a name for the connection in the *Name* field.
 
 3. Click the *Driver* drop-down list and select the *Tradebyte* driver.  
-  The *Credentials* section is displayed below the drop-down list.
+    The *Credentials* section is displayed below the drop-down list.
 
     ![Create connection](../../Assets/Screenshots/Channels/Settings/Connections/Tradebyte/CreateConnectionCredentials.png "[Create connection]")
 
@@ -40,16 +40,14 @@ All necessary credentials to establish the connection are provided when an accou
 
 5. Enter the shop name in the *Shop name* field.
 
-6. Enter the username and password in the corresponding *Username (REST)* and *Password (REST)* fields for API access.
+6. Enter the username and the password for API access in the corresponding *Username (REST)* and *Password (REST)* fields.
 
-7. Enter the username and password in the corresponding *Username (SFTP)* and *Password (SFTP)* fields for server access.
+7. Enter the username and the password for server access in the corresponding *Username (SFTP)* and *Password (SFTP)* fields.
 
-8. If desired, enable the *Test API?* toggle if the API to be connected corresponds to a test account. Leave the toggle disabled if the API to be connected to corresponds to a productive account. By default, the toggle is disabled.
-
-    [Info] This information is provided by Tradebyte together with the the necessary credentials to establish the connection. 
+8. If desired, enable the *Test API?* toggle if the API to be connected corresponds to a test account. Disable the toggle if the API to be connected to corresponds to a productive account. By default, the toggle is disabled.
 
 9. Click the [SAVE] button.  
-  The *Checking credentials* notice is displayed. The connection will be established and the synchronization is triggered. The *Sync triggered* pop-up window is displayed.  
+    The *Checking credentials* notice is displayed. The connection will be established and the synchronization is triggered. The *Sync triggered* pop-up window is displayed.  
 
     ![Sync triggered](../../Assets/Screenshots/Channels/Settings/Connections/SyncTriggered.png "[Sync triggered]")
 
@@ -75,19 +73,19 @@ A Tradebyte connection has been established.
 ![Tradebyte connection](../../Assets/Screenshots/Channels/Settings/Connections/Tradebyte/Connections.png "[Tradebyte connection]")
 
 1. Click the Tradebyte connection in the list of connections.   
-  The *Edit connection* view is displayed. By default, the *Credentials* tab is selected.
+    The *Edit connection* view is displayed. By default, the *Credentials* tab is selected.
 
     ![Edit connection credentials](../../Assets/Screenshots/Channels/Settings/Connections/Tradebyte/EditConnectionCredentials.png "[Edit connection credentials]")
 
 2. Click the *Settings* tab.   
-  The *Settings* tab is displayed. By default, the *Selected sales channels* settings are selected. 
+    The *Settings* tab is displayed. By default, the *Selected sales channels* settings are selected. 
 
     ![Settings selected sales channels](../../Assets/Screenshots/Channels/Settings/Connections/Tradebyte/EditConnectionSettings_SelectedSalesChannels.png "[Settings selected sales channels]")
 
 3. Select the checkboxes of the sales channels you want to activate.  
 
 4. Click the *Enable languages* menu entry in the left side bar.  
-  The language settings are displayed on the right side. 
+    The language settings are displayed on the right side. 
 
     ![Settings enable languages](../../Assets/Screenshots/Channels/Settings/Connections/Tradebyte/EditConnectionSettings_EnableLanguages.png "[Settings enable languages]")
 
@@ -96,11 +94,8 @@ A Tradebyte connection has been established.
     > [Info] The default language is automatically set and cannot be edited.
 
 6. Click the [SAVE] button.  
-  All changes have been saved. The *Saving successful* pop-up window is displayed
+    All changes have been saved. The *Saving successful* pop-up window is displayed
 
     ![Saving successful](../../Assets/Screenshots/Channels/Settings/Connections/SavingSuccessful.png "[Saving successful]")
 
-7. If the selected sales channels have modified, synchronize the connection to update the ETL mapping, see [Synchronize a connection](../Integration/01_ManageConnections.md#synchronize-a-connection).    
-  The *Sync triggered* pop-up window is displayed.
-
-    ![Sync triggered](../../Assets/Screenshots/Channels/Settings/Connections/SyncTriggered.png "[Sync triggered]")
+> [Info] If the sales channels have been modified, you must synchronize the connection to update the ETL mapping, see [Synchronize a connection](../Integration/01_ManageConnections.md#synchronize-a-connection).

@@ -18,6 +18,7 @@ Create the connection to a Magento 2 shop using the Magento 2 driver. Further se
 > [Info] For the *Omni-Channel* module version 4.1.0 or higher, the *Magento 2* plugin is required in at least version 4.0.0.
 
 [comment]: <> (Create integration in Magento 2 -> Klickpfad ausreichend? Kein Link zu Magento-Doku verfügbar)
+[comment]: <> (HG: mir bringt der Brotkrumenpfad überhaupt nichts. Warum überhaupt nen Pfad? Mich interessiert mehr, was das für einen Integration ist.)
 
 #### Procedure
 
@@ -26,38 +27,37 @@ Create the connection to a Magento 2 shop using the Magento 2 driver. Further se
 ![Connection](../../Assets/Screenshots/Channels/Settings/Connections/Connection.png "[Connection]")
 
 1. Click the ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) button in the bottom right corner.    
-  The *Create connection* view is displayed.
+    The *Create connection* view is displayed.
 
     ![Create connection](../../Assets/Screenshots/Channels/Settings/Connections/CreateConnection.png "[Create connection]")
 
 2. Enter a name for the connection in the *Name* field.
 
 3. Click the *Driver* drop-down list and select the *Magento 2* driver.  
-  The *Credentials* section is displayed below the drop-down list.
+    The *Credentials* section is displayed below the drop-down list.
 
     ![Create connection](../../Assets/Screenshots/Channels/Settings/Connections/Magento2/CreateConnectionCredentials.png "[Create connection]")
+
 4. Enter the Magento 2 shop URL in the *URL* field.
 
 5. Enter the username in the *Username* field.
 
 6. Enter the password in the *Password* field.
 
-    > [Info] The connection username and password equal the login details for the Magento 2 admin backend.   
+    > [Info] The connection username and password equal the login details for the Magento 2 admin backend. The *Access token* field must be left blank. 
 
 [comment]: <> (Mit jetziger Magento 2 Treiber Version muss man sich über Username und Password authentifizieren; access token Feld leer lassen; mit neuem Release, noch kein festes Datum: Access token eingeben, Username und Password leer lassen.)
 
-7. Ignore the *Access token* field.
-
-8. Click the [SAVE] button.  
-  The *Checking credentials* notice is displayed. The connection will be established and the synchronization is triggered. The *Sync triggered* pop-up window is displayed.  
+7. Click the [SAVE] button.  
+    The *Checking credentials* notice is displayed. The connection will be established and the synchronization is triggered. The *Sync triggered* pop-up window is displayed.  
 
     ![Sync triggered](../../Assets/Screenshots/Channels/Settings/Connections/SyncTriggered.png "[Sync triggered]")
 
-  The *CONNECTIONS* tab in the *Settings* menu entry of the *Omni-Channel* module is displayed when the connection has been established. The *Magento 2* connection is displayed in the list of connections.
+    The *CONNECTIONS* tab in the *Settings* menu entry of the *Omni-Channel* module is displayed when the connection has been established. The *Magento 2* connection is displayed in the list of connections.
 
-  ![Magento 2 connection](../../Assets/Screenshots/Channels/Settings/Connections/Magento2/Connections.png "[Magento 2 connection]")	
+    ![Magento 2 connection](../../Assets/Screenshots/Channels/Settings/Connections/Magento2/Connections.png "[Magento 2 connection]")	
 
-9. If necessary, continue to [Configure the Magento 2 connection](#configure-the-Magento-2-connection).
+8. If necessary, continue to configure the Magento 2 connection, see [Configure the Magento 2 connection](#configure-the-Magento-2-connection).
 
 
 
@@ -76,19 +76,19 @@ A Magento 2 connection has been established.
 ![Magento 2 connection](../../Assets/Screenshots/Channels/Settings/Connections/Magento2/Connections.png "[Magento 2 connection]")	
 
 1. Click the Magento 2 connection in the list of connections.   
-  The *Edit connection* view is displayed. By default, the *Credentials* tab is selected.
+    The *Edit connection* view is displayed. By default, the *Credentials* tab is selected.
 
     ![Edit connection credentials](../../Assets/Screenshots/Channels/Settings/Connections/Magento2/EditConnectionCredentials.png "[Edit connection credentials]")
 
 2. Click the *Settings* tab.   
-  The *Settings* tab is displayed. By default, the *Store view languages* setting is selected.
+    The *Settings* tab is displayed. By default, the *Store view languages* setting is selected.
 
     ![Settings store view languages](../../Assets/Screenshots/Channels/Settings/Connections/Magento2/EditConnectionSettings_StoreviewLanguages.png "[Settings store view languages]")
 
 3. Click the *Store view* drop-down list and select the language in which the products will be uploaded to the store. All available languages are displayed in the list.    
    
 4. Click the *Order states* menu entry in the left side bar.  
-  The order states settings are displayed on the right side.  
+    The order states settings are displayed on the right side.  
 
     ![Settings order states](../../Assets/Screenshots/Channels/Settings/Connections/Magento2/EditConnectionSettings_OrderStates.png "[Settings order states]")
 
@@ -102,7 +102,7 @@ A Magento 2 connection has been established.
     
     + If desired, enter the status for which the orders are to be imported in the *Status to filter for (leave empty if not required)* field. All statuses configured in Magento 2 are available.
 
- 6. Configure the following settings to define the order states and/or statuses to be set after a certain event has occurred in the *Update order state and status on certain events* section:  
+6. Configure the following settings to define the order states and/or statuses to be set after a certain event has occurred in the *Update order state and status on certain events* section:  
 
     + Click the *Order state to be set in shop after successful import* drop-down list and select the state to be set when an order has been successfully imported. All states configured in Magento 2 are available.
 
@@ -127,14 +127,14 @@ A Magento 2 connection has been established.
     + Enable the *Notify customer about the invoice* toggle to notify customers when an invoiced is generated. This toggle is only unlocked if the *Create an invoice in Magento for orders that are fully paid* toggle is enabled.
     
 8. Click the *Tax classes* menu entry in the left side bar.  
-  All tax classes available in the *Actindo Core1 Platform* are displayed on the right side.
+    All tax classes available in the *Actindo Core1 Platform* are displayed on the right side.
   
     ![Settings tax classes](../../Assets/Screenshots/Channels/Settings/Connections/Magento2/EditConnectionSettings_TaxClasses.png "[Settings tax classes]")
 
 9. Click the *Select Magento 2 tax class for Core1 tax class* drop-down list and select the applicable Magento tax class. All tax classes available in Magento 2 are displayed in the list. Repeat this step for all displayed tax classes.
 
 10. Click the *Global default language for Magento 2* menu entry in the left side bar.  
-  The *Select global default language for Magento backend* section is displayed on the right side.
+    The *Select global default language for Magento backend* section is displayed on the right side.
 
     ![Settings global default language for Magento 2](../../Assets/Screenshots/Channels/Settings/Connections/Magento2/EditConnectionSettings_GlobalDefaultLanguageMagento2.png "[Settings global default language for Magento 2]")
 
@@ -143,35 +143,35 @@ A Magento 2 connection has been established.
     > [Info] The global default language in Magento 2 is defined at root level and is used to import and globally maintain data that are untranslatable, for example a product name, and therefore not store view specific. In practice, the global default language is usually the website operator's standard language. The global default language can be changed in Magento 2.
 
 12. Click the *Image handling* menu entry in the left side bar.  
-  All available image attributes available in the Magento 2 gallery are displayed on the right side.
+    All available image attributes available in the Magento 2 gallery are displayed on the right side.
 
     ![Settings image handling](../../Assets/Screenshots/Channels/Settings/Connections/Magento2/EditConnectionSettings_ImageHandling.png "[Settings image handling]")
 
 13. Enable all toggles of the image attributes whose images you want to be hidden in the Magento 2 gallery. 
 
 14. Click the *Image name* menu entry in the left side bar.  
-  The *Image name* settings are displayed are displayed on the right side.
+    The *Image name* settings are displayed are displayed on the right side.
 
     ![Settings image name](../../Assets/Screenshots/Channels/Settings/Connections/Magento2/EditConnectionSettings_ImageName.png "[Settings image name]")
 
-15. Disable the *Apply from default* toggle to configure how the image names should be customized before uploading to the Magento 2 shop. Otherwise, the default setting is applied, that is, a randomly generated image name will be uploaded to the Magento 2 shop.   
-  The *Use ECM image name* toggle and the *Regular expressions* field are unlocked.
+15. Disable the *Apply from default* toggle to configure how the image names should be customized before uploading to the Magento 2 shop and to improve the SEO of your images. Otherwise, the default setting is applied, that is, a randomly generated image name will be uploaded to the Magento 2 shop.   
+    The *Use ECM image name* toggle and the *Regular expression* field are unlocked.
 
-    > [Info]  The following settings are used to improve the SEO of your images.
+    ![Settings image name regular expression](../../Assets/Screenshots/Channels/Settings/Connections/Magento2/EditConnectionSettings_ImageNameRegEx.png "[Settings image name regular expression]")
 
-    ![Settings image name regular expressions](../../Assets/Screenshots/Channels/Settings/Connections/Magento2/EditConnectionSettings_ImageNameRegEx.png "[Settings image name regular expressions]")
+[comment]: <> (sicher, dass beim default ein random name erstellt wird? ich würde eher sagen, standardmäßig wird der ECM name herangezogen.)
 
 16. If desired, disable the *Use ECM image name* toggle. By default, the toggle is enabled.  
-  If disabled, an image name is generated randomly by upload. If enabled, the image names configured in the *ECM* module are uploaded.
+    If disabled, the image names are generated randomly by upload. If enabled, the image names configured in the *ECM* module are uploaded.
   
-    > [Info] The image names can be defined by the user when uploading image files in the *ECM* module. When defining image file names in the *ECM* module, bear in mind that file names that are longer than 89 characters cannot be uploaded to the Magento 2 shop.
+    > [Info] The image names can be defined by the user when uploading image files in the *ECM* module. When defining image file names in the *ECM* module, note that file names that are longer than 89 characters cannot be uploaded to the Magento 2 shop.
 
-17. If desired, define regular expressions to shorten and further customize the image names configured in the *ECM* module.  
-  Every character sequence entered matching a regular expression will be removed from the image name when uploading the image files to the Magento 2 shop.  
-For detailed information about regular expressions, see https://regex101.com/. 
+17. If desired, define a regular expression to shorten and customize the image names configured in the *ECM* module.  
+    Any sequence of characters entered that matches a regular expression will be removed from the image name when the image files are uploaded to the Magento 2 shop.  
+    For detailed information about regular expressions, see https://regex101.com/. 
 
 18. Click the [SAVE] button.  
-  All changes have been saved. The *Saving successful* pop-up window is displayed.
+    All changes have been saved. The *Saving successful* pop-up window is displayed.
 
     ![Saving successful](../../Assets/Screenshots/Channels/Settings/Connections/SavingSuccessful.png "[Saving successful]")
 
