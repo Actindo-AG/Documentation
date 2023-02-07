@@ -70,8 +70,6 @@ The list displays all package types. Depending on the settings, the displayed co
   - ![Status](../../Assets/Icons/Check.png "[Status]") (Checkmark): The package type is active.
   - ![Status](../../Assets/Icons/Cross02.png "[Status]") (Cross): The package type is inactive.
 
-[comment]: <> (Nicht standard)
-
 - *Connection*  
     Connection name.
 
@@ -101,8 +99,6 @@ The list displays all package types. Depending on the settings, the displayed co
 - *Package type identifier*  
     Package type identification number.
 
-[comment]: <> (Weitere Infos?)
-
 - *Ship-to country*  
     Country where the package type is shipped to.
 
@@ -110,9 +106,9 @@ The list displays all package types. Depending on the settings, the displayed co
     Indication of the priority configured for the package type. The priority value determines the package type to be selected by the system if the other criteria coincide. 
 
 - *Additional services (shipping method)*  
-    Additions services identification number.
+    Additions services offered. Numbers, letters or a combination of characters can be entered.
 
-[comment]: <> (Weitere Infos?)
+[comment]: <> (Was für Infos kann man hier hinzufügen? In NoE Nummern, im Sandbox Text möglich)
 
 - *Attribute*    
     You can add a column for each attribute that is assigned to the package type. The column displays the attribute name, the row displays the corresponding attribute value of the package type.
@@ -145,8 +141,6 @@ The list displays all package types. Depending on the settings, the displayed co
 
 - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Active*   
     Enable this toggle to set the package type status to active. Disable the toggle to set the status to inactive. By default, this toggle is disabled.
-
-[comment]: <> (Nicht standard/im Sandbox)
 
 - *Connection*  
     Click the drop-down list and select the desired connection. All available connections are displayed.
