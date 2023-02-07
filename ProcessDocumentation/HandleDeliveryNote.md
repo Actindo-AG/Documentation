@@ -11,11 +11,10 @@ The *Handle delivery note* workflow is used to process the delivery of the order
 |    |    |  
 |----|----|
 |**Purpose** | Ship the order to the customer. |
-|**Affected entities** | Actindo.Modules.Actindo.Channels.Models.Order <br> Actindo.Extensions.Actindo.UCSProductSync.Models.RetailSuiteOrder <br> Actindo.Modules.RetailSuite.RetailSuiteFaktBase.Models.BusinessDocument <br> Actindo.Modules.Actindo.Fulfillment.Models.DispatchNote <br> Actindo.Modules.Actindo.Channels.Models.Shipment (indirectly)|
+|**Affected entities** | Actindo.Modules.Actindo.Channels.Models.Order <br> Actindo.Extensions.Actindo.UCSProductSync.Models.RetailSuiteOrder <br> Actindo.Modules.RetailSuite.RetailSuiteFaktB ase.Models.BusinessDocument <br> Actindo.Modules.Actindo.Fulfillment.Models.DispatchNote <br> Actindo.Modules.Actindo.Channels.Models.Shipment (indirectly)|
 |**Included plugins** | Workflows <br> Omni-Channel <br> PIM <br> Order Management <br> Warehouse <br> Accounting <br> Taxes <br> Fulfillment <br> DataHub | 
 |**Included thrid party software** | (optional) |   
 |**Trigger** |  The process is triggered by the subordinate [*Import order and create delivery note*](./ImportOrderCreateDeliveryNote.md) process. | 
-|**Alternative workflows** |   |
 |    |     |
 
 
@@ -127,7 +126,7 @@ The *Sync shipments* action is used to create the *shipment* entity in the *Omni
 
 #### Settings
 
-The *Description* field contains the API endpoint that is addressed in this action. The *Key*, *Label*, *Queue type*, *Max tries* and *Long Description* fields have no functional meaning for the action.    
+The *Description* field contains the API endpoint that is addressed in this action. The *Key*, *Label*, *Queue type*, *Priority*, *Max tries* and *Long Description* fields have no functional meaning for the action.    
 
 - *Description*   
     .syncShipments | syncShipments (/Actindo.Extensions.Actindo.UCSProductSync.OrderStatusSync.syncShipments)
@@ -143,7 +142,7 @@ The delivery note must be duplicated, as it is needed in the *Wait for parallel 
 
 #### Settings
 
-The *Description* field contains the API endpoint that is addressed in this action. The *Key*, *Label*, *Queue type*, *Max tries* and *Long Description* fields have no functional meaning for the action.    
+The *Description* field contains the API endpoint that is addressed in this action. The *Key*, *Label*, *Queue type*, *Priority*, *Max tries* and *Long Description* fields have no functional meaning for the action.    
 
 - *Description*   
     .copy | Create a copy of the given business document (/Actindo.Modules.RetailSuite.RetailSuiteFaktBase.BusinessDocuments.copy)
@@ -164,7 +163,7 @@ The *Post invoice to accounting* action is used to post the document, dependent 
 
 #### Settings
 
-The *Description* field contains the API endpoint that is addressed in this action. The *Key*, *Label*, *Queue type*, *Max tries* and *Long Description* fields have no functional meaning for the action.    
+The *Description* field contains the API endpoint that is addressed in this action. The *Key*, *Label*, *Queue type*, *Priority*, *Max tries* and *Long Description* fields have no functional meaning for the action.    
 
 - *Description*   
     .post | Post a business document to stock and/or accounting (/Actindo.Modules.RetailSuite.RetailSuiteFaktBase.BusinessDocuments.post)
@@ -176,7 +175,7 @@ The *Description* field contains the API endpoint that is addressed in this acti
 To ship an order, the following actions are required:
 - [Duplicate input action](#duplicate-input-action)
 - [Split by criterion](#split-by-criterion)
-- [Create create container](#create-create-container)
+- [Create CreateContainer](#create-createcontainer)
 - [Create dispatch](#create-dispatch)
 - [Export dispatch to LSP](#export-dispatch-to-lsp)
 - [Wait for dispatch note update](#wait-for-dispatch-note-update)
@@ -192,7 +191,7 @@ The *Duplicate input action* action is used to duplicate the input and output it
 
 #### Settings
 
-The *Description* field contains the API endpoint that is addressed in this action. The *Key*, *Label*, *Queue type*, *Max tries* and *Long Description* fields have no functional meaning for the action.    
+The *Description* field contains the API endpoint that is addressed in this action. The *Key*, *Label*, *Queue type*, *Priority*, *Max tries* and *Long Description* fields have no functional meaning for the action.    
 
 - *Description*   
     Multiply input action
@@ -202,15 +201,14 @@ The *Description* field contains the API endpoint that is addressed in this acti
 
 ![Split by criterion](../Assets/Screenshots/ProcessDocumentation/SplitByCriterion_Warehouse.png "[Split by criterion]")
 
-The *Split by criterion* action is used to compare the warehouse ID of the invoice in the input value with the warehouse ID defined in the action and output the invoice in a different output port depending on whether the input value matches or does not match the defined warehouse ID. By doing so, different ways can be specified for the different warehouse IDs and, consequently, the different logistics service provider (LSP) for domestic and foreign deliveries. 
-The warehouse ID with which the input value is compared must be configured in the *Configuration* section of the action setting. In this template case, documents with the warehouse ID defined in the *Value* field are output via the *match* output port, all other document types via the *noMatch* output port. 
-The warehouse with the ID defined in the *Value* field is assigned to the LSP for domestic deliveries, all warehouses with a different ID are assigned to the LSP for foreign deliveries.
-By this distinction, the different LSPs can be specified for domestic and foreign deliveries. 
+The *Split by criterion* action is used to compare the warehouse ID of the delivery note in the input value with the warehouse ID defined in the action and output the delivery note in a different output port depending on whether the input value matches or does not match the defined warehouse ID. By doing so, different ways can be specified for the different warehouse IDs and, consequently, the different logistics service provider (LSP) for domestic and foreign deliveries.    
+The warehouse ID with which the input value is compared must be configured in the *Configuration* section of the action setting. In this template case, documents with the warehouse ID defined in the *Value* field are output via the *match* output port, all other document types via the *noMatch* output port.    
+The warehouse with the ID defined in the *Value* field is assigned to the LSP for domestic deliveries, all warehouses with a different ID are assigned to the LSP for foreign deliveries. By this distinction, the different LSPs can be specified for domestic and foreign deliveries.    
 The warehouses and the LSPs are determined in the stock withdrawal matrix: *Warehouse > Settings > Tab WAREHOUSE > Sub-tab Stock withdrawal matrix*.  
 
 #### Settings
 
-The *Description* field contains the API endpoint that is addressed in this action. The *Key*, *Label*, *Queue type*, *Max tries* and *Long Description* fields have no functional meaning for the action.  
+The *Description* field contains the API endpoint that is addressed in this action. The *Key*, *Label*, *Queue type*, *Priority*, *Max tries* and *Long Description* fields have no functional meaning for the action.  
 
 - *Description*   
     Split by criterion
@@ -233,17 +231,16 @@ The *Description* field contains the API endpoint that is addressed in this acti
     > [Info] The value must be valid JSON and is type strict. Therefore, the warehouse ID must be specified as a string with quotation marks.
 
 
-### Create create container
+### Create CreateContainer
 
-![Create create container](../Assets/Screenshots/ProcessDocumentation/CreateCreateContainer.png "[Create create container]")
+![Create CreateContainer](../Assets/Screenshots/ProcessDocumentation/CreateCreateContainer.png "[Create CreateContainer]")
 
-The *Create create container* action is used to create a container that allows to hand over the invoice from the input port and the connection ID configured in the *Static inputs* section to the next action.
-In this template case, the invoice is taken and the ID of the applicable connection are combined and handed over to the *Create dispatch note* action. The *connection* variable must be defined with the JSON input in the static inputs.
-
+The *Create CreateContainer* action is used to create a container for a new document from the document in the input port and the specified static inputs.
+In this template case, the container is used to create a dispatch note from the delivery note and the applicable connection ID in the *Fulfillment* module which must be specified in the static inputs. The connection ID is used to identify the corresponding LSP. By this action, the request to create the dispatch note has been made, but it must be executed in the following action to create the dispatch note.
 
 #### Settings
 
-The *Description* field contains the API endpoint that is addressed in this action. The *Key*, *Label*, *Queue type*, *Max tries* and *Long Description* fields have no functional meaning for the action.  
+The *Description* field contains the API endpoint that is addressed in this action. The *Key*, *Label*, *Queue type*, *Priority*, *Max tries* and *Long Description* fields have no functional meaning for the action.  
 
 - *Description*   
     Create (#/components/schemas/RequestHydration.Modules.Actindo.Fulfillment.Models.DispatchNoteContainerCreate)
@@ -261,14 +258,15 @@ The *Description* field contains the API endpoint that is addressed in this acti
 
 ![Create dispatch](../Assets/Screenshots/ProcessDocumentation/CreateDispatch.png "[Create dispatch]")
 
-The *Create dispatch* action is used to create and persist a dispatch note in the *Fulfillment* module from the delivery note: *Fulfillment > Dispatch Notes > Tab LIST*.   
+The *Create dispatch* action is used to create and persist a dispatch note in the *Fulfillment* module: *Fulfillment > Dispatch Notes > Tab LIST*.   
 The data are mapped via ETL.
+In this template case, the request made in the preceding action is executed and the dispatch note is created from the data in the CreateContainer. The generated dispatch note is passed on to the next action.
 
 [comment]: <> (link auf Fulfillment)
 
 #### Settings
 
-The *Description* field contains the API endpoint that is addressed in this action. The *Key*, *Label*, *Queue type*, *Max tries* and *Long Description* fields have no functional meaning for the action.    
+The *Description* field contains the API endpoint that is addressed in this action. The *Key*, *Label*, *Queue type*, *Priority*, *Max tries* and *Long Description* fields have no functional meaning for the action.    
 
 - *Description*   
     .create | Creates and persists a new dispatch note from an existing business document. (/Actindo.Modules.Actindo.Fulfillment.DispatchNotes.create)
@@ -285,7 +283,7 @@ The *Export dispatch to LSP* action is used to export the dispatch note through 
 
 #### Settings
 
-The *Description* field contains the API endpoint that is addressed in this action. The *Key*, *Label*, *Queue type*, *Max tries* and *Long Description* fields have no functional meaning for the action.    
+The *Description* field contains the API endpoint that is addressed in this action. The *Key*, *Label*, *Queue type*, *Priority*, *Max tries* and *Long Description* fields have no functional meaning for the action.    
 
 - *Description*   
     .export | Exports the dispatch note through its configured fulfillment driver (/Actindo.Modules.Actindo.Fulfillment.DispatchNotes.export)
@@ -299,7 +297,7 @@ The *Wait for dispatch note update* action is used to wait for the feedback from
 
 #### Settings
 
-The *Description* field contains the API endpoint that is addressed in this action. The *Key*, *Label*, *Queue type*, *Max tries* and *Long Description* fields have no functional meaning for the action.    
+The *Description* field contains the API endpoint that is addressed in this action. The *Key*, *Label*, *Queue type*, *Priority*, *Max tries* and *Long Description* fields have no functional meaning for the action.    
 
 - *Description*   
     Wait for dispatch note update
@@ -313,7 +311,7 @@ The *Wait for parallel input* action is used to wait for two inputs to be receiv
 
 #### Settings
 
-The *Description* field contains the API endpoint that is addressed in this action. The *Key*, *Label*, *Queue type*, *Max tries* and *Long Description* fields have no functional meaning for the action.    
+The *Description* field contains the API endpoint that is addressed in this action. The *Key*, *Label*, *Queue type*, *Priority*, *Max tries* and *Long Description* fields have no functional meaning for the action.    
 
 - *Description*   
     Wait for parallel input
@@ -327,7 +325,7 @@ The *Sync shipments* action is used to change the *shipment* entity status to **
 
 #### Settings
 
-The *Description* field contains the API endpoint that is addressed in this action. The *Key*, *Label*, *Queue type*, *Max tries* and *Long Description* fields have no functional meaning for the action.    
+The *Description* field contains the API endpoint that is addressed in this action. The *Key*, *Label*, *Queue type*, *Priority*, *Max tries* and *Long Description* fields have no functional meaning for the action.    
 
 - *Description*   
     .syncShipments | syncShipments (/Actindo.Extensions.Actindo.UCSProductSync.OrderStatusSync.syncShipments)

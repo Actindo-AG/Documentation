@@ -15,7 +15,6 @@ The *Import order and create delivery note* workflow is used to import orders fr
 |**Included plugins** | Workflows <br> Omni-Channel <br> PIM <br> Order Management <br> Warehouse <br> Accounting <br> Taxes <br> Fulfillment <br> Venduo POS (optional) | 
 |**Included thrid party software** | None |   
 |**Trigger** | The process is triggered as soon as an order is completely imported from the channel (marketplace or webshop) to *Omni-Channel*. | 
-|**Alternative workflows** |   |
 |    |     |
 
 
@@ -127,7 +126,7 @@ The *Setup order for export* action is used to prepare the order in the *Omni-Ch
 
 #### Settings
 
-The *Description* field contains the API endpoint that is addressed in this action. The *Key*, *Label*, *Queue type*, *Max tries* and *Long Description* fields have no functional meaning for the action.  
+The *Description* field contains the API endpoint that is addressed in this action. The *Key*, *Label*, *Queue type*, *Priority*, *Max tries* and *Long Description* fields have no functional meaning for the action.  
 
 - *Description*   
     .setupOrderExport | setting up ucssync order to be exported (/Actindo.Extensions.Actindo.UCSProductSync.RetailSuiteOrderSync.setupOrderExport)
@@ -141,7 +140,7 @@ The *Setup order for export* action is used to export the document header, for e
 
 #### Settings
 
-The *Description* field contains the API endpoint that is addressed in this action. The *Key*, *Label*, *Queue type*, *Max tries* and *Long Description* fields have no functional meaning for the action.  
+The *Description* field contains the API endpoint that is addressed in this action. The *Key*, *Label*, *Queue type*, *Priority*, *Max tries* and *Long Description* fields have no functional meaning for the action.  
 
 - *Description*   
     .exportBaseOrder | exportBaseOrder (/Actindo.Extensions.Actindo.UCSProductSync.RetailSuiteOrderSync.exportBaseOrder)
@@ -157,7 +156,7 @@ The *Setup order for export* action is used to export the item data of the order
 
 #### Settings
 
-The *Description* field contains the API endpoint that is addressed in this action. The *Key*, *Label*, *Queue type*, *Max tries* and *Long Description* fields have no functional meaning for the action.  
+The *Description* field contains the API endpoint that is addressed in this action. The *Key*, *Label*, *Queue type*, *Priority*, *Max tries* and *Long Description* fields have no functional meaning for the action.  
 
 - *Description*   
     .exportPositions | exportPositions (/Actindo.Extensions.Actindo.UCSProductSync.RetailSuiteOrderSync.exportPositions)
@@ -194,7 +193,7 @@ For detailed information about mapping an attribute, see [Edit the ETL attribute
 
 #### Settings
 
-The *Description* field contains the API endpoint that is addressed in this action. The *Key*, *Label*, *Queue type*, *Max tries* and *Long Description* fields have no functional meaning for the action.  
+The *Description* field contains the API endpoint that is addressed in this action. The *Key*, *Label*, *Queue type*, *Priority*, *Max tries* and *Long Description* fields have no functional meaning for the action.  
 
 - *Description*   
     .finishExport | finishExport (/Actindo.Extensions.Actindo.UCSProductSync.RetailSuiteOrderSync.finishExport)
@@ -206,7 +205,7 @@ The *Description* field contains the API endpoint that is addressed in this acti
 To finalize the document in case of a cash invoice or to create a delivery note for any other document type, the following six actions are required:
 - [Split by criterion](#split-by-criterion)
 - [Extract value](#extract-value)
-- [Create change container](#create-change-container)
+- [Create ChangeContainer](#create-changecontainer)
 - [Save document](#save-document)
 - [Create deliveries](#create-deliveries)
 - [Start subprocess](#start-subprocess)
@@ -217,11 +216,11 @@ To finalize the document in case of a cash invoice or to create a delivery note 
 ![Split by criterion](../Assets/Screenshots/ProcessDocumentation/SplitByCriterion_DocumentType.png "[Split by criterion]")
 
 The *Split by criterion* action is used to compare the type of document in the input value with a document type defined in the action and output the document in a different output port depending on whether the input value matches or does not match the defined document type. By doing so, different ways can be specified for the different document types.
-The document type with which the input value is compared must be configured in the *Configuration* section of the action setting. In this template case, cash invoices are output via the *match* output port, all other document types via the *noMatch* output port. By this distinction, the cash invoice can be directly finalized whereas the any other document types trigger the delivery note creation and the related processing. 
+The document type with which the input value is compared must be configured in the *Configuration* section of the action setting. In this template case, cash invoices are output via the *match* output port, all other document types via the *noMatch* output port. By this distinction, the cash invoice can be directly finalized whereas any other document types trigger the delivery note creation and the related processing. 
 
 #### Settings
 
-The *Description* field contains the API endpoint that is addressed in this action. The *Key*, *Label*, *Queue type*, *Max tries* and *Long Description* fields have no functional meaning for the action.  
+The *Description* field contains the API endpoint that is addressed in this action. The *Key*, *Label*, *Queue type*, *Priority*, *Max tries* and *Long Description* fields have no functional meaning for the action.  
 
 - *Description*   
     Split by criterion
@@ -231,7 +230,7 @@ The *Description* field contains the API endpoint that is addressed in this acti
 - *Path*    
     Enter **type** as path to the property of the input object to be compared with.
 
-    > [Info] The properties of an entity you can refer to are described in the relevant API documentation: *Dev Tools > API > Tab DATA MODELS*.. 
+    > [Info] The properties of an entity you can refer to are described in the relevant API documentation: *Dev Tools > API > Tab DATA MODELS*. 
 
 [comment]: <> (link to api docu?)
 
@@ -249,42 +248,40 @@ The *Description* field contains the API endpoint that is addressed in this acti
 ![Extract value](../Assets/Screenshots/ProcessDocumentation/ExtractValue.png "[Extract value]")
 
 The *Extract value* action is used to extract a certain value from the object in the input port and provide it for the further process.
-The path to the value which should be extracted must be configured in the *Configuration* section of the action setting. In this template case, the ID of the document is extracted. By doing so, the *allowDispatch* attribute of the document with the corresponding ID can be changed in the following action. 
-
-[comment]: <> (Stimmt das? Ist mir noch nicht so ganz klar...)
+The path to the value which should be extracted must be configured in the *Configuration* section of the action setting. In this template case, the ID of the document is extracted and passed on to the following *Create ChangeContainer* action. 
 
 #### Settings
 
-The *Description* field contains the API endpoint that is addressed in this action. The *Key*, *Label*, *Queue type*, *Max tries* and *Long Description* fields have no functional meaning for the action.  
+The *Description* field contains the API endpoint that is addressed in this action. The *Key*, *Label*, *Queue type*, *Priority*, *Max tries* and *Long Description* fields have no functional meaning for the action.  
 
 - *Description*   
     Extract value
 
- **Configuration**
+**Configuration**
 
 - *Path to value*    
     Enter **id** as path to the value that should be extracted from the input object.
 
 
-### Create change container
+### Create ChangeContainer
 
-![Create change container](../Assets/Screenshots/ProcessDocumentation/CreateChangeContainer.png "[Create change container]")
+![Create ChangeContainer](../Assets/Screenshots/ProcessDocumentation/CreateChangeContainer.png "[Create ChangeContainer]")
 
-The *Create change container* action is used to create a container that allows to edit the document.
-In this template case, the document is specified by the ID which has been extracted in the preceding action and which is put in the *id* input port. The *dispatchAllowed* variable must be defined as true by the corresponding JSPN input in the static inputs.
+The *Create ChangeContainer* action is used to create a container that allows to edit a document.
+In this template case, the document to be changed is specified by the ID which has been extracted in the preceding action and which is put in the *id* input port. The *dispatchAllowed* variable is defined as true by the corresponding JSON input in the static inputs. By this action, the request to change the document has been made, but it must be executed in the following action to save the changes in the document.
 
 
 #### Settings
 
-The *Description* field contains the API endpoint that is addressed in this action. The *Key*, *Label*, *Queue type*, *Max tries* and *Long Description* fields have no functional meaning for the action.  
+The *Description* field contains the API endpoint that is addressed in this action. The *Key*, *Label*, *Queue type*, *Priority*, *Max tries* and *Long Description* fields have no functional meaning for the action.  
 
 - *Description*   
     Create (#/components/schemas/RequestHydration.Modules.RetailSuite.RetailSuiteFaktBase.Models.BusinessDocumentContainerChange)
 
- **Static inputs**
+**Static inputs**
 
 - *dispatchAllowed*   
-    Enter **"1"** as value for the *dispatchAllow* variable to allow the dispatch without further payment verification. 
+    Enter **"1"** as value for the *dispatchAllow* variable to set the variable to true and allow the dispatch without further payment verification. 
     Use this value if no further waiting for an receipt of payment is required, for example, if a secured payment type has been selected or if a capture process applies to the payment type, so the payment can still be processed at a later time.
 
     > [Info] The value must be valid JSON and is type strict. Therefore, **"1"** must be specified as a string with quotation marks.
@@ -294,14 +291,15 @@ The *Description* field contains the API endpoint that is addressed in this acti
 
 ![Save document](../Assets/Screenshots/ProcessDocumentation/SaveDocument.png "[Save document]")
 
-The *Save document* action is used to save the changes on the document made in the preceding actions. The *dispatchAllowed* variable in the document is changed to **true** to allow the further delivery note creation.
+The *Save document* action is used to save the document and thus execute the changes on the document requested in the preceding actions.
+In this template case, the *dispatchAllowed* variable in the document is changed to **true** to allow the further delivery note creation and pass on the changed document.
 
 #### Settings
 
-The *Description* field contains the API endpoint that is addressed in this action. The *Key*, *Label*, *Queue type*, *Max tries* and *Long Description* fields have no functional meaning for the action.  
+The *Description* field contains the API endpoint that is addressed in this action. The *Key*, *Label*, *Queue type*, *Priority*, *Max tries* and *Long Description* fields have no functional meaning for the action.  
 
 - *Description*   
-  .save | Save changes on a business document (/Actindo.Modules.RetailSuite.RetailSuiteFaktBase.BusinessDocuments.save)
+    .save | Save changes on a business document (/Actindo.Modules.RetailSuite.RetailSuiteFaktBase.BusinessDocuments.save)
 
 
 ### Create deliveries
@@ -313,10 +311,10 @@ If there is no stock in the warehouse, the action will run on error and the proc
 
 #### Settings
 
-The *Description* field contains the API endpoint that is addressed in this action. The *Key*, *Label*, *Queue type*, *Max tries* and *Long Description* fields have no functional meaning for the action.  
+The *Description* field contains the API endpoint that is addressed in this action. The *Key*, *Label*, *Queue type*, *Priority*, *Max tries* and *Long Description* fields have no functional meaning for the action.  
 
 - *Description*   
-  .createDelivery | Create a delivery (delivery notes or dropship delivery notes) for a business document (/Actindo.Modules.RetailSuite.RetailSuiteFaktBase.BusinessDocuments.createDelivery)
+    .createDelivery | Create a delivery (delivery notes or dropship delivery notes) for a business document (/Actindo.Modules.RetailSuite.RetailSuiteFaktBase.BusinessDocuments.createDelivery)
 
 
 ### Start subprocess 
@@ -327,12 +325,12 @@ The *Start subprocess* action is used to start the process specified in the conf
 
 #### Settings
 
-The *Description* field contains the API endpoint that is addressed in this action. The *Key*, *Label*, *Queue type*, *Max tries* and *Long Description* fields have no functional meaning for the action.  
+The *Description* field contains the API endpoint that is addressed in this action. The *Key*, *Label*, *Queue type*, *Priority*, *Max tries* and *Long Description* fields have no functional meaning for the action.  
 
 - *Description*   
-  Start Subprocess
+    Start Subprocess
 
 **Configuration**
 
 - *Workflow Key*   
-  delivery_notes
+    delivery_notes
