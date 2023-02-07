@@ -248,10 +248,10 @@ Create a job to import product-related data.
 
 ### Configure the Open Commerce API Settings
 
-In Salesforce, there are two Open Commerce APIs: 
+In Salesforce, there are two *Open Commerce APIs (OCAPIs)*: 
 - The shop API, which is used for the order data  
 - The data API, which is used for the product data  
-The corresponding API settings must be configured in Salesforce as described below.
+The settings of the OCAPIs must be configured in Salesforce as described below.
 
 #### Prerequisites
 
@@ -262,20 +262,28 @@ The corresponding API settings must be configured in Salesforce as described bel
 
 #### Procedure
 
-*Salesforce Commerce Cloud Business Manager > Administration > Site Development > Open Commerce API Settings*
+*Salesforce Commerce Cloud Business Manager > Select a site*
 
-![Open Commerce API Settings](../../Assets/Screenshots/Channels/Settings/Connections/SFCC/OpenCommerceAPISettings_Shop.png "[Open Commerce API Settings]")
+![Welcome to Business Manager](../../Assets/Screenshots/Channels/Settings/Connections/SFCC/BusinessManager.png "[Welcome to Business Manager]")
 
-[comment]: <> (Anderes "allgemeines" Screenshot verfügbar?)
+1. Click the arrow in the *Administration* tab in the navigation bar at the top of the page.    
+    The administration menu window is displayed.
 
-1. Click the *Select type* drop-down list and select the **Shop** option.
-    The current shop API is displayed in the text area.  
+    ![Administration](../../Assets/Screenshots/Channels/Settings/Connections/SFCC/Administration.png "[Administration]")
+   
+2. Click the *Open Commerce API Settings* entry in the *Site Development* section of the administration menu window.    
+    The *Open Commerce API Settings* page is displayed.
+
+    ![Open Commerce API Settings](../../Assets/Screenshots/Channels/Settings/Connections/SFCC/OpenCommerceAPISettings_Shop.png "[Open Commerce API Settings]")
+
+3. Click the *Select type* drop-down list and select the **Shop** option.
+    The available shop API is displayed in the text area.  
 
 ![Open Commerce API Settings Shop](../../Assets/Screenshots/Channels/Settings/Connections/SFCC/OpenCommerceAPISettings_Shop.png "[Open Commerce API Settings Shop]")
    
-2. Click the *Select Context* drop-down list and select the **Global (organization-wide)** option. 
+4. Click the *Select Context* drop-down list and select the **Global (organization-wide)** option. 
 
-3. In the text area, check the JSON document for the following code entry and, if not available, include the code entry:
+3. Check the text area for the following code. If it is not available, enter the following JSON code:
 
     ```json
     {
@@ -302,19 +310,19 @@ The corresponding API settings must be configured in Salesforce as described bel
     }
     ```
 
-4. Replace the **CLIENTID** description for the *client_id* property with your corresponding client ID.
+4. Replace the **CLIENTID** description for the *client_id* property in the code with your client ID.
 
 5. Click the [Save] button.  
     All changes to the shop API have been saved.
 
 6. Click the *Select type* drop-down list and select the **Data** option.  
-    The current data API is displayed in the text area.  
+    The available data API is displayed in the text area.  
 
     ![Open Commerce API Settings Data](../../Assets/Screenshots/Channels/Settings/Connections/SFCC/OpenCommerceAPISettings_Data.png "[Open Commerce API Settings Data]")  
 
 7. Click the *Select Context* drop-down list and select the **Global (organization-wide)** option. 
 
-8. In the text area, check the JSON document for the following code entry and, if not available, include the code entry:
+8. Check the text area for the following code. If it is not available, enter the following JSON code:
 
     ```json
     {
@@ -460,7 +468,7 @@ The corresponding API settings must be configured in Salesforce as described bel
     }
     ```
 
-9. Replace the **CLIENTID** description for the *client_id* property with your corresponding client ID.
+9. Replace the **CLIENTID** description for the *client_id* property in the code with your client ID.
 
 10. Click the [Save] button.  
     All changes to the data API have been saved.
@@ -468,11 +476,11 @@ The corresponding API settings must be configured in Salesforce as described bel
     > [Info] For detailed information, see the Salesforce documentation, [OCAPI Settings](https://documentation.b2c.commercecloud.salesforce.com/DOC1/topic/com.demandware.dochelp/OCAPI/current/usage/OCAPISettings.html).
 
 
+
 ### Generate an access key
 
-An access key must be generated to be specified as an access token in the *Omni-Channel* module when establishing the connection to Salesforce. The access key is site-specific, that means that an access key must be generated for each shop.
-
-[comment]: <> (Stimmt das so?)
+To connect with Salesforce, an access token is required for named authentication in addition to the client ID and the client password. Therefore, an access key must be generated in Salesforce to establish the connection in the *Omni-Channel* module.   
+Unlike client id and password, the access key can only be used for one instance and not multiple times.
 
 #### Prerequisites
 
@@ -481,41 +489,46 @@ An access key must be generated to be specified as an access token in the *Omni-
 
 #### Procedure
 
-*Salesforce Commerce Cloud Business Manager > Administration*
+*Salesforce Commerce Cloud Business Manager > Select a site*
 
-![Administration](../../Assets/Screenshots/Channels/Settings/Connections/SFCC/Administration.png "[Administration]")
+![Welcome to Business Manager](../../Assets/Screenshots/Channels/Settings/Connections/SFCC/BusinessManager.png "[Welcome to Business Manager]")
 
-1. Go to your user profile via the *Administration* context menu or the *Administration feature lookup*.  
- The *My profile* page is displayed.
+1. Click the ![Profile](../../Assets/Icons/Profile01.png "[Profile]") (Profile) button on the right side of the header.  
+    The *My profile* page is displayed.
 
- ![My profile](../../Assets/Screenshots/Channels/Settings/Connections/SFCC/MyProfile.png "[My profile]")
-
-[comment]: <> (Alternativen Pfad oben? Ggf. My Profile Screenshot weiter verabeiten)
+    ![My profile](../../Assets/Screenshots/Channels/Settings/Connections/SFCC/MyProfile.png "[My profile]")
 
 2. Click the [Manage Access Keys] button.  
-  The *Manage Access Keys* page is displayed.
+    The *Manage Access Keys* page is displayed.
 
 3. Click the [Generate Access Key] button.  
-  The *Generate Access Key* window is displayed.
+    The *Generate Access Key* window is displayed.
 
-  ![Generate Access Key](../../Assets/Screenshots/Channels/Settings/Connections/SFCC/GenerateAccessKey.png "[Generate Access Key]")
+    ![Generate access key](../../Assets/Screenshots/Channels/Settings/Connections/SFCC/GenerateAccessKey.png "[Generate access key]")
 
 4. Click the drop-down list and select the *Agent User Login and OCAPI* option as authentication scope.
 
-5. Click the [Generate] button.  
-  The access key is generated. The *Generate Access Key* window displays an access key with the following notice: *After you close this window, you can't view or download the access key again. We recommend copying it or clicking **Download** to download a CSV file with your access key*.
+5. Click the [Generate] button in the bottom right corner of the *Generate Access Key* window.    
+    The access key has been generated and is displayed in the *Generate Access Key* window.
 
-    [Info] The access key is subsequently needed to establish the connection with the Salesforce Commerce Cloud in the *Omni-Channel* module. Once the *Generate Access Key* window is closed, the access key cannot be read anymore and therefore must be noted at this point and kept safe for future reference.
+    > [Info] The access key is required to establish the connection with Salesforce in the *Omni-Channel* module.
 
-  ![Access Key created](../../Assets/Screenshots/Channels/Settings/Connections/SFCC/AccessKeyCreated.png "[Access Key created]")
+    ![Access key created](../../Assets/Screenshots/Channels/Settings/Connections/SFCC/AccessKeyCreated.png "[Access key created]")
 
-6. Copy the key to your clipboard or click the [Download] button.  
-  The access key is copied or downloaded to be later retrieved.
+[comment]: <> (access key verändert)
 
-7. Click the [Close] button.  
-  The generated access key is saved in the system and listed in the *Scope* section of the *Manage Access Keys* page. 
+6. Copy the key to your clipboard or click the [Download] button.    
+    The access key has been copied or downloaded as a CSV file.
 
-  ![Manage access keys list](../../Assets/Screenshots/Channels/Settings/Connections/SFCC/ManageAccessKeys_List.png "[Manage access keys list]")
+    > [Caution] Once the *Generate Access Key* window is closed, the access key cannot be accessed anymore. It is therefore highly recommended to keep the access key safe for future use.
+
+7. Click the [Close] button in the bottom right corner of the *Generate Access Key* window.     
+    The *Manage Access Keys* page is displayed. The generated access key is displayed in the list of access keys.
+
+    > [Info] As access keys expire after one year, they must be regenerated after this period. 
+
+    ![Manage access keys](../../Assets/Screenshots/Channels/Settings/Connections/SFCC/ManageAccessKeys.png "[Manage access keys]")
+
 
 
 ## Create a Salesforce connection
@@ -527,48 +540,57 @@ Create the connection to a Salesforce shop using the Salesforce Commerce Cloud d
 - The Salesforce Commerce Cloud Business Manager has been configured, see [Configure the Salesforce Commerce Cloud Business Manager](#configure-the-salesforce-commerce-cloud-business-manager). 
 - The *Salesforce Commerce Cloud* plugin has been installed.  
 
-> [Info] For the *Omni-Channel* module version 4.1.0 or higher, the *Salesforce Commerce Cloud* plugin is required in at least version 1.2.0.
-
-[comment]: <> (check!)
+> [Info] For the *Omni-Channel* module version 4.1.0 or higher, the *Salesforce Commerce Cloud* plugin can be used in all versions. It is recommended to use the latest available version.
 
 #### Procedure
 
 *Omni-Channel > Settings > Tab CONNECTIONS*
 
-![SFCC connection](../../Assets/Screenshots/Channels/Settings/Connections/SFCC/Connections.png "[SFCC connection]")
+![Connection](../../Assets/Screenshots/Channels/Settings/Connections/Connection.png "[Connection]")
 
 1. Click the ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) button in the bottom right corner.    
-  The *Create connection* view is displayed.
+    The *Create connection* view is displayed.
 
     ![Create connection](../../Assets/Screenshots/Channels/Settings/Connections/CreateConnection.png "[Create connection]")
 
 2. Enter a name for the connection in the *Name* field.
 
 3. Click the *Driver* drop-down list and select the *Salesforce Commerce Cloud* driver.  
-  The *Credentials* section is displayed below the drop-down list.
+    The *Credentials* section is displayed below the drop-down list.
 
-   > [Info] Salesforce offers the possibility to work with two separate environments, a staging environment for customizing and testing purposes and a live environment for production. The connection to the environments must be specified separately. 
+    > [Info] Salesforce offers the possibility to work with two separate environments, a staging environment for customizing and testing purposes and a live environment for production. The connection to the environments must be configured separately. 
 
-  ![Create connection](../../Assets/Screenshots/Channels/Settings/Connections/SFCC/CreateConnectionCredentials.png "[Create connection]")
+    ![Create connection](../../Assets/Screenshots/Channels/Settings/Connections/SFCC/CreateConnectionCredentials.png "[Create connection]")
 
 4. For the staging environment, enter the following credentials:
     + Enter the shop URL of the staging environment in the *URL* field.  
-    + Enter the client ID in the *Client ID* field and the client password in the *Client password* field.
-    + Enter the username (email address) in the *Username* field, the user password in the *User password* field and the user API access token in the *Access token* field. These so-called *business manager login data* are needed to work with orders. 
+    + Enter the client ID in the *Client ID* field.
+    + Enter the client password in the *Client password* field.
+        > [Info] The client ID and client password will be provided to you by your Salesforce shop agency.
+    + Enter the email address of the user in the *Username* field.
+    + Enter the user password in the *User password* field
+    + Enter the user API access token in the *Access token* field. 
+        > [Info] The username, the user password and the API access token are the so-called *business manager login data* that are needed to work with orders. 
 
-5. For the live environment, enter the following credentials and enable the *Production mode* toggle:  
+5. For the live environment, enable the *Production mode* toggle and enter the following credentials:  
     + Enter the shop URL of the production environment in the *URL (Production)* field.  
-    + Enter the corresponding client ID in the *Client ID (Production)* field and the client password in the *Client password (Production)* field.
-    + Enter the username (email address) in the *Username (Production)* field, the user password in the *User password (Production)* field and the user API access token in the *Access token (Production)* field. These so-called *business manager login data* are needed to work with orders.
+    + Enter the client ID in the *Client ID (Production)* field.
+    + Enter the client password in the *Client password (Production)* field.
+        > [Info] The client ID and client password will be provided to you by your Salesforce shop agency.
+    + Enter the email address of the user in the *Username (Production)* field.
+    + Enter the user password in the *User password (Production)* field
+    + Enter the user API access token in the *Access token (Production)* field. 
+        > [Info] The username, the user password and the API access token are the so-called *business manager login data* that are needed to work with orders. 
 
-      > [Info] As soon as the production mode is enabled, the order import and the stock upload are synchronized with the production environment, whereas the product data are still synchronized with the staging environment.
+    > [Info] As soon as the production mode is enabled, the order import and the stock upload are synchronized with the production environment, whereas the product data are still synchronized with the staging environment.
 
 6. Click the [SAVE] button.  
-  The connection has been created. The *CONNECTIONS* tab in the *Settings* menu entry of the *Omni-Channel* module is displayed when the connection has been established. The *Salesforce Commerce Cloud* connection is displayed in the list of connections.
+    The connection has been created. The *CONNECTIONS* tab in the *Settings* menu entry of the *Omni-Channel* module is displayed when the connection has been established. The *Salesforce Commerce Cloud* connection is displayed in the list of connections.
 
     ![Salesforce Commerce Cloud connection](../../Assets/Screenshots/Channels/Settings/Connections/SFCC/Connections.png "[Salesforce Commerce Cloud connection]")
 
 7. If necessary, continue to configure the Salesforce connection, see [Configure the Salesforce connection](#configure-the-salesforce-connection).
+
 
 
 ## Configure the Salesforce connection   
