@@ -113,6 +113,9 @@ The list displays all package types. Depending on the settings, the displayed co
 - *Attribute*    
     You can add an additional column for each attribute that is assigned to the package type. The column displays the attribute name, the row displays the corresponding attribute value of the package type.
 
+- ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add)  
+  Click this button to add a connection. The *Create connection* view is displayed, see [Create package type](#create-package-type).
+  
 
 ## Create package type  
 
