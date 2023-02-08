@@ -34,7 +34,7 @@ No prerequisites to fulfill.
 
   > [Info] A worker is a job executing the actions within a process. One worker can only execute one action at the same time. By assigning multiple workers to a queue type, this queue type may execute several actions at the same time. Consequently, actions with a queue type with more workers are executed faster that actions with queue types with fewer workers. The total number of workers of all queue types depends on the number of booked vCores.   
   For one worker, 4 vCores are needed. Additionally, 10 % of the booked vCores, but at least 4 vCores are blocked for the daily business and cannot be used for workers. The number of vCores needed always refers to the total number of workers in all queue types. For example, for a queue type with 2 workers and a queue type of 4 workers, 28 vCores are needed:   
-  *4 vCores per worker (4 * 6 = 24) plus 4 vCores blocked for the daily business (24 + 4 = 28)*
+  *4 vCores per worker (4 \* 6 = 24) plus 4 vCores blocked for the daily business (24 + 4 = 28)*
 
 
 4. Click the *Execution priority* drop-down list and select the appropriate execution priority. The following options are available:
