@@ -4,9 +4,9 @@
 
 *Fulfillment > Settings > Tab CONNECTIONS*
 
-![Existing connections](../../Assets/Screenshots/Fulfillment/Settings/Connections/Connections.png "[Existing connections]")
+![Connections](../../Assets/Screenshots/Fulfillment/Settings/Connections/Connections.png "[Connections]")
 
-**Existing connections**
+**Connections**
 
 - *VIEW*  
     Click the drop-down list to select the view. All created views are displayed in the drop-down list. Click the ![Points](../../Assets/Icons/Points01.png "[Points]") (Points) button to the right of the *VIEW* drop-down list to display the context menu and create a view.   
@@ -75,9 +75,7 @@ The list displays all available connections. Depending on the settings, the disp
 
 - ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add)  
   Click this button to add a connection. The *Create connection* view is displayed, see [Create connection](#create-connection).
-
-
-
+  
 
 ## Create connection
 
