@@ -1,20 +1,18 @@
 [!!User Interface Package types](../UserInterface/03b_PackageTypes.md)
 
-## Manage the package types
+# Manage the package types
 
-Package types serve as suggestion for the fulfiller about the type of packaging and carrier which may be applied for a shipment. Package types can be defined using many different criteria. All relevant fields (attributes) used are mapped via ETL from the business document.  
+Package types serve as a suggestion for the fulfiller on the type of packaging and the preferred carrier that may apply for a shipment. Package types can be defined using many different criteria. All relevant fields (attributes) used are mapped via ETL from the relevant business document.  
 
-[comment]: <> (It may not be applicable for all customers, e.g. in case of non-physical shipments or the fulfiller has his own package types defined.)
+The package types suggested may not be applicable for all users, for instance, in the case of non-physical shipments or if the fulfiller has defined his own package types.
 
-### Create a package type
+## Create a package type
 
 Create a package type to define the criteria applicable to a shipment.
 
 #### Prerequisites
 
 No prerequisite to fulfill. 
-
-[comment]: <> (ETL basic mapping in Sandbox, in NoE test account Kd-spezifisches Mapping)
 
 #### Procedure
 
@@ -117,10 +115,9 @@ A package type has been created, see [Create a package type](#create-a-package-t
 4. If necessary, click the ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh) button in the upper right corner to display the changes in the list.   
   
 
-
 ### Delete a package type
 
-Delete a package type that is no longer applicable.
+Delete a package type that is no longer applicable. It is also possible to deactivate a package type temporarily, see [Deactivate a package type](#deactivate-a-package-type).
 
 #### Prerequisites
 
@@ -141,4 +138,32 @@ A package type has been created, see [Create a package type](#create-a-package-t
 [comment]: <> (Keine Notice displayed? Alte Version 1.1.X)
 
 
+### Activate a package type
+
+Delete a package type that is no longer applicable.
+
+#### Prerequisites
+
+A package type has been created, see [Create a package type](#create-a-package-type).
+
+#### Procedure
+
+*Fulfillment > Settings > Tab PACKAGE TYPES*
+
+![Package types](../../Assets/Screenshots/Fulfillment/Settings/PackageTypes/ListPackageTypes.png "[Package types]
+
+
+### Deactivate a package type
+
+Delete a package type that is no longer applicable.
+
+#### Prerequisites
+
+A package type has been created, see [Create a package type](#create-a-package-type).
+
+#### Procedure
+
+*Fulfillment > Settings > Tab PACKAGE TYPES*
+
+![Package types](../../Assets/Screenshots/Fulfillment/Settings/PackageTypes/ListPackageTypes.png "[Package types]
 
