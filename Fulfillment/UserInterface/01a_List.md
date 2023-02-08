@@ -6,7 +6,6 @@
 
 ![Dispatch notes](../../Assets/Screenshots/Fulfillment/DispatchNotes/DispatchNotes.png "[Dispatch notes]")
 
-[comment]: <> (Neues screenshot benötigt: MSN angezeigt!)
 
 **Dispatch notes**
 
@@ -38,7 +37,6 @@
 
         - ![Delete](../../Assets/Icons/Trash01.png "[Delete]") delete  
             Click this entry to delete the selected view. A confirmation window to confirm the deletion is displayed. This menu entry is only displayed if a view has been selected.
-
 
 - Status  
     Click the drop-down list and select a dispatch note status. The following options are available:
@@ -127,8 +125,6 @@ The list displays all dispatch notes. Depending on the settings, the displayed c
     - Empty  
         If the shipment status is void, the *Shipment status* is empty.
 
-[comment]: <> (SW: Shipment status icons Standard oder kundenspezifisch/NoE? S. Zusammenhang Dispatch note - Shipment status. Error in Dispatch note und alle möglichen Shipment Status. Wieso ist das möglich?)
-
 - *Description*  
     Dispatch note description as defined by the user. Numbers, letters or a combination of characters may be used. The information provided in this field can be entered in the search bar to search for a specific dispatch note.
 
@@ -152,6 +148,291 @@ The list displays all dispatch notes. Depending on the settings, the displayed c
 
 - Attribute    
     You can add a column for each attribute that is assigned to the dispatch note. The column displays the attribute name, the row displays the corresponding attribute value of the dispatch note.
+
+
+## Dispatch note "Dispatch note ID"
+
+*Fulfillment > Dispatch notes > Tab LIST > Select a dispatch note*
+
+![Dispatch note ID](../../Assets/Screenshots/Fulfillment/DispatchNotes/DispatchNoteAttributes.png "[Dispatch note ID]")
+
+**Dispatch note "Dispatch note ID"**
+
+- ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)   
+    Click this button to close the *Dispatch note "Dispatch note ID"* view and return to the list of dispatch notes.  
+
+- [CLOSE]  
+    Click this button to close the *Dispatch note "Dispatch note ID"* view. The list of dispatch notes is displayed.
+
+## Dispatch note "Dispatch note ID" &ndash; Attributes
+
+*Fulfillment > Dispatch notes > Tab LIST > Select a dispatch note > Tab Attributes*
+
+![Attributes](../../Assets/Screenshots/Fulfillment/DispatchNotes/DispatchNoteAttributes.png "[Attributes]")
+
+In the left margin column, all available attribute groups are displayed. Click a group to display the attributes that are assigned to this group on the right side of the *Attributes* tab. If the dispatch note contains attributes that are unassigned, the *Unassigned Group* group is automatically displayed in the left margin column.
+
+The right side of the *Attributes* tab displays all attributes that are assigned to the selected group in the left margin column. Depending on the attribute group selected, the fields displayed vary. The dispatch note attributes are imported via the fulfiller driver. All fields are locked and, therefore, read-only.
+
+- ![Folders](../../Assets/Icons/Folders01.png "[Folders]") (Folders)  
+    Attribute group that contains attribute sub-groups. Click the attribute group or the arrow *>* left to the attribute group to unfold the group and display the attribute sub-groups.
+
+- ![Folder](../../Assets/Icons/Folder01.png "[Folder]") (Folder)  
+    Attribute group. Click the attribute group to display all attributes that are assigned to the selected attribute group on the right side of the *Attributes* tab.
+
+[comment]: <> (HG: Diese Info ist nicht im Omni-Channel. Hinzufügen dort oder hier wegglassen?)
+
+- ![Fade in/out](../../Assets/Icons/FadeInOut01.png "[Fade in/out]") (Fade in/out)    
+    Click this button to hide or display the left margin column with the attribute groups. When the left margin is displayed and you click this button, the column is hidden. When the column is hidden and you click this button, the column is displayed again.
+
+
+## Dispatch note "Dispatch note ID" &ndash; Dependencies
+
+*Fulfillment > Dispatch notes > Tab LIST > Select a dispatch note > Tab Attributes*
+
+![Dependencies](../../Assets/Screenshots/Fulfillment/DispatchNotes/DispatchNoteDependencies.png "[Dependencies]")
+
+> [Info] This tab has usually no function in the *Fulfillment* module, since dispatch notes do not normally have dependent entities. In this case, the *No other entities depend on this entity* notice is displayed. However, it is possible to set up entities depending on dispatch notes.
+
+**Dependencies**
+
+- ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh)   
+  Click this button to update the list of product dependencies.
+
+- ![Columns](../../Assets/Icons/Columns.png "[Columns]") Columns (x)   
+  Click this button to display the columns bar and customize the displayed columns and the order of columns in the list. The *x* indicates the number of columns that are currently displayed in the list.
+
+- [x]     
+  Select the checkbox to display the editing toolbar. If you click the checkbox in the header, all dependent entities in the list are selected. If no dependency exists for the offer, the *No other entities depend on this entity* notice is displayed.
+
+The list displays all dependencies of the selected dispatch note. Depending on the settings, the displayed columns may vary. All fields are read-only. 
+
+- *Dependent entity ID*   
+  Identification number of the dependent entity.
+
+- *Dependent entity type*   
+  Type of the dependent entity. 
+
+- *Change tracking mode*   
+  Change tracking mode (ETL mode) of the dependent entity. The following options are available:
+  - **Manual**
+  - **Semi-automatic**
+  - **Semi-automatic, changes must be confirmed by another user**   
+  - **Automatic**
+
+- *Dependent entity friendly identifier*   
+
+[comment]: <> (what id number is that? How is it created?)
+
+- [RERUN MAPPING]   
+  Click this button to rerun the mapping of the selected entity. This button is only displayed if the checkbox of at least one dependency is selected.	
+
+
+## Dispatch note "Dispatch note ID" &ndash; Shipments
+
+*Fulfillment > Dispatch notes > Tab LIST > Select a dispatch note > Tab Shipments*
+
+![Shipments](../../Assets/Screenshots/Fulfillment/DispatchNotes/DispatchNoteShipments.png "[Shipments]")
+
+
+- ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh)   
+    Click this button to update the list of shipments.
+
+- ![Columns](../../Assets/Icons/Columns.png "[Columns]") Columns (x)   
+    Click this button to display the columns bar and customize the displayed columns and the order of columns in the list. The *x* indicates the number of columns that are currently displayed in the list.
+
+- ![Filter](../../Assets/Icons/Filter.png "[Filter]") Filter (x)   
+    Click this button to display the filter bar and customize the active filters. The *x* indicates the number of filters that are currently active.
+
+
+The list displays all shipments. Depending on the settings, the displayed columns may vary. All fields are read-only.
+
+- *ID*  
+    Shipment identification number. The ID number is automatically assigned by the system.
+
+- *Carrier*  
+    Carrier identifier.
+
+- *Connection*  
+    Connection to fulfiller.
+
+- *External ID*  
+    Shipment identification number in the fulfiller's system. 
+
+- *Status*  
+  Shipment status. The following options are available:
+    - **New shipment**
+    - **Shipped**
+    - **Delivered**
+    - **Void**
+    - **Error**
+
+- *Status info*  
+    Additional status information. The following options are available:  
+    - **Status changed via dispatch note**
+
+[comment]: <> (SW: Gibt es andere Optionen oder ist es vom Kd eingestellt?)
+
+- *Created*  
+    Date and time of the creation.
+
+- *Modified*    
+    Date and time of the last modification.
+
+- Attribute    
+    You can add a column for each attribute that is assigned to the shipment. The column displays the attribute name, the row displays the corresponding attribute value of the shipment.
+
+
+### Shipment attributes
+
+*Fulfillment > Dispatch notes > Tab LIST > Select a dispatch note > Tab Shipments > Select a shipment > Sub-tab ATTRIBUTES*
+
+![Shipments](../../Assets/Screenshots/Fulfillment/DispatchNotes/ShipmentsAttributesAttributes.png "[Shipments]")
+
+**Shipment "Shipment ID"**
+
+- [BACK]  
+    Click this button to go back to the previous step. The *Shipments* view is displayed.
+
+### Shipment attributes &ndash; Attributes
+
+*Fulfillment > Dispatch notes > Tab LIST > Select a dispatch note > Tab Shipments > Select a shipment > Sub-tab ATTRIBUTES > Tab Attributes*
+
+![Shipment attributes](../../Assets/Screenshots/Fulfillment/DispatchNotes/ShipmentsAttributesAttributes.png "[Shipment attributes]")
+
+In the left margin column, all available attribute groups are displayed. Click a group to display the attributes that are assigned to this group on the right side of the *Attributes* tab. If the shipment contains attributes that are unassigned, the *Unassigned Group* group is automatically displayed in the left margin column.
+
+The right side of the *Attributes* tab displays all attributes that are assigned to the selected group in the left margin column. Depending on the attribute group selected, the fields displayed vary. All fields are locked and, therefore, read-only.
+
+- ![Folders](../../Assets/Icons/Folders01.png "[Folders]") (Folders)  
+    Attribute group that contains attribute sub-groups. Click the attribute group or the arrow *>* left to the attribute group to unfold the group and display the attribute sub-groups.
+
+- ![Folder](../../Assets/Icons/Folder01.png "[Folder]") (Folder)  
+    Attribute group. Click the attribute group to display all attributes that are assigned to the selected attribute group on the right side of the *Attributes* tab.
+
+[commnet]: <> (HG: Vereinheitlichen mit oben, Omni-Channel... Also, Folders u. Folder drin oder weglassen?)
+
+- ![Fade in/out](../../Assets/Icons/FadeInOut01.png "[Fade in/out]") (Fade in/out)    
+    Click this button to hide or display the left margin column with the attribute groups. When the left margin is displayed and you click this button, the column is hidden. When the column is hidden and you click this button, the column is displayed again.
+
+### Shipment attributes &ndash; Dependencies
+
+*Fulfillment > Dispatch notes > Tab LIST > Select a dispatch note > Tab Shipments > Select a shipment > Sub-tab ATTRIBUTES > Tab Dependencies*
+
+![Shipment dependencies](../../Assets/Screenshots/Fulfillment/DispatchNotes/ShipmentsAttributesDependencies.png "[Shipment dependencies]")
+
+This tab has no function in the *Fulfillment* module, since dispatch notes have no dependent entities. The notice *No other entities depend on this entity* is displayed.
+
+[comment]: <> (SW: Vgl. Dependencies oben)
+
+### Shipment packages
+
+*Fulfillment > Dispatch notes > Tab LIST > Select a dispatch note > Tab Shipments > Select a shipment > Sub-tab PACKAGES*
+
+![Shipments](../../Assets/Screenshots/Fulfillment/DispatchNotes/ShipmentsPackages.png "[Shipments]")
+
+
+- ![Search](../../Assets/Icons/Search.png "[Search]") (Search)   
+    Click this button to display the search bar and search for packages.
+
+- ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh)   
+    Click this button to update the list of packages.
+
+- ![Columns](../../Assets/Icons/Columns.png "[Columns]") Columns (x)   
+    Click this button to display the columns bar and customize the displayed columns and the order of columns in the list. The *x* indicates the number of columns that are currently displayed in the list.
+
+- ![Filter](../../Assets/Icons/Filter.png "[Filter]") Filter (x)   
+    Click this button to display the filter bar and customize the active filters. The *x* indicates the number of filters that are currently active.
+
+
+The list displays all packages contained in the selected shipment. Depending on the settings, the displayed columns may vary. All fields are read-only.
+
+- *Package type*  
+    Package type name. Packages types can be defined in the *PACKAGE TYPES* tab of the *Settings* menu entry, see [Manage the package types](../Integration/02_ManagePackageTypes.md).
+
+- *Created*  
+    Date and time of the creation.
+
+- *Modified*  
+    Date and time of the last modification.
+
+- *ID*  
+    Package type identification number. This number is automatically assigned by the system.
+
+-  *Tracking number*  
+    Package tracking number.
+
+- *Tracking link*  
+    Package tracking link.
+
+- *Package ID*  
+    Package identification number.
+
+- *Proof of delivery*  
+  Proof of delivery, if required.
+
+- Attribute    
+    You can add a column for each attribute that is assigned to the shipment package. The column displays the attribute name, the row displays the corresponding attribute value of the shipment package.
+    
+
+#### Items
+
+*Fulfillment > Dispatch notes > Tab LIST > Select a dispatch note > Tab Shipments > Select a shipment > Sub-tab PACKAGES > Select a package*
+
+![Items](../../Assets/Screenshots/Fulfillment/DispatchNotes/Items01.png "[Items]")
+
+
+- ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh)   
+    Click this button to update the list of items.
+
+- ![Columns](../../Assets/Icons/Columns.png "[Columns]") Columns (x)   
+    Click this button to display the columns bar and customize the displayed columns and the order of columns in the list. The *x* indicates the number of columns that are currently displayed in the list.
+
+- ![Filter](../../Assets/Icons/Filter.png "[Filter]") Filter (x)   
+    Click this button to display the filter bar and customize the active filters. The *x* indicates the number of filters that are currently active.
+
+The list displays all items contained in the selected package. Depending on the settings, the displayed columns may vary. All fields are read-only.
+
+- *Item number*  
+    Item identification number.
+
+- *SKU*  
+    Stock Keeping Unit. Identification number of the product.
+
+- *Amount*  
+    Amount of units contained in the item.
+
+- *Serial number*  
+    Item serial number.
+
+- *ID*  
+    Item identification number. The ID number is automatically assigned by the system.
+
+- *Unit net value*  
+    Item unit net value.
+
+- *Unit gross value*  
+    Item unit gross value.
+
+- *Total net value*  
+    Item total net value.
+
+- *Currency*  
+    Item currency.
+
+- *Dangerous goods indicator*  
+    Indication whether the item has been classified as a dangerous product.
+
+- Attribute    
+    You can add a column for each attribute that is assigned to the item. The column displays the attribute name, the row displays the corresponding attribute value of the item.
+
+## Dispatch note "Dispatch note ID" &ndash; Logs
+
+*Fulfillment > Dispatch notes > Tab LIST > Select a dispatch note > Tab Logs*
+
+![Dispatch note logs](../../Assets/Screenshots/Fulfillment/DispatchNotes/DispatchNoteLogs.png "[Dispatch note logs]")
+
+This tab displays an extract from the list of intents contained in the *Logging* menu entry. The intents displayed in this tab only refer to the selected dispatch note. For a detailed description of this window and the corresponding functions, see [Connections (Logging)](./02a_Connections.md).
 
 
 ## Create view
@@ -195,272 +476,3 @@ This window can also be accessed from the following tabs in the user interface:
 - [CONNECTIONS (Logging)](02a_Connections.md#rename-view)
 - [CONNECTIONS (Settings)](03a_Connections.md#rename-view)
 - [PACKAGE TYPES](03b_PackageTypes.md#rename-view)
-
-
-## Dispatch note "Dispatch note ID"
-
-*Fulfillment > Dispatch notes > Tab LIST > Select a dispatch note*
-
-![Dispatch note ID](../../Assets/Screenshots/Fulfillment/DispatchNotes/DispatchNoteAttributes.png "[Dispatch note ID]")
-
-**Dispatch note "Dispatch note ID"**
-
-- ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)   
-    Click this button to close the *Dispatch note "Dispatch note ID"* view and return to the list of dispatch notes.  
-
-- [CLOSE]  
-    Click this button to close the *Dispatch note "Dispatch note ID"* view. The list of dispatch notes is displayed.
-
-
-## Dispatch note "Dispatch note ID" &ndash; Attributes
-
-*Fulfillment > Dispatch notes > Tab LIST > Select a dispatch note > Tab Attributes*
-
-![Attributes](../../Assets/Screenshots/Fulfillment/DispatchNotes/DispatchNoteAttributes.png "[Attributes]")
-
-In the left margin column, all available attribute groups are displayed. Click a group to display the attributes that are assigned to this group on the right side of the *Attributes* tab. If the dispatch note contains attributes that are unassigned, the *Unassigned Group* group is automatically displayed in the left margin column.
-
-The right side of the *Attributes* tab displays all attributes that are assigned to the selected group in the left margin column. Depending on the attribute group selected, the fields displayed vary. The dispatch note attributes are imported via the fulfiller driver. All fields are locked and, therefore, read-only.
-
-- ![Folders](../../Assets/Icons/Folders01.png "[Folders]") (Folders)  
-    Attribute group that contains attribute sub-groups. Click the attribute group or the arrow *>* left to the attribute group to unfold the group and display the attribute sub-groups.
-
-- ![Folder](../../Assets/Icons/Folder01.png "[Folder]") (Folder)  
-    Attribute group. Click the attribute group to display all attributes that are assigned to the selected attribute group on the right side of the *Attributes* tab.
-
-[comment]: <> (HG: Diese Info ist nicht im Omni-Channel. Hinzufügen dort oder hier wegglassen?)
-
-- ![Fade in/out](../../Assets/Icons/FadeInOut01.png "[Fade in/out]") (Fade in/out)    
-    Click this button to hide or display the left margin column with the attribute groups. When the left margin is displayed and you click this button, the column is hidden. When the column is hidden and you click this button, the column is displayed again.
-
-
-## Dispatch note "Dispatch note ID" &ndash; Dependencies
-
-*Fulfillment > Dispatch notes > Tab LIST > Select a dispatch note > Tab Attributes*
-
-![Dependencies](../../Assets/Screenshots/Fulfillment/DispatchNotes/DispatchNoteDependencies.png "[Dependencies]")
-
-This tab has no function in the *Fulfillment* module, since dispatch notes have no dependent entities. The notice *No other entities depend on this entity* is displayed.
-
-[comment]: <> (SW: Gar keine Dependencies möglich? Evtl. Standardbeschreibung des Reiters? S. Omni-Channel)
-
-
-## Dispatch note "Dispatch note ID" &ndash; Shipments
-
-*Fulfillment > Dispatch notes > Tab LIST > Select a dispatch note > Tab Shipments*
-
-![Shipments](../../Assets/Screenshots/Fulfillment/DispatchNotes/DispatchNoteShipments.png "[Shipments]")
-
-
-- ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh)   
-    Click this button to update the list of shipments.
-
-- ![Columns](../../Assets/Icons/Columns.png "[Columns]") Columns (x)   
-    Click this button to display the columns bar and customize the displayed columns and the order of columns in the list. The *x* indicates the number of columns that are currently displayed in the list.
-
-- ![Filter](../../Assets/Icons/Filter.png "[Filter]") Filter (x)   
-    Click this button to display the filter bar and customize the active filters. The *x* indicates the number of filters that are currently active.
-
-
-The list displays all shipments. Depending on the settings, the displayed columns may vary. All fields are read-only.
-
-- *ID*  
-    Shipment identification number. The ID number is automatically assigned by the system.
-
-- *Carrier*  
-    Carrier identification number.
-
-- *Connection*  
-    Connection to fulfiller.
-
-- *External ID*  
-    Shipment identification number in the fulfiller's system. 
-
-- *Status*  
-  Shipment status. The following options are available:
-    - **New shipment**
-    - **Shipped**
-    - **Delivered**
-    - **Void**
-    - **Error**
-
-- *Status info*  
-    Additional status information. The following options are available:  
-    - **Status changed via dispatch note**
-
-[comment]: <> (SW: Option aus NoE. Gibt es andere Optionen oder ist es vom Kd eingestellt?)
-
-- *Created*  
-    Date and time of the creation.
-
-- *Modified*    
-    Date and time of the last modification.
-
-- Attribute    
-    You can add a column for each attribute that is assigned to the shipment. The column displays the attribute name, the row displays the corresponding attribute value of the shipment.
-
-
-### Shipment attributes
-
-*Fulfillment > Dispatch notes > Tab LIST > Select a dispatch note > Tab Shipments > Select a shipment > Sub-tab ATTRIBUTES*
-
-![Shipments](../../Assets/Screenshots/Fulfillment/DispatchNotes/ShipmentsAttributesAttributes.png "[Shipments]")
-
-**Shipment "Shipment ID"**
-
-- [BACK]  
-    Click this button to go back to the previous step. The *Shipments* view is displayed.
-
-### Shipment attributes &ndash; Attributes
-
-*Fulfillment > Dispatch notes > Tab LIST > Select a dispatch note > Tab Shipments > Select a shipment > Sub-tab ATTRIBUTES > Tab Attributes*
-
-![Shipment attributes](../../Assets/Screenshots/Fulfillment/DispatchNotes/ShipmentsAttributesAttributes.png "[Shipment attributes]")
-
-In the left margin column, all available attribute groups are displayed. Click a group to display the attributes that are assigned to this group on the right side of the *Attributes* tab. If the shipment contains attributes that are unassigned, the *Unassigned Group* group is automatically displayed in the left margin column.
-
-The right side of the *Attributes* tab displays all attributes that are assigned to the selected group in the left margin column. Depending on the attribute group selected, the fields displayed vary. All fields are locked and, therefore, read-only.
-
-[comment]: <> (Vgl. The dispatch note attributes are imported via the fulfiller driver. -> Vermutlich Shipment info auch vom Fulfiller via Driver geschickt?)
-
-- ![Folders](../../Assets/Icons/Folders01.png "[Folders]") (Folders)  
-    Attribute group that contains attribute sub-groups. Click the attribute group or the arrow *>* left to the attribute group to unfold the group and display the attribute sub-groups.
-
-- ![Folder](../../Assets/Icons/Folder01.png "[Folder]") (Folder)  
-    Attribute group. Click the attribute group to display all attributes that are assigned to the selected attribute group on the right side of the *Attributes* tab.
-
-[commnet]: <> (HG: Vereinheitlichen mit oben, Omni-Channel... Drin oder weglassen?)
-
-- ![Fade in/out](../../Assets/Icons/FadeInOut01.png "[Fade in/out]") (Fade in/out)    
-    Click this button to hide or display the left margin column with the attribute groups. When the left margin is displayed and you click this button, the column is hidden. When the column is hidden and you click this button, the column is displayed again.
-
-### Shipment attributes &ndash; Dependencies
-
-*Fulfillment > Dispatch notes > Tab LIST > Select a dispatch note > Tab Shipments > Select a shipment > Sub-tab ATTRIBUTES > Tab Dependencies*
-
-![Shipment dependencies](../../Assets/Screenshots/Fulfillment/DispatchNotes/ShipmentsAttributesDependencies.png "[Shipment dependencies]")
-
-This tab has no function in the *Fulfillment* module, since dispatch notes have no dependent entities. The notice *No other entities depend on this entity* is displayed.
-
-[comment]: <> (SW: Vgl. Dependencies oben)
-
-### Shipment packages
-
-*Fulfillment > Dispatch notes > Tab LIST > Select a dispatch note > Tab Shipments > Select a shipment > Sub-tab PACKAGES*
-
-![Shipments](../../Assets/Screenshots/Fulfillment/DispatchNotes/ShipmentsPackages.png "[Shipments]")
-
-
-- ![Search](../../Assets/Icons/Search.png "[Search]") (Search)   
-    Click this button to display the search bar and search for packages.
-
-- ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh)   
-    Click this button to update the list of packages.
-
-- ![Columns](../../Assets/Icons/Columns.png "[Columns]") Columns (x)   
-    Click this button to display the columns bar and customize the displayed columns and the order of columns in the list. The *x* indicates the number of columns that are currently displayed in the list.
-
-- ![Filter](../../Assets/Icons/Filter.png "[Filter]") Filter (x)   
-    Click this button to display the filter bar and customize the active filters. The *x* indicates the number of filters that are currently active.
-
-
-The list displays all packages contained in the selected shipment. Depending on the settings, the displayed columns may vary. All fields are read-only.
-
-- *Package type*  
-    Package type identifier. Packages types can be defined in the *PACKAGE TYPES* tab of the *Settings* menu entry, see [Manage the package types](../Integration/02_ManagePackageTypes.md).
-
-- *Created*  
-    Date and time of the creation.
-
-- *Modified*  
-    Date and time of the last modification.
-
-- *ID*  
-    Package identification number. This number is automatically assigned by the system.
-
--  *Tracking number*  
-    Package tracking number.
-
-- *Tracking link*  
-    Package tracking link.
-
-- *Package ID*  
-    Package identification number.
-
-- *Proof of delivery*  
-  Proof of delivery, if required.
-
-- Attribute    
-    You can add a column for each attribute that is assigned to the shipment package. The column displays the attribute name, the row displays the corresponding attribute value of the shipment package.
-    
-
-#### Items
-
-*Fulfillment > Dispatch notes > Tab LIST > Select a dispatch note > Tab Shipments > Select a shipment > Sub-tab PACKAGES > Select a package*
-
-![Items](../../Assets/Screenshots/Fulfillment/DispatchNotes/Items01.png "[Items]")
-
-
-- ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh)   
-    Click this button to update the list of items.
-
-- ![Columns](../../Assets/Icons/Columns.png "[Columns]") Columns (x)   
-    Click this button to display the columns bar and customize the displayed columns and the order of columns in the list. The *x* indicates the number of columns that are currently displayed in the list.
-
-- ![Filter](../../Assets/Icons/Filter.png "[Filter]") Filter (x)   
-    Click this button to display the filter bar and customize the active filters. The *x* indicates the number of filters that are currently active.
-
-The list displays all items contained in the selected package. Depending on the settings, the displayed columns may vary. All fields are read-only.
-
-[comment]: <> (Was sind Attribute?)
-
-- *Item number*  
-    Item identification number.
-
-- *SKU*  
-    Stock Keeping Unit. Identification number of the product.
-
-- *Amount*  
-    Amount of units contained in the item.
-
-- *Serial number*  
-    Item serial number.
-
-- *ID*  
-    Item identification number. The ID number is automatically assigned by the system.
-
-- *Unit net value*  
-    Item unit net value.
-
-- *Unit gross value*  
-    Item unit gross value.
-
-- *Total net value*  
-    Item total net value.
-
-- *Currency*  
-    Item currency.
-
-- *Dangerous goods indicator*  
-    Indication whether the item has been classified as a dangerous product.
-
-- Attribute    
-    You can add a column for each attribute that is assigned to the item. The column displays the attribute name, the row displays the corresponding attribute value of the item.
-
-[comment]: <> (SW: Vermutlich ab Unit net value alle Attribute. Standard oder Kundenspezifisch, i.e. Beschreiben?)
-
-[comment]: <> (SW: Kein CLOSE button in Items window. Bug)
-
-## Dispatch note "Dispatch note ID" &ndash; Logs
-
-*Fulfillment > Dispatch notes > Tab LIST > Select a dispatch note > Tab Logs*
-
-![Dispatch note logs](../../Assets/Screenshots/Fulfillment/DispatchNotes/DispatchNoteLogs.png "[Dispatch note logs]")
-
-[comment]: <> (SW: Bug in Logs Tab? Unterschied zu Menüpunkt Logging?)
-
-[comment]: <> (ggf. aus 02a_Connections.md kopieren oder verweisen?)
-
-
-
-
