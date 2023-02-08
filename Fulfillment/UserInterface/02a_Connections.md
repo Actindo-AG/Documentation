@@ -4,7 +4,7 @@
 
 ![List of intents](../../Assets/Screenshots/Fulfillment/Logging/ListIntents.png "[List of intents]")
 
-[comment]: <> (Nichts angezeigt im Sandbox. Bug bei mir? Alle beschriebenen Felder aus NoE test account. Was ist standard und was kundenspezifisch?)
+[comment]: <> (Screenshot aus NoE, da keine Intents in Sandbox angezeigt. I.O. so?)
 
 
 **List of intents**
@@ -93,23 +93,6 @@ The list displays all intents. Depending on the settings, the displayed columns 
     Short preview of log details.
 
 
-## Create view
-
-*Fulfillment > Logging > Tab CONNECTIONS > Button Points > Menu entry create*
-
-![Create view](../../Assets/Screenshots/Fulfillment/DispatchNotes/CreateView.png "[Create view]")
-
-For a detailed description of this window and the corresponding functions, see [Create view](./01a_List.md#create-view).
-
-## Rename view
-
-*Fulfillment > Logging > Tab CONNECTIONS > Button Points > Menu entry rename*
-
-![Rename view](../../Assets/Screenshots/Fulfillment/DispatchNotes/RenameView.png "[Rename view]")
-
-For a detailed description of this window and the corresponding functions, see [Rename view](./01a_List.md#rename-view).
-
-
 ## List of messages
 
 *Fulfillment > Logging > Tab CONNECTIONS > Select an intent*
@@ -177,8 +160,6 @@ The list displays all messages contained in the selected intent. Depending on th
 - *Message:*  
     Short description of the log message.
 
-[comment]: <> (Hier Info wiederholt sich. Report als Bug?)
-
 
 ### Detail of log message "Log message name" &ndash; Attributes
 
@@ -197,4 +178,21 @@ The *Attributes* tab displays further details of the selected log message. Depen
 
 This tab has no function in the *Fulfillment* module, since log messages have no dependent entities. The notice *No other entities depend on this entity* is displayed.
 
-[comment]: <> (Gar keine Dependencies oder könnte es geben, also standardmäßig beschreiben, wie im Channels?)
+[comment]: <> (Gar keine Dependencies oder könnte es geben, also standardmäßig beschreiben, wie im Channels? Ggf. Standardbeschreibung hinzufügen)
+
+
+## Create view
+
+*Fulfillment > Logging > Tab CONNECTIONS > Button Points > Menu entry create*
+
+![Create view](../../Assets/Screenshots/Fulfillment/DispatchNotes/CreateView.png "[Create view]")
+
+For a detailed description of this window and the corresponding functions, see [Create view](./01a_List.md#create-view).
+
+## Rename view
+
+*Fulfillment > Logging > Tab CONNECTIONS > Button Points > Menu entry rename*
+
+![Rename view](../../Assets/Screenshots/Fulfillment/DispatchNotes/RenameView.png "[Rename view]")
+
+For a detailed description of this window and the corresponding functions, see [Rename view](./01a_List.md#rename-view).
