@@ -4,6 +4,8 @@
 
 ![List of package types](../../Assets/Screenshots/Fulfillment/Settings/PackageTypes/ListPackageTypes.png "[List of package types]")
 
+[comment]: <> (HG: Screenshot aus NoE Test Account. OK oder lieber aus Sandbox?)
+
 **List of package types**
 
 - *VIEW*  
@@ -89,7 +91,7 @@ The list displays all package types. Depending on the settings, the displayed co
     Maximal value configured for the package type.
 
 - *Carrier*   
-    Carrier identification number.
+    Carrier configured for the package type.  
 
 - *Express*  
     Indication of the configured shipping type. The following options are displayed:  
@@ -97,21 +99,19 @@ The list displays all package types. Depending on the settings, the displayed co
     - **No**: Standard shipping type
 
 - *Package type identifier*  
-    Package type identification number.
+    Package type configured for the shipment.  
 
 - *Ship-to country*  
     Country where the package type is shipped to.
 
 - *Priority*  
-    Indication of the priority configured for the package type. The priority value determines the package type to be selected by the system if the other criteria coincide. 
+    Indication of the priority configured for the package type. The priority value determines the package type to be selected by the system if all other criteria coincide with other package types. The lower the number, the higher the priority.
 
 - *Additional services (shipping method)*  
-    Additions services offered. Numbers, letters or a combination of characters can be entered.
-
-[comment]: <> (Was für Infos kann man hier hinzufügen? In NoE Nummern, im Sandbox Text möglich)
+    Additions services offered as defined by the user. Numbers, letters or a combination of characters can be used. 
 
 - *Attribute*    
-    You can add a column for each attribute that is assigned to the package type. The column displays the attribute name, the row displays the corresponding attribute value of the package type.
+    You can add an additional column for each attribute that is assigned to the package type. The column displays the attribute name, the row displays the corresponding attribute value of the package type.
 
 
 ## Create package type  
@@ -119,6 +119,8 @@ The list displays all package types. Depending on the settings, the displayed co
 *Fulfillment > Settings > Tab PACKAGE TYPES > Button Add*
 
 ![Create view](../../Assets/Screenshots/Fulfillment/Settings/PackageTypes/CreatePackageType.png "[Create view]")
+
+[comment]: <> (Screenshot evtl. ändern, Actindo Basic kommt nicht bei NoE vor)
 
 - ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)   
     Click this button to close the *Create package type* view and return to the list of package types. All changes are rejected.
@@ -131,8 +133,6 @@ The list displays all package types. Depending on the settings, the displayed co
 - *Language*      
     Click the drop-down list and select the language in which the fields are displayed. All available languages are displayed. By default, the language set up in the system is preselected.
 
-[comment]: <> (Is that right? Sprachen, die in DataHub eingestellt/aktiv sind? In meinem Sandbox, nur Englisch und Deutsch. Standard Optionen?)
-
 - [SAVE]   
     Click this button to save the package type, close the *Create package type* view and return to the list of package types.
 
@@ -144,8 +144,6 @@ The list displays all package types. Depending on the settings, the displayed co
 
 - *Connection*  
     Click the drop-down list and select the desired connection. All available connections are displayed.
-
-[comment]: <> (Im Sandbox ganz unten)
 
 - *Max height*  
     Maximal height allowed for the package type.
@@ -176,29 +174,23 @@ The list displays all package types. Depending on the settings, the displayed co
     Base price defined for the product. This field is read-only and can only be edited in the *Edit price* window.
   - *Current price range*  
     Price range defined for the product. This field is read-only and can only be edited in the *Edit price* window.
-  - *Scale prices*  
-    Scale prices defined for the product. This field is read-only and can only be edited in the *Edit price* window.
+  - *# Scale prices*  
+    Number of scale prices defined for the product. This field is read-only and can only be edited in the *Edit price* window.
   - ![Edit](../../Assets/Icons/Edit02.png "[Edit]") (Edit)  
-  Click this button to edit a configured price. This button is displayed when hovering the mouse over a configured price.
+  Click this button to edit a configured price. This button is displayed when hovering the mouse over a configured price. The *Edit price* window is displayed, see [Edit price](#edit-price).
   - ![Delete](../../Assets/Icons/Trash01.png "[Delete]") (Delete)  
   Click this button to deleted the configured price. This button is displayed when hovering the mouse over a configured price.
 
-[comment]: <> (Evtl. in Procedure Manage package types?)
-
-[comment]: <> (Stimmt das so? Check -> Button SAVE funktioniert nicht. Bug in OneNote. S. Termfrage auch: scale price oder scaled price vs. price scale?)
+[comment]: <> (Stimmt das so? Button SAVE funktioniert nicht.)
 
 - *Carrier*  
-    Enter the carried identifier.
-
-[comment]: <> (Wo/Wie ist diese Nummer bestimmt/konfiguriert?)
+    Enter the preferred carrier for the package type. Numbers, letters or a combination of characters can be used.
 
 - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Express*  
     Enable this toggle to set the shipping type for the package type to express. Disable the toggle to set the shipping type for the package type to standard. By default, this toggle is disabled.  
 
 - *Package type identifier*  
-    Enter the package type identifier.
-
-  [comment]: <> (Wo/Wie ist diese Nummer bestimmt/konfiguriert?)
+    Enter the package type identifier. Numbers, letters or a combination of characters can be used.
 
 - *Ship-to country*  
     Click the drop-down list and select the country where the package type is shipped to.
@@ -207,80 +199,7 @@ The list displays all package types. Depending on the settings, the displayed co
     Enter a number to set the priority for the package type.
 
 - *Additional services (shipping method)*  
-    Enter the additional services identifier.
-
-[comment]: <> (Wo/Wie ist diese Nummer bestimmt/konfiguriert?)
-
-- *Zip code RegEx pattern*   
-    If desired, enter a regular expression pattern for the ship-to zip code. The site https://regex101.com/ can be useful to test regular expressions.
-
-[comment]: <> (Nicht standard/im Sandbox)
-
-- ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Battery allowed*  
-    Enable this toggle to allow batteries for the package type. Disable the toggle to not allow batteries for the package type. By default, this toggle is disabled.  
-
-- ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Shipment tracking*  
-    Enable this toggle to make shipment tracking for the package type available. Disable the toggle to make shipment tracking for the package type unavailable. By default, this toggle is disabled.  
-
-- ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Preorder*  
-    Enable this toggle to make preorder for the package type available. Disable the toggle to make preorder for the package type unavailable. By default, this toggle is disabled.  
-
-- ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Return*  
-    Enable this toggle to make return for the package type available. Disable the toggle to make return for the package type unavailable. By default, this toggle is disabled.  
-
-- ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Age verification*  
-    Enable this toggle to make age verification for the package type mandatory. Disable the toggle to make age verification for the package type optional. By default, this toggle is disabled.  
-
-[comment]: <> (Toggles nicht standard/im Sandbox)
-
-
-### Edit price
-
-*Fulfillment > Settings > Tab PACKAGE TYPES > Button Add > Button ADD PRICE*
-
-![Edit price](../../Assets/Screenshots/Fulfillment/Settings/PackageTypes/EditPrice.png "[Edit price]")
-
-**BASE PRICE CALCULATION**
-
-- *Base price*    
-    Enter a base price for the product.
-
-[comment]: <> (base price for the product contained in the package or for the package type?)
-
-**Scale prices**
-
-- *Price*  
-    Scale price defined for the product. This field is read-only and can only be edited in the *Edit scale price* window.
-- *From*  
-    Quantity value applicable to scale price. This field is read-only and can only be edited in the *Edit scale price* window.
-
-- [ADD SCALE PRICE]   
-    The *Edit scale price* window is displayed, see [Edit scale price](#edit-scale-price).
-
-- [CANCEL]  
-    Click this button to cancel editing a price. The *Edit price* window is closed.
-
-- [SAVE]  
-    Click this button to save the price, close the *Edit price* window and return to the *Create package type* view.
-
-
-#### Edit scale price
-
-*Fulfillment > Settings > Tab PACKAGE TYPES > Button Add > Button ADD PRICE > Button ADD SCALE PRICE*
-
-![Edit scale price](../../Assets/Screenshots/Fulfillment/Settings/PackageTypes/EditScalePrice.png "[Edit scale price]")
-
-- *Price*  
-    Enter a price value.
-- *From*  
-    Enter a quantity value applicable to scale price.
-
-
-- [CANCEL]  
-    Click this button to cancel editing a scale price. The *Edit scale price* window is closed.
-
-- [SAVE]  
-    Click this button to save the scale price, close the *Edit scale price* window and return to the *Edit price* window.
+    Enter the additional services offered. Numbers, letters or a combination of characters can be used.
 
 
 ## Edit package type
@@ -293,14 +212,10 @@ The list displays all package types. Depending on the settings, the displayed co
     Click this button to close the *Edit package type* view and return to the list of package types. All changes are rejected.
 
 - *Channel*  
-    Click the drop-down list to select the channel. All available  are displayed in the drop-down list. By default, the Actindo Basic channel is preselected.
-
-[comment]: <> (Nicht in NoE test account, nur in Sandbox. Stimmt das so?)
+    Click the drop-down list to select the channel. All available  are displayed in the drop-down list. By default, the *Actindo Basic* channel is preselected.
 
 - *Language*      
     Click the drop-down list and select a different language in which the fields are displayed. All available languages are displayed. By default, the language set up in the system is preselected.  
-
-[comment]: <> (Is that right? -> language question = PIM/DataHub question, aber mehr Spachen verfügbar. Wieso? In Sandbox nur Englisch und Deutsch. Standard?)
 
 - [SAVE]   
     Click this button to save any changes made to the package type, close the *Edit package type* view and return to the list of package types.
@@ -311,12 +226,8 @@ The list displays all package types. Depending on the settings, the displayed co
 - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Active*   
     Enable this toggle to set the package type status to active. Disable the toggle to set the status to inactive.
 
-[comment]: <> (nicht standard/im Sandbox)
-
 - *Connection*  
     Click the drop-down list and select the applicable connection. All available connections are displayed.
-
-[comment]: <> (im Sandbox ganz unten)
 
 - *Max height*  
     Click these fields to edit the maximal height allowed for the package type.
@@ -325,7 +236,6 @@ The list displays all package types. Depending on the settings, the displayed co
   - *Unit*  
     Click the drop-down list and select the applicable unit.
 
-
 - *Max width*   
     Click these fields to edit the maximal width allowed for the package type.
   - *Quantity*  
@@ -333,14 +243,12 @@ The list displays all package types. Depending on the settings, the displayed co
   - *Unit*  
     Click the drop-down list and select the applicable unit.
 
-
 - *Max weight*  
     Click these fields to edit the maximal weight allowed for the package type.
   - *Quantity*  
     Click this field to edit the desired value.
   - *Unit*  
     Click the drop-down list and select the applicable unit.
-
 
 - *Max value*  
     If desired, the maximal monetary value allowed for the package type can be edited.
@@ -357,20 +265,14 @@ The list displays all package types. Depending on the settings, the displayed co
   - ![Delete](../../Assets/Icons/Trash01.png "[Delete]") (Delete)  
   Click this button to deleted the configured price. This button is displayed when hovering the mouse over a configured price.
 
-[comment]: <> (Stimmt das so? Check)
-
 - *Carrier*  
-    Click this field to edit the carried identifier.
-
-[comment]: <> (Wo/Wie ist diese Nummer bestimmt/konfiguriert?)
+    Click this field to edit the preferred carrier. Numbers, letters or a combination of characters can be used.
 
 - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Express*  
     Enable this toggle to set the shipping type for the package type to express. Disable the toggle to set the shipping type for the package type to standard.   
 
 - *Package type identifier*  
-    Click this field to edit the package type identifier.
-
-  [comment]: <> (Wo/Wie ist diese Nummer bestimmt/konfiguriert?)
+    Click this field to edit the package type identifier. Numbers, letters or a combination of characters can be used.
 
 - *Ship-to country*  
     Click the drop-down list and select the country where the package type is shipped to.
@@ -379,52 +281,56 @@ The list displays all package types. Depending on the settings, the displayed co
     Click this field to edit the priority for the package type.
 
 - *Additional services (shipping method)*  
-    Click this field to edit the additional services identifier.
-
-[comment]: <> (Wo/Wie ist diese Nummer bestimmt/konfiguriert?)
-
-- *Zip code RegEx pattern*   
-    Click this to edit the regular expression pattern for the ship-to zip code. The site https://regex101.com/ can be useful to test regular expressions.
-
-[comment]: <> (nicht standard/im Sandbox)
-
-- ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Battery allowed*  
-    Enable this toggle to allow batteries for the package type. Disable the toggle to not allow batteries for the package type.  
-
-- ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Shipment tracking*  
-    Enable this toggle to make shipment tracking for the package type available. Disable the toggle to make shipment tracking for the package type unavailable.   
-
-- ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Preorder*  
-    Enable this toggle to make preorder for the package type available. Disable the toggle to make preorder for the package type unavailable.   
-
-- ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Return*  
-    Enable this toggle to make return for the package type available. Disable the toggle to make return for the package type unavailable.   
-
-- ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Age verification*  
-    Enable this toggle to make age verification for the package type mandatory. Disable the toggle to make age verification for the package type optional.   
-
-[comment]: <> (Toggles nicht standard/im Sandbox)
-
+    Click this field to edit the additional services offered. Numbers, letters or a combination of characters can be used.
 
 ### Edit price
 
+*Fulfillment > Settings > Tab PACKAGE TYPES > Button Add > Button ADD PRICE*  
+
 *Fulfillment > Settings > Tab PACKAGE TYPES > Select package type > Button Edit*
 
-![Edit price](../../Assets/Screenshots/Fulfillment/Settings/PackageTypes/EditPrice02.png "[Edit price]")
+![Edit price](../../Assets/Screenshots/Fulfillment/Settings/PackageTypes/EditPrice.png "[Edit price]")
 
-For a detailed description of this window and the corresponding functions, see [Edit price](#edit-price).
+**BASE PRICE CALCULATION**
 
-[comment]: <> (Verweis auf Abschnitt unter Create package type oder wiederholen?)
+- *Base price*    
+    Enter a base price for the product.
+
+**Scale prices**
+
+- *Price*  
+    Scale price defined for the product. This field is read-only and can only be edited in the *Edit scale price* window. If no scale price has been added yet, the *No data* notice is displayed.
+- *From*  
+    Quantity value applicable to scale price. This field is read-only and can only be edited in the *Edit scale price* window. If no scale price has been added yet, the *No data* notice is displayed.
+
+- [ADD SCALE PRICE]   
+    The *Edit scale price* window is displayed, see [Edit scale price](#edit-scale-price).
+
+- [CANCEL]  
+    Click this button to cancel editing a price. The *Edit price* window is closed.
+
+- [SAVE]  
+    Click this button to save the price, close the *Edit price* window and return to the *Create package type* view.
 
 #### Edit scale price
+
+*Fulfillment > Settings > Tab PACKAGE TYPES > Button Add > Button ADD PRICE > Button ADD SCALE PRICE*  
 
 *Fulfillment > Settings > Tab PACKAGE TYPES > Select package type > Button Edit > Button ADD SCALE PRICE*
 
 ![Edit scale price](../../Assets/Screenshots/Fulfillment/Settings/PackageTypes/EditScalePrice.png "[Edit scale price]")
 
-For a detailed description of this window and the corresponding functions, see [Edit scale price](#edit-scale-price).
+- *Price*  
+    Enter a price value.
+- *From*  
+    Enter a quantity value applicable to the scale price.
 
-[comment]: <> (Verweis auf Abschnitt unter Create packate type oder wiederholen?)
+
+- [CANCEL]  
+    Click this button to cancel editing a scale price. The *Edit scale price* window is closed.
+
+- [SAVE]  
+    Click this button to save the scale price, close the *Edit scale price* window and return to the *Edit price* window.
 
 
 ## Create view
