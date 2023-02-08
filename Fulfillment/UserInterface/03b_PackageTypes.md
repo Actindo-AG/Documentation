@@ -105,7 +105,7 @@ The list displays all package types. Depending on the settings, the displayed co
     Country where the package type is shipped to.
 
 - *Priority*  
-    Indication of the priority configured for the package type. The priority value determines the package type to be selected by the system if all other criteria coincide with other package types. The lower the number, the higher the priority.
+    Indication of the priority configured for the package type. The priority value is used by the system to determine the package type to be used for a shipment when two or more package types have the same criteria. The lower the number, the higher the priority.
 
 - *Additional services (shipping method)*  
     Additions services offered as defined by the user. Numbers, letters or a combination of characters can be used. 
