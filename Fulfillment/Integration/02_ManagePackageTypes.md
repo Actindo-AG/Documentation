@@ -27,15 +27,21 @@ No prerequisite to fulfill.
 
     ![Create package type](../../Assets/Screenshots/Fulfillment/Settings/PackageTypes/CreatePackageType.png "[Create package type]")
 
-2. Enter a name for the connection in the *Name* field.  
+[comment]: <> (Mapping oder Attribute set? Actindo Basic?)
+
+2. Enter a name for the connection in the *Name* field. 
+
+3. Enable the *Active* toggle. By default, this toggle is disabled.
+
+4. Click the *Connection* drop-down list and select the applicable connection. All available connections are displayed in the list.
     
-3. Enter the maximal dimensions allowed for the package type:
+5. Enter the maximal dimensions allowed for the package type:
     - In the *Max height* box, enter the maximal value in the *Quantity* field and click the *Unit* drop-down list to select the applicable unit.  
     - In the *Max width* box, enter the maximal value in the *Quantity* field and click the *Unit* drop-down list to select the applicable unit.  
     - In the *Max length* box, enter the maximal value in the *Quantity* field and click the *Unit* drop-down list to select the applicable unit.  
     - In the *Max weight* box, enter the maximal value in the *Quantity* field and click the *Unit* drop-down list to select the applicable unit.  
    
-4. Enter the maximal monetary value for the items contained in the package type in the *Max value* box. To do so, follow the instructions below:
+6. Enter the maximal monetary value for the items contained in the package type in the *Max value* box. To do so, follow the instructions below:
     - Click the [ADD PRICE] button.  
         The *Edit price* window is displayed. 
 
@@ -43,48 +49,45 @@ No prerequisite to fulfill.
 
     - Enter the item price in the *Base price* field.
 
-    - If desired, scale prices can be added. Click the [ADD SCALE PRICE] button.  
+    - If desired, click the [ADD SCALE PRICE] button to add scale prices.  
         The *Edit scale price* window is displayed.  
 
         ![Edit scale price](../../Assets/Screenshots/Fulfillment/Settings/PackageTypes/EditScalePrice.png "[Edit scale price]")
 
-    - Enter the scale price in the *Price* field and applicable number of units in the *From* field. Repeat this step to add further scale prices.
+    - Enter the scale price in the *Price* field and the applicable number of units in the *From* field. 
 
-    - Click the [SAVE] button at the bottom of the window.  
-        The *Edit scale price* window is closed. The scale prices are displayed in the *Scale prices* box in the *Edit price* window. 
+    - Click the [SAVE] button at the bottom of the *Edit scale price* window.  
+        The *Edit scale price* window is closed. The scale prices are displayed in the *Scale prices* box in the *Edit price* window. Repeat this process to add further scale prices.
 
-    - Click the [SAVE] button at the bottom of the window.  
+    - Click the [SAVE] button at the bottom of the *Edit price* window.  
         The *Edit price* window is closed. The entered prices are displayed in the *Max value* box.
 
-[comment]: <> (Check ob alles default, also ob Beschreibung nötig; evtl. Verweis auf Attributes in DataHub?)
+7. Enter the carrier identifier in the *Carrier* field. Both letters and numbers can be entered.
 
-5. Enter the carrier identifier in the *Carrier* field. Both letters and numbers can be entered.
+8. Enable the *Express* toggle if express delivery applies for the shipment. By default, this toggle is disabled.
 
-6. Enable the *Express* toggle if express delivery applies for the shipment.  
+9. Enter the applicable package type identifier in the *Package type identifier* field.
 
-7. Enter the applicable package type identifier in the *Package type identifier* field.
+10. Click the *Ship-to country* drop-down list and select the country where the shipment is to be sent to.
 
-8. Click the *Ship-to country* drop-down list and select the country where the shipment is to be sent to.
+11. Enter the applicable priority value in the *Priority* field.  This field is mandatory.
+    > [Info] The priority value is used by the system to determine the package type to be used for a shipment when two or more package types have the same criteria. The priority value becomes then the decisive criterion. In the priority scale, the lower the number, the higher the priority, that is, priority 1 is higher than priority 4.
 
-9. Enter the applicable priority value in the *Priority* field.  
-    > [Info] The priority value is used by the system to determine the package type to be used for a shipment when two or more package types have the same criteria. The priority value becomes then the decisive criterion. In the priority scale, the lower the number the higher the priority, that is, priority 1 is higher than priority 4.
+12. Enter the applicable information in the *Additional services (shipping method)* field.
 
-10. Enter the applicable number in the *Additional services (shipping method)* field.
-
-11. Click the *Connection* drop-down list and select the applicable connection for the shipment.
+13. Click the *Connection* drop-down list and select the applicable connection for the shipment.
 
 [comment]: <> (Info fehlt zu Carrier, Package type identifier and Additional services, s. Questions in One Note)
 
-12. Click the [SAVE] button in the upper right corner.  
+14. Click the [SAVE] button in the upper right corner.  
     The *Submitting data...* notice is displayed while saving and then the *Creation successful* pop-up window. 
 
      ![Package type created](../../Assets/Screenshots/Fulfillment/Settings/PackageTypes/CreationSuccessful.png "[Package type created]")
 
      The *Create package type* view is closed and the *List of package types* is displayed again.
 
-13. If necessary, click the ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh) button in the upper right corner to display the changes in the list.   
+15. If necessary, click the ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh) button in the upper right corner to display the new package type in the list.   
   
-
 
 ### Edit a package type
 
@@ -117,7 +120,7 @@ A package type has been created, see [Create a package type](#create-a-package-t
 
 ### Delete a package type
 
-Delete a package type that is no longer applicable. It is also possible to deactivate a package type temporarily, see [Deactivate a package type](#deactivate-a-package-type).
+Delete a package type that is no longer applicable. It is also possible to deactivate a package type temporarily, see [Deactivate a package type](#to-be-completed).
 
 #### Prerequisites
 
@@ -135,35 +138,6 @@ A package type has been created, see [Create a package type](#create-a-package-t
 2. Click the [DELETE] button.  
     The selected package type is deleted and removed from the list of package types.
 
-[comment]: <> (Keine Notice displayed? Alte Version 1.1.X)
 
-
-### Activate a package type
-
-Delete a package type that is no longer applicable.
-
-#### Prerequisites
-
-A package type has been created, see [Create a package type](#create-a-package-type).
-
-#### Procedure
-
-*Fulfillment > Settings > Tab PACKAGE TYPES*
-
-![Package types](../../Assets/Screenshots/Fulfillment/Settings/PackageTypes/ListPackageTypes.png "[Package types]
-
-
-### Deactivate a package type
-
-Delete a package type that is no longer applicable.
-
-#### Prerequisites
-
-A package type has been created, see [Create a package type](#create-a-package-type).
-
-#### Procedure
-
-*Fulfillment > Settings > Tab PACKAGE TYPES*
-
-![Package types](../../Assets/Screenshots/Fulfillment/Settings/PackageTypes/ListPackageTypes.png "[Package types]
+[comment]: <> (Activate/deactivate procedures sinnvoll? Im Moment nicht möglich -> Bug, wenn Inactive, nicht mehr auf der Liste)
 
