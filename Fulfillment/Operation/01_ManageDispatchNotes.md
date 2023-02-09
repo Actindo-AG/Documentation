@@ -59,7 +59,7 @@ A dispatch note provides numerous order-related details, which may vary dependin
 6. Check the shipment status in the *Shipment status* column. For further information, see [Check the shipment status](./02_CheckShipment.md#check-the-shipment-status).
 
 7. If desired, click the ![Columns](../../Assets/Icons/Columns.png "[Columns]") (Columns) button to add further details to the list of dispatch notes. 
-  > [Info] Additional information can be displayed depending on the fields (attributes) mapped via the fulfiller's driver when establishing the connection. 
+    > [Info] Additional information can be displayed depending on the fields (attributes) mapped via the fulfiller's driver when establishing the connection. 
 
 
 ## Complete a dispatch note
