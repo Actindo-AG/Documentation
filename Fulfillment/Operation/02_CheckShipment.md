@@ -25,18 +25,16 @@ Check the shipment status in the *Shipment status* column. The following options
     No shipment has been arranged yet.  
 
   - ![Circular arrows](../../Assets/Icons/CircularArrows.png "[Circular arrows]") (Circular arrows)   
-    The shipment is in progress.  
+    The shipment is in progress. For more information on the specific stage of the shipment process, see [Check the shipment details](#check-the-shipment-details). 
 
   - ![Double check](../../Assets/Icons/DoubleCheck.png "[Double check]") (Double check)    
   	The shipment has been delivered.
 
   - ![Error](../../Assets/Icons/Warning02.png "[Error]") (Error)    
-    The shipment has given an error.
+    The shipment has given an error. A shipment is set to error only when the fulfiller reports an error due to a number of reasons. For detailed information, see [Handle an error in a shipment](../Troubleshooting/01_HandleErrorShipment.md). 
 
   - Empty  
     The shipment status is void.
-
-[comment]: <> (Kann man sonst was tun? Evtl. alle Unterkapitel als Schritte in einem Procedure)
 
 
 ## Check the shipment details
@@ -45,7 +43,7 @@ The shipment details provided by the fulfiller can be accessed from the list of 
 
 #### Prerequisites
 
-The shipment status is at least **In progress** (circular arrows), see [Check the shipment status](#check-the-shipment-status).
+The shipment status is at least ![Circular arrows](../../Assets/Icons/CircularArrows.png "[Circular arrows]") (Circular arrows), that is, in progress, in the list of dispatch notes, see [Check the shipment status](#check-the-shipment-status).
 
 #### Procedure
 
@@ -59,7 +57,7 @@ The shipment status is at least **In progress** (circular arrows), see [Check th
     ![Dispatch note ID](../../Assets/Screenshots/Fulfillment/DispatchNotes/DispatchNoteAttributes.png "[Dispatch note ID]")
 
 2. Select the *Shipments* tab.  
-    All shipments belonging to the dispatch note are displayed.
+    All shipments included in the dispatch note are displayed.
 
     ![Shipments](../../Assets/Screenshots/Fulfillment/DispatchNotes/DispatchNoteShipments.png "[Shipments]")
 
@@ -77,7 +75,7 @@ The shipment status is at least **In progress** (circular arrows), see [Check th
     - If desired, check the shipment tracking number in the *Tracking number* column.
     - If desired, check the URL for tracking in the *Tracking link* column.  
 
-    > [Info] The fields (attributes) displayed may vary depending on the fulfiller's driver.  
+    > [Info] The fields (attributes) displayed vary depending on the fulfiller's driver.  
     
 6. Click a package to display the individual items contained.  
     The *Items* window is displayed listing all items contained in the selected package.  
@@ -90,14 +88,16 @@ The shipment status is at least **In progress** (circular arrows), see [Check th
     - If desired, check the amount of an item contained in the package in the *Amount* column.
     - If available, you can also check an item serial number in the *Serial number* column.
 
-    > [Info] The fields (attributes) displayed may vary depending on the fulfiller's driver.  
+    > [Info] The fields (attributes) displayed vary depending on the fulfiller's driver.  
 
 8. Press *Esc* to close the *Item* window.  
   The *PACKAGES* tab is displayed again.
 
-    If needed, repeat the steps **6** to **7** to check other packages contained in the shipment. 
-
 [comment]: <> (Kein CLOSE oder CANCEL button in Items Fenster. Bug?)
 
-9. Click the [CLOSE] button on the right upper corner.  
+9. Click the [BACK] button on the upper right corner of the *PACKAGES* sub-tab to go back to the *PACKAGES* view.
+
+    If needed, repeat the steps **6** and **7** to check other packages contained in the shipment. 
+
+10. Click the [CLOSE] button on the right upper corner of the *Dispatch note "Dispatch note ID"* view.  
     The *Dispatch note ID* view is closed. The list of dispatch notes is displayed again.
