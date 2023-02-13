@@ -107,8 +107,8 @@ An Amazon connection has been established, see [Create an Amazon connection](#cr
 
     ![Settings offers](../../Assets/Screenshots/Channels/Settings/Connections/Amazon/EditConnectionSettings_Offers.png "[Settings offers]")
 
-3. If necessary, disable the *Apply from default* toggle. By default, the toggle is enabled.
-  The *Update stock for 'Fulfillment by Amazon (FBA)' offers* toggle is unlocked.
+3. If necessary, disable the *Apply from default* toggle. By default, the toggle is enabled.  
+    The *Update stock for 'Fulfillment by Amazon (FBA)' offers* toggle is unlocked.
 
 4. Enable the *Update stock for 'Fulfillment by Amazon (FBA)' offers* toggle to manage the stock also via Actindo. It is recommended to leave this toggle disabled, since Amazon manages the stock for FBA offers.
 
@@ -129,7 +129,7 @@ An Amazon connection has been established, see [Create an Amazon connection](#cr
     
     + Enable the *Mark 'Fulfillment by Amazon' orders as shipped during import and disable warehousing.* toggle in the *'Fulfillment by Amazon' (FBA) orders* section to prevent that the warehousing and the shipping for the FBA order is managed in Actindo. Otherwise, disable the toggle. 
     
-    + Enable or disable the *Is the VAT calculation services (VCS) enabled?* toggle to specify if this feature is active in Amazon. If the VCS is disabled, the prices in the FBA reports are gross, if the VCS is enabled, the prices are net. 
+    + Enable or disable the *Is the VAT calculation services (VCS) enabled?* toggle to specify if this feature is active in Amazon. If the VCS is disabled, the prices in the FBA reports are gross; if the VCS is enabled, the prices are net. 
     
         > [Info] To check or modify the status of the VCS in the Amazon seller account, see [VAT calculation services](https://sellercentral.amazon.de/tax/settings/summary).   
         Make sure that you are logged in to your Amazon seller account to access the link above. 
@@ -165,7 +165,7 @@ All checkboxes are unlocked.
 
     > [Info] The default shipping provider is used as a fallback shipping provider for all shipping options that have no shipping provider assigned.
 
-12. If desired, click the *UCS shipping provider* drop-down list for the gift wrap shipping option in the *Assigned shipping provider* column and select the **Gift wrap** option in the drop-down list, so that a line item for gift wraps can be added to the OMS orders. 
+12. If desired, click the *UCS shipping provider* drop-down list for the gift wrap shipping option in the *Assigned shipping provider* column and select the **Gift wrap** option in the drop-down list, so that a line item for gift wraps can be added to the OMS orders.   
     The *Gift wrap* option must be configured in the *Order management* module: *Order management > Settings > Tab SHIPPING PROVIDER*.
     + Create a *Gift wrap* shipping provider that will be displayed on invoices as a gift wrap line item.
     + Select the *Gift wrap* shipping provider.

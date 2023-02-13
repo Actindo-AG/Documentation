@@ -12,13 +12,12 @@ Create the connection to a Magento 2 shop using the Magento 2 driver. Further se
 #### Prerequisites
 
 - A Magento 2 account has been created.
-- An integration has been created and activated in Magento 2, go to *System > Integrations > Add New Integration*. 
+- The integration to Actindo has been created and activated in Magento 2, go to *System > Integrations > Add New Integration*. 
 - The *Magento 2* plugin has been installed in the *Actindo Core1 Platform*. 
 
 > [Info] For the *Omni-Channel* module version 4.1.0 or higher, the *Magento 2* plugin is required in at least version 4.0.0.
 
-[comment]: <> (Create integration in Magento 2 -> Klickpfad ausreichend? Kein Link zu Magento-Doku verfügbar)
-[comment]: <> (HG: mir bringt der Brotkrumenpfad überhaupt nichts. Warum überhaupt nen Pfad? Mich interessiert mehr, was das für einen Integration ist.)
+[comment]: <> (Oli: Create integration in Magento 2 -> Stimmt das so? Klickpfad ausreichend?)
 
 #### Procedure
 
@@ -159,7 +158,7 @@ A Magento 2 connection has been established.
 
     ![Settings image name regular expression](../../Assets/Screenshots/Channels/Settings/Connections/Magento2/EditConnectionSettings_ImageNameRegEx.png "[Settings image name regular expression]")
 
-[comment]: <> (sicher, dass beim default ein random name erstellt wird? ich würde eher sagen, standardmäßig wird der ECM name herangezogen.)
+[comment]: <> (Oli: Random Name oder wird der ECM Name herangezogen?)
 
 16. If desired, disable the *Use ECM image name* toggle. By default, the toggle is enabled.  
     If disabled, the image names are generated randomly by upload. If enabled, the image names configured in the *ECM* module are uploaded.
