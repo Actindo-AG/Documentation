@@ -33,7 +33,7 @@ A dispatch note provides numerous order-related details, which may vary dependin
     - **New dispatch note**  
         The dispatch note has been newly created.
     - **Transferred to partner**  
-        The dispatch note has been transferred to partner but no receival has been confirmed. In rare occasions, the fulfiller may note receive a dispatch note. In that case, it may be necessary to resend the dispatch note, see [Export a dispatch note](#export-a-dispatch-note).
+        The dispatch note has been transferred to partner but no receival has been confirmed. In rare occasions, the fulfiller may note receive a dispatch note. In that case, it may be necessary to reexport the dispatch note, see [Export a dispatch note](#export-a-dispatch-note).
     - **Partner confirmed receival**  
         The fulfiller has confirmed receival of the dispatch note. The shipment status is subsequently updated by the fulfiller, see [Check the shipment status](02_CheckShipment.md#check-the-shipment-status). 
     - **Dispatch note completed**  
@@ -64,17 +64,13 @@ A dispatch note provides numerous order-related details, which may vary dependin
 
 ## Complete a dispatch note
 
-Fulfillers may not notify, or the notification may fail, when an order has been delivered. In this case, the dispatch note status is not automatically updated to completed. To prevent subsequent processes from remaining stuck waiting for the completed status, the dispatch note status can be updated manually if necessary.
-
-It is possible to update the status of several dispatch notes at once.
-
-[comment]: <> (Unsicher von Ausgangssituation. Wie weiß ich, welcher Dispatch note status nicht aktualisiert worden ist? Fehler festgestellt in Workflows? Oder extern vom Kunden?)
+Fulfillers may not notify if an order has been delivered. In this case, the dispatch note status is not automatically updated to completed. To provide a better overview and handling of the dispatch note list, the dispatch note status can be updated manually if necessary. It is also possible to update the status of several dispatch notes at once.
 
 #### Prerequisites
 
 - The shipment has been delivered.
-- The dispatch note status is **Partner confirmed receival**.
-- The shipment status remains **In progress** (circular arrows).
+- The dispatch note status is **Partner confirmed receival** and the shipment status remains as ![Circular arrows](../../Assets/Icons/CircularArrows.png "[Circular arrows]") (Circular arrows), that is, in progress, in the list of dispatch notes. 
+- All shipments included in the dispatch note have been shipped, that is, the status of all shipments included in the *Shipments* sub-tab of the *Dispatch note "Dispatch note ID"* view is **Shipped**.
 
 #### Procedure
 
@@ -83,35 +79,37 @@ It is possible to update the status of several dispatch notes at once.
 ![Dispatch notes](../../Assets/Screenshots/Fulfillment/DispatchNotes/DispatchNotes.png "[Dispatch notes]")
 
 1. Click the dispatch note whose status has not been updated.
-  The *Dispatch note "Dispatch note ID"* view is displayed.
+    The *Dispatch note "Dispatch note ID"* view is displayed.
 
-2. Click the *Shipments* tab.  
-  All shipments included in the dispatch note are displayed.
+2. Click the *Shipments* sub-tab.  
+    All shipments included in the dispatch note are displayed.
 
-3. Check that the shipment status is **Shipped**.
+3. Verify that the status of all shipments is **Shipped**.
 
-4. Click the ![Back](../../Assets/Icons/Back02.png "[Back]") button to return to the list of dispatch notes. 
+4. Click the ![Back](../../Assets/Icons/Back02.png "[Back]") (Back) button to return to the list of dispatch notes. 
 
-4. Click the checkbox of the dispatch note(s) to be completed.
-  The editing toolbar is displayed.
+5. Click the checkbox of the dispatch note(s) to be completed.
+    The editing toolbar is displayed.
 
-5. Click the [FORCE COMPLETION] button in the editing toolbar.  
-  The message ... is displayed.
+6. Click the [FORCE COMPLETION] button in the editing toolbar.  
+    The *"x DispatchNotes forced to completion, failed for x"* notice is displayed.
 
-[comment]: <> (Testen im Sandbox mit neuer Version. Screenshot mit Bestätigungsnachricht hinzufügen. Procedure einmal durchspielen!)
+    > [Info] The x indicates the number of dispatch notes that have been completed or that have failed. A manual completion will only fail if the status of any shipment contained in the dispatch note is not **Shipped**.
+
+    ![Forced to completion](../../Assets/Screenshots/Fulfillment/DispatchNotes/ForcedtoCompletion.png "[Forced to completion]")
+
+    The *Status* column changes to **Dispatch note completed** and the *Shipment status* column changes to ![Double check](../../Assets/Icons/DoubleCheck.png "[Double check]") (Double check). The status of all shipments included in the dispatch note is updated to **Delivered**.    
 
 
 ## Export a dispatch note
 
-You can resend a dispatch note to the fulfiller if  receival has failed.
+You can reexport a dispatch note to the fulfiller if the receival has failed in the partner's system. Nevertheless, this procedure should be carefully used, as some destination systems may not be able to manage a reexport of data. Besides, possible dependent processes in the *Actindo Core1 Platform* must be considered. 
 
 #### Prerequisites
 
-- A dispatch note has been generated.
+- A dispatch note has been generated and sent.
 - The dispatch note status is **Transferred to partner**.
-- The shipment status is ![Cross](../../Assets/Icons/Cross02.png "[Cross]") (Cross), that is, no shipment has been arranged.
-
-[comment]: <> (Stimmt das so? Oder Error - richtiger Weg zur Lösung wäre aber über Workflows, denn der Prozess schlägt auch fehl... S. Wissenstransfers Part 1, Min. 48. Dann wozu hier EXPORT button? Sollen wir den Prozess beschreiben oder lieber an Workflows verweisen? Oder wann EXPORT? Als Procedure oder lieber als Troubleshooting?)
+- The shipment status is ![Cross](../../Assets/Icons/Cross02.png "[Cross]") (Cross), that is, no shipment has been arranged by the fulfiller.
 
 #### Procedure
 
@@ -120,21 +118,20 @@ You can resend a dispatch note to the fulfiller if  receival has failed.
 ![Dispatch notes](../../Assets/Screenshots/Fulfillment/DispatchNotes/DispatchNotes.png "[Dispatch notes]")
 
 1. Click the checkbox of the dispatch note to be reexported.
-  The editing toolbar is displayed.
+    The editing toolbar is displayed.
 
 2. Click the [EXPORT] button.
-  A confirmation window is displayed with the following notice is displayed: *One or more of the selected dispatch notes are not waiting for transfer! Exporting might produce errors in automated processes. Are you sure?*.
+    A confirmation window is displayed with the following notice: *One or more of the selected dispatch notes are not waiting for transfer! Exporting might produce errors in automated processes. Are you sure?*.
 
-    > [Info] The [EXPORT] button should only be used in exceptional cases. Since the related workflow process would display an error, it is highly recommended to address this issue in the *Workflows* module, see [Retry a single process action](../../ActindoWorkFlow/Troubleshooting/01_RetryProcessAction.md#retry-a-single-process-action).
+    ![Confirm selection](../../Assets/Screenshots/Fulfillment/DispatchNotes/ConfirmSelectionExport.png "[Confirm selection]")
 
-[comment]: <> (Unsicher. Wie kann man das Problem über Workflows lösen? Gibt es ein Action vorher, die man wieder anstoßen kann?) 
+3. Click the [EXPORT] button in the confirmation window if you wish to proceed.  
+    An additional confirmation notice window is displayed.
 
-3. Click the [OK] button in the confirmation window.  
-  An additional confirmation window notice is displayed.
+    ![Export confirmation](../../Assets/Screenshots/Fulfillment/DispatchNotes/ReallyExport.png "[Export confirmation]")
 
 4. Click the [EXPORT] button if you are sure you want to export the dispatch note again.  
-  The message ... is displayed. The dispatch note has been resent to the fulfiller.
+    The dispatch note has been resent to the fulfiller.
 
-  > [Info] Check dependent processes for errors...
 
   
