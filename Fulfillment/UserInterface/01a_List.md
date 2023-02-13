@@ -84,7 +84,7 @@
 - [EXPORT]  
     Click this button to export manually the dispatch note to the fulfiller. This button is displayed if the checkbox of at least one dispatch note is selected.
 
-    > [Info] The dispatch note is exported automatically by the system. If the export fails, the dispatch note can be manually reexported. Nevertheless, this is not to be meant a usual procedure but an exceptional measure. For detailed information, see [Export a dispatch note](../Operation/01_ManageDispatchNotes.md#export-a-dispatch-note).
+    > [Info] The dispatch note is exported automatically by the system. If the export fails, the dispatch note can be manually reexported. For detailed information, see [Export a dispatch note](../Operation/01_ManageDispatchNotes.md#export-a-dispatch-note).
 
 - [FORCE COMPLETION]  
     Click this button to complete the dispatch note. This button is displayed if the checkbox of at least one dispatch note is selected.
@@ -108,22 +108,22 @@ The list displays all dispatch notes. Depending on the settings, the displayed c
     - **Dispatch note completed**  
         The dispatch note has been completed.
     -  **Error**  
-        The dispatch note has given an error.
+        The dispatch note has given an error while exporting.
     - **Void**  
         The dispatch note is void.
 
 - *Shipment status*  
     Status of shipment associated with the dispatch note. The following options are available:
     - ![Cross](../../Assets/Icons/Cross02.png "[Cross]") (Cross)   
-        No shipment yet. The associated dispatch note is new or has just been transferred to the fulfiller.
+        No shipment has been performed yet.  
     - ![Circular arrows](../../Assets/Icons/CircularArrows.png "[Circular arrows]") (Circular arrows)   
-        Waiting for shipment/Shipped/New Shipment. The fulfiller has confirmed receival of the dispatch note and the shipment will be arranged shortly.   
+        The shipment is in progress.   
     - ![Double check](../../Assets/Icons/DoubleCheck.png "[Double check]") (Double check)    
-        Delivered. The shipment has been delivered.
+        The shipment has been delivered.
     - ![Error](../../Assets/Icons/Warning02.png "[Error]") (Error)    
-        Error. The shipment has produced an error.
+        The fulfiller has reported a shipment error.
     - Empty  
-        If the shipment status is void, the *Shipment status* is empty.
+        If the dispatch note is void, the *Shipment status* is empty.
 
 - *Description*  
     Dispatch note description as defined by the user. Numbers, letters or a combination of characters may be used. The information provided in this field can be entered in the search bar to search for a specific dispatch note.
@@ -192,41 +192,39 @@ The right side of the *Attributes* tab displays all attributes that are assigned
 
 ![Dependencies](../../Assets/Screenshots/Fulfillment/DispatchNotes/DispatchNoteDependencies.png "[Dependencies]")
 
-> [Info] This tab has usually no function in the *Fulfillment* module, since dispatch notes do not normally have dependent entities. In this case, the *No other entities depend on this entity* notice is displayed. However, it is possible to set up entities depending on dispatch notes.
-
 **Dependencies**
 
 - ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh)   
-  Click this button to update the list of product dependencies.
+    Click this button to update the list of dispatch note dependencies.
 
 - ![Columns](../../Assets/Icons/Columns.png "[Columns]") Columns (x)   
-  Click this button to display the columns bar and customize the displayed columns and the order of columns in the list. The *x* indicates the number of columns that are currently displayed in the list.
+    Click this button to display the columns bar and customize the displayed columns and the order of columns in the list. The *x* indicates the number of columns that are currently displayed in the list.
 
 - [x]     
-  Select the checkbox to display the editing toolbar. If you click the checkbox in the header, all dependent entities in the list are selected. If no dependency exists for the offer, the *No other entities depend on this entity* notice is displayed.
+    Select the checkbox to display the editing toolbar. If you click the checkbox in the header, all dependent entities in the list are selected. If no dependency exists for the offer, the *No other entities depend on this entity* notice is displayed.
 
 The list displays all dependencies of the selected dispatch note. Depending on the settings, the displayed columns may vary. All fields are read-only. 
 
 - *Dependent entity ID*   
-  Identification number of the dependent entity.
+    Identification number of the dependent entity. The ID number is automatically assigned by the system. 
 
 - *Dependent entity type*   
-  Type of the dependent entity. 
+    Type of the dependent entity. 
 
 - *Change tracking mode*   
-  Change tracking mode (ETL mode) of the dependent entity. The following options are available:
-  - **Manual**
-  - **Semi-automatic**
-  - **Semi-automatic, changes must be confirmed by another user**   
-  - **Automatic**
+    Change tracking mode (ETL mode) of the dependent entity. The following options are available:
+    - **Manual**
+    - **Semi-automatic**
+    - **Semi-automatic, changes must be confirmed by another user**   
+    - **Automatic**
 
 - *Dependent entity friendly identifier*   
-
-[comment]: <> (what id number is that? How is it created?)
+    Descriptive name of the dependent entity. The friendly identifier may be used to search the entity in the user interface, for example, a reference number or an SKU.
 
 - [RERUN MAPPING]   
-  Click this button to rerun the mapping of the selected entity. This button is only displayed if the checkbox of at least one dependency is selected.	
+    Click this button to rerun the mapping of the selected entity. This button is only displayed if the checkbox of at least one dependency is selected.	
 
+    > [Info] If no dependent entities exist, the *No other entities depend on this entity* notice is displayed. 
 
 ## Dispatch note "Dispatch note ID" &ndash; Shipments
 
@@ -268,10 +266,7 @@ The list displays all shipments. Depending on the settings, the displayed column
     - **Error**
 
 - *Status info*  
-    Additional status information. The following options are available:  
-    - **Status changed via dispatch note**
-
-[comment]: <> (SW: Gibt es andere Optionen oder ist es vom Kd eingestellt?)
+    Additional status information provided by the fulfiller. 
 
 - *Created*  
     Date and time of the creation.
@@ -321,9 +316,37 @@ The right side of the *Attributes* tab displays all attributes that are assigned
 
 ![Shipment dependencies](../../Assets/Screenshots/Fulfillment/DispatchNotes/ShipmentsAttributesDependencies.png "[Shipment dependencies]")
 
-This tab has no function in the *Fulfillment* module, since dispatch notes have no dependent entities. The notice *No other entities depend on this entity* is displayed.
+- ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh)   
+    Click this button to update the list of shipment dependencies.
 
-[comment]: <> (SW: Vgl. Dependencies oben)
+- ![Columns](../../Assets/Icons/Columns.png "[Columns]") Columns (x)   
+    Click this button to display the columns bar and customize the displayed columns and the order of columns in the list. The *x* indicates the number of columns that are currently displayed in the list.
+
+- [x]     
+    Select the checkbox to display the editing toolbar. If you click the checkbox in the header, all dependent entities in the list are selected. If no dependency exists for the offer, the *No other entities depend on this entity* notice is displayed.
+
+The list displays all dependencies of the selected shipment. Depending on the settings, the displayed columns may vary. All fields are read-only. 
+
+- *Dependent entity ID*   
+    Identification number of the dependent entity. The ID number is automatically assigned by the system. 
+
+- *Dependent entity type*   
+    Type of the dependent entity. 
+
+- *Change tracking mode*   
+    Change tracking mode (ETL mode) of the dependent entity. The following options are available:
+    - **Manual**
+    - **Semi-automatic**
+    - **Semi-automatic, changes must be confirmed by another user**   
+    - **Automatic**
+
+- *Dependent entity friendly identifier*   
+    Descriptive name of the dependent entity. The friendly identifier may be used to search the entity in the user interface, for example, a reference number or an SKU.
+
+- [RERUN MAPPING]   
+    Click this button to rerun the mapping of the selected entity. This button is only displayed if the checkbox of at least one dependency is selected.	
+
+    > [Info] If no dependent entities exist, the *No other entities depend on this entity* notice is displayed. 
 
 ### Shipment packages
 
