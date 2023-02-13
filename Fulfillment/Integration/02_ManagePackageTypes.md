@@ -2,9 +2,10 @@
 
 # Manage the package types
 
-Package types serve as a suggestion for the fulfiller on the type of packaging and the preferred carrier that may apply for a shipment. Package types can be defined using many different criteria. All relevant fields (attributes) used are mapped via ETL from the relevant business document.  
+Package types serve as a suggestion for the fulfiller on the type of packaging and the preferred carrier that may apply for a shipment. Package types can be defined using many different criteria. All relevant fields (attributes) used are mapped via ETL from the relevant business document depending on the fulfiller's driver.  
 
 The package types suggested may not be applicable for all users, for instance, in the case of non-physical shipments or if the fulfiller has defined his own package types.
+
 
 ## Create a package type
 
@@ -12,7 +13,7 @@ Create a package type to define the criteria applicable to a shipment.
 
 #### Prerequisites
 
-No prerequisite to fulfill. 
+A connection has been established, see [Create a connection](./01_ManageConnections.md#create-a-connection).
 
 #### Procedure
 
@@ -23,7 +24,7 @@ No prerequisite to fulfill.
 1. Click the ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) button in the bottom right corner.   
   The *Create package type* view is displayed.
 
-    > [Info] The fields displayed depend on the mapping selected and therefore there may be differences to the ones described below.
+    > [Info] The fields (attributes) displayed depend on fulfiller's driver and, therefore, there may be differences to the ones described below.
 
     ![Create package type](../../Assets/Screenshots/Fulfillment/Settings/PackageTypes/CreatePackageType.png "[Create package type]")
 
@@ -64,22 +65,18 @@ No prerequisite to fulfill.
 
 7. Enter the carrier identifier in the *Carrier* field. Both letters and numbers can be entered.
 
-8. Enable the *Express* toggle if express delivery applies for the shipment. By default, this toggle is disabled.
+8. Enable the *Express* toggle if express delivery applies for the shipment. Otherwise, leave it disabled. By default, this toggle is disabled.
 
-9. Enter the applicable package type identifier in the *Package type identifier* field.
+9. Enter the applicable package type identifier in the *Package type identifier* field. Both letters and numbers can be entered.
 
 10. Click the *Ship-to country* drop-down list and select the country where the shipment is to be sent to.
 
-11. Enter the applicable priority value in the *Priority* field.  This field is mandatory.
-    > [Info] The priority value is used by the system to determine the package type to be used for a shipment when two or more package types have the same criteria. The priority value becomes then the decisive criterion. In the priority scale, the lower the number, the higher the priority, that is, priority 1 is higher than priority 4.
+11. Enter the applicable priority value in the *Priority* field. This field is mandatory.
+    > [Info] The priority value is used by the system to determine the package type to be used for a shipment when the criteria of two or more package types match. The priority value becomes then the decisive criterion. In the priority scale, the lower the number, the higher the priority, that is, priority 1 is higher than priority 4.
 
-12. Enter the applicable information in the *Additional services (shipping method)* field.
+12. Enter the applicable information in the *Additional services (shipping method)* field. Both letters and numbers can be entered.
 
-13. Click the *Connection* drop-down list and select the applicable connection for the shipment.
-
-[comment]: <> (Info fehlt zu Carrier, Package type identifier and Additional services, s. Questions in One Note)
-
-14. Click the [SAVE] button in the upper right corner.  
+13. Click the [SAVE] button in the upper right corner.  
     The *Submitting data...* notice is displayed while saving and then the *Creation successful* pop-up window. 
 
      ![Package type created](../../Assets/Screenshots/Fulfillment/Settings/PackageTypes/CreationSuccessful.png "[Package type created]")
@@ -89,7 +86,7 @@ No prerequisite to fulfill.
 15. If necessary, click the ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh) button in the upper right corner to display the new package type in the list.   
   
 
-### Edit a package type
+## Edit a package type
 
 Edit a package type to update any set criteria.
 
@@ -118,9 +115,9 @@ A package type has been created, see [Create a package type](#create-a-package-t
 4. If necessary, click the ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh) button in the upper right corner to display the changes in the list.   
   
 
-### Delete a package type
+## Delete a package type
 
-Delete a package type that is no longer applicable. It is also possible to deactivate a package type temporarily, see [Deactivate a package type](#to-be-completed).
+Delete a package type that is no longer applicable. To avoid potential issues with existing shipments, it is highly recommended to deactivate a package type temporarily instead of deleting it permanently, see [Deactivate a package type](#deactivate-a-package-type).
 
 #### Prerequisites
 
@@ -135,9 +132,72 @@ A package type has been created, see [Create a package type](#create-a-package-t
 1. Click the checkbox of the package type to be deleted.  
     The editing toolbar is displayed.
 
+    [Caution] Deleting will permanently remove the selected data. The deletion cannot be undone and the deleted data cannot be restored. Problems may occur due to unresolved dependencies. 
+
 2. Click the [DELETE] button.  
     The selected package type is deleted and removed from the list of package types.
+ 
+
+## Deactivate a package type
+
+Under certain circumstances, it may be necessary to deactivate a package type temporarily, so that it can not be selected automatically by the system. 
+
+#### Prerequisites
+
+A package type has been created, see [Create a package type](#create-a-package-type).
+
+#### Procedure
+
+*Fulfillment > Settings > Tab PACKAGE TYPES*
+
+![Package types](../../Assets/Screenshots/Fulfillment/Settings/PackageTypes/ListPackageTypes.png "[Package types]")
+
+1. Click the package type to be deactivated. Alternatively, click the checkbox of the package type to be edited and the [EDIT] button in the editing toolbar.  
+    The *Edit package type* view is displayed.
+
+2. Disable the *Active* toggle.
+
+3. Click the [SAVE] button.   
+  The *Submitting data...* notice is displayed while saving and then the *Update successful* pop-up window. 
+
+    ![Package type updated](../../Assets/Screenshots/Fulfillment/Settings/PackageTypes/UpdateSuccessful.png "[Package type updated]")
+
+    The *Edit package type* view is closed and the *List of package types* is displayed again.
+
+4. If necessary, click the ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh) button in the upper right corner to display the changes in the list.   
+
+[comment]: <> (Stand 13.02.23: Inaktive Package types werden nicht angezeigt.)
+
+  
+## Activate a package type
+
+A package type that has been temporarily deactivated may be easily reactivated when it is needed again.
+
+#### Prerequisites
+
+A package type has been deactivated, see [Deactivate a package type](#deactivate-a-package-type).
+
+#### Procedure
+
+*Fulfillment > Settings > Tab PACKAGE TYPES*
+
+![Package types](../../Assets/Screenshots/Fulfillment/Settings/PackageTypes/ListPackageTypes.png "[Package types]")
+
+1. Click the package type to be activated. Alternatively, click the checkbox of the package type to be edited and the [EDIT] button in the editing toolbar.  
+    The *Edit package type* view is displayed.
+
+2. Enable the *Active* toggle.
+
+3. Click the [SAVE] button.   
+  The *Submitting data...* notice is displayed while saving and then the *Update successful* pop-up window. 
+
+    ![Package type updated](../../Assets/Screenshots/Fulfillment/Settings/PackageTypes/UpdateSuccessful.png "[Package type updated]")
+
+    The *Edit package type* view is closed and the *List of package types* is displayed again.
+
+4. If necessary, click the ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh) button in the upper right corner to display the changes in the list.   
 
 
-[comment]: <> (Activate/deactivate procedures sinnvoll? Im Moment nicht möglich -> Bug, wenn Inactive, nicht mehr auf der Liste)
+[comment]: <> (Stand 13.02.23: Inaktive Package types werden nicht angezeigt.Temporär Troubleshooting dazu?)
 
+[comment]: <> (Status 13.02.23: Bug beim Erstellen a package type. Es muss immer auf Active gesetzt werden, sonst wird es in der Liste nicht angezeigt. Das Problem liegt am Filter Active. Wenn nach Inactive gefiltert, sieht man alle erstellten Package types.)
