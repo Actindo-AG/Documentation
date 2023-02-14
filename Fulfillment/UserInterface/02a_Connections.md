@@ -52,25 +52,25 @@
     Click this button to display the filter bar and customize the active filters. The *x* indicates the number of filters that are currently active.
 
 - [x]     
-    Select the checkbox to display the editing toolbar. Only one log message can be selected at a time.
+    Select the checkbox to display the editing toolbar. Only one intent can be selected at a time.
 
 - [![Show message](../../Assets/Icons/ShowMessage.png "[Show message]") SHOW MESSAGE]  
-    Click this button to display the selected log message. This button is only displayed if a single checkbox in the list of intents is selected. Alternatively, you can click directly a row in the list to view an intent. The *List of messages* view is displayed.
+    Click this button to display the message(s) contained in the selected intent. This button is only displayed if a single checkbox in the list of intents is selected. Alternatively, you can click directly a row in the list to view an intent. The *List of messages* view is displayed, see [List of messages](#list-of-messages).
 
 
 The list displays all intents. Depending on the settings, the displayed columns may vary. All fields are read-only.
 
 - *Name*  
-    Description of log.
+    Description of the intent.
 
 - *Number of messages*  
-    Number of messages contained in the log.
+    Number of messages contained in the intent.
 
 - *Created at*  
     Date and time of the creation.
 
 - *Created by*  
-    Name and username of the user who created the log.  
+    Name and username of the user who created the intent.  
 
 - *Max log level of message*  
     Maximal log level type of the message(s) contained in the intent. The following levels are available:
@@ -84,13 +84,13 @@ The list displays all intents. Depending on the settings, the displayed columns 
   - **Emergency**
 
 - *ID*  
-    Log identification number. The ID number is automatically assigned by the system.
+    Intent identification number. The ID number is automatically assigned by the system.
 
 - *Preview*  
-    Preview of log details.
+    Preview of intent details.
 
 - *Short preview*  
-    Short preview of log details.
+    Short preview of intent details.
 
 
 ## List of messages
@@ -105,18 +105,18 @@ The list displays all intents. Depending on the settings, the displayed columns 
     Click this button to close the *List of messages* view and return to the list of intents.
 
 - ![Unpublish](../../Assets/Icons/Unpublish02.png "[Unpublish]")  
-    Click this to unpublish the log message.
+    Click this to download the message.
 
-[comment]: <> (Unpublish? Bedeutung?)
+[comment]: <> (Warhscheinlich bug - sollte ausgeblendet werden laut SW. Evtl. löschen?)
 
 - ![View](../../Assets/Icons/Eye02.png "[View]")  
-    Click this button to view the log message details.
+    Click this button to view the message details.
 
 
 The list displays all messages contained in the selected intent. Depending on the settings, the displayed columns may vary. All fields are read-only.
 
 - *Title*  
-    Description of the log message.
+    Description of the message.
 
 - *Log level*  
     Log level type. The following levels are available:
@@ -133,13 +133,13 @@ The list displays all messages contained in the selected intent. Depending on th
     Date and time of the creation.
 
 - *Created by*  
-    Name and username of the user who created the intent.
+    Name and username of the user who created the message.
 
 - *Message*  
-    Details of the log message.
+    Details of the message.
 
 - *ID*  
-    Log message identification number. The ID number is automatically assigned by the system.
+    Message identification number. The ID number is automatically assigned by the system.
 
 
 ### Detail of log message "Log message name"
@@ -155,10 +155,10 @@ The list displays all messages contained in the selected intent. Depending on th
     Click this button to close the *Detail of log message "Log message name"* view. The list of messages is displayed.
 
 - Message  
-    Short description of the log message.
+    Description of the log message.
 
 - *Message:*  
-    Short description of the log message.
+    Detailed description of the log message.
 
 
 ### Detail of log message "Log message name" &ndash; Attributes
@@ -176,9 +176,39 @@ The *Attributes* tab displays further details of the selected log message. Depen
 
 ![List of messages](../../Assets/Screenshots/Fulfillment/Logging/DetailLogMessageDependencies02.png "[List of messages]")
 
-This tab has no function in the *Fulfillment* module, since log messages have no dependent entities. The notice *No other entities depend on this entity* is displayed.
+**Dependencies**
 
-[comment]: <> (Gar keine Dependencies oder könnte es geben, also standardmäßig beschreiben, wie im Channels? Ggf. Standardbeschreibung hinzufügen)
+- ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh)   
+    Click this button to update the list of the log message dependencies.
+
+- ![Columns](../../Assets/Icons/Columns.png "[Columns]") Columns (x)   
+    Click this button to display the columns bar and customize the displayed columns and the order of columns in the list. The *x* indicates the number of columns that are currently displayed in the list.
+
+- [x]     
+    Select the checkbox to display the editing toolbar. If you click the checkbox in the header, all dependent entities in the list are selected. 
+
+The list displays all dependencies of the selected log message. Depending on the settings, the displayed columns may vary. All fields are read-only. 
+
+- *Dependent entity ID*   
+    Identification number of the dependent entity. The ID number is automatically assigned by the system. 
+
+- *Dependent entity type*   
+    Type of the dependent entity. 
+
+- *Change tracking mode*   
+    Change tracking mode (ETL mode) of the dependent entity. The following options are available:
+    - **Manual**
+    - **Semi-automatic**
+    - **Semi-automatic, changes must be confirmed by another user**   
+    - **Automatic**
+
+- *Dependent entity friendly identifier*   
+    Descriptive name of the dependent entity. The friendly identifier is normally used to search for the entity in the user interface, for example, a reference number or an SKU.
+
+- [RERUN MAPPING]   
+    Click this button to rerun the mapping of the selected entity. This button is only displayed if the checkbox of at least one dependency is selected.	
+
+    > [Info] If no dependent entities exist, the *No other entities depend on this entity* notice is displayed.
 
 
 ## Create view

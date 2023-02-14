@@ -218,7 +218,7 @@ The right side of the *Attributes* tab displays all attributes that are assigned
     Click this button to display the columns bar and customize the displayed columns and the order of columns in the list. The *x* indicates the number of columns that are currently displayed in the list.
 
 - [x]     
-    Select the checkbox to display the editing toolbar. If you click the checkbox in the header, all dependent entities in the list are selected. If no dependency exists for the dispatch note, the *No other entities depend on this entity* notice is displayed.
+    Select the checkbox to display the editing toolbar. If you click the checkbox in the header, all dependent entities in the list are selected.
 
 The list displays all dependencies of the selected dispatch note. Depending on the settings, the displayed columns may vary. All fields are read-only. 
 
@@ -340,7 +340,7 @@ The right side of the *Attributes* tab displays all attributes that are assigned
     Click this button to display the columns bar and customize the displayed columns and the order of columns in the list. The *x* indicates the number of columns that are currently displayed in the list.
 
 - [x]     
-    Select the checkbox to display the editing toolbar. If you click the checkbox in the header, all dependent entities in the list are selected. If no dependency exists for the offer, the *No other entities depend on this entity* notice is displayed.
+    Select the checkbox to display the editing toolbar. If you click the checkbox in the header, all dependent entities in the list are selected. 
 
 The list displays all dependencies of the selected shipment. Depending on the settings, the displayed columns may vary. All fields are read-only. 
 
