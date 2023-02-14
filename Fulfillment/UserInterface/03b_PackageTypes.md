@@ -4,7 +4,6 @@
 
 ![List of package types](../../Assets/Screenshots/Fulfillment/Settings/PackageTypes/ListPackageTypes.png "[List of package types]")
 
-[comment]: <> (HG: Screenshot aus NoE Test Account. OK oder lieber aus Sandbox?)
 
 **List of package types**
 
@@ -69,8 +68,10 @@ The list displays all package types. Depending on the settings, the displayed co
 
 - *Active*  
     Package type status. The following statuses are displayed:
-  - ![Status](../../Assets/Icons/Check.png "[Status]") (Checkmark): The package type is active.
-  - ![Status](../../Assets/Icons/Cross02.png "[Status]") (Cross): The package type is inactive.
+    - ![Status](../../Assets/Icons/Check.png "[Status]") (Checkmark)   
+    The package type is active.
+    - ![Status](../../Assets/Icons/Cross02.png "[Status]") (Cross)   
+    The package type is inactive.
 
 - *Connection*  
     Connection name.
@@ -95,8 +96,10 @@ The list displays all package types. Depending on the settings, the displayed co
 
 - *Express*  
     Indication of the configured shipping type. The following options are displayed:  
-    - **Yes**: Express shipping type
-    - **No**: Standard shipping type
+    - **Yes**  
+    Express shipping type
+    - **No**  
+    Standard shipping type
 
 - *Package type identifier*  
     Package type configured for the shipment.  
@@ -105,16 +108,16 @@ The list displays all package types. Depending on the settings, the displayed co
     Country where the package type is shipped to.
 
 - *Priority*  
-    Indication of the priority configured for the package type. The priority value is used by the system to determine the package type to be used for a shipment when two or more package types have the same criteria. The lower the number, the higher the priority.
+    Indication of the priority configured for the package type. The priority value is used by the system to determine the package type to be used for a shipment when the criteria of two or more package types match. The lower the number, the higher the priority.
 
 - *Additional services (shipping method)*  
-    Additions services offered as defined by the user. Numbers, letters or a combination of characters can be used. 
+    Additions services offered as defined by the user. 
 
 - *Attribute*    
     You can add an additional column for each attribute that is assigned to the package type. The column displays the attribute name, the row displays the corresponding attribute value of the package type.
 
 - ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add)  
-  Click this button to add a connection. The *Create connection* view is displayed, see [Create package type](#create-package-type).
+    Click this button to add a connection. The *Create connection* view is displayed, see [Create package type](#create-package-type).
   
 
 ## Create package type  
@@ -150,39 +153,39 @@ The list displays all package types. Depending on the settings, the displayed co
 
 - *Max height*  
     Maximal height allowed for the package type.
-  - *Quantity*  
+    - *Quantity*  
     Enter the desired value.
-  - *Unit*  
+    - *Unit*  
     Click the drop-down list and select the applicable unit.
 
 - *Max width*   
   Maximal width allowed for the package type.
-  - *Quantity*  
+    - *Quantity*  
     Enter the desired value.
-  - *Unit*  
+    - *Unit*  
     Click the drop-down list and select the applicable unit.
 
 - *Max weight*  
   Maximal weight allowed for the package type.
-  - *Quantity*  
+    - *Quantity*  
     Enter the desired value.
-  - *Unit*  
+    - *Unit*  
     Click the drop-down list and select the applicable unit.
 
 - *Max value*  
   If desired, the maximal monetary value allowed for the package type can be configured.
-  - [ADD PRICE]  
+    - [ADD PRICE]  
     Click this button to enter the base price and scale prices. The *Edit price* window is displayed, see [Edit price](#edit-price).
-  - *Base price*  
+    - *Base price*  
     Base price defined for the product. This field is read-only and can only be edited in the *Edit price* window.
-  - *Current price range*  
+    - *Current price range*  
     Price range defined for the product. This field is read-only and can only be edited in the *Edit price* window.
-  - *# Scale prices*  
+    - *# Scale prices*  
     Number of scale prices defined for the product. This field is read-only and can only be edited in the *Edit price* window.
-  - ![Edit](../../Assets/Icons/Edit02.png "[Edit]") (Edit)  
-  Click this button to edit a configured price. This button is displayed when hovering the mouse over a configured price. The *Edit price* window is displayed, see [Edit price](#edit-price).
-  - ![Delete](../../Assets/Icons/Trash01.png "[Delete]") (Delete)  
-  Click this button to deleted the configured price. This button is displayed when hovering the mouse over a configured price.
+    - ![Edit](../../Assets/Icons/Edit02.png "[Edit]") (Edit)  
+    Click this button to edit a configured price. This button is displayed when hovering the mouse over a configured price. The *Edit price* window is displayed, see [Edit price](#edit-price).
+    - ![Delete](../../Assets/Icons/Trash01.png "[Delete]") (Delete)  
+    Click this button to deleted the configured price. This button is displayed when hovering the mouse over a configured price.
 
 [comment]: <> (Stimmt das so? Button SAVE funktioniert nicht.)
 
@@ -199,7 +202,7 @@ The list displays all package types. Depending on the settings, the displayed co
     Click the drop-down list and select the country where the package type is shipped to.
 
 - *Priority*  
-    Enter a number to set the priority for the package type.
+    Enter a number to set the priority for the package type. The priority value is used by the system to determine the package type to be used for a shipment when the criteria of two or more package types match. The lower the number, the higher the priority.
 
 - *Additional services (shipping method)*  
     Enter the additional services offered. Numbers, letters or a combination of characters can be used.
@@ -234,39 +237,39 @@ The list displays all package types. Depending on the settings, the displayed co
 
 - *Max height*  
     Click these fields to edit the maximal height allowed for the package type.
-  - *Quantity*  
+    - *Quantity*  
     Click this field to edit the desired value.
-  - *Unit*  
+    - *Unit*  
     Click the drop-down list and select the applicable unit.
 
 - *Max width*   
     Click these fields to edit the maximal width allowed for the package type.
-  - *Quantity*  
+    - *Quantity*  
     Click this field to edit the desired value.
-  - *Unit*  
+    - *Unit*  
     Click the drop-down list and select the applicable unit.
 
 - *Max weight*  
     Click these fields to edit the maximal weight allowed for the package type.
-  - *Quantity*  
+    - *Quantity*  
     Click this field to edit the desired value.
-  - *Unit*  
+    - *Unit*  
     Click the drop-down list and select the applicable unit.
 
 - *Max value*  
     If desired, the maximal monetary value allowed for the package type can be edited.
-  - [ADD PRICE]  
+    - [ADD PRICE]  
     Click this button to edit the base price and scale prices. The *Edit price* window is displayed, see [Edit price](#edit-price_1).
-  - *Base price*  
+    - *Base price*  
     Base price defined for the product. This field is read-only and can only be edited in the *Edit price* window.
-  - *Current price range*  
+    - *Current price range*  
     Price range defined for the product. This field changes automatically when the scale prices are edited in the *Edit price* window.
-  - *No. scale prices*  
+    - *No. scale prices*  
     Number of scale prices defined for the product. This field is read-only and can only be edited in the *Edit price* window.  
-  - ![Edit](../../Assets/Icons/Edit02.png "[Edit]") (Edit)  
-  Click this button to edit a configured price. This button is displayed when hovering the mouse over a configured price.
-  - ![Delete](../../Assets/Icons/Trash01.png "[Delete]") (Delete)  
-  Click this button to deleted the configured price. This button is displayed when hovering the mouse over a configured price.
+    - ![Edit](../../Assets/Icons/Edit02.png "[Edit]") (Edit)  
+    Click this button to edit a configured price. This button is displayed when hovering the mouse over a configured price.
+    - ![Delete](../../Assets/Icons/Trash01.png "[Delete]") (Delete)  
+    Click this button to deleted the configured price. This button is displayed when hovering the mouse over a configured price.
 
 - *Carrier*  
     Click this field to edit the preferred carrier. Numbers, letters or a combination of characters can be used.
