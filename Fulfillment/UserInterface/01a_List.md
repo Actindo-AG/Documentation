@@ -78,16 +78,16 @@
     Select the checkbox to display the editing toolbar. If you click the checkbox in the header, all dispatch notes in the list are selected.
 
 - [VIEW]  
-    Click this button to edit the selected dispatch note. This button is only displayed if a single checkbox in the list of dispatch notes is selected. Alternatively, you can click directly a row in the list to view the corresponding dispatch note. 
+    Click this button to view a dispatch note. This button is only displayed if a single checkbox in the list of dispatch notes is selected. Alternatively, you can click directly a row in the list to view the corresponding dispatch note. 
     The *Dispatch note "Dispatch note ID"* view is displayed, see [Dispatch note "Dispatch note ID"](#dispatch-note-dispatch-note-id). The *Attributes* tab is preselected.
 
 - [EXPORT]  
-    Click this button to export manually the dispatch note to the fulfiller. This button is displayed if the checkbox of at least one dispatch note is selected.
+    Click this button to export manually a dispatch note to the fulfiller. This button is displayed if the checkbox of at least one dispatch note is selected.
 
     > [Info] The dispatch note is exported automatically by the system. If the export fails, the dispatch note can be manually reexported. For detailed information, see [Export a dispatch note](../Operation/01_ManageDispatchNotes.md#export-a-dispatch-note).
 
 - [FORCE COMPLETION]  
-    Click this button to complete the dispatch note. This button is displayed if the checkbox of at least one dispatch note is selected.
+    Click this button to complete a dispatch note. This button is displayed if the checkbox of at least one dispatch note is selected. For detailed information, see [Complete a dispatch note](../Operation/01_ManageDispatchNotes.md#complete-a-dispatch-note). 
 
 The list displays all dispatch notes. Depending on the settings, the displayed columns may vary. All fields are read-only.
 
@@ -146,6 +146,23 @@ The list displays all dispatch notes. Depending on the settings, the displayed c
     - **error**
     - **void**
 
+- *Carrier*  
+    Carrier identifier.
+
+- *Shipping type*  
+    Type of shipment. The following options are available:  
+    - **STND**  
+        Standard shipping type.
+    - **EXPR**  
+        Express shipping type.
+
+    > [Info] The shipping type can be set up in the *PACKAGE TYPES* tab in the *Settings* menu entry, see [Package types](./03b_PackageTypes.md).
+
+- *Shipping method*  
+    Shipping method (additional services) identifier.
+
+[comment]: <> (Evtl. wird Bennenung geändert. In Package types als Additional services/shipping method.)
+
 - Attribute    
     You can add a column for each attribute that is assigned to the dispatch note. The column displays the attribute name, the row displays the corresponding attribute value of the dispatch note.
 
@@ -188,7 +205,7 @@ The right side of the *Attributes* tab displays all attributes that are assigned
 
 ## Dispatch note "Dispatch note ID" &ndash; Dependencies
 
-*Fulfillment > Dispatch notes > Tab LIST > Select a dispatch note > Tab Attributes*
+*Fulfillment > Dispatch notes > Tab LIST > Select a dispatch note > Tab Dependencies*
 
 ![Dependencies](../../Assets/Screenshots/Fulfillment/DispatchNotes/DispatchNoteDependencies.png "[Dependencies]")
 
@@ -201,7 +218,7 @@ The right side of the *Attributes* tab displays all attributes that are assigned
     Click this button to display the columns bar and customize the displayed columns and the order of columns in the list. The *x* indicates the number of columns that are currently displayed in the list.
 
 - [x]     
-    Select the checkbox to display the editing toolbar. If you click the checkbox in the header, all dependent entities in the list are selected. If no dependency exists for the offer, the *No other entities depend on this entity* notice is displayed.
+    Select the checkbox to display the editing toolbar. If you click the checkbox in the header, all dependent entities in the list are selected. If no dependency exists for the dispatch note, the *No other entities depend on this entity* notice is displayed.
 
 The list displays all dependencies of the selected dispatch note. Depending on the settings, the displayed columns may vary. All fields are read-only. 
 
@@ -219,7 +236,7 @@ The list displays all dependencies of the selected dispatch note. Depending on t
     - **Automatic**
 
 - *Dependent entity friendly identifier*   
-    Descriptive name of the dependent entity. The friendly identifier may be used to search the entity in the user interface, for example, a reference number or an SKU.
+    Descriptive name of the dependent entity. The friendly identifier is normally used to search for the entity in the user interface, for example, a reference number or an SKU.
 
 - [RERUN MAPPING]   
     Click this button to rerun the mapping of the selected entity. This button is only displayed if the checkbox of at least one dependency is selected.	
@@ -287,7 +304,7 @@ The list displays all shipments. Depending on the settings, the displayed column
 **Shipment "Shipment ID"**
 
 - [BACK]  
-    Click this button to go back to the previous step. The *Shipments* view is displayed.
+    Click this button to go back to the previous view. The *Shipments* view is displayed.
 
 ### Shipment attributes &ndash; Attributes
 
@@ -341,7 +358,7 @@ The list displays all dependencies of the selected shipment. Depending on the se
     - **Automatic**
 
 - *Dependent entity friendly identifier*   
-    Descriptive name of the dependent entity. The friendly identifier may be used to search the entity in the user interface, for example, a reference number or an SKU.
+    Descriptive name of the dependent entity. The friendly identifier is normally used to search for the entity in the user interface, for example, a reference number or an SKU.
 
 - [RERUN MAPPING]   
     Click this button to rerun the mapping of the selected entity. This button is only displayed if the checkbox of at least one dependency is selected.	
@@ -392,7 +409,7 @@ The list displays all packages contained in the selected shipment. Depending on 
     Package identification number.
 
 - *Proof of delivery*  
-  Proof of delivery, if required.
+    Proof of delivery, if required.
 
 - Attribute    
     You can add a column for each attribute that is assigned to the shipment package. The column displays the attribute name, the row displays the corresponding attribute value of the shipment package.
@@ -417,13 +434,13 @@ The list displays all packages contained in the selected shipment. Depending on 
 The list displays all items contained in the selected package. Depending on the settings, the displayed columns may vary. All fields are read-only.
 
 - *Item number*  
-    Item identification number.
+    Item number in the package.
 
 - *SKU*  
     Stock Keeping Unit. Identification number of the product.
 
 - *Amount*  
-    Amount of units contained in the item.
+    Amount of item units contained in the package.
 
 - *Serial number*  
     Item serial number.
