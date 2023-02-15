@@ -191,10 +191,7 @@ The *Duplicate input action* action is used to duplicate the input and output it
 
 #### Settings
 
-The *Description* field contains the API endpoint that is addressed in this action. The *Key*, *Label*, *Queue type*, *Priority*, *Max tries* and *Long Description* fields have no functional meaning for the action.    
-
-- *Description*   
-    Multiply input action
+The *Description*, *Key*, *Label*, *Queue type*, *Priority*, *Max tries* and *Long Description* fields have no functional meaning for the action.    
 
 
 ### Split by criterion
@@ -208,10 +205,8 @@ The warehouses and the LSPs are determined in the stock withdrawal matrix: *Ware
 
 #### Settings
 
-The *Description* field contains the API endpoint that is addressed in this action. The *Key*, *Label*, *Queue type*, *Priority*, *Max tries* and *Long Description* fields have no functional meaning for the action.  
+The *Description*, *Key*, *Label*, *Queue type*, *Priority*, *Max tries* and *Long Description* fields have no functional meaning for the action.    
 
-- *Description*   
-    Split by criterion
 
 **Configuration**
 
@@ -297,10 +292,7 @@ The *Wait for dispatch note update* action is used to wait for the feedback from
 
 #### Settings
 
-The *Description* field contains the API endpoint that is addressed in this action. The *Key*, *Label*, *Queue type*, *Priority*, *Max tries* and *Long Description* fields have no functional meaning for the action.    
-
-- *Description*   
-    Wait for dispatch note update
+The *Description*, *Key*, *Label*, *Queue type*, *Priority*, *Max tries* and *Long Description* fields have no functional meaning for the action.    
 
 
 ### Wait for parallel input
@@ -311,10 +303,7 @@ The *Wait for parallel input* action is used to wait for two inputs to be receiv
 
 #### Settings
 
-The *Description* field contains the API endpoint that is addressed in this action. The *Key*, *Label*, *Queue type*, *Priority*, *Max tries* and *Long Description* fields have no functional meaning for the action.    
-
-- *Description*   
-    Wait for parallel input
+The *Description*, *Key*, *Label*, *Queue type*, *Priority*, *Max tries* and *Long Description* fields have no functional meaning for the action.    
 
 
 ### Sync shipments

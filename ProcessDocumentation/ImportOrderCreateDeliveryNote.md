@@ -220,10 +220,7 @@ The document type with which the input value is compared must be configured in t
 
 #### Settings
 
-The *Description* field contains the API endpoint that is addressed in this action. The *Key*, *Label*, *Queue type*, *Priority*, *Max tries* and *Long Description* fields have no functional meaning for the action.  
-
-- *Description*   
-    Split by criterion
+The *Description*, *Key*, *Label*, *Queue type*, *Priority*, *Max tries* and *Long Description* fields have no functional meaning for the action.    
 
 **Configuration**
 
@@ -252,10 +249,7 @@ The path to the value which should be extracted must be configured in the *Confi
 
 #### Settings
 
-The *Description* field contains the API endpoint that is addressed in this action. The *Key*, *Label*, *Queue type*, *Priority*, *Max tries* and *Long Description* fields have no functional meaning for the action.  
-
-- *Description*   
-    Extract value
+The *Description*, *Key*, *Label*, *Queue type*, *Priority*, *Max tries* and *Long Description* fields have no functional meaning for the action.    
 
 **Configuration**
 
@@ -325,10 +319,7 @@ The *Start subprocess* action is used to start the process specified in the conf
 
 #### Settings
 
-The *Description* field contains the API endpoint that is addressed in this action. The *Key*, *Label*, *Queue type*, *Priority*, *Max tries* and *Long Description* fields have no functional meaning for the action.  
-
-- *Description*   
-    Start Subprocess
+The *Description*, *Key*, *Label*, *Queue type*, *Priority*, *Max tries* and *Long Description* fields have no functional meaning for the action.    
 
 **Configuration**
 
