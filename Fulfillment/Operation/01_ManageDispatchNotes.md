@@ -120,7 +120,7 @@ You can reexport a dispatch note to the fulfiller if the receival has failed in 
 1. Click the checkbox of the dispatch note to be reexported.
     The editing toolbar is displayed.
 
-2. Click the [EXPORT] button.
+2. Click the [EXPORT] button.   
     A confirmation window is displayed with the following notice: *One or more of the selected dispatch notes are not waiting for transfer! Exporting might produce errors in automated processes. Are you sure?*.
 
     ![Confirm selection](../../Assets/Screenshots/Fulfillment/DispatchNotes/ConfirmSelectionExport.png "[Confirm selection]")
