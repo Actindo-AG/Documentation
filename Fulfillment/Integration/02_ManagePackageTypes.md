@@ -1,11 +1,10 @@
 [!!User Interface Package types](../UserInterface/03b_PackageTypes.md)
+[!!Manage connections](./01_ManageConnections.md)
+
 
 # Manage the package types
 
 Package types serve as a suggestion for the fulfiller on the type of packaging and the preferred carrier that may apply for a shipment. Package types can be defined using many different criteria. All relevant fields (attributes) used are mapped via ETL from the relevant business document depending on the fulfiller's driver.  
-
-The package types suggested may not be applicable for all users, for instance, in the case of non-physical shipments or if the fulfiller has defined his own package types.
-
 
 ## Create a package type
 
@@ -28,21 +27,26 @@ A connection has been established, see [Create a connection](./01_ManageConnecti
 
     ![Create package type](../../Assets/Screenshots/Fulfillment/Settings/PackageTypes/CreatePackageType.png "[Create package type]")
 
-[comment]: <> (Mapping oder Attribute set? Actindo Basic?)
+[comment]: <> (Actindo Basic Channel soll rausfliegen, da von Fulfillment nicht verwendet. Neues Screenshot notwendig.)
 
 2. Enter a name for the connection in the *Name* field. 
 
-3. Enable the *Active* toggle. By default, this toggle is disabled.
+3. If necessary, click the *Language* drop-down list and select a different language. By default, the language selected in the platform settings (user interface language) is preselected.
+  
+    > [Info] Additional languages can be added in the *DataHub* module, see [Create a language](../../DataHub/Integration/05_ManageLanguages.md#create-a-language).
 
-4. Click the *Connection* drop-down list and select the applicable connection. All available connections are displayed in the list.
+4. Enable the *Active* toggle to set the package type directly after creation to active. By default, this toggle is disabled.  
+    > [Info] The package type must be activated to be automatically selected by the system.
+
+5. Click the *Connection* drop-down list and select the applicable connection. All available connections are displayed in the list.
     
-5. Enter the maximal dimensions allowed for the package type:
+6. Enter the maximal dimensions allowed for the package type:
     - In the *Max height* box, enter the maximal value in the *Quantity* field and click the *Unit* drop-down list to select the applicable unit.  
     - In the *Max width* box, enter the maximal value in the *Quantity* field and click the *Unit* drop-down list to select the applicable unit.  
     - In the *Max length* box, enter the maximal value in the *Quantity* field and click the *Unit* drop-down list to select the applicable unit.  
     - In the *Max weight* box, enter the maximal value in the *Quantity* field and click the *Unit* drop-down list to select the applicable unit.  
    
-6. Enter the maximal monetary value for the items contained in the package type in the *Max value* box. To do so, follow the instructions below:
+7. Enter the maximal monetary value for the items contained in the package type in the *Max value* box. To do so, follow the instructions below:
     - Click the [ADD PRICE] button.  
         The *Edit price* window is displayed. 
 
@@ -63,20 +67,20 @@ A connection has been established, see [Create a connection](./01_ManageConnecti
     - Click the [SAVE] button at the bottom of the *Edit price* window.  
         The *Edit price* window is closed. The entered prices are displayed in the *Max value* box.
 
-7. Enter the carrier identifier in the *Carrier* field. Both letters and numbers can be entered.
+8. Enter the carrier identifier in the *Carrier* field. Both letters and numbers can be entered.
 
-8. Enable the *Express* toggle if express delivery applies for the shipment. Otherwise, leave it disabled. By default, this toggle is disabled.
+9. Enable the *Express* toggle if express delivery applies for the shipment. For standard delivery, leave the toggle disabled. By default, this toggle is disabled.
 
-9. Enter the applicable package type identifier in the *Package type identifier* field. Both letters and numbers can be entered.
+10. Enter the applicable package type identifier in the *Package type identifier* field. Both letters and numbers can be entered.
 
-10. Click the *Ship-to country* drop-down list and select the country where the shipment is to be sent to.
+11. Click the *Ship-to country* drop-down list and select the country where the shipment is to be sent to.
 
-11. Enter the applicable priority value in the *Priority* field. This field is mandatory.
+12. Enter the applicable priority value in the *Priority* field. This field is mandatory.
     > [Info] The priority value is used by the system to determine the package type to be used for a shipment when the criteria of two or more package types match. The priority value becomes then the decisive criterion. In the priority scale, the lower the number, the higher the priority, that is, priority 1 is higher than priority 4.
 
-12. Enter the applicable information in the *Additional services (shipping method)* field. Both letters and numbers can be entered.
+13. Enter the applicable information in the *Additional services (shipping method)* field. Both letters and numbers can be entered.
 
-13. Click the [SAVE] button in the upper right corner.  
+14. Click the [SAVE] button in the upper right corner.  
     The *Submitting data...* notice is displayed while saving and then the *Creation successful* pop-up window. 
 
      ![Package type created](../../Assets/Screenshots/Fulfillment/Settings/PackageTypes/CreationSuccessful.png "[Package type created]")
@@ -132,7 +136,7 @@ A package type has been created, see [Create a package type](#create-a-package-t
 1. Click the checkbox of the package type to be deleted.  
     The editing toolbar is displayed.
 
-    [Caution] Deleting will permanently remove the selected data. The deletion cannot be undone and the deleted data cannot be restored. Problems may occur due to unresolved dependencies. 
+    > [Caution] Deleting will permanently remove the selected data. The deletion cannot be undone and the deleted data cannot be restored. Problems may occur due to unresolved dependencies. 
 
 2. Click the [DELETE] button.  
     The selected package type is deleted and removed from the list of package types.
@@ -152,7 +156,7 @@ A package type has been created, see [Create a package type](#create-a-package-t
 
 ![Package types](../../Assets/Screenshots/Fulfillment/Settings/PackageTypes/ListPackageTypes.png "[Package types]")
 
-1. Click the package type to be deactivated. Alternatively, click the checkbox of the package type to be edited and the [EDIT] button in the editing toolbar.  
+1. Click the package type to be deactivated. Alternatively, click the checkbox of the package type to be deactivated and the [EDIT] button in the editing toolbar.  
     The *Edit package type* view is displayed.
 
 2. Disable the *Active* toggle.
@@ -166,7 +170,7 @@ A package type has been created, see [Create a package type](#create-a-package-t
 
 4. If necessary, click the ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh) button in the upper right corner to display the changes in the list.   
 
-[comment]: <> (Stand 13.02.23: Inaktive Package types werden nicht angezeigt.)
+[comment]: <> (Stand 13.02.23: Inaktive Package types werden nicht angezeigt. Bug gemeldet)
 
   
 ## Activate a package type
@@ -198,6 +202,5 @@ A package type has been deactivated, see [Deactivate a package type](#deactivate
 4. If necessary, click the ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh) button in the upper right corner to display the changes in the list.   
 
 
-[comment]: <> (Stand 13.02.23: Inaktive Package types werden nicht angezeigt.Temporär Troubleshooting dazu?)
 
-[comment]: <> (Status 13.02.23: Bug beim Erstellen a package type. Es muss immer auf Active gesetzt werden, sonst wird es in der Liste nicht angezeigt. Das Problem liegt am Filter Active. Wenn nach Inactive gefiltert, sieht man alle erstellten Package types.)
+[comment]: <> (Status 13.02.23: Bug beim Erstellen a package type. Es muss immer auf Active gesetzt werden, sonst wird es in der Liste nicht angezeigt. Das Problem liegt am Filter. Wenn nach Inactive gefiltert, sieht man die inaktive package types. Man kann aber nicht gleichzeitig beide sehen.)
