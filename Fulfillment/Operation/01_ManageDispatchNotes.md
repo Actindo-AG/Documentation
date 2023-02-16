@@ -39,9 +39,9 @@ A dispatch note provides numerous order-related details, which may vary dependin
     - **Dispatch note completed**  
         The dispatch note has been processed.
     - **Error**  
-        The dispatch note has given an error. 
+        The dispatch note has given an error, for instance, because the export has failed. 
     - **Void**  
-        The dispatch note is not valid.
+        The dispatch note is marked as void if, for example, the order has been cancelled.
 
     If further information on the dispatch note status is needed, the list of messages generated in the communication process between the *Actindo Core1 Platform* and the fulfiller's system can be checked in the *Logging* menu entry, see [Logging](../UserInterface/02a_Connections.md).
 

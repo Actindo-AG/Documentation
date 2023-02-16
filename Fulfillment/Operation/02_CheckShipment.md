@@ -34,7 +34,7 @@ Check the shipment status in the *Shipment status* column. The following options
     The shipment has given an error. A shipment is set to error only when the fulfiller reports an error due to a number of reasons. For detailed information, see [Handle an error in a shipment](../Troubleshooting/01_HandleErrorShipment.md). 
 
   - Empty  
-    The shipment status is void.
+    No information on the shipment status has been received from the fulfiller.
 
 
 ## Check the shipment details
@@ -93,7 +93,7 @@ The shipment status is at least ![Circular arrows](../../Assets/Icons/CircularAr
 8. Press *Esc* to close the *Item* window.  
   The *PACKAGES* tab is displayed again.
 
-[comment]: <> (Kein CLOSE oder CANCEL button in Items Fenster. Bug?)
+[comment]: <> (Kein CLOSE oder CANCEL button in Items Fenster. Bug gemeldet am 15.02.23. Evtl. nicht gefixed bis neuer UI. Alternativ außerhalb des Fensters klicken, dann verschwindet/schließt es auch.)
 
 9. Click the [BACK] button on the upper right corner of the *PACKAGES* sub-tab to go back to the *PACKAGES* view.
 
