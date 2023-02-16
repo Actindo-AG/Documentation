@@ -4,16 +4,14 @@
 
 Establish connections via drivers to connect your fulfillers' system with the *Actindo Core1 Platform*. You can establish an unlimited number of connections per driver if necessary.
 
-In the following, the general settings to create, edit and disable connections are described. For certain connection drivers, you have to setup special configurations. Therefore, the connections below are described in separate documents:
-- Fiege connection
+In the following, the general settings to create, edit, enable and disable connections are described. For certain connection drivers, you have to setup special configurations. Therefore, the connections below are described in separate documents:
 
-[comment]: <> (Prüfen! Ggf. Link zu Connection einfügen)
+- Fiege connection, see [Fiege](./03_Fiege.md).
 
 
 ## Create a connection
 
 Create a connection to a certain fulfiller. As soon as a connection has been established, an initial synchronization will be triggered, which will transfer the entire data model of the connected fulfiller mirrored to Actindo. This means that all attributes and attribute sets from the fulfiller are also transferred to Actindo and can be accessed in the *DataHub* module. Depending on the fulfiller to be connected, special configurations may be necessary.
-
 
 #### Prerequisites
 
@@ -35,7 +33,7 @@ At least one driver has been installed.
 3. Click the *Driver* drop-down list and select the desired driver. All available drivers are displayed in the list.   
 
     > [Info] Drivers must be purchased from the main account and then be installed separately in each sandbox or account where you want to use it.   
-    For detailed information, see [Manage the drivers](to_be_completed).
+    For detailed information, see [Manage the drivers](XX_to_be_completed).
 
     The *Credentials* section is displayed below the drop-down list.
 
@@ -43,7 +41,7 @@ At least one driver has been installed.
 
     > [Info] Depending on the selected driver, the fields in the *Credentials* section differ.
 
-[comment]: <> (HG: Manage the drivers? Zusätzliche Datei? Ticket erstellen)
+[comment]: <> (HG: Manage the drivers? Zusätzliche Datei?  Vgl. Omni-Channel. Ggf. Ticket erstellen)
 
 4. Enter the required data in the fields in the *Credentials* section.
 
@@ -52,13 +50,14 @@ At least one driver has been installed.
 
     ![Checking credentials](../../Assets/Screenshots/Fulfillment/Settings/Connections/CheckingCredentials.png "[Checking credentials]")
 
-    The *Create connection* view is automatically closed when the connection has been established. The *Edit connection* view of the newly created connection is displayed with the *Settings* tab preselected.
+    The *Create connection* view is automatically closed when the connection has been established. The *Edit connection* view of the newly created connection is displayed. The *Settings* tab is preselected.
 
     ![Edit connection settings](../../Assets/Screenshots/Fulfillment/Settings/Connections/EditConnectionSettings.png "[Edit connection settings]")
 
+[comment]: <> (Screenshot evtl. ändern? Der sieht wie Edit connection aus.)
 
-[comment]: <> (Loading data = Initial Sync in Channels?)
-[comment]: <> (Anders als bei Omni-Channel -> List of connections angezeigt)
+6. When necessary, proceed to enable the connection, see [Enable a connection](#enable-a-connection).
+
 
 ## Edit a connection
 
@@ -66,7 +65,7 @@ Edit a connection to adjust any changed credentials, the connection name or furt
 
 #### Prerequisites
 
-At least one connection has been established, see [Create a connection](#create-a-connection).
+At least one connection has been created, see [Create a connection](#create-a-connection).
 
 #### Procedure
 
@@ -93,16 +92,41 @@ At least one connection has been established, see [Create a connection](#create-
     The *Edit connection* view is automatically closed and the *Connections* view is displayed again.
 
 
-## Disable a connection
+## Enable a connection
 
-Once a connection has been established, it cannot be deleted. Nevertheless, the connection can be disabled if it is no longer used.
-
-[comment]: <> (Once a connection has been used...? Wenn Erstellt, connection ist erstmals inactive in Fulfillment. Wenn es so ist, erst ENABLE und dann DISABLE section. Einführungstext ändern.)
+A connection can only be used if it is active. Otherwise, no data is being synchronized via the connection. By default, all connections that have been established are first inactive and therefore must be enabled. If a connection has been disabled temporarily, it can be enabled it again. It is possible to enable several inactive connections at a time.
 
 #### Prerequisites
 
-- At least one connection has been established, see [Create a connection](#create-a-connection).
-- The connection is active.
+- At least one connection has been created, see [Create a connection](#create-a-connection).
+- At least one connection is inactive, see [Disable a connection](#disable-a-connection).
+
+#### Procedure
+
+*Fulfillment > Settings > Tab CONNECTIONS*
+
+![Connections](../../Assets/Screenshots/Fulfillment/Settings/Connections/Connections.png "[Connections]")
+
+1. Select the checkbox of the connection you want to enable in the list of connections.   
+    The editing toolbar is displayed above the list of connections.
+
+2. Click the [ENABLE] button in the toolbar.   
+    The connection has been activated.
+
+3. If necessary, click the ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh) button to update the list of connections.   
+    The status of the enabled connection in the *Status* column has switched to **Active**.
+
+[comment]: <> (Update der Liste läuft automatisch aber es dauert ein wenig. Refresh step vorischtshalber drin lassen?)
+
+
+## Disable a connection
+
+Once a connection has been established, it cannot be deleted. Nevertheless, the connection can be disabled if it is no longer used. It is possible to disable several active connections at a time.
+
+#### Prerequisites
+
+- At least one connection has been created, see [Create a connection](#create-a-connection).
+- The connection is active, see [Enable a connection](#enable-a-connection).
 
 #### Procedure
 
@@ -119,29 +143,5 @@ Once a connection has been established, it cannot be deleted. Nevertheless, the 
 3. Click the ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh) button to update the list of connections.   
     The status of the disabled connection in the *Status* column has switched to **Inactive**.
 
+[comment]: <> (Update der Liste läuft automatisch aber es dauert ein wenig. Refresh step vorischtshalber drin lassen?)
 
-## Enable a connection
-
-A connection can only be used if it is active. Otherwise, no data is being synchronized via the connection. By default, all connections that have been established are first inactive and therefore must be activated. If a connection has been disabled, you can enable this connection again.
-
-[comment]: <> (By default, all connections that have been established are active. If a connection has been disabled, you can enable this connection again. -> aus Channels)
-[comment]: <> (In Fulfillment ist es nicht so: Nach Erstellung einer Verbindung, ist sie inaktiv. Ist es so gewollt?)
-
-#### Prerequisites
-
-- At least one connection is inactive, see [Disable a connection](#disable-a-connection).
-
-#### Procedure
-
-*Fulfillment > Settings > Tab CONNECTIONS*
-
-![Connections](../../Assets/Screenshots/Fulfillment/Settings/Connections/Connections.png "[Connections]")
-
-1. Select the checkbox of the connection you want to enable in the list of connections.   
-    The editing toolbar is displayed above the list of connections.
-
-2. Click the [ENABLE] button in the toolbar.   
-    The connection has been activated.
-
-3. Click the ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh) button to update the list of connections.   
-    The status of the enabled connection in the *Status* column has switched to **Active**.
