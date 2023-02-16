@@ -1,3 +1,5 @@
+[!!Manage package types](../Integration/02_ManagePackageTypes.md)
+
 # Package types
 
 *Fulfillment > Settings > Tab PACKAGE TYPES*
