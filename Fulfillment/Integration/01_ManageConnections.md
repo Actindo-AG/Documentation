@@ -6,7 +6,7 @@ Establish connections via drivers to connect your fulfillers' system with the *A
 
 In the following, the general settings to create, edit, enable and disable connections are described. For certain connection drivers, you have to setup special configurations. Therefore, the connections below are described in separate documents:
 
-- Fiege connection, see [Fiege](./03_Fiege.md).
+- Fiege connection, see [Fiege](./01a_Fiege.md).
 
 
 ## Create a connection
