@@ -110,7 +110,7 @@ The list displays all dispatch notes. Depending on the settings, the displayed c
     -  **Error**  
         The dispatch note has given an error while exporting.
     - **Void**  
-        The dispatch note is void.
+        The dispatch note is void, for instance, because of an order cancellation.
 
 - *Shipment status*  
     Status of shipment associated with the dispatch note. The following options are available:
@@ -123,7 +123,7 @@ The list displays all dispatch notes. Depending on the settings, the displayed c
     - ![Error](../../Assets/Icons/Warning02.png "[Error]") (Error)    
         The fulfiller has reported a shipment error.
     - Empty  
-        If the dispatch note is void, the *Shipment status* is empty.
+        No information on the shipment status has been received from fulfiller.
 
 - *Description*  
     Dispatch note description as defined by the user. Numbers, letters or a combination of characters may be used. The information provided in this field can be entered in the search bar to search for a specific dispatch note.

@@ -131,13 +131,10 @@ The list displays all package types. Depending on the settings, the displayed co
 - ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)   
     Click this button to close the *Create package type* view and return to the list of package types. All changes are rejected.
 
-- *Channel*  
-    Click the drop-down list to select the channel. All available channels are displayed in the drop-down list. By default, the Actindo Basic channel is preselected.
-
-[comment]: <> (Was ist Actindo Basic? Channel? Attribute Set? Group? Fulfillment Packaging Type Base Attributes? Standard?)
+[comment]: <> (Actindo Basic Channel in Screenshot sollte ausgeblendet werden, da nicht von Fulfillment Modul benutzt. Schon mit SW besprochen. Evtl. neue Screenshots notwendig.)
 
 - *Language*      
-    Click the drop-down list and select the language in which the fields are displayed. All available languages are displayed. By default, the language set up in the system is preselected.
+    Click the drop-down list and select the language in which the data is to be managed. All available languages are displayed. By default, the language set up in the system is preselected.
 
 - [SAVE]   
     Click this button to save the package type, close the *Create package type* view and return to the list of package types.
@@ -187,7 +184,7 @@ The list displays all package types. Depending on the settings, the displayed co
     - ![Delete](../../Assets/Icons/Trash01.png "[Delete]") (Delete)  
     Click this button to deleted the configured price. This button is displayed when hovering the mouse over a configured price.
 
-[comment]: <> (Stimmt das so? Button SAVE funktioniert nicht.)
+[comment]: <> (Stimmt das so? Button SAVE funktioniert nicht. Bug gemeldet.)
 
 - *Carrier*  
     Enter the preferred carrier for the package type. Numbers, letters or a combination of characters can be used.
