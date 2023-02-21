@@ -1,6 +1,9 @@
 [!!User Interface Dispatch notes](../UserInterface/01a_List.md)
 [!!User Interface Logging](../UserInterface/02a_Connections.md)
 [!!User Interface Package types](../UserInterface/03b_PackageTypes.md)
+[!!Check a shipment](./02_CheckShipment.md)
+[!!Manage the connections](../Integration/01_ManageConnections.md)
+
 
 
 # Manage the dispatch notes
@@ -78,7 +81,7 @@ Fulfillers may not notify if an order has been delivered. In this case, the disp
 
 ![Dispatch notes](../../Assets/Screenshots/Fulfillment/DispatchNotes/DispatchNotes.png "[Dispatch notes]")
 
-1. Click the dispatch note whose status has not been updated.
+1. Click the dispatch note whose status has not been updated.  
     The *Dispatch note "Dispatch note ID"* view is displayed.
 
 2. Click the *Shipments* sub-tab.  
@@ -88,7 +91,7 @@ Fulfillers may not notify if an order has been delivered. In this case, the disp
 
 4. Click the ![Back](../../Assets/Icons/Back02.png "[Back]") (Back) button to return to the list of dispatch notes. 
 
-5. Click the checkbox of the dispatch note(s) to be completed.
+5. Click the checkbox of the dispatch note(s) to be completed.   
     The editing toolbar is displayed.
 
 6. Click the [FORCE COMPLETION] button in the editing toolbar.  
@@ -117,7 +120,7 @@ You can reexport a dispatch note to the fulfiller if the receival has failed in 
 
 ![Dispatch notes](../../Assets/Screenshots/Fulfillment/DispatchNotes/DispatchNotes.png "[Dispatch notes]")
 
-1. Click the checkbox of the dispatch note to be reexported.
+1. Click the checkbox of the dispatch note to be reexported.   
     The editing toolbar is displayed.
 
 2. Click the [EXPORT] button.   
