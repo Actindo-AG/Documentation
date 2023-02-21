@@ -119,7 +119,7 @@ The list displays all package types. Depending on the settings, the displayed co
     You can add an additional column for each attribute that is assigned to the package type. The column displays the attribute name, the row displays the corresponding attribute value of the package type.
 
 - ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add)  
-    Click this button to add a connection. The *Create connection* view is displayed, see [Create package type](#create-package-type).
+    Click this button to add a connection. The *Create connection* view is displayed, see [Create package type](#create-package-type). 
   
 
 ## Create package type  
@@ -258,7 +258,7 @@ The list displays all package types. Depending on the settings, the displayed co
 - *Max value*  
     If desired, the maximal monetary value allowed for the package type can be edited.
     - [ADD PRICE]  
-    Click this button to edit the base price and scale prices. The *Edit price* window is displayed, see [Edit price](#edit-price_1).
+    Click this button to edit the base price and scale prices. The *Edit price* window is displayed, see [Edit price](#edit-price).
     - *Base price*  
     Base price defined for the product. This field is read-only and can only be edited in the *Edit price* window.
     - *Current price range*  
