@@ -7,22 +7,22 @@
 ![Tax zones](../../Assets/Screenshots/Taxes/Settings/TaxZones/TaxZones.png "[Tax zones]")
 
 - ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add)   
-  Click this button to create an entry. A new input line is displayed.
+    Click this button to create an entry. A new input line is displayed. For detailed information, see [Create a tax zone](../Integration/03_ManageTaxZones.md#create-a-tax-zone).
 
 **Tax zones**  
 
 - Tax zone entry   
-  Enter or edit the tax zone name. By default, the *Domestic*, *EU* and *Third country* tax zones are predefined.
+    Enter or edit the tax zone name. By default, the *Domestic*, *EU* and *Third country* tax zones are predefined.
 
 
 **VAT ID**  
 
 - (VAT ID entry)  
-  Enter or edit the value-added tax identification number (VAT ID). The VAT ID refers to the seller's VAT ID number, which will be printed on the relevant order-related documents.
+    Enter or edit the value-added tax identification number (VAT ID). The VAT ID refers to the seller's VAT ID number, which will be printed on the relevant order-related documents.
 
 
 - ![Delete](../../Assets/Icons/Trash08.png "[Delete]") (Delete)  
-  Click this button to delete the corresponding tax zone. This button is only displayed when the corresponding tax zone is currently not selected in the decision matrix. Otherwise, it cannot be deleted and the ![Delete](../../Assets/Icons/Trash08.png "[Delete]") (Delete) button is not displayed.
+    Click this button to delete the corresponding tax zone. This button is only displayed when the corresponding tax zone is currently not selected in the decision matrix. Otherwise, it cannot be deleted and the ![Delete](../../Assets/Icons/Trash08.png "[Delete]") (Delete) button is not displayed.
 
 - [SAVE]  
-  Click this button to save any changes made.
+    Click this button to save any changes made.
