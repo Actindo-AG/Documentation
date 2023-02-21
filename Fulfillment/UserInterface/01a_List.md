@@ -1,4 +1,8 @@
 [!!Manage the dispatch notes](../Operation/01_ManageDispatchNotes.md)
+[!!Manage the package types](../Integration/02_ManagePackageTypes.md)
+[!!Connections (Logging)](./02a_Connections.md)
+[!!User Interface Package types](./03b_PackageTypes.md)
+
 
 # List
 
