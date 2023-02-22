@@ -1,3 +1,5 @@
+[!!Manage the offers](../Operation/01_ManageOffers.md)
+[!!Check the offer upload](../Operation/03_CheckOfferUpload.md)
 [!!User interface Errors (Offer Upload)](../UserInterface/03b_Errors.md)
 
 # Retry a faulty offer upload
@@ -21,14 +23,14 @@ The cause of the faulty offer upload has been fixed.
 ![Export errors](../../Assets/Screenshots/Channels/OfferUpload/Errors/ExportErrors.png "[Export errors]")
 
 1. Select the checkbox of the faulty offer upload you want to restart.   
-  The editing toolbar is displayed above the list.
+    The editing toolbar is displayed above the list.
 
 2. Click the [RETRY UPLOAD] button in the editing toolbar.   
-  The selected offer upload has been triggered. The pop-up window *Upload triggered* is displayed.
+    The selected offer upload has been triggered. The pop-up window *Upload triggered* is displayed.
 
-  ![Upload triggered](../../Assets/Screenshots/Channels/OfferUpload/Errors/UploadTriggered.png "[Upload triggered]")
+    ![Upload triggered](../../Assets/Screenshots/Channels/OfferUpload/Errors/UploadTriggered.png "[Upload triggered]")
 
-  If the retry is successful, the offer will be removed from the list of export errors.
+    If the retry is successful, the offer will be removed from the list of export errors.
 
 
 
