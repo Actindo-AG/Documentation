@@ -1,5 +1,5 @@
 [!!Manage the connections](./01_ManageConnections.md)
-[!!Manage the ETL mappings](../../DataHub/Operation/01_ManageETLMappings.md)
+[!!Manage the ETL mappings in DataHub](../../DataHub/Operation/01_ManageETLMappings.md)
 
 # Manage the Salesforce Commerce Cloud connection
 
@@ -966,10 +966,11 @@ As price books in Salesforce cannot be accessed via API, the IDs of the price bo
 
 ### Variations
 
-
-Variants in Actindo must not be double, but this is possible in Salesforce. Therefore, it may be necessary to create a further variant level in Actindo so that there are no double variants. However, this variant level should not be displayed in Salesforce. FOr this purpose, you have to specify the IDs of all attributes that should not be uploaded as defining attributes in Salesforce when configuring the connection settings, see [Configure the Salesforce connection](#configure-the-salesforce-connection). This way the value will be uploaded to Salesforce, but not created as a defining attribute. 
+Variants in Actindo must not be double, but this is possible in Salesforce. Therefore, it may be necessary to create a further variant level in Actindo so that there are no double variants. However, this variant level should not be displayed in Salesforce. For this purpose, you have to specify the IDs of all attributes that should not be uploaded as defining attributes in Salesforce when configuring the connection settings, see [Configure the Salesforce connection](#configure-the-salesforce-connection). This way the value will be uploaded to Salesforce, but not created as a defining attribute. 
 Any information about the Salesforce variants is displayed in the variation products list in Salesforce:    
 *Merchant Tools > Products and Catalogs > Products > Select product > Tab Variations*
+
+#### Translatable variants
 
 Basically, variants in Salesforce are always translatable, but they must not be localizable. However, it is possible to specify multiple languages for variants in Salesforce. In Actindo, variants cannot be multi-language. Consequently, Salesforce can specify multilingual values for defining attributes, but Actindo cannot.   
 To be able to make the defining attributes translatable in Actindo anyway, you must do the following:
@@ -1020,7 +1021,7 @@ In Actindo, you must map the IDs of the shared options with the *Constant value*
 ![Shared options](../../Assets/Screenshots/DataHub/Settings/ETL/Salesforce/SharedOptions.png "[Shared options]")
 
 
-### Product Sets
+### Product sets
 
 Product sets are currently not supported by Actindo.
 

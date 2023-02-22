@@ -1,6 +1,6 @@
 [!!Manage the connections](./01_ManageConnections.md)
-[!!Create an attribute](../../PIM/Integration/01_ManageAttributes.md#create-an-attribute)
-[!!Manage the ETL mappings](../../DataHub/Operation/01_ManageETLMappings.md)
+[!!Manage the attributes in PIM](../../PIM/Integration/01_ManageAttributes.md)
+[!!Manage the ETL mappings in DataHub](../../DataHub/Operation/01_ManageETLMappings.md)
 
 # Manage the Shopify connection
 

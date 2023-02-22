@@ -32,33 +32,33 @@ At least one driver has been installed.
 ![Connection](../../Assets/Screenshots/Channels/Settings/Connections/Connection.png "[Connection]")
 
 1. Click the ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) button in the bottom right corner.    
-  The *Create connection* view is displayed.
+    The *Create connection* view is displayed.
 
-  ![Create connection](../../Assets/Screenshots/Channels/Settings/Connections/CreateConnection.png "[Create connection]")
+    ![Create connection](../../Assets/Screenshots/Channels/Settings/Connections/CreateConnection.png "[Create connection]")
 
 2. Enter a name for the connection in the *Name* field.
 
 3. Click the *Driver* drop-down list and select the desired driver. All available drivers are displayed in the list.   
 
-  > [Info] Drivers must be purchased from the main account and then be installed separately in each sandbox or account where you want to use it.    
-  For detailed information, see [Manage the drivers](to_be_completed).
+    > [Info] Drivers must be purchased from the main account and then be installed separately in each sandbox or account where you want to use it.    
+    For detailed information, see [Manage the drivers](to_be_completed).
 
-  Depending on the selected driver, a *Credentials* section is displayed below the drop-down list.
+    Depending on the selected driver, a *Credentials* section is displayed below the drop-down list.
 
-  ![Credentials](../../Assets/Screenshots/Channels/Settings/Connections/Credentials.png "[Credentials]")
+    ![Credentials](../../Assets/Screenshots/Channels/Settings/Connections/Credentials.png "[Credentials]")
 
-  > [Info] Depending on the selected driver, the fields in the *Credentials* section differ.
+    > [Info] Depending on the selected driver, the fields in the *Credentials* section differ.
 
 4. If available, enter the required data in the fields in the *Credentials* section.
 
 5. Click the [SAVE] button.    
-  The connection will be established. The *Checking credentials...* notice is displayed.
+    The connection will be established. The *Checking credentials...* notice is displayed.
 
-  ![Credentials](../../Assets/Screenshots/Channels/Settings/Connections/CheckingCredentials.png "[Credentials]")
+    ![Credentials](../../Assets/Screenshots/Channels/Settings/Connections/CheckingCredentials.png "[Credentials]")
 
-  The *Create connection* view is automatically closed when the connection has been established. The initial sync has been automatically triggered. The *Sync triggered* pop-up window is displayed.
+    The *Create connection* view is automatically closed when the connection has been established. The initial sync has been automatically triggered. The *Sync triggered* pop-up window is displayed.
 
-  ![Sync triggered](../../Assets/Screenshots/Channels/Settings/Connections/SyncTriggered.png "[Sync triggered]")
+    ![Sync triggered](../../Assets/Screenshots/Channels/Settings/Connections/SyncTriggered.png "[Sync triggered]")
 
 
 ## Edit a connection
@@ -76,24 +76,24 @@ At least one connection has been established, see [Create a connection](#create-
 ![Connections](../../Assets/Screenshots/Channels/Settings/Connections/Connections.png "[Connections]")
 
 1. Click the connection you want to edit in the list of connections.   
-  The *Edit connection* view is displayed.
+    The *Edit connection* view is displayed.
 
-  > [Info] Depending on the driver of the connection, the *Credentials* and the *Settings* tab are displayed in the *Edit connection* view.
+    > [Info] Depending on the driver of the connection, the *Credentials* and the *Settings* tab are displayed in the *Edit connection* view.
 
-  ![Edit connection](../../Assets/Screenshots/Channels/Settings/Connections/EditConnection.png "[Edit connection]")
+    ![Edit connection](../../Assets/Screenshots/Channels/Settings/Connections/EditConnection.png "[Edit connection]")
 
 2. Edit the desired data of the connection in the corresponding fields in the *Credentials* tab.
 
 3. If available, click the *Settings* tab and edit the desired settings of the connection in the corresponding fields.
 
 4. Click the [SAVE] button.   
-  The *Checking credentials...* notice is displayed.
+    The *Checking credentials...* notice is displayed.
 
-  ![Credentials](../../Assets/Screenshots/Channels/Settings/Connections/CheckingCredentials.png "[Credentials]")
+    ![Credentials](../../Assets/Screenshots/Channels/Settings/Connections/CheckingCredentials.png "[Credentials]")
 
-  The *Edit connection* view is automatically closed when the changes have been saved. The sync has been automatically triggered. The *Sync triggered* pop-up window is displayed.
+    The *Edit connection* view is automatically closed when the changes have been saved. The sync has been automatically triggered. The *Sync triggered* pop-up window is displayed.
 
-  ![Sync triggered](../../Assets/Screenshots/Channels/Settings/Connections/SyncTriggered.png "[Sync triggered]")
+    ![Sync triggered](../../Assets/Screenshots/Channels/Settings/Connections/SyncTriggered.png "[Sync triggered]")
 
 
 
@@ -112,14 +112,14 @@ At least one connection has been established, see [Create a connection](#create-
 ![Connections](../../Assets/Screenshots/Channels/Settings/Connections/Connections.png "[Connections]")
 
 1. Select the checkbox of the connection you want to synchronize in the list of connections.   
-  The editing toolbar is displayed above the list of connections.
+    The editing toolbar is displayed above the list of connections.
 
 2. Click the [SYNCHRONIZE] button in the toolbar.   
-  The sync has been started. The *Sync triggered* pop-up window is displayed.
+    The sync has been started. The *Sync triggered* pop-up window is displayed.
 
-  ![Sync triggered](../../Assets/Screenshots/Channels/Settings/Connections/SyncTriggered.png "[Sync triggered]")
+    ![Sync triggered](../../Assets/Screenshots/Channels/Settings/Connections/SyncTriggered.png "[Sync triggered]")
 
-  > [Info] It may take several minutes until the sync has been completed. Click the ![Processes](../../Assets/Icons/Process.png "[Processes]") (Processes) button in the header to check for currently running jobs.
+    > [Info] It may take several minutes until the sync has been completed. Click the ![Processes](../../Assets/Icons/Process.png "[Processes]") (Processes) button in the header to check for currently running jobs.
 
 
 
@@ -141,13 +141,13 @@ Once a connection has been established, it cannot be deleted. Nevertheless, the 
 ![Connections](../../Assets/Screenshots/Channels/Settings/Connections/Connections.png "[Connections]")
 
 1. Select the checkbox of the connection you want to disable in the list of connections.   
-  The editing toolbar is displayed above the list of connections.
+    The editing toolbar is displayed above the list of connections.
 
 2. Click the [DISABLE] button in the editing toolbar.   
-  The connection has been deactivated.
+    The connection has been deactivated.
 
 3. Click the ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh) button in the top right corner to update the list of connections.   
-  The status of the disabled connection in the *Status* column has switched to **Inactive**.
+    The status of the disabled connection in the *Status* column has switched to **Inactive**.
 
 
 
@@ -166,10 +166,10 @@ At least one connection has been disabled, see [Disable a connection](#disable-a
 ![Connections](../../Assets/Screenshots/Channels/Settings/Connections/Connections.png "[Connections]")
 
 1. Select the checkbox of the connection you want to enable in the list of connections.   
-  The editing toolbar is enabled above the list of connections.
+    The editing toolbar is enabled above the list of connections.
 
 2. Click the [ENABLE] button in the editing toolbar.   
-  The connection has been activated.
+    The connection has been activated.
 
 3. Click the ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh) button in the top right corner to update the list of connections.   
-  The status of the enabled connection in the *Status* column has switched to **Active**.
+    The status of the enabled connection in the *Status* column has switched to **Active**.
