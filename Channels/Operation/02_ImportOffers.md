@@ -1,5 +1,5 @@
+[!!Manage the ETL mappings in DataHub](../../../DataHub/Operation/01_ManageETLMappings)
 [!!User interface Offer import](../UserInterface/04_OfferImport.md)
-[!!Edit the ETL attribute mappings](../../../DataHub/Operation/01_ManageETLMappings#edit-the-etl-attribute-mappings)
 
 # Import an offer
 
@@ -28,9 +28,9 @@ Before you can import an offer from our marketplace to the *Omni-Channel* module
 ![Offer import](../../Assets/Screenshots/Channels/OfferImport/OfferImport/OfferImport.png "[Offer import]")
 
 1. Click the *Select connection* drop-down list and select the connection for which you want to import offers. All supported drivers are displayed in the list.
-  All offers on the selected marketplace are displayed in the list of importable products.
+    All offers on the selected marketplace are displayed in the list of importable products.
 
-  ![Offer import connection](../../Assets/Screenshots/Channels/OfferImport/OfferImport/OfferImportConnection.png "[Offer import connection]")
+    ![Offer import connection](../../Assets/Screenshots/Channels/OfferImport/OfferImport/OfferImportConnection.png "[Offer import connection]")
 
 2. Click the [DOWNLOAD IMPORTABLE PRODUCTS] button above the list.
 
@@ -53,12 +53,12 @@ You can select a certain offer from your marketplace and import this single offe
 ![Offer import](../../Assets/Screenshots/Channels/OfferImport/OfferImport/OfferImport.png "[Offer import]")
 
 1. Click the *Select connection* drop-down list and select the connection for which you want to import offers. All supported drivers are displayed in the list.
-  All offers on the selected marketplace are displayed in the list of importable products.
+    All offers on the selected marketplace are displayed in the list of importable products.
 
-  ![Offer import connection](../../Assets/Screenshots/Channels/OfferImport/OfferImport/OfferImportConnection.png "[Offer import connection]")
+    ![Offer import connection](../../Assets/Screenshots/Channels/OfferImport/OfferImport/OfferImportConnection.png "[Offer import connection]")
 
 2. Select the checkbox of the product you want to import to *Omni-Channel*.      
-  The editing toolbar is displayed above the list.
+    The editing toolbar is displayed above the list.
 
 3. Click the [IMPORT PRODUCT TO CHANNELS] button in the editing toolbar.
 
@@ -81,9 +81,9 @@ You can import all importable offers from your marketplace at once to the *Omni-
 ![Offer import](../../Assets/Screenshots/Channels/OfferImport/OfferImport/OfferImport.png "[Offer import]")
 
 1. Click the *Select connection* drop-down list and select the connection for which you want to import offers. All connections whose drivers are supported are displayed in the list.
-  All offers on the selected marketplace are displayed in the list of importable products.
+    All offers on the selected marketplace are displayed in the list of importable products.
 
-  ![Offer import connection](../../Assets/Screenshots/Channels/OfferImport/OfferImport/OfferImportConnection.png "[Offer import connection]")
+    ![Offer import connection](../../Assets/Screenshots/Channels/OfferImport/OfferImport/OfferImportConnection.png "[Offer import connection]")
 
 2. Click the [IMPORT ALL LISTED PRODUCTS TO CHANNEL] button above the list.
 
@@ -109,9 +109,9 @@ At least one offer has been imported from a marketplace to *Omni-Channel*, see [
 1. Click the *Select connection* drop-down list and select the connection for which you want to import offers. All available connections are displayed in the list.
 
 2. Click the [SELECT] button below the *Select connection* drop-down list.   
-  The *Map attribute sets* wizard window is displayed.  
+    The *Map attribute sets* wizard window is displayed.  
 
-  ![Map attribute sets](../../Assets/Screenshots/Channels/OfferImport/ChannelsPIM/MapAttributeSets.png "[Map attribute sets]")
+    ![Map attribute sets](../../Assets/Screenshots/Channels/OfferImport/ChannelsPIM/MapAttributeSets.png "[Map attribute sets]")
 
 3. Configure the following settings:
 
@@ -121,12 +121,12 @@ At least one offer has been imported from a marketplace to *Omni-Channel*, see [
 
     + Click the *Assigned PIM attribute set* drop-down list and select the attribute set to be applied for the *Omni-Channel* source attribute set in the corresponding box. All available attribute sets in *PIM* that are mapped to the corresponding source attribute set in *Omni-Channel* are displayed in the list.   
 
-      > [Info] A single box is displayed for each attribute set available in *Omni-Channel*.
+        > [Info] A single box is displayed for each attribute set available in *Omni-Channel*.
 
 4. Click the [CONTINUE] button in the bottom right corner.   
-  The *Adjust mappings* wizard window is displayed.
+    The *Adjust mappings* wizard window is displayed.
 
-  ![Adjust mappings](../../Assets/Screenshots/Channels/OfferImport/ChannelsPIM/AdjustMappings.png "[Adjust mappings]")
+    ![Adjust mappings](../../Assets/Screenshots/Channels/OfferImport/ChannelsPIM/AdjustMappings.png "[Adjust mappings]")
 
 [comment]: <> (Step 3: Select matching attributes? Wird bei mir nicht angezeigt. Nur, wenn bereits entsprechende attribute existieren?)
 
@@ -137,16 +137,16 @@ At least one offer has been imported from a marketplace to *Omni-Channel*, see [
     + Click the *PIM attribute set* drop-down list and select the *PIM* attribute set for mapping. All available *PIM* attribute sets are displayed in the list.     
     The *Mapping from "Omni-Channel attribute set name" to "PIM attribute set name"* section is displayed below the *Select channels set and PIM attribute set* box.
 
-    ![Adjust mappings mapping](../../Assets/Screenshots/Channels/OfferImport/ChannelsPIM/AdjustMappingsMapping.png "[Adjust mappings mapping]")
+        ![Adjust mappings mapping](../../Assets/Screenshots/Channels/OfferImport/ChannelsPIM/AdjustMappingsMapping.png "[Adjust mappings mapping]")
 
     + Adjust the attribute mapping from the selected *Omni-Channel* attribute set to the selected *PIM* attribute set as desired.   
 
-      > [Info] A default mapping is preconfigured by all drivers supporting the offer import.
+        > [Info] A default mapping is preconfigured by all drivers supporting the offer import.
 
 6. Click the [CONTINUE] button in the bottom right corner.   
-  The *Matching and behavior after import* wizard window is displayed.
+    The *Matching and behavior after import* wizard window is displayed.
 
-  ![Matching and behavior after import](../../Assets/Screenshots/Channels/OfferImport/ChannelsPIM/MatchingBehaviorAfterImport.png "[Matching and behavior after import]")
+    ![Matching and behavior after import](../../Assets/Screenshots/Channels/OfferImport/ChannelsPIM/MatchingBehaviorAfterImport.png "[Matching and behavior after import]")
 
 7. Configure the following settings:
 
@@ -162,25 +162,25 @@ At least one offer has been imported from a marketplace to *Omni-Channel*, see [
 
 
 8. Click the [CONTINUE] button in the bottom right corner.   
-  The *Summary* wizard window is displayed.
+    The *Summary* wizard window is displayed.
 
-  ![Summary](../../Assets/Screenshots/Channels/OfferImport/ChannelsPIM/Summary.png "[Summary]")
+    ![Summary](../../Assets/Screenshots/Channels/OfferImport/ChannelsPIM/Summary.png "[Summary]")
 
-  The *Wizard finalized* pop-up window is displayed.
+    The *Wizard finalized* pop-up window is displayed.
 
-  [comment]: <> (Warum wird das pop-up fenster schon angezeigt, bevor man finalize gedrückt hat?)
+    [comment]: <> (Warum wird das pop-up fenster schon angezeigt, bevor man finalize gedrückt hat?)
 
-  ![Wizard finalized](../../Assets/Screenshots/Channels/OfferImport/ChannelsPIM/WizardFinalized.png "[Wizard finalized]")
+    ![Wizard finalized](../../Assets/Screenshots/Channels/OfferImport/ChannelsPIM/WizardFinalized.png "[Wizard finalized]")
 
 9. Click the [Finalize] button in the bottom right corner.   
-  The *Summary* wizard window is closed. The *Offers* view with all offers to be imported to PIM is displayed.
+    The *Summary* wizard window is closed. The *Offers* view with all offers to be imported to PIM is displayed.
 
-  ![Offers](../../Assets/Screenshots/Channels/OfferImport/ChannelsPIM/Offers.png "[Offers]")
+    ![Offers](../../Assets/Screenshots/Channels/OfferImport/ChannelsPIM/Offers.png "[Offers]")
 
 10. Click the [IMPORT/MAP ALL OFFERS TO PIM PRODUCTS] button in the header to import all offers in the list or select the checkboxes of all offers in the list you want to import and click the [CREATE PIM PRODUCTS/MAP OFFERS TO EXISTING PIM PRODUCTS] button in the editing toolbar.   
-  The *Summary* window is displayed.
+    The *Summary* window is displayed.
 
-  ![Summary import](../../Assets/Screenshots/Channels/OfferImport/ChannelsPIM/SummaryImport.png "[Summary import]")
+    ![Summary import](../../Assets/Screenshots/Channels/OfferImport/ChannelsPIM/SummaryImport.png "[Summary import]")
 
 11. Enter a name for the PIM product in the *Import name* field.
 

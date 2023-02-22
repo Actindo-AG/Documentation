@@ -1,5 +1,5 @@
-[!!User interface Offer upload](../UserInterface/03_OfferUpload.md)
 [!!Retry a faulty offer upload](../Troubleshooting/01_RetryFaultyUpload.md)
+[!!User interface Offer upload](../UserInterface/03_OfferUpload.md)
 
 
 # Check the offer upload
@@ -21,11 +21,10 @@ At least one offer upload from *Omni-Channel* to the marketplace has been trigge
 ![Scheduled uploads](../../Assets/Screenshots/Channels/OfferUpload/ScheduledUploads/ScheduledUploads.png "[Scheduled uploads]")
 
 1. Click the ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh) button in the upper right corner to update the list of offers to be uploaded to the marketplace.   
-  All pending offers to be uploaded are displayed in the list.
+    All pending offers to be uploaded are displayed in the list.
 
-2. If desired, click the *All Connections* drop-down list and select the connection
- for which you want to display the pending offer uploads.   
- The list of pending offers is limited to the pending offers for the selected connection.
+2. If desired, click the *All Connections* drop-down list and select the connection for which you want to display the pending offer uploads.   
+    The list of pending offers is limited to the pending offers for the selected connection.
 
 3. Check the list for the respective offer uploads, for information about the current status, the pending status and the user who created the offer upload.   
 
@@ -50,9 +49,9 @@ At least one offer upload has failed.
 1. Check the list of export errors for the faulty offer upload.
 
 2. Click the corresponding row of the faulty offer upload.   
-  The *Detail of log message "Log message title"* view is displayed. By default, the *Attributes* tab is preselected.
+    The *Detail of log message "Log message title"* view is displayed. By default, the *Attributes* tab is preselected.
 
-  ![Detail of log message](../../Assets/Screenshots/Channels/OfferUpload/Errors/DetailLogMessage.png "[Detail of log message]")
+    ![Detail of log message](../../Assets/Screenshots/Channels/OfferUpload/Errors/DetailLogMessage.png "[Detail of log message]")
 
 3. Check the details of the log message in the *Attributes* tab.
 

@@ -1,6 +1,5 @@
+[!!Configure the orders and returns](../Integration/04_ConfigureOrdersReturns.md)
 [!!User interface Orders and returns](../UserInterface/05_OrdersReturns.md)
-[!!Configure the order import](../Integration/04_ConfigureOrdersReturns.md#configure-the-order-import)
-[!!Configure the return import](../Integration/04_ConfigureOrdersReturns.md#configure-the-return-import)
 
 
 # Manage the orders and returns
@@ -34,16 +33,16 @@ If you only want to import the orders from a certain marketplace, trigger the im
 ![Orders](../../Assets/Screenshots/Channels/OrdersReturns/Orders/Orders.png "[Orders]")
 
 1. Click the *All connections* drop-down list and select the connection for which you want to import the orders. All supported connections for import are displayed in the list.   
-  Only the orders of the selected connection are displayed in the list of orders.
+    Only the orders of the selected connection are displayed in the list of orders.
 
-  ![Orders connection](../../Assets/Screenshots/Channels/OrdersReturns/Orders/OrdersConnection.png "[Orders connection]")
+    ![Orders connection](../../Assets/Screenshots/Channels/OrdersReturns/Orders/OrdersConnection.png "[Orders connection]")
 
-   > [Info] The time of the last successful import of orders for the selected connection is displayed next to the [Import orders] button.
+    > [Info] The time of the last successful import of orders for the selected connection is displayed next to the [Import orders] button.
 
 2. Click the [Import orders] button.   
-  The order import has been triggered. The *Order import triggered* pop-up window is displayed. The orders will be downloaded.
+    The order import has been triggered. The *Order import triggered* pop-up window is displayed. The orders will be downloaded.
 
-  ![Order import triggered](../../Assets/Screenshots/Channels/OrdersReturns/Orders/OrderImportTriggered.png "[Order import triggered]")
+    ![Order import triggered](../../Assets/Screenshots/Channels/OrdersReturns/Orders/OrderImportTriggered.png "[Order import triggered]")
 
 
 
@@ -65,9 +64,9 @@ If you want to import the orders from all connected marketplaces, trigger the im
 ![Orders](../../Assets/Screenshots/Channels/OrdersReturns/Orders/Orders.png "[Orders]")
 
 Click the [Import orders for all connections] button. This button is only displayed, if no connection has been selected in the *All connections* drop-down list.       
-  The order import has been triggered. The *Order import triggered* pop-up window is displayed. The orders will be downloaded.
+    The order import has been triggered. The *Order import triggered* pop-up window is displayed. The orders will be downloaded.
 
-  ![Order import triggered](../../Assets/Screenshots/Channels/OrdersReturns/Orders/OrderImportTriggered.png "[Order import triggered]")
+    ![Order import triggered](../../Assets/Screenshots/Channels/OrdersReturns/Orders/OrderImportTriggered.png "[Order import triggered]")
 
 
 ## Export orders manually
@@ -85,15 +84,15 @@ A connection to a marketplace has been established, see [Create a connection](..
 ![Orders](../../Assets/Screenshots/Channels/OrdersReturns/Orders/Orders.png "[Orders]")
 
 1. If desired, click the *All connections* drop-down list and select a connection.   
-  Only the orders of the selected connection are displayed in the list of orders.
+    Only the orders of the selected connection are displayed in the list of orders.
 
 2. Select the checkboxes of the orders you want to export in the list of order.    
-  The editing toolbar is displayed above the list.
+    The editing toolbar is displayed above the list.
 
 3. Click the [EXPORT TO OMS] button in the editing toolbar.   
-  The export to OMS has been triggered. The order status in the *Status of export to OMS* column of the selected order(s) changes to **Being exported**.
+    The export to OMS has been triggered. The order status in the *Status of export to OMS* column of the selected order(s) changes to **Being exported**.
 
-   > [Info] You can only export orders to OMS that are fully imported (*Status of import from channel* equals **Order complete**) and not yet exported to OMS (*Status of export to OMS* does not equal **Exported**). Otherwise, an error message is displayed.
+    > [Info] You can only export orders to OMS that are fully imported (*Status of import from channel* equals **Order complete**) and not yet exported to OMS (*Status of export to OMS* does not equal **Exported**). Otherwise, an error message is displayed.
 
 
 
@@ -120,16 +119,16 @@ If you only want to import the returns from a certain marketplace, trigger the i
 ![Returns](../../Assets/Screenshots/Channels/OrdersReturns/Returns/Returns.png "[Returns]")
 
 1. Click the *All connections* drop-down list and select the connection for which you want to import the returns. All supported connections for return are displayed in the list.   
-  Only the returns of the selected connection are displayed in the list of returns.
+    Only the returns of the selected connection are displayed in the list of returns.
 
-  ![Returns connection](../../Assets/Screenshots/Channels/OrdersReturns/Returns/ReturnsConnection.png "[Returns connection]")
+    ![Returns connection](../../Assets/Screenshots/Channels/OrdersReturns/Returns/ReturnsConnection.png "[Returns connection]")
 
     > [Info] The time of the last successful import of returns for the selected connection is displayed next to the [Import returns] button.
 
 2. Click the [Import returns] button.   
-  The return import has been triggered. The *Return import triggered* pop-up window is displayed. The returns will be downloaded.
+    The return import has been triggered. The *Return import triggered* pop-up window is displayed. The returns will be downloaded.
 
-  ![Return import triggered](../../Assets/Screenshots/Channels/OrdersReturns/Returns/ReturnImportTriggered.png "[Return import triggered]")
+    ![Return import triggered](../../Assets/Screenshots/Channels/OrdersReturns/Returns/ReturnImportTriggered.png "[Return import triggered]")
 
 
 ### Import returns for all connections
@@ -148,9 +147,9 @@ If you want to import the returns from all connected marketplaces, trigger the i
 ![Returns](../../Assets/Screenshots/Channels/OrdersReturns/Returns/Returns.png "[Returns]")
 
 Click the [Import returns for all connections] button. This button is only displayed, if no connection has been selected in the *All connections* drop-down list.      
-  The return import has been triggered. The *Returns import triggered* pop-up window is displayed. The returns will be downloaded.
+    The return import has been triggered. The *Returns import triggered* pop-up window is displayed. The returns will be downloaded.
 
-  ![Return import triggered](../../Assets/Screenshots/Channels/OrdersReturns/Returns/ReturnImportTriggered.png "[Return import triggered]")
+    ![Return import triggered](../../Assets/Screenshots/Channels/OrdersReturns/Returns/ReturnImportTriggered.png "[Return import triggered]")
 
 
 
@@ -169,13 +168,13 @@ A connection to a marketplace has been established, see [Create a connection](..
 ![Orders](../../Assets/Screenshots/Channels/OrdersReturns/Returns/Returns.png "[Orders]")
 
 1. If desired, click the *All connections* drop-down list and select a connection.   
-  Only the orders of the selected connection are displayed in the list of orders.
+    Only the orders of the selected connection are displayed in the list of orders.
 
 2. Select the checkboxes of the returns you want to export in the list of order.    
-  The editing toolbar is displayed above the list.
+    The editing toolbar is displayed above the list.
 
 3. Click the [XXX] button in the editing toolbar.   
-  The export has been triggered. The return status in the *xxx* column of the selected return(s) changes to **Being exported**.
+    The export has been triggered. The return status in the *xxx* column of the selected return(s) changes to **Being exported**.
 
 [comment]: <> (wie heißt der button? keine Möglichkeit zu testen, da nirends returns sind)
 
@@ -199,7 +198,7 @@ At least one export has been triggered, either automatically or manually, see [E
 ![Scheduled exports](../../Assets/Screenshots/Channels/OrdersReturns/ScheduledExports/ScheduledExports.png "[Scheduled exports]")
 
 1. Click the ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh) button in the upper right corner to update the list of scheduled exports.   
-  All pending exports are displayed in the list.
+    All pending exports are displayed in the list.
 
 2. Check the list for the respective export(s).   
 
@@ -224,8 +223,8 @@ At least one order or return import or export has been failed.
 1. Check the list of export and/or import errors for the searched faulty order/return export/import.
 
 2. Click the corresponding faulty order/return export/import.   
-  The *Detail of log message "Log message title"* view is displayed. By default, the *Attributes* tab is preselected.
+    The *Detail of log message "Log message title"* view is displayed. By default, the *Attributes* tab is preselected.
 
-  ![Detail of log message attributes](../../Assets/Screenshots/Channels/OrdersReturns/Errors/DetailLogMessageAttributes.png "[Detail of log message attributes]")
+    ![Detail of log message attributes](../../Assets/Screenshots/Channels/OrdersReturns/Errors/DetailLogMessageAttributes.png "[Detail of log message attributes]")
 
 3. Check the details of the log message in the *Attributes* tab.
