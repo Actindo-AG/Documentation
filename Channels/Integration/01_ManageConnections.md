@@ -7,12 +7,10 @@ Establish connections via drivers to connect your marketplaces with the *Actindo
 In the following, the general settings to create, edit, synchronize or disable connections are described. For certain connection drivers, you have to set up special configurations. Therefore, the connections below are described in separate documents:
 - [Shopware 6 connection](./01a_Shopware6.md)
 - [Shopify connection](./01b_Shopify.md)
-- [Sales Force Commerce Cloud connection](./01c_Salesforce.md)
+- [Salesforce Commerce Cloud connection](./01c_Salesforce.md)
 - [Amazon connection](./01d_Amazon.md)
 - [Magento 2 connection](./01e_Magento2.md)
 - [Tradebyte connection](./01f_Tradebyte.md)
-- [Scayle connection](./01g_Scayle.md)
-- [eBay connection](./01h_eBay.md)
 
 
 ## Create a connection
