@@ -44,7 +44,7 @@ All necessary credentials and information to establish the connection are provid
 
 7. Enter the username and the password for server access in the corresponding *Username (SFTP)* and *Password (SFTP)* fields.
 
-8. If desired, enable the *Test API?* toggle if the API to be connected corresponds to a test account. Disable the toggle if the API to be connected to corresponds to a productive account. By default, the toggle is disabled.
+8. If desired, enable the *Test API?* toggle if the API to be connected corresponds to a test account. Disable the toggle if the API to be connected corresponds to a productive account. By default, the toggle is disabled.
 
 9. Click the [SAVE] button.  
     The *Checking credentials* notice is displayed. The connection will be established and the synchronization is triggered. The *Sync triggered* pop-up window is displayed.  
@@ -89,12 +89,12 @@ A Tradebyte connection has been established.
 
     ![Settings enable languages](../../Assets/Screenshots/Channels/Settings/Connections/Tradebyte/EditConnectionSettings_EnableLanguages.png "[Settings enable languages]")
 
-5. Enable the toggles of the languages you want to maintain in the *Actindo Core1 Platform*. All languages available in Tradebyte are displayed.
+5. Enable the toggles of the languages you want to manage in the *Actindo Core1 Platform*. All languages available in Tradebyte are displayed.
 
     > [Info] The default language is automatically set and cannot be edited.
 
 6. Click the [SAVE] button.  
-    All changes have been saved. The *Saving successful* pop-up window is displayed
+    All changes have been saved. The *Saving successful* pop-up window is displayed.
 
     ![Saving successful](../../Assets/Screenshots/Channels/Settings/Connections/SavingSuccessful.png "[Saving successful]")
 
