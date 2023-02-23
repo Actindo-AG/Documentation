@@ -1,4 +1,5 @@
-[!!Export a dispatch note](../Operation/01_ManageDispatchNotes.md#export-a-dispatch-note). 
+[!!Export a dispatch note](../Operation/01_ManageDispatchNotes.md#export-a-dispatch-note) 
+[!!Workflows](../../ActindoWorkFlow/Overview/01_General.md) 
 
 # Handle an error status
 
@@ -52,7 +53,7 @@ No prerequisites to fulfill.
 7. Switch to the *Workflows* module and select the *Processes* menu entry.  
     The list of processes is displayed. 
 
-    ![Processes](../../Assets/Screenshots/ActindoWorkFlow/Processes/FaultyProcess.png"[Processes]")
+    ![Processes](../../Assets/Screenshots/ActindoWorkFlow/Processes/FaultyProcess.png "[Processes]")
 
 8. Paste the document number in the search field and press the **ENTER** key to start the search.  
     The process related to the selected dispatch note number is displayed. 
@@ -60,7 +61,7 @@ No prerequisites to fulfill.
 9. Click the process to display further process details.  
     The *Process ID: "Process ID", Workflow: "Workflow name"* view is displayed. 
 
-    ![Process ID](../../Assets/Screenshots/ActindoWorkFlow/Processes/FaultyProcessID.png"[ProcessID]")
+    ![Process ID](../../Assets/Screenshots/ActindoWorkFlow/Processes/FaultyProcessID.png "[ProcessID]")
         
     > [Info] The action where the error has ocurred is displayed in red, both in the process diagram as well as in the process actions listed below.
 
