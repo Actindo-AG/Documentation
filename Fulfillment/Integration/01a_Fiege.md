@@ -34,7 +34,7 @@ The *Fiege* driver has been installed in the Core1 account.
 
     ![Connection credentials](../../Assets/Screenshots/Fulfillment/Settings/Connections/Fiege/CreateConnectionCredentials.png "[Connection credentials]")
 
-4. Enter the bearer token as provided by Fiege in *Bearer token (fiegeExport)* field.  
+4. Enter the bearer token as provided by Fiege in the *Bearer token (fiegeExport)* field.  
 
 5. Click the [SAVE] button.  
     The connection will be established. The *Checking credentials...* notice is displayed. After a few seconds, the *Loading data...* notice is displayed.
