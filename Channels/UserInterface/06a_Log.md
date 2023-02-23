@@ -4,18 +4,16 @@
 
 [comment]: <> (Datei Fulfillment/UserInterface/02a_Connections.md als Referenz. Ggf. Änderungen konsistent in beiden Dateien übernehmen. Event log hier zu intent geändert. Unsicher zu Terminologe: Unterschied zwischen Log und Intent? Oder eher intent log verwenden?)
 
-[comment]: <> (Keine Logs im Sandbox. Info und Screenshots aus NoE test account -> Vorsicht: in Detail log message Kundenname -> anonymisieren!)
-
-![List of intents](../../Assets/Screenshots/Channels/Logging/ListIntents02.png "[List of intents]")
+![List of intents](../../Assets/Screenshots/Channels/Logging/ListIntents.png "[List of intents]")
 
 
 **List of intents**
 
 - ![Search](../../Assets/Icons/Search.png "[Search]") (Search)   
-  Click this button to display the search bar and search for an intent.
+    Click this button to display the search bar and search for an intent.
 
 - ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh)   
-  Click this button to update the list of intents.
+    Click this button to update the list of intents.
 
 - *VIEW*   
     Click the drop-down list to select the view. All created views are displayed in the drop-down list. Click the ![Points](../../Assets/Icons/Points01.png "[Points]") (Points) button to the right of the *VIEW* drop-down list to display the context menu and create a view.   
@@ -47,53 +45,53 @@
             Click this entry to delete the selected view. A confirmation window to confirm the deletion is displayed. This menu entry is only displayed if a view has been selected.
 
 - ![Columns](../../Assets/Icons/Columns.png "[Columns]") Columns (x)   
-  Click this button to display the columns bar and customize the displayed columns and the order of columns in the list. The *x* indicates the number of columns that are currently displayed in the list.
+    Click this button to display the columns bar and customize the displayed columns and the order of columns in the list. The *x* indicates the number of columns that are currently displayed in the list.
 
 - ![Filter](../../Assets/Icons/Filter.png "[Filter]") Filter (x)   
-  Click this button to display the filter bar and customize the active filters. The *x* indicates the number of filters that are currently active.
+    Click this button to display the filter bar and customize the active filters. The *x* indicates the number of filters that are currently active.
 
 - [x]     
-  Select the checkbox to display the editing toolbar. You can only select one checkbox at a time.
+    Select the checkbox to display the editing toolbar. You can only select one checkbox at a time.
 
 - [SHOW MESSAGE]  
-  Click this button to display the selected intent. This button is only displayed if the checkbox of an intent is selected. Alternatively, you can click directly a row in the list to display the corresponding intent. The *List of messages* view is displayed, see [List of messages](#list-of-messages).
+    Click this button to display the selected intent. This button is only displayed if the checkbox of an intent is selected. Alternatively, you can click directly a row in the list to display the corresponding intent. The *List of messages* view is displayed, see [List of messages](#list-of-messages).
 
 
 The list displays all intents. Depending on the settings, the displayed columns may vary. All fields are read-only.
 
 - *Name*  
-  Name of the intent.
+    Name of the intent.
 
 - *Number of messages*  
-  Number of messages contained in the intent.
+    Number of messages contained in the intent.
 
 - *Created on*  
-  Date and time of the creation.
+    Date and time of the creation.
 
 - *Created by*  
-  Name and username of the user who created the intent. If the intent was created automatically by the system, this field is empty. 
+    Name and username of the user who created the intent. If the intent was created automatically by the system, this field is empty. 
 
 - *Max log level of message*  
-  Maximum log level of the message(s) contained in the intent. The following levels are available:
-  - **Debug**
-  - **Info**
-  - **Notice**
-  - **Warning**
-  - **Error**
-  - **Critical**
-  - **Alert**
-  - **Emergency**
+    Maximum log level of the message(s) contained in the intent. The following levels are available:
+    - **Debug**
+    - **Info**
+    - **Notice**
+    - **Warning**
+    - **Error**
+    - **Critical**
+    - **Alert**
+    - **Emergency**
 
 [comment]: <> (Icons hinzufügen?)  
 
 - *ID*  
-  Log identification number. The ID number is automatically assigned by the system.
+    Log identification number. The ID number is automatically assigned by the system.
 
 - *Short preview*  
-  First 30 characters of the log message.
+    First 30 characters of the log message.
 
 - *Preview*  
-  Complete log message.
+    Complete log message.
 
 
 ## List of messages
@@ -105,63 +103,63 @@ The list displays all intents. Depending on the settings, the displayed columns 
 **List of messages**
 
 - ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)   
-  Click this button to close the *List of messages* view and return to the list of intents. All changes are rejected.
+    Click this button to close the *List of messages* view and return to the list of intents. All changes are rejected.
 
 - [x]     
-  Select the checkbox to display the editing toolbar. You can only select one checkbox at a time.
+    Select the checkbox to display the editing toolbar. You can only select one checkbox at a time.
 
 - ![Unpublish](../../Assets/Icons/Unpublish02.png "[Unpublish]") (Unpublish)  
-  Click this button to unpublish the log message.
+    Click this button to unpublish the log message.
 
 [comment]: <> (Unpublish oder private view? Bedeutung?)
 
 - ![View](../../Assets/Icons/Eye02.png "[View]") (View)    
-  Click this button to display the details of the log message. Alternatively, you can click directly a row in the list to display the details of the log message. The *Detail of log message "Log message title"* view is displayed, see [Detail of log message "Log message title"](#detail-of-log-message-log-message-title). 
+    Click this button to display the details of the log message. Alternatively, you can click directly a row in the list to display the details of the log message. The *Detail of log message "Log message title"* view is displayed, see [Detail of log message "Log message title"](#detail-of-log-message-log-message-title). 
 
 
 The list displays all messages contained in the selected intent. Depending on the settings, the displayed columns may vary. All fields are read-only.
 
 - *Title*  
-  Title of the log message.
+    Title of the log message.
 
 - *Log level*  
-  Log level type. The following options are available:
-  - **Debug**
-  - **Info**
-  - **Notice**
-  - **Warning**
-  - **Error**
-  - **Critical**
-  - **Alert**
-  - **Emergency**
+    Log level type. The following options are available:
+    - **Debug**
+    - **Info**
+    - **Notice**
+    - **Warning**
+    - **Error**
+    - **Critical**
+    - **Alert**
+    - **Emergency**
 
 - *Created on*  
-  Date and time of the creation.
+    Date and time of the creation.
 
 - *Created by*  
-  Name and username of the user who created the intent. If the intent was created automatically by the system, this field is empty. 
+    Name and username of the user who created the intent. If the intent was created automatically by the system, this field is empty. 
 
 - *Message*  
-  Log message to the intent.
+    Log message to the intent.
 
 - *ID*  
-  Log identification number. The ID number is automatically assigned by the system.
+    Log identification number. The ID number is automatically assigned by the system.
 
 
 ### Detail of log message "Log message title"
 
-*Omni-Channel > Logging > Tab LOG > Select an intent > Select log message*
+*Omni-Channel > Logging > Tab LOG > Select intent > Select log message*
 
 ![Detail of log message](../../Assets/Screenshots/Channels/Logging/DetailLogMessageAttributes.png "[Detail of log message]")
 
 - ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)   
-  Click this button to close the *Detail of log message "Log message title"* view and return to the list of messages. All changes are rejected.
+    Click this button to close the *Detail of log message "Log message title"* view and return to the list of messages. All changes are rejected.
 
 - [CANCEL]  
-  Click this button to close the *Detail of log message "Log message title"* view.
+    Click this button to close the *Detail of log message "Log message title"* view.
 
 - *Message*  
-  Description of the log message.
+    Description of the log message.
 
 This view can also be accessed from the following tabs in the user interface:
 - [ERRORS (Offer upload)](./03b_Errors.md#detail-of-log-message-log-message-title)
@@ -174,11 +172,9 @@ This view can also be accessed from the following tabs in the user interface:
 
 ### Detail of log message "Log message title" &ndash; Attributes
 
-*Omni-Channel > Logging > Tab LOG > Select an intent > Select log message > Tab Attributes*
+*Omni-Channel > Logging > Tab LOG > Select intent > Select log message > Tab Attributes*
 
 ![Detail of log message attributes](../../Assets/Screenshots/Channels/Logging/DetailLogMessageAttributes.png "[Detail of log message attributes]")
-
-[comment]: <> (ACTHUNG! Screenshot aus NoE -> anonymysieren oder ein anderes Screenshot ziehen)
 
 **Attributes**
 
@@ -187,19 +183,22 @@ The *Attributes* tab displays further details of the selected log message. Depen
 [comment]: <> (wovon sind die Felder abhängig? Attributes that are assigned somewhere?)
 
 - *Error code*  
-  Error code number.
+    Error code number.
 
 - *File*  
-  File where the error has occurred.
+    Path of the file where the error has occurred.
 
 - *Line*  
-  Line where the error has occurred.
+    Line in the file where the error has occurred.
 
 - *Exception class*   
 
 - *Trace as string*   
 
 - *Exception*   
+
+
+[comment]: <> (woher kommen die folgenden Felder? Die werden bei mir nie angezeigt)
 
 - *Code*   
 
@@ -212,8 +211,6 @@ The *Attributes* tab displays further details of the selected log message. Depen
 - *Exception*   
 
 
-
-
 - *URL*   
 
 - *HTTP method*  
@@ -223,6 +220,7 @@ The *Attributes* tab displays further details of the selected log message. Depen
 - *Request start*   
 
 - *Duration in s*   
+
 
 **Request body**     
 
@@ -263,47 +261,46 @@ The *Attributes* tab displays further details of the selected log message. Depen
 
 ### Detail of log message "Log message title" &ndash; Dependencies
 
-*Omni-Channel > Logging > Tab LOG > Select an intent > Select log message > Tab Dependencies*
+*Omni-Channel > Logging > Tab LOG > Select intent > Select log message > Tab Dependencies*
 
 ![Detail of log message dependencies](../../Assets/Screenshots/Channels/Logging/DetailLogMessageDependencies.png "[Detail of log message dependencies]")
 
 **Dependencies**
 
 - ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh)   
-  Click this button to update the list of product dependencies.
+    Click this button to update the list of product dependencies.
 
 - ![Columns](../../Assets/Icons/Columns.png "[Columns]") Columns (x)   
-  Click this button to display the columns bar and customize the displayed columns and the order of columns in the list. The *x* indicates the number of columns that are currently displayed in the list.
+    Click this button to display the columns bar and customize the displayed columns and the order of columns in the list. The *x* indicates the number of columns that are currently displayed in the list.
 
 - [x]     
-  Select the checkbox to display the editing toolbar. If you click the checkbox in the header, all dependent entities in the list are selected. If no dependency exists for the offer, the *No other entities depend on this entity* notice is displayed.
+    Select the checkbox to display the editing toolbar. If you click the checkbox in the header, all dependent entities in the list are selected. If no dependency exists for the offer, the *No other entities depend on this entity* notice is displayed.
 
 The list displays all dependencies of the selected product. Depending on the settings, the displayed columns may vary. All fields are read-only. 
 
 - *Dependent entity ID*   
-  Identification number of the dependent entity.
+    Identification number of the dependent entity.
 
 - *Dependent entity type*   
-  Type of the dependent entity. The following options are available:
-  - **Omni-Channel Offer**
-  - **UCS Product**
+    Type of the dependent entity. The following options are available:
+    - **Omni-Channel Offer**
+    - **UCS Product**
 
-[comment]: <> (what else? Vermutlich Standarsatz "All available/relevant dependent entity types are displayed".)
+[comment]: <> (what else? Vermutlich Standardsatz "All available/relevant dependent entity types are displayed".)
 
 - *Change tracking mode*   
-  Change tracking mode (ETL mode) of the dependent entity. The following options are available:
-  - **Manual**
-  - **Semi-automatic**
-  - **Semi-automatic, changes must be confirmed by another user**   
-  - **Automatic**
-
+    Change tracking mode (ETL mode) of the dependent entity. The following options are available:
+    - **Manual**
+    - **Semi-automatic**
+    - **Semi-automatic, changes must be confirmed by another user**   
+    - **Automatic**
 
 - *Dependent entity friendly identifier*   
 
 [comment]: <> (what id number is that? How is it created?)
 
 - [RERUN MAPPING]   
-  Click this button to rerun the mapping of the selected entity. This button is only displayed if the checkbox of at least one dependency is selected.
+    Click this button to rerun the mapping of the selected entity. This button is only displayed if the checkbox of at least one dependency is selected.
 
 [comment]: <> (Gibt es in Channels dependencies?)
 

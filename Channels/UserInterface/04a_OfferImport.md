@@ -9,16 +9,16 @@
 **Importable products**
 
 - [DOWNLOAD IMPORTABLE PRODUCTS]   
-  Click this button to download all importable offers from the marketplace. This button is only displayed if a connection has been selected in the *Select connection* drop-down list.
+    Click this button to download all importable offers from the marketplace. This button is only displayed if a connection has been selected in the *Select connection* drop-down list.
 
 - [IMPORT ALL LISTED PRODUCTS TO CHANNELS]   
-  Click this button to import all importable offers from your marketplace at once to the *Omni-Channel* module. This button is only displayed if a connection has been selected in the *Select connection* drop-down list.
+    Click this button to import all listed offers from your marketplace at once to the *Omni-Channel* module. This button is only displayed if a connection has been selected in the *Select connection* drop-down list.
 
 - ![Search](../../Assets/Icons/Search.png "[Search]") (Search)   
-  Click this button to display the search bar and search for a scheduled offer upload. This button is only displayed if a connection has been selected in the *Select connection* drop-down list.
+    Click this button to display the search bar and search for an offer import. This button is only displayed if a connection has been selected in the *Select connection* drop-down list.
 
 - ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh)   
-  Click this button to update the list of scheduled offer uploads. This button is only displayed if a connection has been selected in the *Select connection* drop-down list.
+    Click this button to update the list of importable offers. This button is only displayed if a connection has been selected in the *Select connection* drop-down list.
 
 - *VIEW*   
     Click the drop-down list to select the view. All created views are displayed in the drop-down list. Click the ![Points](../../Assets/Icons/Points01.png "[Points]") (Points) button to the right of the *VIEW* drop-down list to display the context menu and create a view.   
@@ -49,41 +49,41 @@
         - ![Delete](../../Assets/Icons/Trash01.png "[Delete]") delete  
             Click this entry to delete the selected view. A confirmation window to confirm the deletion is displayed. This menu entry is only displayed if a view has been selected.
 
-- *Select Connection*    
-  Click the drop-down list to select a connection. All supported connections are displayed in the list. You must select a connection to display any offer imports in the list.
+- *Select connection*    
+    Click the drop-down list to select a connection. All supported connections are displayed in the list. You must select a connection to display any offer imports in the list.
 
 - ![Columns](../../Assets/Icons/Columns.png "[Columns]") Columns (x)   
-  Click this button to display the columns bar and customize the displayed columns and the order of columns in the list. The *x* indicates the number of columns that are currently displayed in the list.
+    Click this button to display the columns bar and customize the displayed columns and the order of columns in the list. The *x* indicates the number of columns that are currently displayed in the list.
 
 - ![Filter](../../Assets/Icons/Filter.png "[Filter]") Filter (x)   
-Click this button to display the filter bar and customize the active filters. The *x* indicates the number of filters that are currently active. This button is only displayed if a connection has been selected in the *Select connection* drop-down list.
+    Click this button to display the filter bar and customize the active filters. The *x* indicates the number of filters that are currently active. This button is only displayed if a connection has been selected in the *Select connection* drop-down list.
 
 - [x]     
-  Select the checkbox to display the editing toolbar. If you click the checkbox in the header, all offer imports in the list are selected.
+    Select the checkbox to display the editing toolbar. If you click the checkbox in the header, all offer imports in the list are selected.
 
 - [IMPORT PRODUCT(S) TO CHANNELS]   
-  Click this button to import the selected offer(s) to the *Omni-Channel* module. This button is only displayed if a connection has been selected in the *Select connection* drop-down list and if the checkbox of at least one offer is selected.
+    Click this button to import the selected offer(s) to the *Omni-Channel* module. This button is only displayed if a connection has been selected in the *Select connection* drop-down list and if the checkbox of at least one offer is selected.
 
 - [DETAILS]   
-  Click this button to display the *Detail of log message "Log message title"* view and check further details of the error. This button is only displayed if a connection has been selected in the *Select connection* drop-down list and if the checkbox of a single offer with an error is selected.
+    Click this button to display the *Detail of log message "Log message title"* view and check further details of the error. This button is only displayed if a connection has been selected in the *Select connection* drop-down list and if the checkbox of a single offer with an error is selected.
 
 
-The list displays all offer imports. Depending on the settings, the displayed columns may vary. All fields are read-only. If no offer imports are available, the *Please select a connection to import products from* notice is displayed. The available columns differ depending on the selected connection in the *Select Connection* drop-down list. Therefore, only those columns that are available for all connections are described in the following.
+The list displays all offer imports. Depending on the settings, the displayed columns may vary. All fields are read-only. If no offer imports are available, the *Please select a connection to import products from* notice is displayed. The available columns differ depending on the selected connection in the *Select connection* drop-down list. Therefore, only those columns that are available for all connections are described in the following.
 
 - *Error message*   
-  Error log message if an error has occurred. Select the checkbox of the corresponding row and click the [DETAILS] button in the editing toolbar to display further details to the error. If no error has occurred, the field is empty.
+    Error log message if an error has occurred. Select the checkbox of the corresponding row and click the [DETAILS] button in the editing toolbar to display further details to the error. If no error has occurred, the field is empty.
 
-- *Import Status*   
-  Import status of the offer to the *Omni-Channel* module. The following options are available:  
-  - **Imported**   
-    The offer is imported to the *Omni-Channel* module.  
-  - **Not imported**   
-    The offer is not (yet) imported to the *Omni-Channel* module.   
+- *Import status*   
+    Import status of the offer to the *Omni-Channel* module. The following options are available:  
+    - **Imported**   
+        The offer is imported to the *Omni-Channel* module.  
+    - **Not imported**   
+        The offer is not (yet) imported to the *Omni-Channel* module.   
 
 [comment]: <> (Are there further statuses?)
 
 - *ID*   
-  Offer identification number. The ID number is automatically assigned by the system after creation.
+    Offer identification number. The ID number is automatically assigned by the system after creation.
 
 
 ## Detail of log message "Log message title"

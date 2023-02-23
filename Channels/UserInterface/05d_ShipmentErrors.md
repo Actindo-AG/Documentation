@@ -1,9 +1,5 @@
-
-[!!Check the failed orders and returns](../Operation/04_ManageOrdersReturns.md#check-the-failed-orders-and-returns)
+[!!Manage the orders and returns](../Operation/04_ManageOrdersReturns.md)
 [!!User interface Log](./06a_Log.md)
-
-[comment]: <> (- Standard???, nicht im Sandbox; andere Sandboxes zur Verfügung? Bei NoE keine Shipment errors oder Cancellation errors zu sehen... Bei Amazon nur ein tab aber ohne Info)
-
 
 # Shipment errors
 
@@ -14,80 +10,79 @@
 **Error list**	
 
 - ![Search](../../Assets/Icons/Search.png "[Search]") (Search)   
-  Click this button to display the search bar and search for an error.
+    Click this button to display the search bar and search for an error.
 
 - ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh)   
-  Click this button to update the list of errors.
+    Click this button to update the list of errors.
 
 - ![Columns](../../Assets/Icons/Columns.png "[Columns]") Columns (x)   
-  Click this button to display the columns bar and customize the displayed columns and the order of columns in the list. The *x* indicates the number of columns that are currently displayed in the list.
+    Click this button to display the columns bar and customize the displayed columns and the order of columns in the list. The *x* indicates the number of columns that are currently displayed in the list.
 
 - ![Filter](../../Assets/Icons/Filter.png "[Filter]") Filter (x)   
-  Click this button to display the filter bar and customize the active filters. The *x* indicates the number of filters that are currently active.
+    Click this button to display the filter bar and customize the active filters. The *x* indicates the number of filters that are currently active.
 
 - [x]     
-  Select the checkbox to display the editing toolbar. If you click the checkbox in the header, all errors in the list are selected.
+    Select the checkbox to display the editing toolbar. If you click the checkbox in the header, all errors in the list are selected.
 
 [comment]: <> (Buttons unten beschrieben aus ERRORS tab. Prüfen, ob auch in SHIPMENT ERRORS vorkommen)
 
 - [SHOW LOG]  
-  Click this button to display the details of the error log message. This button is only displayed if a single checkbox in the list of errors is selected. Alternatively, you can click directly a row in the list to display the details of the error log message. The *Detail of log message "Log message title"* view is displayed, see [Detail of log message "Log message title"](#detail-of-log-message-log-message-title).
+    Click this button to display the details of the error log message. This button is only displayed if a single checkbox in the list of errors is selected. Alternatively, you can click directly a row in the list to display the details of the error log message. The *Detail of log message "Log message title"* view is displayed, see [Detail of log message "Log message title"](#detail-of-log-message-log-message-title).
 
 - [VIEW ORDER]  
-  Click this button to display the corresponding order to the error. This button is only displayed if a single checkbox in the list of errors is selected. The *Order from connection "Connection name"* view is displayed in the *ORDERS* tab, see [Order from connection "Connection name"](./05a_Orders.md#order-from-connection-connection-name).
+    Click this button to display the corresponding order to the error. This button is only displayed if a single checkbox in the list of errors is selected. The *Order from connection "Connection name"* view is displayed in the *ORDERS* tab, see [Order from connection "Connection name"](./05a_Orders.md#order-from-connection-connection-name).
 
 - [RETRY IMPORT]  
-  Click this button to retry the import of the selected order(s). This button is only displayed if the checkbox of at least one error is selected. The *Import will be retried* pop-up window is displayed.
+    Click this button to retry the import of the selected order(s). This button is only displayed if the checkbox of at least one error is selected. The *Import will be retried* pop-up window is displayed.
 
-  ![Import will be retried](../../Assets/Screenshots/Channels/OrdersReturns/Orders/ImportRetried.png "[Import will be retried]")
+    ![Import will be retried](../../Assets/Screenshots/Channels/OrdersReturns/Orders/ImportRetried.png "[Import will be retried]")
 
 [comment]: <> (prüfen, ob das pop-up window auch hier angezeigt wird.)
-
 
 The list displays all errors to the shipments. Depending on the settings, the displayed columns may vary. All fields are read-only. If no error has occurred, the *There are currently no errors* notice is displayed.
 
 - *Connection*  
-  Name of the connection where the error has occurred.
+    Name of the connection where the error has occurred.
 
 - *Type*  
-  Error type. The following options are available:   
+    Error type. The following options are available:   
     - **Import from channel**  
-      The error has occurred while importing the order from the marketplace.   
+        The error has occurred while importing the order from the marketplace.   
     - **Export to channel**  
-      The error has occurred while exporting the order to the marketplace.  
+        The error has occurred while exporting the order to the marketplace.  
     - **Export to OMS**  
-      The error has occurred while exporting the order to the *Order management* module.
+        The error has occurred while exporting the order to the *Order management* module.
 
 - *ID in shop*  
-  Identification number of the order in the marketplace. 
+    Identification number of the order in the marketplace. 
 
 - *Message*  
-  Log message to the error.  
+    Log message to the error.  
 
 - *Shipment*  
-  Shipment identification number. The ID number is automatically assigned by the system.
+    Shipment identification number. The ID number is automatically assigned by the system.
 
 [comment]: <> (Check!)
 
 - *Last modified*  
-  Date and time of the last modification.
+    Date and time of the last modification.
 
 - *Editor*  
-  Name and username of the user who modified the error.  
+    Name and username of the user who modified the error.  
 
 - *ID*  
-  Error identification number. The ID number is automatically assigned by the system.
+    Error identification number. The ID number is automatically assigned by the system.
 
 - *Created*  
-  Date and time of the creation.
+    Date and time of the creation.
 
 - *Creator*  
-  Name and username of the user who created the error.
+    Name and username of the user who created the error.
 
 
 ## Detail of log message "Log message title"
 
-*Omni-Channel > Orders and returns > Tab SHIPMENT ERRORS > Select an error*
+*Omni-Channel > Orders and returns > Tab SHIPMENT ERRORS > Select error*
 
 ![Detail of log message](../../Assets/Screenshots/Channels/OrdersReturns/Errors/DetailLogMessageAttributes.png "[Detail of log message]")
 

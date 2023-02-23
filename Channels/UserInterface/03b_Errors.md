@@ -11,10 +11,10 @@
 **Export errors**
 
 - ![Search](../../Assets/Icons/Search.png "[Search]") (Search)   
-  Click this button to display the search bar and search for a scheduled offer upload.
+    Click this button to display the search bar and search for an offer export error.
 
 - ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh)   
-  Click this button to update the list of scheduled offer uploads.
+    Click this button to update the list of offer export errors.
 
 - *VIEW*   
     Click the drop-down list to select the view. All created views are displayed in the drop-down list. Click the ![Points](../../Assets/Icons/Points01.png "[Points]") (Points) button to the right of the *VIEW* drop-down list to display the context menu and create a view.   
@@ -47,60 +47,60 @@
 
 
 - ![Columns](../../Assets/Icons/Columns.png "[Columns]") Columns (x)   
-  Click this button to display the columns bar and customize the displayed columns and the order of columns in the list. The *x* indicates the number of columns that are currently displayed in the list.
+    Click this button to display the columns bar and customize the displayed columns and the order of columns in the list. The *x* indicates the number of columns that are currently displayed in the list.
 
 - ![Filter](../../Assets/Icons/Filter.png "[Filter]") Filter (x)   
-Click this button to display the filter bar and customize the active filters. The *x* indicates the number of filters that are currently active.
+    Click this button to display the filter bar and customize the active filters. The *x* indicates the number of filters that are currently active.
 
-The list displays all offer export errors. Depending on the settings, the displayed columns may vary. All fields are read-only. If no errors exists currently, the *There are no export errors for this offer* notice is displayed.
+The list displays all offer export errors. Depending on the settings, the displayed columns may vary. All fields are read-only. If no errors exist currently, the *There are no export errors for this offer* notice is displayed.
 
 - *SKU*   
-  Stock Keeping Unit. Identification number for the offer.
+    Stock Keeping Unit. Identification number for the offer.
 
 - *Connection*   
-  Assigned connection of the offer.
+    Assigned connection of the offer.
 
 - *Fast/Default Queue*    
-  Indication via which queue the offer was uploaded. The following options are available:
-  - **Default queue**   
-    The offer was uploaded via the default queue. This queue is selected by default.
-  - **Fast queue**   
-    The offer was prioritized and therefore uploaded via the fast queue.
+    Indication via which queue the offer was uploaded. The following options are available:
+    - **Default queue**   
+        The offer was uploaded via the default queue. This queue is selected by default.
+    - **Fast queue**   
+        The offer was prioritized and therefore uploaded via the fast queue.
 
 [comment]: <> (Stimmt das?Wo wähle ich das aus/ordne ich das zu? Workflows?)
 
 - *Log Message Title*    
-  Title of the error log message.
+    Title of the error log message.
 
 - *Log Message*   
-  Complete log message to the error. Click the corresponding row of the error to display the *Detail of log message "Log message title"* view and check further details of the error.
+    Complete log message to the error. Click the corresponding row of the error to display the *Detail of log message "Log message title"* view and check further details of the error.
 
 - *Finally Failed*   
-  Indication whether the offer upload finally failed or not:
-  - ![Check](../../Assets/Icons/Check.png "[Check]") (Checkmark): The offer upload finally failed.
-  - ![Cross](../../Assets/Icons/Cross02.png "[Cross]") (Cross): The offer upload can be retried.
+    Indication whether the offer upload finally failed or not:
+    - ![Check](../../Assets/Icons/Check.png "[Check]") (Checkmark): The offer upload finally failed.
+    - ![Cross](../../Assets/Icons/Cross02.png "[Cross]") (Cross): The offer upload can be retried.
 
 - *ID*  
-  Offer identification number. The ID number is automatically assigned by the system after creation.
+    Offer identification number. The ID number is automatically assigned by the system after creation.
 
 - *Created on*  
-  Date and time when the error occurred.
+    Date and time when the error occurred.
 
 - *Created by*  
-  Name and username of the user who changed the offer and triggered the upload.
+    Name and username of the user who changed the offer and triggered the upload.
 
 - *Modified on*  
-  Date and time of the last modification.
+    Date and time of the last modification.
 
 - *Modified by*  
-  Name and username of the user who modified the offer.
+    Name and username of the user who modified the offer.
 
 [comment]: <> (Spaltenbeschreibung prüfen - was bezieht sich auf den Error und was auf das offer selbst?)
 
 
 ## Detail of log message "Log message title"
 
-*Omni-Channel > Offer import > Tab ERRORS > Select export error*
+*Omni-Channel > Offer upload > Tab ERRORS > Select export error*
 
 ![Detail of log message](../../Assets/Screenshots/Channels/OfferUpload/Errors/DetailLogMessage.png "[Detail of log message]")
 
