@@ -43,18 +43,18 @@ The *Fiege* driver has been installed in the Core1 account.
 
     The *Create connection* view is automatically closed when the connection has been established. The *Edit connection* view of the newly created connection is displayed. The *Settings* tab is preselected.
 
+    ![Connection](../../Assets/Screenshots/Fulfillment/Settings/Connections/Fiege/EditConnectionSettings_WarehouseIDFallback.png "[Connection]")
+
     > [Info] By default, all connections that have been established are first inactive and therefore must be enabled after the connection configuration.    
 
 [comment]: <> (Check, ob Checking credentials und Loading data Nachrichten bei Fiege auch vorkommen)
-
-[comment]: <> (Ist es möglich, noch ein Screenshot hier hinzufügen? Direkt nach der Erstellung, Settings tab noch nicht ausgefüllt?)
 
 6. Proceed to configure the connection, see [Configure the Fiege connection](#configure-the-fiege-connection).
 
 
 ## Configure the Fiege connection
 
-After the Fiege connection has been established, further settings must be configured.
+After the Fiege connection has been established, further settings can be configured.
 
 #### Prerequisites
 
@@ -75,7 +75,7 @@ The *Edit connection* view is displayed. By default, the *Credentials* tab is se
 
     ![Edit connection credentials](../../Assets/Screenshots/Fulfillment/Settings/Connections/Fiege/EditConnectionCredentials.png "[Edit connection credentials]")
 
-2. Click the *Settings* tab.
+2. Click the *Settings* tab.   
     The *Settings* tab is displayed. By default, the *Warehouse ID fallback* menu entry is selected.
 
     ![Connection](../../Assets/Screenshots/Fulfillment/Settings/Connections/Fiege/EditConnectionSettings_WarehouseIDFallback.png "[Connection]")
@@ -94,21 +94,21 @@ The *Edit connection* view is displayed. By default, the *Credentials* tab is se
 [comment]: <> (Unsicher, ob beide bearer token eingetragen werden müssen -Credentials und Settings, oder nur eins davon, oder ob sie gleich oder unterschiedlich sind. Evtl. check mit Simon)
 
 6. Click the *A Warehouse* menu entry in the left side bar.  
-    The A Warehouse settings are displayed on the right side.  
+    The A warehouse settings are displayed on the right side.  
 
     ![Settings A warehouse](../../Assets/Screenshots/Fulfillment/Settings/Connections/Fiege/EditConnectionSettings_AWarehouse.png "[Settings A warehouse]")
 
 7. Enter the number of the warehouse to be used as A warehouse.  
 
 8. Click the *B Warehouse* menu entry in the left side bar.  
-    The B Warehouse settings are displayed on the right side.  
+    The B warehouse settings are displayed on the right side.  
 
     ![Settings B warehouse](../../Assets/Screenshots/Fulfillment/Settings/Connections/Fiege/EditConnectionSettings_BWarehouse.png "[Settings B warehouse]")
 
 9. Enter the number of the warehouse to be used as B warehouse.
 
 10. Click the *C Warehouse* menu entry in the left side bar.  
-    The C Warehouse settings are displayed on the right side.  
+    The C warehouse settings are displayed on the right side.  
 
     ![Settings C warehouse](../../Assets/Screenshots/Fulfillment/Settings/Connections/Fiege/EditConnectionSettings_CWarehouse.png "[Settings C warehouse]")
 
