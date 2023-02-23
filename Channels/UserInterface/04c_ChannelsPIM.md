@@ -99,9 +99,9 @@ For a detailed description of this window and the corresponding functions, see [
     Click the *Mode* drop-down list to select the behaviour on change of the PIM product. The following options are available:   
     - **manual**   
         Changes in a PIM product must be triggered manually to be applied to the offer. The initial offer is automatically applied.
-    - **semi-automatic**   
+    - **semiautomatic**   
         Changes in a PIM product are automatically applied to the offer after confirmation. The initial offer is automatically applied without confirmation.   
-    - **semi-automatic, changes must be confirmed by another user**   
+    - **semiautomatic, changes must be confirmed by another user**   
         Changes in a PIM product are automatically applied to the offer after confirmation by another user. The initial offer is only applied after confirmation by another user.       
     - **automatic**    
         Changes in a PIM product are automatically applied to the offer. The initial offer is also automatically applied.
@@ -219,11 +219,12 @@ The list displays all offers to be imported. Depending on the settings, the disp
     - **Active**   
         The offer is active. It is displayed in the marketplace, where it can be sold.   
     - **Inactive**   
-        The offer is inactive. It is not longer displayed in the marketplace and thus cannot be sold anymore.   
+        The offer is inactive. It is no longer displayed in the marketplace and thus cannot be sold anymore.   
     - **Not available**   
         The offer is deleted from the marketplace.     
 
-    The *Change offer status* confirmation window is displayed. If the variant status of the selected offer equals **Master offer**, an additional toggle is displayed within the confirmation window.   
+    The *Change offer status* confirmation window is displayed. If the variant status of the selected offer equals **Master offer**, the *Apply parent status to all child offers* toggle is displayed within the confirmation window.   
+
     ![Change offer status](../../Assets/Screenshots/Channels/Offers/Offers/ChangeOfferStatus.png "[Change offer status]")
 
 - *Pending status/Errors*  

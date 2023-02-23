@@ -308,9 +308,9 @@ The window displays a summary of the offers from the selected products. The offe
     Select the change tracking mode (ETL mode) for the offers to be created. The following options are available:   
     - ![Radionbutton](../../Assets/Icons/Radiobutton.png "[Radiobutton]") *Manual*    
         Changes in a PIM product must be triggered manually to be applied to the offer. The initial offer is automatically applied.
-    - ![Radionbutton](../../Assets/Icons/Radiobutton.png "[Radiobutton]") *Semi-automatic*   
+    - ![Radionbutton](../../Assets/Icons/Radiobutton.png "[Radiobutton]") *Semiautomatic*   
         Changes in a PIM product are automatically applied to the offer after confirmation. The initial offer is automatically applied without confirmation.   
-    - ![Radionbutton](../../Assets/Icons/Radiobutton.png "[Radiobutton]") *Semi-automatic, changes must be confirmed by another user*   
+    - ![Radionbutton](../../Assets/Icons/Radiobutton.png "[Radiobutton]") *Semiautomatic, changes must be confirmed by another user*   
         Changes in a PIM product are automatically applied to the offer after confirmation by another user. The initial offer is only applied after confirmation by another user.       
     - ![Radionbutton](../../Assets/Icons/Radiobutton.png "[Radiobutton]") *Automatic*   
         Changes in a PIM product are automatically applied to the offer. The initial offer is also automatically applied.
@@ -842,8 +842,8 @@ The list displays all dependencies of the selected product. Depending on the set
 - *Change tracking mode*   
     Change tracking mode (ETL mode) of the dependent entity. The following options are available:
     - **Manual**
-    - **Semi-automatic**
-    - **Semi-automatic, changes must be confirmed by another user**   
+    - **Semiautomatic**
+    - **Semiautomatic, changes must be confirmed by another user**   
     - **Automatic**
 
 

@@ -1,6 +1,6 @@
 [!!Check the offer upload](./03_CheckOfferUpload.md)
 [!!User interface Offers](../UserInterface/02_Offers.md)
-[!!User interface Semi automatic mapping](../UserInterface/02c_SemiAutomaticMapping.md)
+[!!User interface Semiautomatic mapping](../UserInterface/02c_SemiautomaticMapping.md)
 
 
 # Manage the offers
@@ -78,9 +78,9 @@ If the Actindo *PIM* module is used, offers can be created directly from the PIM
     + Select the appropriate option for change tracking in the *ETL mode* section:   
         - ![Radionbutton](../../Assets/Icons/Radiobutton.png "[Radiobutton]") *manual*   
             Changes in a PIM product must be triggered manually to be applied to the offer. The initial offer is automatically applied.   
-        - ![Radionbutton](../../Assets/Icons/Radiobutton.png "[Radiobutton]") *semi-automatic*   
+        - ![Radionbutton](../../Assets/Icons/Radiobutton.png "[Radiobutton]") *semiautomatic*   
             Changes in a PIM product are automatically applied to the offer after confirmation. The initial offer is automatically applied without confirmation.   
-        - ![Radionbutton](../../Assets/Icons/Radiobutton.png "[Radiobutton]") *semi-automatic, changes must be confirmed by another user*   
+        - ![Radionbutton](../../Assets/Icons/Radiobutton.png "[Radiobutton]") *semiautomatic, changes must be confirmed by another user*   
           Changes in a PIM product are automatically applied to the offer after confirmation by another user. The initial offer is only applied after confirmation by another user.    
         - ![Radionbutton](../../Assets/Icons/Radiobutton.png "[Radiobutton]") *automatic*   
           Changes in a PIM product are automatically applied to the offer. The initial offer is also automatically applied.

@@ -156,8 +156,8 @@ At least one offer has been imported from a marketplace to *Omni-Channel*, see [
 
     + Click the *Mode* drop-down list in the *Behaviour on change of the PIM product* box and select the appropriate behaviour. The following options are available:
         - **manual**
-        - **semi-automatic**
-        - **semi-automatic, changes must be confirmed by another user**
+        - **semiautomatic**
+        - **semiautomatic, changes must be confirmed by another user**
         - **automatic**   
 
 

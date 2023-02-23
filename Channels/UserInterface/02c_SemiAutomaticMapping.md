@@ -1,14 +1,14 @@
 [!!Manage the offers](../Operation/01_ManageOffers.md)
 
-# Semi automatic mapping
+# Semiautomatic mapping
 
-*Omni-Channel > Offers > Tab SEMI AUTOMATIC MAPPING*
+*Omni-Channel > Offers > Tab SEMIAUTOMATIC MAPPING*
 
-![Semi automatic mapping](../../Assets/Screenshots/Channels/Offers/SemiAutomaticMapping/SemiAutomaticMapping.png "[Semi automatic mapping]")
+![Semiautomatic mapping](../../Assets/Screenshots/Channels/Offers/SemiautomaticMapping/SemiautomaticMapping.png "[Semiautomatic mapping]")
 
 [comment]: <> (screenshot anpassen/anonymisieren?)
 
-**Semi-automatic changes awaiting confirmation**
+**Semiautomatic changes awaiting confirmation**
 
 - ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh)   
     Click this button to update the list of offers awaiting confirmation.
@@ -44,7 +44,7 @@
 
 
 - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *List changes that cannot be confirmed by you*    
-    Enable this toggle to list all offers including those that cannot be confirmed by you. Disable the toggle to list only offers that can be confirmed by you. By default, this toggle is disabled.
+    Enable this toggle to list all offers including those that cannot be confirmed by the current user. Disable the toggle to list only offers that can be confirmed by the current user. By default, this toggle is disabled.
 
 - ![Columns](../../Assets/Icons/Columns.png "[Columns]") Columns (x)   
     Click this button to display the columns bar and customize the displayed columns and the order of columns in the list. The *x* indicates the number of columns that are currently displayed in the list.
@@ -53,7 +53,7 @@
     Select the checkbox to display the editing toolbar. If you click the checkbox in the header, all offers in the list are selected.
 
 - ![Lock](../../Assets/Icons/Lock01.png "[Lock]") (Lock)   
-    Locked offers cannot be confirmed by you. These offers are greyed out and cannot be selected.
+    Locked offers cannot be confirmed by the current user. These offers are greyed out and cannot be selected.
     
 - [CONFIRM]    
     Click this button to confirm the changes in the selected offer(s). The offer is uploaded with the confirmed changes and removed from the list. 
@@ -61,7 +61,7 @@
 - [REJECT]   
     Click this button to reject the changes in the selected offer(s). The offer is removed from the list. 
 
-Depending on whether the *List changes that cannot be confirmed by you* toggle is enabled or not, the list displays all offers, including those that cannot be confirmed by you, or only offers that can be confirmed by you. Depending on the settings, the displayed columns may vary. All fields are read-only. 
+Depending on whether the *List changes that cannot be confirmed by you* toggle is enabled or not, the list displays all offers, including those that cannot be confirmed by the current user, or only offers that can be confirmed by the current user. Depending on the settings, the displayed columns may vary. All fields are read-only. 
 
 - *SKU*      
     Stock Keeping Unit. Identification number of the product.
@@ -92,5 +92,5 @@ Depending on whether the *List changes that cannot be confirmed by you* toggle i
 
 - *Cannot be confirmed by user*   
     Indication whether the offer can be confirmed by the current user or not:
-    - ![Check](../../Assets/Icons/Check.png "[Check]") (Checkmark): The offer can be confirmed by you.  
-    - ![Cross](../../Assets/Icons/Cross02.png "[Cross]") (Cross): The offer cannot be confirmed by you.
+    - ![Check](../../Assets/Icons/Check.png "[Check]") (Checkmark): The offer can be confirmed by the current user.  
+    - ![Cross](../../Assets/Icons/Cross02.png "[Cross]") (Cross): The offer cannot be confirmed by the current user.

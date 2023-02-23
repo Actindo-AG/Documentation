@@ -32,9 +32,9 @@ The list displays all scheduled offer imports. Depending on the settings, the di
     Change tracking mode (ETL mode) of the dependent entity. The following options are available:  
     - **manual**   
         Changes in a PIM product must be triggered manually to be applied to the offer. The initial offer is automatically applied.
-    - **semi-automatic**   
+    - **semiautomatic**   
         Changes in a PIM product are automatically applied to the offer after confirmation. The initial offer is automatically applied without confirmation.   
-    - **semi-automatic, changes must be confirmed by another user**   
+    - **semiautomatic, changes must be confirmed by another user**   
         Changes in a PIM product are automatically applied to the offer after confirmation by another user. The initial offer is only applied after confirmation by another user.       
     - **automatic**    
         Changes in a PIM product are automatically applied to the offer. The initial offer is also automatically applied.
