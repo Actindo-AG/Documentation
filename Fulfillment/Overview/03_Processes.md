@@ -2,4 +2,4 @@
 
 The following scheme shows the processes and chapters of the *Fulfillment* module documentation and their link to other modules:
 
-![Process Fulfillment](../../Assets/Screenshots/Fulfillment/FulfillmentProcesses.png "[Process Fulfillment]")
+![Fulfillment Processes](../../Assets/Screenshots/Fulfillment/FulfillmentProcesses.png "[Fulfillment Processes]")
