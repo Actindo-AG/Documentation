@@ -5,7 +5,7 @@
 
 *Omni-Channel > Orders and returns > Tab SHIPMENT ERRORS*
 
-![Orders](../../Assets/Screenshots/Channels/OrdersReturns/ShipmentErrors/ShipmentErrors.png "[Orders]")
+![Shipment errors](../../Assets/Screenshots/Channels/OrdersReturns/ShipmentErrors/ShipmentErrors.png "[Shipment errors]")
 
 **Error list**	
 
@@ -61,8 +61,6 @@ The list displays all errors to the shipments. Depending on the settings, the di
 
 - *Shipment*  
     Shipment identification number. The ID number is automatically assigned by the system.
-
-[comment]: <> (Check!)
 
 - *Last modified*  
     Date and time of the last modification.

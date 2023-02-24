@@ -2,10 +2,7 @@
 
 *Omni-Channel > Logging > Tab LOG*
 
-[comment]: <> (Datei Fulfillment/UserInterface/02a_Connections.md als Referenz. Ggf. Änderungen konsistent in beiden Dateien übernehmen. Event log hier zu intent geändert. Unsicher zu Terminologe: Unterschied zwischen Log und Intent? Oder eher intent log verwenden?)
-
 ![List of intents](../../Assets/Screenshots/Channels/Logging/ListIntents.png "[List of intents]")
-
 
 **List of intents**
 
@@ -82,8 +79,6 @@ The list displays all intents. Depending on the settings, the displayed columns 
     - **Alert**
     - **Emergency**
 
-[comment]: <> (Icons hinzufügen?)  
-
 - *ID*  
     Log identification number. The ID number is automatically assigned by the system.
 
@@ -111,13 +106,12 @@ The list displays all intents. Depending on the settings, the displayed columns 
 - ![Unpublish](../../Assets/Icons/Unpublish02.png "[Unpublish]") (Unpublish)  
     Click this button to unpublish the log message.
 
-[comment]: <> (Unpublish oder private view? Bedeutung?)
+[comment]: <> (Gibt es auch einen publish button, wenn eine message unplublished wurde?)
 
 - ![View](../../Assets/Icons/Eye02.png "[View]") (View)    
     Click this button to display the details of the log message. Alternatively, you can click directly a row in the list to display the details of the log message. The *Detail of log message "Log message title"* view is displayed, see [Detail of log message "Log message title"](#detail-of-log-message-log-message-title). 
 
-
-The list displays all messages contained in the selected intent. Depending on the settings, the displayed columns may vary. All fields are read-only.
+The list displays all log messages of the selected intent. Depending on the settings, the displayed columns may vary. All fields are read-only.
 
 - *Title*  
     Title of the log message.
@@ -180,7 +174,7 @@ This view can also be accessed from the following tabs in the user interface:
 
 The *Attributes* tab displays further details of the selected log message. Depending on the error message the fields vary. All fields are read-only.
 
-[comment]: <> (wovon sind die Felder abhängig? Attributes that are assigned somewhere?)
+[comment]: <> (wovon sind die Felder abhängig? wann werden welche Felder angezeigt?)
 
 - *Error code*  
     Error code number.
@@ -197,6 +191,7 @@ The *Attributes* tab displays further details of the selected log message. Depen
 
 - *Exception*   
 
+[comment]: <> (was steht in den Feldern drin?)
 
 [comment]: <> (woher kommen die folgenden Felder? Die werden bei mir nie angezeigt)
 
@@ -255,8 +250,6 @@ The *Attributes* tab displays further details of the selected log message. Depen
 - *Keywords*      
 
 
-[comment]: <> (Further info needed)
-
 
 
 ### Detail of log message "Log message title" &ndash; Dependencies
@@ -286,7 +279,7 @@ The list displays all dependencies of the selected product. Depending on the set
     - **Omni-Channel Offer**
     - **UCS Product**
 
-[comment]: <> (what else? Vermutlich Standardsatz "All available/relevant dependent entity types are displayed".)
+[comment]: <> (what else?)
 
 - *Change tracking mode*   
     Change tracking mode (ETL mode) of the dependent entity. The following options are available:

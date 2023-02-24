@@ -1,4 +1,5 @@
-[!! Import an offer](../Operation/02_ImportOffers.md)
+[!!Import an offer](../Operation/02_ImportOffers.md)
+[!!Manage the offers](../Operation/01_ManageOffers.md)
 
 # PIM->CHANNELS
 
@@ -9,11 +10,9 @@
 **Channels offers to be created from PIM products**	
 
 - [CLEAR ALL]  
-    Click this button to clear all scheduled offer imports.
+    Click this button to remove all scheduled offer imports from the list.
 
-[comment]: <> (Bedeutung von CLEAR hier? Delete? Auf DE = ALLE LEEREN)
-
-[comment]: <> (Scheduled offer imports? Channels offers to be created from PIM products)
+[comment]: <> (funktioniert der Button?)
 
 - ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh)   
     Click this button to update the list of scheduled offer imports.
@@ -21,9 +20,7 @@
 - ![Columns](../../Assets/Icons/Columns.png "[Columns]") Columns (x)   
     Click this button to display the columns bar and customize the displayed columns and the order of columns in the list. The *x* indicates the number of columns that are currently displayed in the list.
 
-
-The list displays all scheduled offer imports. Depending on the settings, the displayed columns may vary. All fields are read-only. If no offer imports are scheduled, the *No imports are currently scheduled* notice is displayed. 
-
+The list displays all scheduled offer imports when creating offers from PIM products in the *Omni-Channel* module, see [Create an offer from a PIM product](../Operation/01_ManageOffers.md#create-an-offer-from-a-pim-product). Depending on the settings, the displayed columns may vary. All fields are read-only. If no offer imports are scheduled, the *No imports are currently scheduled* notice is displayed. 
 
 - *SKU*  
    Stock Keeping Unit. Identification number for the offer.
@@ -43,12 +40,8 @@ The list displays all scheduled offer imports. Depending on the settings, the di
     Date and time of the offer import creation.
 
 - *Author*  
-    Name and username of the user who changed the offer and triggered the import.
-
-[comment]: <> (oder eher: user who triggered the import)
+    Name and username of the user who triggered the import.
 
 - *ID*  
-    Offer identification number. The ID number is automatically assigned by the system after creation.
-
-[comment]: <> (offer oder offer import identification number? Vgl. Offer ID / ID + comment in 03a_ScheduledUploads.md)
+    Offer import identification number. The ID number is automatically assigned by the system after creation.
 

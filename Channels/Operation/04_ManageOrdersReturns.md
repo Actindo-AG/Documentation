@@ -97,7 +97,7 @@ A connection to a marketplace has been established, see [Create a connection](..
 
 
 
-[comment]: <> (returns vorerst ignorieren?!)
+[comment]: <> (returns vorerst ignorieren!)
 
 ## Import returns manually
 

@@ -1,5 +1,5 @@
-[!! Check the failed offer uploads](../Operation/03_CheckOfferUpload.md#check-the-failed-offer-uploads)
-[!! Retry a faulty offer upload](../Troubleshooting/01_RetryFaultyUpload.md)
+[!!Check the failed offer uploads](../Operation/03_CheckOfferUpload.md#check-the-failed-offer-uploads)
+[!!Retry a faulty offer upload](../Troubleshooting/01_RetryFaultyUpload.md)
 
 
 # Errors

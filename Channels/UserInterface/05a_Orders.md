@@ -1,6 +1,7 @@
 [!!Configure the orders and returns](../Integration/04_ConfigureOrdersReturns.md)
 [!!Manage the orders and returns](../Operation/04_ManageOrdersReturns.md)
 
+[comment]: <> (Add link to Order management if available)
 
 # Orders
 
@@ -13,11 +14,11 @@
 - *Combined status*  
     Combined status of all orders. The following statuses are available:
     - ![red](../../Assets/Icons/Status02.png "[red]") (red)  
-        There are errors in the orders. Click the *>> more* button to switch to the *ERRORS* tab.   
+        At least one order is faulty. Click the [>> more] button right to the status to switch to the *ERRORS* tab, see [User interface Errors (Orders and returns)](./05c_Errors.md).   
     - ![yellow](../../Assets/Icons/Status05.png "[yellow]") (yellow)  
-        There are pending orders.
+        At least one orders is still pending.
     - ![green](../../Assets/Icons/Status03.png "[green]") (green)  
-        There are no errors in the orders.
+        All orders are completed.
 
 - ![Search](../../Assets/Icons/Search.png "[Search]") (Search)   
     Click this button to display the search bar and search for an order.
@@ -55,7 +56,7 @@
             Click this entry to delete the selected view. A confirmation window to confirm the deletion is displayed. This menu entry is only displayed if a view has been selected.
 
 - *All Connections*    
-    Click the drop-down list to select a connection. All available connections are displayed in the list. When selecting a connection, the [Import orders] button, the *Download orders automatically* drop-down list and the [SAVE] button are displayed.
+    Click the drop-down list to select a connection. All available connections are displayed in the list. When a connection has been selected, the [Import orders] button, the *Download orders automatically* drop-down list and the [SAVE] button are displayed.
 
 - [Import orders for all connections]  
     Click this button to import the orders for all connections. This button is only displayed if no connection has been selected in the *All connections* drop-down list.
@@ -87,17 +88,23 @@
     Select the checkbox to display the editing toolbar. If you click the checkbox in the header, all orders in the list are selected.
 
 - [VIEW]  
-    Click this button to display the *Order from connection "Connection name"* view of the selected order. Alternatively, you can click directly a row in the list to view the corresponding order. This button is only displayed if a single checkbox in the list of connections is selected.
+    Click this button to display the *Order from connection "Connection name"* view of the selected order. Alternatively, you can click directly a row in the list to display the corresponding order. This button is only displayed if a single checkbox in the list of connections is selected.
 
 - [EXPORT TO OMS]  
     Click this button to export the selected order(s) to the *Order management* module. This button is only displayed if the checkbox of at least one order is selected.
 
 - [RETRY IMPORT]  
-    Click this button to retry the import of the selected order(s). This button is only displayed if the checkbox of at least one order is selected. The *Import will be retried* pop-up window is displayed.
+    Click this button to retry the import of the selected order(s). This button is only displayed if the checkboxes of at least two orders is selected. The *Import will be retried* pop-up window is displayed.
 
     ![Import will be retried](../../Assets/Screenshots/Channels/OrdersReturns/Orders/ImportRetried.png "[Import will be retried]")
 
-[comment]: <> (at least one or at least two orders? Getestet in NoE, mindestens 2 nötig)
+[comment]: <> (warum kann man nicht ein order nochmals importieren - BUG?)
+
+
+- [CANCEL ORDER]/[CANCEL ORDERS]  
+    Click this button to cancel the import of the selected order(s). This button is only displayed if the checkbox of at least one order with the **Error** status in the *Status of import from channel* column is selected. 
+
+[comment]: <> (wird nach Ausführung irgendein pop-up fenster angezeigt?)
 
 The list displays all orders, either for all connections or for the selected connection. Depending on the settings, the displayed columns may vary. All fields are read-only. 
 
@@ -113,7 +120,7 @@ The list displays all orders, either for all connections or for the selected con
     - **Canceled**  
         The order import has been canceled.  
     - **Error**  
-        The order import has given an error.
+        The order import has given an error. Click the [Show log message] button in the column to display the corresponding log message in the *LOG* tab, see [User interface LOG](./06a_Log.md).
 
 - *Status of export to channel*  
     Status of the order export from the *Omni-Channel* module to the marketplace. The following options are available:  
@@ -121,6 +128,9 @@ The list displays all orders, either for all connections or for the selected con
         The order has been successfully exported.  
     - **No changes to sync**  
         There are no changes to synchronize.
+    - **Error**   
+        Click the [Show log message] button in the column to display the corresponding log message in the *LOG* tab, see [User interface LOG](./06a_Log.md).
+
 
 - *Status of export to OMS*  
     Status of the order export from the *Omni-Channel* module to the *Order management* module for further processing. The following options are available:  
@@ -132,6 +142,8 @@ The list displays all orders, either for all connections or for the selected con
         The order export is pending.
     - **Being exported**  
         The order is currently being exported.
+
+[comment]: <> (Weitere status?)
 
 - *Created on*  
     Date and time of the creation. 
@@ -146,10 +158,10 @@ The list displays all orders, either for all connections or for the selected con
     Identification number of the document in the *Order management* module.    
 
 - *\# Line items*  
-    Number of line items contained in the order.
+    Number of line items in the order.
 
 - *Line items*  
-    SKU of line item(s) contained in the order. 
+    SKU of line item(s) in the order. 
 
 - *ID*  
     Order identification number. The ID number is automatically assigned by the system.
@@ -174,10 +186,8 @@ The list displays all orders, either for all connections or for the selected con
 - *ID in shop:*  
     Identification number of the order in the marketplace. 
 
-- *Document ID:*  
+- *Bill ID:*  
     Identification number of the document in the *Order management* module.   
-
-[comment]: <> (Jetzt in UI Bill ID?)
   
 - *Import status:*  
     Order import status from the marketplace to the *Omni-Channel* module. The following statuses are available:  
@@ -187,17 +197,17 @@ The list displays all orders, either for all connections or for the selected con
     - **Error**
 
 - *Export status:*  
-    Order export status from the *Omni-Channel* module to the  marketplace. The following statuses are available:  
+    Order export status from the *Omni-Channel* module to the marketplace. The following statuses are available:  
     - **Exported**
     - **No changes to sync**  
     
-  [comment]: <> (Stimmt das? Feld immer/meistens leer hier, auch wenn in Order Liste Status angezeigt. Bezieht sich auf Status of Export to Channel oder Status of Export to OMS? Andere Möglichkeiten?)
+[comment]: <> (Stimmt das? Feld immer/meistens leer hier, auch wenn in Order Liste Status angezeigt. Bezieht sich auf Status of Export to Channel oder Status of Export to OMS? Andere Möglichkeiten?)
 
 - [EXPORT TO OMS]  
-    Click this button to export the order to the *Order management* module. This button is only displayed if the status in the *Status of export to OMS* column is **Not exported: Pending > 30 minutes to OMS**.
+    Click this button to export the order to the *Order management* module. This button is only displayed if the status in the *Status of export to OMS* column equals **Not exported: Pending > 30 minutes to OMS**.
 
 - [RE-TRIGGER IMPORT]    
-    Click this button to trigger the order import again. This button is only displayed if the status in the *Status of import from channel* column is **Not imported**. The *Order import triggered* pop-up window is displayed.
+    Click this button to trigger the order import again. This button is only displayed if the status in the *Status of import from channel* column equals **Not imported**. The *Order import triggered* pop-up window is displayed.
 
     ![Order import triggered](../../Assets/Screenshots/Channels/OrdersReturns/Orders/OrderImportTriggered.png "[Order import triggered]")
 
@@ -209,8 +219,6 @@ The list displays all orders, either for all connections or for the selected con
 *Omni-Channel > Orders and returns > Tab ORDERS > Select order > Tab Attributes*
 
 ![Order connection attributes](../../Assets/Screenshots/Channels/OrdersReturns/Orders/OrderConnectionAttributes.png "[Order connection attributes]")
-
-[comment]: <> (Hinzufügen/erklären? The attributes tab reproduces the fields available in the marketplace.)
 
 In the left margin column, all available attribute groups are displayed. Click an attribute group to display the attributes that are assigned to this group on the right side of the *Attributes* tab. If the order contains attributes that are unassigned, the *Unassigned group* attribute group is automatically displayed in the left margin column.
 
@@ -256,8 +264,6 @@ The list displays all dependencies of the selected order. Depending on the setti
     - **Omni-Channel Offer**
     - **UCS Product**
     - **UCS Faktura**
-
-[comment]: <> (Standardsatz wie All dependent entity types are displayed?)
 
 - *Change tracking mode*   
     Change tracking mode (ETL mode) of the dependent entity. The following options are available:
@@ -339,7 +345,7 @@ The list displays all line items of the selected order. Depending on the setting
     - **Line item**
     - **Shipping**
 
-[comment]: <> (What else? Oder Standardsatz wie All available line item types are displayed?)
+[comment]: <> (Andere Typen?)
 
 - *ID*  
     Order identification number. The ID number is automatically assigned by the system after creation.
@@ -543,7 +549,7 @@ The list displays all dependencies of the selected order. Depending on the setti
     - **Omni-Channel Offer**
     - **UCS Product**
   
-[comment]: <> (What else? Vermutlich eher Standardsatz wie All available dependent entity types are displayed.)
+[comment]: <> (What else?)
 
 - *Change tracking mode*   
     Change tracking mode (ETL mode) of the dependent entity. The following options are available:
@@ -594,7 +600,7 @@ The list displays all items of the selected order. Depending on the settings, th
     - **Line item**
     - **Shipping**
 
-[comment]: <> (what else? Standardsatz All available item types are displayed.)
+[comment]: <> (what else?)
 
 - *ID*  
     Order identification number. The ID number is automatically assigned by the system after creation.
@@ -664,7 +670,7 @@ The list displays all dependencies of the selected order. Depending on the setti
     - **Omni-Channel Offer**
     - **UCS Product**
 
-[comment]: <> (what else? Standardsatz)
+[comment]: <> (what else?)
 
 - *Change tracking mode*   
     Change tracking mode (ETL mode) of the dependent entity. The following options are available:
@@ -724,7 +730,7 @@ The list displays all shipments for the selected order. Depending on the setting
     - **No changes to sync**  
         There are no changes to synchronize.
 
-[comment]: <> (Check, ob es stimmt. Status bezieht sich auf Order oder Shipment? Andere Möglichkeiten?)
+[comment]: <> (Check, ob es stimmt. Status bezieht sich auf Order oder Shipment? Andere optionen?)
 
 - *ID*  
     Shipment identification number. The ID number is automatically assigned by the system.
@@ -752,24 +758,16 @@ The list displays all shipments for the selected order. Depending on the setting
 - ![Filter](../../Assets/Icons/Filter.png "[Filter]") Filter (x)   
     Click this button to display the filter bar and customize the active filters. The *x* indicates the number of filters that are currently active.
 
-- [x]     
-    Select the checkbox to display the editing toolbar. If you click the checkbox in the header, all errors in the list are selected.
-
-- [VIEW]  
-    Click this button to display the the *Detail of log message "Log message title"* view of the selected error. Alternatively, you can click directly a row in the list to display the corresponding error. This button is only displayed if a single checkbox in the list of errors is selected.
-
-[comment]: <> (Check, ob das stimmt, wenn errors vorhanden. Vielleicht: This button is only displayed if a checkbox in the list of errors is selected. In checkbox oben dann: Only one checkbox can be selected at a time.)
-
 The list displays all errors of the selected order. Depending on the settings, the displayed columns may vary. All fields are read-only.
 
 - *Log ID*  
     Log identification number. The ID number is automatically assigned by the system.   
 
 - *Message*  
-    Description of the error.
+    Description of the error. Click the [Show log message] button in the column to display the corresponding log message in the *LOG* tab, see [User interface LOG](./06a_Log.md).
 
-- *Message*  
-    Detailed description of the error.
+- *Short Message*  
+    Short description of the error.
 
 - *Created*  
     Date and time of the creation.
@@ -783,18 +781,7 @@ The list displays all errors of the selected order. Depending on the settings, t
 - *Editor*  
     Name and username of the user who modified the error.  
 
-[comment]: <> (Check, ob es stimmt mit errors)
-
-
-### Detail of log message "Log message title"
-
-*Omni-Channel > Orders and returns > Tab ORDERS > Select order > Tab Errors > Select error*
-
-![Detail of log message](../../Assets/Screenshots/Channels/OrdersReturns/Errors/DetailLogMessage.png "[Detail of log message]")
-
-[comment]: <> (Add screenshot)
-
-For a detailed description of this view and the corresponding functions, see [LOG](./06a_Log.md#detail-of-log-message-log-message-title).
+[comment]: <> (bezieht sich  Editor und Creator auf das offer oder den error? Leeres Feld bei systemfehler?)
 
 
 ## Create view

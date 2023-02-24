@@ -5,7 +5,7 @@
 
 *Omni-Channel > Orders and returns > Tab CANCELLATION ERRORS*
 
-![Orders](../../Assets/Screenshots/Channels/OrdersReturns/CancellationErrors/CancellationErrors.png "[Orders]")
+![Cancellation errors](../../Assets/Screenshots/Channels/OrdersReturns/CancellationErrors/CancellationErrors.png "[Cancellation errors]")
 
 **Error list**	
 

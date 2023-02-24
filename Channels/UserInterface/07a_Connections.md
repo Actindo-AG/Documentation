@@ -4,8 +4,6 @@
 
 *Omni-Channel > Settings > Tab CONNECTIONS*
 
-[comment]: <> (Datei Fulfillment/UserInterface/03a_Connections.md als Referenz. Ggf. Änderungen hier auch übernehmen)
-
 ![Connections](../../Assets/Screenshots/Channels/Settings/Connections/Connections.png "[Connections]")
 
 **Connections**
