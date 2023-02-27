@@ -2,7 +2,7 @@
 
 *Taxes > Settings*
 
-The Taxes *Settings* menu entry is used to manage the tax rates, tax classes and tax zones, and to configure the decision matrix to determine the tax zone to be applied to a specific order.
+The *Settings* menu entry is used to manage the tax rates, tax classes and tax zones, and to configure the decision matrix to determine the tax zone to be applied to a specific order.
 
 The *Settings* user interface is composed of the following tabs:
 - [TAX RATES](./01a_TaxRates.md)

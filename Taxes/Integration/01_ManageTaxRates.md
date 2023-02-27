@@ -1,7 +1,8 @@
-[!!Accounting](../../RetailSuiteAccounting/Overview/01_General.md)
 [!!User interface Tax rates](../UserInterface/01a_TaxRates.md)
 [!!Manage the tax classes](./02_ManageTaxClasses.md)
 [!!Manage the tax zones](./03_ManageTaxZones.md)
+
+[comment]: <> (Add link to Accounting if available)
 
 # Manage the tax rates
 
@@ -108,7 +109,7 @@ A tax rate has been created, see [Create a tax rate](#create-a-tax-rate).
 ![Tax rates](../../Assets/Screenshots/Taxes/Settings/TaxRates/TaxRates.png "[Tax rates]")
 
 1. Select the checkbox of the tax rate to be deleted.  
-  The editing toolbar is displayed.
+    The editing toolbar is displayed.
 
     > [Caution] Be aware that the existing tax rate will be deleted permanently.
 

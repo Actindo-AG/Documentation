@@ -33,9 +33,9 @@
 
 - Country of origin  
     Country where the product is shipped from.
-    - Click the drop down-list on the left to select a group of countries. As a group of countries, only the **EU - European Union** option is available.   
+    + Click the drop down-list on the left to select a group of countries. As a group of countries, only the **EU - European Union** option is available.   
     When selecting this option, the drop-down list on the right is locked. Leave it blank (**Any**) if you want to specify an individual country in the drop-down list on the right.
-    - Click the drop-down list on the right to select an individual country. All available countries in the system are displayed.
+    + Click the drop-down list on the right to select an individual country. All available countries in the system are displayed.
 
     > [Info] To change the selection of a drop-down list back to **Any**, reselect the already selected option in the drop-down list.
 
@@ -44,9 +44,9 @@
 
 - Ship-to country  
     Country where the product is shipped to.
-    - Click the drop down-list on the left to select a group of countries. As a group of countries, only the **EU - European Union** option is available.   
+    + Click the drop down-list on the left to select a group of countries. As a group of countries, only the **EU - European Union** option is available.   
     When selecting this option, the drop-down list on the right is locked. Leave it blank (**Any**) if you want to specify an individual country. When selecting this option, the drop-down list on the right is unlocked.
-    - Click the drop-down list on the right to select an individual country. All available countries in the system are displayed.
+    + Click the drop-down list on the right to select an individual country. All available countries in the system are displayed.
 
     > [Info] To change the selection of a drop-down list back to **Any**, reselect the already selected option in the drop-down list.
 
@@ -57,7 +57,7 @@
 
 - Ship-to postcode  
     Specific area within a country or territory where the product is shipped to.   
-    - Click the drop-down list and select the appropriate option. The following options are available:
+    + Click the drop-down list and select the appropriate option. The following options are available:
         - **Range**  
             Select this option to specify a numeric postcode range, for example **27498** or **52001-52006**.
         - **Regex**  
@@ -65,9 +65,10 @@
 
     The field to the right of the *Ship-to postcode* drop-down list is unlocked.  
 
-    - Enter the applicable range or regular expression in the unlocked field on the right.
+    + Enter the applicable range or regular expression in the unlocked field on the right.
     
     For detailed information, see [Define a tax exceptions on ZIP code level](../Operation/01_ManageDecisionMatrix.md#define-tax-exceptions-on-zip-code-level).
+
 
 **Net value of goods smaller than**
 

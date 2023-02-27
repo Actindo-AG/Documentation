@@ -1,9 +1,9 @@
-[!!Accounting](../../RetailSuiteAccounting/Overview/01_General.md)
 [!!User interface Tax zones](../UserInterface/01d_TaxZones.md)
 [!!Manage the tax rates](./01_ManageTaxRates.md)
 [!!Manage the tax classes](./02_ManageTaxClasses.md)
 [!!Manage the decision matrix](../Operation/01_ManageDecisionMatrix.md)
 
+[comment]: <> (Add link to Accounting if available)
 
 # Manage the tax zones
 

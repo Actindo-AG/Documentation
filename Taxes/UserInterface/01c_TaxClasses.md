@@ -1,4 +1,3 @@
-
 [!!Manage the tax classes](../Integration/02_ManageTaxClasses.md)
 
 # Tax classes

@@ -1,6 +1,7 @@
-[!!Accounting](../../RetailSuiteAccounting/Overview/01_General.md)
 [!!User interface Tax classes](../UserInterface/01c_TaxClasses.md)
 [!!Manage the tax rates](./01_ManageTaxRates.md)
+
+[comment]: <> (Add link to Accounting if available)
 
 # Manage the tax classes
 

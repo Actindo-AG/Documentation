@@ -1,6 +1,6 @@
 [!!Manage the tax rates](../Integration/01_ManageTaxRates.md)
-[!!Manage the tax keys](../../RetailSuiteAccounting/Integration/02_ManageTaxKeys.md)
 
+[comment]: <> (Add link to Manage tax keys in Accounting if available)
 
 # Tax rates
 
@@ -22,7 +22,7 @@
 - [x]     
     Select the checkbox to display the editing toolbar. If you click the checkbox in the header, all tax rates in the list are selected.
 
-  [comment]: <> (Alle Tax rates ausgewählt, aber es ist nicht möglich, etwas zu machen, i.e. keine Editing toolbar angezeigt. Stand: 19.09.22)
+[comment]: <> (Alle Tax rates ausgewählt, aber es ist nicht möglich, etwas zu machen, i.e. keine Editing toolbar angezeigt. Stand: 19.09.22)
 
 - [EDIT]   
     Click this button to edit the selected tax rate. This button is only displayed, when the checkbox of a tax rate is selected. Alternatively, you can click directly a row in the list to edit a tax rate. The *Edit tax rate* view is displayed, see [Edit tax rate](#edit-tax-rate).   
