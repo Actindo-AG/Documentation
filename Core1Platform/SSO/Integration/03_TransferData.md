@@ -16,10 +16,10 @@ After the organization side configuration for SSO in Azure AD, Actindo needs to 
 1. Create a MPS ticket for Actindo.   
 
 2. Include the following data:
-- User data (userPrincipalName and ID) of each user who will use SSO
-- Client secret value
-- Application (client) ID
-- OAuth 2.0 authorization endpoint (v2) and OAuth 2.0 token endpoint (v2)
+    - User data (userPrincipalName and ID) of each user who will use SSO
+    - Client secret value
+    - Application (client) ID
+    - OAuth 2.0 authorization endpoint (v2) and OAuth 2.0 token endpoint (v2)
 
 3. Send the ticket with the required data to Actindo.   
-  The SSO for Actindo will be configured.
+    The SSO for Actindo will be configured.

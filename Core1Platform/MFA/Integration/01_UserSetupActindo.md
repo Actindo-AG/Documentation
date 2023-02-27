@@ -1,7 +1,6 @@
 [!!Set up U2F from the administrator side](./02_AdminSetupActindo.md)
 [!!User interface Profile settings](../../UserInterface/01d_U2F.md)
 
-
 # Set up U2F from the user side
 
 For the U2F setup of an Actindo account, a user-side setup as well as an administrator-side setup is necessary. The user needs to define several settings within its Actindo account to add *U2F* with the *YubiKey* as an authorization method.
@@ -20,49 +19,49 @@ For the U2F setup of an Actindo account, a user-side setup as well as an adminis
 > [Info] For the user-side setup, you can log in to both, a live account or a sandbox of the Core1 PLattform.
 
 1. Enter your user name in the *User name* field and click the [LOGIN] button.   
-  The *Password* field is displayed.
+    The *Password* field is displayed.
 
-  ![Login password](../../../Assets/Screenshots/Core1Platform/LoginPassword.png "[Login password]")
+    ![Login password](../../../Assets/Screenshots/Core1Platform/LoginPassword.png "[Login password]")
 
 2. Enter your password in the *Password* field and click the [LOGIN] button.   
-  You are logged in. The *Actindo Dashboard* is displayed.
+    You are logged in. The *Actindo Dashboard* is displayed.
 
-  ![Actindo dashboard](../../../Assets/Screenshots/ActindoDashboard/ActindoDashboard.png "[Actindo dashboard]")
+    ![Actindo dashboard](../../../Assets/Screenshots/ActindoDashboard/ActindoDashboard.png "[Actindo dashboard]")
 
 3. Click your avatar icon in the upper right corner.   
-  The profile menu is displayed.
+    The profile menu is displayed.
 
-  ![Profile menu](../../../Assets/Screenshots/Core1Platform/ProfileMenu.png "[Profile menu]")
+    ![Profile menu](../../../Assets/Screenshots/Core1Platform/ProfileMenu.png "[Profile menu]")
 
 4. Click the *Settings* entry in the profile menu.   
-  The *Profile* tab is displayed.
+    The *Profile* tab is displayed.
 
-  ![Profile](../../../Assets/Screenshots/Core1Platform/ProfileSettings/Profile/Profile.png "[Profile]")
+    ![Profile](../../../Assets/Screenshots/Core1Platform/ProfileSettings/Profile/Profile.png "[Profile]")
 
 5. Click to the *U2F* tab.   
-  The *U2F* tab is displayed.
+    The *U2F* tab is displayed.
 
-  ![U2F](../../../Assets/Screenshots/Core1Platform/ProfileSettings/U2F/U2F.png "[U2F]")
+    ![U2F](../../../Assets/Screenshots/Core1Platform/ProfileSettings/U2F/U2F.png "[U2F]")
 
 6. Click the ![Add](../../../Assets/Icons/Plus01.png "[Add]") (Add) button in the bottom right corner.   
-  The *Add new U2F device* window is displayed.
+    The *Add new U2F device* window is displayed.
 
-  ![Add new U2F device](../../../Assets/Screenshots/Core1Platform/ProfileSettings/U2F/AddNewU2FDevice.png "[Add new U2F device]")
+    ![Add new U2F device](../../../Assets/Screenshots/Core1Platform/ProfileSettings/U2F/AddNewU2FDevice.png "[Add new U2F device]")
 
 7. Click the [OK] button to continue the device registration for U2F.   
-  The browser window *Verify your identity* is displayed to select the device type for the identity verification.
+    The browser window *Verify your identity* is displayed to select the device type for the identity verification.
 
-  ![Verify your identity](../../../Assets/Screenshots/Core1Platform/ProfileSettings/U2F/VerifyIdentity.png "[Verify your identity]")
+    ![Verify your identity](../../../Assets/Screenshots/Core1Platform/ProfileSettings/U2F/VerifyIdentity.png "[Verify your identity]")
 
 8. Select the *USB security key* option in the browser window.   
-  The browser window changes to the *Use your security key* window and prompts to insert the key and touch it.
+    The browser window changes to the *Use your security key* window and prompts to insert the key and touch it.
 
-  ![Use security key](../../../Assets/Screenshots/Core1Platform/ProfileSettings/U2F/UseSecurityKey.png "[Use security key]")
+    ![Use security key](../../../Assets/Screenshots/Core1Platform/ProfileSettings/U2F/UseSecurityKey.png "[Use security key]")
 
 9. Insert the *YubiKey* into your device.   
-  The *YubiKey* starts to flash.
+    The *YubiKey* starts to flash.
 
-  > [Info] Note that problems with the connection to the *YubiKey* may occur if you use an adapter or an additional cable to connect the *YubiKey*.
+    > [Info] Note that problems with the connection to the *YubiKey* may occur if you use an adapter or an additional cable to connect the *YubiKey*.
 
 8. Touch the flashing area on your *YubiKey*.    
 
