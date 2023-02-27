@@ -3,7 +3,6 @@
 [!!Track a workflow process](../Operation/02_TrackWorkflowProcess)
 [!!Workflow and process elements](../Overview/04_WorkflowProcessElements.md)
 
-
 # Retry process action
 
 You can retry one or several faulty process actions after you have fixed the cause of the error to continue the affected process(es).
@@ -29,24 +28,24 @@ The cause of the faulty process action has been fixed.
 ![Faulty process](../../Assets/Screenshots/ActindoWorkFlow/Processes/FaultyProcess.png "[Faulty process]")
 
 1. Click the process with the **Error** status in the *Status* column.   
-  The *Process ID* view of the selected process is displayed.
+    The *Process ID* view of the selected process is displayed.
 
-  ![Faulty process ID](../../Assets/Screenshots/ActindoWorkFlow/Processes/FaultyProcessID.png "[Faulty process ID]")
+    ![Faulty process ID](../../Assets/Screenshots/ActindoWorkFlow/Processes/FaultyProcessID.png "[Faulty process ID]")
 
 2. Click the faulty process action in the process diagram.   
-  The selected action is displayed in the *Actions* tab in the bottom part of the *Process ID* view.
+    The selected action is displayed in the *Actions* tab in the bottom part of the *Process ID* view.
 
-  > [Info] If required, you can switch to the *Logs* tab and click the log with the **Error** type in the column *Type* to display the *Log ID* view with the complete log message to the error.
+    > [Info] If required, you can switch to the *Logs* tab and click the log with the **Error** type in the column *Type* to display the *Log ID* view with the complete log message to the error.
 
 3. Select the checkbox of the faulty action.   
-  The editing toolbar is displayed.
+    The editing toolbar is displayed.
 
-  ![Error action selected](../../Assets/Screenshots/ActindoWorkFlow/Processes/ErrorActionSelected.png "[Error action selected]")
+    ![Error action selected](../../Assets/Screenshots/ActindoWorkFlow/Processes/ErrorActionSelected.png "[Error action selected]")
 
 4. Click the ![Retry](../../Assets/Icons/Retry01.png "[Retry]") (Retry) button in the editing toolbar.     
-  The process action has been restarted. The status of the restarted process action changes to **In Progress**. The *Status change successful* pop-up window indicating the number of restarted process actions is displayed.
+    The process action has been restarted. The status of the restarted process action changes to **In Progress**. The *Status change successful* pop-up window indicating the number of restarted process actions is displayed.
 
-  ![Status change successful](../../Assets/Screenshots/ActindoWorkFlow/Processes/StatusChangeSuccessful.png "[Status change successful]")
+    ![Status change successful](../../Assets/Screenshots/ActindoWorkFlow/Processes/StatusChangeSuccessful.png "[Status change successful]")
 
 
 
@@ -73,22 +72,22 @@ The cause of the faulty process actions has been fixed.
 ![Process actions](../../Assets/Screenshots/ActindoWorkFlow/ProcessActions/ProcessActions.png "[Process actions]")
 
 1. Click the *Status* drop-down list and select the **Error** option.  
-All failed process actions are displayed in the list of actions.
+    All failed process actions are displayed in the list of actions.
 
-  ![Error process actions](../../Assets/Screenshots/ActindoWorkFlow/ProcessActions/ErrorProcessActions.png "[Error process actions]")
+    ![Error process actions](../../Assets/Screenshots/ActindoWorkFlow/ProcessActions/ErrorProcessActions.png "[Error process actions]")
 
 2. Select the checkboxes of all faulty actions you want to retry. If you want to retry all faulty actions in the list, you can also select the checkbox in the header.   
-  The editing toolbar is displayed.
+    The editing toolbar is displayed.
 
-  ![Error actions selected](../../Assets/Screenshots/ActindoWorkFlow/ProcessActions/ErrorActionsSelected.png "[Error actions selected]")
+    ![Error actions selected](../../Assets/Screenshots/ActindoWorkFlow/ProcessActions/ErrorActionsSelected.png "[Error actions selected]")
 
 4. Click the ![Retry](../../Assets/Icons/Retry01.png "[Retry]") (Retry) button in the editing toolbar.     
-  All selected process actions have been restarted. The status of the restarted process actions changes to **In Progress**. The actions are removed from the *Error* status list. The *Status change successful* pop-up window indicating the number of restarted process actions is displayed.
+    All selected process actions have been restarted. The status of the restarted process actions changes to **In Progress**. The actions are removed from the *Error* status list. The *Status change successful* pop-up window indicating the number of restarted process actions is displayed.
 
-  ![Status change successful](../../Assets/Screenshots/ActindoWorkFlow/Processes/StatusChangeSuccessful.png "[Status change successful]")
+    ![Status change successful](../../Assets/Screenshots/ActindoWorkFlow/Processes/StatusChangeSuccessful.png "[Status change successful]")
 
 
 
-## Was this chapter helpful?
+#### Was this chapter helpful?
 
 If you need further assistance, please contact the Customer Support.

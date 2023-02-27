@@ -1,6 +1,5 @@
 [!!Workflow and process elements](../Overview/04_WorkflowProcessElements.md)
 
-
 # Workflow core actions
 
 ![Core actions](../../Assets/Screenshots/ActindoWorkFlow/Workflows/CoreActions/CoreActions.png "[Core actions]")
@@ -68,9 +67,9 @@ It is also possible to include a static input via the unconnected input ports. T
 ### Configuration   
 
 - *PHP Code*   
-  Click this field to display the code editor and enter the desired PHP code. There are no restrictions in the PHP code. Remember to include the input ports whose data should be read using **$in0** for the *in0* input port, **$in1** for the *in1* input port, etc. as well as to specify the output via the output ports using the *return [output1, output2];* return array. The first value within the array is output via the *out0* output port, the second value via the *out1* output port, etc.  
+    Click this field to display the code editor and enter the desired PHP code. There are no restrictions in the PHP code. Remember to include the input ports whose data should be read using **$in0** for the *in0* input port, **$in1** for the *in1* input port, etc. as well as to specify the output via the output ports using the *return [output1, output2];* return array. The first value within the array is output via the *out0* output port, the second value via the *out1* output port, etc.  
 
-  ![PHP code editor](../../Assets/Screenshots/ActindoWorkFlow/Workflows/CoreActions/PHPCodeEditor.png "[PHP code editor]")
+    ![PHP code editor](../../Assets/Screenshots/ActindoWorkFlow/Workflows/CoreActions/PHPCodeEditor.png "[PHP code editor]")
 
 
 
@@ -87,28 +86,28 @@ The criterion to be compared with is defined in the configuration.
 ### Configuration  
 
 - *Path*   
-  Enter the path to the property of the input object to be compared with. If the input data is of a primitive type, for instance *string* or *number*, you can also leave the path blank to compare the input data directly.
+    Enter the path to the property of the input object to be compared with. If the input data is of a primitive type, for instance *string* or *number*, you can also leave the path blank to compare the input data directly.
 
-  > [Info] The properties of an entity you can refer to are described in the relevant API documentation.
+    > [Info] The properties of an entity you can refer to are described in the relevant API documentation.
 
 
 - *Operator*   
-  Enter the applicable operator for the comparison. The following operators are available:
-  - **=**  
-    It is a match if the input value equals the defined value.
-  - **!=**    
-    It is a match if the input value does not equal the defined value.
-  - **in**    
-    It is a match if the input value is included within the defined values. For this operator, it is possible to enter an array in the *Value* field.
-  - **notIn**   
-    It is a match if the input value is not included within the defined values. For this operator, it is possible to enter an array in the *Value* field.
-  - **regexp**   
-    It is a match if the input value equals the regular expression entered in the *Value* field.    
-    For detailed information about regular expressions, see https://regex101.com/.
+    Enter the applicable operator for the comparison. The following operators are available:
+    - **=**  
+        It is a match if the input value equals the defined value.
+    - **!=**    
+        It is a match if the input value does not equal the defined value.
+    - **in**    
+        It is a match if the input value is included within the defined values. For this operator, it is possible to enter an array in the *Value* field.
+    - **notIn**   
+        It is a match if the input value is not included within the defined values. For this operator, it is possible to enter an array in the *Value* field.
+    - **regexp**   
+        It is a match if the input value equals the regular expression entered in the *Value* field.    
+        For detailed information about regular expressions, see https://regex101.com/.
 
 
 - *Value*   
-  Enter the value to be compared with the input value. The value must be valid JSON and is type strict, for example a string must be specified as a string (**\"example\"**), an integer as an integer (**123**), and so on.
+    Enter the value to be compared with the input value. The value must be valid JSON and is type strict, for example a string must be specified as a string (**\"example\"**), an integer as an integer (**123**), and so on.
 
 [comment]: <> (Ticket ICBPM-197 in Arbeit: Weitere operatoren geplant: <=, <, >=, >)
 
@@ -125,7 +124,7 @@ The subprocess to be started is defined in the configuration.
 ### Configuration
 
 - *Workflow Key*   
-  Enter the workflow key of the workflow that will be started as a subprocess. Always the latest published version of the specified workflow will be started.
+    Enter the workflow key of the workflow that will be started as a subprocess. Always the latest published version of the specified workflow will be started.
 
 
 
@@ -140,16 +139,16 @@ The criteria to be compared with are defined in the configuration. Further, you 
 ### Configuration  
 
 - *Path*   
-  Enter the path to the property of the input object to be compared with. If the input data is of a primitive type, for instance *string* or *number*, you can also leave the path blank to compare the input data directly.
+    Enter the path to the property of the input object to be compared with. If the input data is of a primitive type, for instance *string* or *number*, you can also leave the path blank to compare the input data directly.
 
-  > [Info] The properties of an entity you can refer to are described in the relevant API documentation.
+    > [Info] The properties of an entity you can refer to are described in the relevant API documentation.
 
 - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Stop on match*   
-  Enable this toggle to stop comparing the input value with the specified cases once the input value matches the first case. Disable the toggle to compare the input value with all specified cases, regardless of whether a case matches or not. By default, this toggle is disabled.
+    Enable this toggle to stop comparing the input value with the specified cases once the input value matches the first case. Disable the toggle to compare the input value with all specified cases, regardless of whether a case matches or not. By default, this toggle is disabled.
 
 - *Case X*    
-  Enter the value to be compared with the input value. The value must be valid JSON and is type strict, for example a string must be specified as a string (**\"example\"**), an integer as an integer (**123**), and so on. You can enter a single value or an array with multiple values. If you enter single value, it is checked if the input value equals the specified value. If you enter an array, it is checked if the input value equals one of the values in the array.   
-  You can specify up to 6 different cases. The cases are checked in order, that means, first *Case 1*, then *Case 2*, etc.
+    Enter the value to be compared with the input value. The value must be valid JSON and is type strict, for example a string must be specified as a string (**\"example\"**), an integer as an integer (**123**), and so on. You can enter a single value or an array with multiple values. If you enter single value, it is checked if the input value equals the specified value. If you enter an array, it is checked if the input value equals one of the values in the array.   
+    You can specify up to 6 different cases. The cases are checked in order, that means, first *Case 1*, then *Case 2*, etc.
 
 
 
@@ -179,42 +178,42 @@ The criterion to be compared with as well as the wait time settings are defined 
 ### Configuration  
 
 - *Initial wait time*   
-  Enter the time in minutes to wait until the next comparison if the criterion does not initially match the input data.
+    Enter the time in minutes to wait until the next comparison if the criterion does not initially match the input data.
 
-  > [Info] The initial wait time defines the time after the initial comparison, not until the initial comparison. The initial comparison is executed automatically when the action is triggered for the first time.
+    > [Info] The initial wait time defines the time after the initial comparison, not until the initial comparison. The initial comparison is executed automatically when the action is triggered for the first time.
 
 - *Wait time interval*   
-  Enter the time in minutes to wait for each additional comparison attempt if the criterion does not yet match the input data.
+    Enter the time in minutes to wait for each additional comparison attempt if the criterion does not yet match the input data.
 
 - *Timeout*   
-  Enter the time in minutes after which no further attempts should be started. Depending on the configuration, either the input data will be output via the *timeout* output port or the action will fail.
+    Enter the time in minutes after which no further attempts should be started. Depending on the configuration, either the input data will be output via the *timeout* output port or the action will fail.
 
 - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Fail on timeout*   
-  Enable this toggle to make the action fail after the defined timeout. Disable the toggle to output the current input value via the *timeout* output port after the defined timeout. By default, this toggle is disabled.
+    Enable this toggle to make the action fail after the defined timeout. Disable the toggle to output the current input value via the *timeout* output port after the defined timeout. By default, this toggle is disabled.
 
 - *Path*   
-  Enter the path to the property of the input object to be compared with. Use objects or models whose values change by external influences between the tries as input type, since simple input data of a primitive type, for instance *string* or *number*, are static and will never change.
+    Enter the path to the property of the input object to be compared with. Use objects or models whose values change by external influences between the tries as input type, since simple input data of a primitive type, for instance *string* or *number*, are static and will never change.
 
-  > [Info] The properties of an entity you can refer to are described in the relevant API documentation.
+    > [Info] The properties of an entity you can refer to are described in the relevant API documentation.
 
 
 - *Operator*   
-  Enter the applicable operator for the comparison. The following operators are available:
-  - **=**  
-    It is a match if the input value equals the defined value.
-  - **!=**    
-    It is a match if the input value does not equal the defined value.
-  - **in**    
-    It is a match if the input value is included within the defined values. For this operator, it is possible to enter an array in the *Value* field.
-  - **notIn**   
-    It is a match if the input value is not included within the defined values. For this operator, it is possible to enter an array in the *Value* field.
-  - **regexp**   
-    It is a match if the input value equals the regular expression entered in the *Value* field.    
-    For detailed information about regular expressions, see https://regex101.com/.
+    Enter the applicable operator for the comparison. The following operators are available:
+    - **=**  
+        It is a match if the input value equals the defined value.
+    - **!=**    
+        It is a match if the input value does not equal the defined value.
+    - **in**    
+        It is a match if the input value is included within the defined values. For this operator, it is possible to enter an array in the *Value* field.
+    - **notIn**   
+        It is a match if the input value is not included within the defined values. For this operator, it is possible to enter an array in the *Value* field.
+    - **regexp**   
+        It is a match if the input value equals the regular expression entered in the *Value* field.    
+        For detailed information about regular expressions, see https://regex101.com/.
 
 
 - *Value*   
-  Enter the value to be compared with the input value. The value must be valid JSON and is type strict, for example a string must be specified as a string (**\"example\"**), an integer as an integer (**123**), and so on.
+    Enter the value to be compared with the input value. The value must be valid JSON and is type strict, for example a string must be specified as a string (**\"example\"**), an integer as an integer (**123**), and so on.
 
 [comment]: <> (Ticket ICBPM-197 in Arbeit: Weitere operatoren geplant: <=, <, >=, >)
 
@@ -243,5 +242,5 @@ This period of time is defined in the configuration.
 ### Configuration  
 
 - *Wait time modifier*   
-  Enter the period of time the action must wait before the value is output. The modifier must be a valid PHP date and time format, for example **"+ 1 day"** .    
-  For detailed information about the valid PHP modifiers, see [Supported PHP DateTime formats](https://www.php.net/manual/en/datetime.formats.php).
+    Enter the period of time the action must wait before the value is output. The modifier must be a valid PHP date and time format, for example **"+ 1 day"** .    
+    For detailed information about the valid PHP modifiers, see [Supported PHP DateTime formats](https://www.php.net/manual/en/datetime.formats.php).

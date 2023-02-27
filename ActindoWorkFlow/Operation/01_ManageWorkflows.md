@@ -3,7 +3,6 @@
 [!!Workflow and process elements](../Overview/04_WorkflowProcessElements.md)
 [!!Track a workflow process](./02_TrackWorkflowProcess.md)
 
-
 # Manage the workflows
 
 The *Workflows* module allows the customers to define their own business processes, such as orders, shipments, returns, etc.
@@ -29,9 +28,9 @@ No prerequisites to fulfill.
 ![Workflows](../../Assets/Screenshots/ActindoWorkFlow/Workflows/Workflows.png "[Workflows]")
 
 1. Click the ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) button in the bottom right corner.   
-  The *New workflow* window is displayed.
+    The *New workflow* window is displayed.
 
-  ![New workflow](../../Assets/Screenshots/ActindoWorkFlow/Workflows/NewWorkflow.png "[New workflow]")
+    ![New workflow](../../Assets/Screenshots/ActindoWorkFlow/Workflows/NewWorkflow.png "[New workflow]")
 
 2. Enter a name for the new workflow in the *Select a name for your new workflow* field.
 
@@ -39,20 +38,20 @@ No prerequisites to fulfill.
 
 4. Click the *Choose the data type of your start place* field and enter the name of the place or a keyword you are searching for.
 
-  > [Info] The list of places is filtered for your keyword as you type.
+    > [Info] The list of places is filtered for your keyword as you type.
 
 5. Click the start place you want to add in the list of places.    
 
 6. Click the *Choose the data type of your end place* field and enter the name of the place or a keyword you are searching for.
 
-  > [Info] The list of places is filtered for your keyword as you type.
+    > [Info] The list of places is filtered for your keyword as you type.
 
 7. Click the end place you want to add in the list of places.  
 
 8. Click the [CREATE] button in the bottom right corner.   
-  The new workflow has been created. The *New workflow* window is closed. The workflow editor with the defined start and end places is displayed.  
+    The new workflow has been created. The *New workflow* window is closed. The workflow editor with the defined start and end places is displayed.  
 
-  ![Workflow editor new](../../Assets/Screenshots/ActindoWorkFlow/Workflows/WorkflowEditorNew.png "[Workflow editor new]")
+    ![Workflow editor new](../../Assets/Screenshots/ActindoWorkFlow/Workflows/WorkflowEditorNew.png "[Workflow editor new]")
 
 
 
@@ -71,20 +70,20 @@ The basic settings of the workflow have been defined and the workflow editor is 
 ![Workflow editor new](../../Assets/Screenshots/ActindoWorkFlow/Workflows/WorkflowEditorNew.png "[Workflow editor new]")
 
 1. Click the ![Add](../../Assets/Icons/Plus04.png "[Add]") (Add) button next to the place or click the [NEW ACTION] button on the right hand above the workflow editor.     
-  A window to search for a transition is displayed.
+    A window to search for a transition is displayed.
 
-  ![Search action](../../Assets/Screenshots/ActindoWorkFlow/Workflows/SearchAction.png "[Search action]")
+    ![Search action](../../Assets/Screenshots/ActindoWorkFlow/Workflows/SearchAction.png "[Search action]")
 
 2. Click the *Search for an action* field and enter the name of the transition or a keyword you are searching for. If you have clicked the ![Add](../../Assets/Icons/Plus04.png "[Add]") (Add) button next to a place, only those transitions that are compatible with the data type of the place are displayed in the list.
 
-  > [Info] The list of transitions is filtered for your keyword as you type.
+    > [Info] The list of transitions is filtered for your keyword as you type.
 
 3. Click the transition you want to add in the list of transitions.
-  The transition has been added to the workflow. If the transition has been added from a place which requires a certain input data type, the arc from the place will be automatically connected to the corresponding input port of the transition.
+    The transition has been added to the workflow. If the transition has been added from a place which requires a certain input data type, the arc from the place will be automatically connected to the corresponding input port of the transition.
 
-  ![First action](../../Assets/Screenshots/ActindoWorkFlow/Workflows/FirstAction.png "[First action]")
+    ![First action](../../Assets/Screenshots/ActindoWorkFlow/Workflows/FirstAction.png "[First action]")
 
-  > [Info] If any input port or output port of the new transition is mandatory, an arc and a place will be automatically displayed with the corresponding transition.
+    > [Info] If any input port or output port of the new transition is mandatory, an arc and a place will be automatically displayed with the corresponding transition.
 
 
 ### Connect the transition
@@ -100,21 +99,19 @@ Connect the transition to the a place to create a valid workflow.
 
 *Workflows > Workflows > Tab OVERVIEW > Button Add > Button CREATE*
 
-![Workflow editor new](../../Assets/Screenshots/ActindoWorkFlow/Workflows/WorkflowEditorNew.png "[Workflow editor new]")
-
-[comment]: <> (New screenshot with transition in it)
+![First action](../../Assets/Screenshots/ActindoWorkFlow/Workflows/FirstAction.png "[First action]")
 
 1. Click the ![Add](../../Assets/Icons/Plus04.png "[Add]") (Add) button next to an output port of the transition.    
-  A new place connected with an arc to the selected output port is displayed.
+    A new place connected with an arc to the selected output port is displayed.
 
-  ![First place](../../Assets/Screenshots/ActindoWorkFlow/Workflows/FirstPlace.png "[First place]")
+    ![First place](../../Assets/Screenshots/ActindoWorkFlow/Workflows/FirstPlace.png "[First place]")
 
 2. Add further transitions by following the procedure [Create an action](#create-an-action) or connect the place with the end place as described in the following step.
 
-  > [Info] A workflow must contain at least one transition and can contain an unlimited number of transitions.
+    > [Info] A workflow must contain at least one transition and can contain an unlimited number of transitions.
 
 3. Click the place, drag it over the place to which you want to connect it and drop it.     
-  The places are merged and the new connection has been created.
+    The places are merged and the new connection has been created.
 
 
 
@@ -138,22 +135,22 @@ Select an existing workflow to edit it.
 ![Workflows](../../Assets/Screenshots/ActindoWorkFlow/Workflows/Workflows.png "[Workflows]")
 
 1. Click the workflow you want to edit in the list of workflows.   
-  The *Workflow versions* view with all versions of the selected workflow is displayed.
+    The *Workflow versions* view with all versions of the selected workflow is displayed.
 
-  ![Workflow versions](../../Assets/Screenshots/ActindoWorkFlow/Workflows/WorkflowVersions.png "[Workflow versions]")
+    ![Workflow versions](../../Assets/Screenshots/ActindoWorkFlow/Workflows/WorkflowVersions.png "[Workflow versions]")
 
 2. Click the workflow version you want to edit in the list of workflow versions.  
-  The workflow editor is displayed in the workspace.
+    The workflow editor is displayed in the workspace.
 
-  ![Workflow editor](../../Assets/Screenshots/ActindoWorkFlow/Workflows/WorkflowEditor.png "[Workflow editor]")
+    ![Workflow editor](../../Assets/Screenshots/ActindoWorkFlow/Workflows/WorkflowEditor.png "[Workflow editor]")
 
 [comment]: <> (Step 2 as well as the screenshot workflow versions is possibly not needed in the next workflows version as the version view will disappear and clicking the workflow will take you to the editor directly, check next time)
 
 3. Make the desired changes in the workflow. The following procedures are described in detail below:
-  - [Edit the place data type](#edit-the-place-data-type)
-  - [Change the place ports](#change-the-place-ports)
-  - [Add a transition](#add-a-transition)
-  - [Edit a transition](#edit-a-transition)
+    - [Edit the place data type](#edit-the-place-data-type)
+    - [Change the place ports](#change-the-place-ports)
+    - [Add a transition](#add-a-transition)
+    - [Edit a transition](#edit-a-transition)
 
 
 ### Edit the place data type
@@ -174,13 +171,13 @@ Edit the place settings to change or define the place data type.
 [comment]: <> (New screenshot with transition in it)
 
 1. Click the place you want to edit.    
-  The place is highlighted and its settings are displayed in the settings side bar on the right.
+    The place is highlighted and its settings are displayed in the settings side bar on the right.
 
-  ![Place](../../Assets/Screenshots/ActindoWorkFlow/Workflows/Place.png "[Place]")
+    ![Place](../../Assets/Screenshots/ActindoWorkFlow/Workflows/Place.png "[Place]")
 
 2. Click the *Data container* field in the settings side bar and select the appropriate data type in the list of data types.
 
-  > [Info] Only values of those data types that match with the connected output and input port of the selected place are displayed in the list.     
+    > [Info] Only values of those data types that match with the connected output and input port of the selected place are displayed in the list.     
 
 
 
@@ -203,20 +200,20 @@ You can change the ports of the place by deleting an existing arc and creating a
 1. Navigate to the place whose input or output port you want to edit.  
 
 2. Click the arc right or left to the place to change the input or output port. To change the input port, click the arc right to the place, to change the output port, click the arc left to the place.   
-  The selected arc is highlighted.
+    The selected arc is highlighted.
 
-  ![Input](../../Assets/Screenshots/ActindoWorkFlow/Workflows/ArrowInput.png "[Input]")
+    ![Input](../../Assets/Screenshots/ActindoWorkFlow/Workflows/ArrowInput.png "[Input]")
 
 3. Press the **BackSpace** or the **Delete** key to remove the selected arc.    
-  The selected arc between the place and the port has been deleted.
+    The selected arc between the place and the port has been deleted.
 
-  > [Info] If the port whose connection is deleted is mandatory, a new place connected to this port is automatically displayed.
+    > [Info] If the port whose connection is deleted is mandatory, a new place connected to this port is automatically displayed.
 
 4. Click the ![Add](../../Assets/Icons/Plus04.png "[Add]") (Add) button next to the port you want to connect the place with.    
-  A new place with a connection to the selected port is displayed.
+    A new place with a connection to the selected port is displayed.
 
 5. Click the new place, drag it over the place whose connection you have deleted and drop it.     
-  The places are merged and the new connection has been created.
+    The places are merged and the new connection has been created.
 
 
 
@@ -239,14 +236,14 @@ Delete a place that is no longer needed, for instance if a transition is removed
 1. Navigate to the place you want to delete.  
 
 2. Click the place to be deleted.   
-  The selected place is highlighted.
+    The selected place is highlighted.
 
-  ![Input](../../Assets/Screenshots/ActindoWorkFlow/Workflows/Place.png "[Input]")
+    ![Input](../../Assets/Screenshots/ActindoWorkFlow/Workflows/Place.png "[Input]")
 
 3. Press the **Delete** key to remove the selected place.    
-  The selected place and its arcs have been deleted.
+    The selected place and its arcs have been deleted.
 
-  > [Info] If a one of the arcs has been connected to a mandatory input or output port, a new place connected to this port will be automatically displayed.
+    > [Info] If a one of the arcs has been connected to a mandatory input or output port, a new place connected to this port will be automatically displayed.
 
 
 
