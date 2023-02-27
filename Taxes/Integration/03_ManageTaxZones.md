@@ -1,9 +1,9 @@
-[!!Accounting](../../RetailSuiteAccounting/Overview/01_General.md)
 [!!User interface Tax zones](../UserInterface/01d_TaxZones.md)
 [!!Manage the tax rates](./01_ManageTaxRates.md)
 [!!Manage the tax classes](./02_ManageTaxClasses.md)
 [!!Manage the decision matrix](../Operation/01_ManageDecisionMatrix.md)
 
+[comment]: <> (Add link to Accounting if available)
 
 # Manage the tax zones
 
@@ -37,22 +37,21 @@ No prerequisites to fulfill.
 ![Tax zones](../../Assets/Screenshots/Taxes/Settings/TaxZones/TaxZones.png "[Tax zones]")
 
 1. Click the ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) button in the upper left corner.   
-  A new data input line with two fields is displayed.  
+    A new data input line with two fields is displayed.  
 
 2. Enter the desired tax zone name in the field in the *Tax zones* column.  
 
 3. Enter the relevant VAT ID number in the field in the *VAT ID* column.  
 
-  > [Info] The VAT ID refers to the seller's VAT ID number, which will be printed on the relevant order-related documents.
+    > [Info] The VAT ID refers to the seller's VAT ID number, which will be printed on the relevant order-related documents.
 
 4. Click the [SAVE] button.  
-  The changes have been saved. The *Changes have been saved* pop-up window is displayed.
+    The changes have been saved. The *Changes have been saved* pop-up window is displayed.
 
-  ![Changes saved](../../Assets/Screenshots/Taxes/Settings/TaxClasses/ChangesSaved.png "[Changes saved]")
+    ![Changes saved](../../Assets/Screenshots/Taxes/Settings/TaxClasses/ChangesSaved.png "[Changes saved]")
 
 5. Press the **F5** key to initialize the *Core1 Platform* and to apply the changes.   
-  The new tax zone is displayed in the list of tax zones.
-
+    The new tax zone is displayed in the list of tax zones.
 
 
 ## Edit a tax zone
@@ -74,13 +73,12 @@ A tax zone has been created, see [Create a tax zone](#create-a-tax-zone).
 2. If desired, click the field in the *VAT ID* column and enter a new VAT ID.
 
 3. Click the [SAVE] button.  
-  The changes have been saved and are displayed in the list of tax zones. The *Changes have been saved* pop-up window is displayed.
+    The changes have been saved and are displayed in the list of tax zones. The *Changes have been saved* pop-up window is displayed.
 
-  ![Changes saved](../../Assets/Screenshots/Taxes/Settings/TaxClasses/ChangesSaved.png "[Changes saved]")
+    ![Changes saved](../../Assets/Screenshots/Taxes/Settings/TaxClasses/ChangesSaved.png "[Changes saved]")
 
 4. Press the **F5** key to initialize the *Core1 Platform* and to apply the changes.  
-  The edited tax zone is displayed in the list of tax rates.
-
+    The edited tax zone is displayed in the list of tax rates.
 
 
 ## Delete a tax zone
@@ -100,12 +98,12 @@ A tax zone has been created, see [Create a tax zone](#create-a-tax-zone).
 ![Tax zones](../../Assets/Screenshots/Taxes/Settings/TaxZones/TaxZones.png "[Tax zones]")
 
 1. Click the ![Delete](../../Assets/Icons/Trash08.png "[Delete]") (Delete) button next to the tax zone to be deleted.  
-  The tax zone is removed from the list.
+    The tax zone is removed from the list.
 
-3. Click the [SAVE] button.  
-  The tax zone has been deleted. The *Changes have been saved* pop-up window is displayed.
+2. Click the [SAVE] button.  
+    The tax zone has been deleted. The *Changes have been saved* pop-up window is displayed.
 
-  ![Changes saved](../../Assets/Screenshots/Taxes/Settings/TaxClasses/ChangesSaved.png "[Changes saved]")
+    ![Changes saved](../../Assets/Screenshots/Taxes/Settings/TaxClasses/ChangesSaved.png "[Changes saved]")
 
-4. Press the **F5** key to initialize the *Core1 Platform* and to apply the changes.  
-  The deleted tax zone is no longer displayed in the list of tax rates.
+3. Press the **F5** key to initialize the *Core1 Platform* and to apply the changes.  
+    The deleted tax zone is no longer displayed in the list of tax rates.

@@ -1,9 +1,9 @@
-[!!Accounting](../../RetailSuiteAccounting/Overview/01_General.md)
 [!!User interface Decision matrix](../UserInterface/01b_DecisionMatrix.md)
 [!!Manage the tax rates](../Integration/01_ManageTaxRates.md)
 [!!Manage the tax classes](../Integration/02_ManageTaxClasses.md)
 [!!Manage the tax zones](../Integration/03_ManageTaxZones.md)
 
+[comment]: <> (Add link to Accounting if available)
 
 # Manage the decision matrix
 
@@ -19,7 +19,6 @@ Using this information, the decision matrix is able to determine the tax zone. O
 
 The correct order of the decision-making criteria is crucial, as the system goes through the criteria in the order they are listed, starting from the top, and stops checking them as soon as a matching criterion is found.
 This means, that the criteria must be organized from specific to general to cover all possible relevant cases.
-
 
 
 ## Create an entry
@@ -39,52 +38,51 @@ Create an entry to determine a new tax zone.
 ![Decision matrix](../../Assets/Screenshots/Taxes/Settings/DecisionMatrix/DecisionMatrix.png "[Decision matrix]")
 
 1. Click the ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) button in the upper left corner.   
-  A new data input line is displayed.
-
+    A new data input line is displayed.
 
 2. Click the *VAT ID* drop-down list and select the appropriate option. In this case, the VAT ID refers to the buyer's VAT ID number. The following options are available:
-  - **Yes**  
-    Select this option if the customer is a company and, therefore, has a VAT ID number (B2B transaction).
-  - **No**  
-    Select this option if the customer is a private individual and, therefore, has no VAT ID number (B2C transaction).
-  - **Any**   
-    To match any of the previous two cases.
+    - **Yes**  
+        Select this option if the customer is a company and, therefore, has a VAT ID number (B2B transaction).
+    - **No**  
+        Select this option if the customer is a private individual and, therefore, has no VAT ID number (B2C transaction).
+    - **Any**   
+        To match any of the previous two cases.
 
-  > [Info] To change the selection of a drop-down list back to **Any**, reselect the already selected option in the drop-down list.  
+    > [Info] To change the selection of a drop-down list back to **Any**, reselect the already selected option in the drop-down list.  
 
 3. Click the *Country of origin* drop-down list and select the appropriate option.   
-  Use the drop-down list on the left to select a group of countries or the one on the right to select an individual country. As a group of countries, only the **EU - European Union** option is available. In the drop-down list of individual countries, all available countries in the system are displayed.    
-  When a group of countries is selected, the drop-down list on the right is locked.
+    Use the drop-down list on the left to select a group of countries or the one on the right to select an individual country. As a group of countries, only the **EU - European Union** option is available. In the drop-down list of individual countries, all available countries in the system are displayed.    
+    When a group of countries is selected, the drop-down list on the right is locked.
 
 4. Click the *Ship-to country* drop-down list and select the appropriate option.   
-  Use the drop-down list on the left to select a group of countries or the one on the right to select an individual country. As a group of countries, only the **EU - European Union** option is available. In the drop-down list of individual countries, all available countries in the system are displayed.   
-  When a group of countries is selected, the drop-down list on the right is locked.
+    Use the drop-down list on the left to select a group of countries or the one on the right to select an individual country. As a group of countries, only the **EU - European Union** option is available. In the drop-down list of individual countries, all available countries in the system are displayed.   
+    When a group of countries is selected, the drop-down list on the right is locked.
 
 
 5. If necessary, click the *Ship-to postcode* drop-down list and select the appropriate option. The following options are available:
-  - **Range**  
-    Select this option to specify a numeric postcode range, for example **27498** or **52001-52006**.
-  - **Regex**  
-    Select this option to specify a postcode containing alphanumeric characters with regular expressions, for example **/^BT.*/** in case of Northern Ireland..   
-    The site https://regex101.com/ can be useful to test regular expressions.  
+    - **Range**  
+        Select this option to specify a numeric postcode range, for example **27498** or **52001-52006**.
+    - **Regex**  
+        Select this option to specify a postcode containing alphanumeric characters with regular expressions, for example **/^BT.*/** in case of Northern Ireland.   
+        The site https://regex101.com/ can be useful to test regular expressions.  
 
-  The field to the right of the *Ship-to postcode* drop-down list is unlocked.
+    The field to the right of the *Ship-to postcode* drop-down list is unlocked.
 
-  > [Info] This feature can be used to define special tax regimes within a territory, such as that of Northern Ireland in the United Kingdom or Helgoland in Germany. For detailed information, see [Define tax exceptions on ZIP code level](#define-tax-exceptions-on-ZIP-code-level).
+    > [Info] This feature can be used to define special tax regimes within a territory, such as that of Northern Ireland in the United Kingdom or Helgoland in Germany. For detailed information, see [Define tax exceptions on ZIP code level](#define-tax-exceptions-on-ZIP-code-level).
 
 6. Enter the applicable postcode range or regular expression in the unlocked field on the right of the *Ship-to postcode* drop-down list.
 
 7. If necessary, click the *Net value of goods smaller than* drop-down list and select the applicable currency. All available currencies are displayed in the list.      
-  The field to the right of the *Net value of goods smaller than* drop-down list is unlocked.
+    The field to the right of the *Net value of goods smaller than* drop-down list is unlocked.
 
 8. Enter the applicable amount using the keyboard or the increase and decrease arrows in the field on the right of the *Net value of goods smaller than* drop-down list.
 
 9. Click the *Tax zone* drop-down list and select the applicable tax zone. All available tax zones are displayed in the list.
 
 10. Click the [SAVE] button.  
-  The new tax rule has been saved. The *Success* pop-up window is displayed.
+    The new tax rule has been saved. The *Success* pop-up window is displayed.
 
-  ![Decision matrix saved](../../Assets/Screenshots/Taxes/Settings/DecisionMatrix/DecisionMatrixSaved.png "[Decision matrix saved]")
+    ![Decision matrix saved](../../Assets/Screenshots/Taxes/Settings/DecisionMatrix/DecisionMatrixSaved.png "[Decision matrix saved]")
 
 
 
@@ -115,9 +113,9 @@ An entry has been created in the decision matrix, see [Create an entry](#create-
 6. Click the *Tax zone* drop-down list to select a different applicable tax zone.
 
 7. Click the [SAVE] button.  
-  The edited tax rule has been saved. The *Success* pop-up window is displayed
+    The edited tax rule has been saved. The *Success* pop-up window is displayed
 
-  ![Decision matrix saved](../../Assets/Screenshots/Taxes/Settings/DecisionMatrix/DecisionMatrixSaved.png "[Decision matrix saved]")
+    ![Decision matrix saved](../../Assets/Screenshots/Taxes/Settings/DecisionMatrix/DecisionMatrixSaved.png "[Decision matrix saved]")
 
 
 
@@ -140,9 +138,9 @@ At least two entries have been created in the decision matrix, see [Create an en
 1. Click the ![Drag](../../Assets/Icons/Points03.png "[Drag]") (Drag) button to the left of the entry line, move the entry to a different position with the left mouse button pressed and drop it in the desired position by releasing the mouse button.   
 
 2. Click the [SAVE] button.  
-  The entry position has been saved. The *Success* pop-up window is displayed.
+    The entry position has been saved. The *Success* pop-up window is displayed.
 
-  ![Decision matrix saved](../../Assets/Screenshots/Taxes/Settings/DecisionMatrix/DecisionMatrixSaved.png "[Decision matrix saved]")
+    ![Decision matrix saved](../../Assets/Screenshots/Taxes/Settings/DecisionMatrix/DecisionMatrixSaved.png "[Decision matrix saved]")
 
 3. If necessary, repeat the steps **1** and **2** for all entries that need to be repositioned.
 
@@ -167,12 +165,13 @@ An entry has been created in the decision matrix, see [Create an entry](#create-
 ![Decision matrix](../../Assets/Screenshots/Taxes/Settings/DecisionMatrix/DecisionMatrix.png "[Decision matrix]")
 
 1. Click the ![Delete](../../Assets/Icons/Trash08.png "[Delete]") (Delete) button to the right of the entry to be deleted.  
-  The entry is removed from the list.
+    The entry is removed from the list.
 
 2. Click the [SAVE] button.  
-  The entry has been deleted. The *Success* pop-up window is displayed.  
+    The entry has been deleted. The *Success* pop-up window is displayed.  
 
-  ![Decision matrix saved](../../Assets/Screenshots/Taxes/Settings/DecisionMatrix/DecisionMatrixSaved.png "[Decision matrix saved]")
+    ![Decision matrix saved](../../Assets/Screenshots/Taxes/Settings/DecisionMatrix/DecisionMatrixSaved.png "[Decision matrix saved]")
+
 
 
 ## Define a tax delivery threshold
@@ -190,17 +189,17 @@ All applicable tax rates have been defined for delivery thresholds, see [Define 
 ![Decision matrix](../../Assets/Screenshots/Taxes/Settings/DecisionMatrix/DecisionMatrix.png "[Decision matrix]")
 
 1. Click the ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) button in the upper left corner.   
-  A new data input line is displayed.
+    A new data input line is displayed.
 
 2. Click the *VAT ID* drop-down list and select **No** in case the rule should only apply for B2C transactions.
 
 3. Click the *Country of origin* drop-down list on the right and select the country where the product is shipped from. The *Country of origin* drop-down list on the left must remain blank (**Any**).
 
-  > [Info] To change the selection of a drop-down list back to **Any**, reselect the already selected option in the drop-down list.
+    > [Info] To change the selection of a drop-down list back to **Any**, reselect the already selected option in the drop-down list.
 
 4. Click the *Ship-to country* drop-down list on the right to select the country where the product is to be shipped to. The *Ship-to country* drop-down list on the left must remain blank (**Any**).
 
-  > [Info] To change the selection of a drop-down list back to **Any**, reselect the already selected option in the drop-down list.
+    > [Info] To change the selection of a drop-down list back to **Any**, reselect the already selected option in the drop-down list.
 
 5. If necessary, click the *Ship-to postcode* drop-down list and select the appropriate option. Specify a postcode in the unlocked field on the right of the *Ship-to postcode* drop-down list. For detailed information, see [Define tax exceptions on ZIP code level](#define-tax-exceptions-on-ZIP-code-level).
 
@@ -209,13 +208,13 @@ All applicable tax rates have been defined for delivery thresholds, see [Define 
 7. Click the *Tax zone* drop-down list and select the applicable tax zone. All available tax zones are displayed in the list.
 
 8. Click the [SAVE] button.  
-  The decision matrix has been saved. The **Success** pop-up window is displayed.
+    The decision matrix has been saved. The **Success** pop-up window is displayed.
 
-  ![Decision matrix saved](../../Assets/Screenshots/Taxes/Settings/DecisionMatrix/DecisionMatrixSaved.png "[Decision matrix saved]")
+    ![Decision matrix saved](../../Assets/Screenshots/Taxes/Settings/DecisionMatrix/DecisionMatrixSaved.png "[Decision matrix saved]")
 
 9. Repeat all steps to configure one by one all the applicable tax scenarios depending on your business needs. If it is necessary to change the position of an entry in the decision matrix, see [Change the order of entries](#change-the-order-of-entries).
 
-> [Info] It is important to remember that the correct order of the decision-making criteria is crucial, as the system goes through the criteria in the order they are listed.
+    > [Info] It is important to remember that the correct order of the decision-making criteria is crucial, as the system goes through the criteria in the order they are listed.
 
 
 
@@ -238,37 +237,35 @@ These tax exceptions can be defined using the *Ship-to postcode* fields.
 ![Decision matrix](../../Assets/Screenshots/Taxes/Settings/DecisionMatrix/DecisionMatrix.png "[Decision matrix]")
 
 1. Click the ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) button in the upper left corner.   
-  A new data input line is displayed.
+    A new data input line is displayed.
 
 
 2. Click the *VAT ID* drop-down list and select the appropriate option. The following options are available:
-  - **Yes**  
-    The customer is a company and, therefore, has a VAT ID number (B2B transaction).
-  - **No**  
-    The customer is a private individual and, therefore, has no VAT ID number (B2C transaction).
-  - **Any**   
-    To match any of the previous two cases.
+    - **Yes**  
+        The customer is a company and, therefore, has a VAT ID number (B2B transaction).
+    - **No**  
+        The customer is a private individual and, therefore, has no VAT ID number (B2C transaction).
+    - **Any**   
+        To match any of the previous two cases.
 
-  > [Info] To change the selection of a drop-down list back to **Any**, reselect the already selected option in the drop-down list.  
+    > [Info] To change the selection of a drop-down list back to **Any**, reselect the already selected option in the drop-down list.  
 
 3. Click the *Country of origin* drop-down list and select the appropriate option.   
-  Use the drop-down list on the left to select a group of countries or the one on the right to select an individual country. As a group of countries, only the **EU - European Union** option is available. In the drop-down list of individual countries, all available countries in the system are displayed.   
-  When a group of countries is selected, the drop-down list on the right is locked.
+    Use the drop-down list on the left to select a group of countries or the one on the right to select an individual country. As a group of countries, only the **EU - European Union** option is available. In the drop-down list of individual countries, all available countries in the system are displayed.   
+    When a group of countries is selected, the drop-down list on the right is locked.
 
 4. Click the *Ship-to country* drop-down list on the right to select the country where the product is to be shipped to. The *Ship-to country* drop-down list on the left must remain blank (**Any**).
 
-  > [Info] To change the selection of a drop-down list back to **Any**, reselect the already selected option in the drop-down list.  
-
+    > [Info] To change the selection of a drop-down list back to **Any**, reselect the already selected option in the drop-down list.  
 
 5. Click the *Ship-to postcode* drop-down list and select the appropriate option. The following options are available:
-  - **Range**  
-    Select this option to specify a numeric postcode range, for example **27498** or **52001-52006**.
-  - **Regex**  
-    Select this option to specify a postcode containing alphanumeric characters with regular expressions, for example **/^BT.*/** in case of Northern Ireland.   
-    The site https://regex101.com/ can be useful to test regular expressions.
+    - **Range**  
+        Select this option to specify a numeric postcode range, for example **27498** or **52001-52006**.
+    - **Regex**  
+        Select this option to specify a postcode containing alphanumeric characters with regular expressions, for example **/^BT.*/** in case of Northern Ireland.   
+        The site https://regex101.com/ can be useful to test regular expressions.
 
     The field to the right of the *Ship-to postcode* drop-down list is unlocked.
-
 
 6. Enter the applicable postcode range or regular expression in the unlocked field on the right of the *Ship-to postcode* drop-down list.
 
@@ -277,6 +274,6 @@ These tax exceptions can be defined using the *Ship-to postcode* fields.
 8. Click the *Tax zone* drop-down list to select the applicable tax zone.
 
 9. Click the [SAVE] button.  
-  The decision matrix has been saved. The **Success** pop-up window is displayed.
+    The decision matrix has been saved. The **Success** pop-up window is displayed.
 
-  ![Decision matrix saved](../../Assets/Screenshots/Taxes/Settings/DecisionMatrix/DecisionMatrixSaved.png "[Decision matrix saved]")
+    ![Decision matrix saved](../../Assets/Screenshots/Taxes/Settings/DecisionMatrix/DecisionMatrixSaved.png "[Decision matrix saved]")
