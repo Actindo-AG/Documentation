@@ -3,16 +3,16 @@
 Intelligent data orchestration with the *DataHub* module
 
 - Central data processing   
-  As a central data hub, the *DataHub* module provides the basis for all modules of the *Actindo Core1 Platform*. This allows you to customize the necessary data fields in all modules and for all business processes to best suit your business model.  
+    As a central data hub, the *DataHub* module provides the basis for all modules of the *Actindo Core1 Platform*. This allows you to customize the necessary data fields in all modules and for all business processes to best suit your business model.  
 
 - Automated data transformation (ETL)   
-  With the help of an integrated ETL system, data from different sources can be aggregated, standardized and transformed according to your individual requirements and application landscape. This makes it very easy to connect to external systems.   
+    With the help of an integrated ETL system, data from different sources can be aggregated, standardized and transformed according to your individual requirements and application landscape. This makes it very easy to connect to external systems.   
 
 - Import and export   
-  The *DataHub* module offers a wide range of options for data imports and exports. Whether manually, time-controlled, or at specific points in the business process: imports and exports are easy to configure with the *DataHub* module. Through formats such as CSV, XML, XML/EDIFACT and EDIFACT (depending on the booked integrations), the data format of any third-party software can be configured fast and easily.  
+    The *DataHub* module offers a wide range of options for data imports and exports. Whether manually, time-controlled, or at specific points in the business process: imports and exports are easy to configure with the *DataHub* module. Through formats such as CSV, XML, XML/EDIFACT and EDIFACT (depending on the booked integrations), the data format of any third-party software can be configured fast and easily.  
 
 - Comprehensive API   
-  Our API-first approach enables easy and flexible integration of third-party systems and applications. All functions are fully controllable via an API integration. Additionally, custom extensions can be developed by your company or technology partners and seamlessly deployed as well.   
+    Our API-first approach enables easy and flexible integration of third-party systems and applications. All functions are fully controllable via an API integration. Additionally, custom extensions can be developed by your company or technology partners and seamlessly deployed as well.   
 
 
 ## What is ETL?

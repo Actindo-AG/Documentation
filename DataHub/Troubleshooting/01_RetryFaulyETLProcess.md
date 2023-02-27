@@ -23,19 +23,19 @@ The cause of the faulty ETL process has been fixed.
 ![ETL processes](../../Assets/Screenshots/DataHub/Settings/ETLProcesses/ETLProcesses.png "[ETL processes]")
 
 1. Click the *Status filter* drop-down list and select the **Error** status in the list.
-  All ETL processes with the **Error** status are displayed.
+    All ETL processes with the **Error** status are displayed.
 
-  ![Error processes](../../Assets/Screenshots/DataHub/Settings/ETLProcesses/Error.png "[Error processes]")
+    ![Error processes](../../Assets/Screenshots/DataHub/Settings/ETLProcesses/Error.png "[Error processes]")
 
 2. Select the checkbox of the mapping you want to restart.   
-  The editing toolbar is displayed above the list.
+    The editing toolbar is displayed above the list.
 
 3. Click the [RETRY] button in the editing toolbar.   
-  The selected mapping has been restarted. The pop-up window *Process will be retried shortly* is displayed.
+    The selected mapping has been restarted. The pop-up window *Process will be retried shortly* is displayed.
 
-  ![Process retried](../../Assets/Screenshots/DataHub/Settings/ETLProcesses/ProcessRetried.png "[Process retried]")
+    ![Process retried](../../Assets/Screenshots/DataHub/Settings/ETLProcesses/ProcessRetried.png "[Process retried]")
 
-  If the rerun is successful, the mapping status will change to **Done** and will be removed from the list of mappings with the **Error** status.
+    If the rerun is successful, the mapping status will change to **Done** and will be removed from the list of mappings with the **Error** status.
 
 
 

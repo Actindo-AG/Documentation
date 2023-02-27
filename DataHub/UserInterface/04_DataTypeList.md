@@ -1,10 +1,11 @@
-[!!Create an attribute](../Integration/01_ManageAttributes.md#create-an-attribute)
+[!!Manage the attributes](../Integration/01_ManageAttributes.md)
 
 # Data type list
 
 To create an attribute, you have to define a data type.
 In the *DataHub* module, all data types from all plugins that interact with the *DataHub* module are available.
 Depending on the plugins installed in the current system, the list of data types varies.
+
 In the following, the available data types, their use and their configuration and their owning plugin are described in detail:
 
 - [Textfield](#textfield)
@@ -68,19 +69,19 @@ The *DataHub* plugin owns this data type.
 ![Textfield](../../Assets/Screenshots/DataHub/DataTypes/Configuration/Textfield.png "[Textfield]")
 
 - *Min length*   
-  Enter a minimal length of the textfield.
+    Enter a minimal length of the textfield.
 
 - *Max length*   
-  Enter a maximal length of the textfield.
+    Enter a maximal length of the textfield.
 
 - *Rows*   
-  Enter the number of rows in the textfield. By default the number of rows is set to **5**.
+    Enter the number of rows in the textfield. By default the number of rows is set to **5**.
 
 - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *HTML Editor*   
-  Enable this toggle to enable the HTML editor for the textfield. A WYSIWIG-editor is displayed to edit the textfield. Disable the toggle to disable the HTML editor for the textfield. By default, this toggle is disabled.
+    Enable this toggle to enable the HTML editor for the textfield. A WYSIWIG-editor is displayed to edit the textfield. Disable the toggle to disable the HTML editor for the textfield. By default, this toggle is disabled.
 
 - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Read only*   
-  Enable this toggle to set the textfield to read-only. Disable the toggle to set the textfield to editable. By default, this toggle is disabled.
+    Enable this toggle to set the textfield to read-only. Disable the toggle to set the textfield to editable. By default, this toggle is disabled.
 
 
 ## Checkbox
@@ -114,18 +115,18 @@ The *DataHub* plugin owns this data type.
 ![Floating point number](../../Assets/Screenshots/DataHub/DataTypes/Configuration/FloatingPointNumber.png "[Floating point number]")
 
 - *Precision*   
-  Enter the number of decimal places for the floating point number. By default the number of decimals is set to **4**.  
+    Enter the number of decimal places for the floating point number. By default the number of decimals is set to **4**.  
 
-  > [Info] Note that when you enter more than the defined number of decimal places for the attribute value, the number is commercially rounded to the defined number of decimal places after saving.
+    > [Info] Note that when you enter more than the defined number of decimal places for the attribute value, the number is commercially rounded to the defined number of decimal places after saving.
 
 - *Min value*   
-  Enter a minimum value for the floating point number.  
+    Enter a minimum value for the floating point number.  
 
 - *Max value*   
-  Enter a maximum value for the floating point number.  
+    Enter a maximum value for the floating point number.  
 
 - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Read only*   
-  Enable this toggle to set the floating point number to read-only. Disable the toggle to set the floating point number to editable. By default, this toggle is disabled.
+    Enable this toggle to set the floating point number to read-only. Disable the toggle to set the floating point number to editable. By default, this toggle is disabled.
 
 
 ## Integer
@@ -141,13 +142,13 @@ The *DataHub* plugin owns this data type.
 ![Integer](../../Assets/Screenshots/DataHub/DataTypes/Configuration/Integer.png "[Integer]")
 
 - *Min value*   
-  Enter a minimum value for the integer.  
+    Enter a minimum value for the integer.  
 
 - *Max value*   
-  Enter a maximum value for the integer.  
+    Enter a maximum value for the integer.  
 
 - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Read only*   
-  Enable this toggle to set the integer to read-only. Disable the toggle to set the integer to editable. By default, this toggle is disabled.
+    Enable this toggle to set the integer to read-only. Disable the toggle to set the integer to editable. By default, this toggle is disabled.
 
 
 ## String
@@ -172,16 +173,16 @@ The *DataHub* plugin owns this data type.
 ![String](../../Assets/Screenshots/DataHub/DataTypes/Configuration/String.png "[String]")
 
 - *Min length*   
-  Enter a minimal length of the string.
+    Enter a minimal length of the string.
 
 - *Max length*   
-  Enter a maximal length of the string.
+    Enter a maximal length of the string.
 
 - *Regex*   
-  Enter a regular expression for the string. For detailed information about regular expressions, see https://regex101.com/.
+    Enter a regular expression for the string. For detailed information about regular expressions, see https://regex101.com/.
 
 - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Read only*   
-  Enable this toggle to set the string to read-only. Disable the toggle to set the string to editable. By default, this toggle is disabled.
+    Enable this toggle to set the string to read-only. Disable the toggle to set the string to editable. By default, this toggle is disabled.
 
 
 ## Currency
@@ -236,14 +237,14 @@ The *TreeNode* is used for indications with multiple, predefined selection optio
 ![TreeNode](../../Assets/Screenshots/DataHub/DataTypes/Configuration/TreeNode.png "[TreeNode]")
 
 - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Multi Select*   
-  Enable this toggle to allow a multiple selection of values. Disable the toggle to allow only a single selection of values. By default, this toggle is disabled.
+    Enable this toggle to allow a multiple selection of values. Disable the toggle to allow only a single selection of values. By default, this toggle is disabled.
 
 > [Info] In the product view, the *TreeNode* data type is displayed either by a drop-down list or by a box with all created options. The drop-down list is only displayed for one dimensional single-select trees.
 
 **Edit tree**
 
 - ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add)   
-  Click first this button and then the plus sign displayed in the left column of the *Edit tree* table to add an attribute value. The *Add Element* window is displayed.
+    Click first this button and then the plus sign displayed in the left column of the *Edit tree* table to add an attribute value. The *Add Element* window is displayed.
 
 The *DataHub* plugin owns this data type.
 
@@ -252,16 +253,16 @@ The *DataHub* plugin owns this data type.
 ![Add element](../../Assets/Screenshots/DataHub/DataTypes/Configuration/AddElement.png "[Add element]")
 
 - *Name*   
-  Enter the tree node name.
+    Enter the tree node name.
 
 - *Key*   
-  Enter the tree node key.
+    Enter the tree node key.
 
 - [CANCEL]   
-  Click this button to cancel adding a value.
+    Click this button to cancel adding a value.
 
 - [SAVE]   
-  Click this button to save the value and add it to the table.
+    Click this button to save the value and add it to the table.
 
 
 ## Completeness (internal, not editable)
@@ -290,10 +291,10 @@ The *DataHub* plugin owns this data type.
 ![Number with Unit](../../Assets/Screenshots/DataHub/DataTypes/Configuration/NumberUnit.png "[Number with Unit]")
 
 - *Dimension*   
-  Click the drop-down list to select the dimension to be used. All active dimensions are displayed in the drop-down list.
+    Click the drop-down list to select the dimension to be used. All active dimensions are displayed in the drop-down list.
 
 - *Default unit*   
-  Click the drop-down list to select the dimension to be used. All units that are assigned to the selected dimension are displayed in the drop-down list.
+    Click the drop-down list to select the dimension to be used. All units that are assigned to the selected dimension are displayed in the drop-down list.
 
 
 ## DateTime
@@ -309,25 +310,25 @@ The *DataHub* plugin owns this data type.
 ![DateTime](../../Assets/Screenshots/DataHub/DataTypes/Configuration/DateTime.png "[DateTime]")
 
 - *Date*   
-  Click the drop-down list to select a date format. The formats below are available. By default, the date format **Short** is selected.
-  - **Do not show date**   
-    hidden date
-  - **Short**   
-    short format, for example 02/11/2021
-  - **Medium**   
-    medium format, writing out the month, for example February 11, 2021
-  - **Long**   
-    long format, adding the weekday and writing out the month, for example Monday, February 11, 2021
+    Click the drop-down list to select a date format. The formats below are available. By default, the date format **Short** is selected.
+    - **Do not show date**   
+        hidden date
+    - **Short**   
+        short format, for example 02/11/2021
+    - **Medium**   
+        medium format, writing out the month, for example February 11, 2021
+    - **Long**   
+        long format, adding the weekday and writing out the month, for example Monday, February 11, 2021
 
 
 - *Time*    
-  Click the drop-down list to select a time format. The formats below are available. By default, the time format **Medium** is selected.
-  - **Do not show time**   
-    hidden time
-  - **Short**   
-    short format, for example 09:00 PM
-  - **Medium**   
-    medium format, including seconds, for example 09:00:00 PM
+    Click the drop-down list to select a time format. The formats below are available. By default, the time format **Medium** is selected.
+    - **Do not show time**   
+        hidden time
+    - **Short**   
+        short format, for example 09:00 PM
+    - **Medium**   
+        medium format, including seconds, for example 09:00:00 PM
 
 
 ## Sales unit value
@@ -356,18 +357,18 @@ The *DataHub* plugin owns this data type.
 ![Simple price field](../../Assets/Screenshots/DataHub/DataTypes/Configuration/SimplePriceField.png "[Simple price field]")
 
 - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Gross prices*   
-  Enable this toggle to display gross prices. Disable the toggle to display net prices. By default, this toggle is enabled.
+    Enable this toggle to display gross prices. Disable the toggle to display net prices. By default, this toggle is enabled.
 
-  > [Info] Note that, especially for the ETL-mapping, it is very important if prices are net or gross.
+    > [Info] Note that, especially for the ETL-mapping, it is very important if prices are net or gross.
 
 - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Show MSRP field*   
-  Enable this toggle to display the MSRP field. Disable the toggle to hide the MSRP field. By default, this toggle is disabled.
+    Enable this toggle to display the MSRP field. Disable the toggle to hide the MSRP field. By default, this toggle is disabled.
 
 - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Use Promotions*    
-  Enable this toggle to allow to enter a promotion period for prices. Disable the toggle to not allow promotion prices. By default, this toggle is disabled.
+    Enable this toggle to allow to enter a promotion period for prices. Disable the toggle to not allow promotion prices. By default, this toggle is disabled.
 
 - *Currency*   
-  Click the drop-down list to select the currency to be used. All available currencies are displayed in the drop-down list. By default, the default currency is preselected.
+    Click the drop-down list to select the currency to be used. All available currencies are displayed in the drop-down list. By default, the default currency is preselected.
 
 [comment]: <> (Not working -> MSRP field is displayed even when the toggle is disabled -> to be fixed)
 
@@ -385,12 +386,12 @@ The *DataHub* plugin owns this data type.
 ![Stock Value](../../Assets/Screenshots/DataHub/DataTypes/Configuration/StockValue.png "[Stock Value]")
 
 - *Precision*   
-  Enter the number of decimals for the stock value. By default the number of decimals is set to **4**.  
+    Enter the number of decimals for the stock value. By default the number of decimals is set to **4**.  
 
 - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Read only*   
-  Enable this toggle to set the stock value to read-only. Disable the toggle to set the stock value to editable. By default, this toggle is enabled.
+    Enable this toggle to set the stock value to read-only. Disable the toggle to set the stock value to editable. By default, this toggle is enabled.
 
-  > [Info] If the warehouse logistic for an product is active and the *Warehousing* module is correctly connected, the stocks are transferred from the invoicing and automatically written into this attribute value. It is only recommended to deactivate the toggle *Read only* if the warehouse logistic is inactive and a stock value is needed.
+    > [Info] If the warehouse logistic for an product is active and the *Warehousing* module is correctly connected, the stocks are transferred from the invoicing and automatically written into this attribute value. It is only recommended to deactivate the toggle *Read only* if the warehouse logistic is inactive and a stock value is needed.
 
 
 ## EntityCollectionValue (internal, not editable)
@@ -427,7 +428,7 @@ The *DataHub* plugin owns this data type.
 
 The *Taxclass* data type is used to indicate the tax class. A drop-down list with all available tax classes is displayed in the product view.
 
-  > [Info] For detailed information about creating a tax class, see [Create a tax class](../../Taxes/Integration/02_ManageTaxClasses.md#create-a-tax-class).
+    > [Info] For detailed information about creating a tax class, see [Create a tax class](../../Taxes/Integration/02_ManageTaxClasses.md#create-a-tax-class).
 
 The *Taxes* plugin owns this data type.
 
@@ -442,7 +443,7 @@ This data type has no further configuration settings.
 
 The *Taxzone* data type is used to indicate the tax zone. A drop-down list with all available tax zones is displayed in the product view.
 
-  > [Info] For detailed information about creating a tax zone, see [Create a tax zone](../../Taxes/Integration/03_ManageTaxZones.md#create-a-tax-zone).
+    > [Info] For detailed information about creating a tax zone, see [Create a tax zone](../../Taxes/Integration/03_ManageTaxZones.md#create-a-tax-zone).
 
 The *Taxes* plugin owns this data type.
 
@@ -465,16 +466,16 @@ The *ECM Integration in DataHub* plugin owns this data type.
 ![Images](../../Assets/Screenshots/DataHub/DataTypes/Configuration/Images.png "[Images]")
 
 - *Field for filename prefix*   
-  Enter a fixed field name whose value will be used as filename prefix for the uploaded image, for example **id** or **sku**.
+    Enter a fixed field name whose value will be used as filename prefix for the uploaded image, for example **id** or **sku**.
 
 - *Min number of images*     
-  Enter the minimum number of images.
+    Enter the minimum number of images.
 
 - *Max number of images*     
-  Enter the maximum number of images.
+    Enter the maximum number of images.
 
 - *Allowed file extensions.*     
-  Enter the allowed file extensions for the image format. If you want to allow several extensions, separate them with a comma. If no file extension is entered, all file extensions are allowed.
+    Enter the allowed file extensions for the image format. If you want to allow several extensions, separate them with a comma. If no file extension is entered, all file extensions are allowed.
 
 
 ## Files
@@ -490,16 +491,16 @@ The *ECM Integration in DataHub* plugin owns this data type.
 ![Files](../../Assets/Screenshots/DataHub/DataTypes/Configuration/Files.png "[Files]")
 
 - *Field for filename prefix*   
-  Enter a fixed field name whose value will be used as filename prefix for the uploaded file , for example **id** or **sku**.
+    Enter a fixed field name whose value will be used as filename prefix for the uploaded file , for example **id** or **sku**.
 
 - *Min number of files*     
-  Enter the minimum number of files.
+    Enter the minimum number of files.
 
 - *Max number of files*     
-  Enter the maximum number of files.
+    Enter the maximum number of files.
 
 - *Allowed file extensions.*     
-  Enter the allowed file extensions for the file format. If you want to allow several extensions, separate them with a comma. If no file extension is entered, all file extensions are allowed.
+    Enter the allowed file extensions for the file format. If you want to allow several extensions, separate them with a comma. If no file extension is entered, all file extensions are allowed.
 
 
 
@@ -545,19 +546,19 @@ The *Cloudinary* plugin owns this data type.
 ![Cloudinary image](../../Assets/Screenshots/DataHub/DataTypes/Configuration/CloudinaryImage.png "[Cloudinary image]")
 
 - *Folder*   
-  Enter a folder name where the images are put into. If the folder is not yet created in Cloudinary, it is automatically created when uploading the first image. Use placeholders to define product specific folders, for example **{sku}**.
+    Enter a folder name where the images are put into. If the folder is not yet created in Cloudinary, it is automatically created when uploading the first image. Use placeholders to define product specific folders, for example **{sku}**.
 
 - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Read only*   
-  Enable this toggle to set the *Cloudinary Image* value to read-only. Disable the toggle to set the *Cloudinary Image* value to editable. By default, this toggle is disabled.
+    Enable this toggle to set the *Cloudinary Image* value to read-only. Disable the toggle to set the *Cloudinary Image* value to editable. By default, this toggle is disabled.
 
 - *Import Regex*     
-  Enter a regular expression to restrict the listed items for the import of images from Cloudinary. The restriction is applied to the filename. If the field is left blank, no restriction is applied. For detailed information about regular expressions, see https://regex101.com/.
+    Enter a regular expression to restrict the listed items for the import of images from Cloudinary. The restriction is applied to the filename. If the field is left blank, no restriction is applied. For detailed information about regular expressions, see https://regex101.com/.
 
 - *Meta Data Fields*     
-  Enter names for additional contextual meta data fields. Use commas to separate the field names. A separate meta data field is created for each field name. By default, the *Title (caption)* and the *Description (alt)* contextual meta data fields are automatically created for each image and do not need to be added manually.
+    Enter names for additional contextual meta data fields. Use commas to separate the field names. A separate meta data field is created for each field name. By default, the *Title (caption)* and the *Description (alt)* contextual meta data fields are automatically created for each image and do not need to be added manually.
 
 - *Connection*     
-  Click the drop-down list and select the appropriate connection. All connections created in the *Cloudinary* module are displayed in the list.
+    Click the drop-down list and select the appropriate connection. All connections created in the *Cloudinary* module are displayed in the list.
 
 **Structured Meta Data Fields**
 
@@ -577,19 +578,19 @@ The *Cloudinary* plugin owns this data type.
 ![Cloudinary video](../../Assets/Screenshots/DataHub/DataTypes/Configuration/CloudinaryVideo.png "[Cloudinary video]")
 
 - *Folder*   
-  Enter a folder name where the videos are put into. If the folder is not yet created in Cloudinary, it is automatically created when uploading the first video file. Use placeholders to define product specific folders, for example **{sku}**.
+    Enter a folder name where the videos are put into. If the folder is not yet created in Cloudinary, it is automatically created when uploading the first video file. Use placeholders to define product specific folders, for example **{sku}**.
 
 - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Read only*   
-  Enable this toggle to set the *Cloudinary Video* value to read-only. Disable the toggle to set the *Cloudinary Video* value to editable. By default, this toggle is disabled.
+    Enable this toggle to set the *Cloudinary Video* value to read-only. Disable the toggle to set the *Cloudinary Video* value to editable. By default, this toggle is disabled.
 
 - *Import Regex*     
-  Enter a regular expression to restrict the listed items for the import of videos from Cloudinary. The restriction is applied to the filename. If the field is left blank, no restriction is applied. For detailed information about regular expressions, see https://regex101.com/.
+    Enter a regular expression to restrict the listed items for the import of videos from Cloudinary. The restriction is applied to the filename. If the field is left blank, no restriction is applied. For detailed information about regular expressions, see https://regex101.com/.
 
 - *Meta Data Fields*     
-  Enter names for additional contextual meta data fields. Use commas to separate the field names. A separate meta data field is created for each field name. By default, the *Title (caption)* and the *Description (alt)* contextual meta data fields are automatically created for each video and do not need to be added manually.
+    Enter names for additional contextual meta data fields. Use commas to separate the field names. A separate meta data field is created for each field name. By default, the *Title (caption)* and the *Description (alt)* contextual meta data fields are automatically created for each video and do not need to be added manually.
 
 - *Connection*     
-  Click the drop-down list and select the appropriate connection. All connections created in the *Cloudinary* module are displayed in the list.
+    Click the drop-down list and select the appropriate connection. All connections created in the *Cloudinary* module are displayed in the list.
 
 **Structured Meta Data Fields**
 
@@ -618,10 +619,10 @@ The *Omni-Channel* plugin owns this data type.
 ![Offer bundle](../../Assets/Screenshots/DataHub/DataTypes/Configuration/OfferBundle.png "[Offer bundle]")
 
 - *Min relations*     
-  Enter the minimum number of offers that must be related for an offer bundle.
+    Enter the minimum number of offers that must be related for an offer bundle.
 
 - *Max relations*    
-  Enter the maximum number of offers that can be related for an offer bundle.
+    Enter the maximum number of offers that can be related for an offer bundle.
 
 
 ## Object (internal, not editable)
@@ -653,10 +654,10 @@ The *PIM* plugin owns this data type.
 ![Related products](../../Assets/Screenshots/DataHub/DataTypes/Configuration/RelatedProducts.png "[Related products]")
 
 - *Min relations*     
-  Enter the minimum number of products that must be related to the selected product.
+    Enter the minimum number of products that must be related to the selected product.
 
 - *Max relations*    
-  Enter the maximum number of products that can be related to the selected product.
+    Enter the maximum number of products that can be related to the selected product.
 
 
 ## PIM price field
@@ -672,18 +673,18 @@ The *PIM* plugin owns this data type.
 ![PIM Price Field](../../Assets/Screenshots/DataHub/DataTypes/Configuration/PIMPriceField.png "[PIM Price Field]")
 
 - *Precision*   
-  Enter the number of decimals for the price. By default the number of decimals is set to **2**.  
+    Enter the number of decimals for the price. By default the number of decimals is set to **2**.  
 
 **SUPPORTED CURRENCIES**
 
 - *Currency*    
-  Click the drop-down list to select a currency. All available currencies are displayed in the drop-down list.
+    Click the drop-down list to select a currency. All available currencies are displayed in the drop-down list.
 
 - ![Delete](../../Assets/Icons/Trash01.png "[Delete]") (Delete)   
-  Click this button to delete the currency left to this button.
+    Click this button to delete the currency left to this button.
 
 - ![Add](../../Assets/Icons/Plus06.png "[Add]") (Add)   
-  Click this button to add another currency to the list of supported currencies. A new row with the drop-down list *Currency* is displayed below.
+    Click this button to add another currency to the list of supported currencies. A new row with the drop-down list *Currency* is displayed below.
 
 
 ## Product variants (internal, not editable)
@@ -720,10 +721,10 @@ The *PIM* plugin owns this data type.
 ![Product bundle](../../Assets/Screenshots/DataHub/DataTypes/Configuration/ProductBundle.png "[Product bundle]")
 
 - *Min relations*     
-  Enter the minimum number of products that must be related for a product bundle.
+    Enter the minimum number of products that must be related for a product bundle.
 
 - *Max relations*    
-  Enter the maximum number of products that can be related for a product bundle.
+    Enter the maximum number of products that can be related for a product bundle.
 
 
 ## Packaging unit

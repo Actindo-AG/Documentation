@@ -1,3 +1,12 @@
+[!!Manage the attributes](../Integration/01_ManageAttributes.md)
+[!!Manage the attribute sets](../Integration/02_ManageAttributeSets.md)
+[!!Manage the attribute groups](../Integration/03_ManageAttributeGroups.md)
+[!!Manage the channels](../Integration/04_ManageChannels.md)
+[!!Manage the languages](../Integration/05_ManageLanguages.md)
+[!!Manage the ETL mappings](../Operation/01_ManageETLMappings.md)
+[!!Data type list](../UserInterface/04_DataTypeList.md)
+[!!ETL extensions list](../UserInterface/03_ETLExtensions.md)
+
 # DataHub basics
 
 The *Actindo Data Hub (DataHub)* module is characterized by two main points:

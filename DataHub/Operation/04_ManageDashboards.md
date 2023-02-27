@@ -1,6 +1,5 @@
 [!!User interface Dashboards](../UserInterface/01a_Dashboards.md)
 
-
 # Manage the dashboards
 
 A dashboard gives an overview over the module and its content.
@@ -24,16 +23,16 @@ No prerequisites to fulfill.
 ![Dashboards](../../Assets/Screenshots/DataHub/Overview/Dashboards.png "[Dashboards]")
 
 1. Click the ![Add](../../Assets/Icons/Plus06.png "[Add]") (Add) button in the header.   
-  The *Add a new tab* window is displayed. By default, the *Create new tab* tab is preselected.
+    The *Add a new tab* window is displayed. By default, the *Create new tab* tab is preselected.
 
-  ![Add a new tab](../../Assets/Screenshots/DataHub/Overview/AddNewTab.png "[Add a new tab]")
+    ![Add a new tab](../../Assets/Screenshots/DataHub/Overview/AddNewTab.png "[Add a new tab]")
 
 2. Enter a name for the dashboard tab in the *Tab name* field.
 
 3. Click the [SAVE] button in the bottom right corner.   
-  The *Add a new tab* window is closed. The new dashboard has been saved and is displayed.
+    The *Add a new tab* window is closed. The new dashboard has been saved and is displayed.
 
-  > [Info] You can create an unlimited number of dashboard tabs and customize them to the desired purpose.
+    > [Info] You can create an unlimited number of dashboard tabs and customize them to the desired purpose.
 
 
 
@@ -57,29 +56,29 @@ A dashboard tab has been created, see [Create a dashboard](#create-a-dashboard).
 ![NewTab](../../Assets/Screenshots/DataHub/Overview/NewTab.png "[NewTab]")
 
 1. Select the tab of the dashboard to which you want to add a dashlet.    
-  The selected dashboard tab is displayed.
+    The selected dashboard tab is displayed.
 
 2. Click the ![Settings](../../Assets/Icons/Settings01.png "[Tool]") (Settings) button in the upper right corner.    
-  The *Edit tab* view is displayed.
+    The *Edit tab* view is displayed.
 
-  ![Tab](../../Assets/Screenshots/DataHub/Overview/Tab.png "[Tab]")
+    ![Tab](../../Assets/Screenshots/DataHub/Overview/Tab.png "[Tab]")
 
 3. Click the [ADD ELEMENT] button in the upper right corner.    
-  The *Dashlet picker* window is displayed.
+    The *Dashlet picker* window is displayed.
 
-  ![Dashlet picker](../../Assets/Screenshots/DataHub/Overview/DashletPicker.png "[Dashlet picker]")
+    ![Dashlet picker](../../Assets/Screenshots/DataHub/Overview/DashletPicker.png "[Dashlet picker]")
 
 4. Select the checkboxes of the dashlets you want to add to your dashboard. If you click the checkbox in the header, all dashlets in the list are selected.
 
-  > [Info] For detailed information about the available dashlets, see [Dashlet picker](../UserInterface/01a_Dashboards.md#dashlet-picker).
+    > [Info] For detailed information about the available dashlets, see [Dashlet picker](../UserInterface/01a_Dashboards.md#dashlet-picker).
 
 5. Click the [ACCEPT] button in the bottom right corner of the window.   
-  The selected dashlets have been added to the dashboard. The *Dashlet picker* window is closed.
+    The selected dashlets have been added to the dashboard. The *Dashlet picker* window is closed.
 
 6. Click the [SAVE] button.   
-  The dashboard has been saved. The *Edit tab* view is closed.
+    The dashboard has been saved. The *Edit tab* view is closed.
 
-  > [Info] If you want to change the dashlet positioning, see [Change the dashlets arrangement](#change-the-dashlets-arrangement).
+    > [Info] If you want to change the dashlet positioning, see [Change the dashlets arrangement](#change-the-dashlets-arrangement).
 
 
 
@@ -98,31 +97,31 @@ A dashboard tab has been created, see [Create a dashboard](#create-a-dashboard).
 ![NewTab](../../Assets/Screenshots/DataHub/Overview/NewTab.png "[NewTab]")
 
 1. Select the tab of the dashboard to which you want to change the viewport.   
-  The selected dashboard tab is displayed.
+    The selected dashboard tab is displayed.
 
 2. Click the ![Settings](../../Assets/Icons/Settings01.png "[Tool]") (Settings) button in the upper right corner.    
-  The *Edit tab* view is displayed.
+    The *Edit tab* view is displayed.
 
-  ![Edit tab](../../Assets/Screenshots/DataHub/Overview/EditTab.png "[EditTab]")
+    ![Edit tab](../../Assets/Screenshots/DataHub/Overview/EditTab.png "[EditTab]")
 
 
 3. Click the *Select viewport* drop-down list in the upper left corner and select the desired view format. The following views are available:
-  - **Automatic**   
-    The system automatically detects the appropriate view and applies it to the tab.
-  - **Mobile**   
-    The mobile view is applied to the tab.  
-  - **Tablet**   
-    The tablet view is applied to the tab.  
-  - **Laptop**   
-    The laptop view is applied to the tab.  
-  - **Desktop**   
-    The desktop view is applied to the tab.   
+    - **Automatic**   
+        The system automatically detects the appropriate view and applies it to the tab.
+    - **Mobile**   
+        The mobile view is applied to the tab.  
+    - **Tablet**   
+        The tablet view is applied to the tab.  
+    - **Laptop**   
+        The laptop view is applied to the tab.  
+    - **Desktop**   
+        The desktop view is applied to the tab.   
 
-  The tab layout has been adapted to the selected view. The *Viewport loaded* notice is displayed in the footer.
+    The tab layout has been adapted to the selected view. The *Viewport loaded* notice is displayed in the footer.
 
 
 4. Click the [SAVE] button.   
-  Any changes to the dashboard have been saved. The *Edit tab* view is closed.
+    Any changes to the dashboard have been saved. The *Edit tab* view is closed.
 
 [comment]: <> (Wenn ich den Mobile viewport wählen, verschwinden alle Dashlets -> Bug?!)
 
@@ -144,21 +143,21 @@ Change the arrangement of the dashlets on a dashboard to optimize the view for y
 ![Tab with dashlets](../../Assets/Screenshots/DataHub/Overview/TabDashlets.png "[[Tab with dashlets]")
 
 1. Select the tab of the dashboard to which you want to change the positioning of dashlets.   
-  The selected dashboard tab is displayed.
+    The selected dashboard tab is displayed.
 
 2. Click the ![Settings](../../Assets/Icons/Settings01.png "[Tool]") (Settings) button in the upper right corner.   
-  The *Edit tab* view is displayed.
+    The *Edit tab* view is displayed.
 
-  ![Edit tab](../../Assets/Screenshots/DataHub/Overview/EditTab.png "[Edit tab]")
+    ![Edit tab](../../Assets/Screenshots/DataHub/Overview/EditTab.png "[Edit tab]")
 
 3. Hover over a dashlet until the cursor icon changes to the cross arrows cursor.
 
 4. Click the dashlet and move it on the desired position on the dashboard using drag and drop. When moving the dashlet across the dashboard, the possible positions on the predefined grid are highlighted.
 
-  ![Move dashlet](../../Assets/Screenshots/DataHub/Overview/MoveDashlet.png "[Move dashlet]")
+    ![Move dashlet](../../Assets/Screenshots/DataHub/Overview/MoveDashlet.png "[Move dashlet]")
 
 5. Click the [SAVE] button.   
-  Any changes to the dashboard have been saved. The *Edit tab* view is closed.
+    Any changes to the dashboard have been saved. The *Edit tab* view is closed.
 
 
 
@@ -178,20 +177,20 @@ Remove a dashlet from a dashboard if it is not needed for the purposes or has be
 ![Tab with dashlets](../../Assets/Screenshots/DataHub/Overview/TabDashlets.png "[[Tab with dashlets]")
 
 1. Select the tab of the dashboard from which you want to remove a dashlet.   
-  The selected dashboard tab is displayed.
+    The selected dashboard tab is displayed.
 
 2. Click the ![Settings](../../Assets/Icons/Settings01.png "[Settings]") (Settings) button in the upper right corner.    
-  The *Edit tab* view is displayed.
+    The *Edit tab* view is displayed.
 
-  ![Edit tab](../../Assets/Screenshots/DataHub/Overview/EditTab.png "[EditTab]")
+    ![Edit tab](../../Assets/Screenshots/DataHub/Overview/EditTab.png "[EditTab]")
 
 3. Click the ![Remove](../../Assets/Icons/Cross03.png "[Remove]") (Remove) button in the upper right corner of the dashlet you want to delete.    
-  The dashlet has been removed from the dashboard.
+    The dashlet has been removed from the dashboard.
 
-  > [Info] The removal cannot be undone. To recover a dashlet, you have to add it again, see [Add a dashlet](#add-a-dashlet).
+    > [Info] The removal cannot be undone. To recover a dashlet, you have to add it again, see [Add a dashlet](#add-a-dashlet).
 
 4. Click the [SAVE] button.   
-  Any changes to the dashboard have been saved. The *Edit tab* view is closed.
+    Any changes to the dashboard have been saved. The *Edit tab* view is closed.
 
 
 
@@ -210,11 +209,11 @@ A dashboard has been created, see [Create a dashboard](#create-a-dashboard).
 ![Multiple dashboards](../../Assets/Screenshots/DataHub/Overview/MultipleDashboards.png "[Multiple dashboards]")
 
 1. Click the ![Delete](../../Assets/Icons/Cross02.png "[Delete]") (Delete) button on the dashboard you want to delete.   
-  The *Confirm tab deletion* window is displayed.
+    The *Confirm tab deletion* window is displayed.
 
-  ![Confirm tab deletion](../../Assets/Screenshots/DataHub/Overview/ConfirmTabDeletion.png "[Confirm tab deletion]")
+    ![Confirm tab deletion](../../Assets/Screenshots/DataHub/Overview/ConfirmTabDeletion.png "[Confirm tab deletion]")
 
 2. Click the [ACCEPT] button in the bottom right corner.   
-  The *Confirm tab deletion* window is closed. The dashboard has been deleted.
+    The *Confirm tab deletion* window is closed. The dashboard has been deleted.
 
-  > [Info] Be aware that the dashboard cannot be recovered as the deletion process cannot be undone.
+    > [Info] Be aware that the dashboard cannot be recovered as the deletion process cannot be undone.

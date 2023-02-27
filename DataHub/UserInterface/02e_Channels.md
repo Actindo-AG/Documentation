@@ -1,8 +1,4 @@
-[!!Create a channel](../Integration/04_ManageChannels.md#create-a-channel)
-[!!Edit a channel](../Integration/04_ManageChannels.md#edit-a-channel)
-[!!Delete a channel](../Integration/04_ManageChannels.md#delete-a-channel)
-[!!Deactivate a channel](../Integration/04_ManageChannels.md#deactivate-a-channel)
-
+[!!Manage the channels](../Integration/04_ManageChannels.md)
 
 # Channels
 
@@ -13,67 +9,65 @@
 **Channel list**
 
 - ![Search](../../Assets/Icons/Search.png "[Search]") (Search)   
-  Click this button to display the search bar and search for a channel.
+    Click this button to display the search bar and search for a channel.
 
 - ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh)   
-  Click this button to update the list of channels.
+    Click this button to update the list of channels.
 
 - ![Columns](../../Assets/Icons/Columns.png "[Columns]") Columns (x)   
-  Click this button to display the columns bar and customize the displayed columns and the order of columns in the list. The *x* indicates the number of columns that are currently displayed in the list.
+    Click this button to display the columns bar and customize the displayed columns and the order of columns in the list. The *x* indicates the number of columns that are currently displayed in the list.
 
 - ![Filter](../../Assets/Icons/Filter.png "[Filter]") Filter (x)   
-  Click this button to display the filter bar and customize the active filters. The *x* indicates the number of filters that are currently active.
+    Click this button to display the filter bar and customize the active filters. The *x* indicates the number of filters that are currently active.
 
 - [x]     
-  Select the checkbox to display the editing toolbar. If you click the checkbox in the header, all channels in the list are selected.
+    Select the checkbox to display the editing toolbar. If you click the checkbox in the header, all channels in the list are selected.
 
 - [EDIT]   
-  Click this button to edit the selected channel. This button is only displayed if a single checkbox of a channel is selected. Alternatively, you can click directly a row in the list to edit a channel.
+    Click this button to edit the selected channel. This button is only displayed if a single checkbox of a channel is selected. Alternatively, you can click directly a row in the list to edit a channel.
 
 - [DELETE]   
-  Click this button to delete the selected channel. This button is only displayed if the checkbox of at least one channel is selected.       
+    Click this button to delete the selected channel. This button is only displayed if the checkbox of at least one channel is selected.       
 
 The list displays all channels. Depending on the settings, the displayed columns may vary. All fields are read-only.
 
 - *Name*   
-  Channel name.
+    Channel name.
 
 - *Key*   
-  Channel key.
+    Channel key.
 
 - *Description*   
-  Description to the channel.
-
+    Description to the channel.
 
 - *Status*   
-  Channel status. The following statuses are available:
-  - ![Status](../../Assets/Icons/Status01.png "[Status]") **Active**
-  - ![Status](../../Assets/Icons/Status04.png "[Status]") **Inactive**   
-
+    Channel status. The following statuses are available:
+    - ![Status](../../Assets/Icons/Status01.png "[Status]") **Active**
+    - ![Status](../../Assets/Icons/Status04.png "[Status]") **Inactive**   
 
 - *ID*   
-  Channel identification number. The ID number is automatically assigned by the system.
+    Channel identification number. The ID number is automatically assigned by the system.
 
 - *Modified on*   
-  Date and time of the last modification.
+    Date and time of the last modification.
 
 - *Modified by*   
-  Name and username of the user who modified the channel.
+    Name and username of the user who modified the channel.
 
 - *Created on*   
-  Date and time of the creation.
+    Date and time of the creation.
 
 - *Created by*   
-  Name and username of the user who created the channel.
+    Name and username of the user who created the channel.
 
 - *Name (Language)*   
-  Channel name in the selected language. A single *Name (Language)* column is displayed for the system languages *English (United States)* and *Deutsch (Deutschland)*.
+    Channel name in the selected language. A single *Name (Language)* column is displayed for the system languages *English (United States)* and *Deutsch (Deutschland)*.
 
 - *Description (Language)*   
-  Channel description in the displayed language. A single *Description (Language)* column is displayed for the system languages *English (United States)* and *Deutsch (Deutschland)*.
+    Channel description in the displayed language. A single *Description (Language)* column is displayed for the system languages *English (United States)* and *Deutsch (Deutschland)*.
 
 - ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add)   
-  Click this button to create a channel. The *Create channel* view is displayed.   
+    Click this button to create a channel. The *Create channel* view is displayed.   
 
 
 
@@ -86,30 +80,28 @@ The list displays all channels. Depending on the settings, the displayed columns
 **Create channel**
 
 - ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)   
-  Click this button to close the *Create channel* view and return to the channel list. All changes are rejected.
+    Click this button to close the *Create channel* view and return to the channel list. All changes are rejected.
 
 - Language   
-  Click the drop-down list and select the language in which the *Name (Language)* and *Description (Language)* fields are displayed. The system languages **English (United States)** and **Deutsch (Deutschland)** are available in the drop-down list.
+    Click the drop-down list and select the language in which the *Name (Language)* and *Description (Language)* fields are displayed. The system languages **English (United States)** and **Deutsch (Deutschland)** are available in the drop-down list.
 
 - [SAVE]   
-  Click this button to save the channel. The *Create channel* view is closed.
+    Click this button to save the channel. The *Create channel* view is closed.
 
 - *Name (Language)*   
-  Enter a channel name in the selected language.
+    Enter a channel name in the selected language.
 
 - *Description (Language)*   
-  Enter a description to the channel in the selected language.
-
+    Enter a description to the channel in the selected language.
 
 - *Key*   
-  Enter a channel key. The key is required for API access and must be system wide unique. A channel key must fulfill the following criteria:
-  - valid characters are **a-z** (upper and lower case), **0-9** and the underscore ( **_** )
-  - the key must not start with a number
-  - a double underscore ( **___** ) and a trailing underscore are forbidden
-
+    Enter a channel key. The key is required for API access and must be system wide unique. A channel key must fulfill the following criteria:
+    - valid characters are **a-z** (upper and lower case), **0-9** and the underscore ( **_** )
+    - the key must not start with a number
+    - a double underscore ( **___** ) and a trailing underscore are forbidden
 
 - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Active*   
-  Enable this toggle to set the channel status to active. Disable the toggle to set the channel status to inactive. By default, this toggle is disabled.
+    Enable this toggle to set the channel status to active. Disable the toggle to set the channel status to inactive. By default, this toggle is disabled.
 
 
 
@@ -122,28 +114,26 @@ The list displays all channels. Depending on the settings, the displayed columns
 **Edit channel**
 
 - ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)   
-  Click this button to close the *Edit channel* view and return to the channel list. All changes are rejected.
+    Click this button to close the *Edit channel* view and return to the channel list. All changes are rejected.
 
 - Language   
-  Click the drop-down list and select the language in which the *Name (Language)* and *Description (Language)* fields are displayed. The system languages **English (United States)** and **Deutsch (Deutschland)** are available in the drop-down list.
+    Click the drop-down list and select the language in which the *Name (Language)* and *Description (Language)* fields are displayed. The system languages **English (United States)** and **Deutsch (Deutschland)** are available in the drop-down list.
 
 - [SAVE]   
-  Click this button to save the channel. The *Edit channel* view is closed.
+    Click this button to save the channel. The *Edit channel* view is closed.
 
 - *Name (Language)*   
-  Click the field to edit the channel name in the selected language.
+    Click the field to edit the channel name in the selected language.
 
 - *Description (Language)*   
-  Click the field to edit the description to the channel in the selected language.
-
+    Click the field to edit the description to the channel in the selected language.
 
 - *Key*   
-  Click the field to edit the channel key. It is not recommended to change the channel key after creation.   
-  The key is required for API access and must be system wide unique. A channel key must fulfill the following criteria:
-  - valid characters are **a-z** (upper and lower case), **0-9** and the underscore ( **_** )
-  - the key must not start with a number
-  - a double underscore ( **___** ) and a trailing underscore are forbidden
-
+    Click the field to edit the channel key. It is not recommended to change the channel key after creation.   
+    The key is required for API access and must be system wide unique. A channel key must fulfill the following criteria:
+    - valid characters are **a-z** (upper and lower case), **0-9** and the underscore ( **_** )
+    - the key must not start with a number
+    - a double underscore ( **___** ) and a trailing underscore are forbidden
 
 - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Active*   
-  Enable this toggle to set the channel status to active. Disable the toggle to set the channel to inactive. By default, this toggle is disabled.
+    Enable this toggle to set the channel status to active. Disable the toggle to set the channel to inactive. By default, this toggle is disabled.

@@ -1,5 +1,5 @@
 [!!User interface Languages](../UserInterface/02f_Languages.md)
-[!!Configure the language settings](../../PIM/Integration/ConfigureLanguages.md)
+[!!Configure the language settings in PIM](../../PIM/Integration/ConfigureLanguages.md)
 
 # Manage the languages
 
@@ -23,25 +23,25 @@ No prerequisites to fulfill.
 ![Language list](../../Assets/Screenshots/DataHub/Settings/Languages/LanguageList.png "[Language list]")
 
 1. Click the ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) button in the bottom right corner.   
-  The *Create language* view is displayed.
+    The *Create language* view is displayed.
 
-  ![Create language](../../Assets/Screenshots/DataHub/Settings/Languages/CreateLanguage.png "[Create language]")
+    ![Create language](../../Assets/Screenshots/DataHub/Settings/Languages/CreateLanguage.png "[Create language]")
 
 2. Enter a name for the language in the *Name* field.
 
 
 3. Enter a key for the language in the *Key* field. The key is required for API access and must be system wide unique. The language key must fulfill the criteria of the language codes according to [RFC 4646](https://www.heise.de/netze/rfc/rfcs/rfc4646.shtml). For instance, keys with the following structure are valid:
-  - en
-  - en_US
-  - en-US
+    - en
+    - en_US
+    - en-US
 
 
 4. Enable the *Active* toggle to set the language directly after creation to active.
 
-  > [Info] The language must be activated to be used.
+    > [Info] The language must be activated to be used.
 
 5. Click the [SAVE] button in the upper right corner.   
-  The new language has been saved. The *Create language* view is closed.  
+    The new language has been saved. The *Create language* view is closed.  
 
 
 
@@ -62,14 +62,14 @@ At least one language has been created, see [Create a language](#create-a-langua
 ![Language list](../../Assets/Screenshots/DataHub/Settings/Languages/LanguageList.png "[Language list]")
 
 1. Click the language you want to edit in the list of languages.   
-  The *Edit language* view is displayed.
+    The *Edit language* view is displayed.
 
-  ![Edit language](../../Assets/Screenshots/DataHub/Settings/Languages/EditLanguage.png "[Edit language]")
+    ![Edit language](../../Assets/Screenshots/DataHub/Settings/Languages/EditLanguage.png "[Edit language]")
 
 2. Edit the desired data of the language in the corresponding fields.
 
 3. Click the [SAVE] button in the upper right corner.   
-  The changes have been saved. The *Edit language* view is closed.  
+    The changes have been saved. The *Edit language* view is closed.  
 
 
 
@@ -92,14 +92,14 @@ At least one language has been created, see [Create a language](#create-a-langua
 ![Language list](../../Assets/Screenshots/DataHub/Settings/Languages/LanguageList.png "[Language list]")
 
 1. Click the language you want to edit in the list of languages.   
-  The *Edit language* view is displayed.
+    The *Edit language* view is displayed.
 
-  ![Edit language](../../Assets/Screenshots/DataHub/Settings/Languages/EditLanguage.png "[Edit language]")
+    ![Edit language](../../Assets/Screenshots/DataHub/Settings/Languages/EditLanguage.png "[Edit language]")
 
 2. Disable the *Active* toggle.
 
 3. Click the [SAVE] button in the upper right corner.   
-  The language has been deactivated. The *Edit language* view is closed.
+    The language has been deactivated. The *Edit language* view is closed.
 
 
 
@@ -122,9 +122,9 @@ At least one language has been created, see [Create a language](#create-a-langua
 ![Language list](../../Assets/Screenshots/DataHub/Settings/Languages/LanguageList.png "[Language list]")
 
 1. Select the checkbox of the language you want to delete in the list of languages.    
-  The editing toolbar is displayed above the language list.
+    The editing toolbar is displayed above the language list.
 
 2. Click the [Delete] button in the editing toolbar.  
-  The language has been deleted. The deletion cannot be undone.
+    The language has been deleted. The deletion cannot be undone.
 
-  > [Info] If the selected language cannot be deleted, an error message is displayed in the upper right corner. To prevent the languages use, it is recommended to deactivate the language instead of deleting it, see [Deactivate a language](#deactivate-a-language).
+    > [Info] If the selected language cannot be deleted, an error message is displayed in the upper right corner. To prevent the languages use, it is recommended to deactivate the language instead of deleting it, see [Deactivate a language](#deactivate-a-language).
