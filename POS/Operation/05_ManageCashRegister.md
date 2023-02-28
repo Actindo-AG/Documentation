@@ -1,6 +1,6 @@
-[!!User Interface Cash register](../UserInterface/01c_CashRegister.md)
-[!!User Interface Stores](../UserInterface/02b_Stores.md)
-
+[!!Open a pay desk](./01_OpenPayDesk.md)
+[!!User interface Cash register](../UserInterface/01c_CashRegister.md)
+[!!User interface Stores](../UserInterface/02b_Stores.md)
 
 # Manage the cash register
 
@@ -22,9 +22,9 @@ The pay desk is open, see [Open a pay desk](./01_OpenPayDesk.md).
 ![Cash Register](../../Assets/Screenshots/POS/Sales/CashRegister/CashRegister.png "[Cash Register]")
 
 1. Click the button [Cash in] in the upper right corner of the *Cash in/out* section.   
-  The *Cash in* view is displayed.
+    The *Cash in* view is displayed.
 
-  ![Cash In](../../Assets/Screenshots/POS/Sales/CashRegister/CashIn.png "[Cash In]")
+    ![Cash In](../../Assets/Screenshots/POS/Sales/CashRegister/CashIn.png "[Cash In]")
 
 2. Enter a descriptive name for the deposit in the *Description* field.
 
@@ -52,9 +52,9 @@ The pay desk is open, see [Open a pay desk](./01_OpenPayDesk.md).
 ![Cash Register](../../Assets/Screenshots/POS/Sales/CashRegister/CashRegister.png "[Cash Register]")
 
 1. Click the button [Cash out] in the upper right corner of the *Cash in/out* section.   
-  The *Cash out* view is displayed.
+    The *Cash out* view is displayed.
 
-  ![Cash Out](../../Assets/Screenshots/POS/Sales/CashRegister/CashOut.png "[Cash Out]")
+    ![Cash Out](../../Assets/Screenshots/POS/Sales/CashRegister/CashOut.png "[Cash Out]")
 
 2. Enter a descriptive name for the withdrawal in the text *Description* field.
 
@@ -82,32 +82,32 @@ The pay desk is open, see [Open a pay desk](./01_OpenPayDesk.md).
 ![Cash Register](../../Assets/Screenshots/POS/Sales/CashRegister/CashRegister.png "[Cash Register]")
 
 1. Click the ![Calculator](../../Assets/Icons/Calculator01.png "[Calculator]") (Calculator) button in the field of the *Counted* column in the *Payment tally* section.   
-  The *Count cash* view is displayed.
+    The *Count cash* view is displayed.
 
-  ![Count Cash](../../Assets/Screenshots/POS/Sales/CashRegister/CountCash.png "[Count Cash]")
+    ![Count Cash](../../Assets/Screenshots/POS/Sales/CashRegister/CountCash.png "[Count Cash]")
 
 2. Enter the number of coins or banknotes in the field of the *Amount* column. The amount of money is specified in the same row in the *Type* column.
 
 3. Click the next row and also enter the number of coins or banknotes in the field of the *Amount* column. Repeat this step for all rows.
 
-  > [Info] The total of cash counted is displayed at the bottom of the *Count cash* view.
+    > [Info] The total of cash counted is displayed at the bottom of the *Count cash* view.
 
 4. Click the button [OK] in the bottom right corner.  
     The *Count cash* view is closed. The amount of cash counted is displayed in the field of the *Counted* column in the *Payment tally* section.
 
-  > [Info] Alternatively to using the *Count cash* function, you can enter the total amount of cash directly in the field of the column *Counted*.
+    > [Info] Alternatively to using the *Count cash* function, you can enter the total amount of cash directly in the field of the column *Counted*.
 
 5. If desired, enter an amount up to which the pay desk is skimmed after closing in the field of the *Skim to* column in the *Payment tally* section.
 
-  > [Info] You can set an amount up to which the pay desk is skimmed after closing in the *Global Settings* tab. If you have predefined a skimming amount, the field of the column *Skim to* is preset with this amount. The field can be overwritten in the *Cash Register* tab when closing the pay desk.
+    > [Info] You can set an amount up to which the pay desk is skimmed after closing in the *Global Settings* tab. If you have predefined a skimming amount, the field of the column *Skim to* is preset with this amount. The field can be overwritten in the *Cash Register* tab when closing the pay desk.
 
 6. Click the button [Close Register] in the upper right corner of the *Payment tally* section.   
-  A confirmation message whether the pay desk should really be closed is displayed.
+    A confirmation message whether the pay desk should really be closed is displayed.
 
-  ![Close Register](../../Assets/Screenshots/POS/Sales/CashRegister/CloseRegister.png "[Close Register]")
+    ![Close Register](../../Assets/Screenshots/POS/Sales/CashRegister/CloseRegister.png "[Close Register]")
 
 7. Click the [Ok] button.   
-  The pay desk is closed. The view to select a store and a pay desk is displayed, see [Open a pay desk](./01_OpenPayDesk.md).
+    The pay desk is closed. The view to select a store and a pay desk is displayed, see [Open a pay desk](./01_OpenPayDesk.md).
 
 
 
@@ -126,16 +126,16 @@ At least one shift has ended and the pay desk has been closed, see [Close a pay 
 ![Transactions](../../Assets/Screenshots/POS/Management/Stores/PayDesk/Transactions/Transactions.png "[Transactions]")
 
 1. Click anywhere in the row with the shift you want to check (except in the *Print shift summary* field).   
-  The *Transactions* window is displayed.
+    The *Transactions* window is displayed.
 
-  ![Transactions Details](../../Assets/Screenshots/POS/Management/Stores/PayDesk/Transactions/Details.png "[Transactions Details]")
+    ![Transactions Details](../../Assets/Screenshots/POS/Management/Stores/PayDesk/Transactions/Details.png "[Transactions Details]")
 
- > [Info] The *Transactions* window displays the detailed transactions of the selected shift.
+    > [Info] The *Transactions* window displays the detailed transactions of the selected shift.
 
 2. Check the transactions in the *Transactions* window and click anywhere outside the window.   
-  The *Transactions* window is closed.
+    The *Transactions* window is closed.
 
 3. Click the *Print shift summary* field in the row of the selected shift.   
-  The summary of the shift is printed.
+    The summary of the shift is printed.
 
-  [comments]: <> (For me, a new tab in the browser is displayed with the shift summary. Is it like that by default or do I have to configure it somewhere in the printing settings?)
+[comments]: <> (For me, a new tab in the browser is displayed with the shift summary. Is it like that by default or do I have to configure it somewhere in the printing settings?)

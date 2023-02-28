@@ -1,9 +1,8 @@
-[!!Order management](../../RetailSuiteFaktBase/Overview/01_General.md)
-[!!DataHub](../../DataHub/Overview/01_General.md)
-[!!User Interface Venduo POS](../UserInterface/00_UserInterface.md)
-[!!User Interface Order management](../../RetailSuiteFaktBase/UserInterface/00_UserInterface.md)
-[!!User Interface DataHub](../../DataHub/UserInterface/00_UserInterface.md)
+[!!Create a store in POS](06_CreateStore.md)
+[!!User interface Global settings](../UserInterface/02a_GlobalSettings.md)
+[!!User interface DataHub ETL](../../DataHub/UserInterface/02d_ETL.md)
 
+[comment]: <> (add link to Order management module if available)
 
 # Configure the global settings for POS
 
@@ -30,20 +29,20 @@ No prerequisites to fulfill.
 
 *Venduo POS > Management > Tab GLOBAL SETTINGS > Entry Default customer*
 
-  ![Default customer](../../Assets/Screenshots/POS/Management/GlobalSettings/GS27.png "[Default customer]")
+![Default customer](../../Assets/Screenshots/POS/Management/GlobalSettings/GS27.png "[Default customer]")
 
 1. Select the *Default customer* entry in the list of settings in the left column.
 
-  The *Default customer* view is displayed on the right side.
+    The *Default customer* view is displayed on the right side.
 
 2. Enter the fields for the default customer.
 
-  > [Info] You must at least enter the country and an e-mail address for the default customer.
+    > [Info] You must at least enter the country and an e-mail address for the default customer.
 
 3. Click the [Save] button in the upper right corner.   
-  The *Saving successful* message is displayed. The default customer is saved for all stores.
+    The *Saving successful* message is displayed. The default customer is saved for all stores.
 
-  ![Saving successful](../../Assets/Screenshots/SavingSuccessful.png "[Saving successful]")
+    ![Saving successful](../../Assets/Screenshots/SavingSuccessful.png "[Saving successful]")
 
 
 
@@ -59,17 +58,17 @@ No prerequisites to fulfill.
 
 *Venduo POS > Management > Tab GLOBAL SETTINGS > Entry VAT-ID*
 
-  ![VAT-ID](../../Assets/Screenshots/POS/Management/GlobalSettings/GS08.png "[VAT-ID]")
+![VAT-ID](../../Assets/Screenshots/POS/Management/GlobalSettings/GS08.png "[VAT-ID]")
 
 1. Select the *VAT-ID* entry in the list of settings in the left column.   
-  The *VAT-ID* view is displayed on the right side.
+    The *VAT-ID* view is displayed on the right side.
 
 2. Enter the VAT-ID in the *VAT-ID* field.
 
 3. Click the [Save] button in the upper right corner.   
-  The *Saving successful* message is displayed. The VAT-ID is saved for all stores.
+    The *Saving successful* message is displayed. The VAT-ID is saved for all stores.
 
-  ![Saving successful](../../Assets/Screenshots/SavingSuccessful.png "[Saving successful]")
+    ![Saving successful](../../Assets/Screenshots/SavingSuccessful.png "[Saving successful]")
 
 
 
@@ -91,20 +90,20 @@ No prerequisites to fulfill.
 ![Payment method](../../Assets/Screenshots/RetailSuiteFaktBase/Settings/PaymentMethods/PaymentMethods.png "[Payment methods]")
 
 1. Click the [NEW] button.   
-  The *Edit payment method* window is displayed.
+    The *Edit payment method* window is displayed.
 
-  ![Edit payment method](../../Assets/Screenshots/RetailSuiteFaktBase/Settings/PaymentMethods/EditPaymentMethod.png "[Edit payment method]")
+    ![Edit payment method](../../Assets/Screenshots/RetailSuiteFaktBase/Settings/PaymentMethods/EditPaymentMethod.png "[Edit payment method]")
 
 2. Enter a name for the payment method in the *Title* field.   
 
 3. Enter an ID for the payment method in the *ID* field.   
 
 4. Click the [SAVE] button in the bottom right corner of the window.   
-  The *Saving...* window is displayed.
+    The *Saving...* window is displayed.
 
-  ![Saving](../../Assets/Screenshots/RetailSuiteFaktBase/Settings/PaymentMethods/Saving.png "[Saving]")
+    ![Saving](../../Assets/Screenshots/RetailSuiteFaktBase/Settings/PaymentMethods/Saving.png "[Saving]")
 
-  When the window is closed, the new payment method is saved in the *Order management* module. The new payment method is displayed in the list of payment methods in the *PAYMENT METHOD(S)* tab.
+    When the window is closed, the new payment method is saved in the *Order management* module. The new payment method is displayed in the list of payment methods in the *PAYMENT METHOD(S)* tab.
 
 
 ### Create a payment method in POS
@@ -121,12 +120,12 @@ A payment method has been created in the *Order management* module, see [Create 
 ![GlobalSettings](../../Assets/Screenshots/POS/Management/GlobalSettings/GlobalSettings.png "[GlobalSettings]")
 
 1. Click the *Payment methods (manual terminal payment)* setting in the list of settings.   
-  The *Payment methods (manual terminal payment)* view is displayed.
+    The *Payment methods (manual terminal payment)* view is displayed.
 
-  ![Payment methods](../../Assets/Screenshots/POS/Management/GlobalSettings/GS04.png "[Payment methods]")
+    ![Payment methods](../../Assets/Screenshots/POS/Management/GlobalSettings/GS04.png "[Payment methods]")
 
 2. Click the ![Add](../../Assets/Icons/Plus04.png "[Add]") (Add) button.
-  A new row for a payment method is displayed.
+    A new row for a payment method is displayed.
 
 3. Enter the key of the new payment method in the *Key* field.
 
@@ -151,12 +150,12 @@ A payment method has been created in the *Order management* module, see [Create 
 ![ETL](../../Assets/Screenshots/DataHub/Settings/ETL/ETL.png "[ETL]")
 
 1. Click the **Orders POS Store** attribute set mapping of the corresponding store in the *Source attribute set* column.   
-  The *Mapping* view of the selected attribute set is displayed.
+    The *Mapping* view of the selected attribute set is displayed.
 
 2. Click the attribute mapping with the **Payment method** attribute in the *Destination attribute* column.   
-  The *Settings* section is displayed in the right part of the tab.
+    The *Settings* section is displayed in the right part of the tab.
 
-  ![Mapping](../../Assets/Screenshots/DataHub/Settings/ETL/MappingSettings.png "[Mapping]")
+    ![Mapping](../../Assets/Screenshots/DataHub/Settings/ETL/MappingSettings.png "[Mapping]")
 
 3. Click the *Extension* drop-down list in the *Settings* section and select the **Mapping table** option.
 

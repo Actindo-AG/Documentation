@@ -1,10 +1,9 @@
-[!!User Interface Cashpoint](../UserInterface/01a_Cashpoint.md)
+[!!User interface Cashpoint](../UserInterface/01a_Cashpoint.md)
 [!!Manage offers for POS](../Integration/07_ManageOffers.md)
-
 
 # Select an offer
 
-Venduo POS offers several ways to select an offer or to search for it.
+The *Venduo POS* module offers several ways to select an offer or to search for it.
 You may select an offer:
 - by [QuickSelect](#select-by-quickselect)
 - by name [Select by name](#select-by-name)
@@ -28,10 +27,10 @@ The QuickSelect option offers you the possibility to select an offer by clicking
 ![Cashpoint](../../Assets/Screenshots/POS/Sales/Cashpoint/Cashpoint.png "[Cashpoint]")
 
 1. Select the desired category by clicking the corresponding tab below the search bar.  
-  All offers assigned to the selected category are displayed.
+    All offers assigned to the selected category are displayed.
 
 2. Select the desired offer by clicking the corresponding product button.   
-  The offer is added to the bill list.
+    The offer is added to the bill list.
 
 
 
@@ -50,18 +49,18 @@ Offers for POS are created, see [Manage offers for POS](../Integration/07_Manage
 ![Cashpoint](../../Assets/Screenshots/POS/Sales/Cashpoint/Cashpoint.png "[Cashpoint]")
 
 1. Click the *Find offer by nam...* search bar in the upper left part of the tab.  
-  The cursor is displayed in the search bar.
+    The cursor is displayed in the search bar.
 
 2. Enter the name of the offer or the keyword you are searching for in the search bar.
+    The offers that match the search are displayed in a list below the search bar.
 
-  > [Info] The search already provides you with proposals for your keyword as you type.
+    > [Info] The search already provides you with proposals for your keyword as you type.
 
-  The offers that match the search are displayed in a list below the search bar.
 
 3. Select the desired offer by clicking the corresponding product in the list.   
-  The offer is added to the bill list on the right side.
+    The offer is added to the bill list on the right side.
 
-  > [Info] The keyword remains in the search bar when you add a product to the bill list. When you click the search bar with that keyword again, the  search results list for this keyword is displayed again.
+    > [Info] The keyword remains in the search bar when you add a product to the bill list. When you click the search bar with that keyword again, the  search results list for this keyword is displayed again.
 
 
 
@@ -80,18 +79,18 @@ Offers for POS are created, see [Manage offers for POS](../Integration/07_Manage
 ![Cashpoint](../../Assets/Screenshots/POS/Sales/Cashpoint/Cashpoint.png "[Cashpoint]")
 
 1. Click the *Find offer by nam...* search bar in the upper left part of the tab.  
-  The cursor is displayed in the search bar.
+    The cursor is displayed in the search bar.
 
 2. Enter the number of the offer you are searching for in the search bar.
+    The offers that match the search are displayed in a list below the search bar.
 
-  > [Info] The search already provides you with proposals for your number as you type.
+    > [Info] The search already provides you with proposals for your number as you type.
 
-  The offers that match the search are displayed in a list below the search bar.
 
 3. Select the desired offer by clicking the corresponding product in the list.   
-  The offer is added to the bill list on the right side.
+    The offer is added to the bill list on the right side.
 
-  > [Info] The number remains in the search bar when you add a product to the bill list. When you click the search bar with that number again, the search results list for this number is displayed again.
+    > [Info] The number remains in the search bar when you add a product to the bill list. When you click the search bar with that number again, the search results list for this number is displayed again.
 
 
 
@@ -111,11 +110,11 @@ Offers for POS are created, see [Manage offers for POS](../Integration/07_Manage
 
 1. Activate the *Single scan* toggle in the bill list on the right side of the pay desk interface.   
 
-> [Info] The single scan works from the moment it is toggled on. It does not apply backwards to products that were already on the bill list at the time of activation.   
-Even if the single scan function is active, you can edit the quantity of products manually in the bill list, see [Edit the quantity of a product](./03_EditBillList.md#edit-the-quantity-of-a-product).
+    > [Info] The single scan works from the moment it is toggled on. It does not apply backwards to products that were already on the bill list at the time of activation.   
+    Even if the single scan function is active, you can edit the quantity of products manually in the bill list, see [Edit the quantity of a product](./03_EditBillList.md#edit-the-quantity-of-a-product).
 
 2. Select an offer.   
-  The product is listed in the bill list.
+    The product is listed in the bill list.
 
 3. Select the same offer again.   
-  The same product is listed in an own entry in the bill list.
+    The same product is listed in an own entry in the bill list.
