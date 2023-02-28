@@ -233,7 +233,7 @@ The list displays all offers to be imported. Depending on the settings, the disp
     - **Inactive**   	 
     - **Not available**  
 
-[comment]: <> (when is an error displayed here? what is displayed? The Error code or message?)
+    If an error occurs when uploading the offer, the error message is displayed in the column. Click the [Show log message] button in the column to display the corresponding log message in the *LOG* tab, see [User interface LOG](./06a_Log.md).
 
 - *Last upload*  
     Date and time of the last offer upload.

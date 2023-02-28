@@ -106,7 +106,7 @@ The list displays all intents. Depending on the settings, the displayed columns 
 - ![Unpublish](../../Assets/Icons/Unpublish02.png "[Unpublish]") (Unpublish)  
     Click this button to unpublish the log message.
 
-[comment]: <> (Gibt es auch einen publish button, wenn eine message unplublished wurde?)
+[comment]: <> (Gibt es auch einen publish button, wenn eine message unpublished wurde?)
 
 - ![View](../../Assets/Icons/Eye02.png "[View]") (View)    
     Click this button to display the details of the log message. Alternatively, you can click directly a row in the list to display the details of the log message. The *Detail of log message "Log message title"* view is displayed, see [Detail of log message "Log message title"](#detail-of-log-message-log-message-title). 

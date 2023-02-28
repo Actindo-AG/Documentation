@@ -6,9 +6,10 @@
 
 **Settings**
 
-The side menu displays the different log levels. The log level view on the right side changes to the corresponding log level when another entry is selected in the side menu.
+The side menu displays the different log levels and the log level settings. The corresponding view is displayed on the right side when an entry in the side menu is selected.
 
-**Log level (side menu)**
+- *Log level*   
+    Click this menu entry to display the *Log level* view on the right side.
 
 - *Emergency*   
     Click this menu entry to display the *Emergency* view on the right side.
@@ -35,12 +36,14 @@ The side menu displays the different log levels. The log level view on the right
     Click this menu entry to display the *Debug* view on the right side.
 
 
-**Log level (view)**
+## Log level
+
+*Omni-Channel > Settings > Tab LOGGING > Side menu entry Log level*
+
+![Logging](../../Assets/Screenshots/Channels/Settings/Logging/Logging.png "[Logging]")
 
 - *Apply from default* ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]")   
-    Activate this toggle to apply the default minimum log level **Notice**. The *Min log level* field is locked. Deactivate the toggle to unlock the *Min log level* field and enter a different minimum log level. By default, this toggle is active.
-
-[comment]: <> (Ist Notice immer der default?)
+    Activate this toggle to apply the default minimum log level **Notice**. The *Min log level* field is locked. Deactivate the toggle to unlock the *Min log level* field and select a different minimum log level. By default, this toggle is active.
 
 - [SAVE]   
     Click this button to save the selected minimum log level.
