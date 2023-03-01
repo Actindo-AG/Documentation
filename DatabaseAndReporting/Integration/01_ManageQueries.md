@@ -31,26 +31,28 @@ No prerequisites to fulfill.
 
 2. Enter a name in the *Name* field.
 
-3. If desired, click the *Category* drop-down list and select a category.   
-    > [Info] The query categories must be previously created, see [Create a query category](01_ManageQueries.md#create-a-query-category).  
+3. If desired, click the *Category* drop-down list and select teh applicable category. All available query categories are displayed in the list. 
+    > [Info] The query category can be assigned when creating the query or afterwards. To create a query category, see [Create a query category](01_ManageQueries.md#create-a-query-category).  
 
 4. Enter the MySQL query.
 
-5. If desired, enter a single or several IP addresses or an IP range (subnet) to limit access to data in case of public download in the *IP whitelist (only public download)* field.  
-    > [Info] When entering more than one IP address, each IP address must be entered on separate lines. For an IP range configuration, see ...  
+5. If desired, enter one or several IP addresses or an IP range (subnet mask) in the *IP whitelist (only public download)* field to restrict access to those IP addresses entered in case of public download.  
+    > [Info] When entering more than one IP address, each IP address must be entered on a separate line. 
 
 [comment]: <> (ETL use enabled vorest ignorieren, laut JS)
 
-6. Select the *API and download enabled* checkbox to enable access via API and download.
+6. Select the *API and download enabled* checkbox to allow logged in users with the appropriate rights to execute the query and export the extracted data.
+    > [Info] The user rights must be granted for every single query, see [Manage the user rights](./05_ManageUserRights.md).
 
-7. Select the *Public download enabled* checkbox to enable access via public download.
+[comment]: <> (Evtl. Link updaten, wenn relevanter Unterkapitel definiert wird)
 
-8. Select the *Write access enabled* checkbox to enable write access...
+7. Select the *Public download enabled* checkbox to allow any user, also non-logged in users, with the appropriate link to execute the query and export the extracted data in a browser. 
+    > [Info] To be able to execute the query in the browser, the corresponding download link and UUID (Universally Unique Identifier) must be known.
 
-[comment]: <> (Mehr info)
+8. Select the *Write access enabled* checkbox to allow write operations when executing the query. Otherwise, the query is not executed and an error message is displayed.
 
-9. If desired, click the [TRY QUERY (READ ONLY)] button to execute the query.  
-  The query result is displayed in a table.
+9. If desired, click the [TRY QUERY (READ ONLY)] button to test the query.  
+  The query results are displayed in table format at the bottom of the workspace.
 
 10. Click the [SAVE] button.  
   The query has been saved. The *Create MySQL query* is closed.
@@ -58,20 +60,55 @@ No prerequisites to fulfill.
 
 ## Edit a query
 
+Edit a query to change any previously set values or add an operation.
+
 #### Prerequisites 
 
+A query has been created, see [Create a query](#create-a-query).
+
 #### Procedure
+
+*Database and reporting > Managed queries > Tab QUERIES*
+
+![Queries](../../Assets/Screenshots/DatabaseAndReporting/ManagedQueries/Queries/Queries.png "[Queries]")
+
+
+1. Click the query to be edited in the list of queries. Alternatively, select the checkbox of the query to be edited and click the ![Edit](../../Assets/Icons/Edit01.png) (Edit) button in the editing toolbar.  
+    The *Edit MySQL query* is displayed.
+
+2. Modify the query set values as necessary.
+    > [Info] The fields *ID* and *UUID* are automatically assigned by the system and cannot be modified.
+
+3. If desired, click the [TRY QUERY (READ ONLY)] button to test the query.  
+  The query results are displayed in table format at the bottom of the workspace.
+
+4. Click the [SAVE] button.  
+  The changes have been saved. The *Create MySQL query* is closed. 
 
 
 ## Delete a query
 
+Delete a query that is no longer needed. It is possible to several queries at once.  
+
 #### Prerequisites 
 
+A query has been created, see [Create a query](#create-a-query).
+
 #### Procedure
+
+*Database and reporting > Managed queries > Tab QUERIES*
+
+![Queries](../../Assets/Screenshots/DatabaseAndReporting/ManagedQueries/Queries/Queries.png "[Queries]")
+
+
+1. Click the query to be deleted in the list of queries. Alternatively, select the checkbox of the query to be deleted and click the ![Delete](../../Assets/Icons/Trash03.png) (Delete) button in the editing toolbar.  
+    The *Deleted queries xxxx* window is displayed. The number indicates the identifier of the deleted query as displayed in the *ID* column. The deleted query is removed from the list of queries. 
 
 
 
 ## Restrict access to a query (public download)
+
+[comment]: <> (Vielleicht nicht nötig, s. Create a query. Evtl. löschen)
 
 #### Prerequisites 
 
