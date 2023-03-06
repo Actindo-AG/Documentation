@@ -1,0 +1,32 @@
+# Integration
+
+In this part of the *Salesforce Commerce Cloud* documentation, you will find the following chapters:
+
+- [Manage the Shopware 6 connections](./01_ManageSalesforceConnection.md)
+    - [Configure the Salesforce Commerce Cloud](./01_ManageSalesforceConnection.md#configure-the-salesforce-commerce-cloud-platform)
+        - [Create an inventory import job](./01_ManageSalesforceConnection.md#create-an-inventory-import-job)
+        - [Create a data import job](./01_ManageSalesforceConnection.md#create-a-data-import-job)
+        - [Configure the Open Commerce API Settings](./01_ManageSalesforceConnection.md#configure-the-open-commerce-api-settings)
+        - [Generate an access key](./01_ManageSalesforceConnection.md#generate-an-access-key)
+    - [Create a Salesforce connection](./01_ManageSalesforceConnection.md#create-a-salesforce-connection)
+    - [Configure the Salesforce connection](./01_ManageSalesforceConnection.md#configure-the-salesforce-connection)
+    - [Configure the Salesforce ETL mapping](01_ManageSalesforceConnection.md#configure-the-salesforce-etl-mapping)
+        - [Configure the master catalog](./01_ManageSalesforceConnection.md#configure-the-master-catalog)
+        - [Configure the variants](./01_ManageSalesforceConnection.md#configure-the-variants)
+        - [Configure the translatable variants](./01_ManageSalesforceConnection.md#configure-the-translatable-variants)
+    - [Salesforce product data particularities](./01_ManageSalesforceConnection.md#salesforce-product-data-particularities)
+        - [Master catalog](./01_ManageSalesforceConnection.md#master-catalog)
+        - [Sites](./01_ManageSalesforceConnection.md#sites)
+        - [Attributes](./01_ManageSalesforceConnection.md#attributes)
+        - [Default language](./01_ManageSalesforceConnection.md#default-language)
+        - [Site-specific status](./01_ManageSalesforceConnection.md#site-specific-status)
+        - [Price books](./01_ManageSalesforceConnection.md#price-books)
+        - [Variations](./01_ManageSalesforceConnection.md#variations)
+        - [Product categories](./01_ManageSalesforceConnection.md#product-categories)
+        - [Inventory](./01_ManageSalesforceConnection.md#inventory)
+        - [Product options](./01_ManageSalesforceConnection.md#product-options)
+        - [Product sets](./01_ManageSalesforceConnection.md#product-sets)
+        - [Image handling](./01_ManageSalesforceConnection.md#image-handling)
+        - [Order debug endpoint](./01_ManageSalesforceConnection.md#order-debug-endpoint)
+        - [Inventory endpoint](./01_ManageSalesforceConnection.md#inventory-endpoint)
+
