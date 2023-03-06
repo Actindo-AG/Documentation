@@ -1,5 +1,7 @@
 [!!Manage the ETL mappings in DataHub](../../../DataHub/Operation/01_ManageETLMappings)
-[!!User interface Offer import](../UserInterface/04_OfferImport.md)
+[!!User interface Offer import](../UserInterface/04a_OfferImport.md)
+[!!User interface Channels->PIM](../UserInterface/04c_ChannelsPIM.md)
+[!!User interface PIM List](../../PIM/UserInterface/02a_List.md)
 
 # Import an offer
 
@@ -33,8 +35,14 @@ Before you can import an offer from our marketplace to the *Omni-Channel* module
     ![Offer import connection](../../Assets/Screenshots/Channels/OfferImport/OfferImport/OfferImportConnection.png "[Offer import connection]")
 
 2. Click the [DOWNLOAD IMPORTABLE PRODUCTS] button above the list.
+    The download of all importable offers to the list has been triggered. The *Download triggered* pop-up window is displayed. 
 
-[comment]: <> (what happens next? Wo darf ich das ausprobieren/screenshoten?)
+    ![Download triggered](../../Assets/Screenshots/Channels/OfferImport/OfferImport/DownloadTriggered.png "[Download triggered]")
+
+    When the download has been completed, all importable offers are displayed in the list of importable products.
+
+    ![Importable products](../../Assets/Screenshots/Channels/OfferImport/OfferImport/ImportableProducts.png "[Importable products]")
+
 
 
 ### Import a single offer
@@ -55,14 +63,27 @@ You can select a certain offer from your marketplace and import this single offe
 1. Click the *Select connection* drop-down list and select the connection for which you want to import offers. All supported drivers are displayed in the list.
     All offers on the selected marketplace are displayed in the list of importable products.
 
-    ![Offer import connection](../../Assets/Screenshots/Channels/OfferImport/OfferImport/OfferImportConnection.png "[Offer import connection]")
+    ![Importable products](../../Assets/Screenshots/Channels/OfferImport/OfferImport/ImportableProducts.png "[Importable products]")
 
-2. Select the checkbox of the product you want to import to *Omni-Channel*.      
+2. Select the checkbox of the product you want to import to *Omni-Channel*. You can select one or several checkboxes.     
     The editing toolbar is displayed above the list.
 
 3. Click the [IMPORT PRODUCT TO CHANNELS] button in the editing toolbar.
+    The *Import products to Channels* window is displayed.
 
-[comment]: <> (what happens next? Wo darf ich das ausprobieren/screenshoten?)
+    ![Import products to Channels](../../Assets/Screenshots/Channels/OfferImport/OfferImport/ImportProductsToChannels.png "[Import products to Channels]")
+
+4. Click the [OK] button in the *Import products to Channels* window.
+    The import of the selected product has been triggered. The *Import triggered* pop-up window is displayed. 
+    
+    ![Import triggered](../../Assets/Screenshots/Channels/OfferImport/OfferImport/ImportTriggered.png "[Import triggered]")
+
+    When the import has been completed, the status of the corresponding product in the *Import status* column changes to **Imported**.
+    
+    ![Importable products imported](../../Assets/Screenshots/Channels/OfferImport/OfferImport/ImportableProductsImported.png "[Importable products imported]")
+
+    > [Info] If an error occurs when importing the product to the *Omni-Channel* module, the **Error** status is displayed in the *Import status* column and the error message is displayed in the *Error message* column of the corresponding product.   
+    You can select the checkbox of the faulty imported product and click the [DETAILS] button in the editing toolbar to display further details to the error, see [Detail of log message](../UserInterface/04a_OfferImport.md#detail-of-log-message-log-message-title).
 
 
 ### Import all listed offers
@@ -83,16 +104,28 @@ You can import all importable offers from your marketplace at once to the *Omni-
 1. Click the *Select connection* drop-down list and select the connection for which you want to import offers. All connections whose drivers are supported are displayed in the list.
     All offers on the selected marketplace are displayed in the list of importable products.
 
-    ![Offer import connection](../../Assets/Screenshots/Channels/OfferImport/OfferImport/OfferImportConnection.png "[Offer import connection]")
+    ![Importable products](../../Assets/Screenshots/Channels/OfferImport/OfferImport/ImportableProducts.png "[Importable products]")
 
 2. Click the [IMPORT ALL LISTED PRODUCTS TO CHANNEL] button above the list.
+    The *Import products to Channels* window is displayed.
 
-[comment]: <> (what happens next? Wo darf ich das ausprobieren/screenshoten?)
+    ![Import products to Channels](../../Assets/Screenshots/Channels/OfferImport/OfferImport/ImportProductsToChannelsAll.png "[Import products to Channels]")
+
+3. Click the [OK] button in the *Import products to Channels* window.
+    The import of all products in the list has been triggered. The *Import triggered* pop-up window is displayed. 
+    
+    ![Import triggered](../../Assets/Screenshots/Channels/OfferImport/OfferImport/ImportTriggered.png "[Import triggered]")
+
+    When the import has been completed, the status of the corresponding product in the *Import status* column changes to **Imported**.
+    
+    ![Importable products imported](../../Assets/Screenshots/Channels/OfferImport/OfferImport/ImportableProductsImportedAll.png "[Importable products imported]")
+
+    > [Info] If an error occurs when importing the product to the *Omni-Channel* module, the **Error** status is displayed in the *Import status* column and the error message is displayed in the *Error message* column of the corresponding product.   
+    You can select the checkbox of the faulty imported product and click the [DETAILS] button in the editing toolbar to display further details to the error, see [Detail of log message](../UserInterface/04a_OfferImport.md#detail-of-log-message-log-message-title).
 
 
 
-
-## Map an offer to an existing PIM product
+## Map an offer to a PIM product
 
 Once an offer has been imported from a marketplace to the *Omni-Channel* module, you can map the product to the offer to an existing PIM product or even import new products to your *PIM* module.
 
@@ -128,7 +161,6 @@ At least one offer has been imported from a marketplace to *Omni-Channel*, see [
 
     ![Adjust mappings](../../Assets/Screenshots/Channels/OfferImport/ChannelsPIM/AdjustMappings.png "[Adjust mappings]")
 
-[comment]: <> (Step 3: Select matching attributes? Wird bei mir nicht angezeigt. Nur, wenn bereits entsprechende attribute existieren?)
 
 5. Configure the following settings:
 
@@ -144,11 +176,20 @@ At least one offer has been imported from a marketplace to *Omni-Channel*, see [
         > [Info] A default mapping is preconfigured by all drivers supporting the offer import.
 
 6. Click the [CONTINUE] button in the bottom right corner.   
+    The *Select matching attributes* wizard window is displayed.
+
+    ![Select matching attributes](../../Assets/Screenshots/Channels/OfferImport/ChannelsPIM/SelectMatchingAttributes.png "[Select matching attributes]")
+
+7. Select the checkboxes of all PIM attributes that should be considered for matching with an existing PIM product. All mapped attributes are displayed in the box.
+
+    > [Info] A single box with PIM attributes is displayed for each attribute set mapping.
+
+8. Click the [CONTINUE] button in the bottom right corner.   
     The *Matching and behavior after import* wizard window is displayed.
 
     ![Matching and behavior after import](../../Assets/Screenshots/Channels/OfferImport/ChannelsPIM/MatchingBehaviorAfterImport.png "[Matching and behavior after import]")
 
-7. Configure the following settings:
+9. Configure the following settings:
 
     + Click the *Mode* drop-down list in the *Behaviour if a matched PIM product has been found* box and select the appropriate behaviour. The following options are available:
         - **Link only**   
@@ -160,8 +201,7 @@ At least one offer has been imported from a marketplace to *Omni-Channel*, see [
         - **semiautomatic, changes must be confirmed by another user**
         - **automatic**   
 
-
-8. Click the [CONTINUE] button in the bottom right corner.   
+10. Click the [CONTINUE] button in the bottom right corner.   
     The *Summary* wizard window is displayed.
 
     ![Summary](../../Assets/Screenshots/Channels/OfferImport/ChannelsPIM/Summary.png "[Summary]")
@@ -172,23 +212,37 @@ At least one offer has been imported from a marketplace to *Omni-Channel*, see [
 
     ![Wizard finalized](../../Assets/Screenshots/Channels/OfferImport/ChannelsPIM/WizardFinalized.png "[Wizard finalized]")
 
-9. Click the [Finalize] button in the bottom right corner.   
+11. Click the [Finalize] button in the bottom right corner.   
     The *Summary* wizard window is closed. The *Offers* view with all offers to be imported to PIM is displayed.
 
     ![Offers](../../Assets/Screenshots/Channels/OfferImport/ChannelsPIM/Offers.png "[Offers]")
 
-10. Click the [IMPORT/MAP ALL OFFERS TO PIM PRODUCTS] button in the header to import all offers in the list or select the checkboxes of all offers in the list you want to import and click the [CREATE PIM PRODUCTS/MAP OFFERS TO EXISTING PIM PRODUCTS] button in the editing toolbar.   
+12. Click the [IMPORT/MAP ALL OFFERS TO PIM PRODUCTS] button in the header to import all offers in the list or select the checkboxes of all offers in the list you want to import and click the [CREATE PIM PRODUCTS/MAP OFFERS TO EXISTING PIM PRODUCTS] button in the editing toolbar.   
     The *Summary* window is displayed.
 
     ![Summary import](../../Assets/Screenshots/Channels/OfferImport/ChannelsPIM/SummaryImport.png "[Summary import]")
 
-11. Enter a name for the PIM product in the *Import name* field.
+13. Enter a name for the import process in the *Import name* field.   
 
-12. Click the [PREPARE IMPORT] button.  
+14. If desired, enable the *Start import automatically without manual checking of assignments to PIM products* toggle. 
 
-[comment]: <> (stimmt das? what happens next? Wo darf ich das ausprobieren/screenshoten?)
+    > [Info] If you enable the toggle, the import will start automatically after having clicked the [PREPARE IMPORT] button. Otherwise, the import processes will be displayed in the *Processes* section in the *Offers* view after having clicked the [PREPARE IMPORT] button and you have to start the import manually. By default, the toggle is disabled. 
 
+15. Click the *Set for "connection name"* drop-down list and select the applicable destination attribute set. All available destination attribute sets are displayed in the list. If only one attribute set is available, this attribute set is automatically selected and the drop-down list is locked.  
+    
+    > [Info] A single drop-down list is displayed for each source attribute set of the connection.
 
-## Import an offer to a new PIM product
+16. Click the [PREPARE IMPORT] button.    
+    The offer import has been prepared. The *Summary* window is closed. All scheduled import processes are displayed in the *Processes* section in the *Offers* view. If the *Start import automatically without manual checking of assignments to PIM products* toggle has been enabled, the process is automatically started. Otherwise, the process is displayed with the **Queue filled, waiting for start** status in the *Processes* section and must be started manually.
 
-[comment]: <> (Unterschiede zu vorheriger Procedure? Step 3 Select matching attributes?)
+    ![Processes](../../Assets/Screenshots/Channels/OfferImport/ChannelsPIM/Processes.png "[Processes]")
+
+    > [Info] You can click the scheduled process in the *Processes* section to display the *Import process* window and check the details of the import process, see [Import process](../UserInterface/04c_ChannelsPIM.md#import-process).
+
+17. If the process needs to be started manually, click the [START] button in the *Processes* section.   
+    The import of the product from the *Omni-Channel* to the *PIM* module has been triggered. The status below the process in the *Processes* section changes to **Importing into PIM** during the import process. When the import has been finished, the **Import finished** status is displayed.
+    
+    ![Processes import](../../Assets/Screenshots/Channels/OfferImport/ChannelsPIM/Processes_Import.png "[Processes import]")
+
+    The product has been imported to the *PIM* module and is displayed in the products list, see [User interface PIM List](../../PIM/UserInterface/02a_List.md).
+

@@ -16,7 +16,7 @@
     - ![red](../../Assets/Icons/Status02.png "[red]") (red)  
         At least one order is faulty. Click the [>> more] button right to the status to switch to the *ERRORS* tab, see [User interface Errors (Orders and returns)](./05c_Errors.md).   
     - ![yellow](../../Assets/Icons/Status05.png "[yellow]") (yellow)  
-        At least one orders is still pending.
+        At least one order is still pending.
     - ![green](../../Assets/Icons/Status03.png "[green]") (green)  
         All orders are completed.
 
@@ -65,7 +65,7 @@
     Click this button to import all orders for the selected connection. This button is only displayed if a connection has been selected in the *All connections* drop-down list.
 
 - [Download orders automatically]  
-    Click the drop-down list and select the desired time interval for the automatic download of orders. This drop-down list is only displayed if a connection has been selected in the *All connections* drop-down list. The following options are available:
+    Click the drop-down list and select the desired time interval for the automatic download of orders. This drop-down list is only displayed if a connection has been selected in the *All connections* drop-down list. By default, the **never** option is preselected. The following options are available:
     - **never**
     - **every 2 minutes**
     - **every 5 minutes**
@@ -98,13 +98,13 @@
 
     ![Import will be retried](../../Assets/Screenshots/Channels/OrdersReturns/Orders/ImportRetried.png "[Import will be retried]")
 
-[comment]: <> (warum kann man nicht ein order nochmals importieren - BUG?)
+[comment]: <> (warum kann man nicht ein order nochmals importieren - BUG!)
 
 
 - [CANCEL ORDER]/[CANCEL ORDERS]  
     Click this button to cancel the import of the selected order(s). This button is only displayed if the checkbox of at least one order with the **Error** status in the *Status of import from channel* column is selected. 
 
-[comment]: <> (wird nach Ausführung irgendein pop-up fenster angezeigt?)
+[comment]: <> (wird nach Ausführung irgendein pop-up fenster angezeigt? -> keine Testdaten!)
 
 The list displays all orders, either for all connections or for the selected connection. Depending on the settings, the displayed columns may vary. All fields are read-only. 
 
@@ -115,12 +115,14 @@ The list displays all orders, either for all connections or for the selected con
     Status of the order import from the marketplace to the *Omni-Channel* module. The following options are available:  
     - **Not imported**  
         The order import has not been performed.
+    - **Imported**  
+        The order import has been performed.
     - **Complete**  
         The order import has been successfully completed.   	
-    - **Canceled**  
-        The order import has been canceled.  
     - **Error**  
         The order import has given an error. Click the [Show log message] button in the column to display the corresponding log message in the *LOG* tab, see [User interface LOG](./06a_Log.md).
+    - **Canceled**  
+        The order import has been canceled.  
 
 - *Status of export to channel*  
     Status of the order export from the *Omni-Channel* module to the marketplace. The following options are available:  
@@ -130,7 +132,6 @@ The list displays all orders, either for all connections or for the selected con
         There are no changes to synchronize.
     - **Error**   
         Click the [Show log message] button in the column to display the corresponding log message in the *LOG* tab, see [User interface LOG](./06a_Log.md).
-
 
 - *Status of export to OMS*  
     Status of the order export from the *Omni-Channel* module to the *Order management* module for further processing. The following options are available:  
@@ -143,7 +144,7 @@ The list displays all orders, either for all connections or for the selected con
     - **Being exported**  
         The order is currently being exported.
 
-[comment]: <> (Weitere status?)
+[comment]: <> (Weitere status? Die Status in den Filtern stimmen nicht...)
 
 - *Created on*  
     Date and time of the creation. 
@@ -260,10 +261,7 @@ The list displays all dependencies of the selected order. Depending on the setti
     Identification number of the dependent entity.
 
 - *Dependent entity type*   
-    Type of the dependent entity. The following options are available:
-    - **Omni-Channel Offer**
-    - **UCS Product**
-    - **UCS Faktura**
+    Type of the dependent entity. The available types depend on the installed plugins.
 
 - *Change tracking mode*   
     Change tracking mode (ETL mode) of the dependent entity. The following options are available:
@@ -273,8 +271,7 @@ The list displays all dependencies of the selected order. Depending on the setti
     - **Automatic**
 
 - *Dependent entity friendly identifier*   
-
-[comment]: <> (what id number is that? How is it created?)
+    Further, more descriptive identifier of the dependent entity, for instance the SKU number or a bill number.
 
 
 
@@ -315,7 +312,6 @@ The list displays all dependencies of the selected order. Depending on the setti
         - ![Delete](../../Assets/Icons/Trash01.png "[Delete]") delete  
             Click this entry to delete the selected view. A confirmation window to confirm the deletion is displayed. This menu entry is only displayed if a view has been selected.
 
-
 - ![Search](../../Assets/Icons/Search.png "[Search]") (Search)   
     Click this button to display the search bar and search for a line item.
 
@@ -332,8 +328,7 @@ The list displays all dependencies of the selected order. Depending on the setti
     Select the checkbox to display the editing toolbar. You can only select one checkbox at a time. 
 
 - [VIEW]  
-    Click this button to display the *Line item* view of the selected line item. Alternatively, you can click directly a row in the list to view the corresponding line item.  This button is only displayed if a single checkbox in the list of line items is selected.
-
+    Click this button to display the *Line item* view of the selected line item. Alternatively, you can click directly a row in the list to view the corresponding line item. This button is only displayed if a single checkbox in the list of line items is selected.
 
 The list displays all line items of the selected order. Depending on the settings, the displayed columns may vary. All fields are read-only. 
 
@@ -350,7 +345,7 @@ The list displays all line items of the selected order. Depending on the setting
 - *ID*  
     Order identification number. The ID number is automatically assigned by the system after creation.
 
-- Attribute    
+- "Attribute name"    
     You can add a column for each attribute that is assigned to the line item. The column displays the attribute name, the row displays the corresponding attribute value of the item.
 
 
@@ -372,8 +367,6 @@ The list displays all line items of the selected order. Depending on the setting
 *Omni-Channel > Orders and returns > Tab ORDERS > Select order > Tab Line items > Select line item > Tab Attributes*
 
 ![Line item attributes](../../Assets/Screenshots/Channels/OrdersReturns/Orders/LineItemAttributes.png "[Line item attributes]")
-
-[comment]: <> (Hinzufügen/erklären? The attributes tab reproduces the fields available in the marketplace.)
 
 In the left margin column, all available attribute groups are displayed. Click an attribute group to display the attributes that are assigned to this group on the right side of the *Attributes* tab. If the line item contains attributes that are unassigned, the *Unassigned group* attribute group is automatically displayed in the left margin column.
 
@@ -415,12 +408,7 @@ The list displays all dependencies of the selected line item. Depending on the s
     Identification number of the dependent entity.
 
 - *Dependent entity type*   
-    Type of the dependent entity. The following options are available:
-    - **Omni-Channel Offer**
-    - **UCS Product**
-    - **UCS Faktura Order Position**
-
-[comment]: <> (What else? Vermutlich eher Standardsatz wie All available dependent entity types are displayed.)
+    Type of the dependent entity. The available types depend on the installed plugins.
 
 - *Change tracking mode*   
     Change tracking mode (ETL mode) of the dependent entity. The following options are available:
@@ -430,8 +418,8 @@ The list displays all dependencies of the selected line item. Depending on the s
     - **Automatic**
 
 - *Dependent entity friendly identifier*   
+    Further, more descriptive identifier of the dependent entity, for instance the SKU number or a bill number.
 
-[comment]: <> (what id number is that? How is it created?)
 
 
 ## Order from connection "Connection name" &ndash; Shipments
@@ -488,6 +476,7 @@ The list displays all shipments for the selected order. Depending on the setting
 - Attribute  
     You can add a column for each attribute that is assigned to the shipment. The column displays the attribute name, the row displays the corresponding attribute value of the shipment.
 
+
 ### Shipment for order "Order ID"
 
 *Omni-Channel > Orders and returns > Tab ORDERS > Select order > Tab Shipments > Select shipment*
@@ -499,6 +488,7 @@ The list displays all shipments for the selected order. Depending on the setting
 
 - [CLOSE]  
     Click this button to close the *Shipment for order "Order ID"* view.
+
 
 ### Shipment for order "Order ID" &ndash; Attributes
 
@@ -518,6 +508,7 @@ The right side of the *Attributes* tab displays all attributes that are assigned
 
 - ![Fade in/out](../../Assets/Icons/FadeInOut01.png "[Fade in/out]") (Fade in/out)    
     Click this button to hide or display the left margin column with the attribute groups. When the left margin is displayed and you click this button, the column is hidden. When the column is hidden and you click this button, the column is displayed again.
+
 
 ### Shipment for order "Order ID" &ndash; Dependencies
 
@@ -545,11 +536,7 @@ The list displays all dependencies of the selected order. Depending on the setti
     Identification number of the dependent entity.
 
 - *Dependent entity type*   
-    Type of the dependent entity. The following options are available:
-    - **Omni-Channel Offer**
-    - **UCS Product**
-  
-[comment]: <> (What else?)
+    Type of the dependent entity. The available types depend on the installed plugins.
 
 - *Change tracking mode*   
     Change tracking mode (ETL mode) of the dependent entity. The following options are available:
@@ -559,8 +546,7 @@ The list displays all dependencies of the selected order. Depending on the setti
     - **Automatic**
 
 - *Dependent entity friendly identifier*   
-
-[comment]: <> (what id number is that? How is it created?)
+    Further, more descriptive identifier of the dependent entity, for instance the SKU number or a bill number.
 
 
 ### Shipment for order "Order ID" &ndash; Shipment line items
@@ -589,7 +575,6 @@ The list displays all dependencies of the selected order. Depending on the setti
 - [VIEW]  
     Click this button to display the *Line item* view of the selected line item. Alternatively, you can click directly a row in the list to view the corresponding line item.  This button is only displayed if a single checkbox in the list of line items is selected.
 
-
 The list displays all items of the selected order. Depending on the settings, the displayed columns may vary. All fields are read-only. 
 
 - *SKU*  
@@ -607,6 +592,7 @@ The list displays all items of the selected order. Depending on the settings, th
 
 - Attribute    
     You can add a column for each attribute that is assigned to the order. The column displays the attribute name, the row displays the corresponding attribute value of the order.
+
 
 #### Shipment line item
 
@@ -647,7 +633,6 @@ The right side of the *Attributes* tab displays all attributes that are assigned
 
 ![Shipment line item dependencies](../../Assets/Screenshots/Channels/OrdersReturns/Orders/ShipmentLineItemDependencies.png "[Shipment line item dependencies]")
 
-
 - ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh)   
     Click this button to update the list of dependencies.
 
@@ -666,11 +651,7 @@ The list displays all dependencies of the selected order. Depending on the setti
     Identification number of the dependent entity.
 
 - *Dependent entity type*   
-    Type of the dependent entity. The following options are available:
-    - **Omni-Channel Offer**
-    - **UCS Product**
-
-[comment]: <> (what else?)
+    Type of the dependent entity. The available types depend on the installed plugins.
 
 - *Change tracking mode*   
     Change tracking mode (ETL mode) of the dependent entity. The following options are available:
@@ -680,8 +661,8 @@ The list displays all dependencies of the selected order. Depending on the setti
     - **Automatic**
 
 - *Dependent entity friendly identifier*   
+    Further, more descriptive identifier of the dependent entity, for instance the SKU number or a bill number.
 
-[comment]: <> (what id number is that? How is it created?)
 
 
 ## Order from connection "Connection name" &ndash; Cancellations
@@ -730,7 +711,7 @@ The list displays all shipments for the selected order. Depending on the setting
     - **No changes to sync**  
         There are no changes to synchronize.
 
-[comment]: <> (Check, ob es stimmt. Status bezieht sich auf Order oder Shipment? Andere optionen?)
+[comment]: <> (Check, ob es stimmt. Status bezieht sich auf Order oder Cancellation? Andere optionen?)
 
 - *ID*  
     Shipment identification number. The ID number is automatically assigned by the system.
@@ -773,16 +754,17 @@ The list displays all errors of the selected order. Depending on the settings, t
     Date and time of the creation.
 
 - *Creator*  
-    Name and username of the user who created the error.
+    Name and username of the user who created the error. By default, the field is blank as the job is created by the system.
+
+[comment]: <> (kann man das so schreiben oder ist das Quatsch?)
 
 - *Last modified*  
     Date and time of the last modification.
 
 - *Editor*  
-    Name and username of the user who modified the error.  
+    Name and username of the user who modified the error. By default, the field is blank as the job is modified by the system.
 
-[comment]: <> (bezieht sich  Editor und Creator auf das offer oder den error? Leeres Feld bei systemfehler?)
-
+[comment]: <> (kann man das so schreiben oder ist das Quatsch?)
 
 ## Create view
 

@@ -21,8 +21,6 @@
 - [x]     
     Select the checkbox to display the editing toolbar. If you click the checkbox in the header, all orders in the list are selected.
 
-[comment]: <> (Wenn min. zwei checkboxes ohne Fehler ausgewählt werden, wird trotzdem der button Retry import angezeigt. Bug?)
-
 - [SHOW LOG]  
     Click this button to display the details of the log message. This button is only displayed if a single checkbox of a faulty export in the list of scheduled exports is selected. The *Detail of log message "Log message title"* view is displayed, see [Detail of log message "Log message title"](#detail-of-log-message-log-message-title).
 

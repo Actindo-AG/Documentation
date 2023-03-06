@@ -1,6 +1,5 @@
 [!!Manage the offers](../Operation/01_ManageOffers.md)
 
-
 # Recycle bin
 
 *Omni-Channel > Offers > Tab RECYCLE BIN*

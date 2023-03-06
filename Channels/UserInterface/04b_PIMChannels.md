@@ -12,7 +12,7 @@
 - [CLEAR ALL]  
     Click this button to remove all scheduled offer imports from the list.
 
-[comment]: <> (funktioniert der Button?)
+[comment]: <> (Button funktioniert bei mir nicht -> Bug oder Sandbox?)
 
 - ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh)   
     Click this button to update the list of scheduled offer imports.

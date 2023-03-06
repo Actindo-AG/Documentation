@@ -103,10 +103,8 @@ The list displays all intents. Depending on the settings, the displayed columns 
 - [x]     
     Select the checkbox to display the editing toolbar. You can only select one checkbox at a time.
 
-- ![Unpublish](../../Assets/Icons/Unpublish02.png "[Unpublish]") (Unpublish)  
-    Click this button to unpublish the log message.
-
-[comment]: <> (Gibt es auch einen publish button, wenn eine message unpublished wurde?)
+- ![Download](../../Assets/Icons/Unpublish02.png "[Download]") (Download)  
+    Click this button to download the displayed log message.
 
 - ![View](../../Assets/Icons/Eye02.png "[View]") (View)    
     Click this button to display the details of the log message. Alternatively, you can click directly a row in the list to display the details of the log message. The *Detail of log message "Log message title"* view is displayed, see [Detail of log message "Log message title"](#detail-of-log-message-log-message-title). 
@@ -170,11 +168,11 @@ This view can also be accessed from the following tabs in the user interface:
 
 ![Detail of log message attributes](../../Assets/Screenshots/Channels/Logging/DetailLogMessageAttributes.png "[Detail of log message attributes]")
 
-**Attributes**
+The *Attributes* tab displays further details of the selected log message. Depending on the attribute set of the log message, the displayed fields vary. All fields are read-only.
 
-The *Attributes* tab displays further details of the selected log message. Depending on the error message the fields vary. All fields are read-only.
+In general, the most common attribute sets are the standard error log message attribute set and the API communication attribute set. The fields of these sets are described in the following. Furthermore, it is possible to create a custom log message attribute set with different fields.
 
-[comment]: <> (wovon sind die Felder abhängig? wann werden welche Felder angezeigt?)
+**Standard error log message attribute set**
 
 - *Error code*  
     Error code number.
@@ -186,70 +184,30 @@ The *Attributes* tab displays further details of the selected log message. Depen
     Line in the file where the error has occurred.
 
 - *Exception class*   
+    Class name of the error. The error class describes the type of error that has occurred.
 
 - *Trace as string*   
+    Stack trace until the error has occurred. The stack trace lists the code until the error has occurred and is used to track the error.
 
 - *Exception*   
+    Detailed description of the error.
 
-[comment]: <> (was steht in den Feldern drin?)
-
-[comment]: <> (woher kommen die folgenden Felder? Die werden bei mir nie angezeigt)
+**API communication attribute set**
 
 - *Code*   
+    Http response status code. For detailed information about the http status codes, see [http status codes](https://www.rfc-editor.org/rfc/rfc9110#section-15).
 
 - *Endpoint and method*   
+    Http method of the API request and url endpoint to which the request was sent.
 
 - *Request*   
+    Http header and body of the request.
 
 - *Response*   
+    Http header and body of the response.
 
 - *Exception*   
-
-
-- *URL*   
-
-- *HTTP method*  
-
-- *HTTP code*   
-
-- *Request start*   
-
-- *Duration in s*   
-
-
-**Request body**     
-
-- [SELECT FILES]
-
-- *Name*   
-
-- *Description*   
-
-- *Date*  
-
-- *Size*   
-
-
-**Response body**     
-
-- [SELECT FILES]
-
-- *Name*   
-
-- *Description*   
-
-- *Date*  
-
-- *Size* 
-
-
-- *Request headers*   
-
-- *Response headers*   
- 
-- *Keywords*      
-
-
+    Description of the error. An exception is only displayed if an error has occurred and a http status code of the **4xx** class, for instance a **404** code has been returned.
 
 
 ### Detail of log message "Log message title" &ndash; Dependencies
@@ -275,11 +233,7 @@ The list displays all dependencies of the selected product. Depending on the set
     Identification number of the dependent entity.
 
 - *Dependent entity type*   
-    Type of the dependent entity. The following options are available:
-    - **Omni-Channel Offer**
-    - **UCS Product**
-
-[comment]: <> (what else?)
+    Type of the dependent entity. The available types depend on the installed plugins.
 
 - *Change tracking mode*   
     Change tracking mode (ETL mode) of the dependent entity. The following options are available:
@@ -289,13 +243,11 @@ The list displays all dependencies of the selected product. Depending on the set
     - **Automatic**
 
 - *Dependent entity friendly identifier*   
-
-[comment]: <> (what id number is that? How is it created?)
+    Further, more descriptive identifier of the dependent entity, for instance the SKU number or a bill number.
 
 - [RERUN MAPPING]   
     Click this button to rerun the mapping of the selected entity. This button is only displayed if the checkbox of at least one dependency is selected.
 
-[comment]: <> (Gibt es in Channels dependencies?)
 
 
 ## Create view

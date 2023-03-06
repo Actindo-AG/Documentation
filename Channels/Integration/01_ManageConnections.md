@@ -17,8 +17,6 @@ In the following, the general settings to create, edit, synchronize or disable c
 
 Create a connection to a certain marketplace. As soon as a connection has been established, an initial synchronization will be triggered, which will transfer the entire data model of the connected marketplace mirrored to Actindo. This means that all attributes and attribute sets from the marketplace are also transferred to Actindo and can be accessed in the *DataHub* module. Depending on the marketplace to be connected, special configurations are necessary.
 
-[comment]: <> (POS auch in eigener Procedure erklären?)
-
 #### Prerequisites
 
 At least one driver has been installed.
@@ -123,9 +121,7 @@ At least one connection has been established, see [Create a connection](#create-
 
 ## Disable a connection
 
-Once a connection has been established, it cannot be deleted. Nevertheless, the connection can be disabled to prevent any further data from being synchronized via the connection.
-
-[comment]: <> (Stimmt es, dass connections nicht mehr gelöscht werden können? Warum gibt es dann einen Delete button?)
+A connection can be disabled to prevent any further data from being synchronized via the connection without deleting the connection.
 
 #### Prerequisites
 
@@ -164,10 +160,36 @@ At least one connection has been disabled, see [Disable a connection](#disable-a
 ![Connections](../../Assets/Screenshots/Channels/Settings/Connections/Connections.png "[Connections]")
 
 1. Select the checkbox of the connection you want to enable in the list of connections.   
-    The editing toolbar is enabled above the list of connections.
+    The editing toolbar is displayed above the list of connections.
 
 2. Click the [ENABLE] button in the editing toolbar.   
     The connection has been activated.
 
 3. Click the ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh) button in the top right corner to update the list of connections.   
     The status of the enabled connection in the *Status* column has switched to **Active**.
+
+
+## Delete a connection
+
+A connection can only be used if it is active. Otherwise, no data is being synchronized via the connection. By default, all connection that has been established are active. If a connection has been disabled, you can enable this connection again.
+
+#### Prerequisites
+
+At least one connection has been disabled, see [Disable a connection](#disable-a-connection).
+
+#### Procedure
+
+*Omni-Channel > Settings > Tab CONNECTIONS*
+
+![Connections](../../Assets/Screenshots/Channels/Settings/Connections/Connections.png "[Connections]")
+
+1. Select the checkbox of the connection you want to delete in the list of connections.   
+    The editing toolbar is displayed above the list of connections.
+
+2. Click the [DELETE] button in the editing toolbar.   
+    The connection has been deleted.
+
+    > [Info] Deleting a connection is a very complex process and can therefore take a long time. 
+
+3. Click the ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh) button in the top right corner to update the list of connections.   
+    The deleted connection is removed from the list of connections.

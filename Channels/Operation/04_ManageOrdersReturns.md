@@ -1,7 +1,6 @@
 [!!Configure the orders and returns](../Integration/04_ConfigureOrdersReturns.md)
 [!!User interface Orders and returns](../UserInterface/05_OrdersReturns.md)
 
-
 # Manage the orders and returns
 
 When an order is placed in the marketplace, this order must be imported into *Omni-Channel* to further process it in the *Order Management* module.   
@@ -21,10 +20,7 @@ If you only want to import the orders from a certain marketplace, trigger the im
 
 #### Prerequisites
 
-- A connection to a marketplace has been established, see [Create a connection](../../Integration/01_ManageConnections.md#create-a-connection).
-- The marketplace supports the order import.
-
-[comment]: <> (Unterstützen nicht alle Marktplätze den Bestellimport?)
+A connection to a marketplace has been established, see [Create a connection](../../Integration/01_ManageConnections.md#create-a-connection).
 
 #### Procedure
 
@@ -45,17 +41,13 @@ If you only want to import the orders from a certain marketplace, trigger the im
     ![Order import triggered](../../Assets/Screenshots/Channels/OrdersReturns/Orders/OrderImportTriggered.png "[Order import triggered]")
 
 
-
 ### Import orders for all connections
 
 If you want to import the orders from all connected marketplaces, trigger the import for all connections.
 
 #### Prerequisites
 
-- A connection to a marketplace has been established, see [Create a connection](../../Integration/01_ManageConnections.md#create-a-connection).
-- The marketplace supports the order import.
-
-[comment]: <> (Unterstützen nicht alle Marktplätze den Bestellimport?)
+A connection to a marketplace has been established, see [Create a connection](../../Integration/01_ManageConnections.md#create-a-connection).
 
 #### Procedure
 
@@ -69,9 +61,10 @@ Click the [Import orders for all connections] button. This button is only displa
     ![Order import triggered](../../Assets/Screenshots/Channels/OrdersReturns/Orders/OrderImportTriggered.png "[Order import triggered]")
 
 
+
 ## Export orders manually
 
-[comment]: <> (add content - wann mache ich den export manuell? bzw. wann ist das nötig? Nur zum retry?)
+If you want to export the orders from the *Omni-Channel* to the *Order management* module outside the specified time interval, you can manually trigger the export.
 
 #### Prerequisites
 
@@ -96,9 +89,6 @@ A connection to a marketplace has been established, see [Create a connection](..
 
 
 
-
-[comment]: <> (returns vorerst ignorieren!)
-
 ## Import returns manually
 
 If you want to import the returns from a marketplace outside the specified time interval, you can manually trigger the import either for a certain connection or for all configured connections at once.
@@ -109,8 +99,7 @@ If you only want to import the returns from a certain marketplace, trigger the i
 
 #### Prerequisites
 
-- A connection to a marketplace has been established, see [Create a connection](../../Integration/01_ManageConnections.md#create-a-connection).
-- The marketplace supports the return import.
+A connection to a marketplace has been established, see [Create a connection](../../Integration/01_ManageConnections.md#create-a-connection).
 
 #### Procedure
 
@@ -155,7 +144,7 @@ Click the [Import returns for all connections] button. This button is only displ
 
 ## Export returns manually
 
-[comment]: <> (add content - wann mache ich den export manuell? bzw. wann ist das nötig? Nur zum retry?)
+If you want to export the returns from the *Omni-Channel* to the *Order management* module outside the specified time interval, you can manually trigger the export.
 
 #### Prerequisites
 
@@ -176,9 +165,9 @@ A connection to a marketplace has been established, see [Create a connection](..
 3. Click the [XXX] button in the editing toolbar.   
     The export has been triggered. The return status in the *xxx* column of the selected return(s) changes to **Being exported**.
 
-[comment]: <> (wie heißt der button? keine Möglichkeit zu testen, da nirends returns sind)
-
     > [Info] You can only export returns that are fully imported (*Status of import from channel* equals **Order complete**) and not yet exported to OMS (*Status of export to OMS* does not equal **Exported**). Otherwise, an error message is displayed.
+
+[comment]: <> (wie heißt der button? keine Möglichkeit zu testen, da nirends returns sind)
 
 [comment]: <> (Info anpassen)
 

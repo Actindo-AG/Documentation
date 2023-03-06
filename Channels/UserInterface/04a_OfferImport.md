@@ -79,8 +79,8 @@ The list displays all offer imports. Depending on the settings, the displayed co
         The offer is imported to the *Omni-Channel* module.  
     - **Not imported**   
         The offer is not (yet) imported to the *Omni-Channel* module.   
-
-[comment]: <> (Are there further statuses?)
+    - **Error**  
+        An error has occurred during the import to the *Omni-Channel* module.
 
 - *ID*   
     Offer identification number. The ID number is automatically assigned by the system after creation.
@@ -91,7 +91,5 @@ The list displays all offer imports. Depending on the settings, the displayed co
 *Omni-Channel > Offer import > Tab OFFER IMPORT > Select checkbox of a faulty import > Button DETAILS*
 
 ![Detail of log message](../../Assets/Screenshots/Channels/OfferImport/OfferImport/DetailLogMessage.png "[Detail of log message]")
-
-[comment]: <> (add screenshot)
 
 For a detailed description of this view and the corresponding functions, see [LOG](./06a_Log.md#detail-of-log-message-log-message-title).

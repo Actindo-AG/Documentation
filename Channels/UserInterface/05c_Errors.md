@@ -37,7 +37,7 @@
 
     ![Import will be retried](../../Assets/Screenshots/Channels/OrdersReturns/Orders/ImportRetried.png "[Import will be retried]")
 
-[comment]: <> (prüfen, ob das pop-up window auch hier angezeigt wird.)
+[comment]: <> (prüfen, ob das pop-up window auch hier angezeigt wird. -> keine Testdaten)
 
 
 The list displays all errors to the orders and returns. Depending on the settings, the displayed columns may vary. All fields are read-only. If no error has been occurred, the *There are currently no errors* notice is displayed.

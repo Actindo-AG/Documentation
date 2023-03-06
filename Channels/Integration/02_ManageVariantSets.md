@@ -149,7 +149,7 @@ At least one variant set has been created, see [Create a variant set](#create-a-
 3. Click the [SAVE] button in the upper right corner.   
     The changes have been saved. The *Edit variant set* view is closed.
 
-[comment]: <> (I have to refresh the list to apply the changes - is that a bug?)
+    > [Info] If the changes are not yet displayed in the list of variant sets, click the ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh) button in the top right corner to update the list of variant sets.    
 
 
 
@@ -183,4 +183,4 @@ A variant set has been created, see [Create a variant set](#create-a-variant-set
 4. Click the [SAVE] button in the upper right corner.   
     The changes have been saved. The *Edit variant set* view is closed.
 
-    [comment]: <> (I have to refresh the list to apply the changes - is that a bug?)
+    > [Info] If the changes are not yet displayed in the list of variant sets, click the ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh) button in the top right corner to update the list of variant sets.  

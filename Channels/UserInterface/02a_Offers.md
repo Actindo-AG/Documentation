@@ -155,7 +155,10 @@ The list displays all available offers. Depending on the settings, the displayed
 
 *Omni-Channel > Offers > Tab OFFERS > Button Add > Button Create from PIM product*
 
-The wizard to create an offer from a PIM product is started. The *Select marketplace* wizard window is displayed, see [Select marketplace](#select-marketplace).
+The wizard to create an offer from a PIM product is started. The wizard is composed of the following wizard windows:
+ - [Select marketplace](#select-marketplace)
+ - [Select products](#select-products)
+ - [review and finalize](#review-and-finalize)
 
 #### Select marketplace
 
@@ -491,7 +494,7 @@ For each defining attribute a single field or box to define the attribute value 
 
 > [Info] If more than one defining attribute is assigned to the variant, you have to select a value for each defining attribute to add a variant.
 
-[comment]: <> (Warum ist es möglich, nur ein definierendes Attribut auszuwählen? Bug!)
+[comment]: <> (Bug! -> auch nur ein Attribut auswählbar)
 
 - Defining attribute(s)   
     Enter or select the appropriate value for the defining attribute(s).
@@ -509,7 +512,10 @@ For each defining attribute a single field or box to define the attribute value 
 
 ![Select values](../../Assets/Screenshots/Channels/Offers/Offers/Variants/SelectValues.png "[[Select values]")
 
-The wizard to add multiple variants to the offer is started. The *Select values* wizard window is displayed, see [Select values](#select-values).
+The wizard to add multiple variants to the offer is started. The wizard is composed of the following wizard windows:
+
+- [Select values](#select-values)
+- [Summary](#summary)
 
 #### Select values
 
@@ -526,8 +532,6 @@ For each defining attribute a single box to define the attribute value is displa
 
 - [ADD VALUE]   
     Click this button to add a further row to the corresponding attribute where you can enter or select the desired value.
-
-[comment]: <> (Button funktioniert aktuell nicht!)
 
 - [CANCEL]   
     Click this button to cancel adding variants. The *Select values* wizard window is closed.
@@ -742,7 +746,10 @@ For each defining attribute a single field or box to define the attribute value 
 
 ![Select values](../../Assets/Screenshots/Channels/Offers/Offers/Variants/SelectValues.png "[[Select values]")
 
-The wizard to add multiple variants to the offer is started. The *Select values* wizard window is displayed, see [Select values](#select-values-1).
+The wizard to add multiple variants to the offer is started. The wizard is composed of the following wizard windows:
+
+- [Select values](#select-values-1)
+- [Summary](#summary-1)
 
 #### Select values
 
@@ -759,8 +766,6 @@ For each defining attribute a single box to define the attribute value is displa
 
 - [ADD VALUE]   
     Click this button to add a further row to the corresponding attribute where you can enter or select the desired value.
-
-[comment]: <> (Button funktioniert aktuell nicht!)
 
 - [CANCEL]   
     Click this button to cancel adding variants. The *Select values* wizard window is closed.
@@ -829,11 +834,7 @@ The list displays all dependencies of the selected product. Depending on the set
     Identification number of the dependent entity.
 
 - *Dependent entity type*   
-    Type of the dependent entity. The following options are available:
-    - **Omni-Channel Offer**
-    - **UCS Product**
-
-[comment]: <> (what else?)
+    Type of the dependent entity. The available types depend on the installed plugins.
 
 - *Change tracking mode*   
     Change tracking mode (ETL mode) of the dependent entity. The following options are available:
@@ -843,8 +844,7 @@ The list displays all dependencies of the selected product. Depending on the set
     - **Automatic**
 
 - *Dependent entity friendly identifier*   
-
-[comment]: <> (what id number is that? How is it created?)
+    Further, more descriptive identifier of the dependent entity, for instance the SKU number or a bill number.
 
 - [RERUN MAPPING]   
     Click this button to rerun the mapping of the selected entity. This button is only displayed if the checkbox of at least one dependency is selected.	
@@ -877,7 +877,6 @@ This window can also be accessed from the following tabs in the user interface:
 *Omni-Channel > Offers > Tab OFFERS > Button Points > Menu entry rename*
 
 ![Rename view](../../Assets/Screenshots/Channels/RenameView.png "[Rename view]")
-
 
 - *Name*   
     Click this field to edit the view name.

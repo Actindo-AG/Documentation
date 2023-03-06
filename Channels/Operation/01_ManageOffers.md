@@ -156,10 +156,9 @@ At least one connection has been created, see [Create a connection](../Integrati
 
 ## Edit an offer
 
-After you have created an offer, you can edit it. However, only some fields are editable, for instance, all attributes that are imported from the *PIM* module cannot be edited.   
+After you have created an offer, you can edit it. However, not all attributes are editable. If an attribute can be edited in an offer or not, depend on several points, for instance, on the corresponding connection settings or if the attribute is mapped from a PIM product.   
 Note that any changes to an offer will trigger an automatic upload, so that any changes are applied to the products in the marketplace.
-
-[comment]: <> (welche felder sind editierbar? prüfen!)
+In general, it is recommended to maintain or change offers that are mapped from a PIM product in the *PIM* module.
 
 #### Prerequisites
 
@@ -184,8 +183,6 @@ At least one offer has been created, see [Create an offer](#create-an-offer).
     The changes have been saved. The *Edit offer* view is closed. The automatic upload has been triggered.
 
     > [Info] Switch to *Offer Upload > Tab SCHEDULED UPLOADS* to check the queue for all scheduled offer uploads, see [Check the offer upload](./03_CheckOfferUpload.md).
-
-[comment]: <> (wo bearbeite ich ein Angebot? in Omni-channel? oder eher in PIM, wenn installiert?)
 
 
 

@@ -20,8 +20,7 @@ In this part of the *Omni-Channel* documentation, you will find the following ch
         - [Download all importable offers](./02_ImportOffers.md#download-all-importable-offers)
         - [Import a single offer](./02_ImportOffers.md#import-a-single-offer)
         - [Import all listed offers](./02_ImportOffers.md#import-all-listed-offers)
-    - [Map an offer to an existing PIM product](./02_ImportOffers.md#map-an-offer-to-an-existing-pim-product)
-    - [Import an offer to a new PIM product](./02_ImportOffers.md#import-an-offer-to-a-new-pim-product)
+    - [Map an offer to a PIM product](./02_ImportOffers.md#map-an-offer-to-a-pim-product)
 
 
 - [Check the offer upload](./03_CheckOfferUpload.md)

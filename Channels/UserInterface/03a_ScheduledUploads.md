@@ -95,6 +95,4 @@ The list displays all scheduled offer uploads. Depending on the settings, the di
     Offer identification number. The ID number is automatically assigned by the system after creation.
 
 - *ID*  
-    Offer upload identification number. The ID number is automatically assigned by the system after creation.
-
-[comment]: <> (Unterschied ID und Offer ID?)
+    Scheduled upload identification number. The ID number is automatically assigned by the system.

@@ -65,7 +65,7 @@ The list displays all variant sets. Depending on the settings, the displayed col
 - *Name (Language)*   
     Variant set name in the selected language. A single column is displayed for the system languages *English (United States)* and *Deutsch (Deutschland)*.
 
-[comment]: <> (Anzeige der Namen in jeweiliger Sprache funktioniert nicht)
+[comment]: <> (Anzeige der Namen in jeweiliger Sprache funktioniert nicht -> Bug?)
 
 - ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add)   
     Click this button to create a variant set. The *Create variant set* window is displayed.   

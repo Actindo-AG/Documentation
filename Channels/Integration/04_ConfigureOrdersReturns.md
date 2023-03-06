@@ -27,7 +27,7 @@ A connection to a marketplace has been established, see [Create a connection](..
 
     ![Orders connection](../../Assets/Screenshots/Channels/OrdersReturns/Orders/OrdersConnection.png "[Orders connection]")
 
-2. Click the *Download orders automatically* drop-down list and select the desired time interval at which the orders will be automatically downloaded. The following options are available:   
+2. Click the *Download orders automatically* drop-down list and select the desired time interval at which the orders will be automatically downloaded. By default, the **never** option is preselected. The following options are available:   
     - **never**
     - **every 2 minutes**
     - **every 5 minutes**
@@ -42,11 +42,8 @@ A connection to a marketplace has been established, see [Create a connection](..
 
 > [Info] Repeat this procedure for each connection to configure a time interval for the automatic download of orders. To manually import the orders, see [Import orders manually](../Operation/04_ManageOrdersReturns.md#import-orders-manually).
 
-[comment]: <> (gibt es eine default einstellung? never?)
 
 
-
-[comment]: <> (returns vorerst ignorieren)
 
 ## Configure the return import
 
@@ -67,7 +64,7 @@ A connection to a marketplace has been established, see [Create a connection](..
 
     ![Returns connection](../../Assets/Screenshots/Channels/OrdersReturns/Returns/ReturnsConnection.png "[Returns connection]")
 
-2. Click the *Download returns automatically* drop-down list and select the desired time interval at which the returns will be automatically downloaded. The following options are available:   
+2. Click the *Download returns automatically* drop-down list and select the desired time interval at which the returns will be automatically downloaded.  By default, the **never** option is preselected. The following options are available:   
     - **never**
     - **every 2 minutes**
     - **every 5 minutes**
@@ -81,5 +78,3 @@ A connection to a marketplace has been established, see [Create a connection](..
     The configured time interval is saved for the selected connection.
 
 > [Info] Repeat this procedure for each connection to configure a time interval for the automatic download of returns. To manually import the returns, see [Import returns manually](../Operation/04_ManageOrdersReturns.md#import-returns-manually).
-
-[comment]: <> (gibt es eine default einstellung? never?)

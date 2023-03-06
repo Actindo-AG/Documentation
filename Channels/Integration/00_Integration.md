@@ -6,6 +6,7 @@
     - [Synchronize a connection](./01_ManageConnections.md#synchronize-a-connection)
     - [Disable a connection](./01_ManageConnections.md#disable-a-connection)
     - [Enable a connection](./01_ManageConnections.md#enable-a-connection)
+    - [Delete a connection](./01_ManageConnections.md#delete-a-connection)
 
 
 - [Manage the Shopware 6 connection](./01a_Shopware6.md)

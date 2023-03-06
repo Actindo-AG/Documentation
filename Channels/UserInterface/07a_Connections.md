@@ -50,8 +50,8 @@
 
 - [DELETE]  
     Click this button to delete the selected connection. This button is only displayed if a single checkbox in the list of connections is selected.
-
-[comment]: <> (Button funktioniert nicht. Ist es überhaupt vorgesehen, dass connections gelöscht werden können? Wenn nicht -> button raus, wenn doch -> unter welchen voraussetzungen?)
+    
+    > [Info] Deleting a connection is a very complex process and can therefore take a long time. 
 
 - [SYNCHRONIZE]  
     Click this button to synchronize the selected connection. This button is only displayed if a single checkbox in the list of connections is selected. The *Sync triggered* pop-up window is displayed.
@@ -111,8 +111,6 @@ The list displays all available connections. Depending on the settings, the disp
 
 - ![Apply](../../Assets/Icons/Check.png "[Apply]") (Apply)  
     Click this button to apply the entered connection name. This button is only displayed if the connection name has not yet been confirmed. 
-
-[comment]: <> (Der button ist ziemlich sinnfrei: Auch wenn ich nicht den button klicke, aber anschließend auf SAVE klicke, werden Änderungen im Namen übernommen - wozu ist der also da?)
 
 - ![Edit](../../Assets/Icons/Edit02.png "[Edit]") (Edit)  
     Click this button to edit the connection name. This button is only displayed if the connection name has been confirmed. 

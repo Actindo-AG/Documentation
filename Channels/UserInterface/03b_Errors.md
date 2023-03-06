@@ -1,7 +1,6 @@
 [!!Check the failed offer uploads](../Operation/03_CheckOfferUpload.md#check-the-failed-offer-uploads)
 [!!Retry a faulty offer upload](../Troubleshooting/01_RetryFaultyUpload.md)
 
-
 # Errors
 
 *Omni-Channel > Offer upload > Tab ERRORS*
@@ -61,13 +60,11 @@ The list displays all offer export errors. Depending on the settings, the displa
     Assigned connection of the offer.
 
 - *Fast/Default Queue*    
-    Indication via which queue the offer was uploaded. The following options are available:
+    Indication via which queue the offer was uploaded. The queue is automatically selected by the system depending on the changes to the offer. For instance, stock changes are prioritized and therefore uploaded via the fast queue. The following options are available:
     - **Default queue**   
-        The offer was uploaded via the default queue. This queue is selected by default.
+        The offer was uploaded via the default queue.
     - **Fast queue**   
         The offer was prioritized and therefore uploaded via the fast queue.
-
-[comment]: <> (Stimmt das?Wo wähle ich das aus/ordne ich das zu? Workflows?)
 
 - *Log Message Title*    
     Title of the error log message.
@@ -81,21 +78,21 @@ The list displays all offer export errors. Depending on the settings, the displa
     - ![Cross](../../Assets/Icons/Cross02.png "[Cross]") (Cross): The offer upload can be retried.
 
 - *ID*  
-    Offer identification number. The ID number is automatically assigned by the system after creation.
+    Error identification number. The ID number is automatically assigned by the system.
 
 - *Created on*  
     Date and time when the error occurred.
 
 - *Created by*  
-    Name and username of the user who changed the offer and triggered the upload.
+    Name and username of the user who triggered the offer upload in which the error occurred. By default, the field is blank as the upload job is triggered by the system.
 
 - *Modified on*  
     Date and time of the last modification.
 
 - *Modified by*  
-    Name and username of the user who modified the offer.
+    Name and username of the user who modified the offer upload in which the error occurred. By default, the field is blank as the upload job is modified by the system.
 
-[comment]: <> (Spaltenbeschreibung prüfen - was bezieht sich auf den Error und was auf das offer selbst?)
+[comment]: <> (kann man das so schreiben oder ist das Quatsch?)
 
 
 ## Detail of log message "Log message title"
