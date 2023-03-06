@@ -162,15 +162,12 @@ A connection to a marketplace has been established, see [Create a connection](..
 2. Select the checkboxes of the returns you want to export in the list of order.    
     The editing toolbar is displayed above the list.
 
-3. Click the [XXX] button in the editing toolbar.   
-    The export has been triggered. The return status in the *xxx* column of the selected return(s) changes to **Being exported**.
+3. Click the [EXPORT TO OMS] button in the editing toolbar.   
+    The export has been triggered. The return status in the *Status of export to OMS* column of the selected return(s) changes to **Being exported**.
 
     > [Info] You can only export returns that are fully imported (*Status of import from channel* equals **Order complete**) and not yet exported to OMS (*Status of export to OMS* does not equal **Exported**). Otherwise, an error message is displayed.
 
-[comment]: <> (wie heißt der button? keine Möglichkeit zu testen, da nirends returns sind)
-
-[comment]: <> (Info anpassen)
-
+    
 
 ## Check the scheduled exports
 

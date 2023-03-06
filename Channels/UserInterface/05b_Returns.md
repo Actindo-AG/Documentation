@@ -98,8 +98,9 @@
 - [RETRY IMPORT]  
     Click this button to retry the import of the selected return(s). This button is only displayed if the checkboxes of at least two returns is selected. The *Import will be retried* pop-up window is displayed.
 
-    ![Import will be retried](../../Assets/Screenshots/Channels/OrdersReturns/Returns/ImportRetried.png "[Import will be retried]")
+    ![Import will be retried](../../Assets/Screenshots/Channels/OrdersReturns/Orders/ImportRetried.png "[Import will be retried]")
 
+[comment]: <> (pop-up window spricht von "order" obwohl es return ist. Wenn richtig, neuer screenshot.)
 [comment]: <> (warum kann man nicht ein return nochmals importieren - BUG?)
 
 
