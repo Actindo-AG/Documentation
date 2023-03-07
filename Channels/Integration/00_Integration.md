@@ -1,5 +1,7 @@
 # Integration
 
+In this part of the *Omni-Channel* documentation, you will find the following chapters:
+
 - [Manage the connections](./01_ManageConnections.md)
     - [Create a connection](./01_ManageConnections.md#create-a-connection)
     - [Edit a connection](./01_ManageConnections.md#edit-a-connection)
