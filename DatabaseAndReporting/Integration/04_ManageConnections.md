@@ -59,11 +59,11 @@ Add a new connection to InfluxDB using one of the available InfluxDB drivers.
 
 4. For the next steps to create a connection, follow the appropriate procedure:
 
-  - [Create a connection to InfluxDB driver V1](#create-a-connection-to-influxdb-driver-v1)
-  - [Create a connection to InfluxDB driver V2](#create-a-connection-to-influxdb-driver-v2) 
+    - [Create a connection with InfluxDB driver V1](#create-a-connection-with-influxdb-driver-v1)
+    - [Create a connection with InfluxDB driver V2](#create-a-connection-with-influxdb-driver-v2) 
 
 
-### Create a connection to InfluxDB driver V1
+### Create a connection with InfluxDB driver V1
 
 #### Prerequisites
 
@@ -90,7 +90,7 @@ Add a new connection to InfluxDB using one of the available InfluxDB drivers.
     ![Connection created](../../Assets/Screenshots/DatabaseAndReporting/Settings/Connections/ConnectionCreated.png "[Connection created]")
 
 
-### Create a connection to InfluxDB driver V2
+### Create a connection with InfluxDB driver V2
 
 #### Prerequisites
 
