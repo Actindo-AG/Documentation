@@ -48,14 +48,16 @@ Create an InfluxDB time series for a specific predefined query.
 7. If desired, click the ![Add](../../Assets/Icons/Plus03.png "[Add]") (Add) button in the *Tag columns* box.  
     A new input line is displayed.
 
-8. Enter the desired tag in the new input line. If desired, repeat steps **7** and **8** to add further tags. 
+8. Enter the desired tag in the new input line.   
+    If desired, repeat steps **7** and **8** to add further tags. 
 
 9. Click the ![Add](../../Assets/Icons/Plus03.png "[Add]") (Add) button in the *Field columns* box.  
     A new input line is displayed.
 
     > [Info] The fields contain the actual data, that is the values being measured. The tags, on the other hand, can be used for metadata, that is, to categorize the data. This means that at least one field needs to be specified, whereas tags are optional.
 
-10. Enter the desired field in the new input line. If desired, repeat steps **9** and **10** to add further fields.
+10. Enter the desired field in the new input line.    
+    If desired, repeat steps **9** and **10** to add further fields.
 
 11. Click the [SAVE] button in the upper right corner.  
     The *Submitting data...* view is displayed shortly while saving. 
@@ -100,7 +102,7 @@ At least one InfluxDB time series has been created, see [Create an InfluxDB time
     The changes have been saved. The *Edit InfluxDB time series* view is closed. The modified InfluxDB times series is displayed in the list of InfluxDB time series. 
 
 
-## Delete an InfluxDB Time Series 
+## Delete an InfluxDB time series 
 
 An InfluxDB time series can be deleted if it no longer in use.
 
