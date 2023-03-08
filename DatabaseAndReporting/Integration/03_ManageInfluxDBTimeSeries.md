@@ -4,9 +4,9 @@
 
 # Manage the InfluxDB time series
 
-An InfluxDB time series is a sequence of data points collected in time intervals, allowing to track changes over time. For detailed information about InfluxDB, see [InfluxDB](https://docs.influxdata.com/influxdb/v2.6/).
+An InfluxDB time series is a sequence of data points collected in time intervals, allowing to track changes over time. Once a a MySQL query has been created to extract any required data, this data can be written to an InfluxDB to be collected and processed over a period of time. For detailed information about InfluxDB, see [InfluxDB](https://docs.influxdata.com/influxdb/v2.6/).
 
-Data handled with InfluxDB can be easily visualize with Grafana, see [Get started with Grafana and InfluxDB](https://grafana.com/docs/grafana/latest/getting-started/get-started-grafana-influxdb/).
+Besides, once the data has been written to InfluxDB, it can be easily visualize using Grafana, see [Get started with Grafana and InfluxDB](https://grafana.com/docs/grafana/latest/getting-started/get-started-grafana-influxdb/).
 
 You can create, edit or delete an InfluxDB time series for any predefined query.
 
@@ -26,7 +26,6 @@ Create an InfluxDB time series for a specific predefined query.
 
 ![List of InfluxDB time series](../../Assets/Screenshots/DatabaseAndReporting/ManagedQueries/InfluxDBTimeSeries/ListInfluxDBTimeSeries.png "[List of InfluxDB time series]")
 
-
 1. Click the ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) button in the bottom right corner.   
     The *Create InfluxDB time series* view is displayed.
 
@@ -34,13 +33,17 @@ Create an InfluxDB time series for a specific predefined query.
 
 2. Enter a description for the InfluxDB time series in the *Title* field.
 
-3. Enter a valid cron job in the *Cronline* field. If you need help to create a cron job, you can check a cron job editor, such as [Crontab guru](https://crontab.guru/).
+3. Enter a valid cron expression in the *Cronline* field to specify the time interval in which data are to be written to the InfluxDB. If you need help creating  a cron expression, you can check a cron expression editor, such as [Crontab guru](https://crontab.guru/).
+    > [Info] Note that each execution puts a certain amount of load on the database. Therefore, it is recommended to execute the query only as often as necessary. As a rule of thumb consider: The more complex the query, the less often the execution.
 
 4. Enter a description for the table where the data is to be written in the *Measurement* field. 
+    > [Info]  If the measurement does not exist yet, it will be created automatically with the specified fields and tags. If the measurement already exists, the fields and tags of the existing table will be added to the specified measurement. 
 
-5. Click the drop-down list and select the appropriate connection. All available connections are displayed in the list.
+5. Click the drop-down list and select the appropriate connection.  
+    All available connections established in the *CONNECTIONS* tab of the *Settings* menu entry are displayed in the list.
 
-6. Click the drop-down list and select the appropriate query. All available queries are displayed in the list.
+6. Click the drop-down list and select the appropriate query.   
+    All available queries specified in the *QUERIES* tab are displayed in the list.
 
 7. If desired, click the ![Add](../../Assets/Icons/Plus03.png "[Add]") (Add) button in the *Tag columns* box.  
     A new input line is displayed.
@@ -77,7 +80,6 @@ At least one InfluxDB time series has been created, see [Create an InfluxDB time
 *Database and reporting > Managed queries > Tab INFLUXDB TIME SERIES*
 
 ![List of InfluxDB time series](../../Assets/Screenshots/DatabaseAndReporting/ManagedQueries/InfluxDBTimeSeries/ListInfluxDBTimeSeriesCreated.png "[List of InfluxDB time series]")
-
 
 1. Click the InfluxDB time series to be edited in the list of InfluxDB time series. Alternatively, select the checkbox of the InfluxDB time series to be edited and click the ![Edit](../../Assets/Icons/Edit01.png) (Edit) button in the editing toolbar.  
     The *Edit InfluxDB time series* is displayed.
