@@ -20,7 +20,7 @@ No prerequisites to fulfill.
 
 #### Procedure
 
-*Settings > User and Groups > Group management*
+*Settings > User and groups > Tab GROUP MANAGEMENT*
 
 ![Group management](../../Assets/Screenshots/DatabaseAndReporting/GroupManagement.png "[Group management]")
 
@@ -55,7 +55,7 @@ A user group has been created, see [Create a user group](#create-a-user-group).
 
 #### Procedure
 
-*Settings > User and Groups > Group management*
+*Settings > User and groups > Tab GROUP MANAGEMENT*
 
 ![Group management](../../Assets/Screenshots/DatabaseAndReporting/GroupCreated.png "[Group management]")
 
@@ -91,7 +91,7 @@ No prerequisites to fulfill.
 
 #### Procedure
 
-*Settings > User and Groups > Group management*
+*Settings > User and groups > Tab GROUP MANAGEMENT*
 
 ![Group management](../../Assets/Screenshots/DatabaseAndReporting/GroupManagement.png "[Group management]")
 
@@ -111,6 +111,6 @@ No prerequisites to fulfill.
 
 #### Procedure
 
-*Settings > User and Groups > Group management*
+*Settings > User and groups > Tab GROUP MANAGEMENT*
 
 ![Group management](../../Assets/Screenshots/DatabaseAndReporting/GroupManagement.png "[Group management]")
