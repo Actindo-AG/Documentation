@@ -89,8 +89,23 @@ In this part of the *Omni-Channel* documentation, you will find the following ch
     - [Rename view](./05a_Orders.md#rename-view)
 
 - [RETURNS](./05b_Returns.md)
-
-[comment]: <> (was ist mit den returns?)
+    - [Return from connection "Connection name"](./05b_Returns.md#return-from-connection-connection-name)
+    - [Return from connection "Connection name" &ndash; Attributes](./05b_Returns.md#return-from-connection-connection-name-–-attributes)
+    - [Return from connection "Connection name" &ndash; Dependencies](./05b_Returns.md#return-from-connection-connection-name---dependencies)
+    - [Return from connection "Connection name" &ndash; Line items](./05b_Returns.md#return-from-connection-connection-name-–-line-items)
+        - [Line item](./05b_Returns.md#line-item)
+        - [Line item &ndash; Attributes](./05b_Returns.md#line-item-–-attributes)
+        - [Line item &ndash; Dependencies](./05b_Returns.md#line-item-–-dependencies)
+    - [Return from connection "Connection name" &ndash; Shipments](./05b_Returns.md#return-from-connection-connection-name-–-shipments)
+        - [Shipment for return "Return ID"](./05b_Returns.md#shipment-for-return-return-id)
+        - [Shipment for return "Return ID" &ndash; Attributes](./05b_Returns.md#shipment-for-return-return-id-–-attributes)
+        - [Shipment for return "Return ID" &ndash; Dependencies](./05b_Returns.md#shipment-for-return-return-id---dependencies)
+        - [Shipment for return "Return ID" &ndash; Shipment line items](./05b_Returns.md#shipment-for-return-return-id-–-shipment-line-items)
+    - [Return from connection "Connection name" &ndash; Cancellations](./05b_Returns.md#return-from-connection-connection-name-–-cancellations)
+    - [Return from connection "Connection name" &ndash; Errors](./05b_Returns.md#return-from-connection-connection-name---errors)
+        - [Detail of log message "Log message title"](./05b_Returns.md#detail-of-log-message-log-message-title)
+    - [Create view](./05b_Returns.md#create-view)
+    - [Rename view](./05b_Returns.md#rename-view)
 
 - [ERRORS](./05c_Errors.md)
     - [Detail of log message "Log message title"](./05c_Errors.md#detail-of-log-message-log-message-title)
@@ -133,10 +148,6 @@ In this part of the *Omni-Channel* documentation, you will find the following ch
     - [Edit variant set](./07b_VariantSets.md#edit-variant-set)
         - [Add defining attributes](./07b_VariantSets.md#add-defining-attributes)
         - [Add changeable attributes](./07b_VariantSets.md#add-changeable-attributes)
-
-- [FEED CONNECTIONS](./07c_FeedConnections.md)
-
-[comment]: <> (fliegt Feed Connections raus?)
 
 - [LOGGING](./07d_Logging.md)
     - [Emergency](./07d_Logging.md#emergency)

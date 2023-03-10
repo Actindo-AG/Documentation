@@ -1,7 +1,6 @@
 [!!User interface Orders](../UserInterface/05a_Orders.md)
 [!!User interface Returns](../UserInterface/05b_Returns.md)
 
-
 # Configure the orders and returns
 
 When an order is placed in the marketplace, this order must be imported to *Omni-Channel* in order to further process it in the *Order Management* module.   
@@ -41,7 +40,6 @@ A connection to a marketplace has been established, see [Create a connection](..
     The configured time interval is saved for the selected connection.
 
 > [Info] Repeat this procedure for each connection to configure a time interval for the automatic download of orders. To manually import the orders, see [Import orders manually](../Operation/04_ManageOrdersReturns.md#import-orders-manually).
-
 
 
 

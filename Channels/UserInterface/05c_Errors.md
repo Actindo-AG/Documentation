@@ -7,7 +7,7 @@
 
 ![Orders](../../Assets/Screenshots/Channels/OrdersReturns/Errors/Errors.png "[Orders]")
 
-[comment]: <> (Shopware6 in Screenshot. Geht so in Ordnung?)
+[comment]: <> (Screenshot ggf anpassen)
 
 **Error list**	
 
@@ -37,9 +37,6 @@
 
     ![Import will be retried](../../Assets/Screenshots/Channels/OrdersReturns/Orders/ImportRetried.png "[Import will be retried]")
 
-[comment]: <> (prüfen, ob das pop-up window auch hier angezeigt wird. -> keine Testdaten)
-
-
 The list displays all errors to the orders and returns. Depending on the settings, the displayed columns may vary. All fields are read-only. If no error has been occurred, the *There are currently no errors* notice is displayed.
 
 - *Connection*  
@@ -53,6 +50,8 @@ The list displays all errors to the orders and returns. Depending on the setting
         The error has occurred while exporting the order to the marketplace.  
     - **Export to OMS**  
         The error has occurred while exporting the order to the *Order management* module.
+
+[comment]: <> (Export to channel oder Update to channel?)
 
 - *Order/Return*  
     Indication where the error has occurred. The following options are available:

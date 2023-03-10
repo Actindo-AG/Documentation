@@ -29,9 +29,7 @@
     For detailed information, see [Edit a variant set](../Integration/02_ManageVariantSets.md#edit-a-variant-set).
 
 - [DELETE]     
-    Click this button to delete the selected variant sets. This button is only displayed if the checkbox of at least one variant set is selected.
-
-[comment]: <> (Mostly not possible to delete a variant set -> no integration procedure to delete a variant set -> why is the button still existing? Not working... )
+    Click this button to delete the selected variant sets. A variant set can only be deleted if no dependencies are existing. Otherwise, an error message is displayed. This button is only displayed if the checkbox of at least one variant set is selected.
 
 The list displays all variant sets. Depending on the settings, the displayed columns may vary. All fields are read-only. 
 

@@ -4,13 +4,13 @@
 
 Establish connections via drivers to connect your marketplaces with the *Actindo Core1 Platform*. A marketplace can be either an online shop or a point of sale. You can establish an unlimited number of connections per driver.
 
-In the following, the general settings to create, edit, synchronize or disable connections are described. For certain connection drivers, you have to set up special configurations. Therefore, the connections below are described in separate documents:
-- [Shopware 6 connection](./01a_Shopware6.md)
-- [Shopify connection](./01b_Shopify.md)
-- [Salesforce Commerce Cloud connection](./01c_Salesforce.md)
-- [Amazon connection](./01d_Amazon.md)
-- [Magento 2 connection](./01e_Magento2.md)
-- [Tradebyte connection](./01f_Tradebyte.md)
+In the following, the general settings to create, edit, synchronize or disable connections are described. For certain connection drivers, you have to set up special configurations. Therefore, the connections below are described separately:
+- [Shopware 6 connection](../../Shopware6/Overview/00_General.md)
+- [Shopify connection](../../Shopify/Overview/00_General.md)
+- [Salesforce Commerce Cloud connection](../../CommerceCloud/Overview/00_General.md)
+- [Amazon connection](../../Amazon/Overview/00_General.md)
+- [Magento 2 connection](../../Magento2/Overview/00_General.md)
+- [Tradebyte connection](../../Tradebyte/Overview/00_General.md)
 
 
 ## Create a connection
@@ -37,7 +37,6 @@ At least one driver has been installed.
 3. Click the *Driver* drop-down list and select the desired driver. All available drivers are displayed in the list.   
 
     > [Info] Drivers must be purchased from the main account and then be installed separately in each sandbox or account where you want to use it.    
-    For detailed information, see [Manage the drivers](to_be_completed).
 
     Depending on the selected driver, a *Credentials* section is displayed below the drop-down list.
 
@@ -167,6 +166,7 @@ At least one connection has been disabled, see [Disable a connection](#disable-a
 
 3. Click the ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh) button in the top right corner to update the list of connections.   
     The status of the enabled connection in the *Status* column has switched to **Active**.
+
 
 
 ## Delete a connection

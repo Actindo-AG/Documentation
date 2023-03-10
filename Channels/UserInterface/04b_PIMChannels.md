@@ -10,9 +10,9 @@
 **Channels offers to be created from PIM products**	
 
 - [CLEAR ALL]  
-    Click this button to remove all scheduled offer imports from the list.
+    Click this button to cancel all scheduled offer. All offers that have not been imported yet are canceled and removed from the list. 
 
-[comment]: <> (Button funktioniert bei mir nicht -> Bug oder Sandbox?)
+[comment]: <> (FETA -> pop-up window mit bestätigung; hinzufügen, wenn verfügbar)
 
 - ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh)   
     Click this button to update the list of scheduled offer imports.

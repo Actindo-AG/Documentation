@@ -2,7 +2,6 @@
 [!!User interface Offers](../UserInterface/02_Offers.md)
 [!!User interface Semiautomatic mapping](../UserInterface/02c_SemiautomaticMapping.md)
 
-
 # Manage the offers
 
 An offer represents a specific product on a marketplace. The structure of the offers is similar to the product structure: There are offers to master products, variants and single products.   
@@ -85,7 +84,6 @@ If the Actindo *PIM* module is used, offers can be created directly from the PIM
         - ![Radionbutton](../../Assets/Icons/Radiobutton.png "[Radiobutton]") *automatic*   
           Changes in a PIM product are automatically applied to the offer. The initial offer is also automatically applied.
 
-
     + Select the appropriate initial status for the offer in the *Initial offer status* section:   
         - ![Radionbutton](../../Assets/Icons/Radiobutton.png "[Radiobutton]") *Active*   
             The offer is active. It is uploaded to the marketplace and activated directly. Thus, it is also displayed in the marketplace, where it can be sold immediately.   
@@ -93,7 +91,6 @@ If the Actindo *PIM* module is used, offers can be created directly from the PIM
             The offer is inactive. It is uploaded to the marketplace, but still remains inactive. Thus, it is not displayed in the marketplace and cannot yet be sold.   
         - ![Radionbutton](../../Assets/Icons/Radiobutton.png "[Radiobutton]") *Offline*   
             The offer is created in *Omni-Channel*, but not yet uploaded to the marketplace. Thus, it is unknown to the marketplace and cannot be sold there.
-
 
 9. Click the [CREATE OFFERS] button.   
     The offer creation has been triggered. The *Product import from PIM scheduled* pop-up window is displayed.
@@ -223,6 +220,7 @@ At least one offer has been created, see [Create an offer](#create-an-offer).
     > [Info] It may take some time until the status has been changed. Click the ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh) button in the upper right corner to update the list of offers.   
 
 
+
 ## Check the scheduled offer imports
 
 You can check if any offer imports from *PIM* to *Omni-Channel* are still pending, for example after having created a new offer to a PIM product, by checking the queue of scheduled imports.
@@ -284,7 +282,6 @@ Only offers with the *Not available* status can be moved to the recycle bin. Off
    > [Caution] Problems may occur if you delete an offer with existing dependencies.  
 
 > [Info] The offer is moved to the *RECYCLE BIN* tab, but it can still be recovered. To permanently delete the offer, see [Permanently delete an offer](#permanently-delete-an-offer).
-
 
 
 ### Permanently delete an offer

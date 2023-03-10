@@ -3,7 +3,6 @@
 [!!Manage the variants in PIM](../../PIM/Operation/02_ManageVariants.md)
 [!!Manage an attribute set in DataHub](../../DataHub/Integration/02_ManageAttributeSets.md)
 
-
 # Manage the variant sets
 
 The variant sets in *Omni-Channel* are based on the same data model as in the Actindo *PIM* module. However, since the *Omni-Channel* and the Actindo *PIM* modules are independent of each other and *Omni-Channel* can also be used without the Actindo *PIM* module, the variant sets for products can also be managed within the *Omni-Channel* module.    
@@ -87,7 +86,6 @@ You have to select at least one defining attribute to create a variant set. You 
 
 4. If desired, add changeable attributes to the variant set, see [Add changeable attributes](#add-changeable-attributes). Otherwise, click the [SAVE] button in the upper right corner.   
     The *Create variant set* view is closed. The new variant set has been saved and is displayed in the list of variant sets.
-
 
 
 ### Add changeable attributes

@@ -1,7 +1,6 @@
 [!!Retry a faulty offer upload](../Troubleshooting/01_RetryFaultyUpload.md)
 [!!User interface Offer upload](../UserInterface/03_OfferUpload.md)
 
-
 # Check the offer upload
 
 When an offer has been changed, for example by changing the corresponding product in *PIM*, the changed offer is automatically uploaded to the marketplace. If a larger number of offers are changed at once, it may take some time until all offers have been uploaded. You can then use the upload queue to check which offers are still pending for upload. Further, you can check the list of export errors to determine if an export has failed and for what reason.    

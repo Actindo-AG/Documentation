@@ -45,7 +45,6 @@ No prerequisites to fulfill.
 
 
 
-
 ## Define the retention time
 
 By default, all logs are automatically deleted after one day. You can edit the log lifetime and define a custom retention time.

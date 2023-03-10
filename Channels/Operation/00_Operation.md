@@ -29,13 +29,13 @@ In this part of the *Omni-Channel* documentation, you will find the following ch
 
 
 - [Manage the orders and returns](./04_ManageOrdersReturns.md)
-    - [Import orders manually](./04_ManageOrdersReturns.md#import-orders-manually)
+    - [Import orders](./04_ManageOrdersReturns.md#import-orders)
         - [Import orders for a single connection](./04_ManageOrdersReturns.md#import-orders-for-a-single-connection)
         - [Import orders for all connections](./04_ManageOrdersReturns.md#import-orders-for-all-connections)
-    - [Export orders manually](./04_ManageOrdersReturns.md#export-orders-manually)
-    - [Import returns manually](./04_ManageOrdersReturns.md#import-returns-manually)
+    - [Export orders to OMS](./04_ManageOrdersReturns.md#export-orders-to-oms)
+    - [Import returns](./04_ManageOrdersReturns.md#import-returns)
         - [Import returns for a single connection](./04_ManageOrdersReturns.md#import-returns-for-a-single-connection)
         - [Import returns for all connections](./04_ManageOrdersReturns.md#import-returns-for-all-connections)
-    - [Export returns manually](./04_ManageOrdersReturns.md#export-returns-manually)
+    - [Export returns to OMS](./04_ManageOrdersReturns.md#export-returns-to-oms)
     - [Check the scheduled exports](./04_ManageOrdersReturns.md#check-the-scheduled-exports)
     - [Check the failed orders and returns](./04_ManageOrdersReturns.md#check-the-failed-orders-and-returns)

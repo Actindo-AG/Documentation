@@ -44,7 +44,6 @@ Before you can import an offer from our marketplace to the *Omni-Channel* module
     ![Importable products](../../Assets/Screenshots/Channels/OfferImport/OfferImport/ImportableProducts.png "[Importable products]")
 
 
-
 ### Import a single offer
 
 You can select a certain offer from your marketplace and import this single offer to the *Omni-Channel* module.
@@ -161,7 +160,6 @@ At least one offer has been imported from a marketplace to *Omni-Channel*, see [
 
     ![Adjust mappings](../../Assets/Screenshots/Channels/OfferImport/ChannelsPIM/AdjustMappings.png "[Adjust mappings]")
 
-
 5. Configure the following settings:
 
     + Click the *Channels set* drop-down list and select the *Omni-Channel* attribute set for mapping. All available *Omni-Channel* attribute sets are displayed in the list.       
@@ -189,6 +187,10 @@ At least one offer has been imported from a marketplace to *Omni-Channel*, see [
 
     ![Matching and behavior after import](../../Assets/Screenshots/Channels/OfferImport/ChannelsPIM/MatchingBehaviorAfterImport.png "[Matching and behavior after import]")
 
+    The selected match attributes have been saved and the *Match attributes saved* pop-up window is displayed.
+
+    ![Match attributes saved](../../Assets/Screenshots/Channels/OfferImport/ChannelsPIM/MatchAttributesSaved.png "[Match attributes saved]") 
+
 9. Configure the following settings:
 
     + Click the *Mode* drop-down list in the *Behaviour if a matched PIM product has been found* box and select the appropriate behaviour. The following options are available:
@@ -206,9 +208,7 @@ At least one offer has been imported from a marketplace to *Omni-Channel*, see [
 
     ![Summary](../../Assets/Screenshots/Channels/OfferImport/ChannelsPIM/Summary.png "[Summary]")
 
-    The *Wizard finalized* pop-up window is displayed.
-
-    [comment]: <> (Warum wird das pop-up fenster schon angezeigt, bevor man finalize gedrückt hat?)
+    The selected modes have been saved and the *Wizard finalized* pop-up window is displayed.
 
     ![Wizard finalized](../../Assets/Screenshots/Channels/OfferImport/ChannelsPIM/WizardFinalized.png "[Wizard finalized]")
 
@@ -216,6 +216,8 @@ At least one offer has been imported from a marketplace to *Omni-Channel*, see [
     The *Summary* wizard window is closed. The *Offers* view with all offers to be imported to PIM is displayed.
 
     ![Offers](../../Assets/Screenshots/Channels/OfferImport/ChannelsPIM/Offers.png "[Offers]")
+
+[comment]: <> (Button Finalize wird ggf. umbenannt. Bei Änderung hier anpassen)
 
 12. Click the [IMPORT/MAP ALL OFFERS TO PIM PRODUCTS] button in the header to import all offers in the list or select the checkboxes of all offers in the list you want to import and click the [CREATE PIM PRODUCTS/MAP OFFERS TO EXISTING PIM PRODUCTS] button in the editing toolbar.   
     The *Summary* window is displayed.

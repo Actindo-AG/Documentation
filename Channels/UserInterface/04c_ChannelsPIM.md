@@ -1,6 +1,6 @@
 [!!Import an offer](../Operation/02_ImportOffers.md)
 [!!User interface PIM List](../../PIM/UserInterface/02a_List.md)
-[!!User interface DataHub ETL](../../DataHub/UserInterface/02d_ETL.md#mapping)
+[!!User interface DataHub ETL](../../DataHub/UserInterface/02d_ETL.md)
 
 # CHANNELS->PIM
 
@@ -44,7 +44,6 @@ A single box is displayed for each attribute set in the selected connection.
 - ![Add](../../Assets/Icons/Plus04.png "[Add]") (Add)   
     Click this button to add a further attribute set to the mapping. You can add an unlimited number of attribute sets to a mapping.
 
-
 - [CANCEL]   
     Click this button to cancel the import wizard. The *Map attribute sets* wizard window is closed.
 
@@ -65,7 +64,6 @@ A single box is displayed for each attribute set in the selected connection.
 
 - *PIM attribute set*   
     Click the drop-down list to select the PIM attribute set for mapping. All PIM attribute sets are displayed in the list. The *Mapping from "Omni-Channel attribute set name" to "PIM attribute set name"* section with the corresponding mapping is displayed.
-
 
 **Mapping from "Omni-Channel attribute set name" to "PIM attribute set name"**
 
@@ -129,7 +127,6 @@ A single box with PIM attributes is displayed for each available attribute set m
     - **Link only**   
     - **Link and transfer data**       
 
-
 **Behavior on change of the PIM product**
 
 - *Mode*   
@@ -181,10 +178,10 @@ The *Mapped AttributeSets* box displays the selected mapping. The *Matching and 
 **Offers**
 
 - [CHANGE IMPORT SETTINGS]   
-    Click this button to restart the import wizard. The *CHANNELS->PIM* tab is displayed, see [CHANNELS->PIM](#channels-pim).
+    Click this button to change the import settings and restart the import wizard. The *Map attribute sets* wizard window is displayed, see [Map attribute sets](#map-attribute-sets).
 
 - [IMPORT/MAP ALL OFFERS TO PIM PRODUCTS]    
-    Click this button to import all offers in the list. The *Summary* window is displayed, see [Summary](#summary-1).
+    Click this button to create an import process for all offers in the list. The *Summary* window is displayed, see [Summary](#summary-1).
 
 - ![Search](../../Assets/Icons/Search.png "[Search]") (Search)   
     Click this button to display the search bar and search for an offer.
@@ -221,7 +218,6 @@ The *Mapped AttributeSets* box displays the selected mapping. The *Matching and 
         - ![Delete](../../Assets/Icons/Trash01.png "[Delete]") delete  
             Click this entry to delete the selected view. A confirmation window to confirm the deletion is displayed. This menu entry is only displayed if a view has been selected.
 
-
 - Selected connection    
     The selected connection is displayed in the drop-down list. The drop-down list is locked.
 
@@ -235,8 +231,7 @@ The *Mapped AttributeSets* box displays the selected mapping. The *Matching and 
     Select the checkbox to display the editing toolbar. If you click the checkbox in the header, all offers in the list are selected.
 
 - [CREATE PIM PRODUCTS/MAP OFFERS TO EXISTING PIM PRODUCTS]            
-    Click this button to import the selected offers in the list. The *Summary* window is displayed, see [Summary](#summary-1).
-
+    Click this button to create an import process for the selected offers in the list. The *Summary* window is displayed, see [Summary](#summary-1).
 
 The list displays all offers to be imported. Depending on the settings, the displayed columns may vary. All fields are read-only. 
 
@@ -300,7 +295,6 @@ The list displays all offers to be imported. Depending on the settings, the disp
 - Attribute    
     You can add a column for each attribute that is assigned to the offer. The column displays the attribute name, the row displays the corresponding attribute value of the offer.
 
-
 **Processes**
  
 - "Import process name"  
@@ -310,7 +304,9 @@ The list displays all offers to be imported. Depending on the settings, the disp
     - **Importing into PIM**   
         The product is being imported from the *Omni-Channel* to the *PIM* module.
     - **Import finished**   
-        The product has been imported to the *PIM* module
+        The product has been imported to the *PIM* module.
+    - **Import failed**
+        The product import to the *PIM* module has been failed.
 
     - [START]   
         Click this button to the right of the corresponding import process to start the import in the *Processes* section with the **Queue filled, waiting for start** status.
@@ -320,8 +316,10 @@ The list displays all offers to be imported. Depending on the settings, the disp
         Click this button to the right of the corresponding import process to display the context menu. The following menu entries are available:
         - ![Delete](../../Assets/Icons/Trash01.png "[Delete]") Delete  
             Click this entry to remove the corresponding import process from the *Processes* section.
+        - Rerun    
+            Click this entry to restart the faulty process. This entry is only displayed if the import process has failed.
 
-[comment]: <> (sind hier noch andere Menüeinträge angedacht? Warum gibt es sonst das Menü und nicht direkt den Delete button?)
+[comment]: <> (Import failed? Prüfen, wie der Status heißt; bislang noch keinen fehlerhaften import dabei gehabt...; Icon von rerun button hinzufügen)
 
 - ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh)   
     Click this button to update the list of import processes.
@@ -359,7 +357,6 @@ The list displays all offers to be imported. Depending on the settings, the disp
     Click this button to create the import process(es) to the *PIM* module. The *Summary* window is closed. All scheduled import processes are displayed in the *Processes* section.
 
 
-
 ### Import process
 
 *Omni-Channel > Offer import > Tab CHANNELS->PIM > Select connection > Button SELECT > Finalize wizard > Tab Offers > Select import process   
@@ -394,8 +391,6 @@ The list displays all error messages. Depending on the settings, the displayed c
 - *ID*  
     Error identification number. The ID number is automatically assigned by the system.
 
-[comment]: <> (stimmt das? keine Testdaten)
-
 
 ### Import process &ndash; Queue
 
@@ -406,10 +401,10 @@ The list displays all error messages. Depending on the settings, the displayed c
 **Export channels offers to PIM products**
 
 - ![Search](../../Assets/Icons/Search.png "[Search]") (Search)   
-    Click this button to display the search bar and search for an offer.
+    Click this button to display the search bar and search for a line item.
 
 - ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh)   
-    Click this button to update the list of exports.
+    Click this button to update the list of line items.
 
 - ![Columns](../../Assets/Icons/Columns.png "[Columns]") Columns (x)   
     Click this button to display the columns bar and customize the displayed columns and the order of columns in the list. The *x* indicates the number of columns that are currently displayed in the list.
@@ -418,27 +413,23 @@ The list displays all error messages. Depending on the settings, the displayed c
     Click this button to display the filter bar and customize the active filters. The *x* indicates the number of filters that are currently active.
 
 - [x]     
-    Select the checkbox to display the editing toolbar. If you click the checkbox in the header, all items in the list are selected. Alternatively you can click directly a row in the list to select the corresponding checkbox and display the editing toolbar.
-
-[comment]: <> (werden hier jemals mehr als ein Item angezeigt? wie/wann?)
+    Select the checkbox to display the editing toolbar. If you click the checkbox in the header, all line items in the list are selected. Alternatively you can click directly a row in the list to select the corresponding checkbox and display the editing toolbar.
 
 - ![Edit](../../Assets/Icons/Edit01.png "[Edit]") (Edit)   
-    Click this button to edit the selected item(s) from the list. The button is only displayed if the import process has not yet been started and if the checkbox of at least one offer is selected. The *Edit items* view is displayed, see [Edit items](#edit-items).
+    Click this button to edit the selected line item from the list. The button is only displayed if the import process has not yet been started and the checkbox of a single line item is selected. The *Edit line item* view is displayed, see [Edit line item](#edit-line-item).
 
-[comment]: <> (view hat bislang keinen Namen. Aber sonst schwierig zu beschreiben. Wäre ein Name hier nicht sinnvoll?)
+[comment]: <> (Name der View neu!/nicht in UI)
 
 - ![Delete](../../Assets/Icons/Trash03.png "[Delete]") (Delete)   
-    Click this button to delete the selected item(s) from the list. The button is only displayed if the checkbox of at least one offer is selected. The *Items deleted* pop-up window is displayed.
+    Click this button to delete the selected line item(s) from the import process. The button is only displayed if the checkbox of at least one line item is selected. The line item is removed from the list. The *Items deleted* pop-up window is displayed.
 
-[comment]: <> (Was passiert, wenn ich das item aus der Liste lösche?)
-
-The list displays all items of the selected import process. Depending on the settings, the displayed columns may vary. All fields are read-only. 
+The list displays all line items of the selected import process. Depending on the settings, the displayed columns may vary. All fields are read-only. 
 
 - *SKU Channels offer*   
-    Stock Keeping Unit. Identification number of the offer. 
+    Stock Keeping Unit. Identification number of the line item. 
 
 - *SKU PIM product*    
-    Stock Keeping Unit. Identification number of the assigned PIM product. If no PIM product exists to the offer, the *No matching PIM product found* notice is displayed. 
+    Stock Keeping Unit. Identification number of the assigned PIM product. If no PIM product exists to the line item, the *No matching PIM product found* notice is displayed. 
 
 - *Destination attribute set*   
     Name of the destination attribute set. 
@@ -460,29 +451,29 @@ The list displays all items of the selected import process. Depending on the set
     - **Link and transfer data**     
 
 - *State*   
-    State of the item. The following options are available:
+    State of the line item. The following options are available:
     - **Queued**
     - **Done**
+
+[comment]: <> (Weitere states?)
 
 - *Author*   
     Name and username of the user who triggered the import process.
 
 - *Error message*   
-    Error log message if an error has occurred. If no error has occurred, this field is empty.
+    Error log message if an error has occurred. If no error has occurred, this field is blank.
 
 - *ID*   
-    Item identification number. The ID number is automatically assigned by the system after creation.
+    Line item identification number. The ID number is automatically assigned by the system after creation.
 
 [comment]: <> (alle Felder prüfen!)
 
 
-#### Edit items
+#### Edit line item
 
-*Omni-Channel > Offer import > Tab CHANNELS->PIM > Select connection > Button SELECT > Finalize wizard > Tab Offers > Select import process > Tab Queue*
+*Omni-Channel > Offer import > Tab CHANNELS->PIM > Select connection > Button SELECT > Finalize wizard > Tab Offers > Select import process > Tab Queue > Select line item > Button Edit*
  
 ![Processes queue edit](../../Assets/Screenshots/Channels/OfferImport/ChannelsPIM/Processes_QueueEdit.png "[Processes queue edit]")
-
-[comment]: <> (view hat bislang keinen Namen. Aber sonst schwierig zu beschreiben. Wäre ein Name hier nicht sinnvoll?)
 
 - *Data transfer from PIM product to Channels offer* 
     Click the drop-down list to select the data transfer mode from the PIM product to the Omni-Channel offer. The following options are available:   
@@ -503,17 +494,17 @@ The list displays all items of the selected import process. Depending on the set
 [comment]: <> (entsprechen die Felder den Mode Feldern im wizard fenster Matching and behavior after import? Beschreibungen ggf. anpassen)
 
 - *PIM product SKU*   
-    SKU of the PIM product that is assigned to the selected item. By default, the field is blank. 
+    SKU of the PIM product that is assigned to the selected line item. By default, the field is blank. 
     - ![Edit](../../Assets/Icons/Edit02.png "[Edit]") (Edit)
         Click this button to assign a PIM product to the item or to change the selected PIM product. The *Products* window is displayed, see [Products](#products).
     - ![Delete](../../Assets/Icons/Trash01.png "[Delete]") (Delete)   
         Click this button to delete the assigned PIM product. The button is only displayed if a PIM product is assigned to the item. 
 
 - [CANCEL]   
-    Click this button to cancel editing the selected item. The *Edit items* view is closed.
+    Click this button to cancel editing the selected line item. The *Edit line item* view is closed.
 
 - [SAVE]  
-    Click this button to save all changes to the item. The *Edit items* view is closed.
+    Click this button to save all changes to the line item. The *Edit line item* view is closed.
 
 
 #### Products

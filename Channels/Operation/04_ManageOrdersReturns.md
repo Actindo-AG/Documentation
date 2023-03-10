@@ -1,6 +1,8 @@
 [!!Configure the orders and returns](../Integration/04_ConfigureOrdersReturns.md)
 [!!User interface Orders and returns](../UserInterface/05_OrdersReturns.md)
 
+[comment]: <> (Add link to Order management if available)
+
 # Manage the orders and returns
 
 When an order is placed in the marketplace, this order must be imported into *Omni-Channel* to further process it in the *Order Management* module.   
@@ -10,7 +12,7 @@ For certain marketplaces, it is possible to announce a return. In this case, the
 You can configure an automatic import of returns for a certain time interval, see [Configure the return import](../Integration/04_ConfigureOrdersReturns.md#configure-the-return-import). You can also manually trigger the import of returns at any time.
 
 
-## Import orders manually
+## Import orders
 
 If you want to import the orders from a marketplace outside the specified time interval, you can manually trigger the import either for a certain connection or for all configured connections at once.
 
@@ -62,7 +64,7 @@ Click the [Import orders for all connections] button. This button is only displa
 
 
 
-## Export orders manually
+## Export orders to OMS
 
 If you want to export the orders from the *Omni-Channel* to the *Order management* module outside the specified time interval, you can manually trigger the export.
 
@@ -89,7 +91,7 @@ A connection to a marketplace has been established, see [Create a connection](..
 
 
 
-## Import returns manually
+## Import returns
 
 If you want to import the returns from a marketplace outside the specified time interval, you can manually trigger the import either for a certain connection or for all configured connections at once.
 
@@ -142,7 +144,7 @@ Click the [Import returns for all connections] button. This button is only displ
 
 
 
-## Export returns manually
+## Export returns to OMS
 
 If you want to export the returns from the *Omni-Channel* to the *Order management* module outside the specified time interval, you can manually trigger the export.
 

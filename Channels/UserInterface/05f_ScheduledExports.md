@@ -27,7 +27,7 @@
 - [RETRY EXPORT]  
     Click this button to retry the selected scheduled export(s). This button is only displayed if the checkbox of at least one faulty scheduled export is selected.
 
-[comment]: <> (prüfen, ob irgendein pop-up window angezeigt wird.)
+[comment]: <> (prüfen, ob irgendein pop-up window angezeigt wird. -> aktuell keine Testdaten oder Fehlermeldung)
 
 The list displays all scheduled exports. Depending on the settings, the displayed columns may vary. All fields are read-only. 
 
@@ -42,9 +42,7 @@ The list displays all scheduled exports. Depending on the settings, the displaye
     - **Pending**  
         The export is pending.
     - **Finally failed**  
-        The export has failed permanently.
-
-[comment]: <> (welche status gibt es noch?)
+        The export has failed.
 
 - *Connection*  
     Name of the connection via which the export will be performed.
