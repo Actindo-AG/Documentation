@@ -4,6 +4,8 @@
 
 # Assign access rights to a user group
 
+[comment]: <> (Evtl. Filename ändern?)
+
 Assign user access rights to control access to specific data. Access rights can be individually granted or denied pro query and pro query category to a user group based on their user role. 
 
 The following access rights can be individually assigned:
