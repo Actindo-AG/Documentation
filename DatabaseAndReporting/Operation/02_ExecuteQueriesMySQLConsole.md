@@ -40,7 +40,7 @@ No prerequisites to fulfill.
 Data contained in your system's database can also be modified using the interactive console, for instance, a record can be inserted, updated or even deleted.
 
 > [Caution] **Potential loss of data**   
-  Editing has the potential to cause loss of data due to overwrite. The overwrite cannot be undone and the overwritten data cannot be restored.    
+  Editing has the potential to cause loss of data due to overwrite or deletion. The overwrite or deletion cannot be undone and the overwritten or deleted data cannot be restored.    
   Check all your entries before proceeding. 
 
 #### Prerequisites
@@ -61,7 +61,7 @@ No prerequisites to fulfill.
 3. Enter a valid SQL statement, for example **INSERT INTO table_name (column1, column2, column3) VALUES ('value1', 'value2')** to edit the selected data accordingly. 
 
     > [Caution] **Potential loss of data**   
-  Editing has the potential to cause loss of data due to overwrite. The overwrite cannot be undone and the overwritten data cannot be restored.    
+  Editing has the potential to cause loss of data due to overwrite or deletion. The overwrite or deletion cannot be undone and the overwritten or deleted data cannot be restored.    
   Check all your entries before proceeding. 
 
 4. Press the **ENTER** key.  
@@ -72,13 +72,13 @@ No prerequisites to fulfill.
 [comment]: <> (Wird was angezeigt? Screenshots ziehen lassen)
 
 
-## Assign access rights to users 
+## Grant access to MySQL console 
 
-Grant access to the interactive console to users with the necessary knowledge and the appropriate rights according to the applicable data protection guidelines. 
+Grant access to MySQL interactive console to users with the necessary knowledge and the appropriate rights according to the applicable data protection guidelines. 
 
 #### Prerequisites
 
-- The user to be granted access has been added to the applicable user group, see [Add a user to a user group](../Integration/05_ManageUserRights.md#add-a-user-to-a-user-group).
+The user to be granted access has been added to the applicable user group, see [Add a user to a user group](../Integration/05_ManageUserRights.md#add-a-user-to-a-user-group).
 
 [comment]: <> (Oder Verweis auf Assign rights to a user group?)
 
