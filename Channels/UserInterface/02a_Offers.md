@@ -494,7 +494,7 @@ For each defining attribute a single field or box to define the attribute value 
 
 > [Info] If more than one defining attribute is assigned to the variant, you have to select a value for each defining attribute to add a variant.
 
-[comment]: <> (Bug! -> auch nur ein Attribut auswählbar)
+[comment]: <> (Bug reported -> BUG-113)
 
 - Defining attribute(s)   
     Enter or select the appropriate value for the defining attribute(s).

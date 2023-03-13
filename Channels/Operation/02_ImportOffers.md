@@ -212,12 +212,12 @@ At least one offer has been imported from a marketplace to *Omni-Channel*, see [
 
     ![Wizard finalized](../../Assets/Screenshots/Channels/OfferImport/ChannelsPIM/WizardFinalized.png "[Wizard finalized]")
 
-11. Click the [Finalize] button in the bottom right corner.   
+11. Click the [FINALIZE] button in the bottom right corner.   
     The *Summary* wizard window is closed. The *Offers* view with all offers to be imported to PIM is displayed.
 
     ![Offers](../../Assets/Screenshots/Channels/OfferImport/ChannelsPIM/Offers.png "[Offers]")
 
-[comment]: <> (Button Finalize wird ggf. umbenannt. Bei Änderung hier anpassen)
+[comment]: <> (Button Finalize umbenennen -> FETA-14)
 
 12. Click the [IMPORT/MAP ALL OFFERS TO PIM PRODUCTS] button in the header to import all offers in the list or select the checkboxes of all offers in the list you want to import and click the [CREATE PIM PRODUCTS/MAP OFFERS TO EXISTING PIM PRODUCTS] button in the editing toolbar.   
     The *Summary* window is displayed.

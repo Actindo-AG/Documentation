@@ -418,7 +418,7 @@ The list displays all error messages. Depending on the settings, the displayed c
 - ![Edit](../../Assets/Icons/Edit01.png "[Edit]") (Edit)   
     Click this button to edit the selected line item from the list. The button is only displayed if the import process has not yet been started and the checkbox of a single line item is selected. The *Edit line item* view is displayed, see [Edit line item](#edit-line-item).
 
-[comment]: <> (Name der View neu!/nicht in UI)
+[comment]: <> (Name der View neu!/nicht in UI -> FETA-17)
 
 - ![Delete](../../Assets/Icons/Trash03.png "[Delete]") (Delete)   
     Click this button to delete the selected line item(s) from the import process. The button is only displayed if the checkbox of at least one line item is selected. The line item is removed from the list. The *Items deleted* pop-up window is displayed.
@@ -491,7 +491,7 @@ The list displays all line items of the selected import process. Depending on th
     - **Link only**   
     - **Link and transfer data**     
 
-[comment]: <> (entsprechen die Felder den Mode Feldern im wizard fenster Matching and behavior after import? Beschreibungen ggf. anpassen)
+[comment]: <> (entsprechen die Felder den Mode Feldern im wizard fenster Matching and behavior after import? Beschreibungen ggf. anpassen -> FETA-18)
 
 - *PIM product SKU*   
     SKU of the PIM product that is assigned to the selected line item. By default, the field is blank. 

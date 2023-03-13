@@ -98,7 +98,7 @@
 
     ![Import will be retried](../../Assets/Screenshots/Channels/OrdersReturns/Orders/ImportRetried.png "[Import will be retried]")
 
-[comment]: <> (aktuell noch BUG -> wird nur bei Auswahl von mindestens zwei orders angezeigt)
+[comment]: <> (aktuell noch BUG -> wird nur bei Auswahl von mindestens zwei orders angezeigt -> Bug reported: BUG-144)
 
 - [CANCEL ORDER]/[CANCEL ORDERS]  
     Click this button to cancel the import of the selected order(s). This button is only displayed if the checkbox of at least one order with the **Error** status in the *Status of import from channel* column is selected. The import status changes to **Cancelled**. The *Order cancelled* pop-up window is displayed.
@@ -201,7 +201,7 @@ The list displays all orders, either for all connections or for the selected con
     - **Being Exported**
     - **Not exported**  
     
-[comment]: <> (Export status Anzeige funktioniert nicht -> BUG/FETA Ticket)
+[comment]: <> (Export status Anzeige funktioniert nicht, nicht klar definiert welcher export status -> FETA-15, BUG-147)
 
 - [EXPORT TO OMS]  
     Click this button to export the order to the *Order management* module. This button is only displayed if the status in the *Status of export to OMS* column equals **Not exported: Pending > 30 minutes to OMS**. The export status changes to **Being exported**.
@@ -211,7 +211,7 @@ The list displays all orders, either for all connections or for the selected con
 
     ![Order import triggered](../../Assets/Screenshots/Channels/OrdersReturns/Orders/OrderImportTriggered.png "[Order import triggered]")
 
-[comment]: <> (Button umbenennen in RETRY IMPORT -> konsistenz! -> BUG/FETA Ticket)
+[comment]: <> (Button umbenennen in RETRY IMPORT -> Konsistenz! -> FETA-16)
 
 The *Order from connection "Connection name"* view is composed of the following tabs:
 - [Order from connection "Connection name" &ndash; Attributes](#order-from-connection-connection-name-–-attributes)
@@ -493,7 +493,7 @@ The list displays all shipments for the selected order. Depending on the setting
     - **Error**   
         The order export has been failed. Click the [Show log message] button in the column to display the corresponding log message in the *LOG* tab, see [User interface LOG](./06a_Log.md).
 
-[comment]: <> (Stimmt das? Habe noch nie andere Status gesehen als Complete bei import from channel und Exported bei export to channel.  Die status beziehen sich aber auf das order und nicht auf das shipment, oder?)
+[comment]: <> (Stimmt das? Habe noch nie andere Status gesehen als Complete bei import from channel und Exported bei export to channel. Die status beziehen sich aber auf das order und nicht auf das shipment, oder?)
 
 - *ID*  
     Shipment identification number. The ID number is automatically assigned by the system.
@@ -742,7 +742,7 @@ The list displays all cancellations for the selected order. Depending on the set
     - **Error**   
         The order export has been failed. Click the [Show log message] button in the column to display the corresponding log message in the *LOG* tab, see [User interface LOG](./06a_Log.md).
 
-[comment]: <> (Stimmt das? Habe noch nie andere Status gesehen als Complete bei import from channel und Exported bei export to channel.  Die status beziehen sich aber auf das order und nicht auf die cancellation, oder?)
+[comment]: <> (Stimmt das? Habe noch nie andere Status gesehen als Complete bei import from channel und Exported bei export to channel. Die status beziehen sich aber auf das order und nicht auf die cancellation, oder?)
 
 - *ID*  
     Cancellation identification number. The ID number is automatically assigned by the system.

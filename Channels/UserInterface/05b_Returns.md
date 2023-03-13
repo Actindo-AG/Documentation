@@ -102,7 +102,7 @@
 
 [comment]: <> (pop-up window spricht von "order" obwohl es return ist. Wenn richtig, neuer screenshot.)
 
-[comment]: <> (aktuell noch BUG -> wird nur bei Auswahl von mindestens zwei orders angezeigt)
+[comment]: <> (aktuell noch BUG -> wird nur bei Auswahl von mindestens zwei orders angezeigt -> Bug reported: BUG-144)
 
 - [CANCEL RETURN]/[CANCEL RETURNS]  
     Click this button to cancel the import of the selected return(s). This button is only displayed if the checkbox of at least one return with the **Error** status in the *Status of import from channel* column is selected. The import status changes to **Cancelled**. The *Return cancelled* pop-up window is displayed.
@@ -208,7 +208,7 @@ The list displays all returns, either for all connections or for the selected co
     - **Being Exported**
     - **Not exported**  
     
-[comment]: <> (Export status Anzeige funktioniert nicht -> BUG/FETA Ticket)
+[comment]: <> (Export status Anzeige funktioniert nicht, nicht klar definiert welcher export status -> FETA-15, BUG-147)
 
 - [EXPORT TO OMS]  
     Click this button to export the return to the *Order management* module. This button is only displayed if the status in the *Status of export to OMS* column equals **Not exported: Pending > 30 minutes to OMS**. The export status changes to **Being exported**.
@@ -218,7 +218,7 @@ The list displays all returns, either for all connections or for the selected co
 
     ![Return import triggered](../../Assets/Screenshots/Channels/OrdersReturns/Returns/ReturnImportTriggered.png "[Return import triggered]")
 
-[comment]: <> (Button umbenennen in RETRY IMPORT -> konsistenz! -> BUG/FETA Ticket)
+[comment]: <> (Button umbenennen in RETRY IMPORT -> Konsistenz! -> FETA-16)
 
 The *Return from connection "Connection name"* view is composed of the following tabs:
 - [Return from connection "Connection name" &ndash; Attributes](#return-from-connection-connection-name-–-attributes)
@@ -235,8 +235,6 @@ The *Return from connection "Connection name"* view is composed of the following
 *Omni-Channel > Orders and returns > Tab RETURNS > Select return > Tab Attributes*
 
 ![Return connection attributes](../../Assets/Screenshots/Channels/OrdersReturns/Returns/ReturnConnectionAttributes.png "[Return connection attributes]")
-
-[comment]: <> (add screenshot -> amazon 4x)
 
 In the left margin column, all available attribute groups are displayed. Click an attribute group to display the attributes that are assigned to this group on the right side of the *Attributes* tab. If the return contains attributes that are unassigned, the *Unassigned group* attribute group is automatically displayed in the left margin column.
 
@@ -258,8 +256,6 @@ The right side of the *Attributes* tab displays all attributes that are assigned
 *Omni-Channel > Orders and returns > Tab RETURNS > Select return > Tab Dependencies*
 
 ![Return connection dependencies](../../Assets/Screenshots/Channels/OrdersReturns/Returns/ReturnConnectionDependencies.png "[Return connection dependencies]")
-
-[comment]: <> (add screenshot -> amazon 4x)
 
 **Dependencies**
 
@@ -300,8 +296,6 @@ The list displays all dependencies of the selected return. Depending on the sett
 *Omni-Channel > Orders and returns > Tab RETURNS > Select return > Tab Line items*
 
 ![Return connection line items](../../Assets/Screenshots/Channels/OrdersReturns/Returns/ReturnConnectionLineItems.png "[Return connection line items]")
-
-[comment]: <> (add screenshot -> amazon 4x)
 
 **Line items**
 
@@ -386,7 +380,7 @@ The list displays all line items of the selected return. Depending on the settin
 
 ![Line item](../../Assets/Screenshots/Channels/OrdersReturns/Returns/LineItemAttributes.png "[Line item]")
 
-[comment]: <> (add screenshot -> amazon 4x)
+[comment]: <> (add screenshot)
 
 - ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)   
     Click this button to close the *Line item* view and return to the list of line items. All changes are rejected.
@@ -404,8 +398,6 @@ The *Line item* view is composed of the following tabs:
 *Omni-Channel > Orders and returns > Tab RETURNS > Select return > Tab Line items > Select line item > Tab Attributes*
 
 ![Line item attributes](../../Assets/Screenshots/Channels/OrdersReturns/Returns/LineItemAttributes.png "[Line item attributes]")
-
-[comment]: <> (add screenshot -> amazon 4x)
 
 In the left margin column, all available attribute groups are displayed. Click an attribute group to display the attributes that are assigned to this group on the right side of the *Attributes* tab. If the line item contains attributes that are unassigned, the *Unassigned group* attribute group is automatically displayed in the left margin column.
 
@@ -426,8 +418,6 @@ The right side of the *Attributes* tab displays all attributes that are assigned
 *Omni-Channel > Orders and returns > Tab RETURNS > Select return > Tab Line items > Select line item > Tab Dependencies*
 
 ![Line item dependencies](../../Assets/Screenshots/Channels/OrdersReturns/Returns/LineItemDependencies.png "[Line item dependencies]")
-
-[comment]: <> (add screenshot -> amazon 4x)
 
 **Dependencies**
 
@@ -469,7 +459,7 @@ The list displays all dependencies of the selected line item. Depending on the s
 
 ![Return connection shipments](../../Assets/Screenshots/Channels/OrdersReturns/Returns/ReturnConnectionShipments.png "[Return connection shipments]")
 
-[comment]: <> (add screenshot -> amazon 4x)
+[comment]: <> (add screenshot)
 
 **Shipments**
 
@@ -530,7 +520,7 @@ The list displays all shipments for the selected return. Depending on the settin
 
 ![Shipment attributes](../../Assets/Screenshots/Channels/OrdersReturns/Returns/ShipmentAttributes.png "[Shipment attributes]")
 
-[comment]: <> (add screenshot -> amazon 4x)
+[comment]: <> (add screenshot -> amazon 4x -> tabelle kaputt?)
 
 - ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)   
     Click this button to close the *Shipment for return "Return ID"* view and return to the shipment list. All changes are rejected.
@@ -550,7 +540,7 @@ The *Shipment for return "Return ID"* view is composed of the following tabs:
 
 ![Shipment attributes](../../Assets/Screenshots/Channels/OrdersReturns/Returns/ShipmentAttributes.png "[Shipment attributes]")
 
-[comment]: <> (add screenshot -> amazon 4x)
+[comment]: <> (add screenshot)
 
 In the left margin column, all available attribute groups are displayed. Click an attribute group to display the attributes that are assigned to this group on the right side of the *Attributes* tab. If the line item contains attributes that are unassigned, the *Unassigned group* attribute group is automatically displayed in the left margin column.
 
@@ -572,7 +562,7 @@ The right side of the *Attributes* tab displays all attributes that are assigned
 
 ![Shipment dependencies](../../Assets/Screenshots/Channels/OrdersReturns/Returns/ShipmentDependencies.png "[Shipment dependencies]")
 
-[comment]: <> (add screenshot -> amazon 4x)
+[comment]: <> (add screenshot)
 
 **Dependencies**
 
@@ -613,7 +603,7 @@ The list displays all dependencies of the selected shipment. Depending on the se
 
 ![Shipment line items](../../Assets/Screenshots/Channels/OrdersReturns/Returns/ShipmentLineItems.png "[Shipment line items]")
 
-[comment]: <> (add screenshot -> amazon 4x)
+[comment]: <> (add screenshot)
 
 **Shipment line items**
 
@@ -653,7 +643,7 @@ The list displays all shipment line items of the selected return. Depending on t
 
 ![Shipment line item](../../Assets/Screenshots/Channels/OrdersReturns/Returns/ShipmentLineItemAttributes.png "[Shipment line item]")
 
-[comment]: <> (add screenshot -> amazon 4x)
+[comment]: <> (add screenshot)
 
 - ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)   
     Click this button to close the *Shipment line item* view and return to the shipment line item list. All changes are rejected.
@@ -672,7 +662,7 @@ The *Shipment line item* view is composed of the following tabs:
 
 ![Shipment line item attributes](../../Assets/Screenshots/Channels/OrdersReturns/Returns/ShipmentLineItemAttributes.png "[Shipment line item attributes]")
 
-[comment]: <> (add screenshot -> amazon 4x)
+[comment]: <> (add screenshot)
 
 In the left margin column, all available attribute groups are displayed. Click an attribute group to display the attributes that are assigned to this group on the right side of the *Attributes* tab. If the line item contains attributes that are unassigned, the *Unassigned group* attribute group is automatically displayed in the left margin column.
 
@@ -694,7 +684,7 @@ The right side of the *Attributes* tab displays all attributes that are assigned
 
 ![Shipment line item dependencies](../../Assets/Screenshots/Channels/OrdersReturns/Returns/ShipmentLineItemDependencies.png "[Shipment line item dependencies]")
 
-[comment]: <> (add screenshot -> amazon 4x)
+[comment]: <> (add screenshot)
 
 - ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh)   
     Click this button to update the list of dependencies.
@@ -734,7 +724,7 @@ The list displays all dependencies of the selected shipment line item. Depending
 
 ![Return connection cancellations](../../Assets/Screenshots/Channels/OrdersReturns/Returns/ReturnConnectionCancellations.png "[Return connection cancellations]")
 
-[comment]: <> (add screenshot)
+[comment]: <> (add screenshot -> tabelle kaputt?)
 
 **Cancellations**
 
@@ -871,8 +861,6 @@ The list displays all dependencies of the selected cancellation. Depending on th
 *Omni-Channel > Orders and returns > Tab RETURNS > Select return > Tab Errors*
 
 ![Return connection errors](../../Assets/Screenshots/Channels/OrdersReturns/Returns/ReturnConnectionErrors.png "[Return connection errors]")
-
-[comment]: <> (add screenshot -> amazon 4x)
 
 **Error list**
 

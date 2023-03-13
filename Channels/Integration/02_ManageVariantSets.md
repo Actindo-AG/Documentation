@@ -155,7 +155,7 @@ At least one variant set has been created, see [Create a variant set](#create-a-
 
 You can remove defining and changeable attributes from the variant set. Note that at least one defining attribute must be assigned. If one or more changeable attributes have been previously assigned to the variant set, at least one changeable attribute must remain assigned.
 
-[comment]: <> (is that a bug?)
+[comment]: <> (Bug reported -> BUG-141)
 
 #### Prerequisites
 

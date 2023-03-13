@@ -7,8 +7,6 @@
 
 ![Orders](../../Assets/Screenshots/Channels/OrdersReturns/Errors/Errors.png "[Orders]")
 
-[comment]: <> (Screenshot ggf anpassen)
-
 **Error list**	
 
 - ![Search](../../Assets/Icons/Search.png "[Search]") (Search)   

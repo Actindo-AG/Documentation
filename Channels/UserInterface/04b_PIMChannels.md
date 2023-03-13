@@ -12,7 +12,7 @@
 - [CLEAR ALL]  
     Click this button to cancel all scheduled offer. All offers that have not been imported yet are canceled and removed from the list. 
 
-[comment]: <> (FETA -> pop-up window mit bestätigung; hinzufügen, wenn verfügbar)
+[comment]: <> (FETA -> pop-up window mit bestätigung; FETA-13)
 
 - ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh)   
     Click this button to update the list of scheduled offer imports.

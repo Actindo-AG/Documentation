@@ -72,6 +72,4 @@ The list displays all errors to the shipments. Depending on the settings, the di
 
 ![Detail of log message](../../Assets/Screenshots/Channels/OrdersReturns/ShipmentErrors/DetailLogMessageAttributes.png "[Detail of log message]")
 
-[comment]: <> (Add Screenshot -> Amazon4x)
-
 For a detailed description of this view and the corresponding functions, see [LOG](./06a_Log.md#detail-of-log-message-log-message-title).
