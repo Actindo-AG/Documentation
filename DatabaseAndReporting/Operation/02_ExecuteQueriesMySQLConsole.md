@@ -95,23 +95,23 @@ The user to be granted access has been added to the applicable user group, see [
 2. Click the ![Edit](../../Assets/Icons/Edit01.png "[Edit]") (Edit) button in the editing toolbar.    
     The *Edit group* view is displayed. By default, the *Users* tab is preselected.
 
-    ![Edit group no users](../../Assets/Screenshots/DatabaseAndReporting/EditGroupUsers.png "[Edit group users]")
+    ![Edit group users](../../Assets/Screenshots/DatabaseAndReporting/EditGroupUsers.png "[Edit group users]")
 
-2. Click the *Rights* tab.  
+3. Click the *Rights* tab.  
     All modules and plugins installed are displayed.
 
     > [Info] It may take a few seconds for the system to upload all installed modules and plugins.
 
-    ![Edit group no users](../../Assets/Screenshots/DatabaseAndReporting/EditGroupRights.png "[Edit group users]")
+    ![Edit group rights](../../Assets/Screenshots/DatabaseAndReporting/EditGroupRights.png "[Edit group rights]")
 
-3. Navigate the folder tree structure on the left side until you locate the *Modules.Actindo.Database and Reporting* folder.
-
-    ![Edit group no users](../../Assets/Screenshots/DatabaseAndReporting/EditGroupRightsDatabaseAndReporting.png "[Edit group users]")
-
-4. If necessary, click the rightwards arrow to the left of the *Modules.Actindo.Database and Reporting* folder to display all contained sub-folders.  
+4. Navigate the folder tree structure on the left side until you locate the *Modules.Actindo.Database and Reporting* folder.
+    
+5. If necessary, click the rightwards arrow to the left of the *Modules.Actindo.Database and Reporting* folder to display all contained sub-folders.  
     All contained sub-folders are displayed.
 
-5. Select the checkbox of the *Interactive MySQL console* folder.  
+    ![Rights DB and reporting](../../Assets/Screenshots/DatabaseAndReporting/EditGroupRightsDatabaseAndReporting.png "[Rights DB and reporting]")
+
+6. Select the checkbox of the *Interactive MySQL console* folder.  
     The *Interactive MySQL console* folder and the *Execute* subfolder are selected. The user group, and all users included in it, have been granted access right to the interactive console.  
 
 
