@@ -14,7 +14,7 @@ Access and retrieve any data contained in your system's databases using the inte
 
 #### Prerequisites
 
-No prerequisites to fulfill.
+The user has been granted access rights, see [Assign access rights to a user group](../Integration/05_ManageUserRights.md#assign-access-rights-to-a-user-group).
 
 #### Procedure
 
@@ -45,7 +45,7 @@ Data contained in your system's database can also be modified using the interact
 
 #### Prerequisites
 
-No prerequisites to fulfill.
+The user has been granted access rights, see [Assign access rights to a user group](../Integration/05_ManageUserRights.md#assign-access-rights-to-a-user-group).
 
 #### Procedure
 
@@ -80,7 +80,7 @@ Grant access to MySQL interactive console to users with the necessary knowledge 
 
 The user to be granted access has been added to the applicable user group, see [Add a user to a user group](../Integration/05_ManageUserRights.md#add-a-user-to-a-user-group).
 
-[comment]: <> (Oder Verweis auf Assign rights to a user group?)
+[comment]: <> (Nur in Manage user rights + Verweis hier evtl.?)
 
 #### Procedure
 
