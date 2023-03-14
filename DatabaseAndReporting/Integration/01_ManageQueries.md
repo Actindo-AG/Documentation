@@ -6,14 +6,14 @@
 
 Queries can be predefined to determine the queries that user can execute and the data that be can accessed. Instead of entering and executing a query directly in MySQL console, the user can simply select the query to be executed from the list of queries. 
 
-Access to data can be defined via API and download or via public download. In this case, a download link and a UUID (Universally Unique Identifier) are needed. Queries can be read-only, that is, the mere access the available data, or write access can be enabled, which additionally allows to modify the data contained in the database. 
+Access to data can be allowed via API and download or via public download. In this case, a download link and a UUID (Universally Unique Identifier) are required. Queries can be read-only, that is, the mere access to available data, or write access can be enabled, which additionally allows to modify the data contained in the database. 
 
 Managed queries can be created, edited, and deleted, as well as organized in categories, see [Manage the query categories](./02_ManageQueryCategories.md). Query access can also be restricted pro query and query category depending on the user role, see [Manage the user rights](./05_ManageUserRights.md).
 
 
 ## Create a query
 
-Define a query, determine how the data are accessed and, if necessary, restrict access to data.
+Define a query, determine how the data are accessed and, if necessary, add a date/time conditions.
 
 #### Prerequisites 
 
@@ -29,25 +29,43 @@ No prerequisites to fulfill.
 1. Click the ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) button in the bottom right corner.  
     The *Create MySQL query* is displayed.
 
+    ![Queries](../../Assets/Screenshots/DatabaseAndReporting/ManagedQueries/Queries/CreateQuery.png "[Queries]")
+
 2. Enter a name in the *Name* field.
 
 3. If desired, click the *Category* drop-down list and select teh applicable category. All available query categories are displayed in the list. 
     > [Info] The query category can be assigned when creating the query or afterwards. To create a query category, see [Create a query category](01_ManageQueries.md#create-a-query-category).  
 
-4. Enter the MySQL query.
+4. Enter a valid MySQL statement.  
+    
+5. If desired, add a date/time condition to filter the query    results by time range following the procedure below:
+      
+    - Enter a condition (WHERE clause) in the query statement, for example **where created > ~creationDate|datatime~**. 
+        > [Info] The condition provided is just an example. Other conditions and descriptions may apply according to the data model and the user's information needs.
 
-5. If desired, enter one or several IP addresses or an IP range (subnet mask) in the *IP whitelist (only public download)* field to restrict access to those IP addresses entered in case of public download.  
-    > [Info] When entering more than one IP address, each IP address must be entered on a separate line. 
+    - Click the click the [TRY QUERY (READ ONLY)] button.   
+        The *Bind query parameters placeholders* window is displayed.
+        > [Info] There are two possible placeholders to define date/time conditions: **|datetime** and **|string**. The **|datetime** placeholder produces a calendar field in the *Bind query parameters placeholders* window, whereas the **|string** placeholder creates a free text field.
+
+        ![Bind query parameters placeholders](../../Assets/Screenshots/DatabaseAndReporting/ManagedQueries/Queries/BindQueryParamsPlaceholders.png "[Bind query parameters placeholders]")
+
+    - Define the desired time range in the the *creationDate* field, either by entering the date with the keyboard or by clicking the calendar button to select the desired date and time. 
+
+    - Click the [EXECUTE] button.   
+        The query results are displayed in table format at the bottom of the workspace. The date/time condition has been added to query.
 
 [comment]: <> (ETL use enabled vorest ignorieren, laut JS)
 
-6. Select the *API and download enabled* checkbox to allow logged in users with the appropriate rights to execute the query and export the extracted data.
-    > [Info] The user rights must be granted for every single query, see [Manage the user rights](./05_ManageUserRights.md).
+5. If desired, enter one or several IP addresses or an IP range (subnet mask) in the *IP whitelist (only public download)* field to allow access only to those IP addresses entered in case of public download.  
+    > [Info] When entering more than one IP address, each IP address must be entered on a separate line. 
+
+6. Select the *API and download enabled* checkbox to allow logged in users with the appropriate rights to execute the query and export the retrieved data.
+    > [Info] Additionally, the user rights must be granted access for every single query, see [Manage the user rights](./05_ManageUserRights.md).
 
 [comment]: <> (Evtl. Link updaten, wenn relevanter Unterkapitel definiert wird)
 
-7. Select the *Public download enabled* checkbox to allow any user, also non-logged in users, with the appropriate link to execute the query and export the extracted data in a browser. 
-    > [Info] To be able to execute the query in the browser, the corresponding download link and UUID (Universally Unique Identifier) must be known.
+7. Select the *Public download enabled* checkbox to allow any user, also non-logged in users, with the applicable link to execute the query and export the retrieved data in a web browser. 
+    > [Info] In addition to the corresponding download link, a UUID (Universally Unique Identifier) is required to execute the query in a web browser.
 
 8. Select the *Write access enabled* checkbox to allow write operations when executing the query. Otherwise, the query is not executed and an error message is displayed.
 
@@ -75,6 +93,8 @@ A query has been created, see [Create a query](#create-a-query).
 
 1. Click the query to be edited in the list of queries. Alternatively, select the checkbox of the query to be edited and click the ![Edit](../../Assets/Icons/Edit01.png) (Edit) button in the editing toolbar.  
     The *Edit MySQL query* is displayed.
+
+    ![Queries](../../Assets/Screenshots/DatabaseAndReporting/ManagedQueries/Queries/EditQuery.png "[Queries]")
 
 2. Modify the query set values as necessary.
     > [Info] The fields *ID* and *UUID* are automatically assigned by the system and cannot be modified.
