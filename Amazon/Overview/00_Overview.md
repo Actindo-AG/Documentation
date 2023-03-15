@@ -1,6 +1,6 @@
 # Overview
 
-In this part of the *Shopify* documentation, you will find the following chapters:
+In this part of the *Amazon* documentation, you will find the following chapters:
 
 - [General information](01_General.md)
     - [Benefits](01_General.md#benefits)

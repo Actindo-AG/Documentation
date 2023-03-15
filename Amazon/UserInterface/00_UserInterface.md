@@ -3,9 +3,9 @@
 In this part of the *Omni-Channel Amazon Integration* documentation, you will find the following chapters:
 
 - [CONNECTIONS](./01_Connections.md)
-    - [Create Amazon connection](./07a_Connections.md#create-connection)
-    - [Edit Amazon connection](./07a_Connections.md#edit-connection)
-    - [Edit Amazon connection &ndash; Credentials](./07a_Connections.md#edit-connection-–-credentials)
-    - [Edit Amazon connection &ndash; Settings](./07a_Connections.md#edit-connection---settings)
-    - [Create view](./07a_Connections.md#create-view)
-    - [Rename view](./07a_Connections.md#rename-view)
+    - [Create Amazon connection](./01_Connections.md#create-amazon-connection)
+    - [Edit Amazon connection](./01_Connections.md#edit-amazon-connection)
+    - [Edit Amazon connection &ndash; Credentials](./01_Connections.md#edit-amazon-connection-–-credentials)
+    - [Edit Amazon connection &ndash; Settings](./01_Connections.md#edit-amazon-connection-–-settings)
+    - [Create view](./01_Connections.md#create-view)
+    - [Rename view](./01_Connections.md#rename-view)
