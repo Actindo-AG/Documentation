@@ -51,6 +51,7 @@ The *Import existing tab* tab is locked. It is only available in the *Actindo Da
     Click this button to delete the selected tab. The *Confirm tab deletion* window is closed. The tab and its dashlets are deleted.
 
 
+
 ## Tab
 
 *Workflows > Overview > Tab DASHBOARDS > Select tab*   
@@ -60,6 +61,7 @@ The *Import existing tab* tab is locked. It is only available in the *Actindo Da
 
 - ![Settings](../../Assets/Icons/Settings01.png "[Tool]") (Settings)   
     Click this button to edit the tab. The *Edit tab* view is displayed, see [Edit tab](#edit-tab).  
+
 
 ### Edit tab
 

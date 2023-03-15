@@ -1,3 +1,5 @@
+[!!Configure the logging settings](../Integration/02_ConfigureLoggingSettings.md)
+
 # Settings
 
 *Workflows > Settings > Tab SETTINGS*
@@ -101,6 +103,7 @@ The side menu displays the different log types. The log lifetime view on the rig
 
 - *Error-log lifetime (in days)*   
     Enter the number of days the selected log will be stored. This field is locked when the *Apply from default* toggle is active.
+
 
 
 ## Warning-log lifetime

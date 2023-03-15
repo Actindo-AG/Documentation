@@ -7,6 +7,7 @@
 
 You can retry one or several faulty process actions after you have fixed the cause of the error to continue the affected process(es).
 
+
 ## Retry a single process action
 
 If a single action failed, you can restart this action on its own. If multiple actions failed because of the same error, it is recommended to [restart all these actions together](#retry-multiple-process-actions) after the error has been fixed.

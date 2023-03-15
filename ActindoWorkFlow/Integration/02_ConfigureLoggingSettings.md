@@ -28,7 +28,7 @@ No prerequisites to fulfill.
 
     ![Default disabled](../../Assets/Screenshots/ActindoWorkFlow/Settings/DefaultDisabled.png "[Default disabled]")
 
-    >[Info] The procedure to change the log lifetime is identical for all log lifetime types.
+    > [Info] The procedure to change the log lifetime is identical for all log lifetime types.
 
 2. Disable the *Apply from default* toggle in the upper right corner.   
     The field to define the log lifetime is unlocked.

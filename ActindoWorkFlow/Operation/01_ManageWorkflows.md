@@ -180,7 +180,6 @@ Edit the place settings to change or define the place data type.
     > [Info] Only values of those data types that match with the connected output and input port of the selected place are displayed in the list.     
 
 
-
 ### Change the place ports
 
 You can change the ports of the place by deleting an existing arc and creating a new one.
@@ -216,7 +215,6 @@ You can change the ports of the place by deleting an existing arc and creating a
     The places are merged and the new connection has been created.
 
 
-
 ### Delete a place
 
 Delete a place that is no longer needed, for instance if a transition is removed from the workflow.
@@ -246,7 +244,6 @@ Delete a place that is no longer needed, for instance if a transition is removed
     > [Info] If a one of the arcs has been connected to a mandatory input or output port, a new place connected to this port will be automatically displayed.
 
 
-
 ### Add a transition
 
 Add one or several transition to the workflow to define or expand the desired business process.
@@ -266,25 +263,25 @@ Add one or several transition to the workflow to define or expand the desired bu
 1. Navigate to the part in the workflow where you want to add a transition.  
 
 2. Click the ![Add](../../Assets/Icons/Plus04.png "[Add]") (Add) button next to the output port to which you want to connect a new transition.     
-  A new place connected to the selected output port is displayed.
+    A new place connected to the selected output port is displayed.
 
-  > [Info] If a place to the output port already exists, for instance because it is mandatory, you can skip the step **2**.                                                                 .
+    > [Info] If a place to the output port already exists, for instance because it is mandatory, you can skip the step **2**.
 
-  ![New place](../../Assets/Screenshots/ActindoWorkFlow/Workflows/NewPlace.png "[New place]")
+    ![New place](../../Assets/Screenshots/ActindoWorkFlow/Workflows/NewPlace.png "[New place]")
 
 3. Click the ![Add](../../Assets/Icons/Plus04.png "[Add]") (Add) button right to the new place.    
-  A window to search for a transition is displayed.
+    A window to search for a transition is displayed.
 
-  ![Search action](../../Assets/Screenshots/ActindoWorkFlow/Workflows/SearchAction.png "[Search action]")
+    ![Search action](../../Assets/Screenshots/ActindoWorkFlow/Workflows/SearchAction.png "[Search action]")
 
 4. Click the *Search for an action* field and enter the name of the transition or a keyword you are searching for.
 
-  > [Info] The list of transitions is filtered for your keyword as you type.
+    > [Info] The list of transitions is filtered for your keyword as you type.
 
 5. Click the transition you want to add in the list of transitions.    
-  The transition has been added to the workflow and connected to the selected place.
+    The transition has been added to the workflow and connected to the selected place.
 
-  ![Add action](../../Assets/Screenshots/ActindoWorkFlow/Workflows/AddAction.png "[Add action]")
+    ![Add action](../../Assets/Screenshots/ActindoWorkFlow/Workflows/AddAction.png "[Add action]")
 
 
 ### Edit a transition
@@ -304,26 +301,26 @@ Edit a transition to define its settings.
 ![Workflow editor](../../Assets/Screenshots/ActindoWorkFlow/Workflows/WorkflowEditor.png "[Workflow editor]")
 
 1. Click the transition you want to edit.  
-  The transition is highlighted and its settings are displayed in the settings side bar on the right.
+    The transition is highlighted and its settings are displayed in the settings side bar on the right.
 
-  ![Action](../../Assets/Screenshots/ActindoWorkFlow/Workflows/Action.png "[Action]")
+    ![Action](../../Assets/Screenshots/ActindoWorkFlow/Workflows/Action.png "[Action]")
 
-  > [Info] The settings displayed in the settings side bar may differ depending on the respective transition. The sections *Configuration* and *Static Inputs* are only available for certain transitions.     
+    > [Info] The settings displayed in the settings side bar may differ depending on the respective transition. The sections *Configuration* and *Static Inputs* are only available for certain transitions.     
 
 2. Edit the settings field in the settings side bar. You can change the label, the queue type, the task event, the configuration and the static inputs as described below:
 
-  + Click the *Label* field and edit the name of the transition displayed in the workflow editor.
+    + Click the *Label* field and edit the name of the transition displayed in the workflow editor.
 
-  + Click the *Queue type* drop-down list and select the appropriate queue type for the transition. All available queue types are displayed in the drop-down list. By default the *Default* queue type is selected. You can define a different queue type for each transition within the workflow.   
-  For detailed information about the queue types, see [Configure the queue types](../Integration/01_ConfigureQueueTypes.md).
+    + Click the *Queue type* drop-down list and select the appropriate queue type for the transition. All available queue types are displayed in the drop-down list. By default the *Default* queue type is selected. You can define a different queue type for each transition within the workflow.   
+    For detailed information about the queue types, see [Configure the queue types](../Integration/01_ConfigureQueueTypes.md).
 
-  + Click the *Task event* drop-down list and select an event connected to the transition. The event is triggered and the corresponding task is assigned when the process action has failed. All available task events are displayed in the drop-down list. By default, the *ActindoWorkflow process execution failed* event is preselected. The drop-down list is only displayed when the *Task* module is installed and the current user has the required rights to configure it.
+    + Click the *Task event* drop-down list and select an event connected to the transition. The event is triggered and the corresponding task is assigned when the process action has failed. All available task events are displayed in the drop-down list. By default, the *ActindoWorkflow process execution failed* event is preselected. The drop-down list is only displayed when the *Task* module is installed and the current user has the required rights to configure it.
 
-  + Edit the field(s) in the *Configuration* section to define further configuration settings to the selected transition. This section is only displayed for certain transitions. The fields displayed in the *Configuration* section depend on the selected transition.
+    + Edit the field(s) in the *Configuration* section to define further configuration settings to the selected transition. This section is only displayed for certain transitions. The fields displayed in the *Configuration* section depend on the selected transition.
 
-  + Click the ![Add](../../Assets/Icons/Plus04.png "[Add]") (Add) button right to an input name in the *Static inputs* section to add a static data value to the corresponding input. All input ports that are not yet connected to a place are displayed in this section. Enter the appropriate value in the text field below the input name. The value entered must be a valid JSON value. Click the ![Delete](../../Assets/Icons/Trash07.png "[Delete]") (Delete) button right to a value to delete it. This section is only displayed for certain transitions.
+    + Click the ![Add](../../Assets/Icons/Plus04.png "[Add]") (Add) button right to an input name in the *Static inputs* section to add a static data value to the corresponding input. All input ports that are not yet connected to a place are displayed in this section. Enter the appropriate value in the text field below the input name. The value entered must be a valid JSON value. Click the ![Delete](../../Assets/Icons/Trash07.png "[Delete]") (Delete) button right to a value to delete it. This section is only displayed for certain transitions.
 
-  > [Info] Input ports with a static input value cannot be connected to a place. Therefore, a small arrow without a place is displayed in front of an input port with a static input value. Delete the static input value from the port to be able to connect it with a place.     
+        > [Info] Input ports with a static input value cannot be connected to a place. Therefore, a small arrow without a place is displayed in front of an input port with a static input value. Delete the static input value from the port to be able to connect it with a place.     
 
 [comment]: <> (Check the design of static input before next version is released; design possibly changes)
 [comment]: <> (Add a link to the Tasks module/task events when documented)
@@ -351,32 +348,32 @@ Export the JSON code of an existing workflow that you want to copy.
 ![Workflows](../../Assets/Screenshots/ActindoWorkFlow/Workflows/Workflows.png "[Workflows]")
 
 1. Click the workflow you want to copy in the list of workflows.   
-  The *Workflow versions* view with all versions of the selected workflow is displayed.
+    The *Workflow versions* view with all versions of the selected workflow is displayed.
 
-  ![Workflow versions](../../Assets/Screenshots/ActindoWorkFlow/Workflows/WorkflowVersions.png "[Workflow versions]")
+    ![Workflow versions](../../Assets/Screenshots/ActindoWorkFlow/Workflows/WorkflowVersions.png "[Workflow versions]")
 
 2. Click the workflow version you want to copy in the list of workflow versions.  
-  The workflow editor is displayed in the workspace.
+    The workflow editor is displayed in the workspace.
 
-  ![Workflow editor](../../Assets/Screenshots/ActindoWorkFlow/Workflows/WorkflowEditor.png "[Workflow editor]")
+    ![Workflow editor](../../Assets/Screenshots/ActindoWorkFlow/Workflows/WorkflowEditor.png "[Workflow editor]")
 
 [comment]: <> (Step 2 as well as the screenshot workflow versions is possibly not needed in the next workflows version as the version view will disappear and clicking the workflow will take you to the editor directly, check next time)
 
 3. Click the ![Points](../../Assets/Icons/Points02.png "[Points]") (Points) button in the upper left corner next to the workflow name.   
-  The workflow context menu is displayed.
+    The workflow context menu is displayed.
 
-  ![Context menu](../../Assets/Screenshots/ActindoWorkFlow/Workflows/ContextMenu.png "[Context menu]")
+    ![Context menu](../../Assets/Screenshots/ActindoWorkFlow/Workflows/ContextMenu.png "[Context menu]")
 
 4. Click the *Export JSON ..* menu entry in the context menu.   
-  The *Export JSON* window with the JSON code for the current workflow is displayed.
+    The *Export JSON* window with the JSON code for the current workflow is displayed.
 
-  ![Export JSON](../../Assets/Screenshots/ActindoWorkFlow/Workflows/ExportJSON.png "[Export JSON]")
+    ![Export JSON](../../Assets/Screenshots/ActindoWorkFlow/Workflows/ExportJSON.png "[Export JSON]")
 
 5. Select the complete JSON code in the window, copy it to the clipboard and click the [CLOSE] button in the bottom right corner.   
-  The *Export JSON* window is closed.
+    The *Export JSON* window is closed.
 
 6. Click the ![Back](../../Assets/Icons/Back02.png "[Back]") (Back) button in the workflow editor.  
-  The workflow editor is closed and the list of workflows is displayed again.
+    The workflow editor is closed and the list of workflows is displayed again.
 
 
 ### Import the workflow JSON code

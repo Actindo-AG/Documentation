@@ -64,7 +64,7 @@ The transition settings side bar is located to the right of the workspace and al
 - *Task event*  
     Click the drop-down list and select the applicable task event. All available task events are displayed. This option is linked to the *Tasks* module. The drop-down list is only displayed if the *Tasks* module is installed and the user has the necessary rights.
 
-   > [Info] The *ActindoWorkflow Process Execution Failed* task is preconfigured by default. A list of all existing task events is displayed in the *Events* menu entry of the *Tasks* module.
+    > [Info] The *ActindoWorkflow Process Execution Failed* task is preconfigured by default. A list of all existing task events is displayed in the *Events* menu entry of the *Tasks* module.
 
 - *Configuration*  
     Depending on the transition, there might be configuration options, for instance, defining an email where a receipt or document must be sent. Editing the transition configuration may require basic programming knowledge. Most transitions are preconfigured and do not include configuration options. In this case, the *Configuration* section is not displayed.
@@ -73,7 +73,6 @@ The transition settings side bar is located to the right of the workspace and al
     All unlinked input ports are listed in this section. Static inputs can be used to configure static values for certain inputs. They can be defined by the user clicking the ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) button. Only valid JSON values are accepted. When used, static inputs are displayed by a small arrow in front of the input ports in the workflow diagram. This section is only displayed, if the selected transition has at least one unlinked input port.
 
     > [Info] Not all input ports can be configured as static inputs. At least one input port must be linked to a place.
-
 
 When a transition is executed in a workflow process, it is called action or process action. This means that an action is the actual execution of a configured transition. As a result, one transition may be associated with multiple process actions.   
 For detailed information, see [Actions](#actions).
@@ -114,6 +113,7 @@ When clicking a place in the workflow process diagram, the *Tokens* tab is displ
 For detailed information, see [Check the token status and content](../Operation/02_TrackWorkflowProcess.md#check-the-token-status-and-content).
 
 
+
 ## Start and end place
 
 ![Start and end place](../../Assets/Screenshots/ActindoWorkFlow/Workflows/Workflow.png "[Start and end place]")
@@ -134,6 +134,7 @@ The start place settings side bar is located to the right of the workspace and a
 When clicking a start place in the workflow process diagram, the *Tokens* tab is displayed.   
 For detailed information, see [Check the token status and content](../Operation/02_TrackWorkflowProcess.md#check-the-token-status-and-content).
 
+
 ### End place
 
 ![End place](../../Assets/Screenshots/ActindoWorkFlow/Workflows/EndPlace.png "[End place]")
@@ -144,6 +145,7 @@ The end place settings side bar is located to the right of the workspace and all
 
 When clicking an end place in the workflow process diagram, the *Tokens* tab is displayed.   
 For detailed information, see [Check the token status and content](../Operation/02_TrackWorkflowProcess.md#check-the-token-status-and-content).
+
 
 
 ## Arcs

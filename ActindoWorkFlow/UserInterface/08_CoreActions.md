@@ -22,7 +22,6 @@ In the following, the core actions, their use and their settings are described i
 - [Waiting action](#waiting-action)
 
 
-
 ## Change process priority
 
 ![Change process priority](../../Assets/Screenshots/ActindoWorkFlow/Workflows/CoreActions/ChangeProcessPriority.png "[Change process priority]")
@@ -90,7 +89,6 @@ The criterion to be compared with is defined in the configuration.
 
     > [Info] The properties of an entity you can refer to are described in the relevant API documentation.
 
-
 - *Operator*   
     Enter the applicable operator for the comparison. The following operators are available:
     - **=**  
@@ -104,7 +102,6 @@ The criterion to be compared with is defined in the configuration.
     - **regexp**   
         It is a match if the input value equals the regular expression entered in the *Value* field.    
         For detailed information about regular expressions, see https://regex101.com/.
-
 
 - *Value*   
     Enter the value to be compared with the input value. The value must be valid JSON and is type strict, for example a string must be specified as a string (**\"example\"**), an integer as an integer (**123**), and so on.
@@ -196,7 +193,6 @@ The criterion to be compared with as well as the wait time settings are defined 
 
     > [Info] The properties of an entity you can refer to are described in the relevant API documentation.
 
-
 - *Operator*   
     Enter the applicable operator for the comparison. The following operators are available:
     - **=**  
@@ -210,7 +206,6 @@ The criterion to be compared with as well as the wait time settings are defined 
     - **regexp**   
         It is a match if the input value equals the regular expression entered in the *Value* field.    
         For detailed information about regular expressions, see https://regex101.com/.
-
 
 - *Value*   
     Enter the value to be compared with the input value. The value must be valid JSON and is type strict, for example a string must be specified as a string (**\"example\"**), an integer as an integer (**123**), and so on.

@@ -35,13 +35,11 @@ No prerequisites to fulfill.
     For one worker, 4 vCores are needed. Additionally, 10 % of the booked vCores, but at least 4 vCores are blocked for the daily business and cannot be used for workers. The number of vCores needed always refers to the total number of workers in all queue types. For example, for a queue type with 2 workers and a queue type of 4 workers, 28 vCores are needed:   
     *4 vCores per worker (4 \* 6 = 24) plus 4 vCores blocked for the daily business (24 + 4 = 28)*
 
-
 4. Click the *Execution priority* drop-down list and select the appropriate execution priority. The following options are available:
     - **Oldest executable action**   
         The oldest executable actions within all existing processes is executed first by the workers.
     - **Executable actions of oldest process**   
         The executable actions within the oldest process are executed first by the workers.
-
 
 5. Click the [SAVE] button in the upper right corner.   
     The *Create queue type* view is closed. The new queue type has been created and is displayed in the list of queue types. The *Queue type has been created* pop-up window is displayed.
@@ -126,7 +124,6 @@ At least one queue type has been created, see [Create a queue type](#create-a-qu
         - **Executable actions of oldest process**   
             The executable actions within the oldest process are executed first by the workers.
 
-
 3. Click the [SAVE] button in the upper right corner.   
     The changes have been saved. The *Edit queue type* view is closed. The *Queue type has been saved* pop-up window is displayed.  
 
@@ -162,7 +159,7 @@ Change the number of workers of a queue type to increase or decrease the executi
 
     ![Queue type saved](../../Assets/Screenshots/ActindoWorkFlow/QueueTypes/QueueTypeSaved.png "[Queue type saved]")
 
-3. Unfold the engine room panel, disable the *Disable workflow* toggle in the *Actindo Work Flow Engine* box and fold the engine room panel again.
+4. Unfold the engine room panel, disable the *Disable workflow* toggle in the *Actindo Work Flow Engine* box and fold the engine room panel again.
     The workflow processes will start automatically.
 
     ![Enable workflow](../../Assets/Screenshots/ActindoWorkFlow/QueueTypes/EnableWorkflow.png "[Enable workflow]")
@@ -238,7 +235,7 @@ You can delete a queue type that is obsolete to release workers for other queue 
 Sometimes it may be necessary to stop certain process actions. Therefore, you have to kill the workers to avoid that these actions are executed. You can either kill the workers of a single queue type or kill all workers regardless of their queue type.
 The killed workers will be restarted automatically if the *Disable workflow* toggle in the *Actindo Work Flow Engine* box of the engine room panel is disabled.
 
-> [Warning] Problems may occur when killing workers. Only kill the workers when you are qualified to restart the stopped process actions.  
+> [Caution] Problems may occur when killing workers. Only kill the workers when you are qualified to restart the stopped process actions.  
 
 
 ### Kill the workers of a single queue type

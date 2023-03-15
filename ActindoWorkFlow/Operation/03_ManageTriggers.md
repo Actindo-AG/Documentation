@@ -170,7 +170,6 @@ At least two triggers have been created in the workflow version, see [Create a t
 
 ![Triggers](../../Assets/Screenshots/ActindoWorkFlow/Workflows/EditTriggerMultipleTriggers.png "[Triggers]")
 
-
 1. Click and hold the ![Drag](../../Assets/Icons/Points03.png "[Drag]") (Drag) button to the left of the trigger you want to move to another position in the list.   
 
 2. By using drag and drop, move the selected trigger to the desired position in the list.

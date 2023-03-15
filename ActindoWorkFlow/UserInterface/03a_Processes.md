@@ -91,7 +91,6 @@ Depending on the process status, the editing toolbar displays the following butt
 - ![Start](../../Assets/Icons/Play.png "[Start]") (Start)  
     Click this button to resume the process. This button is displayed if the process status is *Suspended*. When clicking this button, process status changes again to *In progress*.
 
-
 - *Status*  
     Status of the process. The different process statuses are displayed in different colors. The following statuses are possible:
     - **Ready** (light gray)
@@ -101,7 +100,6 @@ Depending on the process status, the editing toolbar displays the following butt
     - **Dead** (black)
     - **Suspended** (dark gray)
     - **Aborted** (black)
-
 
 - *Suspended actions*  
     If the process contains suspended actions, a ![Warning](../../Assets/Icons/Warning.png "[Warning]")(Warning) sign is displayed. Click the process to display the individual actions, see [Actions](#actions).
@@ -156,7 +154,6 @@ Depending on the process status, the editing toolbar displays the following butt
 
 - *Workflow*  
     Name of the workflow.
-
 
 
 ### Actions
@@ -225,7 +222,6 @@ Depending on the process status, the editing toolbar displays the following butt
 - ![Filter](../../Assets/Icons/Filter.png "[Filter]") Filter (x)  
     Click this button to display the filter bar and customize the active filters. The *x* indicates the number of filters that are currently active.
 
-
 The list displays all executed actions that are matching the selected status. Depending on the settings, the displayed columns may vary. All fields are read-only.
 
 - [x]    
@@ -283,7 +279,6 @@ Depending of the process status, the editing toolbar may display different optio
 
 - *Transition ID*  
     Transition identification number. The ID number is automatically assigned by the system.
-
 
 
 ### Logs
@@ -398,7 +393,6 @@ The list displays all logs that are matching the selected log level. Depending o
     Name and user name of the user who initiated the process.
 
 
-
 ### Log ID
 
 *Workflows > Processes > Tab OVERVIEW > Select a process > Tab Logs > Select Log message*
@@ -409,7 +403,6 @@ The list displays all logs that are matching the selected log level. Depending o
     Click this button to close the *Log ID* view and return to the *Logs* tab in the *Process ID* view. All changes are rejected.
 
 For a detailed description of this window and the corresponding functions, see [Log ID](./06a_Logs.md#log-id).
-
 
 
 ### Tokens
@@ -490,7 +483,6 @@ The list displays all tokens if the *Hide processed* toggle is disabled. Dependi
 
 - *Process action ID*  
     Action identification number. The ID number is automatically assigned by the system.
-
 
 
 ### Create view

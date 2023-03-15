@@ -19,7 +19,6 @@ The process status can be checked to monitor how far a process has progressed, d
 
 The *OVERVIEW* tab in the *Processes* menu entry displays a list of all processes that are currently being executed or have been executed in the system. By default, all existing processes are displayed but can also be filtered according to different criteria.
 
-
 #### Prerequisites
 
 - A workflow has been created, see [Create a workflow](./01_ManageWorkflows.md#create-a-workflow).

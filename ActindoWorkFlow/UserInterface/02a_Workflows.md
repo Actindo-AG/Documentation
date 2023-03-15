@@ -55,7 +55,6 @@
 - ![Filter](../../Assets/Icons/Filter.png "[Filter]") Filter (x)  
     Click this button to display the filter bar and customize the active filters. The *x* indicates the number of filters that are currently active.
 
-
 The list displays all workflows. Depending on the settings, the displayed columns may vary. All fields are read-only.
 
 - *Name*  
@@ -168,7 +167,6 @@ The list displays all workflows. Depending on the settings, the displayed column
 - ![Filter](../../Assets/Icons/Filter.png "[Filter]") Filter (x)  
     Click this button to display the filter bar and customize the active filters. The x indicates the number of filters that are currently active.
 
-
 The list displays all workflow versions of the selected workflow. Depending on the settings, the displayed columns may vary. All fields are read-only.
 
 - *Version*  
@@ -216,7 +214,6 @@ The list displays all workflow versions of the selected workflow. Depending on t
     - *Deploy*  
         Click this entry to publish a new workflow version with the current state.
 
-
 - ![Undo](../../Assets/Icons/Undo02.png "[Undo]") (Undo)  
     Click this button to undo the last change made.
 
@@ -225,7 +222,6 @@ The list displays all workflow versions of the selected workflow. Depending on t
 
 - [NEW ACTION]  
     Click this button to add a transition. The *Search for an action* window is displayed, see [Search for an action](#search-for-an-action).
-
 
 The workflow diagram includes the following elements:  
 
@@ -396,6 +392,7 @@ The workflow diagram includes the following elements:
     Click this button to save all changes made to the trigger(s).
 
 
+
 ## Import JSON
 
 *Workflows > Workflows > Tab OVERVIEW > Select workflow > Select version > Button Points > Menu entry Import JSON*
@@ -424,6 +421,7 @@ The *Export JSON* window displays all workflow source code in JSON format. This 
 
 - [CLOSE]  
     Click this button to close the window.
+
 
 
 ## Search for an action
@@ -467,6 +465,7 @@ This window can also be accessed from the following tabs in the user interface:
 - [OVERVIEW (Processes)](./03a_Processes.md#create-view)
 - [OVERVIEW (Process actions)](./04a_ProcessActions.md#create-view)
 - [OVERVIEW (Logs)](./06a_Logs.md#create-view)
+
 
 
 ## Rename view
