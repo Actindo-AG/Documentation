@@ -1,14 +1,15 @@
 [!!Manage the queries](./01_ManageQueries.md)
 [!!Manage the query categories](./02_ManageQueryCategories.md)
 
+# Manage the user rights
 
-# Assign access rights to a user group
+The user rights for all modules and plugins installed in the Core1 are managed centrally in the *Settings* module. For detailed information on managing the user rights, see the *Settings* module documentation.
 
-[comment]: <> (Evtl. Filename ändern?)
+[comment]: <> (Link hinzufügen, wenn verfügbar)
 
-Assign user access rights to control access to specific data. Access rights can be individually granted or denied pro query and pro query category to a user group based on their user role. 
+## Assign access rights to a user group
 
-The following access rights can be individually assigned:
+Assign user access rights to control access to specific data. The following access rights must be individually granted to a user group based on their user role:
 
 - **Execute query via API**  
     The user can execute a managed query via API if this option has been enabled in the query.
@@ -21,11 +22,10 @@ The following access rights can be individually assigned:
 - **Interactive MySQL console**  
     The user can execute any query in MySQL interactive console. Bear in mind that this gives the user access, and even write access, to all available data. 
 
-[comment]: <> (Stimmt das so? Check mit Julian: InfluxDB, Interactive MySQL console.)
+    Additionally, access rights must be granted for the individual queries. By default, all access rights are denied to users with no administrator rights.
 
-The user rights for all modules and plugins installed in the Core1 are managed centrally in the *Settings* module. For detailed information on managing the user rights, see the *Settings* module documentation.
+    [comment]: <> (Stimmt das so? Check mit Julian: InfluxDB, Interactive MySQL console, Execute individual queries.)
 
-[comment]: <> (Link hinzufügen, wenn verfügbar)
 
 #### Prerequisites
 
@@ -42,14 +42,14 @@ The user rights for all modules and plugins installed in the Core1 are managed c
     The editing toolbar is displayed.
 
 2. Click the ![Edit](../../Assets/Icons/Edit01.png "[Edit]") (Edit) button in the editing toolbar.    
-    The *Edit group* view is displayed. By default, the *Users* tab is preselected.
+    The *Edit group "Group name"* view is displayed. By default, the *Users* tab is preselected.
 
     ![Edit group users](../../Assets/Screenshots/DatabaseAndReporting/EditGroupUsers.png "[Edit group users]")
 
 3. Click the *Rights* tab.  
     All modules and plugins installed are displayed.
 
-    > [Info] It may take some time for the system to upload all installed modules and plugins.
+    > [Info] It may take some time for the system to display all installed modules and plugins.
 
     ![Edit group rights](../../Assets/Screenshots/DatabaseAndReporting/EditGroupRights.png "[Edit group rights]")
 
@@ -60,13 +60,13 @@ The user rights for all modules and plugins installed in the Core1 are managed c
 
     ![Rights DB and reporting](../../Assets/Screenshots/DatabaseAndReporting/EditGroupRightsDatabaseAndReporting.png "[Rights DB and reporting]")
 
-6. Locate the functions you wish to grant access to.
+6. Locate the functions you want to grant access to.
 
 7. Click the rightwards arrow to the left of the corresponding folder (function) to display all contained sub-folders (access permission types).  
     All contained sub-folders (access permission types) are displayed.
 
-    ![Acess permission types](../../Assets/Screenshots/DatabaseAndReporting/AccessPermissionTypes.png "[Access permission types]")
+    ![Access permission types](../../Assets/Screenshots/DatabaseAndReporting/AccessPermissionTypes.png "[Access permission types]")
 
-8. Select the checkbox of the applicable folder(s).  
+8. Select the checkbox of the applicable folder(s) and/or sub-folders.  
     The user group, and all users included in it, have been granted access rights to the selected functions.
 
