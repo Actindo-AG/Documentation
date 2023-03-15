@@ -8,7 +8,7 @@ Query categories serve the logical organization of the managed queries. The mana
 
 [comment]: <> (with a maximum depth of X levels...Julian: Wie viele Ebenen sinnvoll? Vgl. ACD-315/PIM/Integration/03_ManageAttributeGroups.md) 
 
-Query categories can be created, edited, and deleted as necessary, and assigned to the individual queries, see [Create a query](./01_ManageQueries.md#create-a-query). As in the case of the managed queries, access can also be restricted depending on the user role, see [Manage the user rights](./05_ManageUserRights.md).
+Query categories can be created, edited, deleted, and divided in sub-categories. All individual managed queries can, in turn, be assigned to a category and/or a sub-category, see [Create a query](./01_ManageQueries.md#create-a-query). As in the case of the managed queries, access can also be restricted depending on the user role, see [Manage the user rights](./05_ManageUserRights.md).
 
 [comment]: <> (Procedure Assign a query category? Spezifischer Unterkapitel in User rights?)
 
@@ -54,12 +54,13 @@ No prerequisites to fulfill.
 
     ![Submitting data](../../Assets/Screenshots/DatabaseAndReporting/Settings/QueryCategories/SubmittingData.png "[Submitting data]")
 
-    The new query category has been saved.
+    The new query category has been saved to the query categories tree, which is displayed in the *Queries* view.
 
-
+    > [Info] It may be necessary to press the **F5** key to initialize the *Core1 Platform* for the changes to be displayed in the *Queries* view. 
+    
 ## Edit a query category
 
-After you have created a query category, you can edit it. You can add sub-categories to it, edit the query category details, change the order of query categories, and delete categories.
+After you have created a query category, you can edit it. You can create sub-categories, edit the query category details, change the order of query categories, and delete categories.
 
 ### Create a query sub-category
 
@@ -77,7 +78,7 @@ At least one query category has been created, see [Create a query category](#cre
     ![Query categories](../../Assets/Screenshots/DatabaseAndReporting/Settings/QueryCategories/QueryCategoryCreated.png "[Query categories]")
 
 2. Click the ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) button in the bottom right corner.   
-    Plus signs are displayed in the query category and the query sub-category column. 
+    Plus signs are displayed in the query category and the query sub-category columns. 
 
     ![Query categories](../../Assets/Screenshots/DatabaseAndReporting/Settings/QueryCategories/AddQuerySubcategory.png "[Query categories]")
 
@@ -89,6 +90,8 @@ At least one query category has been created, see [Create a query category](#cre
 4. Enter a name for the query sub-category in the *Name* field.
 
 5. Enter a key for the query sub-category in the *Key* field. The number of characters is limited to 190.
+
+[comment]: <> (Stimmt das? Aus https://github.com/Actindo-AG/Documentation/blob/main/PIM/Integration/03_ManageAttributeGroups.md genommen)
 
 6. Click the [SAVE] button.   
     The query sub-category has been created. The *Add element* window is closed. The new query sub-category is displayed in the query sub-category column.
@@ -102,7 +105,9 @@ At least one query category has been created, see [Create a query category](#cre
 
     ![Submitting data](../../Assets/Screenshots/DatabaseAndReporting/Settings/QueryCategories/SubmittingData.png "[Submitting data]")
 
-    The new query category has been saved.
+    The new query sub-category has been saved to the query categories tree, which is displayed in the *Queries* view.
+
+    > [Info] It may be necessary to press the **F5** key to initialize the *Core1 Platform* for the changes to be displayed in the *Queries* view. 
 
 
 ### Edit the query category details
@@ -124,7 +129,7 @@ At least one query category has been created, see [Create a query category](#cre
 ![Query categories](../../Assets/Screenshots/DatabaseAndReporting/Settings/QueryCategories/QueryCategory.png "[Query categories]")
 
 1. Click the ![Edit](../../Assets/Icons/Edit03.png "[Edit]") (Edit) button to the right of the query category name.   
-    The *Edit element* view is displayed. 
+    The *Edit element* window is displayed. 
 
     ![Query categories](../../Assets/Screenshots/DatabaseAndReporting/Settings/QueryCategories/EditElement.png "[Query categories]")
 
@@ -140,7 +145,7 @@ At least one query category has been created, see [Create a query category](#cre
 
     ![Submitting data](../../Assets/Screenshots/DatabaseAndReporting/Settings/QueryCategories/SubmittingData.png "[Submitting data]")
 
-    The changes have been saved to the query categories tree. The modified query categories tree is then displayed in the *Queries* view.
+    The changes have been saved to the query categories tree, which is displayed in the *Queries* view.
 
     > [Info] It may be necessary to press the **F5** key to initialize the *Core1 Platform* for the changes to be displayed in the *Queries* view. 
 
@@ -173,7 +178,7 @@ At least two query categories have been created, see [Create a query category](#
 
     ![Submitting data](../../Assets/Screenshots/DatabaseAndReporting/Settings/QueryCategories/SubmittingData.png "[Submitting data]")
 
-    The changes have been saved to the query categories tree. The modified query categories tree is then displayed in the *Queries* view.
+     The changes have been saved to the query categories tree, which is displayed in the *Queries* view.
 
     > [Info] It may be necessary to press the **F5** key to initialize the *Core1 Platform* for the changes to be displayed in the *Queries* view. 
 
@@ -196,11 +201,11 @@ At least one query category has been created, see [Create a query category](#cre
 
 
 1. Click the ![Edit](../../Assets/Icons/Edit03.png "[Edit]") (Edit) button to the right of the query category name.   
-    The *Edit element* view is displayed. 
+    The *Edit element* window is displayed. 
 
     ![Query categories](../../Assets/Screenshots/DatabaseAndReporting/Settings/QueryCategories/EditElement.png "[Query categories]")
 
-2. Click the ![Delete](../../Assets/Icons/Trash01.png "[Delete]") (Delete) button in the upper left corner of the *Edit element* window.   
+2. Click the ![Delete](../../Assets/Icons/Trash01.png "[Delete]") (Delete) button in the bottom left corner of the *Edit element* window.   
     The deleted query category is removed from the query category column.
 
 3. Click the [SAVE] button in the upper right corner. 
@@ -208,11 +213,6 @@ At least one query category has been created, see [Create a query category](#cre
 
     ![Submitting data](../../Assets/Screenshots/DatabaseAndReporting/Settings/QueryCategories/SubmittingData.png "[Submitting data]")
 
-    The changes have been saved to the query categories tree. The modified query categories tree is then displayed in the *Queries* view.
+    The changes have been saved to the query categories tree, which is displayed in the *Queries* view.
 
     > [Info] It may be necessary to press the **F5** key to initialize the *Core1 Platform* for the changes to be displayed in the *Queries* view. 
-
-[comment]: <> (Beim Klicken SAVE nach Delete, hängt das System  in Submitting data Fenster)
-
-
-[comment]: <> (Evtl. hinzufügen? Info: The changes must be saved again to the query categories tree by clicking the [SAVE] button in the upper right corner. Otherwise, the changes will be lost.)
