@@ -5,7 +5,7 @@
 
 Establish a connection to InfluxDB to be able to write data from your MySQL database to an InfluxDB database, and subsequently create InfluxDB time series.
 
-[comment]: <> (Ist es das gleiche, write data from MySQL DB to InfluDB und create an InfluxDB time series?)
+[comment]: <> (Ist es das Gleiche, write data from MySQL DB to InfluxDB und create an InfluxDB time series?)
 
 The InfluxDB driver is available in two different versions. Depending on the driver version, the credentials differ. All necessary credentials to establish the connection are provided by InfluxDB. For detailed information, see [InfluxDB](https://docs.influxdata.com/influxdb/v2.6/).
 
@@ -48,14 +48,14 @@ Add a new connection to InfluxDB using one of the available InfluxDB drivers.
 
 3. Click the *Driver* drop-down list and select the desired driver. The following options are available:
 
-    - InfluxDB driver V1  
-    - InfluxDB driver V2  
+    - **InfluxDB driver V1**  
+    - **InfluxDB driver V2**  
 
     > [Info] Drivers must be downloaded and installed separately in each sandbox or account where you want to use them.    
 
     Depending on the selected driver, the fields in the *Credentials* section differ. All necessary credentials are provided by InfluxDB.
    
-    ![InfluxDB Driver V1](../../Assets/Screenshots/DatabaseAndReporting/Settings/Connections/CreateConnectionInfluxDBDriverV1und2.png "[InfluxDB Driver V1]")
+    ![InfluxDB Drivers](../../Assets/Screenshots/DatabaseAndReporting/Settings/Connections/CreateConnectionInfluxDBDriverV1und2.png "[InfluxDB Drivers]")
 
 4. For the next steps to create a connection, follow the appropriate procedure:
 
@@ -138,8 +138,8 @@ At least one connection has been established, see [Create a connection](#create-
     
     ![Edit connection](../../Assets/Screenshots/DatabaseAndReporting/Settings/Connections/EditConnection.png "[Edit connection]")
 
-2.  Edit the desired data of the connection in the corresponding fields in the *Credentials* fields.   
-    > [Info] Bear in mind that the *Credentials* fields differ depending on the driver version.
+2.  Edit the desired data of the connection in the corresponding fields in the *Credentials* section.   
+    > [Info] Bear in mind that the fields in the *Credentials* section differ depending on the driver version.
 
 3. Click the [SAVE] button.  
     The *Checking credentials* notice is displayed.
@@ -150,9 +150,9 @@ At least one connection has been established, see [Create a connection](#create-
 
 
 
-[comment]: <> (Delete a connection)
+[comment]: <> (Delete a connection möglich/geplant?)
 
-[comment]: <> (Sinnvoll? Geplannt? Andere Möglichkeiten, z.B. Enable/disable/sync?)
+[comment]: <> (Andere Möglichkeiten geplant, z.B. Enable/disable/sync?)
 
 
 
