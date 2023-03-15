@@ -1,7 +1,6 @@
 [!!Manage a variant set](../Integration/07_ManageVariantSets.md)
 [!!Data type list](../../DataHub/UserInterface/04_DataTypeList.md)
 
-
 # Variant Sets
 
 *PIM > Settings > Tab VARIANT SETS*
@@ -31,7 +30,7 @@
 - [DELETE]     
     Click this button to delete the selected variant sets. This button is only displayed if the checkbox of at least one variant set is selected.
 
-[comment]: <> (Mostly not possible to delete a variant set -> no integration procedure to delete a variant set -> why is the button still existing? Not working... )
+[comment]: <> (deletion only possible if no changeable attribute is assigned to the variant set -> is that right or a Bug?)
 
 The list displays all variant sets. All fields are read-only. Depending on the settings, the displayed columns may vary.
 
@@ -69,6 +68,7 @@ The list displays all variant sets. All fields are read-only. Depending on the s
     Click this button to create a variant set. The *Create variant set* window is displayed.   
 
 
+
 ## Create variant set
 
 *PIM > Settings > Tab VARIANT SETS > Button Add*
@@ -102,7 +102,6 @@ This section is only displayed if an attribute set is selected.
     - **{L}**: consecutive number   
     - In addition to these default placeholders, you can include the value of the defining attributes of the variant set into the SKU formula. The corresponding placeholders are displayed in the *Possible placeholders* section when you have added a defining attribute.
 
-
 **Defining attributes**
 
 - ![Search](../../Assets/Icons/Search.png "[Search]") (Search)   
@@ -140,7 +139,6 @@ The list displays all defining attributes to the variant set. All fields are rea
 - ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add)   
     Click this button to add a defining attribute to the variant set. The *Add defining attributes* view is displayed, see [Add defining attributes](#add-defining-attributes).
 
-
 **Changeable attributes**
 
 - ![Search](../../Assets/Icons/Search.png "[Search]") (Search)   
@@ -177,6 +175,7 @@ The list displays all changeable attributes to the variant set. All fields are r
 
 - ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add)   
     Click this button to add a defining attribute to the variant set. The *Add changeable attributes* view is displayed, see [Add changeable attributes](#add-changeable-attributes).
+
 
 
 ## Edit variant set
@@ -210,7 +209,6 @@ The list displays all changeable attributes to the variant set. All fields are r
     - {L}: consecutive number   
     - In addition to these default placeholders, you can include the value of the defining attributes of the variant set into the SKU formula. The corresponding placeholders are displayed in the *Possible placeholders* section when you have added a defining attribute.
 
-
 **Defining attributes**
 
 - ![Search](../../Assets/Icons/Search.png "[Search]") (Search)   
@@ -248,7 +246,6 @@ The list displays all defining attributes to the variant set. All fields are rea
 - ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add)   
     Click this button to add a defining attribute to the variant set. The *Add defining attributes* view is displayed, see [Add defining attributes](#add-defining-attributes).
 
-
 **Changeable attributes**
 
 - ![Search](../../Assets/Icons/Search.png "[Search]") (Search)   
@@ -285,7 +282,6 @@ The list displays all changeable attributes to the variant set. All fields are r
 
 - ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add)   
     Click this button to add a defining attribute to the variant set. The *Add changeable attributes* view is displayed, see [Add changeable attributes](#add-changeable-attributes).
-
 
 
 ### Add defining attributes

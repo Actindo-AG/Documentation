@@ -1,8 +1,6 @@
-[!!Edit an attribute](../Integration/01_ManageAttributes.md#edit-an-attribute)
-[!!Delete an attribute](../Integration/01_ManageAttributes.md#delete-an-attribute)
-[!!Add an attribute to the set](../Integration/02_ManageAttributeSets.md#add-an-attribute-to-the-set)
+[!!Manage an attribute](../Integration/01_ManageAttributes.md)
+[!!Manage an attribute set](../Integration/02_ManageAttributeSets.md)
 [!!Data type list](../../DataHub/UserInterface/04_DataTypeList.md)
-
 
 # Attributes
 
@@ -95,6 +93,7 @@ The list displays all attributes. Depending on the settings, the displayed colum
     Click this button to create an attribute. The *Create attribute* view is displayed.   
 
 
+
 ## Create attribute
 
 *PIM > Settings > Tab ATTRIBUTES > Button Add*
@@ -149,11 +148,12 @@ The list displays all attributes. Depending on the settings, the displayed colum
 
     > [Info] If you do not assign the attribute to an attribute set at this point, you will have to do it afterwards in the corresponding attribute set(s).
 
-
 **CONFIGURATION**
 
 The *CONFIGURATION* section displays the additional configuration for the selected data type. The configuration fields differ depending on the selected data type.
 As some data types have no further configuration settings, no *CONFIGURATION* section is displayed for these data types.    
+
+
 
 ## Edit attribute
 
@@ -173,6 +173,11 @@ As some data types have no further configuration settings, no *CONFIGURATION* se
 
 - [SAVE]   
     Click this button to save the attribute. The *Edit attribute* view is closed.
+
+The *Edit attribute* view is composed of the following tabs:
+
+- [Edit attribute &ndash; Data](#edit-attribute-–-data)
+- [Edit attribute &ndash; Attribute set assignments](#edit-attribute-–-attribute-set-assignments)
 
 
 ### Edit attribute &ndash; Data

@@ -2,7 +2,6 @@
 [!!Data type list](../../Datahub/UserInterface/04_DataTypeList.md)
 [!!Manage a variant set](../Integration/07_ManageVariantSets.md)
 
-
 # Add a missing defining attribute
 
 At least one defining attribute is required to create a variant set. When adding defining attributes to a variant set, a list of all available defining attributes is displayed.  

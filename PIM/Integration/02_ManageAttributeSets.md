@@ -2,7 +2,6 @@
 [!!Manage the attributes](./01_ManageAttributes.md)
 [!!Manage the products](../Operation/01_ManageProducts.md)
 
-
 # Manage an attribute set
 
 An attribute set consists of multiple attributes to classify certain products according to demand or production contexts. By default, the *PIM Basic Set* attribute set is predefined.
@@ -13,7 +12,6 @@ You can create attribute sets, edit existing attribute sets and deactivate attri
 ## Create an attribute set
 
 Create an attribute set to define a new attribute set with different attributes to the *PIM Basic Set*.
-
 
 ### Define the attribute set basic data
 
@@ -36,7 +34,6 @@ Additional attributes for the attribute set have been created, see [Create an at
 
 2. Enter a name for the attribute set in the *Name* field and, if desired, add an attribute set description in the *Description* field.
 
-
 3. Enter a key for the attribute set in the *Key* field. The key is required for API access and must be system wide unique. An attribute set key must fulfill the following criteria:
     - valid characters are **a-z** (upper and lower case), **0-9** and the underscore ( **_** )
     - the key must not start with a number
@@ -44,13 +41,11 @@ Additional attributes for the attribute set have been created, see [Create an at
 
     > [Info] In order to facilitate the assignment of sets in the further process, it is recommended to add the prefix **pimset_** to all attribute sets created in the *PIM* module.
 
-
 4. For the next steps to create an attribute set, follow the appropriate procedure:   
     - [Create an attribute set without attribute inheritance](#create-an-attribute-set-without-attribute-inheritance)
     - [Create an attribute set with attribute inheritance](#create-an-attribute-set-with-attribute-inheritance)
     - [Create an attribute set with attribute copying](#create-an-attribute-set-with-attribute-copying)
    	
-
 
 ### Create an attribute set without attribute inheritance
 
@@ -77,7 +72,6 @@ The basic data of the attribute set has been completed, see [Define the attribut
     ![Attribute set created](../../Assets/Screenshots/PIM/Settings/AttributeSets/AttributeSetCreated.png "[Attribute set created]")
 
 3. Click the ![Back](../../Assets/Icons/Back02.png "[Back]") (Back) button in the upper left corner to return to the list of attribute sets or proceed to edit the attribute set, see [Edit an attribute set](#edit-an-attribute-set).
-
 
 
 ### Create an attribute set with attribute inheritance
@@ -109,7 +103,6 @@ The basic data of the attribute set has been completed, see [Define the attribut
     ![Attribute set created](../../Assets/Screenshots/PIM/Settings/AttributeSets/AttributeSetCreated.png "[Attribute set created]")  
 
 5. Click the ![Back](../../Assets/Icons/Back02.png "[Back]") (Back) button in the upper left corner to return to the list of attribute sets or proceed to [edit the attribute set](#edit-an-attribute-set).
-
 
 
 ### Create an attribute set with attribute copying
@@ -149,7 +142,6 @@ After you have created an attribute set, you can edit it.
 Depending on the selected inheritance type, only a certain number of attributes may be editable.
 However, you can add further attributes to an attribute set or remove unmapped attributes from an attribute set.
 
-
 ### Add an attribute to the set
 
 Add a new attribute to an attribute set to define any further specifications.
@@ -188,7 +180,6 @@ Add a new attribute to an attribute set to define any further specifications.
     > [Info] Any changes to the assigned attributes are automatically saved in the attribute set.
 
 
-
 ### Remove an attribute from the set
 
 Remove an attribute from an attribute set to limit the specifications. Inherited attributes or mapped attributes cannot be removed from an attributes set.
@@ -221,7 +212,6 @@ Remove an attribute from an attribute set to limit the specifications. Inherited
     The selected attributes have been removed from the attribute set. The list of attributes is updated.
 
 > [Info] Any changes to the assigned attributes are automatically saved in the attribute set.
-
 
 
 ### Change the required attributes in the set

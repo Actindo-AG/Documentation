@@ -1,9 +1,8 @@
 [!!Manage an attribute set](../Integration/02_ManageAttributeSets.md)
-[!!ETL settings](../../DataHub/UserInterface/02d_ETL.md#settings)
-[!!Manage the ETL attribute mappings](../../DataHub/Operation/01_ManageETLMappings.md)
+[!!User interface DataHub ETL](../../DataHub/UserInterface/02d_ETL.md)
+[!!Manage the ETL attribute mappings in DataHub](../../DataHub/Operation/01_ManageETLMappings.md)
 [!!ETL extensions list](../../DataHub/UserInterface/03_ETLExtensions.md)
 [!!Data type list](../../DataHub/UserInterface/04_DataTypeList.md)
-
 
 # Attribute Sets
 
@@ -33,7 +32,6 @@
 
 - [DELETE]
     Click this button to delete the selected attribute set. This button is only displayed if the checkbox of at least one attribute set is selected. An attribute set cannot be deleted if any attribute is assigned to it.       
-
 
 The list displays all attribute sets. Depending on the settings, the displayed columns may vary. All fields are read-only.
 
@@ -82,6 +80,7 @@ The list displays all attribute sets. Depending on the settings, the displayed c
 
 - ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add)   
     Click this button to create a attribute set. The *Create attribute set* view is displayed.   
+
 
 
 ## Create attribute set
@@ -135,7 +134,6 @@ The list displays all attribute sets. Depending on the settings, the displayed c
     - **Inherit**   
         The attribute values are applied from the selected attribute set and updated each time if the selected set changes.
 
-
 **Assigned attributes**
 
 - ![Settings](../../Assets/Icons/Settings01.png "[Settings]") (Settings)   
@@ -154,6 +152,7 @@ The list displays all attribute sets. Depending on the settings, the displayed c
     Select the checkbox to display the editing toolbar. If you click the checkbox in the header, all attributes in the list are selected.
 
 In the *Create attribute set* view, no attributes are displayed in the list. You must save the attribute set before you can assign attributes to it.   
+
 
 
 ## Edit attribute set
@@ -206,7 +205,6 @@ In the *Create attribute set* view, no attributes are displayed in the list. You
 
 > [Info] The inheritance settings may be read-only for attribute sets predefined by the system, for example for the *PIM Basic Set*.
 
-
 **Assigned attributes**
 
 - ![Settings](../../Assets/Icons/Settings01.png "[Settings]") (Settings)   
@@ -228,9 +226,9 @@ In the *Create attribute set* view, no attributes are displayed in the list. You
     Select the checkbox to display the editing toolbar. If you click the checkbox in the header, all attributes in the list are selected.
 
 - ![Edit](../../Assets/Icons/Edit01.png "[Edit]") (Edit)   
-    Click this button to edit the configuration of the selected attribute. This button is only displayed if a single checkbox in the list of attributes is selected and if the selected attribute has an editable configuration. The *Edit attribute for set "Attribute set name"* view is displayed. Alternatively, you can click directly a row in the list to edit an attribute configuration.
+    Click this button to edit the configuration of the selected attribute. This button is only displayed if a single checkbox in the list of attributes is selected and if the selected attribute has an editable configuration. The *Edit attribute for set "Attribute set name"* view is displayed, see [Edit attribute for set "Attribute set name"](#edit-attribute-for-set-attribute-set-name). Alternatively, you can click directly a row in the list to edit an attribute configuration.
 
-[comment]: <> (Not working -> Bugticket)
+[comment]: <> (Not working -> BUG-155)
 
 - ![Delete](../../Assets/Icons/Trash03.png "[Delete]") (Delete)   
     Click this button to remove the selected attribute from the attribute set. This button is only displayed if at least one checkbox of an attribute is selected.       
@@ -239,7 +237,6 @@ In the *Create attribute set* view, no attributes are displayed in the list. You
 
 - [ADD MAPPING]   
     Click this button to add a mapping to the selected attribute. The *Add mapping* view is displayed. You can only add a mapping for attribute sets that are not inherited from another attribute set. This button is only displayed if a single checkbox in the list of attributes is selected.
-
 
 The list displays all attributes assigned to the selected attribute set. Depending on the settings, the displayed columns may vary.
 If the ![Settings](../../Assets/Icons/Settings01.png "[Settings]") (Settings) button is gray, all fields are read-only. If the ![Settings](../../Assets/Icons/Settings02.png "[Settings]") (Settings) button is blue, the field *Required* is editable.
@@ -297,10 +294,9 @@ If the ![Settings](../../Assets/Icons/Settings01.png "[Settings]") (Settings) bu
     - ![Cross](../../Assets/Icons/Cross02.png "[Cross]") (Cross): The attribute is single channel.
 
 
-
 ### Edit attribute for set "Attribute set name"
 
-[comment]: <> (to be checked! currently not working)
+[comment]: <> (Bug; currently not working -> BUG-155)
 
 *PIM > Settings > Tab ATTRIBUTE SETS > Select attribute set > Select attribute with configuration*
 
@@ -320,7 +316,6 @@ If the ![Settings](../../Assets/Icons/Settings01.png "[Settings]") (Settings) bu
 **CONFIGURATION**
 
 The *CONFIGURATION* section displays the additional configuration for the data type of the selected attribute. The configuration fields differ depending on the data type of the attribute.    
-
 
 ### Add mapping
 

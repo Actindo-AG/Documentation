@@ -1,10 +1,8 @@
-[!!Create a category](../Integration/06_ManageCatalogs.md#create-a-category)
-[!!Create a sub-category](../Integration/06_ManageCatalogs.md#create-a-sub-category).
-
+[!!Manage a catalog](../Integration/06_ManageCatalogs.md)
 
 # Catalogs
 
-[comment]: <> (UI will be changed)
+[comment]: <> (UI buggy -> will be changed)
 
 *PIM > Settings > Tab CATALOGS*
 
@@ -18,6 +16,7 @@
 - ![Points](../../Assets/Icons/Points01.png "[Points]") (Points)  
     Click this button to display the context menu and either create a catalog or edit the selected catalog.
 
+
 ## Context menu
 
 *PIM > Settings > Tab CATALOGS > Button Points*
@@ -29,6 +28,7 @@
 
 - ![Edit](../../Assets/Icons/Edit02.png "[Edit]") Edit   
     Click this menu entry to edit the selected catalog. The *Edit catalog* view is displayed.
+
 
 
 ## Create new catalog
@@ -54,6 +54,8 @@
 
     > [Info] If you add a category, a second column is displayed. When you click the button ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) again, you can also create a sub-category in the second column. Each time, you add a new sub-category, the next column is displayed. You can add an unlimited number of sub-categories in an unlimited number of levels.
 
+[comment]: <> (number of levels depends on screen size -> should it not be limited to a certain number of level? -> FETA-20)
+
 The following buttons and fields are only displayed when you have added a category.
 
 - ![Sort](../../Assets/Icons/Sort01.png "[Sort]") (Sort)   
@@ -70,6 +72,7 @@ The following buttons and fields are only displayed when you have added a catego
 
 - x level category   
     Sub-category to the selected category. Click the category to display the next lower level column and all assigned sub-categories. Hover over the category to display the ![Edit](../../Assets/Icons/Edit03.png "[Edit]") (Edit) button.
+
 
 
 ## Edit catalog
@@ -107,6 +110,7 @@ The following buttons and fields are only displayed when you have added a catego
 
 - ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add)   
     Click this button to add a category to the catalog. A plus sign is displayed in each column. Click the plus sign to add a category or sub-category. The *Add element* window is displayed.   
+
 
 
 ## Add element
