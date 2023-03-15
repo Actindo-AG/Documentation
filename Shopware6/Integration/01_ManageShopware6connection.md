@@ -1,5 +1,6 @@
 [!!Manage the connections](../../Channels/Integration/01_ManageConnections.md)
 [!!Manage the languages in DataHub](../../DataHub/Integration/05_ManageLanguages.md)
+[!!User interface Connections](../UserInterface/01_Connections.md)
 
 # Manage the Shopware 6 connection
 
