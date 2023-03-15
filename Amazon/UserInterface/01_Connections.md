@@ -1,4 +1,4 @@
-[!!Manage the Amazon connection](../Integration/01_ManageAmazonconnection.md)
+[!!Manage the Amazon connection](../Integration/01_ManageAmazonConnection.md)
 
 [comment]: <> (adjust UI to Amazon connection)
 

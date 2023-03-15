@@ -1,4 +1,5 @@
 [!!Manage the connections](../../Channels/Integration/01_ManageConnections.md)
+[!!User interface connections](../UserInterface/01_Connections.md)
 
 # Manage the Amazon connection
 
@@ -184,4 +185,4 @@ All checkboxes are unlocked.
 
     ![Saving successful](../../Assets/Screenshots/Channels/Settings/Connections/SavingSuccessful.png "[Saving successful]")   
 
-> [Info] If the shipping provider mapping has been modified, you must synchronize the connection to apply all changes to the mapping, see [Synchronize a connection](../Integration/01_ManageConnections.md#synchronize-a-connection). 
+> [Info] If the shipping provider mapping has been modified, you must synchronize the connection to apply all changes to the mapping, see [Synchronize a connection](../../Channels/Integration/01_ManageConnections.md#synchronize-a-connection). 
