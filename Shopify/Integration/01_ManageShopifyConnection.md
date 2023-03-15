@@ -1,6 +1,7 @@
 [!!Manage the connections](../../Channels/Integration/01_ManageConnections.md)
 [!!Manage the attributes in PIM](../../PIM/Integration/01_ManageAttributes.md)
 [!!Manage the ETL mappings in DataHub](../../DataHub/Operation/01_ManageETLMappings.md)
+[!!User interface Connections](../UserInterface/01_Connections.md)
 
 # Manage the Shopify connection
 
@@ -119,6 +120,7 @@ A Shopify connection has been established, see [Create a Shopify connection](#cr
     ![Saving successful](../../Assets/Screenshots/Channels/Settings/Connections/SavingSuccessful.png "[Saving successful]")
 
 
+
 ## Configure the Shopify ETL mapping
 
 In Shopify, there are especially three attributes that are important for the correct upload of products in the Shopify shop, namely *Allow oversells*, *Taxes*, and *Dispatch required*.   
@@ -169,7 +171,6 @@ By default, the corresponding attribute mapping is already configured as describ
     > [Info] Be aware that you have to rerun the mapping to apply the changes made to the attribute, see [Rerun an ETL mapping](../../DataHub/Operation/01_ManageETLMappings.md#rerun-an-etl-mapping).
 
 
-
 ### Configure the taxes
 
 The *Taxes* attribute is an important attributes regarding the Shopify connection. This attribute ensures that taxes are applied to the products.    
@@ -207,7 +208,6 @@ By default, the corresponding attribute mapping is already configured as describ
     The changes have been saved. The *Settings* section is hidden. The assigned mapping is displayed in the list of attribute mappings on the left side.
 
     > [Info] Be aware that you have to rerun the mapping to apply the changes made to the attribute, see [Rerun an ETL mapping](../../DataHub/Operation/01_ManageETLMappings.md#rerun-an-etl-mapping).
-
 
 
 ### Configure the requirement for dispatch
