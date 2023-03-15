@@ -1,5 +1,6 @@
 [!!Manage the connections](../../Channels/Integration/01_ManageConnections.md)
 [!!Manage the attributes in PIM](../../PIM/Integration/01_ManageAttributes.md)
+[!!Manage the attributes in DataHub](../../DataHub/Integration/01_ManageAttributes.md)
 [!!Manage the ETL mappings in DataHub](../../DataHub/Operation/01_ManageETLMappings.md)
 [!!User interface Connections](../UserInterface/01_Connections.md)
 
@@ -92,7 +93,7 @@ A Shopify connection has been established, see [Create a Shopify connection](#cr
 
 3. If necessary, enable the *Enable OrderName as ID in Shop* toggle. If enabled, all new imported to use the order number including the prefix and suffix as ID in the Shopify shop. If disabled, only the order ID is displayed as ID in the Shopify shop.
 
-    > [Info] The order ID is displayed in the *Remote ID* column of the *Orders* view and in the header of the *Order from connection "Connection name"* view, see [User interface Orders](../UserInterface/05a_Orders.md). The prefix and the suffix are defined in your Shopify shop.
+    > [Info] The order ID is displayed in the *Remote ID* column of the *Orders* view and in the header of the *Order from connection "Connection name"* view of the Omni-Channel module, see [User interface Orders](../../Channels/UserInterface/05a_Orders.md). The prefix and the suffix are defined in your Shopify shop.
 
 4. Click the *Default Tax Class for Order import* menu entry in the left side bar.   
     The *Default Tax Class for Order import* view is displayed on the right side.
@@ -257,7 +258,7 @@ When creating variants to a master product, you must at least add one defining a
 #### Prerequisites
 
 - A Shopify connection has been established, see [Create a Shopify connection](#create-a-Shopify-connection).
-- At least one variant set has been created, see [Create a variant set](./02_ManageVariantSets.md#create-a-variant-set).
+- At least one variant set has been created in the Omni-Channel module, see [Create a variant set](../../Channels/Integration/02_ManageVariantSets.md#create-a-variant-set).
 
 #### Procedure
 
