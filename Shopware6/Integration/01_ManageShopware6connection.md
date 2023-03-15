@@ -145,7 +145,7 @@ A Shopware 6 connection has been established, see [Create a Shopware 6 connectio
     - *transactionId*   
     - *descriptor*    
 
-    > [Info] After the initial activation of the *Ratepay* integration, you must synchronize the connection so that the new order attributes are created for the corresponding connection, see [Synchronize a connection](./01_ManageConnections.md#synchronize-a-connection).
+    > [Info] After the initial activation of the *Ratepay* integration, you must synchronize the connection so that the new order attributes are created for the corresponding connection, see [Synchronize a connection](../../Channels/Integration/01_ManageConnections.md#synchronize-a-connection).
     
 10. If available, click the *Klarna* menu entry in the left side bar.  
     The Klarna settings are displayed on the right side.
@@ -170,7 +170,7 @@ A Shopware 6 connection has been established, see [Create a Shopware 6 connectio
     - *refunded_amount*
     - *remaining_amount*  
 
-    > [Info] After the initial activation of the *Klarna* integration, you must synchronize the connection so that the new order attributes are created for the corresponding connection, see [Synchronize a connection](./01_ManageConnections.md#synchronize-a-connection).
+    > [Info] After the initial activation of the *Klarna* integration, you must synchronize the connection so that the new order attributes are created for the corresponding connection, see [Synchronize a connection](../../Channels/Integration/01_ManageConnections.md#synchronize-a-connection).
 
 12. Click the *Price rules* menu entry in the left side bar.  
     The price rule settings are displayed on the right side.
@@ -180,7 +180,7 @@ A Shopware 6 connection has been established, see [Create a Shopware 6 connectio
 13. Enable the toggles for all price rules for which you want to create a price attribute in the *Actindo Core1 Platform* to maintain deviating prices. All price rules available in Shopware 6 are displayed.   
 If a certain price rule is not available, make sure that the *Price* option in the *Type* drop-down list of the corresponding rule in the Shopware 6 backend is selected. After you have changed the type of a price rule, you must synchronize the connection before you can continue to edit this setting.
 
-    > [Info] You must synchronize the connection to create the corresponding price attribute(s), see [Synchronize a connection](./01_ManageConnections.md#synchronize-a-connection). Once a price attribute has been created, the corresponding toggle is locked and cannot be disabled anymore.
+    > [Info] You must synchronize the connection to create the corresponding price attribute(s), see [Synchronize a connection](../../Channels/Integration/01_ManageConnections.md#synchronize-a-connection). Once a price attribute has been created, the corresponding toggle is locked and cannot be disabled anymore.
 
 14. Click the [SAVE] button.  
     All changes have been saved. The *Saving successful* pop-up window is displayed.
