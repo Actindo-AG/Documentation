@@ -2,7 +2,7 @@
 
 [comment]: <> (add general information)
 
-This documentation refers to *Shopware 6* plugin version 4.0.1. There may be differences in the UI, features and operation if your *Shopware 6* module is installed in a different version.
+This documentation refers to *Shopware 6* plugin version 4.0.1. There may be differences in the UI, features and operation if your *Shopware 6* plugin is installed in a different version.
 
 
 ## Benefits
