@@ -99,4 +99,4 @@ A Tradebyte connection has been established.
 
     ![Saving successful](../../Assets/Screenshots/Channels/Settings/Connections/SavingSuccessful.png "[Saving successful]")
 
-> [Info] If the sales channels have been modified, you must synchronize the connection to update the ETL mapping, see [Synchronize a connection](../Integration/01_ManageConnections.md#synchronize-a-connection).
+> [Info] If the sales channels have been modified, you must synchronize the connection to update the ETL mapping, see [Synchronize a connection](../../Channels/Integration/01_ManageConnections.md#synchronize-a-connection).
