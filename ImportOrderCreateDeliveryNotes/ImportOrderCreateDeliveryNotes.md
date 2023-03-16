@@ -4,7 +4,7 @@
 
 **Short description**
 
-The *Import order and create delivery note* workflow is used to import orders from the *Omni-Channel* module to the *Order management* module, generate a leading document and, if required, a delivery note and trigger the further delivery process. The delivery process itself is handled in the subordinate [*Handle delivery note*](./HandleDeliveryNote.md) workflow. 
+The *Import order and create delivery note* workflow is used to import orders from the *Omni-Channel* module to the *Order management* module, generate a leading document and, if required, a delivery note and trigger the further delivery process. The delivery process itself is handled in the subordinate [*Handle delivery note*](../HandleDeliveryNote/HandleDeliveryNote.md) workflow. 
 
 **Summary**
 
@@ -24,7 +24,7 @@ The *Import order and create delivery note* workflow is used to import orders fr
 - Leading document creation
 - Payment sync from the *Venduo POS* module to the *Accounting* module (optional, if the *Venduo POS* module is installed)
 - Delivery note creation
-- Triggering of the subordinate [*Handle delivery note*](./HandleDeliveryNote.md) workflow
+- Triggering of the subordinate [*Handle delivery note*](../HandleDeliveryNote/HandleDeliveryNote.md) workflow
 
 
 
@@ -315,7 +315,7 @@ The *Description* field contains the API endpoint that is addressed in this acti
 
 ![Start subprocess](../Assets/Screenshots/ProcessDocumentation/StartSubprocess.png "[Start subprocess]")
 
-The *Start subprocess* action is used to start the process specified in the configuration as a subprocess. In this template case, the [*Handle delivery note*](./HandleDeliveryNote.md) subprocess is started to handle the further delivery processing. Define the key of the workflow you want to start as a subprocess in the configuration. For each delivery note, a single subprocess will be started. The delivery note is transferred to the start place of the subprocess.
+The *Start subprocess* action is used to start the process specified in the configuration as a subprocess. In this template case, the [*Handle delivery note*](../HandleDeliveryNote/HandleDeliveryNote.md) subprocess is started to handle the further delivery processing. Define the key of the workflow you want to start as a subprocess in the configuration. For each delivery note, a single subprocess will be started. The delivery note is transferred to the start place of the subprocess.
 
 #### Settings
 

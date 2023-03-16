@@ -8,28 +8,45 @@
         "output": "Modules.RetailSuite.RetailSuiteFaktBase.Models.BusinessDocument",
         "p-businessDocument-0": "ReadOnly.Modules.RetailSuite.RetailSuiteFaktBase.Models.BusinessDocumentContainer",
         "p-data-0": "Extensions.Actindo.UCSProductSync.Models.RetailSuiteOrder",
+        "p-id-0": "scalarValue",
         "p-in0-0": "anyValue",
-        "p-out0-0": "anyValue",
+        "p-noMatch-0": "anyValue",
+        "p-out-0": "Modules.RetailSuite.RetailSuiteFaktBase.Models.BusinessDocumentContainerChange",
         "p-p-0": "anyValue",
         "p-ucssyncOrder-0": "ReadOnly.Extensions.Actindo.UCSProductSync.Models.RetailSuiteOrderContainer",
         "p-ucssyncOrder-1": "ReadOnly.Extensions.Actindo.UCSProductSync.Models.RetailSuiteOrderContainer"
     },
+    "comment": null,
+    "newKey": null,
     "transitions": [
         {
             "maxTries": 1,
             "queueType": "1",
-            "key": "t-executePHP-0",
-            "action": "executePHP",
+            "key": "t-Actindo\\Modules\\Actindo\\ActindoWorkFlow\\Components\\Actions\\ExtractValueAction-0",
+            "action": "Actindo\\Modules\\Actindo\\ActindoWorkFlow\\Components\\Actions\\ExtractValueAction",
+            "priority": 0,
+            "comment": null,
             "config": {
-                "code": "$in0->setDispatchAllowed(true);\n$ret = new \\___WorkflowAutogen___\\RequestHydration\\Modules\\RetailSuite\\RetailSuiteFaktBase\\Models\\BusinessDocumentContainerChange($in0);\n$ret->setSerializableFields(['id','dispatchAllowed']);\nreturn $in0->getType() != 'RB' ? [$ret] : [null, $in0];"
+                "path": "id"
             },
-            "description": "Split AB, RB; Prepare Allow Dispatch"
+            "description": "Extract ID"
+        },
+        {
+            "maxTries": 1,
+            "queueType": "1",
+            "key": "t-Create-Modules.RetailSuite.RetailSuiteFaktBase.Models.BusinessDocumentContainerChange-0",
+            "action": "Create-Modules.RetailSuite.RetailSuiteFaktBase.Models.BusinessDocumentContainerChange",
+            "priority": 0,
+            "comment": null,
+            "description": "allowDispatch -> true"
         },
         {
             "maxTries": 1,
             "queueType": "1",
             "key": "t-Extensions.Actindo.UCSProductSync.RetailSuiteOrderSync.exportBaseOrder-0",
             "action": "Extensions.Actindo.UCSProductSync.RetailSuiteOrderSync.exportBaseOrder",
+            "priority": 0,
+            "comment": null,
             "description": "exportBaseOrder"
         },
         {
@@ -37,6 +54,8 @@
             "queueType": "1",
             "key": "t-Extensions.Actindo.UCSProductSync.RetailSuiteOrderSync.exportPositions-0",
             "action": "Extensions.Actindo.UCSProductSync.RetailSuiteOrderSync.exportPositions",
+            "priority": 0,
+            "comment": null,
             "description": "exportPositions"
         },
         {
@@ -44,6 +63,8 @@
             "queueType": "1",
             "key": "t-Extensions.Actindo.UCSProductSync.RetailSuiteOrderSync.finishExport-0",
             "action": "Extensions.Actindo.UCSProductSync.RetailSuiteOrderSync.finishExport",
+            "priority": 0,
+            "comment": null,
             "description": "finishOrderExport"
         },
         {
@@ -51,6 +72,8 @@
             "queueType": "1",
             "key": "t-Extensions.Actindo.UCSProductSync.RetailSuiteOrderSync.setupOrderExport-0",
             "action": "Extensions.Actindo.UCSProductSync.RetailSuiteOrderSync.setupOrderExport",
+            "priority": 0,
+            "comment": null,
             "description": "setupOrderExport"
         },
         {
@@ -58,6 +81,8 @@
             "queueType": "1",
             "key": "t-Modules.RetailSuite.RetailSuiteFaktBase.BusinessDocuments.createDelivery-0",
             "action": "Modules.RetailSuite.RetailSuiteFaktBase.BusinessDocuments.createDelivery",
+            "priority": 0,
+            "comment": null,
             "description": "createDeliveries"
         },
         {
@@ -65,13 +90,31 @@
             "queueType": "1",
             "key": "t-Modules.RetailSuite.RetailSuiteFaktBase.BusinessDocuments.save-0",
             "action": "Modules.RetailSuite.RetailSuiteFaktBase.BusinessDocuments.save",
-            "description": "Allow Dispatch"
+            "priority": 0,
+            "comment": null,
+            "description": "Save Document"
+        },
+        {
+            "maxTries": 1,
+            "queueType": "1",
+            "key": "t-splitByCriterion-0",
+            "action": "splitByCriterion",
+            "priority": 0,
+            "comment": null,
+            "config": {
+                "path": "type",
+                "operator": "=",
+                "value": "RB"
+            },
+            "description": "Is RB?"
         },
         {
             "maxTries": 1,
             "queueType": "1",
             "key": "t-startSubprocess-0",
             "action": "startSubprocess",
+            "priority": 0,
+            "comment": null,
             "config": {
                 "workflowKey": "delivery_notes"
             },
@@ -79,23 +122,28 @@
         }
     ],
     "arcs": [
-        "input -> t-Extensions.Actindo.UCSProductSync.RetailSuiteOrderSync.setupOrderExport-0(order)",
-        "t-Extensions.Actindo.UCSProductSync.RetailSuiteOrderSync.setupOrderExport-0(data) -> p-ucssyncOrder-0",
         "p-ucssyncOrder-0 -> t-Extensions.Actindo.UCSProductSync.RetailSuiteOrderSync.exportBaseOrder-0(ucssyncOrder)",
         "t-Extensions.Actindo.UCSProductSync.RetailSuiteOrderSync.exportBaseOrder-0(data) -> p-data-0",
         "p-data-0 -> t-Extensions.Actindo.UCSProductSync.RetailSuiteOrderSync.exportPositions-0(ucssyncOrder)",
         "t-Extensions.Actindo.UCSProductSync.RetailSuiteOrderSync.exportPositions-0(data) -> p-ucssyncOrder-1",
         "p-ucssyncOrder-1 -> t-Extensions.Actindo.UCSProductSync.RetailSuiteOrderSync.finishExport-0(ucssyncOrder)",
         "t-Extensions.Actindo.UCSProductSync.RetailSuiteOrderSync.finishExport-0(businessDocument) -> p-in0-0",
-        "p-in0-0 -> t-executePHP-0(in0)",
-        "t-executePHP-0(out1) -> output",
-        "t-executePHP-0(out0) -> p-out0-0",
-        "p-out0-0 -> t-Modules.RetailSuite.RetailSuiteFaktBase.BusinessDocuments.save-0(businessDocument)",
-        "t-Modules.RetailSuite.RetailSuiteFaktBase.BusinessDocuments.save-0(data) -> p-businessDocument-0",
+        "input -> t-Extensions.Actindo.UCSProductSync.RetailSuiteOrderSync.setupOrderExport-0(order)",
+        "t-Extensions.Actindo.UCSProductSync.RetailSuiteOrderSync.setupOrderExport-0(data) -> p-ucssyncOrder-0",
         "p-businessDocument-0 -> t-Modules.RetailSuite.RetailSuiteFaktBase.BusinessDocuments.createDelivery-0(businessDocument)",
         "t-Modules.RetailSuite.RetailSuiteFaktBase.BusinessDocuments.createDelivery-0(data) -> p-p-0",
         "t-startSubprocess-0(p) -> output",
-        "p-p-0 -> t-startSubprocess-0(p)"
+        "p-p-0 -> t-startSubprocess-0(p)",
+        "p-in0-0 -> t-splitByCriterion-0(in)",
+        "t-splitByCriterion-0(match) -> output",
+        "t-splitByCriterion-0(noMatch) -> p-noMatch-0",
+        "p-id-0 -> t-Create-Modules.RetailSuite.RetailSuiteFaktBase.Models.BusinessDocumentContainerChange-0(id)",
+        "t-Create-Modules.RetailSuite.RetailSuiteFaktBase.Models.BusinessDocumentContainerChange-0(out) -> p-out-0",
+        "p-noMatch-0 -> t-Actindo\\Modules\\Actindo\\ActindoWorkFlow\\Components\\Actions\\ExtractValueAction-0(p)",
+        "t-Actindo\\Modules\\Actindo\\ActindoWorkFlow\\Components\\Actions\\ExtractValueAction-0(p) -> p-id-0",
+        "p-out-0 -> t-Modules.RetailSuite.RetailSuiteFaktBase.BusinessDocuments.save-0(businessDocument)",
+        "t-Modules.RetailSuite.RetailSuiteFaktBase.BusinessDocuments.save-0(data) -> p-businessDocument-0",
+        "\"1\" -> t-Create-Modules.RetailSuite.RetailSuiteFaktBase.Models.BusinessDocumentContainerChange-0(dispatchAllowed)"
     ],
     "triggers": [
         {
@@ -137,10 +185,6 @@
         }
     ],
     "nodePositions": {
-        "t-executePHP-0": {
-            "x": 1110.5,
-            "y": 10.25
-        },
         "t-Extensions.Actindo.UCSProductSync.RetailSuiteOrderSync.exportBaseOrder-0": {
             "x": 75.5,
             "y": 10.25
@@ -158,28 +202,24 @@
             "y": 10.25
         },
         "t-Modules.RetailSuite.RetailSuiteFaktBase.BusinessDocuments.createDelivery-0": {
-            "x": 1800.5,
-            "y": 47.75
-        },
-        "t-Modules.RetailSuite.RetailSuiteFaktBase.BusinessDocuments.save-0": {
-            "x": 1455.5,
-            "y": 47.75
+            "x": 2540,
+            "y": 160
         },
         "t-startSubprocess-0": {
-            "x": 2145.5,
-            "y": 47.75
+            "x": 3020,
+            "y": 130
         },
         "input": {
             "x": -444.25,
             "y": 10.25
         },
         "output": {
-            "x": 2320.25,
-            "y": 10.25
+            "x": 3100,
+            "y": -210
         },
         "p-businessDocument-0": {
-            "x": 1628,
-            "y": 47.75
+            "x": 2350,
+            "y": 130
         },
         "p-data-0": {
             "x": 248,
@@ -189,13 +229,9 @@
             "x": 938,
             "y": 10.25
         },
-        "p-out0-0": {
-            "x": 1283,
-            "y": 47.75
-        },
         "p-p-0": {
-            "x": 1973,
-            "y": 47.75
+            "x": 2810,
+            "y": 130
         },
         "p-ucssyncOrder-0": {
             "x": -97,
@@ -204,6 +240,34 @@
         "p-ucssyncOrder-1": {
             "x": 593,
             "y": 10.25
+        },
+        "t-splitByCriterion-0": {
+            "x": 1100,
+            "y": -180
+        },
+        "p-noMatch-0": {
+            "x": 1150,
+            "y": 20
+        },
+        "t-Create-Modules.RetailSuite.RetailSuiteFaktBase.Models.BusinessDocumentContainerChange-0": {
+            "x": 1660,
+            "y": 350
+        },
+        "p-id-0": {
+            "x": 1470,
+            "y": 40
+        },
+        "t-Actindo\\Modules\\Actindo\\ActindoWorkFlow\\Components\\Actions\\ExtractValueAction-0": {
+            "x": 1280,
+            "y": 0
+        },
+        "p-out-0": {
+            "x": 2030,
+            "y": -100
+        },
+        "t-Modules.RetailSuite.RetailSuiteFaktBase.BusinessDocuments.save-0": {
+            "x": 2150,
+            "y": -10
         }
     }
 }
