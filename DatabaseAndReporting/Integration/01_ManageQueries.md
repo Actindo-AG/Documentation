@@ -8,7 +8,7 @@ Queries can be predefined to determine the queries that users may execute and th
 
 Data can be accessed via API and download, that is, users must be logged in the Core1, or via public download in a web browser. In the case of public download, a download link and a UUID (Universally Unique Identifier) are required. Queries can be read-only, that is, the mere access and retrieval of available data, or write access can be enabled, which additionally allows to modify the data contained in the database. 
 
-Managed queries can be created, edited, and deleted, as well as organized in categories, see [Manage the query categories](./02_ManageQueryCategories.md). Query access may also be restricted pro query and query category based on the user role, see 
+Managed queries can be created, edited, and deleted, as well as organized in categories, see [Manage the query categories](./02_ManageQueryCategories.md). Query access can also be restricted pro query and query category based on the user role, see 
 [Grant access rights to a user group](./05_ManageUserRights.md#grant-access-rights-to-a-user-group).
 
 ## Create a query
