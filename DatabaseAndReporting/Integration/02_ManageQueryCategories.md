@@ -150,7 +150,7 @@ At least one query category has been created, see [Create a query category](#cre
     > [Info] It may be necessary to press the **F5** key to initialize the *Core1 Platform* for the changes to be displayed in the *Queries* view. 
 
 
-### Change order of query categories
+### Change the order of query categories
 
 [comment]: <> (Julian: Momentan funktioniert es nicht. Ist es so gewollt? Oder automatisch nach Namem/alphabetisch sortiert?Vgl. PIM/DataHub)
 
