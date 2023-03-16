@@ -8,8 +8,8 @@ Queries can be predefined to determine the queries that users may execute and th
 
 Data can be accessed via API and download, that is, users must be logged in the Core1, or via public download in a web browser. In the case of public download, a download link and a UUID (Universally Unique Identifier) are required. Queries can be read-only, that is, the mere access and retrieval of available data, or write access can be enabled, which additionally allows to modify the data contained in the database. 
 
-Managed queries can be created, edited, and deleted, as well as organized in categories, see [Manage the query categories](./02_ManageQueryCategories.md). Query access can also be restricted pro query and query category depending on the user role, see [Manage the user rights](./05_ManageUserRights.md).
-
+Managed queries can be created, edited, and deleted, as well as organized in categories, see [Manage the query categories](./02_ManageQueryCategories.md). Query access may also be restricted pro query and query category based on the user role, see 
+[Grant access rights to a user group](./05_ManageUserRights.md#grant-access-rights-to-a-user-group).
 
 ## Create a query
 
@@ -60,9 +60,7 @@ No prerequisites to fulfill.
     > [Info] When entering more than one IP address, each IP address must be entered on a separate line. 
 
 6. Select the *API and download enabled* checkbox to allow logged in users with the appropriate rights to execute the query and download the retrieved data.
-    > [Info] Additionally, user access rights must be granted for every single query, see [Manage the user rights](./05_ManageUserRights.md).
-
-[comment]: <> (Evtl. Link updaten, wenn relevanter Unterkapitel definiert wird)
+    > [Info] Additionally, user access rights must be granted for every single query, see [Grant access rights to a user group](./05_ManageUserRights.md#grant-access-rights-to-a-user-group).
 
 7. Select the *Public download enabled* checkbox to allow any user, also non-logged in users, with the applicable link to execute the query and download the retrieved data via web browser. 
     > [Info] In addition to the corresponding download link, a UUID (Universally Unique Identifier) is required to execute the query in a web browser.
