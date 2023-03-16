@@ -8,9 +8,8 @@ Query categories serve the logical organization of the managed queries. The mana
 
 [comment]: <> (with a maximum depth of X levels...Julian: Wie viele Ebenen sinnvoll? Vgl. ACD-315/PIM/Integration/03_ManageAttributeGroups.md) 
 
-Query categories can be created, edited, deleted, and divided in sub-categories. All individual managed queries can, in turn, be assigned to a category and/or a sub-category, see [Create a query](./01_ManageQueries.md#create-a-query). As in the case of the managed queries, access can also be restricted depending on the user role, see [Manage the user rights](./05_ManageUserRights.md).
+Query categories can be created, edited, deleted, and divided in sub-categories. All individual managed queries can, in turn, be assigned to a category and/or a sub-category, see [Create a query](./01_ManageQueries.md#create-a-query). As in the case of the managed queries, access can also be restricted based on the user role, see [Grant access rights to a user group](./05_ManageUserRights.md#grant-access-rights-to-a-user-group).
 
-[comment]: <> (Procedure Assign a query category? Spezifischer Unterkapitel in User rights?)
 
 ## Create a query category
 
