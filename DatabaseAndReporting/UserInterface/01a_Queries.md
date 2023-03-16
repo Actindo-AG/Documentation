@@ -1,3 +1,7 @@
+[!!User interface Query categories](../UserInterface/03b_QueryCategories.md)
+[!!Manage the categories](./01_ManageCategories.md)
+[!!Manage the query categories](./02_ManageQueryCategories.md)
+
 #  Queries
 
 *Database and reporting > Managed queries > Tab QUERIES*
@@ -101,29 +105,39 @@ The list displays all predefined queries. Depending on the settings, the display
 
 ![Create query](../../Assets/Screenshots/DatabaseAndReporting/ManagedQueries/Queries/CreateQuery.png "[Create query]")
 
-- *Name*
+- *Name*  
+    Enter a description for the query.
 
-- *Category*
+- *Category*  
+    Click the drop-down list to assign the query to a category. All available categories are displayed in the list. 
 
-- *Query*
+- *Query*  
+    Enter the SQL query.
 
-- *IP whitelist (only public download)*
+- *IP whitelist (only public download)*  
+    Enter the IP address(es) you want to limit access to in case of public download. It is possible to enter one or several IP addresses or an IP range (subnet mask). When entering more than one IP address, each IP address must be entered on a separate line.  
 
 - [x] ETL use enabled
-
+    Click the checkbox to enable ETL use. 
+    > [Info] This function is not available in the current version.
+    
 - [x] API and download enabled
+    Click the checkbox to enable API access and download.
 
 - [x] Public download enabled
-
+    Click the checkbox to enable public download.
+   
 - [x] Write access enabled
+    Click the checkbox to enable write operations.
+   
+- [TRY QUERY] (READ ONLY)   
+    Click this button to try the defined query. The *Try query result* box is displayed.
 
-- [TRY QUERY] (READ ONLY)
+- [CANCEL]  
+    Click this button to cancel creating the query. The *Create MySQL query* view is closed.
 
-- *Try query result*
-
-- [CANCEL]
-
-- [SAVE]
+- [SAVE]  
+    Click this button to save the query. The *Create MySQL query* view is closed.
 
 
 ## Edit MySQL query
@@ -134,33 +148,45 @@ The list displays all predefined queries. Depending on the settings, the display
 ![Edit query](../../Assets/Screenshots/DatabaseAndReporting/ManagedQueries/Queries/EditQuery.png "[Edit query]")
 
 
-- *ID*
+- *ID*  
+    Query identification number. The identification number is automatically assigned by the system when the query is created and cannot be edited.
 
 - *UUID*
+    Universally Unique Identifier. The UUID is automatically assigned by the system when the query is created and cannot be edited.
 
-- *Name*
+- *Name*  
+    Edit the description for the query.
 
-- *Category*
+- *Category*  
+    Click the drop-down list to assign the query to a category. All available categories are displayed in the list. 
 
-- *Query*
+- *Query*  
+    Edit the SQL query.
 
-- *IP whitelist (only public download)*
+- *IP whitelist (only public download)*  
+    Enter the IP address(es) you want to limit access to in case of public download. It is possible to enter one or several IP addresses or an IP range (subnet mask). When entering more than one IP address, each IP address must be entered on a separate line.  
 
 - [x] ETL use enabled
-
+    Click the checkbox to enable/disable ETL use. 
+    > [Info] This function is not available in the current version.
+    
 - [x] API and download enabled
+    Click the checkbox to enable/disable API access and download.
 
 - [x] Public download enabled
-
+    Click the checkbox to enable/disable public download.
+   
 - [x] Write access enabled
+    Click the checkbox to enable/disable write operations.
+   
+- [TRY QUERY] (READ ONLY)   
+    Click this button to try the edited query. The *Try query result* box is displayed.
 
-- [TRY QUERY] (READ ONLY)
+- [CANCEL]  
+    Click this button to cancel editing the query. The *Edit MySQL query* view is closed.
 
-- *Try query result*
-
-- [CANCEL]
-
-- [SAVE]
+- [SAVE]  
+    Click this button to save any changes made. The *Edit MySQL query* view is closed.
 
 
 ## Execute saved query
@@ -169,6 +195,7 @@ The list displays all predefined queries. Depending on the settings, the display
 *Database and reporting > Managed queries > Tab QUERIES > Select query checkbox > Button Download*
 
 ![Edit query](../../Assets/Screenshots/DatabaseAndReporting/ManagedQueries/Queries/EditQuery.png "[Edit query]")
+
 
 
 
