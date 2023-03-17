@@ -109,7 +109,7 @@
 
     ![Return cancelled](../../Assets/Screenshots/Channels/OrdersReturns/Returns/ReturnCancelled.png "[Return cancelled]")
 
-[comment]: <> (keine Testdaten. gibt es den Button überhaupt bei returns?)
+[comment]: <> (Add screenshot. keine Testdaten. gibt es den Button überhaupt bei returns?)
 
 The list displays all returns, either for all connections or for the selected connection. Depending on the settings, the displayed columns may vary. All fields are read-only. 
 
