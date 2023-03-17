@@ -87,33 +87,33 @@ A Shopify connection has been established, see [Create a Shopify connection](#cr
     ![Edit connection credentials](../../Assets/Screenshots/Channels/Settings/Connections/Shopify/EditConnectionCredentials.png "[Edit connection credentials]")
 
 2. Click the *Settings* tab.   
-    The *Settings* tab is displayed. By default, the *ID in Shop* setting is selected.
+    The *Settings* tab is displayed. By default, the *ID in shop* setting is selected.
 
     ![Edit connection settings ID](../../Assets/Screenshots/Channels/Settings/Connections/Shopify/EditConnectionSettings_ID.png "[Edit connection settings ID]")
 
-3. If necessary, enable the *Enable OrderName as ID in Shop* toggle. If enabled, all new imported to use the order number including the prefix and suffix as ID in the Shopify shop. If disabled, only the order ID is displayed as ID in the Shopify shop.
+3. If necessary, enable the *Enable order name as ID in shop* toggle. If enabled, the order number including the prefix and suffix is used as ID in the Shopify shop. If disabled, only the order ID is displayed as ID in the Shopify shop.
 
-    > [Info] The order ID is displayed in the *Remote ID* column of the *Orders* view and in the header of the *Order from connection "Connection name"* view of the Omni-Channel module, see [User interface Orders](../../Channels/UserInterface/05a_Orders.md). The prefix and the suffix are defined in your Shopify shop.
+    > [Info] The order ID is displayed in the *Remote ID* column of the *Orders* view and in the header of the *Order from connection "Connection name"* view of the Omni-Channel module, see [User interface Orders](../../Channels/UserInterface/05a_Orders.md). The prefix and the suffix can be defined in your Shopify shop.
 
-4. Click the *Default Tax Class for Order import* menu entry in the left side bar.   
-    The *Default Tax Class for Order import* view is displayed on the right side.
+4. Click the *Default tax class for order import* menu entry in the left side bar.   
+    The *Default tax class for order import* view is displayed on the right side.
 
-    ![Default Tax Class for Order import](../../Assets/Screenshots/Channels/Settings/Connections/Shopify/EditConnectionSettings_TaxClassImport.png "[Default Tax Class for Order import]")
+    ![Default tax class for order import](../../Assets/Screenshots/Channels/Settings/Connections/Shopify/EditConnectionSettings_TaxClassImport.png "[Default tax class for order import]")
 
-5. Click the *Select default Tax Class* drop-down list and select a tax class that will be set as default tax class for the order import if no tax class could be found for the order within Shopify. All available tax classes are displayed in the list. 
+5. Click the *Select default tax class* drop-down list and select a tax class that will be set as default tax class for the order import if no tax class could be found for the order within Shopify. All available Actindo tax classes are displayed in the list. 
 
     > [Info] This setting is important for correct functionality and should therefore always be set.
 
-6. Click the *Configuration for Offer import* menu entry in the left side bar.   
-    The *Configuration for Offer import* view is displayed on the right side.
+6. Click the *Configuration for offer import* menu entry in the left side bar.   
+    The *Configuration for offer import* view is displayed on the right side.
 
-    ![Configuration for Offer import](../../Assets/Screenshots/Channels/Settings/Connections/Shopify/EditConnectionSettings_ConfigurationImport.png "[Configuration for Offer import]")
+    ![Configuration for offer import](../../Assets/Screenshots/Channels/Settings/Connections/Shopify/EditConnectionSettings_ConfigurationImport.png "[Configuration for offer import]")
 
 7. If necessary, configure the following settings:
-    + Click the *Select default Tax Class* drop-down list and select a tax class that will be set as default tax class for the offer import if no tax class could be found for the offer within Shopify. All available tax classes are displayed in the list.  
-    + Enter the Shopify collection names you want to assign a certain tax class to in the field of the corresponding tax class within the *Save the title of the collections for each Tax Class here* section. To assign multiple collections to a tax class, separate the names with a comma, but without adding spaces. For each available tax class, a single field is displayed. Make sure that all collection names entered are unique in your Shopify store.   
+    + Click the *Select default tax class* drop-down list and select a tax class that will be set as default tax class for the offer import if no tax class could be found for the offer within Shopify. All available Actindo tax classes are displayed in the list.  
+    + Enter the Shopify collection names you want to assign to a certain tax class in the field of the corresponding tax class within the *Save the title of the collections for each tax class here* section. To assign multiple collections to a tax class, separate the names with a comma, but without adding spaces. For each available Actindo tax class, a single field is displayed. Make sure that all collection names entered are unique in your Shopify store.   
 
-    > [Info] When importing the offers, the respective tax class is assigned to all products within the collections specified in the corresponding tax class field. If a collection is not specified in any of the tax class fields, the default tax class specified in the *Select default Tax Class* drop-down list is applied to all products of this collection. 
+    > [Info] When importing the offers, the respective tax class is assigned to all products within the collections specified in the corresponding tax class field. If no collection is specified in any of the tax class fields, the default tax class specified in the *Select default tax class* drop-down list is applied to all products of this collection. 
 
 8. Click the [Save] button.   
     All changes have been saved. The *Saving successful* pop-up window is displayed.
@@ -300,5 +300,3 @@ When creating variants to a master product, you must at least add one defining a
 
 8. Click the [SAVE] button in the upper right corner.   
     The changes have been saved. The *Edit attribute* view is closed. 
-
-[comment]: <> (Bilder anpassen -> aktuell verschiedene tabs) 

@@ -1,7 +1,5 @@
 [!!Manage the Shopify connection](../Integration/01_ManageShopifyconnection.md)
 
-[comment]: <> (adjust UI to Shopify connection)
-
 # Connections
 
 *Omni-Channel > Settings > Tab CONNECTIONS*
@@ -67,7 +65,6 @@
 - ![Edit](../../Assets/Icons/Edit01.png "[Edit]") (Edit)  
     Click this button to edit the selected connection. This button is only displayed if a single checkbox in the list of connections is selected. Alternatively, you can click directly a row in the list to edit a connection. The *Edit connection* view is displayed, see [Edit connection](#edit-connection).
 
-
 The list displays all available connections. Depending on the settings, the displayed columns may vary. All fields are read-only.
 
 - *Name*  
@@ -95,96 +92,6 @@ The list displays all available connections. Depending on the settings, the disp
 
 - ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add)  
     Click this button to add a connection. The *Create connection* view is displayed, see [Create connection](#create-connection).
-
-
-
-## Create Shopify connection
-
-*Omni-Channel > Settings > Tab CONNECTIONS > Button Add*
-
-![Create connection](../../Assets/Screenshots/Channels/Settings/Connections/CreateConnection.png "[Create connection]")
-
-- ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)   
-    Click this button to close the *Create connection* view and return to the connection list. All changes are rejected.
-
-- *Name*   
-    Enter a connection name.
-
-- ![Apply](../../Assets/Icons/Check.png "[Apply]") (Apply)  
-    Click this button to apply the entered connection name. This button is only displayed if the connection name has not yet been confirmed. 
-
-- ![Edit](../../Assets/Icons/Edit02.png "[Edit]") (Edit)  
-    Click this button to edit the connection name. This button is only displayed if the connection name has been confirmed. 
-
-- *Driver*  
-    Click the drop-down list and select the desired driver. All installed drivers are displayed. Depending on the connection driver, a *Credentials* section is displayed below the drop-down list.
-
-    > [Info] Drivers are licensed and must be acquired via the app store or the corresponding e-commerce partner platform. The applicable driver credentials to establish the connection are obtained when acquiring the corresponding license.
-
-
-**Credentials**
-
-The fields displayed in the *Credentials* section vary depending on the selected driver.
-
-- [SAVE]  
-    Click this button to save the connection.
-
-
-
-## Edit Shopify connection
-
-*Omni-Channel > Settings > Tab CONNECTIONS > Select a connection*
-
-![Edit connection](../../Assets/Screenshots/Channels/Settings/Connections/EditConnection.png "[Edit connection]")
-
-- ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)   
-    Click this button to close the *Edit connection* view and return to the connection list. All changes are rejected.
-
-- *Name*   
-    Connection name. Click the button ![Edit](../../Assets/Icons/Edit02.png "[Edit]") (Edit) to the right of the name to edit it.
-
-- ![Edit](../../Assets/Icons/Edit02.png "[Edit]") (Edit)  
-    Click this button to edit the connection name.
-
-- ![Apply](../../Assets/Icons/Check.png "[Apply]") (Apply)  
-    Click this button to apply the changes to the connection name.  This button is only displayed if you are editing the connection name.
-
-- *Created DD/MM/YYYY*  
-    Creation date of the connection. This field is read-only.  
-
-
-## Edit Shopify connection &ndash; Credentials
-
-*Omni-Channel > Settings > Tab CONNECTIONS > Select a connection > Tab Credentials*
-
-![Edit credentials](../../Assets/Screenshots/Channels/Settings/Connections/EditConnection.png "[Edit credentials]")
-
-This tab is only displayed for drivers with further credentials.
-
-- *Driver*  
-    Selected driver name. This drop-down list is read-only.
-
-**Credentials** 
-
-The fields displayed in the *Credentials* section vary depending on the selected driver.
-
-- [SAVE]  
-    Click this button to save any changes made.
-
-
-## Edit Shopify connection &ndash; Settings
-
-*Omni-Channel > Settings > Tab CONNECTIONS > Select a connection > Tab Settings*
-
-![Edit settings](../../Assets/Screenshots/Channels/Settings/Connections/Settings.png "[Edit settings]")
-
-This tab is only displayed for drivers with further settings.
-The fields displayed vary depending on the driver.
-
-- [SAVE]  
-    Click this button to save any changes made.
-
-    > [Info] If no settings are available for the selected connection, the *There are no settings available* notice is displayed.
 
 
 
@@ -219,3 +126,150 @@ The fields displayed vary depending on the driver.
 
 - [SAVE]   
     Click this button to save the changes and display it in the *VIEW* drop-down list. The *Rename view* window is closed.
+
+
+
+## Create Shopify connection
+
+*Omni-Channel > Settings > Tab CONNECTIONS > Button Add*
+
+![Create connection](../../Assets/Screenshots/Channels/Settings/Connections/CreateConnection.png "[Create connection]")
+
+- ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)   
+    Click this button to close the *Create connection* view and return to the connection list. All changes are rejected.
+
+- *Name*   
+    Enter a connection name.
+
+- ![Apply](../../Assets/Icons/Check.png "[Apply]") (Apply)  
+    Click this button to apply the entered connection name. This button is only displayed if the connection name has not yet been confirmed. 
+
+- ![Edit](../../Assets/Icons/Edit02.png "[Edit]") (Edit)  
+    Click this button to edit the connection name. This button is only displayed if the connection name has been confirmed. 
+
+- *Driver*  
+    Click the drop-down list and select the *Shopify* driver. All installed drivers are displayed. The *Credentials* section is displayed below the drop-down list.
+
+    > [Info] Drivers are licensed and must be acquired via the app store or the corresponding e-commerce partner platform. The applicable driver credentials to establish the connection are obtained when acquiring the corresponding license.
+
+**Credentials**
+
+![Create connection credentials](../../Assets/Screenshots/Channels/Settings/Connections/Shopify/CreateConnectionCredentials.png "[Create connection credentials]")
+
+- *Shop URL*   
+    URL of the Shopify shop. This field is automatically filled after having created the Shopify connection, see [Create the Shopify connection](../Integration/01_ManageShopifyConnection.md#create-a-shopify-connection).
+
+- *API key*   
+    API key for the Shopify connection. This field is automatically filled after having created the Shopify connection, see [Create the Shopify connection](../Integration/01_ManageShopifyConnection.md#create-a-shopify-connection).
+
+- [SAVE]  
+    Click this button to save the connection. As the connection is established from the Shopify shop side, this button is not used for creating a connection.
+
+
+
+## Edit Shopify connection
+
+*Omni-Channel > Settings > Tab CONNECTIONS > Select Shopify connection*
+
+![Edit Shopify connection](../../Assets/Screenshots/Channels/Settings/Connections/Shopify/EditConnectionCredentials.png "[Edit Shopify connection]")
+
+- ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)   
+    Click this button to close the *Edit connection* view and return to the connection list. All changes are rejected.
+
+- *Name*   
+    Connection name. Click the button ![Edit](../../Assets/Icons/Edit02.png "[Edit]") (Edit) to the right of the name to edit it.
+
+- ![Edit](../../Assets/Icons/Edit02.png "[Edit]") (Edit)  
+    Click this button to edit the connection name.
+
+- ![Apply](../../Assets/Icons/Check.png "[Apply]") (Apply)  
+    Click this button to apply the changes to the connection name.  This button is only displayed if you are editing the connection name.
+
+- *Created DD/MM/YYYY*  
+    Creation date of the connection. This field is read-only.  
+
+
+
+## Edit Shopify connection &ndash; Credentials
+
+*Omni-Channel > Settings > Tab CONNECTIONS > Select Shopify connection > Tab Credentials*
+
+![Edit Shopify credentials](../../Assets/Screenshots/Channels/Settings/Connections/Shopify/EditConnectionCredentials.png "[Edit Shopify credentials]")
+
+- *Driver*  
+    Driver name. For Shopify, the *Shopify* driver is displayed. This drop-down list is read-only.
+
+**Credentials** 
+
+- *Shop URL*   
+    Click the field to edit the URL of the Shopify shop.
+
+- *API key*   
+    Click the field to edit the API key for the Shopify connection.
+
+- [SAVE]  
+    Click this button to save any changes made.
+
+
+
+## Edit Shopify connection &ndash; Settings
+
+*Omni-Channel > Settings > Tab CONNECTIONS > Select Shopify connection > Tab Settings*
+
+![Edit Shopify settings](../../Assets/Screenshots/Channels/Settings/Connections/Shopify/EditConnectionSettings_ID.png "[Edit Shopify settings]")
+
+The *Settings* tab is composed of the following setting entries:
+- [ID in shop](#id-in-shop)
+- [Default tax class for order import](#default-tax-class-for-order-import)
+- [Configuration for offer import](#configuration-for-offer-import)
+
+
+### ID in shop
+
+*Omni-Channel > Settings > Tab CONNECTIONS > Select Shopify connection > Tab Settings > Menu entry ID in shop*
+
+![ID in shop](../../Assets/Screenshots/Channels/Settings/Connections/Shopify/EditConnectionSettings_ID.png "[ID in shop]")
+
+**ID in shop**
+
+- [SAVE]  
+    Click this button to save any changes made.
+
+- ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Enable order name as ID in shop*   
+    Enable this toggle to use the order number including the prefix and suffix as ID in the Shopify shop. If disabled, only the order ID is displayed as ID in the Shopify shop. The prefix and the suffix can be defined in your Shopify shop.
+
+
+### Default tax class for order import
+
+*Omni-Channel > Settings > Tab CONNECTIONS > Select Shopify connection > Tab Settings > Menu entry Default tax class for order import*
+
+![Default tax class for order import](../../Assets/Screenshots/Channels/Settings/Connections/Shopify/EditConnectionSettings_TaxClassImport.png "[Default tax class for order import]")
+
+**Default tax class for order import**
+
+- [SAVE]  
+    Click this button to save any changes made.
+
+- *Select default tax class*   
+    Click the drop-down list and select a tax class that will be set as default tax class for the order import if no tax class could be found for the order within Shopify. All available Actindo tax classes are displayed in the list. 
+
+
+### Configuration for offer import
+
+*Omni-Channel > Settings > Tab CONNECTIONS > Select Shopify connection > Tab Settings > Menu entry Configuration for offer import*
+
+![Configuration for offer import](../../Assets/Screenshots/Channels/Settings/Connections/Shopify/EditConnectionSettings_ConfigurationImport.png "[Configuration for offer import]")
+
+**Configuration for offer import**
+
+- [SAVE]  
+    Click this button to save any changes made.
+
+- *Select default tax class*   
+    Click the drop-down list and select a tax class that will be set as default tax class for the offer import if no tax class could be found for the offer within Shopify. All available Actindo tax classes are displayed in the list. 
+
+- *Save the title of the collections for each tax class "Tax class name" here*   
+    Enter the Shopify collection names you want to assign to the corresponding Actindo tax class. To assign multiple collections, separate the names with a comma, but without adding spaces.   
+    For each available Actindo tax class, a single field is displayed. Make sure that all collection names entered are unique in your Shopify store. 
+
+    > [Info] When importing the offers, the respective tax class is assigned to all products within the collections specified in the corresponding tax class field. If no collection is specified in any of the tax class fields, the default tax class specified in the *Select default tax class* drop-down list is applied to all products of this collection. d
