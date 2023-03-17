@@ -272,4 +272,4 @@ The *Settings* tab is composed of the following setting entries:
     Enter the Shopify collection names you want to assign to the corresponding Actindo tax class. To assign multiple collections, separate the names with a comma, but without adding spaces.   
     For each available Actindo tax class, a single field is displayed. Make sure that all collection names entered are unique in your Shopify store. 
 
-    > [Info] When importing the offers, the respective tax class is assigned to all products within the collections specified in the corresponding tax class field. If no collection is specified in any of the tax class fields, the default tax class specified in the *Select default tax class* drop-down list is applied to all products of this collection. d
+    > [Info] When importing the offers, the respective tax class is assigned to all products within the collections specified in the corresponding tax class field. If no collection is specified in any of the tax class fields, the default tax class specified in the *Select default tax class* drop-down list is applied to all products of this collection.
