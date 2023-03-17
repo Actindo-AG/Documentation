@@ -283,7 +283,7 @@ The list displays all available connections. Depending on the settings, the disp
 
 ## Edit Salesforce connection &ndash; Settings
 
-*Omni-Channel > Settings > Tab CONNECTIONS > Select a connection > Tab Settings*
+*Omni-Channel > Settings > Tab CONNECTIONS > Select Salesforce connection > Tab Settings*
 
 ![Edit Salesforce settings](../../Assets/Screenshots/Channels/Settings/Connections/CommerceCloud/EditConnectionSettings_PriceBooks.png "[Edit Salesforce settings]")
 
@@ -307,7 +307,7 @@ The *Settings* tab is composed of the following setting entries:
 
 ### Price books
 
-*Omni-Channel > Settings > Tab CONNECTIONS > Select a connection > Tab Settings > Menu entry Price books*
+*Omni-Channel > Settings > Tab CONNECTIONS > Select Salesforce connection > Tab Settings > Menu entry Price books*
 
 ![Price books](../../Assets/Screenshots/Channels/Settings/Connections/CommerceCloud/EditConnectionSettings_PriceBooks.png "[Price books]")
 
@@ -331,7 +331,7 @@ The *Settings* tab is composed of the following setting entries:
 
 ### Payment methods
 
-*Omni-Channel > Settings > Tab CONNECTIONS > Select a connection > Tab Settings > Menu entry Payment methods*
+*Omni-Channel > Settings > Tab CONNECTIONS > Select Salesforce connection > Tab Settings > Menu entry Payment methods*
 
 ![Payment methods](../../Assets/Screenshots/Channels/Settings/Connections/CommerceCloud/EditConnectionSettings_PaymentMethods.png "[Payment methods]")
 
@@ -355,7 +355,7 @@ The *Settings* tab is composed of the following setting entries:
 
 ### Upload mode
 
-*Omni-Channel > Settings > Tab CONNECTIONS > Select a connection > Tab Settings > Menu entry Upload mode*
+*Omni-Channel > Settings > Tab CONNECTIONS > Select Salesforce connection > Tab Settings > Menu entry Upload mode*
 
 ![Upload mode](../../Assets/Screenshots/Channels/Settings/Connections/CommerceCloud/EditConnectionSettings_UploadMode.png "[Upload mode]")
 
@@ -387,7 +387,7 @@ The *Settings* tab is composed of the following setting entries:
 
 ### Tax classes
 
-*Omni-Channel > Settings > Tab CONNECTIONS > Select a connection > Tab Settings > Menu entry Tax classes*
+*Omni-Channel > Settings > Tab CONNECTIONS > Select Salesforce connection > Tab Settings > Menu entry Tax classes*
 
 ![Tax classes](../../Assets/Screenshots/Channels/Settings/Connections/CommerceCloud/EditConnectionSettings_TaxClasses.png "[Tax classes]")
 
@@ -413,7 +413,7 @@ The *Settings* tab is composed of the following setting entries:
 
 ### Ignored product attributes
 
-*Omni-Channel > Settings > Tab CONNECTIONS > Select a connection > Tab Settings > Menu entry Ignored product attributes*
+*Omni-Channel > Settings > Tab CONNECTIONS > Select Salesforce connection > Tab Settings > Menu entry Ignored product attributes*
 
 ![Ignored product attributes](../../Assets/Screenshots/Channels/Settings/Connections/CommerceCloud/EditConnectionSettings_IgnoredProductAttributes.png "[Ignored product attributes]")
 
@@ -439,7 +439,7 @@ The *Settings* tab is composed of the following setting entries:
 
 ### Default language
 
-*Omni-Channel > Settings > Tab CONNECTIONS > Select a connection > Tab Settings > Menu entry Default language*
+*Omni-Channel > Settings > Tab CONNECTIONS > Select Salesforce connection > Tab Settings > Menu entry Default language*
 
 ![Default language](../../Assets/Screenshots/Channels/Settings/Connections/CommerceCloud/EditConnectionSettings_DefaultLanguage.png "[Default language]")
 
@@ -454,7 +454,7 @@ The *Settings* tab is composed of the following setting entries:
 
 ### Skip as variation attributes
 
-*Omni-Channel > Settings > Tab CONNECTIONS > Select a connection > Tab Settings > Menu entry Skip as variation attributes*
+*Omni-Channel > Settings > Tab CONNECTIONS > Select Salesforce connection > Tab Settings > Menu entry Skip as variation attributes*
 
 ![Skip as variation attributes](../../Assets/Screenshots/Channels/Settings/Connections/CommerceCloud/EditConnectionSettings_SkipVariationAttributes.png "[Skip as variation attributes]")
 
@@ -480,7 +480,7 @@ The *Settings* tab is composed of the following setting entries:
 
 ### View types
 
-*Omni-Channel > Settings > Tab CONNECTIONS > Select a connection > Tab Settings > Menu entry View types*
+*Omni-Channel > Settings > Tab CONNECTIONS > Select Salesforce connection > Tab Settings > Menu entry View types*
 
 ![View types](../../Assets/Screenshots/Channels/Settings/Connections/CommerceCloud/EditConnectionSettings_ViewTypes.png "[View types]")
 
@@ -505,7 +505,7 @@ The *Settings* tab is composed of the following setting entries:
 
 ### Job ID data import
 
-*Omni-Channel > Settings > Tab CONNECTIONS > Select a connection > Tab Settings > Menu entry Job ID data import*
+*Omni-Channel > Settings > Tab CONNECTIONS > Select Salesforce connection > Tab Settings > Menu entry Job ID data import*
 
 ![Job ID data import](../../Assets/Screenshots/Channels/Settings/Connections/CommerceCloud/EditConnectionSettings_JobIDDataImport.png "[Job ID data import]")
 
@@ -523,7 +523,7 @@ The *Settings* tab is composed of the following setting entries:
 
 ### Job ID inventory import
 
-*Omni-Channel > Settings > Tab CONNECTIONS > Select a connection > Tab Settings > Menu entry Job ID inventory import*
+*Omni-Channel > Settings > Tab CONNECTIONS > Select Salesforce connection > Tab Settings > Menu entry Job ID inventory import*
 
 ![Job ID inventory import](../../Assets/Screenshots/Channels/Settings/Connections/CommerceCloud/EditConnectionSettings_JobIDInventoryImport.png "[Job ID inventory import]")
 
@@ -541,7 +541,7 @@ The *Settings* tab is composed of the following setting entries:
 
 ### Order status fields
 
-*Omni-Channel > Settings > Tab CONNECTIONS > Select a connection > Tab Settings > Menu entry Order status fields*
+*Omni-Channel > Settings > Tab CONNECTIONS > Select Salesforce connection > Tab Settings > Menu entry Order status fields*
 
 ![Order status fields](../../Assets/Screenshots/Channels/Settings/Connections/CommerceCloud/EditConnectionSettings_OrderStatusFields.png "[Order status fields]")
 
@@ -567,7 +567,7 @@ The *Settings* tab is composed of the following setting entries:
 
 ### Upload stock only
 
-*Omni-Channel > Settings > Tab CONNECTIONS > Select a connection > Tab Settings > Menu entry Upload stock only*
+*Omni-Channel > Settings > Tab CONNECTIONS > Select Salesforce connection > Tab Settings > Menu entry Upload stock only*
 
 ![Upload stock only](../../Assets/Screenshots/Channels/Settings/Connections/CommerceCloud/EditConnectionSettings_UploadStockOnly.png "[Upload stock only]")
 
@@ -582,7 +582,7 @@ The *Settings* tab is composed of the following setting entries:
 
 ### Order search query
 
-*Omni-Channel > Settings > Tab CONNECTIONS > Select a connection > Tab Settings > Menu entry Order search query*
+*Omni-Channel > Settings > Tab CONNECTIONS > Select Salesforce connection > Tab Settings > Menu entry Order search query*
 
 ![Order search query](../../Assets/Screenshots/Channels/Settings/Connections/CommerceCloud/EditConnectionSettings_OrderSearchQuery.png "[Order search query]")
 
@@ -600,7 +600,7 @@ The *Settings* tab is composed of the following setting entries:
 
 ### Number of parallel jobs
 
-*Omni-Channel > Settings > Tab CONNECTIONS > Select a connection > Tab Settings > Menu entry Number of parallel jobs*
+*Omni-Channel > Settings > Tab CONNECTIONS > Select Salesforce connection > Tab Settings > Menu entry Number of parallel jobs*
 
 ![Number of parallel jobs](../../Assets/Screenshots/Channels/Settings/Connections/CommerceCloud/EditConnectionSettings_NumberParallelJobs.png "[Number of parallel jobs]")
 
@@ -620,7 +620,7 @@ The *Settings* tab is composed of the following setting entries:
 
 ### Custom inventory fields
 
-*Omni-Channel > Settings > Tab CONNECTIONS > Select a connection > Tab Settings > Menu entry Custom inventory fields*
+*Omni-Channel > Settings > Tab CONNECTIONS > Select Salesforce connection > Tab Settings > Menu entry Custom inventory fields*
 
 ![Custom inventory fields](../../Assets/Screenshots/Channels/Settings/Connections/CommerceCloud/EditConnectionSettings_CustomInventoryFields.png "[Custom inventory fields]")
 
