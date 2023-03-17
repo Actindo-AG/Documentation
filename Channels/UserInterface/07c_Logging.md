@@ -43,7 +43,7 @@ The side menu displays the different log levels and the log level settings. The 
 ![Logging](../../Assets/Screenshots/Channels/Settings/Logging/Logging.png "[Logging]")
 
 - *Apply from default* ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]")   
-    Activate this toggle to apply the default minimum log level **Notice**. The *Min log level* field is locked. Deactivate the toggle to unlock the *Min log level* field and select a different minimum log level. By default, this toggle is active.
+    Enable this toggle to apply the default minimum log level **Notice**. The *Min log level* field is locked. Disable the toggle to unlock the *Min log level* field and select a different minimum log level. By default, this toggle is enabled.
 
 - [SAVE]   
     Click this button to save the selected minimum log level.
@@ -63,13 +63,13 @@ The side menu displays the different log levels and the log level settings. The 
 ![Emergency](../../Assets/Screenshots/Channels/Settings/Logging/Emergency.png "[Emergency]")
 
 - *Apply from default* ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]")   
-    Activate this toggle to apply the default cleanup time of 20 hours to logs with the *Emergency* level. The *Cleanup time in h* field is locked. Deactivate the toggle to unlock the *Clean up time in h* field and enter a different log cleanup time. By default, this toggle is active.
+    Enable this toggle to apply the default cleanup time of 20 hours to logs with the *Emergency* level. The *Cleanup time in h* field is locked. Disable the toggle to unlock the *Clean up time in h* field and enter a different log cleanup time. By default, this toggle is enabled.
 
 - [SAVE]   
     Click this button to save the defined cleanup time for the selected log level.
 
 - *Cleanup time in h*   
-    Enter the number of hours after which the selected log will be deleted. This field is locked when the *Apply from default* toggle is active.
+    Enter the number of hours after which the selected log will be deleted. This field is locked when the *Apply from default* toggle is enabled.
 
 
 
@@ -80,13 +80,13 @@ The side menu displays the different log levels and the log level settings. The 
 ![Alert](../../Assets/Screenshots/Channels/Settings/Logging/Alert.png "[Alert]")
 
 - *Apply from default* ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]")   
-    Activate this toggle to apply the default cleanup time of 20 hours to logs with the *Alert* level. The *Cleanup time in h* field is locked. Deactivate the toggle to unlock the *Clean up time in h* field and enter a different log cleanup time. By default, this toggle is active.
+    Enable this toggle to apply the default cleanup time of 20 hours to logs with the *Alert* level. The *Cleanup time in h* field is locked. Disable the toggle to unlock the *Clean up time in h* field and enter a different log cleanup time. By default, this toggle is enabled.
 
 - [SAVE]   
     Click this button to save the defined cleanup time for the selected log level.
 
 - *Cleanup time in h*   
-    Enter the number of hours after which the selected log will be deleted. This field is locked when the *Apply from default* toggle is active.
+    Enter the number of hours after which the selected log will be deleted. This field is locked when the *Apply from default* toggle is enabled.
 
 
 
@@ -97,13 +97,13 @@ The side menu displays the different log levels and the log level settings. The 
 ![Critical](../../Assets/Screenshots/Channels/Settings/Logging/Critical.png "[Critical]")
 
 - *Apply from default* ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]")   
-    Activate this toggle to apply the default cleanup time of 20 hours to logs with the *Critical* level. The *Cleanup time in h* field is locked. Deactivate the toggle to unlock the *Clean up time in h* field and enter a different log cleanup time. By default, this toggle is active.
+    Enable this toggle to apply the default cleanup time of 20 hours to logs with the *Critical* level. The *Cleanup time in h* field is locked. Disable the toggle to unlock the *Clean up time in h* field and enter a different log cleanup time. By default, this toggle is enabled.
 
 - [SAVE]   
     Click this button to save the defined cleanup time for the selected log level.
 
 - *Cleanup time in h*   
-    Enter the number of hours after which the selected log will be deleted. This field is locked when the *Apply from default* toggle is active.
+    Enter the number of hours after which the selected log will be deleted. This field is locked when the *Apply from default* toggle is enabled.
 
 
 
@@ -114,13 +114,13 @@ The side menu displays the different log levels and the log level settings. The 
 ![Error](../../Assets/Screenshots/Channels/Settings/Logging/Error.png "[Error]")
 
 - *Apply from default* ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]")   
-    Activate this toggle to apply the default cleanup time of 20 hours to logs with the *Error* level. The *Cleanup time in h* field is locked. Deactivate the toggle to unlock the *Clean up time in h* field and enter a different log cleanup time. By default, this toggle is active.
+    Enable this toggle to apply the default cleanup time of 20 hours to logs with the *Error* level. The *Cleanup time in h* field is locked. Disable the toggle to unlock the *Clean up time in h* field and enter a different log cleanup time. By default, this toggle is enabled.
 
 - [SAVE]   
     Click this button to save the defined cleanup time for the selected log level.
 
 - *Cleanup time in h*   
-    Enter the number of hours after which the selected log will be deleted. This field is locked when the *Apply from default* toggle is active.
+    Enter the number of hours after which the selected log will be deleted. This field is locked when the *Apply from default* toggle is enabled.
 
 
 ## Warning
@@ -130,13 +130,13 @@ The side menu displays the different log levels and the log level settings. The 
 ![Warning](../../Assets/Screenshots/Channels/Settings/Logging/Warning.png "[Warning]")
 
 - *Apply from default* ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]")   
-    Activate this toggle to apply the default cleanup time of 5 hours to logs with the *Warning* level. The *Cleanup time in h* field is locked. Deactivate the toggle to unlock the *Clean up time in h* field and enter a different log cleanup time. By default, this toggle is active.
+    Enable this toggle to apply the default cleanup time of 5 hours to logs with the *Warning* level. The *Cleanup time in h* field is locked. Disable the toggle to unlock the *Clean up time in h* field and enter a different log cleanup time. By default, this toggle is enabled.
 
 - [SAVE]   
     Click this button to save the defined cleanup time for the selected log level.
 
 - *Cleanup time in h*   
-    Enter the number of hours after which the selected log will be deleted. This field is locked when the *Apply from default* toggle is active.
+    Enter the number of hours after which the selected log will be deleted. This field is locked when the *Apply from default* toggle is enabled.
 
 
 
@@ -147,13 +147,13 @@ The side menu displays the different log levels and the log level settings. The 
 ![Notice](../../Assets/Screenshots/Channels/Settings/Logging/Notice.png "[Notice]")
 
 - *Apply from default* ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]")   
-    Activate this toggle to apply the default cleanup time of 5 hours to logs with the *Notice* level. The *Cleanup time in h* field is locked. Deactivate the toggle to unlock the *Clean up time in h* field and enter a different log cleanup time. By default, this toggle is active.
+    Enable this toggle to apply the default cleanup time of 5 hours to logs with the *Notice* level. The *Cleanup time in h* field is locked. Disable the toggle to unlock the *Clean up time in h* field and enter a different log cleanup time. By default, this toggle is enabled.
 
 - [SAVE]   
     Click this button to save the defined cleanup time for the selected log level.
 
 - *Cleanup time in h*   
-    Enter the number of hours after which the selected log will be deleted. This field is locked when the *Apply from default* toggle is active.
+    Enter the number of hours after which the selected log will be deleted. This field is locked when the *Apply from default* toggle is enabled.
 
 
 
@@ -164,13 +164,13 @@ The side menu displays the different log levels and the log level settings. The 
 ![Info](../../Assets/Screenshots/Channels/Settings/Logging/Info.png "[Info]")
 
 - *Apply from default* ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]")   
-    Activate this toggle to apply the default cleanup time of 3 hours to logs with the *Info* level. The *Cleanup time in h* field is locked. Deactivate the toggle to unlock the *Clean up time in h* field and enter a different log cleanup time. By default, this toggle is active.
+    Enable this toggle to apply the default cleanup time of 3 hours to logs with the *Info* level. The *Cleanup time in h* field is locked. Disable the toggle to unlock the *Clean up time in h* field and enter a different log cleanup time. By default, this toggle is enabled.
 
 - [SAVE]   
     Click this button to save the defined cleanup time for the selected log level.
 
 - *Cleanup time in h*   
-    Enter the number of hours after which the selected log will be deleted. This field is locked when the *Apply from default* toggle is active.
+    Enter the number of hours after which the selected log will be deleted. This field is locked when the *Apply from default* toggle is enabled.
 
 
 
@@ -181,10 +181,10 @@ The side menu displays the different log levels and the log level settings. The 
 ![Debug](../../Assets/Screenshots/Channels/Settings/Logging/Debug.png "[Debug]")
 
 - *Apply from default* ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]")   
-    Activate this toggle to apply the default cleanup time of 3 hours to logs with the *Debug* level. The *Cleanup time in h* field is locked. Deactivate the toggle to unlock the *Clean up time in h* field and enter a different log cleanup time. By default, this toggle is active.
+    Enable this toggle to apply the default cleanup time of 3 hours to logs with the *Debug* level. The *Cleanup time in h* field is locked. Disable the toggle to unlock the *Clean up time in h* field and enter a different log cleanup time. By default, this toggle is enabled.
 
 - [SAVE]   
     Click this button to save the defined cleanup time for the selected log level.
 
 - *Cleanup time in h*   
-    Enter the number of hours after which the selected log will be deleted. This field is locked when the *Apply from default* toggle is active.
+    Enter the number of hours after which the selected log will be deleted. This field is locked when the *Apply from default* toggle is enabled.

@@ -170,9 +170,9 @@ The wizard to create an offer from a PIM product is started. The wizard is compo
 
 - *Which products do you wish to create offers from?*	 
     Select the products for which you want to create offers. The following options are available:   
-    - ![Radionbutton](../../Assets/Icons/Radiobutton.png "[Radiobutton]") *All products*    
+    - ![Radiobutton](../../Assets/Icons/Radiobutton.png "[Radiobutton]") *All products*    
         Create offers from all available products.
-    - ![Radionbutton](../../Assets/Icons/Radiobutton.png "[Radiobutton]") *Select products*   
+    - ![Radiobutton](../../Assets/Icons/Radiobutton.png "[Radiobutton]") *Select products*   
         Create offers from all products to be selected.
 
 - *Connection*	   
@@ -304,22 +304,22 @@ The window displays a summary of the offers from the selected products. The offe
 
 - *Change tracking mode*  
     Select the change tracking mode (ETL mode) for the offers to be created. The following options are available:   
-    - ![Radionbutton](../../Assets/Icons/Radiobutton.png "[Radiobutton]") *Manual*    
+    - ![Radiobutton](../../Assets/Icons/Radiobutton.png "[Radiobutton]") *Manual*    
         Changes in a PIM product must be triggered manually to be applied to the offer. The initial offer is automatically applied.
-    - ![Radionbutton](../../Assets/Icons/Radiobutton.png "[Radiobutton]") *Semiautomatic*   
+    - ![Radiobutton](../../Assets/Icons/Radiobutton.png "[Radiobutton]") *Semiautomatic*   
         Changes in a PIM product are automatically applied to the offer after confirmation. The initial offer is automatically applied without confirmation.   
-    - ![Radionbutton](../../Assets/Icons/Radiobutton.png "[Radiobutton]") *Semiautomatic, changes must be confirmed by another user*   
+    - ![Radiobutton](../../Assets/Icons/Radiobutton.png "[Radiobutton]") *Semiautomatic, changes must be confirmed by another user*   
         Changes in a PIM product are automatically applied to the offer after confirmation by another user. The initial offer is only applied after confirmation by another user.       
-    - ![Radionbutton](../../Assets/Icons/Radiobutton.png "[Radiobutton]") *Automatic*   
+    - ![Radiobutton](../../Assets/Icons/Radiobutton.png "[Radiobutton]") *Automatic*   
         Changes in a PIM product are automatically applied to the offer. The initial offer is also automatically applied.
 
 - *Initial offer status*  
     Select the initial status for the offers to be created. The following options are available:    
-    - ![Radionbutton](../../Assets/Icons/Radiobutton.png "[Radiobutton]") *Active*       
+    - ![Radiobutton](../../Assets/Icons/Radiobutton.png "[Radiobutton]") *Active*       
         The offer is active. It is displayed in the selected connection and can be sold there.   
-    - ![Radionbutton](../../Assets/Icons/Radiobutton.png "[Radiobutton]") *Inactive*   
+    - ![Radiobutton](../../Assets/Icons/Radiobutton.png "[Radiobutton]") *Inactive*   
         The offer is inactive. It is not displayed in the selected connection and cannot be sold there.   
-    - ![Radionbutton](../../Assets/Icons/Radiobutton.png "[Radiobutton]") *Offline*   
+    - ![Radiobutton](../../Assets/Icons/Radiobutton.png "[Radiobutton]") *Offline*   
         The offer is unknown to the selected connection and cannot be sold there.
 
 **Map attribute sets**
