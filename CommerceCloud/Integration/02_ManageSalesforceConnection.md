@@ -90,7 +90,7 @@ The Salesforce connection has been established, see [Create a Salesforce connect
     ![Edit connection credentials](../../Assets/Screenshots/Channels/Settings/Connections/CommerceCloud/EditConnectionCredentials.png "[Edit connection credentials]")
 
 2. Click the *Settings* tab.   
-		The *Settings* tab is displayed. By default, the *Price books* settings are selected. 
+    The *Settings* tab is displayed. By default, the *Price books* settings are selected. 
     
     ![Settings price books](../../Assets/Screenshots/Channels/Settings/Connections/CommerceCloud/EditConnectionSettings_PriceBooks.png "[Settings price books]")
 
@@ -103,7 +103,7 @@ The Salesforce connection has been established, see [Create a Salesforce connect
 
     ![Settings payment methods](../../Assets/Screenshots/Channels/Settings/Connections/CommerceCloud/EditConnectionSettings_PaymentMethods.png "[Settings payment methods]")
 
-5. Enter the payment method ID in the *ID* field and a description in the *Name* field for each payment method in Salesforce. To add another payment method, click the ![Add](../../Assets/Icons/Plus04.png "[Add]") (Add) button to the right of the last payment method.   
+5. Enter the payment method ID in the *ID* field and a name in the *Name* field for each payment method in Salesforce. To add another payment method, click the ![Add](../../Assets/Icons/Plus04.png "[Add]") (Add) button to the right of the last payment method.   
 
 6. Click the *Upload mode* menu entry in the left side bar.  
     The upload mode settings are displayed on the right side.
@@ -114,9 +114,9 @@ The Salesforce connection has been established, see [Create a Salesforce connect
     - **Immediately**    
         Select this option to upload any changes as soon as they are made.
     - **Delayed**    
-        Select this option to upload any changes after a specified period of time. When selected, the *Delay in minutes* field is displayed. Enter the desired delay in minutes in the field. By default, a 10 minutes delay is predefined. 
+        Select this option to upload any changes after a specified period of time. The *Delay in minutes* field is displayed. Enter the desired delay in minutes in the field. By default, a 10 minutes delay is predefined. 
     - **Cron**    
-        Select this option to schedule the upload and perform it periodically at a fixed time, date or interval. When selected, the *Cron line* field is displayed. Enter a valid cron expression to specify the time interval in which product data should be uploaded in the field. For detailed information, see https://crontab.guru/.
+        Select this option to schedule the upload and perform it periodically at a fixed time, date or interval. The *Cron line* field is displayed. Enter a valid cron expression to specify the time interval in which the product data should be uploaded in the field. For detailed information, see https://crontab.guru/.
     
     Alternatively, you can enable the *Apply from default* toggle to apply the default value. The default value is displayed read-only in the field after activation.
 
@@ -138,7 +138,7 @@ The Salesforce connection has been established, see [Create a Salesforce connect
 
 11. Enter the ID of the attribute that should not be imported to Salesforce in the *SFCC Attribute ID* field. The corresponding attribute IDs are described in the *catalog.xsd* schema, see [catalog.xsd](https://documentation.b2c.commercecloud.salesforce.com/DOC3/index.jsp?topic=%2Fcom.demandware.dochelp%2FDWAPI%2Fxsd%2FSchemas.html).  
 
-    > [Info] Repeat the step **11** for each attribute to be ignored. Further attribute fields can be added by clicking the ![Add](../../Assets/Icons/Plus04.png "[Add]") (Add) button right to the last attribute. If there are custom attributes that should not be imported to Salesforce, Note to add the prefix **c_**, that is, **c_AttributeName**.
+    > [Info] Repeat the step **11** for each attribute to be ignored. Further attribute fields can be added by clicking the ![Add](../../Assets/Icons/Plus04.png "[Add]") (Add) button right to the last attribute. If you enter IDs of custom attributes that should not be imported to Salesforce, note to add the prefix **c_**, that is, **c_AttributeName**.
 
 12. Click the *Default language* menu entry in the left side bar.  
     The default language settings are displayed on the right side.
@@ -147,16 +147,16 @@ The Salesforce connection has been established, see [Create a Salesforce connect
 
 13. Click the *Language used for default value* drop-down list and select the language that should be used if the default language is selected in Salesforce. All available languages are displayed in the list.  
 
-    > [Info] In contrast to Salesforce,  no default language is defined in the *Actindo Core1 Platform*. For this reason, a language must be specified to be used as default value.    
+    > [Info] In contrast to Salesforce, no default language is defined in the *Actindo Core1 Platform*. For this reason, a language must be specified to be used as default value.    
 
 14. Click the *Skip as variation attribute* menu entry in the left side bar.  
     The skip as variation attribute settings are displayed on the right side.
 
     ![Settings skip as variation attribute](../../Assets/Screenshots/Channels/Settings/Connections/CommerceCloud/EditConnectionSettings_SkipVariationAttributes.png "[Settings skip as variation attribute]")
 
-15. Enter the Salesforce ID of the variant that should not be imported to Salesforce in the *SFCC Attribute ID* field.   
+15. Enter the Salesforce ID of the attribute that should not be imported to Salesforce in the *SFCC Attribute ID* field.   
 
-    > [Info] Repeat the step **15** for each variant to be ignored. Further variant fields can be added by clicking the ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) button. 
+    > [Info] Repeat the step **15** for each variant to be ignored. Further attribute fields can be added by clicking the ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) button. If you enter IDs of custom attributes that should not be imported to Salesforce, note to add the prefix **c_**, that is, **c_AttributeName**.
 
 16. Click the *Job ID data import* menu entry in the left side bar.  
     The job ID data import settings are displayed on the right side.   
@@ -181,10 +181,10 @@ The Salesforce connection has been established, see [Create a Salesforce connect
 
     ![Settings order status fields](../../Assets/Screenshots/Channels/Settings/Connections/CommerceCloud/EditConnectionSettings_OrderStatusFields.png "[Settings order status fields]")
 
-21. Enter the custom IDs of the corresponding status fields in the *Order status*, *Payment status* and *Deliver status* fields.   
-Alternatively, enable the *Apply from default* toggle to apply the Salesforce default values.  
+21. Enter the IDs of the corresponding status fields in the *Order status*, *Payment status* and *Deliver status* fields.   
+Alternatively, enable the *Apply from default* toggle to apply the Salesforce default values.
 
-    > [Info] Note to add the prefix **c_** for any custom field names, that is, **c_StatusID**.
+    > [Info] Note to add the prefix **c_** if you enter the ID of a custom field, that is, **c_StatusID**.
 
 22. Click the *Upload stock only* menu entry in the left side bar.  
     The upload stock only settings are displayed on the right side.
