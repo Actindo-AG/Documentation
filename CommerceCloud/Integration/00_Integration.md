@@ -9,16 +9,16 @@ In this part of the *Salesforce Commerce Cloud* documentation, you will find the
     - [Generate an access key](./01_ConfigureSalesforceCommerceCloud.md#generate-an-access-key)
 
 
-- [Manage the Salesforce connection](./02_ManageSalesforceConnection.md)
-    - [Create a Salesforce connection](./02_ManageSalesforceConnection.md#create-a-salesforce-connection)
-    - [Configure the Salesforce connection](./02_ManageSalesforceConnection.md#configure-the-salesforce-connection)
-    - [Configure the Salesforce ETL mapping](02_ManageSalesforceConnection.md#configure-the-salesforce-etl-mapping)
+- [Manage the Salesforce Commerce Cloud connection](./02_ManageSalesforceConnection.md)
+    - [Create a Salesforce Commerce Cloud connection](./02_ManageSalesforceConnection.md#create-a-salesforce-commerce-cloud-connection)
+    - [Configure the Salesforce Commerce Cloud connection](./02_ManageSalesforceConnection.md#configure-the-salesforce-commerce-cloud-connection)
+    - [Configure the Salesforce Commerce Cloud ETL mapping](02_ManageSalesforceConnection.md#configure-the-salesforce-commerce-cloud-etl-mapping)
         - [Configure the master catalog](./02_ManageSalesforceConnection.md#configure-the-master-catalog)
         - [Configure the variants](./02_ManageSalesforceConnection.md#configure-the-variants)
         - [Configure the translatable variants](./02_ManageSalesforceConnection.md#configure-the-translatable-variants)
 
 
-- [Salesforce product data particularities](./03_SalesforceParticularities.md#salesforce-product-data-particularities)
+- [Salesforce Commerce Cloud product data particularities](./03_SalesforceParticularities.md#salesforce-commerce-cloud-product-data-particularities)
     - [Master catalog](./03_SalesforceParticularities.md#master-catalog)
     - [Sites](./03_SalesforceParticularities.md#sites)
     - [Attributes](./03_SalesforceParticularities.md#attributes)
@@ -26,7 +26,7 @@ In this part of the *Salesforce Commerce Cloud* documentation, you will find the
     - [Site-specific status](./03_SalesforceParticularities.md#site-specific-status)
     - [Price books](./03_SalesforceParticularities.md#price-books)
     - [Variations](./03_SalesforceParticularities.md#variations)
-        -[Translatable variants](./03_SalesforceParticularities.md#translatable-variants)
+        - [Translatable variants](./03_SalesforceParticularities.md#translatable-variants)
     - [Product categories](./03_SalesforceParticularities.md#product-categories)
     - [Inventory](./03_SalesforceParticularities.md#inventory)
     - [Product options](./03_SalesforceParticularities.md#product-options)

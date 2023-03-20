@@ -1,9 +1,9 @@
 # Configure the Salesforce Commerce Cloud Business Manager
 
-Before a Salesforce connection can be established, the following two configuration processes must be performed in the Salesforce Commerce Cloud Business Manager.  
+Before a Salesforce Commerce Cloud connection can be established, the following two configuration processes must be performed in the Salesforce Commerce Cloud Business Manager.  
 
-In Salesforce, data are uploaded via XML files, which are then imported with a job into the shop. There are two jobs, one for inventory import and one for data import.   
-Please note that these two jobs must be configured in your Salesforce account in the exact order and using the specified values as described below.
+In Salesforce Commerce Cloud, data are uploaded to Commerce Cloud via WebDAV. The data are then imported with a job into the shop. There are two jobs, one for inventory import and one for data import.   
+Please note that these two jobs must be configured in your Salesforce Commerce Cloud account in the exact order and using the specified values as described below.
 
 
 ## Create an inventory import job
@@ -12,7 +12,7 @@ Create a job to import inventory-related data.
 
 #### Prerequisites
 
-- A Salesforce account has been created.
+- A Salesforce Commerce Cloud account has been created.
 - The user has the required rights.
 
 #### Procedure 
@@ -43,7 +43,7 @@ Create a job to import inventory-related data.
 
     ![General](../../Assets/Screenshots/Channels/Settings/Connections/CommerceCloud/InventoryImport_General.png "[General]")
 
-    > [Info] Note the ID of the inventory import job, as it must be specified in the *Omni-Channel* module when establishing the connection to Salesforce.
+    > [Info] Note the ID of the inventory import job, as it must be specified in the *Omni-Channel* module when establishing the connection to Salesforce Commerce Cloud.
 
 5. Click the *Job Steps* tab in the header of the *"Job ID name"* page.   
     By default, an empty flow box has been preconfigured.
@@ -82,7 +82,7 @@ Create a job to import product-related data.
 
 #### Prerequisites
 
-- A Salesforce account has been created.
+- A Salesforce Commerce Cloud account has been created.
 - The user has the required rights.
 
 #### Procedure 
@@ -113,7 +113,7 @@ Create a job to import product-related data.
   
     ![General](../../Assets/Screenshots/Channels/Settings/Connections/CommerceCloud/SiteDataImport_General.png "[General]")
 
-    > [Info] Note the ID of the data import job, as it must be specified in the *Omni-Channel* module when establishing the connection to Salesforce.
+    > [Info] Note the ID of the data import job, as it must be specified in the *Omni-Channel* module when establishing the connection to Salesforce Commerce Cloud.
   
 5. Click the *Job Steps* tab in the header of the *"Job ID name"* page.   
     By default, an empty flow box has been preconfigured.
@@ -127,7 +127,7 @@ Create a job to import product-related data.
    
     ![Select and configure step](../../Assets/Screenshots/Channels/Settings/Connections/CommerceCloud/StandardProductsImport_SelectConfigureStep.png "[Select and configure step]")
 
-    > [Info] Make sure that all folders specified within a step have been previously created in WebDAV. Otherwise, the data cannot be imported. For detailed information about WebDAV, see the Salesforce documentation, [Using WebDAV](https://documentation.b2c.commercecloud.salesforce.com/DOC1/topic/com.demandware.dochelp/content/b2c_commerce/topics/import_export/b2c_using_web_dav.html).
+    > [Info] Make sure that all folders specified within a step have been previously created in WebDAV. Otherwise, the data cannot be imported. For detailed information about WebDAV, see the Salesforce Commerce Cloud documentation, [Using WebDAV](https://documentation.b2c.commercecloud.salesforce.com/DOC1/topic/com.demandware.dochelp/content/b2c_commerce/topics/import_export/b2c_using_web_dav.html).
    
 7. Enter a name for the step, for example **ImportInventoryLists**, in the *ID* field and, if desired, a step description in the *Description* field, and configure the following values in the corresponding fields of the *Select and Configure Step* side bar for the *StandardProductsImport* step: 
 
@@ -156,7 +156,7 @@ Create a job to import product-related data.
    
     ![Select and configure step](../../Assets/Screenshots/Channels/Settings/Connections/CommerceCloud/BundleProductsImport_SelectConfigureStep.png "[Select and configure step]")
 
-    > [Info] Make sure that all folders specified within a step have been previously created in WebDAV. Otherwise, the data cannot be imported. For detailed information about WebDAV, see the Salesforce documentation, [Using WebDAV](https://documentation.b2c.commercecloud.salesforce.com/DOC1/topic/com.demandware.dochelp/content/b2c_commerce/topics/import_export/b2c_using_web_dav.html).
+    > [Info] Make sure that all folders specified within a step have been previously created in WebDAV. Otherwise, the data cannot be imported. For detailed information about WebDAV, see the Salesforce Commerce Cloud documentation, [Using WebDAV](https://documentation.b2c.commercecloud.salesforce.com/DOC1/topic/com.demandware.dochelp/content/b2c_commerce/topics/import_export/b2c_using_web_dav.html).
    
 11. Enter a name for the step, for example **BundleProductsImport**, in the *ID* field and, if desired, a step description in the *Description* field, and configure the following values in the corresponding fields of the *Select and Configure Step* side bar for the *BundleProductsImport* step: 
 
@@ -185,7 +185,7 @@ Create a job to import product-related data.
   
     ![Select and configure step](../../Assets/Screenshots/Channels/Settings/Connections/CommerceCloud/CategoryAssignmentImport_SelectConfigureStep.png "[Select and configure step]")
 
-    > [Info] Make sure that all folders specified within a step have been previously created in WebDAV. Otherwise, the data cannot be imported. For detailed information about WebDAV, see the Salesforce documentation, [Using WebDAV](https://documentation.b2c.commercecloud.salesforce.com/DOC1/topic/com.demandware.dochelp/content/b2c_commerce/topics/import_export/b2c_using_web_dav.html).
+    > [Info] Make sure that all folders specified within a step have been previously created in WebDAV. Otherwise, the data cannot be imported. For detailed information about WebDAV, see the Salesforce Commerce Cloud documentation, [Using WebDAV](https://documentation.b2c.commercecloud.salesforce.com/DOC1/topic/com.demandware.dochelp/content/b2c_commerce/topics/import_export/b2c_using_web_dav.html).
   
 15. Enter a name for the step, for example **CategoryAssignmentImport**, in the *ID* field and, if desired, a step description in the *Description* field, and configure the following values in the corresponding fields of the *Select and Configure Step* side bar for the *CategoryAssignmentImport* step:   
 
@@ -214,7 +214,7 @@ Create a job to import product-related data.
    
     ![Select and configure step](../../Assets/Screenshots/Channels/Settings/Connections/CommerceCloud/PricebookImport_SelectConfigureStep.png "[Select and configure step]")
 
-    > [Info] Make sure that all folders specified within a step have been previously created in WebDAV. Otherwise, the data cannot be imported. For detailed information about WebDAV, see the Salesforce documentation, [Using WebDAV](https://documentation.b2c.commercecloud.salesforce.com/DOC1/topic/com.demandware.dochelp/content/b2c_commerce/topics/import_export/b2c_using_web_dav.html).
+    > [Info] Make sure that all folders specified within a step have been previously created in WebDAV. Otherwise, the data cannot be imported. For detailed information about WebDAV, see the Salesforce Commerce Cloud documentation, [Using WebDAV](https://documentation.b2c.commercecloud.salesforce.com/DOC1/topic/com.demandware.dochelp/content/b2c_commerce/topics/import_export/b2c_using_web_dav.html).
    
 19. Enter a name for the step, for example **PricebookImport**, in the *ID* field and, if desired, a step description in the *Description* field, and configure the following values in the corresponding fields of the *Select and Configure Step* side bar for the *PricebookImport* step:
 
@@ -241,16 +241,16 @@ Create a job to import product-related data.
 
 ## Configure the Open Commerce API Settings
 
-In Salesforce, there are two *Open Commerce APIs (OCAPIs)*: 
+In Salesforce Commerce Cloud, there are two *Open Commerce APIs (OCAPIs)*: 
 - The shop API, which is used for the order data  
 - The data API, which is used for the product data  
-The settings of the OCAPIs must be configured in Salesforce as described below.
+The settings of the OCAPIs must be configured in Salesforce Commerce Cloud as described below.
 
 #### Prerequisites
 
-- A Salesforce account has been created.
+- A Salesforce Commerce Cloud account has been created.
 - The user has the required rights.
-- The client ID has been generated in Salesforce, see the Salesforce documentation, [Generate an API Client ID](https://documentation.b2c.commercecloud.salesforce.com/DOC1/index.jsp?topic=%2Fcom.demandware.dochelp%2Fcontent%2Fb2c_commerce%2Ftopics%2Fanalytics%2Fb2c_generate_api_client_id.html).
+- The client ID has been generated in Salesforce Commerce Cloud, see the Salesforce Commerce Cloud documentation, [Generate an API Client ID](https://documentation.b2c.commercecloud.salesforce.com/DOC1/index.jsp?topic=%2Fcom.demandware.dochelp%2Fcontent%2Fb2c_commerce%2Ftopics%2Fanalytics%2Fb2c_generate_api_client_id.html).
 
 #### Procedure
 
@@ -465,18 +465,18 @@ The settings of the OCAPIs must be configured in Salesforce as described below.
 10. Click the [Save] button.  
     All changes to the data API have been saved.
 
-    > [Info] For detailed information, see the Salesforce documentation, [OCAPI Settings](https://documentation.b2c.commercecloud.salesforce.com/DOC1/topic/com.demandware.dochelp/OCAPI/current/usage/OCAPISettings.html).
+    > [Info] For detailed information, see the Salesforce Commerce Cloud documentation, [OCAPI Settings](https://documentation.b2c.commercecloud.salesforce.com/DOC1/topic/com.demandware.dochelp/OCAPI/current/usage/OCAPISettings.html).
 
 
 
 ## Generate an access key
 
-To connect with Salesforce, an access token is required for named authentication in addition to the client ID and the client password. Therefore, an access key must be generated in Salesforce to establish the connection in the *Omni-Channel* module.   
+To connect with Salesforce Commerce Cloud, an access token is required for named authentication in addition to the client ID and the client password. Therefore, an access key must be generated in Salesforce Commerce Cloud to establish the connection in the *Omni-Channel* module.   
 Unlike client id and password, the access key can only be used for one instance and not multiple times.
 
 #### Prerequisites
 
-- A Salesforce account has been created.
+- A Salesforce Commerce Cloud account has been created.
 - The user has the required rights.
 
 #### Procedure
@@ -503,7 +503,7 @@ Unlike client id and password, the access key can only be used for one instance 
 5. Click the [Generate] button in the bottom right corner of the *Generate Access Key* window.    
     The access key has been generated and is displayed in the *Generate Access Key* window.
 
-    > [Info] The access key is required to establish the connection with Salesforce in the *Omni-Channel* module.
+    > [Info] The access key is required to establish the connection with Salesforce Commerce Cloud in the *Omni-Channel* module.
 
     ![Access key created](../../Assets/Screenshots/Channels/Settings/Connections/CommerceCloud/AccessKeyCreated.png "[Access key created]")
 

@@ -1,4 +1,4 @@
-[!!Manage the Salesforce connection](../Integration/01_ManageSalesforceConnection.md)
+[!!Manage the Salesforce Commerce Cloud connection](../Integration/01_ManageSalesforceConnection.md)
 
 # Connections
 
@@ -129,7 +129,7 @@ The list displays all available connections. Depending on the settings, the disp
 
 
 
-## Create Salesforce connection
+## Create Salesforce Commerce Cloud connection
 
 *Omni-Channel > Settings > Tab CONNECTIONS > Button Add*
 
@@ -158,7 +158,7 @@ The list displays all available connections. Depending on the settings, the disp
 ![Create connection](../../Assets/Screenshots/Channels/Settings/Connections/CommerceCloud/CreateConnectionCredentials.png "[Create connection]")
 
 - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Production mode*   
-    Enable this toggle to activate the live environment for the Salesforce shop. Disable the toggle to use only the staging environment. In this case, you do not need to enter any credentials in the fields with the *(Production)* addition as they will be ignored anyway. By default, this toggle is disabled.
+    Enable this toggle to activate the live environment for the Salesforce Commerce Cloud shop. Disable the toggle to use only the staging environment. In this case, you do not need to enter any credentials in the fields with the *(Production)* addition as they will be ignored anyway. By default, this toggle is disabled.
 
     > [Info] As soon as the production mode is enabled, the order import and the stock upload are synchronized with the production environment, whereas the product data are still synchronized with the staging environment.
 
@@ -166,10 +166,10 @@ The list displays all available connections. Depending on the settings, the disp
     Enter the shop URL of the production environment.
 
 - *Client ID (Production)*   
-    Enter the client ID for the production environment.The client ID will be provided to you by your Salesforce shop agency.
+    Enter the client ID for the production environment.The client ID will be provided to you by your Salesforce Commerce Cloud shop agency.
 
 - *Client password (Production)*   
-    Enter the client password for the production environment. The client password will be provided to you by your Salesforce shop agency.
+    Enter the client password for the production environment. The client password will be provided to you by your Salesforce Commerce Cloud shop agency.
 
 - *Username (Production)*   
     Enter the email address of the user for the production environment.
@@ -184,10 +184,10 @@ The list displays all available connections. Depending on the settings, the disp
     Enter the shop URL of the staging environment.
 
 - *Client ID*   
-    Enter the client ID for the staging environment.The client ID will be provided to you by your Salesforce shop agency.
+    Enter the client ID for the staging environment.The client ID will be provided to you by your Salesforce Commerce Cloud shop agency.
 
 - *Client password*   
-    Enter the client password for the staging environment. The client password will be provided to you by your Salesforce shop agency.
+    Enter the client password for the staging environment. The client password will be provided to you by your Salesforce Commerce Cloud shop agency.
 
 - *Username*   
     Enter the email address of the user for the staging environment.
@@ -203,11 +203,11 @@ The list displays all available connections. Depending on the settings, the disp
 
 
 
-## Edit Salesforce connection
+## Edit Salesforce Commerce Cloud connection
 
-*Omni-Channel > Settings > Tab CONNECTIONS > Select Salesforce connection*
+*Omni-Channel > Settings > Tab CONNECTIONS > Select Salesforce Commerce Cloud connection*
 
-![Edit Salesforce connection](../../Assets/Screenshots/Channels/Settings/Connections/CommerceCloud/EditConnectionCredentials.png "[Edit Salesforce connection]")
+![Edit Salesforce Commerce Cloud connection](../../Assets/Screenshots/Channels/Settings/Connections/CommerceCloud/EditConnectionCredentials.png "[Edit Salesforce Commerce Cloud connection]")
 
 - ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)   
     Click this button to close the *Edit connection* view and return to the connection list. All changes are rejected.
@@ -225,19 +225,19 @@ The list displays all available connections. Depending on the settings, the disp
     Creation date of the connection. This field is read-only.  
 
 
-## Edit Salesforce connection &ndash; Credentials
+## Edit Salesforce Commerce Cloud connection &ndash; Credentials
 
-*Omni-Channel > Settings > Tab CONNECTIONS > Select Salesforce connection > Tab Credentials*
+*Omni-Channel > Settings > Tab CONNECTIONS > Select Salesforce Commerce Cloud connection > Tab Credentials*
 
-![Edit Salesforce credentials](../../Assets/Screenshots/Channels/Settings/Connections/CommerceCloud/EditConnectionCredentials.png "[Edit Salesforce credentials]")
+![Edit Salesforce Commerce Cloud credentials](../../Assets/Screenshots/Channels/Settings/Connections/CommerceCloud/EditConnectionCredentials.png "[Edit Salesforce Commerce Cloud credentials]")
 
 - *Driver*  
-    Driver name. For Salesforce, the *CommerceCloud* driver is displayed. This drop-down list is read-only.
+    Driver name. For Salesforce Commerce Cloud, the *CommerceCloud* driver is displayed. This drop-down list is read-only.
 
 **Credentials** 
 
 - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Production mode*   
-    Enable this toggle to activate the live environment for the Salesforce shop. Disable the toggle to use only the staging environment. In this case, you do not need to enter any credentials in the fields with the *(Production)* addition as they will be ignored anyway. By default, this toggle is disabled.
+    Enable this toggle to activate the live environment for the Salesforce Commerce Cloud shop. Disable the toggle to use only the staging environment. In this case, you do not need to enter any credentials in the fields with the *(Production)* addition as they will be ignored anyway. By default, this toggle is disabled.
 
     > [Info] As soon as the production mode is enabled, the order import and the stock upload are synchronized with the production environment, whereas the product data are still synchronized with the staging environment.
 
@@ -245,10 +245,10 @@ The list displays all available connections. Depending on the settings, the disp
     Click the field to edit the shop URL of the production environment.
 
 - *Client ID (Production)*   
-    Click the field to edit the client ID for the production environment.The client ID will be provided to you by your Salesforce shop agency.
+    Click the field to edit the client ID for the production environment.The client ID will be provided to you by your Salesforce Commerce Cloud shop agency.
 
 - *Client password (Production)*   
-    Click the field to edit the client password for the production environment. The client password will be provided to you by your Salesforce shop agency.
+    Click the field to edit the client password for the production environment. The client password will be provided to you by your Salesforce Commerce Cloud shop agency.
 
 - *Username (Production)*   
     Click the field to edit the email address of the user for the production environment.
@@ -263,10 +263,10 @@ The list displays all available connections. Depending on the settings, the disp
     Click the field to edit the shop URL of the staging environment.
 
 - *Client ID*   
-    Click the field to edit the client ID for the staging environment.The client ID will be provided to you by your Salesforce shop agency.
+    Click the field to edit the client ID for the staging environment.The client ID will be provided to you by your Salesforce Commerce Cloud shop agency.
 
 - *Client password*   
-    Click the field to edit the client password for the staging environment. The client password will be provided to you by your Salesforce shop agency.
+    Click the field to edit the client password for the staging environment. The client password will be provided to you by your Salesforce Commerce Cloud shop agency.
 
 - *Username*   
     Enter the email address of the user for the staging environment.
@@ -281,11 +281,11 @@ The list displays all available connections. Depending on the settings, the disp
     Click this button to save any changes made.
 
 
-## Edit Salesforce connection &ndash; Settings
+## Edit Salesforce Commerce Cloud connection &ndash; Settings
 
-*Omni-Channel > Settings > Tab CONNECTIONS > Select Salesforce connection > Tab Settings*
+*Omni-Channel > Settings > Tab CONNECTIONS > Select Salesforce Commerce Cloud connection > Tab Settings*
 
-![Edit Salesforce settings](../../Assets/Screenshots/Channels/Settings/Connections/CommerceCloud/EditConnectionSettings_PriceBooks.png "[Edit Salesforce settings]")
+![Edit Salesforce Commerce Cloud settings](../../Assets/Screenshots/Channels/Settings/Connections/CommerceCloud/EditConnectionSettings_PriceBooks.png "[Edit Salesforce Commerce Cloud settings]")
 
 The *Settings* tab is composed of the following setting entries:
 - [Price books](#price-books)
@@ -307,7 +307,7 @@ The *Settings* tab is composed of the following setting entries:
 
 ### Price books
 
-*Omni-Channel > Settings > Tab CONNECTIONS > Select Salesforce connection > Tab Settings > Menu entry Price books*
+*Omni-Channel > Settings > Tab CONNECTIONS > Select Salesforce Commerce Cloud connection > Tab Settings > Menu entry Price books*
 
 ![Price books](../../Assets/Screenshots/Channels/Settings/Connections/CommerceCloud/EditConnectionSettings_PriceBooks.png "[Price books]")
 
@@ -331,7 +331,7 @@ The *Settings* tab is composed of the following setting entries:
 
 ### Payment methods
 
-*Omni-Channel > Settings > Tab CONNECTIONS > Select Salesforce connection > Tab Settings > Menu entry Payment methods*
+*Omni-Channel > Settings > Tab CONNECTIONS > Select Salesforce Commerce Cloud connection > Tab Settings > Menu entry Payment methods*
 
 ![Payment methods](../../Assets/Screenshots/Channels/Settings/Connections/CommerceCloud/EditConnectionSettings_PaymentMethods.png "[Payment methods]")
 
@@ -355,7 +355,7 @@ The *Settings* tab is composed of the following setting entries:
 
 ### Upload mode
 
-*Omni-Channel > Settings > Tab CONNECTIONS > Select Salesforce connection > Tab Settings > Menu entry Upload mode*
+*Omni-Channel > Settings > Tab CONNECTIONS > Select Salesforce Commerce Cloud connection > Tab Settings > Menu entry Upload mode*
 
 ![Upload mode](../../Assets/Screenshots/Channels/Settings/Connections/CommerceCloud/EditConnectionSettings_UploadMode.png "[Upload mode]")
 
@@ -387,7 +387,7 @@ The *Settings* tab is composed of the following setting entries:
 
 ### Tax classes
 
-*Omni-Channel > Settings > Tab CONNECTIONS > Select Salesforce connection > Tab Settings > Menu entry Tax classes*
+*Omni-Channel > Settings > Tab CONNECTIONS > Select Salesforce Commerce Cloud connection > Tab Settings > Menu entry Tax classes*
 
 ![Tax classes](../../Assets/Screenshots/Channels/Settings/Connections/CommerceCloud/EditConnectionSettings_TaxClasses.png "[Tax classes]")
 
@@ -397,7 +397,7 @@ The *Settings* tab is composed of the following setting entries:
     Click this button to save any changes made.
 
 - *Commerce Cloud ID*    
-    Enter the Salesforce ID for the tax class. The Salesforce tax class IDs are available in Salesforce: *Merchant Tools > Ordering > Taxation*
+    Enter the Salesforce Commerce Cloud ID for the tax class. The Salesforce Commerce Cloud tax class IDs are available in Salesforce Commerce Cloud: *Merchant Tools > Ordering > Taxation*
 
 - *Actindo ID*   
     Enter the Actindo tax class ID for the tax class. The Actindo tax class IDs are **1** for the standard rate and **2** for the reduced rate.
@@ -413,7 +413,7 @@ The *Settings* tab is composed of the following setting entries:
 
 ### Ignored product attributes
 
-*Omni-Channel > Settings > Tab CONNECTIONS > Select Salesforce connection > Tab Settings > Menu entry Ignored product attributes*
+*Omni-Channel > Settings > Tab CONNECTIONS > Select Salesforce Commerce Cloud connection > Tab Settings > Menu entry Ignored product attributes*
 
 ![Ignored product attributes](../../Assets/Screenshots/Channels/Settings/Connections/CommerceCloud/EditConnectionSettings_IgnoredProductAttributes.png "[Ignored product attributes]")
 
@@ -426,9 +426,9 @@ The *Settings* tab is composed of the following setting entries:
     Click this button to save any changes made.
 
 - *SFCC attribute ID*    
-    Enter the ID of the attribute that should not be imported to Salesforce. The corresponding attribute IDs are described in the *catalog.xsd* schema, see [catalog.xsd](https://documentation.b2c.commercecloud.salesforce.com/DOC3/index.jsp?topic=%2Fcom.demandware.dochelp%2FDWAPI%2Fxsd%2FSchemas.html).
+    Enter the ID of the attribute that should not be imported to Salesforce Commerce Cloud. The corresponding attribute IDs are described in the *catalog.xsd* schema, see [catalog.xsd](https://documentation.b2c.commercecloud.salesforce.com/DOC3/index.jsp?topic=%2Fcom.demandware.dochelp%2FDWAPI%2Fxsd%2FSchemas.html).
 
-    > [Info] If you enter the IDs of custom attributes that should not be imported to Salesforce, note to add the prefix **c_**, that is, **c_AttributeName**.
+    > [Info] If you enter the IDs of custom attributes that should not be imported to Salesforce Commerce Cloud, note to add the prefix **c_**, that is, **c_AttributeName**.
 
 - ![Delete](../../Assets/Icons/Trash01.png "[Delete]") (Delete)   
     Click this button to delete the corresponding attribute.
@@ -439,7 +439,7 @@ The *Settings* tab is composed of the following setting entries:
 
 ### Default language
 
-*Omni-Channel > Settings > Tab CONNECTIONS > Select Salesforce connection > Tab Settings > Menu entry Default language*
+*Omni-Channel > Settings > Tab CONNECTIONS > Select Salesforce Commerce Cloud connection > Tab Settings > Menu entry Default language*
 
 ![Default language](../../Assets/Screenshots/Channels/Settings/Connections/CommerceCloud/EditConnectionSettings_DefaultLanguage.png "[Default language]")
 
@@ -449,12 +449,12 @@ The *Settings* tab is composed of the following setting entries:
     Click this button to save any changes made.
 
 - *Language used for default value*    
-    Click the drop-down list and select the language that should be used if the default language is selected in Salesforce. All available languages are displayed in the list. 
+    Click the drop-down list and select the language that should be used if the default language is selected in Salesforce Commerce Cloud. All available languages are displayed in the list. 
 
 
 ### Skip as variation attributes
 
-*Omni-Channel > Settings > Tab CONNECTIONS > Select Salesforce connection > Tab Settings > Menu entry Skip as variation attributes*
+*Omni-Channel > Settings > Tab CONNECTIONS > Select Salesforce Commerce Cloud connection > Tab Settings > Menu entry Skip as variation attributes*
 
 ![Skip as variation attributes](../../Assets/Screenshots/Channels/Settings/Connections/CommerceCloud/EditConnectionSettings_SkipVariationAttributes.png "[Skip as variation attributes]")
 
@@ -467,9 +467,9 @@ The *Settings* tab is composed of the following setting entries:
     Click this button to save any changes made.
 
 - *SFCC attribute ID*    
-    Enter the Salesforce ID of the attribute that should not be imported to Salesforce.
+    Enter the Salesforce Commerce Cloud ID of the attribute that should not be imported to Salesforce Commerce Cloud.
 
-    > [Info] If you enter the IDs of custom attributes that should not be imported to Salesforce, note to add the prefix **c_**, that is, **c_AttributeName**.
+    > [Info] If you enter the IDs of custom attributes that should not be imported to Salesforce Commerce Cloud, note to add the prefix **c_**, that is, **c_AttributeName**.
 
 - ![Delete](../../Assets/Icons/Trash01.png "[Delete]") (Delete)   
     Click this button to delete the corresponding attribute.
@@ -480,7 +480,7 @@ The *Settings* tab is composed of the following setting entries:
 
 ### View types
 
-*Omni-Channel > Settings > Tab CONNECTIONS > Select Salesforce connection > Tab Settings > Menu entry View types*
+*Omni-Channel > Settings > Tab CONNECTIONS > Select Salesforce Commerce Cloud connection > Tab Settings > Menu entry View types*
 
 ![View types](../../Assets/Screenshots/Channels/Settings/Connections/CommerceCloud/EditConnectionSettings_ViewTypes.png "[View types]")
 
@@ -505,7 +505,7 @@ The *Settings* tab is composed of the following setting entries:
 
 ### Job ID data import
 
-*Omni-Channel > Settings > Tab CONNECTIONS > Select Salesforce connection > Tab Settings > Menu entry Job ID data import*
+*Omni-Channel > Settings > Tab CONNECTIONS > Select Salesforce Commerce Cloud connection > Tab Settings > Menu entry Job ID data import*
 
 ![Job ID data import](../../Assets/Screenshots/Channels/Settings/Connections/CommerceCloud/EditConnectionSettings_JobIDDataImport.png "[Job ID data import]")
 
@@ -518,12 +518,12 @@ The *Settings* tab is composed of the following setting entries:
     Click this button to save any changes made.
 
 - *Job ID data import*    
-    Enter the Salesforce job ID for the data import. The job ID for the data import has been created during the configuration of the Salesforce Commerce Cloud Business Manager, see [Create a data import job](../Integration/01_ConfigureSalesforceCommerceCloud.md#create-a-data-import-job).
+    Enter the Salesforce Commerce Cloud job ID for the data import. The job ID for the data import has been created during the configuration of the Salesforce Commerce Cloud Business Manager, see [Create a data import job](../Integration/01_ConfigureSalesforceCommerceCloud.md#create-a-data-import-job).
 
 
 ### Job ID inventory import
 
-*Omni-Channel > Settings > Tab CONNECTIONS > Select Salesforce connection > Tab Settings > Menu entry Job ID inventory import*
+*Omni-Channel > Settings > Tab CONNECTIONS > Select Salesforce Commerce Cloud connection > Tab Settings > Menu entry Job ID inventory import*
 
 ![Job ID inventory import](../../Assets/Screenshots/Channels/Settings/Connections/CommerceCloud/EditConnectionSettings_JobIDInventoryImport.png "[Job ID inventory import]")
 
@@ -536,12 +536,12 @@ The *Settings* tab is composed of the following setting entries:
     Click this button to save any changes made.
 
 - *Job ID inventory import*    
-    Enter the Salesforce job ID for the inventory import. The job ID for the inventory import has been created during the configuration of the Salesforce Commerce Cloud Business Manager, see [Create an inventory import job](../Integration/01_ConfigureSalesforceCommerceCloud.md#create-an-inventory-import-job).
+    Enter the Salesforce Commerce Cloud job ID for the inventory import. The job ID for the inventory import has been created during the configuration of the Salesforce Commerce Cloud Business Manager, see [Create an inventory import job](../Integration/01_ConfigureSalesforceCommerceCloud.md#create-an-inventory-import-job).
 
 
 ### Order status fields
 
-*Omni-Channel > Settings > Tab CONNECTIONS > Select Salesforce connection > Tab Settings > Menu entry Order status fields*
+*Omni-Channel > Settings > Tab CONNECTIONS > Select Salesforce Commerce Cloud connection > Tab Settings > Menu entry Order status fields*
 
 ![Order status fields](../../Assets/Screenshots/Channels/Settings/Connections/CommerceCloud/EditConnectionSettings_OrderStatusFields.png "[Order status fields]")
 
@@ -567,7 +567,7 @@ The *Settings* tab is composed of the following setting entries:
 
 ### Upload stock only
 
-*Omni-Channel > Settings > Tab CONNECTIONS > Select Salesforce connection > Tab Settings > Menu entry Upload stock only*
+*Omni-Channel > Settings > Tab CONNECTIONS > Select Salesforce Commerce Cloud connection > Tab Settings > Menu entry Upload stock only*
 
 ![Upload stock only](../../Assets/Screenshots/Channels/Settings/Connections/CommerceCloud/EditConnectionSettings_UploadStockOnly.png "[Upload stock only]")
 
@@ -582,7 +582,7 @@ The *Settings* tab is composed of the following setting entries:
 
 ### Order search query
 
-*Omni-Channel > Settings > Tab CONNECTIONS > Select Salesforce connection > Tab Settings > Menu entry Order search query*
+*Omni-Channel > Settings > Tab CONNECTIONS > Select Salesforce Commerce Cloud connection > Tab Settings > Menu entry Order search query*
 
 ![Order search query](../../Assets/Screenshots/Channels/Settings/Connections/CommerceCloud/EditConnectionSettings_OrderSearchQuery.png "[Order search query]")
 
@@ -600,7 +600,7 @@ The *Settings* tab is composed of the following setting entries:
 
 ### Number of parallel jobs
 
-*Omni-Channel > Settings > Tab CONNECTIONS > Select Salesforce connection > Tab Settings > Menu entry Number of parallel jobs*
+*Omni-Channel > Settings > Tab CONNECTIONS > Select Salesforce Commerce Cloud connection > Tab Settings > Menu entry Number of parallel jobs*
 
 ![Number of parallel jobs](../../Assets/Screenshots/Channels/Settings/Connections/CommerceCloud/EditConnectionSettings_NumberParallelJobs.png "[Number of parallel jobs]")
 
@@ -620,7 +620,7 @@ The *Settings* tab is composed of the following setting entries:
 
 ### Custom inventory fields
 
-*Omni-Channel > Settings > Tab CONNECTIONS > Select Salesforce connection > Tab Settings > Menu entry Custom inventory fields*
+*Omni-Channel > Settings > Tab CONNECTIONS > Select Salesforce Commerce Cloud connection > Tab Settings > Menu entry Custom inventory fields*
 
 ![Custom inventory fields](../../Assets/Screenshots/Channels/Settings/Connections/CommerceCloud/EditConnectionSettings_CustomInventoryFields.png "[Custom inventory fields]")
 
@@ -632,4 +632,4 @@ The *Settings* tab is composed of the following setting entries:
     Click this button to save any changes made.
 
 - [x] *Handle inventory custom field*   
-    Select the checkbox to import the custom inventory fields from Salesforce and also maintain them in Actindo.
+    Select the checkbox to import the custom inventory fields from Salesforce Commerce Cloud and also maintain them in Actindo.
