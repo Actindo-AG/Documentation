@@ -47,9 +47,7 @@ The *Fiege* driver has been installed in the Core1 account.
 
     > [Info] By default, all connections that have been established are first inactive and therefore must be enabled after the connection configuration.    
 
-[comment]: <> (Check, ob Checking credentials und Loading data Nachrichten bei Fiege auch vorkommen)
-
-6. Proceed to configure the connection, see [Configure the Fiege connection](#configure-the-fiege-connection).
+6. Continue to configure the connection, see [Configure the Fiege connection](#configure-the-fiege-connection).
 
 
 ## Configure the Fiege connection
@@ -60,9 +58,6 @@ After the Fiege connection has been established, further settings can be configu
 
 - A Fiege connection has been established, see [Create a Fiege connection](#create-a-fiege-connection).
 - The warehouses to be managed by Fiege have been configured in the *Warehouse* module. 
-- The corresponding order workflows have been defined in the *Workflows* module.
-
-[comment]: <> (Unsicher von Workflows - prerequisite für die Settings?)
 
 #### Procedure
 
@@ -70,7 +65,7 @@ After the Fiege connection has been established, further settings can be configu
 
 ![Fiege connection](../../Assets/Screenshots/Fulfillment/Settings/Connections/Fiege/Connections.png "[Fiege connection]")
 
-1. Click the Fiege connection to be edited in the list of connections.  
+1. Click the Fiege connection to be configured in the list of connections.  
 The *Edit connection* view is displayed. By default, the *Credentials* tab is selected.
 
     ![Edit connection credentials](../../Assets/Screenshots/Fulfillment/Settings/Connections/Fiege/EditConnectionCredentials.png "[Edit connection credentials]")
@@ -78,7 +73,7 @@ The *Edit connection* view is displayed. By default, the *Credentials* tab is se
 2. Click the *Settings* tab.   
     The *Settings* tab is displayed. By default, the *Warehouse ID fallback* menu entry is selected.
 
-    ![Connection](../../Assets/Screenshots/Fulfillment/Settings/Connections/Fiege/EditConnectionSettings_WarehouseIDFallback.png "[Connection]")
+    ![Settings warehouse ID fallback](../../Assets/Screenshots/Fulfillment/Settings/Connections/Fiege/EditConnectionSettings_WarehouseIDFallback.png "[Settings warehouse ID fallback]")
 
 3. Enter the number of the warehouse to be used as fallback warehouse for stock movements if no other reference is found. 
 
@@ -91,7 +86,7 @@ The *Edit connection* view is displayed. By default, the *Credentials* tab is se
 
 5. Enter the bearer token for authentication with the Fiege API as provided by Fiege in the *Bearer token* field.
 
-[comment]: <> (Unsicher, ob beide bearer token eingetragen werden müssen -Credentials und Settings, oder nur eins davon, oder ob sie gleich oder unterschiedlich sind. Evtl. check mit Simon)
+[comment]: <> (Feedback von Developers: Bearer token wird aus den Settings rausfallen und nur noch in den Credentials angezeigt werden. Daher muss der auch nur dort gepflegt werden. Wann wird es implementiert? Schritt komplett rauslassen hier? Dann neue Screenshots notwendig. Oder evtl. Info dazu: The bearer token has already been entered in the Credentials section and therefore this field can be left blank...)
 
 6. Click the *A Warehouse* menu entry in the left side bar.  
     The A warehouse settings are displayed on the right side.  
@@ -117,8 +112,6 @@ The *Edit connection* view is displayed. By default, the *Credentials* tab is se
 12. Click the [SAVE] button.  
     All changes have been saved. The *Saving successful* pop-up window is displayed.  
 
-    ![Saving successful](../../Assets/Screenshots/Channels/Settings/Connections/SavingSuccessful.png "[Saving successful]")
-
-[comment]: <> (Unsicher, ob das in Fulfillment/Fiege stimmt. Check mit Simon.)
+    ![Saving successful](../../Assets/Screenshots/Fulfillment/Settings/Connections/SavingSuccessful.png "[Saving successful]")
   
-13. When necessary, proceed to enable the connection, see [Enable a connection](./01_ManageConnections.md#enable-a-connection).
+13. When necessary, continue to enable the connection, see [Enable a connection](./01_ManageConnections.md#enable-a-connection).
