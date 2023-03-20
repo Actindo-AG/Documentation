@@ -18,7 +18,7 @@ This workflow is the first part of a two-step process to export a new PIM produc
 |**Purpose** | Export a new PIM product to SAP. |
 |**Affected entities** | |
 |**Included plugins** | Workflows <br> PIM <br> DataHub | 
-|**Included third party software** | SAP |   
+|**Included third party software** | SAP Business One |   
 |**Trigger** | The process is triggered by either the creation of a new PIM product or a change on a PIM product. Optionally, further conditions can be added for the triggers. | 
 |    |     |
 
@@ -37,6 +37,8 @@ In the following, it is described how to build a workflow template that is cover
 
 #### Prerequisites
 
+- The *SAP Business One Integration* has been installed.
+
 [comment]: <> (add prerequisites)
 
 
@@ -45,8 +47,6 @@ In the following, it is described how to build a workflow template that is cover
 *Workflows > Workflows > Tab OVERVIEW*
 
 ![Workflows](../Assets/Screenshots/ActindoWorkFlow/Workflows/Workflows.png "[Workflows]")
-
-[comment]: <> (adjust procedure)
 
 1. Click the ![Add](../Assets/Icons/Plus01.png "[Add]") (Add) button in the bottom right corner.   
     The *New workflow* window is displayed.
@@ -57,13 +57,13 @@ In the following, it is described how to build a workflow template that is cover
 
 3. Enter **export_pim_product** in the *Select a unique key for your new workflow* field. The key is required for API access and must be unique within the workflow version.
 
-4. Select the **___WorkflowAutogen___\Actindo\Modules\Actindo\Channels\Models\Order** option as start place type in the *Choose the data type of your start place* field.
+4. Select the **___WorkflowAutogen___\Actindo\Modules\Actindo\PIM\Models\PIMProduct** option as start place type in the *Choose the data type of your start place* field.
 
-    > [Info] Enter a keyword in the field, for example **order**, to limit the data types displayed in the list. The list of data types is filtered for your keyword as you type.
+    > [Info] Enter a keyword in the field, for example **PIM**, to limit the data types displayed in the list. The list of data types is filtered for your keyword as you type.
 
-5. Select the **___WorkflowAutogen___\Actindo\Modules\RetailSuite\RetailSuiteFaktBase\Models\BusinessDocument** option as end place type in the *Choose the data type of your end place* field.
+5. Select the **___WorkflowAutogen___\Actindo\Modules\Actindo\PIM\Models\PIMProduct** option as end place type in the *Choose the data type of your end place* field.
 
-    > [Info] Enter a keyword in the field, for example **business**, to limit the data types displayed in the list. The list of data types is filtered for your keyword as you type.
+    > [Info] Enter a keyword in the field, for example **PIM**, to limit the data types displayed in the list. The list of data types is filtered for your keyword as you type.
 
   6. Click the [CREATE] button in the bottom right corner.   
     The new workflow has been created. The *New workflow* window is closed. The workflow editor with the defined start and end places is displayed.  
@@ -107,9 +107,71 @@ Within a workflow, several actions are performed.
 In the following, all actions within the process are described in detail, specifying their function and their functional settings.
 
 
+### Trigger for the *Export new PIM product* workflow
+
+The following recommended triggers are configured so that the process starts if either a new PIM product is created or a PIM product is changed. Further, the conditions specify that the process only starts if the completeness of the new or the changed PIM product equals 100%. 
+
+> [Info] If desired, the triggers for the *Export new PIM product* workflow and their subordinate conditions can be adjusted according to the custom requirements, see [Manage the triggers](../ActindoWorkFlow/Operation/03_ManageTriggers.md). 
+
+
+#### Product created trigger
+
+![Trigger Product created](../Assets/Screenshots/ProcessDocumentation/TriggerProductCreated.png "[Trigger Product created]")
+
+Configure the following settings for the *Product created* trigger:
+
+|    |    |
+|----|----|
+|**Name** | Product created |
+|**Model** | Actindo\Modules\Actindo\PIM\Models\PIMProduct |
+|**Event** | After creation | 
+|**Condition fulfillment** | If all are met |   
+|**Status** | Active |
+|**Process priority** | 1 | 
+|    |    |
+
+**Conditions**
+
+|    |    |
+|----|----|
+|**Prefix** | entity. | 
+|**Property** | _pim_completeness.totalCompleteness | 
+|**Operator** | Equals | 
+|**Value** | 100 | 
+
+
+#### Product updated trigger
+
+![Trigger Product updated](../Assets/Screenshots/ProcessDocumentation/TriggerProductUpdated.png "[Trigger Product updated]")
+
+Configure the following settings for the *Product updated* trigger:
+
+|    |    |
+|----|----|
+|**Name** | Product updated |
+|**Model** | Actindo\Modules\Actindo\PIM\Models\PIMProduct |
+|**Event** | After saving | 
+|**Condition fulfillment** | If all are met |   
+|**Status** | Active |
+|**Process priority** | 1 | 
+|    |    |
+
+**Conditions**
+
+|    |    |
+|----|----|
+|**Prefix** | entity. | 
+|**Property** | _pim_completeness.totalCompleteness | 
+|**Operator** | Equals | 
+|**Value** | 100 | 
+
+
+
 ### Check if item exists
 
 ![Check if item exists](../Assets/Screenshots/ProcessDocumentation/CheckItem.png "[Check if item exists]")
+
+[comment]: <> (add screenshot)
 
 The *Check if item exists* action is used to check if the PIM product already exists as item in SAP.
 
@@ -130,6 +192,8 @@ The *Description*, *Key*, *Label*, *Queue type*, *Priority*, *Max tries* and *Lo
 
 ![Create  item](../Assets/Screenshots/ProcessDocumentation/CreateItem.png "[Create item]")
 
+[comment]: <> (add screenshot)
+
 The *Create item* action is used to create a SAP item for the PIM product. The item must be created from the PIM product to be exported to SAP.
 
 #### Settings
@@ -138,3 +202,15 @@ The *Description* field contains the API endpoint that is addressed in this acti
 
 - *Description*   
     .createFromPimProduct | Create item from given PIM-Product (/Actindo.Modules.Actindo.SapB1Integration.Items.createFromPimProduct)
+
+**Static inputs**
+
+- *Connection*    
+    Enter the applicable ID as value for the *Connection* variable to check if the PIM product exist for the corresponding SAP connection in the *Check if item exists* action. All database objects can be configured by a static JSON input in the *Static inputs* section of the action settings. The SAP connection ID must be specified as an object, for instance **{"id":12}**.
+
+    > [Info]  The value must be valid JSON and is type strict, for example a string must be specified as a string (**\"example\"**), an integer as an integer (**123**), and so on.
+
+- *ETL change tracking mode*   
+    Enter **"2"** for the *ETL change tracking mode* variable to set the change tracking mode to **automatic** and thus transfer any changes on the PIM product to the SAP item. This means that an item will change whenever a relevant attribute in the PIM product is changed. 
+
+    > [Info] A relevant attribute  refers to any attribute that is mapped in the corresponding attribute set mapping.
