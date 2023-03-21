@@ -1,0 +1,203 @@
+[!!Manage the connections](../Integration/04_ManageConnections.md)
+
+# Connections
+
+*Database and reporting > Settings > Tab CONNECTIONS*
+
+![Connections](../../Assets/Screenshots/DatabaseAndReporting/Settings/Connections/Connections.png "[Connections]")
+
+**Connections**
+
+- ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh)   
+    Click this button to update the list of connections.
+
+[comment]: <> (Sollte VIEW-Menü standardmäßig vorkommen? Frage gilt auch für Logs.)
+
+
+- ![Columns](../../Assets/Icons/Columns.png "[Columns]") Columns (x)   
+    Click this button to display the columns bar and customize the displayed columns and the order of columns in the list. The *x* indicates the number of columns that are currently displayed in the list.
+
+- [x]     
+    Select the checkbox to display the editing toolbar. If you click the checkbox in the header, all connections in the list are selected.
+
+- ![Edit](../../Assets/Icons/Edit01.png "[Edit]") (Edit)  
+    Click this button to edit the selected connection. This button is only displayed if a single checkbox in the list of connections is selected. Alternatively, you can click directly a row in the list to edit a connection. The *Edit connection* view is displayed, see [Edit connection](#edit-connection).
+
+
+The list displays all available connections. Depending on the settings, the displayed columns may vary. All fields are read-only.
+
+- *Name*  
+    Connection name.
+
+- *Driver*  
+    Driver name. The following options are available:
+    - **InfluxDB driver V1**
+    - **InfluxDB driver V2**
+
+- *ID*  
+    Connection identification number. The ID number is automatically assigned by the system.
+
+- ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add)  
+    Click this button to add a connection. The *Create connection* view is displayed, see [Create connection](#create-connection).
+
+
+## Create connection
+
+*Database and reporting > Settings > Tab CONNECTIONS > Button Add*
+
+![Create connection](../../Assets/Screenshots/DatabaseAndReporting/Settings/Connections/CreateConnection.png "[Create connection]")
+
+- ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)   
+    Click this button to close the *Create connection* view and return to the connection list. All changes are rejected.
+
+- *Name*   
+    Enter a connection name.
+
+- ![Apply](../../Assets/Icons/Check.png "[Apply]") (Apply)  
+    Click this button to apply the entered connection name. This button is only displayed if the connection name has not yet been confirmed. 
+
+- ![Edit](../../Assets/Icons/Edit02.png "[Edit]") (Edit)  
+    Click this button to edit the connection name. This button is only displayed if the connection name has been confirmed. 
+
+- *Driver*  
+    Click the drop-down list and select the desired driver version. The following options are available:
+    - **InfluxDB driver V1**
+    - **InfluxDB driver V2**
+      
+    > [Info] The InfluxDB drivers V1 and V2 are preinstalled in the *Database and reporting* module.
+
+    Once a driver is selected, the *Credentials* section is displayed below the *Driver* drop-down list.
+
+**Credentials**
+
+The fields displayed in the *Credentials* section vary depending on the selected driver version. For a detailed description of this section and the corresponding functions, see the applicable interface: 
+  - [Create connection &ndash; Credentials InfluxDB Driver V1](#create-connection-–-credentials-influxdb-driver-v1)   
+  - [Create connection &ndash; Credentials InfluxDB Driver V2](#create-connection-–-credentials-influxdb-driver-v2) 
+    
+
+## Create connection &ndash; Credentials InfluxDB Driver V1
+
+*Database and reporting > Settings > Tab CONNECTIONS > Button Add > Select InfluxDB driver V1*
+
+![Create connection InfluxDB Driver V1](../../Assets/Screenshots/DatabaseAndReporting/Settings/Connections/CreateConnectionInfluxDBDriverV1.png "[Create connection InfluxDB Driver V1]")
+
+- *URL*  
+    Enter the InfluxDB URL.
+
+- *Database*  
+    Enter the InfluxDB database identifier.
+
+- *Username*  
+    Enter the InfluxDB username.
+
+- *Password*  
+    Enter the InfluxDB password.
+
+- [SAVE]  
+    Click this button to save the connection.
+
+    
+## Create connection &ndash; Credentials InfluxDB Driver V2
+
+*Database and reporting > Settings > Tab CONNECTIONS > Button Add > Select InfluxDB driver V2*
+
+![Create connection InfluxDB Driver V2](../../Assets/Screenshots/DatabaseAndReporting/Settings/Connections/CreateConnectionInfluxDBDriverV2.png "[Create connection InfluxDB Driver V2]")
+
+- *URL*  
+    Enter the InfluxDB URL.
+
+- *Organization*  
+    Enter the InfluxDB organization name.
+
+- *Bucket*  
+    Enter the InfluxDB database identifier.
+
+- *API token*  
+    Enter the InfluxDB API token.
+
+- [SAVE]  
+    Click this button to save the connection.
+
+
+## Edit connection
+
+*Database and reporting > Settings > Tab CONNECTIONS > Select a connection*
+
+![Edit connection](../../Assets/Screenshots/DatabaseAndReporting/Settings/Connections/EditConnection.png "[Edit connection]")
+
+- ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)   
+    Click this button to close the *Edit connection* view and return to the connection list. All changes are rejected.
+
+- *Name*   
+    Connection name. Click the button ![Edit](../../Assets/Icons/Edit02.png "[Edit]") (Edit) to the right of the name to edit it.
+
+- ![Edit](../../Assets/Icons/Edit02.png "[Edit]") (Edit)  
+    Click this button to edit the connection name.
+
+- ![Apply](../../Assets/Icons/Check.png "[Apply]") (Apply)  
+    Click this button to apply the changes to the connection name.  This button is only displayed if you are editing the connection name.
+
+- *Created DD/MM/YYYY*  
+    Creation date of the connection. This field is read-only.  
+
+- *Driver*  
+    Selected driver name. This drop-down list is read-only.
+
+    The fields displayed in the *Credentials* section vary depending on the selected driver version. For a detailed description of this section and the corresponding functions, see the applicable interface: 
+  - [Edit connection &ndash; Credentials InfluxDB Driver V1](#edit-connection-–-credentials-influxdb-driver-v1)   
+  - [Edit connection &ndash; Credentials InfluxDB Driver V2](#edit-connection-–-credentials-influxdb-driver-v2) 
+    
+
+## Edit connection &ndash; Credentials InfluxDB driver V1
+
+*Database and reporting > Settings > Tab CONNECTIONS > Select a connection with InfluxDB driver V1*
+
+![Edit credentials InfluxDB driver V1](../../Assets/Screenshots/DatabaseAndReporting/Settings/Connections/EditConnection.png "[Edit credentials InfluxDB driver V1]")
+
+
+**Credentials** 
+
+- *URL*  
+    Edit the InfluxDB URL.
+
+- *Database*  
+    Edit the InfluxDB database identifier.
+
+- *Username*  
+    Edit the InfluxDB username.
+
+- *Password*  
+    Edit the InfluxDB password.
+
+- [SAVE]  
+    Click this button to save any changes made.
+
+
+## Edit connection &ndash; Credentials InfluxDB driver V2
+
+*Database and reporting > Settings > Tab CONNECTIONS > Select a connection with InfluxDB driver V2*
+
+!![Edit credentials InfluxDB driver V2](../../Assets/Screenshots/DatabaseAndReporting/Settings/Connections/ScreenshotFehlt.png "[Edit credentials InfluxDB driver V2]")
+
+[comment]: <> (Screenshot ziehen / ziehen lassen)
+
+**Credentials** 
+
+- *URL*  
+    Edit the InfluxDB URL.
+
+- *Organization*  
+    Edit the InfluxDB organization name.
+
+- *Bucket*  
+    Edit the InfluxDB database identifier.
+
+- *API token*  
+    Edit the InfluxDB API token.
+
+- [SAVE]  
+    Click this button to save any changes made.
+
+    
+
+
