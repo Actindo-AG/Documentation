@@ -130,7 +130,7 @@
     Click this button to remove a tag from the *Tag columns* box. This button is displayed to the right of a newly added input line.
     
 - *Field columns*  
-    Edit the field(s) in this box to define the data to be written to the InfluxDB. Fields represent the actual values and are therefore mandatory.
+    Edit the field(s) in this box to define the data to be written to InfluxDB. Fields represent the actual values and are therefore mandatory.
 
 - ![Add](../../Assets/Icons/Plus03.png "[Add]") (Add)  
     Click this button to add a new input line to the *Field columns* box.
