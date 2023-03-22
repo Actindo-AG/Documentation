@@ -71,8 +71,8 @@ The list displays all available connections. Depending on the settings, the disp
 **Credentials**
 
 The fields displayed in the *Credentials* section vary depending on the selected driver version. For a detailed description of this section and the corresponding functions, see the applicable interface: 
-  - [Create connection &ndash; Credentials InfluxDB driver V1](#create-connection–-credentials-influxdb-driver-v1)   
-  - [Create connection &ndash; Credentials InfluxDB driver V2](#create-connection–-credentials-influxdb-driver-v2) 
+  - [Create connection &ndash; Credentials InfluxDB driver V1](#create-connection--credentials-influxdb-driver-v1)   
+  - [Create connection &ndash; Credentials InfluxDB driver V2](#create-connection--credentials-influxdb-driver-v2) 
     
 
 ## Create connection &ndash; Credentials InfluxDB driver V1
@@ -144,8 +144,8 @@ The fields displayed in the *Credentials* section vary depending on the selected
     Selected driver name. This drop-down list is read-only.
 
     The fields displayed in the *Credentials* section vary depending on the selected driver version. For a detailed description of this section and the corresponding functions, see the applicable interface: 
-  - [Edit connection &ndash; Credentials InfluxDB driver V1](#edit-connection–-credentials-influxdb-driver-v1)   
-  - [Edit connection &ndash; Credentials InfluxDB driver V2](#edit-connection–-credentials-influxdb-driver-v2) 
+  - [Edit connection &ndash; Credentials InfluxDB driver V1](#edit-connection--credentials-influxdb-driver-v1)   
+  - [Edit connection &ndash; Credentials InfluxDB driver V2](#edit-connection--credentials-influxdb-driver-v2) 
     
 
 ## Edit connection &ndash; Credentials InfluxDB driver V1
