@@ -1,6 +1,6 @@
 # Export item
 
-![Export item](../Assets/Screenshots/ProcessDocumentation/ExportItem.png "[Export item]")
+![Export item](../Assets/Screenshots/ProcessDocumentation/ExportItem/ExportItem.png "[Export item]")
 
 [comment]: <> (add screenshot)
 
@@ -102,6 +102,8 @@ In the following, it is described how to build a workflow template that is cover
 Within a workflow, several actions are performed. 
 In the following, all actions within the process are described in detail, specifying their function and their functional settings.
 
+> [Info] All actions described below are SAP specific actions and only available if the *SAP* module has been installed in your account.
+
 
 ### Trigger for the *Export item* workflow
 
@@ -112,7 +114,7 @@ The following recommended trigger is configured so that the process starts if a 
 
 #### Item updated trigger
 
-![Trigger Product updated](../Assets/Screenshots/ProcessDocumentation/TriggerProductUpdated.png "[Trigger Product updated]")
+![Trigger Product updated](../Assets/Screenshots/ProcessDocumentation/ExportItem/TriggerProductUpdated.png "[Trigger Product updated]")
 
 Configure the following settings for the *Product updated* trigger:
 
@@ -138,7 +140,7 @@ Configure the following settings for the *Product updated* trigger:
 
 ### Export item
 
-![Export item](../Assets/Screenshots/ProcessDocumentation/ExportItem.png "[Export item]")
+![Export item](../Assets/Screenshots/ProcessDocumentation/ExportItem/ExportItem.png "[Export item]")
 
 [comment]: <> (add screenshot)
 
