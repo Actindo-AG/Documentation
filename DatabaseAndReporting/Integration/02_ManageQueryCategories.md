@@ -130,7 +130,7 @@ At least one query category has been created, see [Create a query category](#cre
 1. Click the ![Edit](../../Assets/Icons/Edit03.png "[Edit]") (Edit) button to the right of the query category name.   
     The query category data is displayed in a window in the query category column. 
 
-    ![Query categories](../../Assets/Screenshots/DatabaseAndReporting/Settings/QueryCategories/EditQueryCategoryData.png "[Query categories]")
+    ![Query categories](../../Assets/Screenshots/DatabaseAndReporting/Settings/QueryCategories/CategoryData.png "[Query categories]")
 
 2. Modify the query category data as necessary.
 
@@ -202,7 +202,7 @@ At least one query category has been created, see [Create a query category](#cre
 1. Click the ![Edit](../../Assets/Icons/Edit03.png "[Edit]") (Edit) button to the right of the query category name.   
     The query category data is displayed in a . 
 
-    ![Query categories](../../Assets/Screenshots/DatabaseAndReporting/Settings/QueryCategories/EditQueryCategoryData.png "[Query categories]")
+    ![Query categories](../../Assets/Screenshots/DatabaseAndReporting/Settings/QueryCategories/CategoryData.png "[Query categories]")
 
 2. Click the ![Delete](../../Assets/Icons/Trash01.png "[Delete]") (Delete) button in the bottom left corner of the query category data window.   
     The deleted query category is removed from the query category column.
