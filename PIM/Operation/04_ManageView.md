@@ -1,11 +1,9 @@
-[!!DataHub](../../DataHub/Overview/01_General.md)
 [!!User interface Product list](../UserInterface/02a_List.md) 
 [!!Create a language in DataHub](../../DataHub/Integration/CreateLanguage.md)
 [!!Configure the language settings](../Integration/04_ConfigureLanguages.md)
 [!!Create a channel in DataHub](../../DataHub/Integration/CreateChannel.md)
 [!!Configure the channel settings](../Integration/05_ConfigureChannels.md)
 [!!Manage the catalogs](../Integration/06_ManageCatalogs.md)
-
 
 # Manage the view
 
@@ -121,7 +119,6 @@ No prerequisites to fulfill.
     - **Hide variants**   
         No variants are displayed in the product list.
 
-
 2. Select the desired variant view in the *Variants* drop-down list.
     Depending on the selection, the product list displays all products including their variants or only the single and master products.
 
@@ -149,7 +146,6 @@ No prerequisites to fulfill.
     + Click the *Catalog* drop-down list and select the desired catalog and category.
     + Click the *Variants* drop-down list and select the desired variant view.   
 
-
 2. If desired, adjust the displayed columns in the product list by following the steps below:
     + Click the [ ![Columns](../../Assets/Icons/Columns.png "[Columns]") Columns (x)] button.   
     + Click the *Column* drop-down list, select a column in the list and click the [ADD COLUMN] button to add the column to the columns displayed in the product list.
@@ -157,14 +153,12 @@ No prerequisites to fulfill.
     + Click and hold a column name and move the selected column to the desired position by using drag and drop. The number left to the column name displays the position number of the column in the product list.
     + Click the [APPLY] button to apply the changes.
 
-
 3. If desired, add a filter to the product list by following the steps below:
     + Click the [ ![Filter](../../Assets/Icons/Filter.png "[Filter]") Filter (x)] button.   
     + Click the *Column* drop-down list and select a column to which you want to add a filter.
     + Click the *Relation* drop-down list and select a filter relation. Depending on the selected column, the filter relations vary.
     + Click the *Value* drop-down list and enter a value for the filter.
     + Click the [ADD FILTER] button to apply the filter.
-
 
 4. Click the ![Points](../../Assets/Icons/Points01.png "[Points]") (Points) button next to the *View* drop-down list.   
     The view context menu is displayed.

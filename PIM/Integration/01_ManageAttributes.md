@@ -2,10 +2,8 @@
 [!!Manage the products](../Operation/01_ManageProducts.md)
 [!!Manage a variant set](./07_ManageVariantSets.md)
 [!!Manage an attribute set](./02_ManageAttributeSets.md)
-[!!DataHub](../../DataHub/Overview/01_General.md)
 [!!Manage the attributes in DataHub](../../DataHub/Integration/01_ManageAttribute.md)
 [!!Data type list](../../DataHub/UserInterface/04_DataTypeList.md)
-
 
 # Manage an attribute
 

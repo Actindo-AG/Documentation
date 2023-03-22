@@ -6,7 +6,7 @@
 
 You can manage products in different catalogs and assign them to categories in order to sort the products and find them faster.
 
-[comment]: <> (UI will be changed)
+[comment]: <> (UI buggy -> will be changed)
 
 ## Create a catalog
 
@@ -135,7 +135,7 @@ At least one catalog with one category has been created, see [Create a catalog](
 
     > [Info] To add an additional sub-category, repeat the steps **4** to **8**. You can create an unlimited number of sub-categories in an unlimited number of levels. The procedure to create a sub-category in another level is identical to creating a sub-category. Just select the category or sub-category in which you want to create another sub-category and click the corresponding plus sign in the column of the respective level.
 
-[comment]: <> (number of levels depends on screen size -> should it not be limited to a certain number of level?)
+[comment]: <> (number of levels depends on screen size -> should it not be limited to a certain number of level? -> FETA-20)
 
 10. Click the [SAVE] button in the upper right corner.   
     The new sub-category has been saved. The *Edit catalog* view is closed.

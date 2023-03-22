@@ -1,6 +1,5 @@
-[!!Manage a channel in DataHub](../../DataHub/Integration/04_ManageChannels.md)
 [!!Configure the channel settings](../Integration/05_ConfigureChannels.md)
-
+[!!Manage a channel in DataHub](../../DataHub/Integration/04_ManageChannels.md)
 
 # Channels
 

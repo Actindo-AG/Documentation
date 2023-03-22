@@ -1,7 +1,5 @@
-[!!DataHub](../../DataHub/Overview/01_General.md)
 [!!User interface Languages](../UserInterface/03d_Languages.md)
 [!!Manage the languages in DataHub](../../DataHub/Integration/05_ManageLanguages.md)
-
 
 # Configure the language settings
 

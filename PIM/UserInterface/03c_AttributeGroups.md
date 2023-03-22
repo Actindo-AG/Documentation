@@ -1,6 +1,5 @@
 [!!Manage an attribute group](../Integration/03_ManageAttributeGroups.md)
 
-
 # Attribute groups
 
 *PIM > Settings > Tab ATTRIBUTE GROUPS*
@@ -124,6 +123,7 @@ The list displays all attributes that are not assigned to the selected attribute
 
 - *ID*   
     Attribute identification number. The ID number is automatically assigned by the system.
+
 
 
 ## Edit attribute groups

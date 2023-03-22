@@ -1,12 +1,7 @@
 [!!Manage the view](../Operation/04_ManageView.md)
-[!!Create a product](../Operation/01_ManageProducts.md#create-a-product)
-[!!Edit a product](../Operation/01_ManageProducts.md#edit-a-single-product)
-[!!Mass editing](../Operation/01_ManageProducts.md#mass-editing)
-[!!Copy a product](../Operation/01_ManageProducts.md#copy-a-product)
-[!!Archive a product](../Operation/03_MoveProducts.md#archive-a-product)
-[!!Delete a product](../Operation/03_MoveProducts.md#delete-a-product)
+[!!Manage a product](../Operation/01_ManageProducts.md)
+[!!Move a product](../Operation/03_MoveProducts.md)
 [!!Data type list](../../DataHub/UserInterface/04_DataTypeList.md)
-
 
 # List
 
@@ -15,33 +10,33 @@
 ![Products](../../Assets/Screenshots/PIM/Products/List/Products.png "[Products]")
 
 - *View*   
-    Click the drop-down list to select the view. All created views are displayed in the drop-down list. Click the ![Points](../../Assets/Icons/Points01.png "[Points]") (Points) button to the right of the *View* drop-down list to display the context menu and create or edit a view.    
+    Click the drop-down list to select the view. All created views are displayed in the drop-down list. Click the ![Points](../../Assets/Icons/Points01.png "[Points]") (Points) button to the right of the *View* drop-down list to display the context menu and create a view.   
 
-    - View context menu   
-      Click the ![Points](../../Assets/Icons/Points01.png "[Points]") (Points) button to the right of the *View* drop-down list to display the context menu. The following menu entries are available:
+    - ![Points](../../Assets/Icons/Points01.png "[Points]") (Points)      
+        Click this button to the right of the *VIEW* drop-down list to display the context menu. The following menu entries are available:
 
-        - ![Create](../../Assets/Icons/Plus06.png "[Create]") create   
-            Click this entry to create a view. The *Create view* window is displayed.
+        - ![Create](../../Assets/Icons/Plus06.png "[Create]") create  
+            Click this entry to create a view. The *Create view* window is displayed, see [Create view](#create-view).
 
-        - ![Rename](../../Assets/Icons/Edit02.png "[Rename]") rename    
-            Click this entry to rename the selected view. The *Rename view* window is displayed. This menu entry is only displayed if a view has been selected.
+        - ![Rename](../../Assets/Icons/Edit02.png "[Rename]") rename  
+            Click this entry to rename the selected view. The *Rename view* window is displayed, see [Rename view](#rename-view). This menu entry is only displayed if a view has been selected.
 
-        - ![Reset](../../Assets/Icons/Reset.png "[Reset]") reset    
+        - ![Reset](../../Assets/Icons/Reset.png "[Reset]") reset  
             Click this entry to reset all unsaved changes to the settings of the selected view. This menu entry is only displayed if a view has been selected and any changes have been made to the view settings.
 
-        - ![Publish](../../Assets/Icons/Publish.png "[Publish]") publish    
+        - ![Publish](../../Assets/Icons/Publish.png "[Publish]") publish  
             Click this entry to publish the view. This menu entry is only displayed if a view has been selected and unpublished.
 
-        - ![Private view](../../Assets/Icons/Unpublish.png "[Unpublish]") private view    
+        - ![Unpublish](../../Assets/Icons/Unpublish.png "[Unpublish]") unpublish  
             Click this entry to unpublish the view. This menu entry is only displayed if a view has been selected and published.
 
-        - ![Save](../../Assets/Icons/Save.png "[Save]") save    
+        - ![Save](../../Assets/Icons/Save.png "[Save]") save  
             Click this entry to save the current view settings in the selected view. This menu entry is only displayed if a view has been selected.
 
             > [Info] When the settings of a view have been changed, an asterisk is displayed next to the view name. The asterisk is hidden as soon as the changes have been saved.
 
-        - ![Delete](../../Assets/Icons/Trash01.png "[Delete]") delete    
-            Click this entry to delete the selected view. A confirmation window is displayed to confirm the deletion. This menu entry is only displayed if a view has been selected.
+        - ![Delete](../../Assets/Icons/Trash01.png "[Delete]") delete  
+            Click this entry to delete the selected view. A confirmation window to confirm the deletion is displayed. This menu entry is only displayed if a view has been selected.
 
 [comment]: <> (when can I reset a view? -> cannot track when this entry is displayed; where is a view published?)
 
@@ -329,6 +324,11 @@ For each defining attribute a single field or box to define the attribute value 
 
 *PIM > Products > Tab LIST > Button Add > Button CREATE > Tab Variants > Select variant set > Button Add > Button Add multiple variants*
 
+The wizard to add multiple variants to the selected product is started. The wizard is composed of the following wizard windows:
+
+- [Select values](#select-values)
+- [Summary](#summary)
+
 #### Select values
 
 *PIM > Products > Tab LIST > Button Add > Button CREATE > Tab Variants > Select variant set > Button Add > Button Add multiple variants > Wizard window Select values*
@@ -430,7 +430,7 @@ The catalog box displays all selected categories and their level. All fields are
 
 ### Categories
 
-[comment]: <> (window needs title!)
+[comment]: <> (window needs title!-> FETA-22)
 
 *PIM > Products > Tab LIST > Button Add > Button CREATE > Tab Catalogs > Button EDIT ATTRIBUTE*
 
@@ -475,7 +475,7 @@ The box displays all associated products. All fields are read-only. If no produc
 - ![Eye](../../Assets/Icons/Eye01.png "[Eye]") (Eye)   
     The button is only displayed, when you hover over a product in the list.  
 
-[comment]: <> (what should be displayed? loading never ends...)
+[comment]: <> (what should be displayed? loading never ends... -> BUG-153)
 
 - ![Delete](../../Assets/Icons/Trash01.png "[Delete]") (Delete)   
     Click this button to delete the selected product from the list. The button is only displayed, when you hover over a product in the list.
@@ -518,26 +518,6 @@ The list displays all products. All fields are read-only.
 
 
 
-## Create product &ndash; UCS Warehouse
-
-*PIM > Products > Tab LIST > Button Add > Button CREATE > Tab UCS Warehouse*
-
-![UCS Warehouse](../../Assets/Screenshots/PIM/Products/List/UCSWarehouse/UCSWarehouseCreate.png "[UCS Warehouse]")
-
-In the *Create product* view, the notice *Available after saving the product.* is displayed in this tab. The warehouse information is displayed only after saving.  
-
-
-
-## Create product &ndash; UCS Marketplaces
-
-*PIM > Products > Tab LIST > Button Add > Button CREATE > Tab UCS Marketplaces*
-
-![UCS Marketplaces](../../Assets/Screenshots/PIM/Products/List/UCSMarketplaces/UCSMarketplacesCreate.png "[UCS Marketplaces]")
-
-In the *Create product* view, the notice *Available after saving the product.* is displayed in this tab. The marketplaces information is displayed only after saving.  
-
-
-
 ## Create product &ndash; Offers
 
 *PIM > Products > Tab LIST > Button Add > Button CREATE > Tab Offers*
@@ -575,7 +555,7 @@ In the *Create product* view, the notice *Available after saving the product.* i
 - ![Edit](../../Assets/Icons/Edit01.png "[Edit]") (Edit)   
     Click this button to edit the selected offer from the list. This button is only displayed if the checkbox of at least one offer is selected.
 
-[comment]: <> (not working -> if I want to edit an offer, a window is displayed loading all the time...)
+[comment]: <> (not working -> if I want to edit an offer, a window is displayed loading all the time... -> BUG-154)
 
 The list displays all created offers to this product. All fields are read-only.
 
@@ -591,7 +571,7 @@ The list displays all created offers to this product. All fields are read-only.
     - **Inactive**   
     - **Offline**
 
-[comment]: <> (when is an error displayed here? what is displayed? The Error code or message?)
+    If an error occurs when uploading the offer, the error message is displayed in the column.
 
 - *Connection*   
     Selected connection for the offer.
@@ -665,13 +645,13 @@ The list displays all created offers to this product. All fields are read-only.
 
 - *Change tracking mode*   
     Select the appropriate option for the change tracking mode (ETL mode). The following options are available:   
-    - ![Radionbutton](../../Assets/Icons/Radiobutton.png "[Radiobutton]") *Manual*   
+    - ![Radiobutton](../../Assets/Icons/Radiobutton.png "[Radiobutton]") *Manual*   
         Changes in a PIM product must be triggered manually to be applied to the offer. The initial offer is automatically applied.   
-    - ![Radionbutton](../../Assets/Icons/Radiobutton.png "[Radiobutton]") *Semi-automatic*   
+    - ![Radiobutton](../../Assets/Icons/Radiobutton.png "[Radiobutton]") *Semi-automatic*   
         Changes in a PIM product are automatically applied to the offer after confirmation. The initial offer is automatically applied without confirmation.   
-    - ![Radionbutton](../../Assets/Icons/Radiobutton.png "[Radiobutton]") *Semi-automatic, changes must be confirmed by another user*   
+    - ![Radiobutton](../../Assets/Icons/Radiobutton.png "[Radiobutton]") *Semi-automatic, changes must be confirmed by another user*   
         Changes in a PIM product are automatically applied to the offer after confirmation by another user. The initial offer is only applied after confirmation by another user.    
-    - ![Radionbutton](../../Assets/Icons/Radiobutton.png "[Radiobutton]") *Automatic*   
+    - ![Radiobutton](../../Assets/Icons/Radiobutton.png "[Radiobutton]") *Automatic*   
         Changes in a PIM product are automatically applied to the offer. The initial offer is also automatically applied.
 
 - *Offer status*    
@@ -694,11 +674,16 @@ The list displays all created offers to this product. All fields are read-only.
 
 *PIM > Products > Tab LIST > Button Add > Button CREATE > Tab Offers > Button Add > Button Add to multiple connections*
 
+The wizard to create offers for multiple connections is started. The wizard is composed of the following wizard windows:
+
+- [Select connections and status](#select-connections-and-status)
+- [Select destination attribute sets](#select-destination-attribute-sets)
+
 #### Select connections and status
 
 *PIM > Products > Tab LIST > Button Add > Button CREATE > Tab Offers > Button Add > Button Add to multiple connections > Wizard window Select connections and status*
 
-![Add to multiple connections](../../Assets/Screenshots/PIM/Products/List/Offers/MultipleConnections01.png "[Add to multiple connections]")
+![Select connections and status](../../Assets/Screenshots/PIM/Products/List/Offers/SelectConnectionsStatus.png "[Select connections and status]")
 
 **Select status and change tracking mode**
 
@@ -713,16 +698,14 @@ The list displays all created offers to this product. All fields are read-only.
 
 - Change tracking mode
     Select the appropriate option for the change tracking mode (ETL mode). The following options are available:   
-    - ![Radionbutton](../../Assets/Icons/Radiobutton.png "[Radiobutton]") *Manual*   
+    - ![Radiobutton](../../Assets/Icons/Radiobutton.png "[Radiobutton]") *Manual*   
         Changes in a PIM product must be triggered manually to be applied to the offer. The initial offer is automatically applied.   
-    - ![Radionbutton](../../Assets/Icons/Radiobutton.png "[Radiobutton]") *Semi-automatic*   
+    - ![Radiobutton](../../Assets/Icons/Radiobutton.png "[Radiobutton]") *Semi-automatic*   
         Changes in a PIM product are automatically applied to the offer after confirmation. The initial offer is automatically applied without confirmation.   
-    - ![Radionbutton](../../Assets/Icons/Radiobutton.png "[Radiobutton]") *Semi-automatic, changes must be confirmed by another user*   
+    - ![Radiobutton](../../Assets/Icons/Radiobutton.png "[Radiobutton]") *Semi-automatic, changes must be confirmed by another user*   
         Changes in a PIM product are automatically applied to the offer after confirmation by another user. The initial offer is only applied after confirmation by another user.    
-    - ![Radionbutton](../../Assets/Icons/Radiobutton.png "[Radiobutton]") *Automatic*   
+    - ![Radiobutton](../../Assets/Icons/Radiobutton.png "[Radiobutton]") *Automatic*   
         Changes in a PIM product are automatically applied to the offer. The initial offer is also automatically applied.
-
-
 
 **Select connections**
 
@@ -743,10 +726,10 @@ The list displays all created offers to this product. All fields are read-only.
 
 *PIM > Products > Tab LIST > Button Add > Button CREATE > Tab Offers > Button Add > Button Add to multiple connections > Wizard window Select destination attribute sets*
 
-![Add to multiple connections](../../Assets/Screenshots/PIM/Products/List/Offers/MultipleConnections02.png "[Add to multiple connections]")
+![Select destination attribute sets](../../Assets/Screenshots/PIM/Products/List/Offers/SelectDestinationAttributeSets.png "[Select destination attribute sets]")
 
-- *Destination attribute set for connection*   
-    Destination attribute set for the selected connection. The attribute set is automatically selected. This field is read-only. An own attribute set is assigned to each selected connection.
+- *Destination attribute set for connection "Connection name"*   
+    Click the drop-down list to select the destination attribute set for the selected connection. All available attribute sets for the respective connection are displayed in the list. A single drop-down list is displayed for each selected connection.
 
 - [< BACK]   
     Click this button to go back to the previous step. The *Select connections and status* wizard window is displayed.
@@ -858,7 +841,6 @@ The right side of the *Attributes* tab displays all attributes that are assigned
 - *Variant*   
     Indication that the selected product is a variant. This field is read-only. The value can be changed within the *Attributes* tab. This field is only displayed for variants.
 
-
 **Variants box**
 
 > [Info] If the product is a variant, the variants box is not displayed.
@@ -948,6 +930,11 @@ All defining attributes of the variant are displayed in this section.
 
 *PIM > Products > Tab LIST > Select product > Tab Variants > Select variant set > Button Add > Button Add multiple variants*
 
+The wizard to add multiple variants to the selected product is started. The wizard is composed of the following wizard windows:
+
+- [Select values](#select-values-1)
+- [Summary](#summary-1)
+
 #### Select values
 
 *PIM > Products > Tab LIST > Select product > Tab Variants > Select variant set > Button Add > Button Add multiple variants > Wizard window Select values*
@@ -1032,11 +1019,7 @@ The list displays all dependencies of the selected product. All fields are read-
     Identification number of the dependent entity.
 
 - *Dependent entity type*   
-    Type of the dependent entity. The following options are available:
-    - **Omni-Channel Offer**
-    - **UCS Product**
-
-[comment]: <> (what else?)
+    Type of the dependent entity. The available types depend on the installed plugins.
 
 - *Change tracking mode*   
     Change tracking mode (ETL mode) of the dependent entity. The following options are available:
@@ -1046,8 +1029,7 @@ The list displays all dependencies of the selected product. All fields are read-
     - **Automatic**
 
 - *Dependent entity friendly identifier*   
-
-[comment]: <> (what id number is that? How is it created?)
+    Further, more descriptive identifier of the dependent entity, for instance the SKU number or a bill number.
 
 - [RERUN MAPPING]   
     Click this button to rerun the mapping of the selected entity. This button is only displayed if the checkbox of at least one dependency is selected.
@@ -1145,7 +1127,7 @@ The box displays all associated products. All fields are read-only. If no produc
 - ![Eye](../../Assets/Icons/Eye01.png "[Eye]") (Eye)   
     The button is only displayed, when you hover over a product in the list.
 
-[comment]: <> (what should be displayed? loading never ends...)
+[comment]: <> (what should be displayed? loading never ends... BUG-153)
 
 - ![Delete](../../Assets/Icons/Trash01.png "[Delete]") (Delete)   
     Click this button to delete the selected product from the list. This button is only displayed if you hover over a product in the list.
@@ -1280,30 +1262,6 @@ The list displays the single entries of the selected product change. All fields 
 
 
 
-## Edit product &ndash; UCS Warehouse
-
-*PIM > Products > Select product > Tab UCS Warehouse*
-
-![UCS Warehouse](../../Assets/Screenshots/PIM/Products/List/UCSWarehouse/UCSWarehouseEdit.png "[UCS Warehouse]")
-
-This tab displays the *Basic data* and *Warehouse / Suppliers* sub-tabs. These sub-tabs are excerpts from the tabs in the *Warehouse* module: *Warehouse > Quick Booking > QUICK BOOKING > Select product*
-
-[comment]: <> (link to the Corresponding warehouse documentation? What about the buttons [HILFE] and [SPEICHERN]?)
-
-
-
-## Edit product &ndash; UCS Marketplaces
-
-*PIM > Products > Select product > Tab UCS Marketplaces*
-
-![UCS Marketplaces](../../Assets/Screenshots/PIM/Products/List/UCSMarketplaces/UCSMarketplacesEdit.png "[UCS Marketplaces]")
-
-This tab displays the *Basic data* and *Webshop* sub-tabs. These sub-tabs are excerpts from the tabs in the *Material management* module: *Material management > Product > PRODUCT > Select product*
-
-[comment]: <> (link to the Corresponding material management/Artikelverwaltung documentation? What about the buttons [HILFE] and [SPEICHERN]?)
-
-
-
 ## Edit product &ndash; Offers
 
 *PIM > Products > Select product > Tab Offers*
@@ -1338,11 +1296,10 @@ This tab displays the *Basic data* and *Webshop* sub-tabs. These sub-tabs are ex
     - **Automatic**   
         Changes in a PIM product are automatically applied to the offer. The initial offer is also automatically applied.
 
-
 - ![Edit](../../Assets/Icons/Edit01.png "[Edit]") (Edit)   
     Click this button to edit the selected offer from the list. This button is only displayed if the checkbox of at least one offer is selected.
 
-[comment]: <> (not working -> if I want to edit an offer, a window is displayed loading all the time...)
+[comment]: <> (not working -> if I want to edit an offer, a window is displayed loading all the time... -> BUG-154)
 
 The list displays all created offers to this product. All fields are read-only.
 
@@ -1364,7 +1321,7 @@ The list displays all created offers to this product. All fields are read-only.
     - **Inactive**   
     - **Offline**
 
-[comment]: <> (when is an error displayed here?)
+    If an error occurs when uploading the offer, the error message is displayed in the column.
 
 - *Connection*   
     Selected connection for the offer.
@@ -1438,13 +1395,13 @@ The list displays all created offers to this product. All fields are read-only.
 
 - *Change tracking mode*   
     Select the appropriate option for the change tracking mode (ETL mode). The following options are available:   
-    - ![Radionbutton](../../Assets/Icons/Radiobutton.png "[Radiobutton]") *Manual*   
+    - ![Radiobutton](../../Assets/Icons/Radiobutton.png "[Radiobutton]") *Manual*   
         Changes in a PIM product must be triggered manually to be applied to the offer. The initial offer is automatically applied.   
-    - ![Radionbutton](../../Assets/Icons/Radiobutton.png "[Radiobutton]") *Semi-automatic*   
+    - ![Radiobutton](../../Assets/Icons/Radiobutton.png "[Radiobutton]") *Semi-automatic*   
         Changes in a PIM product are automatically applied to the offer after confirmation. The initial offer is automatically applied without confirmation.   
-    - ![Radionbutton](../../Assets/Icons/Radiobutton.png "[Radiobutton]") *Semi-automatic, changes must be confirmed by another user*   
+    - ![Radiobutton](../../Assets/Icons/Radiobutton.png "[Radiobutton]") *Semi-automatic, changes must be confirmed by another user*   
         Changes in a PIM product are automatically applied to the offer after confirmation by another user. The initial offer is only applied after confirmation by another user.    
-    - ![Radionbutton](../../Assets/Icons/Radiobutton.png "[Radiobutton]") *Automatic*   
+    - ![Radiobutton](../../Assets/Icons/Radiobutton.png "[Radiobutton]") *Automatic*   
         Changes in a PIM product are automatically applied to the offer. The initial offer is also automatically applied.
 
 - *Offer status*    
@@ -1467,6 +1424,11 @@ The list displays all created offers to this product. All fields are read-only.
 
 *PIM > Products > Select product > Tab Offers > Button Add > Button Add to multiple connections*
 
+The wizard to create offers for multiple connections is started. The wizard is composed of the following wizard windows:
+
+- [Select connections and status](#select-connections-and-status-1)
+- [Select destination attribute sets](#select-destination-attribute-sets-1)
+
 #### Select connections and status
 
 *PIM > Products > Select product > Tab Offers > Button Add > Button Add to multiple connections > Wizard window Select connections and status*
@@ -1485,15 +1447,14 @@ The list displays all created offers to this product. All fields are read-only.
         The offer is unknown to the marketplace and therefore cannot be sold there.
 
 - Select the appropriate change tracking mode. The following options are available:   
-    - ![Radionbutton](../../Assets/Icons/Radiobutton.png "[Radiobutton]") *manual*   
+    - ![Radiobutton](../../Assets/Icons/Radiobutton.png "[Radiobutton]") *manual*   
         Changes in a PIM product must be triggered manually to be applied to the offer. The initial offer is automatically applied.   
-    - ![Radionbutton](../../Assets/Icons/Radiobutton.png "[Radiobutton]") *semi-automatic*   
+    - ![Radiobutton](../../Assets/Icons/Radiobutton.png "[Radiobutton]") *semi-automatic*   
         Changes in a PIM product are automatically applied to the offer after confirmation in the *Omni-Channel* module. The initial offer is automatically applied without confirmation.   
-    - ![Radionbutton](../../Assets/Icons/Radiobutton.png "[Radiobutton]") *semi-automatic, changes must be confirmed by another user*   
+    - ![Radiobutton](../../Assets/Icons/Radiobutton.png "[Radiobutton]") *semi-automatic, changes must be confirmed by another user*   
         Changes in a PIM product are automatically applied to the offer after confirmation in the *Omni-Channel* module by another user. The initial offer is only applied after confirmation by another user.    
-    - ![Radionbutton](../../Assets/Icons/Radiobutton.png "[Radiobutton]") *automatic*   
+    - ![Radiobutton](../../Assets/Icons/Radiobutton.png "[Radiobutton]") *automatic*   
         Changes in a PIM product are automatically applied to the offer. The initial offer is also automatically applied.
-
 
 **Select connections**
 

@@ -3,7 +3,6 @@
 [!!Manage the attribute sets](./02_ManageAttributeSets.md)
 [!!Manage the products](../Operation/01_ManageProducts.md)
 
-
 # Manage an attribute group
 
 The attribute groups serve the logical organization of the product attributes. Attribute groups are organized in a tree structure with a maximum depth of two levels.
@@ -13,6 +12,7 @@ Once a sub-group has been created for an attribute group, attributes can no long
 If the attribute group already contained attributes, these attributes are automatically moved to first sub-group.
 
 You can create attribute groups, edit attribute groups and the sorting of the attribute groups themselves as well as the sorting of the attributes within a group.
+
 
 ## Create an attribute group
 
@@ -119,7 +119,6 @@ At least one attribute group has been created, see [Create an attribute group](#
     > [Info] Note that if the attribute group already contained attributes, these attributes are automatically moved to first sub-group.
 
 
-
 ### Change the order of attribute groups
 
 The order of attribute groups in the *ATTRIBUTE GROUPS* tab corresponds to the order of attributes groups in the product view.
@@ -149,7 +148,6 @@ At least two attribute groups have been created, see [Create an attribute group]
 
 4. Click the [SAVE] button in the upper right corner.  
     The new attribute group order has been saved. The *Edit attribute groups* view is closed.
-
 
 
 ### Delete an attribute group
@@ -187,7 +185,6 @@ At least one attribute group has been created, see [Create an attribute group](#
 
 4. Click the [SAVE] button in the upper right corner.  
     The attribute group has been deleted. The *Edit attribute groups* view is closed.
-
 
 
 ### Add attributes to a group
@@ -234,7 +231,6 @@ If you add an attribute to an attribute group that is already added to another g
     > [Info] The new attributes are always added at the end of the attribute list. If you want to change the position of an attribute in the list, see [Change the order of attributes within a group](#change-the-order-of-attributes-within-a-group).
 
 
-
 ### Change the order of attributes within a group
 
 The order of attributes within an attribute group in the *ATTRIBUTE GROUPS* tab corresponds to the order of attributes within a group in the product view. You can change the order to display a certain attribute in a different place in the attribute group when creating or editing a product.   
@@ -271,7 +267,6 @@ Just select the attribute sub-group instead of the group and follow the steps de
 
 5. Click the [SAVE] button in the upper right corner.
     The new order of attributes within the selected attribute group has been saved. The *Assigned attributes (Sorting mode)* view is closed.
-
 
 
 ### Remove attributes from a group

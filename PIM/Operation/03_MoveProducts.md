@@ -1,10 +1,10 @@
 [!!User interface Products](../UserInterface/02_Products.md) 
 [!!Manage the products](./01_ManageProducts.md)
 
-
 # Move a product
 
 Move a product to either archive it, move it to the recycle bin, delete it permanently or restore it.
+
 
 ## Archive a product
 

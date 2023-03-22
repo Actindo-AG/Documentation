@@ -152,7 +152,7 @@ At least one variant set has been created, see [Create a variant set](#create-a-
 3. Click the [SAVE] button in the upper right corner.   
     The changes have been saved. The *Edit variant set* view is closed.
 
-[comment]: <> (I have to refresh the list to apply the changes - is that a bug?)
+[comment]: <> (I have to refresh the list to apply the changes - is that a bug? -> FETA-21)
 
 
 
@@ -160,7 +160,7 @@ At least one variant set has been created, see [Create a variant set](#create-a-
 
 You can remove defining and changeable attributes from the variant set. Note that at least one defining attribute must be assigned. If one or more changeable attributes have been previously assigned to the variant set, at least one changeable attribute must remain assigned.
 
-[comment]: <> (is that a bug?)
+[comment]: <> (is that a bug? -> BUG-141)
 
 #### Prerequisites
 
@@ -186,4 +186,4 @@ A variant set has been created, see [Create a variant set](#create-a-variant-set
 4. Click the [SAVE] button in the upper right corner.   
     The changes have been saved. The *Edit variant set* view is closed.
 
-[comment]: <> (I have to refresh the list to apply the changes - is that a bug?)
+[comment]: <> (I have to refresh the list to apply the changes - is that a bug? -> FETA-21)
