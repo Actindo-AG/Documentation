@@ -33,7 +33,7 @@ In the following, it is described how to build a workflow template that is cover
 #### Prerequisites
 
 - The *SAP Business One Integration* has been installed.
-- A SAP item has been created or updated.
+- A SAP item has been updated.
 
 [comment]: <> (add prerequisites)
 
@@ -107,20 +107,20 @@ In the following, all actions within the process are described in detail, specif
 
 ### Trigger for the *Export item* workflow
 
-The following recommended trigger is configured so that the process starts if a SAP item is updated. Further, the conditions specify that the process only starts if an item code for the SAP item is set. 
+The following recommended trigger is configured so that the process starts if a SAP item is updated, for instance after an item has been created from a PIM product. Further, the conditions specify that the process only starts if an item code for the SAP item is set. 
 
 > [Info] If desired, the triggers for the *Export item* workflow and their subordinate conditions can be adjusted according to the custom requirements, see [Manage the triggers](../ActindoWorkFlow/Operation/03_ManageTriggers.md). 
 
 
 #### Item updated trigger
 
-![Trigger Product updated](../Assets/Screenshots/ProcessDocumentation/ExportItem/TriggerProductUpdated.png "[Trigger Product updated]")
+![Trigger item updated](../Assets/Screenshots/ProcessDocumentation/ExportItem/TriggerItemUpdated.png "[Trigger item updated]")
 
-Configure the following settings for the *Product updated* trigger:
+Configure the following settings for the *Item updated* trigger:
 
 |    |    |
 |----|----|
-|**Name** | Product updated |
+|**Name** | Item updated |
 |**Model** | Actindo\Modules\Actindo\SapB1Integration\Models\Item |
 |**Event** | After saving | 
 |**Condition fulfillment** | If all are met |   
