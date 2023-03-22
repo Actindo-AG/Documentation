@@ -35,7 +35,7 @@ No prerequisites to fulfill.
 2. Click the plus sign in the query category column.    
     The *Add element* window is displayed in the query category column.
 
-    ![Add element](../../Assets/Screenshots/DatabaseAndReporting/Settings/QueryCategories/AddElement.png "[Add element]")
+    ![Add element](../../Assets/Screenshots/DatabaseAndReporting/Settings/QueryCategories/AddElementCategory.png "[Add element]")
 
 3. Enter a name for the query category in the *Name* field.
 
@@ -130,7 +130,7 @@ At least one query category has been created, see [Create a query category](#cre
 1. Click the ![Edit](../../Assets/Icons/Edit03.png "[Edit]") (Edit) button to the right of the query category name.   
     The query category data is displayed in a window in the query category column. 
 
-    ![Query categories](../../Assets/Screenshots/DatabaseAndReporting/Settings/QueryCategories/CategoryData.png "[Query categories]")
+    ![Query categories](../../Assets/Screenshots/DatabaseAndReporting/Settings/QueryCategories/EditQueryCategoryData.png "[Query categories]")
 
 2. Modify the query category data as necessary.
 
@@ -202,7 +202,7 @@ At least one query category has been created, see [Create a query category](#cre
 1. Click the ![Edit](../../Assets/Icons/Edit03.png "[Edit]") (Edit) button to the right of the query category name.   
     The query category data is displayed in a . 
 
-    ![Query categories](../../Assets/Screenshots/DatabaseAndReporting/Settings/QueryCategories/CategoryData.png "[Query categories]")
+    ![Query categories](../../Assets/Screenshots/DatabaseAndReporting/Settings/QueryCategories/EditQueryCategoryData.png "[Query categories]")
 
 2. Click the ![Delete](../../Assets/Icons/Trash01.png "[Delete]") (Delete) button in the bottom left corner of the query category data window.   
     The deleted query category is removed from the query category column.
