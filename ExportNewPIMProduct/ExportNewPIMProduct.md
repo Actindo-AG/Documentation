@@ -13,7 +13,7 @@ This workflow is the first part of a two-step process to export a new PIM produc
 
 |    |    |  
 |----|----|
-|**Purpose** | Export a new PIM product to SAP. |
+|**Purpose** | Create a SAP item from a PIM product. |
 |**Affected entities** | |
 |**Included plugins** | Workflows <br> PIM <br> DataHub | 
 |**Included third party software** | SAP Business One |   
@@ -28,7 +28,7 @@ This workflow is the first part of a two-step process to export a new PIM produc
 
 ## How to set up an export PIM product workflow
 
-After a PIM product has been created or a PIM product has been changed, the export of the PIM product to SAP can be  further processed in Actindo.
+After a PIM product has been created or a PIM product has been changed, the creation of a SAP item from the PIM product can be further processed in Actindo.
 In the following, it is described how to build a workflow template that is covering the processes below:
 - Verification if a PIM product already exists in the SAP 
 - Creation of a SAP item from the PIM product
