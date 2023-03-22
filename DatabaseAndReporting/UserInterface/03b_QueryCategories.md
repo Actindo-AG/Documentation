@@ -4,7 +4,7 @@
 
 *Database and reporting > Settings > Tab QUERY CATEGORIES*
 
-![Connections](../../Assets/Screenshots/DatabaseAndReporting/Settings/QueryCategories/QuerySubCategoryCreated.png "[Connections]")
+![Query categories](../../Assets/Screenshots/DatabaseAndReporting/Settings/QueryCategories/QueryCategories.png "[Query categories]")
 
 **Edit tree**
 
@@ -17,6 +17,13 @@
 - [SAVE]   
     Click this button to save all changes. The *Submitting data* view is displayed while saving. The changes are displayed in the tree structure.
 
+- ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add)   
+    Click this button to add a query category or sub-category. A plus sign is displayed in each displayed column. Click the plus sign in the desired column to add a new query category or sub-category to the selected query category. The *Add element* window is displayed, see [Add element](#add-element).    
+
+    > [Info] If you add a query category, a second column is displayed. When you click the button ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) again, you can also create a query sub-category in the second column. Each time, you add a new query sub-category, the next column is displayed. You can add an unlimited number of query sub-categories in an unlimited number of levels. 
+
+The following buttons and fields are only displayed when you have added a query category.
+
 - ![Sort](../../Assets/Icons/Sort01.png "[Sort]") (Sort)   
     Click and hold this button to move the selected query category to another position in the list using drag and drop.
 
@@ -25,26 +32,19 @@
 - ![Edit](../../Assets/Icons/Edit03.png "[Edit]") (Edit)   
     Click this button to edit the selected query category. The *Edit query category data* window is displayed, see [Edit query category data](#edit-query-category-data). This button is only displayed if you hover over the query category.
 
-- Query category   
-    Top query category. Click the query category to display the query sub-categories column and all assigned query sub-categories. Hover over the query category to display the ![Edit](../../Assets/Icons/Edit03.png "[Edit]") (Edit) button.
+- First level query category   
+    Top level query category. Click the query category to display the second level column and all assigned query sub-categories. Hover over the query category to display the ![Edit](../../Assets/Icons/Edit03.png "[Edit]") (Edit) button.
 
-- Query sub-category   
-    Query sub-category to the selected query category. Hover over the query sub-category to display the ![Edit](../../Assets/Icons/Edit03.png "[Edit]") (Edit) button.
+- Second level query category   
+    Query sub-category to the selected first level query category. Click the query category to display the third level column and all assigned query sub-categories. Hover over the query category to display the ![Edit](../../Assets/Icons/Edit03.png "[Edit]") (Edit) button.
 
-- ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add)   
-    Click this button to add a query category or sub-category. A plus sign is displayed in each displayed column. Click the plus sign in the desired column to add a new query category or sub-category to the selected query category. The *Add element* window is displayed, see [Add element](#add-element).    
+- x level query category   
+    Query sub-category to the selected query category. Click the query category to display the next lower level column and all assigned query sub-categories. Hover over the category to display the ![Edit](../../Assets/Icons/Edit03.png "[Edit]") (Edit) button.
 
-    > [Info] Query categories are organized in a tree structure with any desired number of levels (sub-categories). 
-
-- [CANCEL]  
-    Click this button to cancel editing the tree. All changes are rejected.
-
-- [SAVE]  
-    Click this button to save any changes made.
 
 ### Add element
 
-*Database and reporting > Settings > Tab QUERY CATEGORIES > Button Edit > Button Add*
+*Database and reporting > Settings > Tab QUERY CATEGORIES > Button Add*
 
 ![Add element](../../Assets/Screenshots/DatabaseAndReporting/Settings/QueryCategories/AddElement.png "[Add element]")
 
@@ -54,8 +54,6 @@
     Click the drop-down list and select the system language in which the *Name (Language)* and *Description (Language)* fields are displayed. By default, the following options are available:
     - **English (United States)**
     - **Deutsch (Deutschland)**
-
-[comment]: <> (Check!)
 
 - *Name (Language)*   
     Enter a query category name in the selected language.
@@ -74,9 +72,9 @@
 
 ### Edit query category data
 
-*Database and reporting > Settings > Tab QUERY CATEGORIES > Button Edit > Hover over query category > Button Edit*
+*Database and reporting > Settings > Tab QUERY CATEGORIES > Hover over query category > Button Edit*
 
-![Edit query category data](../../Assets/Screenshots/DatabaseAndReporting/Settings/QueryCategories/EditElement.png "[Edit query category data]")
+![Edit query category data](../../Assets/Screenshots/DatabaseAndReporting/Settings/QueryCategories/CategoryData.png "[Edit query category data]")
 
 > [Info] The *Edit query category data* window for query categories and sub-categories is identical.
 
