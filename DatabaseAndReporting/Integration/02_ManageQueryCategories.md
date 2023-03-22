@@ -59,7 +59,7 @@ No prerequisites to fulfill.
     
 ## Edit a query category
 
-After you have created a query category, you can edit it. You can create sub-categories, edit the query category details, change the order of query categories, and delete categories.
+After you have created a query category, you can edit it. You can create sub-categories, edit the query category data, change the order of query categories, and delete categories.
 
 ### Create a query sub-category
 
@@ -109,11 +109,11 @@ At least one query category has been created, see [Create a query category](#cre
     > [Info] It may be necessary to press the **F5** key to initialize the *Core1 Platform* for the changes to be displayed in the *Queries* view. 
 
 
-### Edit the query category details
+### Edit the query category data
 
 Edit the query category name and key as necessary.
 
-The procedure to edit the details of query categories and sub-categories is identical. Just select a sub-category instead of a category and follow the steps described below.
+The procedure to edit the data of query categories and sub-categories is identical. Just select a sub-category instead of a category and follow the steps described below.
 
 [comment]: <> (Kann man auch das Key ändern? Sinnvoll?)
 
@@ -128,13 +128,13 @@ At least one query category has been created, see [Create a query category](#cre
 ![Query categories](../../Assets/Screenshots/DatabaseAndReporting/Settings/QueryCategories/QueryCategory.png "[Query categories]")
 
 1. Click the ![Edit](../../Assets/Icons/Edit03.png "[Edit]") (Edit) button to the right of the query category name.   
-    The *Edit element* window is displayed. 
+    The query category data is displayed in a window in the query category column. 
 
-    ![Query categories](../../Assets/Screenshots/DatabaseAndReporting/Settings/QueryCategories/EditElement.png "[Query categories]")
+    ![Query categories](../../Assets/Screenshots/DatabaseAndReporting/Settings/QueryCategories/EditQueryCategoryData.png "[Query categories]")
 
-2. Modify the query category details as necessary.
+2. Modify the query category data as necessary.
 
-3. Click the [SAVE] button in the *Edit element* window.  
+3. Click the [SAVE] button in the bottom right corner of the query category data window.  
     The changes have been saved to the query category column. 
 
     > [Info] If you want to change the order of the query sub-categories in the list, see [Change the order of query categories](#change-the-order-of-query-categories).
@@ -200,11 +200,11 @@ At least one query category has been created, see [Create a query category](#cre
 
 
 1. Click the ![Edit](../../Assets/Icons/Edit03.png "[Edit]") (Edit) button to the right of the query category name.   
-    The *Edit element* window is displayed. 
+    The query category data is displayed in a . 
 
-    ![Query categories](../../Assets/Screenshots/DatabaseAndReporting/Settings/QueryCategories/EditElement.png "[Query categories]")
+    ![Query categories](../../Assets/Screenshots/DatabaseAndReporting/Settings/QueryCategories/EditQueryCategoryData.png "[Query categories]")
 
-2. Click the ![Delete](../../Assets/Icons/Trash01.png "[Delete]") (Delete) button in the bottom left corner of the *Edit element* window.   
+2. Click the ![Delete](../../Assets/Icons/Trash01.png "[Delete]") (Delete) button in the bottom left corner of the query category data window.   
     The deleted query category is removed from the query category column.
 
 3. Click the [SAVE] button in the upper right corner. 
