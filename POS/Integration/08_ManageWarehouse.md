@@ -1,7 +1,6 @@
-[!!Warehouse](RetailSuiteWarehousing)
-[!!User Interface Warehouse](../../RetailSuiteWarehousing/UserInterface/00_UserInterface.md)
 [!!Configure the warehouse for POS](./01_ConfigureWarehouse.md)
 
+[comment]: <> (add link to Warehouse if available)
 
 # Manage the POS warehouse
 
@@ -25,17 +24,17 @@ Check if the stock allocation is correctly configured so that the store stock is
 1.  Search for the target channel of the appropriate POS store in the *Target channel* column and check the settings in the corresponding row.
 
 2. If necessary, edit the settings as described in the following:
-  - Select the **Calculation, stock** option in the drop-down list in the *Stock calculation* column.   
-    The fields in the warehouse columns are unlocked.
+    + Select the **Calculation, stock** option in the drop-down list in the *Stock calculation* column.   
+        The fields in the warehouse columns are unlocked.
 
-  - Double-click the option in a warehouse column to display the drop-down list.
+    + Double-click the option in a warehouse column to display the drop-down list.
+    
+    + Select the **Yes** option in the drop-down list to include the corresponding warehouse in the stock calculation or select the **No** option to exclude it.
 
-  - Select the **Yes** option in the drop-down list to include the corresponding warehouse in the stock calculation or select the **No** option to exclude it.
-
-  > [Info] Select for each warehouse whether it should be included or not.
+    > [Info] Select for each warehouse whether it should be included or not.
 
 3. Click the [SAVE] button in the bottom right corner.   
-  The stock allocation is saved. The stock is calculated from all selected warehouses.
+    The stock allocation is saved. The stock is calculated from all selected warehouses.
 
 
 
@@ -58,18 +57,18 @@ Check if the stock withdrawal matrix is correctly configured so that a specific 
 
 2. If necessary, edit the settings as described in the following:
 
-  + Select the option **--all--** in the drop-down list in the *Product group* column.
+    + Select the option **--all--** in the drop-down list in the *Product group* column.
 
-  + Select the output channel via which you want to create offers in the drop-down list in the *Marketplace* column.
+    + Select the output channel via which you want to create offers in the drop-down list in the *Marketplace* column.
 
-  + Select the option **--all--** in the drop-down list in the *Sub-account* column.
+    + Select the option **--all--** in the drop-down list in the *Sub-account* column.
 
-  + Select the option **--all--** in the drop-down list in the *Shipping provider* column.
+    + Select the option **--all--** in the drop-down list in the *Shipping provider* column.
 
-  + Select the warehouse from which you want to take the stock in the drop-down list in the *Warehouse* column.
+    + Select the warehouse from which you want to take the stock in the drop-down list in the *Warehouse* column.
 
 3. Click the button [SAVE ASSIGNMENTS] in the bottom right corner.   
-  The new assignment in the stock withdrawal matrix is saved.
+    The new assignment in the stock withdrawal matrix is saved.
 
 
 
@@ -89,17 +88,16 @@ Manage the warehouse logistics for POS product to ensure that products are activ
 ![Product list](../../Assets/Screenshots/RetailSuiteWarehousing/QuickBooking/ProductList.png "[Product list]")
 
 1.  Double click the article in the article list that you want to check. Alternatively, first right click the article and click then the **Open** entry in the displayed context menu.    
-  The article details are displayed on several tabs below the article list. The *Basic data* tab is preselected.
+    The article details are displayed on several tabs below the article list. The *Basic data* tab is preselected.
 
-  ![Basic data](../../Assets/Screenshots/RetailSuiteWarehousing/QuickBooking/BasicData/BasicData.png "[Basic data]")
+    ![Basic data](../../Assets/Screenshots/RetailSuiteWarehousing/QuickBooking/BasicData/BasicData.png "[Basic data]")
 
 2. Click the *Warehouse logistics active for this product* drop-down list on the right side of the *Basic data* tab and select the **YES** option.
 
-
 3. Click the [Save] button in the bottom right corner of the *Basic data* tab.   
-  The *Successfully saved* message is displayed at the top. The active warehouse logistics for this article is saved.
+    The *Successfully saved* message is displayed at the top. The active warehouse logistics for this article is saved.
 
-  ![Successfully saved](../../Assets/Screenshots/RetailSuiteWarehousing/QuickBooking/SuccessfullySaved.png "[Successfully saved]")
+    ![Successfully saved](../../Assets/Screenshots/RetailSuiteWarehousing/QuickBooking/SuccessfullySaved.png "[Successfully saved]")
 
 
 
@@ -122,47 +120,45 @@ You can adjust the stock quantity of your POS products, for instance because of 
 
 1.  Double click the article in the article list that you want to check. Alternatively, first right click the article and click then the **Open** entry in the displayed context menu.    
 
-  ![Context menu](../../Assets/Screenshots/RetailSuiteWarehousing/QuickBooking/ContextMenu.png "[Context menu]")   
+    ![Context menu](../../Assets/Screenshots/RetailSuiteWarehousing/QuickBooking/ContextMenu.png "[Context menu]")   
 
-  The article details are displayed on several tabs below the article list. The *Basic data* tab is preselected.
+    The article details are displayed on several tabs below the article list. The *Basic data* tab is preselected.
 
-  ![Basic data](../../Assets/Screenshots/RetailSuiteWarehousing/QuickBooking/BasicData/BasicData.png "[Basic data]")
+    ![Basic data](../../Assets/Screenshots/RetailSuiteWarehousing/QuickBooking/BasicData/BasicData.png "[Basic data]")
 
 2. Click the *Warehouse / Suppliers* tab.   
-  The the *Warehouse / Suppliers* tab is displayed. The *Warehouse management* sub-tab is preselected.
+    The the *Warehouse / Suppliers* tab is displayed. The *Warehouse management* sub-tab is preselected.
 
-  ![Warehouse management](../../Assets/Screenshots/RetailSuiteWarehousing/QuickBooking/WarehouseSuppliers/WarehouseManagement/WarehouseManagement.png "[Warehouse management]")
+    ![Warehouse management](../../Assets/Screenshots/RetailSuiteWarehousing/QuickBooking/WarehouseSuppliers/WarehouseManagement/WarehouseManagement.png "[Warehouse management]")
 
-  > [Info] Check if a warehouse is displayed in the *Storage locations* section. You can only change the stock for the POS article, if a warehouse is assigned.
+    > [Info] Check if a warehouse is displayed in the *Storage locations* section. You can only change the stock for the POS article, if a warehouse is assigned.
 
 3. Click the [ADD BOOKING] button at the bottom of the *Stocks* section.   
-  A window to enter the booking is displayed.
+    A window to enter the booking is displayed.
 
-  ![Add booking](../../Assets/Screenshots/RetailSuiteWarehousing/QuickBooking/WarehouseSuppliers/WarehouseManagement/AddBooking.png "[Add booking]")
+    ![Add booking](../../Assets/Screenshots/RetailSuiteWarehousing/QuickBooking/WarehouseSuppliers/WarehouseManagement/AddBooking.png "[Add booking]")
 
 4. Configure the following settings:
 
-  + Click the *Stock location* drop-down list and select the appropriate warehouse from which you want to adjust the stock.
+    + Click the *Stock location* drop-down list and select the appropriate warehouse from which you want to adjust the stock.
 
-  + Click the *Posting type* drop-down list and select the appropriate reason for the booking. The following options are available:
-      - **Reservation**
-      - **Sale**
-      - **Order**
-      - **Purchase**
-      - **Stocktaking entry**
-      - **Stock transfer**
-      - **Return**
-      - **Problem**
-      - **Pre-reserve**
+    + Click the *Posting type* drop-down list and select the appropriate reason for the booking. The following options are available:
+        - **Reservation**
+        - **Sale**
+        - **Order**
+        - **Purchase**
+        - **Stocktaking entry**
+        - **Stock transfer**
+        - **Return**
+        - **Problem**
+        - **Pre-reserve**
 
+    + Enter the number by which the stock should be changed in the *Change* field.
+        > [Info] For a stock increase, enter a positive number. For a stock decrease, enter a negative number with a minus sign as a prefix. In the right column of the window, the old stock and a preview of the new stock are displayed.  
 
-  + Enter the number by which the stock should be changed in the *Change* field.
+    + If desired, select the date on which the stock change will be booked in the *Posting date* field. By default, the current date is preselected.
 
-    > [Info] For a stock increase, enter a positive number. For a stock decrease, enter a negative number with a minus sign as a prefix. In the right column of the window, the old stock and a preview of the new stock are displayed.  
-
-  + If desired, select the date on which the stock change will be booked in the *Posting date* field. By default, the current date is preselected.
-
-  + If desired, enter a comment in the *Comment* field.
+    + If desired, enter a comment in the *Comment* field.
 
 5. Click the [SAVE & NEW] button in the bottom right corner of the window.   
-  The window is closed. The new stock is displayed in the *Stocks* section.
+    The window is closed. The new stock is displayed in the *Stocks* section.

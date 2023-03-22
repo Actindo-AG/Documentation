@@ -1,7 +1,6 @@
-[!!User Interface Sales](../UserInterface/01_Sales.md)
-[!!Create a pay desk](../Integration/06_CreateStore.md#create-a-pay-desk)
-[!!Close a pay desk](./05_ManageCashRegister.md#close-a-pay-desk)
-
+[!!Manage the cash register](./05_ManageCashRegister.md)
+[!!Create a store in POS](../Integration/06_CreateStore.md)
+[!!User interface Sales](../UserInterface/01_Sales.md)
 
 # Open a pay desk
 
@@ -29,13 +28,13 @@ To perform any operation on the pay desk, you must first open one.
 2. Select a pay desk in the *Select pay desk* drop-down list.
 
 3. Click the [Use] button in the bottom right corner.   
-  A window to select the opening float is diplayed.
+    A window to select the opening float is diplayed.
 
-![Opening Float](../../Assets/Screenshots/POS/Sales/OpeningFloat.png "[Opening Float]")
+    ![Opening Float](../../Assets/Screenshots/POS/Sales/OpeningFloat.png "[Opening Float]")
 
 4. Enter the opening float in the *Opening float* field.
 
-> [Info] If the opening float differs from the closing float of the pay desk, an opening difference is recorded in the payment tally of the cash register, which is synced to the *Accounting* module. The opening difference is also indicated in the shift summary.
+    > [Info] If the opening float differs from the closing float of the pay desk, an opening difference is recorded in the payment tally of the cash register, which is synced to the *Accounting* module. The opening difference is also indicated in the shift summary.
 
 5. Click the button [Open] in the bottom right corner.   
-  The selected pay desk is opened. The selected tab is displayed.
+    The selected pay desk is opened. The selected tab is displayed.

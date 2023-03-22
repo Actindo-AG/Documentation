@@ -1,7 +1,7 @@
-[!!Accounting](Accounting)
-[!!User Interface Accounting](../../RetailSuiteAccounting/UserInterface/00_UserInterface.md)
+[!!Create a store in POS](./06_CreateStore.md)
 [!!Manage the POS order process](../Operation/06_ManageOrderProcess.md)
 
+[comment]: <> (add link to Accounting module if available)
 
 # Manage the accounts for POS
 
@@ -18,7 +18,9 @@ The accounts are all created in the same way. The account creation is explained 
 
 You may check the availability of a certain account number before creating it as account numbers can only be assigned once.    
 Each account number is assigned to a specific number range, which indicates the account class.    
-For detailed information about the account classes, see [User Interface Accounting](../../RetailSuiteAccounting/UserInterface/00_UserInterface.md).
+
+[comment]: <> (add link to account classes in Accounting module if available)
+
 
 #### Prerequisites
 
@@ -32,7 +34,7 @@ For detailed information about the account classes, see [User Interface Accounti
 ![Account availability](../../Assets/Screenshots/RetailSuiteAccounting/Settings/Accounts/AccountAvailability.png "[Account availability]")
 
 1. Select the corresponding number range in the *Account class* drop-down list.   
-  All accounts of the selected account class are displayed in the list.
+    All accounts of the selected account class are displayed in the list.
 
 2. Check which account numbers are still available by navigating through the list.
 
@@ -59,9 +61,10 @@ The account availability is checked, see [Check the account availability](#check
 3. Select a tax type for the account in the *Tax type* drop-down list .
 
 4. Select the corresponding function for the account in the *Function* drop-down list .   
-  For detailed information, see [User Interface Accounting](../../RetailSuiteAccounting/UserInterface/00_UserInterface.md).
+
+[comment]: <> (add link to Accounting module if available)
 
 5. Click the [SPEICHERN & NEU] button.   
-  The new account is displayed in the account list.
+    The new account is displayed in the account list.
 
 > [Info] Repeat this procedure for each account you want to create.

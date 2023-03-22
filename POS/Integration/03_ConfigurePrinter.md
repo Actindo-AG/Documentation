@@ -1,7 +1,6 @@
-[!!Printing](Printing)
-[!!User Interface Printing](../../Printing/UserInterface/00_UserInterface.md)
-[comment]: <> (add link to Install the APS)
+[!!Create a store in POS](06_CreateStore.md)
 
+[comment]: <> (add link to Install the APS, link to Printing module if available)
 
 # Configure the printer client for POS
 
@@ -19,17 +18,17 @@ The current APS is installed and has been started including a successful login.
 
 *Printing > Settings > Tab ASSIGN PRINTERS*
 
-  ![Printing Settings](../../Assets/Screenshots/Printing/Settings/AssignPrinters.png "[Printing Settings]")
+![Printing Settings](../../Assets/Screenshots/Printing/Settings/AssignPrinters.png "[Printing Settings]")
 
 1. Click the *Global (for all groups)* printer in the list of printers.   
-  The *Settings for group Global* view is displayed.
+    The *Settings for group Global* view is displayed.
 
-  ![Settings Group](../../Assets/Screenshots/Printing/Settings/SettingsGroup.png "[Settings Group]")
+    ![Settings Group](../../Assets/Screenshots/Printing/Settings/SettingsGroup.png "[Settings Group]")
 
 2. Click the ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) button in the bottom right corner.   
-  The *Print Settings* window is displayed.
+    The *Print Settings* window is displayed.
 
-  ![Add Print Settings](../../Assets/Screenshots/Printing/Settings/PrintSettings.png "[Add Print Settings]")
+    ![Add Print Settings](../../Assets/Screenshots/Printing/Settings/PrintSettings.png "[Add Print Settings]")
 
 3. Click the *Client* drop-down list and select the appropriate client.
 
@@ -39,7 +38,7 @@ The current APS is installed and has been started including a successful login.
 
 6. Select the portrait or the landscape format in the *LAYOUT* section.
 
-> [Info] For receipt printers always select portrait format.
+    > [Info] For receipt printers always select portrait format.
 
 7. Click the *Format* drop-down list and select the appropriate width of the receipt.
 
@@ -48,6 +47,6 @@ The current APS is installed and has been started including a successful login.
 9. Click the *Event* drop-down list and select the appropriate pay desk and store in the list of pay desks.
 
 10. Click the [SAVE] button in the bottom right corner of the window.   
-  The printer is configured for the selected pay desk. The *Print Settings* window is closed. The *Settings for group Global* view is displayed again. The new setting is displayed in the list of settings.
+    The printer is configured for the selected pay desk. The *Print Settings* window is closed. The *Settings for group Global* view is displayed again. The new setting is displayed in the list of settings.
 
 [comment]: <> (Is that right? Check it, when APS is installed)
