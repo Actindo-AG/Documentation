@@ -1,6 +1,6 @@
 # Export new PIM product
 
-![Export new PIM product](../Assets/Screenshots/ProcessDocumentation/ExportNewPIMProduct.png "[Export new PIM product]")
+![Export new PIM product](../Assets/Screenshots/ProcessDocumentation/ExportNewPIMProduct/ExportNewPIMProduct.png "[Export new PIM product]")
 
 [comment]: <> (add screenshot)
 
@@ -116,7 +116,7 @@ The following recommended triggers are configured so that the process starts if 
 
 #### Product created trigger
 
-![Trigger Product created](../Assets/Screenshots/ProcessDocumentation/TriggerProductCreated.png "[Trigger Product created]")
+![Trigger Product created](../Assets/Screenshots/ProcessDocumentation/ExportNewPIMProduct/TriggerProductCreated.png "[Trigger Product created]")
 
 Configure the following settings for the *Product created* trigger:
 
@@ -142,7 +142,7 @@ Configure the following settings for the *Product created* trigger:
 
 #### Product updated trigger
 
-![Trigger Product updated](../Assets/Screenshots/ProcessDocumentation/TriggerProductUpdated.png "[Trigger Product updated]")
+![Trigger Product updated](../Assets/Screenshots/ProcessDocumentation/ExportNewPIMProduct/TriggerProductUpdated.png "[Trigger Product updated]")
 
 Configure the following settings for the *Product updated* trigger:
 
@@ -169,7 +169,7 @@ Configure the following settings for the *Product updated* trigger:
 
 ### Check if item exists
 
-![Check if item exists](../Assets/Screenshots/ProcessDocumentation/CheckItem.png "[Check if item exists]")
+![Check if item exists](../Assets/Screenshots/ProcessDocumentation/ExportNewPIMProduct/CheckItem.png "[Check if item exists]")
 
 [comment]: <> (add screenshot)
 
@@ -190,7 +190,7 @@ The *Description*, *Key*, *Label*, *Queue type*, *Priority*, *Max tries* and *Lo
 
 ### Create item
 
-![Create  item](../Assets/Screenshots/ProcessDocumentation/CreateItem.png "[Create item]")
+![Create  item](../Assets/Screenshots/ProcessDocumentation/ExportNewPIMProduct/CreateItem.png "[Create item]")
 
 [comment]: <> (add screenshot)
 
