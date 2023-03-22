@@ -74,12 +74,12 @@ Note that the site-specific status change is only possible in one direction: If 
 
 In Salesforce Commerce Cloud, all prices are saved in so-called *Price books*. In contrast to Actindo, the price is not an attribute in Salesforce Commerce Cloud, but a completely own entity which is largely detached from the product.   
 As price books in Salesforce Commerce Cloud cannot be accessed via API, the IDs of the price books as well as the ISO-code of the corresponding currency must be specified when configuring the connection settings, see [Configure the Salesforce Commerce Cloud connection](./02_ManageSalesforceConnection.md#configure-the-salesforce-commerce-cloud-connection).
- The price book IDs are displayed in the *ID* column of the price books list in Salesforce Commerce Cloud:   
+The price book IDs are displayed in the *ID* column of the price books list in Salesforce Commerce Cloud:   
 *Merchant Tools > Products and Catalogs > Price books*
 
 ![Price books](../../Assets/Screenshots/Channels/Settings/Connections/CommerceCloud/PriceBooks.png "[Site-specific attribute definitions]")
 
-When adding a new price book in Salesforce Commerce Cloud, the connection must be synchronized to add the new price book attributes for the ETl mapping in Actindo, see [Synchronize a connection](../../Channels/Integration/01_ManageConnections.md#synchronize-a-connection).
+When adding a new price book in Salesforce Commerce Cloud, the connection must be synchronized to add the new price book attributes for the ETL mapping in Actindo, see [Synchronize a connection](../../Channels/Integration/01_ManageConnections.md#synchronize-a-connection).
 
 ## Variations
 
