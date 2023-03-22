@@ -42,7 +42,7 @@ The following buttons and fields are only displayed when you have added a query 
     Query sub-category to the selected query category. Click the query category to display the next lower level column and all assigned query sub-categories. Hover over the category to display the ![Edit](../../Assets/Icons/Edit03.png "[Edit]") (Edit) button.
 
 
-### Add element
+## Add element
 
 *Database and reporting > Settings > Tab QUERY CATEGORIES > Button Add*
 
@@ -70,7 +70,7 @@ The following buttons and fields are only displayed when you have added a query 
     > [Info] You have to click the [SAVE] button in the *Edit tree* view to save the added query categories.
 
 
-### Edit query category data
+## Edit query category data
 
 *Database and reporting > Settings > Tab QUERY CATEGORIES > Hover over query category > Button Edit*
 
