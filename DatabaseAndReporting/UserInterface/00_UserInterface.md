@@ -12,9 +12,9 @@ In this part of the *Database and Reporting* documentation, you will find the fo
     - [Bind query parameters placeholders](./01a_Queries.md#bind-query-parameters-placeholders)
 
 
-- [INFLUXDB TIME SERIES](./01b_InfluDBTimeSeries.md)  
-    - [Create an InfluxDB time series](./01b_InfluDBTimeSeries.md#create-an-influxdb-time-series)
-    - [Edit an InfluxDB time series](./01b_InfluDBTimeSeries.md#edit-an-influxdb-time-series)
+- [INFLUXDB TIME SERIES](./01b_InfluxDBTimeSeries.md)  
+    - [Create an InfluxDB time series](./01b_InfluxDBTimeSeries.md#create-an-influxdb-time-series)
+    - [Edit an InfluxDB time series](./01b_InfluxDBTimeSeries.md#edit-an-influxdb-time-series)
 
 
 - [Logging](./02_Logging.md)
@@ -32,11 +32,11 @@ In this part of the *Database and Reporting* documentation, you will find the fo
 
 - [Connections](./03a_Connections.md)  
     - [Create connection](./03a_Connections.md#create-connection)  
-    - [Create connection &ndash; Credentials InfluxDB Driver V1](./03a_Connections.md#create-connection-–-credentials-influxdb-driver-v1)
-    - [Create connection &ndash; Credentials InfluxDB Driver V2](./03a_Connections.md#create-connection-–-credentials-influxdb-driver-v2)
+    - [Create connection &ndash; Credentials InfluxDB driver V1](./03a_Connections.md#create-connection--credentials-influxdb-driver-v1)
+    - [Create connection &ndash; Credentials InfluxDB driver V2](./03a_Connections.md#create-connection--credentials-influxdb-driver-v2)
     - [Edit connection](./03a_Connections.md#edit-connection) 
-    - [Edit connection &ndash; Credentials InfluxDB driver V1](./03a_Connections.md#edit-connection-–-credentials-influxdb-driver-v1) 
-    - [Edit connection &ndash; Credentials InfluxDB driver V2](./03a_Connections.md#edit-connection-–-credentials-influxdb-driver-v2)
+    - [Edit connection &ndash; Credentials InfluxDB driver V1](./03a_Connections.md#edit-connection--credentials-influxdb-driver-v1) 
+    - [Edit connection &ndash; Credentials InfluxDB driver V2](./03a_Connections.md#edit-connection–-credentials-influxdb-driver-v2)
 
 
 - [Query categories](./03b_QueryCategories.md)  
