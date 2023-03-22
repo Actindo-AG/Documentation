@@ -4,8 +4,6 @@
 
 [comment]: <> (add screenshot)
 
-> PIM Produkt in SAP rüberspielen -> sinnvoll, wenn SAP nicht viel macht, aber die Produktnummer wissen muss (wenn SAP keine Daten außer der Produktnummer braucht)
-
 **Short description**
 
 The *Export new PIM product* workflow is used to check if a PIM product already exists in SAP and if not, create a SAP item for the PIM product. 
@@ -105,6 +103,8 @@ In the following, it is described how to build a workflow template that is cover
 
 Within a workflow, several actions are performed. 
 In the following, all actions within the process are described in detail, specifying their function and their functional settings.
+
+> [Info] All actions described below are SAP specific actions and only available if the *SAP* module has been installed in your account.
 
 
 ### Trigger for the *Export new PIM product* workflow
@@ -206,11 +206,11 @@ The *Description* field contains the API endpoint that is addressed in this acti
 **Static inputs**
 
 - *Connection*    
-    Enter the applicable ID as value for the *Connection* variable to check if the PIM product exist for the corresponding SAP connection in the *Check if item exists* action. All database objects can be configured by a static JSON input in the *Static inputs* section of the action settings. The SAP connection ID must be specified as an object, for instance **{"id":12}**.
+    Enter the applicable ID as value for the *Connection* variable to create the SAP item for the corresponding SAP connection in the *Create item* action. All database objects can be configured by a static JSON input in the *Static inputs* section of the action settings. The SAP connection ID must be specified as an object, for instance **{"id":12}**.
 
     > [Info]  The value must be valid JSON and is type strict, for example a string must be specified as a string (**\"example\"**), an integer as an integer (**123**), and so on.
 
 - *ETL change tracking mode*   
     Enter **"2"** for the *ETL change tracking mode* variable to set the change tracking mode to **automatic** and thus transfer any changes on the PIM product to the SAP item. This means that an item will change whenever a relevant attribute in the PIM product is changed. 
 
-    > [Info] A relevant attribute  refers to any attribute that is mapped in the corresponding attribute set mapping.
+    > [Info] A relevant attribute refers to any attribute that is mapped in the corresponding attribute set mapping.
