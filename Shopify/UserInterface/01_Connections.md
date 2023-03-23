@@ -232,7 +232,7 @@ The *Settings* tab is composed of the following setting entries:
 
 **ID in shop**
 
-- [SAVE]  
+- [Save]  
     Click this button to save any changes made.
 
 - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Enable order name as ID in shop*   
@@ -247,7 +247,7 @@ The *Settings* tab is composed of the following setting entries:
 
 **Default tax class for order import**
 
-- [SAVE]  
+- [Save]  
     Click this button to save any changes made.
 
 - *Select default tax class*   
@@ -262,7 +262,7 @@ The *Settings* tab is composed of the following setting entries:
 
 **Configuration for offer import**
 
-- [SAVE]  
+- [Save]  
     Click this button to save any changes made.
 
 - *Select default tax class*   
