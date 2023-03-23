@@ -30,16 +30,16 @@ In this part of the *Database and Reporting* documentation, you will find the fo
 - [Settings](./03_Settings.md)
 
 
-- [Connections](./03a_Connections.md)  
+- [CONNECTIONS](./03a_Connections.md)  
     - [Create connection](./03a_Connections.md#create-connection)  
     - [Create connection &ndash; Credentials InfluxDB driver V1](./03a_Connections.md#create-connection--credentials-influxdb-driver-v1)
     - [Create connection &ndash; Credentials InfluxDB driver V2](./03a_Connections.md#create-connection--credentials-influxdb-driver-v2)
     - [Edit connection](./03a_Connections.md#edit-connection) 
     - [Edit connection &ndash; Credentials InfluxDB driver V1](./03a_Connections.md#edit-connection--credentials-influxdb-driver-v1) 
-    - [Edit connection &ndash; Credentials InfluxDB driver V2](./03a_Connections.md#edit-connection–-credentials-influxdb-driver-v2)
+    - [Edit connection &ndash; Credentials InfluxDB driver V2](./03a_Connections.md#edit-connection--credentials-influxdb-driver-v2)
 
 
-- [Query categories](./03b_QueryCategories.md)  
+- [QUERY CATEGORIES](./03b_QueryCategories.md)  
     - [Add element](./03b_QueryCategories.md#add-element)  
     - [Edit query category data](./03b_QueryCategories.md#edit-query-category-data) 
 
