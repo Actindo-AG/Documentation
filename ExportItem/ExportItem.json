@@ -1,0 +1,59 @@
+{
+    "key": "sap_export_item",
+    "version": 1,
+    "name": "Export Item",
+    "published": true,
+    "places": {
+        "input": "Modules.Actindo.SapB1Integration.Models.Item",
+        "output": "Modules.Actindo.SapB1Integration.Models.Item"
+    },
+    "comment": null,
+    "newKey": null,
+    "transitions": [
+        {
+            "maxTries": 1,
+            "queueType": "1",
+            "key": "t-Modules.Actindo.SapB1Integration.Items.export-0",
+            "action": "Modules.Actindo.SapB1Integration.Items.export",
+            "priority": 0,
+            "comment": null,
+            "description": "Export Item"
+        }
+    ],
+    "arcs": [
+        "input -> t-Modules.Actindo.SapB1Integration.Items.export-0(item)",
+        "t-Modules.Actindo.SapB1Integration.Items.export-0(data) -> output"
+    ],
+    "triggers": [
+        {
+            "name": "Item Updated",
+            "event": "postUpdate",
+            "active": true,
+            "unique": false,
+            "processPriority": 1,
+            "model": "Actindo\\Modules\\Actindo\\SapB1Integration\\Models\\Item",
+            "allConditionsRequired": true,
+            "conditions": [
+                {
+                    "operator": "isset",
+                    "value": "1",
+                    "property": "entity.itemCode"
+                }
+            ]
+        }
+    ],
+    "nodePositions": {
+        "input": {
+            "x": 0,
+            "y": 0
+        },
+        "output": {
+            "x": 1000,
+            "y": 0
+        },
+        "t-Modules.Actindo.SapB1Integration.Items.export-0": {
+            "x": 450,
+            "y": -60
+        }
+    }
+}
