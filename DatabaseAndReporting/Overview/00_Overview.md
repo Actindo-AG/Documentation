@@ -7,7 +7,7 @@ In this part of the *Database and reporting* documentation, you will find the fo
     - [Prerequisites](01_General.md#prerequisites)
 
 
-- [Key Features](02_Features.md)
+- [Key features](02_Features.md)
 
 
 - [Processes](03_Processes.md)
