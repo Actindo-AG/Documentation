@@ -1,17 +1,19 @@
 # General information
 
-The *Actindo Database and reporting* module is the one source of truth for collecting, managing and enriching product data and thus the heart of all your sales channels. Developed according to the API-first principle, the *PIM* module can be quickly and easily integrated into existing system landscapes and serves as the basis for efficient unified commerce across all channels.
+The *Actindo Database and reporting* module is a powerful tool to quickly access, retrieve and manage all data contained in your system. SQL, which stands for **S**tructured **Q**uery **L**anguage, is used to communicate with your databases. Its applications range from selecting and retrieving data, to altering table structures and updating contents, to name just a few. It also allows you to create predefined queries to determine who and how can access your data. Moreover, a connection with InfluxDB can be established to write your data into time series databases, which in turn can be visualize using Grafana. 
 
-This documentation refers to the *PIM* module version 4.2.0. There may be differences in the UI, features and operation if your *PIM* module is installed in a different version.
+This documentation refers to the *Database and reporting* module version 1.1.1. There may be differences in the UI, features and operation if your *Database and reporting* module is installed in a different version.
 
 
 ## Benefits
 
-The *PIM* module offers the following benefits:
-- Flexible integration into existing system landscapes, including data transformation from legacy IT-systems
-- Real-time management and control of product data for all sales channels and marketplaces
-- Central product data hub that breaks down data silos and ensures high data quality
-- Data output individually tailored to each output channel
+The *Database and reporting* module offers the following benefits:
+- Direct access to your databases and retrieval of selected data
+- Quick update of data content and structure 
+- Creation of predefined queries with restricted access for specific user groups
+- Data output individually configurable in different formats 
+- Creation of time series data to track data change over time
+- Visualization of time series data using Grafana
 
 
 ## Prerequisites
@@ -19,18 +21,3 @@ The *PIM* module offers the following benefits:
 - The *Actindo DataHub* module version 2.6.0 or higher is installed.
 - The *Global Driver Management* plugin version 1.1.0 or higher is installed.
 - The *External PHP Libraries* plugin version 1.1.4 or higher is installed.
-
-
----
-
-- function and use of the DB and Reporting module are explained
-- the documented version is indicated
-- the benefits of the DB and Reporting module are listed
-- the prerequisites (plugin/module relations) to the DB and Reporting module are listed
-
-
-* general information about the function and use of the DB and Reporting module and the documented version
-* information about the benefits
-* information about the prerequisites (plugin/module relations)
-
-Version 1.1.1 
