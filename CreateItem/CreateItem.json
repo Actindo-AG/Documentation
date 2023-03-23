@@ -1,0 +1,99 @@
+{
+    "key": "create_item",
+    "version": 1,
+    "name": "Create item",
+    "published": true,
+    "places": {
+        "input": "Modules.Actindo.PIM.Models.PIMProduct",
+        "output": "Modules.Actindo.SapB1Integration.Models.Item",
+        "p-pimProduct-0": "ReadOnly.Modules.Actindo.PIM.Models.PIMProductContainer"
+    },
+    "comment": null,
+    "newKey": null,
+    "transitions": [
+        {
+            "maxTries": 1,
+            "queueType": "1",
+            "key": "t-checkIfItemExists-0",
+            "action": "checkIfItemExists",
+            "priority": 0,
+            "comment": null,
+            "description": "Check if Item exists"
+        },
+        {
+            "maxTries": 1,
+            "queueType": "1",
+            "key": "t-Modules.Actindo.SapB1Integration.Items.createFromPimProduct-0",
+            "action": "Modules.Actindo.SapB1Integration.Items.createFromPimProduct",
+            "priority": 0,
+            "comment": null,
+            "description": "Create Item"
+        }
+    ],
+    "arcs": [
+        "t-Modules.Actindo.SapB1Integration.Items.createFromPimProduct-0(data) -> output",
+        "p-pimProduct-0 -> t-Modules.Actindo.SapB1Integration.Items.createFromPimProduct-0(pimProduct)",
+        "input -> t-checkIfItemExists-0(PimProduct)",
+        "t-checkIfItemExists-0(Item) -> output",
+        "t-checkIfItemExists-0(PimProduct) -> p-pimProduct-0",
+        "{\"id\":12} -> t-Modules.Actindo.SapB1Integration.Items.createFromPimProduct-0(connection)",
+        "\"2\" -> t-Modules.Actindo.SapB1Integration.Items.createFromPimProduct-0(etlChangeTrackingMode)",
+        "{\"id\":12} -> t-checkIfItemExists-0(Connection)"
+    ],
+    "triggers": [
+        {
+            "name": "Product Created",
+            "event": "postPersist",
+            "active": true,
+            "unique": false,
+            "processPriority": 1,
+            "model": "Actindo\\Modules\\Actindo\\PIM\\Models\\PIMProduct",
+            "allConditionsRequired": true,
+            "conditions": [
+                {
+                    "operator": "eq",
+                    "value": "100",
+                    "property": "entity._pim_completeness.totalCompleteness"
+                }
+            ]
+        },
+        {
+            "name": "Product Updated",
+            "event": "postUpdate",
+            "active": true,
+            "unique": false,
+            "processPriority": 1,
+            "model": "Actindo\\Modules\\Actindo\\PIM\\Models\\PIMProduct",
+            "allConditionsRequired": true,
+            "conditions": [
+                {
+                    "operator": "eq",
+                    "value": "100",
+                    "property": "entity._pim_completeness.totalCompleteness"
+                }
+            ]
+        }
+    ],
+    "nodePositions": {
+        "input": {
+            "x": 10,
+            "y": -90
+        },
+        "output": {
+            "x": 990,
+            "y": -30
+        },
+        "t-Modules.Actindo.SapB1Integration.Items.createFromPimProduct-0": {
+            "x": 760,
+            "y": -160
+        },
+        "t-checkIfItemExists-0": {
+            "x": 220,
+            "y": -130
+        },
+        "p-pimProduct-0": {
+            "x": 600,
+            "y": -170
+        }
+    }
+}
