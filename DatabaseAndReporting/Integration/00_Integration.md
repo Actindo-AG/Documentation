@@ -12,8 +12,8 @@ In this part of the *Database and Reporting* documentation, you will find the fo
     - [Create a query category](./02_ManageQueryCategories.md#create-a-query-category)
     - [Edit a query category](./02_ManageQueryCategories.md#edit-a-query-category)
         - [Create a query sub-category](./02_ManageQueryCategories.md#create-a-query-sub-category)
-        - [Edit the query category details](./02_ManageQueryCategories.md#edit-the-query-category-details)
-        - [Change the order of query categories](./02_ManageQueryCategories.md#change-order-of-query-categories)
+        - [Edit the query category details](./02_ManageQueryCategories.md#edit-the-query-category-data)
+        - [Change the order of query categories](./02_ManageQueryCategories.md#change-the-order-of-query-categories)
     - [Delete a query category](./02_ManageQueryCategories.md#delete-a-query-category)
 
 
@@ -32,7 +32,7 @@ In this part of the *Database and Reporting* documentation, you will find the fo
 
 
 - [Manage the user rights](./05_ManageUserRights.md)
-    - [Assign access rights to a user group](./05_ManageUserRights.md#assign-access-rights-to-a-user-group)
+    - [Assign access rights to a user group](./05_ManageUserRights.md#grant-access-rights-to-a-user-group)
     
 
 
