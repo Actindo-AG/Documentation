@@ -3,21 +3,15 @@
 
 # Manage the connections
 
-Establish a connection to InfluxDB to be able to write data from your MySQL database to an InfluxDB database, and subsequently create InfluxDB time series.
+Establish a connection to InfluxDB in order to write data from your databases to InfluxDB at regular time intervals using an InfluxDB time series.
 
-[comment]: <> (Ist es das Gleiche, write data from MySQL DB to InfluxDB und create an InfluxDB time series?)
+The InfluxDB driver is preinstalled with the *Database and reporting* module and is available in two different versions. Depending on the driver version, the credentials differ. All necessary credentials to establish the connection are available by InfluxDB. For detailed information, see [InfluxDB](https://docs.influxdata.com/influxdb/v2.6/).
 
-The InfluxDB driver is available in two different versions. Depending on the driver version, the credentials differ. All necessary credentials to establish the connection are provided by InfluxDB. For detailed information, see [InfluxDB](https://docs.influxdata.com/influxdb/v2.6/).
-
-[comment]: <> (Zusätzlich auf https://docs.influxdata.com/influxdb/v2.6/api-guide/ verweisen?)
-
-Connections can be created and edited.
-
-[comment]: <> (Löschen nicht möglich? Enable/disable/sync nicht nötig?)
+The connections can be created and edited.
 
 ## Create a connection
 
-Create a connection to InfluxDB to be able to write data from your MySQL database to an InfluxDB database. 
+Create a connection to InfluxDB to be able to write data from your databases to InfluxDB. 
 
 ### Add a connection
 
@@ -25,12 +19,7 @@ Add a new connection to InfluxDB using one of the available InfluxDB drivers.
 
 #### Prerequisites
 
-- InfluxDB has been purchased.
-- The InfluxDB drivers have been installed in the Core1.
-
-> [Info] The drivers can only be installed in the Core1 with the collaboration of the Actindo IT department.
-
-[comment]: <> (Stimmt das so für Kunden? Wie kommt man zu den Treibern? Können Sie selber installieren oder müssen sie das IT- oder Implementation-Team dazu kontaktieren?)
+InfluxDB has been purchased.
 
 #### Procedure
 
@@ -50,8 +39,6 @@ Add a new connection to InfluxDB using one of the available InfluxDB drivers.
 
     - **InfluxDB driver V1**  
     - **InfluxDB driver V2**  
-
-    > [Info] Drivers must be downloaded and installed separately in each sandbox or account where you want to use them.    
 
     Depending on the selected driver, the fields in the *Credentials* section differ. All necessary credentials are provided by InfluxDB.
    
@@ -116,8 +103,6 @@ Add a new connection to InfluxDB using one of the available InfluxDB drivers.
 
     ![Connection created](../../Assets/Screenshots/DatabaseAndReporting/Settings/Connections/ConnectionCreated.png "[Connection created]")
 
-[comment]: <> (Beide connections mit V1 erstellt, aber ohne credentials. JS fragen, "echte" connections zu erstellen /  bessere Screenshots ziehen)
-
 
 ## Edit a connection
 
@@ -139,7 +124,7 @@ At least one connection has been established, see [Create a connection](#create-
     ![Edit connection](../../Assets/Screenshots/DatabaseAndReporting/Settings/Connections/EditConnection.png "[Edit connection]")
 
 2.  Edit the desired data of the connection in the corresponding fields in the *Credentials* section.   
-    > [Info] Bear in mind that the fields in the *Credentials* section differ depending on the driver version.
+    > [Info] The fields in the *Credentials* section differ depending on the driver version.
 
 3. Click the [SAVE] button.  
     The *Checking credentials* notice is displayed.
@@ -147,13 +132,6 @@ At least one connection has been established, see [Create a connection](#create-
     ![Checking credentials](../../Assets/Screenshots/DatabaseAndReporting/Settings/Connections/CheckingCredentials.png "[Checking credentials]")
 
     The *Edit connection* is automatically closed when the changes have been saved. The edited connection is displayed in the list of connections.
-
-
-
-[comment]: <> (Delete a connection möglich/geplant?)
-
-[comment]: <> (Andere Möglichkeiten geplant, z.B. Enable/disable/sync?)
-
 
 
 
