@@ -36,7 +36,7 @@
 - Format   
     Click this drop-down list to select the desired format to visualize or download the query results. This button is only displayed if a single checkbox in the list of queries is selected. The following options are available:  
     - **CSV**  
-        Select this option tto visualize or download the query results in CSV format.
+        Select this option to visualize or download the query results in CSV format.
     - **XML**   
         Select this option to visualize or download the query results in XML format.
 
@@ -69,14 +69,7 @@ The list displays all predefined queries. Depending on the settings, the display
 - *Query*   
     Predefined SQL query.
 
-- *ETL use enabled*   
-    Indication whether ETL use is enabled or not:
-    - ![Check](../../Assets/Icons/Check.png "[Check]") (Checkmark): ETL use is enabled.  
-    - ![Cross](../../Assets/Icons/Cross02.png "[Cross]") (Cross): ETL use is not enabled.
-    
-    > [Info] This function is not available in the current version.
-
-[comment]: <> (Check!)
+[comment]: <> (ETL use enabled Option wird noch ausgeblendet)
 
 - *API and download enabled*   
     Indication whether API access and download is enabled or not:
@@ -89,12 +82,12 @@ The list displays all predefined queries. Depending on the settings, the display
     - ![Cross](../../Assets/Icons/Cross02.png "[Cross]") (Cross): Public download is not enabled.
 
 - *Write access enabled*   
-    Indication whether write operations are enabled or not:
-    - ![Check](../../Assets/Icons/Check.png "[Check]") (Checkmark): Write operations are enabled.  
-    - ![Cross](../../Assets/Icons/Cross02.png "[Cross]") (Cross): Write operations are not enabled.
+    Indication whether write access is enabled or not:
+    - ![Check](../../Assets/Icons/Check.png "[Check]") (Checkmark): Write access is enabled.  
+    - ![Cross](../../Assets/Icons/Cross02.png "[Cross]") (Cross): Write access is not enabled.
 
 - *UUID*   
-    Universally Unique Identifier. This code is automatically assigned by the system when the query is created. It is required to execute a query via web browser. 
+    Universally Unique Identifier. This code is automatically assigned by the system when the query is created. It is required to execute a query in a web browser. 
 
 - ![Copy](../../Assets/Icons/Copy01.png "[Copy]") (Copy)  
     Click this button to copy the UUID (Universally Unique Identifier) to your clipboard.
@@ -121,9 +114,7 @@ The list displays all predefined queries. Depending on the settings, the display
 - *IP whitelist (only public download)*  
     Enter the IP address(es) you want to limit access to in case of public download. It is possible to enter one or several IP addresses or an IP range (subnet mask). When entering more than one IP address, each IP address must be entered on a separate line.  
 
-- [x] ETL use enabled   
-    Click the checkbox to enable ETL use. 
-    > [Info] This function is not available in the current version.
+[comment]: <> (ETL use enabled Option wird noch ausgeblendet)
     
 - [x] API and download enabled   
     Click the checkbox to enable API access and download.
@@ -214,7 +205,7 @@ The list displays all predefined queries. Depending on the settings, the display
 
 *Database and reporting > Managed queries > Tab QUERIES > Select query checkbox > Button View*  
 *Database and reporting > Managed queries > Tab QUERIES > Select query checkbox > Button Download*  
-*Database and reporting > Managed queries > Button Add > Create Button TRY QUERY (READ ONLY)*   
+*Database and reporting > Managed queries > Button Add > Insert placeholder in query > TRY QUERY (READ ONLY)*   
 
 ![Bind query parameters placeholders](../../Assets/Screenshots/DatabaseAndReporting/ManagedQueries/Queries/BindQueryParamsPlaceholdersFreetext.png "[Bind query parameters placeholders]")
 
