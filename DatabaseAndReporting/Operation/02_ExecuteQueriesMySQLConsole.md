@@ -3,9 +3,9 @@
 
 # Execute queries in MySQL console
 
-MySQL console allows the user to query any data contained in your *Actindo Core1 Platform*. The queries must be performed using SQL commands, and therefore SQL knowledge is required. 
+MySQL console allows the user to query any data contained in your *Actindo Core1 Platform*. The queries must be written in SQL syntax, and therefore SQL knowledge is required.  
 
-All data available in the system can be accessed, retrieved and modified using MySQL interactive console. For this reason, MySQL interactive console must be handle with extreme caution, and access rights should only be granted to personnel with the appropriate role and skills. For detailed information about managing user rights, see [Manage user rights](../Integration/05_ManageUserRights.md).
+All data available in the system can be accessed, retrieved and modified using MySQL interactive console. For this reason, MySQL interactive console must be handled with extreme caution, and access rights should only be granted to personnel with the appropriate role and skills. For detailed information about managing user rights, see [Manage user rights](../Integration/05_ManageUserRights.md).
 
 
 ## Access and retrieve data
@@ -22,8 +22,8 @@ The user has been granted the applicable access rights, see [Grant access rights
 
 ![Interactive console](../../Assets/Screenshots/DatabaseAndReporting/MySQLConsole/InteractiveConsole.png "[Interactive console]")
 
-1. Enter a valid SQL statement, for example **SELECT name FROM datahub_attributes;** to retrieve all attribute names contained in the *datahub_attributes* table. 
-    > [Info] SQL knowledge is required to perform the queries. For detailed informationL, see [SQL Tutorial](https://www.w3schools.com/sql/default.asp).
+1. Enter a valid SQL query, for example **SELECT name FROM datahub_attributes;** to retrieve all attribute names contained in the *datahub_attributes* table. 
+    > [Info] SQL knowledge is required to perform the queries. For detailed information on SQL, see for instance [SQL Tutorial](https://www.w3schools.com/sql/default.asp).
     
 2. Press the **ENTER** key.  
     The query results are displayed in the interactive console.    
@@ -67,7 +67,7 @@ The user has been granted the applicable access rights, see [Grant access rights
   Check all your entries before proceeding. 
 
 4. Press the **ENTER** key.  
-    The data has been modified.   
+    The data has been modified. The query results are displayed in the interactive console.   
 
     ![Query results](../../Assets/Screenshots/DatabaseAndReporting/MySQLConsole/QueryResults.png "[Query results]")
 
