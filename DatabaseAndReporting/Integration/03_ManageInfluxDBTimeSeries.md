@@ -4,9 +4,9 @@
 
 # Manage the InfluxDB time series
 
-An InfluxDB time series is a sequence of data points collected in time intervals, allowing to track changes over time. Once a a MySQL query has been created to retrieve any required data, this data can be written to an InfluxDB to be collected and processed over a period of time. For detailed information about InfluxDB, see [InfluxDB](https://docs.influxdata.com/influxdb/v2.6/).
+An InfluxDB time series is a sequence of data points collected in time intervals, allowing to track changes over time. Once an SQL query has been created to retrieve any required data from your databases, this data can be written to InfluxDB to be collected and processed over a period of time. For detailed information about InfluxDB, see [InfluxDB](https://docs.influxdata.com/influxdb/v2.6/).
 
-Once the data has been written to InfluxDB, it can be easily visualize using Grafana, see [Get started with Grafana and InfluxDB](https://grafana.com/docs/grafana/latest/getting-started/get-started-grafana-influxdb/).
+Once the data has been written to InfluxDB, it can be easily visualized and monitored using Grafana, see [Get started with Grafana and InfluxDB](https://grafana.com/docs/grafana/latest/getting-started/get-started-grafana-influxdb/).
 
 You can create, edit or delete an InfluxDB time series for any predefined query.
 
@@ -43,7 +43,7 @@ Create an InfluxDB time series for a specific predefined query.
     All available connections established in the *CONNECTIONS* tab of the *Settings* menu entry are displayed in the list.
 
 6. Click the drop-down list and select the appropriate query.   
-    All available queries specified in the *QUERIES* tab are displayed in the list.
+    All available queries predefined in the *QUERIES* tab are displayed in the list.
 
 7. If desired, click the ![Add](../../Assets/Icons/Plus03.png "[Add]") (Add) button in the *Tag columns* box.  
     A new input line is displayed.
@@ -74,13 +74,15 @@ Once an InfluxDB time series has been created, it can be edited to change any pr
 
 #### Prerequisites
 
-At least an InfluxDB time series has been created, see [Create an InfluxDB time series](#create-an-influxdb-time-series).
+At least one InfluxDB time series has been created, see [Create an InfluxDB time series](#create-an-influxdb-time-series).
 
 #### Procedure
 
 *Database and reporting > Managed queries > Tab INFLUXDB TIME SERIES*
 
 ![List of InfluxDB time series](../../Assets/Screenshots/DatabaseAndReporting/ManagedQueries/InfluxDBTimeSeries/ListInfluxDBTimeSeriesCreated.png "[List of InfluxDB time series]")
+
+[comment]: <> (Screenshot aus NoE test account. OK?)
 
 1. Click the InfluxDB time series to be edited in the list of InfluxDB time series. Alternatively, select the checkbox of the InfluxDB time series to be edited and click the [EDIT] button in the editing toolbar.  
     The *Edit InfluxDB time series* is displayed.
@@ -114,7 +116,7 @@ At least one InfluxDB time series has been created, see [Create an InfluxDB time
 ![List of InfluxDB time series](../../Assets/Screenshots/DatabaseAndReporting/ManagedQueries/InfluxDBTimeSeries/ListInfluxDBTimeSeriesCreated.png "[List of InfluxDB time series]")
 
 
-1. Select the checkbox of the InfluxDB time series to be deleted.
+1. Select the checkbox of the InfluxDB time series to be deleted.   
     The editing toolbar is displayed.
 
 2. Click the [DELETE] button in the editing toolbar.  
@@ -122,4 +124,3 @@ At least one InfluxDB time series has been created, see [Create an InfluxDB time
 
 [comment]: <> (Prozedur aus Queries. Sollte es hier auch so was sein? The *Deleted InfluxDB time series xxxx* window is displayed. The number indicates the identifier of the deleted InfluxDB time series as displayed in the *ID* column. The deleted InfluxDB time series is removed from the list of InfluxDB time series.)
 
-[comment]: <> (EXECUTE button in editing toolbar. Was passiert beim EXECUTE?) 
