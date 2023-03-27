@@ -9,12 +9,12 @@ The user rights for all modules and plugins installed in the Core1 are managed c
 
 ## Grant access rights to a user group
 
-Assign user access rights to control access to specific data. The following access rights must be individually granted to a user group based on their user role:
+Assign user access rights to control access to specific data. The following access rights must be individually granted to any user group with a role other than administrator:
 
 - **Execute query via API**  
     The user can execute a managed query via API if this option has been enabled in the query.
 - **Queries**   
-    Depending on the access permission type granted, the user can read, create, update, delete, and execute queries. Besides, queries must be individually selected to be executed.   
+    Depending on the access permission type granted, the user can read, create, update, delete, and execute queries. Additionally, access rights must be granted for each individual predefined query.    
 - **Query categories**  
     Depending on the access permission type granted, the user can read and save query categories.
 - **InfluxDB**  
@@ -22,15 +22,12 @@ Assign user access rights to control access to specific data. The following acce
 - **Interactive MySQL console**  
     The user can execute any query in MySQL interactive console. Bear in mind that this gives the user access, and even write access, to all available data. 
 
-    Additionally, access rights must be granted for the individual queries. By default, all access rights are denied to users with no administrator rights.
-
-    [comment]: <> (Stimmt das so? Check mit Julian: InfluxDB, Interactive MySQL console, Execute individual queries.)
-
-
 #### Prerequisites
 
 - A user group has been created.
 - The users to be granted access have been added to the applicable user group.
+
+[comment]: <> (Links hinzufügen, wenn verfügbar)
 
 #### Procedure
 
