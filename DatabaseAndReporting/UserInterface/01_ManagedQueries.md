@@ -6,5 +6,5 @@ The *Managed queries* menu entry is used to manage and execute predefined MySQL 
 
 The *Managed queries* user interface is composed of the following tabs:  
   - [QUERIES](./01a_Queries.md)  
-  - [INFLUXDB TIME SERIES](./01b_InfluDBTimeSeries.md)
+  - [INFLUXDB TIME SERIES](./01b_InfluxDBTimeSeries.md)
 
