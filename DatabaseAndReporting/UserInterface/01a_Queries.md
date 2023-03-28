@@ -123,7 +123,7 @@ The list displays all predefined queries. Depending on the settings, the display
     Click the checkbox to enable public download.
    
 - [x] Write access enabled   
-    Click the checkbox to enable write operations.
+    Click the checkbox to enable write access.
    
 - [TRY QUERY] (READ ONLY)   
     Click this button to try the defined query. The *Try query result* box is displayed.
@@ -161,9 +161,7 @@ The list displays all predefined queries. Depending on the settings, the display
 - *IP whitelist (only public download)*  
     Enter the IP address(es) you want to limit access to in case of public download. It is possible to enter one or several IP addresses or an IP range (subnet mask). When entering more than one IP address, each IP address must be entered on a separate line.  
 
-- [x] ETL use enabled  
-    Click the checkbox to enable/disable ETL use. 
-    > [Info] This function is not available in the current version.
+[comment]: <> (ETL use enabled Option wird noch ausgeblendet)
     
 - [x] API and download enabled  
     Click the checkbox to enable/disable API access and download.
@@ -172,7 +170,7 @@ The list displays all predefined queries. Depending on the settings, the display
     Click the checkbox to enable/disable public download.
    
 - [x] Write access enabled  
-    Click the checkbox to enable/disable write operations.
+    Click the checkbox to enable/disable write access.
    
 - [TRY QUERY] (READ ONLY)   
     Click this button to try the edited query. The *Try query result* box is displayed.
@@ -198,7 +196,7 @@ The list displays all predefined queries. Depending on the settings, the display
     Click this button to cancel executing the query. The *Execute saved query* is closed.
 
 - [EXECUTE]  
-    Click this button to execute the query. The *Execute saved query* is closed. The query results are displayed in a new window or downloaded in a CSV or XML file to the downloads folder depending on the options previously selected. 
+    Click this button to execute the query. The *Execute saved query* is closed. The query results are displayed in a new window or downloaded in a CSV or XML file to the downloads folder depending on the option previously selected. 
 
 
 ## Bind query parameters placeholders
@@ -215,10 +213,10 @@ The list displays all predefined queries. Depending on the settings, the display
     The predefined SQL query is displayed.
 
 - Placeholder field  
-  Enter the desired value in the placeholder field. The placeholder field name changes according to the description defined for the placeholder in the query.
+  Enter the desired value in the placeholder field. The placeholder field name changes according to the description defined for the placeholder when creating the query.
 
 - [CANCEL]   
     Click this button to cancel executing the query. The *Bind query parameters placeholders* is closed.
 
 - [EXECUTE]  
-    Click this button to proceed to execute the query. The *Bind query parameters placeholders* is closed. The query results are displayed in a new window or downloaded in a CSV or XML file to your downloads depending on the options previously selected.
+    Click this button to execute the query. The *Bind query parameters placeholders* is closed. The query results are displayed in a new window or downloaded in a CSV or XML file to your downloads folder depending on the option previously selected.
