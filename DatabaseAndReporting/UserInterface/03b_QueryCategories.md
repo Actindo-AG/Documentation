@@ -1,4 +1,4 @@
-[!!Manage the query categories](../Integration/03_ManageConnections.md)
+[!!Manage the query categories](../Integration/02_ManageQueryCategories.md)
 
 # Query categories
 
@@ -18,9 +18,9 @@
     Click this button to save all changes. The *Submitting data* view is displayed while saving. The changes are displayed in the tree structure.
 
 - ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add)   
-    Click this button to add a query category or sub-category. A plus sign is displayed in each displayed column. Click the plus sign in the desired column to add a new query category or sub-category to the selected query category. The *Add element* window is displayed, see [Add element](#add-element).    
+    Click this button to add a query category or sub-category. A plus sign is displayed in each displayed column. Click the plus sign in the desired column to add a new query category or sub-category to the selected column. The *Add element* window is displayed, see [Add element](#add-element).    
 
-    > [Info] If you add a query category, a second column is displayed. When you click the button ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) again, you can also create a query sub-category in the second column. Each time, you add a new query sub-category, the next column is displayed. You can add an unlimited number of query sub-categories in an unlimited number of levels. 
+    > [Info] If you add a query category, a second column is displayed. When you click the button ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) again, you can also create a query sub-category in the second column. Each time you add a new query sub-category, the next column is displayed. You can add an unlimited number of query sub-categories in an unlimited number of levels. 
 
 The following buttons and fields are only displayed when you have added a query category.
 
@@ -59,7 +59,7 @@ The following buttons and fields are only displayed when you have added a query 
     Enter a query category name in the selected language.
 
 - *Key*   
-    Enter an query category key. The number of characters is limited to 190.
+    Enter a query category key. The number of characters is limited to 190.
 
 - [CANCEL]   
     Click this button to cancel adding a query category. The *Add element* window is closed.
