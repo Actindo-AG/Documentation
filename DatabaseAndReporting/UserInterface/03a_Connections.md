@@ -48,7 +48,7 @@ The list displays all available connections. Depending on the settings, the disp
 ![Create connection](../../Assets/Screenshots/DatabaseAndReporting/Settings/Connections/CreateConnection.png "[Create connection]")
 
 - ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)   
-    Click this button to close the *Create connection* view and return to the connection list. All changes are rejected.
+    Click this button to close the *Create connection* view and return to the list of connections. All changes are rejected.
 
 - *Name*   
     Enter a connection name.
@@ -82,16 +82,16 @@ The fields displayed in the *Credentials* section vary depending on the selected
 ![Create connection InfluxDB driver V1](../../Assets/Screenshots/DatabaseAndReporting/Settings/Connections/CreateConnectionInfluxDBDriverV1.png "[Create connection InfluxDB driver V1]")
 
 - *URL*  
-    Enter the InfluxDB URL.
+    Enter your URL path.
 
 - *Database*  
-    Enter the InfluxDB database identifier.
+    Enter your database identifier.
 
 - *Username*  
-    Enter the InfluxDB username.
+    Enter your username.
 
 - *Password*  
-    Enter the InfluxDB password.
+    Enter your password.
 
 - [SAVE]  
     Click this button to save the connection.
@@ -104,16 +104,16 @@ The fields displayed in the *Credentials* section vary depending on the selected
 ![Create connection InfluxDB driver V2](../../Assets/Screenshots/DatabaseAndReporting/Settings/Connections/CreateConnectionInfluxDBDriverV2.png "[Create connection InfluxDB driver V2]")
 
 - *URL*  
-    Enter the InfluxDB URL.
+    Enter your URL path.
 
 - *Organization*  
-    Enter the InfluxDB organization name.
+    Enter your organization name.
 
 - *Bucket*  
-    Enter the InfluxDB database identifier.
+    Enter your database identifier.
 
 - *API token*  
-    Enter the InfluxDB API token.
+    Enter your API token.
 
 - [SAVE]  
     Click this button to save the connection.
@@ -126,16 +126,16 @@ The fields displayed in the *Credentials* section vary depending on the selected
 ![Edit connection](../../Assets/Screenshots/DatabaseAndReporting/Settings/Connections/EditConnection.png "[Edit connection]")
 
 - ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)   
-    Click this button to close the *Edit connection* view and return to the connection list. All changes are rejected.
+    Click this button to close the *Edit connection* view and return to the list of connections. All changes are rejected.
 
 - *Name*   
-    Connection name. Click the button ![Edit](../../Assets/Icons/Edit02.png "[Edit]") (Edit) to the right of the name to edit it.
+    Connection name.  
 
 - ![Edit](../../Assets/Icons/Edit02.png "[Edit]") (Edit)  
     Click this button to edit the connection name.
 
 - ![Apply](../../Assets/Icons/Check.png "[Apply]") (Apply)  
-    Click this button to apply the changes to the connection name.  This button is only displayed if you are editing the connection name.
+    Click this button to apply the changes to the connection name. This button is only displayed if you are editing the connection name.
 
 - *Created DD/MM/YYYY*  
     Creation date of the connection. This field is read-only.  
@@ -158,16 +158,16 @@ The fields displayed in the *Credentials* section vary depending on the selected
 **Credentials** 
 
 - *URL*  
-    Edit the InfluxDB URL.
+    Click this field to edit your URL path.
 
 - *Database*  
-    Edit the InfluxDB database identifier.
+    Click this field to edit your database identifier.
 
 - *Username*  
-    Edit the InfluxDB username.
+    Click this field to edit your username.
 
 - *Password*  
-    Edit the InfluxDB password.
+    Click this field to edit your password.
 
 - [SAVE]  
     Click this button to save any changes made.
@@ -177,23 +177,23 @@ The fields displayed in the *Credentials* section vary depending on the selected
 
 *Database and reporting > Settings > Tab CONNECTIONS > Select a connection with InfluxDB driver V2*
 
-!![Edit credentials InfluxDB driver V2](../../Assets/Screenshots/DatabaseAndReporting/Settings/Connections/ScreenshotFehlt.png "[Edit credentials InfluxDB driver V2]")
+![Edit credentials InfluxDB driver V2](../../Assets/Screenshots/DatabaseAndReporting/Settings/Connections/ScreenshotFehlt.png "[Edit credentials InfluxDB driver V2]")
 
 [comment]: <> (Screenshot ziehen / ziehen lassen)
 
 **Credentials** 
 
 - *URL*  
-    Edit the InfluxDB URL.
+    Click this field to edit your URL path.
 
 - *Organization*  
-    Edit the InfluxDB organization name.
+    Click this field to edit your organization name.
 
 - *Bucket*  
-    Edit the InfluxDB database identifier.
+    Click this field to edit your database identifier.
 
 - *API token*  
-    Edit the InfluxDB API token.
+    Click this field to edit your API token.
 
 - [SAVE]  
     Click this button to save any changes made.
