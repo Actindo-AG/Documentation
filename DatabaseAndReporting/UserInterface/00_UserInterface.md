@@ -13,8 +13,8 @@ In this part of the *Database and Reporting* documentation, you will find the fo
 
 
 - [INFLUXDB TIME SERIES](./01b_InfluxDBTimeSeries.md)  
-    - [Create an InfluxDB time series](./01b_InfluxDBTimeSeries.md#create-an-influxdb-time-series)
-    - [Edit an InfluxDB time series](./01b_InfluxDBTimeSeries.md#edit-an-influxdb-time-series)
+    - [Create InfluxDB time series](./01b_InfluxDBTimeSeries.md#create-influxdb-time-series)
+    - [Edit InfluxDB time series](./01b_InfluxDBTimeSeries.md#edit-influxdb-time-series)
 
 
 - [Logging](./02_Logging.md)
