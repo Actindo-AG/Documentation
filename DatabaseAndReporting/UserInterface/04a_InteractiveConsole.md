@@ -30,7 +30,7 @@
 ![Interactive console write access](../../Assets/Screenshots/DatabaseAndReporting/MySQLConsole/InteractiveConsoleWriteAccess.png "[Interactive console  write access]")
 
 - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") Write Access   
-    If desired, disable this toggle to deactivate the write access. When this toggle is disabled, the SQL queries are read-only. When this toggle is enabled, SQL queries with write operations can be executed.
+    Disable this toggle to deactivate the write access. When this toggle is disabled, the SQL queries are read-only. When this toggle is enabled, SQL queries with write operations can be executed.
 
 - mysql>  
     Enter your SQL query following the interactive command prompt and press the **ENTER** key to execute it. The results are presented in an ASCII table format in the interactive console.  
