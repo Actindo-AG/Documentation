@@ -54,7 +54,7 @@ No prerequisites to fulfill.
     - Define the desired time criteria in the *creationDate* field, either by entering the date with the keyboard or by clicking the calendar button to select the desired date and time. 
 
     - Click the [EXECUTE] button.   
-        The query results are displayed in table format at the bottom of the workspace. The time condition has been added to the query.
+        The query results are displayed in table format at the bottom of the workspace. 
 
 [comment]: <> (ETL use enabled muss noch ausgeblendet werden, laut JS)
 
