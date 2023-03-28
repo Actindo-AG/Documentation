@@ -41,6 +41,8 @@ The list displays all intents. Depending on the settings, the displayed columns 
 - *Created by*  
     Name and username of the user who created the intent. If the intent was created automatically by the system, this field is empty. 
 
+[comment]: <> (Stimmt das hier? Oder Name and username von logged user angezeigt?)
+
 - *Max log level of message*  
     Maximum log level of the message(s) contained in the intent. The following levels are available:
     - **Debug**
@@ -71,7 +73,16 @@ The list displays all intents. Depending on the settings, the displayed columns 
 **List of messages**
 
 - ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)   
-    Click this button to close the *List of messages* view and return to the list of intents. All changes are rejected.
+    Click this button to close the *List of messages* view and return to the list of intents. 
+
+- ![Search](../../Assets/Icons/Search.png "[Search]") (Search)   
+    Click this button to display the search bar and search for a message.
+
+- ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh)   
+    Click this button to update the list of messages.
+
+- ![Columns](../../Assets/Icons/Columns.png "[Columns]") Columns (x)   
+    Click this button to display the columns bar and customize the displayed columns and the order of columns in the list. The *x* indicates the number of columns that are currently displayed in the list.
 
 - [x]     
     Select the checkbox to display the editing toolbar. You can only select one checkbox at a time.
@@ -79,7 +90,7 @@ The list displays all intents. Depending on the settings, the displayed columns 
 - ![Download](../../Assets/Icons/Unpublish02.png "[Download]") (Download)  
     Click this button to download the displayed log message.
 
-[comment]: <> (Beim Klicken passiert nichts. S.Walke meinte in Fulfillment, die Schaltfläche sollte raus. Auch hier und in OC, da Standard-UI?)
+[comment]: <> (Beim Klicken passiert nichts. S. Walke meinte in Fulfillment, die Schaltfläche sollte raus. Auch hier und in OC, da Standard-UI?)
 
 - ![View](../../Assets/Icons/Eye02.png "[View]") (View)    
     Click this button to display the details of the log message. Alternatively, you can click directly a row in the list to display the details of the log message. The *Detail of log message "Log message title"* view is displayed, see [Detail of log message "Log message title"](#detail-of-log-message-log-message-title). 
@@ -106,6 +117,8 @@ The list displays all log messages of the selected intent. Depending on the sett
 - *Created by*  
     Name and username of the user who created the intent. If the intent was created automatically by the system, this field is empty. 
 
+[comment]: <> (Stimmt das hier? Oder Name and username von logged user angezeigt?)
+
 - *Message*  
     Log message to the intent.
 
@@ -120,7 +133,7 @@ The list displays all log messages of the selected intent. Depending on the sett
 ![Detail of log message](../../Assets/Screenshots/DatabaseAndReporting/Logging/DetailLogMessageAttributes.png "[Detail of log message]")
 
 - ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)   
-    Click this button to close the *Detail of log message "Log message title"* view and return to the list of messages. All changes are rejected.
+    Click this button to close the *Detail of log message "Log message title"* view and return to the list of messages. 
 
 - [CANCEL]  
     Click this button to close the *Detail of log message "Log message title"* view.
@@ -173,7 +186,7 @@ In general, the most common attribute sets are the standard error log message at
     Http header and body of the response.
 
 - *Exception*   
-    Description of the error. An exception is only displayed if an error has occurred and a http status code of the **4xx** class, for instance a **404** code has been returned.
+    Description of the error. An exception is only displayed if an error has occurred and a http status code of the **4xx** class, for instance a **404** code, has been returned.
 
 
 ### Detail of log message "Log message title" &ndash; Dependencies
@@ -191,7 +204,7 @@ In general, the most common attribute sets are the standard error log message at
     Click this button to display the columns bar and customize the displayed columns and the order of columns in the list. The *x* indicates the number of columns that are currently displayed in the list.
 
 - [x]     
-    Select the checkbox to display the editing toolbar. If you click the checkbox in the header, all dependent entities in the list are selected. If no dependency exists for the offer, the *No other entities depend on this entity* notice is displayed.
+    Select the checkbox to display the editing toolbar. If you click the checkbox in the header, all dependent entities in the list are selected. If no dependency exists for the message, the *No other entities depend on this entity* notice is displayed.
 
 The list displays all dependencies of the selected entity. Depending on the settings, the displayed columns may vary. All fields are read-only. 
 
