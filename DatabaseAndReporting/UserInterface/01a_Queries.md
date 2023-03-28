@@ -53,7 +53,7 @@
 
 - ![Edit](../../Assets/Icons/Edit01.png "[Edit]") (Edit)   
     Click this button to edit a query. This button is only displayed if a single checkbox in the list of queries is selected. Alternatively, you can click directly a query in the list to edit it.  
-    The *Edit MySQL query* window is displayed, see [Edit MySQL query](#edit-mysql-query).
+    The *Edit MySQL query* view is displayed, see [Edit MySQL query](#edit-mysql-query).
 
 - ![Delete](../../Assets/Icons/Trash03.png "[Delete]") (Delete)   
     Click this button to delete a query. It is possible to delete several queries at once. This button is displayed if at least one checkbox in the list of queries is selected.       
