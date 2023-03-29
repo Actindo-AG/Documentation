@@ -65,7 +65,7 @@
     Click this button to enable the selected connection(s). This button is only displayed if the checkbox of at least one inactive connection is selected. 
 
 - ![Edit](../../Assets/Icons/Edit01.png "[Edit]") (Edit)  
-    Click this button to edit the selected connection. This button is only displayed if a single checkbox in the list of connections is selected. Alternatively, you can click directly a row in the list to edit a connection. The *Edit connection* view is displayed, see [Edit connection](#edit-connection).
+    Click this button to edit the selected connection. This button is only displayed if a single checkbox in the list of connections is selected. Alternatively, you can click directly a row in the list to edit a connection. The *Edit connection* view is displayed, see [Edit connection](../../Channels/UserInterface/07a_Connections.md#edit-connection).
 
 
 The list displays all available connections. Depending on the settings, the displayed columns may vary. All fields are read-only.
@@ -94,15 +94,46 @@ The list displays all available connections. Depending on the settings, the disp
     Connection identification number. The ID number is automatically assigned by the system.
 
 - ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add)  
-    Click this button to add a connection. The *Create connection* view is displayed, see [Create connection](#create-connection).
+    Click this button to add a connection. The *Create connection* view is displayed, see [Create connection](../../Channels/UserInterface/07a_Connections.md#create-connection).
 
+
+## Create view
+
+*Omni-Channel > Settings > Tab CONNECTIONS > Button Points > Menu entry create*
+
+![Create view](../../Assets/Screenshots/Channels/CreateView.png "[Create view]")
+
+- *Name*   
+    Enter a name for the view.
+
+- [CANCEL]   
+    Click this button to cancel creating a view. The *Create view* window is closed.
+
+- [SAVE]   
+    Click this button to save the new view and display it in the *VIEW* drop-down list. The *Create view* window is closed.
+
+
+## Rename view
+
+*Omni-Channel > Settings > Tab CONNECTIONS > Button Points > Menu entry rename*
+
+![Rename view](../../Assets/Screenshots/Channels/RenameView.png "[Rename view]")
+
+- *Name*   
+    Click this field to edit the view name.
+
+- [CANCEL]   
+    Click this button to cancel renaming the view. The *Rename view* window is closed.
+
+- [SAVE]   
+    Click this button to save the changes and display it in the *VIEW* drop-down list. The *Rename view* window is closed.
 
 
 ## Create Shopware 6 connection
 
 *Omni-Channel > Settings > Tab CONNECTIONS > Button Add*
 
-![Create connection](../../Assets/Screenshots/Channels/Settings/Connections/CreateConnection.png "[Create connection]")
+![Create Shopware 6 connection](../../Assets/Screenshots/Channels/Settings/Connections/CreateConnection.png "[Create Shopware 6 connection]")
 
 - ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)   
     Click this button to close the *Create connection* view and return to the connection list. All changes are rejected.
@@ -117,25 +148,33 @@ The list displays all available connections. Depending on the settings, the disp
     Click this button to edit the connection name. This button is only displayed if the connection name has been confirmed. 
 
 - *Driver*  
-    Click the drop-down list and select the desired driver. All installed drivers are displayed. Depending on the connection driver, a *Credentials* section is displayed below the drop-down list.
+    Click the drop-down list and select the Shopware 6 driver. All installed drivers are displayed. The *Credentials* section is displayed below the drop-down list.
 
     > [Info] Drivers are licensed and must be acquired via the app store or the corresponding e-commerce partner platform. The applicable driver credentials to establish the connection are obtained when acquiring the corresponding license.
 
 
 **Credentials**
 
-The fields displayed in the *Credentials* section vary depending on the selected driver.
+![Edit connection](../../Assets/Screenshots/Channels/Settings/Connections/Shopware6/CreateConnectionCredentials.png "[Edit connection]")
+
+- URL  
+    Enter the shop base URL.
+
+- Access key ID  
+    Enter the access key ID provided in the Shopware 6 backend.
+
+- Secret access key  
+    Enter the secret access key provided in the Shopware 6 backend.
 
 - [SAVE]  
     Click this button to save the connection.
 
 
-
 ## Edit Shopware 6 connection
 
-*Omni-Channel > Settings > Tab CONNECTIONS > Select a connection*
+*Omni-Channel > Settings > Tab CONNECTIONS > Select Shopware 6 connection*
 
-![Edit connection](../../Assets/Screenshots/Channels/Settings/Connections/EditConnection.png "[Edit connection]")
+![Edit Shopware 6 connection](../../Assets/Screenshots/Channels/Settings/Connections/Shopware6/EditConnectionCredentials.png "[Edit Shopware 6 connection]")
 
 - ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)   
     Click this button to close the *Edit connection* view and return to the connection list. All changes are rejected.
@@ -155,18 +194,23 @@ The fields displayed in the *Credentials* section vary depending on the selected
 
 ## Edit Shopware 6 connection &ndash; Credentials
 
-*Omni-Channel > Settings > Tab CONNECTIONS > Select a connection > Tab Credentials*
+*Omni-Channel > Settings > Tab CONNECTIONS > Select Shopware 6 connection > Tab Credentials*
 
-![Edit credentials](../../Assets/Screenshots/Channels/Settings/Connections/EditConnection.png "[Edit credentials]")
-
-This tab is only displayed for drivers with further credentials.
+![Edit Shopware 6 credentials](../../Assets/Screenshots/Channels/Settings/Connections/Shopware6/EditConnectionCredentials.png "[Edit Shopware 6 credentials]")
 
 - *Driver*  
-    Selected driver name. This drop-down list is read-only.
+    Driver name. For Shopware 6, the Shopware 6 driver is displayed. This drop-down list is read-only.
 
 **Credentials** 
 
-The fields displayed in the *Credentials* section vary depending on the selected driver.
+- URL  
+    Click the field to edit the shop base URL.
+
+- Access key ID  
+    Click the field to edit the access key ID for the Shopware 6 connection.
+
+- Secret access key  
+    Click the field to edit the secret access key for the Shopware 6 connection. 
 
 - [SAVE]  
     Click this button to save any changes made.
@@ -174,48 +218,99 @@ The fields displayed in the *Credentials* section vary depending on the selected
 
 ## Edit Shopware 6 connection &ndash; Settings
 
-*Omni-Channel > Settings > Tab CONNECTIONS > Select a connection > Tab Settings*
+*Omni-Channel > Settings > Tab CONNECTIONS > Select Shopware 6 connection > Tab Settings*
 
-![Edit settings](../../Assets/Screenshots/Channels/Settings/Connections/Settings.png "[Edit settings]")
+![Edit settings](../../Assets/Screenshots/Channels/Settings/Connections/Shopware6/EditConnectionSettings_DefaultLanguage.png "[Edit settings]")
 
-This tab is only displayed for drivers with further settings.
-The fields displayed vary depending on the driver.
+By default, the *Settings* tab is composed of the following settings entries:
+
+- [Default language](#default-language)
+- [Orders](#orders)
+- [Tax classes](#tax-classes)
+
+Additional menu entries may be displayed if the corresponding functions have been configured in Shopware 6:
+- [Price rules](#price-rules)
+- [Klarna](#klarna)
+- [Ratepay](#ratepay)
+
+
+### Default language
+
+*Omni-Channel > Settings > Tab CONNECTIONS > Select Shopware 6 connection > Tab Settings > Menu entry Default language*
+
+![Default language](../../Assets/Screenshots/Channels/Settings/Connections/Shopware6/EditConnectionSettings_DefaultLanguage.png "[Default language]")
+
+- [Save]  
+    Click this button to save any changes made.
+
+- *Select Shopware 6 default language*  
+    Click the drop-down list and select the default language configured in the Shopware 6 backend. 
+
+### Orders
+
+*Omni-Channel > Settings > Tab CONNECTIONS > Select Shopware 6 connection > Tab Settings > Menu entry Orders*
+
+![Orders](../../Assets/Screenshots/Channels/Settings/Connections/Shopware6/EditConnectionSettings_Orders.png "[Orders]")
+
+- [Save]  
+    Click this button to save any changes made.
+
+- *Import only orders with a higher number than this*  
+    Enter any desired order number to import orders with a higher order number than the the specified.
+
+- *Import only order with status*  
+    Enable the toggles of all statuses for which the orders are to be imported. All statuses available in Shopware 6 are displayed. By default, the toggles are disabled. 
+    
+- *Order state to set in shop after successful import*  
+    Click the drop-down list and select the state that will be set for the order if the import has been successful. All states available in Shopware 6 are displayed.
+
+- *Order state to set in shop after the order is fully shipped*  
+    Click the drop-down list and select the state that will be set for the order if the shipment has been completed. All states available in Shopware 6 are displayed.
+
+- Payment methods  
+    Click the desired payment method to display all available order state toggles. All payment methods configured in Shopware 6 are displayed. For each payment method, enable the toggles of all states for which the orders are to be imported. All states available in Shopware 6 are displayed for each payment method. 
+    
+### Tax classes
+
+*Omni-Channel > Settings > Tab CONNECTIONS > Select Shopware 6 connection > Tab Settings > Menu entry Tax classes*
+
+![Tax classes](../../Assets/Screenshots/Channels/Settings/Connections/Shopware6/EditConnectionSettings_TaxClasses.png "[Tax classes]")
 
 - [SAVE]  
     Click this button to save any changes made.
 
-    > [Info] If no settings are available for the selected connection, the *There are no settings available* notice is displayed.
+- *Select Core1 tax class for Shopware 6 "tax class"*  
+    Click the drop-down list and select the corresponding tax class in the *Actindo Core1 Platform*. All available tax classes are displayed in the list.
 
+### Price rules
 
+*Omni-Channel > Settings > Tab CONNECTIONS > Select Shopware 6 connection > Tab Settings > Menu entry Price rules*
 
-## Create view
+![Price rules](../../Assets/Screenshots/Channels/Settings/Connections/Shopware6/EditConnectionSettings_PriceRules.png "[Price rules]")
 
-*Omni-Channel > Settings > Tab CONNECTIONS > Button Points > Menu entry create*
+> [Info] This menu entry is only displayed if the corresponding price rules have been configured in the Shopware 6 backend. 
 
-![Create view](../../Assets/Screenshots/Channels/CreateView.png "[Create view]")
+- *Select price rules to create price attributes*   
+    Enable the toggles for all price rules for which you want to create a price attribute in the *Actindo Core1 Platform* to maintain deviating prices. All price rules available in Shopware 6 are displayed.
 
-- *Name*   
-    Enter a name for the view.
+### Klarna
 
-- [CANCEL]   
-    Click this button to cancel creating a view. The *Create view* window is closed.
+*Omni-Channel > Settings > Tab CONNECTIONS > Select Shopware 6 connection > Tab Settings > Menu entry Klarna*
 
-- [SAVE]   
-    Click this button to save the new view and display it in the *VIEW* drop-down list. The *Create view* window is closed.
+![Klarna](../../Assets/Screenshots/Channels/Settings/Connections/Shopware6/EditConnectionSettings_Klarna.png "[Klarna]")
 
+> [Info] This menu entry is only displayed if the *Klarna Integration for Shopware 6 plugin* has been installed in your *Actindo Core1 Platform* and the *Klarna Payment Plugin for Shopware 6* has been installed in your Shopware 6 account. 
 
+- ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Enable Klarna integration for this connection*   
+    Enable this toggle to import additional fields from the shop for further processing.
 
-## Rename view
+### Ratepay
 
-*Omni-Channel > Settings > Tab CONNECTIONS > Button Points > Menu entry rename*
+*Omni-Channel > Settings > Tab CONNECTIONS > Select Shopware 6 connection > Tab Settings > Menu entry Ratepay*
 
-![Rename view](../../Assets/Screenshots/Channels/RenameView.png "[Rename view]")
+![Ratepay](../../Assets/Screenshots/Channels/Settings/Connections/Shopware6/EditConnectionSettings_Ratepay.png "[Ratepay]")
 
-- *Name*   
-    Click this field to edit the view name.
+> [Info] This menu entry is only displayed if the *Ratepay Integration for Shopware 6 plugin* has been installed in your *Actindo Core1 Platform* and the *Ratepay Payment Plugin for Shopware 6* has been installed in your Shopware 6 account. 
 
-- [CANCEL]   
-    Click this button to cancel renaming the view. The *Rename view* window is closed.
-
-- [SAVE]   
-    Click this button to save the changes and display it in the *VIEW* drop-down list. The *Rename view* window is closed.
+ ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Enable Klarna integration for this connection*   
+    Enable this toggle to import additional fields from the shop for further processing.
