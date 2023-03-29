@@ -173,7 +173,7 @@ As some data types have no further configuration settings, no *CONFIGURATION* se
     Click this button to save the attribute. The *Edit attribute* view is closed.
 
 
-### Edit attribute &ndash; Data
+### Edit attribute – Data
 
 *DataHub > Settings > Tab ATTRIBUTES > Select attribute > Tab Data*
 

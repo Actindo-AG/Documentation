@@ -2,10 +2,9 @@
 
 # Manage the HTML templates
 
-Define HTML templates that are used for the ETL mapping, especially for the receipt export.
-HTML templates allow you to include HTML text or Smarty templates and thus create complex queries with many logical inputs.
-Further, you are able to include certain data from all available entities using the HTML templates.
-
+HTML templates are mainly used for email messages such as confirmations or shipping messages. Further, they can be used to write detailed product descriptions that are uploaded to a shop or marketplace, for example to ebay.
+HTML templates allow you to generate HTML content from data based on templates using the smarty template engine.
+Further, you are able to include data from all available source entities in HTML as well as all sub-entities if they are present in the JSON representation of the source entity using the HTML templates.
 
 ## Create an HTML template
 
@@ -29,8 +28,6 @@ The *HTML Templates for ETL* plugin has been installed.
 2. Enter an expressive name for the HTML template in the *Name* field and, if desired, add a description to the HTML template in the *Description* field.
 
 3. Enter a key for the HTML template in the *Key* field. The key is required for API access and must be system wide unique.
-
-[comment]: <> (Gibt es noch andere Vorgaben für diesen Key?)
 
 4. Click the textarea and enter the appropriate content for the HTML template. You can either include HTML text and/or Smarty templates:
     - [Include HTML text](#include-html-text)
