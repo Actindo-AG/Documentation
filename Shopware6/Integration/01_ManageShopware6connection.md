@@ -121,6 +121,8 @@ A Shopware 6 connection has been established, see [Create a Shopware 6 connectio
   
     + If desired, enable for each payment method the toggles of all states for which the orders are to be imported. If you select no order state for a certain payment method, all orders with this payment method, regardless of their state, will be imported. All states available in Shopware 6 are displayed for each payment method. All payment methods configured in Shopware 6 are displayed. This allows you, for example, to only process payed orders for methods like PayPal where it is uncommon to process orders prior to them being paid.
 
+[comment]: (Check mit Oli: For every payment method you can select payment states an order has to have for it to be exported to the OMS. Also imported from Shopware to Actindo oder weiter exported zu OMS?)
+
 6. Click the *Tax classes* menu entry in the left side bar.  
     The tax classes available in Shopware 6 are displayed on the right side.  
 
