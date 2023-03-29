@@ -256,9 +256,9 @@ Additional menu entries may be displayed if the corresponding functions have bee
     Click this button to save any changes made.
 
 - *Import only orders with a higher number than this*  
-    Enter any desired order number to import orders with a higher order number than the the specified.
+    Enter any desired order number to import orders with a higher order number than the specified.
 
-- *Import only order with status*  
+- *Import only orders with status*  
     Enable the toggles of all statuses for which the orders are to be imported. All statuses available in Shopware 6 are displayed. By default, the toggles are disabled. 
     
 - *Order state to set in shop after successful import*  
@@ -276,7 +276,7 @@ Additional menu entries may be displayed if the corresponding functions have bee
 
 ![Tax classes](../../Assets/Screenshots/Channels/Settings/Connections/Shopware6/EditConnectionSettings_TaxClasses.png "[Tax classes]")
 
-- [SAVE]  
+- [Save]  
     Click this button to save any changes made.
 
 - *Select Core1 tax class for Shopware 6 "tax class"*  
@@ -290,6 +290,9 @@ Additional menu entries may be displayed if the corresponding functions have bee
 
 > [Info] This menu entry is only displayed if the corresponding price rules have been configured in the Shopware 6 backend. 
 
+- [Save]  
+    Click this button to save any changes made.
+
 - *Select price rules to create price attributes*   
     Enable the toggles for all price rules for which you want to create a price attribute in the *Actindo Core1 Platform* to maintain deviating prices. All price rules available in Shopware 6 are displayed.
 
@@ -300,6 +303,9 @@ Additional menu entries may be displayed if the corresponding functions have bee
 ![Klarna](../../Assets/Screenshots/Channels/Settings/Connections/Shopware6/EditConnectionSettings_Klarna.png "[Klarna]")
 
 > [Info] This menu entry is only displayed if the *Klarna Integration for Shopware 6 plugin* has been installed in your *Actindo Core1 Platform* and the *Klarna Payment Plugin for Shopware 6* has been installed in your Shopware 6 account. 
+
+- [Save]  
+    Click this button to save any changes made.
 
 - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Enable Klarna integration for this connection*   
     Enable this toggle to import additional fields from the shop for further processing.
@@ -312,5 +318,8 @@ Additional menu entries may be displayed if the corresponding functions have bee
 
 > [Info] This menu entry is only displayed if the *Ratepay Integration for Shopware 6 plugin* has been installed in your *Actindo Core1 Platform* and the *Ratepay Payment Plugin for Shopware 6* has been installed in your Shopware 6 account. 
 
+- [Save]  
+    Click this button to save any changes made.
+    
  ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Enable Klarna integration for this connection*   
     Enable this toggle to import additional fields from the shop for further processing.
