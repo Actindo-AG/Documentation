@@ -180,7 +180,7 @@ The *Edit attribute* view is composed of the following tabs:
 - [Edit attribute &ndash; Attribute set assignments](#edit-attribute-–-attribute-set-assignments)
 
 
-### Edit attribute – Data
+### Edit attribute &ndash; Data
 
 *PIM > Settings > Tab ATTRIBUTES > Select attribute > Tab Data*
 
