@@ -66,7 +66,7 @@ In this part of the *PIM* documentation, you will find the following chapters:
 - [ATTRIBUTES](./03a_Attributes.md)
     - [Create attribute](./03a_Attributes.md#create-attribute)
     - [Edit attribute](./03a_Attributes.md#edit-attribute)
-        - [Edit attribute &ndash; Data](./03a_Attributes.md#edit-attribute--data)
+        - [Edit attribute – Data](./03a_Attributes.md#edit-attribute-–-data)
         - [Edit attribute &ndash; Attribute set assignments](./03a_Attributes.md#edit-attribute--attribute-set-assignments)
 
 
