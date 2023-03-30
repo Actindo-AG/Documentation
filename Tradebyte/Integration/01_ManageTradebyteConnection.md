@@ -1,4 +1,4 @@
-[!!Manage the connections](../../Channels/Integration/01_ManageConnections.md)
+[!!Manage the connections](./01_ManageTradebyteConnection.md)
 [!!User interface Connections](../UserInterface/01_Connections.md)
 
 # Manage the Tradebyte connection
@@ -65,7 +65,7 @@ After the connection to a Tradebyte shop has been established, further settings 
 
 #### Prerequisites
 
-A Tradebyte connection has been established.
+A Tradebyte connection has been established, see [Create a Tradebyte connection](#create-a-tradebyte-connection).
 
 #### Procedure
 
