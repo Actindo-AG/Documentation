@@ -15,11 +15,8 @@ Create the connection to an Amazon shop using the Amazon driver. Further setting
 - An Amazon seller account has been created.
 - All columns of the order reports must be activated in your Amazon seller account, see [Add or remove order report columns](https://sellercentral.amazon.de/order-reports-and-feeds/column-picker?source=/order-reports-and-feeds/reports/ref=xx_orderrpt_dnav_xx). 
 - A standard ship-from address must be set in your Amazon seller account, see [Set up a ship-from address](https://sellercentral.amazon.de/help/hub/reference/G201841320). 
-
     > [Info] Make sure that you are logged in to your Amazon seller account to access the links above. 
-
 - The *Omni-Channel Amazon Integration* plugin has been installed. 
-
 > [Info] For the *Omni-Channel* module version 4.1.0 or higher, the *Omni-Channel Amazon Integration* plugin is required in at least version 4.0.0. 
 
 #### Procedure
@@ -118,7 +115,10 @@ An Amazon connection has been established, see [Create an Amazon connection](#cr
 
     ![Settings order import](../../Assets/Screenshots/Channels/Settings/Connections/Amazon/EditConnectionSettings_OrderImport.png "[Settings order import]")
 
-6. Configure the following settings:
+6. If necessary, disable the *Apply from default* toggle. By default, the toggle is enabled.  
+    All toggles and fields are unlocked.
+
+7. Configure the following settings:
 
     + Enable the toggles of all orders you want to import in the *'Merchant Fulfilled Network' (MFN) orders* section. The following options are available:
         - *Import 'Merchant Fulfilled Network' (MFN) orders.*
@@ -143,30 +143,30 @@ An Amazon connection has been established, see [Create an Amazon connection](#cr
     
     > [Info] The orders are imported from Amazon via order reports. As only a limited of reports can be imported simultaneously, it may take some time to import a greater number of orders. Further, for each order to be imported, two order reports must be retrieved. Therefore, the order status is always **Not imported** after the first order report has been retrieved and changes to **Order complete** as soon as the second order report has been retrieved. This retrieval may take some time.         
 
-7. Click the *Order export/invoice upload* menu entry in the left side bar.    
+8. Click the *Order export/invoice upload* menu entry in the left side bar.    
     The order export and invoice upload settings are displayed on the right side.    
 
     ![Settings order export/invoice upload](../../Assets/Screenshots/Channels/Settings/Connections/Amazon/EditConnectionSettings_OrderExport.png "[Settings order export/invoice upload]")
 
-8. If necessary, disable the *Apply from default* toggle. By default, the toggle is enabled.  
+9. If necessary, disable the *Apply from default* toggle. By default, the toggle is enabled.  
 All checkboxes are unlocked.
 
-9. Configure the following settings:
+10. Configure the following settings:
 
-    + Select the checkboxes of all marketplaces for whose orders you want to export the shipments in the *Export shipments* section. You can specify the marketplaces for B2B orders in the *B2B orders* section and for B2C orders in the *B2B orders* section. All available marketplaces from Amazon are displayed in the list.
+    + Select the checkboxes of all marketplaces for whose orders you want to export the shipments in the *Export shipments* section. You can specify the marketplaces for B2B orders in the *B2B orders* section and for B2C orders in the *B2C orders* section. All available marketplaces from Amazon are displayed in the list.
 
     + Select the checkboxes of all marketplaces for whose orders you want to export the invoices in the *Export invoices* section. You can specify the marketplaces for B2B orders in the *B2B orders* section and for B2C orders in the *B2B orders* section. All available marketplaces from Amazon are displayed in the list.
 
-10. Click the *Shipping provider mapping* menu entry in the left side bar.    
+11. Click the *Shipping provider mapping* menu entry in the left side bar.    
     The shipping provider mapping settings with all shipping options offered by Amazon are displayed on the right side.
 
     ![Settings shipping provider mapping](../../Assets/Screenshots/Channels/Settings/Connections/Amazon/EditConnectionSettings_ShippingProviderMapping.png "[Settings shipping provider mapping]")
 
-11. Click the *UCS shipping provider* drop-down list for the default shipping option in the *Assigned shipping provider* column and select the applicable shipping provider. All available shipping providers are displayed in the list. 
+12. Click the *UCS shipping provider* drop-down list for the default shipping option in the *Assigned shipping provider* column and select the applicable shipping provider. All available shipping providers are displayed in the list. 
 
     > [Info] The default shipping provider is used as a fallback shipping provider for all shipping options that have no shipping provider assigned.
 
-12. If desired, click the *UCS shipping provider* drop-down list for the gift wrap shipping option in the *Assigned shipping provider* column and select the **Gift wrap** option in the drop-down list, so that a line item for gift wraps can be added to the OMS orders.   
+13. If desired, click the *UCS shipping provider* drop-down list for the gift wrap shipping option in the *Assigned shipping provider* column and select the **Gift wrap** option in the drop-down list, so that a line item for gift wraps can be added to the OMS orders.   
     The *Gift wrap* option must be configured in the *Order management* module: *Order management > Settings > Tab SHIPPING PROVIDER*.
     + Create a *Gift wrap* shipping provider that will be displayed on invoices as a gift wrap line item.
     + Select the *Gift wrap* shipping provider.
@@ -176,11 +176,11 @@ All checkboxes are unlocked.
     + Select the *Receipt export* entry in the *Settings* bar and select the *No* option in all drop-down lists on the right side.
     + Select the *Reimport* entry in the *Settings* bar and select the *No* option in the *Active* drop-down lists on the right side.
  
-13. Click the *UCS shipping provider* drop-down list for all other shipping options in the *Assigned shipping provider* column and select the applicable shipping provider. All available shipping providers are displayed in the list. If no shipping provider is selected, the default shipping provider applies.
+14. Click the *UCS shipping provider* drop-down list for all other shipping options in the *Assigned shipping provider* column and select the applicable shipping provider. All available shipping providers are displayed in the list. If no shipping provider is selected, the default shipping provider applies.
 
     > [Info] The shipping providers are configured in the *Order management* module: *Order management > Settings > Tab SHIPPING PROVIDER*.
 
-14. Click the [SAVE] button.  
+15. Click the [SAVE] button.  
     All changes have been saved. The *Saving successful* pop-up window is displayed.
 
     ![Saving successful](../../Assets/Screenshots/Channels/Settings/Connections/SavingSuccessful.png "[Saving successful]")   

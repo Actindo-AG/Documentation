@@ -1,7 +1,5 @@
 [!!Manage the Amazon connection](../Integration/01_ManageAmazonConnection.md)
 
-[comment]: <> (adjust UI to Amazon connection)
-
 # Connections
 
 *Omni-Channel > Settings > Tab CONNECTIONS*
@@ -65,7 +63,7 @@
     Click this button to enable the selected connection(s). This button is only displayed if the checkbox of at least one inactive connection is selected. 
 
 - ![Edit](../../Assets/Icons/Edit01.png "[Edit]") (Edit)  
-    Click this button to edit the selected connection. This button is only displayed if a single checkbox in the list of connections is selected. Alternatively, you can click directly a row in the list to edit a connection. The *Edit connection* view is displayed, see [Edit connection](#edit-connection).
+    Click this button to edit the Amazon connection. This button is only displayed if a single checkbox in the list of connections is selected. Alternatively, you can click directly a row in the list to edit a connection. The *Edit connection* view is displayed, see [Edit Amazon connection](#edit-amazon-connection).
 
 
 The list displays all available connections. Depending on the settings, the displayed columns may vary. All fields are read-only.
@@ -94,15 +92,45 @@ The list displays all available connections. Depending on the settings, the disp
     Connection identification number. The ID number is automatically assigned by the system.
 
 - ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add)  
-    Click this button to add a connection. The *Create connection* view is displayed, see [Create connection](#create-connection).
+    Click this button to add an Amazon connection. The *Create connection* view is displayed, see [Create connection](#create-Amazon-connection).
 
 
+## Create view
+
+*Omni-Channel > Settings > Tab CONNECTIONS > Button Points > Menu entry create*
+
+![Create view](../../Assets/Screenshots/Channels/CreateView.png "[Create view]")
+
+- *Name*   
+    Enter a name for the view.
+
+- [CANCEL]   
+    Click this button to cancel creating a view. The *Create view* window is closed.
+
+- [SAVE]   
+    Click this button to save the new view and display it in the *VIEW* drop-down list. The *Create view* window is closed.
+
+
+## Rename view
+
+*Omni-Channel > Settings > Tab CONNECTIONS > Button Points > Menu entry rename*
+
+![Rename view](../../Assets/Screenshots/Channels/RenameView.png "[Rename view]")
+
+- *Name*   
+    Click this field to edit the view name.
+
+- [CANCEL]   
+    Click this button to cancel renaming the view. The *Rename view* window is closed.
+
+- [SAVE]   
+    Click this button to save the changes and display it in the *VIEW* drop-down list. The *Rename view* window is closed.
 
 ## Create Amazon connection
 
 *Omni-Channel > Settings > Tab CONNECTIONS > Button Add*
 
-![Create connection](../../Assets/Screenshots/Channels/Settings/Connections/CreateConnection.png "[Create connection]")
+![Create Amazon connection](../../Assets/Screenshots/Channels/Settings/Connections/CreateConnection.png "[Create Amazon connection]")
 
 - ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)   
     Click this button to close the *Create connection* view and return to the connection list. All changes are rejected.
@@ -117,25 +145,36 @@ The list displays all available connections. Depending on the settings, the disp
     Click this button to edit the connection name. This button is only displayed if the connection name has been confirmed. 
 
 - *Driver*  
-    Click the drop-down list and select the desired driver. All installed drivers are displayed. Depending on the connection driver, a *Credentials* section is displayed below the drop-down list.
+    Click the drop-down list and select the Amazon driver. All installed drivers are displayed. The *Credentials* section is displayed below the drop-down list.
 
     > [Info] Drivers are licensed and must be acquired via the app store or the corresponding e-commerce partner platform. The applicable driver credentials to establish the connection are obtained when acquiring the corresponding license.
 
 
 **Credentials**
 
-The fields displayed in the *Credentials* section vary depending on the selected driver.
+![Create Amazon credentials](../../Assets/Screenshots/Channels/Settings/Connections/Amazon/CreateConnectionCredentials.png "[Create Amazon credentials]")
+
+- *Seller ID*  
+    Enter your merchant token as provided in your Amazon seller account.
+
+- *Access token*  
+    This field is locked and cannot be changed manually. The access token is filled automatically once the Actindo authorization process has been successfully performed in your Amazon seller account, see [Create an Amazon connection](../Integration/01_ManageAmazonConnection.md#create-an-amazon-connection). 
+
+- [AUTHORIZE]  
+    Click this button to start the Actindo authorization process in your Amazon seller account.
+
+- *Amazon marketplace*  
+    Click this drop-down list and select the applicable marketplace.
 
 - [SAVE]  
     Click this button to save the connection.
 
 
-
 ## Edit Amazon connection
 
-*Omni-Channel > Settings > Tab CONNECTIONS > Select a connection*
+*Omni-Channel > Settings > Tab CONNECTIONS > Select Amazon connection*
 
-![Edit connection](../../Assets/Screenshots/Channels/Settings/Connections/EditConnection.png "[Edit connection]")
+![Edit Amazon connection](../../Assets/Screenshots/Channels/Settings/Connections/Amazon/EditConnectionCredentials.png "[Edit Amazon connection]")
 
 - ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)   
     Click this button to close the *Edit connection* view and return to the connection list. All changes are rejected.
@@ -155,18 +194,26 @@ The fields displayed in the *Credentials* section vary depending on the selected
 
 ## Edit Amazon connection &ndash; Credentials
 
-*Omni-Channel > Settings > Tab CONNECTIONS > Select a connection > Tab Credentials*
+*Omni-Channel > Settings > Tab CONNECTIONS > Select Amazon connection > Tab Credentials*
 
-![Edit credentials](../../Assets/Screenshots/Channels/Settings/Connections/EditConnection.png "[Edit credentials]")
-
-This tab is only displayed for drivers with further credentials.
+![Edit credentials](../../Assets/Screenshots/Channels/Settings/Connections/Amazon/EditConnectionCredentials.png "[Edit credentials]")
 
 - *Driver*  
-    Selected driver name. This drop-down list is read-only.
+    Driver name. For Amazon, the Amazon driver is displayed. This drop-down list is read-only.
 
 **Credentials** 
 
-The fields displayed in the *Credentials* section vary depending on the selected driver.
+- *Seller ID*  
+    Click to edit your merchant token.
+
+- *Access token*  
+    This field is locked and cannot be changed manually. The access token is filled automatically once the Actindo authorization process has been successfully performed in your Amazon seller account, see [Create an Amazon connection](../Integration/01_ManageAmazonConnection.md#create-an-amazon-connection). 
+
+- [AUTHORIZE]  
+    Click this button to start the Actindo authorization process in your Amazon seller account.
+
+- *Amazon marketplace*  
+    Click this drop-down list and select the applicable marketplace.
 
 - [SAVE]  
     Click this button to save any changes made.
@@ -174,48 +221,114 @@ The fields displayed in the *Credentials* section vary depending on the selected
 
 ## Edit Amazon connection &ndash; Settings
 
-*Omni-Channel > Settings > Tab CONNECTIONS > Select a connection > Tab Settings*
+*Omni-Channel > Settings > Tab CONNECTIONS > Select Amazon connection > Tab Settings*
 
-![Edit settings](../../Assets/Screenshots/Channels/Settings/Connections/Settings.png "[Edit settings]")
+![Edit settings](../../Assets/Screenshots/Channels/Settings/Connections/Amazon/EditConnectionSettings_Offers.png "[Edit settings]")
 
-This tab is only displayed for drivers with further settings.
-The fields displayed vary depending on the driver.
+The *Settings* tab is composed of the following settings entries:  
 
-- [SAVE]  
+- [Offers](#offers)
+- [Order import](#order-import)
+- [Order export/invoice upload](#order-exportinvoice-upload)
+- [Shipping provider mapping](#shipping-provider-mapping)
+
+
+### Offers
+
+*Omni-Channel > Settings > Tab CONNECTIONS > Select Amazon connection > Tab Settings > Menu entry Offers*
+
+![Offers](../../Assets/Screenshots/Channels/Settings/Connections/Amazon/EditConnectionSettings_Offers.png "[Offers]")
+
+**Offers**
+
+- ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Apply from default*  
+    Disable this toggle if you do not want to apply the default value to the FBA offers. By default, this toggle is enabled. The *Update stock for 'Fulfillment by Amazon (FBA)' offers* toggle is unlocked.
+
+- [Save]  
     Click this button to save any changes made.
 
-    > [Info] If no settings are available for the selected connection, the *There are no settings available* notice is displayed.
+- ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Update stock for 'Fulfillment by Amazon (FBA)' offers*    
+    Enable this toggle to manage the stock for FBA offers also via Actindo. By default, this toggle is disabled.
+  
+
+### Order import
+
+*Omni-Channel > Settings > Tab CONNECTIONS > Select Amazon connection > Tab Settings > Menu entry Order import*
+
+![Order import](../../Assets/Screenshots/Channels/Settings/Connections/Amazon/EditConnectionSettings_Offers.png "[Order import]")
+
+**Order import**
+
+- ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Apply from default*  
+    Disable this toggle if you do not wanto to apply the default value to MFN and FBA offers. By default, this toggle is enabled. All *Order import* settings are unlocked.  
+
+- [Save]  
+    Click this button to save any changes made.
+
+- *'Merchant Fulfilled Network' (MFN) orders*   
+    Configure the following options to determine the 'Merchant Fulfilled Network' (MFN) orders to be imported: 
+
+    - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Import 'Merchant Fulfilled Network' (MFN) orders.*   
+        Disabled this toggle if you do not want to import 'Merchant Fulfilled Network' (MFN) orders. By default, this toggle is enabled.
+    - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Import 'Prime by Merchant' orders.*   
+        Disabled this toggle if you do not want to import 'Prime by Merchant' orders. By default, this toggle is enabled.
+    - *Import MFN orders from*  
+        Enter a date from which to import the orders. The valid date format is DD.MM.YYYY. If no date is selected, the orders of the last 90 days are automatically imported.
+    - ![Calendar](../../Assets/Icons/Calendar.png "[Calendar]") (Calendar)  
+        Click this button and select a date from which to import the others.
+
+- *'Fulfillment by Amazon' (FBA) orders*   
+    Configure the following options to determine the 'Fulfillment by Amazon' (FBA) orders to be imported: 
+
+    - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Import 'Fulfillment by Amazon' (AFN) orders.*   
+        Disabled this toggle if you do not want to import 'Fulfillment by Amazon' (AFN) orders. By default, this toggle is enabled.
+    - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Mark 'Fulfillment by Amazon' orders as shipped during import and disable warehousing.*   
+        Disabled this toggle to prevent that the warehousing and the shipping for the FBA order is managed in Actindo. By default, this toggle is enabled.
+    - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Is the VAT calculation service (VCS) enabled?*   
+        Enable or disabled this toggle to specify if this feature is active in Amazon. If the VCS is disabled, the prices in the FBA reports are gross; if the VCS is enabled, the prices are net. By default, this toggle is disabled.
+    - *Import AFN/FBA orders from*  
+        Enter a date from which to import the orders. The valid date format is DD.MM.YYYY. If no date is selected, the orders of the last 90 days are automatically imported.
+    - ![Calendar](../../Assets/Icons/Calendar.png "[Calendar]") (Calendar)  
+        Click this button and select a date from which to import the others.
+
+- *Addresses*
+
+    - *Packaging station address layout*  
+    Click the drop-down list and select the position of the customer number if you use a packing station as address. The following options are available:  
+        - **Customer number in address line**
+        - **Customer number in company**
 
 
+### Order export/invoice upload
 
-## Create view
+*Omni-Channel > Settings > Tab CONNECTIONS > Select Amazon connection > Tab Settings > Menu entry Order export/invoice upload*
 
-*Omni-Channel > Settings > Tab CONNECTIONS > Button Points > Menu entry create*
+![Edit settings](../../Assets/Screenshots/Channels/Settings/Connections/Amazon/EditConnectionSettings_Offers.png "[Edit settings]")
 
-![Create view](../../Assets/Screenshots/Channels/CreateView.png "[Create view]")
+**Order export/invoice upload**
 
-- *Name*   
-    Enter a name for the view.
+- ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Apply from default*  
+    Disable this toggle to apply the default value to order export and invoice upload. By default, this toggle is enabled. All *Export shipments* and *Export invoices* checkboxes are unlocked.
 
-- [CANCEL]   
-    Click this button to cancel creating a view. The *Create view* window is closed.
+- [Save]  
+    Click this button to save any changes made.
 
-- [SAVE]   
-    Click this button to save the new view and display it in the *VIEW* drop-down list. The *Create view* window is closed.
+- *Export shipments*  
+    Select the checkboxes of all marketplaces for whose orders you want to export the shipments. You can specify the marketplaces for B2B orders in the *B2B orders* section and for B2C orders in the *B2C orders* section. All available marketplaces from Amazon are displayed in the list. 
 
+- *Export invoices*  
+    Select the checkboxes of all marketplaces for whose orders you want to export the invoices. You can specify the marketplaces for B2B orders in the *B2B orders* section and for B2C orders in the B2C orders* section. All available marketplaces from Amazon are displayed in the list. 
 
+### Shipping provider mapping
 
-## Rename view
+*Omni-Channel > Settings > Tab CONNECTIONS > Select Amazon connection > Tab Settings > Menu entry Shipping provider mapping*
 
-*Omni-Channel > Settings > Tab CONNECTIONS > Button Points > Menu entry rename*
+![Edit settings](../../Assets/Screenshots/Channels/Settings/Connections/Amazon/EditConnectionSettings_Offers.png "[Edit settings]")
 
-![Rename view](../../Assets/Screenshots/Channels/RenameView.png "[Rename view]")
+**Shipping provider mapping**
 
-- *Name*   
-    Click this field to edit the view name.
+- [Save]  
+    Click this button to save any changes made.
 
-- [CANCEL]   
-    Click this button to cancel renaming the view. The *Rename view* window is closed.
-
-- [SAVE]   
-    Click this button to save the changes and display it in the *VIEW* drop-down list. The *Rename view* window is closed.
+- *UCS shipping provider*  
+    Click the drop-down list and select the applicable shipping provider for the corresponding shipping option. All available shipping providers are displayed in the list.
