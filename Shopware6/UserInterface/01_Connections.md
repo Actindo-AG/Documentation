@@ -269,7 +269,7 @@ Additional menu entries may be displayed if the corresponding functions have bee
 - Payment methods  
     Click the desired payment method to display all available order state toggles. All payment methods configured in Shopware 6 are displayed. For each payment method, enable the toggles of all states for which the orders are to be imported. All states available in Shopware 6 are displayed for each payment method. 
 
-[comment]: (Check mit Oli: For every payment method you can select payment states an order has to have for it to be exported to the OMS. Also imported from Shopware to Actindo oder weiter exported zu OMS?)
+[comment]: <> (Check mit Oli: For every payment method you can select payment states an order has to have for it to be exported to the OMS. Also imported from Shopware to Actindo oder weiter exported zu OMS?)
     
 ### Tax classes
 
