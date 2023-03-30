@@ -158,7 +158,7 @@ The list displays all available connections. Depending on the settings, the disp
     Enter your merchant token as provided in your Amazon seller account.
 
 - *Access token*  
-    This field is locked and cannot be changed manually. The access token is filled automatically once the Actindo authorization process has been successfully performed in your Amazon seller account, see [Create an Amazon connection](../Integration/01_ManageAmazonConnection.md#create-an-amazon-connection). 
+    This field is locked and cannot be changed manually. The access token is filled automatically once the Actindo authorization process has been successfully completed in your Amazon seller account, see [Create an Amazon connection](../Integration/01_ManageAmazonConnection.md#create-an-amazon-connection). 
 
 - [AUTHORIZE]  
     Click this button to start the Actindo authorization process in your Amazon seller account.
@@ -207,7 +207,7 @@ The list displays all available connections. Depending on the settings, the disp
     Click to edit your merchant token.
 
 - *Access token*  
-    This field is locked and cannot be changed manually. The access token is filled automatically once the Actindo authorization process has been successfully performed in your Amazon seller account, see [Create an Amazon connection](../Integration/01_ManageAmazonConnection.md#create-an-amazon-connection). 
+    This field is locked and cannot be changed manually. The access token is filled automatically once the Actindo authorization process has been successfully completed in your Amazon seller account, see [Create an Amazon connection](../Integration/01_ManageAmazonConnection.md#create-an-amazon-connection). 
 
 - [AUTHORIZE]  
     Click this button to start the Actindo authorization process in your Amazon seller account.
@@ -255,12 +255,12 @@ The *Settings* tab is composed of the following settings entries:
 
 *Omni-Channel > Settings > Tab CONNECTIONS > Select Amazon connection > Tab Settings > Menu entry Order import*
 
-![Order import](../../Assets/Screenshots/Channels/Settings/Connections/Amazon/EditConnectionSettings_Offers.png "[Order import]")
+![Order import](../../Assets/Screenshots/Channels/Settings/Connections/Amazon/EditConnectionSettings_OrderImport.png "[Order import]")
 
 **Order import**
 
 - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Apply from default*  
-    Disable this toggle if you do not wanto to apply the default value to MFN and FBA offers. By default, this toggle is enabled. All *Order import* settings are unlocked.  
+    Disable this toggle if you do not want to apply the default value to MFN and FBA offers. By default, this toggle is enabled. All *Order import* settings are unlocked.  
 
 - [Save]  
     Click this button to save any changes made.
@@ -280,20 +280,20 @@ The *Settings* tab is composed of the following settings entries:
 - *'Fulfillment by Amazon' (FBA) orders*   
     Configure the following options to determine the 'Fulfillment by Amazon' (FBA) orders to be imported: 
 
-    - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Import 'Fulfillment by Amazon' (AFN) orders.*   
-        Disabled this toggle if you do not want to import 'Fulfillment by Amazon' (AFN) orders. By default, this toggle is enabled.
+    - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Import 'Fulfillment by Amazon' (FBA) orders.*   
+        Disabled this toggle if you do not want to import 'Fulfillment by Amazon' (FBA) orders. By default, this toggle is enabled.
     - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Mark 'Fulfillment by Amazon' orders as shipped during import and disable warehousing.*   
         Disabled this toggle to prevent that the warehousing and the shipping for the FBA order is managed in Actindo. By default, this toggle is enabled.
     - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Is the VAT calculation service (VCS) enabled?*   
         Enable or disabled this toggle to specify if this feature is active in Amazon. If the VCS is disabled, the prices in the FBA reports are gross; if the VCS is enabled, the prices are net. By default, this toggle is disabled.
-    - *Import AFN/FBA orders from*  
+    - *Import FBA orders from*  
         Enter a date from which to import the orders. The valid date format is DD.MM.YYYY. If no date is selected, the orders of the last 90 days are automatically imported.
     - ![Calendar](../../Assets/Icons/Calendar.png "[Calendar]") (Calendar)  
         Click this button and select a date from which to import the others.
 
 - *Addresses*
 
-    - *Packaging station address layout*  
+    - *Packing station address layout*  
     Click the drop-down list and select the position of the customer number if you use a packing station as address. The following options are available:  
         - **Customer number in address line**
         - **Customer number in company**
@@ -303,12 +303,12 @@ The *Settings* tab is composed of the following settings entries:
 
 *Omni-Channel > Settings > Tab CONNECTIONS > Select Amazon connection > Tab Settings > Menu entry Order export/invoice upload*
 
-![Edit settings](../../Assets/Screenshots/Channels/Settings/Connections/Amazon/EditConnectionSettings_Offers.png "[Edit settings]")
+![Edit settings](../../Assets/Screenshots/Channels/Settings/Connections/Amazon/EditConnectionSettings_OrderExport.png "[Edit settings]")
 
 **Order export/invoice upload**
 
 - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Apply from default*  
-    Disable this toggle to apply the default value to order export and invoice upload. By default, this toggle is enabled. All *Export shipments* and *Export invoices* checkboxes are unlocked.
+    Disable this toggle if you do not want to apply the default value to order export and invoice upload. By default, this toggle is enabled. All *Export shipments* and *Export invoices* checkboxes are unlocked.
 
 - [Save]  
     Click this button to save any changes made.
@@ -317,13 +317,13 @@ The *Settings* tab is composed of the following settings entries:
     Select the checkboxes of all marketplaces for whose orders you want to export the shipments. You can specify the marketplaces for B2B orders in the *B2B orders* section and for B2C orders in the *B2C orders* section. All available marketplaces from Amazon are displayed in the list. 
 
 - *Export invoices*  
-    Select the checkboxes of all marketplaces for whose orders you want to export the invoices. You can specify the marketplaces for B2B orders in the *B2B orders* section and for B2C orders in the B2C orders* section. All available marketplaces from Amazon are displayed in the list. 
+    Select the checkboxes of all marketplaces for whose orders you want to export the invoices. You can specify the marketplaces for B2B orders in the *B2B orders* section and for B2C orders in the *B2C orders* section. All available marketplaces from Amazon are displayed in the list. 
 
 ### Shipping provider mapping
 
 *Omni-Channel > Settings > Tab CONNECTIONS > Select Amazon connection > Tab Settings > Menu entry Shipping provider mapping*
 
-![Edit settings](../../Assets/Screenshots/Channels/Settings/Connections/Amazon/EditConnectionSettings_Offers.png "[Edit settings]")
+![Edit settings](../../Assets/Screenshots/Channels/Settings/Connections/Amazon/EditConnectionSettings_ShippingProviderMapping.png "[Edit settings]")
 
 **Shipping provider mapping**
 

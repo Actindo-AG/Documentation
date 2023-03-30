@@ -1,4 +1,4 @@
-[!!Manage the connections](../../Channels/Integration/01_ManageConnections.md)
+[!!Manage the connections](./01_ManageAmazonConnection.md)
 [!!User interface connections](../UserInterface/01_Connections.md)
 
 # Manage the Amazon connection
