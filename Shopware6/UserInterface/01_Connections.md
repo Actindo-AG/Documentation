@@ -1,6 +1,5 @@
 [!!Manage the Shopware 6 connection](../Integration/01_ManageShopware6connection.md)
 
-[comment]: <> (adjust UI to Shopware 6 connection)
 
 # Connections
 
