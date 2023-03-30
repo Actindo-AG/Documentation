@@ -1,6 +1,6 @@
 {
     "key": "export_order",
-    "version": 5,
+    "version": 1,
     "name": "Export Order",
     "published": true,
     "places": {
@@ -15,7 +15,6 @@
         "p-p0-0": "anyValue"
     },
     "comment": null,
-    "newKey": null,
     "transitions": [
         {
             "maxTries": 1,

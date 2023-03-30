@@ -1,8 +1,8 @@
 # Export order
 
-![Export order](../Assets/Screenshots/ProcessDocumentation/ExportOrder/ExportOrder.png "[Export order]")
+![Export order](../Assets/Screenshots/ProcessDocumentation/ExportOrder/ExportOrderWorkflow.png "[Export order]")
 
-[comment]: <> (add screenshot)
+[comment]: <> (adjust screenshot when workflow finished)
 
 **Short description**
 
@@ -51,7 +51,7 @@ In the following, it is described how to build a workflow template that is cover
 1. Click the ![Add](../Assets/Icons/Plus01.png "[Add]") (Add) button in the bottom right corner.   
     The *New workflow* window is displayed.
 
-    ![New workflow](../Assets/Screenshots/ActindoWorkFlow/Workflows/NewWorkflow.png "[New workflow]")
+    ![New workflow](../Assets/Screenshots/ProcessDocumentation/ExportOrder/NewWorkflow.png "[New workflow]")
 
 2. Enter **Export order** in the *Select a name for your new workflow* field.
 
@@ -61,16 +61,16 @@ In the following, it is described how to build a workflow template that is cover
 
     > [Info] Enter a keyword in the field, for example **business**, to limit the data types displayed in the list. The list of data types is filtered for your keyword as you type.
 
-5. Select the **___WorkflowAutogen___\Actindo\Modules\RetailSuite\RetailSuiteFaktBase\Models\BusinessDocument** option as end place type in the *Choose the data type of your end place* field.
+5. Select the **___WorkflowAutogen___\Actindo\Modules\Actindo\SapB1Integration\Models\Order** option as end place type in the *Choose the data type of your end place* field.
 
-    > [Info] Enter a keyword in the field, for example **business**, to limit the data types displayed in the list. The list of data types is filtered for your keyword as you type.
+    > [Info] Enter a keyword in the field, for example **SAP**, to limit the data types displayed in the list. The list of data types is filtered for your keyword as you type.
 
 6. Click the [CREATE] button in the bottom right corner.   
     The new workflow has been created. The *New workflow* window is closed. The workflow editor with the defined start and end places is displayed.
 
-    ![Workflow editor new](../Assets/Screenshots/ActindoWorkFlow/Workflows/WorkflowEditorNew.png "[Workflow editor new]")
+    ![Workflow editor new](../Assets/Screenshots/ProcessDocumentation/ExportOrder/WorkflowEditorNew.png "[Workflow editor new]")
 
-7. In a new window, open the JSON library for workflows and copy the JSON code for the *Export item* workflow to your clipboard, see [JSON Export item](./ExportItem.json).
+7. In a new window, open the JSON library for workflows and copy the JSON code for the *Export order* workflow to your clipboard, see [JSON Export order](./ExportOrder.json).
 
 8. In the workflow editor, click the ![Points](../Assets/Icons/Points02.png "[Points]") (Points) button in the upper left corner next to the workflow name.   
     The workflow context menu is displayed.
@@ -80,12 +80,12 @@ In the following, it is described how to build a workflow template that is cover
 9. Click the *Import JSON ..* menu entry in the context menu.   
     The *Import JSON* window with the JSON code for the current workflow is displayed.
 
-    ![Import JSON](../Assets/Screenshots/ActindoWorkFlow/Workflows/ImportJSON.png "[Import JSON]")
+    ![Import JSON](../Assets/Screenshots/ProcessDocumentation/ExportOrder/ImportJSON.png "[Import JSON]")
 
 10. Select the complete JSON code in the window, replace it by the JSON code in your clipboard and click the [IMPORT JSON] button in the bottom right corner.
-    The *Import JSON* window is closed. The copied workflow is displayed in the workflow editor.
+    The *Import JSON* window is closed. The copied *Export order* workflow is displayed in the workflow editor.
 
-    ![Workflow editor copied](../Assets/Screenshots/ActindoWorkFlow/Workflows/WorkflowEditorCopied.png "[Workflow editor copied]")
+    ![Export order](../Assets/Screenshots/ProcessDocumentation/ExportOrder/ExportOrder.png "[Export order]")
 
     > [Info] You can edit the workflow as desired before deploying it.
 
@@ -132,9 +132,7 @@ The *Description*, *Key*, *Label*, *Queue type*, *Priority*, *Max tries* and *Lo
 **Configuration**
 
 - *Path to value*    
-    Enter **customer_id** as path to the value that should be extracted from the input object.
-
-[comment]: <> (check value)
+    Enter **customerSupplier** as path to the value that should be extracted from the input object.
 
 
 ### Business partner exists
@@ -193,7 +191,7 @@ The *Description* field contains the API endpoint that is addressed in this acti
 
 ### Exists
 
-![Multiply input action](../Assets/Screenshots/ProcessDocumentation/ExportOrder/MultiplyInputAction.png "[Multiply input action]")
+![Exists](../Assets/Screenshots/ProcessDocumentation/ExportOrder/Exists.png "[Exists]")
 
 The *Exists* action is used to transfer the data from the *Business partner exists* action to the *Wait for parallel input* action, where the order export to SAP is triggered.
 
@@ -204,7 +202,7 @@ The *Description*, *Key*, *Label*, *Queue type*, *Priority*, *Max tries* and *Lo
 
 ### Wait for parallel input
 
-![Wait for parallel input](../Assets/Screenshots/ProcessDocumentation/WaitForParallelInput.png "[Wait for parallel input]")
+![Wait for parallel input](../Assets/Screenshots/ProcessDocumentation/ExportOrder/WaitForParallelInput.png "[Wait for parallel input]")
 
 The *Wait for parallel input* action is used to wait for two inputs to be received by the action before executing the action. In this template case, the action awaits the business document from the *Multiply input action* action and the business partner data from either the *Exists* or the *Export business partner* action. As soon as both data is input, the action is executed and outputs business document for the further order export to SAP.
 
