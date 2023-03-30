@@ -9,7 +9,6 @@
         "p-pimProduct-0": "ReadOnly.Modules.Actindo.PIM.Models.PIMProductContainer"
     },
     "comment": null,
-    "newKey": null,
     "transitions": [
         {
             "maxTries": 1,
