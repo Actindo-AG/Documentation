@@ -1,8 +1,6 @@
 # Export item
 
-![Export item](../Assets/Screenshots/ProcessDocumentation/ExportItem/ExportItem.png "[Export item]")
-
-[comment]: <> (add screenshot)
+![Export item](../Assets/Screenshots/ProcessDocumentation/ExportItem/ExportItemWorkflow.png "[Export item]")
 
 **Short description**
 
@@ -47,24 +45,24 @@ In the following, it is described how to build a workflow template that is cover
 1. Click the ![Add](../Assets/Icons/Plus01.png "[Add]") (Add) button in the bottom right corner.   
     The *New workflow* window is displayed.
 
-    ![New workflow](../Assets/Screenshots/ActindoWorkFlow/Workflows/NewWorkflow.png "[New workflow]")
+    ![New workflow](../Assets/Screenshots/ProcessDocumentation/ExportItem/NewWorkflow.png "[New workflow]")
 
 2. Enter **Export item** in the *Select a name for your new workflow* field.
 
 3. Enter **sap_export_item** in the *Select a unique key for your new workflow* field. The key is required for API access and must be unique within the workflow version.
 
-4. Select the **___WorkflowAutogen___\Actindo\Modules\SapB1Integration\Models\Item** option as start place type in the *Choose the data type of your start place* field.
+4. Select the **___WorkflowAutogen___\Actindo\Modules\Actindo\SapB1Integration\Models\Item** option as start place type in the *Choose the data type of your start place* field.
 
     > [Info] Enter a keyword in the field, for example **SAP**, to limit the data types displayed in the list. The list of data types is filtered for your keyword as you type.
 
-5. Select the ***___WorkflowAutogen___\Actindo\Modules\SapB1INtegration\Models\Item** option as end place type in the *Choose the data type of your end place* field.
+5. Select the **___WorkflowAutogen___\Actindo\Modules\Actindo\SapB1Integration\Models\Item** option as end place type in the *Choose the data type of your end place* field.
 
     > [Info] Enter a keyword in the field, for example **SAP**, to limit the data types displayed in the list. The list of data types is filtered for your keyword as you type.
 
-  6. Click the [CREATE] button in the bottom right corner.   
+6. Click the [CREATE] button in the bottom right corner.   
     The new workflow has been created. The *New workflow* window is closed. The workflow editor with the defined start and end places is displayed.  
 
-    ![Workflow editor new](../Assets/Screenshots/ActindoWorkFlow/Workflows/WorkflowEditorNew.png "[Workflow editor new]")
+    ![Workflow editor new](../Assets/Screenshots/ProcessDocumentation/ExportItem/WorkflowEditorNew.png "[Workflow editor new]")
 
 7. In a new window, open the JSON library for workflows and copy the JSON code for the *Export item* workflow to your clipboard, see [JSON Export item](./ExportItem.json).
 
@@ -76,12 +74,12 @@ In the following, it is described how to build a workflow template that is cover
 9. Click the *Import JSON ..* menu entry in the context menu.   
     The *Import JSON* window with the JSON code for the current workflow is displayed.
 
-    ![Import JSON](../Assets/Screenshots/ActindoWorkFlow/Workflows/ImportJSON.png "[Import JSON]")
+    ![Import JSON](../Assets/Screenshots/ProcessDocumentation/ExportItem/ImportJSON.png "[Import JSON]")
 
 10. Select the complete JSON code in the window, replace it by the JSON code in your clipboard and click the [IMPORT JSON] button in the bottom right corner.
-    The *Import JSON* window is closed. The copied workflow is displayed in the workflow editor.
+    The *Import JSON* window is closed. The copied *Export item* workflow is displayed in the workflow editor.
 
-    ![Workflow editor copied](../Assets/Screenshots/ActindoWorkFlow/Workflows/WorkflowEditorCopied.png "[Workflow editor copied]")
+    ![Export item](../Assets/Screenshots/ProcessDocumentation/ExportItem/ExportItem.png "[Export item]")
 
     > [Info] You can edit the workflow as desired before deploying it.
 
@@ -140,9 +138,7 @@ Configure the following settings for the *Item updated* trigger:
 
 ### Export item
 
-![Export item](../Assets/Screenshots/ProcessDocumentation/ExportItem/ExportItem.png "[Export item]")
-
-[comment]: <> (add screenshot)
+![Export item](../Assets/Screenshots/ProcessDocumentation/ExportItem/ExportItemAction.png "[Export item]")
 
 The *Export item* action is used to export the item to SAP.
 

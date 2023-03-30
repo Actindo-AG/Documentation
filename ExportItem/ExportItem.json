@@ -8,11 +8,10 @@
         "output": "Modules.Actindo.SapB1Integration.Models.Item"
     },
     "comment": null,
-    "newKey": null,
     "transitions": [
         {
             "maxTries": 1,
-            "queueType": "1",
+            "queueType": null,
             "key": "t-Modules.Actindo.SapB1Integration.Items.export-0",
             "action": "Modules.Actindo.SapB1Integration.Items.export",
             "priority": 0,
