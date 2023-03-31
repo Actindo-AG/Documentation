@@ -8,16 +8,14 @@
 
 The *Export order* workflow is used to export an order to SAP. To do so, it is checked in advance whether the customer who placed the order already exists in SAP and, if not, the customer is added to SAP and then the order is exported to SAP.
 
-**Summary**
-
-|    |    |  
+| Summary ||  
 |----|----|
 |**Purpose** | Export an order to SAP and add non-existing customers to SAP. |
-|**Affected entities** | |
+|**Affected entities** | Modules.RetailSuite.RetailSuiteFaktBase.Models.BusinessDocument <br> Modules.Actindo.CustomersAndSuppliers.Models.Customer <br> Modules.Actindo.SapB1Integration.Models.BusinessPartner <br> Modules.Actindo.SapB1Integration.Models.Order |
 |**Included plugins** | Workflows <br> PIM <br> DataHub <br> Order management | 
-|**Included third party software** | SAP Business One |   
-|**Trigger** |  The process is triggered as soon as a business document for the order has been created. | 
-|    |     |
+|**Included third party software** | SAP Business One (on  SAP HANA)|   
+|**Trigger** |  The process is triggered as soon as a business document for the order has been created. |
+
 
 **Included steps**
 
@@ -132,7 +130,7 @@ The *Description*, *Key*, *Label*, *Queue type*, *Priority*, *Max tries* and *Lo
 **Configuration**
 
 - *Path to value*    
-    Enter **customerSupplier** as path to the value that should be extracted from the input object.
+    Enter **customerSupplier** as path to the customer that should be extracted from the input object.
 
 
 ### Business partner exists
@@ -204,7 +202,7 @@ The *Description*, *Key*, *Label*, *Queue type*, *Priority*, *Max tries* and *Lo
 
 ![Wait for parallel input](../Assets/Screenshots/ProcessDocumentation/ExportOrder/WaitForParallelInput.png "[Wait for parallel input]")
 
-The *Wait for parallel input* action is used to wait for two inputs to be received by the action before executing the action. In this template case, the action awaits the business document from the *Multiply input action* action and the business partner data from either the *Exists* or the *Export business partner* action. As soon as both data is input, the action is executed and outputs business document for the further order export to SAP.
+The *Wait for parallel input* action is used to wait for two inputs to be received by the action before executing the action. In this template case, the action awaits the business document from the *Multiply input action* action and the business partner data from either the *Exists* or the *Export business partner* action. As soon as both data are input, the action is executed and outputs the business document for the further order export to SAP.
 
 #### Settings
 
