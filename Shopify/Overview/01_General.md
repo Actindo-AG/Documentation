@@ -9,10 +9,9 @@ This documentation refers to *Shopify* plugin version 4.0.0. There may be differ
 
 The Actindo *Shopify* plugin offers the following benefits:
 
-- Creation of Shopify products incl. all merchant-specific additional fields directly from the PIM.
-- Stock/supplier inventories are transferred live to Shopify.
-- Existing products in Shopify can be imported to Actindo.
-
+- easy installation via the *Shopify app store*
+- customizable connection settings of the Shopify connection
+- reliable data exchange between Shopify and Actindo
 
 
 ## Prerequisites
