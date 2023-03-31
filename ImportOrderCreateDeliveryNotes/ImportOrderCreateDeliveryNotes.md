@@ -1,22 +1,21 @@
 # Import order and create delivery notes
 
-![Import order and create delivery notes](../Assets/Screenshots/ProcessDocumentation/ImportChannelsOrderInOMSAndCreateDeliveryNotes_New.png "[Import order and create delivery notes]")
+![Import order and create delivery notes](../Assets/Screenshots/ProcessDocumentation/ImportOrderCreateDeliveryNotes/ImportOrderCreateDeliveryNotesWorkflow.png "[Import order and create delivery notes]")
 
 **Short description**
 
 The *Import order and create delivery note* workflow is used to import orders from the *Omni-Channel* module to the *Order management* module, generate a leading document and, if required, a delivery note and trigger the further delivery process. The delivery process itself is handled in the subordinate [*Handle delivery note*](../HandleDeliveryNote/HandleDeliveryNote.md) workflow. 
 
-**Summary**
 
-|    |    |  
+| Summary ||  
 |----|----|
 |**Purpose** | Import the order to the *Order management* module. |
-|**Affected entities** | Actindo.Modules.Actindo.Channels.Models.Order <br> Actindo.Extensions.Actindo.UCSProductSync.Models.RetailSuiteOrder <br> Actindo.Modules.RetailSuite.RetailSuiteFaktBase.Models.BusinessDocument |
+|**Affected entities** | Modules.Actindo.Channels.Models.Order <br> ReadOnly.Extensions.Actindo.UCSProductSync.Models.RetailSuiteOrderContainer <br> Extensions.Actindo.UCSProductSync.Models.RetailSuiteOrder <br> Modules.RetailSuite.RetailSuiteFaktBase.Models.BusinessDocumentContainerChange <br> ReadOnly.Modules.RetailSuite.RetailSuiteFaktBase.Models.BusinessDocumentContainer <br> Modules.RetailSuite.RetailSuiteFaktBase.Models.BusinessDocument <br> <br> Actindo.Modules.Actindo.Channels.Models.Order <br> Actindo.Extensions.Actindo.UCSProductSync.Models.RetailSuiteOrder <br> Actindo.Modules.RetailSuite.RetailSuiteFaktBase.Models.BusinessDocument |
 |**Included plugins** | Workflows <br> Omni-Channel <br> PIM <br> Order Management <br> Warehouse <br> Accounting <br> Taxes <br> Fulfillment <br> Venduo POS (optional) | 
-|**Included thrid party software** | None |   
+|**Included third party software** | None |   
 |**Trigger** | The process is triggered as soon as an order is completely imported from the channel (marketplace or webshop) to *Omni-Channel*. | 
-|    |     |
 
+[comment]: <> (check affected entities)
 
 **Included steps**
 
@@ -54,9 +53,9 @@ In the following, it is described how to build a workflow template that is cover
 1. Click the ![Add](../Assets/Icons/Plus01.png "[Add]") (Add) button in the bottom right corner.   
     The *New workflow* window is displayed.
 
-    ![New workflow](../Assets/Screenshots/ActindoWorkFlow/Workflows/NewWorkflow.png "[New workflow]")
+    ![New workflow](../Assets/Screenshots/ProcessDocumentation/ImportOrderCreateDeliveryNotes/NewWorkflow.png "[New workflow]")
 
-2. Enter **Import channels order in OMS and create Delivery Notes** in the *Select a name for your new workflow* field.
+2. Enter **Import channels order in OMS and create delivery notes** in the *Select a name for your new workflow* field.
 
 3. Enter **create_delivery_notes** in the *Select a unique key for your new workflow* field. The key is required for API access and must be unique within the workflow version.
 
@@ -71,9 +70,11 @@ In the following, it is described how to build a workflow template that is cover
   6. Click the [CREATE] button in the bottom right corner.   
     The new workflow has been created. The *New workflow* window is closed. The workflow editor with the defined start and end places is displayed.  
 
-    ![Workflow editor new](../Assets/Screenshots/ActindoWorkFlow/Workflows/WorkflowEditorNew.png "[Workflow editor new]")
+    ![Workflow editor new](../Assets/Screenshots/ProcessDocumentation/ImportOrderCreateDeliveryNotes/WorkflowEditorNew.png "[Workflow editor new]")
 
-7. In a new window, open the JSON library for workflows and copy the JSON code for the *Import channels order in OMS and create Delivery Notes* workflow to your clipboard, see [JSON Import channels order in OMS and create Delivery Notes](./ImportOrderCreateDeliveryNote.json).
+[comment]: <> (add screenshot)
+
+7. In a new window, open the JSON library for workflows and copy the JSON code for the *Import channels order in OMS and create delivery notes* workflow to your clipboard, see [JSON Import channels order in OMS and create delivery notes](./ImportOrderCreateDeliveryNote.json).
 
 8. In the workflow editor, click the ![Points](../Assets/Icons/Points02.png "[Points]") (Points) button in the upper left corner next to the workflow name.   
     The workflow context menu is displayed.
@@ -83,12 +84,16 @@ In the following, it is described how to build a workflow template that is cover
 9. Click the *Import JSON ..* menu entry in the context menu.   
     The *Import JSON* window with the JSON code for the current workflow is displayed.
 
-    ![Import JSON](../Assets/Screenshots/ActindoWorkFlow/Workflows/ImportJSON.png "[Import JSON]")
+    ![Import JSON](../Assets/Screenshots/ProcessDocumentation/ImportOrderCreateDeliveryNotes/ImportJSON.png "[Import JSON]")
+
+[comment]: <> (add screenshot)
 
 10. Select the complete JSON code in the window, replace it by the JSON code in your clipboard and click the [IMPORT JSON] button in the bottom right corner.
-    The *Import JSON* window is closed. The copied workflow is displayed in the workflow editor.
+    The *Import JSON* window is closed. The copied *Import channels order in OMS and create delivery notes* workflow is displayed in the workflow editor.
 
-    ![Workflow editor copied](../Assets/Screenshots/ActindoWorkFlow/Workflows/WorkflowEditorCopied.png "[Workflow editor copied]")
+    ![Import channels order in OMS and create delivery notes](../Assets/Screenshots/ProcessDocumentation/ImportOrderCreateDeliveryNotes/ImportOrderCreateDeliveryNotes.png "[Import channels order in OMS and create delivery notes]")
+
+[comment]: <> (add screenshot)
 
     > [Info] You can edit the workflow as desired before deploying it.
 
@@ -120,7 +125,7 @@ To import an order from the *Omni-Channel* module to the *Order management* modu
 
 ### Setup order for export    
 
-![Setup order for export](../Assets/Screenshots/ProcessDocumentation/SetupOrderExport.png "[Setup order for export]")
+![Setup order for export](../Assets/Screenshots/ProcessDocumentation/ImportOrderCreateDeliveryNotes/SetupOrderExport.png "[Setup order for export]")
 
 The *Setup order for export* action is used to prepare the order in the *Omni-Channel* module to be exported to the *Order management* module.
 
@@ -134,7 +139,7 @@ The *Description* field contains the API endpoint that is addressed in this acti
 
 ### Export base order
 
-![Export base order](../Assets/Screenshots/ProcessDocumentation/ExportBaseOrder.png "[Export base order]")
+![Export base order](../Assets/Screenshots/ProcessDocumentation/ImportOrderCreateDeliveryNotes/ExportBaseOrder.png "[Export base order]")
 
 The *Setup order for export* action is used to export the document header, for example customer data to create a new customer if not yet registered, and to assign the document number to the leading document.
 
@@ -148,7 +153,7 @@ The *Description* field contains the API endpoint that is addressed in this acti
 
 ### Export positions
 
-![Export positions](../Assets/Screenshots/ProcessDocumentation/ExportPositions.png "[Export positions]")
+![Export positions](../Assets/Screenshots/ProcessDocumentation/ImportOrderCreateDeliveryNotes/ExportPositions.png "[Export positions]")
 
 The *Setup order for export* action is used to export the item data of the order and to determine from which warehouse the items are taken. The warehouse is determined in the stock withdrawal matrix: *Warehouse > Settings > Tab WAREHOUSE > Sub-tab Stock withdrawal matrix*. 
 
@@ -164,12 +169,12 @@ The *Description* field contains the API endpoint that is addressed in this acti
 
 ### Finish order export
 
-![Finish order export](../Assets/Screenshots/ProcessDocumentation/FinishOrderExport.png "[Finish order export]")
+![Finish order export](../Assets/Screenshots/ProcessDocumentation/ImportOrderCreateDeliveryNotes/FinishOrderExport.png "[Finish order export]")
 
 The *Finish order export* action is used to finish the order export to OMS and post the leading document. Most of the time, this leading document is a cash invoice or an order confirmation, but in general, the customer can define the type of document individually in the ETL mapping.   
 The corresponding mapping is the mapping from the *Orders channel "Connection Name"* attribute set of the respective collection to the *Retailsuite Order Set* attribute set. 
 
-![Finish order export mapping](../Assets/Screenshots/ProcessDocumentation/FinishOrderExportTypeMapping.png "[Finish order export mapping]")
+![Finish order export mapping](../Assets/Screenshots/ProcessDocumentation/ImportOrderCreateDeliveryNotes/FinishOrderExportTypeMapping.png "[Finish order export mapping]")
 
 The document type must be defined by entering the key of the desired document type as a constant value for the *Bill Type* destination attribute in the *Bill Type* field of the *Configuration* section. The following document types are available:
 - AN: Offer
@@ -213,7 +218,7 @@ To finalize the document in case of a cash invoice or to create a delivery note 
 
 ### Split by criterion
 
-![Split by criterion](../Assets/Screenshots/ProcessDocumentation/SplitByCriterion_DocumentType.png "[Split by criterion]")
+![Split by criterion](../Assets/Screenshots/ProcessDocumentation/ImportOrderCreateDeliveryNotes/SplitByCriterion_DocumentType.png "[Split by criterion]")
 
 The *Split by criterion* action is used to compare the type of document in the input value with a document type defined in the action and output the document in a different output port depending on whether the input value matches or does not match the defined document type. By doing so, different ways can be specified for the different document types.
 The document type with which the input value is compared must be configured in the *Configuration* section of the action setting. In this template case, cash invoices are output via the *match* output port, all other document types via the *noMatch* output port. By this distinction, the cash invoice can be directly finalized whereas any other document types trigger the delivery note creation and the related processing. 
@@ -242,7 +247,7 @@ The *Description*, *Key*, *Label*, *Queue type*, *Priority*, *Max tries* and *Lo
 
 ### Extract value
 
-![Extract value](../Assets/Screenshots/ProcessDocumentation/ExtractValue.png "[Extract value]")
+![Extract value](../Assets/Screenshots/ProcessDocumentation/ImportOrderCreateDeliveryNotes/ExtractValue.png "[Extract value]")
 
 The *Extract value* action is used to extract a certain value from the object in the input port and provide it for the further process.
 The path to the value which should be extracted must be configured in the *Configuration* section of the action setting. In this template case, the ID of the document is extracted and passed on to the following *Create ChangeContainer* action. 
@@ -259,11 +264,10 @@ The *Description*, *Key*, *Label*, *Queue type*, *Priority*, *Max tries* and *Lo
 
 ### Create ChangeContainer
 
-![Create ChangeContainer](../Assets/Screenshots/ProcessDocumentation/CreateChangeContainer.png "[Create ChangeContainer]")
+![Create ChangeContainer](../Assets/Screenshots/ProcessDocumentation/ImportOrderCreateDeliveryNotes/CreateChangeContainer.png "[Create ChangeContainer]")
 
 The *Create ChangeContainer* action is used to create a container that allows to edit a document.
 In this template case, the document to be changed is specified by the ID which has been extracted in the preceding action and which is put in the *id* input port. The *dispatchAllowed* variable is defined as true by the corresponding JSON input in the static inputs. By this action, the request to change the document has been made, but it must be executed in the following action to save the changes in the document.
-
 
 #### Settings
 
@@ -283,7 +287,7 @@ The *Description* field contains the API endpoint that is addressed in this acti
 
 ### Save document
 
-![Save document](../Assets/Screenshots/ProcessDocumentation/SaveDocument.png "[Save document]")
+![Save document](../Assets/Screenshots/ProcessDocumentation/ImportOrderCreateDeliveryNotes/SaveDocument.png "[Save document]")
 
 The *Save document* action is used to save the document and thus execute the changes on the document requested in the preceding actions.
 In this template case, the *dispatchAllowed* variable in the document is changed to **true** to allow the further delivery note creation and pass on the changed document.
@@ -298,7 +302,7 @@ The *Description* field contains the API endpoint that is addressed in this acti
 
 ### Create deliveries
 
-![Create  deliveries](../Assets/Screenshots/ProcessDocumentation/CreateDeliveries.png "[Create deliveries]")
+![Create  deliveries](../Assets/Screenshots/ProcessDocumentation/ImportOrderCreateDeliveryNotes/CreateDeliveries.png "[Create deliveries]")
 
 The *Create deliveries* action is used to create the delivery note(s). For each (partial) delivery, a single delivery note is created in the *Order management* module. The delivery note is necessary to trigger that the order will leave the warehouse. 
 If there is no stock in the warehouse, the action will run on error and the process will be canceled.
@@ -313,7 +317,7 @@ The *Description* field contains the API endpoint that is addressed in this acti
 
 ### Start subprocess 
 
-![Start subprocess](../Assets/Screenshots/ProcessDocumentation/StartSubprocess.png "[Start subprocess]")
+![Start subprocess](../Assets/Screenshots/ProcessDocumentation/ImportOrderCreateDeliveryNotes/StartSubprocess.png "[Start subprocess]")
 
 The *Start subprocess* action is used to start the process specified in the configuration as a subprocess. In this template case, the [*Handle delivery note*](../HandleDeliveryNote/HandleDeliveryNote.md) subprocess is started to handle the further delivery processing. Define the key of the workflow you want to start as a subprocess in the configuration. For each delivery note, a single subprocess will be started. The delivery note is transferred to the start place of the subprocess.
 
