@@ -1,6 +1,6 @@
 # General information
 
-[comment]: <> (add general information)
+The e-commerce cloud from Salesforce offers a comprehensive e-commerce solution for both B2C and B2B companies. Together with Actindo, the Salesforce Commerce Cloud forms a networked unified commerce platform for efficient online trading. The link to Actindo enables you to control your shopping worlds including product, warehouse and order data.
 
 This documentation refers to *Salesforce Commerce Cloud* plugin version 1.3.1. There may be differences in the UI, features and operation if your *Salesforce Commerce Cloud* plugin is installed in a different version.
 
@@ -9,7 +9,10 @@ This documentation refers to *Salesforce Commerce Cloud* plugin version 1.3.1. T
 
 The Actindo *Salesforce Commerce Cloud* plugin offers the following benefits:
 
-[comment]: <> (add benefits)
+- Upload of offers using XML and triggered import jobs
+- Order import via parallel jobs
+- Automatic order status updates
+- Support of staging and productive system
 
 
 ## Prerequisites

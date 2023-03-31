@@ -8,6 +8,5 @@ In this part of the *Salesforce Commerce Cloud* documentation, you will find the
 
 
 - [Key Features](02_Features.md)
-
-
-- [Processes](03_Processes.md)
+    - [How it works](02_Features.md#how-it-works)
+  
