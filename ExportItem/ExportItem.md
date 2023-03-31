@@ -7,16 +7,14 @@
 The *Export item* workflow is used to export a SAP item to SAP. 
 This workflow is the second part of a two-step process to export a new PIM product to SAP. The first part of the process is described in the [Export new PIM product](../ExportNewPIMProduct/ExportNewPIMProduct.md) workflow.
 
-**Summary**
-
-|    |    |  
+| Summary ||  
 |----|----|
 |**Purpose** | Export an item to SAP. |
-|**Affected entities** | |
+|**Affected entities** | Modules.Actindo.SapB1Integration.Models.Item |
 |**Included plugins** | Workflows <br> PIM <br> DataHub | 
-|**Included third party software** | SAP Business One |   
+|**Included third party software** | SAP Business One (on SAP HANA) |   
 |**Trigger** | The process is triggered by the update of a SAP item. Optionally, further conditions can be added for the triggers. | 
-|    |     |
+
 
 **Included steps**
 
@@ -116,7 +114,7 @@ The following recommended trigger is configured so that the process starts if a 
 
 Configure the following settings for the *Item updated* trigger:
 
-|    |    |
+| Triggers ||
 |----|----|
 |**Name** | Item updated |
 |**Model** | Actindo\Modules\Actindo\SapB1Integration\Models\Item |
@@ -124,11 +122,8 @@ Configure the following settings for the *Item updated* trigger:
 |**Condition fulfillment** | If all are met |   
 |**Status** | Active |
 |**Process priority** | 1 | 
-|    |    |
 
-**Conditions**
-
-|    |    |
+| Conditions ||
 |----|----|
 |**Prefix** | entity. | 
 |**Property** | ItemCode | 
