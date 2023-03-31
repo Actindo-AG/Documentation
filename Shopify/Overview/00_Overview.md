@@ -9,5 +9,3 @@ In this part of the *Shopify* documentation, you will find the following chapter
 
 - [Key Features](02_Features.md)
 
-
-- [Processes](03_Processes.md)
