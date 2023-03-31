@@ -7,16 +7,15 @@
 The *Create item* workflow is used to check if a PIM product already exists in SAP and if not, create a SAP item from the PIM product. 
 This workflow is the first part of a two-step process to export a new PIM product to SAP. The second part of the process is described in the [Export item](../ExportItem/ExportItem.md) workflow.
 
-**Summary**
 
-|    |    |  
+| Summary ||  
 |----|----|
 |**Purpose** | Create a SAP item from a PIM product. |
-|**Affected entities** | |
+|**Affected entities** | Modules.Actindo.PIM.Models.PIMProduct <br> ReadOnly.Modules.Actindo.PIM.Models.PIMProductContainer <br> Modules.Actindo.SapB1Integration.Models.Item |
 |**Included plugins** | Workflows <br> PIM <br> DataHub | 
-|**Included third party software** | SAP Business One |   
+|**Included third party software** | SAP Business One (on SAP HANA) |   
 |**Trigger** | The process is triggered by either the creation of a new PIM product or a change on a PIM product. Optionally, further conditions can be added for the triggers. | 
-|    |     |
+
 
 **Included steps**
 
@@ -116,9 +115,11 @@ The following recommended triggers are configured so that the process starts if 
 
 ![Trigger Product created](../Assets/Screenshots/ProcessDocumentation/CreateItem/TriggerProductCreated.png "[Trigger Product created]")
 
+[comment]: <> (adjust workflow name in screenshot)
+
 Configure the following settings for the *Product created* trigger:
 
-|    |    |
+| Triggers ||
 |----|----|
 |**Name** | Product created |
 |**Model** | Actindo\Modules\Actindo\PIM\Models\PIMProduct |
@@ -126,11 +127,9 @@ Configure the following settings for the *Product created* trigger:
 |**Condition fulfillment** | If all are met |   
 |**Status** | Active |
 |**Process priority** | 1 | 
-|    |    |
 
-**Conditions**
 
-|    |    |
+| Conditions ||
 |----|----|
 |**Prefix** | entity. | 
 |**Property** | _pim_completeness.totalCompleteness | 
@@ -142,9 +141,11 @@ Configure the following settings for the *Product created* trigger:
 
 ![Trigger Product updated](../Assets/Screenshots/ProcessDocumentation/CreateItem/TriggerProductUpdated.png "[Trigger Product updated]")
 
+[comment]: <> (adjust workflow name in screenshot)
+
 Configure the following settings for the *Product updated* trigger:
 
-|    |    |
+| Triggers ||
 |----|----|
 |**Name** | Product updated |
 |**Model** | Actindo\Modules\Actindo\PIM\Models\PIMProduct |
@@ -152,17 +153,14 @@ Configure the following settings for the *Product updated* trigger:
 |**Condition fulfillment** | If all are met |   
 |**Status** | Active |
 |**Process priority** | 1 | 
-|    |    |
 
-**Conditions**
 
-|    |    |
+| Conditions ||
 |----|----|
 |**Prefix** | entity. | 
 |**Property** | _pim_completeness.totalCompleteness | 
 |**Operator** | Equals | 
 |**Value** | 100 | 
-
 
 
 ### Check if item exists
@@ -186,7 +184,7 @@ The *Description*, *Key*, *Label*, *Queue type*, *Priority*, *Max tries* and *Lo
 
 ### Create item
 
-![Create  item](../Assets/Screenshots/ProcessDocumentation/CreateItem/CreateItemAction.png "[Create item]")
+![Create item](../Assets/Screenshots/ProcessDocumentation/CreateItem/CreateItemAction.png "[Create item]")
 
 The *Create item* action is used to create a SAP item for the PIM product. The item must be created from the PIM product to be exported to SAP.
 
