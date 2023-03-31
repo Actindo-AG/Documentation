@@ -3,7 +3,7 @@
 # Manage the HTML templates
 
 HTML templates are mainly used for email messages such as confirmations or shipping messages. Further, they can be used to write detailed product descriptions that are uploaded to a shop or marketplace, for example to ebay.
-HTML templates allow you to generate HTML content from data based on templates using the smarty template engine.
+HTML templates allow you to generate HTML content from data based on templates using the *Smarty template engine*.
 Further, you are able to include data from all available source entities in HTML as well as all sub-entities if they are present in the JSON representation of the source entity using the HTML templates.
 
 ## Create an HTML template
@@ -58,7 +58,7 @@ The *HTML Templates for ETL* plugin has been installed.
 
     > [Info] For detailed information about the HTML structure and elements, see https://html.spec.whatwg.org/.
 
-2. If desired, [include Smarty templates](#include-smarty-templates) or display a [preview of the HTML template](#preview-an-html-template).
+2. If desired, include Smarty templates, see [Include Smarty templates](#include-smarty-templates) or display a preview of the HTML template, see [Preview an HTML template](#preview-an-html-template).
 
 3. Click the [SAVE] button in the upper right corner.   
     The HTML template has been saved. The *HTML template* view is closed.  
@@ -67,7 +67,7 @@ The *HTML Templates for ETL* plugin has been installed.
 
 ## Include Smarty templates
 
-You can include Smarty templates into your HTML template.    
+The *Smarty template engine* allows you to include Smarty templates into your HTML template.    
 For detailed information about Smarty templates, see [Smarty](https://www.smarty.net/).    
 Always use the delimiters *{}* as separator for the Smarty templates.  
 
@@ -87,7 +87,7 @@ The *HTML Templates for ETL* plugin has been installed.
 
     > [Info] For detailed information about the Smarty template structure and elements, see [Smarty](https://www.smarty.net/).
 
-2. If desired, [include HTML text](#include-html-text) or display a [preview of the HTML template](#preview-an-html-template).
+2. If desired, include HTML text, see [Include HTML text](#include-html-text) or display a preview of the HTML template, see [Preview an HTML template](#preview-an-html-template).
 
 3. Click the [SAVE] button in the upper right corner.   
     The HTML template has been saved. The *HTML template* view is closed.  
@@ -109,7 +109,7 @@ The *HTML Templates for ETL* plugin has been installed.
 
 ![Edit HTML template](../../Assets/Screenshots/DataHub/Settings/HTMLTemplates/EditHTMLTemplate.png "[Edit HTML template]")
 
-> [Info] If you want to include variables into a new HTML template, follow the steps described in the [Create an HTML template](#create-an-html-template) procedure before proceeding to the steps below.
+> [Info] If you want to include an attribute variable into a new HTML template, follow the steps described in the [Create an HTML template](#create-an-html-template) procedure before proceeding to the steps below.
 
 1. Click the textarea and, if desired, edit or add the Smarty template(s) and/or HTML text for the template.
 
@@ -130,7 +130,7 @@ The *HTML Templates for ETL* plugin has been installed.
     > [Info] You can display all possible variables of a certain entity.    
     For detailed information, see [Display the possible variables](#display-the-possible-variables).
 
-4. If desired, display a [preview of the HTML template](#preview-an-html-template).
+4. If desired, display a preview of the HTML template, see [Preview an HTML template](#preview-an-html-template).
 
 5. Click the [SAVE] button in the upper right corner.   
     The HTML template has been saved. The *HTML template* view is closed.  
@@ -182,7 +182,7 @@ The *HTML Templates for ETL* plugin has been installed.
 
 #### Procedure
 
-> [Info] If you want to include a tree node variable into a new HTML template, follow the steps described in the [Create an HTML template](#create-an-html-template) procedure before proceeding to the steps below.
+> [Info] If you want to include a language independent variable into a new HTML template, follow the steps described in the [Create an HTML template](#create-an-html-template) procedure before proceeding to the steps below.
 
 *DataHub > Settings > Tab HTML TEMPLATES > Select HTML template*   
 
@@ -197,7 +197,7 @@ The *HTML Templates for ETL* plugin has been installed.
 
 [comment]: <> (stimmt das so? geht das auch mit dem Channel so?)
 
-3. If desired, display a [preview of the HTML template](#preview-an-html-template).
+3. If desired, display a preview of the HTML template, see [Preview an HTML template](#preview-an-html-template).
 
 4. Click the [SAVE] button in the upper right corner.   
     The HTML template has been saved. The *HTML template* view is closed.  
@@ -223,7 +223,7 @@ At least one HTML template has been created, see [Create an HTML template](#crea
 
     ![Edit HTML template](../../Assets/Screenshots/DataHub/Settings/HTMLTemplates/EditHTMLTemplate.png "[Edit HTML template]")
 
-2. Edit the desired data of the HTML template in the corresponding. The HTML template key is locked in the *Edit HTML template* view.
+2. Edit the desired data of the HTML template in the corresponding fields. The HTML template key is locked in the *Edit HTML template* view.
 
 3. If desired, use the preview functionality in the *Preview* section to display the possible variables or a template preview for the selected entity. For detailed information, see [Preview an HTML template](#preview-an-html-template).
 
@@ -259,7 +259,7 @@ The *HTML Templates for ETL* plugin has been installed.
 
     ![Show possible variables](../../Assets/Screenshots/DataHub/Settings/HTMLTemplates/ShowPossibleVariables.png "[Show possible variables]")
 
-4. Close the browser window and click the ![Back](../../Assets/Icons/Back02.png "[Back]") (Back) button in the upper left corner to return to the HTML templates list or proceed to [edit the HTML template](#edit-an-html-template).
+4. Close the browser window and click the ![Back](../../Assets/Icons/Back02.png "[Back]") (Back) button in the upper left corner to return to the HTML templates list or proceed to edit the HTML template, see [Edit an HTML template](#edit-an-html-template).
 
 
 
@@ -290,4 +290,4 @@ At least one HTML template has been created, see [Create an HTML template](#crea
 
     ![Preview](../../Assets/Screenshots/DataHub/Settings/HTMLTemplates/Preview.png "[Preview]")
 
-4. Close the browser window and click the ![Back](../../Assets/Icons/Back02.png "[Back]") (Back) button in the upper left corner to return to the HTML templates list or proceed to [edit the HTML template](#edit-an-html-template).
+4. Close the browser window and click the ![Back](../../Assets/Icons/Back02.png "[Back]") (Back) button in the upper left corner to return to the HTML templates list or proceed to edit the HTML template, see [Edit an HTML template](#edit-an-html-template).
