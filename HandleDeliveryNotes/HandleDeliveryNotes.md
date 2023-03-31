@@ -1,22 +1,21 @@
 # Handle delivery notes
 
-![Handle delivery notes](../Assets/Screenshots/ProcessDocumentation/HandleDeliveryNotes.png "[Handle delivery note]")
+![Handle delivery notes](../Assets/Screenshots/ProcessDocumentation/HandleDeliveryNotes/HandleDeliveryNotesWorkflow.png "[Handle delivery note]")
 
 **Short description**
 
 The *Handle delivery notes* workflow is used to process the delivery of the order handled in the [*Import order and create delivery notes*](../ImportOrderCreateDeliveryNotes/ImportOrderCreateDeliveryNotes.md) workflow. 
 
-**Summary**
 
-|    |    |  
+| Summary ||  
 |----|----|
 |**Purpose** | Ship the order to the customer. |
-|**Affected entities** | Actindo.Modules.Actindo.Channels.Models.Order <br> Actindo.Extensions.Actindo.UCSProductSync.Models.RetailSuiteOrder <br> Actindo.Modules.RetailSuite.RetailSuiteFaktB ase.Models.BusinessDocument <br> Actindo.Modules.Actindo.Fulfillment.Models.DispatchNote <br> Actindo.Modules.Actindo.Channels.Models.Shipment (indirectly)|
+|**Affected entities** | Modules.RetailSuite.RetailSuiteFaktBase.Models.BusinessDocument <br> ReadOnly.Modules.RetailSuite.RetailSuiteFaktBase.Models.BusinessDocumentContainer <br> Modules.Actindo.Fulfillment.Models.DispatchNoteContainerCreate <br> ReadOnly.Modules.Actindo.Fulfillment.Models.DispatchNoteContainer <br> Modules.Actindo.Fulfillment.Models.DispatchNote <br> Modules.RetailSuite.RetailSuiteFaktBase.Models.BusinessDocument <br> <br> Actindo.Modules.Actindo.Channels.Models.Order <br> Actindo.Extensions.Actindo.UCSProductSync.Models.RetailSuiteOrder <br> Actindo.Modules.RetailSuite.RetailSuiteFaktBase.Models.BusinessDocument <br> Actindo.Modules.Actindo.Fulfillment.Models.DispatchNote <br> Actindo.Modules.Actindo.Channels.Models.Shipment (indirectly)|
 |**Included plugins** | Workflows <br> Omni-Channel <br> PIM <br> Order Management <br> Warehouse <br> Accounting <br> Taxes <br> Fulfillment <br> DataHub | 
-|**Included thrid party software** | (optional) |   
+|**Included third party software** | optional |   
 |**Trigger** |  The process is triggered by the subordinate [*Import order and create delivery notes*](../ImportOrderCreateDeliveryNotes/ImportOrderCreateDeliveryNotes.md) process. | 
-|    |     |
 
+[comment]: <> (check affected entities)
 
 **Included steps**
 
@@ -28,7 +27,7 @@ The *Handle delivery notes* workflow is used to process the delivery of the orde
 - Dispatch note transfer to an external logistics provider
 - Differentiation between multiple LSPs (optional)
 - Shipment status update in the channel after report by the LSP
-- Synchronitation of the dispatch note
+- Synchronization of the dispatch note
 
 
 
@@ -62,7 +61,7 @@ In the following, it is described how to build a workflow template that is cover
 1. Click the ![Add](../Assets/Icons/Plus01.png "[Add]") (Add) button in the bottom right corner.   
     The *New workflow* window is displayed.
 
-    ![New workflow](../Assets/Screenshots/ActindoWorkFlow/Workflows/NewWorkflow.png "[New workflow]")
+    ![New workflow](../Assets/Screenshots/ProcessDocumentation/HandleDeliveryNotes/NewWorkflow.png "[New workflow]")
 
 2. Enter **Handle Delivery Notes** in the *Select a name for your new workflow* field.
 
@@ -79,7 +78,9 @@ In the following, it is described how to build a workflow template that is cover
 6. Click the [CREATE] button in the bottom right corner.   
     The new workflow has been created. The *New workflow* window is closed. The workflow editor with the defined start and end places is displayed.  
 
-    ![Workflow editor new](../Assets/Screenshots/ActindoWorkFlow/Workflows/WorkflowEditorNew.png "[Workflow editor new]")
+    ![Workflow editor new](../Assets/Screenshots/ProcessDocumentation/HandleDeliveryNotes/WorkflowEditorNew.png "[Workflow editor new]")
+
+[comment]: <> (add screenshot)
 
 7. In a new window, open the JSON library for workflows and copy the JSON code for the *Handle Delivery Notes* workflow to your clipboard, see [JSON Handle delivery notes](./HandleDeliveryNotes.json).
 
@@ -91,12 +92,16 @@ In the following, it is described how to build a workflow template that is cover
 9. Click the *Import JSON ..* menu entry in the context menu.   
     The *Import JSON* window with the JSON code for the current workflow is displayed.
 
-    ![Import JSON](../Assets/Screenshots/ActindoWorkFlow/Workflows/ImportJSON.png "[Import JSON]")
+    ![Import JSON](../Assets/Screenshots/ProcessDocumentation/HandleDeliveryNotes/ImportJSON.png "[Import JSON]")
+
+[comment]: <> (add screenshot)
 
 10. Select the complete JSON code in the window, replace it by the JSON code in your clipboard and click the [IMPORT JSON] button in the bottom right corner.
-    The *Import JSON* window is closed. The copied workflow is displayed in the workflow editor.
+    The *Import JSON* window is closed. The copied *Handle delivery notes* workflow is displayed in the workflow editor.
 
-    ![Workflow editor copied](../Assets/Screenshots/ActindoWorkFlow/Workflows/WorkflowEditorCopied.png "[Workflow editor copied]")
+    ![Handle delivery notes](../Assets/Screenshots/ProcessDocumentation/HandleDeliveryNotes/HandleDeliveryNotes.png "[Handle delivery notes]")
+
+[comment]: <> (add screenshot)
 
     > [Info] You can edit the workflow as desired before deploying it.
 
@@ -120,7 +125,7 @@ In the following, all snippets and single actions within the process are describ
 
 ### Sync shipments
 
-![Sync shipments](../Assets/Screenshots/ProcessDocumentation/SyncShipmentToChannels.png "[Sync shipments]")
+![Sync shipments](../Assets/Screenshots/ProcessDocumentation/HandleDeliveryNotes/SyncShipmentToChannels.png "[Sync shipments]")
 
 The *Sync shipments* action is used to create the *shipment* entity in the *Omni-Channel* module and set its status to **open**. Depending on the driver of the connection, the channel is updated asynchronously.
 
@@ -134,7 +139,7 @@ The *Description* field contains the API endpoint that is addressed in this acti
 
 ### Create invoice 
 
-![Create invoice](../Assets/Screenshots/ProcessDocumentation/CreateInvoice.png "[Create invoice]")
+![Create invoice](../Assets/Screenshots/ProcessDocumentation/HandleDeliveryNotes/CreateInvoice.png "[Create invoice]")
 
 The *Create invoice* action is used to duplicate the document and create a document specified in the static inputs from the input document.
 In this template case, the incoming delivery note is duplicated and an invoice is created. Via the *origin* output port, the duplicated original document, that is the delivery note, is output. Via the *data* output port, the invoice is output. The destination type of the document which is output via the *data* output port is specified in the *Destination type* static input.
@@ -157,7 +162,7 @@ The *Description* field contains the API endpoint that is addressed in this acti
 
 ### Post invoice to accounting
 
-![Post invoice to accounting](../Assets/Screenshots/ProcessDocumentation/PostInvoiceToAccounting.png "[Post invoice to accounting]")
+![Post invoice to accounting](../Assets/Screenshots/ProcessDocumentation/HandleDeliveryNotes/PostInvoiceToAccounting.png "[Post invoice to accounting]")
 
 The *Post invoice to accounting* action is used to post the document, dependent on the document type, in the internal accounting and/or warehousing system. In this template case, the invoice is posted in the *Accounting* module.
 
@@ -185,9 +190,9 @@ To ship an order, the following actions are required:
 
 ### Duplicate input action
 
-![Duplicate input action](../Assets/Screenshots/ProcessDocumentation/DuplicateInputAction.png "[Duplicate input action]")
+![Duplicate input action](../Assets/Screenshots/ProcessDocumentation/HandleDeliveryNotes/DuplicateInputAction.png "[Duplicate input action]")
 
-The *Duplicate input action* action is used to duplicate the input and output it via two different output ports. In this template case, the delivery note is duplicated and output via both ports.
+The *Duplicate input action* action is used to duplicate the business document and output it via the *p0* and the *p1* port. In this template case, the delivery note which is output via the *p0* port is used to create a dispatch note in the *Fulfillment* module. The delivery note which is output via the *p1* port is needed for the further delivery process and therefore transferred to the *Wait for parallel input* action.
 
 #### Settings
 
@@ -196,7 +201,7 @@ The *Description*, *Key*, *Label*, *Queue type*, *Priority*, *Max tries* and *Lo
 
 ### Split by criterion
 
-![Split by criterion](../Assets/Screenshots/ProcessDocumentation/SplitByCriterion_Warehouse.png "[Split by criterion]")
+![Split by criterion](../Assets/Screenshots/ProcessDocumentation/HandleDeliveryNotes/SplitByCriterion_Warehouse.png "[Split by criterion]")
 
 The *Split by criterion* action is used to compare the warehouse ID of the delivery note in the input value with the warehouse ID defined in the action and output the delivery note in a different output port depending on whether the input value matches or does not match the defined warehouse ID. By doing so, different ways can be specified for the different warehouse IDs and, consequently, the different logistics service provider (LSP) for domestic and foreign deliveries.    
 The warehouse ID with which the input value is compared must be configured in the *Configuration* section of the action setting. In this template case, documents with the warehouse ID defined in the *Value* field are output via the *match* output port, all other document types via the *noMatch* output port.    
@@ -206,7 +211,6 @@ The warehouses and the LSPs are determined in the stock withdrawal matrix: *Ware
 #### Settings
 
 The *Description*, *Key*, *Label*, *Queue type*, *Priority*, *Max tries* and *Long Description* fields have no functional meaning for the action.    
-
 
 **Configuration**
 
@@ -228,7 +232,7 @@ The *Description*, *Key*, *Label*, *Queue type*, *Priority*, *Max tries* and *Lo
 
 ### Create CreateContainer
 
-![Create CreateContainer](../Assets/Screenshots/ProcessDocumentation/CreateCreateContainer.png "[Create CreateContainer]")
+![Create CreateContainer](../Assets/Screenshots/ProcessDocumentation/HandleDeliveryNotes/CreateCreateContainer.png "[Create CreateContainer]")
 
 The *Create CreateContainer* action is used to create a container for a new document from the document in the input port and the specified static inputs.
 In this template case, the container is used to create a dispatch note from the delivery note and the applicable connection ID in the *Fulfillment* module which must be specified in the static inputs. The connection ID is used to identify the corresponding LSP. By this action, the request to create the dispatch note has been made, but it must be executed in the following action to create the dispatch note.
@@ -251,7 +255,7 @@ The *Description* field contains the API endpoint that is addressed in this acti
 
 ### Create dispatch
 
-![Create dispatch](../Assets/Screenshots/ProcessDocumentation/CreateDispatch.png "[Create dispatch]")
+![Create dispatch](../Assets/Screenshots/ProcessDocumentation/HandleDeliveryNotes/CreateDispatch.png "[Create dispatch]")
 
 The *Create dispatch* action is used to create and persist a dispatch note in the *Fulfillment* module: *Fulfillment > Dispatch Notes > Tab LIST*.   
 The data are mapped via ETL.
@@ -270,9 +274,7 @@ The *Description* field contains the API endpoint that is addressed in this acti
 
 ### Export dispatch to LSP
 
-![Export dispatch to LSP](../Assets/Screenshots/ProcessDocumentation/ExportDispatchToLSP.png "[Export dispatch to LSP]")
-
-[comment]: <> (screenshot anpassen)
+![Export dispatch to LSP](../Assets/Screenshots/ProcessDocumentation/HandleDeliveryNotes/ExportDispatchToLSP.png "[Export dispatch to LSP]")
 
 The *Export dispatch to LSP* action is used to export the dispatch note through its configured driver based on the connection of the dispatch note in the *Fulfillment* module to the logistics service provider (LSP).
 
@@ -286,7 +288,7 @@ The *Description* field contains the API endpoint that is addressed in this acti
 
 ### Wait for dispatch note update
 
-![Wait for dispatch note update](../Assets/Screenshots/ProcessDocumentation/WaitForDispatchNoteUpdate.png "[Wait for dispatch note update]")
+![Wait for dispatch note update](../Assets/Screenshots/ProcessDocumentation/HandleDeliveryNotes/WaitForDispatchNoteUpdate.png "[Wait for dispatch note update]")
 
 The *Wait for dispatch note update* action is used to wait for the feedback from the logistics service provider (LSP) that the order has been shipped. The status is retrieved in a predefined time interval. 
 
@@ -297,9 +299,9 @@ The *Description*, *Key*, *Label*, *Queue type*, *Priority*, *Max tries* and *Lo
 
 ### Wait for parallel input
 
-![Wait for parallel input](../Assets/Screenshots/ProcessDocumentation/WaitForParallelInput.png "[Wait for parallel input]")
+![Wait for parallel input](../Assets/Screenshots/ProcessDocumentation/HandleDeliveryNotes/WaitForParallelInput.png "[Wait for parallel input]")
 
-The *Wait for parallel input* action is used to wait for two inputs to be received by the action before executing the action. In this template case, the action awaits the delivery note and the dispatch note and outputs the delivery note as the delivery note is needed for the sync in the following *Sync shipments* action.
+The *Wait for parallel input* action is used to wait for two inputs to be received by the action before executing the action. In this template case, the action awaits the delivery note from the *Duplicate input action* action and the dispatch note from the *Wait for dispatch note update* action.  As soon as both data is input, the action is executed and outputs outputs the delivery note as the delivery note is needed for the sync in the following *Sync shipments* action.
 
 #### Settings
 
@@ -308,7 +310,7 @@ The *Description*, *Key*, *Label*, *Queue type*, *Priority*, *Max tries* and *Lo
 
 ### Sync shipments
 
-![Sync shipments](../Assets/Screenshots/ProcessDocumentation/SyncShipments.png "[Sync shipments]")
+![Sync shipments](../Assets/Screenshots/ProcessDocumentation/HandleDeliveryNotes/SyncShipments.png "[Sync shipments]")
 
 The *Sync shipments* action is used to change the *shipment* entity status to **closed**. Depending on the driver of the connection, the channel is updated asynchronously.
 
