@@ -13,15 +13,9 @@ This documentation refers to *Omni-Channel Amazon Integration* plugin version 4.
 
 The Actindo *Omni-Channel Amazon Integration* plugin offers the following benefits:
 
-- Marketplace listings can be created from products for which there is an ASIN on Amazon.
-- Local stock levels are automatically transferred. 
-- Prices can be managed centrally from the *Actindo Core1 Platform*.
-- Initial import of marketplace offers into Actindo.
-- Orders can be imported from Amazon into Actindo
-- Order status and tracking numbers
-- Invoice documents
-
-[comment]: <> (Zu ergänzen!)
+- easy installation via the Amazon Seller Central 
+- customizable connection settings of the Amazon connection
+- reliable data exchange between Amazon and Actindo
 
 
 ## Prerequisites
