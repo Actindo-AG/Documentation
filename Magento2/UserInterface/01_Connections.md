@@ -1,7 +1,5 @@
 [!!Manage the Magento 2 connection](../Integration/01_ManageMagento2Connection.md)
 
-[comment]: <> (adjust UI to Magento 2 connection)
-
 # Connections
 
 *Omni-Channel > Settings > Tab CONNECTIONS*
@@ -65,7 +63,7 @@
     Click this button to enable the selected connection(s). This button is only displayed if the checkbox of at least one inactive connection is selected. 
 
 - ![Edit](../../Assets/Icons/Edit01.png "[Edit]") (Edit)  
-    Click this button to edit the selected connection. This button is only displayed if a single checkbox in the list of connections is selected. Alternatively, you can click directly a row in the list to edit a connection. The *Edit connection* view is displayed, see [Edit connection](#edit-connection).
+    Click this button to edit the Magento 2 connection. This button is only displayed if a single checkbox in the list of connections is selected. Alternatively, you can click directly a row in the list to edit a connection. The *Edit connection* view is displayed, see [Edit Magento 2 connection](#edit-magento-2-connection).
 
 
 The list displays all available connections. Depending on the settings, the displayed columns may vary. All fields are read-only.
@@ -94,8 +92,39 @@ The list displays all available connections. Depending on the settings, the disp
     Connection identification number. The ID number is automatically assigned by the system.
 
 - ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add)  
-    Click this button to add a connection. The *Create connection* view is displayed, see [Create connection](#create-connection).
+    Click this button to add a Magneto 2 connection. The *Create connection* view is displayed, see [Create Magento 2 connection](#create-magento-2-connection).
 
+
+## Create view
+
+*Omni-Channel > Settings > Tab CONNECTIONS > Button Points > Menu entry create*
+
+![Create view](../../Assets/Screenshots/Channels/CreateView.png "[Create view]")
+
+- *Name*   
+    Enter a name for the view.
+
+- [CANCEL]   
+    Click this button to cancel creating a view. The *Create view* window is closed.
+
+- [SAVE]   
+    Click this button to save the new view and display it in the *VIEW* drop-down list. The *Create view* window is closed.
+
+
+## Rename view
+
+*Omni-Channel > Settings > Tab CONNECTIONS > Button Points > Menu entry rename*
+
+![Rename view](../../Assets/Screenshots/Channels/RenameView.png "[Rename view]")
+
+- *Name*   
+    Click this field to edit the view name.
+
+- [CANCEL]   
+    Click this button to cancel renaming the view. The *Rename view* window is closed.
+
+- [SAVE]   
+    Click this button to save the changes and display it in the *VIEW* drop-down list. The *Rename view* window is closed.
 
 
 ## Create Magento 2 connection
@@ -117,25 +146,38 @@ The list displays all available connections. Depending on the settings, the disp
     Click this button to edit the connection name. This button is only displayed if the connection name has been confirmed. 
 
 - *Driver*  
-    Click the drop-down list and select the desired driver. All installed drivers are displayed. Depending on the connection driver, a *Credentials* section is displayed below the drop-down list.
+    Click the drop-down list and select the Magento 2 driver. All installed drivers are displayed. Depending on the connection driver, a *Credentials* section is displayed below the drop-down list.
 
     > [Info] Drivers are licensed and must be acquired via the app store or the corresponding e-commerce partner platform. The applicable driver credentials to establish the connection are obtained when acquiring the corresponding license.
 
 
 **Credentials**
 
-The fields displayed in the *Credentials* section vary depending on the selected driver.
+![Create Magento 2 credentials](../../Assets/Screenshots/Channels/Settings/Connections/Magento2/CreateConnectionCredentials.png "[Create Magento 2 credentials]")
+
+- *URL*  
+    Enter the Magento 2 shop URL.
+
+- *Username*
+    Enter the username. The connection username equals the login username for the Magento 2 admin backend.    
+
+- *Password*  
+    Enter the password. The connection password equals the login password for the Magento 2 admin backend.    
+
+- *Access token*  
+    This field must be left blank.
+
+[comment]: <> (Mit jetziger Magento 2 Treiber Version muss man sich über Username und Password authentifizieren; access token Feld leer lassen; mit neuem Release, noch kein festes Datum: Access token eingeben, Username und Password leer lassen.)
 
 - [SAVE]  
     Click this button to save the connection.
 
 
-
 ## Edit Magento 2 connection
 
-*Omni-Channel > Settings > Tab CONNECTIONS > Select a connection*
+*Omni-Channel > Settings > Tab CONNECTIONS > Select Magento 2 connection*
 
-![Edit connection](../../Assets/Screenshots/Channels/Settings/Connections/EditConnection.png "[Edit connection]")
+![Edit connection](../../Assets/Screenshots/Channels/Settings/Connections/Magento2/EditConnectionCredentials.png "[Edit connection]")
 
 - ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)   
     Click this button to close the *Edit connection* view and return to the connection list. All changes are rejected.
@@ -155,18 +197,29 @@ The fields displayed in the *Credentials* section vary depending on the selected
 
 ## Edit Magento 2 connection &ndash; Credentials
 
-*Omni-Channel > Settings > Tab CONNECTIONS > Select a connection > Tab Credentials*
+*Omni-Channel > Settings > Tab CONNECTIONS > Select Magento 2 connection > Tab Credentials*
 
-![Edit credentials](../../Assets/Screenshots/Channels/Settings/Connections/EditConnection.png "[Edit credentials]")
+![Edit credentials](../../Assets/Screenshots/Channels/Settings/Connections/Magento2/EditConnectionCredentials.png "[Edit credentials]")
 
-This tab is only displayed for drivers with further credentials.
 
 - *Driver*  
-    Selected driver name. This drop-down list is read-only.
+    Driver name. For Magento 2, the Magento 2 driver is displayed. This drop-down list is read-only.
 
 **Credentials** 
 
-The fields displayed in the *Credentials* section vary depending on the selected driver.
+- *URL*  
+    Click the field to edit the Magento 2 shop URL.
+
+- *Username*
+    Click the field to edit the username. The connection username equals the login username for the Magento 2 admin backend.    
+
+- *Password*  
+    Click the field to edit the password. The connection password equals the login password for the Magento 2 admin backend.    
+
+- *Access token*  
+    This field must be left blank.
+
+[comment]: <> (Mit jetziger Magento 2 Treiber Version muss man sich über Username und Password authentifizieren; access token Feld leer lassen; mit neuem Release, noch kein festes Datum: Access token eingeben, Username und Password leer lassen.)
 
 - [SAVE]  
     Click this button to save any changes made.
@@ -174,48 +227,138 @@ The fields displayed in the *Credentials* section vary depending on the selected
 
 ## Edit Magento 2 connection &ndash; Settings
 
-*Omni-Channel > Settings > Tab CONNECTIONS > Select a connection > Tab Settings*
+*Omni-Channel > Settings > Tab CONNECTIONS > Select Magento 2 connection > Tab Settings*
 
-![Edit settings](../../Assets/Screenshots/Channels/Settings/Connections/Settings.png "[Edit settings]")
+![Edit settings](../../Assets/Screenshots/Channels/Settings/Connections/Magento2/EditConnectionSettings_StoreviewLanguages.png "[Edit settings]")
 
-This tab is only displayed for drivers with further settings.
-The fields displayed vary depending on the driver.
+The *Settings* tab is composed of the following setting entries:
 
-- [SAVE]  
+- [Store view languages](#store-view-languages)
+- [Order states](#order-states)
+- [Tax classes](#tax-classes)
+- [Global default language for Magento 2](#global-default-language-for-magento-2)
+- [Image handling](#image-handling)
+- [Image name](#image-name)
+
+### Store view languages
+
+*Omni-Channel > Settings > Tab CONNECTIONS > Select Magento 2 connection > Tab Settings > Menu entry Store view languages*
+
+![Store view languages](../../Assets/Screenshots/Channels/Settings/Connections/Magento2/EditConnectionSettings_StoreviewLanguages.png "[Store view languages]")
+
+**Store view languages**
+
+- [Save]  
     Click this button to save any changes made.
 
-    > [Info] If no settings are available for the selected connection, the *There are no settings available* notice is displayed.
+- *Store view "store view name"*   
+    - *Select Core1 language for store view*     
+        Click the drop-down list and select the language in which the products will be uploaded to the corresponding store. All available languages are displayed in the list. 
+
+### Order states
+
+*Omni-Channel > Settings > Tab CONNECTIONS > Select Magento 2 connection > Tab Settings > Menu entry Order states*
+
+![Order states](../../Assets/Screenshots/Channels/Settings/Connections/Magento2/EditConnectionSettings_OrderStates.png "[Order states]")
+
+**Order states**
+
+- [Save]  
+    Click this button to save any changes made.
+
+- *Filter orders to import*  
+
+    - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") state    
+        Enable the toggles of all states for which the orders are to be imported. All states configured in Magento 2 are available. By default, the toggles are disabled.
+    
+    - *Import only orders with a higher number than this*   
+        Enter any desired order number to import orders with a higher order number than the specified.
+
+    - *Status to filter for (leave empty if not required)*   
+        Enter a state to filter the orders to be imported if desired.
+
+- *Update order stats and status on certain events*
+
+  - *Order state to be set in shop after successful import*  
+      Click the drop-down list and select the state to be set when an order has been successfully imported. All states configured in Magento 2 are available.  
+  - *Order status to be set in shop after successful import*   
+      Enter the order status to be set when an order has been successfully imported.
+  - *Order status to be set in shop after partially shipped*   
+      Enter the order status to be set when an order has been partially shipped.
+  - *Order state to be set in shop after fully shipped*   
+      Click the drop-down list and select the state to be set when an order has been fully shipped. All states configured in Magento 2 are available.
+  - *Order status to be set in shop after fully shipped*    
+      Enter the order status to be set when an order has been fully shipped. 
+  - *Order status to be set in shop after partially paid*   
+      Enter the order status to be set when an order has been partially paid.
+  - *Order status to be set in shop after fully paid*   
+      Enter the order status to be set when an order has been fully paid.
+  - *Order status to be set in shop after tracking number set*  
+      Enter the order status to be set when a tracking number has been set for the order.
+
+- *Magento invoice handling*  
+    
+    - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Create an invoice in Magento for orders that are fully paid*   
+        Enable the toggle to create invoices in Magento 2 for fully paid orders and ensure the correct processing of vouchers. By default, the toggle is disabled. When enabled, the *Notify customer about the invoice* toggle is unlocked. 
+    - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Notify customer about the invoice*   
+        Enable the toggle to notify customers when an invoice is generated. By default, this toggle is locked and is only unlocked when the *Create an invoice in Magento for orders that are fully paid* toggle is enabled. 
+ 
+
+### Tax classes
+
+*Omni-Channel > Settings > Tab CONNECTIONS > Select Magento 2 connection > Tab Settings > Menu entry Tax classes*
+
+![Tax classes](../../Assets/Screenshots/Channels/Settings/Connections/Magento2/EditConnectionSettings_TaxClasses.png "[Tax classes]")
+
+**Tax classes**
+
+- [Save]  
+    Click this button to save any changes made.
+
+- *Select Magento 2 tax class for Core1 "tax class"*  
+    Click the drop-down list and select the applicable Magento tax class. All tax classes available in Magento 2 are displayed in the list.
 
 
+### Global default language for Magento 2
 
-## Create view
+*Omni-Channel > Settings > Tab CONNECTIONS > Select Magento 2 connection > Tab Settings > Menu entry Global default language for Magento 2*
 
-*Omni-Channel > Settings > Tab CONNECTIONS > Button Points > Menu entry create*
+![Global default language for Magento 2](../../Assets/Screenshots/Channels/Settings/Connections/Magento2/EditConnectionSettings_GlobalDefaultLanguageMagento2.png "[Global default language for Magento 2]")
 
-![Create view](../../Assets/Screenshots/Channels/CreateView.png "[Create view]")
+- [Save]  
+    Click this button to save any changes made.
+ 
+- *Select Core1 language to be set as default*
+    Click the drop-down list and select the desired language to be set as default in the Magento backend. All language available in the *Actindo Core1 Platform* are displayed in the list.
 
-- *Name*   
-    Enter a name for the view.
+### Image handling
 
-- [CANCEL]   
-    Click this button to cancel creating a view. The *Create view* window is closed.
+*Omni-Channel > Settings > Tab CONNECTIONS > Select Magento 2 connection > Tab Settings > Menu entry Image handling*
 
-- [SAVE]   
-    Click this button to save the new view and display it in the *VIEW* drop-down list. The *Create view* window is closed.
+![Image handling](../../Assets/Screenshots/Channels/Settings/Connections/Magento2/EditConnectionSettings_ImageHandling.png "[Image handling]")
+
+**Image handling**
+
+- [Save]  
+    Click this button to save any changes made.
+
+- *Select the image attributes whose images must be hidden from the gallery*  
+    Enable the toggles for all image attributes whose images must be hidden from the gallery. All image attributes available in Magento 2 are displayed.
 
 
+### Image name
 
-## Rename view
+*Omni-Channel > Settings > Tab CONNECTIONS > Select Magento 2 connection > Tab Settings > Menu entry Image name*
 
-*Omni-Channel > Settings > Tab CONNECTIONS > Button Points > Menu entry rename*
+![Image name](../../Assets/Screenshots/Channels/Settings/Connections/Magento2/EditConnectionSettings_ImageName.png "[Image name]")
 
-![Rename view](../../Assets/Screenshots/Channels/RenameView.png "[Rename view]")
+**Image name**
 
-- *Name*   
-    Click this field to edit the view name.
+- ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Apply from default*
 
-- [CANCEL]   
-    Click this button to cancel renaming the view. The *Rename view* window is closed.
+- [Save]  
+    Click this button to save any changes made.
 
-- [SAVE]   
-    Click this button to save the changes and display it in the *VIEW* drop-down list. The *Rename view* window is closed.
+- ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Use ECM image name*
+
+- *Regular expression*

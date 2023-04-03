@@ -12,13 +12,11 @@ Create the connection to a Magento 2 shop using the Magento 2 driver. Further se
 
 #### Prerequisites
 
-- A Magento 2 account has been created.
-- The integration to Actindo has been created and activated in Magento 2, go to *System > Integrations > Add New Integration*. 
+- A Magento 2 shop has been installed.
+- The integration to Actindo has been installed and activated in Magento 2, go to *System > Integrations > Add New Integration*. 
 - The *Magento 2* plugin has been installed in the *Actindo Core1 Platform*. 
 
 > [Info] For the *Omni-Channel* module version 4.1.0 or higher, the *Magento 2* plugin is required in at least version 4.0.0.
-
-[comment]: <> (Oli: Create integration in Magento 2 -> Stimmt das so? Klickpfad ausreichend?)
 
 #### Procedure
 
@@ -57,7 +55,7 @@ Create the connection to a Magento 2 shop using the Magento 2 driver. Further se
 
     ![Magento 2 connection](../../Assets/Screenshots/Channels/Settings/Connections/Magento2/Connections.png "[Magento 2 connection]")	
 
-8. If necessary, continue to configure the Magento 2 connection, see [Configure the Magento 2 connection](#configure-the-Magento-2-connection).
+8. If necessary, continue to configure the Magento 2 connection after the initial connection sync, see [Configure the Magento 2 connection](#configure-the-Magento-2-connection).
 
 
 
@@ -67,7 +65,7 @@ After the connection to a Magento 2 shop has been established, further settings 
 
 #### Prerequisites
 
-A Magento 2 connection has been established.
+A Magento 2 connection has been established and synchronized.
 
 #### Procedure
 
@@ -124,7 +122,7 @@ A Magento 2 connection has been established.
 
     + Enable the *Create an invoice in Magento for orders that are fully paid* toggle to create invoices in Magento 2 for fully paid orders and ensure the correct processing of vouchers.  
         
-    + Enable the *Notify customer about the invoice* toggle to notify customers when an invoiced is generated. This toggle is only unlocked if the *Create an invoice in Magento for orders that are fully paid* toggle is enabled.
+    + Enable the *Notify customer about the invoice* toggle to notify customers when an invoice is generated. This toggle is only unlocked if the *Create an invoice in Magento for orders that are fully paid* toggle is enabled.
     
 8. Click the *Tax classes* menu entry in the left side bar.  
     All tax classes available in the *Actindo Core1 Platform* are displayed on the right side.
@@ -140,7 +138,7 @@ A Magento 2 connection has been established.
 
 11. Click the *Select Core1 language to be set as default* drop-down list and select the appropriate language. All languages available in the *Actindo Core1 Platform* are displayed. If necessary, a language can be added in the *DataHub* module, see [Create a language](../../DataHub/Integration/05_ManageLanguages.md#create-a-language). 
 
-    > [Info] The global default language in Magento 2 is defined at root level and is used to import and globally maintain data that are untranslatable, for example a product name, and therefore not store view specific. In practice, the global default language is usually the website operator's standard language. The global default language can be changed in Magento 2.
+    > [Info] The global default language in Magento 2 is defined at root level and is used to import and globally maintained data that are untranslatable, for example a product name, and therefore not store view specific. In practice, the global default language is usually the website operator's standard language. The global default language can be changed in Magento 2.
 
 12. Click the *Image handling* menu entry in the left side bar.  
     All available image attributes available in the Magento 2 gallery are displayed on the right side.
@@ -158,8 +156,6 @@ A Magento 2 connection has been established.
     The *Use ECM image name* toggle and the *Regular expression* field are unlocked.
 
     ![Settings image name regular expression](../../Assets/Screenshots/Channels/Settings/Connections/Magento2/EditConnectionSettings_ImageNameRegEx.png "[Settings image name regular expression]")
-
-[comment]: <> (Oli: Random Name oder wird der ECM Name herangezogen?)
 
 16. If desired, disable the *Use ECM image name* toggle. By default, the toggle is enabled.  
     If disabled, the image names are generated randomly by upload. If enabled, the image names configured in the *ECM* module are uploaded.
