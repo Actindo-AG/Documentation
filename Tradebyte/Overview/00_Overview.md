@@ -8,6 +8,5 @@ In this part of the *Tradebyte Integration* documentation, you will find the fol
 
 
 - [Key Features](02_Features.md)
+    - [How it works](02_Features.md#how-it-works) 
 
-
-- [Processes](03_Processes.md)

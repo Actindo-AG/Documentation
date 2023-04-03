@@ -259,9 +259,9 @@ The *Settings* tab is composed of the following setting entries:
 
 ![Selected sales channels](../../Assets/Screenshots/Channels/Settings/Connections/Tradebyte/EditConnectionSettings_SelectedSalesChannels.png "[Selected sales channels]")
 
-*Selected sales channels*
+**Selected sales channels**
 
-- [Save]
+- [Save]   
     Click this button to save any changes made.
 
 - *Active sales channels*  
@@ -273,7 +273,7 @@ The *Settings* tab is composed of the following setting entries:
 
 *Omni-Channel > Settings > Tab CONNECTIONS > Select Tradebyte connection > Tab Settings > Menu entry Enable languages*
 
-![Enable languages](../../Assets/Screenshots/Channels/Settings/Connections/Tradebyte/EditConnectionSettings_SelectedSalesChannels.png "[Enable languages]")
+![Enable languages](../../Assets/Screenshots/Channels/Settings/Connections/Tradebyte/EditConnectionSettings_EnableLanguages.png "[Enable languages]")
 
 **Enable languages**
 
@@ -284,7 +284,7 @@ The *Settings* tab is composed of the following setting entries:
     - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") Language code  
     Enable the toggles of the languages you want to manage in the *Actindo Core1 Platform*. All languages available in Tradebyte are displayed. 
 
-- Default language
+- Default language   
     The default language of Tradebyte is automatically set and cannot be edited. 
 
 

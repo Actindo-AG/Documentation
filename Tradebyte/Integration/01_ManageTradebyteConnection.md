@@ -1,5 +1,4 @@
-[!!Manage the connections](./01_ManageTradebyteConnection.md)
-[!!User interface Connections](../UserInterface/01_Connections.md)
+[!!User interface connection](../UserInterface/01_Connections.md)
 
 # Manage the Tradebyte connection
 
