@@ -2,12 +2,12 @@
 
 # Manage the Tradebyte connection
 
-To establish a connection to a Tradebyte shop, there are several particularities to consider. Therefore, the creation and the configuration of the Tradebyte connection are described in detail below.
+To establish a connection to a Tradebyte account, there are several particularities to consider. Therefore, the creation and the configuration of the Tradebyte connection are described in detail below.
 
 
 ## Create a Tradebyte connection
 
-Create the connection to a Tradebyte shop using the Tradebyte driver. Further settings can only be configured after the connection has been established.
+Create the connection to a Tradebyte account using the Tradebyte driver. Further settings can only be configured after the connection has been established.
 
 All necessary credentials and information to establish the connection are provided by Tradebyte when an account has been created in Tradebyte.
 
@@ -55,16 +55,16 @@ All necessary credentials and information to establish the connection are provid
 
     ![Tradebyte connection](../../Assets/Screenshots/Channels/Settings/Connections/Tradebyte/Connections.png "[Tradebyte connection]")	
 
-10. If necessary, continue to configure the Tradebyte connection, see [Configure the Tradebyte connection](#configure-the-Tradebyte-connection).
+10. If necessary, continue to configure the Tradebyte connection after the initial sync, see [Configure the Tradebyte connection](#configure-the-Tradebyte-connection).
 
 
 ## Configure the Tradebyte connection   
 
-After the connection to a Tradebyte shop has been established, further settings can be configured for the connection.
+After the connection to a Tradebyte account has been established, further settings can be configured for the connection.
 
 #### Prerequisites
 
-A Tradebyte connection has been established, see [Create a Tradebyte connection](#create-a-tradebyte-connection).
+A Tradebyte connection has been established and synchronized, see [Create a Tradebyte connection](#create-a-tradebyte-connection).
 
 #### Procedure
 
