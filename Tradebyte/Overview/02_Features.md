@@ -21,5 +21,5 @@ Order information is imported from Tradebyte to Actindo.
 **Order status**  
 Delivery status, payment status and tracking numbers are transferred from Actindo to Tradebyte.
 
-**Invoice documents**
+**Invoice documents**   
 Invoice documents are transferred from Actindo to Tradebyte.
