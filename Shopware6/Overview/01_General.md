@@ -1,6 +1,6 @@
 # General information
 
-The Actindo Shopware integration enables the complete connection of your webshop to the *Actindo Core1 Platform*. This allows you to control all your e-commerce processes, such as merchandise management, purchasing, order processing and invoicing, centrally from one place. The interface is available for Shopware 5 and 6. 
+The Actindo Shopware integration enables the complete connection of your webshop to the *Actindo Core1 Platform*. This allows you to control all your e-commerce processes, such as merchandise management, purchasing, order processing and invoicing, centrally from one place.  
 
 This documentation refers to *Shopware 6* plugin version 4.0.1. There may be differences in the UI, features and operation if your *Shopware 6* plugin is installed in a different version.
 
