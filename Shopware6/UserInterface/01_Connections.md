@@ -132,7 +132,7 @@ The list displays all available connections. Depending on the settings, the disp
 
 *Omni-Channel > Settings > Tab CONNECTIONS > Button Add*
 
-![Create Shopware 6 connection](../../Assets/Screenshots/Channels/Settings/Connections/CreateConnection.png "[Create Shopware 6 connection]")
+![Create connection](../../Assets/Screenshots/Channels/Settings/Connections/CreateConnection.png "[Create connection]")
 
 - ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)   
     Click this button to close the *Create connection* view and return to the connection list. All changes are rejected.
@@ -154,7 +154,7 @@ The list displays all available connections. Depending on the settings, the disp
 
 **Credentials**
 
-![Edit connection](../../Assets/Screenshots/Channels/Settings/Connections/Shopware6/CreateConnectionCredentials.png "[Edit connection]")
+![Create Shopware 6 credentials](../../Assets/Screenshots/Channels/Settings/Connections/Shopware6/CreateConnectionCredentials.png "[Create Shopware 6 credentials]")
 
 - URL  
     Enter the shop base URL.
@@ -219,7 +219,7 @@ The list displays all available connections. Depending on the settings, the disp
 
 *Omni-Channel > Settings > Tab CONNECTIONS > Select Shopware 6 connection > Tab Settings*
 
-![Edit settings](../../Assets/Screenshots/Channels/Settings/Connections/Shopware6/EditConnectionSettings_DefaultLanguage.png "[Edit settings]")
+![Edit Shopware 6 settings](../../Assets/Screenshots/Channels/Settings/Connections/Shopware6/EditConnectionSettings_DefaultLanguage.png "[Edit Shopware 6 settings]")
 
 By default, the *Settings* tab is composed of the following settings entries:
 
