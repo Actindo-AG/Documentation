@@ -34,7 +34,7 @@ Create the connection to a Magento 2 shop using the Magento 2 driver. Further se
 3. Click the *Driver* drop-down list and select the *Magento 2* driver.  
     The *Credentials* section is displayed below the drop-down list.
 
-    ![Create connection](../../Assets/Screenshots/Channels/Settings/Connections/Magento2/CreateConnectionCredentials.png "[Create connection]")
+    ![Create connection credentials](../../Assets/Screenshots/Channels/Settings/Connections/Magento2/CreateConnectionCredentials.png "[Create connection credentials]")
 
 4. Enter the Magento 2 shop URL in the *URL* field.
 

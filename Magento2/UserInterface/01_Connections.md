@@ -177,7 +177,7 @@ The list displays all available connections. Depending on the settings, the disp
 
 *Omni-Channel > Settings > Tab CONNECTIONS > Select Magento 2 connection*
 
-![Edit connection](../../Assets/Screenshots/Channels/Settings/Connections/Magento2/EditConnectionCredentials.png "[Edit connection]")
+![Edit Magento 2 connection](../../Assets/Screenshots/Channels/Settings/Connections/Magento2/EditConnectionCredentials.png "[Edit Magento 2 connection]")
 
 - ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)   
     Click this button to close the *Edit connection* view and return to the connection list. All changes are rejected.
@@ -199,7 +199,7 @@ The list displays all available connections. Depending on the settings, the disp
 
 *Omni-Channel > Settings > Tab CONNECTIONS > Select Magento 2 connection > Tab Credentials*
 
-![Edit credentials](../../Assets/Screenshots/Channels/Settings/Connections/Magento2/EditConnectionCredentials.png "[Edit credentials]")
+![Edit Magento 2 credentials](../../Assets/Screenshots/Channels/Settings/Connections/Magento2/EditConnectionCredentials.png "[Edit Magento 2 credentials]")
 
 
 - *Driver*  
@@ -229,7 +229,7 @@ The list displays all available connections. Depending on the settings, the disp
 
 *Omni-Channel > Settings > Tab CONNECTIONS > Select Magento 2 connection > Tab Settings*
 
-![Edit settings](../../Assets/Screenshots/Channels/Settings/Connections/Magento2/EditConnectionSettings_StoreviewLanguages.png "[Edit settings]")
+![Edit Magento 2 settings](../../Assets/Screenshots/Channels/Settings/Connections/Magento2/EditConnectionSettings_StoreviewLanguages.png "[Edit Magento 2 settings]")
 
 The *Settings* tab is composed of the following setting entries:
 
