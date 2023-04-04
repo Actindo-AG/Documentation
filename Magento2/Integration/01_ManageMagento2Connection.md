@@ -16,8 +16,6 @@ Create the connection to a Magento 2 shop using the Magento 2 driver. Further se
 - The integration to Actindo has been installed and activated in Magento 2, go to *System > Integrations > Add New Integration*. 
 - The *Magento 2* plugin has been installed in the *Actindo Core1 Platform*. 
 
-> [Info] For the *Omni-Channel* module version 4.1.0 or higher, the *Magento 2* plugin is required in at least version 4.0.0.
-
 #### Procedure
 
 *Omni-Channel > Settings > Tab CONNECTIONS*

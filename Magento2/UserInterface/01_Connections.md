@@ -63,8 +63,7 @@
     Click this button to enable the selected connection(s). This button is only displayed if the checkbox of at least one inactive connection is selected. 
 
 - ![Edit](../../Assets/Icons/Edit01.png "[Edit]") (Edit)  
-    Click this button to edit the Magento 2 connection. This button is only displayed if a single checkbox in the list of connections is selected. Alternatively, you can click directly a row in the list to edit a connection. The *Edit connection* view is displayed, see [Edit Magento 2 connection](#edit-magento-2-connection).
-
+    Click this button to edit the selected Magento 2 connection. This button is only displayed if a single checkbox in the list of connections is selected. Alternatively, you can click directly a row in the list to edit a connection. The *Edit connection* view is displayed, see [Edit Magento 2 connection](#edit-magento-2-connection).
 
 The list displays all available connections. Depending on the settings, the displayed columns may vary. All fields are read-only.
 
@@ -95,6 +94,7 @@ The list displays all available connections. Depending on the settings, the disp
     Click this button to add a Magneto 2 connection. The *Create connection* view is displayed, see [Create Magento 2 connection](#create-magento-2-connection).
 
 
+
 ## Create view
 
 *Omni-Channel > Settings > Tab CONNECTIONS > Button Points > Menu entry create*
@@ -111,6 +111,7 @@ The list displays all available connections. Depending on the settings, the disp
     Click this button to save the new view and display it in the *VIEW* drop-down list. The *Create view* window is closed.
 
 
+
 ## Rename view
 
 *Omni-Channel > Settings > Tab CONNECTIONS > Button Points > Menu entry rename*
@@ -125,6 +126,7 @@ The list displays all available connections. Depending on the settings, the disp
 
 - [SAVE]   
     Click this button to save the changes and display it in the *VIEW* drop-down list. The *Rename view* window is closed.
+
 
 
 ## Create Magento 2 connection
@@ -146,10 +148,9 @@ The list displays all available connections. Depending on the settings, the disp
     Click this button to edit the connection name. This button is only displayed if the connection name has been confirmed. 
 
 - *Driver*  
-    Click the drop-down list and select the Magento 2 driver. All installed drivers are displayed. Depending on the connection driver, a *Credentials* section is displayed below the drop-down list.
+    Click the drop-down list and select the *Magento2* driver. All installed drivers are displayed. The *Credentials* section is displayed below the drop-down list.
 
     > [Info] Drivers are licensed and must be acquired via the app store or the corresponding e-commerce partner platform. The applicable driver credentials to establish the connection are obtained when acquiring the corresponding license.
-
 
 **Credentials**
 
@@ -171,6 +172,7 @@ The list displays all available connections. Depending on the settings, the disp
 
 - [SAVE]  
     Click this button to save the connection.
+
 
 
 ## Edit Magento 2 connection
@@ -195,15 +197,15 @@ The list displays all available connections. Depending on the settings, the disp
     Creation date of the connection. This field is read-only.  
 
 
+
 ## Edit Magento 2 connection &ndash; Credentials
 
 *Omni-Channel > Settings > Tab CONNECTIONS > Select Magento 2 connection > Tab Credentials*
 
 ![Edit Magento 2 credentials](../../Assets/Screenshots/Channels/Settings/Connections/Magento2/EditConnectionCredentials.png "[Edit Magento 2 credentials]")
 
-
 - *Driver*  
-    Driver name. For Magento 2, the Magento 2 driver is displayed. This drop-down list is read-only.
+    Driver name. For Magento 2, the *Magento2* driver is displayed. This drop-down list is read-only.
 
 **Credentials** 
 
@@ -225,6 +227,7 @@ The list displays all available connections. Depending on the settings, the disp
     Click this button to save any changes made.
 
 
+
 ## Edit Magento 2 connection &ndash; Settings
 
 *Omni-Channel > Settings > Tab CONNECTIONS > Select Magento 2 connection > Tab Settings*
@@ -240,6 +243,7 @@ The *Settings* tab is composed of the following setting entries:
 - [Image handling](#image-handling)
 - [Image name](#image-name)
 
+
 ### Store view languages
 
 *Omni-Channel > Settings > Tab CONNECTIONS > Select Magento 2 connection > Tab Settings > Menu entry Store view languages*
@@ -254,6 +258,7 @@ The *Settings* tab is composed of the following setting entries:
 - *Select Core1 language for store view*     
     Click the drop-down list and select the language in which the products will be uploaded to the corresponding store view. All available languages are displayed in the list. 
 
+
 ### Order states
 
 *Omni-Channel > Settings > Tab CONNECTIONS > Select Magento 2 connection > Tab Settings > Menu entry Order states*
@@ -265,42 +270,51 @@ The *Settings* tab is composed of the following setting entries:
 - [Save]  
     Click this button to save any changes made.
 
-- *Filter orders to import*  
+**Filter orders to import**  
 
-    - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") state    
-        Enable the toggles of all states for which the orders are to be imported. All states configured in Magento 2 are available. By default, the toggles are disabled.
+- ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") state    
+    Enable the toggles of all states for which the orders are to be imported. All states configured in Magento 2 are available. By default, the toggles are disabled.
+
+- *Import only orders with a higher number than this*   
+    Enter any desired order number to import orders with a higher order number than the specified.
+
+- *Status to filter for (leave empty if not required)*   
+    Enter a status to filter the orders to be imported if desired.
+
+**Update order state and status on certain events**
+
+- *Order state to be set in shop after successful import*  
+    Click the drop-down list and select the state to be set when an order has been successfully imported. All states configured in Magento 2 are available.  
+
+- *Order status to be set in shop after successful import*   
+    Enter the order status to be set when an order has been successfully imported.
+
+- *Order status to be set in shop after partially shipped*   
+    Enter the order status to be set when an order has been partially shipped.
+
+- *Order state to be set in shop after fully shipped*   
+    Click the drop-down list and select the state to be set when an order has been 
+    fully shipped. All states configured in Magento 2 are available.
+
+- *Order status to be set in shop after fully shipped*    
+    Enter the order status to be set when an order has been fully shipped. 
+
+- *Order status to be set in shop after partially paid*   
+    Enter the order status to be set when an order has been partially paid.
+
+- *Order status to be set in shop after fully paid*   
+    Enter the order status to be set when an order has been fully paid.
+
+- *Order status to be set in shop after tracking number set*  
+    Enter the order status to be set when a tracking number has been set for the order.
+
+**Magento invoice handling**  
     
-    - *Import only orders with a higher number than this*   
-        Enter any desired order number to import orders with a higher order number than the specified.
-
-    - *Status to filter for (leave empty if not required)*   
-        Enter a status to filter the orders to be imported if desired.
-
-- *Update order state and status on certain events*
-
-    - *Order state to be set in shop after successful import*  
-        Click the drop-down list and select the state to be set when an order has been successfully imported. All states configured in Magento 2 are available.  
-    - *Order status to be set in shop after successful import*   
-        Enter the order status to be set when an order has been successfully imported.
-    - *Order status to be set in shop after partially shipped*   
-        Enter the order status to be set when an order has been partially shipped.
-    - *Order state to be set in shop after fully shipped*   
-        Click the drop-down list and select the state to be set when an order has been fully shipped. All states configured in Magento 2 are available.
-    - *Order status to be set in shop after fully shipped*    
-        Enter the order status to be set when an order has been fully shipped. 
-    - *Order status to be set in shop after partially paid*   
-        Enter the order status to be set when an order has been partially paid.
-    - *Order status to be set in shop after fully paid*   
-        Enter the order status to be set when an order has been fully paid.
-    - *Order status to be set in shop after tracking number set*  
-        Enter the order status to be set when a tracking number has been set for the order.
-
-- *Magento invoice handling*  
+- ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Create an invoice in Magento for orders that are fully paid*   
+    Enable the toggle to create invoices in Magento 2 for fully paid orders and ensure the correct processing of vouchers. By default, the toggle is disabled. When enabled, the *Notify customer about the invoice* toggle is unlocked. 
     
-    - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Create an invoice in Magento for orders that are fully paid*   
-        Enable the toggle to create invoices in Magento 2 for fully paid orders and ensure the correct processing of vouchers. By default, the toggle is disabled. When enabled, the *Notify customer about the invoice* toggle is unlocked. 
-    - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Notify customer about the invoice*   
-        Enable the toggle to notify customers when an invoice is generated. By default, this toggle is disabled and locked, and it is only unlocked when the *Create an invoice in Magento for orders that are fully paid* toggle has been enabled. 
+- ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Notify customer about the invoice*   
+    Enable the toggle to notify customers when an invoice is generated. By default, this toggle is disabled and locked, and it is only unlocked when the *Create an invoice in Magento for orders that are fully paid* toggle has been enabled. 
  
 
 ### Tax classes
@@ -331,6 +345,7 @@ The *Settings* tab is composed of the following setting entries:
  
 - *Select Core1 language to be set as default*   
     Click the drop-down list and select the desired language to be set as default in the Magento backend. All languages available in the *Actindo Core1 Platform* are displayed in the list.
+
 
 ### Image handling
 
@@ -365,4 +380,4 @@ The *Settings* tab is composed of the following setting entries:
     Disable the toggle if you want the image names to be randomly generated by upload. If the toggle remains enabled, the image names configured in the ECM module are uploaded. By default, the toggle is enabled. This toggle is only unlocked when the *Apply from default* toggle is disabled.
 
 - *Regular expression*  
-    Define a regular expression to shorten and customize the image names configured in the *ECM* module. Any sequence of characters entered that matches a regular expression will be removed from the image name when the image files are uploaded to the Magento 2 shop.  This field is only unlocked when the *Apply from default* toggle is disabled.
+    Define a regular expression to shorten and customize the image names configured in the *ECM* module. Any sequence of characters entered that matches a regular expression will be removed from the image name when the image files are uploaded to the Magento 2 shop. This field is only unlocked when the *Apply from default* toggle is disabled.
