@@ -15,11 +15,9 @@ Be aware that, before a Shopware 6 connection can be established in the *Actindo
 
 #### Prerequisites
 
-- A Shopware 6 shop is installed.
-- The *Shopware 6* driver plugin has been installed in the Core1 account.
-- All languages configured in the Shopware 6 account have been created in the *DataHub* module, see [Create a language](../../DataHub/Integration/05_ManageLanguages.md#create-a-language). 
-
-> [Info] For the *Omni-Channel* module version 4.1.0 or higher, the *Shopware 6* plugin is required in at least version 4.0.0.
+- A Shopware 6 shop has been installed.
+- The *Shopware 6* plugin has been installed.
+- All languages configured in the Shopware 6 backend have been created in the *DataHub* module, see [Create a language](../../DataHub/Integration/05_ManageLanguages.md#create-a-language). 
 
 #### Procedure
 
@@ -39,7 +37,7 @@ Be aware that, before a Shopware 6 connection can be established in the *Actindo
 
     ![Create connection credentials](../../Assets/Screenshots/Channels/Settings/Connections/Shopware6/CreateConnectionCredentials.png "[Create connection credentials]")
 
-4. Enter the shops base URL in the *URL* field.  
+4. Enter the shop base URL in the *URL* field.  
 
 5. In a new browser window, go to your Shopware 6 backend and log in.    
     The Shopware 6 dashboard is displayed.
