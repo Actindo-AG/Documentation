@@ -1,6 +1,5 @@
 [!!Manage the Shopware 6 connection](../Integration/01_ManageShopware6connection.md)
 
-
 # Connections
 
 *Omni-Channel > Settings > Tab CONNECTIONS*
@@ -64,8 +63,7 @@
     Click this button to enable the selected connection(s). This button is only displayed if the checkbox of at least one inactive connection is selected. 
 
 - ![Edit](../../Assets/Icons/Edit01.png "[Edit]") (Edit)  
-    Click this button to edit the Shopware 6 connection. This button is only displayed if a single checkbox in the list of connections is selected. Alternatively, you can click directly a row in the list to edit a connection. The *Edit connection* view is displayed, see [Edit Shopware 6 connection](#edit-shopware-6-connection).
-
+    Click this button to edit the selected  Shopware 6 connection. This button is only displayed if a single checkbox in the list of connections is selected. Alternatively, you can click directly a row in the list to edit a connection. The *Edit connection* view is displayed, see [Edit Shopware 6 connection](#edit-shopware-6-connection).
 
 The list displays all available connections. Depending on the settings, the displayed columns may vary. All fields are read-only.
 
@@ -96,6 +94,7 @@ The list displays all available connections. Depending on the settings, the disp
     Click this button to add a Shopware 6 connection. The *Create connection* view is displayed, see [Create Shopware 6 connection](#create-shopware-6-connection).
 
 
+
 ## Create view
 
 *Omni-Channel > Settings > Tab CONNECTIONS > Button Points > Menu entry create*
@@ -112,6 +111,7 @@ The list displays all available connections. Depending on the settings, the disp
     Click this button to save the new view and display it in the *VIEW* drop-down list. The *Create view* window is closed.
 
 
+
 ## Rename view
 
 *Omni-Channel > Settings > Tab CONNECTIONS > Button Points > Menu entry rename*
@@ -126,6 +126,7 @@ The list displays all available connections. Depending on the settings, the disp
 
 - [SAVE]   
     Click this button to save the changes and display it in the *VIEW* drop-down list. The *Rename view* window is closed.
+
 
 
 ## Create Shopware 6 connection
@@ -147,7 +148,7 @@ The list displays all available connections. Depending on the settings, the disp
     Click this button to edit the connection name. This button is only displayed if the connection name has been confirmed. 
 
 - *Driver*  
-    Click the drop-down list and select the Shopware 6 driver. All installed drivers are displayed. The *Credentials* section is displayed below the drop-down list.
+    Click the drop-down list and select the *Shopware 6* driver. All installed drivers are displayed. The *Credentials* section is displayed below the drop-down list.
 
     > [Info] Drivers are licensed and must be acquired via the app store or the corresponding e-commerce partner platform. The applicable driver credentials to establish the connection are obtained when acquiring the corresponding license.
 
@@ -156,17 +157,18 @@ The list displays all available connections. Depending on the settings, the disp
 
 ![Create Shopware 6 credentials](../../Assets/Screenshots/Channels/Settings/Connections/Shopware6/CreateConnectionCredentials.png "[Create Shopware 6 credentials]")
 
-- URL  
+- *URL*  
     Enter the shop base URL.
 
-- Access key ID  
+- *Access key ID*  
     Enter the access key ID provided in the Shopware 6 backend.
 
-- Secret access key  
+- *Secret access key*  
     Enter the secret access key provided in the Shopware 6 backend.
 
 - [SAVE]  
     Click this button to save the connection.
+
 
 
 ## Edit Shopware 6 connection
@@ -191,6 +193,7 @@ The list displays all available connections. Depending on the settings, the disp
     Creation date of the connection. This field is read-only.  
 
 
+
 ## Edit Shopware 6 connection &ndash; Credentials
 
 *Omni-Channel > Settings > Tab CONNECTIONS > Select Shopware 6 connection > Tab Credentials*
@@ -202,17 +205,18 @@ The list displays all available connections. Depending on the settings, the disp
 
 **Credentials** 
 
-- URL  
+- *URL*  
     Click the field to edit the shop base URL.
 
-- Access key ID  
+- *Access key ID*  
     Click the field to edit the access key ID for the Shopware 6 connection.
 
-- Secret access key  
+- *Secret access key*  
     Click the field to edit the secret access key for the Shopware 6 connection. 
 
 - [SAVE]  
     Click this button to save any changes made.
+
 
 
 ## Edit Shopware 6 connection &ndash; Settings
@@ -245,6 +249,7 @@ Additional menu entries may be displayed if the corresponding functions have bee
 - *Select Shopware 6 default language*  
     Click the drop-down list and select the default language configured in the Shopware 6 backend. 
 
+
 ### Orders
 
 *Omni-Channel > Settings > Tab CONNECTIONS > Select Shopware 6 connection > Tab Settings > Menu entry Orders*
@@ -269,6 +274,7 @@ Additional menu entries may be displayed if the corresponding functions have bee
 - Payment methods  
     Click the desired payment method to display all available payment state toggles. All payment methods configured in Shopware 6 are displayed. For each payment method, enable the toggles of all payment states for which the orders are to be exported to the *Order Management* module for further processing. If you select no payment state for a certain payment method, all orders with this payment method, regardless of their state, will be exported to the *Order Management* module immediately. All payment states available in Shopware 6 are displayed for each payment method. 
     
+
 ### Tax classes
 
 *Omni-Channel > Settings > Tab CONNECTIONS > Select Shopware 6 connection > Tab Settings > Menu entry Tax classes*
@@ -278,8 +284,9 @@ Additional menu entries may be displayed if the corresponding functions have bee
 - [Save]  
     Click this button to save any changes made.
 
-- *Select Core1 tax class for Shopware 6 "tax class"*  
+- *Select Core1 tax class for Shopware 6 "Tax class name"*  
     Click the drop-down list and select the corresponding tax class in the *Actindo Core1 Platform*. All available tax classes are displayed in the list.
+
 
 ### Price rules
 
@@ -295,13 +302,14 @@ Additional menu entries may be displayed if the corresponding functions have bee
 - *Select price rules to create price attributes*   
     Enable the toggles for all price rules for which you want to create a price attribute in the *Actindo Core1 Platform* to maintain deviating prices. All price rules available in Shopware 6 are displayed.
 
+
 ### Klarna
 
 *Omni-Channel > Settings > Tab CONNECTIONS > Select Shopware 6 connection > Tab Settings > Menu entry Klarna*
 
 ![Klarna](../../Assets/Screenshots/Channels/Settings/Connections/Shopware6/EditConnectionSettings_Klarna.png "[Klarna]")
 
-> [Info] This menu entry is only displayed if the *Klarna Integration for Shopware 6 plugin* has been installed in your *Actindo Core1 Platform* and the *Klarna Payment Plugin for Shopware 6* has been installed in your Shopware 6 account. 
+> [Info] This menu entry is only displayed if the *Klarna Integration for Shopware 6* plugin has been installed in your *Actindo Core1 Platform* and the *Klarna Payment Plugin for Shopware 6* has been installed in your Shopware 6 account. 
 
 - [Save]  
     Click this button to save any changes made.
@@ -309,16 +317,17 @@ Additional menu entries may be displayed if the corresponding functions have bee
 - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Enable Klarna integration for this connection*   
     Enable this toggle to import additional fields from the shop for further processing.
 
+
 ### Ratepay
 
 *Omni-Channel > Settings > Tab CONNECTIONS > Select Shopware 6 connection > Tab Settings > Menu entry Ratepay*
 
 ![Ratepay](../../Assets/Screenshots/Channels/Settings/Connections/Shopware6/EditConnectionSettings_Ratepay.png "[Ratepay]")
 
-> [Info] This menu entry is only displayed if the *Ratepay Integration for Shopware 6 plugin* has been installed in your *Actindo Core1 Platform* and the *Ratepay Payment Plugin for Shopware 6* has been installed in your Shopware 6 account. 
+> [Info] This menu entry is only displayed if the *Ratepay Integration for Shopware 6* plugin has been installed in your *Actindo Core1 Platform* and the *Ratepay Payment Plugin for Shopware 6* has been installed in your Shopware 6 account. 
 
 - [Save]  
     Click this button to save any changes made.
     
- ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Enable Klarna integration for this connection*   
+- ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Enable Klarna integration for this connection*   
     Enable this toggle to import additional fields from the shop for further processing.
