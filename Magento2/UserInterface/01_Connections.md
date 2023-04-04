@@ -324,6 +324,8 @@ The *Settings* tab is composed of the following setting entries:
 
 ![Global default language for Magento 2](../../Assets/Screenshots/Channels/Settings/Connections/Magento2/EditConnectionSettings_GlobalDefaultLanguageMagento2.png "[Global default language for Magento 2]")
 
+**Global default language for Magento 2**
+
 - [Save]  
     Click this button to save any changes made.
  
