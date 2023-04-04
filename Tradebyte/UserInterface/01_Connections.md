@@ -132,7 +132,7 @@ The list displays all available connections. Depending on the settings, the disp
 
 *Omni-Channel > Settings > Tab CONNECTIONS > Button Add*
 
-![Create Tradebyte connection](../../Assets/Screenshots/Channels/Settings/Connections/CreateConnection.png "[Create Tradebyte connection]")
+![Create connection](../../Assets/Screenshots/Channels/Settings/Connections/CreateConnection.png "[Create connection]")
 
 - ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)   
     Click this button to close the *Create connection* view and return to the connection list. All changes are rejected.
@@ -184,7 +184,7 @@ The list displays all available connections. Depending on the settings, the disp
 
 *Omni-Channel > Settings > Tab CONNECTIONS > Select Tradebyte connection*
 
-![Edit connection](../../Assets/Screenshots/Channels/Settings/Connections/Tradebyte/EditConnectionCredentials.png "[Edit connection]")
+![Edit Tradebyte connection](../../Assets/Screenshots/Channels/Settings/Connections/Tradebyte/EditConnectionCredentials.png "[Edit Tradebyte connection]")
 
 - ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)   
     Click this button to close the *Edit connection* view and return to the connection list. All changes are rejected.
@@ -206,15 +206,13 @@ The list displays all available connections. Depending on the settings, the disp
 
 *Omni-Channel > Settings > Tab CONNECTIONS > Select Tradebyte connection > Tab Credentials*
 
-![Edit credentials](../../Assets/Screenshots/Channels/Settings/Connections/Tradebyte/EditConnectionCredentials.png "[Edit credentials]")
+![Edit Tradebyte credentials](../../Assets/Screenshots/Channels/Settings/Connections/Tradebyte/EditConnectionCredentials.png "[Edit Tradebyte credentials]")
 
 
 - *Driver*  
     Driver name. For Tradebyte, the Tradebyte driver is displayed. This drop-down list is read-only.
 
 **Credentials** 
-
-The fields displayed in the *Credentials* section vary depending on the selected driver.
 
 - *Merchant number*  
     Click this field to edit the merchant number.
@@ -245,7 +243,7 @@ The fields displayed in the *Credentials* section vary depending on the selected
 
 *Omni-Channel > Settings > Tab CONNECTIONS > Select Tradebyte connection > Tab Settings*
 
-![Edit settings](../../Assets/Screenshots/Channels/Settings/Connections/Tradebyte/EditConnectionSettings_SelectedSalesChannels.png "[Edit settings]")
+![Edit Tradebyte settings](../../Assets/Screenshots/Channels/Settings/Connections/Tradebyte/EditConnectionSettings_SelectedSalesChannels.png "[Edit Tradebyte settings]")
 
 The *Settings* tab is composed of the following setting entries:
 

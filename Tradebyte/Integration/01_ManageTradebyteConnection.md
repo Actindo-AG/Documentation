@@ -34,7 +34,7 @@ All necessary credentials and information to establish the connection are provid
 3. Click the *Driver* drop-down list and select the *Tradebyte* driver.  
     The *Credentials* section is displayed below the drop-down list.
 
-    ![Create connection](../../Assets/Screenshots/Channels/Settings/Connections/Tradebyte/CreateConnectionCredentials.png "[Create connection]")
+    ![Create connection credentials](../../Assets/Screenshots/Channels/Settings/Connections/Tradebyte/CreateConnectionCredentials.png "[Create connection credentials]")
 
 4. Enter the merchant number in the *Merchant number* field.
 
