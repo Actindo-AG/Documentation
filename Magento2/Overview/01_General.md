@@ -1,6 +1,6 @@
 # General information
 
-[comment]: <> (add general information)
+Actindo & Adobe Commerce: A powerful duo for an excellent customer experience with efficient trading processes. Adobe Commerce (formerly Magento) is one of the leading shop systems on the market. Through the connection to the *Actindo Core1 Platform*, article, inventory and order data are automatically imported, exported and synchronized for efficient trading.
 
 This documentation refers to *Magento 2* plugin version 1.1.0. There may be differences in the UI, features and operation if your *Magento 2* plugin is installed in a different version.
 
@@ -9,7 +9,9 @@ This documentation refers to *Magento 2* plugin version 1.1.0. There may be diff
 
 The Actindo *Magento 2* plugin offers the following benefits:
 
-[comment]: <> (add benefits)
+- easy installation via the Magento 2 admin backend
+- fully customizable settings of the Magento connection
+- reliable data exchange between Magento and Actindo
 
 
 ## Prerequisites
