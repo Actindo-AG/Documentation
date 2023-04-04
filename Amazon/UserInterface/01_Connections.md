@@ -65,7 +65,6 @@
 - ![Edit](../../Assets/Icons/Edit01.png "[Edit]") (Edit)  
     Click this button to edit the Amazon connection. This button is only displayed if a single checkbox in the list of connections is selected. Alternatively, you can click directly a row in the list to edit a connection. The *Edit connection* view is displayed, see [Edit Amazon connection](#edit-amazon-connection).
 
-
 The list displays all available connections. Depending on the settings, the displayed columns may vary. All fields are read-only.
 
 - *Name*  
@@ -92,7 +91,8 @@ The list displays all available connections. Depending on the settings, the disp
     Connection identification number. The ID number is automatically assigned by the system.
 
 - ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add)  
-    Click this button to add an Amazon connection. The *Create connection* view is displayed, see [Create connection](#create-Amazon-connection).
+    Click this button to add an Amazon connection. The *Create connection* view is displayed, see [Create Amazon connection](#create-amazon-connection).
+
 
 
 ## Create view
@@ -111,6 +111,7 @@ The list displays all available connections. Depending on the settings, the disp
     Click this button to save the new view and display it in the *VIEW* drop-down list. The *Create view* window is closed.
 
 
+
 ## Rename view
 
 *Omni-Channel > Settings > Tab CONNECTIONS > Button Points > Menu entry rename*
@@ -125,6 +126,8 @@ The list displays all available connections. Depending on the settings, the disp
 
 - [SAVE]   
     Click this button to save the changes and display it in the *VIEW* drop-down list. The *Rename view* window is closed.
+
+
 
 ## Create Amazon connection
 
@@ -149,7 +152,6 @@ The list displays all available connections. Depending on the settings, the disp
 
     > [Info] Drivers are licensed and must be acquired via the app store or the corresponding e-commerce partner platform. The applicable driver credentials to establish the connection are obtained when acquiring the corresponding license.
 
-
 **Credentials**
 
 ![Create Amazon credentials](../../Assets/Screenshots/Channels/Settings/Connections/Amazon/CreateConnectionCredentials.png "[Create Amazon credentials]")
@@ -164,10 +166,11 @@ The list displays all available connections. Depending on the settings, the disp
     Click this button to start the Actindo authorization process in your Amazon seller account.
 
 - *Amazon marketplace*  
-    Click this drop-down list and select the applicable marketplace.
+    Click the drop-down list and select the applicable marketplace.
 
 - [SAVE]  
     Click this button to save the connection.
+
 
 
 ## Edit Amazon connection
@@ -190,6 +193,7 @@ The list displays all available connections. Depending on the settings, the disp
 
 - *Created DD/MM/YYYY*  
     Creation date of the connection. This field is read-only.  
+
 
 
 ## Edit Amazon connection &ndash; Credentials
@@ -217,6 +221,7 @@ The list displays all available connections. Depending on the settings, the disp
 
 - [SAVE]  
     Click this button to save any changes made.
+
 
 
 ## Edit Amazon connection &ndash; Settings
@@ -265,38 +270,48 @@ The *Settings* tab is composed of the following settings entries:
 - [Save]  
     Click this button to save any changes made.
 
-- *'Merchant Fulfilled Network' (MFN) orders*   
-    Configure the following options to determine the 'Merchant Fulfilled Network' (MFN) orders to be imported: 
 
-    - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Import 'Merchant Fulfilled Network' (MFN) orders.*   
-        Disabled this toggle if you do not want to import 'Merchant Fulfilled Network' (MFN) orders. By default, this toggle is enabled.
-    - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Import 'Prime by Merchant' orders.*   
-        Disabled this toggle if you do not want to import 'Prime by Merchant' orders. By default, this toggle is enabled.
-    - *Import MFN orders from*  
-        Enter a date from which to import the orders. The valid date format is DD.MM.YYYY. If no date is selected, the orders of the last 90 days are automatically imported.
-    - ![Calendar](../../Assets/Icons/Calendar.png "[Calendar]") (Calendar)  
-        Click this button and select a date from which to import the others.
+**'Merchant Fulfilled Network' (MFN) orders**   
 
-- *'Fulfillment by Amazon' (FBA) orders*   
-    Configure the following options to determine the 'Fulfillment by Amazon' (FBA) orders to be imported: 
+Configure the following options to determine the 'Merchant Fulfilled Network' (MFN) orders to be imported: 
 
-    - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Import 'Fulfillment by Amazon' (FBA) orders.*   
-        Disabled this toggle if you do not want to import 'Fulfillment by Amazon' (FBA) orders. By default, this toggle is enabled.
-    - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Mark 'Fulfillment by Amazon' orders as shipped during import and disable warehousing.*   
-        Disabled this toggle to prevent that the warehousing and the shipping for the FBA order is managed in Actindo. By default, this toggle is enabled.
-    - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Is the VAT calculation service (VCS) enabled?*   
-        Enable or disabled this toggle to specify if this feature is active in Amazon. If the VCS is disabled, the prices in the FBA reports are gross; if the VCS is enabled, the prices are net. By default, this toggle is disabled.
-    - *Import FBA orders from*  
-        Enter a date from which to import the orders. The valid date format is DD.MM.YYYY. If no date is selected, the orders of the last 90 days are automatically imported.
-    - ![Calendar](../../Assets/Icons/Calendar.png "[Calendar]") (Calendar)  
-        Click this button and select a date from which to import the others.
+- ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Import 'Merchant Fulfilled Network' (MFN) orders.*   
+    Disabled this toggle if you do not want to import 'Merchant Fulfilled Network' (MFN) orders. By default, this toggle is enabled.
 
-- *Addresses*
+- ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Import 'Prime by Merchant' orders.*   
+    Disabled this toggle if you do not want to import 'Prime by Merchant' orders. By default, this toggle is enabled.
 
-    - *Packing station address layout*  
+- *Import MFN orders from*  
+    Enter a date from which to import the orders. The valid date format is DD.MM.YYYY. If no date is selected, the orders of the last 90 days are automatically imported.
+
+- ![Calendar](../../Assets/Icons/Calendar.png "[Calendar]") (Calendar)  
+    Click this button and select a date from which to import the others.
+
+**'Fulfillment by Amazon' (FBA) orders** 
+
+Configure the following options to determine the 'Fulfillment by Amazon' (FBA) orders to be imported: 
+
+- ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Import 'Fulfillment by Amazon' (FBA) orders.*   
+    Disabled this toggle if you do not want to import 'Fulfillment by Amazon' (FBA) orders. By default, this toggle is enabled.
+
+- ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Mark 'Fulfillment by Amazon' orders as shipped during import and disable warehousing.*   
+    Disabled this toggle to prevent that the warehousing and the shipping for the FBA order is managed in Actindo. By default, this toggle is enabled.
+
+- ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Is the VAT calculation service (VCS) enabled?*   
+    Enable or disabled this toggle to specify if this feature is active in Amazon. If the VCS is disabled, the prices in the FBA reports are gross; if the VCS is enabled, the prices are net. By default, this toggle is disabled.
+
+- *Import FBA orders from*  
+    Enter a date from which to import the orders. The valid date format is DD.MM.YYYY. If no date is selected, the orders of the last 90 days are automatically imported.
+
+- ![Calendar](../../Assets/Icons/Calendar.png "[Calendar]") (Calendar)  
+    Click this button and select a date from which to import the others.
+
+**Addresses**
+
+- *Packing station address layout*  
     Click the drop-down list and select the position of the customer number if you use a packing station as address. The following options are available:  
-        - **Customer number in address line**
-        - **Customer number in company**
+    - **Customer number in address line**
+    - **Customer number in company**
 
 
 ### Order export/invoice upload
@@ -313,11 +328,16 @@ The *Settings* tab is composed of the following settings entries:
 - [Save]  
     Click this button to save any changes made.
 
-- *Export shipments*  
+**Export shipments**
+
+- [x]   
     Select the checkboxes of all marketplaces for whose orders you want to export the shipments. You can specify the marketplaces for B2B orders in the *B2B orders* section and for B2C orders in the *B2C orders* section. All available marketplaces from Amazon are displayed in the list. 
 
-- *Export invoices*  
+**Export invoices**
+
+- [x]   
     Select the checkboxes of all marketplaces for whose orders you want to export the invoices. You can specify the marketplaces for B2B orders in the *B2B orders* section and for B2C orders in the *B2C orders* section. All available marketplaces from Amazon are displayed in the list. 
+
 
 ### Shipping provider mapping
 
