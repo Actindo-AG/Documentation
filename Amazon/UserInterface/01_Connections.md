@@ -130,7 +130,7 @@ The list displays all available connections. Depending on the settings, the disp
 
 *Omni-Channel > Settings > Tab CONNECTIONS > Button Add*
 
-![Create Amazon connection](../../Assets/Screenshots/Channels/Settings/Connections/CreateConnection.png "[Create Amazon connection]")
+![Create connection](../../Assets/Screenshots/Channels/Settings/Connections/CreateConnection.png "[Create connection]")
 
 - ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)   
     Click this button to close the *Create connection* view and return to the connection list. All changes are rejected.
@@ -196,7 +196,7 @@ The list displays all available connections. Depending on the settings, the disp
 
 *Omni-Channel > Settings > Tab CONNECTIONS > Select Amazon connection > Tab Credentials*
 
-![Edit credentials](../../Assets/Screenshots/Channels/Settings/Connections/Amazon/EditConnectionCredentials.png "[Edit credentials]")
+![Edit Amazon credentials](../../Assets/Screenshots/Channels/Settings/Connections/Amazon/EditConnectionCredentials.png "[Edit Amazon credentials]")
 
 - *Driver*  
     Driver name. For Amazon, the Amazon driver is displayed. This drop-down list is read-only.
@@ -223,7 +223,7 @@ The list displays all available connections. Depending on the settings, the disp
 
 *Omni-Channel > Settings > Tab CONNECTIONS > Select Amazon connection > Tab Settings*
 
-![Edit settings](../../Assets/Screenshots/Channels/Settings/Connections/Amazon/EditConnectionSettings_Offers.png "[Edit settings]")
+![Edit Amazon settings](../../Assets/Screenshots/Channels/Settings/Connections/Amazon/EditConnectionSettings_Offers.png "[Edit Amazon settings]")
 
 The *Settings* tab is composed of the following settings entries:  
 
@@ -303,7 +303,7 @@ The *Settings* tab is composed of the following settings entries:
 
 *Omni-Channel > Settings > Tab CONNECTIONS > Select Amazon connection > Tab Settings > Menu entry Order export/invoice upload*
 
-![Edit settings](../../Assets/Screenshots/Channels/Settings/Connections/Amazon/EditConnectionSettings_OrderExport.png "[Edit settings]")
+![Order export/invoice upload](../../Assets/Screenshots/Channels/Settings/Connections/Amazon/EditConnectionSettings_OrderExport.png "[Order export/invoice upload]")
 
 **Order export/invoice upload**
 
@@ -323,7 +323,7 @@ The *Settings* tab is composed of the following settings entries:
 
 *Omni-Channel > Settings > Tab CONNECTIONS > Select Amazon connection > Tab Settings > Menu entry Shipping provider mapping*
 
-![Edit settings](../../Assets/Screenshots/Channels/Settings/Connections/Amazon/EditConnectionSettings_ShippingProviderMapping.png "[Edit settings]")
+![Shipping provider mapping](../../Assets/Screenshots/Channels/Settings/Connections/Amazon/EditConnectionSettings_ShippingProviderMapping.png "[Shipping provider mapping]")
 
 **Shipping provider mapping**
 
