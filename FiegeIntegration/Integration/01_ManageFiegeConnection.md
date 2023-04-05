@@ -96,21 +96,21 @@ The *Edit connection* view is displayed. By default, the *Credentials* tab is se
 
     ![Settings A warehouse](../../Assets/Screenshots/Fulfillment/Settings/Connections/FiegeIntegration/EditConnectionSettings_AWarehouse.png "[Settings A warehouse]")
 
-7. Enter the number of the warehouse to be used as A warehouse.  
+7. Enter the number of the warehouse to be used as A warehouse in the *Warehouse ID A* field.  
 
 8. Click the *B Warehouse* menu entry in the left side bar.  
     The B warehouse settings are displayed on the right side.  
 
     ![Settings B warehouse](../../Assets/Screenshots/Fulfillment/Settings/Connections/FiegeIntegration/EditConnectionSettings_BWarehouse.png "[Settings B warehouse]")
 
-9. Enter the number of the warehouse to be used as B warehouse.
+9. Enter the number of the warehouse to be used as B warehouse in the *Warehouse ID B* field.
 
 10. Click the *C Warehouse* menu entry in the left side bar.  
     The C warehouse settings are displayed on the right side.  
 
     ![Settings C warehouse](../../Assets/Screenshots/Fulfillment/Settings/Connections/FiegeIntegration/EditConnectionSettings_CWarehouse.png "[Settings C warehouse]")
 
-11.  Enter the number of the warehouse to be used as C warehouse.
+11.  Enter the number of the warehouse to be used as C warehouse in the *Warehouse ID C* field.
 
 12. Click the [SAVE] button.  
     All changes have been saved. The *Saving successful* pop-up window is displayed.  

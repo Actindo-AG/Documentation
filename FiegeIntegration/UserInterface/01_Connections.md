@@ -48,10 +48,10 @@
     Select the checkbox to display the editing toolbar. If you click the checkbox in the header, all connections in the list are selected.
 
 - [DISABLE]  
-    Click this button to disable the selected connection(s) This button is displayed if the checkbox of at least one active connection is selected. 
+    Click this button to disable the selected connection(s). This button is displayed if the checkbox of at least one active connection is selected. 
 
 - [ENABLE]  
-    Click this button to enable the selected connection(s) This button is displayed if the checkbox of at least one inactive connection is selected. 
+    Click this button to enable the selected connection(s). This button is displayed if the checkbox of at least one inactive connection is selected. 
 
 - ![Edit](../../Assets/Icons/Edit01.png "[Edit]") (Edit)  
     Click this button to edit the selected Fiege connection. This button is only displayed if a single checkbox in the list of connections is selected. Alternatively, you can click directly a row in the list to edit a connection. The *Edit connection* view is displayed, see [Edit Fiege connection](#edit-Fiege-connection). 
@@ -118,7 +118,7 @@ The list displays all available connections. Depending on the settings, the disp
 ![Create connection](../../Assets/Screenshots/Fulfillment/Settings/Connections/CreateConnection.png "[Create connection]")
 
 - ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)   
-    Click this button to close the *Create connection* view and return to the list of connections. All changes are rejected.
+    Click this button to close the *Create connection* view and return to the connection list. All changes are rejected.
 
 - *Name*   
     Enter a connection name.
@@ -136,7 +136,7 @@ The list displays all available connections. Depending on the settings, the disp
 
 **Credentials**
 
-![Create Fiege credentials](../../Assets/Screenshots/Fulfillment/Settings/Connections/FiegeIntegration/EditConnectionCredentials.png "[Create Fiege credentials]")
+![Create Fiege credentials](../../Assets/Screenshots/Fulfillment/Settings/Connections/FiegeIntegration/CreateConnectionCredentials.png "[Create Fiege credentials]")
 
 - *Bearer token (fiegeExport)*  
     Enter the bearer token as provided by Fiege.
@@ -173,11 +173,11 @@ Creation date of the connection. This field is read-only.
 ![Edit Fiege credentials](../../Assets/Screenshots/Fulfillment/Settings/Connections/FiegeIntegration/EditConnectionCredentials.png "[Edit Fiege credentials]")
 
 - *Driver*  
-    Driver name. For Fiege, the *Fiege Driver* option is displayed. This drop-down list is read-only.
+    Driver name. For Fiege, *Fiege Driver* is displayed. This drop-down list is read-only.
 
 **Credentials** 
 
- *Bearer token (fiegeExport)*  
+ - *Bearer token (fiegeExport)*  
     Click the field to edit the bearer token.
 
 - [SAVE]  
@@ -245,7 +245,7 @@ By default, the *Settings* tab is composed of the following entries:
 - [Save]  
     Click this button to save any changes made.
 
-- *A Warehouse*  
+- *Warehouse ID A*  
     Enter the number of the warehouse to be used as A warehouse.
 
 
@@ -260,7 +260,7 @@ By default, the *Settings* tab is composed of the following entries:
 - [Save]  
     Click this button to save any changes made.
 
-- *B Warehouse*  
+- *Warehouse ID B*  
     Enter the number of the warehouse to be used as B warehouse.
 
 
@@ -275,7 +275,7 @@ By default, the *Settings* tab is composed of the following entries:
 - [Save]  
     Click this button to save any changes made.
 
-- *C Warehouse*  
+- *Warehouse ID C*  
     Enter the number of the warehouse to be used as C warehouse.
 
 

@@ -19,6 +19,9 @@ Fiege -> Actindo
 **Return data**
 Fiege -> Actindo 
 
+Stock movements
+Warehouse A/B/C + Fallback
+
 [comment]: <> (Check Return info)
 
 Delivery/package data  
