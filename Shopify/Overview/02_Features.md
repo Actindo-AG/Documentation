@@ -8,7 +8,7 @@
 ## How it works
 
 **Products**   
-Creation of Shopify products incl. all merchant-specific additional fields directly from the PIM.
+Creation of Shopify products including all merchant-specific additional fields directly from the PIM.
 
 **Stocking**   
 Stock and supplier inventories are transferred live to Shopify.

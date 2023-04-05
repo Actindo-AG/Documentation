@@ -78,7 +78,7 @@ The list displays all available connections. Depending on the settings, the disp
         The connection is disabled and no data is being synchronized via the connection.   
 
 - *Order/Return have errors*  
-    Indication whether errors have occurred in orders or  returns:. The following options are available:  
+    Indication whether errors have occurred in orders or  returns. The following options are available:  
     - **Yes**   
         Errors have occurred.   
     - **No**   
@@ -154,7 +154,7 @@ The list displays all available connections. Depending on the settings, the disp
 
 **Credentials**
 
-![Create connection credentials](../../Assets/Screenshots/Channels/Settings/Connections/Shopify/CreateConnectionCredentials.png "[Create connection credentials]")
+![Create Shopify credentials](../../Assets/Screenshots/Channels/Settings/Connections/Shopify/CreateConnectionCredentials.png "[Create Shopify credentials]")
 
 - *Shop URL*   
     URL of the Shopify shop. This field is automatically filled after having created the Shopify connection, see [Create the Shopify connection](../Integration/01_ManageShopifyConnection.md#create-a-shopify-connection).
