@@ -4,6 +4,7 @@
 - Highly scalable and fully integrated interfaces with upstream *Actindo Core1 Platform*.
 - Central control of product data and stock levels for all marketplaces.
 
+
 ## How it works 
 
 **Marketplace offers**  

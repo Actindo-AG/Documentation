@@ -16,8 +16,6 @@ All necessary credentials and information to establish the connection are provid
 - A Tradebyte account has been created.
 - The *Tradebyte Integration* plugin has been installed.
 
-> [Info] For the *Omni-Channel* module version 4.1.0 or higher, the *Tradebyte Integration* plugin is required in at least version 1.2.0.
-
 #### Procedure
 
 *Omni-Channel > Settings > Tab CONNECTIONS*

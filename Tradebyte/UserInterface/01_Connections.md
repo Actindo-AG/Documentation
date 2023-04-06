@@ -1,6 +1,5 @@
 [!!Manage the Tradebyte connection](../Integration/01_ManageTradebyteConnection.md)
 
-
 # Connections
 
 *Omni-Channel > Settings > Tab CONNECTIONS*
@@ -64,8 +63,7 @@
     Click this button to enable the selected connection(s). This button is only displayed if the checkbox of at least one inactive connection is selected. 
 
 - ![Edit](../../Assets/Icons/Edit01.png "[Edit]") (Edit)  
-    Click this button to edit the Tradebyte connection. This button is only displayed if a single checkbox in the list of connections is selected. Alternatively, you can click directly a row in the list to edit a connection. The *Edit connection* view is displayed, see [Edit Tradebyte connection](#edit-tradebyte-connection).
-
+    Click this button to edit the selected Tradebyte connection. This button is only displayed if a single checkbox in the list of connections is selected. Alternatively, you can click directly a row in the list to edit a connection. The *Edit connection* view is displayed, see [Edit Tradebyte connection](#edit-tradebyte-connection).
 
 The list displays all available connections. Depending on the settings, the displayed columns may vary. All fields are read-only.
 
@@ -96,6 +94,7 @@ The list displays all available connections. Depending on the settings, the disp
     Click this button to add a Tradebyte connection. The *Create connection* view is displayed, see [Create Tradebyte connection](#create-tradebyte-connection).
 
 
+
 ## Create view
 
 *Omni-Channel > Settings > Tab CONNECTIONS > Button Points > Menu entry create*
@@ -112,6 +111,7 @@ The list displays all available connections. Depending on the settings, the disp
     Click this button to save the new view and display it in the *VIEW* drop-down list. The *Create view* window is closed.
 
 
+
 ## Rename view
 
 *Omni-Channel > Settings > Tab CONNECTIONS > Button Points > Menu entry rename*
@@ -126,6 +126,7 @@ The list displays all available connections. Depending on the settings, the disp
 
 - [SAVE]   
     Click this button to save the changes and display it in the *VIEW* drop-down list. The *Rename view* window is closed.
+
 
 
 ## Create Tradebyte connection
@@ -147,10 +148,9 @@ The list displays all available connections. Depending on the settings, the disp
     Click this button to edit the connection name. This button is only displayed if the connection name has been confirmed. 
 
 - *Driver*  
-    Click the drop-down list and select the Tradebyte driver. All installed drivers are displayed. The *Credentials* section is displayed below the drop-down list.
+    Click the drop-down list and select the *Tradebyte* driver. All installed drivers are displayed. The *Credentials* section is displayed below the drop-down list.
 
     > [Info] Drivers are licensed and must be acquired via the app store or the corresponding e-commerce partner platform. The applicable driver credentials to establish the connection are obtained when acquiring the corresponding license.
-
 
 **Credentials**
 
@@ -180,6 +180,8 @@ The list displays all available connections. Depending on the settings, the disp
 - [SAVE]  
     Click this button to save the connection.
 
+
+
 ## Edit Tradebyte connection
 
 *Omni-Channel > Settings > Tab CONNECTIONS > Select Tradebyte connection*
@@ -202,15 +204,15 @@ The list displays all available connections. Depending on the settings, the disp
     Creation date of the connection. This field is read-only.  
 
 
+
 ## Edit Tradebyte connection &ndash; Credentials
 
 *Omni-Channel > Settings > Tab CONNECTIONS > Select Tradebyte connection > Tab Credentials*
 
 ![Edit Tradebyte credentials](../../Assets/Screenshots/Channels/Settings/Connections/Tradebyte/EditConnectionCredentials.png "[Edit Tradebyte credentials]")
 
-
 - *Driver*  
-    Driver name. For Tradebyte, the Tradebyte driver is displayed. This drop-down list is read-only.
+    Driver name. For Tradebyte, the *Tradebyte* driver is displayed. This drop-down list is read-only.
 
 **Credentials** 
 
@@ -233,10 +235,11 @@ The list displays all available connections. Depending on the settings, the disp
     Click this field to edit the password for server access.
 
 - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Test API?*  
-    Enable the toggle if the API to be connected corresponds to a test account. Leave the toggle disabled if the API to be connected corresponds to a productive account. By default, the toggle is disabled.
+    Enable the toggle if the API to be connected corresponds to a test account. Disable the toggle if the API to be connected corresponds to a productive account. By default, the toggle is disabled.
 
 - [SAVE]  
     Click this button to save any changes made.
+
 
 
 ## Edit Tradebyte connection &ndash; Settings
@@ -263,8 +266,8 @@ The *Settings* tab is composed of the following setting entries:
     Click this button to save any changes made.
 
 - *Active sales channels*  
-    - [x] Channel name  
-        Select the checkboxes of the sales channels you want to activate. All sales channels available in Tradebyte are displayed.
+    - [x] "Channel name"  
+        Select the checkboxes of the sales channels you want to activate. For each sales channel available in Tradebyte, a single checkbox is displayed.
 
 
 ### Enable languages
@@ -280,9 +283,10 @@ The *Settings* tab is composed of the following setting entries:
 
 - *Enable languages that exist in Tradebyte*
     - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") Language code  
-    Enable the toggles of the languages you want to manage in the *Actindo Core1 Platform*. All languages available in Tradebyte are displayed. 
+        Enable the toggles of the languages you want to manage in the *Actindo Core1 Platform*. For each language available in Tradebyte, a single toggle is displayed. 
 
-- Default language   
-    The default language of Tradebyte is automatically set and cannot be edited. 
+- *Default language of Tradebyte (automatically set)*
+    - *Default language*   
+        The default language of Tradebyte is automatically set and cannot be edited. 
 
 
