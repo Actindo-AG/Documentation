@@ -168,7 +168,7 @@ Creation date of the connection. This field is read-only.
 
 ## Edit Fiege connection &ndash; Credentials
 
-*Fulfillment > Settings > Tab CONNECTIONS > Select a connection > Tab Credentials*
+*Fulfillment > Settings > Tab CONNECTIONS > Select Fiege connection > Tab Credentials*
 
 ![Edit Fiege credentials](../../Assets/Screenshots/Fulfillment/Settings/Connections/FiegeIntegration/EditConnectionCredentials.png "[Edit Fiege credentials]")
 

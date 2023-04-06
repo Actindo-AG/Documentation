@@ -32,7 +32,7 @@ The *Fiege* driver has been installed in the Core1 account.
 
 2. Enter a name for the connection in the *Name* field.
 
-3. Click the *Driver* drop-down list and select the *Fiege Driver* option.  
+3. Click the *Driver* drop-down list and select *Fiege Driver*.  
     The *Credentials* section is displayed below the drop-down list.
 
     ![Connection credentials](../../Assets/Screenshots/Fulfillment/Settings/Connections/FiegeIntegration/CreateConnectionCredentials.png "[Connection credentials]")
@@ -44,11 +44,11 @@ The *Fiege* driver has been installed in the Core1 account.
 
     ![Checking credentials](../../Assets/Screenshots/Fulfillment/Settings/Connections/CheckingCredentials.png "[Checking credentials]")
 
-    The *Create connection* view is automatically closed when the connection has been established. The *Edit connection* view of the newly created connection is displayed. The *Settings* tab is preselected.
+    The *Create connection* view is automatically closed when the connection has been established. The *Edit connection* view of the newly created connection is displayed. The *Settings* tab is selected.
 
     ![Connection](../../Assets/Screenshots/Fulfillment/Settings/Connections/FiegeIntegration/EditConnectionSettings_WarehouseIDFallback.png "[Connection]")
 
-    > [Info] By default, all connections that have been established are first inactive and therefore must be enabled after the connection configuration.    
+    > [Info] By default, all connections that have been established are first inactive and therefore must be enabled after the connection configuration.  
 
 6. Continue to configure the connection, see [Configure the Fiege connection](#configure-the-fiege-connection).
 
