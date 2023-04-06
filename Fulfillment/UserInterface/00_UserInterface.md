@@ -10,7 +10,7 @@
         - [Shipment attributes](./01a_List.md#shipment-attributes)
         - [Shipment attributes &ndash; Attributes](./01a_List.md#shipment-attributes--attributes)
         - [Shipment attributes &ndash; Dependencies](./01a_List.md#shipment-attributes--dependencies)
-        - [Shipment packages](./01a_List.md#01a_List.md#shipment-packages)
+        - [Shipment packages](./01a_List.md#shipment-packages)
     - [Dispatch note "Dispatch note ID" &ndash; Logs](./01a_List.md#dispatch-note-dispatch-note-id--logs)
     - [Create view](./01a_List.md#create-view)
     - [Rename view](./01a_List.md#rename-view)

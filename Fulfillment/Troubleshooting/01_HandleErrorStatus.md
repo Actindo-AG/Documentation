@@ -41,7 +41,7 @@ No prerequisites to fulfill.
     ![Messages](../../Assets/Screenshots/Fulfillment/DispatchNotes/DispatchNoteLogsMessages.png "[Messages]")
 
 4. If necessary, click the relevant message for further information.  
-    The *Detail of log message "Log message name"* is displayed.
+    The *Detail of log message "Log message title"* is displayed.
  
 5. If no further information is detailed or the information displayed is not conclusive, click the [CLOSE] button in the upper right corner to close the current view.  
     The list of dispatch notes is displayed again. 
