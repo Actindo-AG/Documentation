@@ -8,12 +8,6 @@ In this part of the *Fulfillment* documentation, you will find the following cha
     - [Edit a connection](./01_ManageConnections.md#edit-a-connection)
     - [Enable a connection](./01_ManageConnections.md#enable-a-connection)
     - [Disable a connection](./01_ManageConnections.md#disable-a-connection)   
-  
-
-- [Manage the Fiege connection](./01a_Fiege.com)
-    - [Create a Fiege connection](./01a_Fiege.com#create-a-fiege-connection)
-    - [Configure the Fiege connection](./01a_Fiege.com#configure-the-fiege-connection)   
-
 
 - [Manage the packaging types](./02_ManagePackagingTypes.md)
     - [Create a packaging type](./02_ManagePackagingTypes.md#create-a-packaging-type)

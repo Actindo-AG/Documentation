@@ -68,14 +68,14 @@ No prerequisites to fulfill.
 10. Click the *Logs* tab to display all process-related logs.  
     The list of logs is displayed.
 
-     ![Logs](../../Assets/Screenshots/ActindoWorkFlow/Processes/Logs.png"[Logs]")
+     ![Logs](../../Assets/Screenshots/ActindoWorkFlow/Processes/Logs.png "[Logs]")
 
     > [Info] If necessary, the logs can be filtered by log level.
 
 11. Click the log displaying the error. 
     The *Log ID "Log ID"* view is displayed.
 
-    ![Log ID](../../Assets/Screenshots/ActindoWorkFlow/Processes/LogID.png"[LogID]")
+    ![Log ID](../../Assets/Screenshots/ActindoWorkFlow/Processes/LogID.png "[LogID]")
 
 12. Check the log message for further information about the error. Once the error cause has been established, an appropriate solution can be implemented.  
 

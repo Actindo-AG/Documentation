@@ -9,6 +9,9 @@
 
 **Connections**
 
+- ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh)   
+    Click this button to update the list of connections.
+
 - *VIEW*  
     Click the drop-down list to select the view. All created views are displayed in the drop-down list. Click the ![Points](../../Assets/Icons/Points01.png "[Points]") (Points) button to the right of the *VIEW* drop-down list to display the context menu and create a view.   
 
@@ -39,9 +42,6 @@
             Click this entry to delete the selected view. A confirmation window to confirm the deletion is displayed. This menu entry is only displayed if a view has been selected.
 
 
-- ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh)   
-    Click this button to update the list of connections.
-
 - ![Columns](../../Assets/Icons/Columns.png "[Columns]") Columns (x)   
     Click this button to display the columns bar and customize the displayed columns and the order of columns in the list. The *x* indicates the number of columns that are currently displayed in the list.
 
@@ -55,7 +55,7 @@
     Click this button to enable the selected connection(s) This button is displayed if the checkbox of at least one inactive connection is selected. For detailed information see [Enable a connection](../Integration/01_ManageConnections.md#enable-a-connection).
 
 - ![Edit](../../Assets/Icons/Edit01.png "[Edit]") (Edit)  
-    Click this button to edit the selected connection. This button is only displayed if a single checkbox in the list of connections is selected. Alternatively, you can click directly a row in the list to edit a connection. The *Edit connection* view is displayed, see [Edit connection](#edit-connection). The *Credentials* tab is preselected.
+    Click this button to edit the selected connection. This button is only displayed if a single checkbox in the list of connections is selected. Alternatively, you can click directly a row in the list to edit a connection. The *Edit connection* view is displayed, see [Edit connection](#edit-connection). The *Credentials* tab is selected.
 
 
 The list displays all available connections. Depending on the settings, the displayed columns may vary. All fields are read-only.
@@ -92,7 +92,7 @@ The list displays all available connections. Depending on the settings, the disp
 - *Name*   
     Enter a connection name.
 
-- ![Check](../../Assets/Icons/Check.png "[Check]") (Check)  
+- ![Check](../../Assets/Icons/Check.png "[Check]") (Apply)  
     Click this button to apply the entered connection name. This button is only displayed if the connection name has not yet been confirmed.
 
 - ![Edit](../../Assets/Icons/Edit02.png "[Edit]") (Edit)  
@@ -126,7 +126,7 @@ The fields displayed in the *Credentials* section vary depending on the selected
 - ![Edit](../../Assets/Icons/Edit02.png "[Edit]") (Edit)  
     Click this button to edit the connection name. 
 
-- ![Check](../../Assets/Icons/Check.png "[Check]") (Check)  
+- ![Check](../../Assets/Icons/Check.png "[Check]") (Apply)  
     Click this button to apply the changes to the connection name. This button is only displayed if you are editing the connection name.
 
 - *Created DD/MM/YYYY*  

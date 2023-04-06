@@ -9,6 +9,12 @@
 
 **List of intents**
 
+- ![Search](../../Assets/Icons/Search.png "[Search]") (Search)   
+    Click this button to display the search bar and search for an intent.
+
+- ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh)   
+    Click this button to update the list of intents.
+
 - *VIEW*  
     Click the drop-down list to select the view. All created views are displayed in the drop-down list. Click the ![Points](../../Assets/Icons/Points01.png "[Points]") (Points) button to the right of the *VIEW* drop-down list to display the context menu and create a view.   
 
@@ -38,12 +44,6 @@
         - ![Delete](../../Assets/Icons/Trash01.png "[Delete]") delete  
             Click this entry to delete the selected view. A confirmation window to confirm the deletion is displayed. This menu entry is only displayed if a view has been selected.
 
-
-- ![Search](../../Assets/Icons/Search.png "[Search]") (Search)   
-    Click this button to display the search bar and search for an intent.
-
-- ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh)   
-    Click this button to update the list of intents.
 
 - ![Columns](../../Assets/Icons/Columns.png "[Columns]") Columns (x)   
     Click this button to display the columns bar and customize the displayed columns and the order of columns in the list. The *x* indicates the number of columns that are currently displayed in the list.
@@ -86,11 +86,11 @@ The list displays all intents. Depending on the settings, the displayed columns 
 - *ID*  
     Intent identification number. The ID number is automatically assigned by the system.
 
-- *Preview*  
-    Preview of intent details.
-
 - *Short preview*  
-    Short preview of intent details.
+    First 30 characters of the log message.
+
+- *Preview*  
+    Complete log message.
 
 
 ## List of messages
@@ -110,7 +110,7 @@ The list displays all intents. Depending on the settings, the displayed columns 
 [comment]: <> (Warhscheinlich bug - sollte ausgeblendet werden laut SW. Evtl. löschen?)
 
 - ![View](../../Assets/Icons/Eye02.png "[View]")  
-    Click this button to view the message details.
+    Click this button to view the message details. Alternatively, you can click directly a row in the list to display the details of the log message. The *Detail of log message "Log message title"* view is displayed, see [Detail of log message "Log message title"](#detail-of-log-message-log-message-title). 
 
 
 The list displays all messages contained in the selected intent. Depending on the settings, the displayed columns may vary. All fields are read-only.
@@ -142,26 +142,23 @@ The list displays all messages contained in the selected intent. Depending on th
     Message identification number. The ID number is automatically assigned by the system.
 
 
-### Detail of log message "Log message name"
+### Detail of log message "Log message title"
 
 *Fulfillment > Logging > Tab CONNECTIONS > Select an intent > Select a log message*
 
 ![List of messages](../../Assets/Screenshots/Fulfillment/Logging/DetailLogMessageAttributes.png "[List of messages]")
 
 - ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)   
-    Click this button to close the *Detail of log message "Log message name"* view and return to the list of messages.
+    Click this button to close the *Detail of log message "Log message title"* view and return to the list of messages.
 
 - [CANCEL]  
-    Click this button to close the *Detail of log message "Log message name"* view. The list of messages is displayed.
+    Click this button to close the *Detail of log message "Log message title"* view. The list of messages is displayed.
 
 - Message  
     Description of the log message.
 
-- *Message:*  
-    Detailed description of the log message.
 
-
-### Detail of log message "Log message name" &ndash; Attributes
+### Detail of log message "Log message title" &ndash; Attributes
 
 *Fulfillment > Logging > Tab CONNECTIONS > Select an intent > Select a log message > Tab Attributes*
 
@@ -169,8 +166,47 @@ The list displays all messages contained in the selected intent. Depending on th
 
 The *Attributes* tab displays further details of the selected log message. Depending on the message type, the assigned attributes, and therefore the fields displayed, may vary. All fields are read-only.
 
+In general, the most common attribute sets are the standard error log message attribute set and the API communication attribute set. The fields of these sets are described in the following. Furthermore, it is possible to create a custom log message attribute set with different fields.
 
-### Detail of log message "Log message name" &ndash; Dependencies
+**Standard error log message attribute set**
+
+- *Error code*  
+    Error code number.
+
+- *File*  
+    Path of the file where the error has occurred.
+
+- *Line*  
+    Line in the file where the error has occurred.
+
+- *Exception class*   
+    Class name of the error. The error class describes the type of error that has occurred.
+
+- *Trace as string*   
+    Stack trace until the error has occurred. The stack trace lists the code until the error has occurred and is used to track the error.
+
+- *Exception*   
+    Detailed description of the error.
+
+**API communication attribute set**
+
+- *Code*   
+    Http response status code. For detailed information about the http status codes, see [http status codes](https://www.rfc-editor.org/rfc/rfc9110#section-15).
+
+- *Endpoint and method*   
+    Http method of the API request and url endpoint to which the request was sent.
+
+- *Request*   
+    Http header and body of the request.
+
+- *Response*   
+    Http header and body of the response.
+
+- *Exception*   
+    Description of the error. An exception is only displayed if an error has occurred and a http status code of the **4xx** class, for instance a **404** code has been returned.
+
+
+### Detail of log message "Log message title" &ndash; Dependencies
 
 *Fulfillment > Logging > Tab CONNECTIONS > Select an intent > Select a log message > Tab Dependencies*
 

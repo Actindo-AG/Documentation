@@ -23,7 +23,7 @@ A dispatch note provides numerous order-related details, which may vary dependin
 
 #### Prerequisites
 
-- A connection has been created, see [Create a connection](01_ManageConnections.md#create-a-connection).
+- A connection has been created, see [Create a connection](../Integration/01_ManageConnections.md#create-a-connection).
 - A delivery note has been issued in the *Order management* module and, therefore, a dispatch note has been generated.
 
 #### Procedure
@@ -38,7 +38,7 @@ A dispatch note provides numerous order-related details, which may vary dependin
     - **Transferred to partner**  
         The dispatch note has been transferred to partner but no receival has been confirmed. In rare occasions, the fulfiller may note receive a dispatch note. In that case, it may be necessary to reexport the dispatch note, see [Export a dispatch note](#export-a-dispatch-note).
     - **Partner confirmed receival**  
-        The fulfiller has confirmed receival of the dispatch note. The shipment status is subsequently updated by the fulfiller, see [Check the shipment status](02_CheckShipment.md#check-the-shipment-status). 
+        The fulfiller has confirmed receival of the dispatch note. The shipment status is subsequently updated by the fulfiller, see [Check the shipment status](./02_CheckShipment.md#check-the-shipment-status). 
     - **Dispatch note completed**  
         The dispatch note has been processed.
     - **Error**  

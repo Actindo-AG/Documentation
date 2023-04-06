@@ -31,7 +31,7 @@ Check the shipment status in the *Shipment status* column. The following options
   	The shipment has been delivered.
 
   - ![Error](../../Assets/Icons/Warning02.png "[Error]") (Error)    
-    The shipment has given an error. A shipment is set to error only when the fulfiller reports an error due to a number of reasons. For detailed information, see [Handle an error in a shipment](../Troubleshooting/01_HandleErrorShipment.md). 
+    The shipment has given an error. A shipment is set to error only when the fulfiller reports an error due to a number of reasons. For detailed information, see [Handle an error status](../Troubleshooting/01_HandleErrorStatus.md). 
 
   - Empty  
     No information on the shipment status has been received from the fulfiller.

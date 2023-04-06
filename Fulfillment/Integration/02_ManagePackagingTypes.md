@@ -35,7 +35,7 @@ A connection has been established, see [Create a connection](./01_ManageConnecti
   
     > [Info] Additional languages can be added in the *DataHub* module, see [Create a language](../../DataHub/Integration/05_ManageLanguages.md#create-a-language).
 
-4. Enable the *Active* toggle to set the packaging type directly after creation to active. By default, this toggle is disabled.  
+4. Enable the *Active* toggle to set the packaging type to active immediately after creation. By default, this toggle is disabled.  
     > [Info] The packaging type must be activated to be automatically selected by the system.
 
 5. Click the *Connection* drop-down list and select the applicable connection. All available connections are displayed in the list.
@@ -81,7 +81,7 @@ A connection has been established, see [Create a connection](./01_ManageConnecti
 13. Enter the applicable information in the *Additional services (shipping method)* field. Both letters and numbers can be entered.
 
 14. Click the [SAVE] button in the upper right corner.  
-    The *Submitting data...* notice is displayed while saving and then the *Creation successful* pop-up window. 
+    The *Submitting data...* notice is displayed while saving followed by the *Creation successful* pop-up window. 
 
      ![Packaging type created](../../Assets/Screenshots/Fulfillment/Settings/PackagingTypes/CreationSuccessful.png "[Packaging type created]")
 
@@ -110,7 +110,7 @@ A packaging type has been created, see [Create a packaging type](#create-a-packa
 2. Edit the desired criteria of the packaging type in the corresponding fields.
 
 3. Click the [SAVE] button.   
-  The *Submitting data...* notice is displayed while saving and then the *Update successful* pop-up window. 
+  The *Submitting data...* notice is displayed while saving followed by the *Update successful* pop-up window. 
 
     ![Packaging type updated](../../Assets/Screenshots/Fulfillment/Settings/PackagingTypes/UpdateSuccessful.png "[Packaging type updated]")
 
@@ -144,7 +144,7 @@ A packaging type has been created, see [Create a packaging type](#create-a-packa
 
 ## Deactivate a packaging type
 
-Under certain circumstances, it may be necessary to deactivate a packaging type temporarily, so that it can not be selected automatically by the system. 
+Deactivate a packaging type temporarily, so that it can not be selected automatically by the system. 
 
 #### Prerequisites
 
@@ -162,7 +162,7 @@ A packaging type has been created, see [Create a packaging type](#create-a-packa
 2. Disable the *Active* toggle.
 
 3. Click the [SAVE] button.   
-  The *Submitting data...* notice is displayed while saving and then the *Update successful* pop-up window. 
+  The *Submitting data...* notice is displayed while saving followed by the *Update successful* pop-up window. 
 
     ![Packaging type updated](../../Assets/Screenshots/Fulfillment/Settings/PackagingTypes/UpdateSuccessful.png "[Packaging type updated]")
 
@@ -175,7 +175,7 @@ A packaging type has been created, see [Create a packaging type](#create-a-packa
   
 ## Activate a packaging type
 
-A packaging type that has been temporarily deactivated may be easily reactivated when it is needed again.
+A packaging type that has been temporarily deactivated can be easily reactivated when it is needed again.
 
 #### Prerequisites
 
@@ -193,7 +193,7 @@ A packaging type has been deactivated, see [Deactivate a packaging type](#deacti
 2. Enable the *Active* toggle.
 
 3. Click the [SAVE] button.   
-  The *Submitting data...* notice is displayed while saving and then the *Update successful* pop-up window. 
+  The *Submitting data...* notice is displayed while saving followed by the *Update successful* pop-up window. 
 
     ![Packaging type updated](../../Assets/Screenshots/Fulfillment/Settings/PackagingTypes/UpdateSuccessful.png "[Packaging type updated]")
 

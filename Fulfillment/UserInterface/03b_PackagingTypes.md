@@ -1,10 +1,10 @@
-[!!Manage packaging types](../Integration/02_ManagePackageTypes.md)
+[!!Manage packaging types](../Integration/02_ManagePackagingTypes.md)
 
 # Packaging types
 
 *Fulfillment > Settings > Tab PACKAGING TYPES*
 
-![List of packaging types](../../Assets/Screenshots/Fulfillment/Settings/PackageTypes/ListPackageTypes.png "[List of packaging types]")
+![List of packaging types](../../Assets/Screenshots/Fulfillment/Settings/PackagingTypes/ListPackagingTypes.png "[List of packaging types]")
 
 
 **List of packaging types**
@@ -126,7 +126,7 @@ The list displays all packaging types. Depending on the settings, the displayed 
 
 *Fulfillment > Settings > Tab PACKAGING TYPES > Button Add*
 
-![Create view](../../Assets/Screenshots/Fulfillment/Settings/PackageTypes/CreatePackageType.png "[Create view]")
+![Create view](../../Assets/Screenshots/Fulfillment/Settings/PackagingTypes/CreatePackagingType.png "[Create view]")
 
 [comment]: <> (Screenshot evtl. ändern, Actindo Basic kommt nicht bei NoE vor)
 
@@ -211,7 +211,7 @@ The list displays all packaging types. Depending on the settings, the displayed 
 
 *Fulfillment > Settings > Tab PACKAGING TYPES > Select packaging type*
 
-![Edit packaging type](../../Assets/Screenshots/Fulfillment/Settings/PackageTypes/EditPackageType.png "[Edit packaging type]")
+![Edit packaging type](../../Assets/Screenshots/Fulfillment/Settings/PackagingTypes/EditPackagingType.png "[Edit packaging type]")
 
 - ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)   
     Click this button to close the *Edit packaging type* view and return to the list of packaging types. All changes are rejected.
@@ -294,7 +294,7 @@ The list displays all packaging types. Depending on the settings, the displayed 
 
 *Fulfillment > Settings > Tab PACKAGING TYPES > Select packaging type > Button Edit*
 
-![Edit price](../../Assets/Screenshots/Fulfillment/Settings/PackageTypes/EditPrice.png "[Edit price]")
+![Edit price](../../Assets/Screenshots/Fulfillment/Settings/PackagingTypes/EditPrice.png "[Edit price]")
 
 **BASE PRICE CALCULATION**
 
@@ -323,7 +323,7 @@ The list displays all packaging types. Depending on the settings, the displayed 
 
 *Fulfillment > Settings > Tab PACKAGING TYPES > Select packaging type > Button Edit > Button ADD SCALE PRICE*
 
-![Edit scale price](../../Assets/Screenshots/Fulfillment/Settings/PackageTypes/EditScalePrice.png "[Edit scale price]")
+![Edit scale price](../../Assets/Screenshots/Fulfillment/Settings/PackagingTypes/EditScalePrice.png "[Edit scale price]")
 
 - *Price*  
     Enter a price value.

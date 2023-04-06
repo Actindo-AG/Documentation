@@ -10,20 +10,20 @@
         - [Shipment attributes](./01a_List.md#shipment-attributes)
         - [Shipment attributes &ndash; Attributes](./01a_List.md#shipment-attributes--attributes)
         - [Shipment attributes &ndash; Dependencies](./01a_List.md#shipment-attributes--dependencies)
-        - [Shipment packages](./01a_List.md#dispatch-note-dispatch-note-id--shipments)
+        - [Shipment packages](./01a_List.md#01a_List.md#shipment-packages)
     - [Dispatch note "Dispatch note ID" &ndash; Logs](./01a_List.md#dispatch-note-dispatch-note-id--logs)
     - [Create view](./01a_List.md#create-view)
     - [Rename view](./01a_List.md#rename-view)
 
 [comment]: <> (Shipment attributes &ndash; Attributes + Shipment attributes &ndash; Dependencies - ändern zu H4 und dann weg aus TOC? Items ist H4. Ändern? Wichtiger als Attributes und Dependencies)
 
-- [Logging](.02_Logging.md)
+- [Logging](./02_Logging.md)
 
 - [CONNECTIONS (Logging)](./02a_Connections.md)
     - [List of messages](./02a_Connections.md#list-of-messages)
-        - [Detail of log message "Log message name"](./02a_Connections.md#detail-of-log-message-log-message-name)
-        - [Detail of log message "Log message name" &ndash; Attributes](./02a_Connections.md#detail-of-log-message-log-message-name--attributes)
-        - [Detail of log message "Log message name" &ndash; Dependencies](./02a_Connections.md#detail-of-log-message-log-message-name--dependencies)
+        - [Detail of log message "Log message title"](./02a_Connections.md#detail-of-log-message-log-message-title)
+        - [Detail of log message "Log message title" &ndash; Attributes](./02a_Connections.md#detail-of-log-message-log-message-title--attributes)
+        - [Detail of log message "Log message title" &ndash; Dependencies](./02a_Connections.md#detail-of-log-message-log-message-title--dependencies)
     - [Create view](./02a_Connections.md#create-view)
     - [Rename view](./02a_Connections.md#rename-view)
 
@@ -39,9 +39,9 @@
 
 [comment]: <> (Check! Hier nicht konsistent mit anderen Tabs oben - Nach ndash Ebene tiefer oder gleich?)
 
-- [PACKAGE TYPES](./03b_PackagingTypes.md)
+- [PACKAGING TYPES](./03b_PackagingTypes.md)
     - [Create packaging type](./03b_PackagingTypes.md#create-packaging-type)
     - [Edit packaging type](./03b_PackagingTypes.md#edit-packaging-type)
-        - [Edit price](./03b_PackagingTypes.md#edit-price-1)
+        - [Edit price](./03b_PackagingTypes.md#edit-price)
     - [Create view](./03b_PackagingTypes.md#create-view)
     - [Rename view](./03b_PackagingTypes.md#rename-view)

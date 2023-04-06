@@ -2,11 +2,11 @@
 
 # Manage the connections
 
-Establish connections via drivers to connect your fulfillers' system with the *Actindo Core1 Platform*. You can establish an unlimited number of connections per driver if necessary.
+Establish connections via drivers to connect your fulfillers' system with the *Actindo Core1 Platform*. 
 
 In the following, the general settings to create, edit, enable and disable connections are described. For certain connection drivers, you have to setup special configurations. Therefore, the connections below are described separately:
 
-- [Fiege connection](../../FiegeIntegration/Overview/00_General.md).
+- [Fiege connection](../../FiegeIntegration/Overview/01_General.md)
 
 
 ## Create a connection
@@ -33,7 +33,6 @@ At least one driver has been installed.
 3. Click the *Driver* drop-down list and select the desired driver. All available drivers are displayed in the list.   
 
     > [Info] Drivers must be purchased from the main account and then be installed separately in each sandbox or account where you want to use it.   
-    For detailed information, see [Manage the drivers](XX_to_be_completed).
 
     The *Credentials* section is displayed below the drop-down list.
 
@@ -41,7 +40,6 @@ At least one driver has been installed.
 
     > [Info] Depending on the selected driver, the fields in the *Credentials* section differ.
 
-[comment]: <> (HG: Manage the drivers? Zusätzliche Datei?  Vgl. Omni-Channel. Ggf. Ticket erstellen)
 
 4. Enter the required data in the fields in the *Credentials* section.
 
@@ -50,13 +48,11 @@ At least one driver has been installed.
 
     ![Checking credentials](../../Assets/Screenshots/Fulfillment/Settings/Connections/CheckingCredentials.png "[Checking credentials]")
 
-    The *Create connection* view is automatically closed when the connection has been established. The *Edit connection* view of the newly created connection is displayed. The *Settings* tab is preselected.
+    The *Create connection* view is automatically closed when the connection has been established. The *Edit connection* view of the newly created connection is displayed. The *Settings* tab is selected.
 
     ![Edit connection settings](../../Assets/Screenshots/Fulfillment/Settings/Connections/EditConnectionSettings.png "[Edit connection settings]")
 
-[comment]: <> (Screenshot evtl. ändern? Der sieht wie Edit connection aus.)
-
-6. When necessary, proceed to enable the connection, see [Enable a connection](#enable-a-connection).
+    > [Info] By default, all connections that have been established are first inactive and therefore must be enabled after the connection configuration, see [Enable a connection](#enable-a-connection).
 
 
 ## Edit a connection
