@@ -1,8 +1,8 @@
-# Key features
+# Key Features
 
 - Direct connection and data transfer via API
 - Overview of shipments managed by Fiege in the *Actindo Core1 platform*
-- Control of stock movements across several warehouses
+- Management of stock movements across several warehouses
 - Import tracking, inventory and goods receipt data 
 
 
