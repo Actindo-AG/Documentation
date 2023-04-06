@@ -1,7 +1,7 @@
 [!!Manage the dispatch notes](../Operation/01_ManageDispatchNotes.md)
-[!!Manage the package types](../Integration/02_ManagePackageTypes.md)
+[!!Manage the packaging types](../Integration/02_ManagePackagingTypes.md)
 [!!Connections (Logging)](./02a_Connections.md)
-[!!User Interface Package types](./03b_PackageTypes.md)
+[!!User Interface Packaging types](./03b_PackagingTypes.md)
 
 
 # List
@@ -160,12 +160,12 @@ The list displays all dispatch notes. Depending on the settings, the displayed c
     - **EXPR**  
         Express shipping type.
 
-    > [Info] The shipping type can be set up in the *PACKAGE TYPES* tab in the *Settings* menu entry, see [Package types](./03b_PackageTypes.md).
+    > [Info] The shipping type can be set up in the *PACKAGING TYPES* tab in the *Settings* menu entry, see [Packaging types](./03b_PackagingTypes.md).
 
 - *Shipping method*  
     Shipping method (additional services) identifier.
 
-[comment]: <> (Evtl. wird Bennenung geändert. In Package types als Additional services/shipping method.)
+[comment]: <> (Evtl. wird Bennenung geändert. In Packaging types als Additional services/shipping method.)
 
 - Attribute    
     You can add a column for each attribute that is assigned to the dispatch note. The column displays the attribute name, the row displays the corresponding attribute value of the dispatch note.
@@ -391,8 +391,8 @@ The list displays all dependencies of the selected shipment. Depending on the se
 
 The list displays all packages contained in the selected shipment. Depending on the settings, the displayed columns may vary. All fields are read-only.
 
-- *Package type*  
-    Package type name. Packages types can be defined in the *PACKAGE TYPES* tab of the *Settings* menu entry, see [Manage the package types](../Integration/02_ManagePackageTypes.md).
+- *Packaging type*  
+    Packaging type name. Packages types can be defined in the *PACKAGING TYPES* tab of the *Settings* menu entry, see [Manage the packaging types](../Integration/02_ManagePackagingTypes.md).
 
 - *Created*  
     Date and time of the creation.
@@ -401,7 +401,7 @@ The list displays all packages contained in the selected shipment. Depending on 
     Date and time of the last modification.
 
 - *ID*  
-    Package type identification number. This number is automatically assigned by the system.
+    Packaging type identification number. This number is automatically assigned by the system.
 
 -  *Tracking number*  
     Package tracking number.
@@ -498,7 +498,7 @@ This window can also be accessed from the following tabs in the user interface:
 
 - [CONNECTIONS (Logging)](02a_Connections.md#create-view)
 - [CONNECTIONS (Settings)](03a_Connections.md#create-view)
-- [PACKAGE TYPES](03b_PackageTypes.md#create-view)
+- [PACKAGING TYPES](03b_PackagingTypes.md#create-view)
 
 ## Rename view
 
@@ -519,4 +519,4 @@ This window can also be accessed from the following tabs in the user interface:
 
 - [CONNECTIONS (Logging)](02a_Connections.md#rename-view)
 - [CONNECTIONS (Settings)](03a_Connections.md#rename-view)
-- [PACKAGE TYPES](03b_PackageTypes.md#rename-view)
+- [PACKAGING TYPES](03b_PackagingTypes.md#rename-view)

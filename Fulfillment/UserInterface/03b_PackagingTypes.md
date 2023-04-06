@@ -1,13 +1,13 @@
-[!!Manage package types](../Integration/02_ManagePackageTypes.md)
+[!!Manage packaging types](../Integration/02_ManagePackageTypes.md)
 
-# Package types
+# Packaging types
 
-*Fulfillment > Settings > Tab PACKAGE TYPES*
+*Fulfillment > Settings > Tab PACKAGING TYPES*
 
-![List of package types](../../Assets/Screenshots/Fulfillment/Settings/PackageTypes/ListPackageTypes.png "[List of package types]")
+![List of packaging types](../../Assets/Screenshots/Fulfillment/Settings/PackageTypes/ListPackageTypes.png "[List of packaging types]")
 
 
-**List of package types**
+**List of packaging types**
 
 - *VIEW*  
     Click the drop-down list to select the view. All created views are displayed in the drop-down list. Click the ![Points](../../Assets/Icons/Points01.png "[Points]") (Points) button to the right of the *VIEW* drop-down list to display the context menu and create a view.   
@@ -40,10 +40,10 @@
 
 
 - ![Search](../../Assets/Icons/Search.png "[Search]") (Search)   
-    Click this button to display the search bar and search for package types.
+    Click this button to display the search bar and search for packaging types.
 
 - ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh)   
-    Click this button to update the list of package types.
+    Click this button to update the list of packaging types.
 
 - ![Columns](../../Assets/Icons/Columns.png "[Columns]") Columns (x)   
     Click this button to display the columns bar and customize the displayed columns and the order of columns in the list. The *x* indicates the number of columns that are currently displayed in the list.
@@ -55,25 +55,25 @@
     Select the checkbox to display the editing toolbar.
 
 - [EDIT]  
-    Click this button to edit the selected package type. This button is only displayed if a single checkbox in the list of package types is selected. Alternatively, you can click directly a row in the list to edit a package type. The *Edit package type* view is displayed.
+    Click this button to edit the selected packaging type. This button is only displayed if a single checkbox in the list of packaging types is selected. Alternatively, you can click directly a row in the list to edit a packaging type. The *Edit packaging type* view is displayed.
 
 - [DELETE]  
-    Click this button to delete one or several selected package types.
+    Click this button to delete one or several selected packaging types.
 
-The list displays all package types. Depending on the settings, the displayed columns may vary. All fields are read-only.
+The list displays all packaging types. Depending on the settings, the displayed columns may vary. All fields are read-only.
 
 - *ID*  
-    Package type identification number. The ID number is automatically assigned by the system.
+    Packaging type identification number. The ID number is automatically assigned by the system.
 
 - *Name*  
-    Package type name.
+    Packaging type name.
 
 - *Active*  
-    Package type status. The following statuses are displayed:
+    Packaging type status. The following statuses are displayed:
     - ![Status](../../Assets/Icons/Check.png "[Status]") (Checkmark)   
-    The package type is active.
+    The packaging type is active.
     - ![Status](../../Assets/Icons/Cross02.png "[Status]") (Cross)   
-    The package type is inactive.
+    The packaging type is inactive.
 
 - *Connection*  
     Connection name.
@@ -82,19 +82,19 @@ The list displays all package types. Depending on the settings, the displayed co
     Connection identification number. The ID number is automatically assigned by the system.
 
 - *Max height*  
-    Maximal height configured for the package type.
+    Maximal height configured for the packaging type.
 
 - *Max width*  
-    Maximal width configured for the package type.
+    Maximal width configured for the packaging type.
 
 - *Max weight*  
-    Maximal weight configured for the package type.
+    Maximal weight configured for the packaging type.
 
 - *Max value*  
-    Maximal value configured for the package type.
+    Maximal value configured for the packaging type.
 
 - *Carrier*   
-    Carrier configured for the package type.  
+    Carrier configured for the packaging type.  
 
 - *Express*  
     Indication of the configured shipping type. The following options are displayed:  
@@ -103,35 +103,35 @@ The list displays all package types. Depending on the settings, the displayed co
     - **No**  
     Standard shipping type
 
-- *Package type identifier*  
-    Package type configured for the shipment.  
+- *Packaging type identifier*  
+    Packaging type configured for the shipment.  
 
 - *Ship-to country*  
-    Country where the package type is shipped to.
+    Country where the packaging type is shipped to.
 
 - *Priority*  
-    Indication of the priority configured for the package type. The priority value is used by the system to determine the package type to be used for a shipment when the criteria of two or more package types match. The lower the number, the higher the priority.
+    Indication of the priority configured for the packaging type. The priority value is used by the system to determine the packaging type to be used for a shipment when the criteria of two or more packaging types match. The lower the number, the higher the priority.
 
 - *Additional services (shipping method)*  
     Additions services offered as defined by the user. 
 
 - *Attribute*    
-    You can add an additional column for each attribute that is assigned to the package type. The column displays the attribute name, the row displays the corresponding attribute value of the package type.
+    You can add an additional column for each attribute that is assigned to the packaging type. The column displays the attribute name, the row displays the corresponding attribute value of the packaging type.
 
 - ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add)  
-    Click this button to add a connection. The *Create connection* view is displayed, see [Create package type](#create-package-type). 
+    Click this button to add a connection. The *Create connection* view is displayed, see [Create packaging type](#create-packaging-type). 
   
 
-## Create package type  
+## Create packaging type  
 
-*Fulfillment > Settings > Tab PACKAGE TYPES > Button Add*
+*Fulfillment > Settings > Tab PACKAGING TYPES > Button Add*
 
 ![Create view](../../Assets/Screenshots/Fulfillment/Settings/PackageTypes/CreatePackageType.png "[Create view]")
 
 [comment]: <> (Screenshot evtl. ändern, Actindo Basic kommt nicht bei NoE vor)
 
 - ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)   
-    Click this button to close the *Create package type* view and return to the list of package types. All changes are rejected.
+    Click this button to close the *Create packaging type* view and return to the list of packaging types. All changes are rejected.
 
 [comment]: <> (Actindo Basic Channel in Screenshot sollte ausgeblendet werden, da nicht von Fulfillment Modul benutzt. Schon mit SW besprochen. Evtl. neue Screenshots notwendig.)
 
@@ -139,40 +139,40 @@ The list displays all package types. Depending on the settings, the displayed co
     Click the drop-down list and select the language in which the data is to be managed. All available languages are displayed. By default, the language set up in the system is preselected.
 
 - [SAVE]   
-    Click this button to save the package type, close the *Create package type* view and return to the list of package types.
+    Click this button to save the packaging type, close the *Create packaging type* view and return to the list of packaging types.
 
 - *Name*  
-    Enter a package type name.
+    Enter a packaging type name.
 
 - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Active*   
-    Enable this toggle to set the package type status to active. Disable the toggle to set the status to inactive. By default, this toggle is disabled.
+    Enable this toggle to set the packaging type status to active. Disable the toggle to set the status to inactive. By default, this toggle is disabled.
 
 - *Connection*  
     Click the drop-down list and select the desired connection. All available connections are displayed.
 
 - *Max height*  
-    Maximal height allowed for the package type.
+    Maximal height allowed for the packaging type.
     - *Quantity*  
     Enter the desired value.
     - *Unit*  
     Click the drop-down list and select the applicable unit.
 
 - *Max width*   
-  Maximal width allowed for the package type.
+  Maximal width allowed for the packaging type.
     - *Quantity*  
     Enter the desired value.
     - *Unit*  
     Click the drop-down list and select the applicable unit.
 
 - *Max weight*  
-  Maximal weight allowed for the package type.
+  Maximal weight allowed for the packaging type.
     - *Quantity*  
     Enter the desired value.
     - *Unit*  
     Click the drop-down list and select the applicable unit.
 
 - *Max value*  
-  If desired, the maximal monetary value allowed for the package type can be configured.
+  If desired, the maximal monetary value allowed for the packaging type can be configured.
     - [ADD PRICE]  
     Click this button to enter the base price and scale prices. The *Edit price* window is displayed, see [Edit price](#edit-price).
     - *Base price*  
@@ -189,32 +189,32 @@ The list displays all package types. Depending on the settings, the displayed co
 [comment]: <> (Stimmt das so? Button SAVE funktioniert nicht. Bug gemeldet.)
 
 - *Carrier*  
-    Enter the preferred carrier for the package type. Numbers, letters or a combination of characters can be used.
+    Enter the preferred carrier for the packaging type. Numbers, letters or a combination of characters can be used.
 
 - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Express*  
-    Enable this toggle to set the shipping type for the package type to express. Disable the toggle to set the shipping type for the package type to standard. By default, this toggle is disabled.  
+    Enable this toggle to set the shipping type for the packaging type to express. Disable the toggle to set the shipping type for the packaging type to standard. By default, this toggle is disabled.  
 
-- *Package type identifier*  
-    Enter the package type identifier. Numbers, letters or a combination of characters can be used.
+- *Packaging type identifier*  
+    Enter the packaging type identifier. Numbers, letters or a combination of characters can be used.
 
 - *Ship-to country*  
-    Click the drop-down list and select the country where the package type is shipped to.
+    Click the drop-down list and select the country where the packaging type is shipped to.
 
 - *Priority*  
-    Enter a number to set the priority for the package type. The priority value is used by the system to determine the package type to be used for a shipment when the criteria of two or more package types match. The lower the number, the higher the priority.
+    Enter a number to set the priority for the packaging type. The priority value is used by the system to determine the packaging type to be used for a shipment when the criteria of two or more packaging types match. The lower the number, the higher the priority.
 
 - *Additional services (shipping method)*  
     Enter the additional services offered. Numbers, letters or a combination of characters can be used.
 
 
-## Edit package type
+## Edit packaging type
 
-*Fulfillment > Settings > Tab PACKAGE TYPES > Select package type*
+*Fulfillment > Settings > Tab PACKAGING TYPES > Select packaging type*
 
-![Edit package type](../../Assets/Screenshots/Fulfillment/Settings/PackageTypes/EditPackageType.png "[Edit package type]")
+![Edit packaging type](../../Assets/Screenshots/Fulfillment/Settings/PackageTypes/EditPackageType.png "[Edit packaging type]")
 
 - ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)   
-    Click this button to close the *Edit package type* view and return to the list of package types. All changes are rejected.
+    Click this button to close the *Edit packaging type* view and return to the list of packaging types. All changes are rejected.
 
 - *Channel*  
     Click the drop-down list to select the channel. All available  are displayed in the drop-down list. By default, the *Actindo Basic* channel is preselected.
@@ -223,40 +223,40 @@ The list displays all package types. Depending on the settings, the displayed co
     Click the drop-down list and select a different language in which the fields are displayed. All available languages are displayed. By default, the language set up in the system is preselected.  
 
 - [SAVE]   
-    Click this button to save any changes made to the package type, close the *Edit package type* view and return to the list of package types.
+    Click this button to save any changes made to the packaging type, close the *Edit packaging type* view and return to the list of packaging types.
 
 - *Name*  
-    Click this field to edit the package type name.
+    Click this field to edit the packaging type name.
 
 - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Active*   
-    Enable this toggle to set the package type status to active. Disable the toggle to set the status to inactive.
+    Enable this toggle to set the packaging type status to active. Disable the toggle to set the status to inactive.
 
 - *Connection*  
     Click the drop-down list and select the applicable connection. All available connections are displayed.
 
 - *Max height*  
-    Click these fields to edit the maximal height allowed for the package type.
+    Click these fields to edit the maximal height allowed for the packaging type.
     - *Quantity*  
     Click this field to edit the desired value.
     - *Unit*  
     Click the drop-down list and select the applicable unit.
 
 - *Max width*   
-    Click these fields to edit the maximal width allowed for the package type.
+    Click these fields to edit the maximal width allowed for the packaging type.
     - *Quantity*  
     Click this field to edit the desired value.
     - *Unit*  
     Click the drop-down list and select the applicable unit.
 
 - *Max weight*  
-    Click these fields to edit the maximal weight allowed for the package type.
+    Click these fields to edit the maximal weight allowed for the packaging type.
     - *Quantity*  
     Click this field to edit the desired value.
     - *Unit*  
     Click the drop-down list and select the applicable unit.
 
 - *Max value*  
-    If desired, the maximal monetary value allowed for the package type can be edited.
+    If desired, the maximal monetary value allowed for the packaging type can be edited.
     - [ADD PRICE]  
     Click this button to edit the base price and scale prices. The *Edit price* window is displayed, see [Edit price](#edit-price).
     - *Base price*  
@@ -274,25 +274,25 @@ The list displays all package types. Depending on the settings, the displayed co
     Click this field to edit the preferred carrier. Numbers, letters or a combination of characters can be used.
 
 - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Express*  
-    Enable this toggle to set the shipping type for the package type to express. Disable the toggle to set the shipping type for the package type to standard.   
+    Enable this toggle to set the shipping type for the packaging type to express. Disable the toggle to set the shipping type for the packaging type to standard.   
 
-- *Package type identifier*  
-    Click this field to edit the package type identifier. Numbers, letters or a combination of characters can be used.
+- *Packaging type identifier*  
+    Click this field to edit the packaging type identifier. Numbers, letters or a combination of characters can be used.
 
 - *Ship-to country*  
-    Click the drop-down list and select the country where the package type is shipped to.
+    Click the drop-down list and select the country where the packaging type is shipped to.
 
 - *Priority*  
-    Click this field to edit the priority for the package type.
+    Click this field to edit the priority for the packaging type.
 
 - *Additional services (shipping method)*  
     Click this field to edit the additional services offered. Numbers, letters or a combination of characters can be used.
 
 ### Edit price
 
-*Fulfillment > Settings > Tab PACKAGE TYPES > Button Add > Button ADD PRICE*  
+*Fulfillment > Settings > Tab PACKAGING TYPES > Button Add > Button ADD PRICE*  
 
-*Fulfillment > Settings > Tab PACKAGE TYPES > Select package type > Button Edit*
+*Fulfillment > Settings > Tab PACKAGING TYPES > Select packaging type > Button Edit*
 
 ![Edit price](../../Assets/Screenshots/Fulfillment/Settings/PackageTypes/EditPrice.png "[Edit price]")
 
@@ -315,13 +315,13 @@ The list displays all package types. Depending on the settings, the displayed co
     Click this button to cancel editing a price. The *Edit price* window is closed.
 
 - [SAVE]  
-    Click this button to save the price, close the *Edit price* window and return to the *Create package type* view.
+    Click this button to save the price, close the *Edit price* window and return to the *Create packaging type* view.
 
 #### Edit scale price
 
-*Fulfillment > Settings > Tab PACKAGE TYPES > Button Add > Button ADD PRICE > Button ADD SCALE PRICE*  
+*Fulfillment > Settings > Tab PACKAGING TYPES > Button Add > Button ADD PRICE > Button ADD SCALE PRICE*  
 
-*Fulfillment > Settings > Tab PACKAGE TYPES > Select package type > Button Edit > Button ADD SCALE PRICE*
+*Fulfillment > Settings > Tab PACKAGING TYPES > Select packaging type > Button Edit > Button ADD SCALE PRICE*
 
 ![Edit scale price](../../Assets/Screenshots/Fulfillment/Settings/PackageTypes/EditScalePrice.png "[Edit scale price]")
 
@@ -340,7 +340,7 @@ The list displays all package types. Depending on the settings, the displayed co
 
 ## Create view
 
-*Fulfillment > Settings > Tab PACKAGE TYPES > Button Points > Menu entry create*
+*Fulfillment > Settings > Tab PACKAGING TYPES > Button Points > Menu entry create*
 
 ![Create view](../../Assets/Screenshots/Fulfillment/DispatchNotes/CreateView.png "[Create view]")
 
@@ -349,7 +349,7 @@ For a detailed description of this window and the corresponding functions, see [
 
 ## Rename view
 
-*Fulfillment > Settings > Tab PACKAGE TYPES > Button Points > Menu entry rename*
+*Fulfillment > Settings > Tab PACKAGING TYPES > Button Points > Menu entry rename*
 
 ![Rename view](../../Assets/Screenshots/Fulfillment/DispatchNotes/RenameView.png "[Rename view]")
 

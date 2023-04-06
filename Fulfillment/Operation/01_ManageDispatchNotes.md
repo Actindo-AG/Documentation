@@ -1,6 +1,6 @@
 [!!User Interface Dispatch notes](../UserInterface/01a_List.md)
 [!!User Interface Logging](../UserInterface/02a_Connections.md)
-[!!User Interface Package types](../UserInterface/03b_PackageTypes.md)
+[!!User Interface Packaging types](../UserInterface/03b_PackagingTypes.md)
 [!!Check a shipment](./02_CheckShipment.md)
 [!!Manage the connections](../Integration/01_ManageConnections.md)
 
@@ -54,10 +54,10 @@ A dispatch note provides numerous order-related details, which may vary dependin
 3. Check the order number in the *Description* column.    
     The order number is a user-defined field. It can be useful to find further order-related details in the *Order management* module.
 
-4. Check the package type identification number in the *Package type* column. Alternatively, click a dispatch note and select the *Attributes* sub-tab, if it is not preselected.  
-    The package type identification number is displayed in the *FULFILLMENT DISPATCH NOTE BASE ATTRIBUTES* section.  
+4. Check the packaging type identification number in the *Packaging type* column. Alternatively, click a dispatch note and select the *Attributes* sub-tab, if it is not preselected.  
+    The packaging type identification number is displayed in the *FULFILLMENT DISPATCH NOTE BASE ATTRIBUTES* section.  
 
-    > [Info] The package types are defined in the *PACKAGE TYPES* tab of *Settings* menu entry and provide detailed information on the package used for shipment, the shipping type, and the ship-to country, among others. For detailed information, see [Package types](../UserInterface/03b_PackageTypes.md).  
+    > [Info] The packaging types are defined in the *PACKAGING TYPES* tab of *Settings* menu entry and provide detailed information on the packaging used for shipment, the shipping type, and the ship-to country, among others. For detailed information, see [Packaging types](../UserInterface/03b_PackagingTypes.md).  
 
 6. Check the shipment status in the *Shipment status* column. For further information, see [Check the shipment status](./02_CheckShipment.md#check-the-shipment-status).
 

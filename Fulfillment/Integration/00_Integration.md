@@ -15,12 +15,12 @@ In this part of the *Fulfillment* documentation, you will find the following cha
     - [Configure the Fiege connection](./01a_Fiege.com#configure-the-fiege-connection)   
 
 
-- [Manage the package types](./02_ManagePackageTypes.md)
-    - [Create a package type](./02_ManagePackageTypes.md#create-a-package-type)
-    - [Edit a package type](./02_ManagePackageTypes.md#edit-a-package-type)
-    - [Delete a package type](./02_ManagePackageTypes.md#delete-a-package-type)   
-    - [Deactivate a package type](./02_ManagePackageTypes.md#deactivate-a-package-type)   
-    - [Activate a package type](./02_ManagePackageTypes.md#activate-a-package-type)   
+- [Manage the packaging types](./02_ManagePackagingTypes.md)
+    - [Create a packaging type](./02_ManagePackagingTypes.md#create-a-packaging-type)
+    - [Edit a packaging type](./02_ManagePackagingTypes.md#edit-a-packaging-type)
+    - [Delete a packaging type](./02_ManagePackagingTypes.md#delete-a-packaging-type)   
+    - [Deactivate a packaging type](./02_ManagePackagingTypes.md#deactivate-a-packaging-type)   
+    - [Activate a packaging type](./02_ManagePackagingTypes.md#activate-a-packaging-type)   
 
 
 

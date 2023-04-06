@@ -19,7 +19,7 @@ Fulfillment providers and consignment warehouses can be mapped as shadow warehou
 
 ## Simplified sales management
 
-**Support individual shipping processes**
+**Support individual shipping processes**   
 Customers are placing increasing value on flexibility when purchasing - this applies to the variety of shipping options too. Those who provide a variety of choices to their customers must carefully design internal shipping processes and adapt them to their own requirements.  
 
 The Actindo *Fulfillment* module offer the possibility to easily connect different shipping service providers and external providers. If a direct integration via an API is not possible, data could be prepared via the central DataHub and then provided in the required format for integration as well. This allows you to easily offer your customers flexible delivery options and different shipping service providers while efficiently managing internal processes.

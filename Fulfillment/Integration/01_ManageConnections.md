@@ -1,13 +1,12 @@
 [!!User Interface Connections](../UserInterface/03a_Connections.md)
-[!!Manage the drivers](XX_to_be_completed)
 
 # Manage the connections
 
 Establish connections via drivers to connect your fulfillers' system with the *Actindo Core1 Platform*. You can establish an unlimited number of connections per driver if necessary.
 
-In the following, the general settings to create, edit, enable and disable connections are described. For certain connection drivers, you have to setup special configurations. Therefore, the connections below are described in separate documents:
+In the following, the general settings to create, edit, enable and disable connections are described. For certain connection drivers, you have to setup special configurations. Therefore, the connections below are described separately:
 
-- Fiege connection, see [Fiege](./01a_Fiege.md).
+- [Fiege connection](../../FiegeIntegration/Overview/00_General.md).
 
 
 ## Create a connection
