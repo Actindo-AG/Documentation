@@ -130,7 +130,7 @@ The list displays all available connections. Depending on the settings, the disp
     Click this button to edit the connection name. This button is only displayed if the connection name has been confirmed.
 
 - *Driver*  
-    Click the drop-down list and select the Fiege driver. All installed drivers are displayed. The *Credentials* section is displayed below the drop-down list.
+    Click the drop-down list and select the *Fiege Driver* option. All installed drivers are displayed. The *Credentials* section is displayed below the drop-down list.
 
     > [Info] Drivers are licensed and must be acquired via the app store or the corresponding fulfillment partner. The applicable driver credentials to establish the connection are obtained when acquiring the corresponding license. 
 
@@ -173,7 +173,7 @@ Creation date of the connection. This field is read-only.
 ![Edit Fiege credentials](../../Assets/Screenshots/Fulfillment/Settings/Connections/FiegeIntegration/EditConnectionCredentials.png "[Edit Fiege credentials]")
 
 - *Driver*  
-    Driver name. For Fiege, *Fiege Driver* is displayed. This drop-down list is read-only.
+    Driver name. For Fiege, the *Fiege Driver* option is displayed. This drop-down list is read-only.
 
 **Credentials** 
 
@@ -191,7 +191,7 @@ Creation date of the connection. This field is read-only.
 
 [comment]: <> (NoE Beispiel mit Settings genommen und anomymisiert. Evtl. ein anderes Screenshot?)
 
-By default, the *Settings* tab is composed of the following entries: 
+The *Settings* tab is composed of the following setting entries: 
 
 - [Warehouse ID fallback](#warehouse-id-fallback)
 - [Bearer token](#bearer-token)
@@ -214,7 +214,7 @@ By default, the *Settings* tab is composed of the following entries:
     Click this button to save any changes made.
 
 - *Warehouse ID fallback*  
-    Enter the number of the warehouse to be used as fallback warehouse for stock movements if no other reference is found.
+    Enter the ID of the warehouse to be used as fallback warehouse for stock movements if no other reference is found.
 
 
 ### Bearer token
@@ -246,7 +246,7 @@ By default, the *Settings* tab is composed of the following entries:
     Click this button to save any changes made.
 
 - *Warehouse ID A*  
-    Enter the number of the warehouse to be used as A warehouse.
+    Enter the ID of the warehouse to be used as warehouse A.
 
 
 ### B Warehouse
@@ -261,7 +261,7 @@ By default, the *Settings* tab is composed of the following entries:
     Click this button to save any changes made.
 
 - *Warehouse ID B*  
-    Enter the number of the warehouse to be used as B warehouse.
+    Enter the ID of the warehouse to be used as warehouse B.
 
 
 ### C Warehouse
@@ -276,6 +276,6 @@ By default, the *Settings* tab is composed of the following entries:
     Click this button to save any changes made.
 
 - *Warehouse ID C*  
-    Enter the number of the warehouse to be used as C warehouse.
+    Enter the ID of the warehouse to be used as warehouse C.
 
 

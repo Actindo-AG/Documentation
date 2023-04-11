@@ -1,9 +1,9 @@
 # Key Features
 
-- Direct connection and data transfer via API
-- Overview of shipments managed by Fiege in the *Actindo Core1 platform*
-- Management of stock movements across several warehouses
-- Import tracking, inventory and goods receipt data 
+- Direct connection and data transfer via API.
+- Overview of shipments managed by Fiege in the *Actindo Core1 Platform*.
+- Management of stock movements across several warehouses.
+- Import tracking, inventory and goods receipt data.
 
 
 ## How it works
@@ -18,7 +18,7 @@ Preferred user-defined packaging types can be automatically selected in Actindo 
 When the shipment is arranged, Fiege sends shipment status and tracking data back to Actindo.
 
 **Return data**   
-If required, all relevant return-related data are update by Fiege and transferred to Actindo for further processing. 
+If required, all relevant return-related data are updated by Fiege and transferred to Actindo for further processing. 
 
 **Stock data**  
 Stock data, managed across several warehouses, are updated by Fiege and transferred to Actindo.  

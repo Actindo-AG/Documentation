@@ -1,13 +1,13 @@
 # General information
 
-The *Fiege* driver seamlessly connects the *Actindo Core 1 Platform* and the Fiege fulfillment system. Actindo exports automatically all relevant product data as soon as a delivery note is generated. In turn, all shipment data provided by Fiege can be checked and monitored centrally in the *Fulfillment* module. 
+The *Fiege* driver seamlessly connects the *Actindo Core1 Platform* and the Fiege fulfillment system. Actindo sends automatically a dispatch note containing all relevant order and product data to Fiege when a delivery note has been issued by the *Order management* module. In turn, all shipment data provided by Fiege can be checked and monitored centrally in the *Fulfillment* module. 
 
-This documentation refers to *Fiege* plugin version 1.0.0. There may be differences in the UI, features and operation if your *Fiege* plugin is installed in a different version.
+This documentation refers to *Fiege Integration* plugin version 1.0.0. There may be differences in the UI, features and operation if your *Fiege Integration* plugin is installed in a different version.
 
 
 ## Benefits
 
-The Actindo *Fiege* plugin offers the following benefits:
+The Actindo *Fiege Integration* plugin offers the following benefits:
 
 - export of orders, SKUs and basic product data to Fiege
 - automatic status updates 
