@@ -37,7 +37,7 @@ The *Fiege Integration* driver has been installed.
 
     ![Connection credentials](../../Assets/Screenshots/Fulfillment/Settings/Connections/FiegeIntegration/CreateConnectionCredentials.png "[Connection credentials]")
 
-4. Enter the bearer token as provided by Fiege in the *Bearer token (fiegeExport)* field.  
+4. Enter the bearer token in the *Bearer token (fiegeExport)* field.  
 
 5. Click the [SAVE] button.  
     The connection will be established. The *Checking credentials...* notice is displayed. After a few seconds, the *Loading data...* notice is displayed.
@@ -87,7 +87,9 @@ The *Edit connection* view is displayed. By default, the *Credentials* tab is se
 
     ![Settings bearer token](../../Assets/Screenshots/Fulfillment/Settings/Connections/FiegeIntegration/EditConnectionSettings_BearerToken.png "[Settings bearer token]")
 
-5. Enter the bearer token for authentication with the Fiege API as provided by Fiege in the *Bearer token* field.
+5. Enter the bearer token for authentication with the Fiege API in the *Bearer token* field.
+
+[comment]: <> (Fachreviewer: Wann/In welchem Release wird der Bearer token aus Settings rausgenommen?)
 
 [comment]: <> (Feedback von Developers: Bearer token wird aus den Settings rausfallen und nur noch in den Credentials angezeigt werden. Daher muss der auch nur dort gepflegt werden. Wann wird es implementiert? Schritt komplett rauslassen hier? Dann neue Screenshots notwendig. Oder evtl. Info dazu: The bearer token has already been entered in the Credentials section and therefore this field can be left blank...)
 
@@ -117,4 +119,4 @@ The *Edit connection* view is displayed. By default, the *Credentials* tab is se
 
     ![Saving successful](../../Assets/Screenshots/Fulfillment/Settings/Connections/SavingSuccessful.png "[Saving successful]")
   
-13. When necessary, continue to enable the connection, see [Enable a connection](./01_ManageConnections.md#enable-a-connection).
+     > [Info] By default, all connections that have been established are inactive and must be enabled after the connection configuration, see [Enable a connection](./01_ManageConnections.md#enable-a-connection).

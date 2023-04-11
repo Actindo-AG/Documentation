@@ -14,7 +14,7 @@ The Actindo *Fiege Integration* plugin offers the following benefits:
 - handling of returns
 - provision of documents, such as delivery notes or pro-forma invoices, via SFTP upload
 
-[comment]: <> (Info aus Confluence > Product)
+[comment]: <> (Fachreviewer: Info aus Confluence space Product genommen. Bitte prüfen, ob ok, und ggf. ergänzen)
 
 ## Prerequisites
 
@@ -22,6 +22,6 @@ The Actindo *Fiege Integration* plugin offers the following benefits:
 - The *Configuration Driver GDM Abstract* plugin version 1.0.0 or higher is installed.
 - The *Fulfillment* module version 1.2.0 or higher is installed.
 
-[comment]: <> (Check, ob das stimmt)  
+[comment]: <> (Fachreviewer: Info aus Platform Manager genommen. Bitte prüfen, ob ok und ggf. ergänzen)  
 
  

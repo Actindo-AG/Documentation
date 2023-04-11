@@ -76,7 +76,7 @@ The list displays all available connections. Depending on the settings, the disp
     Connection identification number. The ID number is automatically assigned by the system.
 
 - ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add)  
-  Click this button to add a Fiege connection. The *Create connection* view is displayed, see [Create Fiege connection](#create-Fiege-connection).
+    Click this button to add a Fiege connection. The *Create connection* view is displayed, see [Create Fiege connection](#create-Fiege-connection).
 
 
 ## Create view
@@ -164,7 +164,7 @@ The list displays all available connections. Depending on the settings, the disp
     Click this button to apply the changes to the connection name. This button is only displayed if you are editing the connection name.
 
 - *Created DD/MM/YYYY*  
-Creation date of the connection. This field is read-only.
+    Creation date of the connection. This field is read-only.
 
 ## Edit Fiege connection &ndash; Credentials
 
@@ -181,7 +181,7 @@ Creation date of the connection. This field is read-only.
     Click the field to edit the bearer token.
 
 - [SAVE]  
-  Click this button to save any changes made.
+    Click this button to save any changes made.
 
 ## Edit Fiege connection &ndash; Settings
 
@@ -189,7 +189,6 @@ Creation date of the connection. This field is read-only.
 
 ![Edit Fiege settings](../../Assets/Screenshots/Fulfillment/Settings/Connections/FiegeIntegration/EditConnectionCredentials.png "[Edit Fiege settings]")
 
-[comment]: <> (NoE Beispiel mit Settings genommen und anomymisiert. Evtl. ein anderes Screenshot?)
 
 The *Settings* tab is composed of the following setting entries: 
 
