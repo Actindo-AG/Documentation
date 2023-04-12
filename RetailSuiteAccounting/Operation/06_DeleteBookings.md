@@ -27,17 +27,17 @@ Delete a single posting from the postings list.
 ![Postings](../../Assets/Screenshots/RetailSuiteAccounting/Book/Bookings/Bookings.png "[Postings]")
 
 1. Select the posting to be deleted in the postings list.  
-  The posting details are displayed in the input line fields.
+    The posting details are displayed in the input line fields.
 
-  > [Warning] Be aware that the selected posting will be deleted permanently.
+    > [Warning] Be aware that the selected posting will be deleted permanently.
 
 2. Click the [DELETE] button.  
-A confirmation window is displayed.
+    A confirmation window is displayed.
 
-  ![Delete confirmation](../../Assets/Screenshots/RetailSuiteAccounting/Book/Bookings/DeleteConfirmation.png "[Delete confirmation]")
+    ![Delete confirmation](../../Assets/Screenshots/RetailSuiteAccounting/Book/Bookings/DeleteConfirmation.png "[Delete confirmation]")
 
 3. Click the [OK] button to confirm the deletion.  
-The posting has been deleted. The notice "Posting deleted!" is displayed above the input line. The posting has been removed from the postings list.
+    The posting has been deleted. The notice "Posting deleted!" is displayed above the input line. The posting has been removed from the postings list.
 
 
 ## Delete multiple postings
@@ -56,23 +56,23 @@ Delete several postings simultaneously from the postings list.
 ![Postings](../../Assets/Screenshots/RetailSuiteAccounting/Book/Bookings/Bookings.png "[Postings]")
 
 1. Click the [EDIT] button in the header above the postings list.  
-A context menu is displayed.
+    A context menu is displayed.
 
-  ![Edit](../../Assets/Screenshots/RetailSuiteAccounting/Book/Edit.png "[Edit]")
+    ![Edit](../../Assets/Screenshots/RetailSuiteAccounting/Book/Edit.png "[Edit]")
 
 2. Click the *Delete...* menu entry in the context menu.     
-  The *Delete postings* window is displayed.
+    The *Delete postings* window is displayed.
 
-  ![Delete postings](../../Assets/Screenshots/RetailSuiteAccounting/Book/DeleteBookings.png "[Delete postings]")
+    ![Delete postings](../../Assets/Screenshots/RetailSuiteAccounting/Book/DeleteBookings.png "[Delete postings]")
 
 3. Click the *Journal* drop-down list and select the journal where the postings to be deleted are recorded. All journals where postings are recorded are displayed in the list.
 
 4. Enter the number range of the postings to be deleted in the *Seq. numbers* field.
 
-  > [Warning] Be aware that the selected postings will be deleted permanently.
+    > [Warning] Be aware that the selected postings will be deleted permanently.
 
 5. Click the [DELETE] button.   
-The selected postings have been deleted.
+    The selected postings have been deleted.
 
 6. Press F5 to initialize the Core1 Platform and to apply the changes.  
- The deleted postings have been removed from the postings list.
+    The deleted postings have been removed from the postings list.

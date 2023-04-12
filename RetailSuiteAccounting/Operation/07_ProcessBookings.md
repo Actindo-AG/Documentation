@@ -22,20 +22,20 @@ Nevertheless, new postings can be entered in a posting period that has already b
 ![Postings](../../Assets/Screenshots/RetailSuiteAccounting/Book/Bookings/Bookings.png "[Postings]")
 
 1. Click the [EDIT] button in the header above the postings list.  
-A context menu is displayed.
+    A context menu is displayed.
 
-  ![Edit](../../Assets/Screenshots/RetailSuiteAccounting/Book/Edit.png "[Edit]")
+    ![Edit](../../Assets/Screenshots/RetailSuiteAccounting/Book/Edit.png "[Edit]")
 
 2. Click the *Process...* menu entry in the context menu.     
-  The *Process postings* window is displayed.
+    The *Process postings* window is displayed.
 
-  ![Process postings](../../Assets/Screenshots/RetailSuiteAccounting/Book/ProcessBookings.png "[Process postings]")
+    ![Process postings](../../Assets/Screenshots/RetailSuiteAccounting/Book/ProcessBookings.png "[Process postings]")
 
 3. Click the *Journal from* and the *Journal to* drop-down lists and select the journals where the postings to be processed are recorded. If you want to process only the postings from a single journal, select the same journal in both drop-down lists.
 
 4. Click the *Month from* and the *Month to* drop-down lists and select the months where the postings to be processed are recorded. If you want to process only the postings from a single month, select the same month in both drop-down lists.
 
-  > [Info] Be aware that, once the postings have been processed, they cannot be changed or deleted anymore.
+    > [Info] Be aware that, once the postings have been processed, they cannot be changed or deleted anymore.
 
 5. Click the [OK] button.   
-The selected postings have been processed. A confirmation window with the notice *Postings processed!* is displayed.
+    The selected postings have been processed. A confirmation window with the notice *Postings processed!* is displayed.

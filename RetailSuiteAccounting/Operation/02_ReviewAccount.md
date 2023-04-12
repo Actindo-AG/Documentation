@@ -15,7 +15,7 @@ Access the *BALANCES* tab to display a T-account view of the current credit and 
 
 The balance value represents the difference between the credit and the debit of an account. If the debit and credit totals are equal, the balance is settled. If there is a difference between them, an open balance must be settled, for example a payment must be made to bring the account balance to zero.
 
- > [Info] When directly clicking the *BALANCES* tab, a blank T-account view with the notice *No account selected* on each side is displayed. An account and/or contra account must be selected to display the corresponding details. If a posting has been previously selected in the *POSTINGS* tab, the corresponding account and contra account details are displayed in the *BALANCES* tab.
+> [Info] When directly clicking the *BALANCES* tab, a blank T-account view with the notice *No account selected* on each side is displayed. An account and/or contra account must be selected to display the corresponding details. If a posting has been previously selected in the *POSTINGS* tab, the corresponding account and contra account details are displayed in the *BALANCES* tab.
 
 #### Prerequisites
 
@@ -29,12 +29,12 @@ A fiscal year has been selected, see [Select fiscal year](./01_SelectFiscalYear.
 
 
 1. If desired, enter an account number in the *Contra account* field.  
-The balance for the selected account is displayed on the left side of the workspace.
+    The balance for the selected account is displayed on the left side of the workspace.
 
 2. If desired, enter an account number in the *Account* field.  
-The balance for the selected account is displayed on the right side of the workspace.
+    The balance for the selected account is displayed on the right side of the workspace.
 
-  ![Balances](../../Assets/Screenshots/RetailSuiteAccounting/Book/Balances/Balances.png "[Balances]")
+    ![Balances](../../Assets/Screenshots/RetailSuiteAccounting/Book/Balances/Balances.png "[Balances]")
 
 3. If desired, select the *All months* radio button to display the balances for the entire fiscal year. By default, the *Only this month* radio button is preselected and the balances for the currently selected posting period, or month, are displayed.
 
@@ -58,10 +58,10 @@ A fiscal year has been selected, see [Select fiscal year](./01_SelectFiscalYear.
 
 
 1. Enter an account number in the *Contra account* or *Account* field and leave the field.  
-A chronologically ordered list of all postings in the selected account is displayed in the workspace.
+    A chronologically ordered list of all postings in the selected account is displayed in the workspace.
 
-  > [Info] If both *Contra account* and *Account* fields are filled in, the details of the account entered in the *Contra account* field are displayed. If no account number is entered in the *Contra account* field, the details of the account entered in the *Account* field are displayed.  
+    > [Info] If both *Contra account* and *Account* fields are filled in, the details of the account entered in the *Contra account* field are displayed. If no account number is entered in the *Contra account* field, the details of the account entered in the *Account* field are displayed.  
 
-  ![Account sheet](../../Assets/Screenshots/RetailSuiteAccounting/Book/AccountSheet/AccountSheet.png "[Account sheet]")
+    ![Account sheet](../../Assets/Screenshots/RetailSuiteAccounting/Book/AccountSheet/AccountSheet.png "[Account sheet]")
 
 2. If desired, select the *All months* radio button to display the balances for the entire fiscal year. By default, the *Only this month* radio button is preselected and the balances for the current posting period are displayed.

@@ -31,15 +31,15 @@ A fiscal year has been selected, see [Select fiscal year](./01_SelectFiscalYear.
 > [Info] The *Post extras* side bar can be displayed at any time and in any tab of the *Post* menu entry by clicking the ![Left arrow](../../Assets/Icons/Back02.png "[Left arrow]") (Left arrow) button or hidden by clicking the ![Right arrow](../../Assets/Icons/Close.png "[Right arrow]") (Right arrow) button.
 
 1. Click the *QUICK SEARCH* button.  
-A filter list with the *Acc. no.* and *Description* entries is displayed.
+    A filter list with the *Acc. no.* and *Description* entries is displayed.
 
-  ![Search for an account](../../Assets/Screenshots/RetailSuiteAccounting/Book/Search/BookExtrasAccounts.png "[Search for an account]")
+    ![Search for an account](../../Assets/Screenshots/RetailSuiteAccounting/Book/Search/BookExtrasAccounts.png "[Search for an account]")
 
 
 2.  If necessary, deselect the checkbox of the *Acc. no.* or *Description* entry to apply the search only to field of the selected option. By default, both options are selected and the all accounts containing the search text in either the *Acc.no.* or the *Description* field will be displayed in the search results.
 
 3. Enter the search text (account number or description) in the search bar and press the **Enter** key or click the ![Search](../../Assets/Icons/Search.png "[Search]") (Search) button. You can enter any search text, even a partial account number or description.     
-All accounts containing the search text entered in the search bar are displayed in the search results.
+    All accounts containing the search text entered in the search bar are displayed in the search results.
 
 4. Click the ![Cross](../../Assets/Icons/Cross02.png "[Cross]") icon to clear the search bar and start a new search.  
 
@@ -63,35 +63,34 @@ A fiscal year has been selected, see [Select fiscal year](./01_SelectFiscalYear.
 
 1. In the *Active* column, select the checkbox of the desired search criterion you want to apply to your search. The following search criteria are available:  
 
-  - *Turnover*  
-  - *Contra account*  
-  - *Account*  
-  - *Receipt 1*  
-  - *Receipt 2*  
-  - *Text*  
-  - *Month*  
-  - *Journal*  
-  - *Date*  
-  - *Cost center*
-  - *Cost object*  
-  - *Processed*  
-  - *User*  
+    - *Turnover*  
+    - *Contra account*  
+    - *Account*  
+    - *Receipt 1*  
+    - *Receipt 2*  
+    - *Text*  
+    - *Month*  
+    - *Journal*  
+    - *Date*  
+    - *Cost center*
+    - *Cost object*  
+    - *Processed*  
+    - *User*  
 
-  Depending on the selected criterion, checkboxes and a text fields are displayed in the *NOT* and *Search for* columns.       
+    Depending on the selected criterion, checkboxes and a text fields are displayed in the *NOT* and *Search for* columns.       
 
-  ![Search for a posting](../../Assets/Screenshots/RetailSuiteAccounting/Book/Search/BookExtrasSearch.png "[Search for a posting]")
+    ![Search for a posting](../../Assets/Screenshots/RetailSuiteAccounting/Book/Search/BookExtrasSearch.png "[Search for a posting]")
 
 2.  If necessary, select the checkbox in the *NOT* column to exclude the corresponding value from the search.
 
-  > [Info] The checkbox in the *NOT* column is only available for certain search criteria.
+    > [Info] The checkbox in the *NOT* column is only available for certain search criteria.
 
 3. Enter the search value in the text field in the *Search for* column. You can use the following placeholders when entering the search value:
 
     - An asterisk (*) represents any number of characters.
     - A question mark (?) represents a single character.
 
-
 4. Click the [SEARCH] button.  
-All postings matching your search criteria are displayed in the workspace of the selected tab.
+    All postings matching your search criteria are displayed in the workspace of the selected tab.
 
-  > [Info] You need to switch the tab to hide the search results in the workspace.
+    > [Info] You need to switch the tab to hide the search results in the workspace.

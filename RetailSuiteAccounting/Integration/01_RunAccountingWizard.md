@@ -47,39 +47,39 @@ The accounting wizard has been started, see [Start wizard](#start-wizard).
 
 1. Enter a description for the fiscal year in the *Description* field. The current year is preselected by default.  
 
-   > [Info] It is possible to enter digits, letters or combinations of characters. The number of characters is limited to 10.
+    > [Info] It is possible to enter digits, letters or combinations of characters. The number of characters is limited to 10.
 
 2. Enter the start and end date of your fiscal year in the *From - To* fields. The fiscal year displayed by default is the current calendar year.
 
- > [Info] The fiscal year must consist of 12 months. However, it does not have to be a calendar year, but can be, for example from April 1 to March 31.
+    > [Info] The fiscal year must consist of 12 months. However, it does not have to be a calendar year, but can be, for example, from April 1 to March 31.
 
 3. Click the *Currency* drop-down list and select the base currency. The drop-down list displays all currencies available in the system. However, the accounting module can only work with one currency, that is, the base currency configured during the installation process.
 
- > [Info] The base currency is the currency used by a company for accounting purposes, usually the currency of the country where the business is primarily based, even if it operates in other countries and currencies.
+    > [Info] The base currency is the currency used by a company for accounting purposes, usually the currency of the country where the business is primarily based, even if it operates in other countries and currencies.
 
-4. Click the *Cash accounting* drop-down list and select the appropriate option. The following options are available:
+4. Click the *Tax on payment* drop-down list and select the appropriate option. The following options are available:
 
-  - **Yes**  
-  Select this option for the cash accounting method, where receipts are recorded during the period they are received, and expenses are recorded in the period in which they are actually paid.
-  - **No**  
-  Select this option for the accrual accounting method, where revenue is recognized when earned rather than when collected, and expenses are recognized when incurred rather than when paid.
+    - **Yes**  
+        Select this option in case VAT is due when revenue is effectively received.
+    - **No**  
+        Select this option in case VAT is due when revenue is invoiced.
 
     > [Info] This option has fundamental implications for the system automatic recording of taxes. In case of doubt, please check with your tax advisor.
 
 5. Click the *Planning FY* drop-down list and select the appropriate option. The following options are available:  
 
-  - **No**  
-  Select this option to set up an actual fiscal year.
-  - **Fiscal year for planning purposes only**   
-  Select this option to set up a fiscal year for planning purposes only.
+    - **No**  
+        Select this option to set up an actual fiscal year.
+    - **Fiscal year for planning purposes only**   
+        Select this option to set up a fiscal year for planning purposes only.
 
     > [Info] A fiscal year for planning purposes will not be recognized as an actual fiscal year by the system, and therefore the automatic functions in the interaction with other modules will not apply.
 
 6. Click the [SAVE & NEW] button.  
-The new fiscal year is created. A small pop-up window and a green check mark confirm that the new fiscal year has been saved. The newly created fiscal year is also displayed in the list.
+    The new fiscal year is created. A small pop-up window and a green check mark confirm that the new fiscal year has been saved. The newly created fiscal year is also displayed in the list.
 
 7. Click the [CONTINUE] button.   
-The *Chart of accounts* wizard window is displayed.
+    The *Chart of accounts* wizard window is displayed.
 
 
 ## Chart of accounts
@@ -106,7 +106,7 @@ In this step, you must select a chart of accounts and an accounting system.
     - **Swiss Chart of accounts KMU**
     - **Swiss Chart of accounts Käfer**
 
- > [Info] The chart of accounts can only be set up once and cannot be changed afterwards. Any later modifications have to be done manually on an individual customer account level.
+    > [Info] The chart of accounts can only be set up once and cannot be changed afterwards. Any later modifications have to be done manually on an individual customer account level.
 
 2. Click the *Accounting system* drop-down list and select the appropriate option. The following options are available:
 
@@ -121,10 +121,10 @@ In this step, you must select a chart of accounts and an accounting system.
     - **IAS: Balance**
     - **IAS: Cash flow**
 
-  > [Info] The *Accounting* module can neither create a balance sheet nor an annual financial statement. Therefore, the selection of any of the drop-down list options suggested serves merely a pro-forma purpose.
+    > [Info] The *Accounting* module can neither create a balance sheet nor an annual financial statement. Therefore, the selection of any of the drop-down list options suggested serves merely a pro-forma purpose.
 
 3. Click the [CONTINUE] button.  
-The *Accounting* module is set up. A pop-up window and a green check mark confirm that the chart of accounts and the accounting system have been saved. The *Installation completed* wizard window is displayed.
+    The *Accounting* module is set up. A pop-up window and a green check mark confirm that the chart of accounts and the accounting system have been saved. The *Installation completed* wizard window is displayed.
 
 
 ## Installation completed

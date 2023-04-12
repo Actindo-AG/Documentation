@@ -38,20 +38,20 @@ When you open the *Accounting* module for the first time after logging in or aft
 ![Select fiscal year](../../Assets/Screenshots/RetailSuiteAccounting/SelectFiscalYear.png "[Select fiscal year]")
 
 1. Click the *Fiscal year* drop-down list and select a fiscal year. All available fiscal years are displayed in the list.    
-  The *Period* date fields are filled in automatically.
+    The *Period* date fields are filled in automatically.
 
 2. Click the *Month* drop-down list and select a month. The selected month determines the posting period, this means, the period where the transaction is posted. The accounting month plays a determining role when generating system evaluations.
 
 3. Enter a journal number in the *Journal* field. Alternatively, you can click the [LIST] button to select a journal in the *Journals* window, which is displaying all available journals and the postings contained in each of them. The journal, or posting batch, is a superordinate criterion for the arrangement of postings. Selecting the correct journal is extremely important for the data exports.
 
-  ![Journals](../../Assets/Screenshots/RetailSuiteAccounting/Journals.png "[Journals]")
+    ![Journals](../../Assets/Screenshots/RetailSuiteAccounting/Journals.png "[Journals]")
 
 4. If required, select first the *Include fixed postings* checkbox and then a batch from the displayed list.
 
-  > [Info] If the *Include fixed postings* checkbox is selected, all fixed postings in the selected batch will be automatically posted when opening the selected period in the fiscal year. For detailed information about creating fixed postings, see [Create fixed postings](../Integration/06_ManageFixedBookings.md#create-fixed-postings).
+    > [Info] If the *Include fixed postings* checkbox is selected, all fixed postings in the selected batch will be automatically posted when opening the selected period in the fiscal year. For detailed information about creating fixed postings, see [Create fixed postings](../Integration/06_ManageFixedBookings.md#create-fixed-postings).
 
 5. Click the [OK] button in the bottom right corner.   
-The *POSTINGS* tab in the *Post* menu entry is displayed for the selected posting period.  All postings registered in this posting period are displayed in the list of postings.
+    The *POSTINGS* tab in the *Post* menu entry is displayed for the selected posting period.  All postings registered in this posting period are displayed in the list of postings.
 
 
 ## Access postings from another period
@@ -70,22 +70,22 @@ Once a posting period has been selected, it is possible to change to a different
 ![Postings](../../Assets/Screenshots/RetailSuiteAccounting/Book/Bookings/Bookings.png "[Postings]")
 
 1. Click the *FY/MONTH/JOURNAL* button in the postings header.  
-The *Select fiscal year* window is displayed.  
+    The *Select fiscal year* window is displayed.  
 
-  ![Select fiscal year](../../Assets/Screenshots/RetailSuiteAccounting/SelectFiscalYear.png "[Select fiscal year]")
+    ![Select fiscal year](../../Assets/Screenshots/RetailSuiteAccounting/SelectFiscalYear.png "[Select fiscal year]")
 
 2. Click the *Fiscal year* drop-down list and select a fiscal year. All available fiscal years are displayed in the list.    
-  The *Period* date fields are filled in automatically.
+    The *Period* date fields are filled in automatically.
 
-3. Click the *Month* drop-down list and select a month. The selected month determines the posting period, this means, the period where the transaction is posted. The accounting month plays a determining role when generating system evaluations.
+3. Click the *Month* drop-down list and select a month.  The selected month determines the posting period, this means, the period where the transaction is posted. The accounting month plays a determining role when generating system evaluations.
 
 4. Enter a journal number in the *Journal* field. Alternatively, you can click the [LIST] button to select a journal in the *Journals* window, which is displaying all available journals and the postings contained in each of them. The journal, or posting batch, is a superordinate criterion for the arrangement of postings. Selecting the correct journal is extremely important for the data exports.
 
-  ![Journals](../../Assets/Screenshots/RetailSuiteAccounting/Journals.png "[Journals]")
+    ![Journals](../../Assets/Screenshots/RetailSuiteAccounting/Journals.png "[Journals]")
 
 5. If required, select first the *Include fixed postings* checkbox and then a batch from the displayed list.
 
-  > [Info] If the *Include fixed postings* checkbox is selected, all fixed postings in the selected batch will be automatically posted when opening the selected period in the fiscal year. For detailed information about creating fixed postings, see [Create fixed postings](../Integration/06_ManageFixedBookings.md#create-fixed-postings).
+    > [Info] If the *Include fixed postings* checkbox is selected, all fixed postings in the selected batch will be automatically posted when opening the selected period in the fiscal year. For detailed information about creating fixed postings, see [Create fixed postings](../Integration/06_ManageFixedBookings.md#create-fixed-postings).
 
 6. Click the [OK] button in the bottom right corner.   
-The *POSTINGS* tab in the *Post* menu entry is displayed for the selected posting period.  All postings registered in this posting period are displayed in the list of postings.
+    The *POSTINGS* tab in the *Post* menu entry is displayed for the selected posting period.  All postings registered in this posting period are displayed in the list of postings.

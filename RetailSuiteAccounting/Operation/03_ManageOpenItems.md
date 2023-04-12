@@ -4,7 +4,7 @@
 
 # Manage the open items
 
-Open items are any business transactions that have not yet been completed. By checking the open items, you can monitor cash movements and avoid liquidity problems.
+Open items are any business transactions that have not yet been settled. By checking the open items, you can monitor cash movements and control the liquidity.
 
 There are two view modes:
 
@@ -29,13 +29,13 @@ A fiscal year has been selected, see [Select fiscal year](./01_SelectFiscalYear.
 ![All open items](../../Assets/Screenshots/RetailSuiteAccounting/Book/OpenItems/AllOpenItems.png "[All open items]")
 
 1. Check that no account number is entered in the *Account* or *Contra account* fields.
-The open items across all accounts are displayed.
+    The open items across all accounts are displayed.
 
- > [Info] If the *Account* or *Contra account* fields are filled in, clear the fields by clicking the [CLEAR] button.
+    > [Info] If the *Account* or *Contra account* fields are filled in, clear the fields by clicking the [CLEAR] button.
 
 2. Check the list of open items.
 
- > [Info] If there are no open items, the notice *No open items available* is displayed.
+    > [Info] If there are no open items, the notice *No open items available* is displayed.
 
 
 ## Check the open items for an account
@@ -53,15 +53,15 @@ A fiscal year has been selected, see [Select fiscal year](./01_SelectFiscalYear.
 ![All open items](../../Assets/Screenshots/RetailSuiteAccounting/Book/OpenItems/AllOpenItems.png "[All open items]")
 
 1. Enter a personal account number in the *Contra account* or in the *Account* field. Alternatively, select a posting in the *POSTINGS* tab.  
-All open items of the corresponding account are displayed.  
+    All open items of the corresponding account are displayed.  
 
-  ![Open items for an account](../../Assets/Screenshots/RetailSuiteAccounting/Book/OpenItems/OpenItemsAccount.png "[Open items for an account]")
+    ![Open items for an account](../../Assets/Screenshots/RetailSuiteAccounting/Book/OpenItems/OpenItemsAccount.png "[Open items for an account]")
 
 2. If desired, select the *Show manually cleared open items* radio button to display only the manually cleared open items for the selected account. By default, the *Standard open items view* radio button is preselected and all open items for the selected account are displayed.
 
 3. Check the list of open items for the selected account.
 
- > [Info] If required, you can manually clear open items, see [Clear an open item manually](#clear-an-open-item-manually).
+    > [Info] If required, you can manually clear open items, see [Clear an open item manually](#clear-an-open-item-manually).
 
 
 ## Clear an open item manually
@@ -80,24 +80,24 @@ You can clear open items manually in a selected account.
 ![Open items for an account](../../Assets/Screenshots/RetailSuiteAccounting/Book/OpenItems/OpenItemsAccount.png "[Open items for an account]")
 
 1. Select the checkbox of the corresponding postings to be cleared in the *M* column.
-The total amount of the postings is displayed in the upper right corner of the workspace. The total amount of the postings must equal **0,00**.
+    The total amount of the postings is displayed in the upper right corner of the workspace. The total amount of the postings must equal **0,00**.
 
-  ![Clear manually](../../Assets/Screenshots/RetailSuiteAccounting/Book/OpenItems/ClearManually.png "[Clear manually]")
+    ![Clear manually](../../Assets/Screenshots/RetailSuiteAccounting/Book/OpenItems/ClearManually.png "[Clear manually]")
 
-  > [Info] The *Standard open items view* radio button must be selected.
+    > [Info] The *Standard open items view* radio button must be selected.
 
 2. Click the [CLEAR MANUALLY] button.  
-The selected postings are cleared. The corresponding open items are removed from the open items list.
+    The selected postings are cleared. The corresponding open items are removed from the open items list.
 
 3. If necessary, you can reverse manually cleared postings. To do so, click the *Show manually cleared open items* radio button.   
-All manually cleared postings for the selected account are displayed.
+    All manually cleared postings for the selected account are displayed.
 
-   ![Manually cleared open items](../../Assets/Screenshots/RetailSuiteAccounting/Book/OpenItems/ManuallyClearedOPOS.png "[Manually cleared open items]")
+    ![Manually cleared open items](../../Assets/Screenshots/RetailSuiteAccounting/Book/OpenItems/ManuallyClearedOPOS.png "[Manually cleared open items]")
 
 4. Select the checkbox of the cleared postings to be reversed in the *M* column.
-The total amount of the postings is displayed in the upper right corner of the workspace.
+    The total amount of the postings is displayed in the upper right corner of the workspace.
 
-  > [Info] The total amount of the postings must equal **0,00** to be reversed.
+    > [Info] The total amount of the postings must equal **0,00** to be reversed.
 
 5. Click the [UNDO CLEARING] button to reverse the clearing.  
-The manual clearing for the selected postings has been undone. The corresponding postings are removed from the manually cleared open items list.
+    The manual clearing for the selected postings has been undone. The corresponding postings are removed from the manually cleared open items list.
