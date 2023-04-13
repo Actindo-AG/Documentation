@@ -18,7 +18,7 @@ In all tabs of the *Post* menu entry, an identical header is displayed. The cont
     - *Bank data takeover*  
         Click this menu entry to take over bank and payment details registered in the *Payment processing* module. The *Bank data synchronizing* window is displayed, see [Bank data takeover](#bank-data-takeover). This function is no longer supported and, therefore, it is not described.
 
-[comment]: <> (Isas Kommentar: ??? Wir arbeiten mit Übernahme Bankdaten. RS mit Isa!)
+    [comment]: <> (Isas Kommentar: ??? Wir arbeiten mit Übernahme Bankdaten. RS mit Isa!)
 
     - ![Lock](../../Assets/Icons/Lock02.png "[Lock]") *Process*  
         Click this menu entry to process several postings simultaneously. The *Process postings* window is displayed, see [Process](#process).
@@ -68,8 +68,8 @@ In all tabs of the *Post* menu entry, an identical header is displayed. The cont
 
     - *Other*  
         Click this menu entry to display the sub-menu. The following menu entries are displayed:
-    - *Chart of accounts*, see [Chart of accounts](#chart-of-accounts).
-    - *Deb./Cred.*, see [Deb./cred.](#debtorscreditors).
+      - *Chart of accounts*, see [Chart of accounts](#chart-of-accounts).
+      - *Deb./Cred.*, see [Deb./cred.](#debtorscreditors).
 
 
 - *Fiscal year XXXX/Month X/Journal X*  
@@ -536,10 +536,10 @@ This path displays the file location, name and page.
 
 - [Search bar]  
     Enter the search text (letters or numbers). The criteria selected in the *QUICK SEARCH* filter list is applied to the search.
-    - ![Cross](../../Assets/Icons/Cross02.png "[Cross]") (Cross)  
-        Click this button to clear the search bar.
-    - ![Search](../../Assets/Icons/Search.png "[Search]") (Search)  
-        Click this button to start the search. Alternatively, you can press the **ENTER** key.
+- ![Cross](../../Assets/Icons/Cross02.png "[Cross]") (Cross)  
+    Click this button to clear the search bar.
+- ![Search](../../Assets/Icons/Search.png "[Search]") (Search)  
+    Click this button to start the search. Alternatively, you can press the **ENTER** key.
 
 - [ACTIVE FILTERS]  
     Click this button to display the filter menu.
@@ -574,13 +574,13 @@ This path displays the file location, name and page.
 
     - *Date*  
         Click the drop-down list to select the applicable search criteria:
-        - **=**
+        - **=**  
             Search for an exact date.
-        - **between**
+        - **between**  
             Search for a date range.
-        - **before**
+        - **before**  
             Search for a period up to a specific date.
-        - **after**
+        - **after**  
             Search for a period after a specific date.   
 
         Click the ![Calendar](../../Assets/Icons/Calendar.png "[Cross]") (Calendar) button to select a date. Alternatively, you can directly enter a date in the format mm/dd/yy.
@@ -601,26 +601,26 @@ This path displays the file location, name and page.
 
     - *Date (creation)*  
         Click the drop-down list to select the applicable search criteria:
-        - **=**
+        - **=**  
             Search for an exact date.
-        - **between**
+        - **between**  
             Search for a date range.
-        - **before**
+        - **before**  
             Search for a period up to a specific date.
-        - **after**
+        - **after**  
             Search for a period after a specific date.   
 
         Click the ![Calendar](../../Assets/Icons/Calendar.png "[Cross]") (Calendar) button to select a date. Alternatively, you can directly enter a date in the format mm/dd/yy.
 
     - *Date (modification)*  
         Click the drop-down list to select the applicable search criteria:
-        - **=**
+        - **=**  
             Search for an exact date.
-        - **between**
+        - **between**  
             Search for a date range.
-        - **before**
+        - **before**  
             Search for a period up to a specific date.
-        - **after**
+        - **after**  
             Search for a period after a specific date.   
 
         Click the ![Calendar](../../Assets/Icons/Calendar.png "[Cross]") (Calendar) button to select a date. Alternatively, you can directly enter a date in the format mm/dd/yy.
@@ -948,7 +948,7 @@ The list displays the selected receipt for the split booking. Depending on the s
 - *Payment target*   
     Payment target of the receipt. By default, this field is empty.
 
-- *REST*
+- *REST*  
     Remaining amount to be split.
 
 
@@ -977,7 +977,7 @@ By default, the data of the selected receipt is preset in the input line.
 - *Posting text*  
     Click the field to edit a posting text for each partial posting.
 
-- *Payment target*
+- *Payment target*  
     Payment target of the receipt. This field is read-only.
 
 - *Exchange rate*  
@@ -1049,10 +1049,10 @@ By default, the data of the selected receipt is preset in the input line.
 
 ![Account sheet](../../Assets/Screenshots/RetailSuiteAccounting/Book/AccountSheet.png "[Account sheet]")
 
-- [x] *Accounts newly posted to*
+- [x] *Accounts newly posted to*  
     Select the checkbox to include only the newly added postings.
 
-- [x] *Reset mark*
+- [x] *Reset mark*  
     This checkbox must be selected for the previously set function to work.
 
 - *Month*  

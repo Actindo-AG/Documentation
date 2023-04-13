@@ -19,15 +19,15 @@ The workspace displays the balances for the selected account and/or contra accou
 The balance for the selected contra account is displayed on the left side of the workspace. The balance for the selected account is displayed on the right side of the workspace.
 
 - *CREDIT*  
-  The credit of the selected account or contra account is displayed in the specified currency on the left side of each T-account view.
+    The credit of the selected account or contra account is displayed in the specified currency on the left side of each T-account view.
 
 - *DEBIT*  
-  The debit of the selected account or contra account is displayed in the specified currency on the left side of each T-account view.
+    The debit of the selected account or contra account is displayed in the specified currency on the left side of each T-account view.
 
 - ![Radio button](../../Assets/Icons/RadioButtonChecked.png "[Radio button]") *All months*  
-  Select this radio button to display the balances for all months.
+    Select this radio button to display the balances for all months.
 
 - ![Radio button](../../Assets/Icons/RadioButtonChecked.png "[Radio button]")  *Only this month*  
-  Select this radio button to display the balances only for the selected month.
+    Select this radio button to display the balances only for the selected month.
 
 In all tabs of the *Post* menu entry, an identical footer with the input line is displayed. For detailed information on the contained elements and the corresponding functions, see [Postings input line](./01_InputLine.md).
