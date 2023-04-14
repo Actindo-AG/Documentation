@@ -1433,7 +1433,7 @@ The wizard to create offers for multiple connections is started. The wizard is c
 
 *PIM > Products > Select product > Tab Offers > Button Add > Button Add to multiple connections > Wizard window Select connections and status*
 
-![Add to multiple connections](../../Assets/Screenshots/PIM/Products/List/Offers/MultipleConnections01.png "[Add to multiple connections]")
+![Select connections and status](../../Assets/Screenshots/PIM/Products/List/Offers/SelectConnectionsStatus.png "[Select connections and status]")
 
 **Select status and change tracking mode**
 
@@ -1475,7 +1475,7 @@ The wizard to create offers for multiple connections is started. The wizard is c
 
 *PIM > Products > Select product > Tab Offers > Button Add > Button Add to multiple connections > Wizard window Select destination attribute sets*
 
-![Add to multiple connections](../../Assets/Screenshots/PIM/Products/List/Offers/MultipleConnections02.png "[Add to multiple connections]")
+![Select destination attribute sets](../../Assets/Screenshots/PIM/Products/List/Offers/SelectDestinationAttributeSets.png "[Select destination attribute sets]")
 
 - *Destination attribute set for connection*   
     Destination attribute set for the selected connection. The attribute set is automatically selected. This field is read-only. An own attribute set is assigned to each selected connection.
