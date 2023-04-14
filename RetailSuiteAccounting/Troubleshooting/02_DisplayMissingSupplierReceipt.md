@@ -24,35 +24,35 @@ No prerequisites to fulfill.
 ![Overview](../../Assets/Screenshots/RetailSuiteAccounting/Book/SupplierReceiptsOverview01.png "[Overview]")
 
 1. Check and note the supplier number for the missing supplier receipt and switch to the *DEBTORS/CREDITORS* tab: *Accounting > Settings > Tab DEBTORS/CREDITORS*.    
-  The *DEBTORS/CREDITORS* tab is displayed. By default, the *Customer/Supplier list* tab is preselected.
+    The *DEBTORS/CREDITORS* tab is displayed. By default, the *Customer/Supplier list* tab is preselected.
 
-  ![Customer/supplier list](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/CustomerSupplierList.png "[Customer/supplier list]")
+    ![Customer/supplier list](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/CustomerSupplierList.png "[Customer/supplier list]")
 
 2. Double-click the corresponding supplier in the *Customer/supplier list* tab.  
-  The *Supplier "Supplier number"* tab is displayed.
+    The *Supplier "Supplier number"* tab is displayed.
 
 
 3. Click the *CRM information* sub-tab in the *Supplier "Supplier number"* tab.  
-  The *CRM information* sub-tab is displayed.
+    The *CRM information* sub-tab is displayed.
 
-  ![Supplier CRM information](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/CRMInformation02b.png "[Supplier CRM information]")
+    ![Supplier CRM information](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/CRMInformation02b.png "[Supplier CRM information]")
 
 4. Click the *Supervisor* drop-down list and select the applicable responsible person in the *General* section.  
 
-  > [Info] The supplier receipt to be released is only displayed in the *Purchasing* module to the supervisor configured in the supplier settings.
+    > [Info] The supplier receipt to be released is only displayed in the *Purchasing* module to the supervisor configured in the supplier settings.
 
 5. Click the [SAVE] button.  
-  The changes in the CRM information have been saved. The *Successfully saved* pop-up window is displayed.
+    The changes in the CRM information have been saved. The *Successfully saved* pop-up window is displayed.
 
-  ![CRM data saved](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/CRMDataSaved.png "[CRM data saved]")
+    ![CRM data saved](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/CRMDataSaved.png "[CRM data saved]")
 
 6. Switch to the *Purchasing* module: *Purchasing > Check supplier receipts > Tab CHECK SUPPLIER RECEIPTS*.   
-  The *CHECK SUPPLIER RECEIPTS* tab is displayed.
+    The *CHECK SUPPLIER RECEIPTS* tab is displayed.
 
-  ![Check supplier receipt](../../Assets/Screenshots/RetailSuiteAccounting/Book/CheckSupplierReceipts01.png "[Check supplier receipt]")
+    ![Check supplier receipt](../../Assets/Screenshots/RetailSuiteAccounting/Book/CheckSupplierReceipts01.png "[Check supplier receipt]")
 
 7. Check if the missing supplier receipt is displayed.
-  > [Info] If the supplier receipt is still not displayed, please contact the Customer Support.    
+    > [Info] If the supplier receipt is still not displayed, please contact the Customer Support.    
 
 8. If desired, continue with the release process, see [Release a supplier receipt in Purchasing](../Operation/10_ManageReceipts.md#release-a-supplier-receipt-in-purchasing).
 
