@@ -162,8 +162,6 @@ The special rules to be followed to correctly include a tree node variable are d
     + Define the tree node attribute you want to include a variable for by adding the corresponding attribute key as a suffix to the entity variable.
     + Replace **"PropertyKey"** between the quotes by the desired property key of the corresponding tree node variable.
 
-[comment]: <> (stimmt das so? Muss der namespace immer der angegebene sein, oder variiert der auch?)
-
 3. If desired, display a [preview of the HTML template](#preview-an-html-template).
 
 4. Click the [SAVE] button in the upper right corner.   
@@ -171,10 +169,10 @@ The special rules to be followed to correctly include a tree node variable are d
 
 
 
-### Include language independent variables
+### Include a language adjustable variable 
 
-It is possible to define a variable in such a way, that it is language independent.   
-The special rules to be followed to correctly include a language independent variable via Smarty templates into your HTML template are described below.
+It is possible to define a variable in such a way, that its value is automatically adjusted depending on its language.   
+The special rules to be followed to correctly include such a variable via Smarty templates into your HTML template are described below.
 
 #### Prerequisites
 
@@ -182,7 +180,7 @@ The *HTML Templates for ETL* plugin has been installed.
 
 #### Procedure
 
-> [Info] If you want to include a language independent variable into a new HTML template, follow the steps described in the [Create an HTML template](#create-an-html-template) procedure before proceeding to the steps below.
+> [Info] If you want to include a variable that adjusts depending on its language into a new HTML template, follow the steps described in the [Create an HTML template](#create-an-html-template) procedure before proceeding to the steps below.
 
 *DataHub > Settings > Tab HTML TEMPLATES > Select HTML template*   
 
@@ -190,12 +188,10 @@ The *HTML Templates for ETL* plugin has been installed.
 
 1. Click the textarea and, if desired, edit or add the Smarty template(s) and/or HTML text for the template.
 
-2. Include a language independent variable by doing the following:
+2. Include language adjustable variable by doing the following:
     + Add **{datahub_attribute_value entity=$entity attributeKey="attributeKey" scopeKey="scopeKey" languageKey=$languageKey}** to the textarea.
     + Replace **"attributeKey"** between the quotes by the desired attribute key, for instance use **"pim_art_name"** for the PIM product name.
     + Replace **"scopeKey"** between the quotes by the desired channel key, for instance use **"actindo_basic** for the *Actindo Basic* channel.
-
-[comment]: <> (stimmt das so? geht das auch mit dem Channel so?)
 
 3. If desired, display a preview of the HTML template, see [Preview an HTML template](#preview-an-html-template).
 

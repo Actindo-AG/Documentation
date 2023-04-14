@@ -11,8 +11,6 @@
 - ![Search](../../Assets/Icons/Search.png "[Search]") (Search)   
     Click this button to display the search bar and search for an HTML template.
 
-[comment]: <> (Wonach kann ich suchen? Nur name und description?)
-
 - ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh)   
     Click this button to update the list of dimensions.
 
@@ -38,6 +36,7 @@ The list displays all HTML templates. Depending on the settings, the displayed c
 
 - ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add)   
     Click this button to create an HTML template. The *Create HTML template* view is displayed.   
+
 
 
 ## Create HTML template
@@ -67,7 +66,7 @@ The list displays all HTML templates. Depending on the settings, the displayed c
     Enter an HTML template key. The key is required for API access and must be system wide unique.
 
 - Textarea   
-    Enter the content for the HTML template. Use the Smarty template engine to include variables and tags to the template, see [Smarty](https://www.smarty.net/) .    
+    Enter the content for the HTML template. Use the Smarty template engine to include variables and tags to the template, see [Smarty](https://www.smarty.net/).    
 
 **Preview**
 
@@ -84,8 +83,6 @@ The list displays all HTML templates. Depending on the settings, the displayed c
 
 - [SAVE AND PREVIEW TEMPLATE]   
     Click this button to save the HTML template and display a preview of the template with the selected entity. The preview is displayed in a new window. The preview can only be displayed if both, an entity type and an entity ID have been selected. In the *Create HTML template* view, the button is locked.
-
-[comment]: <> (Ist das so gedacht, dass ich den Button nicht klicken kann?)
 
 
 
@@ -125,6 +122,7 @@ The list displays all HTML templates. Depending on the settings, the displayed c
 
     > [Info] Entity types are all classes interacting with the *DataHub* module.
 
+[comment]: <> (drop-down liste leer -> bug reported: BUG-192)
 
 - *Entity ID*   
     Enter the ID of the entity which should be applied within the template.

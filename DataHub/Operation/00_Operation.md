@@ -24,7 +24,7 @@ In this part of the *DataHub* documentation, you will find the following chapter
     - [Include Smarty templates](./03_ManageHTMLTemplates.md#include-html-text)
         - [Include attribute variables](./03_ManageHTMLTemplates.md#include-attribute-variables)
         - [Include a tree node variable](./03_ManageHTMLTemplates.md#include-a-tree-node-variable)
-        - [Include language independent variables](./03_ManageHTMLTemplates.md#include-language-independent-variables)
+        - [Include a language adjustable variable](./03_ManageHTMLTemplates.md#include-a-language-adjustable-variable)
     - [Edit an HTML template](./03_ManageHTMLTemplates.md#edit-an-html-template)
     - [Display the possible variables](./03_ManageHTMLTemplates.md#display-the-possible-variables)
     - [Preview an HTML template](./03_ManageHTMLTemplates.md#preview-an-html-template)
