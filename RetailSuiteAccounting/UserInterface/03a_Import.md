@@ -98,12 +98,12 @@ The following import options are available in the tab:
     Select the CSV file to be imported.
     - ![Radio button](../../Assets/Icons/RadioButtonChecked.png "[Radio button]") *Local file*  
         Select this radio button to select a local file from your device to be uploaded. The [Choose file] button is displayed in the box.
-    - [Choose file]  
-        Click this button to select a file from your device to be uploaded. If no file has been selected yet, the notice *No file chosen* is displayed o the right of the button.
+        - [Choose file]  
+            Click this button to select a file from your device to be uploaded. If no file has been selected yet, the notice *No file chosen* is displayed o the right of the button.
     - ![Radio button](../../Assets/Icons/RadioButtonChecked.png "[Radio button]") *DMS*  
         Select this radio button to select a file in the *Documents* module to be uploaded. A search bar and the [SEARCH] button are displayed in the box. This radio button is only displayed when the *Documents* module is installed.
-    - Search field   
-        Enter the file path of the file to be uploaded. It is recommended to use the [SEARCH] button to select a file. The file path is automatically entered in the field.
+        - Search field   
+            Enter the file path of the file to be uploaded. It is recommended to use the [SEARCH] button to select a file. The file path is automatically entered in the field.
 
 - [SEARCH]  
     Click this button to search for a file to be uploaded. The *Select file* window is displayed, see [Select file](#select-file).
