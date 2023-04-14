@@ -4,7 +4,7 @@
 
 # Manage the packaging types
 
-Packaging types serve as a suggestion for the fulfiller on the type of packaging and the preferred carrier that may apply for a shipment. Packaging types can be defined using many different criteria. All relevant fields (attributes) used are mapped via ETL from the relevant business document depending on the fulfiller's driver.  
+Packaging types serve as a suggestion for the fulfiller on the type of packaging and the preferred carrier that may apply for a shipment. Packaging types can be defined using many different criteria. All relevant attributes that are used are mapped via ETL from the relevant business document depending on the fulfiller's driver.  
 
 ## Create a packaging type
 
@@ -23,7 +23,7 @@ A connection has been established, see [Create a connection](./01_ManageConnecti
 1. Click the ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) button in the bottom right corner.   
   The *Create packaging type* view is displayed.
 
-    > [Info] The fields (attributes) displayed depend on fulfiller's driver and, therefore, there may be differences to the ones described below.
+    > [Info] The fields displayed depend on the fulfiller's driver and may therefore differ from those described below.
 
     ![Create packaging type](../../Assets/Screenshots/Fulfillment/Settings/PackagingTypes/CreatePackagingType.png "[Create packaging type]")
 
@@ -31,11 +31,11 @@ A connection has been established, see [Create a connection](./01_ManageConnecti
 
 2. Enter a name for the connection in the *Name* field. 
 
-3. If necessary, click the *Language* drop-down list and select a different language. By default, the language selected in the platform settings (user interface language) is preselected.
+3. If necessary, click the *Language* drop-down list to select the language. All languages that are active in *Data-Hub* module are displayed.
   
     > [Info] Additional languages can be added in the *DataHub* module, see [Create a language](../../DataHub/Integration/05_ManageLanguages.md#create-a-language).
 
-4. Enable the *Active* toggle to set the packaging type to active immediately after creation. By default, this toggle is disabled.  
+4. Enable the *Active* toggle to set the packaging type status to active after creation. By default, this toggle is disabled.  
     > [Info] The packaging type must be activated to be automatically selected by the system.
 
 5. Click the *Connection* drop-down list and select the applicable connection. All available connections are displayed in the list.
@@ -76,7 +76,8 @@ A connection has been established, see [Create a connection](./01_ManageConnecti
 11. Click the *Ship-to country* drop-down list and select the country where the shipment is to be sent to.
 
 12. Enter the applicable priority value in the *Priority* field. This field is mandatory.
-    > [Info] The priority value is used by the system to determine the packaging type to be used for a shipment when the criteria of two or more packaging types match. The priority value becomes then the decisive criterion. In the priority scale, the lower the number, the higher the priority, that is, priority 1 is higher than priority 4.
+    
+    > [Info] The priority value is used by the system to determine the packaging type for a shipment when the criteria of two or more packaging types match. The priority value then becomes the decisive criterion. In the priority scale, the lower the number, the higher the priority, that is, priority 1 is higher than priority 4.
 
 13. Enter the applicable information in the *Additional services (shipping method)* field. Both letters and numbers can be entered.
 
@@ -87,7 +88,7 @@ A connection has been established, see [Create a connection](./01_ManageConnecti
 
      The *Create packaging type* view is closed and the *List of packaging types* is displayed again.
 
-15. If necessary, click the ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh) button in the upper right corner to display the new packaging type in the list.   
+15. If necessary, click the ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh) button in the upper right corner to update the list of packaging types. The new packaging type is displayed in the list.   
   
 
 ## Edit a packaging type

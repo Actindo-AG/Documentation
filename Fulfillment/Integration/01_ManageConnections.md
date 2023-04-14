@@ -4,9 +4,7 @@
 
 Establish connections via drivers to connect your fulfillers' system with the *Actindo Core1 Platform*. 
 
-In the following, the general settings to create, edit, enable and disable connections are described. For certain connection drivers, you have to setup special configurations. Therefore, the connections below are described separately:
-
-- [Fiege connection](../../FiegeIntegration/Overview/01_General.md)
+In the following, the general settings to create, edit, enable and disable connections are described. For certain connection drivers, you have to setup special configurations. Therefore, the *Fiege* connection is described separately, see [Fiege connection](../../FiegeIntegration/Overview/01_General.md).
 
 
 ## Create a connection
@@ -40,7 +38,6 @@ At least one driver has been installed.
 
     > [Info] Depending on the selected driver, the fields in the *Credentials* section differ.
 
-
 4. Enter the required data in the fields in the *Credentials* section.
 
 5. Click the [SAVE] button.   
@@ -52,7 +49,7 @@ At least one driver has been installed.
 
     ![Edit connection settings](../../Assets/Screenshots/Fulfillment/Settings/Connections/EditConnectionSettings.png "[Edit connection settings]")
 
-    > [Info] By default, all connections that have been established are first inactive and therefore must be enabled after the connection configuration, see [Enable a connection](#enable-a-connection).
+    > [Info] By default, all connections that have been established are inactive and therefore must be enabled after the connection configuration, see [Enable a connection](#enable-a-connection).
 
 
 ## Edit a connection
@@ -85,16 +82,16 @@ At least one connection has been created, see [Create a connection](#create-a-co
 
     ![Credentials](../../Assets/Screenshots/Fulfillment/Settings/Connections/CheckingCredentials.png "[Credentials]")
 
-    The *Edit connection* view is automatically closed and the *Connections* view is displayed again.
+    The *Edit connection* view is automatically closed when the changes have been saved. The *Connections* view is displayed again.
 
 
 ## Enable a connection
 
-A connection can only be used if it is active. Otherwise, no data is being synchronized via the connection. By default, all connections that have been established are first inactive and therefore must be enabled. If a connection has been disabled temporarily, it can be enabled it again. It is possible to enable several inactive connections at a time.
+A connection can only be used if it is active. Otherwise, no data is being synchronized via the connection. By default, all connections that have been established are inactive and therefore must be enabled. If a connection has been disabled, it can be enabled again. It is possible to enable several connections at a time.
 
 #### Prerequisites
 
-- At least one connection has been created, see [Create a connection](#create-a-connection).
+- At least one connection has been established, see [Create a connection](#create-a-connection).
 - At least one connection is inactive, see [Disable a connection](#disable-a-connection).
 
 #### Procedure
@@ -106,13 +103,12 @@ A connection can only be used if it is active. Otherwise, no data is being synch
 1. Select the checkbox of the connection you want to enable in the list of connections.   
     The editing toolbar is displayed above the list of connections.
 
-2. Click the [ENABLE] button in the toolbar.   
+2. Click the [ENABLE] button in the editing toolbar.   
     The connection has been activated.
 
 3. If necessary, click the ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh) button to update the list of connections.   
     The status of the enabled connection in the *Status* column has switched to **Active**.
 
-[comment]: <> (Update der Liste läuft automatisch aber es dauert ein wenig. Refresh step vorischtshalber drin lassen?)
 
 
 ## Disable a connection
@@ -121,7 +117,7 @@ Once a connection has been established, it cannot be deleted. Nevertheless, the 
 
 #### Prerequisites
 
-- At least one connection has been created, see [Create a connection](#create-a-connection).
+- At least one connection has been established, see [Create a connection](#create-a-connection).
 - The connection is active, see [Enable a connection](#enable-a-connection).
 
 #### Procedure
@@ -133,11 +129,10 @@ Once a connection has been established, it cannot be deleted. Nevertheless, the 
 1. Select the checkbox of the connection you want to disable in the list of connections.   
     The editing toolbar is displayed above the list of connections.
 
-2. Click the [DISABLE] button in the toolbar.   
+2. Click the [DISABLE] button in the editing toolbar.   
     The connection has been deactivated.
 
 3. Click the ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh) button to update the list of connections.   
     The status of the disabled connection in the *Status* column has switched to **Inactive**.
 
-[comment]: <> (Update der Liste läuft automatisch aber es dauert ein wenig. Refresh step vorischtshalber drin lassen?)
 
