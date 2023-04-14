@@ -5,14 +5,14 @@
 # Manage the offers
 
 An offer represents a specific product on a marketplace. The structure of the offers is similar to the product structure: There are offers to master products, variants and single products.   
-In contrast to the PIM products, the connected driver determines all attributes that are displayed within an offer. This means that regardless of which attributes are assigned to a product in the *PIM* module, the offer for the corresponding product in the *Omni-Channel* module displays those attributes that are assigned to the product by the marketplace. Consequently, the offer must not contain all PIM attributes, but can also contain additional attributes that are not included in the *PIM* module.
+In contrast to the PIM products, the connected driver determines all attributes that are displayed within an offer. This means that regardless of which attributes are assigned to a product in the *PIM* module, the offer for the corresponding product in the *Omni-Channel* module displays those attributes that are assigned to the product by the marketplace. Consequently, the offer may not contain all PIM attributes, but can also contain additional attributes that are not included in the *PIM* module.
 
 You can create manual offers or offers from PIM products, edit offers, change their status, check the scheduled offer imports and delete offers that are no longer used.
 
 
 ## Create an offer
 
-To offer a product on a marketplace, you have to create an offer to the product. You can either create an offer from an existing PIM product or an offer for a new product.
+To offer a product on a marketplace, you have to create an offer to the product. You can either create an offer from an existing PIM product or from the scratch to manually maintain the offers details.
 
 ### Create an offer from a PIM product
 
@@ -76,11 +76,11 @@ If the Actindo *PIM* module is used, offers can be created directly from the PIM
 
     + Select the appropriate option for change tracking in the *ETL mode* section:   
         - ![Radiobutton](../../Assets/Icons/Radiobutton.png "[Radiobutton]") *manual*   
-            Changes in a PIM product must be triggered manually to be applied to the offer. The initial offer is automatically applied.   
+            Changes in a PIM product must be triggered manually to be applied to the offer. The offer is initially created with the mapped data from the PIM product.   
         - ![Radiobutton](../../Assets/Icons/Radiobutton.png "[Radiobutton]") *semiautomatic*   
-            Changes in a PIM product are automatically applied to the offer after confirmation. The initial offer is automatically applied without confirmation.   
+            Changes in a PIM product are automatically applied to the offer after confirmation. The initial offer is automatically applied without confirmation, see [Semiautomatic mapping](../UserInterface/02c_SemiautomaticMapping.md).   
         - ![Radiobutton](../../Assets/Icons/Radiobutton.png "[Radiobutton]") *semiautomatic, changes must be confirmed by another user*   
-          Changes in a PIM product are automatically applied to the offer after confirmation by another user. The initial offer is only applied after confirmation by another user.    
+          Changes in a PIM product are automatically applied to the offer after confirmation by another user. The initial offer is only applied after confirmation by another user, see [Semiautomatic mapping](../UserInterface/02c_SemiautomaticMapping.md).    
         - ![Radiobutton](../../Assets/Icons/Radiobutton.png "[Radiobutton]") *automatic*   
           Changes in a PIM product are automatically applied to the offer. The initial offer is also automatically applied.
 
@@ -119,6 +119,8 @@ At least one connection has been created, see [Create a connection](../Integrati
 1. Click the ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) button in the bottom right corner.   
     The [Manual offer ![Manual offer](../../Assets/Icons/Document.png "[Manual offer]") ] button and the [Create from PIM product ![Create from PIM product](../../Assets/Icons/Package.png "[Create from PIM product]") ] button are displayed.
 
+    > [Info] If the *PIM* module or the *PIM-Channels Connection* are not installed, the [Create from PIM product ![Create from PIM product](../../Assets/Icons/Package.png "[Create from PIM product]") ] button is not displayed. Therefore, the *Create offer* window is displayed immediately after clicking ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) button.
+
     ![Add offer](../../Assets/Screenshots/Channels/Offers/Offers/AddOffer.png "[Add offer]")
 
 2. Click the [Manual offer ![Manual offer](../../Assets/Icons/Document.png "[Manual offer]") ] button.   
@@ -128,7 +130,7 @@ At least one connection has been created, see [Create a connection](../Integrati
 
 3. Enter the desired SKU in the *SKU* field.
 
-    > [Info] The SKU (Stock Keeping Unit) is an identification number for the offer. Therefore, it has to be uniquely assigned to a single offer and should not be changed once assigned.
+    > [Info] The SKU (Stock Keeping Unit) is an identification number for the offer. Therefore, it has to be uniquely assigned to a single offer within a connection in the *Omni-Channel* module and should not be changed once assigned.
 
 4. Click the *Select connection* drop-down list and select the connection for which you want to create the offer. All available connections are displayed in the list.   
     The *Select attribute set* drop-down list is unlocked.
@@ -179,7 +181,7 @@ At least one offer has been created, see [Create an offer](#create-an-offer).
 3. Click the [SAVE] button in the upper right corner.   
     The changes have been saved. The *Edit offer* view is closed. The automatic upload has been triggered.
 
-    > [Info] Switch to *Offer Upload > Tab SCHEDULED UPLOADS* to check the queue for all scheduled offer uploads, see [Check the offer upload](./03_CheckOfferUpload.md).
+    > [Info] Switch to *Offer Upload > Tab SCHEDULED UPLOADS* to check the queue for all scheduled offer uploads, see [Check the offer upload](./03_CheckOfferUpload.md). Note that depending on the number of offers in the queue, the queue may already be empty when accessed if the offers have already been uploaded in the meantime and are therefore not displayed in the queue at all.
 
 
 
@@ -208,9 +210,12 @@ At least one offer has been created, see [Create an offer](#create-an-offer).
         The offer is inactive. It is no longer displayed in the marketplace and thus cannot be sold anymore.   
     - **Not available**   
         The offer is deleted from the marketplace.      
-        The *Change offer status* confirmation window is displayed. If the variant status of the selected offer equals **Master offer**, an additional toggle is displayed within the confirmation window.   
+        
+        The *Change offer status* confirmation window is displayed. If the variant status of the selected offer equals **Master offer**, an additional toggle is displayed within the confirmation window. If the variant status of the selected offer equals **Variant offer**, an additional warning is displayed within the confirmation window.    
 
         ![Change offer status](../../Assets/Screenshots/Channels/Offers/Offers/ChangeOfferStatus.png "[Change offer status]")
+
+        [comment]: <> (update screenshot)
 
 3. If desired, enable the *Apply parent status to all child offers?* toggle to apply the selected status to the master offer and all corresponding child offers. By default, the toggle is disabled. The toggle is only displayed if a master offer has been selected.
 
@@ -279,7 +284,7 @@ Only offers with the *Not available* status can be moved to the recycle bin. Off
 
     ![Product moved to recycle bin](../../Assets/Screenshots/Channels/Offers/Offers/ProductMovedToRecycleBin.png "[Product moved to recycle bin]")
 
-   > [Caution] Problems may occur if you delete an offer with existing dependencies.  
+   > [Caution] Problems may occur if you delete an offer with existing dependencies, for instance, if orders have already been placed to this offer.    
 
 > [Info] The offer is moved to the *RECYCLE BIN* tab, but it can still be recovered. To permanently delete the offer, see [Permanently delete an offer](#permanently-delete-an-offer).
 

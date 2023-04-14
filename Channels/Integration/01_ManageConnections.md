@@ -2,9 +2,9 @@
 
 # Manage the connections
 
-Establish connections via drivers to connect your marketplaces with the *Actindo Core1 Platform*. A marketplace can be either an online shop or a point of sale. You can establish an unlimited number of connections per driver.
+Establish connections via drivers to connect your marketplaces with the *Actindo Core1 Platform*. A driver bridges the gap between the *Omni-Channel* module and any marketplace, store system or point of sale. You can establish an unlimited number of connections per driver.
 
-In the following, the general settings to create, edit, synchronize or disable connections are described. For certain connection drivers, you have to set up special configurations. Therefore, the connections below are described separately:
+In the following, the general settings to create, edit, synchronize or disable connections are described. Except for the *Actindo POS* driver, you have to set up a special configuration for the specific drivers. The setup of the connections below is described separately in detail:
 - [Shopware 6 connection](../../Shopware6/Overview/00_General.md)
 - [Shopify connection](../../Shopify/Overview/00_General.md)
 - [Salesforce Commerce Cloud connection](../../CommerceCloud/Overview/00_General.md)
@@ -120,12 +120,12 @@ At least one connection has been established, see [Create a connection](#create-
 
 ## Disable a connection
 
-A connection can be disabled to prevent any further data from being synchronized via the connection without deleting the connection.
+A connection can be disabled to prevent any further data from being synchronized via the connection without deleting the connection. It is possible to disable several active connections at a time.
 
 #### Prerequisites
 
 - At least one connection has been established, see [Create a connection](#create-a-connection).
-- The connection is active.
+- At least one connection is active, see [Enable a connection](#enable-a-connection).
 
 #### Procedure
 
@@ -146,11 +146,12 @@ A connection can be disabled to prevent any further data from being synchronized
 
 ## Enable a connection
 
-A connection can only be used if it is active. Otherwise, no data is being synchronized via the connection. By default, all connection that has been established are active. If a connection has been disabled, you can enable this connection again.
+A connection can only be used if it is active. Otherwise, no data is being synchronized via the connection. By default, all connection that have been established are active. If a connection has been disabled, you can enable this connection again. It is possible to enable several connections at a time.
 
 #### Prerequisites
 
-At least one connection has been disabled, see [Disable a connection](#disable-a-connection).
+- At least one connection has been established, see [Create a connection](#create-a-connection).
+- At least one connection is inactive, see [Disable a connection](#disable-a-connection).
 
 #### Procedure
 
@@ -171,7 +172,7 @@ At least one connection has been disabled, see [Disable a connection](#disable-a
 
 ## Delete a connection
 
-A connection can only be used if it is active. Otherwise, no data is being synchronized via the connection. By default, all connection that has been established are active. If a connection has been disabled, you can enable this connection again.
+A connection can only be used if it is active. Otherwise, no data is being synchronized via the connection. By default, all connections that have been established are active. If a connection has been disabled, you can enable this connection again.
 
 #### Prerequisites
 
