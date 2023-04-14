@@ -42,8 +42,8 @@
         - ![Delete](../../Assets/Icons/Trash01.png "[Delete]") delete  
             Click this entry to delete the selected view. A confirmation window to confirm the deletion is displayed. This menu entry is only displayed if a view has been selected.
 
-- Status  
-    Click the drop-down list and select a dispatch note status. The following options are available:
+- *Status*   
+    Click the drop-down list to select a dispatch note status. The following options are available:
     - **All statuses**  
         Select this option to display all dispatch notes, regardless of their status.
     - **New dispatch note**  
@@ -55,16 +55,16 @@
     - **Dispatch note completed**  
         Select this option to display all dispatch notes that have been completed.
     - **Error**  
-        Select this option to display all dispatch notes that have given an error.
+        Select this option to display all faulty dispatch notes.
     - **Void**  
         Select this option to display all void dispatch notes.
 
-- Connections  
-    Click the drop-down list and select a connection. The following options are available:
+- *Connections*   
+    Click the drop-down list to select a connection. The following options are available:
     - **All connections**  
         Select this option to display the dispatch notes for all configured connections. 
     - **Connection name**  
-        Select this option to display the dispatch notes for the selected connection. When a specific connection has been selected, the **All connection** option is no longer displayed. Click the selected connection again to deselect it.  
+        Select this option to display the dispatch notes for the selected connection. When a specific connection has been selected, the **All connections** option is no longer displayed. Click the selected connection again to deselect it.  
 
 - ![Search](../../Assets/Icons/Search.png "[Search]") (Search)   
     Click this button to display the search bar and search for dispatch notes.
@@ -86,17 +86,18 @@
     The *Dispatch note "Dispatch note ID"* view is displayed, see [Dispatch note "Dispatch note ID"](#dispatch-note-dispatch-note-id). The *Attributes* tab is preselected.
 
 - [EXPORT]  
-    Click this button to export manually a dispatch note to the fulfiller. This button is displayed if the checkbox of at least one dispatch note is selected.
+    Click this button to export a dispatch note to the fulfiller. This button is displayed if the checkbox of at least one dispatch note is selected.
 
-    > [Info] The dispatch note is exported automatically by the system. If the export fails, the dispatch note can be manually reexported. For detailed information, see [Export a dispatch note](../Operation/01_ManageDispatchNotes.md#export-a-dispatch-note).
+    > [Info] The dispatch note is exported automatically by the system. If the export fails, the dispatch note can be manually re-exported. For detailed information, see [Export a dispatch note](../Operation/01_ManageDispatchNotes.md#export-a-dispatch-note).
 
 - [FORCE COMPLETION]  
-    Click this button to complete a dispatch note. This button is displayed if the checkbox of at least one dispatch note is selected. For detailed information, see [Complete a dispatch note](../Operation/01_ManageDispatchNotes.md#complete-a-dispatch-note). 
+    Click this button to complete a dispatch note. This button is displayed if the checkbox of at least one dispatch note is selected.   
+    For detailed information, see [Complete a dispatch note](../Operation/01_ManageDispatchNotes.md#complete-a-dispatch-note). 
 
 The list displays all dispatch notes. Depending on the settings, the displayed columns may vary. All fields are read-only.
 
 - *Connection*  
-    Connection to fulfiller.
+    Name of the connection to the fulfiller.
 
 - *Document number*  
     Dispatch note number. This number equals the delivery note number in the *Order management* module.
@@ -180,7 +181,7 @@ The list displays all dispatch notes. Depending on the settings, the displayed c
 **Dispatch note "Dispatch note ID"**
 
 - ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)   
-    Click this button to close the *Dispatch note "Dispatch note ID"* view and return to the list of dispatch notes.  
+    Click this button to close the *Dispatch note "Dispatch note ID"* view and return to the list of dispatch notes. All changes are rejected.
 
 - [CLOSE]  
     Click this button to close the *Dispatch note "Dispatch note ID"* view. The list of dispatch notes is displayed.
@@ -191,7 +192,7 @@ The list displays all dispatch notes. Depending on the settings, the displayed c
 
 ![Attributes](../../Assets/Screenshots/Fulfillment/DispatchNotes/DispatchNoteAttributes.png "[Attributes]")
 
-In the left margin column, all available attribute groups are displayed. Click a group to display the attributes that are assigned to this group on the right side of the *Attributes* tab. If the dispatch note contains attributes that are unassigned, the *Unassigned Group* group is automatically displayed in the left margin column.
+In the left margin column, all available attribute groups are displayed. Click a group to display the attributes that are assigned to this group on the right side of the *Attributes* tab. If the dispatch note contains attributes that are unassigned, the *Unassigned group* attribute group is automatically displayed in the left margin column.
 
 The right side of the *Attributes* tab displays all attributes that are assigned to the selected group in the left margin column. Depending on the attribute group selected, the fields displayed vary. The dispatch note attributes are imported via the fulfiller driver. All fields are locked and, therefore, read-only.
 
@@ -224,19 +225,20 @@ The right side of the *Attributes* tab displays all attributes that are assigned
 - [x]     
     Select the checkbox to display the editing toolbar. If you click the checkbox in the header, all dependent entities in the list are selected.
 
-The list displays all dependencies of the selected dispatch note. Depending on the settings, the displayed columns may vary. All fields are read-only. 
+The list displays all dependencies of the selected dispatch note. Depending on the settings, the displayed columns may vary. All fields are read-only.    
+If no dependent entities exist, the *No other entities depend on this entity* notice is displayed.
 
 - *Dependent entity ID*   
     Identification number of the dependent entity. The ID number is automatically assigned by the system. 
 
 - *Dependent entity type*   
-    Type of the dependent entity. 
+    Type of the dependent entity. The available types depend on the installed plugins.
 
 - *Change tracking mode*   
     Change tracking mode (ETL mode) of the dependent entity. The following options are available:
     - **Manual**
-    - **Semi-automatic**
-    - **Semi-automatic, changes must be confirmed by another user**   
+    - **Semiautomatic**
+    - **Semiautomatic, changes must be confirmed by another user**   
     - **Automatic**
 
 - *Dependent entity friendly identifier*   
@@ -245,7 +247,6 @@ The list displays all dependencies of the selected dispatch note. Depending on t
 - [RERUN MAPPING]   
     Click this button to rerun the mapping of the selected entity. This button is only displayed if the checkbox of at least one dependency is selected.	
 
-    > [Info] If no dependent entities exist, the *No other entities depend on this entity* notice is displayed. 
 
 ## Dispatch note "Dispatch note ID" &ndash; Shipments
 
@@ -308,7 +309,7 @@ The list displays all shipments. Depending on the settings, the displayed column
 **Shipment "Shipment ID"**
 
 - [BACK]  
-    Click this button to go back to the previous view. The *Shipments* view is displayed.
+    Click this button to close the **Shipment "Shipment ID"** view and return to the list of shipments. All changes are rejected.
 
 ### Shipment attributes &ndash; Attributes
 
@@ -316,9 +317,9 @@ The list displays all shipments. Depending on the settings, the displayed column
 
 ![Shipment attributes](../../Assets/Screenshots/Fulfillment/DispatchNotes/ShipmentsAttributesAttributes.png "[Shipment attributes]")
 
-In the left margin column, all available attribute groups are displayed. Click a group to display the attributes that are assigned to this group on the right side of the *Attributes* tab. If the shipment contains attributes that are unassigned, the *Unassigned Group* group is automatically displayed in the left margin column.
+In the left margin column, all available attribute groups are displayed. Click a group to display the attributes that are assigned to this group on the right side of the *Attributes* tab. If the shipment contains attributes that are unassigned, the *Unassigned group* attribute group is automatically displayed in the left margin column.
 
-The right side of the *Attributes* tab displays all attributes that are assigned to the selected group in the left margin column. Depending on the attribute group selected, the fields displayed vary. All fields are locked and, therefore, read-only.
+The right side of the *Attributes* tab displays all attributes that are assigned to the selected group in the left margin column. Depending on the selected attribute group, the displayed fields may vary. All fields are read-only.
 
 - ![Folders](../../Assets/Icons/Folders01.png "[Folders]") (Folders)  
     Attribute group that contains attribute sub-groups. Click the attribute group or the arrow *>* left to the attribute group to unfold the group and display the attribute sub-groups.
@@ -392,7 +393,7 @@ The list displays all dependencies of the selected shipment. Depending on the se
 The list displays all packages contained in the selected shipment. Depending on the settings, the displayed columns may vary. All fields are read-only.
 
 - *Packaging type*  
-    Packaging type name. Packages types can be defined in the *PACKAGING TYPES* tab of the *Settings* menu entry, see [Manage the packaging types](../Integration/02_ManagePackagingTypes.md).
+    Packaging type name. Packaging types can be defined in the *PACKAGING TYPES* tab of the *Settings* menu entry, see [Manage the packaging types](../Integration/02_ManagePackagingTypes.md).
 
 - *Created*  
     Date and time of the creation.
@@ -476,7 +477,7 @@ The list displays all items contained in the selected package. Depending on the 
 
 ![Dispatch note logs](../../Assets/Screenshots/Fulfillment/DispatchNotes/DispatchNoteLogs.png "[Dispatch note logs]")
 
-This tab displays an extract from the list of intents contained in the *Logging* menu entry. The intents displayed in this tab only refer to the selected dispatch note. For a detailed description of this window and the corresponding functions, see [Connections (Logging)](./02a_Connections.md).
+This tab displays an extract from the list of intents contained in the *CONNECTIONS* tab of the *Logging* menu entry. The intents displayed in this tab refer to the selected dispatch note. For a detailed description of this window and the corresponding functions, see [Connections (Logging)](./02a_Connections.md).
 
 
 ## Create view
@@ -494,7 +495,7 @@ This tab displays an extract from the list of intents contained in the *Logging*
 - [SAVE]   
     Click this button to save the new view and display it in the *VIEW* drop-down list. The *Create view* window is closed.
 
-This window can also be accessed from the following tabs in the user interface:
+This window can also be accessed via the following tabs in the user interface:
 
 - [CONNECTIONS (Logging)](02a_Connections.md#create-view)
 - [CONNECTIONS (Settings)](03a_Connections.md#create-view)
@@ -515,7 +516,7 @@ This window can also be accessed from the following tabs in the user interface:
 - [SAVE]   
     Click this button to save the changes and display it in the *VIEW* drop-down list. The *Rename view* window is closed.
 
-This window can also be accessed from the following tabs in the user interface:
+This window can also be accessed via the following tabs in the user interface:
 
 - [CONNECTIONS (Logging)](02a_Connections.md#rename-view)
 - [CONNECTIONS (Settings)](03a_Connections.md#rename-view)

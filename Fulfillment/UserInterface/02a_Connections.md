@@ -52,10 +52,10 @@
     Click this button to display the filter bar and customize the active filters. The *x* indicates the number of filters that are currently active.
 
 - [x]     
-    Select the checkbox to display the editing toolbar. Only one intent can be selected at a time.
+    Select the checkbox to display the editing toolbar. You can only select one checkbox at a time.
 
 - [![Show message](../../Assets/Icons/ShowMessage.png "[Show message]") SHOW MESSAGE]  
-    Click this button to display the message(s) contained in the selected intent. This button is only displayed if a single checkbox in the list of intents is selected. Alternatively, you can click directly a row in the list to view an intent. The *List of messages* view is displayed, see [List of messages](#list-of-messages).
+    Click this button to display the message(s) contained in the selected intent. This button is only displayed if a single checkbox in the list of intents is selected. Alternatively, you can click directly a row in the list to display an intent. The *List of messages* view is displayed, see [List of messages](#list-of-messages).
 
 
 The list displays all intents. Depending on the settings, the displayed columns may vary. All fields are read-only.
@@ -73,7 +73,7 @@ The list displays all intents. Depending on the settings, the displayed columns 
     Name and username of the user who created the intent.  
 
 - *Max log level of message*  
-    Maximal log level type of the message(s) contained in the intent. The following levels are available:
+    Maximum log level type of the message(s) contained in the intent. The following levels are available:
   - **Debug**
   - **Info**
   - **Notice**
@@ -102,21 +102,21 @@ The list displays all intents. Depending on the settings, the displayed columns 
 **List of messages**
 
 - ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)   
-    Click this button to close the *List of messages* view and return to the list of intents.
+    Click this button to close the *List of messages* view and return to the list of intents. All changes are rejected.
 
 - ![Unpublish](../../Assets/Icons/Unpublish02.png "[Unpublish]")  
     Click this to download the message.
 
 [comment]: <> (Warhscheinlich bug - sollte ausgeblendet werden laut SW. Evtl. löschen?)
 
-- ![View](../../Assets/Icons/Eye02.png "[View]")  
-    Click this button to view the message details. Alternatively, you can click directly a row in the list to display the details of the log message. The *Detail of log message "Log message title"* view is displayed, see [Detail of log message "Log message title"](#detail-of-log-message-log-message-title). 
+- ![View](../../Assets/Icons/Eye02.png "[View]")  (View)   
+    Click this button to display the details of the log message. Alternatively, you can click directly a row in the list to display the details of the log message. The *Detail of log message "Log message title"* view is displayed, see [Detail of log message "Log message title"](#detail-of-log-message-log-message-title). 
 
 
-The list displays all messages contained in the selected intent. Depending on the settings, the displayed columns may vary. All fields are read-only.
+The list displays all log messages of the selected intent. Depending on the settings, the displayed columns may vary. All fields are read-only.
 
 - *Title*  
-    Description of the message.
+    Title of the log message.
 
 - *Log level*  
     Log level type. The following levels are available:
@@ -136,10 +136,10 @@ The list displays all messages contained in the selected intent. Depending on th
     Name and username of the user who created the message.
 
 - *Message*  
-    Details of the message.
+    Detailed log message to the intent.
 
 - *ID*  
-    Message identification number. The ID number is automatically assigned by the system.
+    Log message identification number. The ID number is automatically assigned by the system.
 
 
 ### Detail of log message "Log message title"
@@ -149,12 +149,12 @@ The list displays all messages contained in the selected intent. Depending on th
 ![List of messages](../../Assets/Screenshots/Fulfillment/Logging/DetailLogMessageAttributes.png "[List of messages]")
 
 - ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)   
-    Click this button to close the *Detail of log message "Log message title"* view and return to the list of messages.
+    Click this button to close the *Detail of log message "Log message title"* view and return to the list of messages. All changes are rejected.
 
 - [CANCEL]  
-    Click this button to close the *Detail of log message "Log message title"* view. The list of messages is displayed.
+    Click this button to close the *Detail of log message "Log message title"* view.
 
-- Message  
+- *Message*    
     Description of the log message.
 
 
@@ -164,7 +164,7 @@ The list displays all messages contained in the selected intent. Depending on th
 
 ![Detail Log Message Attributes](../../Assets/Screenshots/Fulfillment/Logging/DetailLogMessageAttributes.png "[Detail Log Message Attributes]")
 
-The *Attributes* tab displays further details of the selected log message. Depending on the message type, the assigned attributes, and therefore the fields displayed, may vary. All fields are read-only.
+The *Attributes* tab displays further details of the selected log message. Depending on the attribute set of the log message, the displayed fields vary. All fields are read-only.
 
 In general, the most common attribute sets are the standard error log message attribute set and the API communication attribute set. The fields of these sets are described in the following. Furthermore, it is possible to create a custom log message attribute set with different fields.
 

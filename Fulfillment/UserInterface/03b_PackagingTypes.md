@@ -55,7 +55,7 @@
     Select the checkbox to display the editing toolbar.
 
 - [EDIT]  
-    Click this button to edit the selected packaging type. This button is only displayed if a single checkbox in the list of packaging types is selected. Alternatively, you can click directly a row in the list to edit a packaging type. The *Edit packaging type* view is displayed.
+    Click this button to edit the selected packaging type. This button is only displayed if a single checkbox in the list of packaging types is selected. Alternatively, you can click directly a row in the list to edit the corresponding packaging type. The *Edit packaging type* view is displayed.
 
 - [DELETE]  
     Click this button to delete one or several selected packaging types.
@@ -110,12 +110,12 @@ The list displays all packaging types. Depending on the settings, the displayed 
     Country where the packaging type is shipped to.
 
 - *Priority*  
-    Indication of the priority configured for the packaging type. The priority value is used by the system to determine the packaging type to be used for a shipment when the criteria of two or more packaging types match. The lower the number, the higher the priority.
+    Indication of the priority configured for the packaging type. The priority value is used by the system to determine the packaging type to be used for a shipment when the criteria of two or more packaging types match. The lower the number, the higher the priority. This field is mandatory.
 
 - *Additional services (shipping method)*  
     Additions services offered as defined by the user. 
 
-- *Attribute*    
+- Attribute      
     You can add an additional column for each attribute that is assigned to the packaging type. The column displays the attribute name, the row displays the corresponding attribute value of the packaging type.
 
 - ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add)  
@@ -134,9 +134,10 @@ The list displays all packaging types. Depending on the settings, the displayed 
     Click this button to close the *Create packaging type* view and return to the list of packaging types. All changes are rejected.
 
 [comment]: <> (Actindo Basic Channel in Screenshot sollte ausgeblendet werden, da nicht von Fulfillment Modul benutzt. Schon mit SW besprochen. Evtl. neue Screenshots notwendig.)
-
+- *Channel*   
+   Click the drop-down list to select the channel. All available channels are displayed in the drop-down list.
 - *Language*      
-    Click the drop-down list and select the language in which the data is to be managed. All available languages are displayed. By default, the language set up in the system is preselected.
+    Click the drop-down list to select a different language for the packaging type. All active languages in the *DataHub* module are displayed. The default language is preselected.
 
 - [SAVE]   
     Click this button to save the packaging type, close the *Create packaging type* view and return to the list of packaging types.
@@ -189,13 +190,13 @@ The list displays all packaging types. Depending on the settings, the displayed 
 [comment]: <> (Stimmt das so? Button SAVE funktioniert nicht. Bug gemeldet.)
 
 - *Carrier*  
-    Enter the preferred carrier for the packaging type. Numbers, letters or a combination of characters can be used.
+    Enter the carrier identifier for the packaging type.
 
 - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Express*  
     Enable this toggle to set the shipping type for the packaging type to express. Disable the toggle to set the shipping type for the packaging type to standard. By default, this toggle is disabled.  
 
 - *Packaging type identifier*  
-    Enter the packaging type identifier. Numbers, letters or a combination of characters can be used.
+    Enter the packaging type identifier. 
 
 - *Ship-to country*  
     Click the drop-down list and select the country where the packaging type is shipped to.
@@ -217,10 +218,10 @@ The list displays all packaging types. Depending on the settings, the displayed 
     Click this button to close the *Edit packaging type* view and return to the list of packaging types. All changes are rejected.
 
 - *Channel*  
-    Click the drop-down list to select the channel. All available  are displayed in the drop-down list. By default, the *Actindo Basic* channel is preselected.
+    Click the drop-down list to select the channel. All available channels are displayed in the drop-down list.
 
 - *Language*      
-    Click the drop-down list and select a different language in which the fields are displayed. All available languages are displayed. By default, the language set up in the system is preselected.  
+    Click the drop-down list to select a different language for the packaging type. All active languages in the *DataHub* module are displayed. The default language is preselected.
 
 - [SAVE]   
     Click this button to save any changes made to the packaging type, close the *Edit packaging type* view and return to the list of packaging types.

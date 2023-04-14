@@ -49,13 +49,13 @@
     Select the checkbox to display the editing toolbar. If you click the checkbox in the header, all connections in the list are selected.
 
 - [DISABLE]  
-    Click this button to disable the selected connection(s) This button is displayed if the checkbox of at least one active connection is selected. For detailed information see [Disable a connection](../Integration/01_ManageConnections.md#disable-a-connection).
+    Click this button to disable the selected connection(s). This button is only displayed if the checkbox of at least one active connection is selected. For detailed information see [Disable a connection](../Integration/01_ManageConnections.md#disable-a-connection).
 
 - [ENABLE]  
-    Click this button to enable the selected connection(s) This button is displayed if the checkbox of at least one inactive connection is selected. For detailed information see [Enable a connection](../Integration/01_ManageConnections.md#enable-a-connection).
+    Click this button to enable the selected connection(s). This button is only displayed if the checkbox of at least one inactive connection is selected. For detailed information see [Enable a connection](../Integration/01_ManageConnections.md#enable-a-connection).
 
 - ![Edit](../../Assets/Icons/Edit01.png "[Edit]") (Edit)  
-    Click this button to edit the selected connection. This button is only displayed if a single checkbox in the list of connections is selected. Alternatively, you can click directly a row in the list to edit a connection. The *Edit connection* view is displayed, see [Edit connection](#edit-connection). The *Credentials* tab is selected.
+    Click this button to edit the selected connection. This button is only displayed if a single checkbox in the list of connections is selected. Alternatively, you can click directly a row in the list to edit the corresponding connection. The *Edit connection* view is displayed, see [Edit connection](#edit-connection).
 
 
 The list displays all available connections. Depending on the settings, the displayed columns may vary. All fields are read-only.
