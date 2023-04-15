@@ -115,7 +115,7 @@ The list displays all packaging types. Depending on the settings, the displayed 
 - *Shipping method*  
     Additions services offered as defined by the user. 
 
-- Attribute      
+- *"Attribute name"*      
     You can add an additional column for each attribute that is assigned to the packaging type. The column displays the attribute name, the row displays the corresponding attribute value of the packaging type.
 
 - ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add)  
@@ -134,9 +134,9 @@ The list displays all packaging types. Depending on the settings, the displayed 
     Click this button to close the *Create packaging type* view and return to the list of packaging types. All changes are rejected.
 
 [comment]: <> (Actindo Basic Channel in Screenshot sollte ausgeblendet werden, da nicht von Fulfillment Modul benutzt. Schon mit SW besprochen. Evtl. neue Screenshots notwendig.)
-- *Channel*   
+- *"Channel name"*   
    Click the drop-down list to select the channel. All available channels are displayed in the drop-down list.
-- *Language*      
+- *"Language name"*      
     Click the drop-down list to select a different language for the packaging type. All active languages in the *DataHub* module are displayed. The default language is preselected.
 
 - [SAVE]   
@@ -217,10 +217,10 @@ The list displays all packaging types. Depending on the settings, the displayed 
 - ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)   
     Click this button to close the *Edit packaging type* view and return to the list of packaging types. All changes are rejected.
 
-- *Channel*  
+- *"Channel name"*  
     Click the drop-down list to select the channel. All available channels are displayed in the drop-down list.
 
-- *Language*      
+- *"language name"*      
     Click the drop-down list to select a different language for the packaging type. All active languages in the *DataHub* module are displayed. The default language is preselected.
 
 - [SAVE]   

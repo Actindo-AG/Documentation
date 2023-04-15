@@ -68,7 +68,7 @@ The list displays all intents. Depending on the settings, the displayed columns 
     Date and time of the creation.
 
 - *Created by*  
-    Name and username of the user who created the intent.  
+    Name and username of the user that initiated the action leading to the intent. If the intent was created automatically by the system, this field is empty. 
 
 - *Max log level of message*  
     Maximum log level type of the message(s) contained in the intent. The following levels are available:
@@ -131,7 +131,7 @@ The list displays all log messages of the selected intent. Depending on the sett
     Date and time of the creation.
 
 - *Created by*  
-    Name and username of the user who created the message.
+    Name and username of the user that initiated the action leading to the log message. If the log message was created automatically by the system, this field is empty. 
 
 - *Message*  
     Detailed log message to the intent.

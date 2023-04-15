@@ -172,7 +172,7 @@ The list displays all dispatch notes. Depending on the settings, the displayed c
 - *Shipping method*  
     Shipping method identifier. Additional services offered as defined by the user.
 
-- Attribute    
+- *"Attribute name"*    
     You can add a column for each attribute that is assigned to the dispatch note. The column displays the attribute name, the row displays the corresponding attribute value of the dispatch note.
 
 
@@ -301,7 +301,7 @@ The list displays all shipments. Depending on the settings, the displayed column
 - *Modified*    
     Date and time of the last modification.
 
-- Attribute    
+- *"Attribute name"*    
     You can add a column for each attribute that is assigned to the shipment. The column displays the attribute name, the row displays the corresponding attribute value of the shipment.
 
 
@@ -414,12 +414,12 @@ The list displays all packages contained in the selected shipment. Depending on 
     Package tracking link.
 
 - *Package ID*  
-    Package identification number.
+    Package identification number. This identifier is provided by the fulfiller.
 
 - *Proof of delivery*  
-    Proof of delivery.
+    Proof of delivery in the form of link leading to the relevant data, such as a photo of the delivery location or a signed delivery receipt. 
 
-- Attribute    
+- *"Attribute name"*    
     You can add a column for each attribute that is assigned to the shipment package. The column displays the attribute name, the row displays the corresponding attribute value of the shipment package.
     
 
@@ -471,7 +471,7 @@ The list displays all items contained in the selected package. Depending on the 
 - *Dangerous goods indicator*  
     Indication whether the item has been classified as a dangerous product.
 
-- Attribute    
+- *"Attribute name"*    
     You can add a column for each attribute that is assigned to the item. The column displays the attribute name, the row displays the corresponding attribute value of the item.
 
 ## Dispatch note "Dispatch note ID" &ndash; Logs

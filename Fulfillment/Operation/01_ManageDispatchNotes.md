@@ -22,7 +22,7 @@ A dispatch note provides numerous order-related details, which may vary dependin
 #### Prerequisites
 
 - At least one connection has been created, see [Create a connection](../Integration/01_ManageConnections.md#create-a-connection).
-- At least one dispatch note has been generated.
+- At least one dispatch note has been created.
 
 #### Procedure
 
@@ -48,17 +48,15 @@ A dispatch note provides numerous order-related details, which may vary dependin
 
 2. Check the dispatch note number in the *Document number* column. The document number equals the delivery note number and can be useful to find further order-related details in the *Order management* module.
 
-3. Check the order number in the *Description* column.    
-    The order number is a user-defined field. It can be useful to find further order-related details in the *Order management* module.
+3. Check the order number in the *Description* column. The order number is a user-defined field. It can be useful to find further order-related details in the *Order management* module.
 
-4. Check the packaging type identification number in the *Packaging type* column. Alternatively, click a dispatch note and select the *Attributes* sub-tab, if it is not preselected.  
-    The packaging type identification number is displayed in the *FULFILLMENT DISPATCH NOTE BASE ATTRIBUTES* section.  
+4. Check the packaging type identification number in the *Packaging type* column.    
 
-    > [Info] The packaging types are defined in the *PACKAGING TYPES* tab of *Settings* menu entry and provide detailed information on the packaging used for shipment, the shipping type, and the ship-to country, among others. For detailed information, see [Packaging types](../UserInterface/03b_PackagingTypes.md).  
+    > [Info] The packaging types are defined in the *PACKAGING TYPES* tab of *Settings* menu entry and provide detailed information on the packaging used for the shipment, the shipping type, and the ship-to country, among others. For detailed information, see [Packaging types](../UserInterface/03b_PackagingTypes.md).  
 
-6. Check the shipment status in the *Shipment status* column. For further information, see [Check the shipment status](./02_CheckShipment.md#check-the-shipment-status).
+5. Check the shipment status in the *Shipment status* column. For further information, see [Check the shipment status](./02_CheckShipment.md#check-the-shipment-status).
 
-7. If desired, click the ![Columns](../../Assets/Icons/Columns.png "[Columns]") (Columns) button to add further details to the list of dispatch notes. 
+6. If desired, click the ![Columns](../../Assets/Icons/Columns.png "[Columns]") (Columns) button to add further details to the list of dispatch notes. 
 
     > [Info] Additional information can be displayed depending on the attributes mapped via the fulfiller's driver when establishing the connection. 
 
@@ -71,7 +69,7 @@ The fulfillers may not notify if an order has been delivered. In this case, the 
 
 - The shipment has been delivered.
 - The dispatch note status is **Partner confirmed receival** and the shipment status is ![Circular arrows](../../Assets/Icons/CircularArrows.png "[Circular arrows]") (In progress) in the list of dispatch notes. 
-- All shipments included in the dispatch note have been shipped, that is, the status of all shipments included in the *Shipments* sub-tab of the *Dispatch note "Dispatch note ID"* view is **Shipped**.
+- The status of all shipments in the dispatch note in the *Shipments* sub-tab of the *Dispatch note "Dispatch note ID"* view is **Shipped**.
 
 #### Procedure
 
@@ -84,6 +82,10 @@ The fulfillers may not notify if an order has been delivered. In this case, the 
 
 2. Click the *Shipments* sub-tab.  
     All shipments included in the dispatch note are displayed.
+
+    ![Dispatch notes](../../Assets/Screenshots/Fulfillment/DispatchNotes/DispatchNoteShipmentsShipped.png "[Dispatch notes]")
+
+[comment]: <> (Screenshot nochmals ziehen mit richtigen Auslösung)
 
 3. Verify that the status of all shipments is **Shipped**.
 
@@ -100,7 +102,7 @@ The fulfillers may not notify if an order has been delivered. In this case, the 
 
     ![Forced to completion](../../Assets/Screenshots/Fulfillment/DispatchNotes/ForcedtoCompletion.png "[Forced to completion]")
 
-    The *Status* column changes to **Dispatch note completed** and the *Shipment status* column changes to ![Double check](../../Assets/Icons/DoubleCheck.png "[Double check]") (Double check). The status of all shipments included in the dispatch note is updated to **Delivered**.    
+    The dispatch note status in the *Status* column changes to **Dispatch note completed** and the shipment status in the *Shipment status* column changes to ![Double check](../../Assets/Icons/DoubleCheck.png "[Double check]") (Double check). The status of all shipments in the dispatch note is updated to **Delivered**.    
 
 
 ## Export a dispatch note
@@ -109,7 +111,7 @@ You can re-export a dispatch note to the fulfiller if the receival has failed in
 
 #### Prerequisites
 
-- A dispatch note has been generated and sent.
+- A dispatch note has been created and sent.
 - The dispatch note status is **Transferred to partner**.
 - The shipment status is ![Cross](../../Assets/Icons/Cross02.png "[Cross]") (No shipment).
 

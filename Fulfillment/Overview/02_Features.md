@@ -3,10 +3,10 @@
 Easily optimize shipping processes with the Actindo *Fulfillment* module:
 
 - Connection to logistics providers  
-Logistics and fulfillment providers for your shipping processes can be connected natively to the *Actindo Core1 Platform*. This way, all information about your shipments would be available to you in one place.
+    Logistics and fulfillment providers for your shipping processes can be connected natively to the *Actindo Core1 Platform*. This way, all information about your shipments would be available to you in one place.
 
 - Support for shadow and consignment warehouses  
-Fulfillment providers and consignment warehouses can be mapped as shadow warehouses in the *Actindo Core 1 Platform* so that all warehouse movements are available live in your system.  
+    Fulfillment providers and consignment warehouses can be mapped as shadow warehouses in the *Actindo Core 1 Platform* so that all warehouse movements are available live in your system.  
 
 [comment]: <> (Check, ob Info aus der Webseite allgemein aktuell, und konkret Integrated shipping module, Shadow / Consignment Warehouses)
 

@@ -12,7 +12,7 @@ The shipment status can be checked in the list of dispatch notes. Even though th
 
 #### Prerequisites
 
-A dispatch note has been generated. 
+A dispatch note has been created. 
 
 #### Procedure
 
@@ -90,9 +90,10 @@ The shipment status is at least ![Circular arrows](../../Assets/Icons/CircularAr
 
 [comment]: <> (Kein CLOSE oder CANCEL button in Items Fenster. Bug gemeldet am 15.02.23. Evtl. nicht gefixed bis neuer UI. Alternativ außerhalb des Fensters klicken, dann verschwindet/schließt es auch.)
 
-9. Click the [BACK] button on the upper right corner of the *PACKAGES* sub-tab to go back to the *PACKAGES* view.
+9.  Click the [BACK] button in the upper right corner of the *PACKAGES* sub-tab.   
+    The *Shipments* tab is displayed again.
 
-    If needed, repeat the steps **6** and **7** to check other packages contained in the shipment. 
+    > [Info] If needed, repeat the steps **4** and **7** to check other packages contained in the shipment. 
 
 10. Click the [CLOSE] button in the upper right corner of the *Dispatch note "Dispatch note ID"* view.  
     The *Dispatch note "Dispatch note ID"* view is closed. The list of dispatch notes is displayed again.
