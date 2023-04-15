@@ -131,7 +131,7 @@ The list displays all dispatch notes. Depending on the settings, the displayed c
         No information on the shipment status has been received from fulfiller.
 
 - *Description*  
-    Dispatch note description as defined by the user. Numbers, letters or a combination of characters may be used. The information provided in this field can be entered in the search bar to search for a specific dispatch note.
+    Dispatch note description as defined by the user. Numbers, letters or a combination of characters may be used. 
 
 - *Created*  
     Date and time of the creation.
@@ -144,12 +144,18 @@ The list displays all dispatch notes. Depending on the settings, the displayed c
 
 - *Status ID*  
   Dispatch note status identifier. The following options are available:
-    - **new**
-    - **transferred**
-    - **confirmed**
-    - **completed**
-    - **error**
-    - **void**
+    - **new**  
+        The dispatch note has been newly created.
+    - **transferred**  
+        The dispatch note has been transferred to the fulfiller.
+    - **confirmed**  
+        The fulfiller has confirmed receival of the dispatch note.
+    - **completed**  
+        The dispatch note has been completed.
+    - **error**  
+        The dispatch note has given an error while exporting.
+    - **void**  
+        The dispatch note is void, for instance, because of an order cancellation.
 
 - *Carrier*  
     Carrier identifier.
@@ -164,9 +170,7 @@ The list displays all dispatch notes. Depending on the settings, the displayed c
     > [Info] The shipping type can be set up in the *PACKAGING TYPES* tab in the *Settings* menu entry, see [Packaging types](./03b_PackagingTypes.md).
 
 - *Shipping method*  
-    Shipping method (additional services) identifier.
-
-[comment]: <> (Evtl. wird Bennenung geändert. In Packaging types als Additional services/shipping method.)
+    Shipping method identifier. Additional services offered as defined by the user.
 
 - Attribute    
     You can add a column for each attribute that is assigned to the dispatch note. The column displays the attribute name, the row displays the corresponding attribute value of the dispatch note.
@@ -194,7 +198,7 @@ The list displays all dispatch notes. Depending on the settings, the displayed c
 
 In the left margin column, all available attribute groups are displayed. Click a group to display the attributes that are assigned to this group on the right side of the *Attributes* tab. If the dispatch note contains attributes that are unassigned, the *Unassigned group* attribute group is automatically displayed in the left margin column.
 
-The right side of the *Attributes* tab displays all attributes that are assigned to the selected group in the left margin column. Depending on the attribute group selected, the fields displayed vary. The dispatch note attributes are imported via the fulfiller driver. All fields are locked and, therefore, read-only.
+The right side of the *Attributes* tab displays all attributes that are assigned to the selected group in the left margin column. Depending on the selected attribute group, the displayed fields may vary. The dispatch note attributes are imported via the fulfiller driver. All fields are read-only.
 
 - ![Folders](../../Assets/Icons/Folders01.png "[Folders]") (Folders)  
     Attribute group that contains attribute sub-groups. Click the attribute group or the arrow *>* left to the attribute group to unfold the group and display the attribute sub-groups.
@@ -242,7 +246,7 @@ If no dependent entities exist, the *No other entities depend on this entity* no
     - **Automatic**
 
 - *Dependent entity friendly identifier*   
-    Descriptive name of the dependent entity. The friendly identifier is normally used to search for the entity in the user interface, for example, a reference number or an SKU.
+    Further, more descriptive identifier of the dependent entity, for instance a reference number or an SKU.
 
 - [RERUN MAPPING]   
     Click this button to rerun the mapping of the selected entity. This button is only displayed if the checkbox of at least one dependency is selected.	
@@ -280,12 +284,13 @@ The list displays all shipments. Depending on the settings, the displayed column
     Shipment identification number in the fulfiller's system. 
 
 - *Status*  
-  Shipment status. The following options are available:
+    Shipment status. The following options are available:
     - **New shipment**
     - **Shipped**
     - **Delivered**
     - **Void**
     - **Error**
+    - **Packed**
 
 - *Status info*  
     Additional status information provided by the fulfiller. 
@@ -327,8 +332,6 @@ The right side of the *Attributes* tab displays all attributes that are assigned
 - ![Folder](../../Assets/Icons/Folder01.png "[Folder]") (Folder)  
     Attribute group. Click the attribute group to display all attributes that are assigned to the selected attribute group on the right side of the *Attributes* tab.
 
-[commnet]: <> (HG: Vereinheitlichen mit oben, Omni-Channel... Also, Folders u. Folder drin oder weglassen?)
-
 - ![Fade in/out](../../Assets/Icons/FadeInOut01.png "[Fade in/out]") (Fade in/out)    
     Click this button to hide or display the left margin column with the attribute groups. When the left margin is displayed and you click this button, the column is hidden. When the column is hidden and you click this button, the column is displayed again.
 
@@ -347,7 +350,8 @@ The right side of the *Attributes* tab displays all attributes that are assigned
 - [x]     
     Select the checkbox to display the editing toolbar. If you click the checkbox in the header, all dependent entities in the list are selected. 
 
-The list displays all dependencies of the selected shipment. Depending on the settings, the displayed columns may vary. All fields are read-only. 
+The list displays all dependencies of the selected shipment. Depending on the settings, the displayed columns may vary. All fields are read-only.   
+If no dependent entities exist, the *No other entities depend on this entity* notice is displayed. 
 
 - *Dependent entity ID*   
     Identification number of the dependent entity. The ID number is automatically assigned by the system. 
@@ -363,12 +367,11 @@ The list displays all dependencies of the selected shipment. Depending on the se
     - **Automatic**
 
 - *Dependent entity friendly identifier*   
-    Descriptive name of the dependent entity. The friendly identifier is normally used to search for the entity in the user interface, for example, a reference number or an SKU.
+    Further, more descriptive identifier of the dependent entity, for instance a reference number or an SKU.
 
 - [RERUN MAPPING]   
     Click this button to rerun the mapping of the selected entity. This button is only displayed if the checkbox of at least one dependency is selected.	
 
-    > [Info] If no dependent entities exist, the *No other entities depend on this entity* notice is displayed. 
 
 ### Shipment packages
 
@@ -414,7 +417,7 @@ The list displays all packages contained in the selected shipment. Depending on 
     Package identification number.
 
 - *Proof of delivery*  
-    Proof of delivery, if required.
+    Proof of delivery.
 
 - Attribute    
     You can add a column for each attribute that is assigned to the shipment package. The column displays the attribute name, the row displays the corresponding attribute value of the shipment package.
@@ -442,7 +445,7 @@ The list displays all items contained in the selected package. Depending on the 
     Item number in the package.
 
 - *SKU*  
-    Stock Keeping Unit. Identification number of the product.
+    Stock Keeping Unit. Identification number of the item.
 
 - *Amount*  
     Amount of item units contained in the package.

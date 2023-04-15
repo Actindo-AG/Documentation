@@ -1,4 +1,4 @@
-[!!User Interface Connections](../UserInterface/03a_Connections.md)
+[!!User interface Connections](../UserInterface/03a_Connections.md)
 
 # Manage the connections
 
@@ -118,7 +118,7 @@ Once a connection has been established, it cannot be deleted. Nevertheless, the 
 #### Prerequisites
 
 - At least one connection has been established, see [Create a connection](#create-a-connection).
-- The connection is active, see [Enable a connection](#enable-a-connection).
+- At least one connection is active, see [Enable a connection](#enable-a-connection).
 
 #### Procedure
 

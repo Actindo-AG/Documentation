@@ -4,8 +4,6 @@
 
 ![List of intents](../../Assets/Screenshots/Fulfillment/Logging/ListIntents.png "[List of intents]")
 
-[comment]: <> (Screenshot aus NoE, da keine Intents in Sandbox angezeigt. I.O. so?)
-
 
 **List of intents**
 
@@ -104,10 +102,10 @@ The list displays all intents. Depending on the settings, the displayed columns 
 - ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)   
     Click this button to close the *List of messages* view and return to the list of intents. All changes are rejected.
 
-- ![Unpublish](../../Assets/Icons/Unpublish02.png "[Unpublish]")  
-    Click this to download the message.
+- ![Unpublish](../../Assets/Icons/Unpublish02.png "[Unpublish]") (Download)  
+    Click this button to download the displayed log message.
 
-[comment]: <> (Warhscheinlich bug - sollte ausgeblendet werden laut SW. Evtl. löschen?)
+[comment]: <> (Bug gemeldet. Wird rausgenommen.)
 
 - ![View](../../Assets/Icons/Eye02.png "[View]")  (View)   
     Click this button to display the details of the log message. Alternatively, you can click directly a row in the list to display the details of the log message. The *Detail of log message "Log message title"* view is displayed, see [Detail of log message "Log message title"](#detail-of-log-message-log-message-title). 
@@ -119,15 +117,15 @@ The list displays all log messages of the selected intent. Depending on the sett
     Title of the log message.
 
 - *Log level*  
-    Log level type. The following levels are available:
-  - **Debug**
-  - **Info**
-  - **Notice**
-  - **Warning**
-  - **Error**
-  - **Critical**
-  - **Alert**
-  - **Emergency**
+    Log level type. The following options are available:
+    - **Debug**
+    - **Info**
+    - **Notice**
+    - **Warning**
+    - **Error**
+    - **Critical**
+    - **Alert**
+    - **Emergency**
 
 - *Created at*  
     Date and time of the creation.
@@ -223,7 +221,8 @@ In general, the most common attribute sets are the standard error log message at
 - [x]     
     Select the checkbox to display the editing toolbar. If you click the checkbox in the header, all dependent entities in the list are selected. 
 
-The list displays all dependencies of the selected log message. Depending on the settings, the displayed columns may vary. All fields are read-only. 
+The list displays all dependencies of the selected log message. Depending on the settings, the displayed columns may vary. All fields are read-only.   
+If no dependent entities exist, the *No other entities depend on this entity* notice is displayed.
 
 - *Dependent entity ID*   
     Identification number of the dependent entity. The ID number is automatically assigned by the system. 
@@ -239,12 +238,12 @@ The list displays all dependencies of the selected log message. Depending on the
     - **Automatic**
 
 - *Dependent entity friendly identifier*   
-    Descriptive name of the dependent entity. The friendly identifier is normally used to search for the entity in the user interface, for example, a reference number or an SKU.
+    Further, more descriptive identifier of the dependent entity, for instance a reference number or an SKU.
 
 - [RERUN MAPPING]   
     Click this button to rerun the mapping of the selected entity. This button is only displayed if the checkbox of at least one dependency is selected.	
 
-    > [Info] If no dependent entities exist, the *No other entities depend on this entity* notice is displayed.
+   
 
 
 ## Create view

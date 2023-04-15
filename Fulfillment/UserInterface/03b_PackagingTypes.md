@@ -69,11 +69,11 @@ The list displays all packaging types. Depending on the settings, the displayed 
     Packaging type name.
 
 - *Active*  
-    Packaging type status. The following statuses are displayed:
+    Packaging type status. The following statuses are available:
     - ![Status](../../Assets/Icons/Check.png "[Status]") (Checkmark)   
-    The packaging type is active.
+        The packaging type is active.
     - ![Status](../../Assets/Icons/Cross02.png "[Status]") (Cross)   
-    The packaging type is inactive.
+        The packaging type is inactive.
 
 - *Connection*  
     Connection name.
@@ -82,26 +82,26 @@ The list displays all packaging types. Depending on the settings, the displayed 
     Connection identification number. The ID number is automatically assigned by the system.
 
 - *Max height*  
-    Maximal height configured for the packaging type.
+    Maximum height configured for the packaging type.
 
 - *Max width*  
-    Maximal width configured for the packaging type.
+    Maximum width configured for the packaging type.
 
 - *Max weight*  
-    Maximal weight configured for the packaging type.
+    Maximum weight configured for the packaging type.
 
 - *Max value*  
-    Maximal value configured for the packaging type.
+    Maximum value configured for the packaging type.
 
 - *Carrier*   
     Carrier configured for the packaging type.  
 
 - *Express*  
-    Indication of the configured shipping type. The following options are displayed:  
+    Indication of the configured shipping type. The following options are available:  
     - **Yes**  
-    Express shipping type
+        Express shipping type
     - **No**  
-    Standard shipping type
+        Standard shipping type
 
 - *Packaging type identifier*  
     Packaging type configured for the shipment.  
@@ -112,7 +112,7 @@ The list displays all packaging types. Depending on the settings, the displayed 
 - *Priority*  
     Indication of the priority configured for the packaging type. The priority value is used by the system to determine the packaging type to be used for a shipment when the criteria of two or more packaging types match. The lower the number, the higher the priority. This field is mandatory.
 
-- *Additional services (shipping method)*  
+- *Shipping method*  
     Additions services offered as defined by the user. 
 
 - Attribute      
@@ -152,42 +152,42 @@ The list displays all packaging types. Depending on the settings, the displayed 
     Click the drop-down list and select the desired connection. All available connections are displayed.
 
 - *Max height*  
-    Maximal height allowed for the packaging type.
+    Maximum height allowed for the packaging type.
     - *Quantity*  
     Enter the desired value.
     - *Unit*  
     Click the drop-down list and select the applicable unit.
 
 - *Max width*   
-  Maximal width allowed for the packaging type.
+  Maximum width allowed for the packaging type.
     - *Quantity*  
     Enter the desired value.
     - *Unit*  
     Click the drop-down list and select the applicable unit.
 
 - *Max weight*  
-  Maximal weight allowed for the packaging type.
+  Maximum weight allowed for the packaging type.
     - *Quantity*  
     Enter the desired value.
     - *Unit*  
     Click the drop-down list and select the applicable unit.
 
 - *Max value*  
-  If desired, the maximal monetary value allowed for the packaging type can be configured.
+  If desired, the maximum monetary value allowed for the packaging type can be configured.
     - [ADD PRICE]  
-    Click this button to enter the base price and scale prices. The *Edit price* window is displayed, see [Edit price](#edit-price).
+        Click this button to enter the base price and scale prices. The *Edit price* window is displayed, see [Edit price](#edit-price).
     - *Base price*  
-    Base price defined for the product. This field is read-only and can only be edited in the *Edit price* window.
+        Base price defined for the product. This field is read-only and can only be edited in the *Edit price* window.
     - *Current price range*  
-    Price range defined for the product. This field is read-only and can only be edited in the *Edit price* window.
+        Price range defined for the product. This field is read-only and can only be edited in the *Edit price* window.
     - *# Scale prices*  
-    Number of scale prices defined for the product. This field is read-only and can only be edited in the *Edit price* window.
+        Number of scale prices defined for the product. This field is read-only and can only be edited in the *Edit price* window.
     - ![Edit](../../Assets/Icons/Edit02.png "[Edit]") (Edit)  
-    Click this button to edit a configured price. This button is displayed when hovering the mouse over a configured price. The *Edit price* window is displayed, see [Edit price](#edit-price).
+        Click this button to edit a configured price. This button is displayed when hovering the mouse over a configured price. The *Edit price* window is displayed, see [Edit price](#edit-price).
     - ![Delete](../../Assets/Icons/Trash01.png "[Delete]") (Delete)  
-    Click this button to deleted the configured price. This button is displayed when hovering the mouse over a configured price.
+        Click this button to deleted the configured price. This button is displayed when hovering the mouse over a configured price.
 
-[comment]: <> (Stimmt das so? Button SAVE funktioniert nicht. Bug gemeldet.)
+[comment]: <> (Button SAVE funktioniert nicht. Bug gemeldet.)
 
 - *Carrier*  
     Enter the carrier identifier for the packaging type.
@@ -204,7 +204,7 @@ The list displays all packaging types. Depending on the settings, the displayed 
 - *Priority*  
     Enter a number to set the priority for the packaging type. The priority value is used by the system to determine the packaging type to be used for a shipment when the criteria of two or more packaging types match. The lower the number, the higher the priority.
 
-- *Additional services (shipping method)*  
+- *Shipping method*  
     Enter the additional services offered. Numbers, letters or a combination of characters can be used.
 
 
@@ -236,40 +236,40 @@ The list displays all packaging types. Depending on the settings, the displayed 
     Click the drop-down list and select the applicable connection. All available connections are displayed.
 
 - *Max height*  
-    Click these fields to edit the maximal height allowed for the packaging type.
+    Click these fields to edit the maximum height allowed for the packaging type.
     - *Quantity*  
     Click this field to edit the desired value.
     - *Unit*  
     Click the drop-down list and select the applicable unit.
 
 - *Max width*   
-    Click these fields to edit the maximal width allowed for the packaging type.
+    Click these fields to edit the maximum width allowed for the packaging type.
     - *Quantity*  
     Click this field to edit the desired value.
     - *Unit*  
     Click the drop-down list and select the applicable unit.
 
 - *Max weight*  
-    Click these fields to edit the maximal weight allowed for the packaging type.
+    Click these fields to edit the maximum weight allowed for the packaging type.
     - *Quantity*  
     Click this field to edit the desired value.
     - *Unit*  
     Click the drop-down list and select the applicable unit.
 
 - *Max value*  
-    If desired, the maximal monetary value allowed for the packaging type can be edited.
+    If desired, the maximum monetary value allowed for the packaging type can be edited.
     - [ADD PRICE]  
-    Click this button to edit the base price and scale prices. The *Edit price* window is displayed, see [Edit price](#edit-price).
+        Click this button to edit the base price and scale prices. The *Edit price* window is displayed, see [Edit price](#edit-price).
     - *Base price*  
-    Base price defined for the product. This field is read-only and can only be edited in the *Edit price* window.
+        Base price defined for the product. This field is read-only and can only be edited in the *Edit price* window.
     - *Current price range*  
-    Price range defined for the product. This field changes automatically when the scale prices are edited in the *Edit price* window.
+        Price range defined for the product. This field changes automatically when the scale prices are edited in the *Edit price* window.
     - *No. scale prices*  
-    Number of scale prices defined for the product. This field is read-only and can only be edited in the *Edit price* window.  
+        Number of scale prices defined for the product. This field is read-only and can only be edited in the *Edit price* window.  
     - ![Edit](../../Assets/Icons/Edit02.png "[Edit]") (Edit)  
-    Click this button to edit a configured price. This button is displayed when hovering the mouse over a configured price.
+        Click this button to edit a configured price. This button is displayed when hovering the mouse over a configured price.
     - ![Delete](../../Assets/Icons/Trash01.png "[Delete]") (Delete)  
-    Click this button to deleted the configured price. This button is displayed when hovering the mouse over a configured price.
+        Click this button to deleted the configured price. This button is displayed when hovering the mouse over a configured price.
 
 - *Carrier*  
     Click this field to edit the preferred carrier. Numbers, letters or a combination of characters can be used.
@@ -286,7 +286,7 @@ The list displays all packaging types. Depending on the settings, the displayed 
 - *Priority*  
     Click this field to edit the priority for the packaging type.
 
-- *Additional services (shipping method)*  
+- *Shipping method*  
     Click this field to edit the additional services offered. Numbers, letters or a combination of characters can be used.
 
 ### Edit price

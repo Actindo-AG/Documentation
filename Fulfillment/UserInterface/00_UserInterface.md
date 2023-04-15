@@ -1,5 +1,6 @@
 # User Interface
 In this part of the *Fulfillment* documentation, you will find the following chapters:
+
 - [Dispatch notes](./01_DispatchNotes.md)
 
 - [LIST](./01a_List.md)
@@ -14,8 +15,6 @@ In this part of the *Fulfillment* documentation, you will find the following cha
     - [Dispatch note "Dispatch note ID" &ndash; Logs](./01a_List.md#dispatch-note-dispatch-note-id--logs)
     - [Create view](./01a_List.md#create-view)
     - [Rename view](./01a_List.md#rename-view)
-
-[comment]: <> (Shipment attributes &ndash; Attributes + Shipment attributes &ndash; Dependencies - ändern zu H4 und dann weg aus TOC? Items ist H4. Ändern? Wichtiger als Attributes und Dependencies)
 
 - [Logging](./02_Logging.md)
 
@@ -36,8 +35,6 @@ In this part of the *Fulfillment* documentation, you will find the following cha
         - [Edit connection &ndash; Settings](./03a_Connections.md#edit-connection--settings)
     - [Create view](./03a_Connections.md#create-view)
     - [Rename view](./03a_Connections.md#rename-view)
-
-[comment]: <> (Check! Hier nicht konsistent mit anderen Tabs oben - Nach ndash Ebene tiefer oder gleich?)
 
 - [PACKAGING TYPES](./03b_PackagingTypes.md)
     - [Create packaging type](./03b_PackagingTypes.md#create-packaging-type)

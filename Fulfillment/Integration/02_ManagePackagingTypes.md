@@ -1,4 +1,4 @@
-[!!User Interface Packaging types](../UserInterface/03b_PackagingTypes.md)
+[!!User interface Packaging types](../UserInterface/03b_PackagingTypes.md)
 [!!Manage connections](./01_ManageConnections.md)
 
 
@@ -12,7 +12,7 @@ Create a packaging type to define the criteria applicable to a shipment.
 
 #### Prerequisites
 
-A connection has been established, see [Create a connection](./01_ManageConnections.md#create-a-connection).
+At least one connection has been established, see [Create a connection](./01_ManageConnections.md#create-a-connection).
 
 #### Procedure
 
@@ -27,7 +27,7 @@ A connection has been established, see [Create a connection](./01_ManageConnecti
 
     ![Create packaging type](../../Assets/Screenshots/Fulfillment/Settings/PackagingTypes/CreatePackagingType.png "[Create packaging type]")
 
-[comment]: <> (Actindo Basic Channel soll rausfliegen, da von Fulfillment nicht verwendet. Neues Screenshot notwendig.)
+[comment]: <> (Channel drop-down list soll rausfliegen, da von Fulfillment nicht verwendet. Neues Screenshot notwendig, wenn updated.)
 
 2. Enter a name for the connection in the *Name* field. 
 
@@ -36,17 +36,17 @@ A connection has been established, see [Create a connection](./01_ManageConnecti
     > [Info] Additional languages can be added in the *DataHub* module, see [Create a language](../../DataHub/Integration/05_ManageLanguages.md#create-a-language).
 
 4. Enable the *Active* toggle to set the packaging type status to active after creation. By default, this toggle is disabled.  
-    > [Info] The packaging type must be activated to be automatically selected by the system.
+    > [Info] The packaging type must be activated to be used.
 
 5. Click the *Connection* drop-down list and select the applicable connection. All available connections are displayed in the list.
     
-6. Enter the maximal dimensions allowed for the packaging type:
-    - In the *Max height* box, enter the maximal value in the *Quantity* field and click the *Unit* drop-down list to select the applicable unit.  
-    - In the *Max width* box, enter the maximal value in the *Quantity* field and click the *Unit* drop-down list to select the applicable unit.  
-    - In the *Max length* box, enter the maximal value in the *Quantity* field and click the *Unit* drop-down list to select the applicable unit.  
-    - In the *Max weight* box, enter the maximal value in the *Quantity* field and click the *Unit* drop-down list to select the applicable unit.  
+6. Enter the maximum dimensions allowed for the packaging type:
+    + In the *Max height* box, enter the maximum value in the *Quantity* field and click the *Unit* drop-down list to select the applicable unit.  
+    + In the *Max width* box, enter the maximum value in the *Quantity* field and click the *Unit* drop-down list to select the applicable unit.  
+    + In the *Max length* box, enter the maximum value in the *Quantity* field and click the *Unit* drop-down list to select the applicable unit.  
+    + In the *Max weight* box, enter the maximum value in the *Quantity* field and click the *Unit* drop-down list to select the applicable unit.  
    
-7. Enter the maximal monetary value for the items contained in the packaging type in the *Max value* box. To do so, follow the instructions below:
+7. Configure the maximum monetary value for the items contained in the packaging type in the *Max value* box by following the instructions below:
     - Click the [ADD PRICE] button.  
         The *Edit price* window is displayed. 
 
@@ -79,25 +79,23 @@ A connection has been established, see [Create a connection](./01_ManageConnecti
     
     > [Info] The priority value is used by the system to determine the packaging type for a shipment when the criteria of two or more packaging types match. The priority value then becomes the decisive criterion. In the priority scale, the lower the number, the higher the priority, that is, priority 1 is higher than priority 4.
 
-13. Enter the applicable information in the *Additional services (shipping method)* field. Both letters and numbers can be entered.
+13. Enter the additional services offered in the *Shipping method* field. Both letters and numbers can be entered.
 
 14. Click the [SAVE] button in the upper right corner.  
-    The *Submitting data...* notice is displayed while saving followed by the *Creation successful* pop-up window. 
+    The *Submitting data...* notice is displayed. The *Create packaging type* view is automatically closed when the packaging type has been created and the *Creation successful* pop-up window is displayed. The *List of packaging types* is displayed again. 
 
-     ![Packaging type created](../../Assets/Screenshots/Fulfillment/Settings/PackagingTypes/CreationSuccessful.png "[Packaging type created]")
-
-     The *Create packaging type* view is closed and the *List of packaging types* is displayed again.
+    ![Packaging type created](../../Assets/Screenshots/Fulfillment/Settings/PackagingTypes/CreationSuccessful.png "[Packaging type created]")
 
 15. If necessary, click the ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh) button in the upper right corner to update the list of packaging types. The new packaging type is displayed in the list.   
   
 
 ## Edit a packaging type
 
-Edit a packaging type to update any set criteria.
+Edit a packaging type to update any settings.
 
 #### Prerequisites
 
-A packaging type has been created, see [Create a packaging type](#create-a-packaging-type).
+At least one packaging type has been created, see [Create a packaging type](#create-a-packaging-type).
 
 #### Procedure
 
@@ -105,28 +103,28 @@ A packaging type has been created, see [Create a packaging type](#create-a-packa
 
 ![Packaging types](../../Assets/Screenshots/Fulfillment/Settings/PackagingTypes/ListPackagingTypes.png "[Packaging types]")
 
-1. Click the packaging type to be edited. Alternatively, click the checkbox of the packaging type to be edited and the [EDIT] button in the editing toolbar.  
+1. Click the packaging type to be edited.   
     The *Edit packaging type* view is displayed.
 
-2. Edit the desired criteria of the packaging type in the corresponding fields.
+2. Edit the desired data of the packaging type in the corresponding fields.
 
 3. Click the [SAVE] button.   
-  The *Submitting data...* notice is displayed while saving followed by the *Update successful* pop-up window. 
+    The *Submitting data...* notice is displayed. The *Create packaging type* view is automatically closed when the packaging type has been created and the *Creation successful* pop-up window is displayed. The *List of packaging types* is displayed again. 
 
     ![Packaging type updated](../../Assets/Screenshots/Fulfillment/Settings/PackagingTypes/UpdateSuccessful.png "[Packaging type updated]")
 
     The *Edit packaging type* view is closed and the *List of packaging types* is displayed again.
 
-4. If necessary, click the ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh) button in the upper right corner to display the changes in the list.   
+4. If necessary, click the ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh) button in the upper right corner to update the list of packaging types.   
   
 
 ## Delete a packaging type
 
-Delete a packaging type that is no longer applicable. To avoid potential issues with existing shipments, it is highly recommended to deactivate a packaging type temporarily instead of deleting it permanently, see [Deactivate a packaging type](#deactivate-a-packaging-type).
+Delete a packaging type that is no longer applicable. To avoid issues with existing shipments, it is highly recommended to deactivate a packaging type instead of deleting it, see [Deactivate a packaging type](#deactivate-a-packaging-type).
 
 #### Prerequisites
 
-A packaging type has been created, see [Create a packaging type](#create-a-packaging-type).
+At least one packaging type has been created, see [Create a packaging type](#create-a-packaging-type).
 
 #### Procedure
 
@@ -145,11 +143,11 @@ A packaging type has been created, see [Create a packaging type](#create-a-packa
 
 ## Deactivate a packaging type
 
-Deactivate a packaging type temporarily, so that it can not be selected automatically by the system. 
+Deactivate a packaging type, so that it can not be used. 
 
 #### Prerequisites
 
-A packaging type has been created, see [Create a packaging type](#create-a-packaging-type).
+At least one packaging type has been created, see [Create a packaging type](#create-a-packaging-type).
 
 #### Procedure
 
@@ -157,30 +155,28 @@ A packaging type has been created, see [Create a packaging type](#create-a-packa
 
 ![Packaging types](../../Assets/Screenshots/Fulfillment/Settings/PackagingTypes/ListPackagingTypes.png "[Packaging types]")
 
-1. Click the packaging type to be deactivated. Alternatively, click the checkbox of the packaging type to be deactivated and the [EDIT] button in the editing toolbar.  
+1. Click the packaging type to be deactivated.     
     The *Edit packaging type* view is displayed.
 
 2. Disable the *Active* toggle.
 
 3. Click the [SAVE] button.   
-  The *Submitting data...* notice is displayed while saving followed by the *Update successful* pop-up window. 
+    The *Submitting data...* notice is displayed. The *Create packaging type* view is automatically closed when the packaging type has been created and the *Creation successful* pop-up window is displayed. The *List of packaging types* is displayed again. 
 
     ![Packaging type updated](../../Assets/Screenshots/Fulfillment/Settings/PackagingTypes/UpdateSuccessful.png "[Packaging type updated]")
 
-    The *Edit packaging type* view is closed and the *List of packaging types* is displayed again.
-
-4. If necessary, click the ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh) button in the upper right corner to display the changes in the list.   
+4. If necessary, click the ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh) button in the upper right corner to update the list of packaging types.   
 
 [comment]: <> (Stand 13.02.23: Inaktive Packaging types werden nicht angezeigt. Bug gemeldet)
 
   
 ## Activate a packaging type
 
-A packaging type that has been temporarily deactivated can be easily reactivated when it is needed again.
+A packaging type can only be used if it is active. If a packaging type has been deactivated, it can be reactivated again when it is needed.
 
 #### Prerequisites
 
-A packaging type has been deactivated, see [Deactivate a packaging type](#deactivate-a-packaging-type).
+At least one packaging type has been deactivated, see [Deactivate a packaging type](#deactivate-a-packaging-type).
 
 #### Procedure
 
@@ -188,19 +184,17 @@ A packaging type has been deactivated, see [Deactivate a packaging type](#deacti
 
 ![Packaging types](../../Assets/Screenshots/Fulfillment/Settings/PackagingTypes/ListPackagingTypes.png "[Packaging types]")
 
-1. Click the packaging type to be activated. Alternatively, click the checkbox of the packaging type to be edited and the [EDIT] button in the editing toolbar.  
+1. Click the packaging type to be activated.     
     The *Edit packaging type* view is displayed.
 
 2. Enable the *Active* toggle.
 
 3. Click the [SAVE] button.   
-  The *Submitting data...* notice is displayed while saving followed by the *Update successful* pop-up window. 
+    The *Submitting data...* notice is displayed. The *Create packaging type* view is automatically closed when the packaging type has been created and the *Creation successful* pop-up window is displayed. The *List of packaging types* is displayed again. 
 
     ![Packaging type updated](../../Assets/Screenshots/Fulfillment/Settings/PackagingTypes/UpdateSuccessful.png "[Packaging type updated]")
 
-    The *Edit packaging type* view is closed and the *List of packaging types* is displayed again.
-
-4. If necessary, click the ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh) button in the upper right corner to display the changes in the list.   
+4. If necessary, click the ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh) button in the upper right corner to update the list of packaging types.   
 
 
 
