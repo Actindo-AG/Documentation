@@ -158,7 +158,3 @@ In this part of the *Omni-Channel* documentation, you will find the following ch
     - [Notice](./07d_Logging.md#notice)
     - [Info](./07d_Logging.md#info)
     - [Debug](./07d_Logging.md#debug)
-
-- [HTML TEMPLATES](./07e_HTMLTemplates.md)
-    - [Create HTML template](./07e_HTMLTemplates.md#create-html-template)
-    - [Edit HTML template](./07e_HTMLTemplates.md#edit-html-template) 
