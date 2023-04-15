@@ -493,8 +493,6 @@ The list displays all shipments for the selected order. Depending on the setting
     - **Error**   
         The order export has been failed. Click the [Show log message] button in the column to display the corresponding log message in the *LOG* tab, see [User interface LOG](./06a_Log.md).
 
-[comment]: <> (Stimmt das? Habe noch nie andere Status gesehen als Complete bei import from channel und Exported bei export to channel. Die status beziehen sich aber auf das order und nicht auf das shipment, oder?)
-
 - *ID*  
     Shipment identification number. The ID number is automatically assigned by the system.
 
@@ -742,8 +740,6 @@ The list displays all cancellations for the selected order. Depending on the set
     - **Error**   
         The order export has been failed. Click the [Show log message] button in the column to display the corresponding log message in the *LOG* tab, see [User interface LOG](./06a_Log.md).
 
-[comment]: <> (Stimmt das? Habe noch nie andere Status gesehen als Complete bei import from channel und Exported bei export to channel. Die status beziehen sich aber auf das order und nicht auf die cancellation, oder?)
-
 - *ID*  
     Cancellation identification number. The ID number is automatically assigned by the system.
 
@@ -864,17 +860,13 @@ The list displays all errors of the selected order. Depending on the settings, t
     Date and time of the creation.
 
 - *Creator*  
-    Name and username of the user who created the error. By default, the field is blank as the job is created by the system.
-
-[comment]: <> (kann man das so schreiben oder ist das Quatsch?)
+    Name and username of the user who created the action that caused the error. By default, the field is blank as the job is created by the system.
 
 - *Last modified*  
     Date and time of the last modification.
 
 - *Editor*  
-    Name and username of the user who modified the error. By default, the field is blank as the job is modified by the system.
-
-[comment]: <> (kann man das so schreiben oder ist das Quatsch?)
+    Name and username of the user who modified the action that caused the error. By default, the field is blank as the job is modified by the system.
 
 
 

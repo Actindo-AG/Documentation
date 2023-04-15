@@ -119,7 +119,7 @@ At least one connection has been created, see [Create a connection](../Integrati
 1. Click the ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) button in the bottom right corner.   
     The [Manual offer ![Manual offer](../../Assets/Icons/Document.png "[Manual offer]") ] button and the [Create from PIM product ![Create from PIM product](../../Assets/Icons/Package.png "[Create from PIM product]") ] button are displayed.
 
-    > [Info] If the *PIM* module or the *PIM-Channels Connection* are not installed, the [Create from PIM product ![Create from PIM product](../../Assets/Icons/Package.png "[Create from PIM product]") ] button is not displayed. Therefore, the *Create offer* window is displayed immediately after clicking ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) button.
+    > [Info] If the *PIM* module or the *PIM-Channels Connection* plugin are not installed, the [Create from PIM product ![Create from PIM product](../../Assets/Icons/Package.png "[Create from PIM product]") ] button is not displayed. Therefore, the *Create offer* window is displayed immediately after clicking ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) button.
 
     ![Add offer](../../Assets/Screenshots/Channels/Offers/Offers/AddOffer.png "[Add offer]")
 
@@ -232,7 +232,8 @@ You can check if any offer imports from *PIM* to *Omni-Channel* are still pendin
 
 #### Prerequisites
 
-At least one offer import from *PIM* to *Omni-Channel* has been triggered, see [Create an offer from a PIM product](#create-an-offer-from-a-pim-product).
+- The *PIM-Channels Connection* plugin has been installed.
+- At least one offer import from *PIM* to *Omni-Channel* has been triggered, see [Create an offer from a PIM product](#create-an-offer-from-a-pim-product).
 
 #### Procedure
 

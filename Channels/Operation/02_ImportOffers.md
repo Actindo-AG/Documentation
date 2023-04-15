@@ -1,3 +1,4 @@
+[!!Manage the offers](./01_ManageOffers.md)
 [!!Manage the ETL mappings in DataHub](../../../DataHub/Operation/01_ManageETLMappings)
 [!!User interface Offer import](../UserInterface/04a_OfferImport.md)
 [!!User interface Channels->PIM](../UserInterface/04c_ChannelsPIM.md)
@@ -5,7 +6,7 @@
 
 # Import an offer
 
-You can import an offer from your marketplace to the *Omni-Channel* module, for instance if you already offer products on your marketplace that are not yet in your *PIM* module. After you have imported the offer, you can import the product of the corresponding offer to the *PIM* module.
+You can import an offer from your marketplace to the *Omni-Channel* module, for instance if you already offer products on your marketplace that are not yet in your *PIM* module. After you have imported the offer, you can create a PIM product from the offer details.
 
 
 ## Import offers from a marketplace
@@ -22,6 +23,7 @@ Before you can import an offer from our marketplace to the *Omni-Channel* module
 
 - A connection to a marketplace has been established, see [Create a connection](../../Integration/01_ManageConnections.md#create-a-connection).
 - At least one importable offer is in the marketplace.
+- The driver supports the offer import.
 
 #### Procedure
 
@@ -30,9 +32,13 @@ Before you can import an offer from our marketplace to the *Omni-Channel* module
 ![Offer import](../../Assets/Screenshots/Channels/OfferImport/OfferImport/OfferImport.png "[Offer import]")
 
 1. Click the *Select connection* drop-down list and select the connection for which you want to import offers. All supported drivers are displayed in the list.
-    All offers on the selected marketplace are displayed in the list of importable products.
+    The list of importable products is displayed. Initially the list is empty. 
+    
+    > [Info] If the importable products have already been downloaded, all offers on the selected marketplace are displayed in the list of importable products.
 
     ![Offer import connection](../../Assets/Screenshots/Channels/OfferImport/OfferImport/OfferImportConnection.png "[Offer import connection]")
+
+[comment]: <> (screenshot austauschen)
 
 2. Click the [DOWNLOAD IMPORTABLE PRODUCTS] button above the list.
     The download of all importable offers to the list has been triggered. The *Download triggered* pop-up window is displayed. 
@@ -126,11 +132,12 @@ You can import all importable offers from your marketplace at once to the *Omni-
 
 ## Map an offer to a PIM product
 
-Once an offer has been imported from a marketplace to the *Omni-Channel* module, you can map the product to the offer to an existing PIM product or even import new products to your *PIM* module.
+Once a manual offer has been created or an offer has been imported from a marketplace to the *Omni-Channel* module, you can map the product to the offer to an existing PIM product or even import new products to your *PIM* module.
 
 #### Prerequisites
 
-At least one offer has been imported from a marketplace to *Omni-Channel*, see [Import offers from a marketplace](Import-offers-from-a-marketplace).
+- The *PIM-Channels Connection* plugin has been installed.
+- At least one offer has been manually created, see [Create a manual offer](./01_ManageOffers.md#create-a-manual-offer) or an offer has been imported from a marketplace to *Omni-Channel*, see [Import offers from a marketplace](#import-offers-from-a-marketplace).
 
 #### Procedure
 
@@ -147,9 +154,13 @@ At least one offer has been imported from a marketplace to *Omni-Channel*, see [
 
 3. Configure the following settings:
 
-    + Click the *Language in PIM* drop-down list and select the default language to be applied for the PIM product. All available languages in PIM are displayed in the list.     
+    + Click the *Language in PIM* drop-down list and select the default language to be applied for the PIM product. All available languages in PIM are displayed in the list.
+
+        > [Info] If the destination attribute is multi-language, all non multi-language attributes of the offer will be imported into the language selected in this field. 
 
     + Click the *Channel in PIM* drop-down list and select the default channel to be applied for the PIM product. All available channels in *PIM* are displayed in the list.
+
+        > [Info] If the destination attribute is multi-channel, all non multi-channel attributes of the offer will be imported into the channel selected in this field.
 
     + Click the *Assigned PIM attribute set* drop-down list and select the attribute set to be applied for the *Omni-Channel* source attribute set in the corresponding box. All available attribute sets in *PIM* that are mapped to the corresponding source attribute set in *Omni-Channel* are displayed in the list.   
 
@@ -178,7 +189,7 @@ At least one offer has been imported from a marketplace to *Omni-Channel*, see [
 
     ![Select matching attributes](../../Assets/Screenshots/Channels/OfferImport/ChannelsPIM/SelectMatchingAttributes.png "[Select matching attributes]")
 
-7. Select the checkboxes of all PIM attributes that should be considered for matching with an existing PIM product. All mapped attributes are displayed in the box.
+7. Select the checkboxes of all PIM attributes that should be considered for matching with an existing PIM product. The values of all selected attributes must match the value of the offer so that it can be linked to this PIM product. Otherwise a new PIM product will be created as it will be considered as a different product. All mapped attributes are displayed in the box.
 
     > [Info] A single box with PIM attributes is displayed for each attribute set mapping.
 
@@ -193,15 +204,19 @@ At least one offer has been imported from a marketplace to *Omni-Channel*, see [
 
 9. Configure the following settings:
 
-    + Click the *Mode* drop-down list in the *Behaviour if a matched PIM product has been found* box and select the appropriate behaviour. The following options are available:
+    + Click the *Mode* drop-down list in the *Behavior if a matched PIM product has been found* box and select the appropriate behavior. The following options are available:
         - **Link only**   
-        - **Link and transfer data**       
+            Only a dependency between the PIM product and the offer is created.
+        - **Link and transfer data**   
+             A dependency between the PIM product and the offer is created. In addition, an ETL mapping is performed between the PIM product and the offer, whereby all data from the PIM product is written into the Omni-Channel offer.  
 
-    + Click the *Mode* drop-down list in the *Behaviour on change of the PIM product* box and select the appropriate behaviour. The following options are available:
+    + Click the *Mode* drop-down list in the *Behavior on change of the PIM product* box and select the appropriate change tracking mode. The following options are available:
         - **manual**
         - **semiautomatic**
         - **semiautomatic, changes must be confirmed by another user**
         - **automatic**   
+    
+        > [Info] The selected change tracking mode is applied for the link that will be created between the PIM products and the offers.
 
 10. Click the [CONTINUE] button in the bottom right corner.   
     The *Summary* wizard window is displayed.

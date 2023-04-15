@@ -1,15 +1,15 @@
 # General information
 
-There are many ways to go about your digital commerce, including not only your own online store but also numerous marketplaces. However, managing products in each channel separately could be a huge waste of time and resources. With Actindo's *Omni-Channel* module, you can connect your web store and all relevant marketplaces directly to the platform and manage them centrally from it. Moreover, various store systems can be integrated, such as Shopware 6, Shopify or Amazon.
+There are many ways to go about your digital commerce, including not only your own online store but also numerous marketplaces. However, managing products in each channel separately could be a huge waste of time and resources. With Actindos *Omni-Channel* module, you can connect your web store and all relevant marketplaces directly to the platform and manage them centrally from it. Moreover, various store systems can be integrated, such as Shopware 6, Shopify or Amazon.
 
-This documentation refers to *Omni-Channel* module version 4.1.0. There may be differences in the UI, features and operation if your *Omni-Channel* module is installed in a different version.
+This documentation refers to *Omni-Channel* module version 4.2.0. There may be differences in the UI, features and operation if your *Omni-Channel* module is installed in a different version.
 
 
 ## Benefits
 
 The Actindo *Omni-Channel* module offers the following benefits:
 
-- Connect various store systems, such as Shopware or Salesforce CommerceCloud
+- Connect various store systems, such as *Shopware* or *Salesforce Commerce Cloud*
 - Centrally manage all your sales channels in one place
 - Connect to numerous available marketplaces, such as Amazon, eBay or Otto
 - Control the assortment and product data individually per channel

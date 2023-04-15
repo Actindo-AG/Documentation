@@ -26,7 +26,7 @@ A connection to a marketplace has been established, see [Create a connection](..
 
 #### Procedure
 
-*Omni-Channel > Orders and Returns > Tab OFFERS*
+*Omni-Channel > Orders and Returns > Tab ORDERS*
 
 ![Orders](../../Assets/Screenshots/Channels/OrdersReturns/Orders/Orders.png "[Orders]")
 
@@ -53,7 +53,7 @@ A connection to a marketplace has been established, see [Create a connection](..
 
 #### Procedure
 
-*Omni-Channel > Orders and Returns > Tab OFFERS*
+*Omni-Channel > Orders and Returns > Tab ORDERS*
 
 ![Orders](../../Assets/Screenshots/Channels/OrdersReturns/Orders/Orders.png "[Orders]")
 

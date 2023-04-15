@@ -145,7 +145,7 @@ The list displays all available offers. Depending on the settings, the displayed
     Click this button to create a manual offer. The *Create offer* window is displayed, see [Create manual offer](#create-manual-offer).
 
 - [Create from PIM product ![Documents](../../Assets/Icons/Documents.png "[Documents]") ]    
-    Click this button to create an offer from a PIM product. The *Create from PIM product* wizard window is displayed, see [Create from PIM product](#create-from-PIM-product).
+    Click this button to create an offer from a PIM product. The *Create from PIM product* wizard window is displayed, see [Create from PIM product](#create-from-PIM-product). This button is only displayed if the *PIM* module and the *PIM-Channels Connection* plugin are installed
 
 - ![Cancel](../../Assets/Icons/Cross01.png "[Cancel]") (Cancel)   
     Click this button to hide the buttons and return to the *OFFERS* tab.
