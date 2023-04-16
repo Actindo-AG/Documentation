@@ -129,7 +129,6 @@ The list displays all returns, either for all connections or for the selected co
     - **Canceled**  
         The return import has been canceled.  
 
-
 - *Status of export to channel*  
     Status of the return export from the *Omni-Channel* module to the marketplace. The following options are available:  
     - **Exported**  
@@ -138,7 +137,6 @@ The list displays all returns, either for all connections or for the selected co
         The return has no changes to synchronize.
     - **Error**   
         The return export has been failed. Click the [Show log message] button in the column to display the corresponding log message in the *LOG* tab, see [User interface LOG](./06a_Log.md).
-
 
 - *Status of export to OMS*  
     Status of the return export from the *Omni-Channel* module to the *Order management* module for further processing. The following options are available:  
@@ -172,7 +170,7 @@ The list displays all returns, either for all connections or for the selected co
 - *ID*  
     Return identification number. The ID number is automatically assigned by the system.
 
-- Attribute    
+- *"Attribute name"*    
     You can add a column for each attribute that is assigned to the return. The column displays the attribute name, the row displays the corresponding attribute value of the return.
 
 
@@ -221,12 +219,12 @@ The list displays all returns, either for all connections or for the selected co
 [comment]: <> (Button umbenennen in RETRY IMPORT -> Konsistenz! -> FETA-16)
 
 The *Return from connection "Connection name"* view is composed of the following tabs:
-- [Return from connection "Connection name" &ndash; Attributes](#return-from-connection-connection-name-–-attributes)
-- [Return from connection "Connection name" &ndash; Dependencies](#return-from-connection-connection-name-–-dependencies)
-- [Return from connection "Connection name" &ndash; Line items](#return-from-connection-connection-name-–-line-items)
-- [Return from connection "Connection name" &ndash; Shipments](#return-from-connection-connection-name-–-shipments)
-- [Return from connection "Connection name" &ndash; Cancellations](#return-from-connection-connection-name-–-cancellations)
-- [Return from connection "Connection name" &ndash; Errors](#return-from-connection-connection-name-–-errors)
+- [Return from connection "Connection name" &ndash; Attributes](#return-from-connection-connection-name--attributes)
+- [Return from connection "Connection name" &ndash; Dependencies](#return-from-connection-connection-name--dependencies)
+- [Return from connection "Connection name" &ndash; Line items](#return-from-connection-connection-name--line-items)
+- [Return from connection "Connection name" &ndash; Shipments](#return-from-connection-connection-name--shipments)
+- [Return from connection "Connection name" &ndash; Cancellations](#return-from-connection-connection-name--cancellations)
+- [Return from connection "Connection name" &ndash; Errors](#return-from-connection-connection-name--errors)
 
 
 
@@ -246,8 +244,8 @@ In the left margin column, all available attribute groups are displayed. Click a
 
 The right side of the *Attributes* tab displays all attributes that are assigned to the selected group in the left margin column. All fields are read-only.
 
-- ![Fade in/out](../../Assets/Icons/FadeInOut01.png "[Fade in/out]") (Fade in/out)    
-    Click this button to hide or display the left margin column with the attribute groups. When the left margin is displayed and you click this button, the column is hidden. When the column is hidden and you click this button, the column is displayed again.
+- ![Collapse/Expand](../../Assets/Icons/CollapseExpand01.png "[Collapse/Expand]") (Collapse/Expand)    
+    Click this button to collapse or expand the left margin column with the attribute groups. When the left margin is expanded and you click this button, the column is collapsed. When the column is collapsed and you click this button, the column is expanded.
 
 
 
@@ -370,7 +368,7 @@ The list displays all line items of the selected return. Depending on the settin
 - *ID*  
     Return line item identification number. The ID number is automatically assigned by the system after creation.
 
-- "Attribute name"    
+- *"Attribute name"*    
     You can add a column for each attribute that is assigned to the return line item. The column displays the attribute name, the row displays the corresponding attribute value of the item.
 
 
@@ -389,8 +387,8 @@ The list displays all line items of the selected return. Depending on the settin
     Click this button to close the *Line item* view.
 
 The *Line item* view is composed of the following tabs:
-- [Line item &ndash; Attributes](#line-item-–-attributes)
-- [Line item &ndash; Dependencies](#line-item-–-dependencies)
+- [Line item &ndash; Attributes](#line-item--attributes)
+- [Line item &ndash; Dependencies](#line-item--dependencies)
 
 
 ### Line item &ndash; Attributes
@@ -409,8 +407,8 @@ In the left margin column, all available attribute groups are displayed. Click a
 
 The right side of the *Attributes* tab displays all attributes that are assigned to the selected group in the left margin column. All fields are read-only.
 
-- ![Fade in/out](../../Assets/Icons/FadeInOut01.png "[Fade in/out]") (Fade in/out)    
-    Click this button to hide or display the left margin column with the attribute groups. When the left margin is displayed and you click this button, the column is hidden. When the column is hidden and you click this button, the column is displayed again.
+- ![Collapse/Expand](../../Assets/Icons/CollapseExpand01.png "[Collapse/Expand]") (Collapse/Expand)    
+    Click this button to collapse or expand the left margin column with the attribute groups. When the left margin is expanded and you click this button, the column is collapsed. When the column is collapsed and you click this button, the column is expanded.
 
 
 ### Line item &ndash; Dependencies
@@ -508,7 +506,7 @@ The list displays all shipments for the selected return. Depending on the settin
 - *ID*  
     Shipment identification number. The ID number is automatically assigned by the system.
 
-- Attribute  
+- *"Attribute name"*  
     You can add a column for each attribute that is assigned to the shipment. The column displays the attribute name, the row displays the corresponding attribute value of the shipment.
 
 
@@ -527,9 +525,9 @@ The list displays all shipments for the selected return. Depending on the settin
     Click this button to close the *Shipment for return "Return ID"* view.
 
 The *Shipment for return "Return ID"* view is composed of the following tabs:
-- [Shipment for return "Return ID" &ndash; Attributes](#shipment-for-return-return-id-–-attributes)
-- [Shipment for return "Return ID" &ndash; Dependencies](#shipment-for-return-return-id-–-dependencies)
-- [Shipment for return "Return ID" &ndash; Shipment line items](#shipment-for-return-return-id-–-shipment-line-items)
+- [Shipment for return "Return ID" &ndash; Attributes](#shipment-for-return-return-id--attributes)
+- [Shipment for return "Return ID" &ndash; Dependencies](#shipment-for-return-return-id--dependencies)
+- [Shipment for return "Return ID" &ndash; Shipment line items](#shipment-for-return-return-id--shipment-line-items)
 
 
 ### Shipment for return "Return ID" &ndash; Attributes
@@ -550,8 +548,8 @@ In the left margin column, all available attribute groups are displayed. Click a
 
 The right side of the *Attributes* tab displays all attributes that are assigned to the selected group in the left margin column. All fields are read-only.
 
-- ![Fade in/out](../../Assets/Icons/FadeInOut01.png "[Fade in/out]") (Fade in/out)    
-    Click this button to hide or display the left margin column with the attribute groups. When the left margin is displayed and you click this button, the column is hidden. When the column is hidden and you click this button, the column is displayed again.
+- ![Collapse/Expand](../../Assets/Icons/CollapseExpand01.png "[Collapse/Expand]") (Collapse/Expand)    
+    Click this button to collapse or expand the left margin column with the attribute groups. When the left margin is expanded and you click this button, the column is collapsed. When the column is collapsed and you click this button, the column is expanded.
 
 
 ### Shipment for return "Return ID" &ndash; Dependencies
@@ -631,7 +629,7 @@ The list displays all shipment line items of the selected return. Depending on t
 - *ID*  
     Shipment line item identification number. The ID number is automatically assigned by the system after creation.
 
-- Attribute    
+- *"Attribute name"*    
     You can add a column for each attribute that is assigned to the return. The column displays the attribute name, the row displays the corresponding attribute value of the return.
 
 
@@ -650,8 +648,8 @@ The list displays all shipment line items of the selected return. Depending on t
     Click this button to close the *Shipment line item* view.
 
 The *Shipment line item* view is composed of the following tabs:
-- [Shipment line item &ndash; Attributes](#shipment-line-item-–-attributes)
-- [Shipment line item &ndash; Dependencies](#shipment-line-item-–-dependencies)
+- [Shipment line item &ndash; Attributes](#shipment-line-item--attributes)
+- [Shipment line item &ndash; Dependencies](#shipment-line-item--dependencies)
 
 
 #### Shipment line item &ndash; Attributes
@@ -672,8 +670,8 @@ In the left margin column, all available attribute groups are displayed. Click a
 
 The right side of the *Attributes* tab displays all attributes that are assigned to the selected group in the left margin column. All fields are read-only.
 
-- ![Fade in/out](../../Assets/Icons/FadeInOut01.png "[Fade in/out]") (Fade in/out)    
-    Click this button to hide or display the left margin column with the attribute groups. When the left margin is displayed and you click this button, the column is hidden. When the column is hidden and you click this button, the column is displayed again.
+- ![Collapse/Expand](../../Assets/Icons/CollapseExpand01.png "[Collapse/Expand]") (Collapse/Expand)    
+    Click this button to collapse or expand the left margin column with the attribute groups. When the left margin is expanded and you click this button, the column is collapsed. When the column is collapsed and you click this button, the column is expanded.
 
 
 #### Shipment line item &ndash; Dependencies
@@ -786,8 +784,8 @@ The list displays all cancellations for the selected return. Depending on the se
     Click this button to close the *Cancellation line item* view.
 
 The *Cancellation line item* view is composed of the following tabs:
-- [Cancellation line item &ndash; Attributes](#cancellation-line-item-–-attributes)
-- [Cancellation line item &ndash; Dependencies](#cancellation-line-item-–-dependencies)
+- [Cancellation line item &ndash; Attributes](#cancellation-line-item--attributes)
+- [Cancellation line item &ndash; Dependencies](#cancellation-line-item--dependencies)
 
 
 #### Cancellation line item &ndash; Attributes
@@ -808,8 +806,8 @@ In the left margin column, all available attribute groups are displayed. Click a
 
 The right side of the *Attributes* tab displays all attributes that are assigned to the selected group in the left margin column. All fields are read-only.
 
-- ![Fade in/out](../../Assets/Icons/FadeInOut01.png "[Fade in/out]") (Fade in/out)    
-    Click this button to hide or display the left margin column with the attribute groups. When the left margin is displayed and you click this button, the column is hidden. When the column is hidden and you click this button, the column is displayed again.
+- ![Collapse/Expand](../../Assets/Icons/CollapseExpand01.png "[Collapse/Expand]") (Collapse/Expand)    
+    Click this button to collapse or expand the left margin column with the attribute groups. When the left margin is expanded and you click this button, the column is collapsed. When the column is collapsed and you click this button, the column is expanded.
 
 
 #### Cancellation line item &ndash; Dependencies

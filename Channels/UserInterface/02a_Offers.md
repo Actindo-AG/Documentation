@@ -1,5 +1,6 @@
 [!!Manage the view in PIM](../../PIM/Operation/04_ManageView.md)
 [!!Manage the offers](../Operation/01_ManageOffers.md)
+[!!User interface LOG](./06a_Log.md)
 
 # Offers
 
@@ -65,9 +66,11 @@
     - **Not available**   
         The offer is deleted from the marketplace.   	
 
-    The *Change offer status* confirmation window is displayed. If the variant status of the selected offer equals **Master offer**, an additional toggle is displayed within the confirmation window.   
+    The *Change offer status* confirmation window is displayed. If the variant status of the selected offer equals **Master offer**, an additional toggle is displayed within the confirmation window. If the variant status of the selected offer equals **Variant offer**, an additional warning is displayed within the confirmation window.
 
     ![Change offer status](../../Assets/Screenshots/Channels/Offers/Offers/ChangeOfferStatus.png "[Change offer status]")
+
+    [comment]: <> (update screenshot)
 
 - ![Edit](../../Assets/Icons/Edit03.png "[Edit]") (Edit)           
     Click this button to edit the selected offer from the list. This button is only displayed if a single checkbox in the list of offers is selected. Alternatively, you can click directly a row in the list to edit the corresponding offer.  
@@ -128,7 +131,7 @@ The list displays all available offers. Depending on the settings, the displayed
 - *ID*  
     Offer identification number. The ID number is automatically assigned by the system after creation.
 
-- Attribute    
+- *"Attribute name"*    
     You can add a column for each attribute that is assigned to the offer. The column displays the attribute name, the row displays the corresponding attribute value of the offer.
   
 - ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add)           
@@ -145,7 +148,7 @@ The list displays all available offers. Depending on the settings, the displayed
     Click this button to create a manual offer. The *Create offer* window is displayed, see [Create manual offer](#create-manual-offer).
 
 - [Create from PIM product ![Documents](../../Assets/Icons/Documents.png "[Documents]") ]    
-    Click this button to create an offer from a PIM product. The *Create from PIM product* wizard window is displayed, see [Create from PIM product](#create-from-PIM-product). This button is only displayed if the *PIM* module and the *PIM-Channels Connection* plugin are installed
+    Click this button to create an offer from a PIM product. The *Create from PIM product* wizard window is displayed, see [Create from PIM product](#create-from-PIM-product). This button is only displayed if the *PIM* module and the *PIM-Channels Connection* plugin are installed.
 
 - ![Cancel](../../Assets/Icons/Cross01.png "[Cancel]") (Cancel)   
     Click this button to hide the buttons and return to the *OFFERS* tab.
@@ -158,7 +161,7 @@ The list displays all available offers. Depending on the settings, the displayed
 The wizard to create an offer from a PIM product is started. The wizard is composed of the following wizard windows:
  - [Select marketplace](#select-marketplace)
  - [Select products](#select-products)
- - [review and finalize](#review-and-finalize)
+ - [Review and finalize](#review-and-finalize)
 
 #### Select marketplace
 
@@ -168,7 +171,7 @@ The wizard to create an offer from a PIM product is started. The wizard is compo
 
 **Select marketplace**
 
-- *Which products do you wish to create offers from?*	 
+- *Which products do you wish to create offers from?*             
     Select the products for which you want to create offers. The following options are available:   
     - ![Radiobutton](../../Assets/Icons/Radiobutton.png "[Radiobutton]") *All products*    
         Create offers from all available products.
@@ -178,7 +181,7 @@ The wizard to create an offer from a PIM product is started. The wizard is compo
 - *Connection*	   
     Click the drop-down list and select the connection for which you want to create offers. All available connections are displayed in the list.
 
-- ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Do not create duplicates*	   
+- ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Do not create duplicates*   
     Enable this toggle to only create offers for products that do not yet have an offer on the selected connection. Otherwise, disable the toggle. By default, this toggle is enabled.
 
 - [CANCEL]   
@@ -295,10 +298,13 @@ The list in the selection side bar displays all selected products. The *x* indic
 The window displays a summary of the offers from the selected products. The offers are divided as follows:
 - **Matched**	   
     Number of offers whose source attribute set match a destination attribute set. These offers will be created after finalizing the wizard. The corresponding attribute sets are displayed in the *Map attribute sets* box.
+    
 - **Not matched (unclear)**	   
     Number of offers whose source attribute cannot be clearly assigned to a destination attribute set. These offers must be assigned to a destination attribute set to be created after finalizing the wizard.
+
 - **Not matched (not possible)**   
     Number of offers whose source attribute cannot be assigned to a destination attribute set. These offers cannot be created. The corresponding attribute sets are displayed in the *Map attribute sets* box. 
+
 - **Already have offers on this connection and would create duplicates.**   
     Number of offers that already exist on the selected connection. Depending on the corresponding option that has been selected in the previous step, these offers will either be ignored or created after finalizing the wizard.
 
@@ -395,10 +401,10 @@ The box displays all source and destination attribute sets of the offers to be c
     Click this button to apply the changes to the SKU. This button is only displayed if you are editing the SKU.
 
 - *Language*   
-    Click the drop-down list to select a language for the offer. All active languages are displayed in the drop-down list. The default language is preselected.
+    Click the drop-down list to select a language for the offer. All available languages for the selected connection are displayed in the drop-down list.
 
 - [Completeness: Not available]     
-    Completeness of the offer. In the *Create offer* view, the completeness cannot be indicated. The completeness is indicated once the offer have been saved.
+    Completeness of the offer. In the *Create offer* view, the completeness cannot be indicated. The completeness is indicated once the offer has been saved.
 
 
 
@@ -410,10 +416,16 @@ The box displays all source and destination attribute sets of the offers to be c
 
 In the left margin column, all available attribute groups are displayed. Click an attribute group to display the attributes that are assigned to this group on the right side of the *Attributes* tab. If the offer contains attributes that are unassigned, the *Unassigned group* attribute group is automatically displayed in the left margin column.
 
+- ![Folders](../../Assets/Icons/Folders01.png "[Folders]") (Folders)  
+    Attribute group that contains attribute sub-groups. Click the attribute group or the arrow left to the attribute group to unfold the group and display the attribute sub-groups.
+
+- ![Folder](../../Assets/Icons/Folder01.png "[Folder]") (Folder)  
+    Attribute group. Click the attribute group to display all attributes that are assigned to the selected attribute group on the right side of the *Attributes* tab.
+
 The right side of the *Attributes* tab displays all attributes that are assigned to the selected group in the left margin column.
 
-- ![Fade in/out](../../Assets/Icons/FadeInOut01.png "[Fade in/out]") (Fade in/out)    
-    Click this button to hide or display the left margin column with the attribute groups. When the left margin is displayed and you click this button, the column is hidden. When the column is hidden and you click this button, the column is displayed again.
+- ![Collapse/Expand](../../Assets/Icons/CollapseExpand01.png "[Collapse/Expand]") (Collapse/Expand)    
+    Click this button to collapse or expand the left margin column with the attribute groups. When the left margin is expanded and you click this button, the column is collapsed. When the column is collapsed and you click this button, the column is expanded.
 
 
 
@@ -451,7 +463,7 @@ The list displays all variants of the selected product. Depending on the setting
 - *ID*   
     Variant identification number. The ID is created after saving. In the *Create offer* view, no ID is displayed.
 
-- Defining/changeable attribute    
+- *"Defining/changeable attribute name"*    
     You can add a column for each attribute that is assigned as a defining or changeable attribute to the selected variant set. The column displays the attribute name, the row displays the attribute value.
 
 - ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add)   
@@ -496,7 +508,7 @@ For each defining attribute a single field or box to define the attribute value 
 
 [comment]: <> (Bug reported -> BUG-113)
 
-- Defining attribute(s)   
+- *Defining attribute(s) name*   
     Enter or select the appropriate value for the defining attribute(s).
 
 - [CANCEL]   
@@ -513,7 +525,6 @@ For each defining attribute a single field or box to define the attribute value 
 ![Select values](../../Assets/Screenshots/Channels/Offers/Offers/Variants/SelectValues.png "[[Select values]")
 
 The wizard to add multiple variants to the offer is started. The wizard is composed of the following wizard windows:
-
 - [Select values](#select-values)
 - [Summary](#summary)
 
@@ -564,7 +575,7 @@ The list displays all selected variants. Depending on the settings, the displaye
 - *SKU*      
     Stock Keeping Unit. Identification number for the variant. Click this field to edit the SKU of the selected variant.
 
-- Defining attribute     
+- *"Defining attribute name"*     
     You can add a column for each defining attribute. The column displays the attribute name, the row displays the corresponding attribute value. These fields are read-only.
 
 - [< BACK]   
@@ -612,7 +623,7 @@ In the *Create offer* view, the notice *Information about dependencies is not av
     Click this button to apply the changes to the SKU. This button is only displayed if you are editing the SKU.
 
 - *Language*   
-    Click the drop-down list to select a language for the offer. All available languages for the selected connection are displayed in the drop-down list. The default language is preselected.
+    Click the drop-down list to select a language for the offer. All available languages for the selected connection are displayed in the drop-down list.
 
 - [COMPLETE: (x %)]     
     Completeness of the offer for all available channels and languages. The *x* in the brackets indicates the percentage of completeness. Click the button to display the *Completeness* window. If the completeness is less than 100%, the number of missing required attributes is displayed to the right of the completeness button.
@@ -641,10 +652,16 @@ In the *Create offer* view, the notice *Information about dependencies is not av
 
 In the left margin column, all available attribute groups are displayed. Click an attribute group to display the attributes that are assigned to this group on the right side of the *Attributes* tab. If the offer contains attributes that are unassigned, the *Unassigned group* attribute group is automatically displayed in the left margin column.
 
+- ![Folders](../../Assets/Icons/Folders01.png "[Folders]") (Folders)  
+    Attribute group that contains attribute sub-groups. Click the attribute group or the arrow left to the attribute group to unfold the group and display the attribute sub-groups.
+
+- ![Folder](../../Assets/Icons/Folder01.png "[Folder]") (Folder)  
+    Attribute group. Click the attribute group to display all attributes that are assigned to the selected attribute group on the right side of the *Attributes* tab.
+    
 The right side of the *Attributes* tab displays all attributes that are assigned to the selected group in the left margin column.
 
-- ![Fade in/out](../../Assets/Icons/FadeInOut01.png "[Fade in/out]") (Fade in/out)    
-    Click this button to hide or display the left margin column with the attribute groups. When the left margin is displayed and you click this button, the column is hidden. When the column is hidden and you click this button, the column is displayed again.
+- ![Collapse/Expand](../../Assets/Icons/CollapseExpand01.png "[Collapse/Expand]") (Collapse/Expand)    
+    Click this button to collapse or expand the left margin column with the attribute groups. When the left margin is expanded and you click this button, the column is collapsed. When the column is collapsed and you click this button, the column is expanded.
 
 
 
@@ -687,7 +704,7 @@ The list displays all variants. Depending on the settings, the displayed columns
 - *ID*   
     Variant identification number. The ID number is automatically assigned by the system after saving.
 
-- Defining/changeable attribute    
+- *"Defining/changeable attribute name"*    
     You can add a column for each attribute that is assigned as a defining or changeable attribute to the selected variant set. The column displays the attribute name, the row displays the attribute value.
 
 - ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add)   
@@ -730,7 +747,7 @@ For each defining attribute a single field or box to define the attribute value 
 
 > [Info] If more than one defining attribute is assigned to the variant, you have to select a value for each defining attribute to add a variant.
 
-- Defining attribute(s)   
+- *"Defining attribute(s) name"*   
     Enter or select the appropriate value for the defining attribute(s).
 
 - [CANCEL]   
@@ -747,7 +764,6 @@ For each defining attribute a single field or box to define the attribute value 
 ![Select values](../../Assets/Screenshots/Channels/Offers/Offers/Variants/SelectValues.png "[[Select values]")
 
 The wizard to add multiple variants to the offer is started. The wizard is composed of the following wizard windows:
-
 - [Select values](#select-values-1)
 - [Summary](#summary-1)
 
@@ -798,7 +814,7 @@ The list displays all selected variants. Depending on the settings, the displaye
 - *SKU*      
     Stock Keeping Unit. Identification number for the variant. Click this field to edit the SKU of the selected variant.
 
-- Defining attribute     
+- *"Defining attribute name"*     
     You can add a column for each defining attribute. The column displays the attribute name, the row displays the corresponding attribute value. These fields are read-only.
 
 - [< BACK]   

@@ -1,6 +1,6 @@
 [!!Import an offer](../Operation/02_ImportOffers.md)
-[!!User interface PIM List](../../PIM/UserInterface/02a_List.md)
-[!!User interface DataHub ETL](../../DataHub/UserInterface/02d_ETL.md)
+[!!User interface List](../../PIM/UserInterface/02a_List.md)
+[!!User interface ETL](../../DataHub/UserInterface/02d_ETL.md)
 
 # CHANNELS->PIM
 
@@ -98,7 +98,7 @@ A single box with PIM attributes is displayed for each available attribute set m
 - [x] *PIM attribute*
     Select the checkbox to select all checkboxes in the list.
 
-- [x] "Attribute name"
+- [x] *"Attribute name"*
     Select the checkbox to consider the attribute when matching with an existing PIM product. 
     
     > [Info] A single checkbox is displayed for each mapped attribute.
@@ -125,7 +125,9 @@ A single box with PIM attributes is displayed for each available attribute set m
 - *Mode*   
     Click the drop-down list to select the behavior if a matched PIM product has been found. The following options are available:
     - **Link only**   
-    - **Link and transfer data**       
+        Only a dependency between the PIM product and the offer is created.
+    - **Link and transfer data**   
+        A dependency between the PIM product and the offer is created. In addition, an ETL mapping is performed between the PIM product and the offer, whereby all data from the PIM product is written into the Omni-Channel offer. 
 
 **Behavior on change of the PIM product**
 
@@ -139,6 +141,8 @@ A single box with PIM attributes is displayed for each available attribute set m
         Changes in a PIM product are automatically applied to the offer after confirmation by another user. The initial offer is only applied after confirmation by another user.       
     - **automatic**    
         Changes in a PIM product are automatically applied to the offer. The initial offer is also automatically applied.
+
+        > [Info] The selected change tracking mode is applied for the link that will be created between the PIM products and the offers.
 
 - [BACK]   
     Click this button to go back to the previous step of the import wizard. The *Select matching attributes* wizard window is displayed.
@@ -157,7 +161,7 @@ A single box with PIM attributes is displayed for each available attribute set m
 
 ![Summary](../../Assets/Screenshots/Channels/OfferImport/ChannelsPIM/Summary.png "[Summary]")
 
-The *Mapped AttributeSets* box displays the selected mapping. The *Matching and behavior after import* box displays the selected behavior after import.
+The *Mapped attribute sets* box displays the selected mapping. The *Matching and behavior after import* box displays the selected behavior after import.
 
 - [BACK]   
     Click this button to go back to the previous step of the import wizard. The *Matching and behavior after import* wizard window is displayed.
@@ -218,7 +222,7 @@ The *Mapped AttributeSets* box displays the selected mapping. The *Matching and 
         - ![Delete](../../Assets/Icons/Trash01.png "[Delete]") delete  
             Click this entry to delete the selected view. A confirmation window to confirm the deletion is displayed. This menu entry is only displayed if a view has been selected.
 
-- Selected connection    
+- *"Selected connection name"*    
     The selected connection is displayed in the drop-down list. The drop-down list is locked.
 
 - ![Columns](../../Assets/Icons/Columns.png "[Columns]") Columns (x)   
@@ -256,9 +260,11 @@ The list displays all offers to be imported. Depending on the settings, the disp
     - **Not available**   
         The offer is deleted from the marketplace.     
 
-    The *Change offer status* confirmation window is displayed. If the variant status of the selected offer equals **Master offer**, the *Apply parent status to all child offers* toggle is displayed within the confirmation window.   
+    The *Change offer status* confirmation window is displayed. If the variant status of the selected offer equals **Master offer**, an additional toggle is displayed within the confirmation window. If the variant status of the selected offer equals **Variant offer**, an additional warning is displayed within the confirmation window.
 
     ![Change offer status](../../Assets/Screenshots/Channels/Offers/Offers/ChangeOfferStatus.png "[Change offer status]")
+
+    [comment]: <> (update screenshot)
 
 - *Pending status/Errors*  
     Indication of the pending status or an error for this offer. The selected status is displayed if you have changed the offer status via the editing toolbar. The following options are available:
@@ -292,12 +298,12 @@ The list displays all offers to be imported. Depending on the settings, the disp
 - *ID*  
     Offer identification number. The ID number is automatically assigned by the system after creation.
 
-- Attribute    
+- *"Attribute name"*    
     You can add a column for each attribute that is assigned to the offer. The column displays the attribute name, the row displays the corresponding attribute value of the offer.
 
 **Processes**
  
-- "Import process name"  
+- *"Import process name"*  
     Process for the import to the *PIM* module. The status of the process is displayed below the name of the import process. The following statuses are available:
     - **Queue filled, waiting for start**    
         The product is ready to be imported to the *PIM* module.
@@ -362,8 +368,8 @@ The list displays all offers to be imported. Depending on the settings, the disp
 *Omni-Channel > Offer import > Tab CHANNELS->PIM > Select connection > Button SELECT > Finalize wizard > Tab Offers > Select import process   
 
 The import process window is composed of the following tabs:
-- [Import processes &ndash; Messages](#import-process-–-messages)
-- [Import processes &ndash; Queue](#import-process-–-queue)
+- [Import processes &ndash; Messages](#import-process--messages)
+- [Import processes &ndash; Queue](#import-process--queue)
 
 
 ### Import process &ndash; Messages
@@ -398,7 +404,7 @@ The list displays all error messages. Depending on the settings, the displayed c
  
 ![Processes queue](../../Assets/Screenshots/Channels/OfferImport/ChannelsPIM/Processes_Queue.png "[Processes queue]")
 
-**Export channels offers to PIM products**
+**Export Omni-Channel offers to PIM products**
 
 - ![Search](../../Assets/Icons/Search.png "[Search]") (Search)   
     Click this button to display the search bar and search for a line item.
@@ -445,10 +451,14 @@ The list displays all line items of the selected import process. Depending on th
     - **automatic**    
         Changes in a PIM product are automatically applied to the offer. The initial offer is also automatically applied.
 
+        > [Info] The selected change tracking mode is applied for the link that will be created between the PIM products and the offers.
+
 - *Initial data transfer offer to existing product*    
     Initial data transfer mode if a PIM product to the offer already exists. The following options are available:
     - **Link only**   
-    - **Link and transfer data**     
+        Only a dependency between the PIM product and the offer is created.
+    - **Link and transfer data**   
+        A dependency between the PIM product and the offer is created. In addition, an ETL mapping is performed between the PIM product and the offer, whereby all data from the PIM product is written into the Omni-Channel offer.   
 
 - *State*   
     State of the line item. The following options are available:
@@ -475,7 +485,7 @@ The list displays all line items of the selected import process. Depending on th
  
 ![Processes queue edit](../../Assets/Screenshots/Channels/OfferImport/ChannelsPIM/Processes_QueueEdit.png "[Processes queue edit]")
 
-- *Data transfer from PIM product to Channels offer* 
+- *Data transfer from PIM product to Channels offer*   
     Click the drop-down list to select the data transfer mode from the PIM product to the Omni-Channel offer. The following options are available:   
     - **manual**   
         Changes in a PIM product must be triggered manually to be applied to the offer. The initial offer is automatically applied.
@@ -485,11 +495,15 @@ The list displays all line items of the selected import process. Depending on th
         Changes in a PIM product are automatically applied to the offer after confirmation by another user. The initial offer is only applied after confirmation by another user.       
     - **automatic**    
         Changes in a PIM product are automatically applied to the offer. The initial offer is also automatically applied.
-    
-- *Initial data transfer offer to existing product*
+
+        > [Info] The selected change tracking mode is applied for the link that will be created between the PIM products and the offers.
+
+- *Initial data transfer offer to existing product*   
     Click the drop-down list to select the initial data transfer mode if a PIM product to the offer already exists. The following options are available:
     - **Link only**   
-    - **Link and transfer data**     
+        Only a dependency between the PIM product and the offer is created.
+    - **Link and transfer data**   
+        A dependency between the PIM product and the offer is created. In addition, an ETL mapping is performed between the PIM product and the offer, whereby all data from the PIM product is written into the Omni-Channel offer.     
 
 [comment]: <> (entsprechen die Felder den Mode Feldern im wizard fenster Matching and behavior after import? Beschreibungen ggf. anpassen -> FETA-18)
 
@@ -517,4 +531,4 @@ The list displays all line items of the selected import process. Depending on th
 
 This window displays the products list from the *PIM* module. 
 
-For a detailed description of this window and the corresponding functions, see [User Interface PIM List](../../PIM/UserInterface/02a_List.md).
+For a detailed description of this window and the corresponding functions, see [User Interface List](../../PIM/UserInterface/02a_List.md).

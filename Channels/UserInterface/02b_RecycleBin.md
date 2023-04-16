@@ -6,7 +6,7 @@
 
 ![Recycle bin](../../Assets/Screenshots/Channels/Offers/RecycleBin/RecycleBin.png "[Recycle bin]")
 
-**Recycle Bin**
+**Recycle bin**
 
 - ![Search](../../Assets/Icons/Search.png "[Search]") (Search)   
     Click this button to display the search bar and search for an offer.

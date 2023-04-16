@@ -1,7 +1,7 @@
 [!!Manage the variant sets](../Integration/02_ManageVariantSets.md)
 [!!Data type list](../../DataHub/UserInterface/04_DataTypeList.md)
 
-# Variant Sets
+# Variant sets
 
 *Omni-Channel > Settings > Tab VARIANT SETS*
 
@@ -78,7 +78,7 @@ The list displays all variant sets. Depending on the settings, the displayed col
 - ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)   
     Click this button to close the *Create variant set* view and return to the list of variant sets. All changes are rejected.
 
-- Language   
+- *"Language name"*   
     Click the drop-down list and select the language in which the *Name (Language)* fields are displayed. The languages *English (United States)* and *Deutsch (Deutschland)* are available in the drop-down list.
 
 - [SAVE]   
@@ -193,7 +193,7 @@ The list displays all changeable attributes to the variant set. All fields are r
 - ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)   
     Click this button to close the *Edit variant set* view and return to the list of variant sets. All changes are rejected.
 
-- Language   
+- *"Language name"*   
     Click the drop-down list and select the language in which the *Name (Language)* fields are displayed. The languages *English (United States)* and *Deutsch (Deutschland)* are available in the drop-down list.
 
 - [SAVE]   

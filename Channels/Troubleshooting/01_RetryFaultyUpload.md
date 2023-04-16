@@ -26,11 +26,11 @@ The cause of the faulty offer upload has been fixed.
     The editing toolbar is displayed above the list.
 
 2. Click the [RETRY UPLOAD] button in the editing toolbar.   
-    The selected offer upload has been triggered. The pop-up window *Upload triggered* is displayed.
+    The selected offer upload has been triggered. The *Upload triggered* pop-up window is displayed.
 
     ![Upload triggered](../../Assets/Screenshots/Channels/OfferUpload/Errors/UploadTriggered.png "[Upload triggered]")
 
-    If the retry is successful, the offer will be removed from the list of export errors.
+    > [Info] If the retry is successful, the offer will be removed from the list of export errors.
 
 
 

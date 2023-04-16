@@ -19,7 +19,7 @@ Define the basic inputs, such as name and attribute set, for the variant set.
 
 #### Prerequisites
 
-An attribute set has been created in DataHub, see [Create an attribute set](../../DataHub/Integration/02_ManageAttributeSets.md#create-an-attribute-set).
+An attribute set has been created in the *DataHub* module, see [Create an attribute set](../../DataHub/Integration/02_ManageAttributeSets.md#create-an-attribute-set).
 
 #### Procedure
 
@@ -58,7 +58,7 @@ You have to select at least one defining attribute to create a variant set. You 
 
 #### Prerequisites
 
-- An attribute set has been created in DataHub, see [Create an attribute set](../../DataHub/Integration/02_ManageAttributeSets.md#create-an-attribute-set).
+- An attribute set has been created in the *DataHub* module, see [Create an attribute set](../../DataHub/Integration/02_ManageAttributeSets.md#create-an-attribute-set).
 - The basic data of the variant set has been defined, see [Define the variant set basic data](#define-the-variant-set-basic-data).
 
 #### Procedure
@@ -94,7 +94,7 @@ You can select changeable attributes for a variant set. If you want to define an
 
 #### Prerequisites
 
-- An attribute set has been created in DataHub, see [Create an attribute set](../../DataHub/Integration/02_ManageAttributeSets.md#create-an-attribute-set).
+- An attribute set has been created in the *DataHub* module, see [Create an attribute set](../../DataHub/Integration/02_ManageAttributeSets.md#create-an-attribute-set).
 - The basic data of the variant set has been defined, see [Define the variant set basic data](#define-the-variant-set-basic-data).
 
 #### Procedure

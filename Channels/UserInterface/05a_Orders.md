@@ -1,5 +1,6 @@
 [!!Configure the orders and returns](../Integration/04_ConfigureOrdersReturns.md)
 [!!Manage the orders and returns](../Operation/04_ManageOrdersReturns.md)
+[!!User interface LOG](./06a_Log.md)
 
 [comment]: <> (Add link to Order management if available)
 
@@ -164,7 +165,7 @@ The list displays all orders, either for all connections or for the selected con
 - *ID*  
     Order identification number. The ID number is automatically assigned by the system.
 
-- Attribute    
+- *"Attribute name"*    
     You can add a column for each attribute that is assigned to the order. The column displays the attribute name, the row displays the corresponding attribute value of the order.
 
 
@@ -214,12 +215,12 @@ The list displays all orders, either for all connections or for the selected con
 [comment]: <> (Button umbenennen in RETRY IMPORT -> Konsistenz! -> FETA-16)
 
 The *Order from connection "Connection name"* view is composed of the following tabs:
-- [Order from connection "Connection name" &ndash; Attributes](#order-from-connection-connection-name-–-attributes)
-- [Order from connection "Connection name" &ndash; Dependencies](#order-from-connection-connection-name-–-dependencies)
-- [Order from connection "Connection name" &ndash; Line items](#order-from-connection-connection-name-–-line-items)
-- [Order from connection "Connection name" &ndash; Shipments](#order-from-connection-connection-name-–-shipments)
-- [Order from connection "Connection name" &ndash; Cancellations](#order-from-connection-connection-name-–-cancellations)
-- [Order from connection "Connection name" &ndash; Errors](#order-from-connection-connection-name-–-errors)
+- [Order from connection "Connection name" &ndash; Attributes](#order-from-connection-connection-name--attributes)
+- [Order from connection "Connection name" &ndash; Dependencies](#order-from-connection-connection-name--dependencies)
+- [Order from connection "Connection name" &ndash; Line items](#order-from-connection-connection-name--line-items)
+- [Order from connection "Connection name" &ndash; Shipments](#order-from-connection-connection-name--shipments)
+- [Order from connection "Connection name" &ndash; Cancellations](#order-from-connection-connection-name--cancellations)
+- [Order from connection "Connection name" &ndash; Errors](#order-from-connection-connection-name--errors)
 
 
 
@@ -239,8 +240,8 @@ In the left margin column, all available attribute groups are displayed. Click a
 
 The right side of the *Attributes* tab displays all attributes that are assigned to the selected group in the left margin column. All fields are read-only.
 
-- ![Fade in/out](../../Assets/Icons/FadeInOut01.png "[Fade in/out]") (Fade in/out)    
-    Click this button to hide or display the left margin column with the attribute groups. When the left margin is displayed and you click this button, the column is hidden. When the column is hidden and you click this button, the column is displayed again.
+- ![Collapse/Expand](../../Assets/Icons/CollapseExpand01.png "[Collapse/Expand]") (Collapse/Expand)    
+    Click this button to collapse or expand the left margin column with the attribute groups. When the left margin is expanded and you click this button, the column is collapsed. When the column is collapsed and you click this button, the column is expanded.
 
 
 
@@ -362,7 +363,7 @@ The list displays all line items of the selected order. Depending on the setting
 - *ID*  
     Order line item identification number. The ID number is automatically assigned by the system after creation.
 
-- "Attribute name"    
+- *"Attribute name"*    
     You can add a column for each attribute that is assigned to the order line item. The column displays the attribute name, the row displays the corresponding attribute value of the item.
 
 
@@ -379,8 +380,8 @@ The list displays all line items of the selected order. Depending on the setting
     Click this button to close the *Line item* view.
 
 The *Line item* view is composed of the following tabs:
-- [Line item &ndash; Attributes](#line-item-–-attributes)
-- [Line item &ndash; Dependencies](#line-item-–-dependencies)
+- [Line item &ndash; Attributes](#line-item--attributes)
+- [Line item &ndash; Dependencies](#line-item--dependencies)
 
 
 ### Line item &ndash; Attributes
@@ -399,8 +400,8 @@ In the left margin column, all available attribute groups are displayed. Click a
 
 The right side of the *Attributes* tab displays all attributes that are assigned to the selected group in the left margin column. All fields are read-only.
 
-- ![Fade in/out](../../Assets/Icons/FadeInOut01.png "[Fade in/out]") (Fade in/out)    
-    Click this button to hide or display the left margin column with the attribute groups. When the left margin is displayed and you click this button, the column is hidden. When the column is hidden and you click this button, the column is displayed again.
+- ![Collapse/Expand](../../Assets/Icons/CollapseExpand01.png "[Collapse/Expand]") (Collapse/Expand)    
+    Click this button to collapse or expand the left margin column with the attribute groups. When the left margin is expanded and you click this button, the column is collapsed. When the column is collapsed and you click this button, the column is expanded.
 
 
 ### Line item &ndash; Dependencies
@@ -496,7 +497,7 @@ The list displays all shipments for the selected order. Depending on the setting
 - *ID*  
     Shipment identification number. The ID number is automatically assigned by the system.
 
-- Attribute  
+- *"Attribute name"*  
     You can add a column for each attribute that is assigned to the shipment. The column displays the attribute name, the row displays the corresponding attribute value of the shipment.
 
 
@@ -513,9 +514,9 @@ The list displays all shipments for the selected order. Depending on the setting
     Click this button to close the *Shipment for order "Order ID"* view.
 
 The *Shipment for order "Order ID"* view is composed of the following tabs:
-- [Shipment for order "Order ID" &ndash; Attributes](#shipment-for-order-order-id-–-attributes)
-- [Shipment for order "Order ID" &ndash; Dependencies](#shipment-for-order-order-id-–-dependencies)
-- [Shipment for order "Order ID" &ndash; Shipment line items](#shipment-for-order-order-id-–-shipment-line-items)
+- [Shipment for order "Order ID" &ndash; Attributes](#shipment-for-order-order-id--attributes)
+- [Shipment for order "Order ID" &ndash; Dependencies](#shipment-for-order-order-id--dependencies)
+- [Shipment for order "Order ID" &ndash; Shipment line items](#shipment-for-order-order-id--shipment-line-items)
 
 
 ### Shipment for order "Order ID" &ndash; Attributes
@@ -534,8 +535,8 @@ In the left margin column, all available attribute groups are displayed. Click a
 
 The right side of the *Attributes* tab displays all attributes that are assigned to the selected group in the left margin column. All fields are read-only.
 
-- ![Fade in/out](../../Assets/Icons/FadeInOut01.png "[Fade in/out]") (Fade in/out)    
-    Click this button to hide or display the left margin column with the attribute groups. When the left margin is displayed and you click this button, the column is hidden. When the column is hidden and you click this button, the column is displayed again.
+- ![Collapse/Expand](../../Assets/Icons/CollapseExpand01.png "[Collapse/Expand]") (Collapse/Expand)    
+    Click this button to collapse or expand the left margin column with the attribute groups. When the left margin is expanded and you click this button, the column is collapsed. When the column is collapsed and you click this button, the column is expanded.
 
 
 ### Shipment for order "Order ID" &ndash; Dependencies
@@ -611,7 +612,7 @@ The list displays all shipment line items of the selected order. Depending on th
 - *ID*  
     Shipment line item identification number. The ID number is automatically assigned by the system after creation.
 
-- Attribute    
+- *"Attribute name"*    
     You can add a column for each attribute that is assigned to the shipment line item. The column displays the attribute name, the row displays the corresponding attribute value of the order.
 
 
@@ -628,8 +629,8 @@ The list displays all shipment line items of the selected order. Depending on th
     Click this button to close the *Shipment line item* view.
 
 The *Shipment line item* view is composed of the following tabs:
-- [Shipment line item &ndash; Attributes](#shipment-line-item-–-attributes)
-- [Shipment line item &ndash; Dependencies](#shipment-line-item-–-dependencies)
+- [Shipment line item &ndash; Attributes](#shipment-line-item--attributes)
+- [Shipment line item &ndash; Dependencies](#shipment-line-item--dependencies)
 
 
 #### Shipment line item &ndash; Attributes
@@ -648,8 +649,8 @@ In the left margin column, all available attribute groups are displayed. Click a
 
 The right side of the *Attributes* tab displays all attributes that are assigned to the selected group in the left margin column. All fields are read-only.
 
-- ![Fade in/out](../../Assets/Icons/FadeInOut01.png "[Fade in/out]") (Fade in/out)    
-    Click this button to hide or display the left margin column with the attribute groups. When the left margin is displayed and you click this button, the column is hidden. When the column is hidden and you click this button, the column is displayed again.
+- ![Collapse/Expand](../../Assets/Icons/CollapseExpand01.png "[Collapse/Expand]") (Collapse/Expand)    
+    Click this button to collapse or expand the left margin column with the attribute groups. When the left margin is expanded and you click this button, the column is collapsed. When the column is collapsed and you click this button, the column is expanded.
 
 
 #### Shipment line item &ndash; Dependencies
@@ -759,8 +760,8 @@ The list displays all cancellations for the selected order. Depending on the set
     Click this button to close the *Cancellation line item* view.
 
 The *Cancellation line item* view is composed of the following tabs:
-- [Cancellation line item &ndash; Attributes](#cancellation-line-item-–-attributes)
-- [Cancellation line item &ndash; Dependencies](#cancellation-line-item-–-dependencies)
+- [Cancellation line item &ndash; Attributes](#cancellation-line-item--attributes)
+- [Cancellation line item &ndash; Dependencies](#cancellation-line-item--dependencies)
 
 
 #### Cancellation line item &ndash; Attributes
@@ -781,8 +782,8 @@ In the left margin column, all available attribute groups are displayed. Click a
 
 The right side of the *Attributes* tab displays all attributes that are assigned to the selected group in the left margin column. All fields are read-only.
 
-- ![Fade in/out](../../Assets/Icons/FadeInOut01.png "[Fade in/out]") (Fade in/out)    
-    Click this button to hide or display the left margin column with the attribute groups. When the left margin is displayed and you click this button, the column is hidden. When the column is hidden and you click this button, the column is displayed again.
+- ![Collapse/Expand](../../Assets/Icons/CollapseExpand01.png "[Collapse/Expand]") (Collapse/Expand)    
+    Click this button to collapse or expand the left margin column with the attribute groups. When the left margin is expanded and you click this button, the column is collapsed. When the column is collapsed and you click this button, the column is expanded.
 
 
 #### Cancellation line item &ndash; Dependencies

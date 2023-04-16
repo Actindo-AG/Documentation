@@ -7,7 +7,7 @@
 
 ![PIM->CHANNELS](../../Assets/Screenshots/Channels/OfferImport/PIMChannels/PIMChannels.png "[PIM->CHANNELS]")
 
-**Channels offers to be created from PIM products**	
+**Omni-Channel offers to be created from PIM products**	
 
 - [CLEAR ALL]  
     Click this button to cancel all scheduled offer. All offers that have not been imported yet are canceled and removed from the list. 

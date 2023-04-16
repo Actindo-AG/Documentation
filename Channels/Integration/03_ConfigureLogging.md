@@ -38,7 +38,7 @@ No prerequisites to fulfill.
 
     ![Logging](../../Assets/Screenshots/Channels/Settings/Logging/LogLevel.png "[Logging]")
 
-4. Click the [SAVE] button in the upper right corner.   
+4. Click the [Save] button in the upper right corner.   
     The changes are saved. The *Saving successful* pop-up window is displayed.
 
     ![Saving successful](../../Assets/Screenshots/Channels/Settings/Logging/SavingSuccessful.png "[Saving successful]")
@@ -82,7 +82,7 @@ No prerequisites to fulfill.
 
 3. Enter the desired retention time in the *Cleanup time in h* field.
 
-4. Click the [SAVE] button in the upper right corner.   
+4. Click the [Save] button in the upper right corner.   
     The changes are saved. The *Saving successful* pop-up window is displayed.
 
     ![Saving successful](../../Assets/Screenshots/Channels/Settings/Logging/SavingSuccessful.png "[Saving successful]")

@@ -67,7 +67,6 @@
 - [DETAILS]   
     Click this button to display the *Detail of log message "Log message title"* view and check further details of the error. This button is only displayed if a connection has been selected in the *Select connection* drop-down list and if the checkbox of a single offer with an error is selected.
 
-
 The list displays all offer imports. Depending on the settings, the displayed columns may vary. All fields are read-only. If no offer imports are available, the *Please select a connection to import products from* notice is displayed. The available columns differ depending on the selected connection in the *Select connection* drop-down list. Therefore, only those columns that are available for all connections are described in the following.
 
 - *Error message*   

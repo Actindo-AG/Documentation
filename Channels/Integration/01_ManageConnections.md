@@ -56,6 +56,7 @@ At least one driver has been installed.
     ![Sync triggered](../../Assets/Screenshots/Channels/Settings/Connections/SyncTriggered.png "[Sync triggered]")
 
 
+
 ## Edit a connection
 
 Edit a connection to adjust any changed credentials, the connection name or further settings. The driver selection is read-only and cannot be edited.

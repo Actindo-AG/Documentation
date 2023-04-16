@@ -5,7 +5,7 @@
 
 # Manage the orders and returns
 
-When an order is placed in the marketplace, this order must be imported into *Omni-Channel* to further process it in the *Order Management* module.   
+When an order has been placed in the marketplace, this order must be imported into *Omni-Channel* to further process it in the *Order Management* module.   
 You can configure an automatic import of orders for a certain time interval, see [Configure the order import](../Integration/04_ConfigureOrdersReturns.md#configure-the-order-import). You can also manually trigger the import of orders at any time.
 
 For certain marketplaces, it is possible to announce a return. In this case, these returns can be imported to *Omni-Channel* to further process them in the *Return management* module.   
@@ -31,7 +31,7 @@ A connection to a marketplace has been established, see [Create a connection](..
 ![Orders](../../Assets/Screenshots/Channels/OrdersReturns/Orders/Orders.png "[Orders]")
 
 1. Click the *All connections* drop-down list and select the connection for which you want to import the orders. All supported connections for import are displayed in the list.   
-    Only the orders of the selected connection are displayed in the list of orders.
+    The orders of the selected connection are displayed in the list of orders.
 
     ![Orders connection](../../Assets/Screenshots/Channels/OrdersReturns/Orders/OrdersConnection.png "[Orders connection]")
 
@@ -57,10 +57,10 @@ A connection to a marketplace has been established, see [Create a connection](..
 
 ![Orders](../../Assets/Screenshots/Channels/OrdersReturns/Orders/Orders.png "[Orders]")
 
-Click the [Import orders for all connections] button. This button is only displayed, if no connection has been selected in the *All connections* drop-down list.       
-    The order import has been triggered. The *Order import triggered* pop-up window is displayed. The orders will be downloaded.
+Click the [Import orders for all connections] button. This button is only displayed, if no connection has been selected in the *All connections* drop-down list.   
+The order import has been triggered. The *Order import triggered* pop-up window is displayed. The orders will be downloaded.
 
-    ![Order import triggered](../../Assets/Screenshots/Channels/OrdersReturns/Orders/OrderImportTriggered.png "[Order import triggered]")
+![Order import triggered](../../Assets/Screenshots/Channels/OrdersReturns/Orders/OrderImportTriggered.png "[Order import triggered]")
 
 
 
@@ -79,7 +79,7 @@ A connection to a marketplace has been established, see [Create a connection](..
 ![Orders](../../Assets/Screenshots/Channels/OrdersReturns/Orders/Orders.png "[Orders]")
 
 1. If desired, click the *All connections* drop-down list and select a connection.   
-    Only the orders of the selected connection are displayed in the list of orders.
+    The orders of the selected connection are displayed in the list of orders.
 
 2. Select the checkboxes of the orders you want to export in the list of order.    
     The editing toolbar is displayed above the list.
@@ -87,7 +87,7 @@ A connection to a marketplace has been established, see [Create a connection](..
 3. Click the [EXPORT TO OMS] button in the editing toolbar.   
     The export to OMS has been triggered. The order status in the *Status of export to OMS* column of the selected order(s) changes to **Being exported**.
 
-    > [Info] You can only export orders to OMS that are fully imported (*Status of import from channel* equals **Order complete**) and not yet exported to OMS (*Status of export to OMS* does not equal **Exported**). Otherwise, an error message is displayed.
+    > [Info] You can only export orders to OMS that are fully imported, that is, *Status of import from channel* column equals **Order complete**, and not yet exported to OMS, that is, *Status of export to OMS* column does not equal **Exported**. Otherwise, an error message is displayed.
 
 
 
@@ -109,8 +109,8 @@ A connection to a marketplace has been established, see [Create a connection](..
 
 ![Returns](../../Assets/Screenshots/Channels/OrdersReturns/Returns/Returns.png "[Returns]")
 
-1. Click the *All connections* drop-down list and select the connection for which you want to import the returns. All supported connections for return are displayed in the list.   
-    Only the returns of the selected connection are displayed in the list of returns.
+1. Click the *All connections* drop-down list and select the connection for which you want to import the returns. All supported connections for return are displayed in the list.     
+    The returns of the selected connection are displayed in the list of returns.
 
     ![Returns connection](../../Assets/Screenshots/Channels/OrdersReturns/Returns/ReturnsConnection.png "[Returns connection]")
 
@@ -138,9 +138,9 @@ If you want to import the returns from all connected marketplaces, trigger the i
 ![Returns](../../Assets/Screenshots/Channels/OrdersReturns/Returns/Returns.png "[Returns]")
 
 Click the [Import returns for all connections] button. This button is only displayed, if no connection has been selected in the *All connections* drop-down list.      
-    The return import has been triggered. The *Returns import triggered* pop-up window is displayed. The returns will be downloaded.
+The return import has been triggered. The *Returns import triggered* pop-up window is displayed. The returns will be downloaded.
 
-    ![Return import triggered](../../Assets/Screenshots/Channels/OrdersReturns/Returns/ReturnImportTriggered.png "[Return import triggered]")
+![Return import triggered](../../Assets/Screenshots/Channels/OrdersReturns/Returns/ReturnImportTriggered.png "[Return import triggered]")
 
 
 
@@ -159,15 +159,15 @@ A connection to a marketplace has been established, see [Create a connection](..
 ![Orders](../../Assets/Screenshots/Channels/OrdersReturns/Returns/Returns.png "[Orders]")
 
 1. If desired, click the *All connections* drop-down list and select a connection.   
-    Only the orders of the selected connection are displayed in the list of orders.
+    The orders of the selected connection are displayed in the list of orders.
 
 2. Select the checkboxes of the returns you want to export in the list of order.    
     The editing toolbar is displayed above the list.
 
-3. Click the [EXPORT TO OMS] button in the editing toolbar.   
+3. Click the [EXPORT TO OMS] button in the editing toolbar.    
     The export has been triggered. The return status in the *Status of export to OMS* column of the selected return(s) changes to **Being exported**.
 
-    > [Info] You can only export returns that are fully imported (*Status of import from channel* equals **Order complete**) and not yet exported to OMS (*Status of export to OMS* does not equal **Exported**). Otherwise, an error message is displayed.
+    > [Info] You can only export returns that are fully imported, that is, *Status of import from channel* column equals **Order complete**, and not yet exported to OMS, that is, *Status of export to OMS* column does not equal **Exported**. Otherwise, an error message is displayed.
 
     
 
@@ -177,7 +177,7 @@ You can check if any exports are still pending, for example after an order has b
 
 #### Prerequisites
 
-At least one export has been triggered, either automatically or manually, see [Export orders manually](#export-orders-manually).
+At least one export has been triggered, either automatically or manually, see [Export orders to OMS](#export-orders-to-oms).
 
 #### Procedure
 
@@ -210,7 +210,7 @@ At least one order or return import or export has been failed.
 
 1. Check the list of export and/or import errors for the searched faulty order/return export/import.
 
-2. Click the corresponding faulty order/return export/import.   
+2. Click the corresponding faulty order/return export/import.    
     The *Detail of log message "Log message title"* view is displayed. By default, the *Attributes* tab is preselected.
 
     ![Detail of log message attributes](../../Assets/Screenshots/Channels/OrdersReturns/Errors/DetailLogMessageAttributes.png "[Detail of log message attributes]")

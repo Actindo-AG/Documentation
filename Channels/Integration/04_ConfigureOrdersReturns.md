@@ -4,6 +4,7 @@
 # Configure the orders and returns
 
 When an order is placed in the marketplace, this order must be imported to *Omni-Channel* in order to further process it in the *Order Management* module.   
+
 To import orders and returns to *Omni-Channel*, you can configure an automatic import at a certain time interval.
 
 
@@ -39,7 +40,7 @@ A connection to a marketplace has been established, see [Create a connection](..
 3. Click the [SAVE] button.    
     The configured time interval is saved for the selected connection.
 
-> [Info] Repeat this procedure for each connection to configure a time interval for the automatic download of orders. To manually import the orders, see [Import orders manually](../Operation/04_ManageOrdersReturns.md#import-orders-manually).
+> [Info] Repeat this procedure for each connection to configure a time interval for the automatic download of orders. To manually import the orders, see [Import orders](../Operation/04_ManageOrdersReturns.md#import-orders).
 
 
 
@@ -75,4 +76,4 @@ A connection to a marketplace has been established, see [Create a connection](..
 3. Click the [SAVE] button.    
     The configured time interval is saved for the selected connection.
 
-> [Info] Repeat this procedure for each connection to configure a time interval for the automatic download of returns. To manually import the returns, see [Import returns manually](../Operation/04_ManageOrdersReturns.md#import-returns-manually).
+> [Info] Repeat this procedure for each connection to configure a time interval for the automatic download of returns. To manually import the returns, see [Import returns](../Operation/04_ManageOrdersReturns.md#import-returns).

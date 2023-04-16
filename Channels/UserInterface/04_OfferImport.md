@@ -9,4 +9,4 @@ The *Offer import* user interface is composed of the following tabs:
 - [PIM->CHANNELS](./04b_PIMChannels.md)
 - [CHANNELS->PIM](./04c_ChannelsPIM.md) 
 
-The *PIM->CHANNELS* and the *CHANNELS->PIM* tab are only displayed, if the *PIM-Channels Connection* plugin is installed.
+The *PIM->CHANNELS* and the *CHANNELS->PIM* tab are only displayed, if the *PIM* module and the *PIM-Channels Connection* plugin are installed.
