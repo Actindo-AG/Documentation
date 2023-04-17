@@ -49,7 +49,7 @@ A dispatch note displays an error.
 5. If no further information is detailed or the information displayed is not conclusive, click the [CLOSE] button in the upper right corner to close the current view.  
     The list of dispatch notes is displayed again. 
 
-6. Proceed to check the dispatch note workflow for further information on the error cause, see [Check the workflow](#check-the-workflow). 
+6. Continue to check the dispatch note workflow for further information on the error cause, see [Check the workflow](#check-the-workflow). 
 
 
 ### Check the workflow
@@ -58,7 +58,7 @@ When a dispatch note displays an error, the corresponding workflow stops at the 
 
 #### Prerequisites
 
-The dispatch note log information provides no conclusive information on the error.
+The dispatch note log provides no conclusive information on the error, see [Check the dispatch note log](#check-the-dispatch-note-log).
 
 #### Procedure
 
