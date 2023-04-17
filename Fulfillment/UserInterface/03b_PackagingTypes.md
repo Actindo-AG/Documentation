@@ -128,8 +128,6 @@ The list displays all packaging types. Depending on the settings, the displayed 
 
 ![Create view](../../Assets/Screenshots/Fulfillment/Settings/PackagingTypes/CreatePackagingType.png "[Create view]")
 
-[comment]: <> (Screenshot evtl. ändern, Actindo Basic kommt nicht bei NoE vor)
-
 - ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)   
     Click this button to close the *Create packaging type* view and return to the list of packaging types. All changes are rejected.
 
@@ -187,7 +185,7 @@ The list displays all packaging types. Depending on the settings, the displayed 
     - ![Delete](../../Assets/Icons/Trash01.png "[Delete]") (Delete)  
         Click this button to deleted the configured price. This button is displayed when hovering the mouse over a configured price.
 
-[comment]: <> (Button SAVE funktioniert nicht. Bug gemeldet.)
+[comment]: <> (Button SAVE funktioniert nicht. Bug gemeldet. 17.04. Problem besteht)
 
 - *Carrier*  
     Enter the carrier identifier for the packaging type.
@@ -220,7 +218,7 @@ The list displays all packaging types. Depending on the settings, the displayed 
 - *"Channel name"*  
     Click the drop-down list to select the channel. All available channels are displayed in the drop-down list.
 
-- *"language name"*      
+- *"Language name"*      
     Click the drop-down list to select a different language for the packaging type. All active languages in the *DataHub* module are displayed. The default language is preselected.
 
 - [SAVE]   

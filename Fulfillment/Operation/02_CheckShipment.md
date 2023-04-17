@@ -88,7 +88,7 @@ The shipment status is at least ![Circular arrows](../../Assets/Icons/CircularAr
 8. Press the **Esc** key.  
   The *Item* window is closed and the *PACKAGES* tab is displayed again.
 
-[comment]: <> (Kein CLOSE oder CANCEL button in Items Fenster. Bug gemeldet am 15.02.23. Evtl. nicht gefixed bis neuer UI. Alternativ außerhalb des Fensters klicken, dann verschwindet/schließt es auch.)
+[comment]: <> (Kein CLOSE oder CANCEL button in Items Fenster. Bug gemeldet am 15.02.23. Evtl. nicht gefixed bis neuer UI. Alternativ außerhalb des Fensters klicken, dann verschwindet/schließt es auch. Am 17.04. Problem besteht.)
 
 9.  Click the [BACK] button in the upper right corner of the *PACKAGES* sub-tab.   
     The *Shipments* tab is displayed again.

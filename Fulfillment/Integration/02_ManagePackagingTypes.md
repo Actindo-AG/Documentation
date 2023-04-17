@@ -167,8 +167,6 @@ At least one packaging type has been created, see [Create a packaging type](#cre
 
 4. If necessary, click the ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh) button in the upper right corner to update the list of packaging types.   
 
-[comment]: <> (Stand 13.02.23: Inaktive Packaging types werden nicht angezeigt. Bug gemeldet)
-
   
 ## Activate a packaging type
 
@@ -198,4 +196,4 @@ At least one packaging type has been deactivated, see [Deactivate a packaging ty
 
 
 
-[comment]: <> (Status 13.02.23: Bug beim Erstellen a packaging type. Es muss immer auf Active gesetzt werden, sonst wird es in der Liste nicht angezeigt. Das Problem liegt am Filter. Wenn nach Inactive gefiltert, sieht man die inaktive packaging types. Man kann aber nicht gleichzeitig beide sehen.)
+[comment]: <> (Status 13.02.23: Bug beim Erstellen a packaging type. Es muss immer auf Active gesetzt werden, sonst wird es in der Liste nicht angezeigt. Das Problem liegt am Filter. Wenn nach Inactive gefiltert, sieht man die inaktive packaging types. Man kann aber nicht gleichzeitig beide sehen. Bug gemeldet. Getestet am 17.04. Problem besteht.)

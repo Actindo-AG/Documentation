@@ -85,8 +85,6 @@ The fulfillers may not notify if an order has been delivered. In this case, the 
 
     ![Dispatch notes](../../Assets/Screenshots/Fulfillment/DispatchNotes/DispatchNoteShipmentsShipped.png "[Dispatch notes]")
 
-[comment]: <> (Screenshot nochmals ziehen mit richtigen Auslösung)
-
 3. Verify that the status of all shipments is **Shipped**.
 
 4. Click the ![Back](../../Assets/Icons/Back02.png "[Back]") (Back) button in the upper left corner.

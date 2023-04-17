@@ -105,7 +105,7 @@ The list displays all intents. Depending on the settings, the displayed columns 
 - ![Unpublish](../../Assets/Icons/Unpublish02.png "[Unpublish]") (Download)  
     Click this button to download the displayed log message.
 
-[comment]: <> (Bug gemeldet. Wird rausgenommen.)
+[comment]: <> (Bug gemeldet. Wird rausgenommen. Am 17.04. noch belassen)
 
 - ![View](../../Assets/Icons/Eye02.png "[View]")  (View)   
     Click this button to display the details of the log message. Alternatively, you can click directly a row in the list to display the details of the log message. The *Detail of log message "Log message title"* view is displayed, see [Detail of log message "Log message title"](#detail-of-log-message-log-message-title). 
