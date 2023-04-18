@@ -14,6 +14,7 @@ In this part of the *Fulfillment* documentation, you will find the following cha
     - [Check the shipment status](./02_CheckShipment.md#check-the-shipment-status)
     - [Check the shipment details](./02_CheckShipment.md#check-the-shipment-details)
   
+  
 
 - [Handle an error status](./03_HandleErrorStatus.md)
     - [Check the dispatch note log](./03_HandleErrorStatus.md#check-the-dispatch-note-log)

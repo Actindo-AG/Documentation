@@ -1,5 +1,5 @@
-[!!Manage the dispatch notes](../Operation/01_ManageDispatchNotes.md) 
-[!!Retry a process action in Workflows](../../ActindoWorkFlow/Troubleshooting/01_RetryProcessAction.md) 
+[!!Manage the dispatch notes](../Operation/01_ManageDispatchNotes.md)  
+
 
 # Handle an error status
 
