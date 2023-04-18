@@ -86,7 +86,7 @@ At least one query category has been created, see [Create a query category](#cre
 
 5. Enter a key for the query sub-category in the *Key* field. The number of characters is limited to 190.
 
-[comment]: <> (Stimmt die Zeichenbegrenzung noch/hier auch? Aus https://github.com/Actindo-AG/Documentation/blob/main/PIM/Integration/03_ManageAttributeGroups.md genommen)
+[comment]: <> (Key wird hier noch abgebaut, daher  irrelevant, ob Zeichenzahl stimmt oder nicht.)
 
 6. Click the [SAVE] button.   
     The query sub-category has been created. The *Add element* window is closed. The new query sub-category is displayed in the query sub-category column.
@@ -145,7 +145,7 @@ At least one query category has been created, see [Create a query category](#cre
 
 ### Change the order of query categories
 
-[comment]: <> (Momentan funktioniert es nicht, Stand 27.03.2023)
+[comment]: <> (Momentan funktioniert es nicht, Stand 18.04.23. JS weiß Bescheid.)
 
 You can change the order of the query categories if necessary. 
 
