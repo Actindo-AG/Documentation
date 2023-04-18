@@ -44,21 +44,26 @@ A dispatch note displays an error.
     ![Messages](../../Assets/Screenshots/Fulfillment/DispatchNotes/DispatchNoteLogsMessages.png "[Messages]")
 
 4. Click the desired message for further information.    
-    The *Detail of log message "Log message title"* is displayed.
+    The *Detail of log message "Log message title"* is displayed. By default, the *Attributes* tab is preselected.
 
-5. If no further information is detailed or the information displayed is not conclusive, click the [CLOSE] button in the upper right corner to close the current view.  
-    The list of dispatch notes is displayed again. 
+    ![Detail of log message](../../Assets/Screenshots/Fulfillment/DispatchNotes/DetailLogMessageAttributes01.png "[Detail of log message]")
 
-6. Continue to check the dispatch note workflow for further information on the error cause, see [Check the workflow](#check-the-workflow). 
+5. Check the details of the log message in the *Attributes* tab. 
+    > [Info] If the information detailed is not conclusive, you can check the dispatch note workflow for further information, see [Check the workflow](#check-the-workflow).
 
 
-### Check the workflow
 
-When a dispatch note displays an error, the corresponding workflow stops at the point where the error has occurred. The Actindo *Workflow* module provides further information on any error, which allows to identify the cause and implement the appropriate solution.
+## Check the workflow
+
+When a dispatch note displays an error status, the action waiting for the status update produces an error and, therefore, the workflow stops at the point where the error has occurred. The way the error is managed varies depending on the driver used and can be determined according to user requirements.
+
+The Actindo *Workflow* module provides further information on any error, which allows to identify the cause and implement the appropriate solution.
+
+[comment]: <> (stimmt das? zu besprechen mit Stefan!)
 
 #### Prerequisites
 
-The dispatch note log provides no conclusive information on the error, see [Check the dispatch note log](#check-the-dispatch-note-log).
+A dispatch note displays an error.
 
 #### Procedure
 
@@ -100,8 +105,6 @@ The dispatch note log provides no conclusive information on the error, see [Chec
 7. Check the log message for further information about the error. 
 
     > [Info] Depending on the error cause, it may be necessary to take action in one or more additional modules or even to contact the fulfillment partner.  
-
-8. After the error cause has been fixed, the action may be retried, see [Retry a process action](../../ActindoWorkFlow/Troubleshooting/01_RetryProcessAction.md). 
 
 
   
