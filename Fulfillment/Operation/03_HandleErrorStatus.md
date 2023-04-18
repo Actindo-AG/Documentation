@@ -46,7 +46,9 @@ A dispatch note displays an error.
 4. Click the desired message for further information.    
     The *Detail of log message "Log message title"* is displayed. By default, the *Attributes* tab is preselected.
 
-    ![Detail of log message](../../Assets/Screenshots/Fulfillment/DispatchNotes/DetailLogMessageAttributes01.png "[Detail of log message]")
+    ![Detail of log message](../../Assets/Screenshots/Fulfillment/Logging/DetailLogMessageAttributes01.png "[Detail of log message]")
+
+    [comment]: <> (Aus Logging genommen, passt nicht genau mit dem Fehler oben; ich kann den auch nicht reproduzieren. Screenshot hier weglassen?)
 
 5. Check the details of the log message in the *Attributes* tab. 
     > [Info] If the information detailed is not conclusive, you can check the dispatch note workflow for further information, see [Check the workflow](#check-the-workflow).
@@ -59,7 +61,7 @@ When a dispatch note displays an error status, the action waiting for the status
 
 The Actindo *Workflow* module provides further information on any error, which allows to identify the cause and implement the appropriate solution.
 
-[comment]: <> (stimmt das? zu besprechen mit Stefan!)
+[comment]: <> (Stimmt das? Gar nicht so sicher jetzt. Zu besprechen mit Stefan! Evtl. weglassen)
 
 #### Prerequisites
 
