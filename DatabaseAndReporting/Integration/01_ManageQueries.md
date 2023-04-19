@@ -124,8 +124,8 @@ At last a query has been created, see [Create a query](#create-a-query).
     The editing toolbar is displayed.
 
 2. Click the ![Delete](../../Assets/Icons/Trash03.png) (Delete) button in the editing toolbar.  
-    The *Deleted queries xxxx* window is displayed. The number indicates the identifier of the deleted query as displayed in the *ID* column. The deleted query is removed from the list of queries. 
+    The *Deleted queries xxxx* pop-up window is displayed. The number indicates the identifier of the deleted query as displayed in the *ID* column. The deleted query is removed from the list of queries. 
 
-    ![Queries](../../Assets/Screenshots/DatabaseAndReporting/ManagedQueries/Queries/DeletedQueries.png "[Queries]")
+    ![Deleted queries](../../Assets/Screenshots/DatabaseAndReporting/ManagedQueries/Queries/DeletedQueries.png "[Deleted queries]")
 
 

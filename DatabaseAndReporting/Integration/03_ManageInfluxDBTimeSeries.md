@@ -120,7 +120,9 @@ At least one InfluxDB time series has been created, see [Create an InfluxDB time
     The editing toolbar is displayed.
 
 2. Click the [DELETE] button in the editing toolbar.  
-    The *Deleted InfluxDB time series XXXX* window is displayed. The number indicates the identifier of the deleted InfluxDB time series as displayed in the *ID* column. The deleted InfluxDB time series is removed from the list of InfluxDB time series.
+    The *Deleted InfluxDB time series XXXX* pop-up window is displayed. The number indicates the identifier of the deleted InfluxDB time series as displayed in the *ID* column. The deleted InfluxDB time series is removed from the list of InfluxDB time series.
+
+    ![Deleted InfluxDB time series](../../Assets/Screenshots/DatabaseAndReporting/ManagedQueries/InfluxDBTimeSeries/DeletedInfluxDBTimeSeries.png "[Deleted InfluxDB time series]")
 
 [comment]: <> (Julian: Wie besprochen, bitte Screenshot einbauen, ziehen und zukommen lassen.)
 
