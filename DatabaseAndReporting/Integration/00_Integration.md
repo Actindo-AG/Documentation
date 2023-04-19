@@ -12,7 +12,7 @@ In this part of the *Database and Reporting* documentation, you will find the fo
     - [Create a query category](./02_ManageQueryCategories.md#create-a-query-category)
     - [Edit a query category](./02_ManageQueryCategories.md#edit-a-query-category)
         - [Create a query sub-category](./02_ManageQueryCategories.md#create-a-query-sub-category)
-        - [Edit the query category details](./02_ManageQueryCategories.md#edit-the-query-category-data)
+        - [Edit the query category data](./02_ManageQueryCategories.md#edit-the-query-category-data)
         - [Change the order of query categories](./02_ManageQueryCategories.md#change-the-order-of-query-categories)
     - [Delete a query category](./02_ManageQueryCategories.md#delete-a-query-category)
 
@@ -29,6 +29,7 @@ In this part of the *Database and Reporting* documentation, you will find the fo
         - [Create a connection with InfluxDB driver V1](./04_ManageConnections.md#create-a-connection-with-influxdb-driver-v1)
         - [Create a connection with InfluxDB driver V2](./04_ManageConnections.md#create-a-connection-with-influxdb-driver-v2)
     - [Edit a connection](./04_ManageConnections.md#edit-a-connection)
+    - [Delete a connection](./04_ManageConnections.md#delete-a-connection)
 
 
 - [Manage the user rights](./05_ManageUserRights.md)
