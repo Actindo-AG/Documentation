@@ -45,7 +45,7 @@ No prerequisites to fulfill.
     - Enter a condition (WHERE clause) in the query followed by a placeholder, for example **WHERE created > \~creationDate|datetime\~**.
         > [Info] Placeholders can be named freely. It is recommended to use a descriptive name, as this description is displayed later on as a field name.
         
-    - Click the [TRY QUERY (READ ONLY)] button.   
+    - If desired, click the [TRY QUERY (READ ONLY)] button to test it.   
         The *Bind query parameters placeholders* window is displayed.
         > [Info] There are two possible placeholders to define time conditions: **|datetime** and **|string**. The **|datetime** placeholder generates a calendar button in the *Bind query parameters placeholders* window, whereas the **|string** placeholder creates a free text field.
 
@@ -59,10 +59,10 @@ No prerequisites to fulfill.
 [comment]: <> (ETL use enabled muss noch ausgeblendet werden, laut JS)
 
 6. If desired, enter one or several IP addresses or an IP range (subnet mask) in the *IP whitelist (only public download)* field to allow access only to those IP addresses entered in case of public download.  
-    > [Info] When entering more than one IP address, each IP address must be entered on a separate line. 
+    > [Info] When entering more than one IP address, each IP address must be entered on a separate line. Bear in mind that if no IP address is whitelisted, any person with the link, from any IP address, can access the query results via public download. If at least one IP address is whitelisted, all other IP addresses are blacklisted. 
 
 7. Select the *API and download enabled* checkbox to allow logged in users with the appropriate rights to execute the query and download the retrieved data.
-    > [Info] Additionally, user access rights must be granted for every single query, see [Grant access rights to a user group](./05_ManageUserRights.md#grant-access-rights-to-a-user-group).
+    > [Info] Additionally, user access rights must be granted for every single predefined query, see [Grant access rights to a user group](./05_ManageUserRights.md#grant-access-rights-to-a-user-group).
 
 8. Select the *Public download enabled* checkbox to allow any user, also non-logged in users, with the applicable link to execute the query and download the retrieved data via web browser. 
     > [Info] A specific download link, containing a UUID (Universally Unique Identifier), is required to execute the query in a web browser.
@@ -70,7 +70,7 @@ No prerequisites to fulfill.
 9. Select the *Write access enabled* checkbox to allow write operations when executing the query. Otherwise, a query with write operations, such as INSERT or DELETE, will not be executed and an error message will be displayed.
 
 10. If desired, click the [TRY QUERY (READ ONLY)] button to test the query.  
-  The query results are displayed in table format at the bottom of the workspace.
+    The query results are displayed in table format at the bottom of the workspace.
 
 11. Click the [SAVE] button.  
    The query has been saved. The *Create MySQL query* is closed. The new query is displayed in the list of queries.
