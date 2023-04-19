@@ -36,7 +36,9 @@ No prerequisites to fulfill.
 
 3. Enter a name for the query category in the *Name* field.
 
-4. Enter a key for the query category in the *Key* field. The number of characters is limited to 190.
+4. Enter a key for the query category in the *Key* field.  
+
+[comment]: <> (Key wird hier irgendwann abgebaut)
 
 5. Click the [SAVE] button.   
     The query category has been created. The *Add element* window is closed. The new query category is displayed in the query category column.
@@ -59,6 +61,11 @@ After you have created a query category, you can edit it. You can create sub-cat
 
 ### Create a query sub-category
 
+Add any number of query sub-categories to a query category. Further unlimited sub-category levels can be added. 
+
+The procedure to add a query sub-category to a category and to another sub-category is identical. Just select a sub-category instead of a category and follow the steps described below.
+
+#### Prerequisites
 At least one query category has been created, see [Create a query category](#create-a-query-category).
 
 #### Procedure
@@ -84,9 +91,9 @@ At least one query category has been created, see [Create a query category](#cre
 
 4. Enter a name for the query sub-category in the *Name* field.
 
-5. Enter a key for the query sub-category in the *Key* field. The number of characters is limited to 190.
+5. Enter a key for the query sub-category in the *Key* field. 
 
-[comment]: <> (Key wird hier noch abgebaut, daher  irrelevant, ob Zeichenzahl stimmt oder nicht.)
+[comment]: <> (Key wird hier irgendwann abgebaut)
 
 6. Click the [SAVE] button.   
     The query sub-category has been created. The *Add element* window is closed. The new query sub-category is displayed in the query sub-category column.
@@ -157,6 +164,8 @@ At least two query categories have been created, see [Create a query category](#
 
 #### Procedure
 
+*Database and reporting > Settings > Tab QUERY CATEGORIES*
+
 ![Query categories](../../Assets/Screenshots/DatabaseAndReporting/Settings/QueryCategories/QueryCategoriesCreated.png "[Query categories]")
 
 1. Click and hold the ![Sort](../../Assets/Icons/Sort01.png "[Sort]") (Sort) button to the left of the query category you want to move to another position in the list.
@@ -168,7 +177,7 @@ At least two query categories have been created, see [Create a query category](#
 
     ![Submitting data](../../Assets/Screenshots/DatabaseAndReporting/Settings/QueryCategories/SubmittingData.png "[Submitting data]")
 
-     The new query category order has been saved. The changes have been saved to the query categories tree, which is displayed in the *Queries* view.
+    The new query category order has been saved. The changes have been saved to the query categories tree, which is displayed in the *Queries* view.
 
     > [Info] It may be necessary to press the **F5** key to initialize the *Core1 Platform* for the changes to be displayed in the *Queries* view. 
 
