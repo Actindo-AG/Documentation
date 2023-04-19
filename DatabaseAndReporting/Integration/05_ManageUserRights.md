@@ -22,6 +22,8 @@ Assign user access rights to control access to specific data. The following acce
 - **Interactive MySQL console**  
     The user can execute any query in MySQL interactive console. Bear in mind that this gives the user access, and even write access, to all available data. 
 
+    > [Info] Depending on the access rights granted, the user interface of the *Database and reporting* varies. That is, a user with no access right to MySQL console cannot see the corresponding menu entry in the system.
+
 #### Prerequisites
 
 - A user group has been created.
@@ -57,13 +59,13 @@ Assign user access rights to control access to specific data. The following acce
 
     ![Rights DB and reporting](../../Assets/Screenshots/DatabaseAndReporting/EditGroupRightsDatabaseAndReporting.png "[Rights DB and reporting]")
 
-6. Locate the functions you want to grant access to.
+6. Locate the module functions you want to grant access to.
 
-7. Click the rightwards arrow to the left of the corresponding folder (function) to display all contained sub-folders (access permission types).  
+7. Click the rightwards arrow to the left of the corresponding folder (module function) to display all contained sub-folders (access permission types).  
     All contained sub-folders (access permission types) are displayed.
 
     ![Access permission types](../../Assets/Screenshots/DatabaseAndReporting/AccessPermissionTypes.png "[Access permission types]")
 
 8. Select the checkbox of the applicable folder(s) and/or sub-folders.  
-    The user group, and all users included in it, have been granted access rights to the selected functions.
+    The user group, and all users included in it, have been granted access rights to the selected module functions.
 
