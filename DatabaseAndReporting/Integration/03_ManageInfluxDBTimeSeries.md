@@ -49,14 +49,14 @@ Create an InfluxDB time series for a specific predefined query.
     A new input line is displayed.
 
 8. Enter the desired tag in the new input line.   
-    If desired, repeat steps **7** and **8** to add further tags. 
+    > [Info] Repeat steps **7** and **8** to add further tags if necessary. 
 
 9. Click the ![Add](../../Assets/Icons/Plus03.png "[Add]") (Add) button in the *Field columns* box.  
     A new input line is displayed.
     > [Info] The fields contain the actual data, that is, the values being measured. The tags, on the other hand, can be used for metadata, that is, to categorize the data. This means that at least one field needs to be specified, whereas tags are optional.
 
 10. Enter the desired field in the new input line.    
-    If desired, repeat steps **9** and **10** to add further fields.
+    > [Info] Repeat steps **9** and **10** to add further fields if necessary.
 
 11. Click the [SAVE] button in the upper right corner.  
     The *Submitting data...* view is displayed shortly while saving. 
@@ -120,7 +120,7 @@ At least one InfluxDB time series has been created, see [Create an InfluxDB time
     The editing toolbar is displayed.
 
 2. Click the [DELETE] button in the editing toolbar.  
-    The deleted InfluxDB time series is removed from the  list of InfluxDB time series.
+    The *Deleted InfluxDB time series XXXX* window is displayed. The number indicates the identifier of the deleted InfluxDB time series as displayed in the *ID* column. The deleted InfluxDB time series is removed from the list of InfluxDB time series.
 
-[comment]: <> (Prozedur aus Queries. Sollte es hier auch so was sein? The *Deleted InfluxDB time series xxxx* window is displayed. The number indicates the identifier of the deleted InfluxDB time series as displayed in the *ID* column. The deleted InfluxDB time series is removed from the list of InfluxDB time series.)
+[comment]: <> (Julian: Wie besprochen, bitte Screenshot einbauen, ziehen und zukommen lassen.)
 
