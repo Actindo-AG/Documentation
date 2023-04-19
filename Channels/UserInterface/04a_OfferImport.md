@@ -4,7 +4,7 @@
 
 *Omni-Channel > Offer import > Tab OFFER IMPORT*
 
-![Offer import](../../Assets/Screenshots/Channels/OfferImport/OfferImport/OfferImport.png "[Offer import]")
+![Offer import](../../Assets/Screenshots/Channels/OfferImport/OfferImport/OfferImportConnections.png "[Offer import]")
 
 **Importable products**
 

@@ -120,8 +120,6 @@ The *Import existing tab* tab is locked. It is only available in the *Actindo Da
     -	*Connection status*   
         This dashlet displays the status of each connection in the *Omni-Channel* module. You can display all active or inactive connections.
 
-[comment]: <> (Check dashlet description)
-
 - [CANCEL]   
     Click this button to cancel adding dashlets. The *Dashlet picker* window is closed.
 

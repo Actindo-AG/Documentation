@@ -6,8 +6,6 @@
 
 ![Scheduled uploads](../../Assets/Screenshots/Channels/OfferUpload/ScheduledUploads/ScheduledUploads.png "[Scheduled uploads]")
 
-[comment]: <> (screenshot anpassen/anonymisieren?)
-
 **Scheduled Exports**
 
 - ![Search](../../Assets/Icons/Search.png "[Search]") (Search)   

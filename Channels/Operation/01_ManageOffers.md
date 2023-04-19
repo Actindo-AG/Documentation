@@ -219,8 +219,6 @@ At least one offer has been created, see [Create an offer](#create-an-offer).
 
         ![Change offer status](../../Assets/Screenshots/Channels/Offers/Offers/ChangeOfferStatus.png "[Change offer status]")
 
-        [comment]: <> (update screenshot)
-
 3. If desired, enable the *Apply parent status to all child offers?* toggle to apply the selected status to the master offer and all corresponding child offers. By default, the toggle is disabled. The toggle is only displayed if a master offer has been selected.
 
 4. Click the [SAVE] button in the *Change offer status* confirmation window.   

@@ -264,8 +264,6 @@ The list displays all offers to be imported. Depending on the settings, the disp
 
     ![Change offer status](../../Assets/Screenshots/Channels/Offers/Offers/ChangeOfferStatus.png "[Change offer status]")
 
-    [comment]: <> (update screenshot)
-
 - *Pending status/Errors*  
     Indication of the pending status or an error for this offer. The selected status is displayed if you have changed the offer status via the editing toolbar. The following options are available:
     - **Active**	  
@@ -465,8 +463,6 @@ The list displays all line items of the selected import process. Depending on th
     - **Queued**
     - **Done**
 
-[comment]: <> (Weitere states?)
-
 - *Author*   
     Name and username of the user who triggered the import process.
 
@@ -475,8 +471,6 @@ The list displays all line items of the selected import process. Depending on th
 
 - *ID*   
     Line item identification number. The ID number is automatically assigned by the system after creation.
-
-[comment]: <> (alle Felder prüfen!)
 
 
 #### Edit line item
@@ -505,7 +499,7 @@ The list displays all line items of the selected import process. Depending on th
     - **Link and transfer data**   
         A dependency between the PIM product and the offer is created. In addition, an ETL mapping is performed between the PIM product and the offer, whereby all data from the PIM product is written into the Omni-Channel offer.     
 
-[comment]: <> (entsprechen die Felder den Mode Feldern im wizard fenster Matching and behavior after import? Beschreibungen ggf. anpassen -> FETA-18)
+[comment]: <> (die Felder entsprechen den Mode Feldern im wizard fenster Matching and behavior after import >> Beschreibungen anpassen -> FETA-18)
 
 - *PIM product SKU*   
     SKU of the PIM product that is assigned to the selected line item. By default, the field is blank. 

@@ -92,7 +92,6 @@ The list displays all offer export errors. Depending on the settings, the displa
 - *Modified by*  
     Name and username of the user who modified the offer upload in which the error occurred. By default, the field is blank as the upload job is modified by the system.
 
-[comment]: <> (kann man das so schreiben oder ist das Quatsch?)
 
 
 ## Detail of log message "Log message title"

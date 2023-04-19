@@ -38,8 +38,6 @@ Before you can import an offer from our marketplace to the *Omni-Channel* module
 
     ![Offer import connection](../../Assets/Screenshots/Channels/OfferImport/OfferImport/OfferImportConnection.png "[Offer import connection]")
 
-[comment]: <> (screenshot austauschen)
-
 2. Click the [DOWNLOAD IMPORTABLE PRODUCTS] button above the list.   
     The download of all importable offers to the list has been triggered. The *Download triggered* pop-up window is displayed. 
 

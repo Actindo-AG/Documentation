@@ -70,8 +70,6 @@
 
     ![Change offer status](../../Assets/Screenshots/Channels/Offers/Offers/ChangeOfferStatus.png "[Change offer status]")
 
-    [comment]: <> (update screenshot)
-
 - ![Edit](../../Assets/Icons/Edit03.png "[Edit]") (Edit)           
     Click this button to edit the selected offer from the list. This button is only displayed if a single checkbox in the list of offers is selected. Alternatively, you can click directly a row in the list to edit the corresponding offer.  
     The *Edit offer "Offer SKU"* view is displayed, see [Edit offer](#edit-offer).

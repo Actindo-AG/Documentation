@@ -100,7 +100,7 @@
 
     ![Import will be retried](../../Assets/Screenshots/Channels/OrdersReturns/Orders/ImportRetried.png "[Import will be retried]")
 
-[comment]: <> (pop-up window spricht von "order" obwohl es return ist. Wenn richtig, neuer screenshot.)
+[comment]: <> (pop-up window spricht von "order" obwohl es return ist. -> Bug reported: BUG-198 Wenn richtig, neuer screenshot.)
 
 [comment]: <> (aktuell noch BUG -> wird nur bei Auswahl von mindestens zwei orders angezeigt -> Bug reported: BUG-144)
 

@@ -200,7 +200,7 @@ If an order or return import and/or export upload failed, the corresponding orde
 
 #### Prerequisites
 
-At least one order or return import or export has been failed.
+At least one order or return import or export has failed.
 
 #### Procedure
 

@@ -6,8 +6,6 @@
 
 ![Semiautomatic mapping](../../Assets/Screenshots/Channels/Offers/SemiautomaticMapping/SemiautomaticMapping.png "[Semiautomatic mapping]")
 
-[comment]: <> (screenshot anpassen/anonymisieren?)
-
 **Semiautomatic changes awaiting confirmation**
 
 - ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh)   
