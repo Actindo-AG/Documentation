@@ -36,23 +36,23 @@ Execute the query and preview the results in your browser in CSV or XML format.
 
 2. Click the file format drop-down list in the editing toolbar and select the desired option. The following options are available:  
       - **CSV**   
-        The query results are displayed in a CSV file.   
+        The query results are displayed in CSV format.   
       - **XML**   
-        The query results are displayed in an XML file.  
+        The query results are displayed in XML format.  
 
 3. Click the ![Preview](../../Assets/Icons/Eye02.png "[Preview]") (Preview) button in the editing toolbar.  
     The *Execute saved query* is displayed.  
 
     ![Execute saved query](../../Assets/Screenshots/DatabaseAndReporting/ManagedQueries/Queries/ExecuteSavedQuery.png "[Execute saved query]")
 
-    > [Info] If the selected query contains a placeholder, the *Bind query parameters placeholders* window is displayed instead. 
+4. If the selected query contains a placeholder, the *Bind query parameters placeholders* window is displayed. Otherwise, go to step **6**.
 
     ![Execute saved query](../../Assets/Screenshots/DatabaseAndReporting/ManagedQueries/Queries/BindQueryParamsPlaceholders.png "[Execute saved query]")
 
-4. If necessary, enter the desired value in the placeholder field. 
+5. Enter the desired value in the placeholder field. 
 
-5. Click the [EXECUTE] button.   
-    The query is executed. The query results are displayed in a new browser window.
+6. Click the [EXECUTE] button.   
+    The query is executed. The query results are displayed in a new browser window in the selected format.
 
     ![Query results](../../Assets/Screenshots/DatabaseAndReporting/ManagedQueries/Queries/QueryResultsPreview.png "[Query results]")
 
@@ -87,14 +87,14 @@ Execute the query and download the results in a CSV or an XML format file.
 
     ![Execute saved query](../../Assets/Screenshots/DatabaseAndReporting/ManagedQueries/Queries/ExecuteSavedQuery.png "[Execute saved query]")
 
-    > [Info] If the selected query contains a placeholder, the *Bind query parameters placeholders* window is displayed instead. 
+4. If the selected query contains a placeholder, the *Bind query parameters placeholders* window is displayed. Otherwise, go to step **6**. 
     
     ![Execute saved query](../../Assets/Screenshots/DatabaseAndReporting/ManagedQueries/Queries/BindQueryParamsPlaceholders.png "[Execute saved query]")
 
-4. If necessary, enter the desired value in the placeholder field. 
+5. Enter the desired value in the placeholder field. 
 
-5. Click the [EXECUTE] button.   
-    The query is executed. The query results are downloaded in a CSV or an XML format file. By default, the file is saved in the downloads folder of your device. 
+6. Click the [EXECUTE] button.   
+    The query is executed. The query results are downloaded in the selected file format. By default, the file is saved in the downloads folder of your device. 
 
 
 ## Execute a query via download link 
@@ -106,9 +106,7 @@ Execute a query in a web browser using the download link provided in the *Actind
 - A predefined query has been created, see [Create a query](../Integration/01_ManageQueries.md#create-a-query).
 - The query contains no placeholders.
 - The public download option has been enabled. 
-- The IP address of the person executing the query has been included in the IP whitelist.
-
-[comment]: <> (Heißt das, dass alle IP Adressen, die nicht in IP Whitelist sind, blacklisted sind, i.e. no public download möglich?)
+- The IP address of the person executing the query has been not been blacklisted.
 
 #### Procedure
 
@@ -132,9 +130,9 @@ Execute a query in a web browser using the download link provided in the *Actind
 
 4. Open a new browser window and paste the copied link from your clipboard. 
 
-5. Click the [ENTER] key to execute the query in your web browser.  
-    The query is executed. The query results are downloaded in a CSV or an XML format file. By default, the file is saved in the downloads folder of your device.  
+5. Press the [ENTER] key to execute the query in your web browser.  
+    The query is executed. The query results are downloaded in the selected file format. By default, the file is saved in the downloads folder of your device.  
 
     > [Info] If the selected query contains a placeholder, an error messages is displayed, as no parameters can be bound. 
 
-[comment]: <> (Download via public download sollte möglich als CSV und XML Datei. Momentan funktioniert nur als CSV -Link hat nur CSV drin. Reported, Stand 27.03.2023)
+[comment]: <> (Download via public download sollte möglich als CSV und XML Datei. Momentan funktioniert nur als CSV - URL hat nur CSV drin. Reported, Stand 20.04.2023)
