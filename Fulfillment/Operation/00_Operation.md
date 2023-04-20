@@ -16,6 +16,4 @@ In this part of the *Fulfillment* documentation, you will find the following cha
   
   
 
-- [Handle an error status](./03_HandleErrorStatus.md)
-    - [Check the dispatch note log](./03_HandleErrorStatus.md#check-the-dispatch-note-log)
-    - [Check the workflow](./03_HandleErrorStatus.md#check-the-workflow)
+- [Check an error status](./03_CheckErrorStatus.md)
