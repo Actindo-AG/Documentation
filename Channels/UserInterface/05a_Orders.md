@@ -215,12 +215,12 @@ The list displays all orders, either for all connections or for the selected con
 [comment]: <> (Button umbenennen in RETRY IMPORT -> Konsistenz! -> FETA-16)
 
 The *Order from connection "Connection name"* view is composed of the following tabs:
-- [Order from connection "Connection name" &ndash; Attributes](#order-from-connection-connection-name--attributes)
-- [Order from connection "Connection name" &ndash; Dependencies](#order-from-connection-connection-name--dependencies)
-- [Order from connection "Connection name" &ndash; Line items](#order-from-connection-connection-name--line-items)
-- [Order from connection "Connection name" &ndash; Shipments](#order-from-connection-connection-name--shipments)
-- [Order from connection "Connection name" &ndash; Cancellations](#order-from-connection-connection-name--cancellations)
-- [Order from connection "Connection name" &ndash; Errors](#order-from-connection-connection-name--errors)
+- [Order from connection "Connection name" &ndash; Attributes](#order-from-connection-connection-name-–-attributes)
+- [Order from connection "Connection name" &ndash; Dependencies](#order-from-connection-connection-name-–-dependencies)
+- [Order from connection "Connection name" &ndash; Line items](#order-from-connection-connection-name-–-line-items)
+- [Order from connection "Connection name" &ndash; Shipments](#order-from-connection-connection-name-–-shipments)
+- [Order from connection "Connection name" &ndash; Cancellations](#order-from-connection-connection-name-–-cancellations)
+- [Order from connection "Connection name" &ndash; Errors](#order-from-connection-connection-name-–-errors)
 
 
 
@@ -378,8 +378,8 @@ The list displays all line items of the selected order. Depending on the setting
     Click this button to close the *Line item* view.
 
 The *Line item* view is composed of the following tabs:
-- [Line item &ndash; Attributes](#line-item--attributes)
-- [Line item &ndash; Dependencies](#line-item--dependencies)
+- [Line item &ndash; Attributes](#line-item-–-attributes)
+- [Line item &ndash; Dependencies](#line-item-–-dependencies)
 
 
 ### Line item &ndash; Attributes
@@ -512,9 +512,9 @@ The list displays all shipments for the selected order. Depending on the setting
     Click this button to close the *Shipment for order "Order ID"* view.
 
 The *Shipment for order "Order ID"* view is composed of the following tabs:
-- [Shipment for order "Order ID" &ndash; Attributes](#shipment-for-order-order-id--attributes)
-- [Shipment for order "Order ID" &ndash; Dependencies](#shipment-for-order-order-id--dependencies)
-- [Shipment for order "Order ID" &ndash; Shipment line items](#shipment-for-order-order-id--shipment-line-items)
+- [Shipment for order "Order ID" &ndash; Attributes](#shipment-for-order-order-id-–-attributes)
+- [Shipment for order "Order ID" &ndash; Dependencies](#shipment-for-order-order-id-–-dependencies)
+- [Shipment for order "Order ID" &ndash; Shipment line items](#shipment-for-order-order-id-–-shipment-line-items)
 
 
 ### Shipment for order "Order ID" &ndash; Attributes
@@ -627,8 +627,8 @@ The list displays all shipment line items of the selected order. Depending on th
     Click this button to close the *Shipment line item* view.
 
 The *Shipment line item* view is composed of the following tabs:
-- [Shipment line item &ndash; Attributes](#shipment-line-item--attributes)
-- [Shipment line item &ndash; Dependencies](#shipment-line-item--dependencies)
+- [Shipment line item &ndash; Attributes](#shipment-line-item-–-attributes)
+- [Shipment line item &ndash; Dependencies](#shipment-line-item-–-dependencies)
 
 
 #### Shipment line item &ndash; Attributes
@@ -756,9 +756,9 @@ The list displays all cancellations for the selected order. Depending on the set
     Click this button to close the *Cancellation for order "Order ID"* view.
 
 The *Cancellation for order "Order ID"* view is composed of the following tabs:
-- [Cancellation for order "Order ID" &ndash; Attributes](#cancellation-for-order-order-id--attributes)
-- [Cancellation for order "Order ID" &ndash; Dependencies](#cancellation-for-order-order-id--dependencies)
-- [Cancellation for order "Order ID" &ndash; Cancellation line items](#cancellation-for-order-order-id--cancellation-line-items)
+- [Cancellation for order "Order ID" &ndash; Attributes](#cancellation-for-order-order-id-–-attributes)
+- [Cancellation for order "Order ID" &ndash; Dependencies](#cancellation-for-order-order-id-–-dependencies)
+- [Cancellation for order "Order ID" &ndash; Cancellation line items](#cancellation-for-order-order-id-–-cancellation-line-items)
 
 
 ### Cancellation for order "Order ID" &ndash; Attributes
@@ -871,8 +871,8 @@ The list displays all cancellation line items of the selected order. Depending o
     Click this button to close the *Cancellation line item* view.
 
 The *Cancellation line item* view is composed of the following tabs:
-- [Cancellation line item &ndash; Attributes](#cancellation-line-item--attributes)
-- [Cancellation line item &ndash; Dependencies](#cancellation-line-item--dependencies)
+- [Cancellation line item &ndash; Attributes](#cancellation-line-item-–-attributes)
+- [Cancellation line item &ndash; Dependencies](#cancellation-line-item-–-dependencies)
 
 
 #### Cancellation line item &ndash; Attributes

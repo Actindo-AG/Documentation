@@ -367,8 +367,8 @@ The list displays all offers to be imported. Depending on the settings, the disp
 *Omni-Channel > Offer import > Tab CHANNELS->PIM > Select connection > Button SELECT > Finalize wizard > Tab Offers > Select import process   
 
 The import process window is composed of the following tabs:
-- [Import processes &ndash; Messages](#import-process--messages)
-- [Import processes &ndash; Queue](#import-process--queue)
+- [Import processes &ndash; Messages](#import-process-–-messages)
+- [Import processes &ndash; Queue](#import-process-–-queue)
 
 
 ### Import process &ndash; Messages
