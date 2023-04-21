@@ -1,5 +1,5 @@
 [!!Manage the connections](../../Channels/Integration/01_ManageConnections.md)
-[!!User interface Connections](../UserInterface/01_Connections.md)
+[!!User interface Connections (Magento 2)](../UserInterface/01_Connections.md)
 
 # Manage the Magento 2 connection
 

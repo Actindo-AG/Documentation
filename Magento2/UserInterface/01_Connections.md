@@ -1,6 +1,6 @@
 [!!Manage the Magento 2 connection](../Integration/01_ManageMagento2Connection.md)
 
-# Connections
+# Connections (Magento 2)
 
 *Omni-Channel > Settings > Tab CONNECTIONS*
 

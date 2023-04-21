@@ -1,4 +1,4 @@
-# Key Features
+# Key features
 
 - Fully controllable through the Actindo *PIM* module
 - Automated live update of stock levels

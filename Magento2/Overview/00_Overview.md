@@ -7,6 +7,6 @@ In this part of the *Magento 2* documentation, you will find the following chapt
     - [Prerequisites](./01_General.md#prerequisites)
 
 
-- [Key Features](./02_Features.md)
+- [Key features](./02_Features.md)
     - [How it works](./02_Features.md#how-it-works)
 
