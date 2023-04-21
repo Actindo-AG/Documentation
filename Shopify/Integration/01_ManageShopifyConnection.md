@@ -2,7 +2,7 @@
 [!!Manage the attributes in PIM](../../PIM/Integration/01_ManageAttributes.md)
 [!!Manage the attributes in DataHub](../../DataHub/Integration/01_ManageAttributes.md)
 [!!Manage the ETL mappings in DataHub](../../DataHub/Operation/01_ManageETLMappings.md)
-[!!User interface Connections](../UserInterface/01_Connections.md)
+[!!User interface Connections (Shopify)](../UserInterface/01_Connections.md)
 
 # Manage the Shopify connection
 
@@ -93,7 +93,7 @@ A Shopify connection has been established, see [Create a Shopify connection](#cr
 
 3. If necessary, enable the *Enable order name as ID in shop* toggle. If enabled, the order number including the prefix and suffix is used as ID in the Shopify shop. If disabled, only the order ID is displayed as ID in the Shopify shop.
 
-    > [Info] The order ID is displayed in the *Remote ID* column of the *Orders* view and in the header of the *Order from connection "Connection name"* view of the Omni-Channel module, see [User interface Orders](../../Channels/UserInterface/05a_Orders.md). The prefix and the suffix can be defined in your Shopify shop.
+    > [Info] The order ID is displayed in the *Remote ID* column of the *Orders* view and in the header of the *Order from connection "Connection name"* view of the *Omni-Channel* module, see [User interface Orders](../../Channels/UserInterface/05a_Orders.md). The prefix and the suffix can be defined in your Shopify shop.
 
 4. Click the *Default tax class for order import* menu entry in the left side bar.   
     The *Default tax class for order import* view is displayed on the right side.

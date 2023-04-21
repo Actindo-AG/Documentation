@@ -1,6 +1,6 @@
 [!!Manage the Shopify connection](../Integration/01_ManageShopifyconnection.md)
 
-# Connections
+# Connections (Shopify)
 
 *Omni-Channel > Settings > Tab CONNECTIONS*
 

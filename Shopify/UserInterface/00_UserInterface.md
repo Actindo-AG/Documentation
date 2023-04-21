@@ -2,7 +2,7 @@
 
 In this part of the *Shopify* documentation, you will find the following chapters:
 
-- [CONNECTIONS](./01_Connections.md)
+- [CONNECTIONS (Shopify)](./01_Connections.md)
     - [Create view](./01_Connections.md#create-view)
     - [Rename view](./01_Connections.md#rename-view)
     - [Create Shopify connection](./01_Connections.md#create-shopify-connection)

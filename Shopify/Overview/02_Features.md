@@ -1,4 +1,4 @@
-# Key Features
+# Key features
 
 - Preparation and transmission of product master data from the *PIM* module.
 - Automatic reconciliation of stock levels in real time.
