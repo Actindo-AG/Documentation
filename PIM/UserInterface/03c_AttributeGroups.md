@@ -149,10 +149,10 @@ The list displays all attributes that are not assigned to the selected attribute
 - ![Edit](../../Assets/Icons/Edit03.png "[Edit]") (Edit)   
     Click this button to edit the selected attribute group. The attribute group data window is displayed. This button is only displayed if you hover over the attribute group.
 
-- Attribute group   
+- *"Attribute group name"*   
     Top attribute group. Click the attribute group to display the attribute sub-group column and all assigned attribute sub-groups. Hover over the attribute group to display the ![Edit](../../Assets/Icons/Edit03.png "[Edit]") (Edit) button.
 
-- Attribute sub-group   
+- *"Attribute sub-group name"*   
     Attribute sub-group to the selected attribute group. Hover over the attribute sub-group to display the ![Edit](../../Assets/Icons/Edit03.png "[Edit]") (Edit) button.
 
 - ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add)   
@@ -169,7 +169,7 @@ The list displays all attributes that are not assigned to the selected attribute
 
 > [Info] The *Add element* window for attribute groups and sub-groups is identical.
 
-- Language   
+- *"Language name"*   
     Click the drop-down list and select the system language in which the *Name (Language)* and *Description (Language)* fields are displayed. By default, the following options are available:
     - **English (United States)**
     - **Deutsch (Deutschland)**
@@ -197,7 +197,7 @@ The list displays all attributes that are not assigned to the selected attribute
 
 > [Info] The *Edit attribute group data* window for attribute groups and sub-groups is identical.
 
-- Language   
+- *"Language name"*   
     Click the drop-down list and select the system language in which the *Name (Language)* and *Description (Language)* fields are displayed. By default, the following options are available:
     - **English (United States)**
     - **Deutsch (Deutschland)**

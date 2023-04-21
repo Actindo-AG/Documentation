@@ -49,7 +49,7 @@ An attribute set has been created, see [Create an attribute set](./02_ManageAttr
     - [Add defining attributes](#add-defining-attributes)
     - [Add changeable attributes](#add-changeable-attributes)
 
-       > [Info] At least one defining attribute is required to create a variant set. Changeable attributes can be selected optionally.
+    > [Info] At least one defining attribute is required to create a variant set. Changeable attributes can be selected optionally.
 
 
 ### Add defining attributes
@@ -152,15 +152,17 @@ At least one variant set has been created, see [Create a variant set](#create-a-
 3. Click the [SAVE] button in the upper right corner.   
     The changes have been saved. The *Edit variant set* view is closed.
 
-[comment]: <> (I have to refresh the list to apply the changes - is that a bug? -> FETA-21)
+    > [Info] If the changes are not yet displayed in the list of variant sets, click the ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh) button in the top right corner to update the list of variant sets.    
+
+[comment]: <> (I have to refresh the list to apply the changes -> FETA-21)
 
 
 
 ## Remove an attribute from the variant set
 
-You can remove defining and changeable attributes from the variant set. Note that at least one defining attribute must be assigned. If one or more changeable attributes have been previously assigned to the variant set, at least one changeable attribute must remain assigned.
+You can remove defining and changeable attributes from the variant set. Note that at least one defining attribute must be assigned. However, you can remove all of the changeable attributes.
 
-[comment]: <> (is that a bug? -> BUG-141)
+[comment]: <> (Bug reported -> BUG-141)
 
 #### Prerequisites
 
@@ -186,4 +188,6 @@ A variant set has been created, see [Create a variant set](#create-a-variant-set
 4. Click the [SAVE] button in the upper right corner.   
     The changes have been saved. The *Edit variant set* view is closed.
 
-[comment]: <> (I have to refresh the list to apply the changes - is that a bug? -> FETA-21)
+    > [Info] If the changes are not yet displayed in the list of variant sets, click the ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh) button in the top right corner to update the list of variant sets.  
+
+[comment]: <> (I have to refresh the list to apply the changes -> FETA-21)

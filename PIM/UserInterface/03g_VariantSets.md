@@ -1,7 +1,7 @@
-[!!Manage a variant set](../Integration/07_ManageVariantSets.md)
+[!!Manage the variant set](../Integration/07_ManageVariantSets.md)
 [!!Data type list](../../DataHub/UserInterface/04_DataTypeList.md)
 
-# Variant Sets
+# Variant sets
 
 *PIM > Settings > Tab VARIANT SETS*
 
@@ -10,7 +10,7 @@
 **Variant set list**
 
 - ![Search](../../Assets/Icons/Search.png "[Search]") (Search)   
-    Click this button to display the search bar and search for an variant set.
+    Click this button to display the search bar and search for a variant set.
 
 - ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh)   
     Click this button to update the list of variant sets.
@@ -26,13 +26,12 @@
 
 - [EDIT]      
     Click this button to edit the selected variant set. This button is only displayed if a single checkbox in the list of variant sets is selected. Alternatively, you can click directly a row in the list to edit a variant set. The *Edit variant set* view is displayed.   
+    For detailed information, see [Edit a variant set](../Integration/02_ManageVariantSets.md#edit-a-variant-set).
 
 - [DELETE]     
-    Click this button to delete the selected variant sets. This button is only displayed if the checkbox of at least one variant set is selected.
+    Click this button to delete the selected variant sets. A variant set can only be deleted if no dependencies are existing. Otherwise, an error message is displayed. This button is only displayed if the checkbox of at least one variant set is selected.
 
-[comment]: <> (deletion only possible if no changeable attribute is assigned to the variant set -> is that right or a Bug?)
-
-The list displays all variant sets. All fields are read-only. Depending on the settings, the displayed columns may vary.
+The list displays all variant sets. Depending on the settings, the displayed columns may vary. All fields are read-only. 
 
 - *Name*   
     Variant set name.
@@ -47,7 +46,7 @@ The list displays all variant sets. All fields are read-only. Depending on the s
     Changeable attributes of the variant set.
 
 - *ID*   
-    Attribute set identification number. The ID number is automatically assigned by the system.
+    Variant set identification number. The ID number is automatically assigned by the system.
 
 - *Modified on*   
     Date and time of the last modification.
@@ -62,7 +61,7 @@ The list displays all variant sets. All fields are read-only. Depending on the s
     Name and username of the user who created the variant set.
 
 - *Name (Language)*   
-    Attribute set name in the selected language. A single column is displayed for the system languages *English (United States)* and *Deutsch (Deutschland)*.
+    Variant set name in the selected language. A single column is displayed for the system languages *English (United States)* and *Deutsch (Deutschland)*.
 
 - ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add)   
     Click this button to create a variant set. The *Create variant set* window is displayed.   
@@ -78,9 +77,9 @@ The list displays all variant sets. All fields are read-only. Depending on the s
 **Create variant set**
 
 - ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)   
-    Click this button to close the *Create variant set* view and return to the variant sets list. All changes are rejected.
+    Click this button to close the *Create variant set* view and return to the list of variant sets. All changes are rejected.
 
-- Language   
+- *"Language name"*   
     Click the drop-down list and select the language in which the *Name (Language)* fields are displayed. The languages *English (United States)* and *Deutsch (Deutschland)* are available in the drop-down list.
 
 - [SAVE]   
@@ -98,9 +97,13 @@ This section is only displayed if an attribute set is selected.
 
 - *Formula for SKU*   
     Click the field to edit the formula for the SKU of the variant articles. By default, the formula **{master}-{L}** is predefined. The following placeholders are available:
-    - **{master}**: SKU number of the master entity
-    - **{L}**: consecutive number   
-    - In addition to these default placeholders, you can include the value of the defining attributes of the variant set into the SKU formula. The corresponding placeholders are displayed in the *Possible placeholders* section when you have added a defining attribute.
+    - **{master}**   
+        SKU number of the master entity
+    - **{L}**   
+        consecutive number   
+    
+    > [Info] In addition to these default placeholders, you can include the value of the defining attributes of the variant set into the SKU formula. The corresponding placeholders are displayed in the *Possible placeholders* section when you have added a defining attribute.
+
 
 **Defining attributes**
 
@@ -108,7 +111,7 @@ This section is only displayed if an attribute set is selected.
     Click this button to display the search bar and search for an attribute.
 
 - ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh)   
-    Click this button to update the list of an attribute.
+    Click this button to update the list of attributes.
 
 - ![Columns](../../Assets/Icons/Columns.png "[Columns]") Columns (x)   
     Click this button to display the columns bar and customize the displayed columns and the order of columns in the list. The *x* indicates the number of columns that are currently displayed in the list.
@@ -132,6 +135,7 @@ The list displays all defining attributes to the variant set. All fields are rea
 
 - *Data type*   
     Attribute data type.   
+    For detailed information about all data types, see [Data type list](../../DataHub/UserInterface/04_DataTypeList.md).
 
 - *ID*   
     Attribute identification number. The ID number is automatically assigned by the system.
@@ -145,7 +149,7 @@ The list displays all defining attributes to the variant set. All fields are rea
     Click this button to display the search bar and search for an attribute.
 
 - ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh)   
-    Click this button to update the list of an attribute.
+    Click this button to update the list of attributes.
 
 - ![Columns](../../Assets/Icons/Columns.png "[Columns]") Columns (x)   
     Click this button to display the columns bar and customize the displayed columns and the order of columns in the list. The *x* indicates the number of columns that are currently displayed in the list.
@@ -169,12 +173,14 @@ The list displays all changeable attributes to the variant set. All fields are r
 
 - *Data type*   
     Attribute data type.   
+    For detailed information about all data types, see [Data type list](../../DataHub/UserInterface/04_DataTypeList.md).
+
 
 - *ID*   
     Attribute identification number. The ID number is automatically assigned by the system.
 
 - ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add)   
-    Click this button to add a defining attribute to the variant set. The *Add changeable attributes* view is displayed, see [Add changeable attributes](#add-changeable-attributes).
+    Click this button to add a changeable attribute to the variant set. The *Add changeable attributes* view is displayed, see [Add changeable attributes](#add-changeable-attributes).
 
 
 
@@ -187,9 +193,9 @@ The list displays all changeable attributes to the variant set. All fields are r
 **Edit variant set**
 
 - ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)   
-    Click this button to close the *Edit variant set* view and return to the variant sets list. All changes are rejected.
+    Click this button to close the *Edit variant set* view and return to the list of variant sets. All changes are rejected.
 
-- Language   
+- *"Language name"*   
     Click the drop-down list and select the language in which the *Name (Language)* fields are displayed. The languages *English (United States)* and *Deutsch (Deutschland)* are available in the drop-down list.
 
 - [SAVE]   
@@ -203,11 +209,14 @@ The list displays all changeable attributes to the variant set. All fields are r
 
 **FORMULAS**
 
-- *Formula for SKU*   
+- *Formula for SKU*  
     Click the field to edit the formula for the SKU of the variant articles. By default, the formula **{master}-{L}** is predefined. The following placeholders are available:
-    - {master}: SKU number of the master entity
-    - {L}: consecutive number   
-    - In addition to these default placeholders, you can include the value of the defining attributes of the variant set into the SKU formula. The corresponding placeholders are displayed in the *Possible placeholders* section when you have added a defining attribute.
+    - **{master}**   
+        SKU number of the master entity
+    - **{L}**   
+        consecutive number   
+    
+    > [Info] In addition to these default placeholders, you can include the value of the defining attributes of the variant set into the SKU formula. The corresponding placeholders are displayed in the *Possible placeholders* section when you have added a defining attribute.
 
 **Defining attributes**
 
@@ -215,7 +224,7 @@ The list displays all changeable attributes to the variant set. All fields are r
     Click this button to display the search bar and search for an attribute.
 
 - ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh)   
-    Click this button to update the list of an attribute.
+    Click this button to update the list of attributes.
 
 - ![Columns](../../Assets/Icons/Columns.png "[Columns]") Columns (x)   
     Click this button to display the columns bar and customize the displayed columns and the order of columns in the list. The *x* indicates the number of columns that are currently displayed in the list.
@@ -239,6 +248,7 @@ The list displays all defining attributes to the variant set. All fields are rea
 
 - *Data type*   
     Attribute data type.   
+    For detailed information about all data types, see [Data type list](../../DataHub/UserInterface/04_DataTypeList.md).
 
 - *ID*   
     Attribute identification number. The ID number is automatically assigned by the system.
@@ -252,7 +262,7 @@ The list displays all defining attributes to the variant set. All fields are rea
     Click this button to display the search bar and search for an attribute.
 
 - ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh)   
-    Click this button to update the list of an attribute.
+    Click this button to update the list of attributes.
 
 - ![Columns](../../Assets/Icons/Columns.png "[Columns]") Columns (x)   
     Click this button to display the columns bar and customize the displayed columns and the order of columns in the list. The *x* indicates the number of columns that are currently displayed in the list.
@@ -276,12 +286,13 @@ The list displays all changeable attributes to the variant set. All fields are r
 
 - *Data type*   
     Attribute data type.   
+    For detailed information about all data types, see [Data type list](../../DataHub/UserInterface/04_DataTypeList.md).
 
 - *ID*   
     Attribute identification number. The ID number is automatically assigned by the system.
 
 - ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add)   
-    Click this button to add a defining attribute to the variant set. The *Add changeable attributes* view is displayed, see [Add changeable attributes](#add-changeable-attributes).
+    Click this button to add a changeable attribute to the variant set. The *Add changeable attributes* view is displayed, see [Add changeable attributes](#add-changeable-attributes).
 
 
 ### Add defining attributes
@@ -315,7 +326,7 @@ The list displays all changeable attributes to the variant set. All fields are r
 - [ADD AND GO BACK]   
     Click this button to add the selected attribute(s) to the variant set. This button is only displayed if the checkbox of at least one attribute is selected. The *Add defining attributes* view is closed. The defining attributes are displayed in the *Defining attributes* box.
 
-The list displays all available defining attributes. All fields are read-only. Depending on the settings, the displayed columns may vary.
+The list displays all available defining attributes. Depending on the settings, the displayed columns may vary. All fields are read-only. 
 
 - *Name*   
     Attribute name.
@@ -325,6 +336,7 @@ The list displays all available defining attributes. All fields are read-only. D
 
 - *Data type*   
     Attribute data type.    
+    For detailed information about all data types, see [Data type list](../../DataHub/UserInterface/04_DataTypeList.md).
 
 - *ID*   
     Attribute identification number. The ID number is automatically assigned by the system.
@@ -338,7 +350,7 @@ The list displays all available defining attributes. All fields are read-only. D
 ![Changeable attributes](../../Assets/Screenshots/PIM/Settings/VariantSets/AddChangeableAttributes.png "[Changeable attributes]")
 
 - ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)   
-    Click this button to close the *Add defining attributes* view and return to the *Edit variant set* view. All changes are rejected.
+    Click this button to close the *Add changeable attributes* view and return to the *Edit variant set* view. All changes are rejected.
 
 - ![Search](../../Assets/Icons/Search.png "[Search]") (Search)   
     Click this button to display the search bar and search for an attribute.
@@ -359,9 +371,9 @@ The list displays all available defining attributes. All fields are read-only. D
     Click this button to add the selected attribute(s) to the variant set. This button is only displayed if the checkbox of at least one attribute is selected.
 
 - [ADD AND GO BACK]   
-    Click this button to add the selected attribute(s) to the variant set. This button is only displayed if the checkbox of at least one attribute is selected. The *Add defining attributes* view is closed. The defining attributes are displayed in the *Changeable attributes* box.
+    Click this button to add the selected attribute(s) to the variant set. This button is only displayed if the checkbox of at least one attribute is selected. The *Add changeable attributes* view is closed. The changeable attributes are displayed in the *Changeable attributes* box.
 
-The list displays all available changeable attributes. All fields are read-only. Depending on the settings, the displayed columns may vary.
+The list displays all available changeable attributes. Depending on the settings, the displayed columns may vary. All fields are read-only. 
 
 - *Name*   
     Attribute name.
@@ -371,6 +383,7 @@ The list displays all available changeable attributes. All fields are read-only.
 
 - *Data type*   
     Attribute data type.   
+    For detailed information about all data types, see [Data type list](../../DataHub/UserInterface/04_DataTypeList.md).
 
 - *ID*   
     Attribute identification number. The ID number is automatically assigned by the system.
