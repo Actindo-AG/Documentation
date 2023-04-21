@@ -1,6 +1,6 @@
 [!!Manage the Tradebyte connection](../Integration/01_ManageTradebyteConnection.md)
 
-# Connections
+# Connections (Tradebyte)
 
 *Omni-Channel > Settings > Tab CONNECTIONS*
 

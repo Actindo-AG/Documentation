@@ -1,4 +1,4 @@
-[!!User interface connection](../UserInterface/01_Connections.md)
+[!!User interface Connection (Tradebyte)](../UserInterface/01_Connections.md)
 
 # Manage the Tradebyte connection
 

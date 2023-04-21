@@ -1,4 +1,4 @@
-# Key Features
+# Key features
 
 - Marketplace multiplier with access to over 90 sales platforms.
 - Highly scalable and fully integrated interfaces with upstream *Actindo Core1 Platform*.
