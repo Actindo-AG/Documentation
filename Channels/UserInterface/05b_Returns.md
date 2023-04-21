@@ -104,13 +104,6 @@
 
 [comment]: <> (aktuell noch BUG -> wird nur bei Auswahl von mindestens zwei orders angezeigt -> Bug reported: BUG-144)
 
-- [CANCEL RETURN]/[CANCEL RETURNS]  
-    Click this button to cancel the import of the selected return(s). This button is only displayed if the checkbox of at least one return with the **Error** status in the *Status of import from channel* column is selected. The import status changes to **Cancelled**. The *Return cancelled* pop-up window is displayed.
-
-    ![Return cancelled](../../Assets/Screenshots/Channels/OrdersReturns/Returns/ReturnCancelled.png "[Return cancelled]")
-
-[comment]: <> (Add screenshot. keine Testdaten. gibt es den Button überhaupt bei returns?)
-
 The list displays all returns, either for all connections or for the selected connection. Depending on the settings, the displayed columns may vary. All fields are read-only. 
 
 - *Connection*  
@@ -125,7 +118,7 @@ The list displays all returns, either for all connections or for the selected co
     - **Complete**  
         The return import has been successfully completed.   	
     - **Error**  
-        The return import has been failed. Click the [Show log message] button in the column to display the corresponding log message in the *LOG* tab, see [User interface LOG](./06a_Log.md).
+        The return import has failed. Click the [Show log message] button in the column to display the corresponding log message in the *LOG* tab, see [User interface LOG](./06a_Log.md).
     - **Canceled**  
         The return import has been canceled.  
 
@@ -136,7 +129,7 @@ The list displays all returns, either for all connections or for the selected co
     - **No changes to sync**  
         The return has no changes to synchronize.
     - **Error**   
-        The return export has been failed. Click the [Show log message] button in the column to display the corresponding log message in the *LOG* tab, see [User interface LOG](./06a_Log.md).
+        The return export has failed. Click the [Show log message] button in the column to display the corresponding log message in the *LOG* tab, see [User interface LOG](./06a_Log.md).
 
 - *Status of export to OMS*  
     Status of the return export from the *Omni-Channel* module to the *Order management* module for further processing. The following options are available:  
@@ -363,8 +356,6 @@ The list displays all line items of the selected return. Depending on the settin
     - **Shipment line item**
     - **Cancellation line item**
 
-[comment]: <> (Prüfen, ob die Typen im UI tatsächlich so heißen)
-
 - *ID*  
     Return line item identification number. The ID number is automatically assigned by the system after creation.
 
@@ -377,8 +368,6 @@ The list displays all line items of the selected return. Depending on the settin
 *Omni-Channel > Orders and returns > Tab RETURNS > Select return > Tab Line items > Select line item*
 
 ![Line item](../../Assets/Screenshots/Channels/OrdersReturns/Returns/LineItemAttributes.png "[Line item]")
-
-[comment]: <> (add screenshot)
 
 - ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)   
     Click this button to close the *Line item* view and return to the list of line items. All changes are rejected.
@@ -457,8 +446,6 @@ The list displays all dependencies of the selected line item. Depending on the s
 
 ![Return connection shipments](../../Assets/Screenshots/Channels/OrdersReturns/Returns/ReturnConnectionShipments.png "[Return connection shipments]")
 
-[comment]: <> (add screenshot)
-
 **Shipments**
 
 - ![Search](../../Assets/Icons/Search.png "[Search]") (Search)   
@@ -490,7 +477,7 @@ The list displays all shipments for the selected return. Depending on the settin
     - **Complete**  
         The return import has been successfully completed.   	
     - **Error**  
-        The return import has been failed. Click the [Show log message] button in the column to display the corresponding log message in the *LOG* tab, see [User interface LOG](./06a_Log.md).
+        The return import has failed. Click the [Show log message] button in the column to display the corresponding log message in the *LOG* tab, see [User interface LOG](./06a_Log.md).
     - **Canceled**  
         The return import has been canceled.  
 
@@ -501,7 +488,7 @@ The list displays all shipments for the selected return. Depending on the settin
     - **No changes to sync**  
         The return has no changes to synchronize.
     - **Error**   
-        The return export has been failed. Click the [Show log message] button in the column to display the corresponding log message in the *LOG* tab, see [User interface LOG](./06a_Log.md).
+        The return export has failed. Click the [Show log message] button in the column to display the corresponding log message in the *LOG* tab, see [User interface LOG](./06a_Log.md).
 
 - *ID*  
     Shipment identification number. The ID number is automatically assigned by the system.
@@ -515,8 +502,6 @@ The list displays all shipments for the selected return. Depending on the settin
 *Omni-Channel > Orders and returns > Tab RETURNS > Select return > Tab Shipments > Select shipment*
 
 ![Shipment attributes](../../Assets/Screenshots/Channels/OrdersReturns/Returns/ShipmentAttributes.png "[Shipment attributes]")
-
-[comment]: <> (add screenshot -> amazon 4x -> tabelle kaputt?)
 
 - ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)   
     Click this button to close the *Shipment for return "Return ID"* view and return to the shipment list. All changes are rejected.
@@ -535,8 +520,6 @@ The *Shipment for return "Return ID"* view is composed of the following tabs:
 *Omni-Channel > Orders and returns > Tab RETURNS > Select return > Tab Shipments > Select shipment > Tab Attributes*
 
 ![Shipment attributes](../../Assets/Screenshots/Channels/OrdersReturns/Returns/ShipmentAttributes.png "[Shipment attributes]")
-
-[comment]: <> (add screenshot)
 
 In the left margin column, all available attribute groups are displayed. Click an attribute group to display the attributes that are assigned to this group on the right side of the *Attributes* tab. If the line item contains attributes that are unassigned, the *Unassigned group* attribute group is automatically displayed in the left margin column.
 
@@ -557,8 +540,6 @@ The right side of the *Attributes* tab displays all attributes that are assigned
 *Omni-Channel > Orders and returns > Tab RETURNS > Select return > Tab Shipments > Select shipment > Tab Dependencies*
 
 ![Shipment dependencies](../../Assets/Screenshots/Channels/OrdersReturns/Returns/ShipmentDependencies.png "[Shipment dependencies]")
-
-[comment]: <> (add screenshot)
 
 **Dependencies**
 
@@ -599,8 +580,6 @@ The list displays all dependencies of the selected shipment. Depending on the se
 
 ![Shipment line items](../../Assets/Screenshots/Channels/OrdersReturns/Returns/ShipmentLineItems.png "[Shipment line items]")
 
-[comment]: <> (add screenshot)
-
 **Shipment line items**
 
 - ![Search](../../Assets/Icons/Search.png "[Search]") (Search)   
@@ -639,8 +618,6 @@ The list displays all shipment line items of the selected return. Depending on t
 
 ![Shipment line item](../../Assets/Screenshots/Channels/OrdersReturns/Returns/ShipmentLineItemAttributes.png "[Shipment line item]")
 
-[comment]: <> (add screenshot)
-
 - ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)   
     Click this button to close the *Shipment line item* view and return to the shipment line item list. All changes are rejected.
 
@@ -657,8 +634,6 @@ The *Shipment line item* view is composed of the following tabs:
 *Omni-Channel > Orders and returns > Tab RETURNS > Select return > Tab Shipments > Select shipment > Tab Shipment line items > Select shipment line item > Tab Attributes*
 
 ![Shipment line item attributes](../../Assets/Screenshots/Channels/OrdersReturns/Returns/ShipmentLineItemAttributes.png "[Shipment line item attributes]")
-
-[comment]: <> (add screenshot)
 
 In the left margin column, all available attribute groups are displayed. Click an attribute group to display the attributes that are assigned to this group on the right side of the *Attributes* tab. If the line item contains attributes that are unassigned, the *Unassigned group* attribute group is automatically displayed in the left margin column.
 
@@ -679,8 +654,6 @@ The right side of the *Attributes* tab displays all attributes that are assigned
 *Omni-Channel > Orders and returns > Tab RETURNS > Select return > Tab Shipments > Select shipment > Tab Shipment line items > Select shipment line item > Tab Dependencies*
 
 ![Shipment line item dependencies](../../Assets/Screenshots/Channels/OrdersReturns/Returns/ShipmentLineItemDependencies.png "[Shipment line item dependencies]")
-
-[comment]: <> (add screenshot)
 
 - ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh)   
     Click this button to update the list of dependencies.
@@ -720,8 +693,6 @@ The list displays all dependencies of the selected shipment line item. Depending
 
 ![Return connection cancellations](../../Assets/Screenshots/Channels/OrdersReturns/Returns/ReturnConnectionCancellations.png "[Return connection cancellations]")
 
-[comment]: <> (add screenshot -> tabelle kaputt?)
-
 **Cancellations**
 
 - ![Search](../../Assets/Icons/Search.png "[Search]") (Search)   
@@ -753,7 +724,7 @@ The list displays all cancellations for the selected return. Depending on the se
     - **Complete**  
         The return import has been successfully completed.   	
     - **Error**  
-        The return import has been failed. Click the [Show log message] button in the column to display the corresponding log message in the *LOG* tab, see [User interface LOG](./06a_Log.md).
+        The return import has failed. Click the [Show log message] button in the column to display the corresponding log message in the *LOG* tab, see [User interface LOG](./06a_Log.md).
     - **Canceled**  
         The return import has been canceled.  
 
@@ -763,10 +734,125 @@ The list displays all cancellations for the selected return. Depending on the se
     - **No changes to sync**  
         The return has no changes to synchronize.
     - **Error**   
-        The return export has been failed. Click the [Show log message] button in the column to display the corresponding log message in the *LOG* tab, see [User interface LOG](./06a_Log.md).
+        The return export has failed. Click the [Show log message] button in the column to display the corresponding log message in the *LOG* tab, see [User interface LOG](./06a_Log.md).
 
 - *ID*  
     Cancellation identification number. The ID number is automatically assigned by the system.
+
+
+### Cancellation for return "Return ID"
+
+*Omni-Channel > Orders and returns > Tab RETURNS > Select return > Tab Cancellations > Select cancellation*
+
+![Cancellation attributes](../../Assets/Screenshots/Channels/OrdersReturns/Returns/CancellationAttributes.png "[Cancellation attributes]")
+
+- ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)   
+    Click this button to close the *Cancellation for return "Return ID"* view and return to the cancellation list. All changes are rejected.
+
+- [CLOSE]  
+    Click this button to close the *Cancellation for return "Return ID"* view.
+
+The *Cancellation for return "Return ID"* view is composed of the following tabs:
+- [Cancellation for return "Return ID" &ndash; Attributes](#cancellation-for-return-return-id--attributes)
+- [Cancellation for return "Return ID" &ndash; Dependencies](#cancellation-for-return-return-id--dependencies)
+- [Cancellation for return "Return ID" &ndash; Cancellation line items](#cancellation-for-return-return-id--cancellation-line-items)
+
+
+### Cancellation for return "Return ID" &ndash; Attributes
+
+*Omni-Channel > Orders and returns > Tab RETURNS > Select return > Tab Cancellations > Select cancellation > Tab Attributes*
+
+![Cancellation attributes](../../Assets/Screenshots/Channels/OrdersReturns/Returns/CancellationAttributes.png "[Cancellation attributes]")
+
+In the left margin column, all available attribute groups are displayed. Click an attribute group to display the attributes that are assigned to this group on the right side of the *Attributes* tab. If the line item contains attributes that are unassigned, the *Unassigned group* attribute group is automatically displayed in the left margin column.
+
+- ![Folders](../../Assets/Icons/Folders01.png "[Folders]") (Folders)  
+    Attribute group that contains attribute sub-groups. Click the attribute group or the arrow left to the attribute group to unfold the group and display the attribute sub-groups.
+
+- ![Folder](../../Assets/Icons/Folder01.png "[Folder]") (Folder)  
+    Attribute group. Click the attribute group to display all attributes that are assigned to the selected attribute group on the right side of the *Attributes* tab.
+
+The right side of the *Attributes* tab displays all attributes that are assigned to the selected group in the left margin column. All fields are read-only.
+
+- ![Collapse/Expand](../../Assets/Icons/CollapseExpand01.png "[Collapse/Expand]") (Collapse/Expand)    
+    Click this button to collapse or expand the left margin column with the attribute groups. When the left margin is expanded and you click this button, the column is collapsed. When the column is collapsed and you click this button, the column is expanded.
+
+
+### Cancellation for return "Return ID" &ndash; Dependencies
+
+*Omni-Channel > Orders and returns > Tab RETURNS > Select return > Tab Cancellations > Select cancellation > Tab Dependencies*
+
+![Cancellation dependencies](../../Assets/Screenshots/Channels/OrdersReturns/Returns/CancellationDependencies.png "[Cancellation dependencies]")
+
+**Dependencies**
+
+- ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh)   
+    Click this button to update the list of dependencies to the cancellation.
+
+- ![Columns](../../Assets/Icons/Columns.png "[Columns]") Columns (x)   
+    Click this button to display the columns bar and customize the displayed columns and the order of columns in the list. The *x* indicates the number of columns that are currently displayed in the list.
+
+- [x]     
+    Select the checkbox to display the editing toolbar. If you click the checkbox in the header, all dependencies to the cancellation in the list are selected.
+
+- [RERUN MAPPING]  
+    Click this button to rerun the mapping of the selected entity. This button is only displayed if the checkbox of at least one dependency is selected.
+
+The list displays all dependencies of the selected cancellation. Depending on the settings, the displayed columns may vary. All fields are read-only. 
+
+- *Dependent entity ID*   
+    Identification number of the dependent entity.
+
+- *Dependent entity type*   
+    Type of the dependent entity. The available types depend on the installed plugins.
+
+- *Change tracking mode*   
+    Change tracking mode (ETL mode) of the dependent entity. The following options are available:
+    - **Manual**
+    - **Semiautomatic**
+    - **Semiautomatic, changes must be confirmed by another user**   
+    - **Automatic**
+
+- *Dependent entity friendly identifier*   
+    Further, more descriptive identifier of the dependent entity, for instance the SKU number or a bill number.
+
+
+### Cancellation for return "Return ID" &ndash; Cancellation line items
+
+*Omni-Channel > Orders and returns > Tab RETURNS > Select return > Tab Cancellations > Select cancellation > Tab Cancellation line items*
+
+![Cancellation line items](../../Assets/Screenshots/Channels/OrdersReturns/Returns/CancellationLineItems.png "[Cancellation line items]")
+
+**Cancellation line items**
+
+- ![Search](../../Assets/Icons/Search.png "[Search]") (Search)   
+    Click this button to display the search bar and search for a cancellation line item.
+
+- ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh)   
+    Click this button to update the list of cancellation line items.
+
+- ![Columns](../../Assets/Icons/Columns.png "[Columns]") Columns (x)   
+    Click this button to display the columns bar and customize the displayed columns and the order of columns in the list. The *x* indicates the number of columns that are currently displayed in the list.
+
+- ![Filter](../../Assets/Icons/Filter.png "[Filter]") Filter (x)   
+    Click this button to display the filter bar and customize the active filters. The *x* indicates the number of filters that are currently active.
+
+- [x]     
+    Select the checkbox to display the editing toolbar. You can only select one checkbox at a time. 
+
+- [VIEW]  
+    Click this button to display the *Cancellation line item* view of the selected cancellation line item. Alternatively, you can click directly a row in the list to view the corresponding cancellation line item. This button is only displayed if a single checkbox in the list of cancellation line items is selected.
+
+The list displays all cancellation line items of the selected return. Depending on the settings, the displayed columns may vary. All fields are read-only. 
+
+- *SKU*  
+    Stock Keeping Unit. Identification number of the cancellation line item.
+
+- *ID*  
+    Cancellation line item identification number. The ID number is automatically assigned by the system after creation.
+
+- *"Attribute name"*    
+    You can add a column for each attribute that is assigned to the return. The column displays the attribute name, the row displays the corresponding attribute value of the return.
 
 
 #### Cancellation line item
@@ -774,8 +860,6 @@ The list displays all cancellations for the selected return. Depending on the se
 *Omni-Channel > Orders and returns > Tab RETURNS > Select return > Tab Cancellations > Select cancellation > Tab Cancellation line items > Select line item*
 
 ![Cancellation line item](../../Assets/Screenshots/Channels/OrdersReturns/Returns/CancellationLineItemAttributes.png "[Cancellation line item]")
-
-[comment]: <> (add screenshot)
 
 - ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)   
     Click this button to close the *Cancellation line item* view and return to the cancellation line item list. All changes are rejected.
@@ -793,8 +877,6 @@ The *Cancellation line item* view is composed of the following tabs:
 *Omni-Channel > Orders and returns > Tab RETURNS > Select return > Tab Cancellations > Select cancellation > Tab Cancellation line items > Select line item > Tab Attributes*
 
 ![Cancellation line item attributes](../../Assets/Screenshots/Channels/OrdersReturns/Returns/CancellationLineItemAttributes.png "[Cancellation line item attributes]")
-
-[comment]: <> (add screenshot)
 
 In the left margin column, all available attribute groups are displayed. Click an attribute group to display the attributes that are assigned to this group on the right side of the *Attributes* tab. If the line item contains attributes that are unassigned, the *Unassigned group* attribute group is automatically displayed in the left margin column.
 
@@ -815,8 +897,6 @@ The right side of the *Attributes* tab displays all attributes that are assigned
 *Omni-Channel > Orders and returns > Tab RETURNS > Select return > Tab Cancellations > Select cancellation > Tab Cancellation line items > Select line item > Tab Dependencies*
 
 ![Cancellation line item dependencies](../../Assets/Screenshots/Channels/OrdersReturns/Returns/CancellationLineItemDependencies.png "[Cancellation line item dependencies]")
-
-[comment]: <> (add screenshot)
 
 - ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh)   
     Click this button to update the list of dependencies to the cancellation.

@@ -303,14 +303,17 @@ The list displays all offers to be imported. Depending on the settings, the disp
  
 - *"Import process name"*  
     Process for the import to the *PIM* module. The status of the process is displayed below the name of the import process. The following statuses are available:
+    - **Filling queue**   
+        The import queue is being filled.
+    - **Queue filled, auto starting import**   
+        The product(s) are ready to be imported to the *PIM* module. This status is only displayed if the *Start Import automatically without manual checking of assignment to PIM products* toggle has been enabled in the *Summary* window, see [Summary](#summary-1). The import process is automatically started.
     - **Queue filled, waiting for start**    
-        The product is ready to be imported to the *PIM* module.
+        The product(s) are ready to be imported to the *PIM* module. This status is only displayed if the *Start Import automatically without manual checking of assignment to PIM products* toggle has been disabled in the *Summary* window, see [Summary](#summary-1). The import process is waiting for a manual start.
     - **Importing into PIM**   
-        The product is being imported from the *Omni-Channel* to the *PIM* module.
+        The product(s) are being imported from the *Omni-Channel* to the *PIM* module.
     - **Import finished**   
-        The product has been imported to the *PIM* module.
-    - **Import failed**
-        The product import to the *PIM* module has been failed.
+        The product(s) have been imported to the *PIM* module. 
+        If the import has failed, this status is also displayed, but the bar below the status is colored red in proportion to the elements of the process that were imported incorrectly.
 
     - [START]   
         Click this button to the right of the corresponding import process to start the import in the *Processes* section with the **Queue filled, waiting for start** status.
@@ -320,10 +323,8 @@ The list displays all offers to be imported. Depending on the settings, the disp
         Click this button to the right of the corresponding import process to display the context menu. The following menu entries are available:
         - ![Delete](../../Assets/Icons/Trash01.png "[Delete]") Delete  
             Click this entry to remove the corresponding import process from the *Processes* section.
-        - Rerun    
+        - ![Rerun](../../Assets/Icons/Refresh01.png "[Rerun]") Rerun    
             Click this entry to restart the faulty process. This entry is only displayed if the import process has failed.
-
-[comment]: <> (Import failed? Prüfen, wie der Status heißt; bislang noch keinen fehlerhaften import dabei gehabt...; Icon von rerun button hinzufügen)
 
 - ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh)   
     Click this button to update the list of import processes.

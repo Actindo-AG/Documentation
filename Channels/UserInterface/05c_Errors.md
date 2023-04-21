@@ -49,8 +49,6 @@ The list displays all errors to the orders and returns. Depending on the setting
     - **Export to OMS**  
         The error has occurred while exporting the order to the *Order management* module.
 
-[comment]: <> (Export to channel oder Update to channel?)
-
 - *Order/Return*  
     Indication where the error has occurred. The following options are available:
     - **Order**   

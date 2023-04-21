@@ -27,7 +27,7 @@
 - [RETRY EXPORT]  
     Click this button to retry the selected scheduled export(s). This button is only displayed if the checkbox of at least one faulty scheduled export is selected.
 
-[comment]: <> (prüfen, ob irgendein pop-up window angezeigt wird. -> aktuell keine Testdaten oder Fehlermeldung)
+[comment]: <> (pop-up window wird angezeigt -> aktuell keine Testdaten; sobald verfügbar ergänzen)
 
 The list displays all scheduled exports. Depending on the settings, the displayed columns may vary. All fields are read-only. 
 
