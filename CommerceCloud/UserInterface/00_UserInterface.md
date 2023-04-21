@@ -2,7 +2,7 @@
 
 In this part of the *Salesforce Commerce Cloud* documentation, you will find the following chapters:
 
-- [CONNECTIONS](./01_Connections.md)
+- [CONNECTIONS (Salesforce Commerce Cloud)](./01_Connections.md)
     - [Create view](./01_Connections.md#create-view)
     - [Rename view](./01_Connections.md#rename-view)
     - [Create Salesforce Commerce Cloud connection](./01_Connections.md#create-salesforce-commerce-cloud-connection)
