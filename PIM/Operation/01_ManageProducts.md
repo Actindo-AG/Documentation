@@ -1,8 +1,7 @@
-[!!Omni-Channel](../../Channels/Overview/01_General.md)
-[!!User interface Product list](../UserInterface/02a_List.md)
 [!!Manage the variants](./02_ManageVariants.md)
 [!!Manage an attribute set](./02_ManageAttributeSets.md)
-
+[!!Manage the connections in Omni-Channel](../../Channels/Integration/01_ManageConnections.md)
+[!!User interface Product list](../UserInterface/02a_List.md)
 
 # Manage a product
 
@@ -81,7 +80,6 @@ At least one product has been created, see [Create a product](#create-a-product)
 
 3. Click the [SAVE] button in the upper right corner.   
     The changes have been saved. The *Edit product* view is closed.  
-
 
 
 ### Mass editing
@@ -185,6 +183,7 @@ At least one product has been created, see [Create a product](#create-a-product)
 
 Create an offer for a product so you can sell the product in a selected connection. In the *PIM* module you can  create offers to all PIM products. You can either create an offer for a single connection or multiple connections.
 
+
 ### Create a single connection offer in PIM
 
 If you want to offer the product on a single connection only or you have just one connection created, it is recommended to create a single connection offer.
@@ -192,9 +191,7 @@ If you want to offer the product on a single connection only or you have just on
 #### Prerequisites
 
 - At least one product has been created, see [Create a product](#create-a-product).    
-- At least one connection has been created.
-
-[comment]: <> (Add link to chapter in Channels when documentation is written)
+- At least one connection has been created, see [Create a connection](../../Channels/Integration/01_ManageConnections.md#create-a-connection).
 
 #### Procedure
 
@@ -230,13 +227,13 @@ If you want to offer the product on a single connection only or you have just on
     + Enable the *Generate SKU* toggle to automatically create a SKU for the product offer.   
 
     + Select the appropriate option for change tracking in the *Change tracking mode* section:   
-        - ![Radionbutton](../../Assets/Icons/Radiobutton.png "[Radiobutton]") *Manual*   
+        - ![Radiobutton](../../Assets/Icons/Radiobutton.png "[Radiobutton]") *Manual*   
             Changes in a PIM product must be triggered manually to be applied to the offer. The initial offer is automatically applied.   
-        - ![Radionbutton](../../Assets/Icons/Radiobutton.png "[Radiobutton]") *Semi-automatic*   
+        - ![Radiobutton](../../Assets/Icons/Radiobutton.png "[Radiobutton]") *Semiautomatic*   
             Changes in a PIM product are automatically applied to the offer after confirmation. The initial offer is automatically applied without confirmation.   
-        - ![Radionbutton](../../Assets/Icons/Radiobutton.png "[Radiobutton]") *Semi-automatic, changes must be confirmed by another user*   
+        - ![Radiobutton](../../Assets/Icons/Radiobutton.png "[Radiobutton]") *Semiautomatic, changes must be confirmed by another user*   
             Changes in a PIM product are automatically applied to the offer after confirmation by another user. The initial offer is only applied after confirmation by another user.    
-        - ![Radionbutton](../../Assets/Icons/Radiobutton.png "[Radiobutton]") *Automatic*   
+        - ![Radiobutton](../../Assets/Icons/Radiobutton.png "[Radiobutton]") *Automatic*   
             Changes in a PIM product are automatically applied to the offer. The initial offer is also automatically applied.
 
     + Click the *Offer status* drop-down list and select the initial offer status. The statuses below are available:   
@@ -247,18 +244,15 @@ If you want to offer the product on a single connection only or you have just on
         - **Offline**   
             The offer is unknown to the selected connection and cannot be sold there.   
 
-
 6. Click the [SAVE] button in the bottom right corner of the *Create offer* window.   
     The single offer is added to the list of offers. The *Create offer* window is closed.
 
     > [Info] The product must be saved to start the creation process of the offer.
 
-
 7. Click the [SAVE] button in the upper right corner of the *Edit product* view.   
     The *Edit product* view is closed. The *LIST* tab with the product list is displayed again. The new offer will be created.
 
     > [Info] The offer creation is performed asynchronously. That means that it may take  some time until the offer has been finally created.
-
 
 
 ### Create a multi-connection offer in PIM
@@ -268,9 +262,7 @@ To create offers to a product for several connections at the same time, you can 
 #### Prerequisites
 
 - At least one product has been created, see [Create a product](#create-a-product).    
-- At least two connections have been created.
-
-[comment]: <> (Add link to chapter in Channels when documentation is written)
+- At least one connection has been created, see [Create a connection](../../Channels/Integration/01_ManageConnections.md#create-a-connection).
 
 #### Procedure
 
@@ -294,7 +286,7 @@ To create offers to a product for several connections at the same time, you can 
 4. Click the [Add to multiple connections ![Multiple connections](../../Assets/Icons/Documents.png "[Multiple connections]") ] button to create an offer from the selected PIM product to multiple connections.   
     The *Select connections and status* wizard window is displayed.
 
-    ![Select connections and status](../../Assets/Screenshots/PIM/Products/List/Offers/MultipleConnections01.png "[Select connections and status]")
+    ![Select connections and status](../../Assets/Screenshots/PIM/Products/List/Offers/SelectConnectionsStatus.png "[Select connections and status]")
 
 5. Configure the following settings:
 
@@ -306,35 +298,31 @@ To create offers to a product for several connections at the same time, you can 
         - **Offline**   
             The offer is unknown to the selected connection and cannot be sold there.   
 
-
     + Select the appropriate option for the change tracking mode:
-        - ![Radionbutton](../../Assets/Icons/Radiobutton.png "[Radiobutton]") *Manual*   
+        - ![Radiobutton](../../Assets/Icons/Radiobutton.png "[Radiobutton]") *Manual*   
             Changes in a PIM product must be triggered manually to be applied to the offer. The initial offer is automatically applied.   
-        - ![Radionbutton](../../Assets/Icons/Radiobutton.png "[Radiobutton]") *Semi-automatic*   
+        - ![Radiobutton](../../Assets/Icons/Radiobutton.png "[Radiobutton]") *Semiautomatic*   
             Changes in a PIM product are automatically applied to the offer after confirmation. The initial offer is automatically applied without confirmation.   
-        - ![Radionbutton](../../Assets/Icons/Radiobutton.png "[Radiobutton]") *Semi-automatic, changes must be confirmed by another user*   
+        - ![Radiobutton](../../Assets/Icons/Radiobutton.png "[Radiobutton]") *Semiautomatic, changes must be confirmed by another user*   
             Changes in a PIM product are automatically applied to the offer after confirmation by another user. The initial offer is only applied after confirmation by another user.    
-        - ![Radionbutton](../../Assets/Icons/Radiobutton.png "[Radiobutton]") *Automatic*   
+        - ![Radiobutton](../../Assets/Icons/Radiobutton.png "[Radiobutton]") *Automatic*   
             Changes in a PIM product are automatically applied to the offer. The initial offer is also automatically applied.
 
-
-   + Enable the toggles of the connections for which you want to create offers in the *Select connections* section. If you want to create an offer for all displayed connections, click the [SELECT ALL] button to enable all toggles. All active connections are displayed in the list.    
+    + Enable the toggles of the connections for which you want to create offers in the *Select connections* section. If you want to create an offer for all displayed connections, click the [SELECT ALL] button to enable all toggles. All active connections are displayed in the list.    
 
 6. Click the [CONTINUE] button in the bottom right corner of the window.   
     The *Select destination attribute sets* wizard window is displayed.
 
-    ![Select destination attribute sets](../../Assets/Screenshots/PIM/Products/List/Offers/MultipleConnections02.png "[Select destination attribute sets]")
+    ![Select destination attribute sets](../../Assets/Screenshots/PIM/Products/List/Offers/SelectDestinationAttributeSets.png "[Select destination attribute sets]")
 
-    > [Info] The attribute destination sets for the selected connections are automatically selected. You cannot edit the selection.
+7. Click the *Destination set for connection "Connection name"* drop-down lists and select the destination attribute sets for the corresponding connections. All available attribute sets for the respective connection are displayed in the list.
 
-[comment]: <> (Is that correct? Why does this window exist when I cannot make any changes?)
-
-7. Click the [FINISH] button in the bottom right corner of the window.   
+8. Click the [FINISH] button in the bottom right corner of the window.   
     The new offers are added to the list of offers. The *Select destination attribute sets* wizard window is closed.
 
     > [Info] The product must be saved to start the creation process of the offers.
 
-8. Click the [SAVE] button in the upper right corner of the *Edit product* view.   
+9. Click the [SAVE] button in the upper right corner of the *Edit product* view.   
     The *Edit product* view is closed. The *LIST* tab with the product list is displayed again. The new offers will be created.
 
     > [Info] The offer creation is performed asynchronously. That means that it may take  some time until the offer has been finally created.

@@ -3,7 +3,6 @@
 
 [comment]: <> (add links to Warehouse, UI Warehouse)
 
-
 # Add a missing stock value
 
 If the *PIM* module and the *Warehouse* module are correctly configured, the stock of a product in the warehouse can be displayed in an attribute field in the *PIM* module.
@@ -58,4 +57,4 @@ No prerequisites to fulfill.
 
 #### Was this chapter helpful?
 
-If you need further assistance, please contact the Customer Support.
+If you need further assistance, please contact your MPS consultant.

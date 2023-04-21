@@ -1,6 +1,4 @@
-[!!Restore a product](../Operation/03_MoveProducts.md#restore-a-product)
-[!!Delete a product](../Operation/03_MoveProducts.md#delete-a-product)
-
+[!!Move a product](../Operation/03_MoveProducts.md)
 
 # Archive
 

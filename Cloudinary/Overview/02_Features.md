@@ -3,13 +3,13 @@
 Media file management with Cloudinary:
 
 - Upload files   
-  The Cloudinary integration enables to upload media files via PIM to a certain Cloudinary account.
+    The Cloudinary integration enables to upload media files via PIM to a certain Cloudinary account.
 
 - Import files    
-  The Cloudinary integration enables to import media files from a certain Cloudinary account to PIM products.
+    The Cloudinary integration enables to import media files from a certain Cloudinary account to PIM products.
 
 - Multiple connections    
-  The *Cloudinary* module enables to create multiple connections to different Cloudinary accounts.
+    The *Cloudinary* module enables to create multiple connections to different Cloudinary accounts.
 
 
 

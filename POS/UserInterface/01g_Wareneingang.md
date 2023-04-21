@@ -9,36 +9,32 @@ This tab is only displayed, when the global setting *Shop-Lieferungen aktiv* is 
 **Wareneingang Liste**
 
 - *Lieferscheinnummer*    
-  Enter the number of the delivery bill.
+    Enter the number of the delivery bill.
 
 - [LISTE LADEN]   
-  Click this button to open the list of incoming goods to the entered delivery bill number.
-
-
+    Click this button to open the list of incoming goods to the entered delivery bill number.
 
 - *Artikel*    
-  Product name.
+    Product name.
 
 - *Artikelnummer*    
-  Product number.
+    Product number.
 
 - *Soll-Menge*    
-  Target quantity of the item.
+    Target quantity of the item.
 
 - *Ist-Menge*    
-  Actual quantity of the item.
+    Actual quantity of the item.
 
 - ![Edit](../../Assets/Icons/Edit02.png "[Edit]") (Edit)   
-  Click this button to edit the number of items on the delivery bill.
+    Click this button to edit the number of items on the delivery bill.
 
 - *Artikel-ID*    
-  Product identification number.
-
+    Product identification number.
 
 - [EINBUCHEN]   
-  Click this button to book the items from the delivery bill list into the warehouse.
+    Click this button to book the items from the delivery bill list into the warehouse.
 
 [comment]: <> (Is that right?)
-
 
 [comment]: <> (to be completed)

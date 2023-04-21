@@ -1,6 +1,6 @@
 # General information
 
-The *Actindo Product Information Management (PIM)* is the one source of truth for collecting, managing and enriching product data and thus the heart of all your sales channels. Developed according to the API-first principle, the *PIM* module can be quickly and easily integrated into existing system landscapes and serves as the basis for efficient unified commerce across all channels.
+The *Actindo Product Information Management (PIM)* module is the one source of truth for collecting, managing and enriching product data and thus the heart of all your sales channels. Developed according to the API-first principle, the *PIM* module can be quickly and easily integrated into existing system landscapes and serves as the basis for efficient unified commerce across all channels.
 
 This documentation refers to the *PIM* module version 4.2.0. There may be differences in the UI, features and operation if your *PIM* module is installed in a different version.
 
