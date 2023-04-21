@@ -1,4 +1,4 @@
-# Key Features
+# Key features
 
 - Linking of products with ASIN.
 - Automatic transfer of local stock levels.

@@ -1,6 +1,6 @@
 [!!Manage the Amazon connection](../Integration/01_ManageAmazonConnection.md)
 
-# Connections
+# Connections (Amazon)
 
 *Omni-Channel > Settings > Tab CONNECTIONS*
 
@@ -63,7 +63,7 @@
     Click this button to enable the selected connection(s). This button is only displayed if the checkbox of at least one inactive connection is selected. 
 
 - ![Edit](../../Assets/Icons/Edit01.png "[Edit]") (Edit)  
-    Click this button to edit the Amazon connection. This button is only displayed if a single checkbox in the list of connections is selected. Alternatively, you can click directly a row in the list to edit a connection. The *Edit connection* view is displayed, see [Edit Amazon connection](#edit-amazon-connection).
+    Click this button to edit the selected Amazon connection. This button is only displayed if a single checkbox in the list of connections is selected. Alternatively, you can click directly a row in the list to edit a connection. The *Edit connection* view is displayed, see [Edit Amazon connection](#edit-amazon-connection).
 
 The list displays all available connections. Depending on the settings, the displayed columns may vary. All fields are read-only.
 

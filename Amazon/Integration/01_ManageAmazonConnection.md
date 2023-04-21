@@ -1,5 +1,5 @@
 [!!Manage the connections](./01_ManageAmazonConnection.md)
-[!!User interface connections](../UserInterface/01_Connections.md)
+[!!User interface Connections (Amazon)](../UserInterface/01_Connections.md)
 
 # Manage the Amazon connection
 
