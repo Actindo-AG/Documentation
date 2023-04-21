@@ -1,6 +1,6 @@
 [!!Manage the connections](../../Channels/Integration/01_ManageConnections.md)
 [!!Manage the languages in DataHub](../../DataHub/Integration/05_ManageLanguages.md)
-[!!User interface Connections](../UserInterface/01_Connections.md)
+[!!User interface Connections (Shopware 6)](../UserInterface/01_Connections.md)
 
 # Manage the Shopware 6 connection
 
@@ -175,8 +175,8 @@ A Shopware 6 connection has been established, see [Create a Shopware 6 connectio
 
     ![Settings price rules](../../Assets/Screenshots/Channels/Settings/Connections/Shopware6/EditConnectionSettings_PriceRules.png "[Settings price rules]")
 
-13. Enable the toggles for all price rules for which you want to create a price attribute in the *Actindo Core1 Platform* to maintain deviating prices. All price rules available in Shopware 6 are displayed.   
-If a certain price rule is not available, make sure that the *Price* option in the *Type* drop-down list of the corresponding rule in the Shopware 6 backend is selected. After you have changed the type of a price rule, you must synchronize the connection before you can continue to edit this setting.
+13. Enable the toggles for all price rules for which you want to create a price attribute in the *Actindo Core1 Platform* to maintain deviating prices. All price rules available in Shopware 6 are displayed.    
+    If a certain price rule is not available, make sure that the *Price* option in the *Type* drop-down list of the corresponding rule in the Shopware 6 backend is selected. After you have changed the type of a price rule, you must synchronize the connection before you can continue to edit this setting.
 
     > [Info] You must synchronize the connection to create the corresponding price attribute(s), see [Synchronize a connection](../../Channels/Integration/01_ManageConnections.md#synchronize-a-connection). Once a price attribute has been created, the corresponding toggle is locked and cannot be disabled anymore.
 
