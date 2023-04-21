@@ -229,9 +229,9 @@ If you want to offer the product on a single connection only or you have just on
     + Select the appropriate option for change tracking in the *Change tracking mode* section:   
         - ![Radiobutton](../../Assets/Icons/Radiobutton.png "[Radiobutton]") *Manual*   
             Changes in a PIM product must be triggered manually to be applied to the offer. The initial offer is automatically applied.   
-        - ![Radiobutton](../../Assets/Icons/Radiobutton.png "[Radiobutton]") *Semi-automatic*   
+        - ![Radiobutton](../../Assets/Icons/Radiobutton.png "[Radiobutton]") *Semiautomatic*   
             Changes in a PIM product are automatically applied to the offer after confirmation. The initial offer is automatically applied without confirmation.   
-        - ![Radiobutton](../../Assets/Icons/Radiobutton.png "[Radiobutton]") *Semi-automatic, changes must be confirmed by another user*   
+        - ![Radiobutton](../../Assets/Icons/Radiobutton.png "[Radiobutton]") *Semiautomatic, changes must be confirmed by another user*   
             Changes in a PIM product are automatically applied to the offer after confirmation by another user. The initial offer is only applied after confirmation by another user.    
         - ![Radiobutton](../../Assets/Icons/Radiobutton.png "[Radiobutton]") *Automatic*   
             Changes in a PIM product are automatically applied to the offer. The initial offer is also automatically applied.
@@ -301,9 +301,9 @@ To create offers to a product for several connections at the same time, you can 
     + Select the appropriate option for the change tracking mode:
         - ![Radiobutton](../../Assets/Icons/Radiobutton.png "[Radiobutton]") *Manual*   
             Changes in a PIM product must be triggered manually to be applied to the offer. The initial offer is automatically applied.   
-        - ![Radiobutton](../../Assets/Icons/Radiobutton.png "[Radiobutton]") *Semi-automatic*   
+        - ![Radiobutton](../../Assets/Icons/Radiobutton.png "[Radiobutton]") *Semiautomatic*   
             Changes in a PIM product are automatically applied to the offer after confirmation. The initial offer is automatically applied without confirmation.   
-        - ![Radiobutton](../../Assets/Icons/Radiobutton.png "[Radiobutton]") *Semi-automatic, changes must be confirmed by another user*   
+        - ![Radiobutton](../../Assets/Icons/Radiobutton.png "[Radiobutton]") *Semiautomatic, changes must be confirmed by another user*   
             Changes in a PIM product are automatically applied to the offer after confirmation by another user. The initial offer is only applied after confirmation by another user.    
         - ![Radiobutton](../../Assets/Icons/Radiobutton.png "[Radiobutton]") *Automatic*   
             Changes in a PIM product are automatically applied to the offer. The initial offer is also automatically applied.

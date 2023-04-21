@@ -126,7 +126,7 @@ Depending on the selection in the *Variants* drop-down list, the product list di
 - *Created by*   
     Name and username of the user who created the product.
 
-- Attribute    
+- "*Attribute name*"    
     You can add a column for each attribute that is assigned to the product. The column displays the attribute name, the row displays the corresponding attribute value of the product.
 
 - ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add)   
@@ -202,7 +202,7 @@ Depending on the selection in the *Variants* drop-down list, the product list di
 
 - *SKU*   
     Stock Keeping Unit. Identification number for the product. The SKU (Stock Keeping Unit) is an identification number for the product. Therefore, it should be uniquely assigned to a single product.   
-  Click the button ![Edit](../../Assets/Icons/Edit02.png "[Edit]") (Edit) to the right of the SKU to edit it.
+    Click the button ![Edit](../../Assets/Icons/Edit02.png "[Edit]") (Edit) to the right of the SKU to edit it.
 
 - ![Edit](../../Assets/Icons/Edit02.png "[Edit]") (Edit)   
     Click this button to edit the SKU.
@@ -229,10 +229,16 @@ Depending on the selection in the *Variants* drop-down list, the product list di
 
 In the left margin column, all available attribute groups are displayed. Click an attribute group to display the attributes that are assigned to this group on the right side of the *Attributes* tab. If the product contains attributes that are unassigned, the *Unassigned group* attribute group is automatically displayed in the left margin column.
 
+- ![Folders](../../Assets/Icons/Folders01.png "[Folders]") (Folders)  
+    Attribute group that contains attribute sub-groups. Click the attribute group or the arrow left to the attribute group to unfold the group and display the attribute sub-groups.
+
+- ![Folder](../../Assets/Icons/Folder01.png "[Folder]") (Folder)  
+    Attribute group. Click the attribute group to display all attributes that are assigned to the selected attribute group on the right side of the *Attributes* tab.
+
 The right side of the *Attributes* tab displays all attributes that are assigned to the selected group in the left margin column.
 
-- ![Fade in/out](../../Assets/Icons/FadeInOut01.png "[Fade in/out]") (Fade in/out)    
-  Click this button to hide or display the left margin column with the attribute groups. When the left margin is displayed and you click this button, the column is hidden. When the column is hidden and you click this button, the column is displayed again.
+- ![Collapse/Expand](../../Assets/Icons/CollapseExpand01.png "[Collapse/Expand]") (Collapse/Expand)    
+    Click this button to collapse or expand the left margin column with the attribute groups. When the left margin is expanded and you click this button, the column is collapsed. When the column is collapsed and you click this button, the column is expanded.
 
 
 
@@ -267,7 +273,7 @@ The list displays all variants of the selected product. All fields are read-only
 - *ID*   
     Variant identification number. The ID is created after saving. In the *Create product* view, no ID is displayed.
 
-- Defining/changeable attribute    
+- *"Defining/changeable attribute name"*    
     You can add a column for each attribute that is assigned as a defining or changeable attribute to the selected variant set. The column displays the attribute name, the row displays the attribute value.
 
 - ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add)   
@@ -310,7 +316,7 @@ For each defining attribute a single field or box to define the attribute value 
 
 > [Info] If more than one defining attribute is assigned to the variant, you have to select a value for each defining attribute to add a variant.
 
-- Defining attribute(s)   
+- *"Defining attribute(s) name"*   
     Enter or select the appropriate value for the defining attribute(s).
 
 - [CANCEL]   
@@ -376,7 +382,7 @@ The list displays all selected variants. Depending on the settings, the displaye
 - *SKU*      
     Stock Keeping Unit. Identification number for the variant. Click this field to edit the SKU of the selected variant.
 
-- Defining attribute     
+- *"Defining attribute name"*     
     You can add a column for each defining attribute. The column displays the attribute name, the row displays the corresponding attribute value. These fields are read-only.
 
 - [< GO BACK]   
@@ -545,9 +551,9 @@ The list displays all products. All fields are read-only.
     Click the drop-down list to change the change tracking mode (ETL mode) of the offer. The currently selected change tracking mode is displayed in the *Change tracking mode* column. This drop-down list is only displayed if the checkbox of one offer is selected. The following options are available:    
     - **Manual**   
         Changes in a PIM product must be triggered manually to be applied to the offer. The initial offer is automatically applied.
-    - **Semi-automatic**   
+    - **Semiautomatic**   
         Changes in a PIM product are automatically applied to the offer after confirmation. The initial offer is automatically applied without confirmation.   
-    - **Semi-automatic, changes must be confirmed by another user**   
+    - **Semiautomatic, changes must be confirmed by another user**   
         Changes in a PIM product are automatically applied to the offer after confirmation by another user. The initial offer is only applied after confirmation by another user.       
     - **Automatic**   
         Changes in a PIM product are automatically applied to the offer. The initial offer is also automatically applied.
@@ -588,8 +594,8 @@ The list displays all created offers to this product. All fields are read-only.
 - *Change tracking mode*   
     Change tracking mode (ETL mode) of the offer. The following options are available:
     - **Manual**
-    - **Semi-automatic**
-    - **Semi-automatic, changes must be confirmed by another user**   
+    - **Semiautomatic**
+    - **Semiautomatic, changes must be confirmed by another user**   
     - **Automatic**
 
 - *ID*   
@@ -643,13 +649,13 @@ The list displays all created offers to this product. All fields are read-only.
 
 [comment]: <> (offer or product? how does this work? When I enter a different SKU, The SKU is automatically overwritten)
 
-- *Change tracking mode*   
-    Select the appropriate option for the change tracking mode (ETL mode). The following options are available:   
+- Change tracking mode   
+    Select the appropriate change tracking mode (ETL mode). The following options are available:   
     - ![Radiobutton](../../Assets/Icons/Radiobutton.png "[Radiobutton]") *Manual*   
         Changes in a PIM product must be triggered manually to be applied to the offer. The initial offer is automatically applied.   
-    - ![Radiobutton](../../Assets/Icons/Radiobutton.png "[Radiobutton]") *Semi-automatic*   
+    - ![Radiobutton](../../Assets/Icons/Radiobutton.png "[Radiobutton]") *Semiautomatic*   
         Changes in a PIM product are automatically applied to the offer after confirmation. The initial offer is automatically applied without confirmation.   
-    - ![Radiobutton](../../Assets/Icons/Radiobutton.png "[Radiobutton]") *Semi-automatic, changes must be confirmed by another user*   
+    - ![Radiobutton](../../Assets/Icons/Radiobutton.png "[Radiobutton]") *Semiautomatic, changes must be confirmed by another user*   
         Changes in a PIM product are automatically applied to the offer after confirmation by another user. The initial offer is only applied after confirmation by another user.    
     - ![Radiobutton](../../Assets/Icons/Radiobutton.png "[Radiobutton]") *Automatic*   
         Changes in a PIM product are automatically applied to the offer. The initial offer is also automatically applied.
@@ -696,13 +702,13 @@ The wizard to create offers for multiple connections is started. The wizard is c
     - **Offline**   
         The offer is unknown to the selected connection and cannot be sold there.
 
-- Change tracking mode
-    Select the appropriate option for the change tracking mode (ETL mode). The following options are available:   
+- *Change tracking mode*   
+    Select the appropriate change tracking mode (ETL mode). The following options are available:   
     - ![Radiobutton](../../Assets/Icons/Radiobutton.png "[Radiobutton]") *Manual*   
         Changes in a PIM product must be triggered manually to be applied to the offer. The initial offer is automatically applied.   
-    - ![Radiobutton](../../Assets/Icons/Radiobutton.png "[Radiobutton]") *Semi-automatic*   
+    - ![Radiobutton](../../Assets/Icons/Radiobutton.png "[Radiobutton]") *Semiautomatic*   
         Changes in a PIM product are automatically applied to the offer after confirmation. The initial offer is automatically applied without confirmation.   
-    - ![Radiobutton](../../Assets/Icons/Radiobutton.png "[Radiobutton]") *Semi-automatic, changes must be confirmed by another user*   
+    - ![Radiobutton](../../Assets/Icons/Radiobutton.png "[Radiobutton]") *Semiautomatic, changes must be confirmed by another user*   
         Changes in a PIM product are automatically applied to the offer after confirmation by another user. The initial offer is only applied after confirmation by another user.    
     - ![Radiobutton](../../Assets/Icons/Radiobutton.png "[Radiobutton]") *Automatic*   
         Changes in a PIM product are automatically applied to the offer. The initial offer is also automatically applied.
@@ -788,7 +794,7 @@ The wizard to create offers for multiple connections is started. The wizard is c
 - *Sets*   
     Click the drop-down list to change the attribute set for the product. All available attribute sets are displayed in the drop-down list. The currently selected attribute set is highlighted in bold.
 
-    > [Caution] Changing the attribute set can cause a loss of data. Therefore, a confirmation window is displayed to confirm the attribute set change. It is recommended not to change the attribute set subsequently. Note that the change cannot be undone once you have saved the changes.
+    > [Caution] Changing the attribute set may cause a loss of data. Therefore, a confirmation window is displayed to confirm the attribute set change. It is recommended not to change the attribute set subsequently. Note that the change cannot be undone once you have saved the changes.
 
 
 ### Completeness
@@ -807,7 +813,7 @@ The wizard to create offers for multiple connections is started. The wizard is c
 
     > [Info] The product completeness for the selected language is only displayed in the *Completeness* window. The [COMPLETE] button in the *Edit Product* view is not affected by this change.
 
-- Percentage   
+- *"Completeness in percentage"*   
     The current percentage for the product completeness of the selected channel and language is displayed. The percentage is automatically updated when you select a different channel or language.
 
 
@@ -820,10 +826,16 @@ The wizard to create offers for multiple connections is started. The wizard is c
 
 In the left margin column, all available attribute groups are displayed. Click an attribute group to display the attributes that are assigned to this group on the right side of the *Attributes* tab. If the product contains attributes that are unassigned, the *Unassigned group* attribute group is automatically displayed in the left margin column.
 
+- ![Folders](../../Assets/Icons/Folders01.png "[Folders]") (Folders)  
+    Attribute group that contains attribute sub-groups. Click the attribute group or the arrow left to the attribute group to unfold the group and display the attribute sub-groups.
+
+- ![Folder](../../Assets/Icons/Folder01.png "[Folder]") (Folder)  
+    Attribute group. Click the attribute group to display all attributes that are assigned to the selected attribute group on the right side of the *Attributes* tab.
+
 The right side of the *Attributes* tab displays all attributes that are assigned to the selected group in the left margin column.
 
-- ![Fade in/out](../../Assets/Icons/FadeInOut01.png "[Fade in/out]") (Fade in/out)    
-    Click this button to hide or display the left margin column with the attribute groups. When the left margin is displayed and you click this button, the column is hidden. When the column is hidden and you click this button, the column is displayed again.
+- ![Collapse/Expand](../../Assets/Icons/CollapseExpand01.png "[Collapse/Expand]") (Collapse/Expand)    
+    Click this button to collapse or expand the left margin column with the attribute groups. When the left margin is expanded and you click this button, the column is collapsed. When the column is collapsed and you click this button, the column is expanded.
 
 
 
@@ -875,7 +887,7 @@ The list displays all variants. All fields are read-only. Depending on the setti
 - *ID*   
     Variant identification number. The ID number is automatically assigned by the system after saving. In the *Create product* view, no ID is displayed.
 
-- Defining/changeable attribute    
+- *"Defining/changeable attribute name"*    
     You can add a column for each attribute that is assigned as a defining or changeable attribute to the selected variant set. The column displays the attribute name, the row displays the attribute value.
 
 - ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add)   
@@ -916,7 +928,7 @@ The list displays all variants. All fields are read-only. Depending on the setti
 
 All defining attributes of the variant are displayed in this section.
 
-- Defining attribute   
+- *"Defining attribute name"*   
     Enter or select the appropriate value for the defining attribute.
 
 - [CANCEL]   
@@ -982,7 +994,7 @@ The list displays all selected variants. Depending on the settings, the displaye
 - *SKU*      
     Stock Keeping Unit. Identification number for the variant. Click this field to edit the SKU of the selected variant.
 
-- Defining attribute   
+- *"Defining attribute name"*   
     You can add a column for each defining attribute. The column displays the attribute name, the row displays the corresponding attribute value. These fields are read-only.
 
 - [< GO BACK]   
@@ -1024,8 +1036,8 @@ The list displays all dependencies of the selected product. All fields are read-
 - *Change tracking mode*   
     Change tracking mode (ETL mode) of the dependent entity. The following options are available:
     - **Manual**
-    - **Semi-automatic**
-    - **Semi-automatic, changes must be confirmed by another user**   
+    - **Semiautomatic**
+    - **Semiautomatic, changes must be confirmed by another user**   
     - **Automatic**
 
 - *Dependent entity friendly identifier*   
@@ -1044,9 +1056,9 @@ The list displays all dependencies of the selected product. All fields are read-
 
 The *Completeness* tab displays the completeness of the product for the different languages and channels. A single box is displayed for each active channel. The tab is only displayed if the completeness of the product has been calculated and is displayed in the header section of the *Edit product* view. Consequently, the tab is never displayed in the *Create product* view.
 
-- Channel name   
+- *"Channel name (Completeness in percentage)"*   
     This box displays the percentage for the product completeness of the selected product regarding the assigned channel.
-    - Language   
+    - *"Language(s) name (Completeness in percentage)"*   
         The box displays the percentage for the product completeness of the selected product regarding the assigned channel and language. A single percentage is displayed for each available language for one channel.
 
     - ![Info](../../Assets/Icons/Info.png "[Info]") (Info)   
@@ -1246,7 +1258,7 @@ The list displays the single entries of the selected product change. All fields 
     Name of the channel to which the change was made.
 
 - *Language name*   
-    Name of the language to which the change was made
+    Name of the language to which the change was made.
 
 - *Old value*   
     Attribute value before change. If the field is empty, no value was set for this attribute before the change.  
@@ -1289,9 +1301,9 @@ The list displays the single entries of the selected product change. All fields 
     Click the drop-down list to change the change tracking mode (ETL mode) of the offer. The currently selected change tracking mode is displayed in the *Change tracking mode* column. This drop-down list is only displayed if the checkbox of one offer is selected. The following options are available:    
     - **Manual**   
         Changes in a PIM product must be triggered manually to be applied to the offer. The initial offer is automatically applied.
-    - **Semi-automatic**   
+    - **Semiautomatic**   
         Changes in a PIM product are automatically applied to the offer after confirmation. The initial offer is automatically applied without confirmation.   
-    - **Semi-automatic, changes must be confirmed by another user**   
+    - **Semiautomatic, changes must be confirmed by another user**   
         Changes in a PIM product are automatically applied to the offer after confirmation by another user. The initial offer is only applied after confirmation by another user.       
     - **Automatic**   
         Changes in a PIM product are automatically applied to the offer. The initial offer is also automatically applied.
@@ -1338,8 +1350,8 @@ The list displays all created offers to this product. All fields are read-only.
 - *Change tracking mode*   
     Change tracking mode (ETL mode) of the offer. The following options are available:
     - **Manual**
-    - **Semi-automatic**
-    - **Semi-automatic, changes must be confirmed by another user**   
+    - **Semiautomatic**
+    - **Semiautomatic, changes must be confirmed by another user**   
     - **Automatic**
 
 - *ID*   
@@ -1394,12 +1406,12 @@ The list displays all created offers to this product. All fields are read-only.
 [comment]: <> (offer or product? how does this work? When I enter a different SKU, The SKU is automatically overwritten)
 
 - *Change tracking mode*   
-    Select the appropriate option for the change tracking mode (ETL mode). The following options are available:   
+    Select the appropriate change tracking mode (ETL mode). The following options are available:   
     - ![Radiobutton](../../Assets/Icons/Radiobutton.png "[Radiobutton]") *Manual*   
         Changes in a PIM product must be triggered manually to be applied to the offer. The initial offer is automatically applied.   
-    - ![Radiobutton](../../Assets/Icons/Radiobutton.png "[Radiobutton]") *Semi-automatic*   
+    - ![Radiobutton](../../Assets/Icons/Radiobutton.png "[Radiobutton]") *Semiautomatic*   
         Changes in a PIM product are automatically applied to the offer after confirmation. The initial offer is automatically applied without confirmation.   
-    - ![Radiobutton](../../Assets/Icons/Radiobutton.png "[Radiobutton]") *Semi-automatic, changes must be confirmed by another user*   
+    - ![Radiobutton](../../Assets/Icons/Radiobutton.png "[Radiobutton]") *Semiautomatic, changes must be confirmed by another user*   
         Changes in a PIM product are automatically applied to the offer after confirmation by another user. The initial offer is only applied after confirmation by another user.    
     - ![Radiobutton](../../Assets/Icons/Radiobutton.png "[Radiobutton]") *Automatic*   
         Changes in a PIM product are automatically applied to the offer. The initial offer is also automatically applied.
@@ -1433,7 +1445,7 @@ The wizard to create offers for multiple connections is started. The wizard is c
 
 *PIM > Products > Select product > Tab Offers > Button Add > Button Add to multiple connections > Wizard window Select connections and status*
 
-![Add to multiple connections](../../Assets/Screenshots/PIM/Products/List/Offers/MultipleConnections01.png "[Add to multiple connections]")
+![Select connections and status](../../Assets/Screenshots/PIM/Products/List/Offers/SelectConnectionsStatus.png "[Select connections and status]")
 
 **Select status and change tracking mode**
 
@@ -1446,12 +1458,13 @@ The wizard to create offers for multiple connections is started. The wizard is c
     - **Offline**   
         The offer is unknown to the marketplace and therefore cannot be sold there.
 
-- Select the appropriate change tracking mode. The following options are available:   
+- Change tracking mode   
+    Select the appropriate change tracking mode (ETL mode). The following options are available:   
     - ![Radiobutton](../../Assets/Icons/Radiobutton.png "[Radiobutton]") *manual*   
         Changes in a PIM product must be triggered manually to be applied to the offer. The initial offer is automatically applied.   
-    - ![Radiobutton](../../Assets/Icons/Radiobutton.png "[Radiobutton]") *semi-automatic*   
+    - ![Radiobutton](../../Assets/Icons/Radiobutton.png "[Radiobutton]") *semiautomatic*   
         Changes in a PIM product are automatically applied to the offer after confirmation in the *Omni-Channel* module. The initial offer is automatically applied without confirmation.   
-    - ![Radiobutton](../../Assets/Icons/Radiobutton.png "[Radiobutton]") *semi-automatic, changes must be confirmed by another user*   
+    - ![Radiobutton](../../Assets/Icons/Radiobutton.png "[Radiobutton]") *semiautomatic, changes must be confirmed by another user*   
         Changes in a PIM product are automatically applied to the offer after confirmation in the *Omni-Channel* module by another user. The initial offer is only applied after confirmation by another user.    
     - ![Radiobutton](../../Assets/Icons/Radiobutton.png "[Radiobutton]") *automatic*   
         Changes in a PIM product are automatically applied to the offer. The initial offer is also automatically applied.
@@ -1475,7 +1488,7 @@ The wizard to create offers for multiple connections is started. The wizard is c
 
 *PIM > Products > Select product > Tab Offers > Button Add > Button Add to multiple connections > Wizard window Select destination attribute sets*
 
-![Add to multiple connections](../../Assets/Screenshots/PIM/Products/List/Offers/MultipleConnections02.png "[Add to multiple connections]")
+![Select destination attribute sets](../../Assets/Screenshots/PIM/Products/List/Offers/SelectDestinationAttributeSets.png "[Select destination attribute sets]")
 
 - *Destination attribute set for connection*   
     Destination attribute set for the selected connection. The attribute set is automatically selected. This field is read-only. An own attribute set is assigned to each selected connection.

@@ -10,7 +10,7 @@
 
 **Catalogs**
 
-- Catalog name   
+- *"Catalog name"*   
     Click the drop-down list to select a catalog. All available catalogs are displayed in the drop-down list. By default, the catalog **Product Categories** is preselected.
 
 - ![Points](../../Assets/Icons/Points01.png "[Points]") (Points)  
@@ -40,7 +40,7 @@
 - ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)   
     Click this button to cancel creating a catalog. The *Create new catalog* is closed.
 
-- Catalog name   
+- *"Catalog name"*   
     Enter a catalog name.
 
 - [CANCEL]   
@@ -64,13 +64,13 @@ The following buttons and fields are only displayed when you have added a catego
 - ![Edit](../../Assets/Icons/Edit03.png "[Edit]") (Edit)   
     Click this button to edit the selected category. The category data is displayed. This button is only displayed if you hover over the category.
 
-- First level category   
+- *First level category name*   
     Top level category. Click the category to display the second level column and all assigned sub-categories. Hover over the category to display the ![Edit](../../Assets/Icons/Edit03.png "[Edit]") (Edit) button.
 
-- Second level category   
+- *"Second level category name"*   
     Sub-category to the selected first level category. Click the category to display the third level column and all assigned sub-categories. Hover over the category to display the ![Edit](../../Assets/Icons/Edit03.png "[Edit]") (Edit) button.
 
-- x level category   
+- *"x level category name"*   
     Sub-category to the selected category. Click the category to display the next lower level column and all assigned sub-categories. Hover over the category to display the ![Edit](../../Assets/Icons/Edit03.png "[Edit]") (Edit) button.
 
 
@@ -84,7 +84,7 @@ The following buttons and fields are only displayed when you have added a catego
 - ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)   
     Click this button to cancel editing the selected catalog. The *Edit catalog* view is closed.
 
-- Catalog name   
+- *"Catalog name"*   
     Click this field to edit the catalog name.
 
 - [CANCEL]   
@@ -99,13 +99,13 @@ The following buttons and fields are only displayed when you have added a catego
 - ![Edit](../../Assets/Icons/Edit03.png "[Edit]") (Edit)   
     Click this button to edit the selected category. The category data is displayed. This button is only displayed if you hover over the category.
 
-- First level category   
+- *"First level category name"*   
     Top level category. Click the category to display the second level column and all assigned sub-categories. Hover over the category to display the ![Edit](../../Assets/Icons/Edit03.png "[Edit]") (Edit) button.
 
-- Second level category   
+- *"Second level category name"*   
     Sub-category to the selected first level category. Click the category to display the third level column and all assigned sub-categories. Hover over the category to display the ![Edit](../../Assets/Icons/Edit03.png "[Edit]") (Edit) button.
 
-- x level category   
+- *"x level category name"*   
     Sub-category to the selected category. Click the category to display the next level column and all assigned sub-categories. Hover over the category to display the ![Edit](../../Assets/Icons/Edit03.png "[Edit]") (Edit) button.
 
 - ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add)   

@@ -94,7 +94,7 @@ The list displays all attribute sets. Depending on the settings, the displayed c
 - ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)   
     Click this button to close the *Create attribute set* view and return to the attribute set list. All changes are rejected.
 
-- Language      
+- *"Language name"*      
     Click the drop-down list and select the system language in which the *Name (Language)* and *Description (Language)* fields are displayed. By default, the following options are available:
     - **English (United States)**
     - **Deutsch (Deutschland)**
@@ -166,7 +166,7 @@ In the *Create attribute set* view, no attributes are displayed in the list. You
 - ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)   
     Click this button to close the *Edit attribute set* view and return to the attribute set list. All changes are rejected.
 
-- Language      
+- *"Language name"*      
     Click the drop-down list and select the system language in which the *Name (Language)* and *Description (Language)* fields are displayed. By default, the following options are available:
     - **English (United States)**
     - **Deutsch (Deutschland)**
@@ -330,7 +330,7 @@ This view equals the attribute mapping in the *DataHub* module: *DataHub > Setti
 - ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)   
     Click this button to close the *Edit mapping* view and return to *Edit attribute set* view. All changes are rejected.
 
-- Destination attribute   
+- *"Destination attribute name"*   
     The selected destination attribute is displayed in the arrow box on the right side of the view. This field is read-only.
 
 - *Language*   
@@ -348,9 +348,9 @@ This view equals the attribute mapping in the *DataHub* module: *DataHub > Setti
         The mapping configured in the dependency of the specific entities is applied.
     - **Automatic**   
         The initial mapping is automatically applied. All value changes or reruns are applied automatically in the mapping.  
-    - **Semi-automatic**   
+    - **Semiautomatic**   
         The initial mapping is automatically applied. Values changes or reruns are applied after confirmation.
-    - **Semi-automatic, changes must be confirmed by another user**   
+    - **Semiautomatic, changes must be confirmed by another user**   
         The initial mapping as well as values changes or reruns are applied after confirmation by another user.
     - **Manual**   
         The initial mapping is automatically applied. Afterwards, the changes in the mapping must be triggered manually to be applied.

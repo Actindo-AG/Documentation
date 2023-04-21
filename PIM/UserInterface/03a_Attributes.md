@@ -105,7 +105,7 @@ The list displays all attributes. Depending on the settings, the displayed colum
 - ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)   
     Click this button to close the *Create attribute* view and return to the attributes list. All changes are rejected.
 
-- Language      
+- *"Language name"*      
     Click the drop-down list and select the system language in which the *Name (Language)* and *Description (Language)* fields are displayed. By default, the following options are available:
     - **English (United States)**
     - **Deutsch (Deutschland)**
@@ -166,7 +166,7 @@ As some data types have no further configuration settings, no *CONFIGURATION* se
 - ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)   
     Click this button to close the *Edit attribute* view and return to the attributes list. All changes are rejected.
 
-- Language      
+- *"Language name"*      
     Click the drop-down list and select the system language in which the *Name (Language)* and *Description (Language)* fields are displayed. By default, the following options are available:
     - **English (United States)**
     - **Deutsch (Deutschland)**

@@ -1,4 +1,4 @@
-# Key Features
+# Key features
 
 Intelligent product data management for all sales channels:
 
