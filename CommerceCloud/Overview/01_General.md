@@ -9,10 +9,10 @@ This documentation refers to *Salesforce Commerce Cloud* plugin version 1.3.1. T
 
 The Actindo *Salesforce Commerce Cloud* plugin offers the following benefits:
 
-- Upload of offers using XML and triggered import jobs
-- Order import via parallel jobs
-- Automatic order status updates
-- Support of staging and productive system
+- upload of offers using XML and triggered import jobs
+- order import via parallel jobs
+- automatic order status updates
+- support of staging and productive system
 
 
 ## Prerequisites

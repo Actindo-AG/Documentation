@@ -8,7 +8,7 @@
 ## How it works
 
 **Marketplace offers**   
-Marketplace offers including variants, product options & attributes are transferred from Actindo to Salesforce Commerce Cloud.
+Marketplace offers including variants, product options and attributes are transferred from Actindo to Salesforce Commerce Cloud.
 
 **Product bundles**   
 Product bundles are imported from Salesforce Commerce Cloud to Actindo.

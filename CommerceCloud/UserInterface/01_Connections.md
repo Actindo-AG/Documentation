@@ -1,4 +1,4 @@
-[!!Manage the Salesforce Commerce Cloud connection](../Integration/01_ManageSalesforceConnection.md)
+[!!Manage the Salesforce Commerce Cloud connection](../Integration/02_ManageSalesforceConnection.md)
 [!!Salesforce Commerce Cloud product data particularities](../Integration/03_SalesforceParticularities.md)
 
 # Connections (Salesforce Commerce Cloud)
@@ -156,7 +156,7 @@ The list displays all available connections. Depending on the settings, the disp
 
 **Credentials**
 
-![Create connection](../../Assets/Screenshots/Channels/Settings/Connections/CommerceCloud/CreateConnectionCredentials.png "[Create connection]")
+![Create Salesforce Commerce Cloud credentials](../../Assets/Screenshots/Channels/Settings/Connections/CommerceCloud/CreateConnectionCredentials.png "[Create Salesforce Commerce Cloud credentials]")
 
 - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Production mode*   
     Enable this toggle to activate the live environment for the Salesforce Commerce Cloud shop. Disable the toggle to use only the staging environment. In this case, you do not need to enter any credentials in the fields with the *(Production)* addition as they will be ignored anyway. By default, this toggle is disabled.
@@ -167,7 +167,7 @@ The list displays all available connections. Depending on the settings, the disp
     Enter the shop URL of the production environment.
 
 - *Client ID (Production)*   
-    Enter the client ID for the production environment.The client ID will be provided to you by your Salesforce Commerce Cloud shop agency.
+    Enter the client ID for the production environment. The client ID will be provided to you by your Salesforce Commerce Cloud shop agency.
 
 - *Client password (Production)*   
     Enter the client password for the production environment. The client password will be provided to you by your Salesforce Commerce Cloud shop agency.
@@ -185,7 +185,7 @@ The list displays all available connections. Depending on the settings, the disp
     Enter the shop URL of the staging environment.
 
 - *Client ID*   
-    Enter the client ID for the staging environment.The client ID will be provided to you by your Salesforce Commerce Cloud shop agency.
+    Enter the client ID for the staging environment. The client ID will be provided to you by your Salesforce Commerce Cloud shop agency.
 
 - *Client password*   
     Enter the client password for the staging environment. The client password will be provided to you by your Salesforce Commerce Cloud shop agency.
@@ -246,7 +246,7 @@ The list displays all available connections. Depending on the settings, the disp
     Click the field to edit the shop URL of the production environment.
 
 - *Client ID (Production)*   
-    Click the field to edit the client ID for the production environment.The client ID will be provided to you by your Salesforce Commerce Cloud shop agency.
+    Click the field to edit the client ID for the production environment. The client ID will be provided to you by your Salesforce Commerce Cloud shop agency.
 
 - *Client password (Production)*   
     Click the field to edit the client password for the production environment. The client password will be provided to you by your Salesforce Commerce Cloud shop agency.
@@ -264,7 +264,7 @@ The list displays all available connections. Depending on the settings, the disp
     Click the field to edit the shop URL of the staging environment.
 
 - *Client ID*   
-    Click the field to edit the client ID for the staging environment.The client ID will be provided to you by your Salesforce Commerce Cloud shop agency.
+    Click the field to edit the client ID for the staging environment. The client ID will be provided to you by your Salesforce Commerce Cloud shop agency.
 
 - *Client password*   
     Click the field to edit the client password for the staging environment. The client password will be provided to you by your Salesforce Commerce Cloud shop agency.
@@ -314,7 +314,7 @@ The *Settings* tab is composed of the following setting entries:
 
 **Price books**
 
-- [SAVE]  
+- [Save]  
     Click this button to save any changes made.
 
 - *ID*    
@@ -327,7 +327,7 @@ The *Settings* tab is composed of the following setting entries:
     Click this button to delete the corresponding price book.
 
 - ![Add](../../Assets/Icons/Plus04.png "[Add]") (Add)     
-    Click this button to add a new entry line for another price book. You can add an unlimited number of price books.
+    Click this button to add a new input line for another price book. You can add an unlimited number of price books.
 
 
 ### Payment methods
@@ -338,7 +338,7 @@ The *Settings* tab is composed of the following setting entries:
 
 **Payment methods**
 
-- [SAVE]  
+- [Save]  
     Click this button to save any changes made.
 
 - *ID*    
@@ -351,7 +351,7 @@ The *Settings* tab is composed of the following setting entries:
     Click this button to delete the corresponding payment method.
 
 - ![Add](../../Assets/Icons/Plus04.png "[Add]") (Add)   
-    Click this button to add a new entry line for another payment method. You can add an unlimited number of payment methods.
+    Click this button to add a new input line for another payment method. You can add an unlimited number of payment methods.
 
 
 ### Upload mode
@@ -363,9 +363,9 @@ The *Settings* tab is composed of the following setting entries:
 **Upload mode**
 
 - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Apply from default*   
-    Enable this toggle to apply the default value to the upload mode. The default value is displayed read-only in the field after activation. Disable the toggle to unlock the *Upload mode* field. By default, this toggle is disabled.
+    Enable this toggle to apply the default value to the upload mode. The default value is displayed read-only in the field after activation. Disable the toggle to unlock the *Upload mode* drop-down list. By default, this toggle is disabled.
 
-- [SAVE]  
+- [Save]  
     Click this button to save any changes made.
 
 - *Upload mode*   
@@ -394,10 +394,10 @@ The *Settings* tab is composed of the following setting entries:
 
 **Tax classes**
 
-- [SAVE]  
+- [Save]  
     Click this button to save any changes made.
 
-- *Commerce Cloud ID*    
+- *Commerce Cloud Code*    
     Enter the Salesforce Commerce Cloud ID for the tax class. The Salesforce Commerce Cloud tax class IDs are available in Salesforce Commerce Cloud: *Merchant Tools > Ordering > Taxation*
 
 - *Actindo ID*   
@@ -409,7 +409,7 @@ The *Settings* tab is composed of the following setting entries:
     Click this button to delete the corresponding tax class.
 
 - ![Add](../../Assets/Icons/Plus04.png "[Add]") (Add)   
-    Click this button to add a new entry line for another tax class. You can add an unlimited number of tax classes. 
+    Click this button to add a new input line for another tax class. You can add an unlimited number of tax classes. 
 
 
 ### Ignored product attributes
@@ -423,7 +423,7 @@ The *Settings* tab is composed of the following setting entries:
 - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Apply from default*    
     Enable this toggle to apply the default value to the product attributes. The default value is displayed read-only in the fields after activation. Disable the toggle to unlock the *SFCC attribute ID* field(s). By default, this toggle is disabled.
 
-- [SAVE]  
+- [Save]  
     Click this button to save any changes made.
 
 - *SFCC attribute ID*    
@@ -435,7 +435,7 @@ The *Settings* tab is composed of the following setting entries:
     Click this button to delete the corresponding attribute.
 
 - ![Add](../../Assets/Icons/Plus04.png "[Add]") (Add)   
-    Click this button to add a new entry line for another attribute. You can add an unlimited number of attributes. 
+    Click this button to add a new input line for another attribute. You can add an unlimited number of attributes. 
 
 
 ### Default language
@@ -446,7 +446,7 @@ The *Settings* tab is composed of the following setting entries:
 
 **Default language**
 
-- [SAVE]  
+- [Save]  
     Click this button to save any changes made.
 
 - *Language used for default value*    
@@ -464,7 +464,7 @@ The *Settings* tab is composed of the following setting entries:
 - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Apply from default*    
     Enable this toggle to apply the default value to the variation attributes. The default value is displayed read-only in the fields after activation. Disable the toggle to unlock the *SFCC attribute ID* field(s). By default, this toggle is disabled.
 
-- [SAVE]  
+- [Save]  
     Click this button to save any changes made.
 
 - *SFCC attribute ID*    
@@ -476,7 +476,7 @@ The *Settings* tab is composed of the following setting entries:
     Click this button to delete the corresponding attribute.
 
 - ![Add](../../Assets/Icons/Plus04.png "[Add]") (Add)   
-    Click this button to add a new entry line for another attribute. You can add an unlimited number of attributes. 
+    Click this button to add a new input line for another attribute. You can add an unlimited number of attributes. 
 
 
 ### View types
@@ -491,7 +491,7 @@ The *Settings* tab is composed of the following setting entries:
 
 [comment]: <> (Stimmt das so? Ändern, sobald image upload unterstützt!)
 
-- [SAVE]  
+- [Save]  
     Click this button to save any changes made.
 
 - *View type*   
@@ -501,7 +501,7 @@ The *Settings* tab is composed of the following setting entries:
     Click this button to delete the corresponding view type.
 
 - ![Add](../../Assets/Icons/Plus04.png "[Add]") (Add)   
-    Click this button to add a new entry line for another view type. You can add an unlimited number of view types. 
+    Click this button to add a new input line for another view type. You can add an unlimited number of view types. 
 
 
 ### Job ID data import
@@ -515,7 +515,7 @@ The *Settings* tab is composed of the following setting entries:
 - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Apply from default*  
     Enable this toggle to apply the default value to the job ID for the data import. The default value is displayed read-only in the fields after activation. Disable the toggle to unlock the *Job ID data import* field. By default, this toggle is disabled.
 
-- [SAVE]  
+- [Save]  
     Click this button to save any changes made.
 
 - *Job ID data import*    
@@ -533,7 +533,7 @@ The *Settings* tab is composed of the following setting entries:
 - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Apply from default*  
     Enable this toggle to apply the default value to the job ID for the inventory import. The default value is displayed read-only in the fields after activation. Disable the toggle to unlock the *Job ID inventory import* field. By default, this toggle is disabled.
 
-- [SAVE]  
+- [Save]  
     Click this button to save any changes made.
 
 - *Job ID inventory import*    
@@ -551,7 +551,7 @@ The *Settings* tab is composed of the following setting entries:
 - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Apply from default*  
     Enable this toggle to apply the default value to the order status fields. The default value is displayed read-only in the fields after activation. Disable the toggle to unlock the status fields. By default, this toggle is disabled.
 
-- [SAVE]  
+- [Save]  
     Click this button to save any changes made.
 
 - *Field for orders status*    
@@ -574,7 +574,7 @@ The *Settings* tab is composed of the following setting entries:
 
 **Upload stock only**
 
-- [SAVE]  
+- [Save]  
     Click this button to save any changes made.
 
 - [x] *Upload stock only*   
@@ -592,7 +592,7 @@ The *Settings* tab is composed of the following setting entries:
 - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Apply from default*  
     Enable this toggle to apply the default value to the order search query. The default value is displayed read-only in the fields after activation. Disable the toggle to unlock the text area for a custom query. By default, this toggle is disabled.
 
-- [SAVE]  
+- [Save]  
     Click this button to save any changes made.
 
 - Text area    
@@ -610,7 +610,7 @@ The *Settings* tab is composed of the following setting entries:
 - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Apply from default*  
     Enable this toggle to apply the default value to the number of parallel jobs. The default value is displayed read-only in the fields after activation. Disable the toggle to unlock the *Number of parallel jobs* field. By default, this toggle is disabled.
 
-- [SAVE]  
+- [Save]  
     Click this button to save any changes made.
 
 - *Number of parallel jobs*    
@@ -628,9 +628,10 @@ The *Settings* tab is composed of the following setting entries:
 **Custom inventory fields**
 
 - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Apply from default*  
+    Enable this toggle to apply the default value to the custom inventory fields. The default value is displayed read-only in the fields after activation. By default, this toggle is disabled.
 
-- [SAVE]  
+- [Save]  
     Click this button to save any changes made.
 
 - [x] *Handle inventory custom field*   
-    Select the checkbox to import the custom inventory fields from Salesforce Commerce Cloud and also maintain them in Actindo.
+    Select the checkbox to import the custom inventory fields from Salesforce Commerce Cloud and also maintain them in Actindo. Leave the checkbox unchecked to ignore any custom inventory fields from Salesforce Commerce Cloud.
