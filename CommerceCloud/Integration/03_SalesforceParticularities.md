@@ -1,7 +1,7 @@
 [!!Manage the Salesforce Commerce Cloud connection](./02_ManageSalesforceConnection.md)
 [!!Manage the connections in Omni-Channel](../../Channels/Integration/01_ManageConnections.md)
 [!!Manage the ETL mappings in DataHub](../../DataHub/Operation/01_ManageETLMappings.md)
-[!!User interface Connections](../UserInterface/01_Connections.md)
+[!!User interface Connections (Salesforce Commerce Cloud)](../UserInterface/01_Connections.md)
 
 # Salesforce Commerce Cloud product data particularities
 

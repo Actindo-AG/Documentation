@@ -1,8 +1,10 @@
+[!!Manage the Salesforce Commerce Cloud connection](./02_ManageSalesforceConnection.md)
+
 # Configure the Salesforce Commerce Cloud Business Manager
 
-Before a Salesforce Commerce Cloud connection can be established, the following two configuration processes must be performed in the Salesforce Commerce Cloud Business Manager.  
+Before a Salesforce Commerce Cloud connection can be established, the following two configuration processes must be performed in the *Salesforce Commerce Cloud Business Manager*.  
 
-In Salesforce Commerce Cloud, data are uploaded to Commerce Cloud via WebDAV. The data are then imported with a job into the shop. There are two jobs, one for inventory import and one for data import.   
+In Salesforce Commerce Cloud, data are uploaded to Salesforce Commerce Cloud via WebDAV. The data are then imported with a job into the shop. There are two jobs, one for inventory import and one for data import.   
 Please note that these two jobs must be configured in your Salesforce Commerce Cloud account in the exact order and using the specified values as described below.
 
 

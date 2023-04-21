@@ -1,6 +1,7 @@
 [!!Manage the Salesforce Commerce Cloud connection](../Integration/01_ManageSalesforceConnection.md)
+[!!Salesforce Commerce Cloud product data particularities](../Integration/03_SalesforceParticularities.md)
 
-# Connections
+# Connections (Salesforce Commerce Cloud)
 
 *Omni-Channel > Settings > Tab CONNECTIONS*
 

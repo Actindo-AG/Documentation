@@ -1,4 +1,4 @@
-# Key Features
+# Key features
 
 - Control of product data intervals from Actindo.
 - Support of the variant and option model of the Salesforce Commerce Cloud.
