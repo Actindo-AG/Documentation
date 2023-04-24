@@ -212,12 +212,12 @@ The list displays all returns, either for all connections or for the selected co
 [comment]: <> (Button umbenennen in RETRY IMPORT -> Konsistenz! -> FETA-16)
 
 The *Return from connection "Connection name"* view is composed of the following tabs:
-- [Return from connection "Connection name" &ndash; Attributes](#return-from-connection-connection-name--attributes)
-- [Return from connection "Connection name" &ndash; Dependencies](#return-from-connection-connection-name--dependencies)
-- [Return from connection "Connection name" &ndash; Line items](#return-from-connection-connection-name--line-items)
-- [Return from connection "Connection name" &ndash; Shipments](#return-from-connection-connection-name--shipments)
-- [Return from connection "Connection name" &ndash; Cancellations](#return-from-connection-connection-name--cancellations)
-- [Return from connection "Connection name" &ndash; Errors](#return-from-connection-connection-name--errors)
+- [Return from connection "Connection name" &ndash; Attributes](#return-from-connection-connection-name-–-attributes)
+- [Return from connection "Connection name" &ndash; Dependencies](#return-from-connection-connection-name-–-dependencies)
+- [Return from connection "Connection name" &ndash; Line items](#return-from-connection-connection-name-–-line-items)
+- [Return from connection "Connection name" &ndash; Shipments](#return-from-connection-connection-name-–-shipments)
+- [Return from connection "Connection name" &ndash; Cancellations](#return-from-connection-connection-name-–-cancellations)
+- [Return from connection "Connection name" &ndash; Errors](#return-from-connection-connection-name-–-errors)
 
 
 
@@ -376,8 +376,8 @@ The list displays all line items of the selected return. Depending on the settin
     Click this button to close the *Line item* view.
 
 The *Line item* view is composed of the following tabs:
-- [Line item &ndash; Attributes](#line-item--attributes)
-- [Line item &ndash; Dependencies](#line-item--dependencies)
+- [Line item &ndash; Attributes](#line-item-–-attributes)
+- [Line item &ndash; Dependencies](#line-item-–-dependencies)
 
 
 ### Line item &ndash; Attributes
@@ -510,9 +510,9 @@ The list displays all shipments for the selected return. Depending on the settin
     Click this button to close the *Shipment for return "Return ID"* view.
 
 The *Shipment for return "Return ID"* view is composed of the following tabs:
-- [Shipment for return "Return ID" &ndash; Attributes](#shipment-for-return-return-id--attributes)
-- [Shipment for return "Return ID" &ndash; Dependencies](#shipment-for-return-return-id--dependencies)
-- [Shipment for return "Return ID" &ndash; Shipment line items](#shipment-for-return-return-id--shipment-line-items)
+- [Shipment for return "Return ID" &ndash; Attributes](#shipment-for-return-return-id-–-attributes)
+- [Shipment for return "Return ID" &ndash; Dependencies](#shipment-for-return-return-id-–-dependencies)
+- [Shipment for return "Return ID" &ndash; Shipment line items](#shipment-for-return-return-id-–-shipment-line-items)
 
 
 ### Shipment for return "Return ID" &ndash; Attributes
@@ -625,8 +625,8 @@ The list displays all shipment line items of the selected return. Depending on t
     Click this button to close the *Shipment line item* view.
 
 The *Shipment line item* view is composed of the following tabs:
-- [Shipment line item &ndash; Attributes](#shipment-line-item--attributes)
-- [Shipment line item &ndash; Dependencies](#shipment-line-item--dependencies)
+- [Shipment line item &ndash; Attributes](#shipment-line-item-–-attributes)
+- [Shipment line item &ndash; Dependencies](#shipment-line-item-–-dependencies)
 
 
 #### Shipment line item &ndash; Attributes
@@ -753,9 +753,9 @@ The list displays all cancellations for the selected return. Depending on the se
     Click this button to close the *Cancellation for return "Return ID"* view.
 
 The *Cancellation for return "Return ID"* view is composed of the following tabs:
-- [Cancellation for return "Return ID" &ndash; Attributes](#cancellation-for-return-return-id--attributes)
-- [Cancellation for return "Return ID" &ndash; Dependencies](#cancellation-for-return-return-id--dependencies)
-- [Cancellation for return "Return ID" &ndash; Cancellation line items](#cancellation-for-return-return-id--cancellation-line-items)
+- [Cancellation for return "Return ID" &ndash; Attributes](#cancellation-for-return-return-id-–-attributes)
+- [Cancellation for return "Return ID" &ndash; Dependencies](#cancellation-for-return-return-id-–-dependencies)
+- [Cancellation for return "Return ID" &ndash; Cancellation line items](#cancellation-for-return-return-id-–-cancellation-line-items)
 
 
 ### Cancellation for return "Return ID" &ndash; Attributes
@@ -868,8 +868,8 @@ The list displays all cancellation line items of the selected return. Depending 
     Click this button to close the *Cancellation line item* view.
 
 The *Cancellation line item* view is composed of the following tabs:
-- [Cancellation line item &ndash; Attributes](#cancellation-line-item--attributes)
-- [Cancellation line item &ndash; Dependencies](#cancellation-line-item--dependencies)
+- [Cancellation line item &ndash; Attributes](#cancellation-line-item-–-attributes)
+- [Cancellation line item &ndash; Dependencies](#cancellation-line-item-–-dependencies)
 
 
 #### Cancellation line item &ndash; Attributes

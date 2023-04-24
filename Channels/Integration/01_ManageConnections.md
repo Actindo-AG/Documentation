@@ -5,12 +5,12 @@
 Establish connections via drivers to connect your marketplaces with the *Actindo Core1 Platform*. A driver bridges the gap between the *Omni-Channel* module and any marketplace, store system or point of sale. You can establish an unlimited number of connections per driver.
 
 In the following, the general settings to create, edit, synchronize or disable connections are described. Except for the *Actindo POS* driver, you have to set up a special configuration for the specific drivers. The setup of the connections below is described separately in detail:
-- [Shopware 6 connection](../../Shopware6/Overview/00_General.md)
-- [Shopify connection](../../Shopify/Overview/00_General.md)
-- [Salesforce Commerce Cloud connection](../../CommerceCloud/Overview/00_General.md)
-- [Amazon connection](../../Amazon/Overview/00_General.md)
-- [Magento 2 connection](../../Magento2/Overview/00_General.md)
-- [Tradebyte connection](../../Tradebyte/Overview/00_General.md)
+- [Shopware 6 connection](../../Shopware6/Overview/01_General.md)
+- [Shopify connection](../../Shopify/Overview/01_General.md)
+- [Salesforce Commerce Cloud connection](../../CommerceCloud/Overview/01_General.md)
+- [Amazon connection](../../Amazon/Overview/01_General.md)
+- [Magento 2 connection](../../Magento2/Overview/01_General.md)
+- [Tradebyte connection](../../Tradebyte/Overview/01_General.md)
 
 
 ## Create a connection
@@ -177,7 +177,7 @@ A connection can only be used if it is active. Otherwise, no data is being synch
 
 #### Prerequisites
 
-At least one connection has been disabled, see [Disable a connection](#disable-a-connection).
+At least one connection is inactive, see [Disable a connection](#disable-a-connection).
 
 #### Procedure
 

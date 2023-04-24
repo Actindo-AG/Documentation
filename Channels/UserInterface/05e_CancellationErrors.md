@@ -72,7 +72,7 @@ The list displays all errors to the cancellations. Depending on the settings, th
 
 ![Detail of log message](../../Assets/Screenshots/Channels/OrdersReturns/CancellationErrors/DetailLogMessageAttributes.png "[Detail of log message]")
 
-[comment]: <> (Add Screenshot -> keine Testdaten/basteln!?)
+[comment]: <> (keine Testdaten -> Screenshot gebastelt, sobald verfübgbar, gegen richtigen Screenshot austauschen)
 
 For a detailed description of this view and the corresponding functions, see [LOG](./06a_Log.md#detail-of-log-message-log-message-title).
 
