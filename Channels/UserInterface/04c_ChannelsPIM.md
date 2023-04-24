@@ -95,10 +95,10 @@ A single box with PIM attributes is displayed for each available attribute set m
 - ![Columns](../../Assets/Icons/Columns.png "[Columns]") Columns (x)   
     Click this button to display the columns bar and customize the displayed columns and the order of columns in the list. The *x* indicates the number of columns that are currently displayed in the list.
 
-- [x] *PIM attribute*
+- [x] *PIM attribute*   
     Select the checkbox to select all checkboxes in the list.
 
-- [x] *"Attribute name"*
+- [x] *"Attribute name"*   
     Select the checkbox to consider the attribute when matching with an existing PIM product. 
     
     > [Info] A single checkbox is displayed for each mapped attribute.
@@ -364,7 +364,7 @@ The list displays all offers to be imported. Depending on the settings, the disp
 
 ### Import process
 
-*Omni-Channel > Offer import > Tab CHANNELS->PIM > Select connection > Button SELECT > Finalize wizard > Tab Offers > Select import process   
+*Omni-Channel > Offer import > Tab CHANNELS->PIM > Select connection > Button SELECT > Finalize wizard > Tab Offers > Select import process*   
 
 The import process window is composed of the following tabs:
 - [Import processes &ndash; Messages](#import-process-–-messages)

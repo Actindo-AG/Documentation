@@ -1,12 +1,12 @@
 [!!Manage the offers](../Operation/01_ManageOffers.md)
 [!!Check the offer upload](../Operation/03_CheckOfferUpload.md)
-[!!User interface Errors (Offer Upload)](../UserInterface/03b_Errors.md)
+[!!User interface Errors (Offer upload)](../UserInterface/03b_Errors.md)
 
 # Retry a faulty offer upload
 
 If an offer upload has been canceled because of an error, the corresponding upload is displayed in the *ERRORS* tab. When the error has been fixed, you can restart the upload to export the offer to the marketplace.
 
-#### Error Description
+#### Error description
 
 An offer upload fails and the offer is moved to the list of export errors.
 
