@@ -2,7 +2,7 @@
 
 In this part of the *Magento 2* documentation, you will find the following chapters:
 
-- [CONNECTIONS](./01_Connections.md)
+- [CONNECTIONS (Magento 2)](./01_Connections.md)
     - [Create view](./01_Connections.md#create-view)
     - [Rename view](./01_Connections.md#rename-view)
     - [Create Magento 2 connection](./01_Connections.md#create-magento-2-connection)
