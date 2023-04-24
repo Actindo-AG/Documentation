@@ -1,5 +1,5 @@
-[!!User interface Dispatch notes](../UserInterface/01a_List.md)
-
+[!!Manage the dispatch notes](../Operation/01_ManageDispatchNotes.md)
+[!!User interface List](../UserInterface/01a_List.md)
 
 # Check a shipment
 
@@ -21,16 +21,17 @@ A dispatch note has been created.
 ![Dispatch notes](../../Assets/Screenshots/Fulfillment/DispatchNotes/DispatchNotes.png "[Dispatch notes]")
 
 Check the shipment status in the *Shipment status* column. The following options are available:
-  - ![Cross](../../Assets/Icons/Cross02.png "[Cross]") (No shipment)   
+- ![Cross](../../Assets/Icons/Cross02.png "[Cross]") (No shipment)   
     No shipment has been arranged yet.  
-  - ![Circular arrows](../../Assets/Icons/CircularArrows.png "[Circular arrows]") (In progress)   
+- ![Circular arrows](../../Assets/Icons/CircularArrows.png "[Circular arrows]") (In progress)   
     The shipment is in progress. For more information on the specific stage of the shipment process, see [Check the shipment details](#check-the-shipment-details). 
-  - ![Double check](../../Assets/Icons/DoubleCheck.png "[Double check]") (Delivered)    
-  	The shipment has been delivered.
-  - ![Error](../../Assets/Icons/Warning02.png "[Error]") (Error)    
+- ![Double check](../../Assets/Icons/DoubleCheck.png "[Double check]") (Delivered)    
+    The shipment has been delivered.
+- ![Error](../../Assets/Icons/Warning02.png "[Error]") (Error)    
     The shipment has failed. A shipment is faulty only if the fulfiller reports an error due to a number of reasons. For detailed information, see [Handle an error status](../Troubleshooting/01_HandleErrorStatus.md). 
-  - Empty  
+- Empty  
     No information on the shipment status has been received from the fulfiller.
+
 
 
 ## Check the shipment details
@@ -69,6 +70,7 @@ The shipment status is at least ![Circular arrows](../../Assets/Icons/CircularAr
 
 5. If desired, check the following shipment-related details:   
     + Check the shipment tracking number in the *Tracking number* column.
+
     + Check the URL for tracking in the *Tracking link* column.  
 
     > [Info] The fields displayed vary depending on the fulfiller's driver.  
@@ -79,8 +81,10 @@ The shipment status is at least ![Circular arrows](../../Assets/Icons/CircularAr
    ![Package items](../../Assets/Screenshots/Fulfillment/DispatchNotes/Items.png "[Package items]")
 
 7. If desired, check the following item-related details: 
-    + Check the item SKU number in the *SKU* column.  The SKU can be useful to locate a product in the *PIM* module and check its inventory in the *Warehouse* module.
+    + Check the item SKU number in the *SKU* column.  The SKU can be useful to locate a product in the *PIM* module and check its inventory in the *Warehousing* module.
+
     + Check the amount of an item contained in the package in the *Amount* column.
+
     + Check the item serial number in the *Serial number* column if available.
 
     > [Info] The fields displayed vary depending on the fulfiller's driver.  
@@ -88,12 +92,12 @@ The shipment status is at least ![Circular arrows](../../Assets/Icons/CircularAr
 8. Press the **Esc** key.  
   The *Item* window is closed and the *PACKAGES* tab is displayed again.
 
-[comment]: <> (Kein CLOSE oder CANCEL button in Items Fenster. Bug gemeldet am 15.02.23. Evtl. nicht gefixed bis neuer UI. Alternativ außerhalb des Fensters klicken, dann verschwindet/schließt es auch. Am 17.04. Problem besteht.)
+[comment]: <> (Kein CLOSE oder CANCEL button in Items Fenster. Bug gemeldet -> BUG-58)
 
 9.  Click the [BACK] button in the upper right corner of the *PACKAGES* sub-tab.   
     The *Shipments* tab is displayed again.
 
-    > [Info] If needed, repeat the steps **4** and **7** to check other packages contained in the shipment. 
+    > [Info] If necessary, repeat the steps **4** to **7** to check other packages contained in the shipment. 
 
 10. Click the [CLOSE] button in the upper right corner of the *Dispatch note "Dispatch note ID"* view.  
     The *Dispatch note "Dispatch note ID"* view is closed. The list of dispatch notes is displayed again.

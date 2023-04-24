@@ -1,11 +1,11 @@
-[!!Manage packaging types](../Integration/02_ManagePackagingTypes.md)
+[!!Manage the packaging types](../Integration/02_ManagePackagingTypes.md)
+[!!User interface List](../UserInterface/01a_List.md)
 
 # Packaging types
 
 *Fulfillment > Settings > Tab PACKAGING TYPES*
 
 ![List of packaging types](../../Assets/Screenshots/Fulfillment/Settings/PackagingTypes/ListPackagingTypes.png "[List of packaging types]")
-
 
 **List of packaging types**
 
@@ -37,7 +37,6 @@
 
         - ![Delete](../../Assets/Icons/Trash01.png "[Delete]") delete  
             Click this entry to delete the selected view. A confirmation window to confirm the deletion is displayed. This menu entry is only displayed if a view has been selected.
-
 
 - ![Search](../../Assets/Icons/Search.png "[Search]") (Search)   
     Click this button to display the search bar and search for packaging types.
@@ -122,6 +121,7 @@ The list displays all packaging types. Depending on the settings, the displayed 
     Click this button to add a connection. The *Create connection* view is displayed, see [Create packaging type](#create-packaging-type). 
   
 
+
 ## Create packaging type  
 
 *Fulfillment > Settings > Tab PACKAGING TYPES > Button Add*
@@ -132,8 +132,10 @@ The list displays all packaging types. Depending on the settings, the displayed 
     Click this button to close the *Create packaging type* view and return to the list of packaging types. All changes are rejected.
 
 [comment]: <> (Actindo Basic Channel in Screenshot sollte ausgeblendet werden, da nicht von Fulfillment Modul benutzt. Schon mit SW besprochen. Evtl. neue Screenshots notwendig.)
+
 - *"Channel name"*   
    Click the drop-down list to select the channel. All available channels are displayed in the drop-down list.
+
 - *"Language name"*      
     Click the drop-down list to select a different language for the packaging type. All active languages in the *DataHub* module are displayed. The default language is preselected.
 
@@ -152,26 +154,26 @@ The list displays all packaging types. Depending on the settings, the displayed 
 - *Max height*  
     Maximum height allowed for the packaging type.
     - *Quantity*  
-    Enter the desired value.
+        Enter the desired value.
     - *Unit*  
-    Click the drop-down list and select the applicable unit.
+        Click the drop-down list and select the applicable unit.
 
 - *Max width*   
-  Maximum width allowed for the packaging type.
+    Maximum width allowed for the packaging type.
     - *Quantity*  
-    Enter the desired value.
+        Enter the desired value.
     - *Unit*  
-    Click the drop-down list and select the applicable unit.
+        Click the drop-down list and select the applicable unit.
 
 - *Max weight*  
-  Maximum weight allowed for the packaging type.
+    Maximum weight allowed for the packaging type.
     - *Quantity*  
-    Enter the desired value.
+        Enter the desired value.
     - *Unit*  
-    Click the drop-down list and select the applicable unit.
+        Click the drop-down list and select the applicable unit.
 
 - *Max value*  
-  If desired, the maximum monetary value allowed for the packaging type can be configured.
+    If desired, the maximum monetary value allowed for the packaging type can be configured.
     - [ADD PRICE]  
         Click this button to enter the base price and scale prices. The *Edit price* window is displayed, see [Edit price](#edit-price).
     - *Base price*  
@@ -185,7 +187,7 @@ The list displays all packaging types. Depending on the settings, the displayed 
     - ![Delete](../../Assets/Icons/Trash01.png "[Delete]") (Delete)  
         Click this button to deleted the configured price. This button is displayed when hovering the mouse over a configured price.
 
-[comment]: <> (Button SAVE funktioniert nicht. Bug gemeldet. 17.04. Problem besteht)
+[comment]: <> (Button SAVE funktioniert nicht. Bug gemeldet -> BUG-58)
 
 - *Carrier*  
     Enter the carrier identifier for the packaging type.
@@ -204,6 +206,7 @@ The list displays all packaging types. Depending on the settings, the displayed 
 
 - *Shipping method*  
     Enter the additional services offered. Numbers, letters or a combination of characters can be used.
+
 
 
 ## Edit packaging type
@@ -236,23 +239,23 @@ The list displays all packaging types. Depending on the settings, the displayed 
 - *Max height*  
     Click these fields to edit the maximum height allowed for the packaging type.
     - *Quantity*  
-    Click this field to edit the desired value.
+        Click this field to edit the desired value.
     - *Unit*  
-    Click the drop-down list and select the applicable unit.
+        Click the drop-down list and select the applicable unit.
 
 - *Max width*   
     Click these fields to edit the maximum width allowed for the packaging type.
     - *Quantity*  
-    Click this field to edit the desired value.
+        Click this field to edit the desired value.
     - *Unit*  
-    Click the drop-down list and select the applicable unit.
+        Click the drop-down list and select the applicable unit.
 
 - *Max weight*  
     Click these fields to edit the maximum weight allowed for the packaging type.
     - *Quantity*  
-    Click this field to edit the desired value.
+        Click this field to edit the desired value.
     - *Unit*  
-    Click the drop-down list and select the applicable unit.
+        Click the drop-down list and select the applicable unit.
 
 - *Max value*  
     If desired, the maximum monetary value allowed for the packaging type can be edited.
@@ -287,10 +290,10 @@ The list displays all packaging types. Depending on the settings, the displayed 
 - *Shipping method*  
     Click this field to edit the additional services offered. Numbers, letters or a combination of characters can be used.
 
+
 ### Edit price
 
 *Fulfillment > Settings > Tab PACKAGING TYPES > Button Add > Button ADD PRICE*  
-
 *Fulfillment > Settings > Tab PACKAGING TYPES > Select packaging type > Button Edit*
 
 ![Edit price](../../Assets/Screenshots/Fulfillment/Settings/PackagingTypes/EditPrice.png "[Edit price]")
@@ -304,6 +307,7 @@ The list displays all packaging types. Depending on the settings, the displayed 
 
 - *Price*  
     Scale price defined for the product. This field is read-only and can only be edited in the *Edit scale price* window. If no scale price has been added yet, the *No data* notice is displayed.
+
 - *From*  
     Quantity value applicable to scale price. This field is read-only and can only be edited in the *Edit scale price* window. If no scale price has been added yet, the *No data* notice is displayed.
 
@@ -316,25 +320,26 @@ The list displays all packaging types. Depending on the settings, the displayed 
 - [SAVE]  
     Click this button to save the price, close the *Edit price* window and return to the *Create packaging type* view.
 
+
 #### Edit scale price
 
 *Fulfillment > Settings > Tab PACKAGING TYPES > Button Add > Button ADD PRICE > Button ADD SCALE PRICE*  
-
 *Fulfillment > Settings > Tab PACKAGING TYPES > Select packaging type > Button Edit > Button ADD SCALE PRICE*
 
 ![Edit scale price](../../Assets/Screenshots/Fulfillment/Settings/PackagingTypes/EditScalePrice.png "[Edit scale price]")
 
 - *Price*  
     Enter a price value.
+    
 - *From*  
     Enter a quantity value applicable to the scale price.
-
 
 - [CANCEL]  
     Click this button to cancel editing a scale price. The *Edit scale price* window is closed.
 
 - [SAVE]  
     Click this button to save the scale price, close the *Edit scale price* window and return to the *Edit price* window.
+
 
 
 ## Create view
@@ -344,6 +349,7 @@ The list displays all packaging types. Depending on the settings, the displayed 
 ![Create view](../../Assets/Screenshots/Fulfillment/DispatchNotes/CreateView.png "[Create view]")
 
 For a detailed description of this window and the corresponding functions, see [Create view](./01a_List.md#create-view).
+
 
 
 ## Rename view

@@ -1,9 +1,10 @@
+[!!Manage the dispatch notes](../Operation/01_ManageDispatchNotes.md)
+
 # Connections (Logging)
 
 *Fulfillment > Logging > Tab CONNECTIONS*
 
 ![List of intents](../../Assets/Screenshots/Fulfillment/Logging/ListIntents.png "[List of intents]")
-
 
 **List of intents**
 
@@ -55,7 +56,6 @@
 - [![Show message](../../Assets/Icons/ShowMessage.png "[Show message]") SHOW MESSAGE]  
     Click this button to display the message(s) contained in the selected intent. This button is only displayed if a single checkbox in the list of intents is selected. Alternatively, you can click directly a row in the list to display an intent. The *List of messages* view is displayed, see [List of messages](#list-of-messages).
 
-
 The list displays all intents. Depending on the settings, the displayed columns may vary. All fields are read-only.
 
 - *Name*  
@@ -91,6 +91,7 @@ The list displays all intents. Depending on the settings, the displayed columns 
     Complete log message.
 
 
+
 ## List of messages
 
 *Fulfillment > Logging > Tab CONNECTIONS > Select an intent*
@@ -105,11 +106,10 @@ The list displays all intents. Depending on the settings, the displayed columns 
 - ![Unpublish](../../Assets/Icons/Unpublish02.png "[Unpublish]") (Download)  
     Click this button to download the displayed log message.
 
-[comment]: <> (Bug gemeldet. Wird rausgenommen. Am 17.04. noch belassen)
+[comment]: <> (Bug gemeldet -> BUG-58. Button soll rausgenommen werden.)
 
 - ![View](../../Assets/Icons/Eye02.png "[View]")  (View)   
     Click this button to display the details of the log message. Alternatively, you can click directly a row in the list to display the details of the log message. The *Detail of log message "Log message title"* view is displayed, see [Detail of log message "Log message title"](#detail-of-log-message-log-message-title). 
-
 
 The list displays all log messages of the selected intent. Depending on the settings, the displayed columns may vary. All fields are read-only.
 
@@ -233,8 +233,8 @@ If no dependent entities exist, the *No other entities depend on this entity* no
 - *Change tracking mode*   
     Change tracking mode (ETL mode) of the dependent entity. The following options are available:
     - **Manual**
-    - **Semi-automatic**
-    - **Semi-automatic, changes must be confirmed by another user**   
+    - **Semiautomatic**
+    - **Semiautomatic, changes must be confirmed by another user**   
     - **Automatic**
 
 - *Dependent entity friendly identifier*   
@@ -245,7 +245,6 @@ If no dependent entities exist, the *No other entities depend on this entity* no
 
    
 
-
 ## Create view
 
 *Fulfillment > Logging > Tab CONNECTIONS > Button Points > Menu entry create*
@@ -253,6 +252,8 @@ If no dependent entities exist, the *No other entities depend on this entity* no
 ![Create view](../../Assets/Screenshots/Fulfillment/DispatchNotes/CreateView.png "[Create view]")
 
 For a detailed description of this window and the corresponding functions, see [Create view](./01a_List.md#create-view).
+
+
 
 ## Rename view
 

@@ -7,8 +7,8 @@ In this part of the *Fulfillment* documentation, you will find the following cha
   - [Prerequisites](./01_General.md#prerequisites)
 
 
-- [Key Features](./02_Features.md)
+- [Key features](./02_Features.md)
   - [Simplified sales management](./02_Features.md#simplified-sales-management)
   
 
-- [Processes](./03_Processes.md)
+- [Processes overview](./03_Processes.md)

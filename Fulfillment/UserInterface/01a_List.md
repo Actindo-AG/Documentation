@@ -1,15 +1,13 @@
 [!!Manage the dispatch notes](../Operation/01_ManageDispatchNotes.md)
 [!!Manage the packaging types](../Integration/02_ManagePackagingTypes.md)
-[!!Connections (Logging)](./02a_Connections.md)
+[!!User interface Connections (Logging)](./02a_Connections.md)
 [!!User Interface Packaging types](./03b_PackagingTypes.md)
-
 
 # List
 
 *Fulfillment > Dispatch notes > Tab LIST*
 
 ![Dispatch notes](../../Assets/Screenshots/Fulfillment/DispatchNotes/DispatchNotes.png "[Dispatch notes]")
-
 
 **Dispatch notes**
 
@@ -176,6 +174,7 @@ The list displays all dispatch notes. Depending on the settings, the displayed c
     You can add a column for each attribute that is assigned to the dispatch note. The column displays the attribute name, the row displays the corresponding attribute value of the dispatch note.
 
 
+
 ## Dispatch note "Dispatch note ID"
 
 *Fulfillment > Dispatch notes > Tab LIST > Select a dispatch note*
@@ -189,6 +188,8 @@ The list displays all dispatch notes. Depending on the settings, the displayed c
 
 - [CLOSE]  
     Click this button to close the *Dispatch note "Dispatch note ID"* view. The list of dispatch notes is displayed.
+
+
 
 ## Dispatch note "Dispatch note ID" &ndash; Attributes
 
@@ -206,7 +207,7 @@ In the left margin column, all available attribute groups are displayed. Click a
 
 The right side of the *Attributes* tab displays all attributes that are assigned to the selected group in the left margin column. Depending on the selected attribute group, the displayed fields may vary. The dispatch note attributes are imported via the fulfiller driver. All fields are read-only.
 
-- ![Collapse/Expand](../../Assets/Icons/FadeInOut01.png "[Collapse/Expand]") (Collapse/Expand)    
+- ![Collapse/Expand](../../Assets/Icons/CollapseExpand01.png "[Collapse/Expand]") (Collapse/Expand)    
     Click this button to collapse or expand the left margin column with the attribute groups. When the left margin is expanded and you click this button, the column is collapsed. When the column is collapsed and you click this button, the column is expanded.
 
 
@@ -250,12 +251,12 @@ If no dependent entities exist, the *No other entities depend on this entity* no
     Click this button to rerun the mapping of the selected entity. This button is only displayed if the checkbox of at least one dependency is selected.	
 
 
+
 ## Dispatch note "Dispatch note ID" &ndash; Shipments
 
 *Fulfillment > Dispatch notes > Tab LIST > Select a dispatch note > Tab Shipments*
 
 ![Shipments](../../Assets/Screenshots/Fulfillment/DispatchNotes/DispatchNoteShipments.png "[Shipments]")
-
 
 - ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh)   
     Click this button to update the list of shipments.
@@ -265,7 +266,6 @@ If no dependent entities exist, the *No other entities depend on this entity* no
 
 - ![Filter](../../Assets/Icons/Filter.png "[Filter]") Filter (x)   
     Click this button to display the filter bar and customize the active filters. The *x* indicates the number of filters that are currently active.
-
 
 The list displays all shipments. Depending on the settings, the displayed columns may vary. All fields are read-only.
 
@@ -314,6 +314,7 @@ The list displays all shipments. Depending on the settings, the displayed column
 - [BACK]  
     Click this button to close the **Shipment "Shipment ID"** view and return to the list of shipments. All changes are rejected.
 
+
 ### Shipment attributes &ndash; Attributes
 
 *Fulfillment > Dispatch notes > Tab LIST > Select a dispatch note > Tab Shipments > Select a shipment > Sub-tab ATTRIBUTES > Tab Attributes*
@@ -330,7 +331,7 @@ In the left margin column, all available attribute groups are displayed. Click a
 
 The right side of the *Attributes* tab displays all attributes that are assigned to the selected group in the left margin column. Depending on the selected attribute group, the displayed fields may vary. All fields are read-only.
 
-- ![Collapse/Expand](../../Assets/Icons/FadeInOut01.png "[Collapse/Expand]") (Collapse/Expand)    
+- ![Collapse/Expand](../../Assets/Icons/CollapseExpand01.png "[Collapse/Expand]") (Collapse/Expand)    
     Click this button to collapse or expand the left margin column with the attribute groups. When the left margin is expanded and you click this button, the column is collapsed. When the column is collapsed and you click this button, the column is expanded.
 
 
@@ -361,8 +362,8 @@ If no dependent entities exist, the *No other entities depend on this entity* no
 - *Change tracking mode*   
     Change tracking mode (ETL mode) of the dependent entity. The following options are available:
     - **Manual**
-    - **Semi-automatic**
-    - **Semi-automatic, changes must be confirmed by another user**   
+    - **Semiautomatic**
+    - **Semiautomatic, changes must be confirmed by another user**   
     - **Automatic**
 
 - *Dependent entity friendly identifier*   
@@ -390,7 +391,6 @@ If no dependent entities exist, the *No other entities depend on this entity* no
 
 - ![Filter](../../Assets/Icons/Filter.png "[Filter]") Filter (x)   
     Click this button to display the filter bar and customize the active filters. The *x* indicates the number of filters that are currently active.
-
 
 The list displays all packages contained in the selected shipment. Depending on the settings, the displayed columns may vary. All fields are read-only.
 
@@ -427,7 +427,6 @@ The list displays all packages contained in the selected shipment. Depending on 
 *Fulfillment > Dispatch notes > Tab LIST > Select a dispatch note > Tab Shipments > Select a shipment > Sub-tab PACKAGES > Select a package*
 
 ![Items](../../Assets/Screenshots/Fulfillment/DispatchNotes/Items01.png "[Items]")
-
 
 - ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh)   
     Click this button to update the list of items.
@@ -473,6 +472,8 @@ The list displays all items contained in the selected package. Depending on the 
 - *"Attribute name"*    
     You can add a column for each attribute that is assigned to the item. The column displays the attribute name, the row displays the corresponding attribute value of the item.
 
+
+
 ## Dispatch note "Dispatch note ID" &ndash; Logs
 
 *Fulfillment > Dispatch notes > Tab LIST > Select a dispatch note > Tab Logs*
@@ -480,6 +481,7 @@ The list displays all items contained in the selected package. Depending on the 
 ![Dispatch note logs](../../Assets/Screenshots/Fulfillment/DispatchNotes/DispatchNoteLogs.png "[Dispatch note logs]")
 
 This tab displays an extract from the list of intents contained in the *CONNECTIONS* tab of the *Logging* menu entry. The intents displayed in this tab refer to the selected dispatch note. For a detailed description of this window and the corresponding functions, see [Connections (Logging)](./02a_Connections.md).
+
 
 
 ## Create view
@@ -502,6 +504,8 @@ This window can also be accessed via the following tabs in the user interface:
 - [CONNECTIONS (Logging)](02a_Connections.md#create-view)
 - [CONNECTIONS (Settings)](03a_Connections.md#create-view)
 - [PACKAGING TYPES](03b_PackagingTypes.md#create-view)
+
+
 
 ## Rename view
 

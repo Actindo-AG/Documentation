@@ -1,10 +1,10 @@
-[!!User interface Dispatch notes](../UserInterface/01a_List.md)
-[!!User interface Logging](../UserInterface/02a_Connections.md)
-[!!User interface Packaging types](../UserInterface/03b_PackagingTypes.md)
-[!!Check a shipment](./02_CheckShipment.md)
 [!!Manage the connections](../Integration/01_ManageConnections.md)
-
-
+[!!Check a shipment](./02_CheckShipment.md)
+[!!Check an error status](./03_CheckErrorStatus.md)
+[!!User interface List](../UserInterface/01a_List.md)
+[!!User interface Connections (Logging)](../UserInterface/02a_Connections.md)
+[!!User interface Packaging types](../UserInterface/03b_PackagingTypes.md)
+[!!Workflows](../../ActindoWorkFlow/Overview/01_General.md)
 
 # Manage the dispatch notes
 
@@ -61,6 +61,7 @@ A dispatch note provides numerous order-related details, which may vary dependin
     > [Info] Additional information can be displayed depending on the attributes mapped via the fulfiller's driver when establishing the connection. 
 
 
+
 ## Complete a dispatch note
 
 The fulfillers may not notify if an order has been delivered. In this case, the dispatch note status is not automatically updated to **completed**. To provide a better overview and handling of the dispatch note list, the dispatch note status can be updated manually if necessary. It is also possible to update the status of several dispatch notes at once.
@@ -87,7 +88,7 @@ The fulfillers may not notify if an order has been delivered. In this case, the 
 
 3. Verify that the status of all shipments is **Shipped**.
 
-4. Click the ![Back](../../Assets/Icons/Back02.png "[Back]") (Back) button in the upper left corner.
+4. Click the ![Back](../../Assets/Icons/Back02.png "[Back]") (Back) button in the upper left corner.   
    The *Dispatch note "Dispatch note ID"* view is closed and the list of dispatch notes is displayed again. 
 
 5. Click the checkbox of the dispatch note(s) to be completed.   
@@ -96,7 +97,7 @@ The fulfillers may not notify if an order has been delivered. In this case, the 
 6. Click the [FORCE COMPLETION] button in the editing toolbar.  
     The *"x DispatchNotes forced to completion, failed for x"* notice is displayed.
 
-    > [Info] The x indicates the number of dispatch notes that have been completed or that have failed. A manual completion will only fail if the status of any shipment in the dispatch note is not **Shipped**.
+    > [Info] The *x* indicates the number of dispatch notes that have been completed or that have failed. A manual completion will only fail if the status of any shipment in the dispatch note is not **Shipped**.
 
     ![Forced to completion](../../Assets/Screenshots/Fulfillment/DispatchNotes/ForcedtoCompletion.png "[Forced to completion]")
 

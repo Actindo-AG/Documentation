@@ -1,6 +1,5 @@
 [!!Manage the dispatch notes](../Operation/01_ManageDispatchNotes.md)  
 
-
 # Check an error status
 
 The *Fulfillment* module manages the communication between the *Actindo Core1 Platform* and the fulfillment partner(s). In the course of this communication, an error may occur. When this happens, a dispatch note or its related shipment(s) may display an error status.
@@ -37,9 +36,10 @@ At least one dispatch note displays an error.
 
     ![Detail of log message](../../Assets/Screenshots/Fulfillment/Logging/DetailLogMessageAttributes01.png "[Detail of log message]")
 
-    [comment]: <> (Aus Logging genommen, passt nicht genau mit dem Fehler oben; ich kann den auch nicht reproduzieren. Screenshot hier weglassen?)
+[comment]: <> (Aus Logging genommen, passt nicht genau mit dem Fehler oben; ich kann den auch nicht reproduzieren. Screenshot hier weglassen?)
 
 5. Check the details of the log message in the *Attributes* tab. 
+
     > [Info] Depending on the error cause, it may be necessary to take action in one or more additional modules or even to contact the fulfillment partner.
 
 

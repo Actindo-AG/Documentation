@@ -1,10 +1,11 @@
+[!!Manage the connections](./01_ManageConnections.md)
+[!!User interface List](../UserInterface/01a_List.md)
 [!!User interface Packaging types](../UserInterface/03b_PackagingTypes.md)
-[!!Manage connections](./01_ManageConnections.md)
-
 
 # Manage the packaging types
 
 Packaging types serve as a suggestion for the fulfiller on the type of packaging and the preferred carrier that may apply for a shipment. Packaging types can be defined using many different criteria. All relevant attributes that are used are mapped via ETL from the relevant business document depending on the fulfiller's driver.  
+
 
 ## Create a packaging type
 
@@ -27,7 +28,7 @@ At least one connection has been established, see [Create a connection](./01_Man
 
     ![Create packaging type](../../Assets/Screenshots/Fulfillment/Settings/PackagingTypes/CreatePackagingType.png "[Create packaging type]")
 
-[comment]: <> (Channel drop-down list soll rausfliegen, da von Fulfillment nicht verwendet. Neues Screenshot notwendig, wenn updated.)
+[comment]: <> (Channel drop-down list soll rausfliegen, da von Fulfillment nicht verwendet. Neuer Screenshot notwendig, wenn geupdated.)
 
 2. Enter a name for the connection in the *Name* field. 
 
@@ -41,30 +42,33 @@ At least one connection has been established, see [Create a connection](./01_Man
 5. Click the *Connection* drop-down list and select the applicable connection. All available connections are displayed in the list.
     
 6. Enter the maximum dimensions allowed for the packaging type:
-    + In the *Max height* box, enter the maximum value in the *Quantity* field and click the *Unit* drop-down list to select the applicable unit.  
+    + In the *Max height* box, enter the maximum value in the *Quantity* field and click the *Unit* drop-down list to select the applicable unit.
+
     + In the *Max width* box, enter the maximum value in the *Quantity* field and click the *Unit* drop-down list to select the applicable unit.  
+
     + In the *Max length* box, enter the maximum value in the *Quantity* field and click the *Unit* drop-down list to select the applicable unit.  
+
     + In the *Max weight* box, enter the maximum value in the *Quantity* field and click the *Unit* drop-down list to select the applicable unit.  
    
 7. Configure the maximum monetary value for the items contained in the packaging type in the *Max value* box by following the instructions below:
-    - Click the [ADD PRICE] button.  
+    + Click the [ADD PRICE] button.  
         The *Edit price* window is displayed. 
 
         ![Edit price](../../Assets/Screenshots/Fulfillment/Settings/PackagingTypes/EditPrice.png "[Edit price]")
 
-    - Enter the item price in the *Base price* field.
+    + Enter the item price in the *Base price* field.
 
-    - If desired, click the [ADD SCALE PRICE] button to add scale prices.  
+    + If desired, click the [ADD SCALE PRICE] button to add scale prices.  
         The *Edit scale price* window is displayed.  
 
         ![Edit scale price](../../Assets/Screenshots/Fulfillment/Settings/PackagingTypes/EditScalePrice.png "[Edit scale price]")
 
-    - Enter the scale price in the *Price* field and the applicable number of units in the *From* field. 
+    + Enter the scale price in the *Price* field and the applicable number of units in the *From* field. 
 
-    - Click the [SAVE] button at the bottom of the *Edit scale price* window.  
+    + Click the [SAVE] button at the bottom of the *Edit scale price* window.  
         The *Edit scale price* window is closed. The scale prices are displayed in the *Scale prices* box in the *Edit price* window. Repeat this process to add further scale prices.
 
-    - Click the [SAVE] button at the bottom of the *Edit price* window.  
+    + Click the [SAVE] button at the bottom of the *Edit price* window.  
         The *Edit price* window is closed. The entered prices are displayed in the *Max value* box.
 
 8. Enter the carrier identifier in the *Carrier* field. Both letters and numbers can be entered.
@@ -88,6 +92,7 @@ At least one connection has been established, see [Create a connection](./01_Man
 
 15. If necessary, click the ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh) button in the upper right corner to update the list of packaging types. The new packaging type is displayed in the list.   
   
+
 
 ## Edit a packaging type
 
@@ -118,6 +123,7 @@ At least one packaging type has been created, see [Create a packaging type](#cre
 4. If necessary, click the ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh) button in the upper right corner to update the list of packaging types.   
   
 
+
 ## Delete a packaging type
 
 Delete a packaging type that is no longer applicable. To avoid issues with existing shipments, it is highly recommended to deactivate a packaging type instead of deleting it, see [Deactivate a packaging type](#deactivate-a-packaging-type).
@@ -140,6 +146,7 @@ At least one packaging type has been created, see [Create a packaging type](#cre
 2. Click the [DELETE] button.  
     The selected packaging type is deleted and removed from the list of packaging types.
  
+
 
 ## Deactivate a packaging type
 
@@ -168,6 +175,7 @@ At least one packaging type has been created, see [Create a packaging type](#cre
 4. If necessary, click the ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh) button in the upper right corner to update the list of packaging types.   
 
   
+
 ## Activate a packaging type
 
 A packaging type can only be used if it is active. If a packaging type has been deactivated, it can be reactivated again when it is needed.
@@ -195,5 +203,4 @@ At least one packaging type has been deactivated, see [Deactivate a packaging ty
 4. If necessary, click the ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh) button in the upper right corner to update the list of packaging types.   
 
 
-
-[comment]: <> (Status 13.02.23: Bug beim Erstellen a packaging type. Es muss immer auf Active gesetzt werden, sonst wird es in der Liste nicht angezeigt. Das Problem liegt am Filter. Wenn nach Inactive gefiltert, sieht man die inaktive packaging types. Man kann aber nicht gleichzeitig beide sehen. Bug gemeldet. Getestet am 17.04. Problem besteht.)
+[comment]: <> (Bug beim Erstellen am packaging type. Es muss immer auf Active gesetzt werden, sonst wird es in der Liste nicht angezeigt. Das Problem liegt am Filter. Wenn nach Inactive gefiltert, sieht man die inaktive packaging types. Man kann aber nicht gleichzeitig beide sehen. Bug gemeldet. BUG-58)

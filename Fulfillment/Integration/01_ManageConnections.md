@@ -1,4 +1,5 @@
-[!!User interface Connections](../UserInterface/03a_Connections.md)
+[!!User interface Connections (Settings)](../UserInterface/03a_Connections.md)
+[!!Manage the dispatch notes](../Operation/01_ManageDispatchNotes.md)
 
 # Manage the connections
 
@@ -52,6 +53,7 @@ At least one driver has been installed.
     > [Info] By default, all connections that have been established are inactive and therefore must be enabled after the connection configuration, see [Enable a connection](#enable-a-connection).
 
 
+
 ## Edit a connection
 
 Edit a connection to adjust any changed credentials, the connection name or further settings. The driver selection is read-only and cannot be edited.
@@ -83,6 +85,7 @@ At least one connection has been created, see [Create a connection](#create-a-co
     ![Credentials](../../Assets/Screenshots/Fulfillment/Settings/Connections/CheckingCredentials.png "[Credentials]")
 
     The *Edit connection* view is automatically closed when the changes have been saved. The *Connections* view is displayed again.
+
 
 
 ## Enable a connection

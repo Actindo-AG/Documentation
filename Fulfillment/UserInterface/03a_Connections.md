@@ -1,11 +1,11 @@
-[!!Manage connections](../Integration/01_ManageConnections.md)
+[!!Manage the connections](../Integration/01_ManageConnections.md)
+[!!User interface List](../UserInterface/01a_List.md)
 
 # Connections (Settings)
 
 *Fulfillment > Settings > Tab CONNECTIONS*
 
 ![Connections](../../Assets/Screenshots/Fulfillment/Settings/Connections/Connections.png "[Connections]")
-
 
 **Connections**
 
@@ -41,7 +41,6 @@
         - ![Delete](../../Assets/Icons/Trash01.png "[Delete]") delete  
             Click this entry to delete the selected view. A confirmation window to confirm the deletion is displayed. This menu entry is only displayed if a view has been selected.
 
-
 - ![Columns](../../Assets/Icons/Columns.png "[Columns]") Columns (x)   
     Click this button to display the columns bar and customize the displayed columns and the order of columns in the list. The *x* indicates the number of columns that are currently displayed in the list.
 
@@ -56,7 +55,6 @@
 
 - ![Edit](../../Assets/Icons/Edit01.png "[Edit]") (Edit)  
     Click this button to edit the selected connection. This button is only displayed if a single checkbox in the list of connections is selected. Alternatively, you can click directly a row in the list to edit the corresponding connection. The *Edit connection* view is displayed, see [Edit connection](#edit-connection).
-
 
 The list displays all available connections. Depending on the settings, the displayed columns may vary. All fields are read-only.
 
@@ -77,7 +75,7 @@ The list displays all available connections. Depending on the settings, the disp
     Connection identification number. The ID number is automatically assigned by the system.
 
 - ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add)  
-  Click this button to add a connection. The *Create connection* view is displayed, see [Create connection](#create-connection).
+    Click this button to add a connection. The *Create connection* view is displayed, see [Create connection](#create-connection).
   
 
 ## Create connection
@@ -111,6 +109,7 @@ The fields displayed in the *Credentials* section vary depending on the selected
     Click this button to save the connection.
 
 
+
 ## Edit connection
 
 *Fulfillment > Settings > Tab CONNECTIONS > Select a connection*
@@ -132,6 +131,8 @@ The fields displayed in the *Credentials* section vary depending on the selected
 - *Created DD/MM/YYYY*  
     Creation date of the connection. This field is read-only.
 
+
+
 ## Edit connection &ndash; Credentials
 
 *Fulfillment > Settings > Tab CONNECTIONS > Select a connection > Tab Credentials*
@@ -148,6 +149,8 @@ The fields displayed in the *Credentials* section vary depending on the selected
 - [SAVE]  
   Click this button to save any changes made.
 
+
+
 ## Edit connection &ndash; Settings
 
 *Fulfillment > Settings > Tab CONNECTIONS > Select a connection > Tab Settings*
@@ -162,6 +165,7 @@ This tab is only displayed for drivers with further settings. The settings can o
     > [Info] If no settings are available for the selected connection, the notice *There are no settings available* is displayed.
 
 
+
 ## Create view
 
 *Fulfillment > Settings > Tab CONNECTIONS > Button Points > Menu entry create*
@@ -169,6 +173,7 @@ This tab is only displayed for drivers with further settings. The settings can o
 ![Create view](../../Assets/Screenshots/Fulfillment/DispatchNotes/CreateView.png "[Create view]")
 
 For a detailed description of this window and the corresponding functions, see [Create view](./01a_List.md#create-view).
+
 
 
 ## Rename view
