@@ -4,7 +4,7 @@
 
 *Database and reporting > Managed queries > Tab INFLUXDB TIME SERIES*
 
-![List InfluxDB time series](../../Assets/Screenshots/DatabaseAndReporting/ManagedQueries/InfluxDBTimeSeries/ListInfluxDBTimeSeries.png "[List InfluxDB time series]")
+![List InfluxDB time series](../../Assets/Screenshots/DatabaseAndReporting/ManagedQueries/InfluxDBTimeSeries/ListInfluxDBTimeSeriesCreated.png "[List InfluxDB time series]")
 
 **List of InfluxDB time series**
 
@@ -60,7 +60,7 @@ The list displays all InfluxDB time series. Depending on the settings, the displ
     InfluxDB time series identification number. The ID number is automatically assigned by the system.
 
 - ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add)   
-    Click this button to create a query. The *Create MySQL query* view is displayed, see [Create InfluxDB time series](#create-influxdb-time-series).  
+    Click this button to create an InfluxDB time series. The *Create InfluxDB time series* view is displayed, see [Create InfluxDB time series](#create-influxdb-time-series).  
 
 
 ## Create InfluxDB time series
@@ -84,13 +84,13 @@ The list displays all InfluxDB time series. Depending on the settings, the displ
     Click the drop-down list and select the desired connection. The available connections are displayed in the list.  
 
 - ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh)  
-    Click this button to refresh the *Connections* drop-down list to display any newly created connection.
+    Click this button to refresh the *Connections* drop-down list and display any newly created connection.
 
 - *Queries*  
     Click the drop-down list and select the desired predefined query.
 
 - ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh)  
-    Click this button to refresh the *Queries* drop-down list to display any newly created query.
+    Click this button to refresh the *Queries* drop-down list and display any newly created query.
 
 - *Tag columns*  
     Enter the relevant tag(s) in this box to categorize the data to be written to InfluxDB according to your desired criteria. Tags represent metadata and are therefore optional.
@@ -120,25 +120,25 @@ The list displays all InfluxDB time series. Depending on the settings, the displ
 ![Edit InfluxDB time series](../../Assets/Screenshots/DatabaseAndReporting/ManagedQueries/InfluxDBTimeSeries/EditInfluxDBTimeSeries.png "[Edit InfluxDB time series]")
 
 - *Title*  
-    Edit the description for the InfluxDB time series.
+    Click this field to edit the description for the InfluxDB time series.
 
 - *CronLine*  
-    Edit the cron expression to specify the time interval in which the InfluxDB time series must be executed.
+    Click this field to edit the cron expression and specify the time interval in which the InfluxDB time series must be executed.
 
 - *Measurement*  
-    Edit the name of the table where the data is to be written. 
+    Click this field to edit the name of the table where the data is to be written. 
 
 - *Connections*  
     Click the drop-down list and select the appropriate connection. The available connections are displayed in the list.  
 
 - ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh)  
-    Click this button to refresh the *Connections* drop-down list to display any newly created connection.
+    Click this button to refresh the *Connections* drop-down list and display any newly created connection.
     
 - *Queries*  
     Click the drop-down list and select the desired predefined query.
 
 - ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh)  
-    Click this button to refresh the *Queries* drop-down list to display any newly created query.
+    Click this button to refresh the *Queries* drop-down list and display any newly created query.
   
 - *Tag columns*  
     Edit the tag(s) in this box to categorize the data to be written to InfluxDB according to your desired criteria. Tags represent metadata and are therefore optional.
