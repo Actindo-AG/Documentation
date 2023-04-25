@@ -7,9 +7,6 @@
 
 ## How it works 
 
-**Marketplace offers**  
-Marketplace offers including variants, product options and attributes are transferred from Actindo to Tradebyte. Existing marketplace offers can also be partially imported from Tradebyte to Actindo.
-
 **Prices**  
 Prices and graduated prices can be maintained in Actindo and transferred to Tradebyte.
 
@@ -21,6 +18,3 @@ The orders in Tradebyte are imported to Actindo. The order import settings can b
 
 **Order status**  
 Delivery status, payment status and tracking numbers are generated in Actindo and transferred to Tradebyte.
-
-**Invoice documents**   
-Invoice documents are transferred from Actindo to Tradebyte.
