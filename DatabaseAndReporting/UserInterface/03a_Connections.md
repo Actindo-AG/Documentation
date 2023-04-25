@@ -4,15 +4,12 @@
 
 *Database and reporting > Settings > Tab CONNECTIONS*
 
-![Connections](../../Assets/Screenshots/DatabaseAndReporting/Settings/Connections/Connections.png "[Connections]")
+![Connections](../../Assets/Screenshots/DatabaseAndReporting/Settings/Connections/ConnectionsCreated.png "[Connections]")
 
 **Connections**
 
 - ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh)   
     Click this button to update the list of connections.
-
-[comment]: <> (Sollte VIEW-Menü standardmäßig vorkommen? Frage gilt auch für Logs.)
-
 
 - ![Columns](../../Assets/Icons/Columns.png "[Columns]") Columns (x)   
     Click this button to display the columns bar and customize the displayed columns and the order of columns in the list. The *x* indicates the number of columns that are currently displayed in the list.
@@ -71,8 +68,8 @@ The list displays all available connections. Depending on the settings, the disp
 **Credentials**
 
 The fields displayed in the *Credentials* section vary depending on the selected driver version. For a detailed description of this section and the corresponding functions, see the applicable interface: 
-  - [Create connection &ndash; Credentials InfluxDB driver V1](#create-connection--credentials-influxdb-driver-v1)   
-  - [Create connection &ndash; Credentials InfluxDB driver V2](#create-connection--credentials-influxdb-driver-v2) 
+  - [Create connection &ndash; Credentials InfluxDB driver V1](#create-connection-–-credentials-influxdb-driver-v1)   
+  - [Create connection &ndash; Credentials InfluxDB driver V2](#create-connection-–-credentials-influxdb-driver-v2) 
     
 
 ## Create connection &ndash; Credentials InfluxDB driver V1
@@ -144,16 +141,15 @@ The fields displayed in the *Credentials* section vary depending on the selected
     Selected driver name. This drop-down list is read-only.
 
     The fields displayed in the *Credentials* section vary depending on the selected driver version. For a detailed description of this section and the corresponding functions, see the applicable interface: 
-  - [Edit connection &ndash; Credentials InfluxDB driver V1](#edit-connection--credentials-influxdb-driver-v1)   
-  - [Edit connection &ndash; Credentials InfluxDB driver V2](#edit-connection--credentials-influxdb-driver-v2) 
+  - [Edit connection &ndash; Credentials InfluxDB driver V1](#edit-connection-–-credentials-influxdb-driver-v1)   
+  - [Edit connection &ndash; Credentials InfluxDB driver V2](#edit-connection-–-credentials-influxdb-driver-v2) 
     
 
 ## Edit connection &ndash; Credentials InfluxDB driver V1
 
 *Database and reporting > Settings > Tab CONNECTIONS > Select a connection with InfluxDB driver V1*
 
-![Edit credentials InfluxDB driver V1](../../Assets/Screenshots/DatabaseAndReporting/Settings/Connections/EditConnection.png "[Edit credentials InfluxDB driver V1]")
-
+![Edit credentials InfluxDB driver V1](../../Assets/Screenshots/DatabaseAndReporting/Settings/Connections/EditConnectionV1.png "[Edit credentials InfluxDB driver V1]")
 
 **Credentials** 
 
@@ -177,9 +173,7 @@ The fields displayed in the *Credentials* section vary depending on the selected
 
 *Database and reporting > Settings > Tab CONNECTIONS > Select a connection with InfluxDB driver V2*
 
-![Edit credentials InfluxDB driver V2](../../Assets/Screenshots/DatabaseAndReporting/Settings/Connections/ScreenshotFehlt.png "[Edit credentials InfluxDB driver V2]")
-
-[comment]: <> (Screenshot ziehen / ziehen lassen)
+![Edit credentials InfluxDB driver V2](../../Assets/Screenshots/DatabaseAndReporting/Settings/Connections/EditConnectionV2.png "[Edit credentials InfluxDB driver V2]")
 
 **Credentials** 
 
