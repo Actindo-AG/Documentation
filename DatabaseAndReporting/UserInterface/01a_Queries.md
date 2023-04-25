@@ -11,7 +11,7 @@
 **Query categories tree**
 
  - ![Folders](../../Assets/Icons/Folders01.png "[Folders]") (Folders)  
-    Query category that contains query sub-categories. Click the arrow *>* left to the query category to unfold it and display the query sub-categories. Select the query category to display all queries that are assigned to it in the *Queries* list.
+    Query category that contains query sub-categories. Click the arrow left to the query category to unfold it and display the query sub-categories. Select the query category to display all queries that are assigned to it in the *Queries* list.
 
 - ![Folder](../../Assets/Icons/Folder01.png "[Folder]") (Folder)  
     Query sub-category. Click the query sub-category to display all queries that are assigned to it in the *Queries* list.
@@ -125,7 +125,7 @@ The list displays all predefined queries. Depending on the settings, the display
 - [x] Write access enabled   
     Click the checkbox to enable write access.
    
-- [TRY QUERY] (READ ONLY)   
+- [TRY QUERY (READ ONLY)]   
     Click this button to try the defined query. The *Try query result* box is displayed.
 
 - [CANCEL]  
@@ -172,7 +172,7 @@ The list displays all predefined queries. Depending on the settings, the display
 - [x] Write access enabled  
     Click the checkbox to enable/disable write access.
    
-- [TRY QUERY] (READ ONLY)   
+- [TRY QUERY (READ ONLY)]   
     Click this button to try the edited query. The *Try query result* box is displayed.
 
 - [CANCEL]  
@@ -196,7 +196,7 @@ The list displays all predefined queries. Depending on the settings, the display
     Click this button to cancel executing the query. The *Execute saved query* is closed.
 
 - [EXECUTE]  
-    Click this button to execute the query. The *Execute saved query* is closed. The query results are displayed in a new window or downloaded in a CSV or XML file to the downloads folder depending on the option previously selected. 
+    Click this button to execute the query. The *Execute saved query* is closed. The query results are displayed in a new window or downloaded in a CSV or XML file to the downloads folder of your device depending on the option previously selected. 
 
 
 ## Bind query parameters placeholders
@@ -219,4 +219,4 @@ The list displays all predefined queries. Depending on the settings, the display
     Click this button to cancel executing the query. The *Bind query parameters placeholders* is closed.
 
 - [EXECUTE]  
-    Click this button to execute the query. The *Bind query parameters placeholders* is closed. The query results are displayed in a new window or downloaded in a CSV or XML file to your downloads folder depending on the option previously selected.
+    Click this button to execute the query. The *Bind query parameters placeholders* is closed. The query results are displayed in a new window or downloaded in a CSV or XML file to the downloads folder of your device depending on the option previously selected.
