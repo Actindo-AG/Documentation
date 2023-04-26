@@ -1,3 +1,4 @@
+[!!Manage the user rights](../Integration/05_ManageUserRights.md)
 [!!Execute queries in MySQL console](../Operation/02_ExecuteQueriesMySQLConsole.md)
 
 # Interactive console
@@ -13,6 +14,7 @@
     Enter your SQL query following the interactive command prompt and press the **ENTER** key to execute it. The results are presented in an ASCII table format in the interactive console.  
 
 
+
 ## Warning
 
 *Database and reporting > My SQL console > Tab INTERACTIVE CONSOLE > Enable toggle Write access*
@@ -21,6 +23,7 @@
 
 - [OK]   
     Click this button to confirm the write access activation. The *Warning* window is closed. The text in the interactive console turns red. Now it is possible to execute SQL queries with write operations in the interactive console.
+
 
 
 ## Interactive console with write access

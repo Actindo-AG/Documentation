@@ -1,4 +1,5 @@
-[!!Manage InfluxDB time series](./01b_InfluxDBTimeSeries.md)
+[!!Manage InfluxDB time series](../Integration/03_ManageInfluxDBTimeSeries.md)
+[!!Manage the user rights](../Integration/05_ManageUserRights.md)
 
 #  InfluxDB time series
 
@@ -63,6 +64,7 @@ The list displays all InfluxDB time series. Depending on the settings, the displ
     Click this button to create an InfluxDB time series. The *Create InfluxDB time series* view is displayed, see [Create InfluxDB time series](#create-influxdb-time-series).  
 
 
+
 ## Create InfluxDB time series
 
 *Database and reporting > Managed queries > Tab INFLUXDB TIME SERIES > Button Add*
@@ -111,6 +113,8 @@ The list displays all InfluxDB time series. Depending on the settings, the displ
     Click this button to remove a field from the *Field columns* box. This button is displayed to the right of a newly added input line.
 - [SAVE]  
     Click this button to save the InfluxDB time series. The *Create InfluxDB time series* view is closed. The new InfluxDB time series is displayed in the list of InfluxDB time series.
+
+
 
 ## Edit InfluxDB time series
 

@@ -1,6 +1,9 @@
-[!!User interface Query categories](../UserInterface/03b_QueryCategories.md)
-[!!Manage the categories](./01_ManageCategories.md)
-[!!Manage the query categories](./02_ManageQueryCategories.md)
+[!!User interface Query categories](./03b_QueryCategories.md)
+[!!Manage the queries](../Integration/01_ManageQueries.md)
+[!!Manage the query categories](../Integration/02_ManageQueryCategories.md)
+[!!Manage the user rights](../Integration/05_ManageUserRights.md)
+[!!Execute the managed queries](../Operation/01_ExecuteManagedQueries.md)
+ 
 
 #  Queries
 
@@ -96,6 +99,7 @@ The list displays all predefined queries. Depending on the settings, the display
     Click this button to create a query. The *Create MySQL query* view is displayed, see [Create MySQL query](#create-mysql-query).   
 
 
+
  ## Create MySQL query
 
 *Database and reporting > Managed queries > Tab QUERIES > Button Add*
@@ -133,6 +137,7 @@ The list displays all predefined queries. Depending on the settings, the display
 
 - [SAVE]  
     Click this button to save the query. The *Create MySQL query* view is closed. The new query is displayed in the list of queries.
+
 
 
 ## Edit MySQL query
@@ -182,7 +187,8 @@ The list displays all predefined queries. Depending on the settings, the display
     Click this button to save any changes made. The *Edit MySQL query* view is closed. All changes have been applied.
 
 
-## Execute saved query
+
+### Execute saved query
 
 *Database and reporting > Managed queries > Tab QUERIES > Select query checkbox > Button View*  
 *Database and reporting > Managed queries > Tab QUERIES > Select query checkbox > Button Download*  
@@ -199,7 +205,8 @@ The list displays all predefined queries. Depending on the settings, the display
     Click this button to execute the query. The *Execute saved query* is closed. The query results are displayed in a new window or downloaded in a CSV or XML file to the downloads folder of your device depending on the option previously selected. 
 
 
-## Bind query parameters placeholders
+
+### Bind query parameters placeholders
 
 *Database and reporting > Managed queries > Tab QUERIES > Select query checkbox > Button View*  
 *Database and reporting > Managed queries > Tab QUERIES > Select query checkbox > Button Download*  

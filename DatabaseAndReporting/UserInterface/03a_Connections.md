@@ -1,4 +1,5 @@
 [!!Manage the connections](../Integration/04_ManageConnections.md)
+[!!Manage the user rights](../Integration/05_ManageUserRights.md)
 
 # Connections
 
@@ -20,7 +21,6 @@
 - ![Edit](../../Assets/Icons/Edit01.png "[Edit]") (Edit)  
     Click this button to edit the selected connection. This button is only displayed if a single checkbox in the list of connections is selected. Alternatively, you can click directly a row in the list to edit a connection. The *Edit connection* view is displayed, see [Edit connection](#edit-connection).
 
-
 The list displays all available connections. Depending on the settings, the displayed columns may vary. All fields are read-only.
 
 - *Name*  
@@ -36,6 +36,7 @@ The list displays all available connections. Depending on the settings, the disp
 
 - ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add)  
     Click this button to add a connection. The *Create connection* view is displayed, see [Create connection](#create-connection).
+
 
 
 ## Create connection
@@ -72,6 +73,7 @@ The fields displayed in the *Credentials* section vary depending on the selected
   - [Create connection &ndash; Credentials InfluxDB driver V2](#create-connection-–-credentials-influxdb-driver-v2) 
     
 
+
 ## Create connection &ndash; Credentials InfluxDB driver V1
 
 *Database and reporting > Settings > Tab CONNECTIONS > Button Add > Select InfluxDB driver V1*
@@ -94,6 +96,7 @@ The fields displayed in the *Credentials* section vary depending on the selected
     Click this button to save the connection.
 
     
+
 ## Create connection &ndash; Credentials InfluxDB driver V2
 
 *Database and reporting > Settings > Tab CONNECTIONS > Button Add > Select InfluxDB driver V2*
@@ -114,6 +117,7 @@ The fields displayed in the *Credentials* section vary depending on the selected
 
 - [SAVE]  
     Click this button to save the connection.
+
 
 
 ## Edit connection
@@ -145,6 +149,7 @@ The fields displayed in the *Credentials* section vary depending on the selected
   - [Edit connection &ndash; Credentials InfluxDB driver V2](#edit-connection-–-credentials-influxdb-driver-v2) 
     
 
+
 ## Edit connection &ndash; Credentials InfluxDB driver V1
 
 *Database and reporting > Settings > Tab CONNECTIONS > Select a connection with InfluxDB driver V1*
@@ -167,6 +172,7 @@ The fields displayed in the *Credentials* section vary depending on the selected
 
 - [SAVE]  
     Click this button to save any changes made.
+
 
 
 ## Edit connection &ndash; Credentials InfluxDB driver V2

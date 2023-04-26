@@ -63,6 +63,7 @@ The list displays all intents. Depending on the settings, the displayed columns 
     Complete log message.
 
 
+
 ## List of messages
 
 *Database and reporting > Logging > Tab LOG > Select intent*
@@ -123,6 +124,7 @@ The list displays all log messages of the selected intent. Depending on the sett
     Log identification number. The ID number is automatically assigned by the system.
 
 
+
 ### Detail of log message "Log message title"
 
 *Database and reporting > Logging > Tab LOG > Select intent > Select log message*
@@ -137,6 +139,8 @@ The list displays all log messages of the selected intent. Depending on the sett
 
 - *Message*  
     Description of the log message.
+
+
 
 ### Detail of log message "Log message title" &ndash; Attributes
 
@@ -184,6 +188,7 @@ In general, the most common attribute sets are the standard error log message at
 
 - *Exception*   
     Description of the error. An exception is only displayed if an error has occurred and a http status code of the **4xx** class, for instance a **404** code, has been returned.
+
 
 
 ### Detail of log message "Log message title" &ndash; Dependencies
