@@ -1,10 +1,10 @@
 # General information
 
-The integration of the Actindo *Omni-Channel* module with the Amazon marketplace enables listing, inventory and pricing from the central PIM master data for all products with ASIN.
+The integration of the Actindo *Omni-Channel* module with the Amazon marketplace enables listing, inventory and pricing updates from the central PIM master data for all products with an ASIN.
 
 Amazon orders can be managed and distributed using the integrated order management, warehouse management and integrated support for other fulfillers including Amazon FBA. Order status, tracking numbers and invoice documents are automatically updated in Amazon. 
 
-To speed up the initial setup, the sellers's listings can be downloaded and linked to PIM products automatically.
+To speed up the initial setup, the sellers's listings can be imported and linked to PIM products automatically.
 
 This documentation refers to *Omni-Channel Amazon Integration* plugin version 4.1.0. There may be differences in the UI, features and operation if your *Omni-Channel Amazon Integration* plugin is installed in a different version.
 
