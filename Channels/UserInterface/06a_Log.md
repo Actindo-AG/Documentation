@@ -107,7 +107,7 @@ The list displays all intents. Depending on the settings, the displayed columns 
     Click this button to download the displayed log message.
 
 - ![View](../../Assets/Icons/Eye02.png "[View]") (View)    
-    Click this button to display the details of the log message. Alternatively, you can click directly a row in the list to display the details of the log message. The *Detail of log message "Log message title"* view is displayed, see [Detail of log message "Log message title"](#detail-of-log-message-log-message-title). 
+    Click this button to display the details of the log message. Alternatively, you can click directly a row in the list to display the details of the log message. The *Detail of log message "Log message title"* view is displayed, see [Detail of log message](#detail-of-log-message). 
 
 The list displays all log messages of the selected intent. Depending on the settings, the displayed columns may vary. All fields are read-only.
 
@@ -138,7 +138,7 @@ The list displays all log messages of the selected intent. Depending on the sett
     Log identification number. The ID number is automatically assigned by the system.
 
 
-### Detail of log message "Log message title"
+### Detail of log message
 
 *Omni-Channel > Logging > Tab LOG > Select intent > Select log message*
 
@@ -154,15 +154,15 @@ The list displays all log messages of the selected intent. Depending on the sett
     Description of the log message.
 
 This view can also be accessed from the following tabs in the user interface:
-- [ERRORS (Offer upload)](./03b_Errors.md#detail-of-log-message-log-message-title)
-- [OFFER IMPORT](./04a_OfferImport.md#detail-of-log-message-log-message-title)
-- [ERRORS (Orders and returns)](./05c_Errors.md#detail-of-log-message-log-message-title)
-- [SHIPMENT ERRORS](./05d_ShipmentErrors.md#detail-of-log-message-log-message-title)
-- [CANCELLATION ERRORS](./05e_CancellationErrors.md#detail-of-log-message-log-message-title)
-- [SCHEDULED EXPORTS](./05f_ScheduledExports.md#detail-of-log-message-log-message-title)
+- [ERRORS (Offer upload)](./03b_Errors.md#detail-of-log-message)
+- [OFFER IMPORT](./04a_OfferImport.md#detail-of-log-message)
+- [ERRORS (Orders and returns)](./05c_Errors.md#detail-of-log-message)
+- [SHIPMENT ERRORS](./05d_ShipmentErrors.md#detail-of-log-message)
+- [CANCELLATION ERRORS](./05e_CancellationErrors.md#detail-of-log-message)
+- [SCHEDULED EXPORTS](./05f_ScheduledExports.md#detail-of-log-message)
 
 
-### Detail of log message "Log message title" &ndash; Attributes
+### Detail of log message &ndash; Attributes
 
 *Omni-Channel > Logging > Tab LOG > Select intent > Select log message > Tab Attributes*
 
@@ -210,7 +210,7 @@ In general, the most common attribute sets are the standard error log message at
     Description of the error. An exception is only displayed if an error has occurred and a http status code of the **4xx** class, for instance a **404** code has been returned.
 
 
-### Detail of log message "Log message title" &ndash; Dependencies
+### Detail of log message &ndash; Dependencies
 
 *Omni-Channel > Logging > Tab LOG > Select intent > Select log message > Tab Dependencies*
 

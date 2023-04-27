@@ -168,7 +168,7 @@ The list displays all returns, either for all connections or for the selected co
 
 
 
-## Return from connection "Connection name"
+## Return from connection
 
 *Omni-Channel > Orders and returns > Tab RETURNS > Select return*
 
@@ -212,16 +212,16 @@ The list displays all returns, either for all connections or for the selected co
 [comment]: <> (Button umbenennen in RETRY IMPORT -> Konsistenz! -> FETA-16)
 
 The *Return from connection "Connection name"* view is composed of the following tabs:
-- [Return from connection "Connection name" &ndash; Attributes](#return-from-connection-connection-name-–-attributes)
-- [Return from connection "Connection name" &ndash; Dependencies](#return-from-connection-connection-name-–-dependencies)
-- [Return from connection "Connection name" &ndash; Line items](#return-from-connection-connection-name-–-line-items)
-- [Return from connection "Connection name" &ndash; Shipments](#return-from-connection-connection-name-–-shipments)
-- [Return from connection "Connection name" &ndash; Cancellations](#return-from-connection-connection-name-–-cancellations)
-- [Return from connection "Connection name" &ndash; Errors](#return-from-connection-connection-name-–-errors)
+- [Return from connection &ndash; Attributes](#return-from-connection-–-attributes)
+- [Return from connection &ndash; Dependencies](#return-from-connection-–-dependencies)
+- [Return from connection &ndash; Line items](#return-from-connection-–-line-items)
+- [Return from connection &ndash; Shipments](#return-from-connection-–-shipments)
+- [Return from connection &ndash; Cancellations](#return-from-connection-–-cancellations)
+- [Return from connection &ndash; Errors](#return-from-connection-–-errors)
 
 
 
-## Return from connection "Connection name" &ndash; Attributes
+## Return from connection &ndash; Attributes
 
 *Omni-Channel > Orders and returns > Tab RETURNS > Select return > Tab Attributes*
 
@@ -242,7 +242,7 @@ The right side of the *Attributes* tab displays all attributes that are assigned
 
 
 
-## Return from connection "Connection name" &ndash; Dependencies
+## Return from connection &ndash; Dependencies
 
 *Omni-Channel > Orders and returns > Tab RETURNS > Select return > Tab Dependencies*
 
@@ -282,7 +282,7 @@ The list displays all dependencies of the selected return. Depending on the sett
 
 
 
-## Return from connection "Connection name" &ndash; Line items
+## Return from connection &ndash; Line items
 
 *Omni-Channel > Orders and returns > Tab RETURNS > Select return > Tab Line items*
 
@@ -440,7 +440,7 @@ The list displays all dependencies of the selected line item. Depending on the s
 
 
 
-## Return from connection "Connection name" &ndash; Shipments
+## Return from connection &ndash; Shipments
 
 *Omni-Channel > Orders and returns > Tab RETURNS > Select return > Tab Shipments*
 
@@ -510,12 +510,12 @@ The list displays all shipments for the selected return. Depending on the settin
     Click this button to close the *Shipment for return "Return ID"* view.
 
 The *Shipment for return "Return ID"* view is composed of the following tabs:
-- [Shipment for return "Return ID" &ndash; Attributes](#shipment-for-return-return-id-–-attributes)
-- [Shipment for return "Return ID" &ndash; Dependencies](#shipment-for-return-return-id-–-dependencies)
-- [Shipment for return "Return ID" &ndash; Shipment line items](#shipment-for-return-return-id-–-shipment-line-items)
+- [Shipment for return &ndash; Attributes](#shipment-for-return-–-attributes)
+- [Shipment for return &ndash; Dependencies](#shipment-for-return-–-dependencies)
+- [Shipment for return &ndash; Shipment line items](#shipment-for-return-–-shipment-line-items)
 
 
-### Shipment for return "Return ID" &ndash; Attributes
+### Shipment for return &ndash; Attributes
 
 *Omni-Channel > Orders and returns > Tab RETURNS > Select return > Tab Shipments > Select shipment > Tab Attributes*
 
@@ -535,7 +535,7 @@ The right side of the *Attributes* tab displays all attributes that are assigned
     Click this button to collapse or expand the left margin column with the attribute groups. When the left margin is expanded and you click this button, the column is collapsed. When the column is collapsed and you click this button, the column is expanded.
 
 
-### Shipment for return "Return ID" &ndash; Dependencies
+### Shipment for return &ndash; Dependencies
 
 *Omni-Channel > Orders and returns > Tab RETURNS > Select return > Tab Shipments > Select shipment > Tab Dependencies*
 
@@ -574,7 +574,7 @@ The list displays all dependencies of the selected shipment. Depending on the se
     Further, more descriptive identifier of the dependent entity, for instance the SKU number or a bill number.
 
 
-### Shipment for return "Return ID" &ndash; Shipment line items
+### Shipment for return &ndash; Shipment line items
 
 *Omni-Channel > Orders and returns > Tab RETURNS > Select return > Tab Shipments > Select shipment > Tab Shipment line items*
 
@@ -687,7 +687,7 @@ The list displays all dependencies of the selected shipment line item. Depending
 
 
 
-## Return from connection "Connection name" &ndash; Cancellations
+## Return from connection &ndash; Cancellations
 
 *Omni-Channel > Orders and returns > Tab RETURNS > Select return > Tab Cancellations*
 
@@ -753,12 +753,12 @@ The list displays all cancellations for the selected return. Depending on the se
     Click this button to close the *Cancellation for return "Return ID"* view.
 
 The *Cancellation for return "Return ID"* view is composed of the following tabs:
-- [Cancellation for return "Return ID" &ndash; Attributes](#cancellation-for-return-return-id-–-attributes)
-- [Cancellation for return "Return ID" &ndash; Dependencies](#cancellation-for-return-return-id-–-dependencies)
-- [Cancellation for return "Return ID" &ndash; Cancellation line items](#cancellation-for-return-return-id-–-cancellation-line-items)
+- [Cancellation for return &ndash; Attributes](#cancellation-for-return-–-attributes)
+- [Cancellation for return &ndash; Dependencies](#cancellation-for-return-–-dependencies)
+- [Cancellation for return &ndash; Cancellation line items](#cancellation-for-return-–-cancellation-line-items)
 
 
-### Cancellation for return "Return ID" &ndash; Attributes
+### Cancellation for return &ndash; Attributes
 
 *Omni-Channel > Orders and returns > Tab RETURNS > Select return > Tab Cancellations > Select cancellation > Tab Attributes*
 
@@ -778,7 +778,7 @@ The right side of the *Attributes* tab displays all attributes that are assigned
     Click this button to collapse or expand the left margin column with the attribute groups. When the left margin is expanded and you click this button, the column is collapsed. When the column is collapsed and you click this button, the column is expanded.
 
 
-### Cancellation for return "Return ID" &ndash; Dependencies
+### Cancellation for return &ndash; Dependencies
 
 *Omni-Channel > Orders and returns > Tab RETURNS > Select return > Tab Cancellations > Select cancellation > Tab Dependencies*
 
@@ -817,7 +817,7 @@ The list displays all dependencies of the selected cancellation. Depending on th
     Further, more descriptive identifier of the dependent entity, for instance the SKU number or a bill number.
 
 
-### Cancellation for return "Return ID" &ndash; Cancellation line items
+### Cancellation for return &ndash; Cancellation line items
 
 *Omni-Channel > Orders and returns > Tab RETURNS > Select return > Tab Cancellations > Select cancellation > Tab Cancellation line items*
 
@@ -930,7 +930,7 @@ The list displays all dependencies of the selected cancellation. Depending on th
 
 
 
-## Return from connection "Connection name" &ndash; Errors
+## Return from connection &ndash; Errors
 
 *Omni-Channel > Orders and returns > Tab RETURNS > Select return > Tab Errors*
 

@@ -25,7 +25,7 @@
     Select the checkbox to display the editing toolbar. If you click the checkbox in the header, all shipment errors in the list are selected.
 
 - [SHOW LOG]  
-    Click this button to display the details of the shipment error log message. This button is only displayed if a single checkbox in the list of shipment errors is selected. Alternatively, you can click directly a row in the list to display the details of the shipment error log message. The *Detail of log message "Log message title"* view is displayed, see [Detail of log message "Log message title"](#detail-of-log-message-log-message-title).
+    Click this button to display the details of the shipment error log message. This button is only displayed if a single checkbox in the list of shipment errors is selected. Alternatively, you can click directly a row in the list to display the details of the shipment error log message. The *Detail of log message "Log message title"* view is displayed, see [Detail of log message](#detail-of-log-message).
 
 The list displays all errors to the shipments. Depending on the settings, the displayed columns may vary. All fields are read-only. If no error has occurred, the *There are currently no errors* notice is displayed.
 
@@ -66,10 +66,10 @@ The list displays all errors to the shipments. Depending on the settings, the di
     Name and username of the user who created the shipment error.
 
 
-## Detail of log message "Log message title"
+## Detail of log message
 
 *Omni-Channel > Orders and returns > Tab SHIPMENT ERRORS > Select shipment error*
 
 ![Detail of log message](../../Assets/Screenshots/Channels/OrdersReturns/ShipmentErrors/DetailLogMessageAttributes.png "[Detail of log message]")
 
-For a detailed description of this view and the corresponding functions, see [LOG](./06a_Log.md#detail-of-log-message-log-message-title).
+For a detailed description of this view and the corresponding functions, see [LOG](./06a_Log.md#detail-of-log-message).

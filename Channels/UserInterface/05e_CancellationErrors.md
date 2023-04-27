@@ -25,7 +25,7 @@
     Select the checkbox to display the editing toolbar. If you click the checkbox in the header, all cancellation errors in the list are selected.
 
 - [SHOW LOG]  
-    Click this button to display the details of the cancellation error log message. This button is only displayed if a single checkbox in the list of cancellation errors is selected. Alternatively, you can click directly a row in the list to display the details of the cancellation error log message. The *Detail of log message "Log message title"* view is displayed, see [Detail of log message "Log message title"](#detail-of-log-message-log-message-title).
+    Click this button to display the details of the cancellation error log message. This button is only displayed if a single checkbox in the list of cancellation errors is selected. Alternatively, you can click directly a row in the list to display the details of the cancellation error log message. The *Detail of log message "Log message title"* view is displayed, see [Detail of log message](#detail-of-log-message).
 
 The list displays all errors to the cancellations. Depending on the settings, the displayed columns may vary. All fields are read-only. If no cancellation error has occurred, the *There are currently no errors* notice is displayed.
 
@@ -66,7 +66,7 @@ The list displays all errors to the cancellations. Depending on the settings, th
     Name and username of the user who created the cancellation error.
 
 
-## Detail of log message "Log message title"
+## Detail of log message
 
 *Omni-Channel > Orders and returns > Tab CANCELLATION ERRORS > Select cancellation error*
 
@@ -74,5 +74,5 @@ The list displays all errors to the cancellations. Depending on the settings, th
 
 [comment]: <> (keine Testdaten -> Screenshot gebastelt, sobald verfübgbar, gegen richtigen Screenshot austauschen)
 
-For a detailed description of this view and the corresponding functions, see [LOG](./06a_Log.md#detail-of-log-message-log-message-title).
+For a detailed description of this view and the corresponding functions, see [LOG](./06a_Log.md#detail-of-log-message).
 

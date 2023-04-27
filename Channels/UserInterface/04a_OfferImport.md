@@ -85,10 +85,10 @@ The list displays all offer imports. Depending on the settings, the displayed co
     Offer identification number. The ID number is automatically assigned by the system after creation.
 
 
-## Detail of log message "Log message title"
+## Detail of log message
 
 *Omni-Channel > Offer import > Tab OFFER IMPORT > Select checkbox of a faulty import > Button DETAILS*
 
 ![Detail of log message](../../Assets/Screenshots/Channels/OfferImport/OfferImport/DetailLogMessage.png "[Detail of log message]")
 
-For a detailed description of this view and the corresponding functions, see [LOG](./06a_Log.md#detail-of-log-message-log-message-title).
+For a detailed description of this view and the corresponding functions, see [LOG](./06a_Log.md#detail-of-log-message).

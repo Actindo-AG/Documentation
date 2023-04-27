@@ -25,7 +25,7 @@
     Select the checkbox to display the editing toolbar. If you click the checkbox in the header, all errors in the list are selected.
 
 - [SHOW LOG]  
-    Click this button to display the details of the error log message. This button is only displayed if a single checkbox in the list of errors is selected. Alternatively, you can click directly a row in the list to display the details of the error log message. The *Detail of log message "Log message title"* view is displayed, see [Detail of log message "Log message title"](#detail-of-log-message-log-message-title).
+    Click this button to display the details of the error log message. This button is only displayed if a single checkbox in the list of errors is selected. Alternatively, you can click directly a row in the list to display the details of the error log message. The *Detail of log message "Log message title"* view is displayed, see [Detail of log message](#detail-of-log-message).
 
 - [VIEW ORDER]  
     Click this button to display the corresponding order to the error. This button is only displayed if a single checkbox in the list of errors is selected. The *Order from connection "Connection name"* view is displayed in the *ORDERS* tab, see [Order from connection "Connection name"](./05a_Orders.md#order-from-connection-connection-name).
@@ -81,10 +81,10 @@ The list displays all errors to the orders and returns. Depending on the setting
     Name and username of the user who created the error.
 
 
-## Detail of log message "Log message title"
+## Detail of log message
 
 *Omni-Channel > Orders and returns > Tab ERRORS > Select error*
 
 ![Detail of log message](../../Assets/Screenshots/Channels/OrdersReturns/Errors/DetailLogMessageAttributes.png "[Detail of log message]")
 
-For a detailed description of this view and the corresponding functions, see [LOG](./06a_Log.md#detail-of-log-message-log-message-title).
+For a detailed description of this view and the corresponding functions, see [LOG](./06a_Log.md#detail-of-log-message).

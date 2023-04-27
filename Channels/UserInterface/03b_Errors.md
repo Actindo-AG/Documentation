@@ -94,10 +94,10 @@ The list displays all offer export errors. Depending on the settings, the displa
 
 
 
-## Detail of log message "Log message title"
+## Detail of log message
 
 *Omni-Channel > Offer upload > Tab ERRORS > Select export error*
 
 ![Detail of log message](../../Assets/Screenshots/Channels/OfferUpload/Errors/DetailLogMessage.png "[Detail of log message]")
 
-For a detailed description of this view and the corresponding functions, see [LOG](./06a_Log.md#detail-of-log-message-log-message-title).
+For a detailed description of this view and the corresponding functions, see [LOG](./06a_Log.md#detail-of-log-message).

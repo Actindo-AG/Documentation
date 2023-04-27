@@ -22,7 +22,7 @@
     Select the checkbox to display the editing toolbar. If you click the checkbox in the header, all orders in the list are selected.
 
 - [SHOW LOG]  
-    Click this button to display the details of the log message. This button is only displayed if a single checkbox of a faulty export in the list of scheduled exports is selected. The *Detail of log message "Log message title"* view is displayed, see [Detail of log message "Log message title"](#detail-of-log-message-log-message-title).
+    Click this button to display the details of the log message. This button is only displayed if a single checkbox of a faulty export in the list of scheduled exports is selected. The *Detail of log message "Log message title"* view is displayed, see [Detail of log message](#detail-of-log-message).
 
 - [RETRY EXPORT]  
     Click this button to retry the selected scheduled export(s). This button is only displayed if the checkbox of at least one faulty scheduled export is selected.
@@ -58,11 +58,11 @@ The list displays all scheduled exports. Depending on the settings, the displaye
         The error has occurred in a return.
 
 
-## Detail of log message "Log message title"
+## Detail of log message
 
 *Omni-Channel > Orders and returns > Tab SCHEDULED EXPORTS > Select checkbox of a faulty export > Button SHOW LOG*
 
 ![Detail of log message](../../Assets/Screenshots/Channels/OrdersReturns/ScheduledExports/DetailLogMessageAttributes.png "[Detail of log message]")
 
-For a detailed description of this view and the corresponding functions, see [LOG](./06a_Log.md#detail-of-log-message-log-message-title).
+For a detailed description of this view and the corresponding functions, see [LOG](./06a_Log.md#detail-of-log-message).
 
