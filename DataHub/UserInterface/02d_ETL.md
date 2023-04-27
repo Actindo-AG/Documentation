@@ -1,7 +1,8 @@
-[!!Manage the ETL mappings](../Operation/01_ManageETLMappings.md)
-[!!Manage the attributes](../Operation/01_ManageAttributes.md)
 [!!ETL extensions list](./03_ETLExtensions.md)
 [!!Data type list](./04_DataTypeList.md)
+[!!Manage the attributes](../Integration/01_ManageAttributes.md)
+[!!Manage the attribute sets](../Integration/02_ManageAttributeSets.md)
+[!!Manage the ETL mappings](../Operation/01_ManageETLMappings.md)
 
 # ETL
 
@@ -13,8 +14,6 @@
 
 - ![Search](../../Assets/Icons/Search.png "[Search]") (Search)   
     Click this button to display the search bar and search for an attribute set.
-
-[comment]: <> (Wonach kann ich suchen? Source und Destination Attribute set?)
 
 - ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh)   
     Click this button to update the list of attribute set mappings.
@@ -71,8 +70,6 @@ The list displays all attribute set mappings. Depending on the settings, the dis
 - *Source attribute set*   
     Click the drop-down list and select the appropriate source attribute set for the mapping. All attribute sets are displayed in the drop-down list. Use the search bar in the drop-down list to search for an attribute set.
 
-[comment]: <> (Die Search bar funktioniert nicht richtig. Ich springe einfach in die Liste und raus aus der Suche...)
-
 - *Destination attribute set*   
     Click the drop-down list and select the appropriate destination attribute set for the mapping. All attribute sets are displayed in the drop-down list. Use the search bar in the drop-down list to search for an attribute set. The *Copy ETL attribute set mapping* drop-down list is unlocked if any attribute set mapping with the selected destination attribute set already exists.
 
@@ -113,8 +110,6 @@ The list displays all attribute set mappings. Depending on the settings, the dis
 - ![Search](../../Assets/Icons/Search.png "[Search]") (Search)   
     Click this button to display the search bar and search for an attribute.
 
-[comment]: <> (Wonach kann ich suchen? Source und Destination Attribute)
-
 - ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh)   
     Click this button to update the list of attribute mappings.
 
@@ -135,8 +130,6 @@ The list displays all attribute set mappings. Depending on the settings, the dis
 
 - [ADD TO SOURCE SET AND MAP]   
     Click this button to add the selected destination attribute to the source attribute set and create a mapping. By default, the *Identity-mapping* extension is used to map the attributes. The button is only displayed if no mapping to the selected destination attribute already exists.
-
-[comment]: <> (Stimmt das? Warum wird mir bei dem Attribut ve die Option nie angezeigt?)
 
 - [RERUN SELECTED MAPPING]   
     Click this button to rerun the selected attribute mapping. The button is only displayed if a mapping to the selected destination attribute already exists. The *Rerun single mapping* window is displayed.
@@ -173,7 +166,7 @@ Depending on the selected row in the list of mappings, the fields displayed in t
 - [SAVE]   
     Click this button to save any changes to the attribute mapping. The *Settings* section is hidden.
 
-- Destination attribute   
+- *"Destination attribute name"*   
     The selected destination attribute is displayed in the arrow box on the right side. This field is read-only.
 
 - *Extension*   
@@ -185,9 +178,9 @@ Depending on the selected row in the list of mappings, the fields displayed in t
         The mapping configured in the dependency of the specific entities is applied.
     - **Automatic**   
         The initial mapping is automatically applied. All value changes or reruns are applied automatically in the mapping.  
-    - **Semi-automatic**   
+    - **Semiautomatic**   
         The initial mapping is automatically applied. Value changes or reruns are applied after confirmation.
-    - **Semi-automatic, changes must be confirmed by another user**   
+    - **Semiautomatic, changes must be confirmed by another user**   
         The initial mapping as well as value changes or reruns are applied after confirmation by another user.
     - **Manual**   
         The initial mapping is automatically applied. Afterwards, the changes in the mapping must be triggered manually to be applied.
@@ -198,7 +191,6 @@ Depending on the selected row in the list of mappings, the fields displayed in t
 **Configuration**
 
 The *Configuration* section displays the additional configuration for the mapping. The configuration fields differ depending on the selected ETL extension.    
-
 
 
 ### Rerun all mappings

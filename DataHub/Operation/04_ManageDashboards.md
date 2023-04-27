@@ -81,7 +81,6 @@ A dashboard tab has been created, see [Create a dashboard](#create-a-dashboard).
     > [Info] If you want to change the dashlet positioning, see [Change the dashlets arrangement](#change-the-dashlets-arrangement).
 
 
-
 ### Change the viewport
 
 Change the viewport to adjust the view of the dashboard to the currently used device.
@@ -104,7 +103,6 @@ A dashboard tab has been created, see [Create a dashboard](#create-a-dashboard).
 
     ![Edit tab](../../Assets/Screenshots/DataHub/Overview/EditTab.png "[EditTab]")
 
-
 3. Click the *Select viewport* drop-down list in the upper left corner and select the desired view format. The following views are available:
     - **Automatic**   
         The system automatically detects the appropriate view and applies it to the tab.
@@ -119,12 +117,10 @@ A dashboard tab has been created, see [Create a dashboard](#create-a-dashboard).
 
     The tab layout has been adapted to the selected view. The *Viewport loaded* notice is displayed in the footer.
 
-
 4. Click the [SAVE] button.   
     Any changes to the dashboard have been saved. The *Edit tab* view is closed.
 
-[comment]: <> (Wenn ich den Mobile viewport wählen, verschwinden alle Dashlets -> Bug?!)
-
+[comment]: <> (Wenn ich einen anderen viewport wählen, verschwinden alle Dashlets -> BUG-219)
 
 
 ### Change the dashlets arrangement
@@ -158,7 +154,6 @@ Change the arrangement of the dashlets on a dashboard to optimize the view for y
 
 5. Click the [SAVE] button.   
     Any changes to the dashboard have been saved. The *Edit tab* view is closed.
-
 
 
 ### Remove a dashlet

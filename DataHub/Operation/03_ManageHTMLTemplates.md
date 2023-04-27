@@ -6,13 +6,14 @@ HTML templates are mainly used for email messages such as confirmations or shipp
 HTML templates allow you to generate HTML content from data based on templates using the *Smarty template engine*.
 Further, you are able to include data from all available source entities in HTML as well as all sub-entities if they are present in the JSON representation of the source entity using the HTML templates.
 
+
 ## Create an HTML template
 
 Create an HTML template so that it is available for the ETL mapping.
 
 #### Prerequisites
 
-The *HTML Templates for ETL* plugin has been installed.
+The *HTML Templates for ETL* plugin version 1.1.2 or higher has been installed.
 
 #### Procedure
 
@@ -44,7 +45,7 @@ You can include HTML text in the HTML template.
 
 #### Prerequisites
 
-The *HTML Templates for ETL* plugin has been installed.
+The *HTML Templates for ETL* plugin version 1.1.2 or higher has been installed.
 
 #### Procedure
 
@@ -73,7 +74,7 @@ Always use the delimiters *{}* as separator for the Smarty templates.
 
 #### Prerequisites
 
-The *HTML Templates for ETL* plugin has been installed.
+The *HTML Templates for ETL* plugin version 1.1.2 or higher has been installed.
 
 #### Procedure
 
@@ -101,7 +102,7 @@ Always use the *$* sign to introduce an attribute variable.
 
 #### Prerequisites
 
-The *HTML Templates for ETL* plugin has been installed.
+The *HTML Templates for ETL* plugin version 1.1.2 or higher has been installed.
 
 #### Procedure
 
@@ -144,7 +145,7 @@ The special rules to be followed to correctly include a tree node variable are d
 
 #### Prerequisites
 
-- The *HTML Templates for ETL* plugin has been installed.
+- The *HTML Templates for ETL* plugin version 1.1.2 or higher has been installed.
 - At least one tree node variable is available.
 
 #### Procedure
@@ -159,7 +160,9 @@ The special rules to be followed to correctly include a tree node variable are d
 
 2. Include a tree node variable by doing the following:
     + Add **{datahub_translatable_value entity=$entity property="PropertyKey" languageKey=$languageKey entityTypeClassName="Actindo\Modules\Actindo\DataHub\Models\Tenant\TreeNode"}** to the textarea.
+
     + Define the tree node attribute you want to include a variable for by adding the corresponding attribute key as a suffix to the entity variable.
+
     + Replace **"PropertyKey"** between the quotes by the desired property key of the corresponding tree node variable.
 
 3. If desired, display a [preview of the HTML template](#preview-an-html-template).
@@ -176,7 +179,7 @@ The special rules to be followed to correctly include such a variable via Smarty
 
 #### Prerequisites
 
-The *HTML Templates for ETL* plugin has been installed.
+The *HTML Templates for ETL* plugin version 1.1.2 or higher has been installed.
 
 #### Procedure
 
@@ -190,7 +193,9 @@ The *HTML Templates for ETL* plugin has been installed.
 
 2. Include language adjustable variable by doing the following:
     + Add **{datahub_attribute_value entity=$entity attributeKey="attributeKey" scopeKey="scopeKey" languageKey=$languageKey}** to the textarea.
+
     + Replace **"attributeKey"** between the quotes by the desired attribute key, for instance use **"pim_art_name"** for the PIM product name.
+    
     + Replace **"scopeKey"** between the quotes by the desired channel key, for instance use **"actindo_basic** for the *Actindo Basic* channel.
 
 3. If desired, display a preview of the HTML template, see [Preview an HTML template](#preview-an-html-template).
@@ -234,7 +239,7 @@ It is possible to display all available variables of a certain entity so that yo
 
 #### Prerequisites
 
-The *HTML Templates for ETL* plugin has been installed.
+The *HTML Templates for ETL* plugin version 1.1.2 or higher has been installed.
 
 #### Procedure
 

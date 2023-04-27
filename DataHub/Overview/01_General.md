@@ -18,7 +18,7 @@ The *DataHub* module offers the following benefits:
 
 ## Prerequisites
 
-- The *Länder und Sprachen* plugin version 1.1.0 or higher is installed.
+- The *Countries and languages* plugin version 1.1.0 or higher is installed.
 - The *Currency* plugin version 1.0.4 or higher is installed.
 - The *Dashboard* plugin version 1.2.0 or higher is installed.
 - The *UI Components* plugin version 1.0.1 or higher is installed.

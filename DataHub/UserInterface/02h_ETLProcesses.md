@@ -54,7 +54,7 @@
         All ETL processes that are executed synchronously are displayed for the duration of processing.
     - **Awaiting confirmation different user**   
         All ETL processes that must be confirmed by a user other than the creator are displayed.
-    - **Semi-automatic accepted**   
+    - **Semiautomatic accepted**   
         All ETL processes that have been confirmed are displayed.
 
 - ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh)   
@@ -82,7 +82,7 @@ Depending on the selection in the *Status filter* drop-down list, the ETL proces
     - **Awaiting confirmation**
     - **Synchronous**
     - **Awaiting confirmation diff. user**
-    - **Semi-automatic accepted**  
+    - **Semiautomatic accepted**  
 
 - *From-to*   
     Name of the source and the destination entity. The SKUs of the entities are indicated in brackets after the names.  
@@ -106,17 +106,16 @@ Depending on the selection in the *Status filter* drop-down list, the ETL proces
     Destination channel to which the process is mapped.
 
 - *Accepted on*   
-    Date and time of the confirmation. This field is only displayed for ETL processes with the **Semi-automatic accepted** status.
+    Date and time of the confirmation. This field is only displayed for ETL processes with the **Semiautomatic accepted** status.
 
 - *Accepted by*   
-    Name and username of the user who confirmed the process. This field is only displayed for ETL processes with the **Semi-automatic accepted** status.
-
-[comment]: <> (Stimmt das? Hatte da noch nie ne Anzeige...)
+    Name and username of the user who confirmed the process. This field is only displayed for ETL processes with the **Semiautomatic accepted** status.
 
 - *Created by*   
     ID of the user who created the process.
 
-[comment]: <> (Ganz schön umständlich, hier nur die User ID anzuzeigen - wäre es nicht einfacher, wie überall sonst auch hier den Namen und den Benutzernamen des Benutzers anzuzeigen?)
+[comment]: <> (Ganz schön umständlich, hier nur die User ID anzuzeigen - wäre es nicht einfacher, wie überall sonst auch hier den Namen und den Benutzernamen des Benutzers anzuzeigen? -> FETA-61)
+
 
 
 ## Create view
@@ -133,6 +132,7 @@ Depending on the selection in the *Status filter* drop-down list, the ETL proces
 
 - [SAVE]   
     Click this button to save the new view and display it in the *VIEW* drop-down list. The *Create view* window is closed.
+
 
 
 ## Rename view

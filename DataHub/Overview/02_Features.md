@@ -1,4 +1,4 @@
-# Key Features
+# Key features
 
 Intelligent data orchestration with the *DataHub* module
 

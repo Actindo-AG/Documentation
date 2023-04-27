@@ -10,8 +10,8 @@
 # DataHub basics
 
 The *Actindo Data Hub (DataHub)* module is characterized by two main points:
-- the *DataHub* [data model](#data-model)
-- the *DataHub* [ETL process](#etl-process)
+- the [*DataHub* data model](#data-model)
+- the [*DataHub* ETL process](#etl-process)
 
 To provide a better understanding of these particularities, both points are explained in more detail below.
 

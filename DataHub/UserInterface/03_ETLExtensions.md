@@ -131,7 +131,7 @@ This extension is used to combine or calculate several attributes in a specified
     Enter an equation to combine the source attributes and map them to the destination attribute, for instance **x1 + x2** to combine the values of the corresponding source attributes.
 
 - ![Add](../../Assets/Icons/Plus03.png "[Add]") (Add)   
-    Click this button to add another equation. When the value of the first equation is empty, the second equation is used as a fallback value. You can add an unlimited number of equations.
+    Click this button to add another equation. If the value of the first equation is empty, the second equation is used as a fallback value. You can add an unlimited number of equations.
 
 [comment]: <> (aktuell noch fehlerhaft: immer die letzte und nur diese angegebene equation wird gemappt -> soll geändert werden)
 
@@ -279,8 +279,6 @@ By clicking the ![Edit](../../Assets/Icons/Edit02.png "[Edit]") (Edit) button wi
 
 This extension is used to copy the value from a Cloudinary image or video attribute and map it to another Cloudinary image or video attribute.
 
-[comment]: <> (Stimmt das? Anwendungsfall?)
-
 ### Possible data type mappings
 
 > [Info] The data type of the destination attribute and the selected ETL extension determine the data type of the source attribute.
@@ -301,8 +299,6 @@ This ETL extension has no further configuration settings.
 ![Copy packaging units](../../Assets/Screenshots/DataHub/Settings/ETL/Extensions/CopyPackagingUnits.png "[Copy packaging units]")
 
 This extension is used to copy the value from a packaging unit attribute and map it to another packaging unit attribute.
-
-[comment]: <> (Stimmt das? Anwendungsfall?)
 
 ### Possible data type mappings
 
@@ -375,8 +371,6 @@ This extension is used to map a date to a destination attribute while changing i
 ![EAN to SKU](../../Assets/Screenshots/DataHub/Settings/ETL/Extensions/EANToSKU.png "[EAN to SKU]")
 
 This extension is used to map the SKU of a source attribute to a destination attribute using the EAN of the source attribute. This mapping takes the value in the *EAN* source attribute, searches for products with this EAN and maps the corresponding SKU of this product to the destination attribute.
-
-[comment]: <> (Stimmt das?)
 
 ### Possible data type mappings
 
@@ -548,8 +542,6 @@ This extension is used to map the base price from several attributes to the PIM 
 
 Beside the tax class, all attributes are required for the mapping. A separator for the price must be defined in the configuration.
 
-[comment]: <> (Stimmt das?)
-
 ### Possible data type mappings
 
 > [Info] The data type of the destination attribute and the selected ETL extension determine the data type of the source attribute.
@@ -600,8 +592,6 @@ This extension is used to map a promotion price to the PIM price field attribute
 - the end date of the promotion price
 
 Beside the dates, all attributes are required for the mapping.
-
-[comment]: <> (Is that right?)
 
 ### Possible data type mappings
 
@@ -666,8 +656,6 @@ This extension is used to map a set of source attributes to fixed destination at
 | Float                            | String, Integer, Float, Tree node, Text field |
 | Tree node                        | String, Integer, Float, Tree node, Text field |
 | Text field                       | String, Integer, Float, Tree node, Text field |
-
-[comment]: <> (Boolean auch möglich?)
 
 ### Configuration
 
@@ -739,8 +727,6 @@ This extension is used to map the promotion price of a PIM price field attribute
 - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Destination gross*   
     Enable the toggle to map the gross price of the PIM price field attribute. Disable the toggle to map the net price.
 
-[comment]: <> (Is that right? why do I need the country?)
-
 
 
 ## Next special base price to date time
@@ -764,12 +750,10 @@ This extension is used to map the promotion date of a PIM price field attribute 
 - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Get from date*   
     Enable the toggle to map the start date of the promotion. Otherwise, the end date of the promotion is mapped to the destination attribute. By default, the toggle is disabled.
 
-[comment]: <> (Standardmäßig wird das Enddatum gemappt! Deutsches UI falsch -> richtig: Von-Datum)
+[comment]: <> (Standardmäßig wird das Enddatum gemappt! Deutsches UI falsch -> richtig: Von-Datum -> BUG-220)
 
 - *Currency*   
     Click the drop-down list and select the appropriate currency. Only those currencies that are defined as a supported currency in the PIM price field attribute configuration are mapped. All available currencies are displayed in the list.
-
-[comment]: <> (Is that right? what currencies are mapped?)
 
 
 
@@ -877,8 +861,6 @@ This ETL extension has no further configuration settings.
 
 This extension is used to map a PIM base price attribute to a boolean attribute, for instance to define whether or not a base price is available. If the PIM base price attribute is empty, the false value is mapped to the boolean attribute. Otherwise, the true value is mapped to the boolean attribute.
 
-[comment]: <> (Is that right? Anwendungsfall?)
-
 ### Possible data type mappings
 
 > [Info] The data type of the destination attribute and the selected ETL extension determine the data type of the source attribute.
@@ -899,8 +881,6 @@ This ETL extension has no further configuration settings.
 
 This extension is used to map a PIM base price attribute to a tree node attribute. The PIM base price is Actindo specific and contains the dimension, the unit and the relevant amount for the base price. Each of this data is extracted from the PIM base price attribute by the corresponding extension. In this case, the unit is mapped to the destination attribute.
 
-[comment]: <> (Is that right?)
-
 ### Possible data type mappings
 
 > [Info] The data type of the destination attribute and the selected ETL extension determine the data type of the source attribute.
@@ -920,8 +900,6 @@ This ETL extension has no further configuration settings.
 ![PIM base price to VPE reference unit](../../Assets/Screenshots/DataHub/Settings/ETL/Extensions/PIMBasePriceToVPEReferenceUnit.png "[PIM base price to VPE reference unit]")
 
 This extension is used to map a PIM base price attribute to a number. Both absolute and decimal number values are allowed in the destination attribute. The PIM base price is Actindo specific and contains the dimension, the unit and the relevant amount for the base price. Each of this data is extracted from the PIM base price attribute by the corresponding extension. In this case, the relevant amount is taken and the corresponding reference amount is mapped to the destination attribute. By default, the reference amount equals **0,1** for all amounts smaller than **0,25** and to the specified amount for all amounts greater than **0,25**.
-
-[comment]: <> (ist das korrekt mit dem reference amount?)
 
 ### Possible data type mappings
 
@@ -944,8 +922,6 @@ This ETL extension has no further configuration settings.
 
 This extension is used to map a PIM price field attribute to a simple price field attribute. The PIM price field is Actindo specific and contains not only the simple price, but also the base price, scale prices, promotion prices, the tax class including the tax rate and supported currencies. In this case, all values that are also included to the simple price field attribute are mapped. Further settings are defined in the configuration.
 
-[comment]: <> (Is that correct? Which values? Base price, scale prices and indication about net or gross price?)
-
 ### Possible data type mappings
 
 > [Info] The data type of the destination attribute and the selected ETL extension determine the data type of the source attribute.
@@ -967,8 +943,6 @@ This extension is used to map a PIM price field attribute to a simple price fiel
           Only the promotion prices in the PIM price field attribute are mapped to the destination attribute.
       - **Ignore promotions**   
           All prices beside the promotion prices in the PIM price field attribute are mapped to the destination attribute.
-
-[comment]: <> (Is that correct? Why country? Is a tax class or rate mapped? Where are the promotions prices mapped to: scale prices???)
 
 
 
@@ -1011,8 +985,6 @@ This extension is used to map several attributes containing price data to a PIM 
 - the MSRP
 
 Beside the MSRP, all attributes are required for the mapping.
-
-[comment]: <> (Is that right?)
 
 ### Possible data type mappings
 
@@ -1070,8 +1042,6 @@ This extension is used to map a PIM price field attribute to a decimal number. T
 - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *In percent*   
     Enable the toggle to indicate the tax rate as a percentage. Otherwise, the tax rate is indicated as a decimal number.
 
-[comment]: <> (Is that right?)
-
 
 
 ## Price to tax class
@@ -1100,8 +1070,6 @@ The configuration depends on the selected tax class attribute. A single drop-dow
 - *"Tax class name"*   
     Click the drop-down list and select the applicable tax class to be mapped to the tax class in the destination attribute. All available tax rates from the destination attribute are displayed in the list.
 
-[comment]: <> (Stimmt das?)
-
 
 
 ## Pricing to float
@@ -1126,8 +1094,6 @@ This extension is used to map a PIM price field attribute to a destination attri
 
 - *Currency*   
     Click the drop-down list and select the appropriate currency. All available currencies are displayed in the list. Only those currencies that are defined as a supported currency in the PIM price field attribute configuration are mapped.
-
-[comment]: <> (Is that right?)
 
 - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Destination gross*   
     Enable the toggle to map the gross price of the source attribute. Disable the toggle to map the net price.
@@ -1157,8 +1123,6 @@ This extension is used to map a PIM price field attribute with a fallback attrib
 
 - *Currency*   
     Click the drop-down list and select the appropriate currency. All available currencies are displayed in the list. Only those currencies that are defined as a supported currency in the PIM price field attribute configuration are mapped.
-
-[comment]: <> (Is that right?)
 
 - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Destination gross*   
     Enable the toggle to map the gross price of the source attribute. Disable the toggle to map the net price.
@@ -1217,8 +1181,6 @@ This extension is used to map a simple price attribute to a decimal number. The 
         The destination attribute value is empty.
     - **0**   
         The destination attribute value is 0.
-
-[comment]: <> (Is that right?)
 
 
 
@@ -1305,11 +1267,8 @@ This extension is used to either map a source attribute to a tree node attribute
     - **Title**   
         The title value of the tree node attribute is used for the mapping.
 
-
 - *Relevant locale (applies for single language attributes)*   
     Click the drop-down list and select the language of the attribute value used for the mapping. All active languages are displayed in the list. This setting only applies to single language attributes.
-
-[comment]: <> (Anwendungsbeispiel für relevant locale? Verstehe den Einsatz nicht so richtig...)
 
 
 
@@ -1497,7 +1456,7 @@ This extension is used to map a text to a country attribute. This mapping is mai
     - **FusionMaps country code**   
         Specific FusionMaps ID for the country. FusionCharts have to be integrated to use this country code.
 
-[comment]: <> (Was ist FusionMaps? Stimmt das so?)
+[comment]: <> (Was ist FusionMaps?)
 
 
 
@@ -1540,7 +1499,7 @@ This extension is used to map a string attribute to a number. The value is mappe
 
 This extension is used to map a tax class and a price attribute to a PIM price field attribute. This mapping transfers the simple price as well as the tax class to the PIM price field attribute. As the PIM price field attribute also needs a currency and an indication whether the net or the gross price is specified, the default currency in the PIM system and the gross price value are mapped. To specify all values to be mapped to the PIM price field attribute, use the [PriceBuilder](#pricebuilder) extension.
 
-[comment]: <> (Ist das richtig? Immer brutto und standardwährung? oder funktioniert dieses mapping gar nicht mehr?)
+[comment]: <> (Ist das richtig? Immer brutto und Standardwährung? oder funktioniert dieses mapping gar nicht mehr?)
 
 ### Possible data type mappings
 
@@ -1651,8 +1610,6 @@ The configuration depends on the selected unit attribute. A single drop-down lis
 
 This extension is used to map a tree node attribute and a price attribute to a PIM price field attribute. This mapping is often used to import offers or product from another system to Actindo. The simple price as well as the tax class are mapped to the PIM price field attribute. The different tax classes are defined in the configuration. The configuration settings are only displayed after a tax class attribute has been selected. As the PIM price field attribute also needs a currency and an indication whether the net or the gross price is specified, the default currency in the PIM system and the gross price value are mapped. To specify all values to be mapped to the PIM price field attribute, use the [PriceBuilder](#pricebuilder) extension.
 
-[comment]: <> (Is that right?)
-
 ### Possible data type mappings
 
 > [Info] The data type of the destination attribute and the selected ETL extension determine the data type of the source attribute.
@@ -1716,8 +1673,6 @@ The configuration depends on the selected tree node attribute. A single drop-dow
 - *"Tax class name"*   
     Click the drop-down list and select the applicable tax class to be mapped to the tax class in the destination attribute. All available tax rates from the destination attribute are displayed in the list.
 
-[comment]: <> (Stimmt das? Anwendungsbeispiel?)
-
 
 
 ## Tree to boolean
@@ -1725,8 +1680,6 @@ The configuration depends on the selected tree node attribute. A single drop-dow
 ![Tree to boolean](../../Assets/Screenshots/DataHub/Settings/ETL/Extensions/TreeToBoolean.png "[Tree to boolean]")
 
 This extension is used to map a tree node attribute to a boolean attribute. If the value in the tree node attribute equals **0**, the false value is mapped to the boolean attribute. If the value in the tree node attribute equals **1**, the true value is mapped to the boolean attribute.
-
-[comment]: <> (Stimmt das?)
 
 ### Possible data type mappings
 
@@ -1747,8 +1700,6 @@ This ETL extension has no further configuration settings.
 ![Tree to float](../../Assets/Screenshots/DataHub/Settings/ETL/Extensions/TreeToFloat.png "[Tree to float]")
 
 This extension is used to map a tree node attribute to a decimal number. The name value of the source tree node attribute is mapped to the destination attribute.
-
-[comment]: <> (Stimmt das?)
 
 ### Possible data type mappings
 
@@ -1782,8 +1733,6 @@ This extension is used to map a tree node attribute to another tree node attribu
 
 - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Create node if not existing*   
     Enable the toggle to automatically create a tree node in the destination attribute if no tree node exists. Otherwise, you have to manually create a tree node.
-
-[comment]: <> (is that right? or does the mapping fail then?)
 
 - *Match destination node by*   
     Click the drop-down list and select the field of the tree node attribute whose value will be used for the mapping. The following options are available:
@@ -1822,8 +1771,6 @@ This ETL extension has no further configuration settings.
 ![Unit value to number](../../Assets/Screenshots/DataHub/Settings/ETL/Extensions/UnitValueToNumber.png "[Unit value to number]")
 
 This extension is used to map a unit attribute to a number. Both decimal and absolute numbers are allowed in the destination attribute. A unit attribute always includes a unit and a quantity. Only the quantity value is mapped to the destination attribute. To map the quantity value in the correct unit, the quantity is converted into the unit of the destination attribute. Define the unit in the configuration.
-
-[comment]: <> (Is that right?)
 
 ### Possible data type mappings
 
@@ -1990,8 +1937,6 @@ This extension is used to map a variant attribute to a variant attribute. The va
 | Destination attribute data type  | Source attribute data type          |
 |----------------------------------|-------------------------------------|
 | Variant                          | Variant                             |
-
-[comment]: <> (stimmt das? Den Code checke ich nicht...)
 
 ### Configuration
 

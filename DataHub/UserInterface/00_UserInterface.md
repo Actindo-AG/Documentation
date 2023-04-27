@@ -16,8 +16,8 @@ In this part of the *DataHub* documentation, you will find the following chapter
 - [ATTRIBUTES](./02a_Attributes.md)
     - [Create attribute](./02a_Attributes.md#create-attribute)
     - [Edit attribute](./02a_Attributes.md#edit-attribute)
-        - [Edit attribute – Data](./02a_Attributes.md#edit-attribute-–-data)
-        - [Edit attribute &ndash; Attribute set assignments](./02a_Attributes.md#edit-attribute--attribute-set-assignments)
+        - [Edit attribute &ndash; Data](./02a_Attributes.md#edit-attribute-–-data)
+        - [Edit attribute &ndash; Attribute set assignments](./02a_Attributes.md#edit-attribute-–-attribute-set-assignments)
 
 - [ATTRIBUTE SETS](./02b_AttributeSets.md)
     - [Create attribute set](./02b_AttributeSets.md#create-attribute-set)

@@ -1,5 +1,5 @@
 [!!User interface Channels](../UserInterface/02e_Channels.md)
-[!!Configure the channel settings in PIM](../../PIM/Integration/ConfigureChannels.md)
+[!!Configure the channel settings in PIM](../../PIM/Integration/05_ConfigureChannels.md)
 
 # Manage the channels
 
@@ -7,9 +7,8 @@ A channel is needed to create offers for a certain connection.
 By default, the *Actindo Basic* channel is predefined.
 If you want to maintain multiple channels, you have to create and activate the respective channels.
 
-> [Info] A channel does not equal a marketplace or web store connection. It is just a dimension that can be added to the multi-channel attributes.
+> [Info] A channel does not equal a marketplace or web store connection. It is just a dimension that can be added to the multi-channel attributes. For detailed information about creating a connection to a marketplace or web store, see [Create a connection in Omni-Channel](../../Channels/Integration/01_ManageConnections.md#create-a-connection).
 
-[comment]: <> (Insert link for procedure about creating a new connection when available)
 
 ## Create a channel
 
@@ -32,12 +31,10 @@ No prerequisites to fulfill.
 
 2. Enter a name for the channel in the *Name* field and, if desired, add a channel description in the  *Description* field.
 
-
 3. Enter a key for the channel in the *Key* field. The key is required for API access and must be system wide unique. A channel key must fulfill the following criteria:
     - valid characters are **a-z** (upper and lower case), **0-9** and the underscore ( **_** )
     - the key must not start with a number
     - a double underscore ( **___** ) and a trailing underscore are forbidden
-
 
 4. Enable the *Active* toggle to set the channel directly after creation to active.
 

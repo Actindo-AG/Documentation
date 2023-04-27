@@ -1,5 +1,5 @@
-[!!User interface Attributes](../UserInterface/02a_Attributes.md)
 [!!Manage the attribute sets](./02_ManageAttributeSets.md)
+[!!User interface Attributes](../UserInterface/02a_Attributes.md)
 [!!Data type list](../UserInterface/04_DataTypeList.md)
 [!!Manage the products in PIM](../../PIM/Operation/01_ManageProducts.md)
 [!!Manage the variant sets in PIM](../../PIM/Integration/07_ManageVariantSets.md)
@@ -194,8 +194,6 @@ At least one attribute has been moved to the *DELETED ATTRIBUTES* tab, see [Dele
 
 2. Click the [RECOVER] button in the editing toolbar.   
     The selected attribute has been recovered and is removed from the list of deleted attributes.
-
-[comment]: <> (Why can I not recover certain attributes? Is it a bug?)
 
 
 

@@ -1,7 +1,7 @@
+[!!User interface ETL](./02d_ETL.md)
+[!!Data type list](./04_DataTypeList.md)
 [!!Manage the attribute sets](../Integration/02_ManageAttributeSets.md)
 [!!Manage the ETL mappings](../Operation/01_ManageETLMappings.md)
-[!!Data type list](./04_DataTypeList.md)
-[!!User interface ETL](./02d_ETL.md)
 
 # Attribute sets
 
@@ -81,6 +81,7 @@ The list displays all attribute sets. Depending on the settings, the displayed c
     Click this button to create an attribute set. The *Create attribute set* view is displayed.   
 
 
+
 ## Create attribute set
 
 *DataHub > Settings > Tab ATTRIBUTE SETS > Button Add*
@@ -92,7 +93,7 @@ The list displays all attribute sets. Depending on the settings, the displayed c
 - ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)   
     Click this button to close the *Create attribute set* view and return to the attribute set list. All changes are rejected.
 
-- Language      
+- *"Language name"*      
     Click the drop-down list and select the system language in which the *Name (Language)* and *Description (Language)* fields are displayed. By default, the following options are available:
     - **English (United States)**
     - **Deutsch (Deutschland)**
@@ -137,7 +138,6 @@ The list displays all attribute sets. Depending on the settings, the displayed c
     - **Inherit**   
         The attribute values are applied from the selected attribute set and updated each time if the selected set changes.
 
-
 **Assigned attributes**
 
 - ![Settings](../../Assets/Icons/Settings01.png "[Settings]") (Settings)   
@@ -158,6 +158,7 @@ The list displays all attribute sets. Depending on the settings, the displayed c
 In the *Create attribute set* view, no attributes are displayed in the list. You have to save the attribute set to edit the assigned attributes.   
 
 
+
 ## Edit attribute set
 
 *DataHub > Settings > Tab ATTRIBUTE SETS > Select attribute set*
@@ -169,7 +170,7 @@ In the *Create attribute set* view, no attributes are displayed in the list. You
 - ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)   
     Click this button to close the *Edit attribute set* view and return to the attribute set list. All changes are rejected.
 
-- Language      
+- *"Language name"*      
     Click the drop-down list and select the system language in which the *Name (Language)* and *Description (Language)* fields are displayed. By default, the following options are available:
     - **English (United States)**
     - **Deutsch (Deutschland)**
@@ -208,7 +209,6 @@ In the *Create attribute set* view, no attributes are displayed in the list. You
 
     > [Info] The inheritance settings may be read-only for attribute sets predefined by the system.
 
-
 **Assigned attributes**
 
 - ![Settings](../../Assets/Icons/Settings01.png "[Settings]") (Settings)   
@@ -231,8 +231,6 @@ In the *Create attribute set* view, no attributes are displayed in the list. You
 
 - ![Edit](../../Assets/Icons/Edit01.png "[Edit]") (Edit)   
     Click this button to edit the configuration of the selected attribute. This button is only displayed if a single checkbox in the list of attributes is selected and if the selected attribute has an editable configuration. The *Edit attribute for set "Attribute set name"* view is displayed. Alternatively, you can click directly a row in the list to edit an attribute configuration.
-
-[comment]: <> (Edit is not working -> Bugticket)
 
 - ![Delete](../../Assets/Icons/Trash03.png "[Delete]") (Delete)   
     Click this button to remove the selected attribute from the attribute set. This button is only displayed if at least one checkbox of an attribute is selected.       
@@ -297,10 +295,7 @@ If the ![Settings](../../Assets/Icons/Settings01.png "[Settings]") (Settings) bu
     - ![Cross](../../Assets/Icons/Cross02.png "[Cross]") (Cross): The attribute is single channel.
 
 
-
 ### Edit attribute for set "Attribute set name"
-
-[comment]: <> (to be checked! currently not working)
 
 *DataHub > Settings > Tab ATTRIBUTE SETS > Select attribute set > Select attribute with configuration*
 
@@ -319,7 +314,7 @@ If the ![Settings](../../Assets/Icons/Settings01.png "[Settings]") (Settings) bu
 
 **CONFIGURATION**
 
-The *CONFIGURATION* section displays the additional configuration for the data type of the selected attribute. The configuration fields differ depending on the data type of the attribute.    
+The *CONFIGURATION* section displays the additional configuration for the data type of the selected attribute. The configuration fields differ depending on the data type of the attribute, see [Data type list](./04_DataTypeList.md).    
 
 
 ### Add mapping
@@ -353,9 +348,9 @@ This view equals the attribute mapping in the *DataHub* module: *DataHub > Setti
         The mapping configured in the dependency of the specific entities is applied.
     - **Automatic**   
         The initial mapping is automatically applied. All value changes or reruns are applied automatically in the mapping.  
-    - **Semi-automatic**   
+    - **Semiautomatic**   
         The initial mapping is automatically applied. Value changes or reruns are applied after confirmation.
-    - **Semi-automatic, changes must be confirmed by another user**   
+    - **Semiautomatic, changes must be confirmed by another user**   
         The initial mapping as well as value changes or reruns are applied after confirmation by another user.
     - **Manual**   
         The initial mapping is automatically applied. Afterwards, the changes in the mapping must be triggered manually to be applied.

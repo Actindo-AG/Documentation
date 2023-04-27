@@ -1,7 +1,6 @@
 [!!User interface ETL processes](../UserInterface/02h_ETLProcesses.md)
 [!!Manage the ETL processes](../Operation/02_ManageETLProcesses.md)
 
-
 # Retry a faulty ETL process
 
 If an ETL process has been canceled because of an error, the corresponding process is displayed in the *ETL PROCESSES* tab with the **Error** status. When the error has been fixed, you can restart the ETL process to rerun the corresponding mapping.
@@ -36,8 +35,6 @@ The cause of the faulty ETL process has been fixed.
     ![Process retried](../../Assets/Screenshots/DataHub/Settings/ETLProcesses/ProcessRetried.png "[Process retried]")
 
     If the rerun is successful, the mapping status will change to **Done** and will be removed from the list of mappings with the **Error** status.
-
-
 
 #### Was this chapter helpful?
 

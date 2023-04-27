@@ -6,6 +6,8 @@
 
 ![HTML templates](../../Assets/Screenshots/DataHub/Settings/HTMLTemplates/HTMLTemplates.png "[HTML templates]")
 
+> [Info] Make sure that the *HTML Templates for ETL* plugin version 1.1.2 or higher is installed.
+
 **HTML templates list**
 
 - ![Search](../../Assets/Icons/Search.png "[Search]") (Search)   
@@ -121,8 +123,6 @@ The list displays all HTML templates. Depending on the settings, the displayed c
     Click the drop-down list and select the entity type which should be applied within the template. All entity types are displayed in the list.
 
     > [Info] Entity types are all classes interacting with the *DataHub* module.
-
-[comment]: <> (drop-down liste leer -> bug reported: BUG-192)
 
 - *Entity ID*   
     Enter the ID of the entity which should be applied within the template.

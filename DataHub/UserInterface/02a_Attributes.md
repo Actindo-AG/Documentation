@@ -104,7 +104,7 @@ The list displays all attributes. Depending on the settings, the displayed colum
 - ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)   
     Click this button to close the *Create attribute* view and return to the attributes list. All changes are rejected.
 
-- Language   
+- *"Language name"*   
     Click the drop-down list and select the language in which the *Name (Language)* and *Description (Language)* fields are displayed. By default, the following options are available:
     - **English (United States)**
     - **Deutsch (Deutschland)**
@@ -153,6 +153,7 @@ The *CONFIGURATION* section displays the additional configuration for the select
 As some data types have no further configuration settings, no *CONFIGURATION* section is displayed for these data types.   
 
 
+
 ## Edit attribute
 
 *DataHub > Settings > Tab ATTRIBUTES > Select attribute > Tab Data*
@@ -164,7 +165,7 @@ As some data types have no further configuration settings, no *CONFIGURATION* se
 - ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)   
     Click this button to close the *Edit attribute* view and return to the attributes list. All changes are rejected.
 
-- Language   
+- *"Language name"*   
     Click the drop-down list and select the language in which the *Name (Language)* and *Description (Language)* fields are displayed. By default, the following options are available:
     - **English (United States)**
     - **Deutsch (Deutschland)**
@@ -173,7 +174,7 @@ As some data types have no further configuration settings, no *CONFIGURATION* se
     Click this button to save the attribute. The *Edit attribute* view is closed.
 
 
-### Edit attribute – Data
+### Edit attribute &ndash; Data
 
 *DataHub > Settings > Tab ATTRIBUTES > Select attribute > Tab Data*
 

@@ -1,9 +1,8 @@
-[!!Omni-Channel](../../Channels/Overview/01_General.md)
-[!!User interface ETL](../UserInterface/02d_ETL.md)
-[!!Manage an attribute set](../Integration/02_ManageAttributeSets.md)
 [!!Manage the ETL processes](./02_ManageETLProcesses.md)
-[!!Data type list](../UserInterface/04_DataTypeList.md)
+[!!Manage an attribute set](../Integration/02_ManageAttributeSets.md)
+[!!User interface ETL](../UserInterface/02d_ETL.md)
 [!!ETL extensions list](../UserInterface/03_ETLExtensions.md)
+[!!Data type list](../UserInterface/04_DataTypeList.md)
 
 # Manage the ETL mappings
 
@@ -94,19 +93,17 @@ At least one ETL attribute set mapping has been created, see [Create an ETL attr
     > [Info] For detailed information about the data types, see [Data type list](../UserInterface/04_DataTypeList.md).    
     For detailed information about the ETL extensions, see [ETL extensions list](../UserInterface/03_ETLExtensions.md).
 
-
 4. Select the appropriate tracking mode in the *Override change tracking mode* drop-down list. By default, the **Use default** option is preselected. The following options are available:
     - **Use default**   
         The mapping configured in the dependency of the specific entities is applied.
     - **Automatic**   
         The initial mapping is automatically applied. All value changes or reruns are applied automatically in the mapping.  
-    - **Semi-automatic**   
+    - **Semiautomatic**   
         The initial mapping is automatically applied. Values changes or reruns are applied after confirmation.
-    - **Semi-automatic, changes must be confirmed by another user**   
+    - **Semiautomatic, changes must be confirmed by another user**   
         The initial mapping as well as values changes or reruns are applied after confirmation by another user.
     - **Manual**   
         The initial mapping is automatically applied. Afterwards, the changes in the mapping must be triggered manually to be applied.
-
 
 5. Select the appropriate attribute that you want to assign to the destination attribute in the *Source attribute* drop-down list. All attributes with a data type that matches the selected ETL extension are displayed in the drop-down list.
 
@@ -118,7 +115,6 @@ At least one ETL attribute set mapping has been created, see [Create an ETL attr
     > [Info] Be aware that you have to rerun the mapping to apply the changes made to the attribute, see [Rerun an ETL mapping](#rerun-an-etl-mapping).
 
 8. Repeat the steps **2** to **7** for all attributes you want to map.
-
 
 
 ### Add a custom mapping for a destination attribute
@@ -153,9 +149,9 @@ At least one ETL attribute set mapping has been created, see [Create an ETL attr
     ![Custom mapping](../../Assets/Screenshots/DataHub/Settings/ETL/CustomMapping.png "[Custom mapping]")
 
     > [Info] Depending on the destination attribute, the additional drop-down lists displayed in the *Settings* section differ:
-      - If the destination attribute is multi-language, the *Language* drop-down list is displayed additionally below the destination attribute.
-      - If the destination attribute is multi-channel, the *Channel* drop-down list is displayed additionally below the destination attribute.
-      - If the destination attribute is multi-language and multi-channel, the *Language* and the *Channel* drop-down lists are additionally displayed below the destination attribute.
+    - If the destination attribute is multi-language, the *Language* drop-down list is displayed additionally below the destination attribute.
+    - If the destination attribute is multi-channel, the *Channel* drop-down list is displayed additionally below the destination attribute.
+    - If the destination attribute is multi-language and multi-channel, the *Language* and the *Channel* drop-down lists are additionally displayed below the destination attribute.
 
 4. Select the appropriate language in the *Language* and/or the appropriate channel in the *Channel* drop-down list in the *Settings* section. In the *Language* drop-down list, all active languages are displayed. In the *Channel* drop-down list, all active channels are displayed.    
 
@@ -165,19 +161,17 @@ At least one ETL attribute set mapping has been created, see [Create an ETL attr
     > [Info] For detailed information about the data types, see [Data type list](../UserInterface/04_DataTypeList.md).   
     For detailed information about the ETL extensions, see [ETL extensions list](../UserInterface/03_ETLExtensions.md).
 
-
 6. Select the appropriate tracking mode in the drop-down list *Override change tracking mode*. By default, the **Use default** option is preselected. The following modes are available:
     - **Use default**   
         The mapping configured in the dependency of the specific entities is applied.
     - **Automatic**   
         The initial mapping is automatically applied. All value changes or reruns are applied automatically in the mapping.  
-    - **Semi-automatic**   
+    - **Semiautomatic**   
         The initial mapping is automatically applied. Values changes or reruns are applied after confirmation.
-    - **Semi-automatic, changes must be confirmed by another user**   
+    - **Semiautomatic, changes must be confirmed by another user**   
         The initial mapping as well as values changes or reruns are applied after confirmation by another user.
     - **Manual**   
         The initial mapping is automatically applied. Afterwards, the changes in the mapping must be triggered manually to be applied.
-
 
 7. Select the appropriate attribute that you want to assign to the destination attribute in the *Source attribute* drop-down list. All attributes with a data type that matches the selected ETL extension are displayed in the drop-down list.
 
@@ -185,7 +179,6 @@ At least one ETL attribute set mapping has been created, see [Create an ETL attr
 
 9. Click the [SAVE] button in the upper right corner.   
     The mapping has been created and is added to the list of attribute mappings on the left side. The selected language and/or channel is indicated in brackets behind the destination attribute. The *Settings* section is hidden.
-
 
 
 ### Delete an ETL attribute mapping
@@ -271,7 +264,6 @@ At least one ETL attribute set mapping has been created, see [Create an ETL attr
 
     The current status of the job is displayed in the *ETL PROCESSES* tab.   
     For detailed information, see [Check the ETL processes](./02_ManageETLProcesses.md#check-the-etl-processes).
-
 
 
 ### Rerun an attribute set mapping

@@ -1,5 +1,5 @@
 [!!User interface Languages](../UserInterface/02f_Languages.md)
-[!!Configure the language settings in PIM](../../PIM/Integration/ConfigureLanguages.md)
+[!!Configure the language settings in PIM](../../PIM/Integration/04_ConfigureLanguages.md)
 
 # Manage the languages
 
@@ -29,12 +29,10 @@ No prerequisites to fulfill.
 
 2. Enter a name for the language in the *Name* field.
 
-
 3. Enter a key for the language in the *Key* field. The key is required for API access and must be system wide unique. The language key must fulfill the criteria of the language codes according to [RFC 4646](https://www.heise.de/netze/rfc/rfcs/rfc4646.shtml). For instance, keys with the following structure are valid:
     - en
     - en_US
     - en-US
-
 
 4. Enable the *Active* toggle to set the language directly after creation to active.
 

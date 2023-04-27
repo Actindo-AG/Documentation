@@ -6,12 +6,12 @@ In this part of the *DataHub* documentation, you will find the following chapter
     - [Benefits](./01_General.md#benefits)
     - [Prerequisites](./01_General.md#prerequisites)
 
-- [Key Features](./02_Features.md)
+- [Key features](./02_Features.md)
     - [What is ETL?](./02_Features.md#what-is-etl)
     - [The new way to modernize](./02_Features.md#the-new-way-to-modernize)
     - [Actindo data accelerator hub](./02_Features.md#actindo-data-accelerator-hub)
 
-- [Processes](./03_Processes.md)
+- [Processes overview](./03_Processes.md)
 
 - [DataHub Basics](./04_Basics.md)
     - [Data model](./04_Basics.md#data-model)

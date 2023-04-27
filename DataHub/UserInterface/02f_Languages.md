@@ -68,8 +68,10 @@ The list displays all language. Depending on the settings, the displayed columns
 - ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)   
     Click this button to close the *Create language* view and return to the language list. All changes are rejected.
 
-- Language   
-    Click the drop-down list and select the language in which the *Name (Language)* field is displayed. The system languages **English (United States)** and **Deutsch (Deutschland)** are available in the drop-down list.
+- *"Language name"*   
+    Click the drop-down list and select the system language in which the *Name (Language)* and *Description (Language)* fields are displayed. By default, the following options are available:
+    - **English (United States)**
+    - **Deutsch (Deutschland)**
 
 - [SAVE]   
     Click this button to save the language. The *Create language* view is closed.
@@ -101,8 +103,10 @@ The list displays all language. Depending on the settings, the displayed columns
 - ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)   
     Click this button to close the *Edit Language* view and return to the language list. All changes are rejected.
 
-- Language   
-    Click the drop-down list and select the language in which the *Name (Language)* field is displayed. The system languages **English (United States)** and **Deutsch (Deutschland)** are available in the drop-down list.
+- *"Language name"*   
+    Click the drop-down list and select the system language in which the *Name (Language)* and *Description (Language)* fields are displayed. By default, the following options are available:
+    - **English (United States)**
+    - **Deutsch (Deutschland)**
 
 - [SAVE]   
     Click this button to save the language. The *Edit language* view is closed.

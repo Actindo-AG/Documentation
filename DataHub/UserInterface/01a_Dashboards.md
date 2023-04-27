@@ -100,7 +100,6 @@ The *Import existing tab* tab is locked. It is only available in the *Actindo Da
     Hover over a dashlet until the cursor icon changes to the cross arrows cursor. Then move the dashlet on the predefined grid using drag and drop. To remove a dashlet from the tab, click the ![Remove](../../Assets/Icons/Cross03.png "[Remove]") (Remove) button in the upper right corner of the dashlet.  
 
 
-
 #### Dashlet picker
 
 *DataHub > Overview > Tab DASHBOARDS > Select tab > Button Settings > Button ADD ELEMENT*   
@@ -137,8 +136,6 @@ The *Import existing tab* tab is locked. It is only available in the *Actindo Da
         This dashlet displays a chart with the history of mapping number for the waiting, the successful and all mappings in the *DataHub* module.
     -	*DataHub Flow*   
         This dashlet displays a flow chart with connection of mappings between the different entities. By enabling the *Show Disconnected Nodes* toggle, also those entities without any mapping connection are displayed in the flow chart.  
-
-[comment]: <> (Check dashlet description)
 
 - [CANCEL]   
     Click this button to cancel adding dashlets. The *Dashlet picker* window is closed.

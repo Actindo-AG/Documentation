@@ -1,5 +1,5 @@
-[!!User interface Attribute sets](../UserInterface/02b_AttributeSets.md)
 [!!Manage the attributes](./01_ManageAttributes.md)
+[!!User interface Attribute sets](../UserInterface/02b_AttributeSets.md)
 
 # Manage an attribute set
 
@@ -16,6 +16,7 @@ Create an attribute set to define a new attribute set with different attributes 
 
 Several plugins have their own configuration user interface, where only those attributes and attribute sets are listed that belong to the specific plugin.
 When using the plugin-specific user interface, several options may be restricted or not available.
+
 
 ### Define the attribute set basic data
 
@@ -38,12 +39,10 @@ Additional attributes for the attribute set have been created, see [Create an at
 
 2. Enter a name for the attribute set in the *Name* field and, if desired, add an attribute set description in the *Description* field.
 
-
 3. Enter a key for the attribute set in the *Key* field. The key is required for API access and must be system wide unique. An attribute set key must fulfill the following criteria:
     - valid characters are **a-z** (upper and lower case), **0-9** and the underscore ( **_** )
     - the key must not start with a number
     - a double underscore ( **___** ) and a trailing underscore are forbidden
-
 
     > [Info] In order to facilitate the assignment of sets in the further process, it is recommended to add the prefix **datahubset_** to all attribute sets created in the *DataHub* module.
 
@@ -51,12 +50,10 @@ Additional attributes for the attribute set have been created, see [Create an at
 
     > Entity types are all classes interacting with the *DataHub* module.
 
-
 5. For the next steps to create an attribute set, follow the appropriate procedure:   
     - [Create an attribute set without attribute inheritance](#create-an-attribute-set-without-attribute-inheritance)
     - [Create an attribute set with attribute inheritance](#create-an-attribute-set-with-attribute-inheritance)
     - [Create an attribute set with attribute copying](#create-an-attribute-set-with-attribute-copying)
-
 
 
 ### Create an attribute set without attribute inheritance
@@ -84,7 +81,6 @@ The basic data of the attribute set has been completed, see [Define the attribut
     ![Attribute set created](../../Assets/Screenshots/DataHub/Settings/AttributeSets/AttributeSetCreated.png "[Attribute set created]")   
 
 3. Click the ![Back](../../Assets/Icons/Back02.png "[Back]") (Back) button in the upper left corner to return to the list of attribute sets or proceed to [edit the attribute set](#edit-an-attribute-set).
-
 
 
 ### Create an attribute set with attribute inheritance
@@ -116,7 +112,6 @@ The basic data of the attribute set has been completed, see [Define the attribut
     ![Attribute set created](../../Assets/Screenshots/DataHub/Settings/AttributeSets/AttributeSetCreated.png "[Attribute set created]")     
 
 5. Click the ![Back](../../Assets/Icons/Back02.png "[Back]") (Back) button in the upper left corner to return to the list of attribute sets or proceed to [edit the attribute set](#edit-an-attribute-set).
-
 
 
 ### Create an attribute set with attribute copying
@@ -194,7 +189,6 @@ In the *DataHub* module all available attributes can be added to the different a
 > [Info] Any changes to the assigned attributes are automatically saved in the attribute set.
 
 
-
 ### Remove an attribute from the set
 
 Remove an attribute from an attribute set to limit the specifications.
@@ -226,7 +220,6 @@ Inherited attributes or mapped attributes cannot be removed from an attribute se
     The selected attributes have been removed from the attribute set. The list of attributes is updated.
 
 > [Info] Any changes to the assigned attributes are automatically saved in the attribute set.
-
 
 
 ### Change the required attributes in the set

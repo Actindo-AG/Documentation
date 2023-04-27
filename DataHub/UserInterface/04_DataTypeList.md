@@ -52,6 +52,7 @@ In the following, the available data types, their use and their configuration an
 - [Multiple errors](#multiple-errors-internal-not-editable)
 
 
+
 ## Textfield
 
 ![Textfield](../../Assets/Screenshots/DataHub/DataTypes/Textfield.png "[Textfield]")
@@ -84,6 +85,7 @@ The *DataHub* plugin owns this data type.
     Enable this toggle to set the textfield to read-only. Disable the toggle to set the textfield to editable. By default, this toggle is disabled.
 
 
+
 ## Checkbox
 
 ![Checkbox](../../Assets/Screenshots/DataHub/DataTypes/Checkbox.png "[Checkbox]")
@@ -100,6 +102,7 @@ The *DataHub* plugin owns this data type.
 ### Configuration
 
 This data type has no further configuration settings.
+
 
 
 ## Floating point number
@@ -129,6 +132,7 @@ The *DataHub* plugin owns this data type.
     Enable this toggle to set the floating point number to read-only. Disable the toggle to set the floating point number to editable. By default, this toggle is disabled.
 
 
+
 ## Integer
 
 ![Integer](../../Assets/Screenshots/DataHub/DataTypes/Integer.png "[Integer]")
@@ -149,6 +153,7 @@ The *DataHub* plugin owns this data type.
 
 - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Read only*   
     Enable this toggle to set the integer to read-only. Disable the toggle to set the integer to editable. By default, this toggle is disabled.
+
 
 
 ## String
@@ -185,6 +190,7 @@ The *DataHub* plugin owns this data type.
     Enable this toggle to set the string to read-only. Disable the toggle to set the string to editable. By default, this toggle is disabled.
 
 
+
 ## Currency
 
 ![Currency](../../Assets/Screenshots/DataHub/DataTypes/Currency.png "[Currency]")
@@ -196,6 +202,7 @@ The *DataHub* plugin owns this data type.
 ### Configuration
 
 This data type has no further configuration settings.
+
 
 
 ## Language
@@ -211,6 +218,7 @@ This data type has no further configuration settings.
 The *DataHub* plugin owns this data type.
 
 
+
 ## Country
 
 ![Country](../../Assets/Screenshots/DataHub/DataTypes/Country.png "[Country]")
@@ -222,6 +230,7 @@ The *DataHub* plugin owns this data type.
 ### Configuration
 
 This data type has no further configuration settings.
+
 
 
 ## TreeNode
@@ -265,6 +274,7 @@ The *DataHub* plugin owns this data type.
     Click this button to save the value and add it to the table.
 
 
+
 ## Completeness (internal, not editable)
 
 This data type is for internal use only. It is strongly advised not to use this data type without the required knowledge.   
@@ -272,6 +282,7 @@ The data type is used to show the completeness of a product, according to the re
 In the *PIM Basic Set*, the *Completeness* attribute has the *Completeness* data type.
 
 The *DataHub* plugin owns this data type.
+
 
 
 ## Number with unit
@@ -297,6 +308,7 @@ The *DataHub* plugin owns this data type.
     Click the drop-down list to select the dimension to be used. All units that are assigned to the selected dimension are displayed in the drop-down list.
 
 
+
 ## DateTime
 
 ![DateTime](../../Assets/Screenshots/DataHub/DataTypes/DateTime.png "[DateTime]")
@@ -320,7 +332,6 @@ The *DataHub* plugin owns this data type.
     - **Long**   
         long format, adding the weekday and writing out the month, for example Monday, February 11, 2021
 
-
 - *Time*    
     Click the drop-down list to select a time format. The formats below are available. By default, the time format **Medium** is selected.
     - **Do not show time**   
@@ -329,6 +340,7 @@ The *DataHub* plugin owns this data type.
         short format, for example 09:00 PM
     - **Medium**   
         medium format, including seconds, for example 09:00:00 PM
+
 
 
 ## Sales unit value
@@ -342,6 +354,7 @@ The *DataHub* plugin owns this data type.
 ### Configuration
 
 This data type has no further configuration settings.
+
 
 
 ## Simple price field
@@ -370,7 +383,6 @@ The *DataHub* plugin owns this data type.
 - *Currency*   
     Click the drop-down list to select the currency to be used. All available currencies are displayed in the drop-down list. By default, the default currency is preselected.
 
-[comment]: <> (Not working -> MSRP field is displayed even when the toggle is disabled -> to be fixed)
 
 
 ## Stock value
@@ -394,11 +406,13 @@ The *DataHub* plugin owns this data type.
     > [Info] If the warehouse logistic for an product is active and the *Warehousing* module is correctly connected, the stocks are transferred from the invoicing and automatically written into this attribute value. It is only recommended to deactivate the toggle *Read only* if the warehouse logistic is inactive and a stock value is needed.
 
 
+
 ## EntityCollectionValue (internal, not editable)
 
 This data type is for internal use only. It is strongly advised not to use this data type without the required knowledge.
 
 The *DataHub* plugin owns this data type.
+
 
 
 ## IntegerCollectionValue (internal, not editable)
@@ -408,6 +422,7 @@ This data type is for internal use only. It is strongly advised not to use this 
 The *DataHub* plugin owns this data type.
 
 
+
 ## StringCollectionValue (internal, not editable)
 
 This data type is for internal use only. It is strongly advised not to use this data type without the required knowledge.
@@ -415,11 +430,13 @@ This data type is for internal use only. It is strongly advised not to use this 
 The *DataHub* plugin owns this data type.
 
 
+
 ## JSON (internal, not editable)
 
 This data type is for internal use only. It is strongly advised not to use this data type without the required knowledge.
 
 The *DataHub* plugin owns this data type.
+
 
 
 ## Taxclass
@@ -435,6 +452,7 @@ The *Taxes* plugin owns this data type.
 ### Configuration
 
 This data type has no further configuration settings.
+
 
 
 ## Taxzone
@@ -478,6 +496,7 @@ The *ECM Integration in DataHub* plugin owns this data type.
     Enter the allowed file extensions for the image format. If you want to allow several extensions, separate them with a comma. If no file extension is entered, all file extensions are allowed.
 
 
+
 ## Files
 
 ![Files](../../Assets/Screenshots/DataHub/DataTypes/Files.png "[Files]")
@@ -512,11 +531,13 @@ In the *PIM Basic Set*, the *PIM Omni-Channel Connection* attribute has the *PIM
 The *PIM Channels Connection* plugin owns this data type.
 
 
+
 ## UCS product bundle (internal, not editable)
 
 This data type is for internal use only. It is strongly advised not to use this data type without the required knowledge.
 
 The *UCS Product Sync* plugin owns this data type.
+
 
 
 ## PIM product variants
@@ -526,11 +547,13 @@ This data type is for internal use only. It is strongly advised not to use this 
 The *PIM* plugin owns this data type.
 
 
+
 ## URLs (internal, not editable)
 
 This data type is for internal use only. It is strongly advised not to use this data type without the required knowledge.
 
 The *Omni-Channel* plugin owns this data type.
+
 
 
 ## Cloudinary image
@@ -563,6 +586,7 @@ The *Cloudinary* plugin owns this data type.
 **Structured Meta Data Fields**
 
 In this section all structured meta data fields from the selected Cloudinary connection are displayed. Enable the meta data fields in the *PIM* module by activating the corresponding toggle. All inactive fields are not displayed in the *PIM* module and consequently cannot be edited in the *Cloudinary Image* attribute.
+
 
 
 ## Cloudinary video
@@ -599,11 +623,13 @@ In this section all structured meta data fields from the selected Cloudinary con
 The *DataHub* plugin owns this data type.
 
 
+
 ## XML (internal, not editable)
 
 This data type is for internal use only. It is strongly advised not to use this data type without the required knowledge.
 
 The *DataHub* plugin owns this data type.
+
 
 
 ## Offer bundle
@@ -631,7 +657,6 @@ This data type is for internal use only. It is strongly advised not to use this 
 
 The *Fulfillment* plugin owns this data type.
 
-[comment]: <> (Check this - "No Data" displayed in the field in the product view)
 
 
 ## Encrypted value (internal, not editable)
@@ -639,6 +664,7 @@ The *Fulfillment* plugin owns this data type.
 This data type is for internal use only. It is strongly advised not to use this data type without the required knowledge.
 
 The *Global Driver Management* plugin owns this data type.
+
 
 
 ## Related products
@@ -658,6 +684,7 @@ The *PIM* plugin owns this data type.
 
 - *Max relations*    
     Enter the maximum number of products that can be related to the selected product.
+
 
 
 ## PIM price field
@@ -687,6 +714,7 @@ The *PIM* plugin owns this data type.
     Click this button to add another currency to the list of supported currencies. A new row with the drop-down list *Currency* is displayed below.
 
 
+
 ## Product variants (internal, not editable)
 
 This data type is for internal use only. It is strongly advised not to use this data type without the required knowledge.   
@@ -708,6 +736,7 @@ The *PIM* plugin owns this data type.
 This data type has no further configuration settings.
 
 
+
 ## Product bundle
 
 ![Product bundle](../../Assets/Screenshots/DataHub/DataTypes/ProductBundle.png "[Product bundle]")
@@ -727,6 +756,7 @@ The *PIM* plugin owns this data type.
     Enter the maximum number of products that can be related for a product bundle.
 
 
+
 ## Packaging unit
 
 ![Packaging Unit](../../Assets/Screenshots/DataHub/DataTypes/PackagingUnit.png "[Packaging Unit]")
@@ -740,6 +770,7 @@ The *PIM* plugin owns this data type.
 This data type has no further configuration settings.
 
 
+
 ## Offer variants (internal, not editable)
 
 This data type is for internal use only. It is strongly advised not to use this data type without the required knowledge.   
@@ -747,11 +778,13 @@ This data type is for internal use only. It is strongly advised not to use this 
 The *Omni-Channel* plugin owns this data type.
 
 
+
 ## Feed offer variants (internal, not editable)
 
 This data type is for internal use only. It is strongly advised not to use this data type without the required knowledge.   
 
 The *Omni-Channel* plugin owns this data type.
+
 
 
 ## Multiple errors (internal, not editable)
