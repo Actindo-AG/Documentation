@@ -287,7 +287,9 @@ Configure the following options to determine the 'Merchant Fulfilled Network' (M
 - ![Calendar](../../Assets/Icons/Calendar.png "[Calendar]") (Calendar)  
     Click this button and select a date from which to import the others.
 
-**'Fulfillment by Amazon' (FBA) orders** 
+**'Fulfillment by Amazon' (FBA) orders**  
+
+> [Info] Fulfillment by Amazon (FBA) orders are also called Amazon Fulfilled Network (AFN) orders. 
 
 Configure the following options to determine the 'Fulfillment by Amazon' (FBA) orders to be imported: 
 
