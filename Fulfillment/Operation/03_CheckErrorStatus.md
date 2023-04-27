@@ -34,9 +34,7 @@ At least one dispatch note displays an error.
 4. Click the desired message for further information.    
     The *Detail of log message "Log message title"* is displayed. By default, the *Attributes* tab is preselected.
 
-    ![Detail of log message](../../Assets/Screenshots/Fulfillment/Logging/DetailLogMessageAttributes01.png "[Detail of log message]")
-
-[comment]: <> (Aus Logging genommen, passt nicht genau mit dem Fehler oben; ich kann den auch nicht reproduzieren. Screenshot hier weglassen?)
+    [comment]: <> (Passendes Screenshot hinzufügen, wenn Bug behoben. BUG-212. Stand 27.04.23)
 
 5. Check the details of the log message in the *Attributes* tab. 
 
