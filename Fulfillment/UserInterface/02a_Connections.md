@@ -109,7 +109,7 @@ The list displays all intents. Depending on the settings, the displayed columns 
 [comment]: <> (Bug gemeldet -> BUG-58. Button soll rausgenommen werden.)
 
 - ![View](../../Assets/Icons/Eye02.png "[View]")  (View)   
-    Click this button to display the details of the log message. Alternatively, you can click directly a row in the list to display the details of the log message. The *Detail of log message "Log message title"* view is displayed, see [Detail of log message "Log message title"](#detail-of-log-message-log-message-title). 
+    Click this button to display the details of the log message. Alternatively, you can click directly a row in the list to display the details of the log message. The *Detail of log message "Log message title"* view is displayed, see [Detail of log message](#detail-of-log-message). 
 
 The list displays all log messages of the selected intent. Depending on the settings, the displayed columns may vary. All fields are read-only.
 
@@ -140,7 +140,7 @@ The list displays all log messages of the selected intent. Depending on the sett
     Log message identification number. The ID number is automatically assigned by the system.
 
 
-### Detail of log message "Log message title"
+### Detail of log message
 
 *Fulfillment > Logging > Tab CONNECTIONS > Select an intent > Select a log message*
 
@@ -156,7 +156,7 @@ The list displays all log messages of the selected intent. Depending on the sett
     Description of the log message.
 
 
-### Detail of log message "Log message title" &ndash; Attributes
+### Detail of log message &ndash; Attributes
 
 *Fulfillment > Logging > Tab CONNECTIONS > Select an intent > Select a log message > Tab Attributes*
 
@@ -204,7 +204,7 @@ In general, the most common attribute sets are the standard error log message at
     Description of the error. An exception is only displayed if an error has occurred and a http status code of the **4xx** class, for instance a **404** code has been returned.
 
 
-### Detail of log message "Log message title" &ndash; Dependencies
+### Detail of log message &ndash; Dependencies
 
 *Fulfillment > Logging > Tab CONNECTIONS > Select an intent > Select a log message > Tab Dependencies*
 

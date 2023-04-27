@@ -5,15 +5,15 @@ In this part of the *Fulfillment* documentation, you will find the following cha
 - [Dispatch notes](./01_DispatchNotes.md)
 
 - [LIST](./01a_List.md)
-    - [Dispatch note "Dispatch note ID"](./01a_List.md#dispatch-note-dispatch-note-id)
-    - [Dispatch note "Dispatch note ID" &ndash; Attributes](./01a_List.md#dispatch-note-dispatch-note-id-–-attributes)
-    - [Dispatch note "Dispatch note ID" &ndash; Dependencies](./01a_List.md#dispatch-note-dispatch-note-id-–-dependencies)
-    - [Dispatch note "Dispatch note ID" &ndash; Shipments](./01a_List.md#dispatch-note-dispatch-note-id-–-shipments)
+    - [Dispatch note](./01a_List.md#dispatch-note)
+    - [Dispatch note &ndash; Attributes](./01a_List.md#dispatch-note-–-attributes)
+    - [Dispatch note &ndash; Dependencies](./01a_List.md#dispatch-note-–-dependencies)
+    - [Dispatch note &ndash; Shipments](./01a_List.md#dispatch-note-–-shipments)
         - [Shipment attributes](./01a_List.md#shipment-attributes)
         - [Shipment attributes &ndash; Attributes](./01a_List.md#shipment-attributes-–-attributes)
         - [Shipment attributes &ndash; Dependencies](./01a_List.md#shipment-attributes-–-dependencies)
         - [Shipment packages](./01a_List.md#shipment-packages)
-    - [Dispatch note "Dispatch note ID" &ndash; Logs](./01a_List.md#dispatch-note-dispatch-note-id-–-logs)
+    - [Dispatch note &ndash; Logs](./01a_List.md#dispatch-note-–-logs)
     - [Create view](./01a_List.md#create-view)
     - [Rename view](./01a_List.md#rename-view)
 
@@ -21,9 +21,9 @@ In this part of the *Fulfillment* documentation, you will find the following cha
 
 - [CONNECTIONS (Logging)](./02a_Connections.md)
     - [List of messages](./02a_Connections.md#list-of-messages)
-        - [Detail of log message "Log message title"](./02a_Connections.md#detail-of-log-message-log-message-title)
-        - [Detail of log message "Log message title" &ndash; Attributes](./02a_Connections.md#detail-of-log-message-log-message-title-–-attributes)
-        - [Detail of log message "Log message title" &ndash; Dependencies](./02a_Connections.md#detail-of-log-message-log-message-title-–-dependencies)
+        - [Detail of log message](./02a_Connections.md#detail-of-log-message)
+        - [Detail of log message &ndash; Attributes](./02a_Connections.md#detail-of-log-message-–-attributes)
+        - [Detail of log message &ndash; Dependencies](./02a_Connections.md#detail-of-log-message-–-dependencies)
     - [Create view](./02a_Connections.md#create-view)
     - [Rename view](./02a_Connections.md#rename-view)
 
