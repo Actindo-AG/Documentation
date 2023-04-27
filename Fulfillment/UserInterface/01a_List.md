@@ -81,7 +81,7 @@
 
 - [VIEW]  
     Click this button to view a dispatch note. This button is only displayed if a single checkbox in the list of dispatch notes is selected. Alternatively, you can click directly a row in the list to view the corresponding dispatch note. 
-    The *Dispatch note "Dispatch note ID"* view is displayed, see [Dispatch note "Dispatch note ID"](#dispatch-note-dispatch-note-id). The *Attributes* tab is preselected.
+    The *Dispatch note "Dispatch note ID"* view is displayed, see [Dispatch note](#dispatch-note). The *Attributes* tab is preselected.
 
 - [EXPORT]  
     Click this button to export a dispatch note to the fulfiller. This button is displayed if the checkbox of at least one dispatch note is selected.
@@ -175,7 +175,7 @@ The list displays all dispatch notes. Depending on the settings, the displayed c
 
 
 
-## Dispatch note "Dispatch note ID"
+## Dispatch note
 
 *Fulfillment > Dispatch notes > Tab LIST > Select a dispatch note*
 
@@ -191,7 +191,7 @@ The list displays all dispatch notes. Depending on the settings, the displayed c
 
 
 
-## Dispatch note "Dispatch note ID" &ndash; Attributes
+## Dispatch note &ndash; Attributes
 
 *Fulfillment > Dispatch notes > Tab LIST > Select a dispatch note > Tab Attributes*
 
@@ -211,7 +211,7 @@ The right side of the *Attributes* tab displays all attributes that are assigned
     Click this button to collapse or expand the left margin column with the attribute groups. When the left margin is expanded and you click this button, the column is collapsed. When the column is collapsed and you click this button, the column is expanded.
 
 
-## Dispatch note "Dispatch note ID" &ndash; Dependencies
+## Dispatch note &ndash; Dependencies
 
 *Fulfillment > Dispatch notes > Tab LIST > Select a dispatch note > Tab Dependencies*
 
@@ -252,7 +252,7 @@ If no dependent entities exist, the *No other entities depend on this entity* no
 
 
 
-## Dispatch note "Dispatch note ID" &ndash; Shipments
+## Dispatch note &ndash; Shipments
 
 *Fulfillment > Dispatch notes > Tab LIST > Select a dispatch note > Tab Shipments*
 
@@ -474,7 +474,7 @@ The list displays all items contained in the selected package. Depending on the 
 
 
 
-## Dispatch note "Dispatch note ID" &ndash; Logs
+## Dispatch note &ndash; Logs
 
 *Fulfillment > Dispatch notes > Tab LIST > Select a dispatch note > Tab Logs*
 
