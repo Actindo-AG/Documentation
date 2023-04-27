@@ -234,7 +234,7 @@ The *Settings* tab is composed of the following settings entries:
 
 - [Offers](#offers)
 - [Order import](#order-import)
-- [Order export/invoice upload](#order-exportinvoice-upload)
+- [Order export/invoice upload](#order-export/invoice-upload)
 - [Shipping provider mapping](#shipping-provider-mapping)
 
 

@@ -11,7 +11,7 @@ In this part of the *Omni-Channel Amazon Integration* documentation, you will fi
     - [Edit Amazon connection &ndash; Settings](./01_Connections.md#edit-amazon-connection-–-settings)
         - [Offers](./01_Connections.md#offers)
         - [Order import](./01_Connections.md#order-import)
-        - [Order export/invoice upload](./01_Connections.md#order-exportinvoice-upload)
+        - [Order export/invoice upload](./01_Connections.md#order-export/invoice-upload)
         - [Shipping provider mapping](./01_Connections.md#shipping-provider-mapping)
 
     
