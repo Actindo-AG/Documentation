@@ -170,7 +170,7 @@ The list displays all orders, either for all connections or for the selected con
 
 
 
-## Order from connection "Connection name"
+## Order from connection
 
 *Omni-Channel > Orders and returns > Tab ORDERS > Select order*
 
@@ -215,16 +215,16 @@ The list displays all orders, either for all connections or for the selected con
 [comment]: <> (Button umbenennen in RETRY IMPORT -> Konsistenz! -> FETA-16)
 
 The *Order from connection "Connection name"* view is composed of the following tabs:
-- [Order from connection "Connection name" &ndash; Attributes](#order-from-connection-connection-name-–-attributes)
-- [Order from connection "Connection name" &ndash; Dependencies](#order-from-connection-connection-name-–-dependencies)
-- [Order from connection "Connection name" &ndash; Line items](#order-from-connection-connection-name-–-line-items)
-- [Order from connection "Connection name" &ndash; Shipments](#order-from-connection-connection-name-–-shipments)
-- [Order from connection "Connection name" &ndash; Cancellations](#order-from-connection-connection-name-–-cancellations)
-- [Order from connection "Connection name" &ndash; Errors](#order-from-connection-connection-name-–-errors)
+- [Order from connection &ndash; Attributes](#order-from-connection-–-attributes)
+- [Order from connection &ndash; Dependencies](#order-from-connection-–-dependencies)
+- [Order from connection &ndash; Line items](#order-from-connection-–-line-items)
+- [Order from connection &ndash; Shipments](#order-from-connection-–-shipments)
+- [Order from connection &ndash; Cancellations](#order-from-connection-–-cancellations)
+- [Order from connection &ndash; Errors](#order-from-connection-–-errors)
 
 
 
-## Order from connection "Connection name" &ndash; Attributes
+## Order from connection &ndash; Attributes
 
 *Omni-Channel > Orders and returns > Tab ORDERS > Select order > Tab Attributes*
 
@@ -245,7 +245,7 @@ The right side of the *Attributes* tab displays all attributes that are assigned
 
 
 
-## Order from connection "Connection name" &ndash; Dependencies
+## Order from connection &ndash; Dependencies
 
 *Omni-Channel > Orders and returns > Tab ORDERS > Select order > Tab Dependencies*
 
@@ -285,7 +285,7 @@ The list displays all dependencies of the selected order. Depending on the setti
 
 
 
-## Order from connection "Connection name" &ndash; Line items
+## Order from connection &ndash; Line items
 
 *Omni-Channel > Orders and returns > Tab ORDERS > Select order > Tab Line items*
 
@@ -442,7 +442,7 @@ The list displays all dependencies of the selected line item. Depending on the s
 
 
 
-## Order from connection "Connection name" &ndash; Shipments
+## Order from connection &ndash; Shipments
 
 *Omni-Channel > Orders and returns > Tab ORDERS > Select order > Tab Shipments*
 
@@ -499,7 +499,7 @@ The list displays all shipments for the selected order. Depending on the setting
     You can add a column for each attribute that is assigned to the shipment. The column displays the attribute name, the row displays the corresponding attribute value of the shipment.
 
 
-### Shipment for order "Order ID"
+### Shipment for order
 
 *Omni-Channel > Orders and returns > Tab ORDERS > Select order > Tab Shipments > Select shipment*
 
@@ -512,12 +512,12 @@ The list displays all shipments for the selected order. Depending on the setting
     Click this button to close the *Shipment for order "Order ID"* view.
 
 The *Shipment for order "Order ID"* view is composed of the following tabs:
-- [Shipment for order "Order ID" &ndash; Attributes](#shipment-for-order-order-id-–-attributes)
-- [Shipment for order "Order ID" &ndash; Dependencies](#shipment-for-order-order-id-–-dependencies)
-- [Shipment for order "Order ID" &ndash; Shipment line items](#shipment-for-order-order-id-–-shipment-line-items)
+- [Shipment for order &ndash; Attributes](#shipment-for-order-–-attributes)
+- [Shipment for order &ndash; Dependencies](#shipment-for-order-–-dependencies)
+- [Shipment for order &ndash; Shipment line items](#shipment-for-order-–-shipment-line-items)
 
 
-### Shipment for order "Order ID" &ndash; Attributes
+### Shipment for order &ndash; Attributes
 
 *Omni-Channel > Orders and returns > Tab ORDERS > Select order > Tab Shipments > Select shipment > Tab Attributes*
 
@@ -537,7 +537,7 @@ The right side of the *Attributes* tab displays all attributes that are assigned
     Click this button to collapse or expand the left margin column with the attribute groups. When the left margin is expanded and you click this button, the column is collapsed. When the column is collapsed and you click this button, the column is expanded.
 
 
-### Shipment for order "Order ID" &ndash; Dependencies
+### Shipment for order &ndash; Dependencies
 
 *Omni-Channel > Orders and returns > Tab ORDERS > Select order > Tab Shipments > Select shipment > Tab Dependencies*
 
@@ -576,7 +576,7 @@ The list displays all dependencies of the selected shipment. Depending on the se
     Further, more descriptive identifier of the dependent entity, for instance the SKU number or a bill number.
 
 
-### Shipment for order "Order ID" &ndash; Shipment line items
+### Shipment for order &ndash; Shipment line items
 
 *Omni-Channel > Orders and returns > Tab ORDERS > Select order > Tab Shipments > Select shipment > Tab Shipment line items*
 
@@ -689,7 +689,7 @@ The list displays all dependencies of the selected shipment line item. Depending
 
 
 
-## Order from connection "Connection name" &ndash; Cancellations
+## Order from connection &ndash; Cancellations
 
 *Omni-Channel > Orders and returns > Tab ORDERS > Select order > Tab Cancellations*
 
@@ -743,7 +743,7 @@ The list displays all cancellations for the selected order. Depending on the set
     Cancellation identification number. The ID number is automatically assigned by the system.
 
 
-### Cancellation for order "Order ID"
+### Cancellation for order
 
 *Omni-Channel > Orders and returns > Tab ORDERS > Select order > Tab Cancellations > Select Cancellation*
 
@@ -756,12 +756,12 @@ The list displays all cancellations for the selected order. Depending on the set
     Click this button to close the *Cancellation for order "Order ID"* view.
 
 The *Cancellation for order "Order ID"* view is composed of the following tabs:
-- [Cancellation for order "Order ID" &ndash; Attributes](#cancellation-for-order-order-id-–-attributes)
-- [Cancellation for order "Order ID" &ndash; Dependencies](#cancellation-for-order-order-id-–-dependencies)
-- [Cancellation for order "Order ID" &ndash; Cancellation line items](#cancellation-for-order-order-id-–-cancellation-line-items)
+- [Cancellation for order &ndash; Attributes](#cancellation-for-order-–-attributes)
+- [Cancellation for order &ndash; Dependencies](#cancellation-for-order-–-dependencies)
+- [Cancellation for order &ndash; Cancellation line items](#cancellation-for-order-–-cancellation-line-items)
 
 
-### Cancellation for order "Order ID" &ndash; Attributes
+### Cancellation for order &ndash; Attributes
 
 *Omni-Channel > Orders and returns > Tab ORDERS > Select order > Tab Cancellations > Select cancellation > Tab Attributes*
 
@@ -781,7 +781,7 @@ The right side of the *Attributes* tab displays all attributes that are assigned
     Click this button to collapse or expand the left margin column with the attribute groups. When the left margin is expanded and you click this button, the column is collapsed. When the column is collapsed and you click this button, the column is expanded.
 
 
-### Cancellation for order "Order ID" &ndash; Dependencies
+### Cancellation for order &ndash; Dependencies
 
 *Omni-Channel > Orders and returns > Tab ORDERS > Select order > Tab Cancellations > Select cancellation > Tab Dependencies*
 
@@ -820,7 +820,7 @@ The list displays all dependencies of the selected cancellation. Depending on th
     Further, more descriptive identifier of the dependent entity, for instance the SKU number or a bill number.
 
 
-### Cancellation for order "Order ID" &ndash; Cancellation line items
+### Cancellation for order &ndash; Cancellation line items
 
 *Omni-Channel > Orders and returns > Tab ORDERS > Select order > Tab Cancellations > Select cancellation > Tab Cancellation line items*
 
@@ -933,7 +933,7 @@ The list displays all dependencies of the selected cancellation. Depending on th
 
 
 
-## Order from connection "Connection name" &ndash; Errors
+## Order from connection &ndash; Errors
 
 *Omni-Channel > Orders and returns > Tab ORDERS > Select order > Tab Errors*
 
