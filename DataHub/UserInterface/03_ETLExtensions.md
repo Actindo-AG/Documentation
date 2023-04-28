@@ -112,7 +112,7 @@ This extension is used to add a specific prefix and/or suffix to the destination
 
 ![Arithmetic extension](../../Assets/Screenshots/DataHub/Settings/ETL/Extensions/ArithmeticExtension.png "[Arithmetic extension]")
 
-This extension is used to combine or calculate several attributes in a specified manner and map them to a destination attribute. The mapping can be used to include mathematical equations for numbers but also to combine multiple strings or numbers and units, etc. Define the equation and, if desired, fallback equations, in the configuration. At least one source attribute must be selected in the *x1* source attribute. Up to eight attributes can be selected.   
+This extension is used to apply a certain logic to the mapping. Define the equation and, if desired, fallback equations, in the configuration. At least one source attribute must be selected in the *x1* source attribute. Up to eight attributes can be selected.   
 
 ### Possible data type mappings
 
@@ -128,13 +128,12 @@ This extension is used to combine or calculate several attributes in a specified
 ### Configuration
 
 - *Equation 1*   
-    Enter an equation to combine the source attributes and map them to the destination attribute, for instance **x1 + x2** to combine the values of the corresponding source attributes.
+    Enter an equation to define the logic to be applied to the mapping, for instance **IFTHENELSE (x1, x2, x3)** to map the value of the attribute in the *x2* field if the value in the *x1* field is set. Otherwise, the value of the attribute in the *x3* field is mapped.
 
 - ![Add](../../Assets/Icons/Plus03.png "[Add]") (Add)   
     Click this button to add another equation. If the value of the first equation is empty, the second equation is used as a fallback value. You can add an unlimited number of equations.
 
-[comment]: <> (aktuell noch fehlerhaft: immer die letzte und nur diese angegebene equation wird gemappt -> soll geändert werden)
-
+[comment]: <> (bitte kontrollieren und ggf. anpassen/weiter ausführen)
 
 
 ## Basic mapping
@@ -401,7 +400,7 @@ This extension is used to map the generic property of an entity attribute to a d
 | String                           | String, Text field, Integer    |
 | Boolean                          | String, Text field, Integer    |
 
-[comment]: <> (aktueller Bug: Configuration wird nur bei boolean als destination attribut angezeigt. Anwendungsfall aufzeigen! Mehr Infos)
+[comment]: <> (Configuration wird nur bei boolean als destination attribut angezeigt. -> BUG-224)
 
 ### Configuration
 
@@ -416,8 +415,6 @@ This extension is used to map the generic property of an entity attribute to a d
 
 - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Invert bool*   
     Enable the toggle to invert the boolean value after mapping. Otherwise, the boolean value will remain as mapped.
-
-[comment]: <> (Configuration überarbeiten! Was macht die drop-down list?)
 
 
 
@@ -468,13 +465,11 @@ For detailed information about HTML templates, see [Manage the HTML templates](.
 
 ![Identity mapping](../../Assets/Screenshots/DataHub/Settings/ETL/Extensions/IdentityMapping.png "[Identity mapping]")
 
-This extension is used to copy the value from the source attribute and map it to the destination attribute. In contrast to the *Basic mapping* extension, only completely identical attributes in the source and the destination attribute can be mapped.
+This extension is used to copy the value from the source attribute and map it to the destination attribute. In contrast to the *Basic mapping* extension, only completely identical attributes in the source and the destination attribute can be mapped. Therefore, the identical attributes must be included in both the source attribute set and the destination attribute set.
 
 ### Possible data type mappings
 
-This extension is mostly data type independent. All attributes with a self-mappable data type can be mapped.
-
-[comment]: <> (Selfmappable erklären, welche datentypen sind nicht selfmappable?)
+This extension is mostly data type independent. All attributes with a self-mappable data type can be mapped. You can select the checkbox of the attribute mapping and click the [ADD TO SOURCE SET AND MAP] mapping to apply the *Identity mapping* instead of using the *Settings* section on the right hand side of the view. The [ADD TO SOURCE SET AND MAP]  button is only displayed if the *Identity mapping* is available for the selected destination attribute.
 
 ### Configuration
 
@@ -672,7 +667,9 @@ This extension is used to map a set of source attributes to fixed destination at
 
 ![MySQL query](../../Assets/Screenshots/DataHub/Settings/ETL/Extensions/MySQLQuery.png "[MySQL query]")
 
-This extension is used to map a MySQL query to a destination attribute. The MySQL query can include placeholders that are defined in up to four source attributes. The MySQL query to be applied is selected in the configuration. This mapping is mainly used for more logical assignments which cannot be mapped with other extensions. This extension is only available when the *Database and reporting* module is installed.  
+This extension is used to map a MySQL query to a destination attribute. The MySQL query can include placeholders that are defined in up to four source attributes. The MySQL query to be applied is selected in the configuration. This mapping is mainly used for more logical assignments which cannot be mapped with other extensions. This extension is only available if the *Database and reporting* module is installed.  
+
+> [Info] Note that the change tracking mode is not working for the *MySQL* extension.
 
 ### Possible data type mappings
 
@@ -692,11 +689,6 @@ This extension is used to map a MySQL query to a destination attribute. The MySQ
 
 - [TEST]   
     Click this button to run the selected query and test if a valid value is extracted.
-
-- *Column*   
-    Enter the name from the column in the MYSQL database from which the value will be selected.
-
-[comment]: <> (Stimmt das alles? Bild aktualisieren! Modul installieren? No change tracking?)
 
 
 
@@ -1129,36 +1121,6 @@ This extension is used to map a PIM price field attribute with a fallback attrib
 
 
 
-[comment]: <> (gibt es die extensions RMA-Extension und RMAExtension PosId Extensions noch?
-
-## RMA extension ???
-
-### Possible data type mappings
-
-> [Info] The data type of the destination attribute and the selected ETL extension determine the data type of the source attribute.
-
-| Destination attribute data type  | Source attribute data type     |
-|----------------------------------|--------------------------------|
-| String                           | *EAN*, *Amount*: String         |
-
-### Configuration
-
-
-
-## RMA extension pos ID extensions ???
-
-### Possible data type mappings
-
-> [Info] The data type of the destination attribute and the selected ETL extension determine the data type of the source attribute.
-
-| Destination attribute data type  | Source attribute data type        |
-|----------------------------------|-----------------------------------|
-| String                           |*Project number*, *EAN*: String    |
-
-### Configuration )
-
-
-
 ## Simple pricing to float
 
 ![Simple pricing to float](../../Assets/Screenshots/DataHub/Settings/ETL/Extensions/SimplePricingToFloat.png "[Simple pricing to float]")
@@ -1540,7 +1502,7 @@ This ETL extension has no further configuration settings.
 
 This extension is used to map a tax zone attribute to a string attribute. The tax zone attribute is Actindo specific and therefore needs a special extension for mapping. This mapping is only used when the tax zone is maintained in a separate attribute and not included to the price attribute.
 
-[comment]: <> (Stimmt das? Anwendungsbeispiel? Mehr infos! Bild aktualisieren! Datentypen?)
+[comment]: <> (Stimmen die Datentypen?)
 
 ### Possible data type mappings
 
@@ -1811,11 +1773,9 @@ This extension is used to map a unit attribute to a string attribute. A unit att
         The source unit is mapped to the destination attribute.
     - **Configured unit**   
         The unit to be mapped to the destination attribute must be selected in the *Configured unit* drop-down list.
-    - **Destination unit**   
-        The destination unit is kept in the destination attribute.
 
-[comment]: <> (Destination Unit -> error; Configured Unit -> not working and no drop-down list displayed; ergibt auch irgendwie beides keinen sinn, oder?)
-
+- *Unit*    
+    Click the drop-down list and select the unit that will be mapped in the destination unit. All units corresponding to the dimension of the destination attribute are displayed in the list. The drop-down list is only displayed if the **Configured unit** option is selected in the *Mode* drop-down list.
 
 - *Suffix Mode*   
     Click the drop-down list and select the suffix display mode for the unit. The following options are available:
@@ -1825,7 +1785,6 @@ This extension is used to map a unit attribute to a string attribute. A unit att
         The unit is displayed by its name, for instance *centimeter*.
     - **Suffix empty**   
         The unit is hidden.
-
 
 - *Separator*   
     Enter the separator sign placed between quantity and unit. If the field is left empty, the unit and quantity are written directly one after the other.
@@ -1866,7 +1825,7 @@ This extension is used to map a unit attribute to another unit attribute. A unit
         The destination unit is kept in the destination attribute.
 
 - *Configured unit*    
-    Click the drop-down list and select the unit that will be mapped in the destination unit. All units corresponding to the dimension of the destination attribute are displayed in the list. The drop-down list is only displayed if the  **Configured unit** option is selected in the *Choose the unit mapping mode* drop-down list.
+    Click the drop-down list and select the unit that will be mapped in the destination unit. All units corresponding to the dimension of the destination attribute are displayed in the list. The drop-down list is only displayed if the **Configured unit** option is selected in the *Choose the unit mapping mode* drop-down list.
 
 
 
@@ -1894,9 +1853,7 @@ This extension is used to map a variant attribute to text, for instance to provi
     Enter the attribute keys of those attributes that should not be mapped to the destination attribute.
 
 - *Language for values from a tree node*   
-    Click the drop-down list and select the language of the source attribute value used for the mapping. All active languages are displayed in the list. This setting only applies to values from a tree node.
-
-[comment]: <> (when is the language setting displayed?)
+    Click the drop-down list and select the language of the source attribute value used for the mapping. All languages that are active in the *DataHub* module are displayed in the list. This setting only applies to values from a tree node.
 
 
 
@@ -1907,8 +1864,6 @@ This extension is used to map a variant attribute to text, for instance to provi
 ![Variant value to master SKU](../../Assets/Screenshots/DataHub/Settings/ETL/Extensions/VariantValueToMasterSKU.png "[Variant value to master SKU]")
 
 This extension is used to map a product variant attribute to a string attribute. The defining attribute value of the variant is mapped to the destination attribute. The product variant attribute is Actindo specific and therefore needs a special extension for mapping.
-
-[comment]: <> (stimmt das? Bild aktualisieren!)
 
 ### Possible data type mappings
 

@@ -129,7 +129,7 @@ The list displays all attribute set mappings. Depending on the settings, the dis
     Click this button to delete the selected mapping to the destination attribute. This button is only displayed if the checkbox of a mapping is selected.       
 
 - [ADD TO SOURCE SET AND MAP]   
-    Click this button to add the selected destination attribute to the source attribute set and create a mapping. By default, the *Identity-mapping* extension is used to map the attributes. The button is only displayed if no mapping to the selected destination attribute already exists.
+    Click this button to add the selected destination attribute to the source attribute set and create a mapping. The *Identity mapping* extension is used to map the attributes, see [Identity mapping](./03_ETLExtensions.md#identity-mapping). The button is only displayed if no mapping to the selected destination attribute already exists and if the identical attributes are contained in both the source attribute and the destination attribute set.
 
 - [RERUN SELECTED MAPPING]   
     Click this button to rerun the selected attribute mapping. The button is only displayed if a mapping to the selected destination attribute already exists. The *Rerun single mapping* window is displayed.
