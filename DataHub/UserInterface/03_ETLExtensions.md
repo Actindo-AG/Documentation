@@ -1,5 +1,5 @@
-[!!Manage the ETL Mappings](../Operation/01_ManageETLMappings.md)
 [!!Data type list](./04_DataTypeList.md)
+[!!Manage the ETL Mappings](../Operation/01_ManageETLMappings.md)
 
 # ETL extensions list
 
@@ -9,14 +9,14 @@ The ETL extensions are used to define how the data is transformed from the sourc
 
 The list below describes in detail all available ETL extensions and, if available, their specific configurations. The following ETL extensions are described in detail:
 
-- [Add prefix/suffix](#add-prefixsuffix)
+- [Add prefix/suffix](#add-prefix/suffix)
 - [Arithmetic extension](#arithmetic-extension)
 - [Basic mapping](#basic-mapping)
 - [Boolean to string](#boolean-to-string)
 - [Catalog tree to tree value mapping](#catalog-tree-to-tree-value-mapping)
 - [Cloudinary to string](#cloudinary-to-string)
 - [Constant value](#constant-value)
-- [Copy Cloudinary image value](#sopy-cloudinary-image-value)
+- [Copy Cloudinary image value](#copy-cloudinary-image-value)
 - [Copy packaging units](#copy-packaging-units)
 - [Country to X](#country-to-x)
 - [Date converter](#date-converter)
@@ -38,8 +38,8 @@ The list below describes in detail all available ETL extensions and, if availabl
 - [Null coalescence extension](#null-coalescence-extension)
 - [Number to string](#number-to-string)
 - [Number to unit value](#number-to-unit-value)
-- [PIM base price to amount (VPE value)](#pim-base-price-to-amount-vpe-value)
-- [PIM base price to boolean (VPE active)](#pim-base-price-to-boolean-vpe-active)
+- [PIM base price to amount (VPE value)](#pim-base-price-to-amount-(vpe-value))
+- [PIM base price to boolean (VPE active)](#pim-base-price-to-boolean-(vpe-active))
 - [PIM base price to unit](#pim-base-price-to-unit)
 - [PIM base price to VPE reference unit](#pim-base-price-to-vpe-reference-unit)
 - [PIM price to simple price](#pim-price-to-simple-price)
@@ -53,7 +53,7 @@ The list below describes in detail all available ETL extensions and, if availabl
 - [Simple pricing to float](#simple-pricing-to-float)
 - [Special price with default fallback](#special-price-with-default-fallback)
 - [Stock to integer](#stock-to-integer)
-- [String/tree to string/tree](#stringtree-to-stringtree)
+- [String/tree to string/tree](#string/tree-to-string/tree)
 - [String and value to unit](#string-and-value-to-unit)
 - [String date converter](#string-date-converter)
 - [String to image](#string-to-image)
@@ -69,7 +69,7 @@ The list below describes in detail all available ETL extensions and, if availabl
 - [Tree and number to base price](#tree-and-number-to-base-price)
 - [Tree node and basic price to PIM price](#tree-node-and-basic-price-to-pim-price)
 - [Tree key to string](#tree-key-to-string)
-- [Tree/string to tax class](#treestring-to-tax-class)
+- [Tree/string to tax class](#tree/string-to-tax-class)
 - [Tree to boolean](#tree-to-boolean)
 - [Tree to float](#tree-to-float)
 - [Tree to tree](#tree-to-tree)
@@ -827,7 +827,7 @@ This extension is used to map a number to a unit attribute. Both absolute and de
 
 
 
-## PIM base price to amount (VPE value)
+## PIM base price to amount (VPE value) 
 
 ![PIM base price to amount](../../Assets/Screenshots/DataHub/Settings/ETL/Extensions/PIMBasePriceToAmount.png "[PIM base price to amount]")
 

@@ -67,7 +67,7 @@ The list displays all attributes assigned to the selected attribute group. Depen
 
 
 
-## Add attributes to group "Attribute group name"
+## Add attributes to group
 
 *DataHub > Settings > Tab ATTRIBUTE GROUPS > Button Add*
 

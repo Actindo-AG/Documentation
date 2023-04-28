@@ -7,7 +7,7 @@ In this part of the *DataHub* documentation, you will find the following chapter
     - [Prerequisites](./01_General.md#prerequisites)
 
 - [Key features](./02_Features.md)
-    - [What is ETL?](./02_Features.md#what-is-etl)
+    - [What is ETL](./02_Features.md#what-is-etl)
     - [The new way to modernize](./02_Features.md#the-new-way-to-modernize)
     - [Actindo data accelerator hub](./02_Features.md#actindo-data-accelerator-hub)
 

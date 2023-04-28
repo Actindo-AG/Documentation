@@ -1,6 +1,7 @@
-[!!User interface ETL processes](../UserInterface/02h_ETLProcesses.md)
-[!!User interface ETL](../UserInterface/02d_ETL.md)
 [!!Manage the ETL mappings](./01_ManageETLMappings.md)
+[!!Retry a faulty ETL process](../Troubleshooting/01_RetryFaultyETLProcess.md)
+[!!User interface ETL](../UserInterface/02d_ETL.md)
+[!!User interface ETL processes](../UserInterface/02h_ETLProcesses.md)
 [!!ETL extensions list](../UserInterface/03_ETLExtensions.md)
 [!!User interface Semiautomatic mapping](../../Channels/UserInterface/02c_SemiAutomaticMapping.md)
 
@@ -59,7 +60,7 @@ An ETL process has been triggered, for instance by a rerun of mapping, see [Reru
 
 3. Depending on the status of the ETL process, continue with one of the following actions:
     - [Confirm an ETL process](#confirm-an-etl-process)
-    - [Retry a faulty ETL process](#retry-a-faulty-etl-process)
+    - [Retry a faulty ETL process](../Troubleshooting/01_RetryFaultyETLProcess.md)
     - [Return to the ETL Mapping](./01_ManageETLMappings.md)
 
 
