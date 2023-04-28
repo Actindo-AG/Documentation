@@ -15,7 +15,7 @@ Intelligent data orchestration with the *DataHub* module
     Our API-first approach enables easy and flexible integration of third-party systems and applications. All functions are fully controllable via an API integration. Additionally, custom extensions can be developed by your company or technology partners and seamlessly deployed as well.   
 
 
-## What is ETL?
+## What is ETL
 
 **Easy data exchange thanks to an integrated ETL function**   
 ETL stands for *Extract, Transform, Load* and describes the integration process in which data from one or more data sources is read, prepared and transferred to the central *DataHub* module. The goal is to prepare the integrated data for further processing and make it available for downstream processes and applications.   

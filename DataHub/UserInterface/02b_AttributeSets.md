@@ -295,7 +295,7 @@ If the ![Settings](../../Assets/Icons/Settings01.png "[Settings]") (Settings) bu
     - ![Cross](../../Assets/Icons/Cross02.png "[Cross]") (Cross): The attribute is single channel.
 
 
-### Edit attribute for set "Attribute set name"
+### Edit attribute for set
 
 *DataHub > Settings > Tab ATTRIBUTE SETS > Select attribute set > Select attribute with configuration*
 
