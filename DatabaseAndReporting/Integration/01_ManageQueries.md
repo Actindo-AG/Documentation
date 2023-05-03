@@ -5,12 +5,11 @@
 
 # Manage the queries
 
-Queries can be predefined to determine the data that may be accessed by specific user groups. Instead of entering and executing a query directly in MySQL console, the user can simply select the query to be executed from the list of queries. 
+Queries can be predefined to determine the data that may be accessed by specific user groups. Instead of entering and executing a query directly in the MySQL console, the user can simply select the query to be executed from the list of queries. 
 
-Data can be accessed via API and download, that is, users must be logged in the Core1, or via public download in a web browser. In the case of public download, a download link and a UUID (Universally Unique Identifier) are required. Queries can be read-only, that is, the mere access and retrieval of available data, or write access can be enabled, which additionally allows to modify the data contained in the database. 
+Data can be accessed via API and download, that is, users must be logged in to the *Actindo Core1 Platform*, or via public download in a web browser. In the case of public download, a download link and a UUID (Universally Unique Identifier) are required. Queries can be read-only, that is, the mere access and retrieval of available data, or write access can be enabled, which additionally allows to modify the data contained in the database. 
 
-Managed queries can be created, edited, and deleted, as well as organized in categories, see [Manage the query categories](./02_ManageQueryCategories.md). Query access can also be restricted or granted pro query based on the user group, see 
-[Grant access rights to a user group](./05_ManageUserRights.md#grant-access-rights-to-a-user-group).
+Managed queries can be created, edited, and deleted, as well as organized in categories, see [Manage the query categories](./02_ManageQueryCategories.md). The query access can also be restricted or granted per query based on the user group, see [Grant access rights to a user group](./05_ManageUserRights.md#grant-access-rights-to-a-user-group).
 
 ## Create a query
 
@@ -26,7 +25,6 @@ No prerequisites to fulfill.
 
 ![Queries](../../Assets/Screenshots/DatabaseAndReporting/ManagedQueries/Queries/Queries.png "[Queries]")
 
-
 1. Click the ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) button in the bottom right corner.  
     The *Create MySQL query* is displayed.
 
@@ -35,6 +33,7 @@ No prerequisites to fulfill.
 2. Enter a name in the *Name* field.
 
 3. If desired, click the *Category* drop-down list and select the applicable category. All available query categories are displayed in the list. 
+
     > [Info] The query category can be assigned while creating the query or later on, after the query has been created. To create a query category, see [Create a query category](./02_ManageQueryCategories.md#create-a-query-category).  
 
 4. Enter a valid MySQL query.  
@@ -59,7 +58,7 @@ No prerequisites to fulfill.
 [comment]: <> (ETL use enabled muss noch ausgeblendet werden, laut JS)
 
 6. If desired, enter one or several IP addresses or an IP range (subnet mask) in the *IP whitelist (only public download)* field to allow access only to those IP addresses entered in case of public download.  
-    > [Info] When entering more than one IP address, each IP address must be entered on a separate line. Bear in mind that if no IP address is whitelisted, any person with the link, from any IP address, can access the query results via public download. If at least one IP address is whitelisted, all other IP addresses are blacklisted. 
+    > [Info] When entering more than one IP address, each IP address must be entered on a separate line. Note that if no IP address is whitelisted, any person with the link, from any IP address, can access the query results via the public download. If at least one IP address is whitelisted, all other IP addresses are blacklisted. 
 
 7. Select the *API and download enabled* checkbox to allow logged in users with the appropriate rights to execute the query and download the retrieved data.
     > [Info] Additionally, user access rights must be granted for every single predefined query, see [Grant access rights to a user group](./05_ManageUserRights.md#grant-access-rights-to-a-user-group).
@@ -70,7 +69,7 @@ No prerequisites to fulfill.
 9. Select the *Write access enabled* checkbox to allow write operations when executing the query. Otherwise, a query with write operations, such as INSERT or DELETE, will not be executed and an error message will be displayed.
 
 10. If desired, click the [TRY QUERY (READ ONLY)] button to test the query.  
-    The query results are displayed in table format at the bottom of the workspace.
+    The query results are displayed in the *Try query result* box at the bottom of the workspace. 
 
 11. Click the [SAVE] button.  
    The query has been saved. The *Create MySQL query* is closed. The new query is displayed in the list of queries.
@@ -78,7 +77,7 @@ No prerequisites to fulfill.
 
 ## Edit a query
 
-After you have a created a query, it can be edited to change any previously set values. The fields *ID* and *UUID*, however, are automatically assigned by the system and cannot be modified.
+After you have created a query, it can be edited to change any previously set values. The *ID* and *UUID* fields are automatically assigned by the system and cannot be modified.
 
 #### Prerequisites 
 
@@ -96,10 +95,10 @@ A query has been created, see [Create a query](#create-a-query).
 
     ![Queries](../../Assets/Screenshots/DatabaseAndReporting/ManagedQueries/Queries/EditQuery.png "[Queries]")
 
-2. Edit the query set values as necessary in the corresponding fields and checkboxes.
+2. Edit the query as necessary in the corresponding fields and checkboxes.
     
 3. If desired, click the [TRY QUERY (READ ONLY)] button to test the query.  
-  The query results are displayed in table format at the bottom of the workspace.
+  The query results are displayed in the *Try query result* box at the bottom of the workspace. 
 
 4. Click the [SAVE] button.  
   The changes have been saved. The *Edit MySQL query* is closed. 
@@ -111,7 +110,7 @@ Delete a query that is no longer needed. It is possible to delete several querie
 
 #### Prerequisites 
 
-At last a query has been created, see [Create a query](#create-a-query).
+At least one query has been created, see [Create a query](#create-a-query).
 
 #### Procedure
 

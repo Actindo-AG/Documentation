@@ -4,9 +4,9 @@
 
 # Manage the query categories
 
-Query categories serve the logical organization of the managed queries. The managed queries are then organized in a tree structure of folders and sub-folders.
+Query categories are used for the logical organization of the managed queries. The managed queries are organized in a tree structure of folders and sub-folders.
 
-Query categories can be created, edited, deleted, and divided into sub-categories. All individual managed queries can, in turn, be assigned to a category and/or a sub-category, see [Create a query](./01_ManageQueries.md#create-a-query). Query category read and save rights can also be restricted or granted based on the user group, see [Grant access rights to a user group](./05_ManageUserRights.md#grant-access-rights-to-a-user-group).
+Query categories can be created, edited, deleted, and divided into sub-categories. All individual managed queries can, in turn, be assigned to a category and/or a sub-category, see [Create a query](./01_ManageQueries.md#create-a-query). The read and save rights of categories can also be restricted or granted based on the user group, see [Grant access rights to a user group](./05_ManageUserRights.md#grant-access-rights-to-a-user-group).
 
 
 ## Create a query category
@@ -45,10 +45,10 @@ No prerequisites to fulfill.
 
     ![Query category created](../../Assets/Screenshots/DatabaseAndReporting/Settings/QueryCategories/QueryCategoryCreated.png "[Query category created]")
 
-    > [Info] To add an additional query category, repeat the steps 1 to 5. To add a query sub-category, see [Create a query sub-category](#create-a-query-sub-category).
+    > [Info] To add an additional query category, repeat the steps **1** to **5**. To add a query sub-category, see [Create a query sub-category](#create-a-query-sub-category).
 
 6. Click the [SAVE] button in the upper right corner.   
-    The *Submitting data...* view is displayed shortly while saving. 
+    The *Submitting data...* view is displayed while saving. 
 
     ![Submitting data](../../Assets/Screenshots/DatabaseAndReporting/Settings/QueryCategories/SubmittingData.png "[Submitting data]")
 
@@ -61,7 +61,7 @@ After you have created a query category, you can edit it. You can create sub-cat
 
 ### Create a query sub-category
 
-Add any number of query sub-categories to a query category. Further unlimited sub-category levels can be added. 
+Add further query sub-categories to a query category. An unlimited number of sub-category levels can be added. 
 
 The procedure to add a query sub-category to a category and to another sub-category is identical. Just select a sub-category instead of a category and follow the steps described below.
 
@@ -74,8 +74,8 @@ At least one query category has been created, see [Create a query category](#cre
 
 ![Query categories](../../Assets/Screenshots/DatabaseAndReporting/Settings/QueryCategories/QueryCategory.png "[Query categories]")
 
-1. Click the name of the category to which you want to create a sub-category.  
-    A query sub-category column, containing the existing sub-categories, if any, is displayed in a column to the right of the query category column.
+1. Click the category to which you want to create a sub-category.  
+    A query sub-category column is displayed in the column to the right of the query category column. If sub-categories already exist for the selected category, they are displayed in this column.
 
     ![Query categories](../../Assets/Screenshots/DatabaseAndReporting/Settings/QueryCategories/QueryCategoryCreated.png "[Query categories]")
 
@@ -85,7 +85,7 @@ At least one query category has been created, see [Create a query category](#cre
     ![Query categories](../../Assets/Screenshots/DatabaseAndReporting/Settings/QueryCategories/AddQuerySubcategory.png "[Query categories]")
 
 3. Click the plus sign in the query sub-category column.  
-    The *Add element* window is displayed in the sub-category column.
+    The *Add element* window is displayed in the query sub-category column.
 
     ![Query categories](../../Assets/Screenshots/DatabaseAndReporting/Settings/QueryCategories/AddElementSubcategory.png "[Query categories]")
 
@@ -103,7 +103,7 @@ At least one query category has been created, see [Create a query category](#cre
     > [Info] If you want to change the order of the query sub-categories in the list, see [Change the order of query categories](#change-the-order-of-query-categories).
 
 7. Click the [SAVE] button in the upper right corner.   
-    The *Submitting data...* view is displayed shortly while saving. 
+    The *Submitting data...* view is displayed while saving. 
 
     ![Submitting data](../../Assets/Screenshots/DatabaseAndReporting/Settings/QueryCategories/SubmittingData.png "[Submitting data]")
 
@@ -141,7 +141,7 @@ At least one query category has been created, see [Create a query category](#cre
     > [Info] If you want to change the order of the query sub-categories in the list, see [Change the order of query categories](#change-the-order-of-query-categories).
 
 4. Click the [SAVE] button in the upper right corner.  
-     The *Submitting data...* view is displayed shortly while saving. 
+     The *Submitting data...* view is displayed while saving. 
 
     ![Submitting data](../../Assets/Screenshots/DatabaseAndReporting/Settings/QueryCategories/SubmittingData.png "[Submitting data]")
 
@@ -173,7 +173,7 @@ At least two query categories have been created, see [Create a query category](#
 2. Move the selected query category to the desired position in the list by using drag and drop.
 
 3. Click the [SAVE] button in the upper right corner.  
-    The *Submitting data...* view is displayed shortly while saving. 
+    The *Submitting data...* view is displayed while saving. 
 
     ![Submitting data](../../Assets/Screenshots/DatabaseAndReporting/Settings/QueryCategories/SubmittingData.png "[Submitting data]")
 
@@ -185,7 +185,7 @@ At least two query categories have been created, see [Create a query category](#
 
 ## Delete a query category
 
-You can delete a query category if it no longer in use. Note that you just delete the query category but not the queries assigned to it. 
+You can delete a query category if it is no longer in use. Note that you delete the query category with all sub-categories but not the queries assigned to it. 
 
 The procedure to delete query categories and sub-categories is identical. Just select a sub-category instead of a category and follow the steps described below.
 
@@ -206,10 +206,10 @@ At least one query category has been created, see [Create a query category](#cre
     ![Query categories](../../Assets/Screenshots/DatabaseAndReporting/Settings/QueryCategories/EditQueryCategoryData.png "[Query categories]")
 
 2. Click the ![Delete](../../Assets/Icons/Trash01.png "[Delete]") (Delete) button in the bottom left corner of the query category data window.   
-    The deleted query category is removed from the query category column.
+    The deleted query category has been removed from the query category column.
 
 3. Click the [SAVE] button in the upper right corner.   
-    The *Submitting data...* view is displayed shortly while saving. 
+    The *Submitting data...* view is displayed while saving. 
 
     ![Submitting data](../../Assets/Screenshots/DatabaseAndReporting/Settings/QueryCategories/SubmittingData.png "[Submitting data]")
 
