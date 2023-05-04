@@ -1,7 +1,6 @@
 [!!User Interface Postings](../UserInterface/01a_Bookings.md)  
 [!!User Interface Open items](../UserInterface/01d_OpenItems.md)   
 
-
 # Cancel a posting
 
 You can cancel a posting, for example, if an invoice has been mistakenly posted to a wrong account or a posting must be corrected.   

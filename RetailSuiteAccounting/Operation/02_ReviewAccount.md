@@ -1,12 +1,12 @@
+[!!Manage the accounts](../Integration/03_ManageAccounts.md)  
 [!!User Interface Balances](../UserInterface/01b_Balances.md)  
 [!!User Interface Account sheet](../UserInterface/01c_AccountSheet.md)  
 [!!User Interface Accounts](../UserInterface/02b_Accounts.md)  
-[!!Manage the accounts](../Integration/03_ManageAccounts.md)  
-
 
 # Check an account
 
 You can check the current credit/debit situation and the resulting balance of a specific account, as well as the transactions posted in it. These data can also be filtered and displayed in different views for better clarity.
+
 
 
 ## Access the balance view of an account
@@ -27,7 +27,6 @@ A fiscal year has been selected, see [Select fiscal year](./01_SelectFiscalYear.
 
 ![Balances - no account selected](../../Assets/Screenshots/RetailSuiteAccounting/Book/Balances/BalancesNoAccount.png "[Balances - no account selected]")
 
-
 1. If desired, enter an account number in the *Contra account* field.  
     The balance for the selected account is displayed on the left side of the workspace.
 
@@ -39,12 +38,12 @@ A fiscal year has been selected, see [Select fiscal year](./01_SelectFiscalYear.
 3. If desired, select the *All months* radio button to display the balances for the entire fiscal year. By default, the *Only this month* radio button is preselected and the balances for the currently selected posting period, or month, are displayed.
 
 
+
 ## Access the account sheet
 
 The *ACCOUNT SHEET* tab displays a chronologically ordered list of all movements in a specific account. Account sheets can be later used for balance sheet calculations and profit and loss statements.
 
 > [Info] When directly clicking the *ACCOUNT SHEET* tab, a blank tab with the notice *No account selected* is displayed. An account must be selected to display the corresponding details. If a posting has been previously selected in the *POSTINGS* tab, the details of the account specified in the *Contra Account* field are displayed in the *ACCOUNT SHEET* tab. If the *Contra Account* field is empty, the details of the account specified in the *Account* field are displayed.
-
 
 #### Prerequisites
 
@@ -55,7 +54,6 @@ A fiscal year has been selected, see [Select fiscal year](./01_SelectFiscalYear.
 *Accounting > Post > Tab ACCOUNT SHEET*
 
 ![Account sheet - no account selected](../../Assets/Screenshots/RetailSuiteAccounting/Book/AccountSheet/AccountSheetNoAccount.png "[Account sheet - no account selected]")
-
 
 1. Enter an account number in the *Contra account* or *Account* field and leave the field.  
     A chronologically ordered list of all postings in the selected account is displayed in the workspace.

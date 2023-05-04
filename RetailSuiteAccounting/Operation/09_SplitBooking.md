@@ -1,5 +1,7 @@
 [!!User Interface Split posting](../UserInterface/01a_Bookings.md#split-posting)   
-[!!User Interface Post](../UserInterface/01_Book.md)  
+[!!User Interface Postings input line](../UserInterface/01_InputLine.md)  
+
+[comment]: <> (check links)
 
 # Split a posting
 

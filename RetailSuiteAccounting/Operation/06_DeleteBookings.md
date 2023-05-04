@@ -1,12 +1,12 @@
 [!!User Interface Postings](../UserInterface/01a_Bookings.md)  
-[!!User Interface Delete](../UserInterface/01_Book.md#delete)  
-
+[!!User Interface Delete](../UserInterface/01_Header.md#delete)  
 
 # Delete postings
 
 You can delete postings that are no longer needed, for example, if a posting is faulty.
 
 It is possible to delete a single posting or to delete multiple postings at once. Bear in mind, however, that the postings to be deleted must be unprocessed, as postings that have already been processed cannot be deleted. For detailed information, see [Process postings](./07_ProcessBookings.md).
+
 
 
 ## Delete a single posting
@@ -38,6 +38,7 @@ Delete a single posting from the postings list.
 
 3. Click the [OK] button to confirm the deletion.  
     The posting has been deleted. The notice "Posting deleted!" is displayed above the input line. The posting has been removed from the postings list.
+
 
 
 ## Delete multiple postings

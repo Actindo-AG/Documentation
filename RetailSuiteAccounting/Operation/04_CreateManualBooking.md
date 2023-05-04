@@ -1,14 +1,12 @@
-[!!User Interface Postings](../UserInterface/01a_Bookings.md)  
 [!!User Interface Select fiscal year](../UserInterface/00a_FiscalYear.md)   
-[!!User Interface FY/MONTH/JOURNAL](../UserInterface/00_Book.md#fymonthjournal)  
-
+[!!User Interface Postings header](../UserInterface/01_Header.md)  
+[!!User Interface Postings](../UserInterface/01a_Bookings.md)  
 
 # Create a manual posting
 
 Even though a lot of transactions can be posted automatically through the automated functions across the different modules, manual record postings are still necessary.
 
 > [Info] It is essential to select the correct accounting period, that is, the correct fiscal year, month and journal, before making a manual posting. For detailed information, see [Select fiscal year](./01_SelectFiscalYear.md).
-
 
 #### Prerequisites
 

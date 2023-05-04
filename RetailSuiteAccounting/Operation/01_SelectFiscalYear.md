@@ -1,11 +1,9 @@
-[!!User Interface Select fiscal year](../UserInterface/00a_FiscalYear.md)
-[!!User Interface Settings fiscal years](../UserInterface/02d_FiscalYears.md)
-[!!User Interface Postings header](../UserInterface/./01_Header.md)
-[!!User Interface Fixed postings](../UserInterface/02f_FixedBookings.md)
 [!!Manage the fiscal year](../Integration/04_ManageFiscalYear.md)
 [!!Manage the fixed postings](../Integration/06_ManageFixedBookings.md)
-
-
+[!!User Interface Select fiscal year](../UserInterface/00a_FiscalYear.md)
+[!!User Interface Postings header](../UserInterface/01_Header.md)
+[!!User Interface Settings fiscal years](../UserInterface/02d_FiscalYears.md)
+[!!User Interface Fixed postings](../UserInterface/02f_FixedBookings.md)
 
 # Select the fiscal year
 
@@ -20,6 +18,7 @@ Special months are also preconfigured in the system for special business transac
 For detailed information, see [Fiscal year](../UserInterface/00a_FiscalYear.md).
 
 Journals and months are used to arrange a company's business transactions within a fiscal year. A particular posting period contains only the postings made in that specific period.
+
 
 
 ## Start the *Accounting* module
@@ -52,6 +51,7 @@ When you open the *Accounting* module for the first time after logging in or aft
 
 5. Click the [OK] button in the bottom right corner.   
     The *POSTINGS* tab in the *Post* menu entry is displayed for the selected posting period.  All postings registered in this posting period are displayed in the list of postings.
+
 
 
 ## Access postings from another period

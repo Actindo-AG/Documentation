@@ -1,6 +1,7 @@
-[!!Payment processing](../../RetailSuiteBanking/Overview/01_General.md)  
 [!!User Interface Open items](../UserInterface/01d_OpenItems.md)  
+[!!Payment processing](../../RetailSuiteBanking/Overview/01_General.md)  
 
+[comment]: <> (Überhaupt relevant? Payment processing = Zahlungsabwicklung?)
 
 # Manage the open items
 
@@ -12,6 +13,7 @@ There are two view modes:
 - If a personal account, that is, a creditor or debtor account, is selected, only the open items for the selected account are displayed in the *OPEN ITEMS* tab.
 
 > [Info] An account can be selected either by entering an account number in the *Account* or *Contra account* field, or by selecting a posting in the *POSTINGS* tab.  
+
 
 
 ## Check all open items
@@ -38,6 +40,7 @@ A fiscal year has been selected, see [Select fiscal year](./01_SelectFiscalYear.
     > [Info] If there are no open items, the notice *No open items available* is displayed.
 
 
+
 ## Check the open items for an account
 
 You can display all open items of a specific personal account, that is, a creditor or debtor account, for example to check the open items for a certain customer or supplier.
@@ -62,6 +65,7 @@ A fiscal year has been selected, see [Select fiscal year](./01_SelectFiscalYear.
 3. Check the list of open items for the selected account.
 
     > [Info] If required, you can manually clear open items, see [Clear an open item manually](#clear-an-open-item-manually).
+
 
 
 ## Clear an open item manually
