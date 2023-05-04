@@ -1,6 +1,5 @@
 [!!User interface Connections](../UserInterface/03a_Connections.md)
 
-
 # Manage the connections
 
 Establish a connection to InfluxDB in order to write data from your databases to InfluxDB at regular time intervals using an InfluxDB time series.
@@ -10,9 +9,11 @@ The InfluxDB driver is preinstalled with the *Database and reporting* module and
 The connections can be created, edited and deleted.
 
 
+
 ## Create a connection
 
 Create a connection to InfluxDB to be able to write data from your databases to InfluxDB. 
+
 
 ### Add a connection
 
@@ -27,7 +28,6 @@ InfluxDB has been purchased.
 *Database and reporting > Settings > Tab CONNECTIONS*
 
 ![Connections](../../Assets/Screenshots/DatabaseAndReporting/Settings/Connections/NoConnections.png "[Connections]")
-
 
 1. Click the ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) button in the bottom right corner.    
     The *Create connection* view is displayed.
@@ -128,7 +128,8 @@ At least one connection has been established, see [Create a connection](#create-
     
     ![Edit connection](../../Assets/Screenshots/DatabaseAndReporting/Settings/Connections/EditConnectionV2.png "[Edit connection]")
 
-2.  Edit the desired data of the connection in the corresponding fields in the *Credentials* section.   
+2.  Edit the desired data of the connection in the corresponding fields in the *Credentials* section. 
+
     > [Info] The fields in the *Credentials* section differ depending on the driver version.
 
 3. Click the [SAVE] button.  
@@ -137,6 +138,7 @@ At least one connection has been established, see [Create a connection](#create-
     ![Checking credentials](../../Assets/Screenshots/DatabaseAndReporting/Settings/Connections/CheckingCredentials.png "[Checking credentials]")
 
     The *Edit connection* is automatically closed when the changes have been saved. The edited connection is displayed in the list of connections.
+
 
 
 ## Delete a connection

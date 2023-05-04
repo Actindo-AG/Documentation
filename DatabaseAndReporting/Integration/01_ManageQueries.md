@@ -1,7 +1,7 @@
-[!!User interface Queries](../UserInterface/01a_Queries.md)
-[!!Execute the managed queries](../Operation/01_ExecuteManagedQueries.md)
 [!!Manage the query categories](./02_ManageQueryCategories.md)
 [!!Manage the user rights](./05_ManageUserRights.md)
+[!!Execute the managed queries](../Operation/01_ExecuteManagedQueries.md)
+[!!User interface Queries](../UserInterface/01a_Queries.md)
 
 # Manage the queries
 
@@ -10,6 +10,8 @@ Queries can be predefined to determine the data that may be accessed by specific
 Data can be accessed via API and download, that is, users must be logged in to the *Actindo Core1 Platform*, or via public download in a web browser. In the case of public download, a download link and a UUID (Universally Unique Identifier) are required. Queries can be read-only, that is, the mere access and retrieval of available data, or write access can be enabled, which additionally allows to modify the data contained in the database. 
 
 Managed queries can be created, edited, and deleted, as well as organized in categories, see [Manage the query categories](./02_ManageQueryCategories.md). The query access can also be restricted or granted per query based on the user group, see [Grant access rights to a user group](./05_ManageUserRights.md#grant-access-rights-to-a-user-group).
+
+
 
 ## Create a query
 
@@ -38,7 +40,7 @@ No prerequisites to fulfill.
 
 4. Enter a valid MySQL query.  
     
-5. If desired, insert a placeholder to your query to represent any variables to be specified when executing a query. Placeholders are most often used in the SET, VALUES, and WHERE clauses, as in the example provided below where a time condition is defined: 
+5. If desired, insert a placeholder to your query to represent any variables to be specified when executing a query. Placeholders are most often used in the SET, VALUES, and WHERE clauses, as in the example provided below, where a time condition is defined: 
       
     + Enter a condition (WHERE clause) in the query followed by a placeholder, for example **WHERE created > \~creationDate|datetime\~**.
     
@@ -47,7 +49,7 @@ No prerequisites to fulfill.
     + Click the [TRY QUERY (READ ONLY)] button to test the query.   
         The *Bind query parameters placeholders* window is displayed.
         
-        > [Info] There are two possible placeholders to define time conditions: **|datetime** and **|string**. The **|datetime** placeholder generates a calendar button in the *Bind query parameters placeholders* window, whereas the **|string** placeholder creates a free text field.
+        > [Info] There are two possible placeholders to define time conditions: **|datetime** and **|string**. The **|datetime** placeholder generates a ![Calendar](../../Assets/Icons/Calendar02.png "[Calendar]") (Calendar) button in the *Bind query parameters placeholders* window, whereas the **|string** placeholder creates a free text field.
 
         ![Bind query parameters placeholders](../../Assets/Screenshots/DatabaseAndReporting/ManagedQueries/Queries/BindQueryParamsPlaceholders.png "[Bind query parameters placeholders]")
 
@@ -56,18 +58,23 @@ No prerequisites to fulfill.
     + Click the [EXECUTE] button.   
         The query results are displayed in the *Try query result* box at the bottom of the workspace. 
 
+[comment]: <> (Julian: Gibt es für das Textfeld im Bind query parameters placeholders window eine Formatvorgabe?)
+
 [comment]: <> (ETL use enabled muss noch ausgeblendet werden, laut JS)
 
 6. If desired, enter one or several IP addresses or an IP range (subnet mask) in the *IP whitelist (only public download)* field to allow access only to those IP addresses entered in case of public download.  
+
     > [Info] When entering more than one IP address, each IP address must be entered on a separate line. Note that if no IP address is whitelisted, any person with the link, from any IP address, can access the query results via the public download. If at least one IP address is whitelisted, all other IP addresses are blacklisted. 
 
 7. Select the *API and download enabled* checkbox to allow logged in users with the appropriate rights to execute the query and download the retrieved data.
+
     > [Info] Additionally, user access rights must be granted for every single predefined query, see [Grant access rights to a user group](./05_ManageUserRights.md#grant-access-rights-to-a-user-group).
 
 8. Select the *Public download enabled* checkbox to allow any user, also non-logged in users, with the applicable link to execute the query and download the retrieved data via web browser. 
+
     > [Info] A specific download link, containing a UUID (Universally Unique Identifier), is required to execute the query in a web browser.
 
-9. Select the *Write access enabled* checkbox to allow write operations when executing the query. Otherwise, a query with write operations, such as *INSERT* or *DELETE*, will not be executed and an error message will be displayed.
+9. Select the *Write access enabled* checkbox to allow write operations when executing the query. Otherwise, a query with write operations, such as INSERT or DELETE, will not be executed and an error message will be displayed.
 
 10. If desired, click the [TRY QUERY (READ ONLY)] button to test the query.  
     The query results are displayed in the *Try query result* box at the bottom of the workspace. 
@@ -76,20 +83,20 @@ No prerequisites to fulfill.
    The query has been saved. The *Create MySQL query* is closed. The new query is displayed in the list of queries.
 
 
+
 ## Edit a query
 
 After you have created a query, it can be edited to change any previously set values. The *ID* and *UUID* fields are automatically assigned by the system and cannot be modified.
 
 #### Prerequisites 
 
-A query has been created, see [Create a query](#create-a-query).
+At least one query has been created, see [Create a query](#create-a-query).
 
 #### Procedure
 
 *Database and reporting > Managed queries > Tab QUERIES*
 
 ![Queries](../../Assets/Screenshots/DatabaseAndReporting/ManagedQueries/Queries/Queries.png "[Queries]")
-
 
 1. Click the query to be edited in the list of queries. Alternatively, select the checkbox of the query to be edited and click the ![Edit](../../Assets/Icons/Edit01.png) (Edit) button in the editing toolbar.  
     The *Edit MySQL query* view is displayed.
@@ -105,9 +112,12 @@ A query has been created, see [Create a query](#create-a-query).
   The changes have been saved. The *Edit MySQL query* is closed. 
 
 
+
 ## Delete a query
 
 Delete a query that is no longer needed. It is possible to delete several queries at once.  
+
+[comment]: <> (Julian: Kann es beim Löschen von queries nicht zu Problemen kommen?)
 
 #### Prerequisites 
 
@@ -118,7 +128,6 @@ At least one query has been created, see [Create a query](#create-a-query).
 *Database and reporting > Managed queries > Tab QUERIES*
 
 ![Queries](../../Assets/Screenshots/DatabaseAndReporting/ManagedQueries/Queries/Queries.png "[Queries]")
-
 
 1. Select the checkbox of the query to be deleted.   
     The editing toolbar is displayed.

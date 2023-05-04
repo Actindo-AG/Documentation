@@ -7,6 +7,8 @@ The user rights for all modules and plugins installed in the Core1 are managed c
 
 [comment]: <> (Link hinzufügen, wenn verfügbar)
 
+
+
 ## Grant access rights to a user group
 
 Assign user access rights to control access to specific data. The following access rights must be individually granted to any user group with a role other than administrator:

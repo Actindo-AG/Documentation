@@ -1,12 +1,13 @@
-[!!User interface Query categories](../UserInterface/03b_QueryCategories.md)
 [!!Manage the queries](./01_ManageQueries.md)
 [!!Manage the user rights](./05_ManageUserRights.md)
+[!!User interface Query categories](../UserInterface/03b_QueryCategories.md)
 
 # Manage the query categories
 
 Query categories are used for the logical organization of the managed queries. The managed queries are organized in a tree structure of folders and sub-folders.
 
 Query categories can be created, edited, deleted, and divided into sub-categories. All individual managed queries can, in turn, be assigned to a category and/or a sub-category, see [Create a query](./01_ManageQueries.md#create-a-query). The read and save rights of categories can also be restricted or granted based on the user group, see [Grant access rights to a user group](./05_ManageUserRights.md#grant-access-rights-to-a-user-group).
+
 
 
 ## Create a query category
@@ -23,6 +24,7 @@ No prerequisites to fulfill.
 
 ![Query categories](../../Assets/Screenshots/DatabaseAndReporting/Settings/QueryCategories/QueryCategories.png "[Query categories]")
 
+[comment]: <> (Julian: Ist das ein Fehler im UI oder ein Bug, dass man nicht mehr zurückkommt, weil man sofort in der Edit tree view ist und sowohl ein Back als auch ein Cancel Button angezeigt werden, die nichts machen?)
 
 1. Click the ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) button in the bottom right corner.   
     A plus sign is displayed in the query category column.
@@ -53,16 +55,19 @@ No prerequisites to fulfill.
     ![Submitting data](../../Assets/Screenshots/DatabaseAndReporting/Settings/QueryCategories/SubmittingData.png "[Submitting data]")
 
     The new query category has been saved to the query categories tree, which is displayed in the *Queries* view.
+
     > [Info] It may be necessary to press the **F5** key to initialize the *Core1 Platform* and display the changes in the *Queries* view. 
     
+
+
 ## Edit a query category
 
-After you have created a query category, you can edit it. You can create sub-categories, edit the query category data, and change the order of query categories.
+After you have created a query category, you can edit it. You can create sub-categories, rename the query category, and change the order of query categories.
+
 
 ### Create a query sub-category
 
 Add further query sub-categories to a query category. An unlimited number of sub-category levels can be added. 
-
 
 #### Prerequisites
 At least one query category has been created, see [Create a query category](#create-a-query-category).
@@ -73,7 +78,7 @@ At least one query category has been created, see [Create a query category](#cre
 
 ![Query categories](../../Assets/Screenshots/DatabaseAndReporting/Settings/QueryCategories/QueryCategory.png "[Query categories]")
 
-1. Click the category to which you want to create a sub-category.  
+1. Click the category in which you want to create a sub-category.  
     A query sub-category column is displayed in the column to the right of the query category column. If sub-categories already exist for the selected category, they are displayed in this column.
 
     ![Query categories](../../Assets/Screenshots/DatabaseAndReporting/Settings/QueryCategories/QueryCategoryCreated.png "[Query categories]")
@@ -99,8 +104,6 @@ At least one query category has been created, see [Create a query category](#cre
 
     ![Query sub-category](../../Assets/Screenshots/DatabaseAndReporting/Settings/QueryCategories/QuerySubcategoryCreated.png "[Query sub-category]")
 
-    
-
 7. Click the [SAVE] button in the upper right corner.   
     The *Submitting data...* view is displayed while saving. 
 
@@ -110,12 +113,14 @@ At least one query category has been created, see [Create a query category](#cre
 
     > [Info] It may be necessary to press the **F5** key to initialize the *Core1 Platform* and display the changes in the *Queries* view. 
 
+[comment]: <> (Check, ob Ausgangssituation so bleibt oder es sich um Bug/Fehler im UI handelt. Ggf. letzer Satz und Info hier anpassen)
 
-### Edit the query category data
 
-Edit the query category name and key as necessary.
+### Rename the query category
 
-The procedure to edit the data of query categories and sub-categories is identical. Just select a sub-category instead of a category and follow the steps described below.
+Rename the query category as necessary.
+
+The procedure to rename the query categories and sub-categories is identical. Just select a sub-category instead of a category and follow the steps described below.
 
 #### Prerequisites 
 
@@ -132,12 +137,10 @@ At least one query category has been created, see [Create a query category](#cre
 
     ![Query categories](../../Assets/Screenshots/DatabaseAndReporting/Settings/QueryCategories/EditQueryCategoryData.png "[Query categories]")
 
-2. Modify the query category data as necessary.
+2. Rename the query category as necessary.
 
 3. Click the [SAVE] button in the bottom right corner of the query category data window.  
     The changes have been saved to the query category column. 
-
-   
 
 4. Click the [SAVE] button in the upper right corner.  
      The *Submitting data...* view is displayed while saving. 
@@ -147,6 +150,8 @@ At least one query category has been created, see [Create a query category](#cre
     The changes have been saved to the query categories tree, which is displayed in the *Queries* view.
 
     > [Info] It may be necessary to press the **F5** key to initialize the *Core1 Platform* and display the changes in the *Queries* view. 
+
+[comment]: <> (Check, ob Ausgangssituation so bleibt oder es sich um Bug/Fehler im UI handelt. Ggf. letzer Satz und Info hier anpassen)
 
 
 ### Change the order of query categories
@@ -182,6 +187,10 @@ At least two query categories have been created, see [Create a query category](#
 
 [comment]: <> (Wenn Bug behoben, testen and prüfen, ob es stimmt)
 
+[comment]: <> (Check, ob Ausgangssituation so bleibt oder es sich um Bug/Fehler im UI handelt. Ggf. letzer Satz und Info hier anpassen)
+
+
+
 ## Delete a query category
 
 You can delete a query category if it is no longer in use. Note that you delete the query category with all sub-categories but not the queries assigned to it. 
@@ -197,7 +206,6 @@ At least one query category has been created, see [Create a query category](#cre
 *Database and reporting > Managed queries > Tab QUERY CATEGORIES*
 
 ![Query categories](../../Assets/Screenshots/DatabaseAndReporting/Settings/QueryCategories/QueryCategoriesCreated.png "[Query categories]")
-
 
 1. Click the ![Edit](../../Assets/Icons/Edit03.png "[Edit]") (Edit) button to the right of the query category name.   
     The query category data is displayed in a window in the query category column. 
@@ -215,3 +223,5 @@ At least one query category has been created, see [Create a query category](#cre
     The changes have been saved to the query categories tree, which is displayed in the *Queries* view.
 
     > [Info] It may be necessary to press the **F5** key to initialize the *Core1 Platform* for the changes to be displayed in the *Queries* view. 
+
+[comment]: <> (Check, ob Ausgangssituation so bleibt oder es sich um Bug/Fehler im UI handelt. Ggf. letzer Satz und Info hier anpassen)

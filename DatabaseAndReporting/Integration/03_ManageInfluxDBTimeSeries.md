@@ -1,6 +1,6 @@
-[!!User interface InfluxDB time series](../UserInterface/01b_InfluxDBTimeSeries.md)
-[!!Manage the connection](./04_ManageConnections.md)
 [!!Manage the queries](./01_ManageQueries.md)
+[!!Manage the connection](./04_ManageConnections.md)
+[!!User interface InfluxDB time series](../UserInterface/01b_InfluxDBTimeSeries.md)
 
 # Manage the InfluxDB time series
 
@@ -9,6 +9,7 @@ After a predefined query has been created to retrieve any required data from you
 Once the data has been written to an InfluxDB, it can be easily visualized and monitored using Grafana, see [Get started with Grafana and InfluxDB](https://grafana.com/docs/grafana/latest/getting-started/get-started-grafana-influxdb/).
 
 You can create, edit or delete an InfluxDB time series for any predefined query.
+
 
 
 ## Create an InfluxDB time series
@@ -34,9 +35,11 @@ Create an InfluxDB time series for a specific predefined query.
 2. Enter a descriptive name for the InfluxDB time series in the *Title* field.
 
 3. Enter a valid cron expression in the *Cronline* field to specify the time interval in which data are to be written to the InfluxDB. If you need help creating  a cron expression, you can check a cron expression editor, such as [Crontab guru](https://crontab.guru/).
+
     > [Info] Note that each execution puts a certain amount of load on the database. Therefore, it is recommended to execute the query only as often as necessary. As a rule of thumb consider: The more complex the query, the less often the execution.
 
 4. Enter a description for the table where the data is to be written in the *Measurement* field. 
+
     > [Info]  If the measurement does not exist yet, it will be created automatically with the specified fields and tags. If the measurement already exists, the fields and tags of the existing table will be added to the specified measurement. 
 
 5. Click the drop-down list and select the appropriate connection.  
@@ -49,13 +52,16 @@ Create an InfluxDB time series for a specific predefined query.
     A new input line is displayed.
 
 8. Enter the desired tag in the new input line.   
+
     > [Info] Repeat steps **7** and **8** to add further tags if necessary. 
 
 9. Click the ![Add](../../Assets/Icons/Plus03.png "[Add]") (Add) button in the *Field columns* box.  
     A new input line is displayed.
+
     > [Info] The fields contain the actual data, that is, the values being measured. The tags, on the other hand, can be used for metadata, that is, to categorize the data. This means that at least one field needs to be specified, whereas tags are optional.
 
 10. Enter the desired field in the new input line.    
+
     > [Info] Repeat steps **9** and **10** to add further fields if necessary.
 
 11. Click the [SAVE] button in the upper right corner.  
@@ -66,6 +72,7 @@ Create an InfluxDB time series for a specific predefined query.
     [comment]: <> (Screenshot aus NoE test account. OK?)
 
     The InfluxDB times series has been saved. The *Create InfluxDB time series* view is closed. The new InfluxDB times series is displayed in the list of InfluxDB time series. 
+
 
 
 ## Edit an InfluxDB time series
@@ -101,6 +108,7 @@ At least one InfluxDB time series has been created, see [Create an InfluxDB time
     The changes have been saved. The *Edit InfluxDB time series* view is closed. The edited InfluxDB times series is displayed in the list of InfluxDB time series. 
 
 
+
 ## Delete an InfluxDB time series 
 
 An InfluxDB time series can be deleted if it no longer in use.
@@ -114,7 +122,6 @@ At least one InfluxDB time series has been created, see [Create an InfluxDB time
 *Database and reporting > Managed queries > Tab INFLUXDB TIME SERIES*
 
 ![List of InfluxDB time series](../../Assets/Screenshots/DatabaseAndReporting/ManagedQueries/InfluxDBTimeSeries/ListInfluxDBTimeSeriesCreated.png "[List of InfluxDB time series]")
-
 
 1. Select the checkbox of the InfluxDB time series to be deleted.   
     The editing toolbar is displayed.
