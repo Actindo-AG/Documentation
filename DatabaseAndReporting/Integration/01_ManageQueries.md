@@ -38,22 +38,23 @@ No prerequisites to fulfill.
 
 4. Enter a valid MySQL query.  
     
-5. If desired, insert a placeholder to your query to represent any variables to be specified when executing a query.  
-    Placeholders are most often used in the SET, VALUES, and WHERE clauses, as in the example provided below where a time condition is defined: 
+5. If desired, insert a placeholder to your query to represent any variables to be specified when executing a query. Placeholders are most often used in the SET, VALUES, and WHERE clauses, as in the example provided below where a time condition is defined: 
       
-    - Enter a condition (WHERE clause) in the query followed by a placeholder, for example **WHERE created > \~creationDate|datetime\~**.
-        > [Info] Placeholders can be named freely. It is recommended to use a descriptive name, as this description is displayed later on as a field name.
+    + Enter a condition (WHERE clause) in the query followed by a placeholder, for example **WHERE created > \~creationDate|datetime\~**.
+    
+        > [Info] Placeholders can be named freely. It is recommended to use a descriptive name, as this description is displayed later as a field name.
         
-    - If desired, click the [TRY QUERY (READ ONLY)] button to test it.   
+    + Click the [TRY QUERY (READ ONLY)] button to test the query.   
         The *Bind query parameters placeholders* window is displayed.
+        
         > [Info] There are two possible placeholders to define time conditions: **|datetime** and **|string**. The **|datetime** placeholder generates a calendar button in the *Bind query parameters placeholders* window, whereas the **|string** placeholder creates a free text field.
 
         ![Bind query parameters placeholders](../../Assets/Screenshots/DatabaseAndReporting/ManagedQueries/Queries/BindQueryParamsPlaceholders.png "[Bind query parameters placeholders]")
 
-    - Define the desired time criteria in the *creationDate* field, either by entering the date with the keyboard or by clicking the calendar button to select the desired date and time. 
+    + Define the desired time criteria in the *creationDate* field, either by entering the date with the keyboard or by clicking the calendar button to select the desired date and time. 
 
-    - Click the [EXECUTE] button.   
-        The query results are displayed in table format at the bottom of the workspace. 
+    + Click the [EXECUTE] button.   
+        The query results are displayed in the *Try query result* box at the bottom of the workspace. 
 
 [comment]: <> (ETL use enabled muss noch ausgeblendet werden, laut JS)
 
@@ -66,7 +67,7 @@ No prerequisites to fulfill.
 8. Select the *Public download enabled* checkbox to allow any user, also non-logged in users, with the applicable link to execute the query and download the retrieved data via web browser. 
     > [Info] A specific download link, containing a UUID (Universally Unique Identifier), is required to execute the query in a web browser.
 
-9. Select the *Write access enabled* checkbox to allow write operations when executing the query. Otherwise, a query with write operations, such as INSERT or DELETE, will not be executed and an error message will be displayed.
+9. Select the *Write access enabled* checkbox to allow write operations when executing the query. Otherwise, a query with write operations, such as *INSERT* or *DELETE*, will not be executed and an error message will be displayed.
 
 10. If desired, click the [TRY QUERY (READ ONLY)] button to test the query.  
     The query results are displayed in the *Try query result* box at the bottom of the workspace. 
@@ -123,7 +124,7 @@ At least one query has been created, see [Create a query](#create-a-query).
     The editing toolbar is displayed.
 
 2. Click the ![Delete](../../Assets/Icons/Trash03.png) (Delete) button in the editing toolbar.  
-    The *Deleted queries xxxx* pop-up window is displayed. The number indicates the identifier of the deleted query as displayed in the *ID* column. The deleted query is removed from the list of queries. 
+    The *Deleted queries xxxx* pop-up window is displayed. The *xxxx* indicates the identifier of the deleted query as displayed in the *ID* column. The deleted query is removed from the list of queries. 
 
     ![Deleted queries](../../Assets/Screenshots/DatabaseAndReporting/ManagedQueries/Queries/DeletedQueries.png "[Deleted queries]")
 

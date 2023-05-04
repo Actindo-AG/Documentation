@@ -11,7 +11,7 @@ Query categories can be created, edited, deleted, and divided into sub-categorie
 
 ## Create a query category
 
-Create a query category for new managed queries you want to assign to a certain category.
+Create a query category for queries you want to assign to a certain category.
 
 #### Prerequisites 
 
@@ -53,7 +53,7 @@ No prerequisites to fulfill.
     ![Submitting data](../../Assets/Screenshots/DatabaseAndReporting/Settings/QueryCategories/SubmittingData.png "[Submitting data]")
 
     The new query category has been saved to the query categories tree, which is displayed in the *Queries* view.
-    > [Info] It may be necessary to press the **F5** key to initialize the *Core1 Platform* for the changes to be displayed in the *Queries* view. 
+    > [Info] It may be necessary to press the **F5** key to initialize the *Core1 Platform* and display the changes in the *Queries* view. 
     
 ## Edit a query category
 
@@ -63,7 +63,6 @@ After you have created a query category, you can edit it. You can create sub-cat
 
 Add further query sub-categories to a query category. An unlimited number of sub-category levels can be added. 
 
-The procedure to add a query sub-category to a category and to another sub-category is identical. Just select a sub-category instead of a category and follow the steps described below.
 
 #### Prerequisites
 At least one query category has been created, see [Create a query category](#create-a-query-category).
@@ -100,7 +99,7 @@ At least one query category has been created, see [Create a query category](#cre
 
     ![Query sub-category](../../Assets/Screenshots/DatabaseAndReporting/Settings/QueryCategories/QuerySubcategoryCreated.png "[Query sub-category]")
 
-    > [Info] If you want to change the order of the query sub-categories in the list, see [Change the order of query categories](#change-the-order-of-query-categories).
+    
 
 7. Click the [SAVE] button in the upper right corner.   
     The *Submitting data...* view is displayed while saving. 
@@ -109,7 +108,7 @@ At least one query category has been created, see [Create a query category](#cre
 
     The new query sub-category has been saved to the query categories tree, which is displayed in the *Queries* view.
 
-    > [Info] It may be necessary to press the **F5** key to initialize the *Core1 Platform* for the changes to be displayed in the *Queries* view. 
+    > [Info] It may be necessary to press the **F5** key to initialize the *Core1 Platform* and display the changes in the *Queries* view. 
 
 
 ### Edit the query category data
@@ -138,7 +137,7 @@ At least one query category has been created, see [Create a query category](#cre
 3. Click the [SAVE] button in the bottom right corner of the query category data window.  
     The changes have been saved to the query category column. 
 
-    > [Info] If you want to change the order of the query sub-categories in the list, see [Change the order of query categories](#change-the-order-of-query-categories).
+   
 
 4. Click the [SAVE] button in the upper right corner.  
      The *Submitting data...* view is displayed while saving. 
@@ -147,7 +146,7 @@ At least one query category has been created, see [Create a query category](#cre
 
     The changes have been saved to the query categories tree, which is displayed in the *Queries* view.
 
-    > [Info] It may be necessary to press the **F5** key to initialize the *Core1 Platform* for the changes to be displayed in the *Queries* view. 
+    > [Info] It may be necessary to press the **F5** key to initialize the *Core1 Platform* and display the changes in the *Queries* view. 
 
 
 ### Change the order of query categories

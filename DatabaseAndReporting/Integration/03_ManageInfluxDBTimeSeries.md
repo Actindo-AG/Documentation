@@ -4,9 +4,9 @@
 
 # Manage the InfluxDB time series
 
-After a predefined query has been created to retrieve any required data from your databases, this data can be written to InfluxDB at regular time intervals using an InfluxDB time series, which allows you to collect and process a series of data points over time. For detailed information about InfluxDB, see [InfluxDB](https://docs.influxdata.com/influxdb/v2.6/).
+After a predefined query has been created to retrieve any required data from your databases, this data can be written to an InfluxDB at regular time intervals using an InfluxDB time series, which allows you to collect and process a series of data points over time. For detailed information about the InfluxDB, see [InfluxDB](https://docs.influxdata.com/influxdb/v2.6/).
 
-Once the data has been written to InfluxDB, it can be easily visualized and monitored using Grafana, see [Get started with Grafana and InfluxDB](https://grafana.com/docs/grafana/latest/getting-started/get-started-grafana-influxdb/).
+Once the data has been written to an InfluxDB, it can be easily visualized and monitored using Grafana, see [Get started with Grafana and InfluxDB](https://grafana.com/docs/grafana/latest/getting-started/get-started-grafana-influxdb/).
 
 You can create, edit or delete an InfluxDB time series for any predefined query.
 
@@ -17,8 +17,8 @@ Create an InfluxDB time series for a specific predefined query.
 
 #### Prerequisites
 
-- The applicable connection to InfluxDB has been established, see [Create a connection](./04_ManageConnections.md#create-a-connection). 
-- The relevant predefined query have been created, see [Create a query](./01_ManageQueries.md#create-a-query). 
+- A connection to the InfluxDB has been established, see [Create a connection](./04_ManageConnections.md#create-a-connection). 
+- At least one query has been created, see [Create a query](./01_ManageQueries.md#create-a-query). 
 
 #### Procedure
 
@@ -31,7 +31,7 @@ Create an InfluxDB time series for a specific predefined query.
 
     ![Create InfluxDB time series](../../Assets/Screenshots/DatabaseAndReporting/ManagedQueries/InfluxDBTimeSeries/CreateInfluxDBTimeSeries.png "[Create InfluxDB time series]")
 
-2. Enter a description for the InfluxDB time series in the *Title* field.
+2. Enter a descriptive name for the InfluxDB time series in the *Title* field.
 
 3. Enter a valid cron expression in the *Cronline* field to specify the time interval in which data are to be written to the InfluxDB. If you need help creating  a cron expression, you can check a cron expression editor, such as [Crontab guru](https://crontab.guru/).
     > [Info] Note that each execution puts a certain amount of load on the database. Therefore, it is recommended to execute the query only as often as necessary. As a rule of thumb consider: The more complex the query, the less often the execution.
