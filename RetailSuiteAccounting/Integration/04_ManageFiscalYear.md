@@ -1,11 +1,12 @@
-[!!Order management](../../RetailSuiteFaktBase/Overview/01_General.md)  
+[!!Select fiscal year](../Operation/01_SelectFiscalYear.md)  
 [!!User Interface Select fiscal year](../UserInterface/00a_FiscalYear.md)  
 [!!User Interface Settings fiscal years](../UserInterface/02d_FiscalYears.md)  
-[!!Select fiscal year](../Operation/01_SelectFiscalYear.md)  
+[!!Order management](../../RetailSuiteFaktBase/Overview/01_General.md)  
 
 # Manage the fiscal year
 
 The fiscal year is set up during the configuration process via the accounting wizard. For detailed information, see [Fiscal years](./01_RunAccountingWizard.md#fiscal-years). After the initial fiscal year is set up during configuration, any subsequent fiscal years must be created manually. Fiscal years can also edited and deleted if necessary.
+
 
 
 ## Create a fiscal year
@@ -59,6 +60,8 @@ A fiscal year has been selected, see [Select the fiscal year](../Operation/01_Se
 
     ![Saved](../../Assets/Screenshots/RetailSuiteAccounting/Settings/FiscalYears/Saved.png "[Saved]")
 
+
+
 ## Edit a fiscal year
 
 You can edit an available fiscal year, for example if a setting must be changed.
@@ -85,6 +88,8 @@ You can edit an available fiscal year, for example if a setting must be changed.
     A small pop-up window confirms that the edited fiscal year has been saved. The edited fiscal year is displayed in the list.
 
     ![Saved](../../Assets/Screenshots/RetailSuiteAccounting/Settings/FiscalYears/Saved.png "[Saved]")
+
+
 
 ## Delete a fiscal year
 

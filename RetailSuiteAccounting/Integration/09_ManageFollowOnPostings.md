@@ -1,11 +1,12 @@
-[!!User Interface Follow-on postings](../UserInterface/02g_FollowOnBookings.md)  
 [!!Select the fiscal year](../Operation/01_SelectFiscalYear.md)  
+[!!User Interface Follow-on postings](../UserInterface/02g_FollowOnBookings.md)  
 
 # Manage the follow-on postings
 
 A follow-on posting is a posting that must be performed as a result of a main posting. Routine operations, such as the posting of a non-deductible percentage of hospitality costs, can be automated in the system, thereby minimizing the need of manual posting. As soon as a specific account is posted to, the system performs the follow-on posting automatically as configured.
 
 You can create, edit and delete the follow-on postings.
+
 
 
 ##  Create a follow-on posting
@@ -39,6 +40,7 @@ A fiscal year has been selected, see [Select the fiscal year](../Operation/01_Se
 7. Enter a factor value to be applied to the main posting amount in the *Factor* field.
 
 8. Click the *calc.* drop-down list to select the appropriate calculating method to the selected factor.   The following options are available:  
+
     - **% percentage of turnover**  
         Select this option for the system to calculate a percentage of the posted turnover.
     - **\* turnover times factor**  
@@ -52,6 +54,7 @@ A fiscal year has been selected, see [Select the fiscal year](../Operation/01_Se
     The new follow-on posting has been saved and is displayed in the list. The *Saved* pop-up window is displayed.
 
     ![Saved](../../Assets/Screenshots/RetailSuiteAccounting/Settings/FollowOnBookings/Saved.png "[Saved]")
+
 
 
 ##  Edit a follow-on posting
@@ -88,6 +91,7 @@ You can edit a follow-on posting, for example if the factor needs to be updated.
     ![Saved](../../Assets/Screenshots/RetailSuiteAccounting/Settings/FollowOnBookings/Saved.png "[Saved]")
 
 
+
 ##  Delete a follow-on posting
 
 You can delete a follow-on posting, for example if it is no longer applicable.
@@ -109,7 +113,6 @@ You can delete a follow-on posting, for example if it is no longer applicable.
     > [Caution] Be aware that the follow-on posting will be deleted permanently.
 
     ![Edit follow-on postings](../../Assets/Screenshots/RetailSuiteAccounting/Settings/FollowOnBookings/EditFollowOnBooking.png "[Edit follow-on postings]")
-
 
 2. Click the [DELETE] button.  
     The selected follow-on posting has been deleted and is removed from the list. The *Deleted* pop-up window is displayed.

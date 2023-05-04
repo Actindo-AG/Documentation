@@ -1,7 +1,6 @@
-[!!User Interface BWA assignment](../UserInterface/02i_BWAAssignment.md)  
-[!!User Interface Evaluations](../UserInterface/01_Book.md#evaluations)  
 [!!Create a PDF evaluation](../Operation/15_ProvideAccountingData.md#create-a-pdf-evaluation)  
-
+[!!User Interface Evaluations](../UserInterface/01_Book.md#evaluations)  
+[!!User Interface BWA assignment](../UserInterface/02i_BWAAssignment.md)  
 
 # Manage the BWA reports
 
@@ -11,14 +10,16 @@ The business evaluation (BWA) is a reporting system based on company financial d
 
 You can create new BWA reports, copy and edit one of the predefined system reports or delete any report. All available reports can be fully customized.
 
- > [Note] Be aware that any deletion is permanent and cannot be undone, and that any changes made will overwrite the preset values.
+> [Note] Be aware that any deletion is permanent and cannot be undone, and that any changes made will overwrite the preset values.
 
 When customizing existing reports, bear in mind that the reports use the standard accounts set up in the *Accounting* module configuration process. For detailed information, see [Chart of accounts](./01_RunAccountingWizard.md#chart-of-accounts). If the accounts have been customized manually, they must be set up again individually for the BWA reports. Otherwise, they will not be recognized by the BWA reports.
+
 
 
 ## Create a BWA report
 
 You can create a BWA report that is not yet available in the system.
+
 
 ### Add a BWA report
 
@@ -142,6 +143,7 @@ You can add report lines to a BWA report.
 [comment]: <> (Kommentar ISA: Beschreibung zu kurz, um eine BWA bauen zu können. Hier sollten unbedingt noch Teile aus der alten Dokumentation aufgenommen werden, insbesondere die Formel-Funktionen. https://www.actindo.com/de/doku/app-hilfe/handbuch/retailsuiteaccounting/latest/Einstellungen/Zuordnung-BWA/Zuordnung_BWA.html)
 
 
+
 ## Edit a BWA report
 
 You can edit a BWA report to make any necessary changes, for example, change the report name and layout, as well as add, edit or delete report lines. To add report lines, see [Add report lines](#add-report-lines).
@@ -190,7 +192,11 @@ A fiscal year has been selected, see [Select the fiscal year](../Operation/01_Se
     All changes to the BWA report have been saved.
 
 
+
 ## Copy a BWA report
+
+You can copy an existing BWA report, either predefined in the system or previously custom-made, and adjust it further to your needs.
+
 
 ### Copy a predefined BWA report
 
@@ -205,7 +211,6 @@ A fiscal year has been selected, see [Select the fiscal year](../Operation/01_Se
 *Accounting > Settings > Tab BWA ASSIGNMENT*
 
 ![Accounting reports list](../../Assets/Screenshots/RetailSuiteAccounting/Settings/BWAAssignment/AddBWAReport.png "[Accounting reports list]")
-
 
 1. Click the ![Copy](../../Assets/Icons/Copy01.png "[Copy]") (Copy) button in the upper right corner.  
     The *Copy from predefined system report* window is displayed.
@@ -244,6 +249,7 @@ You can make a copy of a self-created BWA report.
 
 2. Click the ![Copy](../../Assets/Icons/Copy02.png "[Copy]") (Copy) button in the upper right corner.  
     The copied report is displayed in the *Accounting reports* list.
+
 
 
 ## Delete a BWA report

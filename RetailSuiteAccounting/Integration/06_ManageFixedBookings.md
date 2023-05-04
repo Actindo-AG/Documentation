@@ -1,6 +1,6 @@
-[!!User Interface Fixed postings](../UserInterface/02f_FixedBookings.md)  
-[!!User Interface Select fiscal year](../UserInterface/00a_FiscalYear.md)  
 [!!Select a fiscal year](../Operation/01_SelectFiscalYear.md)  
+[!!User Interface Select fiscal year](../UserInterface/00a_FiscalYear.md)  
+[!!User Interface Fixed postings](../UserInterface/02f_FixedBookings.md)  
 
 # Manage the fixed postings
 
@@ -8,9 +8,12 @@ Fixed postings are recurring transactions that must be posted regularly, for exa
 
 Fixed postings can be created, edited and deleted.
 
+
+
 ## Create fixed postings
 
 To create fixed postings, a batch must be selected or a new one must be created first.
+
 
 ### Create a fixed posting batch
 
@@ -96,6 +99,7 @@ You can add fixed postings to an existing or a new fixed posting batch.
     > [Info] If you click the [CANCEL] button, the fixed posting will be rejected.
 
 
+
 ## Edit a fixed posting
 
 You can edit fixed postings included in a fixed posting batch.  
@@ -107,12 +111,12 @@ The fixed posting editing process comprises two steps:
 
 This two-step editing process prevents inadvertently overwriting.
 
-### Prerequisites
+#### Prerequisites
 
 - A fiscal year has been selected, see [Select the fiscal year](../Operation/01_SelectFiscalYear.md).
 - A fixed posting has been created, see [Create fixed postings](#create-fixed-postings).
 
-### Procedure
+#### Procedure
 
 *Accounting > Settings > Tab FIXED POSTINGS*
 
@@ -150,6 +154,7 @@ This two-step editing process prevents inadvertently overwriting.
     > [Info] If you click the [CANCEL] button, the changes will be rejected.
 
 
+
 ## Delete a fixed posting
 
 You can delete a fixed posting in a fixed posting batch.
@@ -172,7 +177,6 @@ You can delete a fixed posting in a fixed posting batch.
 
     ![Delete a fixed posting](../../Assets/Screenshots/RetailSuiteAccounting/Settings/FixedBookings/EditFixedBooking.png "[Delete a fixed posting]")
 
-
 2. Click the fixed posting to be deleted.
     The details of the selected fixed posting are displayed in the input fields.
 
@@ -182,7 +186,6 @@ You can delete a fixed posting in a fixed posting batch.
     A confirmation window is displayed.  
 
     ![Posting delete confirmation](../../Assets/Screenshots/RetailSuiteAccounting/Settings/FixedBookings/BookingDeleteConfirmation.png "[Posting delete confirmation]")
-
 
 4.  Click [OK] if you want to proceed.  
     The notice *Deleted* is displayed in the upper left corner of the window. The deleted fixed posting is no longer displayed in the fixed posting batch.

@@ -1,11 +1,12 @@
-[!!User Interface Accounts](../UserInterface/02b_Accounts.md)  
 [!!Review an account](../Operation/02_ReviewAccount.md)  
+[!!User Interface Accounts](../UserInterface/02b_Accounts.md)  
 
 # Manage the accounts
 
 The accounts are set up during the configuration process via the accounting wizard, see [Chart of accounts](./01_RunAccountingWizard.md#chart-of-accounts). However, you can create, edit or delete an account, for example if a specific account is not yet available in the system or the settings of an account need to be adjusted.
 
 > [Note] Any modifications in the accounts have far-reaching consequences for the *Accounting* module and the system automatic postings. It is highly recommended not to make any changes in the accounts, unless you have an in-depth knowledge of their functions. In case of doubt, please contact our customer support.
+
 
 
 ## Check the account availability
@@ -26,6 +27,7 @@ A fiscal year has been selected, see [Select the fiscal year](../Operation/01_Se
     All accounts of the selected account class are displayed in the list.
 
 2. Check which account numbers are still available by navigating through the list.
+
 
 
 ## Create an account
@@ -56,7 +58,6 @@ You can create an account that is not yet available in the system.
     - **(IV)Input tax and VAT**
     - **(NV)No VAT possible**
 
-
 4. Click the *Tax key/Auto* drop-down lists and select the appropriate options. Select the applicable tax key from the configured tax keys in the *Tax key* drop-down list. Select **Automatic** in the *Auto* drop-down list to activate the automatic posting function.
 
     > [Info] Before creating an account, it is recommended to check the validity of the tax key and the tax rate in the corresponding country in the *TAX KEYS* tab. For detailed information, see [Manage the tax keys](./02_ManageTaxKeys.md).
@@ -71,7 +72,6 @@ You can create an account that is not yet available in the system.
     - **(CA)Creditor collective account**
     - **(MT)Money transit account**
 
-
 6. Click the *Function* drop-down list and select the applicable function for the account. For detailed information, see [User Interface Accounts](../UserInterface/02b_Accounts.md).
 
 7. Click the *Currency* drop-down list and select the applicable option for the account. The drop-down list displays all currencies configured in the system.
@@ -82,6 +82,8 @@ You can create an account that is not yet available in the system.
     A small pop-up window confirms that the new account has been saved. The new account is displayed in the list.
 
     ![Saved](../../Assets/Screenshots/RetailSuiteAccounting/Settings/Accounts/Saved.png "[Saved]")
+
+
 
 ## Edit an account
 
@@ -112,15 +114,17 @@ A fiscal year has been selected, see [Select the fiscal year](../Operation/01_Se
 
     ![Saved](../../Assets/Screenshots/RetailSuiteAccounting/Settings/Accounts/Saved.png "[Saved]")
 
+
+
 ## Delete an account
 
 You can delete an account, for example if it is no longer applicable.
 
-### Prerequisites
+#### Prerequisites
 
 A fiscal year has been selected, see [Select the fiscal year](../Operation/01_SelectFiscalYear.md).
 
-### Procedure
+#### Procedure
 
 *Accounting > Settings > Tab ACCOUNTS*
 

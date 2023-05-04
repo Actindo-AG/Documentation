@@ -1,12 +1,13 @@
-[!!User Interface Settings fiscal years](../UserInterface/02d_FiscalYears.md)  
 [!!Manage the Accounts](./03_ManageAccounts.md)  
 [!!Manage the Fiscal year](./04_ManageFiscalYear.md)  
+[!!User Interface Settings fiscal years](../UserInterface/02d_FiscalYears.md)  
 
 # Run the accounting wizard
 
 In order to use the *Accounting* module, you need to configure the master data first. The accounting wizard guides you through the configuration process. Once the configuration process is finished, the *Accounting* module will be set up and ready to use. Since the *Accounting* module works together with many other modules, it is highly recommended to carry out the configuration as one of the first steps when installing the system.
 
 The accounting wizard starts automatically when opening the *Accounting* module for the first time. If you cancel the accounting wizard, you have to run it at a later point to use the *Accounting* module. In this case, the [START WIZARD] button will be displayed when accessing the *Accounting* module again.
+
 
 
 ## Start wizard
@@ -28,6 +29,7 @@ Click the [START] button.
 The configuration process starts. The *Fiscal years* wizard window is displayed.
 
 > [Info] The progress in the wizard is displayed on the top left corner in the accounting wizard window.
+
 
 
 ## Fiscal years
@@ -82,6 +84,7 @@ The accounting wizard has been started, see [Start wizard](#start-wizard).
     The *Chart of accounts* wizard window is displayed.
 
 
+
 ## Chart of accounts
 
 In this step, you must select a chart of accounts and an accounting system.
@@ -97,7 +100,6 @@ In this step, you must select a chart of accounts and an accounting system.
 *Accounting > Button START WIZARD > Button START > Chart of accounts*  
 
 ![Chart of Accounts](../../Assets/Screenshots/RetailSuiteAccounting/AccountingWizard/ChartAccounts.png "[Chart of Accounts]")
-
 
 1. Click the *Chart of accounts* drop-down list and select the appropriate option. The following options are available:
 
@@ -125,6 +127,7 @@ In this step, you must select a chart of accounts and an accounting system.
 
 3. Click the [CONTINUE] button.  
     The *Accounting* module is set up. A pop-up window and a green check mark confirm that the chart of accounts and the accounting system have been saved. The *Installation completed* wizard window is displayed.
+
 
 
 ## Installation completed

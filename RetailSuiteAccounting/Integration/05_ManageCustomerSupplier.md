@@ -1,11 +1,12 @@
-[!!Order management](../../RetailSuiteFaktBase/Overview/01_General.md)  
 [!!User Interface Debtors/creditors](../UserInterface/02a_DebtorsCreditors.md)  
+[!!Order management](../../RetailSuiteFaktBase/Overview/01_General.md)  
 
 # Manage the customer/supplier
 
 The *Accounting* module contains a function to create new customers and suppliers, and to enter all relevant information about them. This function is also available in the *Invoicing* module. This information is needed for both modules to operate.
 
 > [Info] The customer and supplier list in the *Accounting* and in the *Invoicing* module are synchronized with each other. Therefore, it may be necessary to refresh the list to display any changes that have been made.
+
 
 
 ## Create a customer/supplier
@@ -25,10 +26,9 @@ A fiscal year has been selected, see [Select the fiscal year](../Operation/01_Se
 1. Click the *Create debtor/creditor* drop-down list in the *Address/Contact* sub-tab and select the appropriate option. The following options are available:
 
     - **Debtor (customer)**  
-      Select this option to create a customer.
+        Select this option to create a customer.
     - **Creditor (supplier)**  
-      Select this option to create a supplier.
-
+        Select this option to create a supplier.
 
 2. Leave the *Debtor/creditor no.* field empty. The system enters the next free number automatically when saving the customer/supplier.  
 
@@ -48,6 +48,7 @@ A fiscal year has been selected, see [Select the fiscal year](../Operation/01_Se
     A pop-up window is displayed to confirm that the customer/supplier has been created. If you have created a new customer, the *Customer list* tab is displayed, to which the new customer has been added. If you have created a new supplier, the *Supplier list* tab is displayed, to which the new customer has been added.
 
     ![Customer/supplier created](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/CustomerSupplierCreated.png "[Customer/supplier created]")
+
 
 
 ## Edit a customer/supplier
@@ -89,6 +90,7 @@ You can edit a customer/supplier, for example, if certain data need to be change
     The edited customer/supplier displays the changes in the *Customer/supplier list* tab.
 
 
+
 ## Delete a customer/supplier
 
 You can delete a customer/supplier, for example if it is no longer applicable.
@@ -115,11 +117,9 @@ You can delete a customer/supplier, for example if it is no longer applicable.
 
     ![Delete confirmation](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/DeleteConfirmation.png "[Delete confirmation]")
 
-
 3. Click [OK] if you want to proceed. A pop-up window is displayed to confirm that the customer/supplier has been deleted.
 
     ![Customer/supplier deleted](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/CustomerSupplierDeleted.png "[Customer/supplier deleted]")
-
 
 4. Press F5 to initialize the Core1 Platform and to apply the changes.  
     The selected customer/supplier is no longer displayed in the list.

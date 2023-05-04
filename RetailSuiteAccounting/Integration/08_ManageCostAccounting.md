@@ -12,6 +12,8 @@ You can create, edit and delete both cost centers and cost objects.
 
 [comment]: <> (Kommentar von Isa: While posting an accounting entry you can either fill in cost center -Kost1- or cost object -Kost2-. Ich finde es aber hier nicht ganz relevant, sie müssen erst hier angelegt werden, oder? -> check mit Isa, was sie meint)
 
+
+
 ##  Create a cost center
 
 You can create a cost center that is not yet available in the system.
@@ -79,7 +81,6 @@ You can edit a cost center, for example if it needs to be deactivated.
 
     ![Edit cost center](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CostAccounting/EditCostCenter.png "[Edit cost center]")
 
-
 3. Make any necessary changes.  
 
     > [Info] The cost center number cannot be changed. If you change the number and save the cost center, a new cost center will be created and added to the list.
@@ -120,11 +121,11 @@ You can delete a cost center, for example if it is no longer applicable.  If a d
 
     ![Delete cost center](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CostAccounting/EditCostCenter.png "[Delete cost center]")
 
-
 3. Click the [DELETE] button.  
     The selected cost center has been deleted and is removed from the list. The *Deleted* pop-up window is displayed.
 
     ![Deleted](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CostAccounting/Deleted.png "[Deleted]")
+
 
 
 ##  Create a cost object
@@ -172,6 +173,7 @@ A fiscal year has been selected, see [Select the fiscal year](../Operation/01_Se
     ![Saved](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CostAccounting/Saved.png "[Saved]")
 
 
+
 ##  Edit a cost object
 
 You can edit a cost object, for example if it needs to be deactivated.  
@@ -201,7 +203,6 @@ You can edit a cost object, for example if it needs to be deactivated.
 
     ![Edit cost object](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CostAccounting/EditCostObject.png "[Edit cost object]")
 
-
 3. Make any necessary changes.  
 
     > [Info] The cost object number cannot be changed. If you change the number and save the cost object, a new cost object will be created and added to the list.
@@ -212,10 +213,10 @@ You can edit a cost object, for example if it needs to be deactivated.
     ![Saved](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CostAccounting/Saved.png "[Saved]")
 
 
+
 ##  Delete a cost object
 
 You can delete a cost object, for example if it is no longer applicable. If a posting period is displayed in the *Active from* column, it means that the cost object has been posted to and, therefore, cannot be deleted. A warning message with the notice "The cost object (number) cannot be deleted: it is distributed to the cost center/cost object" is displayed.
-
 
 #### Prerequisites
 
