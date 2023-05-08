@@ -1,3 +1,5 @@
+[!!Manage the tax keys](../Integration/02_ManageTaxKeys.md)
+
 # Tax keys
 
 *Accounting > Settings > Tab TAX KEYS*
@@ -47,7 +49,6 @@ The list displays all available tax keys. All fields are read-only.
     - **IV**   
         The input tax and the VAT are configured for the tax key.
 
-
 [comment]: <> (Abkürzungen im System nicht übersetzt. Auf DE lassen? Wenn ja, durchgängig, also, auch in Integration und Operation)
 
 - *Country*  
@@ -55,7 +56,6 @@ The list displays all available tax keys. All fields are read-only.
 
 - *Description*  
     Descriptive tax key name.
-
 
 The input fields below allow to create, edit or delete tax keys. For detailed information about creating, editing or deleting tax keys, see [Manage the tax keys](../Integration/02_ManageTaxKeys.md).
 

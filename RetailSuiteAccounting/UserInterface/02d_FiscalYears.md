@@ -1,3 +1,7 @@
+[!!User interface Import](./03a_Import.md)
+[!!User interface Export](./03b_Export.md)
+[!!Manage the fiscal year](../Integration/04_ManageFiscalYear.md)
+
 # Fiscal years
 
 *Accounting > Settings > Tab FISCAL YEARS*
@@ -27,7 +31,6 @@ The list displays all available fiscal years. All fields are read-only.
     Indication of whether tax on payment is necessary in the fiscal year. The word **ON PAYMENT** is displayed if tax on payment has been configured for the selected fiscal year.
 
 [comment]: <> (Im System noch auf Deutsch: IST)
-
 
 The input fields below allow to create, edit or delete fiscal years. For detailed information about creating, editing or deleting fiscal years, see [Manage the fiscal year](../Integration/04_ManageFiscalYear.md).
 

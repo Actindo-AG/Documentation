@@ -1,7 +1,8 @@
 [!!Select fiscal year](../Operation/01_SelectFiscalYear.md)  
-[!!User Interface Select fiscal year](../UserInterface/00a_FiscalYear.md)  
-[!!User Interface Settings fiscal years](../UserInterface/02d_FiscalYears.md)  
-[!!Order management](../../RetailSuiteFaktBase/Overview/01_General.md)  
+[!!User interface Select fiscal year](../UserInterface/00a_FiscalYear.md)  
+[!!User interface Settings fiscal years](../UserInterface/02d_FiscalYears.md)  
+
+[comment]: <> (Link zu Order Management hinzufügen, wenn verfügbar)  
 
 # Manage the fiscal year
 

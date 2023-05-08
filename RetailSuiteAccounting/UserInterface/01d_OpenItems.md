@@ -1,3 +1,8 @@
+[!!User interface Postings header](./01_Header.md)
+[!!User interface Postings input line](./01_InputLine.md)
+[!!User interface Cost accounting](./02e_CostAccounting.md)
+[!!Manage the open items](../Operation/03_ManageOpenItems.md)
+
 # Open items
 
 *Accounting > Post > Tab OPEN ITEMS*
@@ -27,7 +32,6 @@ In all tabs of the *Post* menu entry, an identical header is displayed. For deta
     Click this button to display the open items of the next available account number.
 
     > [Info] These buttons are only available when the open items for a selected account are displayed.
-
 
 **Open items list**
 
@@ -95,6 +99,7 @@ Above the corresponding open items in the list, the number, name and currency of
     Click this button to reverse the manual clearance for the selected items. This button is only displayed if the *Show manually cleared open items* radio button is selected.
 
 In all tabs of the *Post* menu entry, an identical footer with the input line is displayed. In the *Open items* tab, the input line serves the only purpose of selecting an account if no posting is selected in the *POSTINGS* tab. For detailed information on the contained elements and the corresponding functions, see [Postings input line](./01_InputLine.md).
+
 
 
 ## Attached document

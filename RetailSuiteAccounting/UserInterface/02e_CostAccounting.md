@@ -1,3 +1,6 @@
+[!!User interface Debtors/creditors](./02a_DebtorsCreditors.md)
+[!!Manage the cost accounting](../Integration/08_ManageCostAccounting.md)
+
 # Cost accounting
 
 *Accounting > Settings > Tab COST ACCOUNTING*
@@ -49,7 +52,6 @@ The list displays all available cost centers in the selected accounting period. 
     Validity start date.
 
 [comment]: <> (Allgemeine Info fehlt! Wann kommt das Datum vor?)
-
 
 The input fields below allow to enter or modify the cost center details.
 
@@ -124,7 +126,6 @@ The list displays all available cost objects in the selected accounting period. 
 - *ProfitCenter*  
     Assigned profit center.
 
-
 The input fields below allow to enter or modify the cost object details.
 
 - ![Radio button](../../Assets/Icons/RadioButtonChecked.png "[Radio button]") *Active*   
@@ -151,7 +152,6 @@ The input fields below allow to enter or modify the cost object details.
     Click the drop-down list to select the appropriate profit center. All available profit centers are displayed in the list. If no profit center must be assigned to the cost object, select the **No ProfitCenter** option. If no profit center has been created, the **0 - No group** option is displayed. Click the [EDIT...] button to edit or create a profit center.
     - [EDIT...]  
         Click this button to edit or create a profit center. The *ProfitCenter* window is displayed, see [ProfitCenter](#profitcenter).
-
 
 [comment]: <> (Unsicher, check mit FH/Fachreviewer!)
 
@@ -216,7 +216,6 @@ The input fields below allow to enter or modify the cost object details.
     Click this button to print the cost centers/objects according to the selected settings. A print preview is displayed in the window.
 
 
-
 ### Allocation table
 
 *Accounting > Settings > Tab COST ACCOUNTING > Drop-down option Cost1 - Cost center > Button ALLOCATION TABLE*
@@ -233,9 +232,9 @@ The input fields below allow to enter or modify the cost object details.
   The columns in the allocation list change according to the selected profit center option.
 
 - [UPDATE]  
-      Click this button to update the table.
+    Click this button to update the table.
 
-      > [Info] Note that any changes made must be saved first by clicking the [SAVE] button at the bottom. Otherwise, all changes will be rejected when updating the list.
+    > [Info] Note that any changes made must be saved first by clicking the [SAVE] button at the bottom. Otherwise, all changes will be rejected when updating the list.
 
 - [CHANGE PERIOD]  
     Click this button to change the period. The *Select period* window is displayed, see [Select period](#select-period).
@@ -248,7 +247,6 @@ The input fields below allow to enter or modify the cost object details.
         Click this option to export all available allocation tables. The allocation tables are exported in Excel format and saved by default in the Downloads folder in your computer.
 
       > [Info] The [EXCEL] button is only displayed if the *Statistics* module is installed.
-
 
 The list displays the allocation of costs among the cost centers and objects. Depending on the selected profit center option, the displayed columns may vary.
 
@@ -292,7 +290,6 @@ The list displays the allocation of costs among the cost centers and objects. De
 - [SAVE]  
     Click this button to save any changes made to the allocation table. The *Saving...* pop-up window is displayed.
 
-
 ####  Select period
 
 *Accounting > Settings > Tab COST ACCOUNTING > Drop-down option Cost1 - Cost center > Button ALLOCATION TABLE > Button CHANGE PERIOD*
@@ -310,7 +307,6 @@ The list displays the allocation of costs among the cost centers and objects. De
 
 - [OK]  
     Click this button to confirm the selected period. The *Select period* window is closed. The *Allocation table* window is displayed for the selected period.
-
 
 #### Print allocation table
 
@@ -336,15 +332,13 @@ The list displays the allocation of costs among the cost centers and objects. De
     Click this button to print the allocation table according to the selected settings. A print preview is displayed in the window.
 
 
-
 ### Select address
 
 *Accounting > Settings > Tab COST ACCOUNTING > Drop-down option Cost2 - Cost object > Button SEARCH*
 
 ![Select address](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CostAccounting/SelectAddress.png "[Select address]")
 
-For a detailed description of this window and the corresponding functions, see [Customer/supplier list](./02a_DebtorsCreditors.md#customersupplier-list).
-
+For a detailed description of this window and the corresponding functions, see [Customer/supplier list](./02a_DebtorsCreditors.md#customer/supplier-list).
 
 
 ### ProfitCenter  

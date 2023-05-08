@@ -1,3 +1,7 @@
+[!!Run the accounting wizard](../Integration/01_RunAccountingWizard.md)
+[!!Manage the accounts](../Integration/03_ManageAccounts.md)
+[!!Manage the tax keys](../Integration/02_ManageTaxKeys.md)
+
 # Accounts
 
 *Accounting > Settings > Tab ACCOUNTS*
@@ -86,12 +90,10 @@ The list displays all available accounts of the selected account class. All fiel
     - **IE**   
         The account is configured for income received as a result of transactions in foreign currencies and exchange rate differences.
 
-
 [comment]: <> (Werden zukünftig Abkürzungen übersetzt? Wie?)
 
 - *Description*  
     Descriptive name of the account.
-
 
 The input fields below allow to create, edit or delete accounts. For detailed information about creating, editing or deleting accounts, see [Manage the accounts](../Integration/03_ManageAccounts.md).
 
@@ -119,7 +121,6 @@ The input fields below allow to create, edit or delete accounts. For detailed in
         The input tax and the VAT are configured for the account.
     - **(NV) No VAT possible**  
         No VAT can be configured for the account.
-
 
 - *Tax key/auto*    
     Click the first drop-down list to select the appropriate tax key for the account. All available tax keys are displayed in the list. If desired, click the second drop-down list and select the **Automatic** option to deduct the applicable tax rate from the gross invoice amount and post the tax amount automatically to the corresponding tax account. Otherwise, leave the second drop-down list empty. The drop-down lists are locked if the **() No tax** option is selected in the *Tax type* drop-down list.
@@ -166,9 +167,6 @@ The input fields below allow to create, edit or delete accounts. For detailed in
     - **Income from exchange rate differences**   
         The account is configured for income received as a result of transactions in foreign currencies and exchange rate differences.
 
-
-[comment]: <> (FS: Bitte Inhalt der Funktionen prüfen!)
-
 - *Collective account*  
     Enter the account number range for the accounts whose transactions will be registered in the collective account. The drop-down list is only displayed if the **(DA) Debtor collective account** or the **(CA) Creditor collective account** option is selected in the *Special features* drop-down list.
 
@@ -190,7 +188,6 @@ The input fields below allow to create, edit or delete accounts. For detailed in
 
 - *Country*   
     Click the drop-down list and select the appropriate delivery country, which determines the applicable taxation. All available countries are displayed in the list. This drop-down list is only displayed if the **Revenue account** or the **Revenue account, only manual** option is selected in the *Function* drop-down list.
-
 
 - [SAVE & NEW]  
     Click this button to save a new account. The button is locked if an account has been selected. For detailed information about creating an account, see [Create an account](../Integration/03_ManageAccounts.md#create-an-account).

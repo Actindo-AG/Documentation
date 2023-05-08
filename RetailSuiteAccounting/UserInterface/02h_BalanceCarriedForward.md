@@ -1,3 +1,5 @@
+[!!Create a balance carried forward](../Operation/11_CreateBalanceCarriedForward.md)
+
 # Balance carried forward
 
 *Accounting > Settings > Tab BALANCE CARRIED FORWARD*
@@ -5,7 +7,6 @@
 ![Balance carried forward](../../Assets/Screenshots/RetailSuiteAccounting/Settings/BalanceCarriedForward/BalanceCarriedForward.png "[Balance carried forward]")
 
 This tab displays the special journals predefined in the system to carry balances and open items forward. Besides, it allows to customize the predefined journals as well as to create new ones. For detailed information about creating a balance carried forward, see [Create a balance carried forward](../Operation/11_CreateBalanceCarriedForward.md).
-
 
 - *Account class*  
     Click the drop-down list to select the desired account class. Each account class is linked to a special journal. By default, the following account classes are predefined in the system:
@@ -46,7 +47,6 @@ Depending on whether a free or an already configured account class has been sele
 
 - *Accounts from - to*  
     Enter the applicable account number ranges for the selected account class.
-
 
 - [SAVE]  
     Click this button to save any changes made.

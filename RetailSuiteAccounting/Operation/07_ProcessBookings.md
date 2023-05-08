@@ -1,5 +1,5 @@
-[!!User Interface Process](../UserInterface/01_Header.md#process)  
-[!!User Interface Postings](../UserInterface/01a_Bookings.md)  
+[!!User interface POstings header](../UserInterface/01_Header.md)  
+[!!User interface Postings](../UserInterface/01a_Bookings.md)  
 
 # Process postings
 

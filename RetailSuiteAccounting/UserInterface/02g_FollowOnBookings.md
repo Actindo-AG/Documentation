@@ -1,3 +1,5 @@
+[!!Manage the follow on postings](../Integration/09_ManageFollowOnPostings.md)
+
 # Follow-on postings
 
 *Accounting > Settings > Tab FOLLOW-ON POSTINGS*

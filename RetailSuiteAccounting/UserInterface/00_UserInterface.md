@@ -31,7 +31,7 @@ In this part of the *Accounting* documentation, you will find the following chap
     - [ProfitCenter](./01_Header.md#profitcenter)
     - [Cost object comparison](./01_Header.md#cost-object-comparison)
     - [Chart of accounts](./01_Header.md#chart-of-accounts)
-    - [Debtors/creditors](./01_Header.md#debtorscreditors)
+    - [Debtors/creditors](./01_Header.md#debtors/creditors)
 
 
 - [Postings input line](./01_InputLine.md)
@@ -70,11 +70,11 @@ In this part of the *Accounting* documentation, you will find the following chap
 
 - [DEBTORS/CREDITORS](./02a_DebtorsCreditors.md)
 
-    - [Customer/supplier list](./02a_DebtorsCreditors.md#customersupplier-list)
-        - [Customer/supplier context menu](./02a_DebtorsCreditors.md#customersupplier-context-menu)
+    - [Customer/supplier list](./02a_DebtorsCreditors.md#customer/supplier-list)
+        - [Customer/supplier context menu](./02a_DebtorsCreditors.md#customer/supplier-context-menu)
 
-    - [Create customer/supplier](./02a_DebtorsCreditors.md#create-customersupplier)
-        - [Address/contact](./02a_DebtorsCreditors.md#addresscontact)
+    - [Create customer/supplier](./02a_DebtorsCreditors.md#create-customer/supplier)
+        - [Address/contact](./02a_DebtorsCreditors.md#address/contact)
         - [Delivery addresses](./02a_DebtorsCreditors.md#delivery-addresses)
         - [Invoicing](./02a_DebtorsCreditors.md#invoicing)
         - [Additional fields](./02a_DebtorsCreditors.md#additional-fields)
@@ -82,8 +82,8 @@ In this part of the *Accounting* documentation, you will find the following chap
         - [CRM information](./02a_DebtorsCreditors.md#crm-information)
         - [Notes](./02a_DebtorsCreditors.md#notes)
 
-    - [Customer/supplier "Number"](./02a_DebtorsCreditors.md#customersupplier-number)
-        - [Address/contact](./02a_DebtorsCreditors.md#addresscontact-1)
+    - [Customer/supplier "Customer/supplier number"](./02a_DebtorsCreditors.md#customer/supplier-number)
+        - [Address/contact](./02a_DebtorsCreditors.md#address/contact-1)
         - [Further addresses](./02a_DebtorsCreditors.md#further-addresses)
         - [Invoicing](./02a_DebtorsCreditors.md#invoicing-1)
         - [Additional fields](./02a_DebtorsCreditors.md#additional-fields-1)

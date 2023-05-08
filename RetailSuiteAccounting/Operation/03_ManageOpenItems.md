@@ -1,7 +1,6 @@
-[!!User Interface Open items](../UserInterface/01d_OpenItems.md)  
-[!!Payment processing](../../RetailSuiteBanking/Overview/01_General.md)  
+[!!User interface Open items](../UserInterface/01d_OpenItems.md)  
 
-[comment]: <> (Überhaupt relevant? Payment processing = Zahlungsabwicklung?)
+[comment]: <> (Link auf Payment processing = Zahlungsabwicklung? oder neues Modul Payments?)
 
 # Manage the open items
 

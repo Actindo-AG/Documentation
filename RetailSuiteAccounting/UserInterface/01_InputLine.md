@@ -1,3 +1,12 @@
+[User interface Postings header](./01_Header.md)
+[User interface Cost accounting](./02e_CostAccounting.md)
+[Create a manual posting](../Operation/04_CreateManualBooking.md)
+[Post exchange rate fluctuations](../Operation/12_BookExchangeRateFluctuations.md)
+[Cancel a posting](../Operation/05_CancelBooking.md).
+[Delete postings](../Operation/06_DeleteBookings.md)
+[Split a posting](../Operation/09_SplitBooking.md)
+[Manage receipts](../Operation/10_ManageReceipts.md)
+
 # Postings input line
 
 *Accounting > Post*
@@ -50,7 +59,6 @@ In all tabs of the *Post* menu entry, an identical footer with the input line is
 - *Posting text*  
     Enter any appropriate posting text. Posting text can contain a combination of letters and numbers. The text is limited to 30 characters.
 
-
 The following fields below the input line are filled in automatically when creating a manual posting or selecting a posting in the list. All fields are read-only.
 
 - *Contra account*  
@@ -74,6 +82,8 @@ The following fields below the input line are filled in automatically when creat
     - *Amount 2*  
         Click this button to manually set an amount 2. The *Set amount 2* window is displayed, see [Set amount 2](#set-amount-2).
 
+
+
 ## Set amount 1
 
 *Accounting > Post > Button Amount 1*
@@ -89,6 +99,8 @@ The following fields below the input line are filled in automatically when creat
 - [OK]  
     Click this button to set the entered amount. A confirmation window is displayed. Click the [OK] button to close the *Set amount 1* window.
 
+
+
 ## Set amount 2
 
 *Accounting > Post > Button Amount 2*
@@ -103,7 +115,6 @@ The following fields below the input line are filled in automatically when creat
 
 - [OK]  
     Click this button to set the entered amount. A confirmation window is displayed. Click the [OK] button to close the *Set amount 2* window.
-
 
 The function buttons in the footer allow to manage the postings manually.
 
@@ -124,6 +135,7 @@ The function buttons in the footer allow to manage the postings manually.
 
 - [ASSIGN RECEIPT]  
     Click this button to assign a receipt to the selected posting or to unassign a receipt from the selected posting. If no document is assigned to the selected posting, the *Attach document* window is displayed, see [Attach a document](#attach-document). If a document is already assigned to the selected posting, the *Attached document* window is displayed, see [Attached document](#attached-document). For detailed information, see [Retrieve a receipt](../Operation/10_ManageReceipts.md#retrieve-a-receipt).
+
 
 
 ## Split posting
@@ -241,11 +253,13 @@ The input line allows to split the posting.
     Click this button to cancel the split process.
 
 
+
 ## Attached document
 
 *Accounting > Post > Tab POSTINGS > Button ASSIGN RECEIPT*
 
 For a detailed description of the contained elements and the corresponding functions, see [Attached document](./01_Header.md#attached-document).
+
 
 
 ## Attach document
@@ -349,7 +363,6 @@ The list displays all uploaded documents. All fields are read-only.
     Remarks related to the uploaded document.
 
 [comment]: <> (Possible that the column values of remarks and status are accidentally reversed? Possible remarks: Uploading..., OK., File x already exists!, Upload cancelled by user.)
-
 
 - [ADD]  
     Click this button to add a file to be uploaded.

@@ -1,6 +1,6 @@
 [!!Select a fiscal year](../Operation/01_SelectFiscalYear.md)  
-[!!User Interface Select fiscal year](../UserInterface/00a_FiscalYear.md)  
-[!!User Interface Fixed postings](../UserInterface/02f_FixedBookings.md)  
+[!!User interface Select fiscal year](../UserInterface/00a_FiscalYear.md)  
+[!!User interface Fixed postings](../UserInterface/02f_FixedBookings.md)  
 
 # Manage the fixed postings
 
@@ -36,7 +36,7 @@ A fiscal year has been selected, see [Select the fiscal year](../Operation/01_Se
 2. Enter a batch name in the *Name* field.  
 
 3. Click the [CREATE] button.   
-    The *Fixed postings &ndash; Batch* window is displayed.
+    The *Fixed postings &ndash; Batch "Batch name"* window is displayed.
 
     ![Fixed posting batch](../../Assets/Screenshots/RetailSuiteAccounting/Settings/FixedBookings/FixedBookingBatch.png "[Fixed posting batch]")
 
@@ -64,7 +64,7 @@ You can add fixed postings to an existing or a new fixed posting batch.
 ![Select fixed posting batch](../../Assets/Screenshots/RetailSuiteAccounting/Settings/FixedBookings/EditFixedBookingBatch.png "[Select fixed posting batch]")
 
 1. Click the *Fixed posting batch* drop-down list and select the fixed posting batch to which you want to add a fixed posting.  
-    The *Fixed postings &ndash; Batch* window is displayed.  
+    The *Fixed postings &ndash; Batch "Batch name"* window is displayed.  
 
     > [Info] If the window is not automatically displayed, click the [EDIT] button to display it.
 
@@ -89,7 +89,7 @@ You can add fixed postings to an existing or a new fixed posting batch.
 7. If desired, enter any other relevant fixed posting information in the corresponding fields.
 
 8. Click the [POST] button.  
-    The fixed posting is posted. The notice *Posted* is displayed in the upper left corner of the window. The created fixed posting is displayed in the *Fixed postings &ndash; Batch* window.
+    The fixed posting is posted. The notice *Posted* is displayed in the upper left corner of the window. The created fixed posting is displayed in the *Fixed postings &ndash; Batch "Batch name"* window.
 
     ![Fixed posting added](../../Assets/Screenshots/RetailSuiteAccounting/Settings/FixedBookings/FixedBookingAdded.png "[Fixed posting added]")
 
@@ -123,7 +123,7 @@ This two-step editing process prevents inadvertently overwriting.
 ![Select fixed posting batch](../../Assets/Screenshots/RetailSuiteAccounting/Settings/FixedBookings/EditFixedBookingBatch.png "[Select fixed posting batch]")
 
 1. Click the *Fixed posting batch* drop-down list and select the fixed posting batch where the fixed posting to be edited is included.     
-    The *Fixed postings &ndash; Batch* window is displayed.
+    The *Fixed postings &ndash; Batch "Batch name"* window is displayed.
 
     > [Info] If the window is not automatically displayed, click the [EDIT] button to display it.
 
@@ -171,7 +171,7 @@ You can delete a fixed posting in a fixed posting batch.
 ![Select fixed posting batch](../../Assets/Screenshots/RetailSuiteAccounting/Settings/FixedBookings/EditFixedBookingBatch.png "[Select fixed posting batch]")
 
 1. Click the *Fixed posting batch* drop-down list and select the batch where the fixed posting to be deleted is included.  
-    The *Fixed postings &ndash; Batch* window is displayed.
+    The *Fixed postings &ndash; Batch "Batch name"* window is displayed.
 
     > [Info] If the window is not automatically displayed, click the [EDIT] button to display it.
 
@@ -213,7 +213,7 @@ You can delete a fixed posting batch if it is no longer applicable.
 ![Delete fixed posting batch](../../Assets/Screenshots/RetailSuiteAccounting/Settings/FixedBookings/EditFixedBookingBatch.png "[Delete fixed posting batch]")
 
 1. Click the *Fixed posting batch* drop-down list and select the fixed posting batch to be deleted.   
-    The *Fixed postings &ndash; Batch* window is displayed.
+    The *Fixed postings &ndash; Batch "Batch name"* window is displayed.
 
     ![Fixed posting batch](../../Assets/Screenshots/RetailSuiteAccounting/Settings/FixedBookings/EditFixedBooking.png "[Fixed posting batch]")
 

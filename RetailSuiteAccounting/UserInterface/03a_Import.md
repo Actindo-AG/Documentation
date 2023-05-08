@@ -1,3 +1,7 @@
+[!!User interface Debtors/creditors](./02a_DebtorsCreditors.md)
+[!!User interface Fiscal years](./02d_FiscalYears.md)
+[!!User interface CSV format definitions](./03c_CSVFormatDef.md)
+
 # Import
 
 *Accounting > Extras > Tab IMPORT*
@@ -43,6 +47,7 @@ The following import options are available in the tab:
 
 *Accounting > Extras > Tab IMPORT > Button COMPESO 7.X*
 
+
 ### Compeso 7.X: Step 1
 
 ![Import Compeso 7.X Step 1](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Import/Compeso01.png "[Import Compeso 7.X Step 1]")
@@ -70,6 +75,7 @@ The following import options are available in the tab:
 - [CONTINUE]  
     Click this button to proceed to the next step. This button is locked until at least one file has been uploaded.
 
+
 ### Compeso 7.X: Step 2
 
 ![Import Compeso 7.X Step 2](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Import/Compeso02.png "[Import Compeso 7.X Step 2]")
@@ -84,9 +90,11 @@ The following import options are available in the tab:
 [comment]: <> (Der Prozess geht nicht weiter, System hängt. Ich habe versucht eine exportierte DAT-Datei - via Reiter EXPORT- zu importieren, aber es scheint nicht zu funktionieren. Bug oder keine richtige Datei importiert?)
 
 
+
 ## CSV
 
 *Accounting > Extras > Tab IMPORT > Button CSV*
+
 
 ### CSV: Step 1
 
@@ -184,7 +192,6 @@ For the other options in the *File content* drop-down list, no import definition
         - **No**   
             No existing postings will be overwritten.
 
-
 - *Impersonal accounts*  
     Define how to handle the impersonal accounts to be imported. If the import file contained no impersonal accounts, the notice *No impersonal accounts in the import file* is displayed.
     - *Take over impersonal accounts?*  
@@ -200,7 +207,6 @@ For the other options in the *File content* drop-down list, no import definition
         - **No**   
             No existing impersonal accounts will be overwritten.
 
-
 - *Personal accounts*    
     Define how to handle the personal accounts to be imported. If the import file contained no personal accounts, the notice *No personal accounts in the import file* is displayed.
     - *Take over personal accounts?*  
@@ -215,7 +221,6 @@ For the other options in the *File content* drop-down list, no import definition
             The system will overwrite the existing personal accounts with the personal accounts from the import file. By default, this setting is preselected.
         - **No**   
             No existing personal accounts will be overwritten.
-
 
 - [FINALIZE]  
     Click this button to complete the import process. The *CSV: Step 4* window is displayed.
@@ -237,7 +242,6 @@ For the other options in the *File content* drop-down list, no import definition
 
 ![Import CSV Step 5](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Import/CSV05.png "[Import CSV Step 5]")
 
-
 [comment]: <> (Leeres Fenster. Kommentar in OneNote Bugs-Datei.)
 
 
@@ -245,6 +249,7 @@ For the other options in the *File content* drop-down list, no import definition
 ## CSV LS-Motor
 
 *Accounting > Extras > Tab IMPORT > Button CSV LS-MOTOR*
+
 
 ### CSV LS-Motor: Step 1
 
@@ -267,7 +272,6 @@ For the other options in the *File content* drop-down list, no import definition
         - [SEARCH]  
             Click this button to search for a file to be uploaded. The *Select file* window is displayed, see [Select file](#select-file).
 
-
 - *ordersX.txt*   
     Select the orders text file to be imported.
     - ![Radio button](../../Assets/Icons/RadioButtonChecked.png "[Radio button]") *Local file*  
@@ -281,7 +285,6 @@ For the other options in the *File content* drop-down list, no import definition
         - [SEARCH]  
             Click this button to search for a file to be uploaded. The *Select file* window is displayed, see [Select file](#select-file).
 
-
 - [UPLOAD]  
     Click this button to upload the selected file. The *Files accepted!* confirmation window is displayed. Click the [OK] button to continue. The selected file is uploaded and the button is locked until the import is completed.
 
@@ -290,18 +293,15 @@ For the other options in the *File content* drop-down list, no import definition
     - **\* AfterBuy CSV**
     - **\* Auction Master CSV**
 
-
 - *OrdersX.txt*  
     Click the drop-down list to select the appropriate import definition. All available import definitions are displayed in the list. The following options are predefined:
     - **\* AfterBuy CSV**
     - **\* Auction Master CSV**
 
-
 The import definitions can be defined or edited by clicking the [Edit] button to the right of the drop-down list.
 
 - [Edit]  
     Click this button to edit the selected import definition or to create a new one. The *Import/export definitions* window is displayed, see [Import/export definitions](#importexport-definitions).
-
 
 [comment]: <> (Andere Optionen abhängig von Einstellungen/Kunden/Plugins usw.? Faktura: Belege neu/Invoicing: new receipts weglassen?)
 
@@ -337,7 +337,6 @@ The import definitions can be defined or edited by clicking the [Edit] button to
             Enter the file path of the file to be uploaded. It is recommended to use the [SEARCH] button to select a file. The file path is automatically entered in the field.
         - [SEARCH]  
             Click this button to search for a file to be uploaded. The *Select file* window is displayed, see [Select file](#select-file).
-
 
 - [UPLOAD]  
     Click this button to upload the selected file. The *Files accepted!* confirmation window is displayed. Click the [OK] button to continue. The selected file is uploaded and the button is locked until the import is completed.
@@ -383,7 +382,6 @@ The import definitions can be defined or edited by clicking the [Edit] button to
     - *From - to*  
         Enter the start date of the period from which the postings are to be imported in the left field and the end date of the period from which the postings are to be imported in the right field. The valid date format is *DD.MM.YYYY*.
 
-
 - *Impersonal accounts*  
     Define how to handle the impersonal accounts to be imported. If the import file contained no impersonal accounts, the notice *No impersonal accounts in the import file* is displayed.
     - *Take over impersonal accounts?*  
@@ -399,7 +397,6 @@ The import definitions can be defined or edited by clicking the [Edit] button to
         - **No**   
             No existing impersonal accounts will be overwritten.
 
-
 - *Personal accounts*  
     Define how to handle the personal accounts to be imported. If the import file contained no personal accounts, the notice *No personal accounts in the import file* is displayed.
     - *Take over personal accounts?*  
@@ -414,7 +411,6 @@ The import definitions can be defined or edited by clicking the [Edit] button to
             The system will overwrite the existing personal accounts with the personal accounts from the import file. By default, this setting is preselected.
         - **No**   
             No existing personal accounts will be overwritten.
-
 
 - [FINALIZE]  
     Click this button to complete the import process. The *GDI: Step 4* window is displayed.
@@ -441,10 +437,10 @@ The import definitions can be defined or edited by clicking the [Edit] button to
 
 
 
-
 ## openTRANS
 
 *Accounting > Extras > Tab IMPORT > Button openTRANS*
+
 
 ### openTRANS: Step 1
 
@@ -464,7 +460,6 @@ The import definitions can be defined or edited by clicking the [Edit] button to
             Enter the file path of the file to be uploaded. It is recommended to use the [SEARCH] button to select a file. The file path is automatically entered in the field.
         - [SEARCH]  
             Click this button to search for a file to be uploaded. The *Select file* window is displayed, see [Select file](#select-file).
-
 
 - [UPLOAD]  
     Click this button to upload the selected file. The *Files accepted!* confirmation window is displayed. Click the [OK] button to continue. The selected file is uploaded and the button is locked until the import is completed.
@@ -497,6 +492,7 @@ The import definitions can be defined or edited by clicking the [Edit] button to
 
 *Accounting > Extras > Tab IMPORT > Button Schilling Accounting*
 
+
 ### Schilling Accounting: Step 1
 
 ![Import Schilling Step 1](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Import/SchillingStep1.png "[Import Schilling Step 1]")
@@ -515,7 +511,6 @@ The import definitions can be defined or edited by clicking the [Edit] button to
             Enter the file path of the file to be uploaded. It is recommended to use the [SEARCH] button to select a file. The file path is automatically entered in the field.
         - [SEARCH]  
             Click this button to search for a file to be uploaded. The *Select file* window is displayed, see [Select file](#select-file).
-
 
 - [UPLOAD]  
     Click this button to upload the selected file. The *Files accepted!* confirmation window is displayed. Click the [OK] button to continue. The selected file is uploaded and the button is locked until the import is completed.
@@ -537,7 +532,6 @@ The import definitions can be defined or edited by clicking the [Edit] button to
 
 
 [comment]: <> (Der Prozess geht nicht weiter, System hängt. Ich habe versucht eine exportierte txt Datei -Reiter EXPORT- zu importieren, aber es scheint nicht zu funktionieren. Bug oder falsche Datei importiert?)
-
 
 
 ### Import/export definitions
@@ -562,7 +556,6 @@ For a detailed description of this window and the corresponding functions, see [
 
 > [Info] This window can also be accessed via the [DEBTORS/CREDITORS](./02a_DebtorsCreditors.md#select-file) tab in the user interface.
 
-
 - *Name*  
     Name of the folder or file. Double-click a folder to access it. By default, the following folders are predefined:
     - **.**   
@@ -576,11 +569,9 @@ For a detailed description of this window and the corresponding functions, see [
     - **Printed documents**  
         All documents that have been printed are contained in this folder.
 
-
     > [Info] Further folders can be created in the *Documents* module.
 
 [comment]: <> (check mit . und .. Ordnern. Klappt nicht so, wie ich es erwarte: . = 1 Ebene höher, .. = zwei Ebenen höher. Bug?)
-
 
 - *Size*  
     Size of the file. The size is only displayed for files.

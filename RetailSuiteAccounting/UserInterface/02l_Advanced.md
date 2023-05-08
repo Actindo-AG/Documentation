@@ -1,3 +1,6 @@
+[!!User interface Postings](./01a_Bookings.md).  
+[!!User interface Account sheet](./01c_AccountSheet.md)  
+
 # Advanced
 
 *Accounting > Settings > Tab ADVANCED*
@@ -20,7 +23,6 @@
     - **No**   
         No automatic clearing process will be done by pressing the **ENTER** key. By default, this option is preselected.
 
-
 - *Default setting for postings list: show the last X postings*  
     Click the drop-down list to select the desired display setting for the *POSTINGS* tab. The following options are available:  
     - **All**  
@@ -29,7 +31,6 @@
         Select the desired number of postings to be displayed.
 
     > [Info] This setting is meant to improve the system performance, as the time needed to display the desired postings can be reduced. This function is also available in the *POSTINGS* tab for the current view clicking the corresponding drop-down list, see [POSTINGS](./01a_Bookings.md).  
-
 
 - *Default setting for account sheet list: show the last X postings*  
     Click the drop-down list to select the desired display setting for the *ACCOUNT SHEET* tab. The following options are available:  

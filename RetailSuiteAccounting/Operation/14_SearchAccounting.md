@@ -1,8 +1,7 @@
-[!!User Interface Search](../UserInterface/01e_Search.md)  
-[!!User Interface Accounts](../UserInterface/02b_Accounts.md)  
-[!!User Interface Postings](../UserInterface/01a_Bookings.md)  
 [!!Manage accounts](../Integration/03_ManageAccounts.md)  
-
+[!!User interface Postings](../UserInterface/01a_Bookings.md)  
+[!!User interface Search](../UserInterface/01e_Search.md)  
+[!!User interface Accounts](../UserInterface/02b_Accounts.md)  
 
 # Search in accounting
 
@@ -11,6 +10,7 @@ The extended search function in the *Accounting* module allows to search for a s
 An account is an essential part of an accounting system used to track and summarize in chronological order all financial transactions (credits and debits) of the different business elements, such as assets, liabilities, income and expenses.
 
 A posting is every entry recorded as credit or debit in the corresponding accounts.
+
 
 
 ## Search for an account
@@ -35,13 +35,13 @@ A fiscal year has been selected, see [Select fiscal year](./01_SelectFiscalYear.
 
     ![Search for an account](../../Assets/Screenshots/RetailSuiteAccounting/Book/Search/BookExtrasAccounts.png "[Search for an account]")
 
-
 2.  If necessary, deselect the checkbox of the *Acc. no.* or *Description* entry to apply the search only to field of the selected option. By default, both options are selected and the all accounts containing the search text in either the *Acc.no.* or the *Description* field will be displayed in the search results.
 
 3. Enter the search text (account number or description) in the search bar and press the **Enter** key or click the ![Search](../../Assets/Icons/Search.png "[Search]") (Search) button. You can enter any search text, even a partial account number or description.     
     All accounts containing the search text entered in the search bar are displayed in the search results.
 
 4. Click the ![Cross](../../Assets/Icons/Cross02.png "[Cross]") icon to clear the search bar and start a new search.  
+
 
 
 ## Search for a posting

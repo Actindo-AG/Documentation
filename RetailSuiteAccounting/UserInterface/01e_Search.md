@@ -1,3 +1,7 @@
+[!!User interface Postings header](./01_Header.md)
+[!!User interface Postings input line](./01_InputLine.md)
+[!!Search in accounting](../Operation/14_SearchAccounting.md)
+
 # Search
 
 *Accounting > Post > Tab SEARCH*
@@ -18,6 +22,8 @@ The *Post extras* search side bar contains two tabs:
 - [*Accounts*](#accounts): Search for accounts
 - [*Search*](#search): Search for postings
 
+
+
 ## Accounts
 
 *Accounting > Post > Tab SEARCH > Tab Accounts*   
@@ -25,14 +31,12 @@ The *Post extras* search side bar contains two tabs:
 
 ![Accounts](../../Assets/Screenshots/RetailSuiteAccounting/Book/Search/BookExtrasAccounts.png "[Accounts]")
 
-
 - [QUICK SEARCH]  
     Click this button to display the *QUICK SEARCH* filter list. The following search criteria are available:
     - ![Checkbox](../../Assets/Icons/Checkbox.png "[Checkbox]") *Acc. no.*  
         Select this checkbox to use the account number as a search criterion. By default, this checkbox is selected.
     - ![Checkbox](../../Assets/Icons/Checkbox.png "[Checkbox]") *Description*  
         Select this checkbox to use the account description as a search criterion. By default, this checkbox is selected.
-
 
 - [Search bar]  
     Enter the search text (letters or numbers). The criteria selected in the *QUICK SEARCH* filter list is applied to the search.
@@ -43,7 +47,6 @@ The *Post extras* search side bar contains two tabs:
 - ![Search](../../Assets/Icons/Search.png "[Search]") (Search)  
     Click this button to start the search. Alternatively, you can press the **ENTER** key.
 
-
 All available accounts that match the search criteria are displayed in a list below the search bar. All fields are read-only.
 
 - *Acc. no.*  
@@ -51,7 +54,6 @@ All available accounts that match the search criteria are displayed in a list be
 
 - *Description*  
     This column displays the account name.
-
 
 - ![First page](../../Assets/Icons/FirstPage.png "[First page]") (First page)    
     Click this button to display the first page of the search results.
@@ -65,6 +67,7 @@ All available accounts that match the search criteria are displayed in a list be
     Enter a page number to go to the entered page.
 - ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh)  
     Click this button to update the search results.
+
 
 
 ## Search

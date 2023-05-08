@@ -24,7 +24,6 @@ The list displays all available tax key mappings. Depending on the settings, the
 - *Valid until*  
     Click this field to edit the validity end date. Click the ![Calendar](../../Assets/Icons/Calendar.png "[Calendar]") (Calendar) button to select the validity end date. Alternatively, you can directly enter the validity end date in the format YYYY-MM-DD.
 
-
 - [ADD]  
     Click this button to add a new mapping.
 

@@ -1,19 +1,24 @@
+[!!User interface Import](./03a_Import.md)
+[!!User interface CSV format definitions](./03c_CSVFormatDef.md)
+[!!Manage the customer/supplier](../Integration/05_ManageCustomer/Supplier.md)
+
 # Debtors/creditors
 
 *Accounting > Settings > Tab DEBTORS/CREDITORS*
 
 ![Customer/Supplier](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/CustomerSupplierList.png "[Customer/supplier]")
 
-The *DEBTORS/CREDITORS* tab displays a customer/supplier list and allows to create, edit and delete customers (debtors) and suppliers (creditors). For detailed information about managing customers and suppliers, see [Manage the customer/supplier](../Integration/05_ManageCustomerSupplier.md).
+The *DEBTORS/CREDITORS* tab displays a customer/supplier list and allows to create, edit and delete customers (debtors) and suppliers (creditors). For detailed information about managing customers and suppliers, see [Manage the customer/supplier](../Integration/05_ManageCustomer/Supplier.md).
 
 The *DEBTORS/CREDITORS* tab contains in turn two tabs:
 
-  - Customer/supplier list, see [Customer/supplier list](#customersupplier-list).
-  - Create customer/supplier, see [Create customer/supplier](#create-customersupplier). When selecting a customer/supplier from the customer/supplier list, the tab name changes to *Customer/supplier "Number"*, see [Customer/supplier "Number"](#customersupplier-number).
+  - Customer/supplier list, see [Customer/supplier list](#customer/supplier-list).
+  - Create customer/supplier, see [Create customer/supplier](#create-customer/supplier). When selecting a customer/supplier from the customer/supplier list, the tab name changes to *Customer/supplier "Customer/supplier number"*, see [Customer/supplier "Customer/supplier number"](#customer/supplier-number).
 
 The identical customer/supplier list is available in the *Order management* module: *Order management > Customers/suppliers*. The list is synchronized between the two modules so that the same data can be accessed.
 
 [comment]: <> (Es heißt eingelicht immer "Kunde xxxxx", egal ob Kunde oder Lieferant. Kommentar in Bug-Datei hinzugefügt)
+
 
 
 ## Customer/supplier list
@@ -93,7 +98,6 @@ This tab can also be accessed in the *Select address* window from the COST ACCOU
     - [APPLY]  
         Click this button to apply the filter criteria. The filter menu is closed.
 
-
 The list displays all customer/supplier details. Depending on the settings, the displayed columns may vary. All fields are read-only.
 
 > [Info] To add or delete columns, click the ![Points](../../Assets/Icons/Points02.png "[Points]") (Points) button to display the context menu. Then, hover the mouse over the ![Columns](../../Assets/Icons/Columns02.png "[Columns]") (Columns) menu entry to display all available options. Select or deselect the columns as desired.
@@ -163,6 +167,7 @@ The list displays all customer/supplier details. Depending on the settings, the 
 
 
 ### Customer/supplier context menu
+
 *Accounting > Settings > Tab DEBTORS/CREDITORS > Tab Customer/supplier list > Right-click on customer/supplier*
 
 ![Customer/supplier context menu](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/CustomerSupplierContextMenu.png "[Customer/supplier context menu]")
@@ -175,12 +180,12 @@ The list displays all customer/supplier details. Depending on the settings, the 
 
 [comment]: <> (rename when material management is updated)
 
-
 - ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh)  
     Click this button to update the receipt list.
 
 - [RESET]  
     Click this button to reset the receipt list view.
+
 
 
 ## Create customer/supplier
@@ -190,7 +195,7 @@ The list displays all customer/supplier details. Depending on the settings, the 
 ![Create a customer/supplier](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/CreateCustomerSupplier.png "[Create a customer/supplier]")
 
 The *Create customer/supplier* tab contains the following sub-tabs to organize customer/supplier details:
-- *[Address/contact](#addresscontact)*
+- *[Address/contact](#address/contact)*
 - *[Delivery addresses](#delivery-addresses)*
 - *[Invoicing](#invoicing)*
 - *[Additional fields](#additional-fields)*
@@ -204,7 +209,6 @@ The *Create customer/supplier* tab contains the following sub-tabs to organize c
 *Accounting > Settings > Tab DEBTORS/CREDITORS > Tab Create customer/supplier > Sub-tab Address/contact*
 
 ![Address/contact](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/CreateCustomerSupplier.png "[Address/contact]")
-
 
 **Address details**  
 
@@ -394,6 +398,7 @@ To add further delivery addresses, see [Further addresses](#further-addresses).
 
 [comment]: <> (Tax office function funktioniert nicht.)
 
+
 **Posting**  
 
 - *Standard account*  
@@ -416,7 +421,6 @@ To add further delivery addresses, see [Further addresses](#further-addresses).
     - *Diners Club*
     - *MasterCard / EuroCard*
     - *Visa*
-
 
 - *Card holder*  
     Enter the card holder name.
@@ -445,9 +449,7 @@ To add further delivery addresses, see [Further addresses](#further-addresses).
 
     > [Info] This option is only relevant when managing supplier receipts.
 
-[comment]: <> (DE = nur Kostenlieferant/Bestellwesen inaktiv -> Übersetzung i.O.?)
-
-[comment]: <> (Link to Einkauf / Bestellvorschläge + Lieferantenbelege prüfen, wenn verfügbar)
+[comment]: <> (Link to Einkauf / Bestellvorschläge + Lieferantenbelege hinzufügen, wenn verfügbar)
 
 - [x] *Goods receipt required*  
     Select this checkbox to make a goods receipt mandatory.  Otherwise, deselect the checkbox. If the checkbox is selected, at least one item must be selected to release the invoice for payment.
@@ -461,7 +463,7 @@ To add further delivery addresses, see [Further addresses](#further-addresses).
 
     > [Info] The tolerance groups can be configured in the *Settings* menu entry of the *Order management* module.
 
-[comment]: <> (Link hinzufügen, wenn verfügbar.)
+[comment]: <> (Link hinzufügen, wenn verfügbar)
 
 
 **Limits / Locks**
@@ -480,7 +482,7 @@ To add further delivery addresses, see [Further addresses](#further-addresses).
 
     > [Info] The dunning process can be configured in the *Settings* menu entry of the *Order management* module.
 
-[comment]: <> (Link hinzufügen, wenn verfügbar.)
+[comment]: <> (Link hinzufügen, wenn verfügbar)
 
 - *Delivery block*  
     Select or deselect this checkbox to activate or deactivate a delivery block.
@@ -633,15 +635,16 @@ To add further information, select the corresponding supplier in the *Customer/S
     Click this button to save any changes made.
 
 
-## Customer/supplier "Number"
+
+## Customer/supplier number
 
 *Accounting > Settings > Tab DEBTORS/CREDITORS > Tab Customer/supplier list > Select customer/supplier*
 
 ![Edit a customer/supplier](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/EditCustomerSupplier.png "[Edit a customer/supplier]")
 
-In the *Customer/supplier "Number"* tab, you can add and/or edit the customer/supplier data in the following sub-tabs:  
+In the *Customer/supplier "Customer/supplier number"* tab, you can add and/or edit the customer/supplier data in the following sub-tabs:  
 
-- *[Address/contact](#addresscontact-1)*
+- *[Address/contact](#address/contact-1)*
 - *[Further addresses](#further-addresses)*
 - *[Invoicing](#invoicing-1)*
 - *[Additional fields](#additional-fields-1)*
@@ -661,12 +664,12 @@ The displayed sub-tabs and information may vary depending on whether a customer 
 
 ![Address/contact](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/EditCustomerSupplier.png "[Address/contact]")
 
-This sub-tab is identical to the one displayed when creating a customer/supplier. For a detailed description, see [Address/contact](#addresscontact).
+This sub-tab is identical to the one displayed when creating a customer/supplier. For a detailed description, see [Address/contact](#address/contact).
 
 - [NEW/RESET]  
-    Click this button to reset the *Customer/supplier "Number"* tab and create a new customer/supplier. The *Customer/supplier "Number"* tab is closed and changes automatically to the *Create customer/supplier* tab.
+    Click this button to reset the *Customer/supplier "Customer/supplier number"* tab and create a new customer/supplier. The *Customer/supplier "Customer/supplier number"* tab is closed and changes automatically to the *Create customer/supplier* tab.
 
-- [DELETE CUSTOMER "Number"]/[DELETE SUPPLIER "Number"]  
+- [DELETE CUSTOMER "Customer number"]/[DELETE SUPPLIER "Supplier number"]  
     Click this button to delete the selected customer/supplier.
 
 - [SAVE]  
@@ -680,7 +683,6 @@ This sub-tab is identical to the one displayed when creating a customer/supplier
 ![Further addresses](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/FurtherAddresses01.png "[Further addresses]")
 
 When creating a customer/supplier, the address entered in the *Address details* section in the *Address/contact* sub-tab is automatically saved as default delivery address in the system. The default address is displayed in this sub-tab marked as *DEF*. Further delivery addresses can be added in this sub-tab.
-
 
 **Delivery addresses**
 
@@ -755,7 +757,6 @@ Click the [CREATE] button to display the *Add* section or select the checkbox of
     - **Use different address**  
         Select this option to use a different address than the base (default) address. All fields in the section are unlocked.
 
-
 - *Address no.*  
     When creating an address, the next available address number is preselected by default. You can manually enter a different number. The address number cannot be edited after saving. If a new number is entered, a new address will be created.
 
@@ -768,7 +769,6 @@ Click the [CREATE] button to display the *Add* section or select the checkbox of
     - **Dr**
     - **Prof.**
     - **none**  
-
 
 - *Company*  
     Enter the company name.
@@ -823,9 +823,9 @@ Click the [CREATE] button to display the *Add* section or select the checkbox of
     Click this button to save the address.
 
 - [NEW/RESET]  
-    Click this button to reset the *Customer/supplier "Number"* tab and create a new customer/supplier. The *Customer/supplier "Number"* tab is closed and changes automatically to the *Create customer/supplier* tab.
+    Click this button to reset the *Customer/supplier "Customer/supplier number"* tab and create a new customer/supplier. The *Customer/supplier "Customer/supplier number"* tab is closed and changes automatically to the *Create customer/supplier* tab.
 
-- [DELETE CUSTOMER "Number"]/[DELETE SUPPLIER "Number"]  
+- [DELETE CUSTOMER "Customer number"]/[DELETE SUPPLIER "Supplier number"]  
     Click this button to delete the selected customer/supplier.
 
 - [SAVE]  
@@ -841,9 +841,9 @@ Click the [CREATE] button to display the *Add* section or select the checkbox of
 This sub-tab is identical to the one displayed when creating a customer/supplier. For a detailed description, see [Invoicing](#invoicing).
 
 - [NEW/RESET]  
-    Click this button to reset the *Customer/supplier "Number"* tab and create a new customer/supplier. The *Customer/supplier "Number"* tab is closed and changes automatically to the *Create customer/supplier* tab.
+    Click this button to reset the *Customer/supplier "Customer/supplier number"* tab and create a new customer/supplier. The *Customer/supplier "Customer/supplier number"* tab is closed and changes automatically to the *Create customer/supplier* tab.
 
-- [DELETE CUSTOMER "Number"]/[DELETE SUPPLIER "Number"]  
+- [DELETE CUSTOMER "CUSTOMER NUMBER"]/[DELETE SUPPLIER "SUPPLIER NUMBER"]  
     Click this button to delete the selected customer/supplier.
 
 - [SAVE]  
@@ -1017,9 +1017,9 @@ Click the [CREATE] button to display the *Add* section or select the checkbox of
     > [Info] Make sure to clear all input fields before adding new content. Otherwise, the newly entered content will replace the selected content from the list.
 
 - [NEW/RESET]  
-    Click this button to reset the *Customer/supplier "Number"* tab and create a new customer/supplier. The *Customer/supplier "Number"* tab is closed and changes automatically to the *Create customer/supplier* tab.
+    Click this button to reset the *Customer/supplier "Customer/supplier number"* tab and create a new customer/supplier. The *Customer/supplier "Customer/supplier number"* tab is closed and changes automatically to the *Create customer/supplier* tab.
 
-- [DELETE CUSTOMER "Number"]/[DELETE SUPPLIER "Number"]  
+- [DELETE CUSTOMER "CUSTOMER NUMBER"]/[DELETE SUPPLIER "SUPPLIER NUMBER"]  
     Click this button to delete the selected customer/supplier.
 
 - [SAVE]  
@@ -1058,20 +1058,20 @@ The list displays all documents of the selected customer. Depending on the setti
     - *AB*: Order confirmation
     - *RE*: Invoice
     - *RB*: Cash invoice
-    - *AR*: Partial invoice
+    - *AR*: Budget billing invoice
     - *GU*: Correction invoice
-    - *WG*: Credit note
+    - *WG*: Value credit
     - *LI*: Delivery note
     - *MA*: Dunning notice
     - *BE*: Purchase order
-    - *LB*: Loan receipt
+    - *LB*: Loan voucher
     - *PR*: Pro-forma invoice
-    - *ST*: Cancellation document
+    - *ST*: Reversal document
     - *LD*: Dropship delivery note
-    - ??: Return
-    - ??: Reshipment to customer
+    - *RT*:* Return
+    - *RS*: Return to customer
 
-[comment]: <> (Check Terminologie, z.B. Fakturierung/Detail/Create drop-down menu oder Settings, und Abkürzungen!)
+[comment]: <> (Check Terminologie, z.B. Fakturierung/Detail/Create drop-down menu oder Settings, und Abkürzungen! Partial invoice = Abschlagsrechnung? Partial invoice or Budget billing invoice? Wertgutschrift = value credit or credit note? Leihbeleg = Loan voucher or Loan receipt? Stornobeleg = Cancellation document or Reversal document? Rücksendung = Return to customer or Return? Retoure ist auch Return)
 
 - *SKU*  
     Stock Keeping Unit. Product identification code.
@@ -1138,11 +1138,10 @@ The list displays all documents of the selected customer. Depending on the setti
 - [RESET]  
     Click this button to reset the receipt list view.
 
-
 - [NEW/RESET]  
-    Click this button to reset the *Customer/supplier "Number"* tab and create a new customer/supplier. The *Customer/supplier "Number"* tab is closed and changes automatically to the *Create customer/supplier* tab.
+    Click this button to reset the *Customer/supplier "Customer/supplier number"* tab and create a new customer/supplier. The *Customer/supplier "Customer/supplier number"* tab is closed and changes automatically to the *Create customer/supplier* tab.
 
-- [DELETE CUSTOMER "Number"]/[DELETE SUPPLIER "Number"]  
+- [DELETE CUSTOMER "CUSTOMER NUMBER"]/[DELETE SUPPLIER "SUPPLIER NUMBER"]  
     Click this button to delete the selected customer/supplier.
 
 - [SAVE]  
@@ -1157,7 +1156,6 @@ The list displays all documents of the selected customer. Depending on the setti
 
 This sub-tab is only displayed when the selected customer has already placed at least one order.
 
-
 - *Statistic type*  
     Click this drop-down list to select the statistic type to be filtered for in the list. The following options are available:  
     - **General turnover**  
@@ -1168,7 +1166,6 @@ This sub-tab is only displayed when the selected customer has already placed at 
 
 - ![Open](../../Assets/Icons/Back02.png "[Open]") (Open)  
     Click this arrow to expand the *Statistics extras* side bar.
-
 
 #### Statistics extras
 
@@ -1199,8 +1196,10 @@ This sub-tab is only displayed when the selected customer has already placed at 
         Select this option to determine a period freely. The additional *from - to* fields and the ![Calendar](../../Assets/Icons/Calendar.png "[Calendar]") (Calendar) button are displayed.
         - *From - to*  
             Enter the start and end date of a specific period for the statistics. Alternatively, use the ![Calendar](../../Assets/Icons/Calendar.png "[Calendar]") (Calendar) button to select the desired dates.
+
 - *Product group*  
     Click the drop-down list to select a specific product group. All available product groups are displayed in the list.
+
 - *Customer*  
     Click the drop-down list to select a specific customer. All available customers are displayed in the list.
 
@@ -1224,8 +1223,6 @@ This *Statistics extras* window is identical to the one displayed when selecting
 
 *Period selection*
 
-[comment]: <> (Hannahs Kommentar: Einleitungssatz -> vgl. General turnover -> Check mit Hannah, was sie meint)
-
 - Value     
     Click this drop-down list to select the values to be displayed. The following options are available:
     - **Top 20**  
@@ -1237,6 +1234,7 @@ This *Statistics extras* window is identical to the one displayed when selecting
 
 - Year   
     Click the drop-down list to select the year for the statistics.
+
 - Period drop-down list   
     Click the drop-down list to select the period for the statistics. The following options are available:  
     - **Year**   
@@ -1251,8 +1249,10 @@ This *Statistics extras* window is identical to the one displayed when selecting
         Select this option to determine a period freely. The additional *from - to* fields and the ![Calendar](../../Assets/Icons/Calendar.png "[Calendar]") (Calendar) button are displayed.
         - *From - to*  
             Enter the start and end date of a specific period for the statistics. Alternatively, use the ![Calendar](../../Assets/Icons/Calendar.png "[Calendar]") (Calendar) button to select the desired dates.
+
 - *Product group*  
     Click the drop-down list to select a specific product group. All available product groups are displayed in the list.
+
 - *Customer*  
     Click the drop-down list to select a specific customer. All available customers are displayed in the list.
 
@@ -1301,8 +1301,10 @@ This *Statistics extras* window is identical to the one displayed when selecting
         Select this option to determine a period freely. The additional *from - to* fields and the ![Calendar](../../Assets/Icons/Calendar.png "[Calendar]") (Calendar) button are displayed.
         - *From - to*  
             Enter the start and end date of a specific period for the statistics. Alternatively, use the ![Calendar](../../Assets/Icons/Calendar.png "[Calendar]") (Calendar) button to select the desired dates.
+
 - *Product group*  
     Click the drop-down list to select a specific product group. All available product groups are displayed in the list.
+
 - *Customer*  
     Click the drop-down list to select a specific customer. All available customers are displayed in the list.
 
@@ -1312,8 +1314,8 @@ This *Statistics extras* window is identical to the one displayed when selecting
 - [SHOW]  
     Click this button to display the statistics in the list.
 
-
 The list displays the statistics according to the filter settings selected in the *Statistics extras* side bar. All fields are read-only.
+
 
 **Statistic type - General turnover**  
 
@@ -1343,8 +1345,6 @@ The list displays the statistics according to the filter settings selected in th
 *Accounting > Settings > Tab DEBTORS/CREDITORS > Tab Customer/supplier list > Select customer > Sub-tab Statistics > Statistic type Turnover per product > Statistics extras > Button SHOW*
 
 ![Turnover per product](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/Statistics02.png "[Turnover per product]")
-
-[comment]: <> (Hanahs Kommentar: Einleitungssatz vgl. oben)
 
 - *Product group*  
     Product group to which the product is assigned.
@@ -1379,6 +1379,7 @@ The list displays the statistics according to the filter settings selected in th
     > [Info] The [EXCEL] button is only displayed if the *Statistics* module is installed.
 
 [comment]: <> (Stimmt das so?)
+
 
 **Statistic typ - Number of units sold per product**
 
@@ -1415,14 +1416,13 @@ The list displays the statistics according to the filter settings selected in th
 [comment]: <> (Stimmt das so?)
 
 - [NEW/RESET]  
-    Click this button to reset the *Customer/supplier "Number"* tab and create a new customer/supplier. The *Customer/supplier "Number"* tab is closed and changes automatically to the *Create customer/supplier* tab.
+    Click this button to reset the *Customer/supplier "Customer/supplier number"* tab and create a new customer/supplier. The *Customer/supplier "Customer/supplier number"* tab is closed and changes automatically to the *Create customer/supplier* tab.
 
-- [DELETE CUSTOMER "Number"]/[DELETE SUPPLIER "Number"]  
+- [DELETE CUSTOMER "CUSTOMER NUMBER"]/[DELETE SUPPLIER "SUPPLIER NUMBER"]  
     Click this button to delete the selected customer/supplier.
 
 - [SAVE]  
     Click this button to save all changes in the selected customer/supplier.
-
 
 #### Print view
 
@@ -1511,7 +1511,6 @@ Depending on the supplier selected, the sections and fields displayed may slight
     - **DPD Shipping**
     - **GLS Gepard**
 
-
 - [EDIT]  
     Click this button to edit the export definition or add a new one. The *Import/export definitions* window is displayed, see [Import/export definitions](#importexport-definitions).
 
@@ -1552,7 +1551,6 @@ Depending on the supplier selected, the sections and fields displayed may slight
     Click the drop-down menu to select the appropriate option. The following options are available:
     - **Yes**
     - **No**
-
 
 #### Receipt export
 *Accounting > Settings > Tab DEBTORS/CREDITORS > Tab Customer/supplier list > Select supplier > Sub-tab Drop shipping > Drop shipping settings side menu > Menu entry Receipt export*
@@ -1621,7 +1619,6 @@ Depending on the supplier selected, the sections and fields displayed may slight
     Click the drop-down menu to select the appropriate option. The following options are available:
     - **Yes**
     - **No**
-
 
 #### Reimport  
 *Accounting > Settings > Tab DEBTORS/CREDITORS > Tab Customer/supplier list > Select supplier > Sub-tab Drop shipping > Drop shipping settings side menu > Menu entry Reimport*
@@ -1702,11 +1699,10 @@ This sub-tab is identical to the one displayed when creating a customer/supplier
 
 > [Info] When selecting a supplier (account number range 70000-99999) in the *Customer/supplier list*, only the *General* and *Credit rating* sections are displayed. Moreover, the *General* section contains only the *Supervisor*, *Area*, *Last pers. contact*, *Industry* and *Industry 2* fields.
 
-
 - [NEW/RESET]
-    Click this button to reset the *Customer/supplier "Number"* tab and create a new customer/supplier. The *Customer/supplier "Number"* tab is closed and changes automatically to the *Create customer/supplier* tab.
+    Click this button to reset the *Customer/supplier "Customer/supplier number"* tab and create a new customer/supplier. The *Customer/supplier "Customer/supplier number"* tab is closed and changes automatically to the *Create customer/supplier* tab.
 
-- [DELETE CUSTOMER "Number"]/[DELETE SUPPLIER "Number"]
+- [DELETE CUSTOMER "CUSTOMER NUMBER"]/[DELETE SUPPLIER "SUPPLIER NUMBER"]
     Click this button to delete the selected customer/supplier.
 
 - [SAVE]
@@ -1724,14 +1720,13 @@ This sub-tab is identical to the one displayed when creating a customer/supplier
 This sub-tab is identical to the one displayed when creating a customer/supplier. For a detailed description, see [Notes](#notes).
 
 - [NEW/RESET]  
-    Click this button to reset the *Customer/supplier "Number"* tab and create a new customer/supplier. The *Customer/supplier "Number"* tab is closed and changes automatically to the *Create customer/supplier* tab.
+    Click this button to reset the *Customer/supplier "Customer/supplier number"* tab and create a new customer/supplier. The *Customer/supplier "Customer/supplier number"* tab is closed and changes automatically to the *Create customer/supplier* tab.
 
-- [DELETE CUSTOMER "Number"]/[DELETE SUPPLIER "Number"]  
+- [DELETE CUSTOMER "CUSTOMER NUMBER"]/[DELETE SUPPLIER "SUPPLIER NUMBER"]  
     Click this button to delete the selected customer/supplier.
 
 - [SAVE]  
     Click this button to save all changes in the selected customer/supplier.
-
 
 #### Select tax office
 
@@ -1739,13 +1734,11 @@ This sub-tab is identical to the one displayed when creating a customer/supplier
 
 [comment]: <> (Fenster funktioniert nicht. Wenn man versucht zu suchen, Fehlermeldung. Bug? Plugin fehlt?)
 
-
 #### Edit additional fields
 
 *Accounting > Settings > Tab DEBTORS/CREDITORS > Tab Customer/supplier list > Select customer/supplier > Sub-tab Additional fields > Button EDIT ADDITIONAL FIELDS*
 
 ![Edit additional fields](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/EditAdditionalFieldsExcel.png "[Edit additional fields]")
-
 
 - [EXCEL]  
     Click this button to display the *EXCEL* context menu. The following options are available:  
@@ -1776,7 +1769,6 @@ The list displays all additional fields. Depending on the settings, the displaye
 
 - *Printing on document type(s)*  
     Document selected for printing.
-
 
 - [CREATE]  
     Click this button to create one or multiple additional fields. The *Add* section is displayed.
@@ -1812,7 +1804,6 @@ Click the [CREATE] button to display the *Add* section or select the checkbox of
 
 Depending on the selected field type, different fields are displayed.
 
-
 - *Field groups*  
     Click the drop-down list to select the appropriate option.
 
@@ -1842,18 +1833,18 @@ Depending on the selected field type, different fields are displayed.
     - **Order confirmation**
     - **Invoice**
     - **Cash invoice**
-    - **Partial invoice**
+    - **Budget billing invoice**
     - **Correction invoice**
-    - **Credit note**
+    - **Value credit**
     - **Delivery note**
     - **Dunning notice**
     - **Purchase order**
-    - **Loan receipt**
+    - **Loan voucher**
     - **Pro-forma invoice**
-    - **Cancellation document**
+    - **Reversal document**
     - **Dropship delivery note**
     - **Return**
-    - **Reshipment to customer**
+    - **Return to customer or supplier**
 
   [comment]: <> (Alle Dokumentennamen vereinheitlichen! Terminologie prüfen!)
 
@@ -1871,6 +1862,7 @@ Depending on the selected field type, different fields are displayed.
 
 - [CLEAR]  
     Click this button to clear all input lines.
+
 
 
 ## Loyalty cards
@@ -1892,10 +1884,8 @@ Depending on the selected field type, different fields are displayed.
 - *No.*  
     Card number.
 
-
 - [PRINT CUSTOMER CARD]  
     Click this button to display a preview of the printable customer card.
-
 
 #### Import/export definitions  
 
@@ -1905,7 +1895,6 @@ Depending on the selected field type, different fields are displayed.
 ![Import/export definitions](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/ImportExportDefinitions.png "[Import/export definitions]")
 
 For a detailed description of this window and the corresponding functions, see [CSV format definitions](./03c_CSVFormatDef.md).
-
 
 #### Select file
 

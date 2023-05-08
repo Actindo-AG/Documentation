@@ -28,10 +28,10 @@ In this part of the *Accounting* documentation, you will find the following chap
     - [Delete a fiscal year](./04_ManageFiscalYear.md#delete-a-fiscal-year)
 
 
-- [Manage the customer/supplier](./05_ManageCustomerSupplier.md)
-    - [Create a customer/supplier](./05_ManageCustomerSupplier.md#create-a-customersupplier)
-    - [Edit a customer/supplier](./05_ManageCustomerSupplier.md#edit-a-customersupplier)
-    - [Delete a customer/supplier](./05_ManageCustomerSupplier.md#delete-a-customersupplier)
+- [Manage the customer/supplier](./05_ManageCustomer/Supplier.md)
+    - [Create a customer/supplier](./05_ManageCustomer/Supplier.md#create-a-customer/supplier)
+    - [Edit a customer/supplier](./05_ManageCustomer/Supplier.md#edit-a-customer/supplier)
+    - [Delete a customer/supplier](./05_ManageCustomer/Supplier.md#delete-a-customer/supplier)
 
 
 - [Manage the fixed postings](./06_ManageFixedBookings.md)

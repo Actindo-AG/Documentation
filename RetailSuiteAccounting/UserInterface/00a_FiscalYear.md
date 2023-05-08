@@ -1,3 +1,10 @@
+[!!User interface Settings Fiscal years](./02d_FiscalYears.md)
+[!!User interface Settings Fixes postings](./02f_FixedBookings.md)
+[!!User interface Settings Balance carried forward](./02h_BalanceCarriedForward.md)
+[!!Manage the fiscal year](../Integration/04_ManageFiscalYear.md)
+[!!Manage the fixed postings](../Integration/06_ManageFixedBookings.md)
+[!!Select fiscal year](../Operation/01_SelectFiscalYear.md)  
+
 # Fiscal year
 
 *Accounting*
@@ -5,7 +12,6 @@
 ![Select fiscal year](../../Assets/Screenshots/RetailSuiteAccounting/SelectFiscalYear.png "[Select fiscal year]")
 
 When opening the *Accounting* module for the first time after logging in or after reloading the system, the fiscal year window is displayed. Select the appropriate values to display the corresponding period. For detailed information, see [Select fiscal year](../Operation/01_SelectFiscalYear.md).
-
 
 - *Fiscal Year*  
     Click the drop-down list to select the fiscal year. All available fiscal years are displayed in the list.
@@ -27,7 +33,6 @@ When opening the *Accounting* module for the first time after logging in or afte
     - **99 - General month**  
         Postings made in this period are not posted in month 99, but are automatically recorded in the corresponding calendar month depending on the posting date.
 
-
 - *Journal*  
     Click the [LIST] button next to the field to display the list of journals and select a journal. Alternatively, you can enter the journal number.  
 
@@ -38,7 +43,6 @@ When opening the *Accounting* module for the first time after logging in or afte
 
   - Special journals (90-99)  
       The journals 90 to 99 are specialized lists of transactions records preconfigured in the system. The special journals settings can be edited and extended in the BALANCES CARRIED FORWARD tab in the Settings menu entry, see [Balance carried forward](./02h_BalanceCarriedForward.md).
-
 
 - [LIST]  
     Click this button to display all available journals with postings and the number of postings contained in each of them. The *Journals* window is displayed, see [Journals](#journals).
@@ -54,6 +58,7 @@ When opening the *Accounting* module for the first time after logging in or afte
 
 - [CANCEL]  
     Click this button to cancel the selected values.
+
 
 
 ## Journals

@@ -1,6 +1,6 @@
-[!!Create a PDF evaluation](../Operation/15_ProvideAccountingData.md#create-a-pdf-evaluation)  
-[!!User Interface Postings header](../UserInterface/01_Header.md)  
-[!!User Interface BWA assignment](../UserInterface/02i_BWAAssignment.md)  
+[!!Provide accounting data](../Operation/15_ProvideAccountingData.md)  
+[!!User interface Postings header](../UserInterface/01_Header.md)  
+[!!User interface BWA assignment](../UserInterface/02i_BWAAssignment.md)  
 
 # Manage the BWA reports
 

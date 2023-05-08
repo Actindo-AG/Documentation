@@ -1,3 +1,5 @@
+[Manage the BWA reports](../Integration/07_ManageBWAReports.md) 
+
 # BWA assignment
 
 *Accounting > Settings > Tab BWA ASSIGNMENT*
@@ -14,7 +16,6 @@
 
 - ![Columns](../../Assets/Icons/Columns.png "[Columns]") Columns (x)   
     Click this button to display the columns bar and customize the displayed columns and the order of columns in the list. The *x* indicates the number of columns that are currently displayed in the list.
-
 
 - [x]     
     Select the checkbox to display the editing toolbar.
@@ -49,6 +50,7 @@ The list displays all available accounting reports. Depending on the settings, t
     Click this button to create an accounting report. The *Create* view is displayed, see [Create report](#create-report).
 
 
+
 ## Copy from predefined system report
 
 *Accounting > Settings > Tab BWA ASSIGNMENT > Button Copy*
@@ -68,6 +70,7 @@ The list displays all available accounting reports. Depending on the settings, t
 
 - [COPY]  
     Click this button to copy the selected system report. The *Copy from predefined system report* window is closed. A copy of the selected accounting report is displayed at the end of the accounting reports list.
+
 
 
 ## Create report
@@ -90,7 +93,8 @@ The list displays all available accounting reports. Depending on the settings, t
     For detailed information about creating a BWA report, see [Create a BWA report](../Integration/07_ManageBWAReports.md#create-a-bwa-report).
 
 
-## Edit "Report ID"
+
+## Edit report
 
 *Accounting > Settings > Tab BWA ASSIGNMENT > Select accounting report*
 
@@ -173,6 +177,7 @@ If no report line has been yet added, the notice *No report lines created. Use +
     Click this button to create an accounting report line. The *Create* view is displayed, see [Create report lines](#create-report-line).
 
 
+
 ## Create report line
 
 *Accounting > Settings > Tab BWA ASSIGNMENT > Select accounting report > Button Add*
@@ -225,7 +230,6 @@ If no report line has been yet added, the notice *No report lines created. Use +
 
 [comment]: <> (Was ist mit Assessment gemeint? Was ist die Funktion? Auf DE: Umlagen -> Quelle: alte Doku-Webseite. EN = Levies/charges?)
 
-
 - *Formula*  
     Enter the applicable formula. This field is only unlocked when the **Calculation** option in the *Function* drop-down list is selected. The basic calculating operations (+, -, *, /) are permitted.
 
@@ -240,14 +244,11 @@ If no report line has been yet added, the notice *No report lines created. Use +
 - *Formula*  
     Enter the applicable formula for the percentage calculation of the corresponding column. The basic calculating operations (+, -, *, /) are permitted.
 
-
 [comment]: <> (Alte-Doku-Webseite: Für jede BWA können Sie max. 4 Prozent-Spalten einfügen. Der Prozentsatz bezieht sich auf den Gesamtumsatz. Wählen Sie eine Spalte an und klicken Sie auf Formel, um die Formel einzugeben. Stimmt? Wie funktioniert es?)
 
 
 
-
-## Edit "Report line ID"
-
+## Edit report line
 
 *Accounting > Settings > Tab BWA ASSIGNMENT > Select accounting report > Select accounting report line > Button Edit*
 
@@ -261,7 +262,6 @@ If no report line has been yet added, the notice *No report lines created. Use +
 
 - [SAVE]  
     Click this button to save any changes made to the accounting report line.   
-
 
 - *Line number*  
     Click the field to edit the line number or use the arrows to increase or decrease the line number. If a line number entered is already in use, an error message will be displayed when saving. This field is mandatory.
@@ -311,4 +311,3 @@ If no report line has been yet added, the notice *No report lines created. Use +
 
 [comment]: <> (Alte-Doku-Webseite: Für jede BWA können Sie max. 4 Prozent-Spalten einfügen. Der Prozentsatz bezieht sich auf den Gesamtumsatz. Wählen Sie eine Spalte an und klicken Sie auf Formel, um die Formel einzugeben. Stimmt? Wie funktioniert es?)
 
-[comment]: <> (Weitere Information benötigt! Sind die Formel-Funktionen aus alter Doku-Seite aktuell und ok zu verwenden?)

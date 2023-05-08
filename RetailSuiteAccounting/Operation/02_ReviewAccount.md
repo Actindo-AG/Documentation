@@ -1,7 +1,7 @@
 [!!Manage the accounts](../Integration/03_ManageAccounts.md)  
-[!!User Interface Balances](../UserInterface/01b_Balances.md)  
-[!!User Interface Account sheet](../UserInterface/01c_AccountSheet.md)  
-[!!User Interface Accounts](../UserInterface/02b_Accounts.md)  
+[!!User interface Balances](../UserInterface/01b_Balances.md)  
+[!!User interface Account sheet](../UserInterface/01c_AccountSheet.md)  
+[!!User interface Accounts](../UserInterface/02b_Accounts.md)  
 
 # Check an account
 

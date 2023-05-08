@@ -1,5 +1,5 @@
-[!!User Interface Postings](../UserInterface/01a_Bookings.md)  
-[!!User Interface Open items](../UserInterface/01d_OpenItems.md)   
+[!!User interface Postings](../UserInterface/01a_Bookings.md)  
+[!!User interface Open items](../UserInterface/01d_OpenItems.md)   
 
 # Cancel a posting
 

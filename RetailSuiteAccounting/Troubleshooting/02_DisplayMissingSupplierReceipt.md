@@ -1,4 +1,4 @@
-[!!User Interface Supplier receipts](../UserInterface/01_Book.md#supplier-receipts)
+[!!User interface Supplier receipts](../UserInterface/01_Book.md#supplier-receipts)
 [!!Post a supplier receipt](../Operation/10_ManageReceipts.md#post-a-supplier-receipt)
 [!!Release a supplier receipt in Purchasing](../Operation/10_ManageReceipts.md#release-a-supplier-receipt-in-purchasing)
 

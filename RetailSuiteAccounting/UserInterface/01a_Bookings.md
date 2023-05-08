@@ -1,3 +1,7 @@
+[!!User interface Postings header](./01_Header.md)
+[!!User interface Postings input line](./01_InputLine.md)
+[!!User interface Cost accounting](./02e_CostAccounting.md)
+
 # Postings
 
 *Accounting > Post > Tab POSTINGS*
@@ -52,6 +56,7 @@ In all tabs of the *Post* menu entry, an identical header is displayed. For deta
     Posting text.
 
 In all tabs of the *Post* menu entry, an identical footer with the input line is displayed. For detailed information on the contained elements and the corresponding functions, see [Postings input line](./01_InputLine.md).
+
 
 
 ## Attached document

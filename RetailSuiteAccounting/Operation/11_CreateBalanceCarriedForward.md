@@ -1,6 +1,5 @@
-[!!User Interface Balance carried forward](../UserInterface/01_Book.md#balance-carried-forward)  
-[!!User Interface Settings Balance carried forward](../UserInterface/02h_BalanceCarriedForward.md)  
-
+[!!User interface Postings header](../UserInterface/01_Header.md)  
+[!!User interface Settings Balance carried forward](../UserInterface/02h_BalanceCarriedForward.md)  
 
 # Create a balance carried forward
 

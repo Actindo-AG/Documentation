@@ -1,5 +1,6 @@
-[!!User Interface Debtors/creditors](../UserInterface/02a_DebtorsCreditors.md)  
-[!!Order management](../../RetailSuiteFaktBase/Overview/01_General.md)  
+[!!User interface Debtors/creditors](../UserInterface/02a_DebtorsCreditors.md)  
+
+[comment]: <> (Link zu Order Management hinzufügen, wenn verfügbar)   
 
 # Manage the customer/supplier
 
@@ -58,7 +59,7 @@ You can edit a customer/supplier, for example, if certain data need to be change
 #### Prerequisites
 
 - A fiscal year has been selected, see [Select the fiscal year](../Operation/01_SelectFiscalYear.md).
-- At least one customer or supplier has been created, see [Create a customer/supplier](#create-a-customersupplier).
+- At least one customer or supplier has been created, see [Create a customer/supplier](#create-a-customer/supplier).
 
 #### Procedure
 
@@ -98,7 +99,7 @@ You can delete a customer/supplier, for example if it is no longer applicable.
 #### Prerequisites
 
 - A fiscal year has been selected, see [Select the fiscal year](../Operation/01_SelectFiscalYear.md).
-- At least one customer or supplier has been created, see [Create a customer/supplier](#create-a-customersupplier).
+- At least one customer or supplier has been created, see [Create a customer/supplier](#create-a-customer/supplier).
 
 #### Procedure
 

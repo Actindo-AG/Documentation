@@ -1,3 +1,12 @@
+[!!User interface Fiscal year](./00a_FiscalYear.md)
+[!!User interface Postings input line](./01_InputLine.md)
+[!!User interface Search](./01e_Search.md)
+[!!User interface Account sheet](./01c_AccountSheet.md)
+[!!User interface Cost accounting](./02e_CostAccounting.md)
+[!!Select a fiscal year](../Operation/01_SelectFiscalYear.md)
+[!!Manage BWA reports](../Integration/07_ManageBWAReports.md)
+[!!Manage receipts](../Operation/10_ManageReceipts.md)
+
 # Postings header
 
 *Accounting > Post*
@@ -38,7 +47,6 @@ In all tabs of the *Post* menu entry, an identical header is displayed. The cont
     - *Supplier receipts*  
         Click this menu entry to post specifically supplier receipts. The *Supplier receipts* window is displayed, see [Supplier receipts](#supplier-receipts).
 
-
 - [EVALUATIONS]  
     Click this button to display the *EVALUATIONS* context menu. The following menu entries are displayed:
 
@@ -69,14 +77,14 @@ In all tabs of the *Post* menu entry, an identical header is displayed. The cont
     - *Other*  
         Click this menu entry to display the sub-menu. The following menu entries are displayed:
       - *Chart of accounts*, see [Chart of accounts](#chart-of-accounts).
-      - *Deb./Cred.*, see [Deb./cred.](#debtorscreditors).
-
+      - *Deb./Cred.*, see [Deb./cred.](#debtors/creditors).
 
 - *Fiscal year XXXX/Month X/Journal X*  
     The currently selected fiscal year, month and journal are displayed. This field is read-only. To change the fiscal year or the posting period, click the [FY/MONTH/JOURNAL] button. For detailed information, see [Select a fiscal year](../Operation/01_SelectFiscalYear.md).
 
 - ![Left arrow](../../Assets/Icons/Back02.png "[Left arrow]") (Left arrow)   
     Click this button to display the *Post extras* search side bar. For detailed information about the search bar, see [Search](./01e_Search.md).
+
 
 
 ## Cash book takeover  
@@ -139,7 +147,6 @@ The list displays all cash payments registered in the cash book, which can be ta
 - *Amount*  
     Total amount of all postings in the cash book.
 
-
 An individual posting from the cash book can be selected and partially edited before takeover. Click the posting to be edited. Its details are displayed in the input line.
 
 [comment]: <> (Unsure! Working correctly? Additional Info needed. Add operation file?)
@@ -198,6 +205,7 @@ An individual posting from the cash book can be selected and partially edited be
 - [CANCEL]    
     Click this button to cancel any changes. A confirmation window is displayed. Click the [OK] button to close the *Cash book takeover* window.
 
+
 ### Split posting
 
 *Accounting > Post > Button EDIT > Menu entry Cash book takeover > Button SPLIT*
@@ -205,11 +213,14 @@ An individual posting from the cash book can be selected and partially edited be
 For a detailed description of the contained elements and the corresponding functions, see [Split posting](./01_InputLine.md#split-posting).
 
 
+
 ## Bank data takeover  
 
 > [Info] This function is no longer supported and, therefore, it is not described.
 
 [comment]: <> (Isas Kommentar: ??? Wir arbeiten mit Übernahme Bankdaten. RS mit Isa!)
+
+
 
 ## Process
 
@@ -228,12 +239,12 @@ For a detailed description of the contained elements and the corresponding funct
     - **16 - 25 - Closing postings**
     - **99 - General month**
 
-
 - [CANCEL]  
     Click this button to cancel any changes. The *Process* window is closed.
 
 - [OK]  
     Click this button to process all postings within the selected period. The *Postings processed* confirmation window is displayed.
+
 
 
 ## Delete
@@ -255,6 +266,7 @@ For a detailed description of the contained elements and the corresponding funct
     Click this button to delete the selected postings.
 
 
+
 ## Lock months
 
 *Accounting > Post > Button EDIT > Menu entry Lock months*
@@ -268,12 +280,12 @@ For a detailed description of the contained elements and the corresponding funct
     - **Locked**  
         Select this option to lock the corresponding month for postings. No further postings will be recorded in the selected month. Any further postings will be recorded in the next available month.
 
-
 - [CANCEL]  
     Click this button to cancel any changes. The *Lock months* window is closed.
 
 - [OK]  
     Click this button to save your selection.
+
 
 
 ## Balance carried forward
@@ -295,7 +307,6 @@ For a detailed description of the contained elements and the corresponding funct
     - **04: P&L**
     - **05: Open items debtors**
     - **06: Open items creditors**
-
 
 - *Posting date*  
     Enter the posting date for the balance(s) carried forward.
@@ -374,6 +385,7 @@ For a detailed description of the contained elements and the corresponding funct
     Click this button to cancel all changes. The *Carry balances forward* window is closed.
 
 
+
 ## Foreign currency wizard
 
 *Accounting > Post > Button EDIT > Menu entry Foreign currency wizard*
@@ -394,7 +406,6 @@ For a detailed description of the contained elements and the corresponding funct
     - **Individual**  
         Select this option to enter a self-defined account number range. When selecting this option, the fields (*from* - *to*) are displayed. Enter the applicable account number range in these fields.
 
-
 - *Posting date*  
     Click the ![Calendar](../../Assets/Icons/Calendar.png "[Calendar]") (Calendar) button to select a posting date. Alternatively, you can directly enter a posting date in the format DD.MM.YYYY.
 
@@ -405,6 +416,7 @@ For a detailed description of the contained elements and the corresponding funct
 
 - [CONTINUE]  
     Click this button to proceed to the next step. A window for account selection is displayed.
+
 
 **Account selection**
 
@@ -420,7 +432,9 @@ For a detailed description of the contained elements and the corresponding funct
     Click this button to post the exchange rate difference(s) in the applicable revenues or expenses accounts.
 
 
+
 ## Supplier receipts
+
 
 ### Acquire a supplier receipt
 
@@ -461,7 +475,7 @@ This path displays the file location, name and page.
 - *ContraAcct*  
     Enter the appropriate contra account. This field is mandatory.
 
-    >[Info] After you have entered at least three characters in the field, a list is displayed with all accounts matching the entry. You can select the corresponding account in the list.
+    > [Info] After you have entered at least three characters in the field, a list is displayed with all accounts matching the entry. You can select the corresponding account in the list.
 
 - *Reference1*  
     Enter an applicable reference value.
@@ -639,7 +653,6 @@ This path displays the file location, name and page.
     - [APPLY]  
         Click this button to apply the filter criteria. The filter menu is closed.
 
-
 The list displays all available supplier receipts. Depending on the settings, the displayed columns may vary. All fields are read-only.
 
 - *Status*  
@@ -650,7 +663,6 @@ The list displays all available supplier receipts. Depending on the settings, th
     - ![Completed](../../Assets/Icons/Completed.png "[Completed]") Completed
 
     > [Info] The *Supplier receipts* feature works together with the *Purchasing* module, where the supplier receipts are checked and released (or rejected) by the assigned supervisor. The status changes accordingly in both modules. For detailed information, see [Post a supplier receipt](../Operation/10_ManageReceipts.md#post-a-supplier-receipt).
-
 
 - *Supplier*  
     Supplier account number.
@@ -827,7 +839,6 @@ The list displays all receipts with **Released** status.
 - [RESET]  
     Click this button to reset the receipt list view.
 
-
 The input line is unlocked if at least one checkbox is selected.
 
 - *Turnover*    
@@ -871,7 +882,6 @@ The input line is unlocked if at least one checkbox is selected.
 
 - [SPLIT]  
     Click this button to perform a split posting if necessary. The *Breakdown posting* window is displayed, see [Breakdown posting](#breakdown-posting).
-
 
 #### Attached document
 
@@ -951,7 +961,6 @@ The list displays the selected receipt for the split booking. Depending on the s
 - *REST*  
     Remaining amount to be split.
 
-
 By default, the data of the selected receipt is preset in the input line.
 
 - *Turnover*  
@@ -989,7 +998,6 @@ By default, the data of the selected receipt is preset in the input line.
 - *Cost object*  
     Click the field to edit the applicable cost object.
 
-
 - [SAVE]  
     Click this button to save the partial postings and record them in the selected posting period.
 
@@ -1001,6 +1009,7 @@ By default, the data of the selected receipt is preset in the input line.
 
 - [APPLY]  
     Click this button to apply the split posting.
+
 
 
 ## Account balance
@@ -1022,7 +1031,6 @@ By default, the data of the selected receipt is preset in the input line.
     - **Amount**  
         Select this option to sort the data by amount.
 
-
 - *Debit-credit interest rate*  
     Enter the corresponding values in both fields.
 
@@ -1035,12 +1043,12 @@ By default, the data of the selected receipt is preset in the input line.
     - **By cost object**  
         Select this option to sort the data by cost object. When selecting this option, a new drop-down list is displayed containing the available cost objects.  This option is only displayed if cost objects have been set up, see [Cost accounting](./02e_CostAccounting.md).
 
-
 - [CLOSE]  
     Click this button to close the window.
 
 - [PRINT]  
     Click this button to create the evaluation report in a printable format. An evaluation report preview is displayed in a new window.
+
 
 
 ## Account sheet
@@ -1073,12 +1081,12 @@ By default, the data of the selected receipt is preset in the input line.
     - **By cost object**  
         Select this option to sort the data by cost object. When selecting this option, a new drop-down list is displayed containing the available cost objects.  This option is only displayed if cost objects have been set up, see [Cost accounting](./02e_CostAccounting.md).
 
-
 - [CANCEL]  
     Click this button to cancel the selection. The *Account sheet* window is closed.
 
 - [PRINT]  
     Click this button to create the evaluation report in a printable format. The evaluation report preview is displayed in a new window.
+
 
 
 ## Journal
@@ -1102,12 +1110,12 @@ By default, the data of the selected receipt is preset in the input line.
     - **By cost object**  
         Select this option to sort the data by cost object. When selecting this option, a new drop-down list is displayed containing the available cost objects.  This option is only displayed if cost objects have been set up, see [Cost accounting](./02e_CostAccounting.md).
 
-
 - [CANCEL]  
     Click this button to cancel your selection. The *Journal* window is closed.
 
 - [PRINT]  
     Click this button to create the evaluation report in a printable format. The evaluation report preview is displayed in a new window.
+
 
 
 ## Balance list
@@ -1175,6 +1183,7 @@ By default, the data of the selected receipt is preset in the input line.
     Click this button to create the evaluation report in a printable format.
 
 
+
 ## Open items
 
 *Accounting > Post > Button EVALUATIONS > Menu entry Open items*
@@ -1189,7 +1198,6 @@ By default, the data of the selected receipt is preset in the input line.
         Select this option to include suppliers accounts only.
     - **Individual**  
         Select this option to enter a self-defined account number range. When selecting this option, two new *Accounts* fields are displayed. Enter the applicable account number range in these fields.
-
 
 - *Month up to*  
     Click the drop-down list to select the month range to be included. All months between month 0 and the selected month will be displayed. The following options are available:
@@ -1213,6 +1221,7 @@ By default, the data of the selected receipt is preset in the input line.
 
 - [PRINT]  
     Click this button to create the evaluation report in a printable format. An evaluation report preview is displayed in a new window.
+
 
 
 ## BWA
@@ -1240,7 +1249,6 @@ By default, the data of the selected receipt is preset in the input line.
     - **13 - 15 - Subsequent postings**
     - **16 - 25 - Closing postings**
     - **99 - General month**   
-
 
 - *Comparison year* - *Comparison year 2*  
     Click the drop-down list to select two different years to be compared with each other. All available fiscal years are displayed in the list. If no year for comparison is desired, select the option **No year for comparison**.
@@ -1272,6 +1280,7 @@ By default, the data of the selected receipt is preset in the input line.
 
 - [PRINT]  
     Click this button to create the evaluation report in a printable format. An evaluation report preview is displayed in a new window.
+
 
 
 ## ProfitCenter
@@ -1318,6 +1327,7 @@ By default, the data of the selected receipt is preset in the input line.
 
 - [PRINT]  
     Click this button to create the evaluation report in a printable format. An evaluation report preview is displayed in a new window.
+
 
 
 ## Cost object comparison
@@ -1379,6 +1389,7 @@ By default, the data of the selected receipt is preset in the input line.
 
 - [PRINT]  
     Click this button to create the evaluation report in a printable format. An evaluation report preview is displayed in a new window.
+
 
 
 ## Debtors/creditors

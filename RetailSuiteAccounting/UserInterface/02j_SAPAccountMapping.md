@@ -32,7 +32,6 @@ The list displays all available account mappings. Depending on the settings, the
 
 [comment]: <> (BS Soll/Haben = Basic Set oder Büchungsschlüssel, EN = Posting key? RS Fachreviewer!)
 
-
 - [ADD]  
     Click this button to add a new mapping.
 

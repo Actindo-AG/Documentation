@@ -1,16 +1,15 @@
-[!!User Interface Export DATEV CSV](../UserInterface/03b_Export.md#datev-csv)  
-[!!User Interface GDPdU export](../UserInterface/03b_Export.md#gdpdu-export)  
-[!!User Interface CVS format definition](../UserInterface/03c_CSVFormatDef.md)  
-[!!User Interface BWA](../UserInterface/01_Book.md#bwa)  
-[!!User Interface BWA assignment](../UserInterface/02i_BWAAssignment.md)  
 [!!Manage the BWA reports](../Integration/07_ManageBWAReports.md)  
-
+[!!User interface Postings header](../UserInterface/01_Header.md)  
+[!!User interface BWA assignment](../UserInterface/02i_BWAAssignment.md)  
+[!!User interface Export](../UserInterface/03b_Export.md)  
+[!!User interface CVS format definition](../UserInterface/03c_CSVFormatDef.md)  
 
 # Provide the accounting data
 
 The *Accounting* module offers an export function to export data in different formats. The most widely used financial formats for accounting software are supported.
 
 Exporting data may be necessary to perform an external audit, create a balance sheet or prepare the annual accounts. These tasks are usually performed at the end of a fiscal year. The system also includes a reporting functionality to create different report types and export them as a PDF.
+
 
 
 ## Export the data for DATEV
@@ -69,14 +68,12 @@ A fiscal year has been selected, see [Select a fiscal year](./01_SelectFiscalYea
 
     > [Info] When selecting the **Custom** option, the *Custom* field to enter a custom account number or account number range is displayed.
 
-
 7. Click the *Export only posting-relevant master data records* drop-down list and select the appropriate option. The following options are available:
 
     - **Yes**  
         Select this option to export only master data that are relevant for the selected postings.
     - **No**  
         Select this option to export all master data, regardless of their relevance for the selected postings.
-
 
 8. Click the *Take Receipt 2 field in the export document from posting record field* drop-down list and select the appropriate option. The following options are available:  
 
@@ -85,14 +82,12 @@ A fiscal year has been selected, see [Select a fiscal year](./01_SelectFiscalYea
     - **Document 3**
     - **Document 4**
 
-
 9. Click the *Add tax keys also in split postings of automatic accounts* drop-down list and select the appropriate option. The following options are available:
 
     - **Yes**  
         Select this option to include the applicable tax key in split postings of automatic accounts.
     - **No**  
         Select this option not to include the applicable in split postings of automatic accounts.
-
 
 10. If necessary, click the *Saved personal account length* drop-down list and select the appropriate option. By default, the personal account length preconfigured in the system is preselected.
 
@@ -114,6 +109,7 @@ A fiscal year has been selected, see [Select a fiscal year](./01_SelectFiscalYea
     The zip file has been downloaded.
 
     > [Info] By default, the downloaded export file is saved in the *Downloads* folder of your device.
+
 
 
 ## Export the data GDPdU-compliant
@@ -173,6 +169,7 @@ A fiscal year is selected, see [Select a fiscal year](./01_SelectFiscalYear.md).
     The zip file has been downloaded.
 
     > [Info] By default, the downloaded export file is saved in the *Downloads* folder of your device.
+
 
 
 ## Create a PDF evaluation

@@ -9,13 +9,10 @@
 - [EXPORT](./03b_Export.md#importexport-definitions)
 - [DEBTORS/CREDITORS](./02a_DebtorsCreditors.md#importexport-definitions)
 
-
 **Name**
 
 - Import/export definition type  
     Click the drop-down list to select a predefined import/export definition type. All available definition types are displayed in the list. Depending on the selected option, the displayed fields and options in this tab vary.
-
-[comment]: <> (Bedeutung von Asterisk neben Namen?)
 
 - Import/export definition  
     Click the drop-down list to select the desired import/export definition. All available definitions are displayed in the list. The options displayed vary depending on the option selected in the import/export definition type drop-down list.

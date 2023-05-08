@@ -1,3 +1,5 @@
+[!!Manage the fixed postings](../Integration/06_ManageFixedBookings.md)
+
 # Fixed posting
 
 *Accounting > Settings > Tab FIXED POSTINGS*
@@ -5,7 +7,7 @@
 ![Fixed posting](../../Assets/Screenshots/RetailSuiteAccounting/Settings/FixedBookings/CreateFixedBookingBatch.png "[Fixed posting]")
 
 - *Fixed posting batch*  
-    Click the drop-down list to select a fixed posting batch. The selected batch is displayed in the *Fixed postings &ndash; batch* window.   
+    Click the drop-down list to select a fixed posting batch. The selected batch is displayed in the *Fixed postings &ndash; Batch "Batch name"* window.   
     Click the **New batch** option in the drop-down list to create a new batch. The *Name* field is displayed below the drop-down list. By default, the **New batch** option is preselected.    
     For detailed information about creating a new batch, see [Create a fixed posting batch](../Integration/06_ManageFixedBookings.md#create-a-fixed-posting-batch).
 
@@ -17,13 +19,13 @@
     For detailed information about deleting a new batch, see [Delete a fixed posting batch](../Integration/06_ManageFixedBookings.md#delete-a-fixed-posting-batch).
 
 - [CREATE]  
-    Click this button to create a fixed posting batch. The *Fixed postings &ndash; batch* window is displayed, see [Fixed postings &ndash; batch](#fixed-postings--batch).
+    Click this button to create a fixed posting batch. The *Fixed postings &ndash; Batch "Batch name"* window is displayed, see [Fixed postings &ndash; Batch "Batch name"](#fixed-postings-–-batch).
 
 - [EDIT]  
-    Click this button to edit a fixed posting batch. The *Fixed postings &ndash; batch* window is displayed, see [Fixed postings &ndash; batch](#fixed-postings--batch).
+    Click this button to edit a fixed posting batch. The *Fixed postings &ndash; Batch "Batch name"* window is displayed, see [Fixed postings &ndash; Batch "Batch name"](#fixed-postings-–-batch).
 
 
-## Fixed postings &ndash; batch
+## Fixed postings &ndash; Batch
 
 *Accounting > Settings > Tab FIXED POSTINGS > Select batch*
 
@@ -133,4 +135,4 @@ The input fields allow to create, edit and delete fixed postings. Click a fixed 
     Click this button to save any changes made.
 
 - [CANCEL]  
-    Click this button to cancel the process. A confirmation window is displayed. Click [OK] to proceed. The *Fixed postings &ndash; batch* window is closed.
+    Click this button to cancel the process. A confirmation window is displayed. Click [OK] to proceed. The *Fixed postings &ndash; Batch "Batch name"* window is closed.

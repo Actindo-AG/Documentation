@@ -1,3 +1,8 @@
+[!!User interface Postings header](./01_Header.md)
+[!!User interface Postings input line](./01_InputLine.md)
+[!!User interface Cost accounting](./02e_CostAccounting.md)
+[!!Review an account](../Operation/02_ReviewAccount.md)  
+
 # Account sheet
 
 *Accounting > Post > Tab ACCOUNT SHEET*
@@ -14,13 +19,11 @@ If a contra account number is specified in the *Contra account* field of the inp
 
 In all tabs of the *Post* menu entry, an identical header is displayed. For detailed information on the contained elements and the corresponding functions, see [Postings header](./01_Header.md).
 
-
 - ![Previous](../../Assets/Icons/Previous.png "[Previous]") (Previous)  
     Click this button to display the account sheet of the previous available account number.
 
 - ![Next](../../Assets/Icons/Next.png "[Next]") (Next)  
     Click this button to display the account sheet of the next available account number.
-
 
 **Account sheet for account**   
 
@@ -81,6 +84,7 @@ The list displays all postings for the selected account whose number and name ar
     Click the drop-down list to select the preferred display filter.
 
 In all tabs of the *Post* menu entry, an identical footer with the input line is displayed. For detailed information on the contained elements and the corresponding functions, see [Postings input line](./01_InputLine.md).
+
 
 
 ## Attached document

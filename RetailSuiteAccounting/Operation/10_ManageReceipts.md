@@ -1,11 +1,9 @@
-[!!Documents](../../RetailSuiteDocorg/Overview/01_General.md)  
-[!!Purchasing](../../RetailSuiteSourcing/Overview/01_General.md)   
-[!!Payment processing](../../RetailSuiteBanking/Overview/01_General.md)  
-[!!User Interface Postings](../UserInterface/01a_Bookings.md)  
-[!!User Interface Post receipts](../UserInterface/01f_BookReceipts.md)  
-[!!User Interface Supplier receipts](../UserInterface/01_Book.md#supplier-receipts)  
-[!!User Interface Debtors/creditors](../UserInterface/02a_DebtorsCreditors.md)    
+[!!User interface Postings](../UserInterface/01a_Bookings.md)  
+[!!User interface Post receipts](../UserInterface/01f_BookReceipts.md)  
+[!!User interface Postings header](../UserInterface/01_Header.md)  
+[!!User interface Debtors/creditors](../UserInterface/02a_DebtorsCreditors.md)    
 
+[comment]: <> (Ggf. Link zu Documents, Purchasing and Payment processing hinzufügen, wenn verfügbar) 
 
 # Manage receipts
 
@@ -20,6 +18,7 @@ The *Accounting* module offers three possible ways to manage and assign receipts
 > [Info] *Supplier receipts* is a special feature that interacts with the *Purchasing* and *Payment processing* modules, and therefore the appropriate settings must be configured first.
 
 
+
 ## Retrieve a receipt
 
 You can retrieve and assign a receipt that has not yet been registered to an existing posting. Any unregistered receipts uploaded in the system are displayed in the *POST RECEIPTS* tab.  
@@ -27,17 +26,13 @@ You can retrieve and assign a receipt that has not yet been registered to an exi
 After being uploaded, the receipts are stored in the *New documents* folder in the *Documents* module. Once they are booked, they are moved automatically into the *Registered documents* folder and then placed in the appropriate subfolder according to the following structure:
 
 - 10000-69999 personal account numbers in case of a debtors'/customers' document
-- 70000-79999 personal account numbers in case of a creditors'/suppliers' document
-
-[comment]: <> (Check in Documents, ob das stimmt oder eher 70000-99999 personal account numbers in case of a creditors'/suppliers' document)
+- 70000-99999 personal account numbers in case of a creditors'/suppliers' document
 
 #### Prerequisites
 
 - A fiscal year has been selected, see [Select fiscal year](./01_SelectFiscalYear.md).
 - The *Documents* module has been installed.
 - A receipt has been uploaded in the *Documents* module.
-
-[comment]: <> (JPG und PNG anscheinend auch unterstützt. Andere Formate?)
 
 #### Procedure
 
@@ -55,7 +50,6 @@ After being uploaded, the receipts are stored in the *New documents* folder in t
 
     ![Attach document](../../Assets/Screenshots/RetailSuiteAccounting/Book/Bookings/AttachDocument01.png "[Attach document]")
 
-
 3. Click the *New documents* folder in the side bar.  
     All unassigned documents are displayed.
 
@@ -71,6 +65,7 @@ After being uploaded, the receipts are stored in the *New documents* folder in t
     > [Info] You can click the ![Receipt](../../Assets/Icons/Beleg.png "[Receipt]") icon to display the corresponding receipt. The *Attached document* window is displayed. If the receipt assignment needs to be undone due to a mistake, click the [CANCEL ASSIGNMENT] button in the *Attached document* window.
 
 
+
 ## Post a receipt
 
 External receipts uploaded in the system and not yet registered can be assigned manually in the *Accounting* module. The invoices uploaded in the *New documents* folder in the *Documents* module are recognized by the system and displayed in the *POST RECEIPTS* tab.
@@ -80,7 +75,6 @@ External receipts uploaded in the system and not yet registered can be assigned 
 - A fiscal year has been selected, see [Select fiscal year](./01_SelectFiscalYear.md).
 - The *Documents* module has been installed.
 - A receipt has been uploaded in the *Documents* module.
-
 
 #### Procedure
 
@@ -120,6 +114,7 @@ External receipts uploaded in the system and not yet registered can be assigned 
     > [Info] If there are further unregistered documents, they will be displayed in the *POST RECEIPTS* tab. Otherwise, the notice "No documents left to be registered" is displayed.
 
 
+
 ## Post a supplier receipt
 
 In addition to the posting process and assignment of general receipts, there is an enhanced function to specifically post supplier receipts.
@@ -128,7 +123,7 @@ Suppliers' invoices can be uploaded in the *New supplier receipts* folder in the
 
 Moreover, this function interacts with the *Purchasing* and *Payment processing* modules, and allows to check supplier receipts before posting them in the system. For example, the person who placed the order can be  responsible for approving the supplier receipt.
 
-[comment]: <> (Isas Kommentar:  For example can the Person who placed the order be responsible for approving the supplier receipt. Funktion dient Zahlungsfreigabe, Zahlungsbedingungen werden im Lieferanten hinterlegt. Check, ob was fehlt?)
+[comment]: <> (Isas Kommentar: For example can the Person who placed the order be responsible for approving the supplier receipt. Funktion dient Zahlungsfreigabe, Zahlungsbedingungen werden im Lieferanten hinterlegt. Check, ob was fehlt?)
 
 [comment]: <> (Evtl. Link zur Funktion Zahlungsvorschlagsliste - Skonto erkennen, automatischer Abzug des Kontos, usw.- in der Zahlungsabwicklung in diesem Unterkapitel hinzufügen, wenn verfügbar.)
 
@@ -143,8 +138,6 @@ You can enter a supplier receipt uploaded in the system and create and associate
 - The *Supplier receipts + payment proposal list* plug-in has been installed.
 - The *New supplier receipts* folder has been created in the *Documents* module, if not already available.
 - At least one supplier receipt has been uploaded in the *New supplier receipts* folder.
-
-[comment]: <> (New supplier receipts/Neue Lieferantenbelege Ordner selber erstellen oder ist irgendwie automatisch erstellt?)
 
 #### Procedure
 

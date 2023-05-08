@@ -1,6 +1,7 @@
-[!!User Interface Tax keys](../UserInterface/02c_TaxKeys.md)  
+[!!User interface Tax keys](../UserInterface/02c_TaxKeys.md)  
 [!!Taxes](../../Taxes/Overview/01_General.md)  
-[!!Order management](../../RetailSuiteFaktBase/Overview/01_General.md)  
+
+[comment]: <> (Link zu Order Management hinzufügen, wenn verfügbar)  
 
 # Manage the tax keys
 

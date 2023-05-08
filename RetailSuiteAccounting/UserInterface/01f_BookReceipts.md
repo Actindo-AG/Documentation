@@ -1,3 +1,7 @@
+[!!User interface Postings header](./01_Header.md)
+[!!User interface Postings input line](./01_InputLine.md)
+[!!Manage receipts](../Operation/10_ManageReceipts.md)
+
 # Post receipts
 
 *Accounting > Post > Tab POST RECEIPTS*
