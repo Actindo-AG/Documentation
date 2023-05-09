@@ -3,30 +3,28 @@
 Fully integrated financial accounting with the *Accounting* module:
 
 - Accounts receivable and accounts payable  
-  The *Accounting* module offers all necessary features for your accounting, including an integrated payment system and the automatic reconciliation of open payments.
-
-[comment]: <> (Preparation of VAT weggelassen. Evtl. RS FH)
+    The *Accounting* module offers all necessary features for your accounting, including an integrated payment system and the automatic reconciliation of open payments.
 
 - Double-entry accounting  
-  Our *Accounting* module offers a real double-entry accounting based on DATEV with debit/credit entry and dialog as well as a batch and a quick entry mask.
+    Our *Accounting* module offers a real double-entry accounting based on DATEV with debit/credit entry and dialog as well as a batch and a quick entry mask.
 
-- General ledger and subledger  
-  The *Accounting* module can be used as a general ledger or as a subledger to synchronize data into the general ledger of your corporation.
+- General ledger and sub-ledger  
+    The *Accounting* module can be used as a general ledger or as a sub-ledger to synchronize data into the general ledger of your corporation.
 
 - Document verification including payment proposal list  
-  The module has an extended process for managing incoming invoices with release logic, comment function and the 4-eyes principle check. Based on the payment conditions of your suppliers, you can also receive payment suggestions.
+    The module has an extended process for managing incoming invoices with release logic, comment function and the 4-eyes principle check. Based on the payment conditions of your suppliers, you can also receive payment suggestions.
 
 - Standard and customizable accounts chart  
-  DATEV-compatible charts of accounts SKR03 and SKR04 with support for additional, individual charts of accounts. All charts of accounts are fully customizable in the *Accounting* module, including tax keys and distribution logic.
+    DATEV-compatible charts of accounts SKR03 and SKR04 with support for additional, individual charts of accounts. All charts of accounts are fully customizable in the *Accounting* module, including tax keys and distribution logic.
 
 - Extensive evaluations  
-  Various evaluations such as profit and loss accounts, business assessments, cost center and cost unit accounting as well as profit center can be individually configured and created in the module.
+    Various evaluations such as profit and loss accounts, business assessments, cost center and cost unit accounting as well as profit center can be individually configured and created in the module.
 
 - Accounting exports  
-  Data can be exported in standardized format for DATEV, SAP FICO, GDPdU or configured individually. Mapping functions for export to third-party systems are also available.
+    Data can be exported in standardized format for DATEV, SAP FICO, GDPdU or configured individually. Mapping functions for export to third-party systems are also available.
 
 - Fully automatic dunning  
-  The system recognizes open receipts and sends out fully automatic reminders.
+    The system recognizes open receipts and sends out fully automatic reminders.
 
   [comment]: <> (Isas Kommentar: Das könnte missverstanden werden. Der Mahnprozess muss schon manuell angestoßen werden. Weglassen?)
 

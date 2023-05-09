@@ -1,7 +1,5 @@
-[!!User Interface Supplier receipts](../UserInterface/01_Book.md#supplier-receipts)
-[!!Post a supplier receipt](../Operation/10_ManageReceipts.md#post-a-supplier-receipt)
-[!!Release a supplier receipt in Purchasing](../Operation/10_ManageReceipts.md#release-a-supplier-receipt-in-purchasing)
-
+[!!Manage receipts](../Operation/10_ManageReceipts.md)
+[!!User Interface Postings header](../UserInterface/01_Header.md)
 
 # Handle a non-releasable supplier receipt
 
@@ -16,7 +14,6 @@ Follow the instructions below to check and modify the supplier settings in the *
 #### Prerequisites
 
 No prerequisites to fulfill.
-
 
 #### Procedure
 

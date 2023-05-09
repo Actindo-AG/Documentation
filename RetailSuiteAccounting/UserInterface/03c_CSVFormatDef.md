@@ -1,3 +1,6 @@
+[!!User interface Import](./03a_Import.md)
+[!!User interface Export](./03b_Export.md)
+
 # CSV format definition
 
 *Accounting > Extras > Tab CSV FORMAT DEF.*
@@ -65,7 +68,6 @@ This list displays all fields available for the selected import/export definitio
 - *Escape character*  
     Enter the character to be used in escape sequences, that is, combinations of characters used to represent non-printable and special characters, such as tabs or new lines. By default, this field is preset to **\\** (backslash).
 
-
 - *Column name*  
     Click the drop-down list to select the export/import setting for column names. The following options are available:
     - **Yes**   
@@ -73,14 +75,12 @@ This list displays all fields available for the selected import/export definitio
     - **No**   
         No column name is included in the export/import.
 
-
 - *Date format*  
     Click the drop-down list to select the desired date and time format. The following options are available:
     - **DD[-./]MM[-./]YYYY HH:MM:SS**   
     - **YYYY-MM-DD HH:MM:SS**   
     - **MM/DD/YYYY HH:MM:SS**   
     - **YYYYMMDD**   
-
 
 - *Example data set*  
     An example of a data set with the current field definition is displayed. This field is read-only.
@@ -96,7 +96,6 @@ This list displays all fields available for the selected import/export definitio
     - **MacOS (\r)**  
     - **OS/390 (\x85)**
 
-
 - *Character set*  
     Click the drop-down list to select the applicable encoding. By default, this field is preset to **Automatic**. The following options are available:
     - **Automatic**   
@@ -107,7 +106,6 @@ This list displays all fields available for the selected import/export definitio
     - **Code page 850**  
     - **Apple Mac**
 
-
 - *Incorrect row end character*  
     Click the drop-down list to select the appropriate option. The following options are available:
     - **Ignore**   
@@ -115,15 +113,14 @@ This list displays all fields available for the selected import/export definitio
     - **Repair**   
         Any incorrect row end character is must be repaired.
 
-
 - *Number format*  
     Click the drop-down list to select the desired number format. The following options are available:
     - **100.000,00**   
     - **100,000.00**
 
-
 - [SAVE]  
     Click this button to save any changes.
+
 
 
 ## New import/export definition  
@@ -140,6 +137,7 @@ This list displays all fields available for the selected import/export definitio
 
 - [SAVE & NEW]  
     Click this button to save the new import/export definition. The *New import/export definition* window is closed. The new definition is displayed in the import/export definition drop-down list.  
+
 
 
 ## Rename import/export definition  
