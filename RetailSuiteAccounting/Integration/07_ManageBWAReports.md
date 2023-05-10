@@ -10,7 +10,7 @@ The business evaluation (BWA) is a reporting system based on company financial d
 
 You can create new BWA reports, copy and edit one of the predefined system reports or delete any report. All available reports can be fully customized.
 
-> [Note] Be aware that any deletion is permanent and cannot be undone, and that any changes made will overwrite the preset values.
+> [Info] Be aware that any deletion is permanent and cannot be undone, and that any changes made will overwrite the preset values.
 
 When customizing existing reports, bear in mind that the reports use the standard accounts set up in the *Accounting* module configuration process. For detailed information, see [Chart of accounts](./01_RunAccountingWizard.md#chart-of-accounts). If the accounts have been customized manually, they must be set up again individually for the BWA reports. Otherwise, they will not be recognized by the BWA reports.
 
@@ -94,7 +94,7 @@ You can add report lines to a BWA report.
     - **Sum**  
     - **Don't show**  
 
-[comment]: <> (Info fehlt! Alle/Fast alle Zeilen in bestehenden Berichten sind Normal. Was passiert mit Sum und Don't show? Rücksprache mit Isa. DE = Grafik. Keine Info auf der Webseite.)
+[comment]: <> (Sum and don't show? Warte auf Feedback von Patrick. Alternativtext: Click the *Chart type* drop-down list and select the **Normal** option. The options **Sum** and **Don't show** are currently not supported.)
 
 6. Enter the line description in the *Text* field.
 
@@ -106,7 +106,8 @@ You can add report lines to a BWA report.
       Select this option to enter a calculation formula. When selecting this option, the *Formula* field becomes active.  
     - **Assessment**  
 
-[comment]: <> (Info fehlt! Rücksprache mit Isa)
+
+[comment]: <> (Info fehlt! Feedback von Patrick. Alternativtext: ...select **Text only** if the line contains just text or **Calculation**, if you wish to add a formula. The *Formula* field becomes active.)
 
 8. If the **Calculation** option has been previously selected, enter the applicable formula in the *Formula* field to calculate the value to be output in the report line. The basic calculating operations (+, -, *, /) are permitted.
 
@@ -133,22 +134,21 @@ You can add report lines to a BWA report.
     |_bs(from, to[, from, to][, from, to]...)| Block DEBIT | 
     |                 | Several from - to combinations can be specified here. If this block of account numbers is in DEBIT, the function provides a balance, otherwise "0" is displayed.|
 
-9. If necessary, activate the toggle button(s) in the *Percent / Columns* field and enter the applicable formula(s) in the *Formula* field(s). Up to four applicable formulas can be added per line.
-
-[comment]: <> (RS mit Isa. Webseite: Für jede BWA können Sie max. 4 Prozent-Spalten einfügen. Der Prozentsatz bezieht sich auf den Gesamtumsatz. Wählen Sie eine Spalte an und klicken Sie auf Formel, um die Formel einzugeben.)
+9. If necessary, activate the toggle button(s) in the *Percent / Columns* field and enter the applicable formula(s) in the *Formula* field(s). The percentage relates to the overall turnover. Up to four applicable formulas can be added per line.
 
 10. Click the [SAVE] button.  
-    The new report lines have been added to the BWA report.
+    The new report line has been added to the BWA report.
 
-[comment]: <> (Kommentar ISA: Beschreibung zu kurz, um eine BWA bauen zu können. Hier sollten unbedingt noch Teile aus der alten Dokumentation aufgenommen werden, insbesondere die Formel-Funktionen. https://www.actindo.com/de/doku/app-hilfe/handbuch/retailsuiteaccounting/latest/Einstellungen/Zuordnung-BWA/Zuordnung_BWA.html)
+11. Repeat this procedure to add as many lines as necessary to create your BWA report. 
 
+    > [Info] Creating a new BWA report from scratch can be very complex. For this reason, it is recommended to use one of the predefined BWA reports as a basis and edit it to adjust it to your needs, see [Copy a predefined BWA report](#copy-a-predefined-bwa-report).
 
 
 ## Edit a BWA report
 
 You can edit a BWA report to make any necessary changes, for example, change the report name and layout, as well as add, edit or delete report lines. To add report lines, see [Add report lines](#add-report-lines).
 
-> [Note] Be aware that any changes made to a BWA report will overwrite the existing values. If you are taking one of the predefined system reports as a basis, it is highly recommended to make a copy of it first. For detailed information, see [Copy a BWA report](#copy-a-bwa-report).
+> [Info] Be aware that any changes made to a BWA report will overwrite the existing values. If you are taking one of the predefined system reports as a basis, it is highly recommended to make a copy of it first. For detailed information, see [Copy a BWA report](#copy-a-bwa-report).
 
 #### Prerequisites
 
@@ -167,25 +167,26 @@ A fiscal year has been selected, see [Select the fiscal year](../Operation/01_Se
 
 2. If desired, click the *Report name* field and edit the name of the BWA report.
 
-3. Click the *Columns* button in the right upper corner in the *Accounting report lines*  section.   
-    The columns bar is displayed. You can add or delete columns, and change their order by clicking and moving them with the mouse.
+3. Click the accounting report line to be edited.  
+    The *Edit* section is displayed. 
+    
+    ![Edit report line](../../Assets/Screenshots/RetailSuiteAccounting/Settings/BWAAssignment/EditReportLines.png "[Edit report line]")
+    
+    For detailed information, see [Edit report lines](../UserInterface/02i_BWAAssignment.md#edit-report-line).  
 
-    ![Edit BWA report layout](../../Assets/Screenshots/RetailSuiteAccounting/Settings/BWAAssignment/EditBWAReportLayout.png "[Edit BWA report layout]")
+    > [Caution] **Potential loss of data**   
+    Editing has the potential to cause loss of data due to overwrite. The overwrite cannot be undone and the overwritten data cannot be restored.    
+    Check all your entries before proceeding.
 
-4. Click the [APPLY] button.   
-    The changes are applied.
-
-5. Click the accounting report line to be edited.  
-    The *Edit* section is displayed. For detailed information, see [Edit report lines](../UserInterface/02i_BWAAssignment.md#edit-report-lines).  
-
-    > [Note] Be aware that any changes made to a BWA report will overwrite the existing values.
-
-6. If necessary, you can also delete accounting report lines. To do so, select the report line to be deleted by clicking the checkbox on the left.  
+4. If necessary, you can also delete accounting report lines. To do so, select the report line to be deleted by clicking the checkbox on the left.  
     The toolbar is displayed.
 
-    > [Note] Be aware that the selected accounting report line will be deleted permanently.
+    > [Caution] **Loss of data**   
+    Deleting will permanently remove the selected data. The deletion cannot be undone and the deleted data cannot be restored.       
+    Problems may occur due to unresolved dependencies.   
+    Make sure you really want to delete the selected data.
 
-7. Click the ![Delete](../../Assets/Icons/Trash03.png "[Delete]") (Delete) button in the toolbar to delete the selected accounting report line.  
+5. Click the ![Delete](../../Assets/Icons/Trash03.png "[Delete]") (Delete) button in the toolbar to delete the selected accounting report line.  
     The selected accounting report line is deleted.
 
 8. Click the [SAVE] button in the upper right corner.   
@@ -270,7 +271,10 @@ You can delete a BWA report if it is no longer needed, either one of the predefi
 1. Select the BWA report to be deleted by clicking the checkbox on the left.    
     The toolbar is displayed above the *Accounting reports* list.
 
-    > [Note] Be aware that the existing BWA report will be deleted permanently.
+    > [Caution] **Loss of data**   
+    Deleting will permanently remove the selected data. The deletion cannot be undone and the deleted data cannot be restored.       
+    Problems may occur due to unresolved dependencies.   
+    Make sure you really want to delete the selected data.
 
 2. Click the ![Delete](../../Assets/Icons/Trash03.png "[Delete]") (Delete) button in the toolbar.  
     The selected BWA report is deleted and no longer displayed in the *Accounting reports* list.

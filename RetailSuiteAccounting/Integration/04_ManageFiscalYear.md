@@ -81,7 +81,9 @@ You can edit an available fiscal year, for example if a setting must be changed.
 1. Click the fiscal year to be edited.   
     The data for the selected fiscal year are displayed in the corresponding fields at the bottom.
 
-    > [Note] Be aware that any changes made to a fiscal year will overwrite the preset values.
+    > [Caution] **Potential loss of data**   
+    Editing has the potential to cause loss of data due to overwrite. The overwrite cannot be undone and the overwritten data cannot be restored.    
+    Check all your entries before proceeding.
 
 2. Edit the fields as appropriate.
 
@@ -108,7 +110,11 @@ You can delete a fiscal year, for example if it is no longer applicable.
 ![Delete a fiscal year](../../Assets/Screenshots/RetailSuiteAccounting/Settings/FiscalYears/EditFiscalYear.png "[Delete a fiscal year]")
 
 1. Select the fiscal year to be deleted.
-    > [Note] Be aware that the fiscal year will be deleted permanently.
+
+    > [Caution] **Loss of data**   
+    Deleting will permanently remove the selected data. The deletion cannot be undone and the deleted data cannot be restored.       
+    Problems may occur due to unresolved dependencies.   
+    Make sure you really want to delete the selected data.
 
 2. Click the [DELETE] button.  
     A confirmation window warns about a potential loss of data. Click [OK] if you want to proceed. A small pop-up confirms that the fiscal year has been deleted. The deleted fiscal year is no longer displayed in the list.

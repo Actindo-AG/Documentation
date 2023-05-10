@@ -85,7 +85,9 @@ A fiscal year has been selected, see [Select the fiscal year](../Operation/01_Se
 1. Select the tax key to be edited.   
     The data for the selected tax key are displayed in the corresponding fields at the bottom.
 
-    > [Note] Be aware that any changes made to a tax key will overwrite the preset values.
+    > [Caution] **Potential loss of data**   
+    Editing has the potential to cause loss of data due to overwrite. The overwrite cannot be undone and the overwritten data cannot be restored.    
+    Check all your entries before proceeding.
 
 2. Edit the fields as appropriate.  
 
@@ -102,7 +104,7 @@ A fiscal year has been selected, see [Select the fiscal year](../Operation/01_Se
 
 You can delete a tax key, for example if it is no longer applicable. 
 
-> [Info] Be aware that the tax key will be deleted permanently. If you want to limit the applicability of a tax key, it is recommended to specify a validity period in the *Valid from* and *to* fields instead. 
+> [Info] Note that the tax key will be deleted permanently. If you want to limit the applicability of a tax key, it is recommended to specify a validity period in the *Valid from* and *to* fields instead. 
 
 #### Prerequisites
 
@@ -117,7 +119,10 @@ A fiscal year has been selected, see [Select the fiscal year](../Operation/01_Se
 1. Select the tax key to be deleted.  
     The data for the selected tax key are displayed in the corresponding fields at the bottom.  
 
-    > [Note] Be aware that the tax key will be deleted permanently. 
+    > [Caution] **Loss of data**   
+    Deleting will permanently remove the selected data. The deletion cannot be undone and the deleted data cannot be restored.       
+    Problems may occur due to unresolved dependencies.   
+    Make sure you really want to delete the selected data. 
 
 2. Click the [DELETE] button.  
     A small pop-up window confirms that the tax key has been deleted. The deleted tax key is no longer displayed in the list.

@@ -113,7 +113,7 @@ The input fields below allow to create, edit or delete tax keys. For detailed in
 - [DELETE]  
     Click this button to delete the selected tax key. The button is only unlocked if an account has been selected. For detailed information, see [Delete a tax key](../Integration/02_ManageTaxKeys.md#delete-a-tax-key).
 
-    > [Warning] **Loss of data**   
+    > [Caution] **Loss of data**   
     Deleting will permanently remove the selected data. The deletion cannot be undone and the deleted data cannot be restored.       
     Problems may occur due to unresolved dependencies.   
     Make sure you really want to delete the selected data.

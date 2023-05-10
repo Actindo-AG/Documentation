@@ -77,7 +77,7 @@ You can edit a follow-on posting, for example if the factor needs to be updated.
 1. Select the follow-on posting to be edited.  
     The follow-on posting details are displayed in the input fields.
 
-    > [Caution] Be aware that any changes made to a follow-on posting will overwrite the preset values.
+    > [Info] Be aware that any changes made to a follow-on posting will overwrite the preset values.
 
     ![Edit follow-on postings](../../Assets/Screenshots/RetailSuiteAccounting/Settings/FollowOnBookings/EditFollowOnBooking.png "[Edit follow-on postings]")
 
@@ -110,7 +110,10 @@ You can delete a follow-on posting, for example if it is no longer applicable.
 1. Select the follow-on posting to be deleted.  
     The follow-on posting details are displayed in the input fields.
 
-    > [Caution] Be aware that the follow-on posting will be deleted permanently.
+    > [Caution] **Loss of data**   
+    Deleting will permanently remove the selected data. The deletion cannot be undone and the deleted data cannot be restored.       
+    Problems may occur due to unresolved dependencies.   
+    Make sure you really want to delete the selected data.
 
     ![Edit follow-on postings](../../Assets/Screenshots/RetailSuiteAccounting/Settings/FollowOnBookings/EditFollowOnBooking.png "[Edit follow-on postings]")
 

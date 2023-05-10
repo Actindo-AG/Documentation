@@ -138,7 +138,7 @@ Depending on the selected option, the following displayed fields and options var
 For the other options in the *File content* drop-down list, no import definitions are predefined. The import definitions can be defined or edited by clicking the [Edit] button to the right of the drop-down list.
 
 - [Edit]  
-    Click this button to edit the selected import definition or to create a new one. The *Import/export definitions* window is displayed, see [Import/export definitions](#importexport-definitions).
+    Click this button to edit the selected import definition or to create a new one. The *Import/export definitions* window is displayed, see [Import/export definitions](#import/export-definitions).
 
 - *eBay debtor*   
     Enter the debtor number. This field is only displayed when the **eBay sales history** option is selected in the *File content* drop-down list.
@@ -301,7 +301,7 @@ For the other options in the *File content* drop-down list, no import definition
 The import definitions can be defined or edited by clicking the [Edit] button to the right of the drop-down list.
 
 - [Edit]  
-    Click this button to edit the selected import definition or to create a new one. The *Import/export definitions* window is displayed, see [Import/export definitions](#importexport-definitions).
+    Click this button to edit the selected import definition or to create a new one. The *Import/export definitions* window is displayed, see [Import/export definitions](#import/export-definitions).
 
 [comment]: <> (Andere Optionen abhängig von Einstellungen/Kunden/Plugins usw.? Faktura: Belege neu/Invoicing: new receipts weglassen?)
 

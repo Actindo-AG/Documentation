@@ -8,9 +8,9 @@
 ![CSV format definition](../../Assets/Screenshots/RetailSuiteAccounting/Extras/CSVFormatDef/CSVFormatDef.png "[CSV format definition]")
 
 > [Info] This tab can also be accessed in the *Import/export definitions* window via the following tabs in the user interface:
-- [IMPORT](./03a_Import.md#importexport-definitions)
-- [EXPORT](./03b_Export.md#importexport-definitions)
-- [DEBTORS/CREDITORS](./02a_DebtorsCreditors.md#importexport-definitions)
+- [IMPORT](./03a_Import.md#import/export-definitions)
+- [EXPORT](./03b_Export.md#import/export-definitions)
+- [DEBTORS/CREDITORS](./02a_DebtorsCreditors.md#import/export-definitions)
 
 **Name**
 
@@ -21,10 +21,10 @@
     Click the drop-down list to select the desired import/export definition. All available definitions are displayed in the list. The options displayed vary depending on the option selected in the import/export definition type drop-down list.
 
 - [ADD]  
-    Click this button to create an import/export definition. The *New import/export definition* window is displayed, see [New import/export definition](#new-importexport-definition).
+    Click this button to create an import/export definition. The *New import/export definition* window is displayed, see [New import/export definition](#new-import/export-definition).
 
 - [EDIT]  
-    Click this button to rename an import/export definition. The *Rename import/export definition* is displayed, see [Rename import/export definition](#rename-importexport-definition).
+    Click this button to rename an import/export definition. The *Rename import/export definition* is displayed, see [Rename import/export definition](#rename-import/export-definition).
 
 - [DELETE]  
     Click this button to delete an import/export definition. A confirmation window is displayed. Click the [OK] button to confirm the deletion or click the [CANCEL] button to cancel the deletion.

@@ -117,7 +117,10 @@ You can delete a cost center, for example if it is no longer applicable.  If a d
 2. Select the cost center to be deleted in the list.  
     The cost center details are displayed in the input fields.
 
-    > [Caution] Be aware that the cost center will be deleted permanently.
+    > [Caution] **Loss of data**   
+    Deleting will permanently remove the selected data. The deletion cannot be undone and the deleted data cannot be restored.       
+    Problems may occur due to unresolved dependencies.   
+    Make sure you really want to delete the selected data.
 
     ![Delete cost center](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CostAccounting/EditCostCenter.png "[Delete cost center]")
 
@@ -239,7 +242,10 @@ You can delete a cost object, for example if it is no longer applicable. If a po
 2. Select the cost object to be deleted in the list.  
     The cost object details are displayed in the input fields.
 
-    > [Caution] Be aware that the cost object will be deleted permanently.
+    > [Caution] **Loss of data**   
+    Deleting will permanently remove the selected data. The deletion cannot be undone and the deleted data cannot be restored.       
+    Problems may occur due to unresolved dependencies.   
+    Make sure you really want to delete the selected data.
 
     ![Delete cost object](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CostAccounting/EditCostObject.png "[Delete cost object]")
 

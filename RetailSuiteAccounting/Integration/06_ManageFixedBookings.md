@@ -180,7 +180,7 @@ You can delete a fixed posting in a fixed posting batch.
 2. Click the fixed posting to be deleted.
     The details of the selected fixed posting are displayed in the input fields.
 
-    > [Note] Be aware that the fixed posting will be deleted permanently from the fixed postings batch. The fixed posting itself, however, will not be deleted from the system and will continue to be displayed in the *POSTINGS* tab.
+    > [Info] Note that the fixed posting will be deleted permanently from the fixed postings batch. The fixed posting itself, however, will not be deleted from the system and will continue to be displayed in the *POSTINGS* tab.
 
 3. Click the [DELETE] button.  
     A confirmation window is displayed.  
@@ -217,7 +217,7 @@ You can delete a fixed posting batch if it is no longer applicable.
 
     ![Fixed posting batch](../../Assets/Screenshots/RetailSuiteAccounting/Settings/FixedBookings/EditFixedBooking.png "[Fixed posting batch]")
 
-    > [Note] Be aware that the selected fixed posting batch will be deleted permanently. The postings contained in it, however, will not be deleted but will still be displayed in the *POSTINGS* tab.
+    > [Info] Note that the selected fixed posting batch will be deleted permanently. The postings contained in it, however, will not be deleted but will still be displayed in the *POSTINGS* tab.
 
 2. Click the [DELETE] button.  
     A confirmation window is displayed.

@@ -220,7 +220,7 @@ The list displays all available BMD tax mappings. Depending on the settings, the
     For the other options in the *File content* drop-down list, no export definitions are predefined. The export definitions can be defined or edited by clicking the [Edit] button to the right of the drop-down list.
 
 - [Edit]  
-    Click this button to edit the selected export definition or to create a new one. The *Import/export definitions* window is displayed, see [Import/export definitions](#importexport-definitions).
+    Click this button to edit the selected export definition or to create a new one. The *Import/export definitions* window is displayed, see [Import/export definitions](#import/export-definitions).
 
 - *Export*  
     Click the drop-down list to select the specific data to be exported. The drop-down list is only displayed when the**Customers/suppliers** option is selected in the *File content* drop-down list. The following options are available:  
@@ -561,7 +561,7 @@ The list displays all available BMD tax mappings. Depending on the settings, the
     Click the drop-down list to select the appropriate export definition. All available export definitions are displayed in the list.   
     The export definitions can be defined or edited by clicking the [Edit] button to the right of the drop-down list.
 - [Edit]  
-    Click this button to edit the selected export definition or to create a new one. The *Import/export definitions* window is displayed, see [Import/export definitions](#importexport-definitions).
+    Click this button to edit the selected export definition or to create a new one. The *Import/export definitions* window is displayed, see [Import/export definitions](#import/export-definitions).
 
 - [CONTINUE]  
     Click this button to proceed to the next step. The *Open items: Step 2* window is displayed. The *Export...* notice is displayed during the export process.

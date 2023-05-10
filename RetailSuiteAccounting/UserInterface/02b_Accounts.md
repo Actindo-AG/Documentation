@@ -200,7 +200,7 @@ The input fields below allow to create, edit or delete accounts. For detailed in
 - [DELETE]  
     Click this button to delete the selected account. The button is only unlocked if an account has been selected. For detailed information, see [Delete an account](../Integration/03_ManageAccounts.md#delete-an-account).
 
-    > [Warning] **Loss of data**   
+    > [Caution] **Loss of data**   
     Deleting will permanently remove the selected data. The deletion cannot be undone and the deleted data cannot be restored.       
     Problems may occur due to unresolved dependencies.   
     Make sure you really want to delete the selected data.

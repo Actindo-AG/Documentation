@@ -76,7 +76,7 @@ The input fields below allow to create, edit or delete fiscal years. For detaile
 - [DELETE]  
     Click this button to delete the selected fiscal year. The button is only unlocked if a fiscal year has been selected. For detailed information, see [Delete a fiscal year](../Integration/04_ManageFiscalYear.md#delete-a-fiscal-year).
 
-    > [Warning] **Loss of data**   
+    > [Caution] **Loss of data**   
     Deleting will permanently remove the selected data. The deletion cannot be undone and the deleted data cannot be restored.       
     Problems may occur due to unresolved dependencies.   
     Make sure you really want to delete the selected data.

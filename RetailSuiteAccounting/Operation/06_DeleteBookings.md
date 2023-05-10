@@ -13,8 +13,6 @@ It is possible to delete a single posting or to delete multiple postings at once
 
 Delete a single posting from the postings list.
 
-> [Warning] Be aware that any deletion is permanent and cannot be undone.
-
 #### Prerequisites
 
 - A fiscal year has been selected, see [Select fiscal year](./01_SelectFiscalYear.md).
@@ -29,7 +27,10 @@ Delete a single posting from the postings list.
 1. Select the posting to be deleted in the postings list.  
     The posting details are displayed in the input line fields.
 
-    > [Warning] Be aware that the selected posting will be deleted permanently.
+    > [Caution] **Loss of data**   
+    Deleting will permanently remove the selected data. The deletion cannot be undone and the deleted data cannot be restored.       
+    Problems may occur due to unresolved dependencies.   
+    Make sure you really want to delete the selected data.
 
 2. Click the [DELETE] button.  
     A confirmation window is displayed.
@@ -70,7 +71,10 @@ Delete several postings simultaneously from the postings list.
 
 4. Enter the number range of the postings to be deleted in the *Seq. numbers* field.
 
-    > [Warning] Be aware that the selected postings will be deleted permanently.
+    > [Caution] **Loss of data**   
+    Deleting will permanently remove the selected data. The deletion cannot be undone and the deleted data cannot be restored.       
+    Problems may occur due to unresolved dependencies.   
+    Make sure you really want to delete the selected data.
 
 5. Click the [DELETE] button.   
     The selected postings have been deleted.

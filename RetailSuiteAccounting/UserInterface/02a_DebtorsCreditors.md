@@ -1512,7 +1512,7 @@ Depending on the supplier selected, the sections and fields displayed may slight
     - **GLS Gepard**
 
 - [EDIT]  
-    Click this button to edit the export definition or add a new one. The *Import/export definitions* window is displayed, see [Import/export definitions](#importexport-definitions).
+    Click this button to edit the export definition or add a new one. The *Import/export definitions* window is displayed, see [Import/export definitions](#import/export-definitions).
 
 - *Export file name*  
     Enter the export file name.
@@ -1644,7 +1644,7 @@ Depending on the supplier selected, the sections and fields displayed may slight
     - **DHL Easylog**
 
 - [EDIT]  
-    Click this button to edit the import definition or add a new one. The *Import/export definitions* window is displayed, see [Import/export definitions](#importexport-definitions).
+    Click this button to edit the import definition or add a new one. The *Import/export definitions* window is displayed, see [Import/export definitions](#import/export-definitions).
 
 - *Import file name*  
     Enter the import file name.

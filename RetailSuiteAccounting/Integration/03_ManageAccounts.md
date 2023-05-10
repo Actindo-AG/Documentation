@@ -5,7 +5,7 @@
 
 The accounts are set up during the configuration process via the accounting wizard, see [Chart of accounts](./01_RunAccountingWizard.md#chart-of-accounts). However, you can create, edit or delete an account, for example if a specific account is not yet available in the system or the settings of an account need to be adjusted.
 
-> [Note] Any modifications in the accounts have far-reaching consequences for the *Accounting* module and the system automatic postings. It is highly recommended not to make any changes in the accounts, unless you have an in-depth knowledge of their functions. In case of doubt, please contact our customer support.
+> [Info] Any modifications in the accounts have far-reaching consequences for the *Accounting* module and the system automatic postings. It is highly recommended not to make any changes in the accounts, unless you have an in-depth knowledge of their functions. In case of doubt, please contact our customer support.
 
 
 
@@ -105,7 +105,9 @@ A fiscal year has been selected, see [Select the fiscal year](../Operation/01_Se
 2. Select the account to be edited.  
     The data for the selected account are displayed in the corresponding fields at the bottom.
 
-    > [Note] Be aware that any changes made to an account will overwrite the preset values.
+    > [Caution] **Potential loss of data**   
+    Editing has the potential to cause loss of data due to overwrite. The overwrite cannot be undone and the overwritten data cannot be restored.    
+    Check all your entries before proceeding.
 
 3. Edit the fields as appropriate.
 
@@ -132,7 +134,10 @@ A fiscal year has been selected, see [Select the fiscal year](../Operation/01_Se
 
 1. Select the account to be deleted.
 
-    > [Note] Be aware that the account will be deleted permanently.
+    > [Caution] **Loss of data**   
+    Deleting will permanently remove the selected data. The deletion cannot be undone and the deleted data cannot be restored.       
+    Problems may occur due to unresolved dependencies.   
+    Make sure you really want to delete the selected data.
 
 2. Click the [DELETE] button.  
     A small pop-up window confirms that the account has been deleted. The deleted account is no longer displayed in the list.

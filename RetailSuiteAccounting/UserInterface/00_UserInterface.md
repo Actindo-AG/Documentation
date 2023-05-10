@@ -160,7 +160,7 @@ In this part of the *Accounting* documentation, you will find the following chap
     - [Schilling Accounting](./03a_Import.md#schilling-accounting)
         - [Schilling Accounting: Step 1](./03a_Import.md#schilling-accounting-step-1)
         - [Schilling Accounting: Step 2](./03a_Import.md#schilling-accounting-step-2)
-    - [Import/export definitions](./03a_Import.md#importexport-definitions)
+    - [Import/export definitions](./03a_Import.md#import/export-definitions)
     - [Select file](./03a_Import.md#select-file)
 
 - [EXPORT](./03b_Export.md)
@@ -209,7 +209,7 @@ In this part of the *Accounting* documentation, you will find the following chap
         - [Zahlwerk: Step 1](./03b_Export.md#zahlwerk-step-1)
         - [Zahlwerk: Step 2](./03b_Export.md#zahlwerk-step-2)
         - [Zahlwerk: Step 3](./03b_Export.md#zahlwerk-step-3)
-    - [Import/export definitions](./03a_Import.md#importexport-definitions)
+    - [Import/export definitions](./03a_Import.md#import/export-definitions)
 
 - [CSV format definition](./03c_CSVFormatDef.md)
     - [New import/export definition](./03c_CSVFormatDef.md#new-importexport-definition)

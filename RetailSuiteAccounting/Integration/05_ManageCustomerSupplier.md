@@ -74,7 +74,9 @@ You can edit a customer/supplier, for example, if certain data need to be change
 1. Double click the customer or supplier to be edited.   
     The *Customer/Supplier (XXXXX)* tab with the corresponding customer/supplier number is displayed. By default, the *Address/Contact* sub-tab is preselected. The data for the selected customer/supplier are displayed in the corresponding fields.
 
-    > [Warning] Be aware that any changes made to a customer/supplier will overwrite the existing values.
+    > [Caution] **Potential loss of data**   
+    Editing has the potential to cause loss of data due to overwrite. The overwrite cannot be undone and the overwritten data cannot be restored.    
+    Check all your entries before proceeding.
 
 2. Edit the desired fields in the sub-tab.   
 
@@ -111,7 +113,10 @@ You can delete a customer/supplier, for example if it is no longer applicable.
 
 1. Double click the customer or supplier to be deleted.
 
-    > [Warning] Be aware that the customer/supplier will be deleted permanently.
+    > [Caution] **Loss of data**   
+    Deleting will permanently remove the selected data. The deletion cannot be undone and the deleted data cannot be restored.       
+    Problems may occur due to unresolved dependencies.   
+    Make sure you really want to delete the selected data.
 
 2. Click the [DELETE CUSTOMER/SUPPLIER (XXXX)] button.  
     A confirmation window is displayed.
