@@ -6,7 +6,7 @@
 
 [comment]: <> (BWA reports or Accounting Reports? See Accounting Reports view -> ZUORDNUNG BWA tab)
 
-The business evaluation (BWA) is a reporting system based on company financial data and provides information about the company's current cost and revenue situation and, consequently, its  profitability. BWA reports are similar to monthly P&L and serve as a basis for managerial future decisions, and they are widely used by capital investors and credit institutions for company assessment. BWA provides important information for the controlling of the company.
+The business evaluation (BWA) is a reporting system based on company financial data and provides information about the company's current cost and revenue situation and, consequently, its  profitability. BWA reports serve as a basis for managerial future decisions, and they are widely used by capital investors and credit institutions for company assessment. BWA provides important information for the controlling of the company.
 
 You can create new BWA reports, copy and edit one of the predefined system reports or delete any report. All available reports can be fully customized.
 
@@ -66,7 +66,7 @@ You can add report lines to a BWA report.
 
     ![Add report lines](../../Assets/Screenshots/RetailSuiteAccounting/Settings/BWAAssignment/AddReportLines.png "[Add report lines]")
 
-    > [Info] If a newly added BWA report is selected, the notice *No report lines created. Use + button to create one* is displayed. If the selected BWA report already contains report lines, they are displayed in this section.  
+    > [Info] If a newly added BWA report is selected, the *No report lines created. Use + button to create one* notice is displayed. If the selected BWA report already contains report lines, they are displayed in this section.  
 
 2. Click the ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) button in the bottom right corner.  
     The *Create* section is displayed.
@@ -134,21 +134,22 @@ You can add report lines to a BWA report.
     |_bs(from, to[, from, to][, from, to]...)| Block DEBIT | 
     |                 | Several from - to combinations can be specified here. If this block of account numbers is in DEBIT, the function provides a balance, otherwise "0" is displayed.|
 
-9. If necessary, activate the toggle button(s) in the *Percent / Columns* field and enter the applicable formula(s) in the *Formula* field(s). The percentage relates to the overall turnover. Up to four applicable formulas can be added per line.
+9. If desired, activate a toggle button in the *Percent / Columns* field and enter the applicable formula in the *Formula* field. For every BWA report, you can add up to four percent columns. The formula **(_l(1))**, for instance, calculates the percentage of the item expressed in line **1** in relation to the overall turnover. 
 
 10. Click the [SAVE] button.  
     The new report line has been added to the BWA report.
 
 11. Repeat this procedure to add as many lines as necessary to create your BWA report. 
 
-    > [Info] Creating a new BWA report from scratch can be very complex. For this reason, it is recommended to use one of the predefined BWA reports as a basis and edit it to adjust it to your needs, see [Copy a predefined BWA report](#copy-a-predefined-bwa-report).
+    > [Info] Creating a BWA report is extremely complex. All relevant accounts must be specified and no duplicates must be included, otherwise the calculations will be distorted.   
+    To simplify the process, it is recommended to use one of the predefined BWA reports as a basis and edit it to adjust it to your needs, see [Copy a predefine BWA report](#copy-a-predefined-bwa-report).
 
 
 ## Edit a BWA report
 
 You can edit a BWA report to make any necessary changes, for example, change the report name and layout, as well as add, edit or delete report lines. To add report lines, see [Add report lines](#add-report-lines).
 
-> [Info] Be aware that any changes made to a BWA report will overwrite the existing values. If you are taking one of the predefined system reports as a basis, it is highly recommended to make a copy of it first. For detailed information, see [Copy a BWA report](#copy-a-bwa-report).
+> [Info] Be aware that any changes made to a BWA report will overwrite the existing values. If you are using one of the predefined system reports as a basis, it is highly recommended to make a copy of it first. For detailed information, see [Copy a BWA report](#copy-a-bwa-report).
 
 #### Prerequisites
 
@@ -168,12 +169,10 @@ A fiscal year has been selected, see [Select the fiscal year](../Operation/01_Se
 2. If desired, click the *Report name* field and edit the name of the BWA report.
 
 3. Click the accounting report line to be edited.  
-    The *Edit* section is displayed. 
+    The *Edit* section is displayed. For detailed information, see [Edit report lines](../UserInterface/02i_BWAAssignment.md#edit-report-line).  
     
     ![Edit report line](../../Assets/Screenshots/RetailSuiteAccounting/Settings/BWAAssignment/EditReportLines.png "[Edit report line]")
     
-    For detailed information, see [Edit report lines](../UserInterface/02i_BWAAssignment.md#edit-report-line).  
-
     > [Caution] **Potential loss of data**   
     Editing has the potential to cause loss of data due to overwrite. The overwrite cannot be undone and the overwritten data cannot be restored.    
     Check all your entries before proceeding.
@@ -227,7 +226,7 @@ A fiscal year has been selected, see [Select the fiscal year](../Operation/01_Se
     - **Monthly balance**
 
 3. Click the [COPY] button.  
-    The copied report is displayed in the *Accounting reports* list.
+    The copied report is displayed in the *Accounting reports* list. The word *(Copy)* has been added after the report name.
 
 
 ### Copy a custom BWA report
@@ -249,7 +248,7 @@ You can make a copy of a self-created BWA report.
     The toolbar is displayed above the *Accounting reports* list.
 
 2. Click the ![Copy](../../Assets/Icons/Copy02.png "[Copy]") (Copy) button in the upper right corner.  
-    The copied report is displayed in the *Accounting reports* list.
+    The copied report is displayed in the *Accounting reports* list. The word *(Copy)* has been added after the report name.
 
 
 
