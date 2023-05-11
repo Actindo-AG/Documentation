@@ -134,7 +134,9 @@ You can add report lines to a BWA report.
     |_bs(from, to[, from, to][, from, to]...)| Block DEBIT | 
     |                 | Several from - to combinations can be specified here. If this block of account numbers is in DEBIT, the function provides a balance, otherwise "0" is displayed.|
 
-9. If desired, activate a toggle button in the *Percent / Columns* field and enter the applicable formula in the *Formula* field. For every BWA report, you can add up to four percent columns. The formula **(_l(1))**, for instance, calculates the percentage of the item expressed in line **1** in relation to the overall turnover. 
+9. If desired, activate the first toggle button in the *Percent / Columns* field and enter the applicable formula in the *Formula* field. For every BWA report, you can add up to four percent columns. The formula **(_l(1))**, for instance, calculates the percentage of the item expressed in line **1** in relation to the overall turnover. 
+
+[comment]: <> (to be corrected. S. Isas chat)
 
 10. Click the [SAVE] button.  
     The new report line has been added to the BWA report.

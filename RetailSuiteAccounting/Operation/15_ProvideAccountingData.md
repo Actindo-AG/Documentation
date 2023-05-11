@@ -165,7 +165,7 @@ A fiscal year is selected, see [Select a fiscal year](./01_SelectFiscalYear.md).
 
     ![Export GDPdU: Step 3](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Export/GDPdU03.png "[Export GDPdU: Step 3]")
 
-10.  Click the zip file.  
+10. Click the zip file.  
     The zip file has been downloaded.
 
     > [Info] By default, the downloaded export file is saved in the *Downloads* folder of your device.
@@ -228,6 +228,6 @@ A fiscal year has been selected, see [Select a fiscal year](./01_SelectFiscalYea
     - **Yes**
 
 10. Click the [PRINT] button.  
-    The PDF creation has been started. The *Printing BWA* window is displayed. An *Printing BWA* notice and a loading icon are displayed in the window. When finished, the PDF file is displayed in the window.
+    The PDF creation has been started. The *Printing BWA* window is displayed. A *Printing BWA* notice and a loading icon are displayed in the window. When finished, the PDF file is displayed in the window.
 
     ![Printing BWA](../../Assets/Screenshots/RetailSuiteAccounting/Book/PrintingBWA.png "[Printing BWA]")
