@@ -1,5 +1,5 @@
 # General information
-The automatic processing and booking of payments are important success and efficiency factors for companies. This applies in particular if you receive orders from several sales channels and offer different payment methods via external service providers. By linking the *Accounting* and *Payments* Modules, the *Actindo Core1 Platform* enables a holistic automated process flow from the receipt of payments to the final allocation of incoming payments. The *Payments* Module acts as a link between payment providers and Actindo Accounting.      
+The automatic processing and booking of payments are important success and efficiency factors for companies. This is especially true if you receive orders from several sales channels and offer different payment methods via external service providers. By linking the *Accounting* and *Payments* Modules, the *Actindo Core1 Platform* enables a holistic automated process flow from the receipt of payments to the final allocation of incoming payments. The *Payments* Module acts as a link between payment providers and Actindo Accounting.      
 
 
 This documentation refers to the *Payments* module version 4.1.0. There may be differences in the user interface, features, and operation if your *Payments* module is installed in a different version.

@@ -1,14 +1,16 @@
 # Monitor refunds
 
-The most payment service providers create a new reference, when a payment has been refunded. This means that the reference ID of a payment and capture ticket has been changed in this case and you will not be able to identify the transaction here with the payment and captures ticket ID.   
-You can use this procedure to display all incoming referencies to a refund from a payment service provider. You can check for communication errors between Actindo and the payment service provider that has been caused in a termination of a workflow, for example. In addition, if applicable, you can manually change the status of a ticket to *void* to clear the database.    
+A refund is a repayment of a capture. It is initialized by the trader, for example, if a product is not available and cannot be delivered.   
+> [Info] The most payment service providers create a new reference when a payment has been refunded. This means that the reference ID of a capture transaction has been changed in this case and you will not be able to identify the transaction here with the payment and captures transaction ID.   
+
+You can use this procedure to display all incoming references to a refund from a payment service provider. You can check for communication errors between Actindo and the payment service provider that has been caused in a termination of a workflow, for example. In addition, if applicable, you can manually change the status of a transaction to *void* to clear the database.    
    
 If everything works fine with the posting of a refund, you do not need to monitor the *Refunds* menu entry.   
 
-## Check refund ticket
+## Check a refund transaction
 
-A refund ticket provides numerous payment-related details, which may vary depending on the payment service provider settings. To decide whether you can manually void a refund ticket, you need to check its details.   
-> [Info] You can only change the status of a refund ticket, but not any data.
+A refund transaction provides numerous payment-related details, which may vary depending on the payment service provider settings. To decide whether you can manually void a refund transaction, you need to check its details.   
+> [Info] You can only change the status of a refund transaction, but not any data.
 
 #### Prerequisites
 
@@ -16,40 +18,43 @@ A refund ticket provides numerous payment-related details, which may vary depend
 - At least one payment or capture has been created.
 
 #### Procedure
-[Refunds](../../Assets/Screenshots/Payments/PaymentsAndCaptures/Refunds.png "[Refund ticket]")
+[Refunds](../../Assets/Screenshots/Payments/Refunds/Refunds.png "[Refund transaction]")
 
-1. Check the refund ticket status in the *Status* column. The status displays the current stage in the payment process. The following statuses are available:   
-    - **Success**   
-    The payment and capture ticket has been successfully processed.
-    - **Failure**   
-    u
-    - **Preparing**   
-    d
-    - **Void**   
-    The ticket has been manually set to status "void" and is not longer valid for Actindo.   
+1. Check the refund transaction status in the *Status* column. The status displays the current stage in the payment process. You can use the status ID prefixed below to filter the list. The following statuses are available:   
+    - **1 - Preparing**  
+        The transaction has been created, but is not yet transferred.
+    - **2 - Unconfirmed**   
+    k 
+    - **3 - Success**  
+        Actindo has got the response from the service payment provider, that the transfer was successfully.
+    - **4 - Failure**   
+        The payment service provider has received the request, but it cannot process it. If available for the connection, the status information field provides further information.
+    - **5 - Error**   
+       Errors have been occurred during transfer.
+    - **6 - Void**   
+       The transaction has been voided, see [Void a refund ticket](#void-a-refund-transaction)
 
     
-2. Click on a ticket to see the details.   
-    The sub-tabs of the ticket are opened. <!---Wie wird das richtig genannt?-->  
-3. Check the attributes, dependencies, and logs of the ticket. For more information, see the following:
+2. Click on a transaction to see the details.   
+    The sub-tabs of the transaction are opened. <!---Wie wird das richtig genannt?-->  
+3. Check the attributes, dependencies, and logs of the transaction. For more information, see the following:
      - [LIST &ndash; Attributes](../UserInterface/04_ListRefunds.md#refunds-–-attributes)
-     - [LIST &ndash; Dependencies](../UserInterface/04_ListRefunds.md#refunds-–-dependencies)
      - [LIST &ndash; Logs](../UserInterface/04_ListRefunds.md#refunds-–-logs)
 
 
-## Void a cancellation and chargeback ticket
+## Void a refund transaction
 
-You can void a cancellation and chargeback ticket, if you want to disable the ticket for the Actindo database. 
+You can void a refund transaction, if you want to disable the transaction for the Actindo database. 
 > [Info] The payment service provider will not be informed about changing the status to "void". It is only done to clear the database.
 
 #### Prerequisites
 
-The status of a cancellation and chargeback ticket is **not** success. In case of success, the refund process has already been started. <!---ist das richtig-->
+The status of a refund transaction is **not** success. In case of success, the refund process has already been started. <!---ist das richtig-->
 
 #### Procedure
 
- 1. Identify the communication issue that led to the error. To do this, check the cancellation and chargeback ticket you want to void, see [Check the authorization ticket](02_ManagePaymentsAndCaptures.md#check-payment-and-capture-ticket).
-2. Select the cancellation and chargeback ticket to be voided by clicking the checkbox on the left.   
+ 1. Identify the communication issue that led to the error. To do this, check the refund transaction you want to void, see [Check the refund transaction](#check-refund-transaction).
+2. Select the refund transaction to be voided by clicking the checkbox on the left.   
     The editing toolbar is displayed.
-3. Click the [Void] button.  <!---was passsiert dann-->   
-   The status of the cancellation and chargeback ticket has changed to "Void" It is not longer valid for the Actindo database.
+3. Click the [Void] button. 
+   A confirmation message is displayed. The status of the refund transaction has changed to "Void". It is no longer valid for the Actindo database.

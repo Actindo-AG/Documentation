@@ -20,10 +20,10 @@
             Click this entry to reset all unsaved changes to the settings of the selected view. This menu entry is only displayed if a view has been selected and any changes have been made to the view settings.--->
 
         - ![Publish](../../Assets/Icons/Publish.png "[Publish]") publish  
-            Click this entry to publish the view. This menu entry is only displayed if you have selected and unpublish a view.
+            Click this entry to publish the view. This menu entry is only displayed if you have selected an unpublished view. As long as you have not published a view, your views are visible for you only.
 
         - ![Unpublish](../../Assets/Icons/Unpublish.png "[Unpublish]") unpublish  
-            Click this entry to unpublish the view. This menu entry is only displayed if you have selected and published a view.
+            Click this entry to unpublish the view so that it is visible only to you again. This menu entry is only displayed if you have selected and published a view.
 
         - ![Save](../../Assets/Icons/Save.png "[Save]") save  
             Click this entry to save the current view settings in the selected view. This menu entry is only displayed if you have selected a view.
@@ -50,17 +50,20 @@
     Click this button to update the entries.
 
 - ![Columns](../../Assets/Icons/Columns.png "[Columns]") Columns (x)   
-    Click this button to display the columns bar and to customize the displayed columns and the order of columns in the list. The *x* indicates the number of columns that are currently displayed in the list.
-
+    Click this button to display the columns bar and to customize the displayed columns and the order of columns in the list. The *x* indicates the number of columns that are currently displayed in the list.   
+    > [Info] It is recommended to add the following columns to your view to get the required information as well as to better filter and sort the entries: Status ID, Status information (if applicable). 
 - ![Filter](../../Assets/Icons/Filter.png "[Filter]") Filter (x)   
     Click this button to display the filter bar and customize the active filters. The *x* indicates the number of filters that are currently active.
 
-- ![x Disable Elastic search] ....   
 
 ## Authorizations &ndash; Attributes
-*Payments > Authorizations > Tab LIST > Select an authorization ticket > Tab Attributes*
+*Payments > Payments and Captures > Tab LIST > Select an authorization ticket > Tab Attributes*
 
 ![Attributes](../../Assets/Screenshots/Payments/Authorization/Attributes.png "[Attributes]")
+
+
+
+incoming payment base data: Allgemeine FElder, die Actindo benötigt diese Daten unterstützen die Standardfunktionen vom Payments modul Abfragen auf diese FElder
 
 
 
@@ -68,6 +71,8 @@
 *Payments > Menu entry > Tab LIST > Select an authorization ticket > Tab Dependencies*
 
 ![Dependencies](../../Assets/Screenshots/Payments/Authorization/Dependencies.png "[Dependencies]")
+
+Because in general an authorization ticket has no dependencies to other entities in Actindo, this sub-tab is not relevant.
 
 ## Authorizations  &ndash; Logs
 *Payments > Menu entry > Tab LIST > Select an entry > Tab Logs*

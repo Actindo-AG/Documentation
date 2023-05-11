@@ -21,8 +21,8 @@ A confirmation ticket provides numerous payment-related details on a refund, whi
 
 #### Procedure
 1. Click the [Search](../../Assets/Icons/Search.png "[Search]") (Search) button to display the search bar and search for the original reference ID of the refund.
-2. Check the confirmation ticket status in the *Status* column. The status displays the current stage in the confirmation process. The following statuses are available: 
-    - **Confirmation required**   
+2. Check the confirmation ticket status in the *Status* column. The status displays the current stage in the confirmation process. You can use the status ID prefixed below to filter the list. The following statuses are available: 
+    - **2 - Confirmation required**   
     
     - 
 3. If required, check the details of the refund. For more information, see the following:
