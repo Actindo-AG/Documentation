@@ -1,11 +1,11 @@
 # Manage confirmations
 
-The *Confirmations* menu entry provides you with a view on all referencies to refunds that has been created. Before your company sends back the money to the customer, you can check the refunds. This service is supported by the most payment service providers.
+The *Confirmations* menu entry provides you with a view on all references to refunds that has been created. Before your company sends back the money to the customer, you can check the refunds with this menu entry. This service is supported by the most payment service providers.
 > [Info] If a workflow decides that you have to sent back money to the customer, you have here the possibility to check the refunds, before money is returned.   
 
-If a refund is not justified, for example, because the goods have already been delivered, you can also reject the refund. In case of faulty tickets you can void them to clear the database.      
+You can use this procedure to accept a refund so that the service payment provider gets the request to send back the money to the customer. If a refund is not justified, for example, because the goods have already been delivered, you can also reject the refund. In case of faulty tickets you can void them to clear the database.      
 In the settings might have been applied special permissions.
-> [Info] You might not be able to access this menu entry, because you have no permission to do it. Furthermore,  you may have access, but you are not permitted to execute refunds above a certain amount (for example, more than 50€). 
+> [Info] You might not be able to access this menu entry, because you have no permissions to do it. Furthermore, you may have access, but you are not permitted to execute refunds above a certain amount (for example, more than 50€). 
 
 
 ## Check confirmation ticket  

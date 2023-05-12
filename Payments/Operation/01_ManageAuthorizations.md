@@ -26,7 +26,9 @@ An authorization transaction provides numerous payment-related details, which ma
 - At least one authorization transaction has been created.
 
 #### Procedure
-[Authorization transaction](../../Assets/Screenshots/Fulfillment/DispatchNotes/DispatchNotes.png "[Authorization transaction]")
+
+*Payments > Authorizations > Tab LIST*
+[Authorization transaction](../../Assets/Screenshots/Payments/Authorizations/LISTAuthorizations.png "[Authorization transaction]")
 
 1. Check the Authorization transaction status in the *Status* column. The status displays the current stage in the payment process. You can use the status ID prefixed below to filter the list. The following statuses are available: 
     - **1 - Preparing**  
@@ -50,6 +52,8 @@ An authorization transaction provides numerous payment-related details, which ma
 4. Return to the LIST and decide how to proceed with the transaction.
 
 ## Capture an authorization transaction
+*Payments > Authorizations > Tab LIST*
+[Capture authorization transaction](../../Assets/Screenshots/Payments/Authorizations/CaptureAuthorization.png "[Capture authorization transaction]")
 
 After you have checked an authorization transaction that could not be processed by the workflow, you can capture the transaction manually, so that the order process can be continued.
 
