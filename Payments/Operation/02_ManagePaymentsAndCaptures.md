@@ -1,15 +1,16 @@
 # Monitor payments and captures
 
 A capture is a payment made. The most payment service providers create a new reference, when a payment has been captured.
-> [Info] This means that the reference ID of an authorization ticket has been changed in this case. You will not be able to identify the transaction here with the authorization ticket ID.   
+> [Info] This means that the reference ID of an authorization transaction has been changed in this case. You will not be able to identify the transaction here with the authorization transaction ID.   
 
 You can use this procedure to display all incoming references to a capture transaction from a payment service provider. You can check for communication errors between Actindo and the payment service provider that has been caused in a termination of a workflow, for example. In addition, if applicable, you can manually change the status of a transaction to *refund* to start continuing further processing. You can set the status also to *void* to clear the database.      
 If everything works fine with the posting of a capture, you do not need to monitor the *Payments and Captures* menu entry.   
+> [Info] You can only change the status of a capture transaction, but not any data.
+
 
 ## Check capture transaction
 
 A capture provides numerous payment-related details, which may vary depending on the payment service provider settings. To decide, whether you can manually refund or void a capture transaction, you need to check its details.
-> [Info] You can only change the status of a capture transaction, but not any data.
 
 #### Prerequisites
 

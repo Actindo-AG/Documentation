@@ -1,6 +1,6 @@
 # Monitor cancellations and chargebacks
 
-In the context of a payment transaction a chargeback is a retroactive cancellation of a capture. It is initialized by the customer, for example, if he or she withdraws the payment. A cancellation is a revocation of the reservation of a product that has not yet been delivered. It is also initialized by a customer.    
+In the context of a payment transaction a chargeback is a retroactive cancellation of a capture. It is initialized by the customer, for example, if he or she withdraws the payment. A cancellation is a revocation of the reservation of a product that has not yet been delivered. It is also initialized by the customer.    
 
 > [Info] The most payment service providers create a new reference, when a payment has been cancelled or charged back by the customer. This means that the reference ID of a capture transaction has been changed in this case and you will not be able to identify the transaction here with the capture transaction ID.   
 
