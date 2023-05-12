@@ -1,4 +1,6 @@
 # Establish connections to payment service providers (PSP)
+
+
 If you want to establish a new connection to a payment service provider (PSP), you can buy the needed connection in the app store. This is valid if you have not yet bought it with your Actindo maintenance contract.<!---Stimmt das?-->   
 The data structure of the connection then provides exactly the data that the PSP needs to exchange data with the *Actindo Payments* module.
 

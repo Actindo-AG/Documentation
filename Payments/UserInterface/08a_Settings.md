@@ -1,13 +1,12 @@
-# Settings
+# CONNECTIONS (Settings)
 
-[!!Manage the connections](../Integration/01_ManageConnections.md)
-[!!User interface List](../UserInterface/01a_List.md)
+[!!Establish connections](../Integration/01_EstablishConnection.md)
 
-# Connections (Settings)
 
-*Fulfillment > Settings > Tab CONNECTIONS*
 
-![Connections](../../Assets/Screenshots/Fulfillment/Settings/Connections/Connections.png "[Connections]")
+*Payments > Settings > Tab CONNECTIONS*
+
+![Connections](../../Assets/Screenshots/Payments/Settings/Connections.png "[Connections]")
 
 **Connections**
 
@@ -82,9 +81,9 @@ The list displays all available connections. Depending on the settings, the disp
 
 ## Create connection
 
-*Fulfillment > Settings > Tab CONNECTIONS > Button Add*
+*Payments > Settings > Tab CONNECTIONS > Button Add*
 
-![Create connection](../../Assets/Screenshots/Fulfillment/Settings/Connections/CreateConnection.png "[Create connection]")
+![Create connection](../../Assets/Screenshots/Fulfillment/Settings/CreateConnection.png "[Create connection]")
 
 - ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)   
     Click this button to close the *Create connection* view and return to the list of connections. All changes are rejected.
@@ -101,7 +100,7 @@ The list displays all available connections. Depending on the settings, the disp
 - *Driver*  
     Click the drop-down list and select the desired driver. All installed drivers are displayed. 
 
-    > [Info] Drivers are licensed and must be acquired via the app store or the corresponding fulfillment partner. The applicable driver credentials to establish the connection are obtained when acquiring the corresponding license. For detailed information, see [Create a connection](../Integration/01_ManageConnections.md#create-a-connection).
+    > [Info] Drivers are licensed and must be acquired via the app store or the corresponding service payment partner. The applicable driver credentials to establish the connection are obtained when acquiring the corresponding license. For detailed information, see [Create a connection](../Integration/01_EstablishConnection.md#create-a-psp-connection.)
 
 **Credentials**
 
