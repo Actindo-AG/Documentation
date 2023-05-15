@@ -74,14 +74,14 @@ At least one connection has been created, see [Create a connection](#create-a-co
 4. Click the [SAVE] button.   
     The *Checking credentials...* notice is displayed.
 
-    ![Credentials](../../Assets/Screenshots/Fulfillment/Settings/Connections/CheckingCredentials.png "[Credentials]")
+    ![Credentials](../../Assets/Screenshots/Payments/Settings/Connections/CheckingCredentials.png "[Credentials]")
 
     The *Edit connection* view is automatically closed when the changes have been saved. The *Connections* view is displayed again.
 
 
 
 ## Disable a PSP connection
-Once a connection has been established, you cannot delete it because of potential dependencies in the existing database. Nevertheless, you can disable the connection if you do not use ist any longer. You can disable several active connections at a time.
+Once a connection has been established, you cannot delete it because of potential dependencies in the existing database. Nevertheless, you can disable the connection if you do not use is any longer. You can disable several active connections at a time.
 
 #### Prerequisites
 

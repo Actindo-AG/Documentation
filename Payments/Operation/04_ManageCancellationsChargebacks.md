@@ -9,6 +9,9 @@ You can use this procedure to display all incoming references to cancellations a
 If everything works fine with the posting of a cancellation and chargeback, you do not need to monitor the *Cancellations and Chargebacks* menu entry.  
 
 ## Check cancellations and chargeback transaction
+*Payments > Cancellations and Chargebacks > LIST*
+
+![Cancellation and chargeback transaction](../../Assets/Screenshots/Payments/CancellationsChargebacks/LISTCancellationsChargebacks.png "[Cancellation and chargeback transaction]")
 
 A cancellation and chargeback transaction provides numerous payment-related details, which may vary depending on the payment service provider settings. To decide whether you can manually void a cancellation and cancellation and chargeback transaction, you need to check its details.  
 > [Info] You can only change the status of a chargeback transaction, but not any data.
@@ -16,12 +19,27 @@ A cancellation and chargeback transaction provides numerous payment-related deta
 #### Prerequisites
 
 - At least one connection has been created, see [Create a connection](../Integration/01_ManageConnections.md#create-a-connection).
-- At least one chargeback or cancellation has been created.
+- At least one customer has created a chargeback or a cancellation.
 
 #### Procedure
-[cancellations and Chargebacks](../../Assets/Screenshots/Payments/ManageConfirmations/DispatchNotes.png "[Cancellation and chargeback transaction]")
 
-1. Check the cancellation and chargeback transaction status in the *Status* column. The status displays the current stage in the payment process. You can use the status ID prefixed below to filter the list. The following statuses are available:   
+*Payments > Cancellations and Chargebacks > Tab LIST > Select a cancellation and chargeback transaction*   
+
+![Cancellations and Chargebacks](../../Assets/Screenshots/Payments/CancellationsChargebacks/LISTCancellationsChargebacks.png "[Cancellation and chargeback transaction]")
+
+1. Select the desired view.   
+
+2. If desired, select the cancellation type you want to check. The following types are available:   
+    - **Cancel**   
+      The customer has revoked the reservation.
+    - **Chargeback**
+      The customer has cancelled a capture.
+    - **Chargeback Reversal**
+      The customer has terminated her or his revocation of the reservation??
+    - **Second Chargeback**   
+      ??
+
+3. Check the cancellation and chargeback transaction status in the *Status* column. The status displays the current stage in the payment process. You can use the status ID prefixed below to filter the list. The following statuses are available:   
     - **1 - Preparing**  
         The transaction has been created, but is not yet transferred.
     - **2 - Unconfirmed**   
@@ -36,8 +54,12 @@ A cancellation and chargeback transaction provides numerous payment-related deta
        The transaction has been voided, see [Void an authorization transaction](01_ManageAuthorizations.md#void-an-authorization-transaction).
     
 2. Click on a transaction to see the details.   
-    The sub-tabs of the transaction are opened. <!---Wie wird das richtig genannt?-->  
-3. Check the attributes, dependencies, and logs of the transaction. For more information, see the following:
+    The sub-tabs of the transaction are opened.   
+
+    ![Cancellations and Chargebacks attributes and logs](../../Assets/Screenshots/Payments/CancellationsChargebacks/CheckCancellationsChargebacks.png "[Cancellations and chargebacks attributes and logs]")
+
+
+3. Check the attributes and logs of the transaction. For more information, see the following:
      - [LIST &ndash; Attributes](../UserInterface/05_ListCancellationsChargebacks.md#cancellations-and-chargebacks-–-attributes)
      - [LIST &ndash; Logs](../UserInterface/04_ListRefunds.md#refunds-–-logs)
 
@@ -49,9 +71,13 @@ You can void a cancellation and chargeback transaction, if you want to disable t
 
 #### Prerequisites
 
-The status of a cancellation and chargeback transaction is **not** success. In case of success, the cancellation and chargeback has already been further processed. <!---ist das richtig-->
+The status of a cancellation and chargeback transaction is **not** success. In case of success, the cancellation and chargeback has already been further processed. 
 
 #### Procedure
+
+*Payments > Cancellations and Chargebacks > LIST*   
+
+![Void cancellation and Chargeback transaction](../../Assets/Screenshots/Payments/CancellationsChargebacks/VoidCancellationsChargebacks.png "[Void cancellation and chargeback transaction]")
 
  1. Identify the communication issue that led to the error. To do this, check the cancellation and chargeback transaction to be voided, see [Check cancellation and chargeback transaction](#check-cancellations-and-chargeback-transaction).
 2. Select the cancellation and chargeback transaction to be voided by clicking the checkbox on the left.   

@@ -15,10 +15,11 @@ A refund transaction provides numerous payment-related details, which may vary d
 #### Prerequisites
 
 - At least one connection has been created, see [Create a connection](../Integration/01_ManageConnections.md#create-a-connection).
-- At least one payment or capture has been created.
+- At least one refund has been created.
 
-#### Procedure
-[Refunds](../../Assets/Screenshots/Payments/Refunds/Refunds.png "[Refund transaction]")
+#### Procedure   
+
+![Refund transactions](../../Assets/Screenshots/Payments/Refunds/LISTRefunds.png "[Refund transactions]")
 
 1. Check the refund transaction status in the *Status* column. The status displays the current stage in the payment process. You can use the status ID prefixed below to filter the list. The following statuses are available:   
     - **1 - Preparing**  
@@ -36,8 +37,11 @@ A refund transaction provides numerous payment-related details, which may vary d
 
     
 2. Click on a transaction to see the details.   
-    The sub-tabs of the transaction are opened. <!---Wie wird das richtig genannt?-->  
-3. Check the attributes, dependencies, and logs of the transaction. For more information, see the following:
+    The sub-tabs of the transaction are opened. 
+
+     ![Refunds attributes and logs](../../Assets/Screenshots/Payments/Refunds/CheckAttributes.png "[Refund attributes and logs]")
+
+3. Check the attributesand logs of the transaction. For more information, see the following:
      - [LIST &ndash; Attributes](../UserInterface/04_ListRefunds.md#refunds-–-attributes)
      - [LIST &ndash; Logs](../UserInterface/04_ListRefunds.md#refunds-–-logs)
 
@@ -52,6 +56,9 @@ You can void a refund transaction, if you want to disable the transaction for th
 The status of a refund transaction is **not** success. In case of success, the refund process has already been started. <!---ist das richtig-->
 
 #### Procedure
+*Payments > Refunds > Tab LIST*
+
+![Void Refund](../../Assets/Screenshots/Payments/Refunds/VoidRefunds.png "[Void refund]") 
 
  1. Identify the communication issue that led to the error. To do this, check the refund transaction you want to void, see [Check the refund transaction](#check-refund-transaction).
 2. Select the refund transaction to be voided by clicking the checkbox on the left.   

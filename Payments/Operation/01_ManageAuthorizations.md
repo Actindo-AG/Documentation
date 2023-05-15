@@ -46,7 +46,11 @@ An authorization transaction provides numerous payment-related details, which ma
        The transaction has been voided, see [Void an authorization transaction](01_ManageAuthorizations.md#void-an-authorization-transaction).
     
 2. Click on the authorization transaction to see the details.   
-    The sub-tabs of the transaction are opened. <!---Wie wird das richtig genannt?-->  
+    The sub-tabs of the transaction are opened.  
+    *Payments > Authorizations > Tab LIST > Select Authorization transaction*  
+
+    ![Authorization attributes and logs](../../Assets/Screenshots/Payments/Authorizations/CheckAttributes.png "[Authorization attributes and logs]")
+
 3. Check the attributes and logs of the transaction. For more information, see the following:
    - [Authorizations &ndash; Attributes](../UserInterface/01_ListAuthorizations.md#authorizations-–-attributes)
    - [Authorizations &ndash; Logs](../UserInterface/01_ListAuthorizations.md#authorizations-–-logs)
@@ -56,7 +60,7 @@ An authorization transaction provides numerous payment-related details, which ma
 
 *Payments > Authorizations > Tab LIST*
 
-![Capture authorization transaction](../../Assets/Screenshots/Payments/Authorizations/CaptureAuthorization.png "[Capture authorization transaction]")
+![Capture authorization transaction](../../Assets/Screenshots/Payments/Authorizations/ChangeAuthorization.png "[Capture authorization transaction]")
 
 After you have checked an authorization transaction that could not be processed by the workflow, you can capture the transaction manually, so that the order process can be continued.
 
@@ -69,7 +73,7 @@ The status of an authorization transaction is **not** "success". <!---Stimmt das
 1. Check the authorization transaction you want to capture, see [Check the authorization transaction](01_ManageAuthorization.md#check-an-authorization-transaction).
 2. Select the authorization transaction you want to capture by clicking the checkbox on the left.   
     The editing toolbar is displayed.
-3. Click the [Capture] button. 
+3. Click the [Capture] button.  
    A confirmation message is displayed. The status of the authorization transaction has changed to *Success*.  <!---stimmt das?-->
   
 
@@ -77,7 +81,7 @@ The status of an authorization transaction is **not** "success". <!---Stimmt das
 
 *Payments > Authorizations > Tab LIST*
 
-![Cancel authorization transaction](../../Assets/Screenshots/Payments/Authorizations/CancelAuthorization.png "[Cancel authorization transaction]")
+![Cancel authorization transaction](../../Assets/Screenshots/Payments/Authorizations/ChangeAuthorization.png "[Cancel authorization transaction]")
 
 After you have checked an authorization transaction that could not be processed by the workflow, you can cancel the transaction manually, so that the order is cancelled both at Actindo and at the PSP. Actindo will then automatically inform the PSP about the cancellation. The customer will get his or her money back.
 
@@ -89,14 +93,14 @@ After you have checked an authorization transaction that could not be processed 
 1. Identify the communication issue that led to the error. To do this, check the authorization transaction you want to cancel, see [Check the authorization transaction](01_ManageAuthorization.md#check-an-authorization-transaction).
 2. Select the authorization transaction you want to cancel by clicking the checkbox on the left.   
     The editing toolbar is displayed.
-3. Click the [Cancel] button.<!---was passsiert dann-->
+3. Click the [Cancel] button.   <!---was passsiert dann-->
    A confirmation message is displayed. The status of the authorization transaction has changed to *Unconfirmed??*.
 
 
 ## Void an authorization transaction
 
 *Payments > Authorizations > Tab LIST*
-![Void authorization transaction](../../Assets/Screenshots/Payments/Authorizations/VoidAuthorization.png "[Capture authorization transaction]")
+![Void authorization transaction](../../Assets/Screenshots/Payments/Authorizations/ChangeAuthorization.png "[Capture authorization transaction]")
 You can void an authorization transaction, if you want to disable the transaction for the Actindo database. For example, for whatever reason the same transaction has been posted twice. In this case, you can void one of these transactions and continue the order process with the other transaction.
 > [Info] The payment service provider will not be informed about changing the status to "void". It is only done to clear the database.
 
@@ -110,5 +114,5 @@ The status of an authorization transaction is "failure" or "error".
 1. Identify the communication issue that led to the error. To do this, check the authorization transaction you want to void, see [Check the authorization transaction](01_ManageAuthorizations.md#check-an-authorization-transaction).
 2. Select the authorization transaction to be voided by clicking the checkbox on the left.   
     The editing toolbar is displayed.
-3. Click the [Void] button. 
+3. Click the [Void] button.   
    A confirmation message is displayed. The status of the authorization transaction has changed to "Void". It is no longer valid for the Actindo database.

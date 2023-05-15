@@ -3,7 +3,7 @@
 A capture is a payment made. The most payment service providers create a new reference, when a payment has been captured.
 > [Info] This means that the reference ID of an authorization transaction has been changed in this case. You will not be able to identify the transaction here with the authorization transaction ID.   
 
-You can use this procedure to display all incoming references to a capture transaction from a payment service provider. You can check for communication errors between Actindo and the payment service provider that has been caused in a termination of a workflow, for example. In addition, if applicable, you can manually change the status of a transaction to *refund* to start continuing further processing. You can set the status also to *void* to clear the database.      
+You can use this procedure to display all incoming references to a capture transaction from a payment service provider. You can check for communication errors between Actindo and the payment service provider that has been caused in a termination of a workflow, for example. In addition, if applicable, you can manually change the status of a transaction to *refund* to initiate a repayment. For example, you cannot deliver the product and want to give the money back to the customer. Additionally, you can set the status to *void* to clear the database from faulty entries.      
 If everything works fine with the posting of a capture, you do not need to monitor the *Payments and Captures* menu entry.   
 > [Info] You can only change the status of a capture transaction, but not any data.
 
@@ -18,7 +18,11 @@ A capture provides numerous payment-related details, which may vary depending on
 - At least one capture transaction has been created.
 
 #### Procedure
-[Payment and capture](../../Assets/Screenshots/Payments/PaymentsAndCaptures/DispatchNotes.png "[Payment and capture transaction]")
+
+*Payments > Payments and Captures > Tab LIST*  
+
+![Payment and capture transactions](../../Assets/Screenshots/Payments/PaymentsCaptures/LISTPaymentsCaptures.png "[Payment and capture transactions]")  
+
 
 1. Check the capture transaction status in the *Status* column. The status displays the current stage in the payment process. You can use the status ID prefixed below to filter the list. The following statuses are available:   
     - **1 - Preparing**  
@@ -35,13 +39,21 @@ A capture provides numerous payment-related details, which may vary depending on
        The transaction has been voided, see [Void a payments and capture transaction](#check-payment-and-capture-transaction).
     
 2. Click on a transaction to see the details.   
-    The sub-tabs of the transaction are opened. <!---Wie wird das richtig genannt?-->  
-3. Check the attributes, dependencies, and logs of the transaction. For more information, see the following:
+    The sub-tabs of the transaction are opened.   
+
+    *Payments > Payments and Captures > Tab LIST > Select a payments and capture transaction*   
+
+    ![Payment and capture attributes and logs](../../Assets/Screenshots/Payments/PaymentsCaptures/CheckAttributes.png "[Payment and capture attributes and logs]")   
+
+3. Check the attributes and logs of the transaction. For more information, see the following:
      - [LIST &ndash; Attributes](../UserInterface/03_ListPaymentsAndCaptures.md#payments-and-captures-–-attributes)
-     - [LIST &ndash; Dependencies](../UserInterface/03_ListPaymentsAndCaptures.md#payments-and-captures-–-dependencies)
      - [LIST &ndash; Logs](../UserInterface/03_ListPaymentsAndCaptures.md#payments-and-captures-–-logs)
 
-## Refund capture transaction
+## Refund payments and capture transaction
+
+*Payments > Payments and Captures > Tab LIST*
+
+
 
 After you have checked a capture transaction that could not be processed by the workflow, you can refund the capture transaction manually, so that the order process can be cancelled.
 
@@ -50,6 +62,9 @@ After you have checked a capture transaction that could not be processed by the 
 The status of a capture transaction is **not** success. In this case, the further processing has been started. <!---ist das richtig-->
 
 #### Procedure
+
+![Refund payment and capture transaction](../../Assets/Screenshots/Payments/PaymentsCaptures/ChangePaymentsCaptures.png "[Refund payment and capture transaction]")   
+
 1. Check the capture transaction you want to refund, see [Check the capture transaction](#check-capture-transactionn).
 2. Select the capture transaction you want to refund by clicking the checkbox on the left.   
     The editing toolbar is displayed.
@@ -57,6 +72,10 @@ The status of a capture transaction is **not** success. In this case, the furthe
    A confirmation message is displayed. The status of the capture transaction has changed to *Refund*.
 
 ## Void payment and capture transaction
+
+*Payments > Payments and Captures > Tab LIST*
+
+![Void payment and capture transaction](../../Assets/Screenshots/Payments/PaymentsCaptures/ChangePaymentsCaptures.png "[Void payment and capture transaction]")   
 
 You can void a capture transaction, if you want to disable the transaction for the Actindo database. 
 > [Info] The payment service provider will not be informed about changing the status to "void". It is only done to clear the database.

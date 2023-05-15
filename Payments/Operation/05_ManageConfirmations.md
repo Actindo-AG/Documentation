@@ -9,6 +9,11 @@ In the settings might have been applied special permissions.
 
 
 ## Check confirmation ticket  
+
+*Payments > Confirmations > Tab LIST*  
+
+![Confirmation transaction](../../Assets/Screenshots/Payments/Confirmations/LISTConfirmations.png "[Confirmation transaction]")
+
 A confirmation ticket provides numerous payment-related details on a refund, which may vary depending on the payment service provider settings. To decide whether you can execute, reject or void a ticket, you can check its details.  
 > [Info] You can only change the status of a confirmation ticket, but not any data.
 
@@ -23,12 +28,13 @@ A confirmation ticket provides numerous payment-related details on a refund, whi
 1. Click the [Search](../../Assets/Icons/Search.png "[Search]") (Search) button to display the search bar and search for the original reference ID of the refund.
 2. Check the confirmation ticket status in the *Status* column. The status displays the current stage in the confirmation process. You can use the status ID prefixed below to filter the list. The following statuses are available: 
     - **2 - Confirmation required**   
-    
-    - 
-3. If required, check the details of the refund. For more information, see the following:
+    -    
+3. Click on a transaction to see the details.   
+    The sub-tabs of the transaction are opened.   
+
+    ![Confirmation attributes](../../Assets/Screenshots/Payments/Confirmations/AttributesConfirmation.png "[Confirmaton attributes]")
+4. If required, check the details of the refund. For more information, see the following:
      - [LIST &ndash; Attributes](../UserInterface/06_ListConfirmations.md#confirmations-–-attributes)
-     - [LIST &ndash; Dependencies](../UserInterface/06_ListConfirmations.md#confirmations-–-dependencies)
-     - [LIST &ndash; Dependencies](../UserInterface/06_ListConfirmations.md#confirmations-–-logs)
 
 
 ## Execute confirmation ticket 
@@ -40,6 +46,10 @@ After you have checked a confirmation ticket and the reclaim is justified, you c
 - The status of a confirmation ticket is "Confirmation required". 
 
 #### Procedure
+*Payments > Confirmations > Tab LIST*
+
+![Execute confirmation](../../Assets/Screenshots/Payments/Confirmations/ChangeConfirmation.png "[Execute confirmaton]")
+
 1. Click the [Search](../../Assets/Icons/Search.png "[Search]") (Search) button to display the search bar and search for the original reference ID of the refund.
 2. Check the confirmation ticket you want to execute, see [Check the confirmation ticket](05_ManageConfirmations.md#check-confirmation-ticket).
 2. Select the confirmation ticket you want to excute by clicking the checkbox on the left.   
@@ -56,6 +66,12 @@ After you have checked a confirmation ticket and the reclaim is **not** justifie
 - - The status of a confirmation ticket is "Confirmation required". 
 
 #### Procedure
+
+*Payments > Confirmations > Tab LIST*
+
+![Reject confirmation](../../Assets/Screenshots/Payments/Confirmations/ChangeConfirmation.png "[Reject confirmaton]")
+
+
 1. Click the [Search](../../Assets/Icons/Search.png "[Search]") (Search) button to display the search bar and search for the original reference ID of the refund.
 2. Check the confirmation ticket you want to reject, see [Check the confirmation ticket](05_ManageConfirmations.md#check-confirmation-ticket).
 2. Select the confirmation ticket you want to reject by clicking the checkbox on the left.   
@@ -70,6 +86,11 @@ You can void a refund ticket, if you want to disable the ticket for the Actindo 
 - The status of a confirmation ticket is **not** "Confirmation required". 
 
 #### Procedure
+
+*Payments > Confirmations > Tab LIST*
+
+![Void confirmation](../../Assets/Screenshots/Payments/Confirmations/ChangeConfirmation.png "[Void confirmaton]")
+
 1. Identify the communication issue that led to the error. To do this, check the confirmation ticket to be voided, see [Check the cancellation and chargeback ticket](04_ManageCancellationsChargebacks.md#check-cancellation-and-chargeback-ticket).
 2. Select the Confirmation ticket to be voided by clicking the checkbox on the left.   
     The editing toolbar is displayed.
