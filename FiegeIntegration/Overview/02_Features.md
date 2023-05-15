@@ -23,5 +23,4 @@ If required, all relevant return-related data are updated by Fiege and transferr
 **Stock data**  
 Stock data, managed across several warehouses, are updated by Fiege and transferred to Actindo.  
 
-[comment]: <> (Fachreviewer: Bitte prüfen, ob es so stimmt, ggf. ergänzen)
 
