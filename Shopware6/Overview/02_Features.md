@@ -15,7 +15,7 @@ Stock and supplier inventories are transferred live to Shopware 6.
 **Prices**   
 Prices can be maintained in Actindo and transferred to Shopware 6.
 
-**Marketplace offers**  
+**Shop products**  
 Existing products in Shopware 6 can be imported to Actindo. 
 
 **Orders**   
