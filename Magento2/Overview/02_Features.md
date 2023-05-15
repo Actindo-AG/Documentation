@@ -16,6 +16,9 @@ Existing products in Magento 2 can be imported to Actindo.
 **Stock**   
 Stock and supplier inventories in Actindo are transferred live to Magento 2.
 
+**Orders**   
+Automated processing of orders with status updates being transferred to Magento 2. 
+
 **Order data**   
 Order data in Magento 2 can be imported to Actindo. The order import settings can be configured in the Magento 2 connection in Actindo.
 
