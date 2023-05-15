@@ -60,7 +60,7 @@ After the Fiege connection has been established, further settings can be configu
 #### Prerequisites
 
 - A Fiege connection has been established, see [Create a Fiege connection](#create-a-fiege-connection).
-- The warehouses to be managed by Fiege have been configured in the *Warehouse* module. 
+- The warehouses to be managed by Fiege have been configured in the *Warehousing* module. 
 
 #### Procedure
 
@@ -80,7 +80,7 @@ The *Edit connection* view is displayed. By default, the *Credentials* tab is se
 
 3. Enter the ID of the warehouse to be used as a fallback warehouse for stock movements if no other reference is found. 
 
-    > [Info] The warehouse IDs configured in Actindo can be found in the *Warehouse* module: *Warehouse > Settings > Warehouse master data > Select a warehouse > Basic data*
+    > [Info] The warehouse IDs configured in Actindo can be found in the *Warehousing* module: *Warehousing > Settings > Warehouse master data > Select a warehouse > Basic data*
 
 4. Click the *Bearer token* menu entry in the left side bar.  
     The bearer token settings are displayed on the right side.  
