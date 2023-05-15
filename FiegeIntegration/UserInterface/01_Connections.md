@@ -230,7 +230,7 @@ The *Settings* tab is composed of the following setting entries:
     Click this button to save any changes made.
 
 - *Bearer token*  
-    The bearer token is no longer relevant at this point, as it has already been entered in the *Credentials* section. Therefore, this field can be left blank. 
+    This field can be left blank. The bearer token is no longer relevant at this point, as it has already been entered in the *Credentials* section.    
 
 
 ### A Warehouse
