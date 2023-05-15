@@ -23,7 +23,7 @@ The *Fiege Integration* driver has been installed.
 
 *Fulfillment > Settings > Tab CONNECTIONS*
 
-![Connection](../../Assets/Screenshots/Fulfillment/Settings/Connections/Connections.png "[Connection]")
+![Connections](../../Assets/Screenshots/Fulfillment/Settings/Connections/Connections.png "[Connections]")
 
 1. Click the ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) button in the bottom right corner.    
     The *Create connection* view is displayed.
@@ -35,7 +35,7 @@ The *Fiege Integration* driver has been installed.
 3. Click the *Driver* drop-down list and select the *Fiege Driver* option.  
     The *Credentials* section is displayed below the drop-down list.
 
-    ![Connection credentials](../../Assets/Screenshots/Fulfillment/Settings/Connections/FiegeIntegration/CreateConnectionCredentials.png "[Connection credentials]")
+    ![Create connection credentials](../../Assets/Screenshots/Fulfillment/Settings/Connections/FiegeIntegration/CreateConnectionCredentials.png "[Create connection credentials]")
 
 4. Enter the bearer token in the *Bearer token (fiegeExport)* field.  
 
@@ -46,7 +46,7 @@ The *Fiege Integration* driver has been installed.
 
     The *Create connection* view is automatically closed when the connection has been established. The *Edit connection* view of the newly created connection is displayed. The *Settings* tab is selected.
 
-    ![Connection](../../Assets/Screenshots/Fulfillment/Settings/Connections/FiegeIntegration/EditConnectionSettings_WarehouseIDFallback.png "[Connection]")
+    ![Settings warehouse ID fallback](../../Assets/Screenshots/Fulfillment/Settings/Connections/FiegeIntegration/EditConnectionSettings_WarehouseIDFallback.png "[Settings warehouse ID fallback]")
 
     > [Info] By default, all connections that have been established are inactive and must be enabled after the connection configuration, see [Enable a connection](./01_ManageConnections.md#enable-a-connection).
 
