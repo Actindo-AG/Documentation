@@ -87,11 +87,9 @@ The *Edit connection* view is displayed. By default, the *Credentials* tab is se
 
     ![Settings bearer token](../../Assets/Screenshots/Fulfillment/Settings/Connections/FiegeIntegration/EditConnectionSettings_BearerToken.png "[Settings bearer token]")
 
-5. Enter the bearer token for authentication with the Fiege API in the *Bearer token* field.
+5. The bearer token is no longer relevant at this point, as it has already been entered in the *Credentials* section. Therefore, this field can be left blank.  
 
-[comment]: <> (Fachreviewer: Wann/In welchem Release wird der Bearer token aus Settings rausgenommen?)
-
-[comment]: <> (Feedback von Developers: Bearer token wird aus den Settings rausfallen und nur noch in den Credentials angezeigt werden. Daher muss der auch nur dort gepflegt werden. Wann wird es implementiert? Schritt komplett rauslassen hier? Dann neue Screenshots notwendig. Oder evtl. Info dazu: The bearer token has already been entered in the Credentials section and therefore this field can be left blank...)
+[comment]: <> (Feedback von Development: Bearer token wird aus den Settings in Zukunft abgebaut und nur noch in den Credentials angezeigt werden. Da noch in UI angezeigt, ist es hier noch beschrieben. Text anpassen bzw. löschen, wenn abgebaut.)
 
 6. Click the *A Warehouse* menu entry in the left side bar.  
     The warehouse settings for warehouse A are displayed on the right side.  

@@ -8,8 +8,8 @@
 
 ## How it works
 
-**Product data**   
-As soon as a delivery note is created, a dispatch note with the relevant product data is generated in Actindo and sent to Fiege.
+**Product data**    
+As soon as a delivery note is created, a dispatch note with the relevant product data is generated in Actindo and exported to Fiege. The creation of dispatch notes and the triggering of the export are workflow-driven.
 
 **Delivery and packaging data**  
 Preferred user-defined packaging types can be automatically selected in Actindo and transferred to Fiege.  

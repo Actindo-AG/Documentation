@@ -198,7 +198,7 @@ The *Settings* tab is composed of the following setting entries:
 - [B Warehouse](#b-warehouse)
 - [C Warehouse](#c-warehouse)
 
-[comment]: <> (Evtl. fliegt der Bearer token aus den Settings raus. Wenn soweit, neue Screenshots für die Settings hinzufügen und Menüpunkt hier löschen.)
+[comment]: <> (Feedback von Development: Bearer token wird aus den Settings in Zukunft abgebaut und nur noch in den Credentials angezeigt werden. Da noch in UI angezeigt, ist es hier noch beschrieben. Wenn abgebaut, neue Screenshots für die Settings hinzufügen und Menüpunkt hier löschen.)
 
 
 ### Warehouse ID fallback
@@ -222,7 +222,7 @@ The *Settings* tab is composed of the following setting entries:
 
 ![Bearer token](../../Assets/Screenshots/Fulfillment/Settings/Connections/FiegeIntegration/EditConnectionSettings_BearerToken.png "[Bearer token]")
 
-[comment]: <> (Evtl. fliegt der Bearer token aus den Settings raus. Wenn soweit, neue Screenshots für die Settings hinzufügen und Menüpunkt hier löschen.)
+[comment]: <> (Feedback von Development: Bearer token wird aus den Settings in Zukunft abgebaut und nur noch in den Credentials angezeigt werden. Da noch in UI angezeigt, ist es hier noch beschrieben. Wenn abgebaut, neue Screenshots für die Settings hinzufügen und Menüpunkt hier löschen.)
 
 **Bearer token**
 
@@ -230,7 +230,7 @@ The *Settings* tab is composed of the following setting entries:
     Click this button to save any changes made.
 
 - *Bearer token*  
-    Enter the bearer token for authentication with the Fiege API.
+    The bearer token is no longer relevant at this point, as it has already been entered in the *Credentials* section. Therefore, this field can be left blank. 
 
 
 ### A Warehouse
