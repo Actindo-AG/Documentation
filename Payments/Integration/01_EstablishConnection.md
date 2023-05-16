@@ -1,3 +1,5 @@
+[!!Connections (Settings)](../Integration/01_EstablishConnection.md)
+
 # Establish connections to payment service providers (PSP)
 
 
@@ -26,7 +28,7 @@ At least one connection has been installed
 3.  Click the *Driver* drop-down list and select the desired driver. 
    All already installed drivers are displayed in the list.   
    
-     > [Info] If you want to install additional drivers, select the **more...** option and buy a driver in the app store.You have to purchase drivers from the main account. You need to install them separately in each sandbox or account where you want to use it.
+     > [Info] If you want to install additional drivers, select the **more...** option and buy a driver in the app store. You have to purchase drivers from the main account. You need to install them separately in each sandbox or account where you want to use it.
 
      The *Credentials* section is displayed below the drop-down list.
 

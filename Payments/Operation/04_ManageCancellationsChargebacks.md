@@ -51,7 +51,7 @@ A cancellation and chargeback transaction provides numerous payment-related deta
     - **5 - Error**   
        Errors have been occurred during transfer.
     - **6 - Void**   
-       The transaction has been voided, see [Void an authorization transaction](01_ManageAuthorizations.md#void-an-authorization-transaction).
+       The transaction has been voided, see [Void an authorization transaction](./01_ManageAuthorizations.md#void-an-authorization-transaction).
     
 2. Click on a transaction to see the details.   
     The sub-tabs of the transaction are opened.   

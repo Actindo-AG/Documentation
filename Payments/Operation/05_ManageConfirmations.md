@@ -52,9 +52,9 @@ After you have checked a confirmation ticket and the reclaim is justified, you c
 
 1. Click the [Search](../../Assets/Icons/Search.png "[Search]") (Search) button to display the search bar and search for the original reference ID of the refund.
 2. Check the confirmation ticket you want to execute, see [Check the confirmation ticket](05_ManageConfirmations.md#check-confirmation-ticket).
-2. Select the confirmation ticket you want to excute by clicking the checkbox on the left.   
+2. Select the confirmation ticket you want to exceute by clicking the checkbox on the left.   
     The editing toolbar is displayed.
-3. Click the [Execute] button. <!---was passsiert dann-->
+3. Click the [Execute] button.
    The status of the authorization ticket has changed to *Executed??*.
 
 ## Reject confirmation ticket 
@@ -73,7 +73,7 @@ After you have checked a confirmation ticket and the reclaim is **not** justifie
 
 
 1. Click the [Search](../../Assets/Icons/Search.png "[Search]") (Search) button to display the search bar and search for the original reference ID of the refund.
-2. Check the confirmation ticket you want to reject, see [Check the confirmation ticket](05_ManageConfirmations.md#check-confirmation-ticket).
+2. Check the confirmation ticket you want to reject, see [Check the confirmation ticket](./05_ManageConfirmations.md#check-confirmation-ticket).
 2. Select the confirmation ticket you want to reject by clicking the checkbox on the left.   
     The editing toolbar is displayed.
 3. Click the [Execute] button. <!---was passsiert dann-->

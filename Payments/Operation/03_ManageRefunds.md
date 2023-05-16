@@ -41,7 +41,7 @@ A refund transaction provides numerous payment-related details, which may vary d
 
      ![Refunds attributes and logs](../../Assets/Screenshots/Payments/Refunds/CheckAttributes.png "[Refund attributes and logs]")
 
-3. Check the attributesand logs of the transaction. For more information, see the following:
+3. Check the attributes and logs of the transaction. For detailed information, see the following:
      - [LIST &ndash; Attributes](../UserInterface/04_ListRefunds.md#refunds-–-attributes)
      - [LIST &ndash; Logs](../UserInterface/04_ListRefunds.md#refunds-–-logs)
 

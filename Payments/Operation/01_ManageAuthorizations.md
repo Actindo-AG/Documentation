@@ -70,7 +70,7 @@ The status of an authorization transaction is **not** "success". <!---Stimmt das
 
 #### Procedure
 
-1. Check the authorization transaction you want to capture, see [Check the authorization transaction](01_ManageAuthorization.md#check-an-authorization-transaction).
+1. Check the authorization transaction you want to capture, see [Check the authorization transaction](./01_ManageAuthorization.md#check-an-authorization-transaction).
 2. Select the authorization transaction you want to capture by clicking the checkbox on the left.   
     The editing toolbar is displayed.
 3. Click the [Capture] button.  
@@ -111,7 +111,7 @@ The status of an authorization transaction is "failure" or "error".
 
 #### Procedure
 
-1. Identify the communication issue that led to the error. To do this, check the authorization transaction you want to void, see [Check the authorization transaction](01_ManageAuthorizations.md#check-an-authorization-transaction).
+1. Identify the communication issue that led to the error. To do this, check the authorization transaction you want to void, see [Check the authorization transaction](./01_ManageAuthorizations.md#check-an-authorization-transaction).
 2. Select the authorization transaction to be voided by clicking the checkbox on the left.   
     The editing toolbar is displayed.
 3. Click the [Void] button.   
