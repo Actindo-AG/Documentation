@@ -37,7 +37,7 @@ There are many ways to do digital commerce, including not only your own online s
 The data model of the *DataHub* module with ETL system (Extract, Transform, Load) allows maximum flexibility. It enables complex and varying data to be mapped, transformed, and transferred. The transfer is done via external services to other modules as well as external systems such as legacy ERP systems, marketplaces, payment and fulfillment providers. 
 You can customize your individual data fields and sources for every single process and "translate" them individually for their receivers.  
 
-The *Actindo Workflows* module is a tool that allows you to design, control, map, and monitor your business processes. Based on your special and individual business rules, your company's processes and data can be mapped and made available however and whenever you want. You can easily adapt and automate processes in a graphical way and almost without any code needed. 
+The Actindo *Workflows* module is a tool that allows you to design, control, map, and monitor your business processes. Based on your special and individual business rules, your company's processes and data can be mapped and made available however and whenever you want. You can easily adapt and automate processes in a graphical way and almost without any code needed. 
 
 
 ## Monitoring and Reporting
