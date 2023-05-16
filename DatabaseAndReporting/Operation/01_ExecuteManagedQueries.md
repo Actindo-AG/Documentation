@@ -1,8 +1,7 @@
-[!!User interface Managed queries](../UserInterface/01a_Queries.md)
 [!!Manage the queries](../Integration/01_ManageQueries.md)
 [!!Manage the query categories](../Integration/02_ManageQueryCategories.md)
 [!!Manage the user rights](../Integration/05_ManageUserRights.md)
-
+[!!User interface Managed queries](../UserInterface/01a_Queries.md)
 
 # Execute the managed queries
 
@@ -11,9 +10,11 @@ Once the queries have been predefined, they can be executed. When executing a qu
 Depending on the options that have been enabled in the query, a query can be executed via API or via download link. Moreover, the managed queries may only be executed by users who have been granted the applicable access rights. For detailed information, see [Manage the user rights](../Integration/05_ManageUserRights.md). 
 
 
+
 ## Execute a query via API 
 
 Execute a predefined query to access the available data in your Core1 account. To execute a query via API, the user must be logged in. The query results may be previewed in your browser in CSV or XML format or may be downloaded in a CSV or an XML file. 
+
 
 ### Preview the query results
 
@@ -95,6 +96,7 @@ Execute the query and download the results in a CSV or an XML format file.
 
 6. Click the [EXECUTE] button.   
     The query is executed. The query results are downloaded in the selected file format. By default, the file is saved in the downloads folder of your device. 
+
 
 
 ## Execute a query via download link 

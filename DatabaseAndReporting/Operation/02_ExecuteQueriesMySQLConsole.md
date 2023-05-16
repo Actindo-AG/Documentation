@@ -1,5 +1,5 @@
-[!!User interface Interactive console](../UserInterface/04a_InteractiveConsole.md)
 [!!Manage user rights](../Integration/05_ManageUserRights.md)
+[!!User interface Interactive console](../UserInterface/04a_InteractiveConsole.md)
 
 # Execute queries in MySQL console
 
@@ -7,7 +7,9 @@ MySQL console allows the user to query any data contained in your *Actindo Core1
 
 All data available in the system can be accessed, retrieved and modified using MySQL interactive console. For this reason, MySQL interactive console must be handled with extreme caution, and access rights should only be granted to personnel with the appropriate role and skills. For detailed information about managing user rights, see [Manage user rights](../Integration/05_ManageUserRights.md).
 
-[comment]: <> (Hannah: Wollen wir hier den Inhalt irgendwie als Expertenwissen markieren/kennzeichnen, wie besprochen?)
+[comment]: <> (Julian: Wollen wir hier den Inhalt irgendwie als Expertenwissen markieren/kennzeichnen, wie besprochen?)
+
+
 
 ## Access and retrieve data
 
@@ -30,6 +32,7 @@ The user has been granted the applicable access rights, see [Grant access rights
     The query results are displayed in the interactive console.    
 
     ![Query results](../../Assets/Screenshots/DatabaseAndReporting/MySQLConsole/QueryResultsReadOnly.png "[Query results]")
+
 
 
 ## Edit data
@@ -64,8 +67,8 @@ The user has been granted the applicable access rights, see [Grant access rights
 3. Enter a valid SQL query, for example **INSERT INTO table_name (column1, column2) VALUES (value1, value2)** to edit the selected data accordingly. 
 
     > [Caution] **Potential loss of data**   
-  Editing has the potential to cause loss of data due to overwrite or deletion. The overwrite or deletion cannot be undone and the overwritten or deleted data cannot be restored.    
-  Check all your entries before proceeding. 
+    Editing has the potential to cause loss of data due to overwrite or deletion. The overwrite or deletion cannot be undone and the overwritten or deleted data cannot be restored.    
+    Check all your entries before proceeding. 
 
 4. Press the **ENTER** key.  
     The data has been modified. The query results are displayed in the interactive console.   

@@ -75,7 +75,7 @@ Enter the credentials als provided by InfluxDB in the corresponding fields of th
 4. Enter the password in the *Password* field. 
 
 5. Click the [SAVE] button.  
-     The connection has been saved. The *Create connection* view is closed. The new connection is displayed in the list of connections.
+    The connection has been saved. The *Create connection* view is closed. The new connection is displayed in the list of connections.
 
     ![Connection created](../../Assets/Screenshots/DatabaseAndReporting/Settings/Connections/ConnectionsV1.png "[Connection created]")
 

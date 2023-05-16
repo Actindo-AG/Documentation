@@ -1,6 +1,6 @@
 # Operation
 
-In this part of the *Database and Reporting* documentation, you will find the following chapters:
+In this part of the *Database and reporting* documentation, you will find the following chapters:
 
 - [Execute the managed queries](./01_ExecuteManagedQueries.md)
     - [Execute a query via API](./01_ExecuteManagedQueries.md#execute-a-query-via-api)

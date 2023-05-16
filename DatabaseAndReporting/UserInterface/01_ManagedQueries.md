@@ -1,6 +1,6 @@
 # Managed queries
 
- *Database and reporting > Managed queries*
+*Database and reporting > Managed queries*
 
 The *Managed queries* menu entry is used to manage and execute predefined MySQL queries and to write data into InfluxDB time series databases.
 

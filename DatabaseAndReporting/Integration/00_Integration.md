@@ -1,6 +1,6 @@
 # Integration
 
-In this part of the *Database and Reporting* documentation, you will find the following chapters:
+In this part of the *Database and reporting* documentation, you will find the following chapters:
 
 - [Manage the queries](./01_ManageQueries.md)
     - [Create a query](./01_ManageQueries.md#create-a-query)

@@ -1,6 +1,6 @@
 # User interface
 
-In this part of the *Database and Reporting* documentation, you will find the following chapters:
+In this part of the *Database and reporting* documentation, you will find the following chapters:
 
 - [Managed queries](./01_ManagedQueries.md)
 
