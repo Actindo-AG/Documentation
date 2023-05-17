@@ -10,7 +10,7 @@ A cost object is a product or service in relation to which costs are ascertained
 
 You can create, edit and delete both cost centers and cost objects.
 
-[comment]: <> (Kommentar von Isa: While posting an accounting entry you can either fill in cost center -Kost1- or cost object -Kost2-. Ich finde es aber hier nicht ganz relevant, sie müssen erst hier angelegt werden, oder? -> check mit Isa, was sie meint)
+[comment]: <> (Kommentar von Isa: While posting an accounting entry you can either fill in cost center -Kost1- or cost object -Kost2-. Also, Verteilungstabelle macht so keinen Sinn, denn man kann die Kosten der Projekte/Produkte unter der Abteilungen verteilen.)
 
 
 
@@ -33,9 +33,9 @@ A fiscal year has been selected, see [Select the fiscal year](../Operation/01_Se
     - Click the middle *Cost accounting* drop-down list and select the desired posting period. All available posting periods are displayed.
     - Click the right *Cost accounting* drop-down list and select the **Cost 1 - cost center** option.
 
-    All existing cost centers for the selected period are displayed in the list below. The input lines at the bottom are displayed for a cost center.
+    All existing cost centers for the selected period are displayed in the list below. The input fields at the bottom are displayed for a cost center.
 
-2. Enter a number in the *Cost center* field in the bottom input lines.  
+2. Enter a number in the *Cost center* field in the bottom input fields.  
 
     > [Info] If a number is entered that is already in use, an error message is displayed when clicking the [SAVE & NEW] button.
 
@@ -74,7 +74,7 @@ You can edit a cost center, for example if it needs to be deactivated.
     - Click the middle *Cost accounting* drop-down list and select the desired posting period. All available posting periods are displayed.
     - Click the right *Cost accounting* drop-down list and select the **Cost 1 - cost center** option.
 
-    All existing cost centers for the selected period are displayed in the list below. The input lines at the bottom are displayed for a cost center.
+    All existing cost centers for the selected period are displayed in the list below. The input fields at the bottom are displayed for a cost center.
 
 2. Select the cost center to be edited in the list.  
     The cost center details are displayed in the input fields.
@@ -112,7 +112,7 @@ You can delete a cost center, for example if it is no longer applicable.  If a d
     - Click the middle *Cost accounting* drop-down list and select the desired posting period. All available posting periods are displayed.
     - Click the right *Cost accounting* drop-down list and select the **Cost 1 - cost center** option.
 
-    All existing cost centers for the selected period are displayed in the list below. The input lines at the bottom are displayed for a cost center.
+    All existing cost centers for the selected period are displayed in the list below. The input fields at the bottom are displayed for a cost center.
 
 2. Select the cost center to be deleted in the list.  
     The cost center details are displayed in the input fields.
@@ -150,9 +150,9 @@ A fiscal year has been selected, see [Select the fiscal year](../Operation/01_Se
     - Click the middle *Cost accounting* drop-down list and select the desired posting period. All available posting periods are displayed.
     - Click the right *Cost accounting* drop-down list and select the **Cost 2 - cost object** option.
 
-    All existing cost objects for the selected period are displayed in the list below. The input lines at the bottom are displayed for a cost object.
+    All existing cost objects for the selected period are displayed in the list below. The input fields at the bottom are displayed for a cost object.
 
-2. Enter a number in the *Cost object* field in the bottom input lines.  
+2. Enter a number in the *Cost object* field in the bottom input fields.  
 
     > [Info] If a number is entered that is already in use, an error message is displayed when clicking the [SAVE & NEW] button.
 
@@ -166,7 +166,7 @@ A fiscal year has been selected, see [Select the fiscal year](../Operation/01_Se
 
     > [Info] If necessary, click the [EDIT] button to create or edit a profit center.
 
-7. If desired, click the *Inactive* radio button to deactivate the cost object temporarily. By default, the radio button is set to *Active*. The inactive cost object is then locked for postings.
+7. If desired, click the *Inactive* radio button to deactivate the cost object temporarily. An inactive cost object is locked for postings. By default, the *Active* radio button is selected.  
 
     > [Info] If a cost object has already been posted to or allocated to a cost center, the cost object cannot be deactivated. When selecting the *Inactive* radio button, a warning message is displayed.
 
@@ -199,7 +199,7 @@ You can edit a cost object, for example if it needs to be deactivated.
     - Click the middle *Cost accounting* drop-down list and select the desired posting period. All available posting periods are displayed.
     - Click the right *Cost accounting* drop-down list and select the **Cost 2 - cost object** option.
 
-    All existing cost objects for the selected period are displayed in the list below. The input lines at the bottom are displayed for a cost object.
+    All existing cost objects for the selected period are displayed in the list below. The input fields at the bottom are displayed for a cost object.
 
 2. Select the cost object to be edited in the list.  
     The cost object details are displayed in the input fields.
@@ -237,7 +237,7 @@ You can delete a cost object, for example if it is no longer applicable. If a po
     - Click the middle *Cost accounting* drop-down list and select the desired posting period. All available posting periods are displayed.
     - Click the right *Cost accounting* drop-down list and select the **Cost 2 - cost object** option.
 
-    All existing cost objects for the selected period are displayed in the list below. The input lines at the bottom are displayed for a cost object.
+    All existing cost objects for the selected period are displayed in the list below. The input fields at the bottom are displayed for a cost object.
 
 2. Select the cost object to be deleted in the list.  
     The cost object details are displayed in the input fields.
