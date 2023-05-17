@@ -48,8 +48,8 @@
     The *Execute saved query* window is displayed, see [Execute saved query](#execute-saved-query).
 
 - ![View](../../Assets/Icons/Eye02.png "[View]") (View)   
-      Click this button to visualize the query results on screen. This button is only displayed if a single checkbox in the list of queries is selected.  
-      The *Execute saved query* window is displayed, see [Execute saved query](#execute-saved-query).
+    Click this button to visualize the query results on screen. This button is only displayed if a single checkbox in the list of queries is selected.  
+    The *Execute saved query* window is displayed, see [Execute saved query](#execute-saved-query).
 
 - [COPY DOWNLOAD LINK]  
     Click this button to copy the download link to your clipboard. This button is only displayed if a single checkbox in the list of queries is selected and if public download has been enabled for the selected query.  
@@ -147,7 +147,6 @@ The list displays all predefined queries. Depending on the settings, the display
 
 ![Edit query](../../Assets/Screenshots/DatabaseAndReporting/ManagedQueries/Queries/EditQuery.png "[Edit query]")
 
-
 - *ID*  
     Query identification number. The identification number is automatically assigned by the system when the query is created and cannot be edited.
 
@@ -187,7 +186,6 @@ The list displays all predefined queries. Depending on the settings, the display
     Click this button to save any changes made. The *Edit MySQL query* view is closed. All changes have been applied.
 
 
-
 ### Execute saved query
 
 *Database and reporting > Managed queries > Tab QUERIES > Select query checkbox > Button View*  
@@ -205,7 +203,6 @@ The list displays all predefined queries. Depending on the settings, the display
     Click this button to execute the query. The *Execute saved query* is closed. The query results are displayed in a new window or downloaded in a CSV or XML file to the downloads folder of your device depending on the option previously selected. 
 
 
-
 ### Bind query parameters placeholders
 
 *Database and reporting > Managed queries > Tab QUERIES > Select query checkbox > Button View*  
@@ -220,7 +217,7 @@ The list displays all predefined queries. Depending on the settings, the display
     The predefined SQL query is displayed.
 
 - Placeholder field  
-  Enter the desired value in the placeholder field. The placeholder field name changes according to the description defined for the placeholder when creating the query.
+    Enter the desired value in the placeholder field. The placeholder field name changes according to the description defined for the placeholder when creating the query.
 
 - [CANCEL]   
     Click this button to cancel executing the query. The *Bind query parameters placeholders* is closed.

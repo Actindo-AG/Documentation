@@ -1,6 +1,6 @@
 # Logging
 
- *Database and reporting > Logging*
+*Database and reporting > Logging*
 
 The *Logging* menu entry is used to check the different logs.
 

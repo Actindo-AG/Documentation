@@ -1,6 +1,6 @@
 # Settings
 
- *Database and reporting > Settings*
+*Database and reporting > Settings*
 
 The *Settings* menu entry is used to configure the connections to InfluxDB and to manage the query categories.
 
