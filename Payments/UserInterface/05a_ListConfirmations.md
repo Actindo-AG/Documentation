@@ -1,4 +1,4 @@
-# LIST &ndash; Confirmations
+# LIST (Confirmations)
 
 
 ## Confirmations &ndash; Attributes

@@ -27,7 +27,7 @@ Bank statements and reports from payment service providers can be automatically 
 
 
 ## Payment processing and accounting linked 
- The Actindo Payment module connects the business accounts at your various payment service providers and the Actindo Accounting module. In being the smart connection between those two modules, the Actindo Payment helps you to process orders faster and more efficiently. Thanks to automated payment checks, incoming payments are registered directly, and orders could therefore be processed immediately. Refunds can be made just as quickly and automatically. By linking payment and accounting, you not only minimize the workload for your employees, but also offer your customers a smooth and fast service. 
+ The Actindo *Payment* module connects the business accounts at your various payment service providers and the Actindo *Accounting* module. In being the smart connection between those two modules, the Actindo *Payment* module helps you to process orders faster and more efficiently. Thanks to automated payment checks, incoming payments are registered directly, and orders could therefore be processed immediately. Refunds can be made just as quickly and automatically. By linking payment and accounting, you not only minimize the workload for your employees, but also offer your customers a smooth and fast service. 
 
 
 ## Managing all payments centrally 

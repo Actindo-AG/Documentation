@@ -1,4 +1,4 @@
-# LIST &ndash; Cancellations and Chargebacks
+# LIST (Cancellations and Chargebacks)
 
 
 

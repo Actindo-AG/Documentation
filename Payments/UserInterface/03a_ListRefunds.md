@@ -1,4 +1,4 @@
-# LIST &ndash; Refunds
+# LIST (Refunds)
 
 
 ## Refunds &ndash; Attributes

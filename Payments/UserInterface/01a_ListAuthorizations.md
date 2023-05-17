@@ -1,6 +1,6 @@
-# LIST - Authorizations
+# LIST (Authorizations)
 
-![Authorizations](../../Assets/Screenshots/Payments/Authorization/Authorizations.png "[Authorizations]")
+![Authorizations](../../Assets/Screenshots/Payments/Authorizations/LISTAuthorizations.png "[Authorizations]")
 
 **Authorizations**
 
@@ -57,9 +57,10 @@
 
 
 ## Authorizations &ndash; Attributes
-*Payments > Payments and Captures > Tab LIST > Select an authorization ticket > Tab Attributes*
+*Payments > Payments and Captures > Tab LIST > Select an authorization ticket > Tab Attributes*   
 
-![Attributes](../../Assets/Screenshots/Payments/Authorization/Attributes.png "[Attributes]")
+
+![Attributes](../../Assets/Screenshots/Payments/Authorizations/AuthorizationAttributes.png "[Attributes]")
 
 
 
@@ -70,20 +71,25 @@ incoming payment base data: Allgemeine FElder, die Actindo benötigt diese Daten
 ## Authorizations &ndash; Dependencies
 *Payments > Menu entry > Tab LIST > Select an authorization ticket > Tab Dependencies*
 
-![Dependencies](../../Assets/Screenshots/Payments/Authorization/Dependencies.png "[Dependencies]")
+![Dependencies](../../Assets/Screenshots/Payments/Authorizations/AuthorizationDependencies.png "[Dependencies]")   
+
 
 Because in general an authorization ticket has no dependencies to other entities in Actindo, this sub-tab is not relevant.
 
-## Authorizations  &ndash; Logs
-*Payments > Menu entry > Tab LIST > Select an entry > Tab Logs*
-![Logs](../../Assets/Screenshots/Payments/Authorization/Logs.png "[Logs]")
+## Authorizations &ndash; Logs   
+
+
+*Payments > Menu entry > Tab LIST > Select an entry > Tab Logs*   
+
+
+![Logs](../../Assets/Screenshots/Payments/Authorizations/AuthorizationLogs.png "[Logs]")
 
 
 ## Create view
 
 *Payments > Authorizations > Tab LIST > Button Points > Menu entry create*
 
-![Create view](../../Assets/Screenshots/Payments/Authorizations/CreateView.png "[Create view]")
+![Create view](../../Assets/Screenshots/Payments/LIST/CreateView.png "[Create view]")
 
 - *Name*   
     Enter a name for the view.
@@ -100,13 +106,13 @@ Because in general an authorization ticket has no dependencies to other entities
 
 *Payments > Authorizations > Tab LIST > Button Points > Menu entry rename*
 
-![Rename view](../../Assets/Screenshots/Payments/Authorizations/RenameView.png "[Rename view]")
+![Rename view](../../Assets/Screenshots/Payments/LIST/RenameView.png "[Rename view]")
 
 - *Name*   
     Click this field to edit the view name.
 
 - [CANCEL]   
-    Click this button to cancel renaming the view. The  *Rename view* window is closed.
+    Click this button to cancel renaming the view. The *Rename view* window is closed.
 
 - [SAVE]   
     Click this button to save the changes and display it in the *VIEW* drop-down list. The *Rename view* window is closed.

@@ -83,7 +83,7 @@ The list displays all available connections. Depending on the settings, the disp
 
 *Payments > Settings > Tab CONNECTIONS > Button Add*
 
-![Create connection](../../Assets/Screenshots/Payments/Settings/CreateConnection.png "[Create connection]")
+![CONNECTIONS - Connection](../../Assets/Screenshots/Payments/Settings/CreateConnection.png "[CONNECTIONS > Connection]")
 
 - ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)   
     Click this button to close the *Create connection* view and return to the list of connections. All changes are rejected.
@@ -104,7 +104,7 @@ The list displays all available connections. Depending on the settings, the disp
 
 **Credentials**
 
-The fields displayed in the *Credentials* section vary depending on the selected driver. 
+The fields displayed in the *Credentials* tab vary depending on the selected driver. 
 
 - [SAVE]  
     Click this button to save the connection.
@@ -115,7 +115,7 @@ The fields displayed in the *Credentials* section vary depending on the selected
 
 *Fulfillment > Settings > Tab CONNECTIONS > Select a connection*
 
-![Edit connection](../../Assets/Screenshots/Fulfillment/Settings/Connections/EditConnectionCredentials.png "[Edit connection]")
+![CONNECTIONS](../../Assets/Screenshots/Payments/Settings/Connections/EditConnectionCredentials.png "[CONNECTIONS]")
 
 - ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)   
     Click this button to close the *Edit connection* view and return to the list of connections. All changes are rejected.
@@ -136,9 +136,12 @@ The fields displayed in the *Credentials* section vary depending on the selected
 
 ## Edit connection &ndash; Credentials
 
-*Fulfillment > Settings > Tab CONNECTIONS > Select a connection > Tab Credentials*
+*Payments > Settings > Tab CONNECTIONS > Select a connection > Tab Credentials*
 
-![Create connection](../../Assets/Screenshots/Fulfillment/Settings/Connections/EditConnectionCredentials.png "[Create connection]")
+
+
+![CONNECTIONS](../../Assets/Screenshots/Payments/Settings/EditConnectionCredentials.png "[CONNECTIONS]")   
+
 
 - *Driver*  
     Selected driver name. This drop-down list is read-only.
@@ -154,11 +157,13 @@ The fields displayed in the *Credentials* section vary depending on the selected
 
 ## Edit connection &ndash; Settings
 
-*Fulfillment > Settings > Tab CONNECTIONS > Select a connection > Tab Settings*
+*Payments > Settings > Tab CONNECTIONS > Select a connection > Tab Settings*   
 
-![Edit connection](../../Assets/Screenshots/Fulfillment/Settings/Connections/EditConnectionSettings.png "[Edit connection]")
 
-This tab is only displayed for drivers with further settings. The settings can only be configured after the connection has been established. The fields displayed vary depending on the driver installed.
+![CONNECTIONS](../../Assets/Screenshots/Payments/Settings/EditConnectionSettings.png "[CONNECTIONS]")   
+
+
+This tab is only displayed for drivers with further settings. You can configure the settings after the connection has been established. The fields displayed vary depending on the driver installed.
 
 - [SAVE]  
     Click this button to save any changes made.
@@ -171,7 +176,7 @@ This tab is only displayed for drivers with further settings. The settings can o
 
 *Fulfillment > Settings > Tab CONNECTIONS > Button Points > Menu entry create*
 
-![Create view](../../Assets/Screenshots/Fulfillment/DispatchNotes/CreateView.png "[Create view]")
+![Create view](../../Assets/Screenshots/Payments/LIST/CreateView.png "[Create view]")
 
 For a detailed description of this window and the corresponding functions, see [Create view](./01a_List.md#create-view).
 
@@ -181,6 +186,6 @@ For a detailed description of this window and the corresponding functions, see [
 
 *Fulfillment > Settings > Tab CONNECTIONS > Button Points > Menu entry rename*
 
-![Rename view](../../Assets/Screenshots/Fulfillment/DispatchNotes/RenameView.png "[Rename view]")
+![Rename view](../../Assets/Screenshots/Payments/LIST/RenameView.png "[Rename view]")
 
 For a detailed description of this window and the corresponding functions, see [Rename view](./01a_List.md#rename-view).

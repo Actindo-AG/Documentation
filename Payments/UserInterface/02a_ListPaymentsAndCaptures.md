@@ -1,4 +1,4 @@
-# LIST &ndash; Payments and Captures
+# LIST (Payments and Captures)
 
 
 
