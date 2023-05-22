@@ -62,9 +62,21 @@
 
 ![Attributes](../../Assets/Screenshots/Payments/Authorizations/AuthorizationAttributes.png "[Attributes]")
 
+In the left margin column, all available attribute groups are displayed. Click a group to display the attributes that are assigned to this group on the right side of the *Attributes* tab. If the authorization transaction contains attributes that are not assigned, the *Unassigned group* attribute group is automatically displayed in the left margin column.
+
+- ![Folders](../../Assets/Icons/Folders01.png "[Folders]") (Folders)  
+    Attribute group that contains attribute sub-groups. Click the attribute group or the arrow left to the attribute group to expand the group and display the attribute sub-groups. The following sub-groups are available:
+    - *[Payment service provider] Incoming Payment Base Data*   
+      This folder contains attributes that are specific for the payment service provider who has sent this authorization ticket.
+    - *Incoming Payment Base Data*   
+      This folder contains general fields that Actindo needs to query payments data. These data support standard functions of Actindo. 
+
+- ![Folder](../../Assets/Icons/Folder01.png "[Folder]") (Folder)  
+    Attribute group. Click the attribute group to display all attributes that are assigned to the selected attribute group on the right side of the *Attributes* tab.
+
+The right side of the *Attributes* tab displays all attributes that are assigned to the selected group in the left margin column. Depending on the selected attribute group, the displayed fields may vary. The attributes are imported via the payment service provider driver. All fields are read-only.
 
 
-incoming payment base data: Allgemeine FElder, die Actindo benötigt diese Daten unterstützen die Standardfunktionen vom Payments modul Abfragen auf diese FElder
 
 
 
@@ -74,7 +86,7 @@ incoming payment base data: Allgemeine FElder, die Actindo benötigt diese Daten
 ![Dependencies](../../Assets/Screenshots/Payments/Authorizations/AuthorizationDependencies.png "[Dependencies]")   
 
 
-Because in general an authorization ticket has no dependencies to other entities in Actindo, this sub-tab is not relevant.
+Since an authorization ticket has no dependencies to other entities in Actindo  by default, this sub-tab is not relevant.
 
 ## Authorizations &ndash; Logs   
 

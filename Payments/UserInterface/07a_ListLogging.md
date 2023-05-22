@@ -69,15 +69,9 @@ The list displays all intents. Depending on the settings, the displayed columns 
 
 - *Max log level of message*  
     Maximum log level type of the message(s) contained in the intent. The following levels are available:   
- <!--- **Debug**-->
-  <!---- **Info**-->
- - **Notice**
-  <!---- **Warning**-->
-  - **Error**
- <!--- *Critical**-->
-  <!---- **Alert**-->
-  <!---- **Emergency**-->
-
+     - **Notice**   
+     - **Error**   
+        
 - *ID*  
     Intent identification number. The ID number is automatically assigned by the system.
 
@@ -101,26 +95,16 @@ The list displays all intents. Depending on the settings, the displayed columns 
     Click this button to close the *List of messages* view and return to the list of intents. All changes are rejected.
 
 
-
-<!---- ![View](../../Assets/Icons/Eye02.png "[View]")  (View)   
-    Click this button to display the details of the log message. Alternatively, you can click directly a row in the list to display the details of the log message. The *Detail of log message "Log message title"* view is displayed, see [Detail of log message](#detail-of-log-message). -->
-
 The list displays all log messages of the selected intent. Depending on the settings, the displayed columns may vary. All fields are read-only.
 
 - *Title*  
     Title of the log message.
 
 - *Log level*  
-    Log level type. The following options are available:
-    <!--- **Debug**-->
-  <!---- **Info**-->
- - **Notice**
-  <!---- **Warning**-->
-  - **Error**
- <!--- *Critical**-->
-  <!---- **Alert**-->
-  <!---- **Emergency**-->
-
+    Log level type. The following levels are available:   
+     - **Notice**   
+     - **Error**   
+ 
 - *Created at*  
     Date and time of the creation.
 
@@ -138,12 +122,11 @@ The list displays all log messages of the selected intent. Depending on the sett
 
 *Payments > Logging > Tab LIST > Select an intent > Select a log message*   
 
-![List of messages](../../Assets/Screenshots/Payments/Logging/ListMessages.png "[List of messages]")   
+![Detail of log message](../../Assets/Screenshots/Payments/Logging/DetailLogMessageAttributes.png "[Detail of log message]")
 
 
 - ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)   
-    Click this button to close the *Detail of log message "Log message title"* view and return to the list of messages. All changes are rejected.
-
+    Click this button to close the *Detail of log message "Log message title"* view and return to the list of messages.    
 - [CANCEL]  
     Click this button to close the *Detail of log message "Log message title"* view.
 
@@ -153,7 +136,7 @@ The list displays all log messages of the selected intent. Depending on the sett
 
 ### Detail of log message &ndash; Attributes
 
-*Fulfillment > Logging > Tab CONNECTIONS > Select an intent > Select a log message > Tab Attributes*
+*Payments > Logging > Tab CONNECTIONS > Select an intent > Select a log message > Tab Attributes*
 
 ![Detail Log Message Attributes](../../Assets/Screenshots/Payments/Logging/DetailLogMessageAttributes.png "[Detail Log Message Attributes]")
 
@@ -164,7 +147,7 @@ In general, the most common attribute sets are the standard error log message at
 **Standard error log message attribute set**
 
 - *Error code*  
-    Error code number.
+    Number of the error code.
 
 - *File*  
     Path of the file where the error has occurred.
@@ -184,7 +167,7 @@ In general, the most common attribute sets are the standard error log message at
 **API communication attribute set**
 
 - *Code*   
-    Http response status code. For detailed information about the http status codes, see [http status codes](https://www.rfc-editor.org/rfc/rfc9110#section-15).
+    Http response status code. For detailed information about the http status codes, see [http status codes](https://www.rfc-editor.org/rfc/rfc9110#section-15) website.
 
 - *Endpoint and method*   
     Http method of the API request and url endpoint to which the request was sent.
@@ -201,13 +184,11 @@ In general, the most common attribute sets are the standard error log message at
 
 ### Detail of log message &ndash; Dependencies
 
-*Fulfillment > Logging > Tab CONNECTIONS > Select an intent > Select a log message > Tab Dependencies*
+*Payments > Logging > Tab CONNECTIONS > Select an intent > Select a log message > Tab Dependencies*
 
-![List of messages](../../Assets/Screenshots/Fulfillment/Logging/DetailLogMessageDependencies02.png "[List of messages]")
+![Detailed log message &ndash; Attributes](../../Assets/Screenshots/Fulfillment/Logging/DetailLogMessageDependencies02.png "[Detailed log message &ndash; Attributes]")
 
-**Dependencies**
-
-The Payments module only handles the communication between the payment service provider and Actindo. For this reason there are in general no dependencies to other Actindo entities that could be displayed here.
+The *Payments* module only handles the communication between the payment service provider and Actindo. For this reason there are in the standard no dependencies to other Actindo entities that could be displayed here.
 
 ## Create view
 
@@ -223,7 +204,6 @@ The Payments module only handles the communication between the payment service p
 
 - [SAVE]   
     Click this button to save the new view and display it in the *VIEW* drop-down list. The *Create view* window is closed.
-
 
 
 
