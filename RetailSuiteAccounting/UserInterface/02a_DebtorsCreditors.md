@@ -408,7 +408,7 @@ To add further delivery addresses, see [Further addresses](#further-addresses).
     Enter a standard cost center for the postings.
 
 - *Standard cost 2*  
-    Enter a standard cost unit for the postings.
+    Enter a standard cost object for the postings.
 
 
 **Credit card details**

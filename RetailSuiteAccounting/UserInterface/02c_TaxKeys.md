@@ -119,7 +119,7 @@ The input fields below allow to create, edit or delete tax keys. For detailed in
     Make sure you really want to delete the selected data.
 
 - [CLEAR]  
-    Click this button to clear all fields.
+    Click this button to clear all input fields.
 
 - [HELP]  
     This function is currently not available.

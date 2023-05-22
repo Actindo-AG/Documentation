@@ -147,7 +147,7 @@ If no report line has been yet added, the notice *No report lines created. Use +
     - **Sum**
     - **Don't show**
 
-[comment]: <> (Info fehlt! Alle/Fast alle Zeilen in bestehenden Berichten sind Normal. Was passiert mit Sum und Don't show? Evtl. Do not display statt Don't show?)
+[comment]: <> (Warte auf Feedback von Patrick)
 
 - *Print*  
     Value predefined for the line in the output file. The following options are available:  
@@ -167,14 +167,15 @@ If no report line has been yet added, the notice *No report lines created. Use +
     - **Calculation**  
         Calculation formula entered.  
     - **Assessment**  
+        This option is currently not supported.
 
-[comment]: <> (Info fehlt! Was bedeutet Assessment?)
+[comment]: <> (Info fehlt! Feedback von Patrick. DE: Umlagen -> Quelle: alte Doku-Webseite)
 
 - *ID*  
     Report line identification number. The ID number is automatically assigned by the system when the report line is created.
 
 - ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add)   
-    Click this button to create an accounting report line. The *Create* view is displayed, see [Create report lines](#create-report-line).
+    Click this button to create an accounting report line. The *Create* view is displayed, see [Create report line](#create-report-line).
 
 
 
@@ -182,7 +183,7 @@ If no report line has been yet added, the notice *No report lines created. Use +
 
 *Accounting > Settings > Tab BWA ASSIGNMENT > Select accounting report > Button Add*
 
-![Create report lines](../../Assets/Screenshots/RetailSuiteAccounting/Settings/BWAAssignment/CreateReportLines.png "[Create report lines]")
+![Create report line](../../Assets/Screenshots/RetailSuiteAccounting/Settings/BWAAssignment/CreateReportLines.png "[Create report line]")
 
 - ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)    
     Click this button to close the *Create* view and return to the list of accounting report lines. All changes are rejected.
@@ -215,7 +216,7 @@ If no report line has been yet added, the notice *No report lines created. Use +
     - **Sum**
     - **Don't show**
 
-[comment]: <> (Besser "Do not display"? Wie unterscheiden sich die drei Optionen?)
+[comment]: <> (Warte auf Feedback von Patrick)
 
 - *Text*  
     Enter a description to the current line.
@@ -227,8 +228,9 @@ If no report line has been yet added, the notice *No report lines created. Use +
     - **Calculation**  
         Select this option to enter a calculation formula. When selecting this option, the *Formula* field is unlocked.
     - **Assessment**  
+        This option is currently not supported.
 
-[comment]: <> (Was ist mit Assessment gemeint? Was ist die Funktion? Auf DE: Umlagen -> Quelle: alte Doku-Webseite. EN = Levies/charges?)
+[comment]: <> (Info fehlt! Feedback von Patrick. DE: Umlagen -> Quelle: alte Doku-Webseite)
 
 - *Formula*  
     Enter the applicable formula. This field is only unlocked when the **Calculation** option in the *Function* drop-down list is selected. The basic calculating operations (+, -, *, /) are permitted.
@@ -239,12 +241,12 @@ If no report line has been yet added, the notice *No report lines created. Use +
 **Percent / Columns**
 
 - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") x  
-    Enable this toggle to apply a specific formula in a column. The *x* indicates the number of the column. For each line, the column *1*, *2*,  *3* and/or *4* can be enabled. The corresponding formula must be defined in the *Formula* field on the right. Disable the toggle to not apply the formula.
+    Enable the toggle *1* to apply a specific formula in an additional column in the BWA report. This function is used to calculate the percentage of the value expressed in the current line in relation to the overall turnover. The corresponding formula must be defined in the *Formula* field on the right. Disable the toggle to not apply the formula.
 
 - *Formula*  
     Enter the applicable formula for the percentage calculation of the corresponding column. The basic calculating operations (+, -, *, /) are permitted.
 
-[comment]: <> (Alte-Doku-Webseite: Für jede BWA können Sie max. 4 Prozent-Spalten einfügen. Der Prozentsatz bezieht sich auf den Gesamtumsatz. Wählen Sie eine Spalte an und klicken Sie auf Formel, um die Formel einzugeben. Stimmt? Wie funktioniert es?)
+[comment]: <> (Spalten 2-4 nicht definiert bzw. weiterentwickelt, da nicht in Gebrauch, bestätigt in RS mit Teamlead Finance)
 
 
 
@@ -283,7 +285,7 @@ If no report line has been yet added, the notice *No report lines created. Use +
     - **Sum**
     - **Don't show**
 
-[comment]: <> (Besser "Do not display"? Wie unterscheiden sich die drei Optionen?)
+[comment]: <> (Warte auf Feedback von Patrick)
 
 - *Text*  
     Click this field to edit the description to the current line.
@@ -295,8 +297,9 @@ If no report line has been yet added, the notice *No report lines created. Use +
     - **Calculation**  
         Select this option to enter a calculation formula. When selecting this option, the *Formula* field is unlocked.
     - **Assessment**  
+        This option is currently not supported.
 
-[comment]: <> (Was ist mit Assessment gemeint? Was ist die Funktion? Auf DE: Umlagen -> Quelle: alte Doku-Webseite. EN = Levies/charges?)
+[comment]: <> (Info fehlt! Feedback von Patrick. DE: Umlagen -> Quelle: alte Doku-Webseite)
 
 - *Formula*  
     Click this field to edit the applicable formula. This field is only unlocked when the **Calculation** option in the *Function* drop-down list is selected. The basic calculating operations (+, -, *, /) are permitted.
@@ -304,10 +307,10 @@ If no report line has been yet added, the notice *No report lines created. Use +
 **Percent / Columns**
 
 - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") x  
-    Enable this toggle to apply a specific formula in a column. The *x* indicates the number of the column. For each line, the column *1*, *2*,  *3* and/or *4* can be enabled. The corresponding formula must be defined in the *Formula* field on the right. Disable the toggle to not apply the formula.
+    Enable the toggle *1* to apply a specific formula in an additional column in the BWA report. This function is used to calculate the percentage of the value expressed in the current line in relation to the overall turnover. The corresponding formula must be defined in the *Formula* field on the right. Disable the toggle to not apply the formula.
 
 - *Formula*  
     Click this field to edit the applicable formula for the percentage calculation of the corresponding column. The basic calculating operations (+, -, *, /) are permitted.
 
-[comment]: <> (Alte-Doku-Webseite: Für jede BWA können Sie max. 4 Prozent-Spalten einfügen. Der Prozentsatz bezieht sich auf den Gesamtumsatz. Wählen Sie eine Spalte an und klicken Sie auf Formel, um die Formel einzugeben. Stimmt? Wie funktioniert es?)
+[comment]: <> (Spalten 2-4 nicht definiert bzw. weiterentwickelt, da nicht in Gebrauch, bestätigt in RS mit Teamlead Finance)
 

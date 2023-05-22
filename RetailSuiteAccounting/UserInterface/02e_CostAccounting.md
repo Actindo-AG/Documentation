@@ -8,7 +8,7 @@
 ![Cost accounting - not defined](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CostAccounting/CostAccountingNo.png "[Cost accounting - not defined]")
 
 - *Cost accounting*  
-    Click the corresponding drop-down list to select the relevant accounting period (fiscal year and month) and the cost center/unit. The following drop-down lists are displayed:
+    Click the corresponding drop-down list to select the relevant accounting period (fiscal year and month) and the cost center/object. The following drop-down lists are displayed:
     - Fiscal year drop-down list  
         Click the drop-down list to select the relevant fiscal year. All available fiscal years are displayed in the list.  
     - Month drop-down list  
@@ -27,7 +27,7 @@
   - [Cost center](#cost-center)
   - [Cost object](#cost-object)
 
-[comment]: <> (Monat drop-down list: es fehlt 16-19 Abschlussbuchungen und 99 Allgemeiner Monat?)
+[comment]: <> (Monat drop-down list: es fehlt 16-19 Abschlussbuchungen und 99 Allgemeiner Monat? FETA ticket)
 
 
 
@@ -43,7 +43,7 @@ The list displays all available cost centers in the selected accounting period. 
     Cost center number.
 
 - *Description*  
-    Descriptive cost center name.
+    Cost center descriptive name.
 
 - *Inactive*  
     Cost center status. The word **Inactive** is displayed if the cost center has been deactivated.
@@ -81,23 +81,16 @@ The input fields below allow to enter or modify the cost center details.
 - [SAVE]  
     Click this button to save any changes made to the selected cost center. The button is only unlocked if a cost center has been selected. For detailed information about editing a cost center, see [Edit a cost center](../Integration/08_ManageCostAccounting.md#edit-a-cost-center).
 
-    > [Info] Be aware that all saved changes will overwrite the existing cost center data.
-
 - [DELETE]  
     Click this button to delete the selected cost center. The button is only unlocked if a cost center has been selected. For detailed information about deleting a cost center, see [Delete a cost center](../Integration/08_ManageCostAccounting.md#delete-a-cost-center).
 
-    > [Warning] **Loss of data**   
-    Deleting will permanently remove the selected data. The deletion cannot be undone and the deleted data cannot be restored.       
-    Problems may occur due to unresolved dependencies.   
-    Make sure you really want to delete the selected data.
-
 - [CLEAR]  
-    Click this button to clear all fields.
+    Click this button to clear all input fields.
 
 - [PRINT]  
     Click this button to print the cost center or object. The *Print cost center/object* window is displayed, see [Print cost center/object](#print-cost-centerobject).
 
-[comment]: <> (Eigentlich heißt das Fenster Cost center/unit, aber ich habe zu Print cost center/unit umbenannt hier.)
+[comment]: <> (Eigentlich heißt das Fenster Cost center/object, aber ich habe zu Print cost center/object umbenannt hier.)
 
 
 
@@ -113,15 +106,13 @@ The list displays all available cost objects in the selected accounting period. 
     Cost object number.
 
 - *Description*  
-    Descriptive cost object name.
+    Cost object descriptive name.
 
 - *Inactive*  
     Cost object status. The word **Inactive** is displayed if the cost object has been deactivated.
 
 - *Active from*  
     Validity start date.
-
-[comment]: <> (Allgemeine Info fehlt! Wann kommt das Datum vor?)
 
 - *ProfitCenter*  
     Assigned profit center.
@@ -153,39 +144,30 @@ The input fields below allow to enter or modify the cost object details.
     - [EDIT...]  
         Click this button to edit or create a profit center. The *ProfitCenter* window is displayed, see [ProfitCenter](#profitcenter).
 
-[comment]: <> (Unsicher, check mit FH/Fachreviewer!)
-
 - [SAVE & NEW]  
     Click this button to save the new cost object. The button is locked if a cost object has been selected. For detailed information about creating a cost object, see [Create a cost object](../Integration/08_ManageCostAccounting.md#create-a-cost-object).
 
 - [SAVE]  
     Click this button to save any changes made to the selected cost object. The button is only unlocked if a cost object has been selected. For detailed information about editing a cost object, see [Edit a cost object](../Integration/08_ManageCostAccounting.md#edit-a-cost-object).
 
-    > [Info] Be aware that all saved changes will overwrite the existing cost object data.
-
 - [DELETE]  
     Click this button to delete the selected cost object. The button is only unlocked if a cost object has been selected. A cost object can only be deleted if no costs from any cost center are assigned to it. For detailed information about deleting a cost object, see [Delete a cost object](../Integration/08_ManageCostAccounting.md#delete-a-cost-object).
 
-    > [Warning] **Loss of data**   
-    Deleting will permanently remove the selected data. The deletion cannot be undone and the deleted data cannot be restored.       
-    Problems may occur due to unresolved dependencies.   
-    Make sure you really want to delete the selected data.
-
 - [CLEAR]  
-    Click this button to clear all fields.
+    Click this button to clear all input fields.
 
 - [PRINT]  
     Click this button to print the cost center or object. The *Print cost center/object* window is displayed, see [Print cost center/object](#print-cost-centerobject).
 
-[comment]: <> (Eigentlich heißt das Fenster Cost center/unit, aber ich habe zu Print cost center/unit umbenannt hier.)
+[comment]: <> (Eigentlich heißt das Fenster Cost center/object, zu Print cost center/object hier umbenannt. FETA Ticket dazu)
 
 
 
-## Print cost center/object
+### Print cost center/object
 
 *Accounting > Settings > Tab COST ACCOUNTING > Button PRINT*  
 
-![Print cost center/object](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CostAccounting/CostCenterUnit.png "[Print cost center/object]")
+![Print cost center/object](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CostAccounting/CostCenterObject.png "[Print cost center/object]")
 
 - *Cost center/object*  
     Click the drop-down list to select whether the cost centers or cost objects are to be printed. The following options are available:
@@ -242,9 +224,9 @@ The input fields below allow to enter or modify the cost object details.
 - [EXCEL]  
     Click this button to display the *EXCEL* context menu. The following options are available:  
     - **Export current page**  
-        Click this option to export the allocation table currently displayed. The allocation table is exported in Excel format and saved by default in the Downloads folder in your computer.
+        Click this option to export the allocation table currently displayed. The allocation table is exported in Excel format and saved by default in the Downloads folder in your device.
     - **Export all**  
-        Click this option to export all available allocation tables. The allocation tables are exported in Excel format and saved by default in the Downloads folder in your computer.
+        Click this option to export all available allocation tables. The allocation tables are exported in Excel format and saved by default in the Downloads folder in your device.
 
       > [Info] The [EXCEL] button is only displayed if the *Statistics* module is installed.
 
@@ -265,9 +247,7 @@ The list displays the allocation of costs among the cost centers and objects. De
     For each available cost object, a single column is displayed in the list.
 
 - *&#931; %*  
-    Total sum or total percentage of all cost objects. The displayed number changes automatically. The total must equal 100 to be saved. That means that all costs must be allocated to the individual cost objects. Otherwise, an error message is displayed when clicking the [SAVE] button.
-
-[comment]: <> (Check mit FH/Fachreviewer! Generell mehr Info gebraucht für dieses Kapitel.)
+    Total sum or total percentage of all cost objects. The displayed number changes automatically. The total must equal 100 to be saved. That means that all cost centers' costs must be allocated to the individual cost objects. Otherwise, an error message is displayed when clicking the [SAVE] button.
 
 - *Allocation*   
     Double-click this field to activate it. Click the drop-down list to select the allocation method. The following options are available:  
@@ -277,9 +257,7 @@ The list displays the allocation of costs among the cost centers and objects. De
         Select this option to allocate costs based on a formula defined in the *Formula* field.
 
 - *Formula*  
-    Double-click this field to activate it and enter an excel formula. The basic calculating operations (+, -, *, /) are permitted.
-
-[comment]: <> (Unsicher, wie die Formel funktioniert! Check! The basic calculating operations +, -, *, / are permitted. -> stimmt so? Ggf. Beispiel ergänzen. Formelaufbau ist unklar.)
+    Double-click this field to activate it and enter an Excel formula. The basic calculating operations (+, -, *, /) are permitted.
 
 - [CLOSE]  
     Click this button to close the *Allocation table* window.
@@ -290,7 +268,7 @@ The list displays the allocation of costs among the cost centers and objects. De
 - [SAVE]  
     Click this button to save any changes made to the allocation table. The *Saving...* pop-up window is displayed.
 
-####  Select period
+#### Select period
 
 *Accounting > Settings > Tab COST ACCOUNTING > Drop-down option Cost1 - Cost center > Button ALLOCATION TABLE > Button CHANGE PERIOD*
 
@@ -319,8 +297,9 @@ The list displays the allocation of costs among the cost centers and objects. De
     - **0 - Balances carried forward**
     - **1 - 12 - (calendar month)**
     - **13 - 15 - Subsequent postings**
-    - **16 - 25 - Closing postings**
     - **99 - General month**
+
+[comment]: <> (Monate stimmen mit Drop-down list oben nicht überein. 99 allg. Monat nicht dabei. 16-25 Nachtr. Buchungen auch nicht dabei. Evtl. FETA ticket)
 
 - *Fiscal year*  
     Click the drop-down list to select the desired fiscal year. All available fiscal years are displayed.

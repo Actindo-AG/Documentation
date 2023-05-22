@@ -106,11 +106,11 @@ In this part of the *Accounting* documentation, you will find the following chap
 
 - [COST ACCOUNTING](./02e_CostAccounting.md)
     - [Cost center](./02e_CostAccounting.md#cost-center)
-    - [Cost object](./02e_CostAccounting.md#cost-object)
-    - [Print cost center/object](./02e_CostAccounting.md#print-cost-centerobject)
         - [Allocation table](./02e_CostAccounting.md#allocation-table)
+    - [Cost object](./02e_CostAccounting.md#cost-object)
         - [Select address](./02e_CostAccounting.md#select-address)
         - [ProfitCenter](./02e_CostAccounting.md#profitcenter)
+    - [Print cost center/object](./02e_CostAccounting.md#print-cost-centerobject)
 
 - [FIXED POSTINGS](./02f_FixedBookings.md)
     - [Fixed posting batch name](./02f_FixedBookings.md#fixed-booking--batch)

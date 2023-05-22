@@ -41,7 +41,7 @@ Special journals are preconfigured in the system to carry balances and open item
 
 [comment]: <> (Saldenvorträge werden immer auf den 01.01. gemacht. Wieso ist das Datum da? Check mit Isa und Satz anpassen)
 
-6. Select the appropriate option(s) in the *Cost accounting* field if you also want to carry forward cost centers, cost objects or inactive cost centers/units.
+6. Select the appropriate option(s) in the *Cost accounting* field if you also want to carry forward cost centers, cost objects or inactive cost centers/objects.
 
 7. Select the *Delete old balances carried forward from selected FY* checkbox if necessary.
 

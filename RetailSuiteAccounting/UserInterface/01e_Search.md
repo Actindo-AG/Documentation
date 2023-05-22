@@ -118,8 +118,8 @@ All available accounts that match the search criteria are displayed in a list be
     - *Cost center*  
         Enter the cost center to be searched for.
 
-    - *Cost unit*  
-        Enter the cost unit to be searched for.
+    - *Cost object*  
+        Enter the cost object to be searched for.
 
     - *Processed*  
         Select the *Posting processed* checkbox to search for postings with this status.

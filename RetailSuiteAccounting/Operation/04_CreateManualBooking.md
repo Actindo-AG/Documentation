@@ -36,7 +36,7 @@ A fiscal year has been selected, see [Select fiscal year](./01_SelectFiscalYear.
 
     > [Info] After you have entered at least two numbers in the field, a list is displayed below the field with all accounts matching the entry. You can also select the corresponding account in the list.
 
-7.  If desired, enter any other relevant manual posting information in the corresponding fields, for example the detailed description of the transaction background or the cost unit/object number in case you work with cost accounting.
+7.  If desired, enter any other relevant manual posting information in the corresponding fields, for example the detailed description of the transaction background or the cost center/object number in case you work with cost accounting.
 
 8. Click the [POST] button.  
     The manual posting is created. The notice "Posted." is displayed above the input line. The manual posting is displayed in the postings list.

@@ -25,9 +25,7 @@ In all tabs of the *Post* menu entry, an identical header is displayed. The cont
         Click this menu entry to take over automatically cash payments registered in the cash book. The *Cash book takeover* window is displayed, see [Cash book takeover](#cash-book-takeover).
 
     - *Bank data takeover*  
-        Click this menu entry to take over bank and payment details registered in the *Payment processing* module. The *Bank data synchronizing* window is displayed, see [Bank data takeover](#bank-data-takeover). This function is no longer supported and, therefore, it is not described.
-
-    [comment]: <> (Isas Kommentar: ??? Wir arbeiten mit Übernahme Bankdaten. RS mit Isa!)
+        Click this menu entry to take over bank and payment details registered in the *Payment processing* module. The *Bank data synchronizing* window is displayed, see [Bank data takeover](#bank-data-takeover). 
 
     - ![Lock](../../Assets/Icons/Lock02.png "[Lock]") *Process*  
         Click this menu entry to process several postings simultaneously. The *Process postings* window is displayed, see [Process](#process).
@@ -72,7 +70,7 @@ In all tabs of the *Post* menu entry, an identical header is displayed. The cont
         Click this menu entry to display the *ProfitCenter* window, see [ProfitCenter](#profitcenter).
 
     - *Cost object comparison*  
-        Click this menu entry to display the *Cost object comparison* window, see [Cost object comparison](#cost-unit-comparison).
+        Click this menu entry to display the *Cost object comparison* window, see [Cost object comparison](#cost-object-comparison).
 
     - *Other*  
         Click this menu entry to display the sub-menu. The following menu entries are displayed:
@@ -216,9 +214,219 @@ For a detailed description of the contained elements and the corresponding funct
 
 ## Bank data takeover  
 
-> [Info] This function is no longer supported and, therefore, it is not described.
+*Accounting > Post > Button EDIT > Menu entry Cash book takeover*
 
-[comment]: <> (Isas Kommentar: ??? Wir arbeiten mit Übernahme Bankdaten. RS mit Isa!)
+![Bank data takeover](../../Assets/Screenshots/RetailSuiteAccounting/Book/BankDataSynchronizing.png "[Bank data takeover]")
+
+[comment]: <> (to be completed/checked)
+
+- *Bank account*  
+    Click the drop-down list to select the bank account where data must be imported from.
+
+- [x] *Load registered*      
+    Select this checkbox to unlock the [SHOW REGISTERED] button. By default, the checkbox is not selected to reduce system overload and improve performance. This default setting can be changed in the *Settings* menu entry of the *Payment processing* module.
+
+  [comment]: <> (Add link when available)
+
+- *FY/Month*  
+    Click the corresponding drop-down list to select the fiscal year and month of the data to be displayed.
+
+- [RETRIEVE/IMPORT]  
+    Click this button to display the *Retrieve bank data* window, see [Retrieve bank data](#retrieve-bank-data).
+
+- [SHOW REGISTERED]  
+    Click this button to display all posted payments.
+
+- [SHOW HIDDEN]  
+    Click this button to display all hidden payments.
+
+- [QUICK SEARCH]  
+    Click this button to display the *QUICK SEARCH* filter list. The following search criteria are available:
+    - *Turnover*
+    - *Contra account*
+    - *Receipt1*
+    - *Receipt2*
+    - *Account*
+    - *Text*
+    - *Reference*
+    - *Recipient*
+
+ [comment]: <> (Vorsicht: Übersetzung von Verwendungszweck? "Purpose code" is mentioned by FH in training video, but I think reference is meant)
+
+- [Search bar]  
+    Enter the search text (letters or numbers). The criteria selected in the *QUICK SEARCH* filter list is applied to the search.
+    - ![Cross](../../Assets/Icons/Cross02.png "[Cross]") (Cross)  
+        Click this button to clear the search bar.
+    - ![Search](../../Assets/Icons/Search.png "[Search]")  (Search)  
+        Click this button to start the search. Alternatively, you can press the **ENTER** key. All bank data that match the search criteria are displayed in the list below.
+
+The list displays the imported bank data. Depending on the settings, the displayed columns may vary.
+
+- *Seq. no.*    
+  Sequential number of the payment.
+
+- *T* (Take over)   
+  Select the checkbox to select the payment.
+
+- *B* (Receipt)   
+  Payment status. The following statuses are available:
+    - Green  
+        An incoming payment has been matched with an existing open item.
+    - Yellow  
+        An incoming payment probably matches and existing open item but there are discrepancies to be checked.
+    - Red  
+        No matching open item found for the payment.
+
+    > [Info] If a payment is processed manually, a **M** will be displayed in this column.
+
+[comment]: <> (HG: B = Beleg! -> Change column name accordingly here and in IU Terminology file! Add screenshot/icons)  
+
+- S (Search)  
+    Click the ![Search](../../Assets/Icons/Search.png "[Search]") (Search) button to search for open items.
+
+ [comment]: <> (New window opens up. Name? Add and describe!)
+
+- *Turnover*  
+    Turnover value.
+
+- *Contra account*  
+    Assigned contra account.
+
+- *Receipt1*  
+    Receipt number 1, usually the invoice number.
+
+- *Receipt2*  
+    Receipt number 2.
+
+> [Info] The following payment reference details are displayed in the columns view and used by the system to match each payment with an existing open item:
+- Customer number
+- Invoice number
+- Order number
+- Customer name
+- Customer e-mail address
+
+[comment]: <> (HG: was ist die columns view?)
+
+- *Date*  
+    Payment date.
+
+- *Account*  
+    Assigned account.
+
+- *Text*  
+    Posting text.
+
+- ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh)  
+    Click this button to update the payment list.
+
+- [RESET]  
+    Click this button to reset the payment list.
+
+ [comment]: <> (Unsure! Check!)
+
+- Green [x]  
+    Payments that are fully matched with an open item are marked green.  
+
+- Yellow [x]  
+    Payments that are fully matched with an open item are marked yellow.  
+
+- Red [x]  
+    Payments that are not matched with an open item are marked red.
+
+- Grey [x]  
+    Payments that are ...
+
+- [M] [x]  
+    Payments that are manually matched with an an open item are marked with an *M*.
+
+[comment]: <> (Check last two!)
+
+- [SELECT GREEN]  
+    Click this button to select all fully matched (green) payments.
+
+- [SELECT YELLOW]  
+    Click this button to select all fuzzy matched (yellow) payments.
+
+- [RESET SELECTION]  
+    Click this button to reset the selection.
+
+The payments can also be processed manually. Click any payment in the list to display its values in the input line fields.
+
+[comment]: <> (HG: vgl. mit Einleitungssatz bei Übernahme Kassenbuch! Warum ist das nicht mehr beschrieben?)
+
+[comment]: <> (Unsure! RS FH. Add operation file? RS FH!)
+
+- *Seq. no.*
+- *Turnover*
+- *Contra account*
+- *Receipt1*
+- *Receipt2*
+- *Date*
+  -  ![Calendar](../../Assets/Icons/Calendar.png "[Calendar]") (Calendar)
+- *Account*
+- *Cost1*
+- *Cost2*
+- *Text*
+
+- [POST]    
+    Click this button to post the edited posting.
+
+- [DELETE]    
+    Click this button to delete the selected posting. A confirmation window is displayed. Click the [OK] button to delete the selected postings.
+
+- [CLEAR]    
+    Click this button to clear all input line fields.
+
+- [SPLIT]    
+    Click this button to split the selected posting. The *Split posting* window is displayed, see [Split posting](#split-posting).
+
+[comment]: <> (check split posting vs. breakdown posting)
+
+- [TAKE OVER MARKED]  
+    Click this button to register the marked payments in the system.
+
+- [HIDE MARKED]  
+    Click this button to hide the marked payments.
+
+- [SHOW MARKED]  
+    Click this button to display the marked payments.
+
+- *Last retrieval*
+
+- [LEARN FILE]  
+    Click this button to add ... The *Learn file* window is displayed, see [Learn file](#learn-file). 
+
+- [CANCEL]  
+    Click this button to cancel retrieving the bank data All changes are rejected. The *Bank data synchronizing* window is closed. 
+
+[comment]: <> (Check) 
+
+
+### Retrieve bank data
+
+*Accounting > Post > Button EDIT > Menu entry Bank data takeover > Button RETRIEVE/IMPORT*
+
+![Retrieve bank data](../../Assets/Screenshots/RetailSuiteAccounting/Book/RetrieveBankData.png "[Retrieve bank data]")
+
+- *Bank*
+- *Account / routing number*
+- *Date from*  
+  - **Automatic**  
+  - **Selection** [Date field]
+- *Import definition*
+  - [Edit]
+- *CSV file*
+- [Select file]
+
+- [CANCEL]
+- [FINALIZE]
+
+
+### Learn file
+
+*Accounting > Post > Button EDIT > Menu entry Bank data takeover > Button LEARN FILE*
+
+![Learn file](../../Assets/Screenshots/RetailSuiteAccounting/Book/LearnFile.png "[Learn file]")
 
 
 

@@ -18,7 +18,7 @@ Fully integrated financial accounting with the *Accounting* module:
     DATEV-compatible charts of accounts SKR03 and SKR04 with support for additional, individual charts of accounts. All charts of accounts are fully customizable in the *Accounting* module, including tax keys and distribution logic.
 
 - Extensive evaluations  
-    Various evaluations such as profit and loss accounts, business assessments, cost center and cost unit accounting as well as profit center can be individually configured and created in the module.
+    Various evaluations such as profit and loss accounts, business assessments, cost center and cost object accounting as well as profit center can be individually configured and created in the module.
 
 - Accounting exports  
     Data can be exported in standardized format for DATEV, SAP FICO, GDPdU or configured individually. Mapping functions for export to third-party systems are also available.
