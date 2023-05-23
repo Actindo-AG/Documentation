@@ -25,7 +25,7 @@ In all tabs of the *Post* menu entry, an identical header is displayed. The cont
         Click this menu entry to take over automatically cash payments registered in the cash book. The *Cash book takeover* window is displayed, see [Cash book takeover](#cash-book-takeover).
 
     - *Bank data takeover*  
-        Click this menu entry to take over bank and payment details registered in the *Payment processing* module. The *Bank data synchronizing* window is displayed, see [Bank data takeover](#bank-data-takeover). 
+        Click this menu entry to take over automatically bank transactions registered in the *Payment processing* module. The *Bank data synchronizing* window is displayed, see [Bank data takeover](#bank-data-takeover). 
 
     - ![Lock](../../Assets/Icons/Lock02.png "[Lock]") *Process*  
         Click this menu entry to process several postings simultaneously. The *Process postings* window is displayed, see [Process](#process).
@@ -115,10 +115,10 @@ The list displays all cash payments registered in the cash book, which can be ta
 
   [comment]: <> (No account in cash book! What does the number stand for? As "Unbekannt!")   
 
-- *Receipt1*  
+- *Receipt 1*  
     Receipt number 1 as registered in the cash book.
 
-- *Receipt2*  
+- *Receipt 2*  
     Receipt number 2 as registered in the cash book.
 
 - *Date*  
@@ -160,10 +160,10 @@ An individual posting from the cash book can be selected and partially edited be
 
     > [Info] After you have entered at least two numbers in the field, a list is displayed below the field with all accounts matching the entry. You can select the corresponding account in the list.
 
-- *Receipt1*  
+- *Receipt 1*  
     Click the field to edit the receipt number.
 
-- *Receipt2*  
+- *Receipt 2*  
     Click the field to edit the receipt number.
 
 - *Date*  
@@ -218,15 +218,18 @@ For a detailed description of the contained elements and the corresponding funct
 
 ![Bank data takeover](../../Assets/Screenshots/RetailSuiteAccounting/Book/BankDataSynchronizing.png "[Bank data takeover]")
 
-[comment]: <> (to be completed/checked)
+The list displays all bank transactions registered in a selected bank account, which can be taken over automatically in the *Accounting* module. This function is linked with the *Payment processing* module, and therefore the *Payment processing* module must be set up first. This window can also be accessed from the *Bank data takeover* menu entry in the *Payment processing* module.
+
+[comment]: <> (Link hinzufügen, wenn verfügbar)
 
 - *Bank account*  
-    Click the drop-down list to select the bank account where data must be imported from.
+    Click the drop-down list to select the bank account from which data must be imported.
 
 - [x] *Load registered*      
     Select this checkbox to unlock the [SHOW REGISTERED] button. By default, the checkbox is not selected to reduce system overload and improve performance. This default setting can be changed in the *Settings* menu entry of the *Payment processing* module.
 
-  [comment]: <> (Add link when available)
+  [comment]: <> (Check verbuchte -> registered oder posted?)
+  [comment]: <> (Link hinzufügen, wenn verfügbar)
 
 - *FY/Month*  
     Click the corresponding drop-down list to select the fiscal year and month of the data to be displayed.
@@ -235,23 +238,21 @@ For a detailed description of the contained elements and the corresponding funct
     Click this button to display the *Retrieve bank data* window, see [Retrieve bank data](#retrieve-bank-data).
 
 - [SHOW REGISTERED]  
-    Click this button to display all posted payments.
+    Click this button to display all posted bank transactions.
 
 - [SHOW HIDDEN]  
-    Click this button to display all hidden payments.
+    Click this button to display all hidden bank transactions.
 
 - [QUICK SEARCH]  
     Click this button to display the *QUICK SEARCH* filter list. The following search criteria are available:
     - *Turnover*
     - *Contra account*
-    - *Receipt1*
-    - *Receipt2*
+    - *Receipt 1*
+    - *Receipt 2*
     - *Account*
     - *Text*
     - *Reference*
     - *Recipient*
-
- [comment]: <> (Vorsicht: Übersetzung von Verwendungszweck? "Purpose code" is mentioned by FH in training video, but I think reference is meant)
 
 - [Search bar]  
     Enter the search text (letters or numbers). The criteria selected in the *QUICK SEARCH* filter list is applied to the search.
@@ -271,20 +272,18 @@ The list displays the imported bank data. Depending on the settings, the display
 - *B* (Receipt)   
   Payment status. The following statuses are available:
     - Green  
-        An incoming payment has been matched with an existing open item.
+        The bank transaction has been fully matched (creditor number and receipt 1) with an open item.
     - Yellow  
-        An incoming payment probably matches and existing open item but there are discrepancies to be checked.
+        The bank transaction has been partially matched with an open item but there are discrepancies to be checked.
     - Red  
-        No matching open item found for the payment.
+        No matching open item found for the bank transaction.
 
-    > [Info] If a payment is processed manually, a **M** will be displayed in this column.
+    > [Info] If a bank transaction is matched manually with an open item, an **M** will be displayed in this column.
 
-[comment]: <> (HG: B = Beleg! -> Change column name accordingly here and in IU Terminology file! Add screenshot/icons)  
+[comment]: <> (HG: B = Beleg! -> Change column name accordingly here and in IU Terminology file! Add screenshot/icons - Bedeutung von B Spalte? RS Jessie)  
 
 - S (Search)  
     Click the ![Search](../../Assets/Icons/Search.png "[Search]") (Search) button to search for open items.
-
- [comment]: <> (New window opens up. Name? Add and describe!)
 
 - *Turnover*  
     Turnover value.
@@ -292,20 +291,11 @@ The list displays the imported bank data. Depending on the settings, the display
 - *Contra account*  
     Assigned contra account.
 
-- *Receipt1*  
+- *Receipt 1*  
     Receipt number 1, usually the invoice number.
 
-- *Receipt2*  
+- *Receipt 2*  
     Receipt number 2.
-
-> [Info] The following payment reference details are displayed in the columns view and used by the system to match each payment with an existing open item:
-- Customer number
-- Invoice number
-- Order number
-- Customer name
-- Customer e-mail address
-
-[comment]: <> (HG: was ist die columns view?)
 
 - *Date*  
     Payment date.
@@ -316,6 +306,14 @@ The list displays the imported bank data. Depending on the settings, the display
 - *Text*  
     Posting text.
 
+Additional columns can be displayed by clicking the ![Columns](../../Assets/Icons/Columns02.png "[Columns]") (Columns) button in the table header:
+
+- *Customer number*  
+- *Invoice number*  
+- *Order number*  
+- *Customer name*  
+- *Customer e-mail address*  
+
 - ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh)  
     Click this button to update the payment list.
 
@@ -324,22 +322,20 @@ The list displays the imported bank data. Depending on the settings, the display
 
  [comment]: <> (Unsure! Check!)
 
-- Green [x]  
-    Payments that are fully matched with an open item are marked green.  
+- ![Fully matched](../../Assets/Icons/FullyMatched.png "[Fully matched]") (Fully matche) [x]  
+    Bank transactions that are fully matched by the system with an open item are marked green. The *x* indicates the number of bank transactions that have been fully matched.
 
-- Yellow [x]  
-    Payments that are fully matched with an open item are marked yellow.  
+- ![Partially matched](../../Assets/Icons/PartiallyMatched.png "[Partially matched]") (Partially matched) [x]  
+    Bank transactions that are partially matched by the system with an open item and must be checked by the user are marked yellow. The *x* indicates the number of bank transactions that have been partially matched. 
 
-- Red [x]  
-    Payments that are not matched with an open item are marked red.
+- ![Not matched](../../Assets/Icons/NotMatched.png "[Not matched]") (Not matched) [x]  
+    Bank transactions that cannot be matched by the system with an open item are marked red. The *x* indicates the number of bank transactions that are not matched. 
 
-- Grey [x]  
-    Payments that are ...
+- ![Registered](../../Assets/Icons/NotMatched.png "[Registered]") (Registered) [x]
+    Bank transactions that have already been registered. The *x* indicates the number of bank transactions that have been registered. 
 
-- [M] [x]  
-    Payments that are manually matched with an an open item are marked with an *M*.
-
-[comment]: <> (Check last two!)
+- ![Unhidden](../../Assets/Icons/Unhidden.png "[Unhidden]") (Unhidden) [x]
+    Bank transactions that were previously hidden and now are displayed again. The *x* indicates the number of bank transactions that have been partially matched. 
 
 - [SELECT GREEN]  
     Click this button to select all fully matched (green) payments.
@@ -359,8 +355,8 @@ The payments can also be processed manually. Click any payment in the list to di
 - *Seq. no.*
 - *Turnover*
 - *Contra account*
-- *Receipt1*
-- *Receipt2*
+- *Receipt 1*
+- *Receipt 2*
 - *Date*
   -  ![Calendar](../../Assets/Icons/Calendar.png "[Calendar]") (Calendar)
 - *Account*
@@ -406,20 +402,60 @@ The payments can also be processed manually. Click any payment in the list to di
 
 *Accounting > Post > Button EDIT > Menu entry Bank data takeover > Button RETRIEVE/IMPORT*
 
-![Retrieve bank data](../../Assets/Screenshots/RetailSuiteAccounting/Book/RetrieveBankData.png "[Retrieve bank data]")
+![Retrieve bank data](../../Assets/Screenshots/RetailSuiteAccounting/Book/RetrieveBankDataImportPin.png "[Retrieve bank data]")
 
-- *Bank*
-- *Account / routing number*
+> [Info] Depending of the account access configured in the *Payment processing* module, the fields displayed vary. 
+
+[comment]: <> (Check mit Jessie)
+
+- *Bank*  
+    Click the drop-down list to select the bank account from which the payments are to be retrieved/imported.
+
+- *Account / routing number*  
+    Details of the selected bank account.
+
 - *Date from*  
-  - **Automatic**  
-  - **Selection** [Date field]
-- *Import definition*
-  - [Edit]
-- *CSV file*
-- [Select file]
+  - **Automatic**   
+      Select this option to retrieve/import all available account movements.
+  - **Selection**  
+      Select this option to specify a date. A date field is displayed.  
 
-- [CANCEL]
-- [FINALIZE]
+[comment]: <> (was bedeutet automatic? Alle verfügbare?)
+
+- *Import definition*   
+    Click the drop-down list to select the appropriate import definition. All available import definitions are displayed in the list.  
+    - [Edit]   
+        If necessary, click the edit button to edit the import definition or create a new one. The *Import/export definitions* window is displayed, see [Import/export definitions](#import/export-definitions).
+
+- *CSV file*  
+    Click the [Select file] button to search and select the file to be imported.
+
+- *PIN*  
+    Enter the configured pin to retrieve the bank account movements. 
+
+- [CANCEL]  
+    Click this button to cancel retrieving/importing the bank data. The *Bank data synchronizing* window is closed.
+
+- [FINALIZE]  
+    Click this button to finalize retrieving/importing the bank data. The *Retrieving bank data* notice is displayed.
+
+
+#### Search open items 
+
+*Accounting > Post > Button EDIT > Menu entry Bank data takeover > Button RETRIEVE/IMPORT > Button Suchen (Luppe)*
+
+![Search open items](../../Assets/Screenshots/RetailSuiteAccounting/Book/SearchOpenItems.png "[Search open items]")
+
+[comment]: <> (Screenshot Jessie)
+
+
+#### Import/Export definitions
+
+*Accounting > Post > Button EDIT > Menu entry Bank data takeover > Button RETRIEVE/IMPORT > Button Edit*
+
+![Import/export format definitions](../../Assets/Screenshots/RetailSuiteAccounting/Extras/CSVFormatDef/CSVFormatDef.png "[Import/export format definitions]")
+
+For a detailed description of the contained elements and the corresponding functions, see [Import/export definitions](./03c_CSVFormatDef.md).
 
 
 ### Learn file

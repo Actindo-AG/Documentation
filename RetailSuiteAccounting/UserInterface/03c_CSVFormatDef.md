@@ -11,6 +11,7 @@
 - [IMPORT](./03a_Import.md#import/export-definitions)
 - [EXPORT](./03b_Export.md#import/export-definitions)
 - [DEBTORS/CREDITORS](./02a_DebtorsCreditors.md#import/export-definitions)
+- [BANK DATA TAKEOVER](./01_Header.md#import/export-definitions)
 
 **Name**
 

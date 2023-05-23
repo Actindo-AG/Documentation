@@ -94,7 +94,7 @@ You can edit a cost center, for example if it needs to be deactivated.
 
 ##  Delete a cost center
 
-You can delete a cost center, for example if it is no longer applicable.  If a date is displayed in the *Active from* column, the cost center is currently in use and cannot be deleted.
+You can delete a cost center, for example if it is no longer applicable. If a posting period is displayed in the *Active from* column, the cost center is currently in use and cannot be deleted.
 
 #### Prerequisites
 

@@ -33,7 +33,7 @@
 
 ## Cost center
 
-*Accounting > Settings > Tab COST ACCOUNTING > Drop-down option Cost1 - Cost center*
+*Accounting > Settings > Tab COST ACCOUNTING > Drop-down option Cost 1 - Cost center*
 
 ![Cost center](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CostAccounting/CostAccounting01.png "[Cost center]")
 
@@ -46,12 +46,10 @@ The list displays all available cost centers in the selected accounting period. 
     Cost center descriptive name.
 
 - *Inactive*  
-    Cost center status. The word **Inactive** is displayed if the cost center has been deactivated.
+    Cost center status. The word **Inactive** is displayed if the cost center has been deactivated. An inactive cost center is locked for postings. 
 
 - *Active from*  
-    Validity start date.
-
-[comment]: <> (Allgemeine Info fehlt! Wann kommt das Datum vor?)
+    Validity start date. The posting period in which the cost center has been created and/or set to active is displayed.
 
 The input fields below allow to enter or modify the cost center details.
 
@@ -96,7 +94,7 @@ The input fields below allow to enter or modify the cost center details.
 
 ## Cost object
 
-*Accounting > Settings > Tab COST ACCOUNTING > Drop-down option Cost2 - Cost object*
+*Accounting > Settings > Tab COST ACCOUNTING > Drop-down option Cost 2 - Cost object*
 
 ![Cost object](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CostAccounting/CostAccounting02.png "[Cost object]")
 
@@ -109,10 +107,10 @@ The list displays all available cost objects in the selected accounting period. 
     Cost object descriptive name.
 
 - *Inactive*  
-    Cost object status. The word **Inactive** is displayed if the cost object has been deactivated.
+    Cost object status. The word **Inactive** is displayed if the cost object has been deactivated. An inactive cost object is locked for postings. 
 
 - *Active from*  
-    Validity start date.
+    Validity start date. The posting period in which the cost object has been created and/or set to active is displayed.
 
 - *ProfitCenter*  
     Assigned profit center.
@@ -171,9 +169,9 @@ The input fields below allow to enter or modify the cost object details.
 
 - *Cost center/object*  
     Click the drop-down list to select whether the cost centers or cost objects are to be printed. The following options are available:
-    - **cost1 - cost center**   
+    - **Cost 1 - Cost center**   
         The cost centers within this list will be printed according to the settings specified in the following.
-    - **cost2 - cost object**    
+    - **Cost 2 - Cost object**    
         The cost objects within this list will be printed according to the settings specified in the following.
 
 - [x] *Active*   
@@ -200,7 +198,7 @@ The input fields below allow to enter or modify the cost object details.
 
 ### Allocation table
 
-*Accounting > Settings > Tab COST ACCOUNTING > Drop-down option Cost1 - Cost center > Button ALLOCATION TABLE*
+*Accounting > Settings > Tab COST ACCOUNTING > Drop-down option Cost 1 - Cost center > Button ALLOCATION TABLE*
 
 ![Allocation table](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CostAccounting/AllocationTable01.png "[Allocation table]")
 
@@ -270,7 +268,7 @@ The list displays the allocation of costs among the cost centers and objects. De
 
 #### Select period
 
-*Accounting > Settings > Tab COST ACCOUNTING > Drop-down option Cost1 - Cost center > Button ALLOCATION TABLE > Button CHANGE PERIOD*
+*Accounting > Settings > Tab COST ACCOUNTING > Drop-down option Cost 1 - Cost center > Button ALLOCATION TABLE > Button CHANGE PERIOD*
 
 ![Select period](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CostAccounting/SelectPeriod.png "[Select period]")
 
@@ -288,7 +286,7 @@ The list displays the allocation of costs among the cost centers and objects. De
 
 #### Print allocation table
 
-*Accounting > Settings > Tab COST ACCOUNTING > Drop-down option Cost1 - Cost center > Button ALLOCATION TABLE > Button PRINT*
+*Accounting > Settings > Tab COST ACCOUNTING > Drop-down option Cost 1 - Cost center > Button ALLOCATION TABLE > Button PRINT*
 
 ![Allocation table](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CostAccounting/AllocationTable02.png "[Allocation table]")
 
@@ -313,7 +311,7 @@ The list displays the allocation of costs among the cost centers and objects. De
 
 ### Select address
 
-*Accounting > Settings > Tab COST ACCOUNTING > Drop-down option Cost2 - Cost object > Button SEARCH*
+*Accounting > Settings > Tab COST ACCOUNTING > Drop-down option Cost 2 - Cost object > Button SEARCH*
 
 ![Select address](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CostAccounting/SelectAddress.png "[Select address]")
 
@@ -322,7 +320,7 @@ For a detailed description of this window and the corresponding functions, see [
 
 ### ProfitCenter  
 
-*Accounting > Settings > Tab COST ACCOUNTING > Drop-down option Cost2 - Cost object > Button EDIT*
+*Accounting > Settings > Tab COST ACCOUNTING > Drop-down option Cost 2 - Cost object > Button EDIT*
 
 ![Edit ProfitCenter](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CostAccounting/ProfitCenter.png "[Edit ProfitCenter]")
 
