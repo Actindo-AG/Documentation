@@ -271,11 +271,11 @@ The list displays the imported bank data. Depending on the settings, the display
 
 - *B* (Receipt)   
   Payment status. The following statuses are available:
-    - Green  
+    - ![Fully matched](../../Assets/Icons/FullyMatched.png "[Fully matched]") (Fully matched)  
         The bank transaction has been fully matched (creditor number and receipt 1) with an open item.
-    - Yellow  
+    - ![Partially matched](../../Assets/Icons/PartiallyMatched.png "[Partially matched]") (Partially matched)  
         The bank transaction has been partially matched with an open item but there are discrepancies to be checked.
-    - Red  
+    - ![Not matched](../../Assets/Icons/NotMatched.png "[Not matched]") (Not matched)  
         No matching open item found for the bank transaction.
 
     > [Info] If a bank transaction is matched manually with an open item, an **M** will be displayed in this column.
@@ -322,7 +322,7 @@ Additional columns can be displayed by clicking the ![Columns](../../Assets/Icon
 
  [comment]: <> (Unsure! Check!)
 
-- ![Fully matched](../../Assets/Icons/FullyMatched.png "[Fully matched]") (Fully matche) [x]  
+- ![Fully matched](../../Assets/Icons/FullyMatched.png "[Fully matched]") (Fully matched) [x]  
     Bank transactions that are fully matched by the system with an open item are marked green. The *x* indicates the number of bank transactions that have been fully matched.
 
 - ![Partially matched](../../Assets/Icons/PartiallyMatched.png "[Partially matched]") (Partially matched) [x]  
@@ -331,7 +331,7 @@ Additional columns can be displayed by clicking the ![Columns](../../Assets/Icon
 - ![Not matched](../../Assets/Icons/NotMatched.png "[Not matched]") (Not matched) [x]  
     Bank transactions that cannot be matched by the system with an open item are marked red. The *x* indicates the number of bank transactions that are not matched. 
 
-- ![Registered](../../Assets/Icons/NotMatched.png "[Registered]") (Registered) [x]
+- ![Registered](../../Assets/Icons/Posted.png "[Registered]") (Registered) [x]  
     Bank transactions that have already been registered. The *x* indicates the number of bank transactions that have been registered. 
 
 - ![Unhidden](../../Assets/Icons/Unhidden.png "[Unhidden]") (Unhidden) [x]
@@ -721,10 +721,10 @@ This path displays the file location, name and page.
 
     > [Info] After you have entered at least three characters in the field, a list is displayed with all accounts matching the entry. You can select the corresponding account in the list.
 
-- *Reference1*  
+- *Reference 1*  
     Enter an applicable reference value.
 
-- *Reference2*  
+- *Reference 2*  
     Enter an applicable reference value.
 
 - *Date*  
@@ -774,8 +774,8 @@ This path displays the file location, name and page.
     - *Supplier*
     - *ContraAcct*
     - *Doc*  
-    - *Reference1*
-    - *Reference2*
+    - *Reference 1*
+    - *Reference 2*
     - *Posting text*
     - *Date*
     - *Amount*
@@ -821,10 +821,10 @@ This path displays the file location, name and page.
     - *ContraAcct*  
         Enter the appropriate contra account.
 
-    - *Reference1*  
+    - *Reference 1*  
         Enter an appropriate reference value.
 
-    - *Reference2*  
+    - *Reference 2*  
         Enter an appropriate reference value.
 
     - *Posting text*  
@@ -917,10 +917,10 @@ The list displays all available supplier receipts. Depending on the settings, th
 - *Doc*  
     Click the ![B](../../Assets/Icons/Beleg02.png "[B]") icon to display the acquired receipt in a new window. The *Attached document* window is displayed, see [Attached document](#attached-document).
 
-- *Reference1*  
+- *Reference 1*  
     Reference 1 value.
 
-- *Reference2*  
+- *Reference 2*  
     Reference 2 value.
 
 - *Posting text*  
@@ -1014,10 +1014,10 @@ The list displays all receipts with **Released** status.
 - *Doc*   
     Click the ![B](../../Assets/Icons/Beleg02.png "[B]") button to display the acquired receipt in a new window. The *Attached document* window is displayed, see [Attached document](#attached-document).
 
-- *Reference1*   
+- *Reference 1*   
     Reference 1 value.
 
-- *Reference2*   
+- *Reference 2*   
     Reference 2 value.
 
 - *Posting text*   
@@ -1091,10 +1091,10 @@ The input line is unlocked if at least one checkbox is selected.
 - *ContraAcct*    
     Click the field to edit the contra account number.
 
-- *Reference1*    
+- *Reference 1*    
     Click the field to edit the receipt 1 value.
 
-- *Reference2*   
+- *Reference 2*   
     Click the field to edit the receipt 2 value.
 
 - *Date*   
@@ -1184,10 +1184,10 @@ The list displays the selected receipt for the split booking. Depending on the s
 - *ContraAcct*    
     Contra account number.
 
-- *Reference1*     
+- *Reference 1*     
     Receipt 1 value, usually the invoice number.
 
-- *Reference2*    
+- *Reference 2*    
     Receipt 2 value, which can be any other reference number, such as the order number.
 
 - *Posting text*   
@@ -1215,10 +1215,10 @@ By default, the data of the selected receipt is preset in the input line.
 - *ContraAcct*    
     Click the field to edit the corresponding contra account for each partial posting.
 
-- *Reference1*    
+- *Reference 1*    
     Click the field to edit the receipt 1 value for each partial posting.
 
-- *Reference2*   
+- *Reference 2*   
     Click the field to edit the receipt 2 value for each partial posting.
 
 - *Date*   
