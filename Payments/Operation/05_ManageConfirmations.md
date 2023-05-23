@@ -1,21 +1,22 @@
 # Manage confirmations
 
-The *Confirmations* menu entry provides you with a view on all references to refunds that has been created. Before your company sends back the money to the customer, you can check the refunds with this menu entry. This service is supported by the most payment service providers.
-> [Info] If a workflow decides that you have to sent back money to the customer, you have here the possibility to check the refunds, before money is returned.   
+The *Confirmations* menu entry provides you with a view on all references to refunds that has been created. Before your company sends back the money to the customer, you have to check the refunds with this menu entry. This service is supported by the most payment service providers.
+> [Info] If a workflow decides that you have to sent back money to the customer, you have here the possibility to check the refunds before money is returned.   
 
-You can use this procedure to accept a refund so that the service payment provider gets the request to send back the money to the customer. If a refund is not justified, for example, because the goods have already been delivered, you can also reject the refund. In case of faulty tickets you can void them to clear the database.      
+You can use this procedure to accept a refund so that the service payment provider gets the request to send back the money to the customer. You can also reject a refund, if it is not justified, for example, because the goods have already been delivered. In case of faulty transactions you can void them to clear the database.   
+
 In the settings might have been applied special permissions.
 > [Info] You might not be able to access this menu entry, because you have no permissions to do it. Furthermore, you may have access, but you are not permitted to execute refunds above a certain amount (for example, more than 50€). 
 
 
-## Check confirmation ticket  
+## Check confirmation transaction  
 
 *Payments > Confirmations > Tab LIST*  
 
 ![Confirmation transaction](../../Assets/Screenshots/Payments/Confirmations/LISTConfirmations.png "[Confirmation transaction]")
 
-A confirmation ticket provides numerous payment-related details on a refund, which may vary depending on the payment service provider settings. To decide whether you can execute, reject or void a ticket, you can check its details.  
-> [Info] You can only change the status of a confirmation ticket, but not any data.
+A confirmation transaction provides numerous payment-related details on a refund, which may vary depending on the payment service provider settings. To decide whether you can execute, reject or void a transaction, you can check its details.  
+> [Info] You can only change the status of a confirmation transaction, but not any data.
 
 
 #### Prerequisites
@@ -26,7 +27,7 @@ A confirmation ticket provides numerous payment-related details on a refund, whi
 
 #### Procedure
 1. Click the [Search](../../Assets/Icons/Search.png "[Search]") (Search) button to display the search bar and search for the original reference ID of the refund.
-2. Check the confirmation ticket status in the *Status* column. The status displays the current stage in the confirmation process. You can use the status ID prefixed below to filter the list. The following statuses are available: 
+2. Check the confirmation transaction status in the *Status* column. The status displays the current stage in the confirmation process. You can use the status ID prefixed below to filter the list. The following statuses are available: 
     - **2 - Confirmation required**   
     -    
 3. Click on a transaction to see the details.   
@@ -37,13 +38,13 @@ A confirmation ticket provides numerous payment-related details on a refund, whi
      - [LIST &ndash; Attributes](../UserInterface/06_ListConfirmations.md#confirmations-–-attributes)
 
 
-## Execute confirmation ticket 
-After you have checked a confirmation ticket and the reclaim is justified, you can execute it. The payment service provider can than arrange the repayment of the money.
+## Execute confirmation transaction
+After you have checked a confirmation transaction and the reclaim is justified, you can execute it. The payment service provider can than arrange the repayment of the money.
 #### Prerequisites
 - At least one connection has been created, see [Create a connection](../Integration/01_ManageConnections.md#create-a-connection).
 - At least one refund has been created.
 - At least the *Amount* and the *Status* column is displayed in the view.
-- The status of a confirmation ticket is "Confirmation required". 
+- The status of a confirmation transaction is "Confirmation required". 
 
 #### Procedure
 *Payments > Confirmations > Tab LIST*
@@ -51,19 +52,19 @@ After you have checked a confirmation ticket and the reclaim is justified, you c
 ![Execute confirmation](../../Assets/Screenshots/Payments/Confirmations/ChangeConfirmation.png "[Execute confirmaton]")
 
 1. Click the [Search](../../Assets/Icons/Search.png "[Search]") (Search) button to display the search bar and search for the original reference ID of the refund.
-2. Check the confirmation ticket you want to execute, see [Check the confirmation ticket](05_ManageConfirmations.md#check-confirmation-ticket).
+2. Check the confirmation transaction you want to execute, see [Check the confirmation transaction]().
 2. Select the confirmation ticket you want to exceute by clicking the checkbox on the left.   
     The editing toolbar is displayed.
 3. Click the [Execute] button.
    The status of the authorization ticket has changed to *Executed??*.
 
-## Reject confirmation ticket 
+## Reject confirmation transaction
 After you have checked a confirmation ticket and the reclaim is **not** justified, you can reject it. 
 #### Prerequisites
 - At least one connection has been created, see [Create a connection](../Integration/01_ManageConnections.md#create-a-connection).
 - At least one refund has been created.
 - At least the *Amount* and the *Status* column is displayed in the view.
-- - The status of a confirmation ticket is "Confirmation required". 
+- The status of a confirmation ticket is "Confirmation required". 
 
 #### Procedure
 
@@ -79,7 +80,7 @@ After you have checked a confirmation ticket and the reclaim is **not** justifie
 3. Click the [Execute] button. <!---was passsiert dann-->
    The status of the confirmation ticket has changed to *Rejected??*.
 
-## Void confirmation ticket
+## Void confirmation transaction
 You can void a refund ticket, if you want to disable the ticket for the Actindo database. 
 > [Info] The payment service provider will not be informed about changing the status to "void". It is only done to clear the database.
 #### Prerequisites

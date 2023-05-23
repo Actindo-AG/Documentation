@@ -47,11 +47,6 @@
 - ![Filter](../../Assets/Icons/Filter.png "[Filter]") Filter (x)   
     Click this button to display the filter bar and customize the active filters. The *x* indicates the number of filters that are currently active.
 
-<!---- [x]     
-    Select the checkbox to display the editing toolbar. You can only select one checkbox at a time.-->
-
-<!---- [![Show message](../../Assets/Icons/ShowMessage.png "[Show message]") SHOW MESSAGE]  
-    Click this button to display the message(s) contained in the selected intent. This button is only displayed if a single checkbox in the list of intents is selected. Alternatively, you can click directly a row in the list to display an intent. The *List of messages* view is displayed, see [List of messages](#list-of-messages).-->
 
 The list displays all intents. Depending on the settings, the displayed columns may vary. All fields are read-only.
 

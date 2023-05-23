@@ -4,7 +4,7 @@
 
 
 If you want to establish a new connection to a payment service provider (PSP), you can buy the needed connection in the app store. This is valid if you have not yet bought it with your Actindo maintenance contract.<!---Stimmt das?-->   
-The data structure of the connection then provides exactly the data that the PSP needs to exchange data with the *Actindo Payments* module.
+The data structure of the connection then provides exactly the data that the PSP needs to exchange data with the Actindo *Payments* module.
 
 In the following, the general settings to create, edit, 
 or disable connections are described. Except for the Actindo POS driver, you can buy the connections to payment service providers in the app store.<!---???stimmt das?-->
@@ -15,9 +15,10 @@ or disable connections are described. Except for the Actindo POS driver, you can
 Create a connection to a certain payment provider. As soon as a connection has been established,..activated?? <!---an initial synchronization will be triggered, which will transfer the entire data model of the connected payment provider to Actindo-->. 
 
 
-
 #### Prerequisites
-At least one connection has been installed
+At least one connection has been installed.
+
+
 #### Procedure
 *Payments > Settings > Tab CONNECTIONS*
 <!--- ![Connection](../../Assets/Screenshots/Payments/Settings/Connections/Connections.png "[Connection]")--->

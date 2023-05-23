@@ -1,6 +1,6 @@
 # CONNECTIONS (Settings)
 
-[!!Establish connections](../Integration/01_EstablishConnection.md)
+[!!Establish connections to a payment service provider](../Integration/01_EstablishConnection.md)
 
 
 
@@ -115,7 +115,7 @@ The fields displayed in the *Credentials* tab vary depending on the selected dri
 
 *Fulfillment > Settings > Tab CONNECTIONS > Select a connection*
 
-![CONNECTIONS](../../Assets/Screenshots/Payments/Settings/Connections/EditConnectionCredentials.png "[CONNECTIONS]")
+![CONNECTIONS](../../Assets/Screenshots/Payments/Settings/EditConnectionCredentials.png "[CONNECTIONS]")
 
 - ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)   
     Click this button to close the *Edit connection* view and return to the list of connections. All changes are rejected.
@@ -134,6 +134,7 @@ The fields displayed in the *Credentials* tab vary depending on the selected dri
 
 
 
+
 ## Edit connection &ndash; Credentials
 
 *Payments > Settings > Tab CONNECTIONS > Select a connection > Tab Credentials*
@@ -148,7 +149,7 @@ The fields displayed in the *Credentials* tab vary depending on the selected dri
 
 **Credentials** 
 
-The fields displayed in the *Credentials* section vary depending on the selected driver.
+The fields displayed in the *Credentials* section vary depending on the selected driver. You can get information on it from your payment service provider.
 
 - [SAVE]  
   Click this button to save any changes made.
@@ -163,7 +164,7 @@ The fields displayed in the *Credentials* section vary depending on the selected
 ![CONNECTIONS](../../Assets/Screenshots/Payments/Settings/EditConnectionSettings.png "[CONNECTIONS]")   
 
 
-This tab is only displayed for drivers with further settings. You can configure the settings after the connection has been established. The fields displayed vary depending on the driver installed.
+This tab is only displayed for drivers with further settings. You can configure these settings after the connection has been established. The fields displayed vary depending on the driver installed.
 
 - [SAVE]  
     Click this button to save any changes made.
@@ -174,18 +175,32 @@ This tab is only displayed for drivers with further settings. You can configure 
 
 ## Create view
 
-*Fulfillment > Settings > Tab CONNECTIONS > Button Points > Menu entry create*
+*Payments > Settings > Tab CONNECTIONS > Button Points > Menu entry create*
 
-![Create view](../../Assets/Screenshots/Payments/LIST/CreateView.png "[Create view]")
+![Create view](../../Assets/Screenshots/Payments/Authorizations/CreateView.png "[Create view]")
 
-For a detailed description of this window and the corresponding functions, see [Create view](./01a_List.md#create-view).
+- *Name*   
+    Enter a name for the view.
+
+- [CANCEL]   
+    Click this button to cancel creating a view. The *Create view* window is closed.
+
+- [SAVE]   
+    Click this button to save the new view and display it in the *VIEW* drop-down list. The *Create view* window is closed.
 
 
 
 ## Rename view
 
-*Fulfillment > Settings > Tab CONNECTIONS > Button Points > Menu entry rename*
+*Payments > Settings > Tab CONNECTIONS > Button Points > Menu entry rename*
 
-![Rename view](../../Assets/Screenshots/Payments/LIST/RenameView.png "[Rename view]")
+![Rename view](../../Assets/Screenshots/Payments/Authorizations/RenameView.png "[Rename view]")
 
-For a detailed description of this window and the corresponding functions, see [Rename view](./01a_List.md#rename-view).
+- *Name*   
+    Click this field to edit the view name.
+
+- [CANCEL]   
+    Click this button to cancel renaming the view. The *Rename view* window is closed.
+
+- [SAVE]   
+    Click this button to save the changes and display it in the *VIEW* drop-down list. The *Rename view* window is closed.
