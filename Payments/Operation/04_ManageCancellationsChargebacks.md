@@ -62,6 +62,7 @@ A cancellation and chargeback transaction provides numerous payment-related deta
 3. Check the attributes and logs of the transaction. For more information, see the following:
      - [LIST &ndash; Attributes](../UserInterface/05_ListCancellationsChargebacks.md#cancellations-and-chargebacks-–-attributes)
      - [LIST &ndash; Logs](../UserInterface/04_ListRefunds.md#refunds-–-logs)
+4. Return to the LIST and decide how to proceed with the transaction.
 
 
 ## Void a cancellation and chargeback transaction

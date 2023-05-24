@@ -8,7 +8,7 @@ The processing of the authorization transactions works as follows:
 
 For Actindo, the authorization transaction serves as a reference to a payment made by a customer.   
 
-You can use this procedure to display all incoming authorization transactions of a payment service provider. You can check for communication errors between Actindo and the payment service provider that has been caused in a termination of a workflow. In addition, if applicable, you can change the status of a transaction to start continuing further processing.    
+You can use this procedure to display all incoming authorization transactions of a payment service provider. You can check for communication errors between Actindo and the payment service provider that has been caused in a termination of a workflow, for example. In addition, if applicable, you can change the status of a transaction to start continuing further processing.    
   
  > [Info] An authorization transaction does not contain any sensible data protected by a data protection act such as GDPR. Those data remain on the payment server provider side only. In addition, an Actindo user will not be able to redirect a payment to his or her own bank account. The authorization transaction is a reference to the communication between the Actindo system and the payment service provider's system only.    
 
@@ -25,6 +25,7 @@ An authorization transaction provides numerous payment-related details, which ma
 
 - At least one connection has been created, see [Create a connection](../Integration/01_ManageConnections.md#create-a-connection).
 - At least one authorization transaction has been created.
+- It is recommended that you have added the *Status ID* field to your view so that you are able to sort or filter for specific statuses. 
 
 #### Procedure
 
@@ -51,7 +52,7 @@ An authorization transaction provides numerous payment-related details, which ma
 
     ![Authorization attributes and logs](../../Assets/Screenshots/Payments/Authorizations/CheckAttributes.png "[Authorization attributes and logs]")
 
-3. Check the attributes and logs of the transaction. For more information, see the following:
+3. Check the attributes and logs of the transaction. For detailed information, see the following:
    - [Authorizations &ndash; Attributes](../UserInterface/01_ListAuthorizations.md#authorizations-–-attributes)
    - [Authorizations &ndash; Logs](../UserInterface/01_ListAuthorizations.md#authorizations-–-logs)
 4. Return to the LIST and decide how to proceed with the transaction.
@@ -66,14 +67,14 @@ After you have checked an authorization transaction that could not be processed 
 
 #### Prerequisites
 
-The status of an authorization transaction is **not** "success". <!---Stimmt das oder gibt es noch mehr?-->
+The status of an authorization transaction is **not** "Success". <!---Stimmt das oder gibt es noch mehr?-->
 
 #### Procedure
 
 1. Check the authorization transaction you want to capture, see [Check the authorization transaction](./01_ManageAuthorization.md#check-an-authorization-transaction).
 2. Select the authorization transaction you want to capture by clicking the checkbox on the left.   
     The editing toolbar is displayed.
-3. Click the [Capture] button.  
+3. Click the [Capture] button.    
    A confirmation message is displayed. The status of the authorization transaction has changed to *Success*.  <!---stimmt das?-->
   
 
@@ -83,7 +84,7 @@ The status of an authorization transaction is **not** "success". <!---Stimmt das
 
 ![Cancel authorization transaction](../../Assets/Screenshots/Payments/Authorizations/ChangeAuthorization.png "[Cancel authorization transaction]")
 
-After you have checked an authorization transaction that could not be processed by the workflow, you can cancel the transaction manually, so that the order is cancelled both at Actindo and at the PSP. Actindo will then automatically inform the PSP about the cancellation. The customer will get his or her money back.
+After you have checked an authorization transaction that could not be processed by the workflow, you can cancel the transaction manually, so that the order is cancelled both at Actindo and at the payment service provider. Actindo will then automatically inform the payment service provider about the cancellation. The customer will get his or her money back.
 
 #### Prerequisites
 - The status of an authorization transaction is "failure" or "error". 
@@ -93,7 +94,7 @@ After you have checked an authorization transaction that could not be processed 
 1. Identify the communication issue that led to the error. To do this, check the authorization transaction you want to cancel, see [Check the authorization transaction](01_ManageAuthorization.md#check-an-authorization-transaction).
 2. Select the authorization transaction you want to cancel by clicking the checkbox on the left.   
     The editing toolbar is displayed.
-3. Click the [Cancel] button.   <!---was passsiert dann-->
+3. Click the [Cancel] button.   <!---was passsiert dann-->   
    A confirmation message is displayed. The status of the authorization transaction has changed to *Unconfirmed??*.
 
 
@@ -107,7 +108,7 @@ You can void an authorization transaction, if you want to disable the transactio
 
 #### Prerequisites
 
-The status of an authorization transaction is "failure" or "error".
+The status of an authorization transaction is "Failure" or "Error".
 
 #### Procedure
 

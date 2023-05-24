@@ -3,16 +3,16 @@
 # Establish connections to payment service providers (PSP)
 
 
-If you want to establish a new connection to a payment service provider (PSP), you can buy the needed connection in the app store. This is valid if you have not yet bought it with your Actindo maintenance contract.<!---Stimmt das?-->   
+If you want to establish a new connection to a payment service provider (PSP), you can buy the needed connection in the app store. This is valid except for the Actindo POS driver and if you have not yet bought it with your Actindo maintenance contract.<!---Stefan: Stimmt das?-->   
 The data structure of the connection then provides exactly the data that the PSP needs to exchange data with the Actindo *Payments* module.
 
 In the following, the general settings to create, edit, 
-or disable connections are described. Except for the Actindo POS driver, you can buy the connections to payment service providers in the app store.<!---???stimmt das?-->
+or disable connections are described. 
 
 
 ## Create a PSP connection
 
-Create a connection to a certain payment provider. As soon as a connection has been established,..activated?? <!---an initial synchronization will be triggered, which will transfer the entire data model of the connected payment provider to Actindo-->. 
+Create a connection to a certain payment provider. As soon you have established a connection, an initial synchronization will be triggered, which will transfer the entire data model of the connected payment provider to Actindo. 
 
 
 #### Prerequisites
@@ -20,11 +20,11 @@ At least one connection has been installed.
 
 
 #### Procedure
-*Payments > Settings > Tab CONNECTIONS*
-<!--- ![Connection](../../Assets/Screenshots/Payments/Settings/Connections/Connections.png "[Connection]")--->
+*Payments > Settings > Tab CONNECTIONS*   
+![Connections](../../Assets/Screenshots/Payments/Settings/Connections.png "[Connections]")
 1.  Click the ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) button in the bottom right corner.   
     The view for creating a connection is displayed.   
-    ![Create connection](../../Assets/Screenshots/Payments/Settings/Connections/CreateConnection.png "[Create connection]")
+    ![Create connection](../../Assets/Screenshots/Payments/Settings/CreateConnection.png "[Create connection]")
 2.  Enter a name for the connection in the *Name* field.
 3.  Click the *Driver* drop-down list and select the desired driver. 
    All already installed drivers are displayed in the list.   
@@ -33,20 +33,17 @@ At least one connection has been installed.
 
      The *Credentials* section is displayed below the drop-down list.
 
-    ![Credentials](../../Assets/Screenshots/Payments/Settings/Connections/Credentials.png "[Credentials]")
+    ![Credentials](../../Assets/Screenshots/Payments/Settings/CreateConnectionCredentials.png "[Credentials]")
      > [Info] Depending on the selected driver, the fields in the *Credentials* section differ.
 
-4. Enter the required data in the fields in the *Credentials* section.
-5. If the PSP connection required additional settings, open the *Settings* tab and add further settings.
+4. Enter the required data in the fields in the *Credentials* section. Use the information you have gotten from the payment service provider to fill the credentials.
+5. If the PSP connection requires additional settings, open the *Settings* tab and add further settings.
 
-5. Click the [SAVE] button.   
+6. Click the [SAVE] button.   
     The connection will be established. The *Checking credentials...* notice is displayed. After a few seconds, the *Loading data...* notice is displayed.
-
-    ![Checking credentials](../../Assets/Screenshots/Payments/Settings/Connections/CheckingCredentials.png "[Checking credentials]")
-
     The view for creating connections is automatically closed when the connection has been established. The *Edit connection* view of the newly created connection is displayed. The *Settings* tab is selected.
-
-    ![Edit connection settings](../../Assets/Screenshots/Payments/Settings/Connections/EditConnectionSettings.png "[Edit connection settings]")   
+      ![Credentials](../../Assets/Screenshots/Payments/Settings/EditConnectionSettings.png "[Credentials]")
+    <!-----Stefan: stimmt das? Ich kann es nicht nachmachen--->
 
 
 ## Edit a PSP connection
@@ -61,14 +58,17 @@ At least one connection has been created, see [Create a connection](#create-a-co
 
 *Payments > Settings > Tab CONNECTIONS*
 
-![Connections](../../Assets/Screenshots/Payments/Settings/Connections/Connections.png "[Connections]")
+![Connections](../../Assets/Screenshots/Payments/Settings/ChangeConnections.png "[Connections]")
 
-1. Click the connection you want to edit in the list of connections.   
+1. Select the checkbox of the connection you want to edit.  
+   The editing toolbar is displayed above the list of connections.      
+2. Click the  ![Edit](../../Assets/Icons/Edit01.png "[Edit]")  button
+   
     The *Edit connection* view is displayed.
 
-    > [Info] Depending on the driver of the connection, the *Credentials* and the *Settings* tab are displayed in the *Edit connection* view.
+    > [Info] Depending on the driver of the connection, the *Credentials* as well as the *Settings* tab are displayed in the *Edit connection* view.
 
-    ![Edit connection](../../Assets/Screenshots/Payments/Settings/Connections/EditConnectionCredentials.png "[Edit connection]")
+    ![Connection credentials](../../Assets/Screenshots/Payments/Settings/EditConnectionCredentials.png "[Connection credentials]")
 
 2. Edit the desired data of the connection in the corresponding fields in the *Credentials* tab.
 
@@ -76,26 +76,23 @@ At least one connection has been created, see [Create a connection](#create-a-co
 
 4. Click the [SAVE] button.   
     The *Checking credentials...* notice is displayed.
-
-    ![Credentials](../../Assets/Screenshots/Payments/Settings/Connections/CheckingCredentials.png "[Credentials]")
-
-    The *Edit connection* view is automatically closed when the changes have been saved. The *Connections* view is displayed again.
-
-
+    ![Checking credentials](../../Assets/Screenshots/Payments/Settings/CheckingCredentials.png "[Checking credentials]")
+    The *Edit connection* view is automatically closed when the changes have been saved. The *CONNECTIONS* view is displayed again.
 
 ## Disable a PSP connection
-Once a connection has been established, you cannot delete it because of potential dependencies in the existing database. Nevertheless, you can disable the connection if you do not use is any longer. You can disable several active connections at a time.
+Once a connection has been established, you cannot delete it because of potential dependencies in the existing database. Nevertheless, you can disable the connection if you no longer use it. You can disable several active connections at a time.
 
 #### Prerequisites
 
 - At least one connection has been established, see [Create a connection](#create-a-connection).
+- The connection is active.
 
 
 #### Procedure
 
 *Payments > Settings > Tab CONNECTIONS*
 
-![Connections](../../Assets/Screenshots/Payments/Settings/Connections/Connections.png "[Connections]")
+![Connections](../../Assets/Screenshots/Payments/Settings/ChangeConnections.png "[Connections]")
 
 1. Select the checkbox of the connection you want to disable in the list of connections.   
     The editing toolbar is displayed above the list of connections.
@@ -105,3 +102,28 @@ Once a connection has been established, you cannot delete it because of potentia
 
 3. Click the ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh) button to update the list of connections.   
     The status of the disabled connection in the *Status* column has switched to **Inactive**.
+
+## Enable a PSP connection
+Once a connection has been established, you can disable it if you no longer need it. If you have done this by mistake, you can enable the connection again. You can enable several active connections at once.
+
+#### Prerequisites
+
+- At least one connection has the status *Inactive*.
+
+
+#### Procedure
+
+*Payments > Settings > Tab CONNECTIONS*
+
+![Connections](../../Assets/Screenshots/Payments/Settings/ChangeConnections.png "[Connections]")
+<!----Stefan, kannst Du mir einen Screenshot machen?Eigentlich brauche ich nur einen grünen Enable button --->
+
+1. Select the checkbox of the connection you want to enable in the list of connections.   
+    The editing toolbar is displayed above the list of connections.
+
+2. Click the [ENABLE] button in the editing toolbar.   
+    The connection has been activated.
+
+3. Click the ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh) button to update the list of connections.   
+    The *Checking credentials...* notice is displayed. 
+    The status of the enabled connection in the *Status* column has switched to **Active**.

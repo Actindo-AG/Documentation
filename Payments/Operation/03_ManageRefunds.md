@@ -44,6 +44,7 @@ A refund transaction provides numerous payment-related details, which may vary d
 3. Check the attributes and logs of the transaction. For detailed information, see the following:
      - [LIST &ndash; Attributes](../UserInterface/04_ListRefunds.md#refunds-–-attributes)
      - [LIST &ndash; Logs](../UserInterface/04_ListRefunds.md#refunds-–-logs)
+4. Return to the LIST and decide how to proceed with the transaction.
 
 
 ## Void a refund transaction
@@ -63,5 +64,5 @@ The status of a refund transaction is **not** success. In case of success, the r
  1. Identify the communication issue that led to the error. To do this, check the refund transaction you want to void, see [Check the refund transaction](#check-refund-transaction).
 2. Select the refund transaction to be voided by clicking the checkbox on the left.   
     The editing toolbar is displayed.
-3. Click the [Void] button. 
+3. Click the [Void] button.   
    A confirmation message is displayed. The status of the refund transaction has changed to "Void". It is no longer valid for the Actindo database.
