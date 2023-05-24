@@ -7,13 +7,10 @@ The processing of the authorization transactions works as follows:
 - Actindo links both.   
 
 For Actindo, the authorization transaction serves as a reference to a payment made by a customer.   
-
-You can use this procedure to display all incoming authorization transactions of a payment service provider. You can check for communication errors between Actindo and the payment service provider that has been caused in a termination of a workflow, for example. In addition, if applicable, you can change the status of a transaction to start continuing further processing.    
-  
- > [Info] An authorization transaction does not contain any sensible data protected by a data protection act such as GDPR. Those data remain on the payment server provider side only. In addition, an Actindo user will not be able to redirect a payment to his or her own bank account. The authorization transaction is a reference to the communication between the Actindo system and the payment service provider's system only.    
+You can use this procedure to display all incoming authorization transactions of a payment service provider. You can check for communication errors between Actindo and the payment service provider that has been caused in a termination of a workflow, for example. In addition, if applicable, you can change the status of a transaction to start continuing further processing or to end it.    
 
 If everything works fine with the posting of the payment, you do not need to monitor the *Authorizations* menu entry.   
-In rare cases something went wrong when the workflow cannot post a payment correctly. For example, this may happen, if something went wrong during pressing the *Pay now* button by the customer. In this case, the service payment provider may have sent two references to a payment to the *Payments* module. Now the workflow is not able to find the correct reference and ends with an error.   
+It may happen that in rare cases something went wrong when the workflow cannot post a payment correctly. For example, this may happen, if something went wrong during pressing the *Pay now* button by the customer. In this case, the service payment provider may have sent two references to a payment to the *Payments* module. Now the workflow is not able to find the correct reference and ends with an error.   
 In case of those errors you can capture, cancel, or void an authorization transaction manually.   
 > [Info] You can only change the status of an authorization transaction, but not any data.
 
@@ -30,7 +27,7 @@ An authorization transaction provides numerous payment-related details, which ma
 #### Procedure
 
 *Payments > Authorizations > Tab LIST*
-![Authorization transaction](../../Assets/Screenshots/Payments/Authorizations/LISTAuthorizations.png "[Authorization transaction]")
+![Authorizations](../../Assets/Screenshots/Payments/Authorizations/LISTAuthorizations.png "[Authorizations]")
 
 1. Check the Authorization transaction status in the *Status* column. The status displays the current stage in the payment process. You can use the status ID prefixed below to filter the list. The following statuses are available: 
     - **1 - Preparing**  
@@ -103,7 +100,7 @@ After you have checked an authorization transaction that could not be processed 
 *Payments > Authorizations > Tab LIST*
 ![Void authorization transaction](../../Assets/Screenshots/Payments/Authorizations/ChangeAuthorization.png "[Capture authorization transaction]")
 You can void an authorization transaction, if you want to disable the transaction for the Actindo database. For example, for whatever reason the same transaction has been posted twice. In this case, you can void one of these transactions and continue the order process with the other transaction.
-> [Info] The payment service provider will not be informed about changing the status to "void". It is only done to clear the database.
+> [Info] The payment service provider will not be informed about changing the status to "Void". It is only done to clear the database.
 
 
 #### Prerequisites

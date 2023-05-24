@@ -33,6 +33,9 @@ Bank statements and reports from payment service providers can be automatically 
 ## Managing all payments centrally 
 The payment options for customers are diverse, and so are the payment service providers that exist on the market today. In order to be able to offer your customers the widest possible range of payment methods - from invoice to credit card to direct debit - cooperation with various providers is required. Actindo's payment module enables the simple connection of various payment service providers, such as Klarna&trade;, Paypal&trade;, or banks via EBICS. This enables the management of all payments and refunds centrally via the *Actindo Core1 platform*.  
 
+
 ## Handling of sensitive data
-Although you can view and monitor all incoming payments and refunds, you do not have access to any sensitive customer data. In the *Payments* module, all incoming payments and refunds are referenced to the number of the payment service provider transactions. Sensible data such as customer names, bank or credit card details are not visible in the *Payments* module. 
+Although you can view and monitor all incoming payments and refunds, you do not have access to any sensitive customer data. In the *Payments* module, all incoming payments and refunds are referenced to the number of the payment service provider transactions.   
+Sensible data such as customer names, bank or credit card details or other data that are protected by a data protection act such as GDPR, are not visible in the *Payments* module. 
+The data remain on the payment server provider side only. In addition, an Actindo user will not be able to redirect a payment to his or her own bank account. The authorization transaction is a reference to the communication between the Actindo system and the payment service provider's system only. 
 
