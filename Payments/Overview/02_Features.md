@@ -15,7 +15,7 @@ With the *Payments* module of Actindo, pre-authorized payments are captured auto
 
 
 ## Connection of payment service providers
-Using our simple EBICS integration, you can flexibly connect various payment service providers such as Payment Service Providers (PSP), Paypal, credit cards, or bank transactions to the *Actindo Core1 platform*. 
+Using our simple EBICS integration, you can flexibly connect various payment service providers such as Adyen, Paypal, credit cards, or bank transactions to the *Actindo Core1 platform*. 
 
 
 ## Generation of payments for POS, telephone sales and sales representatives
@@ -31,8 +31,8 @@ Bank statements and reports from payment service providers can be automatically 
 
 
 ## Managing all payments centrally 
-The payment options for customers are diverse, and so are the payment service providers that exist on the market today. In order to be able to offer your customers the widest possible range of payment methods - from invoice to credit card to direct debit - cooperation with various providers is unavoidable. Actindo's payment module enables the simple connection of various payment service providers, such as Klarna, Paypal or banks via EBICS and thus makes the management of all payments and refunds centrally via the Core1 platform possible.  
+The payment options for customers are diverse, and so are the payment service providers that exist on the market today. In order to be able to offer your customers the widest possible range of payment methods - from invoice to credit card to direct debit - cooperation with various providers is unavoidable. Actindo's payment module enables the simple connection of various payment service providers, such as Klarna, Paypal, or banks via EBICS. This enables the management of all payments and refunds centrally via the *Actindo Core1 platform*.  
 
 ## Handling of sensitive data
-Although you can view and monitor all incoming payments and refunds, you do not have access to any sensitive customer data. In the *Payments* module, all incoming payments and refunds are referenced to the number of the payment service provider authorization tickets. Sensible data such as customer names, bank or credit card details are not visible in the *Payments* module. 
+Although you can view and monitor all incoming payments and refunds, you do not have access to any sensitive customer data. In the *Payments* module, all incoming payments and refunds are referenced to the number of the payment service provider transactions. Sensible data such as customer names, bank or credit card details are not visible in the *Payments* module. 
 

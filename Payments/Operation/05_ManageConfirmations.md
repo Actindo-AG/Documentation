@@ -52,19 +52,19 @@ After you have checked a confirmation transaction and the reclaim is justified, 
 ![Execute confirmation](../../Assets/Screenshots/Payments/Confirmations/ChangeConfirmation.png "[Execute confirmaton]")
 
 1. Click the [Search](../../Assets/Icons/Search.png "[Search]") (Search) button to display the search bar and search for the original reference ID of the refund.
-2. Check the confirmation transaction you want to execute, see [Check the confirmation transaction]().
-2. Select the confirmation ticket you want to exceute by clicking the checkbox on the left.   
+2. Check the confirmation transaction you want to execute, see [Check the confirmation transaction](05_ManageConfirmations.md#check-confirmation-transaction).
+2. Select the confirmation transaction you want to execute by clicking the checkbox on the left.   
     The editing toolbar is displayed.
 3. Click the [Execute] button.
-   The status of the authorization ticket has changed to *Executed??*.
+   The status of the authorization transaction has changed to *Executed??*.
 
 ## Reject confirmation transaction
-After you have checked a confirmation ticket and the reclaim is **not** justified, you can reject it. 
+After you have checked a confirmation transaction and the reclaim is **not** justified, you can reject it. 
 #### Prerequisites
 - At least one connection has been created, see [Create a connection](../Integration/01_ManageConnections.md#create-a-connection).
 - At least one refund has been created.
 - At least the *Amount* and the *Status* column is displayed in the view.
-- The status of a confirmation ticket is "Confirmation required". 
+- The status of a confirmation transaction is "Confirmation required". 
 
 #### Procedure
 
@@ -74,17 +74,17 @@ After you have checked a confirmation ticket and the reclaim is **not** justifie
 
 
 1. Click the [Search](../../Assets/Icons/Search.png "[Search]") (Search) button to display the search bar and search for the original reference ID of the refund.
-2. Check the confirmation ticket you want to reject, see [Check the confirmation ticket](./05_ManageConfirmations.md#check-confirmation-ticket).
-2. Select the confirmation ticket you want to reject by clicking the checkbox on the left.   
+2. Check the confirmation transaction you want to reject, see [Check the confirmation transaction](./05_ManageConfirmations.md#check-confirmation-transaction).
+2. Select the confirmation transaction you want to reject by clicking the checkbox on the left.   
     The editing toolbar is displayed.
 3. Click the [Execute] button. <!---was passsiert dann-->
-   The status of the confirmation ticket has changed to *Rejected??*.
+   The status of the confirmation transaction has changed to *Rejected??*.
 
 ## Void confirmation transaction
-You can void a refund ticket, if you want to disable the ticket for the Actindo database. 
+You can void a refund transaction, if you want to disable the transaction for the Actindo database. 
 > [Info] The payment service provider will not be informed about changing the status to "void". It is only done to clear the database.
 #### Prerequisites
-- The status of a confirmation ticket is **not** "Confirmation required". 
+- The status of a confirmation transaction is **not** "Confirmation required". 
 
 #### Procedure
 
@@ -92,8 +92,9 @@ You can void a refund ticket, if you want to disable the ticket for the Actindo 
 
 ![Void confirmation](../../Assets/Screenshots/Payments/Confirmations/ChangeConfirmation.png "[Void confirmaton]")
 
-1. Identify the communication issue that led to the error. To do this, check the confirmation ticket to be voided, see [Check the cancellation and chargeback ticket](04_ManageCancellationsChargebacks.md#check-cancellation-and-chargeback-ticket).
-2. Select the Confirmation ticket to be voided by clicking the checkbox on the left.   
+1. Identify the communication issue that led to the error. To do this, check the confirmation transaction to be voided, see [Check the confirmation transaction](05_ManageConfirmations.md#check-confirmation-transaction).
+2. Select the Confirmation transaction to be voided by clicking the checkbox on the left.   
     The editing toolbar is displayed.
-3. Click the [Void] button.  <!---was passsiert dann-->   
-   The status of the confirmation ticket has changed to "Void". It is not longer valid for the Actindo database.
+3. Click the [Void] button.  
+   
+   The status of the confirmation transaction has changed to "Void". It is no longer valid for the Actindo database.
