@@ -25,7 +25,7 @@ In all tabs of the *Post* menu entry, an identical header is displayed. The cont
         Click this menu entry to take over automatically cash payments registered in the cash book. The *Cash book takeover* window is displayed, see [Cash book takeover](#cash-book-takeover).
 
     - *Bank data takeover*  
-        Click this menu entry to take over automatically bank transactions registered in the *Payment processing* module. The *Bank data synchronizing* window is displayed, see [Bank data takeover](#bank-data-takeover). 
+        Click this menu entry to take over automatically bank transactions registered in the *Payment processing* module. This option is only displayed if the *Payment processing* is installed. The *Bank data synchronizing* window is displayed, see [Bank data takeover](#bank-data-takeover). 
 
     - ![Lock](../../Assets/Icons/Lock02.png "[Lock]") *Process*  
         Click this menu entry to process several postings simultaneously. The *Process postings* window is displayed, see [Process](#process).
@@ -43,7 +43,7 @@ In all tabs of the *Post* menu entry, an identical header is displayed. The cont
         Click this menu entry to post currency exchange differences automatically. The *Foreign currency wizard* window is displayed, see [Foreign currency wizard](#foreign-currency-wizard).
 
     - *Supplier receipts*  
-        Click this menu entry to post specifically supplier receipts. The *Supplier receipts* window is displayed, see [Supplier receipts](#supplier-receipts).
+        Click this menu entry to post specifically supplier receipts. This option is only displayed if the *Supplier receipts + payment proposal list* plug-in has been installed. The *Supplier receipts* window is displayed, see [Supplier receipts](#supplier-receipts).
 
 - [EVALUATIONS]  
     Click this button to display the *EVALUATIONS* context menu. The following menu entries are displayed:
@@ -172,11 +172,11 @@ An individual posting from the cash book can be selected and partially edited be
 - *Account*  
     This field displays the account and cannot be modified.
 
-- *Cost1*  
-    Click the field to edit the cost number.
+- *Cost 1*  
+    Click the field to edit the cost center number.
 
-- *Cost2*  
-    Click the field to edit the cost number.
+- *Cost 2*  
+    Click the field to edit the cost object number.
 
 - *Text*  
     Click the field to edit the text.
@@ -187,7 +187,7 @@ An individual posting from the cash book can be selected and partially edited be
 - [DELETE]    
     Click this button to delete the selected posting. A confirmation window is displayed. Click the [OK] button to delete the selected postings.
 
-  [comment]: <> (FEHLER: löschen hier nicht möglich! -> even though takeover not yet performed? Probably because it is linked to cash book/Kassenbuch? What is the use of this button here? Extra Info needed)
+  [comment]: <> (FEHLER: löschen hier nicht möglich! Bug Ticket?)
 
 - [CLEAR]    
     Click this button to clear all input line fields.
@@ -195,7 +195,7 @@ An individual posting from the cash book can be selected and partially edited be
 - [SPLIT]    
     Click this button to split the selected posting. The *Split posting* window is displayed, see [Split posting](#split-posting).
 
-  [comment]: <> (Splitbuchungfunktion scheint hier nicht zu funktionieren. Bug? Fehlermeldungen: beim klicking auf SPLIT -> Unbekannte Bankbuchung. Wenn man versucht, eine Splitbuchung zu machen -> Meldung: Gebucht und in rot "Umsatz, GegKonto, Datum oder Konto leer! Ungültiges Datum!" Alle Felder sind aber richtig ausgefüllt, jetzt zeigen sie aber alle 0, außer Beleg 1, GegKonto und Text)
+  [comment]: <> (Splitbuchungfunktion scheint hier nicht zu funktionieren. Bug Ticket?)
 
 - [SAVE]    
     Click this button to take over the selected postings. The button is only unlocked if at least one posting is selected.
@@ -218,17 +218,16 @@ For a detailed description of the contained elements and the corresponding funct
 
 ![Bank data takeover](../../Assets/Screenshots/RetailSuiteAccounting/Book/BankDataSynchronizing.png "[Bank data takeover]")
 
-The list displays all bank transactions registered in a selected bank account, which can be taken over automatically in the *Accounting* module. This function is linked with the *Payment processing* module, and therefore the *Payment processing* module must be set up first. This window can also be accessed from the *Bank data takeover* menu entry in the *Payment processing* module.
+The list displays all bank transactions registered in a selected bank account, which can be taken over automatically in the *Accounting* module. This function is linked with the *Payment processing* module, and therefore the *Payment processing* module must be installed and set up first. This window can also be accessed from the *Bank data takeover* menu entry in the *Payment processing* module.
 
 [comment]: <> (Link hinzufügen, wenn verfügbar)
 
 - *Bank account*  
     Click the drop-down list to select the bank account from which data must be imported.
 
-- [x] *Load registered*      
-    Select this checkbox to unlock the [SHOW REGISTERED] button. By default, the checkbox is not selected to reduce system overload and improve performance. This default setting can be changed in the *Settings* menu entry of the *Payment processing* module.
+- [x] *Load posted*      
+    Select this checkbox to unlock the [SHOW POSTED] button. By default, the checkbox is not selected to reduce system overload and improve performance. This default setting can be changed in the *Settings* menu entry of the *Payment processing* module.
 
-  [comment]: <> (Check verbuchte -> registered oder posted?)
   [comment]: <> (Link hinzufügen, wenn verfügbar)
 
 - *FY/Month*  
@@ -237,7 +236,7 @@ The list displays all bank transactions registered in a selected bank account, w
 - [RETRIEVE/IMPORT]  
     Click this button to display the *Retrieve bank data* window, see [Retrieve bank data](#retrieve-bank-data).
 
-- [SHOW REGISTERED]  
+- [SHOW POSTED]  
     Click this button to display all posted bank transactions.
 
 - [SHOW HIDDEN]  
@@ -269,21 +268,19 @@ The list displays the imported bank data. Depending on the settings, the display
 - *T* (Take over)   
   Select the checkbox to select the payment.
 
-- *B* (Receipt)   
+- *P* (Posting)   
   Payment status. The following statuses are available:
-    - ![Fully matched](../../Assets/Icons/FullyMatched.png "[Fully matched]") (Fully matched)  
-        The bank transaction has been fully matched (creditor number and receipt 1) with an open item.
-    - ![Partially matched](../../Assets/Icons/PartiallyMatched.png "[Partially matched]") (Partially matched)  
+    - ![Fully matched](../../Assets/Icons/Completed.png "[Fully matched]") (Fully matched)  
+        The bank transaction has been fully matched with an open item.
+    - ![Partially matched](../../Assets/Icons/PartiallyMatched02.png "[Partially matched]") (Partially matched)  
         The bank transaction has been partially matched with an open item but there are discrepancies to be checked.
-    - ![Not matched](../../Assets/Icons/NotMatched.png "[Not matched]") (Not matched)  
+    - ![Not matched](../../Assets/Icons/New.png "[Not matched]") (Not matched)  
         No matching open item found for the bank transaction.
 
-    > [Info] If a bank transaction is matched manually with an open item, an **M** will be displayed in this column.
-
-[comment]: <> (HG: B = Beleg! -> Change column name accordingly here and in IU Terminology file! Add screenshot/icons - Bedeutung von B Spalte? RS Jessie)  
+    > [Info] If a bank transaction is manually matched with an open item, an **M** is displayed in this column.
 
 - S (Search)  
-    Click the ![Search](../../Assets/Icons/Search.png "[Search]") (Search) button to search for open items.
+    Click the ![Search](../../Assets/Icons/Search.png "[Search]") (Search) button to search for open items. The *Search open items* window is displayed, see [Search open items](#search-open-items).
 
 - *Turnover*  
     Turnover value.
@@ -306,21 +303,11 @@ The list displays the imported bank data. Depending on the settings, the display
 - *Text*  
     Posting text.
 
-Additional columns can be displayed by clicking the ![Columns](../../Assets/Icons/Columns02.png "[Columns]") (Columns) button in the table header:
-
-- *Customer number*  
-- *Invoice number*  
-- *Order number*  
-- *Customer name*  
-- *Customer e-mail address*  
-
 - ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh)  
-    Click this button to update the payment list.
+    Click this button to update the list of bank transactions.
 
 - [RESET]  
-    Click this button to reset the payment list.
-
- [comment]: <> (Unsure! Check!)
+    Click this button to reset the list of bank transactions.
 
 - ![Fully matched](../../Assets/Icons/FullyMatched.png "[Fully matched]") (Fully matched) [x]  
     Bank transactions that are fully matched by the system with an open item are marked green. The *x* indicates the number of bank transactions that have been fully matched.
@@ -328,41 +315,55 @@ Additional columns can be displayed by clicking the ![Columns](../../Assets/Icon
 - ![Partially matched](../../Assets/Icons/PartiallyMatched.png "[Partially matched]") (Partially matched) [x]  
     Bank transactions that are partially matched by the system with an open item and must be checked by the user are marked yellow. The *x* indicates the number of bank transactions that have been partially matched. 
 
-- ![Not matched](../../Assets/Icons/NotMatched.png "[Not matched]") (Not matched) [x]  
+- ![Not matched](../../Assets/Icons/NotMatched.png "[Not matched]") (Not matched) [x]   
     Bank transactions that cannot be matched by the system with an open item are marked red. The *x* indicates the number of bank transactions that are not matched. 
 
-- ![Registered](../../Assets/Icons/Posted.png "[Registered]") (Registered) [x]  
-    Bank transactions that have already been registered. The *x* indicates the number of bank transactions that have been registered. 
+- ![Posted](../../Assets/Icons/Posted.png "[Posted]") (Posted) [x]  
+    Bank transactions that have already been posted. The *x* indicates the number of bank transactions that have been posted. 
 
-- ![Unhidden](../../Assets/Icons/Unhidden.png "[Unhidden]") (Unhidden) [x]
-    Bank transactions that were previously hidden and now are displayed again. The *x* indicates the number of bank transactions that have been partially matched. 
+- ![Hidden](../../Assets/Icons/Hidden.png "[Hidden]") (Hidden) [x]   
+    Bank transactions that are hidden. The *x* indicates the number of bank transactions that have been partially matched. 
 
 - [SELECT GREEN]  
-    Click this button to select all fully matched (green) payments.
+    Click this button to select all bank transactions that are fully matched.
 
 - [SELECT YELLOW]  
-    Click this button to select all fuzzy matched (yellow) payments.
+    Click this button to select all bank transactions that are partially matched.
 
 - [RESET SELECTION]  
     Click this button to reset the selection.
 
-The payments can also be processed manually. Click any payment in the list to display its values in the input line fields.
+The bank transactions can also be processed manually. Click any transaction in the list to display its values in the input line fields.
 
-[comment]: <> (HG: vgl. mit Einleitungssatz bei Übernahme Kassenbuch! Warum ist das nicht mehr beschrieben?)
+- *Seq. no.*  
+    Enter the bank transaction number. Bank transaction numbers must be sequential. If no number is entered, the system enters the next available number. 
 
-[comment]: <> (Unsure! RS FH. Add operation file? RS FH!)
+- *Turnover*  
+    Enter the turnover value.
 
-- *Seq. no.*
-- *Turnover*
-- *Contra account*
-- *Receipt 1*
-- *Receipt 2*
-- *Date*
-  -  ![Calendar](../../Assets/Icons/Calendar.png "[Calendar]") (Calendar)
-- *Account*
-- *Cost1*
-- *Cost2*
-- *Text*
+- *Contra account*  
+    Enter the applicable contra account. This field is mandatory.
+
+- *Receipt 1*  
+    Enter the receipt number 1, usually the invoice number.
+
+- *Receipt 2*  
+    Enter other reference number, if necessary.
+
+- *Date*  
+    Enter the applicable date. Alternatively, click the ![Calendar](../../Assets/Icons/Calendar.png "[Calendar]") (Calendar) button to select the date.
+
+- *Account*  
+    Enter the applicable account. This field is mandatory.
+
+- *Cost 1*  
+    Enter the applicable cost center number, if necessary. 
+
+- *Cost 2*  
+    Enter the applicable cost object number, if necessary.
+
+- *Text*  
+    Enter the applicable posting text.
 
 - [POST]    
     Click this button to post the edited posting.
@@ -379,7 +380,7 @@ The payments can also be processed manually. Click any payment in the list to di
 [comment]: <> (check split posting vs. breakdown posting)
 
 - [TAKE OVER MARKED]  
-    Click this button to register the marked payments in the system.
+    Click this button to post the marked payments in the system.
 
 - [HIDE MARKED]  
     Click this button to hide the marked payments.
@@ -442,11 +443,140 @@ The payments can also be processed manually. Click any payment in the list to di
 
 #### Search open items 
 
-*Accounting > Post > Button EDIT > Menu entry Bank data takeover > Button RETRIEVE/IMPORT > Button Suchen (Luppe)*
+*Accounting > Post > Button EDIT > Menu entry Bank data takeover > Button RETRIEVE/IMPORT > Button Search*
 
 ![Search open items](../../Assets/Screenshots/RetailSuiteAccounting/Book/SearchOpenItems.png "[Search open items]")
 
-[comment]: <> (Screenshot Jessie)
+**Static data**
+
+- *Value date*  
+    Date in which the bank transaction becomes effective.
+
+- *Date*  
+    Date of the bank transaction.
+
+- *Outgoing payment EUR*  
+    Amount to be paid.
+
+- *Posting EUR*  
+    Amount to be posted.
+
+- *Outstanding*
+    Outstanding amount.
+
+**Quick filter data**
+
+- *Reference*  
+    Transaction reference details.
+
+- *Recipient*  
+    Recipient of the transaction.
+
+**Quick filter management**
+
+> [Info] You can select a piece of text in the "Quick filter data" section with the mouse and then click the applicable button to search for the selected text in the corresponding area. 
+
+- [SEARCH IN "RECEIPT NUMBER"]  
+    Click this button to search for the selected text in *Receipt number*.
+
+- [SEARCH IN "SHOP ORDER NO."]  
+    Click this button to search for the selected text in *Shop order number*.
+   
+- [SEARCH IN "ACCOUNT NUMBER"]  
+    Click this button to search for the selected text in *Account number*.
+  
+- [SEARCH IN "CUSTOMER NUMBER"]  
+    Click this button to search for the selected text in *Customer number*.
+  
+- [SEARCH IN "CUSTOMER/COMPANY"]  
+    Click this button to search for the selected text in *Customer/company*.
+  
+- [SEARCH IN "BANK ROUTING NUMBER"]     
+    Click this button to search for the selected text in *Bank routing number*.
+
+**Open items filter and search**  
+
+[comment]: <> (check mit Jessie) 
+
+- *Name / Company*  
+    The selected debtor/creditor or company name is displayed. Alternatively, you can enter a debtor/creditor or company name manually.
+
+- *Posting account*   
+    The selected account number is displayed. Alternatively, you can enter a posting account manually.
+
+- *Receipt 1*  
+    The selected receipt 1 number is displayed. Alternatively, you can enter a receipt 1 number(usually the invoice number) manually.     
+
+- *Receipt 4*  
+    The selected receipt 4 number is displayed. Alternatively, you can enter a receipt 4 number manually.   
+
+- *Balance*  
+    Enter the applicable amount.
+
+- *Text*  
+    Enter the applicable posting text.
+
+- *Account number*  
+    Enter the applicable bank account number.
+
+- *Bank routing number*  
+    Enter the applicable bank routing number. 
+
+
+**Applicable open items**
+
+- [ACTIVE FILTERS]
+
+- *Seq. no.*  
+    Open item sequential number.
+
+- *Date*  
+    Open item date.  
+
+- *Account*  
+    Debtor/creditor account number.
+
+- *Receipt 1*  
+    Receipt 1 number.
+
+- *Online shop order no.*  
+    Order number in online shop.
+
+- *Status*  
+    Open item status. There are two statuses available:
+    - **Red** 
+    - **Green** 
+    
+- *Balance*  
+    Open item amount.
+
+- *Currency*  
+    Open item currency.
+
+- *Text*  
+    OPen item posting text.
+
+> [Info] If no open items are found, the *No data available* notice is displayed.
+
+
+- ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh)  
+    Click this button to update the list of open items.
+
+- [RESET]  
+    Click this button to reset the list of open items.
+
+- [TAKE OVER MARKED OPEN ITEMS]  
+    Click this button to take over the marked open items. The marked open items are then displayed in the *Preview of postings to be created* section.
+
+
+**Preview of postings to be created**
+
+- [CANCEL]  
+    Click this button to cancel taking over the marked open items.
+
+- [FINALIZE]  
+    Click this button to finalize taking over the marked open items.
+
 
 
 #### Import/Export definitions
@@ -714,7 +844,7 @@ This path displays the file location, name and page.
     Click this button to download the document.
 
 - *Turnover*  
-    Enter the turnover value to be registered. This field is mandatory.
+    Enter the turnover value to be posted. This field is mandatory.
 
 - *ContraAcct*  
     Enter the appropriate contra account. This field is mandatory.
@@ -756,7 +886,7 @@ This path displays the file location, name and page.
     Enter any relevant comments for potential auditors.
 
 - [ACQUIRE]  
-    Click this button to register the receipt in the system.
+    Click this button to post the receipt in the system.
 
 - [SPLIT]  
     Click this button to perform a split posting. The *Breakdown posting* window is displayed, see [Breakdown posting](#breakdown-posting).
@@ -1122,7 +1252,7 @@ The input line is unlocked if at least one checkbox is selected.
     Click this button to save any changes made to receipt data.
 
 - [TAKE OVER SELECTED ONES]  
-    Click this button to register the selected receipts in the system.
+    Click this button to post the selected receipts in the system.
 
 - [SPLIT]  
     Click this button to perform a split posting if necessary. The *Breakdown posting* window is displayed, see [Breakdown posting](#breakdown-posting).
