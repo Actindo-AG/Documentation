@@ -16,6 +16,7 @@ A refund transaction provides numerous payment-related details, which may vary d
 
 - At least one connection has been created, see [Create a connection](../Integration/01_ManageConnections.md#create-a-connection).
 - At least one refund has been created.
+- It is recommended that you add the *Status ID* field to your view so that you are able to sort or filter for specific statuses. 
 
 #### Procedure   
 

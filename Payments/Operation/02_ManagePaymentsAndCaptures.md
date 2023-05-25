@@ -18,7 +18,7 @@ A capture provides numerous payment-related details, which may vary depending on
 
 - At least one connection has been created, see [Create a connection](../Integration/01_ManageConnections.md#create-a-connection).
 - At least one capture transaction has been created.
-- It is recommended that you have added the *Status ID* field to your view so that you are able to sort or filter for specific statuses. 
+- It is recommended that you add the *Status ID* field to your view so that you are able to sort or filter for specific statuses. 
 
 #### Procedure
 
@@ -55,10 +55,6 @@ A capture provides numerous payment-related details, which may vary depending on
 
 ## Refund payments and capture transaction
 
-*Payments > Payments and Captures > Tab LIST*
-
-
-
 After you have checked a capture transaction that could not be processed by the workflow, you can refund the capture transaction manually, so that the order process can be cancelled.
 
 #### Prerequisites
@@ -67,7 +63,8 @@ The status of a capture transaction is **not** success. In this case, the furthe
 
 #### Procedure
 
-![Refund payment and capture transaction](../../Assets/Screenshots/Payments/PaymentsCaptures/ChangePaymentsCaptures.png "[Refund payment and capture transaction]")   
+*Payments > Payments and Captures > Tab LIST*
+![LIST (Payments and captures)](../../Assets/Screenshots/Payments/PaymentsCaptures/ChangePaymentsCaptures.png "[LIST (Payments and captures]")   
 
 1. Check the capture transaction you want to refund, see [Check the capture transaction](#check-capture-transactionn).
 2. Select the capture transaction you want to refund by clicking the checkbox on the left.   
@@ -77,9 +74,6 @@ The status of a capture transaction is **not** success. In this case, the furthe
 
 ## Void payment and capture transaction
 
-*Payments > Payments and Captures > Tab LIST*
-
-![Void payment and capture transaction](../../Assets/Screenshots/Payments/PaymentsCaptures/ChangePaymentsCaptures.png "[Void payment and capture transaction]")   
 
 You can void a capture transaction, if you want to disable the transaction for the Actindo database. 
 > [Info] The payment service provider will not be informed about changing the status to "void". It is only done to clear the database.
@@ -89,6 +83,9 @@ You can void a capture transaction, if you want to disable the transaction for t
 The status of a capture transaction is **not** success. In this case, further processing has already been started. <!---ist das richtig-->
 
 #### Procedure
+*Payments > Payments and Captures > Tab LIST*
+
+![Void payment and capture transaction](../../Assets/Screenshots/Payments/PaymentsCaptures/ChangePaymentsCaptures.png "[Void payment and capture transaction]")   
 
  1. Identify the communication issue that led to the error. To do this, check the capture transaction you want to void, see [Check the payments and captures transaction](#check-capture-transaction).
 2. Select the capture transaction to be voided by clicking the checkbox on the left.   
