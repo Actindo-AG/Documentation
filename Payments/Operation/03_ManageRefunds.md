@@ -3,11 +3,11 @@
 A refund is a repayment of a capture. It is initialized by the trader, for example, if a product is not available and cannot be delivered.   
 > [Info] The most payment service providers create a new reference when a payment has been refunded. This means that the reference ID of a capture transaction has been changed in this case and you will not be able to identify the transaction here with the payment and captures transaction ID.   
 
-You can use this procedure to display all incoming references to a refund from a payment service provider. You can check for communication errors between Actindo and the payment service provider that has been caused in a termination of a workflow, for example. In addition, if applicable, you can manually change the status of a transaction to *void* to clear the database.    
+You can use this procedure to display all incoming references to a refund from a payment service provider. You can check for communication errors between Actindo and the payment service provider that has been caused in a termination of a workflow, for example. In addition, if applicable, you can manually change the status of a transaction to *Void* to clear the database.    
    
 If everything works fine with the posting of a refund, you do not need to monitor the *Refunds* menu entry.   
 
-## Check a refund transaction
+## Check refund transaction
 
 A refund transaction provides numerous payment-related details, which may vary depending on the payment service provider settings. To decide whether you can manually void a refund transaction, you need to check its details.   
 > [Info] You can only change the status of a refund transaction, but not any data.
@@ -28,7 +28,8 @@ A refund transaction provides numerous payment-related details, which may vary d
     - **2 - Unconfirmed**   
     k 
     - **3 - Success**  
-        Actindo has got the response from the service payment provider, that the transfer was successfully.
+        Actindo has got the response from the service payment provider, that the transfer was successfully.   
+        You can now follow up this case under the menu entry *Confirmations*. <!-----Stefan ist das richtig?---> 
     - **4 - Failure**   
         The payment service provider has received the request, but it cannot process it. If available for the connection, the status information field provides further information.
     - **5 - Error**   
@@ -48,7 +49,7 @@ A refund transaction provides numerous payment-related details, which may vary d
 4. Return to the LIST and decide how to proceed with the transaction.
 
 
-## Void a refund transaction
+## Void refund transaction
 
 You can void a refund transaction, if you want to disable the transaction for the Actindo database. 
 > [Info] The payment service provider will not be informed about changing the status to "void". It is only done to clear the database.

@@ -1,7 +1,7 @@
-# Logging
+# LIST (Logging)
 *Payments > Logging > Tab LIST*
 
-![List of intents](../../Assets/Screenshots/Payments/Logging/ListIntents.png "[List of intents]")
+![List of intents](../../Assets/Screenshots/Payments/Logging/LISTIntents.png "[List of intents]")
 
 **List of intents**
 
@@ -47,6 +47,7 @@
 - ![Filter](../../Assets/Icons/Filter.png "[Filter]") Filter (x)   
     Click this button to display the filter bar and customize the active filters. The *x* indicates the number of filters that are currently active.
 
+ 
 
 The list displays all intents. Depending on the settings, the displayed columns may vary. All fields are read-only.
 

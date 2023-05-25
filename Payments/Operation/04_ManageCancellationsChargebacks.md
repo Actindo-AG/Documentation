@@ -8,10 +8,8 @@ You can use this procedure to display all incoming references to cancellations a
    
 If everything works fine with the posting of a cancellation and chargeback, you do not need to monitor the *Cancellations and Chargebacks* menu entry.  
 
-## Check cancellations and chargeback transaction
-*Payments > Cancellations and Chargebacks > LIST*
 
-![Cancellation and chargeback transaction](../../Assets/Screenshots/Payments/CancellationsChargebacks/LISTCancellationsChargebacks.png "[Cancellation and chargeback transaction]")
+## Check cancellations and chargeback transaction
 
 A cancellation and chargeback transaction provides numerous payment-related details, which may vary depending on the payment service provider settings. To decide whether you can manually void a cancellation and cancellation and chargeback transaction, you need to check its details.  
 > [Info] You can only change the status of a chargeback transaction, but not any data.
@@ -30,7 +28,7 @@ A cancellation and chargeback transaction provides numerous payment-related deta
 
 1. Select the desired view.   
 
-2. If desired, select the cancellation type you want to check. The following types are available:   
+2. If desired, select the cancellation and chargeback type you want to check. The following types are available:   
     - **Cancel**   
       The customer has revoked the reservation.
     - **Chargeback**
@@ -60,7 +58,7 @@ A cancellation and chargeback transaction provides numerous payment-related deta
     ![Cancellations and Chargebacks attributes and logs](../../Assets/Screenshots/Payments/CancellationsChargebacks/CheckCancellationsChargebacks.png "[Cancellations and chargebacks attributes and logs]")
 
 
-3. Check the attributes and logs of the transaction. For more information, see the following:
+3. Check the attributes and logs of the transaction. For detailed information, see the following:
      - [LIST &ndash; Attributes](../UserInterface/05_ListCancellationsChargebacks.md#cancellations-and-chargebacks-–-attributes)
      - [LIST &ndash; Logs](../UserInterface/04_ListRefunds.md#refunds-–-logs)
 4. Return to the LIST and decide how to proceed with the transaction.
@@ -73,16 +71,16 @@ You can void a cancellation and chargeback transaction, if you want to disable t
 
 #### Prerequisites
 
-The status of a cancellation and chargeback transaction is **not** success. In case of success, the cancellation and chargeback has already been further processed. 
+The status of a cancellation and chargeback transaction is **not** success. In case of success, the cancellation and chargeback has already been further processed and is available under the *Confirmations* menu entry. <!----Stefan, ist das richtig oder ist es unter Refund?> 
 
 #### Procedure
 
 *Payments > Cancellations and Chargebacks > LIST*   
 
-![Void cancellation and Chargeback transaction](../../Assets/Screenshots/Payments/CancellationsChargebacks/VoidCancellationsChargebacks.png "[Void cancellation and chargeback transaction]")
+![LIST (Cancellations and chargebacks](../../Assets/Screenshots/Payments/CancellationsChargebacks/VoidCancellationsChargebacks.png "[LIST (Cancellations and chargebacks]")
 
  1. Identify the communication issue that led to the error. To do this, check the cancellation and chargeback transaction to be voided, see [Check cancellation and chargeback transaction](#check-cancellations-and-chargeback-transaction).
 2. Select the cancellation and chargeback transaction to be voided by clicking the checkbox on the left.   
     The editing toolbar is displayed.
 3. Click the [Void] button.    
-   A confirmation message is displayed. The status of the cancellation and chargeback transaction has changed to "Void". It is no longer valid for the Actindo database.
+   A confirmation message is displayed. The status of the cancellation and chargeback transaction has changed to *Void*. It is no longer valid for the Actindo database.

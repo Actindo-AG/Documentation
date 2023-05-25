@@ -16,7 +16,7 @@
         - ![Rename](../../Assets/Icons/Edit02.png "[Rename]") rename  
             Click this entry to rename the selected view. The *Rename view* window is displayed, see [Rename view](#rename-view). This menu entry is only displayed if you have selected a view.
 
-        <!---- [Reset](../../Assets/Icons/Reset.png "[Reset]") reset  
+        <!---- Eintrag gibt es nicht mehr [Reset](../../Assets/Icons/Reset.png "[Reset]") reset  
             Click this entry to reset all unsaved changes to the settings of the selected view. This menu entry is only displayed if a view has been selected and any changes have been made to the view settings.--->
 
         - ![Publish](../../Assets/Icons/Publish.png "[Publish]") publish  
@@ -37,9 +37,9 @@
 - *Connections*   
     Click the drop-down list to select a connection. The following options are available:
     - **All connections**  
-        Select this option to display authorizations for all configured connections. 
+        Select this option to display authorization transactions for all configured connections. 
     - **Connection name**  
-        Select this option to display authorizations for the selected connection. When a specific connection has been selected, the **All connections** option is no longer displayed. Click the selected connection again to deselect it.  
+        Select this option to display authorization transactions for the selected connection. When a specific connection has been selected, the **All connections** option is no longer displayed. Click the selected connection again to deselect it.  
 - [x]     
     Select the checkbox to the left of one list entry to display the editing toolbar for this single entry.   
     If you click the checkbox in the header, all entries in the list are selected. The editing toolbar shows all actions you can perform on several entries.
@@ -51,7 +51,7 @@
 
 - ![Columns](../../Assets/Icons/Columns.png "[Columns]") Columns (x)   
     Click this button to display the columns bar and to customize the displayed columns and the order of columns in the list. The *x* indicates the number of columns that are currently displayed in the list.   
-    > [Info] It is recommended to add the following columns to your view to get the required information as well as to better filter and sort the entries: Status ID, Status information (if applicable). 
+    > [Info] It is recommended to add the following columns to your view to get the required information snd to better filter and sort the entries: Status ID, Status information (if applicable). 
 - ![Filter](../../Assets/Icons/Filter.png "[Filter]") Filter (x)   
     Click this button to display the filter bar and customize the active filters. The *x* indicates the number of filters that are currently active.
 
@@ -60,7 +60,7 @@
 *Payments > Payments and Captures > Tab LIST > Select an authorization ticket > Tab Attributes*   
 
 
-![Attributes](../../Assets/Screenshots/Payments/Authorizations/AuthorizationAttributes.png "[Attributes]")
+![LIST &ndash; Attributes](../../Assets/Screenshots/Payments/Authorizations/AuthorizationAttributes.png "[LIST &ndash; Attributes]")
 
 In the left margin column, all available attribute groups are displayed. Click a group to display the attributes that are assigned to this group on the right side of the *Attributes* tab. If the authorization transaction contains attributes that are not assigned, the *Unassigned group* attribute group is automatically displayed in the left margin column.
 
@@ -74,8 +74,7 @@ In the left margin column, all available attribute groups are displayed. Click a
 - ![Folder](../../Assets/Icons/Folder01.png "[Folder]") (Folder)  
     Attribute group. Click the attribute group to display all attributes that are assigned to the selected attribute group on the right side of the *Attributes* tab.
 
-The right side of the *Attributes* tab displays all attributes that are assigned to the selected group in the left margin column. Depending on the selected attribute group, the displayed fields may vary. The attributes are imported via the payment service provider driver. All fields are read-only.
-
+The right side of the *Attributes* tab displays all attributes that are assigned to the selected group in the left margin column. Depending on the selected attribute group, the displayed fields may vary. The attributes are imported by the payment service provider driver. All fields are read-only.
 
 
 
@@ -86,7 +85,7 @@ The right side of the *Attributes* tab displays all attributes that are assigned
 ![Dependencies](../../Assets/Screenshots/Payments/Authorizations/AuthorizationDependencies.png "[Dependencies]")   
 
 
-Since an authorization ticket has no dependencies to other entities in Actindo  by default, this sub-tab is not relevant.
+Since an authorization ticket has no dependencies to other entities in Actindo by default, this sub-tab is not relevant.
 
 ## Authorizations &ndash; Logs   
 
@@ -95,6 +94,10 @@ Since an authorization ticket has no dependencies to other entities in Actindo  
 
 
 ![Logs](../../Assets/Screenshots/Payments/Authorizations/AuthorizationLogs.png "[Logs]")
+
+This tab displays messages and intents that have been created during transferring the selected authorization transaction from the payment service provider.    
+In contrast to the messages that are provided with the *Logging* menu entry, you see here the logging for the specific authorization transaction only.   
+See [LIST (Logging)](./07a_ListLogging) for detailed information on fields and functions.
 
 
 ## Create view

@@ -53,34 +53,39 @@ A capture provides numerous payment-related details, which may vary depending on
      - [LIST &ndash; Logs](../UserInterface/03_ListPaymentsAndCaptures.md#payments-and-captures-–-logs)
 4. Return to the LIST and decide how to proceed with the transaction.
 
+
+
 ## Refund payments and capture transaction
 
 After you have checked a capture transaction that could not be processed by the workflow, you can refund the capture transaction manually, so that the order process can be cancelled.
 
 #### Prerequisites
 
-The status of a capture transaction is **not** success. In this case, the further processing has been started. <!---ist das richtig-->
+The status of a capture transaction is **not** success. In this case, further processing has already been continued. <!---ist das richtig-->
 
 #### Procedure
 
-*Payments > Payments and Captures > Tab LIST*
+*Payments > Payments and Captures > Tab LIST*   
+
 ![LIST (Payments and captures)](../../Assets/Screenshots/Payments/PaymentsCaptures/ChangePaymentsCaptures.png "[LIST (Payments and captures]")   
 
 1. Check the capture transaction you want to refund, see [Check the capture transaction](#check-capture-transactionn).
 2. Select the capture transaction you want to refund by clicking the checkbox on the left.   
     The editing toolbar is displayed.
 3. Click the [Refund] button. <!---was passsiert dann-->   
-   A confirmation message is displayed. The status of the capture transaction has changed to *Refund*.
+   A confirmation message is displayed. The status of the capture transaction has changed to *Success*.   
+   You can now follow up this case under the menu entry *Refunds*. <!-----Stefan ist das richtig?---> 
+
+
 
 ## Void payment and capture transaction
 
-
 You can void a capture transaction, if you want to disable the transaction for the Actindo database. 
-> [Info] The payment service provider will not be informed about changing the status to "void". It is only done to clear the database.
+> [Info] The payment service provider will not be informed about changing the status to "Void". It is only done to clear the database.
 
 #### Prerequisites
 
-The status of a capture transaction is **not** success. In this case, further processing has already been started. <!---ist das richtig-->
+The status of a capture transaction is **not** success. In this case, further processing has already been continued. <!---ist das richtig-->
 
 #### Procedure
 *Payments > Payments and Captures > Tab LIST*
