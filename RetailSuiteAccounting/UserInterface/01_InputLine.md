@@ -36,12 +36,12 @@ In all tabs of the *Post* menu entry, an identical footer with the input line is
 
     > [Info] After you have entered at least two numbers in the field, a list is displayed below the field with all accounts matching the entry. You can select the corresponding account in the list.
 
-- *Receipt1*  
+- *Receipt 1*  
     Enter an appropriate reference value, such as the invoice number.
 
     > [Info] Even though it is not mandatory, it is highly recommended to fill in the *Receipt 1* field, as the system identifies and groups together any subsequent postings taking this field as reference, for example for an invoice settlement or a credit note in case of refund.
 
-- *Receipt2*  
+- *Receipt 2*  
     Enter any other appropriate reference value, such as order number.
 
 - *Date*  
@@ -62,16 +62,16 @@ In all tabs of the *Post* menu entry, an identical footer with the input line is
 The following fields below the input line are filled in automatically when creating a manual posting or selecting a posting in the list. All fields are read-only.
 
 - *Contra account*  
-    Contra account name of the selected posting.
+    Contra account name of the selected posting. This field is read-only.
 
 - *Balance*  
-    Contra account balance. H stands for credit. S stands for debit.
+    Contra account balance. H stands for credit. S stands for debit. This field is read-only.
 
 - *Account*  
-    Account name of the selected posting.
+    Account name of the selected posting. This field is read-only.
 
 - *Balance*  
-    Account balance. H stands for credit. S stands for debit.
+    Account balance. H stands for credit. S stands for debit. This field is read-only.
 
 - *Amount*  
   Total amount of all postings in the list.
@@ -152,14 +152,10 @@ The list displays the selected posting and all partial postings. All fields are 
     Sequential number of the posting. The posting numbers must be sequential and are added by the system automatically.
 
 - *PP*  
-    Month number of the posting period. 00 is displayed.
-
-[comment]: <> (Bug? Should the actual posting period -month/journal- be shown here?)
+    Month number of the posting period.  
 
 - *Jnl*  
-    Journal number of the posting period. 00 is displayed.
-
-[comment]: <> (Bug? Should the actual posting period -month/journal- be shown here?)
+    Journal number of the posting period.  
 
 - *Turnover*  
     Turnover value.
@@ -167,10 +163,10 @@ The list displays the selected posting and all partial postings. All fields are 
 - *Contra account*  
     Contra account number. No information is displayed. The corresponding contra accounts are assigned to each split posting.
 
-- *Receipt1*  
+- *Receipt 1*  
     Receipt 1 value, usually the invoice number.
 
-- *Receipt2*  
+- *Receipt 2*  
     Receipt 2 value, which can be any other reference number, such as the order number.
 
 - *Date*  
@@ -187,8 +183,6 @@ The list displays the selected posting and all partial postings. All fields are 
 
 - *Text*  
     Posting text.
-
-[comment]: <> (There seems to be an unnamed column between Kst2 and Text, usually where B/Belege comes in. When clicking a posting with a linked receipt, the B icon does not appear here. No option to link a receipt here either, so left out from description. Bug/comment?)
 
 - *REST*  
     Outstanding invoice amount to be split. As soon as the remaining amount equals 0, the [SAVE] button is unlocked.  
@@ -210,10 +204,10 @@ The input line allows to split the posting.
 - *Contra account*  
     Enter the appropriate contra account for each partial posting. This field is mandatory.
 
-- *Receipt1*  
+- *Receipt 1*  
     Enter an appropriate reference value, such as the invoice number, for each partial posting if necessary.
 
-- *Receipt2*  
+- *Receipt 2*  
     Enter any other appropriate reference value, such as order number, for each partial posting if necessary.
 
 - *Date*  
@@ -280,8 +274,6 @@ All folders and sub-folders set up in the *Documents* module are displayed in th
 
     - 10000-69999 personal account numbers in case of a debtors'/customers' document
     - 70000-79999 personal account numbers in case of a creditors'/suppliers' document
-
-[comment]: <> (Check ob so oder 70000-99999 personal account numbers in case of a creditors'/suppliers' document)
 
 - *Printed documents*  
     This folder contains the printed documents.
@@ -354,7 +346,7 @@ The list displays all uploaded documents. All fields are read-only.
 - *Status*  
     Document status of the uploaded file.
 
-[comment]: <> (Are there any statuses? Never displayed any status)
+[comment]: <> (Kein Status angezeigt - Bug Ticket?)
 
 - *Document*  
     File path of the uploaded document.
@@ -362,7 +354,7 @@ The list displays all uploaded documents. All fields are read-only.
 - *Remark*  
     Remarks related to the uploaded document.
 
-[comment]: <> (Possible that the column values of remarks and status are accidentally reversed? Possible remarks: Uploading..., OK., File x already exists!, Upload cancelled by user.)
+[comment]: <> (Possible that the column values of remarks and status are accidentally reversed? Possible remarks: Uploading..., OK., File x already exists!, Upload cancelled by user. Bug Ticket?)
 
 - [ADD]  
     Click this button to add a file to be uploaded.
@@ -376,7 +368,7 @@ The list displays all uploaded documents. All fields are read-only.
 - [UPLOAD]  
     This button is always locked. The upload starts automatically after adding a file. During the upload, the button is hidden and the [CANCEL] button is displayed instead.
 
-[comment]: <> (Button ist überflüssig, da der Upload automatisch startet.-> entfernen? Oder gibt es eine Einstellung, dass der Upload nicht automatisch startet?)
+[comment]: <> (Button ist überflüssig, da der Upload automatisch startet.-> entfernen? Oder gibt es eine Einstellung, dass der Upload nicht automatisch startet? Bug Ticket?)
 
 - [CLOSE]  
     Click this button to close the *Upload file* window.

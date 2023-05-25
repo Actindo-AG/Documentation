@@ -72,7 +72,7 @@ You can edit a customer/supplier, for example, if certain data need to be change
 > [Info] If a new customer has been previously created, only the *Customer list* is displayed. If a new supplier has been previously created, only the *Supplier list* is displayed.
 
 1. Double click the customer or supplier to be edited.   
-    The *Customer/Supplier (XXXXX)* tab with the corresponding customer/supplier number is displayed. By default, the *Address/Contact* sub-tab is preselected. The data for the selected customer/supplier are displayed in the corresponding fields.
+    The *Customer/supplier (XXXXX)* tab with the corresponding customer/supplier number is displayed. By default, the *Address/Contact* sub-tab is preselected. The data for the selected customer/supplier are displayed in the corresponding fields.
 
     > [Caution] **Potential loss of data**   
     Editing has the potential to cause loss of data due to overwrite. The overwrite cannot be undone and the overwritten data cannot be restored.    

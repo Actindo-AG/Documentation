@@ -37,17 +37,15 @@ Special journals are preconfigured in the system to carry balances and open item
 
 4. Click the *Range from - to* drop-down lists and select the account classes to be carried forward. The account classes as preconfigured in the *BALANCE CARRIED FORWARD* tab are displayed.
 
-5. By default, the first day of the new fiscal year is preselected as the posting date.
+5. Make sure that the posting date is the first date of the new fiscal year.
 
-[comment]: <> (Saldenvorträge werden immer auf den 01.01. gemacht. Wieso ist das Datum da? Check mit Isa und Satz anpassen)
+    > [Info] Balances carried forward are performed at the start of the fiscal year. By default, the first day of the new fiscal year is preselected as the posting date.
 
 6. Select the appropriate option(s) in the *Cost accounting* field if you also want to carry forward cost centers, cost objects or inactive cost centers/objects.
 
 7. Select the *Delete old balances carried forward from selected FY* checkbox if necessary.
 
-    > [Info] Previously balances carried forward will be then replaced by the new balances carried forward. The original posting in the previous fiscal year is not deleted though.
-
-[comment]: <> (Stimmt das so?)
+    > [Info] Previous balances carried forward  will be then replaced by the new balances carried forward. The original posting in the previous fiscal year is not deleted though.
 
 8. Click the [CONTINUE] button.  
     The *Retrieve account balances* window is displayed.

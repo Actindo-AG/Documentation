@@ -49,7 +49,7 @@ The list displays all available tax keys. All fields are read-only.
     - **IV**   
         The input tax and the VAT are configured for the tax key.
 
-[comment]: <> (Abkürzungen im System nicht übersetzt. Auf DE lassen? Wenn ja, durchgängig, also, auch in Integration und Operation)
+[comment]: <> (Abkürzungen im System nicht übersetzt. FETA Ticket)
 
 - *Country*  
     Two-letter country code. The alpha-2 codes according to ISO 3166-1 are used, see [List of country codes](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2).
@@ -127,4 +127,4 @@ The input fields below allow to create, edit or delete tax keys. For detailed in
 - [RESTORE]  
     Click this button to restore the tax keys to their original state.
 
-[comment]: <> (Was macht der WIEDERHERSTELLEN/RESTORE Button? Beim Klicken, Fenster mit Warnung "Möchten Sie die Steuerschlüssel in deren Ursprungs-Zustand zurückversetzen? Alle von Ihnen gemachten Änderungen werden dadurch gelöscht." Bei OK scheint es aber nichts zu passieren... Das System leert die Eingabemaske, aber nach Speichern kann man nicht wiederherstellen.)
+[comment]: <> (Was macht der WIEDERHERSTELLEN/RESTORE Button? Beim Klicken, Fenster mit Warnung "Möchten Sie die Steuerschlüssel in deren Ursprungs-Zustand zurückversetzen? Alle von Ihnen gemachten Änderungen werden dadurch gelöscht." Bei OK scheint es aber nichts zu passieren... Das System leert die Eingabemaske, aber nach Speichern kann man nicht wiederherstellen. Bug Ticket?)

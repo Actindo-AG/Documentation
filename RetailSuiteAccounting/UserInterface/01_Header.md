@@ -25,7 +25,7 @@ In all tabs of the *Post* menu entry, an identical header is displayed. The cont
         Click this menu entry to take over automatically cash payments registered in the cash book. The *Cash book takeover* window is displayed, see [Cash book takeover](#cash-book-takeover).
 
     - *Bank data takeover*  
-        Click this menu entry to take over automatically bank transactions registered in the *Payment processing* module. This option is only displayed if the *Payment processing* is installed. The *Bank data synchronizing* window is displayed, see [Bank data takeover](#bank-data-takeover). 
+        Click this menu entry to take over automatically bank transactions registered in the *Payment processing* module. This option is only displayed if the *Payment processing* module is installed. The *Bank data synchronizing* window is displayed, see [Bank data takeover](#bank-data-takeover). 
 
     - ![Lock](../../Assets/Icons/Lock02.png "[Lock]") *Process*  
         Click this menu entry to process several postings simultaneously. The *Process postings* window is displayed, see [Process](#process).
@@ -98,8 +98,8 @@ The list displays all cash payments registered in the cash book, which can be ta
 - *Seq. no.*  
     Sequential number as registered in the cash book.
 
-- [x] *T (Take over posting)*  
-    Select this checkbox to select the posting for the take over. The [SAVE] button is unlocked.
+- *T (Take over)*  
+    Click the checkbox to select the payment. The [SAVE] button is unlocked.
 
 - *PP*  
     Posting period as registered in the cash book.
@@ -113,13 +113,11 @@ The list displays all cash payments registered in the cash book, which can be ta
 - *Contra Account*  
     Contra account as registered in the cash posting.
 
-  [comment]: <> (No account in cash book! What does the number stand for? As "Unbekannt!")   
-
 - *Receipt 1*  
-    Receipt number 1 as registered in the cash book.
+    Receipt 1 number as registered in the cash book.
 
 - *Receipt 2*  
-    Receipt number 2 as registered in the cash book.
+    Receipt 2 number as registered in the cash book.
 
 - *Date*  
     Date as registered in the cash book.
@@ -127,14 +125,14 @@ The list displays all cash payments registered in the cash book, which can be ta
 - *Account*  
     Account as registered in the cash book.
 
-- *Cst1*  
+- *Cst 1*  
     Cost 1 as registered in the cash book.
 
-- *Cst2*  
+- *Cst 2*  
     Cost 2 as registered in the cash book.
 
 - *Text*  
-    Free text as registered in the cash book.
+    Posting text as registered in the cash book.
 
 - [SELECT ALL]     
     Click this button to select all postings in the list.
@@ -147,8 +145,6 @@ The list displays all cash payments registered in the cash book, which can be ta
 
 An individual posting from the cash book can be selected and partially edited before takeover. Click the posting to be edited. Its details are displayed in the input line.
 
-[comment]: <> (Unsure! Working correctly? Additional Info needed. Add operation file?)
-
 - *Seq. no.*  
     This field displays the posting sequential number and cannot be modified.  
 
@@ -156,15 +152,15 @@ An individual posting from the cash book can be selected and partially edited be
     This field displays the turnover and cannot be modified.
 
 - *Contra account*  
-    Enter the appropriate contra account. This field is mandatory.
+    Click the field to edit the contra account number, if necessary. This field is mandatory.
 
     > [Info] After you have entered at least two numbers in the field, a list is displayed below the field with all accounts matching the entry. You can select the corresponding account in the list.
 
 - *Receipt 1*  
-    Click the field to edit the receipt number.
+    Click the field to edit the receipt 1 number.
 
 - *Receipt 2*  
-    Click the field to edit the receipt number.
+    Click the field to edit the receipt 2 number.
 
 - *Date*  
     This field displays the date and cannot be modified.
@@ -179,7 +175,7 @@ An individual posting from the cash book can be selected and partially edited be
     Click the field to edit the cost object number.
 
 - *Text*  
-    Click the field to edit the text.
+    Click the field to edit the posting text.
 
 - [POST]    
     Click this button to post the edited posting.
@@ -187,15 +183,11 @@ An individual posting from the cash book can be selected and partially edited be
 - [DELETE]    
     Click this button to delete the selected posting. A confirmation window is displayed. Click the [OK] button to delete the selected postings.
 
-  [comment]: <> (FEHLER: löschen hier nicht möglich! Bug Ticket?)
-
 - [CLEAR]    
     Click this button to clear all input line fields.
 
 - [SPLIT]    
     Click this button to split the selected posting. The *Split posting* window is displayed, see [Split posting](#split-posting).
-
-  [comment]: <> (Splitbuchungfunktion scheint hier nicht zu funktionieren. Bug Ticket?)
 
 - [SAVE]    
     Click this button to take over the selected postings. The button is only unlocked if at least one posting is selected.
@@ -206,7 +198,8 @@ An individual posting from the cash book can be selected and partially edited be
 
 ### Split posting
 
-*Accounting > Post > Button EDIT > Menu entry Cash book takeover > Button SPLIT*
+*Accounting > Post > Button EDIT > Menu entry Cash book takeover > Button SPLIT*  
+*Accounting > Post > Button EDIT > Menu entry Bank data takeover > Button SPLIT*
 
 For a detailed description of the contained elements and the corresponding functions, see [Split posting](./01_InputLine.md#split-posting).
 
@@ -214,11 +207,11 @@ For a detailed description of the contained elements and the corresponding funct
 
 ## Bank data takeover  
 
-*Accounting > Post > Button EDIT > Menu entry Cash book takeover*
+*Accounting > Post > Button EDIT > Menu entry Bank data takeover*
 
 ![Bank data takeover](../../Assets/Screenshots/RetailSuiteAccounting/Book/BankDataSynchronizing.png "[Bank data takeover]")
 
-The list displays all bank transactions registered in a selected bank account, which can be taken over automatically in the *Accounting* module. This function is linked with the *Payment processing* module, and therefore the *Payment processing* module must be installed and set up first. This window can also be accessed from the *Bank data takeover* menu entry in the *Payment processing* module.
+The list displays all transactions registered in a selected bank account, which can be taken over automatically in the *Accounting* module. This function is linked with the *Payment processing* module, and therefore the *Payment processing* module must be installed and set up first. This window can also be accessed from the *Bank data takeover* menu entry in the *Payment processing* module.
 
 [comment]: <> (Link hinzufügen, wenn verfügbar)
 
@@ -237,10 +230,10 @@ The list displays all bank transactions registered in a selected bank account, w
     Click this button to display the *Retrieve bank data* window, see [Retrieve bank data](#retrieve-bank-data).
 
 - [SHOW POSTED]  
-    Click this button to display all posted bank transactions.
+    Click this button to display all posted transactions.
 
 - [SHOW HIDDEN]  
-    Click this button to display all hidden bank transactions.
+    Click this button to display all hidden transactions.
 
 - [QUICK SEARCH]  
     Click this button to display the *QUICK SEARCH* filter list. The following search criteria are available:
@@ -260,27 +253,27 @@ The list displays all bank transactions registered in a selected bank account, w
     - ![Search](../../Assets/Icons/Search.png "[Search]")  (Search)  
         Click this button to start the search. Alternatively, you can press the **ENTER** key. All bank data that match the search criteria are displayed in the list below.
 
-The list displays the imported bank data. Depending on the settings, the displayed columns may vary.
+The list displays all imported/retrieved bank transactions. Depending on the settings, the displayed columns may vary.
 
 - *Seq. no.*    
-  Sequential number of the payment.
+  Sequential number of the transaction.
 
 - *T* (Take over)   
-  Select the checkbox to select the payment.
+  Click the checkbox to select the transaction.
 
 - *P* (Posting)   
-  Payment status. The following statuses are available:
+  Transaction status. The following statuses are available:
     - ![Fully matched](../../Assets/Icons/Completed.png "[Fully matched]") (Fully matched)  
-        The bank transaction has been fully matched with an open item.
+        The transaction has been fully matched with an open item.
     - ![Partially matched](../../Assets/Icons/PartiallyMatched02.png "[Partially matched]") (Partially matched)  
-        The bank transaction has been partially matched with an open item but there are discrepancies to be checked.
+        The transaction has been partially matched with an open item but there are discrepancies to be checked.
     - ![Not matched](../../Assets/Icons/New.png "[Not matched]") (Not matched)  
-        No matching open item found for the bank transaction.
+        No matching open item has been found for the transaction.
 
-    > [Info] If a bank transaction is manually matched with an open item, an **M** is displayed in this column.
+    > [Info] If a transaction is manually matched with an open item, an **M** is displayed in this column.
 
 - S (Search)  
-    Click the ![Search](../../Assets/Icons/Search.png "[Search]") (Search) button to search for open items. The *Search open items* window is displayed, see [Search open items](#search-open-items).
+    Click the ![Search](../../Assets/Icons/Search02.png "[Search]") (Search) button in a transaction to search for the corresponding open item. The *Search open items* window is displayed, see [Search open items](#search-open-items).
 
 - *Turnover*  
     Turnover value.
@@ -289,13 +282,13 @@ The list displays the imported bank data. Depending on the settings, the display
     Assigned contra account.
 
 - *Receipt 1*  
-    Receipt number 1, usually the invoice number.
+    Receipt 1 number, usually the invoice number.
 
 - *Receipt 2*  
-    Receipt number 2.
+    Receipt 2 number.
 
 - *Date*  
-    Payment date.
+    Transaction date.
 
 - *Account*  
     Assigned account.
@@ -304,72 +297,72 @@ The list displays the imported bank data. Depending on the settings, the display
     Posting text.
 
 - ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh)  
-    Click this button to update the list of bank transactions.
+    Click this button to update the list of transactions.
 
 - [RESET]  
-    Click this button to reset the list of bank transactions.
+    Click this button to reset the list of transactions.
 
 - ![Fully matched](../../Assets/Icons/FullyMatched.png "[Fully matched]") (Fully matched) [x]  
-    Bank transactions that are fully matched by the system with an open item are marked green. The *x* indicates the number of bank transactions that have been fully matched.
+    Transactions that are fully matched by the system with an open item are marked green. The *x* indicates the number of transactions that have been fully matched.
 
 - ![Partially matched](../../Assets/Icons/PartiallyMatched.png "[Partially matched]") (Partially matched) [x]  
-    Bank transactions that are partially matched by the system with an open item and must be checked by the user are marked yellow. The *x* indicates the number of bank transactions that have been partially matched. 
+    Transactions that are partially matched by the system with an open item and must be checked by the user are marked yellow. The *x* indicates the number of transactions that have been partially matched. 
 
 - ![Not matched](../../Assets/Icons/NotMatched.png "[Not matched]") (Not matched) [x]   
-    Bank transactions that cannot be matched by the system with an open item are marked red. The *x* indicates the number of bank transactions that are not matched. 
+    Transactions that cannot be matched by the system with an open item are marked red. The *x* indicates the number of transactions that are not matched. 
 
 - ![Posted](../../Assets/Icons/Posted.png "[Posted]") (Posted) [x]  
-    Bank transactions that have already been posted. The *x* indicates the number of bank transactions that have been posted. 
+    Transactions that have already been posted. The *x* indicates the number of transactions that have been posted. 
 
 - ![Hidden](../../Assets/Icons/Hidden.png "[Hidden]") (Hidden) [x]   
-    Bank transactions that are hidden. The *x* indicates the number of bank transactions that have been partially matched. 
+    Transactions that are hidden. The *x* indicates the number of transactions that are hidden. 
 
 - [SELECT GREEN]  
-    Click this button to select all bank transactions that are fully matched.
+    Click this button to select all transactions that are fully matched.
 
 - [SELECT YELLOW]  
-    Click this button to select all bank transactions that are partially matched.
+    Click this button to select all transactions that are partially matched.
 
 - [RESET SELECTION]  
     Click this button to reset the selection.
 
-The bank transactions can also be processed manually. Click any transaction in the list to display its values in the input line fields.
+The transactions can also be processed manually. Click a transaction in the list to display the available values in the input line fields. You can then enter the missing values as necessary in the corresponding fields.
 
 - *Seq. no.*  
-    Enter the bank transaction number. Bank transaction numbers must be sequential. If no number is entered, the system enters the next available number. 
+    Transaction sequential number. The sequential number is assigned by the system and cannot be modified.
 
 - *Turnover*  
-    Enter the turnover value.
+    Turnover value. 
 
 - *Contra account*  
-    Enter the applicable contra account. This field is mandatory.
+    Contra account number. 
 
 - *Receipt 1*  
-    Enter the receipt number 1, usually the invoice number.
+   Receipt 1 number, usually the invoice number.
 
 - *Receipt 2*  
-    Enter other reference number, if necessary.
+    Receipt 2 number.
 
 - *Date*  
-    Enter the applicable date. Alternatively, click the ![Calendar](../../Assets/Icons/Calendar.png "[Calendar]") (Calendar) button to select the date.
+    Transaction date. Alternatively, click the ![Calendar](../../Assets/Icons/Calendar.png "[Calendar]") (Calendar) button to select the date.
 
 - *Account*  
-    Enter the applicable account. This field is mandatory.
+    Account number. 
 
 - *Cost 1*  
-    Enter the applicable cost center number, if necessary. 
+   Cost center number. 
 
 - *Cost 2*  
-    Enter the applicable cost object number, if necessary.
+    Cost object number.
 
 - *Text*  
-    Enter the applicable posting text.
+    Posting text.
 
 - [POST]    
-    Click this button to post the edited posting.
+    Click this button to add the edited details to the selected transaction.
 
 - [DELETE]    
-    Click this button to delete the selected posting. A confirmation window is displayed. Click the [OK] button to delete the selected postings.
+    Click this button to delete the selected transaction. A confirmation window is displayed. Click the [OK] button to delete the selected transaction.
 
 - [CLEAR]    
     Click this button to clear all input line fields.
@@ -377,26 +370,23 @@ The bank transactions can also be processed manually. Click any transaction in t
 - [SPLIT]    
     Click this button to split the selected posting. The *Split posting* window is displayed, see [Split posting](#split-posting).
 
-[comment]: <> (check split posting vs. breakdown posting)
-
 - [TAKE OVER MARKED]  
-    Click this button to post the marked payments in the system.
+    Click this button to post the marked transaction(s) in the system.
 
 - [HIDE MARKED]  
-    Click this button to hide the marked payments.
+    Click this button to hide the marked transaction(s).
 
 - [SHOW MARKED]  
-    Click this button to display the marked payments.
+    Click this button to display the marked transaction(s).
 
-- *Last retrieval*
+- *Last retrieval*  
+    Date and time of last data retrieval/import.
 
 - [LEARN FILE]  
     Click this button to add ... The *Learn file* window is displayed, see [Learn file](#learn-file). 
 
 - [CANCEL]  
     Click this button to cancel retrieving the bank data All changes are rejected. The *Bank data synchronizing* window is closed. 
-
-[comment]: <> (Check) 
 
 
 ### Retrieve bank data
@@ -407,21 +397,17 @@ The bank transactions can also be processed manually. Click any transaction in t
 
 > [Info] Depending of the account access configured in the *Payment processing* module, the fields displayed vary. 
 
-[comment]: <> (Check mit Jessie)
-
 - *Bank*  
-    Click the drop-down list to select the bank account from which the payments are to be retrieved/imported.
+    Click the drop-down list to select the bank account from which the transactions are to be retrieved/imported.
 
 - *Account / routing number*  
     Details of the selected bank account.
 
 - *Date from*  
   - **Automatic**   
-      Select this option to retrieve/import all available account movements.
+      Select this option to retrieve/import all new account transactions since last retrieval.
   - **Selection**  
       Select this option to specify a date. A date field is displayed.  
-
-[comment]: <> (was bedeutet automatic? Alle verfügbare?)
 
 - *Import definition*   
     Click the drop-down list to select the appropriate import definition. All available import definitions are displayed in the list.  
@@ -432,7 +418,7 @@ The bank transactions can also be processed manually. Click any transaction in t
     Click the [Select file] button to search and select the file to be imported.
 
 - *PIN*  
-    Enter the configured pin to retrieve the bank account movements. 
+    Enter the configured pin to retrieve the bank account transactions. 
 
 - [CANCEL]  
     Click this button to cancel retrieving/importing the bank data. The *Bank data synchronizing* window is closed.
@@ -450,10 +436,10 @@ The bank transactions can also be processed manually. Click any transaction in t
 **Static data**
 
 - *Value date*  
-    Date in which the bank transaction becomes effective.
+    Date in which the transaction becomes effective.
 
 - *Date*  
-    Date of the bank transaction.
+    Date of the transaction.
 
 - *Outgoing payment EUR*  
     Amount to be paid.
@@ -461,8 +447,9 @@ The bank transactions can also be processed manually. Click any transaction in t
 - *Posting EUR*  
     Amount to be posted.
 
-- *Outstanding*
+- *Outstanding*  
     Outstanding amount.
+
 
 **Quick filter data**
 
@@ -471,6 +458,7 @@ The bank transactions can also be processed manually. Click any transaction in t
 
 - *Recipient*  
     Recipient of the transaction.
+
 
 **Quick filter management**
 
@@ -494,9 +482,8 @@ The bank transactions can also be processed manually. Click any transaction in t
 - [SEARCH IN "BANK ROUTING NUMBER"]     
     Click this button to search for the selected text in *Bank routing number*.
 
-**Open items filter and search**  
 
-[comment]: <> (check mit Jessie) 
+**Open items filter and search**  
 
 - *Name / Company*  
     The selected debtor/creditor or company name is displayed. Alternatively, you can enter a debtor/creditor or company name manually.
@@ -505,7 +492,7 @@ The bank transactions can also be processed manually. Click any transaction in t
     The selected account number is displayed. Alternatively, you can enter a posting account manually.
 
 - *Receipt 1*  
-    The selected receipt 1 number is displayed. Alternatively, you can enter a receipt 1 number(usually the invoice number) manually.     
+    The selected receipt 1 number is displayed. Alternatively, you can enter a receipt 1 number (invoice number) manually.     
 
 - *Receipt 4*  
     The selected receipt 4 number is displayed. Alternatively, you can enter a receipt 4 number manually.   
@@ -519,13 +506,19 @@ The bank transactions can also be processed manually. Click any transaction in t
 - *Account number*  
     Enter the applicable bank account number.
 
-- *Bank routing number*  
+- *Routing number*  
     Enter the applicable bank routing number. 
+
+- [APPLY]  
+    Click this button to apply the search criteria and search for matching open items.
 
 
 **Applicable open items**
 
-- [ACTIVE FILTERS]
+- [X ACTIVE FILTERS]
+    Click this button to display the filter menu. The *X* displays the number of active filters.  
+
+The list displays the open items found by the system matching the selected search criteria. 
 
 - *Seq. no.*  
     Open item sequential number.
@@ -544,8 +537,10 @@ The bank transactions can also be processed manually. Click any transaction in t
 
 - *Status*  
     Open item status. There are two statuses available:
-    - **Red** 
-    - **Green** 
+    - **Red**  
+        To be paid.
+    - **Green**  
+        To be received.
     
 - *Balance*  
     Open item amount.
@@ -554,10 +549,9 @@ The bank transactions can also be processed manually. Click any transaction in t
     Open item currency.
 
 - *Text*  
-    OPen item posting text.
+    Open item posting text.
 
 > [Info] If no open items are found, the *No data available* notice is displayed.
-
 
 - ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh)  
     Click this button to update the list of open items.
@@ -571,12 +565,38 @@ The bank transactions can also be processed manually. Click any transaction in t
 
 **Preview of postings to be created**
 
+- *Seq. no.*  
+    Posting sequential number. The sequential number is automatically assigned by the system.
+
+- *Turnover*  
+    Turnover value.
+
+- *Currency*  
+    Value currency.
+
+- *Discount*  
+    Applicable discount.
+
+- *Contra account*  
+    Debtor/creditor account number.
+
+- *Date*
+    Posting date
+
+- *Receipt 1*
+    Receipt 1 number. 
+
+- *Receipt 2* 
+    Receipt 2 number.
+
+- *Text*  
+    Posting text.
+
 - [CANCEL]  
     Click this button to cancel taking over the marked open items.
 
 - [FINALIZE]  
     Click this button to finalize taking over the marked open items.
-
 
 
 #### Import/Export definitions
@@ -593,6 +613,118 @@ For a detailed description of the contained elements and the corresponding funct
 *Accounting > Post > Button EDIT > Menu entry Bank data takeover > Button LEARN FILE*
 
 ![Learn file](../../Assets/Screenshots/RetailSuiteAccounting/Book/LearnFile.png "[Learn file]")
+
+**Entries**
+- [EXCEL]
+    Click this button to display the *EXCEL* context menu. The following options are available:  
+
+    - *Export current page*  
+        Click this option to export the entry list page currently displayed. The entry list is exported in Excel format and saved by default in the *Downloads* folder in your device.
+
+    - *Export all*  
+        Click this option to export all entry list pages. The entry list is exported in Excel format and saved by default in the *Downloads* folder in your device.
+
+        > [Info] The [EXCEL] button is only displayed if the *Statistics* module is installed.
+
+The list displayed the entries contained in the learn file.
+
+- *No.*  
+    Entry number.
+
+-  *Name*  
+    Entry name (debtor/creditor name).
+
+- *Reference*  
+    Reference number.
+
+- [CREATE]  
+    Click this button to create a new entry. The *Add* section is displayed.
+
+- [DELETE]  
+    Click this button to delete an entry. The entry is removed from the entry list.
+
+
+**Add/Edit**
+
+![Add/Edit](../../Assets/Screenshots/RetailSuiteAccounting/Book/LearnFileAddEdit.png "[Add/Edit]")
+
+> [Info] When clicking the [CREATE] button, the *Add* section is displayed. When selecting a checkbox entry list, the *Edit* section is displayed. The fields in the *Add* and the *Edit* section are identical.
+
+- *Number*  
+    Enter the debtor/creditor number.
+
+- *Name*  
+    Enter the debtor/creditor name.
+
+- *Description*  
+    Enter a detailed description, if desired.
+
+
+**Search criteria**
+
+- *Posting date from - to*  
+    Enter the transaction date range. Alternatively, click the ![Calendar](../../Assets/Icons/Calendar.png "[Calendar]") (Calendar) button to select a date.
+
+- *Value date from - to*  
+    Enter the transaction value date range. Alternatively, click the ![Calendar](../../Assets/Icons/Calendar.png "[Calendar]") (Calendar) button to select a date.
+
+- *Turnover from - to*  
+    Enter the transaction turnover range.
+
+- *Bank accounts*  
+    Click the drop-down list to select the bank account where the transaction is registered. Multiple selection is possible. The following options are available:
+    - **ALL**  
+        Select this option to select all bank accounts.
+    - Bank account  
+        Select this option to select a specific bank account. 
+
+- *Reference*  
+    Enter the transaction reference number.
+
+- *Recip./Sender name*  
+      Enter the transaction recipient or sender name. 
+
+- *Account no. or IBAN*  
+    Enter the number or the IBAN of the account where the transaction is coming from. 
+
+- *Routing no. or BIC*  
+    Enter the routing number or BIC of the bank where the transaction is coming from.
+
+
+**Posting to be created**
+
+- *Turnover*  
+    The turnover value can only be determined after the posting.
+
+- *Contra account*  
+    Double click in the field to enter the contra account number.
+
+- *Receipt 1*  
+    Double click in the field to enter the receipt 1 number.
+
+- *Receipt 2*  
+    Double click in the field to enter the receipt 1 number.  
+
+- *Date*  
+    The turnover value can only be determined after the posting.
+
+- *Account*  
+    The turnover value can only be determined after the posting.
+
+- *Cost 1* 
+    Double click in the field to enter the cost center number.
+
+- *Cost 2*  
+    Double click in the field to enter the cost object number.
+
+- *Text*  
+    Double click in the field to enter the posting text.
+
+- [SAVE]  
+    Click this button to save the entry to the learn file.
+
+- [CLEAR]  
+    Click this button to clear the input fields.
 
 
 
@@ -786,7 +918,7 @@ For a detailed description of the contained elements and the corresponding funct
 - [BACK]   
     This button is inactive, as there are no previous steps.
 
-[comment]: <> (Comment added in the BUGS document for improvement, e.g. "ABBRECHEN/CANCEL" button instead, like in Saldovortrag function)
+[comment]: <> (BUG Ticket? ABBRECHEN/CANCEL statt BACK in Saldovortrag)
 
 - [CONTINUE]  
     Click this button to proceed to the next step. A window for account selection is displayed.
@@ -971,7 +1103,7 @@ This path displays the file location, name and page.
         - **after**  
             Search for a period after a specific date.   
 
-        Click the ![Calendar](../../Assets/Icons/Calendar.png "[Cross]") (Calendar) button to select a date. Alternatively, you can directly enter a date in the format mm/dd/yy.
+        Click the ![Calendar](../../Assets/Icons/Calendar.png "[Calendar]") (Calendar) button to select a date. Alternatively, you can directly enter a date in the format mm/dd/yy.
 
     - *Payment target*  
         Click the drop-down list to select the applicable payment target. The following options are available:
@@ -1305,6 +1437,8 @@ A miniature view of the selected document is displayed in the bottom right corne
 *Accounting > Post > Button EDIT > Menu entry Supplier receipts > Tab Financial accounting takeover > Select receipt > Button SPLIT*
 
 ![Breakdown posting](../../Assets/Screenshots/RetailSuiteAccounting/Book/BreakdownPosting.png "[Breakdown posting]")
+
+[comment]: <> (Screen unvollständig - Anzeigefehler, Bug Ticket?)
 
 The list displays the selected receipt for the split booking. Depending on the settings, the displayed columns may vary. All fields are read-only.
 

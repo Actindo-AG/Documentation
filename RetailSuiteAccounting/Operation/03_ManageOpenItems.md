@@ -1,6 +1,6 @@
 [!!User interface Open items](../UserInterface/01d_OpenItems.md)  
 
-[comment]: <> (Link auf Payment processing = Zahlungsabwicklung? oder neues Modul Payments?)
+[comment]: <> (Link auf Payment processing / Zahlungsabwicklung, wenn verfügbar)
 
 # Manage the open items
 

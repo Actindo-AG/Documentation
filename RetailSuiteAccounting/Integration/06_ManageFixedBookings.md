@@ -227,4 +227,4 @@ You can delete a fixed posting batch if it is no longer applicable.
 3. Click [OK] if you want to proceed.  
     The selected fixed posting batch is deleted from the *Fixed posting batch* drop-down list.
 
-[comment]: <> (Kein "Deleted" Pop-Up-Fenster angezeigt!)
+[comment]: <> (Keine "Deleted" Pop-Up-Fenster angezeigt / keine Rückmeldung vom System. FETA Ticket)

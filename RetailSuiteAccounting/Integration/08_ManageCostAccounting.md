@@ -10,7 +10,7 @@ A cost object is a product or service in relation to which costs are ascertained
 
 You can create, edit and delete both cost centers and cost objects.
 
-[comment]: <> (Kommentar von Isa: While posting an accounting entry you can either fill in cost center -Kost1- or cost object -Kost2-. Also, Verteilungstabelle macht so keinen Sinn, denn man kann die Kosten der Projekte/Produkte unter der Abteilungen verteilen.)
+[comment]: <> (Finance team lead: Kostenrechnungmanko, da entweder kann man Kost1 oder Kost2 beim Buchen ausfüllen, nicht beide. Umlageverteilung gibt es auch nicht. FETA Ticket?)
 
 
 

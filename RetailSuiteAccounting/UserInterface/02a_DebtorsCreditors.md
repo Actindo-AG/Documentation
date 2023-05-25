@@ -17,7 +17,7 @@ The *DEBTORS/CREDITORS* tab contains in turn two tabs:
 
 The identical customer/supplier list is available in the *Order management* module: *Order management > Customers/suppliers*. The list is synchronized between the two modules so that the same data can be accessed.
 
-[comment]: <> (Es heißt eingelicht immer "Kunde xxxxx", egal ob Kunde oder Lieferant. Kommentar in Bug-Datei hinzugefügt)
+[comment]: <> (Es heißt eingelicht immer "Kunde xxxxx", egal ob Kunde oder Lieferant. Bug Ticket?)
 
 
 
@@ -25,7 +25,7 @@ The identical customer/supplier list is available in the *Order management* modu
 
 *Accounting > Settings > Tab DEBTORS/CREDITORS > Tab Customer/supplier list*
 
-![Customer/Supplier list](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/CustomerSupplierList.png "[Customer/supplier list]")
+![Customer/supplier list](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/CustomerSupplierList.png "[Customer/supplier list]")
 
 This tab can also be accessed in the *Select address* window from the COST ACCOUNTING tab in the user interface, see [Select address](02e_CostAccounting.md#select-address).
 
@@ -39,8 +39,6 @@ This tab can also be accessed in the *Select address* window from the COST ACCOU
         Click this option to export all customer/supplier list pages. The customer/supplier list is exported in Excel format and saved by default in the *Downloads* folder in your computer.
 
         > [Info] The [EXCEL] button is only displayed if the *Statistics* module is installed.
-
-  [comment]: <> (Stimmt das so?)
 
 - [QUICK SEARCH]  
     Click this button to display the *QUICK SEARCH* filter list. By default, all search criteria checkboxes are selected. Deselect a search criterion to exclude it from the search. The following search criteria are available:
@@ -178,7 +176,7 @@ The list displays all customer/supplier details. Depending on the settings, the 
 - *Show articles of supplier*  
     Click this option to access the supplier product list in the *Material management* module. The *ARTICLE* tab is displayed: *Material management > Article > Tab ARTICLE*.
 
-[comment]: <> (rename when material management is updated)
+[comment]: <> (Rename when material management is updated)
 
 - ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh)  
     Click this button to update the receipt list.
@@ -305,7 +303,7 @@ The *Create customer/supplier* tab contains the following sub-tabs to organize c
 - *Language*  
     Click the drop-down list to select the appropriate language. All available languages are displayed in the list. If you want no language to be selected, select the **No linguistic content** option.
 
-[comment]: <> (Drop-down liste im auf DE/EN gemischt)
+[comment]: <> (Drop-down liste im auf DE/EN gemischt - Bug Ticket)
 
 - *Currency*  
     Click the drop-down list to select the applicable currency. All available currencies are displayed in the list.
@@ -313,7 +311,7 @@ The *Create customer/supplier* tab contains the following sub-tabs to organize c
 - [SAVE]  
     Click this button to save the new customer/supplier details.
 
-    > [Info] It is not possible to enter any further information in the other sub-tabs before saving the details entered in the *Address/contact* sub-tab. When clicking the other sub-tabs, a window with the prompt to save is displayed. Click the [OK] button to save the new customer/supplier. Even after saving, the *Delivery addresses*, *Additional fields* and *Drop shipping* sub-tabs display a notice and cannot be accessed. To access these sub-tabs to add data, select the corresponding customer/supplier in the *Customer/Supplier list* tab.
+    > [Info] It is not possible to enter any further information in the other sub-tabs before saving the details entered in the *Address/contact* sub-tab. When clicking the other sub-tabs, a window with the prompt to save is displayed. Click the [OK] button to save the new customer/supplier. Even after saving, the *Delivery addresses*, *Additional fields* and *Drop shipping* sub-tabs display a notice and cannot be accessed. To access these sub-tabs to add data, select the corresponding customer/supplier in the *Customer/supplier list* tab.
 
 
 ### Delivery addresses
@@ -329,7 +327,7 @@ To add further delivery addresses, see [Further addresses](#further-addresses).
 [comment]: <> (Bug/question added to Bug Notes document)
 
 - [SAVE]  
-    No data can be saved at this point in this sub-tab. To access this sub-tab to add data, select the corresponding customer/supplier in the *Customer/Supplier list* tab.
+    No data can be saved at this point in this sub-tab. To access this sub-tab to add data, select the corresponding customer/supplier in the *Customer/supplier list* tab.
 
 
 ### Invoicing
@@ -396,7 +394,7 @@ To add further delivery addresses, see [Further addresses](#further-addresses).
 - *VAT ID*  
     Enter the customer/supplier VAT identification number.
 
-[comment]: <> (Tax office function funktioniert nicht.)
+[comment]: <> (Tax office function funktioniert nicht - Bug Ticket)
 
 
 **Posting**  
@@ -516,7 +514,7 @@ The *Additional fields* sub-tab cannot be edited here. The notice *Please save c
 To add additional fields, select the corresponding customer/supplier in the *Customer/supplier list* tab and click the *Additional fields* sub-tab. For detailed information, see [Additional fields](#additional-fields-1).
 
 - [SAVE]  
-    No data can be saved at this point in this sub-tab. To access this sub-tab to add data, select the corresponding customer/supplier in the *Customer/Supplier list* tab.
+    No data can be saved at this point in this sub-tab. To access this sub-tab to add data, select the corresponding customer/supplier in the *Customer/supplier list* tab.
 
 
 ### Drop shipping
@@ -527,10 +525,10 @@ To add additional fields, select the corresponding customer/supplier in the *Cus
 
 The *Drop shipping* sub-tab cannot be edited here. The notice *Please save supplier first* is displayed.   
 
-To add further information, select the corresponding supplier in the *Customer/Supplier list* tab and click the *Drop shipping* sub-tab. For detailed information, see [Drop shipping](#drop-shipping-1).
+To add further information, select the corresponding supplier in the *Customer/supplier list* tab and click the *Drop shipping* sub-tab. For detailed information, see [Drop shipping](#drop-shipping-1).
 
 - [SAVE]  
-    No data can be saved at this point in this sub-tab. To access this sub-tab to add data, select the corresponding customer/supplier in the *Customer/Supplier list* tab.
+    No data can be saved at this point in this sub-tab. To access this sub-tab to add data, select the corresponding customer/supplier in the *Customer/supplier list* tab.
 
 
 ### CRM information
@@ -793,7 +791,7 @@ Click the [CREATE] button to display the *Add* section or select the checkbox of
 - *Country*  
     Click the drop-down list to select the appropriate country.  
 
-[comment]: <> (Drop-down liste im System auf DE, Sortierung aber auf EN o.ä.)
+[comment]: <> (Drop-down Liste im System auf DE, Sortierung aber auf EN o.ä.)
 
 - *Phone*  
     Enter the contact phone number.
@@ -859,7 +857,7 @@ This sub-tab is identical to the one displayed when creating a customer/supplier
 - [EDIT ADDITIONAL FIELDS...]  
     Click this button to edit the available additional fields or add new ones. The *Edit additional fields* window is displayed, see [Edit additional fields](#edit-additional-fields).
 
-[comment]: <> (Edit additional fields window manchmal geschnitten/nicht vollständig angezeigt)
+[comment]: <> (Edit additional fields window nicht immer vollständig angezeigt - Anzeigefehler - Bug Ticket)
 
 **Additional Fields**
 
@@ -881,13 +879,10 @@ The list displays all available additional fields. Depending on the settings, th
 - *Value*  
     Value entered.  
 
-[comment]: <> (Unsure if it works properly!)
-
-
 - [DELETE]  
     Click this button to delete the selected row.
 
-[comment]: <> (DELETE funktioniert nicht)
+[comment]: <> (DELETE funktioniert nicht? - Bug Ticket)
 
 - ![Refresh](../../Assets/Icons/Refresh03.png "[Refresh]") (Refresh)  
     Click this button to update the list.
@@ -955,7 +950,7 @@ The list displays all attached content, for instance files and links. Depending 
 - [SHOW ALL]  
     Click this button to show all content, also the hidden attachments. If all content is displayed and you click the button again, all attachments marked as hidden are hidden again.
 
-[comment]: <> (HG: button should change name after clicking to show which view is currently displayed -> Bug added)
+[comment]: <> (Button should change name after clicking to show which view is currently displayed - Bug Ticket)
 
 - ![Refresh](../../Assets/Icons/Refresh03.png "[Refresh]")  (Refresh)  
     Click this button to update the list.
@@ -965,7 +960,7 @@ The list displays all attached content, for instance files and links. Depending 
 
 ![Content](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/ContentAddEdit.png "[Content]")
 
-[comment]: <> (Edit section geschnitten/nicht vollständig angezeigt)
+[comment]: <> (Edit section nicht vollständig angezeigt - Anzeigefehler - Bug Ticket)
 
 Click the [CREATE] button to display the *Add* section or select the checkbox of an attachment to display the *Edit* section. The fields in the *Add* and the *Edit* section are identical.
 
@@ -1041,8 +1036,6 @@ This sub-tab is only displayed when the selected customer has already placed at 
     - *Export all*
 
     > [Info] The [EXCEL] button is only displayed if the *Statistics* module is installed.
-
-[comment]: <> (Stimmt das so?)
 
 The list displays all documents of the selected customer. Depending on the settings, the displayed columns may vary. All fields are read-only.
 
@@ -1337,8 +1330,6 @@ The list displays the statistics according to the filter settings selected in th
 
     > [Info] The [EXCEL] button is only displayed if the *Statistics* module is installed.
 
-[comment]: <> (Stimmt das so?)
-
 
 **Statistic type - Turnover per product**  
 
@@ -1378,8 +1369,6 @@ The list displays the statistics according to the filter settings selected in th
 
     > [Info] The [EXCEL] button is only displayed if the *Statistics* module is installed.
 
-[comment]: <> (Stimmt das so?)
-
 
 **Statistic typ - Number of units sold per product**
 
@@ -1412,8 +1401,6 @@ The list displays the statistics according to the filter settings selected in th
     Click this button to download the statistics displayed in Excel format. By default, the downloaded export file is saved in the *Downloads* folder of your device.
 
     > [Info] The [EXCEL] button is only displayed if the *Statistics* module is installed.
-
-[comment]: <> (Stimmt das so?)
 
 - [NEW/RESET]  
     Click this button to reset the *Customer/supplier "Customer/supplier number"* tab and create a new customer/supplier. The *Customer/supplier "Customer/supplier number"* tab is closed and changes automatically to the *Create customer/supplier* tab.
@@ -1732,7 +1719,7 @@ This sub-tab is identical to the one displayed when creating a customer/supplier
 
 > [Info] This function is currently not available.
 
-[comment]: <> (Fenster funktioniert nicht. Wenn man versucht zu suchen, Fehlermeldung. Bug? Plugin fehlt?)
+[comment]: <> (Fenster funktioniert nicht. Bug Ticket?)
 
 #### Edit additional fields
 
@@ -1747,8 +1734,6 @@ This sub-tab is identical to the one displayed when creating a customer/supplier
     - *Export all*
 
     > [Info] The [EXCEL] button is only displayed if the *Statistics* module is installed.
-
-[comment]: <> (Stimmt das so?)
 
 The list displays all additional fields. Depending on the settings, the displayed columns may vary. All fields are read-only.
 
@@ -1805,9 +1790,9 @@ Click the [CREATE] button to display the *Add* section or select the checkbox of
 Depending on the selected field type, different fields are displayed.
 
 - *Field groups*  
-    Click the drop-down list to select the appropriate option.
+    Click the drop-down list to select the appropriate option. All available field groups are displayed in the list.
 
-[comment]: <> (FH: Field groups leer? Meaning? Options? Where should it be preconfigured for the drop-down list options to be displayed?)
+[comment]: <> (Field groups leer. Wo muss es eingestellt werden, damit Optionen angezeigt werden?)
 
 - *Multilingual*  
     Click the drop-down list to select the appropriate option. The following options are available:
@@ -1819,7 +1804,7 @@ Depending on the selected field type, different fields are displayed.
     - **Yes**
     - **No**
 
-[comment]: <> (Meaning? mandatory input? DE = Auswahl / Eingabe erzwingen)
+[comment]: <> (Bedeutung? Mandatory input? DE = Auswahl / Eingabe erzwingen - Bug / FETA Ticket)
 
 - *Minimum input length/value*  
     Enter a number to determine the minimum input length/value. This field is only displayed for the *Text field* and the *Number field* field types.
@@ -1846,7 +1831,7 @@ Depending on the selected field type, different fields are displayed.
     - **Return**
     - **Return to customer or supplier**
 
-  [comment]: <> (Alle Dokumentennamen vereinheitlichen! Terminologie prüfen!)
+  [comment]: <> (Terminologie prüfen/vereinheitlichen wenn Belegetypen beschrieben in allg. Core1 Doku)
 
 - *Values*  
     Click the *Value* and *Text* fields in the input box to enter data. If no input line exists, click the [ADD] button. The input box is only displayed for the *Combo box* field type.

@@ -4,7 +4,7 @@ The requirements for modern accounting software go far beyond document posting. 
 
 The *Actindo Core1 Platform* is the only digital operations platform worldwide with a complete accounting module integrated. This means that all postings for all orders of the connected channels and accounts are automatically generated and optionally transferred live to a group accounting system. As a result, your data integration is extremely simplified and easy to manage.
 
-[comment]: <> (optionally transferred live to a group accounting system -> stimmt das so?)
+[comment]: <> (Finance team lead: optionally transferred live to a group accounting system -> stimmt das so?)
 
 This documentation refers to *Accounting* module version 4.1.1. There may be differences in the UI, features and operation if your *Accounting* module is installed in a different version.
 

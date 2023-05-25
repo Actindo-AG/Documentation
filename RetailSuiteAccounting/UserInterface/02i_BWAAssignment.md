@@ -147,7 +147,7 @@ If no report line has been yet added, the notice *No report lines created. Use +
     - **Sum**
     - **Don't show**
 
-[comment]: <> (Warte auf Feedback von Patrick)
+[comment]: <> (Feedback fehlt)
 
 - *Print*  
     Value predefined for the line in the output file. The following options are available:  
@@ -167,9 +167,9 @@ If no report line has been yet added, the notice *No report lines created. Use +
     - **Calculation**  
         Calculation formula entered.  
     - **Assessment**  
-        This option is currently not supported.
+        This option is currently not available.
 
-[comment]: <> (Info fehlt! Feedback von Patrick. DE: Umlagen -> Quelle: alte Doku-Webseite)
+[comment]: <> (Feedback fehlt)
 
 - *ID*  
     Report line identification number. The ID number is automatically assigned by the system when the report line is created.
@@ -208,15 +208,13 @@ If no report line has been yet added, the notice *No report lines created. Use +
     - **New page**  
         Select this option to start a new page in the output file.
 
-[comment]: <> (Output heißt Print im Bericht/Report. Verwirrend.)
-
 - *Chart type*  
     Click the drop-down list to select the desired chart type for the current line. This drop-down list is mandatory. The following options are available:  
     - **Normal**
     - **Sum**
     - **Don't show**
 
-[comment]: <> (Warte auf Feedback von Patrick)
+[comment]: <> (Feedback fehlt)
 
 - *Text*  
     Enter a description to the current line.
@@ -230,7 +228,7 @@ If no report line has been yet added, the notice *No report lines created. Use +
     - **Assessment**  
         This option is currently not supported.
 
-[comment]: <> (Info fehlt! Feedback von Patrick. DE: Umlagen -> Quelle: alte Doku-Webseite)
+[comment]: <> (Feedback fehlt! Bedeutung? DE = Umlagen?)
 
 - *Formula*  
     Enter the applicable formula. This field is only unlocked when the **Calculation** option in the *Function* drop-down list is selected. The basic calculating operations (+, -, *, /) are permitted.
@@ -246,7 +244,7 @@ If no report line has been yet added, the notice *No report lines created. Use +
 - *Formula*  
     Enter the applicable formula for the percentage calculation of the corresponding column. The basic calculating operations (+, -, *, /) are permitted.
 
-[comment]: <> (Spalten 2-4 nicht definiert bzw. weiterentwickelt, da nicht in Gebrauch, bestätigt in RS mit Teamlead Finance)
+[comment]: <> (Spalten 2-4 nicht definiert bzw. weiterentwickelt, da nicht in Gebrauch, bestätigt in RS mit Teamlead Finance - Bug / FETA Ticket)
 
 
 
@@ -285,7 +283,7 @@ If no report line has been yet added, the notice *No report lines created. Use +
     - **Sum**
     - **Don't show**
 
-[comment]: <> (Warte auf Feedback von Patrick)
+[comment]: <> (Feedback fehlt)
 
 - *Text*  
     Click this field to edit the description to the current line.
@@ -297,9 +295,9 @@ If no report line has been yet added, the notice *No report lines created. Use +
     - **Calculation**  
         Select this option to enter a calculation formula. When selecting this option, the *Formula* field is unlocked.
     - **Assessment**  
-        This option is currently not supported.
+        This option is currently not available.
 
-[comment]: <> (Info fehlt! Feedback von Patrick. DE: Umlagen -> Quelle: alte Doku-Webseite)
+[comment]: <> (Feedback fehlt)
 
 - *Formula*  
     Click this field to edit the applicable formula. This field is only unlocked when the **Calculation** option in the *Function* drop-down list is selected. The basic calculating operations (+, -, *, /) are permitted.
@@ -312,5 +310,5 @@ If no report line has been yet added, the notice *No report lines created. Use +
 - *Formula*  
     Click this field to edit the applicable formula for the percentage calculation of the corresponding column. The basic calculating operations (+, -, *, /) are permitted.
 
-[comment]: <> (Spalten 2-4 nicht definiert bzw. weiterentwickelt, da nicht in Gebrauch, bestätigt in RS mit Teamlead Finance)
+[comment]: <> (Spalten 2-4 nicht definiert bzw. weiterentwickelt, da nicht in Gebrauch, bestätigt in RS mit Teamlead Finance, Bug / FETA Ticket?)
 

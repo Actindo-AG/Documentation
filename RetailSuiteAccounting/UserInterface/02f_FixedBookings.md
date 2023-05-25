@@ -52,10 +52,10 @@ The list displays all fixed postings to the selected batch. All fields are read-
 - *Contra account*  
     Contra account number.
 
-- *Receipt1*  
+- *Receipt 1*  
     Invoice number.
 
-- *Receipt2*  
+- *Receipt 2*  
     Other reference number.
 
 - *Date*  
@@ -79,7 +79,7 @@ The list displays all fixed postings to the selected batch. All fields are read-
 - *Amount*  
     Fixed posting batch total amount.
 
-[comment]: <> (FH/Fachreviewer: Unterschied zwischen AMOUNT und Amount?)
+[comment]: <> (Finance team lead: Unterschied zwischen AMOUNT und Amount?)
 
 
 The input fields allow to create, edit and delete fixed postings. Click a fixed posting in the list to display its details in the input fields and edit or delete it. Clear the input fields to add a new fixed posting.
@@ -95,10 +95,10 @@ The input fields allow to create, edit and delete fixed postings. Click a fixed 
 
     > [Info] After you have entered at least two numbers in the field, a list is displayed below the field with all accounts matching the entry. You can select the corresponding account in the list.
 
-- *Receipt1*  
+- *Receipt 1*  
     Enter an appropriate reference number, such as the invoice number.
 
-- *Receipt2*  
+- *Receipt 2*  
     Enter any other appropriate reference number, such as order number.
 
 - *Date*  

@@ -26,7 +26,7 @@ Fully integrated financial accounting with the *Accounting* module:
 - Fully automatic dunning  
     The system recognizes open receipts and sends out fully automatic reminders.
 
-  [comment]: <> (Isas Kommentar: Das könnte missverstanden werden. Der Mahnprozess muss schon manuell angestoßen werden. Weglassen?)
+  [comment]: <> (Finance team lead: Das könnte missverstanden werden. Der Mahnprozess muss schon manuell angestoßen werden. Weglassen?)
 
 
 ## Modern accounting
@@ -42,6 +42,6 @@ Before switching to a Digital Operations Platform, companies usually already use
 ## Actindo digital payments hub
 
 **Automated payment processes with the payments and accounting module**  
-The automatic processing and booking of payments are important success and efficiency factors for companies. Especially when orders are received from several sales channels and different payment methods are offered via external service providers. By linking the *Accounting* and *Payments* modules, the *Actindo Core1 Platform* enables a holistic automated process flow from the receipt of payments, through processing, to the final allocation of incoming payments. Our *Payments* module acts as a link between payment providers and Actindo accounting.  
+The automatic processing and booking of payments are important success and efficiency factors for companies. Especially when orders are received from several sales channels and different payment methods are offered via external service providers. By linking the *Accounting* and *Payments* modules, the *Actindo Core1 Platform* enables a holistic automated process flow from the receipt of payments, through processing, to the final allocation of incoming payments. Our *Payments processing* module acts as a link between payment providers and Actindo accounting.  
 
-[comment]: <> (Ursprünglich auf der Webseite "Payment module" gennant. Ich vermute, Payments gemeint, oder bezieht es sich auf Zahlungsabwicklung? Und wie heißt Zahlungsabwicklung auf EN: Payment Processing |Payment Processes | Banking?)
+[comment]: <> (Finance team lead: stimmt das so?)

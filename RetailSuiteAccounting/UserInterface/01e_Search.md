@@ -90,7 +90,7 @@ All available accounts that match the search criteria are displayed in a list be
         Enter a contra account number to be searched for.
 
     - *Account*  
-        Enter a account number to be searched for.
+        Enter an account number to be searched for.
 
     - *Receipt 1*  
         Enter a receipt 1 value to be searched for.

@@ -43,7 +43,7 @@ The list displays all available accounts of the selected account class. All fiel
     - **NV**   
         No VAT can be configured for the account.
 
-[comment]: <> (Werden zukünftig Abkürzungen übersetzt? Wie?)
+[comment]: <> (Abkürzungen im System nicht übersetzt? FETA Ticket)
 
 - *Tax key*  
     Tax key number configured for the account. Tax keys are set up together with the chart of accounts.
@@ -61,7 +61,7 @@ The list displays all available accounts of the selected account class. All fiel
     - **MT**   
         This account is used to register card payments temporarily until they are processed in the *Payment processing* module and then transferred to the corresponding bank account.
 
-[comment]: <> (Werden zukünftig Abkürzungen übersetzt? Wie? VD zweimal! Prüfen im neuen UI!)
+[comment]: <> (Abkürzungen im System nicht übersetzt? FETA Ticket)
 
 - *Function*  
     Specific function configured for the account. The following options are available:
@@ -90,7 +90,7 @@ The list displays all available accounts of the selected account class. All fiel
     - **IE**   
         The account is configured for income received as a result of transactions in foreign currencies and exchange rate differences.
 
-[comment]: <> (Werden zukünftig Abkürzungen übersetzt? Wie?)
+[comment]: <> (Abkürzungen im System nicht übersetzt? FETA Ticket)
 
 - *Description*  
     Descriptive name of the account.
@@ -171,9 +171,9 @@ The input fields below allow to create, edit or delete accounts. For detailed in
     Enter the account number range for the accounts whose transactions will be registered in the collective account. The drop-down list is only displayed if the **(DA) Debtor collective account** or the **(CA) Creditor collective account** option is selected in the *Special features* drop-down list.
 
 - *Advance VAT return code*  
-    The **Not in advance VAT return** option is preselected. Currently, no other option is available in the drop-down list.
+    The **Not in advance VAT return** option is preselected. The VAT return is currently not supported and therefore no other option is available in the drop-down list.
 
-[comment]: <> (Soll komplett rausfliegen? Bestätigen!)
+[comment]: <> (MWST Voranmeldung nicht mehr verfügbar. Wird es komplett abgebaut? BUG/FETA Ticket)
 
 - *Account suggestion*  
     Enter a related account number which will be displayed by default in the *Contra Account* field of the input line in the *POSTINGS* tab when the current account is selected. This will save time when posting manually.

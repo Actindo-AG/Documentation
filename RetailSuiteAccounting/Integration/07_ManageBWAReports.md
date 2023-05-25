@@ -4,8 +4,6 @@
 
 # Manage the BWA reports
 
-[comment]: <> (BWA reports or Accounting Reports? See Accounting Reports view -> ZUORDNUNG BWA tab)
-
 The business evaluation (BWA) is a reporting system based on company financial data and provides information about the company's current cost and revenue situation and, consequently, its  profitability. BWA reports serve as a basis for managerial future decisions, and they are widely used by capital investors and credit institutions for company assessment. BWA provides important information for the controlling of the company.
 
 You can create new BWA reports, copy and edit one of the predefined system reports or delete any report. All available reports can be fully customized.
@@ -88,27 +86,20 @@ You can add report lines to a BWA report.
     - **New page**  
       Select this option to insert a page break.
 
-5. Click the *Chart type* drop-down list and select the appropriate option. The following options are available:
+5. Click the *Chart type* drop-down list and select the **Normal** option.  
 
-    - **Normal**  
-    - **Sum**  
-    - **Don't show**  
-
-[comment]: <> (Sum and don't show? Warte auf Feedback von Patrick. Alternativtext: Click the *Chart type* drop-down list and select the **Normal** option. The options **Sum** and **Don't show** are currently not supported.)
+[comment]: <> (Sum and don't show?  Feedback fehlt, daher rausgelassen)
 
 6. Enter the line description in the *Text* field.
 
-7. Click the *Function* drop-down list and select the appropriate option. The following options are available:  
+7. Click the *Function* drop-down list and select one of the following option options:  
 
     - **Text only**  
       Select this option to enter text only.  
     - **Calculation**  
       Select this option to enter a calculation formula. When selecting this option, the *Formula* field becomes active.  
-    - **Assessment**    
-      This option is currently not supported.
-
-
-[comment]: <> (Info fehlt! Feedback von Patrick. Alternativtext: ...select **Text only** if the line contains just text or **Calculation**, if you wish to add a formula. The *Formula* field becomes active.)
+    
+[comment]: <> (Assessment? Feedback fehlt, daher rausgelassen)
 
 8. If the **Calculation** option has been previously selected, enter the applicable formula in the *Formula* field to calculate the value to be output in the report line. The basic calculating operations (+, -, *, /) are permitted.
 
@@ -137,7 +128,7 @@ You can add report lines to a BWA report.
 
 9. If desired, activate the first toggle button in the *Percent / Columns* field and enter the applicable formula in the *Formula* field. This function is used to calculate the percentage of the value expressed in the current line in relation to the overall turnover and display it in an additional column in the BWA report. 
 
-[comment]: <> (Spalten 2-4 nicht definiert bzw. weiterentwickelt, da nicht in Gebrauch, bestätigt in RS mit Teamlead Finance)
+[comment]: <> (Spalten 2-4 nicht definiert bzw. weiterentwickelt, da nicht in Gebrauch, bestätigt in RS mit Finance team lead)
 
 10. Click the [SAVE] button.  
     The new report line has been added to the BWA report.

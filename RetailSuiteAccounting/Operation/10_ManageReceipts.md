@@ -121,11 +121,11 @@ In addition to the posting process and assignment of general receipts, there is 
 
 Suppliers' invoices can be uploaded in the *New supplier receipts* folder in the *Documents* module, which will be recognized by the system and displayed in the *Acquire* tab in the *Supplier receipts* window. Once the supplier receipts are posted, they are moved automatically into the *Acquired documents* folder.
 
-Moreover, this function interacts with the *Purchasing* and *Payment processing* modules, and allows to check supplier receipts before posting them in the system. For example, the person who placed the order can be responsible for approving the supplier receipt.
+Moreover, this function interacts with the *Purchasing* and *Payment processing* modules, and allows to check supplier receipts before posting them in the system. For example, the person who placed the order can be responsible for approving the supplier receipt and releasing the payment.
 
-[comment]: <> (Isas Kommentar: For example can the Person who placed the order be responsible for approving the supplier receipt. Funktion dient Zahlungsfreigabe, Zahlungsbedingungen werden im Lieferanten hinterlegt. Check, ob was fehlt?)
+[comment]: <> (Finance team lead: Funktion dient Zahlungsfreigabe, Zahlungsbedingungen werden im Lieferanten hinterlegt. Check, ob was fehlt?)
 
-[comment]: <> (Evtl. Link zur Funktion Zahlungsvorschlagsliste - Skonto erkennen, automatischer Abzug des Kontos, usw.- in der Zahlungsabwicklung in diesem Unterkapitel hinzufügen, wenn verfügbar.)
+[comment]: <> (Evtl. Link zur Funktion Zahlungsvorschlagsliste - Skonto erkennen, automatischer Abzug des Kontos, usw.- in der Zahlungsabwicklung hinzufügen, wenn verfügbar)
 
 
 ### Acquire a supplier receipt

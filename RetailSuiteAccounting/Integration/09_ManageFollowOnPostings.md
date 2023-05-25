@@ -48,7 +48,7 @@ A fiscal year has been selected, see [Select the fiscal year](../Operation/01_Se
     - **/ turnover divided by factor**  
         Select this option for the system to divide the turnover by the specified factor.
 
-  [comment]: <> (Divide scheint nicht zu funktionieren. Bug?)
+  [comment]: <> (Divide scheint nicht zu funktionieren. Bug Ticket?)
 
 9. Click the [SAVE & NEW] button.  
     The new follow-on posting has been saved and is displayed in the list. The *Saved* pop-up window is displayed.

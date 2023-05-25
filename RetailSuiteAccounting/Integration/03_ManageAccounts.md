@@ -58,11 +58,9 @@ You can create an account that is not yet available in the system.
     - **(IV)Input tax and VAT**
     - **(NV)No VAT possible**
 
-4. Click the *Tax key/Auto* drop-down lists and select the appropriate options. Select the applicable tax key from the configured tax keys in the *Tax key* drop-down list. Select **Automatic** in the *Auto* drop-down list to activate the automatic posting function.
+4. Click the *Tax key/Auto* drop-down lists and select the appropriate options. Select the applicable tax key from the configured tax keys in the *Tax key* drop-down list. Select **Automatic** in the *Auto* drop-down list to activate the automatic posting function. This feature allows to deduct the applicable taxes automatically when posting. 
 
     > [Info] Before creating an account, it is recommended to check the validity of the tax key and the tax rate in the corresponding country in the *TAX KEYS* tab. For detailed information, see [Manage the tax keys](./02_ManageTaxKeys.md).
-
-[comment]: <> (FH: Unsicher, wie die Automatik-Option funktioniert. Stimmt es so wie beschrieben?)
 
 5. Click the *Special features* drop-down list and select the appropriate option. The following options are available:
 

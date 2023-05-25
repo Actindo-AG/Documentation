@@ -56,12 +56,12 @@ Depending on whether a free or an already configured account class has been sele
 
     > [Info] The predefined account classes cannot be deleted. Therefore, the [DELETE] button is inactive when these account classes are selected.
 
-[comment]: <> (Stimmt das so oder Bug?)
+[comment]: <> (DELETE Button ausgegraut sowohl in voreingestellten Kontenklassen als auch in Selbsterstellten - Bug Ticket?)
 
 - [CLEAR]  
     Click this button to clear all input fields.  
 
-[comment]: <> (Button scheint nicht zu funktionieren. Bug?)
+[comment]: <> (CLEAR Button funktioniert nith. Bug Ticket?)
 
 - [HELP]  
     This function is currently not available.

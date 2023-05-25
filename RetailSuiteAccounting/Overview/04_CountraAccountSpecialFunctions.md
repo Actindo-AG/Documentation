@@ -38,7 +38,7 @@ The tax rates specified below are the ones applicable in Germany.
 | 2 | General reversal | The cancellation of a posting is performed by entering the number **2** in the first digit of the contra account. The turnover is then entered with the reversed sign. The resulting posting cancels the selected posting without deleting it.|
 | 3 | General reversal with distributable input tax | The cancellation key **3** is used to cancel postings that have been entered with the cancellation key **9**.|
 | 4 | Cancellation of automatic function | By entering the cancellation key **4**, the automatic deduction of input tax or VAT is blocked. Besides, collective accounts can also be posted to by entering the tax key **4**.|
-| 5 | Individual tax key | The cancellation key **5** allows to enter multi-digit tax keys. For this purpose, a window is displayed when leaving the *Contra account* field. |
+| 5 | Individual tax key | The cancellation key **5** allows to enter multi-digit tax keys. For this purpose, a selection window with the corresponding sub-keys is displayed after filling the *Contra account* field. |
 | 6 | General reversal with key **1** - EU-posting | The cancellation key **6** is used to cancel postings that have been entered with the cancellation key **1**. In this case, the original tax key must be specified as well.|
 | 7 | General reversal with key **5** - Individual tax key | The cancellation key **7** is used to cancel postings that have been entered with the cancellation key **5**.|
 | 8 | General reversal with key **4** - Cancellation of the posting automatic function | The cancellation key **8** is used to cancel postings that have been entered with the cancellation key **4**.|
