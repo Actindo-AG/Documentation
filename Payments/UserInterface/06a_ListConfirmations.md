@@ -2,7 +2,7 @@
 
 ![LIST (Confirmations)](../../Assets/Screenshots/Payments/Confirmations/LISTConfirmations.png "[LIST (Confirmations)]")
 
-**Authorizations**
+**Confirmations**
 
 - *VIEW*  
     Click the drop-down list to select the view. All created views are displayed in the drop-down list. Click the ![Points](../../Assets/Icons/Points01.png "[Points]") (Points) button to the right of the *VIEW* drop-down list to display the context menu and create a view.   
@@ -58,11 +58,57 @@
 
 ## Confirmations &ndash; Attributes
 
+![Confirmations &ndash; Attributes](../../Assets/Screenshots/Payments/Confirmations/AttributesConfirmation.png "[Confirmations &ndash; Attributes]")
+In the left margin column, all available attribute groups are displayed. Click a group to display the attributes that are assigned to this group on the right side of the *Attributes* tab. 
+
+- ![Folders](../../Assets/Icons/Folders01.png "[Folders]") (Folders)  
+    Attribute group that contains attribute sub-groups. Click the attribute group or the arrow left to the attribute group to expand the group and display the attribute sub-groups. The following sub-groups are available:
+    - *[Payment service provider] Outgoing Payment Base Data*   
+      This folder contains attributes that are specific for the payment service provider.
+    - *Outgoing Payment Base Data*   
+      This folder contains general fields that Actindo needs to query payments data. These data support standard functions of Actindo. 
+
+- ![Folder](../../Assets/Icons/Folder01.png "[Folder]") (Folder)  
+    Attribute group. Click the attribute group to display all attributes that are assigned to the selected attribute group on the right side of the *Attributes* tab.
+
+The right side of the *Attributes* tab displays all attributes that are assigned to the selected group in the left margin column. Depending on the selected attribute group, the displayed fields may vary. The attributes are imported by the payment service provider driver. All fields are read-only.  
 
 
 ## Confirmations &ndash; Dependencies
 
-## Confirmations &ndash; Logs
+![Confirmations &ndash; Dependencies](../../Assets/Screenshots/Payments/Confirmations/DependenciesConfirmation.png "[Confirmations &ndash; Dependencies]")
+
+Since a confirmation ticket has no dependencies to other entities in Actindo by default, this sub-tab is not relevant.
 
 
 ## Create view
+*Payments > Confirmations > Tab LIST > Button Points > Menu entry create*
+
+![Create view](../../Assets/Screenshots/Payments/LIST/CreateView.png "[Create view]")
+
+- *Name*   
+    Enter a name for the view.
+
+- [CANCEL]   
+    Click this button to cancel creating a view. The *Create view* window is closed.
+
+- [SAVE]   
+    Click this button to save the new view and display it in the *VIEW* drop-down list. The *Create view* window is closed.
+
+
+
+## Rename view
+
+*Payments > Confirmations > Tab LIST > Button Points > Menu entry rename*
+
+![Rename view](../../Assets/Screenshots/Payments/LIST/RenameView.png "[Rename view]")
+
+- *Name*   
+    Click this field to edit the view name.
+
+- [CANCEL]   
+    Click this button to cancel renaming the view. The *Rename view* window is closed.
+
+- [SAVE]   
+    Click this button to save the changes and display it in the *VIEW* drop-down list. The *Rename view* window is closed.
+

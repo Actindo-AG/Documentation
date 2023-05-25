@@ -1,6 +1,6 @@
 # LIST (Authorizations)
 
-![Authorizations](../../Assets/Screenshots/Payments/Authorizations/LISTAuthorizations.png "[Authorizations]")
+![LIST (Authorizations)](../../Assets/Screenshots/Payments/Authorizations/LISTAuthorizations.png "[LIST (Authorizations)]")
 
 **Authorizations**
 
