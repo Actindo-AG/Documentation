@@ -7,26 +7,7 @@ The *Actindo Core1 Platform* provides you with the following:
 - [Monitoring and reporting](#monitoring-and-reporting)
  
 
-## Standalone solution or modernization of legacy ERP systems
 
-The *Actindo Core1 Platform* supports the business of companies in wholesale and retail, sale via marketplaces or social commerce. It treats online commerce the same as stationary trading. Each store is its own marketplace, each transaction at a pay desk an incoming payment or refund.  
-The *Actindo Core1 Platform* is a complete interlocking solution. You can compose your individual platform by selecting only those modules you really need for your business.
-
-### ERP system is not yet in use
-
-If you do not have an ERP system in use yet, the *Actindo Core1 Platform* can run as a standalone platform. The wide range of classic ERP features helps to digitize, automate, and optimize e-commerce processes. You can use it as all-in-one-solution to do the following:   
- - Maintain your business data.   
- - Implement and monitor your e-commerce processes.   
- - Get, transform, and transfer data from service providers, shops, and fulfillment providers.   
-- Reporting on products, individual KPIs, and statistics.    
-- And much more...
-
-### ERP system is in use
-
-If there is an existing ERP system in use, the solution provides complete software for linking existing and legacy IT systems with modern markets in the B2C (Business to Customer) and B2B (Business to Business) sectors.   
-The average age of running ERP solutions are about 12 years. This means in most cases that you are not able to quickly follow new evolutions in e-commerce with your legacy ERP system. Changing of processes and data models are then extremely time-consuming and expensive.  
-The flexible data models of the *Actindo Core1 Platform* enable varying data to be mapped, transformed, and transferred to other modules, your legacy ERP system as well as other third-party systems. The direction of the data flow is thereby determined individually by the process orchestration.  
-The *Actindo Core1 Platform* supports the transformation to a direct-to-consumer business with all benefits that provides running an own branded online shop. You can use the *Actindo Core1 Platform* to modernize your e-commerce, to stay up-to-date, and to implement new evolutions.  
 
 ## Omni-Channel integration
 
