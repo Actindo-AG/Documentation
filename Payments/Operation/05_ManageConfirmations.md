@@ -3,7 +3,10 @@
 The *Confirmation* menu entry provides you with a view on all references to refunds that has been created. Before your company sends back the money to the customer, you have to check the refunds with this menu entry. This service is supported by the most payment service providers.
 > [Info] If a workflow decides that you have to sent back money to the customer, you have here the possibility to check the refunds before money is returned.   
 
-You can use this procedure to accept a refund so that the service payment provider gets the request to send back the money to the customer. You can also reject a refund, if it is not justified, for example, because the goods have already been delivered. In case of faulty transactions you can void them to clear the database.   
+You can use this procedure to accept a refund so that the service payment provider gets the request to send back the money to the customer.    
+> [Info] The most payment service providers create a new reference, when a payment is to be refunded. However, the most payment service providers support an original reference ID that you can use to search for a specific case in the whole payment process.   
+
+You can also reject a refund, if it is not justified, for example, because the goods have already been delivered. In case of faulty transactions you can void them to clear the database.   
 
 In the settings might have been applied special permissions.
 > [Info] You might not be able to access this menu entry, because you have no permissions to do it. Furthermore, you may have access, but you are not permitted to execute refunds above a certain amount (for example, more than 50€). 
@@ -29,9 +32,10 @@ A confirmation transaction provides numerous payment-related details on a refund
 #### Procedure
 
 1. If desired, click the ![Search](../../Assets/Icons/Search.png "[Search]") (Search) button to display the search bar and search for the original reference ID of the refund.
-2. Check the confirmation transaction status in the *Status* column. The status displays the current stage in the confirmation process. You can use the status ID prefixed below to filter the list. The following statuses are available: 
+2. Check the confirmation transaction status in the *Status* column. The status displays the current stage in the confirmation process. You can use the status ID prefixed below to filter the list. The following status is available: 
     - **2 - Confirmation required**   
-    -    
+       The transaction is not yet executed respectively the repayment is not yet confirmed by an Actindo user.
+    
 3. Click on a transaction to see the details.   
     The sub-tabs of the transaction are opened.   
 
@@ -61,7 +65,7 @@ After you have checked a confirmation transaction and the reclaim is justified, 
 2. Select the confirmation transaction you want to execute by clicking the checkbox on the left.   
     The editing toolbar is displayed.
 3. Click the [Execute] button.
-   The status of the authorization transaction has changed to *Executed??*. The workflow will now initiate a repayment of the money.
+   The entry disappears from the list. The workflow will now initiate a repayment of the money.
 
 
 
@@ -86,19 +90,19 @@ After you have checked a confirmation transaction and the reclaim is **not** jus
 2. Check the confirmation transaction you want to reject, see [Check the confirmation transaction](./05_ManageConfirmations.md#check-confirmation-transaction).
 2. Select the confirmation transaction you want to reject by clicking the checkbox on the left.   
     The editing toolbar is displayed.
-3. Click the [Execute] button. <!---was passsiert dann-->
-   The status of the confirmation transaction has changed to *Rejected??*. The workflow will now inform the payment service provider about the rejection of the refund.
-
+3. Click the [Reject] button. 
+   A confirmation message is displayed.    
+   The status of the confirmation transaction will be internally changed to *Void*, but it will not be displayed. The workflow will now inform the payment service provider about the rejection of the refund.
 
 
 
 ## Void confirmation transaction  
 
-You can void a refund transaction, if you want to disable the transaction for the Actindo database. 
+You can void a confirmation transaction that is no longer valid for the payment process and disable it for the Actindo database. 
 > [Info] The payment service provider will not be informed about changing the status to "Void". It is only done to clear the database.  
 
 #### Prerequisites
-- The status of a confirmation transaction is **not** "Confirmation required". 
+- The confirmation transaction is no longer valid.
 
 #### Procedure
 
@@ -110,5 +114,5 @@ You can void a refund transaction, if you want to disable the transaction for th
 2. Select the Confirmation transaction to be voided by clicking the checkbox on the left.   
     The editing toolbar is displayed.
 3. Click the [Void] button.  
-   
-   The status of the confirmation transaction has changed to "Void". It is no longer valid for the Actindo database.
+   A confirmation message is displayed.  
+    The confirmation transaction has been removed from the list. It is no longer valid for the Actindo database.

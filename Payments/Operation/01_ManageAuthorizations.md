@@ -1,6 +1,6 @@
 # Monitor authorizations
 
-The processing of the authorization transactions works as follows: 
+An Authorization is the permission that your company is allowed to capture money from the customer via a payment service provider. The processing of the authorization transactions works as follows: 
 -   The payment service provider creates an authorization transaction, when a customer presses the *Pay now* button during the order process.   
 - The payment provider sends then the authorization transaction to the *ActindoCore1 Platform*.    
 - In addition, the shop system creates an ID for this transaction.  
@@ -33,7 +33,7 @@ An authorization transaction provides numerous payment-related details, which ma
     - **1 - Preparing**  
         The transaction has been created, but is not yet transferred.
     - **2 - Unconfirmed**   
-    ?
+        A refund is reserved but not yet released by an Actindo user. This status is relevant for some functions only, for example, the cancellations and chargebacks.
     - **3 - Success**  
         Actindo has got the response from the service payment provider, that the transfer was successfully.
     - **4 - Failure**   
@@ -96,8 +96,8 @@ After you have checked an authorization transaction that could not be processed 
 2. Select the authorization transaction you want to cancel by clicking the checkbox on the left.   
     The editing toolbar is displayed.
 3. Click the [Cancel] button.   <!---was passsiert dann-->   
-   A confirmation message is displayed. The status of the authorization transaction has changed to *Success*.    
-   You can now follow up this case under the menu entry *Refunds*. <!-----Stefan ist das richtig?--->
+   A confirmation message is displayed. The status of the authorization transaction remains at *Success*.    
+   You can now follow up this case under the menu entry *Cancellations and chargebacks*. <!-----Stefan ist das richtig?--->
 
 
 

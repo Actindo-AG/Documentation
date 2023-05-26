@@ -1,7 +1,7 @@
 # Monitor refunds
 
 A refund is a repayment of a capture. It is initialized by the trader, for example, if a product is not available and cannot be delivered.   
-> [Info] The most payment service providers create a new reference when a payment has been refunded. This means that the reference ID of a capture transaction has been changed in this case and you will not be able to identify the transaction here with the payment and captures transaction ID.   
+> [Info] This means that you cannot follow up a case with the reference ID of an authorization or a payments and captures transaction. However, the most payment service providers support an original reference ID that you can use to search for a specific case in the whole payment process.
 
 You can use this procedure to display all incoming references to a refund from a payment service provider. You can check for communication errors between Actindo and the payment service provider that has been caused in a termination of a workflow, for example. In addition, if applicable, you can manually change the status of a transaction to *Void* to clear the database.    
    
@@ -26,7 +26,7 @@ A refund transaction provides numerous payment-related details, which may vary d
     - **1 - Preparing**  
         The transaction has been created, but is not yet transferred.
     - **2 - Unconfirmed**   
-    k 
+        A refund is reserved but not yet released by an Actindo user. This status is relevant for some functions only, for example, the cancellations and chargebacks.
     - **3 - Success**  
         Actindo has got the response from the service payment provider, that the transfer was successfully.   
         You can now follow up this case under the menu entry *Confirmations*. <!-----Stefan ist das richtig?---> 

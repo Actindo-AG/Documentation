@@ -2,7 +2,7 @@
 
 In the context of a payment transaction a chargeback is a retroactive cancellation of a capture. It is initialized by the customer, for example, if he or she withdraws the payment. A cancellation is a revocation of the reservation of a product that has not yet been delivered. It is also initialized by the customer.    
 
-> [Info] The most payment service providers create a new reference, when a payment has been cancelled or charged back by the customer. This means that the reference ID of a capture transaction has been changed in this case and you will not be able to identify the transaction here with the capture transaction ID.   
+> [Info] The most payment service providers create a new reference, when a payment has been cancelled or charged back by the customer. However, the most payment service providers support an original reference ID that you can use to search for a specific case in the whole payment process.  
 
 You can use this procedure to display all incoming references to cancellations and chargebacks from a payment service provider. You can check for communication errors between Actindo and the payment service provider that has been caused in a termination of a workflow, for example. In addition, if applicable, you can manually change the status of a transaction to *void* to clear the database.    
    
@@ -30,19 +30,19 @@ A cancellation and chargeback transaction provides numerous payment-related deta
 
 2. If desired, select the cancellation and chargeback type you want to check. The following types are available:   
     - **Cancel**   
-      The customer has revoked the reservation.
+      Depending on the payment service provider, an appropriately permitted person has cancelled the authorization. 
     - **Chargeback**
-      The customer has cancelled a capture.
+      The customer has withdrawn a capture.
     - **Chargeback Reversal**
-      The customer has terminated her or his revocation of the reservation??
+      The customer has terminated his or her withdrawing of the authorization.
     - **Second Chargeback**   
-      ??
+      Again, the customer has withdrawn the authorization.
 
 3. Check the cancellation and chargeback transaction status in the *Status* column. The status displays the current stage in the payment process. You can use the status ID prefixed below to filter the list. The following statuses are available:   
     - **1 - Preparing**  
         The transaction has been created, but is not yet transferred.
     - **2 - Unconfirmed**   
-    k 
+        A refund is reserved but not yet released by an Actindo user. 
     - **3 - Success**  
         Actindo has got the response from the service payment provider, that the transfer was successfully.
     - **4 - Failure**   

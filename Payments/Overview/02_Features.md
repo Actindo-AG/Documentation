@@ -11,27 +11,33 @@ Organize and monitor your incoming payments and refunds:
 
 
 ## Automated import
-With the *Payments* module of Actindo, pre-authorized payments are captured automatically at the moment orders are delivered. In case of returns or credit notes, refund requests are automatically sent out to the original means of payment. By using the 4-eyes principle, you can optionally double-check the refunds, for example, with specific user permissions depending on the invoice amount.  
+With the *Payments* module of Actindo, pre-authorized payments are captured automatically at the moment orders are delivered. If products are announced, but not yet launched, customers can reserve a product and pay later when the shipment has started.
+In case of returns or credit notes, refund requests are automatically sent out to the original means of payment. By using the 4-eyes principle, you can optionally double-check the refunds, for example, with specific user permissions depending on the invoice amount.  
+The single steps of the payments process are usually integrated in an order workflow which automatically controls that no products are shipped without a payment commitment from the customer.
+The *Payment* module supports a synchronous processing of the communication as well as an asynchronous 
 
 
 ## Connection to payment service providers
-Using our simple EBICS integration, you can flexibly connect various payment service providers such as Adyen&trade;, Paypal&trade;, credit cards, or bank transactions to the *Actindo Core1 platform*. 
+Using our simple EBICS integration, you can flexibly connect various payment service providers such as Adyen&trade;, Paypal&trade;, credit cards, or bank transactions to the *Actindo Core1 Platform*. 
 
 
 ## Generation of payments for POS, telephone sales and sales representatives
-Depending on the type of integration, you can also generate payments from POS terminals. Furthermore, you can process payments from telephone sales and field sales representatives just as easily. 
+Depending on the type of integration, you can also generate payments from POS (Point of sale) terminals. Furthermore, you can process payments from telephone sales and field sales representatives just as easily. 
+
+
 
 
 ## Import of bank statements and automatic posting
-Bank statements and reports from payment service providers can be automatically processed and posted to your accounting module. In case of prepayments, you can hold the shipment of orders until the invoice amount is received. It is then and automatically released for shipment after payment has been made.
+Bank statements and reports from payment service providers can be automatically processed and posted to the *Payment Processing* tool and therefore to the Actindo *Accounting* module or a third-party Accounting. In case of prepayments, you can hold the shipment of orders until the invoice amount is received. It is then and automatically released for shipment after payment has been made.
 
 
 ## Payment processing and accounting linked 
- The Actindo *Payment* module connects the business accounts at your various payment service providers and the Actindo *Accounting* module. In being the smart connection between those two modules, the Actindo *Payment* module helps you to process orders faster and more efficiently. Thanks to automated payment checks, incoming payments are registered directly, and orders could therefore be processed immediately. Refunds can be made just as quickly and automatically. By linking payment and accounting, you not only minimize the workload for your employees, but also offer your customers a smooth and fast service. 
+ The Actindo *Payment* module connects the business accounts at your various payment service providers and the Actindo *Payment Processing* module. In being the smart connection between those two modules, the Actindo *Payment* module helps you to process orders faster and more efficiently. Thanks to automated payment checks, incoming payments are registered directly, and orders could therefore be processed immediately. Refunds can be made just as quickly and automatically. By linking payment and accounting, you not only minimize the workload for your employees, but also offer your customers a smooth and fast service. 
 
 
 ## Managing all payments centrally 
-The payment options for customers are diverse, and so are the payment service providers that exist on the market today. In order to be able to offer your customers the widest possible range of payment methods - from invoice to credit card to direct debit - cooperation with various providers is required. Actindo's payment module enables the simple connection of various payment service providers, such as Klarna&trade;, Paypal&trade;, or banks via EBICS. This enables the management of all payments and refunds centrally via the *Actindo Core1 platform*.  
+The payment options for customers are diverse, and so are the payment service providers that exist on the market today. In order to be able to offer your customers the widest possible range of payment methods - from invoice to credit card to direct debit - cooperation with various providers is required. Actindo's *Payment* module enables the simple connection of various payment service providers, such as Klarna&trade;, Paypal&trade;, or banks via EBICS. This enables the management of all payments and refunds centrally via the *Actindo Core1 Platform*.  
+In order to have consistent databases, the *Payments* module can reconcile each day whether all payments have been successfully transferred from the payment service provider to the *Payments* module. This is not supported by all payment service providers.
 
 
 ## Handling of sensitive data
