@@ -13,53 +13,51 @@
 **Export to:**  
 
 The following export options are displayed in the tab:
-  - *Export of data in BMD format*
-  - *Export of data in CSV format*
-  - *Export of data in DATEV CSV format*
-  - *Export of data in GDI standard interface format*
-  - *Export of data in GDPdU format*
-  - *Export of open items*
-  - *Export of balance list in CSV format*
-  - *Compeso SALDEN.DAT*
-  - *Export postings for SAP*
-  - *Varial balances*
-  - *Export of balance list in CSV format (Zahlwerk)*
 
+- *Export of data in BMD format*   
+    - [BMD]  
+        Click this button to export data in BMD format. The *BMD* window is displayed, see [BMD](#bmd).
 
-- [BMD]  
-    Click this button to export data in BMD format. The *BMD* window is displayed, see [BMD](#bmd).
+- *Export of data in CSV format*  
+    - [CSV]  
+        Click this button to export data in CSV format. The *CSV* window is displayed, see [CSV](#csv).
+- *Export of data in DATEV CSV format*  
+    - [DATEV CSV]  
+        Click this button to export data in DATEV compatible CSV format. The *DATEV CSV* window is displayed, see [DATEV CSV](#datev-csv) .   
+        For detailed information about exporting data in DATEV compatible CSV format, see [Export the data for DATEV](../Operation/15_ProvideAccountingData.md#export-the-data-for-DATEV).
 
-- [CSV]  
-    Click this button to export data in CSV format. The *CSV* window is displayed, see [CSV](#csv).
+- *Export of data in GDI standard interface format*  
+    - [GDI]  
+        Click this button to export data in GDI format. The *GDI* window is displayed, see [GDI](#gdi).
 
-- [DATEV CSV]  
-    Click this button to export data in DATEV compatible CSV format. The *DATEV CSV* window is displayed, see [DATEV CSV](#datev-csv) .   
-    For detailed information about exporting data in DATEV compatible CSV format, see [Export the data for DATEV](../Operation/15_ProvideAccountingData.md#export-the-data-for-DATEV).
+- *Export of data in GDPdU format*  
+    - [GDPDU EXPORT]  
+        Click this button to export data in GDPdU-compliant audit file format. The *GDPDU export* window is displayed, see [GDPDU export](#gdpdu-export) .   
+        For detailed information about exporting data in GDPdU-compliant audit file format, see [Export the data GDPdU-compliant](../Operation/15_ProvideAccountingData.md#export-the-data-GDPdU-compliant).
 
-- [GDI]  
-    Click this button to export data in GDI format. The *GDI* window is displayed, see [GDI](#gdi).
+- *Export of open items*  
+    - [OPEN ITEMS]  
+        Click this button to export open items. The *Open items* window is displayed, see [Open items](#open-items).
 
-- [GDPDU EXPORT]  
-    Click this button to export data in GDPdU-compliant audit file format. The *GDPDU export* window is displayed, see [GDPDU export](#gdpdu-export) .   
-    For detailed information about exporting data in GDPdU-compliant audit file format, see [Export the data GDPdU-compliant](../Operation/15_ProvideAccountingData.md#export-the-data-GDPdU-compliant).
+- *Export of balance list in CSV format*  
+    - [BALANCE LIST]  
+        Click this button to export balance list in CSV format. The *Balance list* window is displayed, see [Balance list](#balance-list).
 
-- [OPEN ITEMS]  
-    Click this button to export open items. The *Open items* window is displayed, see [Open items](#open-items).
+- *Compeso SALDEN.DAT*  
+    - [SALDEN.DAT]  
+        Click this button to export data in Compeso SALDEN.DAT proprietary format. The *SALDEN.DAT* window is displayed,see [SALDEN.DAT](#saldendat).
 
-- [BALANCE LIST]  
-    Click this button to export balance list in CSV format. The *Balance list* window is displayed, see [Balance list](#balance-list).
+- *Export postings for SAP*  
+    - [SAP]  
+        Click this button to export data in SAP compatible format. The *SAP* window is displayed, see [SAP](#sap).
 
-- [SALDEN.DAT]  
-    Click this button to export data in Compeso SALDEN.DAT proprietary format. The *SALDEN.DAT* window is displayed,see [SALDEN.DAT](#saldendat).
+- *Varial balances*  
+    - [VARIAL]  
+        Click this button to export data in VARIAL compatible format. The *Varial* window is displayed, see [Varial](#varial).
 
-- [SAP]  
-    Click this button to export data in SAP compatible format. The *SAP* window is displayed, see [SAP](#sap).
-
-- [VARIAL]  
-    Click this button to export data in VARIAL compatible format. The *Varial* window is displayed, see [Varial](#varial).
-
-- [ZAHLWERK]  
-    Click this button to export balance list in Zahlwerk compatible CSV format. The *Zahlwerk* window is displayed, see [Zahlwerk](#zahlwerk).
+- *Export of balance list in CSV format (Zahlwerk)*
+    - [ZAHLWERK]  
+        Click this button to export balance list in Zahlwerk compatible CSV format. The *Zahlwerk* window is displayed, see [Zahlwerk](#zahlwerk).
 
 
 
@@ -600,7 +598,7 @@ The list displays all available BMD tax mappings. Depending on the settings, the
 
 ### Balance list: Step 1
 
-![Export Balance list Step 1](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Export/BalanceListStep1.png "[Export Balance list Step 1]")
+![Export Balance list Step 1](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Export/BalanceList.png "[Export Balance list Step 1]")
 
 - *Fiscal year*  
     Click the drop-down list to select the fiscal year to be exported. All available fiscal years are displayed in the list.
@@ -846,9 +844,8 @@ The list displays all available BMD tax mappings. Depending on the settings, the
 
 ### Zahlwerk: Step 1
 
-![Export Zahlwerk Step 1](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Export/ZahlwerkStep1.png "[Export Zahlwerk Step 1]")
+![Export Zahlwerk Step 1](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Export/Zahlwerk.png "[Export Zahlwerk Step 1]")
 
-![Export Zahlwerk Step 1](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Export/Zahlwerk01cust.png "[Export Zahlwerk Step 1]")
 
 - *Fiscal year*  
     Click the drop-down list to select the fiscal year to be exported. All available fiscal years are displayed in the list.

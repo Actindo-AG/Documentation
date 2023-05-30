@@ -58,4 +58,4 @@ No prerequisites to fulfill.
 
 ## Was this chapter helpful?
 
-If you need further assistance, please contact the Customer Support.
+If you need further assistance, please contact your MPS consultant.

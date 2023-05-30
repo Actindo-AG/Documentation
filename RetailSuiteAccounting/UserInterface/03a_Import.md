@@ -13,33 +13,30 @@
 **Import from:**
 
 The following import options are available in the tab:
-  - *Compeso 7.x fiscal year backups*
-  - *Import of data in CVS format*
-  - *Import of data in CVS format from invoicing solution*
-  - *Import of data in GDI standard interface format*
-  - *Import of openTRANS INVOIC XLM data*
-  - *Import of data in FQBATCH format from Schilling Software GmbH*
 
+- *Compeso 7.x fiscal year backups*  
+    - [COMPESO 7.X]  
+        Click this button to import data in Compeso proprietary format. The *Compeso 7.X* window is displayed, see [Compeso 7.X](#compeso-7x).
 
-- [COMPESO 7.X]  
-    Click this button to import data in Compeso proprietary format. The *Compeso 7.X* window is displayed, see [Compeso 7.X](#compeso-7x).
+- *Import of data in CVS format*  
+    - [CSV]  
+        Click this button to import data in CSV format. The *CSV* window is displayed, [CSV](#csv).
 
-- [CSV]  
-    Click this button to import data in CSV format. The *CSV* window is displayed, [CSV](#csv).
+- *Import of data in CVS format from invoicing solution*  
+    - [CSV LS-MOTOR]  
+        Click this button to import data in CSV format from an invoicing solution. The *CSV LS-MOTOR* window is displayed, see [CSV LS-Motor](#csv-ls-motor).
 
-- [CSV LS-MOTOR]  
-    Click this button to import data in CSV format from an invoicing solution. The *CSV LS-MOTOR* window is displayed, see [CSV LS-Motor](#csv-ls-motor).
+- *Import of data in GDI standard interface format*  
+    - [GDI]  
+        Click this button to import data in GDI standard interface format. The *GDI* window is displayed, see [GDI](#gdi).
 
-[comment]: <> (LS ENGINE?)
+- *Import of openTRANS INVOIC XLM data*   
+    - [OPENTRANS]  
+        Click this button to import data in openTRANS INVOIC XML format. The *OPENTRANS* window is displayed, see [openTRANS](#opentrans).
 
-- [GDI]  
-    Click this button to import data in GDI standard interface format. The *GDI* window is displayed, see [GDI](#gdi).
-
-- [OPENTRANS]  
-    Click this button to import data in openTRANS INVOIC XML format. The *OPENTRANS* window is displayed, see [openTRANS](#opentrans).
-
-- [SCHILLING ACCOUNTING]  
-    Click this button to import data in Schilling Software proprietary FQBATCH format. The *SCHILLING ACCOUNTING* window is displayed, see [Schilling accounting](#schilling-accounting).
+- *Import of data in FQBATCH format from Schilling Software GmbH*  
+    - [SCHILLING ACCOUNTING]  
+        Click this button to import data in Schilling Software proprietary FQBATCH format. The *SCHILLING ACCOUNTING* window is displayed, see [Schilling accounting](#schilling-accounting).
 
 
 
@@ -47,47 +44,32 @@ The following import options are available in the tab:
 
 *Accounting > Extras > Tab IMPORT > Button COMPESO 7.X*
 
-
-### Compeso 7.X: Step 1
-
-![Import Compeso 7.X Step 1](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Import/Compeso01.png "[Import Compeso 7.X Step 1]")
+![Import Compeso 7.X Step 1](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Import/Compeso.png "[Import Compeso 7.X Step 1]")
 
 **Files**
 
 - *backup.ctl*  
-    Select the corresponding file for upload in the ctl-format.  
+    Select the corresponding file for upload in the ctl format.  
     - [Choose file]  
         Click this button to select a file from your device to be uploaded. The explorer is displayed in a new window. If no file has been selected yet, the notice *No file chosen* is displayed to the right of the button.
 
 - *backup.dat*  
-    Select the corresponding file for upload in the dat-format.
+    Select the corresponding file for upload in the dat format.
     - [Choose file]  
         Click this button to select a file from your device to be uploaded. The explorer is displayed in a new window. If no file has been selected yet, the notice *No file chosen* is displayed to the right of the button.
 
 - *abrzr.dat*  
-    Select the corresponding file for upload in the dat-format.
+    Select the corresponding file for upload in the dat format.
     - [Choose file]  
         Click this button to select a file from your device to be uploaded. The explorer is displayed in a new window. If no file has been selected yet, the notice *No file chosen* is displayed to the right of the button.
 
 - [UPLOAD]  
-    Click this button to upload the selected file(s). The *Compeso 7.x: Step 2* window is displayed. The *Converting...* notice is displayed during the conversion process.
+    Click this button to upload the selected file. Once the import file is uploaded, the [CONTINUE] button is unlocked. 
 
 - [CONTINUE]  
-    Click this button to proceed to the next step. This button is locked until at least one file has been uploaded.
+    Click this button to proceed to the next step. This button is locked until at least one file has been uploaded. The *Converted* confirmation window is displayed. Click the [OK] button to continue and follow the on-screen instructions to complete the import process.
 
-
-### Compeso 7.X: Step 2
-
-![Import Compeso 7.X Step 2](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Import/Compeso02.png "[Import Compeso 7.X Step 2]")
-
-**Converting...**
-
-- [CANCEL]  
-    Click this button to cancel the process. This button is only displayed during the conversion process.
-
-    > [Info] The *Converting...* notice is displayed during the conversion process. As soon as the conversion is completed, the *File imported!* confirmation window is displayed. Click the [OK] button to continue. The *Compeso 7.x: Step 3* window is displayed.
-
-[comment]: <> (Der Prozess geht nicht weiter, System hängt. Ich habe versucht eine exportierte DAT-Datei - via Reiter EXPORT- zu importieren, aber es scheint nicht zu funktionieren. Bug oder keine richtige Datei importiert?)
+    > [Info] If you need further assistance, contact your MPS consultant.
 
 
 
@@ -98,7 +80,7 @@ The following import options are available in the tab:
 
 ### CSV: Step 1
 
-![Import CSV Step 1](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Import/CSVStep1.png "[Import CSV Step 1]")
+![Import CSV Step 1](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Import/CSV.png "[Import CSV Step 1]")
 
 **Files**
 
@@ -120,15 +102,13 @@ The following import options are available in the tab:
     Click this button to upload the selected file. The *Files accepted!* confirmation window is displayed. Click the [OK] button to continue. The selected file is uploaded and the button is locked until the import is completed.
 
 - *File content*  
-    Click the drop-down list to select to appropriate file content. The following options are available:
+    Click the drop-down list to select the appropriate file content. The following options are available:
     - **Customers/suppliers**	 
     - **Chart of accounts**	  
     - **# Postings**  
     - **eBay sales history**
 
 Depending on the selected option, the following displayed fields and options vary.
-
-[comment]: <> (eBay sales history ist relevant für alle Kunden? Weglassen? Andere Optionen je nach Einstellungen/Module/Plugins?)
 
 - *Import def.*  
     Click the drop-down list to select the appropriate import definition. The options displayed vary depending on the option selected in the *File content* drop-down list. All available import definitions are displayed in the list. If the **Customers/suppliers** option is selected in the *File content* drop-down list, the following options are predefined:
@@ -154,9 +134,9 @@ For the other options in the *File content* drop-down list, no import definition
     - **Always**
 
 - [CONTINUE]  
-    Click this button to proceed to the next step. The *Converted* confirmation window is displayed. Click the [OK] button to continue. The *CSV: Step 2* window is displayed. This button is locked until at least one file has been uploaded.
+    Click this button to proceed to the next step. This button is locked until at least one file has been uploaded. The *Converted* confirmation window is displayed. Click the [OK] button to continue. The *CSV: Step 2* window is displayed. 
 
-
+   
 ### CSV: Step 2
 
 ![Import CSV Step 2](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Import/CSV02.png "[Import CSV Step 2]")
@@ -175,7 +155,6 @@ For the other options in the *File content* drop-down list, no import definition
 ![Import CSV Step 3](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Import/CSV03.png "[Import CSV Step 3]")
 
 > [Info] Depending on the imported data, the information displayed may vary.
-
 
 - *Postings*  
     Define how to handle the postings to be imported. If the import file contained no postings, the notice *No postings in the import file* is displayed.
@@ -223,26 +202,9 @@ For the other options in the *File content* drop-down list, no import definition
             No existing personal accounts will be overwritten.
 
 - [FINALIZE]  
-    Click this button to complete the import process. The *CSV: Step 4* window is displayed.
+    Click this button and follow the on-screen instructions to complete the import process. 
 
-
-### CSV: Step 4
-
-![Import CSV Step 4](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Import/CSV04.png "[Import CSV Step 4]")
-
-**Import...**
-
-- [CANCEL]  
-    Click this button to cancel the import process. This button is only displayed during the import process.
-
-> [Info] The *Import...* notice is displayed during the import process. As soon as the import is completed, the *File imported!* confirmation window is displayed. Click the [OK] button to continue. The *CSV: Step 5* window is displayed.
-
-
-### CSV: Step 5
-
-![Import CSV Step 5](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Import/CSV05.png "[Import CSV Step 5]")
-
-[comment]: <> (Leeres Fenster. Kommentar in OneNote Bugs-Datei.)
+    > [Info] If you need further assistance, contact your MPS consultant.
 
 
 
@@ -250,14 +212,9 @@ For the other options in the *File content* drop-down list, no import definition
 
 *Accounting > Extras > Tab IMPORT > Button CSV LS-MOTOR*
 
-
-### CSV LS-Motor: Step 1
-
-![Import CSV LS-Motor Step 1](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Import/CSVLSMotorStep1.png "[Import CSV LS-Motor Step 1]")
+![Import CSV LS-Motor Step 1](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Import/CSVLSMotor.png "[Import CSV LS-Motor Step 1]")
 
 **Files**
-
-[comment]: <> (txt oder X.txt? Unterschied oder X gehört zum Namen? Ich kann keine txt Datei hochladen. Fehlermeldung: No such file or directory)
 
 - *customersX.txt*    
     Select the customers text file to be imported.
@@ -303,15 +260,10 @@ The import definitions can be defined or edited by clicking the [Edit] button to
 - [Edit]  
     Click this button to edit the selected import definition or to create a new one. The *Import/export definitions* window is displayed, see [Import/export definitions](#import/export-definitions).
 
-[comment]: <> (Andere Optionen abhängig von Einstellungen/Kunden/Plugins usw.? Faktura: Belege neu/Invoicing: new receipts weglassen?)
-
 - [CONTINUE]  
-    Click this button to proceed to the next step. The *Converted* confirmation window is displayed. Click the [OK] button to continue. The *CSV LS-Motor: Step 2* window is displayed. This button is locked until at least one file has been uploaded.
+    Click this button to proceed to the next step. This button is locked until at least one file has been uploaded. The *Converted* confirmation window is displayed. Click the [OK] button to continue and follow the on-screen instructions to complete the import process.
 
-
-### CSV LS-Motor: Step 2
-
-[comment]: <> (Ich komme nicht zum Step 2 - Probleme mit Hochladen der txt-Datei!)
+    > [Info]  If you need further assistance, contact your MPS consultant.
 
 
 
@@ -319,14 +271,15 @@ The import definitions can be defined or edited by clicking the [Edit] button to
 
 *Accounting > Extras > Tab IMPORT > Button GDI*
 
+
 ### GDI: Step 1
 
-![Import GDI Step 1](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Import/GDIStep1.png "[Import GDI Step 1]")
+![Import GDI Step 1](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Import/GDI.png "[Import GDI Step 1]")
 
 **Files**
 
 - *GDIFIBU.STD*  
-    Select the corresponding file for upload in the STD-format.
+    Select the corresponding file for upload in the STD format.
     - ![Radio button](../../Assets/Icons/RadioButtonChecked.png "[Radio button]") *Local file*  
         Select this radio button to select a local file from your device to be uploaded. The [Choose file] button is displayed in the box.
         - [Choose file]  
@@ -342,7 +295,7 @@ The import definitions can be defined or edited by clicking the [Edit] button to
     Click this button to upload the selected file. The *Files accepted!* confirmation window is displayed. Click the [OK] button to continue. The selected file is uploaded and the button is locked until the import is completed.
 
 - [CONTINUE]  
-    Click this button to proceed to the next step. The *Converted* confirmation window is displayed. Click the [OK] button to continue. The *GDI: Step 2* window is displayed. This button is locked until at least one file has been uploaded.
+    Click this button to proceed to the next step. This button is locked until at least one file has been uploaded. The *Converted* confirmation window is displayed. Click the [OK] button to continue. The *GDI: Step 2* window is displayed. 
 
 
 ### GDI: Step 2
@@ -363,7 +316,6 @@ The import definitions can be defined or edited by clicking the [Edit] button to
 ![Import GDI Step 3](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Import/GDI03.png "[Import GDI Step 3]")
 
 > [Info] Depending on the imported data, the information displayed may vary.
-
 
 - ![Radio button](../../Assets/Icons/RadioButtonChecked.png "[Radio button]") *Create new fiscal year*   
     Select this radio button to create a new fiscal year for the imported postings.
@@ -413,27 +365,9 @@ The import definitions can be defined or edited by clicking the [Edit] button to
             No existing personal accounts will be overwritten.
 
 - [FINALIZE]  
-    Click this button to complete the import process. The *GDI: Step 4* window is displayed.
+    Click this button and follow the on-screen instructions to complete the import process. 
 
-
-### GDI: Step 4
-
-![Import GDI Step 4](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Import/GDI04.png "[Import GDI Step 4]")
-
-**Import...**
-
-- [CANCEL]  
-    Click this button to cancel the import process. This button is only displayed during the import process.
-
-> [Info] The *Import...* notice is displayed during the import process. As soon as the import is completed, the *File imported!* confirmation window is displayed. Click the [OK] button to continue. The *GDI: Step 5* window is displayed.
-
-
-### GDI: Step 5
-
-![Import GDI Step 5](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Import/GDI05.png "[Import GDI Step 5]")
-
-
-[comment]: <> (Leeres Fenster. Comment in OneNote Bugs-Datei.)
+    > [Info] If you need further assistance, contact your MPS consultant.
 
 
 
@@ -444,7 +378,7 @@ The import definitions can be defined or edited by clicking the [Edit] button to
 
 ### openTRANS: Step 1
 
-![Import openTRANS Step 1](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Import/OpenTransStep1.png "[Import openTRANS Step 1]")
+![Import openTRANS Step 1](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Import/OpenTrans.png "[Import openTRANS Step 1]")
 
 **Files**
 
@@ -468,7 +402,7 @@ The import definitions can be defined or edited by clicking the [Edit] button to
     Enter the creditor/supplier number.  
 
 - [CONTINUE]  
-    Click this button to proceed to the next step. The *Converted* confirmation window is displayed. Click the [OK] button to continue. The *openTRANS: Step 2* window is displayed. This button is locked until at least one file has been uploaded.
+    Click this button to proceed to the next step. This button is locked until at least one file has been uploaded. The *Converted* confirmation window is displayed. Click the [OK] button to continue. The *openTRANS: Step 2* window is displayed. 
 
 
 ### openTRANS: Step 2
@@ -481,10 +415,9 @@ The import definitions can be defined or edited by clicking the [Edit] button to
     Click this button to display the import log file. The log file is displayed in a new window.
 
 - [CONTINUE]  
-    Click this button to proceed to the next step. The *Please click Finalize to import the file* confirmation window is displayed. Click the [OK] button to continue. The *openTRANS: Step 3* window is displayed.
+    Click this button to proceed to the next step. The *Please click Finalize to import the file* confirmation window is displayed. Click the [OK] button to continue and follow the on-screen instructions to complete the import process.
 
-
-[comment]: <> (Fehlermeldung " Konnte kein passendes Wareneingangskonto finden, bzw. kein Konto ist als Wareneingangskonto markiert Steuerschlüssel 0, Datum 2009-05-13..." Keine KOMM_NO! in Logdatei. WEITER Schaltfläche ausgegraut / nicht klickbar)
+    > [Info]  If you need further assistance, contact your MPS consultant.
 
 
 
@@ -495,12 +428,12 @@ The import definitions can be defined or edited by clicking the [Edit] button to
 
 ### Schilling Accounting: Step 1
 
-![Import Schilling Step 1](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Import/SchillingStep1.png "[Import Schilling Step 1]")
+![Import Schilling Step 1](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Import/Schilling.png "[Import Schilling Step 1]")
 
 **Files**
 
 - *FQBATCH(.txt)*    
-    Select the corresponding batch file for upload in the txt-format.
+    Select the corresponding batch file for upload in the txt format.
     - ![Radio button](../../Assets/Icons/RadioButtonChecked.png "[Radio button]") *Local file*  
         Select this radio button to select a local file from your device to be uploaded. The [Choose file] button is displayed in the box.
         - [Choose file]  
@@ -516,22 +449,10 @@ The import definitions can be defined or edited by clicking the [Edit] button to
     Click this button to upload the selected file. The *Files accepted!* confirmation window is displayed. Click the [OK] button to continue. The selected file is uploaded and the button is locked until the import is completed.
 
 - [CONTINUE]  
-    Click this button to proceed to the next step. The *Converted* confirmation window is displayed. Click the [OK] button to continue. The *Schilling Accounting: Step 2* window is displayed. This button is locked until at least one file has been uploaded.
+    Click this button to proceed to the next step. This button is locked until at least one file has been uploaded. The *Converted* confirmation window is displayed. Click the [OK] button to continue and follow the on-screen instructions to complete the import process.
 
+    > [Info]  If you need further assistance, contact your MPS consultant.
 
-### Schilling Accounting: Step 2
-
-![Import Schilling Step 2](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Import/Schilling02Fehler.png "[Import Schilling Step 2]")
-
-**Converting...**
-
-- [CANCEL]  
-    Click this button to cancel the process. This button is only displayed during the conversion process.
-
-> [Info] The *Converting...* notice is displayed during the conversion process. As soon as the conversion is completed, the *File imported!* confirmation window is displayed. Click the [OK] button to continue. The *Schilling Accounting: Step 3* window is displayed.
-
-
-[comment]: <> (Der Prozess geht nicht weiter, System hängt. Ich habe versucht eine exportierte txt Datei -Reiter EXPORT- zu importieren, aber es scheint nicht zu funktionieren. Bug oder falsche Datei importiert?)
 
 
 ### Import/export definitions
