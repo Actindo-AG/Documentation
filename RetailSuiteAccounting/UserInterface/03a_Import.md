@@ -378,7 +378,7 @@ The import definitions can be defined or edited by clicking the [Edit] button to
 
 ### openTRANS: Step 1
 
-![Import openTRANS Step 1](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Import/OpenTrans.png "[Import openTRANS Step 1]")
+![Import openTRANS Step 1](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Import/Opentrans.png "[Import openTRANS Step 1]")
 
 **Files**
 
@@ -407,7 +407,7 @@ The import definitions can be defined or edited by clicking the [Edit] button to
 
 ### openTRANS: Step 2
 
-![Import openTRANS Step 2](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Import/OpenTrans02.png "[Import openTRANS Step 2]")
+![Import openTRANS Step 2](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Import/Opentrans02.png "[Import openTRANS Step 2]")
 
 **Log file**  
 
