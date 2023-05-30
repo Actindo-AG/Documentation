@@ -1,10 +1,10 @@
 # Innovative MACH+ architecture
 
-The MACH+ approach is considered as fundamental for the newest generation of software and systems integrators to quickly adapt new evolutions, trends, and technologies. The *Actindo Core1 Platform* offers maximum flexibility, high performance, and future proofing by using the four guiding principles of microservices, API-first, cloud-native, and headless. 
+The MACH+ approach is considered as fundamental for the newest generation of software and system integrators to quickly adapt new evolutions, trends, and technologies. It is an industry standard that describes modern technology: Microservices based, API-first, cloud-native SaaS (software-as-a-service) and headless. Our MACH+ certification gives enterprises confidence that they are choosing best-in-class vendors that can deliver future-proof technology.
 
 
 ### Microservices
-
+The Actindo digital operations platform is composed of multiple independent services and can function both as a standalone solution as well as provide only the required components for an existing or a newly created IT landscape.   
 With the help of pre-built e-commerce building blocks, your teams can easily create a customer-specific infrastructure. Furthermore, the teams can agilely scale and evolve the IT-framework as needed using a low-code approach. If you have a PWA (Progressive Web Apps) online shop or custom web interfaces and apps for your sales teams, you can quickly implement and improve any e-commerce solution. 
 
 
@@ -15,7 +15,7 @@ Companies can accelerate innovation with modern APIs (application programming in
 
 ### Cloud technology
 
-Instead of worrying about maintaining, connecting, and updating a monolithic ERP software, you can use a fail-safe and scalable platform made in Germany. Our cloud servers are compliant with the European General Data Protection Regulation (GDPR). They are located in Germany.
+Instead of worrying about maintaining, connecting, and updating a monolithic ERP software, you can use a fail-safe and scalable platform made in Germany. Our cloud servers are compliant with the European General Data Protection Regulation (GDPR). They are located in Germany and can be accessed wherever you are.
 
 
 ### Headless Commerce 
