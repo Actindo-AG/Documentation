@@ -25,8 +25,9 @@ You can model any kind of complex processes and visualize them where they are ex
 You can automate and parallelize the business for high volumes.
 
 
-**Away from API orchestration to business process orchestration**
-![Business process orchestration](../../Documentation/Assets/Screenshots/Core1Platform/BusinessProcessOrchestration2.png "[Dispatch notes]")
+**Away from API orchestration to business process orchestration**   
+
+![Business process orchestration](../../Documentation/Assets/Screenshots/Core1Platform/BusinessProcessOrchestration2.png "[Business process orchestration]")
 
 
 ## Monitoring and reporting
