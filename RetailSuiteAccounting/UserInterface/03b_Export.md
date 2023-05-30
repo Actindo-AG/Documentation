@@ -65,9 +65,6 @@ The following export options are displayed in the tab:
 
 *Accounting > Extras > Tab EXPORT > Button BMD*
 
-
-### BMD: Step 1
-
 ![Export BMD Step 1](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Export/BMD01.png "[Export BMD Step 1]")
 
 - *Fiscal year*  
@@ -89,33 +86,6 @@ The following export options are displayed in the tab:
 
 - [CONTINUE]  
     Click this button to proceed to the next step. The *BMD: Step 2* window is displayed. The *Export...* notice is displayed during the export process.
-
-
-### BMD: Step 2
-
-![Export BMD Step 2](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Export/BMD02.png "[Export BMD Step 2]")
-
-**Export...**
-
-- [CANCEL]  
-    Click this button to cancel the export process. This button is only displayed during the export process.  
-
-> [Info] The *Export...* notice is displayed during the export process. As soon as the export is completed, the *Exported without error.* confirmation window is displayed. Click the [OK] button to continue. The *BMD: Step 3* window is displayed.
-
-[comment]: <> (Nach einiger Sekunden bzw. kurz vor dem Step 3 ABBRECHEN Button ändert sich zu SCHLIESSEN, was nicht wirklich Sinn macht, denn man schließt tatsächlich das Fenster, also man bricht der Export ab.)
-
-
-### BMD: Step 3
-
-![Export BMD Step 3](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Export/BMD03.png "[Export BMD Step 3]")
-
-- *Exported files*  
-    The exported file(s) are displayed. Click a file name to download the corresponding file. By default, the downloaded exported file is saved in the *Downloads* folder of your device.
-
-- [CONTINUE]  
-    Click this button to close the window.
-
-[comment]: <> (WEITER/CONTINUE Button bei allen Exporten ausgegraut > CLOSE Button? --> Bug)
 
 
 ### BMD tax mapping
@@ -178,9 +148,6 @@ The list displays all available BMD tax mappings. Depending on the settings, the
 
 *Accounting > Extras > Tab EXPORT > Button CSV*
 
-
-### CSV: Step 1
-
 ![Export CSV Step 1](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Export/CSV01.png "[Export CSV Step 1]")
 
 - *Fiscal year*  
@@ -239,38 +206,10 @@ The list displays all available BMD tax mappings. Depending on the settings, the
     Click this button to proceed to the next step. The *CSV: Step 2* window is displayed. The *Export...* notice is displayed during the export process.
 
 
-### CSV: Step 2
-
-![Export CSV Step 2](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Export/CSV02.png "[Export CSV Step 2]")
-
-**Export...**
-
-- [CANCEL]  
-    Click this button to cancel the export process. This button is only displayed during the export process.  
-
-> [Info] The *Export...* notice is displayed during the export process. As soon as the export is completed, the *Exported without error.* confirmation window is displayed. Click the [OK] button to continue. The *CSV: Step 3* window is displayed.
-
-
-### CSV: Step 3
-
-![Export CSV Step 3](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Export/CSV03.png "[Export CSV Step 3]")
-
-- *Exported files*  
-    The exported file(s) are displayed. Click a file name to download the corresponding file. By default, the downloaded exported file is saved in the *Downloads* folder of your device.
-
-- [CONTINUE]  
-    Click this button to close the window.
-
-[comment]: <> (WEITER/CONTINUE Button bei allen Exporten ausgegraut > CLOSE Button? --> Bug)
-
-
 
 ## DATEV CSV
 
 *Accounting > Extras > Tab EXPORT > Button DATEV CSV*
-
-
-### DATEV CSV: Step 1
 
 ![Export DATEV CSV Step 1](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Export/DatevCVS01.png "[Export DATEV CSV Step 1]")
 
@@ -357,38 +296,10 @@ The list displays all available BMD tax mappings. Depending on the settings, the
     Click this button to proceed to the next step. The *DATEV CSV: Step 2* window is displayed. The *Export...* notice is displayed during the export process.
 
 
-### DATEV CSV: Step 2
-
-![Export DATEV CSV Step 2](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Export/DatevCVS02.png "[Export DATEV CSV Step 2]")
-
-**Export...**
-
-- [CANCEL]  
-    Click this button to cancel the export process. This button is only displayed during the export process.  
-
-> [Info] The *Export...* notice is displayed during the export process. As soon as the export is completed, the *Exported without error.* confirmation window is displayed. Click the [OK] button to continue. The *DATEV CSV: Step 3* window is displayed.
-
-
-### DATEV CSV: Step 3
-
-![Export DATEV CSV Step 3](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Export/DatevCVS03.png "[Export DATEV CSV Step 3]")
-
-- *Exported files*  
-    The exported file(s) are displayed. Click a file name to download the corresponding file. By default, the downloaded exported file is saved in the *Downloads* folder of your device.
-
-- [CONTINUE]  
-    Click this button to close the window.
-
-[comment]: <> (WEITER/CONTINUE Button bei allen Exporten ausgegraut > CLOSE Button? --> Bug)
-
-
 
 ## GDI
 
 *Accounting > Extras > Tab EXPORT > Button GDI*
-
-
-### GDI: Step 1
 
 ![Export GDI Step 1](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Export/GDI01.png "[Export GDI Step 1]")
 
@@ -417,38 +328,10 @@ The list displays all available BMD tax mappings. Depending on the settings, the
     Click this button to proceed to the next step. The *GDI: Step 2* window is displayed. The *Export...* notice is displayed during the export process.
 
 
-### GDI: Step 2
-
-![Export GDI Step 2](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Export/GDI02.png "[Export GDI Step 2]")
-
-**Export...**
-
-- [CANCEL]  
-    Click this button to cancel the export process. This button is only displayed during the export process.  
-
-> [Info] The *Export...* notice is displayed during the export process. As soon as the export is completed, the *Exported without error.* confirmation window is displayed. Click the [OK] button to continue. The *GDI: Step 3* window is displayed.
-
-
-### GDI: Step 3
-
-![Export GDI Step 3](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Export/GDI03.png "[Export GDI Step 3]")
-
-- *Exported files*  
-    The exported file(s) are displayed. Click a file name to download the corresponding file. By default, the downloaded exported file is saved in the *Downloads* folder of your device.
-
-- [CONTINUE]  
-    Click this button to close the window.
-
-[comment]: <> (WEITER/CONTINUE Button bei allen Exporten ausgegraut > CLOSE Button? --> Bug)
-
-
 
 ## GDPdU export
 
 *Accounting > Extras > Tab EXPORT > Button GDPDU EXPORT*
-
-
-### GDPdU export: Step 1
 
 ![Export GDPDU Step 1](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Export/GDPdU01.png "[Export GDPDU Step 1]")
 
@@ -489,38 +372,10 @@ The list displays all available BMD tax mappings. Depending on the settings, the
     Click this button to proceed to the next step. The *GDPdU export: Step 2* window is displayed. The *Export...* notice is displayed during the export process.
 
 
-### GDPdU export: Step 2
-
-![Export GDPDU Step 2](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Export/GDPdU02.png "[Export GDPDU Step 2]")
-
-**Export...**
-
-- [CANCEL]  
-    Click this button to cancel the export process. This button is only displayed during the export process.  
-
-> [Info] The *Export...* notice is displayed during the export process. As soon as the export is completed, the *Exported without error.* confirmation window is displayed. Click the [OK] button to continue. The *GDPdU export: Step 3* window is displayed.
-
-
-### GDPdU export: Step 3
-
-![Export GDPDU Step 3](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Export/GDPdU03.png "[Export GDPDU Step 3]")
-
-- *Exported files*  
-    The exported file(s) are displayed. Click a file name to download the corresponding file. By default, the downloaded exported file is saved in the *Downloads* folder of your device.
-
-- [CONTINUE]  
-    Click this button to close the window.
-
-[comment]: <> (WEITER/CONTINUE Button bei allen Exporten ausgegraut > CLOSE Button? --> Bug)
-
-
 
 ## Open items
 
 *Accounting > Extras > Tab EXPORT > Button OPEN ITEMS*
-
-
-### Open items: Step 1
 
 ![Export Open items Step 1](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Export/OpenItems01.png "[Export Open items Step 1]")
 
@@ -565,38 +420,10 @@ The list displays all available BMD tax mappings. Depending on the settings, the
     Click this button to proceed to the next step. The *Open items: Step 2* window is displayed. The *Export...* notice is displayed during the export process.
 
 
-### Open items: Step 2
-
-![Export Open items Step 2](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Export/OpenItems02.png "[Export Open items Step 2]")
-
-**Export...**
-
-- [CANCEL]  
-    Click this button to cancel the export process. This button is only displayed during the export process.  
-
-> [Info] The *Export...* notice is displayed during the export process. As soon as the export is completed, the *Exported without error.* confirmation window is displayed. Click the [OK] button to continue. The *Open items: Step 3* window is displayed.
-
-
-### Open items: Step 3
-
-![Export Open items Step 3](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Export/OpenItems03.png "[Export Open items Step 3]")
-
-- *Exported files*  
-    The exported file(s) are displayed. Click a file name to download the corresponding file. By default, the downloaded exported file is saved in the *Downloads* folder of your device.
-
-- [CONTINUE]  
-    Click this button to close the window.
-
-[comment]: <> (WEITER/CONTINUE Button bei allen Exporten ausgegraut > CLOSE Button? --> Bug)
-
-
 
 ## Balance list
 
 *Accounting > Extras > Tab EXPORT > Button BALANCE LIST*
-
-
-### Balance list: Step 1
 
 ![Export Balance list Step 1](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Export/BalanceList.png "[Export Balance list Step 1]")
 
@@ -628,38 +455,10 @@ The list displays all available BMD tax mappings. Depending on the settings, the
     Click this button to proceed to the next step. The *Balance list: Step 2* window is displayed. The *Export...* notice is displayed during the export process.
 
 
-### Balance list: Step 2
-
-![Export Balance list Step 2](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Export/BalanceList02.png "[Export Balance list Step 2]")
-
-**Export...**
-
-- [CANCEL]  
-    Click this button to cancel the export process. This button is only displayed during the export process.  
-
-> [Info] The *Export...* notice is displayed during the export process. As soon as the export is completed, the *Exported without error.* confirmation window is displayed. Click the [OK] button to continue. The *Balance list: Step 3* window is displayed.
-
-
-### Balance list: Step 3
-
-![Export Balance list Step 3](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Export/BalanceList03.png "[Export Balance list Step 3]")
-
-- *Exported files*  
-    The exported file(s) are displayed. Click a file name to download the corresponding file. By default, the downloaded exported file is saved in the *Downloads* folder of your device.
-
-- [CONTINUE]  
-    Click this button to close the window.
-
-[comment]: <> (WEITER/CONTINUE Button bei allen Exporten ausgegraut > CLOSE Button? --> Bug)
-
-
 
 ## SALDEN.DAT
 
 *Accounting > Extras > Tab EXPORT > Button SALDEN.DAT*
-
-
-### SALDEN.DAT: Step 1
 
 ![Export SALDEN.DAT Step 1](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Export/SALDEN.DAT01.png "[Export SALDEN.DAT Step 1]")
 
@@ -672,7 +471,6 @@ The list displays all available BMD tax mappings. Depending on the settings, the
         Enter the month range to be exported. If you want to select only a single month, select the same month in both fields.
     - *Journals*  
         Enter the journal range to be exported. If you want to select only a single journal, select the same journal in both fields.
-
 
 - *Impersonal accounts*  
     Click the drop-down list to select the impersonal accounts to be exported. The following options are available:  
@@ -689,38 +487,10 @@ The list displays all available BMD tax mappings. Depending on the settings, the
     Click this button to proceed to the next step. The *SALDEN.DAT: Step 2* window is displayed. The *Export...* notice is displayed during the export process.
 
 
-### SALDEN.DAT: Step 2
-
-![Export SALDEN.DAT Step 2](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Export/SALDEN.DAT02.png "[Export SALDEN.DAT Step 2]")
-
-**Export...**
-
-- [CANCEL]  
-    Click this button to cancel the export process. This button is only displayed during the export process.  
-
-> [Info] The *Export...* notice is displayed during the export process. As soon as the export is completed, the *Exported without error.* confirmation window is displayed. Click the [OK] button to continue. The *SALDEN.DAT: Step 3* window is displayed.
-
-
-### SALDEN.DAT: Step 3
-
-![Export SALDEN.DAT Step 3](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Export/SALDEN.DAT03.png "[Export SALDEN.DAT Step 3]")
-
-- *Exported files*  
-    The exported file(s) are displayed. Click a file name to download the corresponding file. By default, the downloaded exported file is saved in the *Downloads* folder of your device.
-
-- [CONTINUE]  
-    Click this button to close the window.
-
-[comment]: <> (WEITER/CONTINUE Button bei allen Exporten ausgegraut > CLOSE Button? --> Bug)
-
-
 
 ## SAP
 
 *Accounting > Extras > Tab EXPORT > Button SAP*
-
-
-### SAP: Step 1
 
 ![Export SAP Step 1](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Export/SAP01.png "[Export SAP Step 1]")
 
@@ -753,38 +523,10 @@ The list displays all available BMD tax mappings. Depending on the settings, the
     Click this button to proceed to the next step. The *SAP: Step 2* window is displayed. The *Export...* notice is displayed during the export process.
 
 
-### SAP: Step 2
-
-![Export SAP Step 2](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Export/SAP02.png "[Export SAP Step 2]")
-
-**Export...**
-
-- [CANCEL]  
-    Click this button to cancel the export process. This button is only displayed during the export process.  
-
-> [Info] The *Export...* notice is displayed during the export process. As soon as the export is completed, the *Exported without error.* confirmation window is displayed. Click the [OK] button to continue. The *SAP: Step 3* window is displayed.
-
-
-### SAP: Step 3
-
-![Export SAP Step 3](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Export/SAP03.png "[Export SAP Step 3]")
-
-- *Exported files*  
-    The exported file(s) are displayed. Click a file name to download the corresponding file. By default, the downloaded exported file is saved in the *Downloads* folder of your device.
-
-- [CONTINUE]  
-    Click this button to close the window.
-
-[comment]: <> (WEITER/CONTINUE Button bei allen Exporten ausgegraut > CLOSE Button? --> Bug)
-
-
 
 ## Varial
 
 *Accounting > Extras > Tab EXPORT > Button VARIAL*
-
-
-### Varial: Step 1
 
 ![Export Varial Step 1](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Export/Varial01.png "[Export Varial Step 1]")
 
@@ -811,41 +553,12 @@ The list displays all available BMD tax mappings. Depending on the settings, the
     Click this button to proceed to the next step. The *Varial: Step 2* window is displayed. The *Export...* notice is displayed during the export process.
 
 
-### Varial: Step 2
-
-![Export Varial Step 2](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Export/Varial02.png "[Export Varial Step 2]")
-
-**Export...**
-
-- [CANCEL]  
-    Click this button to cancel the export process. This button is only displayed during the export process.  
-
-> [Info] The *Export...* notice is displayed during the export process. As soon as the export is completed, the *Exported without error.* confirmation window is displayed. Click the [OK] button to continue. The *Varial: Step 3* window is displayed.
-
-
-### Varial: Step 3
-
-![Export Varial Step 3](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Export/Varial03.png "[Export Varial Step 3]")
-
-- *Exported files*  
-    The exported file(s) are displayed. Click a file name to download the corresponding file. By default, the downloaded exported file is saved in the *Downloads* folder of your device.
-
-- [CONTINUE]  
-    Click this button to close the window.
-
-[comment]: <> (WEITER/CONTINUE Button bei allen Exporten ausgegraut > CLOSE Button? --> Bug)
-
-
 
 ## Zahlwerk
 
 *Accounting > Extras > Tab EXPORT > Button ZAHLWERK*
 
-
-### Zahlwerk: Step 1
-
 ![Export Zahlwerk Step 1](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Export/Zahlwerk.png "[Export Zahlwerk Step 1]")
-
 
 - *Fiscal year*  
     Click the drop-down list to select the fiscal year to be exported. All available fiscal years are displayed in the list.
@@ -873,31 +586,6 @@ The list displays all available BMD tax mappings. Depending on the settings, the
 
 - [CONTINUE]  
     Click this button to proceed to the next step. The *Zahlwerk: Step 2* window is displayed. The *Export...* notice is displayed during the export process.
-
-
-### Zahlwerk: Step 2
-
-![Export Zahlwerk Step 2](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Export/Zahlwerk02.png "[Export Zahlwerk Step 2]")
-
-**Export...**
-
-- [CANCEL]  
-    Click this button to cancel the export process. This button is only displayed during the export process.  
-
-> [Info] The *Export...* notice is displayed during the export process. As soon as the export is completed, the *Exported without error.* confirmation window is displayed. Click the [OK] button to continue. The *Zahlwerk: Step 3* window is displayed.
-
-
-### Zahlwerk: Step 3
-
-![Export Zahlwerk Step 3](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Export/Zahlwerk03.png "[Export Zahlwerk Step 3]")
-
-- *Exported files*  
-    The exported file(s) are displayed. Click a file name to download the corresponding file. By default, the downloaded exported file is saved in the *Downloads* folder of your device.
-
-- [CONTINUE]  
-    Click this button to close the window.
-
-[comment]: <> (WEITER/CONTINUE Button bei allen Exporten ausgegraut > CLOSE Button? --> Bug)
 
 
 
