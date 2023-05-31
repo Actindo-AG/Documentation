@@ -6,12 +6,12 @@ The *Actindo Core1 Platform* supports the business of companies in wholesale and
 ## ERP system is in use
 
 You company uses an existing ERP system. The *Actindo Core1 Platform* provides complete software for linking existing and legacy IT systems with modern markets in the B2C (business-to-consumer) and B2B (business-to-business) sectors.   
-The average age of running ERP solutions are about 12 years. This means in most cases that you are not able to quickly follow new evolutions in e-commerce with your legacy ERP system. Changing of processes and data models are then extremely time-consuming and expensive. Additionally, changes may be risky and can have a bad impact on business transactions that are stable.
-With the *Actindo Core1 Platform* you can loosely couple a D2C (direct-to-consumer) infrastructure to your legacy IT. The digital operations platform with its core orchestration processes enables the interaction between channels, 3PL (third-party logistics), PSP (payment service provider), and your legacy ERP. For example, you can exchange the following data:
+The average age of running ERP solutions are about 12 years. This means in most cases that you are not able to quickly follow new evolutions in e-commerce with your legacy ERP system. Changing of processes and data models are then extremely time-consuming and expensive. Additionally, changes may be risky and can have a bad impact on business transactions that are stable.   
+With the *Actindo Core1 Platform* you can loosely couple a D2C (direct-to-consumer) infrastructure to your legacy IT. The digital operations platform with its core orchestration processes the interaction between channels, 3PL (third-party logistics), PSP (payment service provider), and your legacy ERP. For example, you can exchange the following data:
 - Material numbers and article master data
 - Invoices and credit notes   
 
-The direction of the data flow is thereby determined individually by the process orchestration. The existing infrastructure remains untouched. 
+The direction of the data flow is thereby determined individually by the process orchestration. Your existing IT infrastructure remains untouched. 
 The *Actindo Core1 Platform* supports the transformation to a D2C business with all benefits that provides running an own branded online shop. You can use the *Actindo Core1 Platform* to modernize your e-commerce, to stay up-to-date, and to implement new evolutions.  
 
 
