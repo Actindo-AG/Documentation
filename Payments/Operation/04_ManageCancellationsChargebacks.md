@@ -1,3 +1,5 @@
+[!!LIST (Cancellations and chargebacks](../UserInterface/05a_ListCancellationsChargebacks.md)
+
 # Monitor cancellations and chargebacks
 
 In the context of a payment transaction a chargeback is a retroactive cancellation of a capture. It is initialized by the customer, for example, if he or she withdraws the payment. A cancellation is a revocation of the reservation of a product that has not yet been delivered. It is also initialized by the customer.    

@@ -1,3 +1,6 @@
+[!!LIST (Confirmations](../UserInterface/06a_ListConfirmations.md)
+
+
 # Manage confirmations
 
 The *Confirmation* menu entry provides you with a view on all references to refunds that has been created. Before your company sends back the money to the customer, you have to check the refunds with this menu entry. This service is supported by the most payment service providers.

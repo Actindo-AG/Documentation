@@ -1,3 +1,5 @@
+[!!Monitor authorizations](../Operation/01_ManageAuthorizations.md)
+
 # LIST (Authorizations)
 
 ![LIST (Authorizations)](../../Assets/Screenshots/Payments/Authorizations/LISTAuthorizations.png "[LIST (Authorizations)]")
@@ -51,12 +53,23 @@
 
 - ![Columns](../../Assets/Icons/Columns.png "[Columns]") Columns (x)   
     Click this button to display the columns bar and to customize the displayed columns and the order of columns in the list. The *x* indicates the number of columns that are currently displayed in the list.   
-    > [Info] It is recommended to add the following columns to your view to get the required information snd to better filter and sort the entries: Status ID, Status information (if applicable). 
+    > [Info] It is recommended to add the following columns to your view to get the required information and to better filter and sort the entries: Status ID, Status information (if applicable). 
 - ![Filter](../../Assets/Icons/Filter.png "[Filter]") Filter (x)   
     Click this button to display the filter bar and customize the active filters. The *x* indicates the number of filters that are currently active.
 
+The list displays all authorization transactions. Depending on the payment service provider, the displayed columns vary. All fields are read-only. The following standard columns are available.
+<!----Hallo Stefan, hier sollten alle Standard-Felder mit Erklärungen stehen, ist die Liste vollständig?--->
+- *Charges intended use*   
+   Purpose of the fee   
+- *Original currency*   
+   Currency in which the product(s) were paid   
+- *Original currency amount*   
+   Invoice amount in the original currency   
+
+
 
 ## Authorizations &ndash; Attributes
+
 *Payments > Payments and Captures > Tab LIST > Select an authorization ticket > Tab Attributes*   
 
 
@@ -65,7 +78,7 @@
 In the left margin column, all available attribute groups are displayed. Click a group to display the attributes that are assigned to this group on the right side of the *Attributes* tab. If the authorization transaction contains attributes that are not assigned, the *Unassigned group* attribute group is automatically displayed in the left margin column.
 
 - ![Folders](../../Assets/Icons/Folders01.png "[Folders]") (Folders)  
-    Attribute group that contains attribute sub-groups. Click the attribute group or the arrow left to the attribute group to expand the group and display the attribute sub-groups. The following sub-groups are available:
+    Attribute group that contains attribute sub-groups. Click the attribute group or the arrow left to the attribute group to expand the group and to display the attribute sub-groups. The following sub-groups are available:
     - *[Payment service provider] Incoming Payment Base Data*   
       This folder contains attributes that are specific for the payment service provider who has sent this authorization ticket.
     - *Incoming Payment Base Data*   
@@ -75,8 +88,6 @@ In the left margin column, all available attribute groups are displayed. Click a
     Attribute group. Click the attribute group to display all attributes that are assigned to the selected attribute group on the right side of the *Attributes* tab.
 
 The right side of the *Attributes* tab displays all attributes that are assigned to the selected group in the left margin column. Depending on the selected attribute group, the displayed fields may vary. The attributes are imported by the payment service provider driver. All fields are read-only.
-
-
 
 
 ## Authorizations &ndash; Dependencies
@@ -89,15 +100,12 @@ Since an authorization ticket has no dependencies to other entities in Actindo b
 
 ## Authorizations &ndash; Logs   
 
-
 *Payments > Menu entry > Tab LIST > Select an entry > Tab Logs*   
-
 
 ![Logs](../../Assets/Screenshots/Payments/Authorizations/AuthorizationLogs.png "[Logs]")
 
 This tab displays messages and intents that have been created during transferring the selected authorization transaction from the payment service provider.    
-In contrast to the messages that are provided with the *Logging* menu entry, you see here the logging for the specific authorization transaction only.   
-See [LIST (Logging)](./07a_ListLogging) for detailed information on fields and functions.
+In contrast to the messages that are provided with the *Logging* menu entry, you see here the logging for the specific authorization transaction only. See [LIST (Logging)](./07a_ListLogging) for detailed information on fields and functions.
 
 
 ## Create view
@@ -130,5 +138,5 @@ See [LIST (Logging)](./07a_ListLogging) for detailed information on fields and f
     Click this button to cancel renaming the view. The *Rename view* window is closed.
 
 - [SAVE]   
-    Click this button to save the changes and display it in the *VIEW* drop-down list. The *Rename view* window is closed.
+    Click this button to save the changes and display the new name in the *VIEW* drop-down list. The *Rename view* window is closed.
 

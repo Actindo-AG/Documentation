@@ -1,3 +1,6 @@
+[!!LIST (Payments and captures](../UserInterface/02a_ListPaymentsAndCaptures.md)
+
+
 # Monitor payments and captures
 
 A capture is a payment made. The most payment service providers create a new reference, when a payment has been captured.

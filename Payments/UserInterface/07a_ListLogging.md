@@ -65,8 +65,14 @@ The list displays all intents. Depending on the settings, the displayed columns 
 
 - *Max log level of message*  
     Maximum log level type of the message(s) contained in the intent. The following levels are available:   
-     - **Notice**   
-     - **Error**   
+     - **Debug**   
+     - **Info**
+     - **Notice**
+     - **Warning**
+     - **Error**
+     - **Critical**
+     - **Alert**
+     - **Emergency**  
         
 - *ID*  
     Intent identification number. The ID number is automatically assigned by the system.
@@ -145,7 +151,7 @@ The list displays all log messages of the selected intent. Depending on the sett
 
 The *Attributes* tab displays further details of the selected log message. Depending on the attribute set of the log message, the displayed fields vary. All fields are read-only.
 
-In general, the most common attribute sets are the standard error log message attribute set and the API communication attribute set. The fields of these sets are described in the following. Furthermore, it is possible to create a custom log message attribute set with different fields.
+In general, the most common attribute sets are the standard error log message attribute set as well as the API communication attribute set. The fields of these sets are described in the following. Furthermore, it is possible to create a custom log message attribute set with different fields.
 
 **Standard error log message attribute set**
 

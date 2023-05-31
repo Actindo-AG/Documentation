@@ -1,4 +1,4 @@
-[!!Connections (Settings)](../Integration/01_EstablishConnection.md)
+[!!Connections (Settings)](../UserInterface/08a_Connections.md)
 
 # Establish connections to payment service providers (PSP)
 
@@ -62,7 +62,7 @@ At least one connection has been created, see [Create a connection](#create-a-co
 
 1. Select the checkbox of the connection you want to edit.  
    The editing toolbar is displayed above the list of connections.      
-2. Click the  ![Edit](../../Assets/Icons/Edit01.png "[Edit]")  button
+2. Click the ![Edit](../../Assets/Icons/Edit01.png "[Edit]") button
    
     The *Edit connection* view is displayed.
 

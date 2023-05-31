@@ -1,6 +1,20 @@
-# LIST (Payments and Captures)
+[!!Monitor payments and captures](../Operation/02_ManagePaymentsAndCaptures.md)
+
+
+# LIST (Payments and captures)
 
 ![LIST (Payments and captures)](../../Assets/Screenshots/Payments/PaymentsCaptures/LISTPaymentsCaptures.png "[LIST (Payments and captures)]")
+
+
+The list displays all pcapture transactions. Depending on the payment service provider, the displayed columns vary. All fields are read-only. The following standard columns are available.
+<!----Hallo Stefan, hier sollten alle Standard-Felder mit Erklärungen stehen, ist die Liste vollständig?--->
+- *Charges intended use*   
+   Purpose of the fee.
+- *Original currency*   
+   Currency in which the product(s) were paid 
+- *Original currency amount*   
+   Invoice amount in the original currency
+
 
 
 ## Payments and Captures &ndash; Attributes

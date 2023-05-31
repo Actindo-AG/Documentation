@@ -1,3 +1,6 @@
+[!!LIST (Authorizations](../UserInterface/01a_ListAuthorizations.md)
+
+
 # Monitor authorizations
 
 An Authorization is the permission that your company is allowed to capture money from the customer via a payment service provider. The processing of the authorization transactions works as follows: 

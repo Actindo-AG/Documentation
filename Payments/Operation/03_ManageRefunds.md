@@ -1,3 +1,6 @@
+[!!LIST (Refunds](../UserInterface/03_Refunds.md)
+
+
 # Monitor refunds
 
 A refund is a repayment of a capture. It is initialized by the trader, for example, if a product is not available and cannot be delivered.   

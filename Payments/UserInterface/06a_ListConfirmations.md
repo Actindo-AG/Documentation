@@ -1,3 +1,6 @@
+[!!Manage confirmations](../Operation/05_ManageConfirmations.md)
+
+
 # LIST (Confirmations)
 
 ![LIST (Confirmations)](../../Assets/Screenshots/Payments/Confirmations/LISTConfirmations.png "[LIST (Confirmations)]")
@@ -16,8 +19,8 @@
         - ![Rename](../../Assets/Icons/Edit02.png "[Rename]") rename  
             Click this entry to rename the selected view. The *Rename view* window is displayed, see [Rename view](#rename-view). This menu entry is only displayed if you have selected a view.
 
-        <!---- Eintrag gibt es nicht mehr [Reset](../../Assets/Icons/Reset.png "[Reset]") reset  
-            Click this entry to reset all unsaved changes to the settings of the selected view. This menu entry is only displayed if a view has been selected and any changes have been made to the view settings.--->
+        <!--- Eintrag gibt es nicht mehr [Reset](../../Assets/Icons/Reset.png "[Reset]") reset  
+            Click this entry to reset all unsaved changes to the settings of the selected view. This menu entry is only displayed if a view has been selected and any changes have been made to the view settings.-->
 
         - ![Publish](../../Assets/Icons/Publish.png "[Publish]") publish  
             Click this entry to publish the view. This menu entry is only displayed if you have selected an unpublished view. As long as you have not published a view, your views are visible for you only.
@@ -56,6 +59,28 @@
     Click this button to display the filter bar and customize the active filters. The *x* indicates the number of filters that are currently active.
 
 
+The list displays all confirmation transactions. Depending on the payment service provider, the displayed columns vary. All fields are read-only. The following standard columns are available.   
+- *Name*   
+   Full name <!---oder nur Vorname?--> of the person who has made the payment.
+- *Surname*   
+   Surname of the person who has made the payment.
+- *Company*   
+   Name of the company on whose behalf the payment was made. 
+- *Address*   
+   Street and house number of the address.<!---Straße und Hausnummer? oder konkatenierte Adresse? -->
+- *Postal Code*   
+   Zip code of the address.
+- *City*   
+   City of the address. 
+- *State*   
+   State of the address.
+- *Country*   
+   If applicable, country of the address.
+- *Due Date*   
+   Date on which the repayment must be made at the latest.<!---Stimmt das?-->   
+
+
+
 ## Confirmations &ndash; Attributes
 
 ![Confirmations &ndash; Attributes](../../Assets/Screenshots/Payments/Confirmations/AttributesConfirmation.png "[Confirmations &ndash; Attributes]")
@@ -66,7 +91,7 @@ In the left margin column, all available attribute groups are displayed. Click a
     - *[Payment service provider] Outgoing Payment Base Data*   
       This folder contains attributes that are specific for the payment service provider.
     - *Outgoing Payment Base Data*   
-      This folder contains general fields that Actindo needs to query payments data. These data support standard functions of Actindo. 
+      This folder contains general fields that Actindo needs to query payments data. These data support standard functions of Actindo. See the description of the fields above.
 
 - ![Folder](../../Assets/Icons/Folder01.png "[Folder]") (Folder)  
     Attribute group. Click the attribute group to display all attributes that are assigned to the selected attribute group on the right side of the *Attributes* tab.
