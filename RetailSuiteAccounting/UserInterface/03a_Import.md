@@ -16,7 +16,7 @@ The following import options are available in the tab:
 
 - *Compeso 7.x fiscal year backups*  
     - [COMPESO 7.X]  
-        Click this button to import data in Compeso proprietary format. The *Compeso 7.X* window is displayed, see [Compeso 7.X](#compeso-7x).
+        Click this button to import data in Compeso proprietary format. The *Compeso 7.x* window is displayed, see [Compeso 7.x](#compeso-7x).
 
 - *Import of data in CVS format*  
     - [CSV]  
@@ -44,30 +44,30 @@ The following import options are available in the tab:
 
 *Accounting > Extras > Tab IMPORT > Button COMPESO 7.X*
 
-![Import Compeso 7.X Step 1](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Import/Compeso.png "[Import Compeso 7.X Step 1]")
+![Import Compeso 7.x Step 1](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Import/Compeso.png "[Import Compeso 7.x Step 1]")
 
 **Files**
 
 - *backup.ctl*  
     Select the corresponding file for upload in the ctl format.  
     - [Choose file]  
-        Click this button to select a file from your device to be uploaded. The explorer is displayed in a new window. If no file has been selected yet, the notice *No file chosen* is displayed to the right of the button.
+        Click this button to select a file from your device to be uploaded. The file explorer is displayed in a new window. If no file has been selected yet, the notice *No file chosen* is displayed to the right of the button.
 
 - *backup.dat*  
     Select the corresponding file for upload in the dat format.
     - [Choose file]  
-        Click this button to select a file from your device to be uploaded. The explorer is displayed in a new window. If no file has been selected yet, the notice *No file chosen* is displayed to the right of the button.
+        Click this button to select a file from your device to be uploaded. The file explorer is displayed in a new window. If no file has been selected yet, the notice *No file chosen* is displayed to the right of the button.
 
 - *abrzr.dat*  
     Select the corresponding file for upload in the dat format.
     - [Choose file]  
-        Click this button to select a file from your device to be uploaded. The explorer is displayed in a new window. If no file has been selected yet, the notice *No file chosen* is displayed to the right of the button.
+        Click this button to select a file from your device to be uploaded. The file explorer is displayed in a new window. If no file has been selected yet, the notice *No file chosen* is displayed to the right of the button.
 
 - [UPLOAD]  
-    Click this button to upload the selected file. Once the import file is uploaded, the [CONTINUE] button is unlocked. 
+    Click this button to upload the selected file.  
 
 - [CONTINUE]  
-    Click this button to proceed to the next step. This button is locked until at least one file has been uploaded. The *Converted* confirmation window is displayed. Click the [OK] button to continue and follow the on-screen instructions to complete the import process.
+    Click this button to proceed to the next step. This button is locked until a file has been uploaded. The *Converted* confirmation window is displayed. Click the [OK] button to continue and follow the on-screen instructions to complete the import process.
 
     > [Info] If you need further assistance, contact your MPS consultant.
 
@@ -77,8 +77,7 @@ The following import options are available in the tab:
 
 *Accounting > Extras > Tab IMPORT > Button CSV*
 
-
-### CSV: Step 1
+**Step 1**
 
 ![Import CSV Step 1](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Import/CSV.png "[Import CSV Step 1]")
 
@@ -89,11 +88,11 @@ The following import options are available in the tab:
     - ![Radio button](../../Assets/Icons/RadioButtonChecked.png "[Radio button]") *Local file*  
         Select this radio button to select a local file from your device to be uploaded. The [Choose file] button is displayed in the box.
         - [Choose file]  
-            Click this button to select a file from your device to be uploaded. If no file has been selected yet, the notice *No file chosen* is displayed o the right of the button.
+            Click this button to select a file from your device to be uploaded. If no file has been selected yet, the notice *No file chosen* is displayed to the right of the button.
     - ![Radio button](../../Assets/Icons/RadioButtonChecked.png "[Radio button]") *DMS*  
         Select this radio button to select a file in the *Documents* module to be uploaded. A search bar and the [SEARCH] button are displayed in the box. This radio button is only displayed when the *Documents* module is installed.
         - Search field   
-            Enter the file path of the file to be uploaded. It is recommended to use the [SEARCH] button to select a file. The file path is automatically entered in the field.
+            Enter the path of the file to be uploaded. It is recommended to use the [SEARCH] button to select a file. The file path is automatically entered in the field.
 
 - [SEARCH]  
     Click this button to search for a file to be uploaded. The *Select file* window is displayed, see [Select file](#select-file).
@@ -134,10 +133,10 @@ For the other options in the *File content* drop-down list, no import definition
     - **Always**
 
 - [CONTINUE]  
-    Click this button to proceed to the next step. This button is locked until at least one file has been uploaded. The *Converted* confirmation window is displayed. Click the [OK] button to continue. The *CSV: Step 2* window is displayed. 
+    Click this button to proceed to the next step. This button is locked until a file has been uploaded. The *Converted* confirmation window is displayed. Click the [OK] button to continue. The *CSV: Step 2* window is displayed. 
 
    
-### CSV: Step 2
+**Step 2**
 
 ![Import CSV Step 2](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Import/CSV02.png "[Import CSV Step 2]")
 
@@ -150,7 +149,7 @@ For the other options in the *File content* drop-down list, no import definition
     Click this button to proceed to the next step. The *Please click Finalize to import the file* confirmation window is displayed. Click the [OK] button to continue. The *CSV: Step 3* window is displayed.
 
 
-### CSV: Step 3
+**Step 3**
 
 ![Import CSV Step 3](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Import/CSV03.png "[Import CSV Step 3]")
 
@@ -221,11 +220,11 @@ For the other options in the *File content* drop-down list, no import definition
     - ![Radio button](../../Assets/Icons/RadioButtonChecked.png "[Radio button]") *Local file*  
         Select this radio button to select a local file from your device to be uploaded. The [Choose file] button is displayed in the box.
         - [Choose file]  
-            Click this button to select a file from your device to be uploaded. If no file has been selected yet, the notice *No file chosen* is displayed o the right of the button.
+            Click this button to select a file from your device to be uploaded. If no file has been selected yet, the notice *No file chosen* is displayed to the right of the button.
     - ![Radio button](../../Assets/Icons/RadioButtonChecked.png "[Radio button]") *DMS*  
         Select this radio button to select a file in the *Documents* module to be uploaded. A search bar and the [SEARCH] button are displayed in the box. This radio button is only displayed when the *Documents* module is installed.
         - Search field   
-            Enter the file path of the file to be uploaded. It is recommended to use the [SEARCH] button to select a file. The file path is automatically entered in the field.
+            Enter the path of the file to be uploaded. It is recommended to use the [SEARCH] button to select a file. The file path is automatically entered in the field.
         - [SEARCH]  
             Click this button to search for a file to be uploaded. The *Select file* window is displayed, see [Select file](#select-file).
 
@@ -234,11 +233,11 @@ For the other options in the *File content* drop-down list, no import definition
     - ![Radio button](../../Assets/Icons/RadioButtonChecked.png "[Radio button]") *Local file*  
         Select this radio button to select a local file from your device to be uploaded. The [Choose file] button is displayed in the box.
         - [Choose file]  
-            Click this button to select a file from your device to be uploaded. If no file has been selected yet, the notice *No file chosen* is displayed o the right of the button.
+            Click this button to select a file from your device to be uploaded. If no file has been selected yet, the notice *No file chosen* is displayed to the right of the button.
     - ![Radio button](../../Assets/Icons/RadioButtonChecked.png "[Radio button]") *DMS*  
         Select this radio button to select a file in the *Documents* module to be uploaded. A search bar and the [SEARCH] button are displayed in the box. This radio button is only displayed when the *Documents* module is installed.
         - Search field   
-            Enter the file path of the file to be uploaded. It is recommended to use the [SEARCH] button to select a file. The file path is automatically entered in the field.
+            Enter the path of the file to be uploaded. It is recommended to use the [SEARCH] button to select a file. The file path is automatically entered in the field.
         - [SEARCH]  
             Click this button to search for a file to be uploaded. The *Select file* window is displayed, see [Select file](#select-file).
 
@@ -261,7 +260,7 @@ The import definitions can be defined or edited by clicking the [Edit] button to
     Click this button to edit the selected import definition or to create a new one. The *Import/export definitions* window is displayed, see [Import/export definitions](#import/export-definitions).
 
 - [CONTINUE]  
-    Click this button to proceed to the next step. This button is locked until at least one file has been uploaded. The *Converted* confirmation window is displayed. Click the [OK] button to continue and follow the on-screen instructions to complete the import process.
+    Click this button to proceed to the next step. This button is locked until a file has been uploaded. The *Converted* confirmation window is displayed. Click the [OK] button to continue and follow the on-screen instructions to complete the import process.
 
     > [Info]  If you need further assistance, contact your MPS consultant.
 
@@ -271,23 +270,22 @@ The import definitions can be defined or edited by clicking the [Edit] button to
 
 *Accounting > Extras > Tab IMPORT > Button GDI*
 
-
-### GDI: Step 1
+**Step 1**
 
 ![Import GDI Step 1](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Import/GDI.png "[Import GDI Step 1]")
 
 **Files**
 
-- *GDIFIBU.STD*  
+- *GDIFIBU2.STD*  
     Select the corresponding file for upload in the STD format.
     - ![Radio button](../../Assets/Icons/RadioButtonChecked.png "[Radio button]") *Local file*  
         Select this radio button to select a local file from your device to be uploaded. The [Choose file] button is displayed in the box.
         - [Choose file]  
-            Click this button to select a file from your device to be uploaded. If no file has been selected yet, the notice *No file chosen* is displayed o the right of the button.
+            Click this button to select a file from your device to be uploaded. If no file has been selected yet, the notice *No file chosen* is displayed to the right of the button.
     - ![Radio button](../../Assets/Icons/RadioButtonChecked.png "[Radio button]") *DMS*  
         Select this radio button to select a file in the *Documents* module to be uploaded. A search bar and the [SEARCH] button are displayed in the box. This radio button is only displayed when the *Documents* module is installed.
         - Search field   
-            Enter the file path of the file to be uploaded. It is recommended to use the [SEARCH] button to select a file. The file path is automatically entered in the field.
+            Enter the path of the file to be uploaded. It is recommended to use the [SEARCH] button to select a file. The file path is automatically entered in the field.
         - [SEARCH]  
             Click this button to search for a file to be uploaded. The *Select file* window is displayed, see [Select file](#select-file).
 
@@ -295,10 +293,10 @@ The import definitions can be defined or edited by clicking the [Edit] button to
     Click this button to upload the selected file. The *Files accepted!* confirmation window is displayed. Click the [OK] button to continue. The selected file is uploaded and the button is locked until the import is completed.
 
 - [CONTINUE]  
-    Click this button to proceed to the next step. This button is locked until at least one file has been uploaded. The *Converted* confirmation window is displayed. Click the [OK] button to continue. The *GDI: Step 2* window is displayed. 
+    Click this button to proceed to the next step. This button is locked until a file has been uploaded. The *Converted* confirmation window is displayed. Click the [OK] button to continue. The *GDI: Step 2* window is displayed. 
 
 
-### GDI: Step 2
+**Step 2**
 
 ![Import GDI Step 2](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Import/GDI02.png "[Import GDI Step 2]")
 
@@ -311,7 +309,7 @@ The import definitions can be defined or edited by clicking the [Edit] button to
     Click this button to proceed to the next step. The *Please click Finalize to import the file* confirmation window is displayed. Click the [OK] button to continue. The *GDI: Step 3* window is displayed.
 
 
-### GDI: Step 3
+**Step 3**
 
 ![Import GDI Step 3](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Import/GDI03.png "[Import GDI Step 3]")
 
@@ -375,8 +373,7 @@ The import definitions can be defined or edited by clicking the [Edit] button to
 
 *Accounting > Extras > Tab IMPORT > Button openTRANS*
 
-
-### openTRANS: Step 1
+**Step 1**
 
 ![Import openTRANS Step 1](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Import/Opentrans.png "[Import openTRANS Step 1]")
 
@@ -387,11 +384,11 @@ The import definitions can be defined or edited by clicking the [Edit] button to
     - ![Radio button](../../Assets/Icons/RadioButtonChecked.png "[Radio button]") *Local file*  
         Select this radio button to select a local file from your device to be uploaded. The [Choose file] button is displayed in the box.
         - [Choose file]  
-            Click this button to select a file from your device to be uploaded. If no file has been selected yet, the notice *No file chosen* is displayed o the right of the button.
+            Click this button to select a file from your device to be uploaded. If no file has been selected yet, the notice *No file chosen* is displayed to the right of the button.
     - ![Radio button](../../Assets/Icons/RadioButtonChecked.png "[Radio button]") *DMS*  
         Select this radio button to select a file in the *Documents* module to be uploaded. A search bar and the [SEARCH] button are displayed in the box. This radio button is only displayed when the *Documents* module is installed.
         - Search field   
-            Enter the file path of the file to be uploaded. It is recommended to use the [SEARCH] button to select a file. The file path is automatically entered in the field.
+            Enter the path of the file to be uploaded. It is recommended to use the [SEARCH] button to select a file. The file path is automatically entered in the field.
         - [SEARCH]  
             Click this button to search for a file to be uploaded. The *Select file* window is displayed, see [Select file](#select-file).
 
@@ -402,22 +399,9 @@ The import definitions can be defined or edited by clicking the [Edit] button to
     Enter the creditor/supplier number.  
 
 - [CONTINUE]  
-    Click this button to proceed to the next step. This button is locked until at least one file has been uploaded. The *Converted* confirmation window is displayed. Click the [OK] button to continue. The *openTRANS: Step 2* window is displayed. 
+    Click this button to proceed to the next step. This button is locked until a file has been uploaded. The *Converted* confirmation window is displayed. Click the [OK] button to continue and follow the on-screen instructions to complete the import process.
 
-
-### openTRANS: Step 2
-
-![Import openTRANS Step 2](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Import/Opentrans02.png "[Import openTRANS Step 2]")
-
-**Log file**  
-
-- [VIEW]  
-    Click this button to display the import log file. The log file is displayed in a new window.
-
-- [CONTINUE]  
-    Click this button to proceed to the next step. The *Please click Finalize to import the file* confirmation window is displayed. Click the [OK] button to continue and follow the on-screen instructions to complete the import process.
-
-    > [Info]  If you need further assistance, contact your MPS consultant.
+    > [Info] If you need further assistance, contact your MPS consultant. 
 
 
 
@@ -425,8 +409,7 @@ The import definitions can be defined or edited by clicking the [Edit] button to
 
 *Accounting > Extras > Tab IMPORT > Button Schilling Accounting*
 
-
-### Schilling Accounting: Step 1
+**Step 1**
 
 ![Import Schilling Step 1](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Import/Schilling.png "[Import Schilling Step 1]")
 
@@ -437,11 +420,11 @@ The import definitions can be defined or edited by clicking the [Edit] button to
     - ![Radio button](../../Assets/Icons/RadioButtonChecked.png "[Radio button]") *Local file*  
         Select this radio button to select a local file from your device to be uploaded. The [Choose file] button is displayed in the box.
         - [Choose file]  
-            Click this button to select a file from your device to be uploaded. If no file has been selected yet, the notice *No file chosen* is displayed o the right of the button.
+            Click this button to select a file from your device to be uploaded. If no file has been selected yet, the notice *No file chosen* is displayed to the right of the button.
     - ![Radio button](../../Assets/Icons/RadioButtonChecked.png "[Radio button]") *DMS*  
         Select this radio button to select a file in the *Documents* module to be uploaded. A search bar and the [SEARCH] button are displayed in the box. This radio button is only displayed when the *Documents* module is installed.
         - Search field   
-            Enter the file path of the file to be uploaded. It is recommended to use the [SEARCH] button to select a file. The file path is automatically entered in the field.
+            Enter the path of the file to be uploaded. It is recommended to use the [SEARCH] button to select a file. The file path is automatically entered in the field.
         - [SEARCH]  
             Click this button to search for a file to be uploaded. The *Select file* window is displayed, see [Select file](#select-file).
 
@@ -449,7 +432,7 @@ The import definitions can be defined or edited by clicking the [Edit] button to
     Click this button to upload the selected file. The *Files accepted!* confirmation window is displayed. Click the [OK] button to continue. The selected file is uploaded and the button is locked until the import is completed.
 
 - [CONTINUE]  
-    Click this button to proceed to the next step. This button is locked until at least one file has been uploaded. The *Converted* confirmation window is displayed. Click the [OK] button to continue and follow the on-screen instructions to complete the import process.
+    Click this button to proceed to the next step. This button is locked until a file has been uploaded. The *Converted* confirmation window is displayed. Click the [OK] button to continue and follow the on-screen instructions to complete the import process.
 
     > [Info]  If you need further assistance, contact your MPS consultant.
 

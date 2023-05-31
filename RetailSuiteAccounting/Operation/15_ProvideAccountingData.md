@@ -14,7 +14,7 @@ Exporting data may be necessary to perform an external audit, create a balance s
 
 ## Export the data for DATEV
 
-Accounting data can be exported into a DATEV CSV compatible file to be later imported in DATEV software for further processing.  
+Accounting data can be exported into a DATEV CSV-compatible file to be later imported in DATEV software for further processing.  
 
 #### Prerequisites
 

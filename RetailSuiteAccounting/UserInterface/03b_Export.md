@@ -23,8 +23,8 @@ The following export options are displayed in the tab:
         Click this button to export data in CSV format. The *CSV* window is displayed, see [CSV](#csv).
 - *Export of data in DATEV CSV format*  
     - [DATEV CSV]  
-        Click this button to export data in DATEV compatible CSV format. The *DATEV CSV* window is displayed, see [DATEV CSV](#datev-csv) .   
-        For detailed information about exporting data in DATEV compatible CSV format, see [Export the data for DATEV](../Operation/15_ProvideAccountingData.md#export-the-data-for-DATEV).
+        Click this button to export data in DATEV-compatible CSV format. The *DATEV CSV* window is displayed, see [DATEV CSV](#datev-csv).   
+        For detailed information about exporting data in DATEV-compatible CSV format, see [Export the data for DATEV](../Operation/15_ProvideAccountingData.md#export-the-data-for-DATEV).
 
 - *Export of data in GDI standard interface format*  
     - [GDI]  
@@ -32,7 +32,7 @@ The following export options are displayed in the tab:
 
 - *Export of data in GDPdU format*  
     - [GDPDU EXPORT]  
-        Click this button to export data in GDPdU-compliant audit file format. The *GDPDU export* window is displayed, see [GDPDU export](#gdpdu-export) .   
+        Click this button to export data in GDPdU-compliant audit file format. The *GDPDU export* window is displayed, see [GDPDU export](#gdpdu-export).   
         For detailed information about exporting data in GDPdU-compliant audit file format, see [Export the data GDPdU-compliant](../Operation/15_ProvideAccountingData.md#export-the-data-GDPdU-compliant).
 
 - *Export of open items*  
@@ -41,23 +41,23 @@ The following export options are displayed in the tab:
 
 - *Export of balance list in CSV format*  
     - [BALANCE LIST]  
-        Click this button to export balance list in CSV format. The *Balance list* window is displayed, see [Balance list](#balance-list).
+        Click this button to export a balance list in CSV format. The *Balance list* window is displayed, see [Balance list](#balance-list).
 
 - *Compeso SALDEN.DAT*  
     - [SALDEN.DAT]  
-        Click this button to export data in Compeso SALDEN.DAT proprietary format. The *SALDEN.DAT* window is displayed,see [SALDEN.DAT](#saldendat).
+        Click this button to export data in Compeso SALDEN.DAT proprietary format. The *SALDEN.DAT* window is displayed, see [SALDEN.DAT](#saldendat).
 
 - *Export postings for SAP*  
     - [SAP]  
-        Click this button to export data in SAP compatible format. The *SAP* window is displayed, see [SAP](#sap).
+        Click this button to export data in SAP-compatible format. The *SAP* window is displayed, see [SAP](#sap).
 
 - *Varial balances*  
     - [VARIAL]  
-        Click this button to export data in VARIAL compatible format. The *Varial* window is displayed, see [Varial](#varial).
+        Click this button to export data in VARIAL-compatible format. The *Varial* window is displayed, see [Varial](#varial).
 
 - *Export of balance list in CSV format (Zahlwerk)*
     - [ZAHLWERK]  
-        Click this button to export balance list in Zahlwerk compatible CSV format. The *Zahlwerk* window is displayed, see [Zahlwerk](#zahlwerk).
+        Click this button to export a balance list in Zahlwerk-compatible CSV format. The *Zahlwerk* window is displayed, see [Zahlwerk](#zahlwerk).
 
 
 
@@ -83,9 +83,10 @@ The following export options are displayed in the tab:
 - [Edit]  
     Click this button to edit the tax mapping. The *BMD tax mapping* window is displayed, see [BMD tax mapping](#bmd-tax-mapping).
 
-
 - [CONTINUE]  
-    Click this button to proceed to the next step. The *BMD: Step 2* window is displayed. The *Export...* notice is displayed during the export process.
+    Click this button to continue and follow the on-screen instructions to complete the export. As soon as the export is completed, the *Exported without error.* confirmation window is displayed. Click the [OK] button to continue. The exported file(s) are displayed. Click a file name to download the corresponding file. By default, the downloaded exported file is saved in the *Downloads* folder of your device.
+
+    > [Info] If you need further assistance, contact your MPS consultant.
 
 
 ### BMD tax mapping
@@ -203,7 +204,9 @@ The list displays all available BMD tax mappings. Depending on the settings, the
         Enter the end account number or use the increase/decrease arrows.
 
 - [CONTINUE]  
-    Click this button to proceed to the next step. The *CSV: Step 2* window is displayed. The *Export...* notice is displayed during the export process.
+    Click this button to continue and follow the on-screen instructions to complete the export. As soon as the export is completed, the *Exported without error* confirmation window is displayed. Click the [OK] button to continue. The exported file(s) are displayed. Click a file name to download the corresponding file. By default, the downloaded exported file is saved in the *Downloads* folder of your device.
+
+    > [Info] If you need further assistance, contact your MPS consultant.
 
 
 
@@ -293,7 +296,9 @@ The list displays all available BMD tax mappings. Depending on the settings, the
     Enter the DATEV client number.
 
 - [CONTINUE]  
-    Click this button to proceed to the next step. The *DATEV CSV: Step 2* window is displayed. The *Export...* notice is displayed during the export process.
+    Click this button to continue and follow the on-screen instructions to complete the export. As soon as the export is completed, the *Exported without error* confirmation window is displayed. Click the [OK] button to continue. The exported file(s) are displayed. Click a file name to download the corresponding file. By default, the downloaded exported file is saved in the *Downloads* folder of your device.
+
+    > [Info] If you need further assistance, contact your MPS consultant.
 
 
 
@@ -325,7 +330,9 @@ The list displays all available BMD tax mappings. Depending on the settings, the
     - **No**
 
 - [CONTINUE]  
-    Click this button to proceed to the next step. The *GDI: Step 2* window is displayed. The *Export...* notice is displayed during the export process.
+    Click this button to continue and follow the on-screen instructions to complete the export. As soon as the export is completed, the *Exported without error* confirmation window is displayed. Click the [OK] button to continue. The exported file(s) are displayed. Click a file name to download the corresponding file. By default, the downloaded exported file is saved in the *Downloads* folder of your device.
+
+    > [Info] If you need further assistance, contact your MPS consultant.
 
 
 
@@ -369,7 +376,9 @@ The list displays all available BMD tax mappings. Depending on the settings, the
     Enter the DATEV client number.
 
 - [CONTINUE]  
-    Click this button to proceed to the next step. The *GDPdU export: Step 2* window is displayed. The *Export...* notice is displayed during the export process.
+    Click this button to continue and follow the on-screen instructions to complete the export. As soon as the export is completed, the *Exported without error* confirmation window is displayed. Click the [OK] button to continue. The exported file(s) are displayed. Click a file name to download the corresponding file. By default, the downloaded exported file is saved in the *Downloads* folder of your device.
+
+    > [Info] If you need further assistance, contact your MPS consultant.
 
 
 
@@ -417,7 +426,9 @@ The list displays all available BMD tax mappings. Depending on the settings, the
     Click this button to edit the selected export definition or to create a new one. The *Import/export definitions* window is displayed, see [Import/export definitions](#import/export-definitions).
 
 - [CONTINUE]  
-    Click this button to proceed to the next step. The *Open items: Step 2* window is displayed. The *Export...* notice is displayed during the export process.
+    Click this button to continue and follow the on-screen instructions to complete the export. As soon as the export is completed, the *Exported without error* confirmation window is displayed. Click the [OK] button to continue. The exported file(s) are displayed. Click a file name to download the corresponding file. By default, the downloaded exported file is saved in the *Downloads* folder of your device.
+
+    > [Info] If you need further assistance, contact your MPS consultant.
 
 
 
@@ -452,7 +463,9 @@ The list displays all available BMD tax mappings. Depending on the settings, the
     Enter the end account number for the account range to be exported. This field is only displayed when the **Custom** option is selected in the *Accounts* drop-down list.
 
 - [CONTINUE]  
-    Click this button to proceed to the next step. The *Balance list: Step 2* window is displayed. The *Export...* notice is displayed during the export process.
+    Click this button to continue and follow the on-screen instructions to complete the export. As soon as the export is completed, the *Exported without error* confirmation window is displayed. Click the [OK] button to continue. The exported file(s) are displayed. Click a file name to download the corresponding file. By default, the downloaded exported file is saved in the *Downloads* folder of your device.
+
+    > [Info] If you need further assistance, contact your MPS consultant.
 
 
 
@@ -484,7 +497,9 @@ The list displays all available BMD tax mappings. Depending on the settings, the
     - **No**
 
 - [CONTINUE]  
-    Click this button to proceed to the next step. The *SALDEN.DAT: Step 2* window is displayed. The *Export...* notice is displayed during the export process.
+    Click this button to continue and follow the on-screen instructions to complete the export. As soon as the export is completed, the *Exported without error* confirmation window is displayed. Click the [OK] button to continue. The exported file(s) are displayed. Click a file name to download the corresponding file. By default, the downloaded exported file is saved in the *Downloads* folder of your device.
+
+    > [Info] If you need further assistance, contact your MPS consultant.
 
 
 
@@ -520,7 +535,9 @@ The list displays all available BMD tax mappings. Depending on the settings, the
     Enter an end creation date for the postings to be exported. The valid date format is *DD.MM.YYYY*.
 
 - [CONTINUE]  
-    Click this button to proceed to the next step. The *SAP: Step 2* window is displayed. The *Export...* notice is displayed during the export process.
+    Click this button to continue and follow the on-screen instructions to complete the export. As soon as the export is completed, the *Exported without error* confirmation window is displayed. Click the [OK] button to continue. The exported file(s) are displayed. Click a file name to download the corresponding file. By default, the downloaded exported file is saved in the *Downloads* folder of your device.
+
+    > [Info] If you need further assistance, contact your MPS consultant.
 
 
 
@@ -550,7 +567,9 @@ The list displays all available BMD tax mappings. Depending on the settings, the
     Enter a file suffix. Only numbers are allowed.
 
 - [CONTINUE]  
-    Click this button to proceed to the next step. The *Varial: Step 2* window is displayed. The *Export...* notice is displayed during the export process.
+    Click this button to continue and follow the on-screen instructions to complete the export. As soon as the export is completed, the *Exported without error* confirmation window is displayed. Click the [OK] button to continue. The exported file(s) are displayed. Click a file name to download the corresponding file. By default, the downloaded exported file is saved in the *Downloads* folder of your device.
+
+    > [Info] If you need further assistance, contact your MPS consultant.
 
 
 
@@ -585,7 +604,9 @@ The list displays all available BMD tax mappings. Depending on the settings, the
     Enter the end account number for the account range to be exported. This field is only displayed when the **Custom** option is selected in the *Accounts* drop-down list.
 
 - [CONTINUE]  
-    Click this button to proceed to the next step. The *Zahlwerk: Step 2* window is displayed. The *Export...* notice is displayed during the export process.
+    Click this button to continue and follow the on-screen instructions to complete the export. As soon as the export is completed, the *Exported without error* confirmation window is displayed. Click the [OK] button to continue. The exported file(s) are displayed. Click a file name to download the corresponding file. By default, the downloaded exported file is saved in the *Downloads* folder of your device.
+
+    > [Info] If you need further assistance, contact your MPS consultant.
 
 
 
