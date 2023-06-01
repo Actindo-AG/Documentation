@@ -11,7 +11,7 @@ The *Actindo Core1 Platform* supports your business processes, regardless of the
   
 The *Actindo Core1 Platform* stands for a loose coupling of modules. This is implemented by the following:   
 - Although a common code base is used, the platform is highly customizable with freely selectable modules and plug-ins, which are maintainable. Any component can be replaced for a true best-of-breed approach, but it can also operate as a standalone solution.   
-- You can individually adapt the dynamic data models to the specific needs of your company. You can easily adjust data streams so that you do not only manage data, but also understood it. The platform provides you with consistent data handling as well as established and proven logic on data. This makes possible advanced real-time reporting of any kind.     
+- You can individually adapt the dynamic data models to the specific needs of your company. You can easily adjust data streams so that you do not only manage data, but also understand it. The platform provides you with consistent data handling as well as established and proven logic on data. This makes possible advanced real-time reporting of any kind.     
 - You can manage nearly all needed process steps in one single application. It supports the modelling, maintaining, and visualization of business processes of any complexity. The easily customizable process orchestration determines when and how certain actions are to be executed.   
 
 
