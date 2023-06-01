@@ -36,7 +36,7 @@ You can automate and parallelize the business for high volumes.
 
 Keeping track of all business areas is difficult when different systems and IT solutions are in use. As an overarching digital operations platform, the *Actindo Core1* integrates all the important processes of online commerce. The *DB and reporting* module enables you to provide an overview of various KPIs and statistics from all modules in one place.   
 The *DB and reporting* module is a powerful tool to quickly access, retrieve, and manage all data contained in your system. You can individually configure the data output in different formats. You will no longer need to collect data coming from different data silos.    
-For example, you can use a dashboard enabled by a Grafana&trade; integration. At a glance, it gives system administrators an overview on the system health, alerts, or the number of error messages. By visualization of time series data, it shows a sales representative the top sellers, the number of orders, or incoming orders after marketing activities.
+Optionally, you can use a dashboard enabled by a Grafana&trade; integration. At a glance, it gives system administrators an overview on the system health, alerts, or the number of error messages. By visualization of time series data, it shows a sales representative the top sellers, the number of orders, or incoming orders after marketing activities.
 
 <!----Hier vielleicht ein Bild von grafana einfügen?-->
 
