@@ -3,7 +3,7 @@
 The *Actindo Core1 Platform* supports the business of companies in wholesale and retail, the sale via marketplaces or social commerce, regardless of the current starting point of your company.
 
 
-## ERP system is in use
+## ERP system in use
 
 You company uses an existing ERP system. The *Actindo Core1 Platform* provides complete software for linking existing and legacy IT systems with modern markets in the B2C (business-to-consumer) and B2B (business-to-business) sectors.   
 The average age of running ERP solutions are about 12 years. This means in most cases that you are not able to quickly follow new evolutions in e-commerce with your legacy ERP system. Changing of processes and data models are then extremely time-consuming and expensive. Additionally, changes may be risky and can have a bad impact on business transactions that are stable.   
