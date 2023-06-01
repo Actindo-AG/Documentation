@@ -20,7 +20,7 @@ You can customize your individual data fields and sources for each process and "
 
 ## Process orchestration
 
-The Actindo process orchestration allows you to design, control, map, and monitor your business processes. Based on your special and individual business rules, your company's processes and data can be mapped and made available however and whenever you want. You can use the Actindo *Workflow* module to easily adapt and automate your processes in a graphical way and almost without any code needed.  
+The Actindo process orchestration allows you to design, control, map, and monitor your business processes. Based on your special and individual business rules, your company's processes and data can be mapped and made available however and whenever you want. You can use the Actindo *Workflows* module to easily adapt and automate your processes in a graphical way and almost without any code needed.  
 You can model any kind of complex processes and visualize them where they are executed. By doing this, you know the past, future, and present of any entity.
 You can automate and parallelize the business for high volumes.
 
