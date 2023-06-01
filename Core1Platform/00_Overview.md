@@ -5,7 +5,7 @@ In this part of the *Actindo Core1 Platform* documentation you will find the fol
 - [General information](./01_General.md)  
 - [Fields of applications](./01a_FieldsOfApplicaton.md)   
      - [ERP system in use](./01a_FieldsOfApplicaton.md#erp-system-in-use)   
-     - [Outdated and unsustainable ERP system is in use](./01a_FieldsOfApplicaton.md#outdated-and-unsustainable-erp-system-in-use)  
+     - [Outdated and unsustainable ERP system in use](./01a_FieldsOfApplicaton.md#outdated-and-unsustainable-erp-system-in-use)  
      - [Young start-up](./01a_FieldsOfApplicaton.md#young-start-up)   
      - [Conclusion](./01a_FieldsOfApplicaton.md#conclusion)   
 - [Core capabilities](./02_CoreCapabilities.md)      
