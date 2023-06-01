@@ -29,7 +29,7 @@ The wide range of classic ERP features helps to digitize, automate, and optimize
  - Implement and monitor your e-commerce processes.   
  - Get, transform, and transfer data from service providers, shops, and fulfillment providers.   
  - Reporting on products, individual KPIs, and statistics.    
-- And much more...
+ - And much more...
 
 
 ## Conclusion
