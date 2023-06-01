@@ -5,7 +5,7 @@ The platform brings together a high degree of automation and process integration
 From product data, purchasing, and inventory to customer management, monitoring and reporting, everything is made available centrally in one place. 
 
 The *Actindo Core1 Platform* supports your business processes, regardless of the field of application you need a solution for:
-- You have an existing legacy system in use and want to switch from B2B (business-to-consumer) to D2C (direct-to-consumer).
+- You have an existing legacy system in use and want to switch from B2C (business-to-consumer) to D2C (direct-to-consumer).
 - You want to replace an outdated and inflexible IT infrastructure.
 - You are a young start-up which wants a seamless transition to be ready for further growth.   
   
