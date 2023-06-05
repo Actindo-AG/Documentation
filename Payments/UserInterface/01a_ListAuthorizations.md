@@ -2,6 +2,8 @@
 
 # LIST (Authorizations)
 
+*Payments > Authorizations > Tab LIST*
+
 ![LIST (Authorizations)](../../Assets/Screenshots/Payments/Authorizations/LISTAuthorizations.png "[LIST (Authorizations)]")
 
 **Authorizations**
