@@ -60,6 +60,26 @@
 
 
 The list displays all confirmation transactions. Depending on the payment service provider, the displayed columns vary. All fields are read-only. The following standard columns are available.   
+- - *ID*   
+   Unique identifier of the transaction.   
+- *Status ID*   
+   Identifier for the status. The following status ID is available, each prefixed by the ID in the list below:
+     - **2 - Confirmation required**   
+        A refund is reserved but not yet released by an Actindo user.      
+- *Status*
+   Status text of the confirmation transaction.
+- *Connection ID*   
+   Name of the connection.    
+- *Created At*   
+   Date and time, on which the payment service provider has created the authorization transaction. <!---Stimmt das? Oder das Payment?-->
+- *Modified At*   
+   Date and time, on which the payment service provider has modified authorization transaction.
+- *Currency*   
+   Currency in which the payment will be posted.   
+- *Amount*   
+   Invoice amount of the payment in the currency in which the payment will be posted.   
+- *Reference*  
+   <!---???-->
 - *Name*   
    Full name <!---oder nur Vorname?--> of the person who has made the payment.
 - *Surname*   
@@ -73,9 +93,12 @@ The list displays all confirmation transactions. Depending on the payment servic
 - *City*   
    City of the address. 
 - *State*   
-   State of the address.
+   If applicable, state of the address.<!----state oder country--->
 - *Country*   
-   If applicable, country of the address.
+   If applicable, country of the address.   
+- *Payment Method*   
+- *Status Information*
+- *Internal Reference*   
 - *Due Date*   
    Date on which the repayment must be made at the latest.<!---Stimmt das?-->   
 
@@ -92,11 +115,16 @@ In the left margin column, all available attribute groups are displayed. Click a
       This folder contains attributes that are specific for the payment service provider.
     - *Outgoing Payment Base Data*   
       This folder contains general fields that Actindo needs to query payments data. These data support standard functions of Actindo. See the description of the fields above.
+    - *Unassigned Group*   
+      This folder contains attributes that are not assigned the other groups.
 
 - ![Folder](../../Assets/Icons/Folder01.png "[Folder]") (Folder)  
     Attribute group. Click the attribute group to display all attributes that are assigned to the selected attribute group on the right side of the *Attributes* tab.
 
-The right side of the *Attributes* tab displays all attributes that are assigned to the selected group in the left margin column. Depending on the selected attribute group, the displayed fields may vary. The attributes are imported by the payment service provider driver. All fields are read-only.  
+The right side of the *Attributes* tab displays all attributes that are assigned to the selected group in the left margin column. Depending on the selected attribute group, the displayed fields may vary. The attributes are imported by the payment service provider driver. All fields are read-only.   
+
+- ![Collapse/Expand](../../Assets/Icons/CollapseExpand01.png "[Collapse/Expand]") (Collapse/Expand)    
+    Click this button to collapse or expand the left margin column with the attribute groups. When the left margin is expanded and you click this button, the column is collapsed. When the column is collapsed and you click this button, the column is expanded. This is available for the *Unassigned Group* folder only.
 
 
 ## Confirmations &ndash; Dependencies
