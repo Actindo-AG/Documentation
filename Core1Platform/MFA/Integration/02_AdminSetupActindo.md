@@ -30,4 +30,4 @@ For the U2F setup of an Actindo account, a user-side setup as well as an adminis
 
     ![Actindo dashboard](../../../Assets/Screenshots/ActindoDashboard/ActindoDashboard.png "[Actindo dashboard]")
 
-> [Info] You can repeat this procedure for all users for whom you want to activate U2F. Note that the U2F login needs also to be setup by the corresponding user to be used for the Actindo U2F login.
+> [Info] You can repeat this procedure for all users for whom you want to activate U2F. Note that the U2F login needs also to be set up by the corresponding user to be used for the Actindo U2F login.

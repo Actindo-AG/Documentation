@@ -14,11 +14,11 @@ For the U2F setup of an Actindo account, a user-side setup as well as an adminis
 
 *Login Actindo*
 
-![Login user name](../../../Assets/Screenshots/Core1Platform/LoginUserName.png "[Login user name]")
+![Login username](../../../Assets/Screenshots/Core1Platform/LoginUserName.png "[Login username]")
 
-> [Info] For the user-side setup, you can log in to both, a live account or a sandbox of the Core1 Platform.
+> [Info] For the user-side setup, you can log in to both a live account and a sandbox of the Core1 Platform.
 
-1. Enter your user name in the *User name* field and click the [LOGIN] button.   
+1. Enter your username in the *Username* field and click the [LOGIN] button.   
     The *Password* field is displayed.
 
     ![Login password](../../../Assets/Screenshots/Core1Platform/LoginPassword.png "[Login password]")
@@ -54,7 +54,7 @@ For the U2F setup of an Actindo account, a user-side setup as well as an adminis
     ![Verify your identity](../../../Assets/Screenshots/Core1Platform/ProfileSettings/U2F/VerifyIdentity.png "[Verify your identity]")
 
 8. Select the *USB security key* option in the browser window.   
-    The browser window changes to the *Use your security key* window and prompts to insert the key and touch it.
+    The browser window changes to the *Use your security key* window and prompts you to insert the key and touch it.
 
     ![Use security key](../../../Assets/Screenshots/Core1Platform/ProfileSettings/U2F/UseSecurityKey.png "[Use security key]")
 

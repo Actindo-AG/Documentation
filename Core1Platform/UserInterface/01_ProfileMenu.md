@@ -25,7 +25,7 @@
     Click this button to cancel the logout procedure. The *Really log out?* window is closed and the workspace is displayed again.
 
 - [LOGOUT]   
-    Click this button to confirm the logout procedure from the account. You are logged out from the account. The *Really log out?* window is closed and the Actindo login box is displayed again.
+    Click this button to confirm the logout procedure. You are logged out from the account. The *Really log out?* window is closed and the Actindo login box is displayed again.
 
 
 

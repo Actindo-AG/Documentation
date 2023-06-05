@@ -10,5 +10,3 @@ Authenticate easily and securely:
 - Convenient authentication with just a few steps     
     The authentication code is created via USB between the *YubiKey* and your device without further manual input steps.
 
-- Make it simple
-    The *MFA* can be perfectly combined with *Single Sign-On (SSO)*. This makes the login process not only more secure, but as simple as possible. For detailed information about *SSO*, see [SSO](../../SSO/Overview/01_General.md).
