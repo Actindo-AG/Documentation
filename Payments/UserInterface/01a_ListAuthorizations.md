@@ -42,11 +42,13 @@
         Select this option to display authorization transactions for all configured connections. 
     - **Connection name**  
         Select this option to display authorization transactions for the selected connection. When a specific connection has been selected, the **All connections** option is no longer displayed. Click the selected connection again to deselect it.  
+
 - [x]     
     Select the checkbox to the left of one list entry to display the editing toolbar for this single entry.   
     If you click the checkbox in the header, all entries in the list are selected. The editing toolbar shows all actions you can perform on several entries.
+
 - ![Search](../../Assets/Icons/Search.png "[Search]") (Search)   
-    Click this button to display the search bar and search for entries.
+    Click this button to display the search bar and search for authorization transactions.
 
 - ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh)   
     Click this button to update the entries.
@@ -91,7 +93,7 @@ The right side of the *Attributes* tab displays all attributes that are assigned
 
 
 ## Authorizations &ndash; Dependencies
-*Payments > Menu entry > Tab LIST > Select an authorization ticket > Tab Dependencies*
+*Payments > Authorizations > Tab LIST > Select an authorization ticket > Tab Dependencies*
 
 ![Dependencies](../../Assets/Screenshots/Payments/Authorizations/AuthorizationDependencies.png "[Dependencies]")   
 
