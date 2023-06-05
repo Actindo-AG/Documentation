@@ -14,7 +14,7 @@ After U2F has been configured for your Actindo account, you will use U2F from yo
 
 *Login Actindo*
 
-![Login username](../../../Assets/Screenshots/Core1Platform/LoginUsername.png "[Login username]")
+![Login username](../../../Assets/Screenshots/Core1Platform/LoginUserName.png "[Login username]")
 
 1. Enter your username in the *Username* field and click the [LOGIN] button.   
     The *Password* field is displayed.
