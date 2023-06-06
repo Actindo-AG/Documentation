@@ -98,7 +98,7 @@ The list displays all available connections. Depending on the settings, the disp
 - *Driver*  
     Click the drop-down list and select the desired driver. All installed drivers are displayed. 
 
-    > [Info] Drivers are licensed and must be acquired via the app store or the corresponding service payment partner. The applicable driver credentials to establish the connection are obtained when acquiring the corresponding license. For detailed information, see [Create a connection](../Integration/01_EstablishConnection.md#create-a-psp-connection.)
+    > [Info] Drivers are licensed and must be acquired via the app store or the corresponding service payment partner. The applicable driver credentials to establish the connection are obtained when acquiring the corresponding license. For detailed information, see [Create a connection](../Integration/01_EstablishConnection.md#create-a-psp-connection.).
 
 **Credentials**
 
