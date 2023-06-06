@@ -19,7 +19,7 @@
     Enter your current password.
 
 - *New password*   
-    Enter the new password. The password strength is displayed by a bar below the *New password* field. The password strength is displayed by both, the length of the bar and its color.
+    Enter the new password. The password strength is displayed by a bar below the *New password* field. The password strength is displayed by both the length of the bar and its color.
 
 - *Confirm password*   
     Enter the new password again to confirm it.

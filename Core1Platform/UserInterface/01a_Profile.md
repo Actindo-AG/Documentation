@@ -9,7 +9,7 @@
 **Edit user**
 
 - [SAVE]   
-    Click this button to save any changes. The notice *Submitting data..* is displayed. When the changes are saved, the *User saved* pop-up window is displayed.
+    Click this button to save any changes. The notice *Submitting data...* is displayed. When the changes are saved, the *User saved* pop-up window is displayed.
 
     ![User saved](../../Assets/Screenshots/Core1Platform/ProfileSettings/Profile/UserSaved.png "[User saved]")
 

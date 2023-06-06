@@ -8,7 +8,6 @@
 
 > [Info] This tab is for developers only. If you are not a developer, do not make any changes.
 
-
 - ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh)   
     Click this button to update the list of SSH keys.
 
