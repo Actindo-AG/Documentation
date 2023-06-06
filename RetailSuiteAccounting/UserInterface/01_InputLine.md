@@ -144,6 +144,10 @@ The function buttons in the footer allow to manage the postings manually.
 
 ![Split posting window](../../Assets/Screenshots/RetailSuiteAccounting/Book/Bookings/SplitBooking01.png "[Split posting window]")
 
+> [Info] This window can also be accessed via the following entries of the *EDIT* context menu in the postings header:
+- [Cash book takeover](./01_Header.md#cash-book-takeover)
+- [Bank data takeover](./01_Header.md#bank-data-takeover)
+
 **Postings list**
 
 The list displays the selected posting and all partial postings. All fields are read-only.

@@ -383,7 +383,7 @@ The transactions can also be processed manually. Click a transaction in the list
     Date and time of last data retrieval/import.
 
 - [LEARN FILE]  
-    Click this button to add ... The *Learn file* window is displayed, see [Learn file](#learn-file). 
+    Click this button to open the learn file. The *Learn file* window is displayed, see [Learn file](#learn-file). 
 
 - [CANCEL]  
     Click this button to cancel retrieving the bank data All changes are rejected. The *Bank data synchronizing* window is closed. 
