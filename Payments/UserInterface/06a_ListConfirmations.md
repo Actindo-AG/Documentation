@@ -3,6 +3,8 @@
 
 # LIST (Confirmations)
 
+*Payments > Authorizations > Tab LIST*
+
 ![LIST (Confirmations)](../../Assets/Screenshots/Payments/Confirmations/LISTConfirmations.png "[LIST (Confirmations)]")
 
 **Confirmations**
@@ -106,7 +108,7 @@ The list displays all confirmation transactions. Depending on the payment servic
 
 ## Confirmations &ndash; Attributes
 
-![Confirmations &ndash; Attributes](../../Assets/Screenshots/Payments/Confirmations/AttributesConfirmation.png "[Confirmations &ndash; Attributes]")
+![Attributes](../../Assets/Screenshots/Payments/Confirmations/AttributesConfirmation.png "[Attributes]")
 In the left margin column, all available attribute groups are displayed. Click a group to display the attributes that are assigned to this group on the right side of the *Attributes* tab. 
 
 - ![Folders](../../Assets/Icons/Folders01.png "[Folders]") (Folders)  
@@ -129,10 +131,11 @@ The right side of the *Attributes* tab displays all attributes that are assigned
 
 ## Confirmations &ndash; Dependencies
 
-![Confirmations &ndash; Dependencies](../../Assets/Screenshots/Payments/Confirmations/DependenciesConfirmation.png "[Confirmations &ndash; Dependencies]")
+![Dependencies](../../Assets/Screenshots/Payments/Confirmations/DependenciesConfirmation.png "[Dependencies]")
 
 Since a confirmation ticket has no dependencies to other entities in Actindo by default, this sub-tab is not relevant.
 
+<!---Marina, hier gibt es keine Logs-->
 
 ## Create view
 *Payments > Confirmations > Tab LIST > Button Points > Menu entry create*

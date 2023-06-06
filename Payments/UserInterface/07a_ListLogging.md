@@ -1,4 +1,5 @@
 # LIST (Logging)
+
 *Payments > Logging > Tab LIST*
 
 ![List of intents](../../Assets/Screenshots/Payments/Logging/LISTIntents.png "[List of intents]")
@@ -44,12 +45,10 @@
 - ![Columns](../../Assets/Icons/Columns.png "[Columns]") Columns (x)   
     Click this button to display the columns bar and customize the displayed columns and the order of columns in the list. The *x* indicates the number of columns that are currently displayed in the list.
 
-- ![Filter](../../Assets/Icons/Filter.png "[Filter]") Filter (x)   
-    Click this button to display the filter bar and customize the active filters. The *x* indicates the number of filters that are currently active.
+- ![Filter](../../Assets/Icons/Filter.png "[Filter]") Filter (x)
+    Click this button to display the filter bar and customize the active filters. The *x* indicates the number of filters that are currently active.-->
 
- 
-
-The list displays all intents. Depending on the settings, the displayed columns may vary. All fields are read-only.
+ The list displays all intents. Depending on the settings, the displayed columns may vary. All fields are read-only.
 
 - *Name*  
     Description of the intent.
@@ -118,13 +117,14 @@ The list displays all log messages of the selected intent. Depending on the sett
     Date and time of the creation.
 
 - *Created by*  
-    Name and username of the user that initiated the action leading to the log message. If the log message was created automatically by the system, this field is empty. 
+    Name and username of the user who has initiated the action leading to the log message. If the log message was created automatically by the system, this field is empty. 
 
 - *Message*  
     Detailed log message to the intent.
 
 - *ID*  
     Log message identification number. The ID number is automatically assigned by the system.
+
 
 
 ### Detail of log message
@@ -143,11 +143,12 @@ The list displays all log messages of the selected intent. Depending on the sett
     Description of the log message.
 
 
+
 ### Detail of log message &ndash; Attributes
 
 *Payments > Logging > Tab CONNECTIONS > Select an intent > Select a log message > Tab Attributes*
 
-![Detail Log Message Attributes](../../Assets/Screenshots/Payments/Logging/DetailLogMessageAttributes.png "[Detail Log Message Attributes]")
+![Detail log message &ndash; Attributes](../../Assets/Screenshots/Payments/Logging/DetailLogMessageAttributes.png "[Detail Log Message &ndash; Attributes]")
 
 The *Attributes* tab displays further details of the selected log message. Depending on the attribute set of the log message, the displayed fields vary. All fields are read-only.
 
@@ -191,13 +192,16 @@ In general, the most common attribute sets are the standard error log message at
     Description of the error. An exception is only displayed if an error has occurred and a http status code of the **4xx** class, for instance a **404** code has been returned.
 
 
-### Detail of log message &ndash; Dependencies
 
-*Payments > Logging > Tab CONNECTIONS > Select an intent > Select a log message > Tab Dependencies*
+### Detail of log message &ndash; Dependencies   
 
-![Detailed log message &ndash; Attributes](../../Assets/Screenshots/Fulfillment/Logging/DetailLogMessageDependencies02.png "[Detailed log message &ndash; Attributes]")
+*Payments > Logging > Tab CONNECTIONS > Select an intent > Select a log message > Tab Dependencies*   
+
+![Detail of log message &ndash; Dependencies](../../Assets/Screenshots/Payments/Logging/DetailLogMessageDependenciespng.png "[Detailed of log message &ndash; Dependencies]")
 
 The *Payments* module only handles the communication between the payment service provider and Actindo. For this reason there are in the standard no dependencies to other Actindo entities that could be displayed here.
+
+
 
 ## Create view
 

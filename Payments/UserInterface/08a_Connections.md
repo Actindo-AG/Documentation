@@ -1,8 +1,6 @@
 [!!Establish connections to a payment service provider](../UserInterface/02a_ListPaymentsAndCaptures.md)
 
-
 # CONNECTIONS (Settings)
-
 
 *Payments > Settings > Tab CONNECTIONS*
 

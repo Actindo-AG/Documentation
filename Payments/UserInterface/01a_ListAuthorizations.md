@@ -81,6 +81,7 @@ The list displays all authorization transactions. Depending on the payment servi
 <!----Hallo Stefan, hier sollten alle Standard-Felder mit Erklärungen stehen, ist die Liste vollständig?--->
 - *ID*   
    Unique identifier of the transaction.   
+
 - *Status ID*   
    Identifier for the status. The following statuses are available, each prefixed by the ID in the list below. You can use the *Status ID* to filter and sort the list. 
 -   - **1 - Preparing**  
@@ -98,62 +99,91 @@ The list displays all authorization transactions. Depending on the payment servi
       
 - *Type*   
    Kind of the displayed transaction, in this case an authorization transaction.  
+
 - *Connection ID*   
    Name of the connection.    
+
 - *Created At*   
-   Date and time, on which the payment service provider has created the authorization transaction. <!---Stimmt das? Oder das Payment?-->
+   Date and time, on which the payment service provider has created the authorization transaction. <!---Stimmt das? Oder das Payment?-->   
+
 - *Modified At*   
-   Date and time, on which the payment service provider has modified authorization transaction.
+   Date and time, on which the payment service provider has modified authorization transaction.  
+
 - *Currency*   
-   Currency in which the payment will be posted.   
+   Currency in which the payment will be posted.  
+
 - *Amount*   
-   Invoice amount of the payment in the currency in which the payment will be posted. 
+   Invoice amount of the payment in the currency in which the payment will be posted.   
+
 - *Reference Currency*   
-   <!---???--> 
+   <!---???-->   
+
 - *Reference Amount*   
-   <!---???-->  
+   <!---???-->    
+
 - *Name*   
-  <!---Vorname oder vollständiger Name? --> of the person who has made the payment.
+  <!---Vorname oder vollständiger Name? --> of the person who has made the payment.   
+
 - *Surname*   
-   Last name of the person who has made the payment.
+   Last name of the person who has made the payment.   
+
 - *Company*   
    Name of the company on whose behalf the payment was made.   
+
 - *Address*   
    Street and house number of the address.<!---Straße und Hausnummer? oder konkatenierte Adresse? -->     
+
 -  *Postal Code*   
    Zip code of the address.    
+
 - *City*   
    City of the address.    
+
 - *State*   
    State of the address.    
+
 - *Country*   
    Country of the address.   
+
 - *Charges Amount*   
    Amount of the fee.    
+
 - *Charges Currency*   
    Currency of the fee.      
+
 - *Charges Other*   
    Other fees.     
+
 - *Reference*   
-   <!----????--> 
+   <!----????-->   
+
 - *Intented Use*   
-   asdfa   
+   <!----????-->   
+
 - *Charges Intended Use*   
-   Purpose of the fee.
+   Purpose of the fee.   
+
 - *Booking Date*   
-   Date on which the payment was posted.
+   Date on which the payment was posted.   
+
 - *Due Date*  
-   <!---??-->
+   <!---??-->   
+
 - *Payment Method*   
-   The way of payment that the customer has chosen, for example credit card, PayPal&trade;, direct debit. 
+   The way of payment that the customer has chosen, for example credit card, PayPal&trade;, direct debit.   
+
 - *Status Information*   
    If applicable, specific information on the status of the authorization transaction.  
+
 - *Internal Reference*   
-   Actindo specific reference <!---???-->
+   Actindo specific reference <!---???-->   
+
 - *Original Currency*   
-   Currency in which the product(s) were paid.
+   Currency in which the product(s) were paid.   
+
 - *Original Currency Amount*   
-   Invoice amount in the original currency.
+   Invoice amount in the original currency.   
+
 
 ## Authorizations
 
@@ -161,7 +191,7 @@ The list displays all authorization transactions. Depending on the payment servi
 
 ![Authorization ID](../../Assets/Screenshots/Payments/Authorizations/AuthorizationAttributes.png "[Authorization ID]")
 
-**Authorizations "Authorization ID"**
+**Authorization transaction "Authorization ID"**
 
 - ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)   
     Click this button to close the *Authorization "Authorization ID"* view and return to the list of authorizations. 
@@ -173,7 +203,7 @@ The list displays all authorization transactions. Depending on the payment servi
 *Payments > Authorizations > Tab LIST > Select an authorization transaction > Tab Attributes*   
 
 
-![LIST &ndash; Attributes](../../Assets/Screenshots/Payments/Authorizations/AuthorizationAttributes.png "[LIST &ndash; Attributes]")
+![Attributes](../../Assets/Screenshots/Payments/Authorizations/AuthorizationAttributes.png "[Attributes]")
 
 In the left margin column, all available attribute groups are displayed. Click a group to display the attributes that are assigned to this group on the right side of the *Attributes* tab. If the authorization transaction contains attributes that are not assigned, the *Unassigned group* attribute group is automatically displayed in the left margin column.
 
@@ -195,17 +225,18 @@ The right side of the *Attributes* tab displays all attributes that are assigned
     Click this button to collapse or expand the left margin column with the attribute groups. When the left margin is expanded and you click this button, the column is collapsed. When the column is collapsed and you click this button, the column is expanded. This is available for the *Unassigned Group* folder only.
 
 
-## Authorizations &ndash; Dependencies
+## Authorizations &ndash; Dependencies  
+
 *Payments > Authorizations > Tab LIST > Select an authorization ticket > Tab Dependencies*
 
 ![Dependencies](../../Assets/Screenshots/Payments/Authorizations/AuthorizationDependencies.png "[Dependencies]")   
 
 
-Since an authorization ticket has no dependencies to other entities in Actindo by default, this sub-tab is not relevant.
+Since a authorization transaction has no dependencies to other entities in Actindo by default, this sub-tab is not relevant.
 
 ## Authorizations &ndash; Logs   
 
-*Payments > Menu entry > Tab LIST > Select an entry > Tab Logs*   
+*Payments > Authorization > Tab LIST > Select an entry > Tab Logs*   
 
 ![Logs](../../Assets/Screenshots/Payments/Authorizations/AuthorizationLogs.png "[Logs]")
 
@@ -232,7 +263,7 @@ In contrast to the messages that are provided with the *Logging* menu entry, you
 
 ## Rename view
 
-*Payments > Authorizations > Tab LIST > Button Points > Menu entry rename*
+*Payments > Authorizations > Tab LIST > Button Points > Menu entry "rename"*
 
 ![Rename view](../../Assets/Screenshots/Payments/LIST/RenameView.png "[Rename view]")
 

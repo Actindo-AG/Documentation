@@ -1,7 +1,6 @@
 [!!Connections (Settings)](../UserInterface/08a_Connections.md)
 
-# Establish connections to payment service providers (PSP)
-
+# Establish connections to payment service providers (PSP)   
 
 If you want to establish a new connection to a payment service provider (PSP), you can buy the needed connection in the app store. This is valid except for the Actindo POS driver and if you have not yet bought it with your Actindo maintenance contract.<!---Stefan: Stimmt das?-->   
 The data structure of the connection then provides exactly the data that the PSP needs to exchange data with the Actindo *Payments* module.
@@ -16,11 +15,14 @@ Create a connection to a certain payment provider. As soon you have established 
 
 
 #### Prerequisites
+
 At least one connection has been installed.
 
 
-#### Procedure
+#### Procedure    
+
 *Payments > Settings > Tab CONNECTIONS*   
+
 ![Connections](../../Assets/Screenshots/Payments/Settings/Connections.png "[Connections]")
 1.  Click the ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) button in the bottom right corner.   
     The view for creating a connection is displayed.   

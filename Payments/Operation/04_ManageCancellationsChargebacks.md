@@ -8,7 +8,7 @@ In the context of a payment transaction a chargeback is a retroactive cancellati
 
 You can use this procedure to display all incoming references to cancellations and chargebacks from a payment service provider. You can check for communication errors between Actindo and the payment service provider that has been caused in a termination of a workflow, for example. In addition, if applicable, you can manually change the status of a transaction to *void* to clear the database.    
    
-If everything works fine with the posting of a cancellation and chargeback, you do not need to monitor the *Cancellations and Chargebacks* menu entry.  
+If everything works fine with the posting of a cancellation and chargeback, you do not need to monitor the *Cancellations and chargebacks* menu entry.  
 
 
 ## Check cancellations and chargeback transaction
@@ -24,9 +24,9 @@ A cancellation and chargeback transaction provides numerous payment-related deta
 
 #### Procedure
 
-*Payments > Cancellations and Chargebacks > Tab LIST > Select a cancellation and chargeback transaction*   
+*Payments > Cancellations and chargebacks > Tab LIST > Select a cancellation and chargeback transaction*   
 
-![Cancellations and Chargebacks](../../Assets/Screenshots/Payments/CancellationsChargebacks/LISTCancellationsChargebacks.png "[Cancellation and chargeback transaction]")
+![Cancellations and chargebacks](../../Assets/Screenshots/Payments/CancellationsChargebacks/LISTCancellationsChargebacks.png "[Cancellation and chargeback transaction]")
 
 1. Select the desired view.   
 
@@ -57,7 +57,7 @@ A cancellation and chargeback transaction provides numerous payment-related deta
 2. Click on a transaction to see the details.   
     The sub-tabs of the transaction are opened.   
 
-    ![Cancellations and Chargebacks attributes and logs](../../Assets/Screenshots/Payments/CancellationsChargebacks/CheckCancellationsChargebacks.png "[Cancellations and chargebacks attributes and logs]")
+    ![Cancellations and chargebacks attributes and logs](../../Assets/Screenshots/Payments/CancellationsChargebacks/CheckCancellationsChargebacks.png "[Cancellations and chargebacks attributes and logs]")
 
 
 3. Check the attributes and logs of the transaction. For detailed information, see the following:
@@ -66,7 +66,7 @@ A cancellation and chargeback transaction provides numerous payment-related deta
 4. Return to the LIST and decide how to proceed with the transaction.
 
 
-## Void a cancellation and chargeback transaction
+## Void cancellation and chargeback transaction
 
 You can void a cancellation and chargeback transaction, if you want to disable the transaction for the Actindo database. 
 > [Info] The payment service provider will not be informed about changing the status to "void". It is only done to clear the database.
@@ -77,7 +77,7 @@ The status of a cancellation and chargeback transaction is **not** success. In c
 
 #### Procedure
 
-*Payments > Cancellations and Chargebacks > LIST*   
+*Payments > Cancellations and chargebacks > LIST*   
 
 ![LIST (Cancellations and chargebacks](../../Assets/Screenshots/Payments/CancellationsChargebacks/VoidCancellationsChargebacks.png "[LIST (Cancellations and chargebacks]")
 
