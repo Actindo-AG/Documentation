@@ -64,10 +64,10 @@ The list displays all fixed postings to the selected batch. All fields are read-
 - *Account*  
     Account number.
 
-- *Cost1*  
+- *Cost 1*  
     Cost center number.
 
-- *Cost2*  
+- *Cost 2*  
     Cost object number.
 
 - *Text*  
@@ -109,10 +109,10 @@ The input fields allow to create, edit and delete fixed postings. Click a fixed 
 
     > [Info] After you have entered at least two numbers in the field, a list is displayed below the field with all accounts matching the entry. You can select the corresponding account in the list.
 
-- *Cost1*  
+- *Cost 1*  
     Enter a cost center number.
 
-- *Cost2*  
+- *Cost 2*  
     Enter a cost object number.
 
 - *Text*  

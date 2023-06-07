@@ -2,7 +2,7 @@
 [User interface Cost accounting](./02e_CostAccounting.md)
 [Create a manual posting](../Operation/04_CreateManualBooking.md)
 [Post exchange rate fluctuations](../Operation/12_BookExchangeRateFluctuations.md)
-[Cancel a posting](../Operation/05_CancelBooking.md).
+[Cancel a posting](../Operation/05_CancelBooking.md)
 [Delete postings](../Operation/06_DeleteBookings.md)
 [Split a posting](../Operation/09_SplitBooking.md)
 [Manage receipts](../Operation/10_ManageReceipts.md)
@@ -50,10 +50,10 @@ In all tabs of the *Post* menu entry, an identical footer with the input line is
 - *Account*   
     Enter the appropriate account number, for example a personal account number, that is, customer or supplier number. A valid range for personal account numbers (10000-69999 for customers and 70000-99999 for suppliers) is predefined in the system.
 
-- *COST1*  
+- *Cost 1*  
     Enter the applicable cost center number.  This field is only applicable if at least one cost center has been set up. For detailed information, see [COST ACCOUNTING](./02e_CostAccounting.md).
 
-- *COST2*  
+- *Cost 2*  
     Enter the applicable cost object number. This field is only applicable if at least one cost object has been set up. For detailed information, see [COST ACCOUNTING](./02e_CostAccounting.md).
 
 - *Posting text*  
@@ -119,7 +119,7 @@ The following fields below the input line are filled in automatically when creat
 The function buttons in the footer allow to manage the postings manually.
 
 - [POST]    
-    Click this button to post the transaction entered in the input line, see [Create a manual posting](../Operation/04_CreateManualBooking.md).
+    Click this button to post the transaction entered in the input line. For detailed information, see [Create a manual posting](../Operation/04_CreateManualBooking.md).
 
 - [CANCEL]  
     Click this button to cancel the selected posting. For detailed information, see [Cancel a posting](../Operation/05_CancelBooking.md).
@@ -179,10 +179,10 @@ The list displays the selected posting and all partial postings. All fields are 
 - *Account*  
     Account number, usually a personal account number, that is, a customer or supplier account number.
 
-- *Cost1*  
+- *Cost 1*  
     Number of the selected cost center. This field is only applicable if at least one cost center has been set up. For detailed information, see [COST ACCOUNTING](./02e_CostAccounting.md)
 
-- *Cost2*  
+- *Cost 2*  
     Number of the selected cost object. This field is only applicable if at least one cost object has been set up. For more details, see [COST ACCOUNTING](./02e_CostAccounting.md).
 
 - *Text*  
@@ -220,10 +220,10 @@ The input line allows to split the posting.
 - *Account*  
     Account number. This field cannot be modified.
 
-- *Cost1*  
+- *Cost 1*  
     Enter the applicable cost center number. This field is only applicable if at least one cost center has been set up. For detailed information, see [COST ACCOUNTING](./02e_CostAccounting.md).
 
-- *Cost2*  
+- *Cost 2*  
     Enter the applicable cost object number. This field is only applicable if at least one cost object has been set up. For detailed information, see [COST ACCOUNTING](./02e_CostAccounting.md).
 
 - *Text*  

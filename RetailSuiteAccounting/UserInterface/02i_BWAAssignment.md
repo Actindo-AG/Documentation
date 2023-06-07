@@ -21,7 +21,7 @@
     Select the checkbox to display the editing toolbar.
 
 - ![Edit](../../Assets/Icons/Edit01.png "[Edit]") (Edit)   
-    Click this button to edit the selected accounting report. The *Edit "Report ID"* view is displayed, see [Edit "Report ID"](#edit-report-id).
+    Click this button to edit the selected accounting report. The *Edit "Report ID"* view is displayed, see [Edit "Report ID"](#edit-report).
 
 - ![Copy](../../Assets/Icons/Copy02.png "[Copy]") (Copy)   
     Click this button to copy the selected accounting report. A copy of the selected accounting report is displayed in the list of accounting reports.
@@ -126,7 +126,7 @@ The list displays all available accounting reports. Depending on the settings, t
     Select the checkbox to display the editing toolbar.
 
 - ![Edit](../../Assets/Icons/Edit01.png "[Edit]") (Edit)   
-    Click this button to edit the selected accounting report line. Alternatively, you can click directly a row in the list of accounting report lines. The *Edit "Report line ID"* view is displayed, see [Edit "Report line ID"](#edit-report-line-id).
+    Click this button to edit the selected accounting report line. Alternatively, you can click directly a row in the list of accounting report lines. The *Edit "Report line ID"* view is displayed, see [Edit "Report line ID"](#edit-report-line).
 
 - ![Delete](../../Assets/Icons/Trash03.png "[Delete]") (Delete)   
     Click this button to delete the selected accounting report line.
@@ -233,13 +233,13 @@ If no report line has been yet added, the notice *No report lines created. Use +
 - *Formula*  
     Enter the applicable formula. This field is only unlocked when the **Calculation** option in the *Function* drop-down list is selected. The basic calculating operations (+, -, *, /) are permitted.
 
-    > [Info] For a table including the most usual formulas and functions see [Add report lines to a BWA report](../Integration/07_ManageBWAReports.md#add-report-lines).
+    > [Info] For a table including the most usual formulas and functions, see step 8 of the operational procedure [Add report lines](../Integration/07_ManageBWAReports.md#add-report-lines).
 
 
 **Percent / Columns**
 
 - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") x  
-    Enable the toggle *1* to apply a specific formula in an additional column in the BWA report. This function is used to calculate the percentage of the value expressed in the current line in relation to the overall turnover. The corresponding formula must be defined in the *Formula* field on the right. Disable the toggle to not apply the formula.
+    Enable the toggle *1* to apply a specific formula in an additional column in the BWA report. This function is used to calculate the percentage of the value expressed in the current line in relation to the overall turnover. The corresponding formula must be defined in the *Formula* field on the right. Disable the toggle if you do not want to apply the formula.
 
 - *Formula*  
     Enter the applicable formula for the percentage calculation of the corresponding column. The basic calculating operations (+, -, *, /) are permitted.
@@ -305,7 +305,7 @@ If no report line has been yet added, the notice *No report lines created. Use +
 **Percent / Columns**
 
 - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") x  
-    Enable the toggle *1* to apply a specific formula in an additional column in the BWA report. This function is used to calculate the percentage of the value expressed in the current line in relation to the overall turnover. The corresponding formula must be defined in the *Formula* field on the right. Disable the toggle to not apply the formula.
+    Enable the toggle *1* to apply a specific formula in an additional column in the BWA report. This function is used to calculate the percentage of the value expressed in the current line in relation to the overall turnover. The corresponding formula must be defined in the *Formula* field on the right. Disable the toggle if you do not want to apply the formula.
 
 - *Formula*  
     Click this field to edit the applicable formula for the percentage calculation of the corresponding column. The basic calculating operations (+, -, *, /) are permitted.

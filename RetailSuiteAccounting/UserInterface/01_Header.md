@@ -515,7 +515,7 @@ The transactions can also be processed manually. Click a transaction in the list
 
 **Applicable open items**
 
-- [X ACTIVE FILTERS]
+- [X ACTIVE FILTERS]   
     Click this button to display the filter menu. The *X* displays the number of active filters.  
 
 The list displays the open items found by the system matching the selected search criteria. 
@@ -580,13 +580,13 @@ The list displays the open items found by the system matching the selected searc
 - *Contra account*  
     Debtor/creditor account number.
 
-- *Date*
+- *Date*   
     Posting date
 
-- *Receipt 1*
+- *Receipt 1*   
     Receipt 1 number. 
 
-- *Receipt 2* 
+- *Receipt 2*   
     Receipt 2 number.
 
 - *Text*  
@@ -626,7 +626,7 @@ For a detailed description of the contained elements and the corresponding funct
 
         > [Info] The [EXCEL] button is only displayed if the *Statistics* module is installed.
 
-The list displayed the entries contained in the learn file.
+The list displays the entries contained in the learn file.
 
 - *No.*  
     Entry number.
@@ -636,6 +636,9 @@ The list displayed the entries contained in the learn file.
 
 - *Reference*  
     Reference number.
+
+- [x]   
+    Select the checkbox of an entry to edit it. *Edit* section is displayed. 
 
 - [CREATE]  
     Click this button to create a new entry. The *Add* section is displayed.
@@ -648,7 +651,7 @@ The list displayed the entries contained in the learn file.
 
 ![Add/Edit](../../Assets/Screenshots/RetailSuiteAccounting/Book/LearnFileAddEdit.png "[Add/Edit]")
 
-> [Info] When clicking the [CREATE] button, the *Add* section is displayed. When selecting a checkbox entry list, the *Edit* section is displayed. The fields in the *Add* and the *Edit* section are identical.
+> [Info] When clicking the [CREATE] button, the *Add* section is displayed. When selecting a checkbox in the entry list, the *Edit* section is displayed. The fields in the *Add* and the *Edit* section are identical.
 
 - *Number*  
     Enter the debtor/creditor number.
@@ -674,9 +677,9 @@ The list displayed the entries contained in the learn file.
 - *Bank accounts*  
     Click the drop-down list to select the bank account where the transaction is registered. Multiple selection is possible. The following options are available:
     - **ALL**  
-        Select this option to select all bank accounts.
+        Click this option to select all bank accounts.
     - Bank account  
-        Select this option to select a specific bank account. 
+        Click this option to select a specific bank account. 
 
 - *Reference*  
     Enter the transaction reference number.
@@ -711,7 +714,7 @@ The list displayed the entries contained in the learn file.
 - *Account*  
     The turnover value can only be determined after the posting.
 
-- *Cost 1* 
+- *Cost 1*   
     Double click in the field to enter the cost center number.
 
 - *Cost 2*  
@@ -1061,8 +1064,8 @@ This path displays the file location, name and page.
 - ![Search](../../Assets/Icons/Search.png "[Search]") (Search)  
     Click this button to start the search. Alternatively, you can press the **ENTER** key.
 
-- [ACTIVE FILTERS]  
-    Click this button to display the filter menu.
+- [X ACTIVE FILTERS]  
+    Click this button to display the filter menu. The *X* displays the number of active filters.  
 
   - [x] *ACTIVE*   
     Select the checkbox to activate the corresponding search criteria.
@@ -1234,10 +1237,10 @@ The list displays all available supplier receipts. Depending on the settings, th
 - *Supervisor*    
     User name of the user who supervised the receipt.
 
-- ![First page](../../Assets/Icons/FirstPage.png "[First page]") (First page)   
+- ![First page](../../Assets/Icons/FirstPage.png "[First page]") (First page)    
     Click this button to go to the first page.
 
-- ![Previous page](../../Assets/Icons/PreviousPage.png "[Previous page]") (Previous page)
+- ![Previous page](../../Assets/Icons/PreviousPage.png "[Previous page]") (Previous page)  
     Click this button to go to the previous page.
 
 - ![Next page](../../Assets/Icons/NextPage.png "[Next page]") (Next page)  
@@ -1327,7 +1330,7 @@ The list displays all receipts with **Released** status.
 - ![First page](../../Assets/Icons/FirstPage.png "[First page]") (First page)   
     Click this button to go to the first page.
 
-- ![Previous page](../../Assets/Icons/PreviousPage.png "[Previous page]") (Previous page)
+- ![Previous page](../../Assets/Icons/PreviousPage.png "[Previous page]") (Previous page)  
     Click this button to go to the previous page.
 
 - ![Next page](../../Assets/Icons/NextPage.png "[Next page]") (Next page)  
@@ -1395,7 +1398,13 @@ The input line is unlocked if at least one checkbox is selected.
 
 ![Attached document](../../Assets/Screenshots/RetailSuiteAccounting/Book/Bookings/AttachedDocument.png "[Attached document]")
 
-> [Info] This window can also be accessed via the [ACCOUNT SHEET](./01c_AccountSheet.md#attached-document) tab in the user interface.
+> [Info] This window can also be accessed via the following tabs and buttons in the user interface:
+
+- [POSTINGS](./01a_Bookings.md#attached-document)
+- [Postings input line](./01_InputLine.md#attached-document)
+- [ACCOUNT SHEET](./01c_AccountSheet.md#attached-document)
+- [OPEN ITEMS](./01d_OpenItems.md#attached-document) 
+
 
 **/Folder/Document file name Page x**  
 This path displays the file location, name and page.

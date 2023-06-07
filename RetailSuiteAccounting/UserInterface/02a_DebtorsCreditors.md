@@ -74,8 +74,8 @@ This tab can also be accessed in the *Select address* window from the COST ACCOU
 - ![Search](../../Assets/Icons/Search.png "[Search]") (Search)  
     Click this button to start the search. Alternatively, you can press the **ENTER** key.
 
-- [ACTIVE FILTERS]  
-    Click this button to display the filter menu.
+- [X ACTIVE FILTERS]  
+    Click this button to display the filter menu. The *X* displays the number of active filters.  
 
     - [x] *ACTIVE*  
         Select the checkbox to activate the corresponding search criteria.

@@ -27,7 +27,7 @@ In all tabs of the *Post* menu entry, an identical header is displayed. For deta
 
 **Account sheet for account**   
 
-The list displays all postings for the selected account whose number and name are specified in the list's title. All fields are read-only.
+The list displays all postings for the selected account whose number and name are specified in the list title. All fields are read-only.
 
 - *Date*  
     Posting date. The valid date format is DDMMYY.

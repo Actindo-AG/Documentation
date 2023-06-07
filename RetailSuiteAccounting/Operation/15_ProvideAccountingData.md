@@ -87,7 +87,7 @@ A fiscal year has been selected, see [Select a fiscal year](./01_SelectFiscalYea
     - **Yes**  
         Select this option to include the applicable tax key in split postings of automatic accounts.
     - **No**  
-        Select this option not to include the applicable in split postings of automatic accounts.
+        Select this option if you do not want to include the applicable tax key in split postings of automatic accounts.
 
 10. If necessary, click the *Saved personal account length* drop-down list and select the appropriate option. By default, the personal account length preconfigured in the system is preselected.
 

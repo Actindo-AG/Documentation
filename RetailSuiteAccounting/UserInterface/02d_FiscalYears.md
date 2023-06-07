@@ -81,7 +81,7 @@ The input fields below allow to create, edit or delete fiscal years. For detaile
     Problems may occur due to unresolved dependencies.   
     Make sure you really want to delete the selected data.
 
-- [CLEAR]
+- [CLEAR]   
     Click this button to clear all input fields.
 
 - [HELP]  
@@ -90,7 +90,7 @@ The input fields below allow to create, edit or delete fiscal years. For detaile
 - [IMPORT]  
     Click this button to import postings from a file. The *Import postings* window is displayed, see [Import postings](#import-postings).
 
-- [EXPORT]
+- [EXPORT]   
     Click this button to export postings into a file. The *Export postings* window is displayed, see [Export postings](#export-postings).
 
 

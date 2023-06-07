@@ -122,9 +122,9 @@ In this part of the *Accounting* documentation, you will find the following chap
 - [BWA ASSIGNMENT](./02i_BWAAssignment.md)
     - [Copy from predefined system report](./02i_BWAAssignment.md#copy-from-predefined-system-report)
     - [Create report](./02i_BWAAssignment.md#create-report)
-    - [Edit "Report ID"](./02i_BWAAssignment.md#edit-report-id)
+    - [Edit "Report ID"](./02i_BWAAssignment.md#edit-report)
     - [Create report line](./02i_BWAAssignment.md#create-report-line)
-    - [Edit "Report line ID"](./02i_BWAAssignment.md#edit-report-line-id)
+    - [Edit "Report line ID"](./02i_BWAAssignment.md#edit-report-line)
 
 - [SAP ACCOUNT MAPPING](./02j_SAPAccountMapping.md)
 
