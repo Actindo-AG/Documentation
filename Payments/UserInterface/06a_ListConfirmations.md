@@ -136,9 +136,9 @@ The list displays all confirmation transactions. Depending on the payment servic
 
 - *Internal Reference*    
     
-    
+
 - *Due Date*   
-   Date on which the repayment must be made at the latest.<!---Stimmt das?-->   
+    
 
 
 

@@ -86,7 +86,7 @@ The list displays all authorization transactions. Depending on the payment servi
    Reference to the authorization transaction. You can use this reference to follow up one payment over the whole process.
 
 - *Transaction date*   
-   Date on which the transaction has been created.
+   Date on which the transaction has been created at the payment provider.
 
 - *Status*   
    Status text.
@@ -95,13 +95,13 @@ The list displays all authorization transactions. Depending on the payment servi
    Name of the Connection. Note that this is the customer-specific name that has been given the connection. For detailed information, see [Establish connections to payment service providers (PSP)](../Integration/01_EstablishConnection.md).
 
 - *Created by*   
-   Full name of the person who has created the transaction. This field is filled only in case a payment or refund has been manually created with the *Payments* module. <!----Stimmt das?-->
+   User name of the person or API who has created the transaction. Can be a real user or an API user.
 
 - *Modified by*   
-   Full name of the person who has changed the transaction. This field is filled only in case a payment or refund has been manually changed with the *Payments* module. <!----Stimmt das?-->
+   Full name of the person who has changed the transaction. Dito
 
 - *ID*   
-   Unique identifier of the transaction.   
+   Actino unique identifier of the transaction.   
 
 - *Status ID*   
    Identifier for the status. The following statuses are available, each prefixed by the ID in the list below. You can use the *Status ID* to filter and sort the list. 
@@ -137,10 +137,10 @@ The list displays all authorization transactions. Depending on the payment servi
    Invoice amount of the payment in the currency in which the payment will be posted.   
 
 - *Reference currency*   
-   <!---???-->   
+   es wird etwas in US Dollar gezahlt, aber chargeback ist in Euro. Reference = US Dollar.    Damit die Buchhaltung weiß aus welchem Währungskonto
 
 - *Reference amount*   
-   <!---???-->    
+   <!---???--> damit es keine Unterschiede gibt    
 
 - *Name*   
   <!---Vorname oder vollständiger Name? --> of the person who has made the payment.   
@@ -176,28 +176,28 @@ The list displays all authorization transactions. Depending on the payment servi
    Other fees.     
 
 - *Reference*   
-   <!----????-->   
+  m allgemeinen eine BEstellnummer
 
 - *Intented use*   
-   <!----????-->   
+   weitere Beschreibung zu der Transaktion
 
 - *Charges intended use*   
-   Purpose of the fee.   
+   Beschreibung des Charges z.B. Transaktion fee
 
 - *Booking date*   
    Date on which the payment was posted.   
 
 - *Due date*  
-   <!---??-->   
+   wann die Zahlung fällig wird  
 
 - *Payment method*   
    The way of payment that the customer has chosen, for example credit card, PayPal&trade;, direct debit.   
 
 - *Status information*   
-   If applicable, specific information on the status of the authorization transaction.  
+   If applicable, specific information on the status of the transaction.  
 
 - *Internal reference*   
-   Actindo specific reference <!---???-->   
+   Actindo specific reference Rückverweis auf den Beleg in der Faktura, ID 
 
 - *Original currency*   
    Currency in which the product(s) were paid.   
