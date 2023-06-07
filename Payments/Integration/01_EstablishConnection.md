@@ -1,8 +1,14 @@
 [!!Connections (Settings)](../UserInterface/08a_Connections.md)
 
-# Establish connections to payment service providers (PSP)   
+# Manage connections to payment service providers (PSP)   
 
-If you want to establish a new connection to a payment service provider (PSP), you can buy the needed connection in the app store. This is valid except for the Actindo POS driver and if you have not yet bought it with your Actindo maintenance contract.<!---Stefan: Stimmt das?-->   
+If you want to establish a new connection to a payment service provider (PSP), you can buy, depending on the payment service provider, the needed connection in the app store or license it directly at the payment service provider. By default, Actindo supports the following drivers:
+- Adyen&trade;
+- Amazon pay&trade;
+- EBICS&trade;
+- Stripe&trade;
+- A dummy driver to simulate payments     
+
 The data structure of the connection then provides exactly the data that the PSP needs to exchange data with the Actindo *Payments* module.
 
 In the following, the general settings to create, edit, 
@@ -36,13 +42,16 @@ At least one connection has been installed.
      The *Credentials* section is displayed below the drop-down list.
 
     ![Credentials](../../Assets/Screenshots/Payments/Settings/CreateConnectionCredentials.png "[Credentials]")
-     > [Info] Depending on the selected driver, the fields in the *Credentials* section differ.
+     > [Info] Depending on the selected driver, the fields in the *Credentials* section differ. 
 
-4. Enter the required data in the fields in the *Credentials* section. Use the information you have gotten from the payment service provider to fill the credentials.
+4. Enter the required data in the fields in the *Credentials* section. Use the information you received from the payment service provider to fill the credentials.   
 5. If the PSP connection requires additional settings, open the *Settings* tab and add further settings.
 
 6. Click the [SAVE] button.   
     The connection will be established. The *Checking credentials...* notice is displayed. After a few seconds, the *Loading data...* notice is displayed.
+
+     ![Checking credentials](../../Assets/Screenshots/Payments/Settings/CheckingCredentials.png "[Checking credentials]")
+
     The view for creating connections is automatically closed when the connection has been established. The *Edit connection* view of the newly created connection is displayed. The *Settings* tab is selected.
       ![Credentials](../../Assets/Screenshots/Payments/Settings/EditConnectionSettings.png "[Credentials]")
     <!-----Stefan: stimmt das? Ich kann es nicht nachmachen--->
@@ -50,7 +59,7 @@ At least one connection has been installed.
 
 ## Edit a PSP connection
 
-Edit a connection to adjust any changed credentials, the connection name or further settings. The driver selection is read-only and you cannot edit it.
+Edit a connection to adjust any changed credentials, the connection name or further settings. 
 
 #### Prerequisites
 
@@ -62,13 +71,13 @@ At least one connection has been created, see [Create a connection](#create-a-co
 
 ![Connections](../../Assets/Screenshots/Payments/Settings/ChangeConnections.png "[Connections]")
 
-1. Select the checkbox of the connection you want to edit.  
+1. Click the checkbox on the left to select the connection you want to edit.  
    The editing toolbar is displayed above the list of connections.      
 2. Click the ![Edit](../../Assets/Icons/Edit01.png "[Edit]") button
    
     The *Edit connection* view is displayed.
 
-    > [Info] Depending on the driver of the connection, the *Credentials* as well as the *Settings* tab are displayed in the *Edit connection* view.
+    > [Info] Depending on the driver, the *Credentials* as well as the *Settings* tab are displayed in the *Edit connection* view.
 
     ![Connection credentials](../../Assets/Screenshots/Payments/Settings/EditConnectionCredentials.png "[Connection credentials]")
 

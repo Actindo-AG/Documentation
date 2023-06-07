@@ -73,82 +73,8 @@
 
 
 The list displays all capture transactions. Depending on the payment service provider, the displayed columns vary. All fields are read-only. The following standard columns are available.
-<!----Hallo Stefan, hier sollten alle Standard-Felder mit Erklärungen stehen, ist die Liste vollständig?--->
-- *ID*   
-   Unique identifier of the transaction.   
-- *Status ID*   
-   Identifier for the status. The following statuses are available, each prefixed by the ID in the list below. You can use the *Status ID* to filter and sort the list. 
--   - **1 - Preparing**  
-        The transaction has been created, but is not yet transferred.
-    - **2 - Unconfirmed**   
-        A refund is reserved but not yet released by an Actindo user. This status is relevant for some menu entries only, for example, the cancellations and chargebacks.
-    - **3 - Success**  
-        Actindo has got the response from the service payment provider, that the transfer was successfully.
-    - **4 - Failure**   
-        The payment service provider has received the request, but it cannot process it. If available for the connection, the status information field provides further information.
-    - **5 - Error**   
-       Errors have been occurred during transfer.
-    - **6 - Void**   
-       The transaction has been voided, see [Void an authorization transaction](01_ManageAuthorizations.md#void-an-authorization-transaction).   
-      
-- *Type*   
-   Kind of the displayed transaction, in this case an authorization transaction.  
-- *Connection ID*   
-   Name of the connection.    
-- *Created At*   
-   Date and time, on which the payment service provider has created the authorization transaction. <!---Stimmt das? Oder das Payment?-->
-- *Modified At*   
-   Date and time, on which the payment service provider has modified authorization transaction.
-- *Currency*   
-   Currency in which the payment will be posted.   
-- *Amount*   
-   Invoice amount of the payment in the currency in which the payment will be posted. 
-- *Reference Currency*   
-   <!---???--> 
-- *Reference Amount*   
-   <!---???-->  
-- *Name*   
-  <!---Vorname oder vollständiger Name? --> of the person who has made the payment.
-- *Surname*   
-   Last name of the person who has made the payment.
-- *Company*   
-   Name of the company on whose behalf the payment was made.   
-- *Address*   
-   Street and house number of the address.<!---Straße und Hausnummer? oder konkatenierte Adresse? -->     
--  *Postal Code*   
-   Zip code of the address.    
-- *City*   
-   City of the address.    
-- *State*   
-   State of the address.    
-- *Country*   
-   Country of the address.   
-- *Charges Amount*   
-   Amount of the fee.    
-- *Charges Currency*   
-   Currency of the fee.      
-- *Charges Other*   
-   Other fees.     
-- *Reference*   
-   <!----????--> 
-- *Intented Use*   
-   asdfa   
-- *Charges Intended Use*   
-   Purpose of the fee.
-- *Booking Date*   
-   Date on which the payment was posted.
-- *Due Date*  
-   <!---??-->
-- *Payment Method*   
-   The way of payment that the customer has chosen, for example credit card, PayPal&trade;, direct debit. 
-- *Status Information*   
-   If applicable, specific information on the status of the authorization transaction.  
-- *Internal Reference*   
-   Actindo specific reference <!---???-->
-- *Original Currency*   
-   Currency in which the product(s) were paid.
-- *Original Currency Amount*   
-   Invoice amount in the original currency.
+<!----Liste der Standardfelder aus den Authorizations kopieren--->
+
 
 
 ## Payments and captures

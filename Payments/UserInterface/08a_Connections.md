@@ -111,7 +111,7 @@ The fields displayed in the *Credentials* tab vary depending on the selected dri
 
 ## Edit connection
 
-*Fulfillment > Settings > Tab CONNECTIONS > Select a connection*
+*Payments > Settings > Tab CONNECTIONS > Select a connection*
 
 ![CONNECTIONS](../../Assets/Screenshots/Payments/Settings/EditConnectionCredentials.png "[CONNECTIONS]")
 
@@ -137,10 +137,7 @@ The fields displayed in the *Credentials* tab vary depending on the selected dri
 
 *Payments > Settings > Tab CONNECTIONS > Select a connection > Tab Credentials*
 
-
-
 ![CONNECTIONS](../../Assets/Screenshots/Payments/Settings/EditConnectionCredentials.png "[CONNECTIONS]")   
-
 
 - *Driver*  
     Selected driver name. This drop-down list is read-only.

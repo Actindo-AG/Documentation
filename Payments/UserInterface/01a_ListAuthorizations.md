@@ -78,7 +78,28 @@
 
 
 The list displays all authorization transactions. Depending on the payment service provider, the displayed columns vary. All fields are read-only. The following standard columns are available:
-<!----Hallo Stefan, hier sollten alle Standard-Felder mit Erklärungen stehen, ist die Liste vollständig?--->
+<!----Hallo Stefan, hier sollten alle Standard-Felder mit Erklärungen stehen, ist die Liste vollständig? Ich habe teilweise die Feldbedeutungen geraten...--->
+- *External ID*   
+   ID given by the payment service provider.
+
+- *Original reference*   
+   Reference to the authorization transaction. You can use this reference to follow up one payment over the whole process.
+
+- *Transaction date*   
+   Date on which the transaction has been created.
+
+- *Status*   
+   Status text.
+
+- *Connection*   
+   Name of the Connection. Note that this is the customer-specific name that has been given the connection. For detailed information, see [Establish connections to payment service providers (PSP)](../Integration/01_EstablishConnection.md).
+
+- *Created by*   
+   Full name of the person who has created the transaction. This field is filled only in case a payment or refund has been manually created with the *Payments* module. <!----Stimmt das?-->
+
+- *Modified by*   
+   Full name of the person who has changed the transaction. This field is filled only in case a payment or refund has been manually changed with the *Payments* module. <!----Stimmt das?-->
+
 - *ID*   
    Unique identifier of the transaction.   
 
@@ -101,13 +122,13 @@ The list displays all authorization transactions. Depending on the payment servi
    Kind of the displayed transaction, in this case an authorization transaction.  
 
 - *Connection ID*   
-   Name of the connection.    
+   Connection identification number. The ID number is automatically assigned by the system.    
 
 - *Created At*   
-   Date and time, on which the payment service provider has created the authorization transaction. <!---Stimmt das? Oder das Payment?-->   
+   Date and time, on which the payment service provider has created the transaction. <!---Stimmt das? Oder das Payment?-->   
 
 - *Modified At*   
-   Date and time, on which the payment service provider has modified authorization transaction.  
+   Date and time, on which the payment service provider has modified the transaction.  
 
 - *Currency*   
    Currency in which the payment will be posted.  
@@ -115,10 +136,10 @@ The list displays all authorization transactions. Depending on the payment servi
 - *Amount*   
    Invoice amount of the payment in the currency in which the payment will be posted.   
 
-- *Reference Currency*   
+- *Reference currency*   
    <!---???-->   
 
-- *Reference Amount*   
+- *Reference amount*   
    <!---???-->    
 
 - *Name*   
@@ -133,7 +154,7 @@ The list displays all authorization transactions. Depending on the payment servi
 - *Address*   
    Street and house number of the address.<!---Straße und Hausnummer? oder konkatenierte Adresse? -->     
 
--  *Postal Code*   
+-  *Postal code*   
    Zip code of the address.    
 
 - *City*   
@@ -145,43 +166,43 @@ The list displays all authorization transactions. Depending on the payment servi
 - *Country*   
    Country of the address.   
 
-- *Charges Amount*   
+- *Charges amount*   
    Amount of the fee.    
 
-- *Charges Currency*   
+- *Charges currency*   
    Currency of the fee.      
 
-- *Charges Other*   
+- *Charges other*   
    Other fees.     
 
 - *Reference*   
    <!----????-->   
 
-- *Intented Use*   
+- *Intented use*   
    <!----????-->   
 
-- *Charges Intended Use*   
+- *Charges intended use*   
    Purpose of the fee.   
 
-- *Booking Date*   
+- *Booking date*   
    Date on which the payment was posted.   
 
-- *Due Date*  
+- *Due date*  
    <!---??-->   
 
-- *Payment Method*   
+- *Payment method*   
    The way of payment that the customer has chosen, for example credit card, PayPal&trade;, direct debit.   
 
-- *Status Information*   
+- *Status information*   
    If applicable, specific information on the status of the authorization transaction.  
 
-- *Internal Reference*   
+- *Internal reference*   
    Actindo specific reference <!---???-->   
 
-- *Original Currency*   
+- *Original currency*   
    Currency in which the product(s) were paid.   
 
-- *Original Currency Amount*   
+- *Original currency amount*   
    Invoice amount in the original currency.   
 
 

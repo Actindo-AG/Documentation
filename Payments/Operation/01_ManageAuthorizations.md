@@ -1,9 +1,9 @@
-[!!LIST (Authorizations](../UserInterface/01a_ListAuthorizations.md)
+[!!LIST (Authorizations)](../UserInterface/01a_ListAuthorizations.md)
 
 
 # Monitor authorizations
 
-An Authorization is the permission that your company is allowed to capture money from the customer via a payment service provider. The processing of the authorization transactions works as follows: 
+An authorization transaction is the permission that your company is allowed to capture money from the customer via a payment service provider. The processing of the authorization transactions works as follows: 
 -   The payment service provider creates an authorization transaction, when a customer presses the *Pay now* button during the order process.   
 - The payment provider sends then the authorization transaction to the *ActindoCore1 Platform*.    
 - In addition, the shop system creates an ID for this transaction.  
@@ -13,19 +13,20 @@ For Actindo, the authorization transaction serves as a reference to a payment ma
 You can use this procedure to display all incoming authorization transactions of a payment service provider. You can check for communication errors between Actindo and the payment service provider that has been caused in a termination of a workflow, for example. In addition, if applicable, you can change the status of a transaction to start continuing further processing or to end it.    
 
 If everything works fine with the posting of the payment, you do not need to monitor the *Authorizations* menu entry.   
-It may happen that in rare cases something went wrong when the workflow cannot post a payment correctly. For example, this may happen, if something went wrong during pressing the *Pay now* button by the customer. In this case, the service payment provider may have sent two references to a payment to the *Payments* module. Now the workflow is not able to find the correct reference and ends with an error.   
+It may happen that in rare cases something went wrong when the workflow cannot post a payment correctly.   
+For example, this may happen, if something went wrong during pressing the *Pay now* button by the customer. In this case, the service payment provider may have sent two references to a payment to the *Payments* module. Now the workflow is not able to find the correct reference and ends with an error.   
 In case of those errors you can capture, cancel, or void an authorization transaction manually.   
 > [Info] You can only change the status of an authorization transaction, but not any data.
 
 
-## Check an authorization transaction
+## Check authorization transaction
 An authorization transaction provides numerous payment-related details, which may vary depending on the payment service provider settings. To decide, whether you can manually capture, cancel, or void an authorization transaction, you need to check its details.
 
 #### Prerequisites
 
 - At least one connection has been created, see [Create a connection](../Integration/01_ManageConnections.md#create-a-connection).
 - At least one authorization transaction has been created.
-- It is recommended that you have added the *Status ID* field to your view so that you are able to sort or filter for specific statuses. 
+- It is recommended that you have added the *Status ID* column to your view so that you are able to sort or filter for specific statuses. 
 
 #### Procedure
 
@@ -44,7 +45,7 @@ An authorization transaction provides numerous payment-related details, which ma
     - **5 - Error**   
        Errors have been occurred during transfer.
     - **6 - Void**   
-       The transaction has been voided, see [Void an authorization transaction](01_ManageAuthorizations.md#void-an-authorization-transaction).
+       The transaction has been voided, see [Void authorization transaction](01_ManageAuthorizations.md#void-authorization-transaction).
     
 2. Click on the authorization transaction to see the details.   
     The sub-tabs of the transaction are opened.  
@@ -53,8 +54,8 @@ An authorization transaction provides numerous payment-related details, which ma
     ![Authorization attributes and logs](../../Assets/Screenshots/Payments/Authorizations/CheckAttributes.png "[Authorization attributes and logs]")
 
 3. Check the attributes and logs of the transaction. For detailed information, see the following:
-   - [Authorizations &ndash; Attributes](../UserInterface/01_ListAuthorizations.md#authorizations-–-attributes)
-   - [Authorizations &ndash; Logs](../UserInterface/01_ListAuthorizations.md#authorizations-–-logs)
+   - [Authorizations &ndash; Attributes](../UserInterface/01a_ListAuthorizations.md#authorizations-–-attributes)
+   - [Authorizations &ndash; Logs](../UserInterface/01a_ListAuthorizations.md#authorizations-–-logs)
 4. Return to the LIST and decide how to proceed with the transaction.
 
 
@@ -72,12 +73,12 @@ After you have checked an authorization transaction that could not be processed 
 
 ![Capture authorization transaction](../../Assets/Screenshots/Payments/Authorizations/ChangeAuthorization.png "[Capture authorization transaction]")   
 
-1. Check the authorization transaction you want to capture, see [Check the authorization transaction](./01_ManageAuthorization.md#check-an-authorization-transaction).
+1. Check the authorization transaction you want to capture, see [Check authorization transaction](./01_ManageAuthorization.md#check-authorization-transaction).
 2. Select the authorization transaction you want to capture by clicking the checkbox on the left.   
     The editing toolbar is displayed.
 3. Click the [Capture] button.    
-   A confirmation message is displayed. The status of the authorization transaction has changed to *Success*.   
-   You can now follow up this case under the menu entry *Payments and captures*. <!-----Stefan ist das richtig?---> 
+   A confirmation message is displayed. The status of the authorization transaction has changed to "Success".   
+   You can now follow up this case under the menu entry *Payments and captures*. <!---Stefan ist das richtig?--> 
    
   
 
@@ -95,12 +96,12 @@ After you have checked an authorization transaction that could not be processed 
 
 ![Cancel authorization transaction](../../Assets/Screenshots/Payments/Authorizations/ChangeAuthorization.png "[Cancel authorization transaction]")
 
-1. Identify the communication issue that led to the error. To do this, check the authorization transaction you want to cancel, see [Check the authorization transaction](01_ManageAuthorization.md#check-an-authorization-transaction).
+1. Identify the communication issue that led to the error. To do this, check the authorization transaction you want to cancel, see [Check authorization transaction](01_ManageAuthorization.md#check-authorization-transaction).
 2. Select the authorization transaction you want to cancel by clicking the checkbox on the left.   
     The editing toolbar is displayed.
-3. Click the [Cancel] button.   <!---was passsiert dann-->   
-   A confirmation message is displayed. The status of the authorization transaction remains at *Success*.    
-   You can now follow up this case under the menu entry *Cancellations and chargebacks*. <!-----Stefan ist das richtig?--->
+3. Click the [Cancel] button.   <!---was passsiert dann?-->   
+   A confirmation message is displayed. The status of the authorization transaction remains at "Success".    
+   You can now follow up this case under the menu entry *Cancellations and chargebacks*. <!---Stefan ist das richtig?-->
 
 
 
@@ -120,7 +121,7 @@ The status of an authorization transaction is "Failure" or "Error".
 *Payments > Authorizations > Tab LIST*
 ![Void authorization transaction](../../Assets/Screenshots/Payments/Authorizations/ChangeAuthorization.png "[Capture authorization transaction]")
 
-1. Identify the communication issue that led to the error. To do this, check the authorization transaction you want to void, see [Check the authorization transaction](./01_ManageAuthorizations.md#check-an-authorization-transaction).
+1. Identify the communication issue that led to the error. To do this, check the authorization transaction you want to void, see [Check the authorization transaction](./01_ManageAuthorizations.md#check-authorization-transaction).
 2. Select the authorization transaction to be voided by clicking the checkbox on the left.   
     The editing toolbar is displayed.
 3. Click the [Void] button.   

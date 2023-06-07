@@ -62,45 +62,81 @@
 
 
 The list displays all confirmation transactions. Depending on the payment service provider, the displayed columns vary. All fields are read-only. The following standard columns are available.   
-- - *ID*   
+
+- *External ID*   
+   ID given by the payment service provider.
+
+- *Original reference*   
+   Reference to the authorization transaction. You can use this reference to follow up one payment over the whole process.
+
+-*Type*
+- *Connection*
+- *Created by*
+- *Modified by*
+
+
+- *ID*   
    Unique identifier of the transaction.   
+
 - *Status ID*   
    Identifier for the status. The following status ID is available, each prefixed by the ID in the list below:
      - **2 - Confirmation required**   
         A refund is reserved but not yet released by an Actindo user.      
+
 - *Status*
-   Status text of the confirmation transaction.
+   Status text.   
+
 - *Connection ID*   
-   Name of the connection.    
+   ID of the connection.   
+
 - *Created At*   
-   Date and time, on which the payment service provider has created the authorization transaction. <!---Stimmt das? Oder das Payment?-->
+   Date and time, on which the payment service provider has created the authorization transaction. <!---Stimmt das? Oder das Payment?-->   
+
 - *Modified At*   
-   Date and time, on which the payment service provider has modified authorization transaction.
+   Date and time, on which the payment service provider has modified authorization transaction.   
+
 - *Currency*   
-   Currency in which the payment will be posted.   
+   Currency in which the payment will be posted.    
+
 - *Amount*   
-   Invoice amount of the payment in the currency in which the payment will be posted.   
+   Invoice amount of the payment in the currency in which the payment will be posted.    
+
 - *Reference*  
-   <!---???-->
+   <!---???-->   
+
 - *Name*   
-   Full name <!---oder nur Vorname?--> of the person who has made the payment.
+   Full name <!---oder nur Vorname?--> of the person who has made the payment.   
+
 - *Surname*   
-   Surname of the person who has made the payment.
+   Surname of the person who has made the payment.   
+
 - *Company*   
-   Name of the company on whose behalf the payment was made. 
+   Name of the company on whose behalf the payment was made.    
+
 - *Address*   
-   Street and house number of the address.<!---Straße und Hausnummer? oder konkatenierte Adresse? -->
+   Street and house number of the address.<!---Straße und Hausnummer? oder konkatenierte Adresse? -->   
+
 - *Postal Code*   
-   Zip code of the address.
+   Zip code of the address.   
+
 - *City*   
-   City of the address. 
+   City of the address.    
+
 - *State*   
-   If applicable, state of the address.<!----state oder country--->
+   If applicable, state of the address.<!----state oder country--->   
+
 - *Country*   
-   If applicable, country of the address.   
+   If applicable, country of the address.    
+
 - *Payment Method*   
-- *Status Information*
-- *Internal Reference*   
+    
+
+- *Status Information*   
+   
+
+- *Internal Reference*    
+    
+    
 - *Due Date*   
    Date on which the repayment must be made at the latest.<!---Stimmt das?-->   
 

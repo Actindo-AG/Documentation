@@ -48,13 +48,8 @@
 
 
 The list displays all cancellation and chargeback transactions. Depending on the payment service provider, the displayed columns vary. All fields are read-only. The following standard columns are available.
-<!----Hallo Stefan, hier sollten alle Standard-Felder mit Erklärungen stehen, ist die Liste vollständig?--->
-- *Charges intended use*   
-   Purpose of the fee.
-- *Original currency*   
-   Currency in which the product(s) were paid 
-- *Original currency amount*   
-   Invoice amount in the original currency
+
+<!----Liste der Standardfelder aus den Authorizations kopieren--->
 
 
 
