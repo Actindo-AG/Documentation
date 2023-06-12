@@ -78,7 +78,7 @@
 
 
 The list displays all authorization transactions. Depending on the payment service provider, the displayed columns vary. All fields are read-only. The following standard columns are available:
-<!----Hallo Stefan, hier sollten alle Standard-Felder mit Erklärungen stehen, ist die Liste vollständig? Ich habe teilweise die Feldbedeutungen geraten...--->
+
 - *External ID*   
    ID given by the payment service provider.
 
@@ -86,10 +86,25 @@ The list displays all authorization transactions. Depending on the payment servi
    Reference to the authorization transaction. You can use this reference to follow up one payment over the whole process.
 
 - *Transaction date*   
-   Date on which the transaction has been created at the payment provider.
+   Date on which the transaction has been created by the payment service provider.
 
 - *Status*   
-   Status text.
+   Status text.   
+
+- *Status ID*   
+   Identifier for the status. The following statuses are available, each prefixed by the ID in the list below. You can use the *Status ID* to filter and sort the list. 
+-   - **1 - Preparing**  
+        The transaction has been created, but is not yet transferred.
+    - **2 - Unconfirmed**   
+        A refund is reserved but not yet released by an Actindo user. 
+    - **3 - Success**  
+        Actindo has got the response from the service payment provider that the transfer was successful.
+    - **4 - Failure**   
+        The payment service provider has received the request, but it cannot process it. If available for the connection, the status information field may provide further information.
+    - **5 - Error**   
+       Errors have been occurred during transfer.
+    - **6 - Void**   
+       The transaction has been voided, see [Void an authorization transaction](01_ManageAuthorizations.md#void-an-authorization-transaction).
 
 - *Connection*   
    Name of the Connection. Note that this is the customer-specific name that has been given the connection. For detailed information, see [Establish connections to payment service providers (PSP)](../Integration/01_EstablishConnection.md).
@@ -98,26 +113,11 @@ The list displays all authorization transactions. Depending on the payment servi
    User name of the person or API who has created the transaction. Can be a real user or an API user.
 
 - *Modified by*   
-   Full name of the person who has changed the transaction. Dito
+   User name of the person or API who has changed the transaction. Can be a real user or an API user.
 
 - *ID*   
    Actino unique identifier of the transaction.   
-
-- *Status ID*   
-   Identifier for the status. The following statuses are available, each prefixed by the ID in the list below. You can use the *Status ID* to filter and sort the list. 
--   - **1 - Preparing**  
-        The transaction has been created, but is not yet transferred.
-    - **2 - Unconfirmed**   
-        A refund is reserved but not yet released by an Actindo user. This status is relevant for some menu entries only, for example, the cancellations and chargebacks.
-    - **3 - Success**  
-        Actindo has got the response from the service payment provider, that the transfer was successfully.
-    - **4 - Failure**   
-        The payment service provider has received the request, but it cannot process it. If available for the connection, the status information field provides further information.
-    - **5 - Error**   
-       Errors have been occurred during transfer.
-    - **6 - Void**   
-       The transaction has been voided, see [Void an authorization transaction](01_ManageAuthorizations.md#void-an-authorization-transaction).   
-      
+     
 - *Type*   
    Kind of the displayed transaction, in this case an authorization transaction.  
 
@@ -125,7 +125,7 @@ The list displays all authorization transactions. Depending on the payment servi
    Connection identification number. The ID number is automatically assigned by the system.    
 
 - *Created At*   
-   Date and time, on which the payment service provider has created the transaction. <!---Stimmt das? Oder das Payment?-->   
+   Date and time, on which the payment service provider has created the transaction. 
 
 - *Modified At*   
    Date and time, on which the payment service provider has modified the transaction.  
@@ -137,13 +137,13 @@ The list displays all authorization transactions. Depending on the payment servi
    Invoice amount of the payment in the currency in which the payment will be posted.   
 
 - *Reference currency*   
-   es wird etwas in US Dollar gezahlt, aber chargeback ist in Euro. Reference = US Dollar.    Damit die Buchhaltung weiß aus welchem Währungskonto
+  Currency of the original payment. 
 
 - *Reference amount*   
-   <!---???--> damit es keine Unterschiede gibt    
+   Currency of the original payment. Makes it possible that the accounting can post the payment to the correct currency account so that a refund later do not lead to currency differences.
 
 - *Name*   
-  <!---Vorname oder vollständiger Name? --> of the person who has made the payment.   
+   First name of the person who has made the payment.   
 
 - *Surname*   
    Last name of the person who has made the payment.   
@@ -176,28 +176,28 @@ The list displays all authorization transactions. Depending on the payment servi
    Other fees.     
 
 - *Reference*   
-  m allgemeinen eine BEstellnummer
+   Mostly, depending on the payment service provider, the order number.
 
 - *Intented use*   
-   weitere Beschreibung zu der Transaktion
+   In general, depending on the payment service provider, a further description of the transaction.
 
 - *Charges intended use*   
-   Beschreibung des Charges z.B. Transaktion fee
+   Description of the fee, for example transaction fee.
 
 - *Booking date*   
    Date on which the payment was posted.   
 
 - *Due date*  
-   wann die Zahlung fällig wird  
+   If applicable, date on which the payment is to be collected.
 
 - *Payment method*   
-   The way of payment that the customer has chosen, for example credit card, PayPal&trade;, direct debit.   
+   The way of payment that the customer has chosen, for example, credit card, PayPal&trade;, direct debit.   
 
 - *Status information*   
    If applicable, specific information on the status of the transaction.  
 
 - *Internal reference*   
-   Actindo specific reference Rückverweis auf den Beleg in der Faktura, ID 
+   Actindo specific reference back to the document in the billing document.
 
 - *Original currency*   
    Currency in which the product(s) were paid.   

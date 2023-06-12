@@ -69,17 +69,23 @@ The list displays all confirmation transactions. Depending on the payment servic
 - *Original reference*   
    Reference to the authorization transaction. You can use this reference to follow up one payment over the whole process.
 
--*Type*
-- *Connection*
-- *Created by*
-- *Modified by*
+- *Type*   
+   Kind of the displayed transaction, in this case a confirmation transaction.   
 
+- *Connection*    
+     Name of the Connection. Note that this is the customer-specific name that has been given the connection. For detailed information, see [Establish connections to payment service providers (PSP)](../Integration/01_EstablishConnection.md).    
+
+- *Created by*   
+    User name of the person or API who has created the transaction. Can be a real user or an API user.   
+
+- *Modified by*
+    User name of the person or API who has changed the transaction. Can be a real user or an API user.
 
 - *ID*   
    Unique identifier of the transaction.   
 
 - *Status ID*   
-   Identifier for the status. The following status ID is available, each prefixed by the ID in the list below:
+   Identifier of the status. The following status ID is available, each prefixed by the ID in the list below:
      - **2 - Confirmation required**   
         A refund is reserved but not yet released by an Actindo user.      
 
@@ -90,10 +96,10 @@ The list displays all confirmation transactions. Depending on the payment servic
    ID of the connection.   
 
 - *Created At*   
-   Date and time, on which the payment service provider has created the authorization transaction. <!---Stimmt das? Oder das Payment?-->   
+   Date and time, on which the payment service provider has created the transaction. 
 
 - *Modified At*   
-   Date and time, on which the payment service provider has modified authorization transaction.   
+   Date and time, on which the payment service provider has modified the transaction.   
 
 - *Currency*   
    Currency in which the payment will be posted.    
@@ -102,7 +108,7 @@ The list displays all confirmation transactions. Depending on the payment servic
    Invoice amount of the payment in the currency in which the payment will be posted.    
 
 - *Reference*  
-   <!---???-->   
+   Mostly, depending on the payment service provider, the order number. 
 
 - *Name*   
    Full name <!---oder nur Vorname?--> of the person who has made the payment.   
@@ -129,16 +135,17 @@ The list displays all confirmation transactions. Depending on the payment servic
    If applicable, country of the address.    
 
 - *Payment Method*   
-    
+    The way of payment that the customer has chosen, for example, credit card, PayPal&trade;, direct debit.
 
 - *Status Information*   
-   
+   If applicable, specific information on the status of the transaction.  
+
 
 - *Internal Reference*    
-    
+    Actindo-specific reference back to the document in the billing document.
 
-- *Due Date*   
-    
+- *Due Date*     
+    If applicable, date on which the payment is to be collected.
 
 
 
