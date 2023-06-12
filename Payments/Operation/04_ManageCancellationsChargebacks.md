@@ -33,9 +33,9 @@ A cancellation and chargeback transaction provides numerous payment-related deta
 2. If desired, select the cancellation and chargeback type you want to check. The following types are available:   
     - **Cancel**   
       Depending on the payment service provider, an appropriately permitted person has cancelled the authorization. 
-    - **Chargeback**
+    - **Chargeback**   
       The customer has withdrawn a capture.
-    - **Chargeback Reversal**
+    - **Chargeback Reversal**   
       The customer has terminated his or her withdrawing of the authorization.
     - **Second Chargeback**   
       Again, the customer has withdrawn the authorization.
@@ -73,7 +73,7 @@ You can void a cancellation and chargeback transaction, if you want to disable t
 
 #### Prerequisites
 
-The status of a cancellation and chargeback transaction is **not** success. In case of success, the cancellation and chargeback has already been further processed and is available under the *Confirmations* menu entry. <!----Stefan, ist das richtig oder ist es unter Refund?> 
+The status of a cancellation and chargeback transaction is **not** success. In case of success, the cancellation and chargeback has already been further processed and is available under the *Confirmations* menu entry. <!---Stefan, ist das richtig oder ist es unter Refund? --> 
 
 #### Procedure
 

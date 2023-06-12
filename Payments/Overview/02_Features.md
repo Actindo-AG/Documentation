@@ -13,7 +13,7 @@ Organize and monitor your incoming payments and refunds:
 ## Automated import
 With the *Payments* module of Actindo, pre-authorized payments are captured automatically at the moment orders are delivered. If products are announced, but not yet launched, customers can reserve a product and pay later when the shipment has started.
 In case of returns or credit notes, refund requests are automatically sent out to the original means of payment. By using the 4-eyes principle, you can optionally double-check the refunds, for example, with specific user permissions depending on the invoice amount.  
-The single steps of the payments process are usually integrated in an order workflow which automatically controls that no products are shipped without a payment commitment from the customer.
+The single steps of the payments process are usually integrated in an order workflow. The workflow controls that no products are shipped without a payment commitment from the customer.
 
 
 
@@ -22,7 +22,7 @@ Youu can flexibly connect various payment service providers such as Adyen&trade;
 
 
 ## Generating payments for POS, telephone sales and sales representatives
-Depending on the type of integration, you can also generate payments from POS (Point of sale) terminals. Furthermore, you can process payments from telephone sales and field sales representatives just as easily.<!---Stefan, dieses ist aus der Website, Oliver sagte, dass Payment POS gar nicht unterstützt (es geht direkt in die Zahlungsabwicklung), sollen wir den Abschnitt herausnehmen?---> 
+Depending on the type of integration, you can also generate payments from POS (Point of sale) terminals. Furthermore, you can process payments from telephone sales and field sales representatives just as easily.<!---Stefan, dieses ist aus der Website, Oliver sagte, dass Payment POS gar nicht unterstützt (es geht direkt in die Zahlungsabwicklung), sollen wir den Abschnitt herausnehmen?--> 
 
 
 

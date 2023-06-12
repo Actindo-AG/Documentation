@@ -10,7 +10,6 @@ This documentation refers to the *Payments* module version 4.1.0. There may be d
 The Actindo *Payment* module offers the following benefits:
 - Automated processing of incoming payments, refunds, and cancellations.
 - Predefined interfaces for connecting to various payment service providers (PSPs), credit cards, and banks via EBICS (Electronic Banking Internet Communication Standard) of your choice.
-- Generation of payments for cash payments for your stationary trade
 - Receiving automated revenues and refunds. 
 
 <!---Stefan, welche Modulversionen werden gebraucht?-->
