@@ -107,7 +107,7 @@ The following import options are available in the tab:
     - **# Postings**  
     - **eBay sales history**
 
-Depending on the selected option, the following displayed fields and options vary.
+    Depending on the selected option, the following displayed fields and options vary.
 
 - *Import def.*  
     Click the drop-down list to select the appropriate import definition. The options displayed vary depending on the option selected in the *File content* drop-down list. All available import definitions are displayed in the list.  

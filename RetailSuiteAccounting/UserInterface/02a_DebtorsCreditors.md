@@ -19,6 +19,8 @@ The identical customer/supplier list is available in the *Order management* modu
 
 [comment]: <> (Es heißt eingelicht immer "Kunde xxxxx", egal ob Kunde oder Lieferant. Bug Ticket?)
 
+The *Loyalty cards* side bar can also be displayed by clicking the leftward arrow on the right of the workspace, see [Loyalty cards](#loyalty-cards).
+
 
 
 ## Customer/supplier list
@@ -85,7 +87,7 @@ This tab can also be accessed in the *Select address* window from the COST ACCOU
         - *Price group*   
             Click the drop-down list to select the applicable filter criterion. All available price groups are displayed in the list.
 
-            > [Info] Price groups can be created in the *Settings* menu entry of the *Material management* and the *Order management* modules. A customer can be assigned to a specific price group in the *Invoicing* sub-tab of the *DEBTORS/CREDITORS* tab, see [Invoicing](#invoicing).
+            > [Info] Price groups can be created in the *Settings* menu entry the *Order management* and the *Material management* modules. A customer can be assigned to a specific price group in the *Invoicing* sub-tab of the *DEBTORS/CREDITORS* tab, see [Invoicing](#invoicing).
 
     - *FILTER CRITERION*  
         Click the drop-down list to select the appropriate option for the corresponding filter criterion.
@@ -163,6 +165,12 @@ The list displays all customer/supplier details. Depending on the settings, the 
 - *Customer number*  
     Reference customer/supplier number as defined by the user.
 
+- ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh)  
+    Click this button to update the receipt list.
+
+- [RESET]  
+    Click this button to reset the receipt list view.
+
 
 ### Customer/supplier context menu
 
@@ -177,12 +185,6 @@ The list displays all customer/supplier details. Depending on the settings, the 
     Click this option to access the supplier product list in the *Material management* module. The *ARTICLE* tab is displayed: *Material management > Article > Tab ARTICLE*.
 
 [comment]: <> (Rename when material management is updated)
-
-- ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh)  
-    Click this button to update the receipt list.
-
-- [RESET]  
-    Click this button to reset the receipt list view.
 
 
 
@@ -368,7 +370,7 @@ To add further delivery addresses, see [Further addresses](#further-addresses).
 - *Price group*  
     Click the drop-down list to select the appropriate option. All available price groups are displayed in the list.
 
-    > [Info] Price groups can be created in the *Settings* menu entry of the *Material management* and the *Order management* modules.
+    > [Info] Price groups can be created in the *Settings* menu entry the *Order management* and the *Material management* modules.
 
 - *Print gross/net*  
     Click the drop-down list to select how prices are indicated on receipts when printed. The following options are available:   
@@ -634,7 +636,7 @@ To add further information, select the corresponding supplier in the *Customer/s
 
 
 
-## Customer/supplier number
+## Customer/supplier
 
 *Accounting > Settings > Tab DEBTORS/CREDITORS > Tab Customer/supplier list > Select customer/supplier*
 
@@ -664,7 +666,7 @@ The displayed sub-tabs and information may vary depending on whether a customer 
 
 This sub-tab is identical to the one displayed when creating a customer/supplier. For a detailed description, see [Address/contact](#address/contact).
 
-- [NEW/RESET]  
+- [NEW/RESET]     
     Click this button to reset the *Customer/supplier "Customer/supplier number"* tab and create a new customer/supplier. The *Customer/supplier "Customer/supplier number"* tab is closed and changes automatically to the *Create customer/supplier* tab.
 
 - [DELETE CUSTOMER "Customer number"]/[DELETE SUPPLIER "Supplier number"]  
@@ -820,7 +822,7 @@ Click the [CREATE] button to display the *Add* section or select the checkbox of
 - [SAVE]  
     Click this button to save the address.
 
-- [NEW/RESET]  
+- [NEW/RESET]     
     Click this button to reset the *Customer/supplier "Customer/supplier number"* tab and create a new customer/supplier. The *Customer/supplier "Customer/supplier number"* tab is closed and changes automatically to the *Create customer/supplier* tab.
 
 - [DELETE CUSTOMER "Customer number"]/[DELETE SUPPLIER "Supplier number"]  
@@ -838,7 +840,7 @@ Click the [CREATE] button to display the *Add* section or select the checkbox of
 
 This sub-tab is identical to the one displayed when creating a customer/supplier. For a detailed description, see [Invoicing](#invoicing).
 
-- [NEW/RESET]  
+- [NEW/RESET]    
     Click this button to reset the *Customer/supplier "Customer/supplier number"* tab and create a new customer/supplier. The *Customer/supplier "Customer/supplier number"* tab is closed and changes automatically to the *Create customer/supplier* tab.
 
 - [DELETE CUSTOMER "CUSTOMER NUMBER"]/[DELETE SUPPLIER "SUPPLIER NUMBER"]  
@@ -1011,7 +1013,7 @@ Click the [CREATE] button to display the *Add* section or select the checkbox of
 
     > [Info] Make sure to clear all input fields before adding new content. Otherwise, the newly entered content will replace the selected content from the list.
 
-- [NEW/RESET]  
+- [NEW/RESET]    
     Click this button to reset the *Customer/supplier "Customer/supplier number"* tab and create a new customer/supplier. The *Customer/supplier "Customer/supplier number"* tab is closed and changes automatically to the *Create customer/supplier* tab.
 
 - [DELETE CUSTOMER "CUSTOMER NUMBER"]/[DELETE SUPPLIER "SUPPLIER NUMBER"]  
@@ -1131,7 +1133,7 @@ The list displays all documents of the selected customer. Depending on the setti
 - [RESET]  
     Click this button to reset the receipt list view.
 
-- [NEW/RESET]  
+- [NEW/RESET]    
     Click this button to reset the *Customer/supplier "Customer/supplier number"* tab and create a new customer/supplier. The *Customer/supplier "Customer/supplier number"* tab is closed and changes automatically to the *Create customer/supplier* tab.
 
 - [DELETE CUSTOMER "CUSTOMER NUMBER"]/[DELETE SUPPLIER "SUPPLIER NUMBER"]  
@@ -1402,7 +1404,7 @@ The list displays the statistics according to the filter settings selected in th
 
     > [Info] The [EXCEL] button is only displayed if the *Statistics* module is installed.
 
-- [NEW/RESET]  
+- [NEW/RESET]    
     Click this button to reset the *Customer/supplier "Customer/supplier number"* tab and create a new customer/supplier. The *Customer/supplier "Customer/supplier number"* tab is closed and changes automatically to the *Create customer/supplier* tab.
 
 - [DELETE CUSTOMER "CUSTOMER NUMBER"]/[DELETE SUPPLIER "SUPPLIER NUMBER"]  
@@ -1676,29 +1678,25 @@ Depending on the supplier selected, the sections and fields displayed may slight
 
 ### CRM information
 
-[comment]: <> (Hannahs Kommentar: Unterschied zu CRM oben? Wenn kein Unterschied -> Satz mit Verweis!)
-
 *Accounting > Settings > Tab DEBTORS/CREDITORS > Tab Customer/supplier list > Select customer/supplier > Sub-tab CRM information*
 
-![Delivery addresses](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/CRMInformation02a.png "[Delivery addresses]")
+![CRM information](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/CRMInformation02a.png "[CRM information]")
 
 This sub-tab is identical to the one displayed when creating a customer/supplier. For a detailed description, see [CRM information](#crm-information).
 
 > [Info] When selecting a supplier (account number range 70000-99999) in the *Customer/supplier list*, only the *General* and *Credit rating* sections are displayed. Moreover, the *General* section contains only the *Supervisor*, *Area*, *Last pers. contact*, *Industry* and *Industry 2* fields.
 
-- [NEW/RESET]
+- [NEW/RESET]  
     Click this button to reset the *Customer/supplier "Customer/supplier number"* tab and create a new customer/supplier. The *Customer/supplier "Customer/supplier number"* tab is closed and changes automatically to the *Create customer/supplier* tab.
 
-- [DELETE CUSTOMER "CUSTOMER NUMBER"]/[DELETE SUPPLIER "SUPPLIER NUMBER"]
+- [DELETE CUSTOMER "CUSTOMER NUMBER"]/[DELETE SUPPLIER "SUPPLIER NUMBER"]  
     Click this button to delete the selected customer/supplier.
 
-- [SAVE]
+- [SAVE]  
     Click this button to save all changes made to the selected customer/supplier.
 
 
 ### Notes
-
-[comment]: <> (Hannahs Kommentar: Unterschied zu Notes oben? Wenn kein Unterschied -> Satz mit Verweis!)
 
 *Accounting > Settings > Tab DEBTORS/CREDITORS > Tab Customer/supplier list > Select customer/supplier > Sub-tab Notes*
 
@@ -1706,7 +1704,7 @@ This sub-tab is identical to the one displayed when creating a customer/supplier
 
 This sub-tab is identical to the one displayed when creating a customer/supplier. For a detailed description, see [Notes](#notes).
 
-- [NEW/RESET]  
+- [NEW/RESET]    
     Click this button to reset the *Customer/supplier "Customer/supplier number"* tab and create a new customer/supplier. The *Customer/supplier "Customer/supplier number"* tab is closed and changes automatically to the *Create customer/supplier* tab.
 
 - [DELETE CUSTOMER "CUSTOMER NUMBER"]/[DELETE SUPPLIER "SUPPLIER NUMBER"]  
