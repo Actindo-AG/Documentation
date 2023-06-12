@@ -112,7 +112,7 @@ This list displays all fields available for the selected import/export definitio
     - **Ignore**   
         Any incorrect row end character is ignored by the system.
     - **Repair**   
-        Any incorrect row end character is must be repaired.
+        Any incorrect row end character must be repaired.
 
 - *Number format*  
     Click the drop-down list to select the desired number format. The following options are available:

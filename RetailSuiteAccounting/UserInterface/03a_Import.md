@@ -110,11 +110,12 @@ The following import options are available in the tab:
 Depending on the selected option, the following displayed fields and options vary.
 
 - *Import def.*  
-    Click the drop-down list to select the appropriate import definition. The options displayed vary depending on the option selected in the *File content* drop-down list. All available import definitions are displayed in the list. If the **Customers/suppliers** option is selected in the *File content* drop-down list, the following options are predefined:
+    Click the drop-down list to select the appropriate import definition. The options displayed vary depending on the option selected in the *File content* drop-down list. All available import definitions are displayed in the list.  
+    If the **Customers/suppliers** option is selected in the *File content* drop-down list, the following options are predefined:
     - **\* Lexware Pro (Customers)**	 
     - **\* Lexware Pro (Suppliers)**
 
-For the other options in the *File content* drop-down list, no import definitions are predefined. The import definitions can be defined or edited by clicking the [Edit] button to the right of the drop-down list.
+    For the other options in the *File content* drop-down list, no import definitions are predefined. The import definitions can be defined or edited by clicking the [Edit] button to the right of the drop-down list.
 
 - [Edit]  
     Click this button to edit the selected import definition or to create a new one. The *Import/export definitions* window is displayed, see [Import/export definitions](#import/export-definitions).
@@ -254,7 +255,7 @@ For the other options in the *File content* drop-down list, no import definition
     - **\* AfterBuy CSV**
     - **\* Auction Master CSV**
 
-The import definitions can be defined or edited by clicking the [Edit] button to the right of the drop-down list.
+    The import definitions can be defined or edited by clicking the [Edit] button to the right of the drop-down list.
 
 - [Edit]  
     Click this button to edit the selected import definition or to create a new one. The *Import/export definitions* window is displayed, see [Import/export definitions](#import/export-definitions).
@@ -330,7 +331,7 @@ The import definitions can be defined or edited by clicking the [Edit] button to
         - **No**   
             No postings will be imported.
     - *From - to*  
-        Enter the start date of the period from which the postings are to be imported in the left field and the end date of the period from which the postings are to be imported in the right field. The valid date format is *DD.MM.YYYY*.
+        Enter the start date of the period to which the postings are to be imported in the left field and the end date of the period to which the postings are to be imported in the right field. The valid date format is *DD.MM.YYYY*.
 
 - *Impersonal accounts*  
     Define how to handle the impersonal accounts to be imported. If the import file contained no impersonal accounts, the notice *No impersonal accounts in the import file* is displayed.
@@ -373,8 +374,6 @@ The import definitions can be defined or edited by clicking the [Edit] button to
 
 *Accounting > Extras > Tab IMPORT > Button openTRANS*
 
-**Step 1**
-
 ![Import openTRANS Step 1](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Import/Opentrans.png "[Import openTRANS Step 1]")
 
 **Files**
@@ -408,8 +407,6 @@ The import definitions can be defined or edited by clicking the [Edit] button to
 ## Schilling Accounting
 
 *Accounting > Extras > Tab IMPORT > Button Schilling Accounting*
-
-**Step 1**
 
 ![Import Schilling Step 1](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Import/Schilling.png "[Import Schilling Step 1]")
 

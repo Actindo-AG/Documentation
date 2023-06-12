@@ -84,7 +84,7 @@ The following export options are displayed in the tab:
     Click this button to edit the tax mapping. The *BMD tax mapping* window is displayed, see [BMD tax mapping](#bmd-tax-mapping).
 
 - [CONTINUE]  
-    Click this button to continue and follow the on-screen instructions to complete the export. As soon as the export is completed, the *Exported without error.* confirmation window is displayed. Click the [OK] button to continue. The exported file(s) are displayed. Click a file name to download the corresponding file. By default, the downloaded exported file is saved in the *Downloads* folder of your device.
+    Click this button to continue and follow the on-screen instructions to complete the export. As soon as the export is completed, the *Exported without error* confirmation window is displayed. Click the [OK] button to continue. The exported file(s) are displayed. Click a file name to download the corresponding file. By default, the downloaded exported file is saved in the *Downloads* folder of your device.
 
     > [Info] If you need further assistance, contact your MPS consultant.
 
@@ -189,7 +189,7 @@ The list displays all available BMD tax mappings. Depending on the settings, the
     Click this button to edit the selected export definition or to create a new one. The *Import/export definitions* window is displayed, see [Import/export definitions](#import/export-definitions).
 
 - *Export*  
-    Click the drop-down list to select the specific data to be exported. The drop-down list is only displayed when the**Customers/suppliers** option is selected in the *File content* drop-down list. The following options are available:  
+    Click the drop-down list to select the specific data to be exported. The drop-down list is only displayed when the **Customers/suppliers** option is selected in the *File content* drop-down list. The following options are available:  
     - **Customer/suppliers**
     - **Customers only**
     - **Suppliers only**
@@ -287,7 +287,7 @@ The list displays all available BMD tax mappings. Depending on the settings, the
         No tax key from automatic accounts will be added to split postings.
 
 - *Saved personal accounts length*  
-    Click the drop-down list to select the appropriate option. The account length refers to the number of characters used to define personal accounts and intends to avoid exporting incomplete account numbers. A account number length between 5 and 9 characters can be selected.
+    Click the drop-down list to select the appropriate option. The account length refers to the number of characters used to define personal accounts and intends to avoid exporting incomplete account numbers. An account number length between 5 and 9 characters can be selected.
 
 - *DATEV advisor number*  
     Enter the DATEV advisor number.
@@ -367,7 +367,7 @@ The list displays all available BMD tax mappings. Depending on the settings, the
         All data will be exported.
 
 - *Saved personal accounts length*  
-    Click the drop-down list to select the appropriate option. The account length refers to the number of characters used to define personal accounts and intends to avoid exporting incomplete account numbers. A account number length between 5 and 9 characters can be selected.
+    Click the drop-down list to select the appropriate option. The account length refers to the number of characters used to define personal accounts and intends to avoid exporting incomplete account numbers. An account number length between 5 and 9 characters can be selected.
 
 - *DATEV advisor number*  
     Enter the DATEV advisor number.
