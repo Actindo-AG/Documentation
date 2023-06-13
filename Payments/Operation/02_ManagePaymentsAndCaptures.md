@@ -4,7 +4,7 @@
 # Monitor payments and captures
 
 A capture is a payment made. The most payment service providers create a new reference, when a payment has been captured.
-> [Info] This means that you cannot follow up a case with the reference ID of an authorization transaction. However, the most payment service providers support an original reference ID that you can use to search for a specific case in the whole payment process.   
+> [Info] This means that you cannot follow up a case with the ID of an authorization transaction. However, the most payment service providers support an original reference ID that you can use to search for a specific case in the whole payment process.   
 
 You can use this procedure to display all incoming references to a payment and capture transaction from a payment service provider. You can check for communication errors between Actindo and the payment service provider that has been caused in a termination of a workflow, for example.   
 If you cannot deliver the product and want to give the money back to the customer, you can manually change the status of a transaction to "Refund" to initiate a repayment. Additionally, you can set the status to "Void" to clear the database from faulty entries.      
@@ -60,7 +60,7 @@ A capture provides numerous payment-related details, which may vary depending on
 
 ## Refund payment and capture transaction
 
-After you have checked a payment and capture transaction that could not be processed by the workflow, you can refund the payment and capture transaction manually, so that the order process can be cancelled.<!---ist das richtig-->
+After you have checked a payment and capture transaction that could not be processed by the workflow, you can refund the payment and capture transaction manually, so that the order process can be cancelled and the customer can get his or her money back.<!---ist das richtig-->
 
 
 #### Prerequisites

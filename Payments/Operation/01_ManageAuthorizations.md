@@ -12,10 +12,7 @@ An authorization transaction is the permission that your company is allowed to c
 For Actindo, the authorization transaction serves as a reference to a payment made by a customer.   
 You can use this procedure to display all incoming authorization transactions of a payment service provider. You can check for communication errors between Actindo and the payment service provider that has been caused in a termination of a workflow, for example. In addition, if applicable, you can change the status of a transaction to start continuing further processing or to end it.    
 
-If everything works fine with the posting of the payment, you do not need to monitor the *Authorizations* menu entry.   
-It may happen that in rare cases something went wrong when the workflow cannot post a payment correctly.   
-For example, this may happen, if something went wrong during pressing the *Pay now* button by the customer. In this case, the service payment provider may have sent two references to a payment to the *Payments* module. Now the workflow is not able to find the correct reference and ends with an error.   
-In case of those errors you can capture, cancel, or void an authorization transaction manually.   
+If everything works fine with the posting of a payment, you do not need to monitor the *Authorizations* menu entry. In case of errors you can capture, cancel, or void an authorization transaction manually.   
 > [Info] You can only change the status of an authorization transaction, but not any data.
 
 
@@ -48,7 +45,8 @@ An authorization transaction provides numerous payment-related details, which ma
        The transaction has been voided, see [Void authorization transaction](01_ManageAuthorizations.md#void-authorization-transaction).
     
 2. Click on the authorization transaction to see the details.   
-    The sub-tabs of the transaction are opened.  
+    The sub-tabs of the transaction are opened.   
+     
     *Payments > Authorizations > Tab LIST > Select Authorization transaction*  
 
     ![Authorization attributes and logs](../../Assets/Screenshots/Payments/Authorizations/CheckAttributes.png "[Authorization attributes and logs]")
@@ -66,7 +64,7 @@ After you have checked an authorization transaction that could not be processed 
 #### Prerequisites
 
 - The status of an authorization transaction is **not** "Success". In this case, further processing has already been continued.<!---Stimmt das oder gibt es noch mehr?-->   
-- It is recommended that you add the *Status ID* field to your view so that you are able to sort or filter for specific statuses. 
+
 
 #### Procedure
 *Payments > Authorizations > Tab LIST*
@@ -99,14 +97,14 @@ After you have checked an authorization transaction that could not be processed 
 1. Identify the communication issue that led to the error. To do this, check the authorization transaction you want to cancel, see [Check authorization transaction](01_ManageAuthorization.md#check-authorization-transaction).
 2. Select the authorization transaction you want to cancel by clicking the checkbox on the left.   
     The editing toolbar is displayed.
-3. Click the [Cancel] button.   <!---was passsiert dann?-->   
-   A confirmation message is displayed. The status of the authorization transaction remains at "Success".    
-   You can now follow up this case under the menu entry *Cancellations and chargebacks*. <!---Stefan ist das richtig?-->
+3. Click the [Cancel] button.   
+   A confirmation message is displayed. 
+   The payment service provider gets the information about the cancellation of the authorization transaction. The payment of the customer, blocked before by the payment service provider, is freed, and the customer get his or her money back.
+   
 
 
 
 ## Void authorization transaction
-
 
 You can void an authorization transaction, if you want to disable the transaction for the Actindo database. For example, for whatever reason the same transaction has been posted twice. In this case, you can void one of these transactions and continue the order process with the other transaction.
 > [Info] The payment service provider will not be informed about changing the status to "Void". It is only done to clear the database.

@@ -24,7 +24,7 @@ A cancellation and chargeback transaction provides numerous payment-related deta
 
 #### Procedure
 
-*Payments > Cancellations and chargebacks > Tab LIST > Select a cancellation and chargeback transaction*   
+*Payments > Cancellations and chargebacks > Tab LIST *   
 
 ![Cancellations and chargebacks](../../Assets/Screenshots/Payments/CancellationsChargebacks/LISTCancellationsChargebacks.png "[Cancellation and chargeback transaction]")
 
@@ -57,8 +57,9 @@ A cancellation and chargeback transaction provides numerous payment-related deta
 2. Click on a transaction to see the details.   
     The sub-tabs of the transaction are opened.   
 
-    ![Cancellations and chargebacks attributes and logs](../../Assets/Screenshots/Payments/CancellationsChargebacks/CheckCancellationsChargebacks.png "[Cancellations and chargebacks attributes and logs]")
+    *Payments > Cancellations and chargebacks> Tab LIST > Select a cancellation and chargeback transaction*  
 
+    ![Cancellations and chargebacks attributes and logs](../../Assets/Screenshots/Payments/CancellationsChargebacks/CheckCancellationsChargebacks.png "[Cancellations and chargebacks attributes and logs]")
 
 3. Check the attributes and logs of the transaction. For detailed information, see the following:
      - [LIST &ndash; Attributes](../UserInterface/05_ListCancellationsChargebacks.md#cancellations-and-chargebacks-–-attributes)

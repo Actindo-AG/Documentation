@@ -11,7 +11,7 @@ You can use this procedure to accept a refund so that the service payment provid
 
 You can also reject a refund, if it is not justified, for example, because the goods have already been delivered. In case of faulty transactions you can void them to clear the database.   
 
-In the settings might have been applied special permissions.
+In the settings might have been applied special permissions for this menu entry.
 > [Info] You might not be able to access this menu entry, because you have no permissions to do it. Furthermore, you may have access, but you are not permitted to execute refunds above a certain amount (for example, more than 50€). 
 
 
@@ -42,6 +42,8 @@ A confirmation transaction provides numerous payment-related details on a refund
 3. Click on a transaction to see the details.   
     The sub-tabs of the transaction are opened.   
 
+     *Payments > Confirmations > Tab LIST > Select confirmation transaction*  
+
     ![Confirmation attributes](../../Assets/Screenshots/Payments/Confirmations/AttributesConfirmation.png "[Confirmaton attributes]")
 4. If required, check the details of the refund. For more information, see the following:
      - [LIST &ndash; Attributes](../UserInterface/06_ListConfirmations.md#confirmations-–-attributes)
@@ -68,7 +70,7 @@ After you have checked a confirmation transaction and the reclaim is justified, 
 2. Select the confirmation transaction you want to execute by clicking the checkbox on the left.   
     The editing toolbar is displayed.
 3. Click the [Execute] button.
-   The entry disappears from the list. The workflow will now initiate a repayment of the money.
+   The entry disappears from the list. The workflow now initiates a repayment of the money.
 
 
 
@@ -95,7 +97,7 @@ After you have checked a confirmation transaction and the reclaim is **not** jus
     The editing toolbar is displayed.
 3. Click the [Reject] button. 
    A confirmation message is displayed.    
-   The status of the confirmation transaction will be internally changed to *Void*, but it will not be displayed. The workflow will now inform the payment service provider about the rejection of the refund.
+   The status of the confirmation transaction will be internally changed to *Void*, but it will not be displayed. The workflow informs the payment service provider about the rejection of the refund.
 
 
 

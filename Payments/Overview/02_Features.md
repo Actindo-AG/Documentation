@@ -9,6 +9,7 @@ Organize and monitor your incoming payments and refunds:
 - [Managing all payments centrally](./02_Features.md#managing-all-payments-centrally)  
 - [Handling of sensitive data](./02_Features.md#handling-of-sensitive-data)
 
+<!---Hallo Stefan, die folgenden Infos sind hauptsächlich von der Website. Ich bin mir da nicht sicher, ob das alles so stimmt-->
 
 ## Automated import
 With the *Payments* module of Actindo, pre-authorized payments are captured automatically at the moment orders are delivered. If products are announced, but not yet launched, customers can reserve a product and pay later when the shipment has started.
@@ -16,14 +17,8 @@ In case of returns or credit notes, refund requests are automatically sent out t
 The single steps of the payments process are usually integrated in an order workflow. The workflow controls that no products are shipped without a payment commitment from the customer.
 
 
-
 ## Connecting with payment service providers
 Youu can flexibly connect various payment service providers such as Adyen&trade;, Paypal&trade; to the *Actindo Core1 Platform*. Depending on the payment service provider you decide for, credit cards, bank transactions, and other standard payment methods are supported implicitly.
-
-
-## Generating payments for POS, telephone sales and sales representatives
-Depending on the type of integration, you can also generate payments from POS (Point of sale) terminals. Furthermore, you can process payments from telephone sales and field sales representatives just as easily.<!---Stefan, dieses ist aus der Website, Oliver sagte, dass Payment POS gar nicht unterstützt (es geht direkt in die Zahlungsabwicklung), sollen wir den Abschnitt herausnehmen?--> 
-
 
 
 ## Importing bank statements and automatic posting
@@ -31,12 +26,12 @@ Bank statements and reports from payment service providers can be automatically 
 
 
 ## Payment processing and accounting linked 
- The Actindo *Payment* module connects the business accounts at your various payment service providers and the Actindo *Payment Processing* module. In being the smart connection between those two modules, the Actindo *Payment* module helps you to process orders faster and more efficiently. Thanks to automated payment checks, incoming payments are registered directly, and orders could therefore be processed immediately. Refunds can be made just as quickly and automatically. By linking payment and accounting, you not only minimize the workload for your employees, but also offer your customers a smooth and fast service. 
+ The Actindo *Payment* module connects the business accounts at your various payment service providers and the Actindo *Payment Processing* module. In being the smart connection between those two modules, the Actindo *Payment* module helps you to process orders faster and more efficiently. Thanks to automated payment checks, incoming payments are registered directly, and orders could therefore be processed immediately. Refunds can be made just as quickly and automatically. By linking payment and accounting, you do not only minimize the workload for your employees, but also offer your customers a smooth and fast service. 
 
 
 ## Managing all payments centrally 
 The payment options for customers are diverse, and so are the payment service providers that exist on the market today. In order to be able to offer your customers the widest possible range of payment methods - from invoice to credit card to direct debit - cooperation with various providers is required and provided by Actindo. This enables the management of all payments and refunds centrally via the *Actindo Core1 Platform*.  
-In order to have consistent databases, the *Payments* module can reconcile each day whether all payments have been successfully transferred from the payment service provider to the *Payments* module, if this is supported by the payment service provider. In addition, the *Payments module* supports both asynchronous and synchronous processing.
+In order to have consistent databases and if this is supported by the payment service provider, the *Payments* module can reconcile each day whether all payments have been successfully transferred from the payment service provider to the *Payments* module. In addition, the *Payments module* supports both asynchronous and synchronous processing.
 
 
 ## Handling of sensitive data

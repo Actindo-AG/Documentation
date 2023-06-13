@@ -3,12 +3,12 @@
 
 # Monitor refunds
 
-A refund is a repayment of a capture. It is initialized by the trader, for example, if a product is not available and cannot be delivered.   
-> [Info] This means that you cannot follow up a case with the reference ID of an authorization or a payments and captures transaction. However, the most payment service providers support an original reference ID that you can use to search for a specific case in the whole payment process.
+A refund is a repayment of a capture. On the one hand, it is initialized by the trader, for example, if a product is not available and cannot be delivered. On the other hand, it is initialized if a payment and capture transaction has been manually refunded.
+> [Info] This means that you cannot follow up a case with the ID of an authorization or a payments and captures transaction. However, the most payment service providers support an original reference ID that you can use to search for a specific case in the whole payment process.
 
 You can use this procedure to display all incoming references to a refund from a payment service provider. You can check for communication errors between Actindo and the payment service provider that has been caused in a termination of a workflow, for example. In addition, if applicable, you can manually change the status of a transaction to *Void* to clear the database.    
    
-If everything works fine with the posting of a refund, you do not need to monitor the *Refunds* menu entry.   
+If everything works fine with the posting of a refund, you do not need to monitor the *Refunds* menu entry. You can follow up the successfully processed refunds with the *Confirmation* menu entry.
 
 ## Check refund transaction
 
@@ -22,6 +22,8 @@ A refund transaction provides numerous payment-related details, which may vary d
 - It is recommended that you add the *Status ID* field to your view so that you are able to sort or filter for specific statuses. 
 
 #### Procedure   
+
+*Payments > Refunds > Tab LIST* 
 
 ![Refund transactions](../../Assets/Screenshots/Payments/Refunds/LISTRefunds.png "[Refund transactions]")
 
@@ -42,7 +44,9 @@ A refund transaction provides numerous payment-related details, which may vary d
 
     
 2. Click on a transaction to see the details.   
-    The sub-tabs of the transaction are opened. 
+    The sub-tabs of the transaction are opened.   
+
+    *Payments > Refunds > Tab LIST > Select refund transaction*  
 
      ![Refunds attributes and logs](../../Assets/Screenshots/Payments/Refunds/CheckAttributes.png "[Refund attributes and logs]")
 
