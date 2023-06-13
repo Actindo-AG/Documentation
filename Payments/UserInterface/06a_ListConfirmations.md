@@ -111,10 +111,10 @@ The list displays all confirmation transactions. Depending on the payment servic
    Mostly, depending on the payment service provider, the order number. 
 
 - *Name*   
-   Full name <!---oder nur Vorname?--> of the person who has made the payment.   
+   First name of the person who has made the payment.   
 
 - *Surname*   
-   Surname of the person who has made the payment.   
+   Last name of the person who has made the payment.   
 
 - *Company*   
    Name of the company on whose behalf the payment was made.    

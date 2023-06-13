@@ -2,15 +2,14 @@
 
 In this part of the Payments documentation, you will find the following chapters:
 - [Monitor authorizations](./01_ManageAuthorizations.md)
-
-     - [Check authorization transaction](01_ManageAuthorizations.md#check-an-authorization-transaction)   
-     - [Capture authorization transaction](01_ManageAuthorizations.md#capture-an-authorization-transaction)   
-     - [Cancel authorization transaction](01_ManageAuthorizations.md#cancel-an-authorization-transaction)   
-     - [Void authorization transaction](01_ManageAuthorizations.md#void-an-authorization-transaction) 
+     - [Check authorization transaction](./01_ManageAuthorizations.md#check-an-authorization-transaction)   
+     - [Capture authorization transaction](./01_ManageAuthorizations.md#capture-an-authorization-transaction)   
+     - [Cancel authorization transaction](./01_ManageAuthorizations.md#cancel-an-authorization-transaction)   
+     - [Void authorization transaction](./01_ManageAuthorizations.md#void-an-authorization-transaction) 
 - [Monitor payments and captures](./02_ManagePaymentsAndCaptures.md)   
-     - [Check payment and capture transaction](02_ManagePaymentsAndCaptures.md#check-capture-transaction) 
-     - [Refund payment and capture transaction](02_ManagePaymentsAndCaptures.md#refund-payment-and-capture-transaction)   
-     - [Void payment and capture transaction](02_ManagePaymentsAndCaptures.md#void-payment-and-capture-transaction)   
+     - [Check payment and capture transaction](./02_ManagePaymentsAndCaptures.md#check-capture-transaction) 
+     - [Refund payment and capture transaction](./02_ManagePaymentsAndCaptures.md#refund-payment-and-capture-transaction)   
+     - [Void payment and capture transaction](./02_ManagePaymentsAndCaptures.md#void-payment-and-capture-transaction)   
      
 - [Monitor refunds](./03_ManageRefunds.md)   
      - [Check refund transaction](./03_ManageRefunds.md#check-capture-transaction)    

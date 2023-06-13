@@ -7,7 +7,7 @@ If you want to establish a new connection to a payment service provider (PSP), y
 - Amazon pay&trade;
 - EBICS&trade;
 - Stripe&trade;
-- A dummy driver to simulate payments     
+- A dummy driver to simulate payments for testing purposes    
 
 The data structure of the connection then provides exactly the data that the PSP needs to exchange data with the Actindo *Payments* module.
 
@@ -17,7 +17,7 @@ or disable connections are described.
 
 ## Create a PSP connection
 
-Create a connection to a certain payment provider. As soon you have established a connection, an initial synchronization will be triggered, which will transfer the entire data model of the connected payment provider to Actindo. 
+Create a connection to a certain payment provider. As soon you have established a connection, an initial synchronization will be triggered, which will transfer the entire data model of the connected payment service provider to Actindo. 
 
 
 #### Prerequisites

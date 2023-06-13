@@ -11,7 +11,7 @@ You can use this procedure to display all incoming references to cancellations a
 If everything works fine with the posting of a cancellation and chargeback, you do not need to monitor the *Cancellations and chargebacks* menu entry.  
 
 
-## Check cancellations and chargeback transaction
+## Check cancellation and chargeback transaction
 
 A cancellation and chargeback transaction provides numerous payment-related details, which may vary depending on the payment service provider settings. To decide whether you can manually void a cancellation and cancellation and chargeback transaction, you need to check its details.  
 > [Info] You can only change the status of a chargeback transaction, but not any data.
