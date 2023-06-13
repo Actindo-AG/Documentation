@@ -8,7 +8,6 @@ In this part of the *Payments* documentation, you will find the following chapte
 - [Key features](./02_Features.md)
      - [Automated import](./02_Features.md#automated-import)      
      - [Connecting with payment service providers](./02_Features.md#connection-of-payment-service-providers)   
-     - [Generating payments for POS, telephone sales and sales representatives](./02_Features.md#generation-of-payments-for-pos-telephone-sales-and-sales-representatives)   
      - [Importing bank statements and automatic posting](./02_Features.md#import-of-bank-statements-and-automatic-posting)   
      - [Payment processing and accounting linked](./02_Features.md#payment-processing-and-accounting-linked)   
      - [Managing all payments centrally](./02_Features.md#managing-all-payments-centrally)  

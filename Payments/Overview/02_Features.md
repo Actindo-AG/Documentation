@@ -2,8 +2,7 @@
 Organize and monitor your incoming payments and refunds:   
 
 - [Automated import](./02_Features.md#automated-import)      
-- [Connectiing with payment service providers](./02_Features.md#connection-of-payment-service-providers)   
-- [Generating payments for POS, telephone sales and sales representatives](./02_Features.md#generation-of-payments-for-pos-telephone-sales-and-sales-representatives)   
+- [Connecting with payment service providers](./02_Features.md#connection-of-payment-service-providers)      
 - [Importing bank statements and automatic posting](./02_Features.md#import-of-bank-statements-and-automatic-posting)   
 - [Payment processing and accounting linked](./02_Features.md#payment-processing-and-accounting-linked)   
 - [Managing all payments centrally](./02_Features.md#managing-all-payments-centrally)  
@@ -30,7 +29,7 @@ Bank statements and reports from payment service providers can be automatically 
 
  **Payments interaction with other modules** 
 
-![Payments interaction with other modules](../../Assets/Screenshots/Payments/Overview/PaymentsprocessModules.png "[Payments interaction with other modules]")
+![Payments interaction with other modules](../../Assets/Screenshots/Payments/Overview/PaymentsProcessModules.png "[Payments interaction with other modules]")
 
 
 ## Managing all payments centrally 
