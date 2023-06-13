@@ -24,9 +24,7 @@ Fully integrated financial accounting with the *Accounting* module:
     Data can be exported in standardized format for DATEV, SAP FICO, GDPdU or configured individually. Mapping functions for export to third-party systems are also available.
 
 - Fully automatic dunning  
-    The system recognizes open receipts and sends out fully automatic reminders.
-
-  [comment]: <> (Finance team lead: Das könnte missverstanden werden. Der Mahnprozess muss schon manuell angestoßen werden. Weglassen?)
+    Based on the open receipts posted in the *Accounting* module, the system suggests pending dunning notices in the *Order management* module. Once the dunning process has been set up and activated, the system sends out fully automatic reminders. 
 
 
 ## Modern accounting
@@ -41,7 +39,5 @@ Before switching to a Digital Operations Platform, companies usually already use
 
 ## Actindo digital payments hub
 
-**Automated payment processes with the payments and accounting module**  
-The automatic processing and booking of payments are important success and efficiency factors for companies. Especially when orders are received from several sales channels and different payment methods are offered via external service providers. By linking the *Accounting* and *Payments* modules, the *Actindo Core1 Platform* enables a holistic automated process flow from the receipt of payments, through processing, to the final allocation of incoming payments. Our *Payments processing* module acts as a link between payment providers and Actindo accounting.  
-
-[comment]: <> (Finance team lead: stimmt das so?)
+**Automated payment processes with the payment processing and accounting module**  
+The automatic processing and posting of payments are important success and efficiency factors for companies,  especially when orders are received from several sales channels and different payment methods are offered via external service providers. By linking the *Accounting* and *Payment processing* modules, the *Actindo Core1 Platform* enables a holistic automated process flow from the receipt of payments, through processing, to the final allocation of incoming payments. Our *Payment processing* module acts as a link between payment providers and Actindo accounting.  

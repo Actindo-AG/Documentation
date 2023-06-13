@@ -8,15 +8,15 @@
 
 ![Search](../../Assets/Screenshots/RetailSuiteAccounting/Book/Search/Search01.png "[Search]")
 
-When clicking the *SEARCH* tab, the search side bar is unfolded. You can search for a specific account or posting using different search criteria. For detailed information about searching for an account or a posting, see [Search in accounting](../Operation/14_SearchAccounting.md).
+When clicking the *SEARCH* tab, the search side bar is expanded. You can search for a specific account or posting using different search criteria. For detailed information about searching for an account or a posting, see [Search in accounting](../Operation/14_SearchAccounting.md).
 
 In all tabs of the *Post* menu entry, an identical header is displayed. For detailed information on the contained elements and the corresponding functions, see [Postings header](./01_Header.md).
 
-- ![Right arrow](../../Assets/Icons/Close.png "[Right arrow]") (Right arrow)  
-    Click this arrow to fold in the *Post extras* search side bar.
+- ![Rightward arrow](../../Assets/Icons/Close.png "[Rightward arrow]") (Rightward arrow)  
+    Click this arrow to collapse the *Post extras* search side bar.
 
-- ![Left arrow](../../Assets/Icons/Back02.png "[Left arrow]") (Left arrow)   
-    Click this arrow to unfold the *Post extras* search side bar.
+- ![Leftward arrow](../../Assets/Icons/Back02.png "[Leftward arrow]") (Leftward arrow)   
+    Click this arrow to expand the *Post extras* search side bar.
 
 The *Post extras* search side bar contains two tabs:
 - [*Accounts*](#accounts): Search for accounts
@@ -27,7 +27,7 @@ The *Post extras* search side bar contains two tabs:
 ## Accounts
 
 *Accounting > Post > Tab SEARCH > Tab Accounts*   
-*Accounting > Post > Unfold search side bar > Tab Accounts*
+*Accounting > Post > Expand search side bar > Tab Accounts*
 
 ![Accounts](../../Assets/Screenshots/RetailSuiteAccounting/Book/Search/BookExtrasAccounts.png "[Accounts]")
 
@@ -73,7 +73,7 @@ All available accounts that match the search criteria are displayed in a list be
 ## Search
 
 *Accounting > Post > Tab SEARCH > Tab Search*    
-*Accounting > Post > Unfold search side bar > Tab Search*
+*Accounting > Post > Expand search side bar > Tab Search*
 
 ![Search](../../Assets/Screenshots/RetailSuiteAccounting/Book/Search/BookExtrasSearch.png "[Search]")
 

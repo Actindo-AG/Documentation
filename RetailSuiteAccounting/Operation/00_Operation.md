@@ -51,12 +51,12 @@ In this part of the *Accounting* documentation, you will find the following chap
 - [Post exchange rate fluctuations](./12_BookExchangeRateFluctuations.md)
 
 
-- [Search in accounting](./14_SearchAccounting.md)
+- [Search for accounting data](./14_SearchAccounting.md)
     - [Search for an account](./14_SearchAccounting.md#search-for-an-account)
     - [Search for a posting](./14_SearchAccounting.md#search-for-a-posting)
 
 
-- [Provide the accounting data](./15_ProvideAccountingData.md)
+- [Provide accounting data](./15_ProvideAccountingData.md)
     - [Export the data for DATEV](./15_ProvideAccountingData.md#export-the-data-for-DATEV)
     - [Export the data GDPdU-compliant](./15_ProvideAccountingData.md#export-the-data-GDPdU-compliant)
     - [Create a PDF evaluation](./15_ProvideAccountingData.md#create-a-PDF-evaluation)

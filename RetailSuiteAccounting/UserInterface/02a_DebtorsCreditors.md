@@ -6,14 +6,14 @@
 
 *Accounting > Settings > Tab DEBTORS/CREDITORS*
 
-![Customer/Supplier](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/CustomerSupplierList.png "[Customer/supplier]")
+![Debtors/creditors](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/CustomerSupplierList.png "[Debtors/creditors]")
 
 The *DEBTORS/CREDITORS* tab displays a customer/supplier list and allows to create, edit and delete customers (debtors) and suppliers (creditors). For detailed information about managing customers and suppliers, see [Manage the customer/supplier](../Integration/05_ManageCustomer/Supplier.md).
 
 The *DEBTORS/CREDITORS* tab contains in turn two tabs:
 
   - Customer/supplier list, see [Customer/supplier list](#customer/supplier-list).
-  - Create customer/supplier, see [Create customer/supplier](#create-customer/supplier). When selecting a customer/supplier from the customer/supplier list, the tab name changes to *Customer/supplier "Customer/supplier number"*, see [Customer/supplier "Customer/supplier number"](#customer/supplier-number).
+  - Create customer/supplier, see [Create customer/supplier](#create-customer/supplier). When selecting a customer/supplier from the customer/supplier list, the tab name changes to *Customer/supplier "Customer/supplier number"*, see [Customer/supplier "Customer/supplier number"](#customer/supplier).
 
 The identical customer/supplier list is available in the *Order management* module: *Order management > Customers/suppliers*. The list is synchronized between the two modules so that the same data can be accessed.
 
@@ -596,7 +596,7 @@ To add further information, select the corresponding supplier in the *Customer/s
     Enter any other relevant information.
 
 
-**Document Dispatch Notification Settings**
+**Document dispatch notification settings**
 
 > [Info] This section is only relevant for customers, not for suppliers.
 
@@ -664,7 +664,9 @@ The displayed sub-tabs and information may vary depending on whether a customer 
 
 ![Address/contact](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/EditCustomerSupplier.png "[Address/contact]")
 
-This sub-tab is identical to the one displayed when creating a customer/supplier. For a detailed description, see [Address/contact](#address/contact).
+This sub-tab is identical to the one displayed when creating a customer/supplier. For a detailed description of this window and the corresponding functions, see [Address/contact](#address/contact).
+
+Additionally, the following buttons are displayed in the bottom right corner of the workspace:
 
 - [NEW/RESET]     
     Click this button to reset the *Customer/supplier "Customer/supplier number"* tab and create a new customer/supplier. The *Customer/supplier "Customer/supplier number"* tab is closed and changes automatically to the *Create customer/supplier* tab.
@@ -822,6 +824,8 @@ Click the [CREATE] button to display the *Add* section or select the checkbox of
 - [SAVE]  
     Click this button to save the address.
 
+Additionally, the following buttons are displayed in the bottom right corner of the workspace:
+
 - [NEW/RESET]     
     Click this button to reset the *Customer/supplier "Customer/supplier number"* tab and create a new customer/supplier. The *Customer/supplier "Customer/supplier number"* tab is closed and changes automatically to the *Create customer/supplier* tab.
 
@@ -838,7 +842,9 @@ Click the [CREATE] button to display the *Add* section or select the checkbox of
 
 ![Invoicing](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/Billing02.png "[Invoicing]")
 
-This sub-tab is identical to the one displayed when creating a customer/supplier. For a detailed description, see [Invoicing](#invoicing).
+This sub-tab is identical to the one displayed when creating a customer/supplier. For a detailed description of this window and the corresponding functions, see [Invoicing](#invoicing).
+
+Additionally, the following buttons are displayed in the bottom right corner of the workspace:
 
 - [NEW/RESET]    
     Click this button to reset the *Customer/supplier "Customer/supplier number"* tab and create a new customer/supplier. The *Customer/supplier "Customer/supplier number"* tab is closed and changes automatically to the *Create customer/supplier* tab.
@@ -911,6 +917,17 @@ The list displays all available additional fields. Depending on the settings, th
 - [CLEAR]  
     Click this button to clear the fields.
 
+Additionally, the following buttons are displayed in the bottom right corner of the workspace:
+
+- [NEW/RESET]    
+    Click this button to reset the *Customer/supplier "Customer/supplier number"* tab and create a new customer/supplier. The *Customer/supplier "Customer/supplier number"* tab is closed and changes automatically to the *Create customer/supplier* tab.
+
+- [DELETE CUSTOMER "CUSTOMER NUMBER"]/[DELETE SUPPLIER "SUPPLIER NUMBER"]  
+    Click this button to delete the selected customer/supplier.
+
+- [SAVE]  
+    Click this button to save all changes made to the selected customer/supplier.
+
 
 ### Content
 
@@ -960,7 +977,7 @@ The list displays all attached content, for instance files and links. Depending 
 
 **Add/Edit**
 
-![Content](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/ContentAddEdit.png "[Content]")
+![Add/Edit](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/ContentAddEdit.png "[Add/Edit]")
 
 [comment]: <> (Edit section nicht vollständig angezeigt - Anzeigefehler - Bug Ticket)
 
@@ -977,7 +994,7 @@ Click the [CREATE] button to display the *Add* section or select the checkbox of
         Attach a link to a website. The *Link* and the *Link target* fields are displayed.
     - **File**   
         Attach a file. The *File* field is displayed.
-    - **HTML**
+    - **HTML**   
         Attach an HTML document. An HTML editor is displayed.
 
 - *Name/Title*  
@@ -991,9 +1008,9 @@ Click the [CREATE] button to display the *Add* section or select the checkbox of
 
 - *Link target*  
     Click the drop-down list to select the appropriate option. This drop-down list is only displayed if the **Link** option in the *Type* drop-down list has been selected. The following options are available:  
-    - **New window**
+    - **New window**   
         The website is displayed in a new window.
-    - **Same window**  
+    - **Same window**   
         The website is displayed in the same window.
 
 - *File*  
@@ -1012,6 +1029,8 @@ Click the [CREATE] button to display the *Add* section or select the checkbox of
     Click this button to clear the input fields.
 
     > [Info] Make sure to clear all input fields before adding new content. Otherwise, the newly entered content will replace the selected content from the list.
+
+Additionally, the following buttons are displayed in the bottom right corner of the workspace:
 
 - [NEW/RESET]    
     Click this button to reset the *Customer/supplier "Customer/supplier number"* tab and create a new customer/supplier. The *Customer/supplier "Customer/supplier number"* tab is closed and changes automatically to the *Create customer/supplier* tab.
@@ -1049,6 +1068,7 @@ The list displays all documents of the selected customer. Depending on the setti
 
 - *Document no.*  
     Document identification number. The abbreviations indicate the type of document. The following document types are available:  
+
     - *AN*: Offer
     - *AB*: Order confirmation
     - *RE*: Invoice
@@ -1063,10 +1083,8 @@ The list displays all documents of the selected customer. Depending on the setti
     - *PR*: Pro-forma invoice
     - *ST*: Reversal document
     - *LD*: Dropship delivery note
-    - *RT*:* Return
-    - *RS*: Return to customer
-
-[comment]: <> (Check Terminologie, z.B. Fakturierung/Detail/Create drop-down menu oder Settings, und Abkürzungen! Partial invoice = Abschlagsrechnung? Partial invoice or Budget billing invoice? Wertgutschrift = value credit or credit note? Leihbeleg = Loan voucher or Loan receipt? Stornobeleg = Cancellation document or Reversal document? Rücksendung = Return to customer or Return? Retoure ist auch Return)
+    - *RT*: Return
+    - *RS*: Return to customer or supplier
 
 - *SKU*  
     Stock Keeping Unit. Product identification code.
@@ -1133,6 +1151,8 @@ The list displays all documents of the selected customer. Depending on the setti
 - [RESET]  
     Click this button to reset the receipt list view.
 
+Additionally, the following buttons are displayed in the bottom right corner of the workspace:
+
 - [NEW/RESET]    
     Click this button to reset the *Customer/supplier "Customer/supplier number"* tab and create a new customer/supplier. The *Customer/supplier "Customer/supplier number"* tab is closed and changes automatically to the *Create customer/supplier* tab.
 
@@ -1159,7 +1179,7 @@ This sub-tab is only displayed when the selected customer has already placed at 
 
   The *Statistics extras* side bar is expanded. Depending on the selected option, the fields in the *Statistics extras* side bar as well as the columns displayed in the list of statistics vary.
 
-- ![Open](../../Assets/Icons/Back02.png "[Open]") (Open)  
+- ![Leftward arrow](../../Assets/Icons/Back02.png "[Leftward arrow]") (Leftward arrow)  
     Click this arrow to expand the *Statistics extras* side bar.
 
 #### Statistics extras
@@ -1170,7 +1190,7 @@ This sub-tab is only displayed when the selected customer has already placed at 
 
 ![Statistics extras](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/StatisticsExtras01.png "[Statistics extras]")
 
-- ![Close](../../Assets/Icons/Close.png "[Close]") (Close)  
+- ![Rightward arrow](../../Assets/Icons/Close.png "[Rightward arrow]") (Rightward arrow)  
     Click this arrow to collapse the *Statistics extras* side bar.
 
 *Period selection*
@@ -1213,7 +1233,7 @@ This sub-tab is only displayed when the selected customer has already placed at 
 
 This *Statistics extras* window is identical to the one displayed when selecting the **Number of units sold per product** option in the *Statistic type* drop-down list.
 
-- ![Close](../../Assets/Icons/Close.png "[Close]") (Close)  
+- ![Rightward arrow](../../Assets/Icons/Close.png "[Rightward arrow]") (Rightward arrow)  
     Click this arrow to collapse the *Statistics extras* side bar.
 
 *Period selection*
@@ -1266,7 +1286,7 @@ This *Statistics extras* window is identical to the one displayed when selecting
 
 This *Statistics extras* window is identical to the one displayed when selecting the **Turnover per product** option in the *Statistic type* drop-down list.
 
-- ![Close](../../Assets/Icons/Close.png "[Close]") (Close)  
+- ![Rightward arrow](../../Assets/Icons/Close.png "[Rightward arrow]") (Rightward arrow)  
     Click this arrow to collapse the *Statistics extras* side bar.
 
 *Period selection*
@@ -1404,6 +1424,8 @@ The list displays the statistics according to the filter settings selected in th
 
     > [Info] The [EXCEL] button is only displayed if the *Statistics* module is installed.
 
+Additionally, the following buttons are displayed in the bottom right corner of the workspace:
+
 - [NEW/RESET]    
     Click this button to reset the *Customer/supplier "Customer/supplier number"* tab and create a new customer/supplier. The *Customer/supplier "Customer/supplier number"* tab is closed and changes automatically to the *Create customer/supplier* tab.
 
@@ -1424,7 +1446,7 @@ The information displayed in the print view is identical to the one displayed in
 - *Customer number*  
     Number of selected customer.
 
-- *Name*
+- *Name*   
     Name of selected customer.
 
 - [Print]  
@@ -1458,6 +1480,7 @@ This sub-tab is only displayed when selecting a supplier in the *Customer/suppli
 
 
 #### Shipper
+
 *Accounting > Settings > Tab DEBTORS/CREDITORS > Tab Customer/supplier list > Select supplier > Sub-tab Drop shipping > Drop shipping settings side menu > Menu entry Shipper*
 
 ![Shipper](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/DropShippingShipper.png "[Shipper]")
@@ -1490,9 +1513,7 @@ Depending on the supplier selected, the sections and fields displayed may slight
     - **No export**
 
 - *Number of data records per file*  
-    Enter the desired number of data records per file.
-
-[comment]: <> (Gibt es eine Begrenzung?)
+    Enter the desired number of data records per file. The number of data records per file is preset to 999.
 
 - *Export definition*  
     Click the drop-down list to select the export definition. By default, the following options are available:  
@@ -1505,8 +1526,6 @@ Depending on the supplier selected, the sections and fields displayed may slight
 
 - *Export file name*  
     Enter the export file name.
-
-[comment]: <> (versand-%p.csv -> Muss man es so beibehalten und dann % ersetzen? Oder kann die Datei beliebig genannt werden?)
 
 **Export specifications**
 
@@ -1638,8 +1657,6 @@ Depending on the supplier selected, the sections and fields displayed may slight
 - *Import file name*  
     Enter the import file name.
 
-[comment]: <> (import*.csv -> Default value? Muss man es so beibehalten und dann * ersetzt? Oder egal?)
-
 **Import from the ECM**
 
 - *Import from the ECM*  
@@ -1682,9 +1699,11 @@ Depending on the supplier selected, the sections and fields displayed may slight
 
 ![CRM information](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/CRMInformation02a.png "[CRM information]")
 
-This sub-tab is identical to the one displayed when creating a customer/supplier. For a detailed description, see [CRM information](#crm-information).
+This sub-tab is identical to the one displayed when creating a customer/supplier. For a detailed description of this window and the corresponding functions, see [CRM information](#crm-information).
 
 > [Info] When selecting a supplier (account number range 70000-99999) in the *Customer/supplier list*, only the *General* and *Credit rating* sections are displayed. Moreover, the *General* section contains only the *Supervisor*, *Area*, *Last pers. contact*, *Industry* and *Industry 2* fields.
+
+Additionally, the following buttons are displayed in the bottom right corner of the workspace:
 
 - [NEW/RESET]  
     Click this button to reset the *Customer/supplier "Customer/supplier number"* tab and create a new customer/supplier. The *Customer/supplier "Customer/supplier number"* tab is closed and changes automatically to the *Create customer/supplier* tab.
@@ -1702,7 +1721,9 @@ This sub-tab is identical to the one displayed when creating a customer/supplier
 
 ![Notes](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/Notes02.png "[Notes]")
 
-This sub-tab is identical to the one displayed when creating a customer/supplier. For a detailed description, see [Notes](#notes).
+This sub-tab is identical to the one displayed when creating a customer/supplier. For a detailed description of this window and the corresponding functions, see [Notes](#notes).
+
+Additionally, the following buttons are displayed in the bottom right corner of the workspace:
 
 - [NEW/RESET]    
     Click this button to reset the *Customer/supplier "Customer/supplier number"* tab and create a new customer/supplier. The *Customer/supplier "Customer/supplier number"* tab is closed and changes automatically to the *Create customer/supplier* tab.
@@ -1765,7 +1786,7 @@ The list displays all additional fields. Depending on the settings, the displaye
 
 **Add/Edit**
 
-![Add additional fields](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/EditAdditionalFieldsAddEdit.png "[Add additional fields]")
+![Add/Edit](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/EditAdditionalFieldsAddEdit.png "[Add/Edit]")
 
 Click the [CREATE] button to display the *Add* section or select the checkbox of an additional field to display the *Edit* section. The fields in the *Add* and the *Edit* section are identical.
 
@@ -1829,7 +1850,7 @@ Depending on the selected field type, different fields are displayed.
     - **Return**
     - **Return to customer or supplier**
 
-  [comment]: <> (Terminologie prüfen/vereinheitlichen wenn Belegetypen beschrieben in allg. Core1 Doku)
+  [comment]: <> (Terminologie prüfen/vereinheitlichen wenn Belegetypen beschrieben in Order Management Doku)
 
 - *Values*  
     Click the *Value* and *Text* fields in the input box to enter data. If no input line exists, click the [ADD] button. The input box is only displayed for the *Combo box* field type.

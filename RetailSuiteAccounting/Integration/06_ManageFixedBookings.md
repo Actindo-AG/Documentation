@@ -1,5 +1,5 @@
-[!!Select a fiscal year](../Operation/01_SelectFiscalYear.md)  
-[!!User interface Select fiscal year](../UserInterface/00a_FiscalYear.md)  
+[!!Select a fiscal year](../Operation/01_SelectFiscalYear.md)
+[!!User interface Select fiscal year](../UserInterface/00a_FiscalYear.md)
 [!!User interface Fixed postings](../UserInterface/02f_FixedBookings.md)  
 
 # Manage the fixed postings

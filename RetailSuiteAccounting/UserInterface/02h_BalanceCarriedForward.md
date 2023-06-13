@@ -22,6 +22,8 @@ This tab displays the special journals predefined in the system to carry balance
 
     These predefined account classes can be edited, if necessary. By default, the account classes 5 to 7 are available and can be individually configured.
 
+[comment]: <> (Financial lead: Unlogisch im System, also Journal 93 P&L -> Aufwands- und Ertragskonten werden nicht vorgetragen. FETA Ticket?)
+
 Depending on whether a free or an already configured account class has been selected, either new values can be entered in the following fields, or the existing values can be edited.
 
 - *Journal*  
@@ -54,9 +56,7 @@ Depending on whether a free or an already configured account class has been sele
 - [DELETE]  
     Click this button to delete the selected account class.
 
-    > [Info] The predefined account classes cannot be deleted. Therefore, the [DELETE] button is inactive when these account classes are selected.
-
-[comment]: <> (DELETE Button ausgegraut sowohl in voreingestellten Kontenklassen als auch in Selbsterstellten - Bug Ticket?)
+[comment]: <> (DELETE Button immer ausgegraut, sowohl in voreingestellten Kontenklassen als auch in Selbsterstellten, kein Löschen möglich - Bug Ticket)
 
 - [CLEAR]  
     Click this button to clear all input fields.  

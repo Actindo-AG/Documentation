@@ -1,6 +1,6 @@
-[!!Select fiscal year](../Operation/01_SelectFiscalYear.md)  
-[!!User interface Select fiscal year](../UserInterface/00a_FiscalYear.md)  
-[!!User interface Settings fiscal years](../UserInterface/02d_FiscalYears.md)  
+[!!Select fiscal year](../Operation/01_SelectFiscalYear.md)
+[!!User interface Select fiscal year](../UserInterface/00a_FiscalYear.md)
+[!!User interface Settings fiscal years](../UserInterface/02d_FiscalYears.md)
 
 [comment]: <> (Link zu Order Management hinzufügen, wenn verfügbar)  
 
@@ -33,6 +33,8 @@ A fiscal year has been selected, see [Select the fiscal year](../Operation/01_Se
 2.  Enter the start and end date of the fiscal year in the *From* and *To* fields. By default, the current calendar year is preselected as time period for the fiscal year.
 
     > [Info] The fiscal year must consist of 12 months. However, it does not have to be a calendar year, but can be, for example from April 1 to March 31. Fiscal years cannot overlap in time, for example, fiscal years 2022 and 2022-2023 cannot coexist. If two fiscal years overlap, an error message will be displayed.
+
+[comment]: <> (Financial lead: wenn das Wirtschaftsjahr grundsätzlich 12 Monate beinhalten muss, ist das eine Einschränkung, die ggf. programmseitig angepasst werden muss. Bei Unternehmensneugründungen z.B. mitten im Jahr, angenommen im Juli hat dieses neugegründete Unternehmen im ersten Jahr ein "Rumpfwirtschaftsjahr", d.h. von Juli bis Dezember. Das wäre dann mittels unserer Buchhaltung nicht möglich. FETA Ticket?)
 
 3. Click the *Currency* drop-down list and select the base currency. The drop-down list displays all currencies configured in the system. However, the accounting module works with the base currency only.
 

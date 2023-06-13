@@ -1,9 +1,9 @@
-[!!Manage accounts](../Integration/03_ManageAccounts.md)  
-[!!User interface Postings](../UserInterface/01a_Bookings.md)  
-[!!User interface Search](../UserInterface/01e_Search.md)  
+[!!Manage accounts](../Integration/03_ManageAccounts.md)
+[!!User interface Postings](../UserInterface/01a_Bookings.md)
+[!!User interface Search](../UserInterface/01e_Search.md)
 [!!User interface Accounts](../UserInterface/02b_Accounts.md)  
 
-# Search in accounting
+# Search for accounting data
 
 The extended search function in the *Accounting* module allows to search for a specific account or posting using different search criteria. This is useful to locate specific data for correction or checking purposes.
 
@@ -28,7 +28,7 @@ A fiscal year has been selected, see [Select fiscal year](./01_SelectFiscalYear.
 
 ![Search](../../Assets/Screenshots/RetailSuiteAccounting/Book/Search/Search01.png "[Search]")
 
-> [Info] The *Post extras* side bar can be displayed at any time and in any tab of the *Post* menu entry by clicking the ![Left arrow](../../Assets/Icons/Back02.png "[Left arrow]") (Left arrow) button or hidden by clicking the ![Right arrow](../../Assets/Icons/Close.png "[Right arrow]") (Right arrow) button.
+> [Info] The *Post extras* side bar can be displayed at any time and in any tab of the *Post* menu entry by clicking the ![Leftward arrow](../../Assets/Icons/Back02.png "[Leftward arrow]") (Leftward arrow) button or hidden by clicking the ![Rightward arrow](../../Assets/Icons/Close.png "[Rightward arrow]") (Rightward arrow) button.
 
 1. Click the *QUICK SEARCH* button.  
     A filter list with the *Acc. no.* and *Description* entries is displayed.
@@ -59,7 +59,7 @@ A fiscal year has been selected, see [Select fiscal year](./01_SelectFiscalYear.
 
 ![Search](../../Assets/Screenshots/RetailSuiteAccounting/Book/Search/Search02.png "[Search]")
 
-> [Info] The *Post extras* side bar can be displayed at any time and in any tab of the *Post* menu entry by clicking the ![Left arrow](../../Assets/Icons/Back02.png "[Left arrow]") (Left arrow) button or hidden by clicking the ![Right arrow](../../Assets/Icons/Close.png "[Right arrow]") (Right arrow) button.
+> [Info] The *Post extras* side bar can be displayed at any time and in any tab of the *Post* menu entry by clicking the ![Leftward arrow](../../Assets/Icons/Back02.png "[Leftward arrow]") (Leftward arrow) button or hidden by clicking the ![Rightward arrow](../../Assets/Icons/Close.png "[Rightward arrow]") (Rightward arrow) button.
 
 1. In the *Active* column, select the checkbox of the desired search criterion you want to apply to your search. The following search criteria are available:  
 

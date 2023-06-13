@@ -82,7 +82,7 @@ In this part of the *Accounting* documentation, you will find the following chap
         - [CRM information](./02a_DebtorsCreditors.md#crm-information)
         - [Notes](./02a_DebtorsCreditors.md#notes)
 
-    - [Customer/supplier "Customer/supplier number"](./02a_DebtorsCreditors.md#customer/supplier-number)
+    - [Customer/supplier "Customer/supplier number"](./02a_DebtorsCreditors.md#customer/supplier)
         - [Address/contact](./02a_DebtorsCreditors.md#address/contact-1)
         - [Further addresses](./02a_DebtorsCreditors.md#further-addresses)
         - [Invoicing](./02a_DebtorsCreditors.md#invoicing-1)
@@ -101,8 +101,8 @@ In this part of the *Accounting* documentation, you will find the following chap
 - [TAX KEYS](./02c_TaxKeys.md)
 
 - [FISCAL YEARS](./02d_FiscalYears.md)
-    - [Import postings](./02d_FiscalYears.md#import-bookings)
-    - [Export postings](./02d_FiscalYears.md#export-bookings)
+    - [Import postings](./02d_FiscalYears.md#import-postings)
+    - [Export postings](./02d_FiscalYears.md#export-postings)
 
 - [COST ACCOUNTING](./02e_CostAccounting.md)
     - [Cost center](./02e_CostAccounting.md#cost-center)
@@ -113,7 +113,7 @@ In this part of the *Accounting* documentation, you will find the following chap
     - [Print cost center/object](./02e_CostAccounting.md#print-cost-centerobject)
 
 - [FIXED POSTINGS](./02f_FixedBookings.md)
-    - [Fixed posting batch name](./02f_FixedBookings.md#fixed-booking--batch)
+    - [Fixed posting batch name](./02f_FixedBookings.md#fixed-postings-–-batch)
 
 - [FOLLOW-ON POSTINGS](./02g_FollowOnBookings.md)
 

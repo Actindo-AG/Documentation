@@ -2,7 +2,7 @@
 [!!Cancel a posting](../Operation/05_CancelBooking.md)
 [!!Split a posting](../Operation/09_SplitBooking.md)
 [!!Manage the tax keys](../Integration/02_ManageTaxKeys.md)
-[!!Manage the accounts](../Integration/03_ManageAccounts.md)
+[!!Manage the accounts](../Integration/03_ManageAccounts.md)  
 
 
 # Contra account and special functions

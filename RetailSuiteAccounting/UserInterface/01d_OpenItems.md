@@ -106,4 +106,4 @@ In all tabs of the *Post* menu entry, an identical footer with the input line is
 
 *Accounting > Post > Tab OPEN ITEMS > Button B*
 
-For a detailed description of the contained elements and the corresponding functions, see [Attached document](./01_Header.md#attached-document).
+For a detailed description of this window and the corresponding functions, see [Attached document](./01_Header.md#attached-document).

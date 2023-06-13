@@ -1,5 +1,5 @@
 [!!Manage accounts](../Integration/03_ManageAccounts.md)
-[!!User interface Postings header](../UserInterface/01_Header.md)  
+[!!User interface Postings header](../UserInterface/01_Header.md)
 [!!User interface Accounts](../UserInterface/02b_Accounts.md)  
 
 # Post exchange rate fluctuations

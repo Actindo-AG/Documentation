@@ -1,4 +1,4 @@
-[!!Select the fiscal year](../Operation/01_SelectFiscalYear.md)  
+[!!Select the fiscal year](../Operation/01_SelectFiscalYear.md)
 [!!User interface Follow-on postings](../UserInterface/02g_FollowOnBookings.md)  
 
 # Manage the follow-on postings

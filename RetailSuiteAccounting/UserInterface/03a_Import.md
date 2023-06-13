@@ -69,7 +69,7 @@ The following import options are available in the tab:
 - [CONTINUE]  
     Click this button to proceed to the next step. This button is locked until a file has been uploaded. The *Converted* confirmation window is displayed. Click the [OK] button to continue and follow the on-screen instructions to complete the import process.
 
-    > [Info] If you need further assistance, contact your MPS consultant.
+    > [Info] If you need further assistance, please contact your MPS consultant.
 
 
 
@@ -204,7 +204,7 @@ The following import options are available in the tab:
 - [FINALIZE]  
     Click this button and follow the on-screen instructions to complete the import process. 
 
-    > [Info] If you need further assistance, contact your MPS consultant.
+    > [Info] If you need further assistance, please contact your MPS consultant.
 
 
 
@@ -263,7 +263,7 @@ The following import options are available in the tab:
 - [CONTINUE]  
     Click this button to proceed to the next step. This button is locked until a file has been uploaded. The *Converted* confirmation window is displayed. Click the [OK] button to continue and follow the on-screen instructions to complete the import process.
 
-    > [Info]  If you need further assistance, contact your MPS consultant.
+    > [Info]  If you need further assistance, please contact your MPS consultant.
 
 
 
@@ -366,7 +366,7 @@ The following import options are available in the tab:
 - [FINALIZE]  
     Click this button and follow the on-screen instructions to complete the import process. 
 
-    > [Info] If you need further assistance, contact your MPS consultant.
+    > [Info] If you need further assistance, please contact your MPS consultant.
 
 
 
@@ -400,7 +400,7 @@ The following import options are available in the tab:
 - [CONTINUE]  
     Click this button to proceed to the next step. This button is locked until a file has been uploaded. The *Converted* confirmation window is displayed. Click the [OK] button to continue and follow the on-screen instructions to complete the import process.
 
-    > [Info] If you need further assistance, contact your MPS consultant. 
+    > [Info] If you need further assistance, please contact your MPS consultant. 
 
 
 
@@ -431,7 +431,7 @@ The following import options are available in the tab:
 - [CONTINUE]  
     Click this button to proceed to the next step. This button is locked until a file has been uploaded. The *Converted* confirmation window is displayed. Click the [OK] button to continue and follow the on-screen instructions to complete the import process.
 
-    > [Info]  If you need further assistance, contact your MPS consultant.
+    > [Info]  If you need further assistance, please contact your MPS consultant.
 
 
 

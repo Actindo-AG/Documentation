@@ -1,6 +1,6 @@
-[!!Manage the Accounts](./03_ManageAccounts.md)  
-[!!Manage the Fiscal year](./04_ManageFiscalYear.md)  
-[!!User interface Settings fiscal years](../UserInterface/02d_FiscalYears.md)  
+[!!Manage the Accounts](./03_ManageAccounts.md)
+[!!Manage the Fiscal year](./04_ManageFiscalYear.md)
+[!!User interface Settings fiscal years](../UserInterface/02d_FiscalYears.md)
 
 # Run the accounting wizard
 

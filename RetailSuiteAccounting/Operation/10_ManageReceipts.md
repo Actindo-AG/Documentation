@@ -1,6 +1,6 @@
-[!!User interface Postings](../UserInterface/01a_Bookings.md)  
-[!!User interface Post receipts](../UserInterface/01f_BookReceipts.md)  
-[!!User interface Postings header](../UserInterface/01_Header.md)  
+[!!User interface Postings](../UserInterface/01a_Bookings.md)
+[!!User interface Post receipts](../UserInterface/01f_BookReceipts.md)
+[!!User interface Postings header](../UserInterface/01_Header.md)
 [!!User interface Debtors/creditors](../UserInterface/02a_DebtorsCreditors.md)    
 
 [comment]: <> (Ggf. Link zu Documents, Purchasing and Payment processing hinzufügen, wenn verfügbar) 
@@ -23,7 +23,7 @@ The *Accounting* module offers three possible ways to manage and assign receipts
 
 You can retrieve and assign a receipt that has not yet been registered to an existing posting. Any unregistered receipts uploaded in the system are displayed in the *POST RECEIPTS* tab.  
 
-After being uploaded, the receipts are stored in the *New documents* folder in the *Documents* module. Once they are booked, they are moved automatically into the *Registered documents* folder and then placed in the appropriate subfolder according to the following structure:
+After being uploaded, the receipts are stored in the *New documents* folder in the *Documents* module. Once they are booked, they are moved automatically into the *Registered documents* folder and then placed in the appropriate sub-folder according to the following structure:
 
 - 10000-69999 personal account numbers in case of a debtors'/customers' document
 - 70000-99999 personal account numbers in case of a creditors'/suppliers' document

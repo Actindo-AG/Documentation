@@ -57,7 +57,7 @@ In all tabs of the *Post* menu entry, an identical footer with the input line is
     Enter the applicable cost object number. This field is only applicable if at least one cost object has been set up. For detailed information, see [COST ACCOUNTING](./02e_CostAccounting.md).
 
 - *Posting text*  
-    Enter any appropriate posting text. Posting text can contain a combination of letters and numbers. The text is limited to 30 characters.
+    Enter any appropriate posting text. The posting text can contain a combination of letters and numbers. The text is limited to 30 characters.
 
 The following fields below the input line are filled in automatically when creating a manual posting or selecting a posting in the list. All fields are read-only.
 
@@ -227,7 +227,7 @@ The input line allows to split the posting.
     Enter the applicable cost object number. This field is only applicable if at least one cost object has been set up. For detailed information, see [COST ACCOUNTING](./02e_CostAccounting.md).
 
 - *Text*  
-    Enter any appropriate posting text. Posting text can contain a combination of letters and numbers. The text is limited to 30 characters.
+    Enter any appropriate posting text. The posting text can contain a combination of letters and numbers. The text is limited to 30 characters.
 
 - *Currency code*  
     Click the drop-down list to select the appropriate currency if necessary. All available currencies are displayed in the list. By default, the base currency is preselected.
@@ -256,7 +256,7 @@ The input line allows to split the posting.
 
 *Accounting > Post > Tab POSTINGS > Button ASSIGN RECEIPT*
 
-For a detailed description of the contained elements and the corresponding functions, see [Attached document](./01_Header.md#attached-document).
+For a detailed description of this window and the corresponding functions, see [Attached document](./01_Header.md#attached-document).
 
 
 
@@ -274,7 +274,7 @@ All folders and sub-folders set up in the *Documents* module are displayed in th
     This folder contains the newly uploaded documents.
 
 - *Registered documents*  
-    This folder contains the registered documents. As soon as a new document is linked to a posting, it is moved automatically into the *Registered documents* folder and then placed in the appropriate subfolder according to the following structure:
+    This folder contains the registered documents. As soon as a new document is linked to a posting, it is moved automatically into the *Registered documents* folder and then placed in the appropriate sub-folder according to the following structure:
 
     - 10000-69999 personal account numbers in case of a debtors'/customers' document
     - 70000-79999 personal account numbers in case of a creditors'/suppliers' document

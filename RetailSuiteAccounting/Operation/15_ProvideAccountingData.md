@@ -1,10 +1,10 @@
-[!!Manage the BWA reports](../Integration/07_ManageBWAReports.md)  
-[!!User interface Postings header](../UserInterface/01_Header.md)  
-[!!User interface BWA assignment](../UserInterface/02i_BWAAssignment.md)  
-[!!User interface Export](../UserInterface/03b_Export.md)  
+[!!Manage the BWA reports](../Integration/07_ManageBWAReports.md)
+[!!User interface Postings header](../UserInterface/01_Header.md)
+[!!User interface BWA assignment](../UserInterface/02i_BWAAssignment.md)
+[!!User interface Export](../UserInterface/03b_Export.md)
 [!!User interface CVS format definition](../UserInterface/03c_CSVFormatDef.md)  
 
-# Provide the accounting data
+# Provide accounting data
 
 The *Accounting* module offers an export function to export data in different formats. The most widely used financial formats for accounting software are supported.
 

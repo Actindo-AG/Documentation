@@ -80,7 +80,7 @@ In all tabs of the *Post* menu entry, an identical header is displayed. The cont
 - *Fiscal year XXXX/Month X/Journal X*  
     The currently selected fiscal year, month and journal are displayed. This field is read-only. To change the fiscal year or the posting period, click the [FY/MONTH/JOURNAL] button. For detailed information, see [Select a fiscal year](../Operation/01_SelectFiscalYear.md).
 
-- ![Left arrow](../../Assets/Icons/Back02.png "[Left arrow]") (Left arrow)   
+- ![Leftward arrow](../../Assets/Icons/Back02.png "[Leftward arrow]") (Leftward arrow)   
     Click this button to display the *Post extras* search side bar. For detailed information about the search bar, see [Search](./01e_Search.md).
 
 
@@ -201,7 +201,7 @@ An individual posting from the cash book can be selected and partially edited be
 *Accounting > Post > Button EDIT > Menu entry Cash book takeover > Button SPLIT*  
 *Accounting > Post > Button EDIT > Menu entry Bank data takeover > Button SPLIT*
 
-For a detailed description of the contained elements and the corresponding functions, see [Split posting](./01_InputLine.md#split-posting).
+For a detailed description of this window and the corresponding functions, see [Split posting](./01_InputLine.md#split-posting).
 
 
 
@@ -605,7 +605,7 @@ The list displays the open items found by the system matching the selected searc
 
 ![Import/export format definitions](../../Assets/Screenshots/RetailSuiteAccounting/Extras/CSVFormatDef/CSVFormatDef.png "[Import/export format definitions]")
 
-For a detailed description of the contained elements and the corresponding functions, see [Import/export definitions](./03c_CSVFormatDef.md).
+For a detailed description of this window and the corresponding functions, see [Import/export definitions](./03c_CSVFormatDef.md).
 
 
 ### Learn file
@@ -1449,7 +1449,7 @@ A miniature view of the selected document is displayed in the bottom right corne
 
 [comment]: <> (Screen unvollständig - Anzeigefehler, Bug Ticket?)
 
-The list displays the selected receipt for the split booking. Depending on the settings, the displayed columns may vary. All fields are read-only.
+The list displays the selected receipt for the split posting. Depending on the settings, the displayed columns may vary. All fields are read-only.
 
 - *Supplier*   
     Supplier number. By default, this field is empty.

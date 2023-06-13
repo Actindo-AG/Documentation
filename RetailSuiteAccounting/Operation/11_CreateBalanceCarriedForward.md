@@ -1,4 +1,4 @@
-[!!User interface Postings header](../UserInterface/01_Header.md)  
+[!!User interface Postings header](../UserInterface/01_Header.md)
 [!!User interface Settings Balance carried forward](../UserInterface/02h_BalanceCarriedForward.md)  
 
 # Create a balance carried forward
@@ -39,7 +39,7 @@ Special journals are preconfigured in the system to carry balances and open item
 
 5. Make sure that the posting date is the first date of the new fiscal year.
 
-    > [Info] Balances carried forward are performed at the start of the fiscal year. By default, the first day of the new fiscal year is preselected as the posting date.
+    > [Info] Balances carried forward are performed at the start of the fiscal year. Therefore, the first day of the new fiscal year is preselected as the posting date.
 
 6. Select the appropriate option(s) in the *Cost accounting* field if you also want to carry forward cost centers, cost objects or inactive cost centers/objects.
 

@@ -1,6 +1,6 @@
 [!!User interface Fiscal years](./02d_FiscalYears.md)
 [!!User interface CSV format definitions](./03c_CSVFormatDef.md)
-[!!Provide the accounting data](../Operation/15_ProvideAccountingData.md)
+[!!Provide accounting data](../Operation/15_ProvideAccountingData.md)
 
 # Export
 
@@ -86,7 +86,7 @@ The following export options are displayed in the tab:
 - [CONTINUE]  
     Click this button to continue and follow the on-screen instructions to complete the export. As soon as the export is completed, the *Exported without error* confirmation window is displayed. Click the [OK] button to continue. The exported file(s) are displayed. Click a file name to download the corresponding file. By default, the downloaded exported file is saved in the *Downloads* folder of your device.
 
-    > [Info] If you need further assistance, contact your MPS consultant.
+    > [Info] If you need further assistance, please contact your MPS consultant.
 
 
 ### BMD tax mapping
@@ -206,7 +206,7 @@ The list displays all available BMD tax mappings. Depending on the settings, the
 - [CONTINUE]  
     Click this button to continue and follow the on-screen instructions to complete the export. As soon as the export is completed, the *Exported without error* confirmation window is displayed. Click the [OK] button to continue. The exported file(s) are displayed. Click a file name to download the corresponding file. By default, the downloaded exported file is saved in the *Downloads* folder of your device.
 
-    > [Info] If you need further assistance, contact your MPS consultant.
+    > [Info] If you need further assistance, please contact your MPS consultant.
 
 
 
@@ -298,7 +298,7 @@ The list displays all available BMD tax mappings. Depending on the settings, the
 - [CONTINUE]  
     Click this button to continue and follow the on-screen instructions to complete the export. As soon as the export is completed, the *Exported without error* confirmation window is displayed. Click the [OK] button to continue. The exported file(s) are displayed. Click a file name to download the corresponding file. By default, the downloaded exported file is saved in the *Downloads* folder of your device.
 
-    > [Info] If you need further assistance, contact your MPS consultant.
+    > [Info] If you need further assistance, please contact your MPS consultant.
 
 
 
@@ -332,7 +332,7 @@ The list displays all available BMD tax mappings. Depending on the settings, the
 - [CONTINUE]  
     Click this button to continue and follow the on-screen instructions to complete the export. As soon as the export is completed, the *Exported without error* confirmation window is displayed. Click the [OK] button to continue. The exported file(s) are displayed. Click a file name to download the corresponding file. By default, the downloaded exported file is saved in the *Downloads* folder of your device.
 
-    > [Info] If you need further assistance, contact your MPS consultant.
+    > [Info] If you need further assistance, please contact your MPS consultant.
 
 
 
@@ -378,7 +378,7 @@ The list displays all available BMD tax mappings. Depending on the settings, the
 - [CONTINUE]  
     Click this button to continue and follow the on-screen instructions to complete the export. As soon as the export is completed, the *Exported without error* confirmation window is displayed. Click the [OK] button to continue. The exported file(s) are displayed. Click a file name to download the corresponding file. By default, the downloaded exported file is saved in the *Downloads* folder of your device.
 
-    > [Info] If you need further assistance, contact your MPS consultant.
+    > [Info] If you need further assistance, please contact your MPS consultant.
 
 
 
@@ -428,7 +428,7 @@ The list displays all available BMD tax mappings. Depending on the settings, the
 - [CONTINUE]  
     Click this button to continue and follow the on-screen instructions to complete the export. As soon as the export is completed, the *Exported without error* confirmation window is displayed. Click the [OK] button to continue. The exported file(s) are displayed. Click a file name to download the corresponding file. By default, the downloaded exported file is saved in the *Downloads* folder of your device.
 
-    > [Info] If you need further assistance, contact your MPS consultant.
+    > [Info] If you need further assistance, please contact your MPS consultant.
 
 
 
@@ -465,7 +465,7 @@ The list displays all available BMD tax mappings. Depending on the settings, the
 - [CONTINUE]  
     Click this button to continue and follow the on-screen instructions to complete the export. As soon as the export is completed, the *Exported without error* confirmation window is displayed. Click the [OK] button to continue. The exported file(s) are displayed. Click a file name to download the corresponding file. By default, the downloaded exported file is saved in the *Downloads* folder of your device.
 
-    > [Info] If you need further assistance, contact your MPS consultant.
+    > [Info] If you need further assistance, please contact your MPS consultant.
 
 
 
@@ -499,7 +499,7 @@ The list displays all available BMD tax mappings. Depending on the settings, the
 - [CONTINUE]  
     Click this button to continue and follow the on-screen instructions to complete the export. As soon as the export is completed, the *Exported without error* confirmation window is displayed. Click the [OK] button to continue. The exported file(s) are displayed. Click a file name to download the corresponding file. By default, the downloaded exported file is saved in the *Downloads* folder of your device.
 
-    > [Info] If you need further assistance, contact your MPS consultant.
+    > [Info] If you need further assistance, please contact your MPS consultant.
 
 
 
@@ -537,7 +537,7 @@ The list displays all available BMD tax mappings. Depending on the settings, the
 - [CONTINUE]  
     Click this button to continue and follow the on-screen instructions to complete the export. As soon as the export is completed, the *Exported without error* confirmation window is displayed. Click the [OK] button to continue. The exported file(s) are displayed. Click a file name to download the corresponding file. By default, the downloaded exported file is saved in the *Downloads* folder of your device.
 
-    > [Info] If you need further assistance, contact your MPS consultant.
+    > [Info] If you need further assistance, please contact your MPS consultant.
 
 
 
@@ -569,7 +569,7 @@ The list displays all available BMD tax mappings. Depending on the settings, the
 - [CONTINUE]  
     Click this button to continue and follow the on-screen instructions to complete the export. As soon as the export is completed, the *Exported without error* confirmation window is displayed. Click the [OK] button to continue. The exported file(s) are displayed. Click a file name to download the corresponding file. By default, the downloaded exported file is saved in the *Downloads* folder of your device.
 
-    > [Info] If you need further assistance, contact your MPS consultant.
+    > [Info] If you need further assistance, please contact your MPS consultant.
 
 
 
@@ -606,7 +606,7 @@ The list displays all available BMD tax mappings. Depending on the settings, the
 - [CONTINUE]  
     Click this button to continue and follow the on-screen instructions to complete the export. As soon as the export is completed, the *Exported without error* confirmation window is displayed. Click the [OK] button to continue. The exported file(s) are displayed. Click a file name to download the corresponding file. By default, the downloaded exported file is saved in the *Downloads* folder of your device.
 
-    > [Info] If you need further assistance, contact your MPS consultant.
+    > [Info] If you need further assistance, please contact your MPS consultant.
 
 
 

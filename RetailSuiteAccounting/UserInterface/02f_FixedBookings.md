@@ -74,13 +74,10 @@ The list displays all fixed postings to the selected batch. All fields are read-
     Posting reference text.
 
 - *AMOUNT*  
-    Fixed posting batch total amount.
+    Fixed posting amount.
 
 - *Amount*  
     Fixed posting batch total amount.
-
-[comment]: <> (Finance team lead: Unterschied zwischen AMOUNT und Amount?)
-
 
 The input fields allow to create, edit and delete fixed postings. Click a fixed posting in the list to display its details in the input fields and edit or delete it. Clear the input fields to add a new fixed posting.
 

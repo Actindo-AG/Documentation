@@ -1,5 +1,5 @@
-[!!User interface Select fiscal year](../UserInterface/00a_FiscalYear.md)   
-[!!User interface Postings header](../UserInterface/01_Header.md)  
+[!!User interface Select fiscal year](../UserInterface/00a_FiscalYear.md)
+[!!User interface Postings header](../UserInterface/01_Header.md)
 [!!User interface Postings](../UserInterface/01a_Bookings.md)  
 
 # Create a manual posting
