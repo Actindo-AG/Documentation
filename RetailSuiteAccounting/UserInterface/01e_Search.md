@@ -1,6 +1,6 @@
 [!!User interface Postings header](./01_Header.md)
 [!!User interface Postings input line](./01_InputLine.md)
-[!!Search in accounting](../Operation/14_SearchAccounting.md)
+[!!Search for accounting data](../Operation/14_SearchAccounting.md)
 
 # Search
 
@@ -8,7 +8,7 @@
 
 ![Search](../../Assets/Screenshots/RetailSuiteAccounting/Book/Search/Search01.png "[Search]")
 
-When clicking the *SEARCH* tab, the search side bar is expanded. You can search for a specific account or posting using different search criteria. For detailed information about searching for an account or a posting, see [Search in accounting](../Operation/14_SearchAccounting.md).
+When clicking the *SEARCH* tab, the search side bar is expanded. You can search for a specific account or posting using different search criteria. For detailed information about searching for an account or a posting, see [Search for accounting data](../Operation/14_SearchAccounting.md).
 
 In all tabs of the *Post* menu entry, an identical header is displayed. For detailed information on the contained elements and the corresponding functions, see [Postings header](./01_Header.md).
 

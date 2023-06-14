@@ -195,7 +195,7 @@ To post a supplier receipt in the system, it needs to be released in the *Purcha
 
 - The supplier receipt has been entered in the system, see [Acquire a supplier receipt](#acquire-a-supplier-receipt).
 - The supervisor is set to the person responsible for the receipt release in the *CRM information* tab in the suppliers' configuration, see [CRM information](../UserInterface/02a_DebtorsCreditors.md#crm-information).
-- The supplier settings are adjusted according to the service or product supplied, see *Default values* section in [Invoicing](02a_DebtorsCreditors.md#invoicing).   
+- The supplier settings are adjusted according to the service or product supplied, see *Default values* section in [Invoicing](../UserInterface/02a_DebtorsCreditors.md#invoicing).   
 
 #### Procedure
 

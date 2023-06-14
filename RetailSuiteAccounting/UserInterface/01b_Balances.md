@@ -1,6 +1,6 @@
 [!!User interface Postings header](./01_Header.md)
 [!!User interface Postings input line](./01_InputLine.md)
-[!!Review an account](../Operation/02_ReviewAccount.md)
+[!!Check an account](../Operation/02_ReviewAccount.md)
 
 # Balances
 

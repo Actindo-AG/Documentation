@@ -2,7 +2,7 @@
 [!!Manage the fixed postings](../Integration/06_ManageFixedBookings.md)
 [!!User interface Select fiscal year](../UserInterface/00a_FiscalYear.md)
 [!!User interface Postings header](../UserInterface/01_Header.md)
-[!!User interface Settings fiscal years](../UserInterface/02d_FiscalYears.md)
+[!!User interface Settings Fiscal years](../UserInterface/02d_FiscalYears.md)
 [!!User interface Fixed postings](../UserInterface/02f_FixedBookings.md)
 
 # Select the fiscal year

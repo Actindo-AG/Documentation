@@ -86,7 +86,7 @@ The input fields below allow to enter or modify the cost center details.
     Click this button to clear all input fields.
 
 - [PRINT]  
-    Click this button to print the cost center or object. The *Print cost center/object* window is displayed, see [Print cost center/object](#print-cost-centerobject).
+    Click this button to print the cost center or object. The *Print cost center/object* window is displayed, see [Print cost center/object](#print-cost-center/object).
 
 [comment]: <> (Eigentlich heißt das Fenster Cost center/object, aber ich habe zu Print cost center/object umbenannt hier.)
 
@@ -155,7 +155,7 @@ The input fields below allow to enter or modify the cost object details.
     Click this button to clear all input fields.
 
 - [PRINT]  
-    Click this button to print the cost center or object. The *Print cost center/object* window is displayed, see [Print cost center/object](#print-cost-centerobject).
+    Click this button to print the cost center or object. The *Print cost center/object* window is displayed, see [Print cost center/object](#print-cost-center/object).
 
 [comment]: <> (Eigentlich heißt das Fenster Cost center/object, zu Print cost center/object hier umbenannt. FETA Ticket dazu)
 

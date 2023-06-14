@@ -2,8 +2,6 @@
 
 *Accounting > Post*
 
-  ![Post](../../Assets/Screenshots/RetailSuiteAccounting/Book/Bookings/Bookings.png "[Post]")
-
 The Accounting *Post* menu entry is used to manage all existing postings and to create new ones.
 
 The *Post* User Interface is composed of the following tabs:

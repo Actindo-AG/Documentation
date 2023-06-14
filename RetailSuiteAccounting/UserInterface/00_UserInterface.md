@@ -110,7 +110,7 @@ In this part of the *Accounting* documentation, you will find the following chap
     - [Cost object](./02e_CostAccounting.md#cost-object)
         - [Select address](./02e_CostAccounting.md#select-address)
         - [ProfitCenter](./02e_CostAccounting.md#profitcenter)
-    - [Print cost center/object](./02e_CostAccounting.md#print-cost-centerobject)
+    - [Print cost center/object](./02e_CostAccounting.md#print-cost-center/object)
 
 - [FIXED POSTINGS](./02f_FixedBookings.md)
     - [Fixed posting batch name](./02f_FixedBookings.md#fixed-postings-–-batch)
