@@ -21,7 +21,7 @@ You can either select an account in the *POSTINGS* tab and switch to the *OPEN I
 
 If a contra account number is specified in the *Contra account* field of the input line, the open items for the corresponding contra account are displayed. If no contra account number is entered, but an account number is specified in the *Account* field of the input line, the open items for the corresponding account are displayed.    
 
-If no open items exist for the selection, the notice *No open items exist* is displayed.
+If no open items exist for the selection, the *No open items exist* notice is displayed.
 
 In all tabs of the *Post* menu entry, an identical header is displayed. For detailed information on the contained elements and the corresponding functions, see [Postings header](./01_Header.md).
 

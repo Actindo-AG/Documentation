@@ -10,7 +10,7 @@
 
 The *BALANCES* tab offers a T-account view of the current credit and debit situation, and the resulting balance of a selected account and/or contra account.      
 
-An account and/or contra account must be selected to display the corresponding details. Otherwise, the notice *No account selected* is displayed.    
+An account and/or contra account must be selected to display the corresponding details. Otherwise, the *No account selected* notice is displayed.    
 
 You can either select an account in the *POSTINGS* tab and switch to the *BALANCE* tab or directly enter an account and/or contra account number in the input line in the bottom. For detailed information about accessing the balance view of an account, see [Access the balance view of an account](../Operation/02_ReviewAccount.md#access-the-balance-view-of-an-account).
 

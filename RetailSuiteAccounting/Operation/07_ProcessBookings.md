@@ -37,4 +37,4 @@ Nevertheless, new postings can be entered in a posting period that has already b
     > [Info] Be aware that, once the postings have been processed, they cannot be changed or deleted anymore.
 
 5. Click the [OK] button.   
-    The selected postings have been processed. A confirmation window with the notice *Postings processed!* is displayed.
+    The selected postings have been processed. A confirmation window with the *Postings processed!* notice is displayed.

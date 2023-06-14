@@ -7,7 +7,7 @@ Check and, if necessary, modify the supplier settings to release a supplier rece
 
 #### Error Description
 
-When trying to release a supplier receipt, the *No items linked* window with the notice *Please link items first* is displayed in the *CHECK SUPPLIER RECEIPTS* tab in the *Check supplier receipts* menu entry of the *Purchasing* module.
+When trying to release a supplier receipt, the *No items linked* window with the *Please link items first* notice is displayed in the *CHECK SUPPLIER RECEIPTS* tab in the *Check supplier receipts* menu entry of the *Purchasing* module.
 
 Follow the instructions below to check and modify the supplier settings in the *Accounting* module.
 

@@ -15,7 +15,7 @@ Access the *BALANCES* tab to display a T-account view of the current credit and 
 
 The balance value represents the difference between the credit and the debit of an account. If the debit and credit totals are equal, the balance is settled. If there is a difference between them, an open balance must be settled, for example a payment must be made to bring the account balance to zero.
 
-> [Info] When directly clicking the *BALANCES* tab, a blank T-account view with the notice *No account selected* on each side is displayed. An account and/or contra account must be selected to display the corresponding details. If a posting has been previously selected in the *POSTINGS* tab, the corresponding account and contra account details are displayed in the *BALANCES* tab.
+> [Info] When directly clicking the *BALANCES* tab, a blank T-account view with the *No account selected* notice on each side is displayed. An account and/or contra account must be selected to display the corresponding details. If a posting has been previously selected in the *POSTINGS* tab, the corresponding account and contra account details are displayed in the *BALANCES* tab.
 
 #### Prerequisites
 
@@ -43,7 +43,7 @@ A fiscal year has been selected, see [Select fiscal year](./01_SelectFiscalYear.
 
 The *ACCOUNT SHEET* tab displays a chronologically ordered list of all movements in a specific account. Account sheets can be later used for balance sheet calculations and profit and loss statements.
 
-> [Info] When directly clicking the *ACCOUNT SHEET* tab, a blank tab with the notice *No account selected* is displayed. An account must be selected to display the corresponding details. If a posting has been previously selected in the *POSTINGS* tab, the details of the account specified in the *Contra Account* field are displayed in the *ACCOUNT SHEET* tab. If the *Contra Account* field is empty, the details of the account specified in the *Account* field are displayed.
+> [Info] When directly clicking the *ACCOUNT SHEET* tab, a blank tab with the *No account selected* notice is displayed. An account must be selected to display the corresponding details. If a posting has been previously selected in the *POSTINGS* tab, the details of the account specified in the *Contra Account* field are displayed in the *ACCOUNT SHEET* tab. If the *Contra Account* field is empty, the details of the account specified in the *Account* field are displayed.
 
 #### Prerequisites
 

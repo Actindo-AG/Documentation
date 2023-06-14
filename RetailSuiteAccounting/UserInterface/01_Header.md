@@ -649,7 +649,7 @@ The list displays the entries contained in the learn file.
 
 **Add/Edit**
 
-![Add/Edit](../../Assets/Screenshots/RetailSuiteAccounting/Book/LearnFileAddEdit.png "[Add/Edit]")
+![Learn file Add/Edit](../../Assets/Screenshots/RetailSuiteAccounting/Book/LearnFileAddEdit.png "[Learn file Add/Edit]")
 
 > [Info] When clicking the [CREATE] button, the *Add* section is displayed. When selecting a checkbox in the entry list, the *Edit* section is displayed. The fields in the *Add* and the *Edit* section are identical.
 

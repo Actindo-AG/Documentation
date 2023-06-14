@@ -127,7 +127,7 @@ The list displays all available BMD tax mappings. Depending on the settings, the
 
 **Add/Edit**  
 
-![Create tax mapping](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Export/BMDTaxMapping02.png "[Create tax mapping]")
+![BMD tax mapping Add/Edit](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Export/BMDTaxMapping02.png "[BMD tax mapping Add/Edit]")
 
 > [Info] When clicking the [CREATE] button, the *Add* section is displayed in the bottom part of the window. When selecting a checkbox in the tax mapping list, the *Edit* section is displayed in the bottom part of the window and the corresponding tax mapping details are displayed in the drop-down lists. The elements and the corresponding functions in the *Add* and the *Edit* section are identical.
 

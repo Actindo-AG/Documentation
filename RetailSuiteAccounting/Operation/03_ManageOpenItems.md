@@ -36,7 +36,7 @@ A fiscal year has been selected, see [Select fiscal year](./01_SelectFiscalYear.
 
 2. Check the list of open items.
 
-    > [Info] If there are no open items, the notice *No open items available* is displayed.
+    > [Info] If there are no open items, the *No open items available* notice is displayed.
 
 
 

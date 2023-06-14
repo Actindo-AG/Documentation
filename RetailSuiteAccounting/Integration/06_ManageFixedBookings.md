@@ -41,7 +41,7 @@ A fiscal year has been selected, see [Select the fiscal year](../Operation/01_Se
     ![Fixed posting batch](../../Assets/Screenshots/RetailSuiteAccounting/Settings/FixedBookings/FixedBookingBatch.png "[Fixed posting batch]")
 
 4. Click the [SAVE] button.  
-    The notice *Fixed posting batch applied* is displayed in the upper left corner of the window. The created fixed posting batch has been saved in the *Fixed posting batch* drop-down list.
+    The *Fixed posting batch applied* notice is displayed in the upper left corner of the window. The created fixed posting batch has been saved in the *Fixed posting batch* drop-down list.
 
     > [Info] If you click the [CANCEL] button, the fixed posting batch will be rejected.
 
@@ -89,12 +89,12 @@ You can add fixed postings to an existing or a new fixed posting batch.
 7. If desired, enter any other relevant fixed posting information in the corresponding fields.
 
 8. Click the [POST] button.  
-    The fixed posting is posted. The notice *Posted* is displayed in the upper left corner of the window. The created fixed posting is displayed in the *Fixed postings &ndash; Batch "Batch name"* window.
+    The fixed posting is posted. The *Posted* notice is displayed in the upper left corner of the window. The created fixed posting is displayed in the *Fixed postings &ndash; Batch "Batch name"* window.
 
     ![Fixed posting added](../../Assets/Screenshots/RetailSuiteAccounting/Settings/FixedBookings/FixedBookingAdded.png "[Fixed posting added]")
 
 9. Click the [SAVE] button.   
-    The notice *Fixed posting batch applied* is displayed in the upper left corner of the window. The posting has been saved in the batch.
+    The *Fixed posting batch applied* notice is displayed in the upper left corner of the window. The posting has been saved in the batch.
 
     > [Info] If you click the [CANCEL] button, the fixed posting will be rejected.
 
@@ -146,10 +146,10 @@ This two-step editing process prevents inadvertently overwriting.
     ![Posting delete confirmation](../../Assets/Screenshots/RetailSuiteAccounting/Settings/FixedBookings/BookingDeleteConfirmation.png "[Posting delete confirmation]")
 
 7. Click [OK] if you want to proceed.  
-    The notice *Deleted* is displayed in the upper left corner of the window.
+    The *Deleted* notice is displayed in the upper left corner of the window.
 
 8. Click the [SAVE] button.   
-    The notice *Fixed posting batch applied* is displayed in the upper left corner of the window. All changes to the fixed postings are saved.
+    The *Fixed posting batch applied* notice is displayed in the upper left corner of the window. All changes to the fixed postings are saved.
 
     > [Info] If you click the [CANCEL] button, the changes will be rejected.
 
@@ -188,10 +188,10 @@ You can delete a fixed posting in a fixed posting batch.
     ![Posting delete confirmation](../../Assets/Screenshots/RetailSuiteAccounting/Settings/FixedBookings/BookingDeleteConfirmation.png "[Posting delete confirmation]")
 
 4.  Click [OK] if you want to proceed.  
-    The notice *Deleted* is displayed in the upper left corner of the window. The deleted fixed posting is no longer displayed in the fixed posting batch.
+    The *Deleted* notice is displayed in the upper left corner of the window. The deleted fixed posting is no longer displayed in the fixed posting batch.
 
 5. Click the [SAVE] button.   
-    The notice *Fixed posting batch applied* is displayed in the upper left corner of the window. The fixed posting deletion has been saved in the fixed posting batch.
+    The *Fixed posting batch applied* notice is displayed in the upper left corner of the window. The fixed posting deletion has been saved in the fixed posting batch.
 
     > [Info] If you click the [CANCEL] button, the deletion will be rejected.
 

@@ -43,7 +43,7 @@ A fiscal year has been selected, see [Select fiscal year](./01_SelectFiscalYear.
     + Enter the partial amount for the split posting in the *Turnover* field.
     + Enter the corresponding contra account for the split posting in the *Contra account* field.
     + Click the [POST] button.    
-    The split posting is displayed in the *Split posting* window below the main posting. The notice *Posted.* is displayed in the top left corner of the *Split posting* window.
+    The split posting is displayed in the *Split posting* window below the main posting. The *Posted.* notice is displayed in the top left corner of the *Split posting* window.
 
     > [Info] An error message is displayed in the top left corner of the *Split posting* window if the split posting failed.
 
@@ -55,6 +55,6 @@ A fiscal year has been selected, see [Select fiscal year](./01_SelectFiscalYear.
     > [Info] As soon as the total posting amount in the *Split posting* window equals *0.00*, the [SAVE] button is unlocked.
 
 9. Click the [SAVE] button.  
-The notice *Split posting applied* is displayed in the top left corner of the *Split posting* window. The *Split posting* window is closed automatically. The split posting is displayed in the postings list below the corresponding main posting.
+The *Split posting applied* notice is displayed in the top left corner of the *Split posting* window. The *Split posting* window is closed automatically. The split posting is displayed in the postings list below the corresponding main posting.
 
     ![Split posting](../../Assets/Screenshots/RetailSuiteAccounting/Book/Bookings/SplitBooking03.png "[Split posting]")

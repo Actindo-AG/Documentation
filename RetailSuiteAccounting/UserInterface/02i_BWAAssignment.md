@@ -133,7 +133,7 @@ The list displays all available accounting reports. Depending on the settings, t
     For detailed information about deleting a BWA report, see [Delete a BWA report](../Integration/07_ManageBWAReports.md#delete-a-bwa-report).  
 
 The list displays all available accounting report lines of the selected report. Depending on the settings, the displayed columns may vary. All fields are read-only.   
-If no report line has been yet added, the notice *No report lines created. Use + button to create one* is displayed.
+If no report line has been yet added, the *No report lines created. Use + button to create one* notice is displayed.
 
 - *Line number*  
     Line number.
@@ -233,7 +233,7 @@ If no report line has been yet added, the notice *No report lines created. Use +
 - *Formula*  
     Enter the applicable formula. This field is only unlocked when the **Calculation** option in the *Function* drop-down list is selected. The basic calculating operations (+, -, *, /) are permitted.
 
-    > [Info] For a table including the most usual formulas and functions, see step 8 of the operational procedure [Add report lines](../Integration/07_ManageBWAReports.md#add-report-lines).
+    > [Info] For a table including the most usual formulas and functions, see step 8 of the procedure [Add report lines](../Integration/07_ManageBWAReports.md#add-report-lines).
 
 
 **Percent / Columns**

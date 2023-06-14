@@ -322,7 +322,7 @@ The *Create customer/supplier* tab contains the following sub-tabs to organize c
 
 ![Delivery addresses](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/DeliveryAddresses.png "[Delivery addresses]")
 
-The *Delivery address* sub-tab cannot be edited here. The notice *Please save customer/supplier first* is displayed.
+The *Delivery address* sub-tab cannot be edited here. The *Please save customer/supplier first* notice is displayed.
 
 To add further delivery addresses, see [Further addresses](#further-addresses).
 
@@ -511,7 +511,7 @@ To add further delivery addresses, see [Further addresses](#further-addresses).
 
 ![Additional fields](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/AdditionalFields01.png "[Additional fields]")
 
-The *Additional fields* sub-tab cannot be edited here. The notice *Please save customer/supplier first* is displayed.
+The *Additional fields* sub-tab cannot be edited here. The *Please save customer/supplier first* notice is displayed.
 
 To add additional fields, select the corresponding customer/supplier in the *Customer/supplier list* tab and click the *Additional fields* sub-tab. For detailed information, see [Additional fields](#additional-fields-1).
 
@@ -525,7 +525,7 @@ To add additional fields, select the corresponding customer/supplier in the *Cus
 
 ![Drop shipping](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/DropShipping01.png "[Drop shipping]")
 
-The *Drop shipping* sub-tab cannot be edited here. The notice *Please save supplier first* is displayed.   
+The *Drop shipping* sub-tab cannot be edited here. The *Please save supplier first* notice is displayed.   
 
 To add further information, select the corresponding supplier in the *Customer/supplier list* tab and click the *Drop shipping* sub-tab. For detailed information, see [Drop shipping](#drop-shipping-1).
 
@@ -739,7 +739,7 @@ The list displays all delivery addresses of the selected customer/supplier. Depe
 
 **Add/Edit**
 
-![Add/Edit](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/FurtherAddressesAddEdit.png "[Add/Edit]")
+![Further addresses Add/Edit](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/FurtherAddressesAddEdit.png "[Further addresses Add/Edit]")
 
 Click the [CREATE] button to display the *Add* section or select the checkbox of an address to display the *Edit* section. The fields in the *Add* and the *Edit* section are identical.
 
@@ -977,7 +977,7 @@ The list displays all attached content, for instance files and links. Depending 
 
 **Add/Edit**
 
-![Add/Edit](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/ContentAddEdit.png "[Add/Edit]")
+![Content Add/Edit](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/ContentAddEdit.png "[Content Add/Edit]")
 
 [comment]: <> (Edit section nicht vollständig angezeigt - Anzeigefehler - Bug Ticket)
 
@@ -1784,9 +1784,9 @@ The list displays all additional fields. Depending on the settings, the displaye
     Click this button to update the list.
 
 
-**Add/Edit**
+**Edit additional fields Add/Edit**
 
-![Add/Edit](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/EditAdditionalFieldsAddEdit.png "[Add/Edit]")
+![Add/Edit](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/EditAdditionalFieldsAddEdit.png "[Edit additional fields Add/Edit]")
 
 Click the [CREATE] button to display the *Add* section or select the checkbox of an additional field to display the *Edit* section. The fields in the *Add* and the *Edit* section are identical.
 

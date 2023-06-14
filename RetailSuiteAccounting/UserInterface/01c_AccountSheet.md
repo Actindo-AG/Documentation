@@ -11,7 +11,7 @@
 
 The *ACCOUNT SHEET* tab displays a chronologically ordered list of all movements in a specific account.   
 
-An account and/or contra account must be selected to display the corresponding details. Otherwise, the notice *No account selected* is displayed.    
+An account and/or contra account must be selected to display the corresponding details. Otherwise, the *No account selected* notice is displayed.    
 
 You can either select an account in the *POSTINGS* tab and switch to the *ACCOUNT SHEET* tab or directly enter an account and/or contra account number in the input line in the bottom. For detailed information about accessing an account sheet, see [Access the account sheet](../Operation/02_ReviewAccount.md#access-the-account-sheet).  
 

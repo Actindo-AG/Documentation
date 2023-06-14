@@ -37,7 +37,7 @@
 
 ![Cost center](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CostAccounting/CostAccounting01.png "[Cost center]")
 
-The list displays all available cost centers in the selected accounting period. All fields are read-only. If no cost center has been created in the selected accounting period, the notice *No cost centers defined* is displayed.
+The list displays all available cost centers in the selected accounting period. All fields are read-only. If no cost center has been created in the selected accounting period, the *No cost centers defined* notice is displayed.
 
 - *Cost.*  
     Cost center number.
@@ -98,7 +98,7 @@ The input fields below allow to enter or modify the cost center details.
 
 ![Cost object](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CostAccounting/CostAccounting02.png "[Cost object]")
 
-The list displays all available cost objects in the selected accounting period. All fields are read-only. If no cost object has been created in the selected accounting period, the notice *No cost objects defined* is displayed.
+The list displays all available cost objects in the selected accounting period. All fields are read-only. If no cost object has been created in the selected accounting period, the *No cost objects defined* notice is displayed.
 
 - *Cost.*  
     Cost object number.

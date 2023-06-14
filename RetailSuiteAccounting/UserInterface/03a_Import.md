@@ -51,17 +51,17 @@ The following import options are available in the tab:
 - *backup.ctl*  
     Select the corresponding file for upload in the ctl format.  
     - [Choose file]  
-        Click this button to select a file from your device to be uploaded. The file explorer is displayed in a new window. If no file has been selected yet, the notice *No file chosen* is displayed to the right of the button.
+        Click this button to select a file from your device to be uploaded. The file explorer is displayed in a new window. If no file has been selected yet, the *No file chosen* notice is displayed to the right of the button.
 
 - *backup.dat*  
     Select the corresponding file for upload in the dat format.
     - [Choose file]  
-        Click this button to select a file from your device to be uploaded. The file explorer is displayed in a new window. If no file has been selected yet, the notice *No file chosen* is displayed to the right of the button.
+        Click this button to select a file from your device to be uploaded. The file explorer is displayed in a new window. If no file has been selected yet, the *No file chosen* notice is displayed to the right of the button.
 
 - *abrzr.dat*  
     Select the corresponding file for upload in the dat format.
     - [Choose file]  
-        Click this button to select a file from your device to be uploaded. The file explorer is displayed in a new window. If no file has been selected yet, the notice *No file chosen* is displayed to the right of the button.
+        Click this button to select a file from your device to be uploaded. The file explorer is displayed in a new window. If no file has been selected yet, the *No file chosen* notice is displayed to the right of the button.
 
 - [UPLOAD]  
     Click this button to upload the selected file.  
@@ -88,7 +88,7 @@ The following import options are available in the tab:
     - ![Radio button](../../Assets/Icons/RadioButtonChecked.png "[Radio button]") *Local file*  
         Select this radio button to select a local file from your device to be uploaded. The [Choose file] button is displayed in the box.
         - [Choose file]  
-            Click this button to select a file from your device to be uploaded. If no file has been selected yet, the notice *No file chosen* is displayed to the right of the button.
+            Click this button to select a file from your device to be uploaded. If no file has been selected yet, the *No file chosen* notice is displayed to the right of the button.
     - ![Radio button](../../Assets/Icons/RadioButtonChecked.png "[Radio button]") *DMS*  
         Select this radio button to select a file in the *Documents* module to be uploaded. A search bar and the [SEARCH] button are displayed in the box. This radio button is only displayed when the *Documents* module is installed.
         - Search field   
@@ -157,7 +157,7 @@ The following import options are available in the tab:
 > [Info] Depending on the imported data, the information displayed may vary.
 
 - *Postings*  
-    Define how to handle the postings to be imported. If the import file contained no postings, the notice *No postings in the import file* is displayed.
+    Define how to handle the postings to be imported. If the import file contained no postings, the *No postings in the import file* notice is displayed.
     - *Take over postings?*  
         Click the drop-down list and select the applicable option. The following options are displayed:
         - **Yes**   
@@ -172,7 +172,7 @@ The following import options are available in the tab:
             No existing postings will be overwritten.
 
 - *Impersonal accounts*  
-    Define how to handle the impersonal accounts to be imported. If the import file contained no impersonal accounts, the notice *No impersonal accounts in the import file* is displayed.
+    Define how to handle the impersonal accounts to be imported. If the import file contained no impersonal accounts, the *No impersonal accounts in the import file* notice is displayed.
     - *Take over impersonal accounts?*  
         Click the drop-down list and select the applicable option. The following options are displayed:
         - **Yes**   
@@ -187,7 +187,7 @@ The following import options are available in the tab:
             No existing impersonal accounts will be overwritten.
 
 - *Personal accounts*    
-    Define how to handle the personal accounts to be imported. If the import file contained no personal accounts, the notice *No personal accounts in the import file* is displayed.
+    Define how to handle the personal accounts to be imported. If the import file contained no personal accounts, the *No personal accounts in the import file* notice is displayed.
     - *Take over personal accounts?*  
         Click the drop-down list and select the applicable option. The following options are displayed:
         - **Yes**   
@@ -221,7 +221,7 @@ The following import options are available in the tab:
     - ![Radio button](../../Assets/Icons/RadioButtonChecked.png "[Radio button]") *Local file*  
         Select this radio button to select a local file from your device to be uploaded. The [Choose file] button is displayed in the box.
         - [Choose file]  
-            Click this button to select a file from your device to be uploaded. If no file has been selected yet, the notice *No file chosen* is displayed to the right of the button.
+            Click this button to select a file from your device to be uploaded. If no file has been selected yet, the *No file chosen* notice is displayed to the right of the button.
     - ![Radio button](../../Assets/Icons/RadioButtonChecked.png "[Radio button]") *DMS*  
         Select this radio button to select a file in the *Documents* module to be uploaded. A search bar and the [SEARCH] button are displayed in the box. This radio button is only displayed when the *Documents* module is installed.
         - Search field   
@@ -234,7 +234,7 @@ The following import options are available in the tab:
     - ![Radio button](../../Assets/Icons/RadioButtonChecked.png "[Radio button]") *Local file*  
         Select this radio button to select a local file from your device to be uploaded. The [Choose file] button is displayed in the box.
         - [Choose file]  
-            Click this button to select a file from your device to be uploaded. If no file has been selected yet, the notice *No file chosen* is displayed to the right of the button.
+            Click this button to select a file from your device to be uploaded. If no file has been selected yet, the *No file chosen* notice is displayed to the right of the button.
     - ![Radio button](../../Assets/Icons/RadioButtonChecked.png "[Radio button]") *DMS*  
         Select this radio button to select a file in the *Documents* module to be uploaded. A search bar and the [SEARCH] button are displayed in the box. This radio button is only displayed when the *Documents* module is installed.
         - Search field   
@@ -282,7 +282,7 @@ The following import options are available in the tab:
     - ![Radio button](../../Assets/Icons/RadioButtonChecked.png "[Radio button]") *Local file*  
         Select this radio button to select a local file from your device to be uploaded. The [Choose file] button is displayed in the box.
         - [Choose file]  
-            Click this button to select a file from your device to be uploaded. If no file has been selected yet, the notice *No file chosen* is displayed to the right of the button.
+            Click this button to select a file from your device to be uploaded. If no file has been selected yet, the *No file chosen* notice is displayed to the right of the button.
     - ![Radio button](../../Assets/Icons/RadioButtonChecked.png "[Radio button]") *DMS*  
         Select this radio button to select a file in the *Documents* module to be uploaded. A search bar and the [SEARCH] button are displayed in the box. This radio button is only displayed when the *Documents* module is installed.
         - Search field   
@@ -334,7 +334,7 @@ The following import options are available in the tab:
         Enter the start date of the period to which the postings are to be imported in the left field and the end date of the period to which the postings are to be imported in the right field. The valid date format is *DD.MM.YYYY*.
 
 - *Impersonal accounts*  
-    Define how to handle the impersonal accounts to be imported. If the import file contained no impersonal accounts, the notice *No impersonal accounts in the import file* is displayed.
+    Define how to handle the impersonal accounts to be imported. If the import file contained no impersonal accounts, the *No impersonal accounts in the import file* notice is displayed.
     - *Take over impersonal accounts?*  
         Click the drop-down list and select the applicable option. The following options are displayed:
         - **Yes**   
@@ -349,7 +349,7 @@ The following import options are available in the tab:
             No existing impersonal accounts will be overwritten.
 
 - *Personal accounts*  
-    Define how to handle the personal accounts to be imported. If the import file contained no personal accounts, the notice *No personal accounts in the import file* is displayed.
+    Define how to handle the personal accounts to be imported. If the import file contained no personal accounts, the *No personal accounts in the import file* notice is displayed.
     - *Take over personal accounts?*  
         Click the drop-down list and select the applicable option. The following options are displayed:
         - **Yes**   
@@ -383,7 +383,7 @@ The following import options are available in the tab:
     - ![Radio button](../../Assets/Icons/RadioButtonChecked.png "[Radio button]") *Local file*  
         Select this radio button to select a local file from your device to be uploaded. The [Choose file] button is displayed in the box.
         - [Choose file]  
-            Click this button to select a file from your device to be uploaded. If no file has been selected yet, the notice *No file chosen* is displayed to the right of the button.
+            Click this button to select a file from your device to be uploaded. If no file has been selected yet, the *No file chosen* notice is displayed to the right of the button.
     - ![Radio button](../../Assets/Icons/RadioButtonChecked.png "[Radio button]") *DMS*  
         Select this radio button to select a file in the *Documents* module to be uploaded. A search bar and the [SEARCH] button are displayed in the box. This radio button is only displayed when the *Documents* module is installed.
         - Search field   
@@ -417,7 +417,7 @@ The following import options are available in the tab:
     - ![Radio button](../../Assets/Icons/RadioButtonChecked.png "[Radio button]") *Local file*  
         Select this radio button to select a local file from your device to be uploaded. The [Choose file] button is displayed in the box.
         - [Choose file]  
-            Click this button to select a file from your device to be uploaded. If no file has been selected yet, the notice *No file chosen* is displayed to the right of the button.
+            Click this button to select a file from your device to be uploaded. If no file has been selected yet, the *No file chosen* notice is displayed to the right of the button.
     - ![Radio button](../../Assets/Icons/RadioButtonChecked.png "[Radio button]") *DMS*  
         Select this radio button to select a file in the *Documents* module to be uploaded. A search bar and the [SEARCH] button are displayed in the box. This radio button is only displayed when the *Documents* module is installed.
         - Search field   

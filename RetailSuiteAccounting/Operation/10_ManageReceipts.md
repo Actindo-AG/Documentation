@@ -82,7 +82,7 @@ External receipts uploaded in the system and not yet registered can be assigned 
 
 ![Post receipts](../../Assets/Screenshots/RetailSuiteAccounting/Book/BookReceipts/BookReceipts.png "[Post receipts]")
 
-> [Info] All unassigned documents uploaded in the *New documents* folder in the *Documents* module are displayed in the *POST RECEIPTS* tab. If there are no unassigned documents, the notice *No documents left to be registered* is displayed in the *POST RECEIPTS* tab.
+> [Info] All unassigned documents uploaded in the *New documents* folder in the *Documents* module are displayed in the *POST RECEIPTS* tab. If there are no unassigned documents, the *No documents left to be registered* notice is displayed in the *POST RECEIPTS* tab.
 
 1. Select the document to be assigned. You can scroll through the available documents using the arrows to the left and right of ![Previous](../../Assets/Icons/Previous.png "[Previous]") *Document* ![Next](../../Assets/Icons/Next.png "[Next]").
 
@@ -155,7 +155,7 @@ You can enter a supplier receipt uploaded in the system and create and associate
 
     ![Acquire supplier receipts](../../Assets/Screenshots/RetailSuiteAccounting/Book/SupplierReceiptsAcquire.png "[Acquire supplier receipts]")
 
-    > [Info] If there are no receipts to be booked, the notice *No documents left to be registered* is displayed.
+    > [Info] If there are no receipts to be booked, the *No documents left to be registered* notice is displayed.
 
 3. Select the document to be assigned. You can scroll through the available documents using the arrows to the left and right of ![Previous](../../Assets/Icons/Previous.png "[Previous]") *Document* ![Next](../../Assets/Icons/Next.png "[Next]").
 
