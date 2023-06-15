@@ -27,7 +27,7 @@ The *Actindo Documentation* site is opened.
 
 4. Select the module documentation you want to read. To do this, click on the corresponding item.   
 Alternatively, you can open the last articles you have visited before. To do this, click on the relevant article in the *Go to your last visited articles* section on the right.   
->[Info] If you have opened a module documentation, you can always return to the main documentation page by clicking on the Actindo logo.
+    >[Info] If you have opened a module documentation, you can always return to the main documentation page by clicking on the Actindo logo.
 
 
 ### Open the site via the Actindo Core1 Platform
@@ -66,7 +66,7 @@ Ae full text search is available that starts a search over the whole Actindo doc
 ![Actindo Documentation site](../../Assets/Screenshots/Core1Platform/UsingDocumentation/DocumentationsSiteSearch.png "[Actindo Documentation site]")
 
 1. In the *Search Actindo documentation* field in the *Hi, how can we help you?* section, enter the search characters of the subject you want to search for.   
-   > [Info] If you want to clear the search, click on the ![Clear](../../Assets/Icons/Cross02.png "[Clear]") icon on the right side in the search field. 
+    > [Info] If you want to clear the search, click on the ![Clear](../../Assets/Icons/Cross02.png "[Clear]") icon on the right side in the search field. 
 2. Press **Enter**.   
 A list with the search results is displayed.   
 A single search result contains the following information:    
@@ -144,13 +144,13 @@ If you want to study a screenshot in detail, you can open it in full screen mode
 
 #### Procedure
 *Actindo Documentation site > Select a module/plugin documentation*
+![Actindo module documentation](../../Assets/Screenshots/Core1Platform/UsingDocumentation/ModulePage.png "[Actindo module documentation]")
 
-SCREENSHOT
 
 1. Open a page on which a screenshot is displayed.
 2. Click on the screenshot.  
    The screenshot is displayed in full screen mode.
 
-SCREENSHOT
+   ![Full screen screen shot](../../Assets/Screenshots/Core1Platform/UsingDocumentation/ModulePageFullScreenScreenshot.png "[Full screen screenshot]")
 
 3. Click the ![Back](../../Assets/Icons/Back01.png "[Back]") [Back] button of your browser to return to the documentation.
