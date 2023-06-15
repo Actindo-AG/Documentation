@@ -4,7 +4,7 @@ The *Actindo Core1 Platform* documentation pursues the goal that you can quickly
 This topic provides you with a description of each section and the content you can expect there.
 > [Info] The *Get started* documentation you currently read does not follow these principles, because too much different subjects are described here.  
 
-The Actindo Core1 module/plugin documentation has the following structure, whereby each section starts with a TOC document giving an overview of it's content.
+The Actindo Core1 module/plugin documentation has the following structure, whereby each section starts with a TOC document giving an overview of its content.
 
 ## Overview
 
