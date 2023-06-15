@@ -67,4 +67,3 @@ In this part of the *Accounting* documentation, you will find the following chap
     - [Create a follow-on posting](./09_ManageFollowOnPostings.md#create-a-follow-on-posting)
     - [Edit a follow-on posting](./09_ManageFollowOnPostings.md#edit-a-follow-on-posting)
     - [Delete a follow-on posting](./09_ManageFollowOnPostings.md#delete-a-follow-on-posting)
-
