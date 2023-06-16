@@ -4,11 +4,11 @@ The *Actindo Core1 Platform* documentation pursues the goal that you can quickly
 This topic provides you with a description of each section and the content you can expect there.
 > [Info] The *Get started* documentation you currently read does not follow these principles, because too much different subjects are described here.  
 
-The Actindo Core1 module/plugin documentation has the following structure, whereby each section starts with a TOC document giving an overview of its content.
+The Actindo Core1 module/plugin documentation has the following structure, whereby each section starts with a TOC document giving an overview of its content:
 
 ## Overview
 
-The overview chapter provides you with general information on the module/plugin. It describes the overall purpose of the module/plugin as well as the main functions and features. The overview chapter is divided into the following parts:   
+The overview chapter provides you with general information on the module/plugin. It describes the overall purpose of the module/plugin as well as the main features. The overview chapter is divided into the following parts:   
 
 - **General information**   
    This part describes the overall benefits of the module/plugin as well as the version on which the present documentation is based.   
