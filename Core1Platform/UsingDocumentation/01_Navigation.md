@@ -1,13 +1,13 @@
 # Move around in the Actindo documentation
 
-The Actindo documentation offers a lot of ways to navigate between module documentations, to navigate within a document, and to navigate between documents within a module/plugin documentation.
+The Actindo documentation offers a lot of ways to navigate between module documentations, to navigate within a document, and to navigate between topics within a module/plugin documentation.
 
 
 ## Open the Actindo documentation site
 
 ### Open the site via the Actindo web presence.
 
-You can open the Actindo documentation site via the Actindo web presence. Alternatively, you can open the Actindo documentation site directly under [Actindo documentation (https://doc.actindo/en)](https://docs.actindo/en/ "Actindo documentation").
+You can open the Actindo documentation site via the Actindo web presence. Alternatively, you can open the Actindo documentation site directly under the following link: <a href="https://docs.actindo.com/en" target="_blank">Actindo documentation (https://docs.actindo.com/en)</a>.
 
 #### Prerequisites
 - You have internet access.
@@ -17,7 +17,7 @@ You can open the Actindo documentation site via the Actindo web presence. Altern
 *Actindo web presence > Resources > HELP & INFORMATION > Documentation (EN)*
 ![Actindo web presence](../../Assets/Screenshots/Core1Platform/UsingDocumentation/ActindoWebPresence.png "[Dispatch notes]")
 
-1. Open the Actindo Website under [Actindo (https://www.actindo.com/en/)](https://www.actindo.com/en/ "Actindos Homepage").   
+1. Open the Actindo Website under <a href="https://actindo.com/en" target="_blank">Actindo home page (https://Actindo.om/en)</a>.   
     > [Info] The dropdown list contains links to further sources of information.
 2. In the navigation panel on top of the page, choose **Resources**.
 3. In the *HELP & INFORMATION* section, choose **Documentation (EN)**.   
