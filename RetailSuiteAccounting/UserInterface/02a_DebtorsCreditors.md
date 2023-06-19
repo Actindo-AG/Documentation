@@ -648,7 +648,7 @@ In the *Customer/supplier "Customer/supplier number"* tab, you can add and/or ed
 - *[Further addresses](#further-addresses)*
 - *[Invoicing](#invoicing-1)*
 - *[Additional fields](#additional-fields-1)*
-- *[Content](#content)*
+- *[Contents](#contents)*
 - *[Stock history](#stock-history)*
 - *[Statistics](#statistics)*
 - *[Drop shipping](#drop-shipping-1)*
@@ -929,11 +929,13 @@ Additionally, the following buttons are displayed in the bottom right corner of 
     Click this button to save all changes made to the selected customer/supplier.
 
 
-### Content
+### Contents
 
 *Accounting > Settings > Tab DEBTORS/CREDITORS > Tab Customer/supplier list > Select customer/supplier > Sub-tab Content*
 
 ![Content](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/Content01.png "[Content]")
+
+[comment]: <> (Content Header und Links umbenannt nach RS mit S. Sole, da Probleme mit Style sheet. Vorübergehende Lösung. Bug Ticket für Docu!)
 
 **Content**
 

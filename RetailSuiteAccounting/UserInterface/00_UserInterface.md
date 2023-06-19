@@ -69,10 +69,8 @@ In this part of the *Accounting* documentation, you will find the following chap
 - [Settings](./02_Settings.md)
 
 - [DEBTORS/CREDITORS](./02a_DebtorsCreditors.md)
-
     - [Customer/supplier list](./02a_DebtorsCreditors.md#customer/supplier-list)
         - [Customer/supplier context menu](./02a_DebtorsCreditors.md#customer/supplier-context-menu)
-
     - [Create customer/supplier](./02a_DebtorsCreditors.md#create-customer/supplier)
         - [Address/contact](./02a_DebtorsCreditors.md#address/contact)
         - [Delivery addresses](./02a_DebtorsCreditors.md#delivery-addresses)
@@ -81,28 +79,30 @@ In this part of the *Accounting* documentation, you will find the following chap
         - [Drop shipping](./02a_DebtorsCreditors.md#drop-shipping)
         - [CRM information](./02a_DebtorsCreditors.md#crm-information)
         - [Notes](./02a_DebtorsCreditors.md#notes)
-
     - [Customer/supplier "Customer/supplier number"](./02a_DebtorsCreditors.md#customer/supplier)
         - [Address/contact](./02a_DebtorsCreditors.md#address/contact-1)
         - [Further addresses](./02a_DebtorsCreditors.md#further-addresses)
         - [Invoicing](./02a_DebtorsCreditors.md#invoicing-1)
         - [Additional fields](./02a_DebtorsCreditors.md#additional-fields-1)
-        - [Content](./02a_DebtorsCreditors.md#content)
+        - [Contents](./02a_DebtorsCreditors.md#contents)
         - [Stock history](./02a_DebtorsCreditors.md#stock-history)
         - [Statistics](./02a_DebtorsCreditors.md#statistics)
         - [Drop shipping](./02a_DebtorsCreditors.md#drop-shipping-1)
         - [CRM information](./02a_DebtorsCreditors.md#crm-information-1)
         - [Notes](./02a_DebtorsCreditors.md#notes-1)
-
     - [Loyalty cards](./02a_DebtorsCreditors.md#loyalty-cards)
+
 
 - [ACCOUNTS](./02b_Accounts.md)
 
+
 - [TAX KEYS](./02c_TaxKeys.md)
+
 
 - [FISCAL YEARS](./02d_FiscalYears.md)
     - [Import postings](./02d_FiscalYears.md#import-postings)
     - [Export postings](./02d_FiscalYears.md#export-postings)
+
 
 - [COST ACCOUNTING](./02e_CostAccounting.md)
     - [Cost center](./02e_CostAccounting.md#cost-center)
@@ -112,12 +112,16 @@ In this part of the *Accounting* documentation, you will find the following chap
         - [ProfitCenter](./02e_CostAccounting.md#profitcenter)
     - [Print cost center/object](./02e_CostAccounting.md#print-cost-center/object)
 
+
 - [FIXED POSTINGS](./02f_FixedBookings.md)
     - [Fixed posting batch name](./02f_FixedBookings.md#fixed-postings-–-batch)
 
+
 - [FOLLOW-ON POSTINGS](./02g_FollowOnBookings.md)
 
+
 - [BALANCE CARRIED FORWARD](./02h_BalanceCarriedForward.md)
+
 
 - [BWA ASSIGNMENT](./02i_BWAAssignment.md)
     - [Copy from predefined system report](./02i_BWAAssignment.md#copy-from-predefined-system-report)
@@ -126,14 +130,18 @@ In this part of the *Accounting* documentation, you will find the following chap
     - [Create report line](./02i_BWAAssignment.md#create-report-line)
     - [Edit "Report line ID"](./02i_BWAAssignment.md#edit-report-line)
 
+
 - [SAP ACCOUNT MAPPING](./02j_SAPAccountMapping.md)
 
+
 - [SAP TAX KEY MAPPING](./02k_SAPTaxKeyMapping.md)
+
 
 - [ADVANCED](./02l_Advanced.md)
 
 
 - [Extras](./03_Extras.md)
+
 
 - [IMPORT](./03a_Import.md)
     - [Compeso 7.x](./03a_Import.md#compeso-7x)
@@ -144,6 +152,7 @@ In this part of the *Accounting* documentation, you will find the following chap
     - [Schilling Accounting](./03a_Import.md#schilling-accounting)
         - [Import/export definitions](./03a_Import.md#import/export-definitions)
         - [Select file](./03a_Import.md#select-file)
+
 
 - [EXPORT](./03b_Export.md)
     - [BMD](./03b_Export.md#bmd)
@@ -159,6 +168,7 @@ In this part of the *Accounting* documentation, you will find the following chap
     - [Varial](./03b_Export.md#varial)
     - [Zahlwerk](./03b_Export.md#zahlwerk)
         - [Import/export definitions](./03a_Import.md#import/export-definitions)
+
 
 - [CSV format definition](./03c_CSVFormatDef.md)
     - [New import/export definition](./03c_CSVFormatDef.md#new-import/export-definition)
