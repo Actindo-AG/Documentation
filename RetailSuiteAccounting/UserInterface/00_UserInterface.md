@@ -161,5 +161,5 @@ In this part of the *Accounting* documentation, you will find the following chap
         - [Import/export definitions](./03a_Import.md#import/export-definitions)
 
 - [CSV format definition](./03c_CSVFormatDef.md)
-    - [New import/export definition](./03c_CSVFormatDef.md#new-importexport-definition)
-    - [Rename import/export definition](./03c_CSVFormatDef.md#rename-importexport-definition)
+    - [New import/export definition](./03c_CSVFormatDef.md#new-import/export-definition)
+    - [Rename import/export definition](./03c_CSVFormatDef.md#rename-import/export-definition)

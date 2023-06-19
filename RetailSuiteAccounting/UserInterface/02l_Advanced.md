@@ -1,5 +1,5 @@
 [!!User interface Postings](./01a_Bookings.md)
-[!!User interface Account sheet](./01c_AccountSheet.md)  
+[!!User interface Account sheet](./01c_AccountSheet.md)
 
 # Advanced
 

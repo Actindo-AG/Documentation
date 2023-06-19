@@ -1,7 +1,7 @@
 [!!User interface Postings](../UserInterface/01a_Bookings.md)
 [!!User interface Post receipts](../UserInterface/01f_BookReceipts.md)
 [!!User interface Postings header](../UserInterface/01_Header.md)
-[!!User interface Debtors/creditors](../UserInterface/02a_DebtorsCreditors.md)    
+[!!User interface Debtors/creditors](../UserInterface/02a_DebtorsCreditors.md) 
 
 [comment]: <> (Ggf. Link zu Documents, Purchasing and Payment processing hinzufügen, wenn verfügbar) 
 

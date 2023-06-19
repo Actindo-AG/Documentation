@@ -41,7 +41,7 @@ In this part of the *Accounting* documentation, you will find the following chap
     - [Post a receipt](./10_ManageReceipts.md#post-a-receipt)
     - [Post a supplier receipt](./10_ManageReceipts.md#post-a-supplier-receipt)
         - [Acquire a supplier receipt](./10_ManageReceipts.md#acquire-a-supplier-receipt)
-        - [Release a supplier receipt in Purchasing](./10_ManageReceipts.md#release-a-supplier-receipt-in-Purchasing)
+        - [Release a supplier receipt in Purchasing](./10_ManageReceipts.md#release-a-supplier-receipt-in-purchasing)
         - [Financial accounting takeover](./10_ManageReceipts.md#financial-accounting-takeover)
 
 
@@ -57,6 +57,6 @@ In this part of the *Accounting* documentation, you will find the following chap
 
 
 - [Provide accounting data](./15_ProvideAccountingData.md)
-    - [Export the data for DATEV](./15_ProvideAccountingData.md#export-the-data-for-DATEV)
-    - [Export the data GDPdU-compliant](./15_ProvideAccountingData.md#export-the-data-GDPdU-compliant)
-    - [Create a PDF evaluation](./15_ProvideAccountingData.md#create-a-PDF-evaluation)
+    - [Export the data for DATEV](./15_ProvideAccountingData.md#export-the-data-for-datev)
+    - [Export the data GDPdU-compliant](./15_ProvideAccountingData.md#export-the-data-gdpdu-compliant)
+    - [Create a PDF evaluation](./15_ProvideAccountingData.md#create-a-pdf-evaluation)

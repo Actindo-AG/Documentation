@@ -1,4 +1,4 @@
-[!!User interface Open items](../UserInterface/01d_OpenItems.md)  
+[!!User interface Open items](../UserInterface/01d_OpenItems.md)
 
 [comment]: <> (Link auf Payment processing / Zahlungsabwicklung, wenn verfügbar)
 

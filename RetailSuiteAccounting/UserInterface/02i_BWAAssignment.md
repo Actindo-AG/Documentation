@@ -1,4 +1,4 @@
-[Manage the BWA reports](../Integration/07_ManageBWAReports.md) 
+[!!Manage the BWA reports](../Integration/07_ManageBWAReports.md)
 
 # BWA assignment
 

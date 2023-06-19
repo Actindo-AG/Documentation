@@ -2,7 +2,7 @@
 [!!User interface Postings header](../UserInterface/01_Header.md)
 [!!User interface BWA assignment](../UserInterface/02i_BWAAssignment.md)
 [!!User interface Export](../UserInterface/03b_Export.md)
-[!!User interface CVS format definition](../UserInterface/03c_CSVFormatDef.md)  
+[!!User interface CVS format definition](../UserInterface/03c_CSVFormatDef.md)
 
 # Provide accounting data
 

@@ -1,4 +1,4 @@
-[!!User interface Cost accounting](../UserInterface/02e_CostAccounting.md)  
+[!!User interface Cost accounting](../UserInterface/02e_CostAccounting.md)
 
 # Manage the cost accounting
 

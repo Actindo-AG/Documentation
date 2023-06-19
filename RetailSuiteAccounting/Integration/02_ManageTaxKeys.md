@@ -1,5 +1,5 @@
 [!!User interface Tax keys](../UserInterface/02c_TaxKeys.md)
-[!!Taxes](../../Taxes/Overview/01_General.md)  
+[!!Taxes](../../Taxes/Overview/01_General.md)
 
 [comment]: <> (Link zu Order Management hinzufügen, wenn verfügbar)  
 

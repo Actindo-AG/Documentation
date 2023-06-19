@@ -28,10 +28,10 @@ In this part of the *Accounting* documentation, you will find the following chap
     - [Delete a fiscal year](./04_ManageFiscalYear.md#delete-a-fiscal-year)
 
 
-- [Manage the customer/supplier](./05_ManageCustomer/Supplier.md)
-    - [Create a customer/supplier](./05_ManageCustomer/Supplier.md#create-a-customer/supplier)
-    - [Edit a customer/supplier](./05_ManageCustomer/Supplier.md#edit-a-customer/supplier)
-    - [Delete a customer/supplier](./05_ManageCustomer/Supplier.md#delete-a-customer/supplier)
+- [Manage the customer/supplier](./05_ManageCustomerSupplier.md)
+    - [Create a customer/supplier](./05_ManageCustomerSupplier.md#create-a-customer/supplier)
+    - [Edit a customer/supplier](./05_ManageCustomerSupplier.md#edit-a-customer/supplier)
+    - [Delete a customer/supplier](./05_ManageCustomerSupplier.md#delete-a-customer/supplier)
 
 
 - [Manage the fixed postings](./06_ManageFixedBookings.md)
@@ -44,14 +44,14 @@ In this part of the *Accounting* documentation, you will find the following chap
 
 
 - [Manage the BWA reports](./07_ManageBWAReports.md)
-    - [Create a BWA report](./07_ManageBWAReports.md#create-a-BWA-report)
-        - [Add a BWA report](./07_ManageBWAReports.md#add-a-BWA-report)
+    - [Create a BWA report](./07_ManageBWAReports.md#create-a-bwa-report)
+        - [Add a BWA report](./07_ManageBWAReports.md#add-a-bwa-report)
         - [Add report lines](./07_ManageBWAReports.md#add-report-lines)
-    - [Edit a BWA report](./07_ManageBWAReports.md#edit-a-BWA-report)
-    - [Copy a BWA report](./07_ManageBWAReports.md#copy-a-BWA-report)
-        - [Copy a predefined BWA report](./07_ManageBWAReports.md#copy-a-predefined-BWA-report)
-        - [Copy a custom BWA report](./07_ManageBWAReports.md#copy-a-custom-BWA-report)
-    - [Delete a BWA report](./07_ManageBWAReports.md#delete-a-BWA-report)
+    - [Edit a BWA report](./07_ManageBWAReports.md#edit-a-bwa-report)
+    - [Copy a BWA report](./07_ManageBWAReports.md#copy-a-bwa-report)
+        - [Copy a predefined BWA report](./07_ManageBWAReports.md#copy-a-predefined-bwa-report)
+        - [Copy a custom BWA report](./07_ManageBWAReports.md#copy-a-custom-bwa-report)
+    - [Delete a BWA report](./07_ManageBWAReports.md#delete-a-bwa-report)
 
 
 - [Manage the cost accounting](./08_ManageCostAccounting.md)

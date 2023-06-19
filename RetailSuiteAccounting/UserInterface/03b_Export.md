@@ -24,7 +24,7 @@ The following export options are displayed in the tab:
 - *Export of data in DATEV CSV format*  
     - [DATEV CSV]  
         Click this button to export data in DATEV-compatible CSV format. The *DATEV CSV* window is displayed, see [DATEV CSV](#datev-csv).   
-        For detailed information about exporting data in DATEV-compatible CSV format, see [Export the data for DATEV](../Operation/15_ProvideAccountingData.md#export-the-data-for-DATEV).
+        For detailed information about exporting data in DATEV-compatible CSV format, see [Export the data for DATEV](../Operation/15_ProvideAccountingData.md#export-the-data-for-datev).
 
 - *Export of data in GDI standard interface format*  
     - [GDI]  
@@ -33,7 +33,7 @@ The following export options are displayed in the tab:
 - *Export of data in GDPdU format*  
     - [GDPDU EXPORT]  
         Click this button to export data in GDPdU-compliant audit file format. The *GDPDU export* window is displayed, see [GDPDU export](#gdpdu-export).   
-        For detailed information about exporting data in GDPdU-compliant audit file format, see [Export the data GDPdU-compliant](../Operation/15_ProvideAccountingData.md#export-the-data-GDPdU-compliant).
+        For detailed information about exporting data in GDPdU-compliant audit file format, see [Export the data GDPdU-compliant](../Operation/15_ProvideAccountingData.md#export-the-data-gdpdu-compliant).
 
 - *Export of open items*  
     - [OPEN ITEMS]  
@@ -45,7 +45,7 @@ The following export options are displayed in the tab:
 
 - *Compeso SALDEN.DAT*  
     - [SALDEN.DAT]  
-        Click this button to export data in Compeso SALDEN.DAT proprietary format. The *SALDEN.DAT* window is displayed, see [SALDEN.DAT](#saldendat).
+        Click this button to export data in Compeso SALDEN.DAT proprietary format. The *SALDEN.DAT* window is displayed, see [SALDEN.DAT](#salden-dat).
 
 - *Export postings for SAP*  
     - [SAP]  
@@ -342,7 +342,7 @@ The list displays all available BMD tax mappings. Depending on the settings, the
 
 ![Export GDPDU Step 1](../../Assets/Screenshots/RetailSuiteAccounting/Extras/Export/GDPdU01.png "[Export GDPDU Step 1]")
 
- > [Info] For detailed information about exporting data in GDPdU-compliant audit file format, see [Export the data GDPdU-compliant](../Operation/15_ProvideAccountingData.md#export-the-data-GDPdU-compliant).
+ > [Info] For detailed information about exporting data in GDPdU-compliant audit file format, see [Export the data GDPdU-compliant](../Operation/15_ProvideAccountingData.md#export-the-data-gdpdu-compliant).
 
 - *Fiscal year*  
     Click the drop-down list to select the fiscal year to be exported. All available fiscal years are displayed in the list.

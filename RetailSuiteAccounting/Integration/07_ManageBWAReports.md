@@ -1,6 +1,6 @@
 [!!Provide accounting data](../Operation/15_ProvideAccountingData.md)
 [!!User interface Postings header](../UserInterface/01_Header.md)
-[!!User interface BWA assignment](../UserInterface/02i_BWAAssignment.md)  
+[!!User interface BWA assignment](../UserInterface/02i_BWAAssignment.md)
 
 # Manage the BWA reports
 
@@ -51,7 +51,7 @@ You can add report lines to a BWA report.
 #### Prerequisites
 
 - A fiscal year has been selected, see [Select the fiscal year](../Operation/01_SelectFiscalYear.md).
-- A BWA report has been added, see [Add a BWA report](#add-a-BWA-report).
+- A BWA report has been added, see [Add a BWA report](#add-a-bwa-report).
 
 #### Procedure
 
@@ -230,7 +230,7 @@ You can make a copy of a self-created BWA report.
 #### Prerequisites  
 
 - A fiscal year has been selected, see [Select the fiscal year](../Operation/01_SelectFiscalYear.md).
-- A BWA report has been created, see [Create a BWA report](#create-a-BWA-report).
+- A BWA report has been created, see [Create a BWA report](#create-a-bwa-report).
 
 #### Procedure
 
@@ -253,7 +253,7 @@ You can delete a BWA report if it is no longer needed, either one of the predefi
 #### Prerequisites
 
 - A fiscal year has been selected, see [Select the fiscal year](../Operation/01_SelectFiscalYear.md).
-- A BWA report has been created, see [Create a BWA report](#create-a-BWA-report).
+- A BWA report has been created, see [Create a BWA report](#create-a-bwa-report).
 
 #### Procedure
 

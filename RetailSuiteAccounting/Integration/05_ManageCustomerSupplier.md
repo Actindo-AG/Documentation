@@ -1,4 +1,4 @@
-[!!User interface Debtors/creditors](../UserInterface/02a_DebtorsCreditors.md)  
+[!!User interface Debtors/creditors](../UserInterface/02a_DebtorsCreditors.md)
 
 [comment]: <> (Link zu Order Management hinzufügen, wenn verfügbar)   
 

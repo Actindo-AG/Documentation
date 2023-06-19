@@ -20,7 +20,7 @@ In all tabs of the *Post* menu entry, an identical header is displayed. For deta
 
 The *Post extras* search side bar contains two tabs:
 - [*Accounts*](#accounts): Search for accounts
-- [*Search*](#search): Search for postings
+- [*Search*](#search-1): Search for postings
 
 
 

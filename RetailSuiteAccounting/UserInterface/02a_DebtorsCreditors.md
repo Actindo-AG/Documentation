@@ -1,6 +1,6 @@
 [!!User interface Import](./03a_Import.md)
 [!!User interface CSV format definitions](./03c_CSVFormatDef.md)
-[!!Manage the customer/supplier](../Integration/05_ManageCustomer/Supplier.md)
+[!!Manage the customer/supplier](../Integration/05_ManageCustomerSupplier.md)
 
 # Debtors/creditors
 
@@ -8,7 +8,7 @@
 
 ![Debtors/creditors](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/CustomerSupplierList.png "[Debtors/creditors]")
 
-The *DEBTORS/CREDITORS* tab displays a customer/supplier list and allows to create, edit and delete customers (debtors) and suppliers (creditors). For detailed information about managing customers and suppliers, see [Manage the customer/supplier](../Integration/05_ManageCustomer/Supplier.md).
+The *DEBTORS/CREDITORS* tab displays a customer/supplier list and allows to create, edit and delete customers (debtors) and suppliers (creditors). For detailed information about managing customers and suppliers, see [Manage the customer/supplier](../Integration/05_ManageCustomerSupplier.md).
 
 The *DEBTORS/CREDITORS* tab contains in turn two tabs:
 
@@ -741,7 +741,7 @@ The list displays all delivery addresses of the selected customer/supplier. Depe
 
 ![Further addresses Add/Edit](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/FurtherAddressesAddEdit.png "[Further addresses Add/Edit]")
 
-Click the [CREATE] button to display the *Add* section or select the checkbox of an address to display the *Edit* section. The fields in the *Add* and the *Edit* section are identical.
+> [Info] When clicking the [CREATE] button, the *Add* section is displayed. When selecting a checkbox in the entry list, the *Edit* section is displayed. The fields in the *Add* and the *Edit* section are identical.
 
 - *Address type*  
     Click the drop-down list to select the address type. The following options are available:
@@ -981,7 +981,7 @@ The list displays all attached content, for instance files and links. Depending 
 
 [comment]: <> (Edit section nicht vollständig angezeigt - Anzeigefehler - Bug Ticket)
 
-Click the [CREATE] button to display the *Add* section or select the checkbox of an attachment to display the *Edit* section. The fields in the *Add* and the *Edit* section are identical.
+> [Info] When clicking the [CREATE] button, the *Add* section is displayed. When selecting a checkbox in the entry list, the *Edit* section is displayed. The fields in the *Add* and the *Edit* section are identical.
 
 - *Language*  
     Click the drop-down list to select the appropriate content language. All available languages are displayed in the list. If you want no language to be selected, select the **No linguistic content** option.
@@ -1746,6 +1746,8 @@ Additionally, the following buttons are displayed in the bottom right corner of 
 
 ![Edit additional fields](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/EditAdditionalFieldsExcel.png "[Edit additional fields]")
 
+**Additional fields**
+
 - [EXCEL]  
     Click this button to display the *EXCEL* context menu. The following options are available:  
 
@@ -1784,11 +1786,11 @@ The list displays all additional fields. Depending on the settings, the displaye
     Click this button to update the list.
 
 
-**Edit additional fields Add/Edit**
+**Add/Edit**
 
-![Add/Edit](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/EditAdditionalFieldsAddEdit.png "[Edit additional fields Add/Edit]")
+![Edit additional fields Add/Edit](../../Assets/Screenshots/RetailSuiteAccounting/Settings/CustomerSupplier/EditAdditionalFieldsAddEdit.png "[Edit additional fields Add/Edit]")
 
-Click the [CREATE] button to display the *Add* section or select the checkbox of an additional field to display the *Edit* section. The fields in the *Add* and the *Edit* section are identical.
+> [Info] When clicking the [CREATE] button, the *Add* section is displayed. When selecting a checkbox in the entry list, the *Edit* section is displayed. The fields in the *Add* and the *Edit* section are identical.
 
 - *Field ID*  
     Enter the field ID. The field ID must contain at least two characters. Only a-z und 0-9 can be used.
