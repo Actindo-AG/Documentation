@@ -24,7 +24,7 @@ Fully integrated financial accounting with the *Accounting* module:
     Data can be exported in standardized format for DATEV, SAP FICO, GDPdU or configured individually. Mapping functions for export to third-party systems are also available.
 
 - Fully automatic dunning  
-    Based on the open items posted in the *Accounting* module, the system suggests pending dunning notices in the *Order management* module. Once the dunning process has been set up and activated, the system sends out fully automatic reminders. 
+    Based on the open items posted in the *Accounting* module, the system suggests pending dunning notices in the *Order management* module. Once the dunning process has been set up and activated, the system sends out fully automatic reminders.
 
 
 ## Modern accounting

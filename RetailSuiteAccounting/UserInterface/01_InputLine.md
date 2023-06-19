@@ -1,11 +1,11 @@
-[User interface Postings header](./01_Header.md)
-[User interface Cost accounting](./02e_CostAccounting.md)
-[Create a manual posting](../Operation/04_CreateManualBooking.md)
-[Post exchange rate fluctuations](../Operation/12_BookExchangeRateFluctuations.md)
-[Cancel a posting](../Operation/05_CancelBooking.md)
-[Delete postings](../Operation/06_DeleteBookings.md)
-[Split a posting](../Operation/09_SplitBooking.md)
-[Manage receipts](../Operation/10_ManageReceipts.md)
+[!!User interface Postings header](./01_Header.md)
+[!!User interface Cost accounting](./02e_CostAccounting.md)
+[!!Create a manual posting](../Operation/04_CreateManualBooking.md)
+[!!Post exchange rate fluctuations](../Operation/12_BookExchangeRateFluctuations.md)
+[!!Cancel a posting](../Operation/05_CancelBooking.md)
+[!!Delete postings](../Operation/06_DeleteBookings.md)
+[!!Split a posting](../Operation/09_SplitBooking.md)
+[!!Manage receipts](../Operation/10_ManageReceipts.md)
 
 # Postings input line
 

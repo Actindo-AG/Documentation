@@ -1,5 +1,5 @@
 [!!User interface Postings header](../UserInterface/01_Header.md)
-[!!User interface Postings input line](../UserInterface/01_InputLine.md)  
+[!!User interface Postings input line](../UserInterface/01_InputLine.md)
 
 # Split a posting
 

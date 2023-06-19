@@ -1,5 +1,5 @@
 [!!User interface Postings header](../UserInterface/01_Header.md)
-[!!User interface Postings](../UserInterface/01a_Bookings.md)  
+[!!User interface Postings](../UserInterface/01a_Bookings.md)
 
 # Delete postings
 

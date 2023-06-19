@@ -1,7 +1,7 @@
 [!!Manage accounts](../Integration/03_ManageAccounts.md)
 [!!User interface Postings](../UserInterface/01a_Bookings.md)
 [!!User interface Search](../UserInterface/01e_Search.md)
-[!!User interface Accounts](../UserInterface/02b_Accounts.md)  
+[!!User interface Accounts](../UserInterface/02b_Accounts.md)
 
 # Search for accounting data
 

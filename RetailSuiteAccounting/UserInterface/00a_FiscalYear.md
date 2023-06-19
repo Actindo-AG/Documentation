@@ -3,7 +3,7 @@
 [!!User interface Settings Balance carried forward](./02h_BalanceCarriedForward.md)
 [!!Manage the fiscal year](../Integration/04_ManageFiscalYear.md)
 [!!Manage the fixed postings](../Integration/06_ManageFixedBookings.md)
-[!!Select fiscal year](../Operation/01_SelectFiscalYear.md)  
+[!!Select fiscal year](../Operation/01_SelectFiscalYear.md)
 
 # Fiscal year
 

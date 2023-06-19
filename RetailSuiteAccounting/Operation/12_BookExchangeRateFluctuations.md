@@ -1,6 +1,6 @@
 [!!Manage accounts](../Integration/03_ManageAccounts.md)
 [!!User interface Postings header](../UserInterface/01_Header.md)
-[!!User interface Accounts](../UserInterface/02b_Accounts.md)  
+[!!User interface Accounts](../UserInterface/02b_Accounts.md)
 
 # Post exchange rate fluctuations
 
@@ -59,7 +59,7 @@ The *Accounting* module only works with the base currency configured in the syst
 8. Click the [CONTINUE] button.   
     The *Successful. (Number) exchange rate differences successfully posted.* pop-up window is displayed. The exchange rate differences have been posted in the corresponding revenues or expenses accounts and are displayed as new postings in the postings list.
 
-    ![Pop-up window](../../Assets/Screenshots/RetailSuiteAccounting/Book/ExchangeRateDiffSuccessful.png "[Pop-up window]")
+    ![Successful](../../Assets/Screenshots/RetailSuiteAccounting/Book/ExchangeRateDiffSuccessful.png "[Successful]")
 
 9. If the automatic posting is not displayed in the list, press F5 to initialize the Core1 Platform and to update the postings list.  
     The exchange rate difference posting is now displayed in the postings list.
