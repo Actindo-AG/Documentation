@@ -154,7 +154,7 @@ In this part of the *Accounting* documentation, you will find the following chap
     - [GDPdU export](./03b_Export.md#gdpdu-export)
     - [Open items](./03b_Export.md#open-items)
     - [Balance list](./03b_Export.md#balance-list)
-    - [SALDEN.DAT](./03b_Export.md#salden-dat)
+    - [SALDEN.DAT](./03b_Export.md#saldendat)
     - [SAP](./03b_Export.md#sap)
     - [Varial](./03b_Export.md#varial)
     - [Zahlwerk](./03b_Export.md#zahlwerk)

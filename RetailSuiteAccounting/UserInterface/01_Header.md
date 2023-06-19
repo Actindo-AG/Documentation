@@ -302,19 +302,19 @@ The list displays all imported/retrieved bank transactions. Depending on the set
 - [RESET]  
     Click this button to reset the list of transactions.
 
-- ![Fully matched](../../Assets/Icons/FullyMatched.png "[Fully matched]") (Fully matched) [X]  
+- ![Fully matched](../../Assets/Icons/FullyMatched.png "[Fully matched]") (Fully matched) x  
     Transactions that are fully matched by the system with an open item are marked green. The *x* indicates the number of transactions that have been fully matched.
 
-- ![Partially matched](../../Assets/Icons/PartiallyMatched.png "[Partially matched]") (Partially matched) [X]  
+- ![Partially matched](../../Assets/Icons/PartiallyMatched.png "[Partially matched]") (Partially matched) x  
     Transactions that are partially matched by the system with an open item and must be checked by the user are marked yellow. The *x* indicates the number of transactions that have been partially matched. 
 
-- ![Not matched](../../Assets/Icons/NotMatched.png "[Not matched]") (Not matched) [X]   
+- ![Not matched](../../Assets/Icons/NotMatched.png "[Not matched]") (Not matched) x   
     Transactions that cannot be matched by the system with an open item are marked red. The *x* indicates the number of transactions that are not matched. 
 
-- ![Posted](../../Assets/Icons/Posted.png "[Posted]") (Posted) [X]  
+- ![Posted](../../Assets/Icons/Posted.png "[Posted]") (Posted) x  
     Transactions that have already been posted. The *x* indicates the number of transactions that have been posted. 
 
-- ![Hidden](../../Assets/Icons/Hidden.png "[Hidden]") (Hidden) [X]   
+- ![Hidden](../../Assets/Icons/Hidden.png "[Hidden]") (Hidden) x   
     Transactions that are hidden. The *x* indicates the number of transactions that are hidden. 
 
 - [SELECT GREEN]  
