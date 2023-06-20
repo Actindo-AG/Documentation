@@ -1,4 +1,5 @@
 # Use general user interface functions
+
 The *Actindo Core1 Platform* has general user interface functions that are available independently of the module/plugin, with which you are currently working.
 
 
@@ -9,6 +10,7 @@ You can collapse the navigation menu, if you have not enough space in the workpl
 - You are logged in the *Actindo Core1 Platform*.
 
 #### Procedure
+
 *Actindo Core1 Platform*
 
 ![Expanded navigation menu](../../Assets/Screenshots/Core1Platform/UsingCore1/ExpandedNavBar.png "[Expanded navigation menu]")
@@ -21,7 +23,7 @@ The navigation menu space is reduced in size. Only the module icons are displaye
 2. Click the ![Collapse/Expand](../../Assets/Icons/CollapseExpand02.png "[Collapse/Expand]") button top left to expand the navigation menu again.
 
 ## Sort navigation menu entries
-You can change the sequence of the navigation menu entries. This allows you to position often used menu entries at the beginning of the list.   
+You can change the sequence of the navigation menu entries. For example, this allows you to position often used menu entries at the beginning of the list.   
  > [Info] The list of menu entries contains only those modules/plugins that are in use at your company.
 
  #### Prerequisites
@@ -89,7 +91,7 @@ A drop down list is opened in which you can display currently created notificati
 ![Notifications drop down list](../../Assets/Screenshots/Core1Platform/UsingCore1/Notifications.png "[Notifications drop down list]]")
 2. Click the [SHOW ALL] button to have a look on notifications that have been created recently.   
 A window is opened in which recently created notifications are listed. 
-![Actindo Core1 Platform](../../Assets/Screenshots/Core1Platform/UsingCore1/NotificationsShowAll.png "[Actindo Core1 Platform]")   
+![Show all notifications](../../Assets/Screenshots/Core1Platform/UsingCore1/NotificationsShowAll.png "[Show all notifications]")   
 Each entry has a status information in the *Type* column. The following notification types are available:
      - Info (indicated by a green dot)   
      This is an information only.
@@ -101,7 +103,42 @@ Each entry has a status information in the *Type* column. The following notifica
 3. If desired, sort the list to view older entries. To do this, click the *Zeitpunkt (Point of time)* button to sort the list ascending.
 
 
-## Check your profile, log out, and change language
+## Check your profile and log out
 
 The ![Avatar](../../Assets/Icons/Avatar.png "[Avatar]") (Avatar) button top right gives you access to the following:
-- Profile settings. For detailed information, see 
+- **Profile settings**   
+ For detailed information, see [Edit profile settings ](./ "Edit profile settings").
+- **Logout**    
+Click on the [Logout] button to leave the *Actindo Core1 Platform*.
+- **Change language**   
+For detailed information, see below under [Change language ](./05_GeneralUIFunctions.md#change-language).
+
+
+## Change language
+
+The *Actindo Core1 Platform* is currently available in English and German. You can change the language during your current session without the need of a new login.
+
+#### Prerequisites
+- You are logged in the *Actindo Core1 Platform*.
+
+#### Procedure
+
+![Actindo Core1 Platform](../../Assets/Screenshots/Core1Platform/UsingCore1/Core1Platform.png "[Actindo Core1 Platform]")
+
+1. Click the ![Avatar](../../Assets/Icons/Avatar.png "[Avatar]") (Avatar) button top right.   
+A dropdown list is opened.  
+![Profile menu](../../Assets/Screenshots/Core1Platform/UsingCore1/Profile.png "[Profile menu]")
+1. Click the [Language] button.  
+    A dropdown list is opened. It contains the language versions that are installed on your system.  
+     
+   ![Change language](../../Assets/Screenshots/Core1Platform/UsingCore1/ProfileLanguage.png "[Change language]")
+
+2. Select the desired language.   
+The *Change language* pop-up window is opened.
+
+     ![Language selection](../../Assets/Screenshots/Core1Platform/UsingCore1/ChangeLanguage.png "[Language selection]")
+
+3. Click the [CHANGE LANGUAGE] button to switch to another language.  
+The application is being initialized. Afterwards, it is available in the selected language.
+
+    ![Language selection](../../Assets/Screenshots/Core1Platform/UsingCore1/ChangeLanguageInitialize.png "[Language selection]")

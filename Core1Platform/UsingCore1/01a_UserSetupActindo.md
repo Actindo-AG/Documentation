@@ -3,7 +3,9 @@
 
 # Set up U2F from the user side
 
-For the U2F setup of an Actindo account, a user-side setup as well as an administrator-side setup is necessary. The user needs to define several settings within its Actindo account to add *U2F* with the *YubiKey* as an authorization method.
+The secure access to Actindo can be granted by using *Multi-Factor Authentication (MFA)*. The *MFA authentication* method requires two or more verification factors to log in to an application or website. Actindo uses the *YubiKey* as a second factor for the two-factor authentication, using the *Universal Second Factor (U2F)* standard.
+
+For the U2F setup of an Actindo account, a user-side setup as well as an administrator-side setup is necessary. As a user, you need to define several settings within your Actindo account to add *U2F* with the *YubiKey* as an authorization method.
 
 #### Prerequisites
 
