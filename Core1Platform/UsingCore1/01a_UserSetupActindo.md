@@ -1,5 +1,5 @@
-[!!Set up U2F from the administrator side](./02_AdminSetupActindo.md)
-[!!User interface Profile settings](../../UserInterface/01d_U2F.md)
+[!!Set up U2F from the administrator side](../AdministratingCore1/03_AdminSetupActindo.md)
+[!!User interface Profile settings](../UserInterface/01d_U2F.md)
 
 # Set up U2F from the user side
 

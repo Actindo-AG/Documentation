@@ -1,4 +1,4 @@
-[!!Set up U2F from the administrator side](../MFA/Integration/02_AdminSetupActindo.md)
+[!!Set up U2F from the administrator side](../AdministratingCore1/03_AdminSetupActindo.md)
 
 # Profile
 
