@@ -45,7 +45,7 @@ The following export options are displayed in the tab:
 
 - *Compeso SALDEN.DAT*  
     - [SALDEN.DAT]  
-        Click this button to export data in Compeso SALDEN.DAT proprietary format. The *SALDEN.DAT* window is displayed, see [SALDEN.DAT](#saldendat).
+        Click this button to export data in Compeso SALDEN.DAT proprietary format. The *SALDEN.DAT* window is displayed, see [SALDEN.DAT](#salden.dat).
 
 - *Export postings for SAP*  
     - [SAP]  

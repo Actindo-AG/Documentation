@@ -16,7 +16,7 @@ The following import options are available in the tab:
 
 - *Compeso 7.x fiscal year backups*  
     - [COMPESO 7.X]  
-        Click this button to import data in Compeso proprietary format. The *Compeso 7.x* window is displayed, see [Compeso 7.x](#compeso-7x).
+        Click this button to import data in Compeso proprietary format. The *Compeso 7.x* window is displayed, see [Compeso 7.x](#compeso-7.x).
 
 - *Import of data in CVS format*  
     - [CSV]  
