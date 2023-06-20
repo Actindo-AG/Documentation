@@ -144,7 +144,7 @@ In this part of the *Accounting* documentation, you will find the following chap
 
 
 - [IMPORT](./03a_Import.md)
-    - [Compeso 7.x](./03a_Import.md#compeso-7x)
+    - [Compeso 7.x](./03a_Import.md#compeso-7.x)
     - [CSV](./03a_Import.md#csv)
     - [CSV LS-Motor](./03a_Import.md#csv-ls-motor)
     - [GDI](./03a_Import.md#gdi)
@@ -163,7 +163,7 @@ In this part of the *Accounting* documentation, you will find the following chap
     - [GDPdU export](./03b_Export.md#gdpdu-export)
     - [Open items](./03b_Export.md#open-items)
     - [Balance list](./03b_Export.md#balance-list)
-    - [SALDEN.DAT](./03b_Export.md#saldendat)
+    - [SALDEN.DAT](./03b_Export.md#salden.dat)
     - [SAP](./03b_Export.md#sap)
     - [Varial](./03b_Export.md#varial)
     - [Zahlwerk](./03b_Export.md#zahlwerk)
