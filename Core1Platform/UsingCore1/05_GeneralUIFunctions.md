@@ -1,8 +1,6 @@
-# General user interface functions
+# Use general user interface functions
+The *Actindo Core1 Platform* has general user interface functions that are available independently of the module/plugin, with which you are currently working.
 
-
-Processes/Notifications/Profile 
-Help (Link zur Docu)
 
 ## Expand/collapse the navigation menu
 You can collapse the navigation menu, if you have not enough space in the workplace to work comfortably.
@@ -55,7 +53,7 @@ The processes ![Processes running](../../Assets/Icons/ProcessRun.png "[Processes
 This information is mainly relevant for system administrators and especially helpful in a testing phase. 
 
 #### Prerequisites
-- Your are logged in the *Actindo Core1 Platform*.
+- You are logged in the *Actindo Core1 Platform*.
 
 #### Procedure
 
@@ -101,3 +99,9 @@ Each entry has a status information in the *Type* column. The following notifica
      This notification refers to a situation that led to an error. Check the situation in the logging menu entry of the affected module/plugin.
 
 3. If desired, sort the list to view older entries. To do this, click the *Zeitpunkt (Point of time)* button to sort the list ascending.
+
+
+## Check your profile, log out, and change language
+
+The ![Avatar](../../Assets/Icons/Avatar.png "[Avatar]") (Avatar) button top right gives you access to the following:
+- Profile settings. For detailed information, see 
