@@ -45,7 +45,7 @@ For the U2F setup of an Actindo account, a user-side setup as well as an adminis
 
     ![U2F](../../Assets/Screenshots/Core1Platform/ProfileSettings/U2F/U2F.png "[U2F]")
 
-6. Click the ![Add](../../../Assets/Icons/Plus01.png "[Add]") (Add) button in the bottom right corner.   
+6. Click the ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) button in the bottom right corner.   
     The *Add new U2F device* window is displayed.
 
     ![Add new U2F device](../../Assets/Screenshots/Core1Platform/ProfileSettings/U2F/AddNewU2FDevice.png "[Add new U2F device]")

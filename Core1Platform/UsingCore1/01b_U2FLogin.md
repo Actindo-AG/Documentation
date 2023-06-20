@@ -7,34 +7,34 @@ After U2F has been configured for your Actindo account, you will use U2F from yo
 
 #### Prerequisites
 
-- U2F has been configured for your account, see [Set up U2F from the user side](../../MFA/Integration/01_UserSetupActindo.md) and [Set up U2F from the administrator side](../../MFA/Integration/02_AdminSetupActindo.md).
+- U2F has been configured for your account, see [Set up U2F from the user side](../UsingCore1/01a_UserSetupActindo.md) and [Set up U2F from the administrator side](../AdministratingCore1/03_AdminSetupActindo.md).
 - You possess a *YubiKey*.
 
 #### Procedure
 
 *Login Actindo*
 
-![Login username](../../../Assets/Screenshots/Core1Platform/LoginUserName.png "[Login username]")
+![Login username](../../Assets/Screenshots/Core1Platform/LoginUserName.png "[Login username]")
 
 1. Enter your username in the *Username* field and click the [LOGIN] button.   
     The *Password* field is displayed.
 
-    ![Login password](../../../Assets/Screenshots/Core1Platform/LoginPassword.png "[Login password]")
+    ![Login password](../../Assets/Screenshots/Core1Platform/LoginPassword.png "[Login password]")
 
 2. Enter your password in the *Password* field and click the [LOGIN] button.   
     The *Click here to start the second factor authentication* button is displayed.
 
-    ![Login U2F](../../../Assets/Screenshots/Core1Platform/LoginU2F.png "[Login U2F]")
+    ![Login U2F](../../Assets/Screenshots/Core1Platform/LoginU2F.png "[Login U2F]")
 
 3. Click the *Click here to start the second factor authentication* button.    
     The browser window *Verify your identity* is displayed to select the device type for the identity verification.
 
-    ![Verify your identity](../../../Assets/Screenshots/Core1Platform/ProfileSettings/U2F/VerifyIdentity.png "[Verify your identity]")
+    ![Verify your identity](../../Assets/Screenshots/Core1Platform/ProfileSettings/U2F/VerifyIdentity.png "[Verify your identity]")
 
 4. Select the *USB security key* option in the browser window.   
     The browser window changes to the *Use your security key* window and prompts you to insert the key and touch it.
 
-    ![Use security key](../../../Assets/Screenshots/Core1Platform/ProfileSettings/U2F/UseSecurityKey.png "[Use security key]")
+    ![Use security key](../../Assets/Screenshots/Core1Platform/ProfileSettings/U2F/UseSecurityKey.png "[Use security key]")
 
 5. Insert the *YubiKey* into your device.   
     The *YubiKey* starts to flash.
