@@ -14,20 +14,20 @@ For the U2F setup of an Actindo account, a user-side setup as well as an adminis
 
 *Settings > Users and groups > Tab User management*
 
-![User management](../../../Assets/Screenshots/Settings/UsersGroups/UserManagement/UserManagement.png "[User management]")
+![User management](../../Assets/Screenshots/Settings/UsersGroups/UserManagement/UserManagement.png "[User management]")
 
 > [Info] For the admin-side setup, you must log in to an Actindo live account with the corresponding user.
 
 1. Click the user for whom you want to activate U2F in the users list.     
     The *Edit user* view is displayed. By default, the *Profile* tab is displayed.
 
-    ![Edit user profile](../../../Assets/Screenshots/Settings/UsersGroups/UserManagement/EditUserProfile.png "[Edit user profile]")
+    ![Edit user profile](../../Assets/Screenshots/Settings/UsersGroups/UserManagement/EditUserProfile.png "[Edit user profile]")
 
 2. Enable the *Universal Second Factor (U2F)* toggle.
 
 3. Click the [SAVE] button in the upper right corner.     
     U2F is activated as authorization method for the selected user.
 
-    ![Actindo dashboard](../../../Assets/Screenshots/ActindoDashboard/ActindoDashboard.png "[Actindo dashboard]")
+    ![Actindo dashboard](../../Assets/Screenshots/ActindoDashboard/ActindoDashboard.png "[Actindo dashboard]")
 
 > [Info] You can repeat this procedure for all users for whom you want to activate U2F. Note that the U2F login needs also to be set up by the corresponding user to be used for the Actindo U2F login.
