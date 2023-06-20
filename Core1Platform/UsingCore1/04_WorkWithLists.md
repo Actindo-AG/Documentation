@@ -6,6 +6,7 @@
 ## Add or remove columns
 
 ## Use filters
+Depending on the module entry you currently work in, different filters are available:
 
 
 #### Prerequisites

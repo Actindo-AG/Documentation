@@ -2,7 +2,7 @@
 
 *Avatar Icon*
 
-![Profile menu](../../Assets/Screenshots/Core1Platform/Profile.png "[Profile menu]")
+![Profile menu](../../Assets/Screenshots/Core1Platform/ProfileMenu.png "[Profile menu]")
 
 - *Settings*   
     Click this menu entry to display the profile settings tabs in the workspace.    

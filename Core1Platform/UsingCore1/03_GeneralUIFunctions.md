@@ -13,12 +13,12 @@ You can collapse the navigation menu, if you have not enough space in the workpl
 
 *Actindo Core1 Platform*
 
-![Expanded navigation menu](../../Assets/Screenshots/Core1Platform/UsingCore1/ExpandedNavBar.png "[Expanded navigation menu]")
+![Expanded navigation menu](../../Assets/Screenshots/Core1Platform/UsingCore1/ExpandedNavBar.png "[Expanded navigation menu]")   
 
-1. Click the ![Collapse/Expand](../../Assets/Icons/CollapseExpand02.png "[Collapse/Expand]") button top left to minimize the navigation menu.   
+1. Click the ![Collapse/Expand](../../Assets/Icons/CollapseExpand02.png "[Collapse/Expand]") (Collapse) button top left to minimize the navigation menu.   
 The navigation menu space is reduced in size. Only the module icons are displayed.
 
-   ![Collapsed navigation menu](../../Assets/Screenshots/Core1Platform/UsingCore1/CollapsedNavBar.png "[Collapsed navigation menu]")
+![Collapsed navigation menu](../../Assets/Screenshots/Core1Platform/UsingCore1/CollapsedNavBar.png "[Collapsed navigation menu]")
 
 2. Click the ![Collapse/Expand](../../Assets/Icons/CollapseExpand02.png "[Collapse/Expand]") button top left to expand the navigation menu again.
 
@@ -39,7 +39,7 @@ The ![Sort](../../Assets/Icons/Sort04.png "[Sort]") (Sort) button is displayed a
 2. Click the ![Sort](../../Assets/Icons/Sort04.png "[Sort]") (Sort) button and drag the desired menu entry at the position you prefer.   
 The position on which the menu entry will be inserted, is indicated by a dash. 
 
-    ![Sort menu entries](../../Assets/Screenshots/Core1Platform/UsingCore1/SortApps.png "[Sort menu entries]")  
+![Sort menu entries](../../Assets/Screenshots/Core1Platform/UsingCore1/SortApps.png "[Sort menu entries]")  
 
 3. Drop the entry at the desired position.  
  The menu entry is inserted at the position on which the dash was displayed before. You have changed the sequence in which the menu entries are displayed.
@@ -74,7 +74,7 @@ A drop down window is opened in which currently running resp. currently waiting 
 ## Check notifications
 
 Notifications are information on active jobs and other actions that has been done on the *Actindo Core1 Platform*, for example downloads, imports, postings, and much more. 
-This information is mainly relevant for system administrators and especially helpful in a testing phase.
+This information is mainly relevant for system administrators and especially helpful in a testing phase.  
 
 #### Prerequisites
 
@@ -84,21 +84,28 @@ This information is mainly relevant for system administrators and especially hel
 #### Procedure
 
 *Actindo Core1 Platform* 
-![Actindo Core1 Platform](../../Assets/Screenshots/Core1Platform/UsingCore1/Core1Platform.png "[Actindo Core1 Platform]")
+![Actindo Core1 Platform](../../Assets/Screenshots/Core1Platform/UsingCore1/Core1Platform.png "[Actindo Core1 Platform]")   
 
 1. Click the ![Notifications](../../Assets/Icons/Notifications.png "[Notifications]") (Notifications) button.   
-A drop down list is opened in which you can display currently created notifications. If no actual notifications are available, the text "no new notifications" is displayed.
-![Notifications drop down list](../../Assets/Screenshots/Core1Platform/UsingCore1/Notifications.png "[Notifications drop down list]]")
+A drop down list is opened in which you can display currently created notifications. If no actual notifications are available, the text "no new notifications" is displayed.   
+
+   ![Notifications drop down list](../../Assets/Screenshots/Core1Platform/UsingCore1/Notifications.png "[Notifications drop down list]]")
 2. Click the [SHOW ALL] button to have a look on notifications that have been created recently.   
 A window is opened in which recently created notifications are listed. 
-![Show all notifications](../../Assets/Screenshots/Core1Platform/UsingCore1/NotificationsShowAll.png "[Show all notifications]")   
-Each entry has a status information in the *Type* column. The following notification types are available:
-     - Info (indicated by a green dot)   
+
+   ![Show all notifications](../../Assets/Screenshots/Core1Platform/UsingCore1/NotificationsShowAll.png "[Show all notifications]")   
+
+    Each entry has a status information in the *Type* column. The following notification types are available:
+   - Info (indicated by a green dot)   
      This is an information only.
-     - Warning (indicated by a yellow dot)   
-     This notification refers to a situation that might be potentially critical. If required, check the situation in the logging menu entry of the affected module/plugin.
-     - Error (indicated by a red dot)   
-     This notification refers to a situation that led to an error. Check the situation in the logging menu entry of the affected module/plugin.
+
+   - Warning (indicated by a yellow dot)   
+    This notification refers to a situation that might be potentially critical. If required, check the situation in the logging menu entry of the affected module/plugin.
+
+   - Error (indicated by a red dot)   
+    This notification refers to a situation that led to an error. Check the situation in the logging menu entry of the affected module/plugin.   
+
+    > [Info] If warning or error notifications are available, a yellow or a red dot is added to the notifications button.   
 
 3. If desired, sort the list to view older entries. To do this, click the *Zeitpunkt (Point of time)* button to sort the list ascending.
 
