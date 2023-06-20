@@ -27,7 +27,7 @@ You can automate and parallelize the business for high volumes.
 
 **Away from API orchestration to business process orchestration**
 
-![Business process orchestration](../../Assets/Screenshots/Core1Platform/BusinessProcessOrchestration2.png "[Business process orchestration]")   
+![Business process orchestration](../../Assets/Screenshots/Core1Platform/BasicPhilosophy/BusinessProcessOrchestration2.png "[Business process orchestration]")   
 
 
 
