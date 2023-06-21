@@ -18,7 +18,7 @@ You can collapse the navigation menu, if you have not enough space in the workpl
 1. Click the ![Collapse/Expand](../../Assets/Icons/CollapseExpand02.png "[Collapse/Expand]") (Collapse) button top left to minimize the navigation menu.   
 The navigation menu space is reduced in size. Only the module icons are displayed.
 
-![Collapsed navigation menu](../../Assets/Screenshots/Core1Platform/UsingCore1/CollapsedNavBar.png "[Collapsed navigation menu]")
+    ![Collapsed navigation menu](../../Assets/Screenshots/Core1Platform/UsingCore1/CollapsedNavBar.png "[Collapsed navigation menu]")
 
 2. Click the ![Collapse/Expand](../../Assets/Icons/CollapseExpand02.png "[Collapse/Expand]") button top left to expand the navigation menu again.
 
@@ -39,7 +39,7 @@ The ![Sort](../../Assets/Icons/Sort04.png "[Sort]") (Sort) button is displayed a
 2. Click the ![Sort](../../Assets/Icons/Sort04.png "[Sort]") (Sort) button and drag the desired menu entry at the position you prefer.   
 The position on which the menu entry will be inserted, is indicated by a dash. 
 
-![Sort menu entries](../../Assets/Screenshots/Core1Platform/UsingCore1/SortApps.png "[Sort menu entries]")  
+    ![Sort menu entries](../../Assets/Screenshots/Core1Platform/UsingCore1/SortApps.png "[Sort menu entries]")  
 
 3. Drop the entry at the desired position.  
  The menu entry is inserted at the position on which the dash was displayed before. You have changed the sequence in which the menu entries are displayed.
@@ -65,7 +65,7 @@ This information is mainly relevant for system administrators and especially hel
 1. Click the ![Processes running](../../Assets/Icons/ProcessRun.png "[Processes running]") (Processes running) button to have a look on the running processes.   
 A drop down window is opened in which currently running resp. currently waiting processes are listed. This list is permanently refreshed.  
 
-![Running processes](../../Assets/Screenshots/Core1Platform/UsingCore1/RunningProcesses.png "[Running processes]")
+    ![Running processes](../../Assets/Screenshots/Core1Platform/UsingCore1/RunningProcesses.png "[Running processes]")
 
 2. Click the [VERWALTEN] (Manage) button to get a more static view on the processes.
 
