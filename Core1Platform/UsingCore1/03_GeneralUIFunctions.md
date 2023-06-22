@@ -87,9 +87,9 @@ This information is mainly relevant for system administrators and especially hel
 ![Actindo Core1 Platform](../../Assets/Screenshots/Core1Platform/UsingCore1/Core1Platform.png "[Actindo Core1 Platform]")   
 
 1. Click the ![Notifications](../../Assets/Icons/Notifications.png "[Notifications]") (Notifications) button.   
-A drop down list is opened in which you can display currently created notifications. If no actual notifications are available, the text "no new notifications" is displayed.   
+A drop-down list is opened in which you can display currently created notifications. If no actual notifications are available, the text "no new notifications" is displayed.   
 
-   ![Notifications drop down list](../../Assets/Screenshots/Core1Platform/UsingCore1/Notifications.png "[Notifications drop down list]]")
+   ![Notifications drop-down list](../../Assets/Screenshots/Core1Platform/UsingCore1/Notifications.png "[Notifications drop down list]]")
 2. Click the [SHOW ALL] button to have a look on notifications that have been created recently.   
 A window is opened in which recently created notifications are listed. 
 
