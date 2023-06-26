@@ -26,7 +26,7 @@ After U2F has been configured for your Actindo account, you will use U2F from yo
 
     ![Login U2F](../../Assets/Screenshots/Core1Platform/LoginU2F.png "[Login U2F]")
 
-3. Click the *Click here to start the second factor authentication* button.    
+3. Click the *Click here to start the second factor authentication* button. Note, some keys may require another procedure, for example, you might have to enter your pre-set pin before touching the U2F key.   
     The browser window *Verify your identity* is displayed to select the device type for the identity verification.
 
     ![Verify your identity](../../Assets/Screenshots/Core1Platform/ProfileSettings/U2F/VerifyIdentity.png "[Verify your identity]")
@@ -41,5 +41,5 @@ After U2F has been configured for your Actindo account, you will use U2F from yo
 
     > [Info] Note that problems with the connection to the *YubiKey* may occur if you use an adapter or an additional cable to connect the *YubiKey*.
 
-6. Touch the flashing area on your *YubiKey* .   
+6. Touch the flashing area on your *YubiKey*.   
     The browser window is closed. You are logged in to your account after a few moments.  

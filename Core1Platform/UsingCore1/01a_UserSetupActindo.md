@@ -3,9 +3,15 @@
 
 # Set up U2F from the user side
 
-The secure access to Actindo can be granted by using *Multi-Factor Authentication (MFA)*. The *MFA authentication* method requires two or more verification factors to log in to an application or website. Actindo uses the *YubiKey* as a second factor for the two-factor authentication, using the *Universal Second Factor (U2F)* standard.
+The secure access to Actindo can be granted by using the *Multi-Factor Authentication (MFA)*. The *MFA authentication* method requires two or more verification factors to log in to an application or website.    
+Actindo uses the *YubiKey* as a second factor for the two-factor authentication, using the *Universal Second Factor (U2F)* standard.
+The Multi-Factor Authentication (MFA) offers the following benefits:
+- Increased security in the login process and with third parties.
+- Increased security of the user's identity.
+- Better access control.
+- Reduction of password risks.
 
-For the U2F setup of an Actindo account, a user-side setup as well as an administrator-side setup is necessary. As a user, you need to define several settings within your Actindo account to add *U2F* with the *YubiKey* as an authorization method.
+For the U2F setup of an Actindo account, a user-side setup as well as an administrator-side setup is necessary. As a user, you need to define several settings within your Actindo account to add *U2F* with the *YubiKey* as a login method.
 
 #### Prerequisites
 
@@ -50,10 +56,14 @@ For the U2F setup of an Actindo account, a user-side setup as well as an adminis
 
     ![Add new U2F device](../../Assets/Screenshots/Core1Platform/ProfileSettings/U2F/AddNewU2FDevice.png "[Add new U2F device]")
 
-7. Click the [OK] button to continue the device registration for U2F.   
+    > [INFO] The following steps may vary depending on the key used. Some keys also require a Windows pin that you can choose by yourself.
+
+
+7. Click the [OK] button to continue the device registration for U2F. Note, that after clicking the [OK] button you only have time for about 15 seconds for finishing the registration. After that the process will be timed out. Restart the registration if a time-out occurs.   
     The browser window *Verify your identity* is displayed to select the device type for the identity verification.
 
     ![Verify your identity](../../Assets/Screenshots/Core1Platform/ProfileSettings/U2F/VerifyIdentity.png "[Verify your identity]")
+
 
 8. Select the *USB security key* option in the browser window.   
     The browser window changes to the *Use your security key* window and prompts you to insert the key and touch it.
