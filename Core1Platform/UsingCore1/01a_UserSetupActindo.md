@@ -22,14 +22,14 @@ For the U2F setup of an Actindo account, a user-side setup as well as an adminis
 
 *Login Actindo*
 
-![Login username](../../Assets/Screenshots/Core1Platform/LoginUserName.png "[Login username]")
+![Login username](../../Assets/Screenshots/Core1Platform/UsingCore1/LoginUserName.png "[Login username]")
 
 > [Info] For the user-side setup, you can log in to both a live account and a sandbox of the Core1 Platform.
 
 1. Enter your username in the *Username* field and click the [LOGIN] button.   
     The *Password* field is displayed.
 
-    ![Login password](../../Assets/Screenshots/Core1Platform/LoginPassword.png "[Login password]")
+    ![Login password](../../Assets/Screenshots/Core1Platform/UsingCore1/LoginPassword.png "[Login password]")
 
 2. Enter your password in the *Password* field and click the [LOGIN] button.   
     You are logged in. The *Actindo Dashboard* is displayed.
@@ -39,7 +39,7 @@ For the U2F setup of an Actindo account, a user-side setup as well as an adminis
 3. Click your avatar icon in the upper right corner.   
     The profile menu is displayed.
 
-    ![Profile menu](../../Assets/Screenshots/Core1Platform/ProfileMenu.png "[Profile menu]")
+    ![Profile menu](../../Assets/Screenshots/Core1Platform/UsingCore1/ProfileMenu.png "[Profile menu]")
 
 4. Click the *Settings* entry in the profile menu.   
     The *Profile* tab is displayed.

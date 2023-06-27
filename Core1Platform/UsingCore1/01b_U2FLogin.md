@@ -14,32 +14,25 @@ After U2F has been configured for your Actindo account, you will use U2F from yo
 
 *Login Actindo*
 
-![Login username](../../Assets/Screenshots/Core1Platform/LoginUserName.png "[Login username]")
+![Login username](../../Assets/Screenshots/Core1Platform/UsingCore1/LoginUserName.png "[Login username]")
 
-1. Enter your username in the *Username* field and click the [LOGIN] button.   
-    The *Password* field is displayed.
 
-    ![Login password](../../Assets/Screenshots/Core1Platform/LoginPassword.png "[Login password]")
+1. Login  to the *Actindo Core1 Platform*. For detailed information, see [Login to the Actindo Core1 Platform ](./01_Login.md).
 
-2. Enter your password in the *Password* field and click the [LOGIN] button.   
-    The *Click here to start the second factor authentication* button is displayed.
+2. Click the *Click here to start the second factor authentication* button. Note, some keys may require another procedure, for example, you might have to select the *USB security key* option to verify your identity.   
+    The *Make sure it's you* window is displayed to select enter the U2F security key PIN. Note that there is a time-out if you do not enter the key in an appropriate time. In this case, restart the application.
 
-    ![Login U2F](../../Assets/Screenshots/Core1Platform/LoginU2F.png "[Login U2F]")
+    ![Enter security key PIN](../../Assets/Screenshots/Core1Platform/UsingCore1/LoginSecurityKeyPIN.png "[Enter security key PIN]")
 
-3. Click the *Click here to start the second factor authentication* button. Note, some keys may require another procedure, for example, you might have to enter your pre-set pin before touching the U2F key.   
-    The browser window *Verify your identity* is displayed to select the device type for the identity verification.
+3. Enter the U2F security key PIN.  
+    The window prompts you to insert the key and touch it.
 
-    ![Verify your identity](../../Assets/Screenshots/Core1Platform/ProfileSettings/U2F/VerifyIdentity.png "[Verify your identity]")
+    ![Touch key](../../Assets/Screenshots/Core1Platform/UsingCore1/LoginTouchSecurityKey.png "[Touch key]")
 
-4. Select the *USB security key* option in the browser window.   
-    The browser window changes to the *Use your security key* window and prompts you to insert the key and touch it.
-
-    ![Use security key](../../Assets/Screenshots/Core1Platform/ProfileSettings/U2F/UseSecurityKey.png "[Use security key]")
-
-5. Insert the *YubiKey* into your device.   
+4. Insert the *YubiKey* into your device.   
     The *YubiKey* starts to flash.
 
     > [Info] Note that problems with the connection to the *YubiKey* may occur if you use an adapter or an additional cable to connect the *YubiKey*.
 
-6. Touch the flashing area on your *YubiKey*.   
-    The browser window is closed. You are logged in to your account after a few moments.  
+5. Touch the flashing area on your *YubiKey*.   
+    The window is closed. You are logged in to your account after a few moments.  
