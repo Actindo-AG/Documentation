@@ -198,11 +198,11 @@ This relation is available for date and character fields. You can use it to filt
     > [Info] For some values are value helps available.   
 
 5. Click the [ADD FILTER] button.   
-The filter is applied the list. The applied filter is shown above the *Columns* field.   
+The filter is applied the list. The applied filter is shown as filter chip above the *Columns* field.   
 
    ![List view &ndash; Applied filter](../../Assets/Screenshots/Core1Platform/UsingCore1/FilterApplied.png "[List view &ndash; Applied filter]")
 
-   You have now the following options:
+   The filter chip provides you with the following options:
 
    ![List view &ndash; Applied filter options](../../Assets/Screenshots/Core1Platform/UsingCore1/FilterAppliedChange.png "[List view &ndash; Applied filter options]")  
     
