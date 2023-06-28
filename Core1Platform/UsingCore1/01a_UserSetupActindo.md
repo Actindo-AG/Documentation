@@ -6,12 +6,13 @@
 The secure access to Actindo can be granted by using the *Multi-Factor Authentication (MFA)*. The *MFA authentication* method requires two or more verification factors to log in to an application or website.    
 Actindo uses the *YubiKey* as a second factor for the two-factor authentication, using the *Universal Second Factor (U2F)* standard.
 The Multi-Factor Authentication (MFA) offers the following benefits:
-- Increased security in the login process and with third parties.
-- Increased security of the user's identity.
-- Better access control.
-- Reduction of password risks.
+- Increased security in the login process and with third parties
+- Increased security of the user's identity
+- Better access control
+- Reduction of password risks
 
-For the U2F setup of an Actindo account, a user-side setup as well as an administrator-side setup is necessary. As a user, you need to define several settings within your Actindo account to add *U2F* with the *YubiKey* as a login method.
+For the U2F setup of an Actindo account, you need to set up U2F as a user. Additionally, your administrator has to activate your user for U2F. As a user, you need to define several settings within your Actindo account to add *U2F* with the *YubiKey* as a login method.    
+After the registration, the *YubiKey* as a login method is valid for all Actindo accounts, which means for the main account as well as for the sandboxes.
 
 #### Prerequisites
 
@@ -24,17 +25,12 @@ For the U2F setup of an Actindo account, a user-side setup as well as an adminis
 
 ![Login username](../../Assets/Screenshots/Core1Platform/UsingCore1/LoginUserName.png "[Login username]")
 
-> [Info] For the user-side setup, you can log in to both a live account and a sandbox of the Core1 Platform.
+> [Info] For the user-side setup, you can log in to both a main account or a sandbox of the *Core1 Platform*.
 
-1. Enter your username in the *Username* field and click the [LOGIN] button.   
-    The *Password* field is displayed.
+1. Log into the main account or sandbox see [Login to the Actindo Core1 Platform ](./01_Login.md#login-to-the-actindo-core1-platform).
+    The *Actindo Dashboard* is displayed.
 
-    ![Login password](../../Assets/Screenshots/Core1Platform/UsingCore1/LoginPassword.png "[Login password]")
-
-2. Enter your password in the *Password* field and click the [LOGIN] button.   
-    You are logged in. The *Actindo Dashboard* is displayed.
-
-    ![Actindo dashboard](../../Assets/Screenshots/ActindoDashboard/ActindoDashboard.png "[Actindo dashboard]")
+    ![Actindo dashboard](../../Assets/Screenshots/Core1Platform/UsingCore1/Core1Platform.png "[Actindo dashboard]")
 
 3. Click your avatar icon in the upper right corner.   
     The profile menu is displayed.
@@ -42,11 +38,11 @@ For the U2F setup of an Actindo account, a user-side setup as well as an adminis
     ![Profile menu](../../Assets/Screenshots/Core1Platform/UsingCore1/ProfileMenu.png "[Profile menu]")
 
 4. Click the *Settings* entry in the profile menu.   
-    The *Profile* tab is displayed.
+    The *PROFILE* tab is displayed.
 
     ![Profile](../../Assets/Screenshots/Core1Platform/ProfileSettings/Profile/Profile.png "[Profile]")
 
-5. Click to the *U2F* tab.   
+5. Click the *U2F* tab.   
     The *U2F* tab is displayed.
 
     ![U2F](../../Assets/Screenshots/Core1Platform/ProfileSettings/U2F/U2F.png "[U2F]")
@@ -79,6 +75,6 @@ For the U2F setup of an Actindo account, a user-side setup as well as an adminis
 
    > [Info] Depending on the browser configuration, a confirmation message is displayed in the browser window. Click the [Accept] button in the browser window to authorize the website to read the key and close the browser window.    
 
-   The U2F key is added to the list of keys and displayed in the *U2F* tab. The user side setup for U2F is completed.
+   The U2F key is added to the list of keys and displayed in the *U2F* tab.  The user side setup for U2F is completed. It is now shared with all Actindo accounts (main account and sandboxes).
 
 > [Info] Note that the U2F login needs also to be activated by an administrator to be used for the Actindo U2F login.

@@ -58,8 +58,14 @@ The quality of the password is displayed as a small red or green bar below the f
 6. Check your entries by clicking on the ![Visibility off](../../Assets/Icons/visibility_off.png "[Visibility off]")(visibility off) button.   
 Your entries are displayed. You can make them invisible again by clicking on the ![Visibility on](../../Assets/Icons/visibility.png "[Visibility on]") (visibility) button.
 
-7. Click the [SAVE] button.
+7. Click the [SAVE] button.   
+If the entered password is valid, it is saved and the Password saved pop-up window is displayed.  
 
-<!---Ich laufe hier auf einen Fehler. Er sagt, more credentials are needed to complete the authentication request-. Geht es nur, wenn kein U2F?->
+
+   ![Password saved](../../Assets/Screenshots/Core1Platform/ProfileSettings/Password/PasswordSaved.png "[Password saved]")
+
+    The new password is now shared between the main account and all sandboxes of you company, so that you must use it for all Actindo logins.
+
+<!---Ich laufe hier auf einen Fehler. Er sagt, more credentials are needed to complete the authentication request-. Geht es nur, wenn kein U2F?-->
 
 

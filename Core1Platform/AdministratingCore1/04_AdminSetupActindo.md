@@ -3,7 +3,7 @@
 
 # Set up U2F from the administrator side
 
-For the U2F setup of an Actindo account, a user-side setup as well as an administrator-side setup is necessary. As an administrator, you must activate U2F as an authorization method for the corresponding user to complete the *U2F* setup.
+For the U2F (Universal Second Factor) setup of an Actindo account, a user-side setup as well as an administrator-side setup is necessary. As an administrator, you must activate U2F as an authorization method for the corresponding user to complete the *U2F* setup. Using U2F provides the following benefits:
 
 - Strong protection     
     The user credentials are protected with strong public key cryptography and bound to the service. Since only the real site can authenticate with a key, this provides a high level of protection against account takeover.  
@@ -17,7 +17,7 @@ For the U2F setup of an Actindo account, a user-side setup as well as an adminis
 #### Prerequisites
 
 - You have the required admin rights in the *Actindo Core1 Platform*.
-- You are logged in a live account of the *Core1 Platform* with a user assigned to the admin group.
+- You are logged in the main account of the *Core1 Platform* with a user assigned to the admin group.
 
 #### Procedure
 
@@ -25,7 +25,6 @@ For the U2F setup of an Actindo account, a user-side setup as well as an adminis
 
 ![User management](../../Assets/Screenshots/Settings/UsersGroups/UserManagement/UserManagement.png "[User management]")
 
-> [Info] For the admin-side setup, you must log in to an Actindo live account with the corresponding user.
 
 1. Click the user for whom you want to activate U2F in the users list.     
     The *Edit user* view is displayed. By default, the *Profile* tab is displayed.

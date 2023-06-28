@@ -17,10 +17,15 @@ After U2F has been configured for your Actindo account, you will use U2F from yo
 ![Login username](../../Assets/Screenshots/Core1Platform/UsingCore1/LoginUserName.png "[Login username]")
 
 
-1. Login  to the *Actindo Core1 Platform*. For detailed information, see [Login to the Actindo Core1 Platform ](./01_Login.md).
+1. Login to the *Actindo Core1 Platform* and by entering your username and password, see [Login to the Actindo Core1 Platform ](./01_Login.md#login-to-the-actindo-core1-platform).   
+The *Click here to start the second factor authentication* button is displayed.  
+
+    ![Login U2F](../../Assets/Screenshots/Core1Platform/UsingCore1/LoginU2F.png "[Login U2F]")  
 
 2. Click the *Click here to start the second factor authentication* button. Note, some keys may require another procedure, for example, you might have to select the *USB security key* option to verify your identity.   
-    The *Make sure it's you* window is displayed to select enter the U2F security key PIN. Note that there is a time-out if you do not enter the key in an appropriate time. In this case, restart the application.
+    The *Make sure it's you* window is displayed to enter the U2F security key PIN. 
+    
+    > [INFO] Note that there is a time-out if you do not enter the key in an appropriate time. In this case, restart the application.
 
     ![Enter security key PIN](../../Assets/Screenshots/Core1Platform/UsingCore1/LoginSecurityKeyPIN.png "[Enter security key PIN]")
 
