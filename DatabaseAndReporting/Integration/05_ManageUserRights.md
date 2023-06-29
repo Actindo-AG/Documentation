@@ -3,7 +3,7 @@
 
 # Manage the user rights
 
-The user rights for all modules and plugins installed in the Core1 are managed centrally in the *Settings* module. For detailed information on managing the user rights, see the *Settings* module documentation.
+The user rights for all modules and plugins installed in your Core1 account are managed centrally in the *Settings* module. 
 
 [comment]: <> (Link hinzufügen, wenn verfügbar)
 
@@ -22,7 +22,7 @@ Assign user access rights to control access to specific data. The following acce
 - **InfluxDB**  
     Depending on the access permission type granted, the user can create, edit, list, delete, and execute InfluxDB time series.
 - **Interactive MySQL console**  
-    The user can execute any query in MySQL interactive console. Bear in mind that this gives the user access, and even write access, to all available data. 
+    The user can execute any query in the MySQL interactive console. Bear in mind that this gives the user access and even write access to all available data. 
 
     > [Info] Depending on the access rights granted, the user interface of the *Database and reporting* varies. That is, a user with no access right to MySQL console cannot see the corresponding menu entry in the system.
 
@@ -69,5 +69,5 @@ Assign user access rights to control access to specific data. The following acce
     ![Access permission types](../../Assets/Screenshots/DatabaseAndReporting/AccessPermissionTypes.png "[Access permission types]")
 
 8. Select the checkbox of the applicable folder(s) and/or sub-folders.  
-    The user group, and all users included in it, have been granted access rights to the selected module functions.
+   The user group, and all users included in it, have been granted access rights to the selected module functions.
 

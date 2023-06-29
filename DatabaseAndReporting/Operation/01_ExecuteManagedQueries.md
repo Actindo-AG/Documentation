@@ -46,11 +46,11 @@ Execute the query and preview the results in your browser in CSV or XML format.
 
     ![Execute saved query](../../Assets/Screenshots/DatabaseAndReporting/ManagedQueries/Queries/ExecuteSavedQuery.png "[Execute saved query]")
 
-4. If the selected query contains a placeholder, the *Bind query parameters placeholders* window is displayed. Otherwise, go to step **6**.
+4. If the selected query contains a placeholder, for example a creation date field, the *Bind query parameters placeholders* window is displayed. Otherwise, go to step **6**.
 
     ![Execute saved query](../../Assets/Screenshots/DatabaseAndReporting/ManagedQueries/Queries/BindQueryParamsPlaceholders.png "[Execute saved query]")
 
-5. Enter the desired value in the placeholder field. 
+5. Enter the desired value in the placeholder field, for example the desired creation date. 
 
 6. Click the [EXECUTE] button.   
     The query is executed. The query results are displayed in a new browser window in the selected format.
@@ -108,7 +108,7 @@ Execute a query in a web browser using the download link provided in the *Actind
 - A predefined query has been created, see [Create a query](../Integration/01_ManageQueries.md#create-a-query).
 - The query contains no placeholders.
 - The public download option has been enabled. 
-- The IP address of the person executing the query has been not been blacklisted.
+- The IP address of the person executing the query has not been blacklisted.
 
 #### Procedure
 
@@ -135,6 +135,6 @@ Execute a query in a web browser using the download link provided in the *Actind
 5. Press the [ENTER] key to execute the query in your web browser.  
     The query is executed. The query results are downloaded in the selected file format. By default, the file is saved in the downloads folder of your device.  
 
-    > [Info] If the selected query contains a placeholder, an error messages is displayed, as no parameters can be bound. 
+    > [Info] If the selected query contains a placeholder, an error message is displayed, as no parameters can be bound. 
 
 [comment]: <> (Download via public download sollte möglich als CSV und XML Datei. Momentan funktioniert nur als CSV - URL hat nur CSV drin. Reported, Stand 20.04.2023)

@@ -116,9 +116,9 @@ At least one query category has been created, see [Create a query category](#cre
 [comment]: <> (Check, ob Ausgangssituation so bleibt oder es sich um Bug/Fehler im UI handelt. Ggf. letzer Satz und Info hier anpassen)
 
 
-### Rename the query category
+### Rename a query category
 
-Rename the query category as necessary.
+Rename a query category as necessary.
 
 The procedure to rename the query categories and sub-categories is identical. Just select a sub-category instead of a category and follow the steps described below.
 

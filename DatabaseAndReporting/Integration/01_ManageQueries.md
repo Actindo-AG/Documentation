@@ -5,7 +5,7 @@
 
 # Manage the queries
 
-Queries can be predefined to determine the data that may be accessed by specific user groups. Instead of entering and executing a query directly in the MySQL console, the user can simply select the query to be executed from the list of queries. 
+Queries can be predefined to determine the data that may be accessed by specific user groups. Instead of entering and executing a query directly in the MySQL console, the users can simply select the query to be executed from the list of queries. 
 
 Data can be accessed via API and download, that is, users must be logged in to the *Actindo Core1 Platform*, or via public download in a web browser. In the case of public download, a download link and a UUID (Universally Unique Identifier) are required. Queries can be read-only, that is, the mere access and retrieval of available data, or write access can be enabled, which additionally allows to modify the data contained in the database. 
 
@@ -66,15 +66,15 @@ No prerequisites to fulfill.
 
     > [Info] When entering more than one IP address, each IP address must be entered on a separate line. Note that if no IP address is whitelisted, any person with the link, from any IP address, can access the query results via the public download. If at least one IP address is whitelisted, all other IP addresses are blacklisted. 
 
-7. Select the *API and download enabled* checkbox to allow logged in users with the appropriate rights to execute the query and download the retrieved data.
+7. If desired, select the *API and download enabled* checkbox to allow logged in users with the appropriate rights to execute the query and download the retrieved data.
 
     > [Info] Additionally, user access rights must be granted for every single predefined query, see [Grant access rights to a user group](./05_ManageUserRights.md#grant-access-rights-to-a-user-group).
 
-8. Select the *Public download enabled* checkbox to allow any user, also non-logged in users, with the applicable link to execute the query and download the retrieved data via web browser. 
+8. If desired, select the *Public download enabled* checkbox to allow any user, also non-logged in users, with the applicable link to execute the query and download the retrieved data via web browser. 
 
     > [Info] A specific download link, containing a UUID (Universally Unique Identifier), is required to execute the query in a web browser.
 
-9. Select the *Write access enabled* checkbox to allow write operations when executing the query. Otherwise, a query with write operations, such as INSERT or DELETE, will not be executed and an error message will be displayed.
+9. If desired, select the *Write access enabled* checkbox to allow write operations when executing the query. Otherwise, a query with write operations, such as INSERT or DELETE, will not be executed and an error message will be displayed.
 
 10. If desired, click the [TRY QUERY (READ ONLY)] button to test the query.  
     The query results are displayed in the *Try query result* box at the bottom of the workspace. 

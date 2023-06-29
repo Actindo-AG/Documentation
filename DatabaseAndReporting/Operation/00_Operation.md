@@ -9,6 +9,6 @@ In this part of the *Database and reporting* documentation, you will find the fo
     - [Execute a query via download link](./01_ExecuteManagedQueries.md#execute-a-query-via-download-link)
 
 
-- [Execute queries in MySQL console](./02_ExecuteQueriesMySQLConsole.md)
+- [Execute queries in the MySQL console](./02_ExecuteQueriesMySQLConsole.md)
     - [Access and retrieve data](./02_ExecuteQueriesMySQLConsole.md#access-and-retrieve-data)
     - [Edit data](./02_ExecuteQueriesMySQLConsole.md#edit-data)

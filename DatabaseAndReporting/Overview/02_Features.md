@@ -1,6 +1,6 @@
 # Key features
 
-Access, retrieve and manage all your data quickly and centrally with the Actindo *Database and reporting* module:
+Access, retrieve, and manage all your data quickly and centrally with the Actindo *Database and reporting* module:
 
 - Access all your databases via the SQL console   
     SQL queries can be executed directly in the interactive console to retrieve any data contained in your databases. Both read-only and write operations are supported.  
