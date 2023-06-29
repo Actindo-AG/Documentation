@@ -6,15 +6,15 @@ Each tenant has one live-system. This is also called a main account. Licenses, v
 
 - sandbox: https://[host-prefix].dev.actindo.com
 
-> [INFO] You can identify by the URL if you are logged into a sandbox or the main account.   
+  > [INFO] You can identify by the URL if you are logged in to a sandbox or the main account.   
 ![Sandbox URL](../../Assets/Screenshots/Core1Platform/AdministratingCore1/SandboxURL.png "[Sandbox URL]")
 
-Each sandbox and main account has its own separated database. This means, that you cannot share data between the main account and the sandbox.
+Each sandbox and main account has its own separated database. This means, that you cannot synchronize data between the main account and the sandbox.
 
 **Sandboxes**   
 You can create a sandbox as a copy of the main account with all data, that are currently available in the main account. But, after that a sandbox and the main account is not synchronized.
 
-You can install modules that are not yet released by Actindo, this means you can install it for testing purposes without touching your main account. On a main account, you can install released versions only
+You can install modules that are not yet released by Actindo, this means you can install it for testing purposes without touching your main account. On a main account, you can install released versions only.
 
 Each sandbox has an owning user. As an owning user, you can access the file system of the sandbox via SSH:
 
@@ -39,4 +39,4 @@ Topic | Main account | Sandbox
 **Unreleased plugins** |NO | YES   
 **User creation** | YES |NO 
 **Direct DB access** | NO | YES   
-**Own database**| YES| yes
+**Own database**| YES| YES

@@ -9,7 +9,7 @@
 - [SAVE]   
     Click this button to save the new password. The notice *Submitting data..* is displayed. If the entered password is not fulfilling the requirements for a valid password, an error message is displayed and you must edit the password.
 
-    > [Info] A new password must fulfill certain requirements to be accepted. As a rule of thumb, use a password with at least 10 characters length and a combination of numbers, symbols (special characters), lowercase letters, and uppercase alphabetic characters. Further, you cannot use a password that you have used before.
+    
 
     If the entered password is valid, it is saved and the *Password saved* pop-up window is displayed.
 

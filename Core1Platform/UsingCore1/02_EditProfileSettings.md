@@ -2,7 +2,9 @@
 
 Your personal settings are stored in the profile settings.  You can change your user data as well as your password. Additionally, you can add or delete the U2F key, see [Set up U2F from the user side](#create-view "Set up U2F from the user side") for detailed information. 
 
-> [INFO] The setup of the SSH key is also part of the profile settings. It is relevant for developers only and therefore not subject of this documentation.
+> [INFO] The setup of the SSH key is also part of the profile settings. It is relevant for developers only and therefore not subject of this documentation.   
+
+
 
 ## Edit your user profile
 The user profile contains information to your username, your e-mail address, and your address. Address data are subject to data protection. Clarify with your contact persons if you should provide your private address data.
@@ -25,13 +27,15 @@ The user profile contains information to your username, your e-mail address, and
 3. Enter or change your data, if desired.
 
 4. Click the [SAVE] button.   
-Your data are changed and transferred to all other sandboxes or main accounts in which the user with your username exist. 
+Your data are changed and transferred to all other sandboxes or main accounts in which your username exists. 
 
 ## Change password
+Depending on the user settings, it is possible to change the password for all sandboxes and the main account at the same time.  
+Note, that your global user settings, edited by an administrator, may specify that you are not allowed to change your password. In this case, you cannot change your password. Contact your administrator, if you need to change your password for data security reasons.  
 
 
 #### Prerequisites
-
+- You have a user in the currently opened sandbox or main account.
 
 #### Procedure
 
@@ -52,6 +56,7 @@ The quality of the password is displayed as a small red or green bar below the f
 
      ![Good and poor password](../../Assets/Screenshots/Core1Platform/UsingCore1/ProfilePasswordQuality.png "[Good and poor password]")
 
+   > [Info] A new password must fulfill certain requirements to be accepted. As a rule of thumb, use a password with at least 10 characters length and a combination of numbers, symbols (special characters), lowercase letters, and uppercase alphabetic characters. Further, you cannot use a password that you have used before.
 
 5. Repeat the new password in the *neues Passwort erneut eingeben (Confirm password)* field. Your entries are not displayed. You can check them by clicking on the ![Change password](../../Assets/Icons/visibility_off.png "[Change password]")(visibility off) button.
 

@@ -1,22 +1,25 @@
 # Manage user groups
 
-Create admin group ->  Genau überlegen, da Admins alle Rechte haben und daher Lizenzen verbrauchen
-
-Note that user groups in opposite to the users are not global. Group rights are valid for the current instance only. This means that they are not shared between the main account and the sandboxes. 
+User groups in opposite to the users are not global. Group rights are valid for the current instance only. This means that they are not shared between the main account and the sandboxes. 
 If you add a user to a group, the user is automatically listed for this account. If you want to remove a user from an account, you need to remove the user from all groups.
 
 
 
 # Manage the user rights
 
-Manage the user rights to allow a user or a group of users to access specific data. User rights can be individually granted or denied pro query and pro query category to a user group based on their user role. 
+User rights are defined by assigning the user to a (user) group. Groups define specific roles that user have while working on the *Actindo Core1 Platform*.   
+For example, a bookkeeper needs access to specific functions of the *Accounting* module in addition to general rights for accessing the *Actindo Core1 Platform*. Additionally, rights to access other modules might be required. For this reason, you can create a specific group for the bookkeeper's role in which you can select all rights the bookkeepers need.
 
+The user rights are individually managed for the main account and each sandbox, in which the users do their daily work. You assign them for all modules and plugins installed in the *Actindo Core1 Platform* in the *Settings* module.  You can create, edit and delete user groups, add specific users to a group, remove users from a group, and assign rights to a user group.   
 
+> [INFO] For assigning the rights, it is very important to know that sandboxes share the licenses with the main account. This means, for example, if you have five licenses for the *Accounting* module, and two bookkeepers who work in the main account, you have three licenses left for the sandboxes. This is relevant especially when using the Actindo admin group, see below.
 
-[comment]: <> (Stimmt das so? Check andere Folders mit Julian: InfluxDB, Interactive MySQL console.)
+**Actindo admin group**   
+A special group is the "ActindoAdminGroup". This group has automatically all rights for everything, and you cannot maintain specific rights.   
+With regard to the licenses, keep in mind, that each Admin has automatically access to all modules, which means that a license for each module and admin user is counted.
 
-The user rights are managed centrally for all modules and plugins installed in the Core1 in the *Settings* module. You can create, edit and delete user groups, add specific users to a group, remove users from the a group, and assign rights to a user group.
-
+**Actindo users**   
+Users of the *Actindo AG* do not consume licenses, they are not counted.
 
 ## Create a user group
 
@@ -24,29 +27,30 @@ Create a user group based on a user role in order to subsequently assign them a 
 
 #### Prerequisites
 
-No prerequisites to fulfill.
+- You are granted to edit, save, and list groups.
 
 #### Procedure
 
 *Settings > Users and groups > Tab GROUP MANAGEMENT*
 
-![Group management](../../Assets/Screenshots/DatabaseAndReporting/GroupManagement.png "[Group management]")
+![Group management](../../Assets/Screenshots/Core1Platform/AdministratingCore1/GroupManagment.png"[Group management]")
+
 
 1. Click the ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) button in the bottom right corner.    
     The *Create group* window is displayed.
 
-    ![Create group](../../Assets/Screenshots/DatabaseAndReporting/CreateGroup.png "[Create group]")
+    ![Create group](../../Assets/Screenshots/Core1Platform/AdministratingCore1/GroupCreate.png "[Create group]")
 
 2. Enter a name for the group in the *Group name* field.
 
 3. Click the [SAVE] button.   
     The *Group saved* pop-up window is displayed.
     
-    ![Group saved](../../Assets/Screenshots/DatabaseAndReporting/GroupSaved.png "[Group saved]")
+    ![Group saved](../../Assets/Screenshots/Core1Platform/AdministratingCore1/GroupSaved.png "[Group saved]")
 
     The newly created group is displayed in the list of groups.
 
-    ![Group created](../../Assets/Screenshots/DatabaseAndReporting/GroupCreated.png "[Group created]")
+    ![Group created](../../Assets/Screenshots/Core1Platform/AdministratingCore1/GroupCreated.png "[Group created]")
  
 
 ## Edit a user group
@@ -55,7 +59,7 @@ Edit a user group to add users to it, remove users from it and assign rights to 
 
 ### Add a user to a user group
 
-Add any number of users to a user group ir order to assign them rights subsequently.
+Add any number of users to a user group in order to assign them rights subsequently.
 
 #### Prerequisites
 
@@ -66,7 +70,7 @@ Add any number of users to a user group ir order to assign them rights subsequen
 
 *Settings > Users and groups > Tab GROUP MANAGEMENT*
 
-![Group management](../../Assets/Screenshots/DatabaseAndReporting/GroupCreated.png "[Group management]")
+![Group management](../../Assets/Screenshots/Core1Platform/AdministratingCore1/GroupCreated.png "[Group management]")
 
 1. Select the checkbox of the user group to which you want to add users.   
     The editing toolbar is displayed.
@@ -74,62 +78,88 @@ Add any number of users to a user group ir order to assign them rights subsequen
 2. Click the ![Edit](../../Assets/Icons/Edit01.png "[Edit]") (Edit) button in the editing toolbar.    
     The *Edit group* view is displayed. By default, the *Users* tab is preselected.
 
-    > [Info] If no users have been added yet, the *No users added. Use + button to add one to group* notice is displayed. Otherwise, the details of the user(s) included in the group are displayed.
+    > [Info] If no users have been added yet, the *No users added. Use + button to add one to group* notice is displayed. Otherwise, the details of the user(s) included in the group are displayed.   
 
-    ![Edit group no users](../../Assets/Screenshots/DatabaseAndReporting/EditGroupNoUsers.png "[Edit group no users]")
+       ![Edit group no users](../../Assets/Screenshots/Core1Platform/AdministratingCore1/GroupEditNoUsers.png" [Edit group no users]")
 
 3. Click the ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) button in the bottom right corner.    
     The *Add user* view is displayed.
 
-    ![Add user](../../Assets/Screenshots/DatabaseAndReporting/AddUser.png "[Add user]")
+    ![Add user](../../Assets/Screenshots/Core1Platform/AdministratingCore1/GroupAddUser.png "[Add user]")
 
 4. Click the *Add user* drop-down list and select the desired user.   
-    The selected user has been added to the group.
+    The selected user has been added to the group. Per default, the validity period is set from today to the system end date. 
 
-5. If desired, click the ![Add](../../Assets/Icons/Plus05.png "[Add]") (Add) button below the *Add user* drop-down list to add an additional user.   
-    An additional drop-down list is displayed. Repeat steps **4** and **5** to add as many users as necessary.
+    ![Add user](../../Assets/Screenshots/Core1Platform/AdministratingCore1/GroupAddUserValidity.png "[Add user]")
 
-6. Click the ![Add](../../Assets/Icons/Plus05.png "[Add]")  (Calendar) button and select the validity start date in the *Valid from* field.  
+     1. Click the ![Calendar](../../Assets/Icons/Calendar.png "[Add]") (Calendar) button and select the validity start date in the *Valid from* field.  
 
-7. Click the ![Add](../../Assets/Icons/Plus05.png "[Add]")  (Calendar) button and select the validity end date in the *End date* field.
+     2. Click the ![Calendar](../../Assets/Icons/Calendar.png "[Calendar]") (Calendar) button and select the validity end date in the *End date* field.
 
-8. Click the [SAVE] button in the upper right corner of the *Add user* window.  
+5. To add further users, click the ![Add](../../Assets/Icons/Plus05.png "[Add]") (Add) button below the *Add user* drop-down list to add a further user.   
+    A further drop-down list is displayed. Repeat steps **4** and **5** to add as many users as necessary.
+
+6. Click the [SAVE] button in the upper right corner of the *Add user* window.  
     The user has been saved to the group and is displayed in the list of users.
 
-9. Click the [SAVE] button in the upper right corner of the *Edit group* view.   
+7. Click the [SAVE] button in the upper right corner of the *Edit group* view.   
     The *Group saved* pop-up window is displayed. The changes to the group have been saved.
 
-    ![Group saved](../../Assets/Screenshots/DatabaseAndReporting/GroupSaved.png "[Group saved]")
+    ![Group saved](../../Assets/Screenshots/Core1Platform/AdministratingCore1/GroupSaved.png "[Group saved]")
 
 
-### Remove a user from a user group
+### Remove a user from a group
+
+A user is active in an account as long as the user is assigned a user group.    
+If you want to remove a user from the main account or a sandbox, you have to remove the user from all groups to which he or she is assigned. Alternatively, you can limit the validity period. <!--- Geht das überhaupt?-->
 
 #### Prerequisites
 
-No prerequisites to fulfill.
+- You are granted to remove the user assignment from a group.
 
 #### Procedure
 
 *Settings > Users and groups > Tab GROUP MANAGEMENT*
 
-![Group management](../../Assets/Screenshots/DatabaseAndReporting/GroupCreated.png "[Group management]")
+![Group management](../../Assets/Screenshots/Core1Platform/AdministratingCore1/GroupManagment.png "[Group management]")
 
-### Assign rights to a user group
 
-- Execute query via API 
-- Queries 
-- Query categories 
-- InfluxDB 
-- Interactive MySQL console 
 
-## Delete a user group
+## Remove a user group
+
+If a user group is no longer needed, you can remove it.
+> [INFO] Groups are removed regardless of whether users were still assigned.
 
 #### Prerequisites
 
-No prerequisites to fulfill.
+- You are granted to delete groups.
 
 #### Procedure
 
 *Settings > Users and groups > Tab GROUP MANAGEMENT*
 
-![Group management](../../Assets/Screenshots/DatabaseAndReporting/GroupManagement.png "[Group management]")
+![Group management](../../Assets/Screenshots/Core1Platform/AdministratingCore1/GroupManagment.png "[Group management]")
+
+1. Check whether users are assigned the group. To do this, select the checkbox of the user group you want to remove.   
+    The editing toolbar is displayed.
+
+    ![Group selected](../../Assets/Screenshots/Core1Platform/AdministratingCore1/GroupSelected.png "[Group selected]")
+
+2. Click the ![Edit](../../Assets/Icons/Edit01.png "[Edit]") (Edit) button.
+The *Edit group "Group name"* window is opened.  
+
+    ![Edit group](../../Assets/Screenshots/Core1Platform/AdministratingCore1/GroupEditNoUsers.png "[Edit group]")
+
+3. Check whether users are assigned the group. If necessary, remove the assignment, see [Remove a user from a group](#remove-a-user-from-a-user-group).
+
+4. Return to the *GROUP ADMINISTRATION* tab by clicking on the ![BACK](../../Assets/Icons/Back02.png "[BACK]")(Back) button.
+
+5. Select the checkbox of the user group you want to remove.   
+    The editing toolbar is displayed.
+
+   ![Group selected](../../Assets/Screenshots/Core1Platform/AdministratingCore1/GroupSelected.png "[Group selected]")
+
+2. Click the ![Delete](../../Assets/Icons/Trash03.png "[Delete]") (Delete) button. 
+The *Group was deleted* pop-up window is displayed. 
+
+
