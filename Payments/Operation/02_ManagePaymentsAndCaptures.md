@@ -9,7 +9,7 @@ A capture is a payment made. The most payment service providers create a new ref
 You can use this procedure to display all incoming references to a payment and capture transaction from a payment service provider. You can check for communication errors between Actindo and the payment service provider that has been caused in a termination of a workflow, for example.   
 If you cannot deliver the product and want to give the money back to the customer, you can manually change the status of a transaction to "Refund" to initiate a repayment. Additionally, you can set the status to "Void" to clear the database from faulty entries.      
 
-If everything works fine with the posting of a capture, you do not need to monitor the *Payments and Captures* menu entry.   
+If everything works fine with the posting of a capture, you do not need to monitor the *Payments and captures* menu entry.   
 > [Info] You can only change the status of a payment and capture transaction, but not any data.
 
 
@@ -21,7 +21,7 @@ A capture provides numerous payment-related details, which may vary depending on
 
 - At least one connection has been created, see [Create a connection](../Integration/01_ManageConnections.md#create-a-connection).
 - At least one payment and capture transaction has been created.
-- It is recommended that you add the *Status ID* column to your view so that you are able to sort or filter for specific statuses. 
+> [Info] It is recommended to add the following columns to your view to get the required information and to better filter and sort the entries: Status ID, Status information (if applicable).    
 
 #### Procedure
 
@@ -52,8 +52,8 @@ A capture provides numerous payment-related details, which may vary depending on
     ![Payment and capture attributes and logs](../../Assets/Screenshots/Payments/PaymentsCaptures/CheckAttributes.png "[Payment and capture attributes and logs]")   
 
 3. Check the attributes and logs of the transaction. For detailed information, see the following:
-     - [LIST &ndash; Attributes](../UserInterface/03_ListPaymentsAndCaptures.md#payments-and-captures-–-attributes)
-     - [LIST &ndash; Logs](../UserInterface/03_ListPaymentsAndCaptures.md#payments-and-captures-–-logs)
+     - [Payment and captures &ndash; Attributes](../UserInterface/03_ListPaymentsAndCaptures.md#payments-and-captures-–-attributes)
+     - [Payment and captures &ndash; Logs](../UserInterface/03_ListPaymentsAndCaptures.md#payments-and-captures-–-logs)
 4. Return to the LIST and decide how to proceed with the transaction.
 
 

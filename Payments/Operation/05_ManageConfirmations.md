@@ -29,7 +29,7 @@ A confirmation transaction provides numerous payment-related details on a refund
 
 - At least one connection has been created, see [Create a connection](../Integration/01_ManageConnections.md#create-a-connection).
 - At least one refund has been created.
-- The view displays in minimum the *Amount* and the *Status* column. If it is necessary, it also shows the *Currency* column. For more information, see [LIST &ndash; Confirmations](../UserInterface/06_ListConfirmations.md#create-view).
+- The view displays in minimum the *Amount* and the *Status* column. If it is necessary, it also shows the *Currency* column. For more information, see [LIST (Confirmations)](../UserInterface/06_ListConfirmations.md#create-view).
 - You have the original reference ID for this transaction.
 
 #### Procedure
@@ -46,7 +46,7 @@ A confirmation transaction provides numerous payment-related details on a refund
 
     ![Confirmation attributes](../../Assets/Screenshots/Payments/Confirmations/AttributesConfirmation.png "[Confirmaton attributes]")
 4. If required, check the details of the refund. For more information, see the following:
-     - [LIST &ndash; Attributes](../UserInterface/06_ListConfirmations.md#confirmations-–-attributes)
+     - [Confirmations &ndash; Attributes](../UserInterface/06_ListConfirmations.md#confirmations-–-attributes)
 
 
 

@@ -3,16 +3,17 @@
 
 # LIST (Payments and captures)
 
-*Payments > Authorizations > Tab LIST*
+*Payments > Payments and captures > Tab LIST*
 
 ![LIST (Payments and captures)](../../Assets/Screenshots/Payments/PaymentsCaptures/LISTPaymentsCaptures.png "[LIST (Payments and captures)]")
-*Authorizations**
+
+**Payments and captures**
 
 - *VIEW*  
     Click the drop-down list to select the view. All created views are displayed in the drop-down list. Click the ![Points](../../Assets/Icons/Points01.png "[Points]") (Points) button to the right of the *VIEW* drop-down list to display the context menu and create a view.   
 
     - ![Points](../../Assets/Icons/Points01.png "[Points]") (Points)      
-        Click this button to the right of the *View* drop-down list to display the context menu. The following menu entries are available:
+        Click this button to the right of the *VIEW* drop-down list to display the context menu. The following menu entries are available:
 
         - ![Create](../../Assets/Icons/Plus06.png "[Create]") create  
             Click this entry to create a view. The *Create view* window is displayed, see [Create view](#create-view).
@@ -20,8 +21,8 @@
         - ![Rename](../../Assets/Icons/Edit02.png "[Rename]") rename  
             Click this entry to rename the selected view. The *Rename view* window is displayed, see [Rename view](#rename-view). This menu entry is only displayed if a view has been selected.
 
-        <!---- Eintrag gibt es nicht mehr [Reset](../../Assets/Icons/Reset.png "[Reset]") reset  
-            Click this entry to reset all unsaved changes to the settings of the selected view. This menu entry is only displayed if a view has been selected and any changes have been made to the view settings.--->
+      - [Reset](../../Assets/Icons/Reset.png "[Reset]") reset  
+            Click this entry to reset all unsaved changes to the settings of the selected view. This menu entry is only displayed if a view has been selected and any changes have been made to the view settings.
 
         - ![Publish](../../Assets/Icons/Publish.png "[Publish]") publish  
             Click this entry to publish the view. This menu entry is only displayed if you have selected an unpublished view. As long as you have not published a view, your views are visible for you only.
@@ -56,20 +57,20 @@
 
 - ![Columns](../../Assets/Icons/Columns.png "[Columns]") Columns (x)   
     Click this button to display the columns bar and to customize the displayed columns and the order of columns in the list. The *x* indicates the number of columns that are currently displayed in the list.   
-    > [Info] It is recommended to add the following columns to your view to get the required information and to better filter and sort the entries: Status ID, Status information (if applicable).    
+    
 
 - ![Filter](../../Assets/Icons/Filter.png "[Filter]") Filter (x)   
     Click this button to display the filter bar and customize the active filters. The *x* indicates the number of filters that are currently active.  
 
 - [x]     
     Select the checkbox to the left of one list entry to display the editing toolbar for this single entry.   
-    If you click the checkbox in the header, all entries in the list are selected. The editing toolbar shows all actions you can perform on several entries.   
+    If you click the checkbox in the header, all entries in the list are selected. The editing toolbar shows then all actions you can perform on several entries.   
 
 - [REFUND]   
-   Click this button to refund the payment manually, so that the order process can be continued. For detailed information, see [Refund payment and capture](../Operation/02_ManagePaymentsAndCaptures.md#refund-payments-and-capture-transaction).   
+   Click this button to refund the payment manually, so that the order process can be continued. For detailed information, see [Refund payment and capture](../Operation/02_ManagePaymentsAndCaptures.md#refund-payment-and-capture-transaction).   
 
 - [VOID]   
-  Click this button to disable the transaction for the Actindo database. For detailed information, see [Void payment and capture transaction](../Operation/02_ManagePaymentsAndCaptures.md#void-payment-and-capture-transaction).
+  Click this button to invalidate the transaction for the Actindo database. For detailed information, see [Void payment and capture transaction](../Operation/02_ManagePaymentsAndCaptures.md#void-payment-and-capture-transaction).
 
 
 The list displays all capture transactions. Depending on the payment service provider, the displayed columns vary. All fields are read-only. The following standard columns are available.
@@ -84,7 +85,7 @@ The list displays all capture transactions. Depending on the payment service pro
    Date on which the transaction has been created by the payment service provider.
 
 - *Status*   
-   Status text.   
+   Description of the transaction status.   
 
 - *Status ID*   
    Identifier for the status. The following statuses are available, each prefixed by the ID in the list below. You can use the *Status ID* to filter and sort the list. 
@@ -99,10 +100,10 @@ The list displays all capture transactions. Depending on the payment service pro
     - **5 - Error**   
        Errors have been occurred during transfer.
     - **6 - Void**   
-       The transaction has been voided, see [Void an authorization transaction](01_ManageAuthorizations.md#void-an-authorization-transaction).
+       The transaction has been voided, see [Void authorization transaction](../Operation/01_ManageAuthorizations.md#void-authorization-transaction).
 
 - *Connection*   
-   Name of the Connection. Note that this is the customer-specific name that has been given the connection. For detailed information, see [Establish connections to payment service providers (PSP)](../Integration/01_EstablishConnection.md).
+   Name of the Connection. Note that this is the customer-specific name that has been given the connection. For detailed information, see [Manage connections to payment service providers (PSP)](../Integration/01_ManageConnection.md).
 
 - *Created by*   
    User name of the person or API who has created the transaction. Can be a real user or an API user.
@@ -111,7 +112,7 @@ The list displays all capture transactions. Depending on the payment service pro
    User name of the person or API who has changed the transaction. Can be a real user or an API user.
 
 - *ID*   
-   Actino unique identifier of the transaction.   
+   Unique transaction identification. The ID is automatically assigned by the system.
      
 - *Type*   
    Kind of the displayed transaction, in this case a payment and capture transaction.  
@@ -119,11 +120,11 @@ The list displays all capture transactions. Depending on the payment service pro
 - *Connection ID*   
    Connection identification number. The ID number is automatically assigned by the system.    
 
-- *Created At*   
-   Date and time, on which the payment service provider has created the transaction. 
+- *Created at*   
+   Date and time when the payment service provider has created the transaction. 
 
-- *Modified At*   
-   Date and time, on which the payment service provider has modified the transaction.  
+- *Modified at*   
+   Date and time when the payment service provider has modified the transaction.  
 
 - *Currency*   
    Currency in which the payment will be posted.  
@@ -192,7 +193,7 @@ The list displays all capture transactions. Depending on the payment service pro
    If applicable, specific information on the status of the transaction.  
 
 - *Internal reference*   
-   Actindo specific reference back to the document in the billing document.
+   Actindo-specific reference back to the billing document.
 
 - *Original currency*   
    Currency in which the product(s) were paid.   
@@ -203,20 +204,20 @@ The list displays all capture transactions. Depending on the payment service pro
 
 
 
-## Payments and captures
+## Capture
 
 *Payments > Payments and captures > Tab LIST > Select a payment and capture transaction*
 
-![Authorization ID](../../Assets/Screenshots/Payments/PaymentsCaptures/AttributesPaymentsCaptures.png "[Authorization ID]")
+![Capture ID](../../Assets/Screenshots/Payments/PaymentsCaptures/AttributesPaymentsCaptures.png "[Capturen ID]")
 
-**Payment and Capture transaction "Capture ID"**
+**Capture "Capture ID"**
 
 - ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)   
     Click this button to close the *Capture ID* view and return to the list of payment and capture transactions. 
 
-## Payments and captures &ndash; Attributes
+## Capture &ndash; Attributes
 
-*Payments > Payments and captures > Tab LIST > Select a payment and capture transaction*   
+*Payments > Payments and captures > Tab LIST > Select a payment and capture transaction > Tab Attributes*   
 
 ![Attributes](../../Assets/Screenshots/Payments/Authorizations/AuthorizationAttributes.png "[Attributes]")
 
@@ -243,7 +244,9 @@ The right side of the *Attributes* tab displays all attributes that are assigned
 
 
 
-## Payments and captures &ndash; Dependencies
+## Capture &ndash; Dependencies
+
+*Payments > Payments and captures > Tab LIST > Select a payment and capture transaction > Tab DEPENDENCIES* 
 
 ![Dependencies](../../Assets/Screenshots/Payments/PaymentsCaptures/DependenciesPaymentsCaptures.png "[LIST &ndash; Dependencies]")   
 
@@ -251,7 +254,9 @@ Since a payment and capture transaction has no dependencies to other entities in
 
 
 
-## Payments and captures &ndash; Logs
+## Capture &ndash; Logs
+
+*Payments > Payments and captures > Tab LIST > Select a payment and capture transaction > Tab Logs* 
 
 ![Logs](../../Assets/Screenshots/Payments/PaymentsCaptures/LogPaymentCaptures.png "[LIST &ndash; Dependencies]")   
 
@@ -262,7 +267,7 @@ In contrast to the messages that are provided with the *Logging* menu entry, you
 
 ## Create view
 
-*Payments > Payments and captures > Tab LIST > Button Points > Menu entry "create"*
+*Payments > Payments and captures > Tab LIST > Button Points > Menu entry create*
 
 ![Create view](../../Assets/Screenshots/Payments/LIST/CreateView.png "[Create view]")
 

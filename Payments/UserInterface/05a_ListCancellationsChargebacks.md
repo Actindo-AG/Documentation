@@ -21,8 +21,8 @@
         - ![Rename](../../Assets/Icons/Edit02.png "[Rename]") rename  
             Click this entry to rename the selected view. The *Rename view* window is displayed, see [Rename view](#rename-view). This menu entry is only displayed if a view has been selected.
 
-        <!---- Eintrag gibt es nicht mehr [Reset](../../Assets/Icons/Reset.png "[Reset]") reset  
-            Click this entry to reset all unsaved changes to the settings of the selected view. This menu entry is only displayed if a view has been selected and any changes have been made to the view settings.--->
+        - ![Reset](../../Assets/Icons/Reset.png "[Reset]") reset  
+            Click this entry to reset all unsaved changes to the settings of the selected view. This menu entry is only displayed if a view has been selected and any changes have been made to the view settings.
 
         - ![Publish](../../Assets/Icons/Publish.png "[Publish]") publish  
             Click this entry to publish the view. This menu entry is only displayed if you have selected an unpublished view. As long as you have not published a view, your views are visible for you only.
@@ -45,9 +45,30 @@
         Select this option to display authorization transactions for all configured connections. 
     - **Connection name**  
         Select this option to display authorization transactions for the selected connection. When a specific connection has been selected, the **All connections** option is no longer displayed. Click the selected connection again to deselect it.  
+- ![Search](../../Assets/Icons/Search.png "[Search]") (Search)   
+    Click this button to display the search bar and search for authorization transactions.   
 
 
-The list displays all cancellation and chargeback transactions. Depending on the payment service provider, the displayed columns vary. All fields are read-only. The following standard columns are available.
+- ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh)   
+    Click this button to update the list of authorization transactions.   
+
+- ![Columns](../../Assets/Icons/Columns.png "[Columns]") Columns (x)   
+    Click this button to display the columns bar and to customize the displayed columns and the order of columns in the list. The *x* indicates the number of columns that are currently displayed in the list.   
+    
+
+- ![Filter](../../Assets/Icons/Filter.png "[Filter]") Filter (x)   
+    Click this button to display the filter bar and customize the active filters. The *x* indicates the number of filters that are currently active.  
+
+- [x]     
+    Select the checkbox to the left of one list entry to display the editing toolbar for this single entry.   
+    If you click the checkbox in the header, all entries in the list are selected. The editing toolbar then shows all actions you can perform on several entries.
+
+
+- [VOID]   
+  Click this button to invalidate the transaction for the Actindo database. For detailed information, see [Void cancellation and chargeback transaction](../Operation/04_ManageCancellationsChargebacks.md#void-cancellation-and-chargeback-transaction).
+
+
+The list displays all cancellation and chargeback transactions. Depending on the payment service provider, the displayed columns vary. All fields are read-only. The following standard columns are available:
 
 - *External ID*   
    ID given by the payment service provider.
@@ -59,7 +80,7 @@ The list displays all cancellation and chargeback transactions. Depending on the
    Date on which the transaction has been created by the payment service provider.
 
 - *Status*   
-   Status text.   
+   Description of the transaction status. 
 
 - *Status ID*   
    Identifier for the status. The following statuses are available, each prefixed by the ID in the list below. You can use the *Status ID* to filter and sort the list. 
@@ -86,7 +107,7 @@ The list displays all cancellation and chargeback transactions. Depending on the
    User name of the person or API who has changed the transaction. Can be a real user or an API user.
 
 - *ID*   
-   Actino unique identifier of the transaction.   
+   Unique transaction identification. The ID is automatically assigned by the system.   
      
 - *Type*   
    Kind of the displayed transaction, in this case a cancellation and chargeback transaction.  
@@ -94,11 +115,11 @@ The list displays all cancellation and chargeback transactions. Depending on the
 - *Connection ID*   
    Connection identification number. The ID number is automatically assigned by the system.    
 
-- *Created At*   
-   Date and time, on which the payment service provider has created the transaction. 
+- *Created at*   
+   Date and time when the payment service provider has created the transaction. 
 
-- *Modified At*   
-   Date and time, on which the payment service provider has modified the transaction.  
+- *Modified at*   
+   Date and time when the payment service provider has modified the transaction.  
 
 - *Currency*   
    Currency in which the payment will be posted.  
@@ -167,7 +188,7 @@ The list displays all cancellation and chargeback transactions. Depending on the
    If applicable, specific information on the status of the transaction.  
 
 - *Internal reference*   
-   Actindo specific reference back to the document in the billing document.
+   Actindo-specific reference back to the billing document.
 
 - *Original currency*   
    Currency in which the product(s) were paid.   
@@ -178,21 +199,24 @@ The list displays all cancellation and chargeback transactions. Depending on the
 
 
 
-## Cancellations and chargebacks
+## Cancellation and chargeback
 
 *Payments > Refunds > Tab LIST > Select a cancellation and chargeback transaction*
 
 ![Cancel ID](../../Assets/Screenshots/Payments/CancellationsChargebacks/AttributesCancellationsChargebacks.png "[Cancel ID]")
 
-**Cancellations and chargebacks transaction "Cancel ID"**
+**Cancellations and chargebacks "Cancel ID"**
 
 - ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)   
     Click this button to close the *Cancel ID* view and return to the list of cancellation and chargeback transactions. 
 
 
 
-## Cancellations and chargebacks &ndash; Attributes
-![Attributes ](../../Assets/Screenshots/Payments/CancellationsChargebacks/AttributesCancellationsChargebacks.png "[LIST &ndash; Attributes)]")
+## Cancellation and chargeback &ndash; Attributes
+
+*Payments > Cancellations and chargebacks > Tab LIST > Select a cancellation and chargeback transaction > Tab Attributes* 
+
+![Attributes ](../../Assets/Screenshots/Payments/CancellationsChargebacks/AttributesCancellationsChargebacks.png "[Cancellations and chargebacks &ndash; Attributes)]")
 
 In the left margin column, all available attribute groups are displayed. Click a group to display the attributes that are assigned to this group on the right side of the *Attributes* tab. If the cancellation and chargeback transaction contains attributes that are not assigned, the *Unassigned group* attribute group is automatically displayed in the left margin column.
 
@@ -215,7 +239,9 @@ The right side of the *Attributes* tab displays all attributes that are assigned
 
 
 
-## Cancellations and chargebacks &ndash; Dependencies  
+## Cancellations and chargebacks &ndash; Dependencies 
+
+*Payments > Cancellations and chargebacks > Tab LIST > Select a cancellation and chargeback transaction > Tab Dependencies* 
 
 ![Dependencies](../../Assets/Screenshots/Payments/CancellationsChargebacks/AttributesCancellationsChargebacks.png "[Dependencies]")
 
@@ -224,6 +250,8 @@ Since a refund transaction has no dependencies to other entities in Actindo by d
 
 
 ## Cancellations and chargebacks &ndash; Logs
+
+*Payments > Cancellations and chargebacks > Tab LIST > Select a cancellation and chargeback transaction > Tab Logs*
 
 ![Logs](../../Assets/Screenshots/Payments/CancellationsChargebacks/LogCancellationsChargebacks.png "[Logs)]")
 

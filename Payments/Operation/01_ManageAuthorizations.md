@@ -23,7 +23,8 @@ An authorization transaction provides numerous payment-related details, which ma
 
 - At least one connection has been created, see [Create a connection](../Integration/01_ManageConnections.md#create-a-connection).
 - At least one authorization transaction has been created.
-- It is recommended that you have added the *Status ID* column to your view so that you are able to sort or filter for specific statuses. 
+
+ > [Info] It is recommended to add the following columns to your view to get the required information and to better filter and sort the entries: *Status ID* and *Status information* (if applicable).    
 
 #### Procedure
 
@@ -71,8 +72,8 @@ After you have checked an authorization transaction that could not be processed 
 
 ![Capture authorization transaction](../../Assets/Screenshots/Payments/Authorizations/ChangeAuthorization.png "[Capture authorization transaction]")   
 
-1. Check the authorization transaction you want to capture, see [Check authorization transaction](./01_ManageAuthorization.md#check-authorization-transaction).
-2. Select the authorization transaction you want to capture by clicking the checkbox on the left.   
+1. Check the authorization transactions you want to capture, see [Check authorization transaction](./01_ManageAuthorization.md#check-authorization-transaction).
+2. Select the authorization transactions you want to capture by clicking the checkbox on the left. If desired, you can select several transactions at once.
     The editing toolbar is displayed.
 3. Click the [Capture] button.    
    A confirmation message is displayed. The status of the authorization transaction has changed to "Success".   
@@ -94,8 +95,8 @@ After you have checked an authorization transaction that could not be processed 
 
 ![Cancel authorization transaction](../../Assets/Screenshots/Payments/Authorizations/ChangeAuthorization.png "[Cancel authorization transaction]")
 
-1. Identify the communication issue that led to the error. To do this, check the authorization transaction you want to cancel, see [Check authorization transaction](01_ManageAuthorization.md#check-authorization-transaction).
-2. Select the authorization transaction you want to cancel by clicking the checkbox on the left.   
+1. Identify the communication issue that led to the error. To do this, check the authorization transactions you want to cancel, see [Check authorization transaction](01_ManageAuthorization.md#check-authorization-transaction).
+2. Select the authorization transactions you want to cancel by clicking the checkbox on the left. If desired, you can select several transactions at once.    
     The editing toolbar is displayed.
 3. Click the [Cancel] button.   
    A confirmation message is displayed. 

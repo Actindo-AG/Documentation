@@ -21,8 +21,8 @@
         - ![Rename](../../Assets/Icons/Edit02.png "[Rename]") rename  
             Click this entry to rename the selected view. The *Rename view* window is displayed, see [Rename view](#rename-view). This menu entry is only displayed if a view has been selected.
 
-        <!---- Eintrag gibt es nicht mehr [Reset](../../Assets/Icons/Reset.png "[Reset]") reset  
-            Click this entry to reset all unsaved changes to the settings of the selected view. This menu entry is only displayed if a view has been selected and any changes have been made to the view settings.--->
+        -  [Reset](../../Assets/Icons/Reset.png "[Reset]") reset  
+            Click this entry to reset all unsaved changes to the settings of the selected view. This menu entry is only displayed if a view has been selected and any changes have been made to the view settings.
 
         - ![Publish](../../Assets/Icons/Publish.png "[Publish]") publish  
             Click this entry to publish the view. This menu entry is only displayed if you have selected an unpublished view. As long as you have not published a view, your views are visible for you only.
@@ -45,11 +45,32 @@
         Select this option to display authorization transactions for all configured connections. 
     - **Connection name**  
         Select this option to display authorization transactions for the selected connection. When a specific connection has been selected, the **All connections** option is no longer displayed. Click the selected connection again to deselect it.  
+        
+
+- ![Search](../../Assets/Icons/Search.png "[Search]") (Search)   
+    Click this button to display the search bar and search for authorization transactions.   
 
 
+- ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh)   
+    Click this button to update the list of authorization transactions.   
+
+- ![Columns](../../Assets/Icons/Columns.png "[Columns]") Columns (x)   
+    Click this button to display the columns bar and to customize the displayed columns and the order of columns in the list. The *x* indicates the number of columns that are currently displayed in the list.   
+    
+
+- ![Filter](../../Assets/Icons/Filter.png "[Filter]") Filter (x)   
+    Click this button to display the filter bar and customize the active filters. The *x* indicates the number of filters that are currently active.  
+
+- [x]     
+    Select the checkbox to the left of one list entry to display the editing toolbar for this single entry.   
+    If you click the checkbox in the header, all entries in the list are selected. The editing toolbar then shows all actions you can perform on several entries.   
+
+
+- [VOID]   
+  Click this button to invalidate the transaction for the Actindo database. For detailed information, see [Void refund](../Operation/03_ManageRefunds.md#void-refund-transaction).
 
 The list displays all refund transactions. Depending on the payment service provider, the displayed columns vary. All fields are read-only. The following standard columns are available.
-<!----Liste der Standardfelder aus den Authorizations kopieren--->
+
 - *External ID*   
    ID given by the payment service provider.
 
@@ -60,7 +81,7 @@ The list displays all refund transactions. Depending on the payment service prov
    Date on which the transaction has been created by the payment service provider.
 
 - *Status*   
-   Status text.   
+   Description of the transaction status.  
 
 - *Status ID*   
    Identifier for the status. The following statuses are available, each prefixed by the ID in the list below. You can use the *Status ID* to filter and sort the list. 
@@ -87,19 +108,19 @@ The list displays all refund transactions. Depending on the payment service prov
    User name of the person or API who has changed the transaction. Can be a real user or an API user.
 
 - *ID*   
-   Actino unique identifier of the transaction.   
-     
+   Unique transaction identification number. The ID is automatically assigned by the system.  
+
 - *Type*   
    Kind of the displayed transaction, in this case a refund transaction.  
 
 - *Connection ID*   
-   Connection identification number. The ID number is automatically assigned by the system.    
+   Connection identification. The ID is automatically assigned by the system.    
 
-- *Created At*   
-   Date and time, on which the payment service provider has created the transaction. 
+- *Created at*   
+   Date and time when the payment service provider has created the transaction. 
 
-- *Modified At*   
-   Date and time, on which the payment service provider has modified the transaction.  
+- *Modified at*   
+   Date and time when the payment service provider has modified the transaction.  
 
 - *Currency*   
    Currency in which the payment will be posted.  
@@ -168,7 +189,7 @@ The list displays all refund transactions. Depending on the payment service prov
    If applicable, specific information on the status of the transaction.  
 
 - *Internal reference*   
-   Actindo specific reference back to the document in the billing document.
+   Actindo-specific reference back to the billing document.
 
 - *Original currency*   
    Currency in which the product(s) were paid.   
@@ -179,21 +200,21 @@ The list displays all refund transactions. Depending on the payment service prov
 
 
 
-## Refunds
+## Refund
 
 *Payments > Refunds > Tab LIST > Select a refund transaction*
 
 ![Refund ID](../../Assets/Screenshots/Payments/Refunds/AttributesRefund.png "[Refund ID]")
 
-**Refund transaction "Refund ID"**
+**Refund "Refund ID"**
 
 - ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)   
     Click this button to close the *Refund ID* view and return to the list of refund transactions. 
 
 
-## Refunds &ndash; Attributes  
+## Refund &ndash; Attributes  
 
-*Payments > Refunds > Tab LIST > Select a refund transaction*   
+*Payments > Refunds > Tab LIST > Select a refund transaction > Tab Attributes*   
 
 ![Attributes](../../Assets/Screenshots/Payments/Refunds/AttributesRefund.png "[Attributes]")
 
@@ -218,7 +239,9 @@ The right side of the *Attributes* tab displays all attributes that are assigned
 
 
 
-## Refunds &ndash; Dependencies
+## Refund &ndash; Dependencies
+
+*Payments > Refunds > Tab LIST > Select a refund transaction > Tab Dependencies* 
 
 ![LDependencies](../../Assets/Screenshots/Payments/Refunds/DependenciesRefunds.png "[Dependencies]")
 
@@ -226,7 +249,9 @@ Since a refund transaction has no dependencies to other entities in Actindo by d
 
 
 
-## Refunds &ndash; Logs
+## Refund &ndash; Logs
+
+*Payments > Refunds > Tab LIST > Select a refund transaction > Tab Logs* 
 
 ![Logs](../../Assets/Screenshots/Payments/Refunds/LogRefunds.png "[Logs]")
 

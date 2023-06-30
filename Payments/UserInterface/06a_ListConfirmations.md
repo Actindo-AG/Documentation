@@ -37,7 +37,7 @@
 
         - ![Delete](../../Assets/Icons/Trash01.png "[Delete]") delete  
             Click this entry to delete the selected view. A confirmation window to confirm the deletion is displayed. This menu entry is only displayed if you have selected a view.
- 
+
 
 - *Connections*   
     Click the drop-down list to select a connection. The following options are available:
@@ -60,6 +60,14 @@
 - ![Filter](../../Assets/Icons/Filter.png "[Filter]") Filter (x)   
     Click this button to display the filter bar and customize the active filters. The *x* indicates the number of filters that are currently active.
 
+- [EXECUTE]   
+  Click this button to release the refund. You can execute several transactions at once. For detailed information, see [Execute confirmation transaction](../Operation/05_ManageConfirmations.md#execute-confirmation-transaction).
+
+- [REJECT]   
+  Click this button to reject the refund. You can reject several transactions at once. For detailed information, see [Reject confirmation transaction](../Operation/05_ManageConfirmations.md#reject-confirmation-transaction).
+
+- [VOID]   
+  Click this button to invalidate the transaction for the Actindo database. For detailed information, see [Void confirmation transaction](../Operation/05_ManageConfirmations.md#void-confirmation-transaction).  
 
 The list displays all confirmation transactions. Depending on the payment service provider, the displayed columns vary. All fields are read-only. The following standard columns are available.   
 
@@ -82,7 +90,7 @@ The list displays all confirmation transactions. Depending on the payment servic
     User name of the person or API who has changed the transaction. Can be a real user or an API user.
 
 - *ID*   
-   Unique identifier of the transaction.   
+   Unique transaction identification. The ID is automatically assigned by the system. 
 
 - *Status ID*   
    Identifier of the status. The following status ID is available, each prefixed by the ID in the list below:
@@ -90,16 +98,16 @@ The list displays all confirmation transactions. Depending on the payment servic
         A refund is reserved but not yet released by an Actindo user.      
 
 - *Status*
-   Status text.   
+   Description of the transaction status.   
 
 - *Connection ID*   
    ID of the connection.   
 
 - *Created At*   
-   Date and time, on which the payment service provider has created the transaction. 
+   Date and time when the payment service provider has created the transaction. 
 
 - *Modified At*   
-   Date and time, on which the payment service provider has modified the transaction.   
+   Date and time when the payment service provider has modified the transaction.   
 
 - *Currency*   
    Currency in which the payment will be posted.    
@@ -142,23 +150,27 @@ The list displays all confirmation transactions. Depending on the payment servic
 
 
 - *Internal Reference*    
-    Actindo-specific reference back to the document in the billing document.
+    Actindo-specific reference back to the billing document.
 
 - *Due Date*     
     If applicable, date on which the payment is to be collected.
 
-## Confirmations
+## Confirmation
 
 ![Attributes](../../Assets/Screenshots/Payments/Confirmations/AttributesConfirmation.png "[Attributes]")
 
-**Confirmation transaction "Refund ID"**
+**Confirmation "Refund ID"**
 
 - ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)   
     Click this button to close the *Refund ID* view and return to the list of confirmation transactions. 
 
-## Confirmations &ndash; Attributes
+## Confirmation &ndash; Attributes
+
+*Payments > Cancellations and chargebacks > Tab LIST > Select a cancellation and chargeback transaction > Tab Attributes*
 
 ![Attributes](../../Assets/Screenshots/Payments/Confirmations/AttributesConfirmation.png "[Attributes]")
+
+
 In the left margin column, all available attribute groups are displayed. Click a group to display the attributes that are assigned to this group on the right side of the *Attributes* tab. 
 
 - ![Folders](../../Assets/Icons/Folders01.png "[Folders]") (Folders)  
@@ -179,11 +191,13 @@ The right side of the *Attributes* tab displays all attributes that are assigned
     Click this button to collapse or expand the left margin column with the attribute groups. When the left margin is expanded and you click this button, the column is collapsed. When the column is collapsed and you click this button, the column is expanded. This is available for the *Unassigned Group* folder only.
 
 
-## Confirmations &ndash; Dependencies
+## Confirmation &ndash; Dependencies
+
+*Payments > Cancellations and chargebacks > Tab LIST > Select a cancellation and chargeback transaction > Tab Dependencies*
 
 ![Dependencies](../../Assets/Screenshots/Payments/Confirmations/DependenciesConfirmation.png "[Dependencies]")
 
-Since a confirmation ticket has no dependencies to other entities in Actindo by default, this sub-tab is not relevant.
+Since a confirmation transaction has no dependencies to other entities in Actindo by default, this sub-tab is not relevant.
 
 <!---Marina, hier gibt es keine Logs-->
 
