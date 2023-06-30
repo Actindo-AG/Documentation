@@ -1,6 +1,6 @@
 # Manage user groups
 
-User groups in opposite to the users are not global. Group rights are valid for the current instance only. This means that they are not shared between the main account and the sandboxes. 
+User groups define the individual permissions a user assigned to this group have in the *Actindo Core1*. In opposite to the users are User groups not global. Group rights are valid for the current instance only. This means that they are not shared between the main account and the sandboxes. 
 If you add a user to a group, the user is automatically listed for this account. If you want to remove a user from an account, you need to remove the user from all groups.
 
 
@@ -8,7 +8,9 @@ If you add a user to a group, the user is automatically listed for this account.
 # Manage the user rights
 
 User rights are defined by assigning the user to a (user) group. Groups define specific roles that user have while working on the *Actindo Core1 Platform*.   
-For example, a bookkeeper needs access to specific functions of the *Accounting* module in addition to general rights for accessing the *Actindo Core1 Platform*. Additionally, rights to access other modules might be required. For this reason, you can create a specific group for the bookkeeper's role in which you can select all rights the bookkeepers need.
+For example, a bookkeeper needs access to specific functions of the *Accounting* module in addition to general rights for accessing the *Actindo Core1 Platform*. Additionally, rights to access other modules might be required. For this reason, you can create a specific group for the bookkeeper's role in which you can collect all rights the bookkeepers need. 
+
+> [INFO] The standard role "ActindoUsersGroup" is available to grant general accesssing rights for the *Actindo Core1 Platform* needed by all users.<!---Stimmt das?--> 
 
 The user rights are individually managed for the main account and each sandbox, in which the users do their daily work. You assign them for all modules and plugins installed in the *Actindo Core1 Platform* in the *Settings* module.  You can create, edit and delete user groups, add specific users to a group, remove users from a group, and assign rights to a user group.   
 
@@ -33,8 +35,7 @@ Create a user group based on a user role in order to subsequently assign them a 
 
 *Settings > Users and groups > Tab GROUP MANAGEMENT*
 
-![Group management](../../Assets/Screenshots/Core1Platform/AdministratingCore1/GroupManagment.png"[Group management]")
-
+![Group management](../../Assets/Screenshots/Core1Platform/AdministratingCore1/GroupCreated.png "[Group management]")
 
 1. Click the ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) button in the bottom right corner.    
     The *Create group* window is displayed.
@@ -72,15 +73,16 @@ Add any number of users to a user group in order to assign them rights subsequen
 
 ![Group management](../../Assets/Screenshots/Core1Platform/AdministratingCore1/GroupCreated.png "[Group management]")
 
-1. Select the checkbox of the user group to which you want to add users.   
+1. Select the checkbox of the user group for which you want to add or remove users.   
     The editing toolbar is displayed.
 
 2. Click the ![Edit](../../Assets/Icons/Edit01.png "[Edit]") (Edit) button in the editing toolbar.    
     The *Edit group* view is displayed. By default, the *Users* tab is preselected.
 
     > [Info] If no users have been added yet, the *No users added. Use + button to add one to group* notice is displayed. Otherwise, the details of the user(s) included in the group are displayed.   
+    
+     ![Edit group no users](../../Assets/Screenshots/Core1Platform/AdministratingCore1/GroupEditNoUsers.png "[Edit group no users]")
 
-       ![Edit group no users](../../Assets/Screenshots/Core1Platform/AdministratingCore1/GroupEditNoUsers.png" [Edit group no users]")
 
 3. Click the ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) button in the bottom right corner.    
     The *Add user* view is displayed.
@@ -100,7 +102,7 @@ Add any number of users to a user group in order to assign them rights subsequen
     A further drop-down list is displayed. Repeat steps **4** and **5** to add as many users as necessary.
 
 6. Click the [SAVE] button in the upper right corner of the *Add user* window.  
-    The user has been saved to the group and is displayed in the list of users.
+    The users have been saved to the group and are displayed in the list of users.
 
 7. Click the [SAVE] button in the upper right corner of the *Edit group* view.   
     The *Group saved* pop-up window is displayed. The changes to the group have been saved.
@@ -111,7 +113,7 @@ Add any number of users to a user group in order to assign them rights subsequen
 ### Remove a user from a group
 
 A user is active in an account as long as the user is assigned a user group.    
-If you want to remove a user from the main account or a sandbox, you have to remove the user from all groups to which he or she is assigned. Alternatively, you can limit the validity period. <!--- Geht das überhaupt?-->
+If you want to remove a user from the main account or a sandbox, you have to remove the user from all groups to which he or she is assigned. Alternatively, you can limit the validity period. <!--- Geht das überhaupt? Ich finde keine Funktion, mit der ich das machen könnte-->
 
 #### Prerequisites
 

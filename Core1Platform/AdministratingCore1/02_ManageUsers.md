@@ -1,6 +1,6 @@
 # Manage users
 
-A user is a global *Actindo* entity that is shared between the main account and the sandboxes. If you create a user in the main account, and you invite this user to a sandbox, the user dates are automatically available in this sandbox. If you change user data, the data are automatically synchronized with the sandboxes in which the user is assigned a user group.
+A user is a global *Actindo* entity that is shared between the main account and the sandboxes. If you create a user in the main account, and you invite this user to a sandbox, the user dates are automatically available in this sandbox. If you change user data, the data are automatically synchronized with the sandboxes in which the user is assigned a user group.   
 You must create a user in the main account. It is not possible to create a user in a sandbox.   
 > [INFO] As a user, you can change some data in a sandbox too. For detailed information, see [Edit profile settings](../UsingCore1/02_EditProfileSettings.md "Edit profile settings"). 
 
@@ -20,7 +20,7 @@ Users are created in the main account only.
 
 1. Click the ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) button in the bottom right corner.    
     
-
+to be continued
 
 
 ## Assign user to group
@@ -50,7 +50,7 @@ When inviting a user to a sandbox, it is necessary to assign the user to a user 
 2. Click the ![Invite user](../../Assets/Icons/UserInvite02.png  "[Invite user]") (Invite user) button.   
  The "Invite user" window is opened.
 
-    ![Invite user](../../Assets/Screenshots/Core1Platform/AdministratingCore1/UserInviteWindow.png  "[Invite user]") (Invite user)
+    ![Invite user](../../Assets/Screenshots/Core1Platform/AdministratingCore1/UserInviteWindow.png  "[Invite user]") 
 
 3. Enter the "Login name" of the user.
 
