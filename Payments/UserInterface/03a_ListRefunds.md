@@ -232,3 +232,38 @@ Since a refund transaction has no dependencies to other entities in Actindo by d
 
 This tab displays messages and intents that have been created during transferring the selected refund transaction from the payment service provider.    
 In contrast to the messages that are provided with the *Logging* menu entry, you see here the logging for the specific refund transaction only. See [LIST (Logging)](./07a_ListLogging.md) for detailed information on fields and functions.   
+
+
+
+## Create view
+
+*Payments > Refunds> Tab LIST > Button Points > Menu entry "create"*
+
+![Create view](../../Assets/Screenshots/Payments/LIST/CreateView.png "[Create view]")
+
+- *Name*   
+    Enter a name for the view.
+
+- [CANCEL]   
+    Click this button to cancel creating a view. The *Create view* window is closed.
+
+- [SAVE]   
+    Click this button to save the new view and display it in the *VIEW* drop-down list. The *Create view* window is closed.
+
+
+
+## Rename view
+
+*Payments > Refunds > Tab LIST > Button Points > Menu entry "rename"*
+
+![Rename view](../../Assets/Screenshots/Payments/LIST/RenameView.png "[Rename view]")
+
+- *Name*   
+    Click this field to edit the view name.
+
+- [CANCEL]   
+    Click this button to cancel renaming the view. The *Rename view* window is closed.
+
+- [SAVE]   
+    Click this button to save the changes and display the new name in the *VIEW* drop-down list. The *Rename view* window is closed.
+

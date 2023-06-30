@@ -147,7 +147,14 @@ The list displays all confirmation transactions. Depending on the payment servic
 - *Due Date*     
     If applicable, date on which the payment is to be collected.
 
+## Confirmations
 
+![Attributes](../../Assets/Screenshots/Payments/Confirmations/AttributesConfirmation.png "[Attributes]")
+
+**Confirmation transaction "Refund ID"**
+
+- ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)   
+    Click this button to close the *Refund ID* view and return to the list of confirmation transactions. 
 
 ## Confirmations &ndash; Attributes
 

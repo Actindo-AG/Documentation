@@ -3,11 +3,11 @@
 
 # LIST (Cancellations and chargebacks)
 
-*Payments > Authorizations > Tab LIST*
+*Payments > Cancellations and chargebacks > Tab LIST*
 
 ![LIST (Cancellations and chargebacks](../../Assets/Screenshots/Payments/Authorizations/LISTAuthorizations.png "[LIST (Cancellations and chargebacks)]")
 
-**Refunds**
+**Cancellations and chargebacks*
 
 - *VIEW*  
     Click the drop-down list to select the view. All created views are displayed in the drop-down list. Click the ![Points](../../Assets/Icons/Points01.png "[Points]") (Points) button to the right of the *VIEW* drop-down list to display the context menu and create a view.   
@@ -49,7 +49,6 @@
 
 The list displays all cancellation and chargeback transactions. Depending on the payment service provider, the displayed columns vary. All fields are read-only. The following standard columns are available.
 
-<!----Liste der Standardfelder aus den Authorizations kopieren--->
 - *External ID*   
    ID given by the payment service provider.
 
@@ -230,3 +229,38 @@ Since a refund transaction has no dependencies to other entities in Actindo by d
 
 This tab displays messages and intents that have been created during transferring the selected cancellation and chargeback transaction from the payment service provider.    
 In contrast to the messages that are provided with the *Logging* menu entry, you see here the logging for the specific refund transaction only. See [LIST (Logging)](./07a_ListLogging.md) for detailed information on fields and functions.   
+
+
+
+## Create view
+
+*Payments > Cancellations and chargebacks > Tab LIST > Button Points > Menu entry "create"*
+
+![Create view](../../Assets/Screenshots/Payments/LIST/CreateView.png "[Create view]")
+
+- *Name*   
+    Enter a name for the view.
+
+- [CANCEL]   
+    Click this button to cancel creating a view. The *Create view* window is closed.
+
+- [SAVE]   
+    Click this button to save the new view and display it in the *VIEW* drop-down list. The *Create view* window is closed.
+
+
+
+## Rename view
+
+*Payments > Cancellations and chargebacks > Tab LIST > Button Points > Menu entry "rename"*
+
+![Rename view](../../Assets/Screenshots/Payments/LIST/RenameView.png "[Rename view]")
+
+- *Name*   
+    Click this field to edit the view name.
+
+- [CANCEL]   
+    Click this button to cancel renaming the view. The *Rename view* window is closed.
+
+- [SAVE]   
+    Click this button to save the changes and display the new name in the *VIEW* drop-down list. The *Rename view* window is closed.
+
