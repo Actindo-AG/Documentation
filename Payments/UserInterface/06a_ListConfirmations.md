@@ -3,7 +3,7 @@
 
 # LIST (Confirmations)
 
-*Payments > Authorizations > Tab LIST*
+*Payments > Confirmations > Tab LIST*
 
 ![LIST (Confirmations)](../../Assets/Screenshots/Payments/Confirmations/LISTConfirmations.png "[LIST (Confirmations)]")
 
@@ -81,7 +81,7 @@ The list displays all confirmation transactions. Depending on the payment servic
    Kind of the displayed transaction, in this case a confirmation transaction.   
 
 - *Connection*    
-     Name of the Connection. Note that this is the customer-specific name that has been given the connection. For detailed information, see [Establish connections to payment service providers (PSP)](../Integration/01_EstablishConnection.md).    
+     Name of the Connection. Note that this is the customer-specific name that has been given the connection. For detailed information, see [Manage connections to payment service providers (PSP)](../Integration/01_ManageConnection.md).    
 
 - *Created by*   
     User name of the person or API who has created the transaction. Can be a real user or an API user.   
@@ -128,7 +128,7 @@ The list displays all confirmation transactions. Depending on the payment servic
    Name of the company on whose behalf the payment was made.    
 
 - *Address*   
-   Street and house number of the address.<!---Straße und Hausnummer? oder konkatenierte Adresse? -->   
+   Street and house number of the address.  
 
 - *Postal Code*   
    Zip code of the address.   
@@ -137,7 +137,7 @@ The list displays all confirmation transactions. Depending on the payment servic
    City of the address.    
 
 - *State*   
-   If applicable, state of the address.<!----state oder country--->   
+   If applicable, state of the address.
 
 - *Country*   
    If applicable, country of the address.    
@@ -157,6 +157,8 @@ The list displays all confirmation transactions. Depending on the payment servic
 
 ## Confirmation
 
+*Payments > Confirmations > Tab LIST > Select a confirmation transaction*
+
 ![Attributes](../../Assets/Screenshots/Payments/Confirmations/AttributesConfirmation.png "[Attributes]")
 
 **Confirmation "Refund ID"**
@@ -166,7 +168,7 @@ The list displays all confirmation transactions. Depending on the payment servic
 
 ## Confirmation &ndash; Attributes
 
-*Payments > Cancellations and chargebacks > Tab LIST > Select a cancellation and chargeback transaction > Tab Attributes*
+*Payments > Confirmations > Tab LIST > Select a confirmation transaction > Tab Attributes*
 
 ![Attributes](../../Assets/Screenshots/Payments/Confirmations/AttributesConfirmation.png "[Attributes]")
 
@@ -193,7 +195,7 @@ The right side of the *Attributes* tab displays all attributes that are assigned
 
 ## Confirmation &ndash; Dependencies
 
-*Payments > Cancellations and chargebacks > Tab LIST > Select a cancellation and chargeback transaction > Tab Dependencies*
+*Payments > Confirmations > Tab LIST > Select a confirmation transaction > Tab Dependencies*
 
 ![Dependencies](../../Assets/Screenshots/Payments/Confirmations/DependenciesConfirmation.png "[Dependencies]")
 

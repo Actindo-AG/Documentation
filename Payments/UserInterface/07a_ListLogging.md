@@ -45,8 +45,8 @@
 - ![Columns](../../Assets/Icons/Columns.png "[Columns]") Columns (x)   
     Click this button to display the columns bar and customize the displayed columns and the order of columns in the list. The *x* indicates the number of columns that are currently displayed in the list.
 
-- ![Filter](../../Assets/Icons/Filter.png "[Filter]") Filter (x)
-    Click this button to display the filter bar and customize the active filters. The *x* indicates the number of filters that are currently active.-->
+- ![Filter](../../Assets/Icons/Filter.png "[Filter]") Filter (x)   
+    Click this button to display the filter bar and customize the active filters. The *x* indicates the number of filters that are currently active.
 
  The list displays all intents. Depending on the settings, the displayed columns may vary. All fields are read-only.
 
@@ -199,7 +199,7 @@ In general, the most common attribute sets are the standard error log message at
 
 ![Detail of log message &ndash; Dependencies](../../Assets/Screenshots/Payments/Logging/DetailLogMessageDependenciespng.png "[Detailed of log message &ndash; Dependencies]")
 
-The *Payments* module only handles the communication between the payment service provider and Actindo. For this reason there are in the standard no dependencies to other Actindo entities that could be displayed here.
+The *Payments* module only handles the communication between the payment service provider and Actindo. For this reason, by default, there are no dependencies to other Actindo entities that could be displayed here.
 
 
 

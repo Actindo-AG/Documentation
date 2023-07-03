@@ -5,7 +5,7 @@
 
 *Payments > Cancellations and chargebacks > Tab LIST*
 
-![LIST (Cancellations and chargebacks](../../Assets/Screenshots/Payments/Authorizations/LISTAuthorizations.png "[LIST (Cancellations and chargebacks)]")
+![LIST (Cancellations and chargebacks)](../../Assets/Screenshots/Payments/CancellationsChargebacks/LISTCancellationsChargebacks.png "[LIST (Cancellations and chargebacks)]")
 
 **Cancellations and chargebacks*
 
@@ -98,7 +98,7 @@ The list displays all cancellation and chargeback transactions. Depending on the
        The transaction has been voided, see [Void an authorization transaction](01_ManageAuthorizations.md#void-an-authorization-transaction).
 
 - *Connection*   
-   Name of the Connection. Note that this is the customer-specific name that has been given the connection. For detailed information, see [Establish connections to payment service providers (PSP)](../Integration/01_EstablishConnection.md).
+   Name of the Connection. Note that this is the customer-specific name that has been given the connection. For detailed information, see [Manage connections to payment service providers (PSP)](../Integration/01_ManageConnection.md).
 
 - *Created by*   
    User name of the person or API who has created the transaction. Can be a real user or an API user.
@@ -208,7 +208,7 @@ The list displays all cancellation and chargeback transactions. Depending on the
 **Cancellations and chargebacks "Cancel ID"**
 
 - ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)   
-    Click this button to close the *Cancel ID* view and return to the list of cancellation and chargeback transactions. 
+    Click this button to close the *Cancel "Cancel ID"* view and return to the list of cancellation and chargeback transactions. 
 
 
 

@@ -4,20 +4,21 @@
 # Monitor authorizations
 
 An authorization transaction is the permission that your company is allowed to capture money from the customer via a payment service provider. The processing of the authorization transactions works as follows: 
--   The payment service provider creates an authorization transaction, when a customer presses the *Pay now* button during the order process.   
-- The payment provider sends then the authorization transaction to the *ActindoCore1 Platform*.    
+-   The payment service provider creates an authorization transaction when a customer presses the button to pay an order during the order process.   
+- The payment provider sends then the authorization transaction to the *Actindo Core1 Platform*.    
 - In addition, the shop system creates an ID for this transaction.  
 - Actindo links both.   
 
-For Actindo, the authorization transaction serves as a reference to a payment made by a customer.   
-You can use this procedure to display all incoming authorization transactions of a payment service provider. You can check for communication errors between Actindo and the payment service provider that has been caused in a termination of a workflow, for example. In addition, if applicable, you can change the status of a transaction to start continuing further processing or to end it.    
+For Actindo, the authorization transaction serves as a reference to a payment to be made by a customer.   
+You can use this procedure to display all incoming authorization transactions of a payment service provider. You can check for communication errors between Actindo and the payment service provider that resulted in a workflow being stopped, for example. In addition, if applicable, you can change the status of a transaction to start continuing further processing or to end it.    
 
 If everything works fine with the posting of a payment, you do not need to monitor the *Authorizations* menu entry. In case of errors you can capture, cancel, or void an authorization transaction manually.   
 > [Info] You can only change the status of an authorization transaction, but not any data.
 
 
 ## Check authorization transaction
-An authorization transaction provides numerous payment-related details, which may vary depending on the payment service provider settings. To decide, whether you can manually capture, cancel, or void an authorization transaction, you need to check its details.
+
+An authorization transaction provides numerous payment-related details, which may vary depending on the payment service provider settings. To decide whether you can manually capture, cancel, or void an authorization transaction, you need to check its details.
 
 #### Prerequisites
 
@@ -31,25 +32,23 @@ An authorization transaction provides numerous payment-related details, which ma
 *Payments > Authorizations > Tab LIST*
 ![Authorizations](../../Assets/Screenshots/Payments/Authorizations/LISTAuthorizations.png "[Authorizations]")
 
-1. Check the Authorization transaction status in the *Status* column. The status displays the current stage in the payment process. You can use the status ID prefixed below to filter the list. The following statuses are available: 
+1. Check the authorization transaction status in the *Status* column. The status displays the current stage in the payment process. You can use the status ID prefixed below to filter the list. The following statuses are available: 
     - **1 - Preparing**  
-        The transaction has been created, but is not yet transferred.
+        The transaction has been created but is not yet transferred.
     - **2 - Unconfirmed**   
-        A refund is reserved but not yet released by an Actindo user. This status is relevant for some functions only, for example, the cancellations and chargebacks.
+        A refund is requested but not yet released by an Actindo user. This status is relevant for some functions only, for example, the cancellations and chargebacks.
     - **3 - Success**  
-        Actindo has got the response from the service payment provider, that the transfer was successfully.
+        Actindo has got the response from the service payment provider that the transfer was successfully.
     - **4 - Failure**   
-        The payment service provider has received the request, but it cannot process it. If available for the connection, the status information field provides further information.
+        The payment service provider has received the request but cannot process it. If available for the connection, the status information field provides further information.
     - **5 - Error**   
        Errors have been occurred during transfer.
     - **6 - Void**   
        The transaction has been voided, see [Void authorization transaction](01_ManageAuthorizations.md#void-authorization-transaction).
     
-2. Click on the authorization transaction to see the details.   
-    The sub-tabs of the transaction are opened.   
+2. Click the authorization transaction to see the details.   
+    *Authorization "Authorization ID"* view is displayed. The *Attributes* tab is preselected by default.   
      
-    *Payments > Authorizations > Tab LIST > Select Authorization transaction*  
-
     ![Authorization attributes and logs](../../Assets/Screenshots/Payments/Authorizations/CheckAttributes.png "[Authorization attributes and logs]")
 
 3. Check the attributes and logs of the transaction. For detailed information, see the following:
@@ -68,6 +67,7 @@ After you have checked an authorization transaction that could not be processed 
 
 
 #### Procedure
+
 *Payments > Authorizations > Tab LIST*
 
 ![Capture authorization transaction](../../Assets/Screenshots/Payments/Authorizations/ChangeAuthorization.png "[Capture authorization transaction]")   
@@ -86,6 +86,7 @@ After you have checked an authorization transaction that could not be processed 
 After you have checked an authorization transaction that could not be processed by the workflow, you can cancel the transaction manually, so that the order is cancelled both at Actindo and at the payment service provider. Actindo will then automatically inform the payment service provider about the cancellation. The customer will get his or her money back.
 
 #### Prerequisites
+
 - The status of an authorization transaction is "Failure" or "Error". 
 - The authorization transaction has not been captured before.
 
@@ -104,7 +105,6 @@ After you have checked an authorization transaction that could not be processed 
    
 
 
-
 ## Void authorization transaction
 
 You can void an authorization transaction, if you want to disable the transaction for the Actindo database. For example, for whatever reason the same transaction has been posted twice. In this case, you can void one of these transactions and continue the order process with the other transaction.
@@ -118,6 +118,7 @@ The status of an authorization transaction is "Failure" or "Error".
 #### Procedure
 
 *Payments > Authorizations > Tab LIST*
+
 ![Void authorization transaction](../../Assets/Screenshots/Payments/Authorizations/ChangeAuthorization.png "[Capture authorization transaction]")
 
 1. Identify the communication issue that led to the error. To do this, check the authorization transaction you want to void, see [Check the authorization transaction](./01_ManageAuthorizations.md#check-authorization-transaction).

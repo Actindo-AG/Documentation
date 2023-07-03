@@ -1,11 +1,11 @@
 # Operation
 
-In this part of the Payments documentation, you will find the following chapters:
+In this part of the *Payments* documentation, you will find the following chapters:
 - [Monitor authorizations](./01_ManageAuthorizations.md)
-     - [Check authorization transaction](./01_ManageAuthorizations.md#check-an-authorization-transaction)   
-     - [Capture authorization transaction](./01_ManageAuthorizations.md#capture-an-authorization-transaction)   
-     - [Cancel authorization transaction](./01_ManageAuthorizations.md#cancel-an-authorization-transaction)   
-     - [Void authorization transaction](./01_ManageAuthorizations.md#void-an-authorization-transaction) 
+     - [Check authorization transaction](./01_ManageAuthorizations.md#checkauthorization-transaction)   
+     - [Capture authorization transaction](./01_ManageAuthorizations.md#capture-authorization-transaction)   
+     - [Cancel authorization transaction](./01_ManageAuthorizations.md#cancel-authorization-transaction)   
+     - [Void authorization transaction](./01_ManageAuthorizations.md#void-authorization-transaction) 
 - [Monitor payments and captures](./02_ManagePaymentsAndCaptures.md)   
      - [Check payment and capture transaction](./02_ManagePaymentsAndCaptures.md#check-capture-transaction) 
      - [Refund payment and capture transaction](./02_ManagePaymentsAndCaptures.md#refund-payment-and-capture-transaction)   
@@ -16,7 +16,7 @@ In this part of the Payments documentation, you will find the following chapters
      - [Void refund transaction](./03_ManageRefunds.md#void-refund-transaction)    
 - [Monitor cancellations and chargebacks](./04_ManageCancellationsChargebacks.md) 
      - [Check cancellation and chargeback transaction](./04_ManageCancellationsChargebacks.md#check-cancellations-and-chargeback-transaction)   
-     - [Void cancellation and chargeback transaction](./04_ManageCancellationsChargebacks.md#void-a-cancellation-and-chargeback-transaction)    
+     - [Void cancellation and chargeback transaction](./04_ManageCancellationsChargebacks.md#void-cancellation-and-chargeback-transaction)    
 
 - [Manage confirmations](./05_ManageConfirmations.md)   
      - [Check confirmation transaction](./05_ManageConfirmations.md#check-confirmation-transaction)    

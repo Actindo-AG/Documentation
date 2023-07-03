@@ -99,7 +99,7 @@ The list displays all refund transactions. Depending on the payment service prov
        The transaction has been voided, see [Void an authorization transaction](01_ManageAuthorizations.md#void-an-authorization-transaction).
 
 - *Connection*   
-   Name of the Connection. Note that this is the customer-specific name that has been given the connection. For detailed information, see [Establish connections to payment service providers (PSP)](../Integration/01_EstablishConnection.md).
+   Name of the Connection. Note that this is the customer-specific name that has been given the connection. For detailed information, see [Manage connections to payment service providers (PSP)](../Integration/01_ManageConnection.md).
 
 - *Created by*   
    User name of the person or API who has created the transaction. Can be a real user or an API user.
@@ -243,7 +243,7 @@ The right side of the *Attributes* tab displays all attributes that are assigned
 
 *Payments > Refunds > Tab LIST > Select a refund transaction > Tab Dependencies* 
 
-![LDependencies](../../Assets/Screenshots/Payments/Refunds/DependenciesRefunds.png "[Dependencies]")
+![Dependencies](../../Assets/Screenshots/Payments/Refunds/DependenciesRefunds.png "[Dependencies]")
 
 Since a refund transaction has no dependencies to other entities in Actindo by default, this sub-tab is not relevant.
 
