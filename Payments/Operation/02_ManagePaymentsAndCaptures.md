@@ -1,6 +1,5 @@
 [!!LIST (Payments and captures)](../UserInterface/02a_ListPaymentsAndCaptures.md)
 
-
 # Monitor payments and captures
 
 A capture is a payment made. The most payment service providers create a new reference when a payment has been captured.
@@ -13,13 +12,14 @@ If everything works fine with the posting of a capture, you do not need to monit
 > [Info] You can only change the status of a payment and capture transaction, but not any data.
 
 
+
 ## Check payment and capture transaction
 
-A capture provides numerous payment-related details, which may vary depending on the payment service provider settings. To decide whether you can manually refund or void a payment and capture transaction, you need to check its details.
+A capture provides numerous payment-related details, which may vary depending on the payment service provider settings. To decide whether you can manually refund or void a payment and capture transaction, you need to check its details. It might be that there is a general issue that is caused by the payment service provider, by the shop, or by Actindo. In this case, contact the according business partner.
 
 #### Prerequisites
 
-- At least one connection has been created, see [Create a connection](../Integration/01_ManageConnection.md#create-a-psp-connection).
+- At least one connection has been created, see [Create PSP connection](../Integration/01_ManageConnection.md#create-psp-connection).
 - At least one payment and capture transaction has been created.
 > [Info] It is recommended to add the following columns to your view to get the required information and to better filter and sort the entries: Status ID, Status information (if applicable).    
 
@@ -47,21 +47,25 @@ A capture provides numerous payment-related details, which may vary depending on
 2. Click a transaction to see the details.   
     The *Payment and capture "Capture ID"* view is displayed. The *Attributes* tab is preselected by default.   
 
-    *Payments > Payments and Captures > Tab LIST > Select a payment and capture transaction*   
+    ![Attributes](../../Assets/Screenshots/Payments/PaymentsCaptures/AttributesPaymentsCaptures.png "[Attributes]")
 
-    ![Payment and capture attributes and logs](../../Assets/Screenshots/Payments/PaymentsCaptures/CheckAttributes.png "[Payment and capture attributes and logs]")   
+3. Check the list of attributes, for example, if the required fields are filled. For detailed information on fields, see [Capture &ndash; Attributes](../UserInterface/02a_ListPaymentsAndCaptures.md#capture-–-attributes).
 
-3. Check the attributes and logs of the transaction. For detailed information, see the following:
-     - [Payment and captures &ndash; Attributes](../UserInterface/03_ListPaymentsAndCaptures.md#payments-and-captures-–-attributes)
-     - [Payment and captures &ndash; Logs](../UserInterface/03_ListPaymentsAndCaptures.md#payments-and-captures-–-logs)
-4. Return to the list and decide how to proceed with the transaction.
+4. Click the *Logs* tab.   
+The *Logs* tab is displayed and shows the messages that have been created for this issue. 
+
+   ![Logs](../../Assets/Screenshots/Payments/PaymentsCaptures/LogPaymentCaptures.png "[Logs]")
+
+5. Check the logs, for example, if there is a general communication issue.
+For detailed information on fields and functions, see [LIST (Logging)](../UserInterface/07a_ListLogging.md).
+
+6. Return to the list and decide how to proceed with the transaction.
 
 
 
 ## Refund payment and capture transaction
 
 After you have checked a payment and capture transaction that could not be processed by the workflow, you can refund the payment and capture the transaction manually, so that the order process can be cancelled and the payment of the customer, blocked before by the payment service provider, is freed.<!---ist das richtig-->
-
 
 #### Prerequisites
 
@@ -74,6 +78,7 @@ The status of a payment and capture transaction is not **Success**. In case of s
 ![Payment and capture transactions](../../Assets/Screenshots/Payments/PaymentsCaptures/LISTPaymentsCaptures.png "[Payment and capture transactions]")   
 
 1. Check the payment and capture transaction you want to refund, see [Check payment and capture transaction](#check-payment-and-capture-transaction).
+
 2. Select the payment and capture transaction you want to refund by clicking the checkbox on the left.   
     The editing toolbar is displayed.
 
@@ -90,7 +95,7 @@ You can void a payment and capture transaction, if you want to invalidate the tr
 
 #### Prerequisites
 
-The status of a payment and capture transaction is not**Success**. In this case, further processing has already been continued. 
+The status of a payment and capture transaction is not **Success**. In this case, further processing has already been continued. 
 
 #### Procedure
 *Payments > Payments and captures > Tab LIST*

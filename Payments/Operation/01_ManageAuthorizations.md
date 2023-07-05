@@ -1,6 +1,5 @@
 [!!LIST (Authorizations)](../UserInterface/01a_ListAuthorizations.md)
 
-
 # Monitor authorizations
 
 An authorization transaction is the permission that your company is allowed to capture money from the customer via a payment service provider. The processing of the authorization transactions works as follows: 
@@ -16,13 +15,14 @@ If everything works fine with the posting of a payment, you do not need to monit
 > [Info] You can only change the status of an authorization transaction, but not any data.
 
 
+
 ## Check authorization transaction
 
-An authorization transaction provides numerous payment-related details, which may vary depending on the payment service provider settings. To decide whether you can manually capture, cancel, or void an authorization transaction, you need to check its details.
+An authorization transaction provides numerous payment-related details, which may vary depending on the payment service provider settings. To decide whether you can manually capture, cancel, or void an authorization transaction, you need to check its details. It might be that there is a general issue that is caused by the payment service provider, by the shop, or by Actindo. In this case, contact the according business partner.
 
 #### Prerequisites
 
-- At least one connection has been created, see [Create a connection](../Integration/01_ManageConnection.md#create-a-psp-connection).
+- At least one connection has been created, see [Create PSP connection](../Integration/01_ManageConnection.md#create-psp-connection).
 - At least one authorization transaction has been created.
 
  > [Info] It is recommended to add the following columns to your view to get the required information and to better filter and sort the entries: *Status ID* and *Status information* (if applicable).    
@@ -41,7 +41,7 @@ An authorization transaction provides numerous payment-related details, which ma
     - **3 - Success**  
         Actindo has got the response from the service payment provider that the transfer was successfully.
     - **4 - Failure**   
-        The payment service provider has received the request but cannot process it. If available for the connection, the status information field provides further information.
+        The payment service provider has received the request but cannot process it. If available for the connection, the "Status information" column provides further information.
     - **5 - Error**   
        Errors have been occurred during transfer.
     - **6 - Void**   
@@ -50,12 +50,20 @@ An authorization transaction provides numerous payment-related details, which ma
 2. Click the transaction to see the details.   
     The *Authorization "Authorization ID"* view is displayed. The *Attributes* tab is preselected by default.   
      
-    ![Authorization attributes and logs](../../Assets/Screenshots/Payments/Authorizations/CheckAttributes.png "[Authorization attributes and logs]")
+    ![Attributes](../../Assets/Screenshots/Payments/Authorizations/AuthorizationAttributes.png "[Attributes]")
 
-3. Check the attributes and logs of the transaction. For detailed information, see the following:
-   - [Authorizations &ndash; Attributes](../UserInterface/01a_ListAuthorizations.md#authorizations-–-attributes)
-   - [Authorizations &ndash; Logs](../UserInterface/01a_ListAuthorizations.md#authorizations-–-logs)
-4. Return to the list and decide how to proceed with the transaction.
+3. Check the list of attributes, for example, if the required fields are filled. For detailed information on fields, see [Authorizations &ndash; Attributes](../UserInterface/01a_ListAuthorizations.md#authorization-–-attributes).
+
+4. Click the *Logs* tab.   
+The *Logs* tab is displayed and shows the messages that have been created for this issue. 
+
+   ![Logs](../../Assets/Screenshots/Payments/Authorizations/AuthorizationLogs.png "[Logs]")
+
+5. Check the logs, for example, if there is a general communication issue.
+For detailed information on fields and functions, see [LIST (Logging)](../UserInterface/07a_ListLogging.md).
+
+5. Return to the list and decide how to proceed with the transaction.
+
 
 
 ## Capture authorization transaction
@@ -66,14 +74,13 @@ After you have checked an authorization transaction that could not be processed 
 
 The status of an authorization transaction is **not** "Success". In case of success, further processing has already been continued.<!---Stimmt das oder gibt es noch mehr?-->   
 
-
 #### Procedure
 
 *Payments > Authorizations > Tab LIST*
 
 ![Authorizations](../../Assets/Screenshots/Payments/Authorizations/LISTAuthorizations.png "[Authorizations]")
 
-1. Check the authorization transactions you want to capture, see [Check authorization transaction](./01_ManageAuthorization.md#check-authorization-transaction).
+1. Check the authorization transactions you want to capture, see [Check authorization transaction](#check-authorization-transaction).
 2. Select the authorization transactions you want to capture by clicking the checkbox on the left. If desired, you can select several transactions at once.   
     The editing toolbar is displayed.
 3. Click the [CAPTURE] button.    
@@ -95,9 +102,9 @@ After you have checked an authorization transaction that could not be processed 
 
 *Payments > Authorizations > Tab LIST*
 
-![Cancel authorization transaction](../../Assets/Screenshots/Payments/Authorizations/ChangeAuthorization.png "[Cancel authorization transaction]")
+![Authorizations](../../Assets/Screenshots/Payments/Authorizations/LISTAuthorizations.png "[Authorizations]")
 
-1. Identify the communication issue that led to the error. To do this, check the authorization transactions you want to cancel, see [Check authorization transaction](01_ManageAuthorization.md#check-authorization-transaction).
+1. Identify the communication issue that led to the error. To do this, check the authorization transactions you want to cancel, see [Check authorization transaction](#check-authorization-transaction).
 2. Select the authorization transactions you want to cancel by clicking the checkbox on the left. If desired, you can select several transactions at once.    
     The editing toolbar is displayed.
 3. Click the [CANCEL] button.   
@@ -110,7 +117,6 @@ After you have checked an authorization transaction that could not be processed 
 
 You can void an authorization transaction, if you want to invalidate the transaction for the Actindo database. For example, for whatever reason the same transaction has been posted twice. In this case, you can void one of these transactions and continue the order process with the other transaction.
 > [Info] The payment service provider will not be informed about changing the status to **Void**. It is only done to clear the database from faulty entries.
-
 
 #### Prerequisites
 

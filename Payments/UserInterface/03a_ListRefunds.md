@@ -21,8 +21,8 @@
         - ![Rename](../../Assets/Icons/Edit02.png "[Rename]") rename  
             Click this entry to rename the selected view. The *Rename view* window is displayed, see [Rename view](#rename-view). This menu entry is only displayed if a view has been selected.
 
-        -  [Reset](../../Assets/Icons/Reset.png "[Reset]") reset  
-            Click this entry to reset all unsaved changes to the settings of the selected view. This menu entry is only displayed if a view has been selected and any changes have been made to the view settings.
+        <!---  [Reset](../../Assets/Icons/Reset.png "[Reset]") reset  
+            Click this entry to reset all unsaved changes to the settings of the selected view. This menu entry is only displayed if a view has been selected and any changes have been made to the view settings.-->
 
         - ![Publish](../../Assets/Icons/Publish.png "[Publish]") publish  
             Click this entry to publish the view. This menu entry is only displayed if you have selected an unpublished view. As long as you have not published a view, your views are visible for you only.
@@ -37,7 +37,6 @@
 
         - ![Delete](../../Assets/Icons/Trash01.png "[Delete]") delete  
             Click this entry to delete the selected view. A confirmation window to confirm the deletion is displayed. This menu entry is only displayed if you have selected a view.
- 
 
 - *Connections*   
     Click the drop-down list to select a connection. The following options are available:
@@ -45,11 +44,9 @@
         Select this option to display authorization transactions for all configured connections. 
     - **Connection name**  
         Select this option to display authorization transactions for the selected connection. When a specific connection has been selected, the **All connections** option is no longer displayed. Click the selected connection again to deselect it.  
-        
 
 - ![Search](../../Assets/Icons/Search.png "[Search]") (Search)   
     Click this button to display the search bar and search for authorization transactions.   
-
 
 - ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh)   
     Click this button to update the list of authorization transactions.   
@@ -57,7 +54,6 @@
 - ![Columns](../../Assets/Icons/Columns.png "[Columns]") Columns (x)   
     Click this button to display the columns bar and to customize the displayed columns and the order of columns in the list. The *x* indicates the number of columns that are currently displayed in the list.   
     
-
 - ![Filter](../../Assets/Icons/Filter.png "[Filter]") Filter (x)   
     Click this button to display the filter bar and customize the active filters. The *x* indicates the number of filters that are currently active.  
 
@@ -65,11 +61,10 @@
     Select the checkbox to the left of one list entry to display the editing toolbar for this single entry.   
     If you click the checkbox in the header, all entries in the list are selected. The editing toolbar then shows all actions you can perform on several entries.   
 
-
 - [VOID]   
-  Click this button to invalidate the transaction for the Actindo database. For detailed information, see [Void refund](../Operation/03_ManageRefunds.md#void-refund-transaction).
+  Click this button to invalidate the transaction for the Actindo database. For detailed information, see [Void refund transaction](../Operation/03_ManageRefunds.md#void-refund-transaction).
 
-The list displays all refund transactions. Depending on the payment service provider, the displayed columns vary. All fields are read-only. The following standard columns are available.
+The list displays all refund transactions. Depending on the payment service provider, the displayed columns vary. All fields are read-only. The following standard columns are available:
 
 - *External ID*   
    ID given by the payment service provider.
@@ -96,7 +91,7 @@ The list displays all refund transactions. Depending on the payment service prov
     - **5 - Error**   
        Errors have been occurred during transfer.
     - **6 - Void**   
-       The transaction has been voided, see [Void an authorization transaction](01_ManageAuthorizations.md#void-an-authorization-transaction).
+       The transaction has been voided, see [Void refund transaction](../Operation/03_ManageRefunds.md#void-refund-transaction).
 
 - *Connection*   
    Name of the Connection. Note that this is the customer-specific name that has been given the connection. For detailed information, see [Manage connections to payment service providers (PSP)](../Integration/01_ManageConnection.md).
@@ -199,7 +194,6 @@ The list displays all refund transactions. Depending on the payment service prov
 
 
 
-
 ## Refund
 
 *Payments > Refunds > Tab LIST > Select a refund transaction*
@@ -210,6 +204,7 @@ The list displays all refund transactions. Depending on the payment service prov
 
 - ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)   
     Click this button to close the *Refund ID* view and return to the list of refund transactions. 
+
 
 
 ## Refund &ndash; Attributes  
@@ -262,7 +257,7 @@ In contrast to the messages that are provided with the *Logging* menu entry, you
 
 ## Create view
 
-*Payments > Refunds> Tab LIST > Button Points > Menu entry "create"*
+*Payments > Refunds> Tab LIST > Button Points > Menu entry create*
 
 ![Create view](../../Assets/Screenshots/Payments/LIST/CreateView.png "[Create view]")
 

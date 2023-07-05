@@ -2,11 +2,10 @@
 
 # Manage connections to payment service providers (PSP)   
 
-If you want to create a new connection to a payment service provider (PSP), you can buy, depending on the payment service provider, the needed connection in the app store or license it directly at the payment service provider. By default, Actindo supports the following drivers:
+If you want to create a new connection to a payment service provider (PSP), you can buy, depending on the payment service provider, the needed connection in the app store or license it directly at the payment service provider. By default, Actindo supports the following drivers:   
 - Adyen&trade; (available in the app store)
 - Amazon pay&trade; (available in the app store)
 - Stripe&trade; (available in the app store)
-- Ebics?, ne nicht?
 - Klarna&trade;
 - Pay one&trade;
 - Paypal&trade;
@@ -18,21 +17,19 @@ In the following, the procedures to create, edit, or disable connections are des
 
 
 
-## Create a PSP connection
+## Create PSP connection
 
 Create a connection to a certain payment provider. As soon you have created a connection, an initial synchronization will be triggered, which will transfer the entire data model of the connected payment service provider to Actindo. 
-
 
 #### Prerequisites
 
 At least one driver has been installed.
 
-
 #### Procedure    
 
 *Payments > Settings > Tab CONNECTIONS*   
 
-![Connections](../../Assets/Screenshots/Payments/Settings/Connections.png "[Connections]")
+![Connections](../../Assets/Screenshots/Payments/Settings/Settings.png "[Connections]")
 
 1.  Click the ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) button in the bottom right corner.   
     The *Connection* view is displayed.   
@@ -63,7 +60,8 @@ At least one driver has been installed.
 
 
 
-## Edit a PSP connection
+
+## Edit PSP connection
 
 Edit a connection to adjust any changed credentials, the connection name or further settings. 
 
@@ -75,9 +73,12 @@ At least one connection has been created, see [Create a connection](#create-a-ps
 
 *Payments > Settings > Tab CONNECTIONS*
 
-![Connections](../../Assets/Screenshots/Payments/Settings/ChangeConnections.png "[Connections]")
+![Connections](../../Assets/Screenshots/Payments/Settings/Settings.png "[Connections]")
 
-1. Click on the driver to select the connection you want to edit.  
+1. Select the checkbox of the driver to select the connection you want to edit.  
+The editing toolbar is displayed above the list of connections.
+
+2. Click the ![Edit](../../Assets/Icons/Edit01.png "[Edit") (Edit) button.   
     The *"Driver name" connection* view is displayed.
 
     > [Info] Depending on the driver, the *Credentials* as well as the *Settings* tab are displayed in the view.
@@ -95,7 +96,7 @@ At least one connection has been created, see [Create a connection](#create-a-ps
 
 
 
-## Disable a PSP connection
+## Disable PSP connection
 
 Once a connection has been created, you cannot delete it because of potential dependencies in the existing database. Nevertheless, you can disable the connection if you no longer use it. You can disable several active connections at a time.
 
@@ -107,20 +108,20 @@ Once a connection has been created, you cannot delete it because of potential de
 
 *Payments > Settings > Tab CONNECTIONS*
 
-![Connections](../../Assets/Screenshots/Payments/Settings/ChangeConnections.png "[Connections]")
+![Connections](../../Assets/Screenshots/Payments/Settings/Settings.png "[Connections]")
 
 1. Select the checkbox of the connection you want to disable in the list of connections.   
-    The editing toolbar is displayed above the list of connections.
+   The editing toolbar is displayed above the list of connections.
 
 2. Click the [DISABLE] button in the editing toolbar.   
-    The connection has been deactivated.
+   The connection has been deactivated.
 
 3. Click the ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh) button to update the list of connections.   
     The status of the disabled connection in the *Status* column has switched to **Inactive**.
 
 
 
-## Enable a PSP connection
+## Enable PSP connection
 
 Once a connection has been created, you can disable it if you no longer need it. If you have done this by mistake, you can enable the connection again. You can enable several inactive connections at once.
 
@@ -128,12 +129,11 @@ Once a connection has been created, you can disable it if you no longer need it.
 
 - At least one connection is *Inactive*.
 
-
 #### Procedure
 
 *Payments > Settings > Tab CONNECTIONS*
 
-![Enable connection](../../Assets/Screenshots/Payments/Settings/EnableConnection.png "[Enable connection]")
+![Connections](../../Assets/Screenshots/Payments/Settings/settings.png "[Connections]")
 
 
 1. Select the checkbox of the connection you want to enable in the list of connections.   

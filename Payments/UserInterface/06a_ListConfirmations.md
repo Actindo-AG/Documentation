@@ -1,9 +1,9 @@
 [!!Manage confirmations](../Operation/05_ManageConfirmations.md)
 
 
-# LIST (Confirmations)
+# LIST (Confirmation)
 
-*Payments > Confirmations > Tab LIST*
+*Payments > Confirmation > Tab LIST*
 
 ![LIST (Confirmations)](../../Assets/Screenshots/Payments/Confirmations/LISTConfirmations.png "[LIST (Confirmations)]")
 
@@ -157,7 +157,7 @@ The list displays all confirmation transactions. Depending on the payment servic
 
 ## Confirmation
 
-*Payments > Confirmations > Tab LIST > Select a confirmation transaction*
+*Payments > Confirmation > Tab LIST > Select a confirmation transaction*
 
 ![Attributes](../../Assets/Screenshots/Payments/Confirmations/AttributesConfirmation.png "[Attributes]")
 
@@ -168,7 +168,7 @@ The list displays all confirmation transactions. Depending on the payment servic
 
 ## Confirmation &ndash; Attributes
 
-*Payments > Confirmations > Tab LIST > Select a confirmation transaction > Tab Attributes*
+*Payments > Confirmation > Tab LIST > Select a confirmation transaction > Tab Attributes*
 
 ![Attributes](../../Assets/Screenshots/Payments/Confirmations/AttributesConfirmation.png "[Attributes]")
 
@@ -195,16 +195,16 @@ The right side of the *Attributes* tab displays all attributes that are assigned
 
 ## Confirmation &ndash; Dependencies
 
-*Payments > Confirmations > Tab LIST > Select a confirmation transaction > Tab Dependencies*
+*Payments > Confirmation > Tab LIST > Select a confirmation transaction > Tab Dependencies*
 
 ![Dependencies](../../Assets/Screenshots/Payments/Confirmations/DependenciesConfirmation.png "[Dependencies]")
 
 Since a confirmation transaction has no dependencies to other entities in Actindo by default, this sub-tab is not relevant.
 
-<!---Marina, hier gibt es keine Logs-->
+
 
 ## Create view
-*Payments > Confirmations > Tab LIST > Button Points > Menu entry create*
+*Payments > Confirmation > Tab LIST > Button Points > Menu entry create*
 
 ![Create view](../../Assets/Screenshots/Payments/LIST/CreateView.png "[Create view]")
 
@@ -221,7 +221,7 @@ Since a confirmation transaction has no dependencies to other entities in Actind
 
 ## Rename view
 
-*Payments > Confirmations > Tab LIST > Button Points > Menu entry rename*
+*Payments > Confirmation > Tab LIST > Button Points > Menu entry rename*
 
 ![Rename view](../../Assets/Screenshots/Payments/LIST/RenameView.png "[Rename view]")
 

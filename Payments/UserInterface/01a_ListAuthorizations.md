@@ -4,7 +4,6 @@
 
 *Payments > Authorizations > Tab LIST*
 
-
 ![LIST (Authorizations)](../../Assets/Screenshots/Payments/Authorizations/LISTAuthorizations.png "[LIST (Authorizations)]")
 
 **Authorizations**
@@ -20,7 +19,6 @@
 
         - ![Rename](../../Assets/Icons/Edit02.png "[Rename]") rename  
             Click this entry to rename the selected view. The *Rename view* window is displayed, see [Rename view](#rename-view). This menu entry is only displayed if a view has been selected.
-
         
       - ![Reset](../../Assets/Icons/Reset.png "[Reset]") reset  
             Click this entry to reset all unsaved changes to the settings of the selected view. This menu entry is only displayed if a view has been selected and any changes have been made to the view settings.
@@ -47,18 +45,14 @@
     - **Connection name**  
         Select this option to display authorization transactions for the selected connection. When a specific connection has been selected, the **All connections** option is no longer displayed. Click the selected connection again to deselect it.  
 
-
-
 - ![Search](../../Assets/Icons/Search.png "[Search]") (Search)   
     Click this button to display the search bar and search for authorization transactions.   
-
 
 - ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh)   
     Click this button to update the list of authorization transactions.   
 
 - ![Columns](../../Assets/Icons/Columns.png "[Columns]") Columns (x)   
     Click this button to display the columns bar and to customize the displayed columns and the order of columns in the list. The *x* indicates the number of columns that are currently displayed in the list.   
-    
 
 - ![Filter](../../Assets/Icons/Filter.png "[Filter]") Filter (x)   
     Click this button to display the filter bar and customize the active filters. The *x* indicates the number of filters that are currently active.  
@@ -66,7 +60,6 @@
 - [x]     
     Select the checkbox to the left of one list entry to display the editing toolbar for this single entry.   
     If you click the checkbox in the header, all entries in the list are selected. The editing toolbar then shows all actions you can perform on several entries.
-
 
 - [CAPTURE]   
    Click this button to capture the transaction manually, so that the order process can be continued. You can capture several transactions at once. For detailed information, see [Capture authorization transaction](../Operation/01_ManageAuthorizations.md#capture-authorization-transaction). 
@@ -76,7 +69,6 @@
 
 - [VOID]   
   Click this button to invalidate the transaction for the Actindo database. For detailed information, see [Void authorization transaction](../Operation/01_ManageAuthorizations.md#void-authorization-transaction).
-
 
 The list displays all authorization transactions. Depending on the payment service provider, the displayed columns vary. All fields are read-only. The following standard columns are available:
 
@@ -105,7 +97,7 @@ The list displays all authorization transactions. Depending on the payment servi
     - **5 - Error**   
        Errors have been occurred during transfer.
     - **6 - Void**   
-       The transaction has been voided, see [Void an authorization transaction](01_ManageAuthorizations.md#void-an-authorization-transaction).
+       The transaction has been voided, see [Void authorization transaction](../Operation/01_ManageAuthorizations.md#void-authorization-transaction).
 
 - *Connection*   
    Name of the connection. Note that this is the customer-specific name that has been given the connection. For detailed information, see [Manage connections to payment service providers (PSP)](../Integration/01_ManageConnection.md).
@@ -153,7 +145,7 @@ The list displays all authorization transactions. Depending on the payment servi
    Name of the company on whose behalf the payment was made.   
 
 - *Address*   
-   Street and house number of the address.<!---Straße und Hausnummer? oder konkatenierte Adresse? -->     
+   Street and house number of the address.    
 
 -  *Postal code*   
    Zip code of the address.    
@@ -185,7 +177,7 @@ The list displays all authorization transactions. Depending on the payment servi
 - *Charges intended use*   
    Description of the fee, for example transaction fee.
 
-- *Booking date*   
+- *Booking date*    
    Date on which the payment was posted.   
 
 - *Due date*  
@@ -207,6 +199,7 @@ The list displays all authorization transactions. Depending on the payment servi
    Invoice amount in the original currency.   
 
 
+
 ## Authorization
 
 *Payments > Authorizations > Tab LIST > Select an authorization transaction*
@@ -223,7 +216,6 @@ The list displays all authorization transactions. Depending on the payment servi
 ## Authorization &ndash; Attributes
 
 *Payments > Authorizations > Tab LIST > Select an authorization transaction > Tab Attributes*   
-
 
 ![Attributes](../../Assets/Screenshots/Payments/Authorizations/AuthorizationAttributes.png "[Attributes]")
 
@@ -247,14 +239,16 @@ The right side of the *Attributes* tab displays all attributes that are assigned
     Click this button to collapse or expand the left margin column with the attribute groups. When the left margin is expanded and you click this button, the column is collapsed. When the column is collapsed and you click this button, the column is expanded. This is available for the *Unassigned Group* folder only.
 
 
+
 ## Authorization &ndash; Dependencies  
 
 *Payments > Authorizations > Tab LIST > Select an authorization transaction > Tab Dependencies*
 
 ![Dependencies](../../Assets/Screenshots/Payments/Authorizations/AuthorizationDependencies.png "[Dependencies]")   
 
-
 Since an authorization transaction has no dependencies to other entities in Actindo by default, this sub-tab is not relevant.
+
+
 
 ## Authorization &ndash; Logs   
 
@@ -264,6 +258,7 @@ Since an authorization transaction has no dependencies to other entities in Acti
 
 This tab displays messages and intents that have been created during transferring the selected authorization transaction from the payment service provider.    
 In contrast to the messages that are provided with the *Logging* menu entry, you see here the logging for the specific authorization transaction only. See [LIST (Logging)](./07a_ListLogging.md) for detailed information on fields and functions.
+
 
 
 ## Create view

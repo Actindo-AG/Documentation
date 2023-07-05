@@ -1,23 +1,25 @@
-[!!LIST (Refunds)](../UserInterface/03_Refunds.md)
-
+[!!LIST (Refunds)](../UserInterface/03a_ListRefunds.md)
 
 # Monitor refunds
 
-A refund is a repayment of a capture. On the one hand, it is initialized by the merchant, for example, if a product is not available and cannot be delivered. On the other hand, it is initialized if a payment and capture transaction has been manually refunded by the Actindo user.
-> [Info] This means that you cannot follow up a case with the ID of an authorization or a payments and captures transaction. However, the most payment service providers support an original reference ID that you can use to search for a specific case in the whole payment process.
+A refund is a request for a repayment of a capture. It is initialized by the merchant, for example, if a product is not available and cannot be delivered. It is also initialized if a payment and capture transaction has been manually refunded by an Actindo user. Each refund is to be confirmed with the *Confirmation* menu entry later.
+> [Info] You cannot follow up a case with the ID of an authorization or a payments and captures transaction. However, the most payment service providers support an original reference ID that you can use to search for a specific case in the whole payment process.
 
 You can use this procedure to display all incoming references to a refund from a payment service provider. You can check for communication and other errors between Actindo and the payment service provider resulted in a workflow being stopped, for example. In addition, if applicable, you can manually change the status of a transaction to **Void** to clear the database.    
    
 If everything works fine with the posting of a refund, you do not need to monitor the *Refunds* menu entry. You can follow up the successfully processed refunds with the *Confirmation* menu entry.
+> [Info] You can only change the status of a refund transaction, but not any data.
+
+
 
 ## Check refund transaction
 
 A refund transaction provides numerous payment-related details, which may vary depending on the payment service provider settings. To decide whether you can manually void a refund transaction, you need to check its details.   
-> [Info] You can only change the status of a refund transaction, but not any data.
+
 
 #### Prerequisites
 
-- At least one connection has been created, see [Create a connection](../Integration/01_ManageConnection.md#create-a-psp-connection).
+- At least one connection has been created, see [Create PSP connection](../Integration/01_ManageConnection.md#create-psp-connection).
 - At least one refund has been created.
 - It is recommended that you add the *Status ID* field to your view so that you are able to sort or filter for specific statuses. 
 
@@ -41,17 +43,29 @@ A refund transaction provides numerous payment-related details, which may vary d
        Errors have been occurred during transfer.
     - **6 - Void**   
        The transaction has been voided, see [Void refund transaction](#void-refund-transaction)
-
     
 2. Click a transaction to see the details.   
     The *Refund "Refund ID"* view is displayed. The *Attributes* tab is preselected by default.    
 
-     ![Refunds attributes and logs](../../Assets/Screenshots/Payments/Refunds/CheckAttributes.png "[Refund attributes and logs]")
+     ![Attributes](../../Assets/Screenshots/Payments/Refunds/AttributesRefund.png "[Attributes]")
+
+3. Check the list of attributes, for example, if the required fields are filled. For detailed information on fields, see [Refund &ndash; Attributes](../UserInterface/03a_ListRefunds.md#refund-–-attributes).
+
+4. Click the *Logs* tab.   
+The *Logs* tab is displayed and shows the messages that have been created for this issue. 
+
+   ![Logs](../../Assets/Screenshots/Payments/Refunds/AttributesRefund.png "[Logs]")
+
+5. Check the logs, for example, if there is a general communication issue.
+For detailed information on fields and functions, see [LIST (Logging)](../UserInterface/07a_ListLogging.md).
+
 
 3. Check the attributes and logs of the transaction. For detailed information, see the following:
-     - [LIST &ndash; Attributes](../UserInterface/04_ListRefunds.md#refunds-–-attributes)
-     - [LIST &ndash; Logs](../UserInterface/04_ListRefunds.md#refunds-–-logs)
+     - [Refund &ndash; Attributes](../UserInterface/03a_ListRefunds.md#refund-–-attributes)
+     - [Refund &ndash; Logs](../UserInterface/03a_ListRefunds.md#refund-–-logs)
+     
 4. Return to the list and decide how to proceed with the transaction.
+
 
 
 ## Void refund transaction
@@ -64,6 +78,7 @@ You can void a refund transaction, if you want to invalidate the transaction for
 The status of a refund transaction is not **Success**. In case of success, the refund process has already been started. <!---ist das richtig-->
 
 #### Procedure
+
 *Payments > Refunds > Tab LIST*
 
 ![Refund transactions](../../Assets/Screenshots/Payments/Refunds/LISTRefunds.png "[Refund transactions]")

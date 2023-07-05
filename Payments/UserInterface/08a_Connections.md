@@ -1,10 +1,10 @@
-[!!Establish connections to a payment service provider](../UserInterface/02a_ListPaymentsAndCaptures.md)
+[!!Manage connections to payment service providers (PSP)](../Integration/01_ManageConnection.md)
 
 # Connections
 
 *Payments > Settings > Tab CONNECTIONS*
 
-![Connections](../../Assets/Screenshots/Payments/Settings/Connections.png "[Connections]")
+![Connections](../../Assets/Screenshots/Payments/Settings/Settings.png "[Connections]")
 
 **Connections**
 
@@ -47,10 +47,10 @@
     Select the checkbox to display the editing toolbar. If you click the checkbox in the header, all connections in the list are selected.
 
 - [DISABLE]  
-    Click this button to disable the selected connection(s). This button is only displayed if the checkbox of at least one active connection is selected. For detailed information see [Disable a connection](../Integration/01_ManageConnection.md#disable-a-psp-connection).
+    Click this button to disable the selected connection(s). This button is only displayed if the checkbox of at least one active connection is selected. For detailed information see [Disable a PSP connection](../Integration/01_ManageConnection.md#disable-a-psp-connection).
 
 - [ENABLE]  
-    Click this button to enable the selected connection(s). This button is only displayed if the checkbox of at least one inactive connection is selected. For detailed information, see [Enable a connection](../Integration/01_ManageConnection.md#enable-a-psp-connection)
+    Click this button to enable the selected connection(s). This button is only displayed if the checkbox of at least one inactive connection is selected. For detailed information, see [Enable a PSP connection](../Integration/01_ManageConnection.md#enable-a-psp-connection)
 
 - ![Edit](../../Assets/Icons/Edit01.png "[Edit]") (Edit)  
     Click this button to edit the selected connection. This button is only displayed if a single checkbox in the list of connections is selected. Alternatively, you can click directly a row in the list to edit the corresponding connection. The *Edit connection* view is displayed, see [Edit connection](#edit-connection).
@@ -74,8 +74,9 @@ The list displays all available connections. Depending on the settings, the disp
     Connection identification number. The ID number is automatically assigned by the system.
 
 - ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add)  
-    Click this button to add a connection. The *Create connection* view is displayed, see [Create connection](#create-connection).
+    Click this button to add a connection. The *Create connection* view is displayed.
   
+
 
 ## Create connection
 
@@ -98,7 +99,7 @@ The list displays all available connections. Depending on the settings, the disp
 - *Driver*  
     Click the drop-down list and select the desired driver. All installed drivers are displayed. 
 
-    > [Info] Drivers are licensed and must be acquired via the app store or the corresponding service payment partner. The applicable driver credentials to establish the connection are obtained when acquiring the corresponding license. For detailed information, see [Create a connection](../Integration/01_EstablishConnection.md#create-a-psp-connection.).
+    > [Info] Drivers are licensed and must be acquired via the app store or the corresponding service payment partner. The applicable driver credentials to establish the connection are obtained when acquiring the corresponding license. For detailed information, see [Manage connections to payment service providers (PSP)](../Integration/01_ManageConnection.md).
 
 **Credentials**
 

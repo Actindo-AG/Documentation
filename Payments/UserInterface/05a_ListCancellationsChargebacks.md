@@ -1,6 +1,5 @@
 [!!Monitor cancellations and chargebacks](../Operation/04_ManageCancellationsChargebacks.md)
 
-
 # LIST (Cancellations and chargebacks)
 
 *Payments > Cancellations and chargebacks > Tab LIST*
@@ -37,7 +36,6 @@
 
         - ![Delete](../../Assets/Icons/Trash01.png "[Delete]") delete  
             Click this entry to delete the selected view. A confirmation window to confirm the deletion is displayed. This menu entry is only displayed if you have selected a view.
- 
 
 - *Connections*   
     Click the drop-down list to select a connection. The following options are available:
@@ -48,13 +46,11 @@
 - ![Search](../../Assets/Icons/Search.png "[Search]") (Search)   
     Click this button to display the search bar and search for authorization transactions.   
 
-
 - ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh)   
     Click this button to update the list of authorization transactions.   
 
 - ![Columns](../../Assets/Icons/Columns.png "[Columns]") Columns (x)   
     Click this button to display the columns bar and to customize the displayed columns and the order of columns in the list. The *x* indicates the number of columns that are currently displayed in the list.   
-    
 
 - ![Filter](../../Assets/Icons/Filter.png "[Filter]") Filter (x)   
     Click this button to display the filter bar and customize the active filters. The *x* indicates the number of filters that are currently active.  
@@ -63,10 +59,8 @@
     Select the checkbox to the left of one list entry to display the editing toolbar for this single entry.   
     If you click the checkbox in the header, all entries in the list are selected. The editing toolbar then shows all actions you can perform on several entries.
 
-
 - [VOID]   
   Click this button to invalidate the transaction for the Actindo database. For detailed information, see [Void cancellation and chargeback transaction](../Operation/04_ManageCancellationsChargebacks.md#void-cancellation-and-chargeback-transaction).
-
 
 The list displays all cancellation and chargeback transactions. Depending on the payment service provider, the displayed columns vary. All fields are read-only. The following standard columns are available:
 
@@ -95,7 +89,7 @@ The list displays all cancellation and chargeback transactions. Depending on the
     - **5 - Error**   
        Errors have been occurred during transfer.
     - **6 - Void**   
-       The transaction has been voided, see [Void an authorization transaction](01_ManageAuthorizations.md#void-an-authorization-transaction).
+       The transaction has been voided, see [Void cancellation and chargeback transaction](../Operation/04_ManageCancellationsChargebacks.md#void-cancellation-and-chargeback-transaction).
 
 - *Connection*   
    Name of the Connection. Note that this is the customer-specific name that has been given the connection. For detailed information, see [Manage connections to payment service providers (PSP)](../Integration/01_ManageConnection.md).
@@ -143,7 +137,7 @@ The list displays all cancellation and chargeback transactions. Depending on the
    Name of the company on whose behalf the payment was made.   
 
 - *Address*   
-   Street and house number of the address.<!---Straße und Hausnummer? oder konkatenierte Adresse? -->     
+   Street and house number of the address. 
 
 -  *Postal code*   
    Zip code of the address.    
@@ -198,8 +192,7 @@ The list displays all cancellation and chargeback transactions. Depending on the
 
 
 
-
-## Cancellation and chargeback
+## Cancel
 
 *Payments > Refunds > Tab LIST > Select a cancellation and chargeback transaction*
 
@@ -212,7 +205,7 @@ The list displays all cancellation and chargeback transactions. Depending on the
 
 
 
-## Cancellation and chargeback &ndash; Attributes
+## Cancel &ndash; Attributes
 
 *Payments > Cancellations and chargebacks > Tab LIST > Select a cancellation and chargeback transaction > Tab Attributes* 
 
@@ -239,7 +232,7 @@ The right side of the *Attributes* tab displays all attributes that are assigned
 
 
 
-## Cancellations and chargebacks &ndash; Dependencies 
+## Cancel &ndash; Dependencies 
 
 *Payments > Cancellations and chargebacks > Tab LIST > Select a cancellation and chargeback transaction > Tab Dependencies* 
 
@@ -249,7 +242,7 @@ Since a refund transaction has no dependencies to other entities in Actindo by d
 
 
 
-## Cancellations and chargebacks &ndash; Logs
+## Cancel &ndash; Logs
 
 *Payments > Cancellations and chargebacks > Tab LIST > Select a cancellation and chargeback transaction > Tab Logs*
 

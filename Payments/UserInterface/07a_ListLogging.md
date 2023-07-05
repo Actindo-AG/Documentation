@@ -41,7 +41,6 @@
         - ![Delete](../../Assets/Icons/Trash01.png "[Delete]") delete  
             Click this entry to delete the selected view. A confirmation window to confirm the deletion is displayed. This menu entry is only displayed if a view has been selected.
 
-
 - ![Columns](../../Assets/Icons/Columns.png "[Columns]") Columns (x)   
     Click this button to display the columns bar and customize the displayed columns and the order of columns in the list. The *x* indicates the number of columns that are currently displayed in the list.
 
@@ -95,7 +94,6 @@
 - ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)   
     Click this button to close the *List of messages* view and return to the list of intents. All changes are rejected.
 
-
 The list displays all log messages of the selected intent. Depending on the settings, the displayed columns may vary. All fields are read-only.
 
 - *Title*  
@@ -111,8 +109,7 @@ The list displays all log messages of the selected intent. Depending on the sett
      - **Critical**
      - **Alert**
      - **Emergency**
-  
- 
+   
 - *Created at*  
     Date and time of the creation.
 
@@ -132,7 +129,6 @@ The list displays all log messages of the selected intent. Depending on the sett
 *Payments > Logging > Tab LIST > Select an intent > Select a log message*   
 
 ![Detail of log message](../../Assets/Screenshots/Payments/Logging/DetailLogMessageAttributes.png "[Detail of log message]")
-
 
 - ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)   
     Click this button to close the *Detail of log message "Log message title"* view and return to the list of messages.    

@@ -11,6 +11,7 @@ You can use this procedure to display all incoming references to cancellations a
 If everything works fine with the posting of a cancellation and chargeback, you do not need to monitor the *Cancellations and chargebacks* menu entry.  
 
 
+
 ## Check cancellation and chargeback transaction
 
 A cancellation and chargeback transaction provides numerous payment-related details, which may vary depending on the payment service provider settings. To decide whether you can manually void a cancellation and cancellation and chargeback transaction, you need to check its details.  
@@ -18,7 +19,7 @@ A cancellation and chargeback transaction provides numerous payment-related deta
 
 #### Prerequisites
 
-- At least one connection has been created, see [Create a connection](../Integration/01_ManageConnection.md#create-psp-connection).
+- At least one connection has been created, see [Create PSP connection](../Integration/01_ManageConnection.md#create-psp-connection).
 - At least one customer has created a chargeback or a cancellation.
 - It is recommended that you add the *Status ID* field to your view so that you are able to sort or filter for specific statuses. 
 
@@ -57,14 +58,20 @@ A cancellation and chargeback transaction provides numerous payment-related deta
 3. Click a transaction to see the details.   
     The *Cancellation and chargeback "Cancel ID"* view is displayed. The *Attributes* tab is preselected by default.    
 
-    *Payments > Cancellations and chargebacks> Tab LIST > Select a cancellation and chargeback transaction*  
+   ![Attributes](../../Assets/Screenshots/Payments/CancellationsChargebacks/AttributesCancellationsChargebacks.png "[Attributes]")
 
-    ![Cancellations and chargebacks attributes and logs](../../Assets/Screenshots/Payments/CancellationsChargebacks/CheckCancellationsChargebacks.png "[Cancellations and chargebacks attributes and logs]")
+3. Check the list of attributes, for example, if the required fields are filled. For detailed information on fields, see [Cancel &ndash; Attributes](../UserInterface/05a_ListCancellationsChargebacks.md#cancel-–-attributes).
 
-4. Check the attributes and logs of the transaction. For detailed information, see the following:
-     - [LIST &ndash; Attributes](../UserInterface/05_ListCancellationsChargebacks.md#cancellations-and-chargebacks-–-attributes)
-     - [LIST &ndash; Logs](../UserInterface/04_ListRefunds.md#refunds-–-logs)
-5. Return to the list and decide how to proceed with the transaction.
+4. Click the *Logs* tab.   
+The *Logs* tab is displayed and shows the messages that have been created for this issue. 
+
+   ![Logs](../../Assets/Screenshots/Payments/CancellationsChargebacks/LogCancellationsChargebacks.png "[Logs]")
+
+5. Check the logs, for example, if there is a general communication issue.
+For detailed information on fields and functions, see [LIST (Logging)](../UserInterface/07a_ListLogging.md).
+
+6. Return to the list and decide how to proceed with the transaction.
+
 
 
 ## Void cancellation and chargeback transaction
@@ -74,7 +81,7 @@ You can void a cancellation and chargeback transaction, if you want to invalidat
 
 #### Prerequisites
 
-The status of a cancellation and chargeback transaction is not **Success**. In case of success, the cancellation and chargeback has already been further processed and is available under the *Confirmations* menu entry. <!---Stefan, ist das richtig oder ist es unter Refund? --> 
+The status of a cancellation and chargeback transaction is not **Success**. In case of success, the cancellation and chargeback has already been further processed and is available under the *Confirmation* menu entry. <!---Stefan, ist das richtig oder ist es unter Refund? --> 
 
 #### Procedure
 
