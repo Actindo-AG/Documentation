@@ -2,20 +2,21 @@
 
 # Monitor payments and captures
 
-A capture is a payment made. The most payment service providers create a new reference when a payment has been captured.
+A capture is a payment made. After delivering a product, the payment is captured from the payment service provider. The most payment service providers create a new reference when a payment has been captured.
 > [Info] This means that you cannot follow up a case with the ID of an authorization transaction. However, the most payment service providers support an original reference ID that you can use to search for a specific case in the whole payment process.  
 
 You can use this procedure to display all incoming references to a payment and capture transaction from a payment service provider. You can check for communication and other errors between Actindo and the payment service provider resulted in a workflow being stopped, for example.   
-If you cannot deliver the product and want to give the money back to the customer, you can manually change the status of a transaction to **Refund** to initiate a repayment. Additionally, you can set the status to **Void** to clear the database from faulty entries.      
+If you cannot deliver the product and want to give the money back to the customer, you can manually change the status of a transaction to **Refund** to initiate a repayment. Additionally, you can set the status to **Void** to clear the database from faulty entries. Note that you can only change the status of a payment and capture transaction, but not any data.    
 
 If everything works fine with the posting of a capture, you do not need to monitor the *Payments and captures* menu entry.   
-> [Info] You can only change the status of a payment and capture transaction, but not any data.
+
 
 
 
 ## Check payment and capture transaction
 
-A capture provides numerous payment-related details, which may vary depending on the payment service provider settings. To decide whether you can manually refund or void a payment and capture transaction, you need to check its details. It might be that there is a general issue that is caused by the payment service provider, by the shop, or by Actindo. In this case, contact the according business partner.
+A capture provides numerous payment-related details, which may vary depending on the payment service provider settings. To decide whether you can manually refund or void a payment and capture transaction, you need to check its details.   
+In case of errors or failures, there may be a general issue that is caused by the payment service provider, by the shop, or by Actindo. In this case, contact the according business partner, so that the issue can be solved.
 
 #### Prerequisites
 
@@ -36,20 +37,20 @@ A capture provides numerous payment-related details, which may vary depending on
     - **2 - Unconfirmed**   
         A refund is reserved but not yet released by an Actindo user. This status is relevant for some functions only, for example, the cancellations and chargebacks.
     - **3 - Success**  
-        Actindo has got the response from the service payment provider, that the transfer was successful.
+        Actindo as well as the payment service provider has processed the transaction successfully.
     - **4 - Failure**   
-        The payment service provider has received the request, but it cannot process it. If available for the connection, the *Status information* field provides further information.
+        The payment service provider has received the request, but reject it. If available for the connection, the *Status information* field provides further information.
     - **5 - Error**   
        Errors have been occurred during transfer.
     - **6 - Void**   
        The transaction has been voided, see [Void payment and capture transaction](#void-payment-and-capture-transaction).
     
 2. Click a transaction to see the details.   
-    The *Payment and capture "Capture ID"* view is displayed. The *Attributes* tab is preselected by default.   
+    The *"Capture ID"* view is displayed. The *Attributes* tab is preselected by default.   
 
     ![Attributes](../../Assets/Screenshots/Payments/PaymentsCaptures/AttributesPaymentsCaptures.png "[Attributes]")
 
-3. Check the list of attributes, for example, if the required fields are filled. For detailed information on fields, see [Capture &ndash; Attributes](../UserInterface/02a_ListPaymentsAndCaptures.md#capture-–-attributes).
+3. Check the list of attributes, for example, whether the required fields are filled. For detailed information on fields, see [Capture &ndash; Attributes](../UserInterface/02a_ListPaymentsAndCaptures.md#capture-–-attributes).
 
 4. Click the *Logs* tab.   
 The *Logs* tab is displayed and shows the messages that have been created for this issue. 
@@ -59,7 +60,7 @@ The *Logs* tab is displayed and shows the messages that have been created for th
 5. Check the logs, for example, if there is a general communication issue.
 For detailed information on fields and functions, see [LIST (Logging)](../UserInterface/07a_ListLogging.md).
 
-6. Return to the list and decide how to proceed with the transaction.
+6. Return to the list of payments and captures and decide how to proceed with the transaction.
 
 
 
@@ -95,7 +96,7 @@ You can void a payment and capture transaction, if you want to invalidate the tr
 
 #### Prerequisites
 
-The status of a payment and capture transaction is not **Success**. In this case, further processing has already been continued. 
+The status of a payment and capture transaction is **Failure** or **Error**. 
 
 #### Procedure
 *Payments > Payments and captures > Tab LIST*

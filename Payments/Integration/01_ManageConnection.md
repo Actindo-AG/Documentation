@@ -23,7 +23,7 @@ Create a connection to a certain payment provider. As soon you have created a co
 
 #### Prerequisites
 
-At least one driver has been installed.
+- The relevant drivers are installed both on the main account and &ndash; if needed &ndash; the sandboxes.
 
 #### Procedure    
 
@@ -50,13 +50,13 @@ At least one driver has been installed.
 4. Enter the required data in the fields in the *Credentials* section. Use the information you received from the payment service provider to fill the credentials.   
 
 5. Click the [SAVE] button.   
-    The connection will be created. The *Checking credentials...* notice is displayed. After a few seconds, the *Loading data...* notice is displayed.
+    The connection will be created. Depending on the driver, the *Checking credentials...* notice is displayed. After a few seconds, the *Loading data...* notice is displayed.
 
      ![Checking credentials](../../Assets/Screenshots/Payments/Settings/CheckingCredentials.png "[Checking credentials]")
 
     The view for creating connections is automatically closed when the connection has been created. The *Edit connection* view of the newly created connection is displayed. The *Settings* tab is selected.
       ![Credentials](../../Assets/Screenshots/Payments/Settings/EditConnectionSettings.png "[Credentials]")
-    <!---Stefan: stimmt das? Ich kann es nicht nachmachen-->
+    <!---Stefan: stimmt das? Ich kann es nicht nachmachen, wenn es Verbindungen sind, die nicht direkt aktiv sind, gibt es dann buttons mit denen man aktivieren, synchronisieren kann?-->
 
 
 
@@ -98,7 +98,7 @@ The editing toolbar is displayed above the list of connections.
 
 ## Disable PSP connection
 
-Once a connection has been created, you cannot delete it because of potential dependencies in the existing database. Nevertheless, you can disable the connection if you no longer use it. You can disable several active connections at a time.
+Once a connection has been and is in use, you cannot delete it because of potential dependencies in the existing database. Nevertheless, you can disable the connection if you no longer use it. You can disable several active connections at a time.
 
 #### Prerequisites
 

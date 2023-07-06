@@ -7,7 +7,7 @@ The *Confirmation* menu entry provides you with a view on all references to refu
 You can use this procedure to accept a refund so that the service payment provider gets the request to send back the money to the customer.    
 > [Info] The most payment service providers create a new reference when a payment is to be refunded. However, the most payment service providers support an original reference ID that you can use to search for a specific case in the whole payment process.   
 
-You can also reject a refund, if it is not justified, for example because the goods have already been delivered. In case of faulty transactions you can void them to clear the database.   
+You can also reject a refund, if it is not justified, for example because the goods have already been delivered. In case of faulty transactions you can void them to clear the database. Note that you can only change the status of a confirmation transaction, but not any data.
 
 Special permissions for this menu entry might have been applied in the *Settings* module. You might not be able to access this menu entry because you have no permissions to do it. Furthermore, you may have access, but you are not permitted to execute refunds above a certain amount (for example, more than €50). 
 
@@ -16,7 +16,7 @@ Special permissions for this menu entry might have been applied in the *Settings
 ## Check confirmation transaction  
 
 A confirmation transaction provides numerous payment-related details on a refund, which may vary depending on the payment service provider settings. To decide whether you can execute, reject or void a transaction, you can check its details.  
-> [Info] You can only change the status of a confirmation transaction, but not any data.
+
 
 #### Prerequisites 
 
@@ -37,14 +37,13 @@ A confirmation transaction provides numerous payment-related details on a refund
        The transaction is not yet executed rsp. the repayment is not yet confirmed by an Actindo user.   
     
 3. Click a transaction to see the details.   
-    The *Confirmation "Confirmation ID"* view is displayed. The *Attributes* tab is preselected by default.   
+    The *"Confirmation ID"* view is displayed. The *Attributes* tab is preselected by default.   
 
     ![Confirmation attributes](../../Assets/Screenshots/Payments/Confirmations/AttributesConfirmation.png "[Confirmaton attributes]")
 
-4. If required, check the details of the refund. For more information, see the following:
-     - [Confirmations &ndash; Attributes](../UserInterface/06a_ListConfirmations.md#confirmation-–-attributes)   
+4. If required, check the details of the refund. For more information, see [Confirmations &ndash; Attributes](../UserInterface/06a_ListConfirmations.md#confirmation-–-attributes).   
 
-5. Return to the list and decide, how to proceed the refund.
+5. Return to the list of confirmations and decide, how to proceed the refund.
 
 
 
@@ -111,6 +110,7 @@ You can void a confirmation transaction that is no longer valid for the payment 
 > [Info] The payment service provider will not be informed about changing the status to **Void**. It is only done to clear the database from faulty entries.  
 
 #### Prerequisites
+
 - The confirmation transaction is no longer valid.
 
 #### Procedure

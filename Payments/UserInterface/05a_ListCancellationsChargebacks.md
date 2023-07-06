@@ -83,9 +83,9 @@ The list displays all cancellation and chargeback transactions. Depending on the
     - **2 - Unconfirmed**   
         A refund is reserved but not yet released by an Actindo user. 
     - **3 - Success**  
-        Actindo has got the response from the service payment provider that the transfer was successful.
+        Actindo as well as the payment service provider has processed the transaction successfully.
     - **4 - Failure**   
-        The payment service provider has received the request, but it cannot process it. If available for the connection, the status information field may provide further information.
+        The payment service provider has received the request, but reject it. If available for the connection, the status information field may provide further information.
     - **5 - Error**   
        Errors have been occurred during transfer.
     - **6 - Void**   
@@ -248,7 +248,7 @@ Since a refund transaction has no dependencies to other entities in Actindo by d
 
 ![Logs](../../Assets/Screenshots/Payments/CancellationsChargebacks/LogCancellationsChargebacks.png "[Logs)]")
 
-This tab displays messages and intents that have been created during transferring the selected cancellation and chargeback transaction from the payment service provider.    
+This tab displays messages and intents that have been created during transferring the selected cancellation and chargeback transaction from the payment service provider. The logging contains all requests and responses from both, the payment service provider and the *Payments* module.       
 In contrast to the messages that are provided with the *Logging* menu entry, you see here the logging for the specific refund transaction only. See [LIST (Logging)](./07a_ListLogging.md) for detailed information on fields and functions.   
 
 

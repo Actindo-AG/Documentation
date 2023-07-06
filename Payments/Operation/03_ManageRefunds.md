@@ -2,26 +2,27 @@
 
 # Monitor refunds
 
-A refund is a request for a repayment of a capture. It is initialized by the merchant, for example, if a product is not available and cannot be delivered. It is also initialized if a payment and capture transaction has been manually refunded by an Actindo user. Each refund is to be confirmed with the *Confirmation* menu entry later.
+A refund is a request for a repayment of a capture. It is initiated by the receiver of a payment, for example, if a customer has has back the product. Each refund is to be confirmed with the *Confirmation* menu entry later.
 > [Info] You cannot follow up a case with the ID of an authorization or a payments and captures transaction. However, the most payment service providers support an original reference ID that you can use to search for a specific case in the whole payment process.
 
-You can use this procedure to display all incoming references to a refund from a payment service provider. You can check for communication and other errors between Actindo and the payment service provider resulted in a workflow being stopped, for example. In addition, if applicable, you can manually change the status of a transaction to **Void** to clear the database.    
+You can use this procedure to display all incoming references to a refund from a payment service provider. You can check for communication and other errors between Actindo and the payment service provider resulted in a workflow being stopped, for example. In addition, if applicable, you can manually change the status of a transaction to **Void** to clear the database. Note that you can only change the status of a refund transaction, but not any data.
    
-If everything works fine with the posting of a refund, you do not need to monitor the *Refunds* menu entry. You can follow up the successfully processed refunds with the *Confirmation* menu entry.
-> [Info] You can only change the status of a refund transaction, but not any data.
+If everything works fine with the posting of a refund, you do not need to monitor the *Refunds* menu entry. You can follow up the successfully processed refunds with the *Confirmation* menu entry. 
 
 
 
 ## Check refund transaction
 
-A refund transaction provides numerous payment-related details, which may vary depending on the payment service provider settings. To decide whether you can manually void a refund transaction, you need to check its details.   
+A refund transaction provides numerous payment-related details, which may vary depending on the payment service provider settings. To decide whether you can manually void a refund transaction, you need to check its details, so that the issue can be solved.   
+In case of errors or failures, there may be a general issue that is caused by the payment service provider, by the shop, or by Actindo. In this case, contact the according business partner, so that the issue can be solved.  
 
 
 #### Prerequisites
 
 - At least one connection has been created, see [Create PSP connection](../Integration/01_ManageConnection.md#create-psp-connection).
 - At least one refund has been created.
-- It is recommended that you add the *Status ID* field to your view so that you are able to sort or filter for specific statuses. 
+> [Info] It is recommended to add the following columns to your view to get the required information and to better filter and sort the entries: *Status ID* and *Status information* (if applicable).
+
 
 #### Procedure   
 
@@ -35,21 +36,21 @@ A refund transaction provides numerous payment-related details, which may vary d
     - **2 - Unconfirmed**   
         A refund is reserved but not yet released by an Actindo user. This status is relevant for some functions only, for example, the cancellations and chargebacks.
     - **3 - Success**  
-        Actindo has got the response from the service payment provider, that the transfer was successfully.   
-        You can now follow up this case under the menu entry *Confirmations*. <!-----Stefan ist das richtig?---> 
+        Actindo as well as the payment service provider has processed the transaction successfully. 
+        You can now follow up this case under the menu entry *Confirmations*. <!---Stefan ist das richtig?--> 
     - **4 - Failure**   
-        The payment service provider has received the request, but it cannot process it. If available for the connection, the status information field provides further information.
+        The payment service provider has received the request, but reject it. If available for the connection, the status information field provides further information.
     - **5 - Error**   
        Errors have been occurred during transfer.
     - **6 - Void**   
        The transaction has been voided, see [Void refund transaction](#void-refund-transaction)
     
 2. Click a transaction to see the details.   
-    The *Refund "Refund ID"* view is displayed. The *Attributes* tab is preselected by default.    
+    The *"Refund ID"* view is displayed. The *Attributes* tab is preselected by default.    
 
      ![Attributes](../../Assets/Screenshots/Payments/Refunds/AttributesRefund.png "[Attributes]")
 
-3. Check the list of attributes, for example, if the required fields are filled. For detailed information on fields, see [Refund &ndash; Attributes](../UserInterface/03a_ListRefunds.md#refund-–-attributes).
+3. Check the list of attributes, for example, whether the required fields are filled. For detailed information on fields, see [Refund &ndash; Attributes](../UserInterface/03a_ListRefunds.md#refund-–-attributes).
 
 4. Click the *Logs* tab.   
 The *Logs* tab is displayed and shows the messages that have been created for this issue. 
@@ -64,7 +65,7 @@ For detailed information on fields and functions, see [LIST (Logging)](../UserIn
      - [Refund &ndash; Attributes](../UserInterface/03a_ListRefunds.md#refund-–-attributes)
      - [Refund &ndash; Logs](../UserInterface/03a_ListRefunds.md#refund-–-logs)
      
-4. Return to the list and decide how to proceed with the transaction.
+4. Return to the list of refunds and decide how to proceed with the transaction.
 
 
 
@@ -75,7 +76,7 @@ You can void a refund transaction, if you want to invalidate the transaction for
 
 #### Prerequisites
 
-The status of a refund transaction is not **Success**. In case of success, the refund process has already been started. <!---ist das richtig-->
+The status of a refund transaction is **Failure** or **Error**. 
 
 #### Procedure
 
