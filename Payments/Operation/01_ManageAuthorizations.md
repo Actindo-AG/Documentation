@@ -111,7 +111,9 @@ After you have checked an authorization transaction that could not be processed 
     The editing toolbar is displayed.
 3. Click the [CANCEL] button.   
    A confirmation message is displayed. 
-   The payment service provider gets the information about the cancellation of the authorization transaction and the payment of the customer is freed.
+   The payment service provider gets the information about the cancellation of the authorization transaction and the payment of the customer is freed.  
+   You can now follow up this case under the *Cancellations and Chargebacks* menu entry.
+   
    
 
 
