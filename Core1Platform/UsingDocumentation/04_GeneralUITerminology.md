@@ -4,6 +4,8 @@
 
 The following list makes you familiar with the names and designations that are used to describe specific user interface elements in the documentation.
 
+
+
 ## Navigation menu and workspace
 
 ![Navigation menu and workspace](../../Assets/Screenshots/Core1Platform/UsingDocumentation/NavigationWorkspace.png "[Navigation menu and workspace]")
@@ -16,6 +18,8 @@ Each element of the menu is called menu entry in the documentation.
 **Workspace**
 
 The workspace is the whole space to the right of the navigation menu. In the workspace, the corresponding view of the selected menu entry with all tabs is displayed. 
+
+
 
 ## Workspace elements
 
@@ -36,6 +40,7 @@ A list describes a listing of items in a table-like environment. Each item is li
 For more information, see [Work with lists](../UsingCore1/06_WorkWithLists.md).
 
 
+
 ## Further workspace elements
 
 ![Further workspace elements](../../Assets/Screenshots/Core1Platform/UsingDocumentation/FurtherWorkspaceElementspng.png "[Further workspace elements]")
@@ -47,4 +52,4 @@ The view describes the part in the workspace below the tabs. A tab may contain d
 A section is a certain area within a view. A section is introduced by a section title.
 
 **Box**   
-A box is a certain area within a view. A box has a box title that is indicated in the upper left corner of the box. In contrast to a section, a box is highlighted by a light grey background and a border that limits the box. A box may contain different content, for example lists, buttons or fields.
+A box is a certain area within a view. A box has a box title that is indicated in the upper left corner of the box. In contrast to a section, a box is highlighted by a light gray background and a border that limits the box. A box may contain different content, for example lists, buttons or fields.

@@ -2,9 +2,12 @@
 
 The *Actindo Core1 Platform* documentation pursues the goal that you can quickly find your way around the information that we provide you on the modules or plugins. For this reason, the documentation follows a strong structure so that you can quickly find the information you require.   
 This topic provides you with a description of each section and the content you can expect there.
+
 > [Info] The *Get started* documentation you currently read does not follow these principles, because too much different subjects are described here.  
 
 The Actindo Core1 module/plugin documentation has the following structure, whereby each section starts with a TOC document giving an overview of its content:
+
+
 
 ## Overview
 
@@ -24,19 +27,25 @@ The overview chapter provides you with general information on the module/plugin.
 In addition to the topics named above, other topics may be included if required.
 
 
+
 ## Integration
 
 This section describes the preparatory procedures that are to be executed or set up to fully use the module/plugin. For example, this section contains information on how to set up a connection to drivers or channels, or information on specific attributes that are to be set up in advance. 
+
+
 
 ## Operation
 
 This section describes all executing procedures when using the module/plugin. For example, this section contains procedure descriptions of managing specific module objects such as offers, products, or templates.
 
 
+
 ## Troubleshooting
 
 This section describes issues and errors that can occur during running the module/plugin. It provides you with workable solutions.   
 This section might not be included in all module/plugin documentation, because often no general issues or errors are known that are valid for all Actindo customers.
+
+
 
 ## User Interface  
 

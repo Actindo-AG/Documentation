@@ -1,14 +1,14 @@
 # Manage dashboards
 
-A dashboard gives an overview over a module and its content.
-While other modules have a predefined dashboard, you can configure multiple customized dashboards for the *Actindo Core1 Platform* that are adopted for different purposes.
-The number of dashboards is unlimited.
-A set of dashlets to be used is predefined for specific modules.
+An Actindo dashboard gives an overview of important key figures, statistics and system health information.   
+Depending on the user role, different information might be relevant. While other modules have a predefined dashboard, you can configure multiple customized dashboards for the *Actindo Core1 Platform* that are adopted for different purposes.   
+
+The number of dashboards is unlimited. A set of dashlets to be used is predefined for specific modules. A dashlet is an individual component that can be added or removed from a dashboard.
 
 
 ## Create a dashboard
 
-Create a dashboard to be able to add the desired dashlets.
+Create a dashboard to define a specific view on the key figures, statistics and system information that is relevant for a specific user role.
 
 #### Prerequisites
 
@@ -16,21 +16,19 @@ No prerequisites to fulfill.
 
 #### Procedure
 
-*DataHub > Overview > Tab DASHBOARDS*
+*Actindo Core1 Platform*
 
-![Dashboards](../../Assets/Screenshots/DataHub/Overview/Dashboards.png "[Dashboards]")
+![Actindo Dashboard](../../Assets/Screenshots/Core1Platform/UsingCore1/DashboardActindo.png "[Actindo Dashboard]")
 
 1. Click the ![Add](../../Assets/Icons/Plus06.png "[Add]") (Add) button in the header.   
     The *Add a new tab* window is displayed. By default, the *Create new tab* tab is preselected.
 
-    ![Add a new tab](../../Assets/Screenshots/DataHub/Overview/AddNewTab.png "[Add a new tab]")
+    ![Add a new tab](../../Assets/Screenshots/Core1Platform/UsingCore1/DashboardAddNewTab.png "[Add a new tab]")
 
 2. Enter a name for the dashboard tab in the *Tab name* field.
 
 3. Click the [SAVE] button in the bottom right corner.   
     The *Add a new tab* window is closed. The new dashboard has been saved and is displayed.
-
-    > [Info] You can create an unlimited number of dashboard tabs and customize them to the desired purpose.
 
 
 
@@ -38,10 +36,10 @@ No prerequisites to fulfill.
 
 Customize a dashboard to your special needs by adding the desired dashlets, deleting unnecessary dashlets, select the viewport and define the dashlets arrangement.
 
+
 ### Add a dashlet
 
-Add the desired dashlets to your dashboard to get an overview over the processes and entities within the *DataHub* module.   
-Depending on the purpose of the dashboard, you can add different sets of dashlets to different dashboards.
+Add the desired dashlets to your dashboard.
 
 #### Prerequisites
 
@@ -49,9 +47,9 @@ A dashboard tab has been created, see [Create a dashboard](#create-a-dashboard).
 
 #### Procedure
 
-*DataHub > Overview > Tab DASHBOARDS*
+*Actindo Dashboard*
 
-![NewTab](../../Assets/Screenshots/DataHub/Overview/NewTab.png "[NewTab]")
+![NewTab](../../Assets/Screenshots/Core1Platform/UsingCore1/DashboardNewTab.png "[NewTab]")
 
 1. Select the tab of the dashboard to which you want to add a dashlet.    
     The selected dashboard tab is displayed.
@@ -59,16 +57,14 @@ A dashboard tab has been created, see [Create a dashboard](#create-a-dashboard).
 2. Click the ![Settings](../../Assets/Icons/Settings01.png "[Tool]") (Settings) button in the upper right corner.    
     The *Edit tab* view is displayed.
 
-    ![Tab](../../Assets/Screenshots/DataHub/Overview/Tab.png "[Tab]")
+    ![Tab](../../Assets/Screenshots/Core1Platform/UsingCore1/DashboardTab.png "[Tab]")
 
 3. Click the [ADD ELEMENT] button in the upper right corner.    
     The *Dashlet picker* window is displayed.
 
-    ![Dashlet picker](../../Assets/Screenshots/DataHub/Overview/DashletPicker.png "[Dashlet picker]")
+    ![Dashlet picker](../../Assets/Screenshots/Core1Platform/UsingCore1/DashboardDashletPicker.png "[Dashlet picker]")
 
 4. Select the checkboxes of the dashlets you want to add to your dashboard. If you click the checkbox in the header, all dashlets in the list are selected.
-
-    > [Info] For detailed information about the available dashlets, see [Dashlet picker](../UserInterface/01a_Dashboards.md#dashlet-picker).
 
 5. Click the [ACCEPT] button in the bottom right corner of the window.   
     The selected dashlets have been added to the dashboard. The *Dashlet picker* window is closed.
@@ -81,7 +77,7 @@ A dashboard tab has been created, see [Create a dashboard](#create-a-dashboard).
 
 ### Change the viewport
 
-Change the viewport to adjust the view of the dashboard to the currently used device.
+Change the viewport to optimize the view of the dashboard for a specific device, for example, mobile, desktop or tablet.
 The viewport is saved for a single dashboard, so you can create dashboards with different viewports.
 
 #### Prerequisites
@@ -89,7 +85,7 @@ The viewport is saved for a single dashboard, so you can create dashboards with 
 A dashboard tab has been created, see [Create a dashboard](#create-a-dashboard).
 
 #### Procedure
-*DataHub > Overview > Tab DASHBOARDS*
+*Actindo Core1 Platform*
 
 ![NewTab](../../Assets/Screenshots/DataHub/Overview/NewTab.png "[NewTab]")
 
@@ -99,7 +95,7 @@ A dashboard tab has been created, see [Create a dashboard](#create-a-dashboard).
 2. Click the ![Settings](../../Assets/Icons/Settings01.png "[Tool]") (Settings) button in the upper right corner.    
     The *Edit tab* view is displayed.
 
-    ![Edit tab](../../Assets/Screenshots/DataHub/Overview/EditTab.png "[EditTab]")
+    ![Edit tab](../../Assets/Screenshots/Core1Platform/UsingCore1/DashboardEditTab.png "[EditTab]")
 
 3. Click the *Select viewport* drop-down list in the upper left corner and select the desired view format. The following views are available:
     - **Automatic**   
@@ -132,7 +128,7 @@ Change the arrangement of the dashlets on a dashboard to optimize the view for y
 
 #### Procedure
 
-*DataHub > Overview > Tab DASHBOARDS*
+*Actindo Core1 Platform*
 
 ![Tab with dashlets](../../Assets/Screenshots/DataHub/Overview/TabDashlets.png "[[Tab with dashlets]")
 
@@ -142,7 +138,7 @@ Change the arrangement of the dashlets on a dashboard to optimize the view for y
 2. Click the ![Settings](../../Assets/Icons/Settings01.png "[Tool]") (Settings) button in the upper right corner.   
     The *Edit tab* view is displayed.
 
-    ![Edit tab](../../Assets/Screenshots/DataHub/Overview/EditTab.png "[Edit tab]")
+    ![Edit tab](../../Assets/Screenshots/Core1Platform/UsingCore1/DashboardEditTab.png "[Edit tab]")
 
 3. Hover over a dashlet until the cursor icon changes to the cross arrows cursor.
 
