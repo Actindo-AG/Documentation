@@ -2,13 +2,12 @@
 
 # Monitor authorizations
 
-An authorization transaction is the permission that your company is allowed to capture money from the customer via a payment service provider. The processing of the authorization transactions works as follows: 
+An authorization transaction is the permission that your company is allowed to capture money from the customer via a payment service provider. For Actindo, the authorization transaction serves as a reference to a payment to be made by a customer. The processing of the authorization transactions works as follows: 
 -   The payment service provider creates an authorization transaction when a customer presses the button to pay an order during the order process.   
 - The payment provider sends then the authorization transaction to the *Actindo Core1 Platform*.    
 - In addition, the shop system creates an ID for this transaction.  
 - Actindo links both.   
 
-For Actindo, the authorization transaction serves as a reference to a payment to be made by a customer.   
 You can use this procedure to display all incoming authorization transactions of a payment service provider. You can check for communication errors between Actindo and the payment service provider that resulted in a workflow being stopped, for example. In addition, if applicable, you can change the status of a transaction to start continuing further processing or to end it. Note that you can only change the status of an authorization transaction, but not any data.  
 
 If everything works fine with the posting of a payment, you do not need to monitor the *Authorizations* menu entry. In case of errors you can capture, cancel, or void an authorization transaction manually.   
@@ -44,7 +43,7 @@ In case of errors or failures, there may be a general issue that is caused by th
         Actindo as well as the payment service provider has processed the transaction successfully.
         You can now follow up this case under the menu entry *Payments and captures*. <!---Stefan ist das richtig?-->
     - **4 - Failure**   
-        The payment service provider has received the request but reject it. If available for the connection, the "Status information" column provides further information.
+        The payment service provider has received the request, but rejected it. If available for the connection, the "Status information" column provides further information.
     - **5 - Error**   
        Errors have been occurred during transfer.
     - **6 - Void**   
@@ -112,7 +111,7 @@ After you have checked an authorization transaction that could not be processed 
     The editing toolbar is displayed.
 3. Click the [CANCEL] button.   
    A confirmation message is displayed. 
-   The payment service provider gets the information about the cancellation of the authorization transaction. The payment of the customer, blocked before by the payment service provider, is freed.
+   The payment service provider gets the information about the cancellation of the authorization transaction and the payment of the customer is freed.
    
 
 

@@ -86,14 +86,14 @@ The list displays all authorization transactions. Depending on the payment servi
 
 - *Status ID*   
    Identifier for the status. The following statuses are available, each prefixed by the ID in the list below. You can use the *Status ID* to filter and sort the list. 
--   - **1 - Preparing**  
+    - **1 - Preparing**  
         The transaction has been created, but is not yet transferred.
     - **2 - Unconfirmed**   
         A refund is reserved but not yet released by an Actindo user. 
     - **3 - Success**  
         Actindo as well as the payment service provider has processed the transaction successfully.
     - **4 - Failure**   
-        The payment service provider has received the request, but reject it. If available for the connection, the status information field may provide further information.
+        The payment service provider has received the request, but rejected it. If available for the connection, the status information field may provide further information.
     - **5 - Error**   
        Errors have been occurred during transfer.
     - **6 - Void**   
@@ -130,10 +130,10 @@ The list displays all authorization transactions. Depending on the payment servi
    Invoice amount of the payment in the currency in which the payment will be posted.   
 
 - *Reference currency*   
-  Currency of the original payment. 
+  Currency of the original payment. Makes it possible that the *Accounting* module can post the payment to the correct currency account so that a refund later do not lead to currency exchange differences.
 
 - *Reference amount*   
-   Currency of the original payment. Makes it possible that the *Accounting* module can post the payment to the correct currency account so that a refund later do not lead to currency exchange differences.
+   Amount of the original payment.  
 
 - *Name*   
    First name of the person who has made the payment.   

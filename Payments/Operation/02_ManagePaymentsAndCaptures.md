@@ -2,7 +2,7 @@
 
 # Monitor payments and captures
 
-A capture is a payment made. After delivering a product, the payment is captured from the payment service provider. The most payment service providers create a new reference when a payment has been captured.
+A capture is a payment made. After delivering a product, Actindo captured the payment from the payment service provider. The most payment service providers create a new reference when a payment has been captured.
 > [Info] This means that you cannot follow up a case with the ID of an authorization transaction. However, the most payment service providers support an original reference ID that you can use to search for a specific case in the whole payment process.  
 
 You can use this procedure to display all incoming references to a payment and capture transaction from a payment service provider. You can check for communication and other errors between Actindo and the payment service provider resulted in a workflow being stopped, for example.   
@@ -39,7 +39,7 @@ In case of errors or failures, there may be a general issue that is caused by th
     - **3 - Success**  
         Actindo as well as the payment service provider has processed the transaction successfully.
     - **4 - Failure**   
-        The payment service provider has received the request, but reject it. If available for the connection, the *Status information* field provides further information.
+        The payment service provider has received the request, but rejected it. If available for the connection, the *Status information* field provides further information.
     - **5 - Error**   
        Errors have been occurred during transfer.
     - **6 - Void**   
@@ -80,7 +80,7 @@ The status of a payment and capture transaction is not **Success**. In case of s
 
 1. Check the payment and capture transaction you want to refund, see [Check payment and capture transaction](#check-payment-and-capture-transaction).
 
-2. Select the payment and capture transaction you want to refund by clicking the checkbox on the left.   
+2. Select the payment and capture transaction you want to refund by clicking the checkbox on the left. If desired, you can select several transactions at once.     
     The editing toolbar is displayed.
 
 3. Click the [REFUND] button. <!---was passsiert dann-->   

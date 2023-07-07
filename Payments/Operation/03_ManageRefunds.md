@@ -2,7 +2,7 @@
 
 # Monitor refunds
 
-A refund is a request for a repayment of a capture. It is initiated by the receiver of a payment, for example, if a customer has has back the product. Each refund is to be confirmed with the *Confirmation* menu entry later.
+A refund is a request for a repayment of a capture. It is initiated by the receiver of a payment, for example, when a customer has returned the product. Each refund is to be confirmed with the *Confirmation* menu entry later.
 > [Info] You cannot follow up a case with the ID of an authorization or a payments and captures transaction. However, the most payment service providers support an original reference ID that you can use to search for a specific case in the whole payment process.
 
 You can use this procedure to display all incoming references to a refund from a payment service provider. You can check for communication and other errors between Actindo and the payment service provider resulted in a workflow being stopped, for example. In addition, if applicable, you can manually change the status of a transaction to **Void** to clear the database. Note that you can only change the status of a refund transaction, but not any data.
@@ -39,7 +39,7 @@ In case of errors or failures, there may be a general issue that is caused by th
         Actindo as well as the payment service provider has processed the transaction successfully. 
         You can now follow up this case under the menu entry *Confirmations*. <!---Stefan ist das richtig?--> 
     - **4 - Failure**   
-        The payment service provider has received the request, but reject it. If available for the connection, the status information field provides further information.
+        The payment service provider has received the request, but rejected it. If available for the connection, the status information field provides further information.
     - **5 - Error**   
        Errors have been occurred during transfer.
     - **6 - Void**   
@@ -60,12 +60,8 @@ The *Logs* tab is displayed and shows the messages that have been created for th
 5. Check the logs, for example, if there is a general communication issue.
 For detailed information on fields and functions, see [LIST (Logging)](../UserInterface/07a_ListLogging.md).
 
-
-3. Check the attributes and logs of the transaction. For detailed information, see the following:
-     - [Refund &ndash; Attributes](../UserInterface/03a_ListRefunds.md#refund-–-attributes)
-     - [Refund &ndash; Logs](../UserInterface/03a_ListRefunds.md#refund-–-logs)
      
-4. Return to the list of refunds and decide how to proceed with the transaction.
+6. Return to the list of refunds and decide how to proceed with the transaction.
 
 
 

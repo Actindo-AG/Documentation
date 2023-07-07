@@ -6,7 +6,7 @@ In the context of a payment transaction, a chargeback is a retroactive reclaim o
 
 > [Info] The most payment service providers create a new reference when a payment has been cancelled or charged back by the customer. However, the most payment service providers support an original reference ID that you can use to search for a specific case in the whole payment process.  
 
-You can use this procedure to display all incoming references to cancellations and chargebacks from a payment service provider. You can check for communication and other errors between Actindo and the payment service provider resulted in a workflow being stopped, for example. In addition, if applicable, you can manually change the status of a transaction to **Void** to clear the database. Note that you can only change the status of a chargeback transaction, but not any data.   
+You can use this procedure to display all incoming references to cancellations and chargebacks from a payment service provider. You can check for communication and other errors between Actindo and the payment service provider resulted in a workflow being stopped, for example. In addition, if applicable, you can manually change the status of a transaction to **Void** to clear the database. Note that you can only change the status of a cancellation and chargeback transaction, but not any data.   
    
 If everything works fine with the posting of a cancellation and chargeback, you do not need to monitor the *Cancellations and chargebacks* menu entry.  
 
@@ -51,7 +51,7 @@ In case of errors or failures, there may be a general issue that is caused by th
         Actindo as well as the payment service provider has processed the transaction successfully.  
         The order process is stopped. <!---Stefan ist das richtig?-->
     - **4 - Failure**   
-        The payment service provider has received the request, but reject it. If available for the connection, the status information field provides further information.
+        The payment service provider has received the request, but rejected it. If available for the connection, the status information field provides further information.
     - **5 - Error**   
        Errors have been occurred during transfer.
     - **6 - Void**   
@@ -89,7 +89,7 @@ The status of a cancellation and chargeback transaction is **Failure** or **Erro
 
 *Payments > Cancellations and chargebacks > Tab LIST*   
 
-!![Cancellations and chargebacks](../../Assets/Screenshots/Payments/CancellationsChargebacks/LISTCancellationsChargebacks.png "[Cancellations and chargebacks]")
+![Cancellations and chargebacks](../../Assets/Screenshots/Payments/CancellationsChargebacks/LISTCancellationsChargebacks.png "[Cancellations and chargebacks]")
 
  1. Identify the issue that led to the error/failure. To do this, check the cancellation and chargeback transaction to be voided, see [Check cancellation and chargeback transaction](#check-cancellation-and-chargeback-transaction).
 2. Select the cancellation and chargeback transaction to be voided by clicking the checkbox on the left.   

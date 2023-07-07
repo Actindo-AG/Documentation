@@ -85,7 +85,7 @@ The list displays all cancellation and chargeback transactions. Depending on the
     - **3 - Success**  
         Actindo as well as the payment service provider has processed the transaction successfully.
     - **4 - Failure**   
-        The payment service provider has received the request, but reject it. If available for the connection, the status information field may provide further information.
+        The payment service provider has received the request, but rejected it. If available for the connection, the status information field may provide further information.
     - **5 - Error**   
        Errors have been occurred during transfer.
     - **6 - Void**   
@@ -122,10 +122,10 @@ The list displays all cancellation and chargeback transactions. Depending on the
    Invoice amount of the payment in the currency in which the payment will be posted.   
 
 - *Reference currency*   
-  Currency of the original payment. 
+  Currency of the original payment. Makes it possible that the accounting can post the payment to the correct currency account so that a refund later do not lead to currency differences.
 
 - *Reference amount*   
-   Currency of the original payment. Makes it possible that the accounting can post the payment to the correct currency account so that a refund later do not lead to currency differences.
+   Amount of the original payment. 
 
 - *Name*   
    First name of the person who has made the payment.   

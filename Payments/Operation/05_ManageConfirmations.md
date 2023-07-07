@@ -5,9 +5,7 @@
 The *Confirmation* menu entry provides you with a view on all references to refunds that have been created. Before your company sends back the money to the customer, you have to check the refunds with this menu entry. This service is supported by the most payment service providers. As a person with appropriate permissions, you have here the possibility to check the refunds manually before money is returned.  
 
 You can use this procedure to accept a refund so that the service payment provider gets the request to send back the money to the customer.    
-> [Info] The most payment service providers create a new reference when a payment is to be refunded. However, the most payment service providers support an original reference ID that you can use to search for a specific case in the whole payment process.   
-
-You can also reject a refund, if it is not justified, for example because the goods have already been delivered. In case of faulty transactions you can void them to clear the database. Note that you can only change the status of a confirmation transaction, but not any data.
+You can also reject a refund, if it is not justified, for example, because the customer has returned a product with visible traces of use. In case of faulty transactions you can void them to clear the database. Note that you can only change the status of a confirmation transaction, but not any data.
 
 Special permissions for this menu entry might have been applied in the *Settings* module. You might not be able to access this menu entry because you have no permissions to do it. Furthermore, you may have access, but you are not permitted to execute refunds above a certain amount (for example, more than €50). 
 
@@ -43,7 +41,7 @@ A confirmation transaction provides numerous payment-related details on a refund
 
 4. If required, check the details of the refund. For more information, see [Confirmations &ndash; Attributes](../UserInterface/06a_ListConfirmations.md#confirmation-–-attributes).   
 
-5. Return to the list of confirmations and decide, how to proceed the refund.
+5. Return to the list of confirmations and decide how to proceed the refund.
 
 
 
@@ -67,7 +65,7 @@ After you have checked a confirmation transaction and the reclaim is justified, 
 
 2. Check the confirmation transaction you want to execute, see [Check confirmation transaction](#check-confirmation-transaction).
 
-3. Select the confirmation transaction you want to execute by clicking the checkbox on the left.   
+3. Select the confirmation transaction you want to execute by clicking the checkbox on the left. If desired, you can select several transactions at once.    
 The editing toolbar is displayed.
 
 4. Click the [EXECUTE] button.
@@ -95,7 +93,7 @@ After you have checked a confirmation transaction and the reclaim is not justifi
 
 2. Check the confirmation transaction you want to reject, see [Check confirmation transaction](#check-confirmation-transaction).
 
-3. Select the confirmation transaction you want to reject by clicking the checkbox on the left.   
+3. Select the confirmation transaction you want to reject by clicking the checkbox on the left. If desired, you can select several transactions at once.    
     The editing toolbar is displayed.
 
 4. Click the [REJECT] button. 

@@ -148,7 +148,6 @@ The list displays all confirmation transactions. Depending on the payment servic
 - *Status Information*   
    If applicable, specific information on the status of the transaction.  
 
-
 - *Internal Reference*    
     Actindo-specific reference back to the billing document.
 
