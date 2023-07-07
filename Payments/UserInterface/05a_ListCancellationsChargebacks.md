@@ -198,10 +198,10 @@ The list displays all cancellation and chargeback transactions. Depending on the
 
 ![Cancel ID](../../Assets/Screenshots/Payments/CancellationsChargebacks/AttributesCancellationsChargebacks.png "[Cancel ID]")
 
-**Cancellations and chargebacks "Cancel ID"**
+**Cancellation and chargeback "Cancel ID"**
 
 - ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)   
-    Click this button to close the *Cancel "Cancel ID"* view and return to the list of cancellation and chargeback transactions. 
+    Click this button to close the *"Cancel ID"* view and return to the list of cancellation and chargeback transactions. 
 
 
 
