@@ -28,7 +28,7 @@ You can access the *Actindo Core1 Platform* as usual with a username and a passw
 2. Enter your password in the *Password* field and click the [LOGIN] button.  
   You are logged in. The *Actindo Dashboard* is displayed.
 
-    ![Actindo dashboard](../../Assets/Screenshots/Core1Platform/UsingCore1/Core1Platform.png "[Actindo dashboard]")
+    ![Actindo dashboard](../../Assets/Screenshots/Core1Platform/UsingDocumentation/DocumentationHelpLink.png "[Actindo dashboard]")
 
 
 

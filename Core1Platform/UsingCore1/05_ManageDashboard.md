@@ -87,7 +87,7 @@ A dashboard tab has been created, see [Create a dashboard](#create-a-dashboard).
 #### Procedure
 *Actindo Core1 Platform*
 
-![NewTab](../../Assets/Screenshots/DataHub/Overview/NewTab.png "[NewTab]")
+![NewTab](../../Assets/Screenshots/Core1Platform/UsingCore1/DashboardNewTab.png "[NewTab]")
 
 1. Select the tab of the dashboard to which you want to change the viewport.   
     The selected dashboard tab is displayed.
@@ -130,7 +130,7 @@ Change the arrangement of the dashlets on a dashboard to optimize the view for y
 
 *Actindo Core1 Platform*
 
-![Tab with dashlets](../../Assets/Screenshots/DataHub/Overview/TabDashlets.png "[[Tab with dashlets]")
+![Tab with dashlets](../../Assets/Screenshots/Core1Platform/UsingCore1/DashboardTabDashlets.png "[[Tab with dashlets]")
 
 1. Select the tab of the dashboard to which you want to change the positioning of dashlets.   
     The selected dashboard tab is displayed.
