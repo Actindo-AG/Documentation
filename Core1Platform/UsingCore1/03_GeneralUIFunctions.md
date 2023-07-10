@@ -32,7 +32,7 @@ You can change the sequence of the navigation menu entries. For example, this al
 #### Procedure
 *Actindo Core1 Platform*
 
-![Actindo Core1 Platform](../../Assets/Screenshots/Core1Platform/UsingCore1/Core1Platform.png "[Actindo Core1 Platform]")
+![Actindo Core1 Platform](../../Assets/Screenshots/Core1Platform/Core1.png "[Actindo Core1 Platform]")
 
 1. Click the ![Settings](../../Assets/Icons/Settings03.png "[Settings]") (Settings) button in the *APPS* row (below the *Actindo dashboard* entry).   
 The ![Sort](../../Assets/Icons/Sort04.png "[Sort]") (Sort) button is displayed after each module/plugin name.  
@@ -60,7 +60,8 @@ This information is mainly relevant for system administrators and especially hel
 #### Procedure
 
 *Actindo Core1 Platform* 
-![Actindo Core1 Platform](../../Assets/Screenshots/Core1Platform/UsingCore1/Core1Platform.png "[Actindo Core1 Platform]")
+
+![Actindo Core1 Platform](../../Assets/Screenshots/Core1Platform/Core1.png "[Actindo Core1 Platform]")
 
 1. Click the ![Processes running](../../Assets/Icons/ProcessRun.png "[Processes running]") (Processes running) button to have a look on the running processes.   
 A drop down window is opened in which currently running resp. currently waiting processes are listed. This list is permanently refreshed.  
@@ -69,7 +70,7 @@ A drop down window is opened in which currently running resp. currently waiting 
 
 2. Click the [VERWALTEN] (Manage) button to get a more static view on the processes.
 
-**To be continued**
+**To be continued - es passiert nichts wenn ich da drauf drücke**
 
 ## Check notifications
 
@@ -84,7 +85,7 @@ This information is mainly relevant for system administrators and especially hel
 #### Procedure
 
 *Actindo Core1 Platform* 
-![Actindo Core1 Platform](../../Assets/Screenshots/Core1Platform/UsingCore1/Core1Platform.png "[Actindo Core1 Platform]")   
+![Actindo Core1 Platform](../../Assets/Screenshots/Core1Platform/Core1.png "[Actindo Core1 Platform]")   
 
 1. Click the ![Notifications](../../Assets/Icons/Notifications.png "[Notifications]") (Notifications) button.   
 A drop-down list is opened in which you can display currently created notifications. If no actual notifications are available, the text "no new notifications" is displayed.   
@@ -110,6 +111,7 @@ A window is opened in which recently created notifications are listed.
 3. If desired, sort the list to view older entries. To do this, click the *Zeitpunkt (Point of time)* button to sort the list ascending.
 
 
+
 ## Check your profile and log out
 
 The ![Avatar](../../Assets/Icons/Avatar.png "[Avatar]") (Avatar) button top right gives you access to the following:
@@ -118,10 +120,10 @@ The ![Avatar](../../Assets/Icons/Avatar.png "[Avatar]") (Avatar) button top righ
 - **Logout**    
 Click on the [Logout] button to leave the *Actindo Core1 Platform*.
 - **Change language**   
-For detailed information, see below under [Change language ](./05_GeneralUIFunctions.md#change-language).
+For detailed information, see below under [Change language ](./03_GeneralUIFunctions.md#change-language).
 
 
-## Change language
+### Change language
 
 The *Actindo Core1 Platform* is currently available in English and German. You can change the language during your current session without the need of a new login.
 
@@ -130,7 +132,9 @@ The *Actindo Core1 Platform* is currently available in English and German. You c
 
 #### Procedure
 
-![Actindo Core1 Platform](../../Assets/Screenshots/Core1Platform/UsingCore1/Core1Platform.png "[Actindo Core1 Platform]")
+*Actindo Core1 Platform*
+
+![Actindo Core1 Platform](../../Assets/Screenshots/Core1Platform/Core1.png "[Actindo Core1 Platform]")
 
 1. Click the ![Avatar](../../Assets/Icons/Avatar.png "[Avatar]") (Avatar) button top right.   
 A dropdown list is opened.  
@@ -146,6 +150,6 @@ The *Change language* pop-up window is opened.
      ![Language selection](../../Assets/Screenshots/Core1Platform/UsingCore1/ChangeLanguage.png "[Language selection]")
 
 3. Click the [CHANGE LANGUAGE] button to switch to another language.  
-The application is being initialized. Afterwards, it is available in the selected language.
+The application is being reloaded. Afterwards, it is available in the selected language.
 
     ![Language selection](../../Assets/Screenshots/Core1Platform/UsingCore1/ChangeLanguageInitialize.png "[Language selection]")
