@@ -12,7 +12,7 @@ Access to the engine room is available in any workspace you have opened in the *
 #### Procedure
 *Actindo Core1 Platform > Any workspace*
 
-![Core1 Platform](../../Assets/Screenshots/Core1Platform/UsingCore1/Core1.png "[Core1 Platform]")
+![Core1 Platform](../../Assets/Screenshots/Core1Platform/Core1.png "[Core1 Platform]")
 
 
 1. Click the ![Engine room](../../Assets/Icons/EngineRoom.png "[Engine roome]") (Engine room) button center top.  

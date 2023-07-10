@@ -14,6 +14,10 @@ The user profile contains information to your username, your e-mail address, and
 
 #### Procedure
 
+*Actindo Core1 Platform*
+
+![Core1 Platform](../../Assets/Screenshots/Core1Platform/Core1.png "[Core1 Platform]")
+
  1. Click your avatar icon in the upper right corner.   
     The profile menu is displayed.
 
@@ -38,6 +42,10 @@ Note, that your global user settings, edited by an administrator, may specify th
 - You have a user in the currently opened sandbox or main account.
 
 #### Procedure
+
+*Actindo Core1 Platform*
+
+![Core1 Platform](../../Assets/Screenshots/Core1Platform/Core1.png "[Core1 Platform]")
 
 1. Click your avatar icon in the upper right corner.   
     The profile menu is displayed.
