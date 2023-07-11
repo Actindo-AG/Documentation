@@ -169,7 +169,7 @@ The current data storage utilization is displayed in a callout shape.
 
 ## Check request statistics
 
- The request statistics dashlet shows what's going on the current instance. It shows the number of internal requests (jobs) and requests executed from a browser as well as the number of errors occurred during the request processing. It displays the numbers on a time axis from 0-7 o'clock.   
+ The request statistics dashlet displays what's going on the current instance. It shows the number of internal requests (jobs) and requests executed from a browser as well as the number of errors occurred during the request processing. It displays the numbers on a time axis from 0-7 o'clock.   
  
 
 #### Prerequisites
@@ -205,7 +205,7 @@ The number of errors is displayed per hour.
 
 
 ## View current instance jobs
-The job dashlet shows the asynchronous jobs that are currently running.
+In the job dashlet, the asynchronous jobs are displayed that are currently running.
 
 #### Prerequisites
 
