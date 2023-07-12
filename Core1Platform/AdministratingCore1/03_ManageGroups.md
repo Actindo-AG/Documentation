@@ -5,7 +5,7 @@ If you add a user to a group, the user is automatically listed for this account.
 
 
 
-# Manage the user rights
+# Manage user rights
 
 User rights are defined by assigning the user to a (user) group. Groups define specific roles that user have while working on the *Actindo Core1 Platform*.   
 For example, a bookkeeper needs access to specific functions of the *Accounting* module in addition to general rights for accessing the *Actindo Core1 Platform*. Additionally, rights to access other modules might be required. For this reason, you can create a specific group for the bookkeeper's role in which you can collect all rights the bookkeepers need. 
@@ -23,7 +23,7 @@ With regard to the licenses, keep in mind, that each Admin has automatically acc
 **Actindo users**   
 Users of the *Actindo AG* do not consume licenses, they are not counted.
 
-## Create a user group
+## Create user group
 
 Create a user group based on a user role in order to subsequently assign them a specific set of user rights.
 
@@ -54,11 +54,11 @@ Create a user group based on a user role in order to subsequently assign them a 
     ![Group created](../../Assets/Screenshots/Core1Platform/AdministratingCore1/GroupCreated.png "[Group created]")
  
 
-## Edit a user group
+## Edit user group
 
 Edit a user group to add users to it, remove users from it and assign rights to the users included in it. 
 
-### Add a user to a user group
+### Add user to a user group
 
 Add any number of users to a user group in order to assign them rights subsequently.
 
@@ -110,7 +110,7 @@ Add any number of users to a user group in order to assign them rights subsequen
     ![Group saved](../../Assets/Screenshots/Core1Platform/AdministratingCore1/GroupSaved.png "[Group saved]")
 
 
-### Remove a user from a group
+### Remove user from a group
 
 A user is active in an account as long as the user is assigned a user group.    
 If you want to remove a user from the main account or a sandbox, you have to remove the user from all groups to which he or she is assigned. Alternatively, you can limit the validity period. <!--- Geht das überhaupt? Ich finde keine Funktion, mit der ich das machen könnte-->
@@ -127,7 +127,7 @@ If you want to remove a user from the main account or a sandbox, you have to rem
 
 
 
-## Remove a user group
+## Remove user group
 
 If a user group is no longer needed, you can remove it.
 > [INFO] Groups are removed regardless of whether users were still assigned.

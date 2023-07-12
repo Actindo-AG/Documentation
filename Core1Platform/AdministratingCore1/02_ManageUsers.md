@@ -10,6 +10,7 @@ Users are created in the main account only.
 #### Prerequisites
 
 - You are logged in to a main account
+- You have admin rights
 
 
 #### Procedure
@@ -18,13 +19,55 @@ Users are created in the main account only.
 
 ![User management](../../Assets/Screenshots/Settings/UsersGroups/UserManagement/UserManagement.png "[User management]")
 
-1. Click the ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) button in the bottom right corner.    
+1. Click the ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) button in the bottom right corner.
+The screen is grayed out. A small menu is opened down right.
+
+   ![User management menu](../../Assets/Screenshots/Core1Platform/AdministratingCore1/UserAdd.png "[User management menu]")
+2. Click the ![Create user](../../Assets/Icons/Edit02.png "[Create user]") (Create user) button.
+The *Create user* window is opened.    
     
-to be continued
+    ![Create user](../../Assets/Screenshots/Core1Platform/AdministratingCore1/UserCreate.png "[Create user]")
+
+2. Click the *Select active option* drop-down list to select whether the new user is will be able to log in or not. The following options are available: 
+    - **Active, can log in**
+    - **Inactive, user is locked**
+
+3. Click the *Password type* drop-down list to select how the password is to be created and submitted to the user. The following options are available:
+    - **Generate password and send via email**  
+      A password is generated automatically and sent to the email address specified below. 
+    - **Enter password and send by email**    
+      You define an individual password and 
+    - **Specify and send password**   
+      You define an individual password and 
+
+4. If you have not selected the *Generate password and send via email* option in the *Password type option* drop-down list, define the password in the *Set password* field.
+
+5. Enter the username in the *Login* field. This is the name with which the user must log in.  
+
+6. Enter the name and address of the user. Use the *Address* field to enter street and house number.
+
+7. Enter the email address of the new user.   
+After you have saved the new user, it will be used to send the password to the user.
+
+8. If desired, click the *Role in company* drop-down list. The following options are available:
+    - Entwicklung (Development)
+    - Buchhaltung (Accounting)
+    - Logistik (Logistics)
+    - Artikelanlage (Creating products)
+    - Einkauf (Procurement)
+    - Marktplätze (Market places)
+    - Anderes (Others)
+
+9. Click the [SAVE] button.   
+The new user is created and, if applicable, informed about the new password by email. 
 
 
 ## Assign user to group
 
+
+## Prerequisite
+- You have admin rights
+- The user groups are already created. For detailed information, see [Create user group](../AdministratingCore1/03_ManageGroups.md#create-user-group "Create user group")
 
 ## Invite user to a sandbox
 
@@ -61,7 +104,7 @@ When inviting a user to a sandbox, it is necessary to assign the user to a user 
 6. Select further groups until you have assigned all required groups.
 
 7. Click the [SAVE] button.   
-Depending on the system settings, the user gets an email that informs him or her about the invitation. The email contains a button, with which the user can open the sandbox.
+Depending on the settings, the user gets an email that informs him or her about the invitation. The email contains a button, with which the user can open the sandbox.
  
 
 ## Remove user from the main account
