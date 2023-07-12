@@ -200,7 +200,7 @@ The list displays all capture transactions. Depending on the payment service pro
 
 *Payments > Payments and captures > Tab LIST > Select a payment and capture transaction*
 
-![Capture ID](../../Assets/Screenshots/Payments/PaymentsCaptures/AttributesPaymentsCaptures.png "[Capturen ID]")
+![Capture ID](../../Assets/Screenshots/Payments/PaymentsCaptures/AttributesPaymentsCaptures.png "[Capture ID]")
 
 **Capture "Capture ID"**
 
