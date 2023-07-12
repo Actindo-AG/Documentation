@@ -123,7 +123,7 @@ The vCore utilization is displayed in a curve diagram.
 
 3. Check the limit of vCores assigned to the current instance. To do this, move the mouse pointer on the white line.   
 The limit of vCores for this instance is displayed in a callout shape.   
-<!---Hallo Marina, hallo Julian, wisst Ihr, wie die Dinger heißen?-->   
+    <!---Hallo Marina, hallo Julian, wisst Ihr, wie die Dinger heißen?-->   
  
     ![vCore dashlet](../../Assets/Screenshots/Core1Platform/AdministratingCore1/EngineRoomvCores.png "[vCore dashlet]")
 

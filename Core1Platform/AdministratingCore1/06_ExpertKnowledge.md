@@ -4,9 +4,9 @@ This section contains procedures that you only should use, if you really know th
 
 
 
-## Switch on and switch off single feature flags
+## Switch on &frasl; off single feature flags
 
-The Entwicklermodus (Development mode) of the engine room allows to switch on/off specific system behavior fundamentally.   
+The Entwicklermodus (Development mode) of the engine room allows to switch on &frasl; off specific system behavior fundamentally.   
 For example, you can enable special caching functions of the *Core1 Platform*. Additionally, you can disable module-specific features such as the import of orders and event manager features.   
 You can use the development mode for testing purposes or, for example, to temporarily switch off a connection, because you are informed about a downtime of a third-party application. Each action in the development mode is logged.
 
@@ -21,7 +21,7 @@ output data.
 #### Prerequisites
 
 - You have administrator rights for the current instance.
-- You know the consequences of switching on/off a feature.
+- You know the consequences of switching on &frasl; off a feature.
 
 #### Procedure
 
@@ -40,7 +40,7 @@ The list of feature flags is expanded. Each feature flag is listed in a feature 
 
    ![Feature flags](../../Assets/Screenshots/Core1Platform/AdministratingCore1/EngineRoomDevelopmentMode.png "[Feature flags]")
 
-3. Switch on/off the desired feature by enabling the corresponding feature chip toggle.   
+3. Switch on &frasl; off the desired feature by enabling the corresponding feature chip toggle.   
 The following warning message is displayed.
 
     ![Warning message](../../Assets/Screenshots/Core1Platform/AdministratingCore1/EngineRoomDevelopmentModeWarning.png "[Warning message]")
@@ -55,19 +55,19 @@ The instance works as designed again. This action is logged as well.
 
 
 
-## Switch on and switch off all feature flags at once
+## Switch on &frasl; off all feature flags at once
 
-The Entwicklermodus (Development mode) of the engine room allows to switch on/off all feature flags at once (see also [Switch on and switch off single feature flags](#switch-on-and-switch-off-single-feature-flags)).   
+The Entwicklermodus (Development mode) of the engine room allows to switch on &frasl; off all feature flags at once (see also [Switch on &frasl; off single feature flags](#switch-on-⁄-off-single-feature-flags)).   
 For example, you can enable special caching functions of the *Core1 Platform*. Additionally, you can disable module-specific features such as the import of orders and event manager features.
 You can use this function for testing purposes.
 
-> [WARNING] Switching off features can lead to data loss. If you are not really sure about the consequences of switching off all features, you should not use it. 
+> [WARNING] Switching off module features can lead to data loss. If you are not really sure about the consequences of switching off all features, you should not use it. 
 
 
 #### Prerequisites
 
 - You have administrator rights for the current instance.
-- You know the consequences of switching on/off features.
+- You know the consequences of switching on &frasl; off features.
 
 #### Procedure
 
