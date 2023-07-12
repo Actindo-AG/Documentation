@@ -4,7 +4,8 @@
 
 If you want to create a new connection to a payment service provider (PSP), you can buy, depending on the payment service provider, the needed connection in the app store or license it directly at the payment service provider. By default, Actindo supports the following drivers:   
 - Adyen&trade; (available in the app store)
-- Amazon pay&trade; (available in the app store)
+- Amazon pay&trade; (available in the app store)   
+It works without using the Amazon channel connection, but the Amazon driver must be installed.
 - Stripe&trade; (available in the app store)
 - Paypal&trade;
 - A dummy driver to simulate payments for testing purposes in a sandbox   
