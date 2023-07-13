@@ -18,7 +18,7 @@ No prerequisites to fulfill.
 
 *Actindo Core1 Platform*
 
-![Core1 Platform](../../Assets/Screenshots/Core1.png "[Core1 Platform]")
+![Core1 Platform](../../Assets/Screenshots/Core1Platform/Core1.png "[Core1 Platform]")
 
 1. Click the ![Add](../../Assets/Icons/Plus06.png "[Add]") (Add) button in the header.   
     The *Add a new tab* window is displayed. By default, the *Create new tab* tab is preselected.

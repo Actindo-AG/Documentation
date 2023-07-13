@@ -58,7 +58,7 @@ Create a user group based on a user role in order to subsequently assign them a 
 
 Edit a user group to add users to it, remove users from it and assign rights to the users included in it. 
 
-### Add user to a user group
+### Add user to user group
 
 Add any number of users to a user group in order to assign them rights subsequently.
 
@@ -76,8 +76,8 @@ Add any number of users to a user group in order to assign them rights subsequen
 1. Select the checkbox of the user group for which you want to add or remove users.   
     The editing toolbar is displayed.
 
-2. Click the ![Edit](../../Assets/Icons/Edit01.png "[Edit]") (Edit) button in the editing toolbar.    
-    The *Edit group* view is displayed. By default, the *Users* tab is preselected.
+2. Click the ![Edit](../../Assets/Icons/Edit01.png "[Edit]") (Edit) button in the editing toolbar.       
+    The *Edit group "group name"* view is displayed. By default, the *Users* tab is preselected.
 
     > [Info] If no users have been added yet, the *No users added. Use + button to add one to group* notice is displayed. Otherwise, the details of the user(s) included in the group are displayed.   
     
@@ -85,7 +85,7 @@ Add any number of users to a user group in order to assign them rights subsequen
 
 
 3. Click the ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) button in the bottom right corner.    
-    The *Add user* view is displayed.
+    The *Add user* window is displayed.
 
     ![Add user](../../Assets/Screenshots/Core1Platform/AdministratingCore1/GroupAddUser.png "[Add user]")
 
@@ -104,7 +104,7 @@ Add any number of users to a user group in order to assign them rights subsequen
 6. Click the [SAVE] button in the upper right corner of the *Add user* window.  
     The users have been saved to the group and are displayed in the list of users.
 
-7. Click the [SAVE] button in the upper right corner of the *Edit group* view.   
+7. Click the [SAVE] button in the upper right corner of the *Edit group* window.   
     The *Group saved* pop-up window is displayed. The changes to the group have been saved.
 
     ![Group saved](../../Assets/Screenshots/Core1Platform/AdministratingCore1/GroupSaved.png "[Group saved]")
@@ -113,7 +113,7 @@ Add any number of users to a user group in order to assign them rights subsequen
 ### Remove user from a group
 
 A user is active in an account as long as the user is assigned a user group.    
-If you want to remove a user from the main account or a sandbox, you have to remove the user from all groups to which he or she is assigned. Alternatively, you can limit the validity period. <!--- Geht das überhaupt? Ich finde keine Funktion, mit der ich das machen könnte-->
+If you want to remove a user from the main account or a sandbox, you have to remove the user from all groups to which he or she is assigned. Alternatively, you can limit the validity period. <!--- Geht das überhaupt mit dem Gültigkeitsdatum? Ich finde keine Funktion, mit der ich das machen könnte-->
 
 #### Prerequisites
 
@@ -125,12 +125,31 @@ If you want to remove a user from the main account or a sandbox, you have to rem
 
 ![Group management](../../Assets/Screenshots/Core1Platform/AdministratingCore1/GroupManagment.png "[Group management]")
 
+1. Select the group, from which you want to remove a user.   
+The editing toolbar is displayed.
+
+   ![Group selected](../../Assets/Screenshots/Core1Platform/AdministratingCore1/GroupSelected.png "[Group selected]")
+
+2. Click the ![Edit](../../Assets/Icons/Edit01.png "[Edit]") (Edit) button.
+The *Edit group "Group name"* view is opened. By default, the *Users* tab is displayed. 
+
+   ![Group selected](../../Assets/Screenshots/Core1Platform/AdministratingCore1/GroupManagementUsers.png "[Group selected]")
+
+3. Select a user.   
+The editing toolbar is displayed.
+
+   ![User selected](../../Assets/Screenshots/Core1Platform/AdministratingCore1/GroupUserSelected.png "[User selected]")
+
+4. Click the ![Delete](../../Assets/Icons/Trash03.png "[Delete]") (Delete) button.   
+The selected user is removed from the list.
+
+5. Click the [SAVE] button.   
+The *GROUP MANAGEMENT* view is displayed again.
 
 
 ## Remove user group
 
-If a user group is no longer needed, you can remove it.
-> [INFO] Groups are removed regardless of whether users were still assigned.
+If a user group is no longer needed, you can remove it. Note, groups are removed regardless of whether users are still assigned.
 
 #### Prerequisites
 

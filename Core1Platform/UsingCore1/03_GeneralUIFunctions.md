@@ -75,7 +75,7 @@ A drop down window is opened in which currently running resp. currently waiting 
 ## Check notifications
 
 Notifications are information on active jobs and other actions that has been done on the *Actindo Core1 Platform*, for example downloads, imports, postings, and much more. 
-This information is mainly relevant for system administrators and especially helpful in a testing phase.  
+This information is mainly relevant for system administrators and developers. It is especially helpful in a testing phase.  
 
 #### Prerequisites
 

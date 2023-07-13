@@ -16,9 +16,10 @@ You can open the Actindo documentation site via the Actindo home page. Alternati
 
 
 #### Procedure
-*Actindo home page > Resources > HELP & INFORMATION > Documentation (EN)*   
 
-![Actindo home page](../../Assets/Screenshots/Core1Platform/UsingDocumentation/ActindoWebPresence.png "[Actindo home page]")
+*Actindo home page*   
+
+![Actindo home page](../../Assets/Screenshots/Core1Platform/UsingDocumentation/ActindoHomePage.png "[Actindo home page]")
 
 1. Open the Actindo home page under <a href="https://actindo.com/en" target="_blank">https://Actindo.com/en</a>.   
 
@@ -123,7 +124,7 @@ A full text search is available that starts a search over the module/plugin docu
 
 
 ## Explore related content
-The content of some topics can relate to a certain topic in the same chapter, to a topic within another chapter, or even to a topic in another module. On the documentation website, links to such topics are displayed in the *Related content* section of the left side bar. By following these links, you can get further information on a specific subject.
+The content of some topics can relate to a certain topic in the same chapter, to a topic within another chapter, or even to a topic in another module. On the documentation website, links to such topics are displayed in the *Related content* section of the left sidebar. By following these links, you can get further information on a specific subject.
 
 #### Prerequisites
 - You have opened the Actindo Documentation site. For detailed information, see [Opening the site via the Actindo home page](#opening-the-site-via-the-actindo-home-page) or [Opening the site via the Actindo Core1 Platform](#opening-the-site-via-the-actindo-core1-platform).  
@@ -133,10 +134,11 @@ The content of some topics can relate to a certain topic in the same chapter, to
 #### Procedure
 *Actindo Documentation site > Select a module/plugin documentation*
 
-![Module documentation - Related conten](../../Assets/Screenshots/Core1Platform/UsingDocumentation/ModulePageRelatedContent.png "[Module documentation - Related content]")
+![Module documentation - Related content](../../Assets/Screenshots/Core1Platform/UsingDocumentation/ModulePageRelatedContent.png "[Module documentation - Related content]")
  
 1. Check the *Related content* section on the left side bar. 
    Related links to other sources of information are displayed there.
+
 2. Click a link that might be interesting for you.
  
 
@@ -145,9 +147,11 @@ The content of some topics can relate to a certain topic in the same chapter, to
 If you are currently reading a topic, you have additional options to move within the topic or within the module/plugin documentation.
 
 #### Prerequisites
-- You have opened a module/plugin documentation. For detailed information, see [Opening the site via the Actindo home page](#opening-the-site-via-the-actindo-home-page) or [Opening the site via the Actindo Core1 Platform](#opening-the-site-via-the-actindo-core1-platform). 
+- You have opened a module/plugin documentation.   
+For detailed information, see [Opening the site via the Actindo home page](#opening-the-site-via-the-actindo-home-page) or [Opening the site via the Actindo Core1 Platform](#opening-the-site-via-the-actindo-core1-platform). 
 
 #### Procedure
+
 *Actindo Documentation site > Select a module/plugin documentation*
 
 ![Navigation options within a topic](../../Assets/Screenshots/Core1Platform/UsingDocumentation/NavigationOptionTopic.png "[Navigation options within a topic]")
@@ -157,6 +161,7 @@ If you are currently reading a topic, you have additional options to move within
 2. Use the ![Go to top](../../Assets/Icons/GoToTop.png "[Go to top]")[Go to top] button down right to quickly return to the beginning of the topic.  
 
 3. At the end of a topic, use the [<< Previous article] or [>> Next article] buttons to browse the table of content (TOC).
+
 
 
 ## Open screenshot in full screen mode
@@ -171,7 +176,6 @@ If you want to study a screenshot in detail, you can open it in full screen mode
 *Actindo Documentation site > Select a module/plugin documentation*
 
 ![Actindo module documentation](../../Assets/Screenshots/Core1Platform/UsingDocumentation/ModulePage.png "[Actindo module documentation]")
-
 
 1. Open a page on which a screenshot is displayed.  
 

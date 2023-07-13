@@ -23,7 +23,7 @@ The user profile contains information to your username, your e-mail address, and
 
     ![Profile menu](../../Assets/Screenshots/Core1Platform/UsingCore1/ProfileMenu.png "[Profile menu]")
 
-2. Open the PROFILE tab.
+2. Click the PROFILE tab.   
    The *Edit user "username"* view is opened.
 
    ![Edit user](../../Assets/Screenshots/Core1Platform/UsingCore1/UserProfile.png "[Edit user]")
@@ -35,7 +35,7 @@ Your data are changed and transferred to all other sandboxes or main accounts in
 
 ## Change password
 Depending on the user settings, it is possible to change the password for all sandboxes and the main account at the same time.  
-Note, that your global user settings, edited by an administrator, may specify that you are not allowed to change your password. In this case, you cannot change your password. Contact your administrator, if you need to change your password for data security reasons.  
+Note, that your global user settings, edited by an administrator, may specify that you are not allowed to change your password. Contact your administrator, if you need to change your password for data security reasons.  
 
 
 #### Prerequisites

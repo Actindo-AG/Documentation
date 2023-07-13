@@ -87,14 +87,12 @@ The *Platform Console* window is opened.
 
 ## Check vCores
 
-<!---The CPU core voltage (VCORE) is the power supply voltage supplied to the CPU (which is a digital circuit), GPU, or other device containing a processing core. The amount of power a CPU uses, and thus the amount of heat it dissipates, is the product of this voltage and the current it draws. In modern CPUs, which are CMOS circuits, the current is almost proportional to the clock speed, the CPU drawing almost no current between clock cycles (Source: Wikipedia).  - rauslassen? hilft glaube ich nicht wirklich weiter?-->
-
 Your company has purchased a certain number of vCores assigned the main account. vCores (CPU core voltage) define the computing power of an instance for the execution of parallel processes as well as database queries. Idle times, such as calls waiting for a response from external service providers, are not considered.   
 If an instance has not enough vCore capacity, the processor then starts to run the processes and database queries one after the other instead of running them in parallel. This means that the processing speed is slowed down significantly if the number of vCores assigned is unsufficiently.  
 
-> [INFO] Note, the vCores define the power for running parallel processes. They do not define the power for running a single process. Assigning more vCores will not speed up single processes!    
+> [INFO] The vCores define the power for running parallel processes. They do not define the power for running a single process. Assigning more vCores will not speed up single processes!    
 
-If a sandbox is created, it is assigned a number of vCores from the main account. Note, this reduces the number of vCores available in the main account. The transfer of vCores from the main account to a sandbox may take some time (about 5 minutes).  
+If a sandbox is created, it is assigned a number of vCores from the main account. This reduces the number of vCores available there. The transfer of vCores from the main account to a sandbox may take some time (about 5 minutes).  
 Actindo has an eye on the capacity utilization of your vCores. Isolated overruns will have no other effect than slowing down the speed of your processes. But if your vCore capacity is permanently over the limit, Actindo will contact you.   
 
 The engine room allows you to monitor the required vCores of the current instance. With the vCore dashlet, you can monitor the needs of the last two hours.  
@@ -136,7 +134,7 @@ The number of vCores is displayed in a callout shape. Used vCores are shown in g
 
 ## Check database utilization
 
-Your company has purchased a certain amount of data storage space assigned the main account. If a sandbox is created, it is assigned an amount of storage space from the main account. This reduces the number of storage space available in the main account.   
+Your company has purchased a certain amount of data storage space assigned the main account. If a sandbox is created, it is assigned an amount of storage space from the main account. This reduces the number of storage space available there.   
 Actindo has an eye on the data storage utilization. Isolated overruns will have no effect. But if your data storage utilization is permanently over the limit, Actindo will contact you.   
 
 #### Prerequisites
@@ -163,7 +161,7 @@ In the middle of the circle, the current utilization is displayed in percent as 
 
 4. If desired, refresh the current dashlet by clicking the [REFRESH] button.
 
-5. Move your mouse pointer over the circle diagram.
+5. Move your mouse pointer over the circle diagram.   
 The current data storage utilization is displayed in a callout shape.
     
 

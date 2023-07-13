@@ -1,11 +1,11 @@
 # Using the documentation
-
+<!--- Links getestet-->
 In this part of the *Actindo Core1 Platform* documentation, you will find the following chapters:
 
 - [Move around in the Actindo documentation ](./01_Navigation.md "Move around in the Actindo documentation")   
     - [Open the Actindo documentation site ](./01_Navigation.md#open-the-actindo-documentation-site "Open the Actindo Documentation site")   
          - [Open the site via the Actindo home page](./01_Navigation.md#open-the-site-via-the-actindo-home-page "Open the site via the Actindo home page")   
-         - [Open the site via the Actindo Core1 Platform](./01_Navigation.md#open-the-site-via-the-actindo-web-presence "Open the Actindo Documentation site via the Actindo Core1 Platform")  
+         - [Open the site via the Actindo Core1 Platform](./01_Navigation.md#open-the-site-via-the-actindo-core1-platform "Open the Actindo Documentation site via the Actindo Core1 Platform")  
     - [Search the documentation](./01_Navigation.md#search-the-documentation "Search the documentation")   
          - [Search the whole Actindo documentation](./01_Navigation.md#search-the-whole-actindo-documentation "Search the whole Actindo documentation")   
          - [Search the module/plugin documentation](./01_Navigation.md#search-the-moduleplugin-documentation "Search the module/plugin documentation")
@@ -19,5 +19,9 @@ In this part of the *Actindo Core1 Platform* documentation, you will find the fo
     - [Troubleshooting](./02_Structure.md#troubleshooting "Troubleshooting")   
     - [User interface](./02_Structure.md#user-interface "User interface")
 - [Highlighting in texts](./03_Highlighting.md "Highlighting in texts")
+- [General user interface terminology](./04_GeneralUITerminology.md "General user interface terminology") 
+    - [Navigation menu and workspace](./04_GeneralUITerminology.md#navigation-menu-and-workspace "Navigation menu and workspace") 
+    - [Workspace elements](./04_GeneralUITerminology.md#workspace-elements "Workspace elements") 
+    - [Further workspace elements](./04_GeneralUITerminology.md#further-workspace-elements "Further workspace elements") 
             
 
