@@ -4,7 +4,7 @@ The creation of a ticket is necessary, if something happens in your *Actindo Cor
 For example, one of the following situations may be a reason to create a ticket:   
 - A workflow is failing
 - The main account is not reachable
-- Products show wrong information on the frontend   
+- Products show incorrect information on the frontend   
 
  >[INFO] If you are a customer with an MPS (Managed Professional Services) contract, you might have to use the Jira&trade; Software for ticket creation. In this case, refer to the individual agreements that your company has made with Actindo.
 
@@ -34,7 +34,7 @@ The *Contact us* window is displayed.
     - How does the behavior deviate from the expected behavior?    
 
 4. Enter a detailed description of the issue in the *Description* section. If the *Actindo Core1 platform* has output an error message, enter the exact wording of the error message. You can extend the description section by dropping the ![Extend](../../Assets/Icons/Extend.png "[Extend") (Extend) button downwards.   
-If there are issues with the communication with external systems, for example shops, specify the software used including version (for example, Shopware 5.3.1) as well as the version of the connector in case of online shops.  
+If there are issues with the communication with external systems such as shops, specify the software used including version (for example, Shopware 5.3.1) as well as the version of the connector in case of online shops.  
 For data protection reasons, do not write any unsolicited access data in the ticket.
 
 5. If possible, take a screenshot of the error message or the screen on which the issue occurs.    

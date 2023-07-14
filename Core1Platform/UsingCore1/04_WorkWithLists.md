@@ -37,7 +37,7 @@ The new view is automatically selected now.
 
     - Define the filters you want to apply the view, see [Use filters](#use-filters "Use filters").
 
-5. Click the ![Points](../../Assets/Icons/Points01.png "[Remove ]") (Points) button and select the ![Save](../../Assets/Icons/Save.png "[Save]") [save] button.  
+5. Click the ![Points](../../Assets/Icons/Points01.png "[Remove ]") (Points) button and select the ![Save](../../Assets/Icons/Save.png "[Save]") (Save) button.  
 The view is saved. The next time you open the list, you can select your new view with the *VIEW* drop-down list.   
 If desired, you can now delete the view by clicking the ![Points](../../Assets/Icons/Points01.png "[Points]") (Points) button and selecting the ![Delete](../../Assets/Icons/Trash01.png "[Points]") [Delete] button.
 

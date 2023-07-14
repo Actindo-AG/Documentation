@@ -4,6 +4,8 @@ A user is a global *Actindo* entity that is shared between the main account and 
 You must create users in the main account. It is not possible to create users in a sandbox.   
 > [INFO] As a user without admin rights, you can change some data too. For detailed information, see [Edit profile settings](../UsingCore1/02_EditProfileSettings.md "Edit profile settings"). 
 
+
+
 ## Create user
 Users are created in the main account only.
 
@@ -11,7 +13,6 @@ Users are created in the main account only.
 
 - You are logged in to a main account
 - You have admin rights
-
 
 #### Procedure
 
@@ -23,6 +24,7 @@ Users are created in the main account only.
 The screen is grayed out. A small menu is opened down right.
 
    ![User management menu](../../Assets/Screenshots/Core1Platform/AdministratingCore1/UserAdd.png "[User management menu]")
+
 2. Click the ![Create user](../../Assets/Icons/Edit02.png "[Create user]") (Create user) button.   
 The *Create user* window is opened.    
     
@@ -60,7 +62,6 @@ After you have saved the new user, it will be used to send the password to the u
 
 9. Click the [SAVE] button.   
 The new user is created and, if applicable, informed about username and password by email. 
-
 
 ## Assign user to user group
 Assigning users to a user group is necessary to activate a user on a current instance. A user that is not assigned any group, is not active in the instance. This means in reverse, you have to remove a user from all groups on an instance to deactivate him or her.
@@ -100,10 +101,52 @@ The *Profile* tab is displayed. The new assigned group is added to the list of g
 
 
 
+## Edit user
+
+Users are edited in the main account only. There is one exception: Users are able to change their own data on a sandbox (see [Edit profile settings](../UsingCore1/02_EditProfileSettings.md "Edit profile settings")).
+
+#### Prerequisites
+
+- You are logged in to a main account
+- You have admin rights
+
+
+#### Procedure
+
+*Settings > Users and groups > Tab User management*
+
+![User management](../../Assets/Screenshots/Settings/UsersGroups/UserManagement/UserManagement.png "[User management]")
+
+1. Select the user whose data you want to edit.   
+The *Settings (Einstellungen)*  view is opened.
+
+   ![User management](../../Assets/Screenshots/Core1Platform/AdministratingCore1/UserEdit.png "[User management]")
+
+2. If desired. Click the *Select active option* drop-down list to select whether the user is to be able to log in or not. The following options are available: 
+    - **Active, can log in**
+    - **Inactive, user is locked**
+
+3. If desired, click the *Password type* drop-down list to select how the password is to be created and submitted to the user. The following options are available:
+    - **Generate password and send via email**  
+      A password is generated automatically and sent to the email address specified below. 
+    - **Enter password and send by email**    
+      You define an individual password and 
+    - **Specify and send password**   
+      You define an individual password and
+
+4. If desired, disable the *Universal Second Factor (U2F)* toggle.
+If the *Universal Second Factor (U2F)* is disabled, the user will no longer need to use the *Yubikey* to log in. <!---Julian, geht das so einfach oder gibt es dann Probleme?-->
+
+5. If desired, edit the user's personal data.
+
+6. Click the [SAVE] button.
+
+
+
 ## Invite user to sandbox
 
-Users cannot be created in a sandbox. It is necessary to invite a user to a sandbox, because users cannot be created there.
-When inviting a user to a sandbox, it is necessary to assign the user to a user group. Only then the user is listed in this instance and can access the sandbox.
+It is necessary to invite a user to a sandbox, because users cannot be created there.
+When inviting a user to a sandbox, it is necessary to assign the user to a user group. Only then the user is listed in this instance and can access the sandbox. <!---Julian, ist das richtig oder habe ich etwas falsch verstanden? User is doch gar nicht in der Liste?-->
 
 #### Prerequisites
 
@@ -124,7 +167,7 @@ When inviting a user to a sandbox, it is necessary to assign the user to a user 
 
 
 2. Click the ![Invite user](../../Assets/Icons/UserInvite02.png  "[Invite user]") (Invite user) button.   
- The "Invite user" window is opened.
+ The *Invite user* window is opened.
 
     ![Invite user](../../Assets/Screenshots/Core1Platform/AdministratingCore1/UserInviteWindow.png  "[Invite user]") 
 
@@ -138,8 +181,9 @@ When inviting a user to a sandbox, it is necessary to assign the user to a user 
 Depending on the settings, the user gets an email that informs him or her about the invitation. The email contains a button, with which the user can open the sandbox.
  
 
-## Remove user from the main account
+## Inactivate user in main account
 
+The deletion of users in a main account is not possible. By inactivating a user, 
 
 ## Remove user from a sandbox
-If you want to remove a user from a sandbox, you need to remove the user from all groups. For detailed information, see [Remove a user from a user group](../UsingCore1/02_EditProfileSettings.md "Remove a user from a user group").
+If you want to remove a user from a sandbox, you need to remove the user from all groups. For detailed information, see [Remove user from a group](../AdministratingCore1/03_ManageGroups.md#remove-user-from-a-group "Remove ser from a group").
