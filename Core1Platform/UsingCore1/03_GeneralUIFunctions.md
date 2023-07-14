@@ -3,7 +3,7 @@
 The *Actindo Core1 Platform* has general user interface functions that are available independently of the module/plugin, with which you are currently working.
 
 
-## Expand/collapse the navigation menu
+## Expand &frasl; collapse navigation menu
 You can collapse the navigation menu, if you have not enough space in the workplace to work comfortably.
 
 #### Prerequisites
@@ -47,7 +47,7 @@ The position on which the menu entry will be inserted, is indicated by a dash.
 
 ## Create ticket 
 
-The ![Create ticket](../../Assets/Icons/CreateTicket.png "[Create ticket]") (Create ticket) button top right is used to create a support ticket in case that there is an error or an issue with any module/plugin of the *Actindo Core1 Platform*. For detailed information, see [Create ticket ](./08_CreateTicket.md "Create ticket").  
+The ![Create ticket](../../Assets/Icons/CreateTicket.png "[Create ticket]") (Create ticket) button top right is used to create a support ticket in case that there is an error or an issue with any module/plugin of the *Actindo Core1 Platform*. For detailed information, see [Create ticket ](../HelpAndSupport/01_CreateTicket.md "Create ticket").  
 
 ## Check processes
 
@@ -123,7 +123,8 @@ Click on the [Logout] button to leave the *Actindo Core1 Platform*.
 For detailed information, see below under [Change language ](./03_GeneralUIFunctions.md#change-language).
 
 
-### Change language
+
+## Change language
 
 The *Actindo Core1 Platform* is currently available in English and German. You can change the language during your current session without the need of a new login.
 

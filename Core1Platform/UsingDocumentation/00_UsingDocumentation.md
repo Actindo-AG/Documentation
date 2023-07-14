@@ -11,14 +11,19 @@ In this part of the *Actindo Core1 Platform* documentation, you will find the fo
          - [Search the module/plugin documentation](./01_Navigation.md#search-the-moduleplugin-documentation "Search the module/plugin documentation")
     - [Explore related content](./01_Navigation.md#explore-related-content "Explore related content")        
     -  [Use navigation within a topic](./01_Navigation.md#use-navigation-within-a-topic "Use navigation within a topic") 
-    - [Open screenshot in full screen mode](./01_Navigation.md#open-screenshot-in-full-screen-mode "Open screenshot in full screen mode") 
-- [Documentation structure](./02_Structure.md "Structure")
+    - [Open screenshot in full screen mode](./01_Navigation.md#open-screenshot-in-full-screen-mode "Open screenshot in full screen mode")
+
+
+- [Documentation structure](./02_Structure.md "Structure")   
     - [Overview](./02_Structure.md#overview "Overview")   
     - [Integration](./02_Structure.md#integration "Integration")   
     - [Operation](./02_Structure.md#operation "Operation")   
     - [Troubleshooting](./02_Structure.md#troubleshooting "Troubleshooting")   
-    - [User interface](./02_Structure.md#user-interface "User interface")
-- [Highlighting in texts](./03_Highlighting.md "Highlighting in texts")
+    - [User interface](./02_Structure.md#user-interface "User interface")    
+
+
+- [Highlighting in texts](./03_Highlighting.md "Highlighting in texts")    
+
 - [General user interface terminology](./04_GeneralUITerminology.md "General user interface terminology") 
     - [Navigation menu and workspace](./04_GeneralUITerminology.md#navigation-menu-and-workspace "Navigation menu and workspace") 
     - [Workspace elements](./04_GeneralUITerminology.md#workspace-elements "Workspace elements") 
