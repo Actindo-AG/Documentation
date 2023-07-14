@@ -1,6 +1,6 @@
 # User Interface
 
-In this part of the *Core 1 Platform* documentation, you will find the following chapters:
+In this part of the *Actindo Core 1 Platform* documentation, you will find the following chapters:
 
 - [Profile menu](./01_ProfileMenu.md)   
     - [Really log out](./01_ProfileMenu.md#really-log-out)   

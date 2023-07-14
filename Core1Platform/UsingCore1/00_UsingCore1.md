@@ -1,5 +1,5 @@
 # Using the Actindo Core1 Platform
-
+<!--- Links getestet-->
 In this part of the *Actindo Core1 Platform* documentation, you will find the following chapters:
 
 - [Login and logout the Actindo Core1 Platform](./01_LoginLogout.md)   
