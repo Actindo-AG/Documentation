@@ -159,7 +159,7 @@ At least one connection has been established, see [Create a connection](#create-
     The editing toolbar is displayed.
 
 2. Click the ![Delete](../../Assets/Icons/Trash03.png) (Delete) button in the editing toolbar.  
-    The *Connection XXXX* pop-up window is displayed. The number indicates the identifier of the deleted connection as displayed in the *ID* column. The deleted connection is removed from the list of connections.
+    The *Connection xxxx* pop-up window is displayed. The *xxxx* indicates the identifier of the deleted connection as displayed in the *ID* column. The deleted connection is removed from the list of connections.
 
     ![Deleted connection](../../Assets/Screenshots/DatabaseAndReporting/Settings/Connections/DeletedConnection.png "[Deleted connection]")
 

@@ -26,7 +26,7 @@
 - [![Show message](../../Assets/Icons/ShowMessage.png "[Show message]") SHOW MESSAGE]  
     Click this button to display the selected intent. This button is only displayed if the checkbox of an intent is selected. Alternatively, you can click directly a row in the list to display the corresponding intent. The *List of messages* view is displayed, see [List of messages](#list-of-messages).
 
-[comment]: <> (Checkbox -selection mode- Show message button rausnehmen? Standard UI auch geändert?)
+[comment]: <> (Julian: Checkbox -selection mode- und Show message button schon raus? Bei NoE schon, aber ist des standard UI auch geändert? Keine Logs in Sandbox, daher nicht möglich zu prüfen)
 
 The list displays all intents. Depending on the settings, the displayed columns may vary. All fields are read-only.
 
@@ -40,7 +40,7 @@ The list displays all intents. Depending on the settings, the displayed columns 
     Date and time of the creation.
 
 - *Created by*  
-    Name and username of the user who created the intent. 
+    Name and username of the user who caused the intent. 
 
 - *Max log level of message*  
     Maximum log level of the message(s) contained in the intent. The following levels are available:
@@ -93,7 +93,7 @@ The list displays all intents. Depending on the settings, the displayed columns 
 - ![View](../../Assets/Icons/Eye02.png "[View]") (View)    
     Click this button to display the details of the log message. Alternatively, you can click directly a row in the list to display the details of the log message. The *Detail of log message "Log message title"* view is displayed, see [Detail of log message "Log message title"](#detail-of-log-message-log-message-title). 
 
-[comment]: <> (Checkbox -selection mode-, Download und View button rausnehmen? Standard UI auch geändert?)
+[comment]: <> (Julian: Checkbox -selection mode- und Show message button schon raus? Bei NoE schon, aber ist des standard UI auch geändert? Keine Logs in Sandbox, daher nicht möglich zu prüfen)
 
 The list displays all log messages of the selected intent. Depending on the settings, the displayed columns may vary. All fields are read-only.
 

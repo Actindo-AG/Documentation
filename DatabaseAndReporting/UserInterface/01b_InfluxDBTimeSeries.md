@@ -124,7 +124,7 @@ The list displays all InfluxDB time series. Depending on the settings, the displ
 ![Edit InfluxDB time series](../../Assets/Screenshots/DatabaseAndReporting/ManagedQueries/InfluxDBTimeSeries/EditInfluxDBTimeSeries.png "[Edit InfluxDB time series]")
 
 - *Title*  
-    Click this field to edit the description for the InfluxDB time series.
+    Click this field to edit the description of the InfluxDB time series.
 
 - *CronLine*  
     Click this field to edit the cron expression and specify the time interval in which the InfluxDB time series must be executed.

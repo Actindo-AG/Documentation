@@ -24,7 +24,7 @@ No prerequisites to fulfill.
 
 ![Query categories](../../Assets/Screenshots/DatabaseAndReporting/Settings/QueryCategories/QueryCategories.png "[Query categories]")
 
-[comment]: <> (Julian: Ist das ein Fehler im UI oder ein Bug, dass man nicht mehr zurückkommt, weil man sofort in der Edit tree view ist und sowohl ein Back als auch ein Cancel Button angezeigt werden, die nichts machen?)
+[comment]: <> (Julian: Ist das ein Fehler im UI oder ein Bug, das man nicht mehr zurückkommt, weil man sofort in der Edit tree view ist und sowohl ein Back als auch ein Cancel Button angezeigt werden, die nichts machen?)
 
 1. Click the ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) button in the bottom right corner.   
     A plus sign is displayed in the query category column.
@@ -70,6 +70,7 @@ After you have created a query category, you can edit it. You can create sub-cat
 Add further query sub-categories to a query category. An unlimited number of sub-category levels can be added. 
 
 #### Prerequisites
+
 At least one query category has been created, see [Create a query category](#create-a-query-category).
 
 #### Procedure
