@@ -208,14 +208,7 @@ Since a confirmation transaction has no dependencies to other entities in Actind
 
 ![Create view](../../Assets/Screenshots/Payments/LIST/CreateView.png "[Create view]")
 
-- *Name*   
-    Enter a name for the view.
-
-- [CANCEL]   
-    Click this button to cancel creating a view. The *Create view* window is closed.
-
-- [SAVE]   
-    Click this button to save the new view and display it in the *VIEW* drop-down list. The *Create view* window is closed.
+For a detailed description of this window and the corresponding functions, see [Create view](./01a_ListAuthorizations.md#create-view).
 
 
 
@@ -225,12 +218,4 @@ Since a confirmation transaction has no dependencies to other entities in Actind
 
 ![Rename view](../../Assets/Screenshots/Payments/LIST/RenameView.png "[Rename view]")
 
-- *Name*   
-    Click this field to edit the view name.
-
-- [CANCEL]   
-    Click this button to cancel renaming the view. The *Rename view* window is closed.
-
-- [SAVE]   
-    Click this button to save the changes and display it in the *VIEW* drop-down list. The *Rename view* window is closed.
-
+For a detailed description of this window and the corresponding functions, see [Rename view](./01a_ListAuthorizations.md#rename-view).

@@ -142,7 +142,7 @@ The list displays all log messages of the selected intent. Depending on the sett
 
 ### Detail of log message &ndash; Attributes
 
-*Payments > Logging > Tab CONNECTIONS > Select an intent > Select a log message > Tab Attributes*
+*Payments > Logging > Tab LIST > Select an intent > Select a log message > Tab Attributes*
 
 ![Detail log message &ndash; Attributes](../../Assets/Screenshots/Payments/Logging/DetailLogMessageAttributes.png "[Detail Log Message &ndash; Attributes]")
 
@@ -191,7 +191,7 @@ In general, the most common attribute sets are the standard error log message at
 
 ### Detail of log message &ndash; Dependencies   
 
-*Payments > Logging > Tab CONNECTIONS > Select an intent > Select a log message > Tab Dependencies*   
+*Payments > Logging > Tab LIST > Select an intent > Select a log message > Tab Dependencies*   
 
 ![Detail of log message &ndash; Dependencies](../../Assets/Screenshots/Payments/Logging/DetailLogMessageDependenciespng.png "[Detailed of log message &ndash; Dependencies]")
 
@@ -201,7 +201,7 @@ The *Payments* module only handles the communication between the payment service
 
 ## Create view
 
-*Payments > Payments and captures > Tab LIST > Button Points > Menu entry create*
+*Payments > Logging > Tab LIST > Button Points > Menu entry create*
 
 ![Create view](../../Assets/Screenshots/Payments/LIST/CreateView.png "[Create view]")
 
@@ -211,7 +211,7 @@ For a detailed description of this window and the corresponding functions, see [
 
 ## Rename view
 
-*Payments > Payments and captures > Tab LIST > Button Points > Menu entry "rename"*
+*Payments > Logging > Tab LIST > Button Points > Menu entry "rename"*
 
 ![Rename view](../../Assets/Screenshots/Payments/LIST/RenameView.png "[Rename view]")
 

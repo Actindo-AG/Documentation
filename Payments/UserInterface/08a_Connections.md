@@ -47,10 +47,10 @@
     Select the checkbox to display the editing toolbar. If you click the checkbox in the header, all connections in the list are selected.
 
 - [DISABLE]  
-    Click this button to disable the selected connection(s). This button is only displayed if the checkbox of at least one active connection is selected. For detailed information see [Disable a PSP connection](../Integration/01_ManageConnection.md#disable-a-psp-connection).
+    Click this button to disable the selected connection(s). This button is only displayed if the checkbox of at least one active connection is selected. For detailed information see [Disable PSP connection](../Integration/01_ManageConnection.md#disable-psp-connection).
 
 - [ENABLE]  
-    Click this button to enable the selected connection(s). This button is only displayed if the checkbox of at least one inactive connection is selected. For detailed information, see [Enable a PSP connection](../Integration/01_ManageConnection.md#enable-a-psp-connection)
+    Click this button to enable the selected connection(s). This button is only displayed if the checkbox of at least one inactive connection is selected. For detailed information, see [Enable PSP connection](../Integration/01_ManageConnection.md#enable-psp-connection)
 
 - ![Edit](../../Assets/Icons/Edit01.png "[Edit]") (Edit)  
     Click this button to edit the selected connection. This button is only displayed if a single checkbox in the list of connections is selected. Alternatively, you can click directly a row in the list to edit the corresponding connection. The *Edit connection* view is displayed, see [Edit connection](#edit-connection).
@@ -171,7 +171,7 @@ This tab is only displayed for drivers with further settings. You can configure 
 
 ## Create view
 
-*Payments > Payments and captures > Tab LIST > Button Points > Menu entry create*
+*Payments > Settings > Tab CONNECTIONS > Button Points > Menu entry create*
 
 ![Create view](../../Assets/Screenshots/Payments/LIST/CreateView.png "[Create view]")
 
@@ -181,7 +181,7 @@ For a detailed description of this window and the corresponding functions, see [
 
 ## Rename view
 
-*Payments > Payments and captures > Tab LIST > Button Points > Menu entry "rename"*
+*Payments > Settings > Tab CONNECTIONS > Button Points > Menu entry "rename"*
 
 ![Rename view](../../Assets/Screenshots/Payments/LIST/RenameView.png "[Rename view]")
 
