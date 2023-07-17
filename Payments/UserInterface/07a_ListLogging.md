@@ -63,14 +63,14 @@
 
 - *Max log level of message*  
     Maximum log level type of the message(s) contained in the intent. The following levels are available:   
-     - **Debug**   
-     - **Info**
-     - **Notice**
-     - **Warning**
-     - **Error**
-     - **Critical**
-     - **Alert**
-     - **Emergency**  
+    - **Debug**   
+    - **Info**
+    - **Notice**
+    - **Warning**
+    - **Error**
+    - **Critical**
+    - **Alert**
+    - **Emergency**  
         
 - *ID*  
     Intent identification number. The ID number is automatically assigned by the system.
@@ -201,32 +201,18 @@ The *Payments* module only handles the communication between the payment service
 
 ## Create view
 
-*Payments > Logging > Tab LIST > Button Points > Menu entry create*
+*Payments > Payments and captures > Tab LIST > Button Points > Menu entry create*
 
-![Create view](../../Assets/Screenshots/Payments/Authorizations/CreateView.png "[Create view]")
+![Create view](../../Assets/Screenshots/Payments/LIST/CreateView.png "[Create view]")
 
-- *Name*   
-    Enter a name for the view.
-
-- [CANCEL]   
-    Click this button to cancel creating a view. The *Create view* window is closed.
-
-- [SAVE]   
-    Click this button to save the new view and display it in the *VIEW* drop-down list. The *Create view* window is closed.
+For a detailed description of this window and the corresponding functions, see [Create view](./01a_ListAuthorizations.md#create-view).
 
 
 
 ## Rename view
 
-*Payments > Logging > Tab CONNECTIONS > Button Points > Menu entry rename*
+*Payments > Payments and captures > Tab LIST > Button Points > Menu entry "rename"*
 
-![Rename view](../../Assets/Screenshots/Payments/Authorizations/RenameView.png "[Rename view]")
+![Rename view](../../Assets/Screenshots/Payments/LIST/RenameView.png "[Rename view]")
 
-- *Name*   
-    Click this field to edit the view name.
-
-- [CANCEL]   
-    Click this button to cancel renaming the view. The  *Rename view* window is closed.
-
-- [SAVE]   
-    Click this button to save the changes and display it in the *VIEW* drop-down list. The *Rename view* window is closed.
+For a detailed description of this window and the corresponding functions, see [Rename view](./01a_ListAuthorizations.md#rename-view).

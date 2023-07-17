@@ -15,10 +15,10 @@
         Click this button to the right of the *VIEW* drop-down list to display the context menu. The following menu entries are available:
 
         - ![Create](../../Assets/Icons/Plus06.png "[Create]") create  
-            Click this entry to create a view. The *Create view* window is displayed, see [Create view](#create-view).
+            Click this entry to create a view. The *Create view* window is displayed, see [Create view](./01a_ListAuthorizations.md#create-view).
 
         - ![Rename](../../Assets/Icons/Edit02.png "[Rename]") rename  
-            Click this entry to rename the selected view. The *Rename view* window is displayed, see [Rename view](#rename-view). This menu entry is only displayed if a view has been selected.
+            Click this entry to rename the selected view. The *Rename view* window is displayed, see [Rename view](./01a_ListAuthorizations.md#rename-view). This menu entry is only displayed if a view has been selected.
 
         - [Reset](../../Assets/Icons/Reset.png "[Reset]") reset  
             Click this entry to reset all unsaved changes to the settings of the selected view. This menu entry is only displayed if a view has been selected and any changes have been made to the view settings.
@@ -40,31 +40,31 @@
 - *Connections*   
     Click the drop-down list to select a connection. The following options are available:
     - **All connections**  
-        Select this option to display payment and capture transactions for all configured connections. 
+      Select this option to display payment and capture transactions for all configured connections. 
     - **Connection name**  
-        Select this option to display payment and capture transactions for the selected connection. When a specific connection has been selected, the **All connections** option is no longer displayed. Click the selected connection again to deselect it.  
+      Select this option to display payment and capture transactions for the selected connection. When a specific connection has been selected, the **All connections** option is no longer displayed. Click the selected connection again to deselect it.  
 
 - ![Search](../../Assets/Icons/Search.png "[Search]") (Search)   
-    Click this button to display the search bar and search for authorization transactions.   
+   Click this button to display the search bar and search for authorization transactions.   
 
 - ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh)   
-    Click this button to update the list of authorization transactions.   
+   Click this button to update the list of authorization transactions.   
 
 - ![Columns](../../Assets/Icons/Columns.png "[Columns]") Columns (x)   
-    Click this button to display the columns bar and to customize the displayed columns and the order of columns in the list. The *x* indicates the number of columns that are currently displayed in the list.   
+   Click this button to display the columns bar and to customize the displayed columns and the order of columns in the list. The *x* indicates the number of columns that are currently displayed in the list.   
     
 - ![Filter](../../Assets/Icons/Filter.png "[Filter]") Filter (x)   
-    Click this button to display the filter bar and customize the active filters. The *x* indicates the number of filters that are currently active.  
+   Click this button to display the filter bar and customize the active filters. The *x* indicates the number of filters that are currently active.  
 
 - [x]     
-    Select the checkbox to the left of one list entry to display the editing toolbar for this single entry.   
-    If you click the checkbox in the header, all entries in the list are selected. The editing toolbar shows then all actions you can perform on several entries.   
+   Select the checkbox to the left of one list entry to display the editing toolbar for this single entry.   
+   If you click the checkbox in the header, all entries in the list are selected. The editing toolbar shows then all actions you can perform on several entries.   
 
 - [REFUND]   
    Click this button to refund the payment manually, so that the order process can be continued. If desired, you can select several transactions at once. For detailed information, see [Refund payment and capture](../Operation/02_ManagePaymentsAndCaptures.md#refund-payment-and-capture-transaction).   
 
 - [VOID]   
-  Click this button to invalidate the transaction for the Actindo database. For detailed information, see [Void payment and capture transaction](../Operation/02_ManagePaymentsAndCaptures.md#void-payment-and-capture-transaction).
+   Click this button to invalidate the transaction for the Actindo database. For detailed information, see [Void payment and capture transaction](../Operation/02_ManagePaymentsAndCaptures.md#void-payment-and-capture-transaction).
 
 The list displays all capture transactions. Depending on the payment service provider, the displayed columns vary. All fields are read-only. The following standard columns are available.
 
@@ -81,19 +81,19 @@ The list displays all capture transactions. Depending on the payment service pro
    Description of the transaction status.   
 
 - *Status ID*   
-   Identifier for the status. The following statuses are available, each prefixed by the ID in the list below. You can use the *Status ID* to filter and sort the list. 
--   - **1 - Preparing**  
-        The transaction has been created, but is not yet transferred.
-    - **2 - Unconfirmed**   
-        A refund is reserved but not yet released by an Actindo user. 
-    - **3 - Success**  
-        Actindo as well as the payment service provider has processed the transaction successfully.
-    - **4 - Failure**   
-        The payment service provider has received the request, but rejected it. If available for the connection, the status information field may provide further information.
-    - **5 - Error**   
-       Errors have been occurred during transfer.
-    - **6 - Void**   
-       The transaction has been voided, see [Void payment and capture transaction](../Operation/02_ManagePaymentsAndCaptures.md#void-payment-and-capture-transaction).
+   Identifier for the status. The following statuses are available, each prefixed by the ID in the list below. You can use the *Status ID* to filter and sort the list.  
+      - **1 - Preparing**  
+         The transaction has been created, but is not yet transferred.   
+      - **2 - Unconfirmed**   
+         A refund is reserved but not yet released by an Actindo user.   
+      - **3 - Success**  
+         Actindo as well as the payment service provider has processed the transaction successfully.  
+      - **4 - Failure**   
+         The payment service provider has received the request, but rejected it. If available for the connection, the status information field may provide further information.   
+      - **5 - Error**   
+         Errors have been occurred during transfer.   
+      - **6 - Void**   
+         The transaction has been voided, see [Void payment and capture transaction](../Operation/02_ManagePaymentsAndCaptures.md#void-payment-and-capture-transaction).
 
 - *Connection*   
    Name of the Connection. Note that this is the customer-specific name that has been given the connection. For detailed information, see [Manage connections to payment service providers (PSP)](../Integration/01_ManageConnection.md).
@@ -263,14 +263,7 @@ In contrast to the messages that are provided with the *Logging* menu entry, you
 
 ![Create view](../../Assets/Screenshots/Payments/LIST/CreateView.png "[Create view]")
 
-- *Name*   
-    Enter a name for the view.
-
-- [CANCEL]   
-    Click this button to cancel creating a view. The *Create view* window is closed.
-
-- [SAVE]   
-    Click this button to save the new view and display it in the *VIEW* drop-down list. The *Create view* window is closed.
+For a detailed description of this window and the corresponding functions, see [Create view](./01a_ListAuthorizations.md#create-view).
 
 
 
@@ -280,12 +273,4 @@ In contrast to the messages that are provided with the *Logging* menu entry, you
 
 ![Rename view](../../Assets/Screenshots/Payments/LIST/RenameView.png "[Rename view]")
 
-- *Name*   
-    Click this field to edit the view name.
-
-- [CANCEL]   
-    Click this button to cancel renaming the view. The *Rename view* window is closed.
-
-- [SAVE]   
-    Click this button to save the changes and display the new name in the *VIEW* drop-down list. The *Rename view* window is closed.
-
+For a detailed description of this window and the corresponding functions, see [Rename view](./01a_ListAuthorizations.md#rename-view).

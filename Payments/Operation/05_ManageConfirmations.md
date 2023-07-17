@@ -66,10 +66,10 @@ After you have checked a confirmation transaction and the reclaim is justified, 
 2. Check the confirmation transaction you want to execute, see [Check confirmation transaction](#check-confirmation-transaction).
 
 3. Select the confirmation transaction you want to execute by clicking the checkbox on the left. If desired, you can select several transactions at once.    
-The editing toolbar is displayed.
+    The editing toolbar is displayed.
 
 4. Click the [EXECUTE] button.
-   The entry is removed from the list. The workflow now initiates a repayment of the money.
+    The entry is removed from the list. The workflow now initiates a repayment of the money.
 
 
 
@@ -97,8 +97,8 @@ After you have checked a confirmation transaction and the reclaim is not justifi
     The editing toolbar is displayed.
 
 4. Click the [REJECT] button. 
-   A confirmation message is displayed.    
-   The status of the confirmation transaction will be internally changed to **Void**, but it will not be displayed. The workflow informs the payment service provider about the rejection of the refund.
+    A confirmation message is displayed.    
+    The status of the confirmation transaction will be internally changed to **Void**, but it will not be displayed. The workflow informs the payment service provider about the rejection of the refund.
 
 
 

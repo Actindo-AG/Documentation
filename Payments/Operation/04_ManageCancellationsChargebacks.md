@@ -22,6 +22,7 @@ In case of errors or failures, there may be a general issue that is caused by th
 
 - At least one connection has been created, see [Create PSP connection](../Integration/01_ManageConnection.md#create-psp-connection).
 - At least one customer has created a chargeback or a cancellation.
+
 > [Info] It is recommended to add the following columns to your view to get the required information and to better filter and sort the entries: *Status ID* and *Status information* (if applicable).
 
 #### Procedure
@@ -34,13 +35,13 @@ In case of errors or failures, there may be a general issue that is caused by th
 
 2. If desired, select the cancellation and chargeback type you want to check. The following types are available:   
     - **Cancel**   
-      Depending on the payment service provider, an appropriately permitted person or the customer has cancelled the authorization. 
+        Depending on the payment service provider, an appropriately permitted person or the customer has cancelled the authorization. 
     - **Chargeback**   
-      The customer has withdrawn a payment.
+        The customer has withdrawn a payment.
     - **Chargeback reversal**   
-      The customer has terminated his or her withdrawing of the payment.
+        The customer has terminated his or her withdrawing of the payment.
     - **Second chargeback**   
-      Again, the customer has withdrawn the payment.
+        Again, the customer has withdrawn the payment.
 
 3. Check the cancellation and chargeback transaction status in the *Status* column. The status displays the current stage in the payment process. You can use the status ID prefixed below to filter the list. The following statuses are available:   
     - **1 - Preparing**  
@@ -53,9 +54,9 @@ In case of errors or failures, there may be a general issue that is caused by th
     - **4 - Failure**   
         The payment service provider has received the request, but rejected it. If available for the connection, the status information field provides further information.
     - **5 - Error**   
-       Errors have been occurred during transfer.
+        Errors have been occurred during transfer.
     - **6 - Void**   
-       The transaction has been voided, see [Void cancellation and chargeback transaction](#void-cancellation-and-chargeback-transaction).
+        The transaction has been voided, see [Void cancellation and chargeback transaction](#void-cancellation-and-chargeback-transaction).
     
 3. Click a transaction to see the details.   
     The *"Cancel ID"* view is displayed. The *Attributes* tab is preselected by default.    
@@ -79,6 +80,7 @@ For detailed information on fields and functions, see [LIST (Logging)](../UserIn
 ## Void cancellation and chargeback transaction
 
 You can void a cancellation and chargeback transaction, if you want to invalidate the transaction for the Actindo database. 
+
 > [Info] The payment service provider will not be informed about changing the status to **Void**. It is only done to clear the database from faulty entries.
 
 #### Prerequisites
@@ -92,7 +94,9 @@ The status of a cancellation and chargeback transaction is **Failure** or **Erro
 ![Cancellations and chargebacks](../../Assets/Screenshots/Payments/CancellationsChargebacks/LISTCancellationsChargebacks.png "[Cancellations and chargebacks]")
 
  1. Identify the issue that led to the error/failure. To do this, check the cancellation and chargeback transaction to be voided, see [Check cancellation and chargeback transaction](#check-cancellation-and-chargeback-transaction).
+
 2. Select the cancellation and chargeback transaction to be voided by clicking the checkbox on the left.   
-The editing toolbar is displayed.
-3. Click the [VOID] button.    
-   A confirmation message is displayed. The status of the cancellation and chargeback transaction has changed to **Void**. The transaction is no longer valid for the Actindo database.
+  The editing toolbar is displayed.
+
+3. Click the [VOID] button.      
+  A confirmation message is displayed. The status of the cancellation and chargeback transaction has changed to **Void**. The transaction is no longer valid for the Actindo database.

@@ -12,15 +12,15 @@
     Click the drop-down list to select the view. All created views are displayed in the drop-down list. Click the ![Points](../../Assets/Icons/Points01.png "[Points]") (Points) button to the right of the *VIEW* drop-down list to display the context menu and create a view.   
 
     - ![Points](../../Assets/Icons/Points01.png "[Points]") (Points)      
-        Click this button to the right of the *View* drop-down list to display the context menu. The following menu entries are available:
+        Click this button to the right of the *VIEW* drop-down list to display the context menu. The following menu entries are available:
 
         - ![Create](../../Assets/Icons/Plus06.png "[Create]") create  
-            Click this entry to create a view. The *Create view* window is displayed, see [Create view](#create-view).
+            Click this entry to create a view. The *Create view* window is displayed, see [Create view](./01a_ListAuthorizations.md#create-view).
 
         - ![Rename](../../Assets/Icons/Edit02.png "[Rename]") rename  
-            Click this entry to rename the selected view. The *Rename view* window is displayed, see [Rename view](#rename-view). This menu entry is only displayed if a view has been selected.
+            Click this entry to rename the selected view. The *Rename view* window is displayed, see [Rename view](./01a_ListAuthorizations.md#rename-view). This menu entry is only displayed if a view has been selected.
 
-        - ![Reset](../../Assets/Icons/Reset.png "[Reset]") reset  
+        - [Reset](../../Assets/Icons/Reset.png "[Reset]") reset  
             Click this entry to reset all unsaved changes to the settings of the selected view. This menu entry is only displayed if a view has been selected and any changes have been made to the view settings.
 
         - ![Publish](../../Assets/Icons/Publish.png "[Publish]") publish  
@@ -35,29 +35,30 @@
             > [Info] When the settings of a view have been changed, an asterisk is displayed next to the view name. The asterisk is hidden as soon as the changes have been saved.
 
         - ![Delete](../../Assets/Icons/Trash01.png "[Delete]") delete  
-            Click this entry to delete the selected view. A confirmation window to confirm the deletion is displayed. This menu entry is only displayed if you have selected a view.
-
+            Click this entry to delete the selected view. A confirmation window to confirm the deletion is displayed. This menu entry is only displayed if you have selected a view.   
+ 
 - *Connections*   
     Click the drop-down list to select a connection. The following options are available:
     - **All connections**  
-        Select this option to display authorization transactions for all configured connections. 
+      Select this option to display payment and capture transactions for all configured connections. 
     - **Connection name**  
-        Select this option to display authorization transactions for the selected connection. When a specific connection has been selected, the **All connections** option is no longer displayed. Click the selected connection again to deselect it.  
+      Select this option to display payment and capture transactions for the selected connection. When a specific connection has been selected, the **All connections** option is no longer displayed. Click the selected connection again to deselect it.  
+
 - ![Search](../../Assets/Icons/Search.png "[Search]") (Search)   
-    Click this button to display the search bar and search for authorization transactions.   
+   Click this button to display the search bar and search for authorization transactions.   
 
 - ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh)   
-    Click this button to update the list of authorization transactions.   
+   Click this button to update the list of authorization transactions.   
 
 - ![Columns](../../Assets/Icons/Columns.png "[Columns]") Columns (x)   
-    Click this button to display the columns bar and to customize the displayed columns and the order of columns in the list. The *x* indicates the number of columns that are currently displayed in the list.   
-
+   Click this button to display the columns bar and to customize the displayed columns and the order of columns in the list. The *x* indicates the number of columns that are currently displayed in the list.   
+    
 - ![Filter](../../Assets/Icons/Filter.png "[Filter]") Filter (x)   
-    Click this button to display the filter bar and customize the active filters. The *x* indicates the number of filters that are currently active.  
+   Click this button to display the filter bar and customize the active filters. The *x* indicates the number of filters that are currently active.  
 
 - [x]     
-    Select the checkbox to the left of one list entry to display the editing toolbar for this single entry.   
-    If you click the checkbox in the header, all entries in the list are selected. The editing toolbar then shows all actions you can perform on several entries.
+   Select the checkbox to the left of one list entry to display the editing toolbar for this single entry.   
+   If you click the checkbox in the header, all entries in the list are selected. The editing toolbar shows then all actions you can perform on several entries.
 
 - [VOID]   
   Click this button to invalidate the transaction for the Actindo database. For detailed information, see [Void cancellation and chargeback transaction](../Operation/04_ManageCancellationsChargebacks.md#void-cancellation-and-chargeback-transaction).
@@ -255,33 +256,18 @@ In contrast to the messages that are provided with the *Logging* menu entry, you
 
 ## Create view
 
-*Payments > Cancellations and chargebacks > Tab LIST > Button Points > Menu entry "create"*
+*Payments > Payments and captures > Tab LIST > Button Points > Menu entry create*
 
 ![Create view](../../Assets/Screenshots/Payments/LIST/CreateView.png "[Create view]")
 
-- *Name*   
-    Enter a name for the view.
-
-- [CANCEL]   
-    Click this button to cancel creating a view. The *Create view* window is closed.
-
-- [SAVE]   
-    Click this button to save the new view and display it in the *VIEW* drop-down list. The *Create view* window is closed.
+For a detailed description of this window and the corresponding functions, see [Create view](./01a_ListAuthorizations.md#create-view).
 
 
 
 ## Rename view
 
-*Payments > Cancellations and chargebacks > Tab LIST > Button Points > Menu entry "rename"*
+*Payments > Payments and captures > Tab LIST > Button Points > Menu entry "rename"*
 
 ![Rename view](../../Assets/Screenshots/Payments/LIST/RenameView.png "[Rename view]")
 
-- *Name*   
-    Click this field to edit the view name.
-
-- [CANCEL]   
-    Click this button to cancel renaming the view. The *Rename view* window is closed.
-
-- [SAVE]   
-    Click this button to save the changes and display the new name in the *VIEW* drop-down list. The *Rename view* window is closed.
-
+For a detailed description of this window and the corresponding functions, see [Rename view](./01a_ListAuthorizations.md#rename-view).

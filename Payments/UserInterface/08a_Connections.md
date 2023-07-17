@@ -148,7 +148,7 @@ The fields displayed in the *Credentials* tab vary depending on the selected dri
 The fields displayed in the *Credentials* section vary depending on the selected driver. You can get information on it from your payment service provider.
 
 - [SAVE]  
-  Click this button to save any changes made.
+    Click this button to save any changes made.
 
 
 
@@ -171,32 +171,18 @@ This tab is only displayed for drivers with further settings. You can configure 
 
 ## Create view
 
-*Payments > Settings > Tab CONNECTIONS > Button Points > Menu entry create*
+*Payments > Payments and captures > Tab LIST > Button Points > Menu entry create*
 
-![Create view](../../Assets/Screenshots/Payments/Authorizations/CreateView.png "[Create view]")
+![Create view](../../Assets/Screenshots/Payments/LIST/CreateView.png "[Create view]")
 
-- *Name*   
-    Enter a name for the view.
-
-- [CANCEL]   
-    Click this button to cancel creating a view. The *Create view* window is closed.
-
-- [SAVE]   
-    Click this button to save the new view and display it in the *VIEW* drop-down list. The *Create view* window is closed.
+For a detailed description of this window and the corresponding functions, see [Create view](./01a_ListAuthorizations.md#create-view).
 
 
 
 ## Rename view
 
-*Payments > Settings > Tab CONNECTIONS > Button Points > Menu entry rename*
+*Payments > Payments and captures > Tab LIST > Button Points > Menu entry "rename"*
 
-![Rename view](../../Assets/Screenshots/Payments/Authorizations/RenameView.png "[Rename view]")
+![Rename view](../../Assets/Screenshots/Payments/LIST/RenameView.png "[Rename view]")
 
-- *Name*   
-    Click this field to edit the view name.
-
-- [CANCEL]   
-    Click this button to cancel renaming the view. The *Rename view* window is closed.
-
-- [SAVE]   
-    Click this button to save the changes and display it in the *VIEW* drop-down list. The *Rename view* window is closed.
+For a detailed description of this window and the corresponding functions, see [Rename view](./01a_ListAuthorizations.md#rename-view).
