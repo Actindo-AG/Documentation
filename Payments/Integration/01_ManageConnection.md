@@ -69,7 +69,7 @@ Edit a connection to adjust any changed credentials, the connection name or furt
 
 #### Prerequisites
 
-At least one connection has been created, see [Create a connection](#create-psp-connection).
+At least one connection has been created, see [Create PSP connection](#create-psp-connection).
 
 #### Procedure
 

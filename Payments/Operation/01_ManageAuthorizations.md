@@ -140,7 +140,7 @@ The status of an authorization transaction is **Failure** or **Error**.
 ![Authorizations](../../Assets/Screenshots/Payments/Authorizations/LISTAuthorizations.png "[Authorizations]")
 
 
-1. Identify the issue that led to the error/failure. To do this, check the authorization transaction you want to void, see [Check the authorization transaction](#check-authorization-transaction).
+1. Identify the issue that led to the error/failure. To do this, check the authorization transaction you want to void, see [Check authorization transaction](#check-authorization-transaction).
 
 2. Select the authorization transaction to be voided by clicking the checkbox on the left.   
     The editing toolbar is displayed.

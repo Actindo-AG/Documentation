@@ -15,12 +15,12 @@
         Click this button to the right of the *VIEW* drop-down list to display the context menu. The following menu entries are available:
 
         - ![Create](../../Assets/Icons/Plus06.png "[Create]") create  
-            Click this entry to create a view. The *Create view* window is displayed, see [Create view](./01a_ListAuthorizations.md#create-view).
+            Click this entry to create a view. The *Create view* window is displayed, see [Create view](#create-view).
 
         - ![Rename](../../Assets/Icons/Edit02.png "[Rename]") rename  
-            Click this entry to rename the selected view. The *Rename view* window is displayed, see [Rename view](./01a_ListAuthorizations.md#rename-view). This menu entry is only displayed if a view has been selected.
+            Click this entry to rename the selected view. The *Rename view* window is displayed, see [Rename view](#rename-view). This menu entry is only displayed if a view has been selected.
 
-        - [Reset](../../Assets/Icons/Reset.png "[Reset]") reset  
+         - ![Reset](../../Assets/Icons/Reset.png "[Reset]") reset  
             Click this entry to reset all unsaved changes to the settings of the selected view. This menu entry is only displayed if a view has been selected and any changes have been made to the view settings.
 
         - ![Publish](../../Assets/Icons/Publish.png "[Publish]") publish  
@@ -61,7 +61,7 @@
    If you click the checkbox in the header, all entries in the list are selected. The editing toolbar shows then all actions you can perform on several entries.   
 
 - [REFUND]   
-   Click this button to refund the payment manually, so that the order process can be continued. If desired, you can select several transactions at once. For detailed information, see [Refund payment and capture](../Operation/02_ManagePaymentsAndCaptures.md#refund-payment-and-capture-transaction).   
+   Click this button to refund the payment manually, so that the order process can be continued. If desired, you can select several transactions at once. For detailed information, see [Refund payment and capture transaction](../Operation/02_ManagePaymentsAndCaptures.md#refund-payment-and-capture-transaction).   
 
 - [VOID]   
    Click this button to invalidate the transaction for the Actindo database. For detailed information, see [Void payment and capture transaction](../Operation/02_ManagePaymentsAndCaptures.md#void-payment-and-capture-transaction).

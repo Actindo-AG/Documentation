@@ -115,7 +115,7 @@ You can void a confirmation transaction that is no longer valid for the payment 
 
 *Payments > Confirmation > Tab LIST*
 
-!![Confirmation transaction](../../Assets/Screenshots/Payments/Confirmations/LISTConfirmations.png "[Confirmation transaction]")
+![Confirmation transaction](../../Assets/Screenshots/Payments/Confirmations/LISTConfirmations.png "[Confirmation transaction]")
 
 1. Identify the issue that led to the error/failure. To do this, check the confirmation transaction to be voided, see [Check confirmation transaction](#check-confirmation-transaction).
 
