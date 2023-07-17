@@ -1,6 +1,6 @@
 # Manage user groups
 
-User groups define the individual permissions a user assigned to this group have in the *Actindo Core1*. In opposite to the users are User groups not global. Group rights are valid for the current instance only. This means that they are not shared between the main account and the sandboxes. 
+User groups define the individual permissions a user assigned to this group have in the *Actindo Core1 Platform*. In opposite to the users are User groups not global. Group rights are valid for the current instance only. This means that they are not shared between the main account and the sandboxes. 
 If you add a user to a group, the user is automatically listed for this account. If you want to remove a user from an account, you need to remove the user from all groups.
 
 

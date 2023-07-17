@@ -21,7 +21,7 @@ Users are created in the main account only.
 ![User management](../../Assets/Screenshots/Settings/UsersGroups/UserManagement/UserManagement.png "[User management]")
 
 1. Click the ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) button in the bottom right corner.   
-The screen is grayed out. A small menu is opened down right.
+The screen is grayed out. A small menu is opened in the bottom right corner.
 
    ![User management menu](../../Assets/Screenshots/Core1Platform/AdministratingCore1/UserAdd.png "[User management menu]")
 
@@ -103,7 +103,7 @@ The *Profile* tab is displayed. The new assigned group is added to the list of g
 
 ## Edit user
 
-Users are edited in the main account only. There is one exception: Users are able to change their own data on a sandbox (see [Edit profile settings](../UsingCore1/02_EditProfileSettings.md "Edit profile settings")).
+Users are edited in the main account only. There is one exception: Users are able to change their personal data on a sandbox (see [Edit profile settings](../UsingCore1/02_EditProfileSettings.md "Edit profile settings")).
 
 #### Prerequisites
 
@@ -146,7 +146,7 @@ If the *Universal Second Factor (U2F)* is disabled, the user will no longer need
 ## Invite user to sandbox
 
 It is necessary to invite a user to a sandbox, because users cannot be created there.
-When inviting a user to a sandbox, it is necessary to assign the user to a user group. Only then the user is listed in this instance and can access the sandbox. <!---Julian, ist das richtig oder habe ich etwas falsch verstanden? User is doch gar nicht in der Liste?-->
+When inviting a user to a sandbox, it is necessary to assign the user to a user group. Only then the user is listed in this instance and can access the sandbox. <!---Julian, ist das richtig oder habe ich etwas falsch verstanden? Ist User denn schon in Sandbox, ober prüft system in main account auf Plausibility?-->
 
 #### Prerequisites
 
@@ -166,7 +166,7 @@ When inviting a user to a sandbox, it is necessary to assign the user to a user 
     ![Invite user](../../Assets/Screenshots/Core1Platform/AdministratingCore1/UserInvite.png "[Invite user]")
 
 
-2. Click the ![Invite user](../../Assets/Icons/UserInvite02.png  "[Invite user]") (Invite user) button.   
+2. Click the ![Invite user](../../Assets/Icons/UserInvite02.png  "[Invite user]") (Invite user) button in the bottom right corner.   
  The *Invite user* window is opened.
 
     ![Invite user](../../Assets/Screenshots/Core1Platform/AdministratingCore1/UserInviteWindow.png  "[Invite user]") 
@@ -185,5 +185,5 @@ Depending on the settings, the user gets an email that informs him or her about 
 
 The deletion of users in a main account is not possible. By inactivating a user, 
 
-## Remove user from a sandbox
+## Inactivate user in sandbox
 If you want to remove a user from a sandbox, you need to remove the user from all groups. For detailed information, see [Remove user from a group](../AdministratingCore1/03_ManageGroups.md#remove-user-from-a-group "Remove ser from a group").

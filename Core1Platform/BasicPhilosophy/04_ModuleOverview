@@ -72,7 +72,7 @@ POS-System with multi location and multi cash register handling
 **Fulfillment**   
 Whether you work with external fulfillment providers or handle shipping yourself, the *Actindo Fulfillment* module allows you to seamlessly integrate external service providers for fast shipping processing and clear monitoring.
 
-**Warehousing**
+**Warehousing**   
 Management of stock levels per Material. Allows several kind of bookings like inventory, reservations, picking, sells,...
 
 **OMS**   
@@ -99,14 +99,14 @@ Communication with external payment service providers such as PayPal, Adyen, and
 
 
 
-Nicht in Julians Grafik: https://miro.com/app/board/uXjVPhy8BEc=/ 
+<!---Nicht in Julians Grafik: https://miro.com/app/board/uXjVPhy8BEc=/ -->
 
 Email
 
 
 Consulting
 
-ECM ->Enterprise Content Management?
+ECM >Enterprise Content Management?
 
 Tasks
 
@@ -126,4 +126,4 @@ Lager = Warehousing?
 Reporting generator
 
 
-Einkauf -> Purchasing & Supplier Management?
+Einkauf > Purchasing & Supplier Management?

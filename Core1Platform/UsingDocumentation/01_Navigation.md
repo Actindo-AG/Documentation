@@ -158,7 +158,7 @@ For detailed information, see [Opening the site via the Actindo home page](#open
 
 1. Read the documentation. 
 
-2. Use the ![Go to top](../../Assets/Icons/GoToTop.png "[Go to top]")[Go to top] button down right to quickly return to the beginning of the topic.  
+2. Use the ![Go to top](../../Assets/Icons/GoToTop.png "[Go to top]")[Go to top] button in the bottom right corner to quickly return to the beginning of the topic.  
 
 3. At the end of a topic, use the [<< Previous article] or [>> Next article] buttons to browse the table of content (TOC).
 

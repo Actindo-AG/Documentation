@@ -10,7 +10,7 @@ In this part of the *Actindo Core1 Platform* documentation, you will find the fo
     - [Edit user](./02_ManageUsers.md#edit-user)
     - [Invite user to sandbox](./02_ManageUsers.md#invite-user-to-sandbox)
     - [Inactivate user in main account](./02_ManageUsers.md#inactivate-user-in-main-account)
-    - [Remove user from a sandbox](./02_ManageUsers.md#inactivate-user-in-main-account) 
+    - [Inactivate user in a sandbox](./02_ManageUsers.md#inactivate-user-in-sandbox) 
 
 
 - [Manage user groups](./03_ManageGroups.md) 
