@@ -1,4 +1,3 @@
-
 # Module overview
 
 In this part of the *Actindo Core1 Platform* documentation, you will find a brief overview on the *Actindo Core1 Platform* modules, plug ins, technical components ....
@@ -44,11 +43,14 @@ Allows the export of any data from various data sources into DataHub-based entit
 ## Product data
 
 **Warehouse Management**   
-Stores basic data needed for order management as well as warehouse handling (for example SKU (stock keeping unit), weight, length) and no meta data such as shop description, keywords. <!---Julian, das war in Deiner Grafik, was bedeutet das?-->   
-The *Actindo Warehouse Management* module is the central place on *Actindo's Core1 platform* for organizing and monitoring warehouse processes. It provides a complete inventory overview of all your products and warehouses, as well as inventory tracking in real time. You can plan warehouse locations according to different metrics, such as buildings shapes and sizes, shelves or compartments, and manage individual storage bins. 
+The *Actindo Warehouse Management* stores basic data needed for order management as well as warehouse handling, (for example SKU (stock keeping unit), weight, length) and no meta data such as shop description, keywords. <!---Julian, das war in Deiner Grafik, was bedeutet das?--> 
+
+The *Actindo Warehouse Management* module is the central place on *Actindo's Core1 platform* for organizing and monitoring warehouse processes. It provides a complete inventory overview of all your products and warehouses, as well as inventory tracking in real time. It stores basic data needed for order management as well as warehouse handling, such as SKU (stock keeping unit), weight, length. You can plan warehouse locations according to different metrics such as building shapes and sizes, shelves or compartments, as well as manage individual storage bins. 
+
+ and no meta data such as shop description, keywords. <!---Julian, in Deiner Grafik, was bedeutet das?--> 
 
 **PIM**  
-The *Actindo Product Information Management* (PIM) module is the master data store collecting, managing, and enriching product data and thus the heart of all your sales channels. You can integrate the *PIM* module quickly and into your existing system landscapes and serves as the basis for efficient unified commerce across all channels.
+The *Actindo Product Information Management* (PIM) module is the master data store for collecting, managing, and enriching product data and thus the heart of all your sales channels. You can integrate the *PIM* module quickly and into your existing system landscapes and serves as the basis for efficient unified commerce across all channels.
 
 **Cloudinary**  
 The *Actindo Cloudinary* module is an integration of Cloudinary&trade; to Actindo. It allows to output the Cloudinary&trade; images via their URLs in web shops or marketplaces via the ETL mapping in Actindo. It is integrated via the *Actindo DataHub* module.  
@@ -92,9 +94,6 @@ Communication with external payment service providers such as PayPal, Adyen, and
 
 
 
-
-
-<!---Nicht in Julians Grafik: https://miro.com/app/board/uXjVPhy8BEc=/ -->
 
 Email
 
